@@ -1,0 +1,868 @@
+WEBVTT
+
+00:00.400 --> 00:03.100
+Ở video trước, mình đã được học về
+
+00:03.100 --> 00:06.760
+hàm số vecto và các tính chất của nó,
+
+00:06.760 --> 00:10.340
+và cả vị trí của hàm vecto,
+
+00:10.340 --> 00:13.460
+bằng một số cách nào đó nó có thể thay thế được
+
+00:13.460 --> 00:16.110
+việc tham số hoá truyền thống để biểu diễn đường cong.
+
+00:16.110 --> 00:18.050
+Trong video này, mình muốn hiểu thêm
+
+00:18.050 --> 00:21.910
+về ý nghĩa của việc lấy đạo hàm
+
+00:21.910 --> 00:23.730
+của một hàm vecto.
+
+00:23.730 --> 00:27.190
+Khi đó, nó sẽ là đạo hàm theo tham số t.
+
+00:27.190 --> 00:30.510
+Để mình vẽ ra một vài cái ở đây.
+
+00:30.510 --> 00:36.580
+giả sử mình có hàm vecto r của t,
+
+00:36.580 --> 00:39.450
+và giống như ở các video trước, x của
+
+00:39.450 --> 00:46.830
+t nhân vecto đơn vị i cộng y của t nhân vecto đơn vị j.
+
+00:46.830 --> 00:49.460
+Nếu mình xét trong không gian 3 chiều, mình sẽ cộng z của t
+
+00:49.460 --> 00:52.510
+nhân k, nhưng mình sẽ làm nó một cách đơn giản thôi.
+
+00:52.510 --> 00:56.950
+Cho là cái này biểu diễn đường cong mà đường cong
+
+00:56.950 --> 01:03.630
+mà mình đang xét, t ở giữa a và b, và đường cong này
+
+01:03.630 --> 01:07.870
+sẽ nhìn giống như thế này,
+
+01:07.870 --> 01:12.600
+mình vẽ sơ sơ nó ra nha,
+
+01:12.600 --> 01:17.900
+nhìn nó sẽ như thế này.
+
+01:17.900 --> 01:19.890
+Đây là khi t bằng a, nó sẽ
+
+01:19.890 --> 01:21.750
+đi theo hướng này.
+
+01:21.750 --> 01:25.620
+Đây là khi t bằng b, đây là t bằng
+
+01:25.620 --> 01:30.790
+với a, vậy ở ngay đây sẽ là x của a, đây sẽ là y
+
+01:30.790 --> 01:36.730
+của a, và tương tự, ở trên này, đây là x của b
+
+01:36.730 --> 01:40.240
+và ở bên đây là y của b.
+
+01:40.240 --> 01:45.150
+Ở video trước mình đã thấy là điểm kết thúc của
+
+01:45.150 --> 01:47.720
+những vecto vị trí đều diễn tả đường cong này.
+
+01:47.720 --> 01:51.400
+Vậy r của a mà mình thấy trong video trước, nó biểu diễn
+
+01:51.400 --> 01:52.300
+điểm này ngay đây.
+
+01:52.300 --> 01:54.270
+Mình không muốn nhắc lại quá nhiều bài cũ,
+
+01:54.270 --> 01:56.800
+nhưng điều mình muốn làm là nghĩ thử xem, hiệu
+
+01:56.800 --> 01:58.930
+của hai điểm này là gì?
+
+01:58.930 --> 02:01.410
+Giả sử mình lấy điểm bất kỳ ở đây.
+
+02:01.410 --> 02:03.760
+Một t nào đó bất kỳ ở đây
+
+02:03.760 --> 02:06.780
+Mình gọi đó là r của t.
+
+02:06.780 --> 02:08.197
+Thật ra mình sẽ chọn một điểm khác, vì
+
+02:08.197 --> 02:10.100
+mình muốn làm cho nó rõ hơn nữa.
+
+02:10.100 --> 02:13.370
+để xem, mình sẽ đổi màu,
+
+02:13.370 --> 02:17.080
+ở ngay đây chính là r của t bất kì
+
+02:17.080 --> 02:18.980
+một t nào đó, ở đây.
+
+02:18.980 --> 02:22.410
+Đó là r của t
+
+02:22.410 --> 02:25.050
+Nó sẽ là a cộng gì đó.
+
+02:25.050 --> 02:26.950
+Nó là một t nào đó
+
+02:26.950 --> 02:30.080
+giả sử mình muốn tìm, giả sử mình
+
+02:30.080 --> 02:31.560
+tăng t lên một chút
+
+02:31.560 --> 02:32.650
+tăng h đơn vị.
+
+02:32.650 --> 02:37.250
+Cho là r của t cộng h, nếu chúng ta xem
+
+02:37.250 --> 02:40.430
+tham số t là thời gian, mình đang tăng theo chiều của thời gian
+
+02:40.430 --> 02:42.310
+một khoảng nào đó, vậy điểm của mình đã di chuyển
+
+02:42.310 --> 02:43.180
+một chút.
+
+02:43.180 --> 02:45.650
+Cho là nó ở ngay đây.
+
+02:45.650 --> 02:52.530
+Điểm màu vàng ở ngay đó, r của t cộng h
+
+02:52.530 --> 02:55.360
+Nó chỉ lớn hơn giá trị của h một chút.
+
+02:55.360 --> 03:00.040
+Bây giờ có thể mình sẽ thắc mắc là
+
+03:00.040 --> 03:04.650
+r thay đổi nhanh chóng như thế nào theo t?
+
+03:04.650 --> 03:06.380
+Vậy điều đầu tiên mình muốn hỏi là
+
+03:06.380 --> 03:07.550
+hiệu giữa hai cái này là gì?
+
+03:07.550 --> 03:11.010
+Mình muốn hình dung ra nó một chút.
+
+03:11.010 --> 03:16.880
+Nếu mình lấy r, vecto vị trí, mà mình có bằng
+
+03:16.880 --> 03:21.080
+việc tính giá trị r tại t cộng h, và từ đó, mình sẽ
+
+03:21.080 --> 03:22.590
+trừ r của t ra,
+
+03:25.580 --> 03:26.690
+mình sẽ có được gì?
+
+03:26.690 --> 03:29.730
+bạn sẽ muốn cân nhắc một số vecto đại số
+
+03:29.730 --> 03:32.130
+nhưng cơ bản mình sẽ có vecto này.
+
+03:32.130 --> 03:34.210
+mình sẽ dùng một màu sáng một chút.
+
+03:34.210 --> 03:36.820
+Mình sẽ lấy vecto ở đây
+
+03:36.820 --> 03:39.320
+mình sẽ cho nó màu hồng đậm.
+
+03:39.320 --> 03:44.010
+vecto màu hồng đậm ở đây,
+
+03:44.010 --> 03:47.080
+vecto hồng đậm chính là vecto r của t
+
+03:47.080 --> 03:53.120
+cộng h trừ r của t.
+
+03:53.120 --> 03:55.110
+và nó sẽ hợp lý, vì khi bạn cộng vecto
+
+03:55.110 --> 03:56.050
+bạn cộng từ đầu đến đuôi.
+
+03:56.050 --> 04:04.060
+bạn có thể viết nó theo cách khác là r của t cộng
+
+04:04.060 --> 04:11.490
+cái này ở đây, cộng r của t cộng h trừ r của t.
+
+04:11.490 --> 04:13.630
+Nếu bạn cộng hai vecto, bạn đang cộng
+
+04:13.630 --> 04:16.180
+mình đang cộng vecto này với
+
+04:16.180 --> 04:17.350
+vecto này ở đây.
+
+04:17.350 --> 04:20.260
+Nếu bạn đặt đuôi của vecto thứ hai tại
+
+04:20.260 --> 04:21.450
+đầu của vecto thứ nhất.
+
+04:21.450 --> 04:23.850
+Đây là vecto thứ nhất, và mình đặt đuôi của vecto
+
+04:23.850 --> 04:28.000
+thứ hai, và tổng của cả hai, như mình dự đoán
+
+04:28.000 --> 04:29.470
+nên bằng với cái này.
+
+04:29.470 --> 04:33.050
+Nó nên bằng với r của t cộng h
+
+04:33.050 --> 04:36.000
+và chúng ta thấy trong trường hợp này về mặt đại số, mình sẽ
+
+04:36.000 --> 04:39.240
+thấy rõ ràng cái này và cái này
+
+04:39.240 --> 04:40.080
+sẽ trừ hết cho nhau.
+
+04:40.080 --> 04:41.270
+Mong là nó làm bài toán đơn giản hơn một chút.
+
+04:41.270 --> 04:42.510
+Và mình muốn làm rõ ở đây,
+
+04:42.510 --> 04:45.450
+đây không phải là một vecto vị trí.
+
+04:45.450 --> 04:48.560
+Mình đang không nói là sẽ để đuôi của vecto này
+
+04:48.560 --> 04:51.870
+ở gốc và dùng nó để biểu diễn một vị trí duy nhất.
+
+04:51.870 --> 04:54.610
+Nhưng bây giờ, nó chỉ là một vecto bình thường mà thôi.
+
+04:54.610 --> 04:57.700
+nó biểu diễn sự biến thiên giữa hai
+
+04:57.700 --> 04:59.140
+vecto vị trí khác.
+
+04:59.140 --> 05:00.790
+vậy cái này sẽ ở đây.
+
+05:00.790 --> 05:03.930
+nhưng vecto này thật ra biểu diễn sự biến thiên.
+
+05:03.930 --> 05:07.070
+về mặt đại số, nó sẽ trông như thế nào
+
+05:07.070 --> 05:08.460
+nếu mình mở rộng nó ?
+
+05:08.460 --> 05:14.740
+vậy đây sẽ bằng với, r của t cộng h là gì ?
+
+05:14.740 --> 05:20.520
+Để mình viết nó ra ở đây.
+
+05:20.520 --> 05:27.190
+nó giống với x của t cộng h nhân với vecto đơn vị i
+
+05:27.190 --> 05:35.040
+cộng y của t cộng h nhân vecto đơn vị , đó chính là
+
+05:35.040 --> 05:40.570
+phần này, phần này ở đây chính là nó, trừ đi
+
+05:40.570 --> 05:44.300
+phần này, vậy trừ, mình sẽ làm nó ở dòng thứ hai, mình có thể
+
+05:44.300 --> 05:46.240
+làm nó ở đây nhưng mình đang hết chỗ
+
+05:46.240 --> 05:52.650
+trừ x của t, r của t chỉ là x của t nhân i, cộng, nhưng
+
+05:52.650 --> 05:55.700
+mình sẽ nhân dấu trừ vào, vậy trừ
+
+05:55.700 --> 05:59.690
+y của t nhân j.
+
+05:59.690 --> 06:02.660
+Thật ra mình sẽ ghi nó là trừ,
+
+06:02.660 --> 06:04.130
+để mình ghi nó như thế này, cộng với cái này.
+
+06:04.130 --> 06:06.200
+Vậy bạn có thể thấy cái này chỉ là
+
+06:06.200 --> 06:06.950
+phần này ở đây.
+
+06:06.950 --> 06:09.200
+Mình chỉ đang xét nó tại t.
+
+06:09.200 --> 06:11.030
+vậy bạn có x của t và y của t, sau đó
+
+06:11.030 --> 06:11.970
+mình có thể nhân phân phối nó vào.
+
+06:11.970 --> 06:14.255
+nếu bạn nhân dấu trừ vào, bạn có trừ x
+
+06:14.255 --> 06:15.920
+của t và trừ y của t
+
+06:15.920 --> 06:19.380
+và trong phép cộng vecto, bạn cần cân nhắc cái này
+
+06:19.380 --> 06:20.920
+bạn biết là bạn có thể
+
+06:20.920 --> 06:22.990
+cộng thành phần tương ứng.
+
+06:22.990 --> 06:24.450
+bạn có thể cộng thành phần x và cộng
+
+06:24.450 --> 06:25.750
+thành phần y.
+
+06:25.750 --> 06:28.790
+vậy đây sẽ bằng, để mình viết nó ra đây
+
+06:28.790 --> 06:31.810
+vì mình nghĩ mình sẽ cần thêm chỗ lát nữa
+
+06:31.810 --> 06:34.510
+nên mình viết nó ra đây,
+
+06:34.510 --> 06:42.930
+vậy mình có r của t cộng h trừ r của t bằng với, mình
+
+06:42.930 --> 06:47.100
+sẽ nhóm thành phần x và y, sẽ bằng với
+
+06:47.100 --> 06:49.920
+các thành phần x cộng với nhau, nhưng đây là
+
+06:49.920 --> 06:51.400
+dấu trừ, nên mình sẽ trừ cái này
+
+06:51.400 --> 06:52.100
+từ cái này.
+
+06:52.100 --> 07:02.400
+vậy x của t cộng h trừ x của t, và nhân tất cả với
+
+07:02.400 --> 07:09.840
+vecto đơn vị theo chiều của x, sau đó mình có cộng y của t
+
+07:09.840 --> 07:16.900
+cộng h trừ y của t nhân vecto đơn vị theo chiều của j.
+
+07:16.900 --> 07:19.490
+Mình chỉ đang sắp xếp nó một chút, và nó sẽ cho mình biết
+
+07:19.490 --> 07:25.870
+độ biến thiên giữa 2 r bất kỳ trong
+
+07:25.870 --> 07:26.610
+một biến thiên khoảng cách nào đó.
+
+07:26.610 --> 07:29.140
+và biến thiên khoảng cách ở đây là h giữa
+
+07:29.140 --> 07:31.000
+2 vecto vị trí.
+
+07:31.000 --> 07:33.500
+Bây giờ, điều mình đặt ra ở đầu video, mình nói
+
+07:33.500 --> 07:36.100
+mình muốn tìm ra biến thiên,
+
+07:36.100 --> 07:37.990
+biến thiên tức thời
+
+07:37.990 --> 07:39.790
+theo t.
+
+07:39.790 --> 07:42.920
+vậy mình muốn xem, độ biến thiên của cái này
+
+07:42.920 --> 07:46.570
+trong khoảng của h là gì?
+
+07:46.570 --> 07:48.750
+thay vì viết h mình có thể viết delta t
+
+07:48.750 --> 07:50.010
+nó đều biểu diễn cùng một cái.
+
+07:50.010 --> 07:52.570
+vậy mình muốn chia cái này cho h
+
+07:52.570 --> 07:55.410
+Vậy nó có nghĩa là
+
+07:55.410 --> 07:58.200
+đây là độ biến thiên vecto của mình, nhưng mình muốn nói
+
+07:58.200 --> 07:59.310
+trong khoảng của h.
+
+07:59.310 --> 08:01.250
+và nó tương tự với khi mình tìm hệ số góc.
+
+08:01.250 --> 08:05.090
+mình nói delta y, hoặc biến thiên
+
+08:05.090 --> 08:06.290
+y phần biến thiên x.
+
+08:06.290 --> 08:09.160
+dạng biến thiên này trong hàm số đối với với biến thiên của x
+
+08:09.160 --> 08:11.960
+À mình không nên nói biến thiên của
+
+08:11.960 --> 08:13.470
+x, đối với biến thiên của t.
+
+08:13.470 --> 08:17.100
+ở đây, biến thiên của t là h đúng không?
+
+08:17.100 --> 08:21.290
+hiệu giữa t cộng h và t chỉ là h.
+
+08:21.290 --> 08:25.650
+Vậy mình sẽ chia tất cả cho h.
+
+08:25.650 --> 08:28.750
+khi bạn nhân một vecto với một đại lượng vô hướng, hoặc chia
+
+08:28.750 --> 08:31.070
+cho một đại lượng vô hướng, bạn chỉ lấy các thành phần
+
+08:31.070 --> 08:34.140
+rồi chia hoặc nhân cho đại lượng đó, chúng ta
+
+08:34.140 --> 08:35.660
+sẽ thấy ngay đây.
+
+08:35.660 --> 08:39.540
+ở đây, đối với mỗi hiệu hữu hạn ở đây, h
+
+08:39.540 --> 08:43.300
+sẽ cho chúng ta độ biến thiên của vector đối với h
+
+08:43.300 --> 08:46.220
+nhưng nếu bạn muốn tìm biến thiên tức thời
+
+08:46.220 --> 08:49.230
+giống như chúng ta làm khi mới học vi phân
+
+08:49.230 --> 08:50.520
+thì có thể thấy cái này ở
+
+08:50.520 --> 08:52.670
+đây khá tương tự với hệ số góc
+
+08:52.670 --> 08:55.520
+Nó sẽ dễ hiểu hơn cho mình nếu phần
+
+08:55.520 --> 09:02.220
+được hỏi trông như thế này
+
+09:02.220 --> 09:04.920
+nếu nó là một đoạn tuyến tính.
+
+09:04.920 --> 09:07.240
+nếu đoạn của chúng ta trông như thế này.
+
+09:07.240 --> 09:09.800
+Mình có thể tính nó và mình sẽ có
+
+09:09.800 --> 09:13.080
+biến thiên trung bình của vecto vị trí, bạn có thể hình dung
+
+09:13.080 --> 09:15.880
+2 vecto vị trí, đó là một trong số chúng
+
+09:15.880 --> 09:18.050
+thật ra, chúng sẽ song song với nhau.
+
+09:18.050 --> 09:24.470
+vecto vị trí trí thì không cần phải song song
+
+09:24.470 --> 09:26.740
+chúng có thể như thế này.
+
+09:26.740 --> 09:29.340
+Và cái này sẽ biểu diễn sự biến thiên
+
+09:29.340 --> 09:32.940
+giữa hai điều này đối với h, hoặc vận tốc biến thiên
+
+09:32.940 --> 09:36.230
+đối với với biến thiên của tham số, đúng không ?
+
+09:36.230 --> 09:40.530
+đây là, h, bạn cũng có thể xem xét, dạng delta t này.
+
+09:40.530 --> 09:44.050
+Có người cho rằng h đơn giản hơn, đôi khi
+
+09:44.050 --> 09:44.900
+có người lại thấy delta t đơn giản hơn
+
+09:44.900 --> 09:47.230
+nhưng dù gì, điều mình quan tâm là tính tức thời
+
+09:47.230 --> 09:49.140
+Mình đang xét đường cong, chúng ta đang làm với phép giải tích
+
+09:49.140 --> 09:50.870
+điều này sẽ ổn nếu chúng ta đang xét nó
+
+09:50.870 --> 09:52.670
+một cách đại số, tuyến tính.
+
+09:52.670 --> 09:53.850
+Vậy phải làm cái này như thế nào?
+
+09:53.850 --> 09:58.080
+có lẽ, chúng ta có thể lấy giới hạn khi h tiến đến 0
+
+09:58.080 --> 09:59.760
+để mình kéo qua đây
+
+09:59.760 --> 10:03.700
+vậy mình sẽ lấy giới hạn, để mình làm nó bằng một
+
+10:03.700 --> 10:07.910
+màu sáng hơn một chút.
+
+10:07.910 --> 10:12.170
+giới hạn khi h tiến đến 0 của cả hai bên.
+
+10:12.170 --> 10:16.440
+ở đây, cũng vậy, mình sẽ lấy giới hạn khi h tiến đến 0,
+
+10:16.440 --> 10:18.520
+và ở đây cũng vậy mình sẽ lấy giới hạn khi
+
+10:18.520 --> 10:20.380
+h tiến đến 0
+
+10:20.380 --> 10:22.970
+Vậy bạn có thể thấy là độ biến thiên
+
+10:22.970 --> 10:27.866
+đối với biến thiên tham số t là bao nhiêu, nhưng thay đổi
+
+10:27.866 --> 10:30.480
+tức thì là gì khi hiệu trở nên nhỏ hơn
+
+10:30.480 --> 10:31.280
+nhỏ hơn và nhỏ hơn?
+
+10:31.280 --> 10:33.870
+đây chính là điều đầu tiên mà mình học khi mình học về
+
+10:33.870 --> 10:36.810
+hệ số góc tức thời, vận tốc tức thời
+
+10:36.810 --> 10:38.330
+hoặc hệ số góc của tiếp tuyến.
+
+10:38.330 --> 10:41.270
+Cái này nhìn có vẻ như là chưa xác định.
+
+10:41.270 --> 10:45.260
+chúng ta chưa xác định giới hạn hàm vecto, chúng ta
+
+10:45.260 --> 10:47.820
+chưa xác định đạo hàm hàm vecto.
+
+10:47.820 --> 10:50.250
+Nhưng may mắn là tất cả cái này nhìn
+
+10:50.250 --> 10:51.160
+khá quen thuộc
+
+10:51.160 --> 10:54.400
+đây chính là định nghĩa đạo hàm.
+
+10:54.400 --> 10:56.310
+Và đây là hàm số vô hướng ở đây
+
+10:56.310 --> 10:58.340
+Chúng được nhân với vecto để có được
+
+10:58.340 --> 10:59.880
+các hàm vecto.
+
+10:59.880 --> 11:02.100
+Nhưng ở đây, theo định nghĩa, đây là
+
+11:02.100 --> 11:04.330
+đạo hàm, đây là x phẩy của t.
+
+11:04.330 --> 11:08.020
+Hoặc đây là dx dt.
+
+11:08.020 --> 11:12.280
+Cái này là y phẩy của t, hoặc chúng ta có thể
+
+11:12.280 --> 11:14.950
+viết nó là dy dt
+
+11:14.950 --> 11:17.520
+và mình có thể xác định, mình có thể nói
+
+11:17.520 --> 11:19.220
+là, bạn có thể dùng một chút
+
+11:19.220 --> 11:20.590
+trực giác ở đây để giải.
+
+11:20.590 --> 11:23.890
+Mình có thể gọi biểu thức này
+
+11:23.890 --> 11:30.100
+ngay đây, là đạo hàm của hàm vecto r
+
+11:30.100 --> 11:35.440
+theo t, hoặc chúng ta có thể gọi nó là dr dt, chú ý mình
+
+11:35.440 --> 11:37.170
+giữ ký hiệu vecto ở đây.
+
+11:37.170 --> 11:44.470
+đây là đạo hàm, và tất cả sẽ bằng với, r
+
+11:44.470 --> 11:47.700
+phẩy của t, sẽ bằng với, đây chỉ là
+
+11:47.700 --> 11:50.450
+đạo hàm của x theo t mà thôi, sẽ bằng với x
+
+11:50.450 --> 11:54.230
+phẩy của t nhân x - vecto đơn vị, vecto đơn vị ngang
+
+11:54.230 --> 12:01.170
+cộng y phẩy của t nhân y - vecto đơn vị, nhân
+
+12:01.170 --> 12:04.240
+j vecto đơn vị ngang.
+
+12:04.240 --> 12:06.800
+Đây là một kết quả khá là đẹp.
+
+12:06.800 --> 12:09.340
+nhưng điều khó ở đây có lẽ là hình dung ra
+
+12:09.340 --> 12:10.730
+nó biểu diễn điều gì.
+
+12:10.730 --> 12:14.490
+nếu chúng ta nghĩ về những gì vừa xảy ra, để mình vẽ
+
+12:14.490 --> 12:19.730
+một đồ thị lớn để hình dung rõ hơn.
+
+12:19.730 --> 12:22.310
+Giả sử đường cong của mình trông như thế này.
+
+12:22.310 --> 12:23.700
+Đây là đường cong của mình.
+
+12:23.700 --> 12:26.860
+Cho rằng đây là, mình muốn tìm ra
+
+12:26.860 --> 12:29.210
+độ biến thiên tức thời tại điểm này ngay đây.
+
+12:29.210 --> 12:32.550
+đó là r của t
+
+12:32.550 --> 12:35.520
+sau đó nếu chúng ta lấy r của t cộng h, chúng ta thấy nó rồi,
+
+12:35.520 --> 12:39.740
+t cộng h có thể sẽ trông như thế này
+
+12:39.740 --> 12:43.090
+vậy đây là r của t cộng h.
+
+12:43.090 --> 12:46.290
+bây giờ hiệu giữa hai cái này, đây chỉ là
+
+12:46.290 --> 12:49.250
+tử số khi bạn lấy hiệu, hoặc độ
+
+12:49.250 --> 12:55.170
+biến thiên từ vecto này đến vecto đó theo
+
+12:55.170 --> 12:57.140
+t, nó khó để hình dung ở đây.
+
+12:57.140 --> 12:58.960
+nên mình sẽ có một video để mình có thể hiểu về
+
+12:58.960 --> 13:00.160
+độ lớn của nó ở đây.
+
+13:00.160 --> 13:02.200
+đó có thể là một vài vector.
+
+13:02.200 --> 13:03.560
+hiệu của hai cái này sẽ
+
+13:03.560 --> 13:05.070
+là phần này đây.
+
+13:05.070 --> 13:07.470
+Nhưng sau khi bạn chia nó cho h, nó sẽ trở thành vecto
+
+13:07.470 --> 13:10.840
+lớn hơn, nếu chúng ta cho rằng h là một số nhỏ.
+
+13:10.840 --> 13:12.410
+Cho là h nhỏ hơn 1.
+
+13:12.410 --> 13:14.410
+Mình sẽ có một vecto lớn hơn, đúng không?
+
+13:14.410 --> 13:17.100
+nhưng dạng biến thiên trung bình trên khoảng thời gian này.
+
+13:17.100 --> 13:22.910
+nhưng khi h trở nên nhỏ hơn, nhỏ hơn và nhỏ hơn,
+
+13:22.910 --> 13:26.100
+r phẩy của t sẽ, hướng của nó sẽ là
+
+13:26.100 --> 13:28.090
+tiếp tuyến với đường cong.
+
+13:28.090 --> 13:29.900
+Mình nghĩ bạn có thể hình dung ra đúng không ?
+
+13:29.900 --> 13:33.320
+khi hai cái này trở nên gần hơn gần hơn và gần hơn, dr sẽ
+
+13:33.320 --> 13:37.790
+trở nên nhỏ hơn, vậy sự biến thiên, dr, hiệu giữa
+
+13:37.790 --> 13:41.220
+2 phần, delta r, sẽ nhỏ hơn, bạn có thể tưởng tượng nếu
+
+13:41.220 --> 13:43.790
+h nhỏ hơn nếu nó ở đây
+
+13:43.790 --> 13:45.510
+Và vậy thì, hiệu giữa hai
+
+13:45.510 --> 13:47.795
+vecto này trở nên nhỏ hơn
+
+13:47.795 --> 13:50.500
+và nó càng ngày càng tiếp tuyến với đường cong.
+
+13:53.770 --> 13:56.800
+nhưng sau đó mình sẽ chia cho một h nhỏ hơn, vậy
+
+13:56.800 --> 14:00.670
+đạo hàm thật sự, khi giới hạn của h tiến đến 0,
+
+14:00.670 --> 14:02.120
+có thể nó là một số còn lớn hơn ở đây.
+
+14:02.120 --> 14:04.420
+và thật ra, độ lớn của vecto này
+
+14:04.420 --> 14:05.720
+sẽ hơi khó để hình dung
+
+14:05.720 --> 14:09.510
+nó sẽ phụ thuộc vào việc tham số hoá của đường cong.
+
+14:09.510 --> 14:11.990
+Nó không phụ thuộc vào hình dáng của đường cong.
+
+14:11.990 --> 14:15.170
+Hướng của vecto này sẽ phụ thuộc vào hình dáng của
+
+14:15.170 --> 14:17.860
+đường cong này, và hướng của nó sẽ
+
+14:17.860 --> 14:22.460
+tiếp tuyến với đường cong
+
+14:22.460 --> 14:26.830
+hoặc bạn có thể tưởng tượng vecto sẽ nằm trên
+
+14:26.830 --> 14:28.220
+đường tiếp tuyến của đường cong
+
+14:28.220 --> 14:30.960
+độ lớn của nó sẽ hơi khó hiểu một chút nên
+
+14:30.960 --> 14:33.050
+mình sẽ nói kĩ hơn về nó
+
+14:33.050 --> 14:35.060
+trong video tiếp theo
+
+14:35.060 --> 14:37.380
+nhưng đây là điều mình muốn bạn hiểu bây giờ
+
+14:37.380 --> 14:40.990
+vì chúng ta sẽ có thể dùng nó trong tương lai
+
+14:40.990 --> 14:44.400
+khi chúng ta làm tích phân đường đối với hàm vecto.

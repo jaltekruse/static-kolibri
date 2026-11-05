@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.667 --> 00:06.764
+W ostatnim wideo, miejmy nadzieję ustaliliśmy pewną intuicję dlaczego - czy raczej o co w szeregu Maclaurin`a
+
+00:06.764 --> 00:11.733
+chodzi, powiedziałem również na końcu filmu, że szereg Maclaurin`a jest szczególnym przypadkiem
+
+00:11.733 --> 00:15.800
+szeregu Taylora. W przypadku szeregu Maclaurin`a przybliżamy
+
+00:15.800 --> 00:22.800
+funkcję w okolicy x równego zeru, a w przypadku szeregu Taylora, o czym będziemy mówić w kolejnych filmach,
+
+00:22.800 --> 00:29.800
+można wybrać dowolną wartość x - lub f(x), wokół której będziemy przybliżać funkcje.
+
+00:29.800 --> 00:34.133
+Poprzestając na tym skupmy się na szeregu Maclaurin`a, ponieważ do pewnego stopnia jest to trochę prostsze
+
+00:34.133 --> 00:39.800
+i samo w sobie doprowadzi nas do całkiem głębokich wniosków na temat matematyki,
+
+00:39.800 --> 00:41.733
+czyli właśnie tam gdzie zamierzam dotrzeć.
+
+00:41.733 --> 00:45.133
+Przeanalizujmy rozwinięcie w szereg Maclurin`a kilku interesujących funkcji
+
+00:45.133 --> 00:48.359
+i zamierzam dobrać funkcję, których pochodne bardzo łatwo obliczyć i można
+
+00:48.359 --> 00:53.067
+obliczać ich pochodne cały czas w nieskończoność (tzn są klasy C nieskończoność)
+
+00:53.067 --> 01:01.733
+Zatem weźmy szereg Maclaurin`a cosinus x, jeżeli f(x)=cos(x),
+
+01:01.733 --> 01:06.867
+następnie - zanim jeszcze zastosuje tę formułę, którą uzyskaliśmy we wprowadzającym filmie,
+
+01:06.867 --> 01:08.800
+lub przynajmniej zaprezentowaliśmy intuicyjnie w ostatnim filmie -
+
+01:08.800 --> 01:13.067
+obliczmy kilka pochodnych z f(x), tak aby dobrze ją wyczuć
+
+01:13.067 --> 01:20.467
+Zatem jeśli weźmiemy pierwszą pochodną, jeśli weźmiemy pierwsza pochodną, pochodna z cos(x) = -sin(x)
+
+01:20.467 --> 01:25.800
+Jeśli weźmiemy pochodną, jeśli weźmiemy pochodną tego
+
+01:25.800 --> 01:30.467
+pochodną sin(x) jest cos(x) i mamy minus tam - czyli jest to -cos(x)
+
+01:30.467 --> 01:35.867
+jeśli weźmiemy pochodną z tego - będzie to trzecia pochodna cos(x),
+
+01:35.867 --> 01:41.067
+teraz po prostu będzie to dodatni sinus x i jeśli weźniemy pochodną z tego,
+
+01:41.067 --> 01:42.733
+otrzymujemy cos(x) ponownie.
+
+01:42.733 --> 01:47.800
+Otrzymujemy cosinus x ponownie. Zatem jeśli weźmiemy pochodną z tego,
+
+01:47.800 --> 01:50.200
+będzie to czwarta pochodna. Powinienem; należy użyć tej notacji
+
+01:50.200 --> 01:52.867
+ale już kojarzysz pomysł? Znów otrzymamy cos(x).
+
+01:52.867 --> 01:57.733
+I jeśli spojrzysz na to o czym rozmawialiśmy w ostatnim filmie, chcemy metodę... chcemy
+
+01:57.733 --> 02:01.200
+funkcje i chcemy jej różne pochodne obliczone w zerze
+
+02:01.200 --> 02:10.800
+Wyznaczmy wartość w zerze. Zatem f(0), cos(0) jest 1, cosinus od zera jest równy jeden.
+
+02:10.800 --> 02:15.133
+Niezależnie od tego czy mówisz o zerze w radianach czy w stopniach, to nie ma znaczenia
+
+02:15.133 --> 02:28.467
+sinus od zera wynosi zero, więc jest to f prim - f prim od zera wynosi zero. Następnie cos(0)
+
+02:28.467 --> 02:32.867
+jest, ponownie, jedynką, ale mamy minus, toteż staje się on ujemny.
+
+02:32.867 --> 02:37.467
+Druga pochodna w zerze jest równa minus jeden.
+
+02:37.467 --> 02:42.800
+Przeanalizujmy trzecią pochodną, trzecia pochodna w zerze
+
+02:42.800 --> 02:48.000
+zatem, sin(0)=0 i czwarta pochodna w zerze
+
+02:48.000 --> 02:54.467
+cos(0) jest równy jeden. Tak więc f prim prim prim w zerze jest równe jeden.
+
+02:54.467 --> 02:57.800
+Widzimy tutaj interesujący wzór, tutaj - jeden, zero, minus jeden, zero, jeden,
+
+02:57.800 --> 03:00.133
+następnie przejdziesz do zera, a następnie przejdziesz do minus jednego, zera.
+
+03:00.133 --> 03:05.600
+Jeśli byliśmy stosowali to, aby znaleźć szereg Maclaurin`a, co byśmy otrzymali?
+
+03:05.600 --> 03:12.133
+Pozwól mi się z tym zmierzyć. Otrzymalibyśmy, nasz wielomian wyglądałby -
+
+03:12.133 --> 03:19.533
+nas wielomian przybliżający cosinus od x będzie równy - f(0)
+
+03:19.533 --> 03:28.600
+f(0) jest jeden, następnie mamy jednen plus f'(0) razy x.
+
+03:28.600 --> 03:33.600
+Ale f'(0) jest po prostu zerem, więc nie będziemy mieć tego wyrazu tam. Będzie to
+
+03:33.600 --> 03:38.800
+x zero razy, nie zamierzam nawet tego napisać - będzie to zero
+
+03:38.800 --> 03:44.133
+razy x, następnie dodać f prim prim lub drugą pochodną, która równa się minus jeden,
+
+03:44.133 --> 03:49.467
+zatem napiszę ujemne - ujemne, będzie to ujemna jedynka, tutaj.
+
+03:49.467 --> 03:53.133
+Jest to ujemna jedynka razy x do kwadratu - x^2
+
+03:53.133 --> 03:59.600
+przez 2 silnia - przez 2 silnia, która w tym przypadku po prostu będzie równa dwa.
+
+03:59.600 --> 04:04.333
+Ale wypiszę ją tu jako 2 silnia, aby wzorzec był bardziej oczywisty,
+
+04:04.333 --> 04:09.333
+i możemy przejść do następnego wyrazu, trzeciej pochodnej w zerze
+
+04:09.333 --> 04:14.200
+ale trzecia pochodna w zerze jest po prostu zerem, więc tego składnika również nie będzie
+
+04:14.200 --> 04:19.431
+masz teraz czwartą pochodną w zerze, która jest równa jeden
+
+04:19.431 --> 04:23.733
+więc ten współczynnik tutaj będzie jedynką i jedyne co będziesz miał
+
+04:23.733 --> 04:30.533
+to jeden razy x do czwartej przez cztery silnia - zatem dodać x^4 / 4!
+
+04:30.533 --> 04:33.000
+i myślę, że już zaczynasz widzieć wzorzec.
+
+04:33.000 --> 04:36.600
+Musisz zamieniać znaki - zobaczyłbyś to jeśli byśmy kontynuowali,
+
+04:36.600 --> 04:39.133
+możesz sprawdzić sam, jeżeli mi nie wierzysz.
+
+04:39.133 --> 04:44.200
+W takim razie mamy plus, minus, plus a później
+
+04:44.200 --> 04:50.067
+minus, itd i itd i to jest, uh, jeden razy x do zerowej potęgi
+
+04:50.067 --> 04:54.800
+a następnie skaczesz o dwa - do x do kwadratu - znów skaczemy o dwa - do x do czwartej i
+
+04:54.800 --> 04:58.267
+jeśli będziemy tak kontynuować otrzymamy plus, a teraz minus
+
+04:58.267 --> 05:03.267
+to byłoby x^6 /6! i tu mamy dodatni znak
+
+05:03.267 --> 05:07.800
+x^8 / 8! i tu będzie ujemny znak
+
+05:07.800 --> 05:13.867
+x ^10 / 10! i możesz tak kontynuować.
+
+05:13.867 --> 05:18.867
+Jeśli zrobiłbyś to z tym szeregiem było by to wielomianowe przedstawienie
+
+05:18.867 --> 05:23.533
+cosinus x. I szczerze to po prostu odjazdowo, że może on być przedstawiony w ten sposób.
+
+05:23.533 --> 05:27.600
+Jest to dość prosty wzór jak na funkcje trygonometryczną.
+
+05:27.600 --> 05:30.800
+Po raz kolejny - to wszystko o czym Ci mówię jest połączone. Wkrótce to dostrzeżesz.
+
+05:30.800 --> 3:59:59.999
+Dzielą Cię od tego dwa czy trzy filmy. To wszystko jest połączone w dużo głębszy sposób niż możesz sobie to wyobrazić.

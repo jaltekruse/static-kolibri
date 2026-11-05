@@ -1,0 +1,516 @@
+WEBVTT
+
+00:00.390 --> 00:03.567
+Temos aqui algumas informações
+interessantes
+
+00:03.567 --> 00:05.480
+sobre as funções f, g e h.
+
+00:05.480 --> 00:08.775
+Na f, temos para um dado valor de x,
+o valor de f de x,
+
+00:08.775 --> 00:12.390
+e o valor de f linha de x.
+
+00:12.390 --> 00:16.520
+Então definimos g de x, como esse tipo de
+expressão modular.
+
+00:16.520 --> 00:22.520
+E definimos h de x, tanto em termos de
+f de x quanto g de x.
+
+00:22.520 --> 00:26.200
+Estamos curiosos sobre qual é a derivada?
+
+00:26.200 --> 00:30.993
+Qual é a derivada em relação a x,
+de h de x
+
+00:30.993 --> 00:35.550
+para x igual a nove?
+
+00:35.550 --> 00:37.720
+Agora eu o encorajo a pausar este vídeo e
+
+00:37.720 --> 00:41.110
+refletir sobre isso antes de
+trabalharmos.
+
+00:41.110 --> 00:43.050
+Então, vamos refletir um pouco.
+
+00:43.050 --> 00:45.060
+Vamos escrever de outro jeito, apenas para
+
+00:45.060 --> 00:47.250
+nos familiarizar com a notação usada aqui.
+
+00:47.250 --> 00:51.900
+A derivada de h de x em relação a x para
+x igual a nove.
+
+00:52.022 --> 00:55.548
+Deixe-me fazer em azul.
+
+00:55.588 --> 00:58.919
+Ela é equivalente a h linha,
+
+00:58.919 --> 01:02.925
+e a linha significa que estamos tomando
+a derivada.
+
+01:03.231 --> 01:08.719
+h linha de x quando x é igual a nove
+
+01:08.719 --> 01:11.332
+então h linha de nove é o que isso
+que realmente é.
+
+01:11.475 --> 01:15.840
+Eu vou, na verdade, eu vou fazer isso
+em outra cor.
+
+01:15.840 --> 01:19.740
+Então, isto é h linha de nove.
+
+01:19.740 --> 01:22.320
+Vamos pensar sobre seu significado.
+
+01:22.320 --> 01:25.267
+Vamos tomar a derivada dos dois lados da
+expressão
+
+01:25.267 --> 01:27.942
+para descobrir qual é a derivada de h
+em relação a x.
+
+01:27.942 --> 01:30.628
+Então, temos a derivada.
+
+01:30.984 --> 01:33.030
+Usando a mesma cor branca.
+
+01:33.300 --> 01:38.637
+A derivada em relação a x,
+
+01:38.647 --> 01:48.070
+em relação a x de h de x, será igual a
+derivada em relação a x de todo esse negócio.
+
+01:48.070 --> 01:50.670
+Então eu posso de fato reescrever isso.
+
+01:50.670 --> 01:58.210
+Três vezes f de x mais duas vezes g de x.
+
+01:59.300 --> 02:01.986
+Agora, esta aqui, a derivada,
+
+02:01.986 --> 02:04.109
+da soma de dois termos, será equivalente
+
+02:04.109 --> 02:08.270
+à soma das derivadas de cada um dos
+termos.
+
+02:08.270 --> 02:13.048
+E isso será igual à derivada
+
+02:13.048 --> 02:18.150
+em relação a x de três vezes
+[vou escrever um pouco mais claro]
+
+02:18.150 --> 02:22.633
+três vezes f de x, mais a derivada
+em relação a x
+
+02:22.703 --> 02:28.270
+de duas vezes g de x.
+
+02:28.270 --> 02:31.085
+Agora, a derivada de um número, ou
+
+02:31.156 --> 02:35.447
+a derivada de um escalar vezes uma função
+
+02:35.447 --> 02:38.840
+é igual a um escalar vezes
+a derivada da função.
+
+02:38.840 --> 02:40.200
+O que isso significa?
+
+02:40.200 --> 02:45.378
+Bem, isso significa que este primeiro termo
+
+02:45.378 --> 02:47.574
+aqui será equivalente a três vezes
+
+02:47.574 --> 02:55.737
+a derivada em relação a x de f de x
+
+02:55.737 --> 03:00.482
+mais essa parte aqui, que é igual a dois.
+
+03:00.482 --> 03:03.158
+Certificando que não falte espaço aqui
+
+03:03.158 --> 03:07.555
+mais duas vezes a derivada em relação a x.
+
+03:07.555 --> 03:11.952
+A derivada em relação a x de g de x,
+de g de x, de g de x
+
+03:16.350 --> 03:20.391
+de f em relação a x, mais duas vezes
+a derivada de g em relação a x.
+
+03:20.391 --> 03:24.750
+de f em relação a x, mais duas vezes
+a derivada de g em relação a x.
+
+03:24.750 --> 03:30.095
+Se quiséssemos usar esse tipo de notação
+de linha aqui
+
+03:30.095 --> 03:36.350
+poderíamos reescrever como h linha de x é
+igual a três vezes f linha de x.
+
+03:36.350 --> 03:40.009
+Então, toda essa parte aqui, equivale a
+f linha de x.
+
+03:41.438 --> 03:45.669
+E isso é três vezes f linha de x
+mais duas vezes
+
+03:45.669 --> 03:50.310
+g linha de x, mais duas vezes g linha de x
+
+03:50.310 --> 03:54.822
+E agora que você parece estar mais
+acostumado a essa propriedade,
+
+03:54.822 --> 03:57.590
+a derivada da soma de duas coisas
+é a soma das derivadas.
+
+03:57.590 --> 03:59.984
+E a derivada de um escalar vezes algo
+
+03:59.984 --> 04:03.610
+equivale ao escalar vezes a derivada
+desse algo.
+
+04:03.610 --> 04:08.780
+Você poderia ter ido diretamente daqui
+para cá muito rapidamente.
+
+04:08.780 --> 04:10.960
+E agora, por que isso é tão interessante?
+
+04:10.960 --> 04:15.098
+Bem, agora podemos avaliar a função
+quando x é igual a nove.
+
+04:15.098 --> 04:20.264
+Então, quando h linha de nove equivale a
+três vezes
+
+04:20.264 --> 04:25.200
+f linha de nove, mais duas vezes
+g linha de nove.
+
+04:25.200 --> 04:27.861
+E qual é a f linha de nove, a derivada
+
+04:27.861 --> 04:30.393
+de nossa função f, quando x vale nove?
+
+04:30.393 --> 04:33.318
+Bem, quando x é igual a nove
+
+04:33.318 --> 04:37.220
+f de nove é um, mas mais importante,
+f linha de nove vale três.
+
+04:37.220 --> 04:41.920
+Então esta parte aqui, ela vale três.
+
+04:41.920 --> 04:43.780
+Mas, o que é g linha de nove?
+
+04:43.780 --> 04:48.620
+Vamos observar esta função um pouco,
+um pouco mais detalhadamente
+
+04:48.620 --> 04:51.000
+Há duas maneiras de pensar sobre ela.
+
+04:51.000 --> 04:54.540
+Vamos, de fato, tentar traçar o gráfico,
+acho que pode ser interessante.
+
+04:54.540 --> 04:57.560
+Apenas para visualizar o que está
+acontecendo aqui,
+
+04:57.560 --> 05:03.820
+Digamos que este é nosso eixo y,
+e este aqui é nosso eixo x.
+
+05:05.110 --> 05:07.680
+Agora quando uma função modular fica ssim?
+
+05:07.680 --> 05:10.070
+Quando ela atingirá um ponto mínimo?
+
+05:10.070 --> 05:14.650
+Bem, o valor absoluto de algo é sempre
+um valor não negativo.
+
+05:14.650 --> 05:18.970
+E atinge um ponto mínimo quando essa coisa
+essa coisa vale zero.
+
+05:18.970 --> 05:20.640
+Bem, e quando isso valerá zero?
+
+05:20.640 --> 05:23.470
+Quando x for igual a um, esse módulo
+será igual a zero.
+
+05:23.470 --> 05:25.723
+Então atingimos um valor mínimo quando x é
+
+05:25.723 --> 05:28.690
+igual a um. quando x vale um, este
+termo é zero.
+
+05:28.690 --> 05:30.510
+O módulo de zero é zero.
+
+05:30.510 --> 05:32.329
+G de um é um
+
+05:32.329 --> 05:35.167
+E temos este ponto bem aqui.
+
+05:35.167 --> 05:37.003
+E o que acontece a seguir?
+
+05:37.003 --> 05:39.840
+O que acontece para x maiores?
+
+05:39.840 --> 05:41.980
+O que acontece quando x for maior que um?
+
+05:41.980 --> 05:44.270
+Na verdade, deixe-me escrever isso.
+
+05:44.270 --> 05:47.876
+Então, g de x é igual a, e em geral,
+sempre que você tem um módulo
+
+05:47.876 --> 05:50.677
+ou uma função modular relativamente
+simples
+
+05:50.677 --> 05:52.667
+como essa, você pode pensar assim,
+
+05:52.667 --> 05:56.710
+você pode quebrar em duas funções, ou
+você pode pensar nesta função
+
+05:56.710 --> 05:59.450
+como diferentes intervalos quando o módulo
+é não negativo,
+
+05:59.450 --> 06:03.180
+e quando o módulo é negativo.
+
+06:03.180 --> 06:06.545
+Quando o módulo é não negativo,
+
+06:06.545 --> 06:08.981
+é quando x é maior ou igual a zero
+
+06:08.981 --> 06:12.578
+e quando o valor absoluto é não negativo,
+se você estiver calculando
+
+06:12.578 --> 06:16.370
+o módulo de um número não negativo,
+será ele mesmo.
+
+06:16.370 --> 06:17.640
+O módulo de zero é zero.
+
+06:17.640 --> 06:18.900
+O módulo de 1 é 1.
+
+06:18.900 --> 06:20.620
+O módulo de 100 é 100.
+
+06:20.620 --> 06:23.419
+Então, você pode ignorar o valor absoluto
+
+06:23.419 --> 06:27.388
+se x for maior ou igual a zero, ou
+
+06:27.388 --> 06:30.370
+nesse caso, maior ou igual a um
+
+06:30.430 --> 06:32.410
+X é maior ou igual a um.
+
+06:32.410 --> 06:35.670
+O texto aqui é não negativo.
+
+06:35.670 --> 06:38.650
+E então vamos avaliar somente para x
+menos um.
+
+06:38.650 --> 06:44.960
+Temos x menos um mais um, o que equivale
+a somente x.
+
+06:44.960 --> 06:47.610
+Menos um mais um se cancelam.
+
+06:47.610 --> 06:52.745
+Agora quando o x, quando o termo aqui
+é negativo
+
+06:52.745 --> 06:58.147
+Isso vai acontecer quando x for menor que
+
+06:58.147 --> 07:03.216
+um, e então o valor absoluto será
+o oposto do exposto.
+
+07:03.216 --> 07:05.367
+Se você me pedir o valor absoluto de um
+
+07:05.367 --> 07:08.355
+número negativo, será o oposto
+
+07:08.355 --> 07:10.895
+o valor absoluto de oito negativo
+é oito positivo
+
+07:10.895 --> 07:13.100
+e então, o oposto de x menos um é
+um menos x.
+
+07:13.100 --> 07:16.060
+Um menos x, mais um.
+
+07:16.060 --> 07:21.740
+Ou, podemos dizer, dois menos x.
+
+07:21.740 --> 07:26.410
+Agora, para x maior ou igual a um, vamos
+olhar para esta expressão.
+
+07:26.410 --> 07:28.370
+Qual é a sua inclinação?
+
+07:28.370 --> 07:29.810
+Bem, a sua inclinação é um.
+
+07:29.810 --> 07:32.430
+Nós teremos uma curva que se parece com
+
+07:32.430 --> 07:35.570
+uma reta, acho que podemos dizer que
+se parece com isso.
+
+07:35.570 --> 07:40.256
+Se parece com isso para todos os valores
+de x maiores ou iguais a um.
+
+07:40.256 --> 07:42.645
+O importante, lembre-se, nós vamos
+
+07:42.645 --> 07:44.790
+analisar a inclinação da reta tangente.
+
+07:44.790 --> 07:46.360
+Vamos pensar na derivada de g.
+
+07:46.360 --> 07:47.900
+Então a inclinação é igual a um.
+
+07:47.900 --> 07:52.130
+E para x menor que um, bem, agora a
+inclinação será
+
+07:52.130 --> 07:54.940
+se olharmos aqui, nossa inclinação é
+negativa.
+
+07:54.940 --> 07:59.724
+Nossa inclinação é menos um, então
+
+07:59.724 --> 08:04.490
+se parecerá com isto.
+
+08:04.490 --> 08:07.310
+Mas para o ponto em questão, se pensarmos
+
+08:07.310 --> 08:10.470
+em g linha de nove, e então nove fica
+mais ou menos aqui
+
+08:10.470 --> 08:12.700
+O que será g linha de nove?
+
+08:12.700 --> 08:14.510
+Então, g linha de nove, deixe-me explicar.
+
+08:14.510 --> 08:17.520
+Este é o gráfico aqui, o gráfico de
+g de x.
+
+08:18.520 --> 08:22.230
+Ou, podemos dizer que este é o gráfico de
+y igual a g de x.
+
+08:22.230 --> 08:24.850
+y é igual a g de x.
+
+08:24.850 --> 08:26.580
+Então, o que é g linha de nove?
+
+08:26.580 --> 08:29.780
+Bem, é a inclinação quando x é igual a nove.
+
+08:29.780 --> 08:33.020
+A inclinação será igual a um.
+
+08:33.020 --> 08:38.241
+Então, g linha de nove é um.
+
+08:38.241 --> 08:40.039
+então, o que isso avalia?
+
+08:40.039 --> 08:45.925
+Bem, será três vezes três, então
+essa parte aqui é nove,
+
+08:45.925 --> 08:51.505
+mais duas vezes um, mais dois é igual a 11
+
+08:51.505 --> 08:57.347
+Então, a inclinação da reta tangente de h,
+quando x é igual a nove, vale 11.
+
+08:57.347 --> 09:03.217
+legendado por Tatiana F. D'Addio

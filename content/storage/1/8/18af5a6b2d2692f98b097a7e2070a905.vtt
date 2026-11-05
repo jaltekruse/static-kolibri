@@ -1,0 +1,308 @@
+WEBVTT
+
+00:00.280 --> 00:05.460
+Wir haben eine geometrische Reihe,
+
+00:05.460 --> 00:10.520
+und wir wissen ein paar Dinge
+über diese geometrische Reihe.
+
+00:10.520 --> 00:15.900
+Wir wissen z.B., dass der erste Term
+unserer geometrischen Reihe a ist.
+
+00:15.900 --> 00:19.600
+a ist unser erster Term.
+
+00:19.600 --> 00:23.720
+Wir kennen außerdem den Quotienten
+unserer geometrischen Reihe.
+
+00:23.720 --> 00:29.720
+Diesen Quotienten nennen wir r.
+
+00:29.720 --> 00:37.840
+Wir wissen außerdem, dass es sich um
+eine endliche geometrische Reihe handelt.
+
+00:37.840 --> 00:39.840
+Sie hat eine endliche Anzahl von Termen.
+
+00:39.840 --> 00:46.920
+Und n ist die Anzahl unserer Terme.
+
+00:46.920 --> 01:01.920
+Wir benutzen S_n, um die Summe
+der ersten n Terme zu kennzeichnen.
+
+01:01.920 --> 01:05.000
+In diesem Video wollen wir diese Informationen nutzen,
+
+01:05.000 --> 01:09.780
+um eine allgemeine Formel für die
+Summe der ersten n Terme herauszufinden.
+
+01:09.780 --> 01:13.740
+Eine Formel, um eine geometrische Reihe zu lösen.
+
+01:13.740 --> 01:15.231
+Zuerst schreiben wir S_n auf,
+
+01:15.231 --> 01:17.509
+um ein Gefühl dafür zu bekommen, wie sie aussieht.
+
+01:17.509 --> 01:19.765
+Wir schreiben S_n auf die linke Seite,
+
+01:19.765 --> 01:23.220
+dann haben wir unseren ersten Term a.
+
+01:23.220 --> 01:26.000
+Wie lautet unser zweiter Term?
+
+01:26.000 --> 01:30.780
+Wir haben eine geometrische Reihe, also ist unser zweiter Term a multipliziert mit unserem Quotienten.
+
+01:30.780 --> 01:36.040
+Also multiplizieren wir den
+ersten Term mit dem Quotienten r.
+
+01:36.040 --> 01:39.298
+Wie lautet unser dritter Term?
+
+01:39.300 --> 01:42.620
+Unser dritter Term ist unser zweiter Term,
+der wieder mit unserem Quotienten multipliziert wird.
+
+01:42.620 --> 01:48.080
+Also ar ⋅ r bzw. ar^2.
+
+01:48.080 --> 01:50.980
+So könnten wir bis zum n-ten Term weitermachen.
+
+01:50.980 --> 01:54.720
+Wenn wir beim n-ten Term ankommen,
+
+01:54.720 --> 01:59.380
+denkst du vielleicht, dass wir a ⋅ r^n haben,
+
+01:59.380 --> 02:01.840
+aber wir müssen vorsichtig sein.
+
+02:01.843 --> 02:05.580
+Denn unser erster Term ist eigentlich ar^0,
+
+02:05.580 --> 02:07.527
+unser zweiter Term ist ar^1,
+
+02:07.527 --> 02:09.895
+unser dritter Term ist ar^2.
+
+02:09.900 --> 02:15.580
+Also haben wir im Exponenten
+immer die Zahl des Terms minus 1.
+
+02:15.580 --> 02:21.000
+Beim n-ten Term haben wir also ar^(n - 1).
+
+02:21.000 --> 02:23.336
+Jetzt suchen wir nach einer schönen Formel,
+
+02:23.340 --> 02:24.520
+mit der wir das ausrechnen können,
+
+02:24.520 --> 02:27.440
+und wir wenden einen kleinen Trick an, um sie zu finden.
+
+02:27.440 --> 02:32.680
+Wir denken darüber nach, was r ⋅ S_n ist.
+
+02:32.680 --> 02:34.080
+Wir subtrahieren das voneinander.
+
+02:34.080 --> 02:46.640
+Oder besser: Wir multiplizieren -r
+mit der Summe der ersten n Terme.
+
+02:46.640 --> 02:50.540
+Dann können wir beide addieren
+und es bleibt ein glattes Ergebnis übrig.
+
+02:50.540 --> 02:55.020
+Was ergibt das?
+
+02:55.020 --> 03:01.320
+Wenn wir a ⋅ (-r) rechnen,
+
+03:01.320 --> 03:05.780
+erhalten wir -ar.
+
+03:05.780 --> 03:07.920
+Ich schreibe es direkt darunter.
+
+03:07.920 --> 03:12.460
+Ich multipliziere also jeden dieser Terme mit -r.
+
+03:12.460 --> 03:15.080
+Das ist dasselbe, wie -r mit
+der Summe zu multiplizieren.
+
+03:15.080 --> 03:17.900
+Das -r wird ausmultipliziert.
+
+03:17.900 --> 03:27.260
+a ⋅ (-r) = -ar.
+
+03:27.260 --> 03:35.460
+ar ⋅ (-r) = -ar^2.
+
+03:35.460 --> 03:37.500
+Ich denke, du siehst das Muster.
+
+03:38.126 --> 03:40.484
+Zur Verdeutlichung, was ich gemacht habe:
+
+03:40.484 --> 03:45.820
+Das ist dieser Term mit -r multipliziert.
+
+03:45.820 --> 03:48.000
+Das ist der Term mit -r multipliziert.
+
+03:48.000 --> 04:07.260
+Und wir machen so weiter
+bis zu unserem vorletzten Term,
+
+04:07.260 --> 04:18.260
+bei dem wir -a ⋅ r^(n - 1)
+
+04:18.260 --> 04:19.540
+Das ist der Term direkt davor.
+
+04:19.540 --> 04:25.560
+Das war a ⋅ r^(n - 2) ⋅ (-r), was uns das als Ergebnis gibt.
+
+04:25.560 --> 04:28.880
+Und schließlich multiplizieren
+wir diesen letzten Term mit -r.
+
+04:28.880 --> 04:30.080
+Welches Ergebnis erhalten wir?
+
+04:30.080 --> 04:40.580
+Wir erhalten -a ⋅ r^n.
+
+04:40.580 --> 04:42.880
+Du multiplizierst das mit dem Minus und erhältst -a,
+
+04:42.880 --> 04:47.020
+dann rechnest du r^(n - 1) ⋅ r^1,
+
+04:47.020 --> 04:48.920
+was r^n ergibt.
+
+04:48.920 --> 04:54.240
+Das Interessante ist, dass wir die linken
+und rechten Seiten addieren können.
+
+04:54.240 --> 04:57.440
+Also machen wir das.
+
+04:57.440 --> 05:08.840
+Links rechnen wir S_n - r ⋅ S_n,
+
+05:08.840 --> 05:12.140
+und rechts passiert etwas sehr Cooles.
+
+05:12.140 --> 05:15.120
+Du siehst, dass wir immer noch dieses a haben.
+
+05:15.120 --> 05:17.800
+Das a bleibt dort, aber alles andere,
+
+05:17.800 --> 05:22.120
+außer diesem letzten Term, kürzt sich weg.
+
+05:22.120 --> 05:29.960
+Die beiden kürzen sich weg.
+
+05:29.960 --> 05:33.600
+Übrig bleibt nur -ar^n.
+
+05:33.600 --> 05:40.700
+Also haben wir a - a ⋅ r^n.
+
+05:40.700 --> 05:42.920
+Jetzt können wir einfach nach S_n auflösen,
+
+05:42.920 --> 05:45.920
+und erhalten die Formel, nach der wir gesucht haben.
+
+05:45.920 --> 05:49.320
+Links können wir ein S_n ausklammern.
+
+05:49.320 --> 05:53.740
+Du erhältst ein S_n, was die
+Summe unserer ersten n Terme ist.
+
+05:53.741 --> 05:55.016
+Wir haben es ausgeklammert,
+
+05:55.020 --> 06:01.920
+also haben wir in der Klammer (1 - r).
+
+06:01.920 --> 06:04.440
+Und links können wir ein a ausklammern.
+
+06:04.440 --> 06:11.860
+Dann haben wir a(1 - r^n).
+
+06:11.860 --> 06:16.420
+Wenn wir nach S_n auflösen,
+
+06:16.420 --> 06:32.480
+erhalten wir S_n = (a ⋅ (1 - r^n)) / (1 - r)
+
+06:32.480 --> 06:33.360
+Fertig.
+
+06:33.360 --> 06:43.300
+Wir haben die Formel für die Summe einer
+endlichen geometrischen Reihe herausgefunden.
+
+06:43.300 --> 06:46.800
+In den nächsten Videos werden wir sie
+anwenden, und ich ermutige dich, dass du,
+
+06:46.800 --> 06:49.776
+jedes Mal, wenn du diese Formel anwendest,
+
+06:49.776 --> 06:51.298
+jetzt, wo du weißt wo sie herkommt,
+
+06:51.300 --> 06:54.580
+sehr genau aufpasst, wie viele Terme du summierst.
+
+06:54.580 --> 06:59.600
+Manchmal hast du eine Sigma-Notation,
+bei der der Index bei 0 beginnt,
+
+06:59.600 --> 07:00.698
+und bis zu einer Zahl geht,
+
+07:00.700 --> 07:02.900
+und in diesem Fall hast du diese Zahl + 1 als Terme.
+
+07:02.900 --> 07:03.740
+Du musst also sehr aufpassen.
+
+07:03.742 --> 07:05.345
+Das ist die Anzahl der Terme.
+
+07:05.345 --> 07:07.960
+Das ist unser erster Term, wir definieren ihn hier oben.
+
+07:07.960 --> 07:11.220
+n ist die Anzahl der ersten n Terme,
+
+07:11.220 --> 07:13.720
+r ist unser Quotient.

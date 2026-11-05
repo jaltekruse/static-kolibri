@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.352 --> 00:03.092
+Gegeben ist die geometrische Sequenz a an der Stelle i,
+
+00:03.092 --> 00:06.041
+welche durch die Formel definiert ist , wobei der erste Term a1 gleich - 1/8 ist.
+
+00:06.041 --> 00:08.293
+welche durch die Formel definiert ist , wobei der erste Term a1 gleich - 1/8 ist.
+
+00:08.293 --> 00:11.613
+Jeder Term danach ist so definiert ,
+
+00:11.613 --> 00:16.613
+dass a an der Stelle i das Zweifache des Terms davor ist.
+
+00:16.652 --> 00:20.646
+A an der Stelle i ist zwei mal a an der Stelle (i-1).
+
+00:20.646 --> 00:24.813
+Was ist a4, der 4. Term in dieser Sequenz?
+
+00:24.813 --> 00:28.017
+Halte das Video an und schau, ob Du das herausfinden kannst.
+
+00:28.017 --> 00:30.530
+Es gibt mehrere Wege, auf denen Du dies angehen kannst.
+
+00:30.530 --> 00:34.047
+Ein Weg ist, diese Formeln direkt anzuwenden.
+
+00:34.047 --> 00:36.635
+Wir könnten sagen, dass a4 genau der Fall hier ist.
+
+00:36.635 --> 00:38.579
+Wir könnten sagen, dass a4 genau der Fall hier ist.
+
+00:38.579 --> 00:42.666
+a4 ist gleich 2 mal a3.
+
+00:42.666 --> 00:45.800
+a3 wiederum ist gleich 2 mal a2.
+
+00:45.800 --> 00:49.590
+a3 wiederum ist gleich 2 mal a2.
+
+00:49.590 --> 00:52.702
+Jeder Term ist gleich 2 mal dem vorangegangenen Term.
+
+00:52.702 --> 00:54.138
+Dann kommen wir wieder zu dieser Formel zurück.
+
+00:54.138 --> 00:58.367
+A2 is gleich 2 mal a1.
+
+00:58.367 --> 01:00.487
+A2 is gleich 2 mal a1.
+
+01:00.487 --> 01:05.487
+Glücklicherweise wissen wir, dass a1 gleich - 1/8 ist.
+
+01:05.681 --> 01:09.842
+Also erhalten wir 2 mal -1/8,
+
+01:09.842 --> 01:13.008
+was wiederum gleich -1/4 ist.
+
+01:13.918 --> 01:15.538
+was wiederum gleich -1/4 ist.
+
+01:15.538 --> 01:17.740
+was wiederum gleich -1/4 ist.
+
+01:18.930 --> 01:23.318
+2 mal -1/4 ist gleich -2/4 oder -1/2.
+
+01:23.318 --> 01:25.792
+2 mal -1/4 ist gleich -2/4 oder -1/2.
+
+01:25.792 --> 01:27.800
+a4 ist 2 mal a3.
+
+01:27.800 --> 01:29.776
+a3 is gleich -1/2.
+
+01:29.776 --> 01:33.024
+Also ergibt dies 2 mal -1/2,
+
+01:33.024 --> 01:35.973
+was -1 ergibt.
+
+01:35.973 --> 01:37.807
+Das ist ein Weg, die Aufgabe zu lösen.
+
+01:37.807 --> 01:39.409
+Ein anderer Weg ist folgender:
+
+01:39.409 --> 01:42.797
+Wir haben unseren Ausgangs-Term.
+
+01:42.797 --> 01:44.353
+Wir kennen ebenso unser gemeinsames Verhältnis.
+
+01:44.353 --> 01:46.211
+Wir wissen, dass jeder Folge-Term das Zweifache des vorangegangenen Terms ist.
+
+01:46.211 --> 01:48.904
+Wir wissen, dass jeder Folge-Term das Zweifache des vorangegangenen Terms ist.
+
+01:48.904 --> 01:51.551
+Wir können also sagen, dass dies eine rekursive Definition unserer geometrischen Serie ist.
+
+01:51.551 --> 01:54.964
+Wir können also sagen, dass dies eine rekursive Definition unserer geometrischen Serie ist.
+
+01:54.964 --> 01:57.797
+Wir können es schreiben als a an der Stelle i gleich dem Ausgangsterm -1/8
+
+01:57.797 --> 02:02.180
+Wir können es schreiben als a an der Stelle i gleich dem Ausgangsterm -1/8
+
+02:02.180 --> 02:04.827
+multipliziert mit 2.
+
+02:06.063 --> 02:11.063
+Wir multiplizieren es mit 2 mal i minus 1.
+
+02:11.937 --> 02:16.937
+Anders gesagt: mal 2 hoch i minus hoch 1.
+
+02:17.841 --> 02:21.666
+Lasst uns sicherstellen, dass das sinnvoll ist.
+
+02:21.666 --> 02:24.850
+a1 ist gemäß dieser Formel -1/8 mal 2 hoch 1 minus 1.
+
+02:24.850 --> 02:27.311
+a1 ist gemäß dieser Formel -1/8 mal 2 hoch 1 minus 1.
+
+02:27.311 --> 02:30.097
+a1 ist gemäß dieser Formel -1/8 mal 2 hoch 1 minus 1.
+
+02:30.097 --> 02:31.839
+2 hoch 0.
+
+02:31.839 --> 02:32.814
+Das macht Sinn.
+
+02:32.814 --> 02:34.346
+Das wäre -1/8.
+
+02:34.346 --> 02:35.670
+Basierend auf dieser Formel wäre a2 minus 1/8 mal 2 hoch 2-1.
+
+02:35.670 --> 02:39.362
+Basierend auf dieser Formel wäre a2 minus 1/8 mal 2 hoch 2-1.
+
+02:39.362 --> 02:41.800
+Basierend auf dieser Formel wäre a2 minus 1/8 mal 2 hoch 2-1.
+
+02:41.800 --> 02:43.239
+2 hoch 1.
+
+02:43.239 --> 02:44.725
+Wir nehmen unseren Ausgangs-Term
+
+02:44.725 --> 02:46.815
+und multiplizieren ihn mit 2, einmal.
+
+02:46.815 --> 02:47.976
+Das ist ganz richtig.
+
+02:47.976 --> 02:50.860
+a2 ist -1/4.
+
+02:50.860 --> 02:53.014
+Wir möchten den vierten Term in der Sequenz finden.
+
+02:53.014 --> 02:56.213
+Wir könnten also die Formel benutzen.
+
+02:56.213 --> 03:01.006
+a4 ist gleich -1/8 mal 2 hoch 4-1.
+
+03:01.006 --> 03:04.979
+a4 ist gleich -1/8 mal 2 hoch 4-1.
+
+03:04.979 --> 03:08.043
+2 hoch 4 minus 1.
+
+03:08.043 --> 03:10.574
+Das ist also gleich -1/8 mal 2 hoch 3.
+
+03:10.574 --> 03:13.131
+Das ist also gleich -1/8 mal 2 hoch 3.
+
+03:14.321 --> 03:16.694
+Das ist -1/8 mal 8.
+
+03:16.694 --> 03:21.541
+-1/8 mal 8 ergibt -1.
+
+03:22.382 --> 03:25.099
+Du fragst Dich vielleicht, welche Methode die bessere ist.
+
+03:25.099 --> 03:28.280
+Du fragst Dich vielleicht, welche Methode die bessere ist.
+
+03:28.280 --> 03:30.811
+Die 2. Methode, wo wir eine Formel haben, ist einfacher.
+
+03:30.811 --> 03:32.924
+wenn wir den Ausgangs-Term kennen
+
+03:32.924 --> 03:34.572
+und wenn wir das gemeinsame Verhältnis kennen.
+
+03:34.572 --> 03:37.080
+und wenn wir das gemeinsame Verhältnis kennen.
+
+03:37.080 --> 03:38.403
+Stell Dir vor, wir suchen den 40sten Term.
+
+03:38.403 --> 03:40.841
+Die erste Methode wo wir rekursiv vorgehen,
+
+03:40.841 --> 03:43.939
+würde jede Menge Zeit erfordern - und auch jede Menge Papier.

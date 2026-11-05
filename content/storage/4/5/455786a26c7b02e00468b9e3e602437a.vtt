@@ -1,0 +1,586 @@
+WEBVTT
+
+00:00.042 --> 00:03.067
+Avant d'entrer dans l'algèbre elle-même,
+
+00:03.067 --> 00:07.691
+je veux citer l'un des plus grands esprits de l'histoire humaine, Galilée,
+
+00:07.691 --> 00:11.726
+parce que je pense que cette citation fait comprendre le véritable intérêt de l'algèbre
+
+00:11.726 --> 00:14.234
+et des mathématiques en général.
+
+00:14.234 --> 00:17.010
+Il a dit : "La philosophie est écrite dans cet immense livre
+
+00:17.010 --> 00:20.820
+perpétuellement ouvert sous nos yeux, je veux dire l'univers.
+
+00:20.820 --> 00:25.000
+Nous ne pouvons pas le comprendre sans commencer par en appren­dre la langue,
+
+00:25.000 --> 00:27.395
+et connaître les caractères au moyen desquels il est écrit.
+
+00:27.395 --> 00:30.800
+Or il est écrit en langue mathématique...
+
+00:30.800 --> 00:35.933
+Sans elle, on erre en vain dans un labyrinthe obscur."
+
+00:35.933 --> 00:38.137
+C'est très théâtral mais très profond
+
+00:38.137 --> 00:41.360
+et c'est vraiment l'objet des mathématiques.
+
+00:41.360 --> 00:44.876
+On va le voir en approfondissant l'algèbre :
+
+00:44.876 --> 00:47.333
+on va commencer à abstraire des choses et on va progressivement
+
+00:47.333 --> 00:51.569
+arriver aux idées essentielles qui expliquent vraiment comment l'univers est structuré.
+
+00:51.569 --> 00:53.275
+Bien sûr, ces idées peuvent être appliquées
+
+00:53.275 --> 00:56.796
+à l'économie, la finance, la physique et la chimie
+
+00:56.796 --> 00:59.858
+Mais au fond, elles constituent la même idée centrale.
+
+00:59.858 --> 01:04.460
+Et donc elles sont plus fondamentales, plus pures, que chacune de ces applications.
+
+01:04.460 --> 01:09.513
+Pour voir ce que je veux dire par l'idée centrale. Commençons par -- on pourrait...
+
+01:09.513 --> 01:13.856
+Nous sommes partis du très grand, de la philosophie de l'univers, écrit avec les mathématiques.
+
+01:13.856 --> 01:17.667
+Mais commençons avec une idée simple et très concrète.
+
+01:17.667 --> 01:24.067
+On va l'abstraire progressivement et voir comment une même idée relie de nombreux domaines dans notre univers.
+
+01:24.067 --> 01:29.067
+Disons qu'on est dans un magasin, on va acheter quelque chose et il y a des soldes.
+
+01:29.067 --> 01:35.467
+Des soldes à 30 % -- moins 30 %.
+
+01:35.467 --> 01:38.733
+Et je suis intéressé -- je ne fais pas mes courses dans des magasins trop sophistiqués
+
+01:38.733 --> 01:45.531
+Disons que je suis intéressé par un pantalon. Ce pantalon, avant la promotion, valait 20 dollars.
+
+01:45.531 --> 01:53.129
+Je suis intéressé par un pantalon à 20 dollars. Mieux encore, il y a 30 % de réduction sur ce pantalon.
+
+01:53.129 --> 01:57.400
+Bien, comment savoir le montant de la réduction sur ces 20 dollars ?
+
+01:57.400 --> 01:59.118
+Ce n'est pas encore de l'algèbre,
+
+01:59.118 --> 02:01.171
+mais c'est une situation que vous avez probablement déjà rencontrée.
+
+02:01.171 --> 02:04.533
+Vous multipliez 30 pour cent par les 20 dollars,
+
+02:04.533 --> 02:11.082
+donc votre réduction -- votre réduction -- est égale à...
+
+02:11.082 --> 02:16.533
+On peut écrire 30 % fois 20 dollars. J'écris 20 dollars en violet.
+
+02:16.533 --> 02:19.200
+Ou on peut écrire aussi -- ceci est un nombre décimal
+
+02:19.200 --> 02:24.200
+on peut écrire 0,30 fois 20 dollars.
+
+02:24.200 --> 02:27.082
+Et si on faisait le calcul, on obtiendrait 6 dollars.
+
+02:27.082 --> 02:29.467
+Rien de nouveau là-dedans.
+
+02:29.467 --> 02:32.044
+Mais que se passe-t-il si je veux généraliser un peu ?
+
+02:32.044 --> 02:35.067
+C'est la réduction sur ce pantalon-là,
+
+02:35.067 --> 02:36.569
+mais que se passe-t-il si je veux connaître la réduction
+
+02:36.569 --> 02:38.267
+sur n'importe quel article du magasin ?
+
+02:38.267 --> 02:42.733
+Bien alors je pourrais dire, soit x le prix
+
+02:42.733 --> 02:44.304
+-- faisons-le dans une autre couleur --
+
+02:44.304 --> 02:45.933
+Je vais juste utiliser un symbole.
+
+02:45.933 --> 02:57.000
+Soit x le prix, le prix de l'article sans réduction
+
+02:57.000 --> 03:01.533
+-- de l'article dans le magasin.
+
+03:01.533 --> 03:07.076
+Et maintenant, nous pouvons dire que notre réduction
+
+03:07.076 --> 03:15.267
+est égale à 30 %, 30 % fois x.
+
+03:15.267 --> 03:17.133
+Ou si nous voulons l'écrire en décimal,
+
+03:17.133 --> 03:19.600
+-- 30 % est un nombre décimal --
+
+03:19.600 --> 03:25.600
+0,30 fois x.
+
+03:25.600 --> 03:26.867
+Voilà qui est intéressant.
+
+03:26.867 --> 03:29.200
+Maintenant vous me donnez le prix d'un article dans le magasin
+
+03:29.200 --> 03:31.600
+et je peux remplacer x par ce prix,
+
+03:31.600 --> 03:34.692
+et puis je peux le multiplier par 0,3
+
+03:34.692 --> 03:35.667
+et obtenir la réduction.
+
+03:35.667 --> 03:38.867
+Avec cela, nous commençons, très lentement,
+
+03:38.867 --> 03:42.122
+à entrer dans l'abstraction de l'algèbre.
+
+03:42.122 --> 03:44.867
+Nous allons voir, ça devient beaucoup plus subtil et profond
+
+03:44.867 --> 03:47.068
+et franchement plus beau
+
+03:47.068 --> 03:52.409
+avec l'étude plus détaillée des idées algébriques.
+
+03:52.409 --> 03:53.533
+Mais nous n'avons pas fini ici.
+
+03:53.533 --> 03:55.333
+Nous pouvons aller plus loin dans l'abstraction.
+
+03:55.333 --> 03:59.000
+Ici, nous avons généralisé le calcul à n'importe quel article,
+
+03:59.000 --> 04:00.600
+pas seulement pour l'article à 20 dollars.
+
+04:00.600 --> 04:01.859
+S'il y a un article à 10 dollars,
+
+04:01.859 --> 04:05.737
+on peut remplacer x par ces 10 dollars,
+
+04:05.737 --> 04:08.452
+et puis on calcule 0,30 fois 10.
+
+04:08.452 --> 04:10.667
+La réduction est de 3 dollars.
+
+04:10.667 --> 04:13.800
+Si c'est un article à 100 dollars, alors la réduction est de 30 dollars.
+
+04:13.800 --> 04:15.930
+Mais généralisons encore plus.
+
+04:15.930 --> 04:18.867
+Disons : "Quelle est la réduction pour toute promotion donnée,
+
+04:18.867 --> 04:21.329
+pour une promotion d'un certain pourcentage ?"
+
+04:21.329 --> 04:24.733
+Nous pouvons dire que la réduction...
+
+04:24.733 --> 04:27.533
+Définissons une variable,
+
+04:27.533 --> 04:30.582
+disons m égale... Je vais dire p,
+
+04:30.582 --> 04:41.200
+p est le pourcentage à déduire.
+
+04:41.200 --> 04:42.667
+Que pouvons-nous faire ?
+
+04:42.667 --> 04:45.200
+Nous pouvons dire que la réduction
+
+04:45.200 --> 04:50.185
+est égale au pourcentage à déduire...
+
+04:50.185 --> 04:52.364
+Dans le premier exemple nous avions 30 %,
+
+04:52.364 --> 04:53.233
+mais maintenant nous pouvons dire que c'est p,
+
+04:53.233 --> 04:55.400
+p est le pourcentage à déduire.
+
+04:55.400 --> 05:00.977
+[La réduction] est p, le pourcentage à déduire, fois l'article en question,
+
+05:00.977 --> 05:03.933
+fois le prix, le prix sans réduction de l'article.
+
+05:03.933 --> 05:05.900
+Eh bien, ce prix est x.
+
+05:05.900 --> 05:08.400
+La réduction est égale à p fois x.
+
+05:08.400 --> 05:09.847
+Voilà qui est vraiment intéressant.
+
+05:09.847 --> 05:13.115
+On a maintenant une manière générale de calculer une réduction
+
+05:13.115 --> 05:18.212
+pour n'importe quel pourcentage donné et n'importe quel prix donné x.
+
+05:18.212 --> 05:21.667
+On n'est pas obligé d'utiliser ces mots et ces lettres.
+
+05:21.667 --> 05:23.036
+On aurait pu dire
+
+05:23.036 --> 05:29.333
+"Soit y la réduction",
+
+05:29.333 --> 05:32.467
+puis on aurait pu écrire la même idée sous-jacente.
+
+05:32.467 --> 05:34.400
+Au lieu d'écrire "réduction", on aurait pu écrire y :
+
+05:34.400 --> 05:40.200
+y est égal au pourcentage à déduire (p)
+
+05:40.200 --> 05:45.281
+fois le prix du produit sans réduction (x).
+
+05:45.281 --> 05:47.267
+Ces lettres peuvent être définies comme on veut.
+
+05:47.267 --> 05:49.228
+Au lieu d'écrire y,
+
+05:49.228 --> 05:51.467
+on peut écrire une lettre grecque, ou n'importe quel symbole
+
+05:51.467 --> 05:53.867
+du moment qu'on se souvient que ce symbole
+
+05:53.867 --> 05:56.836
+représente la réduction réelle en dollars.
+
+05:56.836 --> 05:58.733
+Maintenant les choses deviennent vraiment intéressantes,
+
+05:58.733 --> 06:02.246
+parce que nous pouvons utiliser ce type de relation
+
+06:02.246 --> 06:03.741
+qui est une équation.
+
+06:03.741 --> 06:05.600
+Ca vient du latin "aequare", qui veut dire "être égal".
+
+06:05.600 --> 06:07.734
+C'est pourquoi on appelle ça une équation.
+
+06:07.734 --> 06:10.405
+Elle peut être utilisée pour des choses qui n'ont plus rien à voir
+
+06:10.405 --> 06:13.400
+avec le prix réduit dans cette boutique.
+
+06:13.400 --> 06:14.979
+On pourrait avoir...
+
+06:14.979 --> 06:17.603
+En physique, on voit que
+
+06:17.603 --> 06:21.067
+la force est égale à la masse fois l'accélération.
+
+06:21.067 --> 06:22.333
+Les lettres sont différentes
+
+06:22.333 --> 06:24.933
+mais c'est fondamentalement la même idée.
+
+06:24.933 --> 06:31.133
+On pourrait dire y est égal à la force
+
+06:31.133 --> 06:36.067
+et m est égal à... ou la masse est égale à p.
+
+06:36.067 --> 06:37.595
+Donc j'écris
+
+06:37.595 --> 06:39.200
+p est égal à la masse
+
+06:39.200 --> 06:42.309
+Ce n'est pas une façon intuitive de la définir
+
+06:42.309 --> 06:45.462
+mais je veux vous montrer que la même idée, la même relation
+
+06:45.462 --> 06:48.323
+est appliquée à 2 choses complètement différentes.
+
+06:48.323 --> 06:49.391
+Et nous pouvons dire
+
+06:49.391 --> 06:51.333
+x est égal à l'accélération.
+
+06:51.333 --> 06:56.961
+Nous pouvons dire que x est égal à l'accélération.
+
+06:58.191 --> 07:01.698
+Alors la loi "la force est égale à la masse fois l'accélération"
+
+07:01.698 --> 07:02.580
+peut être récrite.
+
+07:02.580 --> 07:03.800
+Vraiment, c'est exactement la même idée :
+
+07:03.800 --> 07:07.433
+y -- que nous avons défini comme la force --
+
+07:07.433 --> 07:08.547
+est égal à la masse
+
+07:08.547 --> 07:10.267
+-- pour laquelle nous utilisons le symbole p --
+
+07:10.267 --> 07:13.006
+[y] est égal à p fois l'accélération.
+
+07:13.006 --> 07:15.328
+Il se trouve que nous allons utiliser la lettre x ici,
+
+07:15.328 --> 07:16.467
+-- fois x.
+
+07:16.467 --> 07:21.308
+Bien, c'est exactement la même équation. Exactement.
+
+07:21.400 --> 07:23.200
+On voit que nous pouvons prendre cette équation
+
+07:23.200 --> 07:31.164
+et l'appliquer à des choses en économie, en finances
+
+07:31.164 --> 07:33.000
+ou elle peut s'appliquer à des choses en informatique
+
+07:33.000 --> 07:36.467
+ou en logique ou au génie électrique ou à quoi que ce soit, à la comptabilité...
+
+07:36.467 --> 07:40.156
+Il y a un nombre infini d'applications à cette équation-là.
+
+07:40.200 --> 07:42.054
+Et ce qui est super en mathématiques,
+
+07:42.054 --> 07:43.933
+et ce qui est super avec l'algèbre en particulier,
+
+07:43.933 --> 07:47.400
+c'est que nous pouvons nous concentrer sur cette abstraction.
+
+07:47.400 --> 07:48.997
+Nous pouvons nous concentrer sur l'abstraction ici.
+
+07:48.997 --> 07:51.800
+Nous pouvons manipuler cette abstraction.
+
+07:51.800 --> 07:55.467
+Et nous découvrons que ces idées, ces manipulations
+
+07:55.467 --> 08:00.421
+peuvent ensuite être reportées dans toutes les autres applications
+
+08:00.421 --> 08:01.800
+dans chacune de ces applications.
+
+08:01.800 --> 08:03.733
+Et encore plus génial, ça nous dit en quelque sorte
+
+08:03.733 --> 08:05.495
+la véritable structure de l'univers,
+
+08:05.495 --> 08:08.733
+si on retire toutes ces définitions humaines,
+
+08:08.733 --> 08:10.127
+et toutes ces applications humaines.
+
+08:10.127 --> 08:11.483
+Ainsi, par exemple, on peut dire :
+
+08:11.483 --> 08:14.492
+"Regardez, si y est égal à p fois x".
+
+08:14.492 --> 08:16.467
+Littéralement, si quelqu'un dit : "Eh, voilà y".
+
+08:16.467 --> 08:19.415
+et d'un autre côté, quelqu'un dit : "J'ai p fois x".
+
+08:19.415 --> 08:22.133
+Je peux dire "Les deux sont la même chose !"
+
+08:22.133 --> 08:25.615
+Si on divise l'un d'entre eux par un nombre
+
+08:25.615 --> 08:27.652
+mais on veut que les deux côtés soient toujours égaux,
+
+08:27.652 --> 08:30.200
+alors on divise aussi l'autre par ce nombre.
+
+08:30.200 --> 08:33.144
+Ainsi par exemple, disons...
+
+08:33.144 --> 08:35.994
+Nous savons que y est égal à p fois x.
+
+08:35.994 --> 08:38.571
+Que se passe-t-il si on veut conserver une égalité,
+
+08:38.571 --> 08:41.133
+mais qu'on veut diviser y par x ?
+
+08:41.133 --> 08:43.467
+Eh bien, y est égal à p fois x
+
+08:43.467 --> 08:45.073
+donc y divisé par x
+
+08:45.073 --> 08:48.467
+va être la même chose que p fois x... divisé par x.
+
+08:48.467 --> 08:49.810
+Voilà qui est intéressant,
+
+08:49.810 --> 08:51.467
+parce que p fois x divisé par x...
+
+08:51.467 --> 08:53.711
+Si on multiplie par quelque chose
+
+08:53.711 --> 08:55.568
+et que l'on divise par la même chose
+
+08:55.568 --> 08:57.333
+on retrouve le nombre initial.
+
+08:57.333 --> 08:59.467
+Si on multiplie par 5 et que l'on divise par 5,
+
+08:59.467 --> 09:02.600
+on va retrouver p, quel qu'il soit.
+
+09:02.600 --> 09:04.333
+Donc ces deux-là s'éliminent.
+
+09:04.333 --> 09:07.133
+Nous avons été capables de manipuler l'abstraction,
+
+09:07.133 --> 09:11.010
+et trouver que y sur x est égal à p
+
+09:11.010 --> 09:12.380
+-- écrivons x en vert --
+
+09:12.380 --> 09:15.932
+y sur x est égal à p.
+
+09:15.932 --> 09:18.602
+Maintenant, cela a des implications.
+
+09:18.602 --> 09:21.067
+Des implications pour chacune de ces idées.
+
+09:21.067 --> 09:24.200
+Cela nous dit une vérité fondamentale de l'univers,
+
+09:24.200 --> 09:26.637
+indépendamment de chacune de ces applications.
+
+09:26.637 --> 09:28.467
+Nous pouvons reporter cette vérité fondamentale
+
+09:28.467 --> 09:30.400
+à n'importe laquelle de nos applications.
+
+09:30.400 --> 09:31.800
+La chose vraiment intéressante, c'est que nous allons trouver...
+
+09:31.800 --> 09:33.933
+Il y a un nombre infini d'applications
+
+09:33.933 --> 09:36.575
+et nous ne connaissons même pas encore la plupart d'entre elles.
+
+09:36.575 --> 09:39.954
+Nous en découvrirons encore de nouvelles dans un millier d'années.
+
+09:39.954 --> 09:45.468
+Et donc j'espère que cela vous explique la citation de Galilée :
+
+09:45.468 --> 09:51.867
+les mathématiques sont vraiment le langage avec lequel nous pouvons comprendre la philosophie de l'univers.
+
+09:51.867 --> 09:53.363
+C'est pourquoi on nous dit que,
+
+09:53.363 --> 09:56.579
+si une forme de vie extra-terrestre contactait les humains,
+
+09:56.579 --> 10:00.067
+les mathématiques seraient probablement notre premier point commun,
+
+10:00.067 --> 10:06.231
+l'endroit où nous pourrions établir une première base de communication.

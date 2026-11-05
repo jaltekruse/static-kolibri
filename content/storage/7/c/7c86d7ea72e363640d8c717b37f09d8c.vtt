@@ -1,0 +1,435 @@
+WEBVTT
+
+00:00.266 --> 00:02.532
+- [Instructor] We know that
+for x in the open interval
+
+00:02.532 --> 00:04.561
+from negative 1/2 to 1/2,
+
+00:04.561 --> 00:06.449
+that negative two over one minus two x
+
+00:06.449 --> 00:08.630
+is equal to this series.
+
+00:08.630 --> 00:11.374
+And it says using this
+fact, find the function
+
+00:11.374 --> 00:14.261
+that corresponds to the following series.
+
+00:14.261 --> 00:15.471
+And like always, pause this video
+
+00:15.471 --> 00:17.514
+and see if you can work through it.
+
+00:17.514 --> 00:19.532
+All right, so the first
+thing you might say is well
+
+00:19.532 --> 00:23.288
+how do we know that this
+expression is equal to this series?
+
+00:23.288 --> 00:26.504
+And you might recognize this
+series as a geometric series
+
+00:26.504 --> 00:28.945
+where the first term is negative two
+
+00:28.945 --> 00:31.867
+and then the common ratio
+to get each successive term,
+
+00:31.867 --> 00:36.034
+we're multiplying by two x,
+we're multiplying by two x.
+
+00:37.771 --> 00:39.316
+And so for a geometric series like this,
+
+00:39.316 --> 00:41.506
+the sum is gonna be the first term,
+
+00:41.506 --> 00:44.716
+negative two over one
+minus the common ratio,
+
+00:44.716 --> 00:46.884
+which is exactly what we have over there.
+
+00:46.884 --> 00:48.269
+So that's why we know that.
+
+00:48.269 --> 00:49.252
+And this right over here,
+
+00:49.252 --> 00:51.172
+this gives us our radius of convergence,
+
+00:51.172 --> 00:55.788
+the x values for which this
+thing will actually converge.
+
+00:55.788 --> 00:57.716
+But now that we feel good
+about this first statement,
+
+00:57.716 --> 01:00.709
+let's try to answer their actual question.
+
+01:00.709 --> 01:02.753
+So we wanna find the function
+
+01:02.753 --> 01:05.001
+that corresponds to the following series.
+
+01:05.001 --> 01:08.858
+So my instinct is to say, well
+how does this series relate
+
+01:08.858 --> 01:10.645
+to the series they gave us?
+
+01:10.645 --> 01:12.921
+Let's see, this first
+term is a negative two,
+
+01:12.921 --> 01:15.402
+this first term is a negative two x,
+
+01:15.402 --> 01:18.562
+this is a negative four x, this
+is a negative two x squared.
+
+01:18.562 --> 01:22.343
+So the thing that might
+jump out at you is that
+
+01:22.343 --> 01:27.220
+this second series they gave
+us is the antiderivative
+
+01:27.220 --> 01:28.066
+of this first one.
+
+01:28.066 --> 01:30.077
+Or we could say this first
+series is a derivative
+
+01:30.077 --> 01:31.015
+of the second one.
+
+01:31.015 --> 01:33.645
+What's the derivative of
+negative two x with respect to x?
+
+01:33.645 --> 01:35.061
+Well, it's negative two.
+
+01:35.061 --> 01:36.983
+What's the derivative of
+negative two x squared
+
+01:36.983 --> 01:38.310
+with respect to x?
+
+01:38.310 --> 01:41.941
+Well, it's negative four
+x and so on and so forth.
+
+01:41.941 --> 01:46.072
+And so if we were to
+call this, let me call,
+
+01:46.072 --> 01:48.597
+let me call this thing right over here,
+
+01:48.597 --> 01:53.439
+actually, let me just say
+that this is equal to g of x.
+
+01:53.439 --> 01:55.454
+Well, the way I can take
+this right hand side
+
+01:55.454 --> 01:58.682
+and get g of x is by
+taking the antiderivative,
+
+01:58.682 --> 02:00.256
+taking the indefinite integral.
+
+02:00.256 --> 02:02.559
+And so what we can do, we can take
+
+02:02.559 --> 02:06.059
+the indefinite integral of both sides, dx.
+
+02:07.375 --> 02:08.208
+So dx.
+
+02:09.267 --> 02:13.582
+On the right-hand side
+I'm gonna get g of x.
+
+02:13.582 --> 02:17.221
+And on the left-hand
+side, I am going to get,
+
+02:17.221 --> 02:20.383
+actually let me write it this way.
+
+02:20.383 --> 02:22.113
+So on the left-hand side,
+I'll just rewrite it,
+
+02:22.113 --> 02:24.563
+I'm gonna get the indefinite integral of,
+
+02:24.563 --> 02:27.230
+I'll write it as negative two dx
+
+02:28.341 --> 02:30.091
+over one minus two x.
+
+02:31.478 --> 02:32.764
+And that's just another way of writing
+
+02:32.764 --> 02:34.585
+what I have on the left-hand side here.
+
+02:34.585 --> 02:37.531
+This is equal to g of x, right?
+
+02:37.531 --> 02:39.062
+If I take the antiderivative of this
+
+02:39.062 --> 02:40.601
+or an antiderivative of this,
+
+02:40.601 --> 02:44.629
+is this g of x, where the
+constant would've been zero.
+
+02:44.629 --> 02:47.212
+So I'll say is equal to g of x.
+
+02:49.330 --> 02:51.457
+And so the key here is well,
+what's the indefinite integral
+
+02:51.457 --> 02:54.927
+of this stuff, and you
+might immediately recognize
+
+02:54.927 --> 02:57.430
+what I have here in the bottom,
+
+02:57.430 --> 02:59.742
+I have its derivative here on the top.
+
+02:59.742 --> 03:01.905
+If I consider this to be u.
+
+03:01.905 --> 03:04.745
+If I say u is equal to one minus two x,
+
+03:04.745 --> 03:06.346
+this is just u substitution,
+
+03:06.346 --> 03:08.952
+then du is equal to the derivative of this
+
+03:08.952 --> 03:12.641
+with respect to x which
+is negative two dx.
+
+03:12.641 --> 03:15.352
+And so I have the du right over here.
+
+03:15.352 --> 03:17.096
+So let me rewrite all of this.
+
+03:17.096 --> 03:21.013
+I can rewrite this as
+the integral of du over u
+
+03:23.990 --> 03:25.573
+is equal to g of x,
+
+03:27.050 --> 03:30.550
+and this we can rewrite as the natural log
+
+03:31.999 --> 03:34.749
+of the absolute value of u plus c
+
+03:35.969 --> 03:37.552
+is equal to g of x.
+
+03:38.670 --> 03:41.591
+And then we can undo our u substitution,
+
+03:41.591 --> 03:45.033
+and so for u I'll undo,
+I will substitute back
+
+03:45.033 --> 03:46.722
+the one minus two x.
+
+03:46.722 --> 03:49.424
+So I can write the natural log of
+
+03:49.424 --> 03:53.591
+the absolute value of one
+minus two x is equal to
+
+03:56.212 --> 03:58.369
+plus c, I don't wanna for get that,
+
+03:58.369 --> 04:00.536
+plus c is equal to g of x.
+
+04:03.275 --> 04:06.107
+And so the next thing we wanna
+do is well, what is our c?
+
+04:06.107 --> 04:07.974
+And the easiest way to figure out c is
+
+04:07.974 --> 04:10.307
+let's substitute zero for x.
+
+04:11.260 --> 04:13.666
+And so let's think
+about this a little bit.
+
+04:13.666 --> 04:17.565
+So if I put a zero
+here, if I put x equals,
+
+04:17.565 --> 04:18.666
+actually let me just write it again.
+
+04:18.666 --> 04:21.805
+So I have the natural
+log, if I say x is zero,
+
+04:21.805 --> 04:23.411
+this is gonna be the natural log
+
+04:23.411 --> 04:26.284
+of the absolute value of one plus c
+
+04:26.284 --> 04:28.496
+is equal to g of zero.
+
+04:28.496 --> 04:30.158
+So what's g of zero?
+
+04:30.158 --> 04:32.872
+G of zero, everyone of these
+terms is equal to zero.
+
+04:32.872 --> 04:35.157
+G of zero is equal to zero.
+
+04:35.157 --> 04:36.931
+So is equal to zero.
+
+04:36.931 --> 04:39.879
+Well, natural log of one is just zero.
+
+04:39.879 --> 04:43.474
+So zero plus c is equal to
+zero, c is equal to zero.
+
+04:43.474 --> 04:44.853
+So there you have it.
+
+04:44.853 --> 04:47.032
+I just took the
+antiderivative of both sides
+
+04:47.032 --> 04:48.911
+of this equation right over here.
+
+04:48.911 --> 04:51.890
+I figured out, when I
+substituted zero for x,
+
+04:51.890 --> 04:55.097
+then okay, my constant
+here is going to be zero,
+
+04:55.097 --> 04:58.350
+and I get that, I get that this series,
+
+04:58.350 --> 05:00.517
+this g of x is equal to
+
+05:01.631 --> 05:05.127
+the natural log of the absolute
+value of one minus two x,
+
+05:05.127 --> 05:06.961
+is equal to the natural
+log of the absolute value
+
+05:06.961 --> 05:08.895
+of one minus two x.
+
+05:08.895 --> 05:11.232
+Now, if we keep this restriction
+
+05:11.232 --> 05:12.707
+that we're in this open interval,
+
+05:12.707 --> 05:14.330
+then this is always going to be positive.
+
+05:14.330 --> 05:17.183
+And we wouldn't have to
+write the absolute value,
+
+05:17.183 --> 05:21.154
+but we could be safe by
+writing the absolute value.
+
+05:21.154 --> 05:22.021
+But there you go.
+
+05:22.021 --> 05:24.157
+Using the fact above,
+we found the function
+
+05:24.157 --> 05:25.977
+that corresponds to this following series.
+
+05:25.977 --> 05:28.238
+And I guess you could
+say that the trick of it
+
+05:28.238 --> 05:30.446
+was recognizing that
+
+05:30.446 --> 05:34.113
+the series up here is a derivative
+of the series down here.
+
+05:34.113 --> 05:36.775
+And so this is going to be the derivative
+
+05:36.775 --> 05:38.775
+of the following series,
+
+05:40.879 --> 05:42.838
+and so we just took the
+antiderivative of both sides,
+
+05:42.838 --> 05:45.857
+or the indefinite integral of both sides.

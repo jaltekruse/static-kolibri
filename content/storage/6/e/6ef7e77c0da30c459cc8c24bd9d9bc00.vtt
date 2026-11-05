@@ -1,0 +1,724 @@
+WEBVTT
+
+00:00.251 --> 00:02.158
+- [Instructor] What we're
+going to do in this video
+
+00:02.158 --> 00:04.883
+is prove that the limit
+
+00:04.883 --> 00:07.358
+as theta approaches zero
+
+00:07.358 --> 00:08.691
+of sine of theta
+
+00:10.196 --> 00:13.082
+over theta is equal to one.
+
+00:13.082 --> 00:15.599
+So let's start with a
+little bit of a geometric
+
+00:15.599 --> 00:19.149
+or trigonometric construction
+that I have here.
+
+00:19.149 --> 00:22.675
+So this white circle,
+this is a unit circle,
+
+00:22.675 --> 00:24.251
+that we'll label it as such.
+
+00:24.251 --> 00:26.091
+So it has radius one,
+
+00:26.091 --> 00:27.607
+unit
+
+00:27.607 --> 00:28.440
+circle.
+
+00:29.432 --> 00:31.183
+So what does the length
+
+00:31.183 --> 00:34.907
+of this salmon-colored line represent?
+
+00:34.907 --> 00:38.482
+Well, the height of this line
+would be the y-coordinate
+
+00:38.482 --> 00:42.407
+of where this radius
+intersects the unit circle.
+
+00:42.407 --> 00:45.242
+And so by definition, by
+the unit circle definition
+
+00:45.242 --> 00:48.425
+of trig functions, the length of this line
+
+00:48.425 --> 00:50.842
+is going to be sine of theta.
+
+00:52.307 --> 00:55.075
+If we wanted to make sure
+that also worked for thetas
+
+00:55.075 --> 00:58.000
+that end up in the fourth
+quadrant, which will be useful,
+
+00:58.000 --> 01:00.983
+we can just insure that
+it's the absolute value
+
+01:00.983 --> 01:02.825
+of the sine of theta.
+
+01:02.825 --> 01:05.292
+Now what about this blue line over here?
+
+01:05.292 --> 01:08.992
+Can I express that in terms
+of a trigonometric function?
+
+01:08.992 --> 01:09.825
+Well, let's think about it.
+
+01:09.825 --> 01:12.050
+What would tangent of theta be?
+
+01:12.050 --> 01:13.474
+Let me write it over here.
+
+01:13.474 --> 01:15.632
+Tangent of theta
+
+01:15.632 --> 01:18.549
+is equal to opposite over adjacent.
+
+01:21.190 --> 01:24.242
+So if we look at this broader
+triangle right over here,
+
+01:24.242 --> 01:27.165
+this is our angle theta in radians.
+
+01:27.165 --> 01:29.484
+This is the opposite side.
+
+01:29.484 --> 01:32.559
+The adjacent side down here,
+this just has length one.
+
+01:32.559 --> 01:34.624
+Remember, this is a unit circle.
+
+01:34.624 --> 01:36.424
+So this just has length one,
+
+01:36.424 --> 01:39.716
+so the tangent of theta
+is the opposite side.
+
+01:39.716 --> 01:43.971
+The opposite side is equal
+to the tangent of theta.
+
+01:43.971 --> 01:46.484
+And just like before, this is
+going to be a positive value
+
+01:46.484 --> 01:48.475
+for sitting here in the first quadrant
+
+01:48.475 --> 01:49.690
+but I want things to work
+
+01:49.690 --> 01:51.958
+in both the first and the fourth quadrant
+
+01:51.958 --> 01:53.357
+for the sake of our proof,
+
+01:53.357 --> 01:56.133
+so I'm just gonna put
+an absolute value here.
+
+01:56.133 --> 01:57.432
+So now that we've done,
+
+01:57.432 --> 01:59.324
+I'm gonna think about some triangles
+
+01:59.324 --> 02:01.307
+and their respective areas.
+
+02:01.307 --> 02:03.400
+So first, I'm gonna draw a triangle
+
+02:03.400 --> 02:07.225
+that sits in this wedge,
+in this pie piece,
+
+02:07.225 --> 02:10.324
+this pie slice within the circle,
+
+02:10.324 --> 02:13.074
+so I can construct this triangle.
+
+02:14.382 --> 02:16.234
+And so let's think about the area
+
+02:16.234 --> 02:20.217
+of what I am shading in right over here.
+
+02:20.217 --> 02:22.550
+How can I express that area?
+
+02:23.582 --> 02:24.774
+Well, it's a triangle.
+
+02:24.774 --> 02:26.349
+We know that the area of a triangle
+
+02:26.349 --> 02:29.750
+is 1/2 base times height.
+
+02:29.750 --> 02:30.741
+We know the height
+
+02:30.741 --> 02:32.792
+is the absolute value of the sine of theta
+
+02:32.792 --> 02:35.758
+and we know that the base is equal to one,
+
+02:35.758 --> 02:39.925
+so the area here is
+going to be equal to 1/2
+
+02:41.258 --> 02:43.824
+times our base, which is one,
+
+02:43.824 --> 02:44.842
+times our height,
+
+02:44.842 --> 02:48.192
+which is the absolute
+value of the sine of theta.
+
+02:48.192 --> 02:49.433
+I'll rewrite it over here.
+
+02:49.433 --> 02:50.341
+I can just rewrite that
+
+02:50.341 --> 02:54.791
+as the absolute value of
+the sine of theta over two.
+
+02:54.791 --> 02:58.458
+Now let's think about
+the area of this wedge
+
+02:58.458 --> 03:02.608
+that I am highlighting
+in this yellow color.
+
+03:02.608 --> 03:07.075
+So what fraction of the entire
+circle is this going to be?
+
+03:07.075 --> 03:08.833
+If I were to go all the
+way around the circle,
+
+03:08.833 --> 03:10.335
+it would be two pi radians,
+
+03:10.335 --> 03:14.502
+so this is theta over to
+two pis of the entire circle
+
+03:15.607 --> 03:17.167
+and we know the area of the circle.
+
+03:17.167 --> 03:19.724
+This is a unit circle,
+it has a radius one,
+
+03:19.724 --> 03:21.399
+so it'd be times the area of the circle,
+
+03:21.399 --> 03:24.017
+which would be pi times the radius square,
+
+03:24.017 --> 03:26.666
+the radius is one, so it's
+just gonna be times pi.
+
+03:26.666 --> 03:29.342
+And so the area of this
+wedge right over here,
+
+03:29.342 --> 03:30.592
+theta over two.
+
+03:31.466 --> 03:33.200
+And if we wanted to make this work
+
+03:33.200 --> 03:35.689
+for thetas in the fourth quadrant,
+
+03:35.689 --> 03:38.900
+we could just write an absolute
+value sign right over there
+
+03:38.900 --> 03:42.082
+'cause we're talking about positive area.
+
+03:42.082 --> 03:44.999
+And now let's think about
+this larger triangle
+
+03:44.999 --> 03:48.807
+in this blue color, and this
+is pretty straightforward.
+
+03:48.807 --> 03:53.149
+The area here is gonna be
+1/2 times base times height.
+
+03:53.149 --> 03:57.333
+So the area, and once again,
+this is this entire are,
+
+03:57.333 --> 04:01.413
+that's going to be 1/2 times
+our base, which is one,
+
+04:01.413 --> 04:02.246
+times our height,
+
+04:02.246 --> 04:05.808
+which is the absolute
+value of tangent of theta.
+
+04:05.808 --> 04:07.158
+And so I can just write that down
+
+04:07.158 --> 04:11.325
+as the absolute value of the
+tangent of theta over two.
+
+04:12.439 --> 04:14.550
+Now, how would you compare the areas
+
+04:14.550 --> 04:18.532
+of this pink or this
+salmon-colored triangle
+
+04:18.532 --> 04:20.614
+which sits inside of this wedge
+
+04:20.614 --> 04:21.991
+and how do you compare
+that area of the wedge
+
+04:21.991 --> 04:23.641
+to the bigger triangle?
+
+04:23.641 --> 04:25.899
+Well, it's clear that the
+area of the salmon triangle
+
+04:25.899 --> 04:28.341
+is less than or equal
+to the area of the wedge
+
+04:28.341 --> 04:30.782
+and the area of the wedge
+is less than or equal to
+
+04:30.782 --> 04:33.415
+the area of the big, blue triangle.
+
+04:33.415 --> 04:35.492
+The wedge includes the salmon triangle
+
+04:35.492 --> 04:37.633
+plus this area right over here,
+
+04:37.633 --> 04:40.766
+and then the blue triangle
+includes the wedge
+
+04:40.766 --> 04:43.993
+plus it has this area right over here.
+
+04:43.993 --> 04:45.592
+So I think we can feel good visually
+
+04:45.592 --> 04:48.058
+that this statement
+right over here is true
+
+04:48.058 --> 04:48.891
+and I'm just gonna do
+
+04:48.891 --> 04:50.900
+a little bit of algebraic manipulation.
+
+04:50.900 --> 04:53.450
+Let me multiply everything by two
+
+04:53.450 --> 04:56.790
+so I can rewrite that the absolute value
+
+04:56.790 --> 05:00.514
+of sine of theta is less than or equal to
+
+05:00.514 --> 05:03.124
+the absolute value of theta
+
+05:03.124 --> 05:07.341
+which is less than or
+equal to the absolute value
+
+05:07.341 --> 05:10.149
+of tangent of theta, and let's see.
+
+05:10.149 --> 05:11.699
+Actually, instead of
+writing the absolute value
+
+05:11.699 --> 05:13.766
+of tangent of theta,
+I'm gonna rewrite that
+
+05:13.766 --> 05:16.933
+as the absolute value of sine of theta
+
+05:18.359 --> 05:22.399
+over the absolute value
+of cosine of theta.
+
+05:22.399 --> 05:23.524
+That's gonna be the same thing
+
+05:23.524 --> 05:27.007
+as the absolute value of tangent of theta.
+
+05:27.007 --> 05:27.957
+And the reason why I did that
+
+05:27.957 --> 05:29.775
+is we can now divide everything
+
+05:29.775 --> 05:32.200
+by the absolute value of sine of theta.
+
+05:32.200 --> 05:34.391
+Since we're dividing
+by a positive quantity,
+
+05:34.391 --> 05:37.384
+it's not going to change the
+direction of the inequalities.
+
+05:37.384 --> 05:38.983
+So let's do that
+
+05:38.983 --> 05:40.767
+I'm gonna divide this
+
+05:40.767 --> 05:44.270
+by an absolute value of sine of theta.
+
+05:44.270 --> 05:45.550
+I'm gonna divide this
+
+05:45.550 --> 05:49.091
+by an absolute value of the sine of theta
+
+05:49.091 --> 05:50.499
+and then I'm gonna divide this
+
+05:50.499 --> 05:54.083
+by an absolute value of the sine of theta.
+
+05:54.083 --> 05:55.654
+And what do I get?
+
+05:55.654 --> 05:57.987
+Well, over here, I get a one
+
+05:59.168 --> 06:00.807
+and on the right-hand side, I get a one
+
+06:00.807 --> 06:03.456
+over the absolute value of cosine theta.
+
+06:03.456 --> 06:05.206
+These two cancel out.
+
+06:06.466 --> 06:08.216
+So the next step I'm gonna do
+
+06:08.216 --> 06:11.142
+is take the reciprocal of everything.
+
+06:11.142 --> 06:13.141
+And so when I take the
+reciprocal of everything,
+
+06:13.141 --> 06:15.932
+that actually will
+switch the inequalities.
+
+06:15.932 --> 06:19.034
+The reciprocal of one
+is still going to be one
+
+06:19.034 --> 06:20.983
+but now, since I'm taking
+the reciprocal of this here,
+
+06:20.983 --> 06:24.340
+it's gonna be greater than or equal to
+
+06:24.340 --> 06:27.590
+the absolute value of the sine of theta
+
+06:28.474 --> 06:31.025
+over the absolute value of theta,
+
+06:31.025 --> 06:35.500
+and that's going to be
+greater than or equal to
+
+06:35.500 --> 06:36.474
+the reciprocal of one
+
+06:36.474 --> 06:39.293
+over the absolute value of cosine of theta
+
+06:39.293 --> 06:42.710
+is the absolute value of cosine of theta.
+
+06:43.650 --> 06:46.574
+We really just care about the
+first and fourth quadrants.
+
+06:46.574 --> 06:48.383
+You can think about this theta
+
+06:48.383 --> 06:50.332
+approaching zero from that direction
+
+06:50.332 --> 06:52.557
+or from that direction there,
+
+06:52.557 --> 06:55.242
+so that would be the first
+and fourth quadrants.
+
+06:55.242 --> 06:58.733
+So if we're in the first
+quadrant and theta is positive,
+
+06:58.733 --> 07:01.108
+sine of theta is gonna
+be positive as well.
+
+07:01.108 --> 07:03.529
+And if we're in the fourth
+quadrant and theta's negative,
+
+07:03.529 --> 07:05.084
+well, sine of theta is
+gonna have the same sign.
+
+07:05.084 --> 07:07.125
+It's going to be negative as well.
+
+07:07.125 --> 07:09.358
+And so these absolute value
+signs aren't necessary.
+
+07:09.358 --> 07:10.241
+In the first quadrant,
+
+07:10.241 --> 07:12.633
+sine of theta and theta are both positive.
+
+07:12.633 --> 07:14.592
+In the fourth quadrant,
+they're both negative,
+
+07:14.592 --> 07:15.633
+but when you divide them,
+
+07:15.633 --> 07:20.299
+you're going to get a positive
+value, so I can erase those.
+
+07:20.299 --> 07:22.108
+If we're in the first or fourth quadrant,
+
+07:22.108 --> 07:24.259
+our X value is not negative,
+
+07:24.259 --> 07:26.900
+and so cosine of theta,
+which is the x-coordinate
+
+07:26.900 --> 07:29.858
+on our unit circle, is
+not going to be negative,
+
+07:29.858 --> 07:33.250
+and so we don't need the
+absolute value signs over there.
+
+07:33.250 --> 07:34.917
+Now, we should pause a second
+
+07:34.917 --> 07:37.642
+because we're actually almost done.
+
+07:37.642 --> 07:39.383
+We have just set up three functions.
+
+07:39.383 --> 07:42.492
+You could think of this
+as f of x is equal to,
+
+07:42.492 --> 07:44.542
+you could view this as f
+of theta is equal to one,
+
+07:44.542 --> 07:45.938
+g of theta is equal to this,
+
+07:45.938 --> 07:47.908
+and h of theta is equal to that.
+
+07:47.908 --> 07:49.882
+And over the interval that we care about,
+
+07:49.882 --> 07:52.965
+we could say for negative pi over two
+
+07:53.891 --> 07:57.132
+is less than theta is
+less than pi over two,
+
+07:57.132 --> 07:59.599
+but over this interval,
+this is true for any theta
+
+07:59.599 --> 08:01.925
+over which these functions are defined.
+
+08:01.925 --> 08:04.600
+Sine of theta over theta is
+defined over this interval,
+
+08:04.600 --> 08:06.917
+except where theta is equal to zero.
+
+08:06.917 --> 08:08.599
+But since we're defined everywhere else,
+
+08:08.599 --> 08:11.316
+we can now find the limit.
+
+08:11.316 --> 08:14.716
+So what we can say is,
+well, by the squeeze theorem
+
+08:14.716 --> 08:16.358
+or by the sandwich theorem,
+
+08:16.358 --> 08:18.283
+if this is true over the interval,
+
+08:18.283 --> 08:20.574
+then we also know that
+the following is true.
+
+08:20.574 --> 08:23.300
+And this, we deserve a
+little bit of a drum roll.
+
+08:23.300 --> 08:24.908
+The limit
+
+08:24.908 --> 08:27.575
+as theta approaches zero of this
+
+08:28.883 --> 08:33.474
+is going to be greater
+than or equal to the limit
+
+08:33.474 --> 08:36.532
+as theta approaches zero of this,
+
+08:36.532 --> 08:37.891
+which is the one that we care about,
+
+08:37.891 --> 08:40.440
+sine of theta over theta,
+
+08:40.440 --> 08:45.375
+which is going to be greater
+than or equal to the limit
+
+08:45.375 --> 08:48.125
+as theta approaches zero of this.
+
+08:49.717 --> 08:53.600
+Now this is clearly going
+to be just equal to one.
+
+08:53.600 --> 08:55.842
+This is what we care about.
+
+08:55.842 --> 08:58.050
+And this, what's the limit
+as theta approaches zero
+
+08:58.050 --> 08:59.457
+of cosine of theta?
+
+08:59.457 --> 09:01.158
+Well, cosine of zero is just one
+
+09:01.158 --> 09:02.799
+and it's a continuous function,
+
+09:02.799 --> 09:04.599
+so this is just gonna be one.
+
+09:04.599 --> 09:05.432
+So let's see.
+
+09:05.432 --> 09:07.392
+This limit is going to be
+less than or equal to one
+
+09:07.392 --> 09:09.347
+and it's gonna be greater
+than or equal to one,
+
+09:09.347 --> 09:11.680
+so this must be equal to one
+
+09:13.832 --> 09:14.929
+and we are done.

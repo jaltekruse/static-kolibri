@@ -1,0 +1,963 @@
+WEBVTT
+
+00:00.000 --> 00:03.170
+No último vídeo, tivemos
+um ótimo entendimento
+
+00:03.170 --> 00:06.760
+de como uma função
+vetorial funciona,
+
+00:06.760 --> 00:10.340
+ou melhor, a posição de
+uma função vetorial
+
+00:10.340 --> 00:13.460
+que é, de certo modo, uma
+substituição para a parametrização
+
+00:13.460 --> 00:16.110
+tradicional que descreve a curva
+
+00:16.110 --> 00:18.050
+E o que eu quero nesse vídeo
+é mostrar
+
+00:18.050 --> 00:21.910
+o que significa tomar a derivada
+
+00:21.910 --> 00:23.730
+de uma função vetorial
+
+00:23.730 --> 00:27.190
+Nesse caso, será com relação
+ao nosso parâmetro t
+
+00:27.190 --> 00:30.510
+Vou fazer um novo desenho aqui
+
+00:30.510 --> 00:36.580
+Vamos dizer que eu tenha a função
+vetorial r de t
+
+00:36.580 --> 00:39.450
+e isso não é diferente do que
+eu fiz no último vídeo
+
+00:39.450 --> 00:46.830
+x de t vezes o vetor unitário i mais
+y de t vezes o vetor unitário j
+
+00:46.830 --> 00:49.460
+Se fizermos isso em 3 dimensões,
+nós adicionamos
+
+00:49.460 --> 00:52.510
+um z de t vezes k, mas vamos
+deixar as coisas mais simples,
+
+00:52.510 --> 00:56.950
+e dizer que isso descreve uma curva, e
+ainda que nessa curva que estamos lidando
+
+00:56.950 --> 01:03.630
+t está entre a e b, e a curva ira parecer
+
+01:03.630 --> 01:07.870
+com isso, vou desenha-la
+
+01:07.870 --> 01:12.600
+vou apenas fazer aqui uma curva qualquer
+
+01:12.600 --> 01:17.900
+Essa curva parece com algo desse tipo
+
+01:17.900 --> 01:21.760
+isso é quando t é igual a a, e vai
+indo nessa direção
+
+01:21.760 --> 01:26.150
+isso é quando t é igual a b, bem aqui
+isso é quando t igual a a,
+
+01:26.150 --> 01:30.790
+isso aqui é onde seria x de a
+
+01:30.790 --> 01:36.730
+e esse seria y de a, do mesmo modo
+esse seria x de b,
+
+01:36.730 --> 01:40.240
+e aqui temos y de b
+
+01:40.240 --> 01:45.150
+vimos no último vídeos que as
+extremidades desses vetores
+
+01:45.150 --> 01:47.720
+estão descrevendo essa curva
+
+01:47.720 --> 01:52.210
+Então r de a como vimos no
+último vídeo, descreve esse ponto aqui
+
+01:52.210 --> 01:54.270
+não quero revisar tudo
+
+01:54.270 --> 01:56.800
+mas o que eu quero é pensar sobre,
+
+01:56.800 --> 01:58.930
+qual a diferença entre 2 pontos?
+
+01:58.930 --> 02:01.410
+vamos dizer que nós pegamos
+alguns pontos aleatórios aqui
+
+02:01.410 --> 02:03.760
+Digamos que temos algum ponto t aqui
+
+02:03.760 --> 02:06.260
+chamaremos ele de r de t
+
+02:06.260 --> 02:08.197
+Na verdade, vou fazer um
+ponto diferente,
+
+02:08.197 --> 02:10.100
+apenas para deixar isso mais claro
+
+02:10.100 --> 02:13.370
+Vou mudar a cor, vamos dizer que
+
+02:13.370 --> 02:17.080
+essa direção é o r de algum t
+
+02:17.080 --> 02:18.980
+Algum t em particular bem aqui
+
+02:18.980 --> 02:22.410
+esse é r de t
+
+02:22.410 --> 02:25.050
+Ele será, você sabe,
+a soma de algo
+
+02:25.050 --> 02:26.950
+Isso é o que sabemos sobre esse t
+
+02:26.950 --> 02:30.080
+Digamos que queremos calcular
+
+02:30.080 --> 02:32.490
+um acréscimo a t com h
+
+02:32.490 --> 02:37.250
+Dizemos então r de t mais h,
+bom, se nós vermos o parâmetro t
+
+02:37.250 --> 02:40.430
+como o tempo, podemos notar
+que ele se moveu a frente,
+
+02:40.430 --> 02:43.160
+então nossa patícula se moveu
+um pouco
+
+02:43.180 --> 02:45.650
+e vamos dizer que estamos aqui
+
+02:45.650 --> 02:52.530
+isso em amarelo é r de t mais h.
+
+02:52.530 --> 02:55.360
+apenas um valor um pouco maior para h
+
+02:55.360 --> 02:57.990
+Uma questão que devemos ter é,
+
+02:57.990 --> 03:04.650
+Quão rápido f esta mudando em relação a t?
+
+03:04.650 --> 03:06.560
+A primeira coisa que queremos
+dizer
+
+03:06.560 --> 03:09.700
+poderia ser qual a diferença
+entre esses dois?
+
+03:09.700 --> 03:12.110
+se eu quero tomar r,
+pois quero visualiza-lo
+
+03:12.110 --> 03:16.880
+eu quero tomar r, o vetor posição
+que estamos avaliando como
+
+03:16.880 --> 03:25.160
+r de t mais h, e a partir daí
+subtrair r de t.
+
+03:25.160 --> 03:26.690
+O que obtemos?
+
+03:26.690 --> 03:29.480
+Você poderia querer revisar um pouco
+de álgebra vetorial
+
+03:29.480 --> 03:32.260
+mas nós essencialmente apenas
+vamos pegar esse vetor
+
+03:32.260 --> 03:34.210
+deixe-me fazer isso em uma
+cor vibrante
+
+03:34.210 --> 03:36.820
+nós vamos pegar esse vetor bem aqui.
+
+03:36.820 --> 03:39.320
+farei isso na cor magenta
+
+03:39.320 --> 03:44.010
+esse vetor magenta bem aqui
+
+03:44.010 --> 03:52.060
+é o vetor r de t mais h, menos r de t
+
+03:52.060 --> 03:54.080
+e isso faz sentido, porque quando
+
+03:54.080 --> 03:57.270
+você adiciona vetores, você liga
+o ínicio de um com o fim do outro
+
+03:57.270 --> 04:04.060
+você pode escrever isso de forma
+alternativa como r de t mais esse
+
+04:04.060 --> 04:11.490
+termo bem aqui, mais r de t mais h,
+menos r de t.
+
+04:11.490 --> 04:13.630
+quando você adiciona dois vetores,
+você estará
+
+04:13.630 --> 04:16.180
+adicionando esse vetor
+
+04:16.180 --> 04:17.350
+a esse vetor aqui
+
+04:17.350 --> 04:20.260
+você coloca o início do
+segundo vetor para o
+
+04:20.260 --> 04:21.450
+fim do primeiro
+
+04:21.450 --> 04:23.850
+então esse é o primeiro vetor
+e eu coloco o fim do
+
+04:23.850 --> 04:28.000
+segundo aqui, e a soma
+desses dois, como dizemos,
+
+04:28.000 --> 04:29.470
+será igual a esse último
+
+04:29.470 --> 04:33.050
+será igual a r de t mais h
+
+04:33.050 --> 04:36.000
+e nós vemos que nesse caso,
+e algebricamente, você verá
+
+04:36.000 --> 04:39.240
+que essa parte e essa
+outra parte
+
+04:39.240 --> 04:40.080
+irão se cancelar.
+
+04:40.080 --> 04:41.740
+espero que isso satisfaça você
+
+04:41.740 --> 04:42.860
+Eu quero ser claro.
+
+04:42.860 --> 04:45.450
+Esse pedaço, não é um vetor posição.
+
+04:45.450 --> 04:48.560
+Não estamos dizendo que se
+pegarmos o início desse cara
+
+04:48.560 --> 04:51.870
+e ao colocarmos na origem descreveríamos
+uma posição única
+
+04:51.870 --> 04:54.610
+Esse pedaço na verdade, é apenas um
+tipo de vetor puro
+
+04:54.610 --> 04:57.700
+ele está descrevendo apena a mudança
+entre a posição
+
+04:57.700 --> 04:59.140
+de dois outros vetores
+
+04:59.140 --> 05:00.790
+então esse cara está bem aqui
+
+05:00.790 --> 05:03.930
+mas esse vetor literalmente
+descreve a mudança
+
+05:03.930 --> 05:07.070
+Mas digamos que nos importamos, e como
+vamos olhar algebricamente
+
+05:07.070 --> 05:08.460
+se nós expandirmos dessa forma?
+
+05:08.460 --> 05:14.740
+Isso será igual a qual r de t mais h?
+
+05:14.740 --> 05:20.520
+Será a mesma coisa que x de... deixe-me
+fazer isso aqui
+
+05:20.520 --> 05:27.190
+Isso é a mesma coisa que x de t mais
+h vezes o vetor unitário i
+
+05:27.190 --> 05:35.040
+mais y de t mais h vezes o vetor
+unitário j, que é justamente esse
+
+05:35.040 --> 05:40.570
+pedaço, essa parte bem aqui
+é a parte, menos essa
+
+05:40.570 --> 05:44.300
+parte, então menos. Eu vou fazer
+a segunda linha, posso ter
+
+05:44.300 --> 05:46.240
+feito isso, mas estou sem espaço.
+
+05:46.240 --> 05:52.650
+menos x de t, aplicando a distributiva
+com o sinal de menos,
+
+05:52.650 --> 05:58.980
+teremos menos
+y de t vezes j.
+
+05:58.980 --> 06:01.870
+Vou escrever isso, será então menos,
+
+06:01.870 --> 06:04.130
+escrevendo desse jeito,
+mais isso.
+
+06:04.130 --> 06:06.200
+você pode ver que isso é
+justamente essa
+
+06:06.200 --> 06:06.950
+parte aqui
+
+06:06.950 --> 06:09.200
+eu estou apenas o desenvolvendo em t.
+
+06:09.200 --> 06:11.030
+Você tem x de t e y de t, mais tarde
+
+06:11.030 --> 06:11.970
+você poderá distribuir, certo?
+
+06:11.970 --> 06:14.255
+se você distribuir esse sinal
+de menos, você
+
+06:14.255 --> 06:15.920
+terá um menos x de t e
+um menos y de t
+
+06:15.920 --> 06:19.380
+Na adição de vetores, você pode
+precisar de uma revisão nisso
+
+06:19.380 --> 06:20.920
+caso não veja isso por um tempo,
+você sabe que pode apenas
+
+06:20.920 --> 06:22.990
+adicionar os termos correspondentes.
+
+06:22.990 --> 06:24.450
+você pode adicionar os
+componentes x
+
+06:24.450 --> 06:25.750
+e também adicionar os componentes y.
+
+06:25.750 --> 06:28.790
+Isso será igual a, deixe-me
+reescrever isso aqui,
+
+06:28.790 --> 06:31.810
+porque eu acho que vou precisar
+de espaço mais tarde.
+
+06:31.810 --> 06:34.510
+Deixe-me reescrever isso aqui
+
+06:34.510 --> 06:42.930
+Eu tenho r de t mais h, menos r de t
+é igual a, eu vou apenas juntar
+
+06:42.930 --> 06:47.100
+os grupos de componentes x e y, isso é
+igual aos componentes x juntos
+
+06:47.100 --> 06:49.920
+mas isso é negativo, então nós vamos
+subtrair essa parte
+
+06:49.920 --> 06:52.080
+dessa outra parte
+
+06:52.100 --> 07:02.400
+então x de t mais h menos x de t, e
+tudo isso vezes nosso vetor unitário
+
+07:02.400 --> 07:14.400
+na direção x, e toda essa parte aqui
+mais y de t mais h menos y d t vezes
+
+07:14.400 --> 07:16.900
+o vetor unitário na direção j,
+
+07:16.900 --> 07:19.490
+estou apenas rearranjando os termos,
+e irei dizer
+
+07:19.490 --> 07:25.870
+o que é a diferença entre dois
+r's quaisquer de uma
+
+07:25.870 --> 07:26.610
+distância dada
+
+07:26.610 --> 07:29.140
+e nossa mudança na distância
+aqui é h entre quaisquer
+
+07:29.140 --> 07:31.000
+dois vetores de posição
+
+07:31.000 --> 07:33.500
+Agora, o que eu propus no início
+do vídeo
+
+07:33.500 --> 07:36.100
+Eu disse, que queria entender a mudança,
+e nos vamos
+
+07:36.100 --> 07:37.990
+pensar sobre a mudança instantânea
+
+07:37.990 --> 07:39.790
+em relação a t
+
+07:39.790 --> 07:42.920
+Eu pergunto, quão rápido ocorre
+essa mudança
+
+07:42.920 --> 07:46.570
+em um período h?
+
+07:46.570 --> 07:48.750
+Se escrevêssemos delta t ao invés de h
+
+07:48.750 --> 07:50.010
+estaríamos dizendo a mesma coisa
+
+07:50.010 --> 07:52.570
+quero dividir isso por h
+
+07:52.570 --> 07:55.410
+O que quero dizer é.
+
+07:55.410 --> 07:58.200
+Meus vetores mudaram dessa forma
+mas eu quero ver isso
+
+07:58.200 --> 07:59.310
+em um período de h.
+
+07:59.310 --> 08:01.980
+Isso é análogo a quando nós
+calculamos a inclinação.
+
+08:01.980 --> 08:05.090
+Dizemos que como muda no caminho,
+sobre delta y, ou mudamos em y
+
+08:05.090 --> 08:06.290
+ou mudamos em x.
+
+08:06.290 --> 08:09.160
+essa parte da mudança na nossa função
+para cada mudança em x
+
+08:09.160 --> 08:11.620
+Apenas dividiremos tudo,
+
+08:11.620 --> 08:16.820
+aqui nossa mudança em t é h, certo?
+
+08:16.820 --> 08:21.290
+A diferença entre t mais h
+e t será apenas h.
+
+08:21.290 --> 08:25.650
+e vamos dividir tudo por h.
+
+08:25.650 --> 08:28.750
+quando você multiplica um vetor
+por um escalar, ou o dividir por
+
+08:28.750 --> 08:31.070
+algum escalar, você está apenas
+pegando cada um
+
+08:31.070 --> 08:34.140
+dos componentes e multiplicando
+ou dividindo por esse escalar,
+
+08:34.140 --> 08:35.660
+e nós vamos pegar isso aqui.
+
+08:35.660 --> 08:39.540
+Então isso, para qualquer diferença
+finita bem aqui, h,
+
+08:39.540 --> 08:43.300
+nos diz quanto nosso vetor
+muda por cada mudança em h.
+
+08:43.300 --> 08:46.220
+mas se nós queremos encontrar a
+mudança instantânea,
+
+08:46.220 --> 08:50.140
+do modo como aprendemos
+cálculo diferencial, ok.
+
+08:50.140 --> 08:52.690
+essa parte é análoga a inclinação
+
+08:52.690 --> 08:55.520
+Isso é bom, poderemos trabalhar
+bem com isso, se a parte
+
+08:55.520 --> 09:02.220
+em questão parecer com algo assim
+
+09:02.220 --> 09:04.920
+se ele tem um caminho linear.
+
+09:04.920 --> 09:07.240
+se nosso caminho parece com algo
+desse tipo
+
+09:07.240 --> 09:09.800
+nós podemos calcular isso,
+e essencialmente teremos
+
+09:09.800 --> 09:13.080
+a variação média em nossa posição,
+você pode imaginar,
+
+09:13.080 --> 09:15.880
+dois vetores, onde um deles...
+
+09:15.880 --> 09:18.050
+na verdade, serão paralelos
+
+09:18.050 --> 09:24.470
+os vetores posição não tem que
+ser paralelos
+
+09:24.470 --> 09:26.740
+eles podem ser assim
+
+09:26.740 --> 09:29.340
+e desse modo, isso apenas descreve
+a mudança entre
+
+09:29.340 --> 09:32.940
+esses 2 por h, ou quão rápido esses
+vetores mudam em cada acréscimo
+
+09:32.940 --> 09:36.230
+do nosso parâmetro, certo?
+
+09:36.230 --> 09:40.530
+Em h, você pode considerar, como parte
+de delta t
+
+09:40.530 --> 09:44.900
+algumas vezes achamos h mais simples,
+outras achamos delta t.
+
+09:44.900 --> 09:47.230
+mas de qualquer modo, estou preocupado
+com o instântaneo
+
+09:47.230 --> 09:49.140
+estamos lindando com curvas,
+com cálculo.
+
+09:49.140 --> 09:50.870
+Estaria tudo bem, se estivéssemos
+
+09:50.870 --> 09:52.670
+em um mundo linear algébrico
+
+09:52.670 --> 09:53.850
+então, o que faremos?
+
+09:53.850 --> 09:59.420
+Talvez nós poderíamos tomar
+o limite de h tendendo a zero
+
+09:59.420 --> 10:04.710
+Então vamos pegar o limite, deixe-me
+fazer isso com uma cor vibrante
+
+10:04.710 --> 10:12.200
+Vamos pegar o limite de h tendendo
+a zero dos dois lados disso
+
+10:12.200 --> 10:16.440
+aqui, também, estou tomando o limite
+de h tendendo a 0,
+
+10:16.440 --> 10:20.430
+e aqui também
+
+10:20.430 --> 10:22.970
+eu só quero dizer que, bem, isso acontece
+
+10:22.970 --> 10:27.866
+quanto eu mudo, para cada mudança
+em meu parâmetro t, mas qual a mudança
+
+10:27.866 --> 10:31.220
+instantânea, quando a diferença
+se torna cada vez menor?
+
+10:31.280 --> 10:33.870
+isso é exatamente o que nós aprendemos
+
+10:33.870 --> 10:36.810
+sobre inclinação instantânea, ou
+velocidade instantânea, ou
+
+10:36.810 --> 10:38.330
+inclinação da reta tangente
+
+10:38.330 --> 10:41.270
+Bem, essas coisas parecem um pouco
+indefinidas para mim agora.
+
+10:41.270 --> 10:45.260
+nós não definimos limites para
+funções vetoriais, nem mesmo
+
+10:45.260 --> 10:47.820
+definimos a derivada de uma
+função vetorial
+
+10:47.820 --> 10:50.250
+mas, para nossa sorte, todo
+esse raciocínio parece
+
+10:50.250 --> 10:51.160
+muito familiar
+
+10:51.160 --> 10:54.400
+Essa é a nossa definição de derivada
+
+10:54.400 --> 10:56.310
+E essas são funções escalares bem aqui.
+
+10:56.310 --> 10:58.340
+Elas estão multiplicadas por vetores,
+para
+
+10:58.340 --> 10:59.880
+obtermos funções vetoriais.
+
+10:59.880 --> 11:02.100
+Mas isso aqui, pela definição,
+é a derivada,
+
+11:02.100 --> 11:04.330
+ela é x linha de t
+
+11:04.330 --> 11:08.020
+ou ainda dx dt
+
+11:08.020 --> 11:12.280
+Isso aqui é y linha de t,
+ou podemo escrever
+
+11:12.280 --> 11:14.950
+dy dt
+
+11:14.950 --> 11:17.520
+Dessa forma podemos definir,
+podemos dizer....
+
+11:17.520 --> 11:19.220
+Quero passar pra você a visão
+intuitiva
+
+11:19.220 --> 11:20.590
+mais do que qualquer coisa
+
+11:20.590 --> 11:23.890
+Nós podemos dizer que a derivada,
+chamamos essa expressão aqui,
+
+11:23.890 --> 11:31.390
+de derivada da minha função
+vetorial r em relação a t,
+
+11:31.390 --> 11:35.440
+ou nós podemos chamá-la de
+dr dt, repare que mantenho
+
+11:35.440 --> 11:37.170
+o sinal de vetor aqui.
+
+11:37.170 --> 11:44.100
+Isso é derivável, e tudo isso será
+igual a...
+
+11:44.100 --> 11:47.700
+r linha de t, será igual a,
+bem, essa é a derivada de x
+
+11:47.700 --> 11:50.450
+em relação a t, é igual a
+
+11:50.450 --> 11:54.230
+x linha de t vezes o vetor unitário
+de x, o vetor unitário horizontal,
+
+11:54.230 --> 12:01.170
+mais y linha de t, vezes o vetor
+unitário de y, vezes j,
+
+12:01.170 --> 12:04.240
+o vetor unitário na direção
+horizontal.
+
+12:04.240 --> 12:06.800
+Esse é um resultado bonito e simples
+
+12:06.800 --> 12:09.340
+Mas pode ser difícil de se visualizar
+
+12:09.340 --> 12:10.730
+o que representa.
+
+12:10.730 --> 12:15.690
+Se pensarmos sobre o que acontece,
+deixe-me desenhar um grande gráfico
+
+12:15.690 --> 12:19.730
+apenas para termos a visualização
+facilitada.
+
+12:19.730 --> 12:22.310
+Digamos que minha curva se pareça
+com algo desse tipo.
+
+12:22.310 --> 12:23.700
+Essa é minha curva
+
+12:23.700 --> 12:26.860
+Vamos dizer que isso é, nós queremos
+descobrir a mudança instantânea
+
+12:26.860 --> 12:29.210
+nesse ponto aqui
+
+12:29.210 --> 12:32.550
+Esse é r de t
+
+12:32.550 --> 12:35.520
+e se nós tomarmos r de t mais
+h, poderemos ter
+
+12:35.520 --> 12:39.740
+algo como isso aqui.
+
+12:39.740 --> 12:42.710
+logo esse é r de t mais h
+
+12:42.710 --> 12:46.890
+agora, a diferença entre
+esses dois,
+
+12:46.890 --> 12:55.170
+quão rápida é a mudança, desse vetor,
+para esse em relação a t,
+
+12:55.170 --> 12:57.140
+e isso é difícil de se visualizar aqui.
+
+12:57.140 --> 12:58.960
+e farei alguns vídeos para pensarmos
+
+12:58.960 --> 13:00.160
+sobre a magnitude disso.
+
+13:00.160 --> 13:02.200
+Isso pode ser algum vetor.
+
+13:02.200 --> 13:03.560
+Bem, a diferença entre esses dois
+
+13:03.560 --> 13:05.070
+é justamente essa.
+
+13:05.070 --> 13:07.470
+Mas quando nós dividimos isso por h,
+isso será
+
+13:07.470 --> 13:10.840
+um vetor maior, certo, se nós
+assumirmos que h é um número pequeno.
+
+13:10.840 --> 13:12.410
+Vamos dizer que h é menor que 1.
+
+13:12.410 --> 13:14.410
+nós iremos tornar o vetor maior, certo?
+
+13:14.410 --> 13:17.100
+mas é um tipo de média que muda
+ao longo do tempo
+
+13:17.100 --> 13:22.910
+mas com h cada vez menor e menor
+
+13:22.910 --> 13:26.100
+esse r linha de t está indo, a direção
+está se tornando
+
+13:26.100 --> 13:28.090
+tangente a curva.
+
+13:28.090 --> 13:29.900
+Acho que você pode
+visualizar, certo?
+
+13:29.900 --> 13:33.320
+quando esses dois vetores se aproximam
+cada vez mais, os dr's
+
+13:33.320 --> 13:37.790
+se tornam menores, então a mudança,
+dr, diferença entre esses dois,
+
+13:37.790 --> 13:41.220
+os delta r's, se tornam menores e menores,
+você pode imaginar
+
+13:41.220 --> 13:43.790
+se h for menor, ele estava bem aqui.
+
+13:43.790 --> 13:45.510
+Logo, a diferença entre esses
+
+13:45.510 --> 13:47.795
+dois vetores está ficando menor
+
+13:47.795 --> 13:53.770
+e ficando cada vez mais tangente a curva
+
+13:53.770 --> 13:56.800
+no entanto, nós ainda estamos
+dividindo por um h pequeno,
+
+13:56.800 --> 14:00.670
+de modo que a derivada, como o limite de h
+se aproximando de 0, poderia ser,
+
+14:00.670 --> 14:02.120
+um número grande
+
+14:02.120 --> 14:04.420
+Na verdade a magnitude desse vetor,
+é bem díficil
+
+14:04.420 --> 14:05.720
+de se visualizar
+
+14:05.720 --> 14:09.510
+Isso irá depender da parametrização
+da curva
+
+14:09.510 --> 14:11.990
+e não depende da forma da curva
+
+14:11.990 --> 14:15.170
+A direção desse vetor depende da
+forma da curva
+
+14:15.170 --> 14:22.400
+e a direção, será tangente a curva
+
+14:22.460 --> 14:28.240
+Ou você pode imagina que esse vetor
+é a linha tange a curva
+
+14:28.240 --> 14:30.960
+A magnitude é um pouco mais
+difícil de se entender.
+
+14:30.960 --> 14:33.050
+Vou tentar dar a você um pouco
+da intuição
+
+14:33.050 --> 14:35.060
+no próximo vídeo
+
+14:35.060 --> 14:37.380
+mas isso é o que eu quero que você
+entenda agora
+
+14:37.380 --> 14:40.990
+porque nós iremos usar isso
+no futuro, quando vermos
+
+14:40.990 --> 14:44.060
+a integral de linha sobre,
+funções vetoriais
+
+14:44.060 --> 14:45.000
+Legendado por [Yuri Tobias]

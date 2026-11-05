@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.523 --> 00:03.036
+Rozpatrzmy funkcję f,
+
+00:03.036 --> 00:11.241
+ciągłą w przedziale [a, b].
+
+00:11.241 --> 00:14.946
+Jest to przedział domknięty, zawiera więc a i b.
+
+00:14.946 --> 00:17.968
+Narysujmy to.
+
+00:17.968 --> 00:24.895
+Rysujemy oś pionową i poziomą. Oś poziomą nazwiemy t,
+
+00:24.895 --> 00:28.698
+aby zachować oznaczenie x na później. Oś pionową nazwiemy y.
+
+00:28.698 --> 00:34.986
+Narysujmy wykres funkcji: y = f(t).
+
+00:34.986 --> 00:41.826
+Oznaczmy na osi t kolejno: punkt a
+
+00:41.826 --> 00:45.708
+oraz punkt b.
+
+00:45.708 --> 00:49.819
+Aby zwrócić uwagę na to, że punkty a i b należą do naszego przedziału,
+
+00:49.819 --> 00:52.494
+pogrubmy te linie.
+
+00:52.494 --> 00:56.714
+Mamy więc przedział ograniczony punktami a i b,
+
+00:56.714 --> 00:58.633
+na którym funkcja f jest ciągła.
+
+00:58.633 --> 01:04.721
+Określmy nową funkcję, mierzącą pole pod wykresem funkcji f
+
+01:04.721 --> 01:10.236
+pomiędzy punktem a i pewnym innym punktem należącym do wnętrza przedziału [a,b].
+
+01:10.236 --> 01:13.135
+Niech to będzie punkt x.
+
+01:13.135 --> 01:19.309
+Definiujemy więc nową funkcję mierzącą pole pod wykresem funkcji f,
+
+01:19.309 --> 01:22.575
+między punktami a i x.
+
+01:22.575 --> 01:26.886
+Jak oznaczamy pole pod wykresem funkcji pomiędzy dwoma punktami?
+
+01:26.886 --> 01:30.642
+Oczywiście używamy do tego całki oznaczonej.
+
+01:30.642 --> 01:34.501
+Już teraz wiemy, że
+
+01:34.501 --> 01:37.887
+całka oznaczona wyraża pole pod wykresem między dwoma punktami.
+
+01:37.887 --> 01:40.634
+A więc zaznaczone pole
+
+01:40.634 --> 01:59.570
+to nic innego jak całka oznaczona od a do x, z funkcji f(t). Całkujemy po t.
+
+01:59.570 --> 02:03.106
+Niech ta całka oznaczona będzie funkcją od x,
+
+02:03.106 --> 02:11.568
+gdzie x należy do przedziału [a,b].
+
+02:11.568 --> 02:15.642
+Zdefiniowaliśmy więc funkcję od argumentu x.
+
+02:15.642 --> 02:18.468
+Jej wartość, przy ustalonym a i b, zależy jedynie od wyboru x.
+
+02:18.468 --> 02:23.109
+Nazwijmy tę funkcję
+
+02:23.109 --> 02:27.773
+F(x).
+
+02:27.773 --> 02:32.903
+F(x) jest dobrze określoną funkcją. Dla danego x,
+
+02:32.903 --> 02:38.168
+należącego do przedziału [a,b], F(x) wyznacza pole pod wykresem funkcji f
+
+02:38.168 --> 02:40.637
+między punktami a i x.
+
+02:40.637 --> 02:44.902
+Przejdźmy teraz do podstawowego twierdzenia rachunku całkowego.
+
+02:44.902 --> 02:48.802
+Sformułujmy je.
+
+02:48.802 --> 03:00.378
+Podstawowe twierdzenie rachunku całkowego mówi, że
+
+03:00.378 --> 03:06.669
+pochodna funkcji F(x),
+
+03:06.669 --> 03:09.769
+pochodna funkcji F(x) po x,
+
+03:09.769 --> 03:13.703
+czyli inaczej pochodna po x z naszej całki oznaczonej
+
+03:13.703 --> 03:18.128
+.
+
+03:18.128 --> 03:24.901
+Oczywiście te dwie rzeczy są sobie równe.
+
+03:24.901 --> 03:28.502
+Jest to jasne, ponieważ jeśli dwie funkcje są sobie równe,
+
+03:28.502 --> 03:30.902
+to ich pochodne po x też są równe.
+
+03:30.902 --> 03:34.101
+Podstawowe twierdzenie rachunku całkowego mówi,
+
+03:34.101 --> 03:37.384
+że to, co właśnie zapisaliśmy,
+
+03:37.384 --> 03:43.502
+jest równe f(x).
+
+03:43.502 --> 03:48.245
+Zastanówmy się, po co to wszystko?
+
+03:48.245 --> 03:53.969
+Dlaczego jest to aż tak ważne, że zostało nazwane podstawowym twierdzeniem rachunku całkowego?
+
+03:53.969 --> 03:58.769
+Otóż dzięki temu wiemy, że dla każdej funkcji ciągłej f,
+
+03:58.769 --> 04:04.546
+jeśli określimy funkcję F mierzącą pole pod wykresem funkcji f, między punktami a i x,
+
+04:04.546 --> 04:08.510
+to f(x) jest pochodną funkcji F(x).
+
+04:08.510 --> 04:09.635
+Wynika stąd, że
+
+04:09.635 --> 04:26.966
+każda funkcja ciągła f ma swoją funkcję pierwotną F(x).
+
+04:26.966 --> 04:30.169
+To już coś.
+
+04:30.169 --> 04:33.054
+Jednak wiąże się z tym coś więcej.
+
+04:33.054 --> 04:39.884
+Przypomnijmy, że jedyne, czego używaliśmy to całka oznaczona, wyrażająca pole pod wykresem
+
+04:39.884 --> 04:43.030
+między dwoma punktami. Stąd właśnie bierze się definicja
+
+04:43.030 --> 04:46.530
+całki Riemanna. Teraz jednak widzimy,
+
+04:46.530 --> 04:50.446
+że ma to również związek z różniczkowaniem. Rozpatrując całkę oznaczoną,
+
+04:50.446 --> 04:55.279
+w szczególności, jak w naszym przypadku, między dolną granicą przedziału a punktem x,
+
+04:55.279 --> 04:58.869
+można o tym myśleć po prostu jako o rozpatrywaniu funkcji pierwotnej.
+
+04:58.869 --> 05:00.299
+Widząc ten związek,
+
+05:00.299 --> 05:04.234
+łatwo zrozumieć, dlaczego to twierdzenie nazwano podstawowym twierdzeniem rachunku całkowego.
+
+05:04.234 --> 05:13.782
+Łączy ono rachunek różniczkowy z rachunkiem całkowym.
+
+05:13.782 --> 05:17.967
+Przed wprowadzeniem tego twierdzenia,
+
+05:17.967 --> 05:21.566
+całkowanie traktowaliśmy jedynie jako obliczanie pola pod wykresem.
+
+05:21.566 --> 05:24.287
+Teraz widzimy związek z pochodnymi.
+
+05:24.287 --> 05:30.037
+W jaki sposób można to twierdzenie zastosować?
+
+05:30.037 --> 05:32.536
+W kolejnych filmach zobaczycie,
+
+05:32.536 --> 05:35.165
+dlaczego to twierdzenie jest prawdziwe i jak je udowodnić.
+
+05:35.165 --> 05:38.028
+Teraz jednak zastanówmy się, jak można je wykorzystać?
+
+05:38.028 --> 05:43.531
+Załóżmy, że ktoś poprosił Was
+
+05:43.531 --> 05:50.507
+o znalezienie pochodnej po x
+
+05:50.507 --> 05:54.840
+z całki od dowolnej liczby, niech to będzie na przykład
+
+05:54.840 --> 05:59.784
+całka od pi do x z funkcji
+
+05:59.784 --> 06:10.703
+cos(t) do kwadratu dzielone przez logarytm naturalny z (t odjąć pierwiastek z t). Całkujemy po t.
+
+06:10.703 --> 06:13.898
+Chcemy więc obliczyć pochodną po x z tej całki.
+
+06:13.898 --> 06:18.790
+Zauważmy, że w nawiasie mamy funkcję od x.
+
+06:18.790 --> 06:22.036
+Jej wartość zależy tylko od wyboru x. Dla różnych x otrzymamy
+
+06:22.036 --> 06:26.389
+różne wyniki. Jaka jest więc szukana pochodna?
+
+06:26.389 --> 06:30.141
+Odpowiedź znamy dzięki podstawowemu twierdzeniu rachunku całkowego.
+
+06:30.141 --> 06:36.806
+W następnych filmach zobaczymy, dlaczego tak to działa.
+
+06:36.806 --> 06:41.052
+Jednak już teraz widzimy, że, ogólnie rzecz biorąc, jeśli pod całką mamy funkcję od t, czyli f(t),
+
+06:41.052 --> 06:44.472
+zamiast t wstawiamy x i uzyskujemy funkcję od x, czyli f(x).
+
+06:44.472 --> 06:46.030
+Więc szukana pochodna będzie równa
+
+06:46.030 --> 06:53.832
+cos(x) do kwadratu dzielone przez logarytm naturalny z (x odjąć pierwiastek z x).
+
+06:53.832 --> 06:58.500
+Licząc pochodną z całki oznaczonej z górną granicą x,
+
+06:58.500 --> 07:04.471
+jako wynik zapisujemy funkcję podcałkową traktując ją nie jako funkcję od t,
+
+07:04.471 --> 07:07.799
+ale jako funkcję od x.
+
+07:07.799 --> 07:10.233
+Czasem potrzebujemy znaleźć taką pochodną.
+
+07:10.233 --> 07:11.830
+Jak sami zobaczycie na egzaminach,
+
+07:11.830 --> 07:15.499
+zdarza się, że trzeba obliczyć całkę oznaczoną z bardzo zagmatwanej funkcji,
+
+07:15.499 --> 07:16.767
+a potem ją zróżniczkować.
+
+07:16.767 --> 07:19.305
+Wystarczy jednak pamiętać podstawowe twierdzenie rachunku różniczkowego,
+
+07:19.305 --> 07:22.297
+które łączy różniczkowanie i całkowanie.
+
+07:22.297 --> 07:26.775
+Można pominąć wszystkie obliczenia i pamiętać, że wynikiem
+
+07:26.775 --> 07:31.567
+jest funkcja podcałkowa f, która jednak zależy nie od t, ale od x.
+
+07:31.567 --> 07:34.635
+W naszym przykładzie, funkcja podcałkowa
+
+07:34.635 --> 07:37.133
+była funkcją zależną od t, czyli f(t),
+
+07:37.133 --> 07:40.965
+wynikiem jest natomiast funkcja od x, czyli f(x).
+
+07:40.965 --> 07:45.233
+Tutaj liczba pi była naszym a, czyli lewym końcem przedziału [a,b],
+
+07:45.233 --> 07:48.883
+ale, zauważmy, wartość a nie wpływa w żaden sposób na wynik.
+
+07:48.883 --> 07:52.840
+Po prawej stronie równania nie ma żadnego wyrazu zależącego od a.
+
+07:52.840 --> 07:56.099
+Mam nadzieję, że Wam się podobało. W następnych filmach zajmiemy się intuicją, dlaczego tak to działa
+
+07:56.099 --> 08:00.099
+i rozwiążemy parę przykładów wykorzystując podstawowe twierdzenie rachunku całkowego.

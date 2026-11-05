@@ -1,0 +1,471 @@
+WEBVTT
+
+00:00.558 --> 00:02.453
+- [Instructor] We are now
+going to cover the famous
+
+00:02.453 --> 00:04.666
+or perhaps infamous potato problem
+
+00:04.666 --> 00:07.249
+from the 2017 AP Calculus exam.
+
+00:08.218 --> 00:09.921
+At time t equals zero,
+
+00:09.921 --> 00:13.348
+a boiled potato is taken
+from a pot on a stove
+
+00:13.348 --> 00:15.429
+and left to cool in a kitchen.
+
+00:15.429 --> 00:17.755
+The internal temperature of the potato
+
+00:17.755 --> 00:21.422
+is 91 degrees Celsius
+at time t equals zero,
+
+00:22.332 --> 00:25.980
+and the internal temperature
+of the potato is greater than
+
+00:25.980 --> 00:29.776
+27 degrees for all times
+t greater than zero.
+
+00:29.776 --> 00:31.863
+I would guess that the
+ambient room temperature
+
+00:31.863 --> 00:33.673
+is 27 degrees Celsius.
+
+00:33.673 --> 00:36.129
+And so that's why the
+temperature would approach this,
+
+00:36.129 --> 00:38.851
+but it would always stay a
+little bit greater than that,
+
+00:38.851 --> 00:41.149
+as t gets larger and larger.
+
+00:41.149 --> 00:44.305
+The internal temperature of the potato
+
+00:44.305 --> 00:47.706
+at time t minutes can be
+modeled by the function H
+
+00:47.706 --> 00:51.225
+that satisfies the
+differential equation dH/dt,
+
+00:51.225 --> 00:53.027
+the derivative of our internal temperature
+
+00:53.027 --> 00:57.339
+with respect to time, is equal
+to negative 1/4 times our,
+
+00:57.339 --> 00:59.235
+the difference between
+our internal temperature
+
+00:59.235 --> 01:01.076
+and the ambient room temperature,
+
+01:01.076 --> 01:04.193
+where H of t is measured
+in degrees Celsius
+
+01:04.193 --> 01:07.132
+and H of zero is equal to 91.
+
+01:07.132 --> 01:11.226
+So before I even read part
+(a), let's just make sense
+
+01:11.226 --> 01:13.352
+of what this differential
+equation is telling us,
+
+01:13.352 --> 01:16.548
+and let's see if it's
+consistent with our intuition.
+
+01:16.548 --> 01:19.565
+So let me draw some axes here.
+
+01:19.565 --> 01:21.315
+So this is my y-axis.
+
+01:22.961 --> 01:25.021
+So that is my y-axis.
+
+01:25.021 --> 01:28.930
+And this right over here is my t-axis.
+
+01:28.930 --> 01:33.780
+Now the ambient room temperature
+is 27 degrees Celsius,
+
+01:33.780 --> 01:35.504
+so I'll just draw there.
+
+01:35.504 --> 01:37.709
+That's what the room temperature is doing.
+
+01:37.709 --> 01:40.383
+And so we know at t equals zero,
+
+01:40.383 --> 01:42.311
+our potato is at 91 degrees.
+
+01:42.311 --> 01:46.332
+So let's see, that's 27, 91
+might be right over there.
+
+01:46.332 --> 01:49.119
+91, this is all in degrees Celsius.
+
+01:49.119 --> 01:52.019
+And what you would expect
+intuitively is that it would start
+
+01:52.019 --> 01:54.477
+to cool and when its temperature,
+
+01:54.477 --> 01:56.260
+when there's a big difference between
+
+01:56.260 --> 01:57.612
+the potato and the room,
+
+01:57.612 --> 01:59.995
+maybe its rate of change is steeper
+
+01:59.995 --> 02:01.574
+than when there's a little difference.
+
+02:01.574 --> 02:06.223
+So you would expect the graph
+to look something like this.
+
+02:06.223 --> 02:08.069
+So you would expect it
+
+02:08.069 --> 02:10.651
+to look something like
+this and then asymptote
+
+02:10.651 --> 02:14.318
+towards a temperature
+of 27 degrees Celsius.
+
+02:15.584 --> 02:17.828
+So this is what you would expect to see,
+
+02:17.828 --> 02:21.619
+and this differential equation
+is consistent with that,
+
+02:21.619 --> 02:23.196
+where the rate of change,
+
+02:23.196 --> 02:25.052
+notice this is for all
+t greater than zero,
+
+02:25.052 --> 02:26.773
+this is going to be a negative value
+
+02:26.773 --> 02:29.847
+because our potato is greater than 27
+
+02:29.847 --> 02:30.858
+for t greater than zero.
+
+02:30.858 --> 02:33.623
+So this part here is going to be positive,
+
+02:33.623 --> 02:36.132
+but then you multiply
+positive times negative 1/4.
+
+02:36.132 --> 02:38.371
+You're constantly going to
+have a negative rate of change,
+
+02:38.371 --> 02:39.361
+which makes sense.
+
+02:39.361 --> 02:41.527
+The potato is cooling down.
+
+02:41.527 --> 02:44.525
+And it also makes sense
+that your rate of change
+
+02:44.525 --> 02:47.607
+is proportional to the difference
+between the temperature
+
+02:47.607 --> 02:50.177
+of the potato and the
+ambient room temperature.
+
+02:50.177 --> 02:51.504
+When there's a big difference,
+
+02:51.504 --> 02:53.835
+you expect a steeper rate of change.
+
+02:53.835 --> 02:55.558
+But then when there's
+less of a difference,
+
+02:55.558 --> 02:57.124
+the rate of change, you could imagine,
+
+02:57.124 --> 02:59.256
+becomes less and less and less negative,
+
+02:59.256 --> 03:02.854
+as we asymptote towards
+the ambient temperature.
+
+03:02.854 --> 03:06.923
+So with this out of the way,
+now let's tackle part (a).
+
+03:06.923 --> 03:11.226
+Write an equation for the
+line tangent to the graph
+
+03:11.226 --> 03:13.059
+of H at t equals zero.
+
+03:13.894 --> 03:17.750
+Use this equation to approximate
+the internal temperature
+
+03:17.750 --> 03:20.755
+of the potato at time t equals three.
+
+03:20.755 --> 03:22.282
+So what are we going to do?
+
+03:22.282 --> 03:23.764
+Well, we're gonna think about
+
+03:23.764 --> 03:27.462
+what's going on at time t equal zero,
+
+03:27.462 --> 03:28.775
+right over here.
+
+03:28.775 --> 03:32.433
+We want the equation of the tangent line,
+
+03:32.433 --> 03:35.880
+which might look something like this,
+
+03:35.880 --> 03:37.297
+at t equals zero.
+
+03:38.271 --> 03:42.418
+So this thing would be
+of the form y is equal to
+
+03:42.418 --> 03:45.297
+the slope of the equation
+of the tangent line.
+
+03:45.297 --> 03:48.316
+Well, it would be the
+derivative of our function
+
+03:48.316 --> 03:50.857
+at that point, so dH/dt,
+
+03:50.857 --> 03:52.371
+times t,
+
+03:52.371 --> 03:54.585
+plus our y-intercept.
+
+03:54.585 --> 03:57.232
+Where does it intersect the y-axis here?
+
+03:57.232 --> 03:59.755
+Well, when t is equal to zero,
+
+03:59.755 --> 04:02.375
+the value of this
+equation is going to be 91
+
+04:02.375 --> 04:04.660
+because it intersects our
+graph right at that point,
+
+04:04.660 --> 04:07.058
+that point zero comma 91,
+
+04:07.058 --> 04:07.891
+plus 91.
+
+04:08.999 --> 04:12.261
+So what is our derivative
+of H with respect to t
+
+04:12.261 --> 04:16.481
+at time t equals zero, right
+at this point right over here?
+
+04:16.481 --> 04:18.349
+Well, we just have to look at this.
+
+04:18.349 --> 04:23.256
+You could also write this as
+H prime of t right over here.
+
+04:23.256 --> 04:26.256
+So if we want to think about H prime
+
+04:27.372 --> 04:28.806
+of zero,
+
+04:28.806 --> 04:32.326
+that's going to be equal to negative 1/4
+
+04:32.326 --> 04:33.576
+times H of zero
+
+04:34.782 --> 04:36.128
+minus 27.
+
+04:36.128 --> 04:38.427
+What is our initial temperature minus 27?
+
+04:38.427 --> 04:40.408
+This is, of course, 91 degrees.
+
+04:40.408 --> 04:41.721
+They tell us that multiple times.
+
+04:41.721 --> 04:43.657
+We've even drawn it a few times.
+
+04:43.657 --> 04:44.824
+91 minus 27 is
+
+04:46.868 --> 04:48.241
+64.
+
+04:48.241 --> 04:52.890
+64 times negative 1/4
+is equal to negative 16.
+
+04:52.890 --> 04:55.207
+So this is negative 16 right over here.
+
+04:55.207 --> 04:57.195
+So just like that, we have the equation
+
+04:57.195 --> 04:59.246
+for the line tangent to the graph
+
+04:59.246 --> 05:01.031
+of H at t is equal to zero.
+
+05:01.031 --> 05:02.668
+I'll write it one more time.
+
+05:02.668 --> 05:05.128
+It is, do a mini drum roll here,
+
+05:05.128 --> 05:08.128
+y is equal to negative 16 t plus 91.
+
+05:09.178 --> 05:12.089
+That's the equation of that
+tangent line right over there.
+
+05:12.089 --> 05:14.506
+And then they say we
+want to use this equation
+
+05:14.506 --> 05:16.824
+to approximate the internal
+temperature of the potato
+
+05:16.824 --> 05:18.771
+at time t equals three.
+
+05:18.771 --> 05:20.541
+So let's say that this is time
+
+05:20.541 --> 05:23.222
+t equals three right over here.
+
+05:23.222 --> 05:25.264
+We want to approximate the temperature
+
+05:25.264 --> 05:27.400
+that this model describes,
+
+05:27.400 --> 05:29.473
+right over here, but we're
+gonna do it using the line.
+
+05:29.473 --> 05:32.609
+So we're gonna evaluate
+the line at t equals three.
+
+05:32.609 --> 05:35.581
+So then we would get, let's see,
+
+05:35.581 --> 05:38.172
+negative 16 times three
+
+05:38.172 --> 05:39.005
+plus 91
+
+05:39.845 --> 05:42.512
+is equal to, this is negative 48
+
+05:43.346 --> 05:45.921
+plus 91 is equal to, what is that?
+
+05:45.921 --> 05:46.754
+43,
+
+05:47.644 --> 05:50.894
+so this is equal to 43 degrees Celsius.
+
+05:51.943 --> 05:54.466
+So this right over here is the equation
+
+05:54.466 --> 05:56.527
+for the line tangent to the graph of H
+
+05:56.527 --> 05:58.764
+at t is equal to zero,
+
+05:58.764 --> 06:00.779
+and this right over here
+is our approximation
+
+06:00.779 --> 06:03.155
+using that equation of the tangent line
+
+06:03.155 --> 06:06.050
+of the internal temperature
+of the potato at time
+
+06:06.050 --> 06:07.429
+t is equal to three.

@@ -1,0 +1,1484 @@
+WEBVTT
+
+00:00.430 --> 00:04.900
+Zkusme nyní využít všeho,
+co víme o derivování, konvexitě,
+
+00:04.900 --> 00:08.010
+lokálních maximech a minimech
+či inflexních bodech k tomu,
+
+00:08.010 --> 00:12.380
+abychom nakreslili graf funkce
+bez použití grafické kalkulačky.
+
+00:12.380 --> 00:17.451
+Řekněme, že naše
+funkce f(x) se rovná:
+
+00:17.451 --> 00:27.461
+3 krát (x na čtvrtou)
+minus 4 krát (x na třetí) plus 2.
+
+00:27.461 --> 00:31.521
+Graf funkce můžeme samozřejmě vždy
+nakreslit tak, že spočítáme několik bodů,
+
+00:31.521 --> 00:34.651
+ale my se budeme soustředit na
+jisté zajímavé body a na to,
+
+00:34.651 --> 00:37.111
+jaký má graf
+přibližně tvar.
+
+00:37.111 --> 00:40.381
+Zejména nás budou
+zajímat ty vlastnosti funkce,
+
+00:40.381 --> 00:43.061
+které lze odhalit pomocí
+nástrojů diferenciálního počtu,
+
+00:43.061 --> 00:44.791
+tedy pomocí derivování.
+
+00:44.791 --> 00:48.631
+Jako první určíme
+stacionární body.
+
+00:48.631 --> 00:49.511
+Zajímají nás...
+
+00:49.511 --> 00:50.331
+Napíšu to sem.
+
+00:50.331 --> 00:54.521
+...stacionární body.
+
+00:54.521 --> 00:57.991
+Připomeňme si,
+co to stacionární bod je.
+
+00:57.991 --> 01:02.151
+Je to bod, ve kterém je
+derivace funkce f(x) rovna nule...
+
+01:02.161 --> 01:07.291
+Ve stacionárních bodech je tedy
+f(x) s čárkou buď rovno nule,
+
+01:07.291 --> 01:11.866
+nebo to není
+definováno.
+
+01:11.866 --> 01:14.326
+Vypadá to, že tato funkce
+je diferencovatelná všude,
+
+01:14.326 --> 01:17.276
+takže jedinými stacionárními
+body budou nejspíš...
+
+01:17.276 --> 01:19.886
+Vlastně vám mohu říct,
+že to určitě budou pouze body,
+
+01:19.886 --> 01:22.446
+ve kterých se
+f(x) s čárkou rovná nule.
+
+01:22.446 --> 01:27.626
+Derivace, tedy f(x) s čárkou, totiž bude
+definovaná na celém definičním oboru.
+
+01:27.626 --> 01:30.354
+Spočítejme si tedy
+nyní tuto derivaci.
+
+01:30.354 --> 01:35.824
+Derivace tohohle,
+tedy f(x) s čárkou...
+
+01:35.824 --> 01:37.404
+Bude to poměrně
+přímočarý výpočet.
+
+01:37.404 --> 01:39.474
+Derivace z výrazu
+3 krát (x na čtvrtou)...
+
+01:39.474 --> 01:44.154
+4 krát 3 je 12,
+takže to bude 12 krát x na...
+
+01:44.154 --> 01:47.514
+4 zmenšíme o 1,
+takže to bude x na třetí.
+
+01:47.514 --> 01:52.314
+Jen vynásobíme exponentem,
+který následně zmenšíme o 1.
+
+01:52.314 --> 01:53.484
+Od toho
+odečteme...
+
+01:53.484 --> 01:57.064
+3 krát 4 je 12,
+tohle krát x na...
+
+01:57.064 --> 01:59.724
+3 minus 1 je 2.
+
+01:59.724 --> 02:03.194
+Derivace konstanty,
+tedy sklon konstanty,
+
+02:03.194 --> 02:04.924
+jak si asi umíte
+představit, je nula.
+
+02:04.924 --> 02:07.214
+Konstanta se totiž už
+podle definice nemění.
+
+02:07.214 --> 02:09.014
+Takhle tedy vypadá
+f(x) s čárkou.
+
+02:09.014 --> 02:10.884
+Nyní nalezněme
+stacionární body.
+
+02:10.884 --> 02:16.054
+Ve stacionárních bodech je tento výraz buď
+rovný nule, nebo v nich není definovaný.
+
+02:16.054 --> 02:20.484
+Mohu si vzít libovolné reálné číslo
+a derivace pro něj bude definovaná.
+
+02:20.484 --> 02:22.834
+Mohu sem dosadit
+libovolné číslo a nic se nezkazí.
+
+02:22.834 --> 02:26.324
+Vždy mi vyjde nějaká
+funkční hodnota.
+
+02:26.324 --> 02:30.211
+Derivace je definovaná všude,
+takže se podívejme, kdy je rovna nule.
+
+02:30.211 --> 02:34.211
+f(x) s čárkou se rovná 0...
+
+02:35.180 --> 02:38.410
+Spočítejme tedy,
+pro která x...
+
+02:38.410 --> 02:40.959
+Vlastně to ani
+nemusím psát znova.
+
+02:40.959 --> 02:43.279
+Spočítejme tedy,
+kdy se tohle rovná 0.
+
+02:43.279 --> 02:45.279
+Budu to psát
+tou samou barvou.
+
+02:45.279 --> 02:56.769
+12 krát (x na třetí) minus
+12 krát (x na druhou) se má rovnat 0.
+
+02:56.769 --> 02:59.329
+Zkusme to tedy
+nějak vyřešit.
+
+02:59.329 --> 03:01.739
+Můžeme vytknout
+12 krát x.
+
+03:01.739 --> 03:04.059
+Když vytkneme
+12 krát x,
+
+03:04.059 --> 03:07.779
+tak nám v tomto
+členu zbyde pouze x...
+
+03:07.779 --> 03:11.147
+Vytkněme raději
+12 krát (x na druhou).
+
+03:11.147 --> 03:12.977
+Když vytkneme
+12 krát (x na druhou)...
+
+03:12.977 --> 03:15.127
+Když oba členy vydělíme
+12 krát (x na druhou),
+
+03:15.127 --> 03:18.127
+tak se z prvního členu
+stane x a pak minus...
+
+03:18.127 --> 03:21.407
+12 krát (x na druhou) děleno výrazem
+12 krát (x na druhou) se rovná 1.
+
+03:21.407 --> 03:22.507
+...se rovná 0.
+
+03:22.507 --> 03:24.407
+Jen jsem výraz
+nahoře takto přepsal.
+
+03:24.407 --> 03:25.317
+Funguje to
+i naopak.
+
+03:25.317 --> 03:28.814
+Kdybych výrazem 12 krát (x na druhou)
+roznásobil tuhle závorku,
+
+03:28.814 --> 03:31.474
+tak by mi vyšla
+derivace nahoře.
+
+03:31.474 --> 03:32.844
+Přepsal jsem to
+takhle proto,
+
+03:32.844 --> 03:35.644
+že když se má
+tohle rovnat 0...
+
+03:35.644 --> 03:40.024
+Když chceme znát všechna x,
+pro která je tento výraz rovný 0,
+
+03:40.024 --> 03:46.224
+tak to teď máme přepsané ve tvaru
+jeden výraz krát druhý výraz.
+
+03:46.224 --> 03:48.534
+Aby se tohle
+teď rovnalo 0,
+
+03:48.534 --> 03:51.254
+tak musí být jeden nebo
+oba tyto výrazy rovny 0.
+
+03:51.254 --> 03:54.324
+Když je tedy
+12 krát (x na druhou) rovno 0,
+
+03:54.324 --> 03:56.434
+což znamená,
+že x se rovná 0,
+
+03:56.434 --> 03:58.584
+tak tohle bude
+rovno 0.
+
+03:58.584 --> 04:03.884
+Náš výraz bude roven 0 také tehdy,
+když se bude x minus 1 rovnat 0,
+
+04:03.884 --> 04:07.924
+přičemž x minus 1 se
+rovná 0 tehdy, když je x rovno 1.
+
+04:07.924 --> 04:10.274
+Našli jsme tedy
+dva stacionární body.
+
+04:10.274 --> 04:14.394
+Našimi dvěma stacionárními body jsou
+body x rovná se 0 a x rovná se 1.
+
+04:14.394 --> 04:19.924
+Připomínám, že jde pouze o body,
+ve kterých se první derivace rovná 0,
+
+04:19.924 --> 04:22.044
+tedy ve kterých
+je sklon funkce nulový.
+
+04:22.044 --> 04:27.394
+Mohou to být body lokálníma maxima, minima
+nebo třeba inflexní body, to nevíme.
+
+04:27.394 --> 04:28.154
+Může jít o...
+
+04:28.154 --> 04:31.424
+Kdyby tohle byla konstantní funkce,
+tak by mohly být čímkoliv.
+
+04:31.424 --> 04:34.034
+Zatím o těchto bodech tedy
+nemůžeme mnoho říci.
+
+04:34.034 --> 04:39.063
+S jistotou můžeme říci jen to,
+že jde o body zasluhující naši pozornost.
+
+04:39.063 --> 04:41.993
+Pokračujme ale dál a
+podívejme se na konvexitu,
+
+04:41.993 --> 04:44.663
+díky níž budeme mít
+o grafu lepší představu.
+
+04:44.663 --> 04:49.093
+Spočítejme tedy
+druhou derivaci.
+
+04:49.093 --> 04:49.833
+Druhá...
+
+04:49.833 --> 04:53.263
+Budu to psát
+oranžovou barvou.
+
+04:53.263 --> 04:58.413
+Druhá derivace naší
+funkce f se rovná...
+
+04:58.413 --> 05:03.913
+3 krát 12 je 36,
+tohle krát x na druhou,
+
+05:03.913 --> 05:07.983
+minus 24 krát x.
+
+05:07.983 --> 05:09.093
+Zkusme teď...
+
+05:09.093 --> 05:10.373
+Můžeme udělat
+několik věcí.
+
+05:10.373 --> 05:12.373
+Když už teď známe
+druhou derivaci,
+
+05:12.373 --> 05:18.003
+můžeme zjistit, zda je funkce konvexní
+nebo konkávní v těchto dvou bodech.
+
+05:18.003 --> 05:21.583
+Spočítejme tedy, čemu se druhá derivace
+rovná v těchto stacionárních bodech.
+
+05:21.583 --> 05:22.933
+Pak to začne
+hezky zapadat.
+
+05:22.939 --> 05:26.289
+Připomeňme si, že graf konvexní
+funkce má tvar písmene U,
+
+05:26.289 --> 05:30.529
+zatímco graf konkávní funkce
+má tvar převráceného písmene U.
+
+05:30.529 --> 05:36.559
+f se dvěma čárkami, tedy druhá derivace,
+v bodě x rovná se 0 se rovná čemu?
+
+05:36.559 --> 05:40.419
+Je to 36 krát (0 na druhou)
+minus 24 krát 0,
+
+05:40.419 --> 05:42.149
+což je
+jednoduše 0.
+
+05:42.149 --> 05:43.609
+f se dvěma
+čárkami je tedy...
+
+05:43.609 --> 05:48.869
+Druhá derivace je rovna nule, takže funkce
+zde není ani konvexní, ani konkávní.
+
+05:48.869 --> 05:50.939
+Funkce zde může
+měnit konvexitu, ale nemusí.
+
+05:50.939 --> 05:53.449
+Pokud ji zde mění,
+tak jde o inflexní bod.
+
+05:53.449 --> 05:54.959
+Zatím to
+ale nevíme.
+
+05:54.959 --> 05:59.799
+Teď se podívejme, kolik je f se dvěma
+čárkami, tedy druhá derivace, v bodě 1.
+
+05:59.799 --> 06:01.929
+Je to 36 krát 1...
+
+06:01.929 --> 06:02.979
+Zapíšu to.
+
+06:02.979 --> 06:07.599
+Rovná se to 36 krát
+(1 na druhou), což je 36,
+
+06:07.599 --> 06:11.799
+minus 24 krát 1.
+
+06:11.799 --> 06:16.329
+To je 36 minus 24,
+a to se rovná 12.
+
+06:16.329 --> 06:18.029
+Vyšlo nám tedy
+kladné číslo.
+
+06:18.029 --> 06:20.929
+Druhá derivace nám vyšla kladná,
+konkrétně 12.
+
+06:20.929 --> 06:24.400
+To znamená, že první derivace,
+tedy sklon funkce, roste.
+
+06:24.400 --> 06:26.910
+Rychlost změny
+sklonu je kladná.
+
+06:26.910 --> 06:33.910
+V tomto bodě je
+tedy funkce konvexní,
+
+06:33.910 --> 06:36.670
+což nám říká, že jde
+nejspíš o bod lokálního minima.
+
+06:36.670 --> 06:40.450
+Sklon je zde nulový
+a funkce je v tomto bodě konvexní,
+
+06:40.450 --> 06:41.730
+což je zajímavé.
+
+06:41.730 --> 06:44.670
+Zkusme nyní najít
+ještě další kandidáty na inflexní bod.
+
+06:44.670 --> 06:45.820
+Už víme, že...
+
+06:46.976 --> 06:49.306
+Už víme, že toto je
+kandidát na inflexní bod.
+
+06:49.306 --> 06:50.576
+Zakroužkuji
+to červeně.
+
+06:50.576 --> 06:52.666
+Toto je kandidát
+na inflexní bod.
+
+06:52.666 --> 06:55.936
+Ještě nevíme, zda funkce v tomto bodě
+skutečně mění konvexitu.
+
+06:55.936 --> 06:58.956
+Budeme muset ověřit,
+zda tomu tak skutečně je.
+
+06:58.956 --> 07:01.586
+Zkusme ale nejprve najít ještě
+další inflexní body.
+
+07:01.586 --> 07:02.516
+Najdeme je tak...
+
+07:02.516 --> 07:04.376
+Měl jsem říct kandidáty
+na inflexní bod.
+
+07:04.376 --> 07:06.996
+Podívejme se, zda je tohle
+rovno nule ještě někde jinde.
+
+07:06.996 --> 07:11.636
+Chceme tedy, aby se 36 krát (x na druhou)
+minus 24 krát x rovnalo nule.
+
+07:11.636 --> 07:12.986
+Nyní spočítejme x.
+
+07:12.986 --> 07:15.596
+Nejprve vytkněme...
+
+07:15.596 --> 07:17.446
+Můžeme vytknout
+12 krát x.
+
+07:17.446 --> 07:21.286
+Vyjde nám 12 krát x
+krát (3 krát x...
+
+07:21.286 --> 07:24.916
+(3 krát x) krát (12 krát x)
+se rovná 36 krát (x na druhou).
+
+07:24.916 --> 07:28.476
+...minus 2) se rovná 0.
+
+07:28.476 --> 07:30.906
+Toto jsou zcela
+ekvivalentní výrazy.
+
+07:30.906 --> 07:33.476
+Pokud tohle roznásobíme,
+dostaneme přesně výraz nahoře.
+
+07:33.476 --> 07:37.096
+Tohle bude rovno 0 právě tehdy,
+když se buď 12 krát x rovná 0...
+
+07:37.096 --> 07:40.956
+Rovnice 12 krát x se rovná 0
+nám dá bod x rovná se 0,
+
+07:40.956 --> 07:43.616
+takže když je x rovno 0,
+celý tento výraz je roven 0,
+
+07:43.616 --> 07:45.966
+a to znamená,
+že druhá derivace je rovna 0,
+
+07:45.966 --> 07:48.776
+což už koneckonců víme,
+protože tenhle bod jsme už zkoušeli.
+
+07:48.776 --> 07:51.726
+...nebo když se
+tento výraz rovná 0,
+
+07:51.726 --> 07:54.736
+protože i v tomto případě by
+druhá derivace byla rovna 0.
+
+07:54.736 --> 07:55.576
+Zapišme to.
+
+07:55.576 --> 07:59.676
+(3 krát x) minus 2
+se má rovnat 0.
+
+07:59.676 --> 08:02.206
+Z toho dostaneme,
+že 3 krát x se rovná 2.
+
+08:02.206 --> 08:04.206
+Jen jsem k oběma
+stranám přičetl 2.
+
+08:04.206 --> 08:07.186
+x se rovná
+2 lomeno 3.
+
+08:07.186 --> 08:12.096
+Toto je tedy další důležitý bod,
+na který jsme doteď ještě nenarazili.
+
+08:12.096 --> 08:13.856
+Je to další kandidát
+na inflexní bod.
+
+08:13.856 --> 08:18.266
+Říkám, že to je kandidát, protože druhá
+derivace je v tomto bodě určitě rovna 0.
+
+08:18.266 --> 08:20.316
+Když za x dosadíme
+2 lomeno 3, vyjde nám 0.
+
+08:20.316 --> 08:21.476
+Teď se
+musíme podívat,
+
+08:21.476 --> 08:27.756
+zda je druhá derivace před a po průchodu
+bodem 2 lomeno 3 kladná nebo záporná.
+
+08:27.756 --> 08:29.236
+O tom už máme
+nějakou představu.
+
+08:29.236 --> 08:31.517
+Můžeme dosadit
+několik čísel.
+
+08:31.517 --> 08:32.537
+Víme, že...
+
+08:32.537 --> 08:37.117
+Pokud vezmeme nějaké
+x větší než 2 lomeno 3...
+
+08:37.117 --> 08:40.067
+Sjedu trochu dolů,
+ať mám víc místa.
+
+08:40.067 --> 08:44.607
+Podívejme se tedy, co se stane,
+když je x větší než 2 lomeno 3.
+
+08:44.607 --> 08:48.677
+Když je x větší než 2 lomeno 3,
+jak vypadá f(x) s čárkou?
+
+08:49.637 --> 08:53.097
+Pardon, chceme vědět, jak vypadá
+f se dvěma čárkami, tedy druhá derivace.
+
+08:53.097 --> 08:55.497
+Dosaďme nějaké číslo,
+které je poměrně blízko,
+
+08:55.497 --> 08:58.897
+abychom měli
+dobrou představu.
+
+08:58.897 --> 09:00.487
+Ještě to přepíšu.
+
+09:00.487 --> 09:03.997
+f(x) se dvěma čárkami
+se rovná...
+
+09:03.997 --> 09:04.837
+Napíšu to takhle.
+
+09:04.837 --> 09:07.737
+Mohl bych to sice napsat takto,
+ale s tímhle se snáze pracuje.
+
+09:07.737 --> 09:12.807
+...se rovná 12 krát x krát
+(3 krát x minus 2).
+
+09:12.807 --> 09:15.447
+Pokud je x
+větší než 2 lomeno 3,
+
+09:15.447 --> 09:18.087
+tak tento člen
+je kladný.
+
+09:18.087 --> 09:22.507
+Určitě platí, že libovolné kladné číslo
+krát 12 je kladné číslo.
+
+09:22.507 --> 09:24.917
+Jak to bude
+s tímto členem?
+
+09:24.917 --> 09:29.037
+3 krát (2 lomeno 3)
+minus 2 je přesně 0.
+
+09:29.037 --> 09:30.227
+Je to totiž
+2 minus 2.
+
+09:30.227 --> 09:31.747
+Cokoliv většího však...
+
+09:31.747 --> 09:32.847
+3 krát...
+
+09:32.847 --> 09:38.627
+Kdybych tady měl 2,1 lomeno 3,
+tak to vyjde jako kladné číslo.
+
+09:38.627 --> 09:44.287
+Pro libovolnou hodnotu x větší než
+2 lomeno 3 bude tento výraz kladný.
+
+09:44.287 --> 09:46.537
+Tento výraz tak
+bude také kladný,
+
+09:46.537 --> 09:49.837
+což znamená, že když je
+x větší než 2 lomeno 3...
+
+09:49.837 --> 09:56.597
+Říká nám to, že druhá derivace
+je kladná, tedy větší než 0.
+
+09:56.597 --> 10:00.369
+Pro všechna x z definičního oboru,
+která jsou větší než 2 lomeno 3,
+
+10:00.369 --> 10:01.959
+je funkce konvexní.
+
+10:01.959 --> 10:03.019
+Viděli jsme
+to i zde.
+
+10:03.019 --> 10:06.699
+Zjistili jsme tu, že v bodě
+x rovno 1 je funkce konvexní.
+
+10:06.699 --> 10:10.189
+Co když je ale
+x menší než 2 lomeno 3?
+
+10:10.189 --> 10:12.518
+Když je x menší
+než 2 lomeno 3...
+
+10:12.518 --> 10:15.277
+Abych to mohl napsat,
+tak trochu sjedu dolů.
+
+10:15.277 --> 10:18.837
+Když je x menší než 2 lomeno 3,
+tak se bude dít co?
+
+10:18.837 --> 10:22.330
+Opět sem napíšu předpis pro f se
+dvěma čárkami, tedy pro druhou derivaci.
+
+10:22.330 --> 10:26.880
+Je to 12 krát x
+krát (3 krát x minus 2).
+
+10:26.880 --> 10:28.890
+Pokud je x
+mnohem menší,
+
+10:28.890 --> 10:31.210
+tak to bude záporné
+číslo a tohle bude záporné...
+
+10:31.220 --> 10:34.460
+Podívejme se ale na ta x, jež jsou
+jen o trochu menší než 2 lomeno 3,
+
+10:34.460 --> 10:36.467
+tedy která jsou
+ještě kladná.
+
+10:36.467 --> 10:39.347
+Například kdyby
+x bylo 1,9 lomeno 3,
+
+10:39.347 --> 10:41.637
+což je tedy kombinace
+desetinného čísla a zlomku,
+
+10:41.637 --> 10:44.587
+nebo jen 1 lomeno 3,
+tak tento výraz bude stále kladný.
+
+10:44.591 --> 10:47.691
+Pro čísla o trochu menší než
+2 lomeno 3 bude tento výraz kladný,
+
+10:47.691 --> 10:50.315
+protože 12 násobíme
+kladným číslem.
+
+10:50.315 --> 10:55.545
+Co se ale bude
+dít s tímto výrazem?
+
+10:55.545 --> 10:57.565
+V bodě 2 lomeno 3
+je to přesně 0,
+
+10:57.565 --> 11:00.375
+ale jakmile máme něco
+menšího než 2 lomeno 3,
+
+11:00.375 --> 11:02.175
+tak například
+3 krát (1 lomeno 3) je 1
+
+11:02.175 --> 11:04.685
+a 1 minus 2
+je záporné číslo.
+
+11:04.685 --> 11:09.205
+Když je tedy x menší než 2 lomeno 3,
+tak je tento výraz záporný.
+
+11:09.205 --> 11:13.545
+Pokud je x menší než 2 lomeno 3,
+tak je druhá derivace...
+
+11:13.545 --> 11:16.695
+Když máme čísla jen
+o trochu menší než 2 lomeno 3,
+
+11:16.695 --> 11:20.075
+tak je druhá derivace
+v bodě x menší než 0.
+
+11:20.075 --> 11:22.675
+To, že došlo
+k této změně...
+
+11:22.675 --> 11:27.870
+Pro x menší než 2 lomeno 3
+je druhá derivace záporná,
+
+11:27.870 --> 11:30.850
+zatímco pro x větší než
+2 lomeno 3 je druhá derivace kladná,
+
+11:30.850 --> 11:35.560
+což nám říká,
+že toto je skutečně infexní bod.
+
+11:36.592 --> 11:42.872
+Bod x rovná se 2 lomeno 3 je tedy určitě
+inflexním bodem naší původní funkce,
+
+11:42.872 --> 11:43.808
+kterou
+máme zde.
+
+11:43.808 --> 11:46.282
+Zbývá nám ještě jeden
+kandidát na inflexní bod
+
+11:46.282 --> 11:48.142
+a pak už budeme
+moci začít kreslit graf.
+
+11:48.142 --> 11:51.052
+Jakmile známe inflexní body
+a všechna lokální maxima a minima,
+
+11:51.052 --> 11:53.563
+tak už můžeme
+začít kreslit graf funkce.
+
+11:53.563 --> 11:56.293
+Ověřme tedy, zda je
+bod x rovno 0 inflexním bodem.
+
+11:56.293 --> 11:59.150
+Víme, že druhá derivace
+je v bodě 0 rovna nule,
+
+11:59.150 --> 12:02.254
+ale jaké hodnoty má druhá derivace
+před a po průchodu tímto bodem?
+
+12:02.254 --> 12:04.608
+Pojďme se
+na to podívat.
+
+12:04.608 --> 12:05.910
+Když je x...
+
+12:05.910 --> 12:11.690
+Oddělím to tady čárou,
+ať se nám to tu neplete.
+
+12:11.690 --> 12:17.673
+Když je x větší než 0,
+tak se druhá derivace chová jak?
+
+12:17.673 --> 12:24.750
+Připomínám, že druhá derivace se rovná
+12 krát x krát (3 krát x minus 2).
+
+12:24.750 --> 12:26.009
+Raději to
+píšu takhle,
+
+12:26.009 --> 12:29.179
+protože jde v podstatě
+o rozklad na dva lineární výrazy,
+
+12:29.179 --> 12:31.807
+u kterých lze dobře vidět,
+zda jsou kladné nebo záporné.
+
+12:31.807 --> 12:36.794
+Když je x větší než 0,
+tak je tento výraz určitě kladný,
+
+12:36.794 --> 12:39.328
+zatímco tento výraz...
+
+12:39.328 --> 12:41.979
+Když máme x
+jen o trochu větší než 0...
+
+12:41.979 --> 12:45.744
+Musíte si dát pozor, abyste byli
+dostatečně blízko tomuto číslu.
+
+12:45.744 --> 12:49.554
+Řekněme,
+že x je 0,1,
+
+12:50.383 --> 12:51.863
+což je jen o trochu
+více než 0.
+
+12:51.863 --> 12:54.119
+Nebude to tedy platit
+pro všechna x větší než 0,
+
+12:54.119 --> 12:57.833
+protože chceme zjistit pouze to, co se
+děje když je x jen o trochu větší než 0.
+
+12:57.833 --> 13:03.393
+Pro x rovno 0,1 tu bude 0,3 minus 2,
+což je záporné číslo.
+
+13:03.393 --> 13:08.263
+Pro x o trochu větší než 0
+je tedy tento výraz záporný.
+
+13:08.263 --> 13:15.183
+Pro x větší než 0 je tedy
+druhá derivace menší než 0,
+
+13:15.183 --> 13:16.934
+což znamená,
+že funkce je konkávní.
+
+13:16.934 --> 13:20.793
+To dává smysl, protože v nějakém
+bodě musí dojít ke změně konvexity.
+
+13:20.793 --> 13:24.733
+Vzpomeňme si, že před bodem
+2 lomeno 3 je funkce konkávní,
+
+13:24.733 --> 13:26.332
+takže výsledky
+jsou konzistentní.
+
+13:26.332 --> 13:29.332
+Mezi 0 a 2 lomeno 3
+je funkce konkávní
+
+13:29.332 --> 13:32.342
+a v bodě 2 lomeno 3
+se mění na konvexní.
+
+13:32.342 --> 13:42.372
+Nyní se podívejme, jak to vypadá,
+když je x jen o malinko menší než 0.
+
+13:42.372 --> 13:44.182
+Opět si sem napišme,
+že f s čárkou...
+
+13:44.185 --> 13:48.815
+Druhá derivace v bodě x se rovná
+12 krát x krát (3 krát x minus 2).
+
+13:48.815 --> 13:49.902
+Pokud je
+x jen o...
+
+13:49.902 --> 13:53.562
+Když je x rovno −0,1
+nebo −0,0001...
+
+13:53.562 --> 13:58.603
+Ať už je x co chce,
+tenhle výraz bude záporný.
+
+13:58.603 --> 13:59.873
+12 krát x...
+
+13:59.873 --> 14:03.722
+Když máme nějaké záporné číslo krát 12,
+tak to vyjde záporné.
+
+14:03.722 --> 14:05.662
+A co tento výraz?
+
+14:05.662 --> 14:12.082
+3 krát −0,1 se rovná −0,3
+a −0,3 minus 2 je −2,3,
+
+14:12.082 --> 14:13.186
+takže to
+vyjde záporné.
+
+14:13.186 --> 14:18.006
+Tahle hodnota bude záporná a když od ní
+něco odečteme, tak to zůstane záporné.
+
+14:18.006 --> 14:20.246
+Tento výraz je
+tedy také záporný.
+
+14:20.246 --> 14:23.071
+Součin dvou záporných čísel
+je však kladné číslo,
+
+14:23.071 --> 14:28.911
+takže pro x jen o trochu menší než 0
+je druhá derivace kladná.
+
+14:29.721 --> 14:32.267
+Druhá derivace je kladná.
+
+14:32.267 --> 14:34.230
+Tohle všechno bylo
+možná trochu matoucí,
+
+14:34.230 --> 14:38.230
+ale teď se to
+konečně zužitkuje.
+
+14:38.230 --> 14:41.012
+Víme o všech zajímavých věcech,
+které funkce dělá.
+
+14:41.012 --> 14:46.412
+Víme, že v bodě
+x rovno 1...
+
+14:46.412 --> 14:48.242
+Máme to
+napsané nahoře.
+
+14:48.242 --> 14:55.122
+Zjistili jsme, že v bodě x rovno 1
+je sklon roven nule,
+
+14:55.122 --> 14:57.292
+tedy f se dvěma čárkami je...
+
+14:57.292 --> 14:59.712
+Pardon,
+napíšu to jinak.
+
+14:59.712 --> 15:00.672
+Měl jsem říct...
+
+15:00.675 --> 15:04.225
+Víme, že sklon
+se rovná nula,
+
+15:04.225 --> 15:06.995
+což jsme zjistili tak,
+že první derivace je zde rovna nule.
+
+15:06.995 --> 15:08.941
+Jde tedy o stacionární bod.
+
+15:08.941 --> 15:14.781
+Dále víme, že funkce
+je v tomto bodě konvexní,
+
+15:14.781 --> 15:18.371
+což nám říká,
+že jde o bod lokálního minima.
+
+15:19.697 --> 15:20.912
+Čemu se
+rovná f v bodě...?
+
+15:20.912 --> 15:22.532
+Měli bychom najít
+zbylé souřadnice,
+
+15:22.532 --> 15:24.864
+ať můžeme nakreslit graf,
+což je cíl celého videa.
+
+15:24.864 --> 15:28.614
+f v bodě 1
+se rovná čemu?
+
+15:29.315 --> 15:30.730
+f v bodě 1...
+
+15:30.730 --> 15:32.620
+Musíme se vrátit
+k naší původní funkce.
+
+15:32.623 --> 15:34.693
+...se rovná 3 krát 1...
+
+15:34.693 --> 15:36.143
+1 na čtvrtou je 1.
+
+15:36.143 --> 15:42.523
+3 krát 1
+minus 4 plus 2.
+
+15:42.563 --> 15:48.733
+Je to tedy (3 krát 1) minus (4 krát 1),
+což je −1, a ještě plus 2, což nám dá +1.
+
+15:48.733 --> 15:50.595
+f(1) se tudíž rovná 1.
+
+15:50.595 --> 15:58.905
+Dále jsme zjistili, že v bodě x rovno 0
+je sklon funkce také roven 0
+
+15:58.905 --> 16:01.495
+a že jde
+o inflexní bod.
+
+16:01.945 --> 16:10.125
+Funkce v tomto bodě mění svou konvexitu,
+tudíž jde o inflexní bod.
+
+16:10.134 --> 16:14.384
+Když je x menší než 0,
+tak je funkce konvexní.
+
+16:14.384 --> 16:19.795
+Pro x menší než 0
+je tedy funkce konvexní,
+
+16:19.795 --> 16:22.135
+protože její druhá
+derivace je kladná.
+
+16:22.135 --> 16:26.135
+Pro x větší než 0
+je funkce konkávní.
+
+16:26.135 --> 16:28.943
+Ne pro všechna x v definičním oboru,
+která jsou větší než 0,
+
+16:28.943 --> 16:31.368
+ale pro x
+o trochu větší než 0.
+
+16:31.368 --> 16:32.682
+Konkávní.
+
+16:32.682 --> 16:37.559
+Čemu se rovná f v bodě 0,
+ať to pak můžeme nakreslit do grafu?
+
+16:37.559 --> 16:41.491
+f v bodě 0
+spočítáme snadno.
+
+16:41.491 --> 16:45.120
+(3 krát 0) minus (4 krát 0)
+plus 2 se rovná 2.
+
+16:45.120 --> 16:47.990
+f v bodě 0
+se rovná 2.
+
+16:47.990 --> 16:51.613
+Posledním zajímavým bodem
+byl bod x rovná se 2 lomeno 3.
+
+16:52.243 --> 16:53.165
+x rovná se...
+
+16:53.165 --> 16:55.105
+Napíšu to
+jinou barvou.
+
+16:56.338 --> 17:00.878
+Vyšel nám bod
+x rovná se 2 lomeno 3,
+
+17:00.878 --> 17:04.468
+o kterém jsme zjistili,
+že to je inflexní bod.
+
+17:05.526 --> 17:07.146
+Sklon nemusí
+být nutně...
+
+17:07.146 --> 17:11.585
+Sklon v tomto bodě určitě není nulový,
+protože nejde o stacionární bod.
+
+17:11.585 --> 17:15.149
+Víme také,
+že funkce je konkávní...
+
+17:15.149 --> 17:19.439
+Víme, že když je
+x o trochu menší než 2 lomeno 3,
+
+17:19.439 --> 17:21.997
+tak je funkce
+konkávní,
+
+17:21.997 --> 17:26.251
+zatímco když je x větší než 2 lomeno 3,
+jak jsme viděli tady nahoře...
+
+17:26.251 --> 17:30.564
+Když je x větší než 2 lomeno 3,
+což máme napsáno zde,
+
+17:30.564 --> 17:33.954
+tak je funkce konvexní,
+protože její druhá derivace je kladná.
+
+17:34.907 --> 17:36.927
+Funkce je konvexní.
+
+17:38.201 --> 17:40.648
+Můžeme si spočítat,
+kolik je f v bodě (2 lomeno 3),
+
+17:40.648 --> 17:43.295
+ale to je trochu
+složitější výpočet,
+
+17:43.295 --> 17:45.385
+takže myslím, že graf
+nakreslíme i bez toho.
+
+17:45.385 --> 17:49.107
+Myslím, že dokážeme udělat
+dobrý graf už s tím, co víme teď.
+
+17:49.107 --> 17:52.076
+Tohle jsme tedy zjistili
+a nyní udělejme náčrtek grafu.
+
+17:52.076 --> 17:54.115
+Pojďme na to.
+
+17:54.115 --> 17:57.615
+Nakreslím
+si sem osy.
+
+17:57.615 --> 18:01.915
+Jako první v grafu
+vyznačíme bod [0; 2].
+
+18:01.915 --> 18:04.022
+Řekněme, že bod [0; 2]...
+
+18:04.022 --> 18:05.604
+Zde se x rovná 0
+
+18:05.604 --> 18:08.184
+a pak se musíme
+posunout o 2 nahoru.
+
+18:08.184 --> 18:10.341
+takže tady
+je bod [0; 2].
+
+18:10.341 --> 18:12.860
+Vyznačím ho tou barvou,
+kterou jsem pro něj používal,
+
+18:12.860 --> 18:14.140
+což je tato barva.
+
+18:14.140 --> 18:16.712
+Je to
+tento bod.
+
+18:16.712 --> 18:18.230
+Dále máme bod x...
+
+18:18.230 --> 18:20.940
+Dále máme bod [1; f(1)],
+tedy bod [1; 1].
+
+18:21.684 --> 18:23.584
+Mluvím
+o tomto bodě.
+
+18:23.584 --> 18:25.964
+Tady se
+x rovná 1
+
+18:25.964 --> 18:28.714
+a zde tedy bude
+bod [1; 1].
+
+18:28.714 --> 18:32.070
+Tohle byl
+bod [0; 2].
+
+18:32.070 --> 18:36.570
+Dále máme bod x rovná se 2 lomeno 3,
+což je inflexní bod.
+
+18:36.570 --> 18:40.800
+Když je x rovno 2 lomeno 3,
+tak nevíme, kolik přesně je f(2 lomeno 3),
+
+18:40.800 --> 18:42.233
+ale mohlo by to
+být někde tady.
+
+18:42.233 --> 18:43.808
+Řekněme, že
+f(2 lomeno 3) je tady.
+
+18:43.808 --> 18:47.109
+Toto je tedy bod [2 lomeno 3,...
+
+18:47.109 --> 18:50.430
+Nevíme, kolik je f(2 lomeno 3),
+ale vypadá to jako 1 celá něco.
+
+18:50.430 --> 18:52.100
+...f(2 lomeno 3)].
+
+18:52.100 --> 18:55.500
+Můžete si to spočítat, jestli chcete,
+stačí dosadit do předpisu funkce.
+
+18:55.500 --> 18:59.345
+Nyní už můžeme
+nakreslit graf naší funkce.
+
+18:59.345 --> 19:03.615
+Víme, že v bodě x rovná se 0
+je sklon funkce nulový.
+
+19:03.615 --> 19:05.755
+Sklon je zde nulový,
+takže graf je vodorovný.
+
+19:05.755 --> 19:07.465
+Dále víme,
+že funkce je konvexní,
+
+19:07.465 --> 19:11.275
+takže graf
+vypadá nějak takhle.
+
+19:11.275 --> 19:12.905
+Na tomto intervalu
+to vypadá takto.
+
+19:12.917 --> 19:14.383
+Funkce je konvexní.
+
+19:14.383 --> 19:18.983
+Víme totiž, že pro x větší než
+2 lomeno 3 je funkce konvexní.
+
+19:18.983 --> 19:20.513
+Vezmu si na to
+tu samou barvu.
+
+19:20.513 --> 19:23.093
+Víme, že pro x větší než
+2 lomeno 3 je funkce konvexní,
+
+19:23.093 --> 19:25.538
+proto má graf
+tvar písmene U.
+
+19:25.538 --> 19:29.506
+Dále víme, že když je
+x menší než 2 lomeno 3 a větší než 0,
+
+19:29.506 --> 19:31.566
+tak je funkce konkávní.
+
+19:31.566 --> 19:34.306
+Na tomto intervalu tak
+graf vypadá asi takto.
+
+19:34.306 --> 19:36.733
+Funkce je konkávní.
+
+19:36.733 --> 19:38.517
+Nakreslím to lépe.
+
+19:38.517 --> 19:40.737
+Na tomto intervalu
+sklon funkce klesá.
+
+19:40.737 --> 19:42.847
+Lze to dobře vidět,
+když si nakreslíme tečny.
+
+19:42.847 --> 19:46.279
+Tady je tečna skoro vodorovná a pak je
+její směrnice čím dál víc záporná,
+
+19:46.279 --> 19:47.895
+až se dostaneme
+do inflexního bodu,
+
+19:47.895 --> 19:51.141
+po kterém sklon opět roste,
+protože funkce je zde konvexní.
+
+19:51.141 --> 19:54.132
+Posledním intervalem
+jsou čísla menší než 0.
+
+19:54.132 --> 19:58.102
+Víme, že když je x menší než 0,
+tak je funkce konvexní,
+
+19:58.102 --> 20:02.539
+takže její graf
+vypadá nějak takhle.
+
+20:02.539 --> 20:05.639
+Víme také, že bod x rovná se 0
+je stacionárním bodem,
+
+20:05.639 --> 20:08.619
+ve kterém je sklon nulový,
+takže graf je zde vodorovný.
+
+20:08.619 --> 20:11.698
+Jde tak o inflexní bod,
+ve kterém je navíc sklon roven 0.
+
+20:11.698 --> 20:13.683
+Tohle je tedy náš graf
+a my jsme hotoví.
+
+20:13.683 --> 20:16.880
+Po všemožných výpočtech jsme
+použili znalosti diferenciálního počtu
+
+20:16.880 --> 20:21.099
+včetně inflexních bodů
+nebo konvexity a jejích změn
+
+20:21.099 --> 20:25.369
+a podařilo se nám
+udělat náčrtek grafu.
+
+20:25.369 --> 20:30.059
+Takhle nějak by měl graf vypadat,
+když si ho necháte vykreslit kalkulačkou.

@@ -1,0 +1,2 @@
+(()=>{var t=Array.prototype;if(!["toSorted","toReversed","toSpliced","with"].every(function(r){return"function"==typeof t[r]})){var r=document.currentScript.dataset.polyfillUrl;document.write('<script src="'+r+'"><\/script>')}})();
+//# sourceMappingURL=kolibri.core.polyfill_loader-0.1.dev39776+g39bcb046d.js.map

@@ -1,0 +1,172 @@
+WEBVTT
+
+00:00.000 --> 00:05.741
+V tomto videu si vyzkoušíme, jak se
+dělá první krok v substituci v integrálu,
+
+00:05.741 --> 00:09.299
+což dělá studentům
+často největší problém.
+
+00:09.299 --> 00:14.696
+Kdy se hodí substituci použít a jak
+správně definovat pomocnou proměnnou u.
+
+00:14.696 --> 00:17.150
+Začneme příkladem.
+
+00:17.150 --> 00:30.190
+Hledáme neurčitý integrál z (2x plus 1)
+krát odmocnina z (x na druhou plus x) dx.
+
+00:30.190 --> 00:34.752
+Hodí se zde použít substituci a pokud ano,
+tak jak musíme definovat proměnnou u?
+
+00:34.752 --> 00:37.341
+Pozastavte video a zkuste se
+nad tím sami zamyslet.
+
+00:37.341 --> 00:39.139
+Stačí si vzpomenout,
+
+00:39.139 --> 00:43.551
+že substituce je vlastně jen obrácené
+pravidlo o derivaci složené funkce.
+
+00:43.551 --> 00:46.688
+Připomeneme si, jak vypadá
+pravidlo o derivaci složené funkce.
+
+00:46.688 --> 00:53.525
+Pokud máme složenou
+funkci, například f(g(x)),
+
+00:53.525 --> 00:57.307
+a chceme to zderivovat podle x,
+
+00:57.307 --> 01:02.899
+tak to bude rovno derivaci vnější
+funkce podle vnitřní funkce,
+
+01:02.899 --> 01:12.490
+takže f s čárkou v g(x),
+krát derivace vnitřní funkce.
+
+01:12.490 --> 01:17.249
+Pro použití substituce musíme
+v integrálu vidět podobný vzor.
+
+01:17.249 --> 01:24.493
+Máme v integrálu možnou vnitřní funkci,
+g(x), jejíž derivace by byla v součinu?
+
+01:24.493 --> 01:30.370
+To vidíme zde, když se podíváme
+na x na druhou plus x.
+
+01:30.370 --> 01:33.212
+Když takto definuji u,
+tak jak bude vypadat derivace?
+
+01:33.212 --> 01:37.208
+Derivace x na druhou plus x
+je 2 krát x plus 1,
+
+01:37.208 --> 01:39.652
+takže bychom to tak
+měli zasubstituovat.
+
+01:39.652 --> 01:47.615
+Když položíme "u" rovno
+x na druhou plus x, tak získáme, že du/dx…
+
+01:47.615 --> 01:52.695
+Derivace "u" podle x je
+rovna 2 krát x plus 1,
+
+01:52.695 --> 01:55.279
+když se k diferenciálům
+chováme jako k proměnným,
+
+01:55.279 --> 01:59.645
+tak můžeme obě strany vynásobit dx, což
+je tedy trochu mávání kouzelnou hůlkou,
+
+01:59.645 --> 02:01.007
+ale zde se to hodí udělat,
+
+02:01.007 --> 02:05.945
+abychom získali,
+že x plus 1 krát dx je du.
+
+02:05.945 --> 02:09.798
+A zajímavé je, že máme
+definovanou proměnnou "u"
+
+02:09.798 --> 02:14.635
+a také máme 2 krát x plus 1 dx.
+
+02:14.635 --> 02:19.319
+Většinou se integrál nepřepisuje tak,
+jak ho nyní přepíšu, ale stejně do udělám.
+
+02:19.319 --> 02:21.031
+Integrál můžu přepsat…
+
+02:21.031 --> 02:24.427
+Měli byste vidět, že toto
+je vlastně součin tří výrazů.
+
+02:24.427 --> 02:29.132
+Často lidé koukají na dx jako na něco,
+co je součástí integrálního operátoru.
+
+02:29.132 --> 02:32.853
+Ale my to můžeme přeskupit,
+tohle je naprosto legitimní.
+
+02:32.853 --> 02:39.788
+Můžeme to zapsat jako integrál
+z odmocniny z (x na druhou plus x)
+
+02:39.788 --> 02:43.807
+krát (2 krát x plus 1) dx.
+
+02:43.807 --> 02:49.358
+A pokud si chceme opravdu být jistí,
+tak to můžeme takto dát do závorek.
+
+02:49.358 --> 02:58.355
+Toto je naše u, a toto je du.
+
+02:58.355 --> 03:06.559
+Takže to můžeme přepsat
+jako integrál z odmocniny z "u",
+
+03:06.559 --> 03:08.860
+protože x na druhou plus x je "u",
+
+03:08.860 --> 03:13.318
+krát du, což už je
+mnohem jednodušší spočítat.
+
+03:13.318 --> 03:16.028
+Pokud vás to pořád trochu mate,
+tak to možná lépe uvidíte,
+
+03:16.028 --> 03:19.044
+když to přepíšu takto
+na "u" na jednu polovinu.
+
+03:19.044 --> 03:22.943
+Nyní stačí použít obrácené pravidlo
+pro derivaci mocniny.
+
+03:22.943 --> 03:27.892
+A po získání primitivní funkce
+už musíme jen udělat zpětnou substituci,
+
+03:27.892 --> 03:34.825
+abychom řešení získali
+vzhledem k proměnné x.

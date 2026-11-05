@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.591 --> 00:02.203
+Giờ chúng mình đã quen với việc
+
+00:02.203 --> 00:04.482
+tìm phần diện tích dưới một đường cong cho trước
+
+00:04.482 --> 00:06.558
+bằng các hình chữ nhật tọa độ
+
+00:06.558 --> 00:07.974
+Vậy mình đã dùng tổng Riemann
+
+00:07.974 --> 00:09.577
+và rất nhiều hình chữ nhật, và coi
+
+00:09.577 --> 00:12.040
+như mình có giới hạn là vô cực với các hình chữ nhật cực mỏng
+
+00:12.040 --> 00:13.469
+vậy mình có thể tìm diện tích
+
+00:13.920 --> 00:16.404
+Bây giờ mình sẽ tìm hiểu hệ tọa độ cực
+
+00:16.826 --> 00:18.406
+và trong hệ tọa độ cực, mình không
+
+00:18.406 --> 00:21.043
+tìm diện tích dưới đường cong, nhưng trong trường hợp này
+
+00:21.043 --> 00:23.864
+mình có một phần đồ thị của
+
+00:23.864 --> 00:26.009
+r= f(theta) và mình đã vẽ nó
+
+00:26.009 --> 00:27.417
+từ theta bằng alpha
+
+00:27.417 --> 00:29.418
+đến theta bằng beta
+
+00:29.967 --> 00:33.087
+Và trong video này mình sẽ tìm một
+
+00:33.087 --> 00:38.087
+biểu thức chung cho phần diện tích màu xanh này
+
+00:38.838 --> 00:40.902
+Phần diện tích này được giới hạn
+
+00:40.902 --> 00:45.902
+bởi các góc này và đồ thị của r= f(theta)
+
+00:50.929 --> 00:52.880
+Và mình muốn bạn tìm ra, hoặc suy nghĩ
+
+00:52.880 --> 00:55.198
+cách tìm ra một biểu thức của riêng bạn
+
+00:55.198 --> 00:56.949
+Nhưng mình sẽ cho bạn một gợi ý
+
+00:57.448 --> 00:58.911
+Khi mình sử dụng hình chữ nhật tọa độ
+
+00:58.911 --> 01:00.525
+Mình chia mọi thứ thành các hình chữ nhật
+
+01:00.900 --> 01:03.410
+Ở đây hình chữ nhật sẽ hơi khó
+
+01:03.410 --> 01:05.190
+vì nó tụ lại ở điểm này
+
+01:05.451 --> 01:08.365
+nhưng nếu mình có thể chia mọi thứ thành
+
+01:11.747 --> 01:15.116
+các phần, hoặc thậm chí là như các phần bánh nhỏ
+
+01:22.067 --> 01:24.783
+Vậy nếu mình chia cái này thành
+
+01:24.783 --> 01:28.912
+các phần nhỏ khác nhau
+
+01:33.061 --> 01:34.520
+và lấy giới hạn như thể mình có
+
+01:34.520 --> 01:38.276
+vô số phần
+
+01:38.278 --> 01:40.225
+Mình muốn tìm diện tích của từng phần
+
+01:40.225 --> 01:43.594
+và sau đó lấy giới hạn sao cho
+
+01:43.594 --> 01:46.189
+các phần này nhỏ đến vô hạn
+
+01:46.189 --> 01:50.591
+và mình có vô số phần
+
+01:50.946 --> 01:54.377
+Và thêm một gợi ý nữa để bạn
+
+01:54.377 --> 01:56.484
+tìm diện tích của các phần này,
+
+01:56.484 --> 01:59.500
+các phần này ngay đây
+
+02:00.074 --> 02:03.183
+Một gợi ý nữa, nếu mình có một hình tròn
+
+02:03.183 --> 02:04.978
+Mình sẽ cố gắng vẽ một hình tròn
+
+02:04.978 --> 02:06.978
+Đây là hình tròn của mình
+
+02:14.747 --> 02:17.288
+Được rồi, nếu mình có hình tròn này,
+
+02:17.288 --> 02:20.252
+và nó có bán kính bằng r
+
+02:23.030 --> 02:25.247
+mình sẽ vẽ một phần của đường tròn này
+
+02:26.158 --> 02:29.268
+Nó là một phần của đường tròn, vậy cái này cũng là r
+
+02:29.673 --> 02:32.679
+Vậy nếu góc này là theta,
+
+02:32.679 --> 02:37.679
+diện tích của phần này ngay đây là gì?
+
+02:40.225 --> 02:42.474
+Đó là gợi ý của mình cho bạn để tính diện tích
+
+02:42.474 --> 02:45.464
+của phần này, và mình cứ cho theta ở dạng ra đi ăng
+
+02:45.772 --> 02:49.345
+Hình dung một chút về diện tích của nó và
+
+02:49.345 --> 02:52.003
+xem bạn có thể triển khai nó về dạng
+
+02:52.003 --> 02:54.745
+mình đang làm hay không?
+
+02:54.745 --> 02:56.548
+Mình sẽ cho bạn thêm một gợi ý nữa
+
+02:56.548 --> 03:00.501
+Sử dụng tích phân để tìm biểu thức của phần diện tích này
+
+03:01.255 --> 03:03.127
+Mình đoán là bạn đã thử làm rồi
+
+03:03.127 --> 03:05.203
+Vậy thì diện tích của
+
+03:05.203 --> 03:09.151
+toàn bộ hình tròn này mình đã biết rồi
+
+03:09.151 --> 03:10.881
+Đó sẽ là pi r bình phương,
+
+03:11.892 --> 03:13.741
+Công thức tính diện tích hình tròn
+
+03:14.105 --> 03:15.831
+Vậy diện tích của phần này là gì?
+
+03:16.151 --> 03:18.333
+Nó sẽ là một tỉ lệ nhân với đường tròn
+
+03:18.882 --> 03:23.755
+Nếu đây là pi, à không nếu đây là theta, 2 pi ra đi ăng sẽ là toàn bộ hình tròn
+
+03:23.755 --> 03:25.597
+Vậy cái này sẽ là
+
+03:25.597 --> 03:30.014
+theta phần 2 pi của hình tròn
+
+03:30.591 --> 03:35.591
+Vậy nhân theta phần 2 pi sẽ là
+
+03:39.417 --> 03:41.678
+diện tích của phần này
+
+03:41.678 --> 03:43.620
+Diện tích của toàn bộ hình tròn nhân
+
+03:43.620 --> 03:46.381
+với tỉ lệ của hình tròn mà mình đã xác định
+
+03:46.381 --> 03:48.159
+hoặc diện tích mà phần này chiếm
+
+03:48.467 --> 03:52.125
+Vậy có nghĩa là các số pi được tối giản với nhau
+
+03:52.125 --> 03:56.181
+Mình sẽ có 1/2 r bình nhân với theta
+
+03:57.179 --> 04:01.029
+Bây giờ nếu thay vì là theta
+
+04:01.029 --> 04:03.568
+mình xem từng cái ở đây nhé
+
+04:04.180 --> 04:06.450
+Vậy mỗi cái mà mình đã vẽ
+
+04:06.450 --> 04:10.249
+mình sẽ tập trung vào từng cái một
+
+04:10.661 --> 04:13.771
+Mình sẽ tô nó màu cam
+
+04:17.706 --> 04:21.060
+Vây thay vì là góc theta, mình sẽ
+
+04:21.060 --> 04:23.582
+giả sử nó là một góc cực kì nhỏ
+
+04:24.315 --> 04:26.067
+Mình sẽ áp dụng vi phân dù nó
+
+04:26.067 --> 04:27.876
+hơi phức tạp nhưng nó sẽ giúp
+
+04:27.876 --> 04:29.551
+bạn hiểu rõ hơn về khái niệm
+
+04:29.704 --> 04:32.847
+Mình có thể gọi nó là delta theta và rồi
+
+04:32.847 --> 04:35.132
+lấy giới hạn khi delta theta tiến tới 0
+
+04:35.148 --> 04:37.180
+Nhưng để rõ ràng hơn về khái niệm, khi có
+
+04:37.180 --> 04:41.064
+một lượng thay đổi cực kì nhỏ ở theta
+
+04:41.064 --> 04:46.064
+Mình gọi cái này là d theta và bán kính ở đây
+
+04:52.319 --> 04:54.068
+hay độ dài là cái này
+
+04:54.068 --> 04:55.195
+Bạn có thể xem nó là bán kính
+
+04:55.195 --> 04:57.885
+hay ít nhất là cung tại điểm này
+
+04:58.128 --> 05:02.359
+nó sẽ là hàm số r của theta
+
+05:02.359 --> 05:04.250
+ở ngay đây, nhưng mình sẽ
+
+05:04.250 --> 05:06.947
+gọi nó là r ngay đây
+
+05:07.250 --> 05:11.060
+Vậy diện tích của phần nhỏ này sẽ là gì?
+
+05:11.975 --> 05:15.098
+Diện tích của phần nhỏ này thay vì
+
+05:15.098 --> 05:16.624
+góc của mình là theta và gọi nó là
+
+05:16.624 --> 05:19.279
+góc d theta, vi phân nhỏ ở đây
+
+05:19.690 --> 05:21.932
+Vậy thay vì một phần hai r bình nó sẽ là
+
+05:21.932 --> 05:24.300
+để mình viết nó với một màu khác
+
+05:24.393 --> 05:29.393
+Diện tích sẽ là 1/2 r bình d theta
+
+05:32.585 --> 05:34.101
+Góc này là theta, nhưng góc
+
+05:34.101 --> 05:36.493
+này là d theta, góc cực kì nhỏ này
+
+05:37.225 --> 05:40.725
+Bây giờ nếu mình muốn lấy tổng của tất cả cái này
+
+05:40.725 --> 05:44.302
+từ theta bằng alphađến theta bằng beta
+
+05:44.302 --> 05:46.133
+và có vô số các góc như thế này
+
+05:46.133 --> 05:47.786
+Đây là một góc nhỏ vô hạn.
+
+05:48.365 --> 05:53.365
+Vậy cho toàn bộ phần diện tích này
+
+05:53.855 --> 05:56.149
+Mình có thể tích phân chúng
+
+05:56.646 --> 06:01.646
+Vậy nó sẽ là tích phân từ alpha
+
+06:03.546 --> 06:08.546
+đến beta của 1/2 r bình phương d theta, với r
+
+06:11.855 --> 06:14.196
+là một hàm số của theta
+
+06:14.196 --> 06:15.510
+Vậy bạn có thể viết nó theo cách này
+
+06:15.510 --> 06:18.310
+bạn có thể viết nó làtích phân từ alpha
+
+06:18.310 --> 06:23.310
+đến beta của 1/2 r của theta bình, d theta
+
+06:25.948 --> 06:27.798
+Chú ý là trong trường hợp này
+
+06:27.798 --> 06:30.193
+r là một hàm số của theta

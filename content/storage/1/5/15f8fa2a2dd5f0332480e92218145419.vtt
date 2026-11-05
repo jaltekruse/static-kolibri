@@ -1,0 +1,787 @@
+WEBVTT
+
+00:00.000 --> 00:00.580
+-
+
+00:00.580 --> 00:04.900
+Bir önceki videoda y eşittir x kare eğrisi üzerindeki bir noktadaki eğimi bulduk.
+
+00:04.900 --> 00:07.035
+-
+
+00:07.035 --> 00:09.700
+Şimdi bakalım bunu genelleştirip bize y eşittir x karenin herhangi bir noktasındaki eğimi veren bir formül bulabilecek miyiz
+
+00:09.700 --> 00:12.780
+-
+
+00:12.780 --> 00:15.350
+-
+
+00:15.350 --> 00:18.000
+Şimdi fonksiyonumu tekrar çizeyim
+
+00:18.000 --> 00:21.720
+İyi bir çizim yapmanın zararı dokunmaz
+
+00:21.720 --> 00:24.530
+Bu benim y eksenim.
+
+00:24.530 --> 00:28.420
+Buradaki benim x eksenim
+
+00:28.420 --> 00:29.580
+x-eksenim.
+
+00:29.580 --> 00:30.670
+Şimdi eğrimi çizeyim
+
+00:30.670 --> 00:32.900
+Bunun gibi bir şeye benzeyecek
+
+00:32.900 --> 00:34.210
+Bunu birkaç defa gördünüz
+
+00:34.210 --> 00:37.970
+Bu y eşittir x kare.
+
+00:37.970 --> 00:39.740
+Şimdi çok genel düşünelim.
+
+00:39.740 --> 00:42.600
+Türevin tanımını yazayım.
+
+00:42.600 --> 00:44.600
+-
+
+00:44.600 --> 00:48.450
+Eğer burada bir noktamız varsa - buna x diyelim
+
+00:48.450 --> 00:49.630
+Şimdi çok genel olmak istiyoruz
+
+00:49.630 --> 00:52.470
+x noktasındaki eğimi bulmak istiyoruz.
+
+00:52.470 --> 00:55.190
+Öyle bir fonksiyon bulmak istiyoruz ki siz bana x'i vereceksiniz ve ben size o noktadaki eğimi söyleyeceğim.
+
+00:55.190 --> 00:57.010
+-
+
+00:57.010 --> 00:59.800
+Bu fonksiyona f üssü x diyeceğiz.
+
+00:59.800 --> 01:06.210
+Bu f x'in türevi olacak
+
+01:06.210 --> 01:09.830
+f x size x değerinin y değerini söylüyor.
+
+01:09.830 --> 01:12.670
+-
+
+01:12.670 --> 01:14.810
+Buraya eğriyi çiziyoruz
+
+01:14.810 --> 01:19.470
+f üssü x'e aynı x değerini koyduğunuzda eğrideki değeri vermeyecek.
+
+01:19.470 --> 01:21.050
+-
+
+01:21.050 --> 01:22.760
+-
+
+01:22.760 --> 01:24.855
+Size eğrinin o noktadaki eğimini verecek.
+
+01:24.855 --> 01:26.280
+-
+
+01:26.280 --> 01:28.790
+Bu fonksiyona koyarsanı , bunun size buradaki eğimi vermesi lazım. Eğer buraya 3 koyarsanız buradaki eğim 6 olur.
+
+01:28.790 --> 01:31.540
+-
+
+01:31.540 --> 01:33.360
+-
+
+01:33.360 --> 01:34.220
+-
+
+01:34.220 --> 01:35.590
+Bunu son örnekte görmüştük
+
+01:35.590 --> 01:37.410
+Bulmak istediğimiz şey bu.
+
+01:37.410 --> 01:40.600
+Bunu iki video önce görmüştük sanıyorum.
+
+01:40.600 --> 01:47.130
+f üssü x'i şöyle tanımlamıştık.
+
+01:47.130 --> 01:48.470
+-
+
+01:48.470 --> 01:51.210
+x ile x'ten biraz uzaktaki bir noktanın kesen doğrusunun eğimi demiştik.
+
+01:51.210 --> 01:53.540
+-
+
+01:53.540 --> 01:56.640
+Kesen doğrusu üzerindeki y'lerin farkını bulmuştuk.
+
+01:56.640 --> 02:00.940
+Biraz uzaktaki noktanın y değeri.
+
+02:00.940 --> 02:02.290
+-
+
+02:02.290 --> 02:07.630
+Yani f x artı h eksi x'teki y değeri, öyle değil mi?
+
+02:07.630 --> 02:08.600
+Çünkü bu burada, bu f x.
+
+02:08.600 --> 02:11.200
+-
+
+02:11.200 --> 02:13.820
+Yani eksi f x.
+
+02:13.820 --> 02:15.830
+Bunun tamamı bölü x'lerin farkı.
+
+02:15.830 --> 02:19.620
+Bu x artı h ise, x'lerin farkı eşittir x artı h eksi x.
+
+02:19.620 --> 02:21.740
+-
+
+02:21.740 --> 02:23.470
+Veya bu uzaklık eşittir h.
+
+02:23.470 --> 02:26.830
+x'lerin farkı h olacak.
+
+02:26.830 --> 02:29.150
+İki nokta arasındaki kesen doğrusunun eğimi böyle olacak.
+
+02:29.150 --> 02:31.240
+-
+
+02:31.240 --> 02:33.880
+Ve şöyle demiştik, h 0'a yaklaşırken bunun limitini alırsak, teğet doğrusunun eğimini buluruz.
+
+02:33.880 --> 02:36.390
+-
+
+02:36.390 --> 02:40.060
+-
+
+02:40.060 --> 02:42.930
+Böylece teğet doğrusunun eğimini buluruz.
+
+02:42.930 --> 02:48.060
+Şimdi bu fikri f x eşittir x kare fonksiyonuna uygulayalım.
+
+02:48.060 --> 02:49.970
+-
+
+02:49.970 --> 02:52.430
+Veya y eşittir x kareye.
+
+02:52.430 --> 02:55.800
+Buradaki noktayı, x, x kare olarak düşünelim.
+
+02:55.800 --> 02:58.910
+-
+
+02:58.910 --> 03:01.380
+f x eşittir x kare.
+
+03:01.380 --> 03:05.040
+Bu noktayı daha canlı bir renkle belirteyim.
+
+03:05.040 --> 03:07.140
+-
+
+03:07.140 --> 03:11.510
+Bu nokta, x artı h, ve x artı h'nin karesi.
+
+03:11.510 --> 03:13.040
+-
+
+03:13.040 --> 03:14.770
+-
+
+03:14.770 --> 03:19.450
+-
+
+03:19.450 --> 03:20.880
+Biliyorsunuz, bir önceki videoda bunu belli bir x değeri için bulmuştuk.
+
+03:20.880 --> 03:21.500
+-
+
+03:21.500 --> 03:22.590
+3 için bulmuştuk.
+
+03:22.590 --> 03:24.330
+Ama şimdi genel bir formül istiyorum.
+
+03:24.330 --> 03:26.300
+Bana herhangi bir x verdiğinizde, bir önceki videodaki gibi işlemler yapmak zorunda kalmayacağım.
+
+03:26.300 --> 03:28.330
+-
+
+03:28.330 --> 03:29.490
+Genel bir fonksiyonum olacak.
+
+03:29.490 --> 03:31.570
+Bana 7 dediğinizde, size 7'deki eğimin ne olduğunu söyleyeceğim.
+
+03:31.570 --> 03:33.260
+Eksi 3 verdiğinizde, eksi 3'teki eğimin ne olduğunu söyleyeceğim.
+
+03:33.260 --> 03:34.300
+-
+
+03:34.300 --> 03:36.450
+100000 verdiğinizde 100000'deki eğimi söyleyeceğim.
+
+03:36.450 --> 03:37.690
+-
+
+03:37.690 --> 03:39.310
+Bunu burada uygulayalım.
+
+03:39.310 --> 03:42.740
+y'lerin farkının x'lerin farkına bölümünü bulmak istiyoruz.
+
+03:42.740 --> 03:45.410
+-
+
+03:45.410 --> 03:51.190
+İlk olarak, y'lerin farkı eşittir, bu arkadaşın y değeri, yani x artı h'nin karesi...
+
+03:51.190 --> 03:52.975
+-
+
+03:52.975 --> 03:57.410
+-
+
+03:57.410 --> 03:59.290
+Bu, buradaki arkadaşın y değeri.
+
+03:59.290 --> 04:00.270
+-
+
+04:00.270 --> 04:02.730
+x artı h'nin karesi.
+
+04:02.730 --> 04:06.380
+x artı h'yi aldım, karesini buldum ve eğrideki bu noktadır dedim.
+
+04:06.380 --> 04:07.820
+-
+
+04:07.820 --> 04:08.930
+Yani bu değer x artı h'nin karesi.
+
+04:08.930 --> 04:10.630
+-
+
+04:10.630 --> 04:12.080
+Peki, bu değer nedir?
+
+04:12.080 --> 04:15.230
+Burada f x eşittir x kare.
+
+04:15.230 --> 04:16.310
+-
+
+04:16.310 --> 04:18.530
+x değerini alırsanız ve bu noktadaki fonksiyon değerini hesaplarsanız, x kare elde edersiniz.
+
+04:18.530 --> 04:20.600
+-
+
+04:20.600 --> 04:23.300
+Eksi x kare.
+
+04:23.300 --> 04:24.900
+y'lerin farkı budur.
+
+04:24.900 --> 04:29.090
+Buradaki uzaklık budur.
+
+04:29.090 --> 04:33.110
+Bunu türevin tanımıyla ilişkilendirmek istersek, şuradaki mavi ifade, buradaki ifadeye denktir.
+
+04:33.110 --> 04:35.820
+-
+
+04:35.820 --> 04:36.570
+-
+
+04:36.570 --> 04:39.140
+Sadece fonksiyon değerlerini bulmuş olduk.
+
+04:39.140 --> 04:42.850
+f x eşittir x kare.
+
+04:42.850 --> 04:46.310
+x x artı h'ye eşit olduğundaki değerini bulduk.
+
+04:46.310 --> 04:48.920
+Eğer kare alıyorsak, buraya a koyduğumuzda a kare olur.
+
+04:48.920 --> 04:49.540
+-
+
+04:49.540 --> 04:51.200
+Elma koysam, elma kare olur.
+
+04:51.200 --> 04:52.970
+x artı h koyarsam, x artı h'nin karesi olur.
+
+04:52.970 --> 04:54.580
+-
+
+04:54.580 --> 04:56.210
+Yani bu, şu ifade.
+
+04:56.210 --> 05:00.420
+Ve buradaki de verilen noktanın fonksiyon değeri.
+
+05:00.420 --> 05:01.810
+-
+
+05:01.810 --> 05:02.440
+-
+
+05:02.440 --> 05:05.120
+Yani bu, y'lerin farkı.
+
+05:05.120 --> 05:07.920
+Şimdi bunu x'lerin farkına bölelim.
+
+05:07.920 --> 05:10.730
+x'lerin farkı - bu x artı h ise, ve bu sadece x ise, x'lerin farkı h olacak.
+
+05:10.730 --> 05:13.360
+-
+
+05:13.360 --> 05:14.880
+Bu terimi de böyle buluyoruz.
+
+05:14.880 --> 05:17.670
+Buna göre, bu, bu iki nokta arasındaki eğimdir.
+
+05:17.670 --> 05:19.350
+Bu iki nokta arasındaki eğim.
+
+05:19.350 --> 05:22.690
+Ama şimdi bu nokta şu noktaya yaklaşırken ve şu nokta bu noktaya yaklaşırken limit almak istiyoruz.
+
+05:22.690 --> 05:25.500
+-
+
+05:25.500 --> 05:26.790
+-
+
+05:26.790 --> 05:29.530
+Böylece bu teğet doğru haline gelir.
+
+05:29.530 --> 05:34.480
+Yani h 0'a yaklaşırken limit alıyoruz ve bu f üssü x oluyor.
+
+05:34.480 --> 05:37.250
+-
+
+05:37.250 --> 05:39.580
+Bu da bununla aynı tanım, ama şimdi belirli bir fonksiyon için türev alıyoruz.
+
+05:39.580 --> 05:42.400
+-
+
+05:42.400 --> 05:43.380
+-
+
+05:43.380 --> 05:45.680
+f x eşittir x karenin türevini alıyoruz.
+
+05:45.680 --> 05:46.660
+Tanımı uygulamış olduk.
+
+05:46.660 --> 05:48.350
+f x yerine x kare yazdık.
+
+05:48.350 --> 05:52.950
+f x artı h yerine x artı h'nin karesi yazdık.
+
+05:52.950 --> 05:56.180
+Şimdi bu limiti bulmaya çalışalım.
+
+05:56.180 --> 06:04.680
+Bu kareleri bulalım.
+
+06:04.680 --> 06:06.680
+-
+
+06:06.680 --> 06:09.160
+-
+
+06:09.160 --> 06:19.230
+x kare artı 2 x h artıh kare ve burada da eksi x kare var.
+
+06:19.230 --> 06:22.320
+-
+
+06:22.320 --> 06:24.790
+Bu arkadaşı açtım.
+
+06:24.790 --> 06:27.635
+Bunun tamamı bölü h.
+
+06:27.635 --> 06:30.850
+Şimdi bunu sadeleştirmeye çalışalım.
+
+06:30.850 --> 06:32.610
+x kare ve eksi x karenin birbirini götürdüğünü görüyorsunuz.
+
+06:32.610 --> 06:35.390
+-
+
+06:35.390 --> 06:36.570
+Sonra da payı ve paydayı h'ye bölebilirim.
+
+06:36.570 --> 06:38.185
+-
+
+06:38.185 --> 06:44.780
+Yani bu şöyle sadeleşir - f üssü x eşittir - payı ve paydayı h ile bölersem, 2 x artı h bulurum.
+
+06:44.780 --> 06:46.590
+-
+
+06:46.590 --> 06:50.260
+-
+
+06:50.260 --> 06:52.070
+Pardon, limit yazmayı unuttum.
+
+06:52.070 --> 06:53.420
+Bunun limitin eşit.
+
+06:53.420 --> 06:54.330
+Çok önemli.
+
+06:54.330 --> 07:01.200
+h 0'a yaklaşırken limit alıyorum. Her şeyi h'ye bölünce, 2 x artı h kare bölü h eşittir h.
+
+07:01.200 --> 07:08.640
+-
+
+07:08.640 --> 07:10.440
+Bir önceki videoyu hatırlarsanız, x eşittir 3 için bu işlemleri yaptığımızda, 6 artı delta x bulmuştuk.
+
+07:10.440 --> 07:13.780
+-
+
+07:13.780 --> 07:14.920
+-
+
+07:14.920 --> 07:17.420
+Veya 6 artı h, bunlar benziyor.
+
+07:17.420 --> 07:20.130
+Yani h 0'a giderken limit aldığımızda, bu yok olacak.
+
+07:20.130 --> 07:21.010
+-
+
+07:21.010 --> 07:24.240
+Yani bu 2 x'e eşit olacak.
+
+07:24.240 --> 07:28.540
+Bu önemli bir sonuç.
+
+07:28.540 --> 07:30.180
+Heyecan verici!
+
+07:30.180 --> 07:35.130
+f x x kareye eşit ise, f üssü x eşittir 2 x.
+
+07:35.130 --> 07:37.910
+-
+
+07:37.910 --> 07:39.470
+Bunu bulduk.
+
+07:39.470 --> 07:41.570
+Bunun nasıl yorumlanacağını anladığınızdan emin olmak istiyorum.
+
+07:41.570 --> 07:42.880
+-
+
+07:42.880 --> 07:45.780
+Eğer bana bir değer verirseniz, f x bu noktadaki fonksiyon değerini verir.
+
+07:45.780 --> 07:47.560
+-
+
+07:47.560 --> 07:48.920
+f üssü x ise bu noktadaki eğimi verecek.
+
+07:48.920 --> 07:49.960
+-
+
+07:49.960 --> 07:51.180
+Bunu çizeyim.
+
+07:51.180 --> 07:53.490
+Çünkü bu çok önemli bir çıkarım.
+
+07:53.490 --> 07:56.220
+İlk başta bir fonksiyonun herhangi bir noktadaki eğimini veren başka bir fonksiyon kavramı mantıksız gelebilir.
+
+07:56.220 --> 07:58.590
+-
+
+07:58.590 --> 08:02.040
+-
+
+08:02.040 --> 08:05.070
+Şöyle bir şeye benzeyecek.
+
+08:05.070 --> 08:07.650
+Daha temiz çizmeye çalışayım.
+
+08:07.650 --> 08:10.290
+-
+
+08:10.290 --> 08:11.280
+-
+
+08:11.280 --> 08:13.650
+Sadece pozitif bölgede çiziyorum.
+
+08:13.650 --> 08:15.640
+Eğri şöyle bir şeye benzeyecek.
+
+08:15.640 --> 08:17.450
+-
+
+08:17.450 --> 08:20.090
+f x eğrisi bu.
+
+08:20.090 --> 08:23.050
+Bu, f x eşittir x kare eğrisi.
+
+08:23.050 --> 08:24.230
+-
+
+08:24.230 --> 08:26.490
+Şimdi bana bir nokta verirseniz, 7 noktasını verirseniz, buraya koyunca karesini alırsınız, 49 değerini bulursunuz.
+
+08:26.490 --> 08:27.840
+-
+
+08:27.840 --> 08:30.610
+-
+
+08:30.610 --> 08:34.460
+-
+
+08:34.460 --> 08:36.170
+Burada 49 sayısını elde edersiniz.
+
+08:36.170 --> 08:38.620
+7, 49 noktası.
+
+08:38.620 --> 08:40.940
+Fonksiyonlarla böyle işlem yapmaya alışkınsınız.
+
+08:40.940 --> 08:43.630
+Ama f üssü 7 nedir?
+
+08:43.630 --> 08:45.000
+f üssü 7.
+
+08:45.000 --> 08:47.740
+2 çarpı 7 eşittir 14 dersiniz.
+
+08:47.740 --> 08:49.990
+Peki, bu 14 nedir?
+
+08:49.990 --> 08:51.380
+Bu nedir?
+
+08:51.380 --> 08:53.440
+x eşittir 7'deki teğet doğrunun eğimidir.
+
+08:53.440 --> 08:55.030
+-
+
+08:55.030 --> 08:59.330
+Yani bu noktada bir teğet doğru çizsem, eğrimize değen bir doğru.
+
+08:59.330 --> 09:02.930
+-
+
+09:02.930 --> 09:03.890
+-
+
+09:03.890 --> 09:06.410
+Bu yeterince teğet olmadı.
+
+09:06.410 --> 09:08.790
+Teğet doğrum şöyle.
+
+09:08.790 --> 09:10.200
+Anladınız.
+
+09:10.200 --> 09:13.660
+Bu arkadaşın eğimi, y'lerinin farkı bölü x'lerinin farkı, 14'e eşit olacak.
+
+09:13.660 --> 09:16.260
+-
+
+09:16.260 --> 09:18.880
+7'deki teğet oldukça dik.
+
+09:18.880 --> 09:20.270
+-
+
+09:20.270 --> 09:21.990
+x eşittir 2 içim eğimi bulalım.
+
+09:21.990 --> 09:25.910
+-
+
+09:25.910 --> 09:30.290
+x 7 olduğunda eğim 14'tür demiştim.
+
+09:30.290 --> 09:32.900
+x eşittir 2'de eğim nedir?
+
+09:32.900 --> 09:37.230
+f üssü 2'yi buluruz, bu da eşittir 2 çarpı 2, yani 4.
+
+09:37.230 --> 09:38.880
+-
+
+09:38.880 --> 09:43.990
+Yani buradaki eğim 4.
+
+09:43.990 --> 09:46.520
+m eşittir 4 de diyebilirsiniz. Eğim için m harfini kullanırız.
+
+09:46.520 --> 09:50.560
+f üssü 0 nedir?
+
+09:50.560 --> 09:51.170
+f üssü.
+
+09:51.170 --> 09:53.120
+f 0'ın 0 olduğunu biliyoruz, öyle değil mi?
+
+09:53.120 --> 09:55.120
+0 kare eşittir 0.
+
+09:55.120 --> 09:57.710
+Ama f üssü 0 nedir?
+
+09:57.710 --> 09:59.180
+2 çarpı 0 eşittir 0.
+
+09:59.180 --> 10:00.480
+Bu da 0.
+
+10:00.480 --> 10:01.350
+Peki, bunun anlamı nedir?
+
+10:01.350 --> 10:03.100
+Nasıl yorumlayabiliriz?
+
+10:03.100 --> 10:05.850
+Teğet doğrunun eğimi 0'dır.
+
+10:05.850 --> 10:08.390
+0 eğimli bir doğru şöyle olur.
+
+10:08.390 --> 10:09.920
+Yatay bir doğruya benzer.
+
+10:09.920 --> 10:11.370
+Bu doğru görünüyor.
+
+10:11.370 --> 10:14.220
+x eşittir 0'daki teğet yatay bir doğru olur.
+
+10:14.220 --> 10:15.910
+-
+
+10:15.910 --> 10:17.620
+Bir tane daha bulalım.
+
+10:17.620 --> 10:23.190
+Eksi 1'i deneyelim.
+
+10:23.190 --> 10:26.290
+Diyelim ki buradayız, x eşittir eksi 1.
+
+10:26.290 --> 10:29.220
+f eksi 1'i bulmak için eksi 1'in karesini alıyoruz.
+
+10:29.220 --> 10:30.380
+Çünkü x kare buluyoruz.
+
+10:30.380 --> 10:31.570
+Yani bu, 1'e eşit.
+
+10:31.570 --> 10:33.180
+Bu nokta.
+
+10:33.180 --> 10:36.680
+f üssü eksi 1 nedir?
+
+10:36.680 --> 10:40.050
+f üssü eksi 1 eşittir 2 çarpı eksi 1.
+
+10:40.050 --> 10:42.340
+2 çarpı eksi 1 eşittir eksi 2.
+
+10:42.340 --> 10:43.650
+Bu ne demek?
+
+10:43.650 --> 10:47.680
+x eşittir 1 için, bu eğriye teğet olan doğrunun eğimi eksi 2'dir.
+
+10:47.680 --> 10:51.050
+-
+
+10:51.050 --> 10:54.600
+Teğet doğruyu çizersek, teğet doğru şöyle görünür, aşağı eğimli.
+
+10:54.600 --> 10:57.140
+-
+
+10:57.140 --> 10:57.700
+-
+
+10:57.700 --> 10:58.450
+Ve bu mantıklı.
+
+10:58.450 --> 11:04.700
+Buradaki eğim, eksi 2'ye eşit.
+
+11:04.700 --> 11:04.733
+-

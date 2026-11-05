@@ -1,0 +1,407 @@
+WEBVTT
+
+00:00.000 --> 00:04.770
+V posledním videu jsme se seznámili
+s definicí limity pomocí okolí bodu,
+
+00:04.770 --> 00:09.710
+která říká, že pokud tvrdíme, že limita
+f(x) pro ‚x‘ jdoucí k ‚c‘ je rovna ‚L‘,
+
+00:09.710 --> 00:12.480
+pak to musí znamenat, podle definice,
+
+00:12.480 --> 00:16.250
+že pokud vám je zadáno
+libovolné kladné číslo epsilon,
+
+00:16.250 --> 00:20.010
+které nám udává požadovanou
+maximální vzdálenost f(x) od ‚L‘,
+
+00:20.010 --> 00:26.992
+vždy jsme schopni najít kladné číslo
+delta, udávající vzdálenost ‚x‘ od ‚c‘,
+
+00:26.992 --> 00:34.310
+takové, že když x náleží delta okolí c,
+f(x) bude v epsilonovém okolí L.
+
+00:34.310 --> 00:37.530
+Když umíme najít takové
+delta pro libovolné epsilon,
+
+00:37.530 --> 00:44.120
+pak můžeme říct, že ‚L‘ je
+opravdu limita f(x) pro ‚x‘ jdoucí k ‚c‘.
+
+00:44.120 --> 00:47.250
+Nejspíš si říkáte, že je
+to hrozně abstraktní
+
+00:47.250 --> 00:49.530
+a chtěli byste vidět, jak se to používá.
+
+00:49.530 --> 00:51.660
+A to přesně uděláme v tomto videu.
+
+00:51.660 --> 00:56.040
+Použijeme tuto definici
+k důkazu existence limity.
+
+00:56.040 --> 00:59.400
+Tady mám definovanou funkci f(x),
+
+00:59.400 --> 01:03.850
+která se rovná 2x
+pro všechna ‚x‘ bez 5.
+
+01:03.850 --> 01:09.340
+Takže f(x) se všude rovná 2x, ale pokud
+se ‚x‘ rovná 5, je rovna ‚x‘.
+
+01:09.340 --> 01:12.750
+Takže jsem tady klidně
+mohl rovnou napsat 5.
+
+01:12.750 --> 01:16.370
+f(x) je rovna 5 pro ‚x‘ rovno 5.
+
+01:16.370 --> 01:20.780
+Tady máme graf:
+skoro všude je to graf f(x) rovná se 2x,
+
+01:20.780 --> 01:28.360
+jen pro ‚x‘ rovno 5 to není graf 2x, ale
+funkční hodnota je v tomto bodě rovna 5.
+
+01:28.360 --> 01:35.440
+Kdybych se vás zeptal, jaká je
+limita této funkce pro x jdoucí k 5,
+
+01:35.440 --> 01:37.780
+mohli byste ji zkusit určit intuitivně.
+
+01:37.780 --> 01:50.120
+Čím víc se ‚x‘ přibližuje 5, tím víc
+to vypadá, že se f(x) přibližuje 10.
+
+01:50.120 --> 01:59.890
+Takže čistě intuitivně byste mohli určit,
+že limita f(x) pro x jdoucí k 5 je 10.
+
+01:59.890 --> 02:01.190
+Opravdu to tak vypadá.
+
+02:01.190 --> 02:08.080
+Ale my zkusíme použít definici limity
+pomocí okolí, abychom to opravdu dokázali.
+
+02:08.080 --> 02:13.360
+Typicky se to dělá tak,
+že nejdřív definujeme deltu obecně
+
+02:13.360 --> 02:15.500
+a pak se snažíme
+najít takovou definici,
+
+02:15.500 --> 02:20.590
+podle které jsme pro každé
+epsilon schopni najít vyhovující delta.
+
+02:20.590 --> 02:26.530
+Neboli, budeme se snažit definovat
+delta jako funkci epsilonu.
+
+02:26.530 --> 02:30.360
+snad vás moc nezmatu, možná
+bych neměl znova používat ‚f‘,
+
+02:30.360 --> 02:35.520
+ale chceme prostě, aby
+delta bylo funkcí epsilonu.
+
+02:35.520 --> 02:37.950
+Tak aby byla definovaná
+pro každé kladné epsilon.
+
+02:37.950 --> 02:42.420
+Takže když mi zadáte epsilon, já
+ho jen vložím do předpisu této funkce
+
+02:42.420 --> 02:44.300
+a ta mi vždy vyplivne vhodné delta.
+
+02:44.300 --> 02:48.230
+A pokud tedy umím pro
+každé epsilon najít takové delta,
+
+02:48.230 --> 02:50.150
+pro které platí tato podmínka,
+
+02:50.150 --> 02:55.780
+že pokud je ‚x‘ v delta okolí ‚c‘,
+f(x) bude v epsilonovém okolí ‚L‘,
+
+02:55.780 --> 02:57.870
+pak ta limita je opravdu rovna ‚L‘.
+
+02:57.870 --> 03:00.090
+Zkusme to tedy udělat.
+
+03:00.090 --> 03:05.490
+Představme si tedy že jsme
+v nějakém delta okolí ‚c‘.
+
+03:05.490 --> 03:11.520
+Takaže tady je 5 plus delta,
+tady 5 minus delta.
+
+03:11.520 --> 03:15.063
+V tomto intervalu se budeme pohybovat.
+Nejdříve bude ten interval obecný,
+
+03:15.063 --> 03:19.600
+potom pro delta najdeme
+nějaký předpis pomocí epsilon.
+
+03:19.600 --> 03:25.600
+Nyní chceme popsat všechny ‚x‘, které jsou
+v tomto intervalu, ale nerovnají se 5,
+
+03:25.600 --> 03:30.340
+protože nás zajímá delta
+okolí 5, ale ne 5 samotná.
+
+03:30.340 --> 03:32.400
+Tady máme ostrou nerovnost.
+
+03:32.400 --> 03:35.940
+To znamená v okolí ‚c‘ ale ne rovno ‚c‘.
+
+03:35.940 --> 03:44.510
+Takže to jsou všechny ‚x‘ splňující,
+že velikost |x-5| je menší než delta.
+
+03:44.510 --> 03:48.000
+To popisuje všechny tady ty ‚x‘.
+
+03:48.000 --> 03:51.960
+Další krok, který typicky následuje je,
+
+03:51.960 --> 03:59.200
+že se pokusíme tuto levou stranu
+upravit tak, aby byla podobná tomuto.
+
+03:59.200 --> 04:01.350
+Nebo spíš přesně jako toto.
+
+04:01.350 --> 04:06.580
+Pravá strana nerovnosti zůstane
+vyjádřená pomocí delta,
+
+04:06.580 --> 04:09.800
+takže potom, pokud se levé strany rovnají,
+
+04:09.800 --> 04:14.501
+a na pravé straně máme
+jednou epsilon a jednou delta,
+
+04:14.501 --> 04:18.610
+můžeme vyjádřit delta pomocí epsilon.
+
+04:18.610 --> 04:21.720
+Pokud vám to nedává smysl,
+vydržte, udělám to.
+
+04:21.720 --> 04:26.930
+Takže chceme aby (x-5)
+vypadalo víc jako tento výraz.
+
+04:26.930 --> 04:32.500
+Když se x nerovná 5, to platí
+pro celé delta okolí 5, bez 5,
+
+04:32.500 --> 04:37.270
+pak se f(x) rovná 2x a naše
+potenciální limita je rovna 10,
+
+04:37.280 --> 04:41.490
+takže když tady nějak
+dostaneme (2x-10), máme hotovo.
+
+04:41.490 --> 04:50.770
+Nejjednodušeji to uděláme tak,
+že celou nerovnici vynásobíme dvěma.
+
+04:50.770 --> 04:53.990
+2 krát absolutní
+hodnota něčeho je to samé
+
+04:53.990 --> 04:56.790
+jako absolutní hodnota
+dvojnásobku toho něčeho.
+
+04:56.790 --> 05:02.460
+2 krát velikost ‚a‘ je to samé jako
+velikost součinu 2 krát ‚a‘.
+
+05:02.460 --> 05:10.570
+Takže na levé straně dostaneme
+absolutní hodnotu |2x-10|,
+
+05:10.570 --> 05:14.010
+a na pravé straně
+dostaneme 2 krát delta.
+
+05:14.010 --> 05:16.140
+Co jsme to dostali na levé straně?
+
+05:16.140 --> 05:21.080
+Toto je f(x) pro ‚x‘ různé od 5,
+a toto je naše limita.
+
+05:21.080 --> 05:28.570
+Takže to můžeme přepsat jako
+f(x) minus L je menší než 2 krát delta
+
+05:28.570 --> 05:34.210
+pro ‚x‘ různé od 5.
+
+05:34.210 --> 05:37.850
+Toto je f(x) a tohle
+je přesně naše limita.
+
+05:37.850 --> 05:39.520
+Tohle je zajímavé.
+
+05:39.520 --> 05:46.490
+Tento výrok je skoro stejný jako tento
+výrok, liší se pouze v pravých stranách.
+
+05:46.490 --> 05:49.730
+Tady je vyjádřená pomocí
+epsilon, tady pomocí delta.
+
+05:49.730 --> 05:58.270
+Takže jak musíme definovat delta,
+aby se 2 krát delta rovnalo epsilon?
+
+05:59.250 --> 06:03.690
+Prostě definujeme…
+
+06:03.690 --> 06:07.420
+Teď definujeme delta jako funkci epsilon.
+
+06:07.420 --> 06:10.600
+Položíme 2 krát delta rovno epsilon,
+
+06:10.600 --> 06:12.490
+vydělíme obě strany 2,
+
+06:12.490 --> 06:17.205
+a dostaneme delta
+rovno epsilon děleno 2
+
+06:17.205 --> 06:22.310
+Takže pokud definujeme
+delta jako epsilon děleno 2…
+
+06:22.310 --> 06:24.840
+Prohodím si barvy.
+
+06:24.840 --> 06:32.132
+Pokud definujeme
+delta jako epsilon děleno 2,
+
+06:32.132 --> 06:39.250
+Pak se toto tvrzení změní na: absolutní
+hodnota z f(x) minus L je menší než…
+
+06:39.250 --> 06:43.020
+a místo 2 krát delta tam bude
+menší než 2 krát epsilon děleno 2,
+
+06:43.020 --> 06:45.360
+takže menší než epsilon.
+
+06:45.360 --> 06:46.800
+To je řešení.
+
+06:46.800 --> 06:50.570
+Když vám někdo zadá libovolné
+kladné epsilon pro tuto funkci,
+
+06:50.570 --> 06:55.540
+pokud položíte delta
+rovno epsilon děleno 2,
+
+06:55.540 --> 07:05.100
+pak pro každé ‚x‘ v delta okolí ‚c‘ bude
+f(x) náležet epsilonovému okolí ‚L‘.
+
+07:05.100 --> 07:07.845
+Takže když vám někdo zadá epsilon,
+
+07:07.845 --> 07:10.450
+musí to platit pro
+libovolné kladné epsilon,
+
+07:10.450 --> 07:12.020
+víte, co byste dělali.
+
+07:12.020 --> 07:18.300
+Když vám někdo zadá epsilonové
+okolí o velikosti 0,5 kolem naši limity…
+
+07:18.300 --> 07:29.510
+L je tady a epsilon je 0,5, takže
+chci, aby f(x) bylo mezi 10,5 a 9,5.
+
+07:29.510 --> 07:35.000
+No a pro delta máme vzoreček, stačí,
+když bude rovno epsilon děleno 2,
+
+07:35.000 --> 07:37.380
+což se rovná 0,25.
+
+07:37.380 --> 07:44.990
+To nám dává interval mezi 4,75 a 5,25.
+
+07:44.990 --> 07:52.270
+Takže pokud vezmeme ‚x‘
+z intervalu 4,75 a 5,25, bez 5,
+
+07:52.270 --> 07:57.090
+odpovídající funkční hodnota
+bude ležet mezi 9,5 a 10,5.
+
+07:57.090 --> 08:03.760
+Takže pro libovolné epsilon stačí,
+když aplikuji tento vzorec pro delta,
+
+08:03.760 --> 08:07.370
+a to platí pro každé reálné kladné číslo,
+
+08:07.370 --> 08:12.460
+pro libovolné zadané epsilon stačí, když
+vezmu delta definované tímto způsobem,
+
+08:12.460 --> 08:16.100
+a pak projdu těmito kroky,
+abych našel vyhovující x.
+
+08:16.100 --> 08:19.170
+Když absolutní hodnota
+(x minus 5) je menší než delta,
+
+08:19.170 --> 08:23.890
+pokud je delta definované tímto způsobem,
+což mohu udělat pro všechna epsilon,
+
+08:23.890 --> 08:25.476
+pak pro ta ‚x‘ bude platit,
+
+08:25.476 --> 08:29.236
+že jejich funkční hodnoty
+budou v epsilonovém okolí L.

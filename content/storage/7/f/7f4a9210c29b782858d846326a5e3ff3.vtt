@@ -1,0 +1,242 @@
+WEBVTT
+
+00:02.522 --> 00:03.960
+Wiemy jak liczyć pochodne
+
+00:03.960 --> 00:07.440
+funkcji. Jeśli liczę pochodną
+
+00:07.440 --> 00:12.635
+x^2, otrzymuję 2x.
+
+00:12.635 --> 00:15.630
+Jeśli liczę pochodną
+
+00:15.630 --> 00:20.036
+x^2+1, również otrzymam 2x.
+
+00:20.036 --> 00:23.943
+Jeśli liczę pochodną
+
+00:23.943 --> 00:27.235
+x^2+pi, również otrzymam 2x. Pochodna x^2
+
+00:27.235 --> 00:31.714
+2x, pochodna po x pi, czyli stałej
+
+00:31.714 --> 00:34.249
+To 0. Pochodna po x 1,
+
+00:34.249 --> 00:36.281
+czyli stałej to 0.
+
+00:36.281 --> 00:39.082
+Więc jest to równe 2x.
+
+00:39.082 --> 00:43.187
+W ogólności pochodna po x, x^2
+
+00:43.187 --> 00:47.309
++ jakakolwiek stała
+
+00:47.309 --> 00:50.569
+Zawsze będzie równa 2x. Pochodna po x, x^2 to 2x,
+
+00:50.569 --> 00:54.838
+Pochodna stałej po x
+
+00:54.838 --> 00:57.277
+(stała się nie zmienia)
+
+00:57.277 --> 01:00.901
+to 0. Więc liczenie pochodnej każdego
+
+01:00.901 --> 01:04.391
+z tych wyrażeń daje 2x.
+
+01:04.391 --> 01:08.974
+Teraz spójrzmy na to z drugiej strony.
+Wprowadźmy pojęcie funkcji pierwotnej
+
+01:08.974 --> 01:13.254
+(dosł. anty-pochodną). Można myśleć
+
+01:13.254 --> 01:14.782
+o niej jako
+
+01:14.782 --> 01:18.294
+o przeciwieństwie pochodnej.
+
+01:18.294 --> 01:20.174
+Masz policzyć pochodną, dostajesz wyrażenie
+
+01:20.174 --> 01:21.785
+i znajdujesz ją.
+
+01:21.785 --> 01:24.861
+Teraz chcielibyśmy, mając dane wyrażenie,
+
+01:24.861 --> 01:25.810
+dowiedzieć się,
+
+01:25.810 --> 01:28.260
+Czego pochodną ono jest.
+
+01:28.260 --> 01:30.045
+Czego pochodną ono jest.
+
+01:30.045 --> 01:32.357
+Więc jeśli ktoś poda
+
+01:32.357 --> 01:33.980
+poda ci 2x
+
+01:33.980 --> 01:36.213
+poda ci 2x
+
+01:36.213 --> 01:41.132
+zapyta czego pochodną
+
+01:41.132 --> 01:44.901
+jest 2x,
+
+01:44.901 --> 01:49.432
+jest 2x?
+
+01:49.432 --> 01:53.072
+To zasadniczo pyta o
+
+01:53.072 --> 01:55.464
+funkcję pierwotną!
+
+01:55.464 --> 01:57.302
+Możesz powiedzieć: 2x jest
+
+01:57.302 --> 01:59.518
+pochodną x^2.
+
+01:59.518 --> 02:01.624
+2x jest pochodną x^2.
+
+02:01.624 --> 02:05.020
+Możesz też powiedzieć, że 2x jest pochodną x^2+1.
+
+02:05.020 --> 02:08.014
+Możesz też powiedzieć, że 2x jest pochodną x^2+pi.
+
+02:08.014 --> 02:09.612
+Myślę, że rozumiesz ogólną ideę.
+
+02:09.612 --> 02:11.934
+Więc, jeśli chcesz to zapisać w ogólności,
+
+02:11.934 --> 02:12.991
+zapiszesz, że
+
+02:12.991 --> 02:14.433
+2x jest pochodną x^2
+
+02:14.433 --> 02:18.301
++ C (C-stała).
+
+02:18.301 --> 02:19.368
+I to jest to, co powinieneś określać
+
+02:19.368 --> 02:22.511
+jako funkcję pierwotną 2x.
+
+02:22.511 --> 02:25.072
+Wszystko ok, ale to
+
+02:25.072 --> 02:27.279
+trochę nieporęczne pisać całe zdanie.
+
+02:27.279 --> 02:29.523
+Użyjmy więc jakiegoś zapisu
+
+02:29.523 --> 02:30.969
+dla funkcji pierwotnej.
+
+02:30.969 --> 02:33.100
+Zwyczajowo używa się
+
+02:33.100 --> 02:35.412
+trochę dziwnego zapisu.
+
+02:35.412 --> 02:38.012
+Pisze się
+
+02:38.012 --> 02:40.142
+duże, wydłużone S, o takie
+
+02:40.142 --> 02:43.844
+i dx wokół funkcji,
+
+02:43.844 --> 02:45.406
+której funkcji pierwotnej szukamy.
+
+02:45.406 --> 02:49.085
+W tym przypadku, to wygląda mniej więcej tak.
+
+02:49.085 --> 02:49.844
+To znaczy,
+
+02:49.844 --> 02:51.076
+że to jest równe funkcji pierwotnej 2x,
+
+02:51.076 --> 02:56.371
+a funkcja pierwotna 2x, jak widzimy
+
+02:56.371 --> 03:01.304
+to 2x, 2x+C.
+
+03:01.304 --> 03:03.216
+Moglibyście teraz spytać,
+
+03:03.216 --> 03:04.689
+po co używać takiej
+
+03:04.689 --> 03:07.170
+dziwnej notacji?
+
+03:07.170 --> 03:08.519
+Stanie się to bardziej jasne, kiedy będziemy
+
+03:08.519 --> 03:10.901
+uczyć się o całkach oznaczonych, polach po wykresami krzywych,
+
+03:10.901 --> 03:12.363
+liczeniu sum za pomocą
+
+03:12.363 --> 03:16.185
+prostokątów, w celu przybliżenia pola pod wykresem.
+
+03:16.185 --> 03:19.500
+To tutaj jest zapisem
+
+03:19.500 --> 03:21.839
+funkcji pierwotnej.
+
+03:21.839 --> 03:24.701
+Ten zapis tutaj,
+
+03:24.701 --> 03:26.160
+całe to wyrażenie, jest nazywane
+
+03:26.160 --> 03:28.644
+całką nieoznaczoną.
+
+03:28.644 --> 03:31.810
+Całka, całka
+
+03:31.810 --> 03:36.825
+nieoznaczona z 2x
+
+03:36.825 --> 03:37.845
+Co jest inną nazwą
+
+03:37.845 --> 03:40.300
+na funkcję pierwotną
+
+03:40.300 --> 03:42.300
+2x.

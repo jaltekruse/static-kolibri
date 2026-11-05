@@ -1,0 +1,469 @@
+WEBVTT
+
+00:00.570 --> 00:03.420
+Szeretném, ha ebben a videóban
+megismerkednénk
+
+00:03.420 --> 00:06.830
+a sorozatok egyik fontos változatával.
+
+00:06.830 --> 00:11.630
+Ez nem más, mint a számtani sorozat.
+
+00:11.630 --> 00:13.890
+Könnyű dolgunk lesz.
+
+00:13.890 --> 00:17.290
+Ezek azok a sorozatok, amelyekben minden
+tag ugyanazzal a számmal nagyobb,
+
+00:17.290 --> 00:18.920
+mint az előtte lévő.
+
+00:18.920 --> 00:21.820
+Most tehát az a cél, hogy kiválasszuk,
+
+00:21.820 --> 00:23.259
+melyik a számtani sorozat.
+
+00:23.259 --> 00:25.050
+azután pedig kicsit gyakoroljuk is
+
+00:25.050 --> 00:26.680
+a sorozatok jelöléseit.
+
+00:26.680 --> 00:30.220
+Szeretném definiálni a sorozat
+ismeretlen n-edik tagját
+
+00:30.220 --> 00:32.880
+az ismert n explicit függvényeként,
+
+00:32.880 --> 00:35.110
+vagy rekurzív definícióval.
+
+00:35.110 --> 00:37.690
+Először is adott, hogy a számtani
+sorozat olyan, hogy
+
+00:37.690 --> 00:40.540
+bármely két szomszédos tag különbsége
+ugyanaz a szám.
+
+00:40.540 --> 00:45.790
+Ezek közül akkor melyik
+a számtani sorozat?
+
+00:45.790 --> 00:47.940
+Nézzük először ezt az elsőt!
+
+00:47.940 --> 00:52.470
+–5-höz, hogy –3 legyen, 2-t kell adnunk.
+
+00:52.470 --> 00:56.780
+–3-hoz, hogy –1 legyen, 2-t kell adnunk.
+
+00:56.780 --> 01:00.490
+–1-hez, hogy 1 legyen, 2-t kell adnunk.
+
+01:00.490 --> 01:02.810
+Így ez nyilván számtani sorozat.
+
+01:02.810 --> 01:05.219
+Mindig ugyanazt a számot adtuk
+az előző taghoz.
+
+01:05.219 --> 01:07.860
+Több mód is van arra,
+hogyan definiálhatjuk a sorozatot.
+
+01:07.860 --> 01:10.022
+Legyen a index n
+
+01:10.022 --> 01:12.070
+(nem kell mindig a k indexet használni,
+itt most n-nel jelölöm az indexet)
+
+01:12.070 --> 01:14.360
+(nem kell mindig a k indexet használni,
+itt most n-nel jelölöm az indexet)
+
+01:14.360 --> 01:19.480
+n fut 1-től végtelenig – és itt
+két lehetőségünk is van,
+
+01:19.480 --> 01:20.570
+ahogy definiálhatjuk:
+
+01:20.570 --> 01:21.820
+Megadhatjuk explicit formulával,
+
+01:21.820 --> 01:23.070
+vagy rekurzívan.
+
+01:23.070 --> 01:24.910
+Ha explicit definíciót akarunk,
+
+01:24.910 --> 01:29.070
+Azt kell írnunk: a index n egyenlő
+valamivel, ami az első tag.
+
+01:29.070 --> 01:33.290
+Ebben az esetben az első tag –5.
+
+01:33.290 --> 01:36.340
+Tehát –5-höz
+egyel kevesebbszer adunk 2-t,
+
+01:36.340 --> 01:40.530
+mint ahányadik tagnál tartunk.
+
+01:40.530 --> 01:42.290
+A 2. tagnál egyszer adunk hozzá 2-t.
+
+01:42.290 --> 01:44.620
+A 3. tagnál kétszer,
+
+01:44.620 --> 01:47.490
+A negyedik tagnál az első taghoz
+
+01:47.490 --> 01:49.000
+háromszor kell 2-t adni.
+
+01:49.000 --> 01:51.150
+Így tehát azt írjuk: plusz 2 szorozva
+
+01:51.150 --> 01:54.890
+egyel kevesebb, mint az index értékével,
+
+01:54.890 --> 01:58.380
+tehát (n–1)-el.
+
+01:58.380 --> 02:00.960
+Ez tehát itt ennek a számtani sorozatnak
+
+02:00.960 --> 02:03.260
+egy explicit definíciója.
+
+02:03.260 --> 02:04.950
+Ha rekurzívan szeretném fölírni,
+
+02:04.950 --> 02:10.910
+azt kellene írnom: a index 1 egyenlő –5-tel,
+
+02:10.910 --> 02:14.490
+és aztán minden rákövetkező tag,
+a index 2-től
+
+02:14.490 --> 02:20.780
+a index n egyenlő a index (n-1) plusz 3.
+
+02:20.780 --> 02:24.120
+Minden tag egyenlő az előtte lévő tag,
+– oh, nem 3 –
+
+02:24.120 --> 02:25.790
+plusz 2.
+
+02:25.790 --> 02:31.230
+Így ez igaz, ha n nagyobb,
+vagy ugyanannyi, mint 2.
+
+02:31.230 --> 02:34.030
+Bármelyik a kettő közül teljesen
+korrekt formája
+
+02:34.030 --> 02:39.420
+annak a számtani sorozat definiálásának,
+
+02:39.420 --> 02:40.230
+amit itt látunk.
+
+02:40.230 --> 02:41.970
+definiálhatjuk explicit formában is,
+
+02:41.970 --> 02:44.950
+vagy rekurzívan is.
+
+02:44.950 --> 02:46.330
+Nézzük most ezt a második sorozatot:
+
+02:46.330 --> 02:48.950
+Ez számtani?
+
+02:48.950 --> 02:50.480
+100-tól indulunk.
+
+02:50.480 --> 02:52.252
+Hozzáadunk 7-et.
+
+02:52.252 --> 02:54.976
+107-hez, hogy 114 legyen kell adni 7-et.
+
+02:54.976 --> 02:58.440
+114-hez, hogy 121 legyen kell adni 7-et.
+
+02:58.440 --> 03:00.760
+Így ez valóban egy számtani sorozat.
+
+03:00.760 --> 03:03.240
+Tehát tisztáztuk: az első számtani,
+
+03:03.240 --> 03:05.300
+és ez is az.
+
+03:05.300 --> 03:09.840
+Írhatjuk tehát: a index n sorozat, ahol
+
+03:09.840 --> 03:14.800
+n fut 1-től végtelenig, és ha
+expliciten akarjuk megadni,
+
+03:14.800 --> 03:17.610
+a index n egyenlő
+
+03:17.610 --> 03:23.190
+100 plusz mindig 7-et adunk hozzá.
+
+03:23.190 --> 03:26.330
+Tehát minden tagra: a 2. tagnál egyszer,
+
+03:26.330 --> 03:28.280
+a 3. tagnál 2-szer,
+
+03:28.280 --> 03:32.430
+és így tovább, az n-edik tagnál
+(n-1)-szer adunk hozzá 7-et.
+
+03:32.430 --> 03:34.340
+Így ez egy explicit definíció,
+
+03:34.340 --> 03:35.840
+de megadhatjuk rekurzívan is.
+
+03:38.650 --> 03:42.270
+Csak, hogy tisztázzuk:
+ez itt egy kész definíció,
+
+03:42.270 --> 03:47.730
+vagy írhatjuk azt is: a index n,
+
+03:47.730 --> 03:50.240
+ahol n fut 1-től végtelenig,
+
+03:50.240 --> 03:53.836
+(ehhez az esethez is hozzáírjuk)
+
+03:53.836 --> 03:55.460
+Ha rekurzívan akarjuk megadni,
+
+03:55.460 --> 03:58.950
+akkor azt írjuk: a index 1 egyenlő 100.
+
+03:58.950 --> 04:04.170
+Bármelyik további tagra, ahol n nagyobb, mint 1,
+
+04:04.170 --> 04:09.560
+a index n egyenlő az előző tag + 7
+
+04:09.560 --> 04:10.822
+Így készen is vagyunk.
+
+04:10.822 --> 04:12.280
+Ez a megadás egy másik módja.
+
+04:12.280 --> 04:14.920
+ha általánosan akarunk megadni,
+
+04:14.920 --> 04:18.149
+vagy definiálni egy számtani sorozatot,
+
+04:18.149 --> 04:20.680
+az lesz a formája, hogy
+
+04:20.680 --> 04:23.910
+a index n – ha egy végtelen
+sorozatról beszélünk –,
+
+04:23.910 --> 04:26.930
+ahol n fut 1-től végtelenig,
+
+04:26.930 --> 04:28.460
+Ha explicit módon akarjuk megadni,
+
+04:28.460 --> 04:33.540
+akkor a index n egyenlő
+valamilyen konstans,
+
+04:33.540 --> 04:35.790
+(lényegében ez az első tag),
+
+04:35.790 --> 04:41.470
+tehát valamilyen konstans plusz
+valamilyen szám
+
+04:41.470 --> 04:43.090
+– amivel növeljük, vagy
+
+04:43.090 --> 04:45.089
+ez lehet negatív is, akkor csökkentjük –
+
+04:45.089 --> 04:47.670
+szorozva (n–1)-el.
+
+04:47.670 --> 04:51.380
+ez tehát a számtani sorozat
+egyik megadási módja.
+
+04:51.380 --> 04:54.000
+Ebben az esetben d=2 volt,
+
+04:54.000 --> 04:55.160
+ebben d=7,
+
+04:55.160 --> 04:57.350
+ezeket adtuk hozzá minden esetben.
+
+04:57.350 --> 05:02.280
+És itt K=–5, itt pedig K=100.
+
+05:02.280 --> 05:04.850
+A másik lehetőség
+
+05:04.850 --> 05:08.000
+az általános rekurzív formula,
+
+05:08.000 --> 05:12.180
+a index 1 egyenlő K-val,
+
+05:12.180 --> 05:16.270
+és a index n egyenlő a index (n–1)
+
+05:16.270 --> 05:18.170
+(az n-edik egyenlő az előző elem,)
+
+05:18.170 --> 05:22.250
+plusz d, ahol n nagyobb,
+vagy ugyanannyi, mint 2.
+
+05:22.250 --> 05:24.110
+Tehát még egyszer: ez itt
+explicit formula.
+
+05:24.110 --> 05:26.110
+Ez pedig rekurzív,
+
+05:26.110 --> 05:28.140
+(ide még írjuk oda, hogy "ahol")
+
+05:28.140 --> 05:30.780
+az utolsó kérdésem: Ez itt
+
+05:30.780 --> 05:32.630
+számtani sorozat?
+
+05:32.630 --> 05:34.730
+Rendben, ellenőrizzük!
+
+05:34.730 --> 05:35.860
+1-től indulunk.
+
+05:35.860 --> 05:37.910
+Hozzáadunk 2-t.
+
+05:37.910 --> 05:38.929
+aztán 3-at.
+
+05:38.929 --> 05:40.970
+Ez egy közvetlen jele annak, hogy
+
+05:40.970 --> 05:41.970
+ez nem számtani sorozat.
+
+05:41.970 --> 05:43.470
+Itt hozzáadunk 4-et.
+
+05:43.470 --> 05:46.780
+Minden alkalommal
+más értéket adtunk hozzá.
+
+05:46.780 --> 05:51.130
+Mindenek előtt írjuk ide, hogy
+
+05:51.130 --> 05:53.400
+ez nem számtani sorozat.
+
+05:53.400 --> 05:56.139
+De hogyan tudnánk ezt a sorozatot
+definiálni,
+
+05:56.139 --> 05:57.430
+ha már ezzel próbálkoztunk eddig?
+
+06:02.100 --> 06:05.220
+Próbáljuk meg rekurzívan.
+
+06:05.220 --> 06:10.790
+Legyen a index n egyenlő
+
+06:10.790 --> 06:13.830
+– ahol n fut 1-től végtelenig –
+
+06:13.830 --> 06:20.100
+ahol alapesetünkbe a index 1 egyenlő 1-el,
+
+06:20.100 --> 06:23.580
+és azután, ha n nagyobb, vagy ugyanannyi,
+mint 2, akkor a index n egyenlő
+
+06:23.580 --> 06:25.400
+– mivel is lesz egyenlő? –
+
+06:25.400 --> 06:29.810
+a index 2 egyenlő az előző tag plusz 2.
+
+06:29.810 --> 06:32.170
+a index 3 egyenlő az előző tag plusz 3.
+
+06:32.170 --> 06:34.200
+a index 4 egyenlő az előző tag plusz 4.
+
+06:34.200 --> 06:38.980
+Mindig az előző tag, plusz valami,
+
+06:38.980 --> 06:40.210
+ami éppen az index.
+
+06:42.770 --> 06:45.030
+Úgy tűnik kész, de azért írjuk még ide:
+
+06:45.030 --> 06:46.640
+az érték, amit hozzáadunk, mindig
+
+06:46.640 --> 06:47.765
+az aktuális index értéke lesz.
+
+06:47.765 --> 06:50.090
+Az index értékét adjuk hozzá
+az előző taghoz,
+
+06:50.090 --> 06:53.340
+ha n nagyobb, vagy ugyanannyi, mint 2.
+
+06:53.340 --> 06:55.000
+A számtani sorozatnál mindig
+
+06:55.000 --> 06:58.110
+ugyanazt a számot adtuk az előző taghoz,
+
+06:58.110 --> 06:59.900
+függetlenül az indextől.
+
+06:59.900 --> 07:01.800
+Itt magát az indexet adtuk hozzá,
+
+07:01.800 --> 07:03.440
+így ez nem számtani sorozat, de
+
+07:03.440 --> 07:05.970
+azért ez is egy érdekes sorozat.

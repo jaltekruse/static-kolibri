@@ -1,0 +1,869 @@
+WEBVTT
+
+00:00.626 --> 00:02.781
+In the last video, we took a stab at
+
+00:02.781 --> 00:05.572
+modeling population as a function of time.
+
+00:05.572 --> 00:07.153
+And we said, okay, well
+maybe the rate of change
+
+00:07.153 --> 00:09.114
+of population with respect to time
+
+00:09.114 --> 00:10.649
+is going to be proportional to
+
+00:10.649 --> 00:11.885
+the population itself.
+
+00:11.915 --> 00:13.573
+That the rate will increase
+
+00:13.573 --> 00:15.526
+as the population increases.
+
+00:15.743 --> 00:17.471
+And when you actually try to solve
+
+00:17.471 --> 00:18.704
+this differential equation,
+
+00:18.704 --> 00:20.931
+you try to find an N of
+T that satisfies this,
+
+00:20.931 --> 00:22.902
+we found that an exponential would work.
+
+00:22.902 --> 00:25.858
+An exponential satisfies
+this differential equation.
+
+00:25.913 --> 00:27.577
+And it would look like this visually.
+
+00:27.912 --> 00:30.503
+It would look like this,
+
+00:30.645 --> 00:32.450
+it would look like this visually.
+
+00:32.045 --> 00:33.987
+Where you're starting at
+a population of N not,
+
+00:34.392 --> 00:35.981
+this is the time axis,
+
+00:35.981 --> 00:37.402
+this is the population axis.
+
+00:37.663 --> 00:38.708
+And as time increases,
+
+00:39.113 --> 00:41.122
+population increases exponentially.
+
+00:41.709 --> 00:43.182
+Now we said there's an issue there.
+
+00:43.359 --> 00:45.430
+What if Thomas Malthus is right?
+
+00:45.587 --> 00:47.542
+That the environment can't support...
+
+00:48.041 --> 00:49.305
+let's say that the
+environment can't support...
+
+00:49.674 --> 00:50.815
+let me do this in a new color.
+
+00:50.815 --> 00:53.118
+Let's say that the environment
+really can't support
+
+00:53.118 --> 00:58.118
+more than K, more than a population of K.
+
+01:02.252 --> 01:04.263
+Then clearly the population can't just
+
+01:04.372 --> 01:06.676
+go and go right through the ceiling.
+
+01:06.676 --> 01:07.882
+They're not going to be able to have food,
+
+01:07.882 --> 01:10.941
+or water or resources
+or whatever it might be.
+
+01:11.472 --> 01:12.323
+They might generate too much pollution.
+
+01:12.323 --> 01:13.278
+Who knows what it might be.
+
+01:13.278 --> 01:18.147
+And so this first stab
+at modeling population
+
+01:18.147 --> 01:19.445
+doesn't quite do the trick.
+
+01:19.445 --> 01:23.690
+Especially if you are
+kind of in Malthus's camp.
+
+01:23.069 --> 01:24.135
+And that's where PF, and once again
+
+01:24.756 --> 01:26.522
+I'm sure I'm mispronouncing the name,
+
+01:26.638 --> 01:29.354
+Verhulst is going to
+come into the picture.
+
+01:29.354 --> 01:30.680
+Because he read Malthus's work,
+
+01:30.068 --> 01:32.313
+and said, "Well yeah, I think
+I can do a pretty good job
+
+01:32.925 --> 01:35.197
+"of modeling the type of behavior
+
+01:35.197 --> 01:37.116
+"that Malthus is talking about."
+
+01:37.362 --> 01:39.763
+And he says what we really want
+
+01:41.104 --> 01:43.288
+is something...
+
+01:43.361 --> 01:44.755
+Let me write it, so the rate...
+
+01:44.922 --> 01:45.805
+let's try to model.
+
+01:45.805 --> 01:47.444
+Let's set up another
+differential equation.
+
+01:50.975 --> 01:52.800
+And now let's say okay,
+
+01:52.008 --> 01:57.008
+instead of, if N is substantially smaller
+
+01:58.005 --> 02:00.296
+than what the environment
+can support, then yeah,
+
+02:00.791 --> 02:02.767
+that makes sense to
+have exponential growth.
+
+02:06.719 --> 02:09.479
+But maybe we can dampen this,
+
+02:09.513 --> 02:11.576
+or maybe we can bring this growth to zero
+
+02:11.576 --> 02:15.652
+as N approaches K.
+
+02:16.163 --> 02:18.940
+And so how can we actually modify this?
+
+02:18.094 --> 02:19.589
+Maybe we can multiply it by something
+
+02:20.635 --> 02:23.636
+that for when N is small,
+
+02:23.665 --> 02:25.693
+when N is much smaller than K,
+
+02:25.892 --> 02:28.407
+this term right over here
+is going to be close to one
+
+02:28.567 --> 02:30.396
+and when N is close to K,
+
+02:30.396 --> 02:32.292
+this term is close to zero.
+
+02:32.292 --> 02:33.139
+So let me write that.
+
+02:34.221 --> 02:38.304
+So these are our goals for
+this term, right over here.
+
+02:38.349 --> 02:43.349
+When N is much smaller than K,
+
+02:51.008 --> 02:52.541
+so now the population is
+not constrained at all,
+
+02:53.333 --> 02:54.275
+people can have babies
+
+02:54.275 --> 02:55.441
+and those babies can be fed
+
+02:55.441 --> 02:57.474
+and then they can have
+babies, et cetera, et cetera,
+
+02:57.078 --> 03:02.078
+then this thing should be close to one.
+
+03:02.914 --> 03:05.220
+And so then you have
+essentially our old model.
+
+03:05.221 --> 03:06.930
+But then as N approaches K,
+
+03:10.713 --> 03:14.180
+then this thing should approach,
+
+03:14.426 --> 03:17.744
+then this term or this expression
+
+03:17.744 --> 03:19.438
+should approach zero.
+
+03:19.487 --> 03:21.219
+And what that does is as N approaches
+
+03:21.219 --> 03:25.651
+the natural limit, the
+ceiling to population,
+
+03:25.805 --> 03:27.546
+then no matter what this is doing,
+
+03:27.546 --> 03:28.911
+if this thing is approaching zero,
+
+03:28.911 --> 03:30.765
+that's going to make the actual
+
+03:30.765 --> 03:33.200
+rate of growth approach zero.
+
+03:33.002 --> 03:35.363
+So food is going to be more scarce,
+
+03:35.561 --> 03:37.234
+it's going to be harder to find things.
+
+03:37.665 --> 03:40.670
+And so what can I construct here,
+
+03:40.067 --> 03:41.776
+dealing with N and K that
+will have these properties?
+
+03:42.431 --> 03:44.970
+And for fun, you might actually want to
+
+03:44.097 --> 03:44.986
+pause the video and see
+if you can construct
+
+03:45.859 --> 03:48.194
+a fairly simple algebraic statement
+
+03:48.194 --> 03:50.706
+using N and K and maybe the number one
+
+03:50.706 --> 03:52.215
+if you find the need,
+
+03:52.783 --> 03:55.500
+for an expression that
+has these properties.
+
+03:56.869 --> 03:57.715
+Well, let's see.
+
+03:57.715 --> 03:58.786
+What if we start with a one
+
+04:01.329 --> 04:05.434
+and we subtract N over K?
+
+04:13.066 --> 04:14.649
+Does this have those properties?
+
+04:15.945 --> 04:16.961
+Well yeah, sure it does.
+
+04:16.961 --> 04:19.387
+When N is really small, or I should say
+
+04:19.387 --> 04:21.897
+when it's a small fraction of K,
+
+04:23.543 --> 04:24.644
+this is going to be a small fraction,
+
+04:24.644 --> 04:25.941
+then this whole thing is going to be
+
+04:25.941 --> 04:27.400
+pretty close to one.
+
+04:27.004 --> 04:28.933
+It's going to be a
+little bit less than one.
+
+04:29.544 --> 04:30.958
+And when N approaches K,
+
+04:30.958 --> 04:33.247
+as N gets closer and
+closer and closer to K,
+
+04:33.682 --> 04:34.774
+then this thing right over here
+
+04:35.602 --> 04:37.274
+is going to approach one,
+
+04:37.274 --> 04:38.587
+which means this whole expression
+
+04:38.587 --> 04:39.875
+is going to approach zero.
+
+04:39.875 --> 04:42.720
+Which is exactly what we wanted.
+
+04:42.072 --> 04:44.178
+And this thing right
+over here is actually,
+
+04:44.968 --> 04:47.536
+and this is used in tons of applications,
+
+04:47.536 --> 04:50.582
+not just in population modeling
+
+04:50.582 --> 04:53.641
+but that's kind of one of its first
+
+04:53.641 --> 04:55.960
+reasons or motivations.
+
+04:56.186 --> 04:57.261
+This differential equation right over here
+
+04:57.936 --> 04:59.135
+is actually quite famous.
+
+04:59.359 --> 05:02.450
+It's called the logistic
+differential equation.
+
+05:13.346 --> 05:14.169
+And in the next video,
+
+05:14.169 --> 05:15.198
+we're actually going to solve this.
+
+05:15.639 --> 05:17.360
+And it's actually, this is a separable
+
+05:17.036 --> 05:17.978
+differential equation.
+
+05:18.302 --> 05:19.365
+You can actually solve it just using
+
+05:19.932 --> 05:21.540
+standard techniques of integration.
+
+05:21.054 --> 05:22.358
+it's a little bit hairier than this one,
+
+05:22.844 --> 05:24.498
+so we're going to work
+through it together.
+
+05:24.498 --> 05:25.823
+And we're going to look at the solution.
+
+05:25.823 --> 05:28.768
+The solution to the logistic
+differential equation
+
+05:28.768 --> 05:33.752
+is the logistic function, which once again
+
+05:33.752 --> 05:37.330
+essentially models population in this way.
+
+05:37.033 --> 05:39.209
+But before we actually solve for it,
+
+05:39.506 --> 05:41.320
+let's just try to interpret this
+
+05:41.032 --> 05:43.239
+differential equation and think about
+
+05:43.527 --> 05:46.123
+what the shape of this
+function might look like.
+
+05:46.589 --> 05:47.602
+And to do that,
+
+05:52.723 --> 05:56.811
+let me draw some axes here.
+
+05:58.069 --> 05:59.323
+Let me draw some axes here.
+
+05:59.944 --> 06:01.508
+So that's my time axis,
+
+06:01.508 --> 06:03.201
+that's my population axis,
+
+06:03.801 --> 06:05.340
+let me scroll up a little
+bit because sometimes
+
+06:05.034 --> 06:06.131
+the subtitles show up around here
+
+06:07.031 --> 06:08.552
+and then people can't see what's going on.
+
+06:09.454 --> 06:11.126
+So let's think about a
+couple of permutations,
+
+06:11.126 --> 06:12.750
+a couple situations.
+
+06:12.075 --> 06:16.583
+So if our initial, if our
+N at time equals zero,
+
+06:18.097 --> 06:18.738
+remember N is a function of T.
+
+06:19.648 --> 06:22.580
+If at time equals zero N is equal to zero,
+
+06:24.178 --> 06:25.231
+then this term is going to be zero
+
+06:25.708 --> 06:27.917
+and then your rate of
+change is going to be zero,
+
+06:27.917 --> 06:29.988
+and so you're not going
+to add any population.
+
+06:30.244 --> 06:31.128
+And that's good.
+
+06:31.554 --> 06:33.318
+Because if your population is zero,
+
+06:33.318 --> 06:34.703
+how are you going to actually be able
+
+06:34.703 --> 06:35.666
+to add population?
+
+06:35.666 --> 06:37.755
+There's no one there to have children.
+
+06:37.884 --> 06:40.326
+So there's actually one constant solution
+
+06:40.326 --> 06:42.487
+to this differential equation,
+
+06:44.648 --> 06:46.810
+which is just N of T is equal to zero.
+
+06:46.081 --> 06:49.057
+And this satisfies the
+logistic differential equation.
+
+06:49.008 --> 06:50.903
+Hey, if your population starts at zero
+
+06:51.695 --> 06:53.843
+if N sub not is zero,
+
+06:53.934 --> 06:55.441
+then you're just going
+to be at zero forever.
+
+06:55.441 --> 06:57.954
+Well that's actually what
+would happen in real life
+
+06:57.954 --> 06:59.680
+if there's no one there to have kids.
+
+07:00.018 --> 07:01.097
+Now let's think about another situation.
+
+07:01.097 --> 07:02.081
+What if our population,
+
+07:02.954 --> 07:04.939
+what if N not is equal to K?
+
+07:05.904 --> 07:07.953
+What happens if N not is equal to,
+
+07:11.489 --> 07:12.685
+so that's K right over there,
+
+07:12.685 --> 07:14.788
+what happens if at time equals zero,
+
+07:15.182 --> 07:16.706
+this is our population.
+
+07:16.706 --> 07:18.640
+Well if N is equal to K,
+
+07:18.064 --> 07:19.077
+then this is one minus one,
+
+07:19.653 --> 07:20.665
+then this thing is zero,
+
+07:20.665 --> 07:21.833
+and so our rate of population change
+
+07:21.833 --> 07:22.835
+is going to be zero.
+
+07:23.223 --> 07:24.904
+So essentially if my population is zero
+
+07:24.904 --> 07:25.926
+then after a little bit of time,
+
+07:25.926 --> 07:27.342
+my population is still the same K.
+
+07:27.623 --> 07:29.867
+If my rate of change
+of population is zero,
+
+07:29.867 --> 07:31.950
+that means my population
+is staying constant.
+
+07:32.352 --> 07:34.390
+And so my population's just going
+
+07:34.039 --> 07:35.498
+to stay there at K.
+
+07:36.084 --> 07:36.578
+And that's actually believable.
+
+07:37.334 --> 07:38.687
+Malthus would actually probably say
+
+07:38.687 --> 07:40.311
+that you're gonna have, maybe it grows
+
+07:40.311 --> 07:43.674
+a little bit beyond the
+capacity of the environment
+
+07:43.674 --> 07:46.577
+and then you have some flood,
+
+07:46.577 --> 07:48.406
+or some hurricane or some famine
+
+07:48.406 --> 07:49.408
+and it goes around.
+
+07:49.534 --> 07:51.716
+But for our purposes, you can never model
+
+07:51.716 --> 07:52.758
+anything perfectly.
+
+07:52.948 --> 07:55.116
+For our purposes, that's pretty good.
+
+07:55.116 --> 07:57.110
+You're at the limit of what the
+
+07:57.011 --> 07:59.016
+environment can handle,
+
+07:59.115 --> 08:01.650
+so you just kind of stay there.
+
+08:01.065 --> 08:02.320
+That's actually another constant solution.
+
+08:02.905 --> 08:05.147
+that N of T, if it starts,
+
+08:05.147 --> 08:06.769
+and now you can kind of appreciate
+
+08:06.769 --> 08:08.378
+why initial conditions are important.
+
+08:08.378 --> 08:09.530
+If you start at zero you're
+going to stay at zero,
+
+08:09.053 --> 08:10.107
+if you start at K you're
+going to stay at K.
+
+08:11.345 --> 08:13.947
+So that is N of T just stays K.
+
+08:14.694 --> 08:16.780
+But now let's think of a
+more interesting scenario.
+
+08:17.253 --> 08:20.089
+Let's assume an initial population
+
+08:20.089 --> 08:22.492
+that's someplace between zero and K.
+
+08:22.492 --> 08:24.095
+So this is going to be...
+
+08:25.484 --> 08:26.575
+I'm going to assume initial population
+
+08:27.052 --> 08:30.958
+that is someplace, it's greater than zero,
+
+08:31.605 --> 08:34.030
+so there are people to
+actually have children,
+
+08:34.025 --> 08:35.583
+and it is less than K,
+
+08:35.808 --> 08:38.823
+so we aren't fully maxing
+out the environment.
+
+08:38.929 --> 08:40.885
+Or the land or the food or the water
+
+08:40.885 --> 08:41.874
+or whatever it might be.
+
+08:41.874 --> 08:43.138
+So what's going to happen?
+
+08:43.462 --> 08:44.535
+So, and once again, I'm just going to
+
+08:44.535 --> 08:45.636
+kind of sketch it,
+
+08:45.636 --> 08:47.595
+and then we're going to
+solve it in the next video.
+
+08:48.215 --> 08:50.071
+So when N is a lot less than K,
+
+08:50.071 --> 08:51.128
+it's a small fraction of K,
+
+08:53.548 --> 08:54.589
+this term is going to be the main one
+
+08:54.958 --> 08:56.427
+that's influencing it.
+
+08:56.427 --> 08:58.425
+Because this is a small fraction of K,
+
+08:58.425 --> 08:59.363
+I mean even the way I drew it,
+
+08:59.363 --> 09:02.441
+it looks like it's about
+a sixth or a seventh
+
+09:03.143 --> 09:04.186
+or an eighth of K,
+
+09:04.501 --> 09:06.279
+so it's one minus 1/8.
+
+09:06.279 --> 09:11.163
+So it's gonna be 7/8 times this.
+
+09:11.335 --> 09:14.883
+So really, this is what's going to dictate
+
+09:16.067 --> 09:17.125
+what our rate of growth is.
+
+09:17.417 --> 09:18.852
+And if this is kind of dictating it,
+
+09:18.852 --> 09:20.929
+we're kind of looking more of a...
+
+09:21.145 --> 09:22.532
+well, let's just think of it this way.
+
+09:22.582 --> 09:23.691
+As the population grows,
+
+09:23.691 --> 09:27.172
+the rate of change is going to grow.
+
+09:27.484 --> 09:32.484
+So it's going to look something like this.
+
+09:33.004 --> 09:34.076
+As our population gets larger,
+
+09:35.012 --> 09:37.101
+our slope is getting higher.
+
+09:37.209 --> 09:38.724
+It's getting steeper and steeper.
+
+09:39.153 --> 09:41.041
+But then as N approaches K,
+
+09:41.246 --> 09:42.951
+then this thing is gonna become,
+
+09:42.989 --> 09:44.698
+this is gonna be close to one minus...
+
+09:44.698 --> 09:46.099
+close to one.
+
+09:46.099 --> 09:48.118
+And so this is going to
+become a very small number,
+
+09:48.118 --> 09:50.204
+it's going to make this
+whole thing approach zero.
+
+09:50.646 --> 09:52.162
+So as N approaches K,
+
+09:52.771 --> 09:54.548
+the whole thing, the rate of change
+
+09:54.548 --> 09:57.029
+is going to flatten out.
+
+09:57.459 --> 09:59.440
+And we're gonna asymptote towards K.
+
+09:59.858 --> 10:03.441
+And so the solution to the
+
+10:03.441 --> 10:05.493
+logistic differential equation
+
+10:05.961 --> 10:07.874
+should look something like this.
+
+10:07.874 --> 10:09.679
+Depending on what your
+initial conditions are.
+
+10:09.679 --> 10:10.756
+If your initial condition is here,
+
+10:10.756 --> 10:12.091
+maybe it does something like this.
+
+10:12.091 --> 10:13.415
+If your initial condition's here,
+
+10:13.415 --> 10:16.393
+maybe it does something like this.
+
+10:16.393 --> 10:17.559
+And once again, this is what's fun
+
+10:17.559 --> 10:18.361
+about doing differential equations.
+
+10:18.361 --> 10:19.964
+Before even doing the fancy math,
+
+10:19.964 --> 10:21.221
+you can kind of get an intuition,
+
+10:21.221 --> 10:22.987
+just by thinking through
+the differential equation
+
+10:22.987 --> 10:26.325
+of what it is likely to be.
+
+10:26.438 --> 10:30.449
+Down here, or when N
+is much smaller than K
+
+10:30.072 --> 10:32.056
+its rate of increase is increasing
+
+10:32.704 --> 10:34.106
+as N increases,
+
+10:34.148 --> 10:35.224
+and over here as N gets close to K,
+
+10:35.908 --> 10:38.996
+its rate of increase is decreasing.
+
+10:39.351 --> 10:40.458
+Now let's actually in the next video,
+
+10:40.458 --> 10:43.526
+actually solve for what
+N, a solution to this
+
+10:44.138 --> 10:47.129
+and see if that confirms
+what our intuition is.

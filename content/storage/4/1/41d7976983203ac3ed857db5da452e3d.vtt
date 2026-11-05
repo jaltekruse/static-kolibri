@@ -1,0 +1,229 @@
+WEBVTT
+
+00:00.320 --> 00:06.600
+Chepi ist Ökologin und beobachtet die Veränderungen
+in der arktischen Narwal-Population im Laufe der Zeit.
+
+00:06.600 --> 00:13.920
+Sie hat beobachtet, dass die Population
+alle 2,8 Monate 5,6% ihrer Größe verliert.
+
+00:13.920 --> 00:17.500
+Die Narwal-Population kann von
+einer Funktion N dargestellt werden,
+
+00:17.500 --> 00:20.320
+die von der Zeit t (in Monaten) abhängig ist.
+
+00:20.320 --> 00:22.180
+Als Chepi ihre Beobachtungen begonnen hat,
+
+00:22.180 --> 00:27.760
+hat sie festgestellt, dass es 89.000
+Narwale im Arktischen Ozean gibt.
+
+00:27.760 --> 00:28.620
+Konstruiere eine Funktion,
+
+00:28.620 --> 00:33.898
+die die Narwal-Population t Monate seit dem
+Beginn von Chepis Beobachtungen modelliert.
+
+00:33.900 --> 00:36.180
+Pausiere wie immer das Video,
+und versuche, die Aufgabe selbst zu lösen,
+
+00:36.180 --> 00:38.520
+bevor wir es gemeinsam machen.
+
+00:38.530 --> 00:39.930
+Jetzt lösen wir sie gemeinsam.
+
+00:39.930 --> 00:45.600
+Es ist anfangs immer hilfreich,
+eine Wertetabelle zu erstellen,
+
+00:45.600 --> 00:47.800
+um interessante Werte für die Funktion zu finden,
+
+00:47.800 --> 00:52.131
+und zu sehen, wie sich die Funktion verhalten soll.
+
+00:52.131 --> 00:53.914
+t ist in Monaten angegeben,
+
+00:53.920 --> 01:01.820
+und N(t) steht für die Anzahl der Narwale.
+
+01:01.820 --> 01:05.880
+Wenn t = 0 ist, was ist dann N(0)?
+
+01:05.880 --> 01:10.620
+Wenn t = 0 ist, haben wir 89.000 Narwale im Ozean.
+
+01:10.620 --> 01:13.880
+Also 89.000.
+
+01:13.882 --> 01:16.819
+Was wäre noch ein interessanter Wert?
+
+01:16.820 --> 01:22.880
+t ist in Monaten angegeben, und wir wissen, dass die
+Population sich alle 2,8 Monate um 5,6% verkleinert.
+
+01:22.880 --> 01:27.460
+Wenn t = 2,8 ist,
+
+01:27.460 --> 01:32.980
+dann sollte sich die Population
+um 5,6% verkleinert haben.
+
+01:32.980 --> 01:36.440
+Eine Verkleinerung um 5,6% ist dasselbe,
+
+01:36.440 --> 01:44.980
+wie 94,4% zu behalten.
+
+01:44.980 --> 01:47.900
+Ich habe 100%.
+
+01:47.908 --> 01:51.625
+Wenn ich 5,6% verliere,
+
+01:51.625 --> 01:57.360
+bleiben 94,4% übrig.
+
+01:57.360 --> 02:01.140
+0,6 + 0,4 bringen uns zu 95,
++ die restlichen 5 ergibt 100.
+
+02:01.140 --> 02:02.920
+Eine andere Formulierung für diesen Satz,
+
+02:02.929 --> 02:06.748
+dass die Population sich alle 2,8 Monate
+um 5,6% ihrer Größe verkleinert, ist,
+
+02:06.748 --> 02:19.720
+dass die Population alle 2,8 Monate auf
+94,4% ihrer ursprünglichen Größe sinkt.
+
+02:19.720 --> 02:25.180
+Alle 2,8 Monate schrumpft die Population also um 5,6%,
+
+02:25.180 --> 02:33.000
+oder wir sagen, das sie 94,4% ihrer ursprünglichen
+Größe am Anfang dieser 2,8 Monate erreicht.
+
+02:33.000 --> 02:44.920
+Nach 2,8 Monaten multiplizieren
+wir also 89.000 mit 0,944 bzw. 94,4%.
+
+02:44.920 --> 02:48.440
+Nach weiteren 2,8 Monaten,
+
+02:48.440 --> 02:51.620
+wenn wir also 2 ⋅ 2,8 rechnen,
+
+02:51.620 --> 02:56.880
+was wir auch als 5,6 Monate schreiben könnten,
+
+02:56.880 --> 02:57.840
+was haben wir dann?
+
+02:57.840 --> 03:03.280
+Wir rechnen 89.000 ⋅ 0,944,
+
+03:03.300 --> 03:05.700
+das ist der Wert, den wir zu
+Beginn dieser Zeitperiode hatten,
+
+03:05.700 --> 03:08.040
+Jetzt haben wir 94,4% davon.
+
+03:08.046 --> 03:13.200
+Also multiplizieren wir wieder mit 94,4% bzw. 0,944,
+
+03:13.200 --> 03:16.868
+was wir als 0,944² schreiben können.
+
+03:16.868 --> 03:24.320
+Und nach drei dieser Zeitperioden
+multiplizieren wir wieder mit 0,944.
+
+03:24.320 --> 03:33.820
+Dann rechnen wir 89.000 ⋅ 0.944² ⋅ 0,944,
+
+03:33.820 --> 03:37.220
+was wir auch als 0,944³ schreiben können.
+
+03:37.220 --> 03:39.331
+Ich denke, du siehst, was hier los ist.
+
+03:39.331 --> 03:41.721
+Wir haben eine Exponentialfunktion.
+
+03:41.721 --> 03:48.480
+Alle 2,8 Monate multiplizieren
+wir mit dieser Basis 0,944.
+
+03:48.480 --> 03:52.400
+Wir können also unsere Funktion N(t) schreiben.
+
+03:52.400 --> 03:57.260
+Unser Anfangswert ist 89.000.
+
+03:57.260 --> 04:02.260
+Dann multiplizieren wir mit 0,944,
+
+04:02.261 --> 04:07.740
+in den Exponenten setzen wir die Anzahl der
+2,8-Monats-Perioden, die bis jetzt vergangen sind.
+
+04:07.740 --> 04:09.396
+Wenn wir also die Anzahl der Monate nehmen,
+
+04:09.400 --> 04:10.760
+und durch 2,8 dividieren,
+
+04:10.760 --> 04:14.440
+erhalten wir die Anzahl der
+2,8-Monats-Perioden, die vergangen sind.
+
+04:14.440 --> 04:19.680
+Wenn t = 0 ist, dann wird ganze Term hier 1,
+
+04:19.680 --> 04:21.020
+und wir erhalten 89.000.
+
+04:21.029 --> 04:24.326
+Wenn t = 2,8 ist, dann ist der Exponent 1,
+
+04:24.326 --> 04:27.448
+und wir multiplizieren einmal mit 0,944.
+
+04:27.448 --> 04:30.908
+Wenn t = 5,6 ist, dann wird der Exponent 2.
+
+04:30.908 --> 04:34.066
+Dann multiplizieren wir zweimal mit 0,944.
+
+04:34.066 --> 04:37.380
+Ich nehme gerade nur Werte, die den
+Exponenten ganzzahlig werden lassen,
+
+04:37.380 --> 04:39.440
+aber es funktioniert auch für die Werte dazwischen.
+
+04:39.440 --> 04:43.680
+Du kannst gerne einen Graphen zeichnen oder
+die Werte in einen Taschenrechner eingeben.
+
+04:43.680 --> 04:44.958
+Wir sind fertig.
+
+04:44.958 --> 04:47.540
+Wir haben die Narwal-Population modelliert.
+
+04:47.540 --> 04:50.553
+Ich unterstreiche die Funktion und das war's.

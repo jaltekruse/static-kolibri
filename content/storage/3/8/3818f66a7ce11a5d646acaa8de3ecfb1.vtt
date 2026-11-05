@@ -1,0 +1,342 @@
+WEBVTT
+
+00:00.660 --> 00:02.500
+O que eu quero examinar neste vídeo
+
+00:02.500 --> 00:08.029
+é um caso especial da Regra de L'Hopital.
+
+00:08.029 --> 00:10.031
+E é uma versão mais restrita
+
+00:10.031 --> 00:11.780
+do caso geral que temos visto.
+
+00:11.780 --> 00:13.930
+Mas é muito poderosa e
+muito relevante.
+
+00:13.930 --> 00:17.060
+E a razão porque nós veremos
+esse caso especial
+
+00:17.060 --> 00:20.180
+é porque essa prova é muito simples
+
+00:20.180 --> 00:25.090
+e dará a você uma intuição da razão
+porque a regra de L'Hopital funciona.
+
+00:25.100 --> 00:27.070
+O caso especial da regra de L'Hopital
+
+00:27.070 --> 00:31.510
+é uma situação onde
+f de a é igual a zero.
+
+00:31.510 --> 00:36.290
+f linha de a existe.
+
+00:36.290 --> 00:40.780
+g de a é igual a zero.
+
+00:40.780 --> 00:43.890
+g linha de a existe.
+
+00:43.890 --> 00:49.600
+Se essas restrições existem,
+então o limite,
+
+00:49.600 --> 00:59.810
+quando x se aproxima de
+a de f de x sobre g de x,
+
+00:59.810 --> 01:10.150
+será igual à f linha de
+a sobre g linha de a.
+
+01:10.150 --> 01:11.870
+Isso é muito similar ao caso geral.
+
+01:11.870 --> 01:13.420
+Mas é um pouco mais restrita.
+
+01:13.420 --> 01:16.650
+Assumimos que f linha de a existe.
+Não só calculamos o limite agora.
+
+01:16.650 --> 01:19.740
+Assumimos que f linha de a
+e g linha de a realmente existem.
+
+01:19.740 --> 01:23.490
+Mas note que se substituirmos
+a nós teremos zero sobre zero.
+
+01:23.490 --> 01:24.940
+Mas se as derivadas existem
+
+01:24.940 --> 01:27.390
+nós podemos somente
+calcular as derivadas em a,
+
+01:27.390 --> 01:28.500
+e obteremos o limite.
+
+01:28.500 --> 01:30.480
+Isso é muito próximo ao caso geral
+
+01:30.480 --> 01:32.140
+da Regra de L'Hopital.
+
+01:32.140 --> 01:34.200
+Mas provemos isso.
+
+01:34.200 --> 01:37.210
+E para provar isso, nós
+começaremos com o lado direito
+
+01:37.210 --> 01:40.950
+e mostraremos que se usarmos
+a definição de derivadas,
+
+01:40.950 --> 01:43.390
+obteremos essa termo no lado esquerdo.
+
+01:43.390 --> 01:44.810
+Deixe-me fazer isso.
+
+01:44.810 --> 01:46.280
+Eu farei isso aqui.
+
+01:46.280 --> 01:50.830
+Quanto é f linha de a
+
+01:50.830 --> 01:53.660
+dada a definição de derivadas?
+
+01:53.660 --> 01:55.550
+Bom, podemos ver isso como o limite
+
+01:55.550 --> 02:05.440
+quando x se aproxima de a de f de
+x menos f de a sobre x menos a.
+
+02:05.440 --> 02:08.300
+Isso é literalmente só a
+inclinação entre dois pontos.
+
+02:08.300 --> 02:11.940
+Se você tiver sua
+função de x como essa,
+
+02:11.940 --> 02:17.500
+esse é o ponto a, f de a aqui.
+
+02:17.500 --> 02:23.000
+Isso aqui é o ponto x, f de x.
+
+02:23.000 --> 02:24.600
+Essa expressão aqui é
+
+02:24.600 --> 02:26.360
+a inclinação entre
+esses dois pontos.
+
+02:26.360 --> 02:30.050
+A mudança no nosso valor
+de y é f de x menos f de a.
+
+02:30.050 --> 02:32.970
+A mudança no nosso valor de f é x menos a.
+
+02:32.970 --> 02:35.860
+Logo, essa expressão é somente
+a inclinação desta linha.
+
+02:35.860 --> 02:38.000
+E estamos tomando -- deixe-me fazer
+
+02:38.000 --> 02:40.470
+isso em uma cor diferente -- a linha que
+
+02:40.470 --> 02:43.475
+conecta esses dois pontos,
+essa é a inclinação dela.
+
+02:43.475 --> 02:45.000
+Eu farei isso em branco.
+
+02:45.000 --> 02:47.480
+A inclinação da linha que
+conecta esses dois pontos.
+
+02:47.480 --> 02:50.550
+Estamos tomando o limite
+quando x se aproxima de a.
+
+02:50.550 --> 02:53.559
+Isso é só uma outra maneira
+de escrever a definição de derivada.
+
+02:53.559 --> 02:54.640
+Isso funciona.
+
+02:54.640 --> 02:56.370
+Façamos o mesmo para g linha de a.
+
+02:56.370 --> 02:59.410
+Logo, f linha de a
+sobre g linha de a,
+
+02:59.410 --> 03:01.480
+será isso aqui em laranja,
+
+03:01.480 --> 03:03.950
+f linha de a sobre g linha de a.
+
+03:03.950 --> 03:07.400
+O que podemos escrever como
+o limite quando x se aproxima
+
+03:07.400 --> 03:14.944
+de a de g de x menos g
+de a sobre x menos a.
+
+03:14.944 --> 03:17.730
+No numerador tomamos o limite
+de quando x de aproxima de a,
+
+03:17.730 --> 03:20.400
+e no denominador o limite
+de quando x de aproxima de a.
+
+03:20.400 --> 03:21.820
+Podemos reescrever isso.
+
+03:21.820 --> 03:25.880
+Isso podemos reescrever como o
+limite quando x de aproxima de
+
+03:25.880 --> 03:28.600
+a de tudo isso aqui em laranja.
+
+03:28.600 --> 03:33.990
+f de x menos f de a, sobre x menos a,
+
+03:33.990 --> 03:38.600
+sobre tudo isso em verde.
+
+03:38.600 --> 03:44.375
+g de x menos g de a, tudo isso
+sobre x menos a
+
+03:44.375 --> 03:47.170
+Para simplificar isso, podemos
+multiplicar o numerador
+
+03:47.170 --> 03:48.820
+e o denominador por x menos a
+
+03:48.820 --> 03:50.460
+para cancelar essas x menos a's.
+
+03:50.460 --> 03:51.260
+Façamos isso.
+
+03:51.260 --> 03:56.980
+Multipliquemos por x
+menos a sobre x menos a.
+
+03:56.980 --> 03:59.740
+O numerador, x menos a, e
+estamos dividindo por x menos a.
+
+03:59.740 --> 04:00.970
+Eles se cancelam.
+
+04:00.970 --> 04:02.650
+E esses dois são cancelados.
+
+04:02.650 --> 04:07.430
+E temos que o que sobrou
+disso é igual ao limite
+
+04:07.430 --> 04:11.530
+quando x se aproxima de a,
+no numerador
+
+04:11.530 --> 04:15.520
+nós temos f de x menos f de a.
+
+04:15.520 --> 04:21.580
+E no denominador, nós temos
+g de x menos g de a.
+
+04:21.580 --> 04:23.630
+Acho que você percebeu
+no que isso vai dar.
+
+04:23.630 --> 04:25.330
+Quanto é f de a?
+
+04:25.330 --> 04:27.430
+Nós assumimos
+que f de a é igual a zero.
+
+04:27.430 --> 04:30.000
+Por isso usamos a
+Regra de L'Hopital desde o início
+
+04:30.000 --> 04:36.170
+f de a é igual a zero,
+g de a é igual a zero.
+
+04:36.170 --> 04:40.650
+E isso simplifica o limite
+quando x se aproxima de
+
+04:40.650 --> 04:47.290
+a de f linha de x, desculpe-me,
+f de x, --temos que ter cuidado
+
+04:47.290 --> 04:52.720
+--de f de x sobre g de x.
+
+04:52.720 --> 04:57.390
+E só mostramos que se f de a
+é igual a zero, g de a é igual a zero,
+
+04:57.390 --> 05:00.405
+e essas duas derivadas existem,
+então as derivadas calculadas
+
+05:00.405 --> 05:03.420
+em a uma sobre a
+outra será igual ao limite
+
+05:03.420 --> 05:06.450
+quando x se aproxima de a
+de f de x sobre g de x.
+
+05:06.450 --> 05:08.973
+Ou o limite quando x de aproxima de a de f
+
+05:08.973 --> 05:10.780
+de x sobre g de x que será igual à
+
+05:10.780 --> 05:13.130
+f linha de a sobre
+g linha de a.
+
+05:13.130 --> 05:16.480
+Logo, uma prova muito simples
+para o caso especial --
+
+05:16.480 --> 05:20.020
+para o caso especial, não o mais geral --
+da Regra de L'Hopital.
+
+05:20.020 --> 05:21.310
+[legendado por: Musa Morena Marcusso Manhães]
+[revisado por: Rosana Cabral]

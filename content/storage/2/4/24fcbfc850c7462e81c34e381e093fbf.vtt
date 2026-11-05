@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.582 --> 00:03.244
+Hãy thử suy nghĩ về chuỗi vô hạn
+
+00:03.244 --> 00:06.303
+vậy chúng ta sẽ đi từ n =1 đến vô cực,
+
+00:06.303 --> 00:11.259
+của 1/2 mũ n + n
+
+00:11.300 --> 00:13.590
+Và điều mình muốn làm là xem thử nếu chúng ta có thể chứng minh
+
+00:13.590 --> 00:17.092
+là cái này sẽ hội tụ hay phân kì.
+
+00:17.092 --> 00:19.089
+Và cũng như bạn có thể tưởng tượng dựa vào ngữ cảnh là
+
+00:19.089 --> 00:22.622
+video này đang xuất hiện ở bài nào trên Khan Academy
+
+00:22.622 --> 00:25.376
+nên là có thể chúng ta giải quyết bài toán này bằng cách sử dụng phép thử so sánh.
+
+00:25.655 --> 00:27.862
+Nếu bất kì khi nào mà bạn cảm thấy
+
+00:27.862 --> 00:29.482
+bạn có thể giải quyết được bài toán này thì hãy
+
+00:29.482 --> 00:31.473
+dừng video lại và làm như vậy nhé.
+
+00:32.451 --> 00:36.477
+Vậy để có thể tìm ra hoặc hiểu được
+
+00:36.477 --> 00:38.927
+cái chuỗi ở đây,
+
+00:38.927 --> 00:41.348
+thì ta có thể triển khai nó ra một chút, vậy hãy cùng làm vậy nha.
+
+00:41.423 --> 00:43.538
+Vậy cái này sẽ bằng với khi n =1,
+
+00:43.538 --> 00:46.531
+thì cái này sẽ là 1/2 mũ 1 +1
+
+00:46.531 --> 00:48.182
+vậy nó sẽ là 1/2 mũ 1 + 1,
+
+00:48.182 --> 00:51.506
+và nó sẽ trở thành 1/3
+
+00:51.506 --> 00:54.052
+Và khi n = 2 thì nó sẽ thành là 1/2 bình phương,
+
+00:54.052 --> 00:57.763
+là mẫu số = 4, sau đó cộng thêm 2 nữa là thành 1/6.
+
+00:58.224 --> 01:03.224
+Cộng thêm... chà để xem, bây giờ mình tiến đến 3
+
+01:04.641 --> 01:06.526
+n=1, n=2, n=3 thì sẽ bằng 1/2 mũ 3
+
+01:06.526 --> 01:09.457
+thì mẫu số là bằng 8, và cộng thêm 3 nữa là bằng 11.
+
+01:09.574 --> 01:13.173
+Vậy 1/11, có thể mình sẽ làm thêm 1 số hạng nữa.
+
+01:13.388 --> 01:18.141
+2 mũ 4 thì sẽ là 16, và rồi cộng thêm 4 thì bằng 20.
+
+01:18.365 --> 01:22.040
+Cộng 1/20 và rõ ràng là chúng ta
+
+01:22.040 --> 01:24.351
+cứ tiếp tục đi mãi, đi mãi.
+
+01:25.394 --> 01:30.394
+Vậy nhìn cái này trông có vẻ như nó sẽ hội tụ.
+
+01:32.225 --> 01:35.991
+Tất cả các số hạng đều dương, nhưng chúng đang trở nên
+
+01:35.991 --> 01:38.604
+nhỏ hơn và nhỏ hơn khá nhanh.
+
+01:38.960 --> 01:43.960
+Và nếu chúng ta chú ý xu hướng của các số hạng
+
+01:45.235 --> 01:47.079
+khi mà n càng lớn, thì chúng ta thẩy rằng
+
+01:47.079 --> 01:48.536
+2 mũ n ở dưới mẫu số sẽ tăng nhanh
+
+01:48.536 --> 01:51.238
+hơn số n nhiều luôn.
+
+01:51.504 --> 01:55.316
+Vậy cái xu hướng như 1/2 mũ n,
+
+01:55.790 --> 01:57.502
+sẽ là một gợi ý cho cái gì đó mà chúng ta
+
+01:57.502 --> 01:59.818
+có thể dùng cho phép thử so sánh.
+
+02:00.365 --> 02:01.655
+Vậy hãy để mình viết xuống nè.
+
+02:01.674 --> 02:05.573
+Vậy chuỗi vô hạn đi từ n=1 đến vô cực
+
+02:05.573 --> 02:08.962
+của 1/2 mũ n,
+
+02:09.601 --> 02:12.001
+và vậy khi n =1, cái này
+
+02:12.001 --> 02:16.396
+sẽ bằng 1/2.
+
+02:16.803 --> 02:19.176
+Khi n =2
+
+02:19.176 --> 02:21.271
+cái này sẽ bằng với 1/4
+
+02:21.584 --> 02:24.305
+Khi n =3, cái này sẽ bằng với 1/8.
+
+02:24.540 --> 02:27.422
+Khi n = 4, cái này sẽ bằng với 1/16.
+
+02:27.745 --> 02:29.860
+Và chúng ta cứ tiếp tục đi mãi, đi mãi.
+
+02:30.689 --> 02:32.958
+Và điều thú vị về cái này là chúng ta phát hiện ra nó.
+
+02:32.958 --> 02:35.907
+Đây là chuỗi cấp số nhân, để mình nói rõ hơn.
+
+02:35.907 --> 02:38.849
+Cái nằm ngay đây, là thực ra giống với
+
+02:38.849 --> 02:43.849
+tổng từ n=1 đến vô cực của
+
+02:44.415 --> 02:48.691
+1/2 mũ n, chỉ là ta đang viết theo cách khác.
+
+02:49.012 --> 02:51.495
+Và vì giá trị tuyệt đối của 1/2
+
+02:51.495 --> 02:56.495
+cũng chỉ là 1/2, thế nên vì giá trị tuyệt đối
+
+02:57.728 --> 03:01.786
+của 1/2 bé hơn 1
+
+03:01.786 --> 03:05.947
+và ta biết là chuỗi cấp số nhân sẽ hội tụ.
+
+03:05.947 --> 03:08.774
+Và thực ra chúng ta thậm chí có công thức để tìm
+
+03:08.774 --> 03:13.774
+tổng chính xác hoặc tìm ra được nó sẽ hội tụ ở đâu.
+
+03:15.138 --> 03:17.980
+Và vậy chúng ta biết là cái này sẽ hội tụ
+
+03:17.980 --> 03:20.516
+và ta thấy là 2 chuỗi gộp lại sẽ thỏa mãn được
+
+03:20.516 --> 03:23.361
+tất cả điều kiện chúng ta cần cho phép thử so sánh.
+
+03:23.920 --> 03:26.813
+Vậy hãy đi ngược về những gì chúng ta viết về phép thử so sánh.
+
+03:27.276 --> 03:31.287
+Vậy phép thử so sánh, chúng ta có 2 chuỗi mà
+
+03:31.287 --> 03:33.420
+tất cả các số hạng đều lớn hơn hoặc bằng 0.
+
+03:33.572 --> 03:35.714
+Tất cả các số hạng đều lớn hơn hoặc bằng 0.
+
+03:36.199 --> 03:39.706
+Và tiếp đến là các số hạng tương ứng trong 1 chuỗi,
+
+03:39.706 --> 03:41.337
+tất cả chúng đều nhỏ hơn hoặc bằng
+
+03:41.337 --> 03:42.973
+với các số hạng tương ứng trong chuỗi tiếp theo.
+
+03:43.421 --> 03:46.847
+Vậy nếu chúng ta nhìn sang đây, ta có thể cân nhắc cái này,
+
+03:46.926 --> 03:49.377
+cái chuỗi màu hồng, đây là dạng chuỗi vô hạn
+
+03:49.377 --> 03:53.008
+của việc giải quyết với a thứ n và cái nằm ngay đây
+
+03:53.008 --> 03:56.490
+à mình đã viết nó bằng màu xanh
+
+03:56.490 --> 03:58.087
+cái chuỗi màu xanh này.
+
+03:58.264 --> 04:02.313
+Và chú ý tất cả số hạng đều không âm và
+
+04:02.313 --> 04:07.005
+số hạng tương ứng 1/2 thì lớn hơn
+
+04:07.005 --> 04:09.321
+1/3, 1/4 và lớn hơn 1/6,
+
+04:09.321 --> 04:11.551
+1/8 thì lớn hơn 1/11.
+
+04:11.878 --> 04:14.188
+1/2 mũ n thì luôn luôn lớn hơn
+
+04:14.188 --> 04:16.961
+1/2 tất cả mũ n cộng n,
+
+04:16.961 --> 04:19.579
+với n là điều chúng ta đang quan tâm ở đây.
+
+04:19.975 --> 04:22.109
+Và bởi vì chúng ta biết cái này sẽ hội tụ,
+
+04:22.109 --> 04:23.921
+bởi vì chúng ta biết chuỗi lớn hơn này sẽ hội tụ,
+
+04:24.511 --> 04:26.913
+Nó chính là chuỗi cấp số nhân mà có
+
+04:26.913 --> 04:29.783
+giá trị tuyệt đối của tỷ số chung nhỏ hơn 1
+
+04:29.783 --> 04:32.339
+vì chúng ta đã biết là chuỗi lớn hơn
+
+04:32.339 --> 04:35.637
+hội tụ, nên là, chuỗi nhỏ hơn hoặc
+
+04:35.637 --> 04:38.207
+cái mà mỗi số hạng tương ứng nhỏ hơn
+
+04:38.207 --> 04:42.167
+ở bên số hạng tương ứng của cái chuỗi màu xanh, thì cũng sẽ phải hội tụ
+
+04:42.473 --> 04:47.473
+Vậy bằng phép thử so sánh, chuỗi mà đề cho
+
+04:47.633 --> 04:52.633
+sẽ phải hội tụ.

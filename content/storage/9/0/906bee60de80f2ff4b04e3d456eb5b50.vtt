@@ -1,0 +1,442 @@
+WEBVTT
+
+00:01.133 --> 00:02.670
+Şimdi ilginç bir şey yapalım. En kolay Maclaurin serisi bulunan fonksiyonlardan biri olan e üzeri x'e yakınsayan seriyi bulalım.
+
+00:02.670 --> 00:04.933
+-
+
+00:04.933 --> 00:07.407
+-
+
+00:07.407 --> 00:11.192
+-
+
+00:11.192 --> 00:13.200
+f x eşittir e üzeri x.
+
+00:13.200 --> 00:14.861
+Bu fonksiyonu kolay yapan ve e sayısını inanılmaz kılan şey, e üzeri x'in türevinin e üzeri x olmasıdır.
+
+00:14.861 --> 00:16.000
+-
+
+00:16.000 --> 00:17.333
+-
+
+00:17.333 --> 00:18.867
+-
+
+00:18.867 --> 00:20.067
+-
+
+00:20.067 --> 00:23.568
+-
+
+00:23.568 --> 00:25.867
+Yani, bu f üssü x'e eşit, f'nin ikinci türevine eşit, f'nin üçüncü türevine eşit, f'nin n'inci türevine eşit.
+
+00:25.867 --> 00:29.200
+-
+
+00:29.200 --> 00:31.933
+-
+
+00:31.933 --> 00:34.102
+-
+
+00:34.102 --> 00:36.270
+Hepsi e üzeri x'e eşit.
+
+00:36.270 --> 00:40.867
+e ile ilgili ilk inanılmaz şey, işte bu.
+
+00:40.867 --> 00:42.867
+Türevini aldıkça, eğri üzerindeki her noktadaki eğim, o noktadaki fonksiyon değerine eşit.
+
+00:42.867 --> 00:44.443
+-
+
+00:45.021 --> 00:48.762
+-
+
+00:48.762 --> 00:50.533
+Çılgınca bir durum.
+
+00:50.533 --> 00:51.432
+Bunu belirttikten sonra, Maclaurin serisini bulalım.
+
+00:51.432 --> 00:52.933
+-
+
+00:52.933 --> 00:54.067
+f 0, f üssü 0, f'nin 0'daki ikinci türevi vesaireyi hesaplamamız lazım.
+
+00:54.067 --> 00:56.610
+-
+
+00:56.610 --> 00:59.188
+e üzeri 0 eşittir 1. Bu f 0'a eşit , f üssü 0'a eşit, f'nin 0'daki herhangi türevine eşit.
+
+00:59.188 --> 01:01.733
+-
+
+01:01.733 --> 01:04.267
+-
+
+01:04.267 --> 01:07.595
+-
+
+01:07.595 --> 01:10.194
+-
+
+01:14.086 --> 01:17.200
+-
+
+01:17.200 --> 01:20.467
+Bu nedenle, Maclaurin serisini bulmak kolay oluyor.
+
+01:20.467 --> 01:23.000
+-
+
+01:23.000 --> 01:24.200
+e üzeri x'i Maclaurin serisiyle belirtmek istersek, sonsuz adede doğru terim ekledikçe, serinin değeri, fonksiyonun değerine yaklaşacaktır.
+
+01:24.200 --> 01:27.669
+-
+
+01:27.669 --> 01:28.722
+-
+
+01:28.722 --> 01:30.467
+-
+
+01:30.467 --> 01:31.672
+-
+
+01:31.672 --> 01:34.691
+-
+
+01:34.691 --> 01:37.231
+-
+
+01:37.231 --> 01:38.590
+Seriyi yazmaya başlayalım:
+
+01:38.590 --> 01:41.680
+Kosinüs ve sinüs için hangi renkleri kullanmıştım? Pembe ve yeşil.
+
+01:41.680 --> 01:44.467
+-
+
+01:44.467 --> 01:46.754
+-
+
+01:47.754 --> 01:49.954
+Şimdi sarıyı kullanayım.
+
+01:51.000 --> 01:53.600
+f 0 eşittir 1
+
+01:53.600 --> 01:55.467
+Artı, f üssü 0 çarpı x. f üssü 0 da 1. Artı x.
+
+01:55.467 --> 01:57.333
+-
+
+01:57.333 --> 01:58.508
+-
+
+01:59.400 --> 02:01.067
+Artı, bu da 1.
+
+02:01.067 --> 02:03.518
+Yani, x kare, bölü 2 faktöriyel.
+
+02:06.318 --> 02:08.476
+Bunların hepsi 1.
+
+02:08.476 --> 02:09.533
+Bu 1.
+
+02:09.533 --> 02:10.733
+Bu 1.
+
+02:10.733 --> 02:11.933
+Fonksiyonumuz e üzeri x ise, bu dördüncü terim de 1.
+
+02:11.933 --> 02:13.267
+-
+
+02:13.267 --> 02:14.667
+-
+
+02:14.667 --> 02:17.067
+O zaman, x küp, bölü 3 faktöriyel.
+
+02:17.067 --> 02:19.467
+Artı x küp bölü 3 faktöriyel.
+
+02:19.467 --> 02:20.800
+Sanıyorum, örüntüyü gördünüz.
+
+02:20.800 --> 02:22.200
+Terimleri eklemeye devam ediyoruz.
+
+02:22.200 --> 02:22.942
+x üzeri 4, bölü 4 faktöriyel, artı x üzeri 5, bölü 5 faktöriyel, artı x üzeri 6, bölü 6 faktöriyel.
+
+02:22.942 --> 02:31.667
+-
+
+02:31.667 --> 02:34.200
+Çok ilginç bir örüntü ortaya çıkıyor.
+
+02:34.200 --> 02:35.800
+-
+
+02:35.800 --> 02:38.000
+-
+
+02:38.000 --> 02:40.357
+e üzeri x'in 1 artı x artı x kare, bölü 2 faktöriyel, artı x küp bölü 3 faktöriyel, ile ifade edilmesi süper.
+
+02:40.357 --> 02:44.026
+-
+
+02:44.026 --> 02:45.933
+-
+
+02:45.933 --> 02:48.133
+-
+
+02:48.133 --> 02:49.467
+-
+
+02:49.467 --> 02:51.758
+Bu durum, başka ilginç sonuçlar da veriyor.
+
+02:51.758 --> 02:54.684
+Örneğin, e'ye yaklaşık bir değer bulmak isterseniz, x yerine 1 koyarsınız.
+
+02:54.684 --> 02:58.600
+-
+
+02:58.600 --> 03:06.533
+Bu, e üzeri 1 dersiniz. Ve, polinomun 1 için değerini bulursunuz.
+
+03:06.533 --> 03:08.000
+-
+
+03:08.000 --> 03:10.682
+-
+
+03:10.682 --> 03:13.067
+x burada 1'e eşitse, şurada da 1'e eşit deriz.
+
+03:13.067 --> 03:13.667
+-
+
+03:13.667 --> 03:18.241
+Ve, şöyle buluruz, 1 artı 1 artı, 1 bölü, 2 faktöriyel, artı 1 bölü, 3 faktöriyel, artı 1 bölü, 4 faktöriyel.
+
+03:18.256 --> 03:21.590
+-
+
+03:21.590 --> 03:24.933
+-
+
+03:24.933 --> 03:27.800
+-
+
+03:27.800 --> 03:30.744
+Bu şekilde, sonsuza kadar devam ederiz.
+
+03:30.744 --> 03:33.467
+Şuraya, 1 bölü 1 faktöriyel de diyebilirdik.
+
+03:33.467 --> 03:35.933
+-
+
+03:35.933 --> 03:39.103
+Esas ilginç olanı, bunun e'yi ifade etmenin başka bir yöntemi olması.
+
+03:39.103 --> 03:41.267
+-
+
+03:41.267 --> 03:42.467
+e'nin 2 artı 1 bölü 2 artı 1 bölü 6 gibi gösterilmesi.
+
+03:42.467 --> 03:43.608
+-
+
+03:43.608 --> 03:49.133
+-
+
+03:49.133 --> 03:51.271
+Buna devam ettikçe, e'ye yaklaşıyoruz.
+
+03:51.271 --> 03:53.121
+-
+
+03:54.429 --> 03:56.193
+İlginç olan tek şey, bu değil.
+
+03:56.193 --> 03:58.353
+-
+
+03:58.353 --> 04:00.200
+Kosinüs x ve sinüs x'in Maclaurin serilerine baktığımızda,
+
+04:00.200 --> 04:02.400
+Kosinüs x ve sinüs x'i şuraya kopyalayayım.
+
+04:02.400 --> 04:03.533
+-
+
+04:03.533 --> 04:06.600
+-
+
+04:06.600 --> 04:09.867
+-
+
+04:09.867 --> 04:14.026
+-
+
+04:18.272 --> 04:24.600
+-
+
+04:24.600 --> 04:27.773
+-
+
+04:27.773 --> 04:30.887
+-
+
+04:31.533 --> 04:37.825
+-
+
+04:40.533 --> 04:44.770
+Bu seriler arasında bir bağlantı görüyor muyuz?
+
+04:44.770 --> 04:46.348
+-
+
+04:46.348 --> 04:48.067
+Daha önce, kosinüs ve sinüs arasında bir bağlantı tahmin etmişsinizdir.
+
+04:48.067 --> 04:49.181
+-
+
+04:49.181 --> 04:50.342
+-
+
+04:50.342 --> 04:52.733
+Ama, ya e üzeri x?
+
+04:52.733 --> 04:54.429
+Şuraya baktığımızda, kosinüs x, şu terimle bu terimin toplamına çok benziyor. Gerçi şuraya bir eksi koymamız gerekebilir.
+
+04:54.429 --> 04:58.144
+-
+
+04:58.144 --> 05:00.800
+-
+
+05:00.800 --> 05:02.347
+-
+
+05:02.347 --> 05:04.400
+Yani, bu terimin başında eksi olanı, artı bu terim olmalı.
+
+05:04.400 --> 05:04.900
+-
+
+05:04.900 --> 05:06.200
+-
+
+05:06.200 --> 05:09.200
+Artı şuradaki terimin başında eksi olanı.
+
+05:09.200 --> 05:11.067
+-
+
+05:11.067 --> 05:14.667
+Ve, sinüs x de şuna benziyor:
+
+05:14.667 --> 05:19.019
+Bu terim artı, şu terimin, başında eksi olanı.
+
+05:19.019 --> 05:21.527
+-
+
+05:21.527 --> 05:23.533
+Artı bu terim, artı şu terimin başında eksi olanı.
+
+05:23.533 --> 05:24.600
+-
+
+05:25.172 --> 05:27.200
+Eksileri bir şekilde bağdaştırabilirsek, e üzeri x'e benzetebiliriz.
+
+05:27.200 --> 05:30.067
+-
+
+05:30.067 --> 05:31.800
+-
+
+05:31.800 --> 05:34.867
+Veya, en azından, e üzeri x'in polinom gösterimine benzetebiliriz.
+
+05:34.867 --> 05:36.271
+-
+
+05:36.271 --> 05:39.336
+Yani, e üzeri x'in polinom gösterimi, kosinüs x ve sinüs x'in polinom gösterimlerinin birleşimine benziyor, diyebiliriz.
+
+05:39.336 --> 05:41.533
+-
+
+05:41.533 --> 05:43.423
+-
+
+05:43.423 --> 05:44.467
+Bu, gittikçe ilginçleşmeye başladı.
+
+05:44.467 --> 05:46.200
+-
+
+05:46.200 --> 05:47.400
+Bileşik faiz veya türevi kendine eşit bir fonksiyon ile, birim çemberden çıkan sinüzoidal fonksiyonlar arasındaki bağlantıyı görmeye başladık.
+
+05:47.400 --> 05:48.764
+-
+
+05:48.764 --> 05:50.180
+-
+
+05:50.180 --> 05:52.400
+-
+
+05:52.400 --> 05:53.802
+-
+
+05:53.802 --> 05:55.544
+-
+
+05:55.544 --> 05:57.680
+-
+
+05:57.680 --> 06:00.267
+Burada bir teorik bağlantı var. Bu videoyu burada bırakalım.
+
+06:00.267 --> 06:01.867
+-
+
+06:01.867 --> 06:03.276
+Bir sonraki videoda, bu üç büyüleyici fonksiyonu nasıl bağdaştıracağımızı size göstereceğim.
+
+06:03.276 --> 06:07.333
+-
+
+06:07.333 --> 3:59:59.999
+-

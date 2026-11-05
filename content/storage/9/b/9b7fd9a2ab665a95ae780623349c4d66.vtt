@@ -1,0 +1,435 @@
+WEBVTT
+
+00:00.500 --> 00:05.420
+V tomto videu bych se rád zamyslel
+nad integrálem 1/x,
+
+00:05.430 --> 00:10.690
+jinak řečeno integrálem x⁻¹.
+
+00:10.720 --> 00:13.100
+My už víme,
+že pokud bychom zkusili použít
+
+00:13.120 --> 00:17.480
+pravidlo integrace mocniny,
+dostali bychom něco nedefinovaného,
+
+00:17.500 --> 00:19.670
+dostali bychom x⁰ lomeno 0.
+
+00:19.680 --> 00:21.250
+A to nedává smysl.
+
+00:21.270 --> 00:23.760
+A možná si říkáte,
+že víte, co dělat v tomto případě.
+
+00:23.780 --> 00:27.237
+Když jsme se učili poprvé o derivacích,
+naučili jsme se, že derivace...
+
+00:27.247 --> 00:28.397
+Udělám to žlutě.
+
+00:28.417 --> 00:36.240
+Derivace podle x
+přirozeného logaritmu x je rovna 1/x.
+
+00:36.250 --> 00:40.040
+Tak proč nemůžeme prostě říct,
+že integrál tohoto výrazu tady
+
+00:40.060 --> 00:45.350
+je roven přirozenému logaritmu x plus c.
+
+00:45.360 --> 00:48.760
+A ono to není úplně špatně,
+problém ale je,
+
+00:48.770 --> 00:50.310
+že to není dostatečně obsáhlé.
+
+00:50.330 --> 00:53.230
+Když říkám, že to není dost obsáhlé,
+myslím tím,
+
+00:53.250 --> 00:57.540
+že definiční obor naší původní funkce,
+kterou integrujeme,
+
+00:57.550 --> 01:00.510
+jsou všechna reálná čísla
+kromě x rovná se 0.
+
+01:00.510 --> 01:04.799
+Takže tady x nemůže být rovno 0.
+
+01:04.809 --> 01:08.230
+Ale definiční obor tady
+jsou pouze kladná čísla.
+
+01:08.230 --> 01:15.320
+Takže tady pro tento výraz
+musí být x větší než 0.
+
+01:15.330 --> 01:18.590
+Takže by bylo dobré,
+kdybychom našli integrál,
+
+01:18.600 --> 01:23.690
+který má stejný definiční obor
+jako funkce, kterou integrujeme.
+
+01:23.710 --> 01:27.860
+Takže bychom rádi našli integrál,
+který je definován všude tam,
+
+01:27.877 --> 01:33.320
+kde je definována naše původní funkce,
+takže vlastně všude kromě x rovná se 0.
+
+01:33.340 --> 01:36.090
+Takže jak toto můžeme poupravit,
+
+01:36.110 --> 01:38.990
+aby to bylo definováno
+i pro záporné hodnoty?
+
+01:39.000 --> 01:45.990
+Jedna možnost je
+přirozený logaritmus absolutní hodnoty x.
+
+01:46.000 --> 01:49.990
+Přirozený logaritmus absolutní hodnoty x.
+
+01:50.000 --> 01:52.360
+Napíšu tady malý otazník,
+protože nevíme jistě,
+
+01:52.370 --> 01:54.140
+jaká bude derivace tohoto výrazu.
+
+01:54.160 --> 01:55.860
+Já vám to tady přesně nedokážu,
+
+01:55.870 --> 01:58.880
+ale pokusím se vám
+objasnit tu základní myšlenku.
+
+01:58.900 --> 02:03.210
+Takže abychom to pochopili,
+načrtněme si přirozený logaritmus x.
+
+02:03.230 --> 02:04.480
+Udělal jsem to už předem.
+
+02:04.490 --> 02:08.900
+Takže přibližně takto vypadá
+graf přirozeného logaritmu x.
+
+02:08.910 --> 02:13.340
+Takže jak bude vypadat
+přirozený logaritmus absolutní hodnoty x?
+
+02:13.350 --> 02:17.750
+Pro kladná x bude vypadat úplně stejně.
+
+02:17.790 --> 02:22.630
+U kladných x je jejich absolutní hodnota
+stejná jako ta původní.
+
+02:22.650 --> 02:25.200
+Takže to pro kladná x
+bude vypadat úplně stejně.
+
+02:25.210 --> 02:28.010
+Ale toto bude definováno
+i pro záporná x.
+
+02:28.020 --> 02:32.890
+Pokud vezmeme
+absolutní hodnotu -1, což je 1,
+
+02:32.900 --> 02:36.060
+dostaneme přirozený logaritmus 1.
+To je tady.
+
+02:36.070 --> 02:43.180
+Jak se budeme víc a víc blížit k 0 zleva
+a budeme brát absolutní hodnoty,
+
+02:43.200 --> 02:47.060
+tak to bude vypadat přesně jako
+tato křivka pro přirozený logaritmus x.
+
+02:47.080 --> 02:50.020
+Levá strana přirozeného logaritmu
+absolutní hodnoty x
+
+02:50.030 --> 02:53.480
+bude zrcadlovým obrazem podle osy y.
+
+02:53.500 --> 02:59.610
+Bude to vypadat nějak takto.
+
+02:59.620 --> 03:02.650
+Na této funkci je hezké,
+že je definovaná všude,
+
+03:02.660 --> 03:07.910
+je definovaná všude kromě...
+Snažím se to nakreslit co nejsymetričtěji.
+
+03:07.940 --> 03:11.220
+Je definovaná všude
+kromě x rovná se 0.
+
+03:11.230 --> 03:13.900
+Takže pokud zkombinujeme
+tuto růžovou část
+
+03:13.910 --> 03:19.460
+a tuto část napravo,
+když je obě dáme dohromady,
+
+03:19.480 --> 03:26.870
+dostaneme y se rovná
+přirozený logaritmus x.
+
+03:26.890 --> 03:29.550
+Teď se zamysleme
+nad derivací této funkce.
+
+03:29.560 --> 03:32.800
+My už víme, jaká je derivace
+přirozeného logaritmu x.
+
+03:32.820 --> 03:36.240
+A pro kladné hodnoty x...
+Zapíšu to.
+
+03:36.252 --> 03:43.260
+Pro x větší než 0,
+přirozený logaritmus absolutní hodnoty x
+
+03:43.260 --> 03:46.840
+je roven přirozenému logaritmu x.
+Zapíšu to.
+
+03:46.860 --> 03:52.910
+Je roven přirozenému logaritmu x.
+
+03:52.920 --> 03:56.460
+A také víme, že jelikož tyto dva výrazy
+se rovnají pro x větší než 0,
+
+03:56.480 --> 04:02.730
+pro x větší než 0 bude derivace
+přirozeného logaritmu absolutní hodnoty x
+
+04:02.740 --> 04:11.090
+rovna derivaci přirozeného logaritmu x,
+
+04:11.100 --> 04:16.219
+která je rovna 1/x,
+pro x větší než 0.
+
+04:16.239 --> 04:18.150
+Tak si to načrtněme.
+
+04:18.159 --> 04:20.850
+Udělám to zeleně,
+je to rovno 1/x.
+
+04:20.870 --> 04:22.700
+Takže 1/x,
+to už jsme někdy viděli.
+
+04:22.720 --> 04:26.340
+Vypadá to nějak takto.
+
+04:26.360 --> 04:32.744
+Můj nejlepší pokus nakreslit to
+podle vertikální a horizontální asymptoty.
+
+04:32.764 --> 04:36.980
+Vypadá to tedy nějak takto.
+
+04:36.990 --> 04:46.290
+Takže toto tady je
+1/x pro x větší než 0.
+
+04:46.300 --> 04:49.170
+A ukazuje nám to,
+můžete to jasně vidět,
+
+04:49.190 --> 04:51.370
+tu směrnici tady.
+
+04:51.390 --> 04:54.170
+Směrnice tečny je 1
+a můžete vidět,
+
+04:54.190 --> 04:56.480
+když se podíváte
+tady na křivku derivace,
+
+04:56.490 --> 04:58.500
+že derivace by tady měla být rovna 1.
+
+04:58.520 --> 05:03.810
+Když jdeme blíže k 0,
+máme tady velmi prudkou směrnici vzhůru.
+
+05:03.830 --> 05:07.220
+A také vidíme, že derivace
+má velmi vysokou hodnotu.
+
+05:07.230 --> 05:11.470
+A pak, když jdeme od 0,
+je to stále strmé, stále strmé,
+
+05:11.490 --> 05:14.880
+ale pak je to pozvolnější a pozvolnější,
+až se dostaneme k 1.
+
+05:14.890 --> 05:19.440
+A pak je to pozvolnější a pozvolnější,
+
+05:19.470 --> 05:22.460
+ale nikdy se to nedostane
+do úplné roviny.
+
+05:22.480 --> 05:24.890
+A to přesně dělá i ta derivace.
+
+05:24.910 --> 05:28.830
+A co dělá přirozený logaritmus
+absolutní hodnoty x tady?
+
+05:28.850 --> 05:33.660
+Když jsme tady,
+směrnice se velmi blíží 0.
+
+05:33.680 --> 05:34.630
+Je to symetrické.
+
+05:34.650 --> 05:38.120
+Směrnice tady je v podstatě
+opakem směrnice tady.
+
+05:38.130 --> 05:40.060
+Možná to objasním,
+když to tady ukážu.
+
+05:40.080 --> 05:43.920
+Jakkoli vypadá směrnice tady,
+
+05:43.940 --> 05:49.024
+je přesný opak toho, jaká je směrnice
+na symetrickém bodě na druhé straně.
+
+05:49.024 --> 05:52.430
+Když je na druhé straně
+hodnota směrnice tady,
+
+05:52.430 --> 05:58.160
+tady přesně bude její opak,
+bude to přímo tady.
+
+05:58.180 --> 06:00.850
+A pak je směrnice
+zápornější a zápornější.
+
+06:00.870 --> 06:02.430
+Ta směrnice tady.
+
+06:02.440 --> 06:03.910
+Tady je směrnice +1.
+
+06:03.920 --> 06:06.150
+Tady to bude -1.
+
+06:06.160 --> 06:09.390
+Takže tady je směrnice tečny -1.
+
+06:09.400 --> 06:12.850
+A jak se pak dostáváme blíže 0,
+bude to čím dál zápornější.
+
+06:12.870 --> 06:16.300
+Takže derivace přirozeného logaritmu
+absolutní hodnoty x,
+
+06:16.300 --> 06:19.770
+když x je menší než 0,
+vypadá nějak takto.
+
+06:19.790 --> 06:22.260
+Vypadá takto.
+
+06:22.290 --> 06:27.800
+A jak vidíte, není to opět
+žádný ultrapřesný důkaz.
+
+06:27.810 --> 06:32.190
+Ale vidíte, že derivace
+přirozeného logaritmu
+
+06:32.210 --> 06:38.420
+absolutní hodnoty x je rovna 1/x
+pro všechna x nerovnající se 0.
+
+06:38.440 --> 06:42.450
+Takže to vidíte
+a snad si dokážete i představit,
+
+06:42.460 --> 06:45.670
+že ta derivace...
+Napíšu to takto.
+
+06:45.700 --> 06:53.978
+Derivace přirozeného logaritmu
+absolutní hodnoty x
+
+06:53.980 --> 07:04.560
+se opravdu rovná 1/x
+pro všechna x nerovnající se 0.
+
+07:04.580 --> 07:08.020
+Toto je tedy
+mnohem lepší integrál 1/x.
+
+07:08.030 --> 07:12.090
+Má úplně stejný definiční obor.
+
+07:12.100 --> 07:14.950
+Takže když budeme přemýšlet
+nad integrálem 1/x...
+
+07:14.970 --> 07:16.900
+A neudělal jsem tady přesný důkaz.
+
+07:16.910 --> 07:19.350
+Nepoužil jsem definici derivace
+a další ty věci.
+
+07:19.370 --> 07:21.950
+Ale dal jsem vám snad
+jakýsi vizuální důkaz.
+
+07:21.960 --> 07:22.900
+Řekli bychom tedy,
+
+07:22.920 --> 07:26.550
+že to je přirozený logaritmus
+absolutní hodnoty x plus c,
+
+07:26.560 --> 07:29.728
+a teď máme integrál,
+který má stejný definiční obor
+
+07:29.728 --> 07:33.178
+jako funkce,
+kterou integrujeme.

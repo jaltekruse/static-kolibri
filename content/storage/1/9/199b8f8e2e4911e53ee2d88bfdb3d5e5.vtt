@@ -1,0 +1,841 @@
+WEBVTT
+
+00:00.235 --> 00:01.469
+- [Voiceover] What I
+hope to do in this video
+
+00:01.469 --> 00:04.274
+is prove that if a
+function is differentiable
+
+00:04.274 --> 00:06.442
+at some point, C, that it's also
+
+00:06.442 --> 00:09.002
+going to be continuous at that point C.
+
+00:09.002 --> 00:11.435
+But, before we do the proof,
+let's just remind ourselves
+
+00:11.435 --> 00:15.008
+what differentiability means
+and what continuity means.
+
+00:15.008 --> 00:17.246
+So, first, differentiability.
+
+00:17.442 --> 00:21.469
+Differentiability
+
+00:21.947 --> 00:24.210
+So, let's think about that, first.
+
+00:24.210 --> 00:27.440
+And it's always helpful to draw ourselves
+
+00:27.440 --> 00:29.242
+a function.
+
+00:29.374 --> 00:32.744
+So, that's our Y-axis.
+
+00:32.744 --> 00:36.269
+This is our X-axis.
+
+00:36.269 --> 00:38.507
+And let's just draw some function, here.
+
+00:38.507 --> 00:40.746
+So, let's say my function looks like this
+
+00:40.746 --> 00:44.133
+and we care about the point X equals C,
+
+00:44.133 --> 00:45.773
+which is right over here.
+
+00:45.773 --> 00:48.470
+So, that's the point X equals C,
+
+00:48.470 --> 00:50.434
+and then, this value, of course,
+
+00:50.434 --> 00:53.337
+is going to be F of C.
+
+00:53.337 --> 00:54.709
+F of C.
+
+00:54.709 --> 00:57.813
+And one way that we
+can find the derivative
+
+00:57.813 --> 01:00.901
+at X equals C, or the
+slope of the tangent line
+
+01:00.901 --> 01:05.270
+at X equals C is, we could
+start with some other point.
+
+01:05.270 --> 01:08.547
+Say, some arbitrary X out here.
+
+01:08.547 --> 01:11.479
+So, let's say this is
+some arbitrary X out here.
+
+01:11.479 --> 01:13.944
+So, then, this point right
+over there, this value,
+
+01:13.944 --> 01:17.629
+this Y value, would be F of X.
+
+01:17.629 --> 01:19.108
+Would be F of X.
+
+01:19.108 --> 01:23.267
+This graph, of course, is
+a graph of Y equals F of X.
+
+01:23.267 --> 01:27.513
+And we can think about finding
+the slope of this line,
+
+01:27.913 --> 01:30.802
+this secant line between these two points,
+
+01:30.802 --> 01:33.609
+but then, we can find the
+limit as X approaches C.
+
+01:33.609 --> 01:35.971
+And as X approaches C, this secant,
+
+01:35.971 --> 01:37.947
+the slope of the secant
+line is going to approach
+
+01:37.947 --> 01:39.303
+the slope of the tangent line, or,
+
+01:39.303 --> 01:40.972
+it's going to be the derivative.
+
+01:40.972 --> 01:43.613
+And so, we could take the limit...
+
+01:44.811 --> 01:48.134
+The limit as X approaches C,
+
+01:48.134 --> 01:50.846
+as X approaches C,
+
+01:50.846 --> 01:54.301
+of the slope of this secant line.
+
+01:54.301 --> 01:55.206
+So, what's the slope?
+
+01:55.206 --> 01:57.641
+Well, it's gonna be change
+in Y over change in X.
+
+01:57.641 --> 02:01.711
+The change in Y is F of X minus F of C,
+
+02:01.711 --> 02:03.678
+that's our change in Y right over here.
+
+02:03.678 --> 02:06.266
+This is all review, this
+is just one definition
+
+02:06.266 --> 02:08.700
+of the derivative, or one way
+to think about the derivative.
+
+02:08.700 --> 02:12.506
+So, it's going to be F of X minus F of C,
+
+02:12.506 --> 02:16.577
+that's our change in Y,
+over our change in X.
+
+02:16.577 --> 02:20.371
+Over our change in X, which is X minus C.
+
+02:20.371 --> 02:23.974
+It is X minus,
+
+02:23.974 --> 02:26.480
+X minus C.
+
+02:26.480 --> 02:29.445
+So, if this limit exists,
+then, we're able to find
+
+02:29.445 --> 02:32.066
+the slope of the tangent
+line at this point,
+
+02:32.066 --> 02:34.172
+and we call that slope
+of the tangent line,
+
+02:34.172 --> 02:37.510
+we call that the derivative at X equals C.
+
+02:37.510 --> 02:41.908
+We say that this is going
+to be equal to F prime,
+
+02:41.908 --> 02:42.877
+F prime of C.
+
+02:42.877 --> 02:44.779
+All of this is review.
+
+02:44.779 --> 02:47.370
+So, if we're saying, one
+way to think about it,
+
+02:47.370 --> 02:49.240
+if we're saying that the function, F,
+
+02:49.240 --> 02:51.362
+is differentiable at X equals C,
+
+02:51.362 --> 02:53.000
+we're really just saying that this limit
+
+02:53.000 --> 02:55.642
+right over here actually exists.
+
+02:55.642 --> 02:56.978
+And if this limit actually exists,
+
+02:56.978 --> 02:59.573
+we just call that value F prime of C.
+
+02:59.573 --> 03:02.079
+So, that's just a review
+of differentiability.
+
+03:02.079 --> 03:06.338
+Now, let's give ourselves
+a review of continuity.
+
+03:06.338 --> 03:10.581
+Continuity.
+
+03:10.581 --> 03:13.671
+So, the definition for continuity is
+
+03:13.671 --> 03:18.671
+if the limit as X approaches C of F of X
+
+03:19.412 --> 03:22.813
+is equal to F of C.
+
+03:22.813 --> 03:25.218
+Now, this might seem a
+little bit, you know,
+
+03:25.218 --> 03:27.908
+well, it might pop out
+to you as being intuitive
+
+03:27.908 --> 03:29.900
+or it might seem a little,
+well, where did this come from,
+
+03:29.900 --> 03:31.277
+well, let's visualize it and hopefully
+
+03:31.277 --> 03:33.471
+it'll make some intuitive sense.
+
+03:33.471 --> 03:36.258
+So, if you have a function,
+
+03:36.258 --> 03:37.300
+so, let's actually look at some cases
+
+03:37.300 --> 03:39.080
+where you're not continuous.
+
+03:39.080 --> 03:41.966
+And that actually might make
+it a little bit more clear.
+
+03:41.966 --> 03:45.443
+So, if you had a point
+discontinuity at X equals C,
+
+03:45.443 --> 03:48.459
+so, this is X equals C, so, if you had
+
+03:48.459 --> 03:50.608
+a point discontinuity, so,
+
+03:50.608 --> 03:53.026
+lemme draw it like this, actually.
+
+03:53.026 --> 03:55.645
+So, you have a gap, here, and X equals,
+
+03:55.645 --> 03:59.779
+when X equals C, F of C
+is actually way up here.
+
+03:59.779 --> 04:03.475
+So, this is F of C, and then,
+
+04:03.475 --> 04:05.744
+the function continues like this.
+
+04:05.744 --> 04:09.170
+The limit, as X approaches C of F of X
+
+04:09.170 --> 04:13.512
+is going to be this value,
+which is clearly different
+
+04:13.512 --> 04:14.646
+than F of C.
+
+04:14.646 --> 04:17.433
+This value right over here,
+if you take the limit,
+
+04:17.433 --> 04:22.414
+if you take the limit as
+X approaches C of F of X,
+
+04:23.043 --> 04:24.272
+you're approaching this value.
+
+04:24.272 --> 04:26.144
+This, right over here, is the limit,
+
+04:26.144 --> 04:30.945
+as X approaches C of F of X,
+which is different than F of C.
+
+04:30.945 --> 04:33.410
+So, it makes it, so, this
+definition of continuity
+
+04:33.410 --> 04:35.204
+seems to be good, at least for this case,
+
+04:35.204 --> 04:38.980
+because this is not a continuous function,
+
+04:38.980 --> 04:40.900
+you have a point discontinuity.
+
+04:40.900 --> 04:43.399
+So, for at least in this case, our,
+
+04:43.399 --> 04:45.671
+this definition of
+continuity would properly
+
+04:45.671 --> 04:49.371
+identify this as not
+a continuous function.
+
+04:49.371 --> 04:52.533
+Now, you could also think
+about a jump discontinuity.
+
+04:52.533 --> 04:55.679
+You can also think about
+a jump discontinuity.
+
+04:55.679 --> 04:57.068
+So, let's look at this.
+
+04:57.068 --> 05:00.110
+And all this is, hopefully,
+a little bit of review.
+
+05:00.110 --> 05:03.045
+So, a jump discontinuity
+at C, at X equals C,
+
+05:03.045 --> 05:04.900
+might look like this.
+
+05:04.900 --> 05:07.598
+Might look like this.
+
+05:07.598 --> 05:11.343
+So, this is at X equals C.
+
+05:11.343 --> 05:13.870
+So, this is X equals C right over here.
+
+05:13.870 --> 05:17.145
+This would be F of C.
+
+05:17.145 --> 05:19.501
+But, if you tried to
+find a value at the limit
+
+05:19.501 --> 05:21.935
+as X approaches C of F of X,
+
+05:21.935 --> 05:24.041
+you'd get a different
+value as you approach
+
+05:24.041 --> 05:27.333
+C from the negative side, you
+would approach this value,
+
+05:27.333 --> 05:29.143
+and as you approach C
+from the positive side,
+
+05:29.143 --> 05:32.246
+you would approach F of C, and
+so, the limit wouldn't exist.
+
+05:32.246 --> 05:34.103
+So, this limit right
+over here wouldn't exist
+
+05:34.103 --> 05:37.503
+in the case of jump, of this
+type of a jump discontinuity.
+
+05:37.503 --> 05:40.547
+So, once again, this
+definition would properly
+
+05:40.547 --> 05:43.808
+say that this is not,
+this one right over here,
+
+05:43.808 --> 05:47.674
+is not continuous, this limit
+actually would not even exist.
+
+05:47.674 --> 05:49.671
+And then, you could even look at a,
+
+05:49.671 --> 05:54.245
+you could look at a function
+that is truly continuous.
+
+05:54.245 --> 05:57.346
+If you look at a function
+that is truly continuous.
+
+05:57.346 --> 06:00.077
+So, something like this.
+
+06:00.077 --> 06:01.403
+Something like this.
+
+06:01.403 --> 06:03.337
+That is X equals C.
+
+06:03.337 --> 06:05.100
+Well, this is F of C.
+
+06:05.100 --> 06:06.940
+This is F of C.
+
+06:06.940 --> 06:09.843
+And if you were to take the
+limit as X approaches C,
+
+06:09.843 --> 06:13.404
+as X approaches C from
+either side of F of X,
+
+06:13.404 --> 06:15.371
+you're going to approach F of C.
+
+06:15.371 --> 06:19.234
+So, here, you have the
+limit as X approaches C
+
+06:19.234 --> 06:22.873
+of F of X, indeed, is equal to F of C.
+
+06:22.873 --> 06:25.537
+So, it's what you would expect
+for a continuous function.
+
+06:25.537 --> 06:27.346
+So, now that we've done that review
+
+06:27.346 --> 06:29.669
+of differentiability and continuity,
+
+06:29.669 --> 06:32.370
+let's prove that differentiability
+
+06:32.370 --> 06:35.180
+actually implies continuity,
+and I think it's important
+
+06:35.180 --> 06:36.767
+to kinda do this review,
+just so that you can
+
+06:36.767 --> 06:38.703
+really visualize things.
+
+06:38.703 --> 06:42.368
+So, differentiability implies this limit
+
+06:42.368 --> 06:44.101
+right over here exists.
+
+06:44.101 --> 06:46.378
+So, let's start with a
+slightly different limit.
+
+06:46.378 --> 06:48.941
+Lemme draw a line, here, actually.
+
+06:48.941 --> 06:51.744
+Lemme draw a line just so we're
+doing something different.
+
+06:51.744 --> 06:56.101
+So, let's take, let us take the limit
+
+06:56.101 --> 07:00.844
+as X approaches C of F of X,
+
+07:01.573 --> 07:04.511
+of F of X minus F of C.
+
+07:04.511 --> 07:07.175
+Of F of X minus F of C.
+
+07:07.175 --> 07:09.046
+Well, can we rewrite this?
+
+07:09.046 --> 07:11.744
+Well, we could rewrite this as the limit,
+
+07:11.744 --> 07:14.739
+as X approaches C, and
+we could essentially
+
+07:14.739 --> 07:16.269
+take this expression and multiply
+
+07:16.269 --> 07:18.236
+and divide it by X minus C.
+
+07:18.236 --> 07:20.842
+So, let's multiply it times X minus C.
+
+07:20.842 --> 07:24.536
+X minus C, and divide it by X minus C.
+
+07:24.536 --> 07:28.608
+So, we have F of X minus F of C,
+
+07:28.608 --> 07:31.635
+all of that over X minus C.
+
+07:31.635 --> 07:33.980
+So, all I did is I
+multiplied and I divided
+
+07:33.980 --> 07:35.900
+by X minus C.
+
+07:35.900 --> 07:38.644
+Well, what's this limit
+going to be equal to?
+
+07:38.644 --> 07:40.574
+This is going to be equal to,
+
+07:40.574 --> 07:42.700
+it's going to be the limit,
+and I'm just applying
+
+07:42.700 --> 07:47.507
+the property of limit, applying
+a property of limits, here.
+
+07:47.507 --> 07:49.468
+So, the limit of the product is equal to
+
+07:49.468 --> 07:51.581
+the same thing as a product of the limits.
+
+07:51.581 --> 07:55.365
+So, it's the limit as X
+approaches C of X minus C,
+
+07:55.365 --> 07:58.631
+times the limit, lemme write this way,
+
+07:58.631 --> 08:03.631
+times the limit as X approaches C
+
+08:03.802 --> 08:08.274
+of F of X minus F of C,
+
+08:08.274 --> 08:11.376
+all of that over X minus C.
+
+08:11.376 --> 08:15.344
+Now, what is this thing right over here?
+
+08:15.511 --> 08:19.707
+Well, if we assume that
+F is differentiable at C,
+
+08:19.707 --> 08:20.944
+and we're going to do that, actually,
+
+08:20.944 --> 08:22.443
+I should have started off there.
+
+08:22.443 --> 08:26.867
+Let's assume 'cause we wanted
+to show the differentiability,
+
+08:26.867 --> 08:28.475
+it proves continuity.
+
+08:28.475 --> 08:32.946
+If we assume F differentiable,
+
+08:34.146 --> 08:37.667
+differentiable at C, well then,
+
+08:37.667 --> 08:41.431
+this right over here is just
+going to be F prime of C.
+
+08:41.807 --> 08:43.441
+This right over here, we
+just saw it right over here,
+
+08:43.441 --> 08:45.407
+that's this exact same thing.
+
+08:45.407 --> 08:49.702
+This is F prime, F prime of C.
+
+08:50.104 --> 08:51.334
+And what is this thing right over here?
+
+08:51.334 --> 08:54.413
+The limit as X approaches C of X minus C?
+
+08:54.413 --> 08:55.679
+Well, that's just gonna be zero.
+
+08:55.679 --> 08:57.180
+As X approaches C, there's gonna become,
+
+08:57.180 --> 09:00.900
+approach C minus C, that's
+just going to be zero.
+
+09:01.474 --> 09:04.645
+So, what's zero times F prime of C?
+
+09:04.645 --> 09:06.342
+Well, F prime of C is just
+going to be some value,
+
+09:06.342 --> 09:09.276
+so, zero times anything
+is just going to be zero.
+
+09:09.276 --> 09:10.942
+So, I did all that work to get a zero.
+
+09:10.942 --> 09:12.909
+Now, why is this interesting?
+
+09:12.909 --> 09:14.874
+Well, we just said, we just assumed
+
+09:14.874 --> 09:16.714
+that if F is differentiable at C,
+
+09:16.714 --> 09:20.803
+and we evaluate this limit, we get zero.
+
+09:20.803 --> 09:23.766
+So, if we assume F is differentiable at C,
+
+09:23.766 --> 09:27.946
+we can write, we can write the limit,
+
+09:27.946 --> 09:32.033
+I'm just rewriting it, the
+limit as X approaches C
+
+09:32.033 --> 09:36.811
+of F of X minus F of
+C, and I could even put
+
+09:36.811 --> 09:37.812
+parenthesis around it like that,
+
+09:37.812 --> 09:39.545
+which I already did up here,
+
+09:39.545 --> 09:42.008
+is equal to zero.
+
+09:42.008 --> 09:43.100
+Well, this is the same thing,
+
+09:43.100 --> 09:44.379
+I could use limit properties again,
+
+09:44.379 --> 09:46.066
+this is the same thing as saying,
+
+09:46.066 --> 09:47.406
+and I'll do it over, well, actually,
+
+09:47.406 --> 09:49.514
+lemme do it down here.
+
+09:49.514 --> 09:54.514
+The limit as X approaches C of F of X
+
+09:55.235 --> 09:59.373
+minus the limit as X approaches C
+
+09:59.634 --> 10:04.634
+of F of C, of F of C, is equal to zero.
+
+10:05.375 --> 10:06.967
+The different, the limit of the difference
+
+10:06.967 --> 10:09.233
+is the same thing as the
+difference of the limits.
+
+10:09.233 --> 10:11.834
+Well, what's this thing
+over here going to be?
+
+10:11.834 --> 10:13.301
+Well, F of C is just a number,
+
+10:13.301 --> 10:14.844
+it's not a function of X anymore,
+
+10:14.844 --> 10:17.637
+it's just, F of C is going
+to valuate it to something.
+
+10:17.637 --> 10:20.668
+So, this is just going to be F of C.
+
+10:20.900 --> 10:22.646
+This is just going to be F of C.
+
+10:22.646 --> 10:25.303
+So, the limit of F of X as X approaches C,
+
+10:25.303 --> 10:27.878
+minus F of C is equal to zero.
+
+10:27.878 --> 10:30.733
+Well, just add F of C to both
+sides and what do you get?
+
+10:30.733 --> 10:34.933
+Well, you get the limit as X approaches C
+
+10:34.933 --> 10:38.804
+of F of X is equal to F of C.
+
+10:38.911 --> 10:41.033
+And this is the definition of continuity.
+
+10:41.033 --> 10:44.402
+The limit of my function as X approaches C
+
+10:44.402 --> 10:47.167
+is equal to the function,
+is equal to the value
+
+10:47.167 --> 10:49.068
+of the function at C.
+
+10:49.068 --> 10:53.340
+This is, this means that
+our function is continuous.
+
+10:54.101 --> 10:57.347
+Continuous at C.
+
+10:57.347 --> 11:01.012
+So, just a reminder, we started assuming
+
+11:01.012 --> 11:03.609
+F differentiable at C, we use that fact
+
+11:03.609 --> 11:06.847
+to evaluate this limit right over here,
+
+11:06.847 --> 11:08.875
+which, we got to be equal to zero,
+
+11:08.875 --> 11:11.075
+and if that limit is equal to zero,
+
+11:11.075 --> 11:13.681
+then, it just follows, just
+doing a little bit of algebra
+
+11:13.681 --> 11:15.380
+and using properties of limits,
+
+11:15.380 --> 11:17.736
+that the limit as X approaches C of F of X
+
+11:17.736 --> 11:20.771
+is equal to F of C, and
+that's our definition
+
+11:20.771 --> 11:23.379
+of being continuous.
+
+11:23.379 --> 11:26.345
+Continuous at the point C.
+
+11:26.345 --> 11:27.714
+So, hopefully, that satisfies you.
+
+11:27.714 --> 11:31.007
+If we know that the
+derivative exists at a point,
+
+11:31.007 --> 11:32.707
+if it's differentiable at a point C,
+
+11:32.707 --> 11:35.780
+that means it's also
+continuous at that point C.
+
+11:35.780 --> 11:38.513
+The function is also
+continuous at that point.

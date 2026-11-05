@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00.540 --> 00:04.650
+Wir sollen log_3 (27x) vereinfachen.
+
+00:04.650 --> 00:06.400
+Dieser Logarithmus ist bereits sehr vereinfacht.
+
+00:06.400 --> 00:09.620
+Aber ich nehme mal an, wir sollen
+Logarithmus-Eigenschaften anwenden,
+
+00:09.620 --> 00:13.580
+und eine andere Schreibweise dafür finden.
+
+00:13.580 --> 00:15.200
+Legen wir los.
+
+00:15.200 --> 00:23.120
+Bei diesem Logarithmus hier fragen wir uns, welchen
+Exponenten 3 haben muss, damit wir 27x erhalten.
+
+00:23.120 --> 00:26.640
+27x ist dasselbe wie 27 ⋅ x.
+
+00:26.640 --> 00:48.240
+Die Logarithmus-Eigenschaft, die wir verwenden
+sollen, lautet log_b (a ⋅ c) = log_b (a) + log_b (c).
+
+00:48.240 --> 00:51.080
+Wir kennen das von den Exponentialeigenschaften,
+
+00:51.080 --> 00:54.820
+dass, wenn du zwei Exponenten mit gleicher Basis hast,
+
+00:54.820 --> 00:55.840
+die Exponenten addieren kannst.
+
+00:55.840 --> 00:57.620
+Ich zeige es dir.
+
+00:57.620 --> 01:01.680
+Falls dieser Teil etwas verwirrend ist:
+das Wichtige an diesem Beispiel ist die Anwendung.
+
+01:01.680 --> 01:04.140
+Aber es ist noch besser,
+wenn du die Intuition dafür hast.
+
+01:04.140 --> 01:10.420
+Nehmen wir log_b (a ⋅ c) = x.
+
+01:10.430 --> 01:13.680
+Das hier ergibt also x.
+
+01:13.680 --> 01:17.340
+Das hier drüben ergibt y.
+
+01:17.340 --> 01:22.070
+log_b (a) = y.
+
+01:22.070 --> 01:32.920
+Und sagen wir mal, dass log_b (c) = z ist.
+
+01:32.920 --> 01:47.480
+Das hier sagt uns, dass b^x = a ⋅ c ist.
+
+01:47.480 --> 01:54.680
+Das hier sagt uns, dass b^y = a ist.
+
+01:54.680 --> 02:01.600
+Und das hier sagt uns, dass b^z = c ist.
+
+02:01.600 --> 02:03.840
+Ich schreibe also dieselbe Gleichung,
+
+02:03.840 --> 02:07.120
+ich schreibe sie nur als Exponentialgleichung,
+
+02:07.120 --> 02:09.200
+anstatt als logarithmische Gleichung.
+
+02:09.200 --> 02:12.300
+b^z = c.
+
+02:12.300 --> 02:22.920
+Es sind dieselben Gleichungen, nur anders formuliert.
+
+02:22.920 --> 02:28.360
+Wenn wir wissen, dass a = b^y ist,
+
+02:28.360 --> 02:34.020
+und dass c = b^z ist,
+
+02:34.020 --> 02:49.100
+dann können wir schreiben, dass b^x = b^y ⋅ b^z ist.
+
+02:49.100 --> 02:53.820
+Und wir wissen von unseren Exponentialeigenschaften,
+
+02:53.830 --> 02:56.650
+dass, wenn wir b^y ⋅ b^z rechnen,
+
+02:56.650 --> 03:04.140
+es dasselbe ist wie b^(y + z).
+
+03:04.140 --> 03:06.620
+Das wissen wir von unseren Exponentialeigenschaften.
+
+03:06.620 --> 03:10.460
+Wenn b^(y + z) also dasselbe ist wie b^x,
+
+03:10.460 --> 03:18.800
+dann wissen wir, dass x = y + z sein muss.
+
+03:18.800 --> 03:21.370
+Wenn du verwirrt bist, ist das nicht so schlimm.
+
+03:21.370 --> 03:24.800
+Das wichtigste ist, dass du weißt, wie man es anwendet.
+
+03:24.800 --> 03:28.520
+Dann kannst du darüber nachdenken
+und ein paar Zahlen ausprobieren.
+
+03:28.520 --> 03:31.620
+Du musst nur verstehen, dass
+Logarithmen nur Exponenten sind.
+
+03:31.620 --> 03:34.480
+Was bedeutet das?
+
+03:34.480 --> 03:36.640
+Wenn du einen Logarithmus ausrechnest,
+
+03:36.640 --> 03:41.360
+bekommst du einen Exponenten,
+den z.B. b haben muss, um a ⋅ c zu erhalten.
+
+03:41.360 --> 03:44.340
+Wir wenden jetzt diese Eigenschaft an.
+
+03:44.340 --> 04:02.400
+Wenn wir sie auf diesen Logarithmus anwenden,
+schreiben wir log_3 (27 ⋅ x) = log_3 (27) + log_3 (x).
+
+04:02.400 --> 04:05.500
+Und das hier können wir ausrechnen.
+
+04:05.510 --> 04:11.740
+Dieser Logarithmus sagt uns, welchen
+Exponenten 3 haben muss, damit wir 27 erhalten.
+
+04:11.740 --> 04:15.620
+3^? = 27.
+
+04:15.620 --> 04:18.350
+3^3 = 27.
+
+04:18.350 --> 04:20.870
+3 ⋅ 3 = 9, 9 ⋅ 3 = 27.
+
+04:20.870 --> 04:23.367
+Das hier ergibt also 3.
+
+04:23.367 --> 04:31.940
+Wir erweitern also den Logarithmus, da
+wir jetzt zwei anstatt einem Term haben.
+
+04:31.940 --> 04:35.560
+Die ursprüngliche Schreibweise ist
+eigentlich die vereinfachte Version.
+
+04:35.560 --> 04:41.480
+Aber wenn wir es umschreiben, wird der erste Term 3.
+
+04:41.480 --> 04:46.060
+Und dann haben wir noch + log_3 (x).
+
+04:46.060 --> 04:54.360
+Das ist eine alternative Schreibweise von log_3 (27x).
+
+04:54.360 --> 04:58.120
+Wir haben eigentlich nicht wirklich etwas vereinfacht.
+
+04:58.120 --> 05:02.800
+Wir haben nur Logarithmus-Eigenschaften
+angewandt und eine alternative Schreibweise gefunden.

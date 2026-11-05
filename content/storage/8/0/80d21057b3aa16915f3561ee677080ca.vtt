@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.122 --> 00:04.184
+W ostatnim filmie rozwinęliśmy w szereg Maclaurin`a cosinus x
+
+00:04.184 --> 00:06.738
+przybliżaliśmy go używając wielomianu
+
+00:06.738 --> 00:08.334
+i zauważyliśmy dość ciekawy wzorzec.
+
+00:08.334 --> 00:10.782
+Zobaczmy czy możemy znaleźć podobny wzorzec jeśli spróbujemy
+
+00:10.782 --> 00:14.384
+przybliżyć sin(x) używając szeregu Maclaurin`a.
+
+00:14.384 --> 00:17.293
+Raz jeszcze - szereg Maclaurin`a jest tym samym co
+
+00:17.293 --> 00:21.595
+szereg Taylora, w którym ustalamy punkt przybliżenia
+
+00:21.595 --> 00:27.108
+wokół x równego 0, zatem jest to szczególny przypadek szeregu Taylora.
+
+00:27.108 --> 00:32.762
+Zdefiniujmy f(x) = sin(x)
+
+00:32.808 --> 00:37.877
+f(x) jest teraz równe sin(x) i zróbmy to samo
+
+00:37.877 --> 00:40.256
+co zrobiliśmy w przypadku cosinusa x. Bierzmy tylko kolejne
+
+00:40.256 --> 00:44.754
+pochodne z sin(s) dużo szybciej. W przypadku pierwszej
+
+00:44.754 --> 00:50.348
+pochodnej z sin(x) - jest ona zwyczajnie równa cos(x). Druga pochodna
+
+00:50.348 --> 00:56.441
+sin(x) jest pochodną cox(x), która to jest równa minus sin(x)
+
+00:56.441 --> 00:59.302
+trzecia pochodna będzie pochodną tego
+
+00:59.302 --> 01:01.098
+napisze więc (3) zamiast pisać
+
+01:01.098 --> 01:04.231
+te wszystkie prim, prim, prim. Zatem trzecia pochodna jest
+
+01:04.231 --> 01:09.021
+pochodną tego, czyli jest to minus cos(x). Czwarta
+
+01:09.021 --> 01:12.975
+pochodna, czwarta pochodna jest pochodną tego
+
+01:12.975 --> 01:17.467
+czyli znów jest to plus sin(x). Widzisz, więc że jest tok samo jak z cos(x).
+
+01:17.467 --> 01:20.436
+Zapętla się to - po tym jak policzysz pochodne odpowiednią ilość czasu.
+
+01:20.436 --> 01:23.252
+Zależy nam - aby stworzyć szereg Maclauren`a - zależy nam
+
+01:23.252 --> 01:29.169
+na wyliczeniu funkcji oraz wszystkich tych pochodnych dla x = 0
+
+01:29.169 --> 01:32.215
+Zatem zróbmy to! Tym razem pozwól, że zrobię to innym
+
+01:32.215 --> 01:37.800
+kolorem, nie tym samym, niebieskim. Zrobię to fioletowym kolorem.
+
+01:37.800 --> 01:40.329
+Zatem f -ledwo go widać, weźmy jakiś
+
+01:40.329 --> 01:47.733
+inny odcień niebieskiego, ergo f(0) w tym przypadku wynosi zero i f -
+
+01:47.733 --> 01:51.938
+jej pierwsza pochodna w zerze jest równa 1. Cos(0)=1
+
+01:52.846 --> 01:59.267
+minus sin(0) będzie równy 0. Wobec tego f prim prim -
+
+01:59.267 --> 02:01.652
+druga pochodna w zerze jest równa 0.
+
+02:01.652 --> 02:06.944
+Trzecia pochodna w zerze jest równa minus 1.
+
+02:06.944 --> 02:10.800
+Cos(0)=1, masz minus tam, więc jest to
+
+02:10.800 --> 02:15.421
+minus jeden i czwarta pochodna w zerze będzie
+
+02:15.421 --> 02:19.733
+równa 0 - znów. Moglibyśmy tak kontynuować, ale znów wydaje się, że
+
+02:19.733 --> 02:22.169
+widać schemat 0, 1, 0, -1, 0 a później wracasz do
+
+02:22.169 --> 02:27.000
+dodatniej jedynki itd. itd.W takim razie znajdźmy
+
+02:27.000 --> 02:30.001
+wielomianowe przedstawienie używając szeregu Maclaurina.
+
+02:30.001 --> 02:33.995
+Tylko przypomnę - to tutaj rozpatrywaliśmy w przybliżeniu
+
+02:33.995 --> 02:36.148
+cos(x) i będziesz coraz bliżej i bliżej
+
+02:36.148 --> 02:38.615
+wartości cos(x), ściśle nie pokazuję Ci jak blisko
+
+02:38.615 --> 02:41.843
+i że jest to dokładnie tym samym co cos(x)
+
+02:41.843 --> 02:43.441
+ale będziesz coraz bliżej wartości cos(x)
+
+02:43.441 --> 02:46.046
+w miarę jak będziesz dodawał kolejne składniki i jeśli dodasz nieskończoną ilość
+
+02:46.046 --> 02:49.179
+będziesz nieskończenie blisko cos(x).
+
+02:49.179 --> 02:52.435
+Zróbmy to dla sin(x) - wezmę
+
+02:52.435 --> 02:56.518
+nowy kolor. Ten zielony będzie ładny. Zatem jest to
+
+02:56.518 --> 02:58.827
+nasze nowe p(x) w przybliżeniu będzie równe
+
+02:58.827 --> 03:02.067
+sin(x) - w miarę jak będziemy dodawać coraz to kolejne wyrazy
+
+03:02.067 --> 03:07.133
+Pierwszy wyraz - tutaj- f(0) będzie po prostu równy 0
+
+03:07.133 --> 03:10.467
+zatem nawet nie będziemy tego wliczać. Następny wyraz
+
+03:10.467 --> 03:15.333
+będzie równy - f'(0) równe jeden - razy x, więc będzie to x
+
+03:15.841 --> 03:19.901
+następnym wyrazem jest f'' - druga pochodna w zerze
+
+03:19.901 --> 03:23.436
+która, jak tu widzimy jest równa zero. Przewinę trochę na dół.
+
+03:23.436 --> 03:27.133
+To jest 0, więc nie będziemy mieć drugiego wyrazu
+
+03:27.133 --> 03:30.862
+to jest trzeci wyraz tutaj - trzecia pochodna sin(x)
+
+03:30.862 --> 03:34.831
+w zerze jest równa minus 1, zatem będziemy mieć
+
+03:34.831 --> 03:40.333
+minus jedynkę. Przewinę trochę na dół, abyś mógł zobaczyć to
+
+03:40.333 --> 03:44.877
+- to jest minus jeden, w tym przypadku, razy x^3 / 3!
+
+03:44.877 --> 03:50.836
+Zatem x^3 / 3!
+
+03:50.836 --> 03:54.446
+i następny wyraz będzie równy zero, ponieważ tyle jest równa
+
+03:54.446 --> 03:57.748
+czwarta pochodna. Czwarta pochodna
+
+03:57.748 --> 04:01.892
+w zerze jest kolejnym współczynnikiem. Widzimy, że będzie to 0
+
+04:01.892 --> 04:04.712
+więc odpadnie i tym co tutaj zobaczymy...
+
+04:04.712 --> 04:06.823
+właściwie to może nie wyliczyłem dostatecznie dużo przykładowych wyrazów
+
+04:06.823 --> 04:08.917
+dla Ciebie - abyś czuł się pewniej. Pozwól mi obliczyć
+
+04:08.963 --> 04:13.379
+jeszcze jeden wyraz do tego, żeby stało się to jasne,
+
+04:13.379 --> 04:17.067
+piąta pochodna będzie równa cos(x) - znów.
+
+04:17.067 --> 04:20.249
+Piąta pochodna, zrobię to tym samym kolorem
+
+04:20.249 --> 04:23.200
+po prostu, by było konsekwentnie. Piąta pochodna
+
+04:23.492 --> 04:28.608
+Piąta pochodna w zerze będzie równa jeden
+
+04:29.685 --> 04:34.148
+zatem czwarta pochodna w zerze jest równa zero. Przechodząc
+
+04:34.148 --> 04:38.133
+do piątej pochodnej będzie to
+
+04:38.133 --> 04:41.923
+plus jeden i jeśli dalej będę to robił będzie to plus jeden
+
+04:41.923 --> 04:47.184
+Zapisałbym jeden jako współczynnik razy x^5
+
+04:47.184 --> 04:49.867
+przez 5!, więc dzieje się tu coś interesującego
+
+04:49.867 --> 04:54.475
+i ponieważ cos(x) jest jedynką - w gruncie rzeczy - jeden razy
+
+04:54.475 --> 04:58.890
+x do zerowej, następnie nie mam x do pierwszej.
+
+04:58.890 --> 05:01.349
+Nie mam x do parzystych potęg, właściwie jeśli
+
+05:01.349 --> 05:04.089
+mam x do jakiejkolwiek parzystej potęgi
+
+05:04.089 --> 05:07.339
+dzielę ją przez silnie tej potęgi a znak
+
+05:07.339 --> 05:10.590
+zmienia się za każdym razem. Nie powinienem mówić
+
+05:10.590 --> 05:13.562
+'parzysta potęga' ponieważ zero nie jest parzyste. Myślę, że
+
+05:13.562 --> 05:16.333
+możesz sobie wyobrazić je jako parzyste, bo ... nie będę się w to
+
+05:16.333 --> 05:21.733
+zagłębiał, ale w gruncie rzeczy 0, 2, 4, 6 itd. itd.
+
+05:21.733 --> 05:25.451
+zatem to jest interesujące jeśli porównasz to do tego.
+
+05:25.451 --> 05:28.619
+To są wszystkie nieparzyste potęgi - to jest x^1
+
+05:28.619 --> 05:31.387
+przez 1!, nie napisałem tego tu, to jest x^3
+
+05:31.387 --> 05:34.385
+przez 3! dodać x^5 przez 5!
+
+05:34.385 --> 05:36.831
+Yah, zero byłoby parzystą liczbą, w każdym razie,
+
+05:36.831 --> 05:40.033
+nie - prawie. Mój umysł jest teraz gdzie indziej :)
+
+05:40.033 --> 05:42.866
+mógł(a)byś tak kontynuować, jeśli byś to zrobił
+
+05:42.866 --> 05:45.672
+zmienił(a)byś znak przy x^7
+
+05:45.672 --> 05:49.460
+przez 7! dodać x^9 przez 9!
+
+05:49.460 --> 05:51.067
+Zatem dzieję się tu coś interesującego - raz jeszcze
+
+05:51.067 --> 05:56.400
+widzisz ten rodzaj pochlebnej natury
+
+05:56.400 --> 05:59.467
+sinusa i cosinusa. Prawie to widzisz... one
+
+05:59.467 --> 06:01.395
+uzupełniają siebie wzajemnie - o tutaj cos(x)
+
+06:01.395 --> 06:05.714
+jest wszystkimi nieparzystymi potęgami x dzielonymi przez silnie z potęgi.
+
+06:05.714 --> 06:09.133
+sin(x) -jeśli weźmiesz jego przedstawienie wielomianem
+
+06:09.133 --> 06:12.867
+będą to wszystkie nieparzyste potęgi x dzielone przez swoje silnie -
+
+06:12.867 --> 06:17.195
+kolejno ze zmienionymi znakami. W następnym filmie rozwinę e^x
+
+06:17.195 --> 06:20.477
+i będzie to naprawdę fascynujące, że e^x będzie
+
+06:20.477 --> 06:24.430
+wyglądał jak kombinacja tego. Jednak nie do końca
+
+06:24.430 --> 06:27.462
+i tak naprawdę otrzymasz kombinację kiedy przejdziemy na
+
+06:27.462 --> 06:30.333
+liczby zespolone, a wtedy zacznie się robić
+
+06:30.333 --> 3:59:59.999
+naprawdę niesamowicie.

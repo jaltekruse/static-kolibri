@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.833 --> 00:02.881
+Musimy stawić czoła dość zniechęcającej
+
+00:02.881 --> 00:07.832
+całce nieoznaczonej z pi dzielone przez x logarytm naturalny z x dx
+
+00:07.832 --> 00:11.380
+Co moglibyśmy zrobić, by zbliżyć się do rozwiązania?
+
+00:11.380 --> 00:13.700
+Czy możemy całkować przez podstawienie?
+
+00:13.700 --> 00:18.810
+Cóż, by całkować przez podstawienie, chcielibyśmy znaleźć wyrażenie i jego pochodną.
+
+00:18.810 --> 00:25.776
+Co się stanie, jeśli przez u oznaczymy logarytm naturalny x?
+
+00:25.776 --> 00:29.445
+Czemu byłoby równe w tym wypadku du?
+
+00:29.445 --> 00:32.967
+du będzie pochodną logarytmu naturalnego x względem x
+
+00:32.967 --> 00:37.767
+co jest równe 1/x dx
+
+00:37.767 --> 00:44.833
+Jest to równoważne stwierdzeniu, że du/dx jest równe 1/x.
+
+00:44.833 --> 00:50.157
+Czy zatem widzimy 1/x dx gdzieś w naszym wyrażeniu?
+
+00:50.157 --> 00:51.300
+Cóż, jest trochę ukryte
+
+00:51.300 --> 00:52.200
+to nie jest aż tak oczywiste
+
+00:52.200 --> 00:57.167
+ale to x w mianowniku to 1/x i jest ono mnożone przez dx.
+
+00:57.167 --> 01:00.500
+Przepiszę nasze wyrażenie, żeby to, co mówię miało więcej sensu.
+
+01:00.500 --> 01:02.138
+Pierwsza rzecz jaką zrobię, to wyciągnę
+
+01:02.138 --> 01:04.233
+pi; powinienem użyć innego koloru
+
+01:04.233 --> 01:06.411
+bo tego już używam...
+
+01:06.411 --> 01:08.547
+wyciągnę zatem pi i postawię na początku,
+
+01:08.547 --> 01:11.633
+wyciągnę pi przed całkę.
+
+01:11.633 --> 01:13.795
+Zatem to będzie całka z
+
+01:13.795 --> 01:16.967
+i najpierw napiszę 1 dzielone przez ln(x)
+
+01:16.967 --> 01:18.950
+1 przez logarytm naturalny x
+
+01:18.950 --> 01:21.550
+razy 1/x
+
+01:21.550 --> 01:23.454
+dx
+
+01:23.454 --> 01:24.300
+I teraz staje się to trochę jaśniejsze.
+
+01:24.300 --> 01:29.167
+Te wyrażenia są całkowicie równoważne.
+
+01:29.167 --> 01:30.967
+Ale to pokazuje nam, że tak
+
+01:30.967 --> 01:33.700
+całkowanie przez podstawienie tu zadziała.
+
+01:33.700 --> 01:36.922
+Naszym u będzie logarytm naturalny x
+
+01:36.922 --> 01:39.337
+A naszym du będzie 1/x dx
+
+01:39.337 --> 01:41.473
+1/x dx
+
+01:41.473 --> 01:44.633
+Naszym du jest 1/x dx
+
+01:44.633 --> 01:46.535
+Przepiszmy tę całkę.
+
+01:46.535 --> 01:47.603
+Będzie ona równa
+
+01:47.603 --> 01:52.386
+pi razy całka nieoznaczona z
+
+01:52.386 --> 01:54.567
+1/u
+
+01:54.567 --> 01:57.402
+bo logarytm naturalny z x to u
+
+01:57.402 --> 01:59.445
+oznaczyliśmy u jako ln(x)
+
+01:59.445 --> 02:02.046
+razy du.
+
+02:02.046 --> 02:04.972
+razy du.
+
+02:04.972 --> 02:06.179
+I teraz zostają już tylko proste rachunki.
+
+02:06.179 --> 02:08.594
+Jaka jest całka tego wyrażenia?
+
+02:08.594 --> 02:09.801
+I robiliśmy już
+
+02:09.801 --> 02:11.798
+wiele podobnych przykładów.
+
+02:11.798 --> 02:13.470
+Będzie to równe
+
+02:13.470 --> 02:15.606
+pi
+
+02:15.606 --> 02:17.700
+razy logarytm naturalny
+
+02:17.700 --> 02:21.551
+logarytm naturalny z wartości bezwzględnej
+
+02:21.551 --> 02:23.455
+z u
+
+02:23.455 --> 02:26.380
+żeby obejmowało to także ujemne wartości u.
+
+02:26.380 --> 02:28.284
+Logarytm naturalny z wartości bezwzględnej u
+
+02:28.284 --> 02:30.189
+plus C.
+
+02:30.189 --> 02:32.139
+Nie możemy zapomnieć o stałej.
+
+02:32.139 --> 02:33.857
+Plus C.
+
+02:33.857 --> 02:36.876
+I prawie gotowe. Pozostaje tylko odwrócić podstawienie.
+
+02:36.876 --> 02:38.700
+u jest równe logarytm naturalny x.
+
+02:38.700 --> 02:40.900
+Zostajemy zatem z tym ciekawie wyglądającym wyrażeniem.
+
+02:40.900 --> 02:43.888
+Tę całą całkę nieoznaczoną uprościliśmy,
+
+02:43.888 --> 02:44.967
+następnie policzyliśmy
+
+02:44.967 --> 02:46.833
+i jest ona równa pi
+
+02:46.833 --> 02:50.033
+razy logarytm naturalny
+
+02:50.033 --> 02:53.100
+z wartości bezwzględnej u
+
+02:53.100 --> 02:56.148
+ale u to logarytm naturalny x
+
+02:56.148 --> 02:57.727
+logarytm naturalny x
+
+02:57.727 --> 03:02.046
+i do tego mamy jeszcze plus C
+
+03:02.046 --> 03:03.033
+o, tutaj.
+
+03:03.033 --> 03:04.967
+I mogliśmy od początku przypuszczać
+
+03:04.967 --> 03:06.633
+że nasze wyrażenie
+
+03:06.633 --> 03:10.100
+będzie zdefiniowane tylko dla dodatnich wartości x
+
+03:10.100 --> 03:11.938
+bo mamy tutaj logarytm naturalny
+
+03:11.938 --> 03:13.053
+w którym nie ma wartości bezwzględnej.
+
+03:13.053 --> 03:17.233
+Możemy zatem to zostawić jako logarytm naturalny z x.
+
+03:17.233 --> 03:19.700
+Ale to działa też w przypadkach
+
+03:19.700 --> 03:21.737
+(bo bierzemy z tego wartość bezwzględną)
+
+03:21.737 --> 03:25.033
+gdzie wartość logarytmu naturalnego x jest liczbą ujemną.
+
+03:25.033 --> 03:26.613
+Na przykład gdyby to był logarytm naturalny z
+
+03:26.613 --> 03:31.396
+0,5 albo kto wie czego.
+
+03:31.396 --> 03:33.100
+Ale nasza całka jest już policzona.
+
+03:33.100 --> 03:34.900
+Uprościliśmy coś, co wydawało się
+
+03:34.900 --> 03:38.900
+dość zniechęcającym wyrażeniem.

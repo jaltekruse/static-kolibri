@@ -1,0 +1,290 @@
+WEBVTT
+
+00:00.000 --> 00:02.628
+Derek poslal přátelům řetězový dopis,
+
+00:02.628 --> 00:05.321
+ve kterém je žádá, aby ho poslali dál.
+
+00:05.321 --> 00:07.504
+Skupina lidí, kteří dopis obdrželi
+
+00:07.504 --> 00:10.662
+nabírá 9/10 své velikosti každé tři týdny
+
+00:10.662 --> 00:12.867
+a může být znázorněna funkcí P,
+
+00:12.867 --> 00:16.280
+v závislosti na čase, t, v týdnech.
+
+00:16.280 --> 00:19.241
+Na začátku poslal Derek
+řetězový dopis 40 přátelům.
+
+00:19.241 --> 00:21.539
+Zapište funkci, která vyjadřuje počet lidí,
+
+00:21.539 --> 00:24.047
+kteří dostali tento dopis t týdnů
+
+00:24.047 --> 00:26.763
+poté, co ho poslal Derek.
+
+00:26.763 --> 00:29.758
+Pozastavte video
+pokud to chcete zkusit sami.
+
+00:29.758 --> 00:31.906
+Způsob, kterým bych to já řešil,
+
+00:31.906 --> 00:33.508
+je udělat si tabulku
+
+00:33.508 --> 00:37.181
+hodnot pro čas t
+
+00:37.181 --> 00:39.422
+a funkci P,
+
+00:39.422 --> 00:41.988
+která je na t závislá.
+
+00:41.988 --> 00:43.729
+Některé údaje se dozvídáme
+
+00:43.729 --> 00:45.343
+již ze zadání.
+
+00:45.343 --> 00:48.442
+Když t je 0, tedy neuplynul žádný týden
+
+00:48.442 --> 00:50.659
+od doby, co Derek poslal dopis,
+
+00:50.659 --> 00:52.390
+kolik lidí ho dostalo?
+
+00:52.390 --> 00:53.126
+To víme.
+
+00:53.126 --> 00:55.268
+Derek poslal řetězový dopis
+
+00:55.268 --> 00:57.404
+40 přátelům.
+
+00:57.404 --> 00:58.925
+Takže t je 0.
+
+00:58.925 --> 01:01.653
+P pro t neboli P pro 0 je 40.
+
+01:01.653 --> 01:04.486
+Co je zajímavý čas?
+
+01:04.486 --> 01:06.007
+Říkají nám, že počet lidí,
+
+01:06.007 --> 01:08.491
+kteří obdrží email se zvětšuje
+
+01:08.491 --> 01:11.950
+o 9/10 každé tři týdny,
+
+01:11.950 --> 01:13.564
+každé tři týdny.
+
+01:13.564 --> 01:15.770
+Takže po třech týdnech,
+
+01:15.770 --> 01:17.453
+tři týdny uběhly.
+
+01:17.453 --> 01:20.146
+Takže přidám 3 k času t.
+
+01:20.146 --> 01:22.004
+Jaká bude hodnota P?
+
+01:22.004 --> 01:25.321
+Naroste o 9/10.
+
+01:25.321 --> 01:27.981
+Takže to bude 40
+
+01:27.981 --> 01:32.981
+plus 9/10 krát 40
+
+01:33.003 --> 01:35.505
+což se rovná čemu?
+
+01:35.505 --> 01:37.741
+To se rovná 40,
+
+01:37.741 --> 01:39.006
+vytkneme 40.
+
+01:39.006 --> 01:43.162
+40 krát (1+ 9/10)
+
+01:43.162 --> 01:46.598
+neboli 40 krát,
+
+01:46.598 --> 01:51.184
+40 krát 1,9.
+
+01:51.184 --> 01:52.206
+Další způsob je,
+
+01:52.206 --> 01:54.678
+že po třech týdnech máme o 90 % více.
+
+01:54.678 --> 01:56.478
+To je stejné jako říct,
+
+01:56.478 --> 01:59.568
+že se počet lidí,
+kteří dostali email, zvětšil o 9/10.
+
+01:59.568 --> 02:02.488
+Můžeme také říct,
+že skupina lidí, kteří dostali email
+
+02:02.488 --> 02:06.303
+narůstá o 90 % každé tři týdny.
+
+02:06.303 --> 02:08.451
+Když se posuneme o další tři týdny,
+
+02:08.451 --> 02:09.856
+plus další tři týdny,
+
+02:09.856 --> 02:10.838
+napíšu sem,
+
+02:10.838 --> 02:12.231
+že to je 6 týdnů.
+
+02:12.231 --> 02:14.739
+Kolik lidí obdrželo email?
+
+02:14.739 --> 02:16.097
+Bude to tohle číslo.
+
+02:16.097 --> 02:18.651
+Naroste opět o 90 %.
+
+02:18.651 --> 02:21.240
+Znovu to vynásobíme 1,9.
+
+02:21.240 --> 02:22.691
+Bude to 40
+
+02:22.691 --> 02:26.116
+krát 1,9 krát 1,9.
+
+02:26.116 --> 02:28.252
+Naroste opět o 9/10.
+
+02:28.252 --> 02:30.817
+Růst o 9/10 je totéž co
+
+02:30.817 --> 02:33.011
+násobení 1 a 9/10.
+
+02:33.011 --> 02:34.439
+Ta jedna je to, co máme.
+
+02:34.439 --> 02:36.517
+A pak to roste o 9/10.
+
+02:36.517 --> 02:38.433
+Je to totéž co 40
+
+02:38.433 --> 02:41.811
+krát 1,9 na druhou.
+
+02:41.811 --> 02:44.690
+Půjdeme o další tři týdny,
+
+02:44.690 --> 02:45.816
+devět týdnů.
+
+02:45.816 --> 02:47.492
+Vzroste to o dalších 90 %.
+
+02:47.492 --> 02:48.955
+Takže to vynásobíme,
+
+02:48.955 --> 02:50.092
+vezmeme si toto číslo
+
+02:50.092 --> 02:51.938
+a vynásobíme ho opět 1,9
+
+02:51.938 --> 02:55.851
+což bude 1,9 na třetí.
+
+02:55.851 --> 02:58.056
+A co se tady děje?
+
+02:58.056 --> 02:59.751
+Vidíme tu exponenciální funkci.
+
+02:59.751 --> 03:01.318
+A máme původní hodnotu.
+
+03:01.318 --> 03:03.849
+A každé tři týdny násobíme 1,9.
+
+03:03.849 --> 03:06.113
+Takže 1,9 bude náš stálý poměr.
+
+03:06.113 --> 03:11.113
+Takže P se bude rovnat původní hodnotě 40
+
+03:11.155 --> 03:14.309
+vynásobené stálým poměrem 1,9.
+
+03:14.309 --> 03:18.438
+A násobíme 1,9 každé tři týdny.
+
+03:18.438 --> 03:19.402
+Nebo otázka,
+
+03:19.402 --> 03:22.199
+kolikrát uběhlo období tří týdnů?
+
+03:22.199 --> 03:25.357
+Vezmeme si t a vydělíme ho třemi.
+
+03:25.357 --> 03:27.342
+T děleno 3 je počet těchto období,
+
+03:27.342 --> 03:28.886
+které uběhly.
+
+03:28.886 --> 03:29.664
+A tady to je.
+
+03:29.664 --> 03:31.487
+Všimněte si, pro t=0,
+
+03:31.487 --> 03:34.366
+1,9 na nultou je jedna
+
+03:34.366 --> 03:35.759
+takže 40 krát 1.
+
+03:35.759 --> 03:39.485
+Pro t=3 to bude 1,9 na prvou,
+
+03:39.485 --> 03:40.600
+takže 3 děleno 3.
+
+03:40.600 --> 03:43.943
+Takže to poroste o 90 % a tak dále.
+
+03:43.943 --> 03:46.826
+Zvládli jsme to docela dobře.

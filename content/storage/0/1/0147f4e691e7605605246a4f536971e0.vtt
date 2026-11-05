@@ -1,0 +1,375 @@
+WEBVTT
+
+00:00.630 --> 00:03.500
+Let's say that we have
+the indefinite integral,
+
+00:03.500 --> 00:11.700
+and the function is 3x
+squared plus 2x times e
+
+00:11.700 --> 00:18.560
+to x to the third
+plus x squared dx.
+
+00:18.560 --> 00:21.457
+So how would we go
+about solving this?
+
+00:21.457 --> 00:23.040
+So first when you
+look at it, it seems
+
+00:23.040 --> 00:24.720
+like a really
+complicated integral.
+
+00:24.720 --> 00:28.340
+We have this polynomial right
+over here being multiplied
+
+00:28.340 --> 00:31.880
+by this exponential expression,
+and over here in the exponent,
+
+00:31.880 --> 00:33.950
+we essentially have
+another polynomial.
+
+00:33.950 --> 00:36.130
+It seems kind of crazy.
+
+00:36.130 --> 00:39.420
+And the key intuition
+here, the key insight
+
+00:39.420 --> 00:41.514
+is that you might want
+to use a technique here
+
+00:41.514 --> 00:42.430
+called u-substitution.
+
+00:46.525 --> 00:47.900
+And I'll tell you
+in a second how
+
+00:47.900 --> 00:49.910
+I would recognize that we
+have to use u-substitution.
+
+00:49.910 --> 00:51.450
+And then over time,
+you might even
+
+00:51.450 --> 00:53.800
+be able to do this type
+of thing in your head.
+
+00:53.800 --> 00:58.750
+u-substitution is essentially
+unwinding the chain rule.
+
+00:58.750 --> 01:01.690
+And the chain rule-- I'll go
+in more depth in another video,
+
+01:01.690 --> 01:03.624
+where I really talk
+about that intuition.
+
+01:03.624 --> 01:05.040
+But the way I would
+think about it
+
+01:05.040 --> 01:09.250
+is, well, I have this crazy
+exponent right over here.
+
+01:09.250 --> 01:12.920
+I have the x to the
+third plus x squared,
+
+01:12.920 --> 01:15.220
+and this thing right
+over here happens
+
+01:15.220 --> 01:18.520
+to be the derivative of x
+to the third plus x squared.
+
+01:18.520 --> 01:20.960
+The derivative of x to
+the third is 3x squared,
+
+01:20.960 --> 01:25.000
+derivative of x squared is
+2x, which is a huge clue to me
+
+01:25.000 --> 01:27.920
+that I could use u-substitution.
+
+01:27.920 --> 01:31.580
+So what I do here is this
+thing, or this little expression
+
+01:31.580 --> 01:34.590
+here, where I also see its
+derivative being multiplied,
+
+01:34.590 --> 01:36.950
+I can set that equal to u.
+
+01:36.950 --> 01:43.370
+So I can say u is equal to x
+to the third plus x squared.
+
+01:43.370 --> 01:45.360
+Now, what is going to
+be the derivative of u
+
+01:45.360 --> 01:46.900
+with respect to x?
+
+01:46.900 --> 01:48.930
+du dx.
+
+01:48.930 --> 01:51.430
+Well, we've done
+this multiple times.
+
+01:51.430 --> 01:56.900
+It's going to be
+3x squared plus 2x.
+
+01:56.900 --> 01:59.480
+And now we can write this
+in differential form.
+
+01:59.480 --> 02:04.550
+And du dx, this isn't really
+a fraction of the differential
+
+02:04.550 --> 02:06.780
+of du divided by
+differential of dx.
+
+02:06.780 --> 02:09.000
+It really is a form
+of notation, but it
+
+02:09.000 --> 02:12.420
+is often useful to kind of
+pretend that it is a fraction,
+
+02:12.420 --> 02:16.357
+and you could kind of view this
+if you wanted to just get a du,
+
+02:16.357 --> 02:18.690
+if you just wanted to get a
+differential form over here,
+
+02:18.690 --> 02:22.980
+how much does u change
+for a given change in x?
+
+02:22.980 --> 02:27.290
+You could multiply
+both sides times a dx.
+
+02:27.290 --> 02:30.670
+So both sides times a dx.
+
+02:30.670 --> 02:32.920
+And so if we were to pretend
+that they were fractions,
+
+02:32.920 --> 02:35.990
+and it will give you the
+correct differential form,
+
+02:35.990 --> 02:42.720
+you're going to
+be left with du is
+
+02:42.720 --> 02:49.230
+equal to 3x squared plus 2x dx.
+
+02:49.230 --> 02:51.700
+Now why is this over here?
+
+02:51.700 --> 02:54.490
+Why did I go to the
+trouble of doing that?
+
+02:54.490 --> 02:57.960
+Well we see we have
+a 3x squared plus 2x,
+
+02:57.960 --> 03:01.270
+and then it's being multiplied
+by a dx right over here.
+
+03:01.270 --> 03:03.740
+I could rewrite this
+original integral.
+
+03:03.740 --> 03:06.770
+I could rewrite this
+as the integral of--
+
+03:06.770 --> 03:13.040
+and let me do it in that color--
+of 3x squared plus 2x times
+
+03:13.040 --> 03:21.210
+dx times e-- let me do that
+in that other color-- times
+
+03:21.210 --> 03:26.080
+e to the x to the
+third plus x squared.
+
+03:26.080 --> 03:28.769
+Now what's interesting
+about this?
+
+03:28.769 --> 03:30.310
+Well the stuff that
+I have in magenta
+
+03:30.310 --> 03:33.070
+here is exactly equal to du.
+
+03:33.070 --> 03:35.840
+This is exactly equal to du.
+
+03:35.840 --> 03:39.000
+And then this stuff I have up
+here, x to the third plus x
+
+03:39.000 --> 03:41.690
+squared, that is what
+I set u equal to.
+
+03:41.690 --> 03:43.850
+That is going to be equal to u.
+
+03:43.850 --> 03:46.090
+So I can rewrite
+my entire integral,
+
+03:46.090 --> 03:47.590
+and now you might
+recognize why this
+
+03:47.590 --> 03:49.730
+is going to simplify
+things a good bit,
+
+03:49.730 --> 03:51.897
+it's going to be equal to--
+and what I'm going to do
+
+03:51.897 --> 03:53.271
+is I'm going to
+change the order.
+
+03:53.271 --> 03:55.210
+I'm going to put the
+du, this entire du,
+
+03:55.210 --> 03:57.440
+I'm gonna stick it on
+the other side here,
+
+03:57.440 --> 03:59.230
+so it looks like more
+of the standard form
+
+03:59.230 --> 04:02.595
+that we're used to seeing
+our indefinite integrals in.
+
+04:02.595 --> 04:11.380
+So we're going to have
+our du times e to the u.
+
+04:15.320 --> 04:17.810
+And so what would the
+antiderivative of this
+
+04:17.810 --> 04:20.645
+be in terms of u?
+
+04:20.645 --> 04:23.030
+Well, the derivative of
+e to the u is e to the u.
+
+04:23.030 --> 04:25.930
+The antiderivative of e
+to the u is e to the u.
+
+04:25.930 --> 04:29.507
+So it's going to be
+equal to e to the u.
+
+04:29.507 --> 04:31.090
+Now, there is a
+possibility that there
+
+04:31.090 --> 04:32.840
+was some type of a
+constant factor here,
+
+04:32.840 --> 04:33.820
+so let me write that.
+
+04:33.820 --> 04:35.980
+So plus c.
+
+04:35.980 --> 04:38.220
+And now, to get
+it in terms of x,
+
+04:38.220 --> 04:41.440
+we just have to
+unsubstitute the u.
+
+04:41.440 --> 04:43.410
+We know what u is
+equal to, so we
+
+04:43.410 --> 04:45.960
+could say that this is
+going to be equal to e.
+
+04:45.960 --> 04:49.010
+Instead of writing u, we
+could say u is x to the third
+
+04:49.010 --> 04:49.865
+plus x squared.
+
+04:55.640 --> 04:58.780
+And then we have our plus c.
+
+04:58.780 --> 05:00.330
+And we are done.
+
+05:00.330 --> 05:02.130
+We have found the
+antiderivative.
+
+05:02.130 --> 05:04.460
+And I encourage you to take
+the derivative of this,
+
+05:04.460 --> 05:06.940
+and I think you will find
+yourself using the chain rule,
+
+05:06.940 --> 05:11.050
+and getting right back
+to what we had over here.

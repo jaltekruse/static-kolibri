@@ -1,0 +1,224 @@
+WEBVTT
+
+00:00.365 --> 00:03.032
+Geometrická posloupnost
+'a' dolní index 'i'
+
+00:03.193 --> 00:05.851
+je zadána vzorečkem,
+kde první člen,
+
+00:05.951 --> 00:08.194
+'a' s indexem 'i', je roven
+minus (1 lomeno 8),
+
+00:08.293 --> 00:13.058
+a každý další člen je definován tak,
+že 'a' dolní index 'i'
+
+00:13.286 --> 00:16.406
+je roven 2 krát předchozí člen.
+
+00:16.621 --> 00:20.198
+'a' dolní index 'i' je roven
+2 krát 'a' dolní index 'i minus 1'.
+
+00:20.429 --> 00:24.457
+Kolik je 'a' dolní index '4',
+čtvrtý člen posloupnosti?
+
+00:24.643 --> 00:27.298
+Pozastavte video a zkuste,
+zda to dokážete vyřešit sami.
+
+00:27.982 --> 00:30.346
+Je tu několik způsobů,
+kterými to můžete vyřešit.
+
+00:30.530 --> 00:33.744
+Jeden je přímo použít tyto vzorečky.
+
+00:33.934 --> 00:36.260
+Můžeme říct, že 'a4'…
+
+00:36.491 --> 00:38.465
+…to bude tento případ zde…
+
+00:38.619 --> 00:42.276
+'a4' bude rovno 2 krát 'a3'.
+
+00:43.085 --> 00:49.229
+'a3', pokud použijeme tento vzorec,
+bude rovno 2 krát 'a2'.
+
+00:49.455 --> 00:52.471
+Každý člen je 2 krát předchozí člen.
+
+00:52.611 --> 00:54.125
+Pak se vrátíme znovu k tomuto,
+
+00:54.258 --> 00:58.032
+řekneme, že 'a2' je 2 krát 'a1'.
+
+00:58.254 --> 01:00.186
+Dva krát 'a1'.
+
+01:00.340 --> 01:05.339
+Naštěstí pro nás, my víme,
+že 'a1' je minus (1 lomeno 8).
+
+01:05.578 --> 01:09.577
+Bude to 2 krát minus (1 lomeno 8),
+
+01:09.884 --> 01:13.097
+což je rovno minus (1 lomeno 4).
+
+01:13.543 --> 01:15.079
+Minus (1 lomeno 4).
+
+01:15.347 --> 01:17.733
+Tohle je tedy minus (1 lomeno 4).
+
+01:18.658 --> 01:23.201
+2 krát minus (1 lomeno 4)
+je rovno minus (2 lomeno 4),
+
+01:23.337 --> 01:24.789
+tedy minus (1 lomeno 2).
+
+01:25.579 --> 01:27.644
+'a4' je 2 krát 'a3'.
+
+01:27.800 --> 01:29.452
+'a3' je minus (1 lomeno 2).
+
+01:29.635 --> 01:32.737
+Tohle tedy bude 2 krát minus (1 lomeno 2),
+
+01:33.102 --> 01:35.532
+což bude rovno -1.
+
+01:35.760 --> 01:37.528
+Tohle je jeden způsob řešení.
+
+01:37.697 --> 01:42.553
+Další způsob je,
+že známe první člen.
+
+01:42.737 --> 01:44.285
+Také známe 'kvocient'.
+
+01:44.471 --> 01:48.613
+Víme, že každý následující člen
+je 2 krát předchozí člen.
+
+01:48.850 --> 01:51.431
+Mohli bychom explicitně…
+
+01:51.659 --> 01:54.768
+Tohle je rekursivní definice
+geometrické posloupnosti.
+
+01:54.999 --> 02:00.114
+Mohli bychom to přímo napsat,
+že 'a1' je rovno našemu původnímu členu,
+
+02:00.349 --> 02:01.930
+minus (1 lomeno 8).
+
+02:02.129 --> 02:05.341
+Pak to vynásobíme 2.
+
+02:05.992 --> 02:11.677
+Vynásobíme to 2 (i minus 1)krát.
+
+02:11.918 --> 02:17.615
+Mohli bychom říct,
+krát 2 na (i minus 1) mocninu.
+
+02:17.805 --> 02:21.490
+Ujistěme se, že to dává smysl.
+
+02:21.666 --> 02:27.055
+'a1', na základě tohoto vzorečku,
+'a1' je minus (1 lomeno 8)
+
+02:27.319 --> 02:29.757
+krát 2 na (1 minus 1).
+
+02:29.946 --> 02:31.516
+2 na nultou.
+
+02:31.682 --> 02:32.698
+To dává smysl.
+
+02:32.814 --> 02:34.327
+To by bylo minus (1 lomeno 8).
+
+02:34.466 --> 02:39.156
+Na základě tohoto vzorečku,
+'a2' by bylo minus (1 lomeno 8),
+
+02:39.323 --> 02:41.728
+krát 2 na (2 minus 1).
+
+02:41.800 --> 02:43.048
+Takže 2 na prvou.
+
+02:43.303 --> 02:46.562
+Vezmeme původní člen
+a vynásobíme jej 2 krát.
+
+02:46.766 --> 02:47.837
+Což je pravda.
+
+02:47.976 --> 02:50.404
+'a2' je minus (1 lomeno 4).
+
+02:50.840 --> 02:52.824
+Chceme-li najít čtvrtý člen posloupnosti,
+
+02:53.016 --> 02:55.983
+můžeme říct, že pomocí tohoto
+explicitního vzorečku,
+
+02:56.214 --> 03:00.754
+mohli bychom říct,
+že 'a4' je rovno minus (1 lomeno 8),
+
+03:00.931 --> 03:04.245
+krát 2 na (4 minus 1).
+
+03:04.840 --> 03:07.773
+2 na (4 minus 1) mocninu.
+
+03:08.048 --> 03:12.692
+Je to tedy rovno minus (1 lomeno 8)
+krát 2 na třetí.
+
+03:14.177 --> 03:16.360
+To je minus (1 lomeno 8) krát 8.
+
+03:16.564 --> 03:21.982
+Minus (1 lomeno 8) krát 8,
+to je rovno -1.
+
+03:22.183 --> 03:26.054
+Můžete být trochu nerozhodní ohledně toho,
+kterou metodu chcete použít,
+
+03:26.323 --> 03:28.741
+ale můžete si být jisti,
+že tato druhá metoda,
+
+03:28.940 --> 03:34.378
+kde najdeme explicitní vzorec
+a známe první člen a 'kvocient',
+
+03:34.572 --> 03:38.262
+je mnohem snazší,
+chceme-li najít například 40. člen.
+
+03:38.403 --> 03:43.142
+Protože dělat 40. člen takto by zabralo
+mnoho času a také mnoho papíru.

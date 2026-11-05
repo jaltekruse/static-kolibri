@@ -1,0 +1,628 @@
+WEBVTT
+
+00:00.000 --> 00:00.320
+.
+
+00:00.320 --> 00:02.890
+Bu videoda x,y koordinat düzlemimizdeki herhangi iki nokta arasındaki uzaklığı bulmayı göstereceğiz.
+
+00:02.890 --> 00:08.640
+.
+
+00:08.640 --> 00:11.060
+Daha sonra göreceğiz ki uzaklık alma, sadece pisagor teoreminin bir uygulamasıdır.
+
+00:11.060 --> 00:12.780
+.
+
+00:12.780 --> 00:14.040
+Haydi bir örnekle başlayalım.
+
+00:14.040 --> 00:16.070
+Diyelimki elimde bir nokta var. Daha kalın bir renk kullanayım ki grafik kağıdının üzerinde rahat görbilin.
+
+00:16.070 --> 00:17.950
+.
+
+00:17.950 --> 00:22.070
+Elimde 3,-4 noktası olsun.
+
+00:22.070 --> 00:25.180
+Grafik üzerinde bakalım. 1,2,3 ve ondan sonra 4 birim aşağıya.
+
+00:25.180 --> 00:26.480
+.
+
+00:26.480 --> 00:33.440
+1,2,3,4 bakın tam burada. 3,-4.
+
+00:33.440 --> 00:40.110
+ayrıca 6,0 noktası da olsun.
+
+00:40.110 --> 00:45.660
+1,2,3,4,5,6. y değerinde hiçbir değişimimiz yok.
+
+00:45.660 --> 00:46.310
+.
+
+00:46.310 --> 00:47.610
+Sadece x eksininde bulunuyoruz.
+
+00:47.610 --> 00:52.086
+Y koordinatı 0, yani 6,0 burası.
+
+00:52.086 --> 00:55.810
+Bu iki nokta arasındaki mesafeyi bulmak istiyorum.
+
+00:55.810 --> 00:56.410
+.
+
+00:56.410 --> 01:00.350
+Mavi nokta turuncu noktadan ne kadar uzakta?
+
+01:00.350 --> 01:01.910
+Başlarda, Sal daha önce uzaklık bulmayı bu şekilde yapmamıştım diyebilirsiniz.
+
+01:01.910 --> 01:03.570
+.
+
+01:03.570 --> 01:04.440
+.
+
+01:04.440 --> 01:06.290
+Pisagor teoreminden neden bahsediyorsun ki diyebilirsiniz?
+
+01:06.290 --> 01:08.180
+Burada üçgen bile yok!
+
+01:08.180 --> 01:09.690
+Eğer üçgen göremiyorsanız sizin için bir tane çizeyim.
+
+01:09.690 --> 01:10.940
+.
+
+01:10.940 --> 01:13.770
+.
+
+01:13.770 --> 01:18.060
+Üçgenimi buraya çizeyim.
+
+01:18.060 --> 01:20.690
+Burada birkaç renk birden kullanayım ki belli olsun.
+
+01:20.690 --> 01:23.090
+.
+
+01:23.090 --> 01:24.650
+Bu bizim üçgenimiz.
+
+01:24.650 --> 01:25.990
+Hemen fark etmişsinizdir bu bir dik üçgen.
+
+01:25.990 --> 01:27.950
+.
+
+01:27.950 --> 01:29.810
+Tam burada bir dik üçgen var.
+
+01:29.810 --> 01:33.520
+Taban direk sola sağ taraf da direk yukarı çıkmış.
+
+01:33.520 --> 01:36.710
+.
+
+01:36.710 --> 01:39.210
+Taban ve yüksekliklerin uzunluklarını bulacağız. sonra bu uzunlukları pisagor teorisine koyarak hipotenüsü bulcağız.
+
+01:39.210 --> 01:42.350
+.
+
+01:42.350 --> 01:47.690
+.
+
+01:47.690 --> 01:49.700
+.
+
+01:49.700 --> 01:55.890
+Tam buradaki uzunluk üçgenin hipotenüsü.
+
+01:55.890 --> 01:57.180
+.
+
+01:57.180 --> 01:58.180
+Kenara yazayım.
+
+01:58.180 --> 02:04.050
+uzaklık eşittir bu üçgenin hipoteüsü.
+
+02:04.050 --> 02:05.660
+.
+
+02:05.660 --> 02:07.480
+Biraz daha büyük yazayım.
+
+02:07.480 --> 02:10.710
+Burası hipotenüs.
+
+02:10.710 --> 02:14.880
+Direk yukarı çıkan bir kenarımız var.
+
+02:14.880 --> 02:16.070
+.
+
+02:16.070 --> 02:18.500
+Ve tabanımız var.
+
+02:18.500 --> 02:19.860
+uzaklığa "d" diyelim.
+
+02:19.860 --> 02:22.550
+.
+
+02:22.550 --> 02:24.540
+Bu hipotenüsümüzün uzunluğu olsun.
+
+02:24.540 --> 02:27.640
+Taban ve yüksekliğin uzunluklarını nasıl bunacağız?
+
+02:27.640 --> 02:30.270
+.
+
+02:30.270 --> 02:32.940
+ilk önce tabala başlayalım. Bu uzunluk ne kadardır?
+
+02:32.940 --> 02:35.010
+Grafik üzerinde sayarak yapabilirsiniz fakat burada x eşittir... Yeşille yazayım.
+
+02:35.010 --> 02:38.150
+.
+
+02:38.150 --> 02:41.530
+X eşittir 3 ve x eşittir 6 doğru mu?
+
+02:41.530 --> 02:42.800
+.
+
+02:42.800 --> 02:44.550
+Sadece sağa doğru ilerlemiş.
+
+02:44.550 --> 02:47.570
+Buradaki uzunlukla o uzunluk aynıdır o zaman.
+
+02:47.570 --> 02:49.910
+Yani uzunluğu bulmak için... Burası bitiş noktası olsun.
+
+02:49.910 --> 02:50.710
+.
+
+02:50.710 --> 02:52.240
+Aslında iki tarafa da gidebilirsiniz çünkü sayıların kareleri alınacağı için eksili değer elde edip etmemeniz önemli değil.
+
+02:52.240 --> 02:53.770
+.
+
+02:53.770 --> 02:59.230
+Yani uzaklık 6-3 değil mi?
+
+02:59.230 --> 03:03.360
+.
+
+03:03.360 --> 03:04.680
+6-3.
+
+03:04.680 --> 03:08.520
+Uzaklık 3'e eşit.
+
+03:08.520 --> 03:10.140
+Tabanı bulduk.
+
+03:10.140 --> 03:12.610
+Bu x deki değişimdir.
+
+03:12.610 --> 03:14.200
+.
+
+03:14.200 --> 03:17.100
+Bitiş noktasındaki x'den başlangıç noktasındakini çıkarıyoruz.
+
+03:17.100 --> 03:17.890
+.
+
+03:17.890 --> 03:20.020
+6-3.
+
+03:20.020 --> 03:21.860
+Bu delta x e eşit.
+
+03:21.860 --> 03:25.990
+Aynı sebepten dolayı yükseklik y'deki değişim olacak.
+
+03:25.990 --> 03:29.640
+.
+
+03:29.640 --> 03:31.290
+Yukarıda y eşittir 0.
+
+03:31.290 --> 03:32.670
+Burası daha yukarıdaki y noktası ve bitiş noktası.
+
+03:32.670 --> 03:34.360
+.
+
+03:34.360 --> 03:37.900
+Ve burada y eşittir -4.
+
+03:37.900 --> 03:42.460
+DEmek ki y deki değşim 0 eksi -4.
+
+03:42.460 --> 03:44.930
+Sadece büyük y değeri eksi küçük y değeri yapıyorum. Aynsı x için de geçerli.
+
+03:44.930 --> 03:48.810
+.
+
+03:48.810 --> 03:49.870
+Ancak anında karelerini alacağımız için aslında fark olmadığını görceksiniz.
+
+03:49.870 --> 03:51.830
+.
+
+03:51.830 --> 03:53.410
+.
+
+03:53.410 --> 03:56.030
+Bu 4 e eşit çıkıyor.
+
+03:56.030 --> 03:57.890
+Bu kenar da 4 e eşitmiş.
+
+03:57.890 --> 04:00.370
+Eğer isterseniz grafik üzerinde sayabilirsiniz.
+
+04:00.370 --> 04:02.310
+Bu kenar da 3'e eşit.
+
+04:02.310 --> 04:07.040
+Şimdi pisagor teoremini yapabiliriz.
+
+04:07.040 --> 04:11.730
+Uzaklıkların kareleri alınacak dikkat edin.
+
+04:11.730 --> 04:12.400
+.
+
+04:12.400 --> 04:15.270
+uzaklığın karesi delta x in karesi artı delta y nin karesi olacak.
+
+04:15.270 --> 04:19.649
+.
+
+04:19.649 --> 04:23.440
+.
+
+04:23.440 --> 04:24.620
+Fazla bir şeyi yok.
+
+04:24.620 --> 04:26.770
+İnsanlar bazen buna uzaklık formülü diyorar anak sadece pisagor teoremi.
+
+04:26.770 --> 04:29.380
+.
+
+04:29.380 --> 04:31.660
+Bu kenarın karesi artı şu kenarın karesi hipotenüsü karesine eşit çünkü bu bir dik üçgen.
+
+04:31.660 --> 04:34.940
+.
+
+04:34.940 --> 04:38.260
+Elimizde olan sayıları yerlerine yazalım.
+
+04:38.260 --> 04:39.410
+.
+
+04:39.410 --> 04:43.020
+uzaklığın karesi 3 ün karesi artı 4 ün karesine eşit olacak.
+
+04:43.020 --> 04:47.580
+.
+
+04:47.580 --> 04:53.080
+yani 9 artı 16 eşittir 25.
+
+04:53.080 --> 04:56.050
+.
+
+04:56.050 --> 04:57.550
+Yani uzaklığın karesi 25 e eşit.
+
+04:57.550 --> 05:01.600
+Eksili uzaklık lamazsınız çünkü negatif uzakluk diye bir şey olamaz.
+
+05:01.600 --> 05:03.160
+.
+
+05:03.160 --> 05:05.370
+Yani 25 pozitif 5'in karesidir.
+
+05:05.370 --> 05:09.020
+.
+
+05:09.020 --> 05:10.780
+Demek ki buradaki uzaklığımız 5 birimmiş.
+
+05:10.780 --> 05:13.130
+.
+
+05:13.130 --> 05:13.920
+.
+
+05:13.920 --> 05:16.170
+Orijinal probleme dönersek bu nokta ile şu nokta arasındaki uzaklık nedir?
+
+05:16.170 --> 05:20.180
+5 birim uzaklıkta.
+
+05:20.180 --> 05:22.930
+Uzaklık formülü dedikleri ve burada gördüğünüz şey aslında pisagor teoremi.
+
+05:22.930 --> 05:24.730
+.
+
+05:24.730 --> 05:27.000
+Birçok formüle maruz kalabilirsiniz bazen. Derler ki elinde iki nokta olsun bu belirli noktalardan biri x1 y1 diğeri ise x2 y2 olsun.
+
+05:27.000 --> 05:29.770
+.
+
+05:29.770 --> 05:33.340
+.
+
+05:33.340 --> 05:37.580
+.
+
+05:37.580 --> 05:42.880
+.
+
+05:42.880 --> 05:45.760
+Bazen bu şekilde bazen başka şekillerde görebilirsiniz.
+
+05:45.760 --> 05:46.940
+.
+
+05:46.940 --> 05:49.850
+Çok karmaşık bir formül gibi görünebilir.
+
+05:49.850 --> 05:52.170
+Fakat bilmenizi istediğim şey, bu sadece pisagor teoremi
+
+05:52.170 --> 05:53.930
+.
+
+05:53.930 --> 05:55.370
+.
+
+05:55.370 --> 06:05.340
+uzaklığın karesi eşittir x2-x1 in karesi artı y2-y1in karesidir.
+
+06:05.340 --> 06:18.650
+.
+
+06:18.650 --> 06:20.950
+Bunu birçok kitapta uzaklık formülü diye görürsünüz.
+
+06:20.950 --> 06:22.200
+.
+
+06:22.200 --> 06:24.855
+.
+
+06:24.855 --> 06:27.250
+Bunu ezberlemek sadece zaman kaybıdır çünkü pisagor teoremnden başka bir şey değil.
+
+06:27.250 --> 06:30.060
+.
+
+06:30.060 --> 06:32.370
+Bu x deki değişiminiz.
+
+06:32.370 --> 06:34.710
+Ve gerçekten hangi x i ilk hangisini son seçtiğiniz hiç önemli değildir.
+
+06:34.710 --> 06:36.730
+.
+
+06:36.730 --> 06:39.470
+Çünkü negatif sayının karesi pozitif olur.
+
+06:39.470 --> 06:42.900
+Buradaki ise y deki değişimdir.
+
+06:42.900 --> 06:44.693
+Sadece formül diyor ki, uzaklığın karesi eşittir... Hatırlayın eğer denklemin iki tarafının da karesini alırsanız kök ortadan kalkar.
+
+06:44.693 --> 06:48.710
+.
+
+06:48.710 --> 06:51.010
+.
+
+06:51.010 --> 06:54.900
+Uzaklığın karesi delta x in karesi (delta değişim demektir) artı delta y nin karesi.
+
+06:54.900 --> 06:59.090
+.
+
+06:59.090 --> 07:01.540
+.
+
+07:01.540 --> 07:02.190
+Kafanızı karıştırmak istemiyorum.
+
+07:02.190 --> 07:04.170
+Delta y sadece y'deki değişim demek.
+
+07:04.170 --> 07:06.380
+Bunu videoda daha önce söylemiş olmam lazım.
+
+07:06.380 --> 07:09.290
+RAstege sayılar seçelim ve birkaç örnek daha yapalım.
+
+07:09.290 --> 07:10.030
+.
+
+07:10.030 --> 07:14.850
+Diyelim ki elimde 1,2,3,4,5,6... -6 ya -4 noktası var.
+
+07:14.850 --> 07:17.660
+.
+
+07:17.660 --> 07:22.370
+.
+
+07:22.370 --> 07:24.430
+Ve bu nokta ile 1 virgül 1,2,3,4,5,6,7... 1,7 noktası arasındaki mesafeyi bulmak istiyorum
+
+07:24.430 --> 07:32.290
+.
+
+07:32.290 --> 07:34.370
+.
+
+07:34.370 --> 07:36.420
+Aynı işi yapacağız.
+
+07:36.420 --> 07:38.610
+Pisagor teoremini kullanacağız.
+
+07:38.610 --> 07:41.830
+x deki değişim ve y deki değişimi bulacaksnız.
+
+07:41.830 --> 07:43.790
+.
+
+07:43.790 --> 07:45.955
+Karelerinin toplamı karesine eşit olacak.
+
+07:45.955 --> 07:48.750
+.
+
+07:48.750 --> 07:50.600
+Haydi çözelim
+
+07:50.600 --> 07:53.160
+.
+
+07:53.160 --> 07:54.130
+.
+
+07:54.130 --> 07:56.170
+herhangi bir x i seçebilirsiniz fark etmez.
+
+07:56.170 --> 07:58.400
+.
+
+07:58.400 --> 08:02.180
+uzaklığın karesi eşittir... x deki değişimimiz kaçtır?
+
+08:02.180 --> 08:04.430
+.
+
+08:04.430 --> 08:08.650
+haydi büyük x eksi küçük yapalım.
+
+08:08.650 --> 08:09.430
+1eksi -6.
+
+08:09.430 --> 08:14.960
+1 eksi -6 artı y deki değişim.
+
+08:14.960 --> 08:16.120
+büyük y değerimiz burada.
+
+08:16.120 --> 08:17.530
+7.
+
+08:17.530 --> 08:19.210
+7eksi -4.
+
+08:19.210 --> 08:22.550
+7 eksi -4 ün karesi.
+
+08:22.550 --> 08:24.430
+Rakamları rastgele seçtim o yüzden düzgün bir sayı çıkmayabilir.
+
+08:24.430 --> 08:26.260
+.
+
+08:26.260 --> 08:30.490
+1 eksi -6.
+
+08:30.490 --> 08:31.280
+.
+
+08:31.280 --> 08:35.000
+yani 7, 7'nin karesi, sayarsanız görürsünüz.
+
+08:35.000 --> 08:36.169
+.
+
+08:36.169 --> 08:39.690
+1,2,3,4,5,6,7.
+
+08:39.690 --> 08:41.470
+.
+
+08:41.470 --> 08:43.400
+Bu x deki değişimimiz.
+
+08:43.400 --> 08:46.530
+artı 7eksi -4.
+
+08:46.530 --> 08:47.720
+11.
+
+08:47.720 --> 08:51.010
+Bunu da sayabilirisiniz.
+
+08:51.010 --> 08:51.490
+.
+
+08:51.490 --> 08:52.650
+11 birim yukarı çıkıyoruz.
+
+08:52.650 --> 08:55.860
+7 eksi -4 ten 11 birim uzaklık elde ediyoruz.
+
+08:55.860 --> 08:57.740
+.
+
+08:57.740 --> 09:01.750
+yani artı 11'in karesi uzklığın karesine eşit.
+
+09:01.750 --> 09:05.000
+Hesap makinesini çıkarayım.
+
+09:05.000 --> 09:13.266
+uzaklık 7'nin karesi artı 11'in karesinden 170 e eşir.
+
+09:13.266 --> 09:16.170
+Bunu karekökü ise uzaklık olacak değil mi?
+
+09:16.170 --> 09:18.920
+.
+
+09:18.920 --> 09:25.250
+karekökünü alırsak 13 çıkar.
+
+09:25.250 --> 09:28.250
+13.04 kabaca.
+
+09:28.250 --> 09:30.550
+Yani bulamya çalıştığımız uzaklık 13.04müş.
+
+09:30.550 --> 09:35.920
+.
+
+09:35.920 --> 09:38.540
+Umarım bunu faydalı bulmuşsunuzdur.

@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.000 --> 00:06.740
+První věc, co se učíme při seznámení
+s matematickou analýzou, je použití limit.
+
+00:06.740 --> 00:13.750
+Používáme limity k výpočtu
+derivací funkcí.
+
+00:13.750 --> 00:18.130
+Ve skutečnosti definice
+derivace používá pojem limita.
+
+00:18.130 --> 00:20.600
+Derivací získáme sklon tečny v bodě,
+
+00:20.600 --> 00:24.390
+který vznikl limitním
+zmenšováním vzdálenosti bodů.
+
+00:24.390 --> 00:27.110
+To jste již viděli mnohokrát.
+
+00:27.110 --> 00:30.630
+V tomto videu si to
+ukážeme v opačném směru.
+
+00:30.630 --> 00:39.130
+Využijeme derivace k výpočtu limit.
+
+00:39.130 --> 00:43.360
+Zejména k výpočtu
+limit v neurčitém tvaru.
+
+00:43.360 --> 00:48.060
+Neurčitým tvarem myslím, že
+když vezmu limitu tak, jak je
+
+00:48.060 --> 00:53.410
+a vyjde nám 0 děleno 0, nebo
+plus nekonečno děleno plus nekonečnem,
+
+00:53.410 --> 00:56.050
+nebo minus nekonečno
+děleno plus nekonečno,
+
+00:56.050 --> 00:58.120
+nebo minus nekonečno
+děleno minus nekonečno,
+
+00:58.120 --> 01:00.330
+nebo plus nekonečno
+děleno minus nekonečnem.
+
+01:00.330 --> 01:05.190
+Všechny jsou neurčité a nedefinované.
+
+01:05.190 --> 01:17.720
+K výpočtu takovýchto limit
+použijeme l'Hospitalovo pravidlo.
+
+01:17.730 --> 01:21.520
+V tomto videu vám pouze ukáži,
+co nám l'Hospitalovo pravidlo říká
+
+01:21.520 --> 01:25.490
+a jak jej můžeme využít, protože
+je velmi přímočaré a užitečné.
+
+01:25.490 --> 01:27.530
+Až budete na nějaké
+matematické soutěži
+
+01:27.530 --> 01:31.230
+a zeptají se vás na řešení složité
+limity, do které když dosadíte čísla,
+
+01:31.230 --> 01:37.260
+vyjde vám nějaký takovýto neurčitý výraz,
+pak vás testují na l'Hospitalovo pravidlo.
+
+01:37.270 --> 01:40.990
+V budoucím videu si ho i dokážeme,
+ale to je trochu víc komplikované.
+
+01:40.990 --> 01:44.870
+Aplikace je ve skutečnosti
+velmi přímočará.
+
+01:44.870 --> 01:50.570
+Co nám tedy l'Hospitalovo
+pravidlo říká?
+
+01:50.570 --> 01:54.530
+Nejdřív vám to ukáži obecně,
+ale až vám ukáži příklad,
+
+01:54.530 --> 01:56.080
+bude vám to hned jasné.
+
+01:56.080 --> 02:09.800
+Nechť se limita ,x' blížící
+se k ,c' z f(x) rovná 0
+
+02:09.800 --> 02:18.750
+a limita ,x' blížící
+se k ,c' z g(x) se rovná také 0
+
+02:18.750 --> 02:35.860
+a limita ,x' se blíží k ,c' z derivace
+f(x) děleno derivace g(x) existuje
+
+02:35.860 --> 02:38.180
+a je rovna nějakému číslu L.
+
+02:38.180 --> 02:40.600
+Všechny tyto podmínky platí.
+
+02:40.600 --> 02:45.560
+Máme zde nedefinovaná tvar 0 děleno 0,
+takže zde máme první případ.
+
+02:45.560 --> 02:49.330
+Pak můžeme říct,
+
+02:49.330 --> 03:03.070
+že limita ,x' blížící se k ,c' z f(x)
+děleno g(x) se bude také rovnat L.
+
+03:03.070 --> 03:05.600
+Tohle vám může
+připadat trochu bizarní.
+
+03:05.600 --> 03:08.130
+Nyní vám napíši druhý případ
+a pak si ukážeme příklad.
+
+03:08.130 --> 03:10.560
+Tedy spíš několik příkladů
+a ty vám vše ujasní.
+
+03:10.580 --> 03:13.040
+Toto je první případ
+a příklad, který si ukážeme,
+
+03:13.040 --> 03:16.650
+ve skutečnosti bude spojen
+s tímhle případem.
+
+03:16.650 --> 03:18.360
+Další případem je,
+
+03:18.360 --> 03:30.100
+když je limita ,x' blížící se k ,c' z f(x)
+rovna plus nekonečno nebo minus nekonečno
+
+03:30.100 --> 03:41.280
+a limita x blížící se c z g(x) je rovna
+plus nekonečno nebo minus nekonečno.
+
+03:41.280 --> 03:48.680
+A zároveň můžu říct,
+že podíl derivací existuje
+
+03:48.680 --> 03:57.400
+a limita ,x' blížící se k ,c' z derivace
+f(x) děleno derivace g(x) se rovná L.
+
+03:57.410 --> 04:02.030
+Můžeme říct stejné prohlášení.
+
+04:02.030 --> 04:06.070
+Nechte mě to zkopírovat.
+
+04:06.070 --> 04:10.220
+Editovat, kopírovat a vložit.
+
+04:10.220 --> 04:15.250
+Ujistěte se v těchto případech,
+že víte, o čem je řeč.
+
+04:15.250 --> 04:21.870
+Pokud v tomto případě zkusíte vypočítat
+limitu, po dosazení ,c' do f dostaneme 0.
+
+04:21.920 --> 04:27.460
+Nebo-li limita ,x' blížící se k ,c' z f(x)
+děleno limita ,x' blížící se k ,c' z g(x)…
+
+04:27.460 --> 04:30.460
+Vyjde vám 0 děleno 0.
+
+04:30.540 --> 04:32.420
+My ale nevíme,
+kolik je ta limita.
+
+04:32.420 --> 04:33.760
+Ale tohle nám to říká.
+
+04:33.760 --> 04:41.010
+Pokud limity existují, mohu vzít derivace
+jejich funkcí a vypočítat jejich limitu.
+
+04:41.020 --> 04:45.710
+Pokud dostanu číslo,
+pak mají stejnou limitu.
+
+04:45.710 --> 04:50.000
+Toto je situace, kde, pokud vezmeme limitu,
+dostaneme nekonečno děleno nekonečnem,
+
+04:50.000 --> 04:52.100
+nebo minus nekonečno
+děleno plus nekonečnem,
+
+04:52.100 --> 04:54.210
+nebo minus nekonečno
+děleno minus nekonečnem.
+
+04:54.210 --> 04:57.030
+Máme druhý nedefinovaný výraz.
+
+04:57.030 --> 04:59.410
+Abych vám vše objasnil,
+dovolte mi udělat příklad,
+
+04:59.410 --> 05:03.610
+protože si myslím,
+že mnoho věcí objasní.
+
+05:03.610 --> 05:08.910
+Řekněme, že se
+snažíme najít limitu.
+
+05:08.910 --> 05:10.610
+Použiji novou barvu.
+
+05:10.610 --> 05:13.830
+Dovolte mi to napsat
+purpurovou barvou.
+
+05:13.830 --> 05:23.170
+Řekněme, že chceme najít limitu
+,x' blížící se k 0 ze sin(x) děleno x.
+
+05:23.170 --> 05:30.330
+Vidíme, že pokud dosadíme 0 nebo
+limitu pošleme do 0 v obou funkcích,
+
+05:30.330 --> 05:33.180
+dostaneme něco
+ve smyslu 0 děleno 0.
+
+05:33.180 --> 05:35.370
+Sinus 0 je 0.
+
+05:35.370 --> 05:39.620
+Nebo limita ,x' blížící
+se 0 ze sin(x) je 0.
+
+05:39.620 --> 05:43.120
+Samozřejmě, když se
+,x' blíží 0 z ,x', pak to bude také 0.
+
+05:43.150 --> 05:45.100
+To je náš nedefinovaný výraz.
+
+05:45.100 --> 05:51.210
+Pokud nad tím chcete
+přemýšlet, sin(x) je naše f(x)
+
+05:51.270 --> 06:00.070
+a naše g(x) je zde x.
+
+06:00.070 --> 06:07.170
+g(x) se rovná x a f(x) se rovná sin(x).
+
+06:07.170 --> 06:11.490
+Všimněte si, že to splňuje
+první dvě podmínky.
+
+06:11.520 --> 06:14.970
+Limita ,x' blížící se k 0,
+v tomto případě ,c' je 0,
+
+06:14.970 --> 06:19.320
+ze sin(x) je 0, sin(0) je 0,
+
+06:19.320 --> 06:24.030
+a limita ,x' blížící se k 0
+z x je také rovna 0.
+
+06:24.030 --> 06:26.180
+Dostali jsme nedefinovaný výraz.
+
+06:26.180 --> 06:29.210
+Podívejme se, zda-li
+tyto limity vůbec existují.
+
+06:29.210 --> 06:35.880
+Máme tedy podíl derivací funkcí
+f(x) a g(x) a limita podílu jde do 0.
+
+06:35.900 --> 06:38.400
+Tedy v tomto případě je 0 naše ,c'.
+
+06:38.400 --> 06:40.530
+Podívejme se, zda limity existují.
+
+06:40.530 --> 06:44.030
+Budu psát modře.
+
+06:44.030 --> 06:48.410
+Napíšeme derivace
+našich dvou funkcí.
+
+06:48.410 --> 06:53.590
+Pokud f(x) je sin(x),
+jaká je derivace f(x)?
+
+06:53.590 --> 06:55.480
+No přeci cos(x).
+
+06:55.480 --> 06:57.390
+Učili jste se to již mnohokrát.
+
+06:57.390 --> 07:01.215
+Pokud g(x) je x,
+čemu je rovna derivace g(x)?
+
+07:01.215 --> 07:02.150
+To je jednoduché.
+
+07:02.150 --> 07:05.480
+Derivace x je 1.
+
+07:05.480 --> 07:16.930
+Limita ,x' blížící se k 0 z
+derivace f(x) děleno derivace g(x).
+
+07:17.000 --> 07:25.580
+To bude limita ,x' blížící se
+k 0 z cos(x) děleno 1.
+
+07:25.620 --> 07:28.650
+Napsal jsem tu
+jedničku trochu zvláštně.
+
+07:28.650 --> 07:30.170
+Nyní je to velmi přímočaré.
+
+07:30.170 --> 07:31.190
+Kolik to může být?
+
+07:31.190 --> 07:37.260
+Pokud x je 0, pak
+cos(x) bude roven 1.
+
+07:37.290 --> 07:40.880
+Samozřejmě limita ,x' blížící
+se k 0 z 1 bude též rovna 1.
+
+07:40.900 --> 07:49.800
+V této situaci vidíme, že limita ,x'
+blížící se k ,c', v tomto případě 0,
+
+07:49.820 --> 07:56.240
+tedy ,x' blížící se k 0 z derivace f(x)
+děleno derivace g(x) je rovna 1.
+
+07:56.250 --> 08:00.580
+Limita existuje a je rovna 1,
+splnili jsme tedy všechny podmínky.
+
+08:00.580 --> 08:02.500
+Toto je příklad, který jsme počítali.
+
+08:02.500 --> 08:06.700
+Limita ,x' blížící se k 0
+ze sin(x) je rovna 0.
+
+08:06.700 --> 08:10.650
+Limita ,x' blížící se k 0
+z x je rovna 0.
+
+08:10.650 --> 08:16.760
+Limita podílu derivace sin(x)
+a derivace x je podíl cos(x) a 1.
+
+08:16.760 --> 08:21.000
+Zjistili jsme, že je rovna 1.
+
+08:21.000 --> 08:26.470
+Všechny podmínky nahoře jsou splněny,
+proto víme, že toto musí být případ,
+
+08:26.480 --> 08:36.620
+kde limita ,x' blížící se k 0
+ze sin(x) děleno x je rovna 1.
+
+08:36.690 --> 08:42.510
+Musí mít stejnou limitu
+jako jsme vypočítali zde,
+
+08:42.510 --> 08:46.120
+derivace f(x) a g(x).
+
+08:46.120 --> 08:48.350
+V následujících videích
+jsou další příklady,
+
+08:48.350 --> 08:51.201
+podívejte se na ně
+a bude vše ještě jasnější.

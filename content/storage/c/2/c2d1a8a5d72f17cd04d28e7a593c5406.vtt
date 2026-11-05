@@ -1,0 +1,669 @@
+WEBVTT
+
+00:00.000 --> 00:02.052
+- [Instructor] Estimating
+e to the 1.45 using
+
+00:02.052 --> 00:04.782
+a Taylor polynomial about x equals two,
+
+00:04.782 --> 00:07.164
+what is the least degree of the polynomial
+
+00:07.164 --> 00:10.581
+that assures an error smaller than 0.001?
+
+00:11.779 --> 00:13.957
+In general, if you see
+a situation like this
+
+00:13.957 --> 00:16.342
+where we're talking about
+approximating a function
+
+00:16.342 --> 00:19.082
+with a Taylor polynomial
+centered about some value,
+
+00:19.082 --> 00:21.095
+and we wanna know, well,
+how many terms do we need,
+
+00:21.095 --> 00:23.750
+what degree do we need to bound the error?
+
+00:23.750 --> 00:26.424
+That's a pretty good clue
+that we're going to be using
+
+00:26.424 --> 00:29.880
+the LaGrange error bound or
+Taylor's remainder theorem.
+
+00:29.880 --> 00:31.861
+And just as a reminder of that,
+
+00:31.861 --> 00:35.119
+this is a review of
+Taylor's remainder theorem,
+
+00:35.119 --> 00:38.080
+and it tells us that the
+absolute value of the remainder
+
+00:38.080 --> 00:40.169
+for the nth degree Taylor polynomial,
+
+00:40.169 --> 00:43.309
+it's gonna be less than this
+business right over here.
+
+00:43.309 --> 00:46.527
+Now, n is the degree of our polynomial
+
+00:46.527 --> 00:49.075
+that in question, so that's the n.
+
+00:49.075 --> 00:52.915
+The x is the x value at which
+we are calculating that error,
+
+00:52.915 --> 00:55.544
+in this case it's going to be this 1.45.
+
+00:55.544 --> 00:58.343
+And c is where our Taylor
+polynomial is centered.
+
+00:58.343 --> 00:59.775
+But what about our M?
+
+00:59.775 --> 01:02.837
+Well, our M is an upper
+bound on the absolute value
+
+01:02.837 --> 01:06.470
+of the n plus oneth
+derivative of our function.
+
+01:06.470 --> 01:07.779
+And that might seem like a mouthful,
+
+01:07.779 --> 01:09.262
+but when we actually
+work through the details
+
+01:09.262 --> 01:12.208
+of this example, it'll make
+it a little bit more concrete.
+
+01:12.208 --> 01:14.813
+So for this particular thing,
+we're trying to estimate,
+
+01:14.813 --> 01:17.460
+we're trying to estimate e to the x.
+
+01:17.460 --> 01:21.255
+So I could write f of x,
+let me write this this way.
+
+01:21.255 --> 01:24.338
+So, f of x is equal to e to the x,
+
+01:25.631 --> 01:29.577
+and we're trying to estimate f of 1.45.
+
+01:29.577 --> 01:31.949
+And let's just to get the bound here,
+
+01:31.949 --> 01:34.279
+to figure out what M is,
+let's just remind ourselves
+
+01:34.279 --> 01:36.263
+that while the first derivative of this
+
+01:36.263 --> 01:37.537
+is going to be e to the x,
+
+01:37.537 --> 01:38.934
+the second derivative
+is gonna be e to the x,
+
+01:38.934 --> 01:41.355
+the nth derivative is gonna be e to the x,
+
+01:41.355 --> 01:43.988
+the n plus oneth derivative
+is gonna be e to the x.
+
+01:43.988 --> 01:48.621
+So the n plus oneth
+derivative of f is gonna be,
+
+01:48.621 --> 01:49.538
+is gonna be
+
+01:50.787 --> 01:53.524
+e to the x which is convenient.
+
+01:53.524 --> 01:55.439
+These types of problems
+are very, very hard
+
+01:55.439 --> 01:59.910
+if it's difficult to bound
+the n plus oneth derivative.
+
+01:59.910 --> 02:03.968
+Well this we know, we know that e the x,
+
+02:03.968 --> 02:05.765
+we know that e the x, and I can even say
+
+02:05.765 --> 02:08.219
+the absolute value of this,
+but this is gonna be positive,
+
+02:08.219 --> 02:10.500
+is going to be less than or equal to,
+
+02:10.500 --> 02:15.000
+let's say this is gonna be
+less than or equal to e squared
+
+02:15.000 --> 02:16.917
+for zero is less than x
+
+02:19.610 --> 02:22.655
+is less than or equal to two.
+
+02:22.655 --> 02:25.771
+e the x isn't bounded over the entire,
+
+02:25.771 --> 02:28.604
+for over its entire domain.
+
+02:28.604 --> 02:29.533
+If x goes to infinity,
+
+02:29.533 --> 02:31.498
+e to the x will also go to infinity.
+
+02:31.498 --> 02:33.031
+But here I set up an interval.
+
+02:33.031 --> 02:35.685
+I've set up an interval that
+contains the x we care about.
+
+02:35.685 --> 02:38.505
+Remember, the x we care about is 1.45,
+
+02:38.505 --> 02:42.541
+and it also contains where
+our function is centered.
+
+02:42.541 --> 02:44.190
+Our function is centered at two.
+
+02:44.190 --> 02:46.099
+So we know we're bounded by e squared,
+
+02:46.099 --> 02:50.374
+so we can say, we can
+use e squared as our M.
+
+02:50.374 --> 02:52.667
+We can use e squared as our M.
+
+02:52.667 --> 02:55.355
+We're able to establish this bound.
+
+02:55.355 --> 02:57.969
+And so doing that, we can now go straight
+
+02:57.969 --> 02:59.327
+to LaGrange error bound.
+
+02:59.327 --> 03:03.177
+We can say, we can say that the remainder
+
+03:03.177 --> 03:05.255
+of our nth degree Taylor polynomial,
+
+03:05.255 --> 03:06.315
+we wanna solve for n.
+
+03:06.315 --> 03:10.602
+We wanna figure out what n
+gives us the appropriate bound
+
+03:10.602 --> 03:12.102
+evaluated at 1.45.
+
+03:13.211 --> 03:17.447
+When x is 1.45 is going to
+be less than or equal to
+
+03:17.447 --> 03:21.192
+the absolute value, our M is e squared,
+
+03:21.192 --> 03:22.442
+e squared over,
+
+03:24.437 --> 03:27.020
+over n plus one factorial times
+
+03:29.911 --> 03:32.609
+1.45, that's our x that we care about,
+
+03:32.609 --> 03:33.926
+that's where we're calculating the error,
+
+03:33.926 --> 03:35.287
+we're trying to bound the error,
+
+03:35.287 --> 03:37.016
+minus where we're centered,
+
+03:37.016 --> 03:40.616
+minus two to the n plus oneth power.
+
+03:40.616 --> 03:42.199
+Now 1.45 minus two,
+
+03:44.225 --> 03:46.214
+that is negative 0.55.
+
+03:46.214 --> 03:47.815
+So let me just write that.
+
+03:47.815 --> 03:48.732
+So this is,
+
+03:49.658 --> 03:51.408
+this is negative 0.55
+
+03:53.572 --> 03:56.095
+to the n plus oneth power.
+
+03:56.095 --> 03:59.929
+And we wanna figure out for
+what n is all of this business,
+
+03:59.929 --> 04:04.012
+is all of this business
+gonna be less than 0.001.
+
+04:05.012 --> 04:07.941
+Well let's do a little bit of
+algebraic manipulation here.
+
+04:07.941 --> 04:11.054
+This term is positive,
+this is gonna be positive.
+
+04:11.054 --> 04:13.155
+This right over here, or this part of it,
+
+04:13.155 --> 04:14.675
+it's not an independent term,
+
+04:14.675 --> 04:16.643
+but the e to the squared
+is gonna be positive,
+
+04:16.643 --> 04:18.173
+n plus one factorial is gonna be positive,
+
+04:18.173 --> 04:20.621
+the negative 0.55 to some power,
+
+04:20.621 --> 04:23.225
+that's gonna flip between
+being positive or negative.
+
+04:23.225 --> 04:25.035
+But since we're taking the absolute value,
+
+04:25.035 --> 04:26.530
+we could write it this way.
+
+04:26.530 --> 04:28.613
+We could write e squared,
+
+04:30.385 --> 04:34.983
+e squared, since we're taking
+the absolute value times 0.55
+
+04:34.983 --> 04:38.566
+to the n plus one over
+n plus one factorial
+
+04:40.837 --> 04:44.754
+has to be less than, has
+to be less than 0.001.
+
+04:46.277 --> 04:49.027
+Or, since we want to solve for n,
+
+04:50.146 --> 04:52.790
+let's divide both sides by e squared.
+
+04:52.790 --> 04:55.707
+So we could write, we could write,
+
+04:55.707 --> 04:57.957
+let's find the n where 0.55
+
+05:00.073 --> 05:02.950
+to the n plus oneth power
+
+05:02.950 --> 05:05.033
+over n plus one factorial
+
+05:07.072 --> 05:08.155
+is less than,
+
+05:09.164 --> 05:10.664
+is less than 0.001
+
+05:13.020 --> 05:14.270
+over e squared.
+
+05:16.904 --> 05:20.309
+Now to play with this, we're
+gonna have to use a calculator.
+
+05:20.309 --> 05:23.772
+From this point we're just
+gonna try larger and larger ns
+
+05:23.772 --> 05:26.178
+until we get an n that makes this true.
+
+05:26.178 --> 05:28.876
+And we wanna find the smallest possible n
+
+05:28.876 --> 05:30.306
+that makes this true.
+
+05:30.306 --> 05:32.905
+But let's get out our calculators
+so that we can actually,
+
+05:32.905 --> 05:35.371
+so that we can actually do this.
+
+05:35.371 --> 05:37.112
+So, first I'm just gonna figure out
+
+05:37.112 --> 05:40.454
+what is 1/1000 divided by e squared.
+
+05:40.454 --> 05:42.835
+So make sure it's cleared out.
+
+05:42.835 --> 05:44.895
+So let's take e squared,
+
+05:44.895 --> 05:46.931
+I'm gonna take its reciprocal,
+
+05:46.931 --> 05:49.215
+and then I'm gonna
+multiply that times 1/1000.
+
+05:49.215 --> 05:51.382
+So times .001 is equal to,
+
+05:54.526 --> 05:55.693
+so it's about,
+
+05:56.907 --> 05:58.242
+so I'll say,
+
+05:58.242 --> 06:01.056
+so it's three zeroes, this is a 10/1000,
+
+06:01.056 --> 06:02.239
+and then three five.
+
+06:02.239 --> 06:05.166
+So it's three zeroes, so
+I'll say one three six.
+
+06:05.166 --> 06:09.333
+So this needs to be less than
+zero point one two three,
+
+06:11.131 --> 06:13.216
+then I'll say one three six.
+
+06:13.216 --> 06:16.693
+If I can find an n that is less than this,
+
+06:16.693 --> 06:18.567
+then I'm in, then I am in good shape.
+
+06:18.567 --> 06:19.443
+Actually let me say this.
+
+06:19.443 --> 06:22.454
+Less than one three five, I
+wanna be less than that value,
+
+06:22.454 --> 06:25.120
+then I can be, then I
+will be in good shape.
+
+06:25.120 --> 06:28.482
+This is a little bit
+more than one three five,
+
+06:28.482 --> 06:31.347
+but if I can find an n where
+that is less than this,
+
+06:31.347 --> 06:33.063
+then I'm in good shape.
+
+06:33.063 --> 06:36.646
+So let me write this
+0.55 to the n plus one
+
+06:37.976 --> 06:40.143
+over n plus one factorial.
+
+06:41.555 --> 06:43.116
+So let's try out some ns.
+
+06:43.116 --> 06:45.748
+And I'm gonna have to
+get my calculator out.
+
+06:45.748 --> 06:48.064
+So, let's see, did I do that right?
+
+06:48.064 --> 06:49.231
+Yeah, .000135.
+
+06:51.429 --> 06:54.396
+If we get something below
+this, then we're in good shape,
+
+06:54.396 --> 06:57.467
+because this is even less than that.
+
+06:57.467 --> 06:59.257
+All right, so let's do it.
+
+06:59.257 --> 07:01.316
+Let's see what this is equal to
+
+07:01.316 --> 07:03.576
+when, I don't know,
+when n is equal to two.
+
+07:03.576 --> 07:07.743
+I can start at n equals one,
+n equals two, n equals three,
+
+07:08.764 --> 07:10.682
+but if n equals two is good enough,
+
+07:10.682 --> 07:12.520
+then I might try n equals one.
+
+07:12.520 --> 07:13.982
+But if n equals two isn't good enough,
+
+07:13.982 --> 07:16.247
+then I'm gonna go to n equals
+three or n equals four.
+
+07:16.247 --> 07:17.418
+So let's start with,
+
+07:17.418 --> 07:19.233
+actually let's just start
+with n equals three.
+
+07:19.233 --> 07:22.573
+So if n equals three, it's gonna
+be 0.55 to the fourth power
+
+07:22.573 --> 07:24.112
+divided by four factorial.
+
+07:24.112 --> 07:25.816
+So let's use that, let's do that.
+
+07:25.816 --> 07:26.649
+So 0.55
+
+07:28.945 --> 07:31.945
+to the fourth power is equal to that
+
+07:34.350 --> 07:37.079
+divided by four factorial.
+
+07:37.079 --> 07:39.996
+So divided by four factorial is 24.
+
+07:41.951 --> 07:44.784
+So that's nowhere near low enough.
+
+07:45.878 --> 07:47.993
+So let's try n equals four.
+
+07:47.993 --> 07:50.917
+If n equals four, then it's
+gonna be this to the fifth power
+
+07:50.917 --> 07:52.942
+divided by five factorial.
+
+07:52.942 --> 07:53.775
+So 0.55
+
+07:56.638 --> 07:59.862
+to the fifth power is equal to,
+
+07:59.862 --> 08:02.584
+and then divided by five factorial is,
+
+08:02.584 --> 08:04.963
+five factorial is 120.
+
+08:04.963 --> 08:07.630
+Divided by 120 is equal to that.
+
+08:08.744 --> 08:11.924
+We're almost there with n equals four.
+
+08:11.924 --> 08:14.603
+I'm guessing that n equals
+five will do the trick.
+
+08:14.603 --> 08:18.227
+So for n equals five,
+let's clear this out.
+
+08:18.227 --> 08:21.331
+So for n equals five, we're
+gonna raise to the sixth power
+
+08:21.331 --> 08:23.498
+and divide by six factorial.
+
+08:23.498 --> 08:24.797
+And so let's just remind ourselves
+
+08:24.797 --> 08:27.631
+what six factorial is, 720.
+
+08:27.631 --> 08:29.286
+In fact, I could've done that in my head.
+
+08:29.286 --> 08:30.230
+But anyway.
+
+08:30.230 --> 08:31.238
+All right, so let's see.
+
+08:31.238 --> 08:35.729
+We're gonna go 0.55 to
+the, remember, n is five,
+
+08:35.729 --> 08:37.596
+so we're gonna raise to the sixth power,
+
+08:37.596 --> 08:39.601
+to the sixth power,
+
+08:39.601 --> 08:42.084
+and then we're gonna divide by 720,
+
+08:42.084 --> 08:44.334
+divided by 720 is equal to,
+
+08:45.605 --> 08:48.175
+and this number for sure is less than
+
+08:48.175 --> 08:49.831
+this number right over here.
+
+08:49.831 --> 08:53.325
+We've got four zeroes before
+this three after the decimal,
+
+08:53.325 --> 08:54.996
+here we only have three.
+
+08:54.996 --> 08:59.205
+So when n equals five, it got
+us sufficiently low enough,
+
+08:59.205 --> 09:02.242
+this remainder is going
+to be sufficiently low,
+
+09:02.242 --> 09:04.942
+it's gonna be less than
+this value right over here.
+
+09:04.942 --> 09:07.934
+So, what is the least
+degree of the polynomial
+
+09:07.934 --> 09:12.255
+that assures an error smaller than 1/1000?
+
+09:12.255 --> 09:16.239
+The answer is five, our n, if n is five,
+
+09:16.239 --> 09:18.877
+we're definitely gonna be under this.

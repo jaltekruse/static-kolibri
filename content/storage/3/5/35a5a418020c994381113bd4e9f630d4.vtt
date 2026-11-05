@@ -1,0 +1,739 @@
+WEBVTT
+
+00:00.760 --> 00:01.360
+Beinvenue
+
+00:01.360 --> 00:04.290
+nous ferions partie b et un peu de problème 2
+
+00:04.290 --> 00:07.660
+et il dit, utilisez une somme trapézoïdale avec 3 sous-intervalles
+
+00:07.660 --> 00:09.390
+pour estimer le moyen nombre des personnes qui attendent
+
+00:09.390 --> 00:11.030
+durant les 4 premières heures.
+
+00:11.030 --> 00:13.840
+Et donc j'ai juste pris les données qu'ils ont donné, graphiquement avec elle.
+
+00:13.840 --> 00:15.560
+Je le faisais dans la dernière vidéo.
+
+00:15.560 --> 00:19.880
+Et donc, utilisez somme trapézoïdal avec 3 sous-intervalles pour estimer
+
+00:19.880 --> 00:22.140
+le nombre moyen de personnes--ce qui semble très compliqué.
+
+00:22.140 --> 00:25.470
+Comme mec, je ne--que sons--Oui, vous le savez, je
+
+00:25.470 --> 00:27.260
+n'apprendre sommes trapézoïdales, ou toutefois vous
+
+00:27.260 --> 00:27.910
+vous voulez réfléchir.
+
+00:27.910 --> 00:28.770
+Il peut être très déroutante.
+
+00:28.770 --> 00:32.350
+Et franchement, je n'ai pas pris de calcul en 20 ans.
+
+00:32.350 --> 00:33.720
+Mais vous avez vraiment tout juste à réfléchir à ce qu'ils sont
+
+00:33.720 --> 00:35.370
+dire et c' est pas que redoutable.
+
+00:35.370 --> 00:37.300
+Donc, quelle est la valeur moyenne d'une fonction ?
+
+00:37.300 --> 00:39.180
+Et vous avez appris cela en calcul.
+
+00:39.180 --> 00:40.660
+Vous ne peut-être pas de le rappeler.
+
+00:43.640 --> 00:50.020
+Alors disons que la valeur moyenne de f est égale à essentiellement--
+
+00:50.020 --> 00:53.860
+Disons que, entre 2 points b et un--c'est la différence
+
+00:53.860 --> 00:57.230
+entre les deux points divisées par l'aire sous la
+
+00:57.230 --> 01:00.780
+courbe de f de x.
+
+01:00.780 --> 01:01.840
+D'a à b.
+
+01:01.840 --> 01:02.190
+n'est-ce pas?
+
+01:02.190 --> 01:04.470
+C'est, je crois qu'ils appellent que la deuxième fondamentale
+
+01:04.470 --> 01:05.300
+Théorème du calcul infinitésimal.
+
+01:05.300 --> 01:08.180
+Ou a pour corollaire le théorème fondamental de calcul, quelle que soit.
+
+01:08.180 --> 01:09.140
+Mais c'est logique.
+
+01:09.140 --> 01:09.700
+Droit ?
+
+01:09.700 --> 01:13.790
+La valeur moyenne d'une fonction est égale à l'aire sous la
+
+01:13.790 --> 01:16.210
+courbe divisé par, vous pourriez genre de dire, le
+
+01:16.210 --> 01:17.350
+base de la figure.
+
+01:17.350 --> 01:18.260
+n'est-ce pas?
+
+01:18.260 --> 01:20.820
+Parce qu'une autre façon de penser, si vous a pris seul la
+
+01:20.820 --> 01:26.930
+valeur de la fonction--en moyenne donc si la fonction a été, disons,
+
+01:26.930 --> 01:31.310
+Ceci et vous juste multiplié cette fois de la valeur moyenne du
+
+01:31.310 --> 01:34.660
+base, vous obtenez la même région que l'intégrale.
+
+01:34.660 --> 01:35.550
+C'est une autre façon de voir.
+
+01:35.550 --> 01:39.460
+Vous pouvez réécrire ce b moins un.
+
+01:39.460 --> 01:42.540
+La base de temps de la valeur moyenne est la même chose que
+
+01:42.540 --> 01:43.655
+l'aire sous la courbe.
+
+01:47.010 --> 01:48.490
+C'est une autre façon de voir.
+
+01:48.490 --> 01:49.670
+Alors disons juste appliquer qu'ici.
+
+01:49.670 --> 01:53.670
+Utilisons la somme trapézoïdale pour découvrir la région sous
+
+01:53.670 --> 01:57.840
+Cette courbe, ou une estimation de la superficie sous l, de t, puis
+
+01:57.840 --> 01:59.750
+Nous pouvons diviser par b moins un.
+
+01:59.750 --> 02:02.810
+Ou dans ce cas, b est de 4, une est 0.
+
+02:02.810 --> 02:06.880
+Et nous aurons la valeur moyenne de--sur les 4 premières
+
+02:06.880 --> 02:08.500
+heures--du peuple en ligne.
+
+02:08.500 --> 02:11.760
+Alors disons le faire.
+
+02:11.760 --> 02:13.350
+Je voudrais effacer il.
+
+02:13.350 --> 02:14.530
+Nous n'allons pas vraiment utiliser un intervalle.
+
+02:14.530 --> 02:16.120
+Nous allons utiliser une somme trapézoïdale à
+
+02:16.120 --> 02:18.030
+estimer l'intégrale.
+
+02:18.030 --> 02:19.610
+Si elle dit, 3 intervalles.
+
+02:19.610 --> 02:22.390
+Il est dit une somme trapézoïdale avec 3 sous-intervalles.
+
+02:22.390 --> 02:26.570
+Eh bien, je le vois, il y a 3 très naturelles sous-intervalles ici.
+
+02:26.570 --> 02:29.560
+Et permettez-moi de les dessiner.
+
+02:29.560 --> 02:32.030
+C'est un.
+
+02:32.030 --> 02:34.750
+En fait je voudrais--je vais tirer les lignes en pointillé.
+
+02:34.750 --> 02:37.370
+Il s'agit d'un sous-intervalle.
+
+02:37.370 --> 02:40.600
+C'est un autre sous-intervalle.
+
+02:40.600 --> 02:41.160
+Et il nous en avons.
+
+02:41.160 --> 02:42.130
+Nous avons trois trapèzes.
+
+02:42.130 --> 02:45.860
+Nous avons l'un, nous avons l'un et nous
+
+02:45.860 --> 02:47.300
+ont ce trapèze.
+
+02:47.300 --> 02:49.150
+Donc nous avons essentiellement suffit de découvrir le domaine de la
+
+02:49.150 --> 02:50.230
+chacun de ces trapèzes.
+
+02:50.230 --> 02:53.430
+Voyons voir si je peux tirer qu'un petit peu--j'attire les
+
+02:53.430 --> 02:55.080
+de couleurs différentes, si vous pouvez voir les trapèzes.
+
+02:55.080 --> 02:58.660
+Alors ce trapèze va va partir--oh, je ne sais pas
+
+02:58.660 --> 02:59.560
+Si je fais ce droit.
+
+02:59.560 --> 03:00.550
+Nous allons voir.
+
+03:00.550 --> 03:03.220
+J'utilise un outil en ligne.
+
+03:03.220 --> 03:09.565
+Si 1 trapèze ici et un autre trapèze il.
+
+03:09.565 --> 03:11.690
+Et puis un autre trapèze il.
+
+03:11.690 --> 03:13.480
+Et j'ai seulement besoin de comprendre les zones de chacun de ces
+
+03:13.480 --> 03:16.160
+trapèzes, et c'est mon estimation de la zone en vertu de la
+
+03:16.160 --> 03:17.860
+courbe de l t, de 0 à 4.
+
+03:17.860 --> 03:19.480
+Et puis je simplement diviser par 4, et je suis fait.
+
+03:19.480 --> 03:21.870
+Partie b.
+
+03:21.870 --> 03:25.170
+Alors, quelle est la superficie de cette première trapèze ?
+
+03:25.170 --> 03:27.110
+De plus, que faire pour trouver l'aire d'un trapèze ?
+
+03:27.110 --> 03:28.900
+C'est la base.
+
+03:28.900 --> 03:32.520
+Ainsi, cette zone du trapèze droit ici, ce premier
+
+03:32.520 --> 03:33.980
+l'une, est la base.
+
+03:33.980 --> 03:36.240
+C'est juste 1.
+
+03:36.240 --> 03:39.380
+1 fois la moyenne des deux hauteurs.
+
+03:39.380 --> 03:39.690
+Droit ?
+
+03:39.690 --> 03:41.830
+C'est donc la moyenne.
+
+03:41.830 --> 03:45.470
+À droite ici, c'est 120, et il s'agit de 156.
+
+03:45.470 --> 03:49.570
+Alors quel est la moyenne de 120 et 156 ?
+
+03:49.570 --> 03:52.230
+De plus, la moyenne de 120 et 156--nous allons le voir.
+
+03:52.230 --> 03:59.810
+Nous avons 276 divisé par 2 est 138.
+
+03:59.810 --> 04:03.380
+Donc c'est 138 1 fois ou c'est juste 138.
+
+04:03.380 --> 04:06.870
+C'est l'aire de ce trapèze.
+
+04:06.870 --> 04:09.090
+Quelle est la superficie de ce trapèze droit ici ?
+
+04:09.090 --> 04:10.430
+Un plus gros ?
+
+04:10.430 --> 04:12.320
+De plus, sa base est 2, droite ?
+
+04:12.320 --> 04:13.750
+1, 2.
+
+04:13.750 --> 04:14.450
+Sa base est 2.
+
+04:14.450 --> 04:16.060
+Et quelle est la valeur moyenne ?
+
+04:16.060 --> 04:17.470
+Eh bien, il va être la valeur moyenne
+
+04:17.470 --> 04:20.670
+entre 156 et 176.
+
+04:20.670 --> 04:23.230
+Ou la valeur moyenne entre cette hauteur et cette hauteur.
+
+04:23.230 --> 04:24.210
+C'est un un, droit plus facile ?
+
+04:24.210 --> 04:26.456
+166 est à droite entre les deux et nous
+
+04:26.456 --> 04:27.050
+n'avez pas à faire beaucoup.
+
+04:27.050 --> 04:29.650
+C'est donc 2 fois 166.
+
+04:29.650 --> 04:33.110
+Désolé, 166, pas 1,66.
+
+04:33.110 --> 04:39.130
+Et enfin, quelle est la valeur moyenne de ce piège--ou quoi de
+
+04:39.130 --> 04:42.240
+l'aire de ce trapèze ?
+
+04:42.240 --> 04:44.260
+De plus, la base est 1, droite ?
+
+04:44.260 --> 04:46.180
+Il va de 3 à 4.
+
+04:46.180 --> 04:48.930
+1 fois la valeur moyenne.
+
+04:48.930 --> 04:52.380
+Alors, 176 et 126.
+
+04:52.380 --> 04:56.520
+C'est 1/2 temps--ce qui est de 176 ?
+
+04:56.520 --> 05:00.430
+Permettez-moi d'utiliser une calculatrice, pour que je ne rends pas les erreurs.
+
+05:00.430 --> 05:03.180
+Fidèle émulateur de TI-85.
+
+05:03.180 --> 05:04.130
+Nous allons voir.
+
+05:04.130 --> 05:08.880
+176 et 126.
+
+05:08.880 --> 05:09.980
+Entrez.
+
+05:09.980 --> 05:14.710
+Divisé par 2, est égal à 151.
+
+05:14.710 --> 05:18.090
+Si ce domaine du droit est ici 1 fois 151 ou 151.
+
+05:18.090 --> 05:19.550
+Alors, quelle est la superficie totale ?
+
+05:19.550 --> 05:23.530
+Il va juste être la somme de ces 3 trapèzes.
+
+05:23.530 --> 05:25.340
+Il est donc la somme de ces 3 trapèzes.
+
+05:25.340 --> 05:39.880
+Il va donc être 138 plus de 166 2 fois plus de 151.
+
+05:39.880 --> 05:43.050
+C'est ainsi que la superficie totale sous les trapèzes.
+
+05:43.050 --> 05:46.400
+Mais alors qu'ils nous demandent, Eh bien, quelle est la moyenne
+
+05:46.400 --> 05:47.480
+valeur de la fonction ?
+
+05:47.480 --> 05:51.690
+De même, la valeur moyenne est juste la zone divisée par la base.
+
+05:51.690 --> 05:53.020
+La base est 4, droite ?
+
+05:53.020 --> 05:54.900
+De midi à 16:00
+
+05:54.900 --> 05:57.520
+ou de temps égal 0 à temps est égal à 4.
+
+05:57.520 --> 05:59.610
+Si nous divisons juste cette valeur par 4.
+
+05:59.610 --> 06:05.670
+Donc divisé par 4, nous obtenons 155,25.
+
+06:05.670 --> 06:08.125
+Donc ils disent utiliser une somme de forme trapézoïdale avec 3 sous-intervalles de
+
+06:08.125 --> 06:10.550
+estimer le nombre de gens qui attendent en ligne au cours de
+
+06:10.550 --> 06:13.060
+les premières 4 heures que les billets sont en vente.
+
+06:13.060 --> 06:17.110
+Si la réponse à la partie b est 155,25.
+
+06:17.110 --> 06:18.940
+Ils ne nous disent à tour elle ou quoi que ce soit, donc je suppose
+
+06:18.940 --> 06:20.620
+C'est, vous le savez, si nous disons le nombre moyen de
+
+06:20.620 --> 06:22.720
+gens, je pense que nous pouvons avoir une fraction il.
+
+06:22.720 --> 06:23.375
+Donc c'est raisonnable.
+
+06:25.890 --> 06:26.630
+Voyons, quelle partie sommes nous ?
+
+06:26.630 --> 06:29.270
+Nous sommes sur la partie c.
+
+06:29.270 --> 06:29.970
+Bien.
+
+06:29.970 --> 06:31.300
+Si la partie c.
+
+06:31.300 --> 06:33.940
+Je pense que va utiliser ce graphique, trop.
+
+06:33.940 --> 06:36.240
+Permettez-moi donc d'effacer au moins cette partie supérieure.
+
+06:38.960 --> 06:43.230
+La partie supérieure, que je peux effacer.
+
+06:43.230 --> 06:46.280
+Je peux effacer cela, je peux effacer que.
+
+06:46.280 --> 06:49.370
+Je veux effacer toutes les choses inutiles.
+
+06:49.370 --> 06:54.550
+Voyons voir si je peux--voyons, je peux effacer tout cela.
+
+06:54.550 --> 06:55.770
+Je veux simplement faire aussi nette que possible.
+
+06:55.770 --> 06:57.820
+Je pense que ce graphique va venir utile en partie
+
+06:57.820 --> 07:01.470
+c, en évoquant tout à elle.
+
+07:01.470 --> 07:01.810
+Bien.
+
+07:01.810 --> 07:03.760
+C'est assez bon, je crois.
+
+07:03.760 --> 07:05.510
+OK, Let's la partie c.
+
+07:05.510 --> 07:09.680
+Permettez-moi de copier et coller.
+
+07:13.410 --> 07:14.070
+Partie c.
+
+07:18.670 --> 07:20.050
+OK, copié.
+
+07:20.050 --> 07:21.005
+Edition, coller.
+
+07:23.770 --> 07:24.600
+Bien.
+
+07:24.600 --> 07:27.940
+Pour t est supérieure à 0, est inférieure à 9, droite ?
+
+07:27.940 --> 07:30.840
+Quel est le nombre le plus petit nombre de fois à laquelle premier l
+
+07:30.840 --> 07:33.340
+t doit être égal à 0 ?
+
+07:33.340 --> 07:35.020
+Donner une raison pour votre réponse.
+
+07:35.020 --> 07:39.180
+Si l premier de t, qui est la dérivée de cette.
+
+07:39.180 --> 07:41.780
+Lorsque j'ai connecté ces points, je tenais simplement à
+
+07:41.780 --> 07:42.640
+obtenir une forme de la courbe.
+
+07:42.640 --> 07:43.430
+Mais c'est vraiment une courbe.
+
+07:43.430 --> 07:46.090
+Ce n'est pas comme cette ligne tranche aigue, droite ?
+
+07:46.090 --> 07:46.880
+Et comment savoir que c'est une courbe ?
+
+07:46.880 --> 07:48.370
+Parce qu'elle est dérivable.
+
+07:48.370 --> 07:49.360
+Il est continu.
+
+07:49.360 --> 07:50.620
+C'est en fait deux fois dérivable.
+
+07:50.620 --> 07:52.800
+Qui nous dit la dérivée est continue.
+
+07:52.800 --> 07:56.070
+Si le graphique réel de cette va ressembler à quelque chose--
+
+07:56.070 --> 07:58.630
+vous le savez, je voudrais faire une couleur audacieuse comme magenta.
+
+07:58.630 --> 08:00.390
+Vous savez, il pourrait ressembler à quelque chose comme ça.
+
+08:00.390 --> 08:03.990
+Je ne sais pas, une courbe et ensuite il utilise à
+
+08:03.990 --> 08:05.880
+un moment donné, se résume.
+
+08:05.880 --> 08:07.530
+Puis elle surgit comme ceci.
+
+08:07.530 --> 08:09.750
+Et puis, peut-être, il utilise, et il
+
+08:09.750 --> 08:12.190
+s'agit comme ça.
+
+08:12.190 --> 08:14.480
+C'est une courbe, droite ?
+
+08:14.480 --> 08:17.190
+De toute façon, ils le disent, ce qui est le nombre le plus petit nombre de fois que l
+
+08:17.190 --> 08:19.940
+premier t doit être égal à 0 ?
+
+08:19.940 --> 08:25.100
+Eh bien, que se passe-t-il lorsque l prime de t est égal à 0 ?
+
+08:25.100 --> 08:29.560
+Cela signifie que nous sommes à un minima locaux ou d'un local
+
+08:29.560 --> 08:32.470
+maxima, ou parfois un point d'inflexion.
+
+08:32.470 --> 08:34.170
+Mais nous ne savons que bien sûr.
+
+08:34.170 --> 08:38.610
+Mais au point de minima et maxima, nous savons avec certitude que l
+
+08:38.610 --> 08:40.400
+nombre premier de t est égal à 0.
+
+08:40.400 --> 08:41.630
+Et donc nous pouvons globe oculaire juste.
+
+08:41.630 --> 08:43.870
+Nous pourrions regarder ce graphique et nous pourrions dire, Eh bien, vous savez,
+
+08:43.870 --> 08:47.280
+Il y a un point minimum defaite dans cette gamme.
+
+08:47.280 --> 08:47.550
+Droit ?
+
+08:47.550 --> 08:49.280
+Entre ici et ici.
+
+08:49.280 --> 08:51.620
+Donc, vous le savez, la façon dont j'ai fait elle, elle ressemble
+
+08:51.620 --> 08:53.980
+la pente est 0 il.
+
+08:53.980 --> 08:56.740
+Et entre ici et ici, on dirait la pente est également
+
+08:56.740 --> 08:59.420
+aller à fond à un certain point.
+
+08:59.420 --> 08:59.930
+Comme là.
+
+08:59.930 --> 09:02.380
+Et puis il y une maximale point droit--defaite
+
+09:02.380 --> 09:04.590
+Cette gamme et il va sortie max.
+
+09:04.590 --> 09:07.410
+Donc quand je Globe juste oculaire il, je bien dire, j'ai 2 maximum
+
+09:07.410 --> 09:10.040
+points et un point de minimum, donc la pente est égale à
+
+09:10.040 --> 09:12.750
+0 au moins 3 points, droite ?
+
+09:12.750 --> 09:15.520
+Mais ils nous disent, nous donner une raison pour votre réponse.
+
+09:15.520 --> 09:17.210
+Nous donner une raison.
+
+09:17.210 --> 09:21.950
+Et ma raison--et en fait, vous pourriez utiliser théorème de Rolle
+
+09:21.950 --> 09:26.090
+ou le théorème de la valeur moyenne, mais la plus simple raison est que
+
+09:26.090 --> 09:31.210
+Nous avons ici 3 changements de signe de la vitesse moyenne.
+
+09:31.210 --> 09:32.820
+Ou la moyenne, pas la vitesse moyenne, la
+
+09:32.820 --> 09:35.290
+taux--le l de t.
+
+09:35.290 --> 09:37.300
+Nous ne faisons pas la vitesse de ce problème.
+
+09:37.300 --> 09:40.770
+D'ici--permettez-moi donc utiliser une ligne plus épaisse.
+
+09:40.770 --> 09:41.390
+Utilisez le jaune.
+
+09:41.390 --> 09:44.680
+Si d'ici à ici, nous avons un changement de signe.
+
+09:44.680 --> 09:46.890
+D'ici à ici, nous avons un changement de signe.
+
+09:46.890 --> 09:49.400
+Et d'ici à là, nous pourrions avoir un changement de signe.
+
+09:49.400 --> 09:52.040
+Ce que j'écrirais vers le bas à l'examen de l'AP, est donc, j'étais comme,
+
+09:52.040 --> 09:56.300
+Ainsi, la fonction est deux fois dérivable, ce qui signifie
+
+09:56.300 --> 09:58.360
+sa dérivée est continue.
+
+09:58.360 --> 10:00.620
+Permettez-moi donc d'écrire les points importants.
+
+10:00.620 --> 10:01.975
+Si la dérivée est continue.
+
+10:06.460 --> 10:10.380
+Et nous avons 3 changements de signe dans le dérivé, droite ?
+
+10:10.380 --> 10:14.080
+La dérivée est positive sur cet intervalle, ou au moins
+
+10:14.080 --> 10:16.480
+sa moyenne est positive, alors il va négative.
+
+10:16.480 --> 10:19.130
+Si à un moment donné, puisque la dérivée est continue, il
+
+10:19.130 --> 10:21.930
+ne sautez autour--il devait être positif quelque part
+
+10:21.930 --> 10:22.760
+dans cette gamme.
+
+10:22.760 --> 10:24.690
+Et vous pouvez être plus formel lorsque vous écrivez.
+
+10:24.690 --> 10:27.140
+Elle devait être négatif defaite dans cette gamme.
+
+10:27.140 --> 10:29.160
+Si il devait y avoir un changement de signe, et si elle avait
+
+10:29.160 --> 10:30.680
+passer par 0.
+
+10:30.680 --> 10:33.160
+Et que le même argument pourrait être utilisé entre ici et
+
+10:33.160 --> 10:35.030
+ici et ici et ici.
+
+10:35.030 --> 10:36.490
+Et c'est ma réponse.
+
+10:36.490 --> 10:40.260
+Et je vais continuer la partie d de la vidéo suivante, parce que je suis
+
+10:40.260 --> 10:42.570
+déjà plus de 10 minutes.

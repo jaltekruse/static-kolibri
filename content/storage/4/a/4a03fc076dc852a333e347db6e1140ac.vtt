@@ -1,0 +1,643 @@
+WEBVTT
+
+00:00.530 --> 00:03.570
+Ho appena ricevuto questo problema sul calcolo dei farmaci
+
+00:03.580 --> 00:06.250
+da uno studente infermieristico e credo sia fondamentale che gli studenti
+
+00:06.250 --> 00:08.890
+di medicina siano in grado di farlo, giusto in caso sia io
+
+00:08.890 --> 00:10.350
+il paziente trattato con il farmaco.
+
+00:10.350 --> 00:10.880
+Quindi facciamolo.
+
+00:10.890 --> 00:14.440
+E credo sia un interessante problema di conversione di unità di misura
+
+00:14.440 --> 00:17.010
+un po' per tutti quelli che vogliono far pratica con le conversioni di unità di misura.
+
+00:17.010 --> 00:19.560
+Quindi la domanda è che abbiamo un medico.
+
+00:19.570 --> 00:23.740
+Il medico ordina un farmaco x.
+
+00:27.050 --> 00:29.780
+E questa è la dose che il medico richiede.
+
+00:29.780 --> 00:39.530
+Dicono 5 milligrammi per libbra di peso del paziente ---
+
+00:39.530 --> 00:46.780
+scrivo solo per libbra di peso del paziente --- ogni 12 ore.
+
+00:46.790 --> 00:48.700
+Dobbiamo fare questo.
+
+00:48.710 --> 00:58.130
+Ma la fornitura del farmaco --- non è solo, sai,
+
+00:58.140 --> 00:59.430
+non solo pezzetti e milligrammi.
+
+00:59.430 --> 01:00.340
+Si tratta di una soluzione.
+
+01:00.350 --> 01:04.200
+C'è una certa quantità di grammi per ogni millilitro
+
+01:04.200 --> 01:05.330
+che abbiamo della soluzione.
+
+01:05.340 --> 01:08.180
+E' sciolta in un po' d'acqua.
+
+01:08.180 --> 01:11.020
+Quindi questa è la nostra fornitura di medicinale x.
+
+01:14.750 --> 01:18.060
+Abbiamo 0,9 --- ci scrivo uno 0 davanti.
+
+01:18.060 --> 01:20.590
+Mia moglie, che è medico, dice che è indispensabile scrivere
+
+01:20.590 --> 01:21.980
+lo zero di fronte alla virgola.
+
+01:21.980 --> 01:29.910
+Abbiamo 0,9 grammi per millilitro di soluzione.
+
+01:29.920 --> 01:32.820
+Quindi, se dovessi prendere un millilitro di soluzione
+
+01:32.820 --> 01:35.410
+e darlo a qualcuno, essenzialmente starei dando loro
+
+01:35.420 --> 01:38.900
+0,9 grammi di farmaco.
+
+01:38.900 --> 01:44.950
+E l'ultimo pezzo di informazione che ci viene dato è
+
+01:44.950 --> 01:51.300
+che il paziente pesa --- e forse dovremmo dire la massa,
+
+01:51.310 --> 01:53.720
+perché chilogrammi e' per la massa, ma hai capito ---
+
+01:53.730 --> 01:56.790
+il paziente pesa 72,7 chilogrammi.
+
+02:01.590 --> 02:03.090
+Quindi ci sono un paio di cose interessanti qui.
+
+02:03.090 --> 02:06.040
+Dobbiamo capire il dosaggio in termini di millilitri.
+
+02:06.040 --> 02:07.750
+Dobbiamo --- oh, in realtà, non ti ho nemmeno posto
+
+02:07.760 --> 02:08.580
+la domanda.
+
+02:08.580 --> 02:11.060
+La domanda è: quanti millilitri di soluzione
+
+02:11.060 --> 02:15.490
+dobbiamo dare al paziente per dose?
+
+02:15.500 --> 02:23.410
+Quindi millilitri di soluzione per dose.
+
+02:23.410 --> 02:24.740
+La domanda è questa.
+
+02:24.750 --> 02:25.430
+E ci sono un paio di cose.
+
+02:25.430 --> 02:29.000
+Dobbiamo andare da milligrammi a grammi.
+
+02:29.000 --> 02:31.280
+E poi convertirlo in millilitri.
+
+02:31.280 --> 02:33.520
+E poi ci chiedono per libbra, ma ci hanno dato
+
+02:33.530 --> 02:36.470
+il peso del paziente, o massa, in chilogrammi.
+
+02:36.470 --> 02:37.820
+Quindi anche li' dobbiamo fare qualche conversione.
+
+02:37.830 --> 02:41.240
+Quindi posso sicuramente apprezzare quanto questo possa essere un po'
+
+02:41.250 --> 02:42.900
+scoraggiante e forse confuso, a volte.
+
+02:42.900 --> 02:45.090
+Quindi facciamo semplicemente un passo alla volta.
+
+02:45.090 --> 02:47.430
+Quindi la prima cosa interessante --- e questa è giusto
+
+02:47.440 --> 02:49.200
+una cosa che potresti dover sapere, o potresti avercelo
+
+02:49.210 --> 02:52.240
+scritto su carta, oppure potresti avere una calcolatrice
+
+02:52.250 --> 02:55.610
+che lo fa --- è proprio come convertire i chilogrammi in libbre.
+
+02:55.610 --> 02:57.750
+Ed è bene saperlo, in generale, se converti
+
+02:57.750 --> 03:00.560
+tra il sistema metrico e quello inglese.
+
+03:00.560 --> 03:05.510
+Quindi, 1 kg è approssimativamente uguale a 2,2 libbre.
+
+03:05.520 --> 03:08.520
+Non esattamente, ma è una buona approssimazione.
+
+03:08.520 --> 03:12.860
+E una libbra - se prendi uno sopra quello --- una libbra è
+
+03:12.870 --> 03:18.550
+approssimativamente uguale a 0,45 chilogrammi.
+
+03:18.550 --> 03:19.950
+Quindi ci limiteremo a metterlo in una scatola.
+
+03:19.960 --> 03:23.240
+E' l'unica informazione esterna sulla conversione
+
+03:23.250 --> 03:24.630
+di cui avremo bisogno per fare questo problema.
+
+03:24.630 --> 03:26.890
+Per tutto il resto avremo solo bisogno di una calcolatrice, a meno che
+
+03:26.900 --> 03:29.560
+non vogliamo spendere un sacco di tempo facendo calcoli.
+
+03:29.560 --> 03:30.200
+Quindi la prima cosa.
+
+03:30.210 --> 03:34.490
+Vediamo di capire il dosaggio per chilogrammo.
+
+03:34.500 --> 03:36.960
+Questo è per libbra, e davvero non abiamo bisogno di
+
+03:36.960 --> 03:38.200
+sapere questo ogni dodici ore.
+
+03:38.210 --> 03:41.330
+Perché ci dicono: quanti millilitri di soluzione
+
+03:41.330 --> 03:42.950
+facciamo per dose?
+
+03:42.960 --> 03:45.240
+Una dose è ogni dodici ore.
+
+03:45.240 --> 03:47.690
+Quindi abbiamo solo davvero, sai --- l'ogni dodici ore è una specie
+
+03:47.690 --> 03:48.730
+di informazione supplementare.
+
+03:48.740 --> 03:52.720
+Quindi vogliamo capire questo 5 milligrammi per libbra.
+
+03:52.720 --> 03:57.090
+Come lo convertiamo in quanti milligrammi per chilogrammo?
+
+03:57.100 --> 04:01.170
+Allora, facciamo 5 --- lo scrivo qui in magenta ---
+
+04:01.180 --> 04:06.180
+5 milligrammi per libbra.
+
+04:06.180 --> 04:08.900
+E poi vogliamo convertirlo in per chilogrammo.
+
+04:08.900 --> 04:12.590
+Quindi possiamo moltiplicare questo per il numero di libbre per
+
+04:12.590 --> 04:15.820
+chilogrammo --- lo faccio in giallo ---
+
+04:15.830 --> 04:17.540
+per questa informazione qui.
+
+04:17.550 --> 04:25.300
+Per 2,2 libbre per chilogrammo.
+
+04:25.300 --> 04:27.750
+E se mai ti confondi --- sai, accidenti, come ha fatto Sal a sapere
+
+04:27.750 --> 04:31.780
+di moltiplicare per 2,2 invece di dividere per 2,2?
+
+04:31.790 --> 04:34.350
+Che è lo stesso che moltiplicare per 0,5.
+
+04:34.360 --> 04:37.290
+Puoi fare particolare attenzione alle unità di misura.
+
+04:37.300 --> 04:40.230
+Nota che ho scritto 2,2 libbre per chilogrammo.
+
+04:40.230 --> 04:42.910
+2,2 libbre per 1 chilogrammo.
+
+04:42.910 --> 04:45.810
+E sai che funzionera' perché ha libbra
+
+04:45.810 --> 04:48.180
+nel numeratore e hai libbra al denominatore.
+
+04:48.180 --> 04:50.420
+Si chiama analisi dimensionale.
+
+04:50.430 --> 04:53.490
+Se mai ti confondi con queste cose --- e credo che
+
+04:53.500 --> 04:55.560
+una volta che fai abbastanza pratica ti accorgi che
+
+04:55.560 --> 04:56.890
+non dovrai prestarci troppa attenzione.
+
+04:56.890 --> 04:58.240
+Ma all'inizio, quando stai cominciando, giusto
+
+04:58.250 --> 05:00.360
+per star sicuro di non moltiplicare o dividere per
+
+05:00.360 --> 05:02.250
+la cosa sbagliata, basta assicurarti che le dimensioni si annullino.
+
+05:02.250 --> 05:05.310
+Libbre al numeratore, libbre al denominatore.
+
+05:05.310 --> 05:06.350
+Quindi facciamolo.
+
+05:06.360 --> 05:10.110
+Libbre al numeratore, libbre al denominatore si annullano.
+
+05:10.110 --> 05:12.540
+E si moltiplica 5 x 2.2.
+
+05:15.970 --> 05:20.280
+Questo è pari a - vediamo.
+
+05:20.290 --> 05:22.850
+5 x 2 fa 10.
+
+05:22.850 --> 05:24.840
+5 x 0.2 è 1.
+
+05:24.840 --> 05:27.130
+Quindi questo è pari a 11.
+
+05:27.130 --> 05:30.320
+E poi nel numeratore abbiamo milligrammi.
+
+05:30.330 --> 05:35.290
+11 milligrammi per chilogrammo.
+
+05:35.300 --> 05:39.160
+Quindi abbiamo semplicemente convertito le informazioni di dosaggio
+
+05:39.160 --> 05:40.880
+in puro sistema metrico.
+
+05:40.880 --> 05:42.750
+In realtà prima era un mix tra il sistema
+
+05:42.760 --> 05:44.170
+metrico e quello inglese.
+
+05:44.180 --> 05:45.190
+Ora vediamo cosa possiamo fare.
+
+05:45.190 --> 05:48.120
+Bene, vediamo se possiamo metterlo in termini di
+
+05:48.130 --> 05:51.440
+numero di millilitri da dare per libbra.
+
+05:51.450 --> 05:53.650
+Quindi di nuovo, vogliamo che questo --- beh, in realtà,
+
+05:53.660 --> 05:54.990
+andiamo prima in grammi.
+
+05:55.000 --> 05:56.180
+Perché qui abbiamo milligrammi.
+
+05:56.180 --> 05:57.300
+Qui abbiamo grammi.
+
+05:57.310 --> 06:00.570
+Quindi vediamo se siamo in grado di convertire questa cosa in grammi.
+
+06:00.570 --> 06:02.760
+Quindi proprio come abbiamo fatto prima, vogliamo milligrammi
+
+06:02.770 --> 06:04.730
+nel denominatore.
+
+06:04.740 --> 06:06.020
+Lo faccio in arancione.
+
+06:06.020 --> 06:08.470
+Vogliamo milligrammi al denominatore e vogliamo
+
+06:08.480 --> 06:10.230
+grammi al numeratore.
+
+06:10.230 --> 06:11.110
+Perché dico questo?
+
+06:11.120 --> 06:13.180
+Perché voglio che questo e questo si annullino.
+
+06:13.180 --> 06:15.050
+E voglio grammi al numeratore.
+
+06:15.050 --> 06:18.270
+Quindi, quanti grammi ci sono per milligrammo?
+
+06:18.270 --> 06:19.170
+Puoi semplicemente rifletterci su.
+
+06:19.180 --> 06:23.500
+E' un grammo per 1.000 milligrammi.
+
+06:23.500 --> 06:26.150
+O 1.000 milligrammi per grammo.
+
+06:26.160 --> 06:28.320
+E basta moltiplicarlo.
+
+06:28.320 --> 06:32.150
+Quindi milligrammi si annulla con milligrammi e poi
+
+06:32.160 --> 06:38.330
+ottieni --- è pari a 11/1.000 grammi per chilogrammo.
+
+06:42.040 --> 06:44.790
+Quindi ora abbiamo tutto in termini di grammi, ma lo vogliamo
+
+06:44.790 --> 06:46.050
+in termini di millilitri.
+
+06:46.060 --> 06:48.190
+La domanda è: quanti millilitri di
+
+06:48.190 --> 06:49.760
+soluzione per dose?
+
+06:49.770 --> 06:52.870
+Quindi fammi andare giu' su questa linea.
+
+06:52.870 --> 06:56.370
+Quindi avevamo questo risultato.
+
+06:56.380 --> 07:01.630
+Abbiamo 11/1.000 --- ancora non faccio la divisione --- grammi
+
+07:01.630 --> 07:04.920
+di medicina x per chilogrammo.
+
+07:04.930 --> 07:08.240
+Questo in realtà è solo una ri --- abbiamo solo riscritto
+
+07:08.250 --> 07:11.100
+queste informazioni di dosaggio in diverse unità di misura.
+
+07:11.100 --> 07:14.820
+E vediamo di quanta soluzione abbiamo bisogno per chilogrammo.
+
+07:14.820 --> 07:18.880
+Quindi qui voglio cancellare i grammi e
+
+07:18.890 --> 07:19.910
+avere millilitri.
+
+07:19.920 --> 07:21.790
+Quindi, per annulare quei grammi dovro' avere
+
+07:21.790 --> 07:24.970
+grammi al denominatore e millilitri nel numeratore.
+
+07:29.770 --> 07:34.440
+Quindi, nella nostra soluzione, quanti grammi ci sono per millilitro?
+
+07:34.440 --> 07:35.060
+Beh, ce l'hanno detto.
+
+07:35.070 --> 07:38.260
+Ci sono 0,9 grammi per millilitro.
+
+07:38.270 --> 07:44.560
+O per ogni millilitro ci sono 0,9 grammi.
+
+07:44.560 --> 07:45.930
+Nota che ne ho preso l'inverso.
+
+07:45.940 --> 07:48.500
+Perché vogliamo millilitri nel numeratore, grammi
+
+07:48.500 --> 07:50.780
+al denominatore, in modo che questi due si annullino.
+
+07:50.790 --> 07:52.800
+E ora facciamo questa moltiplicazione.
+
+07:52.810 --> 07:54.370
+Quindi i grammi si annullano.
+
+07:54.370 --> 07:55.810
+Abbiamo millilitri per chilogrammo.
+
+08:00.700 --> 08:01.900
+E poi lo moltiplichiamo.
+
+08:01.910 --> 08:05.780
+11/ .000 x 1/0,9.
+
+08:05.790 --> 08:08.100
+Quindi mi limito a tenere --- fammelo scrivere cosi'.
+
+08:08.100 --> 08:17.390
+Quindi sara' 11/ 1.000 x 0,9 millilitri di
+
+08:17.390 --> 08:19.840
+soluzione per chilogrammo.
+
+08:19.850 --> 08:21.410
+Quindi fin qui abbiamo questo.
+
+08:21.410 --> 08:24.240
+Quindi questo è per chilogrammo di peso corporeo del paziente.
+
+08:24.250 --> 08:27.070
+E poi, infine, ci dicono quanti chilogrammi
+
+08:27.070 --> 08:28.010
+pesa il nostro paziente.
+
+08:28.020 --> 08:30.190
+Allora, facciamo l'ultima moltiplicazione, poi
+
+08:30.190 --> 08:33.220
+possiamo tirar fuori la calcolatrice e fare tutto in una volta.
+
+08:33.230 --> 08:36.130
+Quindi moltiplichiamo questo per --- vogliamo sapere quanti
+
+08:36.130 --> 08:38.310
+millilitri per paziente.
+
+08:38.320 --> 08:40.280
+Vogliamo che i chilogrammi si annullino.
+
+08:40.280 --> 08:44.320
+Quindi vogliamo chilogrammi per paziente.
+
+08:44.330 --> 08:46.140
+Ora stiamo parlando di questo particolare paziente.
+
+08:46.140 --> 08:48.240
+Non sara' lo stesso numero di kg
+
+08:48.250 --> 08:49.390
+per tutti i pazienti.
+
+08:49.390 --> 08:51.710
+Ma se facciamo questo, i chilogrammi si annullano.
+
+08:51.720 --> 08:54.620
+Avremo millilitri per paziente --- millilitri di
+
+08:54.620 --> 08:58.360
+soluzione per paziente --- che è esattamente ciò che vogliamo.
+
+08:58.370 --> 09:00.850
+Vogliamo millilitri di soluzione per dose per paziente.
+
+09:00.850 --> 09:03.960
+Ma quel che abbiamo supposto finora è stato per dose.
+
+09:03.960 --> 09:06.640
+Quindi, quanti chili pesa il paziente?
+
+09:06.640 --> 09:12.080
+Bene, abbiamo 72,7 chilogrammi per paziente.
+
+09:12.090 --> 09:13.660
+Questo è quanto pesa il paziente.
+
+09:13.660 --> 09:15.700
+Quindi dobbiamo solo fare questa moltiplicazione finale
+
+09:15.710 --> 09:16.290
+e avremo finito.
+
+09:16.290 --> 09:18.960
+Quindi la nostra risposta --- e quando queste due cose si annullano ---
+
+09:18.970 --> 09:24.720
+quindi la nostra risposta finale sarà 11 x 72,7
+
+09:24.720 --> 09:28.720
+diviso 100 per --- in realtà, 100 x 0.9 è
+
+09:28.730 --> 09:29.790
+abbastanza facile da capire.
+
+09:29.790 --> 09:31.070
+Questo fa 900.
+
+09:31.080 --> 09:35.150
+Diviso 900 millilitri per paziente.
+
+09:35.150 --> 09:37.580
+Oppure puoi semplicemente dire millilitri per dose.
+
+09:37.590 --> 09:38.500
+Comunque lo si voglia dire.
+
+09:38.500 --> 09:39.460
+Per dose per paziente.
+
+09:39.470 --> 09:41.720
+Tiriamo fuori la calcolatrice e facciamolo.
+
+09:41.720 --> 09:54.910
+Quindi abbiamo 11 x 72,7 è pari a 799 diviso 900.
+
+09:54.910 --> 09:58.070
+È pari a 0,88 --- beh, potresti arrotondarlo.
+
+09:58.080 --> 09:59.360
+0,889.
+
+09:59.370 --> 10:00.690
+Speriamo che al medico non dispiaccia.
+
+10:00.690 --> 10:04.440
+Quindi è pari a --- lo scrivo in un bel colore vibrante ---
+
+10:04.450 --> 10:14.830
+0,889 millilitri di soluzione per dose.
+
+10:14.840 --> 10:17.130
+Quindi questo è ciò che daremo ogni 12 ore.
+
+10:17.130 --> 10:19.520
+Se chiedono: quanti millilitri in totale
+
+10:19.530 --> 10:21.010
+nel corso di due giorni?
+
+10:21.010 --> 10:22.530
+Diremmo: oh, ci sono 48 ore.
+
+10:22.540 --> 10:23.910
+Moltiplicheremmo per 4.
+
+10:23.910 --> 10:26.250
+Ma quel 12 ore era un'informazione in più in questo problema.
+
+10:26.250 --> 10:32.750
+Ma comunque, speriamo che questo sia utile e garantisca
+
+10:32.750 --> 10:35.710
+che tutti gli infermieri che mi curano in futuro mi diano
+
+10:35.720 --> 10:37.030
+il dosaggio giusto.
+
+10:37.030 --> 10:40.480
+E speriamo anche che il medico abbia indovinato il dosaggio giusto
+
+10:40.490 --> 10:42.050
+altrimenti è tutto inutile.
+
+10:42.050 --> 10:43.350
+Comunque.

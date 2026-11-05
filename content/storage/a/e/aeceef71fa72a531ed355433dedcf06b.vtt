@@ -1,0 +1,869 @@
+WEBVTT
+
+00:00.003 --> 00:01.139
+Já vimos
+
+00:01.139 --> 00:03.263
+que se começarmos com
+a equação diferencial
+
+00:03.263 --> 00:06.333
+a derivada de Y com
+relação a X é igual a Y
+
+00:06.333 --> 00:08.131
+e nós temos a condição inicial
+
+00:08.131 --> 00:11.133
+que Y de zero é igual a um,
+
+00:11.133 --> 00:12.813
+mas a solução particular
+
+00:12.813 --> 00:14.210
+dada nessa condição inicial,
+
+00:14.210 --> 00:16.024
+é Y de X é igual a E de X.
+
+00:16.033 --> 00:19.020
+Ou podemos apenas dizer
+Y é igual a E de X
+
+00:19.020 --> 00:21.866
+se não quisermos escrever
+com a notação de função.
+
+00:21.866 --> 00:23.182
+E está tudo justo e certo
+
+00:23.182 --> 00:24.267
+e funciona bem.
+
+00:24.267 --> 00:26.290
+Esta é uma equação
+diferencial separável
+
+00:26.290 --> 00:29.027
+e podemos integrar facilmente as coisas.
+
+00:29.027 --> 00:32.116
+Mas como veremos conforme nos
+aprofundamos no mundo
+
+00:32.116 --> 00:33.451
+das equações diferenciais,
+
+00:33.451 --> 00:36.667
+a maioria das equações diferenciais
+não são tão fáceis de resolver.
+
+00:36.667 --> 00:39.434
+De fato, muitas delas são
+impossíveis de resolver
+
+00:39.434 --> 00:41.467
+usando métodos analíticos.
+
+00:41.467 --> 00:43.333
+E sabendo disso, o que você faz?
+
+00:43.333 --> 00:45.467
+Descrevemos bem alguns fenômenos,
+
+00:45.467 --> 00:46.733
+modelamos alguns fenômenos
+
+00:46.733 --> 00:48.318
+usando as equações diferenciais
+
+00:48.318 --> 00:50.472
+mas se você não pode
+resolver analiticamente
+
+00:50.472 --> 00:51.591
+você apenas desiste?
+
+00:51.591 --> 00:53.523
+E a resposta para essa pergunta é não.
+
+00:53.523 --> 00:55.239
+Você não desiste
+
+00:55.239 --> 00:58.084
+porque agora temos computadores,
+
+00:58.084 --> 01:01.333
+e os computadores são realmente
+bons em métodos numéricos.
+
+01:01.333 --> 01:03.482
+Métodos numéricos por aproximação
+
+01:03.482 --> 01:06.084
+e nos dando uma sensação de como a solução
+
+01:06.084 --> 01:08.900
+para a equação diferencial deve parecer.
+
+01:08.009 --> 01:10.552
+E assim como podemos fazer isso?
+
+01:10.552 --> 01:12.330
+Bem, neste vídeo, podemos explorar
+
+01:12.033 --> 01:14.862
+um dos mais simples
+métodos numéricos
+
+01:14.862 --> 01:17.771
+para aproximar uma solução particular.
+
+01:17.771 --> 01:19.006
+Então, o que fazemos é,
+
+01:19.006 --> 01:21.210
+então eu vou desenhar
+uma pequena tabela aqui.
+
+01:21.210 --> 01:24.312
+Assim, uma pequena tabela aqui.
+
+01:24.312 --> 01:26.400
+Na verdade, deixe-me dar.
+
+01:26.004 --> 01:28.790
+Eu vou fazer aqui
+no lado esquerdo.
+
+01:30.815 --> 01:32.100
+Uma pequena tabela.
+
+01:32.867 --> 01:36.300
+Então, X e depois Y,
+
+01:37.000 --> 01:38.005
+XY.
+
+01:38.005 --> 01:42.074
+E então DY, DX.
+
+01:42.074 --> 01:44.163
+E você pode configurar
+uma tabela como esta
+
+01:44.163 --> 01:46.136
+para criar um campo de inclinação.
+
+01:46.136 --> 01:48.083
+Você poderia apenas
+pegar todos os ...
+
+01:48.083 --> 01:50.019
+Você pode experimentar X como em Y
+
+01:50.019 --> 01:51.967
+no plano XY,
+
+01:51.967 --> 01:54.066
+e então, descobrir
+a nossa primeira ordem
+
+01:54.066 --> 01:55.943
+de uma equação
+diferencial como esta,
+
+01:55.943 --> 01:57.758
+o que a inclinação vai
+ser nesse ponto
+
+01:57.758 --> 02:00.081
+e você poderia construir
+um campo de inclinação.
+
+02:00.081 --> 02:01.665
+E nós vamos fazer
+algo relacionado
+
+02:01.665 --> 02:04.196
+mas em vez de tentar
+construir um campo de inclinação,
+
+02:04.196 --> 02:06.153
+vamos começar com
+esta condição inicial.
+
+02:06.153 --> 02:07.821
+Sabemos que Y de zero é igual a um.
+
+02:07.821 --> 02:09.420
+Sabemos que a solução particular
+
+02:09.420 --> 02:11.504
+dessa equação diferencial
+contém esse ponto.
+
+02:11.504 --> 02:13.245
+Então, vamos começar
+com esse ponto.
+
+02:13.245 --> 02:15.187
+Então, vamos começar
+com X é igual a zero
+
+02:15.187 --> 02:17.094
+e vou fazer isso
+em uma cor diferente.
+
+02:17.094 --> 02:19.200
+Nós vamos começar com X é igual a zero,
+
+02:19.002 --> 02:20.008
+Y é igual a um.
+
+02:20.008 --> 02:23.079
+Qual é esse ponto bem ali.
+
+02:23.079 --> 02:25.040
+E nós vamos dizer, bem, ok
+
+02:25.004 --> 02:27.201
+o que é a derivada nesse ponto?
+
+02:27.201 --> 02:29.866
+Bem, sabemos que a derivada
+em qualquer ponto
+
+02:29.866 --> 02:32.474
+isso para qualquer solução
+desta equação diferencial
+
+02:32.474 --> 02:35.082
+a derivada vai ser
+igual ao valor de Y.
+
+02:35.082 --> 02:36.818
+Portanto, neste caso, a derivada
+
+02:36.818 --> 02:38.900
+vai ser igual a Y.
+
+02:38.009 --> 02:41.192
+Isso vai ser igual a um.
+
+02:41.192 --> 02:42.700
+E, em geral, se a derivada
+
+02:42.007 --> 02:44.276
+como já vimos no caso
+do campo de inclinação,
+
+02:44.279 --> 02:46.615
+enquanto a derivada
+é expressa como uma função
+
+02:46.615 --> 02:49.533
+de Xs e Y de Xs,
+
+02:49.533 --> 02:51.767
+então você pode descobrir qual o declive
+
+02:51.767 --> 02:54.366
+da linha tangente será nesse ponto.
+
+02:54.366 --> 02:57.334
+E assim, você diz ok,
+há uma inclinação de um
+
+02:57.334 --> 03:01.513
+nesse ponto então eu posso
+representá-lo assim.
+
+03:01.513 --> 03:04.495
+E em vez de só continuar fazendo
+isso com um monte de pontos
+
+03:04.495 --> 03:05.986
+dizemos ok, bem,
+vamos só...
+
+03:05.986 --> 03:07.783
+Sabemos que a
+inclinação está mudando
+
+03:07.783 --> 03:10.512
+ou está provavelmente mudando
+para a maioria dos casos.
+
+03:10.512 --> 03:13.028
+Mas vamos supor que isso é
+fixo até o nosso próximo X
+
+03:13.028 --> 03:15.600
+e depois usar essa suposição para estimar
+
+03:15.006 --> 03:17.369
+o que o próximo Y seria.
+
+03:17.369 --> 03:19.000
+Então, do que eu estou falando?
+
+03:19.000 --> 03:20.959
+Então, quando eu falar sobre o próximo X
+
+03:20.959 --> 03:22.751
+estamos falando,
+vamos apenas passar.
+
+03:22.761 --> 03:24.437
+Vamos dizer que por simplicidade,
+
+03:24.437 --> 03:26.700
+nós vamos ter um delta X de um.
+
+03:26.007 --> 03:27.366
+Uma alteração em X de um.
+
+03:27.366 --> 03:30.080
+Então vamos passar de
+X igual a zero a partir de agora.
+
+03:30.080 --> 03:32.976
+Vamos agora passar disso para
+
+03:32.976 --> 03:34.911
+X igual a um.
+
+03:34.911 --> 03:36.174
+Então agora vamos para...
+
+03:36.174 --> 03:37.859
+Na verdade eu não posso usar isso.
+
+03:37.859 --> 03:41.133
+Eu usei essa cor amarela
+já para o gráfico real
+
+03:41.133 --> 03:43.000
+ou para o atual E para X.
+
+03:43.000 --> 03:44.686
+Vamos dizer que X é igual a um.
+
+03:44.686 --> 03:47.094
+Nossa delta X é um deles.
+
+03:47.094 --> 03:49.333
+Então, nós acabamos de adicionar um aqui.
+
+03:49.333 --> 03:50.422
+E o que podemos fazer
+
+03:50.422 --> 03:53.100
+o nosso pequeno
+esquema de aproximação aqui é
+
+03:53.001 --> 03:55.844
+bom, vamos apenas supor
+que esta inclinação foi constante
+
+03:55.844 --> 03:58.242
+durante esse intervalo.
+
+03:58.248 --> 04:00.330
+Então, onde é que isso nos leva?
+
+04:00.033 --> 04:03.636
+Bem, se Y estava em um e
+se eu tiver uma inclinação de um
+
+04:03.643 --> 04:05.842
+para mais um, para um aumento de X,
+
+04:05.842 --> 04:08.166
+Vou aumentar meu Y por um.
+
+04:08.166 --> 04:10.264
+Então, em seguida, Y vai aumentar em um
+
+04:10.264 --> 04:13.282
+e vai chegar a dois.
+
+04:13.282 --> 04:16.966
+E vemos esse ponto bem ali
+
+04:16.966 --> 04:19.632
+e você já pode
+ver onde isso vai dar.
+
+04:19.632 --> 04:24.266
+Agora, se isso fosse verdade,
+um ponto na curva,
+
+04:24.266 --> 04:25.533
+nessa solução,
+
+04:25.533 --> 04:27.267
+e se ele estava satisfazendo isso,
+
+04:27.267 --> 04:29.267
+o que, em seguida, a derivada seria?
+
+04:29.267 --> 04:30.766
+Bem, a derivada é igual a Y.
+
+04:30.766 --> 04:33.115
+A inclinação da linha tangente
+será igual a Y.
+
+04:33.115 --> 04:36.008
+Assim, neste caso, o
+declive da linha tangente
+
+04:36.008 --> 04:38.373
+Agora vai ser igual a dois.
+
+04:38.373 --> 04:39.748
+E poderíamos descrever isso.
+
+04:39.748 --> 04:41.866
+Deixe-me descrever isso em magenta aqui.
+
+04:41.866 --> 04:46.747
+Então, ele vai ser dois.
+
+04:46.747 --> 04:47.814
+Vai parecer ...
+
+04:47.814 --> 04:49.699
+Assim, a inclinação da linha tangente
+
+04:49.699 --> 04:51.333
+vai ser dois.
+
+04:51.333 --> 04:52.700
+E assim, o que isso nos diz?
+
+04:52.007 --> 04:57.058
+Bem, se nós passamos para
+nosso delta X mais um.
+
+04:57.058 --> 04:59.362
+Portanto, agora o nosso X é igual a dois.
+
+04:59.362 --> 05:04.167
+Qual deve ser o Y correspondente?
+
+05:04.733 --> 05:05.866
+Bem, vamos ver.
+
+05:05.866 --> 05:10.832
+Agora, para cada um que nós
+aumentamos na direção de X
+
+05:10.832 --> 05:13.093
+devemos aumentar dois na direção de Y
+
+05:13.093 --> 05:14.867
+porque a inclinação é de dois.
+
+05:14.867 --> 05:18.867
+Assim, a próxima deve ser de quatro.
+
+05:18.867 --> 05:20.500
+Y é igual a quatro.
+
+05:20.005 --> 05:21.898
+Assim, podemos imaginar
+
+05:21.898 --> 05:24.200
+que agora temos um tipo
+de inclinação constante
+
+05:24.002 --> 05:25.965
+quando chegamos aquele
+ponto bem ali.
+
+05:25.965 --> 05:27.714
+E agora podemos fazer a mesma coisa.
+
+05:27.714 --> 05:29.525
+Bem, se nós assumimos DY, DX
+
+05:29.525 --> 05:32.091
+com base na equação diferencial
+tem que ser igual Y,
+
+05:32.091 --> 05:33.853
+ok, a inclinação da linha tangente
+
+05:33.853 --> 05:35.240
+vai ser a mesma coisa que Y.
+
+05:35.240 --> 05:36.734
+Vai ser quatro.
+
+05:36.734 --> 05:41.343
+E assim, se passamos nosso X para mais um,
+
+05:41.343 --> 05:43.594
+se incrementarmos X por um de novo,
+
+05:43.594 --> 05:45.883
+mais uma vez, nós decidimos
+incrementar mais um.
+
+05:45.883 --> 05:47.606
+Poderíamos ter incrementado em 10,
+
+05:47.606 --> 05:49.403
+poderíamos ter incrementado por 0,01.
+
+05:49.403 --> 05:51.458
+E você poderia adivinhar
+qual vai lhe dar
+
+05:51.458 --> 05:52.912
+um resultado mais preciso.
+
+05:52.912 --> 05:54.482
+Mas se aumentarmos mais um agora
+
+05:54.482 --> 05:55.937
+e nossa inclinação é quatro,
+
+05:55.937 --> 05:57.533
+bem, vamos aumentar em ...
+
+05:57.533 --> 05:58.785
+Se aumentarmos X por um
+
+05:58.785 --> 06:00.266
+vamos aumentar Y por quatro.
+
+06:00.266 --> 06:06.566
+Então, vamos chegar em oito.
+
+06:06.566 --> 06:10.323
+E assim, estamos no
+ponto 3,8
+
+06:10.323 --> 06:13.967
+que é bem aqui.
+
+06:13.967 --> 06:16.233
+E assim, para este trecho seguinte,
+
+06:16.233 --> 06:21.233
+o próximo trecho
+vai parecer com isso.
+
+06:21.467 --> 06:23.674
+E como você pode ver apenas fazendo isso,
+
+06:23.674 --> 06:26.633
+não fomos capazes de aproximar
+
+06:26.633 --> 06:28.633
+com o que a solução particular se parece
+
+06:28.643 --> 06:30.975
+e você pode dizer:
+"Ei, então como é que sabemos
+
+06:30.975 --> 06:32.928
+"Isso não é uma aproximação tão boa?"
+
+06:32.928 --> 06:34.416
+E minha resposta seria bem, sim
+
+06:34.416 --> 06:35.704
+Depende dos seus objetivos.
+
+06:35.704 --> 06:37.003
+Mas eu fiz isso com a mão.
+
+06:37.003 --> 06:38.947
+Nem fiz isso usando um computador.
+
+06:38.947 --> 06:40.583
+E porque eu queria fazer com a mão
+
+06:40.583 --> 06:43.169
+eu peguei medidas razoavelmente
+grandes para delta X.
+
+06:43.176 --> 06:45.133
+Se eu quisesse uma melhor aproximação
+
+06:45.133 --> 06:47.266
+Eu poderia ter reduzido o delta X
+
+06:47.266 --> 06:48.333
+e vamos fazer isso.
+
+06:48.333 --> 06:50.400
+Portanto, vamos ter um outro cenário.
+
+06:50.004 --> 06:51.627
+Então vamos fazer um outro cenário
+
+06:51.633 --> 06:53.406
+onde em vez de um delta X igual a um,
+
+06:53.406 --> 06:55.300
+digamos que delta X é igual a 1/2.
+
+06:55.003 --> 06:59.136
+Assim, mais uma vez, X, Y
+
+06:59.833 --> 07:03.286
+e o derivado de Y em relação a X.
+
+07:03.286 --> 07:05.767
+Agora vamos dizer que quero tomar ...
+
+07:05.767 --> 07:07.766
+Então, nós conhecemos
+este primeiro ponto.
+
+07:07.766 --> 07:09.600
+Nos foi dada esta condição inicial.
+
+07:09.006 --> 07:11.740
+Quando X é igual a zero,
+Y é um
+
+07:12.334 --> 07:14.893
+e assim a inclinação da
+linha tangente vai ser um.
+
+07:14.893 --> 07:17.145
+Mas, então, se estamos
+incrementando por 1/2
+
+07:17.145 --> 07:20.178
+por isso, então quando X é, eu vou
+apenas escrevê-lo como 0.5.
+
+07:20.942 --> 07:23.541
+0.5.
+
+07:23.541 --> 07:27.300
+Qual vai ser nosso novo Y?
+
+07:27.003 --> 07:28.876
+Bem vamos supor que
+nossa inclinação
+
+07:28.876 --> 07:31.551
+desse a esse é esse
+declive bem aqui.
+
+07:31.551 --> 07:34.627
+Portanto, a nossa inclinação é um, então
+se aumentarmos X em 0.5
+
+07:34.627 --> 07:36.300
+vamos aumentar Y em 0.5
+
+07:36.003 --> 07:39.010
+e vamos chegar a 1.5.
+
+07:40.000 --> 07:43.667
+Assim, podemos obter 0.5, 1.5.
+
+07:43.667 --> 07:45.266
+Chegamos naquele ponto bem ali.
+
+07:45.266 --> 07:47.743
+Na verdade, você está tendo
+dificuldade em ver isso.
+
+07:47.743 --> 07:49.660
+Esta coisa bem aqui
+é este ponto bem aqui
+
+07:49.660 --> 07:53.008
+e agora nossa nova inclinação vai ser 1.5.
+
+07:53.008 --> 07:57.889
+Que vai parecer com isso.
+
+07:57.889 --> 08:01.700
+Que vai parecer
+na verdade, não é tão íngreme.
+
+08:01.007 --> 08:03.469
+Eu não quero exagerar
+quão boa é uma aproximação
+
+08:03.469 --> 08:05.392
+e está começando a
+ficar um pouco confuso
+
+08:05.392 --> 08:06.734
+mas vai ser algo como isso.
+
+08:06.734 --> 08:09.413
+E o que você veria se
+continuasse fazendo este processo,
+
+08:09.413 --> 08:12.199
+por isso, se sua
+inclinação é agora de 1.5,
+
+08:12.199 --> 08:14.235
+quando você incrementa
+X por um outro 0.5
+
+08:14.235 --> 08:15.167
+você tem um.
+
+08:15.167 --> 08:19.766
+Portanto, agora se você incrementa em 0.5
+
+08:19.766 --> 08:21.078
+e sua inclinação é de 1.5,
+
+08:21.078 --> 08:26.146
+seu Y vai incrementar
+pela metade disso, por 0.75
+
+08:26.146 --> 08:29.114
+e assim, você vai chegar a 2.25.
+
+08:29.114 --> 08:31.783
+Então, agora você tem um, 2.25
+
+08:31.783 --> 08:33.085
+que é este ponto bem aqui.
+
+08:33.093 --> 08:35.767
+Mais uma vez, esta é uma
+aproximação melhor.
+
+08:35.767 --> 08:36.966
+Lembre-se, no original
+
+08:36.966 --> 08:39.967
+Y de um você sabe que deve ser igual a E.
+
+08:39.967 --> 08:43.764
+Y de um na solução
+atual deve ser igual a E.
+
+08:43.764 --> 08:46.109
+2.7 e assim por diante e assim por diante.
+
+08:46.109 --> 08:51.109
+Agora nesse, Y de um nos dá dois.
+
+08:51.933 --> 08:54.700
+Nesse Y nos trouxe 2.25.
+
+08:54.007 --> 08:57.403
+Mais uma vez, para mais perto do
+realidade atual, mais perto de E.
+
+08:58.003 --> 08:59.337
+Em vez de passar por 0.5,
+
+08:59.634 --> 09:02.933
+se nós passarmos por 0,1 nós
+ficaríamos ainda mais perto.
+
+09:02.933 --> 09:07.900
+Se passássemos por 0,0001 chegaríamos
+
+09:07.009 --> 09:09.605
+ainda mais perto e
+mais perto e mais perto.
+
+09:09.605 --> 09:12.073
+Portanto, há um monte de
+coisas interessantes aqui.
+
+09:12.073 --> 09:14.104
+Isto é como a maioria
+equações diferenciais
+
+09:14.104 --> 09:15.808
+ou técnicas que são derivadas desta
+
+09:15.808 --> 09:17.694
+ou que se baseiam em métodos numéricos
+
+09:17.694 --> 09:18.584
+semelhante a este
+
+09:18.584 --> 09:21.513
+são como a maioria das
+equações diferenciais são resolvidas.
+
+09:21.513 --> 09:23.502
+Você sabe que não é a mesma solução exata
+
+09:23.502 --> 09:24.967
+ou o mesmo método da ideia que
+
+09:24.967 --> 09:27.813
+a maioria das equações diferenciais
+são realmente resolvidas
+
+09:27.813 --> 09:29.883
+ou eu acho que você pode dizer simuladas
+
+09:29.883 --> 09:31.103
+com um método numérico
+
+09:31.103 --> 09:33.740
+pois não se resolve tudo analiticamente.
+
+09:33.740 --> 09:36.174
+Você pode dizer:
+"Hey, bem como é chamado
+
+09:36.174 --> 09:37.356
+"este método aqui?"
+
+09:37.356 --> 09:39.377
+Bem, esse bem
+aqui é chamado de Euler.
+
+09:40.212 --> 09:42.400
+Método de Euler
+
+09:42.004 --> 09:44.005
+após o famoso Leonhard Euler.
+
+09:44.931 --> 09:47.166
+Método de Euler.
+
+09:47.166 --> 09:48.943
+E não apenas é uma boa forma
+
+09:48.943 --> 09:52.433
+de aproximação da solução
+
+09:52.433 --> 09:54.367
+dessa ou qualquer equação diferencial,
+
+09:54.367 --> 09:56.715
+mas, para esta
+equação diferencial em particular
+
+09:56.715 --> 09:58.369
+você pode realmente usar isso
+
+09:58.369 --> 10:02.603
+para encontrar E com mais e
+mais e mais precisão.
+
+10:02.603 --> 10:05.478
+De qualquer forma, espero que você
+achou isso emocionante.
+
+10:05.478 --> 10:07.021
+Legendado por [Soraia Novaes]
+Revisado por [Tatiana F. D'Addio]

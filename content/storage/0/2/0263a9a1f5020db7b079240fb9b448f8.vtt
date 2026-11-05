@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.000 --> 00:00.480
+-
+
+00:00.480 --> 00:03.190
+V tomto videu chci na příkladu ukázat,
+
+00:03.190 --> 00:06.170
+co to znamená proložit daty přímku.
+
+00:06.170 --> 00:08.730
+Místo toho, abych jako obvykle používal svůj tablet,
+
+00:08.730 --> 00:11.840
+to budu dělat přímo v Excelu,
+
+00:11.840 --> 00:14.250
+abyste viděli, jak to můžete udělat sami,
+
+00:14.250 --> 00:18.090
+pokud máte Excel či jiný tabulkový kalkulátor.
+
+00:18.090 --> 00:19.380
+Nebudeme se zabývat matematickou stránkou věci.
+
+00:19.380 --> 00:21.540
+Jen bych chtěl, abychom pochopili, co to znamená,
+
+00:21.540 --> 00:26.840
+když prokládáme daty přímku nebo
+
+00:26.840 --> 00:27.880
+děláme lineární regresi.
+
+00:27.880 --> 00:29.550
+Takže si přečtěme problém.
+
+00:29.550 --> 00:33.550
+Následující tabulka ukazuje mediánový příjem v Kalifornii,
+
+00:33.550 --> 00:37.190
+připomeňme si, že medián znamená hodnotu příjmu v Kalifornii, která je přesně uprostřed.
+
+00:37.190 --> 00:40.850
+A to od roku 1995 do roku 2002,
+
+00:40.850 --> 00:42.680
+přičemž tato data pochází z amerického statistického úřadu.
+
+00:42.680 --> 00:45.320
+Máme tyto body zakreslit do grafu a najít rovnici přímky.
+
+00:45.320 --> 00:47.540
+Jaký mediánový roční příjem bychom očekávali
+
+00:47.540 --> 00:50.370
+u kalifornské rodiny v roce 2010?
+
+00:50.370 --> 00:52.970
+Jaký význam má sklon přímky a průsečík
+
+00:52.970 --> 00:53.580
+s osou y v tomto případě?
+
+00:53.580 --> 00:56.050
+Nejprve tedy co bychom chtěli udělat... jen jsem překopíroval
+
+00:56.050 --> 00:59.060
+a vložit příslušná data sem, máme data v takovém formátu,
+
+00:59.060 --> 01:00.920
+aby jim program porozuměl.
+
+01:00.920 --> 01:03.830
+Takže si uděláme nějaké tabulky.
+
+01:03.830 --> 01:08.800
+Sem napíšeme roky od roku 1995.
+
+01:08.800 --> 01:10.710
+Uděláme si tady jeden sloupec.
+
+01:10.710 --> 01:13.670
+Uděláme ho trochu širší.
+
+01:13.670 --> 01:16.670
+Sem zapíšeme mediánový příjem.
+
+01:16.670 --> 01:20.100
+Tohle je mediánový příjem kalifornské rodiny.
+
+01:20.100 --> 01:23.560
+Začneme rokem 1, nebo 0
+
+01:23.560 --> 01:28.100
+od roku 1995, 0, 1, 2, 3, 4.
+
+01:28.100 --> 01:32.710
+Pokud bychom chtěli, trend se spočítá sám,
+
+01:32.710 --> 01:33.590
+když to jen tady přetáhneme dolů.
+
+01:33.590 --> 01:36.650
+Program pochopí, že pouze zvyšujeme o 1.
+
+01:36.650 --> 01:38.340
+Co se týče příjmu, jen překopírujeme
+
+01:38.340 --> 01:39.300
+tato čísla.
+
+01:39.300 --> 01:54.710
+To mám 53 807 dolarů, 55 217 dolarů, 55 209 dolarů, 55 415 dolarů, 63 100 dolarů,
+
+01:54.710 --> 02:08.680
+63 206 dolarů, 63 761 dolarů a nakonec 65 766 dolarů.
+
+02:08.680 --> 02:10.520
+Takže tohle už nepotřebujeme.
+
+02:10.520 --> 02:13.380
+Takže to smažu.
+
+02:13.380 --> 02:14.810
+Tohle můžu vymazat.
+
+02:14.810 --> 02:16.180
+Ještě je třeba se ujistit, že máme správný počet vstupních dat.
+
+02:16.180 --> 02:24.040
+Tohle je 1, 2, 3, 4, 5, 6, 7, 8 a máme 1, 2, 3, 4, 5,
+
+02:24.040 --> 02:25.570
+6, 7, 8 řádků.
+
+02:25.570 --> 02:29.930
+Ujistěme se také, že máme data správně. 53 807 dolarů, 55 217 dolarů,
+
+02:29.930 --> 02:34.510
+55 209 dolarů, 415, 100, 206, 761, 766.
+
+02:34.510 --> 02:36.040
+Tak to by bylo.
+
+02:36.040 --> 02:38.880
+Teď zjistíme, že Excel všechno dost usnadňuje,
+
+02:38.880 --> 02:41.080
+pokud víme, na co máme kliknout.
+
+02:41.080 --> 02:44.430
+Nejprve si zakreslíme tato data,
+
+02:44.430 --> 02:46.220
+a pak navíc najdeme regresní přímku, kterou lze daty proložit.
+
+02:46.220 --> 02:48.970
+Vše, co musíme udělat, je vybrat data.
+
+02:48.970 --> 02:51.480
+Pak klikneme na vložit
+
+02:51.480 --> 02:53.170
+a vložíme bodový graf.
+
+02:53.170 --> 02:54.390
+Pak můžeme vybrat různé
+
+02:54.390 --> 02:56.160
+druhy bodových grafů.
+
+02:56.160 --> 02:58.820
+Chceme prostě zakreslit data.
+
+02:58.820 --> 02:59.670
+Tak to by bylo.
+
+02:59.670 --> 03:02.470
+Zakreslilo to naše data.
+
+03:02.470 --> 03:03.050
+To bychom měli.
+
+03:03.050 --> 03:07.320
+Tohle je skutečný příjem a tohle je rok
+
+03:07.320 --> 03:08.870
+od roku 1995.
+
+03:08.870 --> 03:10.570
+Takže tohle je rok 1995.
+
+03:10.570 --> 03:13.710
+Mediánový příjem byl roven 53 807 dolarů.
+
+03:13.710 --> 03:17.370
+V roce 1996 to bylo 55 217 dolarů.
+
+03:17.370 --> 03:19.250
+Zakreslilo to všechna data.
+
+03:19.250 --> 03:22.110
+Co teď chceme udělat, je proložit daty přímku.
+
+03:22.110 --> 03:24.000
+Tohle není zrovna přímka.
+
+03:24.000 --> 03:27.580
+Ale podívejme se na to... předpokládejme,
+
+03:27.580 --> 03:31.500
+že pomocí přímky můžeme dobře modelovat tato data. Excel přímku proloží za mě.
+
+03:31.500 --> 03:34.580
+Co můžu udělat je toto: mám tady různé možnosti
+
+03:34.580 --> 03:37.720
+jak proložit daty přímku,
+
+03:37.720 --> 03:38.710
+všechny tyhle možnosti.
+
+03:38.710 --> 03:39.780
+Vyberu si tuto.
+
+03:39.780 --> 03:40.940
+Možná to moc nevidíte.
+
+03:40.940 --> 03:42.460
+Vypadá jako přímka mezi body.
+
+03:42.460 --> 03:45.450
+Také má funkci, která nám řekne
+
+03:45.450 --> 03:46.470
+rovnici této přímky.
+
+03:46.470 --> 03:49.520
+Pokud na to kliknu... tak to bychom měli...
+
+03:49.520 --> 03:52.570
+tak to nejen proloží daty přímku, ale zakreslilo to i tatáž data
+
+03:52.570 --> 03:54.530
+do jiného grafu.
+
+03:54.530 --> 03:55.830
+Uděláme to trochu větší.
+
+03:55.830 --> 03:58.430
+Trochu větší.
+
+03:58.430 --> 03:59.930
+Ne, takhle ne.
+
+03:59.930 --> 04:01.060
+Uděláme to trochu větší.
+
+04:01.060 --> 04:04.430
+Nevadí, když tahle data neuvidíme, protože myslím,
+
+04:04.430 --> 04:06.410
+že víme, o co tu jde.
+
+04:06.410 --> 04:09.460
+Takže to takhle posunu.
+
+04:09.460 --> 04:12.620
+Tedy nejenom že to zakreslilo různé body,
+
+04:12.620 --> 04:16.029
+také to jimi proložilo přímku a
+
+04:16.029 --> 04:17.355
+odhadlo to rovnici této přímky.
+
+04:17.355 --> 04:21.279
+Říká, že rovnice této přímky je...
+
+04:21.279 --> 04:22.975
+Zkusím to ještě trošku zvětšit.
+
+04:22.975 --> 04:27.330
+Chtěl bych to ještě trochu zvětšit...
+
+04:27.330 --> 04:30.910
+Posunu to tak, abyste si to mohli aspoň přečíst.
+
+04:30.910 --> 04:33.400
+Tohle mi říká, že rovnice naší přímky je
+
+04:33.400 --> 04:40.400
+y se rovná 1 882,3x plus 52 847.
+
+04:40.400 --> 04:43.250
+Vzpomeňme si, co víme o sklonu přímky
+
+04:43.250 --> 04:50.660
+a průsečíku s osou y. Průsečík s osou y je 52 847.
+
+04:50.660 --> 04:55.000
+Jde vlastně o hodnotu příjmu
+
+04:55.000 --> 04:57.470
+v roce 0, tedy v roce 1995.
+
+04:57.470 --> 05:01.830
+Pokud bychom tedy k modelování použili tuto přímku,
+
+05:01.830 --> 05:05.580
+v roce 1995 by nám řekla, že vyděláme 52 847 dolarů.
+
+05:05.580 --> 05:07.280
+Skutečnost byla trochu jiná.
+
+05:07.280 --> 05:09.970
+Bylo to o něco více, 53 807 dolarů.
+
+05:09.970 --> 05:11.250
+Takže medián byl trochu vyšší.
+
+05:11.250 --> 05:13.850
+Ale snažíme se najít přímku, která odpovídá datům co nejlépe.
+
+05:13.850 --> 05:14.980
+A to všem těmto datům.
+
+05:14.980 --> 05:17.530
+Tato přímka se snaží minimalizovat vzdálenost,
+
+05:17.530 --> 05:20.470
+a to čtvercovou vzdálenost, mezi každým z těchto bodů
+
+05:20.470 --> 05:20.970
+a touto přímkou.
+
+05:20.970 --> 05:22.440
+Teď se matematikou zabývat nebudeme.
+
+05:22.440 --> 05:23.830
+Ale díky tomu jsme našli tuto rovnici přímky.
+
+05:23.830 --> 05:26.810
+Teď ji můžeme použít k předpovědím.
+
+05:26.810 --> 05:30.290
+Kdybychom řekli, že toto je dobrý model dat,
+
+05:30.290 --> 05:31.400
+posunu to trochu dolů...
+
+05:31.400 --> 05:32.400
+zkusíme si zodpovědět tuto otázku.
+
+05:32.400 --> 05:35.210
+Nakreslili jsme bodový graf... nebo lépe řečeno jej nakreslil Excel za nás.
+
+05:35.210 --> 05:38.000
+Našli jsme tuto rovnici.
+
+05:38.000 --> 05:40.060
+Jaký mediánový roční příjem bychom očekávali
+
+05:40.060 --> 05:44.490
+v kalifornské rodině v roce 2010?
+
+05:44.490 --> 05:50.010
+Tady máme rovnici, kterou program spočítal za nás.
+
+05:50.010 --> 05:51.770
+Tohle byl rok 2002.
+
+05:51.770 --> 05:52.850
+Takže můžeme zapsat tento rok.
+
+05:52.850 --> 05:57.240
+Tohle byl rok 2002.
+
+05:57.240 --> 06:02.490
+Takže rok 2010 je o 8 let dále.
+
+06:02.490 --> 06:04.350
+Udělám tady další sloupec.
+
+06:04.350 --> 06:08.390
+-
+
+06:08.390 --> 06:13.540
+Tohle je rok 1995, 1996,
+
+06:13.540 --> 06:15.710
+pak bude Excel schopen dodělat zbytek, jestliže toto označíme
+
+06:15.710 --> 06:18.950
+a potáhneme dolů za tento malý čtvereček.
+
+06:18.950 --> 06:23.920
+Excel pochopí, že chceme
+
+06:23.920 --> 06:26.980
+přidávat vždy jeden rok v každé další buňce.
+
+06:26.980 --> 06:31.670
+Pokud chceme mít roky od 1995, prostě
+
+06:31.670 --> 06:33.550
+jen potáhneme tohle dolů.
+
+06:33.550 --> 06:36.600
+Takže 2010, to by byl rok 15.
+
+06:36.600 --> 06:38.660
+Pak jen použijeme tuto rovnici.
+
+06:38.660 --> 06:41.760
+Můžeme říct, že podle rovnice této přímky...
+
+06:41.760 --> 06:44.570
+napíšu to sem, snad to přečtete,
+
+06:44.570 --> 06:51.000
+takže to bude 1 882,3 krát x,
+
+06:51.000 --> 06:55.500
+přičemž x znamená počet let od roku 1995,
+
+06:55.500 --> 06:58.430
+a můžu prostě vybrat tuto buňku, nebo
+
+06:58.430 --> 06:59.320
+napsat číslo 15.
+
+06:59.320 --> 07:03.590
+To 1 882,3 krát tato buňka, tedy krát 15.
+
+07:03.590 --> 07:11.390
+Plus 52 847, neboli plus toto.
+
+07:11.390 --> 07:17.600
+Klikneme na enter a předpoví to hodnotu 81 081,50 dolarů.
+
+07:17.600 --> 07:21.610
+Pokud bychom protáhli tuto přímku o 8 let,
+
+07:21.610 --> 07:24.550
+předpoví , že mediánový roční příjem
+
+07:24.550 --> 07:27.730
+kalifornské rodiny bude roven 81 000 dolarů.
+
+07:27.730 --> 07:30.270
+Snad Vám to přišlo zajímavé.
+
+07:30.270 --> 07:33.340
+Tabulkové kalkulátory jsou velmi užitečné pro práci s daty.
+
+07:33.340 --> 07:36.520
+Pomohou Vám pochopit, jak jsou lineární modely zajímavé.
+
+07:36.520 --> 07:39.130
+Proč jsou přímky zajímavé a jak je lze použít
+
+07:39.130 --> 07:42.600
+k interpretaci dat a dokonce k extrapolaci,
+
+07:42.600 --> 07:43.370
+pokud máme zájem o předpovědi.
+
+07:43.370 --> 07:45.450
+Tohle je právě extrapolace
+
+07:45.450 --> 07:47.260
+za použití této lineární regrese.
+
+07:47.260 --> 07:47.333
+-

@@ -1,0 +1,310 @@
+WEBVTT
+
+00:00.520 --> 00:04.900
+Wir haben gesehen, dass, wenn wir
+i mit immer höheren Exponenten haben,
+
+00:04.900 --> 00:12.280
+es die Werte 1, i, -1, -i  annimmt,
+und sich dann mit 1, i, -1 und -i wiederholt.
+
+00:12.280 --> 00:15.800
+Jetzt möchte ich sehen, ob wir ein paar
+schwierigere Aufgaben lösen können.
+
+00:15.800 --> 00:17.110
+Du begegnest ihnen vielleicht,
+
+00:17.110 --> 00:21.600
+und es macht Spaß, festzustellen, dass du
+diese Eigenschaft der Exponenten von i,
+
+00:21.600 --> 00:23.340
+diese verschiedenen Werte
+zu wiederholen, nutzen kannst.
+
+00:23.340 --> 00:29.100
+Du kannst dieses Wissen dazu benutzen,
+beliebig hohe Exponenten von i auszurechnen.
+
+00:29.100 --> 00:35.300
+Finden wir also einfach mal heraus, was i^100 ist.
+
+00:35.300 --> 00:39.280
+Zuerst bemerken wir, dass 100 ein Vielfaches von 4 ist.
+
+00:39.280 --> 00:47.460
+Also ist es dasselbe, wie wenn
+wir i^4 ⋅ 25 schreiben würden.
+
+00:47.460 --> 00:55.120
+Und das ist genau dasselbe wie (i⁴)^25.
+
+00:55.160 --> 00:57.000
+Wenn du etwas potenzierst,
+
+00:57.000 --> 00:59.090
+und das dann wieder potenziert wird,
+
+00:59.090 --> 01:02.300
+ist es dasselbe, wie wenn du
+beide Exponenten multiplizierst.
+
+01:02.300 --> 01:07.340
+Und wir wissen, dass i⁴ einfach nur 1 ist.
+
+01:07.380 --> 01:09.580
+i⁴ = 1, also ist das 1.
+
+01:09.580 --> 01:15.940
+Das ist also gleich 1^25, was einfach nur 1 ergibt.
+
+01:15.940 --> 01:20.160
+Wir nutzen diese wiederholende
+Eigenschaft von i beim Potenzieren,
+
+01:20.160 --> 01:22.720
+um einen sehr hohen Exponenten von i herauszufinden.
+
+01:22.720 --> 01:27.800
+Kommen wir zu einem merkwürdigeren Beispiel.
+
+01:27.800 --> 01:31.200
+Was ergibt i^501 ?
+
+01:31.200 --> 01:34.620
+In diesem Fall mit 501 haben wir kein Vielfaches von 4.
+
+01:34.620 --> 01:36.310
+So einfach ist es also nicht.
+
+01:36.310 --> 01:39.160
+Was wir aber tun können, ist das als
+Produkt zweier Zahlen zu schreiben,
+
+01:39.160 --> 01:44.140
+eine Zahl, die i mit einem Exponenten hat,
+der ein Vielfaches von 4 ist,
+
+01:44.140 --> 01:45.580
+und eine, bei der das nicht der Fall ist.
+
+01:45.580 --> 01:47.050
+Wir schreiben es also um.
+
+01:47.050 --> 01:50.390
+500 ist ein Vielfaches von 4.
+
+01:50.390 --> 01:57.200
+Also schreiben wir es als i^500 ⋅ i^1.
+
+01:57.220 --> 01:58.060
+Wir haben dieselbe Basis.
+
+01:58.070 --> 01:59.840
+Wenn du multiplizierst,
+kannst du Exponenten addieren.
+
+01:59.840 --> 02:02.960
+Das ergibt also i^501.
+
+02:02.960 --> 02:11.720
+Und wir wissen, dass i^500 dasselbe ist wie (i⁴)^125.
+
+02:11.720 --> 02:14.760
+4 ⋅ 125 = 500.
+
+02:14.760 --> 02:17.280
+Das ist also dieser Teil hier: i^500.
+
+02:17.280 --> 02:21.510
+Das ist dasselbe wie (i⁴)^125.
+
+02:21.510 --> 02:26.150
+Und das alles mal i^1.
+
+02:26.150 --> 02:27.800
+i⁴ = 1.
+
+02:27.800 --> 02:31.690
+1^125 ergibt einfach nur 1.
+
+02:31.690 --> 02:33.130
+Das alles ergibt 1.
+
+02:33.130 --> 02:37.140
+Also bleibt nur noch i^1 übrig.
+
+02:37.140 --> 02:39.222
+Das ergibt also i.
+
+02:39.222 --> 02:41.430
+Es sieht also sehr kompliziert aus,
+
+02:41.430 --> 02:43.180
+so als müsstest du den ganzen Tag daran arbeiten,
+
+02:43.180 --> 02:45.280
+aber du kannst diese Wiederholung
+ausnutzen, um zu verstehen,
+
+02:45.280 --> 02:47.620
+dass i^500 einfach nur 1 ergibt.
+
+02:47.620 --> 02:51.690
+Also ergibt i^501 einfach nur i damit multipliziert.
+
+02:51.690 --> 03:01.160
+i mit jedem Exponenten, der ein Vielfaches von 4 ist,
+
+03:01.160 --> 03:06.340
+wir beschränken k mal auf nicht-negative Werte: k ≥ 0.
+
+03:06.380 --> 03:10.250
+Wenn wir i mit einem Exponenten haben,
+der ein Vielfaches von 4 ist,
+
+03:10.250 --> 03:19.320
+erhalten wir 1, da es dasselbe ist wie (i⁴)^k.
+
+03:19.320 --> 03:23.960
+Und das ist dasselbe wie 1^k, was eindeutig 1 ergibt.
+
+03:23.960 --> 03:25.510
+Und wenn wir irgendetwas anderes haben,
+
+03:25.510 --> 03:29.340
+z.B. i^4k + 1 oder i^4k + 2,
+
+03:29.340 --> 03:31.640
+dann können wir einfach diese Technik hier anwenden.
+
+03:31.640 --> 03:33.640
+Machen wir ein paar weitere Aufgaben,
+
+03:33.640 --> 03:35.460
+damit du wirklich verstehst,
+
+03:35.460 --> 03:38.200
+dass du die verrücktesten Sachen lösen kannst.
+
+03:38.200 --> 03:45.020
+Nehmen wir i^7321.
+
+03:45.020 --> 03:47.540
+Wir müssen nur herausfinden,
+
+03:47.540 --> 03:52.940
+dass es ein Vielfaches von 4 plus etwas anderes ist.
+
+03:52.940 --> 03:55.870
+Du kannst dir die Zahl also einfach anschauen,
+
+03:55.870 --> 03:58.870
+und sehen, dass 7320 durch 4 teilbar ist.
+
+03:58.870 --> 04:00.270
+Du kannst es schriftlich bestätigen.
+
+04:00.270 --> 04:02.160
+Und dann bleibt 1 übrig.
+
+04:02.160 --> 04:09.780
+Das ist also i^7320 ⋅ i^1.
+
+04:09.780 --> 04:12.900
+Das hier ist ein Vielfaches von 4,
+
+04:12.905 --> 04:17.240
+und ich weiß das, weil jede
+1000 ein Vielfaches von 4 ist,
+
+04:17.240 --> 04:21.209
+jede 100 ein Vielfaches von 4 ist,
+und 20 ein Vielfaches von 4 ist.
+
+04:21.209 --> 04:24.497
+Das hier vereinfacht sich also zu 1.
+
+04:24.500 --> 04:29.020
+Ups, das hier drüben ist natürlich i^1.
+
+04:29.020 --> 04:33.240
+7321 = 7320 + 1.
+
+04:33.240 --> 04:37.287
+Dieser Teil hier wird zu 1 vereinfacht,
+
+04:37.287 --> 04:41.080
+und es bleibt einfach nur i^1 übrig bzw. i.
+
+04:41.100 --> 04:42.600
+Kommen wir zu einem weiteren Beispiel.
+
+04:42.600 --> 04:56.260
+Ich versuche mal etwas Interessantes: i^99.
+
+04:56.260 --> 05:01.560
+Wir überlegen wieder: Was ist das höchste
+Vielfache von 4, das weniger als 99 ist?
+
+05:01.560 --> 05:05.240
+Es ist 96.
+
+05:05.240 --> 05:11.460
+Das ist also dasselbe wie i^96 ⋅ i^3 richtig?
+
+05:11.460 --> 05:14.320
+Sie haben dieselbe Basis, wenn du sie multiplizierst,
+
+05:14.320 --> 05:16.840
+würdest du auf i^99 kommen.
+
+05:16.840 --> 05:20.410
+i^96 ist, da 96 ein Vielfaches von 4 ist,
+
+05:20.410 --> 05:23.740
+dasselbe wie (i^4)^16.
+
+05:23.740 --> 05:26.850
+Das ist also einfach 1^16, also 1.
+
+05:26.850 --> 05:29.670
+Und dann bleibt nur noch i³ übrig.
+
+05:29.670 --> 05:36.980
+Und dann erinnerst du dich daran, dass i³ = -i ist.
+
+05:36.980 --> 05:39.270
+Falls du es vergessen hast, kannst du sagen,
+
+05:39.270 --> 05:45.340
+dass es dasselbe wie i² ⋅ i ist.
+
+05:45.360 --> 05:48.800
+i² ist als -1 definiert.
+
+05:48.800 --> 05:55.340
+Es bleibt also -1 ⋅ i = -i übrig.
+
+05:55.340 --> 05:58.890
+Machen wir noch ein Beispiel.
+
+05:58.890 --> 06:01.840
+Nehmen wir i^38.
+
+06:01.840 --> 06:07.220
+Das ergibt i^36 ⋅ i².
+
+06:07.220 --> 06:12.000
+Ich nehme i^36, da es das größte
+Vielfache von 4 ist, das in 38 reinpasst.
+
+06:12.000 --> 06:13.730
+2 bleiben übrig.
+
+06:13.730 --> 06:15.870
+Das vereinfacht sich zu 1,
+
+06:15.870 --> 06:20.530
+i² bleibt übrig, was -1 ergibt.

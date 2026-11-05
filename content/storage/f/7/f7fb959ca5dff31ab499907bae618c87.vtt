@@ -1,0 +1,676 @@
+WEBVTT
+
+00:00.451 --> 00:02.625
+Hình học là phương pháp giúp ta
+
+00:02.625 --> 00:05.003
+chứng minh mọi thứ trên thế giới.
+
+00:05.003 --> 00:08.477
+Và để thực sự có thể làm vậy,
+
+00:08.477 --> 00:11.036
+ta sẽ phải rất cẩn thận
+
+00:11.036 --> 00:12.702
+và chính xác với những khái niệm,
+
+00:12.702 --> 00:14.064
+để hiểu được những giả định,
+
+00:14.064 --> 00:16.056
+những minh chứng và
+
+00:16.056 --> 00:19.104
+những kết luận của con người
+
+00:19.104 --> 00:20.871
+về thế giới.
+
+00:20.871 --> 00:23.450
+Và để nắm vững
+
+00:23.450 --> 00:25.177
+những khái niệm đang được sử dụng,
+
+00:25.177 --> 00:27.087
+ta sẽ cùng làm các bài tập
+
+00:27.087 --> 00:31.663
+từ phần Bài tập Định nghĩa Hình học
+
+00:31.663 --> 00:34.038
+trên Khan Academy.
+
+00:34.038 --> 00:36.688
+Bài đầu tiên là, "ba học sinh cố gắng
+
+00:36.688 --> 00:39.817
+định nghĩa hai đường thẳng l và m vuông góc nhau
+
+00:39.817 --> 00:41.727
+là thế nào?"
+
+00:41.727 --> 00:45.201
+"Bạn có thể nối bình luận của giáo viên với các định nghĩa không?"
+
+00:45.201 --> 00:47.030
+Được rồi, có vẻ là định nghĩa của
+
+00:47.030 --> 00:50.505
+ba học sinh về sự vuông góc
+
+00:50.505 --> 00:52.178
+và bình luận của giáo viên
+
+00:52.178 --> 00:54.088
+mà mình có thể di chuyển thế này.
+
+00:54.088 --> 00:56.465
+Giả sử ta là người giáo viên.
+
+00:56.465 --> 00:59.553
+Vậy thì định nghĩa của Ruby cho sự vuông góc:
+
+00:59.553 --> 01:02.926
+"đường thẳng l và m là vuông góc
+
+01:02.926 --> 01:04.876
+nếu chúng không giao nhau."
+
+01:04.876 --> 01:06.176
+Nó có vẻ không đúng.
+
+01:06.176 --> 01:09.874
+Thật ra, đường thẳng vuông góc chắc chắn sẽ giao nhau,
+
+01:09.874 --> 01:12.455
+chúng thật ra giao nhau tại góc vuông.
+
+01:12.455 --> 01:14.181
+Nên định nghĩa này sẽ
+
+01:14.181 --> 01:15.791
+không đúng.
+
+01:15.791 --> 01:17.071
+Và có vẻ cái này nhìn chính xác này.
+
+01:17.071 --> 01:18.716
+Con nhầm qua đường thẳng song song à?
+
+01:18.716 --> 01:21.581
+Vì nó đúng là định nghĩa của Ruby rồi.
+
+01:21.581 --> 01:24.994
+Nếu mọi thứ nằm trên cùng mặt phẳng và không giao nhau,
+
+01:24.994 --> 01:28.164
+thì Ruby đang nói về đường thẳng song song.
+
+01:28.164 --> 01:30.399
+Mình cũng có định nghĩa của Shriya ở đây.
+
+01:30.399 --> 01:33.995
+"l và m vuông góc nếu chúng giao nhau tại một điểm
+
+01:33.995 --> 01:36.839
+và một trong các góc tại điểm giao nhau
+
+01:36.839 --> 01:39.948
+là một góc vuông." Nó có vẻ đúng đấy.
+
+01:39.948 --> 01:40.842
+Để xem nào.
+
+01:40.842 --> 01:43.158
+Mình sẽ nói " Wohoo! Làm tốt lắm!"
+
+01:43.158 --> 01:44.986
+"Tới cô còn không nói đúng hơn được"
+
+01:44.986 --> 01:46.490
+Giờ hãy chắc bình luận này
+
+01:46.490 --> 01:48.257
+phù hợp với định nghĩa này.
+
+01:48.257 --> 01:51.630
+Abhishek nói rằng "l và m vuông góc nhau
+
+01:51.630 --> 01:53.885
+nếu chúng giao nhau tại một điểm,
+
+01:53.885 --> 01:57.523
+sao cho để hai đường thẳng tạo một chữ T."
+
+01:57.523 --> 02:01.423
+Nó khá đúng đấy chứ.
+
+02:01.423 --> 02:04.157
+Khi bạn tưởng tượng đường thẳng vuông góc,
+
+02:04.157 --> 02:05.782
+bạn có thể hình dung chúng tạo thành
+
+02:05.782 --> 02:08.484
+một chữ thập, và
+
+02:08.484 --> 02:10.468
+chữ T là một phần của nó.
+
+02:10.468 --> 02:12.731
+Nhưng mình nghĩ bình luận này là chính xác.
+
+02:12.731 --> 02:15.435
+Bình luận của giáo viên " Định nghĩa của bạn có vẻ đúng
+
+02:15.435 --> 02:17.670
+nhưng nó thiếu sự chính xác về mặt toán học."
+
+02:17.670 --> 02:19.844
+Tạo thành chữ T
+
+02:19.844 --> 02:23.074
+có nghĩa là gì?
+
+02:23.074 --> 02:25.207
+Định nghĩa của Shriya chính xác hơn nhiều.
+
+02:25.207 --> 02:26.711
+Chúng vuông góc "nếu chúng giao nhau tại một điểm
+
+02:26.711 --> 02:29.311
+và một trong các góc tại giao điểm
+
+02:29.311 --> 02:32.461
+là góc vuông," là góc 90 độ.
+
+02:32.461 --> 02:33.923
+Hãy kiểm tra đáp án thử nhé.
+
+02:33.923 --> 02:34.980
+Mình làm thêm vài bài nữa ha.
+
+02:34.980 --> 02:36.524
+Cái này thực sự vui đấy chứ.
+
+02:36.524 --> 02:38.474
+Lần nữa, ta sẽ có ba học sinh
+
+02:38.474 --> 02:40.465
+cố gắng đưa ra định nghĩa, nhưng giờ họ sẽ định nghĩa
+
+02:40.465 --> 02:43.025
+một góc là gì.
+
+02:43.025 --> 02:45.870
+Bạn có thể nối bình luận của giáo viên với các định nghĩa không?
+
+02:45.870 --> 02:48.166
+Oh cũng là ba học sinh lúc nãy.
+
+02:48.166 --> 02:52.574
+Ruby nói " Một lượng thay đổi giữa hai đường thẳng
+
+02:52.574 --> 02:56.272
+có cùng đỉnh."
+
+02:56.272 --> 02:59.482
+Cái này có vẻ gần đúng rồi.
+
+02:59.482 --> 03:02.388
+Định nghĩa của một góc, ta thường nói là
+
+03:02.388 --> 03:05.720
+hai tia với cùng một đỉnh.
+
+03:05.720 --> 03:09.072
+Bạn đang nói về hai đường thẳng cùng đỉnh.
+
+03:09.072 --> 03:11.815
+Và bạn này nói về một lượng thay đổi.
+
+03:11.815 --> 03:13.359
+Vậy nên có vẻ bạn này đang nói
+
+03:13.359 --> 03:15.167
+về độ lớn của một góc.
+
+03:15.167 --> 03:17.381
+Hãy xem bình luận ở đây nhé.
+
+03:17.381 --> 03:19.076
+"Con có vẻ đang nói về
+
+03:19.076 --> 03:20.275
+độ lớn của một một góc"
+
+03:20.275 --> 03:21.720
+và " không phải định nghĩa của cái góc"
+
+03:21.720 --> 03:22.482
+Nên cái này thật ra là đúng.
+
+03:22.482 --> 03:23.661
+Mình sẽ để cái này ở đây.
+
+03:23.661 --> 03:24.821
+Thật may mắn
+
+03:24.821 --> 03:26.504
+vì nó nằm đúng chỗ sẵn rồi.
+
+03:26.504 --> 03:30.143
+Định nghĩa của Shriya :" Hai đường thẳng tiến đến nhau."
+
+03:30.143 --> 03:32.224
+Cái này có vẻ...
+
+03:32.224 --> 03:37.192
+Định nghĩa của một góc là hai tia cùng một đỉnh.
+
+03:37.192 --> 03:38.706
+Nên "Hai đường thẳng tiến đến nhau,"
+
+03:38.706 --> 03:40.168
+cái này chỉ là các đường thẳng giao nhau.
+
+03:40.168 --> 03:42.647
+Trường hợp này bạn có thể tạo thành góc,
+
+03:42.647 --> 03:44.983
+nhưng mình nghĩ bình luận là "Con đang nghĩ
+
+03:44.983 --> 03:46.894
+tới các đường thẳng giao nhau hả?"
+
+03:46.894 --> 03:48.946
+Để xem Abhishek định nghĩa thế nào nhé.
+
+03:48.946 --> 03:52.744
+" Một hình gồm hai tia có chung một điểm đầu mút.
+
+03:52.744 --> 03:55.183
+Điểm đầu mút chung được biết đến là đỉnh."
+
+03:55.183 --> 03:59.612
+Yup. Đó chính là một định nghĩa 'góc' tốt
+
+03:59.612 --> 04:01.927
+Nên Abhishek lần này đã đúng rồi.
+
+04:01.927 --> 04:03.269
+Hãy làm thêm một bài nữa nhé.
+
+04:03.269 --> 04:05.645
+Giờ ba học sinh đang muốn định nghĩa
+
+04:05.645 --> 04:08.347
+hai đường thẳng song song.
+
+04:08.347 --> 04:10.196
+Mình sẽ phải nối với bình luận của giáo viên.
+
+04:10.196 --> 04:12.615
+Daniel nói " Hai đường thẳng song song
+
+04:12.615 --> 04:16.353
+nếu chúng khác nhau và một đường có thể được
+
+04:16.353 --> 04:19.402
+tịnh tiến để nằm trên đường kia."
+
+04:19.402 --> 04:20.817
+Được rồi.
+
+04:20.817 --> 04:24.007
+Hay đó.
+
+04:24.007 --> 04:24.983
+Nó sẽ không phải thứ
+
+04:24.983 --> 04:26.792
+mình nghĩ tới đầu tiên.
+
+04:26.792 --> 04:28.639
+Mình sẽ nói " Nếu chúng nằm trên cùng mặt phẳng
+
+04:28.639 --> 04:31.485
+và không giao nhau thì khi đó chúng song song."
+
+04:31.485 --> 04:32.987
+Nhưng định nghĩa này cũng ổn,
+
+04:32.987 --> 04:35.161
+vì nếu bạn tịnh tiến một đường thẳng,
+
+04:35.161 --> 04:39.285
+tức là không xoay nó,
+
+04:39.285 --> 04:41.056
+không đổi hướng của nó.
+
+04:41.056 --> 04:42.520
+Một cách hay để nghĩ về vấn đề này.
+
+04:42.520 --> 04:43.982
+Khi bạn tịnh tiến
+
+04:43.982 --> 04:44.856
+một đường thẳng,
+
+04:44.856 --> 04:46.359
+giả sử có hai đường thẳng,
+
+04:46.359 --> 04:50.077
+bạn dịch chuyển nó nhưng không đổi hướng của nó,
+
+04:50.077 --> 04:51.704
+nghĩa là bạn đang tịnh tiến
+
+04:51.704 --> 04:54.324
+cho nó nằm trên nhau. Ok luôn.
+
+04:54.324 --> 04:57.323
+Nên mình sẽ để nó ở đây.
+
+04:57.323 --> 05:00.044
+Ori nói " Hai đường thẳng song song
+
+05:00.044 --> 05:03.080
+nếu chúng nằm gần nhau nhưng không giao nhau."
+
+05:03.896 --> 05:06.843
+Nếu bạn muốn định nghĩa đường thẳng
+
+05:06.843 --> 05:08.203
+song song, nó không quan trọng
+
+05:08.203 --> 05:10.905
+nếu chúng có gần hay hay không.
+
+05:10.905 --> 05:12.074
+Chúng chỉ phải
+
+05:12.074 --> 05:13.751
+cùng một mặt phẳng và không giao nhau.
+
+05:13.751 --> 05:17.144
+Chúng có thể rất xa nhau nhưng vẫn có thể song song.
+
+05:17.144 --> 05:19.399
+Vậy nên cái này là một phát biểu không đúng.
+
+05:19.399 --> 05:21.349
+Bạn có thể có hai đường thẳng gần nhau
+
+05:21.349 --> 05:22.995
+và không giao nhau trên cùng mặt phẳng,
+
+05:22.995 --> 05:25.173
+và chúng sẽ giao nhau thôi.
+
+05:25.173 --> 05:26.635
+Đây không là một định nghĩa tốt,
+
+05:26.635 --> 05:28.222
+vì bạn vẫn có thể có đường thẳng song song
+
+05:28.222 --> 05:29.725
+cách xa nhau.
+
+05:29.725 --> 05:32.791
+Và thật ra mình sẽ đồng ý với bình luận ở đây:
+
+05:32.791 --> 05:34.112
+"Con chỉ chính xác một phần thôi,
+
+05:34.112 --> 05:35.230
+phần còn lại thì không."
+
+05:35.230 --> 05:37.952
+"Đường thẳng song song không nhất thiết phải gần nhau."
+
+05:37.952 --> 05:39.882
+Định nghĩa này không ổn.
+
+05:39.882 --> 05:42.423
+Để xem nào. Kaori nói: " Hai đường thẳng song song
+
+05:42.423 --> 05:44.839
+miễn là chúng không vuông góc."
+
+05:44.839 --> 05:46.242
+Thì cái này không đúng,
+
+05:46.242 --> 05:47.846
+vì chúng vẫn có thể giao nhau,
+
+05:47.846 --> 05:49.492
+bạn vẫn có thể có hai đường giao nhau
+
+05:49.492 --> 05:52.336
+tại góc không vuông, và chúng không song song,
+
+05:52.336 --> 05:54.185
+và cũng không vuông góc.
+
+05:54.185 --> 05:57.071
+Nên ở đây sẽ là " Rất tiếc định nghĩa của con không chính xác."
+
+05:57.071 --> 05:58.025
+Được giả bộ làm thầy cô,
+
+05:58.025 --> 05:59.488
+vui đúng không?
+
+05:59.488 --> 06:01.621
+Hãy làm thêm một bài nữa nhé.
+
+06:02.682 --> 06:04.084
+Được rồi.
+
+06:04.084 --> 06:06.398
+" Ba học sinh cố định nghĩa
+
+06:06.398 --> 06:08.653
+một đoạn thẳng là gì."
+
+06:08.653 --> 06:12.205
+Và ta có hình của một đoạn thẳng ở đây.
+
+06:12.205 --> 06:15.036
+Ta có điểm P, điểm Q và đoạn thẳng
+
+06:15.036 --> 06:18.307
+là tất cả những điểm ở giữa P và Q.
+
+06:18.307 --> 06:22.732
+Giờ hãy nối bình luận của giáo viên
+
+06:22.732 --> 06:24.154
+với các định nghĩa.
+
+06:24.154 --> 06:26.788
+Định nghĩa của Ivy là: "Tất cả những điểm
+
+06:26.788 --> 06:30.331
+giữa P và Q, chúng kéo dài vô tận
+
+06:30.331 --> 06:32.098
+theo hai hướng."
+
+06:32.098 --> 06:34.089
+Đó sẽ là định nghĩa của một đường thẳng.
+
+06:34.089 --> 06:35.786
+Đó sẽ là đường thẳng PQ,
+
+06:35.786 --> 06:37.412
+nếu là kéo dài vô tận
+
+06:37.412 --> 06:39.999
+theo hai hướng,
+
+06:40.573 --> 06:41.966
+Nên ở đây là:" Con đang nghĩ về đường thẳng
+
+06:41.966 --> 06:44.237
+thay vì đoạn thẳng à?"
+
+06:44.237 --> 06:47.691
+Định nghĩa của Ethan: " Khoảng cách chính xác từ P tới Q."
+
+06:47.691 --> 06:48.576
+Đó chỉ là
+
+06:48.576 --> 06:52.195
+độ dài của một đoạn thẳng.
+
+06:52.195 --> 06:54.957
+Nó không định nghĩa chính xác đoạn thẳng là gì.
+
+06:54.957 --> 06:57.030
+Và xem nào, định nghĩa của Ebuka.
+
+06:57.030 --> 07:00.401
+"Điểm P và Q được gọi là điểm đầu mút,
+
+07:00.401 --> 07:02.067
+và tất cả những điểm trên một đường thẳng
+
+07:02.067 --> 07:03.895
+giữa P và Q.
+
+07:03.895 --> 07:06.150
+Vâng, đó có vẻ là một định nghĩa tốt
+
+07:06.150 --> 07:08.914
+của một đoạn thẳng.
+
+07:08.914 --> 07:10.762
+Thế giờ ta kiểm tra
+
+07:10.762 --> 07:12.536
+đáp án nhé.
+
+07:13.658 --> 07:14.776
+Ổn đó.
+
+07:14.776 --> 07:15.893
+Hãy làm thêm một bài nữa.
+
+07:15.893 --> 07:18.612
+Mình thích trò này rồi đó nha.
+
+07:19.348 --> 07:21.217
+Được rồi. Ba học sinh cố định nghĩa
+
+07:21.217 --> 07:23.046
+đường tròn là gì.
+
+07:23.046 --> 07:24.427
+Định nghĩa một hình tròn là gì.
+
+07:24.427 --> 07:26.114
+" Bạn có thể nối bình luận của giáo viên với các định nghĩa không?"
+
+07:26.114 --> 07:29.060
+Duru nói " Tập hợp các điểm trên một mặt phẳng
+
+07:29.060 --> 07:32.087
+có khoảng cách bằng nhau tới một điểm
+
+07:32.087 --> 07:33.794
+được gọi là tâm."
+
+07:33.794 --> 07:36.516
+Định nghĩa này ok,
+
+07:36.516 --> 07:39.299
+nên mình sẽ bình luận "Tuyệt vời! Làm tốt lắm."
+
+07:39.299 --> 07:41.656
+Định nghĩa của Oliver.
+
+07:41.656 --> 07:44.704
+Tập hợp các điểm trong không gian 3 chiều
+
+07:44.704 --> 07:47.489
+có cùng khoảng cách tới tâm."
+
+07:47.489 --> 07:48.971
+Nếu đang nói về không gian 3 chiều
+
+07:48.971 --> 07:50.880
+và tập hợp các điểm có cùng khoảng cách
+
+07:50.880 --> 07:52.404
+tới tâm trong không gian 3 chiều,
+
+07:52.404 --> 07:55.167
+thì ta đang nói về hình cầu chứ không phải hình tròn.
+
+07:55.167 --> 07:57.546
+Nên ở đây " Con nhầm
+
+07:57.546 --> 07:59.557
+hình tròn với hình cầu rồi."
+
+07:59.557 --> 08:03.275
+Cuối cùng là " Một hình tròn hoàn hảo."
+
+08:03.275 --> 08:06.118
+Cũng đúng đó.
+
+08:06.118 --> 08:07.703
+Nhưng nếu bạn nói vể không gian 3 chiều,
+
+08:07.703 --> 08:09.267
+thì bạn có thể đang nói tới hình cầu.
+
+08:09.267 --> 08:11.096
+Nếu hơn 3 chiều,
+
+08:11.096 --> 08:12.802
+thì là siêu cầu hay gì đó khác nữa.
+
+08:12.802 --> 08:14.875
+Trong không gian 2 chiều, thì, hình tròn hoàn hảo
+
+08:14.875 --> 08:16.683
+mọi người gọi nó là hình tròn.
+
+08:16.683 --> 08:18.572
+Nhưng định nghĩa này không được chính xác lắm.
+
+08:18.572 --> 08:20.238
+Nó không cho ta nhiều thông tin
+
+08:20.238 --> 08:23.062
+để ta có thể sử dụng từ góc nhìn toán học.
+
+08:23.062 --> 08:25.094
+Nên bình luận sẽ là:
+
+08:25.094 --> 08:27.634
+"Định nghĩa của con cần cụ thể hơn"
+
+08:27.634 --> 08:30.742
+Định nghĩa của Duru chính xác hơn rất nhiều.
+
+08:30.742 --> 08:34.143
+Tập hợp các điểm trong một mặt phẳng
+
+08:34.143 --> 08:36.228
+có cùng khoảng cách tới
+
+08:36.228 --> 08:38.648
+một điểm gọi là tâm.
+
+08:38.648 --> 08:42.451
+Vậy nên Carlos cần thêm một chút sự chính xác.
+
+08:43.594 --> 08:45.072
+Vậy là xong rồi.

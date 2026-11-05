@@ -1,0 +1,481 @@
+WEBVTT
+
+00:00.025 --> 00:01.305
+Ở video này, chúng ta sẽ
+
+00:01.305 --> 00:05.485
+tập trung vào những sai lầm dễ mắc phải liên quan đến
+
+00:05.485 --> 00:07.779
+đạo hàm hàm hợp
+
+00:07.779 --> 00:10.680
+Và bạn sẽ thường gặp nó ở các bài thi AP
+
+00:10.680 --> 00:13.338
+từ bảng Đại Học trên Khan Academy
+
+00:13.338 --> 00:16.316
+Bây giờ giả sử như mình đang cố gắng
+
+00:16.316 --> 00:19.070
+lấy đạo hàm của biểu thức này
+
+00:19.070 --> 00:21.125
+Vậy nếu chúng ta muốn lấy
+
+00:21.125 --> 00:23.066
+đạo hàm của
+
+00:23.066 --> 00:29.409
+log tự nhiên của sin(x)
+
+00:29.409 --> 00:31.165
+Và nhầm lẫn đầu tiên mà
+
+00:31.165 --> 00:33.185
+mọi người thường hay mắc phải
+
+00:33.185 --> 00:34.683
+đó là hàm của mình
+
+00:34.683 --> 00:36.932
+là một hàm số siêu việt như thế này,
+
+00:36.932 --> 00:40.036
+Và hàm số siêu việt chỉ là một thuật ngữ sang trọng
+
+00:40.036 --> 00:42.610
+để chỉ các hàm số như hàm số lượng giác
+
+00:42.610 --> 00:43.740
+hàm số logarit
+
+00:43.740 --> 00:46.270
+mà không cần dùng các phép tính cơ bản
+
+00:46.270 --> 00:49.342
+Nhưng khi bạn gặp phải những hàm số như thế này
+
+00:49.342 --> 00:51.192
+hoặc là hàm hợp của chúng
+
+00:51.192 --> 00:55.100
+thì mọi người thường sẽ hay nhầm lẫn nó với lại tích của các hàm số
+
+00:55.100 --> 00:57.718
+Vậy nên thoạt đầu mọi người sẽ thường
+
+00:57.718 --> 00:59.080
+xem đây là
+
+00:59.080 --> 01:01.230
+đạo hàm theo x
+
+01:01.230 --> 01:03.997
+của log tự nhiên x
+
+01:03.997 --> 01:06.007
+nhân với sin(x)
+
+01:06.007 --> 01:08.311
+Và chỉ cần thông qua cách viết của nó
+
+01:08.311 --> 01:10.836
+thì hai biểu thức này nhìn rất giống nhau
+
+01:10.836 --> 01:13.130
+Nhưng đây là tích của hai hàm số
+
+01:13.130 --> 01:16.847
+Nếu bạn nói log tự nhiên của x là f(x)
+
+01:16.847 --> 01:19.703
+và sin(x) là g(x)
+
+01:19.703 --> 01:22.582
+thì đây sẽ là tích của
+
+01:22.582 --> 01:25.912
+f(x) với g(x)
+
+01:25.912 --> 01:29.137
+Và ở đây chúng ta sẽ dùng quy tắc đạo hàm tích
+
+01:29.137 --> 01:31.104
+của hai hàm số f(x) và g(x)
+
+01:31.104 --> 01:35.330
+Vậy là mình sẽ dùng quy tắc này để tính cho trường hợp này.
+
+01:35.330 --> 01:37.513
+Nhưng vấn đề ở đây là
+
+01:37.513 --> 01:39.974
+ở đây bạn có f của g(x)
+
+01:39.974 --> 01:43.524
+không phải là f(x) nhân g(x)
+
+01:43.524 --> 01:45.831
+Vậy nên ở đây bạn sẽ có
+
+01:45.831 --> 01:49.541
+đây là g(x) của mình, và nó bằng với sin(x)
+
+01:49.541 --> 01:52.072
+Rồi đến f của g(x)
+
+01:52.072 --> 01:54.138
+tức là log tự nhiên của sin(x)
+
+01:54.138 --> 01:57.987
+Vậy đây là f của g(x)
+
+01:57.987 --> 01:59.963
+Nó sẽ giống như thế này đây
+
+01:59.963 --> 02:01.997
+Và nếu có ai đó hỏi bạn f(x) là gì
+
+02:01.997 --> 02:04.583
+thì bạn sẽ trả lời đó là log tự nhiên của x
+
+02:04.583 --> 02:07.675
+Nhưng f của g(x) là log tự nhiên của g(x)
+
+02:07.675 --> 02:09.574
+tức là log tự nhiên của sin(x)
+
+02:09.574 --> 02:11.623
+Và đó chính là mấu chốt đầu tiên
+
+02:11.623 --> 02:14.793
+mà bạn phải nắm được, đặc biệt là khi nó có liên quan
+
+02:14.793 --> 02:17.122
+đến các hàm số siêu việt như thế này
+
+02:17.122 --> 02:19.898
+bởi vì giả sử như ở đây là một hàm hợp, thì bạn
+
+02:19.898 --> 02:23.478
+sẽ tính đạo hàm của hàm hợp chứ không phải là tích các hàm
+
+02:23.478 --> 02:25.439
+Và đôi lúc bạn sẽ thậm chí gặp
+
+02:25.439 --> 02:26.889
+tích của các hàm hợp
+
+02:26.889 --> 02:29.309
+thì khi đó mọi chuyện sẽ phức tạp hơn
+
+02:29.309 --> 02:30.961
+Nhưng các bạn nên để ý
+
+02:30.961 --> 02:34.910
+liệu hàm mình đang lấy đạo hàm là tích của các hàm hay là hàm hợp
+
+02:34.910 --> 02:36.290
+Và hiểu lầm thứ hai
+
+02:36.290 --> 02:38.413
+đó là kể cả khi họ phân biệt được
+
+02:38.413 --> 02:39.937
+hàm mà họ đang xét
+
+02:39.937 --> 02:42.704
+thì họ vẫn sẽ bỏ sót phần nào đó khi đạo hàm
+
+02:42.704 --> 02:45.026
+Mình sẽ tiếp tục lấy hàm này làm ví dụ
+
+02:45.026 --> 02:47.288
+Quy tắc đạo hàm hàm hợp nói rằng
+
+02:47.288 --> 02:50.107
+chúng ta phải lấy đạo hàm của hàm số ở ngoài
+
+02:50.107 --> 02:51.817
+theo hàm số ở bên trong
+
+02:51.817 --> 02:53.140
+Nên nếu mình nói
+
+02:53.140 --> 02:56.182
+ở trường hợp này, f(x) là log tự nhiên của x
+
+02:56.182 --> 02:58.550
+còn f của g(x) là biểu thức ở ngay đây
+
+02:58.550 --> 03:00.617
+Và mình sẽ làm phần đầu tiên, đó là đi tính
+
+03:00.617 --> 03:05.423
+đạo hàm của f của g(x)
+
+03:05.423 --> 03:07.304
+đạo hàm của f của g(x)
+
+03:07.304 --> 03:10.602
+thì đạo hàm của log tự nhiên của x
+
+03:10.602 --> 03:13.469
+sẽ là 1 chia cho x
+
+03:13.469 --> 03:16.294
+Vậy nên đạo hàm của log tự nhiên ở đây
+
+03:16.294 --> 03:17.705
+sẽ bằng 1 phần x
+
+03:17.705 --> 03:21.327
+Nhưng chúng ta không muốn lấy biến của f phẩy là x
+
+03:21.327 --> 03:23.721
+Mà biến của f phẩy khi đó là g(x)
+
+03:23.721 --> 03:25.811
+Vậy nên thay vì là 1 chia x
+
+03:25.811 --> 03:28.876
+thì nó sẽ là 1 phần g(x)
+
+03:28.876 --> 03:31.209
+1 phần g(x)
+
+03:31.209 --> 03:34.634
+Và chúng ta biết được rằng g(x)
+
+03:34.634 --> 03:37.919
+sẽ bằng sin(x)
+
+03:37.919 --> 03:40.416
+Và đây cũng chính là lúc mà mọi người
+
+03:40.416 --> 03:41.672
+mắc bẫy, bởi vì
+
+03:41.672 --> 03:44.781
+nhiều bạn sẽ dừng lại việc tính đạo hàm ngay tại đây
+
+03:44.781 --> 03:46.707
+Họ chỉ làm phần đầu tiên thôi
+
+03:46.707 --> 03:49.379
+mà quên mất phải nhân cho phần thứ 2
+
+03:49.379 --> 03:51.562
+Vậy nên chúng ta vẫn chưa xong
+
+03:51.562 --> 03:54.821
+bởi vì chúng ta sẽ phải tiếp tục nhân nó cho g phẩy x
+
+03:54.821 --> 03:56.722
+Và câu hỏi được đặt ra là
+
+03:56.722 --> 03:58.760
+g phẩy x sẽ bằng gì nhỉ?
+
+03:58.760 --> 04:02.684
+Thì đạo hàm của sin(x) theo x
+
+04:02.684 --> 04:04.185
+sẽ bằng với lại
+
+04:04.185 --> 04:08.785
+cos(x)
+
+04:08.785 --> 04:11.113
+Vậy nên ở ví dụ này
+
+04:11.113 --> 04:13.829
+thì đạo hàm của mình sẽ bằng
+
+04:13.829 --> 04:15.687
+với lại
+
+04:15.687 --> 04:18.218
+1 phần sin(x), tức là phần đầu tiên này
+
+04:18.218 --> 04:20.718
+nhân với lại cos(x)
+
+04:20.718 --> 04:22.235
+Vậy là ở đây
+
+04:22.235 --> 04:26.624
+sẽ bằng với lại 1 phần sin(x)
+
+04:26.624 --> 04:28.574
+Để mình đổi màu khác nha
+
+04:28.574 --> 04:32.196
+Vậy là 1 phần sin(x)
+
+04:32.196 --> 04:34.936
+nhân với cos(x)
+
+04:34.936 --> 04:35.958
+Và để bạn
+
+04:35.958 --> 04:37.560
+không bị dính
+
+04:37.560 --> 04:39.604
+những bẫy trên thì...
+
+04:39.604 --> 04:41.820
+Để mình đóng khung phần này đã
+
+04:41.820 --> 04:43.537
+để cho nó dễ nhìn hơn
+
+04:43.537 --> 04:45.370
+Vậy là, để bạn không bị dính
+
+04:45.370 --> 04:47.833
+những bẫy mà mình đã nhắc trước đó
+
+04:47.833 --> 04:50.815
+thì đầu tiên bạn sẽ cần phân biệt các hàm với nhau
+
+04:50.815 --> 04:54.037
+Ví dụ như đây không phải là tích của log tự nhiên của x
+
+04:54.037 --> 04:54.836
+và sin(x)
+
+04:54.836 --> 04:56.694
+Mà nó log tự nhiên của sin(x)
+
+04:56.694 --> 04:59.378
+Và thứ hai là bạn đạo hàm hàm hợp cẩn thận
+
+04:59.378 --> 05:02.777
+là đạo hàm hàm số ở ngoài cùng theo hàm số ở bên trọng
+
+05:02.777 --> 05:06.568
+Như ở đây ta có đạo hàm của log tự nhiên của x là 1 phần x
+
+05:06.568 --> 05:09.078
+Nhưng ở đây thay vì x thì mình có g(x)
+
+05:09.078 --> 05:12.343
+Và đừng quên rằng bạn vẫn phải nhân nó cho đạo hàm
+
+05:12.343 --> 05:14.273
+của hàm số ở bên trong nữa
+
+05:14.273 --> 05:16.314
+Phần này rất dễ sai nhé
+
+05:16.314 --> 05:19.078
+Và một sai lầm thường gặp nữa đó là,
+
+05:19.078 --> 05:21.934
+thay vì làm như những gì chúng ta đã làm ở đây
+
+05:21.934 --> 05:24.329
+thay vì đạo hàm hàm hợp như thế này
+
+05:24.329 --> 05:27.187
+thì họ sẽ lấy đạo hàm của hàm số bên ngoài
+
+05:27.187 --> 05:29.712
+theo đạo hàm của hàm số bên trong
+
+05:29.712 --> 05:31.663
+Ví dụ như là
+
+05:31.663 --> 05:33.799
+họ sẽ tính ra được là
+
+05:33.799 --> 05:37.206
+f phẩy của
+
+05:37.206 --> 05:41.906
+g phẩy của x
+
+05:41.906 --> 05:45.570
+Trong trường hợp này thì f phẩy của x sẽ bằng 1 phần x
+
+05:45.570 --> 05:48.288
+Nhưng nếu thay vì x, thì mình có g phẩy x
+
+05:48.288 --> 05:50.326
+Mà g phẩy x là cos(x)
+
+05:50.326 --> 05:53.118
+Nhiều học sinh sẽ thường viết như thế này,
+
+05:53.118 --> 05:56.787
+tức là họ sẽ lấy đạo hàm của hàm số bên ngoài theo,
+
+05:56.787 --> 05:59.786
+thay vì hàm số nằm bên trong nó thì họ lại lấy
+
+05:59.786 --> 06:03.103
+theo đạo hàm của hàm số nằm bên trong nó
+
+06:03.103 --> 06:04.653
+Và đây là sai nhé
+
+06:04.653 --> 06:07.402
+Vậy nên các bạn cần phải cẩn thận ở khúc này
+
+06:07.402 --> 06:09.481
+Bạn sẽ đạo hàm hàm số ở ngoài
+
+06:09.481 --> 06:11.292
+theo hàm số nằm bên trong
+
+06:11.292 --> 06:13.162
+chứ không phải như thế này
+
+06:13.162 --> 06:15.998
+Và bạn cũng đừng quên việc chúng ta phải nhân
+
+06:15.998 --> 06:18.291
+với đạo hàm của hàm bên trong nha
+
+06:18.291 --> 06:21.470
+Mình mong là video này có thể giúp bạn phần nào đó
+
+06:21.470 --> 06:23.643
+Nếu bạn cảm thấy video này lạ lẫm
+
+06:23.643 --> 06:26.515
+thì mình khuyến khích bạn hãy xem lại các video
+
+06:26.515 --> 06:27.966
+về đạo hàm hàm hợp
+
+06:27.966 --> 06:29.752
+và các ví dụ có lời giải mẫu
+
+06:29.752 --> 06:31.997
+Đây chỉ là một phần của quy tắc này
+
+06:31.997 --> 06:33.110
+để bạn có thể
+
+06:33.110 --> 06:35.146
+tránh được các bẫy như thế này
+
+06:35.146 --> 06:37.380
+ví dụ là khi bạn sử dụng quy tắc này
+
+06:37.380 --> 06:39.719
+để tính đạo hàm và được kết quả là
+
+06:39.719 --> 06:41.392
+f phẩy của g phẩy x
+
+06:41.392 --> 06:44.056
+hay thậm chí là quên nhân cho g phẩy x
+
+06:44.056 --> 06:47.456
+Nên mình mong là video này có thể giúp bạn ít nhiều.

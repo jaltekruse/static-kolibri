@@ -1,0 +1,500 @@
+WEBVTT
+
+00:00.000 --> 00:04.050
+Rozważymy teraz twierdzenie
+o przyjmowaniu ekstremów.
+
+00:04.050 --> 00:06.350
+Które jak zobaczymy
+jest bardzo intuicyjne.
+
+00:06.350 --> 00:08.020
+We wszystkich tego
+typu twierdzeniach
+
+00:08.020 --> 00:10.100
+dobrze jest pomyśleć o
+krańcowych przypadkach.
+
+00:10.100 --> 00:12.500
+Dlaczego twierdzenie jest
+tak sformułowane?
+
+00:12.500 --> 00:16.700
+Spróbujemy wyrobić sobie jakąś
+intuicję na ten temat.
+
+00:16.700 --> 00:18.540
+Twierdzenie mówi, że
+
+00:18.540 --> 00:24.640
+jeśli mamy ciągłą funkcję f
+na domkniętym przedziale,
+
+00:24.640 --> 00:27.124
+powiedzmy od a do b.
+
+00:27.124 --> 00:28.540
+Domknięty przedział oznacza,
+
+00:28.540 --> 00:31.570
+że zawiera krańcowa punkty
+a oraz b.
+
+00:31.570 --> 00:34.460
+Dlatego mamy nawiasy kwadratowe
+zamiast okrągłych.
+
+00:34.460 --> 00:40.630
+Twierdzenie mówi, że istnieje
+wtedy maksymalna wartość
+
+00:40.630 --> 00:44.470
+funkcji f i minimalna wartość
+funkcji f na tym przedziale.
+
+00:44.470 --> 00:46.920
+Czyli, to znaczy że istnieje,
+
+00:46.920 --> 00:51.340
+ten znak logiczny oznacza
+słowo "istnieje",
+
+00:51.340 --> 01:07.430
+istnieje maksimum f na przedziale,
+
+01:07.430 --> 01:17.826
+i istnieje minimum f na tym przedziale.
+
+01:17.826 --> 01:19.450
+Pomyślmy chwilę.
+
+01:19.450 --> 01:21.994
+Pewnie wydaje Ci się to dość oczywiste.
+
+01:21.994 --> 01:23.910
+Być może uważasz, że nie ma
+
+01:23.910 --> 01:25.640
+sensu nazywać tego twierdzeniem.
+
+01:25.640 --> 01:28.292
+I po co zakładać ciągłość?
+
+01:28.292 --> 01:30.500
+Zaraz zobaczymy na przykładzie, że
+
+01:30.500 --> 01:31.630
+ciągłość jest istotna.
+
+01:31.630 --> 01:35.560
+Narysowałem tutaj oś x
+oraz oś y.
+
+01:35.560 --> 01:37.270
+Teraz zaznaczę nasz
+
+01:37.270 --> 01:38.890
+przedział [a,b].
+
+01:38.890 --> 01:44.140
+Powiedzmy że to będzie a,
+i niech tu będzie b.
+
+01:44.140 --> 01:46.680
+Tutaj bedziemy mieli f(a),
+
+01:46.680 --> 01:48.570
+zaznaczam je na osi,
+
+01:48.570 --> 01:52.260
+a tutaj mamy f(b).
+
+01:52.260 --> 01:56.850
+Również zaznaczę na osi.
+
+01:56.850 --> 02:01.309
+Powiedzmy że wykres funkcji
+wygląda tak.
+
+02:01.309 --> 02:02.850
+Tutaj zjeżdża na dół,
+
+02:02.850 --> 02:04.070
+tutaj znowu do góry,
+
+02:04.070 --> 02:07.300
+rysuję po prostu cokolwiek
+
+02:07.300 --> 02:09.020
+mi przyjdzie do głowy.
+
+02:09.020 --> 02:10.538
+No to mamy funkcję ciągłą.
+
+02:10.538 --> 02:12.130
+Nie musiałem odrywać pisaka
+
+02:12.130 --> 02:15.562
+od tablicy żeby narysować jej wykres.
+
+02:15.562 --> 02:17.020
+No i widzimy,
+
+02:17.020 --> 02:19.650
+że ta funkcja którą narysowałem,
+
+02:19.650 --> 02:21.840
+ewidentnie przyjmuje zarówno maksimum,
+
+02:21.840 --> 02:23.760
+jak i minimum na tym przedziale.
+
+02:23.760 --> 02:25.460
+Minimum jest tutaj,
+
+02:25.460 --> 02:28.400
+powiedzmy że
+
+02:28.400 --> 02:30.520
+przyjmowane dla x równego c.
+
+02:30.520 --> 02:34.090
+Czyli minimum to f(c).
+
+02:34.090 --> 02:36.880
+Wygląda na to że maksimum
+
+02:36.880 --> 02:38.790
+przyjmowane jest tutaj,
+
+02:38.790 --> 02:42.190
+powiedzmy że dla x równego d.
+
+02:42.190 --> 02:47.660
+Czyli tutaj mamy f(d).
+
+02:47.660 --> 02:50.540
+Czyli twierdzenie można by sformułować,
+
+02:50.540 --> 02:52.320
+że jeśli f jest ciągła na [a,b],
+
+02:52.320 --> 03:04.630
+to istnieją liczby c, d
+na przedziale [a,b],
+
+03:04.630 --> 03:09.230
+takie, że:
+
+03:09.230 --> 03:11.800
+zwróćcie uwagę że używam
+notacji logicznej,
+
+03:11.800 --> 03:21.860
+takie że f(c) jest mniejsze
+lub równe niż f(x)
+
+03:21.860 --> 03:25.740
+i f(x) jest mniejsze lub równe niż f(d),
+
+03:25.740 --> 03:34.650
+dla wszystkich x z przedziału [a,b].
+
+03:34.650 --> 03:36.240
+Właśnie tak.
+
+03:36.240 --> 03:37.740
+W tym przypadku widzimy,
+
+03:37.740 --> 03:39.744
+że minimum mamy dla x = c,
+
+03:39.744 --> 03:40.910
+zaznaczonego tutaj,
+
+03:40.910 --> 03:43.144
+a maximum dla x = d,
+
+03:43.144 --> 03:44.810
+a dla wszystkich pozostałych x,
+
+03:44.810 --> 03:51.100
+jesteśmy gdzieś pomiędzy
+tymi dwiema wartościami.
+
+03:51.100 --> 03:54.525
+Moglibyśmy narysować jakieś
+inne ciągłe funkcje,
+
+03:54.525 --> 03:57.180
+ale nie zamierzam dowodzić
+tego twierdzenia,
+
+03:57.180 --> 03:58.740
+chcę tylko ułatwić zrozumienie
+
+03:58.740 --> 04:00.156
+jego treści.
+
+04:00.156 --> 04:02.610
+Można sobie narysować
+wiele funkcji tutaj,
+
+04:02.610 --> 04:05.930
+ciągłych na przedziale [a.b].
+
+04:05.930 --> 04:10.250
+Dla tej na przykład maksimum
+jest osiągane dla b,
+
+04:10.250 --> 04:13.320
+minimum przyjmowane dla a.
+
+04:13.320 --> 04:17.450
+Dla funkcji stałej, moglibyśmy
+wziąć dowolny punkt
+
+04:17.450 --> 04:19.360
+jako maksimum i minimum,
+
+04:19.360 --> 04:22.029
+i wszystko byłoby w porządku
+
+04:22.029 --> 04:25.950
+Ale zastanówmy się może
+
+04:25.950 --> 04:28.290
+dlaczego f musi być ciągła,
+
+04:28.290 --> 04:33.240
+i dlaczego przedział musi być domknięty.
+
+04:33.240 --> 04:36.340
+Wpierw rozważmy ciągłość f.
+
+04:36.340 --> 04:39.280
+No cóż, mogę łatwo wymyślić funkcję,
+
+04:39.280 --> 04:42.130
+która nie jest ciągła na przedziale,
+
+04:42.130 --> 04:46.394
+dla której niezbyt się da wskazać
+gdzie przyjmuje maksimum i minimum.
+
+04:46.394 --> 04:48.310
+Zachęcam do spauzowania filmiku,
+
+04:48.310 --> 04:50.730
+i wymyślenia takiej funkcji samemu.
+
+04:50.730 --> 04:53.380
+Spróbuj wymyślić nieciągłą funkcję,
+
+04:53.380 --> 04:56.880
+na domkniętym przedziale,
+dla której byłoby trudno
+
+04:56.880 --> 05:00.510
+a w zasadzie niemożliwe,
+żeby wskazać minimum
+
+05:00.510 --> 05:04.640
+albo maksimum na całym przedziale.
+
+05:04.640 --> 05:08.080
+Cóż, narysujmy wykres takiej funkcji.
+
+05:08.080 --> 05:13.910
+Załóżmy że to jest mój przedział.
+
+05:13.910 --> 05:16.750
+Tu mamy a, tu mamy b.
+
+05:16.750 --> 05:19.091
+Powiedzmy że funkcja wygląda tak.
+
+05:19.091 --> 05:20.840
+W miejscu gdzie
+
+05:20.840 --> 05:24.170
+można by się spodziewać maksimum,
+
+05:24.170 --> 05:26.010
+powiemy że nie jest zdefiniowana,
+
+05:26.010 --> 05:27.910
+i tak samo w miejscu
+
+05:27.910 --> 05:33.410
+gdzie wygląda jakby miała
+przyjąć minimum.
+
+05:33.410 --> 05:35.170
+Można powiedzieć, że funkcja
+
+05:35.170 --> 05:37.250
+ewidentnie zbliża się,
+
+05:37.250 --> 05:40.370
+gdy x zbliża się do tej wartości
+którą tutaj zaznaczyłem,
+
+05:40.370 --> 05:43.080
+funkcja ewidentnie zbliża się
+do tej granicznej wartości.
+
+05:43.080 --> 05:45.345
+Ale nie może ona być maksimum,
+
+05:45.345 --> 05:47.240
+ponieważ funkcja nigdy jej nie osiąga.
+
+05:47.240 --> 05:48.993
+Zbadajmy to dokładniej,
+
+05:48.993 --> 05:50.950
+powiedzmy że ta liczba
+na czubku to 5.
+
+05:50.950 --> 05:53.145
+Być może maksimum to 4.9?
+
+05:53.145 --> 05:56.060
+Ale możemy wtedy wziąć x
+jeszcze bliżej tej wartości
+
+05:56.060 --> 05:58.920
+tak żeby y było 4.99 lub 4.999.
+
+05:58.920 --> 06:00.760
+Możemy mieć y dowolnie blisko 5.
+
+06:00.760 --> 06:03.490
+Czyli nie ma wartości maksymalnej.
+
+06:03.490 --> 06:05.250
+Podobnie tutaj dla minimum.
+
+06:05.250 --> 06:07.990
+Poprawię trochę wykres
+żeby wyglądało jak minimum.
+
+06:07.990 --> 06:10.052
+Możemy się dowolnie zbliżyć
+do tego minimum,
+
+06:10.052 --> 06:11.230
+ale nie jest osiągane,
+
+06:11.230 --> 06:12.968
+powiedzmy że ta liczba to 1.
+
+06:12.968 --> 06:18.350
+Możemy osiągnąć 1.1, albo 1.01, nawet 1.0001.
+
+06:18.350 --> 06:21.630
+Możemy sobie wstawić ile zer chcemy
+pomiędzy te dwie jedynki.
+
+06:21.630 --> 06:25.890
+Ale nigdy nie znajdziemy
+minimalnej wartości funkcji.
+
+06:25.890 --> 06:28.520
+Pomyślmy teraz, czemu ma znaczenie
+
+06:28.520 --> 06:30.030
+że przedział jest domknięty.
+
+06:30.030 --> 06:33.860
+Dlaczego a oraz b muszą być
+
+06:33.860 --> 06:40.870
+wzięte pod uwagę jako
+kandydaci na punkt minimalny i maksymalny.
+
+06:40.870 --> 06:48.420
+Załóżmy że mielibyśmy
+otwarty przedział (a,b).
+
+06:48.420 --> 06:50.979
+Jak chcemy zaznaczyć, że
+
+06:50.979 --> 06:53.920
+mamy na myśli otwarty przedział,
+
+06:53.920 --> 06:56.440
+to możemy napisać otwarte nawiasy.
+
+06:56.440 --> 06:58.570
+Tu mamy a, tu mamy b.
+
+06:58.570 --> 07:02.080
+I wybierzmy jakąś bardzo
+prostą funkcję.
+
+07:02.080 --> 07:06.625
+Na przykład taką.
+
+07:06.625 --> 07:10.000
+Czyli gdyby a było w naszym przedziale,
+
+07:10.000 --> 07:13.000
+to funkcja miałaby minimum w a,
+
+07:13.000 --> 07:14.500
+f(a) byłoby naszym minimum.
+
+07:14.500 --> 07:20.355
+Podobnie f(b) byłoby naszym maksimum.
+
+07:20.355 --> 07:23.020
+No ale w naszym przedziale
+nie ma liczb a oraz b!
+
+07:23.020 --> 07:24.827
+W końcu wzięliśmy otwarty przedział.
+
+07:24.827 --> 07:27.050
+Czyli możemy być coraz
+bliżej i bliżej do b
+
+07:27.050 --> 07:29.118
+oraz coraz wyżej na wykresie,
+
+07:29.118 --> 07:31.310
+ale nigdy nie osiągniemy tej wartości.
+
+07:31.310 --> 07:34.220
+Ponieważ, powtarzam,
+b nie należy do przedziału.
+
+07:34.220 --> 07:36.698
+Podobnie, możemy mieć x
+dowolnie blisko a,
+
+07:36.698 --> 07:40.150
+ale nie możemy wziąć x =a,
+bo a nie należy do przedziału (a,b).
+
+07:40.150 --> 07:43.870
+Dlatego f(a) nie może być
+minimalną wartością.
+
+07:43.870 --> 07:47.750
+Czyli na pewnym poziomie
+jest to bardzo intuicyjne
+
+07:47.750 --> 07:49.510
+nieomalże oczywiste, twierdzenie.
+
+07:49.510 --> 07:51.500
+Ale z drugiej strony, dobrze wiedzieć
+
+07:51.500 --> 07:53.320
+dlaczego trzeba zakładać ciąglość
+
+07:53.320 --> 07:57.510
+funkcji i domniętość przedziału.

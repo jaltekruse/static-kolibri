@@ -1,0 +1,622 @@
+WEBVTT
+
+00:00.515 --> 00:01.976
+Hãy cùng nghĩ về
+
+00:01.976 --> 00:06.961
+mô hình dân số và mình có vài bức hình
+
+00:06.961 --> 00:09.013
+của 1 trong những người nổi tiếng nhất,
+
+00:09.013 --> 00:10.785
+và quý ông ở đây
+
+00:10.785 --> 00:14.527
+là người nổi tiếng nhất khi người ta nhắc đến
+
+00:14.527 --> 00:17.540
+dân sô và giới hạn tăng trưởng của dân số.
+
+00:17.657 --> 00:19.439
+Đây là Thomas Malthus.
+
+00:19.439 --> 00:24.439
+Ông ấy là 1 giáo sĩ, nhà văn và học giả người Anh
+
+00:25.065 --> 00:28.772
+vào cuối những năm 60 của thế kỷ 18,
+
+00:29.357 --> 00:31.002
+đầu thế kỷ 19.
+
+00:31.002 --> 00:32.585
+Ông ấy đã thay đổi khái niệm
+
+00:32.585 --> 00:34.673
+rằng dân số có thể tăng trưởng không giới hạn
+
+00:35.465 --> 00:37.479
+và thông qua công nghệ, chúng ta
+
+00:37.479 --> 00:38.901
+có thể nuôi sống bản thân
+
+00:38.901 --> 00:40.972
+và rằng môi trường cuối cùng cũng phải
+
+00:40.972 --> 00:44.285
+đặt giới hạn cho mức độ
+
+00:44.285 --> 00:46.307
+tăng trưởng tối đa của dân số.
+
+00:47.055 --> 00:49.191
+P.F.Verhulst,
+
+00:49.686 --> 00:51.489
+...
+
+00:51.489 --> 00:56.489
+1 nhà toán học người Bỉ đã đọc nghiên cứu của Malthus
+
+00:57.032 --> 00:59.038
+và thử dựng thành mô hình các tính chất
+
+00:59.632 --> 01:00.730
+mà Malthus đề cập
+
+01:01.612 --> 01:04.193
+rằng khi không có ràng buộc bởi môi trường,
+
+01:04.193 --> 01:06.922
+dân số sẽ tăng trưởng lũy tiến
+
+01:06.922 --> 01:09.018
+nhưng đến khi nó tiếp cận giới hạn
+
+01:09.882 --> 01:11.386
+môi trường đã đặt ra,
+
+01:11.386 --> 01:13.143
+nó sẽ tiến gần đến tiệm cận
+
+01:13.143 --> 01:16.518
+của 1 dân số khác.
+
+01:16.518 --> 01:18.403
+Malthus thì không nghĩ
+
+01:18.403 --> 01:19.981
+nó sẽ trở thành tiệm cận bằng phẳng
+
+01:19.981 --> 01:21.288
+Ông ấy cho rằng dân số
+
+01:21.288 --> 01:22.494
+sẽ vượt qua khỏi giới hạn
+
+01:22.494 --> 01:23.829
+và sẽ có những thiên tai
+
+01:23.829 --> 01:25.556
+rồi dân số sẽ hạ thẳng xuống dưới giới hạn
+
+01:25.556 --> 01:28.632
+và dao động quanh đó
+
+01:28.632 --> 01:30.757
+khi những thiên tai tiếp theo xảy ra.
+
+01:30.757 --> 01:34.536
+Malthus là 1 người khá "lạc quan" nhỉ,
+
+01:34.536 --> 01:36.704
+nhưng chúng ta hãy dùng toán học
+
+01:36.704 --> 01:38.936
+và 1 ít phương trình vi phân
+
+01:38.936 --> 01:41.822
+mặc dù những phương trình vi phân này
+
+01:41.822 --> 01:43.800
+cũng không quá phức tạp để giải thích dân số.
+
+01:44.492 --> 01:46.525
+Cách đầu tiên để nghĩ về dân số
+
+01:46.525 --> 01:48.479
+là mình sẽ biểu đạt nó bằng 1 phương trình vi phân.
+
+01:48.479 --> 01:50.973
+Mình sẽ đặt 1 vài biến số ở đây.
+
+01:50.973 --> 01:53.241
+Gọi N là dân số,
+
+01:53.241 --> 01:55.445
+vậy đó sẽ là dân số,
+
+01:56.691 --> 02:00.139
+và mình sẽ giả sử N là hàm số của t.
+
+02:01.000 --> 02:03.113
+N là hàm số của t
+
+02:03.113 --> 02:05.185
+sẽ là phương trình ta sẽ tiếp xúc
+
+02:05.185 --> 02:07.659
+trong video này và những video tiếp theo.
+
+02:08.643 --> 02:10.889
+1 cách để suy nghĩ về cách dựng thành mô hình
+
+02:10.889 --> 02:13.045
+phương trình này là tìm ra tốc độ biến thiên
+
+02:13.045 --> 02:15.590
+của dân số phụ thuộc vào thời gian là gì?
+
+02:15.590 --> 02:17.096
+Điều đó thì có liên quan gì?
+
+02:17.096 --> 02:19.851
+Mình sẽ viết ra, tốc độ biến thiên
+
+02:20.715 --> 02:22.739
+của dân số phụ thuộc vào thời gian là gì?
+
+02:23.908 --> 02:25.903
+d thường, N in hoa, và dt.
+
+02:25.903 --> 02:27.570
+1 cách để nghĩ là
+
+02:27.570 --> 02:29.568
+nó sẽ tỉ lệ thuận với dân số.
+
+02:30.081 --> 02:32.633
+Bạn có thể nói nó sẽ là
+
+02:33.125 --> 02:34.992
+1 hệ số tỉ lệ
+
+02:34.992 --> 02:36.700
+nhân cho dân số,
+
+02:36.700 --> 02:38.328
+nhân cho dân số.
+
+02:39.021 --> 02:43.772
+Điều này là hợp lí nếu dân số nhỏ
+
+02:43.772 --> 02:47.085
+thì sẽ không có nhiều
+
+02:47.085 --> 02:50.976
+sự biến thiên trên 1 đơn vị thời gian so với dân số lớn.
+
+02:50.976 --> 02:54.159
+Dân số càng lớn thì
+
+02:54.159 --> 02:56.850
+càng có sự tăng trưởng theo thời gian rõ rệt hơn.
+
+02:56.850 --> 02:59.332
+Thật ra thì rất đơn giản để giải
+
+03:00.097 --> 03:02.085
+phương trình vi phân, có thể bạn đã từng làm rồi.
+
+03:02.085 --> 03:03.428
+Mình khuyên bạn nên dừng video
+
+03:03.428 --> 03:04.964
+nếu bạn muốn
+
+03:04.964 --> 03:06.226
+nhưng mình sẽ giải ngay bên đây
+
+03:06.226 --> 03:11.187
+và bạn sẽ thấy, ta sẽ ra được 1 hàm số mũ cho N ở đây
+
+03:11.187 --> 03:12.922
+nên hãy cùng làm thôi.
+
+03:12.922 --> 03:14.011
+Hãy cùng giải và chúng ta sẽ
+
+03:14.812 --> 03:18.034
+tách các biến số, tách N ra khỏi t
+
+03:18.034 --> 03:19.975
+mặc dù ta chỉ thấy dt ở đây
+
+03:19.975 --> 03:21.043
+nhưng mình sẽ quay lại với nó sau.
+
+03:21.043 --> 03:23.680
+Nếu mình chia cả 2 vế cho N,
+
+03:23.068 --> 03:28.068
+mình được 1 phần N và nếu mình chia cả 2 vế cho dt,
+
+03:29.413 --> 03:31.186
+hoặc nếu bạn nghĩ rằng có thể
+
+03:31.186 --> 03:32.517
+nhân dt cho 2 vế cũng được
+
+03:33.363 --> 03:34.832
+mình thì sẽ nhân 2 vế cho...
+
+03:34.832 --> 03:35.953
+hoặc mình có thể chia 2 vế cho N
+
+03:35.953 --> 03:38.038
+và nhân 2 vế cho dt.
+
+03:38.038 --> 03:39.377
+Mình sẽ được 1 phần N,
+
+03:39.377 --> 03:41.328
+dN ở vế bên trái
+
+03:41.328 --> 03:43.589
+và vế bên phải mình sẽ được
+
+03:43.589 --> 03:48.589
+r nhân dt... r nhân dt...
+
+03:50.002 --> 03:51.801
+Chú ý là mình có dt ở vế phải
+
+03:51.819 --> 03:53.334
+bằng cách cách nhân cả 2 vế cho dt
+
+03:53.349 --> 03:55.338
+rồi chia cả 2 vế cho N
+
+03:55.338 --> 03:57.012
+và mình có được 1 phần N bên này.
+
+03:57.842 --> 04:02.842
+Điều tiếp theo ta có thể làm là lấy nguyên hàm
+
+04:03.002 --> 04:04.461
+cả 2 vế.
+
+04:05.072 --> 04:08.828
+Ta sẽ lấy nguyên hàm cả 2 vế
+
+04:09.476 --> 04:11.357
+và bên trái ta sẽ được gì?
+
+04:11.357 --> 04:15.692
+Bên này sẽ ra là log nepe (log tự nhiên)
+
+04:15.692 --> 04:19.442
+của giá trị tuyệt đối của dân số
+
+04:19.442 --> 04:21.457
+và mình sẽ giả sử dân số
+
+04:21.457 --> 04:24.605
+sẽ luôn khác 0.
+
+04:24.605 --> 04:26.683
+sau đó ta có thể bỏ dấu trị tuyệt đối
+
+04:27.385 --> 04:28.417
+nhưng mình sẽ làm sau.
+
+04:28.705 --> 04:33.705
+Bên này sẽ bằng r nhân t.
+
+04:36.556 --> 04:38.107
+và mình có thể thêm hằng số cả 2 bên
+
+04:38.107 --> 04:39.628
+nhưng mình sẽ chỉ thêm 1 phía thôi
+
+04:39.628 --> 04:44.628
+Nó sẽ là r nhân t cộng c.
+
+04:45.581 --> 04:48.192
+Nếu mình muốn giải ra N
+
+04:48.192 --> 04:50.515
+thì mình sẽ lấy...
+
+04:50.515 --> 04:52.668
+Nếu phần này bằng phần này thì e mũ phần này
+
+04:52.668 --> 04:55.303
+sẽ bằng e mũ phần này.
+
+04:55.303 --> 04:56.879
+hoặc 1 cách khác để nghĩ về nó là
+
+04:56.879 --> 04:59.356
+log nepe của giá trị tuyệt đối của N
+
+04:59.356 --> 04:59.868
+sẽ bằng bên này.
+
+04:59.868 --> 05:01.714
+1 cách nói khác là e mũ
+
+05:01.714 --> 05:02.991
+phần này sẽ bằng phần này,
+
+05:02.991 --> 05:04.593
+Mình sẽ làm như thế này
+
+05:04.593 --> 05:09.593
+Mình sẽ lấy e mũ này và e mũ này
+
+05:09.593 --> 05:12.908
+và e mũ này sẽ bằng e e mũ natf.
+
+05:12.908 --> 05:14.271
+Nếu bên này bằng bên này thì e mũ này
+
+05:14.271 --> 05:15.864
+sẽ bằng e mũ này.
+
+05:16.617 --> 05:20.691
+Ta sẽ còn lại e mũ log nepe
+
+05:21.357 --> 05:22.293
+của giá trị tuyệt đối của N
+
+05:22.293 --> 05:24.346
+Thì sẽ là giá trị tuyệt đối của N.
+
+05:24.346 --> 05:27.541
+Giả sử N dương,
+
+05:27.541 --> 05:32.541
+nghĩa là dân số lớn hơn 0.
+
+05:34.081 --> 05:39.081
+Thì vế bên trái
+
+05:39.135 --> 05:41.161
+mình có thể rút gọn thành N
+
+05:41.395 --> 05:43.403
+và vế bên phải thì sẽ là
+
+05:44.195 --> 05:47.514
+Nó sẽ là e mũ rt cộng c
+
+05:47.514 --> 05:49.663
+và như thế này là được rồi.
+
+05:50.155 --> 05:52.223
+Bên này sẽ chính là
+
+05:52.835 --> 05:57.835
+e mũ rt, e mũ r nhân t, nhân cho...
+
+06:04.596 --> 06:06.912
+Để mình viết e cùng màu nhé.
+
+06:06.912 --> 06:11.231
+e mũ rt nhân e mũ c.
+
+06:11.231 --> 06:14.264
+nhân e mũ c
+
+06:14.561 --> 06:16.703
+Mình đã lấy e mũ tổng của 2 số mũ
+
+06:16.703 --> 06:19.466
+rồi tách ra là e mũ rt nhân e mũ c.
+
+06:20.342 --> 06:21.436
+Bạn có thể thấy
+
+06:22.282 --> 06:23.984
+đây cũng sẽ ra
+
+06:23.984 --> 06:25.649
+1 hằng số nào đó thôi.
+
+06:25.649 --> 06:27.745
+Vậy hãy gọi đây là c
+
+06:28.609 --> 06:30.086
+Thì sẽ là e mũ rt nhân c
+
+06:30.086 --> 06:35.086
+hoặc có thể nói là c nhân e mũ rt... c nân e mũ rt...
+
+06:42.676 --> 06:45.181
+Chúng ta đã giải xong phương trình vi phân
+
+06:45.181 --> 06:47.443
+Nhưng vẫn chưa có được
+
+06:47.443 --> 06:49.558
+1 thực tại bi quan như Malthus
+
+06:49.558 --> 06:50.289
+mà ta đang muốn giới hạn.
+
+06:50.289 --> 06:52.424
+Vậy thì mình sẽ
+
+06:52.424 --> 06:53.325
+giả sử...
+
+06:53.325 --> 06:55.523
+tốc độ biến thiên của dân số phụ thuộc vào thời gian
+
+06:55.523 --> 06:57.988
+sẽ tỉ lệ thuận với dân số.
+
+06:57.988 --> 06:59.985
+Khi giải phương trình vi phân đó thì
+
+06:59.985 --> 07:01.794
+ta sẽ được dân số là hàm số của thời gian.
+
+07:01.794 --> 07:03.477
+Để mình làm rõ hơn
+
+07:03.477 --> 07:05.030
+để phần này là hàm số của thời gian.
+
+07:05.003 --> 07:09.401
+Để mình di chuyển N 1 tí...
+
+07:09.428 --> 07:10.864
+và mình sẽ viết như thế này,
+
+07:10.864 --> 07:17.261
+N của t sẽ bằng bên này
+
+07:17.261 --> 07:20.797
+Đây là đáp án của phương trình vi phân này.
+
+07:20.797 --> 07:23.122
+1 lần nữa, nó sẽ tăng trưởng đến vô cực
+
+07:23.122 --> 07:24.499
+và nếu ta biết các điều kiện ban đầu
+
+07:24.499 --> 07:29.499
+như là, ta biết N của 0
+
+07:31.054 --> 07:32.093
+là khi thời gian bằng 0.
+
+07:32.093 --> 07:33.175
+Nếu cho đó N 0
+
+07:34.075 --> 07:35.346
+thì c sẽ là gì?
+
+07:36.021 --> 07:40.698
+N của 0 thì sẽ bằng c
+
+07:41.559 --> 07:44.540
+c nhân e mũ 0
+
+07:44.540 --> 07:45.842
+Bạn biết là mũ 0 thì sẽ bằng 1
+
+07:45.842 --> 07:47.041
+nên phần này sẽ bằng c
+
+07:47.041 --> 07:51.239
+nên C sẽ bằng N 0.
+
+07:51.239 --> 07:52.606
+Mình thậm chí có thể viết
+
+07:52.606 --> 07:55.118
+đáp án của phần này
+
+07:55.118 --> 08:00.118
+là N là hàm số của t
+
+08:00.034 --> 08:03.947
+sẽ bằng c nhân...
+
+08:04.253 --> 08:08.484
+Chú ý rằng, N 0 là dân số ban đầu
+
+08:08.484 --> 08:13.484
+nhân cho e mũ rt.
+
+08:15.937 --> 08:18.273
+Và đây lại là 1 hàm số mũ.
+
+08:18.273 --> 08:20.514
+Và dân số sẽ trông như thế này.
+
+08:20.514 --> 08:24.625
+Nếu vẽ thành đồ thị thì nó sẽ như thế nào?
+
+08:25.563 --> 08:27.116
+Nếu đây là trục thời gian,
+
+08:27.116 --> 08:30.037
+bên này là trục N.
+
+08:30.037 --> 08:32.453
+Mình có thể nói là trục y bằng N
+
+08:32.453 --> 08:35.955
+nhưng mà mình muốn tối giản nó.
+
+08:35.955 --> 08:37.538
+Đây sẽ là N 0
+
+08:37.538 --> 08:40.443
+và nó sẽ tăng trưởng lũy tiến từ đó.
+
+08:40.443 --> 08:41.534
+Tốc độ của hàm số mũ này
+
+08:42.354 --> 08:45.366
+sẽ phụ thuộc vào hằng số ở đây
+
+08:45.366 --> 08:46.674
+nhưng nó sẽ trông như thế này
+
+08:46.674 --> 08:48.681
+và nó sẽ tăng trưởng ngày càng nhanh
+
+08:48.744 --> 08:50.273
+và cứ như thế đến vô cực và mãi mãi.
+
+08:50.273 --> 08:52.596
+Mình đã đề cập từ đầu video,
+
+08:52.596 --> 08:55.988
+Malthus không tin
+
+08:55.988 --> 08:57.141
+điều này là đúng,
+
+08:57.141 --> 08:59.582
+Ông ấy nghĩ ta sẽ đạt đến giới hạn của tự nhiên nào đó
+
+08:59.582 --> 09:02.651
+mà sẽ ràng buộc lên dân số.
+
+09:02.651 --> 09:04.603
+Suy nghĩ của ông ấy là
+
+09:05.695 --> 09:09.173
+hàm số càng tự nhiên hoặc thực tế thì
+
+09:09.173 --> 09:12.134
+mô hình dân số sẽ có dạng như thế này
+
+09:12.134 --> 09:15.831
+và có khả năng luôn dao động
+
+09:15.831 --> 09:19.288
+quanh giới hạn như thế.
+
+09:19.288 --> 09:22.180
+Nội dung của video tiếp theo là ta sẽ thấy P.F. Verhulst
+
+09:22.018 --> 09:25.202
+đã nghĩ ra 1 phương trình vi phân rất hay
+
+09:25.364 --> 09:27.282
+và đáp án của nó
+
+09:27.282 --> 09:31.753
+khi được dựng thành mô hình sẽ miêu tả rõ ràng hơn
+
+09:31.753 --> 09:34.524
+thực tại mà Malthus nghĩ chúng ta đang sống trong.

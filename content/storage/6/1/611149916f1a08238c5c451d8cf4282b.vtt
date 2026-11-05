@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.660 --> 00:05.141
+No último vídeo tentamos mostrar a inclinação de um
+
+00:05.141 --> 00:07.570
+uma curva num certo ponto.
+
+00:07.570 --> 00:10.310
+E, do jeito que fizemos, dissemos OK, vamos achar a inclinação
+
+00:10.310 --> 00:12.970
+entre aquele ponto e outro ponto que não está tão
+
+00:12.970 --> 00:14.220
+longe daquele ponto.
+
+00:14.220 --> 00:15.953
+E pegamos a inclinação da linha secante.
+
+00:15.953 --> 00:19.530
+Pode parecer muito simples, mas é apenas o valor y do
+
+00:19.530 --> 00:23.570
+ponto que não está muito distante, e é justamente o valor y
+
+00:23.570 --> 00:25.700
+do ponto em questão, por isso é
+
+00:25.700 --> 00:27.100
+apenas sua variação em y.
+
+00:27.100 --> 00:29.020
+E então você irá dividi-lo por sua variação em x.
+
+00:29.020 --> 00:31.580
+Assim no nosso exemplo, h era a diferença
+
+00:31.580 --> 00:33.610
+entre nossos 2 valores x.
+
+00:33.610 --> 00:35.420
+A distância era h.
+
+00:35.420 --> 00:39.210
+E aquilo nos deu a inclinação daquela linha.
+
+00:39.210 --> 00:42.940
+Dissemos: e se pegarmos o limite conforme este ponto aqui se
+
+00:42.940 --> 00:45.510
+aproxima mais e mais deste ponto.
+
+00:45.510 --> 00:48.420
+Se esse ponto se torna quase totalmente esse ponto, então
+
+00:48.420 --> 00:51.230
+nossa inclinação será a inclinação da nossa linha tangente.
+
+00:51.230 --> 00:54.620
+E aquilo nós definimos como a derivada de nossa função.
+
+00:54.620 --> 00:57.280
+Dissemos que é igual a f linha de x.
+
+00:57.280 --> 01:00.520
+Vamos ver se podemos aplicar o que está neste vídeo para talvez tornar
+
+01:00.520 --> 01:03.750
+as coisas um pouco mais firmes na sua cabeça.
+
+01:03.750 --> 01:04.910
+Deixe-me demonstrar.
+
+01:04.910 --> 01:07.140
+Primeiro vou fazer um caso particular encontrar a
+
+01:07.140 --> 01:09.980
+inclinação exatamente em algum ponto.
+
+01:09.980 --> 01:14.670
+Deixe-me desenhar meus eixos novamente.
+
+01:14.670 --> 01:17.520
+Vamos desenhar alguns eixos ali.
+
+01:17.520 --> 01:25.400
+Digamos que eu tenha a curva -- isto é a curva --
+
+01:25.400 --> 01:27.110
+y é igual a x ao quadrado.
+
+01:27.110 --> 01:32.790
+Então este é meu eixo y, este meu eixo x, e quero saber
+
+01:32.790 --> 01:37.270
+a inclinação no ponto x é igual a 3.
+
+01:37.270 --> 01:41.660
+Quando digo inclinação, você pode imaginar a linha tangente aqui.
+
+01:41.660 --> 01:44.760
+Imagine uma linha tangente passando como aquela, e
+
+01:44.760 --> 01:47.710
+ela mal encostaria naquele ponto da curva.
+
+01:47.710 --> 01:51.260
+Mas o que é a inclinação da reta tangente?
+
+01:51.260 --> 01:53.570
+O que é a inclinação da linha tangente a qual é a mesma
+
+01:53.570 --> 01:56.360
+inclinação da linha curva naquele ponto.
+
+01:56.360 --> 01:58.770
+Para fazer isto, vou na verdade usar a mesma técnica que
+
+01:58.770 --> 02:01.270
+usamos antes, então vamos generalizar isto assim não precisaremos
+
+02:01.270 --> 02:03.910
+fazer cada vez para um número particular.
+
+02:03.910 --> 02:06.805
+Então vamos pegar um outro ponto aqui.
+
+02:09.610 --> 02:14.110
+Vamos chamá-lo 3 mais delta x.
+
+02:14.110 --> 02:16.380
+Estou mudando a notação pois em alguns livros você vai
+
+02:16.380 --> 02:19.530
+ver um h, em alguns livros você verá um delta x, não fará mal
+
+02:19.530 --> 02:20.660
+ser exposto a ambos.
+
+02:20.660 --> 02:22.500
+Então isso é 3 mais delta x.
+
+02:22.500 --> 02:25.770
+Primeiramente o que é este ponto aqui?
+
+02:25.770 --> 02:31.890
+Isto é uma curva y igual a x ao quadrado, então f de x é igual a 3
+
+02:31.890 --> 02:33.720
+ao quadrado ... este é o ponto 9.
+
+02:33.720 --> 02:36.805
+Este aqui é o ponto 3,9.
+
+02:39.350 --> 02:40.870
+E o que é este ponto?
+
+02:40.870 --> 02:45.180
+Então se formos sempre para cima até aqui, o que é aquele ponto?
+
+02:45.180 --> 02:49.120
+Bem aqui nosso x é 3 mais delta x.
+
+02:49.120 --> 02:50.310
+É a mesma coisa como esta aqui,
+
+02:50.310 --> 02:50.990
+como x não
+
+02:50.990 --> 02:51.300
+mais h.
+
+02:51.300 --> 02:54.235
+Eu poderia ter chamado isso de 3 mais h assim tão facilmente..
+
+02:54.235 --> 02:58.110
+Então isso é 3 mais delta x aqui em cima.
+
+02:58.110 --> 02:59.930
+Então qual será o valor de y?
+
+02:59.930 --> 03:02.080
+Bem, qualquer que seja o valor de x, ele estará na curva, e se
+
+03:02.080 --> 03:03.550
+tornará aquele ao quadrado.
+
+03:03.550 --> 03:12.310
+Então ele será o ponto 3 mais delta x ao quadrado.
+
+03:12.310 --> 03:14.790
+Então vamos desenhar a inclinação desta
+
+03:14.790 --> 03:15.240
+linha secante.
+
+03:18.080 --> 03:20.270
+E deixe-me aproximar um pouco, pois pode ajudar.
+
+03:20.270 --> 03:22.950
+Então se eu aproximar apenas nesta parte da curva,
+
+03:22.950 --> 03:25.250
+ela poderá parecer como aquilo.
+
+03:25.250 --> 03:28.330
+E então tenho um ponto aqui, e então eu tenho o
+
+03:28.330 --> 03:29.776
+outro ponto aqui em cima.
+
+03:32.330 --> 03:33.070
+Esta é a linha
+
+03:33.070 --> 03:33.510
+secante.
+
+03:39.100 --> 03:40.210
+Assim mesmo.
+
+03:40.210 --> 03:45.510
+Este era o ponto aqui, o ponto 3,9.
+
+03:45.510 --> 03:50.230
+E então este ponto aqui em cima é o ponto 3 mais delta x, então
+
+03:50.230 --> 03:54.340
+é algum número maior que 3, que será
+
+03:54.340 --> 03:55.790
+aquele número ao quadrado.
+
+03:55.790 --> 03:58.110
+Então será 3 mais delta x ao quadrado.
+
+03:58.110 --> 03:59.070
+Qual será?
+
+03:59.070 --> 04:01.310
+Isto será 9.
+
+04:01.310 --> 04:03.720
+Eu estou fazendo direto, ou então você faz a
+
+04:03.720 --> 04:04.940
+propriedade distributiva duas vezes.
+
+04:04.940 --> 04:09.280
+a mais b ao quadrado é a ao quadrado mais 2 a b mais b ao quadrado, então
+
+04:09.280 --> 04:11.430
+então será 9 mais duas vezes o produto
+
+04:11.430 --> 04:12.020
+disso.
+
+04:12.020 --> 04:17.345
+Assim mais 6 delta x, e então mais delta x ao quadrado.
+
+04:21.070 --> 04:22.530
+Isto é a coordenada da segunda linha.
+
+04:22.530 --> 04:25.470
+Parece complicado, mas eu apenas peguei este valor x e eu
+
+04:25.470 --> 04:29.230
+o elevei ao quadrado, pois ele na reta y é igual a x ao quadrado.
+
+04:29.230 --> 04:32.430
+Assim a inclinação da linha secante
+
+04:32.430 --> 04:35.500
+será a variação em y dividida
+
+04:35.500 --> 04:37.050
+pela variação em x.
+
+04:37.050 --> 04:42.500
+Então a variação em y será o valor de y deste cara,
+
+04:42.500 --> 04:49.430
+que é 9 mais 6 delta x mais delta x ao quadrado.
+
+04:49.430 --> 04:52.610
+Isto é o valor deste y, menos o valor deste y,
+
+04:55.310 --> 04:58.000
+Assim menos 9.
+
+04:58.000 --> 04:59.510
+Esta é sua variação em y,
+
+04:59.510 --> 05:03.630
+E você quer dividir aquilo por sua variação em x.
+
+05:03.630 --> 05:05.020
+Bem, o que é sua variação em x?
+
+05:05.020 --> 05:07.210
+Isto será na verdade muito conveniente.
+
+05:07.210 --> 05:09.490
+Este valor x maior -- começamos com este ponto
+
+05:09.490 --> 05:11.460
+em cima, assim temos que começar com este ponto em baixo.
+
+05:11.460 --> 05:15.680
+Assim isso será 3 mais delta x.
+
+05:15.680 --> 05:17.340
+E então o que é este valor x?
+
+05:17.340 --> 05:20.700
+O que é menos 3?
+
+05:20.700 --> 05:22.070
+Este é seu valor x.
+
+05:22.070 --> 05:23.760
+E como fica essa simplificação?
+
+05:23.760 --> 05:27.020
+O numerador -- este 9 e aquele 9 se anulam.
+
+05:27.020 --> 05:28.320
+Ficamos com 9 menos 9.
+
+05:28.320 --> 05:30.780
+E no denominador o que acontece?
+
+05:30.780 --> 05:32.560
+Este 3 e menos 3 se anulam.
+
+05:32.560 --> 05:35.550
+Assim a variação em x na verdade acaba sendo este delta x,
+
+05:35.550 --> 05:38.490
+o que faz sentido, pois este delta x é essencialmente muito mais
+
+05:38.490 --> 05:39.990
+este cara do que este.
+
+05:39.990 --> 05:43.360
+Assim aquele deveria ser a variação em x, delta x.
+
+05:43.360 --> 05:44.810
+Então a inclinação de minha linha secante
+
+05:44.810 --> 05:53.860
+tem simplificado para 6 vezes minha variação em x, mais minha variação
+
+05:53.860 --> 06:00.130
+em x quadrado, tudo aquilo em minha variação em x.
+
+06:00.130 --> 06:02.640
+E agora podemos simplificar isso ainda mais.
+
+06:02.640 --> 06:05.140
+Vamos dividir o numerador e o denominador
+
+06:05.140 --> 06:06.790
+por nossa variação em x.
+
+06:06.790 --> 06:09.900
+E vou trocar as cores apenas para quebrar a monotonia.
+
+06:09.900 --> 06:13.110
+Assim minha inclinação de minha tangente de minha linha secante
+
+06:13.110 --> 06:15.580
+-- aquela que atravessa ambos --
+
+06:15.580 --> 06:17.483
+será igual se você dividir o numerador e
+
+06:17.483 --> 06:19.650
+o denominador isto se torna 6.
+
+06:19.650 --> 06:21.420
+Estou apenas dividindo o numerador e o denominador por delta
+
+06:21.420 --> 06:26.130
+x mais seis mais delta x.
+
+06:26.130 --> 06:28.080
+Assim aquilo é a inclinação desta linha secante.
+
+06:28.080 --> 06:34.630
+Assim a inclinação é igual a 6 mais delta x.
+
+06:34.630 --> 06:36.280
+Que é justamente este aqui.
+
+06:36.280 --> 06:38.990
+Que é esta reta avermelhada que eu desenhei bem aqui.
+
+06:38.990 --> 06:42.340
+Então esse número aqui, se delta x fosse uma vez.
+
+06:42.340 --> 06:46.390
+Se esses fossem os pontos 3 e 4, então minha inclinação poderia se 6 mais
+
+06:46.390 --> 06:49.640
+1, pois estou pegando um ponto 4 onde o delta x aqui
+
+06:49.640 --> 06:50.480
+deveria ser 1.
+
+06:50.480 --> 06:53.780
+Assim a inclinação seria 7.
+
+06:53.780 --> 06:56.730
+Então temos uma fórmula geral para não importa qual seja meu delta x,
+
+06:56.730 --> 07:00.790
+poderei encontrar a inclinação entre 3 e 3 mais delta x.
+
+07:00.790 --> 07:02.640
+Entre aqueles dois pontos.
+
+07:02.640 --> 07:08.010
+Agora queríamos encontrar a inclinação
+
+07:08.010 --> 07:09.120
+exatamente neste ponto aqui.
+
+07:09.120 --> 07:12.100
+Assim vamos ver o que acontece quando delta x
+
+07:12.100 --> 07:12.810
+fica menor e menor.
+
+07:12.810 --> 07:14.470
+Isto é o que delta x é justo agora.
+
+07:14.470 --> 07:15.580
+Isto é a distância.
+
+07:15.580 --> 07:18.510
+Mas se delta x ficasse um pouco menor, então a linha secante
+
+07:18.510 --> 07:20.160
+poderia parecer como aquilo.
+
+07:20.160 --> 07:21.360
+Diminuindo ainda mais, a linha secante
+
+07:21.360 --> 07:23.680
+iria parecer como aquilo, ela se torna ainda menor.
+
+07:23.680 --> 07:25.240
+Então nós estamos ficando bem perto da inclinação
+
+07:25.240 --> 07:26.860
+da linha tangente.
+
+07:26.860 --> 07:28.970
+A linha tangente é esta aqui que eu
+
+07:28.970 --> 07:30.910
+que encontrar sua inclinação.
+
+07:30.910 --> 07:34.970
+Vamos encontrar um limite quando nosso delta x se aproxima de zero.
+
+07:34.970 --> 07:39.400
+Assim o limite, conforme delta x se aproxima de zero na
+
+07:39.400 --> 07:40.240
+nossa inclinação da linha secante
+
+07:40.240 --> 07:43.700
+de 6 mais delta x é qual a quê?
+
+07:43.700 --> 07:44.830
+Isto é bem direto.
+
+07:44.830 --> 07:48.350
+Você pode marcar isto igual a zero e isto é igual a 6.
+
+07:48.350 --> 07:54.280
+Assim a inclinação de nossa linha tangente no ponto x é igual a
+
+07:54.280 --> 07:57.615
+3 aqui é igual a 6.
+
+07:57.615 --> 08:01.280
+E podemos escrever isso de outro modo se escrevermos que f de
+
+08:01.280 --> 08:04.450
+x é igual a x ao quadrado.
+
+08:04.450 --> 08:08.770
+Agora sabemos que a derivada ou a inclinação de nossa
+
+08:08.770 --> 08:13.350
+linha tangente desta função no ponto 3 -- que eu calculei aqui no ponto 3 --
+
+08:13.350 --> 08:18.410
+é igual a 6.
+
+08:18.410 --> 08:22.670
+Eu ainda não cheguei a uma fórmula geral para a inclinação
+
+08:22.670 --> 08:25.790
+desta linha em qualquer ponto, e eu farei isto
+
+08:25.790 --> 08:26.330
+no próximo vídeo.

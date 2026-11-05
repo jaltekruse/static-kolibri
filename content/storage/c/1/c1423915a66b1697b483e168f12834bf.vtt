@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.667 --> 00:06.764
+I førre video satte me vonleg opp noko av intuisjonen for kvifor - eller skal eg heller sei kva - Maclaurin-
+
+00:06.764 --> 00:11.733
+serien handlar om, og eg sa på slutten av videoen at ein Maclaurin-serie er berre ein spesiell del
+
+00:11.733 --> 00:15.800
+av ein Taylor-serie. Når det kjem til Maclaurin-serier, går me ut i frå at
+
+00:15.800 --> 00:22.800
+denne funksjonen rundt X er lik null, og ein Taylor-serie som me vil snakke meir om i framtidige videoar,
+
+00:22.800 --> 00:29.800
+kan du plukke opp ein vilkårleg X-verdi - eller f(x)-verdi, som vil vere noko tilsvarande funksjonen.
+
+00:29.800 --> 00:34.133
+Med det sagt, la oss fokusere på Maclaurin, då det til ein viss grad er litt lettare,
+
+00:34.133 --> 00:39.800
+og det i seg sjølv kan leie oss til nokre djupe konklusjonar om matematikk -
+
+00:39.800 --> 00:41.733
+og det er akkurat der eg prøver å kome til.
+
+00:41.733 --> 00:45.133
+Så, la oss ta Maclurin-serien av nokre interessante funksjonar
+
+00:45.133 --> 00:48.359
+og eg skal gjere funksjonar der det er svært enkelt å ta derivatane, og du kan
+
+00:48.359 --> 00:53.067
+forsetje å ta derivetane om og om og om og om og om att.
+
+00:53.067 --> 01:01.733
+La oss ta Maclaurin-serien av X - cosinus, slik at f(x)=cos(x),
+
+01:01.733 --> 01:06.867
+så - før eg i det heile tatt set i gong med formelen som me nokolunde utleia i førre video
+
+01:06.867 --> 01:08.800
+eller i det minste fekk intuisjon for i førre video -
+
+01:08.800 --> 01:13.067
+la oss ta ein haug med derivatar av f(x), berre slik at me har ein god følelse av det.
+
+01:13.067 --> 01:20.467
+Viss me då tar den fyrste derivativen, den fyrste derivativen av cos(x) = -sin(x)
+
+01:20.467 --> 01:25.800
+viss me tar derivaten av det,
+
+01:25.800 --> 01:30.467
+derivativen av sin(x) er cos(x), og me har minuset der, vert det -cos(x)
+
+01:30.467 --> 01:35.867
+så viss me tar derivativen av det, som vert den tredje derivativen av cos(x),
+
+01:35.867 --> 01:41.067
+no kjem det berre til å vere den positive sinusen av x, og viss me tek derivativen av det,
+
+01:41.067 --> 01:42.733
+får me cos(x) igjen.
+
+01:42.733 --> 01:47.800
+Me får cosinus av x igjen. Så viss me tek derivativen av det,
+
+01:47.800 --> 01:50.200
+dette er den fjerde derivativen -
+
+01:50.200 --> 01:52.867
+så får me cos(x) igjen.
+
+01:52.867 --> 01:57.733
+Og viss du ser på kva me snakka om i førre video, er me ute etter forskjellen, me vil ha
+
+01:57.733 --> 02:01.200
+funksjonen og me vil at dei forskjellige derivativa til å vere 0,
+
+02:01.200 --> 02:10.800
+så la oss plassere det på 0. Dermed vert f(0), cos(0) ein, cosinus av null er ein.
+
+02:10.800 --> 02:15.133
+Uansett om du snakkar om nullradians eller null grader har det ingenting å seie,
+
+02:15.133 --> 02:28.467
+sinus av null er null, så dette er: f primært av minus f primært av null, er null. Og så vert cos(o)
+
+02:28.467 --> 02:32.867
+på ny ein, men me har minuset der og difor vert det minus ein.
+
+02:32.867 --> 02:37.467
+Så f - den andre derivaten frå null - er den negative.
+
+02:37.467 --> 02:42.800
+La oss ta den tredje derivativen, den tredje derivativen frå null
+
+02:42.800 --> 02:48.000
+vel, sinus av null er berre null, og så vert den fjerde derivativen evaluert ved null,
+
+02:48.000 --> 02:54.467
+cosinus av null er ein. Så f primær primær primær ved null er no er lik ein.
+
+02:54.467 --> 02:57.800
+Du kan sjå eit interessant mønster her - 1, 0, -1, 0, 1,
+
+02:57.800 --> 03:00.133
+deretter til 0 igjen, så -1, så null.
+
+03:00.133 --> 03:05.600
+Så viss me skulle ha brukt dette for å finne Maclaurin-representasjonen, kva ville me fått?
+
+03:05.600 --> 03:12.133
+La meg gjere mitt beste forsøk på dette. Me ville fått, vårt polynom ville vore -
+
+03:12.133 --> 03:19.533
+vår polynome tilnærming til cosinus av x kjem til å vere f(o),
+
+03:19.533 --> 03:28.600
+f(0) er ein, og så har me ein plus f'(0) gonga med x.
+
+03:28.600 --> 03:33.600
+Men f'(0) er berre null, så me kjem ikkje til å bruke dette omgrepet der borte, det kjem til å vere
+
+03:33.600 --> 03:38.800
+null gonga med x, eg ville ikkje ein gong teke meg bryet med å skrive det ned, så ville det vorte denne nullen
+
+03:38.800 --> 03:44.133
+gonga med x, deretter pluss f primært primært eller den andre derivativen, som er ein negativ derivativ,
+
+03:44.133 --> 03:49.467
+så viss eg skriv negativ - negativ, dette er ein negativ ein rett her,
+
+03:49.467 --> 03:53.133
+dette er ein negativ ein, gonga med x rektangulært, gonga med x rektangulært,
+
+03:53.133 --> 03:59.600
+over faktor 2 - over to faktorar, som i denne samanheng berre kjem til å vere to.
+
+03:59.600 --> 04:04.333
+Men eg vil berre skrive det ned her som to faktorar, for å syne mønsteret betre,
+
+04:04.333 --> 04:09.333
+og deretter går me til neste omgrep, den tredje derivativen evaluert ved null
+
+04:09.333 --> 04:14.200
+men den tredje derivativen evaluert ved null er berre null, så dette omgrepet kjem ikkje til å vere der heller,
+
+04:14.200 --> 04:19.431
+deretter går du til den fjerde derivativen, den fjerde derivativen evaluert ved null er positiv ein,
+
+04:19.431 --> 04:23.733
+så denne koeffisienten rett her skal vere ein 1, og så kjem du til å ha
+
+04:23.733 --> 04:30.533
+ein gonger x til den fjerde over fire faktorar, så pluss x til den fjerde over fire faktorar,
+
+04:30.533 --> 04:33.000
+og eg trur du skal sjå mønsteret no.
+
+04:33.000 --> 04:36.600
+Du har signal som skiftar - og du ville sett dette viss me hadde haldt fram, så
+
+04:36.600 --> 04:39.133
+du kan gjerne kontrollere det sjølv dersom du ikkje trur meg -
+
+04:39.133 --> 04:44.200
+så du har eit positivt signal, eit negativt signal, eit positivt signal, og deretter eit
+
+04:44.200 --> 04:50.067
+negativt signal, og så bortetter, og dette er ein gonger x til krafta av null,
+
+04:50.067 --> 04:54.800
+deretter hoppar du to bort til x rektangulær, hopp to til x av den fjerde, og
+
+04:54.800 --> 04:58.267
+viss me hadde haldt fram med dette ville me hatt eit positivt signal, no har me eit negativt signal,
+
+04:58.267 --> 05:03.267
+det ville vore x til den sjette over seks faktorar, deretter har du eit positivt signal,
+
+05:03.267 --> 05:07.800
+x til den åttende over åtte faktorar, og deretter eit negativt signal,
+
+05:07.800 --> 05:13.867
+x til den tiande over ti faktorar, og du kan eigentleg berre halde fram på den måten.
+
+05:13.867 --> 05:18.867
+Viss du held fram med denne serien, det er den polynomale representasjonen av
+
+05:18.867 --> 05:23.533
+cosinus av x. Og dette er faktisk ganske kult dersom det kan presenterast på denne måten.
+
+05:23.533 --> 05:27.600
+Det er eit relativt enkelt mønster her for ein trigonometrisk funksjon.
+
+05:27.600 --> 05:30.800
+Det seier deg på ein måte at all denne matematikken høyrer til kvarandre. Og me vil sjå,
+
+05:30.800 --> 3:59:59.999
+to eller tre videoar frå no, at den høyrer til kvarandre i djupare måtar enn du nokon gong kan førestelle deg.

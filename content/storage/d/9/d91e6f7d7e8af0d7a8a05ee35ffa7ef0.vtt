@@ -1,0 +1,517 @@
+WEBVTT
+
+00:00.570 --> 00:03.420
+O que eu quero fazer neste
+vídeo é nos familiarizar
+
+00:03.420 --> 00:06.830
+com uma classe muito
+comum de progressões.
+
+00:06.830 --> 00:11.630
+as progressões aritméticas.
+
+00:11.630 --> 00:13.890
+E elas são geralmente
+bem fáceis de identificar.
+
+00:13.890 --> 00:17.290
+São progressões onde cada
+termo é um número fixo, maior
+
+00:17.290 --> 00:18.920
+do que o termo anterior.
+
+00:18.920 --> 00:21.820
+Meu objetivo aqui é determinar
+quais dessas progressões,
+
+00:21.820 --> 00:23.259
+são progressões aritméticas.
+
+00:23.259 --> 00:25.050
+E depois, para que
+tenhamos alguma prática
+
+00:25.050 --> 00:26.680
+com a notação de progressões,
+
+00:26.680 --> 00:30.220
+eu quero definí-las
+tanto como funções explícitas
+
+00:30.220 --> 00:32.880
+do termo que estamos procurando,
+do índice que estamos olhando,
+
+00:32.880 --> 00:35.110
+ou como definições recursivas.
+
+00:35.110 --> 00:37.500
+Primeiro, dado que uma
+progressão aritmética
+
+00:37.500 --> 00:40.540
+é uma progressão em que o termo seguinte
+é uma quantidade fixa maior
+
+00:40.540 --> 00:45.790
+do que o termo anterior, quais dessas
+são progressões aritméticas?
+
+00:45.790 --> 00:47.940
+Vamos olhar esta primeira, aqui em cima.
+
+00:47.940 --> 00:52.470
+Para ir de menos cinco para menos três,
+tivemos que adicionar dois.
+
+00:52.470 --> 00:56.780
+Depois, para ir de menos três para
+menos um, tivemos que adicionar dois.
+
+00:56.780 --> 01:00.490
+Depois, para ir de menos um para um,
+você teve que adicionar dois.
+
+01:00.490 --> 01:02.810
+Então, esta é claramente uma progressão aritmética.
+
+01:02.810 --> 01:04.669
+Estamos somando a mesma quantidade
+todas as vezes.
+
+01:04.669 --> 01:07.210
+E há várias maneiras que
+nós poderíamos definir a progressão.
+
+01:07.210 --> 01:10.022
+Poderíamos dizer que é: an
+
+01:10.022 --> 01:11.480
+E você não precisa sempre usar k.
+
+01:11.480 --> 01:14.360
+Dessa vez vou utilizar n para
+denotar nosso índice.
+
+01:14.360 --> 01:19.480
+Para n igual a um até infinito com
+-- e há dois modos
+
+01:19.480 --> 01:20.300
+que poderíamos definí-lo.
+
+01:20.300 --> 01:21.520
+Poderíamos definir explicitamente,
+
+01:21.520 --> 01:23.070
+ou também poderíamos
+definir recursivamente.
+
+01:23.070 --> 01:24.910
+Então, se quisermos definir
+explicitamente,
+
+01:24.910 --> 01:29.070
+nós poderíamos escrever: an é igual a
+qualquer que seja o primeiro termo.
+
+01:29.070 --> 01:33.290
+Neste caso, o primeiro termo
+é menos cinco.
+
+01:33.290 --> 01:36.340
+É igual a menos cinco mais --- nós
+
+01:36.340 --> 01:40.530
+vamos adicionar dois uma vez a menos
+do que o termo em que estamos.
+
+01:40.530 --> 01:42.290
+Para o segundo termo,
+vamos adicionar dois uma vez.
+
+01:42.290 --> 01:44.620
+Para o terceiro termo,
+vamos adicionar dois duas vezes.
+
+01:44.620 --> 01:47.490
+Para o quarto termo,
+a partir do nosso termo base,
+
+01:47.490 --> 01:49.000
+vamos adicionar dois três vezes.
+
+01:49.000 --> 01:51.150
+Então nós vamos adicionar dois.
+
+01:51.150 --> 01:54.890
+Vamos adicionar mais dois, uma vez
+a menos do que o índice
+
+01:54.890 --> 01:58.380
+que estamos olhando --
+n menos uma vez.
+
+01:58.380 --> 02:00.960
+Então, isso é uma definição explícita
+
+02:00.960 --> 02:03.260
+desta progressão aritmética.
+
+02:03.260 --> 02:04.950
+Se eu quisesse escrever recursivamente,
+
+02:04.950 --> 02:10.910
+poderia dizer que a1 é
+igual a menos cinco.
+
+02:10.910 --> 02:14.490
+E então, cada termo sucessivo,
+para a2 e maiores --
+
+02:14.490 --> 02:20.780
+eu poderia dizer an é igual a
+an menos um mais três.
+
+02:20.780 --> 02:24.120
+Cada termo é igual ao termo anterior
+mais -- não é três--
+
+02:24.120 --> 02:25.790
+mais dois.
+
+02:25.790 --> 02:31.230
+Então isso é para n maior
+ou igual a dois.
+
+02:31.230 --> 02:34.030
+Então, qualquer um desses é um modo
+
+02:34.030 --> 02:39.420
+completamente legítimo de definir
+a progressão aritmética,
+
+02:39.420 --> 02:40.230
+que temos aqui.
+
+02:40.230 --> 02:41.970
+Nós podemos definir explicitamente,
+
+02:41.970 --> 02:44.950
+ou podemos definir recursivamente.
+
+02:44.950 --> 02:46.330
+Agora, vamos olhar para esta segunda
+progressão.
+
+02:46.330 --> 02:48.950
+Ela é aritmética?
+
+02:48.950 --> 02:50.480
+Bom, estamos começando em 100.
+
+02:50.480 --> 02:52.252
+Adicionamos sete.
+
+02:52.252 --> 02:54.976
+De 107 para 114, adicionamos sete.
+
+02:54.976 --> 02:58.440
+De 114 para 121, adicionamos sete.
+
+02:58.440 --> 03:00.760
+Então é de fato uma progressão aritmética.
+
+03:00.760 --> 03:03.240
+Para deixar claro,
+a primeira é aritmética
+
+03:03.240 --> 03:05.300
+e a segunda também é aritmética.
+
+03:05.300 --> 03:09.840
+E nós podemos escrever que essa
+é a progressão an.
+
+03:09.840 --> 03:14.800
+n indo de um até infinito de
+-- e nós poderíamos
+
+03:14.800 --> 03:17.610
+dizer an, se quisermos definir explicitamente,
+
+03:17.610 --> 03:23.190
+é igual a 100 mais, estamos
+adicionando sete toda vez.
+
+03:23.190 --> 03:26.330
+E então cada termo -- para o segundo
+termo adicionamos sete uma vez.
+
+03:26.330 --> 03:28.280
+Para o terceiro termo, adicionamos
+sete duas vezes.
+
+03:28.280 --> 03:32.430
+Então para o n-ésimo termo, vamos
+adicionar sete, n menos uma vez.
+
+03:32.430 --> 03:34.340
+Esta é uma definição explícita,
+
+03:34.340 --> 03:35.840
+mas poderíamos também fazer recursivamente.
+
+03:38.650 --> 03:42.270
+Apenas para ficar claro, esta é uma
+definição onde escrevemos
+
+03:42.270 --> 03:47.730
+deste modo, ou poderíamos escrever an,
+
+03:47.730 --> 03:50.240
+com n igual a um até o infinito.
+
+03:50.240 --> 03:53.836
+E em ambos os modos eu deveria
+escrever "tal que".
+
+03:53.836 --> 03:55.460
+E se eu quiser definir recursivamente,
+
+03:55.460 --> 03:58.950
+poderia dizer a1 é igual a 100.
+
+03:58.950 --> 04:04.170
+E então, para qualquer coisa maior que um,
+para qualquer índice acima de um,
+
+04:04.170 --> 04:09.560
+an é igual ao termo anterior mais sete.
+
+04:09.560 --> 04:10.822
+Então, nós acabamos.
+
+04:10.822 --> 04:12.280
+Este é um outro modo de definir.
+
+04:12.280 --> 04:14.920
+Então em geral, se você quiser
+um modo generalizável
+
+04:14.920 --> 04:18.149
+para identificar ou definir
+uma progressão aritmética,
+
+04:18.149 --> 04:20.680
+você pode dizer que
+uma progressão aritmética
+
+04:20.680 --> 04:23.910
+vai estar na forma an --
+se estivermos falando de
+
+04:23.910 --> 04:26.930
+uma progressão infinita--
+de n igual a um até infinito.
+
+04:26.930 --> 04:28.460
+Se você quiser definir explicitamente,
+
+04:28.460 --> 04:33.540
+você pode dizer que an é igual
+a alguma constante, que
+
+04:33.540 --> 04:35.790
+vai ser essencialmente
+o primeiro termo.
+
+04:35.790 --> 04:41.470
+Vai ser uma constante somada
+a algum número
+
+04:41.470 --> 04:43.090
+que você está incrementando --
+ou eu acho
+
+04:43.090 --> 04:45.089
+que pode ser um número negativo,
+ou decrementando,
+
+04:45.089 --> 04:47.670
+por -- vezes n menos um.
+
+04:47.670 --> 04:51.380
+Então esta é uma forma de definir
+uma progressão aritmética.
+
+04:51.380 --> 04:54.000
+Neste primeiro caso, d é dois.
+
+04:54.000 --> 04:55.160
+Neste segundo caso, d é sete.
+
+04:55.160 --> 04:57.350
+Que é o quanto você está
+adicionando cada vez.
+
+04:57.350 --> 05:02.280
+E neste primeiro caso, k é menos 5,
+e no segundo caso, k é 100.
+
+05:02.280 --> 05:04.850
+O outro modo, se você quiser escrever
+
+05:04.850 --> 05:08.000
+de forma recursiva a definição da
+progressão aritmética de forma geral,
+
+05:08.000 --> 05:12.180
+você pode dizer a1 é igual a k,
+
+05:12.180 --> 05:16.270
+e então an é igual a an menos um.
+
+05:16.270 --> 05:18.170
+Um dado termo é igual ao termo anterior,
+
+05:18.170 --> 05:22.250
+mais d, para n maior ou igual a dois.
+
+05:22.250 --> 05:24.110
+Então, mais uma vez, esta é explícita.
+
+05:24.110 --> 05:26.110
+E esta é a forma recursiva de definir.
+
+05:26.110 --> 05:28.140
+E nós escrevemos "tal que" aqui.
+
+05:28.140 --> 05:30.780
+Agora a última questão que
+tenho é: esta última aqui
+
+05:30.780 --> 05:32.630
+é uma sequência aritmética?
+
+05:32.630 --> 05:34.730
+Bom, vamos checar.
+
+05:34.730 --> 05:35.860
+Nós começamos em um.
+
+05:35.860 --> 05:37.910
+Então adicionamos dois.
+
+05:37.910 --> 05:38.929
+Depois adicionamos três.
+
+05:38.929 --> 05:40.970
+E isso é um sinal imediato
+de que esta não é
+
+05:40.970 --> 05:41.970
+uma sequência aritmética.
+
+05:41.970 --> 05:43.470
+Agora estamos adicionando quatro.
+
+05:43.470 --> 05:46.780
+Estamos adicionando uma
+quantidade diferente a cada vez.
+
+05:46.780 --> 05:51.130
+Então, em primeiro lugar,
+esta não é aritmética.
+
+05:51.130 --> 05:53.400
+Esta não é uma progressão aritmética.
+
+05:53.400 --> 05:56.139
+Mas como podemos defini-la,
+uma vez que estamos
+
+05:56.139 --> 05:57.430
+tentando definir nossas progressões?
+
+06:02.100 --> 06:05.220
+Vamos dizer que nós quiséssemos
+defini-la recursivamente.
+
+06:05.220 --> 06:10.790
+Poderíamos dizer que
+é igual a an, onde
+
+06:10.790 --> 06:13.830
+n está começando em
+um e vai até infinito,
+
+06:13.830 --> 06:20.100
+tal que -- vamos chamar de caso
+base -- a1 é igual a um.
+
+06:20.100 --> 06:23.580
+E então para n maior ou igual a 2, an
+
+06:23.580 --> 06:25.400
+será igual a o que?
+
+06:25.400 --> 06:29.810
+Então a2 é o termo anterior
+mais dois. a3
+
+06:29.810 --> 06:32.170
+é o termo anterior
+mais três. a4
+
+06:32.170 --> 06:34.200
+é o termo anterior mais quatro
+
+06:34.200 --> 06:38.980
+Então será igual ao termo
+anterior, mais o valor
+
+06:38.980 --> 06:40.210
+do índice no momento.
+
+06:42.770 --> 06:45.030
+Isto parece próximo, mas
+perceba aqui que nós estamos
+
+06:45.030 --> 06:46.640
+mudando a quantidade que
+estamos adicionando
+
+06:46.640 --> 06:47.765
+baseado no valor do nosso índice.
+
+06:47.765 --> 06:50.090
+Nós estamos adicionando a quantidade
+do índice ao termo anterior.
+
+06:50.090 --> 06:53.340
+E isso é para n maior ou igual a dois.
+
+06:53.340 --> 06:55.000
+Bom, para uma progressão aritmética,
+nós estamos
+
+06:55.000 --> 06:58.110
+adicionando a mesma quantidade,
+independentemente
+
+06:58.110 --> 06:59.900
+do valor de nosso índice.
+
+06:59.900 --> 07:01.800
+Aqui, nós estamos adicionando
+o próprio índice.
+
+07:01.800 --> 07:03.440
+Portanto, esta não é uma progressão
+aritmética, mas é
+
+07:03.440 --> 07:05.970
+uma progressão interessante mesmo assim.

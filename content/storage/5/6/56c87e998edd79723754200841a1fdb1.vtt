@@ -1,0 +1,249 @@
+WEBVTT
+
+00:00.420 --> 00:04.240
+Ich möchte dir den Beweis
+des Restpolynom-Satzes zeigen.
+
+00:04.240 --> 00:06.440
+Und um diesen Beweis etwas konkreter zu gestalten,
+
+00:06.440 --> 00:08.240
+fange ich mit dem Beispiel an,
+
+00:08.240 --> 00:11.560
+das wir in dem Video zur Einführung des
+Restpolynom-Satzes behandelt haben.
+
+00:11.560 --> 00:14.620
+Wir haben gesehen, dass, wenn man 3x² - 4x + 7 nimmt,
+
+00:14.620 --> 00:16.580
+und durch x - 1 dividiert,
+
+00:16.580 --> 00:20.200
+3x - 1 mit einem Rest von 6 erhält.
+
+00:20.200 --> 00:23.560
+Wie wissen wir bei der schriftlichen Polynom-Division, dass wir bei unserem Rest angekommen sind?
+
+00:23.560 --> 00:28.940
+Wenn wir bei einem Ausdruck angekommen sind,
+der einen niedrigeren Grad hat als der Divisor,
+
+00:28.940 --> 00:32.320
+also das, wodurch wir teilen.
+
+00:32.320 --> 00:39.380
+In diesem Beispiel hätten wir diese
+Rechnung als f(x) umschreiben können.
+
+00:39.380 --> 00:40.720
+Ich schreibe es mal auf.
+
+00:40.720 --> 00:51.400
+Wir hätten schreiben können:
+3x² - 4x + 7 = (x - 1) ⋅ dem Quotienten hier drüben,
+
+00:51.400 --> 00:53.797
+bzw. (x - 1) ⋅ 3x - 1.
+
+00:53.800 --> 01:10.540
+Es ergibt also (3x - 1) ⋅ dem Divisor (x - 1).
+
+01:10.540 --> 01:11.560
+Wenn du diese beiden Dinge multiplizierst,
+
+01:11.566 --> 01:12.611
+erhältst du nicht exakt diesen Ausdruck.
+
+01:12.620 --> 01:15.060
+Du musst den Rest noch hinzufügen.
+
+01:15.060 --> 01:18.660
+Also + r, für den Rest.
+
+01:18.700 --> 01:22.340
+Ich schreibe den tatsächlichen Rest auf: +6.
+
+01:22.340 --> 01:24.580
+Die Analogie hier ist exakt dieselbe
+
+01:24.587 --> 01:26.444
+wie bei der traditionellen Division.
+
+01:26.444 --> 01:31.180
+Ich zeige sie dir einfach.
+
+01:31.180 --> 01:38.520
+Wenn ich 25/4 rechnen würde,
+
+01:38.520 --> 01:43.800
+würdest du sagen, dass 4 6-mal in 25 passt,
+
+01:43.800 --> 01:46.340
+da 6 ⋅ 4 = 24 ist.
+
+01:46.340 --> 01:51.280
+Du würdest subtrahieren und einen Rest von 1 erhalten.
+
+01:51.300 --> 01:53.500
+Oder du könntest sagen,
+
+01:53.500 --> 02:12.200
+dass 25 = 6 ⋅ 4 + 1 ist.
+
+02:12.200 --> 02:13.940
+Wir haben exakt dasselbe gemacht,
+
+02:13.940 --> 02:16.780
+aber in Ausdrücken dargestellt.
+
+02:16.780 --> 02:18.800
+Ich habe mit dem Beweis noch nicht begonnen,
+
+02:18.801 --> 02:20.125
+ich möchte nur, dass du damit vertraut bist,
+
+02:20.125 --> 02:22.168
+was ich hier drüben geschrieben habe.
+
+02:22.168 --> 02:26.242
+Wenn ich dieses Polynom durch
+diesen Ausdruck dividiere,
+
+02:26.242 --> 02:27.705
+und diesen Quotienten erhalte,
+
+02:27.705 --> 02:29.140
+ist das dasselbe, wie wenn ich sage,
+
+02:29.140 --> 02:35.580
+dass dieses Polynom gleich (3x - 1) ⋅ (x - 1) + 6 ist.
+
+02:35.600 --> 02:37.200
+Das stimmt im Allgemeinen.
+
+02:37.200 --> 02:38.640
+Werden wir ein bisschen abstrakter.
+
+02:38.640 --> 02:45.040
+Das ist unser f(x).
+
+02:45.040 --> 02:48.620
+f(x) ist gleich dem Quotienten.
+
+02:48.620 --> 02:59.940
+Ich nenne ihn q(x).
+
+02:59.940 --> 03:02.240
+Das hier ist q(x).
+
+03:02.240 --> 03:05.580
+f(x) ist also gleich dem Quotienten q(x) ⋅ (x - a),
+
+03:05.580 --> 03:08.036
+das ist unser (x - a),
+
+03:08.040 --> 03:09.220
+in diesem Fall ist a = 1,
+
+03:09.220 --> 03:11.600
+aber ich möchte es allgemeiner darstellen.
+
+03:11.600 --> 03:18.340
+Also (x - a) + den Rest.
+
+03:18.340 --> 03:20.440
+Wir wissen, dass der Rest eine Konstante ist,
+
+03:20.440 --> 03:26.080
+da der Rest einen niedrigeren Grad als x - a haben wird.
+
+03:26.080 --> 03:28.280
+x - a ist ein Term ersten Grades.
+
+03:28.288 --> 03:30.006
+Um einen niedrigeren Grad zu erhalten,
+
+03:30.006 --> 03:31.307
+müssen wir den nullten Grad haben.
+
+03:31.307 --> 03:33.280
+Es muss also eine Konstante sein.
+
+03:33.280 --> 03:35.160
+Das stimmt also allgemein.
+
+03:35.160 --> 03:38.100
+Es stimmt für jedes Polynom f(x),
+
+03:38.100 --> 03:42.540
+das durch jedes mögliche (x - a) dividiert wird.
+
+03:42.540 --> 03:44.600
+Es stimmt einfach.
+
+03:44.600 --> 03:55.080
+Es stimmt für jedes f(x) und (x - a).
+
+03:55.080 --> 04:04.120
+Was passiert, wenn wir uns f(a) anschauen?
+
+04:04.120 --> 04:07.805
+Naja, wenn f(x) so geschrieben werden kann,
+
+04:07.805 --> 04:43.320
+könnten wir f(a) = q(a) ⋅ (a - a) + r schreiben.
+
+04:43.320 --> 04:47.180
+Was ergibt das alles?
+
+04:47.180 --> 04:49.880
+Nun ja, (a - a) = 0,
+
+04:49.880 --> 04:52.560
+und mir ist egal, was q(a) ist,
+
+04:52.560 --> 04:53.829
+denn, wenn du es mit 0 multiplizierst,
+
+04:53.829 --> 04:56.233
+ergibt das alles 0.
+
+04:56.240 --> 05:06.700
+f(a) ergibt also r.
+
+05:06.700 --> 05:07.829
+Und du bist fertig.
+
+05:07.829 --> 05:11.380
+Das ist der Beweis des Restpolynom-Satzes.
+
+05:11.380 --> 05:15.515
+Für jede mögliche Funktion,
+wenn du sie durch (x - a) dividierst,
+
+05:15.515 --> 05:18.580
+erhältst du den Quotienten q(x) und den Rest r,
+
+05:18.580 --> 05:20.390
+und kann dann in dieser Form geschrieben werden.
+
+05:20.390 --> 05:22.100
+Wenn sie in dieser Form geschrieben ist,
+
+05:22.100 --> 05:25.400
+und du f(a) untersuchst, und a dort einsetzt,
+
+05:25.405 --> 05:29.900
+siehst du, dass f(a) gleich dem Rest sein wird.
+
+05:29.900 --> 05:33.620
+Das ist der Restpolynom-Satz.
+
+05:33.625 --> 05:34.646
+Wir sind fertig.
+
+05:34.646 --> 05:40.940
+Es ist einer der einfacheren Beweise für etwas,
+das einem am Anfang wie Magie vorkommt.

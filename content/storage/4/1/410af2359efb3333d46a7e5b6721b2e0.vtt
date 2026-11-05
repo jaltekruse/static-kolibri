@@ -1,0 +1,418 @@
+WEBVTT
+
+00:00.060 --> 00:05.110
+Musíme najít vrchol a
+osu symetrie tohoto grafu.
+
+00:05.110 --> 00:10.510
+Děláme to proto, abyste porozuměli,
+co to vůbec je vrchol a osa symetrie.
+
+00:10.510 --> 00:14.270
+Takže pro zopakování,
+pokud parabola vypadá takhle,
+
+00:14.270 --> 00:17.840
+tak vrcholem je tento nejnižší
+bod, tento minimální bod,
+
+00:17.840 --> 00:20.260
+pro parabolu shora otevřenou.
+
+00:20.260 --> 00:25.560
+Pokud je parabola otevřená směrem dolů,
+tak vrcholem je nejvyšší bod přímo tady.
+
+00:25.560 --> 00:26.970
+Je to maximální bod.
+
+00:26.970 --> 00:31.780
+A osa symetrie je přímka, kolem které
+můžeme parabolu opsat, a je symetrická.
+
+00:31.780 --> 00:33.610
+Takže to je osa symetrie.
+
+00:33.610 --> 00:37.675
+Tohle je obraz levé strany
+podél této osy symetrie.
+
+00:37.675 --> 00:40.330
+Stejně tak u paraboly
+otevřené směrem dolů.
+
+00:40.330 --> 00:44.900
+Způsob, jak poznat, zda se jedná o shora,
+nebo zdola otevřenou parabolu, je ten,
+
+00:44.900 --> 00:50.920
+že tohle bude mít u kvadratického
+členu kladný koeficient,
+
+00:50.920 --> 00:53.260
+a tohle bude mít záporný koeficient.
+
+00:53.260 --> 00:56.470
+A na to se podíváme detailněji.
+Takže se dáme do práce.
+
+00:56.470 --> 01:00.860
+Pro výpočet vrcholu existuje
+taková rychlá usnadňující formulka,
+
+01:00.860 --> 01:02.570
+ale nebudeme ji tady používat,
+
+01:02.570 --> 01:05.520
+protože vzorec nám nic neříká
+o tom, jak jsme k tomu došli.
+
+01:05.520 --> 01:07.930
+Ale na konci videa vám
+ukážu, jak formulku použít,
+
+01:07.930 --> 01:11.275
+kdybyste takový příklad dostali v testu
+a chtěli ho jen rychle vyřešit.
+
+01:11.275 --> 01:14.320
+Ale nejdříve si to zkusíme tím
+pomalým intuitivním způsobem.
+
+01:14.320 --> 01:16.050
+Takže pojďme přemýšlet,
+
+01:16.050 --> 01:19.710
+jak bychom mohli zjistit buď maximální
+nebo minimální bod této paraboly.
+
+01:19.710 --> 01:23.070
+Nejlepší způsob, co mě napadá,
+je to udělat doplněním na čtverec.
+
+01:23.070 --> 01:25.250
+Může se to teď jevit jako
+dost neznámý pojem,
+
+01:25.250 --> 01:27.490
+ale zkusme prostě
+postupovat krok za krokem.
+
+01:27.490 --> 01:30.280
+Takže tohle můžeme
+přepsat jako y se rovná…
+
+01:30.280 --> 01:32.330
+Vlastně můžeme vytknout -2.
+
+01:32.330 --> 01:39.320
+Rovná se -2(x na druhou minus 4x minus 4).
+
+01:39.320 --> 01:43.930
+A minus 4 dáme sem.
+A doplníme na čtverec.
+
+01:43.930 --> 01:51.540
+Tak chceme vyjádřit prvky v závorce jako
+součet čtverce a nějakého čísla.
+
+01:51.540 --> 01:54.400
+A máme x na druhou minus 4x.
+
+01:54.400 --> 02:00.480
+Abychom dostali dokonalý čtverec,
+tak bychom museli tady mít 4.
+
+02:00.480 --> 02:03.880
+Pokud bychom tu měli 4,
+pak by tohle byl dokonalý čtverec.
+
+02:03.880 --> 02:07.070
+Bylo by to (x minus 2) na druhou.
+
+02:07.070 --> 02:13.380
+A k číslu 4 jsme došli tak, že vezmeme
+1/2 tady toho čísla, polovina z -4 je -2.
+
+02:13.380 --> 02:16.400
+Teď to umocníme.
+A přesně tak dostaneme 4.
+
+02:16.400 --> 02:19.410
+Ale nemůžeme jen tak přidat
+4 na jedné straně rovnice.
+
+02:19.410 --> 02:22.980
+Musíme to přidat i na druhé straně,
+nebo to číslo musíme tady zase odečíst.
+
+02:22.980 --> 02:26.890
+Takže rovnice se úpravou nezmění.
+Přidali jsme 4 a pak jsme odečetli 4.
+
+02:26.890 --> 02:30.890
+Vlastně jsme přidali nulu k tomuhle
+výrazu, takže se výraz nezměnil.
+
+02:30.890 --> 02:37.940
+Ale díky této úpravě můžeme vyjádřit
+právě tuhle část jako dokonalý čtverec.
+
+02:37.940 --> 02:45.190
+X na druhou minus 4x plus 4 je
+(x minus 2) to celé na druhou.
+
+02:45.190 --> 02:53.160
+Je to skutečně (x minus 2) na druhou.
+A pak máme -2 tady na začátku,
+
+02:53.160 --> 02:59.100
+což všechno násobí,
+a pak máme -4, tedy -8.
+
+02:59.100 --> 03:02.890
+Takže y se rovná -2 krát
+celá tato závorka,
+
+03:02.890 --> 03:05.200
+a teď můžeme -2 vynásobením
+zase odstranit,
+
+03:05.200 --> 03:11.050
+vynásobit každý člen v závorce.
+Y se rovná -2 (x minus 2) na druhou.
+
+03:11.050 --> 03:17.420
+A pak -2 krát -8 je plus 16.
+
+03:17.420 --> 03:21.110
+Všechno, co jsme udělali, je vlastně
+pouze algebraická úprava rovnice.
+
+03:21.110 --> 03:26.230
+Ale díky této úpravě můžeme přijít na
+maximální a minimální bod této rovnice.
+
+03:26.230 --> 03:29.250
+Pojďme tedy rovnici blíže prozkoumat.
+
+03:29.250 --> 03:32.080
+Tento výraz: (x minus 2) na druhou.
+
+03:32.080 --> 03:36.020
+Pokud cokoliv umocňujeme,
+tak výsledek bude vždycky kladný.
+
+03:36.020 --> 03:41.220
+Tohle bude vždycky kladné.
+
+03:41.220 --> 03:43.160
+Ale je vynásobená záporným číslem.
+
+03:43.160 --> 03:46.210
+Takže pokud se na to
+podíváme v širším kontextu,
+
+03:46.210 --> 03:53.420
+tak vždy kladný výraz vynásobený
+záporným číslem -2, bude vždy záporný.
+
+03:53.420 --> 04:00.440
+A čím kladnější se tohle číslo stane,
+když ho vynásobíme záporným číslem,
+
+04:00.440 --> 04:05.160
+tím zápornější bude celý tento výraz.
+
+04:05.160 --> 04:09.860
+Když se zamyslíme, tak tohle bude
+parabola otevřená směrem dolů.
+
+04:09.860 --> 04:12.040
+Máme tady záporný koeficient.
+
+04:12.040 --> 04:16.270
+A maximální bod této zdola
+otevřené paraboly je bod,
+
+04:16.270 --> 04:21.640
+kdy tento výraz nabývá
+nejmenší možné hodnoty.
+
+04:21.640 --> 04:24.860
+Pokud se tohle zvětší, tak se to
+stejně vynásobí záporným číslem,
+
+04:24.860 --> 04:26.630
+a pak se to odečte od 16.
+
+04:26.630 --> 04:32.460
+Takže pokud tento výraz bude nula, pak
+dostaneme maximální hodnotu y, což je 16.
+
+04:32.460 --> 04:35.250
+Jak zde tedy dostaneme x se rovná 0?
+
+04:35.250 --> 04:38.840
+Jak zajistíme, aby se
+x minus 2 se rovnalo 0. Ukážeme si to.
+
+04:38.840 --> 04:43.130
+X minus 2 se rovná 0,
+to nastane, když x se rovná 2.
+
+04:43.130 --> 04:46.020
+Když se x se rovná 2,
+tak tento výraz bude roven nule.
+
+04:46.020 --> 04:52.180
+Nula krát záporné číslo je
+stále nula, a pak y se rovná 16.
+
+04:52.180 --> 04:55.320
+Tohle je náš vrchol, náš maximální bod.
+
+04:55.320 --> 04:58.980
+Z příkladu jsme si odvodili,
+že nejvyšší hodnota,
+
+04:58.980 --> 05:01.300
+které může rovnice nabývat, je 16.
+
+05:01.300 --> 05:04.780
+Jak se ‚x‘ vzdaluje od 2
+kladným či záporným směrem,
+
+05:04.780 --> 05:07.690
+tak tento výraz může
+být záporný, nebo kladný,
+
+05:07.690 --> 05:09.490
+ale když ho umocníme,
+tak bude kladný.
+
+05:09.490 --> 05:13.370
+A když ho vynásobíme záporným číslem 2,
+tak stane se záporným a odečte se od 16.
+
+05:13.370 --> 05:20.170
+Takže náš vrchol je: x se rovná 2.
+Řekněme, že jednotkou grafu je 2.
+
+05:20.170 --> 05:28.960
+Takže tohle je 2, 4, 6, 8, 10, 12, 14, 16.
+Takže náš vrchol je zde.
+
+05:28.960 --> 05:33.150
+To je absolutní maximum této paraboly.
+
+05:33.150 --> 05:40.310
+A její osa souměrnosti
+povede podél přímky x se rovná 2,
+
+05:40.310 --> 05:46.300
+To je osa symetrie této paraboly.
+
+05:46.300 --> 05:48.550
+A pokud nás budou zajímat
+další body paraboly,
+
+05:48.550 --> 05:50.450
+abychom načrtli její graf,
+
+05:50.450 --> 05:54.300
+tak nás zajímá, co se stane,
+když se x rovná nule?
+
+05:54.300 --> 05:58.430
+To je lehké.
+Když se x rovná 0, tak se y rovná 8.
+
+05:58.430 --> 06:02.410
+Když x se rovná 0, tak budeme mít
+1, 2, 3, 4… Vlastně je jednotkou 2.
+
+06:02.410 --> 06:04.050
+2, 4, 6, 8.
+
+06:04.050 --> 06:06.280
+Právě tady.
+Tohle je osa symetrie.
+
+06:06.280 --> 06:09.760
+Když se x rovná 3,
+tak se y bude také rovnat 8.
+
+06:09.760 --> 06:14.270
+Takže tahle parabola je hodně strmá
+a úzká a vypadá nějak takhle,
+
+06:14.270 --> 06:17.140
+kde tento bod přímo zde je maximum.
+
+06:17.140 --> 06:20.830
+Řekli jsme si, že tohle je ten
+pomalý intuitivní způsob řešení.
+
+06:20.830 --> 06:23.690
+Pokud chcete rychlý a prostoduchý
+způsob, jak vrchol zjistit,
+
+06:23.690 --> 06:25.980
+tak existuje vzorec,
+ze kterého jej lze odvodit,
+
+06:25.980 --> 06:28.110
+úplně stejným postupem,
+jaký jsme si ukázali,
+
+06:28.110 --> 06:34.160
+ale vzorec pro výpočet vrcholu, nebo x-ové
+hodnoty vrcholu neboli osy souměrnosti,
+
+06:34.160 --> 06:37.500
+je x rovná se -b lomeno 2a.
+
+06:37.500 --> 06:39.300
+Takže pokud tohle aplikujeme…
+
+06:39.300 --> 06:42.660
+Ale je to jenom takové
+bezduché použití vzorečku.
+
+06:42.660 --> 06:45.940
+Chtěl jsem vám hlavně ukázat,
+proč tento vzoreček vůbec existuje.
+
+06:45.940 --> 06:49.240
+Ale pokud ho jen tupě
+aplikujeme, tak dostaneme…
+
+06:49.240 --> 06:50.490
+Co představuje ‚b‘?
+
+06:50.490 --> 06:55.340
+Takže x se rovná minus…
+B tady představuje 8.
+
+06:55.340 --> 07:01.600
+8 lomeno 2a,
+‚a‚‘ je v tomto případě -2.
+
+07:01.600 --> 07:05.160
+2 krát -2.
+Takže čemu se to bude rovnat?
+
+07:05.160 --> 07:11.470
+Je to -8 lomeno -4, to se rovná 2,
+což je přesně to samé,
+
+07:11.470 --> 07:13.390
+co jsme předtím logicky vyvodili.
+
+07:13.390 --> 07:16.400
+A když se x rovná 2, tak y se rovná 16.
+
+07:16.400 --> 07:21.920
+Naprosto stejný výsledek.
+Je to bod [2, 16].

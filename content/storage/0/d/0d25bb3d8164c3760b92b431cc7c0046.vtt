@@ -1,0 +1,570 @@
+WEBVTT
+
+00:00.403 --> 00:05.019
+Máme funkci g(x) rovná se (x na druhou)
+krát přirozený logaritmus z x.
+
+00:05.019 --> 00:10.443
+V tomto videu zkusíme nalézt
+globální extrémy této funkce g(x),
+
+00:10.443 --> 00:11.933
+tedy zda existují
+nějaké body x,
+
+00:11.933 --> 00:17.524
+ve kterých g nabývá
+globálního maxima nebo minima.
+
+00:17.524 --> 00:22.004
+Zajímá nás tedy takzvané
+globální maximum a minimum.
+
+00:22.004 --> 00:28.269
+Nejprve se podívejme, jak
+vypadá definiční obor funkce g.
+
+00:28.269 --> 00:36.237
+Víme, že do přirozeného logaritmu
+musíme dosazovat čísla ‚x‘ větší než 0.
+
+00:36.237 --> 00:40.372
+Definičním oborem jsou tedy
+všechna reálná čísla větší než 0.
+
+00:40.372 --> 00:42.717
+x musí být
+větší než 0.
+
+00:42.717 --> 00:43.612
+Cokoliv
+jiného...
+
+00:43.612 --> 00:45.892
+Přirozený logaritmus z 0
+není definovaný,
+
+00:45.892 --> 00:49.500
+protože není žádné číslo, na které bychom
+mohli umocnit e tak, aby vyšla 0.
+
+00:49.500 --> 00:52.814
+Přirozený logaritmus ze záporného
+čísla pak také není definovaný.
+
+00:52.814 --> 00:55.244
+Tohle je tedy
+definiční obor.
+
+00:55.244 --> 01:02.000
+V definičním oboru jsou všechna
+reálná čísla x, která jsou větší než 0.
+
+01:02.000 --> 01:06.747
+Body globálních extrémů tak musí
+ležet v tomto definičním oboru.
+
+01:06.747 --> 01:10.006
+Abychom tyto body našli, tak nejprve
+nalezněme body lokálních extrémů
+
+01:10.006 --> 01:14.227
+a podívejme se, zda jsou některé z nich
+dobrými kandidáty na globální extrém.
+
+01:14.227 --> 01:19.780
+Lokální extrémy najdeme
+pomocí stacionárních bodů.
+
+01:19.780 --> 01:22.465
+Zderivujme tedy
+funkci g.
+
+01:22.465 --> 01:24.420
+g s čárkou...
+
+01:24.420 --> 01:26.401
+Použiju novou barvu.
+
+01:27.121 --> 01:30.273
+...g(x) s čárkou se rovná...
+
+01:30.273 --> 01:32.099
+Použijeme vzorec pro
+derivaci součinu.
+
+01:32.099 --> 01:34.896
+...derivaci (x na druhou),
+což je 2 krát x,
+
+01:34.896 --> 01:37.686
+krát přirozený logaritmus z x
+
+01:37.686 --> 01:41.927
+plus (x na druhou) krát derivace
+přirozeného logaritmu z x,
+
+01:41.927 --> 01:43.684
+která se rovná
+1 lomeno x.
+
+01:43.684 --> 01:47.302
+(x na druhou) krát (1 lomeno x)
+můžeme přepsat jako...
+
+01:47.302 --> 01:50.369
+Můžeme předpokládat,
+že x je kladné,
+
+01:50.369 --> 01:55.222
+takže to
+bude jenom...
+
+01:55.222 --> 01:57.593
+Vlastně tady ani nic
+předpokládat nemusím,
+
+01:57.593 --> 02:01.997
+protože (x na druhou) děleno x
+se jednoduše rovná x.
+
+02:01.997 --> 02:03.092
+To bychom měli.
+
+02:03.092 --> 02:05.359
+Nyní už známe
+g s čárkou,
+
+02:05.359 --> 02:08.175
+takže se podívejme na
+stacionární body.
+
+02:08.175 --> 02:10.376
+Ve stacionárních
+bodech je derivace...
+
+02:10.376 --> 02:12.150
+Jsou to body uvnitř
+definičního oboru,
+
+02:12.150 --> 02:15.301
+takže musí splňovat,
+že x je větší než 0.
+
+02:15.301 --> 02:21.781
+...ve kterých je g s čárkou
+buď nedefinovaná, nebo rovna 0.
+
+02:21.781 --> 02:25.404
+Zaměřme se nejdřív na to,
+kdy je g s čárkou rovna 0.
+
+02:25.404 --> 02:27.391
+Položme ji
+rovnou nule.
+
+02:27.391 --> 02:33.198
+2 krát x krát přirozený logaritmus z x,
+to celé plus x, se rovná 0.
+
+02:33.198 --> 02:39.119
+Od obou stran můžeme
+odečíst x, čímž dostaneme,
+
+02:39.119 --> 02:46.026
+že 2 krát x krát přirozený
+logaritmus z x se rovná −x.
+
+02:46.026 --> 02:49.706
+Když nyní obě
+strany vydělíme x...
+
+02:49.706 --> 02:52.085
+To můžeme udělat,
+protože víme, že x nemůže být 0.
+
+02:52.085 --> 02:54.062
+V definičním oboru
+jsou x větší než 0.
+
+02:54.062 --> 02:55.938
+...tak dostaneme...
+
+02:55.938 --> 02:58.511
+Vlastně obě strany vydělme
+(2 krát x), čímž dostaneme,
+
+02:58.511 --> 03:03.747
+že přirozený logaritmus z x
+se rovná minus (1 lomeno 2).
+
+03:03.747 --> 03:06.223
+−x děleno (2 krát x)
+je minus (1 lomeno 2).
+
+03:06.223 --> 03:10.602
+Tohle můžeme napsat také tak, že
+x se rovná e na minus (1 lomeno 2),
+
+03:10.602 --> 03:13.172
+protože přirozený logaritmus
+je logaritmus o základu e.
+
+03:13.172 --> 03:15.798
+x se rovná e na
+minus (1 lomeno 2),
+
+03:15.798 --> 03:17.298
+což můžeme
+napsat také takto.
+
+03:17.298 --> 03:21.488
+e na minus (1 lomeno 2) neboli
+1 lomeno druhá odmocnina z e.
+
+03:21.488 --> 03:25.735
+Toto je bod,
+ve kterém g...
+
+03:25.735 --> 03:29.027
+Ve kterém je
+derivace rovna 0.
+
+03:29.027 --> 03:33.517
+Jde tedy o stacionární bod
+naší původní funkce g.
+
+03:33.517 --> 03:37.224
+Je to zároveň jediný bod,
+ve kterém je g s čárkou rovna 0.
+
+03:37.224 --> 03:41.276
+Existují nějaké body, v nichž
+není g s čárkou definovaná?
+
+03:41.276 --> 03:43.436
+Musí to být body
+v tomto definičním oboru.
+
+03:43.436 --> 03:45.109
+Čím by se tohle
+stalo nedefinovaným?
+
+03:45.109 --> 03:48.181
+2 krát x a x můžeme
+vyčíslit pro libovolné x.
+
+03:48.181 --> 03:54.672
+Přirozený logaritmus z x bude opět
+definovaný pouze pro x větší než 0,
+
+03:54.672 --> 03:57.648
+ale my už jsme se na tohle
+omezili v definičním oboru,
+
+03:57.648 --> 04:03.725
+takže pro každý bod z tohoto definičního
+oboru bude derivace definovaná.
+
+04:03.725 --> 04:05.453
+Když už tohle víme,
+
+04:05.453 --> 04:12.458
+podívejme se, co se děje na obou
+stranách tohoto stacionárního bodu.
+
+04:12.458 --> 04:17.061
+Nakreslím sem číselnou osu,
+abychom si to lépe představili.
+
+04:17.061 --> 04:25.811
+Když je tady −1
+a zde 0, tak e na...
+
+04:25.811 --> 04:28.566
+Tohle je něco jako
+1 lomeno...
+
+04:30.692 --> 04:35.191
+Tohle bude něco
+trochu menšího než 1,
+
+04:35.191 --> 04:40.166
+takže si sem ještě
+nakreslím 1 a tady bude 2.
+
+04:40.166 --> 04:43.861
+Máme tedy stacionární bod
+1 lomeno druhá odmocnina z e,
+
+04:43.866 --> 04:45.342
+což bude
+někde tady.
+
+04:45.342 --> 04:47.781
+1 lomeno druhá
+odmocnina z e.
+
+04:47.781 --> 04:53.103
+Víme, že funkce je definovaná
+jen pro všechna x větší než 0.
+
+04:53.103 --> 04:57.513
+Podívejme se tedy na interval
+mezi 0 a tímto stacionárním bodem,
+
+04:57.513 --> 04:58.727
+což je tento
+interval.
+
+04:58.727 --> 05:03.291
+Jde o otevřený interval
+od 0 do druhé odmocniny z e.
+
+05:03.291 --> 05:06.156
+Zamysleme se, zda je zde
+g s čárkou kladná nebo záporná,
+
+05:06.156 --> 05:13.146
+a potom totéž udělejme pro x větší
+než 1 lomeno druhá odmocnina z e,
+
+05:13.146 --> 05:18.445
+což je interval od 1 lomeno druhá
+odmocnina z e do nekonečna.
+
+05:18.445 --> 05:23.758
+Zkusme dosadit nějakou hodnotu,
+která leží ve žlutém intervalu.
+
+05:23.758 --> 05:27.194
+Zkusme spočítat
+g s čárkou v bodě...
+
+05:27.194 --> 05:31.117
+Nevím, třeba
+g s čárkou v bodě 0,1.
+
+05:31.117 --> 05:34.382
+0,1 určitě leží
+v tomto intervalu.
+
+05:34.382 --> 05:48.023
+Bude to 2 krát 0,1, což je 0,2,
+krát přirozený logaritmus z 0,1
+
+05:48.023 --> 05:51.006
+a ještě plus 0,1.
+
+05:51.006 --> 05:52.116
+Tak se na
+to podívejme.
+
+05:52.116 --> 05:58.402
+Tohle bude záporné číslo,
+dokonce to bude poměrně...
+
+05:58.402 --> 06:06.140
+Určitě to bude větší než −1,
+protože e na minus prvou je jenom...
+
+06:06.590 --> 06:12.703
+e na minus prvou je 1
+lomeno e, což je 1 lomeno 2,7.
+
+06:12.703 --> 06:16.835
+1 lomeno 2,7 bude...
+
+06:16.835 --> 06:23.523
+Tohle bude přibližně
+0,3 nebo 0,4.
+
+06:23.523 --> 06:24.753
+Abychom dostali 0,1...
+
+06:24.753 --> 06:28.305
+Tohle je tedy
+okolo 0,3 nebo 0,4.
+
+06:28.305 --> 06:31.588
+Abychom dostali 0,1, musíme
+vzít ještě zápornější číslo,
+
+06:31.588 --> 06:37.186
+takže můžeme říct,
+že tohle je méně než −1.
+
+06:37.186 --> 06:40.847
+Tohle je méně než −1
+a násobím to 0,2,
+
+06:40.847 --> 06:46.534
+takže mi vyjde záporné číslo,
+které je menší než −0,2.
+
+06:46.534 --> 06:51.472
+Když k tomu následně přičtu 0,1,
+tak bude výsledek pořád záporné číslo.
+
+06:51.472 --> 06:56.508
+Na tomto žlutém intervalu je tedy
+g(x) s čárkou menší než 0.
+
+06:56.508 --> 06:57.290
+Bylo by...
+
+06:57.290 --> 06:59.947
+Měl jsem, nebo spíš mohl
+jsem, vytáhnout kalkulačku.
+
+06:59.947 --> 07:02.021
+Spočítal bych to díky
+ní mnohem jednodušeji.
+
+07:02.021 --> 07:04.451
+Na tomto intervalu je tedy
+g(x) s čárkou méně než 0.
+
+07:04.451 --> 07:07.070
+Nyní se podívejme, co se děje
+na tomto modrém intervalu.
+
+07:07.070 --> 07:10.254
+Tohle bude jednodušší,
+protože můžeme dosadit 1.
+
+07:10.254 --> 07:16.732
+g(1) s čárkou se rovná
+2 krát ln(1) plus 1.
+
+07:16.732 --> 07:18.595
+Přirozený logaritmus z 1 je 0,
+
+07:18.595 --> 07:20.566
+takže tohle celé
+se zjednoduší na 1.
+
+07:20.566 --> 07:21.856
+Na tomto
+modrém intervalu...
+
+07:21.856 --> 07:23.479
+Zkusil jsem bod,
+který v něm leží.
+
+07:23.479 --> 07:27.626
+...je g(x) s čárkou
+větší než 0.
+
+07:27.626 --> 07:34.852
+Vypadá to tedy, že naše funkce klesá
+od 0 do 1 lomeno druhá odmocnina z e
+
+07:34.852 --> 07:37.330
+a pak už jen roste.
+
+07:37.330 --> 07:42.299
+Tedy je rostoucí pro všechna x větší
+než 1 lomeno druhá odmocnina z e.
+
+07:42.299 --> 07:45.288
+Naše funkce
+tedy nabývá...
+
+07:45.288 --> 07:47.444
+Když do tohoto bodu
+klesá a pak roste,
+
+07:47.444 --> 07:55.433
+tak nabude globálního minima v bodě
+x rovno 1 lomeno druhá odmocnina z e.
+
+07:55.433 --> 07:56.922
+Zapíšu to.
+
+07:56.922 --> 08:09.259
+Funkce nabývá globálního minima v bodě
+x rovno 1 lomeno druhá odmocnina z e.
+
+08:09.259 --> 08:11.055
+Globální maximum
+funkce nemá,
+
+08:11.055 --> 08:14.287
+protože když se dostaneme za bod
+1 lomeno druhá odmocnina z e, tak...
+
+08:14.287 --> 08:15.637
+Zamysleme se,
+co se stane.
+
+08:15.637 --> 08:16.556
+Funkce půjde...
+
+08:16.556 --> 08:20.916
+Víme, že funkce bude
+pořád růst a růst.
+
+08:20.916 --> 08:22.379
+Můžeme se podívat
+i na tohle.
+
+08:22.379 --> 08:25.271
+x na druhou
+půjde do nekonečna
+
+08:25.271 --> 08:27.806
+a ln(x) sice bude růst
+pomaleji než x na druhou,
+
+08:27.806 --> 08:30.264
+ale také půjde
+do nekonečna,
+
+08:30.264 --> 08:39.423
+takže funkce nemá
+žádné globální maximum.
+
+08:39.423 --> 08:40.620
+Podívejme se
+nyní na graf,
+
+08:40.620 --> 08:45.060
+abychom měli dobrý pocit z toho, co
+jsme teď dělali analyticky bez grafu.
+
+08:45.060 --> 08:46.981
+Já už jsem se na
+graf předem podíval.
+
+08:46.981 --> 08:49.043
+Zkopíruji
+ho sem.
+
+08:49.043 --> 08:52.891
+Takhle vypadá
+graf naší funkce.
+
+08:52.891 --> 09:03.691
+Jak můžeme vidět, tenhle bod je
+1 lomeno druhá odmocnina z e.
+
+09:03.691 --> 09:06.306
+Jen od pohledu ale není
+zřejmé, že jde o tento bod.
+
+09:06.306 --> 09:08.605
+x rovno 1 lomeno
+druhá odmocnina z e.
+
+09:08.605 --> 09:13.254
+Vidíme, že zde funkce skutečně
+nabývá globálního minima
+
+09:13.254 --> 09:16.740
+a že nemá žádné
+globální maximum.
+
+09:16.740 --> 09:23.013
+Funkce může nabýt
+libovolně velkou hodnotu.

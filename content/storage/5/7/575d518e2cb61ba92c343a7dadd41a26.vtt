@@ -1,0 +1,160 @@
+WEBVTT
+
+00:00.315 --> 00:04.391
+Vi har lyst til at blive lidt mere smidige, så vi har besluttet at tage nogle yoga-timer.
+
+00:04.486 --> 00:10.849
+Vi er derfor taget hen til det her yoga-sted, som hedder Super Yoga.
+
+00:10.849 --> 00:13.798
+Vi spørger ejeren, hvor meget det koster at gå til yoga hos ham.
+
+00:13.798 --> 00:17.698
+Han siger, at de både har en medlemspris og en timepris.
+
+00:17.698 --> 00:25.272
+Timeprisen er til, hvis man bare dukker op engang i mellem, og så koster det 12 kr. per time.
+
+00:25.272 --> 00:30.236
+Hvis man vild med yoga og kommer mange gange om måneden, kan man overveje et månedligt medlemskab.
+
+00:30.236 --> 00:35.571
+Det koster 20 kr. om måneden, men så koster det kun 8 kr. per time.
+
+00:35.571 --> 00:39.827
+Det er billigere per time, men koster 20 kr. om måneden oveni.
+
+00:39.827 --> 00:43.283
+Det ligner et godt tilbud, men vi er ikke helt sikre.
+
+00:43.283 --> 00:45.410
+Hvilken af de 2 muligheder skal vi vælge?
+
+00:45.410 --> 00:52.155
+Det første, vi kan overveje er, hvor meget vi betaler for et givent antal timer.
+
+00:52.155 --> 00:56.884
+For at gøre det lidt mere overskueligt kan vi definere nogle variable.
+
+00:56.884 --> 01:11.637
+Lad os sige, at s er antallet af timer per måned.
+
+01:11.637 --> 01:18.869
+Lad os sige, at c er den totale udgift per måned.
+
+01:18.869 --> 01:26.547
+Udtrykt med disse variable, hvor meget betaler vi så for et givent antal timer i hver af de 2 tilbud?
+
+01:26.547 --> 01:31.951
+Lad os starte her. Det virker som det nemmeste.
+
+01:31.951 --> 01:49.234
+Vi laver en tabel med antallet og udgiften.
+
+01:49.234 --> 02:06.423
+Det samme gør vi for medlemskabet, så vi kan sammenligne dem.
+
+02:06.423 --> 02:16.943
+Hvis vi slet ikke kommer til nogle timer, hvad koster det så?
+
+02:16.943 --> 02:27.282
+0 timer koster ikke noget her. Det er 0 gange 12 kr. Det er 0 kr.
+
+02:27.282 --> 02:48.104
+Hvad med herovre? Månedsprisen for 0 timer. Vi er medlem, men kommer slet ikke. Hvad skal vi så betale? Det er 8 kr. per time, men det er 0 timer.
+
+02:48.120 --> 03:00.835
+Det er 20 kroner, selvom vi slet ikke var med til noget yoga. Det er ikke nogen god handel, men lad os prøve at se, hvad der sker, når vi tager nogle flere timer.
+
+03:00.835 --> 03:21.827
+Hvad hvis vi kommer en enkelt gang? Her er det 12 kr. for en time. Det er 12 kr. per time gange 1 time. Det er 12 kr.
+
+03:21.842 --> 03:36.301
+Her koster det 8 kr. per time gange 1 time. Det er 8 kr. plus de 20 kr. for medlemskabet. 8 kr. plus 20 kr.
+
+03:36.301 --> 03:45.530
+Det er 28 kr.
+
+03:45.576 --> 03:54.959
+Timeprisen er stadig det billigste.
+
+03:54.959 --> 04:01.197
+Lad os blive ved. Lad os tage en mere, så vi får lidt øvelse med det her.
+
+04:01.197 --> 04:06.331
+Hvis vi tager 2 timer, hvor koster det så?
+
+04:06.331 --> 04:09.573
+Det er 12 kr. per time gange 2 timer.
+
+04:09.573 --> 04:15.688
+Det er 24 kr.
+
+04:15.688 --> 04:24.593
+Medlemskabet og 2 timer.
+
+04:24.620 --> 04:28.939
+Det bliver 2 timer gange 8 kr. per time.
+
+04:29.001 --> 04:32.406
+Det er 16 kr. plus de 20 kr. hver måned.
+
+04:32.406 --> 04:40.348
+Det er 2 gange 8 kr. plus 20 kr.
+
+04:40.348 --> 04:47.988
+16 plus 20, det er lig med 36 kr.
+
+04:47.988 --> 04:52.107
+Det er stadig billigere med timeprisen.
+
+04:52.107 --> 04:58.291
+Hvornår skifter det? Hvornår kan medlemskabet bedst betale sig?
+
+04:58.291 --> 05:07.455
+For at svare på det skal vi skrive det som en ligning.
+
+05:07.455 --> 05:22.112
+Hvis s er prisen per time, og c er udgiften, hvordan skal vi så skrive ligningen? Hvordan kan vi skrive udgiften som en ligning?
+
+05:22.112 --> 05:28.871
+Vi starter herovre til højre for den her stiplede linje.
+
+05:28.871 --> 05:47.291
+Udgiften c er lig med 12 kr. gange antallet af timer s.
+
+05:47.291 --> 05:53.453
+c er lig med 12 gange s.
+
+05:53.453 --> 05:56.663
+Hvad så med medlemskabet her til venstre?
+
+05:56.663 --> 06:01.576
+Hvordan kan vi udtrykke det med en ligning?
+
+06:01.576 --> 06:19.767
+Vi har, at udgiften er lig med 20 kr. plus 8 kr. gange antallet af timer.
+
+06:19.767 --> 06:36.742
+c lig med 20 plus 8 kr gange antal timer, s. c lig med 20 plus 8s.
+
+06:36.742 --> 06:39.322
+Vi kan lige tjekke det her.
+
+06:39.322 --> 06:43.290
+Hvis s er lig 0, får vi 20.
+
+06:43.290 --> 06:47.936
+Hvis s er 1, får vi 20 plus 8. Det er 28.
+
+06:47.936 --> 06:55.930
+c og s opfylder den her ligning. Det samme herovre med den anden ligning.
+
+06:55.930 --> 07:03.275
+Det smarte er, at den her ligning viser alle de mulige priser.
+
+07:03.275 --> 07:09.389
+Det samme herovre. Alle priserne for et givent antal timer er udtrykt i den her ligning.
+
+07:09.389 --> 07:18.449
+I de næste videoer undersøger vi, hvordan de her ligninger kan bruges til at bestemme, hvilken mulighed der er billigst for et givent antal timer.

@@ -1,0 +1,576 @@
+WEBVTT
+
+00:00.285 --> 00:01.447
+O que faremos agora
+
+00:01.447 --> 00:04.379
+é começar a explorar uma série de testes
+
+00:04.379 --> 00:09.379
+para determinar quando uma série
+converge ou diverge
+
+00:09.993 --> 00:12.142
+e o primeiro que vou
+apresentar agora
+
+00:12.142 --> 00:15.294
+é, talvez, o mais básico
+e espera-se que seja
+
+00:15.294 --> 00:17.842
+o mais intuitivo, é
+o teste da divergência.
+
+00:17.842 --> 00:22.733
+O teste da divergência não diz
+se uma série vai convergir,
+
+00:22.733 --> 00:26.411
+mas ele pode dizer se algo
+vai, definitivamente, divergir.
+
+00:26.411 --> 00:29.792
+Primeiramente, deixe-me escrevê-lo
+em uma notação matemática
+
+00:29.792 --> 00:32.650
+e então vamos olhar para
+um exemplo concreto dele.
+
+00:32.650 --> 00:37.650
+O teste da divergência nos diz
+que se o limite
+
+00:38.073 --> 00:44.683
+quando &lt;i>n&lt;/i> tende a infinito de
+a_n não é igual a zero,
+
+00:44.930 --> 00:52.160
+então a série infinita
+de n igual a um
+
+00:52.160 --> 00:58.390
+ao infinito de &lt;i>a_n&lt;/i> irá divergir.
+
+01:01.166 --> 01:03.929
+Já estudamos o que significa
+divergir
+
+01:03.929 --> 01:07.110
+e esta soma vai ilimitada
+a mais infinito
+
+01:07.110 --> 01:09.523
+ou menos infinito
+
+01:09.523 --> 01:12.262
+ou vai apenas oscilar entre valores,
+
+01:12.262 --> 01:17.262
+nunca realmente se aproximando
+de uma soma ou valor dado.
+
+01:17.483 --> 01:19.501
+Isto é o que o teste da divergência
+nos diz
+
+01:19.501 --> 01:21.193
+e você provavelmente está
+pensando:
+
+01:21.193 --> 01:22.965
+"Eu consigo entender o que isto diz,
+
+01:22.965 --> 01:25.116
+mas onde isto é útil?
+
+01:25.116 --> 01:27.310
+Para ver onde pode ser útil,
+
+01:27.310 --> 01:28.932
+vamos olhar para uma série
+
+01:28.932 --> 01:33.340
+e ver se podemos descobrir
+se ela vai divergir.
+
+01:33.340 --> 01:36.660
+Digamos que eu tenha esta série.
+
+01:36.660 --> 01:43.530
+A soma de &lt;i>n&lt;/i> igual a um até infinito--
+
+01:43.580 --> 01:46.102
+em geral, não é necessário que
+seja n igual a um,
+
+01:46.102 --> 01:47.607
+poderia ser &lt;i>n&lt;/i> igual a cinco,
+
+01:47.607 --> 01:49.720
+poderia ser &lt;i>n&lt;/i> igual a zero.
+
+01:49.720 --> 01:52.367
+O ponto é... é de uma
+série infinita
+
+01:52.367 --> 01:54.320
+que estamos falando,
+então nos importa
+
+01:54.320 --> 01:56.193
+o limite quando &lt;i>n&lt;/i> tende a infinito.
+
+01:56.193 --> 02:00.964
+Digamos que temos a soma
+de quatro n ao quadrado
+
+02:00.964 --> 02:05.964
+menos &lt;i>n&lt;/i> ao cubo sobre sete
+
+02:08.327 --> 02:12.636
+menos três &lt;i>n&lt;/i> ao cubo.
+
+02:12.636 --> 02:14.953
+Dado o que sabemos sobre
+o teste da divergência,
+
+02:14.953 --> 02:19.697
+esta série vai
+convergir ou divergir?
+
+02:21.004 --> 02:22.732
+Bom, vamos olhar para ela,
+
+02:22.732 --> 02:25.889
+para o que nós estamos somando.
+
+02:25.889 --> 02:29.677
+Isto é, essencialmente,
+nosso a_n,
+
+02:29.677 --> 02:31.899
+se estivermos tentando
+encaixar na definição,
+
+02:31.899 --> 02:34.132
+ou melhor, na explicação
+do teste da divergência
+
+02:34.132 --> 02:37.703
+Vamos pensar o que é o limite
+
+02:37.703 --> 02:42.208
+quando &lt;i>n&lt;/i> tende a infinito de
+quatro n ao quadrado
+
+02:42.208 --> 02:46.300
+menos &lt;i>n&lt;/i> ao cubo sobre sete
+
+02:46.300 --> 02:49.100
+menos três &lt;i>n&lt;/i> ao cubo.
+
+02:49.100 --> 02:51.549
+Eu encorajo você a pausar o
+vídeo e pensar nisso.
+
+02:51.549 --> 02:53.844
+Bem, existem algumas maneiras
+de pensar nisso.
+
+02:53.844 --> 02:56.050
+Uma maneira é:
+Veja! Quando n tende a infinito,
+
+02:56.050 --> 02:58.393
+os termos de maior grau
+do numerador e denominador
+
+02:58.393 --> 02:59.371
+são os que importam.
+
+02:59.371 --> 03:01.318
+Então, isto tenderá a
+menos n ao cubo
+
+03:01.318 --> 03:03.940
+sobre menos três &lt;i>n&lt;/i> ao cubo
+
+03:03.940 --> 03:06.698
+que vai tender a menos um
+
+03:06.698 --> 03:10.720
+sobre menos três,
+que será mais 1/3.
+
+03:10.720 --> 03:13.140
+Ou, se quisermos ser
+um pouco mais...
+
+03:13.140 --> 03:15.451
+ou fazer de maneira um pouco
+mais sistemática,
+
+03:15.866 --> 03:17.883
+limite quando &lt;i>n&lt;/i> tende a infinito,
+
+03:17.883 --> 03:20.595
+podemos dividir o numerador e o
+denominador por n ao cubo.
+
+03:20.597 --> 03:22.191
+Se dividirmos o numerador,
+
+03:22.191 --> 03:25.151
+o primeiro termo será
+quatro sobre n menos um,
+
+03:25.151 --> 03:32.731
+sobre sete sobre &lt;i>n&lt;/i> ao cubo menos três.
+
+03:32.731 --> 03:35.552
+Aqui fica claro, o limite
+quando n tende a infinito,
+
+03:35.552 --> 03:38.613
+isto vai a zero,
+isto vai a zero,
+
+03:38.613 --> 03:40.796
+e você ficará com
+menos um
+
+03:40.796 --> 03:44.739
+sobre menos três,
+que e igual a 1/3.
+
+03:44.739 --> 03:49.155
+Note que o limite de &lt;i>a_n&lt;/i>
+quando n tende a infinito,
+
+03:49.155 --> 03:51.658
+neste caso, não é igual a zero,
+
+03:51.658 --> 03:58.388
+portanto, esta soma será...
+esta série infinita vai divergir.
+
+04:00.293 --> 04:04.423
+Agora, vamos pensar um segundo
+do porquê isto faz muito sentido.
+
+04:04.423 --> 04:07.240
+Bem, a única maneira
+de você obter a convergência--
+
+04:07.693 --> 04:09.639
+Lembre-se, esta é
+uma soma infinita.
+
+04:09.639 --> 04:11.210
+Você está com uma soma infinita.
+
+04:11.210 --> 04:12.239
+A única maneira
+
+04:12.239 --> 04:15.795
+que algo pode convergir
+para um valor finito
+
+04:15.795 --> 04:18.882
+é se os termos que você
+está adicionando vão ficando menores
+
+04:18.882 --> 04:20.933
+e menores e menores,
+tendendo a zero.
+
+04:20.933 --> 04:24.393
+Se quando &lt;i>n&lt;/i> tende a infinito,
+você tem algo ilimitado
+
+04:24.393 --> 04:26.154
+ou se é igual a &lt;i>1/3&lt;/i>,
+
+04:26.154 --> 04:27.872
+isto significa que para
+n's grandes,
+
+04:27.872 --> 04:30.295
+você está adicionando coisas
+que estão se aproximam
+
+04:30.295 --> 04:31.664
+e aproximam de &lt;i>1/3&lt;/i>.
+
+04:31.664 --> 04:34.576
+Bem, se você adiciona infinitos
+números 1/3,
+
+04:34.576 --> 04:36.323
+está indo ao infinito.
+
+04:36.323 --> 04:37.558
+Estará ilimitado.
+
+04:37.558 --> 04:41.296
+Irá divergir. Isto é tudo
+que isto está nos dizendo.
+
+04:41.296 --> 04:43.410
+Veja, para alguma coisa convergir,
+
+04:43.410 --> 04:45.534
+como se está tomando uma soma
+infinita disso,
+
+04:45.534 --> 04:46.767
+em algum ponto,
+isto deve
+
+04:46.767 --> 04:48.344
+estar realmente próximo de zero.
+
+04:48.344 --> 04:50.081
+Se não se aproximam de zero,
+
+04:50.081 --> 04:51.811
+não tem jeito de convergir,
+
+04:51.811 --> 04:54.120
+esta coisa vai divergir,
+
+04:54.120 --> 04:55.599
+e espero que isto faça sentido.
+
+04:55.599 --> 04:58.200
+Isto também nos dá, acredito,
+uma nova visão
+
+04:58.200 --> 05:00.332
+sobre o que o teste da divergência
+não faz.
+
+05:00.332 --> 05:02.391
+O teste da divergência pode ser usado
+
+05:02.391 --> 05:04.550
+para mostrar que algo diverge,
+
+05:04.550 --> 05:06.890
+mas se algo, você pode dizer,
+
+05:06.890 --> 05:08.573
+passa pelo teste da divergência,
+
+05:08.573 --> 05:11.887
+ou, posso dizer, o
+teste da divergência falha,
+
+05:11.887 --> 05:13.678
+ou se ele não é verdadeiro,
+
+05:13.678 --> 05:16.592
+não significa que a coisa irá convergir.
+
+05:16.592 --> 05:18.204
+Deixe-me dar um exemplo disto.
+
+05:20.465 --> 05:23.933
+Esta aqui de &lt;i>n&lt;/i> igual a um
+até o infinito
+
+05:23.933 --> 05:27.218
+de um sobre &lt;i>n&lt;/i>. Esta é, na verdade,
+a série harmônica.
+
+05:28.415 --> 05:31.881
+Esta, se olharmos, se tentarmos
+aplicar o teste da divergência,
+
+05:31.881 --> 05:33.466
+diríamos, ok, qual é o limite
+
+05:33.466 --> 05:37.317
+quando &lt;i>n&lt;/i> tende ao infinito de um sobre &lt;i>n&lt;/i>.
+
+05:37.317 --> 05:39.799
+Bem, ele é zero. Se isto &lt;i>n&lt;/i> a infinito,
+
+05:39.799 --> 05:42.426
+isto é igual a zero.
+
+05:42.426 --> 05:46.833
+Podemos dizer que isto falha
+no teste da divergência.
+
+05:46.833 --> 05:49.813
+Então, apenas usando o teste
+da divergência
+
+05:49.813 --> 05:52.650
+não podemos provar se esta
+coisa diverge,
+
+05:52.650 --> 05:55.128
+mas isto não significa que
+isto não diverge.
+
+05:55.128 --> 05:58.260
+Isto, na verdade, acontece, e
+provamos em diversos vídeos.
+
+05:58.260 --> 06:00.566
+Isto acontece, esta coisa
+realmente diverge.
+
+06:00.566 --> 06:05.566
+Esta coisa realmente diverge.
+
+06:05.738 --> 06:08.918
+Isto significa que o teste da divergência
+não é suficiente,
+
+06:08.918 --> 06:11.816
+não é uma ferramenta suficiente
+para ter certeza se
+
+06:11.816 --> 06:14.105
+isto diverge, veremos que
+o teste da comparação
+
+06:14.105 --> 06:16.352
+e o teste da integral podem
+ser utilizados
+
+06:16.352 --> 06:19.112
+para provar que isto, de fato, diverge.
+
+06:19.112 --> 06:21.932
+Você, definitivamente,
+não pode dizer que
+
+06:21.932 --> 06:24.549
+se isto não se aplica para algo--
+
+06:24.549 --> 06:26.448
+Se você toma o limite
+de n ao infinito
+
+06:26.448 --> 06:29.830
+e isto vai a zero,
+isto ainda pode divergir.
+
+06:29.830 --> 06:33.335
+Não significa, necessariamente,
+que isto converge.
+
+06:33.335 --> 06:35.076
+Existem casos que,
+de fato, convergem
+
+06:35.076 --> 06:37.522
+quando eles se aproximam de zero.
+
+06:37.522 --> 06:41.228
+Por exemplo, se tomarmos a soma
+
+06:41.228 --> 06:45.375
+de &lt;i>n&lt;/i> igual a um ao infinito
+de um sobre n ao quadrado.
+
+06:45.375 --> 06:47.697
+Se eu tentar aplicar
+o teste da divergência--
+
+06:47.697 --> 06:50.646
+Eu tenho o limite quando
+n tende ao infinito
+
+06:50.646 --> 06:53.334
+de um sobre &lt;i>n&lt;/i> ao quadrado,
+bem, isto é igual a zero.
+
+06:53.334 --> 06:54.535
+Isto fica realmente grande,
+
+06:54.535 --> 06:56.281
+isto tende a zero
+
+06:56.281 --> 06:59.430
+e então, novamente,
+isto é uma falha
+
+06:59.430 --> 07:01.544
+no teste da divergência.
+
+07:01.544 --> 07:04.523
+Somente com isto, você
+não tem certeza
+
+07:04.523 --> 07:06.027
+se esta coisa vai convergir,
+
+07:06.027 --> 07:07.175
+ela pode ainda divergir.
+
+07:07.175 --> 07:09.728
+O teste da divergência pode
+não ter sido suficiente.
+
+07:09.728 --> 07:11.981
+Agora, acontece, e provaremos isto
+
+07:11.981 --> 07:14.838
+em vídeos futuros, que esta
+coisa converge.
+
+07:14.838 --> 07:19.829
+Esta coisa converge
+mas não por isto.
+
+07:19.829 --> 07:22.372
+Posso dizer que o
+teste da divergência falhou.
+
+07:22.372 --> 07:24.704
+Temos que usar um teste diferente
+para mostrar
+
+07:24.704 --> 07:26.774
+que isto, de fato, converge,
+
+07:26.774 --> 07:30.626
+como usamos outro teste
+para mostrar que isto, de fato, diverge.
+
+07:30.626 --> 07:32.601
+O teste da divergência é útil
+
+07:32.601 --> 07:36.359
+para as coisas que passa no
+teste da divergência.
+
+07:36.359 --> 07:38.789
+Quando você encontrar que
+o limite de n ao infinito
+
+07:38.789 --> 07:41.396
+de &lt;i>a_n&lt;/i> não é igual a zero,
+
+07:41.396 --> 07:42.991
+como neste caso aqui.
+
+07:42.991 --> 07:45.286
+Neste caso, o teste da divergência
+nos ajuda
+
+07:45.286 --> 07:48.038
+pois ele nos ajuda a concluir
+
+07:48.038 --> 07:54.217
+que a série, definitivamente, diverge.
+
+07:54.217 --> 07:55.181
+[Legendado por Weslley S. Pereira]

@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.042 --> 00:02.557
+Dříve než se dostaneme k samotné algebře,
+
+00:02.557 --> 00:03.895
+chtěl bych vám říct citát
+
+00:03.895 --> 00:05.879
+od jednoho z největších myslitelů v historii, kterým byl
+
+00:05.879 --> 00:09.591
+Galileo Galilei, protože si myslím, že tento citát vystihuje
+
+00:09.591 --> 00:13.907
+pravdu o algebře a matematice vůbec.
+
+00:13.907 --> 00:16.991
+Řekl: Filozofie je zapsána do této veliké knihy,
+
+00:16.991 --> 00:19.324
+vystavené neustále našemu pohledu,
+
+00:19.324 --> 00:20.958
+-- Myslím vesmír --
+
+00:20.958 --> 00:22.944
+ale nemůže být pochopena,
+
+00:22.944 --> 00:23.444
+pokud se nejprve nenaučíme jejímu jazyku,
+
+00:23.444 --> 00:27.601
+a nepochopíme symboly, kterými je psána..
+
+00:27.601 --> 00:28.101
+Kniha je napsána jazykem matematiky ...
+
+00:28.101 --> 00:35.823
+bez kterého člověk marně bloudí temným labyrintem.
+
+00:35.823 --> 00:38.298
+Je to hodně dramatické ale velmi hluboké
+
+00:38.298 --> 00:38.798
+a taková matematika opravdu je.
+
+00:38.798 --> 00:42.470
+Jak začneme s algebrou a budeme se ponořovat
+
+00:42.470 --> 00:44.874
+hlouběji a hlouběji do algebry, uvidíme,
+
+00:44.874 --> 00:46.918
+že začneme s abstraktním myšlením
+
+00:46.918 --> 00:48.915
+a začneme chápat základní myšlenky,
+
+00:48.915 --> 00:51.861
+vysvětlující, jak je strukturován vesmír.
+
+00:51.861 --> 00:54.021
+Jistě lze aplikovat tyto myšlenky na věci
+
+00:54.021 --> 00:56.923
+jako ekonomie,finance, fyzika a chemie.
+
+00:56.923 --> 00:58.933
+Ale v jádru je to stejná idea.
+
+00:58.933 --> 01:02.368
+A tak se dotýkají samé podstaty, jsou čistší,
+
+01:02.368 --> 01:05.076
+než kterákoli z těchto aplikací.
+
+01:05.076 --> 01:08.103
+Abyste viděli, co mám na mysli postupem k základní myšlence,
+
+01:08.103 --> 01:10.580
+pojďme na...Myslím, že bychom mohli,
+
+01:10.580 --> 01:13.357
+Začali jsme hlubokou filosofií vesmíru,
+
+01:13.357 --> 01:14.536
+jak je popsána v matematice.
+
+01:14.536 --> 01:17.863
+Ale začneme s velmi konkrétní jednoduchou myšlenkou.
+
+01:17.863 --> 01:21.067
+Budeme se držet abstrakce a uvidíme, jak se ta samá idea prolíná
+
+01:21.067 --> 01:24.401
+skrze mnoho oborů našem vesmíru.
+
+01:24.401 --> 01:26.898
+Řekněme, že jsme v obchodě,
+
+01:26.898 --> 01:30.024
+jdeme něco koupit a zrovna jsou tam slevy.
+
+01:30.024 --> 01:36.200
+Sleva na všechno je 30f a mám zájem –
+
+01:36.200 --> 01:38.871
+a nenakupuji v příliš luxusních obchody –
+
+01:38.871 --> 01:40.810
+Tak řekněme, že mám zájem o kalhoty,
+
+01:40.810 --> 01:43.375
+které před slevou stály asi 20 dolarů.
+
+01:43.375 --> 01:46.500
+Zhruba tolik utrácím za své kalhoty.
+
+01:46.500 --> 01:49.625
+Líbí se mi kalhoty za 20 dolarů, ale je to ještě lepší,
+
+01:49.625 --> 01:54.267
+je na ně sleva třicet procent.
+
+01:54.267 --> 01:57.702
+Jak vymyslím výši slevy, kterou dostanu z ceny 20 dolarů?
+
+01:57.702 --> 01:59.200
+A to ještě není algebra.
+
+01:59.200 --> 02:01.169
+To je něco, co s čím už jste se nejspíš setkali.
+
+02:01.169 --> 02:04.800
+Vynásobili byste 30% krát 20 dolarů.
+
+02:04.800 --> 02:09.974
+A řekli byste, že se vaše sleva – sleva – se rovná,
+
+02:09.974 --> 02:14.115
+můžete to zapsat jako 30 % krát $20.
+
+02:14.115 --> 02:16.533
+Napíšeme dvacet dolarů fialově..
+
+02:16.533 --> 02:19.200
+Nebo můžete napsat – Pokud jste to chtěli zapsat – toto je desetinné číslo
+
+02:19.200 --> 02:24.200
+můžete jej napsat jako 0,30 krát 20 dolarů.
+
+02:24.200 --> 02:25.693
+A kdybyste to spočítali,
+
+02:25.693 --> 02:27.821
+dostali byste 6 dolarů.
+
+02:27.821 --> 02:30.067
+Nic nového.
+
+02:30.067 --> 02:32.354
+Ale co kdybych to chtěl trochu zobecnit?
+
+02:32.354 --> 02:35.400
+To je sleva na tento konkrétní pár kalhot,
+
+02:35.400 --> 02:37.400
+Ale co když chci znát slevu
+
+02:37.400 --> 02:39.333
+na cokoli v obchodě?
+
+02:39.333 --> 02:43.133
+Tak bych mohl říct: nechť "x" je cena
+
+02:43.133 --> 02:44.486
+– udělám to v jiné barvě...
+
+02:44.486 --> 02:46.221
+Jen udělám symbol.
+
+02:46.221 --> 02:51.169
+Ať "x" je cena produktu, který si chci koupit,
+
+02:51.169 --> 03:00.837
+cena zboží bez slevy v obchodě.
+
+03:00.837 --> 03:06.142
+Takže teď najednou, můžeme říct, že naše sleva
+
+03:06.142 --> 03:15.267
+je rovna 30 %, 30 % krát "x",
+
+03:15.267 --> 03:17.465
+nebo pokud bychom to chtěli napsat jako desetinné číslo,
+
+03:17.465 --> 03:19.411
+mohli bychom napsat 30 % jako desetinné číslo,
+
+03:19.411 --> 03:25.329
+mohli bychom napsat 0,30 krát "x" - krát "x" –.
+
+03:25.329 --> 03:27.351
+Teď to je zajímavé.
+
+03:27.351 --> 03:29.841
+Teď mi dáte cenu výrobku v obchodě
+
+03:29.841 --> 03:31.608
+a ji mohu nahradit za "x",
+
+03:31.608 --> 03:34.395
+A pak ji v podstatě mohu vynásobit, cena krát 0,3
+
+03:34.395 --> 03:36.225
+a dostanu slevu.
+
+03:36.225 --> 03:39.533
+Teď začínáme, pomalu, velmi pomalu
+
+03:39.533 --> 03:42.331
+začínáme se dostávat do abstraktní algebry.
+
+03:42.331 --> 03:44.867
+Uvidíme, že abstrakce bude mnohem jemnější, hlubší
+
+03:44.867 --> 03:46.591
+a upřímně řečeno mnohem krásnější,
+
+03:46.591 --> 03:52.409
+jakmile začneme více studovat, hlouběji se do algebry ponořovat.
+
+03:52.409 --> 03:54.080
+Ale my tady ještě nejsme hotovi.
+
+03:54.080 --> 03:56.077
+Můžeme s tímto ještě pokročit.
+
+03:56.077 --> 03:57.643
+Tady jsme řekli,
+
+03:57.643 --> 03:59.067
+zobecnili jsme pro každý typ zboží,
+
+03:59.067 --> 04:01.400
+nejen pro tento produkt za 20 dolarů.
+
+04:01.400 --> 04:02.795
+Pokud je cena zboží 10 dolarů,
+
+04:02.795 --> 04:05.737
+můžeme dosadit 10 dolarů za x
+
+04:05.737 --> 04:07.966
+a pak bychom řekli 0,30 krát 10.
+
+04:07.966 --> 04:10.667
+Sleva by byla tři dolary.
+
+04:10.667 --> 04:12.795
+Může to být zboží za 100 dolarů,
+
+04:12.795 --> 04:14.303
+Pak by se sleva byla 30 dolarů.
+
+04:14.303 --> 04:16.071
+Ale zkusme ještě více zobecnit.
+
+04:16.071 --> 04:19.576
+"Jaká je sleva pro jakýkoli nákup ve slevě,
+
+04:19.576 --> 04:21.133
+– když je sleva určité procento –?"
+
+04:21.133 --> 04:22.919
+Teď můžeme říct, že sleva
+
+04:22.919 --> 04:25.759
+-- určím proměnnou –
+
+04:25.759 --> 04:32.290
+Nechť m =... Řeknu p, jen aby to dávalo smysl,
+
+04:32.290 --> 04:41.200
+p se rovná procentní slevě.
+
+04:41.200 --> 04:42.667
+Co teď můžeme udělat?
+
+04:42.667 --> 04:47.046
+Teď můžeme říct, že se sleva
+
+04:47.046 --> 04:50.405
+rovná procentní slevě.
+
+04:50.405 --> 04:52.733
+V těchto příkladech jsme pracovali s 30 procenty,
+
+04:52.733 --> 04:55.729
+Ale nyní můžeme říct že je to p, je to sleva v procentech.
+
+04:55.729 --> 04:56.852
+Je to p.
+
+04:56.852 --> 05:01.200
+To je sleva v procentech krát cena daného zboží,
+
+05:01.200 --> 05:04.262
+krát cena, cena bez slevy daného produktu.
+
+05:04.262 --> 05:06.138
+No, ta byla x.
+
+05:06.138 --> 05:08.667
+Sleva se rovná p krát x.
+
+05:08.667 --> 05:10.364
+Teď to je opravdu zajímavé,
+
+05:10.364 --> 05:13.268
+Máme obecný způsob výpočtu slevy
+
+05:13.268 --> 05:19.243
+pro libovolnou procentní slevu a každý daný produkt x.
+
+05:19.243 --> 05:22.333
+A nemuseli jsme použít tato slova a tato písmena.
+
+05:22.333 --> 05:25.402
+Mohli jsme říct "Nechť "y" se rovná výši slevy"
+
+05:25.402 --> 05:28.998
+Nechť y se rovná sleva.
+
+05:28.998 --> 05:32.373
+Pak bychom mohli napsal stejnou základní myšlenku
+
+05:32.373 --> 05:34.400
+namísto psaní slevy jsme mohli napsat
+
+05:34.400 --> 05:40.200
+y se rovná procentní sleva p
+
+05:40.200 --> 05:44.067
+krát původní cena produktu
+
+05:44.067 --> 05:45.667
+– krát x.
+
+05:45.667 --> 05:47.779
+A mohli jste tyto proměnné definovat podle vašeho přání.
+
+05:47.779 --> 05:49.513
+Namísto psaní y
+
+05:49.513 --> 05:52.267
+jste mohli napsat řecké písmeno,
+
+05:52.267 --> 05:53.779
+pokud stále pracujete s faktem,
+
+05:53.779 --> 05:56.729
+že určený symbol představuje skutečnou slevu v dolarech.
+
+05:56.729 --> 05:58.911
+Ale teď to začíná být opravdu zajímavé.
+
+05:58.911 --> 06:02.215
+Protože můžeme použít tento typ vztahu,
+
+06:02.215 --> 06:03.741
+můžeme použít rovnici, dáváte do rovnováhy
+
+06:03.741 --> 06:05.600
+"y" s touhle záležiitostí,která je tady,
+
+06:05.600 --> 06:07.734
+Proto tomu říkáme rovnice.
+
+06:07.734 --> 06:09.406
+Lze ji použít pro věci
+
+06:09.406 --> 06:10.985
+které jsou zcela nesouvisející
+
+06:10.985 --> 06:14.231
+se s výprodejní cenou v tomto obchodě.
+
+06:14.231 --> 06:15.810
+Můžete mít...
+
+06:15.810 --> 06:17.431
+Takže ve fyzice uvidíte,
+
+06:17.431 --> 06:21.600
+že síla se rovná hmotnost krát zrychlení.
+
+06:21.600 --> 06:23.000
+Písmena se liší,
+
+06:23.000 --> 06:24.933
+ale je to v podstatě stejná myšlenka.
+
+06:24.933 --> 06:31.754
+Mohli bychom nechat "y" se rovná síla
+
+06:31.754 --> 06:36.067
+a m se rovná... nebo hmotnost se rovná p.
+
+06:36.067 --> 06:39.200
+Napíšu p se rovná hmotnost
+
+06:39.200 --> 06:42.333
+– a tohle by mohl být intuitivní způsob, jak ji definovat –
+
+06:42.333 --> 06:45.646
+Ale chci vám ukázat, že stejná idea, stejný vztah
+
+06:45.646 --> 06:48.323
+je použit pro 2 různé věci.
+
+06:48.323 --> 06:51.314
+A mohli bychom říct, že "x" se rovná zrychlení.
+
+06:51.333 --> 06:56.961
+Mohli bychom říct, že "x" se rovná zrychlení.
+
+06:56.961 --> 07:01.698
+No a pak slavný vzorec "síla se rovná hmotnost krát zrychlení"
+
+07:01.698 --> 07:03.795
+může být přepsán a je to přesně stejná idea
+
+07:03.800 --> 07:07.533
+jako y – definovali jsme ho jako sílu –
+
+07:07.533 --> 07:08.964
+může být rovno hmotnosti
+
+07:08.964 --> 07:10.210
+-- pro které použíjeme symbol p –
+
+07:10.210 --> 07:13.482
+to se rovná p krát zrchlení.
+
+07:13.482 --> 07:15.579
+A zrovna tady používáme písmeno "x"
+
+07:15.579 --> 07:17.298
+– krát x.
+
+07:17.298 --> 07:19.200
+Je to úplně stejná rovnice.
+
+07:19.200 --> 07:21.400
+Přesně stejná rovnice.
+
+07:21.400 --> 07:23.200
+Vidíme, že můžeme vzít tuto rovnici
+
+07:23.200 --> 07:28.287
+a použít je v ekonomii,
+
+07:28.287 --> 07:30.864
+nebo v oblasti financí
+
+07:30.864 --> 07:33.019
+nebo v informatice
+
+07:33.019 --> 07:35.123
+nebo logice, elektrotechnice
+
+07:35.123 --> 07:36.338
+nebo na cokoli – účetnictví –
+
+07:36.338 --> 07:38.400
+Existuje nekonečný počet aplikací
+
+07:38.400 --> 07:40.200
+této jedné rovnice.
+
+07:40.200 --> 07:42.054
+A co je hezké na matematice,
+
+07:42.054 --> 07:44.902
+a co je hezké zvláště u algebry je,
+
+07:44.902 --> 07:47.087
+že se můžeme zaměřit na tuto abstrakci.
+
+07:47.087 --> 07:49.975
+Můžeme se zaměřit na toto,
+
+07:49.975 --> 07:52.185
+můžeme manipulovat, hrát si s tímto abstraktním konceptem
+
+07:52.185 --> 07:55.462
+a co zjistíme z těchto myšlenek, z těchto převodů
+
+07:55.462 --> 07:58.533
+pak může být znovu použito
+
+07:58.533 --> 08:02.000
+na všechny tyto aplikace.
+
+08:02.000 --> 08:03.733
+A ještě pěknější je, že nám to ukazuje
+
+08:03.733 --> 08:06.063
+skutečné strukturu vesmíru
+
+08:06.063 --> 08:08.718
+kdybyste se zbavili všech těchto lidských definic
+
+08:08.733 --> 08:10.429
+a všech lidských aplikací.
+
+08:10.429 --> 08:11.729
+Tak například můžeme říct:
+
+08:11.729 --> 08:14.237
+"Podívej, pokud se "y" rovná "p" krát "x"."
+
+08:14.237 --> 08:15.723
+Takže doslova, když někdo řekne
+
+08:15.723 --> 08:17.267
+"Hej, to je y."
+
+08:17.267 --> 08:19.692
+a někdo na druhý řekne "Mám "p" krát "x"."
+
+08:19.692 --> 08:22.482
+Můžu říct, "No, tak to máte to samé."
+
+08:22.482 --> 08:25.438
+A pokud byste museli jedno z nich vydělit číslem,
+
+08:25.438 --> 08:27.533
+a chtěli byste zachovat rovnost,
+
+08:27.533 --> 08:30.200
+vydělili byste i to druhé tím samým číslem.
+
+08:30.200 --> 08:31.652
+Tak například,
+
+08:31.652 --> 08:34.577
+Dejme tomu -- víme, že "y" se rovná "p" krát "x" –
+
+08:34.577 --> 08:38.575
+Čemu --- když chcete zachovat rovnost --
+
+08:38.575 --> 08:41.595
+Čemu se "y" děleno "x" bude rovnat?
+
+08:41.595 --> 08:43.467
+"y" se rovnalo "p" krát "x"
+
+08:43.467 --> 08:45.073
+Takže "y" děleno "x"
+
+08:45.073 --> 08:48.731
+bude stejné jako "p" krát "x" děleno "x".
+
+08:48.733 --> 08:50.321
+Ale teď je to zajímavé,
+
+08:50.321 --> 08:52.544
+Protože "p" krát "x" děleno "x"
+
+08:52.544 --> 08:53.711
+– pokud něčím násobíte
+
+08:53.711 --> 08:55.568
+a stejným něčím dělíte,
+
+08:55.568 --> 08:57.333
+vyjde vám původní číslo.
+
+08:57.333 --> 08:59.467
+Násobíte-li 5ti a dělíte-li 5ti,
+
+08:59.467 --> 09:01.373
+dostanete právě "p",
+
+09:01.373 --> 09:02.867
+nebo cokoli toto číslo je.
+
+09:02.867 --> 09:04.333
+Tyto se navzájem vykrátí.
+
+09:04.333 --> 09:06.333
+Ale my jsme byli schopni pohrát si s touto abstrakcí
+
+09:06.333 --> 09:11.159
+a získat "y" lomeno "x" se rovná "p".
+
+09:11.159 --> 09:12.380
+– uděláme "x" zelené –
+
+09:12.380 --> 09:16.324
+"y" lomeno "x" se rovná "p"
+
+09:16.324 --> 09:18.667
+a teď toto má důsledky,
+
+09:18.667 --> 09:21.067
+má to dopad na každou z těchto myšlenek.
+
+09:21.067 --> 09:24.805
+Jedna nám říká zásadní pravdu o vesmíru,
+
+09:24.805 --> 09:26.637
+bez kteréhokoli z těchto aplikací,
+
+09:26.637 --> 09:28.467
+Ale teď můžeme jít a vzít je zpět
+
+09:28.467 --> 09:30.400
+na každé místo, kde jsme je použili.
+
+09:30.400 --> 09:32.100
+Skutečně zajímavá věc je,že najdeme nové...
+
+09:32.100 --> 09:33.831
+– existuje nekonečný počet aplikací
+
+09:33.831 --> 09:36.400
+a upřímně řečeno, my ani neznáme většinu z nich.
+
+09:36.400 --> 09:38.386
+Můžeme objevit nové možnosti použití
+
+09:38.386 --> 09:40.290
+za tisíc let.
+
+09:40.290 --> 09:41.785
+A tak doufejme, že už chápete
+
+09:41.785 --> 09:44.933
+proč Galileo řekl, že
+
+09:44.933 --> 09:48.133
+matematika je skutečně jazyk
+
+09:48.133 --> 09:51.959
+s nímž můžeme pochopit filosofii vesmíru.
+
+09:51.959 --> 09:53.567
+To je důvod, proč nám lidé říkají,
+
+09:53.567 --> 09:56.714
+že pokud by úplně cizí forma života kontaktovala lidské bytosti,
+
+09:56.714 --> 10:00.067
+matematika by pravděpodobně byla první společnou půdou,
+
+10:00.067 --> 10:04.108
+místem, kde bychom mohli začít stavět
+
+10:04.108 --> 10:07.108
+základy komunikace.

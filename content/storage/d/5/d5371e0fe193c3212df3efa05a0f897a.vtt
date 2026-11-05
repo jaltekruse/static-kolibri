@@ -1,0 +1,373 @@
+WEBVTT
+
+00:00.720 --> 00:02.000
+In dieser Tabelle
+
+00:02.000 --> 00:03.200
+sind einige N,
+
+00:03.200 --> 00:04.620
+zum Beispiel N = 1,2,3,4
+
+00:04.620 --> 00:06.930
+Zahlen von G(n) zugeordnet.
+
+00:06.930 --> 00:08.800
+Man kann sich die Funktion G als
+
+00:08.800 --> 00:13.290
+Folge vorstellen und N als den Schritt der Folge.
+
+00:13.290 --> 00:15.200
+Man kann sagen, dass es das Gleiche wie eine Folge ist,
+
+00:15.200 --> 00:18.910
+wobei der erste Schritt 168 ist,
+
+00:18.910 --> 00:23.910
+der zweite 84 und der dritte 42,
+
+00:24.079 --> 00:29.079
+der vierte dann 21 und so weiter.
+
+00:29.330 --> 00:30.830
+der vierte dann 21 und so weiter.
+
+00:30.830 --> 00:32.930
+Mal überlegen was für eine Folge das ist.
+
+00:32.930 --> 00:36.160
+Wir starten mit 168,
+
+00:36.160 --> 00:38.890
+und wie kommt man von 168 zu 84?
+
+00:38.890 --> 00:41.480
+Man könnte 84 abziehen,
+
+00:41.480 --> 00:42.790
+oder man sagt, dass man 186 halbiert,
+
+00:42.790 --> 00:44.960
+also mit (1/2) multipliziert.
+
+00:44.960 --> 00:47.630
+also mit (1/2) multipliziert.
+
+00:47.630 --> 00:49.730
+Um von 84 zu 42 zu kommen
+
+00:49.730 --> 00:51.650
+multiplizieren wir wieder mit (1/2).
+
+00:51.650 --> 00:53.150
+multiplizieren wir wieder mit (1/2).
+
+00:53.150 --> 00:57.350
+Um von 42 zu 21 zu gelangen , multiplizieren wir wieder mit (1/2).
+
+00:57.720 --> 00:59.560
+Hier haben wir also eine geometrische Reihe.
+
+00:59.560 --> 01:02.160
+Wir haben mit einer Zahl begonnen und in jedem Schritt
+
+01:02.160 --> 01:06.350
+der die vorherige Zahl mit 1/2 mal genommen.
+
+01:06.350 --> 01:09.580
+Oft wird diese Zahl als konstanter Quotient bezeichnet.
+
+01:09.580 --> 01:12.320
+Wie können wir nun G(n) als explizite
+
+01:12.320 --> 01:14.860
+Funktion von n schreiben?
+
+01:14.860 --> 01:16.050
+Ich lege euch nahe, das
+
+01:16.050 --> 01:17.420
+ihr das Video pausiert und darüber nachdenkt es selber zu tun.
+
+01:17.420 --> 01:21.181
+G(n) ist eine Funktion, die bei 168 startet und dann den Wert mit jedem Schritt halbiert.
+
+01:21.181 --> 01:23.190
+G(n) ist eine Funktion, die bei 168 startet und dann den Wert mit jedem Schritt halbiert.
+
+01:23.190 --> 01:25.490
+G(n) ist eine Funktion, die bei 168 startet und dann den Wert mit jedem Schritt halbiert.
+
+01:25.490 --> 01:28.060
+G(n) ist eine Funktion, die bei 168 startet und dann den Wert mit jedem Schritt halbiert.
+
+01:28.060 --> 01:29.920
+G(n) ist eine Funktion, die bei 168 startet und dann den Wert mit jedem Schritt halbiert.
+
+01:29.920 --> 01:34.180
+Wir starten bei 168 und multiplizieren dann mit 1/2.
+
+01:34.790 --> 01:38.330
+Wir starten bei 168 und multiplizieren dann mit 1/2.
+
+01:38.330 --> 01:42.230
+Wir multiplizieren mit 1/2 nur nach einer bestimmten Anzahl.
+
+01:42.230 --> 01:45.100
+Der Exponent ist die Anzahl an Halbierungen die wir vornehmen.
+
+01:45.100 --> 01:47.160
+Der Exponent ist die Anzahl an Halbierungen die wir vornehmen.
+
+01:47.160 --> 01:49.260
+Wir oft werden wir das ganze halbieren ?
+
+01:49.260 --> 01:52.792
+Beim ersten Term haben wir das ganze 0 mal halbiert.
+
+01:52.792 --> 01:55.950
+Beim zweiten haben wir es einmal halbiert.
+
+01:55.950 --> 01:58.820
+Beim dritten Term haben wir es zwei mal halbiert.
+
+01:58.820 --> 02:01.878
+Den vierten Term haben wir dreimal halbiert.
+
+02:01.878 --> 02:04.300
+Es sieht so aus als ob wir den Term immer n-1 mal halbiert haben.
+
+02:04.300 --> 02:08.630
+Es sieht so aus als ob wir den Term immer n-1 mal halbiert haben.
+
+02:08.630 --> 02:10.120
+Du kannst sehen, dass das funktioniert,
+
+02:10.120 --> 02:12.430
+wenn n=1 ist haben wir
+
+02:12.430 --> 02:14.660
+1-1=0,
+
+02:14.660 --> 02:16.300
+Und (1/2)^0 =1.
+
+02:16.300 --> 02:18.260
+Wir haben also einfach 168.
+
+02:18.260 --> 02:20.320
+Wenn n=2 ist dann folgt 2-1=1.
+
+02:20.320 --> 02:22.940
+Also werden wir 168 einmal halbieren.
+
+02:22.940 --> 02:24.690
+Wenn n=3 ist,
+
+02:24.690 --> 02:27.130
+werden wir eben zweimal halbieren,
+
+02:27.130 --> 02:31.750
+da 3-1=2.
+
+02:31.750 --> 02:33.230
+Man wird also zwei mal halbieren.
+
+02:33.230 --> 02:35.490
+Das sehen wir hier.
+
+02:35.490 --> 02:39.790
+Das sieht nach einer schönen explizieten Definition
+
+02:39.790 --> 02:42.050
+für eine geometrische Reihe aus.
+
+02:42.050 --> 02:43.400
+Man könnte G(n) auch
+
+02:43.400 --> 02:47.740
+anders schreiben,
+
+02:48.120 --> 02:50.220
+zum Beispiel so:
+
+02:50.220 --> 02:52.920
+168/(2^(n-1))
+
+02:52.920 --> 02:56.350
+Hier habe ich nur umgeformt.
+
+02:56.350 --> 02:57.675
+Ein weiterer Weg das anzugehen ist
+
+02:57.675 --> 03:01.090
+die Potenzgesetze zu benutzen.
+
+03:01.090 --> 03:05.030
+Ich werde noch eine andere Version notieren.
+
+03:05.030 --> 03:07.290
+Ich werde noch eine andere Version notieren.
+
+03:07.290 --> 03:09.494
+Ich werde noch eine andere Version notieren.
+
+03:09.494 --> 03:12.520
+G(n)= 168
+
+03:12.520 --> 03:14.221
+Ich benutze eine andere Farbe.
+
+03:14.221 --> 03:16.760
+Dieser rechte Teil hier ist das Gleiche
+
+03:16.760 --> 03:18.470
+wie (1/2)^n
+
+03:18.470 --> 03:22.760
+wie (1/2)^n
+
+03:22.760 --> 03:24.300
+mal (1/2)^-1.
+
+03:24.300 --> 03:26.530
+(1/2)^n * (1/2)^-1.
+
+03:26.530 --> 03:27.820
+und (1/2)^-1 = 2.
+
+03:27.820 --> 03:31.420
+und (1/2)^-1 = 2.
+
+03:31.420 --> 03:33.879
+und (1/2)^-1 = 2.
+
+03:33.879 --> 03:36.790
+Wir können es also als 168*2
+
+03:36.790 --> 03:39.560
+hinschreiben, was
+
+03:39.560 --> 03:41.620
+336 ist.
+
+03:41.620 --> 03:43.200
+Stimmt 336?
+
+03:43.200 --> 03:47.500
+160/2=320+16 ist gleich 336
+
+03:47.500 --> 03:50.030
+160/2=320+16 ist gleich 336
+
+03:50.030 --> 03:52.660
+Und das ganze dann mal (1/2) ^n
+
+03:52.660 --> 03:55.720
+Und das ganze dann mal (1/2) ^n
+
+03:55.720 --> 03:57.970
+Das sind gleichbedeutende Aussagen.
+
+03:57.970 --> 03:59.750
+Die hier sind etwas intuitiver,
+
+03:59.750 --> 04:02.400
+denn so weis man sofort, dass man bei 168 startet
+
+04:02.400 --> 04:04.190
+und immer halbiert.
+
+04:04.190 --> 04:06.581
+und immer halbiert.
+
+04:06.581 --> 04:09.220
+Aber rechnerisch ist das gleich wie unser
+
+04:09.220 --> 04:10.930
+originaler Ausdruck,
+
+04:10.930 --> 04:13.850
+aber können wir G(n) auch rekursiv definieren.
+
+04:13.850 --> 04:17.050
+Ich lege dir nahe, dass Video zu pausieren und es selber auszutesten.
+
+04:17.050 --> 04:19.010
+Oftmals ist die rekursive Funktion etwas simpler also mal sehen.
+
+04:19.010 --> 04:20.690
+Oftmals ist die rekursive Funktion etwas simpler also mal sehen.
+
+04:20.690 --> 04:23.890
+Oftmals ist die rekursive Funktion etwas simpler also mal sehen.
+
+04:23.890 --> 04:26.230
+Oftmals ist die rekursive Funktion etwas simpler also mal sehen.
+
+04:26.230 --> 04:28.080
+Oftmals ist die rekursive Funktion etwas simpler also mal sehen.
+
+04:28.080 --> 04:33.030
+G(n) ist, wenn n=1 ist
+
+04:33.030 --> 04:36.879
+168. Also für n=1 gilt
+
+04:36.879 --> 04:41.879
+G(n)=168. Denn wir starten ja bei 168.
+
+04:42.340 --> 04:47.340
+Wenn n>1 und n eine Ganze Zahl ist,
+
+04:47.470 --> 04:49.790
+also n ist definiert über alle positiven ganzen Zahlen,
+
+04:49.790 --> 04:52.420
+also n ist definiert über alle positiven ganzen Zahlen,
+
+04:52.420 --> 04:56.080
+was passiert dann?
+
+04:56.479 --> 04:58.430
+Wir werden bei jedem Schritt den
+
+04:58.430 --> 05:00.080
+vorherigen Term halbieren.
+
+05:00.080 --> 05:05.080
+Also G(n)=(1/2)*G(n-1).
+
+05:06.172 --> 05:07.460
+Und du kannst schauen ob das stimmt.
+
+05:07.460 --> 05:09.690
+Wenn n=1, dann sind wir bei 168.
+
+05:09.690 --> 05:11.300
+Wenn n=1, dann sind wir bei 168.
+
+05:11.300 --> 05:14.650
+Wenn n=2 werden wir G(1) halbieren,
+
+05:14.650 --> 05:17.230
+was natürlich 84 ist.
+
+05:17.230 --> 05:19.180
+was natürlich 84 ist.
+
+05:19.180 --> 05:22.680
+G(3) wird die Hälfte von G(2) sein.
+
+05:22.680 --> 05:26.930
+was stimmt.
+
+05:26.930 --> 05:28.730
+So würden wir also das Ganze
+
+05:28.730 --> 05:32.290
+explizit definieren.
+
+05:32.290 --> 05:36.450
+Und so wie hier ist es die rekursive Definition der Folge.

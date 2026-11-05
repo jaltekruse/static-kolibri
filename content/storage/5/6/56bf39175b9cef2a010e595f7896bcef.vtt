@@ -1,0 +1,324 @@
+WEBVTT
+
+00:00.477 --> 00:02.192
+- [Voiceover] We've
+already seen one definition
+
+00:02.192 --> 00:04.268
+of the definite integral, and many of them
+
+00:04.268 --> 00:06.082
+are closely related to this definition
+
+00:06.082 --> 00:09.129
+that we've already seen
+is the definite integral
+
+00:09.129 --> 00:11.968
+from a to b of f of x d
+of x is this area shaded
+
+00:11.968 --> 00:14.893
+in blue, and we can approximate it
+
+00:14.893 --> 00:19.893
+by splitting it into n rectangles.
+
+00:20.610 --> 00:24.139
+So let's say that's the
+first rectangle, one.
+
+00:24.139 --> 00:26.428
+That's the second
+rectangle, two, and you're
+
+00:26.428 --> 00:28.773
+going to go all the way
+to the nth rectangle,
+
+00:28.773 --> 00:31.406
+so this would be the n
+minus oneth rectangle.
+
+00:31.406 --> 00:33.147
+For the sake of this
+argument I'm going to make
+
+00:33.147 --> 00:34.310
+in this video, we're going to assume
+
+00:34.310 --> 00:35.717
+that they're all the same width.
+
+00:35.717 --> 00:38.088
+So this is the nth rectangle.
+
+00:38.088 --> 00:40.634
+They all have the same
+width, and we see they're
+
+00:40.634 --> 00:42.081
+definitions of integration
+where you don't have
+
+00:42.081 --> 00:44.066
+to have the same width here, but let's say
+
+00:44.066 --> 00:46.371
+that each of those widths are delta x,
+
+00:46.371 --> 00:49.608
+and the way that we
+calculate delta x is we take
+
+00:49.608 --> 00:54.608
+b minus a and we divide it by n,
+
+00:56.948 --> 00:58.560
+which is common sense, or this is
+
+00:58.560 --> 00:59.781
+what you learned in division.
+
+00:59.781 --> 01:01.224
+We're just taking this
+length and dividing it
+
+01:01.224 --> 01:06.224
+by n to get n equals spacings of delta x.
+
+01:07.738 --> 01:08.865
+So if you do this, you'll say, okay,
+
+01:08.865 --> 01:10.739
+well we see this multiple times,
+
+01:10.739 --> 01:12.723
+you can approximate it.
+
+01:12.723 --> 01:15.773
+You can approximate this
+area using these rectangles
+
+01:15.773 --> 01:19.936
+as the sum from i equals one to n.
+
+01:19.936 --> 01:24.831
+So you're summing n of
+these rectangle's areas
+
+01:24.831 --> 01:28.614
+where the height of
+each of these rectangles
+
+01:28.614 --> 01:33.388
+are going to be f of
+x sub i, where x sub i
+
+01:33.388 --> 01:35.971
+is the point at which
+you're taking the function
+
+01:35.971 --> 01:37.748
+value to find out its height.
+
+01:37.748 --> 01:41.041
+So that could be x of
+one, x of two, x of three,
+
+01:41.041 --> 01:43.793
+so on and so forth, and
+you're multiplying that
+
+01:43.793 --> 01:46.917
+times your delta x.
+
+01:46.917 --> 01:49.727
+So you take x sub two, f of x sub two
+
+01:49.727 --> 01:54.727
+is that height right there.
+
+01:55.455 --> 01:58.734
+You multiply it times delta x.
+
+01:58.734 --> 01:59.745
+You get the area.
+
+01:59.745 --> 02:02.347
+We saw that when we looked at Riemann sums
+
+02:02.347 --> 02:03.456
+and using that to approximate.
+
+02:03.456 --> 02:07.728
+We said, hey the one definition
+of the definite integral
+
+02:07.728 --> 02:09.658
+is that since this is
+the area this is going
+
+02:09.658 --> 02:14.653
+to be the limit as n approaches infinity
+
+02:14.653 --> 02:19.653
+of this where delta x is defined as that.
+
+02:19.747 --> 02:22.035
+So let me just copy and paste that.
+
+02:25.286 --> 02:27.757
+So that's one way to think about it.
+
+02:27.757 --> 02:32.757
+Now, given this definition,
+what do you think
+
+02:33.412 --> 02:35.428
+this, or maybe another
+way to think about it,
+
+02:35.428 --> 02:38.175
+how do you think this
+expression that I'm writing
+
+02:38.175 --> 02:41.714
+right over here based on this definition
+
+02:41.714 --> 02:44.207
+should relate to this expression?
+
+02:44.207 --> 02:47.967
+So notice, all I've done
+is I've segued from a to b.
+
+02:47.967 --> 02:52.086
+I'm now going from b to a.
+
+02:52.086 --> 02:54.127
+How do you think these
+two things should relate?
+
+02:54.127 --> 02:56.023
+I encourage you to look at all of this
+
+02:56.023 --> 02:57.103
+to come to that conclusion,
+
+02:57.103 --> 02:59.772
+and pause the video to do so.
+
+02:59.772 --> 03:01.744
+Well let's just think about
+what's going to happen.
+
+03:01.744 --> 03:05.395
+This is going to be,
+if I were to literally
+
+03:05.395 --> 03:10.395
+just take this and copy
+and paste it, which is
+
+03:10.610 --> 03:14.057
+exactly what I'm going to
+do, if I just took this,
+
+03:14.057 --> 03:17.308
+by definition, since I
+swapped these two bounds,
+
+03:17.308 --> 03:19.903
+I'm going to want to swap these two.
+
+03:19.903 --> 03:23.028
+Instead of b minus a it's
+going to be a minus b now.
+
+03:23.028 --> 03:28.028
+It's going to be a minus b.
+
+03:30.555 --> 03:32.549
+This value right over here.
+
+03:32.549 --> 03:34.644
+Let me make these color-coded maybe.
+
+03:34.644 --> 03:39.644
+So this orange delta x is
+going to be the negative
+
+03:40.992 --> 03:45.313
+of this green delta x.
+
+03:45.313 --> 03:48.584
+This is the negative of
+that right over there,
+
+03:48.584 --> 03:50.936
+and everything else is the same.
+
+03:50.936 --> 03:52.817
+So what am I going to end up doing?
+
+03:52.817 --> 03:54.244
+Well I'm essentially
+going to end up having
+
+03:54.244 --> 03:56.569
+the negative value of this.
+
+03:56.569 --> 04:00.080
+So this is going to be
+equal to the negative
+
+04:00.080 --> 04:05.080
+of the integral from a to b of f of x dx.
+
+04:05.842 --> 04:08.312
+So this is the result
+we get, which is another
+
+04:08.312 --> 04:10.463
+really important integration property,
+
+04:10.463 --> 04:13.908
+that if you swap the
+bounds of integration,
+
+04:13.908 --> 04:15.604
+and it really just comes from this idea,
+
+04:15.604 --> 04:18.070
+instead of delta x being
+b minus a, if you swap
+
+04:18.070 --> 04:20.316
+the bounds of integration,
+it's going to be a minus b.
+
+04:20.316 --> 04:22.079
+We're going to get the negative delta x,
+
+04:22.079 --> 04:23.753
+or the negative of your original delta x,
+
+04:23.753 --> 04:24.907
+which is going to give you the negative
+
+04:24.907 --> 04:27.555
+of this original value right over here.
+
+04:27.555 --> 04:29.836
+Once again, this is a
+really, really useful
+
+04:29.836 --> 04:31.317
+integration property where you're trying
+
+04:31.317 --> 04:32.905
+to make sense of some integrals and even
+
+04:32.905 --> 04:35.310
+sometimes solve some of them.

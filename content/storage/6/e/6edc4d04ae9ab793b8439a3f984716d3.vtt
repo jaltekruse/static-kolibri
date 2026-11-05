@@ -1,0 +1,587 @@
+WEBVTT
+
+00:00.624 --> 00:04.254
+- [Voiceover] Let's explore
+a bit the infinite series
+
+00:04.254 --> 00:09.254
+from n equals one to infinity
+of one over n squared.
+
+00:09.759 --> 00:14.301
+Which of course is equal
+to one plus one fourth,
+
+00:14.301 --> 00:16.535
+that's one over two
+squared, plus one over three
+
+00:16.535 --> 00:19.737
+squared, which is one
+ninth, plus one sixteenth
+
+00:19.890 --> 00:22.427
+and it goes on and on and on forever.
+
+00:22.808 --> 00:24.810
+So there's a couple of
+things that we know about it.
+
+00:25.195 --> 00:29.044
+The first thing is that all of
+the terms here are positive.
+
+00:29.475 --> 00:32.244
+So all of the terms here are positive.
+
+00:33.448 --> 00:37.100
+So they're all positive and
+that they're decreasing.
+
+00:37.240 --> 00:40.608
+It looks like they're
+decreasing quite quickly
+
+00:40.608 --> 00:44.023
+here from one to one fourth
+to one ninth to one sixteenth,
+
+00:44.023 --> 00:46.544
+and so they're quickly approaching zero,
+
+00:46.544 --> 00:48.523
+which makes us feel pretty good that
+
+00:48.523 --> 00:51.983
+this thing has a chance of converging.
+
+00:52.372 --> 00:54.370
+And because they're all
+positive we know that
+
+00:54.370 --> 00:57.188
+this sum right over
+here, if it does converge
+
+00:57.188 --> 01:00.059
+is going to be greater than zero.
+
+01:00.142 --> 01:04.503
+So the only reason why it
+wouldn't converge is if
+
+01:04.503 --> 01:07.685
+somehow it goes unbounded
+towards infinity,
+
+01:07.685 --> 01:09.522
+which we know if this was one over n
+
+01:09.522 --> 01:11.481
+it would be unbounded towards infinity.
+
+01:11.481 --> 01:14.187
+So this says that's a possibility here.
+
+01:14.491 --> 01:16.493
+So if we could show that this is bounded,
+
+01:16.493 --> 01:19.051
+then that will be a pretty
+good argument for why
+
+01:19.051 --> 01:21.673
+this thing right over here
+converges because the only
+
+01:21.673 --> 01:24.240
+reason why you could
+diverge is if you went to
+
+01:24.240 --> 01:26.024
+either positive infinity
+or negative infinity.
+
+01:26.143 --> 01:27.572
+We already know that this
+thing isn't going to go
+
+01:27.572 --> 01:29.602
+to negative infinity because
+it's all positive terms.
+
+01:29.767 --> 01:31.534
+Or you could diverge if
+this thing oscillates,
+
+01:31.534 --> 01:32.976
+but it's not going to
+oscillate because all of these
+
+01:32.976 --> 01:36.114
+terms are just adding
+to the sum, none of them
+
+01:36.114 --> 01:39.019
+are taking away because none
+of these terms are negative.
+
+01:39.396 --> 01:42.286
+So let's see if we can make
+a good argument for why
+
+01:42.286 --> 01:44.856
+this sum right over here is bounded,
+
+01:44.856 --> 01:47.181
+especially if we can
+come up with the bound,
+
+01:47.181 --> 01:48.907
+then that's a pretty good argument that
+
+01:49.522 --> 01:52.656
+this infinite series should converge.
+
+01:53.352 --> 01:55.168
+And the way that we're going to do that is
+
+01:55.168 --> 01:57.342
+we're going to explore a related function.
+
+01:57.888 --> 02:00.326
+So what I wanna do is I wanna explore
+
+02:00.326 --> 02:04.135
+f of x is equal to one over x squared.
+
+02:04.940 --> 02:06.636
+You could really view this right over here
+
+02:06.636 --> 02:11.636
+one over n squared as f of n
+if I were to write it this way.
+
+02:12.800 --> 02:13.967
+So why is this interesting?
+
+02:13.967 --> 02:15.192
+Well let's graph it.
+
+02:17.578 --> 02:20.739
+So that's the graph of
+y is equal to f of x.
+
+02:24.141 --> 02:27.646
+And notice this is a
+continuous, positive, decreasing
+
+02:27.646 --> 02:32.282
+function, especially
+over the interval that
+
+02:32.282 --> 02:33.546
+I care about right over here.
+
+02:33.546 --> 02:38.034
+I guess we could say for
+positive values of x,
+
+02:38.034 --> 02:43.034
+it is a continuous, positive,
+decreasing function.
+
+02:43.863 --> 02:47.959
+And what's interesting is
+we can use this as really
+
+02:47.959 --> 02:50.625
+an underestimate for this
+area right over here.
+
+02:50.625 --> 02:51.742
+What do I mean by that?
+
+02:52.419 --> 02:55.510
+Well one, this first term right over here,
+
+02:56.170 --> 02:57.719
+you could view that as the area
+
+02:57.719 --> 03:00.688
+of this block right over here.
+
+03:01.383 --> 03:05.955
+That is f of n or I guess
+you can say f of one high
+
+03:05.955 --> 03:08.346
+and one wide, so it's going to be
+
+03:08.346 --> 03:12.115
+one times one over one squared or one.
+
+03:15.151 --> 03:16.822
+Let me make sure I'm
+using different colors.
+
+03:16.822 --> 03:18.960
+This term right over
+here, that could represent
+
+03:18.960 --> 03:23.960
+the area of this block,
+which is one fourth high
+
+03:24.547 --> 03:29.547
+and one wide so it is going
+to have an area of one fourth.
+
+03:30.915 --> 03:33.143
+What could this one represent?
+
+03:33.509 --> 03:35.552
+Well the area of the next
+block if we're trying
+
+03:35.552 --> 03:38.391
+to estimate the area under the curve.
+
+03:38.495 --> 03:40.852
+And this might look
+familiar from when we first
+
+03:40.852 --> 03:43.392
+got exposed to the integral
+or even before we got
+
+03:43.392 --> 03:45.509
+exposed to the integral and
+we were taking Riemann sums.
+
+03:45.977 --> 03:48.106
+So that right over here, that area,
+
+03:48.106 --> 03:49.954
+is going to be equal to one ninth.
+
+03:50.827 --> 03:53.912
+So what's intriguing about
+this is we know how to
+
+03:53.912 --> 03:58.449
+find the exact area, or
+the exact area from one
+
+03:58.449 --> 04:01.414
+to infinity, from x
+equals one to infinity.
+
+04:01.433 --> 04:03.255
+So maybe we can use that somehow.
+
+04:03.598 --> 04:06.668
+We know what this area is right over here,
+
+04:07.329 --> 04:11.761
+which we can denote as
+the improper integral
+
+04:11.761 --> 04:16.453
+from one to infinity of f of x dx.
+
+04:16.626 --> 04:19.531
+We know what that is and I'll
+figure it out in a little bit.
+
+04:19.638 --> 04:20.959
+And if we know what this
+is, if we can figure out
+
+04:20.959 --> 04:22.741
+the value that's going
+to be an upper-bound for
+
+04:22.741 --> 04:24.328
+one fourth plus one ninth plus one
+
+04:24.328 --> 04:26.780
+sixteenth on and on and on and on.
+
+04:26.862 --> 04:29.425
+And so that will allow
+us to essentially bound
+
+04:29.425 --> 04:34.425
+what this series evaluates
+to and as we said earlier
+
+04:34.800 --> 04:37.828
+that would be a very good
+argument for its convergence.
+
+04:37.828 --> 04:39.692
+So the whole point here,
+I'm not doing a rigorous
+
+04:39.692 --> 04:42.543
+proof, but really getting
+you the underlying
+
+04:42.543 --> 04:46.279
+conceptual understanding
+for a very popular test
+
+04:46.279 --> 04:47.996
+for convergence or divergence
+
+04:47.996 --> 04:50.649
+which is called the integral test.
+
+04:51.468 --> 04:53.408
+Let me just write that
+down just so you know
+
+04:53.408 --> 04:57.145
+what this is kind of the
+mental foundations for.
+
+04:58.108 --> 04:59.545
+So what do I mean here?
+
+04:59.564 --> 05:02.215
+So let me write this sum again.
+
+05:02.215 --> 05:03.505
+Let me write it a little bit different.
+
+05:03.505 --> 05:07.961
+So our original series from n equals one
+
+05:07.961 --> 05:11.058
+to infinity of one over n squared.
+
+05:11.440 --> 05:13.897
+It's going to be equal
+to this first block,
+
+05:13.897 --> 05:17.306
+the area of this first
+block plus the area of
+
+05:17.306 --> 05:19.213
+all the rest of the
+blocks, the one fourth plus
+
+05:19.213 --> 05:20.851
+one ninth plus one sixteenth,
+
+05:24.202 --> 05:25.544
+let me do this in a new color.
+
+05:25.821 --> 05:30.821
+Which we could write as
+the sum from n equals two
+
+05:32.089 --> 05:36.937
+to infinity of one over n squared.
+
+05:37.331 --> 05:39.832
+So I just kind of expressed this as a sum
+
+05:39.832 --> 05:41.646
+of this plus all of that stuff.
+
+05:42.086 --> 05:45.967
+Now what's interesting
+is that this, what I just
+
+05:45.967 --> 05:50.131
+wrote in this blue
+notation that's this block
+
+05:50.131 --> 05:53.554
+plus this block plus the next block,
+
+05:53.554 --> 05:55.734
+which is going to be less than
+
+05:55.734 --> 05:57.940
+this definite integral right over here.
+
+05:58.058 --> 06:00.048
+This definite integral,
+notice it's an underestimate
+
+06:00.048 --> 06:02.635
+it's always below the
+curve, so it's going to
+
+06:02.635 --> 06:04.095
+be less than that definite integral.
+
+06:04.095 --> 06:07.922
+So we can write that this
+thing is going to be less
+
+06:07.922 --> 06:12.908
+than one plus instead of writing this
+
+06:12.908 --> 06:14.269
+I'm gonna write the definite integral.
+
+06:14.999 --> 06:17.472
+One plus the definite integral from one
+
+06:17.472 --> 06:22.472
+to infinity of one over x squared dx.
+
+06:25.444 --> 06:26.679
+Now why is that useful?
+
+06:26.907 --> 06:28.957
+Well we know how to evaluate
+this and I encourage
+
+06:28.957 --> 06:31.602
+you to review the section on Khan Academy
+
+06:31.602 --> 06:33.877
+on improper integrals if
+this looks unfamiliar,
+
+06:33.877 --> 06:37.300
+but I'll evaluate this down here.
+
+06:37.698 --> 06:41.701
+We know that this is the
+same thing as the limit as,
+
+06:41.701 --> 06:43.133
+I'm going to introduce a variable here,
+
+06:43.133 --> 06:46.727
+t approaches infinity
+of the definite integral
+
+06:46.727 --> 06:49.259
+from one to t of and I'll just write
+
+06:49.259 --> 06:52.191
+this as x to the negative two dx.
+
+06:52.449 --> 06:57.188
+Which is equal to the limit
+as t approaches infinity
+
+06:57.188 --> 07:02.188
+of negative x to the
+negative one, or actually I
+
+07:02.439 --> 07:04.145
+could write that as negative one over x.
+
+07:06.698 --> 07:09.659
+And we're going to evaluate
+that at t and at one,
+
+07:09.659 --> 07:14.659
+which is equal to the limit
+as t approaches infinity
+
+07:14.702 --> 07:19.702
+of negative one over t
+and then minus negative
+
+07:20.648 --> 07:22.870
+one over one so that
+would just be plus one.
+
+07:23.302 --> 07:25.462
+And as t approaches infinity
+this term right over here
+
+07:25.462 --> 07:26.532
+is going to be zero, so this is
+
+07:26.532 --> 07:28.108
+just going to simplify to one.
+
+07:28.537 --> 07:32.468
+So this whole thing evaluates to one.
+
+07:33.067 --> 07:35.156
+So just like that we were able to place
+
+07:35.156 --> 07:37.619
+an upper-bound on this series.
+
+07:38.274 --> 07:41.894
+We're able to say that
+the series under question
+
+07:41.894 --> 07:45.448
+or in question, so the
+infinite sum from n equals one
+
+07:45.448 --> 07:48.221
+to infinity of one over
+n squared is going to be
+
+07:48.221 --> 07:53.221
+less than one plus one or it's
+going to be less than two.
+
+08:00.748 --> 08:03.084
+Or another way to think about
+it, it's going to be the two
+
+08:03.084 --> 08:05.580
+is this area, that's one right over there
+
+08:05.580 --> 08:08.021
+plus this area right over here.
+
+08:08.358 --> 08:10.461
+So we're saying that this
+sum is going to be less
+
+08:10.461 --> 08:12.768
+than two so we have bounded it above.
+
+08:12.768 --> 08:15.589
+So we know that it cannot
+go to positive infinity.
+
+08:15.833 --> 08:18.018
+Because all the terms are
+positive it's definitely
+
+08:18.018 --> 08:19.411
+not going to go to negative infinity.
+
+08:19.556 --> 08:21.364
+And because all the terms
+are positive we also know
+
+08:21.364 --> 08:23.195
+that this isn't going to oscillate between
+
+08:23.195 --> 08:25.963
+two different values, so
+this gives us a pretty
+
+08:25.963 --> 08:30.963
+good sense that this series converges.
+
+08:32.305 --> 08:36.946
+And the logic we just
+used here to argue for why
+
+08:36.946 --> 08:39.385
+this converges, once again
+not a rigorous proof, but
+
+08:39.385 --> 08:44.206
+this is the underlying
+logic of the integral test.

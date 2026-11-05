@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.042 --> 00:02.557
+Prima di addentrarci nel pieno dell'algebra
+
+00:02.557 --> 00:03.895
+vorrei proporvi una citazione
+
+00:03.895 --> 00:05.879
+da una delle più grandi menti della storia dell'uomo,
+
+00:05.879 --> 00:09.591
+Galileo Galilei, poiché penso che tale citazione contenga
+
+00:09.591 --> 00:13.907
+il vero cuore dell'algebra e della matematica in generale.
+
+00:13.907 --> 00:16.991
+Ha detto: "La filosofia è scritta in quel grande libro
+
+00:16.991 --> 00:19.324
+che si trova sempre davanti ai vostri occhi
+
+00:19.324 --> 00:20.958
+-- intendo l'universo --
+
+00:20.958 --> 00:22.944
+ma non possiamo comprenderlo
+
+00:22.944 --> 00:23.444
+se prima non impariamo il linguaggio
+
+00:23.444 --> 00:27.601
+e comprendiamo i simboli col quale è scritto.
+
+00:27.601 --> 00:28.101
+Questo libro è scritto in linguaggio matematico...
+
+00:28.101 --> 00:35.823
+senza il quale ciascuno di noi vaga inutilmente attraverso un labirinto oscuro.
+
+00:35.823 --> 00:38.298
+Così drammatico ma molto profondo
+
+00:38.298 --> 00:38.798
+e punta davvero al cuore della matematica
+
+00:38.798 --> 00:42.470
+e ciò che vedremo non appena inizieremo
+
+00:42.470 --> 00:44.874
+ad addentrarci sempre più in profondità nell'algebra
+
+00:44.874 --> 00:46.918
+è che inizieremo ad astrarre le cose
+
+00:46.918 --> 00:48.915
+e inizieremo a raggiungere le idee principali
+
+00:48.915 --> 00:51.861
+che inizino a spiegare davvero come l'universo è strutturato
+
+00:51.861 --> 00:54.021
+Sicuramente queste idee possono essere applicate a cose
+
+00:54.021 --> 00:56.923
+come economia, finanza, fisica, chimica
+
+00:56.923 --> 00:58.933
+ma il loro fondamento è lo stesso.
+
+00:58.933 --> 01:02.368
+E così sono più essenziali, più puri
+
+01:02.368 --> 01:05.076
+delle loro applicazioni
+
+01:05.076 --> 01:08.103
+E per capire di cosa sto parlando iniziamo con l'idea principale:
+
+01:08.103 --> 01:10.580
+iniziamo con.... Si penso si possa fare,
+
+01:10.580 --> 01:13.357
+potremmo iniziare con la grande filosofia dell'universo
+
+01:13.357 --> 01:14.536
+scritta in matematico.
+
+01:14.536 --> 01:17.863
+Cominciamo con una semplice idea molto pratica
+
+01:17.863 --> 01:21.067
+tuttavia continueremo ad astrarre e vedremo come le idee si connettono
+
+01:21.067 --> 01:24.401
+attraverso i diversi domini del nostro universo.
+
+01:24.401 --> 01:26.898
+Diciamo che siamo al negozio
+
+01:26.898 --> 01:30.024
+e stiamo per comprare qualcosa che è in saldo.
+
+01:30.024 --> 01:36.200
+Lo sconto è de l30% e sono interessato --
+
+01:36.200 --> 01:38.871
+e io non faccio spese in negozi troppo economici --
+
+01:38.871 --> 01:40.810
+quindi diciamo che mi interessa un paio di pantaloni
+
+01:40.810 --> 01:43.375
+che prima dei saldi costavano $20
+
+01:43.375 --> 01:46.500
+Voglio capire quanto spendo per i miei pantaloni.
+
+01:46.500 --> 01:49.625
+così sono interessato a un paio di pantaloni che costano $20, ma è anche meglio!
+
+01:49.625 --> 01:54.267
+C'è uno sconto del trenta percento su questi pantaloni
+
+01:54.267 --> 01:57.702
+A quanto pensate ammonti lo sconto su quei $20?
+
+01:57.702 --> 01:59.200
+E questa non è ancora algebra
+
+01:59.200 --> 02:01.169
+è qualcosa che probabilmente avete già incontrato.
+
+02:01.169 --> 02:04.800
+Volete moltiplicare trenta percento per i venti dollari
+
+02:04.800 --> 02:09.974
+così sa poter dire a quanto ammonta il vostro sconto
+
+02:09.974 --> 02:14.115
+potreste scriverlo come 30% per $20
+
+02:14.115 --> 02:16.533
+Scriveremo venti dollari in viola
+
+02:16.533 --> 02:19.200
+Oppure puoi scriverlo - se vuoi scriverlo -- come un decimale
+
+02:19.200 --> 02:24.200
+quindi 0.30*20 dollari
+
+02:24.200 --> 02:25.693
+A se dovessi fare i conti
+
+02:25.693 --> 02:27.821
+otterresti 6 dollari
+
+02:27.821 --> 02:30.067
+Quindi per ora nulla di nuovo.
+
+02:30.067 --> 02:32.354
+Ma come posso generalizzare?
+
+02:32.354 --> 02:35.400
+Questo è lo sconto su un particolare paio di pantaloni,
+
+02:35.400 --> 02:37.400
+ma cosa dovrei fare se volessi sapere lo sconto
+
+02:37.400 --> 02:39.333
+su qualunque capo del negozio?
+
+02:39.333 --> 02:43.133
+Beh potrei dire sia x il prezzo
+
+02:43.133 --> 02:44.486
+-- facciamolo in un altro colore --
+
+02:44.486 --> 02:46.221
+sto giusto decidendo un simbolo
+
+02:46.221 --> 02:51.169
+Sia x il prezzo del prodotto che voglio comprare,
+
+02:51.169 --> 03:00.837
+il prezzo non scontato del prodotto nel negozio
+
+03:00.837 --> 03:06.142
+Quindi all'improvviso possiamo dire che il nostro sconto
+
+03:06.142 --> 03:15.267
+è pari al 30%, 30% per x,
+
+03:15.267 --> 03:17.465
+o se vogliamo scriverlo in decimale,
+
+03:17.465 --> 03:19.411
+possiamo scrivere 30% come decimale,
+
+03:19.411 --> 03:25.329
+possiamo scrivere 0.30 per x -- per x --
+
+03:25.329 --> 03:27.351
+Ora è interessante
+
+03:27.351 --> 03:29.841
+Ora puoi dirmi il prezzo di qualsiasi prodotto nel negozio
+
+03:29.841 --> 03:31.608
+e posso sostituirvi x,
+
+03:31.608 --> 03:34.395
+e quindi fondamentalmente lo moltiplico per 0.3
+
+03:34.395 --> 03:36.225
+e ottengo lo sconto.
+
+03:36.225 --> 03:39.533
+Stiamo iniziando, molto lentamente,
+
+03:39.533 --> 03:42.331
+a capire l'astrazione dell'algebra.
+
+03:42.331 --> 03:44.867
+Vedremo che diventerà molto più profondo
+
+03:44.867 --> 03:46.591
+e onestamente molto più bello
+
+03:46.591 --> 03:52.409
+quando cominceremo a studiare più idee algebriche.
+
+03:52.409 --> 03:54.080
+Ma non abbiamo ancora finito
+
+03:54.080 --> 03:56.077
+Possiamo astrarlo ancora di più
+
+03:56.077 --> 03:57.643
+Ora diremo
+
+03:57.643 --> 03:59.067
+abbiamo generalizzato per ogni prodotto
+
+03:59.067 --> 04:01.400
+non stiamo parlando solo di questo prodotto da venti dollari
+
+04:01.400 --> 04:02.795
+Se c'è un prodotto da 10 dollari
+
+04:02.795 --> 04:05.737
+possiamo mettere 10 dollari al posto di x
+
+04:05.737 --> 04:07.966
+e otterremo 0.30 per 10
+
+04:07.966 --> 04:10.667
+Lo sconto sarebbe 3 dollari
+
+04:10.667 --> 04:12.795
+Potrebbe essere un prodotto da 100$
+
+04:12.795 --> 04:14.303
+e lo sconto sarebbe 30 dollari
+
+04:14.303 --> 04:16.071
+Ma generalizziamo ancora di più
+
+04:16.071 --> 04:19.576
+Diciamo "Qual è lo sconto per ogni prodotto
+
+04:19.576 --> 04:21.133
+-- quando la ventita ha una certa percentuale--?
+
+04:21.133 --> 04:22.919
+Ora possiamo dire che lo sconto
+
+04:22.919 --> 04:25.759
+-- definiamolo una variabile --
+
+04:25.759 --> 04:32.290
+diciamo m.... no diciamo p, perché abbia senso,
+
+04:32.290 --> 04:41.200
+p è pari alla percentuale scontata.
+
+04:41.200 --> 04:42.667
+Cosa possiamo fare?
+
+04:42.667 --> 04:47.046
+Ora possiamo dire che lo sconto
+
+04:47.046 --> 04:50.405
+è pari alla percentuale sottratta.
+
+04:50.405 --> 04:52.733
+Negli altri esempi usavamo 30 percento,
+
+04:52.733 --> 04:55.729
+ma ora lo chiameremo p. La percentuale scontata
+
+04:55.729 --> 04:56.852
+si chiama p.
+
+04:56.852 --> 05:01.200
+Questa è la percentuale scontata per il prodotto in questione,
+
+05:01.200 --> 05:04.262
+moltiplicato per il prezzo, quello non scontato
+
+05:04.262 --> 05:06.138
+che abbiamo chiamato x
+
+05:06.138 --> 05:08.667
+Lo sconto è quindi pari a p per x
+
+05:08.667 --> 05:10.364
+Ora si che è interessante
+
+05:10.364 --> 05:13.268
+ora abbiamo un metodo generale per calcolare uno sconto
+
+05:13.268 --> 05:19.243
+per qualsiasi percentuale e qualsiasi prodotto x.
+
+05:19.243 --> 05:22.333
+E non dobbiamo usare per forza queste lettere
+
+05:22.333 --> 05:25.402
+Potevamo dire "sia y pari allo sconto"
+
+05:25.402 --> 05:28.998
+Sia y pari allo sconto
+
+05:28.998 --> 05:32.373
+quindi avremmo potuto scrivere la stessa idea di base
+
+05:32.373 --> 05:34.400
+invece di scrivere sconto, potevamo scrivere
+
+05:34.400 --> 05:40.200
+y è pari alla percentuale p
+
+05:40.200 --> 05:44.067
+moltiplicata per il prezzo non scontato del prodotto
+
+05:44.067 --> 05:45.667
+-- moltiplicata per x
+
+05:45.667 --> 05:47.779
+E potevate definire queste lettere come volevate.
+
+05:47.779 --> 05:49.513
+Al posto di y
+
+05:49.513 --> 05:52.267
+potevate scrivere una lettera greca,
+
+05:52.267 --> 05:53.779
+finché eravate consci
+
+05:53.779 --> 05:56.729
+che quel simbolo rappresenta il valore scontato
+
+05:56.729 --> 05:58.911
+Ma ora le cose si fanno interessanti,
+
+05:58.911 --> 06:02.215
+perché possiamo usare qualsiasi tipo di relazione
+
+06:02.215 --> 06:03.741
+ovvero equazione, state facendo equazioni.
+
+06:03.741 --> 06:05.600
+y diventa questa cosa qua
+
+06:05.600 --> 06:07.734
+ecco perché la chiamiamo equazione
+
+06:07.734 --> 06:09.406
+Può essere usata per cose
+
+06:09.406 --> 06:10.985
+che sono completamente diverse
+
+06:10.985 --> 06:14.231
+dal prezzo scontato in un negozio visto prima
+
+06:14.231 --> 06:15.810
+Potreste avere...
+
+06:15.810 --> 06:17.431
+tipo in fisica vedrete
+
+06:17.431 --> 06:21.600
+che la forza è uguale a mazza per accelerazione
+
+06:21.600 --> 06:23.000
+le lettere sono diverse
+
+06:23.000 --> 06:24.933
+ma l'idea base è la stessa.
+
+06:24.933 --> 06:31.754
+Possiamo porre y per la forza
+
+06:31.754 --> 06:36.067
+la massa per p
+
+06:36.067 --> 06:39.200
+scriviamo p è uguale alla massa
+
+06:39.200 --> 06:42.333
+-- e non è un modo intuitivo per descriverla --
+
+06:42.333 --> 06:45.646
+ma voglio mostrarvi che la stessa idea, la stessa relazione.
+
+06:45.646 --> 06:48.323
+può essere applicata a due concetti differenti
+
+06:48.323 --> 06:51.314
+e definiamo x come accelerazione
+
+06:51.333 --> 06:56.961
+possiamo dire che x sia l'accelerazione
+
+06:56.961 --> 07:01.698
+Beh la famosa "forza uguale massa per accelerazione"
+
+07:01.698 --> 07:03.795
+può essere riscritta ed è realmente la stessa idea
+
+07:03.800 --> 07:07.533
+come y --che abbiamo definito forza
+
+07:07.533 --> 07:08.964
+è uguale alla massa
+
+07:08.964 --> 07:10.210
+-- per la quale abbiamo usato il simbolo p --
+
+07:10.210 --> 07:13.482
+è uguale a p per l'accelerazione
+
+07:13.482 --> 07:15.579
+Stiamo per usare la lettera x qui
+
+07:15.579 --> 07:17.298
+-- per x
+
+07:17.298 --> 07:19.200
+beh questa è proprio la stessa equazione.
+
+07:19.200 --> 07:21.400
+è esattamente la stessa equazione
+
+07:21.400 --> 07:23.200
+Possiamo prendere questa equzione
+
+07:23.200 --> 07:28.287
+e applicarla all'economia,
+
+07:28.287 --> 07:30.864
+alla finanza
+
+07:30.864 --> 07:33.019
+o all'informatica
+
+07:33.019 --> 07:35.123
+o alla logica o all'ingegneria elettrica
+
+07:35.123 --> 07:36.338
+o a qualunque cosa -- tenendo conto --
+
+07:36.338 --> 07:38.400
+c'è un numero infinito di applicazioni
+
+07:38.400 --> 07:40.200
+di questa singola equazione
+
+07:40.200 --> 07:42.054
+E quel che è bello della matematica,
+
+07:42.054 --> 07:44.902
+e in particolare dell'algebra è
+
+07:44.902 --> 07:47.087
+che possiamo focalizzarci su questa astrazione,
+
+07:47.087 --> 07:49.975
+possiamo focalizzarci sull'astratto,
+
+07:49.975 --> 07:52.185
+possiamo manipolare l'astratto,
+
+07:52.185 --> 07:55.462
+e ciò che scopriamo da queste idee, da queste manipolazioni,
+
+07:55.462 --> 07:58.533
+può essere quindi applicato
+
+07:58.533 --> 08:02.000
+a tutte le diverse applicazioni, tutte.
+
+08:02.000 --> 08:03.733
+E ancora meglio, sembra suggerirci
+
+08:03.733 --> 08:06.063
+la vera struttura dell'universo
+
+08:06.063 --> 08:08.718
+se non esistessero tutte queste definizioni umane
+
+08:08.733 --> 08:10.429
+e applicazioni umane
+
+08:10.429 --> 08:11.729
+Per esempio possiamo dire:
+
+08:11.729 --> 08:14.237
+"guarda, se y è uguale a p per x"
+
+08:14.237 --> 08:15.723
+Quindi letteralmente se qualcuno dice
+
+08:15.723 --> 08:17.267
+"hey, questo è y"
+
+08:17.267 --> 08:19.692
+e qualcun altro dice "ho p per x"
+
+08:19.692 --> 08:22.482
+posso dire "beh, avete la stessa cosa"
+
+08:22.482 --> 08:25.438
+E se dividete uno di loro per un numero
+
+08:25.438 --> 08:27.533
+e volete che rimangano uguali,
+
+08:27.533 --> 08:30.200
+devi dividere anche l'altro per quel numero
+
+08:30.200 --> 08:31.652
+Così per esempio,
+
+08:31.652 --> 08:34.577
+diciamo -- sappiamo che y uguale p per x --
+
+08:34.577 --> 08:38.575
+cosa fare se vogliamo che siano uguali.
+
+08:38.575 --> 08:41.595
+A cosa sarà uguale y diviso x?
+
+08:41.595 --> 08:43.467
+beh y è uguale a p per x
+
+08:43.467 --> 08:45.073
+quindi y diviso x
+
+08:45.073 --> 08:48.731
+è uguale a p per x diviso x
+
+08:48.733 --> 08:50.321
+Ma ora è interessante
+
+08:50.321 --> 08:52.544
+perché p per x diviso x
+
+08:52.544 --> 08:53.711
+-- beh se moltiplichi per qualcosa
+
+08:53.711 --> 08:55.568
+e dividi per quel qualcosa
+
+08:55.568 --> 08:57.333
+otterrai il numero originale
+
+08:57.333 --> 08:59.467
+Se moltiplichi per 5 e dividi per 5
+
+08:59.467 --> 09:01.373
+otterrai p
+
+09:01.373 --> 09:02.867
+o qualunque numero sia
+
+09:02.867 --> 09:04.333
+Quindi questo si cancella
+
+09:04.333 --> 09:06.333
+Ma siamo capaci di manipolare l'astrazione
+
+09:06.333 --> 09:11.159
+e ottenere che y fratto x è pari a p
+
+09:11.159 --> 09:12.380
+-- rendiamo x verde --
+
+09:12.380 --> 09:16.324
+y fratto x è p
+
+09:16.324 --> 09:18.667
+e questo ha delle implicazioni
+
+09:18.667 --> 09:21.067
+questo ha implicazioni per tutte le nostre idee
+
+09:21.067 --> 09:24.805
+Ci sta venendo detta una verità fondamentale dell'universo,
+
+09:24.805 --> 09:26.637
+per la maggior parte privo di tutte queste applicazioni,
+
+09:26.637 --> 09:28.467
+ma ora possiamo riportarle indietro
+
+09:28.467 --> 09:30.400
+in ogni posto dove le abbiamo applicate
+
+09:30.400 --> 09:32.100
+La cosa veramente interessante è che ne scopriremo nuove
+
+09:32.100 --> 09:33.831
+-- ci sono infinite applicazioni
+
+09:33.831 --> 09:36.400
+e noi non conosciamo la maggior parte di esse.
+
+09:36.400 --> 09:38.386
+Ne scopriremo di nuove
+
+09:38.386 --> 09:40.290
+in un migliaio di anni
+
+09:40.290 --> 09:41.785
+Questa lezione spero vi abbia dato il perché
+
+09:41.785 --> 09:44.933
+Galileo disse quello che ha detto,
+
+09:44.933 --> 09:48.133
+la matematica è davvero il linguaggio
+
+09:48.133 --> 09:51.959
+con il quale possiamo capire la filosofia dell'universo.
+
+09:51.959 --> 09:53.567
+Ecco perché le persone ci dicono
+
+09:53.567 --> 09:56.714
+che se una forma aliena dovesse contattare gli umani
+
+09:56.714 --> 10:00.067
+la matematica sarebbe probabilmente il nostro primo campo in comune
+
+10:00.067 --> 10:04.108
+il posto dove gettare le basi
+
+10:04.108 --> 10:07.108
+per poter comunicare con loro.

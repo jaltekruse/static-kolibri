@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.173 --> 00:03.245
+Mình có một chuỗi vô hạn S này,
+
+00:03.245 --> 00:06.312
+là tổng từ n = 1
+
+00:06.312 --> 00:09.356
+tới vô cực của a thứ n.
+
+00:09.356 --> 00:13.011
+Mình có thể viết ra a thứ 1 cộng a thứ 2
+
+00:13.011 --> 00:16.303
+cộng cộng cộng tiếp tới vô cực luôn.
+
+00:16.303 --> 00:19.179
+Hoài hoài mãi mãi luôn.
+
+00:19.179 --> 00:21.629
+S theo thuật ngữ chung viết thế này.
+
+00:21.629 --> 00:25.740
+ví như mình có tổng một phần của 5.
+
+00:25.740 --> 00:29.604
+Mình biết là S thứ n sẽ bằng
+
+00:29.604 --> 00:32.411
+2n mũ 3
+
+00:32.411 --> 00:35.609
+trên n cộng 1
+
+00:35.609 --> 00:38.290
+nhân n cộng 2.
+
+00:38.290 --> 00:41.617
+Giờ mình hỏi nè, dựa trên những gì mình vừa nói.
+
+00:41.974 --> 00:43.711
+S tổng được viết chung là vậy
+
+00:43.711 --> 00:46.364
+nhưng mà mình có tổng một phần.
+
+00:46.364 --> 00:49.807
+Tổng của n số hạng đầu tiên của S
+
+00:49.807 --> 00:52.667
+được cho bởi công thức ngay đây.
+
+00:52.667 --> 00:56.002
+Giờ chuỗi số này hội tụ hay phân kì đây?
+
+00:56.002 --> 00:58.942
+Hội tụ tại một điểm vô cực nào đó
+
+00:58.942 --> 01:02.780
+hay không có giới hạn và phân kì?
+
+01:02.780 --> 01:05.546
+Để hiểu khái niệm này
+
+01:07.013 --> 01:11.374
+các bạn hãy nghĩ chuỗi vô cực S
+
+01:11.374 --> 01:15.015
+chỉ là giới hạn khi n tiếp cận
+
+01:15.015 --> 01:18.413
+vô cực của tổng một phần.
+
+01:18.413 --> 01:19.742
+Nghĩa là sao?
+
+01:19.742 --> 01:22.977
+Các bạn tưởng tượng mình có một chuỗi số tổng một phần ở đây.
+
+01:22.977 --> 01:27.644
+S thứ 1, S thứ 2, S thứ 3
+
+01:27.644 --> 01:28.667
+và mình cứ tiếp tục như vậy.
+
+01:28.667 --> 01:30.408
+Đây sẽ là tổng của số hạng đầu tiên.
+
+01:30.408 --> 01:31.981
+Tổng của 2 số hạng đầu tiên.
+
+01:31.981 --> 01:34.040
+Tổng của 3 số hạng đầu tiên.
+
+01:34.040 --> 01:36.396
+Các bạn nghĩ xem chuyện gì sẽ xảy ra nếu
+
+01:36.396 --> 01:40.635
+n ở đây
+
+01:40.635 --> 01:43.340
+tiếp cận vô cực
+
+01:43.340 --> 01:44.812
+vì cái chuỗi này nó là như vậy á.
+
+01:44.812 --> 01:47.107
+Nó là tổng của vô cực
+
+01:47.107 --> 01:49.575
+số hạng đầu tiên.
+
+01:49.575 --> 01:51.574
+Nó là tổng của vô cực
+
+01:51.574 --> 01:54.461
+số hạng mà mình có ở đây.
+
+01:54.477 --> 01:56.067
+Mình suy nghĩ về cái này tí nha.
+
+01:56.067 --> 01:59.910
+Giới hạn khi n tiến tới vô cực
+
+01:59.910 --> 02:02.109
+Sẽ bằng
+
+02:03.369 --> 02:06.244
+giới hạn khi n tiến tới
+
+02:06.244 --> 02:10.206
+vô cực của toàn bộ cái này.
+
+02:10.206 --> 02:15.206
+2n mũ 3 trên n cộng 1
+
+02:17.303 --> 02:20.735
+nhân n cộng 2.
+
+02:20.735 --> 02:22.777
+Có rất nhiều cách để tính cái này.
+
+02:22.777 --> 02:23.942
+Một cách là
+
+02:23.942 --> 02:25.470
+các bạn hãy nhìn vào phần mẫu số nè.
+
+02:25.470 --> 02:29.108
+Có phải nó là phương trình bậc 2 hông?
+
+02:29.108 --> 02:30.637
+Ở trên thì mình có bậc 3.
+
+02:30.637 --> 02:32.338
+Vậy tức là tử số sẽ lớn nhanh
+
+02:32.338 --> 02:34.933
+hơn mẫu số nên nó sẽ là không giới hạn.
+
+02:34.933 --> 02:36.311
+Nó lập tức cho mình biết
+
+02:36.311 --> 02:38.135
+vì cái này tiến tới vô cực,
+
+02:38.135 --> 02:41.513
+nên là S sẽ
+
+02:42.806 --> 02:44.029
+phân kì.
+
+02:44.029 --> 02:45.864
+Nhưng mà nếu mọi người không
+
+02:45.864 --> 02:47.539
+muốn phỏng đoán như thế này thì
+
+02:47.539 --> 02:50.004
+mình có thể làm nó kiểu số học hơn.
+
+02:50.004 --> 02:54.737
+Giới hạn khi n tiến tới vô cực, 2n
+
+02:54.737 --> 02:56.484
+mũ 3,
+
+02:56.484 --> 02:58.797
+để mình nhân vô cái nha,
+
+02:58.797 --> 03:02.493
+n bình phương nhân 3n
+
+03:02.494 --> 03:04.049
+cộng 2
+
+03:04.049 --> 03:05.746
+và xem nè, mình có thể chia mẫu
+
+03:05.746 --> 03:08.981
+và tử cho n bình phương.
+
+03:08.981 --> 03:11.643
+Vậy đây sẽ là giới hạn
+
+03:11.643 --> 03:14.802
+khi n tiến tới vô cực của, nếu mình chia
+
+03:14.802 --> 03:17.040
+mẫu cho n bình,
+
+03:17.040 --> 03:19.611
+mình sẽ có?
+
+03:19.611 --> 03:23.478
+Ừ chia cho n bình phương hợp lý nhỉ?
+
+03:23.478 --> 03:25.705
+Nếu mình chia tử cho n bình phương,
+
+03:25.705 --> 03:28.080
+Mình sẽ có 2n và mẫu
+
+03:28.080 --> 03:29.437
+chia cho n bình thì có
+
+03:29.437 --> 03:33.208
+1 cộng 3 phần n
+
+03:33.208 --> 03:36.545
+cộng 2 phần n bình phương.
+
+03:37.537 --> 03:39.341
+Giờ nhìn vô đây,
+
+03:39.341 --> 03:41.212
+có thể thấy rõ là
+
+03:41.212 --> 03:43.239
+khi n tiến tới vô cực, cái này sẽ
+
+03:43.239 --> 03:45.847
+tiến tới vô cực nhưng cái dưới đây -
+
+03:45.847 --> 03:49.106
+cái mẫu số nó sẽ tiến về 0.
+
+03:49.106 --> 03:50.766
+Cái này tiến về 0,
+
+03:50.766 --> 03:52.876
+nên là mẫu sẽ tiến về một.
+
+03:52.876 --> 03:56.275
+Vậy, toàn bộ ở đây là giới hạn
+
+03:56.275 --> 03:59.705
+sẽ tiến tới vô cực. Và bởi vì giới hạn
+
+03:59.705 --> 04:02.914
+của tổng một phần tiến tới vô cực,
+
+04:02.914 --> 04:05.252
+nó nghĩa là chuỗi vô cực này
+
+04:05.252 --> 04:07.044
+sẽ không phải là một số xác định.
+
+04:07.044 --> 04:09.276
+Nó sẽ phân kì.
+
+04:09.276 --> 04:12.700
+Vậy nên cái này ở đây
+
+04:12.700 --> 04:14.177
+sẽ
+
+04:14.177 --> 04:18.003
+phân kì.
+
+04:18.140 --> 04:19.866
+Nếu muốn cái này hội tự thì lẽ ra
+
+04:19.866 --> 04:22.410
+chỗ này phải là, giới hạn này
+
+04:22.410 --> 04:25.107
+đáng lẽ ra phải là một số xác định.
+
+04:25.107 --> 04:26.901
+Hi vọng là các bạn hiểu hết rồi nha.
+
+04:26.901 --> 04:29.211
+Tóm tắt lại nãy giờ thì mình có 1 chuỗi vô cực.
+
+04:29.211 --> 04:31.738
+Mình có công thức của tổng một phần
+
+04:31.738 --> 04:34.033
+của n số hạng đầu tiên. Và mình nhận thấy là
+
+04:34.033 --> 04:36.511
+cái chuỗi vô cực này thật ra nó -
+
+04:36.511 --> 04:39.335
+các bạn có thể xem nó là giới hạn
+
+04:39.335 --> 04:41.412
+khi n tiến tới vô cực của tổng một phần
+
+04:41.412 --> 04:43.905
+S thứ n và từ đó mình thấy là ồ, khi tiến tới vô cực
+
+04:43.905 --> 04:45.846
+là cái này đang phân kì.

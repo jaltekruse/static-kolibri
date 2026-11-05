@@ -1,0 +1,493 @@
+WEBVTT
+
+00:00.499 --> 00:02.970
+In a previous video, we used
+a proof by contradiction
+
+00:02.970 --> 00:05.844
+to show that the square
+root of 2 is irrational.
+
+00:05.844 --> 00:07.760
+What I want to do in
+this video is essentially
+
+00:07.760 --> 00:10.470
+use the same argument but
+do it in a more general way
+
+00:10.470 --> 00:14.860
+to show that the square root of
+any prime number is irrational.
+
+00:14.860 --> 00:16.925
+So let's assume that p is prime.
+
+00:20.000 --> 00:22.990
+And we're going to set this up
+to be a proof by contradiction.
+
+00:22.990 --> 00:28.080
+So we're going to assume
+that the square root of p
+
+00:28.080 --> 00:33.070
+is rational and see if this
+leads us to any contradiction.
+
+00:33.070 --> 00:36.630
+So if something
+is rational, that
+
+00:36.630 --> 00:39.476
+means that we can represent it
+as the ratio of two integers.
+
+00:39.476 --> 00:40.850
+And if we can
+represent something
+
+00:40.850 --> 00:42.230
+as the ratio of
+two integers, that
+
+00:42.230 --> 00:43.688
+means that we can
+also represent it
+
+00:43.688 --> 00:45.800
+as the ratio of two
+co-prime integers,
+
+00:45.800 --> 00:47.940
+or two integers that have
+no factors in common.
+
+00:47.940 --> 00:50.820
+Or that we can represent it as
+a fraction that is irreducible.
+
+00:53.790 --> 00:56.130
+So I'm assuming
+that this fraction
+
+00:56.130 --> 00:57.510
+that I'm writing
+right over here,
+
+00:57.510 --> 01:01.475
+a/b, that this right over here
+is an irreducible fraction.
+
+01:01.475 --> 01:02.850
+You say, well,
+how can I do that?
+
+01:02.850 --> 01:06.170
+Well, this being rational says
+I can represent the square root
+
+01:06.170 --> 01:11.092
+of p as some fraction, as
+some ratio of two integers.
+
+01:11.092 --> 01:13.550
+And if I can represent anything
+as a ratio of two integers,
+
+01:13.550 --> 01:17.040
+I can keep dividing both the
+numerator and the denominator
+
+01:17.040 --> 01:19.470
+by the common factors
+until I eventually
+
+01:19.470 --> 01:23.150
+get to an irreducible fraction.
+
+01:23.150 --> 01:25.620
+So I'm assuming that's
+where we are right here.
+
+01:25.620 --> 01:28.400
+So this cannot be reduced.
+
+01:28.400 --> 01:32.260
+And this is important for our
+proof-- cannot be reduced,
+
+01:32.260 --> 01:35.270
+which is another way of saying
+that a and b are co-prime,
+
+01:35.270 --> 01:38.800
+which is another way of saying
+that a and b share no common
+
+01:38.800 --> 01:41.950
+factors other than 1.
+
+01:41.950 --> 01:44.450
+So let's see if we can
+manipulate this a little bit.
+
+01:44.450 --> 01:46.440
+Let's take the
+square of both sides.
+
+01:46.440 --> 01:52.320
+We get p is equal to-- well,
+a/b, the whole thing squared,
+
+01:52.320 --> 01:54.690
+that's the same thing as
+a squared over b squared.
+
+01:57.850 --> 02:00.010
+We can multiply both
+sides by b squared,
+
+02:00.010 --> 02:07.010
+and we get b squared times
+p is equal to a squared.
+
+02:07.010 --> 02:09.270
+Well, what does this
+tell us about a squared?
+
+02:09.270 --> 02:13.100
+Well, b is an integer, so b
+squared must be an integer.
+
+02:13.100 --> 02:15.940
+So an integer times p
+is equal to a squared.
+
+02:15.940 --> 02:21.090
+Well, that means that p must
+be a factor of a squared.
+
+02:21.090 --> 02:22.120
+Let me write this down.
+
+02:22.120 --> 02:34.780
+So a squared is a multiple of p.
+
+02:34.780 --> 02:36.280
+Now, what does that
+tell us about a?
+
+02:36.280 --> 02:40.130
+Does that tell us that a
+must also be a multiple of p?
+
+02:40.130 --> 02:41.850
+Well, to think about
+that, let's think
+
+02:41.850 --> 02:44.400
+about the prime
+factorization of a.
+
+02:44.400 --> 02:47.150
+Let's say that a can
+be-- and any number-- can
+
+02:47.150 --> 02:49.400
+be rewritten as a
+product of primes.
+
+02:49.400 --> 02:51.240
+Or any integer, I should say.
+
+02:51.240 --> 02:54.410
+So let's write this out
+as a product of primes
+
+02:54.410 --> 02:55.230
+right over here.
+
+02:55.230 --> 02:58.450
+So let's say that I have
+my first prime factor times
+
+02:58.450 --> 03:02.520
+my second prime factor, all
+the way to my nth prime factor.
+
+03:02.520 --> 03:05.370
+I don't know how many prime
+factors a actually has.
+
+03:05.370 --> 03:09.190
+I'm just saying that a is
+some integer right over here.
+
+03:09.190 --> 03:11.590
+So that's the prime
+factorization of a.
+
+03:11.590 --> 03:14.870
+What is the prime factorization
+of a squared going to be?
+
+03:14.870 --> 03:17.470
+Well, a squared
+is just a times a.
+
+03:17.470 --> 03:22.110
+Its prime factorization is
+going to be f1 times f2,
+
+03:22.110 --> 03:23.820
+all the way to fn.
+
+03:23.820 --> 03:30.490
+And then that times f1 times
+f2 times, all the way to fn.
+
+03:30.490 --> 03:32.050
+Or I could rearrange
+them if I want.
+
+03:32.050 --> 03:40.970
+f1 times f1 times f2 times f2,
+all the way to fn times fn.
+
+03:40.970 --> 03:44.330
+Now, we know that a squared
+is a multiple of p. p
+
+03:44.330 --> 03:48.360
+is a prime number,
+so p must be one
+
+03:48.360 --> 03:51.350
+of these numbers in the
+prime factorization.
+
+03:51.350 --> 03:55.120
+p could be f2, or p
+could be f1, but p
+
+03:55.120 --> 03:58.730
+needs to be one of these numbers
+in the prime factorization.
+
+03:58.730 --> 04:01.494
+So p needs to be one
+of these factors.
+
+04:01.494 --> 04:03.160
+Well, if it's, let's
+say-- and I'll just
+
+04:03.160 --> 04:04.760
+pick one of these arbitrarily.
+
+04:04.760 --> 04:07.790
+Let's say that p is f2.
+
+04:07.790 --> 04:13.560
+If p is f2, then that means
+that p is also a factor of a.
+
+04:13.560 --> 04:26.660
+So this allows us to deduce
+that a is a multiple of p.
+
+04:26.660 --> 04:29.180
+Or another way of saying
+that is that we can represent
+
+04:29.180 --> 04:35.530
+a as being some integer times p.
+
+04:40.260 --> 04:41.570
+Now, why is that interesting?
+
+04:41.570 --> 04:44.270
+And actually, let
+me box this off,
+
+04:44.270 --> 04:47.760
+because we're going to
+reuse this part later.
+
+04:47.760 --> 04:48.980
+But how can we use this?
+
+04:48.980 --> 04:51.870
+Well, just like we did in the
+proof of the square root of 2
+
+04:51.870 --> 04:54.390
+being irrational, let's
+now substitute this back
+
+04:54.390 --> 04:56.570
+into this equation
+right over here.
+
+04:56.570 --> 04:58.870
+So we get b squared times p.
+
+04:58.870 --> 05:05.740
+We have b squared times
+p is equal to a squared.
+
+05:05.740 --> 05:07.770
+Well, a, we're now
+saying we can represent
+
+05:07.770 --> 05:10.600
+that as some integer k times p.
+
+05:10.600 --> 05:19.890
+So we can rewrite that as
+some integer k times p.
+
+05:22.980 --> 05:25.660
+And so, let's see, if we
+were to multiply this out.
+
+05:25.660 --> 05:28.860
+So we get b squared times
+p-- and you probably
+
+05:28.860 --> 05:33.700
+see where this is going--
+is equal to k squared
+
+05:33.700 --> 05:36.810
+times p squared.
+
+05:36.810 --> 05:40.760
+We can divide both
+sides by p, and we
+
+05:40.760 --> 05:45.290
+get b squared is equal
+to p times k squared.
+
+05:45.290 --> 05:46.742
+Or k squared times p.
+
+05:50.360 --> 05:55.510
+Well, the same
+argument that we used,
+
+05:55.510 --> 05:58.320
+if a squared is equal to b
+squared times p, that let us
+
+05:58.320 --> 06:00.260
+know that a squared
+is a multiple of p.
+
+06:00.260 --> 06:02.310
+So now we have it
+the other way around.
+
+06:02.310 --> 06:05.072
+b squared is equal to
+some integer squared,
+
+06:05.072 --> 06:07.030
+which is still going to
+be an integer, times p.
+
+06:07.030 --> 06:09.760
+So b squared must
+be a multiple of p.
+
+06:09.760 --> 06:17.323
+So this lets us know that b
+squared is a multiple of p.
+
+06:20.041 --> 06:22.430
+And by the logic
+that we applied right
+
+06:22.430 --> 06:25.265
+over here, that lets us know
+that b is a multiple of p.
+
+06:29.559 --> 06:31.600
+And that's our contradiction,
+or this establishes
+
+06:31.600 --> 06:36.440
+our contradiction that we
+assumed at the beginning.
+
+06:36.440 --> 06:39.670
+We assumed that a
+and b are co-prime,
+
+06:39.670 --> 06:43.220
+that they share no factors
+in common other than 1.
+
+06:43.220 --> 06:46.000
+We assumed that this
+cannot be reduced.
+
+06:46.000 --> 06:48.010
+But we've just established,
+just from this,
+
+06:48.010 --> 06:51.200
+we have deduced that
+is a multiple of p
+
+06:51.200 --> 06:52.654
+and b is a multiple of p.
+
+06:52.654 --> 06:54.570
+Which means that this
+fraction can be reduced.
+
+06:54.570 --> 06:57.970
+We can divide the numerator
+and the denominator by p.
+
+06:57.970 --> 06:59.270
+So that is our contradiction.
+
+06:59.270 --> 07:01.560
+We started assuming
+it cannot be reduced,
+
+07:01.560 --> 07:04.325
+but then we showed that, no,
+it must be able to be reduced.
+
+07:04.325 --> 07:05.700
+The numerator and
+the denominator
+
+07:05.700 --> 07:08.750
+have a common factor of p.
+
+07:08.750 --> 07:11.720
+So our contradiction
+is established.
+
+07:11.720 --> 07:13.940
+Square root of p
+cannot be rational.
+
+07:13.940 --> 07:16.347
+Square root of p is irrational.
+
+07:16.347 --> 07:17.430
+Let me just write it down.
+
+07:17.430 --> 07:25.370
+The square root of p
+is irrational because
+
+07:25.370 --> 07:27.460
+of the contradiction.

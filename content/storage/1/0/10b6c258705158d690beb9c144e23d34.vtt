@@ -1,0 +1,611 @@
+WEBVTT
+
+00:00.330 --> 00:01.886
+- [Voiceover] Let's say
+that we have an exponential
+
+00:01.886 --> 00:03.116
+function, h of n,
+
+00:03.116 --> 00:04.625
+and since it's an exponential function
+
+00:04.625 --> 00:07.830
+it's going to be in the
+form a times r to the n,
+
+00:07.830 --> 00:09.339
+where a is our initial value
+
+00:09.339 --> 00:10.648
+and r is our common ratio,
+
+00:10.648 --> 00:13.147
+and we're going to assume
+that r is greater than zero.
+
+00:13.147 --> 00:15.631
+And they've given us some
+information on h of n.
+
+00:15.631 --> 00:17.373
+We know that when n is equal to 2,
+
+00:17.373 --> 00:19.393
+h of 2 is 144,
+
+00:19.393 --> 00:21.599
+that h of 4 is 324,
+
+00:21.599 --> 00:24.710
+that h of 6 is 729.
+
+00:24.710 --> 00:26.498
+So, based on the information here,
+
+00:26.498 --> 00:27.984
+let's see if we can actually figure out
+
+00:27.984 --> 00:31.142
+what a and r are going to be.
+
+00:31.142 --> 00:34.833
+And like always, pause the
+video and try to give it a go.
+
+00:34.833 --> 00:36.737
+All right, now let's do this together.
+
+00:36.737 --> 00:39.384
+So I'm going to focus on r first.
+
+00:39.384 --> 00:41.706
+The common ratio
+
+00:41.706 --> 00:44.910
+and if we had successive n's.
+
+00:44.910 --> 00:47.836
+If we had h of 3, then
+we could just find the
+
+00:47.836 --> 00:50.460
+ratio between h of 3 and h of 2
+
+00:50.460 --> 00:52.294
+and r would just come out of that,
+
+00:52.294 --> 00:55.150
+or if the ratio between h of 4 and h of 3,
+
+00:55.150 --> 00:56.938
+we could solve explicitly for r,
+
+00:56.938 --> 00:58.517
+but we can get pretty close to that.
+
+00:58.517 --> 01:00.630
+We can just find the ratio between h of 4
+
+01:00.630 --> 01:01.907
+and h of 2.
+
+01:01.907 --> 01:04.229
+So, h of 4,
+
+01:04.229 --> 01:05.854
+the ratio between h of 4
+
+01:05.854 --> 01:07.595
+and h of 2
+
+01:07.595 --> 01:09.615
+is going to be equal to,
+
+01:09.615 --> 01:13.075
+well, we know h of 4 is 324,
+
+01:13.075 --> 01:15.977
+and h of 2 is 144,
+
+01:15.977 --> 01:18.578
+and we could simplify this a little bit.
+
+01:18.578 --> 01:20.691
+Let's see, if we,
+
+01:20.691 --> 01:23.245
+if we simplify this, we would get,
+
+01:23.245 --> 01:24.499
+they're both divisible by 2.
+
+01:24.499 --> 01:25.985
+If we divide them both by 2,
+
+01:25.985 --> 01:27.308
+this one in the numerator,
+
+01:27.308 --> 01:30.721
+324 divided by 2 is 162.
+
+01:30.721 --> 01:33.624
+144 divided by 2 is 72.
+
+01:33.624 --> 01:35.621
+Let's see, we can divide by 2 again.
+
+01:35.621 --> 01:38.430
+81 over 36.
+
+01:38.430 --> 01:39.289
+Divide by 2,
+
+01:39.289 --> 01:41.100
+actually, no, we can't
+divide by 2 anymore,
+
+01:41.100 --> 01:42.865
+but we can divide by 9 now,
+
+01:42.865 --> 01:46.000
+so 81 divided by 9 is 9,
+
+01:46.000 --> 01:48.113
+and 36 divided by 9 is 4.
+
+01:48.113 --> 01:51.897
+So this thing can be rewritten as 9/4,
+
+01:51.897 --> 01:54.405
+but we could also rewrite this ratio
+
+01:54.405 --> 01:55.519
+by using,
+
+01:55.519 --> 01:58.700
+using this form of an
+exponential function,
+
+01:58.700 --> 02:01.254
+so we could also say that
+this is going to be equal to,
+
+02:01.254 --> 02:03.367
+h of 4 is going to be a
+
+02:03.367 --> 02:04.993
+times r.
+
+02:04.993 --> 02:07.616
+Now n is 4, so r to the 4th power,
+
+02:07.616 --> 02:11.842
+and h of 2 is going to be
+a times r to the 2nd power.
+
+02:11.842 --> 02:15.070
+A times r to the 2nd power,
+
+02:15.070 --> 02:16.695
+and this simplifies nicely,
+
+02:16.695 --> 02:18.274
+a divided by a,
+
+02:18.274 --> 02:19.690
+cancels to just 1,
+
+02:19.690 --> 02:22.500
+and r to the 4th divided by r-squared,
+
+02:22.500 --> 02:24.613
+well that's going to be
+r to the 4 minus 2 power,
+
+02:24.613 --> 02:25.402
+or r,
+
+02:25.402 --> 02:26.981
+it's going to be r to the 2nd power,
+
+02:26.981 --> 02:29.024
+it's going to be r-squared,
+
+02:29.024 --> 02:30.812
+and so we have a nice
+little equation set up.
+
+02:30.812 --> 02:35.061
+R-squared needs to be equal to 9/4.
+
+02:35.061 --> 02:36.083
+So let me write that down.
+
+02:36.083 --> 02:38.382
+R-squared is equal to 9/4,
+
+02:38.382 --> 02:40.587
+and r needs to be greater than zero,
+
+02:40.587 --> 02:43.536
+so we could just say r is
+going to be the principal root
+
+02:43.536 --> 02:45.719
+of 9/4,
+
+02:45.719 --> 02:48.528
+which is equal to 3/2.
+
+02:48.528 --> 02:51.315
+So we were able to figure out r.
+
+02:51.315 --> 02:53.056
+So now how do we figure out,
+
+02:53.056 --> 02:55.378
+how do we figure out a?
+
+02:55.378 --> 02:56.980
+Well, there's a couple of ways to do it.
+
+02:56.980 --> 03:00.533
+You can think about a is
+going to be what h of zero
+
+03:00.533 --> 03:01.392
+is equal to,
+
+03:01.392 --> 03:02.274
+so we could do,
+
+03:02.274 --> 03:04.758
+I guess we could call it a tabular method,
+
+03:04.758 --> 03:06.709
+where, let me set up
+
+03:06.709 --> 03:08.984
+a little table here.
+
+03:08.984 --> 03:10.540
+So, a little table,
+
+03:10.540 --> 03:14.510
+so if this is n and this is h of n,
+
+03:14.510 --> 03:15.857
+so n is zero,
+
+03:15.857 --> 03:17.529
+we don't know what h of zero is just yet,
+
+03:17.529 --> 03:18.574
+it's going to be a.
+
+03:18.574 --> 03:22.149
+We don't know what h of 1 is yet.
+
+03:22.149 --> 03:26.352
+We do know that h of 2 is 144.
+
+03:26.352 --> 03:29.162
+And we do know, since
+the common ratio is 3/2,
+
+03:29.162 --> 03:33.179
+if we take h of 1 and
+we multiply it by 3/2,
+
+03:33.179 --> 03:35.175
+we're going to get h of 2,
+
+03:35.175 --> 03:38.240
+and if we take h of zero
+and multiply it by 3/2,
+
+03:38.240 --> 03:40.701
+we're going to get h of 1.
+
+03:40.701 --> 03:45.136
+So, h of 1 is going to
+be 144 divided by 3/2.
+
+03:45.136 --> 03:45.949
+So let's write that down.
+
+03:45.949 --> 03:49.246
+H of 1 is equal to 144
+
+03:49.246 --> 03:52.450
+divided by 3/2,
+
+03:52.450 --> 03:56.165
+which is going to be 144,
+
+03:56.165 --> 04:00.530
+144 times 2 over 3,
+
+04:00.530 --> 04:01.297
+and let's see,
+
+04:01.297 --> 04:05.639
+144 divided by 3 is
+
+04:05.639 --> 04:08.170
+going to be equal to,
+
+04:08.170 --> 04:09.330
+is it,
+
+04:09.330 --> 04:09.841
+let's see,
+
+04:09.841 --> 04:11.699
+one 3 goes into,
+
+04:11.699 --> 04:12.535
+I'll just do this by hand,
+
+04:12.535 --> 04:14.276
+my brain doesn't work that well
+
+04:14.276 --> 04:15.460
+while I'm making videos.
+
+04:15.460 --> 04:18.502
+3 goes into 14 four times,
+
+04:18.502 --> 04:19.756
+4 times 3 is 12,
+
+04:19.756 --> 04:20.731
+subtract,
+
+04:20.731 --> 04:22.147
+so it's going to be,
+
+04:22.147 --> 04:24.372
+I see, it's going to be 48.
+
+04:24.372 --> 04:26.113
+3 goes into 24 eight times.
+
+04:26.113 --> 04:27.274
+8 times 3 is 24,
+
+04:27.274 --> 04:28.899
+you have no remainder,
+
+04:28.899 --> 04:30.455
+so,
+
+04:30.455 --> 04:34.751
+this is going to be 48 times 2,
+
+04:34.751 --> 04:37.189
+which is going to be equal to 96
+
+04:37.189 --> 04:38.953
+so this is going to be 96,
+
+04:38.953 --> 04:40.602
+and so if we want to figure out h of zero,
+
+04:40.602 --> 04:42.831
+we just divide by 3/2 again,
+
+04:42.831 --> 04:46.778
+so, h of zero is 96
+
+04:46.778 --> 04:49.588
+divided by 3/2
+
+04:49.588 --> 04:54.046
+which is equal to 96 times 2 over 3.
+
+04:54.046 --> 04:56.507
+96 divided by 3, let's see,
+
+04:56.507 --> 04:57.900
+it's going to be 32,
+
+04:57.900 --> 05:01.290
+so this is going to be 32
+
+05:01.290 --> 05:03.124
+times, did I do that right?
+
+05:03.124 --> 05:04.680
+Yup, 32 times 2
+
+05:04.680 --> 05:07.513
+which is equal to 64.
+
+05:07.513 --> 05:08.975
+64.
+
+05:08.975 --> 05:10.740
+And so, just like that,
+we've figured out that a
+
+05:10.740 --> 05:13.108
+is equal to 64,
+
+05:13.108 --> 05:15.059
+and r,
+
+05:15.059 --> 05:18.054
+and r is equal to 3/2.
+
+05:18.054 --> 05:20.097
+So we can write h of n,
+
+05:20.097 --> 05:24.648
+we can say that h of n is equal to 64,
+
+05:24.648 --> 05:28.061
+is equal to 64
+
+05:28.061 --> 05:30.982
+times 3/2,
+
+05:31.660 --> 05:33.657
+times 3/2,
+
+05:33.657 --> 05:34.934
+our common ratio,
+
+05:34.934 --> 05:37.117
+to the nth power.
+
+05:37.117 --> 05:38.858
+Now, there's another way that
+we could have tackled this
+
+05:38.858 --> 05:40.484
+instead of this tabular method.
+
+05:40.484 --> 05:42.991
+We could have just solved for a now,
+
+05:42.991 --> 05:43.966
+since we know r.
+
+05:43.966 --> 05:45.777
+We know, for example,
+
+05:45.777 --> 05:49.237
+we know for example that h of 2
+
+05:49.237 --> 05:53.300
+which is going to be equal to a times,
+
+05:53.300 --> 05:55.088
+we know what our common ratio is,
+
+05:55.088 --> 05:56.969
+it's 3/2
+
+05:56.969 --> 05:59.361
+to the 2nd power,
+
+05:59.361 --> 06:03.424
+is going to be equal to 144.
+
+06:03.424 --> 06:07.603
+And so, we could say a times 9 over 4
+
+06:07.603 --> 06:10.297
+is equal to 144,
+
+06:10.297 --> 06:12.479
+and so we can multiply both
+sides times the reciprocal
+
+06:12.479 --> 06:13.362
+of 9 over 4,
+
+06:13.362 --> 06:16.682
+so we multiply both sides times 4 over 9,
+
+06:16.682 --> 06:19.445
+times 4 over 9,
+
+06:19.445 --> 06:20.327
+and that cancels with that,
+
+06:20.327 --> 06:21.744
+that cancels with that,
+
+06:21.744 --> 06:23.671
+and we are left with
+
+06:23.671 --> 06:25.993
+a is equal to, well let's see,
+
+06:25.993 --> 06:29.174
+144 divided by 9
+
+06:29.174 --> 06:31.356
+is going to be,
+
+06:31.356 --> 06:35.559
+is going to be, I want
+to say it's equal to 16?
+
+06:35.559 --> 06:37.997
+Is that right?
+
+06:37.997 --> 06:39.181
+I think that is right.
+
+06:39.181 --> 06:40.574
+Yup, and then 16 times 4,
+
+06:40.574 --> 06:43.453
+so this is going to be 16 and 1,
+
+06:43.453 --> 06:46.495
+16 times 4 is 64,
+
+06:46.495 --> 06:48.492
+which is exactly what we got before,
+
+06:48.492 --> 06:49.560
+and so this actually,
+
+06:49.560 --> 06:50.698
+this method, now that I look at it,
+
+06:50.698 --> 06:53.298
+is actually a good bit easier,
+
+06:53.298 --> 06:53.972
+but they're equivalent,
+
+06:53.972 --> 06:55.829
+and I like this one because
+you get to see the common
+
+06:55.829 --> 06:58.499
+ratio in action, and you get
+to see that the initial value
+
+06:58.499 --> 06:59.776
+is the initial value.
+
+06:59.776 --> 07:01.541
+It is h of zero,
+
+07:01.541 --> 07:02.470
+but either way,
+
+07:02.470 --> 07:03.445
+once you figure out r,
+
+07:03.445 --> 07:05.860
+and you know one of the
+
+07:05.860 --> 07:06.765
+h of,
+
+07:06.765 --> 07:08.855
+you know what the function is at a value,
+
+07:08.855 --> 07:10.271
+you can solve for a,
+
+07:10.271 --> 07:11.711
+and frankly, if you
+knew a and you knew what
+
+07:11.711 --> 07:13.104
+the function was for a given n,
+
+07:13.104 --> 07:15.983
+you could likewise solve for r.
+
+07:15.983 --> 07:18.253
+So hopefully you enjoyed that.

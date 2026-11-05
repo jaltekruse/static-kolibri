@@ -1,0 +1,397 @@
+WEBVTT
+
+00:00.063 --> 00:04.964
+V tomto videu bych vás chtěl seznámit
+s tím, co to jsou limity.
+
+00:04.964 --> 00:09.098
+Je to koncept, na kterém je
+je založeno celé odvětví matematiky -
+
+00:09.098 --> 00:10.828
+matematická analýza.
+
+00:10.828 --> 00:17.036
+Přestože je velmi důležitá,
+je vlastně úplně jednoduchá.
+
+00:17.036 --> 00:21.075
+Nakresleme si funkci,
+vlastně definujme si funkci.
+
+00:21.075 --> 00:32.610
+Funkce nechť je jednoduchá.
+Definujme f(x) jako (x − 1)/(x − 1).
+
+00:32.610 --> 00:36.434
+A můžete si říct. „Hele Sale, podívej,
+mám v čitateli i jmenovateli stejný výraz.
+
+00:36.434 --> 00:39.421
+Pokud mám něco děleno tím samým, tak
+se to rovná jedna!
+
+00:39.421 --> 00:42.151
+Nemohu to prostě zjednodušit na f(x) = 1?“
+
+00:42.151 --> 00:47.944
+A já bych řekl: „No, máš skoro pravdu.
+Rozdíl mezi touto funkcí a f(x) = 1 je,
+
+00:47.944 --> 01:02.538
+že tento výraz není definován pro x = 1.
+Pokud máš f(1), co se stane?“
+
+01:02.538 --> 01:07.267
+V čitateli dostaneš (1 − 1), což je…
+… napišme to…
+
+01:07.267 --> 01:13.575
+v čitateli dostáváš 0 a ve jmenovateli
+dostáváš (1 − 1), což je taky 0.
+
+01:13.575 --> 01:29.724
+A cokoliv děleno nulou je nedefinováno.
+Takže výraz můžeš zjednodušit,
+
+01:29.724 --> 01:36.687
+ale musíš doplnit tvrzení,
+že ,x' se nesmí rovnat 1.
+
+01:36.687 --> 01:38.443
+Potom je tohle a tohle ekvivalentní.
+
+01:38.443 --> 01:43.133
+Oba výrazy se rovnají 1,
+pro všechna ,x' různá od 1.
+
+01:43.133 --> 01:48.340
+Ale v x = 1 se výraz stává nedefinovaným.
+Toto je nedefinované a toto také.
+
+01:48.340 --> 01:51.340
+Takže, jak nakreslím graf téhle funkce?
+
+01:51.340 --> 02:10.496
+Nakresleme si ho. Tohle je moje y = f(x),
+a tohle tady je osa ,x' a řekněme,
+
+02:10.496 --> 02:22.799
+že tenhle bod je x = 1, tenhle bude x = −1
+a tento y = 1, tady by mohlo být y = −1,
+
+02:22.799 --> 02:28.267
+ale to není pro naši funkci podstatné.
+Tak si ji nakresleme.
+
+02:28.267 --> 02:39.600
+Pro všechna ,x' různá od 1,
+f(x) = 1 bude vypadat takhle.
+
+02:39.600 --> 02:48.500
+Pro x = 1 není funkce definována,
+takže tu udělám kroužek, čímž to vyznačím.
+
+02:48.500 --> 02:52.400
+Nevíme, jakou má funkce hodnotu v 1,
+nikde jsme to nedefinovali.
+
+02:52.400 --> 02:56.273
+Tahle definice funkce nám neříká,
+co máme udělat v bodě 1.
+
+02:56.273 --> 03:00.333
+V bodě x = 1 je
+doslova nedefinovaná.
+
+03:00.333 --> 03:09.113
+Tak tohle je ta naše funkce. A když se nás
+někdo zeptá: „Kolik je f(1)?“,
+
+03:09.113 --> 03:14.467
+podíváte se na ose x na bod 1.
+A počkat! Tady je mezera v mé funkci.
+
+03:14.467 --> 03:21.148
+Řekneme, že není definováno.
+Napišme si to ještě jednou.
+
+03:21.148 --> 03:32.333
+f(1) je nedefinováno. Co když se zeptáte,
+k čemu se ta funkce blíží v x = 1?
+
+03:32.333 --> 03:35.568
+Teď už se dostáváme k samotným limitám.
+
+03:35.568 --> 03:44.708
+Jak se ,x' dostává blíže a blíže k 1,
+k jaké hodnotě se blíží?
+
+03:44.708 --> 03:51.837
+K jaké hodnotě se po celou dobu
+dostává blíže a blíže?
+
+03:51.837 --> 03:58.909
+Nalevo, bez ohledu jak blízko jste 1,
+a přitom ,x' není rovno 1, platí f(x) = 1.
+
+03:58.909 --> 04:03.360
+Na druhé straně dostáváte tu samou věc.
+Takže byste mohli říct,
+
+04:03.360 --> 04:24.931
+což si ještě mnohokrát procvičíme,
+že limita f(x), když se ,x' blíží k 1,
+
+04:24.933 --> 04:29.311
+tedy když se dostáváme neskutečně
+blízko k 1 a nejsme přesně na 1,
+
+04:29.311 --> 04:33.190
+a naše funkce bude rovna 1,
+blíží se víc a víc k 1,
+
+04:33.190 --> 04:35.734
+Je vlastně 1 po celou dobu.
+
+04:35.734 --> 04:41.334
+Takže můžeme vlastně říci, že limita
+pro ,x' jdoucí k 1 funkce f(x) je 1.
+
+04:41.334 --> 04:43.995
+Má to zvláštní zápis, ale jen se ptáme:
+
+04:43.995 --> 04:48.133
+„K jaké hodnotě se ta funkce blíží,
+když se ,x' blíží čím dál tím více k 1?“
+
+04:48.133 --> 04:54.021
+Pojďme na další příklad,
+abyste měli obecnou představu.
+
+04:54.021 --> 05:02.533
+Mějme funkci f(x),
+ne budeme ji pro změnu říkat g(x).
+
+05:02.533 --> 05:17.102
+Mějme tedy g(x) a definujme ji jako x²
+pro ,x' různé od 2
+
+05:17.102 --> 05:26.552
+a řekněme, že pro x = 2 je funkce rovna 1.
+Takže zase máme velmi zajímavou funkci,
+
+05:26.552 --> 05:34.133
+která není zcela hladká.
+Má nespojitost. Nakresleme jí.
+
+05:34.133 --> 05:48.225
+Toto je osa y = g(x) a tohle je osa x.
+Zde bude x = 1, tady x = 2,
+
+05:48.225 --> 06:01.825
+tohle je −1, toto −2…
+Tedy všude kromě x = 2 je funkce rovna x².
+
+06:01.825 --> 06:08.636
+Nakresleme ji takhle:
+Bude to parabola.
+
+06:08.636 --> 06:18.098
+Nakreslím lepší verzi paraboly.
+Takže bude vypadat asi takhle.
+
+06:18.098 --> 06:26.971
+Není to nejkrásnější parabola na světě,
+ale myslím, že pro představu stačí.
+
+06:26.971 --> 06:32.991
+Měla by být symetrická.
+Radši ji překreslím, je docela ošklivá.
+
+06:32.991 --> 06:38.467
+Ta vypadá lépe.
+
+06:38.467 --> 06:48.087
+Tohle by měl být graf obyčejné x²,
+ale pro x = 2 to x² není.
+
+06:48.087 --> 06:55.428
+V bodě x = 2 bychom měli mít maličkou
+nespojitost, takže si tu nechám místo,
+
+06:55.428 --> 07:00.478
+protože dle definice funkce,
+když x = 2, je funkce rovna 1.
+
+07:00.478 --> 07:09.566
+Nebudu je dělat ve stejném měřítku.
+V grafu x² by tohle bylo 4 a tohle 2,
+
+07:09.616 --> 07:23.627
+a tady by byla 1, a zde 3.
+Takže pro x = 2 je naše funkce rovna 1.
+
+07:23.627 --> 07:26.706
+Je to trochu zvláštní funkce,
+ale můžete si ji tak zadefinovat.
+
+07:26.706 --> 07:29.276
+Funkci si můžete zadefinovat jak chcete.
+
+07:29.276 --> 07:36.667
+Teď si všimněte, že je to vlastně
+graf funkce g(x) = x² kromě x = 2,
+
+07:36.667 --> 07:48.252
+tam má mezeru, když x = 2 nepoužijete
+funkci g(x) = x², ale použijete g(x) = 1.
+
+07:48.252 --> 07:50.848
+Pokud jsem říkal f(x),
+omlouvám se za matení.
+
+07:50.848 --> 07:57.604
+Použijete g(x) = 1 jen a právě tehdy,
+pokud je ,x' přesně 2.
+
+07:57.604 --> 08:04.914
+Pak zase pokračuje jako g(x) = x².
+
+08:04.914 --> 08:08.061
+Povšimněme si několika věcí.
+
+08:08.061 --> 08:15.941
+Když budu vyhodnocovat funkci g(2),
+podívám se na definici funkce a použiji ji.
+
+08:15.941 --> 08:18.538
+A ta mi říká, že to je rovno 1.
+
+08:18.538 --> 08:22.638
+Ale položme si zajímavější otázku:
+
+08:22.638 --> 08:30.529
+Jakou hodnotu má limita funkce g(x),
+když se ,x' blíží ke dvěma?
+
+08:30.529 --> 08:35.459
+Všimněte si toho zápisu, vypadá složitě,
+ale je vlastně velmi jednoduchý.
+
+08:35.459 --> 08:39.001
+Zápis říká: „Když se ,x' blíží ke 2,
+k čemu se přibližují hodnoty funkce g(x)?“
+
+08:39.001 --> 08:42.131
+… to není přesná definice,
+tu si uvedeme v jednom z dalších videí…
+
+08:42.131 --> 08:47.790
+„Když jde ,x' blíže a blíže ke 2,
+k čemu se přibližují hodnoty funkce g(x)?“
+
+08:47.790 --> 08:55.729
+Nejdříve za ,x' dosadíte 1,9,
+pak 1,999 a pak 1,999999,
+
+08:55.729 --> 08:57.798
+jakých hodnot nabývá g(x),
+k čemu se blíží?
+
+08:57.798 --> 09:04.436
+Pokud se budete blížit zprava, jakou
+hodnotu má funkce v g(2,1), g(2,01)?
+
+09:04.436 --> 09:06.656
+A co g(2,001)?
+
+09:06.656 --> 09:09.995
+K čemu se to blíží,
+když se dostáváme blíže k 2?
+
+09:09.995 --> 09:15.733
+Můžete to vyčíst z grafu.
+Jak se ,x' přibližuje k 2,
+
+09:15.733 --> 09:20.518
+Jak se ,x' přibližuje k 2,
+blížíme se ke 4.
+
+09:20.518 --> 09:24.995
+Ačkoliv to není ta hodnota jakou má
+funkce v tomhle bodě. Ta spadla na 1.
+
+09:24.995 --> 09:30.825
+Limita funkce g(x) pro ,x' jdoucí ke 2
+je rovna 4.
+
+09:30.825 --> 09:33.405
+Můžete si to zkusit na kalkulačce.
+
+09:33.405 --> 09:49.037
+Udělejme to, myslím že to je zajímavé.
+Vytáhnu kalkulačku, mou osvědčenou TI-85.
+
+09:49.041 --> 09:53.865
+Takže, k čemu se to bude blížit,
+když se budu blížit k x = 2?
+
+09:53.865 --> 09:58.545
+Vyzkoušíme 1,9. Pro x = 1,9 použijeme
+tuto horní definici.
+
+09:58.545 --> 10:05.549
+Přímo zde, máte 1,9² a dostáváte 3,61.
+
+10:05.549 --> 10:14.623
+Co když půjdeme ještě blíže ke 2?
+Například 1,99, umocníme, a jsem na 3,96.
+
+10:14.623 --> 10:23.603
+A když zkusíme 1,999, a umocníme.
+Dostávám se na 3,996.
+
+10:23.603 --> 10:27.991
+Všimněte si, jsem čím dál tím
+blíže k našemu bodu.
+
+10:27.991 --> 10:38.146
+A teď hodně blízko, 1,999999999999².
+Co dostanu? Nebude to přesně 4.
+
+10:38.146 --> 10:44.988
+To jen kalkulačka takhle zaokrouhlila,
+protože dostaneme číslo opravdu blízko 4.
+
+10:44.988 --> 10:47.456
+Zkusíme to z pravé strany.
+
+10:47.456 --> 10:54.633
+A bude to muset být to samé číslo,
+jako když jsme se blížili zleva.
+
+10:54.633 --> 11:00.702
+Takže, když zkusíme 2,1², dostáváme 4,4.
+
+11:00.702 --> 11:02.902
+Přeskočíme několik kroků.
+
+11:02.902 --> 11:09.256
+2,0001². Tohle je o hodně blíže ke 2.
+A dostáváme se také o hodně blíže ke 4.
+
+11:09.256 --> 11:12.929
+Takže čím jsme blíže na ose x ke 2,
+tím blíže se na ose y dostáváme ke 4.
+
+11:12.929 --> 11:21.013
+Takže jsem si ověřili, že limita
+funkce g(x), když ,x' jde ke 2 z obou stran
+
+11:21.013 --> 11:25.000
+… tedy kromě přesné 2, kde je funkce
+rovna 1, protože je nespojitá…
+
+11:25.000 --> 11:31.070
+tak limita je rovna 4.

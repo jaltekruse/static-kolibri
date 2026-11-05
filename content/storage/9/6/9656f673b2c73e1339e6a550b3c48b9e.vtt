@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00.680 --> 00:05.800
+Burada y bərabərdir kosinus x-in qrafiki
+verilmişdir.
+
+00:05.800 --> 00:07.980
+Gəlin y bərabərdir f(x)
+əyrisinin altındakı
+
+00:07.980 --> 00:13.010
+və x oxundan yuxarıda olan sahəni tapaq.
+
+00:13.010 --> 00:14.850
+Bunu müxtəlif intervallarla edəcəyik.
+
+00:14.850 --> 00:18.970
+Əvvəlcə əyrinin altındakı sahə haqqında düşünək.
+
+00:18.970 --> 00:24.715
+O, x bərabərdir 0 və
+x bərabərdir pi böl 2 arasındadır.
+
+00:28.600 --> 00:33.024
+Biz buradakı sahə haqqında danışırıq.
+
+00:33.024 --> 00:35.440
+Bunun müəyyən inteqralını 0-dan
+
+00:35.440 --> 00:39.800
+pi böl 2-yə kosinus x dx kimi yazırıq.
+
+00:39.800 --> 00:42.320
+Unutmayın, bütün bunlar bir növ,
+
+00:42.320 --> 00:45.270
+bu düzbucaqlıların hər biri üçün eni
+
+00:45.270 --> 00:49.060
+dx və hündürlüyü f olan bir neçə nazik
+
+00:49.060 --> 00:51.751
+düzbucaqlıların cəmini almağı xatırladır.
+
+00:51.751 --> 00:53.250
+Sonra o sonsuz nazik düzbucaqlılardan
+
+00:53.250 --> 00:55.390
+sonsuz sayda götürürük.
+
+00:55.390 --> 00:59.000
+Bu, məhz bunu ifadə edir.
+
+00:59.000 --> 01:00.490
+Amma biz bunu necə etməli olduğumuzu artıq bilirik.
+
+01:00.490 --> 01:03.360
+Burada bizə Nyuton Leybnis üsulu
+kömək edəcək.
+
+01:03.360 --> 01:06.900
+Sadəcə olaraq, kosinus x-in
+
+01:06.900 --> 01:08.180
+ibtidai funksiyasının
+
+01:08.180 --> 01:11.090
+nəyə bərabər olduğunu tapmalıyıq.
+
+01:11.090 --> 01:13.150
+Sonra pi böl 2-dəki qiymətindən
+
+01:13.150 --> 01:15.750
+x-dəki qiymətini çıxırıq.
+
+01:15.750 --> 01:18.110
+Kosinus x-in ibtidai funksiyası nədir?
+
+01:18.110 --> 01:20.286
+Ümumiyyətlə, ibtidai funksiya nədir?
+
+01:20.286 --> 01:22.160
+Əgər törəmə götürsək-- gəlin
+
+01:22.160 --> 01:23.900
+burada yazım.
+
+01:23.900 --> 01:29.920
+Biz bilirik ki, sinus x-in törəməsini götürsək,
+
+01:29.920 --> 01:32.250
+kosinus x-i alırıq.
+
+01:32.250 --> 01:35.520
+Kosinus x-in ibtida funksiyası sinus x-dir.
+
+01:35.520 --> 01:38.550
+Niyə sinus x-in ibtidai funksiya olduğunu deyirəm?
+
+01:38.550 --> 01:40.820
+Bu, təkcə ibtidai funksiya deyil.
+
+01:40.820 --> 01:44.110
+Həmçinin sinus x-in törəməsi
+
+01:44.110 --> 01:48.490
+üstəgəl istənilən ixtiyari sabiti götürərək
+
+01:48.490 --> 01:50.780
+yenə də kosinus x-i ala bilərdim.
+
+01:50.780 --> 01:52.530
+Çünki sabitin törəməsi 0-dır.
+
+01:52.530 --> 01:55.040
+Bu, pi ola bilər, 5 ola bilər, bir
+
+01:55.040 --> 01:57.730
+milyon ola bilər, bu, hər hansı bir
+böyük ədəd ola bilər.
+
+01:57.730 --> 02:01.180
+Amma bunun törəməsi kosinus x olacaq.
+
+02:01.180 --> 02:04.840
+Yəni deyəndə ki, biz ibtidai fuksiya tapmalıyıq,
+
+02:04.840 --> 02:07.810
+deməli, biz sadəcə törəmələrdən
+birini tapmalıyıq.
+
+02:07.810 --> 02:10.449
+Sinus x, məncə, ən asanıdır,
+
+02:10.449 --> 02:12.800
+çünki burada sabit 0-dır.
+
+02:12.800 --> 02:14.120
+Gəlin bunu hesablayaq.
+
+02:14.120 --> 02:16.530
+Belə ki, kosinus x-in ibtidai funksiyası
+
+02:16.530 --> 02:19.590
+sinus x-ə
+
+02:19.590 --> 02:21.900
+bərabərdir.
+
+02:21.900 --> 02:24.620
+Bu ibtidai funksiyanın pi böl 2-dəki
+
+02:24.620 --> 02:27.780
+və 0-dakı qiymətlərin tapacağıq.
+
+02:27.780 --> 02:30.620
+Bu bərabər olacaq-- gəlin mən
+
+02:30.620 --> 02:32.720
+bunu burada yazım.
+
+02:32.720 --> 02:39.530
+Bu, sinus pi böl 2 çıx
+
+02:39.530 --> 02:44.210
+sinus 0-a bərabərdir. Sinus pi böl 2
+1-ə bərabərdir,
+
+02:44.210 --> 02:45.280
+sinus 0 isə 0-a bərabərdir.
+
+02:45.280 --> 02:47.630
+Beləliklə, bu, 1 çıx 0-a, yəni 1-ə bərabər
+olacaq.
+
+02:47.630 --> 02:51.290
+Buradakı sahə
+
+02:51.290 --> 02:55.310
+1-ə bərabərdir.
+
+02:55.310 --> 02:57.620
+Gəlin indi
+
+02:57.620 --> 02:59.970
+daha maraqlı bir sahəyə baxaq.
+
+02:59.970 --> 03:06.770
+Belə ki, pi böl 2 və 3 pi böl 2 arasındakı
+
+03:06.770 --> 03:10.970
+əyrinin sahəsinə baxaq.
+
+03:19.430 --> 03:21.870
+Bunların arasındakı.
+
+03:21.870 --> 03:24.460
+Biz bu sahə haqqında danışırıq.
+
+03:24.460 --> 03:26.860
+Tam olaraq buradakı sahə haqqında danışırıq.
+
+03:26.860 --> 03:29.760
+Bu, 3 pi böl 2-dir.
+
+03:29.760 --> 03:31.980
+Sahəni inteqral
+
+03:31.980 --> 03:35.670
+pi böl 2-dən 3pi böl 2-yə kosinus
+
+03:35.670 --> 03:37.600
+x dx ilə tapırıq.
+
+03:37.600 --> 03:40.300
+Kosinus x-in ibtidai funksiyası
+
+03:40.300 --> 03:42.060
+sinus x-dir.
+
+03:42.060 --> 03:46.490
+3 pi böl 2 və pi böl 2 qiymətlərində
+hesablayırıq.
+
+03:46.490 --> 03:48.770
+Bu, sinus
+
+03:48.770 --> 03:55.330
+3 pi böl 2 çıx sinus pi böl 2 olacaq.
+
+03:55.330 --> 03:57.480
+Sinus 3 pi böl 2 nəyə bərabərdir?
+
+03:57.480 --> 04:02.950
+Əgər vahid çevrə çəksək, 3 pi böl 2
+
+04:02.950 --> 04:06.270
+onun 3/4 hissəsi olacaq.
+
+04:06.270 --> 04:07.490
+Buradadır.
+
+04:07.490 --> 04:11.340
+Buradakı vahid çevrədə sinus y oxudur.
+
+04:11.340 --> 04:12.400
+Bu, mənfi 1-dir.
+
+04:12.400 --> 04:15.580
+Buradakı mənfi 1-dir.
+
+04:15.580 --> 04:18.279
+Burada sinus pi böl 2 bu şəkildə
+
+04:18.279 --> 04:20.620
+düz yuxarı qalxır.
+
+04:20.620 --> 04:22.852
+Sinus pi böl 2
+1-ə bərabərdir.
+
+04:22.852 --> 04:23.810
+Maraqlıdır.
+
+04:23.810 --> 04:27.840
+Biz mənfi 1 çıx 1 alırıq, bu da
+mənfi 2-yə bərabərdir.
+
+04:27.840 --> 04:29.760
+Beləliklə, bu əyrinin sahəsini
+
+04:29.760 --> 04:32.120
+mənfi 3 tapdıq.
+
+04:32.120 --> 04:33.650
+Bu mümkündür?
+
+04:33.650 --> 04:36.450
+Bilirik ki, sahələr həmişə müsbətdir.
+
+04:36.450 --> 04:39.780
+Bəs mənfi 2 həqiqətən nəyi əks etdirir?
+
+04:39.780 --> 04:42.730
+Belə ki, funksiyamız x oxundan
+
+04:42.730 --> 04:46.110
+aşağıda yerləşir.
+
+04:46.110 --> 04:48.310
+Bu halda düşünə bilərik ki,
+sahə 2-yə bərabərdir,
+
+04:48.310 --> 04:50.570
+lakin əyri x oxundan aşağıda yerləşir.
+
+04:50.570 --> 04:53.110
+Buna görə də sahə mənfi 2 olacaq.
+
+04:53.110 --> 04:56.600
+Həqiqi sahə 2-dir, lakin əyri x oxundan
+
+04:56.600 --> 04:59.160
+aşağıda olduğu üçün onu mənfi götürürük.
+
+04:59.160 --> 05:01.220
+Gəlin davam edək.
+
+05:01.220 --> 05:04.890
+Bu dəfə inteqral 0-dan
+
+05:04.890 --> 05:11.310
+3 pi böl 2-yə kosinus x dx-i tapaq.
+
+05:11.310 --> 05:14.940
+Bu halda bütöv sahə nəzərdə tutulur.
+
+05:14.940 --> 05:19.590
+0-dan 3 pi böl 2-yə qədər
+olan bütün sahə.
+
+05:19.590 --> 05:22.190
+Sizcə nə baş verəcək?
+
+05:22.190 --> 05:23.520
+Gəlin hesablayaq.
+
+05:23.520 --> 05:30.710
+Bu, sinus 3 pi böl 2 çıx sinus 0 olacaq.
+
+05:33.950 --> 05:37.560
+Bu da mənfi 1 çıx 0-a,
+
+05:37.560 --> 05:39.890
+yəni mənfi 1-ə bərabərdir.
+
+05:39.890 --> 05:41.300
+Burada nə baş verdi?
+
+05:41.300 --> 05:44.450
+Narıncı rənglə qeyd etdiyim heç bir sahə
+
+05:44.450 --> 05:50.150
+mənfi deyil, ümumiyyətlə heç bir sahə
+mənfi deyil.
+
+05:50.150 --> 05:51.840
+Hətta sahə 1 belə deyil.
+
+05:51.840 --> 05:53.320
+Bəs burada nə baş verdi?
+
+05:53.320 --> 06:00.370
+Biz birinci hissədə sahənin 1 oduğunu gördük.
+
+06:00.370 --> 06:03.780
+Buradakı 1-ci hissənin sahəsi 1-dir.
+
+06:03.780 --> 06:06.610
+İkinci hissənin sahəsi isə mənfi 2-dir.
+
+06:11.370 --> 06:13.250
+Beləliklə, bu halda deyə bilərik ki,
+
+06:13.250 --> 06:19.400
+x oxundan yuxarıdakı sahə
+mənfi 1-dir
+
+06:19.400 --> 06:22.880
+və ya başqa sözlə desək, sahə mənfi 1-dir.
+
+06:22.880 --> 06:27.530
+Beləliklə, x oxundan yuxarıdakı sahədən,
+yəni 1-dən
+
+06:27.530 --> 06:29.950
+x oxundan aşağıdakı sahəni, yəni 2-ni çıxırıq.
+
+06:29.950 --> 06:31.560
+Beləliklə, Nyuton Leybnis
+
+06:31.560 --> 06:34.560
+düsturundan istifadə edərək inteqralı
+
+06:34.560 --> 06:36.760
+tapdıq. Başqa sözlə desək, x oxundan
+
+06:36.760 --> 06:40.629
+yuxarıdakı sahəni tapdıq.
+
+06:40.629 --> 06:42.170
+Əgər biz mənfi ədəd alsaq, bu o
+
+06:42.170 --> 06:44.920
+deməkdir ki, qrafik x
+
+06:44.920 --> 06:46.680
+oxundan aşağıdadır.
+
+06:46.680 --> 06:50.116
+Əgər 0 alsaq, bu o deməkdir ki, islah olunacaq.
+
+06:50.116 --> 06:51.740
+Əgər siz 0-dakı halı görmək istəyirsinizsə,
+
+06:51.740 --> 06:58.570
+0-dan 2 pi-yə qədər hissənin inteqralını tapın.
+
+06:58.570 --> 07:01.100
+Bu isə 0 olacaq, çünki buranın sahəsi 1-dir,
+
+07:01.100 --> 07:03.380
+buranın da sahəsi 1-dir,
+
+07:03.380 --> 07:04.800
+lakin buranın sahəsi mənfi 2-dir.
+Onlar islah olunacaq.
+
+07:04.800 --> 07:06.070
+Gəlin buna baxaq.
+
+07:06.070 --> 07:10.460
+Beləliklə, inteqral 0-dan 2 pi-yə kosinus x dx
+
+07:10.460 --> 07:15.970
+sinus 2 pi çıx sinus 0-a bərabərdir.
+
+07:15.970 --> 07:19.960
+Bu da 0 çıx 0-a,
+yəni 0-a bərabər olacaq.
+
+07:19.960 --> 07:21.680
+Beləliklə, x oxundan
+
+07:21.680 --> 07:23.560
+yuxarıdakı sahə ilə x oxundan
+
+07:23.560 --> 07:27.134
+aşağıdakı sahə islah olundu.

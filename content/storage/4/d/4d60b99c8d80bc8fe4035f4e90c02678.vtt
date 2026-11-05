@@ -1,0 +1,851 @@
+WEBVTT
+
+00:00.500 --> 00:02.540
+In this video, I want
+to familiarize you
+
+00:02.540 --> 00:07.060
+with the idea of a limit, which
+is a super important idea.
+
+00:07.060 --> 00:10.610
+It's really the idea that all
+of calculus is based upon.
+
+00:10.610 --> 00:13.157
+But despite being
+so super important,
+
+00:13.157 --> 00:15.740
+it's actually a really, really,
+really, really, really, really
+
+00:15.740 --> 00:17.350
+simple idea.
+
+00:17.350 --> 00:19.540
+So let me draw a
+function here, actually,
+
+00:19.540 --> 00:23.690
+let me define a function here,
+a kind of a simple function.
+
+00:23.690 --> 00:27.460
+So let's define f of x,
+let's say that f of x
+
+00:27.460 --> 00:32.846
+is going to be x minus
+1 over x minus 1.
+
+00:32.846 --> 00:34.220
+And you might say,
+hey, Sal look,
+
+00:34.220 --> 00:36.511
+I have the same thing in the
+numerator and denominator.
+
+00:36.511 --> 00:38.480
+If I have something
+divided by itself,
+
+00:38.480 --> 00:39.730
+that would just be equal to 1.
+
+00:39.730 --> 00:42.200
+Can't I just simplify
+this to f of x equals 1?
+
+00:42.200 --> 00:44.750
+And I would say, well,
+you're almost true,
+
+00:44.750 --> 00:46.860
+the difference between
+f of x equals 1
+
+00:46.860 --> 00:50.300
+and this thing right over here,
+is that this thing can never
+
+00:50.300 --> 00:54.200
+equal-- this thing is
+undefined when x is equal to 1.
+
+00:54.200 --> 00:56.560
+Because if you set,
+let me define it.
+
+00:56.560 --> 00:59.040
+Let me write it over
+here, if you have f of,
+
+00:59.040 --> 01:02.650
+sorry not f of 0, if you
+have f of 1, what happens.
+
+01:02.650 --> 01:04.599
+In the numerator,
+we get 1 minus 1,
+
+01:04.599 --> 01:07.770
+which is, let me just write
+it down, in the numerator,
+
+01:07.770 --> 01:08.910
+you get 0.
+
+01:08.910 --> 01:13.590
+And in the denominator, you
+get 1 minus 1, which is also 0.
+
+01:13.590 --> 01:16.800
+And so anything divided by
+0, including 0 divided by 0,
+
+01:16.800 --> 01:17.550
+this is undefined.
+
+01:21.350 --> 01:23.520
+So you can make
+the simplification.
+
+01:23.520 --> 01:28.980
+You can say that this is you the
+same thing as f of x is equal
+
+01:28.980 --> 01:35.080
+to 1, but you would have to add
+the constraint that x cannot be
+
+01:35.080 --> 01:36.340
+equal to 1.
+
+01:36.340 --> 01:38.190
+Now this and this
+are equivalent,
+
+01:38.190 --> 01:40.470
+both of these are
+going to be equal to 1
+
+01:40.470 --> 01:44.820
+for all other X's other
+than one, but at x equals 1,
+
+01:44.820 --> 01:46.070
+it becomes undefined.
+
+01:46.070 --> 01:48.770
+This is undefined and
+this one's undefined.
+
+01:48.770 --> 01:51.540
+So how would I
+graph this function.
+
+01:51.540 --> 01:54.610
+So let me graph it.
+
+01:54.610 --> 01:59.130
+So that, is my y is
+equal to f of x axis,
+
+01:59.130 --> 02:04.330
+y is equal to f of x axis,
+and then this over here
+
+02:04.330 --> 02:05.666
+is my x-axis.
+
+02:09.680 --> 02:12.940
+And then let's say this is
+the point x is equal to 1.
+
+02:12.940 --> 02:18.320
+This over here would be
+x is equal to negative 1.
+
+02:18.320 --> 02:22.140
+This is y is equal to 1, right
+up there I could do negative 1.
+
+02:22.140 --> 02:25.430
+but that matter much relative to
+this function right over here.
+
+02:25.430 --> 02:26.890
+And let me graph it.
+
+02:26.890 --> 02:31.180
+So it's essentially for
+any x other than 1 f
+
+02:31.180 --> 02:33.390
+of x is going to be equal to 1.
+
+02:33.390 --> 02:35.390
+So it's going to
+be, look like this.
+
+02:35.390 --> 02:40.250
+It's going to look
+like this, except at 1.
+
+02:40.250 --> 02:42.430
+At 1 f of x is undefined.
+
+02:42.430 --> 02:44.590
+So I'm going to put a
+little bit of a gap right
+
+02:44.590 --> 02:48.310
+over here, the circle to signify
+that this function is not
+
+02:48.310 --> 02:48.810
+defined.
+
+02:48.810 --> 02:51.210
+We don't know what this
+function equals at 1.
+
+02:51.210 --> 02:52.840
+We never defined it.
+
+02:52.840 --> 02:55.010
+This definition of the
+function doesn't tell us
+
+02:55.010 --> 02:55.760
+what to do with 1.
+
+02:55.760 --> 02:58.730
+It's literally undefined,
+literally undefined
+
+02:58.730 --> 03:00.740
+when x is equal to 1.
+
+03:00.740 --> 03:04.120
+So this is the function
+right over here.
+
+03:04.120 --> 03:07.850
+And so once again, if someone
+were to ask you what is f of 1,
+
+03:07.850 --> 03:10.340
+you go, and let's say that
+even though this was a function
+
+03:10.340 --> 03:12.126
+definition, you'd go,
+OK x is equal to 1,
+
+03:12.126 --> 03:15.100
+oh wait there's a gap in
+my function over here.
+
+03:15.100 --> 03:17.320
+It is undefined.
+
+03:17.320 --> 03:19.440
+So let me write it again.
+
+03:19.440 --> 03:22.875
+It's kind of redundant, but I'll
+rewrite it f of 1 is undefined.
+
+03:25.820 --> 03:27.770
+But what if I were
+to ask you, what
+
+03:27.770 --> 03:32.320
+is the function
+approaching as x equals 1.
+
+03:32.320 --> 03:35.630
+And now this is starting to
+touch on the idea of a limit.
+
+03:35.630 --> 03:38.080
+So as x gets closer
+and closer to 1.
+
+03:38.080 --> 03:40.190
+So as we get closer
+and closer x is
+
+03:40.190 --> 03:47.490
+to 1, what is the
+function approaching.
+
+03:47.490 --> 03:49.960
+Well, this entire
+time, the function,
+
+03:49.960 --> 03:51.760
+what's a getting
+closer and closer to.
+
+03:51.760 --> 03:53.830
+On the left hand side,
+no matter how close
+
+03:53.830 --> 03:56.080
+you get to 1, as long
+as you're not at 1,
+
+03:56.080 --> 03:58.880
+you're actually at f
+of x is equal to 1.
+
+03:58.880 --> 04:02.130
+Over here from the right hand
+side, you get the same thing.
+
+04:02.130 --> 04:05.370
+So you could say, and
+we'll get more and more
+
+04:05.370 --> 04:08.530
+familiar with this idea
+as we do more examples,
+
+04:08.530 --> 04:13.710
+that the limit as x and
+L-I-M, short for limit,
+
+04:13.710 --> 04:24.590
+as x approaches 1 of f of x
+is equal to, as we get closer,
+
+04:24.590 --> 04:27.610
+we can get unbelievably, we
+can get infinitely close to 1,
+
+04:27.610 --> 04:29.240
+as long as we're not at 1.
+
+04:29.240 --> 04:31.202
+And our function is
+going to be equal to 1,
+
+04:31.202 --> 04:33.160
+it's getting closer and
+closer and closer to 1.
+
+04:33.160 --> 04:35.490
+It's actually at
+1 the entire time.
+
+04:35.490 --> 04:38.030
+So in this case, we
+could say the limit
+
+04:38.030 --> 04:41.214
+as x approaches
+1 of f of x is 1.
+
+04:41.214 --> 04:43.880
+So once again, it has very fancy
+notation, but it's just saying,
+
+04:43.880 --> 04:45.380
+look what is a
+function approaching
+
+04:45.380 --> 04:48.140
+as x gets closer
+and closer to 1.
+
+04:48.140 --> 04:51.040
+Let me do another example where
+we're dealing with a curve,
+
+04:51.040 --> 04:54.680
+just so that you have
+the general idea.
+
+04:54.680 --> 04:58.230
+So let's say that
+I have the function
+
+04:58.230 --> 05:01.230
+f of x, let me just for
+the sake of variety,
+
+05:01.230 --> 05:02.970
+let me call it g of x.
+
+05:02.970 --> 05:05.940
+Let's say that we have
+g of x is equal to,
+
+05:05.940 --> 05:11.710
+I could define it this way, we
+could define it as x squared,
+
+05:11.710 --> 05:16.930
+when x does not equal, I don't
+know when x does not equal 2.
+
+05:16.930 --> 05:24.565
+And let's say that when x
+equals 2 it is equal to 1.
+
+05:24.565 --> 05:26.190
+So once again, a kind
+of an interesting
+
+05:26.190 --> 05:30.110
+function that, as you'll
+see, is not fully continuous,
+
+05:30.110 --> 05:32.110
+it has a discontinuity.
+
+05:32.110 --> 05:33.880
+Let me graph it.
+
+05:33.880 --> 05:37.870
+So this is my y
+equals f of x axis,
+
+05:37.870 --> 05:42.180
+this is my x-axis
+right over here.
+
+05:42.180 --> 05:46.350
+Let me draw x equals 2, x,
+let's say this is x equals 1,
+
+05:46.350 --> 05:53.750
+this is x equals 2, this is
+negative 1, this is negative 2.
+
+05:53.750 --> 05:57.650
+And then let me draw, so
+everywhere except x equals 2,
+
+05:57.650 --> 06:00.400
+it's equal to x squared.
+
+06:00.400 --> 06:01.870
+So let me draw it like this.
+
+06:01.870 --> 06:08.670
+So it's going to be a parabola,
+looks something like this,
+
+06:08.670 --> 06:10.880
+let me draw a better
+version of the parabola.
+
+06:10.880 --> 06:13.110
+So it'll look
+something like this.
+
+06:16.970 --> 06:19.370
+Not the most beautifully
+drawn parabola
+
+06:19.370 --> 06:21.570
+in the history of
+drawing parabolas,
+
+06:21.570 --> 06:23.720
+but I think it'll
+give you the idea.
+
+06:23.720 --> 06:26.750
+I think you know what a
+parabola looks like, hopefully.
+
+06:26.750 --> 06:28.674
+It should be symmetric,
+let me redraw it
+
+06:28.674 --> 06:29.840
+because that's kind of ugly.
+
+06:32.950 --> 06:34.860
+And that's looking better.
+
+06:34.860 --> 06:37.740
+OK, all right, there you go.
+
+06:37.740 --> 06:42.210
+All right, now, this would be
+the graph of just x squared.
+
+06:42.210 --> 06:43.020
+But this can't be.
+
+06:43.020 --> 06:45.600
+It's not x squared
+when x is equal to 2.
+
+06:45.600 --> 06:49.290
+So once again, when
+x is equal to 2,
+
+06:49.290 --> 06:53.200
+we should have a little bit
+of a discontinuity here.
+
+06:53.200 --> 06:56.440
+So I'll draw a gap right over
+there, because when x equals 2
+
+06:56.440 --> 06:58.610
+the function is equal to 1.
+
+06:58.610 --> 07:00.560
+When x is equal to
+2, so let's say that,
+
+07:00.560 --> 07:03.200
+and I'm not doing them on the
+same scale, but let's say that.
+
+07:03.200 --> 07:06.970
+So this, on the graph of f
+of x is equal to x squared,
+
+07:06.970 --> 07:11.020
+this would be 4, this would
+be 2, this would be 1,
+
+07:11.020 --> 07:12.850
+this would be 3.
+
+07:12.850 --> 07:17.755
+So when x is equal to 2,
+our function is equal to 1.
+
+07:23.720 --> 07:25.480
+So this is a bit of
+a bizarre function,
+
+07:25.480 --> 07:26.890
+but we can define it this way.
+
+07:26.890 --> 07:29.280
+You can define a function
+however you like to define it.
+
+07:29.280 --> 07:33.490
+And so notice, it's
+just like the graph of f
+
+07:33.490 --> 07:36.800
+of x is equal to x squared,
+except when you get to 2,
+
+07:36.800 --> 07:39.410
+it has this gap,
+because you don't
+
+07:39.410 --> 07:43.830
+use the f of x is equal to x
+squared when x is equal to 2.
+
+07:43.830 --> 07:46.170
+You use f of x--
+or I should say g
+
+07:46.170 --> 07:48.497
+of x-- you use g
+of x is equal to 1.
+
+07:48.497 --> 07:49.580
+Have I been saying f of x?
+
+07:49.580 --> 07:50.940
+I apologize for that.
+
+07:50.940 --> 07:52.670
+You use g of x is equal to 1.
+
+07:52.670 --> 07:56.470
+So then then at 2, just
+at 2, just exactly at 2,
+
+07:56.470 --> 07:57.830
+it drops down to 1.
+
+07:57.830 --> 08:00.250
+And then it keeps going
+along the function
+
+08:00.250 --> 08:03.310
+g of x is equal to, or I
+should say, along the function
+
+08:03.310 --> 08:05.240
+x squared.
+
+08:05.240 --> 08:06.542
+So my question to you.
+
+08:06.542 --> 08:08.000
+So there's a couple
+of things, if I
+
+08:08.000 --> 08:10.860
+were to just evaluate
+the function g of 2.
+
+08:10.860 --> 08:12.840
+Well, you'd look
+at this definition,
+
+08:12.840 --> 08:16.260
+OK, when x equals 2, I use
+this situation right over here.
+
+08:16.260 --> 08:18.950
+And it tells me, it's
+going to be equal to 1.
+
+08:18.950 --> 08:20.940
+Let me ask a more
+interesting question.
+
+08:20.940 --> 08:23.150
+Or perhaps a more
+interesting question.
+
+08:23.150 --> 08:30.370
+What is the limit as x
+approaches 2 of g of x.
+
+08:30.370 --> 08:33.159
+Once again, fancy notation,
+but it's asking something
+
+08:33.159 --> 08:35.220
+pretty, pretty, pretty simple.
+
+08:35.220 --> 08:38.758
+It's saying as x gets closer and
+closer to 2, as you get closer
+
+08:38.758 --> 08:40.799
+and closer, and this isn't
+a rigorous definition,
+
+08:40.799 --> 08:42.419
+we'll do that in future videos.
+
+08:42.419 --> 08:48.050
+As x gets closer and closer to
+2, what is g of x approaching?
+
+08:48.050 --> 08:53.210
+So if you get to 1.9, and
+then 1.999, and then 1.999999,
+
+08:53.210 --> 08:57.960
+and then 1.9999999, what
+is g of x approaching.
+
+08:57.960 --> 09:00.450
+Or if you were to go from
+the positive direction.
+
+09:00.450 --> 09:02.680
+If you were to say
+2.1, what's g of 2.1,
+
+09:02.680 --> 09:08.050
+what's g of 2.01, what's g of
+2.001, what is that approaching
+
+09:08.050 --> 09:10.100
+as we get closer
+and closer to it.
+
+09:10.100 --> 09:12.510
+And you can see it visually
+just by drawing the graph.
+
+09:12.510 --> 09:15.610
+As g gets closer
+and closer to 2,
+
+09:15.610 --> 09:18.350
+and if we were to
+follow along the graph,
+
+09:18.350 --> 09:20.560
+we see that we
+are approaching 4.
+
+09:20.560 --> 09:22.930
+Even though that's not
+where the function is,
+
+09:22.930 --> 09:24.840
+the function drops down to 1.
+
+09:24.840 --> 09:30.940
+The limit of g of x as x
+approaches 2 is equal to 4.
+
+09:30.940 --> 09:33.540
+And you could even do this
+numerically using a calculator,
+
+09:33.540 --> 09:38.170
+and let me do that, because I
+think that will be interesting.
+
+09:38.170 --> 09:39.795
+So let me get the
+calculator out,
+
+09:39.795 --> 09:43.230
+let me get my trusty TI-85 out.
+
+09:45.980 --> 09:48.820
+So here is my calculator,
+and you could numerically
+
+09:48.820 --> 09:50.770
+say, OK, what's it
+going to approach
+
+09:50.770 --> 09:53.770
+as you approach x equals 2.
+
+09:53.770 --> 09:57.310
+So let's try 1.94,
+for x is equal to 1.9,
+
+09:57.310 --> 09:59.550
+you would use this top
+clause right over here.
+
+09:59.550 --> 10:04.070
+So you'd have 1.9 squared.
+
+10:04.070 --> 10:07.280
+And so you get 3.61, well what
+if you get even closer to 2,
+
+10:07.280 --> 10:12.730
+so 1.99, and once again,
+let me square that.
+
+10:12.730 --> 10:14.410
+Well now I'm at 3.96.
+
+10:14.410 --> 10:18.715
+What if I do 1.999,
+and I square that?
+
+10:21.840 --> 10:23.760
+I'm going to have 3.996.
+
+10:23.760 --> 10:25.520
+Notice I'm going
+closer, and closer,
+
+10:25.520 --> 10:27.930
+and closer to our point.
+
+10:27.930 --> 10:29.930
+And if I did, if I
+got really close,
+
+10:29.930 --> 10:36.290
+1.9999999999 squared,
+what am I going to get to.
+
+10:36.290 --> 10:38.290
+It's not actually
+going to be exactly 4,
+
+10:38.290 --> 10:40.150
+this calculator just
+rounded things up,
+
+10:40.150 --> 10:42.650
+but going to get to a number
+really, really, really, really,
+
+10:42.650 --> 10:44.917
+really, really, really,
+really, really close to 4.
+
+10:44.917 --> 10:47.250
+And we can do something from
+the positive direction too.
+
+10:47.250 --> 10:48.958
+And it actually has
+to be the same number
+
+10:48.958 --> 10:52.280
+when we approach from the below
+what we're trying to approach,
+
+10:52.280 --> 10:54.700
+and above what we're
+trying to approach.
+
+10:54.700 --> 11:00.020
+So if we try to 2.1
+squared, we get 4.4.
+
+11:00.020 --> 11:00.980
+If we do 2.
+
+11:00.980 --> 11:02.870
+let me go a couple
+of steps ahead,
+
+11:02.870 --> 11:07.920
+2.01, so this is much
+closer to 2 now, squared.
+
+11:07.920 --> 11:09.420
+Now we are getting
+much closer to 4.
+
+11:09.420 --> 11:11.710
+So the closer we
+get to 2, the closer
+
+11:11.710 --> 11:13.230
+it seems like
+we're getting to 4.
+
+11:13.230 --> 11:15.180
+So once again,
+that's a numeric way
+
+11:15.180 --> 11:19.110
+of saying that the
+limit, as x approaches 2
+
+11:19.110 --> 11:22.620
+from either direction of g
+of x, even though right at 2,
+
+11:22.620 --> 11:25.230
+the function is equal to 1,
+because it's discontinuous.
+
+11:25.230 --> 11:26.980
+The limit as we're
+approaching 2,
+
+11:26.980 --> 11:30.803
+we're getting closer, and
+closer, and closer to 4.

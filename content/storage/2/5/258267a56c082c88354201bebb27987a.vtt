@@ -1,0 +1,332 @@
+WEBVTT
+
+00:00.615 --> 00:02.679
+- [Instructor] Let's
+say that X is a function
+
+00:02.679 --> 00:06.940
+of the parameter T and
+it's equal to cosine of T
+
+00:06.940 --> 00:10.273
+and Y is also defined as a function of T
+
+00:12.321 --> 00:15.217
+and it's equal to sin of T
+
+00:15.217 --> 00:17.136
+and we wanna find the arc length
+
+00:17.136 --> 00:18.943
+of the curve traced out,
+
+00:18.943 --> 00:22.110
+so length of curve
+
+00:24.308 --> 00:28.319
+from T is equal to zero
+
+00:28.319 --> 00:31.532
+to T is equal to pi over two.
+
+00:31.532 --> 00:34.001
+So, pause this video and
+see if you can work that out
+
+00:34.001 --> 00:37.418
+based on formulas that we
+have seen in other videos.
+
+00:37.418 --> 00:39.617
+Alright, so first, I'm
+gonna look at the formula
+
+00:39.617 --> 00:41.018
+and then we're gonna visualize it
+
+00:41.018 --> 00:43.698
+and appreciate why what
+we got from the formula
+
+00:43.698 --> 00:45.111
+actually makes sense.
+
+00:45.111 --> 00:47.521
+So, the formula tells us that arc length
+
+00:47.521 --> 00:49.529
+of a parametric curve,
+
+00:49.529 --> 00:52.446
+arc length is equal to the integral
+
+00:54.354 --> 00:56.403
+from our starting point of our parameter,
+
+00:56.403 --> 00:59.201
+T equals A to our ending
+point of our parameter,
+
+00:59.201 --> 01:03.118
+T equals B of the square
+root of the derivative
+
+01:04.610 --> 01:07.110
+of X with respect to T squared
+
+01:08.039 --> 01:12.206
+plus the derivative of Y with
+respect to T squared DT, DT.
+
+01:15.882 --> 01:18.331
+This could also be
+rewritten as this is equal
+
+01:18.331 --> 01:21.147
+to the integral from A to B
+
+01:21.147 --> 01:24.980
+of the square root of DX/DT squared
+
+01:27.429 --> 01:30.096
+plus DY/DT squared DT
+
+01:32.854 --> 01:35.641
+but either way we can now
+apply it in this context.
+
+01:35.641 --> 01:37.385
+What is DX/DT?
+
+01:37.385 --> 01:41.552
+So, DX/DT is equal to
+the derivative of cosine
+
+01:43.772 --> 01:46.689
+of T is equal to negative sin of T,
+
+01:47.969 --> 01:49.542
+negative sin of T
+
+01:49.542 --> 01:51.740
+and what is DY/DT?
+
+01:51.740 --> 01:54.337
+The derivative of Y with respect to T.
+
+01:54.337 --> 01:57.971
+The derivative of sin of T
+is cosine of T, cosine of T.
+
+01:57.971 --> 02:01.040
+So, our arc length up
+here is going to be equal
+
+02:01.040 --> 02:04.496
+to the integral from T is equal to zero
+
+02:04.496 --> 02:07.005
+to pi over two, that's what we care about,
+
+02:07.005 --> 02:08.033
+our parameter's going from zero
+
+02:08.033 --> 02:10.704
+to pi over two of the square root
+
+02:10.704 --> 02:14.503
+of the derivative of X
+with respect to T squared.
+
+02:14.503 --> 02:17.322
+That's a negative sin of T squared,
+
+02:17.322 --> 02:19.434
+well, if you square it the
+negative's gonna go away,
+
+02:19.434 --> 02:21.093
+we're gonna have negative
+sin times negative sin
+
+02:21.093 --> 02:23.068
+is positive sin squared,
+
+02:23.068 --> 02:26.485
+so I could write this as sin squared of T
+
+02:27.874 --> 02:30.412
+and then DY/DT squared,
+
+02:30.412 --> 02:32.277
+that's just cosine squared T,
+
+02:32.277 --> 02:34.598
+plus cosine squared T
+
+02:34.598 --> 02:37.434
+and then we have our DT out here.
+
+02:37.434 --> 02:41.049
+Now lucky for us, sin
+squared plus cosine squared
+
+02:41.049 --> 02:45.018
+of some variable is always
+going to be equal to one.
+
+02:45.018 --> 02:49.062
+So, that's one of our most
+basic trig identities,
+
+02:49.062 --> 02:51.236
+comes straight out of the
+unit circle definition
+
+02:51.236 --> 02:52.893
+of sin and cosine
+
+02:52.893 --> 02:54.843
+and so, we have the square root of one,
+
+02:54.843 --> 02:55.787
+the principle root of one
+
+02:55.787 --> 02:56.976
+which is just going to be one,
+
+02:56.976 --> 02:59.692
+so everything here has just simplified
+
+02:59.692 --> 03:03.359
+to the integral from
+zero to pi over two DT.
+
+03:04.376 --> 03:06.755
+Well, this is going to be equal to,
+
+03:06.755 --> 03:08.320
+so you could view it, this is a one here,
+
+03:08.320 --> 03:10.646
+the antiderivative of
+one with respect to T
+
+03:10.646 --> 03:12.139
+is just gonna be T
+
+03:12.139 --> 03:16.013
+and we're gonna evaluate
+that from pi over two.
+
+03:16.013 --> 03:17.463
+We're gonna evaluate that at pi over two
+
+03:17.463 --> 03:18.616
+and then subtract.
+
+03:18.616 --> 03:19.730
+It evaluated at zero,
+
+03:19.730 --> 03:23.754
+so this is gonna be equal to pi over two
+
+03:23.754 --> 03:25.437
+minus zero,
+
+03:25.437 --> 03:28.098
+that's going to be equal to pi over two.
+
+03:28.098 --> 03:32.265
+Now let's think about why
+that actually does make sense.
+
+03:33.447 --> 03:35.280
+Let's plot this curve.
+
+03:36.609 --> 03:40.192
+So, that is my Y axis
+and this is my X axis
+
+03:42.721 --> 03:43.995
+right over here.
+
+03:43.995 --> 03:45.995
+When T is equal to zero,
+
+03:47.536 --> 03:50.342
+you have X of zero is cosine of zero,
+
+03:50.342 --> 03:52.148
+X is equal to one,
+
+03:52.148 --> 03:53.579
+X is equal to one,
+
+03:53.579 --> 03:56.018
+and Y, sin of zero is just zero,
+
+03:56.018 --> 03:57.048
+so Y is equal to zero,
+
+03:57.048 --> 03:58.968
+so we're at this point right here
+
+03:58.968 --> 04:00.718
+at T is equal to zero
+
+04:02.160 --> 04:04.889
+and then as T increases up to pi over two,
+
+04:04.889 --> 04:07.518
+we trace out the top right corner
+
+04:07.518 --> 04:09.462
+of the unit circle
+
+04:09.462 --> 04:10.675
+and we end up right over here
+
+04:10.675 --> 04:13.258
+when T is equal to pi over two.
+
+04:14.273 --> 04:15.966
+You could view T in this case
+
+04:15.966 --> 04:19.208
+as some type of an angle in radians.
+
+04:19.208 --> 04:22.397
+And so, the arc length
+is really just the length
+
+04:22.397 --> 04:25.034
+of quarter of a quarter of a unit circle.
+
+04:25.034 --> 04:26.261
+Well, we know what the circumference
+
+04:26.261 --> 04:28.839
+of a circle is, it is two pi R.
+
+04:28.839 --> 04:31.860
+In the unit circle
+case, the radius is one,
+
+04:31.860 --> 04:34.678
+so the circumference of the
+entire circle is two pie.
+
+04:34.678 --> 04:38.700
+One fourth of that is
+going to be pi over two.
+
+04:38.700 --> 04:40.798
+So, it's nice when we this fancy thing
+
+04:40.798 --> 04:42.856
+that we feel good about it in calculus
+
+04:42.856 --> 04:47.023
+is consistent with what we
+first learned in basic geometry.

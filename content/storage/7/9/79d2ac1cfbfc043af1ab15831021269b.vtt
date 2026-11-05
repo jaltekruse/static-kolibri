@@ -1,0 +1,282 @@
+WEBVTT
+
+00:00.480 --> 00:08.350
+V tomto videu bych rád zkusil
+spočítat derivaci y podle x,
+
+00:08.350 --> 00:14.950
+a to pro y rovná se
+inverzní sinus v bodě x.
+
+00:14.950 --> 00:19.170
+Jako vždy doporučuji, abyste si zastavili
+video a zkusili to vyřešit sami.
+
+00:19.170 --> 00:21.610
+Dám vám
+dvě nápovědy.
+
+00:21.610 --> 00:25.080
+První nápovědou je, že sice neznáme
+derivaci inverzního sinu v bodě x,
+
+00:25.080 --> 00:28.790
+ale víme, čemu se rovná
+derivace sinu něčeho.
+
+00:28.790 --> 00:33.180
+Když tohle tedy nějak upravíte
+a zkusíte použít implicitní derivování,
+
+00:33.180 --> 00:36.260
+tak možná budete schopni zjistit,
+čemu se rovná dy lomeno dx.
+
+00:36.260 --> 00:41.000
+Naším cílem je totiž
+spočítat dy lomeno dx,
+
+00:41.000 --> 00:45.820
+neboli chceme spočítat
+derivaci tohoto podle x.
+
+00:45.820 --> 00:49.670
+Předpokládám, že už jste si to zkusili,
+teď to pojďme spočítat společně.
+
+00:49.670 --> 00:52.052
+Když je y rovno
+inverznímu sinu v bodě x,
+
+00:52.052 --> 01:05.380
+tak je to totéž jako když řekneme,
+že sin(y) se rovná x.
+
+01:05.380 --> 01:08.560
+Tyto výrazy už nám
+jsou více povědomé.
+
+01:08.560 --> 01:11.030
+Nyní můžeme použít
+implicitní derivování.
+
+01:11.030 --> 01:15.025
+Obě strany
+zderivujeme podle x,
+
+01:15.025 --> 01:23.370
+takže derivace levé strany podle x
+a derivace pravé strany podle x.
+
+01:23.370 --> 01:27.230
+Čemu se rovná derivace
+levé strany podle x?
+
+01:27.230 --> 01:29.390
+Použijeme vzorec pro
+derivaci složené funkce.
+
+01:29.390 --> 01:38.480
+Je to derivace sin(y)
+podle y, což je cos(y),
+
+01:38.480 --> 01:41.822
+a tohle musíme vynásobit
+derivací y podle x,
+
+01:41.822 --> 01:49.000
+tedy krát
+dy lomeno dx.
+
+01:49.000 --> 01:56.362
+Na pravé straně máme
+derivaci x podle x, což se rovná 1.
+
+01:56.362 --> 01:59.100
+Nyní osamostatníme
+dy lomeno dx.
+
+01:59.100 --> 02:01.910
+Obě strany rovnice
+vydělíme cos(y), čímž dostaneme,
+
+02:01.910 --> 02:10.459
+že derivace y podle x
+se rovná 1 lomeno cos(y).
+
+02:10.459 --> 02:14.400
+Tohle ale ještě není úplně ono, protože
+máme derivaci vyjádřenou pomocí y.
+
+02:14.400 --> 02:17.960
+Zkusme ji tedy nějak
+vyjádřit pomocí x.
+
+02:17.960 --> 02:19.640
+Jak to
+můžeme udělat?
+
+02:19.640 --> 02:22.150
+Už víme, že
+x se rovná sin(y).
+
+02:22.150 --> 02:23.035
+Znovu to
+napíšu.
+
+02:23.035 --> 02:27.010
+Víme, že x se
+rovná sin(y).
+
+02:27.010 --> 02:31.116
+Když v tomto výrazu dole
+namísto cos(y) napíšeme...
+
+02:31.116 --> 02:36.364
+Když použijeme nějakou goniometrickou
+identitu a přepíšeme to pomocí sin(y),
+
+02:36.364 --> 02:40.180
+tak už budeme na dobré cestě,
+protože x se rovná sin(y).
+
+02:40.180 --> 02:42.010
+Tak jak to
+uděláme?
+
+02:42.010 --> 02:46.600
+Jednou z
+goniometrických identit je,
+
+02:46.600 --> 02:53.170
+že sinus na druhou v bodě y plus kosinus
+na druhou v bodě y se rovná 1.
+
+02:53.170 --> 02:57.874
+Když chceme vyjádřit cos(y), tak od obou
+stran odečteme sinus na druhou v bodě y.
+
+02:57.874 --> 03:04.300
+Dostaneme, že kosinus na druhou v bodě y
+se rovná 1 minus sinus na druhou v bodě y,
+
+03:04.300 --> 03:08.544
+tedy že cos(y), když na obě strany
+použijeme druhou odmocninu,
+
+03:08.544 --> 03:16.470
+se rovná odmocnina z
+(1 minus sinus na druhou v bodě y).
+
+03:16.470 --> 03:22.827
+Tento výraz tedy můžeme
+přepsat jako 1 lomeno…
+
+03:22.827 --> 03:29.490
+Namísto cos(y) napíšeme odmocninu z
+(1 minus sinus na druhou v bodě y).
+
+03:29.490 --> 03:31.020
+Proč to takto
+přepisujeme?
+
+03:31.020 --> 03:33.140
+Víme, že sin(y)
+se rovná x,
+
+03:33.140 --> 03:35.590
+takže tohle se bude rovnat,
+když dosadíme...
+
+03:35.590 --> 03:37.700
+Zapíšu to jinak,
+ať je to trošku jasnější.
+
+03:37.700 --> 03:40.670
+Tohle můžeme zapsat
+jako sin(y) to na druhou.
+
+03:40.670 --> 03:42.600
+Víme, že tohle je x,
+
+03:42.600 --> 03:44.190
+takže tohle
+se rovná…
+
+03:44.190 --> 03:46.480
+Teď bychom si zasloužili
+menší oslavnou fanfáru.
+
+03:46.480 --> 03:50.830
+...se rovná 1 lomeno
+odmocnina z (1 minus…
+
+03:50.830 --> 03:54.540
+Namísto sin(y) napíšeme x,
+protože víme, že x se rovná sin(y).
+
+03:54.540 --> 03:56.854
+...1 minus x na druhou.
+
+03:56.854 --> 03:58.110
+A je to.
+
+03:58.110 --> 04:06.489
+Derivace podle x z inverzního
+sinu v bodě x se rovná
+
+04:06.489 --> 04:10.180
+1 lomeno odmocnina z
+(1 minus x na druhou).
+
+04:10.180 --> 04:12.030
+Ještě jednou
+to objasním.
+
+04:12.030 --> 04:15.850
+Kdybyste obě strany této
+rovnosti zderivovali podle x,
+
+04:15.850 --> 04:19.051
+dostali byste, že
+dy lomeno dx se rovná tomuto.
+
+04:19.051 --> 04:20.451
+Tohle by bylo
+na pravé straně.
+
+04:20.451 --> 04:30.022
+Nebo můžeme říct, že derivace podle x
+z inverzního sinu v bodě x se rovná
+
+04:30.022 --> 04:36.110
+1 lomeno odmocnina z
+(1 minus x na druhou).
+
+04:36.110 --> 04:39.440
+Tohle si vždy můžete znovu odvodit,
+kdyby vám paměť přestávala sloužit.
+
+04:39.440 --> 04:42.770
+Vlastně je to nejlepší způsob,
+jak to opravdu vstřebat.
+
+04:42.770 --> 04:44.718
+Tohle je ale
+zkrátka dobré znát,
+
+04:44.718 --> 04:48.033
+obzvlášť až půjdeme hloub
+a hloub do diferenciálního počtu,
+
+04:48.033 --> 04:50.259
+tak můžete vidět tento
+výraz a jen si řeknete:
+
+04:50.259 --> 04:52.541
+„Vida, tohle je přece
+derivace inverzního sinu,“
+
+04:52.551 --> 04:55.881
+což se vám bude
+hodit vědět.

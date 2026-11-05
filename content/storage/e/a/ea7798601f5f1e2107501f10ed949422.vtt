@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.571 --> 00:02.785
+Mình sẽ thử xác định một đường cong
+
+00:02.785 --> 00:05.159
+với tung độ và hoành độ
+
+00:05.159 --> 00:07.328
+được xác định bởi
+
+00:07.328 --> 00:10.467
+một hàm số của tham số t
+
+00:10.467 --> 00:13.476
+vậy mình có thể nói x là một hàm số của t
+
+00:13.476 --> 00:17.004
+Mình cũng có thể nói y là một hàm số của t
+
+00:17.004 --> 00:19.561
+Nếu khái niệm này hoàn toàn lạ lẫm với bạn
+
+00:19.561 --> 00:22.523
+Bạn có thể xem lại các video trước về phương trình tham số
+
+00:22.523 --> 00:24.202
+trên kênh của Khan Academy
+
+00:24.202 --> 00:25.678
+Nhưng cái mà mình sẽ
+
+00:25.678 --> 00:27.758
+nói và bàn luận trong video này nói chung
+
+00:27.758 --> 00:29.786
+thì mình sẽ làm nhiều ví dụ cụ thể hơn
+
+00:29.786 --> 00:32.769
+trong các video trong tương lai
+
+00:32.769 --> 00:34.726
+Nhưng mình sẽ nghĩ về phần đường cong
+
+00:34.726 --> 00:35.858
+được xác định ở đây
+
+00:35.858 --> 00:38.025
+từ t=a
+
+00:39.148 --> 00:42.188
+ở đây ta có t=a
+
+00:42.188 --> 00:45.917
+vậy thì điểm này sẽ có tọa độ x a
+
+00:45.917 --> 00:47.000
+phẩy y a
+
+00:49.083 --> 00:50.055
+điểm này ngay đây
+
+00:50.055 --> 00:52.603
+và khi mình tăng từ t=a
+
+00:52.603 --> 00:54.186
+đến t=b
+
+00:55.818 --> 00:59.668
+thì đường cong của mình sẽ trông như thế này
+
+00:59.668 --> 01:02.355
+vậy cái này là khi t=b
+
+01:02.355 --> 01:03.224
+t=b
+
+01:03.224 --> 01:06.087
+vậy điểm này ở đây là x b
+
+01:06.087 --> 01:07.170
+phẩy y b
+
+01:08.731 --> 01:10.611
+Mình sẽ cùng nghĩ cách tìm
+
+01:10.611 --> 01:12.806
+độ dài của đường cong thực tế
+
+01:12.806 --> 01:17.311
+độ dài cung tròn từ t=a đến t=b
+
+01:17.311 --> 01:18.400
+Để tìm nó thì
+
+01:18.400 --> 01:20.686
+mình sẽ phóng to ra và phân tích nó
+
+01:20.686 --> 01:24.546
+khi t thay đổi rất ít
+
+01:24.546 --> 01:26.045
+vậy lượng thay đổi của t rất nhỏ
+
+01:26.045 --> 01:28.616
+Mình bắt đầu từ điểm này ngay đây
+
+01:28.616 --> 01:30.636
+và lượng thay đổi của t rất nhỏ
+
+01:30.636 --> 01:34.957
+nên mình sẽ đi từ điểm này đến điểm này
+
+01:34.957 --> 01:36.803
+là đoạn thay đổi của t
+
+01:36.803 --> 01:38.091
+Nó thực tế còn nhỏ hơn khoảng này nữa
+
+01:38.091 --> 01:39.102
+nhưng nếu mình vẽ nhỏ hơn
+
+01:39.102 --> 01:40.487
+thì sẽ rất khó nhìn
+
+01:40.487 --> 01:43.085
+Vậy cứ xem như đây là khoảng thay đổi rất nhỏ của mình
+
+01:43.085 --> 01:46.752
+trong đoạn mà cung tròn của mình đi
+
+01:47.866 --> 01:50.179
+vậy nếu mình muốn tìm độ dài
+
+01:50.179 --> 01:52.246
+mình có thể chia nhỏ nó ra
+
+01:52.246 --> 01:54.244
+thành độ dài mà mình dịch chuyển hướng x
+
+01:54.244 --> 01:56.603
+và độ dài mình dịch chuyển theo hướng y
+
+01:56.603 --> 01:58.792
+Vậy theo hướng x,
+
+01:58.792 --> 02:00.490
+hướng x ngay đây
+
+02:00.490 --> 02:03.002
+khoảng mà mình dịch chuyển là rất nhỏ
+
+02:03.002 --> 02:04.640
+và nó bằng với cái gì?
+
+02:04.640 --> 02:05.823
+Nó sẽ là tỉ lệ của lượng thay đổi
+
+02:05.823 --> 02:08.794
+giữa cái mà mình đang thay đổi theo t
+
+02:08.794 --> 02:11.963
+và cái mà x thay đổi theo t
+
+02:11.963 --> 02:14.368
+nhân với lượng thay đổi rất nhỏ của t
+
+02:15.860 --> 02:17.673
+Mình sẽ dùng kí hiệu vi phân
+
+02:17.673 --> 02:20.002
+và mình đang sử dụng khái niệm
+
+02:20.002 --> 02:23.813
+của vi phân như một thay đổi nhỏ vô cực
+
+02:23.813 --> 02:25.731
+trong của ẩn đó
+
+02:25.731 --> 02:27.449
+Đây không phải là cách chứng minh chính thống
+
+02:27.449 --> 02:29.011
+nhưng nó giúp chúng mình hình dung
+
+02:29.011 --> 02:30.898
+cách tìm độ dài cung tròn
+
+02:30.898 --> 02:33.163
+khi mình gặp phương trình tham số
+
+02:33.163 --> 02:35.736
+Mong nó sẽ giúp bạn hiểu về lý thuyết
+
+02:35.736 --> 02:36.868
+là đây là dx của mình
+
+02:36.868 --> 02:38.184
+Thực ra có thể viết nó thế này
+
+02:38.184 --> 02:42.351
+dx/dt, nó giống với x phẩy của t nhân dt
+
+02:43.431 --> 02:44.752
+và lượng thay đổi của y
+
+02:44.752 --> 02:47.162
+sẽ cũng giống như vậy
+
+02:47.162 --> 02:49.686
+Lượng thay đổi nhỏ vô cực của y
+
+02:49.686 --> 02:52.117
+khi mình có một lượng thay đổi nhỏ vô cực của t
+
+02:52.117 --> 02:53.482
+bạn có thể xem đó là tỉ lệ thay đổi
+
+02:53.482 --> 02:55.392
+của y theo t
+
+02:55.392 --> 02:57.189
+nhân với lượng thay đổi của t
+
+02:57.189 --> 02:59.275
+lượng thay đổi rất nhỏ của t
+
+02:59.275 --> 03:00.588
+bằng với
+
+03:00.588 --> 03:03.838
+mình có thể viết là y phẩy của t, dt
+
+03:05.351 --> 03:07.816
+Dựa vào cái này, độ dài
+
+03:07.816 --> 03:12.498
+của cung tròn nhỏ đến vô cực ở đây?
+
+03:12.498 --> 03:15.219
+Mình có thể dùng định lý Pytago
+
+03:15.219 --> 03:18.392
+Cái này sẽ bằng với căn bậc hai của
+
+03:18.392 --> 03:20.094
+nó là cạnh huyền của tam giác vuông này
+
+03:20.094 --> 03:21.002
+ngay đây
+
+03:21.002 --> 03:22.006
+Vậy cái này bằng với căn bậc hai
+
+03:22.006 --> 03:24.357
+của cái này bình cộng cái này bình
+
+03:24.357 --> 03:26.497
+Vậy bằng với căn bậc hai của
+
+03:26.497 --> 03:28.390
+để mình làm rộng chỗ hơn một chút
+
+03:28.390 --> 03:30.110
+mình nghĩ mình cần khá nhiều chỗ
+
+03:30.110 --> 03:32.190
+Vậy những cái màu xanh này bình
+
+03:32.190 --> 03:36.216
+dx bình phương, mình có thể viết lại là x phẩy
+
+03:36.216 --> 03:37.466
+của t, dt bình
+
+03:39.369 --> 03:43.536
+cộng với cái này bình, hay chính là y phẩy của t, dt bình
+
+03:47.979 --> 03:50.524
+Giờ mình sẽ đơn giản nó một chút
+
+03:50.524 --> 03:52.963
+Nhớ là đây là một độ dài cung tròn nhỏ vô cực
+
+03:52.963 --> 03:54.444
+ngay đây
+
+03:54.444 --> 03:58.798
+Mình có thể lấy dt bình ra làm thừa số chung
+
+03:58.798 --> 04:00.654
+nó có mặt ở cả hai cái này
+
+04:00.654 --> 04:02.985
+vậy mình có thể viết nó là
+
+04:02.985 --> 04:05.540
+để mình viết nó lại
+
+04:05.540 --> 04:07.642
+để mình viết ra, căn bậc hai
+
+04:07.642 --> 04:10.828
+vậy mình sẽ rút dt bình ra làm thừa số chung
+
+04:10.828 --> 04:14.224
+Và mình có thể viết cái này là dt bình
+
+04:14.224 --> 04:16.391
+nhân với x phẩy t bình phương
+
+04:19.830 --> 04:21.913
+cộng y phẩy t bình phương
+
+04:26.449 --> 04:27.282
+và để cho nó rõ ràng
+
+04:27.282 --> 04:29.850
+cái này nhân với toàn bộ cái này
+
+04:29.850 --> 04:31.069
+ở đây
+
+04:31.069 --> 04:34.624
+Bây giờ nếu mình có dt bình nằm dưới căn
+
+04:34.624 --> 04:35.595
+mình có thể đơn giản nó
+
+04:35.595 --> 04:36.910
+vậy mình sẽ có dt
+
+04:36.910 --> 04:40.750
+Vậy tất cả cái này sẽ bằng với căn bậc hai
+
+04:40.750 --> 04:44.127
+của, những cái nằm dưới căn này
+
+04:44.127 --> 04:47.044
+sẽ trở thành x phẩy của t bình
+
+04:50.381 --> 04:52.464
+cộng y phẩy của t bình
+
+04:55.414 --> 04:57.522
+bây giờ mình lấy ra một dt
+
+04:57.522 --> 04:59.863
+lấy ra một dt
+
+04:59.863 --> 05:03.029
+Mình có thể viết nó ở đây
+
+05:03.029 --> 05:04.260
+nhưng mình cứ viết nó ở bên đây
+
+05:04.260 --> 05:06.268
+mình sẽ nhân hai cái này với nhau
+
+05:06.268 --> 05:08.655
+Vậy mình chỉ đang viết lại biểu thức
+
+05:08.655 --> 05:12.830
+cho lượng thay đổi nhỏ vô cực của độ dài cung
+
+05:12.830 --> 05:15.512
+Mình khá may mắn vì trong giải tích,
+
+05:15.512 --> 05:17.856
+mình có các công cụ để cộng được
+
+05:17.856 --> 05:21.559
+những lượng thay đổi nhỏ vô cực này
+
+05:21.559 --> 05:24.141
+và đó là điều mà tích phân xác định giúp chúng mình
+
+05:24.141 --> 05:26.177
+Vậy nếu mình muốn cộng cái này
+
+05:26.177 --> 05:27.933
+với cái này với cái này với cái này
+
+05:27.933 --> 05:30.016
+và nhớ là, đây là những lượng thay đổi nhỏ vô cực
+
+05:30.016 --> 05:32.321
+Mình minh họa nó không phải là nhỏ vô cực
+
+05:32.321 --> 05:34.284
+để bạn có thể dễ hình dung nó
+
+05:34.284 --> 05:35.857
+Nhưng nếu bạn cộng tổng nó lại
+
+05:35.857 --> 05:38.614
+mình thực sự đang lấy tích phân
+
+05:38.614 --> 05:40.647
+và tích phân nó theo t
+
+05:40.647 --> 05:43.862
+vậy nếu mình bắt đầu từ t=a
+
+05:43.862 --> 05:46.600
+và kết thúc ở t=b
+
+05:46.600 --> 05:50.600
+và cứ như vậy, mình ít nhất có thể hình dung
+
+05:51.466 --> 05:52.932
+về nó trên lý thuyết
+
+05:52.932 --> 05:55.522
+cho công thức của độ dài cung tròn
+
+05:55.522 --> 05:59.456
+đối với các phương trình tham số
+
+05:59.456 --> 06:00.840
+Trong các video tiếp theo,
+
+06:00.840 --> 06:04.224
+Mình sẽ áp dụng nó để tìm độ dài cung tròn

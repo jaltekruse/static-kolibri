@@ -1,0 +1,207 @@
+WEBVTT
+
+00:00.280 --> 00:05.575
+Učil jsem se na dnešní test z angličtiny
+a naučil jsem se 80 slovíček.
+
+00:05.575 --> 00:09.630
+Za 10 dní zapomenu všechna slovíčka.
+
+00:09.630 --> 00:15.860
+Množství slovíček, na která si vzpomenu za
+‚t‛ dní po naučení je popsáno jako w(t),
+
+00:15.860 --> 00:20.980
+což je množství slovíček, která mám
+v hlavě, jako funkce času bude roven:
+
+00:20.980 --> 00:30.280
+80 krát (1 minus 0,1t) na druhou,
+pro ‚t‛ mezi 0 až 10 včetně.
+
+00:30.280 --> 00:32.800
+To je důvod, proč zde
+máme hranaté závorky.
+
+00:32.800 --> 00:38.840
+Jaká je rychlost změny množství
+zapamatovaných slov za den,
+
+00:38.840 --> 00:42.036
+2 dny po učení na test?
+
+00:42.036 --> 00:45.780
+Doporučuji, abyste zastavili
+video a zkusili to sami.
+
+00:45.780 --> 00:49.340
+Klíčem je zde rovnice,
+která modeluje,
+
+00:49.340 --> 00:52.650
+jak moc slovíček si udržím
+v paměti každý den,
+
+00:52.650 --> 00:57.020
+poté, co jsem si je napoprvé zapamatoval,
+co jsem si jich 80 vložil do hlavy.
+
+00:57.020 --> 00:58.340
+A to je vyjádřeno zde.
+
+00:58.340 --> 01:01.900
+A pak chceme vědět rychlost
+změny za dva dny po učení.
+
+01:01.900 --> 01:06.660
+Rychlost změny znamená, že
+derivuji toto podle času.
+
+01:06.660 --> 01:10.120
+Udělejme to,
+pojďme derivovat.
+
+01:10.120 --> 01:18.010
+Derivace množství slovíček,
+která znám, podle času bude rovna…
+
+01:18.010 --> 01:21.310
+Máme zde těchto 80,
+což je konstanta.
+
+01:21.310 --> 01:24.690
+A nyní mohu uplatnit
+pravidlo o složené funkci.
+
+01:24.690 --> 01:34.320
+Derivace (1 minus 0,1t), to celé na druhou
+podle (1 minus 0,1t) bude…
+
+01:34.320 --> 01:42.550
+Vlastně derivuji celý tento růžový výraz
+na druhou podle tohoto výrazu.
+
+01:42.550 --> 01:49.778
+Bude to 2 krát (1 minus 0,1t).
+
+01:49.778 --> 01:57.330
+A nyní mohu najít derivaci tohoto
+vnitřního výrazu podle ‚t‛.
+
+01:57.330 --> 02:05.490
+Derivace tohoto vnitřního výrazu
+podle ‚t‛ bude 0 minus 0,1.
+
+02:05.490 --> 02:12.560
+Bude to −0,1.
+
+02:12.560 --> 02:15.380
+A samozřejmě to můžeme
+trochu zjednodušit.
+
+02:15.380 --> 02:17.480
+Toto bude rovno…
+
+02:17.480 --> 02:27.940
+Pokud vynásobíme 80 krát 2, což je
+160 krát −0,1, tak dostaneme −16.
+
+02:27.940 --> 02:37.872
+160 krát 0,1 je 16,
+takže −16 krát (1 minus 0,1t).
+
+02:37.872 --> 02:41.720
+A pokud chceme, můžeme
+rozdělit 16 nebo to nechat takto.
+
+02:41.720 --> 02:44.002
+Ale nyní jsme připraveni
+zodpovědět naši otázku.
+
+02:44.002 --> 02:48.610
+Můžeme to napsat jako rychlost změny
+množství slovíček, která známe, s časem.
+
+02:48.610 --> 02:51.190
+Nebo použijeme
+alternativní zápis.
+
+02:51.190 --> 02:53.770
+Můžeme napsat W´(t).
+
+02:53.770 --> 02:56.680
+Ať tak či tak, stále
+to bude tato věc.
+
+02:56.680 --> 02:58.130
+Udělám to stejnou barvou.
+
+02:58.130 --> 03:07.096
+Je to rovno −16 krát (1 minus 0,1t).
+
+03:07.096 --> 03:08.220
+Jaké to bude?
+
+03:08.220 --> 03:12.400
+Jaká je rychlost změny množství
+slovíček zapamatovaných za den,
+
+03:12.400 --> 03:15.130
+2 dny po učení se na test?
+
+03:15.130 --> 03:18.220
+Vyhodnotíme to pro ‚t‛ je rovno 2.
+
+03:18.220 --> 03:44.450
+Derivace v bodě 2 bude rovna
+−16 krát (1 minus 0,1 krát 2).
+
+03:44.450 --> 03:45.885
+A toto bude rovno…
+
+03:45.885 --> 03:47.320
+Kolik je toto?
+
+03:47.320 --> 03:51.850
+Toto je 1 minus 0,2,
+což bude 0,8.
+
+03:51.850 --> 03:56.370
+Takže toto bude rovno −16 krát…
+
+03:56.370 --> 04:02.330
+1 minus 0,2 je 0,8.
+
+04:02.330 --> 04:03.830
+A kolik to bude?
+
+04:03.830 --> 04:09.140
+Pokud vynásobím 16 krát 8,
+bude to 128.
+
+04:09.140 --> 04:13.340
+Je to 2 krát 8 krát 8,
+tedy 2 krát 64 je 128.
+
+04:13.340 --> 04:19.120
+Tudíž to bude −12,8.
+
+04:19.120 --> 04:31.780
+Takže ještě pro ujasnění, rychlost
+změny je −12,8 slovíček za den.
+
+04:31.780 --> 04:35.950
+Pokud věříte tomuto modelu, kolik
+slovíček si pamatujeme daný den,
+
+04:35.950 --> 04:46.220
+tak nám to říká, že den druhý,
+čili přesně 2 dny po učení na test,
+
+04:46.220 --> 04:52.670
+přesně v tento okamžik
+ztrácím 12,8 slovíčka za den.
+
+04:52.670 --> 04:59.600
+Množství slovíček, která si pamatuji,
+klesá rychlostí 12,8 slovíček za den.

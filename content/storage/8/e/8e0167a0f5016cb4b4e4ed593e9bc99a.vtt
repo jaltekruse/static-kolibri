@@ -1,0 +1,252 @@
+WEBVTT
+
+00:00.000 --> 00:08.340
+V tomto videu si ukážeme, že implicitní
+i explicitní derivování ‚dá to stejné‘.
+
+00:08.340 --> 00:10.770
+Nebo-li dostaneme
+stejný výsledek.
+
+00:10.822 --> 00:17.260
+Mějme například rovnici:
+x krát odmocnina z y je rovna 1.
+
+00:17.260 --> 00:23.680
+Snadno můžeme
+v závislosti na x vyjádřit y.
+
+00:23.680 --> 00:30.610
+Podělením obou stran x dostaneme,
+že 1 lomeno x je rovno odmocnině z y.
+
+00:30.610 --> 00:37.450
+Umocněním na druhou dostaneme,
+že y je rovno 1 lomeno x na druhou.
+
+00:37.450 --> 00:40.667
+Což je to stejné
+jako x na −2.
+
+00:40.667 --> 00:44.550
+Potom už je vypočítání
+derivace y podle x přímočaré.
+
+00:44.550 --> 00:55.630
+Použitím pravidla o derivování mocninné
+funkce pak máme −2 krát x na −3.
+
+00:55.630 --> 00:57.005
+To bylo
+celkem snadné.
+
+00:57.005 --> 01:02.720
+Ukážeme, že stejný výsledek
+dá i implicitní derivování.
+
+01:02.720 --> 01:19.150
+Zderivujme obě dvě
+strany rovnice podle x.
+
+01:19.157 --> 01:25.780
+Při derivování výrazu vlevo
+použijeme následující pravidla:
+
+01:25.780 --> 01:28.020
+o derivaci součinu a
+o derivaci složené funkce.
+
+01:28.020 --> 01:29.920
+Z pravidla o derivaci
+součinu dostaneme…
+
+01:29.920 --> 01:33.460
+Máme tady součin dvou
+funkcí proměnné x,
+
+01:33.460 --> 01:47.180
+takže dle pravidla o součinu máme derivaci
+podle x funkce x krát odmocnina z y
+
+01:47.180 --> 02:06.776
+a k tomu přičteme součin x
+a derivace podle x z odmocniny z y.
+
+02:06.776 --> 02:14.950
+Napravo pak dostaneme
+derivaci z konstanty, což je 0.
+
+02:14.950 --> 02:17.040
+Jak rovnici zjednodušit?
+
+02:17.040 --> 02:21.840
+Derivace z x
+podle x je 1.
+
+02:21.840 --> 02:33.550
+Tím se nám tento výraz
+zjednoduší na odmocninu z y.
+
+02:33.550 --> 02:36.600
+Jak zjednodušit
+další výraz?
+
+02:36.600 --> 02:42.570
+Zderivování odmocniny z x podle x uděláme
+pomocí pravidla o derivaci složené funkce.
+
+02:42.590 --> 02:43.590
+Uděláme to postupně.
+
+02:43.590 --> 02:53.770
+Přičteme x krát
+výraz v modrém.
+
+02:53.770 --> 03:06.080
+To bude jako derivace z ‚něčeho‘
+na jednu polovinu podle ‚něčeho‘.
+
+03:06.080 --> 03:12.920
+Což bude jedna polovina krát
+‚něco‘ na minus jednu polovinu.
+
+03:12.920 --> 03:22.930
+Ještě jednou, toto je derivace
+odmocniny z y podle y.
+
+03:22.930 --> 03:24.380
+Viděli jsme
+to už mnohokrát.
+
+03:24.380 --> 03:36.870
+Třeba derivace odmocniny z x podle x je
+jedna polovina x na minus jednu polovinu.
+
+03:36.870 --> 03:38.582
+A nyní to stejné
+počítáme s y.
+
+03:38.582 --> 03:39.838
+Avšak ještě
+nejsme hotovi.
+
+03:39.838 --> 03:45.445
+Vzpomeňme si, že jsme derivovali
+podle y a ne podle x.
+
+03:45.445 --> 04:03.130
+Podle pravidla o derivaci složené funkce
+to ještě vynásobíme derivací y podle x.
+
+04:03.130 --> 04:06.000
+Derivaci y podle x ještě neznáme
+a budeme ji chtít dopočítat.
+
+04:06.000 --> 04:08.000
+Z pravidla o derivaci
+složené funkce máme,
+
+04:08.000 --> 04:12.540
+že derivace odmocniny z y podle y
+krát derivace y podle x
+
+04:12.540 --> 04:16.001
+je rovna derivaci
+odmocniny z y podle x.
+
+04:16.001 --> 04:18.089
+Toto tedy
+máme nalevo.
+
+04:18.089 --> 04:22.100
+Napravo
+pak je 0.
+
+04:22.100 --> 04:28.570
+Připomeňme, že chceme
+vyjádřit derivaci y podle x.
+
+04:28.570 --> 04:34.500
+Odečtěme od obou stran
+rovnice odmocninu z y.
+
+04:34.500 --> 04:46.430
+Trochu si to tady upravím,
+abych měl více místa na práci.
+
+04:46.430 --> 04:55.037
+Posunu to sem doprava.
+
+04:55.037 --> 05:01.280
+Vlastně to radši dám sem.
+
+05:01.280 --> 05:35.370
+Pak dostaneme nalevo x lomeno
+2 odmocniny z y krát derivace y podle x.
+
+05:35.370 --> 05:44.090
+A na pravé straně máme
+minus odmocninu z y.
+
+05:44.090 --> 05:54.500
+Překopírujme si
+nyní rovnici sem.
+
+05:54.500 --> 05:58.470
+Pokračujme ve vyjadřování
+derivace y podle x.
+
+05:58.470 --> 06:08.530
+Stačí rovnici vynásobit převrácenou
+hodnotou zlomku x lomeno 2 odmocniny z y.
+
+06:08.530 --> 06:19.062
+Nalevo máme
+derivaci y pod x.
+
+06:19.062 --> 06:32.040
+Vpravo bude 2 krát odmocnina z y lomeno x
+a to celé krát minus odmocnina z y.
+
+06:32.056 --> 06:33.680
+A jak se to
+zjednoduší?
+
+06:33.680 --> 06:39.754
+Jelikož odmocnina z y krát odmocnina
+z y je y, tak dostaneme následující:
+
+06:39.754 --> 06:44.610
+−2 krát y lomeno x.
+
+06:44.610 --> 06:49.680
+Což je rovno
+derivaci y podle x.
+
+06:49.680 --> 06:58.390
+Můžete namítnout, že implicitní derivace
+vypadá dosti jinak než ta dříve vypočtená.
+
+06:58.390 --> 07:05.480
+Což bylo
+−2x na −3.
+
+07:05.480 --> 07:13.280
+Všimněme si, že zde
+jsme již vyjádřili y podle x.
+
+07:13.280 --> 07:21.590
+Proveďme proto substituci
+y rovno 1 lomeno x na druhou.
+
+07:21.590 --> 07:27.478
+Dostaneme, že derivace y podle x
+je rovna následujícímu:
+
+07:27.478 --> 07:37.010
+−2 krát 1 lomeno x na druhou
+a to celé děleno x.
+
+07:37.010 --> 07:47.310
+Což je −2x na −3, a tím jsme
+dostali stejný výsledek jako dříve.

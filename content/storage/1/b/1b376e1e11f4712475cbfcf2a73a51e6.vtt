@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.591 --> 00:02.703
+Locutor Nós temos agora
+bastante experiência
+
+00:02.703 --> 00:04.762
+achando as áreas das curvas quando lidamos
+
+00:04.762 --> 00:06.728
+com coisas em coordenadas retangulares
+
+00:06.728 --> 00:08.374
+Então nós vimos as somas
+de Rieman
+
+00:08.374 --> 00:10.687
+um monte de retângulos nós
+pegamos o limite como
+
+00:10.697 --> 00:13.090
+se tivesse um numero infinito
+de retângulos finos
+
+00:13.090 --> 00:14.389
+e nós podemos achar a área
+
+00:14.389 --> 00:16.224
+Mas vamos para as coordenadas polares
+
+00:16.224 --> 00:19.126
+E nas coordenadas polares eu não
+vou dizer que estamos achando
+
+00:19.126 --> 00:21.043
+a área sob a curva, mas neste exemplo
+
+00:21.043 --> 00:23.864
+aqui nós temos uma parte do gráfico de
+
+00:23.864 --> 00:26.009
+e é igual a f de theta e nós desenhamos
+
+00:26.009 --> 00:27.417
+entre theta é igual a
+
+00:27.417 --> 00:29.418
+alpha e theta é igual a beta.
+
+00:29.967 --> 00:33.087
+E o que eu quero fazer neste
+vídeo é trazer
+
+00:33.087 --> 00:38.087
+uma expressão geral para esta área em azul
+
+00:38.838 --> 00:40.902
+Esta área que é limitada,
+acho que posso
+
+00:40.902 --> 00:45.902
+dizer por estes ângulos e o gráfico
+de r igual a f de theta
+
+00:50.929 --> 00:52.880
+E eu quero trazer, ou ao menos tentar
+
+00:52.880 --> 00:55.198
+trazer a vocês uma expressão
+
+00:55.198 --> 00:56.949
+Mas eu vou dar algumas dicas aqui
+
+00:57.448 --> 00:58.911
+Quando fizemos em coordenadas
+
+00:58.911 --> 01:00.525
+retangulares, dividimos as coisas
+
+01:00.900 --> 01:03.410
+em retângulos. Aqui retângulos não
+parecem tão óbvios porque
+
+01:03.410 --> 01:05.190
+eles irão chegar neste ponto
+
+01:05.450 --> 01:08.365
+mas e se nós pudéssemos dividir
+estas coisas
+
+01:11.747 --> 01:15.116
+em setores ou posso dizer
+pequenos pedaços de torta?
+
+01:15.735 --> 01:18.476
+Alguém está furando bem aqui embaixo
+
+01:18.476 --> 01:20.262
+Eu não, se está pegando no microfone
+
+01:20.262 --> 01:21.541
+Bem, vou continuar
+
+01:22.067 --> 01:24.783
+O que aconteceria se pudéssemos
+dividir isto em
+
+01:24.783 --> 01:28.912
+uma grande serie de pequenos
+pedaços de torta
+
+01:33.061 --> 01:34.520
+e então pegar o limite como se tivéssemos
+
+01:34.520 --> 01:38.276
+infinitos pedaços de torta?
+
+01:38.278 --> 01:40.225
+Queremos achar a área de
+cada um destes pedaços
+
+01:40.225 --> 01:43.594
+e então pegar o limite como
+pedaços de tortas
+
+01:43.594 --> 01:46.189
+Eu acho que você pode dizer
+que se torna infinitamente fino
+
+01:46.189 --> 01:50.591
+e temos um número infinito deles
+
+01:50.946 --> 01:54.377
+E eu vou lhe dar mais uma dica para pensar
+
+01:54.377 --> 01:56.484
+sobre a area desta torta, eu acho que você pode
+
+01:56.484 --> 01:59.500
+dizer a area destes pedaços de torta
+
+02:00.074 --> 02:03.183
+Eu lhe darei mais uma dica,
+se você tiver um círculo
+
+02:03.183 --> 02:04.978
+Eu vou tentar desenhar um bom círculo
+
+02:05.610 --> 02:08.848
+Ainda bem que o encanador ou
+seja o que for esta indo aí em baixo
+
+02:08.848 --> 02:11.669
+ele parou agora e eu posso me focar mais
+
+02:11.669 --> 02:14.346
+nos cálculos, o que é claro,
+é mais importante
+
+02:14.747 --> 02:17.288
+Ok, se eu tiver um círculo,
+este é minha melhor
+
+02:17.288 --> 02:20.252
+tentativa de círculo, e para o raio de r
+
+02:23.030 --> 02:25.247
+e vou desenhar um setor deste círculo
+
+02:26.158 --> 02:29.268
+É um setor do círculo, então
+obviamente e também
+
+02:29.673 --> 02:32.679
+E se este ângulo estiver
+certo no theta, qual
+
+02:32.679 --> 02:37.679
+será a área deste setor aqui?
+
+02:40.225 --> 02:42.474
+Esta é minha dica para você,
+pense sobre o que
+
+02:42.474 --> 02:45.464
+será esta área e nós estamos
+assumindo theta em radianos
+
+02:45.772 --> 02:49.345
+Pense no que será esta área e então
+
+02:49.345 --> 02:52.003
+veja se você pode ampliar
+para o que estamos tentando
+
+02:52.003 --> 02:54.745
+fazer aqui para enteder, de algum modo
+
+02:54.745 --> 02:56.548
+Eu estou dando uma dica de novo
+
+02:56.548 --> 03:00.501
+Usando integração, achando uma expressão
+para esta área
+
+03:01.255 --> 03:03.127
+Então, estou supondo que você tenha uma
+
+03:03.127 --> 03:05.203
+Então vamos pesar sobre isto, o que a área
+
+03:05.203 --> 03:09.151
+do círculo inteiro, bem, nós
+já sabemos disso
+
+03:09.151 --> 03:10.881
+Será pi r ao quadrado
+
+03:11.892 --> 03:13.741
+a fórmula para área do círculo.
+
+03:14.105 --> 03:15.831
+E então o que será a área disto?
+
+03:16.151 --> 03:18.333
+Bem, será uma fração do círculo.
+
+03:18.882 --> 03:23.755
+Se isto é pi, desculpe, se isto é
+theta, se tivermos 2 pi
+
+03:23.755 --> 03:25.597
+radianos que seria o
+círculo inteiro então isto
+
+03:25.597 --> 03:30.014
+será theta sobre 2 pi do círculo
+
+03:30.591 --> 03:35.591
+Então, vezes theta sobre 2 pi será
+
+03:39.417 --> 03:41.678
+a área deste setor aqui.
+
+03:41.678 --> 03:43.620
+Area do círculo inteiro
+vezes a proporção
+
+03:43.620 --> 03:46.381
+do círculo que nós definimos
+
+03:46.381 --> 03:48.159
+ou do que setor representa
+
+03:48.467 --> 03:52.125
+E então isto nos dá, os pis cancelam
+
+03:52.125 --> 03:56.181
+nos dará metade de r ao
+quadrado vezes theta
+
+03:57.179 --> 04:01.029
+Agora o que acontece se ao invés de theta
+
+04:01.029 --> 04:03.568
+vamos ver cada um desses aqui
+
+04:04.180 --> 04:06.450
+Cada uma dessas coisas que eu desenhei
+
+04:06.450 --> 04:10.249
+vamos focar em apenas um destes pedaços.
+
+04:10.661 --> 04:13.771
+Vou evidenciar em laranja.
+
+04:17.706 --> 04:21.060
+Então ao invés do ângulo
+ser theta vamos apenas
+
+04:21.060 --> 04:23.582
+assumir um ângulo realmente
+muito, muito pequeno
+
+04:24.315 --> 04:26.067
+Vamos usar a diferencial
+embora isto seja um pouco
+
+04:26.067 --> 04:27.876
+matemática barata mas importante aqui
+
+04:27.876 --> 04:29.551
+para lhe dar entendimento conceitual
+
+04:29.704 --> 04:32.847
+Eu poderia chamr de delta theta
+e então, eventualmente
+
+04:32.847 --> 04:35.132
+obter o limite quando se aproxima de zero
+
+04:35.148 --> 04:37.180
+Mas só para propósitos conceituais
+quando nós temos
+
+04:37.180 --> 04:41.064
+mudanças infinitamente ou
+super pequenas no theta,
+
+04:41.064 --> 04:46.064
+vamos chamar de d theta
+e o raio aqui ou eu acho
+
+04:52.319 --> 04:54.068
+podemos dizer que este
+comprimento aqui.
+
+04:54.068 --> 04:55.195
+Você poderia vê-lo como o raio
+
+04:55.195 --> 04:57.885
+ao menos o arco neste ponto
+
+04:58.128 --> 05:02.359
+Isto será r em função do theta que
+
+05:02.359 --> 05:04.250
+nós estamos aqui, mas nós apenas
+
+05:04.250 --> 05:06.947
+vamos chamar de nosso r aqui
+
+05:07.250 --> 05:11.060
+Então qual será a área
+deste pequeno setor?
+
+05:11.975 --> 05:15.098
+Bem a área deste pequeno setor é invés de
+
+05:15.098 --> 05:16.624
+meu ângulo sendo theta
+estou chamando
+
+05:16.624 --> 05:19.279
+meu ângulo de d theta,
+esta pequena diferencial
+
+05:19.690 --> 05:21.932
+Então ao invés de metade
+de r ao quadrado será
+
+05:21.932 --> 05:24.300
+deixe-me desenhar em uma
+cor que você possa ver
+
+05:24.393 --> 05:29.393
+Esta área será metade de
+r ao quadrado d theta
+
+05:32.585 --> 05:34.101
+Veja aqui o ângulo era theta,
+aqui o ângulo
+
+05:34.101 --> 05:36.493
+era d theta, muito, muito pequeno
+
+05:37.225 --> 05:40.725
+Agora se você quer a soma de todos
+
+05:40.725 --> 05:44.302
+de theta iguala alpha
+até theta igual a beta
+
+05:44.302 --> 05:46.133
+e literalmente existe um
+número infinito deles
+
+05:46.133 --> 05:47.786
+É um ângulo infinitamente pequeno
+
+05:48.365 --> 05:53.365
+Bem, então para esta área inteira aqui
+
+05:53.855 --> 05:56.149
+Eu poderia só integrar tudo isto
+
+05:56.646 --> 06:01.646
+Então isto será a integral do alpha ao
+
+06:03.546 --> 06:08.546
+beta de metade de r ao quadrado d theta
+onde r, é claro
+
+06:11.855 --> 06:14.196
+é a função de theta. Você
+
+06:14.196 --> 06:15.510
+pode até escrever assim
+
+06:15.510 --> 06:18.310
+Você poderia escrever como
+a integral de alpha
+
+06:18.310 --> 06:23.310
+até beta de metade de r de
+theta ao quadrado d theta
+
+06:25.948 --> 06:27.798
+Só para lembrá-los ou supondo que r
+
+3:59:59.999 --> 3:59:59.999
+é uma função de theta neste caso.
+
+3:59:59.999 --> 3:59:59.999
+Traduzido por Francis Pires

@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.540 --> 00:02.430
+Giả sử mình có một dãy số thế này
+
+00:02.430 --> 00:06.210
+Nó bắt đầu từ 1, rồi đến âm 1/2,
+
+00:06.210 --> 00:08.500
+rồi đến 1/3,
+
+00:08.500 --> 00:10.580
+rồi đến âm 1/4,
+
+00:10.580 --> 00:12.650
+rồi đến 1/5,
+
+00:12.650 --> 00:16.400
+rồi cứ thế tiếp tục.
+
+00:16.400 --> 00:18.010
+Và mình có thể vẽ đồ thị cho nó.
+
+00:18.010 --> 00:22.040
+Để mình vẽ trục tung ở đây.
+
+00:22.040 --> 00:24.005
+Đây là trục y của mình nhé.
+
+00:24.005 --> 00:27.230
+Và mình sẽ vẽ đồ thị y bằng a_n
+
+00:27.230 --> 00:31.580
+Thì đây là trục hoành của mình, là chỗ
+
+00:31.580 --> 00:33.430
+mình sẽ vẽ n đó.
+
+00:33.430 --> 00:35.040
+Đây là n của mình nè.
+
+00:35.040 --> 00:38.030
+Giả sử đây là dương 1 đi,
+
+00:38.030 --> 00:39.890
+còn đây sẽ là âm 1.
+
+00:39.890 --> 00:41.370
+Chỗ này là âm 1/2.
+
+00:41.370 --> 00:43.540
+Trên này là dương 1/2.
+
+00:43.540 --> 00:46.740
+Mình không vẽ trục tung với trục hoành
+
+00:46.740 --> 00:49.530
+theo cùng 1 tỉ lệ đâu nha. Mình vẽ đại khái để chúng ta
+
+00:49.530 --> 00:50.420
+dễ hình dung thôi.
+
+00:50.420 --> 00:57.350
+Nhưng giả sử đây là 1, 2, 3, 4, 5
+
+00:57.350 --> 00:59.420
+và rồi sẽ cứ thế tiếp tục.
+
+00:59.420 --> 01:02.980
+Vậy mình thấy ở đây, khi n bằng 1
+
+01:02.980 --> 01:05.220
+thì a_n cũng bằng 1,
+
+01:05.220 --> 01:06.940
+là ở đây nè.
+
+01:06.940 --> 01:09.310
+Khi n bằng 1, a_n bằng 1.
+
+01:09.310 --> 01:12.940
+y này là bằng a_n nhé.
+
+01:12.940 --> 01:17.720
+Giờ khi n bằng 2 thì chúng ta có
+
+01:17.720 --> 01:19.430
+a_n bằng âm 1/2
+
+01:25.420 --> 01:30.890
+Rồi khi n bằng 3, a_n sẽ bằng 1/3,
+
+01:30.890 --> 01:34.150
+là ở khoảng ngay đây.
+
+01:34.150 --> 01:39.990
+Còn khi n bằng 4, a_n sẽ bằng âm 1/4,
+
+01:39.990 --> 01:43.910
+là ở khoảng chỗ này.
+
+01:43.910 --> 01:47.190
+Khi n bằng 5, thì a_n
+
+01:47.190 --> 01:52.050
+bằng dương 1/5, chắc là ở đây nè.
+
+01:52.050 --> 01:53.790
+Rồi mình cứ thế tiếp tục.
+
+01:53.790 --> 01:55.790
+Vậy thì bạn thấy các điểm này tuy là dao động dấu
+
+01:55.790 --> 01:58.580
+nhưng có vẻ như càng ngày càng tiến gần
+
+01:58.580 --> 01:59.600
+tới 0 hơn.
+
+01:59.600 --> 02:02.070
+Thấy được hiện tượng này thì tất nhiên chúng ta sẽ đặt câu hỏi
+
+02:02.070 --> 02:06.560
+là a_n sẽ như thế nào khi n tiến tới vô cực?
+
+02:06.560 --> 02:10.930
+Hay nói cách khác, giới hạn của--
+
+02:10.930 --> 02:18.730
+để mình dùng màu khác-- giới hạn của a_n khi n
+
+02:18.730 --> 02:20.450
+tiến tới vô cực là gì?
+
+02:20.450 --> 02:24.780
+Thử nghĩ xem, nếu chúng ta có thể định nghĩa a_n một cách tường minh
+
+02:28.040 --> 02:33.590
+Thì chúng ta sẽ định nghĩa dãy số này là khi n bắt đầu từ 1
+
+02:33.590 --> 02:39.680
+rồi tiến tới vô cực, thì a_n sẽ bằng--
+
+02:39.680 --> 02:40.730
+Nó sẽ bằng gì nhỉ?
+
+02:40.730 --> 02:43.110
+Nếu mình bỏ qua dấu của nó,
+
+02:43.110 --> 02:45.430
+thì trông có vẻ như nó chỉ là 1/n thôi.
+
+02:45.430 --> 02:48.010
+Nhưng dấu của nó dao động liên tục.
+
+02:48.010 --> 02:51.410
+Mình bắt đầu từ dương, xong đến âm, xong lại dương, rồi lại âm.
+
+02:51.410 --> 02:54.970
+Vậy thì mình có nhân cái này với âm 1 mũ-- Để xem,
+
+02:54.970 --> 02:57.085
+nếu mình nhân nó với âm 1 mũ n
+
+02:57.085 --> 02:59.544
+thì cái này sẽ là âm, còn cái này sẽ là dương.
+
+02:59.544 --> 03:00.793
+nhưng mà mình không muốn vậy.
+
+03:00.793 --> 03:02.530
+Mình muốn số hạng đầu là dương cơ.
+
+03:02.530 --> 03:05.990
+Vậy thì mình sẽ nhân âm 1 mũ n+1.
+
+03:05.990 --> 03:07.240
+Và bạn có thể kiểm chứng cái này nha.
+
+03:07.240 --> 03:10.900
+Khi n bằng 1, thì 1 nhân âm 1 bình phương
+
+03:10.900 --> 03:13.040
+thì sẽ là 1, và biểu thức này sẽ đúng cho tất cả.
+
+03:13.040 --> 03:16.250
+Vậy ở đây mình sẽ viết là bằng âm 1
+
+03:16.250 --> 03:20.260
+mũ n+1, tất cả trên n.
+
+03:20.260 --> 03:22.200
+Vậy khi hỏi giới hạn của a_n
+
+03:22.200 --> 03:25.900
+khi n tiến tới vô cực thì chính là đang hỏi
+
+03:25.900 --> 03:29.660
+giới hạn của âm 1 mũ n+1
+
+03:29.660 --> 03:33.420
+trên n khi n tiến tới
+
+03:33.420 --> 03:35.950
+vô cực sẽ là gì.
+
+03:35.950 --> 03:38.370
+Nhớ nha, a_n đơn giản chỉ là một hàm của n.
+
+03:38.370 --> 03:40.970
+Nó là một hàm bị hạn chế bởi cái này,
+
+03:40.970 --> 03:43.000
+nên miền xác định là tập các số nguyên dương.
+
+03:43.000 --> 03:45.690
+Nhưng đây chỉ là giới hạn khi một cái gì đó
+
+03:45.690 --> 03:46.634
+tiến tới vô cực.
+
+03:46.634 --> 03:48.300
+Và mình thì chưa định nghĩa nó rõ ràng,
+
+03:48.300 --> 03:51.560
+nhưng bạn có thể hiểu mà, đúng không?
+
+03:51.560 --> 03:53.470
+Khi n tiến tới vô cực, tử số
+
+03:53.470 --> 03:55.934
+sẽ dao động liên tục giữa dương và âm 1,
+
+03:55.934 --> 03:57.350
+nhưng mẫu số thì chỉ
+
+03:57.350 --> 03:59.309
+liên tục lớn dần lên.
+
+03:59.309 --> 04:01.474
+Vậy thì độ lớn của các giá trị a_n
+
+04:01.474 --> 04:02.440
+càng ngày càng nhỏ.
+
+04:02.440 --> 04:07.800
+Và cái này sẽ tiệm cận 0.
+
+04:07.800 --> 04:09.790
+Rồi, mình chưa kịp chứng minh cái này cho các bạn,
+
+04:09.790 --> 04:11.690
+nhưng mình sẽ chỉ nói là cái này là đúng.
+
+04:11.690 --> 04:16.279
+Nhưng nếu nó đúng-- để mình viết xuống
+
+04:16.279 --> 04:23.540
+Nếu đúng là giới hạn của a_n khi n tiến tới vô cực là 0,
+
+04:23.540 --> 04:33.940
+thì chúng ta có thể nói là a_n hội tụ tại 0.
+
+04:33.940 --> 04:37.200
+Đó là cách khác để nói cái này.
+
+04:37.200 --> 04:40.190
+Còn nếu nó không đúng, nếu giới hạn khi n tiến tới
+
+04:40.190 --> 04:43.230
+vô cực không tiệm cận một giá trị nào đó ở đây--
+
+04:43.230 --> 04:45.950
+Mình chưa định nghĩa giới hạn một cách rõ ràng--
+
+04:45.950 --> 04:49.175
+Nhưng nếu như mình không có giới hạn--
+
+04:49.175 --> 04:50.550
+Giới hạn không nhất thiết phải bằng 0,
+
+04:50.550 --> 04:54.450
+nhưng nếu giới hạn không bằng một số nào đó
+
+04:54.450 --> 04:57.900
+thì mình sẽ nói là dãy số a_n phân kỳ.

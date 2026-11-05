@@ -1,0 +1,538 @@
+WEBVTT
+
+00:00.000 --> 00:02.738
+Khi ta học những kiến thức về chuỗi lũy thừa,
+
+00:02.738 --> 00:04.416
+ta có thể muốn lấy đạo hàm,
+
+00:04.416 --> 00:06.209
+hoặc tích phân của chúng.
+
+00:06.209 --> 00:09.183
+Nói chung, ta có thể làm như vậy theo từng số hạng.
+
+00:09.183 --> 00:10.468
+Ý của mình khi nói vậy là gì?
+
+00:10.468 --> 00:13.180
+Chà, nó nghĩa là đạo hàm của f,
+
+00:13.180 --> 00:16.203
+f phẩy x, chính là đạo hàm của,
+
+00:16.203 --> 00:17.778
+từng số hạng này.
+
+00:17.778 --> 00:21.615
+Vậy nó sẽ là tổng từ n bằng 1 cho tới vô cực.
+
+00:21.615 --> 00:24.000
+Xem nào, đạo hàm của x mũ n,
+
+00:24.000 --> 00:26.683
+là n nhân với x mũ n trừ đi 1.
+
+00:26.683 --> 00:29.785
+Vậy mình có thể viết cái này là n nhân x mũ n trừ 1,
+
+00:29.785 --> 00:32.128
+tất cả chia cho n.
+
+00:32.128 --> 00:34.093
+Và rồi n sẽ bị triệt tiêu hết,
+
+00:34.093 --> 00:36.427
+vậy ta còn lại,
+
+00:36.427 --> 00:40.081
+nó sẽ bằng với, x mũ n trừ 1.
+
+00:40.081 --> 00:43.230
+Vậy cái này là đang lấy đạo hàm theo biến x.
+
+00:43.230 --> 00:45.170
+Tương tự, ta có thể lấy tích phân,
+
+00:45.170 --> 00:49.045
+ta có thế lấy tích phân và tính nó,
+
+00:49.045 --> 00:52.962
+ta có thể tính tích phân của f(x), dx,
+
+00:54.184 --> 00:57.785
+và nó sẽ bằng một hằng số, cộng với,
+
+00:57.785 --> 01:00.618
+nếu ta tính tích phân của nó theo từng số hạng.
+
+01:01.812 --> 01:03.580
+Nó sẽ bằng tổng,
+
+01:03.580 --> 01:05.949
+từ n bằng 1 cho tới vô cực.
+
+01:05.949 --> 01:07.660
+Xem nào, ta tăng số mũ lên,
+
+01:07.660 --> 01:10.833
+là x mũ n cộng 1, và rồi chia cho cái số mũ đó.
+
+01:10.833 --> 01:15.165
+Vậy là nhân n cộng 1 nhân n ở ngay đây.
+
+01:15.165 --> 01:18.425
+Đây là một phương pháp thông thường,
+
+01:18.425 --> 01:20.179
+mà bạn sẽ thấy khi làm các bài về chuỗi lũy thừa.
+
+01:20.179 --> 01:22.296
+Giờ ta đi vào chi tiết một chút,
+
+01:22.296 --> 01:25.038
+vì bạn chỉ có thể làm điều này với những giá trị x,
+
+01:25.038 --> 01:29.122
+nằm trong khoảng hội tụ của chuỗi lũy thừa.
+
+01:29.122 --> 01:31.958
+Như ta đã thấy, khoảng hội tụ,
+
+01:31.958 --> 01:36.148
+của những chuỗi khác nhau thì sẽ khác nhau một chút.
+
+01:36.148 --> 01:37.872
+Khoảng thì sẽ khá giống nhau,
+
+01:37.872 --> 01:40.866
+nhưng đầu mút thì sẽ khác nhau.
+
+01:40.866 --> 01:43.192
+Mình khuyên bạn hãy dừng video lại,
+
+01:43.192 --> 01:45.886
+và thử tự tìm khoảng hội tụ,
+
+01:45.886 --> 01:48.066
+của từng chuỗi này.
+
+01:48.066 --> 01:50.614
+Đây là tích phân của chuỗi ban đầu ta có,
+
+01:50.614 --> 01:53.750
+còn cái nay là đạo hàm của chuỗi ban đầu.
+
+01:53.750 --> 01:55.732
+Hãy bắt đầu từ chuỗi ban đầu nhé.
+
+01:55.732 --> 01:58.734
+Hãy đi tìm khoảng hội tụ.
+
+01:58.734 --> 02:01.378
+Mình có thể sử dụng phép thử tỉ lệ.
+
+02:01.378 --> 02:04.573
+Với phép thử tỉ lệ, ta muốn tìm giới hạn,
+
+02:04.573 --> 02:08.740
+giới hạn khi n tiến tới vô cực của a_(n+1),
+
+02:10.295 --> 02:14.761
+nghĩa là x mũ n cộng 1 chia cho n cộng 1,
+
+02:14.761 --> 02:19.248
+chia cho a_n, là x mũ n chia cho n.
+
+02:19.248 --> 02:21.217
+Và ta muốn lấy giá trị tuyệt đối của nó.
+
+02:21.217 --> 02:25.384
+Đó chính là giới hạn khi n tiến tới vô cực.
+
+02:26.279 --> 02:29.147
+Xem nào, nếu bạn chia cái này, và cả cái này,
+
+02:29.147 --> 02:31.922
+cho x mũ n, đó sẽ là 1,
+
+02:31.922 --> 02:34.487
+và rồi ở đây sẽ chỉ là x,
+
+02:34.487 --> 02:36.650
+rồi n sẽ ở phía trên.
+
+02:36.650 --> 02:40.150
+Vậy ta có xn chia cho n cộng 1.
+
+02:41.672 --> 02:46.527
+Và nó bằng với giới hạn khi n tiến tới vô cực,
+
+02:46.527 --> 02:49.374
+xem nào, nếu ta đem chia cả tử và mẫu,
+
+02:49.374 --> 02:50.374
+cho 1 chia,
+
+02:51.929 --> 02:54.492
+chà, chia cả tử và mẫu cho n đi,
+
+02:54.492 --> 02:58.325
+ta sẽ có x chia 1 cộng 1 chia n.
+
+02:59.533 --> 03:01.745
+Vậy nó sẽ bằng gì?
+
+03:01.745 --> 03:04.008
+Chà, số hạng này sẽ là 0,
+
+03:04.008 --> 03:08.035
+vậy cái này sẽ bằng trị tuyệt đối của x.
+
+03:08.035 --> 03:11.553
+Vậy phép thử tỉ lệ cho ta thấy chuỗi này sẽ hội tụ,
+
+03:11.553 --> 03:15.138
+nếu cái này ở đây nhỏ hơn 1,
+
+03:15.138 --> 03:18.075
+còn chuỗi sẽ phân kì nếu giá trị ở đây lớn hơn 1,
+
+03:18.075 --> 03:20.702
+và nếu bằng 1 thì sẽ là không kết luận được nhé.
+
+03:20.702 --> 03:22.682
+Vậy ta biết, để mình viết xuống.
+
+03:22.682 --> 03:25.849
+Ta biết nó sẽ hội tụ, hội tụ,
+
+03:27.313 --> 03:28.480
+sẽ hội tụ khi,
+
+03:29.781 --> 03:34.201
+trị tuyệt đối của x nhỏ hơn 1,
+
+03:34.201 --> 03:36.254
+khi nó nhỏ hơn 1.
+
+03:36.254 --> 03:39.216
+Và chuỗi sẽ phân kì,
+
+03:39.216 --> 03:42.706
+khi cái này lớn hơn 1,
+
+03:42.706 --> 03:45.096
+khi trị tuyệt đối của x, lớn hơn 1.
+
+03:45.096 --> 03:48.621
+Vậy còn khi trị tuyệt đối bằng 1 thì sao?
+
+03:48.621 --> 03:50.163
+Đó là lúc phép thử tỉ lệ không có tác dụng,
+
+03:50.163 --> 03:52.320
+và ta sẽ phải giải riêng ra.
+
+03:52.320 --> 03:55.148
+Vậy hãy xét trường hợp,
+
+03:55.148 --> 03:56.648
+khi x bằng với 1.
+
+03:57.650 --> 04:01.567
+Khi x bằng 1, chuỗi này là tổng,
+
+04:02.655 --> 04:06.763
+đi từ n bằng 1 cho tới vô cực, của 1 mũ n chia cho n.
+
+04:06.763 --> 04:08.796
+Chà, nó bằng với 1 chia cho n.
+
+04:08.796 --> 04:12.050
+Đây chính là chuỗi điều hòa, hay p-chuỗi,
+
+04:12.050 --> 04:13.684
+khi p bằng 1.
+
+04:13.684 --> 04:17.290
+Và ta đã thấy ở những video khác khi cái này phân kì.
+
+04:17.290 --> 04:19.632
+Vậy khi x bằng 1, chuỗi phân kì.
+
+04:19.632 --> 04:21.888
+Vậy khi x là -1 thì sao?
+
+04:21.888 --> 04:25.795
+Khi x bằng -1, cái này sẽ là tổng,
+
+04:25.795 --> 04:28.878
+từ n bằng 1 cho tới vô cực,
+
+04:28.878 --> 04:32.161
+của -1 mũ n chia cho n.
+
+04:32.161 --> 04:35.883
+Cái này thường được gọi là chuỗi điều hòa đan dấu.
+
+04:35.883 --> 04:38.404
+Và với phép thử của chuỗi đan dấu,
+
+04:38.404 --> 04:39.766
+ta thấy chuỗi này hội tụ.
+
+04:39.766 --> 04:42.430
+Và ta đã gặp dạng này nhiều ở những video khác.
+
+04:42.430 --> 04:45.224
+Vậy ta có khoảng hội tụ,
+
+04:45.224 --> 04:47.244
+cho chuỗi ban đầu ở đây,
+
+04:47.244 --> 04:49.350
+khoảng hội tụ,
+
+04:49.350 --> 04:51.350
+khoảng hội tụ của ta,
+
+04:55.078 --> 04:56.425
+hội tụ ở đây,
+
+04:56.425 --> 04:58.342
+ta có thể, x có thể,
+
+04:59.886 --> 05:02.083
+giá trị của x,
+
+05:02.083 --> 05:03.949
+lớn hơn hoặc bằng với -1,
+
+05:03.949 --> 05:06.311
+hoặc mình có thể nói -1 nhỏ hơn hoặc bằng x,
+
+05:06.311 --> 05:09.864
+vì nếu x là -1, chuỗi vẫn hội tụ,
+
+05:09.864 --> 05:12.844
+và rồi x phải nhỏ hơn 1,
+
+05:12.844 --> 05:14.796
+vì khi x bằng 1 ta phân kì,
+
+05:14.796 --> 05:17.029
+nên không thể nói là nhỏ hơn hoặc bằng.
+
+05:17.029 --> 05:18.676
+Vậy đây là khoảng hội tụ,
+
+05:18.676 --> 05:20.066
+của hàm số ban đầu.
+
+05:20.066 --> 05:22.182
+Vậy còn khoảng hội tụ của cái này,
+
+05:22.182 --> 05:24.708
+đạo hàm ở đây này?
+
+05:24.708 --> 05:27.287
+Chà, khi ta lấy đạo hàm,
+
+05:27.287 --> 05:31.454
+cái này sẽ bằng với x mũ 0,
+
+05:34.586 --> 05:36.503
+cộng x mũ 1,
+
+05:37.421 --> 05:39.382
+cộng x mũ 2,
+
+05:39.382 --> 05:41.179
+và rồi ta cứ thế đi tiếp.
+
+05:41.179 --> 05:42.381
+Giờ có thể bạn đã nhận ra,
+
+05:42.381 --> 05:46.340
+đây là chuỗi cấp số nhân với công bội là x.
+
+05:46.340 --> 05:47.173
+Cấp số nhân,
+
+05:49.297 --> 05:50.130
+chuỗi,
+
+05:51.660 --> 05:54.147
+khi công bội là,
+
+05:54.147 --> 05:57.232
+thường kí hiệu là r, bằng với x.
+
+05:57.232 --> 05:59.556
+Ta biết rằng chuỗi cấp số nhân sẽ hội tụ,
+
+05:59.556 --> 06:02.761
+chỉ trong trường hợp,
+
+06:02.761 --> 06:04.933
+mà công bội, trị tuyệt đối,
+
+06:04.933 --> 06:06.849
+của công bội,
+
+06:06.849 --> 06:08.849
+nó sẽ hội tụ,
+
+06:10.896 --> 06:13.294
+khi trị tuyệt đối,
+
+06:13.294 --> 06:16.212
+của công bội nhỏ hơn 1.
+
+06:16.212 --> 06:18.390
+Vậy trong trường hợp này, khi ta lấy đạo hàm,
+
+06:18.390 --> 06:21.150
+f phẩy x, khoảng hội tụ,
+
+06:21.150 --> 06:22.768
+là gần giống nhau.
+
+06:22.768 --> 06:25.685
+Vậy ở đây khoảng hội tụ,
+
+06:28.623 --> 06:32.092
+sẽ là, x sẽ nằm giữa,
+
+06:32.092 --> 06:34.161
+-1 và 1,
+
+06:34.161 --> 06:36.112
+nhưng nó không thể bằng -1.
+
+06:36.112 --> 06:38.795
+Tại -1 chuỗi sẽ phân kì,
+
+06:38.795 --> 06:40.385
+và tại 1 nó cũng phân kì.
+
+06:40.385 --> 06:42.742
+Bạn để ý nhé, chúng trông gần giống nhau.
+
+06:42.742 --> 06:46.869
+Nếu ta xem chúng là chuỗi có tâm là 0,
+
+06:46.869 --> 06:50.191
+bán kính hội tụ sẽ là giống nhau.
+
+06:50.191 --> 06:54.116
+Ta có thể đi lên trên một, xuống dưới một, lên trên một, xuống dưới một.
+
+06:54.116 --> 06:55.578
+Đó là tính chất tổng quát.
+
+06:55.578 --> 06:57.061
+Ta có thể xem đạo hàm cũng như tích phân,
+
+06:57.061 --> 06:58.894
+nhưng đầu mút,
+
+06:58.894 --> 07:00.758
+của khoảng hội tụ sẽ là khác nhau.
+
+07:00.758 --> 07:02.693
+Và tiếp theo,
+
+07:02.693 --> 07:05.808
+mình khuyên bạn hãy sử dụng phép thử tỉ lệ,
+
+07:05.808 --> 07:08.391
+để tìm ra 1, tìm xem,
+
+07:10.401 --> 07:13.969
+chà, phải dùng phép thử tỉ lệ lẫn điều kiện giới hạn,
+
+07:13.969 --> 07:18.126
+để tìm xem khoảng hội tụ,
+
+07:18.126 --> 07:20.477
+của nguyên hàm, hay tính phân này sẽ là gì.
+
+07:20.477 --> 07:21.778
+Và bạn sẽ thấy,
+
+07:21.778 --> 07:23.994
+bán kính hội tụ sẽ như nhau.
+
+07:23.994 --> 07:26.877
+Ta có thể đi lên trên số 0 một và dưới số 0 một.
+
+07:26.877 --> 07:27.969
+Ta phải ở trong khoảng đó.
+
+07:27.969 --> 07:30.521
+Nhưng bạn sẽ thấy, cái này sẽ hội tụ,
+
+07:30.521 --> 07:34.857
+tại x bằng -1 hoặc x bằng 1.
+
+07:34.857 --> 07:36.402
+Mình sẽ dừng ở đây.
+
+07:36.402 --> 07:40.427
+Vậy, khoảng hội tụ, để mình dùng màu vàng.
+
+07:40.427 --> 07:44.594
+Khoảng hội tụ, cho cái phái trên này,
+
+07:46.348 --> 07:49.934
+nó sẽ hội tụ tại -1 nhỏ hơn x,
+
+07:49.934 --> 07:52.172
+và x nhỏ hơn hoặc bằng 1.
+
+07:52.172 --> 07:54.628
+Bạn hãy để ý, chúng có cùng bán kính hội tụ,
+
+07:54.628 --> 07:58.757
+nhưng khoảng hội tụ, lại có các đầu mút khác nhau.
+
+07:58.757 --> 08:01.207
+Và nếu bạn muốn tự chứng minh điều này,
+
+08:01.207 --> 08:03.399
+mình khuyên bạn hãy sử dụng phương pháp,
+
+08:03.399 --> 08:05.266
+giống với phương pháp ta đã dùng cho hàm số gốc.
+
+08:05.266 --> 08:09.421
+Sử dụng phép thử tỉ lệ, bạn sẽ đi đến kết luận,
+
+08:09.421 --> 08:11.565
+ở đây, và rồi thử các trường hợp,
+
+08:11.565 --> 08:15.346
+khi x bằng 1 và x bằng -1.
+
+08:15.346 --> 08:17.549
+Và bạn sẽ thấy khi x bằng -1,
+
+08:17.549 --> 08:20.431
+bạn có chuỗi điều hòa, và nó sẽ hội tụ.
+
+08:20.431 --> 08:23.151
+Còn khi x bằng 1, bạn sẽ có chuỗi điều hòa,
+
+08:23.151 --> 08:26.820
+mà mẫu số có bậc lớn hơn 1,
+
+08:26.820 --> 08:28.597
+nó giống với p-chuỗi.
+
+08:28.597 --> 08:30.973
+Và bạn sẽ thấy nó cũng hội tụ,
+
+08:30.973 --> 08:33.056
+trong trường hợp đó.

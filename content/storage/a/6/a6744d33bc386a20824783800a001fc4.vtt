@@ -1,0 +1,345 @@
+WEBVTT
+
+00:00.130 --> 00:02.836
+Máme zde dvě
+parametrické rovnice,
+
+00:02.836 --> 00:06.106
+kterými vyjadřujeme souřadnice
+x a y pomocí proměnné t.
+
+00:06.106 --> 00:10.127
+Když do těchto funkcí
+dosadíme všechna možná t
+
+00:10.127 --> 00:13.997
+a nakreslíme do grafu body s příslušnými
+souřadnicemi x a y pro tato t,
+
+00:13.997 --> 00:16.367
+tak nám vyjde nějaká
+křivka v rovině xy.
+
+00:16.367 --> 00:22.809
+V tomto videu bych rád
+spočítal první derivaci y podle x
+
+00:22.809 --> 00:26.809
+a pak také druhou
+derivaci y podle x,
+
+00:26.809 --> 00:29.531
+přičemž jejich předpis bude
+v obou případech záviset na t.
+
+00:29.531 --> 00:31.338
+Tak pojďme na to.
+
+00:31.338 --> 00:38.903
+Nejprve spočítejme
+první derivaci y podle x.
+
+00:38.903 --> 00:42.418
+Tohle už jsme viděli
+i v jiných videích.
+
+00:42.418 --> 00:51.468
+Rovná se to derivaci y podle t
+lomeno derivace x podle t,
+
+00:51.468 --> 00:54.657
+což se rovná...
+
+00:54.657 --> 00:58.687
+Čemu se rovná
+derivace y podle t?
+
+00:58.687 --> 01:02.617
+dy lomeno dt
+se rovná...
+
+01:02.617 --> 01:10.164
+Derivace výrazu e na (3 krát t)
+podle (3 krát t) je e na (3 krát t)
+
+01:10.164 --> 01:15.094
+a derivace (3 krát t)
+podle t se rovná 3.
+
+01:15.094 --> 01:17.164
+Můžeme sem tedy
+napsat „krát 3“
+
+01:17.164 --> 01:20.481
+nebo 3 napíšeme
+dopředu.
+
+01:20.481 --> 01:23.499
+Derivace −1
+se rovná...
+
+01:23.499 --> 01:26.609
+Konstanta se při jakékoliv
+změně t nijak nezmění,
+
+01:26.609 --> 01:28.289
+takže její
+derivace je 0.
+
+01:28.289 --> 01:36.190
+dy lomeno dt se tedy rovná
+3 krát e umocněné na (3 krát t).
+
+01:36.190 --> 01:38.030
+Tohle celé
+vydělíme...
+
+01:38.030 --> 01:41.767
+Čemu se rovná
+derivace x podle t?
+
+01:41.767 --> 01:46.894
+Derivace x podle t
+se rovná...
+
+01:46.894 --> 01:48.906
+Číslo 3
+tu zůstane.
+
+01:48.906 --> 01:55.586
+Derivace výrazu e na (2 krát t)
+podle (2 krát t) je e na (2 krát t).
+
+01:55.586 --> 02:01.416
+Dále musíme zderivovat
+(2 krát t) podle t, což vyjde jako 2.
+
+02:01.416 --> 02:09.376
+Celkem tak dostaneme
+6 krát e umocněné na (2 krát t).
+
+02:09.376 --> 02:12.398
+Tohle teď můžeme
+trochu zjednodušit.
+
+02:12.398 --> 02:14.188
+Napíšu to
+bílou barvou.
+
+02:14.188 --> 02:17.695
+Zjednoduší se nám
+to na e na...
+
+02:17.695 --> 02:21.620
+Bude to 1 lomeno 2,
+což je totéž co 3 lomeno 6,
+
+02:21.620 --> 02:27.760
+krát e na (3 krát t minus 2 krát t).
+
+02:27.760 --> 02:30.455
+Použil jsem jen
+vlastnosti mocnin.
+
+02:30.455 --> 02:34.575
+Když mám tři t a pak dvě odečtu,
+tak mi zbyde jen jedno t,
+
+02:34.575 --> 02:38.885
+takže tohle se
+nám zjednoduší na t.
+
+02:38.885 --> 02:45.981
+Když už známe první derivaci
+y podle x v závislosti na t,
+
+02:45.981 --> 02:56.516
+jak teď spočítáme
+druhou derivaci y podle x?
+
+02:56.516 --> 02:57.745
+Dám vám
+nápovědu.
+
+02:57.745 --> 02:59.740
+Opět použijeme
+tenhle vzorec.
+
+02:59.740 --> 03:03.510
+Chceme-li zjistit rychlost
+změny něčeho vzhledem k x,
+
+03:03.510 --> 03:06.266
+tak spočítáme rychlost změny
+toho něčeho vzhledem k t
+
+03:06.266 --> 03:09.926
+a vydělíme to rychlostí
+změny x vzhledem k t.
+
+03:09.926 --> 03:12.694
+Jak to bude vypadat
+v tomhle případě?
+
+03:12.694 --> 03:19.644
+Tohle se rovná derivaci
+první derivace podle t...
+
+03:19.644 --> 03:21.094
+Raději to
+napíšu.
+
+03:21.094 --> 03:29.604
+V čitateli bude derivace podle t
+z první derivace,
+
+03:29.604 --> 03:32.144
+kterou tu takto
+modře ohraničím.
+
+03:32.144 --> 03:35.874
+Bude to tedy
+derivace podle ‚t‘ z (dy lomeno dx),
+
+03:35.874 --> 03:45.074
+to celé lomeno
+(dx lomeno dt).
+
+03:45.074 --> 03:47.346
+Pokud vám
+není jasné,
+
+03:47.346 --> 03:50.416
+proč je tohle to samé,
+co jsme udělali před chvílí,
+
+03:50.416 --> 03:53.396
+tak vám doporučuji si teď zastavit
+video a zamyslet se nad tím.
+
+03:53.396 --> 03:55.691
+Zamyslete se,
+co jsme tu předtím dělali,
+
+03:55.691 --> 04:01.264
+když jsme chtěli spočítat
+derivaci y podle x.
+
+04:01.264 --> 04:08.291
+Nejprve jsme spočítali derivaci y podle t
+a pak ji vydělili derivací x podle t.
+
+04:08.291 --> 04:14.327
+Nyní chceme spočítat
+druhou derivaci y podle x.
+
+04:14.327 --> 04:17.488
+Napíšu to sem ještě jednou
+ve srozumitelnějším tvaru.
+
+04:17.488 --> 04:22.183
+Chceme vlastně spočítat
+derivaci podle...
+
+04:22.183 --> 04:23.833
+Napíšu to
+ještě jinak.
+
+04:23.833 --> 04:31.133
+Když jsme chtěli spočítat
+derivaci podle ‚x‘ z ‚y‘,
+
+04:31.133 --> 04:38.088
+tak se to rovnalo derivaci y podle t
+lomeno derivace x podle t.
+
+04:38.088 --> 04:47.910
+Nyní chceme spočítat derivaci podle x
+z první derivace podle x.
+
+04:47.910 --> 04:52.591
+Místo y tak teď všude musíme
+napsat jeho první derivaci.
+
+04:52.591 --> 04:55.241
+Tohle se
+tedy rovná...
+
+04:55.241 --> 05:03.167
+V čitateli bude
+derivace podle ‚t‘ z (dy lomeno dx),
+
+05:03.167 --> 05:06.171
+protože předtím to byla
+derivace podle ‚t‘ z ‚y‘...
+
+05:06.171 --> 05:08.881
+Ještě to tady přepíšu,
+ať je to jasnější.
+
+05:08.881 --> 05:20.981
+Tohle dám pryč a napíšu to jako
+derivaci podle ‚t‘ z ‚y‘.
+
+05:20.981 --> 05:26.242
+Snad už tedy vidíte, že tam,
+kde předtím bylo y, teď bude dy lomeno dx.
+
+05:26.242 --> 05:28.363
+Nyní to ještě vydělíme
+výrazem dx lomeno dt.
+
+05:28.363 --> 05:31.302
+Tohle teď možná vypadá
+dost strašidelně a složitě,
+
+05:31.302 --> 05:34.677
+ale půjde to
+poměrně jednoduše spočítat.
+
+05:34.677 --> 05:41.651
+Spočítat derivaci podle ‚t‘ z první
+derivace znamená zderivovat podle t tohle.
+
+05:41.651 --> 05:42.787
+To už se
+spočítá snadno.
+
+05:42.787 --> 05:48.217
+Derivace tohohle se rovná (1 lomeno 2)
+krát derivace (e na t) podle t,
+
+05:48.217 --> 05:50.740
+což je opět
+e na t.
+
+05:50.740 --> 05:53.991
+Tohle teď musíme vydělit
+derivací x podle t,
+
+05:53.991 --> 06:00.361
+která nám už předtím vyšla jako
+6 krát e umocněné na (2 krát t).
+
+06:00.361 --> 06:05.461
+Tohle můžeme
+napsat jako...
+
+06:05.461 --> 06:09.630
+(1 lomeno 2) děleno 6
+je 1 lomeno 12
+
+06:09.630 --> 06:13.776
+a potom krát
+e na (t minus 2 krát t),
+
+06:13.776 --> 06:20.772
+což se rovná
+(1 lomeno 12) krát e na −t,
+
+06:20.772 --> 06:27.020
+nebo to můžeme napsat jako
+1 lomeno (12 krát e na t).
+
+06:27.020 --> 06:28.461
+A máme hotovo.

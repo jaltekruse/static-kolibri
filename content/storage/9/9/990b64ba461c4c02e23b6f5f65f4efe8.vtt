@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.764 --> 00:09.145
+Mám funkci g(x) je rovno
+9 krát 8 na (x minus 1).
+
+00:09.358 --> 00:15.906
+A je definována pro 'x' kladná…
+
+00:16.455 --> 00:19.259
+…je-li 'x' přirozené číslo.
+
+00:19.842 --> 00:26.723
+Je-li 'x' přirozené číslo.
+
+00:26.863 --> 00:28.950
+Tedy, že definičním oborem této funkce,
+
+00:29.114 --> 00:31.989
+neboli, že všemi platnými vstupy zde
+jsou přirozená čísla.
+
+00:32.080 --> 00:34.662
+Tedy 1, 2, 3, 4, 5 a tak dále.
+
+00:34.935 --> 00:37.257
+Tohle je explicitně zadaná funkce.
+
+00:37.360 --> 00:42.807
+Teď bych rád napsal
+tu samou funkci rekursivně.
+
+00:42.990 --> 00:45.882
+Pro dané 'x' dají tu samou hodnotu.
+
+00:46.065 --> 00:49.318
+Pojďme nejprve porozumět
+vstupům a výstupům.
+
+00:49.494 --> 00:51.098
+Udělejme si malou tabulku.
+
+00:51.311 --> 00:52.927
+Udělejme tabulku zde.
+
+00:53.496 --> 00:56.597
+A zamysleme se nad tím,
+co se stane,
+
+00:56.823 --> 01:01.350
+zadáme-li do této funkce různá 'x'.
+
+01:01.600 --> 01:03.753
+Definičním oborem jsou
+přirozená čísla.
+
+01:03.870 --> 01:05.030
+Zkusme jich tedy pár.
+
+01:05.180 --> 01:08.035
+1, 2, 3, 4.
+
+01:08.244 --> 01:11.077
+Uvidíme, jaké jsou odpovídající
+hodnoty g(x).
+
+01:11.266 --> 01:13.628
+'g' od 'x'.
+
+01:14.013 --> 01:19.582
+Je-li 'x' rovno 1,
+g(x) je 9 krát 8 na (1 minus 1),
+
+01:19.780 --> 01:23.181
+9 krát 8 na nultou,
+tedy 9 krát 1.
+
+01:23.310 --> 01:26.613
+g(x) bude tedy 9.
+
+01:26.918 --> 01:32.367
+Je-li 'x' rovno 2,
+co se stane pak?
+
+01:32.580 --> 01:35.661
+Bude to
+9 krát 8 na (2 minus 1).
+
+01:35.830 --> 01:38.789
+To je to samé jako
+9 krát 8 na prvou.
+
+01:38.981 --> 01:40.529
+To je 9 krát 8.
+
+01:40.700 --> 01:42.897
+Takže 72.
+
+01:43.090 --> 01:44.644
+Vlastně to zapíšu takto.
+
+01:44.760 --> 01:47.108
+Napíšu to jako
+9 krát 8.
+
+01:47.269 --> 01:48.874
+9 krát 8.
+
+01:49.175 --> 01:52.762
+Pak, je-li 'x' rovno 3,
+co se tu bude dít?
+
+01:52.980 --> 01:55.036
+Tohle bude
+(3 minus 1), což je 2.
+
+01:55.120 --> 01:56.631
+Tohle bude 8 na druhou.
+
+01:56.750 --> 01:59.203
+Tohle tedy bude
+9 krát 8 na druhou.
+
+01:59.380 --> 02:04.113
+Můžeme to napsat jako
+9 krát 8 krát 8.
+
+02:04.290 --> 02:06.441
+Myslím, že tu už vidíte nějaké schéma.
+
+02:06.650 --> 02:10.327
+Je-li 'x' rovno 4,
+bude to 8 na (4 minus 1),
+
+02:10.512 --> 02:11.789
+tedy 8 na třetí.
+
+02:11.950 --> 02:18.443
+Toto bude tedy
+9 krát 8 krát 8 krát 8.
+
+02:18.846 --> 02:21.932
+Tohle nám dává nápovědu o tom,
+jak se to dá definovat rekursivně.
+
+02:22.137 --> 02:25.498
+Všimněte si, je-li první člen,
+když 'x' je 1, roven 9,
+
+02:25.670 --> 02:30.922
+každý následující člen je
+8 krát předchozí člen.
+
+02:31.130 --> 02:33.681
+8 krát předchozí člen.
+
+02:33.850 --> 02:35.550
+8 krát předchozí člen.
+
+02:35.700 --> 02:37.422
+8 krát předchozí člen.
+
+02:37.595 --> 02:39.611
+Definujme to tedy rekursivně.
+
+02:39.730 --> 02:41.631
+Nejdříve si zadefinujme první člen.
+
+02:41.849 --> 02:44.592
+Můžeme psát g(x)…
+
+02:45.536 --> 02:48.312
+Udělám to novou barvou,
+nadbytečně používám červenou.
+
+02:48.478 --> 02:49.799
+Mám rád modrou.
+
+02:49.980 --> 02:51.152
+g(x).
+
+02:51.429 --> 02:53.373
+Definujme první člen.
+
+02:53.550 --> 02:57.291
+Bude to rovno 9,
+pokud je 'x' rovno 1.
+
+02:57.480 --> 03:04.430
+g(x) je rovno 9,
+je-li 'x' rovno 1.
+
+03:04.580 --> 03:06.674
+Tím jsme se postarali o tohle.
+
+03:06.980 --> 03:10.802
+A pak, je-li 'x' cokoliv jiného,
+
+03:11.017 --> 03:13.235
+rovná se to předchozímu g(x)…
+
+03:13.421 --> 03:16.259
+Díváme-li se na…
+
+03:16.511 --> 03:21.149
+Podívejme se až úplně dolů na
+'x minus 1' a pak na 'x'.
+
+03:21.325 --> 03:32.790
+Pokud tento vstup zde
+je g(x minus 1)…
+
+03:33.030 --> 03:36.053
+Ať už jsme násobili libovolným počtem 8
+a máme 9 vpředu,
+
+03:36.165 --> 03:38.084
+tohle je g(x minus 1).
+
+03:38.230 --> 03:40.224
+Víme, že g(x)…
+
+03:40.430 --> 03:47.251
+Víme, že tohle bude předchozí,
+g(x minus 1),
+
+03:47.409 --> 03:55.666
+předchozí člen krát 8.
+
+03:55.794 --> 03:56.991
+Můžeme to napsat sem.
+
+03:57.210 --> 03:58.964
+Krát 8.
+
+03:59.235 --> 04:01.797
+Pro každé 'x' různé od 1,
+
+04:01.957 --> 04:06.929
+g(x) je rovno předchozímu členu,
+tedy 'g' od…
+
+04:07.060 --> 04:08.510
+Udělám to modrou.
+
+04:08.701 --> 04:14.664
+…g(x minus 1) krát 8.
+
+04:16.163 --> 04:28.816
+Je-li 'x' větší než 1,
+přirozené číslo větší než 1.
+
+04:29.025 --> 04:32.367
+Ověřme si, zda to skutečně platí.
+
+04:32.554 --> 04:37.416
+Vytvořme si další tabulku.
+
+04:38.111 --> 04:41.009
+Znovu tu budeme mít 'x'
+
+04:41.164 --> 04:42.773
+a budeme mít g(x).
+
+04:43.021 --> 04:46.159
+Ale tentokrát použijeme pro g(x)
+toto rekursivní vyjádření.
+
+04:46.424 --> 04:49.259
+Proč je rekursivní?
+Protože odkazuje sama na sebe.
+
+04:49.390 --> 04:54.434
+Ve své definici říká, že g(x),
+není-li 'x' rovno 1, bude to g(x minus 1).
+
+04:54.580 --> 04:55.997
+Používá tu samotnou funkci.
+
+04:56.080 --> 04:58.354
+Ale uvidíme, že to opravdu funguje.
+
+04:58.539 --> 04:59.290
+Podívejme.
+
+04:59.500 --> 05:05.954
+Je-li 'x' rovno 1,
+g(1) je rovno 9.
+
+05:06.168 --> 05:07.058
+Je to rovno 9.
+
+05:07.303 --> 05:08.860
+To je přímočaré.
+
+05:09.071 --> 05:10.865
+Co se stane,
+je-li 'x' rovno 2?
+
+05:11.110 --> 05:14.203
+Když je 'x' rovno 2,
+tento případ už neplatí.
+
+05:14.335 --> 05:15.768
+Jdeme dolů k tomuto případu.
+
+05:15.894 --> 05:17.564
+Je-li 'x' rovno 2,
+
+05:17.735 --> 05:20.667
+bude to rovno g(2 minus 1)…
+
+05:20.893 --> 05:21.950
+Zapíšu to.
+
+05:22.166 --> 05:28.487
+Bude to rovno
+g(2 minus 1) krát 8,
+
+05:28.676 --> 05:33.347
+což je stejné jako
+g(1) krát 8.
+
+05:33.548 --> 05:34.572
+A kolik je g(1)?
+
+05:34.670 --> 05:36.597
+No, g(1) máme zde.
+
+05:36.779 --> 05:37.963
+g(1) je 9.
+
+05:38.141 --> 05:40.636
+Tohle bude rovno 9 krát 8.
+
+05:40.834 --> 05:42.567
+Přesně to stejné, co máme zde.
+
+05:42.831 --> 05:45.608
+A to je samozřejmě rovno g(2).
+
+05:45.958 --> 05:46.730
+Napíšu to.
+
+05:46.898 --> 05:49.578
+Tohle je g(2).
+
+05:49.803 --> 05:52.395
+Trochu se posunu,
+ať se tu nemusím mačkat.
+
+05:52.609 --> 05:54.292
+Přejděme teď k 3.
+
+05:54.518 --> 05:55.886
+Přejděme k 3.
+
+05:56.080 --> 05:57.710
+Teď napíšu nejdříve g(3).
+
+05:57.890 --> 06:02.372
+g(3) je rovno,
+jsme u tohoto případu,
+
+06:02.585 --> 06:08.751
+je to rovno g(3 minus 1) krát 8.
+
+06:08.986 --> 06:13.532
+To je rovno
+g(2) krát 8.
+
+06:13.758 --> 06:14.943
+Kolik je g(2)?
+
+06:15.203 --> 06:17.880
+g(2) jsme zjistili, že je 9 krát 8.
+
+06:18.133 --> 06:22.188
+Je to rovno 9 krát 8,
+to je g(2), znovu krát 8.
+
+06:22.376 --> 06:24.858
+A vidíte, že máme
+přesně ty stejné výsledky.
+
+06:24.970 --> 06:28.832
+Tohle je tedy rekursivní
+vyjádření této funkce.

@@ -1,0 +1,454 @@
+WEBVTT
+
+00:02.113 --> 00:12.051
+Să spunem că avem o funcție f de x, și voi trasa graficul arbitrar f de x... asta este axa mea y și asta este axa mea x ...
+
+00:12.051 --> 00:14.698
+și poate f de x arată ceva de genul ăsta...
+
+00:14.698 --> 00:23.708
+și ceea ce vreau să fac este să aproximez f de x cu un Polinom Taylor centrat in jurului lui "x" care este egal cu "a"
+
+00:23.708 --> 00:27.237
+deci asta este axa x, asta este axa y, deci vreau un Polinom Taylor centrat undeva aici.
+
+00:27.237 --> 00:33.000
+Ai văzut cum funcționează; Polinomul Taylor vine din ideea
+
+00:33.000 --> 00:35.968
+că pentru toate derivatele până la și inluzând
+
+00:35.968 --> 00:38.893
+gradul polinomului, acei derivați ai polinomului
+
+00:38.893 --> 00:43.400
+evaluat la "a" trebuie să fie egal cu derivatele funcţiei noastre
+
+00:43.400 --> 00:46.600
+evaluată la "a". Şi că polinomul evaluat la "a" trebuie, de asemenea
+
+00:46.600 --> 00:49.575
+să fie egal cu această funcţie evaluate la "a".
+
+00:49.575 --> 00:54.265
+Deci polinomul nostru, aproximarea noastra la polinomul Taylor, ar arăta ceva de genul ăsta;
+
+00:54.265 --> 00:58.909
+Deci, it voi numi p de x, şi uneori este posibil să vedeţi un indice
+
+00:58.909 --> 01:02.717
+N mare acolo pentru a arăta că este o aproximare de gradul n şi, uneori,
+
+01:02.717 --> 01:09.172
+veţi vedea ceva de genul ăsta, ceva de genul N virgulă a pentru a arăta că este o aproximare de gradul n centrată a la a
+
+01:09.172 --> 01:12.377
+De fapt voi scrie asta chiar acum... poate vom pierde
+
+01:12.377 --> 01:14.513
+dacă trebuie sa scriem mereu iar și iar, dar trebuie să îți asumi
+
+01:14.513 --> 01:18.042
+că este un polinom de gradul n centrat la "a",
+
+01:18.042 --> 01:21.200
+și va arăta așa; va fi f de "a" plus
+
+01:21.200 --> 01:28.723
+f prim de a, ori x minus a, plus f prim prim (secund) de "a"
+
+01:28.723 --> 01:39.637
+ori x minus a la pătrat supra (fie ai putea scrie doi ori doi factorial, este aceeaşi valoare)
+
+01:39.637 --> 01:44.374
+Voi scrie doi factorial, ai putea scrie împărțit prin unu factorial aici dacă dorești.
+
+01:44.374 --> 01:52.315
+Şi apoi plus du-te la terțe derivat din f un moment x minus o a treia puterea,
+
+01:52.315 --> 01:56.402
+(Cred că ai vedea în cazul în care acest lucru se întâmplă) peste trei factorial,
+
+01:56.402 --> 01:57.981
+şi aţi continua să mergi, voi merge la această linie chiar aici, tot drumul
+
+01:57.981 --> 02:03.925
+termenul de gradul n-lea, care este derivata n-f evaluate la un
+
+02:03.925 --> 02:11.495
+ori x minus o la n peste factorialul lui n.
+
+02:11.495 --> 02:15.674
+Şi acest drept polinomiale peste aici, acest polynimal de gradul n-lea, centrate la "a",
+
+02:15.674 --> 02:21.108
+este cu siguranta f de o este mergi la a fi la fel, sau p de un este mergi la a fi acelaşi lucru
+
+02:21.108 --> 02:24.591
+f de o, şi puteţi verifica faptul că, pentru că toate aceste alte termenilor au
+
+02:24.591 --> 02:27.267
+un x minus o aici, deci, dacă tu a pune un o în polinom, toate aceste alte
+
+02:27.267 --> 02:32.253
+termeni sunt mergi la a fi zero, şi veţi avea p de un este egal cu f de o, lasa-mi scrie că în jos
+
+02:32.253 --> 02:38.523
+: p de un este egal cu f de o. Şi astfel s-ar putea arata ceva de genul asta.
+
+02:38.523 --> 02:42.867
+Este de gând să se potrivi curbă mai bine mai mult a acestor termeni
+
+02:42.867 --> 02:45.210
+că de fapt avem. Deci, aceasta s-ar putea arata ceva de genul asta.
+
+02:45.210 --> 02:51.533
+Voi încerca meu cel mai bun pentru a arăta ceea ce ea s-ar putea arata.
+
+02:51.533 --> 02:54.777
+Şi ceea ce vreau să fac în acest video, deoarece aceasta este tot review,
+
+02:54.777 --> 02:57.795
+Am acest polinom care se apropie de această funcţie,
+
+02:57.795 --> 03:00.767
+termeni mai mult am grad mai ridicat de acest polinomiale,
+
+03:00.767 --> 03:05.133
+mai bine să se va potrivi această curbă suplimentare care ajung departe de "a".
+
+03:05.133 --> 03:08.151
+Dar ceea ce vreau să fac în acest film este cred că, dacă ne poate legat
+
+03:08.151 --> 03:13.400
+cât de bine se este montarea această funcţie, ca să ne mutăm departe
+
+03:13.400 --> 03:17.904
+la "a". Deci, ceea ce vreau să fac este defini o funcţie de restul,
+
+03:17.904 --> 03:21.387
+sau, uneori, am vazut manuale numesc o funcţie de eroare.
+
+03:21.387 --> 03:28.733
+Şi de gând să numim aceasta, hmm, doar astfel încât sunteţi compatibile cu
+
+03:28.733 --> 03:31.836
+toate notațiile diferite ar putea vedea într-o carte... unii oameni va apela acest lucru
+
+03:31.836 --> 03:37.316
+o funcţie de restul pentru un polinom de gradul n-lea centrat la "a",
+
+03:37.316 --> 03:39.963
+uneori veţi vedea acest lucru ca o funcţie de "eroare",
+
+03:39.963 --> 03:43.585
+dar funcţia "eroare" uneori este evitate, deoarece
+
+03:43.585 --> 03:47.254
+se pare ca "aşteptat valoare" de probabilitate,
+
+03:47.254 --> 03:50.504
+dar veţi vedea acest lucru adesea, acest lucru este e de eroare, r pentru restul
+
+03:50.504 --> 03:55.520
+şi uneori va, de asemenea, au indici acolo ca asta,
+
+03:55.520 --> 03:58.585
+şi ceea ce vom face este define această funcţie pentru a fi diferenţa dintre
+
+03:58.585 --> 04:05.505
+f x şi noastre apropierea f x pentru orice x anumit.
+
+04:05.505 --> 04:10.533
+Astfel este doar într-adevăr de gând să (face aceleaşi culori), acesta este mergi la a fi
+
+04:10.533 --> 04:16.836
+f x minus p x. În cazul în care acest lucru este un polinom de gradul n-lea
+
+04:16.836 --> 04:22.873
+centrat la "a". Deci, de exemplu, dacă cineva a cere:
+
+04:22.873 --> 04:26.449
+sau, dacă aţi dorit să vizualiza, "ceea ce sunt ei vorbesc despre":
+
+04:26.449 --> 04:30.800
+Dacă ei spun eroarea de acest polinom de gradul n-lea centrat la "a"
+
+04:30.800 --> 04:35.133
+atunci când suntem la x este egală cu b. Ce este acest lucru egală,
+
+04:35.133 --> 04:38.802
+sau cum trebuie să crezi despre acest lucru. Ei bine, dacă b este dreapta peste aici,
+
+04:38.802 --> 04:43.818
+Deci, eroarea de b este mergi la a fi f a b minus polinomul la b.
+
+04:43.818 --> 04:47.733
+Deci, f a fi acolo, polinomul este chiar acolo, asa ca va fi
+
+04:47.733 --> 04:50.598
+această distanță dreapta peste aici. Deci, dacă măsuraţi eroarea la a,
+
+04:50.598 --> 04:55.733
+de fapt ar fi zero, deoarece polinomul şi funcţia de
+
+04:55.733 --> 05:00.257
+sunt același acolo. F de o este egal cu p de a, astfel încât nu există eroare la "a" este egală cu zero.
+
+05:00.257 --> 05:03.415
+Permiteţi-mi să de fapt scrie că, pentru că este o proprietate interesant.
+
+05:03.415 --> 05:08.988
+Ne va ajuta legat-o în cele din urmă, asa ca lasa-mi scrie că. Funcţia de eroare la "a"
+
+05:08.988 --> 05:14.839
+, și pentru restul de acest video poate presupune că aş putea scrie un indice pentru n-lea
+
+05:14.839 --> 05:18.183
+gradul polinomului centrat la "a". Sunt doar de gând să nu scrie că fiecare
+
+05:18.183 --> 05:23.600
+timp doar pentru a salva pe noi înşine unele scris. Deci este egală cu eroarea de la "a"
+
+05:23.600 --> 05:30.257
+f o p minus de o, şi din nou nu scriu sub n şi sub o, tu poate presupune doar că
+
+05:30.257 --> 05:33.276
+, aceasta este o gradul n-lea polinomiale centrat la "a",
+
+05:33.276 --> 05:37.733
+şi aceste două lucruri sunt egale cu reciproc. Deci, acest lucru se întâmplă să fie egale cu zero
+
+05:37.733 --> 05:39.453
+, şi vom vedea că dreptul peste aici. Distanța dintre
+
+05:39.453 --> 05:43.200
+două funcții este zero acolo. Acum sa ne gandim la altceva.
+
+05:43.200 --> 05:52.038
+Hai sa cred despre ceea ce derivat din eroarea este funcţia evaluate la "a".
+
+05:52.038 --> 06:00.304
+Care este mergi la a fi derivat de funcţia noastră la "a" minus primul deriviative de polinom noastre la "a".
+
+06:00.304 --> 06:05.459
+Dacă presupunem că acest lucru este mai mare decât gradul unul, ştim că
+
+06:05.459 --> 06:09.360
+acestor derivați ai de gând să fie la fel la "a". Puteţi încerca să ia primul
+
+06:09.360 --> 06:12.378
+derivat aici. Dacă luaţi derivate prima acest ansamblu
+
+06:12.378 --> 06:16.140
+mizerie, şi aceasta este, de fapt ce Taylor polinoame sunt atât de utile,
+
+06:16.140 --> 06:19.066
+este că, până la şi inclusiv gradul polinomului,
+
+06:19.066 --> 06:21.574
+atunci când vă evaluaţi derivatele dumneavoastră polinom la
+
+06:21.574 --> 06:25.200
+"a" ei mergi la a fi la fel ca derivatele funcţia la "a".
+
+06:25.200 --> 06:27.982
+Asta e ceea ce face începe să fie o bună aproximare.
+
+06:27.982 --> 06:30.733
+Dar dacă ai luat un derivat aici, acest termen dreapta aici va dispărea,
+
+06:30.733 --> 06:34.067
+ea va merge la zero, veţi cross-o pentru acum, acest drept termen peste aici
+
+06:34.067 --> 06:37.667
+va fi doar f prim "a", şi apoi toate aceste alte termenilor de gând
+
+06:37.667 --> 06:42.239
+pentru a fi lăsat cu unele tip de un x minus o în ele. Şi când atât ai
+
+06:42.239 --> 06:44.840
+se evaluează la "a" toți termenii cu un x minus o disappear deoarece
+
+06:44.840 --> 06:47.998
+aveţi un un minus un pe ele... asta deja dispărut,
+
+06:47.998 --> 06:53.338
+şi sunt literalmente doar plecat cu prim p de a va egal cu f prim de un.
+
+06:53.338 --> 06:56.264
+Şi am văzut că, înainte. Asa ca lasa-mi scrie că.
+
+06:56.264 --> 07:00.258
+Atât pentru că noi ştim că p prim-de o este egal cu f prim de un
+
+07:00.258 --> 07:06.109
+când vom evalua funcţia de eroare, derivat de funcţia de eroare la "a"
+
+07:06.109 --> 07:10.939
+care, de asemenea, se întâmplă să fie egală cu zero. Şi această proprietate generale
+
+07:10.939 --> 07:16.048
+dreapta peste aici, este adevărat până la şi inclusiv n. Asa ca lasa-mi scris acest lucru în jos.
+
+07:16.048 --> 07:21.527
+Deci, ştim deja că p de un este egal cu f de o, noi ştim deja că
+
+07:21.527 --> 07:25.846
+p prim-de o este egal cu f prim de a, acest lucru vine într-adevăr direct
+
+07:25.846 --> 07:29.376
+din definiția polinoame, şi acest lucru este mergi la a fi adevărat
+
+07:29.376 --> 07:35.970
+tot drumul până când n-derivat de polinom noastre se evaluează la "a",
+
+07:35.970 --> 07:39.639
+nu peste tot, doar evaluate la "a", va fi egal cu n-lea
+
+07:39.639 --> 07:44.800
+derivat de funcţia noastră evaluate la "a".
+
+07:44.800 --> 07:48.045
+Deci, ceea ce care ne spune este că noi ar putea păstra doing this cu funcţia de eroare
+
+07:48.045 --> 07:53.200
+toate mod de a n-derivat de funcţia de eroare evaluate la "a"
+
+07:53.200 --> 07:59.237
+este mergi la a fi egal cu n-derivat de f evaluate la "a" minus
+
+07:59.237 --> 08:03.370
+n-derivat de nostru polinomului evaluată la "a".
+
+08:03.370 --> 08:06.063
+Şi am spus deja că acestea sunt mergi la a fi egal cu reciproc
+
+08:06.063 --> 08:08.385
+până la derivat n-lea atunci când vom evalua-le la "a".
+
+08:08.385 --> 08:12.333
+Astfel încât acestea sunt toate va fi egală cu zero. Deci, acest lucru este o proprietate interesant.
+
+08:12.333 --> 08:16.977
+dar, de asemenea, va fi utilă atunci când vom începe să încercaţi să legaţi această funcţie de eroare.
+
+08:16.977 --> 08:19.577
+Şi care este întreaga punctul de unde am încercat pentru a merge cu acest video, şi
+
+08:19.577 --> 08:20.924
+probabil, următoarea video
+
+08:20.924 --> 08:24.000
+Am de gând să o legat astfel încât ştim cât de bine de estimarea avem
+
+08:24.000 --> 08:28.262
+mai ales ca vom merge mai departe şi mai departe de unde am sunt centrate...
+
+08:28.262 --> 08:30.584
+la în cazul în care este centrat apropierea noastre.
+
+08:30.584 --> 08:33.927
+Acum sa ne gandim la atunci când vom lua un derivat dincolo de asta.
+
+08:33.927 --> 08:36.899
+Hai sa cred despre ceea ce se întâmplă atunci când vom lua (n + 1) th derivate.
+
+08:36.899 --> 08:49.392
+Ce este (n + 1) derivat th nostru funcţiei de eroare. Şi nu chiar
+
+08:49.392 --> 08:51.203
+Dacă I 'm evaluarea doar la "a". În cazul în care doar spun, în general, funcţia de eroare
+
+08:51.203 --> 08:54.872
+e de x.... ceea ce este n + 1th derivate din acesta. Ei bine, acesta este mergi la a fi
+
+08:54.872 --> 09:01.513
+n + 1th derivate din funcţia noastră minus n + 1th derivat de...
+
+09:01.513 --> 09:14.051
+noi suntem evaluarea nu doar la "a" aici fie, lasă-mă să scrie un x acolo...
+
+09:14.051 --> 09:15.723
+funcţiei noastre... I 'm a lua literalmente doar n + 1th derivat de
+
+09:15.723 --> 09:20.692
+ambele părţi a această ecuație dreapta peste aici.
+
+09:20.692 --> 09:23.061
+Deci, este literalmente n + 1th derivat de funcţia noastră minus
+
+09:23.061 --> 09:26.729
+n + 1th derivata noastre polinom de gradul n-lea.
+
+09:26.729 --> 09:33.800
+N + 1th derivata noastre polinom de gradul n-lea.
+
+09:33.800 --> 09:35.467
+Din nou, aş putea scrie o n aici, aş putea scrie o un aici pentru a arăta
+
+09:35.467 --> 09:39.082
+este o gradul n-lea, centrate la "a".
+
+09:39.082 --> 09:45.584
+Acum, ceea ce este n + 1th derivat de un polinom de gradul n-lea?
+
+09:45.584 --> 09:53.667
+Dacă doriţi unele sugestii, ia doua derivata y egal cu x.
+
+09:53.667 --> 09:56.497
+Este un polinom de gradul întâi... ia doua derivată, tu mergi la a lua
+
+09:56.497 --> 10:01.931
+zero. Ia derivata 3 y egal x pătrat.
+
+10:01.931 --> 10:07.600
+Derivate prima este de 2 x, a doua derivată este 2, derivata terțe este zero.
+
+10:07.600 --> 10:11.776
+În general, dacă luaţi un derivat n + 1th, de un polinom de gradul n-lea,
+
+10:11.776 --> 10:14.191
+şi vă puteţi dovedi aceasta pentru tine, chiar se poate dovedi, în general,
+
+10:14.191 --> 10:19.857
+dar cred că ar putea avea sens un pic de tine, acesta va fi egală cu zero.
+
+10:19.857 --> 10:25.867
+Deci, acest lucru chiar aici, acest lucru este un n + 1th derivat de un polinom de gradul n-lea.
+
+10:25.867 --> 10:38.804
+Acest lucru se întâmplă să fie egală cu zero. Deci n + 1th derivat de funcţia noastră de eroare,
+
+10:38.804 --> 10:41.637
+sau funcţia noastră restul you could call it, este egal cu
+
+10:41.637 --> 10:51.297
+n + 1th derivata funcţia noastră. Ce putem continua în următorul video,
+
+10:51.297 --> 10:57.984
+este figura, cel puţin poate am legat, şi dacă suntem capabili de a angaja,
+
+10:57.984 --> 11:00.724
+Dacă suntem capabil la spre figure afară un superioară pe magnitudinea sa,
+
+11:00.724 --> 11:04.393
+de fapt ceea ce vrem să facem este legat magnitudinea sa globală, a legat
+
+11:04.393 --> 11:06.993
+valoarea absolută.
+
+11:06.993 --> 11:11.405
+Dacă putem determina că este mai mic sau egal cu unele valoare m...
+
+11:11.405 --> 11:15.260
+Dacă ne poate efectiv legat acesta, poate putem face un pic de calcul,
+
+11:15.260 --> 11:17.333
+ne pot păstra integrarea it, şi poate vom merge înapoi la
+
+11:17.333 --> 11:20.321
+funcţia iniţială, şi poate vom poate legat care într-un fel.
+
+11:20.321 --> 3:59:59.999
+Dacă ştim unele tip de legat ca asta aici, astfel încât voi lua care până în următorii video.

@@ -1,0 +1,378 @@
+WEBVTT
+
+00:00.640 --> 00:03.480
+O que quero fazer neste vídeo
+é começar com a abstrata--
+
+00:03.480 --> 00:06.350
+deixe-me chamá-la de fórmula
+para a regra da cadeia,
+
+00:06.350 --> 00:09.760
+e, em seguida, aprender a aplicá-la
+na configuração prática.
+
+00:09.760 --> 00:12.596
+Então, vamos começar
+com alguma função,
+
+00:12.596 --> 00:14.220
+uma expressão que
+pode ser expressa
+
+00:14.220 --> 00:18.200
+como a composição de duas funções.
+
+00:18.200 --> 00:23.040
+Então, pode ser expressa
+como f de g de x.
+
+00:25.980 --> 00:28.580
+É uma função que pode ser
+expressa como a composição
+
+00:28.580 --> 00:30.150
+ou expressão que
+pode ser expressa
+
+00:30.150 --> 00:32.890
+como a composição
+de duas funções.
+
+00:32.890 --> 00:35.105
+Deixe-me usar aquela mesma cor.
+
+00:35.105 --> 00:36.680
+Quero que as cores
+sejam exatas.
+
+00:36.680 --> 00:39.470
+E meu objetivo é calcular a
+derivada deste negócio,
+
+00:39.470 --> 00:42.390
+a derivada em relação a x.
+
+00:42.390 --> 00:44.380
+E o que a cadeia
+regra nos diz é
+
+00:44.380 --> 00:46.880
+que isto será igual a derivada
+
+00:46.880 --> 00:49.930
+da função externa com
+relação à função interna.
+
+00:49.930 --> 00:54.460
+E podemos escrever isto como f
+linha de, não x, mas f linha
+
+00:54.460 --> 00:56.730
+de g de x, da
+função interna.
+
+00:56.730 --> 01:00.950
+f linha de g de x
+vezes a derivada
+
+01:00.950 --> 01:03.485
+da função interna
+em relação a x.
+
+01:05.810 --> 01:08.250
+Agora isto pode parecer muito
+abstrato e matemático.
+
+01:08.250 --> 01:09.760
+Como você realmente a aplica?
+
+01:09.760 --> 01:12.180
+Bem, vamos tentar
+com um exemplo real.
+
+01:12.180 --> 01:17.246
+Vamos dizer que estávamos
+tentando calcular a derivada
+
+01:17.246 --> 01:28.644
+da raiz quadrada de
+3x ao quadrado menos x.
+
+01:28.644 --> 01:31.070
+Então, como poderíamos
+definir um f e um g.
+
+01:31.070 --> 01:32.710
+para que isto seja a composição
+
+01:32.710 --> 01:35.340
+de f de x e g de x?
+
+01:35.340 --> 01:37.530
+Bem, poderíamos definir f de x.
+
+01:37.530 --> 01:42.440
+Se definirmos f de x como sendo
+igual à raiz quadrada de x,
+
+01:42.440 --> 01:51.430
+e se definirmos g de x como
+sendo igual a 3x quadrado
+
+01:51.430 --> 01:55.410
+menos x, então o
+que é f de g de x.
+
+01:55.410 --> 02:00.066
+Bem, f de g de x será igual a--
+
+02:00.066 --> 02:01.940
+tentarei manter todas
+as cores exatas,
+
+02:01.940 --> 02:04.090
+espero que isto ajude
+na compreensão.
+
+02:04.090 --> 02:08.038
+f de g de x é igual a-- em todos
+os lugares onde você vê o x,
+
+02:08.038 --> 02:14.820
+substitua com o g de x--
+a principal raiz de g de x,
+
+02:14.820 --> 02:19.110
+que é igual à raiz
+principal de-- nós
+
+02:19.110 --> 02:22.750
+definimos g de x bem aqui--
+3x ao quadrado menos x.
+
+02:26.940 --> 02:29.020
+Portanto, esta coisa bem
+aqui é exatamente
+
+02:29.020 --> 02:32.340
+f de g de x se definirmos
+f de x desta maneira
+
+02:32.340 --> 02:34.580
+e g de x desta maneira.
+
+02:34.580 --> 02:35.700
+Justo.
+
+02:35.700 --> 02:37.310
+Vamos aplicar
+a regra da cadeia.
+
+02:37.310 --> 02:42.020
+f linha de g de x
+será igual a que,
+
+02:42.020 --> 02:45.570
+a derivada de f
+em relação a g?
+
+02:45.570 --> 02:47.840
+Bem, o que é f linha de x?
+
+02:47.840 --> 02:51.320
+f linha de x é igual a--
+esta é a mesma coisa
+
+02:51.320 --> 02:55.090
+que x à potência 1/2, portanto,
+podemos aplicar a regra da potência.
+
+02:55.090 --> 02:58.140
+Então,será 1/2
+vezes x elevado a--
+
+02:58.140 --> 03:01.190
+e, em seguida, basta tirar um
+do expoente, 1/2 menos 1
+
+03:01.190 --> 03:03.820
+é menos 1/2.
+
+03:03.820 --> 03:07.190
+E então o que é f
+linha de g de x?
+
+03:11.640 --> 03:14.030
+Em qualquer parte da
+derivada que vemos um x,
+
+03:14.030 --> 03:15.560
+podemos substituí-lo por g de x.
+
+03:15.560 --> 03:18.320
+Portanto, será 1/2
+vezes-- ao invés
+
+03:18.320 --> 03:25.070
+de x elevado a menos 1/2, podemos
+escrever g de x elevado a 1/2.
+
+03:25.070 --> 03:29.090
+E isto será igual a-- deixe-me
+
+03:29.090 --> 03:30.710
+escrever isto aqui.
+
+03:30.710 --> 03:35.830
+Será igual a 1/2 vezes
+
+03:35.830 --> 03:39.080
+todo este negócio
+elevado a menos 1/2.
+
+03:39.080 --> 03:46.140
+3x ao quadrado menos x,
+que é exatamente o que nós
+
+03:46.140 --> 03:49.500
+precisamos resolver bem
+aqui. f linha de g de x
+
+03:49.500 --> 03:51.340
+é igual a isto.
+
+03:51.340 --> 03:55.300
+Então esta parte aqui eu vou--
+
+03:55.300 --> 03:57.740
+deixe-me enquadrá-lo em verde.
+
+03:57.740 --> 03:59.920
+O que estamos tentando resolver aqui,
+
+03:59.920 --> 04:02.250
+f linha de g de x,
+nós já descobrimos
+
+04:02.250 --> 04:05.450
+que é exatamente esta coisa aqui.
+
+04:05.450 --> 04:08.930
+Assim, a derivada de f da
+função externa com relação
+
+04:08.930 --> 04:10.450
+a função interna.
+
+04:10.450 --> 04:11.420
+Deixe-me escrevê-la.
+
+04:11.420 --> 04:17.870
+É igual a 1/2 vezes g de
+x elevado a menos 1/2,
+
+04:17.870 --> 04:22.480
+vezes 3x ao quadrado menos x.
+
+04:22.480 --> 04:25.490
+Isto é exatamente isso com
+base em como definimos
+
+04:25.490 --> 04:28.020
+f de x e como definimos g de x.
+
+04:28.020 --> 04:29.650
+Conceitualmente, se
+está só olhando
+
+04:29.650 --> 04:31.311
+isto, a derivada
+da coisa exterior,
+
+04:31.311 --> 04:33.779
+você está elevando algo à potência 1/2.
+
+04:33.779 --> 04:35.430
+Assim, a derivada
+dessa coisa toda
+
+04:35.430 --> 04:37.940
+com relação a seu
+algo será 1/2 vezes
+
+04:37.940 --> 04:40.090
+aquele algo elevado a menos 1/2.
+
+04:40.090 --> 04:42.150
+Isto é essencialmente
+o que estamos dizendo.
+
+04:42.150 --> 04:44.400
+Agora temos que tomar a
+derivada de nosso algo
+
+04:44.400 --> 04:45.840
+em relação a x.
+
+04:48.370 --> 04:50.090
+E isto é mais direto.
+
+04:50.090 --> 04:53.160
+g linha de x-- nós só usamos
+a regra de potência para cada
+
+04:53.160 --> 04:55.390
+um destes termos-- é
+igual a 6x elevado a um,
+
+04:55.390 --> 04:57.910
+ou apenas 6x menos 1.
+
+04:57.910 --> 05:03.530
+Então, esta parte bem
+aqui será 6x menos 1.
+
+05:03.530 --> 05:06.460
+Só para deixar claro,
+isto bem aqui
+
+05:06.460 --> 05:09.400
+é isto aqui e nós
+estamos multiplicando.
+
+05:09.400 --> 05:10.490
+E terminamos.
+
+05:10.490 --> 05:12.330
+Aplicamos a regra da potência.
+
+05:12.330 --> 05:14.270
+Então, só para
+rever, é a derivada
+
+05:14.270 --> 05:16.730
+da função externa
+com relação a interna.
+
+05:16.730 --> 05:19.520
+Então, ao invés de ter 1/2x
+elevado a menos 1/2,
+
+05:19.520 --> 05:22.430
+será 1/2 g de x elevado a menos 1/2,
+
+05:22.430 --> 05:24.760
+vezes a derivada da função
+interna com relação
+
+05:24.760 --> 05:27.100
+a x, vezes a derivada
+de g com relação
+
+05:27.100 --> 05:30.128
+a x, que está bem ali.
+
+05:30.146 --> 05:30.685
+Legendado por [Raul Guimaraes]
+Revisado por [Sérgio Fleury]

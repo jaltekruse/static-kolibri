@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.561 --> 00:01.701
+Ce que je veux faire dans cette vidéo,
+
+00:01.701 --> 00:03.537
+est de vous donner un "package" de définitions sur les limites
+
+00:03.537 --> 00:05.444
+et nous n'allons pas les prouver rigoureusement ici.
+
+00:05.444 --> 00:07.102
+Tout d'abord pour avoir une preuve rigoureuse de ces propriétés
+
+00:07.102 --> 00:09.409
+nous avons besoin d'une définition rigoureuse de ce qu'est une limite
+
+00:09.409 --> 00:11.035
+et nous ne ferons pas ça dans ce tutorial
+
+00:11.035 --> 00:14.634
+Nous ferons ça dans le tutorial sur les définitions de limites "epsilon -delta"
+
+00:14.634 --> 00:17.085
+mais la plupart d'entre elles devrait être assez intuitive
+
+00:17.085 --> 00:19.680
+et elles sont réellement utiles pour simplifier des problèmes de limite
+
+00:19.680 --> 00:20.934
+dans le futur.
+
+00:20.934 --> 00:24.144
+Donc, disons que nous savons que la limite d'une fonction
+
+00:24.144 --> 00:28.824
+f(x) pour x qui tend vers c est égal à L
+
+00:28.824 --> 00:32.533
+et disons que nous savons aussi que la limite d'une
+
+00:32.533 --> 00:36.279
+autre fonction, par exemple g(x) pour x tendant vers c
+
+00:36.279 --> 00:38.976
+est égal à M
+
+00:38.976 --> 00:42.403
+Maintenant, en sachant ça, quelle serait la limite
+
+00:42.403 --> 00:49.034
+de g(x) + f(x) pour x qui tend vers c ?
+
+00:49.710 --> 00:51.621
+Et vous pourriez le représenter graphiquement
+
+00:51.621 --> 00:53.812
+si vous regardez les graphes de 2 fonctions aléatoires
+
+00:53.812 --> 00:55.334
+vous ajoutes essentiellement ces 2 fonctions.
+
+00:55.334 --> 00:57.993
+Il serait alors plutôt clair que ça soit égal à
+
+00:57.993 --> 00:59.498
+etc. je ne suis pas en train de faire une preuve rigoureuse
+
+00:59.498 --> 01:01.796
+Je suis juste en train de vous donner les propriétés ici
+
+01:01.796 --> 01:06.386
+ça sera donc la limite de f(xà pour x qui tend vers c
+
+01:06.386 --> 01:11.537
+plus la limite de g(x) pour x qui tend vers c
+
+01:11.537 --> 01:15.098
+ce qui est égal à - bon c'est juste là..-
+
+01:15.098 --> 01:16.799
+(on va faire ça de la même couleur)
+
+01:17.830 --> 01:21.321
+c'est juste ici égal à L : ça sera alors égal
+
+01:21.321 --> 01:27.794
+à L + M - ceci est égal à M
+
+01:27.794 --> 01:28.962
+Pas si difficle
+
+01:28.962 --> 01:32.029
+C'est souvent appellé la règle de la somme.
+
+01:32.029 --> 01:35.160
+ou la propriété de la somme des limites
+
+01:35.160 --> 01:36.886
+et nous pourrions en conclure avec une similaire
+
+01:36.886 --> 01:44.094
+avec une différence : la limite pour x qui tend vers c de f(x) moins g(x)
+
+01:44.094 --> 01:47.226
+sera juste L moins M
+
+01:47.226 --> 01:49.399
+C'est juste la limite de f(x) pour x qui tend vers c
+
+01:49.399 --> 01:52.393
+moins la limite de g(x) pour x qui tend vers c
+
+01:52.393 --> 01:55.697
+Donc ça sera juste L moins ...
+
+01:55.697 --> 01:58.693
+L moins M
+
+01:58.693 --> 02:00.495
+c'est souvent appellé la règle de différence
+
+02:00.495 --> 02:02.634
+ou la propriété de la différence des limites
+
+02:02.634 --> 02:04.427
+et celles ci encore une fois, sont vraiment vraiment (j'espère)
+
+02:04.427 --> 02:06.560
+assez intuitive
+
+02:06.560 --> 02:08.822
+Maintenant, que çe passe-t-il si vous prenez le produit des fonctions ?
+
+02:08.822 --> 02:17.027
+la limite de f(x) fois g(x) pour x qui tend vers c
+
+02:17.027 --> 02:19.005
+Bon, nous sommes chanceux, ça sera égal à
+
+02:19.005 --> 02:28.360
+la limite de f(x) pour x qui tend vers c fois la limite de g(x) pour x qui tend vers c
+
+02:28.360 --> 02:31.760
+Toujours chanceux, c'est en quelque sorte une propriété des limites assez intuitive
+
+02:31.760 --> 02:34.191
+Donc dans ce cas, ça sera juste égal à -
+
+02:34.191 --> 02:38.764
+- ça c'est L fois M
+
+02:38.764 --> 02:40.493
+L fois ...
+
+02:40.493 --> 02:44.203
+... ça sera donc égal à L fois M
+
+02:44.203 --> 02:47.205
+Même chose, si au lieu d'avoir une fonction, nous avions une constante
+
+02:47.635 --> 02:50.226
+alors si nous avions seulement la limite
+
+02:50.226 --> 02:51.760
+(Je ferais ça de la même couleur)
+
+02:51.760 --> 02:58.564
+la limite de k fois f(x) pour x qui tend vers c
+
+02:58.564 --> 02:59.901
+ou k est une constante aléatoire.
+
+02:59.901 --> 03:03.230
+Ca sera donc la même chose que k fois la limite
+
+03:03.230 --> 03:08.653
+de f(x) pour x qui tend vers c et c'est juste égal à
+
+03:08.653 --> 03:11.738
+... c'est juste égal à L ...
+
+03:11.738 --> 03:13.828
+C'est égal à L, donc tout ceci
+
+03:13.828 --> 03:17.501
+se simplifie à k fois...
+
+03:17.501 --> 03:20.029
+... k fois L
+
+03:20.029 --> 03:22.433
+Et nous pouvons faire la même chose avec les differences
+
+03:22.433 --> 03:25.255
+c'est souvent appelé la Propriété des constantes multiple
+
+03:25.255 --> 03:27.925
+Nous pouvons faire la même choses avec les différences
+
+03:27.925 --> 03:31.512
+Donc si nous

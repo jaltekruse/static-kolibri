@@ -1,0 +1,472 @@
+WEBVTT
+
+00:01.060 --> 00:02.660
+Hàm số f được xác định
+
+00:02.660 --> 00:04.290
+với mọi số thực
+
+00:04.290 --> 00:07.100
+và bảng sau cho chúng ta biết
+
+00:07.100 --> 00:08.122
+các giá trị của f
+
+00:08.122 --> 00:11.640
+Vậy là với mỗi giá trị của x thì chúng ta sẽ được giá trị f(x) tương ứng
+
+00:11.640 --> 00:15.400
+Vậy thì chúng ta có thể ước lượng giới hạn của f(x)
+
+00:15.400 --> 00:20.060
+khi x tiến về 1 từ bên trái không?
+
+00:20.060 --> 00:21.440
+Và các bạn hãy thử
+
+00:21.440 --> 00:23.930
+dừng lại video này và hãy thử tính xem
+
+00:23.930 --> 00:25.900
+Okay, chúng ta sẽ cùng làm chung nhé
+
+00:25.900 --> 00:29.020
+Vậy thì điều quan trọng đầu tiên mà các bạn cần biết đó là
+
+00:29.020 --> 00:30.810
+khi bạn thấy x tiến về 1
+
+00:30.810 --> 00:33.560
+và ở đây bạn sẽ thấy có một dấu trừ
+
+00:33.560 --> 00:36.320
+thì nó không có nghĩa là x đang tiến về âm 1
+
+00:36.320 --> 00:38.810
+Nên là kí hiệu này không phải là âm 1
+
+00:38.810 --> 00:40.410
+Bởi vì đôi lúc bạn sẽ chỉ thấy số 1
+
+00:40.410 --> 00:41.740
+và dấu âm ở đây
+
+00:41.740 --> 00:43.410
+Và nó có thể khá lạ
+
+00:43.410 --> 00:45.610
+đối với bạn.
+
+00:45.610 --> 00:46.810
+Nhưng tóm lại thì nó
+
+00:46.810 --> 00:48.860
+không có nghĩa là x đang tiến về âm 1
+
+00:48.860 --> 00:50.510
+mà đúng hơn là-- nó sẽ bằng với lại
+
+00:50.510 --> 00:54.700
+giới hạn của f(x)
+
+00:54.700 --> 00:59.700
+khi x tiến về 1 từ bên trái
+
+00:59.810 --> 01:02.420
+từ bên trái
+
+01:02.420 --> 01:05.270
+Và làm sao chúng ta biết được điều này?
+
+01:05.270 --> 01:07.580
+Đó chính là nhờ dấu âm này đây
+
+01:07.580 --> 01:09.510
+bởi vì nó cho chúng ta biết x đang
+
+01:09.510 --> 01:12.060
+tiến về 1 từ các giá trị x nhỏ hơn 1
+
+01:12.060 --> 01:14.330
+Vậy thì nếu x tiến về 1 từ bên phải, hay là
+
+01:14.330 --> 01:16.080
+x tiến về 1 từ các giá trị x lớn hơn 1
+
+01:16.080 --> 01:19.930
+thì dấu âm ở đây sẽ trở thành dấu dương
+
+01:19.930 --> 01:21.270
+Bây giờ chúng ta cần tính
+
+01:21.270 --> 01:24.950
+giới hạn của f(x) khi x tiến về 1 từ bên trái
+
+01:24.950 --> 01:26.700
+Và may mắn cho chúng ta là ở đây mình
+
+01:26.700 --> 01:30.540
+đang có một vài giá trị của x tiến về 1 từ bên trái
+
+01:30.540 --> 01:33.790
+Từ x bằng 0.9, tức là khá gần với 1
+
+01:33.790 --> 01:35.750
+và x sẽ tiếp tục tiến gần 1 từ bên trái hơn
+
+01:35.750 --> 01:37.210
+Và các giá trị này đều nhỏ hơn 1
+
+01:37.210 --> 01:40.000
+chỉ là chúng đang ngày càng gần với 1
+
+01:40.000 --> 01:41.990
+Vậy thì bây giờ chúng ta sẽ xét
+
+01:41.990 --> 01:44.356
+f(x) như thế nào khi x
+
+01:44.356 --> 01:49.356
+tiến về 1
+
+01:50.170 --> 01:53.020
+từ bên trái
+
+01:53.020 --> 01:56.124
+Và mấu chốt của vấn đề ở đây là,
+
+01:56.124 --> 01:58.560
+chỉ khi chúng ta nghĩ về giới hạn theo cách chung nhất
+
+01:58.560 --> 02:00.150
+tức là x không phải tiến về từ 1 bên
+
+02:00.150 --> 02:01.090
+thì chúng ta sẽ
+
+02:01.090 --> 02:03.300
+phải xét giới hạn ở cả 2 bên
+
+02:03.300 --> 02:05.330
+Nhưng ở đây thì chúng ta chỉ cần xét một bên
+
+02:05.330 --> 02:07.550
+nên chúng ta sẽ chỉ cần xét các giá trị
+
+02:07.550 --> 02:08.500
+ở ngay đây
+
+02:08.500 --> 02:11.020
+Và thật ra thì chúng ta cũng không nên xét f(x)
+
+02:11.020 --> 02:12.830
+tại x bằng 1, tại nó có thể làm mình rối
+
+02:12.830 --> 02:14.520
+bởi vì thường thì
+
+02:14.520 --> 02:17.340
+giới hạn của chúng ta sẽ là một số
+
+02:17.340 --> 02:21.780
+khác với giá trị của hàm số tại điểm đó
+
+02:21.780 --> 02:23.000
+Và bạn hãy nhìn ở đây
+
+02:23.000 --> 02:25.822
+Tại 0.9 thì f(x) sẽ bằng 2.5
+
+02:25.822 --> 02:28.570
+Và khi chúng ta cho x tiến về 1 từ bên trái gần hơn
+
+02:28.570 --> 02:30.132
+thì chúng ta sẽ được 2.1
+
+02:30.132 --> 02:32.800
+Còn nếu chúng ta tiếp tục cho x tiến về 1 gần hơn nữa
+
+02:32.800 --> 02:35.360
+thì f(x) sẽ ngày càng gần với 2
+
+02:35.360 --> 02:38.990
+Vậy thì giới hạn này chúng ta có thể
+
+02:38.990 --> 02:40.862
+ước lượng khi x tiến về 1 từ bên trái
+
+02:40.862 --> 02:44.940
+thì f(x) của chúng ta sẽ
+
+02:44.940 --> 02:47.060
+tiến về 2
+
+02:47.060 --> 02:48.200
+Nhưng mình cũng không thể
+
+02:48.200 --> 02:50.660
+chắc chắn đây chính xác là giới hạn
+
+02:50.660 --> 02:52.830
+đề chỉ yêu cầu chúng ta ước lượng giới hạn này
+
+02:52.830 --> 02:55.520
+bởi vì f(x) có thể tiến về 2.01, hay là 1.999
+
+02:55.520 --> 02:56.930
+đây sẽ thường là
+
+02:56.930 --> 02:58.010
+những câu hỏi trắc nghiệm
+
+02:58.010 --> 02:59.890
+Nên bạn sẽ phải chọn đáp án hợp lí nhất
+
+02:59.890 --> 03:03.230
+Và tất nhiên nó sẽ không công bằng nếu như đề cho bạn cả 2 đáp án
+
+03:03.230 --> 03:04.660
+1.999 và 2.01 cùng một lúc.
+
+03:04.660 --> 03:05.510
+Nhưng nếu bạn xem
+
+03:05.510 --> 03:07.540
+giới hạn này là một số nguyên
+
+03:07.540 --> 03:11.260
+thì số 2 có thể là một ước lượng hợp lí
+
+03:11.260 --> 03:12.450
+Mặc dù là nó không nhất thiết phải bằng 2
+
+03:12.450 --> 03:15.530
+Nó có thể bằng 2.012. Và chúng ta sẽ
+
+03:15.530 --> 03:19.550
+không thể biết chính xác được, nhưng ít nhất thì chúng ta có thể ước lượng nó
+
+03:19.550 --> 03:22.010
+Bây giờ mình sẽ làm một ví dụ khác
+
+03:22.010 --> 03:24.610
+và chúng ta sẽ cũng có thể ước lượng được
+
+03:24.610 --> 03:27.310
+khi hàm số tiến về một giá trị nào đó từ bên trái
+
+03:30.380 --> 03:32.120
+Bây giờ thì chúng ta có hàm số f(x)
+
+03:32.120 --> 03:34.210
+được xác định trên tập số thực
+
+03:34.210 --> 03:36.240
+và bảng này cho chúng ta một vài giá trị của f(x),
+
+03:36.240 --> 03:37.920
+tương tự như câu hỏi trước
+
+03:37.920 --> 03:40.050
+Vậy thì, chúng ta có thể ước lượng được
+
+03:40.050 --> 03:44.600
+giới hạn của f(x) khi x tiến về âm 2 từ bên trái không?
+
+03:44.600 --> 03:45.630
+Và ở đây sẽ hơi rối
+
+03:45.630 --> 03:47.300
+bởi vì mình có tới 2 dấu âm lận
+
+03:47.300 --> 03:48.690
+Dấu âm thứ nhất này cho mình
+
+03:48.690 --> 03:50.000
+biết là x đang tiến về âm 2
+
+03:50.000 --> 03:52.080
+Và chúng ta cũng sẽ tiến về âm 2
+
+03:52.080 --> 03:55.630
+từ phía âm, dựa trên dấu âm thứ 2 của chúng ta
+
+03:55.630 --> 03:57.870
+Và may mắn cho chúng ta là chúng ta đã có được
+
+03:57.870 --> 04:00.170
+một vài giá trị của x tiến về 2 từ bên trái
+
+04:00.170 --> 04:04.770
+vậy đây sẽ là x tiến về âm 2 từ bên trái
+
+04:04.770 --> 04:07.820
+Và nó đang diễn ra trên khoảng này
+
+04:07.820 --> 04:09.950
+tương ứng với 3 giá trị này
+
+04:09.950 --> 04:12.050
+Chúng ta bắt đầu tại âm 2.05
+
+04:12.050 --> 04:13.890
+gần hơn thì mình được -2.01
+
+04:13.890 --> 04:17.450
+gần hơn nữa thì là -2.002
+
+04:17.450 --> 04:18.670
+Và tất cả giá trị này đều
+
+04:18.670 --> 04:21.190
+nằm ở bên trái của âm 2
+
+04:21.190 --> 04:23.700
+chúng đang ngày càng tiến về âm 2
+
+04:23.700 --> 04:24.900
+Để xem nào
+
+04:24.900 --> 04:27.250
+Tại x bằng -2.05, thì f(x) sẽ bằng âm 20
+
+04:27.250 --> 04:28.890
+gần hơn nữa, thì mình được âm 100
+
+04:28.890 --> 04:32.040
+và gần hơn nữa, thì mình được âm 500
+
+04:32.040 --> 04:35.540
+Và mặc dù chúng ta không thể biết chính xác được giới hạn của nó,
+
+04:35.540 --> 04:37.480
+chúng ta vẫn có thể đưa ra một vài ước lượng
+
+04:37.480 --> 04:38.650
+cho hàm số này
+
+04:38.650 --> 04:40.273
+Và nếu hàm só của chúng ta
+
+04:40.273 --> 04:44.220
+cứ tiếp tục như thế này khi x càng tiến về âm 2
+
+04:44.220 --> 04:45.350
+mà không cho x bằng âm 2
+
+04:45.350 --> 04:47.380
+thì có vẻ như f(x) sẽ
+
+04:47.380 --> 04:50.020
+tiến về âm vô cực
+
+04:50.020 --> 04:53.370
+Và có vẻ như f(x) sẽ
+
+04:53.370 --> 04:55.033
+không bị chặn trên
+
+04:57.190 --> 04:59.108
+Và nếu đây là một câu hỏi trắc nghiệm
+
+04:59.108 --> 05:01.380
+thì bạn có thể nói là giới hạn của f(x)
+
+05:01.380 --> 05:05.193
+khi x tiến về âm 2 từ bên trái không tồn tại
+
+05:06.150 --> 05:09.590
+không tồn tại
+
+05:09.590 --> 05:11.020
+Và nếu ai đó hỏi bạn rằng,
+
+05:11.020 --> 05:12.570
+vậy thì giới hạn
+
+05:13.490 --> 05:16.190
+khi x tiến về âm 2
+
+05:16.190 --> 05:19.093
+từ bên phải của f(x) là bao nhiêu?
+
+05:20.000 --> 05:21.880
+Thì bạn có thể trả lời rằng
+
+05:21.880 --> 05:24.940
+À, đây là các giá trị của x đang tiến về âm 2
+
+05:24.940 --> 05:26.250
+từ bên phải
+
+05:26.250 --> 05:30.340
+Vậy là x đang tiến về âm 2 từ bên phải
+
+05:30.340 --> 05:31.390
+ở đây
+
+05:31.390 --> 05:33.450
+Và nếu bạn đang tìm giới hạn, thì
+
+05:33.450 --> 05:34.880
+tốt nhất là bạn không nhìn vào
+
+05:34.880 --> 05:37.810
+giá trị của hàm số tại chính điểm đó, ở đây là f(-2)
+
+05:37.810 --> 05:39.100
+thay vào đó thì chúng ta nên
+
+05:39.100 --> 05:40.370
+xem f(x) đang
+
+05:40.370 --> 05:43.380
+tiến về giá trị nào khi x tiến về giá trị đó
+
+05:43.380 --> 05:45.330
+Trong trường hợp này thì x sẽ tiến về
+
+05:45.330 --> 05:46.430
+âm 2 từ bên phải
+
+05:46.430 --> 05:47.820
+Vậy là khi x ngày càng
+
+05:47.820 --> 05:51.510
+gần với âm 2 từ các giá trị x lớn hơn âm 2
+
+05:51.510 --> 05:53.590
+thì f(x) của chúng ta có vẻ nhưng đang tiến về
+
+05:53.590 --> 05:54.700
+âm 4
+
+05:54.700 --> 05:56.740
+tức là f(-4)
+
+05:56.740 --> 05:59.110
+Và có thể đây là một ước lượng hợp lí
+
+05:59.110 --> 06:01.550
+Tất nhiên là chúng ta không thể chắc chắn
+
+06:01.550 --> 06:03.290
+đây là giới hạn bằng cách khảo sát
+
+06:03.290 --> 06:07.280
+một vài điểm, nhưng ước lượng này có vẻ khá hợp lí
+
+06:07.280 --> 06:10.470
+Và nhìn chung thì, nếu f(x) của bạn đang tiến về
+
+06:10.470 --> 06:12.910
+2 giá trị khác nhau từ bên trái và bên phải
+
+06:12.910 --> 06:14.610
+thì bạn có thể nói là
+
+06:14.610 --> 06:17.010
+giới hạn của chúng ta khi x tiến về giá trị đó
+
+06:17.010 --> 06:18.910
+sẽ không tồn tại

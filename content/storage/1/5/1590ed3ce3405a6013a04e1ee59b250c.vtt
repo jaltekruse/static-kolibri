@@ -1,0 +1,199 @@
+WEBVTT
+
+00:00.000 --> 00:01.591
+Tại giá trị dương nào của p
+
+00:01.591 --> 00:03.049
+thì chuỗi này hội tụ?
+
+00:03.049 --> 00:04.082
+Để mình xem.
+
+00:04.082 --> 00:05.311
+Mình có sigma
+
+00:05.311 --> 00:08.347
+từ n=1 tới vô cực của trừ 1 mũ (n+1)
+
+00:08.347 --> 00:10.644
+nhân với p trên 6, tất cả mũ n.
+
+00:10.644 --> 00:13.489
+Có một số thứ mình cần lưu ý.
+
+00:13.489 --> 00:16.305
+Đây là trừ 1 mũ (n+1),
+
+00:16.305 --> 00:18.771
+vậy khi n đi từ 1 lên 2 hay 3,
+
+00:18.771 --> 00:21.066
+cái này sẽ thay đổi giữa số âm, dương,
+
+00:21.066 --> 00:23.142
+rồi lại âm và dương.
+
+00:23.142 --> 00:25.499
+Vậy mình đã có dấu hiệu đan dấu.
+
+00:25.499 --> 00:27.417
+Vậy mình cũng có hướng giải của bài này
+
+00:27.417 --> 00:28.759
+thật ra để mình viết ra.
+
+00:28.759 --> 00:30.834
+Cái này sẽ bằng, bạn thấy khi n=1,
+
+00:30.834 --> 00:32.618
+cái này sẽ thành mũ hai,
+
+00:32.618 --> 00:34.819
+cái này sẽ là dương 1.
+
+00:34.819 --> 00:37.867
+Vậy nó sẽ là p trên 6, và khi n=2,
+
+00:37.867 --> 00:39.450
+nó sẽ là mũ 3,
+
+00:39.450 --> 00:42.950
+vậy nó sẽ thành trừ p trên 6, tất cả bình,
+
+00:45.266 --> 00:49.200
+rồi cộng cho p trên 6, tất cả mũ 3.
+
+00:49.200 --> 00:51.816
+Thậm chí mình có thể viết mũ 1 ở ngay đây.
+
+00:51.816 --> 00:55.566
+Sau đó trừ p trên 6, tất cả mũ 4,
+
+00:55.566 --> 00:57.365
+và mình sẽ cứ để nó dấu cộng, trừ,
+
+00:57.365 --> 01:00.387
+và tiếp tục như vậy hoài.
+
+01:00.387 --> 01:03.857
+Cái này chắc chắn là chuỗi đan dấu ở đây,
+
+01:03.857 --> 01:05.623
+thật ra mình có thể làm như này,
+
+01:05.623 --> 01:08.187
+mình sẽ dùng phép thử chuỗi đan dấu.
+
+01:08.187 --> 01:10.454
+Và phép thử chuỗi đan dấu cho mình biết
+
+01:10.454 --> 01:13.273
+phần này của biểu thức,
+
+01:13.273 --> 01:16.438
+phần này không đổi dấu,
+
+01:16.438 --> 01:18.189
+mình có thể nói là,
+
+01:18.189 --> 01:21.462
+nếu phần này của biểu thức
+
+01:21.462 --> 01:26.854
+chỉ đang giảm một cách "đơn điệu",
+
+01:26.854 --> 01:28.753
+ý mình là mỗi số hạng theo sau
+
+01:28.753 --> 01:32.195
+đều nhỏ hơn số hạng trước nó,
+
+01:32.195 --> 01:34.678
+và mình cũng biết lim của cái này,
+
+01:34.678 --> 01:38.994
+khi n tiến tới vô cực, là nó sẽ bằng 0.
+
+01:38.994 --> 01:41.961
+Vậy lim khi n tiến tới vô cực của
+
+01:41.961 --> 01:47.978
+p trên 6, tất cả mũ thứ n sẽ cũng bằng 0.
+
+01:48.560 --> 01:51.779
+Vậy ở điều kiện nào thì điều này sẽ đúng?
+
+01:51.779 --> 01:54.011
+Để thoả mãn một trong hai điều kiện này,
+
+01:54.011 --> 01:57.294
+p trên 6 phải nhỏ hơn 1.
+
+01:57.294 --> 01:59.977
+Nếu p trên 6 bằng 1,
+
+01:59.977 --> 02:02.266
+ví dụ như p = 6,
+
+02:02.266 --> 02:04.010
+thì mình sẽ không còn số giảm.
+
+02:04.010 --> 02:06.360
+Mỗi số hạng ở đây sẽ chỉ bằng 1.
+
+02:06.360 --> 02:09.442
+Nó sẽ chỉ là 1 bình và cứ tiếp tục vậy.
+
+02:09.442 --> 02:12.826
+Và nếu p lớn hơn 6, vậy thì mỗi lần
+
+02:12.826 --> 02:14.643
+mình nhân p trên 6 lần nữa,
+
+02:14.643 --> 02:16.710
+mình sẽ có số lớn hơn và lớn hơn,
+
+02:16.710 --> 02:19.309
+là chắc chắn lim ở đây sẽ khác 0.
+
+02:19.309 --> 02:23.513
+Mình có thể nói p trên 6 cần nhỏ hơn 1,
+
+02:23.513 --> 02:25.650
+vậy nhân cả hai vế cho 6
+
+02:25.650 --> 02:28.509
+và bạn sẽ có p cần nhỏ hơn 6.
+
+02:28.509 --> 02:32.868
+Đề bài hỏi các giá trị dương của p,
+
+02:32.868 --> 02:35.685
+và mình cũng biết là p phải lớn hơn 0.
+
+02:35.685 --> 02:38.535
+p lớn hơn 0 và nhỏ hơn 6.
+
+02:38.535 --> 02:41.435
+Vậy mình sẽ chọn đáp án này.
+
+02:41.435 --> 02:43.685
+Mình không thể cho p nhỏ hơn hoặc bằng 6,
+
+02:43.685 --> 02:45.218
+vì nếu p bằng 6, thì số hạng này
+
+02:45.218 --> 02:47.902
+sẽ chỉ bằng 1 mũ n,
+
+02:47.902 --> 02:49.668
+vậy mình sẽ chỉ còn ở đây bằng 1.
+
+02:49.668 --> 02:51.535
+Nó sẽ là 1, trừ 1, cộng 1,
+
+02:51.535 --> 02:53.086
+và cứ tiếp tục như thế.
+
+02:53.086 --> 02:55.864
+Vậy đây chắc chắn là lựa chọn đúng rồi.

@@ -1,0 +1,409 @@
+WEBVTT
+
+00:00.628 --> 00:02.404
+Vậy chúng ta được biết là f tại x
+
+00:02.404 --> 00:07.063
+bằng với x / (1 - cos(x - 2)),
+
+00:07.063 --> 00:09.195
+và chúng ta được yêu cầu chọn ra sự mô tả chính xác
+
+00:09.195 --> 00:13.312
+của giới hạn một bên của f tại x = 2.
+
+00:13.312 --> 00:15.498
+Và chúng ta thấy là ngay tại x = 2,
+
+00:15.498 --> 00:18.623
+nếu chúng ta thử đánh giá f tại 2,
+
+00:18.623 --> 00:22.018
+chúng ta sẽ có được
+
+00:22.018 --> 00:23.435
+2/ (1 - cos(2 - 2)),
+
+00:24.383 --> 00:28.478
+là bằng với cos(0),
+
+00:28.478 --> 00:31.601
+và cos(0) là 1,
+
+00:31.601 --> 00:34.018
+và 1 - 1 bằng 0,
+
+00:34.910 --> 00:38.833
+vậy là hàm số không xác định tại x = 2,
+
+00:38.833 --> 00:41.364
+và cũng chính vì thế nó sẽ rất thú vị để tìm giới hạn
+
+00:41.364 --> 00:44.177
+khi x tiến đến 2,
+
+00:44.177 --> 00:45.241
+và đặc biệt là giới hạn một bên.
+
+00:45.241 --> 00:46.666
+Chà, chúng ta sẽ để nó ở đó
+
+00:46.666 --> 00:48.568
+vậy hãy thử tiếp cận cái này xem.
+
+00:48.568 --> 00:50.872
+Vậy sẽ có 2 cách làm.
+
+00:50.872 --> 00:52.994
+Có 1 cách mà bạn không cần phải sử dụng máy tính
+
+00:52.994 --> 00:55.618
+bằng cách là xem xét là điều gì đang diễn ra ở đây,
+
+00:55.618 --> 00:58.098
+và suy nghĩ về tính chất của hàm cos,
+
+00:58.098 --> 01:00.526
+và nếu bạn thấy điều đó thú vị, hãy dừng video này lại và làm thử,
+
+01:00.526 --> 01:02.503
+và mình sẽ làm điều đó ở cuối video này nha,
+
+01:02.503 --> 01:06.356
+Và cách còn lại, là nếu bạn có máy tính
+
+01:06.356 --> 01:08.035
+thì bạn có thể giải quyết với bảng
+
+01:08.035 --> 01:09.824
+như chúng ta đã làm ở những vấn đề ví dụ trước đó.
+
+01:09.824 --> 01:13.235
+Vậy nếu chúng ta nghĩ về việc x tiến đến 2
+
+01:13.235 --> 01:16.954
+từ hướng dương, thì khi đó,
+
+01:16.954 --> 01:18.778
+chúng ta có thể lập 1 bảng nhỏ ở đây
+
+01:18.778 --> 01:22.587
+bạn sẽ có x, và tiếp đó là f tại x.
+
+01:22.587 --> 01:26.478
+Vậy khi tiến đến 2 từ giá trị lớn hơn 2,
+
+01:26.478 --> 01:28.061
+bạn có 2.1
+
+01:29.770 --> 01:30.603
+2.01
+
+01:32.312 --> 01:33.629
+Bây giờ, lý do mà mình nói là cần máy tính,
+
+01:33.629 --> 01:35.662
+vì chúng rất bé để ta đánh giá
+
+01:35.662 --> 01:38.245
+nó có thể là 2.1
+
+01:39.638 --> 01:41.555
+chia cho 1 - cos của
+
+01:42.428 --> 01:44.178
+2.1 - 2 là 0.1
+
+01:46.838 --> 01:50.083
+Mình không biết cos(0.1) là gì nếu không có máy tính.
+
+01:50.083 --> 01:53.083
+Mình biết là cos(0) là 1
+
+01:54.576 --> 01:58.318
+vậy thì cái này sẽ rất gần với 1, nhưng không chạm đến 1,
+
+01:58.318 --> 02:00.023
+và nó sẽ nhỏ hơn 1.
+
+02:00.023 --> 02:03.140
+Cos sẽ không bao giờ lớn hơn 1.
+
+02:03.140 --> 02:05.616
+Hàm cos bị giới hạn giữa âm 1
+
+02:05.616 --> 02:07.699
+sẽ nhỏ hơn cos(x).
+
+02:09.069 --> 02:11.516
+Mình sẽ chỉ viết x, và sau đó mình không cần dấu ngoặc đơn nữa.
+
+02:11.516 --> 02:13.766
+Cái này sẽ nhỏ hơn 1.
+
+02:13.766 --> 02:17.760
+Hàm cos sẽ dao động giữa 2 giá trị này
+
+02:17.760 --> 02:20.880
+vậy cái này sẽ tiến đến 1
+
+02:20.880 --> 02:22.467
+nhưng nó sẽ nhỏ hơn 1.
+
+02:22.467 --> 02:25.081
+Nó không thể nào hơn hơn 1,
+
+02:25.081 --> 02:25.957
+và đó thực sự là một gợi ý tốt
+
+02:25.957 --> 02:28.154
+cho cách bạn khám phá về cấu trúc ở đây,
+
+02:28.154 --> 02:30.525
+và sau đó bạn có thể nói là, "Được rồi, 2.01"
+
+02:30.525 --> 02:32.373
+"Chà, nó sẽ là 2.01
+
+02:32.373 --> 02:33.623
+chia 1 trừ cho
+
+02:34.629 --> 02:36.046
+cos(0.01)"
+
+02:39.874 --> 02:42.969
+Và cái này sẽ tiến gần hơn đến 1
+
+02:42.969 --> 02:47.314
+nhưng sẽ không trở thành 1, và luôn nhỏ hơn 1.
+
+02:47.314 --> 02:48.873
+Không cần biết ở tình huống nào, cos của cái gì đó
+
+02:48.873 --> 02:52.034
+sẽ luôn nằm giữa âm 1 và 1,
+
+02:52.034 --> 02:54.237
+và nó có thể bao gồm cả những cái này nữa
+
+02:54.237 --> 02:56.817
+nhưng vì chúng ta đang tiến đến 2,
+
+02:56.817 --> 03:00.439
+cái này thì đang tiến đến 1,
+
+03:00.439 --> 03:03.208
+mình đoán là bạn có thể nói nó tiến đến 1 từ bên dưới.
+
+03:03.208 --> 03:05.119
+Vậy bạn có thể bắt đầu sử dụng trực giác ở đây.
+
+03:05.119 --> 03:09.005
+Nếu nó tiến đến từ bên dưới, thì cái này
+
+03:09.005 --> 03:12.642
+nguyên cái biểu thức này sẽ dương,
+
+03:12.642 --> 03:15.346
+và khi chúng ta tiến đến x = 2.
+
+03:15.346 --> 03:16.555
+Chà, tử số là số dương.
+
+03:16.555 --> 03:17.611
+Nó đang tiến đến 2.
+
+03:17.611 --> 03:20.539
+Mẫu số là số dương luôn, vậy cả cái biểu thức này
+
+03:20.539 --> 03:23.049
+phải tiến đến một giá trị dương
+
+03:23.049 --> 03:24.387
+hoặc nó không bị giới hạn
+
+03:24.387 --> 03:26.008
+ở bên hướng dương, và như ta thấy
+
+03:26.008 --> 03:29.008
+nó không bị giới hạn bởi vì
+
+03:30.138 --> 03:32.379
+cái này nó thậm chí còn gần 1 hơn là cái này,
+
+03:32.379 --> 03:34.301
+và bạn có thể thấy điều đó nếu bạn có máy tính
+
+03:34.301 --> 03:36.715
+nhưng tất nhiên là, cái này không bị giới hạn
+
+03:36.715 --> 03:39.554
+ở bên hướng dương, vậy chúng ta
+
+03:39.554 --> 03:43.426
+sẽ tiến đến dương vô cực, và 2 đáp án này nói lên điều đó,
+
+03:43.426 --> 03:47.531
+và chúng ta có thể làm tương tự với khi ta tiến đến x
+
+03:47.531 --> 03:50.305
+từ hướng âm hoặc từ bên dưới,
+
+03:50.305 --> 03:53.126
+khi ta tiến đến 2 từ bên dưới
+
+03:53.126 --> 03:56.194
+Vậy đây là x, và đây là f tại x,
+
+03:56.194 --> 03:58.354
+và một lần nữa, mình không có máy tính ở đây.
+
+03:58.354 --> 04:00.338
+Bạn có thể đánh giá những cái này bằng máy tính,
+
+04:00.338 --> 04:02.287
+và hiểu rõ hơn là chúng là số dương,
+
+04:02.287 --> 04:03.624
+và khi chúng ta tiến gần hơn
+
+04:03.624 --> 04:06.632
+chúng sẽ trở thành những giá trị dương lớn hơn,
+
+04:06.632 --> 04:10.549
+và điều tương tự sẽ xảy ra nếu bạn thử với 1.9,
+
+04:12.986 --> 04:14.569
+và nếu thử với 1.99
+
+04:16.020 --> 04:20.103
+tại vì ở đây, bạn có 1.9 / (1 - cos(-0.1))
+
+04:21.179 --> 04:23.500
+Vì ở đây có là 1.9 - 2
+
+04:23.500 --> 04:26.000
+vậy nó bằng âm 0.1
+
+04:27.610 --> 04:29.215
+Để mình kéo nó qua một tí.
+
+04:29.215 --> 04:32.018
+Cái thứ 2 là
+
+04:32.018 --> 04:33.768
+1.99 /
+
+04:34.680 --> 04:36.097
+(1 - cos(-0.01))
+
+04:39.559 --> 04:42.043
+Và cos(-0.1)
+
+04:42.043 --> 04:44.088
+giống với cos(0.1)
+
+04:44.088 --> 04:46.005
+Cos(-0.01)
+
+04:48.072 --> 04:51.111
+cũng bằng với cos(0.01)
+
+04:51.111 --> 04:54.385
+Vậy cái này sẽ bằng với cái kia.
+
+04:54.385 --> 04:56.269
+Và cái này cũng sẽ bằng với cái kia.
+
+04:56.269 --> 04:59.102
+Và một lần nữa, chúng ta đang tiến đến dương vô cực
+
+04:59.102 --> 05:01.227
+vậy đáp án duy nhất mà tất cả điều trên đều đúng là
+
+05:01.227 --> 05:03.517
+đáp án đầu tiên này nè.
+
+05:03.517 --> 05:05.547
+Dù chúng ta có tiến đến 2 từ bên phải
+
+05:05.547 --> 05:08.510
+hoặc từ bên trái, chúng ta đều tiến đến dương vô cực
+
+05:08.510 --> 05:10.132
+nhưng kết luận theo cách khác là
+
+05:10.132 --> 05:11.902
+"Được rồi, khi chúng ta tiến đến 2,
+
+05:11.902 --> 05:13.800
+tử số sẽ dương
+
+05:13.800 --> 05:17.429
+vì 2 là số dương, và sau đó ở chỗ này,
+
+05:17.429 --> 05:18.612
+khi ta tiến đến 2
+
+05:18.612 --> 05:21.843
+cos của bất kì cái gì cũng không thể lớn hơn 1.
+
+05:21.843 --> 05:24.617
+Nó sẽ tiến đến 1 nhưng luôn nhỏ hơn 1
+
+05:24.617 --> 05:28.534
+vậy nếu cái này nhỏ hơn khi x tiến đến 2.
+
+05:29.675 --> 05:32.410
+Nó sẽ là 1 khi x = 2.
+
+05:32.410 --> 05:34.173
+Chà, thì cái ngay đây nè,
+
+05:34.173 --> 05:37.633
+1 trừ cái gì đó nhỏ hơn 1 thì sẽ là số dương
+
+05:37.633 --> 05:39.351
+vậy ta có số dương chia số dương
+
+05:39.351 --> 05:41.857
+vậy đương nhiên, ta sẽ có được giá trị dương
+
+05:41.857 --> 05:43.305
+khi tiến đến 2.
+
+05:43.305 --> 05:45.870
+Và như ta biết, đề đã nói với ta là
+
+05:45.870 --> 05:48.477
+những cái này sẽ không bị giới hạn về sự lựa chọn
+
+05:48.477 --> 05:50.481
+nên bạn có thể chọn cái này
+
+05:50.481 --> 05:51.943
+nhưng vẫn cảm thẩy ổn về nó,
+
+05:51.943 --> 05:55.068
+nếu ta càng tiến gần hơn với 2,
+
+05:55.068 --> 05:59.235
+thì giá trị ở chỗ này sẽ tiến gần hơn đến 0.
+
+06:00.618 --> 06:02.335
+Và giá trị ở đây càng tiến gần hơn đến 0 thì
+
+06:02.335 --> 06:03.842
+chúng ta sẽ tiến gần hơn đến 1.
+
+06:03.842 --> 06:07.883
+Nếu ta càng tiến gần hơn với 1, thì mẫu số sẽ càng nhỏ.
+
+06:07.883 --> 06:10.077
+Và khi đó nó sẽ chia cho mẫu số càng ngày càng nhỏ,
+
+06:10.077 --> 06:12.908
+và nó sẽ không bị giới hạn khi tiến đến vô cực,
+
+06:12.908 --> 06:15.857
+và đó là điều mà chúng ta thấy ở đáp án đầu tiên.

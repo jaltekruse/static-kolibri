@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.660 --> 00:04.300
+Řekněme, že potřebujeme vypočítat limitu,
+
+00:04.300 --> 00:24.030
+kdy ‚x‘ jde k 0 ze 2 krát sin(x) minus
+sin(2 krát x) celé děleno x minus sin(x).
+
+00:24.030 --> 00:27.580
+První věc, kterou vždy zkouším,
+když vidím nějakou limitu,
+
+00:27.580 --> 00:33.870
+je zjistit, co vyjde po dosazení
+0 za ‚x‘ do dané funkce.
+
+00:33.870 --> 00:37.130
+Možná se nestane nic bláznivého,
+ale pojďme to zkusit.
+
+00:37.130 --> 00:40.340
+Pokud za ‚x‘ dosadíme 0,
+co se stane?
+
+00:40.340 --> 00:46.190
+Dostaneme 2 sinus z 0, což je 0,
+minus sin(2 krát 0)
+
+00:46.190 --> 00:49.960
+což je sin(0),
+a to je také rovno 0.
+
+00:49.960 --> 00:53.510
+Náš čitatel bude roven 0.
+
+00:53.510 --> 00:54.750
+Sinus 0 je 0.
+
+00:54.750 --> 00:58.320
+Tady máme další sinus 0,
+což je další 0, všechny jsou nuly.
+
+00:58.340 --> 01:05.180
+Ve jmenovateli máme
+0 minus sin(0), což je také 0.
+
+01:05.200 --> 01:11.970
+Máme tu proto neurčitý výraz, nedefinované
+0 děleno 0, o kterém jsem mluvili dříve.
+
+01:12.000 --> 01:15.720
+Možná můžeme použít
+l'Hospitalovo pravidlo.
+
+01:15.720 --> 01:17.867
+Abychom mohli
+použít l'Hospitalovo pravidlo,
+
+01:17.867 --> 01:24.860
+musí limita ‚x‘ jdoucí k 0 derivace funkce
+děleno derivací této funkce existovat.
+
+01:24.880 --> 01:28.730
+Použijme l'Hospitalovo pravidlo,
+vezměme derivace obou funkcí,
+
+01:28.730 --> 01:30.450
+uvidíme,
+zda umíme vypočítat limitu.
+
+01:30.450 --> 01:32.970
+Pokud ano, našli jsme
+zároveň původní limitu.
+
+01:32.970 --> 01:36.650
+Za předpokladu,
+že limita existuje,
+
+01:36.650 --> 01:46.610
+bude rovna limitě ‚x‘ jdoucí k 0 derivaci
+čitatele lomeno derivace jmenovatele.
+
+01:46.610 --> 01:48.380
+Čemu se rovná derivace čitatele?
+
+01:48.380 --> 01:51.025
+Použiji novou barvu, třeba zelenou.
+
+01:51.050 --> 01:57.970
+Derivace 2 krát sin(x) je 2 krát cos(x)
+
+01:57.970 --> 02:04.140
+a derivace sin(2 krát x) je
+2 krát cos(2 krát x)
+
+02:04.150 --> 02:07.390
+takže minus 2 krát cos(2 krát x).
+
+02:07.390 --> 02:10.840
+Použili jsme derivaci složené funkce,
+derivace vnitřní funkce je rovna 2.
+
+02:10.840 --> 02:12.130
+To je ta 2 před kosinem.
+
+02:12.130 --> 02:16.795
+Derivace vnější funkce je
+cos(2 krát x) a máme tu ještě minus.
+
+02:16.795 --> 02:19.420
+Vypočítali jsme derivaci čitatele.
+
+02:19.420 --> 02:21.910
+Čemu je rovna derivace
+našeho jmenovatele?
+
+02:21.920 --> 02:26.720
+Derivace x je 1
+a derivace sin(x) je cos(x),
+
+02:26.720 --> 02:29.920
+takže 1 minus cos(x).
+
+02:29.920 --> 02:31.950
+Zkusme vypočítat tuto limitu.
+
+02:31.950 --> 02:33.150
+Co dostaneme?
+
+02:33.150 --> 02:39.580
+Pokud dosadíme 0 sem,
+dostaneme 2 krát cos(0), což je 2.
+
+02:39.610 --> 02:48.050
+2 krát cos(0) je 2 krát 1, což je 2,
+2 minus 2 krát cos(2 krát 0).
+
+02:48.050 --> 02:50.560
+Zapišme to takto.
+
+02:50.580 --> 02:54.250
+Pokud přímo vypočítáme limitu čitatele
+a jmenovatele, co dostaneme?
+
+02:54.270 --> 03:01.540
+Dostaneme 2 krát cos(0), což je 2,
+minus 2 krát cos(2 krát 0),
+
+03:01.540 --> 03:02.620
+2 krát 0 je pořád 0,
+
+03:02.620 --> 03:06.850
+a minus 2 krát cos(0) je 2.
+
+03:06.850 --> 03:15.620
+To vše děleno 1 minus cos(0), což je 1.
+
+03:15.620 --> 03:22.095
+Takže opět zde máme
+neurčitý výraz 0 děleno 0.
+
+03:22.100 --> 03:24.410
+Znamená to,
+že limita neexistuje?
+
+03:24.410 --> 03:28.760
+Ne, pořád může existovat, jen potřebujeme
+l'Hospitalovo pravidlo ještě jednou.
+
+03:28.760 --> 03:31.470
+Vypočítáme derivaci derivace
+našich funkcí a vydělíme je.
+
+03:31.490 --> 03:35.700
+Uděláme z toho limitu a možná nám
+tentokrát l'Hospitalovo pravidlo pomůže.
+
+03:35.710 --> 03:38.610
+Podívejme se, zda-li
+se někam dostaneme.
+
+03:38.610 --> 03:41.205
+Mělo by to být rovno limitě...
+
+03:41.205 --> 03:43.800
+Pokud zde l'Hospitalovo
+pravidlo pomůže.
+
+03:43.840 --> 03:46.050
+Nejsme si 100% jistí.
+
+03:46.050 --> 03:47.400
+Může to být rovno limitě:
+
+03:47.400 --> 03:53.690
+‚x' blížící se k 0 z derivace již jednou
+námi zderivovaných funkcí.
+
+03:53.690 --> 03:56.500
+Čemu je rovna
+derivace 2 krát cos(x)?
+
+03:56.500 --> 04:00.485
+Derivace cos x je −sin(x).
+
+04:00.485 --> 04:04.920
+Takže minus 2 krát sin(x),
+
+04:04.920 --> 04:11.320
+derivace cos(2 krát x) je
+−2 krát sin(2 krát x).
+
+04:11.320 --> 04:16.990
+Minus se nám vyruší s minusem
+u 2 a 2 krát 2 je 4.
+
+04:16.990 --> 04:21.980
+Řešení je tedy 4 sin(2 krát x).
+
+04:21.980 --> 04:24.040
+Zkontrolujme, že jsme
+to vypočítali správně.
+
+04:24.040 --> 04:26.640
+Máme minus 2 nebo −2 na začátku.
+
+04:26.640 --> 04:34.260
+Derivace cos(2 krát x) je 2 krát
+−sin(x), a zároveň 2 krát 2 je 4.
+
+04:34.270 --> 04:42.330
+−sin(2 krát x) krát minus
+je plus sin(2 krát x).
+
+04:42.370 --> 04:45.610
+Jde jen o procvičení derivací.
+
+04:45.610 --> 04:47.270
+Čemu je rovna
+derivace jmenovatele?
+
+04:47.270 --> 04:49.310
+Derivace 1 je 0.
+
+04:49.310 --> 04:52.790
+Čemu se rovná derivace −cos(x)?
+
+04:52.790 --> 04:56.420
+Je to sin(x).
+
+04:56.480 --> 04:59.280
+Pokud z toho uděláme limitu,
+čemu se to bude rovnat?
+
+04:59.280 --> 05:05.190
+Když ‚x‘ ve jmenovateli jde k 0,
+tak dosadím a sin(x) je 0.
+
+05:05.190 --> 05:06.870
+Podívejme se na čitatel.
+
+05:06.870 --> 05:13.850
+−2 krát sin(0), což je 0,
+plus 4 krát sin(2 krát 0).
+
+05:13.880 --> 05:16.570
+To je pořád 0, takže
+čitatel je roven 0.
+
+05:16.570 --> 05:19.210
+Opět zde máme nedefinovaný výraz.
+
+05:19.210 --> 05:20.680
+Jsme u konce,
+vzdáme to?
+
+05:20.680 --> 05:22.800
+Řekneme, že l'Hospitalovo
+pravidlo nefunguje?
+
+05:22.800 --> 05:26.000
+Ne, protože toto může být
+zadání našeho dalšího příkladu.
+
+05:26.000 --> 05:28.330
+Pokud to uvidíme jako
+zadání příkladu, řekneme si,
+
+05:28.330 --> 05:32.600
+že lze možná užít l'Hospitalovo pravidlo,
+protože nám vychází nedefinovaný výraz.
+
+05:32.600 --> 05:36.660
+Čitatel i jmenovatel je
+roven 0 pro ‚x' blížící se k 0.
+
+05:36.660 --> 05:40.110
+Zkusme funkce zderivovat znovu.
+
+05:40.110 --> 05:42.870
+To se bude rovnat,
+pokud tedy limity existují,
+
+05:42.870 --> 05:45.730
+limitě ‚x‘ blížící se k 0…
+
+05:45.730 --> 05:47.685
+Zderivujeme čitatel.
+
+05:47.685 --> 05:57.860
+Derivace −2 krát sin(x) je −2 krát cos(x)
+plus derivace 4 krát sin(2 krát x),
+
+05:57.860 --> 06:03.980
+2 krát 4 je 8, krát cos(2 krát x),
+
+06:03.980 --> 06:08.320
+protože derivace sin(2 krát x)
+je 2 krát cos(2 krát x).
+
+06:08.320 --> 06:11.820
+Ta 2 se vynásobí se 4
+a dostaneme 8.
+
+06:11.840 --> 06:19.130
+Derivace jmenovatele je
+derivace sin(x), což se rovná cos(x).
+
+06:19.140 --> 06:21.880
+Zkusme dosadit.
+
+06:21.880 --> 06:24.170
+Vypadá to, že jsme
+udělali určitý pokrok,
+
+06:24.170 --> 06:26.760
+nebo možná přestaneme
+aplikovat l'Hospitalovo pravidlo.
+
+06:26.760 --> 06:30.630
+Limita ‚x‘ blížící se 0 z cos(x) je 1.
+
+06:30.650 --> 06:36.090
+Určitě nedostaneme nedefinovaný
+výraz 0 děleno 0 v tomto kroku.
+
+06:36.120 --> 06:41.940
+Podívejme se, co se stalo
+s čitatelem, −2 krát cos(0).
+
+06:41.960 --> 06:45.530
+To je −2, protože cos(0) je rovno 1.
+
+06:45.530 --> 06:50.090
+K tomu přičteme 8 krát cos(2 krát x).
+
+06:50.090 --> 06:53.590
+Jelikož x je 0, pak cos(2 krát x)
+je roven cos(0) což je 1.
+
+06:53.590 --> 06:54.690
+To se bude rovnat 8.
+
+06:54.690 --> 07:00.710
+−2 plus 8 je 6,
+to celé děleno 1.
+
+07:00.720 --> 07:03.370
+Celý výraz je roven 6.
+
+07:03.370 --> 07:06.406
+Tedy L'Hospitalovo
+fungovalo i na tento příklad.
+
+07:06.406 --> 07:09.840
+Pokud dostaneme takový příklad
+a zkusíme dosadit z limity, dostaneme,
+
+07:09.840 --> 07:19.770
+že limita čitatele jdoucí k 0 je rovna 0
+a to samé vyjde u jmenovatele.
+
+07:19.800 --> 07:25.580
+Derivace čitatele děleno derivací
+jmenovatele existuje a je rovna 6.
+
+07:25.600 --> 07:28.590
+Limita musí být rovna 6.
+
+07:28.590 --> 07:30.240
+Pokud je tato limita rovna 6,
+
+07:30.240 --> 07:33.340
+pak ze stejných důvodů
+je tato limita rovna také 6.
+
+07:33.340 --> 07:40.090
+Ze stejného důvodu
+je i tato limita rovna 6.
+
+07:40.100 --> 07:42.201
+A máme hotovo..

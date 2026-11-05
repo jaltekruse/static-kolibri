@@ -1,0 +1,308 @@
+WEBVTT
+
+00:00.547 --> 00:03.445
+No nosso último vídeo, espero
+ter criado um pouco da intuição
+
+00:03.445 --> 00:07.323
+para o porquê -- ou devo dizer do quê--
+se trata a série de Maclaurin,
+
+00:07.323 --> 00:10.183
+e eu disse ao fim do vídeo que
+a série de Maclaurin é apenas
+
+00:10.183 --> 00:12.732
+um caso especial da série de Taylor.
+
+00:12.732 --> 00:19.111
+No caso da série de Maclaurin, aproximamos
+esta função em torno de x igual a zero,
+
+00:19.111 --> 00:22.680
+e em uma série de Taylor,--
+e falaremos disto em vídeo futuro,--
+
+00:22.680 --> 00:26.687
+você pode selecionar um valor arbitrário
+para x, ou f de x, devemos dizer,
+
+00:26.687 --> 00:29.324
+ao redor do que vamos aproximar a função.
+
+00:29.324 --> 00:31.772
+Dito isto, vamos focar apenas
+na série de Maclaurin,
+
+00:31.772 --> 00:34.130
+porque em algum nível ela é mais simples,
+
+00:34.130 --> 00:39.210
+e isto por si só pode nos levar a
+profundas conclusões matemáticas,
+
+00:39.210 --> 00:41.593
+e é neste ponto que eu quero chegar.
+
+00:41.593 --> 00:44.653
+Vamos pegar a série de Maclaurin
+de algumas funções interessantes
+
+00:44.653 --> 00:47.629
+e vou escrever funções onde é bem fácil
+tomarmos as derivadas,
+
+00:47.629 --> 00:53.067
+e você pode obter as derivadas
+diversas vezes seguidas.
+
+00:53.067 --> 00:57.667
+Vamos obter a série de Maclaurin
+do cosseno de x.
+
+00:57.667 --> 01:02.267
+Então se f de x é igual a
+cosseno de x, teremos--
+
+01:02.267 --> 01:06.347
+-- antes de eu aplicar esta fórmula,
+a qual derivamos no último vídeo,
+
+01:06.347 --> 01:08.800
+ou ao menos descobrimos
+como ela se comporta --
+
+01:08.800 --> 01:13.067
+vamos obter diversas derivadas de f de x,
+só para termos uma boa noção.
+
+01:13.067 --> 01:17.691
+Se pegarmos a primeira derivada:
+
+01:17.691 --> 01:20.805
+derivada de cosseno de x
+igual a menos seno de x,
+
+01:20.805 --> 01:25.340
+se pegarmos a derivada desta função,
+
+01:25.340 --> 01:28.395
+derivada de seno de x, é cosseno de x,
+e temos o sinal negativo,
+
+01:28.395 --> 01:30.790
+portanto cosseno de x negativo.
+
+01:30.790 --> 01:35.867
+Se tomamos a derivada disto,
+a terceira derivada de cosseno de x,
+
+01:35.867 --> 01:38.937
+teremos agora simplesmente
+seno de x positivo,
+
+01:38.937 --> 01:42.733
+e se tomamos a derivada disto,
+obteremos cosseno de x novamente.
+
+01:42.733 --> 01:46.990
+Obtemos o cosseno de x novamente.
+Se tomarmos a derivada disto,
+
+01:46.990 --> 01:49.720
+esta é a quarta derivada --
+vou usar esta notação
+
+01:49.720 --> 01:52.867
+mas você capta a ideia,--
+teremos cosseno de x novamente.
+
+01:52.867 --> 01:56.663
+E se você se relembrar do que falamos
+no último vídeo, queremos a diferença --
+
+01:56.663 --> 02:00.910
+queremos a função, e queremos diversas
+derivadas suas avaliadas em zero,
+
+02:00.910 --> 02:03.884
+portanto vamos avaliar a função em zero.
+
+02:03.884 --> 02:10.488
+Logo, f de zero, cosseno de zero é um.
+
+02:10.488 --> 02:15.133
+Tanto faz se estamos falando em graus
+ou em radianos, não importa.
+
+02:15.133 --> 02:25.537
+Seno de zero é zero, então
+f linha de zero é zero.
+
+02:25.537 --> 02:29.407
+Então, cosseno de zero
+será novamente um,
+
+02:29.407 --> 02:32.507
+mas temos de usar este sinal negativo,
+portanto temos um negativo.
+
+02:32.507 --> 02:37.467
+Portanto f -- a segunda derivada
+avaliada em zero será um negativo.
+
+02:37.467 --> 02:42.600
+Vamos obter a terceira derivada,
+a terceira derivada avaliada em zero.
+
+02:42.600 --> 02:47.780
+Bem, seno de zero é zero, e na
+quarta derivada avaliada em zero,
+
+02:47.780 --> 02:53.877
+cosseno de zero é um. Então
+f três linhas de zero é igual a um.
+
+02:53.877 --> 02:57.640
+Podemos verificar um padrão interessante:
+um, zero, um negativo, zero, um,
+
+02:57.640 --> 03:00.183
+e voltamos para o zero,
+novamente um negativo, e zero.
+
+03:00.183 --> 03:05.600
+Então, se escrevermos isto na forma
+de uma série de Maclaurin, o que temos?
+
+03:05.600 --> 03:12.133
+Vamos tentar fazer isto. Então temos
+-- nosso polinômio seria --
+
+03:12.133 --> 03:19.203
+a aproximação polinomial
+do cosseno de x será f de zero,
+
+03:19.203 --> 03:28.160
+f de zero é um, e teremos um
+mais f linha de zero vezes x.
+
+03:28.160 --> 03:32.700
+Mas f linha de zero é simplesmente zero,
+então não escrevemos este termo aqui,
+
+03:32.700 --> 03:36.650
+será zero vezes x, nem
+me darei ao trabalho de escrever,
+
+03:36.650 --> 03:42.355
+seria este zero vezes x, somados a
+f duas linhas ou a segunda derivada,
+
+03:42.355 --> 03:47.450
+que é um negativo, portanto
+escreverei negativo.
+
+03:47.450 --> 03:56.433
+Isto é um negativo, vezes
+x ao quadrado sobre dois fatorial
+
+03:56.433 --> 03:59.600
+que neste caso será apenas dois.
+
+03:59.600 --> 04:04.333
+Mas vou escrever só como dois fatorial,
+para conseguirmos visualizar o padrão.
+
+04:04.333 --> 04:08.813
+No próximo termo, a terceira
+derivada avaliada em zero.
+
+04:08.813 --> 04:14.200
+Mas, a terceira derivada em zero é zero,
+então também não escreverei este termo.
+
+04:14.200 --> 04:22.561
+A quarta derivada avaliada em zero é um,
+então este coeficiente bem aqui será um,
+
+04:22.561 --> 04:29.813
+portanto teremos um vezes
+x elevado à quarta sobre quatro fatorial.
+
+04:29.813 --> 04:32.400
+Acredito que conseguimos
+ver um padrão se formando.
+
+04:32.400 --> 04:35.970
+Vemos uma troca de sinais -- e você iria
+perceber se continuássemos a série,
+
+04:35.970 --> 04:38.923
+você pode verificar por conta
+própria se não acredita em mim --
+
+04:38.923 --> 04:42.020
+você tem um sinal positivo,
+um sinal negativo, um positivo,
+
+04:42.020 --> 04:49.657
+e um negativo, assim por diante.
+Isto é igual a um vezes x elevado à zero,
+
+04:49.657 --> 04:54.520
+pulamos para x ao quadrado,
+depois para x elevado à quarta,
+
+04:54.520 --> 04:58.267
+e se continuarmos -- temos aqui um sinal
+positivo, então aqui será negativo --
+
+04:58.267 --> 05:01.414
+teremos x elevado à sexta
+potência sobre seis fatorial.
+
+05:01.414 --> 05:03.191
+depois, temos um sinal positivo
+
+05:03.191 --> 05:06.013
+com x elevado à oitava potência
+sobre oito fatorial,
+
+05:06.013 --> 05:07.845
+e em seguida um sinal negativo,
+
+05:07.845 --> 05:13.237
+x elevado à décima potência sobre
+dez fatorial, e seguimos desta forma.
+
+05:13.237 --> 05:16.369
+Se você fosse continuar
+com esta série, esta seria
+
+05:16.369 --> 05:19.441
+a representação polinomial
+do cosseno de x.
+
+05:19.441 --> 05:22.883
+E é realmente legal que ele possa
+ser representado desta forma.
+
+05:22.883 --> 05:26.847
+É um simples padrão para
+uma função trigonométrica.
+
+05:26.847 --> 05:29.938
+Isto de certa forma indica como
+toda a matemática está conectada.
+
+05:29.938 --> 05:31.959
+E veremos daqui a dois ou três vídeos,
+
+05:31.959 --> 05:35.910
+que está conexão é muito mais
+profunda do que você imagina.
+
+05:35.910 --> 05:38.000
+Legendado por [Bernardo Blasi Villari]
+Revisado por [Rosana Cabral]

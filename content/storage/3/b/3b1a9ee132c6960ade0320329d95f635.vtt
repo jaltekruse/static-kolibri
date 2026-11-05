@@ -1,0 +1,272 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+Ebben a videóban szeretném ha megismerkednél a határértékkel, ami egy szuper fontos fogalom.
+
+00:10.828 --> 00:17.036
+Ez tényleg az az elv, amire az egész calculus épül. Azon kívül, hogy ez szuper fontos,
+
+00:17.036 --> 00:21.075
+ez valójában egy igen igen egyszerű elv. Hadd rajzoljak egy függvényt ide -- hadd defináljak egy függvényt.
+
+00:21.075 --> 00:32.800
+Egy elég egyszerű függvényt. Legyen f(x) -- mondjuk legyen
+f(x) egyenlő (x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+Erre mondhatod, hogy: "Hé Sal, nézd má'! Ugyanaz van a számlálóban és a nevezőben.
+
+00:36.084 --> 00:42.421
+Ha valamit elosztok önmagával, akkor az egyenlő lesz eggyel! Nem lehetne ezt egyszerűsíteni erre: f(x)=1?"
+
+00:42.421 --> 00:47.944
+Erre azt válaszolnám: Majdnem igazad van, de a különbség az f(x)=1 és e között
+
+00:47.944 --> 00:57.638
+itt az, hogy ez dolog itt az x=0 helyen nincs definiálva. Szóval ha -- hadd írjam inkább ide -- ha veszed az függvényt az
+
+00:57.653 --> 01:07.267
+f(1) helyen, mi történik? A számlálóban lesz (1-1), ami... hadd írjam csak le...
+
+01:07.267 --> 01:14.605
+a számlálóban lesz 0, a nevezőben lesz (1-1), ami szintén 0. Viszont akármi osztva
+
+01:14.605 --> 01:26.764
+nullával, beleértve a 0/0-t is, nem definiált. Szóval ha megcsinálod az egyszerűsítést, akkor mondhatod, hogy ez
+
+01:26.764 --> 01:36.867
+megegyezik az f(x)=1 fügvénnyel, de hozzá kell adnod azt a feltételt, hogy x nem lehet egyenlő 1-gyel. Na most
+
+01:36.867 --> 01:43.133
+ezek itt megegyeznek. Ezek mind egyenlőek lesznek 1-gyel, minden x-re, kivéve az 1-et. Mert az
+
+01:43.133 --> 01:51.340
+x=1 helyen ez nem lesz definiálva. Ez nem definiált, és ez nem definiált. Akkor hogyan rajzolhatom fel ezt a függvényt?
+
+01:51.340 --> 02:10.496
+Akkor hadd rajzoljam fel... Ez az én y=f(x) tengelyem, és ez itt az én x tengelyem, és akkor mondjuk,
+
+02:10.496 --> 02:22.799
+hogy ez az x=1 helye, ez itt lesz az x=-1, ez az y=1, itt még lehetne a -1, de ennek
+
+02:22.799 --> 02:28.267
+nincs sok köze ehhez a függvényhez itt. No hadd rajzoljam meg. Ez gyakorlatilag
+
+02:28.267 --> 02:42.600
+minden x-re, kivéve az 1-et, f(x)=1. Ez így fog kinézni... kivéve az 1-nél. Az 1-nél, f(x) nem definiált, ezért
+
+02:42.600 --> 02:47.800
+egy kicsit megszakítom itt ezzel a körrel, hogy jelezzem, hogy ez a függvény
+
+02:47.800 --> 02:52.400
+itt nem definiált -- nem tudjuk, hogy ez a függvény milyen értéket vesz fel a 1 helyen, soha sem definiáltuk.
+
+02:52.400 --> 03:00.333
+A függvénynek ez a definíciója nem mondja meg nekünk, mit csináljunk az 1 helyen -- szó szerint sincs definiálva az x=1 helyen.
+
+03:00.333 --> 03:09.113
+No szóval ez a függvény itt, és még egyszer, ha valaki megkérdezi mennyi az f(1), akkor
+
+03:09.113 --> 03:14.467
+azt mondod, hogy ez folt a függvény definíciója, elmész az x=1 helyre. Ó, ott egy szakadás van a függvényben,
+
+03:14.467 --> 03:21.148
+nem definiált. Hadd írjam le megint... ez egy kicsit ismétlés, de leírom.
+
+03:21.148 --> 03:30.313
+f(1) nem definiált. No de mi van akkor, ha azt kérdezem tőled, mennyi a függvényérték ha a függvény tart az x=1
+
+03:30.313 --> 03:44.708
+helyhez? Ez az a pont, ahol karcolni kezdjük a határérték fogalmát. Ahogy az x közelebb és közelebb kerül 1-hez.
+
+03:44.708 --> 03:51.837
+Mihez tart a függvényérték ekkor? Egész idő alatt, mihez is kerül egyre közelebb és közelebb?
+
+03:51.837 --> 03:58.909
+Bal oldalról közelítve, mindegy milyen közel kerülsz az 1-hez, ameddig nem vagy az 1-nél, f(x)=1.
+
+03:58.909 --> 04:04.790
+Itt a jobb oldalról közelítve, ugyanazt kapod. Azt mondhatod tehát -- ahogy
+
+04:04.790 --> 04:10.631
+egyre jobban megérted a határérték fogalmát, ahogy egyre több példát csinálunk -- szóval azt mondhatod, hogy a határérték
+
+04:10.631 --> 04:24.933
+ahogy az x (a lim a határérték - limes rövidítése), ahogy x közelít az 1-het, úgy az f(x) egyenlő lesz --
+
+04:24.933 --> 04:29.311
+ahogy hihetetlenül, végtelenül megközelítjük az 1-et, de nem érjük el az 1-et --
+
+04:29.311 --> 04:33.190
+a függvényünk értéke egyenlő lesz 1-gyel. Egyre közelebb és közelebb kerül az 1-hez,
+
+04:33.190 --> 04:39.684
+teljesen az 1 mellett van. Ebben az esetben azt mondjuk hogy az f(x) határértéke, ahogy az x az 1-hez közelít,
+
+04:39.684 --> 04:45.395
+az 1. Ez elég különleges írásmód, amivel csak azt mondjuk: "nézd, merre tart a függvény,
+
+04:45.395 --> 04:48.133
+ahogy az x egyre közelebb kerül az 1-hez".
+
+04:48.133 --> 04:54.021
+Nézzünk egy másik példát amiben egy görbével lesz dolgunk, csak, hogy megértsd az elméletet.
+
+04:54.021 --> 05:02.533
+Mondjuk van egy függvényem f(x) amit a változatosság kedvéért g(x)-nek fogok hívni.
+
+05:02.533 --> 05:09.852
+Mondjuk, hogy a g(x) egyenlő -- így is definiálhatom, hogy -- x négyzet,
+
+05:09.852 --> 05:26.082
+amennyiben az x nem egyenlő 2-vel, és és mondjuk amikor x=2, akkor pedig egyenlő 1-gyel. Ez egy érdekes
+
+05:26.082 --> 05:34.133
+függvény, amint majd látni fogod, nem folytonos. Van egy szakadása. Hadd rajzoljam fel.
+
+05:34.133 --> 05:48.225
+Ez ez én y=f(x) tengelyem, ez az én x tengelyem itt. Mondjuk ez az x=1, ez az x=2,
+
+05:48.225 --> 06:01.825
+ez a -1. az a -2... Szóval mindenhol, kivéve az x=2 helyen, ez egyenlő x négyzettel. Megrajzolom ezt,
+
+06:01.825 --> 06:08.636
+ez egy parabola lesz, valahogy így fog kinézni... Így fog mutatni kb...
+
+06:08.636 --> 06:18.308
+Hadd rajzoljak egy szebb parabolát. Szóval valami ilyesmi lesz, ez nem a legszebben sikerült
+
+06:18.308 --> 06:24.341
+parabola, a parabolarajzolás történelmében, de remélhetőleg ad valami képet milyen egy parabola.
+
+06:24.341 --> 06:32.991
+Ennek szimmetrikusnak kéne lennie... Hadd rajzoljam újra, mert ez egy kicsit rusnyára sikerült.
+
+06:32.991 --> 06:38.467
+Ez jobban néz ki. Ok, rendben, itt is van.
+
+06:38.467 --> 06:48.867
+Ez lenne a képe az x négyzetnek, de ez nem x négyzet ha x=2. Tehát ha x=2,
+
+06:48.867 --> 06:55.428
+akkor itt egy szakadásnak kell lennie. Hadd rajzoljak ide egy szakadást,
+
+06:55.428 --> 07:00.478
+mert ha x=2, a függvényérték egyenlő 1-gyel.
+
+07:00.478 --> 07:09.566
+Nem csináltam ugyanolyan léptékűre,,, az f(x) = x^2 függvénynél ez 4 lenne, ez 2 lenne,
+
+07:09.616 --> 07:23.547
+ez 1 lenne, ez pedig 3. Szóval x=2, a függvényünk egyenlő 1-gyel.
+
+07:23.547 --> 07:27.856
+Ez egy kissé bizarr függvény, de hát így is definiálható,
+
+07:27.856 --> 07:36.667
+úgy definiálsz egy függvényt, ahogy akarsz. Ez olyan mint az f(x) = x^2 kivéve azt mikor eljutsz a 2-höz.
+
+07:36.667 --> 07:48.252
+Ott van egy szakadás, mert ott nem használod a g(x)=x^2 -et, hanem a g(x)=1 -et.
+
+07:48.252 --> 07:50.848
+Ha f(x)-et mondtam, akkor bocsánat.
+
+07:50.848 --> 08:04.914
+Használd a g(x)=1 -et, így amikor pont a 2-es nél vagy, akkor a függvényérték leszakad 1-re, aztán boldogan folytatja az x^2 mentén.
+
+08:04.914 --> 08:11.241
+Van itt néhány dolog. Ha csak a függvényt vizsgálom a g(2) helyen,
+
+08:11.241 --> 08:15.933
+akkor nézz definícióra: oké, amikor x=2, akkor ezt használom itt,
+
+08:15.933 --> 08:21.538
+és ez azt mondja nekem, hogy a függvényérték 1 lesz. De hadd kérdezzek egy sokkal érdekesebb, vagy remélhetőleg
+
+08:21.538 --> 08:32.149
+érdekesebb kérdést. Mennyi a g(x) határértéke ha x tart a 2-höz? Érdekes jelölési mód,
+
+08:32.149 --> 08:38.502
+de valami nagyon nagyon egyszerűt kérdez. Az kérdezi: ahogy az x egyre közelebb araszol a 2-höz...
+
+08:38.502 --> 08:42.240
+ahogy egyre közelebb és közelebb kerülsz -- és ez nem egy merev definíció, ahogy majd a következő videókban látjuk --
+
+08:42.240 --> 08:52.979
+ahogy az x egyre közelebb megy a 2-höz, a g(x) milyen értékhez tart? Mondjuk először 1.9, aztán 1.999, aztán 1.999999
+
+08:52.979 --> 09:00.518
+aztán 1.9999999, mihez tart g(x) értéke? És ha felülről jössz,
+
+09:00.518 --> 09:06.656
+akkor mondjuk a 2.1-nél mennyi g(2.1)? Mennyi g(2.01)? Mennyi g(2.001)?
+
+09:06.656 --> 09:09.995
+Mihez tart a függvényérték, ha közelebb és közelebb kerülünk?
+
+09:09.995 --> 09:15.733
+Láthatod ahogy megrajzolod a függvényt. ahogy x egyre közelebb kerül a 2-höz,
+
+09:15.733 --> 09:20.518
+ahogy követjük a grafikont, láthatjuk, hogy a 4-eshez közelítünk,
+
+09:20.518 --> 09:26.545
+még akkor is, ha a függvényérték ebben pontban nincs ott -- leesik 1-re -- a határértéke a g(x)-nek,
+
+09:26.545 --> 09:33.405
+ahogy x közelít a 2-höz, egyenlő 4-gyel. Ezt megnézheted egy számológép használatával.
+
+09:33.405 --> 09:39.907
+Meg is csinálom, mert úgy gondolom, hogy ez érdekes lesz. Hadd kapjam elő a számológépem...
+
+09:39.907 --> 09:49.041
+Gyere elő te jó kis TI-85-ös... Itt is van a számológépem... No akkor,
+
+09:49.041 --> 09:57.995
+Ok, mennyihez közelít a függvény, ahogy az x=2-höz közelít? Próbáljuk meg az 1.9-et. 1.9-re, használhatod ezt
+
+09:57.995 --> 10:05.549
+négyzetre emelést itt. Szóval ha van az 1.9 a négyzeten, akkor 3.61-et kapsz.
+
+10:05.549 --> 10:11.683
+No de mi van ha még közelebb megyünk a 2-höz? 1.99 és akkor még egyszer a négyzetre emelem,
+
+10:11.683 --> 10:21.683
+már a 3.96-nál vagyok. Mi történik az 1.999-cel ha négyzetre emelem?
+
+10:21.683 --> 10:27.991
+3.996-ot kapok. Látod? Egyre közelebb és közelebb kerülök a pontunkhoz.
+
+10:27.991 --> 10:37.546
+És ha igazán közel kerülök -- 1.999999999999²? Mennyit is kapok? Ez igazából nem pontosan 4,
+
+10:37.546 --> 10:41.508
+csak ez a számológép felkerekítette, mert a szám amit kaptuk, nagyon nagyon
+
+10:41.508 --> 10:47.456
+nagyon nagyon közel van a 4-hez. És valami hasolót csinálhatunk felülről is,
+
+10:47.456 --> 10:52.083
+ugyanazt a számot kell kapjuk, mint amikor alulról közelítettük,
+
+10:52.083 --> 11:00.702
+most pedig felülről próbáljuk megközelíteni. Ha megpróbáljuk a 2.1²-et, 4.4-et kapunk...
+
+11:00.702 --> 11:02.902
+Hadd ugorjak előre néhány lépést...
+
+11:02.902 --> 11:09.256
+2.0001². Ez sokkal közelebb van a 2-höz. Mi is közelebb kerülünk a 4-hez.
+
+11:09.256 --> 11:12.929
+Minél közelebb megyünk a 2-höz, annál közelebbinek tűnik a 4.
+
+11:12.929 --> 11:20.333
+Ez a számokkal való szemléltetése, a határértéknek, ahogy x közelít a 2-höz, bármelyik irányból g(x)-re.
+
+11:20.333 --> 11:25.000
+Akkor is ha pontosan 2-nél a függvény egyenlő 1-gyel, mert nem folytonos,
+
+11:25.000 --> 11:31.070
+a határérték ahogy a 2-höz közelítünk, egyre közelebb és közelebb kerül a 4-hez.

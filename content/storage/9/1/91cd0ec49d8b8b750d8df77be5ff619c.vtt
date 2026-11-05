@@ -1,0 +1,529 @@
+WEBVTT
+
+00:00.710 --> 00:03.860
+Let's review a little bit of what we
+learned in differential calculus.
+
+00:03.860 --> 00:08.370
+Let's say we have some function S that it
+gives us as
+
+00:08.370 --> 00:12.220
+a function of time the position of a
+particle in one dimension.
+
+00:12.220 --> 00:12.903
+If we were to take the derivative with
+respect to time.
+
+00:12.903 --> 00:16.500
+So if we were to take the derivative with
+respect to time
+
+00:19.840 --> 00:21.080
+of this function S.
+
+00:21.080 --> 00:21.911
+What are we going to get?
+
+00:21.911 --> 00:25.135
+Well we're going to get ds, dt or the
+
+00:25.135 --> 00:29.816
+rate in which position changes with
+respect to time.
+
+00:29.816 --> 00:34.159
+And what's another word for that, position
+changes with respect to time?
+
+00:34.159 --> 00:35.750
+Well, that's just velocity.
+
+00:35.750 --> 00:39.680
+So that we can write as velocity as a
+function of time.
+
+00:39.680 --> 00:43.980
+Now, what if we were to take the
+derivative of that with respect to time.
+
+00:43.980 --> 00:47.177
+So we could either view this as the second
+derivative, we're
+
+00:47.177 --> 00:50.809
+taking the derivative not once, but twice
+of our position function.
+
+00:50.809 --> 00:52.625
+Or you could say that we're taking the
+
+00:52.625 --> 00:55.473
+derivative with respect to time of our
+velocity function.
+
+00:55.473 --> 00:59.524
+Well this is going to be, we can write
+this as, we can write
+
+00:59.524 --> 01:05.420
+this as dv, dt, the rate at which velocity
+is changing with respect to time.
+
+01:05.420 --> 01:07.490
+And what's another word for that?
+
+01:07.490 --> 01:10.000
+Well, that's also called acceleration.
+
+01:10.000 --> 01:12.480
+This is going to be our acceleration as a
+function of time.
+
+01:12.480 --> 01:14.560
+So, you start with the position function,
+take
+
+01:14.560 --> 01:17.590
+it, the position as a function of time.
+
+01:17.590 --> 01:20.310
+Take its derivative with respected time,
+you get velocity.
+
+01:20.310 --> 01:23.800
+Take that derivative with respected time,
+you get acceleration.
+
+01:23.800 --> 01:26.210
+Well, you could go the other way around.
+
+01:26.210 --> 01:29.290
+If you started with acceleration, if you
+started
+
+01:29.290 --> 01:32.160
+with acceleration, and you were to take
+the antiderivative.
+
+01:32.160 --> 01:38.370
+If you were to take the antiderivative of
+it, the anti, anti, an antiderivative
+
+01:38.370 --> 01:42.860
+of it is going to be, actually let me just
+write it this way.
+
+01:42.860 --> 01:45.230
+So an antiderivative, I'll just use the
+interval
+
+01:45.230 --> 01:48.290
+symbol to show that I'm taking the
+antiderivative.
+
+01:48.290 --> 01:54.920
+Is going to be the integral of the
+anti-derivative of a of t.
+
+01:54.920 --> 01:58.670
+And this is going to give you some
+expression with a plus c.
+
+01:58.670 --> 02:02.240
+And we could say, well, that's a general
+form of our velocity function.
+
+02:02.240 --> 02:05.380
+This is going to be equal to our velocity
+function.
+
+02:05.380 --> 02:08.910
+And to find the particular velocity
+function, we would have
+
+02:08.910 --> 02:12.090
+to know what the velocity is at a
+particular time.
+
+02:12.090 --> 02:14.390
+And then, we could solve for our c.
+
+02:14.390 --> 02:17.780
+Whether then, if we're able to do that and
+we were to take the anti-derivative again.
+
+02:19.530 --> 02:24.173
+Then, now we're taking the anti-derivative
+of our velocity function,
+
+02:24.173 --> 02:27.574
+which would give us some expression as a
+function of t.
+
+02:27.574 --> 02:29.058
+And then, some other constant.
+
+02:29.058 --> 02:32.576
+And, if we could solve for that constant,
+then we know, then we know
+
+02:32.576 --> 02:36.110
+what the position is going to be, the
+position is a function of time.
+
+02:37.960 --> 02:39.890
+Just like this, it would have some, plus c
+here if we
+
+02:39.890 --> 02:43.920
+know our position at a given time we could
+solve for that c.
+
+02:43.920 --> 02:47.430
+So now that we've reviewed it a little
+bit, but we've rewritten it in.
+
+02:47.430 --> 02:49.890
+I guess you could say, thinking of it not
+just from
+
+02:49.890 --> 02:52.090
+the differential point of view from the
+derivative point of view.
+
+02:52.090 --> 02:55.660
+But thinking of it from the
+anti-derivative point of view.
+
+02:55.660 --> 02:58.290
+Lets see if we can solve an interesting
+problem.
+
+02:58.290 --> 03:00.750
+Lets say that we know that the
+acceleration of a
+
+03:00.750 --> 03:05.950
+particle is a function of time is equal to
+one.
+
+03:05.950 --> 03:08.938
+So it's always accelerating at one unit
+per,
+
+03:08.938 --> 03:11.548
+and you know, I'm not giving you time.
+
+03:11.548 --> 03:14.950
+Let, let's just say that we're thinking in
+terms of meters and seconds.
+
+03:14.950 --> 03:20.170
+So this is one meter per second, one meter
+per second-squared, right over here.
+
+03:20.170 --> 03:23.380
+That's our acceleration as a function of
+time.
+
+03:23.380 --> 03:26.155
+And, let's say we don't know the velocity
+expressions, but we know
+
+03:26.155 --> 03:29.318
+the velocity at a particular time and we
+don't know the position expressions.
+
+03:29.318 --> 03:32.212
+But we know the position at a particular
+time.
+
+03:32.212 --> 03:35.250
+So, let's say we know that the velocity,
+at time three.
+
+03:35.250 --> 03:39.420
+Let's say three seconds is negative three
+meters per second.
+
+03:39.420 --> 03:42.770
+And actually I wanna write the units here,
+just to make it a little, a little bit.
+
+03:42.770 --> 03:45.330
+So this is meters per second squared,
+
+03:45.330 --> 03:46.830
+that's going to be our unit for
+acceleration.
+
+03:46.830 --> 03:49.500
+This is our unit for velocity.
+
+03:49.500 --> 03:55.120
+And let's say that we know, let's say that
+we know that the position at
+
+03:55.120 --> 03:59.760
+time two, at two seconds is equal to
+negative ten meters.
+
+03:59.760 --> 04:02.490
+So, if we're thinking in one dimension, of
+if this is moving
+
+04:02.490 --> 04:06.140
+along the number line, this is ten to the
+left of the origin.
+
+04:06.140 --> 04:09.508
+So, given this information right over
+here, and everything that I wrote up here.
+
+04:09.508 --> 04:14.568
+Can we figure out the actual expressions
+for velocity as a function of time?
+
+04:14.568 --> 04:18.890
+So not just velocity at time three, but
+velocity generally as a function of time.
+
+04:18.890 --> 04:21.190
+And position as a function of time.
+
+04:21.190 --> 04:23.950
+And I encourage you to pause this video
+right now.
+
+04:23.950 --> 04:25.730
+And try to figure it out on your own.
+
+04:27.130 --> 04:28.230
+So let's just work through this.
+
+04:28.230 --> 04:31.410
+What is, we know that velocity, as a
+
+04:31.410 --> 04:36.250
+function of time, is going to be the
+anti-derivative.
+
+04:36.250 --> 04:39.910
+The anti-derivitive of our acceleration is
+a function of time.
+
+04:39.910 --> 04:42.250
+Our acceleration is just one.
+
+04:42.250 --> 04:45.900
+So this is going to be the anti-derivitive
+of this right over here
+
+04:45.900 --> 04:50.890
+is going to be t and then we can't forget
+our constant plus c.
+
+04:50.890 --> 04:55.610
+And now we can solve for c because we know
+v of 3 is negative 3.
+
+04:55.610 --> 04:57.220
+So lets just write that down.
+
+04:57.220 --> 05:05.385
+So v of 3 is going to be equal to 3, 3
+plus c.
+
+05:05.385 --> 05:08.276
+I just replaced where I saw the, the t or
+every place where
+
+05:08.276 --> 05:11.580
+I have the t I replaced it with this 3
+right over here.
+
+05:11.580 --> 05:12.855
+Actually let me make it a little bit
+clearer.
+
+05:12.855 --> 05:18.276
+So v of 3, v of 3 is equal to 3 plus c,
+and they
+
+05:18.276 --> 05:23.280
+tell us that that's equal to negative 3.
+
+05:23.280 --> 05:29.040
+So that is equal to, that is equal to
+negative 3.
+
+05:29.040 --> 05:30.630
+So what's c going to be?
+
+05:30.630 --> 05:32.260
+So if we just look at this part of
+
+05:32.260 --> 05:35.480
+the equation or just this equation right
+over here.
+
+05:35.480 --> 05:43.290
+If you subtract 3 from both sides, you
+get, you get c is equal to negative 6.
+
+05:43.290 --> 05:46.660
+And so now we know the exact, we know the
+
+05:46.660 --> 05:51.030
+exact expression that defines velocity as
+a function of time.
+
+05:51.030 --> 05:56.349
+V of t, v of t is equal to t, t plus
+
+05:56.349 --> 06:01.410
+negative 6 or, t minus 6.
+
+06:01.410 --> 06:02.380
+And we can verify that.
+
+06:02.380 --> 06:05.980
+The derivative of this with respect to
+time is just one.
+
+06:05.980 --> 06:11.040
+And when time is equal to 3, time minus 6
+is indeed negative 3.
+
+06:11.040 --> 06:15.730
+So we've been able to figure out velocity
+a s a function of time.
+
+06:15.730 --> 06:19.460
+So now let's do a similar thing to figure
+out position as a function of time.
+
+06:19.460 --> 06:22.080
+We know that position is gonna be an
+anti-derivative
+
+06:22.080 --> 06:25.830
+of the velocity function, so let's write
+that down.
+
+06:25.830 --> 06:30.563
+So, position, as a function of time, is
+going to
+
+06:30.563 --> 06:35.093
+be equal to the anti-derivative of v of t,
+dt.
+
+06:35.093 --> 06:41.178
+Which is equal to the anti-derivative of t
+minus 6, dt which is
+
+06:41.178 --> 06:47.615
+equal to well the anti-derivative of t, is
+t squared over 2.
+
+06:47.615 --> 06:51.270
+So, t squared over 2, we've seen that
+before.
+
+06:51.270 --> 06:56.139
+The anti-derivative of negative 6 is
+negative 6 t, and of
+
+06:56.139 --> 07:01.310
+course, we can't forget our constant, so,
+plus, plus, c.
+
+07:01.310 --> 07:03.270
+So this is what s of t is equal to, s
+
+07:03.270 --> 07:06.820
+of t is equal to all of this business
+right over here.
+
+07:06.820 --> 07:09.480
+And now we can try to solve, for our
+constant.
+
+07:09.480 --> 07:12.420
+And we do that, using this information
+right over here.
+
+07:12.420 --> 07:16.780
+At two seconds were at, our position is
+negative two meters.
+
+07:16.780 --> 07:20.000
+So s of 2, or I could just write it this
+way.
+
+07:20.000 --> 07:20.830
+Well, let me write it this way.
+
+07:20.830 --> 07:26.530
+S of 2, at 2 seconds, is going to be equal
+to 2 squared over 2.
+
+07:26.530 --> 07:30.700
+That is, let's see, that's 4 over 2,
+that's going to be 2.
+
+07:30.700 --> 07:32.770
+Minus 6 times 2.
+
+07:32.770 --> 07:41.510
+So, minus 12 + c is equal to negative 10,
+is equal to negative 10.
+
+07:41.510 --> 07:44.817
+So, let's see, we get 2 minus 12 is
+
+07:44.817 --> 07:50.320
+negative, is negative 10 plus c equals
+negative 10.
+
+07:50.320 --> 07:54.270
+So you add 10 to both sides you get c in
+this case is equal to 0.
+
+07:54.270 --> 07:57.630
+So we figured out what our position
+function is as well.
+
+07:57.630 --> 07:59.730
+The c right over here is just going to be
+0.
+
+07:59.730 --> 08:08.800
+So our position as a function of time is
+equal to t squared over 2 minus 6 t.
+
+08:08.800 --> 08:10.320
+And you can verify.
+
+08:10.320 --> 08:17.250
+When t is equal to 2, t squared over 2 is
+2, minus 12 is negative 10.
+
+08:17.250 --> 08:20.680
+You take the derivative here, you get t
+minus 6.
+
+08:20.680 --> 08:24.140
+And you can see and we already verified
+that v of 3 is negative 3.
+
+08:24.140 --> 08:28.060
+And you take the derivative here, you get
+a of t, just like that.
+
+08:28.060 --> 08:30.150
+Anyway, hopefully, you found this
+enjoyable.

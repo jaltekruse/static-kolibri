@@ -1,0 +1,403 @@
+WEBVTT
+
+00:01.370 --> 00:03.367
+Bu video' da asal sayıların ne olduğunu öğreneceğiz.
+
+00:03.367 --> 00:07.500
+-
+
+00:07.500 --> 00:10.094
+Bu video'da öğreneceğimiz asal sayılar kavramı, oldukça net bir kavram.
+
+00:10.110 --> 00:12.608
+Ama ilerde bunun aslında çok gelişmiş bir kavram olduğunu,
+
+00:12.608 --> 00:15.302
+ve bir çok şeyin mantığında kullanıldığını öğreneceksiniz.
+
+00:15.302 --> 00:17.601
+-
+
+00:17.601 --> 00:20.712
+Bunlara örnek vermemiz gerekirse,
+
+00:20.712 --> 00:23.359
+Kriptoloji, yani şifre biliminin önemli bir kısmının asal sayılardan oluştuğunu söyleyebiliriz.
+
+00:23.359 --> 00:25.612
+Ayrıca asal sayılar, bilgisayar şifrelemelerinin de tabanını oluşturur.
+
+00:25.612 --> 00:28.026
+-
+
+00:28.026 --> 00:29.931
+-
+
+00:29.931 --> 00:31.718
+-
+
+00:31.718 --> 00:33.785
+-
+
+00:33.785 --> 00:36.966
+O zaman şimdi asal sayıların tanımını yapalım.
+
+00:36.966 --> 00:39.404
+Tanım başta anlam ifade etmeyebilir, ama örneklerle pekiştirdiğimizde kafanızda bir şekil oluşturacaktır.
+
+00:39.404 --> 00:43.839
+-
+
+00:43.839 --> 00:49.946
+Eğer bir sayı ,sadece 2 doğal sayıya, yani sadece kendisine ve bire bölünebiliyorsa, bir asal sayıdır.
+
+00:49.946 --> 00:57.794
+mesela 1,2,3 gibi sayma sayıları
+
+00:57.794 --> 01:00.488
+ya da pozitif sayılar-
+
+01:00.488 --> 01:30.962
+asal sayı sadece kendine ve bire bölünebilen doğal sayıdır-
+
+01:30.962 --> 01:39.823
+sadece bu iki sayıya bölünür-
+
+01:39.823 --> 01:43.468
+Tanımı pekiştirmek için bazı örnekler verip, sayıların asal olup olmadığını anlayalım.
+
+01:43.468 --> 01:46.115
+-
+
+01:46.115 --> 01:48.948
+En küçük doğal sayı olan bir ile başlayalım.
+
+01:48.948 --> 01:52.268
+1 rakamı, sadece 1 e bölünebilir; ayrıca kendisi tarafından da bölünebilir.
+
+01:52.268 --> 01:59.095
+Buna göre 1 in asal sayı olması lazımdır.
+
+01:59.095 --> 02:02.137
+Fakat tanımımız, iki tane doğal sayıya bölünmesi gerekli olduğunu söylüyor.
+
+02:02.137 --> 02:07.803
+Halbuki, 1 yalnızca yalnızca 1 ile bölünebilir.
+
+02:07.803 --> 02:16.673
+Yani 1, asal değildir.
+
+02:16.673 --> 02:20.504
+2' ye geçelim.
+
+02:20.504 --> 02:28.102
+2 rakami, sadece 1 ve 2 tarafindan tam olarak bölünebilir.
+
+02:28.102 --> 02:30.906
+-
+
+02:30.906 --> 02:33.948
+-
+
+02:33.948 --> 02:42.238
+Yani, 2 bir asal sayıdır.
+
+02:42.238 --> 02:52.849
+Asal sayılari daire icine alalım.
+
+02:52.849 --> 02:55.334
+2 rakamının bir özelliği,
+
+02:55.334 --> 02:57.818
+asal olan tek çift rakam olmasıdır.
+
+02:57.818 --> 03:00.396
+2 dışında neden başka bir çift asal sayı olmadığını düşünürseki
+
+03:00.396 --> 03:03.620
+2 den büyük her çift sayının 1'e, kendisine, ve ayrıca 2 ye bölündüğünü fark edebiliriz.
+
+03:03.620 --> 03:06.688
+-
+
+03:06.688 --> 03:13.144
+3'u deneyelim. Evet, 3 kesinlikle 1 ve 3'e bölünebilir.
+
+03:13.144 --> 03:15.651
+ve 1 ve 3 arasinda herhangi baska bir sayi tarafından bölünemez.
+
+03:15.651 --> 03:20.272
+2 tarafından bölünemez. Yani 3 asal sayıdir!
+
+03:20.272 --> 03:25.264
+4'u deneyelim..
+
+03:25.264 --> 03:29.676
+4; 1 ve 4 ile kesinlikle bölünebilir ama
+
+03:29.676 --> 03:36.224
+Ayrıca 2 tarafından bölünebilir. Bu yüzden
+
+03:36.224 --> 03:40.311
+üç doğal sayı tarafından 1, 2, ve 4 ile bölünebilir
+
+03:40.311 --> 03:44.723
+Yani Asal olmasi için gereken kısıtlamalarımizi karşılamıyor.
+
+03:44.723 --> 03:48.252
+5'i Deneyelim.
+
+03:48.252 --> 03:51.015
+5; 1 tarafından kesinlikle bölünebilir,
+
+03:51.015 --> 03:57.842
+2, 3 Ya da 4'e bölünemez!
+
+03:57.842 --> 04:01.209
+(5/ 4 bolunur elbette ama size 1 kalanini verir)
+
+04:01.209 --> 04:05.133
+Ve tabii ki 5 tarafından tam olarak bölünebilir.
+
+04:05.133 --> 04:10.265
+Bir kez daha, 5 sadeceiki tam doğal sayı; 1 ve 5 ile bölünebilir.
+
+04:10.265 --> 04:14.235
+Böylece bir kez daha 5 sayisi Asaldir. Devam edelim.
+
+04:14.235 --> 04:17.393
+Böylece burada bir patern olup olmadığı ortaya çıkar
+
+04:17.393 --> 04:19.924
+ve sonra belki de gerçekten zor bir sayi deneriz.
+
+04:19.924 --> 04:26.031
+haydi şimdi de 6 yı deneyelim.
+
+04:26.031 --> 04:34.622
+1, 2, 3 Ve 6 ile bölünebilir.
+
+04:34.622 --> 04:37.595
+Böylece dört doğal sayı "faktör", vardır
+
+04:37.595 --> 04:40.033
+bunu şu şekilde de şöyleyebiliriz
+
+04:40.033 --> 04:43.005
+6 yı bölen sadece 2 sayı yok
+
+04:43.005 --> 04:46.743
+4 sayı var demekki 6 asal değil.
+
+04:46.743 --> 04:49.715
+7 ye bakalım
+
+04:49.715 --> 04:55.869
+7 sadece 1 tarafından bölünür 2,3,4,5,6 ya bölünmez.
+
+04:55.869 --> 05:00.791
+aynı zamanda 7 tarafından bölünebilir
+
+05:00.791 --> 05:03.624
+demek ki 7 asaldır.Sanırım burdaki genel fikri aldınız.
+
+05:03.624 --> 05:06.689
+1,2,3,4,5 gibi doğal sayılar
+
+05:06.689 --> 05:09.383
+ki bunları daha iki yaşındayken öğrenmiştiniz
+
+05:09.383 --> 05:11.681
+sıfır ve negatif sayılar dahil değildir,
+
+05:11.681 --> 05:13.980
+kesirler ve irrasyonel sayılar dahil değildir,
+
+05:13.980 --> 05:15.768
+ve ondalık sayılarla diğerleri
+
+05:15.768 --> 05:18.578
+sadece pozitif sayılar
+
+05:18.578 --> 05:21.318
+Yalnızca iki tane sayıya
+
+05:21.318 --> 05:23.733
+Eğer sadece kendine ve 1 e bölünebiliyorsa
+
+05:23.733 --> 05:25.544
+o zaman asaldır.
+
+05:25.544 --> 05:27.192
+Ben şöyle düşünüyorum.
+
+05:27.192 --> 05:29.607
+eğer 1 sayısının özel durumunu düşünmezsek
+
+05:29.607 --> 05:31.604
+asal sayılar tıpkı yapı taşları gibidir
+
+05:31.604 --> 05:33.299
+onları daha fazla bölemezsiniz
+
+05:33.299 --> 05:34.809
+Bir anlamda atomlara benzerler
+
+05:34.809 --> 05:36.285
+atomun ne olduğunu düşünürseniz
+
+05:36.285 --> 05:38.111
+ya da insanların ilk zamanlar ne düşündüklerini.
+
+05:38.111 --> 05:39.991
+atomların daha fazla bölünemez parçalar olduklarını
+
+05:39.991 --> 05:41.890
+düşünüyorlardı.
+
+05:41.890 --> 05:43.986
+Biz şimdi atomları bölebileceğimizi ve bunu
+
+05:43.986 --> 05:46.475
+yaparsak bir nükleer patlama olabileceğini biliyoruz.
+
+05:46.475 --> 05:49.655
+Asal sayılar için de durum aynıdır.
+
+05:49.655 --> 05:52.618
+Onları daha küçük doğal sayıların
+
+05:52.618 --> 05:57.402
+çarpımı haline dönüştüremezsiniz.
+
+06:01.256 --> 06:03.717
+break it down ve dikkat edin, biz-break it down
+
+06:03.717 --> 06:06.411
+asal sayıların bir ürün olarak.
+
+06:06.411 --> 06:08.872
+Biz tür o 's parçalara ayrılmış.
+
+06:08.872 --> 06:11.217
+aşağı eğer o can't break artık 7.
+
+06:11.217 --> 06:14.817
+Tüm sen-ebilmek demek olan 7 eşittir 1 kez 7.
+
+06:14.817 --> 06:16.930
+Ve bu durumda eğer gerçekten o kadar kırık değil.
+
+06:16.930 --> 06:19.066
+Sadece 7 orada yeniden gerekir.
+
+06:19.066 --> 06:20.877
+Siz aslında bunu yıkmak 6.
+
+06:20.877 --> 06:23.965
+4 sen aslında o 2 kere 2 olarak yıkmak.
+
+06:23.965 --> 06:25.800
+Şimdi bu yoldan sağlar hakkında düşünmek
+
+06:25.800 --> 06:27.425
+bazı büyük numaraları ve düşünmek
+
+06:27.425 --> 06:30.072
+Bu büyük sayıların asal olup olmadığı.
+
+06:30.072 --> 06:34.902
+Böylece 16 deneyin sağlar.
+
+06:34.902 --> 06:38.872
+Yani açıkça herhangi bir doğal sayı 1 ve kendisi tarafından bölünebilir.
+
+06:38.872 --> 06:42.262
+Böylece 16 1 ve 16 tarafından bölünebilir.
+
+06:42.262 --> 06:44.143
+Böylece iki başlatmak için gidiyoruz,
+
+06:44.143 --> 06:46.071
+Yani, eğer başka bir şey bulabilirsiniz bu işe gider
+
+06:46.071 --> 06:48.207
+sonra Başbakan değildir biliyorum.
+
+06:48.207 --> 06:51.109
+Ve 16 için sen-ebil-si olmak 2 kere 8,
+
+06:51.109 --> 06:53.362
+4 kez 4 olabilir,
+
+06:53.362 --> 06:55.451
+Yani o burada faktörler bir ton var,
+
+06:55.451 --> 06:57.588
+sadece 1 ve 16 yukarıda ve öteye.
+
+06:57.588 --> 07:02.278
+Böylece 16 Başbakan değil. 17 Peki?
+
+07:02.278 --> 07:06.411
+1 ve 17-ecek kesinlikle gitmek 17,
+
+07:06.411 --> 07:10.846
+2 yok geçin 17, 3 değil gidin, 4, 5, 6, 7, 8,...
+
+07:10.846 --> 07:14.701
+Bu numaraları 1 ile 17 arasında hiçbir şey hiçbiri
+
+07:14.701 --> 07:21.086
+Böylece 17 Başbakan 17 gider.
+
+07:21.086 --> 07:23.803
+Ve şimdi zor bir size vereceğiz.
+
+07:23.803 --> 07:26.822
+Bu birçok insan ikna.
+
+07:26.822 --> 07:34.345
+51 Peki? 51 Başbakan mı?
+
+07:34.345 --> 07:37.480
+Ve eğer ilgileniyorsanız Burada video duraklatabilirsiniz.
+
+07:37.480 --> 07:39.500
+ve kendinizi anlamaya çalışın
+
+07:39.500 --> 07:41.520
+51 bir asal sayı ise.
+
+07:41.520 --> 07:45.142
+Eğer sen-ebilmek bulmak bir şey diğer--dan 1 ya da 51
+
+07:45.142 --> 07:48.161
+51 bölünebilir olmasıdır. Gibi görünüyor...
+
+07:48.161 --> 07:50.042
+Wow Bu tür garip bir sayı olduğunu
+
+07:50.042 --> 07:52.340
+It's Başbakan düşünmek ayartmıştı olabilir,
+
+07:52.340 --> 07:54.268
+ama şimdi size cevap vermek için gidiyorum.
+
+07:54.268 --> 07:59.933
+Başbakan, değil, aynı zamanda 3 ve 17 tarafından bölünebilir olduğundan
+
+07:59.933 --> 08:02.998
+3 kez 17 51 ' dir.
+
+08:02.998 --> 08:04.779
+Bu yüzden umarım iyi bir fikir verir
+
+08:04.779 --> 08:06.388
+ne asal sayılar tüm hakkında vardır,
+
+08:06.388 --> 08:09.407
+ve umarım sizi bazı pratik üzerinde verebilir
+
+08:09.407 --> 3:59:59.999
+gelecekteki videolar ve belki bazı bizim egzersizleri.

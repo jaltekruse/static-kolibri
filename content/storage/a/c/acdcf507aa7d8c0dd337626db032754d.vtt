@@ -1,0 +1,369 @@
+WEBVTT
+
+00:00.690 --> 00:02.045
+- [Instructor] In a previous video
+
+00:02.045 --> 00:05.386
+we started to get an
+intuition for rate curves
+
+00:05.386 --> 00:08.334
+and what the area under
+a rate curve represents.
+
+00:08.334 --> 00:10.685
+So, for example, this rate curve,
+
+00:10.685 --> 00:13.266
+this might represent a speed of a car
+
+00:13.266 --> 00:17.831
+and how a speed of a car is
+changing with respect to time.
+
+00:17.831 --> 00:20.683
+And so this shows us that our
+rate is actually changing,
+
+00:20.683 --> 00:23.202
+this isn't distance as function of time,
+
+00:23.202 --> 00:24.886
+this is rate as a function of time.
+
+00:24.886 --> 00:26.939
+So, this looks like car is accelerating.
+
+00:26.939 --> 00:30.049
+At time one it is going
+ten meters per second
+
+00:30.049 --> 00:32.752
+and at time five, let's
+assume that all of these
+
+00:32.752 --> 00:35.557
+are in seconds, so at five seconds,
+
+00:35.557 --> 00:38.045
+it is going 20 meters per second.
+
+00:38.045 --> 00:40.394
+So, it is is accelerating.
+
+00:40.394 --> 00:43.599
+Now the relationship between
+the rate function and the area,
+
+00:43.599 --> 00:45.863
+is that if we're able
+to figure out this area,
+
+00:45.863 --> 00:49.681
+then that is the change
+in distance of the car.
+
+00:49.681 --> 00:53.848
+So rate or speed in this case
+is distance per unit time,
+
+00:54.702 --> 00:57.781
+if we're able to figure out
+the area under that curve,
+
+00:57.781 --> 01:01.215
+it will actually give us
+our change in distance,
+
+01:01.215 --> 01:03.665
+from time one to time five.
+
+01:03.665 --> 01:05.688
+It won't tell us our total distance,
+
+01:05.688 --> 01:08.097
+cause we won't know what
+happens before time one,
+
+01:08.097 --> 01:10.657
+if we're not concerned with that area.
+
+01:10.657 --> 01:14.470
+And the intuition for that,
+it's a little bit easier
+
+01:14.470 --> 01:16.496
+if you're dealing with rectangles.
+
+01:16.496 --> 01:18.216
+But just think about this,
+let's make a rectangle
+
+01:18.216 --> 01:21.823
+that looks like a pretty good
+approximation for the area,
+
+01:21.823 --> 01:26.799
+let's say from time one to
+time two right over here.
+
+01:26.799 --> 01:29.939
+Well what is this area from
+the rectangle represent?
+
+01:29.939 --> 01:32.784
+To figure out the area we
+would multiply one second,
+
+01:32.784 --> 01:36.196
+that would be the width
+here, times roughly,
+
+01:36.196 --> 01:38.672
+looks like about ten meters per second.
+
+01:38.672 --> 01:41.370
+And so the units here would
+be ten meters per second,
+
+01:41.370 --> 01:44.290
+times on second, or ten meters.
+
+01:44.290 --> 01:47.228
+And we know from early
+physics or even before,
+
+01:47.228 --> 01:49.960
+that if you multiply a rate times time,
+
+01:49.960 --> 01:53.123
+or a speed times a time,
+you're gonna get a distance.
+
+01:53.123 --> 01:55.685
+And so the unit here is in distance,
+
+01:55.685 --> 01:59.182
+as you can see, this area
+is going to represent,
+
+01:59.182 --> 02:02.603
+it's gonna be an approximation
+for the distance traveled.
+
+02:02.603 --> 02:05.924
+And so, if you wanted
+to get an exact version,
+
+02:05.924 --> 02:09.008
+or an exact number for
+the distance traveled.
+
+02:09.008 --> 02:12.006
+You would get the exact
+area under the curve.
+
+02:12.006 --> 02:13.904
+And we have a notation for that.
+
+02:13.904 --> 02:17.523
+If you want the exact area
+under the curve right over here,
+
+02:17.523 --> 02:20.040
+we use definite integral notation.
+
+02:20.040 --> 02:21.473
+This area right over here,
+
+02:21.473 --> 02:23.829
+we can denote as a definite integral
+
+02:23.829 --> 02:26.496
+from one to five, of R of t, dt.
+
+02:29.240 --> 02:31.047
+And once again, what does this represent?
+
+02:31.047 --> 02:33.551
+In this case when our rate is speed?
+
+02:33.551 --> 02:36.125
+This represents this
+whole expression reprsents
+
+02:36.125 --> 02:39.958
+our change in distance
+from t is equal to one,
+
+02:45.816 --> 02:47.649
+to t is equal to five.
+
+02:49.793 --> 02:52.149
+Now with that context, let's
+actually try to do an example
+
+02:52.149 --> 02:55.997
+problem, the type that you
+might see on Khan Academy.
+
+02:55.997 --> 02:58.767
+So, this right over here tells us,
+
+02:58.767 --> 03:02.510
+Eden walked at a rate of r
+of t kilometers per hour,
+
+03:02.510 --> 03:05.100
+where t is the time in hours.
+
+03:05.100 --> 03:06.730
+Okay, so t is in hours.
+
+03:06.730 --> 03:09.448
+What does the integral,
+the definite integral
+
+03:09.448 --> 03:12.710
+from two to three of r
+of t dt equals six mean?
+
+03:12.710 --> 03:14.668
+So before I even look at these choices,
+
+03:14.668 --> 03:17.620
+this is saying, so this is
+going from t equals two hours
+
+03:17.620 --> 03:20.806
+to t equals three hours and
+it's essentially the area
+
+03:20.806 --> 03:23.376
+under the rate curve and here the rate is,
+
+03:23.376 --> 03:24.714
+we're talking about a speed.
+
+03:24.714 --> 03:29.510
+Eden is walking at a certain
+number of kilometers per hour.
+
+03:29.510 --> 03:32.683
+So what this means,
+that from time two hours
+
+03:32.683 --> 03:36.850
+to time three hours, Eden
+walked an extra six kilometers.
+
+03:38.246 --> 03:41.175
+So, let's see which of
+these choices match that.
+
+03:41.175 --> 03:44.258
+Eden walked six kilometers each hour?
+
+03:45.186 --> 03:48.288
+It does tell us from time two to three,
+
+03:48.288 --> 03:51.656
+Eden walked six kilometers,
+but it doesn't mean,
+
+03:51.656 --> 03:55.823
+but we don't know what happened
+from time zero to time one,
+
+03:56.948 --> 03:59.155
+or from time one to time two.
+
+03:59.155 --> 04:01.740
+So I would rule this out.
+
+04:01.740 --> 04:04.794
+Eden walked six kilometers in three hours.
+
+04:04.794 --> 04:07.142
+So this is a common misconception,
+
+04:07.142 --> 04:10.153
+people will look at the top bound
+
+04:10.153 --> 04:13.649
+and say okay, this area represented
+by the definite integral
+
+04:13.649 --> 04:15.738
+this tells us how far in total
+
+04:15.738 --> 04:18.538
+we have walked up until that point.
+
+04:18.538 --> 04:20.992
+That is not what this represents.
+
+04:20.992 --> 04:23.866
+This represents the change in distance
+
+04:23.866 --> 04:26.433
+from time two to time three.
+
+04:26.433 --> 04:28.090
+So, I'll rule that out.
+
+04:28.090 --> 04:31.413
+Eden walked six kilometers
+during the third hour.
+
+04:31.413 --> 04:33.473
+Yes, that's what we've been talking about.
+
+04:33.473 --> 04:38.189
+From time equal two hours
+to time equal three hours,
+
+04:38.189 --> 04:40.585
+Eden walked six kilometers
+and you could view that
+
+04:40.585 --> 04:44.500
+as the third hour, going
+from time two to time three.
+
+04:44.500 --> 04:48.066
+Eden's rate increased by
+six kilometers per hour
+
+04:48.066 --> 04:50.850
+between hours two and three.
+
+04:50.850 --> 04:54.485
+So let's be very clear,
+this right over here,
+
+04:54.485 --> 04:58.665
+this isn't a rate, this is
+the area under the rate curve,
+
+04:58.665 --> 05:01.160
+this is what this definite
+integral is representing.
+
+05:01.160 --> 05:04.248
+And so this isn't telling
+us about our rate changing,
+
+05:04.248 --> 05:07.819
+this is telling us how does
+the thing that the rate
+
+05:07.819 --> 05:11.005
+is measuring the change
+of, how does that change
+
+05:11.005 --> 05:12.812
+from time two to time three?
+
+05:12.812 --> 05:15.625
+So we would rule that out as well.

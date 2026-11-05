@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00.600 --> 00:05.150
+V tomto videu se podíváme na jedno ze
+základních pravidel diferenciálního počtu.
+
+00:05.150 --> 00:09.540
+Používáme ho, kdykoliv počítáme derivaci
+něčeho aspoň trochu složitějšího.
+
+00:09.540 --> 00:11.320
+Jde o derivaci
+složené funkce.
+
+00:11.320 --> 00:14.810
+Když toto pravidlo člověk vidí poprvé,
+může se zdát strašidelné a složité,
+
+00:14.810 --> 00:16.500
+ale jak uvidíte víc
+a víc příkladů,
+
+00:16.500 --> 00:21.940
+tak to začne dávat smysl a snad se pro
+vás stane i jednodušší a intuitivnější.
+
+00:21.940 --> 00:24.060
+Vezměme si tedy
+nějakou funkci.
+
+00:24.060 --> 00:36.700
+Řekněme, že máme funkci h(x), která
+se například rovná sin(x) na druhou.
+
+00:36.700 --> 00:40.750
+Taky bych to mohl napsat jako
+sinus na druhou v bodě x,
+
+00:40.750 --> 00:43.970
+ale tento zápis
+je snáze pochopitelný,
+
+00:43.970 --> 00:45.260
+takže budeme
+pracovat s ním.
+
+00:45.260 --> 00:49.850
+Máme tedy funkci h(x) a chceme vědět,
+čemu se rovná derivace funkce h.
+
+00:49.850 --> 00:52.400
+Chceme vědět, čemu se rovná
+h s čárkou v bodě x,
+
+00:52.400 --> 00:56.890
+což je jen jiný zápis pro
+derivaci h podle x.
+
+00:56.890 --> 00:58.600
+Jsou to jen
+rozdílné zápisy.
+
+00:58.600 --> 01:03.140
+Abych tuto derivaci spočítal, použiji
+pravidlo o derivaci složené funkce.
+
+01:03.140 --> 01:05.620
+Pravidlo o derivaci složené
+funkce použijeme tehdy,
+
+01:05.620 --> 01:10.060
+když je naše funkce složená
+z více než jedné funkce.
+
+01:10.060 --> 01:12.593
+Teď vám to možná
+ještě není jasné,
+
+01:12.603 --> 01:16.690
+ale na konci tohoto nebo
+příštího videa už to snad jasné bude.
+
+01:16.690 --> 01:21.470
+Teď vám položím takovou
+otázku na zamyšlení.
+
+01:21.480 --> 01:24.770
+Když se vás zeptám,
+čemu se rovná derivace podle x…
+
+01:24.770 --> 01:30.650
+Když použiji operátor derivace podle x
+na funkci x na druhou, co dostanu?
+
+01:30.660 --> 01:34.530
+Dostanu 2 krát x,
+to jsme viděli už mnohokrát.
+
+01:34.530 --> 01:39.210
+Co kdybych chtěl derivaci podle
+‚a‘ z funkce ‚a‘ na druhou?
+
+01:39.220 --> 01:42.850
+To je vlastně úplně totéž,
+jen jsem místo x napsal a,
+
+01:42.850 --> 01:45.720
+takže to bude
+2 krát a.
+
+01:45.720 --> 01:48.770
+Teď udělám něco
+trochu víc zvláštního.
+
+01:48.770 --> 02:01.740
+Co kdybych chtěl derivaci podle sin(x)
+z funkce sin(x) na druhou?
+
+02:01.740 --> 02:06.850
+Místo x nebo ‚a‘, jako to bylo nahoře,
+jsem teď napsal sin(x),
+
+02:06.850 --> 02:12.300
+takže to bude 2 krát to,
+podle čeho derivuji.
+
+02:12.300 --> 02:13.700
+Zde je derivace podle x,
+
+02:13.700 --> 02:14.670
+tady podle ‚a‘
+
+02:14.670 --> 02:16.790
+a zde podle sin(x),
+
+02:16.790 --> 02:21.880
+takže to bude
+2 krát sin(x).
+
+02:21.880 --> 02:23.815
+Pravidlo o derivaci
+složené funkce říká,
+
+02:23.815 --> 02:29.950
+že tato derivace se rovná derivaci
+celé naší funkce podle…
+
+02:29.950 --> 02:41.890
+Derivaci této vnější funkce,
+tedy x na druhou, podle sin(x),
+
+02:41.890 --> 02:47.060
+což je 2 krát sin(x).
+
+02:47.060 --> 02:51.200
+Můžeme se na to dívat také tak, že jde o
+derivaci vnější funkce podle té vnitřní.
+
+02:51.200 --> 02:52.440
+Tedy 2 krát sin(x).
+
+02:52.440 --> 02:55.940
+Na sin(x) se můžeme dívat, jako by
+to bylo x, takže by zde bylo 2 krát x,
+
+02:55.940 --> 02:58.570
+ale je to sin(x), tudíž zde
+bude 2 krát sin(x).
+
+02:58.570 --> 03:10.450
+Toto vynásobíme derivací
+funkce sin(x) podle x.
+
+03:10.450 --> 03:13.140
+To už je jednodušší
+a intuitivnější.
+
+03:13.140 --> 03:19.430
+Už jsme několikrát viděli,
+že derivace sin(x) podle x je cos(x),
+
+03:19.440 --> 03:21.450
+takže zde bude
+krát cos(x).
+
+03:21.450 --> 03:23.420
+Takto se derivuje
+složená funkce.
+
+03:23.420 --> 03:27.030
+Je to derivace vnější funkce
+podle vnitřní funkce,
+
+03:27.030 --> 03:31.420
+v našem případě derivace sin(x) na druhou
+podle sin(x), což je 2 krát sin(x),
+
+03:31.420 --> 03:37.160
+a tohle vynásobíme
+derivací sin(x) podle x.
+
+03:37.160 --> 03:38.370
+Ještě to ujasním.
+
+03:38.370 --> 03:55.710
+Toto je derivace funkce
+sin(x) na druhou podle sin(x),
+
+03:55.710 --> 04:07.280
+kterou pak násobíme
+derivací sin(x) podle x.
+
+04:07.280 --> 04:11.170
+Teď už by vám to mohlo
+začít připadat trochu intuitivní.
+
+04:11.170 --> 04:19.839
+Tato písmena 'd', ať už je za nimi
+x, sin(x) nebo něco jiného, nejsou čísla,
+
+04:19.839 --> 04:23.240
+i když nám tento zápis
+intuitivně připomíná zlomek.
+
+04:23.240 --> 04:25.360
+Kdybychom se na
+to ale dívali jako na zlomky,
+
+04:25.360 --> 04:28.030
+tak bychom mohli
+tohle pokrátit…
+
+04:28.030 --> 04:31.090
+Toto není matematicky precizní,
+ale pomůže vám to získat intuici.
+
+04:31.090 --> 04:37.200
+Zůstala by nám derivace
+sin(x) na druhou podle x.
+
+04:37.200 --> 04:48.250
+Zůstala by nám derivace naší původní
+funkce, tedy sin(x) na druhou, podle x,
+
+04:48.250 --> 04:50.450
+což je přesně
+dh lomeno dx,
+
+04:50.450 --> 04:58.350
+protože tohle je naše
+původní funkce h.
+
+04:58.350 --> 05:00.740
+Teď vám to možná
+přijde trochu strašidelné,
+
+05:00.740 --> 05:03.411
+ale v dalším videu udělám
+několik podobných příkladů
+
+05:03.411 --> 05:06.761
+a pak to zkusíme
+zapsat obecně.

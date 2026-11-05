@@ -1,0 +1,591 @@
+WEBVTT
+
+00:00.690 --> 00:02.400
+O que nós vamos fazer
+neste vídeo é
+
+00:02.400 --> 00:05.090
+tomar a região entre as
+duas curvas,
+
+00:05.090 --> 00:08.119
+y igual à raiz quadrada
+de x em cima e y igual
+
+00:08.119 --> 00:09.660
+à x ao quadrado em baixo
+
+00:09.660 --> 00:12.980
+e rotacioná-las em volta de uma reta
+vertical que não é o eixo y.
+
+00:12.980 --> 00:15.920
+Então, nós iremos rotacioná-la em
+volta da linha vertical
+
+00:15.920 --> 00:16.690
+x igual a dois.
+
+00:16.690 --> 00:19.310
+Iremos rotacionar por toda a
+volta desta forma.
+
+00:19.310 --> 00:21.990
+E se fizermos isso, nós
+iremos obter
+
+00:21.990 --> 00:25.150
+este sólido, este sólido de
+aparência estranha.
+
+00:25.150 --> 00:26.500
+Ele é oco no meio.
+
+00:26.500 --> 00:29.680
+Você pode dizer que y igual a
+x ao quadrado de certa forma
+
+00:29.680 --> 00:30.690
+esvazia o interior.
+
+00:30.690 --> 00:32.630
+E é na verdade o que
+está no meio
+
+00:32.630 --> 00:36.330
+que forma a parede deste
+sólido de revolução
+
+00:36.330 --> 00:39.010
+Então vamos pensar sobre como
+podemos descobrir o volume.
+
+00:39.010 --> 00:41.624
+E faremos isto com o método
+dos discos, algumas vezes
+
+00:41.634 --> 00:43.650
+chamado de método dos
+anéis-- na verdade,
+
+00:43.650 --> 00:45.773
+será mais o método dos
+anéis cilindricos--
+
+00:45.773 --> 00:47.740
+para fazer isto da forma correta.
+
+00:47.740 --> 00:50.190
+Então, rotacionando em volta
+de uma reta vertical.
+
+00:50.190 --> 00:52.930
+Nós queremos usar o método
+dos anéis cilíndricos.
+
+00:52.940 --> 00:55.020
+Então, será muito útil termos
+
+00:55.020 --> 00:58.490
+vários anéis empilhados
+na direção y.
+
+00:58.490 --> 01:01.530
+Assim, nós provavelmente vamos
+querer integrar em relação a y.
+
+01:01.530 --> 01:03.560
+Deixe-me esclarecer o que
+estou falando.
+
+01:03.560 --> 01:06.330
+Cada um de nossos anéis terá
+esta aparência.
+
+01:06.330 --> 01:08.280
+Deixe-me tentar meu melhor
+para desenhar.
+
+01:08.280 --> 01:12.430
+Assim, esse é o raio
+interno do anel
+
+01:12.430 --> 01:17.120
+definido por y igual a x ao quadrado.
+
+01:17.120 --> 01:19.110
+E então, o raio externo do anel
+
+01:19.110 --> 01:20.500
+deve ser mais ou menos assim.
+
+01:25.090 --> 01:27.660
+Minha tentativa de desenhar
+isto razoavelmente.
+
+01:27.660 --> 01:34.590
+O raio externo do anel deve
+se parecer com isso.
+
+01:34.590 --> 01:39.950
+E a profundidade do anel seria
+um pequeno dy deste jeito.
+
+01:39.950 --> 01:42.440
+Então deixe-me desenhar a
+profundidade.
+
+01:42.440 --> 01:43.944
+Deixe-me ver, bem aqui.
+
+01:43.944 --> 01:46.110
+Você pode ver isto como
+a altura do anel,
+
+01:46.110 --> 01:48.550
+pois estamos pensando
+numa direção vertical.
+
+01:48.550 --> 01:50.050
+E esse seria o anel para um
+
+01:50.050 --> 01:53.840
+dado y, digo, este y
+bem aqui.
+
+01:53.840 --> 01:55.840
+É essencialmente o anel gerado
+
+01:55.840 --> 02:02.100
+se você pegasse este retângulo
+de altura dy
+
+02:02.100 --> 02:05.012
+e rotacionasse em torno
+da reta x igual a dois.
+
+02:05.012 --> 02:06.470
+E nós construiremos
+um anel
+
+02:06.470 --> 02:12.730
+como esse para cada um
+dos y em nosso intervalo.
+
+02:12.730 --> 02:15.540
+Então você imagine o empilhamento
+de um conjunto de anéis
+
+02:15.540 --> 02:18.710
+como este e então, a soma
+dos volumes de todos
+
+02:18.710 --> 02:21.160
+estes anéis e o limite
+desta soma
+
+02:21.160 --> 02:23.956
+já que você tem um número infinito
+de anéis-- ou próximo
+
+02:23.956 --> 02:26.190
+do infinito-- ou, na verdade,
+um número infinito
+
+02:26.200 --> 02:28.470
+de anéis com uma altura, ou
+uma profundidade ou
+
+02:28.470 --> 02:30.130
+um dy infinitesimal.
+
+02:30.130 --> 02:31.950
+Vamos descobrir como
+faríamos isto.
+
+02:31.950 --> 02:34.235
+Bem, nós sabemos que tudo
+o que temos que fazer
+
+02:34.235 --> 02:37.000
+é descobrir o volume de um destes
+anéis, para um dado y,
+
+02:37.000 --> 02:38.940
+como função de y
+
+02:38.940 --> 02:41.735
+e então, integrar ao longo
+deles, somá-los.
+
+02:41.735 --> 02:43.540
+Então vamos descobrir
+qual é o volume
+
+02:43.550 --> 02:44.510
+de um desses anéis.
+
+02:44.510 --> 02:46.890
+Para isto, iremos expressar
+estas funções
+
+02:46.940 --> 02:48.700
+como funções de y.
+
+02:48.990 --> 02:53.350
+Então nossa função roxa, y
+igual à raiz quadrada de x,
+
+02:53.350 --> 02:59.830
+tomamos a raiz dos dois lados,
+obtendo y ao quadrado
+
+02:59.830 --> 03:00.695
+é igual a x.
+
+03:00.695 --> 03:03.070
+Vou trocar os lados para que
+fique claro que x
+
+03:03.070 --> 03:03.972
+é uma função de y.
+
+03:03.972 --> 03:07.110
+x é igual a y ao quadrado.
+
+03:07.130 --> 03:09.300
+É a função superior da
+forma que a desenhamos
+
+03:09.300 --> 03:12.350
+uma espécie de casca
+da nossa figura.
+
+03:12.350 --> 03:16.800
+E então y igual a
+x ao quadrado,
+
+03:16.800 --> 03:19.642
+se você tomar a raiz de ambos
+os lados e isto tudo
+
+03:19.642 --> 03:22.310
+funciona por estarmos operando
+no primeiro quadrante.
+
+03:22.340 --> 03:24.380
+Devemos nos preocupar
+com isso.
+
+03:24.380 --> 03:28.590
+Então, obtemos x igual à raiz
+quadrada de y.
+
+03:28.590 --> 03:30.520
+É a nossa função amarela.
+
+03:31.120 --> 03:34.850
+Agora, como descobrimos a
+área da superfície
+
+03:34.850 --> 03:38.070
+de um destes anéis cilíndricos?
+
+03:38.130 --> 03:40.642
+Bem, a área-- deixe-me
+fazer em laranja
+
+03:40.682 --> 03:42.400
+pois desenhei o anel em laranja.
+
+03:42.440 --> 03:46.770
+A área da superfície em laranja
+
+03:46.770 --> 03:50.730
+como uma função de y
+
+03:50.730 --> 03:54.130
+será igual à área
+de um círculo
+
+03:54.130 --> 03:55.810
+se eu considerar só
+o raio externo,
+
+03:55.810 --> 03:58.370
+e então, eu subtraio a área do
+círculo construído pelo
+
+03:58.370 --> 04:01.210
+raio interno, apenas o subtraio.
+
+04:01.210 --> 04:03.010
+Então o raio do círculo externo,
+
+04:03.010 --> 04:11.670
+será pi vezes raio externo ao quadrado
+
+04:11.670 --> 04:15.380
+menos pi-- deixe-me escrever desta forma--
+
+04:15.380 --> 04:18.041
+externo-- bem,
+escreverei
+
+04:18.041 --> 04:19.500
+somente isto--
+raio externo--
+
+04:19.500 --> 04:22.830
+será uma função de y-- raio externo
+
+04:22.830 --> 04:30.490
+ao quadrado menos pi vezes
+raio interno ao quadrado.
+
+04:30.490 --> 04:32.680
+E nós queremos tudo isto
+como função de y.
+
+04:32.680 --> 04:38.570
+Então o raio externo
+como função de y
+
+04:38.570 --> 04:39.409
+será o que?
+
+04:39.739 --> 04:42.090
+Pode ser mais fácil de
+visualizar-- na verdade,
+
+04:42.090 --> 04:43.190
+tentarei os dois.
+
+04:43.190 --> 04:47.570
+Então, é toda esta
+distância aqui,
+
+04:47.570 --> 04:51.550
+essencialmente, a distância
+entre a reta vertical,
+
+04:51.550 --> 05:02.180
+a distância horizontal entre a
+reta vertical, e a função externa.
+
+05:02.180 --> 05:03.970
+Então se você pensar em
+termos de x,
+
+05:03.970 --> 05:06.370
+Será 2 menos qualquer que seja
+
+05:06.370 --> 05:08.970
+o valor de x aqui.
+
+05:08.970 --> 05:12.540
+Então, o valor de x bem aqui
+será y ao quadrado.
+
+05:12.540 --> 05:14.610
+Lembre, nós queremos isto
+como função de y.
+
+05:14.610 --> 05:16.580
+Então o raio externo,
+toda esta distância,
+
+05:16.580 --> 05:20.480
+será dois menos o valor de x
+como função de y.
+
+05:20.480 --> 05:22.410
+Esse valor de x é y
+ao quadrado.
+
+05:22.410 --> 05:26.770
+Assim, o raio externo é dois
+menos x-- desculpe
+
+05:26.770 --> 05:28.350
+dois menos y ao quadrado.
+
+05:28.350 --> 05:31.390
+Nós queremos isto como função de y.
+
+05:31.390 --> 05:37.204
+Então nosso raio interno
+será igual a que?
+
+05:37.214 --> 05:39.440
+Bem, será a diferença, a
+distância horizontal
+
+05:39.440 --> 05:42.570
+entre esta linha vertical
+
+05:42.570 --> 05:45.950
+e nossa função interna,
+nossa fronteira interior.
+
+05:45.950 --> 05:48.050
+Então, será a distância horizontal
+
+05:48.050 --> 05:50.420
+entre dois e qualquer
+que seja o valor de x.
+
+05:50.420 --> 05:55.140
+Mas este valor de x como função de y é
+simplesmente a raiz quadrada de y
+
+05:55.140 --> 06:00.200
+Será assim, dois menos
+a raiz quadrada de y.
+
+06:00.200 --> 06:02.960
+Então agora, nós podemos obter
+uma expressão para a área.
+
+06:02.960 --> 06:05.350
+Será-- e eu irei fatorar--
+na verdade,
+
+06:05.350 --> 06:06.350
+Deixarei pi ali.
+
+06:06.350 --> 06:08.730
+Será pi-- bem aqui--
+
+06:08.730 --> 06:12.070
+será pi vezes o raio externo
+ao quadrado.
+
+06:12.070 --> 06:15.290
+Bem, o raio externo é
+dois menos y ao quadrado--
+
+06:15.680 --> 06:18.153
+deixe-me só-- vou escrever aqui.
+
+06:18.153 --> 06:20.890
+dois menos y ao quadrado-- e iremos
+
+06:20.890 --> 06:27.240
+elevar ao quadrado, menos pi vezes
+o raio interno ao quadrado
+
+06:27.330 --> 06:28.760
+Bem, nós já descobrimos.
+
+06:28.760 --> 06:32.240
+O raio interno é dois menos
+a raiz quadrada de y.
+
+06:32.240 --> 06:34.340
+E nós iremos elevar ao quadro esse também.
+
+06:34.340 --> 06:37.330
+Assim, isto nos dá a área
+de um de nossos anéis
+
+06:37.330 --> 06:41.010
+como função de y, o topo do anel,
+
+06:41.040 --> 06:42.622
+onde marquei de laranja.
+
+06:42.622 --> 06:44.920
+E agora, se quisermos o volume
+de um dos anéis,
+
+06:44.920 --> 06:47.004
+temos que multiplicar por sua profundidade
+
+06:47.004 --> 06:49.070
+ou altura, que nós desenhamos bem aqui.
+
+06:49.070 --> 06:52.030
+E sua altura-- já fizemos isto
+diversas vezes bem aqui--
+
+06:52.030 --> 06:55.580
+é uma variação infinitesimal em y.
+
+06:55.580 --> 06:59.840
+Então vamos multiplicar
+tudo isso por dy.
+
+06:59.840 --> 07:01.660
+Este é o volume de um
+de nossos anéis.
+
+07:01.660 --> 07:04.631
+E então, nós queremos somar todos os
+anéis em nosso intervalo
+
+07:04.631 --> 07:07.130
+Iremos então somar todos
+os anéis no intervalo.
+
+07:07.130 --> 07:08.270
+O sinal da integral,
+
+07:08.270 --> 07:11.260
+é uma soma onde você está tomando
+o limite, uma vez que você
+
+07:11.260 --> 07:14.400
+tem um número infinito de anéis
+que se tornam infinitesimalmente
+
+07:14.400 --> 07:17.500
+pequenos em altura ou profundidade,
+dependendo de como você os vê.
+
+07:17.510 --> 07:19.420
+E qual é o nosso intervalo?
+
+07:19.450 --> 07:21.180
+Nós olhamos para ele
+diversas vezes.
+
+07:21.190 --> 07:23.180
+Os dois gráficos-- você pode
+visualizar.
+
+07:23.180 --> 07:24.763
+Você pode tentar
+de outra forma,
+
+07:24.763 --> 07:27.190
+mas é bastante óbvio que
+eles se interceptam em--
+
+07:27.190 --> 07:29.150
+lembre-se que queremos
+o intervalo em y.
+
+07:29.150 --> 07:34.355
+Eles se interceptam em y
+igual a zero e y igual a um.
+
+07:38.404 --> 07:39.320
+E aqui está.
+
+07:39.320 --> 07:42.900
+Nós montamos nossa integral
+para o volume
+
+07:42.900 --> 07:45.106
+deste sólido aqui.
+
+07:45.106 --> 07:46.980
+Vou parar por aqui,
+e no próximo vídeo,
+
+07:46.980 --> 07:48.138
+resolverei a integral
+
+07:48.138 --> 07:50.000
+[Legendado por Laércio Junior]

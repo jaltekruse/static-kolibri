@@ -1,0 +1,1080 @@
+WEBVTT
+
+00:00.400 --> 00:03.100
+In the last video, we hopefully
+got ourselves a respectable
+
+00:03.100 --> 00:06.760
+understanding of how a
+vector-valued function works,
+
+00:06.760 --> 00:10.340
+or even better, a position
+vector-valued function, that
+
+00:10.340 --> 00:13.460
+is, in some ways, a
+replacement for traditional
+
+00:13.460 --> 00:16.110
+parameterization to
+describe a curve.
+
+00:16.110 --> 00:18.050
+And what I want to do in this
+video is just get a little bit
+
+00:18.050 --> 00:21.910
+of gut sense of what it means
+to take of a derivative of
+
+00:21.910 --> 00:23.730
+a vector-valued function.
+
+00:23.730 --> 00:27.190
+In this case, it'll be with
+respect to our parameter t.
+
+00:27.190 --> 00:30.510
+So let me draw some
+new stuff right here.
+
+00:30.510 --> 00:36.580
+So let's say I have the
+vector-valued function r of t,
+
+00:36.580 --> 00:39.450
+and this is no different than
+what I did in last video. x of
+
+00:39.450 --> 00:46.830
+t times unit vector i plus y of
+t times the unit vector j.
+
+00:46.830 --> 00:49.460
+If we were doing it in 3
+dimensions, we'd add a z of t
+
+00:49.460 --> 00:52.510
+times k, but let's keep things
+relatively simple, and let's
+
+00:52.510 --> 00:56.950
+say that this describes a
+curve, and let's say the curve
+
+00:56.950 --> 01:03.630
+we're dealing with, t is
+between a and b, and this curve
+
+01:03.630 --> 01:07.870
+will look something like, let
+me do my best effort to draw
+
+01:07.870 --> 01:12.600
+the curve, I'll just draw some
+random curve here, so
+
+01:12.600 --> 01:17.900
+let's say the curve looks
+something like that.
+
+01:17.900 --> 01:19.890
+This is when t is equal
+to a, so it's going to
+
+01:19.890 --> 01:21.750
+go in this direction.
+
+01:21.750 --> 01:25.620
+This is when t is equal to b
+right here, this is t is equal
+
+01:25.620 --> 01:30.790
+to a, so this right here would
+be x of a, this right here is y
+
+01:30.790 --> 01:36.730
+of a, and similarly, this up
+here, this is x of b, and
+
+01:36.730 --> 01:40.240
+this over here is y of b.
+
+01:40.240 --> 01:45.150
+Now, we saw in the last video
+that the endpoints of these
+
+01:45.150 --> 01:47.720
+position vectors are what's
+describing this curve.
+
+01:47.720 --> 01:51.400
+So r of a we saw in the
+last video, it describes
+
+01:51.400 --> 01:52.300
+that point right there.
+
+01:52.300 --> 01:54.270
+I don't want to review
+that too much.
+
+01:54.270 --> 01:56.800
+But what I want to do is
+think about, what is the
+
+01:56.800 --> 01:58.930
+difference between 2 points?
+
+01:58.930 --> 02:01.410
+So let's say that we take
+some random point here.
+
+02:01.410 --> 02:03.760
+Let's say, some random t here.
+
+02:03.760 --> 02:06.780
+Let's call that r of t.
+
+02:06.780 --> 02:08.197
+Well actually, I'm going to do
+a different point, just because
+
+02:08.197 --> 02:10.100
+I want to make it a
+little bit clearer.
+
+02:10.100 --> 02:13.370
+So let's say-- I'm going to
+switch colors-- let's say
+
+02:13.370 --> 02:17.080
+that that right there
+is r of some t.
+
+02:17.080 --> 02:18.980
+Some particular t, right there.
+
+02:18.980 --> 02:22.410
+That is r of t.
+
+02:22.410 --> 02:25.050
+It's going to be, you
+know, a plus something.
+
+02:25.050 --> 02:26.950
+So that's some a particular t.
+
+02:26.950 --> 02:30.080
+And let's say that we want to
+figure out, and let's say we
+
+02:30.080 --> 02:31.560
+increase t by a little bit.
+
+02:31.560 --> 02:32.650
+By h.
+
+02:32.650 --> 02:37.250
+So let's say that r of t plus
+h, well, if we view the
+
+02:37.250 --> 02:40.430
+parameter t as time, we've
+moved in forward in time by
+
+02:40.430 --> 02:42.310
+some amount, so our little
+particle has moved
+
+02:42.310 --> 02:43.180
+a little bit.
+
+02:43.180 --> 02:45.650
+And let's say that
+we're over here.
+
+02:45.650 --> 02:52.530
+So that is that right there,
+in yellow, is r of t plus h.
+
+02:52.530 --> 02:55.360
+Just a slightly
+larger value for h.
+
+02:55.360 --> 03:00.040
+Now, one question we might ask
+ourselves, is how quickly is r
+
+03:00.040 --> 03:04.650
+changing with respect to t?
+
+03:04.650 --> 03:06.380
+So the first thing we might
+want to say, well, what's the
+
+03:06.380 --> 03:07.550
+difference between these two?
+
+03:07.550 --> 03:11.010
+If I were to take, and I
+want to visualize it.
+
+03:11.010 --> 03:16.880
+If I were to take r, the
+position vector, that we get by
+
+03:16.880 --> 03:21.080
+evaluating r at t plus h, and
+from that, I would
+
+03:21.080 --> 03:22.590
+subtract r of t.
+
+03:25.580 --> 03:26.690
+What do we get?
+
+03:26.690 --> 03:29.730
+Well, you might want to review
+some of your vector algebra
+
+03:29.730 --> 03:32.130
+but we're essentially just
+going to get this vector.
+
+03:32.130 --> 03:34.210
+Let me do it in a
+nice, vibrant color.
+
+03:34.210 --> 03:36.820
+We're going to get this
+vector right there, that
+
+03:36.820 --> 03:39.320
+I'm doing in magenta.
+
+03:39.320 --> 03:44.010
+So that magenta vector right
+there is, let me do it, that
+
+03:44.010 --> 03:47.080
+magenta one right there,
+is the vector r of t
+
+03:47.080 --> 03:53.120
+plus h minus r of t.
+
+03:53.120 --> 03:55.110
+And it should make sense,
+because when you add vectors,
+
+03:55.110 --> 03:56.050
+you go heads to tails.
+
+03:56.050 --> 04:04.060
+You could alternatively write
+this as r of t plus this
+
+04:04.060 --> 04:11.490
+character right here, plus r
+of t plus h minus r of t.
+
+04:11.490 --> 04:13.630
+When you add two vectors,
+you're adding, let me make
+
+04:13.630 --> 04:16.180
+it very clear, I'm adding
+this vector to this
+
+04:16.180 --> 04:17.350
+vector right here.
+
+04:17.350 --> 04:20.260
+You put the tail of the
+second vector at the
+
+04:20.260 --> 04:21.450
+head of the first.
+
+04:21.450 --> 04:23.850
+So this is the first vector,
+and I put the tail of the
+
+04:23.850 --> 04:28.000
+second there, and then the sum
+of those two, as we predicted,
+
+04:28.000 --> 04:29.470
+should be equal to
+this last one.
+
+04:29.470 --> 04:33.050
+It should be equal
+to r of t plus h.
+
+04:33.050 --> 04:36.000
+And we see that is the case,
+and algebraically, you would
+
+04:36.000 --> 04:39.240
+see that obviously this
+guy and that guy are
+
+04:39.240 --> 04:40.080
+going to cancel out.
+
+04:40.080 --> 04:41.270
+So hopefully that
+satisfies you.
+
+04:41.270 --> 04:42.510
+And I want to be clear.
+
+04:42.510 --> 04:45.450
+This, all of a sudden, this
+isn't a position vector.
+
+04:45.450 --> 04:48.560
+We're not saying that hey,
+let's nail this guy's tail at
+
+04:48.560 --> 04:51.870
+the origin and use this guy to
+describe a unique position.
+
+04:51.870 --> 04:54.610
+Now all of a sudden he's, it's
+just kind of a pure vector.
+
+04:54.610 --> 04:57.700
+It's describing just
+a change between two
+
+04:57.700 --> 04:59.140
+other position vectors.
+
+04:59.140 --> 05:00.790
+So this guy is right out here.
+
+05:00.790 --> 05:03.930
+But this vector literally
+describes the change.
+
+05:03.930 --> 05:07.070
+But say we care, and how would
+this look algebraically if we
+
+05:07.070 --> 05:08.460
+were to expand it like that?
+
+05:08.460 --> 05:14.740
+So this is going to be equal
+to, what's r of t plus h?
+
+05:14.740 --> 05:20.520
+That's the same thing as x
+of, let me do it over here.
+
+05:20.520 --> 05:27.190
+This is the same thing as x of
+t plus h times the unit vector
+
+05:27.190 --> 05:35.040
+i plus y of t plus h times the
+unit vector j, that's just that
+
+05:35.040 --> 05:40.570
+piece, that piece right there
+is that piece, minus this
+
+05:40.570 --> 05:44.300
+piece, so minus, I'll do it in
+the second line, I could have
+
+05:44.300 --> 05:46.240
+done it out here, but I'm
+running out of space.
+
+05:46.240 --> 05:52.650
+Minus x of t, right r of t is
+just x of t times i, plus, but
+
+05:52.650 --> 05:55.700
+I'll just distribute the minus
+sign, so it's minus
+
+05:55.700 --> 05:59.690
+y of t times j.
+
+05:59.690 --> 06:02.660
+Actually let me write it,
+this would be minus, let me
+
+06:02.660 --> 06:04.130
+write this way, plus this.
+
+06:04.130 --> 06:06.200
+So you realize that this
+is really just this
+
+06:06.200 --> 06:06.950
+guy right here.
+
+06:06.950 --> 06:09.200
+I'm just evaluating at t.
+
+06:09.200 --> 06:11.030
+So you have x of t and y
+of t, and then later we
+
+06:11.030 --> 06:11.970
+can distribute, right?
+
+06:11.970 --> 06:14.255
+If you distribute this minus
+sign, you get a minus x
+
+06:14.255 --> 06:15.920
+of t and a minus y of t.
+
+06:15.920 --> 06:19.380
+And in vector addition, you
+might need a little review on
+
+06:19.380 --> 06:20.920
+this if you haven't seen it in
+a while, you know that you can
+
+06:20.920 --> 06:22.990
+just add the corresponding
+components.
+
+06:22.990 --> 06:24.450
+You can add the x-components
+and you can add
+
+06:24.450 --> 06:25.750
+the y-components.
+
+06:25.750 --> 06:28.790
+So this is going to be equal
+to, let me rewrite it over
+
+06:28.790 --> 06:31.810
+here, because I think I'm going
+to need some space later on.
+
+06:31.810 --> 06:34.510
+So let me rewrite it over here.
+
+06:34.510 --> 06:42.930
+So I have r of t plus h minus r
+of t is equal to, and I'm just
+
+06:42.930 --> 06:47.100
+going to group the x- and the
+y-components, this is equal to
+
+06:47.100 --> 06:49.920
+the x-components added
+together, but this is a
+
+06:49.920 --> 06:51.400
+negative, so we're going to
+subtract this guy
+
+06:51.400 --> 06:52.100
+from that guy.
+
+06:52.100 --> 07:02.400
+So x of t plus h minus x of t,
+and then all of that times our
+
+07:02.400 --> 07:09.840
+unit vector in the x-direction,
+and then we'll have plus y of t
+
+07:09.840 --> 07:16.900
+plus h minus y of t times a
+unit vector the j-direction,
+
+07:16.900 --> 07:19.490
+I'm just rearranging things
+right now, and this will tell
+
+07:19.490 --> 07:25.870
+us what is our change between
+any 2 r's for given
+
+07:25.870 --> 07:26.610
+change in distance.
+
+07:26.610 --> 07:29.140
+And our change in distance
+here is h between any
+
+07:29.140 --> 07:31.000
+2 position vectors.
+
+07:31.000 --> 07:33.500
+Now, what I set out at the
+beginning of this video, I
+
+07:33.500 --> 07:36.100
+said, well, I wanted to figure
+out the change, and we're going
+
+07:36.100 --> 07:37.990
+to think about the
+instantaneous change
+
+07:37.990 --> 07:39.790
+with respect to t.
+
+07:39.790 --> 07:42.920
+So I want to see, well,
+how much did this change
+
+07:42.920 --> 07:46.570
+over a period of h?
+
+07:46.570 --> 07:48.750
+Instead of writing h we could
+have written delta t, it
+
+07:48.750 --> 07:50.010
+would've been the same thing.
+
+07:50.010 --> 07:52.570
+So I want to divide this by h.
+
+07:52.570 --> 07:55.410
+So I want to say, look.
+
+07:55.410 --> 07:58.200
+My vectors changed this much,
+but I want to say it's
+
+07:58.200 --> 07:59.310
+over a period of h.
+
+07:59.310 --> 08:01.250
+And this is analogous
+to when we do slope.
+
+08:01.250 --> 08:05.090
+We say rise over run, over
+delta y, or change in
+
+08:05.090 --> 08:06.290
+y, over change in x.
+
+08:06.290 --> 08:09.160
+This is kind of the change in
+our function per change in x.
+
+08:09.160 --> 08:11.960
+Let's just divide everything,
+or I shouldn't say change
+
+08:11.960 --> 08:13.470
+x, per change in t.
+
+08:13.470 --> 08:17.100
+So here, our change
+in t is h, right?
+
+08:17.100 --> 08:21.290
+The difference between t plus h
+and t is just going to be h.
+
+08:21.290 --> 08:25.650
+And so we're going to
+divide everything by h.
+
+08:25.650 --> 08:28.750
+When you multiply a vector by
+some scalar, or divide it by
+
+08:28.750 --> 08:31.070
+some scalar, or you're just the
+taking each of its components
+
+08:31.070 --> 08:34.140
+and multiplying or dividing
+by that scalar, and we
+
+08:34.140 --> 08:35.660
+get that right there.
+
+08:35.660 --> 08:39.540
+So this, for any finite
+difference right here, h,
+
+08:39.540 --> 08:43.300
+this'll tell us how much
+our vector changes per h.
+
+08:43.300 --> 08:46.220
+But if we want to find the
+instantaneous change, right,
+
+08:46.220 --> 08:49.230
+just like what we did when we
+first learned differential
+
+08:49.230 --> 08:50.520
+calculus, we said, ok.
+
+08:50.520 --> 08:52.670
+This is kind of
+analogous to a slope.
+
+08:52.670 --> 08:55.520
+This would be good, this would
+work out well for us, if the
+
+08:55.520 --> 09:02.220
+path under question looked
+something like this.
+
+09:02.220 --> 09:04.920
+If it was a linear path.
+
+09:04.920 --> 09:07.240
+If our path looked
+something like this.
+
+09:07.240 --> 09:09.800
+We could just calculate this,
+and we'll essentially have the
+
+09:09.800 --> 09:13.080
+average change in our position
+vectors, so you could imagine,
+
+09:13.080 --> 09:15.880
+2 position vectors,
+that's one of them.
+
+09:15.880 --> 09:18.050
+Well, actually, they'd
+all be parallel.
+
+09:18.050 --> 09:24.470
+Well, the position vectors,
+they don't have to be parallel.
+
+09:24.470 --> 09:26.740
+They could be like that.
+
+09:26.740 --> 09:29.340
+And then, this would just
+describe the change between
+
+09:29.340 --> 09:32.940
+these 2 per h, or how quickly
+are the position vectors
+
+09:32.940 --> 09:36.230
+changing per our change
+in our parameter, right?
+
+09:36.230 --> 09:40.530
+This is, the h, you could also
+consider, is kind of a delta t.
+
+09:40.530 --> 09:44.050
+Sometimes people find the
+h simpler, or sometimes
+
+09:44.050 --> 09:44.900
+they find the delta t.
+
+09:44.900 --> 09:47.230
+But anyway, I'm concerned
+with the instantaneous.
+
+09:47.230 --> 09:49.140
+We're dealing with curves,
+we're dealing with calculus.
+
+09:49.140 --> 09:50.870
+This would have been OK
+if we were just in an
+
+09:50.870 --> 09:52.670
+algebraic, linear world.
+
+09:52.670 --> 09:53.850
+So what do we do?
+
+09:53.850 --> 09:58.080
+Well maybe, we can just take
+the limit as h approaches 0.
+
+09:58.080 --> 09:59.760
+Let me scroll this over.
+
+09:59.760 --> 10:03.700
+So let's just take the limit,
+let me do this in a nice
+
+10:03.700 --> 10:07.910
+vibrant color, let's take, I'm
+running out of colors, the
+
+10:07.910 --> 10:12.170
+limit as h approaches 0
+of both sides of this.
+
+10:12.170 --> 10:16.440
+So here, too, I'm going to take
+the limit as h approaches 0,
+
+10:16.440 --> 10:18.520
+and here, too, I'm going to
+take the limit as
+
+10:18.520 --> 10:20.380
+h approaches 0.
+
+10:20.380 --> 10:22.970
+So I just want to say, well,
+what happens, how much do I
+
+10:22.970 --> 10:27.866
+change per a change in my
+parameter t, but what's kind of
+
+10:27.866 --> 10:30.480
+the instantaneous change, as
+the difference gets smaller
+
+10:30.480 --> 10:31.280
+and smaller and smaller?
+
+10:31.280 --> 10:33.870
+This is exactly what we first
+learned when we learned about
+
+10:33.870 --> 10:36.810
+instantaneous slope, or
+instantaneous velocity, or
+
+10:36.810 --> 10:38.330
+slope of a tangent line.
+
+10:38.330 --> 10:41.270
+Well, this thing looks a little
+bit undefined to me, right now.
+
+10:41.270 --> 10:45.260
+We haven't defined limits for
+vector-valued functions, we
+
+10:45.260 --> 10:47.820
+haven't defined derivatives
+for vector-valued functions.
+
+10:47.820 --> 10:50.250
+But lucky for us, all of
+this stuff here looks
+
+10:50.250 --> 10:51.160
+pretty familiar.
+
+10:51.160 --> 10:54.400
+This is actually the
+definition of our derivative.
+
+10:54.400 --> 10:56.310
+And these are scalar-valued
+functions right here.
+
+10:56.310 --> 10:58.340
+They're multiplied by vectors,
+in order for us to get
+
+10:58.340 --> 10:59.880
+vector-valued functions.
+
+10:59.880 --> 11:02.100
+But this right here, by
+definition, this is the
+
+11:02.100 --> 11:04.330
+derivative, this
+is x prime of t.
+
+11:04.330 --> 11:08.020
+Or this is dx dt.
+
+11:08.020 --> 11:12.280
+This right here is y
+prime of t, or we could
+
+11:12.280 --> 11:14.950
+write that as dy dt.
+
+11:14.950 --> 11:17.520
+So all of a sudden we can
+define, we can say, and I'm
+
+11:17.520 --> 11:19.220
+being a little hand-wavy here,
+but I want to give you the
+
+11:19.220 --> 11:20.590
+intuition, more than anything.
+
+11:20.590 --> 11:23.890
+We can say that the derivative,
+we can call this expression
+
+11:23.890 --> 11:30.100
+right here, as the derivative
+of my vector-valued function r
+
+11:30.100 --> 11:35.440
+with respect to t, or we could
+call it dr dt, notice I keep
+
+11:35.440 --> 11:37.170
+the vector signs there.
+
+11:37.170 --> 11:44.470
+This is its derivative, and all
+it's going to be equal to, r
+
+11:44.470 --> 11:47.700
+prime of t, is going to be
+equal to, well, this is just
+
+11:47.700 --> 11:50.450
+the derivative of x with
+respect to t, is equal to x
+
+11:50.450 --> 11:54.230
+prime of t times the x-unit
+vector, the horizontal unit
+
+11:54.230 --> 12:01.170
+vector, plus y prime of t,
+times the y-unit vector, times
+
+12:01.170 --> 12:04.240
+j, the unit vector in the
+horizontal direction.
+
+12:04.240 --> 12:06.800
+That's a pretty nice
+and simple outcome.
+
+12:06.800 --> 12:09.340
+But the hard thing may be
+to a kind of visualize
+
+12:09.340 --> 12:10.730
+what it represents.
+
+12:10.730 --> 12:14.490
+So if we think about what
+happens, let me draw a big
+
+12:14.490 --> 12:19.730
+graph, just to get the
+visualization in a healthy way.
+
+12:19.730 --> 12:22.310
+So let's say my curve looks
+something like this.
+
+12:22.310 --> 12:23.700
+That's my curve.
+
+12:23.700 --> 12:26.860
+And let's say that this is,
+we want to figure out the
+
+12:26.860 --> 12:29.210
+instantaneous change at
+this point right here.
+
+12:29.210 --> 12:32.550
+So that is r of t.
+
+12:32.550 --> 12:35.520
+And then if we take r of t plus
+h, we saw this already, you
+
+12:35.520 --> 12:39.740
+know, t plus h might be
+something like right there.
+
+12:39.740 --> 12:43.090
+So this is r of t plus h.
+
+12:43.090 --> 12:46.290
+Right now, the difference
+between these two, and this is
+
+12:46.290 --> 12:49.250
+just the numerator when you
+take the difference, or how
+
+12:49.250 --> 12:55.170
+fast we're changing from this
+vector to that vector in terms
+
+12:55.170 --> 12:57.140
+of t, and it's hard
+to visualize here.
+
+12:57.140 --> 12:58.960
+And I'm going to do a whole
+video so we can think about
+
+12:58.960 --> 13:00.160
+the magnitudes here.
+
+13:00.160 --> 13:02.200
+That might be some vector.
+
+13:02.200 --> 13:03.560
+Well, the difference
+between these two is
+
+13:03.560 --> 13:05.070
+just going to be that.
+
+13:05.070 --> 13:07.470
+But then when you divide it by
+h, it's going to be a larger
+
+13:07.470 --> 13:10.840
+vector, right, if we assume
+that h is a small number.
+
+13:10.840 --> 13:12.410
+Let's say h is less than one.
+
+13:12.410 --> 13:14.410
+We're going to get a
+larger vector, right?
+
+13:14.410 --> 13:17.100
+But this is kind of the average
+change over this time.
+
+13:17.100 --> 13:22.910
+But as h gets smaller and
+smaller and smaller, this r
+
+13:22.910 --> 13:26.100
+prime of t is going to, its
+direction is going to be
+
+13:26.100 --> 13:28.090
+tangential to the curve.
+
+13:28.090 --> 13:29.900
+And I think you can
+visualize that, right?
+
+13:29.900 --> 13:33.320
+As these two guys get closer
+and closer and closer, the dr's
+
+13:33.320 --> 13:37.790
+get smaller, so the change, the
+dr, the difference between the
+
+13:37.790 --> 13:41.220
+two, the delta r's, get smaller
+and smaller, you can imagine if
+
+13:41.220 --> 13:43.790
+h was even smaller, if
+it was right here.
+
+13:43.790 --> 13:45.510
+Then all of a sudden, the
+difference between those two
+
+13:45.510 --> 13:47.795
+vectors is getting smaller.
+
+13:47.795 --> 13:50.500
+And it's getting more and more
+tangential to the curve.
+
+13:53.770 --> 13:56.800
+But then we're also dividing by
+a smaller h, so the actual
+
+13:56.800 --> 14:00.670
+derivative, as the limit of h
+approaches 0, it might be you
+
+14:00.670 --> 14:02.120
+know, maybe it's even a
+bigger number there.
+
+14:02.120 --> 14:04.420
+And actually, the magnitude
+of this vector, it's a
+
+14:04.420 --> 14:05.720
+little hard to visualize.
+
+14:05.720 --> 14:09.510
+It's going to be dependent our
+parameterization for the curve.
+
+14:09.510 --> 14:11.990
+it's not dependent on
+the shape of the curve.
+
+14:11.990 --> 14:15.170
+The direction of this vector is
+dependent on the shape of this
+
+14:15.170 --> 14:17.860
+curve, and the direction, so
+the direction, this will
+
+14:17.860 --> 14:22.460
+be tangent to the curve.
+
+14:22.460 --> 14:26.830
+Or you could imagine that this
+vector is on the tangent
+
+14:26.830 --> 14:28.220
+line to the curve.
+
+14:28.220 --> 14:30.960
+The magnitude of it is a little
+bit hard to understand.
+
+14:30.960 --> 14:33.050
+I'll try to give you a
+little bit of intuition on
+
+14:33.050 --> 14:35.060
+that in the next video.
+
+14:35.060 --> 14:37.380
+But this is what I want you to
+understand right now, because
+
+14:37.380 --> 14:40.990
+we're going to be able to use
+this in the future, when we do
+
+14:40.990 --> 14:44.400
+the line integral over
+vector-valued functions.

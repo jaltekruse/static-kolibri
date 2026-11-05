@@ -1,0 +1,444 @@
+WEBVTT
+
+00:00.120 --> 00:01.820
+- [Instructor] So let's write
+down a differential equation,
+
+00:01.820 --> 00:04.880
+the derivative of y with respect to x
+
+00:04.880 --> 00:08.580
+is equal to four y over x.
+
+00:08.580 --> 00:11.100
+And what we'll see in
+this video is the solution
+
+00:11.100 --> 00:13.210
+to a differential equation isn't a value
+
+00:13.210 --> 00:14.700
+or a set of values.
+
+00:14.700 --> 00:17.520
+It's a function or a set of functions.
+
+00:17.520 --> 00:20.020
+But before we go about
+actually trying to solve this
+
+00:20.020 --> 00:21.840
+or figure out all of the solutions,
+
+00:21.840 --> 00:24.080
+let's test whether certain equations,
+
+00:24.080 --> 00:25.120
+certain functions,
+
+00:25.120 --> 00:28.280
+are solutions to this
+differential equation.
+
+00:28.280 --> 00:30.030
+So for example,
+
+00:30.030 --> 00:33.370
+if I have y is equal to four x,
+
+00:33.370 --> 00:37.020
+is this a solution to this
+differential equation?
+
+00:37.020 --> 00:40.010
+Pause the video and see
+if you can figure it out.
+
+00:40.010 --> 00:41.940
+Well to see if this is a solution,
+
+00:41.940 --> 00:43.770
+what we have to do is figure
+out the derivative of y
+
+00:43.770 --> 00:46.400
+with respect to x and
+see is that truly equal
+
+00:46.400 --> 00:48.540
+to four times y over x.
+
+00:48.540 --> 00:51.530
+And I'm gonna try to express
+everything in terms of x
+
+00:51.530 --> 00:53.670
+to see if I really have an equality there.
+
+00:53.670 --> 00:56.240
+So first let's figure
+out the derivative of y
+
+00:56.240 --> 00:57.890
+with respect to x.
+
+00:57.890 --> 01:00.000
+Well that's just going
+to be equal to four.
+
+01:00.000 --> 01:02.150
+We've seen that many times before.
+
+01:02.150 --> 01:03.820
+And so what we need to test is,
+
+01:03.820 --> 01:06.880
+is four, the derivative
+of y with respect to x,
+
+01:06.880 --> 01:10.550
+equal to four times, I could write y,
+
+01:10.550 --> 01:12.140
+but instead of y let's write four x.
+
+01:12.140 --> 01:14.620
+I'm gonna put everything in terms of x.
+
+01:14.620 --> 01:15.960
+So y is equal to four x,
+
+01:15.960 --> 01:18.660
+so instead of four y I could
+write four times four x,
+
+01:18.660 --> 01:20.390
+all of that over x.
+
+01:20.390 --> 01:21.900
+Is this true?
+
+01:21.900 --> 01:23.790
+Well that x cancels with
+that and I'm gonna get
+
+01:23.790 --> 01:28.480
+four is equal to 16,
+which it clearly is not.
+
+01:28.480 --> 01:31.170
+And so this is not a solution.
+
+01:31.170 --> 01:34.140
+Not a solution
+
+01:34.140 --> 01:36.330
+to our differential equation.
+
+01:36.330 --> 01:38.780
+Let's look at another equation.
+
+01:38.780 --> 01:42.890
+What about y is equal to
+x to the fourth power?
+
+01:42.890 --> 01:46.010
+Pause this video and see
+if this is a solution
+
+01:46.010 --> 01:48.307
+to our original differential equation.
+
+01:48.307 --> 01:50.650
+Well we're going to do the same thing.
+
+01:50.650 --> 01:54.150
+What's the derivative
+of y with respect to x?
+
+01:54.150 --> 01:56.210
+This is equal to, just
+using the power rule,
+
+01:56.210 --> 01:59.030
+four x to the third power.
+
+01:59.030 --> 02:00.420
+And so what we have to test is,
+
+02:00.420 --> 02:03.070
+is four x to the third power,
+
+02:03.070 --> 02:04.790
+that's the derivative
+of y with respect to x,
+
+02:04.790 --> 02:08.010
+equal to four times y,
+
+02:08.010 --> 02:10.230
+instead of writing a y I'm gonna
+write it all in terms of x,
+
+02:10.230 --> 02:13.280
+so is that equal to four
+times x to the fourth,
+
+02:13.280 --> 02:15.810
+because x to the fourth
+is the same thing as y,
+
+02:15.810 --> 02:18.600
+divided by x?
+
+02:18.600 --> 02:21.470
+And so let's see, x to
+the fourth divided by x,
+
+02:21.470 --> 02:23.660
+that is going to be x to the third.
+
+02:23.660 --> 02:25.790
+And so you will indeed
+get four x to the third
+
+02:25.790 --> 02:27.500
+is equal to four x to the third.
+
+02:27.500 --> 02:30.150
+So check, this is a solution.
+
+02:30.150 --> 02:33.310
+So is a solution.
+
+02:33.310 --> 02:34.950
+It's not necessarily the only solution,
+
+02:34.950 --> 02:38.940
+but it is a solution to
+that differential equation.
+
+02:38.940 --> 02:41.190
+Let's look at another
+differential equation.
+
+02:41.190 --> 02:43.650
+Let's say that I had,
+
+02:43.650 --> 02:46.040
+and I'm gonna write it
+with different notation,
+
+02:46.040 --> 02:49.580
+f prime of x is equal to
+
+02:49.580 --> 02:52.550
+f of x minus x.
+
+02:52.550 --> 02:55.100
+And the first function that I wanna test,
+
+02:55.100 --> 02:59.620
+let's say I have f of x is equal to two x.
+
+02:59.620 --> 03:02.900
+Is this a solution to this
+differential equation?
+
+03:02.900 --> 03:05.900
+Pause the video again and
+see if you can figure it out.
+
+03:05.900 --> 03:06.850
+Well to figure that out,
+
+03:06.850 --> 03:09.620
+you have to say well what is f prime of x?
+
+03:09.620 --> 03:14.220
+f prime of x is just
+going to be equal to two.
+
+03:14.220 --> 03:16.300
+And then test the equality.
+
+03:16.300 --> 03:20.740
+Is two, is f prime of x, equal to f of x,
+
+03:20.740 --> 03:23.500
+which is two x, minus x,
+
+03:23.500 --> 03:25.160
+minus x?
+
+03:25.160 --> 03:30.160
+And so let's see we are going
+to get two is equal to x.
+
+03:30.250 --> 03:31.840
+So you might be tempted to say oh hey
+
+03:31.840 --> 03:34.600
+I just solved for x or
+something like that.
+
+03:34.600 --> 03:37.670
+But this would tell you
+that this is not a solution
+
+03:37.670 --> 03:40.853
+because this needs to be true for any x
+
+03:40.853 --> 03:43.970
+that is in the domain of this function.
+
+03:43.970 --> 03:46.790
+And so this is, I'll just put an x there,
+
+03:46.790 --> 03:50.320
+or I'll put a incorrect there to say not,
+
+03:50.320 --> 03:55.320
+not a, not a solution.
+
+03:55.460 --> 03:56.930
+Just to be clear again,
+
+03:56.930 --> 04:00.130
+this needs, in order for a
+function to be a solution
+
+04:00.130 --> 04:01.610
+of this differential equation,
+
+04:01.610 --> 04:03.490
+it needs to work for any x
+
+04:03.490 --> 04:05.510
+that you can put into the function.
+
+04:05.510 --> 04:06.940
+Let's look at another one.
+
+04:06.940 --> 04:11.940
+Let's say that we have f of
+x is equal to x plus one.
+
+04:12.500 --> 04:15.140
+Pause the video and
+see, is this a solution
+
+04:15.140 --> 04:17.280
+to our differential equation?
+
+04:17.280 --> 04:18.520
+Well same drill.
+
+04:18.520 --> 04:21.500
+f prime of x is going to be equal to one.
+
+04:21.500 --> 04:23.460
+And so we have to see is f prime of x,
+
+04:23.460 --> 04:26.240
+which is equal to one,
+is it equal to f of x,
+
+04:26.240 --> 04:30.220
+which is x plus one, x plus one, minus x?
+
+04:30.220 --> 04:32.940
+And so here, you see no matter what x is,
+
+04:32.940 --> 04:35.080
+this equation is going to be true.
+
+04:35.080 --> 04:37.530
+So this is a solution,
+
+04:37.530 --> 04:40.223
+is a solution.
+
+04:41.130 --> 04:43.160
+Let's do a few more of these.
+
+04:43.160 --> 04:46.000
+Let me scroll down little bit
+so I have a little bit more,
+
+04:46.000 --> 04:47.797
+a little bit more space,
+
+04:47.797 --> 04:50.480
+but make sure we see our
+original differential equation.
+
+04:50.480 --> 04:55.480
+Let's test whether, I'm
+gonna do it in a red color,
+
+04:55.960 --> 04:59.100
+let's test whether f of x
+
+04:59.100 --> 05:03.060
+equals e to the x plus x plus one
+
+05:03.060 --> 05:05.970
+is a solution to this
+differential equation.
+
+05:05.970 --> 05:08.320
+Pause the video again and
+see if you can figure it out.
+
+05:08.320 --> 05:10.210
+All right well let's figure
+out the derivative here.
+
+05:10.210 --> 05:12.520
+f prime of x is going to be equal to,
+
+05:12.520 --> 05:15.910
+derivative of e to the x with
+respect to x is e to the x,
+
+05:15.910 --> 05:17.560
+which I always find amazing.
+
+05:17.560 --> 05:20.200
+And so and then plus one
+and the derivative of this
+
+05:20.200 --> 05:21.830
+with respect to x is just zero.
+
+05:21.830 --> 05:23.250
+And then let's substitute this
+
+05:23.250 --> 05:24.810
+into our original differential equation.
+
+05:24.810 --> 05:28.330
+So f prime of x is e to the x plus one.
+
+05:28.330 --> 05:30.080
+Is that equal to f of x,
+
+05:30.080 --> 05:35.080
+which is e to the x plus x
+plus one, minus x, minus x?
+
+05:37.070 --> 05:39.130
+And if that x cancels out with that x,
+
+05:39.130 --> 05:41.880
+it is indeed, they are indeed equal.
+
+05:41.880 --> 05:44.170
+So this is also a solution.
+
+05:44.170 --> 05:48.943
+So this, this is a solution.
+
+05:50.180 --> 05:51.013
+And we're done.

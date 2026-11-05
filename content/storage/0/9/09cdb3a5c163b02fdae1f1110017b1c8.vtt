@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.006 --> 00:04.545
+Niech f(x) będzie równe
+
+00:04.545 --> 00:12.276
+(x^2 + x - 6) / (x-2)
+
+00:12.276 --> 00:15.756
+Chcemy zbadać jaka jest granica f(x)
+
+00:15.756 --> 00:20.467
+gdy x dąży do 2.
+
+00:20.467 --> 00:23.602
+Pierwsze pytanie, które należy sobie zadać,
+
+00:23.602 --> 00:25.473
+gdy mamy do czynienia z czymś takim,
+
+00:25.473 --> 00:27.015
+to jaki jest tutaj problem?
+
+00:27.015 --> 00:28.279
+Czym jest f(2)?
+
+00:28.279 --> 00:29.602
+Zauważmy, że to nie zawsze będzie granica,
+
+00:29.602 --> 00:31.211
+nawet gdy jest zdefiniowane,
+
+00:31.211 --> 00:32.352
+jednak zawsze warto od tego zacząć,
+
+00:32.352 --> 00:35.180
+aby wyciągnąć jakieś wnioski.
+
+00:35.180 --> 00:39.351
+W tym przypadku, jeśli po prostu będziemy chcieli obliczyć f(2)
+
+00:39.351 --> 00:42.602
+w liczniku dostaniemy 2^2 + 2 - 6,
+
+00:42.602 --> 00:45.146
+co jest równe 6 - 6, czyli 0.
+
+00:45.146 --> 00:46.933
+Mamy zero w liczniku
+
+00:46.933 --> 00:49.276
+oraz zero w mianowniku.
+
+00:49.276 --> 00:54.760
+Z tego wniosek, że funkcja f nie jest zdefiniowana dla x=2
+
+00:54.760 --> 00:58.509
+Piszemy: "f nie jest zdefiniowana".
+
+00:58.509 --> 00:59.868
+W takim razie sytuacja nie jest tutaj prosta.
+
+00:59.868 --> 01:01.342
+Gdyby f(2) było określone,
+
+01:01.342 --> 01:03.013
+oraz funkcja f była ciągła,
+
+01:03.013 --> 01:05.212
+to granica wynosiłaby tyle ile wartość funkcji w tym punkcie.
+
+01:05.212 --> 01:07.346
+Tak się jednak nie dzieje zawsze.
+
+01:07.346 --> 01:10.207
+Ewidentnie funkcja f nie jest zdefiniowana w punkcie x=2.
+
+01:10.207 --> 01:12.179
+Sprawdzimy więc czy możemy uprościć f
+
+01:12.179 --> 01:13.696
+oraz narysujemy jej wykres.
+
+01:13.696 --> 01:15.753
+Jednym z pomysłów może być
+
+01:15.769 --> 01:18.702
+zapisanie w postaci iloczynowej wyrażenia na górze.
+
+01:18.702 --> 01:22.594
+Możemy zapisać licznik inaczej,
+
+01:22.594 --> 01:24.873
+tutaj kłania się materiał z Algebra I.
+
+01:24.873 --> 01:28.508
+Dwie liczby których iloczyn to -6, a ich suma to +1,
+
+01:28.508 --> 01:30.880
+mogą nimi być +3 oraz -2.
+
+01:30.880 --> 01:36.273
+W takim razie funkcja uprości się do (x+3)(x-2),
+
+01:36.273 --> 01:41.023
+wszystko podzielone przez (x-2).
+
+01:41.038 --> 01:43.846
+Teraz widzimy, że o ile x jest różne od 2,
+
+01:43.846 --> 01:46.236
+te dwa nawiasy się skrócą.
+
+01:46.236 --> 01:49.432
+Możemy więc powiedzieć, że to wyrażenie jest równe
+
+01:49.432 --> 01:57.949
+(x+3), pod warunkiem że x jest różne od 2.
+
+01:57.949 --> 01:59.949
+Jest to inny sposób zapisu naszej funkcji f.
+
+01:59.949 --> 02:01.554
+Inny sposób, aby wyrazić funkcję f,
+
+02:01.554 --> 02:04.554
+(zmienię kolor na niebieski)
+
+02:04.554 --> 02:14.698
+to f(x) jest równe x+3, gdy x jest różne od 2
+
+02:14.698 --> 02:20.602
+oraz możemy powiedzieć, że dla x=2 funkcja ta nie jest zdefiniowana.
+
+02:20.602 --> 02:22.479
+Patrząc na tę definicję funkcji f
+
+02:22.479 --> 02:27.446
+znacznie łatwiej jest nam ją narysować.
+
+02:27.446 --> 02:29.415
+Spróbujmy to zrobić.
+
+02:29.415 --> 02:32.564
+To jest... to na pewno nie jest prosta linia...
+
+02:32.564 --> 02:34.767
+... Tak znacznie lepiej.
+
+02:34.767 --> 02:36.702
+To jest oś OY.
+
+02:36.702 --> 02:38.697
+Napiszę y=f(x).
+
+02:38.697 --> 02:44.603
+A tutaj mamy poziomą linię, która jest osią OX.
+
+02:44.603 --> 02:48.550
+Wiedząc, że f(x)=x+3,
+
+02:48.550 --> 02:54.426
+tutaj mamy 1, 2, 3, przecięcie z osią OY dla y=3
+
+02:54.426 --> 02:57.404
+oraz tangens kąta nachylenia prostej wynosi 1.
+
+02:57.404 --> 02:59.548
+Tak funkcja jest zdefiniowana dla wszystkich wartości x,
+
+02:59.548 --> 03:01.475
+za wyjątkiem x=2.
+
+03:01.475 --> 03:04.006
+Tutaj mamy x równe 1, równe 2.
+
+03:04.006 --> 03:07.838
+Więc gdy x=2, wartość funkcji f nie jest zdefiniowana.
+
+03:07.838 --> 03:10.894
+Zaznaczmy tutaj okręgiem brak wartości.
+
+03:10.894 --> 03:16.717
+Niezdefiniowana... dokładnie tutaj...
+
+03:16.748 --> 03:22.388
+Tak właśnie wygląda na rysunku f(x).
+
+03:22.388 --> 03:25.605
+Mając to, spróbujmy raz jeszcze odpowiedzieć na nasze pytanie.
+
+03:25.605 --> 03:28.009
+Jaka jest granica funkcji f dla x dążącego do 2.
+
+03:28.009 --> 03:30.600
+Możemy na ten problem spojrzeć graficznie.
+
+03:30.600 --> 03:33.427
+Gdy x zbiega do 2 z lewej strony,
+
+03:33.427 --> 03:39.278
+dokładnie tutaj mamy x=2, powiedzmy że tutaj jest 1.7,
+
+03:39.278 --> 03:43.099
+widzimy, że f(1.7) jest dokładnie tutaj,
+
+03:43.099 --> 03:46.940
+gdy weźmiemy x=1.9, nasza wartość f(x) jest dokładnie tutaj,
+
+03:46.940 --> 03:52.003
+i wygląda na to, że f dąży do, zaznaczonej na pomarańczowo wartości.
+
+03:52.003 --> 03:55.802
+Analogicznie, gdy dążymy z x do 2 po wartościach większych od 2,
+
+03:55.802 --> 04:01.342
+powiedzmy, że tutaj jest 2.5,
+
+04:01.342 --> 04:02.949
+nasze f(x) jest dokładnie tutaj,
+
+04:02.949 --> 04:05.608
+gdy zbliżymy się jeszcze bardziej,
+
+04:05.608 --> 04:10.342
+nasze f(x) zdaje się być znowu coraz bliżej tego miejsca.
+
+04:10.342 --> 04:12.706
+Inaczej patrząc na to, gdy jedziemy po tej linii,
+
+04:12.706 --> 04:16.865
+z prawej strony, zdajemy się zbliżać do tej właśnie wartości dla f(x),
+
+04:16.865 --> 04:20.546
+jeśli jedziemy po tej linii z lewej strony, po x mniejszych niż 2,
+
+04:20.546 --> 04:24.987
+zdajemy się dążyć do tej tutaj wartości.
+
+04:24.987 --> 04:30.845
+Ta wartość to nic innego jak x+3, dla x=2.
+
+04:30.845 --> 04:36.110
+Będzie ona zatem równa 5.
+
+04:36.110 --> 04:38.204
+Jeśli spojrzymy na to z perspektywy rysunku,
+
+04:38.204 --> 04:42.119
+narysujemy prostą o nachyleniu 45 stopni
+
+04:42.119 --> 04:44.333
+i przecinającą oś OY w y=3,
+
+04:44.333 --> 04:46.118
+to ta wartość tutaj wynosi 5.
+
+04:46.118 --> 04:48.873
+Możemy to również spróbować zrobić liczbowo.
+
+04:48.873 --> 04:52.690
+Zróbmy tak.
+
+04:52.690 --> 04:55.536
+Jeśli to jest nasza definicja funkcji f,
+
+04:55.536 --> 05:00.549
+identyczna z oryginalną,
+
+05:00.549 --> 05:03.874
+wypróbujmy wartości coraz bliższe 2.
+
+05:03.874 --> 05:06.177
+Weźmy wartość mniejszą niż 2.
+
+05:06.177 --> 05:08.548
+Na przykład 1.99999,
+
+05:08.548 --> 05:16.097
+to będzie oczywiste, +3=4.99999, jest bardzo bliskie 5.
+
+05:16.097 --> 05:19.962
+Jeśli weźmiemy x jeszcze bliższe 2, to dostaniemy f(x) jeszcze bliższe 5.
+
+05:19.962 --> 05:25.914
+Jeśli będziemy brać x większe niż 2, coraz bliższe 2,
+
+05:25.914 --> 05:29.179
+to znowu będziemy dostawać f(x) coraz bliższe 5.
+
+05:29.179 --> 05:32.349
+Im bliżej x jest do 2, tym bliżej f(x) jest do 5.
+
+05:32.349 --> 05:34.427
+Wobec tego nie ważne czy patrzymy na problem liczbowo,
+
+05:34.427 --> 05:36.149
+czy też graficznie,
+
+05:36.149 --> 05:43.623
+wydaje się dosyć oczywiste, że szukana granica będzie wynosić 5.

@@ -1,0 +1,499 @@
+WEBVTT
+
+00:00.285 --> 00:01.447
+Trong video này chúng ta sẽ
+
+00:01.447 --> 00:04.379
+bắt đầu tìm hiểu các phép thử
+
+00:04.379 --> 00:09.379
+để xác định một chuỗi sẽ hội tụ hay phân kì,
+
+00:09.993 --> 00:12.142
+và cái đầu tiên mình chuẩn bị làm đây
+
+00:12.142 --> 00:15.294
+có lẽ là cái cơ bản nhất và, hy vọng là
+
+00:15.294 --> 00:17.842
+dễ hiểu nhất, và đó là phép thử tính phân kì.
+
+00:17.842 --> 00:22.733
+Phép thử này sẽ không giúp ta biết liệu một chuỗi có hội tụ hay không,
+
+00:22.733 --> 00:26.411
+nhưng nó sẽ chắc chắn giúp ta biết một chuỗi có phân kì hay không.
+
+00:26.411 --> 00:29.792
+Trước hết, để mình viết nó theo ký hiệu toán học,
+
+00:29.792 --> 00:32.650
+và rồi ta sẽ cùng xem qua một ví dụ cụ thể nhé.
+
+00:32.650 --> 00:37.650
+Phép thử tính phân kì giúp ta biết rằng nếu giới hạn
+
+00:38.073 --> 00:43.073
+của a thứ n khi n tiến đến vô cùng khác 0,
+
+00:44.930 --> 00:49.930
+thì chuỗi vô hạn từ n bằng 1
+
+00:52.110 --> 00:57.110
+cho đến vô cùng của a thứ n sẽ phân kì.
+
+01:01.166 --> 01:03.929
+Ta đã biết phân kì nghĩa là gì
+
+01:03.929 --> 01:05.090
+và tổng này hoặc sẽ tiến tới
+
+01:05.090 --> 01:07.300
+dương vô cùng
+
+01:07.300 --> 01:09.523
+hoặc sẽ tiến tới âm vô cùng
+
+01:09.523 --> 01:12.262
+hoặc nó cũng có thể chỉ dao động giữa các giá trị,
+
+01:12.262 --> 01:17.262
+và không thực sự tiến về một tổng hay một giá trị nào cả.
+
+01:17.603 --> 01:19.531
+Đó là những gì phép thử tính phân kì cho mình biết
+
+01:19.531 --> 01:21.193
+và bạn có thể tự hỏi
+
+01:21.193 --> 01:22.965
+ừ mình đã có thể hiểu phép thử này,
+
+01:22.965 --> 01:25.116
+nhưng nó thật sự có ích như thế nào?
+
+01:25.116 --> 01:27.310
+Để thấy được nó có ích như thế nào,
+
+01:27.310 --> 01:28.932
+hãy cùng nhìn qua một chuỗi ví dụ
+
+01:28.932 --> 01:33.340
+và xem thử nếu bạn có thể xác định nó sẽ phân kì hay không nhé!
+
+01:33.340 --> 01:36.660
+Giả sử mình có chuỗi như thế này,
+
+01:36.660 --> 01:41.660
+sẽ là tổng từ n bằng 1 đến vô cùng,
+
+01:43.580 --> 01:46.102
+thường thì n không nhất thiết bằng 1
+
+01:46.102 --> 01:47.607
+nó có thể bằng 5
+
+01:47.607 --> 01:49.720
+hay bằng 0.
+
+01:49.720 --> 01:52.367
+Điểm mấu chốt là đây là chuỗi vô hạn
+
+01:52.367 --> 01:54.660
+nên ta sẽ quan tâm đến
+
+01:54.660 --> 01:56.193
+giới hạn khi n tiến tới vô cùng.
+
+01:56.193 --> 02:00.964
+Giả sử ta có tổng của 4 n bình phương
+
+02:00.964 --> 02:05.964
+trừ n mũ 3 trên,
+
+02:08.327 --> 02:12.636
+7 trừ 3 (n mũ 3).
+
+02:12.636 --> 02:14.953
+Với những gì ta biết về phép thử tính phân kì,
+
+02:14.953 --> 02:19.697
+bạn nghĩ chuỗi này sẽ hội tụ hay phân kì?
+
+02:21.004 --> 02:22.732
+Vâng, hãy nhìn đây,
+
+02:22.732 --> 02:25.889
+mình đang lấy tổng.
+
+02:25.889 --> 02:29.677
+Vậy nên đây sẽ là a(n)
+
+02:29.677 --> 02:31.899
+nếu ta muốn giống với định nghĩa
+
+02:31.899 --> 02:34.132
+hay giải thích của phép thử tính phân kì.
+
+02:34.132 --> 02:37.703
+Bạn hãy nghĩ về giới hạn của
+
+02:37.703 --> 02:42.208
+4 n bình phương trừ (n mũ 3)
+
+02:42.208 --> 02:46.300
+trên (7 trừ 3 (n mũ 3))
+
+02:46.300 --> 02:49.100
+khi n tiến tới vô cùng là gì.
+
+02:49.100 --> 02:51.549
+Mình khuyến khích các bạn tạm dừng video và suy nghĩ thử xem nhé.
+
+02:51.549 --> 02:53.844
+Vâng sẽ có một vài cách để nghĩ về nó,
+
+02:53.844 --> 02:56.090
+một cách là, nhìn xem khi n tiến tới vô cùng
+
+02:56.090 --> 02:57.323
+thì chỉ số hạng có mũ cao nhất
+
+02:57.323 --> 02:58.254
+của tử và mẫu số
+
+02:58.254 --> 02:59.371
+là thật sự quan trọng.
+
+02:59.371 --> 03:01.318
+Nên cái này sẽ tiến tới âm n mũ 3
+
+03:01.318 --> 03:03.940
+trên âm 3 (n mũ 3),
+
+03:03.940 --> 03:06.698
+và nó sẽ là âm 1
+
+03:06.698 --> 03:10.720
+trên âm 3, hay dương 1/3
+
+03:10.720 --> 03:13.140
+hay ta có thể nói theo cách khác,
+
+03:13.140 --> 03:15.451
+cách có hệ thống hơn.
+
+03:15.866 --> 03:17.883
+Giới hạn, khi n tiến tới vô cùng,
+
+03:17.883 --> 03:19.725
+ta có thể chia cả tử và mẫu
+
+03:19.725 --> 03:20.597
+cho (n mũ 3),
+
+03:20.597 --> 03:22.191
+nên nếu ta chia tử cho (n mũ 3),
+
+03:22.191 --> 03:25.151
+số đầu tiên sẽ là 4 trên n
+
+03:25.151 --> 03:30.151
+trừ 1, trên 7 trên (n mũ 3) trừ 3.
+
+03:32.911 --> 03:35.552
+Giờ nó đã rõ hơn rồi, giới hạn khi n tiến tới vô cùng
+
+03:35.552 --> 03:38.613
+sẽ là 0, và đây cũng là 0,
+
+03:38.613 --> 03:40.796
+nên bạn sẽ còn âm 1
+
+03:40.796 --> 03:44.739
+trên âm 3, hay là dương 1/3.
+
+03:44.739 --> 03:49.155
+Chú ý nhé, giới hạn của a(n) khi n tiến tới vô cùng
+
+03:49.155 --> 03:51.658
+trường hợp này không bằng 0,
+
+03:51.658 --> 03:56.658
+nên tổng này, chuỗi vô hạn này sẽ phân kì.
+
+04:00.293 --> 04:04.423
+Giờ hãy nghĩ nhé, tại sao điều này lại có lý?
+
+04:04.423 --> 04:07.240
+Nên nhớ, bạn đang lấy tổng vô hạn.
+
+04:07.240 --> 04:07.693
+Bạn đang lấy một tổng vô hạn,
+
+04:07.693 --> 04:09.639
+thế nên cách duy nhất,
+
+04:09.639 --> 04:11.360
+hay thích hợp nhất
+
+04:11.360 --> 04:12.239
+để một tổng có thể hội tụ tại
+
+04:12.239 --> 04:15.795
+một giá trị xác định
+
+04:15.795 --> 04:18.883
+là khi mỗi số hạng bạn đang cộng thêm vào nhỏ dần đi,
+
+04:18.883 --> 04:20.933
+tương tự với tiến tới 0.
+
+04:20.933 --> 04:24.393
+Nếu n tiến tới vô cùng, bạn sẽ đi không giới hạn,
+
+04:24.393 --> 04:26.154
+hay nếu nó bằng 1/3 đi nữa,
+
+04:26.154 --> 04:27.872
+thì với n rất lớn
+
+04:27.872 --> 04:30.295
+bạn chỉ đang cộng thêm các số hạng,
+
+04:30.295 --> 04:31.664
+và chúng càng tiến gần tới 1/3 hơn nữa.
+
+04:31.664 --> 04:34.576
+Vâng nếu bạn cộng vô số các số hạng 1/3 với nhau,
+
+04:34.576 --> 04:36.323
+thì nó sẽ tiến tới vô cùng,
+
+04:36.323 --> 04:37.558
+hay đi không giới hạn.
+
+04:37.558 --> 04:41.296
+Kết quả bạn sẽ có là phân kì đúng không.
+
+04:41.296 --> 04:43.410
+Để có một thứ gì hội tụ
+
+04:43.410 --> 04:45.554
+khi bạn lấy tổng vô hạn,
+
+04:45.554 --> 04:46.767
+thì ở một thời điểm nào đó chúng sẽ phải
+
+04:46.767 --> 04:48.344
+rất, rất, rất gần 0.
+
+04:48.344 --> 04:50.081
+Nếu tại thời điểm nào đó mà chúng không tiến gần 0,
+
+04:50.081 --> 04:51.811
+không có cách nào để tổng đó có thể hội tụ cả,
+
+04:51.811 --> 04:54.120
+nó sẽ phải phân kì thôi,
+
+04:54.120 --> 04:55.599
+nên hy vọng các bạn hiểu ý mình đang nói.
+
+04:55.599 --> 04:58.200
+Điều đó cũng cho bạn một cái nhìn rõ ràng
+
+04:58.200 --> 05:00.332
+về thứ và phép thử tính phân kì không thể làm.
+
+05:00.332 --> 05:02.391
+Phép thử tính phân kì có thể được dùng
+
+05:02.391 --> 05:04.550
+để xác định một chuỗi sẽ phân kì hay không,
+
+05:04.550 --> 05:06.890
+nhưng nếu một chuỗi, giả sử,
+
+05:06.890 --> 05:08.573
+không vượt qua được phép thử tính phân kì,
+
+05:08.573 --> 05:11.887
+hay mình có thể nói
+
+05:11.887 --> 05:13.678
+cái này không đúng,
+
+05:13.678 --> 05:16.592
+thì nó không đồng nghĩa với việc chuỗi đó sẽ hội tụ.
+
+05:16.592 --> 05:18.204
+Để mình cho bạn một ví dụ nhé!
+
+05:20.465 --> 05:23.933
+Cái này ở ngay đây từ n bằng 1 đến vô cùng
+
+05:23.933 --> 05:27.218
+của 1 trên n, đây thực chất là một chuỗi điều hòa
+
+05:27.218 --> 05:28.415
+đấy các bạn.
+
+05:28.415 --> 05:31.881
+Nếu ta cố áp dụng phép thử tính phân kì,
+
+05:31.881 --> 05:33.466
+vậy bạn nghĩ giới hạn của 1/n
+
+05:33.466 --> 05:37.317
+khi n tiến tới vô cùng sẽ là gì?
+
+05:37.317 --> 05:39.799
+Vâng nếu n tiến tới vô cùng,
+
+05:39.799 --> 05:42.426
+thì cái này sẽ bằng 0.
+
+05:42.426 --> 05:46.833
+Ta thấy nó có vẻ không thành công với phép thử tính phân kì,
+
+05:46.833 --> 05:49.813
+nên chỉ sử dụng phép thử tính phân kì
+
+05:49.813 --> 05:52.650
+ta không thể chứng minh chuỗi này sẽ phân kì
+
+05:52.650 --> 05:55.128
+nhưng điều đó không có nghĩa là nó không phân kì.
+
+05:55.128 --> 05:58.260
+Thật ra thì, ta đã chứng mình điều này trong vài video rồi.
+
+05:58.260 --> 06:00.566
+thật ra nó thực sự có phân kì.
+
+06:00.566 --> 06:05.566
+Chuỗi này thực sự phân kì,
+
+06:05.738 --> 06:08.918
+chỉ là phép thử tính phân kì là không đủ,
+
+06:08.918 --> 06:11.816
+nó không đủ để ta biết chắc
+
+06:11.816 --> 06:14.105
+là nó phân kì, ta sẽ thấy phép thử so sánh
+
+06:14.105 --> 06:16.352
+và phép thử tích phân đều có thể đươc dùng
+
+06:16.352 --> 06:19.112
+để chứng minh chuỗi này thật ra là phân kì.
+
+06:19.112 --> 06:21.932
+Bạn không thể chắc
+
+06:21.932 --> 06:24.549
+nếu cái này không được dùng.
+
+06:24.549 --> 06:26.448
+Nếu bạn nghĩ giới hạn khi n tiến tới vô cùng
+
+06:26.448 --> 06:29.830
+bằng 0, thì một chuỗi vẫn có thể phân kì.
+
+06:29.830 --> 06:33.335
+Và nó không nhất thiết phải hội tụ.
+
+06:33.335 --> 06:35.076
+Giờ cũng có những chuỗi hội tụ,
+
+06:35.076 --> 06:37.522
+dù chúng tiến về 0,
+
+06:37.522 --> 06:41.228
+ví dụ nếu mình lấy tổng
+
+06:41.228 --> 06:45.375
+từ n bằng 1 tới vô cùng của 1/(n bình phương).
+
+06:45.375 --> 06:47.697
+Nếu mình thử dùng phép thử tính phân kì,
+
+06:47.697 --> 06:50.646
+mình có giới hạn của 1/(n bình phương)
+
+06:50.646 --> 06:53.334
+khi n tiến tới vô cùng bằng 0.
+
+06:53.334 --> 06:54.535
+Cái này sẽ rất lớn,
+
+06:54.535 --> 06:56.281
+còn cái này sẽ tiến tới 0
+
+06:56.281 --> 06:59.430
+và một lần nữa, nó cũng không thành công với
+
+06:59.430 --> 07:01.544
+phép thử tính phân kì.
+
+07:01.544 --> 07:04.523
+Chỉ với điều đó, bạn sẽ không biết chắc
+
+07:04.523 --> 07:06.027
+chuỗi này sẽ hội tụ hay không,
+
+07:06.027 --> 07:07.205
+nó vẫn có thể phân kì,
+
+07:07.205 --> 07:09.648
+thế nên phép thử tính phân kì sẽ là không đủ.
+
+07:09.648 --> 07:11.981
+Bây giờ, mình sẽ nói chuỗi này hội tụ,
+
+07:11.981 --> 07:14.838
+và mình sẽ chứng minh điều đó trong những video tiếp theo.
+
+07:14.838 --> 07:19.829
+Chuỗi này là hội tụ nhưng không phải
+
+07:19.829 --> 07:22.372
+vì nó không vượt qua phép thử tính phân kì.
+
+07:22.372 --> 07:24.704
+Ta sẽ phải dùng một phép thử khác
+
+07:24.704 --> 07:26.914
+để xác định cái này thật sự hội tụ,
+
+07:26.914 --> 07:28.385
+giống như ta cũng phải dùng một phép thử khác
+
+07:28.385 --> 07:30.666
+để chứng minh cái này cũng phân kì.
+
+07:30.666 --> 07:32.601
+Phép thử tính phân kì có ích
+
+07:32.601 --> 07:36.489
+cho những chuỗi nào thật sự thành công với phép thử đó.
+
+07:36.489 --> 07:38.789
+Khi bạn tìm ra giới hạn của a thứ n
+
+07:38.789 --> 07:41.396
+khi n tiến về vô cùng là bằng 0
+
+07:41.396 --> 07:42.991
+giống như trường hợp ở đây này.
+
+07:42.991 --> 07:45.286
+Trường hợp này, phép thử giúp mình,
+
+07:45.286 --> 07:48.038
+vì nó giúp mình kết luận
+
+07:48.038 --> 07:53.038
+rằng chuỗi này chắc chắn phân kì.

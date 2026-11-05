@@ -1,0 +1,919 @@
+WEBVTT
+
+00:00.626 --> 00:02.781
+No último vídeo, nós tentamos
+
+00:02.781 --> 00:05.552
+modelar população
+em função do tempo.
+
+00:05.552 --> 00:07.173
+Dissemos, talvez a
+taxa de variação
+
+00:07.173 --> 00:09.114
+da população em
+relação ao tempo
+
+00:09.114 --> 00:10.649
+vai ser proporcional à
+
+00:10.649 --> 00:11.855
+própria população.
+
+00:11.855 --> 00:13.573
+Que a taxa irá aumentar
+
+00:13.573 --> 00:15.703
+quando a população aumentar.
+
+00:15.703 --> 00:17.471
+E quando você realmente
+tenta resolver
+
+00:17.471 --> 00:18.664
+esta equação diferencial,
+
+00:18.664 --> 00:20.891
+você tenta encontrar N de
+T que satisfaz isto,
+
+00:20.891 --> 00:22.942
+descobrimos que uma
+exponencial funcionaria.
+
+00:22.942 --> 00:25.858
+Uma exponencial satisfaz
+esta equação diferencial.
+
+00:25.913 --> 00:27.577
+E se pareceria com
+isto visualmente.
+
+00:27.912 --> 00:30.365
+Seria parecido com isto,
+
+00:30.365 --> 00:32.145
+seria parecido com isso visualmente.
+
+00:32.145 --> 00:34.407
+Onde você começa com
+uma população de N zero,
+
+00:34.407 --> 00:35.981
+este é o eixo de tempo,
+
+00:35.981 --> 00:37.393
+este é o eixo da população.
+
+00:37.393 --> 00:39.063
+Quando o tempo aumenta,
+
+00:39.063 --> 00:41.122
+a população aumenta
+exponencialmente.
+
+00:41.499 --> 00:43.352
+Agora dissemos que
+há um problema lá.
+
+00:43.359 --> 00:45.430
+E se Thomas Malthus está certo?
+
+00:45.447 --> 00:47.542
+Que o ambiente não pode suportar ...
+
+00:47.731 --> 00:49.675
+dizer que o ambiente
+não pode suportar--
+
+00:49.675 --> 00:50.805
+usarei uma nova cor.
+
+00:50.805 --> 00:53.328
+Vamos dizer que o ambiente
+realmente não pode suportar
+
+00:53.328 --> 01:01.972
+mais do que K, mais de
+uma população de K.
+
+01:01.972 --> 01:04.262
+Então claramente a população
+não pode apenas
+
+01:04.262 --> 01:06.676
+ir até o teto.
+
+01:06.676 --> 01:07.882
+Eles não terão comida,
+
+01:07.882 --> 01:11.132
+ou água ou recursos
+ou o que quer que seja.
+
+01:11.132 --> 01:12.323
+Eles podem poluir demais.
+
+01:12.323 --> 01:13.418
+Quem sabe o que seria.
+
+01:13.418 --> 01:18.147
+E assim, esta primeira tentativa
+em modelar a população
+
+01:18.147 --> 01:19.445
+não chega a funcionar.
+
+01:19.445 --> 01:23.159
+Especialmente se você está
+meio que do lado de Malthus.
+
+01:23.159 --> 01:24.845
+E aqui é onde PF, e mais uma vez,
+
+01:24.845 --> 01:26.692
+tenho certeza que errei o nome,
+
+01:26.692 --> 01:29.244
+Verhulst entrará em cena.
+
+01:29.244 --> 01:30.818
+Porque ele leu a obra de Malthus,
+
+01:30.828 --> 01:32.983
+e disse: "Acho que posso
+fazer um bom trabalho
+
+01:32.983 --> 01:35.197
+"em modelar o tipo
+de comportamento
+
+01:35.197 --> 01:37.116
+"que Malthus está falando."
+
+01:37.162 --> 01:41.123
+E ele diz, o que
+realmente queremos
+
+01:41.123 --> 01:43.301
+é algo ...
+
+01:43.301 --> 01:44.802
+Escrever isto, a taxa de...
+
+01:44.802 --> 01:45.805
+vamos tentar modelar.
+
+01:45.805 --> 01:50.635
+Vamos montar uma outra
+equação diferencial.
+
+01:50.635 --> 01:52.038
+E agora vamos dizer OK,
+
+01:52.038 --> 01:57.958
+em vez de, se N for
+substancialmente menor
+
+01:57.958 --> 02:00.891
+do que o que o ambiente
+pode suportar, então sim,
+
+02:00.891 --> 02:06.747
+faz sentido ter um
+crescimento exponencial.
+
+02:06.747 --> 02:09.453
+Mas talvez possamos diminuir isso,
+
+02:09.453 --> 02:11.736
+ou talvez possamos trazer
+este crescimento a zero
+
+02:11.736 --> 02:15.712
+quando N tende a K.
+
+02:16.163 --> 02:18.134
+E então, como podemos modificar isto?
+
+02:18.134 --> 02:20.609
+Talvez possamos multiplicá-lo por algo
+
+02:20.609 --> 02:23.636
+para que quando N é pequeno,
+
+02:23.665 --> 02:25.753
+quando N é muito menor do que K,
+
+02:25.753 --> 02:28.407
+este termo bem aqui
+estará perto de um
+
+02:28.407 --> 02:30.396
+e quando N está perto de K,
+
+02:30.396 --> 02:32.292
+este termo estará perto de zero.
+
+02:32.292 --> 02:33.999
+Deixe-me escrever isto.
+
+02:34.221 --> 02:38.304
+Então, estas são nossas metas
+para este termo, bem aqui.
+
+02:38.349 --> 02:50.848
+Quando N é muito menor do que K,
+
+02:50.848 --> 02:53.261
+então agora, a população
+não está limitada,
+
+02:53.261 --> 02:54.355
+pessoas podem ter bebês
+
+02:54.355 --> 02:55.441
+bebês se alimentarão,
+
+02:55.441 --> 02:57.474
+e então, eles poderão
+ter bebês, etc etc,
+
+02:57.078 --> 03:02.918
+então esta coisa deve
+ser próxima a um.
+
+03:02.918 --> 03:05.220
+Você tem, essencialmente,
+o nosso modelo antigo.
+
+03:05.221 --> 03:10.650
+Mas quando K tende a N,
+
+03:10.650 --> 03:14.430
+então, esta coisa deve tender,
+
+03:14.430 --> 03:17.744
+este termo ou esta expressão
+
+03:17.744 --> 03:19.437
+deve tender a zero.
+
+03:19.437 --> 03:21.219
+E o que isso faz é, quando N tende
+
+03:21.219 --> 03:25.651
+ao limite natural, o
+teto da população,
+
+03:25.665 --> 03:27.506
+não importa o que isto está fazendo,
+
+03:27.506 --> 03:28.911
+se isto está tendendo a zero,
+
+03:28.911 --> 03:30.765
+isto fará a real
+
+03:30.765 --> 03:32.982
+taxa de crescimento tender a zero.
+
+03:32.982 --> 03:35.543
+Portanto, comida será mais escassa,
+
+03:35.543 --> 03:37.475
+será mais difícil encontrar as coisas.
+
+03:37.475 --> 03:40.057
+E então, o que eu
+posso construir aqui,
+
+03:40.057 --> 03:42.436
+lidando com N e K, que
+terá essas propriedades?
+
+03:42.436 --> 03:44.017
+Para se divertir,
+você pode querer
+
+03:44.017 --> 03:45.966
+pausar o vídeo e ver se
+consegue construir
+
+03:45.966 --> 03:48.194
+uma afirmação algébrica
+razoavelmente simples,
+
+03:48.194 --> 03:50.706
+usando N e K e talvez o número um,
+
+03:50.706 --> 03:52.703
+se você achar necessário,
+
+03:52.713 --> 03:56.810
+para uma expressão que
+tenha estas propriedades.
+
+03:56.810 --> 03:57.715
+Bem, vamos ver.
+
+03:57.715 --> 04:01.249
+E se começarmos com o número um
+
+04:01.249 --> 04:05.954
+e subtrairmos N sobre K?
+
+04:13.576 --> 04:15.979
+Será que isto tem aquelas propriedades?
+
+04:15.979 --> 04:16.961
+Claro que sim.
+
+04:16.961 --> 04:19.387
+Quando N é realmente
+pequeno, ou devo dizer
+
+04:19.387 --> 04:21.897
+quando é uma pequena fração de K,
+
+04:23.193 --> 04:24.644
+isto será uma pequena fração,
+
+04:24.644 --> 04:26.011
+então esta coisa toda estará
+
+04:26.011 --> 04:27.094
+muito perto de um.
+
+04:27.094 --> 04:29.433
+Será um pouco menor do que um.
+
+04:29.544 --> 04:30.958
+E quando N tende a K,
+
+04:30.958 --> 04:33.587
+quando N se aproxima
+cada vez mais de K,
+
+04:33.592 --> 04:35.644
+então esta coisa bem aqui
+
+04:35.644 --> 04:37.274
+tenderá a um,
+
+04:37.274 --> 04:39.007
+significando que toda esta expressão
+
+04:39.007 --> 04:39.875
+tenderá a zero.
+
+04:39.875 --> 04:42.062
+Que é exatamente o que queríamos.
+
+04:42.062 --> 04:44.978
+E esta coisa aqui
+é, na verdade,
+
+04:44.978 --> 04:47.536
+e isto é usado em
+muitas aplicações,
+
+04:47.536 --> 04:50.582
+não apenas na modelagem
+da população
+
+04:50.582 --> 04:53.641
+mas esta é uma das primeiras
+
+04:53.641 --> 04:55.960
+razões ou motivos.
+
+04:56.186 --> 04:57.951
+Esta equação diferencial bem aqui
+
+04:57.951 --> 04:59.185
+é realmente muito famosa.
+
+04:59.359 --> 05:05.450
+É chamada de equação
+diferencial logística.
+
+05:13.276 --> 05:14.199
+E no próximo vídeo,
+
+05:14.199 --> 05:15.498
+vamos resolver isto.
+
+05:15.498 --> 05:17.066
+E na verdade, esta é uma equação
+
+05:17.066 --> 05:18.338
+diferencial separável.
+
+05:18.338 --> 05:19.965
+Você pode resolvê-la usando apenas
+
+05:19.965 --> 05:21.394
+técnicas de integração padrão.
+
+05:21.394 --> 05:22.918
+É um pouco mais
+difícil que esta,
+
+05:22.918 --> 05:24.498
+portanto, iremos trabalhar juntos
+
+05:24.498 --> 05:25.843
+E nós vamos olhar a solução.
+
+05:25.843 --> 05:28.768
+A solução para a equação
+diferencial logística
+
+05:28.768 --> 05:33.752
+é a função logística
+que, mais uma vez,
+
+05:33.752 --> 05:37.330
+modela, essencialmente, a
+população desta forma.
+
+05:37.033 --> 05:39.209
+Mas antes de resolvermos isto,
+
+05:39.506 --> 05:41.042
+vamos apenas tentar interpretar esta
+
+05:41.042 --> 05:43.539
+equação diferencial e pensar sobre
+
+05:43.539 --> 05:46.123
+qual a forma que
+esta função se parece
+
+05:46.589 --> 05:48.892
+E para fazer isso,
+
+05:52.533 --> 05:57.171
+deixe-me desenhar alguns eixos aqui.
+
+05:58.069 --> 05:59.963
+Deixe-me desenhar alguns eixos aqui.
+
+05:59.963 --> 06:01.508
+Este é o meu eixo do tempo,
+
+06:01.508 --> 06:03.201
+este é o meu eixo da população,
+
+06:03.681 --> 06:05.554
+deixe-me subir um
+pouco, porque às vezes
+
+06:05.554 --> 06:07.041
+as legendas aparecem por aqui,
+
+06:07.041 --> 06:09.304
+e as pessoas não veem
+o que está acontecendo.
+
+06:09.304 --> 06:11.126
+Vamos pensar sobre
+algumas permutações,
+
+06:11.126 --> 06:12.105
+algumas situações.
+
+06:12.105 --> 06:17.823
+Portanto, se o nosso inicial, se
+o nosso N no tempo igual a zero,
+
+06:17.823 --> 06:19.448
+lembre-se que N é
+uma função de T.
+
+06:19.448 --> 06:24.290
+Se em tempo igual a
+zero, N é igual a zero,
+
+06:24.290 --> 06:25.731
+então este termo será zero
+
+06:25.731 --> 06:27.917
+e a sua taxa de variação será zero,
+
+06:27.917 --> 06:30.168
+e portanto, não adicionará
+qualquer população.
+
+06:30.244 --> 06:31.128
+E isto é bom.
+
+06:31.464 --> 06:33.318
+Porque se sua
+população é zero,
+
+06:33.318 --> 06:34.703
+como é que você
+será capaz de
+
+06:34.703 --> 06:35.666
+adicionar população?
+
+06:35.666 --> 06:37.755
+Não há ninguém
+lá para ter filhos.
+
+06:37.814 --> 06:40.326
+Portanto, há, na verdade,
+uma solução constante
+
+06:40.326 --> 06:42.018
+para esta equação diferencial,
+
+06:42.018 --> 06:46.661
+que é apenas N de T é igual a zero.
+
+06:46.661 --> 06:49.877
+E isto satisfaz a equação
+diferencial logística.
+
+06:49.877 --> 06:51.743
+Se a sua população
+começa em zero,
+
+06:51.743 --> 06:53.843
+Se N zero não é zero,
+
+06:53.864 --> 06:55.441
+então você estará
+em zero sempre.
+
+06:55.441 --> 06:57.954
+Bem, isto é realmente o que
+aconteceria na vida real
+
+06:57.954 --> 06:59.680
+se não há ninguém
+lá para ter filhos.
+
+06:59.788 --> 07:01.847
+Agora, vamos pensar
+sobre outra situação.
+
+07:01.847 --> 07:03.011
+E se nossa população,
+
+07:03.011 --> 07:04.939
+e se N não for igual a K?
+
+07:05.904 --> 07:11.383
+O que aconteceria se N não for igual a,
+
+07:11.383 --> 07:12.685
+isto aqui é K,
+
+07:12.685 --> 07:14.788
+o que aconteceria se,
+no tempo igual a zero,
+
+07:15.082 --> 07:16.706
+esta é a nossa população.
+
+07:16.706 --> 07:18.074
+Bem, se N é igual a K,
+
+07:18.074 --> 07:19.503
+isto é um menos um,
+
+07:19.503 --> 07:20.425
+então isto é zero,
+
+07:20.425 --> 07:21.953
+e a taxa de variação
+da população
+
+07:21.953 --> 07:23.023
+será zero.
+
+07:23.023 --> 07:24.904
+Basicamente, se minha
+população é zero,
+
+07:24.904 --> 07:25.926
+depois de um tempo,
+
+07:25.926 --> 07:27.612
+minha população ainda
+é o mesmo K.
+
+07:27.623 --> 07:29.867
+Se a minha taxa de variação
+da população é zero,
+
+07:29.867 --> 07:32.350
+isto significa que minha
+população ficará constante.
+
+07:32.352 --> 07:34.169
+E portanto, minha população
+
+07:34.169 --> 07:35.968
+ficará lá em K.
+
+07:35.994 --> 07:37.348
+E isto é realmente incrível.
+
+07:37.348 --> 07:38.687
+Malthus provavelmente diria
+
+07:38.687 --> 07:40.451
+que você teria, talvez ela crescesse
+
+07:40.451 --> 07:43.674
+um pouco além da
+capacidade do ambiente
+
+07:43.674 --> 07:46.577
+e então você teria
+alguma inundação,
+
+07:46.577 --> 07:48.406
+ou algum furacão ou fome
+
+07:48.406 --> 07:49.434
+e ela retornaria.
+
+07:49.434 --> 07:51.816
+Mas para nossos propósitos,
+você nunca pode modelar
+
+07:51.816 --> 07:52.918
+nada perfeitamente.
+
+07:52.948 --> 07:55.116
+Para nossos propósitos,
+isto é muito bom.
+
+07:55.116 --> 07:57.031
+Você está no limite do que o
+
+07:57.031 --> 07:59.046
+ambiente pode suportar,
+
+07:59.046 --> 08:01.095
+então você apenas fica lá.
+
+08:01.095 --> 08:02.940
+Esta é outra solução constante,
+
+08:02.940 --> 08:05.577
+este N de T, se
+ele começa,
+
+08:05.577 --> 08:06.389
+e pode apreciar
+
+08:06.389 --> 08:08.388
+por que condições
+iniciais são importantes.
+
+08:08.388 --> 08:09.103
+Se inicia em 0,
+
+08:09.103 --> 08:11.357
+ficará em 0, se inicia
+em K, ficará em K.
+
+08:11.357 --> 08:13.947
+Assim, N de T apenas permanece K.
+
+08:14.504 --> 08:17.190
+Mas agora vamos pensar num
+cenário mais interessante.
+
+08:17.253 --> 08:20.089
+Vamos supor que uma
+população inicial
+
+08:20.089 --> 08:22.492
+é algo entre zero e K.
+
+08:22.492 --> 08:25.385
+Então, isto será ...
+
+08:25.385 --> 08:27.045
+Assumirei população inicial
+
+08:27.052 --> 08:31.555
+que é um lugar maior que zero,
+
+08:31.555 --> 08:34.030
+de forma que há pessoas
+para terem filhos,
+
+08:34.025 --> 08:35.678
+e é menor que K,
+
+08:35.678 --> 08:38.823
+portanto não estamos
+sobrecarregando o meio ambiente.
+
+08:38.929 --> 08:40.735
+Ou a terra ou a
+comida ou a água
+
+08:40.735 --> 08:41.854
+ou o que quer que seja.
+
+08:41.854 --> 08:43.192
+Então, o que vai acontecer?
+
+08:43.192 --> 08:44.495
+Mais uma vez, eu vou
+
+08:44.495 --> 08:45.636
+meio que esboçar isto,
+
+08:45.636 --> 08:48.145
+e então, vamos resolvê-lo
+no próximo vídeo.
+
+08:48.145 --> 08:50.071
+Então, quando N é
+muito menor que K,
+
+08:50.071 --> 08:52.048
+é uma pequena fração de K,
+
+08:53.238 --> 08:54.949
+este termo será o principal
+
+08:54.958 --> 08:56.427
+que está influenciando.
+
+08:56.427 --> 08:58.425
+Porque esta é uma
+pequena fração de K,
+
+08:58.425 --> 08:59.473
+Do jeito que desenhei
+
+08:59.473 --> 09:03.171
+se parece com
+sexto ou um sétimo
+
+09:03.171 --> 09:04.481
+ou um oitavo de K,
+
+09:04.481 --> 09:06.279
+portanto é um menos 1/8.
+
+09:06.279 --> 09:11.233
+Será 7/8 vezes isto.
+
+09:11.235 --> 09:15.833
+Então realmente, isto
+é o que vai ditar
+
+09:15.833 --> 09:17.425
+qual é nossa taxa de crescimento.
+
+09:17.425 --> 09:18.872
+E se isto é o que
+está ditando,
+
+09:18.872 --> 09:20.929
+nós estamos olhando um ...
+
+09:20.945 --> 09:22.472
+vamos pensar nisso
+desta maneira.
+
+09:22.472 --> 09:23.741
+Quando a população cresce,
+
+09:23.741 --> 09:27.172
+a taxa de variação vai crescer.
+
+09:27.484 --> 09:32.974
+Então, ela se parecerá
+com algo assim.
+
+09:32.974 --> 09:35.016
+Quando nossa população fica maior,
+
+09:35.016 --> 09:37.101
+nossa inclinação está ficando maior.
+
+09:37.209 --> 09:38.724
+Está ficando mais íngreme.
+
+09:39.153 --> 09:41.111
+Mas quando K tende a N,
+
+09:41.111 --> 09:42.971
+então esta coisa se tornará,
+
+09:42.971 --> 09:44.698
+ficará perto de um menos ...
+
+09:44.698 --> 09:45.909
+perto de um.
+
+09:45.909 --> 09:48.118
+Então, isto se tornará um
+número muito pequeno,
+
+09:48.118 --> 09:50.204
+fará toda esta coisa tender a zero.
+
+09:50.646 --> 09:52.162
+Então, quando N tende a K,
+
+09:52.611 --> 09:54.548
+a coisa toda, a taxa de variação
+
+09:54.548 --> 09:57.399
+ficará nivelada
+
+09:57.399 --> 09:59.810
+E adicionaremos uma
+assíntota em direção a K.
+
+09:59.858 --> 10:03.441
+E assim, a solução para a
+
+10:03.441 --> 10:05.931
+equação diferencial logística
+
+10:05.931 --> 10:07.854
+deve ser algo assim.
+
+10:07.854 --> 10:09.679
+Dependendo das suas
+condições iniciais.
+
+10:09.679 --> 10:10.786
+Se sua condição é aqui,
+
+10:10.786 --> 10:12.091
+talvez se pareça com isto.
+
+10:12.091 --> 10:13.415
+Se sua condição está aqui,
+
+10:13.415 --> 10:16.243
+talvez se pareça com algo assim.
+
+10:16.243 --> 10:17.479
+Isto que é divertido sobre
+
+10:17.479 --> 10:18.531
+equações diferenciais.
+
+10:18.531 --> 10:20.014
+Antes da matemática
+sofisticada,
+
+10:20.014 --> 10:21.221
+pode ter uma intuição,
+
+10:21.221 --> 10:22.987
+apenas pensando
+na equação diferencial
+
+10:22.987 --> 10:26.325
+que ela poderia ter.
+
+10:26.368 --> 10:30.942
+Aqui em baixo, ou quando N
+é muito menor que K
+
+10:30.942 --> 10:32.746
+sua taxa de variação aumenta
+
+10:32.746 --> 10:34.098
+à medida que N aumenta,
+
+10:34.098 --> 10:35.914
+e aqui, quando N tende a K,
+
+10:35.914 --> 10:39.191
+sua taxa de variação está diminuindo.
+
+10:39.191 --> 10:40.568
+Vamos, no próximo vídeo,
+
+10:40.568 --> 10:43.876
+resolver para N, uma
+solução para isto,
+
+10:43.888 --> 10:46.342
+e ver se isto confirma
+nossa intuição.
+
+10:46.342 --> 10:47.833
+Legendado por [Raul Guimaraes]
+Revisado por [Soraia Novaes]

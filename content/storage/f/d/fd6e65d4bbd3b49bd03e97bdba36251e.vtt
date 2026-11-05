@@ -1,0 +1,209 @@
+WEBVTT
+
+00:00.520 --> 00:05.973
+Determina se i seguenti numeri sono
+primi, composti, o nessuno dei due.
+
+00:05.973 --> 00:11.239
+Solo un piccolo ripasso: un numero primo
+è un numero naturale, cioè uno dei numeri
+
+00:11.239 --> 00:17.559
+1, 2, 3, 4, 5, 6, e via di seguito,
+che ha esattamente due fattori.
+
+00:17.559 --> 00:27.469
+I suoi fattori sono 1 e il numero stesso.
+Quindi, un esempio di numero primo è 3.
+
+00:27.469 --> 00:33.656
+Esistono solo due numeri naturali
+che possono dividere 3: 1 e 3.
+
+00:33.656 --> 00:36.890
+Puoi anche pensare che l'unico modo
+
+00:36.890 --> 00:40.884
+per avere 3 come prodotto
+di numeri naturali è 1 x 3.
+
+00:40.884 --> 00:43.748
+Quindi i suoi fattori sono 1 e se stesso.
+
+00:43.748 --> 00:50.092
+Un numero composto è un numero
+naturale che ha più numeri come fattori,
+
+00:50.092 --> 00:52.873
+oltre 1 e se stesso, e ora
+ne vediamo qualche esempio.
+
+00:52.873 --> 00:56.678
+E vedremo un caso interessante in
+questo problema che non è nessuno dei due.
+
+00:56.678 --> 00:58.723
+Per prima cosa pensiamo a 24.
+
+00:58.723 --> 01:02.933
+Pensiamo a tutti i numeri naturali,
+
+01:02.933 --> 01:06.649
+o interi, sebbene anche 0
+sia incluso nei numeri interi.
+
+01:06.649 --> 01:12.213
+Pensiamo a tutti I numeri naturali per cui
+possiamo dividere 24 senza avere resto.
+
+01:12.213 --> 01:14.309
+Questi numeri saranno i suoi fattori.
+
+01:14.309 --> 01:20.396
+Ovviamente, 24 è divisibile
+per 1 e per 24. Infatti, 1 x 24 = 24.
+
+01:20.396 --> 01:24.281
+Ma è divisibile anche per 2.
+
+01:24.281 --> 01:30.480
+2 x 12 = 24, quindi
+è divisibile anche per 12.
+
+01:30.480 --> 01:37.994
+Ed è divisibile anche per 3: 3 x 8 = 24.
+
+01:37.994 --> 01:40.796
+Non dobbiamo trovare
+proprio tutti i suoi fattori,
+
+01:40.796 --> 01:43.598
+per capire che 24 non è un numero primo.
+
+01:43.598 --> 01:46.401
+È chiaro che 24 ha altri
+fattori oltre a 1 e se stesso.
+
+01:46.401 --> 01:50.000
+Quindi è evidentemente un numero composto.
+
+01:50.000 --> 01:53.829
+Numero composto.
+
+01:53.829 --> 01:57.200
+Ma finiamo di trovare i fattori di 24,
+visto che abbiamo iniziato.
+
+01:57.200 --> 02:04.112
+24 è divisibile anche per 4, e 4 x 6 = 24.
+
+02:04.112 --> 02:10.139
+Questi sono tutti i fattori di 24, e sono
+evidentemente di più rispetto a 1 e 24.
+
+02:10.139 --> 02:13.051
+Ora pensiamo a 2,
+
+02:13.051 --> 02:17.991
+I numeri, diversi da 0,
+che possono dividere il 2..
+
+02:17.991 --> 02:24.984
+1 x 2 funziona bene, 1 e 2. Ma
+non ce ne sono altri che dividono il 2.
+
+02:24.984 --> 02:28.867
+Quindi ci sono solo
+due fattori, 1 e il numero stesso.
+
+02:28.867 --> 02:33.962
+Questa è la definizione di numero primo.
+Quindi 2 è un numero primo.
+
+02:33.962 --> 02:36.860
+2 è un numero primo.
+
+02:36.860 --> 02:42.100
+Il 2 è interessante, perché è
+l'unico numero primo pari,
+
+02:42.100 --> 02:48.093
+il solo numero primo pari.
+
+02:48.093 --> 02:51.983
+Ed è una cosa sensata,
+perché per definizione,
+
+02:51.983 --> 02:56.643
+un numero pari è divisibile per 2.
+
+02:56.643 --> 02:59.847
+2 è chiaramente divisibile per 2,
+e questo lo rende un numero pari.
+
+02:59.847 --> 03:03.481
+Ma è divisibile solo per 2 e per 1,
+e questo lo rende numero primo.
+
+03:03.481 --> 03:13.220
+Ma qualunque altro numero pari sarà
+divisibile per 1, per se stesso, e per 2.
+
+03:13.220 --> 03:18.048
+Qualsiasi altro numero pari sarà
+divisibile per 1, per se stesso, e per 2.
+
+03:18.048 --> 03:21.209
+Per definizione, se ha come
+fattori 1, se stesso, e qualcos'altro,
+
+03:21.209 --> 03:23.867
+è un numero composto.
+
+03:23.867 --> 03:27.531
+Quindi 2 è primo, e ogni altro numero
+pari diverso da 2 sarà composto.
+
+03:27.531 --> 03:31.062
+Ecco un caso interessante: 1.
+
+03:31.062 --> 03:35.405
+1 è divisibile solo per 1.
+
+03:35.405 --> 03:48.043
+Quindi non è primo, tecnicamente, perché
+ha solo 1 come fattore. Non ha 2 fattori.
+
+03:48.043 --> 03:53.235
+1 è anche se stesso, ma per essere primo
+deve avere esattamente 2 fattori.
+
+03:53.235 --> 03:55.928
+1 ha solo un fattore.
+
+03:55.928 --> 04:01.998
+Perché sia composto, bisogna avere
+più di 2 fattori: 1, se stesso, e altro.
+
+04:01.998 --> 04:04.205
+Quindi non è composto.
+
+04:04.205 --> 04:07.725
+1 non è né primo né composto.
+
+04:07.725 --> 04:10.291
+Non è nessuno dei due.
+
+04:10.291 --> 04:12.751
+E infine abbiamo 17.
+
+04:12.751 --> 04:20.488
+17 è divisibile per 1 e per 17.
+
+04:20.488 --> 04:27.162
+Non è divisibile per 2, 3, 4, 5, 6,
+7, 8, 9, 10, 11, 12, 13, 14, 15, o 16.
+
+04:27.162 --> 04:39.044
+Ha esattamente due fattori: 1 e
+se stesso, quindi 17 è un numero primo.

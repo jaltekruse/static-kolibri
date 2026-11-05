@@ -1,0 +1,281 @@
+WEBVTT
+
+00:00.220 --> 00:04.440
+Veremos se podemos entender intuitivamente
+
+00:04.440 --> 00:09.690
+o teorema do valor médio.
+
+00:09.690 --> 00:15.720
+E,como veremos, uma vez que você processar
+parte dos termos matemáticos e da notação,
+
+00:15.720 --> 00:19.120
+verá que é um teorema bastante intuitivo.
+
+00:19.120 --> 00:22.810
+Vamos pensar sobre uma função f.
+
+00:22.810 --> 00:24.910
+Digamos que tenho uma função f
+
+00:24.910 --> 00:27.330
+e sabemos algumas coisas
+sobre esta função.
+
+00:27.330 --> 00:39.990
+Sabemos que é contínua
+sobre o intervalo fechado
+
+00:39.990 --> 00:44.520
+entre x igual a a e x igual a b.
+
+00:44.520 --> 00:47.874
+Quando colocamos estes colchetes
+quer dizer que o intervalo é fechado.
+
+00:47.874 --> 00:51.840
+Quando coloco um colchete aqui,
+significa que estou incluindo o ponto a.
+
+00:51.840 --> 00:55.235
+E se coloco o colchete à direita,
+em vez de parênteses,
+
+00:55.235 --> 00:57.570
+significa que estamos incluindo o ponto b.
+
+00:57.570 --> 01:00.746
+Continuidade significa que não temos
+nenhuma descontinuidade ou saltos
+
+01:00.746 --> 01:02.530
+neste intervalo fechado.
+
+01:02.530 --> 01:13.810
+Também vamos assumir que a função
+é diferenciável no intervalo aberto
+
+01:13.810 --> 01:14.960
+entre a e b.
+
+01:14.960 --> 01:18.860
+Estamos dizendo que não há problema
+se a função não é diferenciável em a
+
+01:18.860 --> 01:19.900
+ou em b.
+
+01:19.900 --> 01:23.592
+E diferenciável significa que há
+uma derivada definida; que você pode
+
+01:23.592 --> 01:25.530
+calcular a derivada nesses pontos.
+
+01:25.530 --> 01:30.100
+Então, a função é diferenciável
+no intervalo aberto entre a e b.
+
+01:30.100 --> 01:33.640
+Essas são as condições que vamos impor
+para o teorema do valor médio.
+
+01:33.640 --> 01:35.560
+Vamos tentar visualizar isto.
+
+01:35.560 --> 01:49.404
+Esta é minha função, este é o eixo y
+e este é o eixo x. Deixe-me desenhar
+
+01:49.404 --> 01:57.230
+meu intervalo. Isso é a e isto aqui é o b.
+
+01:57.230 --> 02:09.308
+Digamos que minha função
+parece algo assim.
+
+02:09.308 --> 02:17.940
+Neste ponto aqui, o valor de x é a
+e o valor de y é f de a.
+
+02:17.940 --> 02:29.800
+Neste ponto, o valor de x é b
+e o valor de y é, obviamente, f de b.
+
+02:29.810 --> 02:35.450
+Tudo que o teorema do valor médio diz
+é que se calcularmos a taxa de variação
+
+02:35.450 --> 02:44.450
+média do intervalo, em algum ponto
+a taxa de variação instantânea
+
+02:44.450 --> 02:46.750
+será igual a taxa de variação média.
+
+02:46.750 --> 02:50.440
+O que isso significa visualmente?
+Vamos calcular a taxa de variação média.
+
+02:50.440 --> 02:55.470
+A variação média entre o ponto a
+e o ponto b será o coeficiente angular
+
+02:55.470 --> 03:05.270
+da reta secante. Esta é a reta secante.
+Pense sobre o coeficiente angular.
+
+03:05.270 --> 03:09.880
+O que o teorema do valor médio nos diz
+é que em algum ponto deste intervalo
+
+03:09.880 --> 03:12.735
+o coeficiente angular instantâneo
+da reta tangente será igual
+
+03:12.735 --> 03:14.690
+ao coeficiente angular da reta secante.
+
+03:14.690 --> 03:19.760
+Podemos observar que aqui
+parece que o coeficiente angular
+
+03:19.760 --> 03:22.980
+da reta tangente é igual
+ao coeficiente angular da reta secante.
+
+03:22.980 --> 03:25.340
+E parece que aqui também
+o coeficiente angular
+
+03:25.340 --> 03:28.156
+da reta tangente é igual ao coeficiente
+angular da reta secante.
+
+03:28.156 --> 03:30.580
+Isso faz sentido intuitivamente.
+Em algum ponto, o seu
+
+03:30.580 --> 03:33.430
+coeficiente angular instantâneo
+será igual ao seu coeficiente
+
+03:33.430 --> 03:41.730
+angular médio. Como escreveríamos isso
+matematicamente? Vamos calcular
+
+03:41.730 --> 03:44.140
+o coeficiente angular
+médio deste intervalo.
+
+03:44.150 --> 03:47.010
+O coeficiente angular médio
+deste intervalo, ou a taxa
+
+03:47.010 --> 03:50.260
+de variação média - o coeficiente angular
+da reta secante - será nossa diferença
+
+03:50.260 --> 04:01.900
+em y sobre nossa diferença em x.
+Qual é nossa diferença em y?
+
+04:01.900 --> 04:09.840
+A nossa diferença em y
+é f de b menos f de a
+
+04:09.850 --> 04:18.910
+- sobre nossa diferença em x-
+sobre b menos a.
+
+04:18.910 --> 04:20.180
+Farei isso em vermelho.
+
+04:20.180 --> 04:23.230
+Vamos recordar o que está acontecendo.
+
+04:23.230 --> 04:26.920
+Isto aqui é o gráfico de y,
+que é igual a f de x.
+
+04:26.920 --> 04:30.989
+Estamos dizendo que o coeficiente angular
+da reta secante, ou nossa taxa de variação
+
+04:30.989 --> 04:40.580
+média do intervalo entre a e b,
+é nossa variação em y
+
+04:40.580 --> 04:51.070
+--a letra grega delta significa variação--
+sobre nossa variação em x.
+
+04:51.070 --> 04:56.560
+Que, obviamente, é igual a isso daqui.
+O teorema do valor médio nos diz
+
+04:56.560 --> 05:03.030
+que existe -- então se sabemos
+essas duas coisas sobre a função--
+
+05:03.030 --> 05:15.260
+um valor de x entre a e b. Então,
+no intervalo aberto entre a e b
+
+05:15.260 --> 05:22.330
+existe um valor c. E podemos dizer
+que pertence ao intervalo aberto
+
+05:22.330 --> 05:34.020
+entre a e b. Ou podemos dizer que algum
+valor c tal que a é menor que c e
+
+05:34.020 --> 05:44.030
+c é menor que b. Algum valor c onde
+a taxa de variação instantânea
+
+05:44.030 --> 05:48.740
+nesse valor x é igual a taxa
+de variação média.
+
+05:48.740 --> 05:56.280
+Então existe um c neste intervalo aberto
+no qual a taxa de variação média é igual
+
+05:56.280 --> 06:01.672
+a taxa de variação instantânea
+nesse ponto. É tudo o que está dizendo.
+
+06:01.672 --> 06:08.430
+Assim como vimos neste diagrama,
+este poderia ser o nosso c. Ou este.
+
+06:08.430 --> 06:16.180
+Você diria que f é continua
+em a e b, no intervalo fechado,
+
+06:16.180 --> 06:17.840
+e diferenciável no intervalo aberto.
+
+06:17.840 --> 06:20.150
+e você vê toda esta notação.
+O que isso nos diz?
+
+06:20.150 --> 06:26.530
+Diz que em algum ponto no intervalo,
+a taxa de variação instantânea será igual
+
+06:26.530 --> 06:30.040
+a taxa de variação média
+sobre todo o intervalo
+
+06:30.040 --> 06:33.000
+No próximo vídeo, tentaremos
+dar um exemplo da vida real
+
+06:33.000 --> 06:35.470
+sobre quando isso faz sentido.
+
+06:35.470 --> 06:36.800
+[legendado por: Pilar]

@@ -1,0 +1,619 @@
+WEBVTT
+
+00:00.150 --> 00:03.250
+Você abriu uma fábrica de sapatos
+e está tentando descobrir
+
+00:03.250 --> 00:08.980
+quantos mil pares de sapatos precisa
+produzir para otimizar seu lucro.
+
+00:08.980 --> 00:20.365
+Vamos considerar x igual a
+milhares de pares produzidos.
+
+00:20.365 --> 00:23.303
+Vamos pensar sobre quanto
+dinheiro você ganhará por par.
+
+00:23.303 --> 00:28.079
+Digamos qual é a receita, que é
+por quanto você venderá estes sapatos.
+
+00:28.079 --> 00:29.620
+Então vamos escrever uma função.
+
+00:29.620 --> 00:31.910
+Receita em função de x.
+
+00:31.910 --> 00:35.290
+Você terá um atacadista que está
+disposto a pagar $10 por par
+
+00:35.290 --> 00:38.090
+por qualquer quantia que
+você oferecer para ele.
+
+00:38.090 --> 00:42.100
+Então sua receita em
+função de x vai ser 10 vezes x.
+
+00:42.100 --> 00:45.490
+Já que x está em milhares de pares
+produzidos, se x é igual a um,
+
+00:45.490 --> 00:50.500
+significa que 1000 pares produzidos
+vezes 10, significa $10 000.
+
+00:50.500 --> 00:51.980
+Mas isto só te dará 10.
+
+00:51.980 --> 00:59.750
+Este está em milhares de dólares
+
+00:59.750 --> 01:02.620
+Então se x é um, significa
+1000 pares produzidos.
+
+01:02.620 --> 01:05.250
+10 vezes um diz que r é igual a 10.
+
+01:05.250 --> 01:09.680
+mas isto realmente significa $10 000.
+
+01:09.689 --> 01:13.210
+Seria um negócio legal se você
+tivesse só renda e nenhum custo.
+
+01:13.220 --> 01:14.465
+Mas você tem custos
+
+01:14.465 --> 01:16.590
+Tem materiais, tem
+que construir a fábrica,
+
+01:16.590 --> 01:19.519
+tem que pagar seus
+funcionários, a conta de luz.
+
+01:19.519 --> 01:21.210
+Então você contrata consultores
+
+01:21.210 --> 01:28.175
+para descobrir qual é
+seu custo em função de x.
+
+01:28.175 --> 01:29.600
+E eles chegam a uma função.
+
+01:29.600 --> 01:34.010
+Dizem que o número de milhares
+de pares que você produzir ao cubo
+
+01:34.010 --> 01:37.750
+menos seis vezes os milhares de
+pares que você produzir ao quadrado
+
+01:37.750 --> 01:43.310
+mais 15 vezes os milhares
+de pares que você produzir.
+
+01:43.310 --> 01:49.190
+Mais uma vez isto vai estar
+em milhares de dólares.
+
+01:49.190 --> 01:52.840
+Dadas estas funções de x
+para receita e custo
+
+01:52.840 --> 01:58.962
+qual será o lucro em função de x?
+
+01:58.962 --> 02:07.250
+Seu lucro em função de x vai ser
+igual a sua receita em função de x
+
+02:07.250 --> 02:13.050
+menos seus custos em função de x.
+
+02:13.050 --> 02:17.470
+Se você produzir uma certa quantia,
+digamos que consiga $10 000 de receita
+
+02:17.470 --> 02:21.630
+e custe $5000 produzir estes sapatos,
+você terá $5000 em lucro.
+
+02:21.630 --> 02:25.350
+Estes números não são os que
+você conseguiria a partir disto.
+
+02:25.350 --> 02:27.230
+Só estou dando um exemplo.
+
+02:27.230 --> 02:28.990
+Isto é o que você quer otimizar.
+
+02:28.990 --> 02:36.170
+Você quer otimizar p em função de x.
+
+02:36.170 --> 02:37.140
+Qual é ele?
+
+02:37.140 --> 02:39.070
+Eu disse isto em termos abstratos,
+
+02:39.070 --> 02:41.170
+mas sabemos quanto é
+r de x e c de x.
+
+02:41.170 --> 02:46.380
+Este é 10x menos tudo isso.
+
+02:46.380 --> 02:53.590
+Então menos x ao cubo mais
+seis x ao quadrado menos 15x.
+
+02:53.590 --> 02:55.710
+Eu só subtraí x ao quadrado,
+
+02:55.710 --> 02:58.550
+subtraindo seis x ao quadrado
+fica positivo, subtraindo 15x
+
+02:58.550 --> 03:03.020
+ele fica 15x negativo, e
+podemos simplificar isto como...
+
+03:03.020 --> 03:08.750
+Vamos ver, temos x negativo ao cubo
+mais seis x ao quadrado menos 15x
+
+03:08.750 --> 03:12.370
+mais 10x, que é menos cinco x.
+
+03:12.370 --> 03:16.457
+Se queremos otimizar esta
+função de lucro analiticamente,
+
+03:16.457 --> 03:20.420
+o jeito mais fácil é pensar sobre quais
+os pontos críticos desta função de lucro,
+
+03:20.420 --> 03:23.430
+e se estes pontos críticos são
+pontos mínimos ou máximos.
+
+03:23.430 --> 03:28.180
+E se um deles é um ponto máximo podemos
+dizer: "Vamos produzir esta quantidade"
+
+03:28.190 --> 03:30.292
+Este vai ser-- vamos ter otimizado
+
+03:30.292 --> 03:35.050
+ou vamos descobrir a quantidade que
+temos que produzir para otimizar o lucro.
+
+03:35.050 --> 03:39.650
+Para descobrir os pontos críticos, temos
+que encontrar a derivada da nossa função.
+
+03:39.650 --> 03:42.110
+e descobrir quando aquela
+derivada é igual a zero
+
+03:42.110 --> 03:44.070
+ou quando aquela derivada é indefinida.
+
+03:44.070 --> 03:46.490
+Esta é a definição dos pontos críticos.
+
+03:46.490 --> 03:55.770
+Então p linha de x vai ser igual a três x
+negativo ao quadrado mais 12x menos cinco
+
+03:55.770 --> 03:58.100
+Então isto vai ser definido
+para todos os x.
+
+03:58.100 --> 04:01.050
+Os únicos pontos críticos
+que teremos será quando
+
+04:01.050 --> 04:04.280
+a primeira derivada aqui for igual a zero.
+
+04:04.280 --> 04:10.470
+Três x negativo ao quadrado mais 12x
+menos cinco precisa ser igual a zero
+
+04:10.470 --> 04:12.190
+para que x seja um ponto crítico.
+
+04:12.190 --> 04:14.300
+Agora temos que resolver para x.
+
+04:14.300 --> 04:17.809
+Nós só vamos resolver
+uma equação quadrática.
+
+04:17.809 --> 04:21.830
+Para não ter tantos negativos vamos
+multiplicar os dois lados por um negativo.
+
+04:21.830 --> 04:24.010
+Quero ter um primeiro coeficiente limpo.
+
+04:24.010 --> 04:26.310
+Multiplicando os dois lados
+por um negativo temos
+
+04:26.310 --> 04:33.330
+três x ao quadrado menos 12x
+mais cinco é igual a zero.
+
+04:33.330 --> 04:36.780
+Agora podemos usar a fórmula
+quadrática para resolver para x.
+
+04:36.780 --> 04:43.800
+x vai ser igual a b negativo, que é
+12, mais ou menos a raiz quadrada.
+
+04:43.800 --> 04:46.740
+-- Preciso fazer os símbolos
+radicais grandes o suficiente.
+
+04:46.740 --> 04:53.000
+-- a raiz quadrada de b ao quadrado,
+que é 144 menos quatro vezes a,
+
+04:53.000 --> 04:58.350
+que é três vezes c, que é cinco,
+vezes cinco,
+
+04:58.350 --> 05:01.020
+tudo isso sobre dois a.
+
+05:01.020 --> 05:03.830
+Dois vezes três é seis.
+
+05:03.830 --> 05:07.250
+Então x é igual a 12 mais ou menos
+
+05:07.250 --> 05:12.250
+a raiz quadrada de, vamos ver,
+quatro vezes três é 12 vezes cinco é 60.
+
+05:12.250 --> 05:16.190
+144 menos 60 é 84.
+
+05:16.190 --> 05:17.990
+Tudo isso sobre seis.
+
+05:17.990 --> 05:23.430
+Então x poderia ser igual a 12 mais
+a raiz quadrada de 84 sobre seis
+
+05:23.430 --> 05:29.930
+ou x poderia ser igual a 12 menos
+a raiz quadrada de 84 sobre seis.
+
+05:29.930 --> 05:31.580
+Vamos descobrir estes dois.
+
+05:31.580 --> 05:34.270
+Vou usar uma calculadora.
+
+05:34.270 --> 05:37.140
+Vou usar uma calculadora para este.
+
+05:37.140 --> 05:49.940
+Vejamos, 12 mais a raiz quadrada
+de 84 dividido por seis
+
+05:49.940 --> 05:58.840
+me dá 3,5-- Digo 3,53.
+Então aproximadamente 3,--
+
+05:58.840 --> 06:02.550
+Vou colocar mais um dígito porque
+estou falando de milhares.
+
+06:02.550 --> 06:11.510
+Então vou dizer 3,528.
+
+06:11.510 --> 06:15.080
+Isto seria literalmente 3528 sapatos,
+
+06:15.080 --> 06:19.210
+porque isso está em milhares,
+ou pares de sapatos.
+
+06:19.210 --> 06:21.370
+Vamos fazer a situação onde subtraímos.
+
+06:21.370 --> 06:24.520
+Podemos olhar para nosso registro anterior
+
+06:24.520 --> 06:27.220
+e mudar isso para uma subtração.
+
+06:27.220 --> 06:30.570
+Mudar não para um
+sinal negativo, mas para uma subtração.
+
+06:30.570 --> 06:31.530
+Pronto.
+
+06:31.530 --> 06:37.470
+Temos 0,4725.
+
+06:37.470 --> 06:38.410
+Vou lembrar disso.
+
+06:38.410 --> 06:41.810
+0,4725.
+
+06:41.810 --> 06:47.852
+Aproximadamente igual a 0,4725.
+
+06:47.852 --> 06:50.770
+Tenho uma memória horrível,
+vou conferir se escrevi igual.
+
+06:50.770 --> 06:53.840
+4725.
+
+06:53.840 --> 06:55.470
+Sim. Certo.
+
+06:55.470 --> 06:57.275
+Isso é o que sabemos sobre estes,
+
+06:57.275 --> 06:58.710
+os dois são pontos críticos.
+
+06:58.710 --> 07:02.530
+Estes são pontos onde nossa
+derivada é igual a zero.
+
+07:02.530 --> 07:04.680
+Mas não sabemos se
+são pontos mínimos,
+
+07:04.680 --> 07:06.810
+são pontos onde a função pega
+
+07:06.810 --> 07:09.930
+um valor mínimo, máximo
+ou nenhum dos dois.
+
+07:09.930 --> 07:11.980
+Vou usar o segundo teste de derivada
+
+07:11.980 --> 07:14.210
+para descobrir se a
+função é côncava para cima,
+
+07:14.210 --> 07:17.750
+para baixo ou nenhum deles
+em um destes pontos.
+
+07:17.750 --> 07:20.630
+Vamos olhar para a segunda derivada.
+
+07:20.630 --> 07:24.530
+p duas linhas de x vai ser
+
+07:24.530 --> 07:32.140
+igual a seis x negativo mais 12.
+
+07:32.140 --> 07:37.440
+Se olharmos para-- vou ver
+se tenho espaço o suficiente--
+
+07:37.440 --> 07:44.660
+Se olharmos para p duas linhas de 3,528.
+
+07:44.660 --> 07:46.860
+Vamos ver se posso entender isso.
+
+07:46.860 --> 07:49.430
+Este está entre três e quatro.
+
+07:49.430 --> 07:52.700
+Se pegarmos o menor valor,
+três vezes seis negativo
+
+07:52.700 --> 07:56.180
+é 18 negativo mais 12 que
+vai ser menor que zero.
+
+07:56.180 --> 07:58.170
+Se fosse quatro seria
+ainda mais negativo,
+
+07:58.170 --> 07:59.878
+então isto vai ser menor que zero
+
+07:59.878 --> 08:02.301
+Nem preciso usar a calculadora
+para avaliar isto.
+
+08:02.301 --> 08:04.050
+E este aqui?
+
+08:04.050 --> 08:05.690
+0,47
+
+08:05.690 --> 08:09.890
+0,47 é quase 0,5.
+
+08:09.890 --> 08:12.954
+Seis negativo vezes 0,5 é três negativo.
+
+08:12.954 --> 08:15.120
+Isto não chega nem perto de ser negativo.
+
+08:15.120 --> 08:17.080
+Este definitivamente vai ser positivo.
+
+08:17.080 --> 08:24.280
+p duas linhas de 0,4725 é maior que zero.
+
+08:24.280 --> 08:27.070
+O fato de a segunda derivada
+ser menor que zero,
+
+08:27.070 --> 08:31.850
+significa que minha derivada
+está decrescendo.
+
+08:31.850 --> 08:33.840
+Minha primeira derivada está decrescendo
+
+08:33.840 --> 08:37.010
+quando x é igual a este valor,
+
+08:37.010 --> 08:39.940
+o que significa que nosso
+gráfico, nossa função
+
+08:39.940 --> 08:46.016
+é côncava para baixo aqui.
+
+08:46.016 --> 08:50.856
+E côncava para baixo
+significa que ela fica assim.
+
+08:50.856 --> 08:53.146
+Você pode ver que quando ela fica assim,
+
+08:53.146 --> 08:56.147
+a curva está decrescendo constantemente.
+
+08:56.147 --> 08:58.918
+Se você tem um intervalo
+onde a curva está decrescendo
+
+08:58.918 --> 09:02.150
+e você sabe o ponto onde
+a curva é exatamente zero
+
+09:02.150 --> 09:09.860
+que é onde x é igual a 3,528,
+deve ser um máximo.
+
+09:09.860 --> 09:14.190
+Então pegamos um valor máximo
+quando x é 3,528
+
+09:14.190 --> 09:17.124
+No outro lado vemos que aqui somos
+
+09:17.124 --> 09:22.330
+côncavos para cima.
+
+09:22.330 --> 09:24.751
+O gráfico vai ficar assim aqui.
+
+09:24.751 --> 09:27.000
+E se a curva for zero
+onde o gráfico fica assim
+
+09:27.000 --> 09:33.190
+vemos que este é um mínimo local.
+
+09:33.199 --> 09:34.990
+Não queremos mesmo fazer isso.
+
+09:34.990 --> 09:39.160
+Iríamos produzir 472 e meia unidades
+
+09:39.160 --> 09:43.300
+se quiséssemos minimizar nosso lucro
+ou maximizar nossa perda.
+
+09:43.300 --> 09:45.672
+Não queremos mesmo fazer isso.
+
+09:45.672 --> 09:49.640
+Mas vamos pensar sobre qual
+vai ser nosso lucro se produzirmos
+
+09:49.640 --> 09:55.480
+3,528 milhares de sapatos
+ou 3528 sapatos.
+
+09:55.480 --> 09:57.570
+Para isso só temos
+que colocar de volta
+
+09:57.570 --> 10:00.450
+na nossa função original de lucro aqui.
+
+10:00.450 --> 10:01.780
+Vamos fazer isso.
+
+10:01.780 --> 10:05.140
+Vou pegar minha calculadora.
+
+10:05.140 --> 10:08.090
+A função original do meu lucro está aqui.
+
+10:08.090 --> 10:09.950
+Quero conseguir ver este e este.
+
+10:09.950 --> 10:24.570
+Pego 3,528 negativo ao cubo
+mais seis vezes 3,528
+
+10:24.570 --> 10:32.280
+ao quadrado menos cinco
+vezes 3,528 igual a
+
+10:32.280 --> 10:40.120
+que rufem os tambores--
+me dá um lucro de 13,128.
+
+10:40.120 --> 10:41.720
+Vou escrever isso.
+
+10:41.720 --> 10:48.630
+O lucro quando eu produzo 3528
+sapatos é aproximadamente igual a
+
+10:48.630 --> 10:52.119
+ou é igual a, se eu produzir exatamente
+esta quantidade de sapatos,
+
+10:52.119 --> 10:56.960
+é igual a 13,128.
+
+10:56.960 --> 11:02.240
+Na verdade é aproximadamente,
+porque eu ainda estou em torno de 13,128.
+
+11:02.240 --> 11:08.030
+Então se eu produzir 3528
+sapatos em um dado período,
+
+11:08.030 --> 11:12.540
+vou ter um lucro de $13 128.
+
+11:12.540 --> 11:14.540
+Lembre-se, este aqui está em milhares.
+
+11:14.540 --> 11:21.721
+Este aqui é 13,128 mil dólares
+em lucro que é $13 128.
+
+11:21.721 --> 11:25.761
+De qualquer forma agora vamos
+ser fabricantes de sapatos ricos.
+
+11:25.763 --> 11:27.000
+Legendado por [Rosana Cabral]

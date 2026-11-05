@@ -1,0 +1,427 @@
+WEBVTT
+
+00:00.720 --> 00:02.000
+- [Voiceover] So, this table here
+
+00:02.000 --> 00:03.200
+where you're given a bunch of Ns,
+
+00:03.200 --> 00:04.620
+N equals one, two, three, four,
+
+00:04.620 --> 00:06.930
+and we get the corresponding G of N.
+
+00:06.930 --> 00:08.800
+And one way to think about
+it is that this function,
+
+00:08.800 --> 00:13.290
+G, defines a sequence where N
+is the term of the sequence.
+
+00:13.290 --> 00:15.200
+So for example, we could
+say this is the same thing
+
+00:15.200 --> 00:18.910
+as the sequence where
+the first term is 168,
+
+00:18.910 --> 00:23.910
+second term is 84, third term is 42,
+
+00:24.079 --> 00:29.079
+and fourth term is 21,
+and we keep going on,
+
+00:29.330 --> 00:30.830
+and on, and on.
+
+00:30.830 --> 00:32.930
+Now, let's think about what
+type of a sequence this is.
+
+00:32.930 --> 00:36.160
+If we think of it as starting at 168,
+
+00:36.160 --> 00:38.890
+and how do we go from 168 to 84?
+
+00:38.890 --> 00:41.480
+Well, one way, you could
+say we subtract at 84,
+
+00:41.480 --> 00:42.790
+but another way to think about it is you
+
+00:42.790 --> 00:44.960
+multiply it by one half.
+
+00:44.960 --> 00:47.630
+So, times one half.
+
+00:47.630 --> 00:49.730
+And then to go from 84 to 42,
+
+00:49.730 --> 00:51.650
+you multiply by one half again.
+
+00:51.650 --> 00:53.150
+Times one half.
+
+00:53.150 --> 00:57.350
+And to go from 42 to 21, you
+multiply by one half again.
+
+00:57.720 --> 00:59.560
+So, this right over here
+is a geometric series.
+
+00:59.560 --> 01:02.160
+We're starting at a term
+and every successive term
+
+01:02.160 --> 01:06.350
+is the previous term
+times, it's often called
+
+01:06.350 --> 01:09.580
+the common ratio, times one half.
+
+01:09.580 --> 01:12.320
+So, how can we write G
+of N, how can we define
+
+01:12.320 --> 01:14.860
+this explicitly in terms of N?
+
+01:14.860 --> 01:16.050
+And I encourage you to pause the video
+
+01:16.050 --> 01:17.420
+and think about how to do that.
+
+01:17.420 --> 01:21.181
+So, construct a, so,
+if I say G of N equals,
+
+01:21.181 --> 01:23.190
+think of a function
+definition that describes
+
+01:23.190 --> 01:25.490
+what we've just seen here starting at 168,
+
+01:25.490 --> 01:28.060
+and then multiplying
+by one half every time
+
+01:28.060 --> 01:29.920
+you add a new term.
+
+01:29.920 --> 01:34.180
+Well, one way to think
+about it is we start at 168,
+
+01:34.790 --> 01:38.330
+and then we're gonna multiply by one half,
+
+01:38.330 --> 01:42.230
+we're gonna multiply by one
+half a certain number of times.
+
+01:42.230 --> 01:45.100
+So, we could view the exponent
+as the number of times
+
+01:45.100 --> 01:47.160
+we multiply by one half.
+
+01:47.160 --> 01:49.260
+And how many times are we
+gonna multiply by one half?
+
+01:49.260 --> 01:52.792
+The first term, we multiply
+by one half zero times.
+
+01:52.792 --> 01:55.950
+The second term, we multiply
+by one half one time.
+
+01:55.950 --> 01:58.820
+Third term, we multiply
+by one half two times.
+
+01:58.820 --> 02:01.878
+Fourth term, we multiply
+by one half three times.
+
+02:01.878 --> 02:04.300
+So, the figure, it seems
+like whatever term we're on,
+
+02:04.300 --> 02:08.630
+we're multiplying by one half,
+that term minus one times.
+
+02:08.630 --> 02:10.120
+And you can see that this works.
+
+02:10.120 --> 02:12.430
+If N is equal to one, you're going to have
+
+02:12.430 --> 02:14.660
+one minus one, that's just gonna be zero.
+
+02:14.660 --> 02:16.300
+One half to the zero's just one.
+
+02:16.300 --> 02:18.260
+So, you're just gonna get a 168.
+
+02:18.260 --> 02:20.320
+If N is two, well, two minus one,
+
+02:20.320 --> 02:22.940
+you're gonna multiply
+by one half one time,
+
+02:22.940 --> 02:24.690
+which you see right over here, N is three,
+
+02:24.690 --> 02:27.130
+you're gonna multiply by one half twice.
+
+02:27.130 --> 02:31.750
+Three minus two is, or,
+three minus one is two.
+
+02:31.750 --> 02:33.230
+You're gonna multiply by one half twice,
+
+02:33.230 --> 02:35.490
+and you see that right over there.
+
+02:35.490 --> 02:39.790
+So, this feels like a really
+nice explicit definition
+
+02:39.790 --> 02:42.050
+for this geometric series.
+
+02:42.050 --> 02:43.400
+And you can think of it in other ways,
+
+02:43.400 --> 02:47.740
+you could write this
+as G of N is equal to,
+
+02:48.120 --> 02:50.220
+let's see, one way you could write it, as,
+
+02:50.220 --> 02:52.920
+you could write it as 168,
+and I'm just algebraically
+
+02:52.920 --> 02:56.350
+manipulating it over
+two to the N minus one.
+
+02:56.350 --> 02:57.675
+Another way you could think about it is,
+
+02:57.675 --> 03:01.090
+well, let's use our exponent
+properties a little bit,
+
+03:01.090 --> 03:05.030
+we could say G of N is
+equal to, let's see,
+
+03:05.030 --> 03:07.290
+one half to the N minus
+one, that's the same thing
+
+03:07.290 --> 03:09.494
+as one half, let me write this.
+
+03:09.494 --> 03:12.520
+It's equal to 168.
+
+03:12.520 --> 03:14.221
+Lemme do this in a different color.
+
+03:14.221 --> 03:16.760
+So, this part right over
+here is the same thing
+
+03:16.760 --> 03:18.470
+as one half to the N.
+
+03:18.470 --> 03:22.760
+So, times one half to
+the N, times one half
+
+03:22.760 --> 03:24.300
+to the negative one.
+
+03:24.300 --> 03:26.530
+One half to the negative one.
+
+03:26.530 --> 03:27.820
+Well, one half to the negative one
+
+03:27.820 --> 03:31.420
+is just two, is just two, so,
+
+03:31.420 --> 03:33.879
+this is times two.
+
+03:33.879 --> 03:36.790
+So, we could rewrite this whole thing as
+
+03:36.790 --> 03:39.560
+168 times two is what?
+
+03:39.560 --> 03:41.620
+336?
+
+03:41.620 --> 03:43.200
+336, did I do that right?
+
+03:43.200 --> 03:47.500
+160 times two would be 320, plus 16,
+
+03:47.500 --> 03:50.030
+two times eight, so yeah, 336.
+
+03:50.030 --> 03:52.660
+And then times one half to the N.
+
+03:52.660 --> 03:55.720
+Times one half to the N.
+
+03:55.720 --> 03:57.970
+So, these are equivalent statements.
+
+03:57.970 --> 03:59.750
+This one makes a little
+bit more intuitive sense,
+
+03:59.750 --> 04:02.400
+it kinda jumps out at you,
+you're starting at 168
+
+04:02.400 --> 04:04.190
+and you're multiplying by one half.
+
+04:04.190 --> 04:06.581
+Whatever term you are minus one times.
+
+04:06.581 --> 04:09.220
+But this is algebraically
+equivalent to this,
+
+04:09.220 --> 04:10.930
+to our original one.
+
+04:10.930 --> 04:13.850
+But, can we also define
+G of N recursively?
+
+04:13.850 --> 04:17.050
+And I encourage you to pause
+the video and try to do that.
+
+04:17.050 --> 04:19.010
+In a lot of ways, the recursive definition
+
+04:19.010 --> 04:20.690
+is a little bit more straight
+forward, so let's do that.
+
+04:20.690 --> 04:23.890
+G, well, I'll make the
+recursive function a different,
+
+04:23.890 --> 04:26.230
+well, I got, I'll stick
+with G of N since it's
+
+04:26.230 --> 04:28.080
+on this table right over here.
+
+04:28.080 --> 04:33.030
+G of N is equal to, and so, let's see,
+
+04:33.030 --> 04:36.879
+if we're going to, when N equals one,
+
+04:36.879 --> 04:41.879
+if N is equal to one,
+we're starting at 168.
+
+04:42.340 --> 04:47.340
+168, and if N is greater than one
+
+04:47.470 --> 04:49.790
+and a whole number, so, if N, so,
+
+04:49.790 --> 04:52.420
+we're, this is gonna be defined
+over all positive integers,
+
+04:52.420 --> 04:56.080
+and whole number, what are we gonna do?
+
+04:56.479 --> 04:58.430
+Well, we're gonna take
+one half and multiply it
+
+04:58.430 --> 05:00.080
+times the previous term.
+
+05:00.080 --> 05:05.080
+So, it's gonna be one half
+times G of N minus one.
+
+05:06.172 --> 05:07.460
+And you can verify that this works.
+
+05:07.460 --> 05:09.690
+If N is equal to one, we
+just go right over here,
+
+05:09.690 --> 05:11.300
+it's gonna be 168.
+
+05:11.300 --> 05:14.650
+G of two is gonna be
+one half times G of one,
+
+05:14.650 --> 05:17.230
+which is, of course, 168.
+
+05:17.230 --> 05:19.180
+so, 168 times one half is 84.
+
+05:19.180 --> 05:22.680
+G of three is gonna be
+one half times G of two,
+
+05:22.680 --> 05:26.930
+which it is, G of three is
+one half times G of two.
+
+05:26.930 --> 05:28.730
+So, this is how we would define,
+
+05:28.730 --> 05:32.290
+this is the explicit
+definition of this sequence,
+
+05:32.290 --> 05:36.450
+this is a recursive function
+to define this sequence.

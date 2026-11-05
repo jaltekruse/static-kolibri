@@ -1,0 +1,781 @@
+WEBVTT
+
+00:00.560 --> 00:02.940
+Chúng mình có hàm số f
+
+00:02.940 --> 00:09.410
+liên tục trên khoảng từ a đến b.
+
+00:09.410 --> 00:12.480
+Hãy xem chúng mình có thể hình dung ra nó không nhé.
+
+00:12.480 --> 00:14.816
+Đây là trục tung y của mình.
+
+00:17.680 --> 00:20.600
+Còn ở bên đây, mình có trục hoành.
+
+00:20.600 --> 00:23.050
+Mình sẽ sử dụng x sau.
+
+00:23.050 --> 00:24.820
+Vậy mình sẽ gọi đây là trục hoành t.
+
+00:24.820 --> 00:26.720
+Còn ở đây, chúng mình có
+
+00:26.720 --> 00:29.025
+đồ thị của hàm y = f(t)
+
+00:31.830 --> 00:34.670
+Và nó liên tục trên khoảng từ a đến b.
+
+00:34.670 --> 00:36.880
+Vậy đây là t = a.
+
+00:36.880 --> 00:38.800
+Còn đây là t = b.
+
+00:38.800 --> 00:42.320
+Và chúng mình có đồ thị liên tục
+
+00:42.320 --> 00:45.350
+trên cả khoảng này.
+
+00:45.350 --> 00:51.580
+Bây giờ, chúng mình hãy xác định hàm F(x) với F viết hoa.
+
+00:51.580 --> 00:53.670
+Và mình sẽ viết nó bằng màu xanh.
+
+00:53.670 --> 00:58.810
+F(x) viết hoa sẽ bằng với tích phân xác định
+
+00:58.810 --> 01:06.630
+từ a là cận dưới đến x của f(t)
+
+01:06.630 --> 01:12.460
+của f(t) dt
+
+01:12.460 --> 01:19.500
+sao cho x thuộc khoảng này, vậy a bé hơn hoặc bằng x
+
+01:19.500 --> 01:21.371
+và bé hơn hoặc bằng b.
+
+01:21.371 --> 01:22.870
+Hoặc nói cách khác là
+
+01:22.870 --> 01:26.390
+x thuộc khoảng này ở ngay đây.
+
+01:26.390 --> 01:28.360
+Khi nhìn thấy điều này, có thể bạn sẽ nói là
+
+01:28.360 --> 01:31.017
+một tích phân xác định à, chắc nó sẽ có liên quan đến
+
+01:31.017 --> 01:32.350
+vi phân hay nguyên hàm gì đó.
+
+01:32.350 --> 01:33.910
+Nhưng mà chưa chắc đâu.
+
+01:33.910 --> 01:36.890
+Tất cả những gì chúng mình biết được là
+
+01:36.890 --> 01:43.150
+phần diện tích bên dưới đường cong f giữa a và x
+
+01:43.150 --> 01:47.250
+mình sẽ cho điểm này là x.
+
+01:47.250 --> 01:53.620
+Vậy F(x) sẽ chỉ là phần diện tích này ngay đây.
+
+01:53.620 --> 01:55.660
+Đó là tất cả những gì chúng mình biết.
+
+01:55.660 --> 01:58.090
+Chúng mình chưa biết là nó có liên quan
+
+01:58.090 --> 01:59.280
+đến nguyên hàm hay không.
+
+01:59.280 --> 02:02.800
+Vậy qua video này, mình sẽ cố gắng chứng minh điều đó.
+
+02:02.800 --> 02:06.312
+Và để cho vui thôi, hãy lấy đạo hàm của F.
+
+02:06.312 --> 02:07.770
+Chúng mình sẽ làm điều đó
+
+02:07.770 --> 02:09.949
+sử dụng định nghĩa của đạo hàm,
+
+02:09.949 --> 02:12.520
+và xem xem chúng mình sẽ được gì
+
+02:12.520 --> 02:15.950
+nếu tính đạo hàm bằng định nghĩa.
+
+02:15.950 --> 02:20.230
+Vậy, đạo hàm F'(x) sẽ là--
+
+02:20.230 --> 02:24.790
+chúng mình có định nghĩa của đạo hàm là giới hạn khi delta x
+
+02:24.790 --> 02:31.940
+tiến đến 0 của F viết hoa của x cộng delta x
+
+02:31.940 --> 02:37.620
+trừ đi F(x), và tất cả chia cho delta x.
+
+02:37.620 --> 02:41.450
+Đây chính là định nghĩa của đạo hàm.
+
+02:41.450 --> 02:43.611
+Vậy, nó sẽ bằng cái gì?
+
+02:43.611 --> 02:46.110
+Để mình viết lại nó bằng tích phân ở trên đây.
+
+02:46.110 --> 02:51.620
+Đây sẽ bằng với giới hạn
+
+02:51.620 --> 02:58.790
+khi delta x tiến đến 0 của-- F của x cộng delta x là gì nhỉ?
+
+02:58.790 --> 03:00.670
+Cho x vào đây.
+
+03:00.670 --> 03:05.330
+Bạn sẽ có được tích phân xác định từ a đến x cộng delta x
+
+03:05.330 --> 03:09.360
+của f(t) dt.
+
+03:09.360 --> 03:10.990
+Và từ đó, bạn sẽ có thể
+
+03:10.990 --> 03:17.450
+trừ phần F(x) này
+
+03:17.450 --> 03:24.870
+mà chúng mình đã viết lại là tích phân xác định từ a đến x của f(f) dt,
+
+03:24.870 --> 03:26.700
+và lấy tất cả chia cho delta x.
+
+03:32.740 --> 03:34.866
+Vậy, phần này có nghĩa là gì?
+
+03:34.866 --> 03:37.240
+Hãy nhớ là, chúng mình chưa biết gì về tích phân xác định
+
+03:37.240 --> 03:38.560
+hoặc là giải quyết những thứ gì
+
+03:38.560 --> 03:40.060
+có liên quan đến nguyên hàm.
+
+03:40.060 --> 03:41.870
+Chúng mình chỉ biết, đây là một các khác để nói là
+
+03:41.870 --> 03:45.630
+phần diện tích bên dưới đường cong f giữa a và x cộng delta x
+
+03:53.630 --> 04:00.620
+là toàn bộ phần diện tích này ở ngay đây.
+
+04:00.620 --> 04:02.460
+Nó là phần này.
+
+04:02.460 --> 04:06.090
+Chúng mình đã biết phần màu xanh dương này là gì rồi.
+
+04:06.090 --> 04:08.830
+Để mình viết bằng cùng một màu xanh.
+
+04:08.830 --> 04:11.420
+Vậy, phần màu xanh dương này ở đây
+
+04:11.420 --> 04:14.650
+sẽ bằng với toàn bộ phần này.
+
+04:14.650 --> 04:15.920
+Chúng mình đã tô nó rồi.
+
+04:15.920 --> 04:19.070
+Nó sẽ bằng với toàn bộ phần này ở đây.
+
+04:19.070 --> 04:22.130
+Vậy, nếu bạn lấy toàn bộ phần xanh lá này
+
+04:22.130 --> 04:24.730
+là phần từ x đến x cộng delta x, và trừ nó
+
+04:24.730 --> 04:26.500
+với phần màu xanh dương này, đó là những gì
+
+04:26.500 --> 04:29.420
+chúng mình đang làm ở phần tử số này, bạn sẽ còn lại gì?
+
+04:29.420 --> 04:32.450
+Bạn sẽ còn lại--
+
+04:32.450 --> 04:34.280
+còn màu gì mình chưa dùng không nhỉ?
+
+04:34.280 --> 04:36.381
+Chắc mình sẽ dùng màu hồng.
+
+04:36.381 --> 04:37.630
+À không, mình đã dùng rồi.
+
+04:37.630 --> 04:38.754
+Vậy mình sẽ dùng màu tím.
+
+04:38.754 --> 04:43.340
+Bạn sẽ còn lại phần diện tích này ở ngay đây,
+
+04:43.340 --> 04:45.490
+Vậy có cách nào khác để mình viết nó không?
+
+04:45.490 --> 04:48.450
+Một cách khác để viết lại phần diện tích này
+
+04:48.450 --> 04:51.870
+là tích phân xác định từ x đến
+
+04:51.870 --> 04:58.550
+x cộng delta x của f(t) dt.
+
+04:58.550 --> 05:01.350
+Vậy toàn bộ biểu thức này có thể viết lại thành
+
+05:01.350 --> 05:04.020
+đạo hàm của F(x) viết hoa, đây là F viết hoa
+
+05:04.020 --> 05:08.960
+phẩy x-- có thể được viết là bằng với giới hạn
+
+05:08.960 --> 05:13.530
+khi delta x tiến đến 0-- phần này có thể viết là
+
+05:13.530 --> 05:16.452
+1 trên delta x nhân với tử số.
+
+05:16.452 --> 05:18.640
+Mà chúng mình đã biết tử số này bằng gì rồi.
+
+05:18.640 --> 05:22.170
+Phần màu xanh lá trừ đi xanh dương sẽ là phần màu tím
+
+05:22.170 --> 05:24.510
+Và một cách khác để biểu diện phần diện tích đó
+
+05:24.510 --> 05:26.520
+chính là biểu thức này ở ngay đây.
+
+05:26.520 --> 05:28.680
+Vậy 1 trên delta x nhân với tích phân xác định
+
+05:28.680 --> 05:38.200
+từ x đến x cộng delta x của f(t) dt.
+
+05:38.200 --> 05:40.650
+Biểu thức này khá thú vị đấy.
+
+05:40.650 --> 05:43.680
+Bạn sẽ thấy nó khá giống với định lý
+
+05:43.680 --> 05:46.220
+giá trị trung bình của tích phân xác định.
+
+05:46.220 --> 05:48.320
+Vậy, định lý giá trị trung bình của tích phân xác định
+
+05:59.840 --> 06:09.360
+cho mình biết là, tồn tại một giá trị c thuộc khoảng--
+
+06:10.360 --> 06:12.990
+để mình viết lại là-- c sao cho
+
+06:12.990 --> 06:18.394
+a bé hơn hoặc bằng c--
+
+06:18.394 --> 06:19.810
+để mình viết rõ ra luôn
+
+06:19.810 --> 06:22.110
+Khoảng giá trị mà mình quan tâm đến
+
+06:22.110 --> 06:26.620
+là giữa x và delta x-- để x bé hơn
+
+06:26.620 --> 06:27.972
+hoặc bằng c, và bé hơn hoặc bằng
+
+06:27.972 --> 06:36.940
+x cộng delta x, sao cho hàm số tại c,
+
+06:36.940 --> 06:40.710
+Để mình vẽ c ra.
+
+06:40.710 --> 06:43.210
+Vậy mình có c ở đâu đó ngay đây,
+
+06:43.210 --> 06:46.240
+nếu mình lấy hàm số f tại c--
+
+06:46.240 --> 06:48.999
+f(c) là ở ngay đây.
+
+06:48.999 --> 06:50.790
+Vậy, nếu mình lấy hàm số
+
+06:50.790 --> 06:52.206
+f(c), mà về cơ bản thì nó là
+
+06:52.206 --> 06:55.520
+chiều dài của đường thẳng này, và mình nhân nó với đáy
+
+06:55.520 --> 06:57.960
+là khoảng này ở ngay đây,
+
+06:57.960 --> 06:59.660
+mà nó là khoảng delta x,
+
+06:59.660 --> 07:02.420
+vì x cộng delta x trừ đi x thì sẽ còn lại delta x.
+
+07:02.420 --> 07:07.140
+Vậy nếu chúng mình nhân chiều dài với đáy lại,
+
+07:07.140 --> 07:14.180
+thì nó sẽ bằng với phần diên tích bên dưới đường cong
+
+07:14.180 --> 07:24.010
+là tích phân xác định từ x đến x cộng delta x của f(t) dt.
+
+07:24.010 --> 07:27.320
+Đây là những gì mà định lý giá trị trung bình
+của tích phân muốn nói.
+
+07:27.320 --> 07:29.160
+Nếu f là một hàm số liên tục
+
+07:29.160 --> 07:34.460
+thì tồn tại một giá trị c ở giữa 2 đầu của khoảng
+
+07:34.460 --> 07:37.070
+nơi mà hàm số tại c
+
+07:37.070 --> 07:39.530
+có thể được xem là chiều dài trung bình.
+
+07:39.530 --> 07:41.650
+Và nếu bạn lấy giá trị trung bình đó của hàm số
+
+07:41.650 --> 07:43.180
+nhân nó với đáy
+
+07:43.180 --> 07:44.810
+bạn sẽ được diện tích của phần đường cong.
+
+07:44.810 --> 07:46.184
+Một cách khác để viết lại nó là
+
+07:46.184 --> 07:49.770
+tồn tại một giá trị c nằm trong khoảng
+
+07:49.770 --> 07:53.450
+sao cho f(c) bằng với 1 trên delta x-- mình đang nhân
+
+07:53.450 --> 07:57.840
+hai vế với delta x-- nhân với tích phân xác định
+
+07:57.840 --> 08:02.530
+từ x đến x cộng delta x của f(t) dt.
+
+08:02.530 --> 08:05.024
+Và đây thường được xem là giá trị trung bình
+
+08:05.024 --> 08:06.440
+của hàm trên một khoảng.
+
+08:06.440 --> 08:07.410
+Vì sao lại như thế?
+
+08:07.410 --> 08:11.410
+Phần này ở ngay đây cho bạn biết diện tích
+
+08:11.410 --> 08:13.170
+và bạn chia diện tích đó với đáy
+
+08:13.170 --> 08:14.892
+và bạn được chiều dài trung bình.
+
+08:14.892 --> 08:16.350
+Một cách khác để nói về nó là,
+
+08:16.350 --> 08:18.850
+nếu bạn lấy chiều dài ở ngay đây, nhân nó
+
+08:18.850 --> 08:20.790
+với đáy, bạn sẽ được một hình chữ nhật
+
+08:20.790 --> 08:24.560
+với diện tích bằng với diện tích phần dưới đường cong.
+
+08:24.560 --> 08:26.330
+Điều này rất hữu ích, vì đây
+
+08:26.330 --> 08:30.430
+là chính xác những gì mình có được từ đạo hàm F phẩy x.
+
+08:30.430 --> 08:34.330
+Vậy chắc chắn phải tồn tại một giá trị c, sao cho f(c)
+
+08:34.330 --> 08:35.370
+bằng với phần này.
+
+08:35.370 --> 08:38.470
+Hoặc mình có thể nói là-- để mình viết lại mọi thứ
+
+08:38.470 --> 08:39.919
+bằng một màu mới.
+
+08:39.919 --> 08:47.640
+Tồn tại một giá trị c thuộc khoảng
+
+08:47.640 --> 08:56.250
+x đến x cộng delta x để F phẩy x, mà mình đã biết
+
+08:56.250 --> 09:00.330
+là nó bằng với phần này, bây giờ nó bằng với
+
+09:00.330 --> 09:02.920
+giới hạn khi delta x tiến đến 0.
+
+09:02.920 --> 09:04.870
+Thay vì viết vào phần này, mình biết là
+
+09:04.870 --> 09:07.920
+có một c nào đó mà bằng với tất cả các phần này.
+
+09:07.920 --> 09:10.420
+của f (c).
+
+09:10.420 --> 09:12.370
+Giờ chúng mình gần xong rồi đấy.
+
+09:12.370 --> 09:14.870
+Chúng mình chỉ cần tính được giới hạn
+
+09:14.870 --> 09:17.790
+khi delta x tiến đến 0 của f(c) là gì nữa thôi.
+
+09:17.790 --> 09:20.570
+Và điều quan trọng là phần này ở đây.
+
+09:20.570 --> 09:24.690
+Chúng mình biết là c luôn luôn nằm giữa x
+
+09:24.690 --> 09:25.960
+và x cộng delta x.
+
+09:25.960 --> 09:27.750
+Và bằng trực giác, bạn cũng có thể thấy là
+
+09:27.750 --> 09:33.450
+khi delta x tiến đến 0, giống như đường xanh lá này ở đây
+
+09:33.450 --> 09:36.800
+di chuyển thêm về bên trái để tiến đến
+
+09:36.800 --> 09:43.750
+đường màu xanh dương này, c sẽ phải nằm ở giữa,
+
+09:43.750 --> 09:46.280
+vậy nên c sẽ tiến đến x.
+
+09:46.280 --> 09:48.730
+Vậy, bằng trực giác thì chúng mình
+
+09:48.730 --> 09:51.180
+biết được rằng c tiến đến x
+
+09:51.180 --> 09:56.890
+khi delta x tiến đến 0.
+
+09:56.890 --> 10:00.120
+Hoặc một cách khác để nói là f(c)
+
+10:00.120 --> 10:07.200
+sẽ tiến đến f(x) khi delta x tiến đến 0.
+
+10:07.200 --> 10:09.350
+Vậy bằng trực giác, chúng mình có thể nói là
+
+10:09.350 --> 10:14.129
+điều này sẽ bằng với f(x).
+
+10:14.129 --> 10:16.610
+Bây giờ, bạn có thể nói là, trực giác thì cũng được thôi
+
+10:16.610 --> 10:18.866
+nhưng Sal à, mình đang muốn tìm một chút bằng chứng.
+
+10:18.880 --> 10:21.310
+Hãy cho mình biết chắc chắn là x có tiến đến c hay không.
+
+10:21.310 --> 10:23.556
+Đừng chỉ vẽ một cái biểu đồ nhỏ này
+
+10:23.556 --> 10:25.020
+và tự động hiểu rằng
+
+10:25.020 --> 10:26.950
+c đang tiến gần hơn và gần hơn đến x.
+
+10:26.950 --> 10:28.650
+Và nếu bạn muốn làm điều đó,
+
+10:28.650 --> 10:30.449
+bạn có thể dùng định lý kẹp.
+
+10:30.449 --> 10:31.990
+Và để dùng được định lý kẹp,
+
+10:31.990 --> 10:34.610
+bạn sẽ phải xem c như một hàm số của delta x.
+
+10:34.610 --> 10:35.540
+Và nó thật sự là thế.
+
+10:35.540 --> 10:37.723
+Tùy vào delta x của bạn, c sẽ di chuyển
+
+10:37.723 --> 10:39.470
+về bên trái hơn, hoặc về bên phải hơn.
+
+10:39.470 --> 10:41.450
+Và mình có thể viết lại biểu thức này
+
+10:41.450 --> 10:46.980
+với x bé hơn hoặc bằng c là một hàm số của delta x,
+
+10:46.980 --> 10:50.030
+và nó bé hơn hoặc bằng x cộng delta x.
+
+10:50.030 --> 10:53.020
+Và giờ bạn có thể thấy là c lúc nào cũng nằm giữa
+
+10:53.020 --> 10:54.320
+x và x cộng delta x.
+
+10:54.320 --> 10:58.775
+Nhưng mà giới hạn của x khi delta x tiến đến 0 là gì?
+
+10:58.775 --> 11:01.040
+Dù sao thì x cũng không phụ thuộc vào delta x
+
+11:01.040 --> 11:03.500
+nên đây cũng sẽ bằng với x.
+
+11:03.500 --> 11:10.600
+Giới hạn của x cộng delta x khi delta x tiến đến 0 là gì?
+
+11:10.600 --> 11:12.200
+Delta x tiến đến 0
+
+11:12.200 --> 11:14.150
+thì cũng sẽ bằng x.
+
+11:14.150 --> 11:17.370
+Vậy cái này tiến đến x khi delta x tiến đến 0,
+
+11:17.370 --> 11:19.190
+nó sẽ bé hơn hàm số này,
+
+11:19.190 --> 11:22.080
+và nếu cái này tiến đến x khi delta x tiến đến 0
+
+11:22.080 --> 11:23.950
+nó sẽ luôn lớn hơn hàm số này,
+
+11:23.950 --> 11:27.000
+và chúng mình cũng biết được từ định lý kẹp
+
+11:27.000 --> 11:29.860
+là giới hạn khi delta x tiến đến
+
+11:29.860 --> 11:34.180
+0 của c như một hàm số của delta x
+
+11:34.180 --> 11:38.480
+cũng sẽ bằng với x.
+
+11:38.480 --> 11:40.940
+Nó phải tiến tới cùng một thứ với cái này và cái này.
+
+11:40.940 --> 11:42.950
+Nó được kẹp ở giữa.
+
+11:42.950 --> 11:45.160
+Vậy khi chúng mình dùng định lý kẹp
+
+11:45.160 --> 11:46.951
+nó sẽ có thể hơi khó khăn một chút
+
+11:46.951 --> 11:48.580
+để đạt được chính xác kết quả này.
+
+11:48.580 --> 11:52.820
+Khi delta x tiến đến 0, c tiến đến x.
+
+11:52.820 --> 11:57.910
+Nếu c đang tiến đến x, vậy f(c) sẽ tiến đến f(x).
+
+11:57.910 --> 12:00.850
+Và chúng mình đã có được bằng chứng rồi đấy.
+
+12:00.850 --> 12:02.250
+F là một hàm số liên tục.
+
+12:02.250 --> 12:06.820
+Chúng mình đã định nghĩa hàm F viết hoa theo cách này,
+
+12:06.820 --> 12:10.500
+và mình đã có thể chỉ dùng định nghĩa của đạo hàm
+
+12:10.500 --> 12:14.130
+để biết được rằng đạo hàm của F(x) viết hoa
+
+12:14.130 --> 12:21.500
+là bằng với f(x).
+
+12:21.500 --> 12:25.080
+Và một lần nữa, tại sao điều này lại quan trọng?
+
+12:25.080 --> 12:27.770
+Nó nói cho bạn biết là nếu bạn có một hàm f liên tục,
+
+12:27.770 --> 12:29.090
+mình cho là như vậy.
+
+12:29.090 --> 12:32.880
+Chúng mình đã giả sử rằng f liên tục trên khoảng--
+
+12:32.880 --> 12:35.460
+tồn tại một số hàm mà bạn có thể
+
+12:35.460 --> 12:37.340
+định nghĩa nó bằng diện tích
+
+12:37.340 --> 12:41.170
+của phần bên dưới đường cong giữa giá trị đầu của khoảng
+
+12:41.170 --> 12:43.450
+và một giá trị x nào đó.
+
+12:43.450 --> 12:46.190
+Nếu bạn định nghĩa một hàm số theo cách đó,
+
+12:46.190 --> 12:49.130
+đạo hàm của nó sẽ bằng với hàm số liên tục của bạn.
+
+12:49.130 --> 12:51.610
+Hoặc một cách khác để nói nó là,
+
+12:51.610 --> 12:54.470
+bất kì một hàm số liên tục nào cũng đều sẽ
+
+12:54.500 --> 12:55.920
+có nguyên hàm.
+
+12:56.160 --> 12:57.790
+Đó là một vài điều khá hay đấy.
+
+12:57.790 --> 13:00.250
+Bất kì hàm số liên tục nào cũng sẽ có nguyên hàm,
+
+13:00.250 --> 13:03.925
+Nó sẽ là F(x) viết hoa.
+
+13:03.925 --> 13:06.050
+Đó là lí do vì sao nó được gọi là Định lý
+
+13:06.050 --> 13:07.090
+cơ bản của giải tích.
+
+13:07.090 --> 13:09.500
+Nó liên kết hai khái niệm lại với nhau.
+
+13:09.500 --> 13:11.250
+Bạn có phép tính vi phân.
+
+13:11.250 --> 13:14.760
+Và bạn có khái niệm của đạo hàm.
+
+13:14.760 --> 13:16.210
+Và rồi trong tích phân,
+
+13:16.210 --> 13:17.910
+bạn có khái niệm của một tích phân.
+
+13:17.910 --> 13:20.670
+Trước khi bạn có bằng chứng này, tích phân chỉ là
+
+13:20.670 --> 13:22.596
+một phần diện tích bên dưới đường cong.
+
+13:22.596 --> 13:24.220
+Nó chỉ đơn giản là một ký hiệu
+
+13:24.220 --> 13:26.330
+chỉ phần diện tích bên dưới đường cong.
+
+13:26.330 --> 13:29.050
+Nhưng giờ chúng mình đã có thể tạo ra mối liên hệ
+
+13:29.050 --> 13:31.670
+giữa tích phân và đạo hàm,
+
+13:31.670 --> 13:35.470
+hoặc cụ thể hơn là liên kết giữa tích phân và nguyên hàm.
+
+13:35.510 --> 13:40.170
+Vậy nó liên kết các khái niệm trong toán giải tích lại
+theo một cách rất hay,
+
+13:40.170 --> 13:42.490
+và chúng mình có thể đã quá quen với nó
+
+13:42.490 --> 13:44.524
+và sử dụng nó như một điều hiển nhiên,
+
+13:44.524 --> 13:45.610
+nhưng trước kia thì không như vậy.
+
+13:45.610 --> 13:47.060
+Nhớ là chúng mình luôn nghĩ về tích phân
+
+13:47.060 --> 13:48.518
+giống như là tính nguyên hàm
+
+13:48.518 --> 13:49.620
+nhưng mà nó không rõ.
+
+13:49.620 --> 13:51.782
+Nếu như bạn chỉ nghĩ tới tích phân như một diện tích,
+
+13:51.782 --> 13:53.730
+bạn sẽ phải xem lại để thấy được rằng,
+
+13:53.730 --> 13:59.201
+ồ không, thật ra thì nó có liên quan đến việc
+tính nguyên hàm.

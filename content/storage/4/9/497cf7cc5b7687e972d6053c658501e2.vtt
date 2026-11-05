@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+En aquest vídeo vull que us familiaritzeu amb la idea de límit, una idea molt important.
+
+00:07.132 --> 00:10.813
+Realment, és la idea sobre la qual es fonamenta el càlcul.
+
+00:10.828 --> 00:17.036
+Però tot i ser tan important, en realitat és una idea veritablement senzilla.
+
+00:17.036 --> 00:21.075
+Així que deixeu-me dibuixar una funció aquí - bé, deixeu-me definir una funció
+
+00:21.075 --> 00:32.800
+aquí. Una funció senzilla. O sigui, definim f(x), diguem que f(x) és (x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+I vosaltres podrieu dir: "Ei Sal, mira, tenim el mateix al numerador que al denominador!
+
+00:36.084 --> 00:42.421
+Si tenim una expressió dividida per ella mateixa, això és igual a un! No podem simplificar l'expressió a f(x)=1?"
+
+00:42.421 --> 00:47.944
+I jo respondria: "Bé, tens quasi raó, la diferència entre f(x)=1 i això que tenim a la dreta
+
+00:47.944 --> 00:57.638
+és que aquesta expressió no està definida en x=1." Així, si et preguntes - deixeu-m'ho escriure aquí - què passa si
+
+00:57.653 --> 01:07.267
+volem trobar f(1)? En el numerador, tenim (1-1), que és... Deixeu-me escriure-ho...
+
+01:07.267 --> 01:14.605
+en el numerador tenim un 0, i en el denominador tenim (1-1), que també és 0. I per tant, qualsevol cosa dividida
+
+01:14.605 --> 01:26.764
+per 0, incloent 0/0, és indefinida. Així que podeu fer la simplificació - podeu dir que això és
+
+01:26.764 --> 01:36.867
+el mateix que f(x)=1, però haureu d'afegir la restricció que x no pot ser igual a 1. Ara això
+
+01:36.867 --> 01:43.133
+i això són equivalents. Les dues expressions seran 1, per tots els valors de x diferents de 1. Però
+
+01:43.133 --> 01:51.340
+en x=1, sorgeix una indefinició. Això és indefinit i això no està definit. Com podríem representar aquesta funció?
+
+01:51.340 --> 02:10.496
+Deixeu-me fer el dibuix... Aquest és el meu eix y=f(x) i aquest d'aquí és el meu eix x, i aleshores diem
+
+02:10.496 --> 02:22.799
+que aquest és el punt x=1, aquest d'aquí seria x=-1, aquest és y=1, aquí dalt podríem posar -1 però això
+
+02:22.799 --> 02:28.267
+no és gaire important per la nostra funció, i deixeu-me dibuixar-la. Essencialment per
+
+02:28.267 --> 02:42.600
+qualsevol x diferent de 1, f(x)=1. Així que tindrà aquesta pinta... excepte en 1. En el punt 1, f(x) és indefinida, així que
+
+02:42.600 --> 02:47.800
+deixaré un petit forat aquí, aquesta rodoneta, que significa que aquesta funció
+
+02:47.800 --> 02:52.400
+no està definida - no sabem quant val aquesta funció en x=1, mai ho hem definit.
+
+02:52.400 --> 03:00.333
+Aquesta definició de la funció no ens diu què fer en 1 - és literalment indefinida quan x=1.
+
+03:00.333 --> 03:09.113
+Així que aquesta és la funció f(x), i altre cop, si algú ens demana quant val f(1), anirem...
+
+03:09.113 --> 03:14.467
+diguem, bé, aquesta era la definició de la nostra funció, anirem a x=1. Oh, espera! Hi ha un forat a la nostra funció
+
+03:14.467 --> 03:21.148
+aquí, és indefinida. O sigui que deixeu-m'ho escriure altra vegada... bé, és una mica redundant, però ho reescriuré.
+
+03:21.148 --> 03:30.313
+f(1) és indefinit. Però què passa si us demanen quant val la funció quan ens acostem
+
+03:30.313 --> 03:44.708
+a x=1? Ara, això comença a tocar la idea de límit. Quan x s'acosta més i més a 1...
+
+03:44.708 --> 03:51.837
+a quin valor de la funció ens aproximem? Bé, tota l'estona, a quin valor ens acostem?
+
+03:51.837 --> 03:58.909
+Per l'esquerra, independentment de com d'aprop estiguem de 1, f(x)=1 sempre que no estiguem a 1.
+
+03:58.909 --> 04:04.790
+Aquí, per la banda dreta, tenim el mateix. Així que podríem dir - i us anireu
+
+04:04.790 --> 04:10.631
+familiaritzant més i més amb aquesta idea veient més exemples - que el límit quan
+
+04:10.631 --> 04:24.933
+x (escrivim lim per abreujar límit) - quan x s'acosta a 1 de f(x) és igual a...
+
+04:24.933 --> 04:29.311
+Com més ens acostem podem arribar increïblement, infinitament propers a 1, sempre que no arribem a 1...
+
+04:29.311 --> 04:33.190
+I la nostra funció serà 1, ens acostem més i més a 1,
+
+04:33.190 --> 04:39.684
+realment sempre val 1. Així que en aquest cas, podem dir que el límit quan x s'acosta a 1 de f(x)
+
+04:39.684 --> 04:45.395
+és 1. Altra vegada, amb notació elegant, només estem dient "Mira, a quin valor s'acosta la funció
+
+04:45.395 --> 04:48.133
+quan x s'acosta més i més a 1?"
+
+04:48.133 --> 04:54.021
+Deixeu-me fer un altre exemple on treballem amb una corba, perquè tingueu la idea general.
+
+04:54.021 --> 05:02.533
+Diguem que tenim una funció f(x) - deixeu-me, només per fer èmfasi en la varietat, que l'anomeni g(x).
+
+05:02.533 --> 05:09.852
+Diguem que tenim g(x) igual a - podem definir-ho així, com x²
+
+05:09.852 --> 05:26.082
+quan x és diferent de 2, i diguem que quan x=2 és igual a 1. Així, altra vegada, tenim una funció
+
+05:26.082 --> 05:34.133
+interessant que - com veureu - no és completament contínua. Té una discontinuïtat. Deixeu-me dibuixar-la.
+
+05:34.133 --> 05:48.225
+Aquest és el meu eix y=f(x), aquest d'aquí el meu eix x. Diguem que això és x=1, això x=2,
+
+05:48.225 --> 06:01.825
+això -1, això -2... Així, a tot arreu excepte en x=2, la funció és x². Així que deixeu-me dibuixar-ho així,
+
+06:01.825 --> 06:08.636
+això serà una paràbola, que té una pinta així... més o menys...
+
+06:08.636 --> 06:18.308
+Deixeu-me dibuixar una versió millorada de la paràbola. Tindrà aquesta pinta, no és la paràbola més
+
+06:18.308 --> 06:24.341
+bella de la història del dibuix de paràboles, però crec que us dóna una idea de quina pinta té
+
+06:24.341 --> 06:32.991
+una paràbola, espero. Hauria de ser simètrica... Deixeu-me tornar-la a dibuixar, perquè això és horrorós.
+
+06:32.991 --> 06:38.467
+Això té més bona pinta, perfecte, aquí ho tenim. Bé.
+
+06:38.467 --> 06:48.867
+Ara, això seria la gràfica de x², però g(x) no és x² quan x=2. Per tant, altre cop, quan x=2,
+
+06:48.867 --> 06:55.428
+hauríem de tenir una discontinuïtat aquí, així que dibuixaré un forat just aquí,
+
+06:55.428 --> 07:00.478
+perquè quan x=2, la funció val 1.
+
+07:00.478 --> 07:09.566
+No els estic fent a la mateixa escala... A la gràfica de f(x)=x² això valdria 4, això serà 2,
+
+07:09.616 --> 07:23.547
+això serà 1, això seria 3. Així que en x=2 la nostra funció val 1.
+
+07:23.547 --> 07:27.856
+Per tant aquesta funció és un pèl estranya, però podem definir-la així, podem definir una funció com vulguem
+
+07:27.856 --> 07:36.667
+definir-la! Així, fixeu-vos, que és igual que la gràfica de f(x)=x² excepte quan arribem al 2,
+
+07:36.667 --> 07:48.252
+on hi ha aquest forat, perquè no utilitzem "g(x)=x² quan x=2" sinó "g(x)=1".
+
+07:48.252 --> 07:50.848
+Si he estat dient f(x), demano perdó.
+
+07:50.848 --> 08:04.914
+Utilitzem g(x)=1, així exactament en x=2, baixa a 1, i després segueix per x².
+
+08:04.914 --> 08:11.241
+Aquí hi ha un parell de cosetes. Si només volguéssim avaluar la funció - g(2),
+
+08:11.241 --> 08:15.933
+bé mirem a la definició. Bé, quan x=2, utilitzem aquesta situació d'aquí,
+
+08:15.933 --> 08:21.538
+i ens diu que valdrà 1. Deixeu-me formular una pregunta més interessant, o potser més
+
+08:21.538 --> 08:32.149
+interessant. Quant val el límit quan x s'acosta a 2 de g(x)? Altra vegada, notació elegant, però
+
+08:32.149 --> 08:38.502
+està preguntant quelcom molt simple. Ens diu "quan x s'acosta més i més a 2..."
+
+08:38.502 --> 08:42.240
+quan ens hi acostem més i més - i això no és una definició rigorosa, això ho farem en vídeos més endavant -
+
+08:42.240 --> 08:52.979
+quan x s'acosta més i més a 2, a què s'acosta g(x)? O sigui, si tenim 1.9, i aleshores 1.999, i aleshores 1.999999
+
+08:52.979 --> 09:00.518
+i aleshores 1.9999999, a què s'acosta g(x)? Si volem venir des de la banda positiva,
+
+09:00.518 --> 09:06.656
+per exemple 2.1, quant val g(2.1)? Què és g(2.01)? Què és g(2.001)?
+
+09:06.656 --> 09:09.995
+A què s'acosta quan ens hi acostem més i més?
+
+09:09.995 --> 09:15.733
+I ho podeu veure visualment només dibuixant la gràfica. Quan x s'acosta més i més a 2...
+
+09:15.733 --> 09:20.518
+Si seguim la gràfica, veiem que ens acostem a 4,
+
+09:20.518 --> 09:26.545
+encara que aquest no és el valor de la funció - la funció baixa a prendre el valor 1 - el límit de g(x) quan
+
+09:26.545 --> 09:33.405
+x s'acosta a 2 és igual a 4. Podeu fer això numèricament utilitzant una calculadora.
+
+09:33.405 --> 09:39.907
+Deixeu-m'ho fer, perquè crec que serà interessant. Deixeu-me treure una calculadora...
+
+09:39.907 --> 09:49.041
+Deixeu-me treure la meva TI-85... Aquí tinc la meva calculadora... I podeu dir numèricament,
+
+09:49.041 --> 09:57.995
+d'acord, a què s'acosta quan ens acostem a x=2? Provem 1.9, utilitzarem aquesta definició.
+
+09:57.995 --> 10:05.549
+Així tindrem 1.9², i obtindrem 3.61.
+
+10:05.549 --> 10:11.683
+Bé, què passa si ens acostem més a 2? Per exemple 1.99, i de nou ho elevem al quadrat,
+
+10:11.683 --> 10:21.683
+ja tenim 3.96. Què passa si fem 1.999 i ho elevem al quadrat?
+
+10:21.683 --> 10:27.991
+Obtenim 3.996. Fixeu-vos que ens acostem més i més al nostre punt.
+
+10:27.991 --> 10:37.546
+Si ens acostem realment molt - 1.999999999999²? Què obtenim? No serà exactament 4 -
+
+10:37.546 --> 10:41.508
+aquesta calculadora ha arrodonit - perquè obtenim un nombre molt molt molt
+
+10:41.508 --> 10:47.456
+proper a 4. I podem fer el mateix per la direcció positiva, també, i realment
+
+10:47.456 --> 10:52.083
+s'ha d'obtenir el mateix número, el mateix límit,
+
+10:52.083 --> 11:00.702
+i per sobre del que estem intentant aproximar-nos. Si provem 2.1², obtenim 4.4...
+
+11:00.702 --> 11:02.902
+Deixeu-me saltar un parell de passos...
+
+11:02.902 --> 11:09.256
+2.0001². Això és molt més proper a 2, ara. I així ens acostem més a 4.
+
+11:09.256 --> 11:12.929
+Com més propers a 2, més propers sembla que estem de 4.
+
+11:12.929 --> 11:20.333
+Per tant, aquest és un mètode numèric de veure que el límit quan x s'acosta a 2 des de qualsevol direcció
+
+11:20.333 --> 11:25.000
+de g(x) - encara que en 2, la funció valgui 1, perquè és discontínua -
+
+11:25.000 --> 11:31.070
+en el límit quan ens acostem a 2, s'acosta més i més i més a 4.

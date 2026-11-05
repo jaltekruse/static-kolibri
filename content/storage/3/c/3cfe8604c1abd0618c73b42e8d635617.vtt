@@ -1,0 +1,772 @@
+WEBVTT
+
+00:00.580 --> 00:04.900
+In dem letzten Video, fanden wir die Steigung an einem bestimmten Punkt der
+
+00:04.900 --> 00:07.035
+die Kurve y gleich x zum Quadrat.
+
+00:07.035 --> 00:09.700
+Aber lasst uns sehen, ob wir dies verallgemeinern und kommen
+
+00:09.700 --> 00:12.780
+mit einer Formel, die uns die Steigung findet an jedem beliebigen Punkt des
+
+00:12.780 --> 00:15.350
+Kurve y gleich x zum Quadrat.
+
+00:15.350 --> 00:18.000
+Lassen Sie mich neu zu zeichnen meine Funktion hier.
+
+00:18.000 --> 00:21.720
+Es schadet nie, eine schöne Zeichnung haben.
+
+00:21.720 --> 00:24.530
+Das ist also mein y-Achse.
+
+00:24.530 --> 00:28.420
+Das ist mein x-Achse genau dort.
+
+00:28.420 --> 00:29.580
+Mein x-Achse.
+
+00:29.580 --> 00:30.670
+Lassen Sie mich ziehe meine Kurve.
+
+00:30.670 --> 00:32.900
+Es sieht so ähnlich.
+
+00:32.900 --> 00:34.210
+Sie haben das mehrere Male gesehen.
+
+00:34.210 --> 00:37.970
+Dies ist y gleich x zum Quadrat.
+
+00:37.970 --> 00:39.740
+Lassen Sie uns also sehr allgemein jetzt.
+
+00:39.740 --> 00:42.600
+Denken Sie daran, wenn wir finden wollen - lassen Sie mich nur schreiben
+
+00:42.600 --> 00:44.600
+Definition unserer Derivat.
+
+00:44.600 --> 00:48.450
+Wenn wir also irgendwann hier haben - nennen wir, dass x.
+
+00:48.450 --> 00:49.630
+So wollen wir werden sehr allgemein gehalten.
+
+00:49.630 --> 00:52.470
+Wir wollen die Steigung an der Stelle x. finden
+
+00:52.470 --> 00:55.190
+Wir wollen eine Funktion, wo du mir ein x finden
+
+00:55.190 --> 00:57.010
+und ich werde Ihnen sagen, die Steigung an diesem Punkt.
+
+00:57.010 --> 00:59.800
+Wir werden, dass f Blüte x. nennen
+
+00:59.800 --> 01:06.210
+Das wird die Ableitung von f von x.
+
+01:06.210 --> 01:09.830
+Aber all das tut, ist, schauen, f von x, Ihnen - es ist eine Funktion
+
+01:09.830 --> 01:12.670
+Sie geben es ein x, und es sagt Ihnen, den Wert dieser.
+
+01:12.670 --> 01:14.810
+Und wir ziehen die Kurve hier.
+
+01:14.810 --> 01:19.470
+Mit f von x, geben Sie die gleiche x, aber es ist nicht zu sagen
+
+01:19.470 --> 01:21.050
+Sie den Wert der Kurve.
+
+01:21.050 --> 01:22.760
+Es ist nicht zu sagen, oh, das ist dein f von x.
+
+01:22.760 --> 01:24.855
+Es wird Ihnen der Wert der Steigung der
+
+01:24.855 --> 01:26.280
+der Kurve an diesem Punkt.
+
+01:26.280 --> 01:28.790
+So f von x, wenn man es in dieser Funktion, es sollte sagen,
+
+01:28.790 --> 01:31.540
+Sie, oh, ist die Steigung an diesem Punkt gleich - Sie wissen,
+
+01:31.540 --> 01:33.360
+wenn Sie 3 legen sie dort, werden Sie sagen, oh, die Steigung dort
+
+01:33.360 --> 01:34.220
+gleich 6 ist.
+
+01:34.220 --> 01:35.590
+Wir sahen, dass im letzten Beispiel.
+
+01:35.590 --> 01:37.410
+Also das ist, was wir tun wollen.
+
+01:37.410 --> 01:40.600
+Und wir sahen auf der letzten - ich glaube es war 2 - Videos vor
+
+01:40.600 --> 01:47.130
+dass wir definiert f prime von x gleich - nur die -
+
+01:47.130 --> 01:48.470
+gut, ich schreib es auf diese Weise.
+
+01:48.470 --> 01:51.210
+Es ist die Steigung der Sekante zwischen x und einige
+
+01:51.210 --> 01:53.540
+Punkt, dass ein wenig die weiter weg von x.
+
+01:53.540 --> 01:56.640
+So die Steigung der Sekante ist der Wandel in y.
+
+01:56.640 --> 02:00.940
+Es ist also der y-Wert des Punktes, die ein wenig die
+
+02:00.940 --> 02:02.290
+Etwas weiter weg von x.
+
+02:02.290 --> 02:07.630
+So f von x plus h abzüglich der y-Wert bei x, nicht wahr?
+
+02:07.630 --> 02:08.600
+Denn das ist hier genau richtig.
+
+02:08.600 --> 02:11.200
+Dies ist f von x.
+
+02:11.200 --> 02:13.820
+So minus f von x.
+
+02:13.820 --> 02:15.830
+Alle, die über die Änderung in x.
+
+02:15.830 --> 02:19.620
+Also, wenn dieses x plus h ist hier die Änderung in x
+
+02:19.620 --> 02:21.740
+ist x plus h minus x.
+
+02:21.740 --> 02:23.470
+Oder diese Strecke hier ist nur h.
+
+02:23.470 --> 02:26.830
+Die Änderung in x sein wird gleich h.
+
+02:26.830 --> 02:29.150
+Also das ist nur Steigung der Sekante zwischen
+
+02:29.150 --> 02:31.240
+2 beliebige Punkte so.
+
+02:31.240 --> 02:33.880
+Und wir sagten, hey, wir könnten die Steigung der Tangente finden
+
+02:33.880 --> 02:36.390
+wenn wir einfach die Grenze dieses, wie es Ansätze -
+
+02:36.390 --> 02:40.060
+als h gegen 0.
+
+02:40.060 --> 02:42.930
+Und dann werden wir finden, die Steigung der Tangente.
+
+02:42.930 --> 02:48.060
+Nun lassen Sie diese Idee für eine bestimmte Funktion, f
+
+02:48.060 --> 02:49.970
+x ist gleich x zum Quadrat.
+
+02:49.970 --> 02:52.430
+Oder y gleich x zum Quadrat.
+
+02:52.430 --> 02:55.800
+Also hier, hätten wir den Punkt gebracht - wir könnten diese prüfen
+
+02:55.800 --> 02:58.910
+auf den Punkt x - x zum Quadrat.
+
+02:58.910 --> 03:01.380
+So f von x gerade gleich x zum Quadrat.
+
+03:01.380 --> 03:05.040
+Und dann wäre dies der Punkt sein - lassen Sie es mich tun in
+
+03:05.040 --> 03:07.140
+eine lebendige Farben.
+
+03:07.140 --> 03:11.510
+Dies ist der Punkt x plus h - das ist dieser Punkt hier genau richtig.
+
+03:11.510 --> 03:13.040
+Es ist ein wenig weiter nach unten.
+
+03:13.040 --> 03:14.770
+Und dann x plus h zum Quadrat.
+
+03:19.450 --> 03:20.880
+Und wissen Sie, in den letzten Video, taten wir dies
+
+03:20.880 --> 03:21.500
+für ein bestimmtes x.
+
+03:21.500 --> 03:22.590
+Wir haben es für 3.
+
+03:22.590 --> 03:24.330
+Aber jetzt möchte ich eine allgemeine Formel.
+
+03:24.330 --> 03:26.300
+Sie geben mir keine x und ich werde nicht das tun, was ich in den
+
+03:26.300 --> 03:28.330
+letzte Video für einen bestimmten Nummer.
+
+03:28.330 --> 03:29.490
+Ich werde eine allgemeine Funktion.
+
+03:29.490 --> 03:31.570
+Du gibst mir 7, werde ich Ihnen sagen, was die Steigung bei 7.
+
+03:31.570 --> 03:33.260
+Du gibst mir negative 3, werde ich Ihnen sagen, was die Steigung
+
+03:33.260 --> 03:34.300
+bei minus 3.
+
+03:34.300 --> 03:36.450
+Du gibst mir 100.000, werde ich Ihnen sagen, was die
+
+03:36.450 --> 03:37.690
+Steigung bei 100.000.
+
+03:37.690 --> 03:39.310
+So übernehmen wir es hier.
+
+03:39.310 --> 03:42.740
+So wollen wir die Veränderung in y über die Änderung in x. finden
+
+03:45.410 --> 03:51.190
+Also zunächst einmal, wird die Änderung in y dieser Kerl ist y-Wert,
+
+03:51.190 --> 03:52.975
+die x plus h zum Quadrat.
+
+03:57.410 --> 03:59.290
+Das ist dieser Kerl ist y-Wert gleich hier.
+
+03:59.290 --> 04:00.270
+Das ist das hier genau richtig.
+
+04:00.270 --> 04:02.730
+Das ist x plus h zum Quadrat.
+
+04:02.730 --> 04:06.380
+Ich habe gerade x plus h, ausgewertet, Quadrat I, und
+
+04:06.380 --> 04:07.820
+das ist seine Punkt auf der Kurve.
+
+04:07.820 --> 04:08.930
+Es ist also x plus h zum Quadrat.
+
+04:08.930 --> 04:10.630
+Also das ist es recht.
+
+04:10.630 --> 04:12.080
+Und was ist dann dieser Wert?
+
+04:12.080 --> 04:15.230
+f von x gleich hier gleich - ich weiß, es wird chaotisch -
+
+04:15.230 --> 04:16.310
+ist gleich x zum Quadrat.
+
+04:16.310 --> 04:18.530
+Wenn Sie Ihren x nehmen, bewerten Sie die Funktion
+
+04:18.530 --> 04:20.600
+an diesem Punkt, du gehst zu bekommen x zum Quadrat.
+
+04:20.600 --> 04:23.300
+Es ist also gleich minus x zum Quadrat.
+
+04:23.300 --> 04:24.900
+Dies ist die Änderung in y.
+
+04:24.900 --> 04:29.090
+Das ist dieser Abstand genau dort.
+
+04:29.090 --> 04:33.110
+Und nur um es zu unserer Definition eines Derivats beziehen,
+
+04:33.110 --> 04:35.820
+dieses blaue Ding hier ist äquivalent zu dieser
+
+04:35.820 --> 04:36.570
+was hier genau richtig.
+
+04:36.570 --> 04:39.140
+Wir haben gerade unsere Funktion ausgewertet.
+
+04:39.140 --> 04:42.850
+Unsere Aufgabe ist f von x ist gleich x zum Quadrat.
+
+04:42.850 --> 04:46.310
+Wir haben gerade ausgewertet, wenn x gleich x plus h.
+
+04:46.310 --> 04:48.920
+Also, wenn Sie es Platz, wenn ich ein a dahin zu setzen,
+
+04:48.920 --> 04:49.540
+es wäre ein Quadrat sein.
+
+04:49.540 --> 04:51.200
+Wenn ich einen Apfel legen sie dort, wäre es apple Quadrat.
+
+04:51.200 --> 04:52.970
+Wenn ich ein x plus h eintragen, es wird zu
+
+04:52.970 --> 04:54.580
+werden x plus h zum Quadrat.
+
+04:54.580 --> 04:56.210
+Also das ist das Ding.
+
+04:56.210 --> 05:00.420
+Und dann ist dieses Ding hier nur die Funktion ausgewertet
+
+05:00.420 --> 05:01.810
+an dem Punkt in Frage.
+
+05:01.810 --> 05:02.440
+Genau dort.
+
+05:02.440 --> 05:05.120
+Das ist also unsere Veränderung in y.
+
+05:05.120 --> 05:07.920
+Und lassen Sie uns die von unseren Wandel in x. teilen
+
+05:07.920 --> 05:10.730
+Unser Wandel in x - falls dies x plus h und das ist nur x, unsere
+
+05:10.730 --> 05:13.360
+Änderung in x ist gerade dabei zu sein h.
+
+05:13.360 --> 05:14.880
+Also das ist, wo wir diesen Begriff aus zu bekommen.
+
+05:14.880 --> 05:17.670
+Das ist also nur eine Steigung zwischen diesen 2 Punkten.
+
+05:17.670 --> 05:19.350
+Dies ist nur ein Gefälle zwischen diesen beiden Punkten.
+
+05:19.350 --> 05:22.690
+Aber natürlich wollen wir zu finden - die Grenze an dieser Stelle
+
+05:22.690 --> 05:25.500
+kommt näher und näher auf diesen Punkt, und dieser Punkt wird
+
+05:25.500 --> 05:26.790
+näher und näher an diesem Punkt.
+
+05:26.790 --> 05:29.530
+So wird dies eine Tangente.
+
+05:29.530 --> 05:34.480
+So werden wir bis an die Grenze nehmen, wie h gegen 0, und
+
+05:34.480 --> 05:37.250
+das ist unser f prime von x.
+
+05:37.250 --> 05:39.580
+Und das ist genau die gleiche Definition dieser, statt
+
+05:39.580 --> 05:42.400
+des Seins allgemeinen und zu sagen, für jede Funktion, wissen wir,
+
+05:42.400 --> 05:43.380
+was die Funktion war.
+
+05:43.380 --> 05:45.680
+Es war f von x ist gleich x zum Quadrat.
+
+05:45.680 --> 05:46.660
+Also haben wir tatsächlich angewandt es.
+
+05:46.660 --> 05:48.350
+Anstelle von f von x, schrieben wir x zum Quadrat.
+
+05:48.350 --> 05:52.950
+Anstelle von f von x plus h, schrieben wir x plus h zum Quadrat.
+
+05:52.950 --> 05:56.180
+So lasst uns sehen, ob wir diese Grenze auswerten kann.
+
+05:56.180 --> 06:04.680
+Es wird also gleich zu sein bis an die Grenze als h Ansätze
+
+06:04.680 --> 06:06.680
+0 bis quadratisch, dies aus.
+
+06:06.680 --> 06:09.160
+Ich werde es in der gleichen Farbe zu tun.
+
+06:09.160 --> 06:19.230
+Das ist x quadriert und 2xH Plus h, quadriert und dann haben wir
+
+06:19.230 --> 06:22.320
+Diese minus x quadriert hier.
+
+06:22.320 --> 06:24.790
+Ich habe gerade multipliziert diesen Kerl aus hier.
+
+06:24.790 --> 06:27.635
+Und dann all das wird durch h. geteilt
+
+06:27.635 --> 06:30.850
+Nun wollen wir sehen, ob wir diese ein wenig vereinfachen kann.
+
+06:30.850 --> 06:32.610
+Nun, sehen Sie sofort, Sie haben ein x quadriert und Sie
+
+06:32.610 --> 06:35.390
+haben ein Minus x zum Quadrat, so dass diese aufheben.
+
+06:35.390 --> 06:36.570
+Und dann können wir unterteilen den Zähler und den
+
+06:36.570 --> 06:38.185
+Nenner mit h.
+
+06:38.185 --> 06:44.780
+So dies vereinfacht, um - so erhalten wir f prime von x ist gleich -
+
+06:44.780 --> 06:46.590
+Teilen wir den Zähler und den Nenner mit h -
+
+06:46.590 --> 06:50.260
+wir 2x Plus h.
+
+06:50.260 --> 06:52.070
+Es tut mir leid, ich vergaß meine Grenze.
+
+06:52.070 --> 06:53.420
+Es entspricht dem Grenzwert.
+
+06:53.420 --> 06:54.330
+Sehr wichtig.
+
+06:54.330 --> 07:01.200
+Grenzwert h gegen 0 von divide alles h, und
+
+07:01.200 --> 07:08.640
+Sie erhalten 2x Plus h durch h Quadrat geteilt wird h.
+
+07:08.640 --> 07:10.440
+Und wenn Sie sich erinnern das letzte Video, wenn wir es geschafft haben mit einer
+
+07:10.440 --> 07:13.780
+insbesondere x, sagten wir x gleich 3, bekam wir 6
+
+07:13.780 --> 07:14.920
+plus Delta x hier.
+
+07:14.920 --> 07:17.420
+Oder 6 plus h hier, also ist es sehr ähnlich.
+
+07:17.420 --> 07:20.130
+Also, wenn Sie mit dem begrenzten h gegen 0 hier, das ist
+
+07:20.130 --> 07:21.010
+gerade dabei, zu verschwinden.
+
+07:21.010 --> 07:24.240
+Das ist also nur noch zu gleich 2x.
+
+07:24.240 --> 07:28.540
+Also haben wir nur herausgefunden, dass, wenn f von x - das große Resultat ist.
+
+07:28.540 --> 07:30.180
+Das ist spannend!
+
+07:30.180 --> 07:35.130
+Dass, wenn f von x ist gleich x squared, f prime
+
+07:35.130 --> 07:37.910
+von x ist gleich 2x.
+
+07:37.910 --> 07:39.470
+Das ist, was wir gerade herausgefunden.
+
+07:39.470 --> 07:41.570
+Und ich wollte sichergehen, dass Sie verstehen,
+
+07:41.570 --> 07:42.880
+wie diese zu interpretieren.
+
+07:42.880 --> 07:45.780
+f von x, wenn Sie mir einen Wert, wird Ihnen sagen, der Wert
+
+07:45.780 --> 07:47.560
+der Funktion an diesem Punkt.
+
+07:47.560 --> 07:48.920
+Am besten von x, es wird Ihnen sagen, die
+
+07:48.920 --> 07:49.960
+Steigung an diesem Punkt.
+
+07:49.960 --> 07:51.180
+Lassen Sie mich zu ziehen, dass.
+
+07:51.180 --> 07:53.490
+Da es sich um eine wichtige Erkenntnis.
+
+07:53.490 --> 07:56.220
+Und Sie könnten, wissen Sie, es ist eine Art vielleicht zunächst
+
+07:56.220 --> 07:58.590
+unintuitive zu einer Funktion, die uns das denken
+
+07:58.590 --> 08:02.040
+Steigung, an einer beliebigen Stelle, der eine andere Funktion.
+
+08:02.040 --> 08:05.070
+So sieht das so aus.
+
+08:05.070 --> 08:07.650
+Lassen Sie mich ziehen ein wenig sauberer als die.
+
+08:07.650 --> 08:10.290
+Ah, es ist immer noch nicht, dass ordentlich.
+
+08:10.290 --> 08:11.280
+Das ist zufrieden stellend.
+
+08:11.280 --> 08:13.650
+Lassen Sie mich nur machen es in der positiven koordinieren.
+
+08:13.650 --> 08:15.640
+Nun, ich werde einfach ziehen das Ganze - die Kurve sieht
+
+08:15.640 --> 08:17.450
+so ähnlich.
+
+08:17.450 --> 08:20.090
+Nun ist dies die Kurve f von x.
+
+08:20.090 --> 08:23.050
+Dies ist die Kurve f von x ist gleich x zum Quadrat.
+
+08:23.050 --> 08:24.230
+Einfach so.
+
+08:24.230 --> 08:26.490
+Also, wenn du mir einen Punkt.
+
+08:26.490 --> 08:27.840
+Du gibst mir die Nummer 7.
+
+08:27.840 --> 08:30.610
+Sie gelten, du es hier, quadratische Sie es.
+
+08:30.610 --> 08:34.460
+Und es ist die Nummer 49 abgebildet.
+
+08:34.460 --> 08:36.170
+So erhalten Sie die Nummer 49 recht.
+
+08:36.170 --> 08:38.620
+Dies ist die Nummer 7, 49.
+
+08:38.620 --> 08:40.940
+Sie sind mit Funktionen zu tun genau dort eingesetzt.
+
+08:40.940 --> 08:43.630
+Aber was ist f prime von 7?
+
+08:43.630 --> 08:45.000
+f prime von 7 Jahren.
+
+08:45.000 --> 08:47.740
+Du sagst, 2 mal 7 ist gleich 14.
+
+08:47.740 --> 08:49.990
+Was ist dies für 14 Nummer hier?
+
+08:49.990 --> 08:51.380
+Was ist dieses Ding?
+
+08:51.380 --> 08:53.440
+Nun, das ist die Steigung der Tangente
+
+08:53.440 --> 08:55.030
+bei x ist gleich 7.
+
+08:55.030 --> 08:59.330
+Also, wenn ich auf diesen Punkt und zeichnen Sie eine Tangente - ein
+
+08:59.330 --> 09:02.930
+Punkt, dass nur Schürfwunden unsere Kurve - wenn ich nur wurden
+
+09:02.930 --> 09:03.890
+Zeichnen einer Tangente.
+
+09:03.890 --> 09:06.410
+Das war nicht Tangente genug für mich.
+
+09:06.410 --> 09:08.790
+Also das ist meine Tangente recht.
+
+09:08.790 --> 09:10.200
+Sie verstehen das Prinzip.
+
+09:10.200 --> 09:13.660
+Die Steigung dieser Kerl - Sie müssen Ihre Änderung in y über Ihre
+
+09:13.660 --> 09:16.260
+Änderung in x - sein wird gleich 14.
+
+09:16.260 --> 09:18.880
+Die Steigung der Kurve bei y gleich 7 - ist
+
+09:18.880 --> 09:20.270
+eine ziemlich steile Kurve.
+
+09:20.270 --> 09:21.990
+Wenn Sie an der Piste finden wollten, sagen wir, dass diese
+
+09:21.990 --> 09:25.910
+ist y - sagen wir es ist x gleich 2.
+
+09:25.910 --> 09:30.290
+Ich sagte x ist gleich 7 ist die Steigung 14.
+
+09:30.290 --> 09:32.900
+Bei x ist gleich 2, was ist die Steigung?
+
+09:32.900 --> 09:37.230
+Nun, Zahl, die Sie aus f prime von 2, die gleich 2 Mal ist
+
+09:37.230 --> 09:38.880
+2, die gleich 4 ist.
+
+09:38.880 --> 09:43.990
+So die Steigung ist hier 4.
+
+09:43.990 --> 09:46.520
+Man könnte sagen, m gleich 4 ist. m steht für Steigung.
+
+09:46.520 --> 09:50.560
+Was ist f prime von 0?
+
+09:50.560 --> 09:51.170
+f prime.
+
+09:51.170 --> 09:53.120
+Wir wissen, dass f von 0 0 ist, richtig?
+
+09:53.120 --> 09:55.120
+0 Quadrat 0 ist.
+
+09:55.120 --> 09:57.710
+Aber was ist f prime von 0?
+
+09:57.710 --> 09:59.180
+Nun, das ist 2 mal 0 0.
+
+09:59.180 --> 10:00.480
+Das ist auch gleich 0 sein.
+
+10:00.480 --> 10:01.350
+Aber was bedeutet das?
+
+10:01.350 --> 10:03.100
+Was ist die Interpretation?
+
+10:03.100 --> 10:05.850
+Es bedeutet, die Steigung der Tangente 0 ist.
+
+10:05.850 --> 10:08.390
+So eine 0 geneigte Linie sieht wie folgt aus.
+
+10:08.390 --> 10:09.920
+Sieht aus wie eine horizontale Linie.
+
+10:09.920 --> 10:11.370
+Und das sieht ungefähr richtig.
+
+10:11.370 --> 10:14.220
+Eine horizontale Linie wäre Tangente an den
+
+10:14.220 --> 10:15.910
+Kurve y gleich 0 ist.
+
+10:15.910 --> 10:17.620
+Lassen Sie uns versuchen eine andere.
+
+10:17.620 --> 10:23.190
+Versuchen wir den Punkt minus 1.
+
+10:23.190 --> 10:26.290
+Lassen Sie uns also sagen, dass wir genau dort. x ist gleich minus 1.
+
+10:26.290 --> 10:29.220
+So f von minus 1, die Sie gerade Platz ist.
+
+10:29.220 --> 10:30.380
+Weil wir mit x zum Quadrat zu tun haben.
+
+10:30.380 --> 10:31.570
+Es ist also gleich 1 ist.
+
+10:31.570 --> 10:33.180
+Das ist diesem Punkt recht.
+
+10:33.180 --> 10:36.680
+Was ist f Blüte minus 1?
+
+10:36.680 --> 10:40.050
+f Blüte minus 1 ist 2 mal minus 1.
+
+10:40.050 --> 10:42.340
+2 mal minus ist minus 2.
+
+10:42.340 --> 10:43.650
+Was bedeutet das?
+
+10:43.650 --> 10:47.680
+Es bedeutet, dass die Steigung der Tangente in x gleich ist
+
+10:47.680 --> 10:51.050
+1, um diese Kurve, um die Funktion zu, ist minus 2.
+
+10:51.050 --> 10:54.600
+Also, wenn ich auf die Tangente hier ziehen - die Tangente
+
+10:54.600 --> 10:57.140
+Linie aussieht, dass - und schauen Sie, es ist ein nach unten
+
+10:57.140 --> 10:57.700
+abfallenden Linie.
+
+10:57.700 --> 10:58.450
+Und es macht Sinn.
+
+10:58.450 --> 11:04.700
+Die Steigung ist hier gleich minus 2.

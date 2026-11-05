@@ -1,0 +1,180 @@
+WEBVTT
+
+00:00.000 --> 00:05.501
+Zde máme napsány jedny
+z nejužitečnějších derivací.
+
+00:05.501 --> 00:09.681
+Pokud víme, že derivace
+sin(x) podle x je cos(x)
+
+00:09.681 --> 00:20.043
+a derivace cos(x) podle x je −sin(x),
+můžeme počítat řadu těžších derivací.
+
+00:20.051 --> 00:27.010
+V tomto videu ukážeme pořádný
+důkaz první rovnosti.
+
+00:27.010 --> 00:32.391
+Druhou zde dokazovat nebudeme, ale
+platnost druhé lze ukázat pomocí první.
+
+00:32.391 --> 00:39.364
+Hlavně je třeba se nebát toho, že
+důkaz bude trochu technický.
+
+00:39.364 --> 00:41.277
+Jdeme na to.
+
+00:41.277 --> 00:48.290
+Derivace sin(x) podle x je
+podle definice následující limita.
+
+00:48.290 --> 01:05.485
+Limita z sin(x plus delta x) minus sin(x)
+děleno delta x pro delta x jdoucí k 0.
+
+01:05.486 --> 01:16.116
+Jde o směrnici přímky mezi [x, sin(x)]
+a [x plus delta x, sin(x plus delta x)].
+
+01:16.118 --> 01:19.080
+Jak tuto limitu vypočítat?
+
+01:19.080 --> 01:26.491
+Přepíšeme sin(x plus delta x)
+pomocí součtového vzorce.
+
+01:26.491 --> 01:29.321
+Tento vzoreček známe jako jednu
+z goniometrických identit.
+
+01:29.321 --> 01:36.600
+Tedy upravíme naší limitu pro delta x
+jdoucí k 0 následujícím způsobem.
+
+01:36.600 --> 01:39.331
+Tento výraz přepíšeme pomocí
+goniometrické identity.
+
+01:39.331 --> 02:03.704
+A to jako cos(x) krát sin(delta x)
+plus sin(x) krát cos(delta x).
+
+02:03.704 --> 02:17.310
+Od toho odečteme sin(x) a
+vydělíme to delta x.
+
+02:17.310 --> 02:25.899
+Což můžeme přepsat jako limitu pro delta x
+jdoucí k 0 z následujícího součtu.
+
+02:25.899 --> 02:29.710
+A to červené části.
+
+02:29.717 --> 02:50.130
+cos(x) krát sin(delta x) děleno
+delta x plus oranžová část.
+
+02:50.130 --> 03:00.526
+Plus sin(x) krát cos(delta x)
+minus sin(x) děleno delta x.
+
+03:00.530 --> 03:04.034
+Připomeňme, že počítáme
+limitu celého výrazu.
+
+03:04.034 --> 03:07.357
+Využijeme toho, že limita
+součtu je rovna součtu limit.
+
+03:07.357 --> 03:10.056
+Celkem tedy
+máme následující.
+
+03:10.056 --> 03:16.773
+Nejprve přepíšeme limitu pro x
+jdoucí k 0 z červené části,
+
+03:16.773 --> 03:27.274
+kde červený výraz napíšeme jako
+cos(x) krát podíl sin(delta x) a delta x.
+
+03:27.274 --> 03:43.003
+K tomu přičteme limitu pro delta x jdoucí
+k 0 z výrazu, kde můžeme vytknout sin(x).
+
+03:43.003 --> 03:54.074
+V závorce nám zbude cos(delta x)
+minus 1 a to celé děleno delta x.
+
+03:54.082 --> 03:59.329
+Zkusíme limity ještě
+trochu zjednodušit.
+
+03:59.329 --> 04:02.028
+Přepíšeme limitu nalevo.
+
+04:02.028 --> 04:06.107
+Cos(x) se nijak nezmění
+s delta x jdoucím k 0.
+
+04:06.107 --> 04:08.760
+Proto ho vytkneme
+ven z limity.
+
+04:08.760 --> 04:20.866
+Tedy máme cos(x) krát limita pro delta x
+jdoucí k 0 z sin(delta x) děleno delta x.
+
+04:20.867 --> 04:24.240
+Nyní je třeba přičíst
+a upravit tuto věc.
+
+04:24.240 --> 04:37.924
+Cos(delta x) minus 1 je stejné jako
+−1 krát 1 minus cos(delta x).
+
+04:37.937 --> 04:46.816
+Jelikož −1 a sin(x) nemá nic co do činění
+s delta x, vytkneme −sin(x) ven.
+
+04:46.816 --> 04:55.095
+Celkem máme −sin(x) krát limita
+pro delta x jdoucí 0 z následujícího.
+
+04:55.095 --> 05:02.915
+1 minus cos(delta x)
+děleno delta x.
+
+05:02.915 --> 05:11.729
+V jiném videu jste viděli, jak najít tuto
+limitu za pomoci věty O dvou policajtech.
+
+05:11.730 --> 05:18.144
+Dostaneme, že limita pro delta x jdoucí
+0 z sin(delta x) děleno delta x je 1.
+
+05:18.144 --> 05:27.782
+Obdobně, v jiném videu jsme ukázali,
+že když tato limita je 1, tak tato je 0.
+
+05:27.782 --> 05:30.194
+Podívejme se,
+co nám zůstalo.
+
+05:30.194 --> 05:37.089
+Předtím vám doporučuji se podívat
+na videa dokazující tyto limity.
+
+05:37.102 --> 05:43.881
+Zůstalo nám cos(x) krát 1 minus 0,
+jelikož to celé napravo zmizelo.
+
+05:43.881 --> 05:48.574
+Celkem tedy
+máme pouze cos(x).
+
+05:48.574 --> 05:51.521
+A jsme hotovi.

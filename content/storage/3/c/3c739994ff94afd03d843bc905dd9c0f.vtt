@@ -1,0 +1,387 @@
+WEBVTT
+
+00:00.244 --> 00:03.835
+O que eu quero fazer neste vídeo é
+nos familiarizar
+
+00:03.835 --> 00:06.507
+com a noção de uma seqüência.
+
+00:06.507 --> 00:09.050
+Seqüência é uma lista ordenada de números.
+
+00:09.050 --> 00:11.727
+Por exemplo, eu posso ter uma
+seqüência finita
+
+00:11.727 --> 00:14.919
+o que significa que eu não tenho um
+número infinito de números nela.
+
+00:14.919 --> 00:18.831
+Digamos que eu comece em um e continue adicionando
+três, então um mais três é quatro
+
+00:18.831 --> 00:22.036
+quatro mais três é sete, sete mais três é dez.
+
+00:22.036 --> 00:25.569
+E digamos que eu tenha somente
+estes quatro termos aqui
+
+00:25.569 --> 00:29.503
+Então nós a chamaríamos
+de uma seqüência finita.
+
+00:29.503 --> 00:30.968
+Eu posso também ter uma
+seqüência infinita,
+
+00:30.968 --> 00:32.969
+Um exemplo de uma seqüência infinita
+
+00:32.969 --> 00:37.836
+digamos, nós começamos com três
+e seguimos somando quatro
+
+00:37.836 --> 00:43.176
+então, ir a três, a sete, a onze, a quinze.
+
+00:43.176 --> 00:44.970
+E você não tem que sempre
+adicionar sempre a mesma coisa
+
+00:44.970 --> 00:46.569
+nós vamos explorar seqüência mais sofisticadas
+
+00:46.569 --> 00:48.643
+as seqüências onde você segue adicionando a mesma quantidade
+
+00:48.643 --> 00:50.164
+nós as chamamos de seqüências aritméticas
+
+00:50.164 --> 00:54.236
+as quais vamos também explorar em mais detalhe.
+
+00:54.236 --> 00:57.434
+Mas para mostrar que isto é infinito
+para mostrar que mantemos este padrão
+
+00:57.434 --> 00:59.978
+ocorrendo indefinidamente, eu vou colocar três pontos.
+
+00:59.978 --> 01:03.171
+Isto significa que vamos continuar
+indefinidamente e
+
+01:03.171 --> 01:07.354
+portanto a chamamos de seqüência infinita.
+
+01:07.354 --> 01:11.433
+Existem muitas notações diferentes para seqüências
+
+01:11.433 --> 01:14.245
+isto é ao que elas se referem
+mas eu quero nos fazer confortáveis
+
+01:14.245 --> 01:19.387
+com relação a como denotamos e definimos seqüências.
+
+01:19.387 --> 01:21.970
+Portanto, poderíamos dizer que isto aqui,
+
+01:21.970 --> 01:28.328
+a seqüência "ak", para k indo
+
+01:28.328 --> 01:33.898
+de um a quatro, é igual a esta bem aqui.
+
+01:33.898 --> 01:38.034
+Então, podemos ver cada um destes como termos na seqüência
+
+01:38.034 --> 01:40.501
+e este aqui seria o primeiro termo.
+
+01:40.501 --> 01:43.236
+nós o chamaríamos de a um, este bem aqui
+
+01:43.236 --> 01:47.102
+é o segundo termo, chamado "a2", acho que você entende a idéia.
+
+01:47.102 --> 01:51.170
+"a3", este bem aqui é "a4".
+
+01:51.170 --> 01:54.775
+Então isto significa que todos os "a ks" de k é igual a um
+
+01:54.775 --> 01:57.852
+do nosso primeiro termo até o nosso quarto termo.
+
+01:57.852 --> 02:02.842
+Agora, eu poderia também definí-lo sem
+escrever a seqüência explicitamente
+
+02:02.842 --> 02:06.386
+como isto, eu poderia essencialmente
+definir a nossa seqüência
+
+02:06.386 --> 02:09.637
+explicitamente usando um tipo de notação de função ou algo parecido
+
+02:09.637 --> 02:11.221
+com uma notação de função.
+
+02:11.221 --> 02:18.169
+Então a mesma exata seqüência,
+eu poderia definir como "a k"
+
+02:18.169 --> 02:21.518
+de k igual a um até quatro,
+
+02:21.518 --> 02:24.683
+ao invés de explicitamente escrever os números aqui.
+
+02:24.683 --> 02:29.500
+Eu poderi a dizer "a k", é igual a alguma função de k.
+
+02:29.500 --> 02:32.707
+Então vamos ver o que acontece quando k é um, obtemos um
+
+02:32.707 --> 02:39.702
+quando k é dois obtemos quatro, quando k é três obtemos sete
+
+02:39.702 --> 02:43.211
+então você vê que quando k é três, somamos três duas vezes
+
+02:43.211 --> 02:44.779
+Deixe-me esclarecer isto.
+
+02:44.779 --> 02:49.703
+Isto era mais três, isto bem aqui era mais três
+
+02:49.703 --> 02:52.440
+Isto bem aqui, é mais três.
+
+02:52.440 --> 02:56.903
+Então independente do que k seja, nós começamos com um e adicionamos três
+
+02:56.903 --> 02:59.236
+um menos que a multiplicação do termo k.
+
+02:59.236 --> 03:01.070
+Portanto, poderíamos dizer que isto vai ser
+
+03:01.070 --> 03:13.235
+igual a um, mais k menos um vezes três
+
+03:13.235 --> 03:15.902
+Ou talvez, eu deveria escrever três vezes k menos um, é a mesma coisa.
+
+03:15.902 --> 03:19.652
+Três vezes k menos um.
+
+03:19.652 --> 03:22.262
+E você pode verificar que isto funciona
+
+03:22.262 --> 03:24.609
+você pode verificar que isto funciona.
+
+03:24.609 --> 03:31.101
+Se k é igual a um, você vai obter um menos um, que é zero.
+
+03:31.101 --> 03:34.651
+E então "a um" vai ser um, se k for igual a dois
+
+03:34.651 --> 03:37.101
+você vai ter um mais três, que é quatro.
+
+03:37.101 --> 03:41.106
+Se k é igual a três, você obtém três vezes dois mais um, que é sete.
+
+03:41.106 --> 03:42.302
+Então, funciona.
+
+03:42.302 --> 03:48.232
+Esta é uma forma de definir explicitamente nossa seqüência com este tipo de notação de função.
+
+03:48.232 --> 03:50.903
+Eu quero que fique claro que eu essencialmente defini uma função aqui.
+
+03:50.903 --> 03:53.145
+Se eu quisesse uma notação de função mais tradicional
+
+03:53.145 --> 03:57.897
+eu poderia ter escrito a de k, onde k é o termo com que eu me importo
+
+03:57.897 --> 04:02.567
+a de k é igual a um mais três vezes k menos um.
+
+04:02.567 --> 04:04.969
+Isto é essencialmente uma função onde uma entrada permitida
+
+04:04.969 --> 04:08.969
+o domínio é restrito a inteiros positivos.
+
+04:08.969 --> 04:12.235
+Agora, como eu denoto este negócio aquí.
+
+04:12.235 --> 04:17.113
+Bom, eu poderia dizer que isto é igual a,
+e as pessoas tem a tendência de usar a
+
+04:17.113 --> 04:20.170
+mas eu poderia usar a notação "b k" ou qualquer outra coisa
+
+04:20.170 --> 04:21.635
+Mas eu vou usar a novamente.
+
+04:21.635 --> 04:26.034
+a k, e aqui nós vamos do nosso primeiro termo
+
+04:26.034 --> 04:32.637
+então isto é "a1", isto é "a2", todo o caminho até o infinito.
+
+04:32.637 --> 04:37.062
+Se quiséssemos definir uma função de "a" explicitamente
+
+04:37.062 --> 04:43.833
+escreveríamos a seqüência como "a k", onde k começa no primeiro termo
+
+04:43.833 --> 04:53.775
+e vai ao infinito, com a k igualando, começamos em três
+
+04:53.775 --> 04:58.768
+e estamos somando quatro, uma vez menos para o segundo termo
+
+04:58.768 --> 05:02.109
+somamos quatro uma vez, para o terceiro termo somamos quatro duas vezes
+
+05:02.109 --> 05:05.607
+para o quarto termo, nós adicionamos quatro três vezes.
+
+05:05.607 --> 05:09.433
+Estamos somando quatro uma vez menos que o termo em que nós estamos.
+
+05:09.433 --> 05:15.840
+Então vai ser mais quatro vezes k menos um
+
+05:15.840 --> 05:20.437
+quatro vezes k menos um
+esta é uma outra forma de definir
+
+05:20.437 --> 05:22.592
+esta seqüência infinita.
+
+05:22.592 --> 05:26.670
+Em ambos os casos eu as defini como uma função explícita
+
+05:26.670 --> 05:29.969
+então isto bem aqui é explicito.
+
+05:33.268 --> 05:36.569
+Esta é uma função explícita.
+
+05:36.569 --> 05:40.304
+Então você poderia dizer, bem, qual é uma outra forma de se definir estas funções.
+
+05:40.304 --> 05:43.981
+Bem, podemos também definí-la, especialmente com algo como isto
+
+05:43.981 --> 05:46.991
+Como uma seqüência aritmética, podemos também definí-la recursivamente.
+
+05:46.991 --> 05:51.037
+E quero ser claro, nem toda seqüência pode ser definida como uma função explícita
+
+05:51.037 --> 05:52.902
+como esta ou, como uma função recursiva
+
+05:52.902 --> 05:55.665
+mas muitas podem, inclusive esta que é uma seqüência
+
+05:55.665 --> 05:58.976
+onde nós seguimos somando a mesma quantidade uma vez atrás da outra.
+
+05:58.976 --> 06:03.753
+Então como faríamos isto, bem, uma outra forma de definir esta primeira seqüência,
+
+06:03.753 --> 06:10.469
+poderíamos dizer "a k", começando em k igual a um, e indo a quatro
+
+06:10.469 --> 06:14.512
+e quando você define coisas recursivamente, quando você define uma seqüência recursivamente
+
+06:14.512 --> 06:21.084
+você quer definir o que o seu primeiro termo é com "a1" sendo igual a um.
+
+06:21.084 --> 06:25.369
+E então você pode definir cada outro termo em relação ao termo anterior a ele
+
+06:25.369 --> 06:30.210
+e então poderíamos escrever "a k" mais, ou deixe-me escrever desta forma
+
+06:30.210 --> 06:37.667
+"a k" é igual ao termo anterior
+
+06:37.667 --> 06:41.569
+Então isto é "a k" menos um, então o termo dado é igual ao termo anterior
+
+06:41.569 --> 06:48.433
+deixe-me esclarecer isto, isto é o termo anterior, mais o termo anterior mais
+
+06:48.433 --> 06:52.909
+neste caso, nós estamos somando três todas as vezes.
+
+06:52.909 --> 06:56.141
+Agora, como isto faz sentido, bem, estamos definindo o que "a1" é
+
+06:56.141 --> 06:58.503
+e se alguém disser, o que acontece quando k é igual a dois
+
+06:58.503 --> 07:01.911
+bem, eles estão dizendo que vai ser "a2" menos um
+
+07:01.911 --> 07:04.167
+então vai ser "a1" mais três.
+
+07:04.167 --> 07:09.108
+Bem, sabemos que "a1" é um, então vai ser um mais três, o que é quatro.
+
+07:09.108 --> 07:12.376
+Bem, e no caso de "a3", bem vai ser "a2" mais três
+
+07:12.376 --> 07:15.225
+"a2" nós calculamos como quatro, você soma três e vai ser igual a sete.
+
+07:15.225 --> 07:18.843
+Isto é essencialmente o que fizemos mentalmente quando eu escrevi a seqüência pela primeira vez
+
+07:18.843 --> 07:25.769
+Quando eu disse, ei, eu vou começar com um, e eu vou simplesmente somar três para cada termo sucessivo.
+
+07:25.769 --> 07:27.690
+Então como faríamos este aqui
+
+07:27.690 --> 07:33.970
+bem, uma vez mais, poderíamos escrever isto como "a k", começando com k no primeiro termo
+
+07:33.970 --> 07:40.504
+indo ao infinito com nosso primeiro termo, "a1" vai ser três
+
+07:40.504 --> 07:50.976
+e cada termo sucessivo "a k", vai ser o termo anterior, "a k menos um" mais quatro.
+
+07:50.976 --> 07:54.192
+E novamente você começa em três, e se você quiser o segundo termo
+
+07:54.192 --> 07:56.777
+vai ser o primeiro termo mais quatro, vai ser três mais quatro
+
+07:56.777 --> 08:06.294
+você obtém o sete e você continua somando quatro, esta aqui é uma definição recursiva.
+
+08:06.294 --> 08:12.237
+Começamos com um tipo de caso base, e então cada termo é definido em termo do termo anterior a ele
+
+08:12.237 --> 08:16.237
+ou em termo da função em si mesma, mas a função para um termo diferente.

@@ -1,0 +1,440 @@
+WEBVTT
+
+00:00.647 --> 00:03.557
+Hầu hết những gì chúng ta làm từ sớm khi chúng ta lần đầu tiên học về
+
+00:03.557 --> 00:06.717
+giải tích là sử dụng các giới hạn.
+
+00:06.717 --> 00:13.717
+Chúng ta sử dụng các giới hạn để tìm ra các đạo hàm của các hàm.
+
+00:13.717 --> 00:16.807
+Thực tế, định nghĩa đạo hàm sử dụng
+
+00:16.807 --> 00:18.107
+khái niệm giới hạn.
+
+00:18.107 --> 00:22.037
+Đó là hệ số góc xung quanh điểm khi chúng ta lấy giới hạn của
+
+00:22.037 --> 00:24.387
+của các điểm ngày càng gần với điểm được đề cập.
+
+00:24.387 --> 00:27.107
+Và bạn đã thấy điều đó rất nhiều, rất nhiều lần.
+
+00:27.107 --> 00:29.787
+Trong video này, mình đoán chúng ta sẽ làm theo
+
+00:29.787 --> 00:30.627
+hướng ngược lại.
+
+00:30.627 --> 00:39.117
+Chúng ta sẽ sử dụng các đạo hàm để tìm ra các giới hạn.
+
+00:39.117 --> 00:43.357
+Và đặc biệt, các giới hạn kết thúc ở dạng không xác định.
+
+00:43.357 --> 00:46.537
+Và khi mình nói ở dạng không xác định, có nghĩa là khi chúng ta chỉ
+
+00:46.537 --> 00:51.567
+lấy giới hạn như nó vốn có, chúng ta sẽ kết thúc với một cái gì đó như 0/0, hoặc
+
+00:51.567 --> 00:55.447
+vô cùng trên vô cùng, hoặc âm vô cùng trên
+
+00:55.447 --> 00:57.867
+vô cùng, hoặc có thể âm vô cùng trên âm
+
+00:57.867 --> 01:00.337
+vô cùng, hoặc dương vô cùng trên âm vô cùng.
+
+01:00.337 --> 01:05.187
+Tất cả đều là dạng không xác định.
+
+01:05.187 --> 01:17.727
+Và để làm điều đó, chúng ta sẽ sử dụng quy tắc của l'Hopital.
+
+01:17.727 --> 01:19.487
+Và trong video này, mình sẽ chỉ cho bạn biết
+
+01:19.487 --> 01:22.997
+quy tắc của l'Hoptial nói gì và cách áp dụng nó vì nó khá
+
+01:22.997 --> 01:25.477
+đơn giản và và nó thực sự là một công cụ rất hữu ích
+
+01:25.477 --> 01:27.497
+đôi khi nếu bạn đang tham gia một cuộc thi toán nào đó và
+
+01:27.497 --> 01:31.277
+họ yêu cầu bạn tìm thấy một giới hạn rất khó mà khi bạn
+
+01:31.277 --> 01:33.297
+mà khi bạn chỉ cần nhập các con số vào, bạn sẽ nhận được một cái gì đó như thế này.
+
+01:33.297 --> 01:37.257
+Quy tắc L'Hopital thường là những gì họ đang kiểm tra bạn.
+
+01:37.257 --> 01:40.287
+Và trong một video trong tương lai, mình có thể chứng minh điều đó, nhưng điều đó
+
+01:40.287 --> 01:40.967
+sẽ liên quan nhiều hơn một chút.
+
+01:40.967 --> 01:44.857
+Ứng dụng này thực sự rất đơn giản.
+
+01:44.857 --> 01:50.767
+Vì vậy, quy tắc l'Hopital nói với chúng ta rằng nếu chúng ta có-- và mình sẽ
+
+01:50.767 --> 01:53.947
+làm ở dạng trừu tượng trước, nhưng mình nghĩ khi mình cho bạn thấy
+
+01:53.947 --> 01:56.077
+ví dụ, tất cả sẽ được làm rõ ràng.
+
+01:56.077 --> 02:11.047
+Nếu giới hạn khi x tiến tới c của f của x bằng 0, và
+
+02:11.047 --> 02:20.107
+giới hạn khi x tiến tới c của g của x bằng 0, và-- và
+
+02:20.107 --> 02:30.617
+đây là một cái khác-- và giới hạn khi x tiến tới c của f
+
+02:30.617 --> 02:38.147
+phẩy x trên g phẩy x tồn tại và nó bằng L.
+
+02:38.147 --> 02:40.597
+thì-- vì vậy tất cả những điều kiện này phải được đáp ứng.
+
+02:40.597 --> 02:44.057
+Đây là dạng không xác định của 0/0, vì vậy đây là
+
+02:44.057 --> 02:45.557
+trường hợp đầu tiên.
+
+02:45.557 --> 02:55.387
+Khi đó, chúng ta có thể nói rằng giới hạn khi x tiến tới c của
+
+02:55.387 --> 03:03.047
+của f của x trên g của x cũng sẽ bằng L.
+
+03:03.047 --> 03:05.817
+Vì vậy, điều này có vẻ hơi kỳ lạ đối với bạn ngay bây giờ, và
+
+03:05.817 --> 03:07.207
+mình thực sự sẽ viết trường hợp khác, và sau đó
+
+03:07.207 --> 03:07.737
+mình sẽ làm một ví dụ.
+
+03:07.737 --> 03:09.697
+Chúng ta sẽ làm nhiều ví dụ và các ví dụ sẽ làm
+
+03:09.697 --> 03:10.587
+cho tất cả rõ ràng.
+
+03:10.587 --> 03:13.027
+Vì vậy, đây là trường hợp đầu tiên và ví dụ chúng ta sẽ làm
+
+03:13.027 --> 03:16.637
+thực sự sẽ là một ví dụ về trường hợp này.
+
+03:16.637 --> 03:24.397
+Bây giờ trường hợp khác là nếu giới hạn khi x tiến tới c của f của
+
+03:24.397 --> 03:32.967
+x bằng dương hoặc âm vô cùng, và
+
+03:32.970 --> 03:39.470
+giới hạn khi x tiến tới c của g của x bằng dương hoặc
+
+03:39.470 --> 03:46.280
+âm vô cùng và giới hạn mình đoán bạn có thể nói
+
+03:46.280 --> 03:51.210
+thương số của các đạo hàm tồn tại và giới hạn khi x
+
+03:51.210 --> 03:56.190
+tiến tới c của f phẩy x trên g phẩy x
+
+03:56.190 --> 03:57.400
+bằng L.
+
+03:57.400 --> 04:01.070
+Sau đó, chúng ta có thể thực hiện lại tuyên bố này.
+
+04:01.070 --> 04:06.070
+Để mình sao chép nó.
+
+04:06.070 --> 04:10.230
+Chỉnh sửa, sao chép, và rồi để mình dán nó.
+
+04:10.230 --> 04:13.460
+Vì vậy, trong một trong hai tình huống này, chỉ để đảm bảo
+
+04:13.460 --> 04:15.510
+rằng bạn hiểu những gì bạn đang xem, đây là
+
+04:15.510 --> 04:18.300
+tình huống mà nếu bạn vừa cố gắng tính giới hạn này
+
+04:18.300 --> 04:21.880
+ngay tại đây, bạn sẽ nhận được f của c, là 0.
+
+04:21.880 --> 04:25.990
+Hoặc giới hạn khi x tiến tới c của f của x trên giới hạn khi
+
+04:25.990 --> 04:27.470
+x tiến tới c của g của x.
+
+04:27.470 --> 04:30.550
+Điều đó sẽ cho bạn 0/0.
+
+04:30.550 --> 04:32.450
+Và bạn nói, này, mình không biết giới hạn đó là gì?
+
+04:32.450 --> 04:33.590
+Nhưng điều này nói rằng, hãy nhìn xem.
+
+04:33.590 --> 04:37.440
+Nếu giới hạn này tồn tại, mình có thể lấy đạo hàm của từng
+
+04:37.440 --> 04:41.030
+từng hàm này và sau đó thử tính giới hạn đó.
+
+04:41.030 --> 04:44.220
+Và nếu mình nhận được một con số, nếu nó tồn tại, thì chúng sẽ
+
+04:44.220 --> 04:45.980
+có cùng một giới hạn.
+
+04:45.980 --> 04:48.720
+Đây là tình huống mà khi chúng ta lấy giới hạn, chúng ta nhận
+
+04:48.720 --> 04:52.070
+vô cùng trên vô cùng, hoặc âm vô cùng hoặc dương
+
+04:52.070 --> 04:54.060
+vô cùng trên dương hoặc âm vô cùng.
+
+04:54.060 --> 04:57.010
+Vì vậy đây là hai dạng bất định.
+
+04:57.010 --> 04:59.410
+Và để làm rõ tất cả, hãy để mình chỉ cho bạn một ví dụ
+
+04:59.410 --> 05:03.600
+mình nghĩ điều này sẽ làm cho mọi thứ rõ ràng hơn rất nhiều.
+
+05:03.600 --> 05:08.900
+Vì vậy, giả sử chúng ta đang cố gắng tìm ra giới hạn-- mình sẽ
+
+05:08.900 --> 05:10.590
+làm bằng màu mới.
+
+05:10.590 --> 05:13.830
+Để mình làm bằng màu tía.
+
+05:13.830 --> 05:17.430
+Giả sử chúng ta muốn tìm giới hạn khi x tiến tới
+
+05:17.430 --> 05:23.170
+0 của sin của x trên x.
+
+05:23.170 --> 05:27.420
+Bây giờ nếu chúng ta chỉ xem điều này, nếu chúng ta cố gắng tính nó ở mức 0 hoặc
+
+05:27.420 --> 05:30.410
+lấy giới hạn khi chúng ta tiến tới 0 trong mỗi hàm này,
+
+05:30.410 --> 05:33.170
+chúng ta sẽ nhận được một cái gì đó giống như 0/0.
+
+05:33.170 --> 05:35.370
+Sin của 0 là 0.
+
+05:35.370 --> 05:39.640
+Hoặc giới hạn khi x tiến tới 0 của sin của x là 0.
+
+05:39.640 --> 05:42.130
+Và rõ ràng, khi x tiến tới 0 của x, thì đó
+
+05:42.130 --> 05:43.150
+cũng sẽ là 0.
+
+05:43.150 --> 05:45.100
+Vì vậy, đây là dạng không xác định của chúng ta.
+
+05:45.100 --> 05:48.180
+Và nếu bạn muốn nghĩ về nó, đây là f của x của chúng ta,
+
+05:48.180 --> 05:51.230
+f của x ngay đó là sin của x.
+
+05:51.230 --> 05:55.500
+Và g của x của chúng ta, g của x ngay ở
+
+05:55.500 --> 06:00.060
+trường hợp đầu tiên này, là x.
+
+06:00.060 --> 06:07.170
+g của x bằng x và f của x bằng sin của x.
+
+06:07.170 --> 06:10.140
+Và lưu ý, chúng ta chắc chắn biết rằng điều này đáp ứng
+
+06:10.140 --> 06:11.530
+hai ràng buộc đầu tiên.
+
+06:11.530 --> 06:14.960
+Giới hạn là x, và trong trường hợp này, c là 0.
+
+06:14.960 --> 06:19.550
+Giới hạn khi x tiến tới 0 của sin của sin của x là 0, và
+
+06:19.550 --> 06:24.020
+giới hạn khi x tiến tới 0 của x cũng bằng 0.
+
+06:24.020 --> 06:26.180
+Vì vậy, chúng ta nhận được dạng không xác định của chúng ta.
+
+06:26.180 --> 06:29.340
+Vì vậy, chúng ta hãy xem, ít nhất, liệu giới hạn này có tồn tại hay không.
+
+06:29.340 --> 06:32.090
+Nếu chúng ta lấy đạo hàm của f của x và chúng ta đặt nó trên
+
+06:32.090 --> 06:35.900
+đạo hàm của g của x, và lấy
+giới hạn khi x tiến tới 0
+
+06:35.900 --> 06:38.400
+trong trường hợp này, đó là c của chúng ta.
+
+06:38.400 --> 06:40.510
+Hãy xem nếu giới hạn này tồn tại.
+
+06:40.510 --> 06:44.620
+Vậy mình sẽ làm bằng màu xanh.
+
+06:44.620 --> 06:48.150
+Vì vậy, để mình viết các đạo hàm của hai hàm.
+
+06:48.150 --> 06:50.710
+Vậy f phẩy x.
+
+06:50.710 --> 06:53.590
+Nếu f của x là sin của x thì f phẩy x là bao nhiêu?
+
+06:53.590 --> 06:55.480
+Nó chỉ là cos của x.
+
+06:55.480 --> 06:57.370
+Bạn đã học được điều đó nhiều lần.
+
+06:57.370 --> 07:01.230
+Và nếu g của x là x, g phẩy x là gì?
+
+07:01.230 --> 07:02.150
+Điều đó rất dễ dàng.
+
+07:02.150 --> 07:06.290
+Đạo hàm của x chỉ bằng 1.
+
+07:06.290 --> 07:13.680
+Hãy thử lấy giới hạn khi x tiến tới 0 của f phẩy x
+
+07:13.680 --> 07:17.020
+trên g phẩy x-- trên đạo hàm của chúng.
+
+07:17.020 --> 07:19.400
+Vì vậy, đó sẽ là giới hạn khi x tiến tới 0
+
+07:19.400 --> 07:25.620
+của cosin của x trên 1.
+
+07:25.620 --> 07:28.650
+...
+
+07:28.650 --> 07:30.160
+Và điều này khá đơn giản.
+
+07:30.160 --> 07:30.980
+Điều này sẽ là gì?
+
+07:30.980 --> 07:33.590
+Khi x tiến tới 0 của cosin của x,
+
+07:33.590 --> 07:37.290
+thì nó sẽ bằng 1.
+
+07:37.290 --> 07:39.340
+Và rõ ràng, giới hạn khi x tiến tới 0 của 1, thì
+
+07:39.340 --> 07:40.920
+giới hạn đó cũng sẽ bằng 1.
+
+07:40.920 --> 07:46.460
+Vì vậy, trong tình huống này, chúng ta chỉ thấy rằng giới hạn khi x
+
+07:46.460 --> 07:49.810
+tiến tới - c của chúng ta trong trường hợp này là 0.
+
+07:49.810 --> 07:54.590
+Khi x tiến tới 0 của f phẩy x trên g phẩy
+
+07:54.590 --> 07:56.240
+x bằng 1.
+
+07:56.240 --> 07:59.070
+Giới hạn này tồn tại và nó bằng 1, vì vậy chúng ta đã đáp ứng
+
+07:59.070 --> 08:00.570
+tất cả các điều kiện.
+
+08:00.570 --> 08:02.490
+Đây là trường hợp chúng ta đang giải quyết.
+
+08:02.490 --> 08:06.070
+Giới hạn khi x tiến tới 0 của sin của x bằng 0.
+
+08:06.070 --> 08:10.630
+Giới hạn khi z tiến tới 0 của x cũng bằng 0.
+
+08:10.630 --> 08:14.510
+Giới hạn của đạo hàm sin của x trên đạo hàm
+
+08:14.510 --> 08:17.490
+của x, là cosin của x trên 1-- chúng ta nhận thấy điều này
+
+08:17.490 --> 08:20.990
+bằng 1.
+
+08:20.990 --> 08:24.600
+Tất cả những điều kiện hàng đầu này đều được đáp ứng, vì vậy chúng ta biết
+
+08:24.600 --> 08:26.480
+điều này phải xảy ra.
+
+08:26.480 --> 08:34.500
+Rằng giới hạn khi x tiến tới 0 của sin của x trên x
+
+08:34.500 --> 08:36.690
+phải bằng 1.
+
+08:36.690 --> 08:42.510
+Nó phải có cùng giới hạn với giá trị này ngay tại đây khi
+
+08:42.510 --> 08:46.130
+chúng ta lấy đạo hàm của f của x và của g của x.
+
+08:46.130 --> 08:48.440
+Mình sẽ làm nhiều ví dụ hơn trong vài video tiếp theo và mình nghĩ
+
+08:48.440 --> 08:50.990
+nó sẽ làm cho nó cụ thể hơn rất nhiều.

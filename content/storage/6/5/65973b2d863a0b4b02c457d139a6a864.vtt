@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.000 --> 00:06.314
+Už jsme mluvili o ploše
+mezi křivkou a osou x,
+
+00:06.314 --> 00:08.274
+kterou zjistíme pomocí
+určitého integrálu.
+
+00:08.274 --> 00:14.166
+Nyní to rozšíříme a zamyslíme se
+nad plochou mezi křivkami.
+
+00:14.166 --> 00:19.483
+Řekněme si, že nás zajímá plocha od
+x rovno ‚a‘ do x rovno ‚b‘,
+
+00:19.483 --> 00:23.229
+která je mezi křivkami f(x) a g(x).
+
+00:23.229 --> 00:29.285
+Takže to je tato plocha.
+
+00:29.285 --> 00:35.582
+Jak bychom mohli tuto plochu
+spočítat pomocí určitých integrálů?
+
+00:35.582 --> 00:38.239
+Jako první by nás mohlo napadnou:
+
+00:38.239 --> 00:46.544
+když vezmu integrál
+z ‚a‘ do ‚b‘ funkce f(x),
+
+00:46.544 --> 00:53.563
+tak získám plocha mezi f(x) a osou x.
+
+00:53.563 --> 01:06.785
+Po odečtení plochy, která je rovna
+určitému integrálu od ‚a‘ do ‚b‘ z g(x)…
+
+01:06.785 --> 01:10.370
+Tím získám plochu,
+která mě zajímá.
+
+01:10.370 --> 01:15.579
+Získal bych tuto plochu
+a skutečně tomu tak je.
+
+01:15.579 --> 01:17.422
+A z vlastností integrálů víme,
+
+01:17.422 --> 01:24.475
+že to můžeme přepsat jako integrál
+od ‚a‘ do ‚b‘, dám sem závorky,
+
+01:24.475 --> 01:35.169
+z f(x) minus g(x) dx.
+
+01:35.169 --> 01:36.757
+A nyní tvrdím…
+
+01:36.757 --> 01:40.566
+V průběhu videa pro to
+získáme trochu více intuice,
+
+01:40.566 --> 01:45.027
+ale v intervalu od ‚a‘ do ‚b‘,
+kde f(x) je větší než g(x),
+
+01:45.027 --> 01:46.611
+jako je tento interval,
+
+01:46.611 --> 01:49.108
+tak to bude vždy platit,
+
+01:49.108 --> 01:54.070
+že plocha mezi křivkami bude
+integrál v intervalu,
+
+01:54.070 --> 01:57.878
+který nás zajímá, tedy
+od ‚a‘ do ‚b‘, z f(x) minus g(x).
+
+01:57.878 --> 01:58.992
+Vím, co si říkáte.
+
+01:58.992 --> 02:03.008
+Dobře, to funguje, když
+máme obě křivky na osou x,
+
+02:03.008 --> 02:08.833
+ale co když f(x) je nad
+osou x a g(x) je pod ní?
+
+02:08.833 --> 02:13.548
+Například máme tento interval.
+
+02:13.548 --> 02:15.512
+Řekněme, že toto je bod ‚c‘,
+
+02:15.512 --> 02:20.038
+zde je x rovno ‚c‘ a zde je x rovno ‚d‘.
+
+02:20.038 --> 02:27.605
+Jak spočítáme tuto plochu,
+kterou tady vybarvuji?
+
+02:27.605 --> 02:30.606
+Funguje stále tohle?
+
+02:30.606 --> 02:34.125
+Zamysleme se nad tím, co integrál…
+
+02:34.125 --> 02:43.525
+Zamysleme se nad tím, co integrál
+od ‚c‘ do ‚d‘ z f(x) dx vlastně znamená.
+
+02:43.525 --> 02:48.651
+Integrál reprezentuje tuto oblast.
+
+02:48.651 --> 02:56.899
+A co reprezentuje integrál
+od ‚c‘ do ‚d‘ z g(x) dx?
+
+02:56.899 --> 03:02.181
+Řekli byste, že to je
+tato plocha, ale pozor.
+
+03:02.181 --> 03:06.089
+V tomto intervalu je g(x) pod osou x.
+
+03:06.089 --> 03:08.885
+Takže tím bychom dostali zápornou hodnotu.
+
+03:08.885 --> 03:12.714
+Když bychom chtěli celkovou plochu,
+tak bychom mohli vzít tuto modrou plochu,
+
+03:12.714 --> 03:17.046
+která je kladná, a pak ji
+odečíst od záporné plochy,
+
+03:17.046 --> 03:21.040
+takže bychom dostali
+celkovou kladnou plochu.
+
+03:21.040 --> 03:37.859
+Toto je opět rovno integrálu
+od ‚c‘ do ‚d‘ z f(x) minus g(x) dx.
+
+03:37.859 --> 03:43.593
+Aby to bylo jasnější, tak sem dám závorky.
+
+03:43.593 --> 03:53.432
+Ikdyž je f(x) nad osou x a g(x) je pod
+osou x, tak máme pořád stejný integrál.
+
+03:53.432 --> 03:55.007
+Koukněme se na další příklad.
+
+03:55.007 --> 03:58.878
+Mějme obě křivky pod osou x.
+
+03:58.878 --> 04:03.399
+Řekněme, že bychom chtěli
+spočítat pro x rovno…
+
+04:03.399 --> 04:08.766
+Nepoužiju ‚e‘, protože to znamená Eulerovo
+číslo, stejně tak už f a g něco značí.
+
+04:08.766 --> 04:12.348
+No to už mi nějak docházejí písmena.
+
+04:12.348 --> 04:20.941
+Řekněme, že jdeme od ‚m‘ do ‚n‘.
+
+04:20.941 --> 04:24.844
+Dejme ‚n‘ sem.
+
+04:24.844 --> 04:31.077
+Zajímá nás tato plocha,
+která je pod funkcí f.
+
+04:31.077 --> 04:34.301
+Předpokládáme, že máme interval,
+kde f je větší než g,
+
+04:34.301 --> 04:36.611
+takže pod f a větší než g.
+
+04:36.611 --> 04:40.552
+Spočítá se to stejně, i pro
+koncové body ‚m‘ a ‚n‘?
+
+04:40.552 --> 04:42.735
+Zkusme se nad tím trochu zamyslet.
+
+04:42.735 --> 04:58.410
+Když bychom počítali integrál
+od ‚m‘ do ‚n‘ z f(g) minus g(x) dx,
+
+04:58.410 --> 05:01.311
+tak víme z vlastností integrálů,
+
+05:01.311 --> 05:15.627
+že to je integrál od ‚m‘ do ‚n‘ z f(x) dx
+minus integrál od ‚m‘ do ‚n‘ z g(x) dx.
+
+05:15.627 --> 05:17.867
+Nyní se zamysleme nad tím, co to znamená.
+
+05:17.867 --> 05:26.342
+Tento oranžový integrál
+nám dá zápornou plochu.
+
+05:26.342 --> 05:28.710
+Takže tady máme zápornou hodnotu.
+
+05:28.710 --> 05:33.924
+Ale absolutní hodnota toho je tato plocha.
+
+05:33.924 --> 05:40.880
+Co by byl modrý integrál, když bychom
+nemysleli na tohle záporné znaménko?
+
+05:40.880 --> 05:45.495
+To bychom získali opačnou
+hodnotu této plochy.
+
+05:45.495 --> 05:48.047
+Ale nyní vezmeme opačnou hodnotu,
+
+05:48.047 --> 05:59.913
+tato celá část včetně záporného
+znaménka, nám dá tuhle celou plochu.
+
+05:59.913 --> 06:01.828
+Tohle ve výsledku bude kladné,
+
+06:01.828 --> 06:04.058
+protože bereme opačnou
+hodnotu záporného čísla.
+
+06:04.058 --> 06:12.679
+Ale nás zajímala tato plocha,
+takže chceme odečíst tuto žlutou plochu.
+
+06:12.679 --> 06:16.129
+Tento žlutý integrál od…
+
+06:16.129 --> 06:20.080
+Určitý integrál od ‚m‘ do ‚n‘ z f(x) dx,
+to je přesně ono.
+
+06:20.080 --> 06:22.614
+Toto je opačná hodnota této plochy.
+
+06:22.614 --> 06:27.466
+Takže když přičteme modrou plochu,
+a minus minusu je plus,
+
+06:27.466 --> 06:30.438
+pak minus žlutá plocha,
+
+06:30.438 --> 06:33.943
+tak máme tuto plochu mezi křivkami.
+
+06:33.943 --> 06:35.955
+Takže jsme viděli, že v každém případě,
+
+06:35.955 --> 06:39.833
+pokud máme integrál, kde
+f(x) je větší než g(x),
+
+06:39.833 --> 06:49.961
+plocha mezi křivkami je určitý integrál
+v daném intervalu z f(x) minus g(x) dx.

@@ -1,0 +1,643 @@
+WEBVTT
+
+00:00.251 --> 00:02.158
+Trong video này chúng ta
+
+00:02.158 --> 00:04.883
+sẽ chứng minh giới hạn
+
+00:04.883 --> 00:07.358
+khi theta tiến gần 0
+
+00:07.358 --> 00:08.691
+của sin (theta)
+
+00:10.196 --> 00:13.082
+trên theta là bằng 1.
+
+00:13.082 --> 00:15.599
+Mình hãy bắt đầu với một chút
+
+00:15.599 --> 00:19.149
+hình học hay lượng giác ở đây.
+
+00:19.149 --> 00:22.425
+Vòng tròn trắng này là một đường tròn đơn vị,
+
+00:22.425 --> 00:24.251
+ta đặt tên nó vậy đó các bạn.
+
+00:24.251 --> 00:26.091
+Nó có bán kính là 1,
+
+00:26.091 --> 00:27.607
+vòng tròn
+
+00:27.607 --> 00:28.440
+đơn vị.
+
+00:29.432 --> 00:31.183
+Thế chiều dài của
+
+00:31.183 --> 00:34.907
+đường màu cam đậm thể hiện điều gì nhỉ?
+
+00:34.907 --> 00:38.482
+Vâng, nó biểu diễn tọa độ y
+
+00:38.482 --> 00:42.407
+của điểm mà bán kính này cắt đường tròn đơn vị.
+
+00:42.407 --> 00:45.242
+Theo định nghĩa đường tròn đơn vị
+
+00:45.242 --> 00:48.425
+của hàm lượng giác, chiều dài của đường thằng này
+
+00:48.425 --> 00:50.842
+sẽ là sin (theta).
+
+00:52.307 --> 00:55.075
+Nếu ta muốn đảm bảo nó cũng đúng
+
+00:55.075 --> 00:58.000
+cho các góc theta ở phần tư thứ tư, sẽ có ích đấy,
+
+00:58.000 --> 01:00.983
+ta chỉ cần chắc nó là giá trị tuyệt đối
+
+01:00.983 --> 01:02.455
+của sin (theta).
+
+01:02.455 --> 01:05.292
+Thế đường thằng xanh dương ở đây thì sao nhỉ?
+
+01:05.292 --> 01:08.992
+Mình có thể biểu diễn nó theo một hàm lượng giác được không?
+
+01:08.992 --> 01:10.525
+Bạn hãy nghĩ thử xem.
+
+01:10.525 --> 01:12.090
+Tan (theta) sẽ là gì nhỉ?
+
+01:12.090 --> 01:13.674
+Để mình viết nó ra đây.
+
+01:13.674 --> 01:15.632
+Tan (theta)
+
+01:15.632 --> 01:18.549
+sẽ bằng cạnh đối trên cạnh kề.
+
+01:21.190 --> 01:24.242
+Vậy nếu ta nhìn vào tam giác lớn hơn này,
+
+01:24.242 --> 01:27.165
+đây là góc theta tính theo đơn vị radian.
+
+01:27.165 --> 01:29.484
+Đây là cạnh đối.
+
+01:29.484 --> 01:32.559
+Cạnh kề dưới đây, nó có độ dài là 1.
+
+01:32.559 --> 01:34.624
+Nhớ rằng, đây là đường tròn đơn vị.
+
+01:34.624 --> 01:36.474
+Nên cái này sẽ có độ dài là 1,
+
+01:36.474 --> 01:39.716
+vậy tan (theta) chính là cạnh đối luôn.
+
+01:39.716 --> 01:43.401
+Cạnh đối sẽ bằng tan (theta).
+
+01:43.401 --> 01:45.994
+Như mọi khi thì, cái này sẽ có giá trị dương
+
+01:45.994 --> 01:47.891
+vì nó nằm ở phần tư thứ nhất,
+
+01:47.891 --> 01:49.720
+nhưng mình muốn nó đúng
+
+01:49.720 --> 01:51.688
+ở cả phần tư thứ nhất và thứ tư
+
+01:51.688 --> 01:53.687
+vì ở đây mình đang chứng minh,
+
+01:53.687 --> 01:56.133
+nên mĩnh sẽ để một giá trị tuyệt đối ở đây,
+
+01:56.133 --> 01:57.882
+Mình xong phần này nhé,
+
+01:57.882 --> 02:00.224
+giờ mĩnh sẽ nghĩ về những tam giác
+
+02:00.224 --> 02:02.327
+và diện tích tương ứng của chúng.
+
+02:02.327 --> 02:04.510
+Đầu tiên, mình sẽ vẽ một tam giác
+
+02:04.510 --> 02:07.225
+trong cái nêm này, hay trong miếng bánh này,
+
+02:07.225 --> 02:10.324
+miếng bánh ở trong đường tròn,
+
+02:10.324 --> 02:13.074
+vậy mình có thể vẽ tam giác này.
+
+02:14.382 --> 02:16.234
+Và giờ hãy nghĩ về diện tích
+
+02:16.234 --> 02:20.217
+của phần mình tô ở đây.
+
+02:20.217 --> 02:22.550
+Mình sẽ biểu diễn nó thế nào nhỉ?
+
+02:22.722 --> 02:24.774
+Nó là một tam giác đúng không.
+
+02:24.774 --> 02:26.699
+Ta biết diện tích của tam giác
+
+02:26.699 --> 02:29.200
+là 1/2 cạnh đáy nhân chiều cao.
+
+02:29.200 --> 02:30.741
+Ta đã biết chiều cao là
+
+02:30.741 --> 02:32.792
+giá trị tuyệt đối của sin (theta)
+
+02:32.792 --> 02:35.758
+và ta biết cạnh đáy là 1,
+
+02:35.758 --> 02:39.925
+vậy diện tích ở đây là 1/2
+
+02:41.258 --> 02:43.604
+nhân cạnh đáy, là 1,
+
+02:43.604 --> 02:44.842
+nhân chiều cao,
+
+02:44.842 --> 02:47.882
+là giá trị tuyệt đối của sin (theta).
+
+02:47.882 --> 02:49.433
+Minh sẽ viết lại ở đây.
+
+02:49.433 --> 02:51.121
+Mình có thể viết lại thành
+
+02:51.121 --> 02:54.791
+giá trị tuyệt đối của sin (theta) trên 2.
+
+02:54.791 --> 02:58.458
+Giờ hãy nghĩ về diện tích của miếng bánh
+
+02:58.458 --> 03:02.608
+mình đang tô đậm bằng màu vàng này nhé.
+
+03:02.608 --> 03:06.945
+Nó sẽ là bao nhiều phần của cả đường tròn nhỉ?
+
+03:06.945 --> 03:08.833
+Nếu mình đi cả đường tròn,
+
+03:08.833 --> 03:10.335
+nó sẽ là 2 pi,
+
+03:10.335 --> 03:14.502
+vậy ở đây sẽ là theta trên (2 pi) của cả đường tròn
+
+03:14.502 --> 03:16.597
+và ta biết diện tích của hình tròn.
+
+03:16.597 --> 03:19.294
+Cái này là đường tròn đơn vị, có bán kính là 1,
+
+03:19.294 --> 03:21.819
+nên nó sẽ nhân với diện tích hình tròn,
+
+03:21.819 --> 03:24.017
+là pi nhân bán kình bình phương,
+
+03:24.017 --> 03:26.666
+bán kính là 1, nên nó sẽ chỉ là nhân pi.
+
+03:26.666 --> 03:29.342
+Và diện tích của miếng bánh ở đây
+
+03:29.342 --> 03:30.692
+sẽ là theta trên 2.
+
+03:31.116 --> 03:33.200
+Và nếu ta muốn nó đúng cho cả
+
+03:33.200 --> 03:35.689
+góc theta ở phần tư thứ tư,
+
+03:35.689 --> 03:38.900
+ta chỉ cần thêm dấu giá trị tuyệt đối ở đây
+
+03:38.900 --> 03:42.082
+vì ta đang xét diện tích dương thôi.
+
+03:42.082 --> 03:44.999
+Và giờ hãy nghĩ về tam giác lớn hơn
+
+03:44.999 --> 03:48.807
+màu xanh dương này, cái này sẽ đơn giản thôi.
+
+03:48.807 --> 03:53.149
+Diện tích ở đây sẽ là 1/2 nhân cạnh đáy nhân chiều cao.
+
+03:53.149 --> 03:57.333
+Vậy toàn bộ diện tích này
+
+03:57.333 --> 04:01.043
+sẽ bằng 1/2 nhân cạnh đáy, là 1,
+
+04:01.043 --> 04:02.246
+nhân chiều cao,
+
+04:02.246 --> 04:05.328
+là giá trị tuyệt đối của tan (theta).
+
+04:05.328 --> 04:07.158
+Và mình có thể chỉ cần viết
+
+04:07.158 --> 04:11.325
+là giá trị tuyệt đối của tan (theta) trên 2.
+
+04:12.439 --> 04:14.550
+Thế giờ, bạn sẽ so sánh diện tích
+
+04:14.550 --> 04:17.062
+của tam giác màu cam này,
+
+04:17.062 --> 04:19.034
+ở trong miếng bánh này đây,
+
+04:19.034 --> 04:20.051
+với diện tích
+
+04:20.051 --> 04:22.341
+của tam giác lớn hơn như thế nào?
+
+04:22.341 --> 04:25.549
+Vâng, nó rõ ràng là diện tích của tam giác màu cam này
+
+04:25.549 --> 04:28.341
+sẽ nhỏ hơn hoặc bằng với diện tích của miếng bánh
+
+04:28.341 --> 04:30.892
+và diện tích của miếng bánh là nhỏ hơn hoặc bằng
+
+04:30.892 --> 04:33.695
+diện tích của tam giác lớn màu xanh dương này.
+
+04:33.695 --> 04:36.262
+Miếng bánh sẽ bao gồm tam giác màu cam
+
+04:36.262 --> 04:38.283
+cộng phần diện tích ở đây này,
+
+04:38.283 --> 04:40.766
+và tam giác màu xanh dương sẽ bao gồm
+
+04:40.766 --> 04:43.633
+miếng bánh cộng với diện tích ở đây.
+
+04:43.633 --> 04:45.592
+Thế mình nghĩ ta có thể thấy rõ
+
+04:45.592 --> 04:47.918
+phát biểu này là đúng.
+
+04:47.918 --> 04:48.891
+và mình sẽ
+
+04:48.891 --> 04:51.140
+biến đổi đại số một chút ở đây nhé.
+
+04:51.140 --> 04:53.450
+Để mình nhân tất cả cho 2
+
+04:53.450 --> 04:56.790
+nên mình có thể viết lại là giá trị tuyệt đối
+
+04:56.790 --> 05:00.514
+của sin (theta) nhỏ hơn hoặc bằng
+
+05:00.514 --> 05:03.124
+giá trị tuyệt đối của theta
+
+05:03.124 --> 05:07.341
+và sẽ nhỏ hơn hoặc bằng giá trị tuyệt đối
+
+05:07.341 --> 05:10.149
+của tan (theta), để xem nào.
+
+05:10.149 --> 05:12.429
+Thật ra, thay vì viết là giá trị tuyệt đối
+
+05:12.429 --> 05:14.366
+của tan (theta), mình sẽ viết lại
+
+05:14.366 --> 05:16.933
+là giá trị tuyệt đối của sin (theta)
+
+05:18.359 --> 05:22.189
+trên giá trị tuyệt đối của cos (theta).
+
+05:22.189 --> 05:23.524
+Nó sẽ tương tự với
+
+05:23.524 --> 05:26.417
+giá trị tuyệt đối của tan (theta) thôi.
+
+05:26.417 --> 05:27.957
+Và lý do mình làm thế
+
+05:27.957 --> 05:29.775
+là giờ ta có thể chia mọi thứ
+
+05:29.775 --> 05:32.200
+cho giá trị tuyệt đối của sin (theta).
+
+05:32.200 --> 05:34.391
+Vì ta đang chia một số dương,
+
+05:34.391 --> 05:37.384
+nó sẽ không đổi chiều của bất đẳng thức.
+
+05:37.384 --> 05:38.983
+Vậy ta cùng làm nhé!
+
+05:38.983 --> 05:40.767
+Mình sẽ chia cái này
+
+05:40.767 --> 05:44.270
+cho giá trị tuyệt đối của sin (theta).
+
+05:44.270 --> 05:45.550
+Mình sẽ chia cái này
+
+05:45.550 --> 05:49.091
+cho giá trị tuyệt đối của sin (theta).
+
+05:49.091 --> 05:50.499
+và rồi chia cái này
+
+05:50.499 --> 05:54.083
+cho giá trị tuyệt đối của sin (theta).
+
+05:54.083 --> 05:55.654
+Mình sẽ có gì nào?
+
+05:55.654 --> 05:57.987
+Ở đây, mình sẽ được 1
+
+05:59.128 --> 06:00.807
+và bên phải, mình được 1
+
+06:00.807 --> 06:03.456
+trên giá trị tuyệt đối của cos (theta).
+
+06:03.456 --> 06:05.206
+Hai cái này đã triệt tiêu rồi.
+
+06:06.466 --> 06:08.506
+Vậy bước tiếp theo mình sẽ làm
+
+06:08.506 --> 06:11.142
+là lấy nghịch đảo của tất cả.
+
+06:11.142 --> 06:13.141
+Và khi mình làm thế,
+
+06:13.141 --> 06:15.932
+nó sẽ đảo chiều bất đẳng thức.
+
+06:15.932 --> 06:19.034
+Nghịch đảo của 1 vẫn sẽ là 1.
+
+06:19.034 --> 06:22.233
+nhưng giờ vì mình đang lấy nghịch đảo của cái này đây,
+
+06:22.233 --> 06:24.340
+nó sẽ là lớn hơn hoặc bằng
+
+06:24.340 --> 06:27.590
+giá trị tuyệt đối của sin (theta)
+
+06:28.474 --> 06:31.025
+trên giá trị tuyệt đối của theta,
+
+06:31.025 --> 06:35.140
+và nó sẽ lớn hơn hoặc bằng
+
+06:35.140 --> 06:36.474
+nghịch đảo của 1
+
+06:36.474 --> 06:39.293
+trên giá trị tuyệt đối của cos (theta)
+
+06:39.293 --> 06:42.710
+sẽ là giá trị tuyệt đối của cos (theta).
+
+06:43.310 --> 06:46.574
+Ta thực sự chỉ cần chú ý đến phần tư thứ nhất và thứ tư.
+
+06:46.574 --> 06:48.383
+Bạn có thể nghĩ theta này
+
+06:48.383 --> 06:50.332
+tiến gần đến 0 từ hướng này
+
+06:50.332 --> 06:52.557
+hoặc từ hướng này,
+
+06:52.557 --> 06:55.242
+nên sẽ là phần tư thứ nhất và thứ tư.
+
+06:55.242 --> 06:58.733
+Vậy nếu ta ở phần tư thứ nhất và góc theta dương,
+
+06:58.733 --> 07:00.878
+sin (theta) cũng sẽ dương.
+
+07:00.878 --> 07:03.529
+Và nếu ta ở phần tư thứ tư và góc theta âm,
+
+07:03.529 --> 07:05.304
+thì sin (theta) sẽ cùng dấu,
+
+07:05.304 --> 07:06.465
+nó cũng sẽ âm.
+
+07:06.465 --> 07:09.338
+Vậy nên những giá trị tuyệt đối này là không cần thiết.
+
+07:09.338 --> 07:10.631
+Ở phần tư thứ nhất,
+
+07:10.631 --> 07:12.633
+sin (theta) và theta cùng dương.
+
+07:12.633 --> 07:14.642
+Ở phần tư thứ tư, chúng đều âm,
+
+07:14.642 --> 07:16.383
+nhưng khi bạn chia chúng,
+
+07:16.383 --> 07:20.299
+bạn sẽ được một giá trị dương, nên mình có thể xóa đi những cái này.
+
+07:20.299 --> 07:22.108
+Nếu ta ở phần tư thứ nhất hay thứ tư,
+
+07:22.108 --> 07:24.259
+giá trị x của mình sẽ là không âm,
+
+07:24.259 --> 07:26.900
+vậy nên cos (theta), hay tọa độ x
+
+07:26.900 --> 07:29.858
+trên đường tròn đơn vị, sẽ là không âm,
+
+07:29.858 --> 07:33.250
+nên ta không cần dấu giá trị tuyệt đối ở đó.
+
+07:33.250 --> 07:35.237
+Giờ ta nên tạm dừng một chút
+
+07:35.237 --> 07:37.642
+vì ta thật ra đã gần hoàn thành rồi.
+
+07:37.642 --> 07:39.383
+Ta đã có được ba hàm số.
+
+07:39.383 --> 07:42.042
+Bạn có thể nghĩ cái này như f(x) bằng,
+
+07:42.042 --> 07:44.542
+bạn có thể xem cái này là f (theta) bằng 1,
+
+07:44.542 --> 07:46.058
+g (theta) bằng cái này,
+
+07:46.058 --> 07:47.908
+và h (theta) bằng cái đó.
+
+07:47.908 --> 07:49.882
+Và trên khoảng mình xét,
+
+07:49.882 --> 07:52.965
+ta có thể nói với âm pi/2
+
+07:53.891 --> 07:56.772
+nhỏ hơn theta, nhỏ hơn pi/2,
+
+07:56.772 --> 08:00.239
+nhưng trên khoảng này, cái này sẽ đúng cho bất kì theta nào
+
+08:00.239 --> 08:01.925
+mà hàm số này xác định.
+
+08:01.925 --> 08:04.850
+Sin (theta) trên theta sẽ xác định trên khoảng này,
+
+08:04.850 --> 08:06.697
+trừ khi theta bằng 0.
+
+08:06.697 --> 08:09.319
+Nhưng vì nó xác định ở các điểm nào khác,
+
+08:09.319 --> 08:11.316
+nên ta có thể tìm được giới hạn.
+
+08:11.316 --> 08:14.716
+Vậy ta có thể nói
+
+08:14.716 --> 08:16.358
+bằng định lí kẹp
+
+08:16.358 --> 08:18.283
+nếu cái này là đúng trên khoảng này,
+
+08:18.283 --> 08:20.974
+khi đó ta cũng biết cái tiếp theo đây sẽ đúng.
+
+08:20.974 --> 08:23.300
+Và ta xứng đáng được ngợi khen đấy.
+
+08:23.300 --> 08:24.908
+Giới hạn
+
+08:24.908 --> 08:27.575
+khi theta tiến gần 0 của cái này
+
+08:28.883 --> 08:33.474
+sẽ lớn hơn hoặc bằng giới hạn
+
+08:33.474 --> 08:36.152
+khi theta tiến gần 0 của cái này,
+
+08:36.152 --> 08:37.891
+cái mình quan tâm ở đây,
+
+08:37.891 --> 08:40.440
+sin (theta) trên theta,
+
+08:40.440 --> 08:45.375
+sẽ lớn hơn hoặc bằng giới hạn
+
+08:45.375 --> 08:48.125
+khi theta tiến gần 0 của cái này.
+
+08:49.717 --> 08:53.600
+Cái này rõ ràng sẽ bằng 1.
+
+08:53.600 --> 08:55.842
+Đây là cái mình quan tâm này.
+
+08:55.842 --> 08:58.220
+Và cái này, giới hạn khi theta tiến gần 0
+
+08:58.220 --> 08:59.927
+của cos (theta) là gì nhỉ?
+
+08:59.927 --> 09:01.158
+cos (0) sẽ chỉ là 1
+
+09:01.158 --> 09:02.799
+và vì nó là hàm liên tục,
+
+09:02.799 --> 09:04.359
+nên cái này sẽ là 1.
+
+09:04.359 --> 09:05.432
+Để xem nào.
+
+09:05.432 --> 09:07.722
+Giới hạn này sẽ nhỏ hơn hoặc bằng 1
+
+09:07.722 --> 09:09.627
+và nó sẽ lớn hơn hoặc bằng 1,
+
+09:09.627 --> 09:11.810
+vậy nó sẽ phải bằng 1 đúng không.
+
+09:12.842 --> 09:14.929
+Vậy chúng ta đã hoàn thành rồi!

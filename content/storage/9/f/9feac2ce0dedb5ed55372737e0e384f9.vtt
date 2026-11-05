@@ -1,0 +1,418 @@
+WEBVTT
+
+00:00.000 --> 00:01.893
+Usamos a integral definida
+
+00:01.893 --> 00:03.907
+para calcular áreas.
+
+00:03.907 --> 00:05.867
+Quero ver agora se conseguimos
+
+00:05.867 --> 00:09.406
+usar a integral definida
+para calcular um comprimento de arco.
+
+00:09.406 --> 00:10.934
+O que quero dizer com isso?
+
+00:10.934 --> 00:15.291
+Se começo neste ponto na função,
+
+00:15.291 --> 00:17.663
+e vou até este outro ponto,
+
+00:17.663 --> 00:19.625
+- não é uma reta; já sabemos calcular
+
+00:19.625 --> 00:22.287
+a distância em um reta, mas agora
+
+00:22.287 --> 00:24.719
+queremos achar a distância na curva. -
+
+00:24.719 --> 00:26.566
+Se colocarmos uma corda na curva,
+
+00:26.566 --> 00:28.562
+qual seria a distância até aqui?
+
+00:28.562 --> 00:33.312
+É o que quero dizer
+com comprimento de arco.
+
+00:33.312 --> 00:36.138
+Podemos pensar que essa distância
+
+00:36.138 --> 00:43.648
+vai de x igual à a até x igual à b.
+
+00:43.648 --> 00:45.077
+Como podemos calcular isso?
+
+00:45.077 --> 00:48.377
+O que o Cálculo Integral
+
+00:48.377 --> 00:52.120
+nos ensinou é que quando vemos
+alguma coisa variando assim,
+
+00:52.122 --> 00:55.397
+podemos quebrá-la
+em partes infinitesimais.
+
+00:55.397 --> 00:57.694
+Partes infinitesimais
+que podemos aproximar
+
+00:57.694 --> 01:00.275
+com retas e retângulos, e depois
+
+01:00.275 --> 01:04.081
+podemos somar essas partes.
+
+01:04.081 --> 01:06.974
+Deixe-me dividir
+o meu comprimento de arco.
+
+01:06.974 --> 01:09.194
+Deixe-me quebrá-lo
+
+01:09.194 --> 01:11.982
+em partes infinitesimais
+de comprimento de arco.
+
+01:11.982 --> 01:14.252
+Chamarei essas partes infinitesimais
+
+01:14.252 --> 01:18.428
+do meu comprimento de arco de -
+
+01:18.428 --> 01:23.209
+Chamarei de ds.
+
+01:23.209 --> 01:25.607
+Farei o desenho em uma escala maior
+
+01:25.607 --> 01:27.351
+do que seria um diferencial.
+
+01:27.351 --> 01:28.902
+Apenas para enxergá-lo.
+
+01:28.902 --> 01:31.366
+O que quero dizer dividindo isso
+em vários ds?
+
+01:31.366 --> 01:33.059
+Se isto é ds -
+
+01:33.059 --> 01:34.762
+deixe-me usar outras cores-
+
+01:34.762 --> 01:40.074
+aquilo é uma variação infinitesimal
+no meu comprimento de arco.
+
+01:40.074 --> 01:42.710
+Outra variação infinitesimal
+no meu comprimento de arco.
+
+01:42.710 --> 01:46.623
+Se eu somar todos esses ds,
+
+01:46.623 --> 01:48.473
+obterei o comprimento de arco.
+
+01:48.473 --> 01:52.873
+O comprimento de arco será a integral
+
+01:52.873 --> 01:58.943
+da soma de todos esses ds -
+
+01:58.943 --> 02:01.782
+podemos denotá-lo assim.
+
+02:01.782 --> 02:03.216
+Isso não me ajudará agora.
+
+02:03.216 --> 02:06.798
+Isto está em termos do cumprimento
+de arco, que é um diferencial.
+
+02:06.798 --> 02:09.717
+Sabemos calcular em termos de dx ou dy.
+
+02:09.717 --> 02:11.345
+Vejamos se podemos reescrever isso
+
+02:11.345 --> 02:14.118
+em termos de dx e de dy.
+
+02:14.118 --> 02:16.017
+Se estivermos numa escala muito pequena
+
+02:16.017 --> 02:17.806
+podemos fazer algumas aproximações.
+
+02:17.806 --> 02:19.826
+Isto será uma reta.
+
+02:19.826 --> 02:21.085
+Mesmo princípio que usamos
+
+02:21.085 --> 02:22.857
+para aproximar áreas
+com retângulos.
+
+02:22.857 --> 02:24.299
+Mas se temos
+um número infinito
+
+02:24.299 --> 02:26.146
+de retângulos infinitesimais,
+
+02:26.146 --> 02:29.103
+estamos aproximando
+uma região não retangular.
+
+02:29.103 --> 02:31.113
+A área de uma região não retangular.
+
+02:31.113 --> 02:33.041
+Da mesma forma
+que aproximamos com retas.
+
+02:33.041 --> 02:35.258
+Há um número infinito delas,
+
+02:35.258 --> 02:38.222
+então encontraremos o comprimento do arco.
+
+02:38.222 --> 02:42.599
+Por enquanto, isto é uma reta.
+
+02:42.599 --> 02:43.945
+Esta distância - tentarei
+
+02:43.945 --> 02:47.019
+expressá-la em termos de dx e de dy-
+
+02:47.019 --> 02:50.291
+é dx.
+
+02:50.291 --> 02:54.143
+Você pode ver isso como uma variação
+infinitesimal em x.
+
+02:54.143 --> 02:58.129
+Esta distância é dy.
+
+02:58.129 --> 03:00.900
+Mais uma vez, não estou sendo
+rigoroso com os diferenciais.
+
+03:00.900 --> 03:02.248
+Apenas uma noção conceitual.
+
+03:02.248 --> 03:04.697
+Não é uma prova rigorosa,
+mas dará uma noção
+
+03:04.697 --> 03:08.156
+de onde vem a fórmula
+de comprimento de arco.
+
+03:08.156 --> 03:12.649
+Com base nisso, você pode ver
+que ds pode ser escrito,
+
+03:12.649 --> 03:15.932
+seguindo o Teorema de Pitágoras,
+como dx ao quadrado
+
+03:15.932 --> 03:19.271
+mais dy ao quadrado.
+Ou, você pode reescrever isso
+
+03:19.271 --> 03:22.336
+como a raiz de dx ao quadrado
+mais dy ao quadrado.
+
+03:22.336 --> 03:24.443
+Podemos reescrever isto.
+
+03:24.443 --> 03:29.051
+Podemos dizer que isto
+é o mesmo que a integral -
+
+03:29.051 --> 03:31.365
+em vez de escrever ds, escreverei
+
+03:31.365 --> 03:45.225
+como a raiz quadrada de dx ao quadrado
+mais dy ao quadrado.
+
+03:45.225 --> 03:48.100
+Mais uma vez, isto veio
+do Teorema de Pitágoras.
+
+03:48.100 --> 03:50.304
+Isto está começando a ficar interessante.
+
+03:50.304 --> 03:53.030
+Escrevi em termos de dx e dy,
+mas eles estão ao quadrado.
+
+03:53.030 --> 03:56.122
+Estão dentro de uma raiz.
+O que posso fazer para simplificar isto?
+
+03:56.122 --> 04:00.358
+Ou, pelo menos, escrever de uma forma
+que eu saiba integrar.
+
+04:00.358 --> 04:03.946
+Posso fatorar um dx ao quadrado.
+
+04:03.946 --> 04:04.865
+Deixe-me reescrever.
+
+04:04.865 --> 04:06.207
+Isto será o mesmo
+
+04:06.207 --> 04:10.952
+que a integral da raiz quadrada-
+
+04:10.952 --> 04:13.181
+vou fatorar o dx ao quadrado-
+
+04:13.181 --> 04:24.380
+dx ao quadrado vezes um
+mais dy sobre dx ao quadrado.
+
+04:24.384 --> 04:27.256
+Veja que esses dois são iguais.
+
+04:27.256 --> 04:29.597
+Se eu distribuir este dx ao quadrado,
+
+04:29.597 --> 04:31.618
+obterei isto aqui.
+
+04:31.618 --> 04:34.526
+Agora posso colocar o dx ao quadrado
+para fora da raiz.
+
+04:34.526 --> 04:39.526
+Isto será a integral de-
+
+04:39.668 --> 04:42.806
+deixe-me escrever isto em branco-
+
+04:42.806 --> 04:47.901
+a integral de um mais dy
+sobre dx ao quadrado.
+
+04:47.901 --> 04:50.426
+Isto é interessante, pois sabemos
+o que dy sobre dx é.
+
+04:50.426 --> 04:52.979
+É a derivada da nossa função,
+
+04:52.979 --> 04:56.117
+dy sobre dx, ao quadradado
+
+04:56.117 --> 04:58.062
+Se fatorar dx ao quadrado,
+
+04:58.062 --> 05:00.917
+a raiz quadrada de dx ao quadrado
+será apenas dx.
+
+05:00.917 --> 05:04.637
+Isto será dx.
+
+05:04.638 --> 05:06.226
+Será dx.
+
+05:06.226 --> 05:08.114
+Isto é interessante,
+pois sabemos
+
+05:08.114 --> 05:10.643
+calcular esta diferença.
+
+05:10.643 --> 05:13.455
+Agora podemos integrar de a até b.
+
+05:13.455 --> 05:16.641
+Estamos integrando vários dx,
+
+05:16.641 --> 05:20.499
+ou estamos integrando em relação à x.
+
+05:20.499 --> 05:23.308
+Podemos dizer de x igual à a
+até x igual à b.
+
+05:23.308 --> 05:25.108
+Vamos calcular a soma do produto
+
+05:25.108 --> 05:28.966
+desta expressão e dx.
+
+05:28.966 --> 05:32.536
+Isto é a fórmula de comprimento de arco.
+
+05:32.536 --> 05:34.491
+Parece complicado.
+
+05:34.491 --> 05:37.023
+No próximo vídeo, veremos
+que há uma aplicação direta,
+
+05:37.023 --> 05:39.130
+mas os cálculos podem
+complicar-se um pouco.
+
+05:39.130 --> 05:41.061
+Se quiser usar uma notação diferente,
+
+05:41.061 --> 05:46.061
+você escrever como a integral de a até b.
+
+05:46.073 --> 05:52.356
+x igual à a até x igual à b
+da raiz quadrada de um mais -
+
+05:52.356 --> 05:54.622
+em vez de dx sobre dy,
+posso colocar
+
+05:54.622 --> 06:03.602
+f linha de x ao quadrado, dx.
+
+06:03.757 --> 06:06.055
+Se você sabe qual é a função, f de x,
+
+06:06.055 --> 06:08.186
+calcule a derivada em relação à x,
+
+06:08.186 --> 06:11.517
+ao quadrado mais um,
+calcule a raiz quadrada e multiplique.
+
+06:11.517 --> 06:14.083
+E depois, calcule a integral definida
+
+06:14.083 --> 06:18.065
+em relação à x, de a até b.
+
+06:18.065 --> 06:19.936
+Faremos isso no próximo vídeo.
+
+06:19.936 --> 06:21.196
+Legendado por: [Pilar Dib]
+Revisado por [Victor Oliveira]

@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.000 --> 00:04.341
+V tomto videu se podíváme
+na vztah mezi tím,
+
+00:04.341 --> 00:06.691
+kdy se funkce okolo
+bodu zdá být lineární,
+
+00:06.691 --> 00:09.705
+a diferencovatelností
+funkce v daném bodě.
+
+00:09.705 --> 00:12.227
+To, že funkce se okolo bodu
+zdá být lineární, znamená,
+
+00:12.227 --> 00:14.964
+že když si nějaký bod
+dostatečně přiblížíme,
+
+00:14.964 --> 00:18.538
+tak i nelineární funkce, která je
+v tomto bodě diferencovatelná,
+
+00:18.538 --> 00:20.942
+bude vypadat
+jako lineární funkce.
+
+00:20.942 --> 00:23.011
+Podívejme se na
+nějaké příklady.
+
+00:23.011 --> 00:29.141
+Řekněme, že máme funkci
+y rovná se x na druhou.
+
+00:29.141 --> 00:30.287
+Toto je její graf.
+
+00:30.287 --> 00:32.282
+Evidentně nejde
+o lineární funkci.
+
+00:32.282 --> 00:37.556
+Když si ale nějaký bod
+dostatečně přiblížíme,
+
+00:37.556 --> 00:39.693
+tak uvidíme, že funkce
+vypadá jako lineární.
+
+00:39.693 --> 00:43.791
+Přibližme si tedy
+třeba bod [1; 1].
+
+00:43.791 --> 00:47.145
+Jak si čím dál tím víc
+přibližujeme bod [1; 1],
+
+00:47.145 --> 00:51.918
+vidíme, že funkce se okolo
+tohoto bodu zdá být lineární.
+
+00:51.918 --> 00:54.924
+To, že funkce okolo bodu
+vypadá jako lineární,
+
+00:54.924 --> 00:59.424
+je velmi užitečné, když chceme okolo
+daného bodu funkci aproximovat.
+
+00:59.424 --> 01:03.859
+Mohli bychom například
+spočítat derivaci v bodě [1; 1],
+
+01:03.859 --> 01:06.098
+což bude
+směrnice tečny,
+
+01:06.098 --> 01:08.438
+a následně najít
+rovnici tečny,
+
+01:08.438 --> 01:16.441
+kterou můžeme použít k aproximaci
+funkčních hodnot okolo bodu x rovno 1.
+
+01:16.441 --> 01:19.585
+Pro funkci jako y rovná se x na druhou
+to možná není třeba dělat,
+
+01:19.585 --> 01:24.129
+ale u složitějších funkcí
+to může být velmi užitečné.
+
+01:24.129 --> 01:25.687
+Hlavní je ale to,
+
+01:25.687 --> 01:31.178
+že funkce okolo bodu [1; 1]
+vypadá jako lineární
+
+01:31.178 --> 01:34.338
+a navíc je v tomto
+bodě diferencovatelná.
+
+01:34.338 --> 01:39.823
+Teď si ukažme příklad bodu,
+ve kterém funkce není diferencovatelná
+
+01:39.823 --> 01:42.942
+a okolo něhož funkce
+nevypadá jako lineární.
+
+01:42.942 --> 01:50.219
+Uvažme například funkci
+absolutní hodnota z ‚x‘.
+
+01:50.219 --> 01:56.106
+Ještě ji trochu posunu, aby se mi to
+tolik nekrylo s předchozím grafem.
+
+01:57.196 --> 02:05.768
+Funkce absolutní hodnota z (x minus 1) je
+diferencovatelná všude kromě této špičky,
+
+02:05.768 --> 02:08.882
+tedy všude
+kromě bodu [1; 0].
+
+02:08.882 --> 02:11.671
+Pro všechna ostatní x
+jde o diferencovatelnou funkci,
+
+02:11.671 --> 02:17.742
+ale už jsme si dříve ukázali, že přímo
+v bodě x rovno 1 není diferencovatelná.
+
+02:17.742 --> 02:21.629
+Můžeme se také podívat, zda okolo
+tohoto bodu funkce vypadá jako lineární.
+
+02:21.629 --> 02:24.268
+Nedělám tu žádný
+formální důkaz,
+
+02:24.268 --> 02:26.272
+spíše chci, abyste
+získali nějakou intuici.
+
+02:26.272 --> 02:29.479
+Ať už se přiblížíme
+jak moc chceme,
+
+02:29.479 --> 02:32.391
+pořád vidíme tuto
+ostrou špičku.
+
+02:32.954 --> 02:40.266
+Bylo by velmi obtížné najít jedinečnou
+tečnu procházející bodem [1; 0].
+
+02:40.266 --> 02:43.060
+Dokážeme totiž sestrojit dokonce
+nekonečně mnoho přímek,
+
+02:43.060 --> 02:48.313
+které prochází bodem [1; 0]
+a jinde už graf neprotínají.
+
+02:48.313 --> 02:51.170
+Zapamatujte si, že kdykoliv
+vidíte ostrou špičku,
+
+02:51.170 --> 02:54.977
+jako to vidíme u této
+absolutní hodnoty v bodě [1; 0],
+
+02:54.977 --> 03:00.516
+tak to je dobrý ukazatel toho, že funkce
+v daném bodě není diferencovatelná.
+
+03:01.090 --> 03:04.084
+Teď si to zase oddalme
+a podívejme se na další funkci.
+
+03:04.084 --> 03:08.772
+Podívejme se na funkci,
+která není diferencovatelná,
+
+03:08.772 --> 03:10.601
+ale ne proto, že by
+měla ostrou špičku,
+
+03:10.601 --> 03:12.664
+ale proto, že když si
+přiblížíme její graf,
+
+03:12.664 --> 03:16.246
+tak sice vypadá jako lineární,
+ale jako svislá přímka.
+
+03:16.246 --> 03:26.465
+Dobrým příkladem je funkce druhá odmocnina
+z řekněme (4 minus (x na druhou)).
+
+03:26.465 --> 03:29.910
+Jde o horní polovinu
+kružnice s poloměrem 2.
+
+03:29.910 --> 03:33.044
+Zaměřme se
+na bod [2; 0],
+
+03:33.044 --> 03:36.780
+protože funkce v tomto
+bodě není diferencovatelná,
+
+03:36.780 --> 03:38.543
+a když si graf
+dostatečně přiblížíme,
+
+03:38.543 --> 03:46.566
+tak vidíme, že graf funkce okolo
+bodu [2; 0] vypadá jako svislá přímka.
+
+03:48.325 --> 03:52.966
+Funkce tak v bodě [2; 0]
+není diferencovatelná.
+
+03:54.180 --> 03:55.616
+Rád bych
+teď zmínil,
+
+03:55.616 --> 03:58.387
+že u žádné z těchto funkcí
+nebylo třeba velkého přiblížení,
+
+03:58.387 --> 04:02.013
+abychom viděli, že naše funkce s
+absolutní hodnotou má špičku,
+
+04:02.013 --> 04:08.219
+nebo že v bodě [2; 0] či [−2; 0]
+se děje něco nezvyklého,
+
+04:08.219 --> 04:10.501
+takže zde funkce nejspíš
+nebude diferencovatelná.
+
+04:10.501 --> 04:11.651
+Existují ale
+i funkce,
+
+04:11.651 --> 04:16.917
+se kterými se v hodinách algebry nebo
+diferenciálního počtu běžně nesetkáme
+
+04:16.917 --> 04:21.393
+a které při pohledu z dálky
+vypadají, že mají ostrý roh,
+
+04:21.393 --> 04:25.172
+ale když si jejich graf přiblížíme, tak
+uvidíme, že vypadá jako lineární funkce,
+
+04:25.172 --> 04:27.983
+a navíc bude tato funkce
+v daném bodě diferencovatelná.
+
+04:27.983 --> 04:29.674
+Dobrým příkladem
+takové funkce je...
+
+04:29.674 --> 04:34.275
+Dám si tyhle funkce pryč, ať se mi
+tu nepletou při přibližování grafu.
+
+04:34.275 --> 04:38.728
+Řekněme, že
+y se rovná x na...
+
+04:38.728 --> 04:41.179
+Vyberu nějaký
+velký exponent.
+
+04:41.179 --> 04:42.491
+...x na desátou.
+
+04:42.491 --> 04:45.437
+Už to trochu vypadá,
+že graf funkce má dole ostrý roh.
+
+04:45.437 --> 04:47.367
+Zkusme x na stou.
+
+04:47.367 --> 04:49.882
+Teď už to opravdu dole
+vypadá jako ostrý roh.
+
+04:49.882 --> 04:52.580
+Zkusme rovnou
+x na tisícou.
+
+04:52.580 --> 04:58.326
+Při tomto přiblížení to vypadá,
+že v bodě [1; 0] má funkce ostrý roh.
+
+04:58.326 --> 05:02.428
+Tato křivka však ve skutečnosti
+bodem [1; 0] neprochází.
+
+05:02.428 --> 05:05.154
+Když je totiž x rovno 1,
+y se rovná 1.
+
+05:05.154 --> 05:07.364
+Pokud si to nyní přiblížíme,
+tak uvidíme,
+
+05:07.364 --> 05:11.311
+že to, co vypadá
+jako ostrý roh, se zakřiví,
+
+05:11.311 --> 05:16.305
+což je dobře, protože tato funkce
+je diferencovatelná pro všechna x.
+
+05:16.305 --> 05:19.217
+Jde sice o trochu exotičtější
+funkci, než na jaké jsme zvyklí,
+
+05:19.217 --> 05:21.450
+ale když si to přiblížíme,
+tak to dobře uvidíme.
+
+05:21.450 --> 05:25.393
+Přibližme si tento na
+první pohled ostrý roh.
+
+05:25.393 --> 05:27.573
+Když si to dostatečně
+hodně přiblížíme,
+
+05:27.573 --> 05:34.652
+tak uvidíme, že náš ostrý
+roh se začíná zakřivovat.
+
+05:34.652 --> 05:39.374
+Když si to dostatečně přiblížíme,
+tak bude graf vypadat jako přímka.
+
+05:39.374 --> 05:41.933
+Těžko se tomu věří,
+když se díváme z dálky.
+
+05:41.933 --> 05:46.443
+Přibližuji si teď ten bod,
+který z dálky vypadal jako ostrý roh.
+
+05:46.443 --> 05:48.328
+Když si však tento
+bod přiblížíme,
+
+05:48.328 --> 05:51.939
+tak vidíme, že funkce se
+okolo něj zdá být lineární.
+
+05:51.939 --> 05:54.016
+Graf vypadá jako
+nějaká nesvislá přímka.
+
+05:54.016 --> 05:56.650
+Toto platí pro
+každý bod na křivce,
+
+05:56.650 --> 05:58.798
+takže funkce je
+všude diferencovatelná.
+
+05:58.798 --> 06:01.908
+Hlavní myšlenkou tedy je, že
+občas si graf musíte hodně přiblížit,
+
+06:01.908 --> 06:06.766
+k čemuž se pomůcky jako Desmos,
+který teď používám, velmi hodí.
+
+06:06.766 --> 06:09.369
+Nejde o žádný
+formální důkaz,
+
+06:09.369 --> 06:11.344
+ale chci, aby vám
+bylo intuitivně jasné,
+
+06:11.344 --> 06:14.141
+že když si graf funkce
+dostatečně přiblížíme a uvidíme,
+
+06:14.141 --> 06:17.122
+že vypadá víc
+a víc jako přímka,
+
+06:17.122 --> 06:19.978
+tak je to dobrý ukazatel toho,
+že funkce je diferencovatelná.
+
+06:19.978 --> 06:22.689
+Pokud si graf budete přibližovat
+a pořád uvidíte ostrý roh
+
+06:22.689 --> 06:26.062
+nebo pokud to po přiblížení vypadá,
+že tečna ke grafu je svislá,
+
+06:26.062 --> 06:29.394
+tak byste o diferencovatelnosti
+měli mít jisté pochyby.

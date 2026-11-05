@@ -1,0 +1,461 @@
+WEBVTT
+
+00:00.850 --> 00:05.810
+Každý v království je ohromen,
+jak umíte pomáhat s organizací oslav.
+
+00:05.830 --> 00:11.130
+Až tady na toho gentlemana.
+Jmenuje se Arbegla.
+
+00:11.150 --> 00:15.870
+A je královým hlavním poradcem
+a vede organizaci oslav.
+
+00:15.890 --> 00:20.730
+A připadá si ohrožený tím,
+jak řešíte neřešitelné problémy.
+
+00:20.752 --> 00:22.210
+Aspoň tak to vidí on.
+
+00:22.210 --> 00:26.100
+Neustále totiž objednává moc
+nebo málo jídla, třeba dortíků.
+
+00:26.110 --> 00:30.130
+Takže praví: "Králi,
+vyřešit dortíky bylo jednoduché."
+
+00:30.150 --> 00:35.320
+"Zeptejte se, jak řešit chipsy,
+protože ty nikdy neodhadneme."
+
+00:35.330 --> 00:39.510
+Král na to: "Arbeglo, to je výborný nápad.
+Potřebujeme ty chipsy vyřešit."
+
+00:39.520 --> 00:40.990
+A tak za vámi přijde a ptá se:
+
+00:41.000 --> 00:44.470
+"Jak stanovíme, kolik chipsů
+na jednotlivce máme objednat?"
+
+00:44.500 --> 00:49.660
+"Musíme určit, kolik sní průměrně
+každý muž a každá žena."
+
+00:49.670 --> 00:51.606
+"Ale co děti?" ptáte se.
+
+00:51.606 --> 00:55.530
+Král na to:
+"V našem králoství děti chipsy nesmí."
+
+00:55.560 --> 01:01.060
+A vy: "V pořádku. Tak mi povězte,
+co se stalo na předchozích oslavách?"
+
+01:01.070 --> 01:06.410
+A král: "Na posledním oslavě,
+vlastně dvou, bylo 500 dospělých. "
+
+01:06.420 --> 01:10.555
+Na poslední 200 z nich byli muži.
+
+01:10.555 --> 01:15.035
+A 300 z nich ženy.
+
+01:15.070 --> 01:21.840
+A dohromady snědli 1200 balení chipsů.
+
+01:21.860 --> 01:26.110
+- A co ta předchozí oslava?
+- To přišlo mnohem víc žen.
+
+01:26.140 --> 01:33.670
+Jen 100 mužů a 400 žen.
+
+01:33.700 --> 01:41.720
+A tehdy se snědlo méně balení,
+jen 1100 balení chipsů.
+
+01:42.130 --> 01:46.940
+"Dobrá, králi a Arbeglo,
+přijde mi to jasné."
+
+01:46.990 --> 01:50.270
+Stanovme si pár proměnných,
+které budou reprezentovat neznámé.
+
+01:50.290 --> 02:06.869
+Takže řekněme, že m je počet balení
+snědených každým mužem.
+
+02:06.879 --> 02:10.900
+V průměru, nebo tak, že každý muž
+v králoství sní naprosto stejně.
+
+02:10.920 --> 02:14.390
+Nebo je to průměr toho,
+kolik každý muž sní.
+
+02:14.410 --> 02:25.590
+A nechť w je počet balení
+snědených každou ženou.
+
+02:25.620 --> 02:30.050
+A s touto definicí neznámých
+se zamysleme,
+
+02:30.060 --> 02:36.760
+jak můžeme zapsat první část toho,
+co známe, to napsané zeleně.
+
+02:36.940 --> 02:40.610
+Zamysleme se nad celkovým počtem balení,
+které snědli muži.
+
+02:40.620 --> 02:45.270
+Přišlo 200 mužů.
+Trochu to posunu.
+
+02:45.310 --> 02:50.730
+Přišlo 200 mužů
+a každý muž snědl m balení.
+
+02:50.750 --> 02:55.125
+Na první oslavě muži celkem
+snědli 200 krát m balení.
+
+02:55.150 --> 02:58.610
+Pokud by m bylo 10 balení na muže,
+na všechny to dává 2000.
+
+02:58.640 --> 03:02.080
+Pokud by m bylo 5 balení na muže,
+na všechny to dává 5000.
+
+03:02.110 --> 03:06.480
+Nevíme, kolik m je, ale celkem
+muži snědli 200 krát m.
+
+03:06.500 --> 03:08.540
+Stejně je to s ženami.
+
+03:08.560 --> 03:14.530
+Celkem snědly 300 krát počet balení
+snědených každou ženou.
+
+03:14.570 --> 03:22.160
+Když sečtete celkový počet sněděný
+muži a ženani, dostanete 1200 balení.
+
+03:22.200 --> 03:28.130
+Takhle je to zapsané algebraicky
+s takto definovanými neznámými.
+
+03:28.150 --> 03:33.002
+Pojďme zapsat to stejné
+pro druhou část, co nám poskytli.
+
+03:33.020 --> 03:36.116
+Jak ji můžeme zapsat algebraicky?
+
+03:37.850 --> 03:42.020
+Analogicky, kolik dohromady
+snědli na druhé oslavě muži?
+
+03:42.070 --> 03:45.830
+Šlo o 100 mužů krát m balení na muže.
+
+03:45.850 --> 03:48.690
+Za předpokladu, že m je shodné
+na obou oslavách,
+
+03:48.710 --> 03:52.290
+že muži v průměru
+snědli stejný počet balení.
+
+03:52.340 --> 03:54.800
+A kolik snědly ženy na druhé oslavě?
+
+03:54.820 --> 04:00.120
+Přišlo 400 žen a v průměru
+snědly w balení na ženu.
+
+04:00.140 --> 04:03.580
+Což je celkem 400 krát w
+balení snědených ženami.
+
+04:03.620 --> 04:07.140
+Když oba výrazy sečtete,
+dostanete celkový počet za dospělé.
+
+04:07.150 --> 04:11.650
+Což je 1100 balení.
+
+04:11.680 --> 04:13.500
+Zápisy vypadají podobně.
+
+04:13.530 --> 04:17.170
+Dostali jste soustavu rovnic
+o dvou neznámých.
+
+04:17.190 --> 04:21.410
+A tak se ji pokusíte vyřešit.
+
+04:21.430 --> 04:23.670
+Až se tak stane,
+všimnete si něčeho zajímavého.
+
+04:23.680 --> 04:25.070
+Minule to pěkně vycházelo.
+
+04:25.100 --> 04:30.090
+Měli jsme 500 dospělých
+a tady dalších 500.
+
+04:30.110 --> 04:33.700
+Takže bylo hodně jednoduché
+vyrušit jednu z neznámých.
+
+04:33.720 --> 04:36.040
+Tady je to obtížnější.
+
+04:36.070 --> 04:41.230
+Násobky m jsou tady různé.
+Koeficient w je tu taky různý.
+
+04:41.290 --> 04:44.200
+Můžeme ale upravit jednu z rovnic tak,
+
+04:44.210 --> 04:48.440
+aby bylo jednoduší ji vyrušit
+s druhou rovnicí.
+
+04:48.470 --> 04:58.740
+Co kdybych vzal modrou rovnici
+a vynásobil jí -2?
+
+04:58.760 --> 05:02.140
+Můžete si říkat,
+proč bychom ji násobili -2?
+
+05:02.160 --> 05:07.770
+Když ji vynásobíme -2,
+ze 100m se stane -200m.
+
+05:07.790 --> 05:12.600
+A když tu budeme mít -200m,
+tak se vyruší s kladnými 200m,
+
+05:12.630 --> 05:13.980
+když rovnice sečteme.
+
+05:14.010 --> 05:19.900
+Co se tedy stane?
+Vynásobme modrou rovnici -2.
+
+05:19.920 --> 05:21.970
+Vynásobíme ji -2.
+
+05:22.000 --> 05:24.500
+Trošku to posunu.
+A co se stane?
+
+05:24.536 --> 05:29.370
+Nezapomeňte, když násobíme rovnici,
+nemůžeme upravit jen jednu stranu rovnice.
+
+05:29.380 --> 05:33.049
+Musíme vynásobit celou rovnici,
+aby zůstala zachována rovnost.
+
+05:33.060 --> 05:38.040
+Takže -2 krát 100m je -200m.
+
+05:38.060 --> 05:44.760
+-2 krát kladných 400w
+se změní na -800w.
+
+05:44.810 --> 05:49.340
+A když jsme vynásobili levou stranu,
+musíme rovněž vynásobit pravou.
+
+05:49.360 --> 05:55.100
+-2 krát 1100 je -2200.
+
+05:55.120 --> 05:58.455
+Ať je jasno, takhle rovnice,
+kterou jsem teď zapsal,
+
+05:58.470 --> 06:00.650
+vyjadřuje v podstatě to stejné.
+
+06:00.680 --> 06:04.390
+Původní rovnici jsme upravili,
+na obou stranách vynásobili -2.
+
+06:04.410 --> 06:06.672
+Pořád ale vyjadřuje to stejné.
+
+06:06.672 --> 06:13.160
+Můžeme si sem znovu
+napsat první zelenou rovnici.
+
+06:13.200 --> 06:20.955
+200m plus 300w
+se rovná 1200.
+
+06:20.955 --> 06:25.200
+Násobil jsem -2,
+abych teď mohl sečíst obě rovnice
+
+06:25.204 --> 06:27.730
+a zbavil se tak neznámé m.
+
+06:27.810 --> 06:31.882
+Pojďme to udělat.
+Sečtěme levé a pravé strany.
+
+06:31.890 --> 06:35.358
+Můžete to brát tak,
+že začínáme modrou rovnicí.
+
+06:35.360 --> 06:40.760
+Přičítáme hodnoty: levou stranu
+žluté rovnice k levé straně modré.
+
+06:40.770 --> 06:44.302
+A to samé s 1200,
+ty přičítáme k pravé.
+
+06:44.340 --> 06:46.270
+Víme, že se sobě rovnají.
+
+06:46.270 --> 06:50.130
+Takže je můžeme přičíst
+k levé a pravé straně.
+
+06:50.160 --> 06:51.572
+Pojďme se podívat,
+co se stane.
+
+06:51.592 --> 06:56.320
+Tu rovnici jsme vynásobili -2,
+aby se tyhle části vyrušily.
+
+06:56.336 --> 06:59.870
+Když je sečtete,
+dostanete 0m, nebo jen 0.
+
+06:59.870 --> 07:06.680
+Dostanete -800w plus 300w.
+Což je -500w.
+
+07:06.881 --> 07:11.120
+A na pravé straně
+-2200 plus 1200.
+
+07:11.140 --> 07:14.874
+Což je -1000.
+
+07:14.894 --> 07:17.620
+A teď už je to jasné.
+Jedna rovnice, jedna neznámá.
+
+07:17.620 --> 07:24.740
+Jasná rovnice.
+Obě strany vydělíme koeficientem před w.
+
+07:24.760 --> 07:29.480
+Vydělením levé strany -500
+a vydělením -500 napravo.
+
+07:29.500 --> 07:34.740
+A vyjde nám,
+že w se rovná 2.
+
+07:34.750 --> 07:39.250
+Ženy průměrně během oslavy
+snědly 2 balení chipsů.
+
+07:39.270 --> 07:42.050
+Předpokládáme, že se to
+mezi oslavami nemění.
+
+07:42.080 --> 07:48.750
+Zamysleme se, jak teď zjistíme,
+kolik balení snědl průměrně každý muž?
+
+07:48.810 --> 07:52.396
+Uděláme to tak, že se vrátíme
+k jedné z těchto rovnic.
+
+07:52.400 --> 07:55.830
+V předchozích videích
+jsem použil první rovnici.
+
+07:55.850 --> 07:58.180
+Ukážu vám,
+že to jde i s druhou.
+
+07:58.200 --> 08:01.710
+S kteroukoliv z nich.
+Pojďme dosadit do druhé rovnice.
+
+08:01.765 --> 08:05.840
+Kterékoliv její varianty.
+Já dosadím do té původní.
+
+08:05.850 --> 08:12.390
+Takže 100 krát m,
+m se snažíme zjistit, plus 400 krát...
+
+08:12.400 --> 08:21.620
+Už víme, že w se rovná 2.
+400 krát 2, to celé se rovná 1100.
+
+08:21.660 --> 08:28.920
+Dostáváme 100m
+plus 800 se rovná 1100.
+
+08:28.950 --> 08:36.370
+Abychom vyjádřili m,
+odečteme 800 na obou stranách.
+
+08:36.650 --> 08:43.870
+A zůstane nám
+100m se rovná 300.
+
+08:43.890 --> 08:49.660
+Obě strany vydělíme 100.
+
+08:49.690 --> 08:54.540
+A dostaneme m, což je
+průměrný počet balení chipsů,
+
+08:54.570 --> 08:57.910
+které každý muž sní.
+A to 3.
+
+08:57.940 --> 09:02.410
+Čímž jsme vyřešili Arbeglův problém,
+který považoval za obtížný.
+
+09:02.430 --> 09:05.980
+Pomocí magické a mystické síly algebry.
+
+09:06.010 --> 09:09.750
+A můžete říct králi
+řešícímu přípravy,
+
+09:09.780 --> 09:14.930
+že každý muž sní průměrně
+3 balení chipsů.
+
+09:14.940 --> 09:19.660
+A každá žena sní průměrně
+2 balení chipsů.

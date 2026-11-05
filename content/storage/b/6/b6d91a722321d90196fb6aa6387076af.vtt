@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.758 --> 00:05.636
+Narysowałem tu dowolną funkcję i tym czym chcemy się zająć jest przybliżenie tej przypadkowej
+
+00:05.636 --> 00:10.625
+funkcji, której nie znamy. Używając wielomianu będziemy dodawać wyrażenia do tego wielomianu.
+
+00:10.733 --> 00:15.225
+Jednak w tym celu musimy założyć, że możemy można obliczyć wartość funkcji w zerze, że przyjmuję ona jakąś
+
+00:15.302 --> 00:21.944
+wartość i że możemy różniczkować tę funkcje i wyliczyć pierwszą, drugą
+
+00:22.036 --> 00:28.538
+trzecią pochodną w zerze itd. itd. Więc zakładamy, że znamy wartość f(0)
+
+00:28.600 --> 00:34.867
+Zakładamy, że wiemy jaka jest f'(0), zakładamy, że znamy drugą pochodną w zerze
+
+00:34.882 --> 00:42.800
+zakładamy, że znamy trzecią pochodną w zerze. Więc może zapiszę ją jako f potrójne prim od zera
+
+00:42.800 --> 00:49.667
+itd. itd. Zastanówmy się więc jak możemy przybliżyć funkcję za pomocą wielomianu o coraz większej
+
+00:49.667 --> 00:55.277
+liczbie wyrazów. Jeśli moglibyśmy mieć wielomian z tylko jednym składnikiem i byłby to stały składnik. Więc to
+
+00:55.338 --> 01:02.492
+byłoby wielomian stopnia zerowego. I jeśli mielibyśmy stały wyraz to tym co przynajmniej możemy zrobić z tym stałym
+
+01:02.631 --> 01:10.067
+wielomianem (tak naprawdę jest to funkcja stała) to zrównać ją z funkcją w punkcie f(0). Więc najpierw chcemy tylko
+
+01:10.067 --> 01:19.964
+p(0), gdzie p jest wielomianem, który chcemy skonstruować. Chcemy, żeby p(0) była równa f(0).
+
+01:20.318 --> 01:30.375
+Więc jeśli chcemy to zrobić używając wielomianu p z tylko jednym składnikiem, możemy po prostu określić p(x) = f(0)
+
+01:30.421 --> 01:37.133
+Jak narysowałbym go wykresie będzie wyglądał tak; będzie on po prostu linię poziomą w f(0).
+
+01:37.133 --> 01:42.729
+I możesz powiedzieć Sal, to jest okropne przybliżenie, jest ono poprawne jedynie w tym punkcie
+
+01:42.805 --> 01:46.067
+wygląda też, że mamy szczęście jeszcze co do paru punktów, ale poza tym jest naprawdę kiepsko wszędzie indziej
+
+01:46.067 --> 01:49.467
+i ja wtedy zaproponuje Ci, abyś znalazł(a) jakieś lepsze przybliżenie używając poziomej linii.
+
+01:49.467 --> 01:55.733
+Przynajmniej mamy poprawność w f(0) i to jest po prostu najlepsze co możemy zrobić ze stałą.
+
+01:55.733 --> 02:02.600
+I mimo, że (chce tylko przypomnieć) może nie wyglądać to na stałą, ale zakładamy, że z danej funkcji
+
+02:02.600 --> 02:06.667
+możemy obliczyć jej wartość w zerze i to da nam liczbę. Więc niezależnie tej liczby
+
+02:06.667 --> 02:10.729
+możemy wstawić ją tutaj. Tak, że p(x) jest równy liczbie. To po prostu będzie pozioma
+
+02:10.775 --> 02:19.441
+linia dokładnie tutaj na f(0). Ale to oczywiście nie jest takie super więc może dodajmy trochę wymogów
+
+02:19.487 --> 02:31.400
+Poza faktem, że chcemy, aby p(0) była równa f(0) powiedzmy, że chcemy również równość p'(0) = f'(0)
+
+02:31.477 --> 02:39.436
+Napiszę to innym kolorem. Więc chcemy także, w nowym kolorze, chcemy także, to nie nowy kolor.
+
+02:39.498 --> 02:46.405
+Chcemy również p', chcemy pierwszą pochodną naszego wielomianu podczas podczas wyliczania jej w zerze, aby była
+
+02:46.467 --> 02:52.333
+taka sama jak pierwsza pochodna funkcji w zerze. I nie chcemy stracić tego
+
+02:57.354 --> 03:02.375
+tutaj. To co zrobić, jeśli ustalimy p(x) jako równe f(0), więc bierzemy nasze stare p(x), ale teraz
+
+03:02.513 --> 03:11.821
+dodamy nawy składnik, tak aby pochodne się zgadzały, dodać f'(0) razy x. Pomyślmy o tym
+
+03:11.959 --> 03:19.133
+trochę, zatem jeśli używamy tego jako naszego nowego wielomianu-co się dzieje? p...co to jest p(0)? p(0) będzie
+
+03:19.133 --> 03:30.031
+równe, będziemy mieć f(0) dodać niezależnie od tego czym ta pochodna jest razy zero. Jeśli umieścisz zero zamiast
+
+03:30.169 --> 03:35.964
+x to ten wyraz stanie się, po prostu, zerem. Tak więc zostaniesz z p(0) = f(0). To spoko;)
+
+03:36.056 --> 03:40.133
+Jest tak dobrze, jak przy naszej pierwszej wersji. Teraz to, co jest pochodną tutaj?
+
+03:40.133 --> 03:48.467
+Pochodną jest p'(x) = (weźmy pochodną tego, to jest tylko stała więc
+
+03:48.467 --> 03:53.733
+pochodna wynosi zero i pochodną współczynnika razy x będzie współczynnik)
+
+03:53.733 --> 04:03.585
+dlatego to będzie f'(0). Jeśli wyznaczymy ją w zerze to p'(0) czy pochodna
+
+04:03.600 --> 04:07.682
+z naszego wielomianu wyznaczona w zerze. Wiem, że to trochę dziwne ponieważ nie używamy
+
+04:07.941 --> 04:11.995
+wiesz, bierzemy p'(x) i f'(0), ale po prostu zapamiętaj czym tu jest zmienna
+
+04:12.118 --> 04:18.653
+a czym stała, wtedy nabierze to sensu. Więc to oczywiście będzie f'(0). Jej pochodna
+
+04:18.699 --> 04:23.294
+jest wartością stałą. To tutaj jest stałą wartością. Zakładamy, że możemy różniczkować
+
+04:23.325 --> 04:29.496
+naszą funkcje i wyznaczyć jej wartość w 0, aby nadać jej stałą wartość. A więc jeśli p'(x) jest równe
+
+04:29.496 --> 04:35.028
+tej stałej wartości to, oczywiście, p'(x) wyznaczone w 0 będzie tą wartością.
+
+04:35.028 --> 04:41.927
+Ale to co jest tutaj fajne to to, że ten wielomian ma wyraz stopnia zerowego
+
+04:42.004 --> 04:49.365
+i wyraz stopnia pierwszego, a także jest teraz równy naszej funkcji w punkcie x = 0
+
+04:49.365 --> 04:56.727
+i posiada także taką samą pierwszą pochodna! Posiada także takie same naczylenie w x = 0.
+
+04:56.865 --> 05:02.467
+To będzie tak wyglądać, ten nowy wielomian z dwoma wyrazami staje się trochę lepszy
+
+05:02.467 --> 05:05.161
+Będzie on wyglądał jakoś jak to. (Będzie
+
+05:05.284 --> 05:14.049
+zdecydowanie mieć), będziesz wyglądać jak styczna w f(0), przy x = 0. Tak więc radzimy sobie lepiej,
+
+05:14.049 --> 05:20.664
+ale nadal nie jest to super dobre przybliżenie. W pewnym sensie zmierza ono w tym samym kierunku
+
+05:20.664 --> 05:24.631
+co nasza funkcja w okolicy 0, ale być może osiągniemy coś lepszego upewniając się, że funkcję mają
+
+05:24.631 --> 05:29.317
+takie same drugie pochodne. I spróbujmy mieć te same drugie pochodne
+
+05:29.317 --> 05:36.364
+nie tracąc takiej samej pierwszej pochodnej oraz tej samej wartości w zerze. Spróbujmy zrobić coś interesującego.
+
+05:36.626 --> 05:43.889
+Zdefiniujmy p(x), niech będzie jasne, to było nasze pierwsze podejście
+
+05:44.012 --> 05:49.761
+To jest nasze drugie podejście, tutaj, a ja zaraz rozpocznę naszą trzecią próbę.
+
+05:49.853 --> 05:54.081
+Więc, w naszym trzecim podejściu, moim celem jest, aby wartość mojego wielomianu była taka sama jak
+
+05:54.127 --> 05:57.233
+wartość funkcji na 0, żeby miały tę samą pochodną w zerze,
+
+05:57.310 --> 06:02.628
+i aby miały taką samą drugą pochodną w zerze. Zdefiniujmy wielomian
+
+06:02.721 --> 06:08.084
+jako równy: na początku spełnię pierwsze dwa warunki tych chłopaków tutaj
+
+06:08.084 --> 06:15.833
+Tak więc to będzie f(0) dodać f'(0) razy x
+
+06:15.833 --> 06:18.848
+to dokładnie to co zrobiliśmy tutaj, ale teraz pozwól mi dodać kolejny wyraz.
+
+06:18.848 --> 06:25.187
+(Narysuję kolejny składnik w innym kolorze) Dodać, dam tu jedną drugą
+
+06:25.187 --> 06:27.756
+i miejmy nadzieję, że zaraz nabierze sensu czemu chce to zrobić
+
+06:27.787 --> 06:35.938
+Dodać 1/2 razy f" - druga pochodna naszej funkcji wyliczona w zerze x^2
+
+06:36.046 --> 06:41.137
+A kiedy wyliczymy pochodną z tego, myślę, że okaże się czemu tutaj jest 1/2.
+
+06:41.261 --> 06:49.250
+Ponieważ teraz obliczmy to i pochodną tego w 0. Więc, jeśli obliczymy p(0)
+
+06:49.542 --> 06:53.638
+czemu będzie równe p(0)? Będziesz miał ten stały składnik
+
+06:53.638 --> 06:57.166
+jeśli wyliczysz go w 0, ten x oraz x^2 - oba będą równe zero
+
+06:57.166 --> 07:01.532
+Te składniki znikną, więc p(0) jest wciąż równe f(0)
+
+07:01.532 --> 07:08.700
+Jeśli zróżniczkujesz p(x), pozwól mi wziąć pochodną tego tutaj. Zrobię to na żółto.
+
+07:08.700 --> 07:13.261
+Tak więc pochodna mojego nowego p(x) będzie się równać; ten składnik zniknie,
+
+07:13.261 --> 07:18.748
+jest on stały, będzie więc równość z f'(0) - to współczynnik tego -
+
+07:18.748 --> 07:24.198
+dodać, według zasad różniczkowania , 1/2 razy 2
+
+07:24.198 --> 07:33.283
+to jest po prostu jeden dodać f''(0) razy x. Tę dwójkę pomnóż przez 1/2 i obniż tę dwójkę tutaj
+
+07:33.283 --> 07:37.650
+myślę, że już nabrało to dla Ciebie sensu czemu daliśmy tu 1/2
+
+07:37.650 --> 07:44.433
+powoduję to, że nie kończymy z '2' tutaj z przodu.
+
+07:44.433 --> 07:50.588
+Teraz, co to jest p'(0)? p'(0) to co?
+
+07:50.588 --> 07:55.847
+Dobrze, ten składnik tutaj będzie zerem, zostajemy z tą tutaj stałą wartością
+
+07:55.847 --> 08:02.932
+Tak więc będzie to f'(0). Jak dotąd nasza trzecia generacja wielomianów zachowywała wszystkie właściwości
+
+08:02.932 --> 08:06.437
+dwóch pierwszych. I zobaczmy jak się zachowuję trzecia pochodna
+
+08:06.945 --> 08:13.429
+zobaczmy - powinienem powiedzieć - że druga pochodna p"(x) jest równa
+
+08:13.429 --> 08:17.160
+to jest stałą, więc jego pochodnych wynosi 0 w skutek tego bierzemy sam współczynnik
+
+08:17.160 --> 08:24.028
+drugiego wyrazu równy f"(0). Czym właściwie jest druga pochodna p"(0)
+
+08:24.228 --> 08:29.978
+Po prostu będzie to ta stała wartość f''(0).
+
+08:29.978 --> 08:38.345
+Zauważ, że dodając te składniki, nie tylko wartość wielomianu jest taka sama jak naszej
+
+08:38.345 --> 08:43.174
+funkcja w 0, ale również jego pochodne w zerze są takie same jak naszej funkcji w zerze.
+
+08:43.174 --> 08:48.026
+Jego druga pochodna 0 jest taka sama jak druga pochodna funkcji w zerze - więc stajemy się coraz lepsi :)
+
+08:48.026 --> 08:54.508
+i teraz możesz zgadnąć, że jest pewien wzorzec tutaj, każdy składnik który dodamy pozwoli nam
+
+08:54.508 --> 09:02.493
+sprawić, aby n-ta pochodna naszego przybliżenia była taka sama
+
+09:02.493 --> 09:07.378
+jak n-ta pochodna naszej funkcji w 0. Z tej przyczyny jeśli chcielibyśmy to dalej robić, jeśli mielibyśmy dużo czasu
+
+09:07.440 --> 09:16.519
+i chcielibyśmy po prostu dodawać wyrazy do naszego wielomianu - moglibyśmy - pozwól mi to zrobić nowym kolorem(wcześniej używanym)
+
+09:16.519 --> 09:24.587
+moglibyśmy uczynić nasze przybliżenie wielomianem takim, że naszym pierwszym składnikiem byłby f(0)
+
+09:24.587 --> 09:40.804
+następnym byłby f'(x) razy x. Później byłby f"(0) razy 1/2 razy x^2 - po prostu przepisałem to w troszkę innym porządku.
+
+09:40.804 --> 09:47.086
+Dalej następny składnik (jeśli trzecie pochodne mają być takie same w 0) byłby to
+
+09:47.224 --> 09:57.087
+f'''(0), trzecią pochodna funkcji w 0, razy 1/2 razy 1/3 razy x^3.
+
+10:00.672 --> 10:04.243
+Moglibyśmy tak w nieskończoność, może zaczniesz dostrzegać wzorzec
+
+10:04.351 --> 10:09.773
+dodać (jeśli czwarte pochodne mają być takie same w 0)
+
+10:09.820 --> 10:17.468
+czwarta pochodna naszej funkcji (o tutaj mógłbym napisać 4 ) w zerze razy
+
+10:17.468 --> 10:30.373
+1 przez - zmienię kolejność - 4 razy 3 razy 2 razy x^4 - możesz sprawdzić to samemu
+
+10:30.373 --> 10:34.845
+Jeśli mieliśmy jedynie to i musiałbyś policzyć czwartą pochodną w 0
+
+10:34.845 --> 10:39.782
+byłoby ona taka sama jak czwarta pochodna funkcji(f) w 0.
+
+10:39.782 --> 10:45.055
+I ogólnie, można tak ciągle dodawać wyrazy, a n-ta pochodna będzie wyglądać tak:
+
+10:45.055 --> 10:56.000
+n-ta pochodna funkcji w 0 razy x^n podzielić przez n silnia.
+
+10:56.031 --> 11:05.193
+Zauważ, to jest takie samo jak cztery silnia czyli 4!= 4&lt;i>3&lt;/i>2*1.
+
+11:06.163 --> 11:17.621
+to tutaj to 3!=3&lt;i>2&lt;/i>1, a to tu 2!=2*1
+
+11:17.621 --> 11:23.511
+To jest to samo, ale tego nie napisaliśmy, ale można było to podzielić przez 1!, co jest tym samym co 1
+
+11:23.511 --> 11:29.110
+i mógłbyś podzielić to przez 0! co również jest tym samym co 1 - nie będziemy rozwodzić się tutaj czemu tak jest.
+
+11:29.110 --> 11:35.553
+Ten ogólny szereg, który tutaj stworzyłem jest nazywany szeregiem Maclaurin`a
+
+11:37.753 --> 11:43.335
+Dzięki niemu można przybliżać wielomianem, później zobaczymy jakie potężne efekty on daję.
+
+11:43.335 --> 11:47.788
+Ale zobaczmy co się stanie (ciężko mi będzie narysować wykres odpowiednio)
+
+11:47.788 --> 11:53.366
+gdy tylko funkcja jest równa - otrzymujemy poziomą linie. Kiedy powodujemy, że
+
+11:53.366 --> 12:00.032
+funkcja w 0 jest równa i pochodne także się zgadzają w zerze, wtedy dostajemy
+
+12:00.032 --> 12:04.619
+coś co w przybliżeniu wygląda jak linia styczna. Kiedy dodamy kolejny stopień to można przybliżać
+
+12:04.619 --> 12:11.145
+wielomianem w ten sposób. Po dodaniu kolejnego stopnia może to wyglądać jakoś tak:
+
+12:11.191 --> 12:18.300
+I tak dodając kolejne i kolejne wyrazy zbliżamy się coraz bliżej, szczególnie
+
+12:18.300 --> 12:25.377
+przy punkcie x = 0, ale w teorii, jeśli dodasz nieskończenie wiele wyrazów,
+
+12:25.454 --> 12:30.954
+Jeszcze tego Ci nie dowiodłem, dlatego mówię 'teoretycznie', ale jeśli dodasz nieskończoną
+
+12:30.954 --> 12:34.979
+liczbę wyrazów to wszystkie pochodne powinny być takie same, a wtedy
+
+12:34.979 --> 12:38.935
+funkcje powinny być do siebie bardzo podobne
+
+12:38.935 --> 12:44.208
+W następnym filmiku, przetestujemy tę metodę na konkretnej funkcji, tak aby lepiej to zrozumieć
+
+12:44.208 --> 12:49.667
+Pamiętaj, że szereg Maclaurina jest tylko specjalnym przypadkiem szeregu Taylora jak rozwiniemy go
+
+12:49.683 --> 12:53.969
+wokół zera. Kiedy stosujesz szereg Taylora, możesz wybrać jakikolwiek punkt jako centralny
+
+12:53.969 --> 3:59:59.999
+ale w tym momencie skupmy się na szeregu Maclaurina.

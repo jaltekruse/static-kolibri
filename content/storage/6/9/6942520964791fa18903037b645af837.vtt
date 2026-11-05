@@ -1,0 +1,700 @@
+WEBVTT
+
+00:00.351 --> 00:02.253
+Mình có đồ thị của
+
+00:02.253 --> 00:06.302
+r bằng với sin của 2 theta trong hệ tọa độ cực
+
+00:06.302 --> 00:08.546
+và nếu như bạn chưa quen với hệ tọa độ cực
+
+00:08.546 --> 00:10.038
+hoặc bạn muốn ôn tập lại
+
+00:10.038 --> 00:12.132
+Bạn có thể xem lại các video về hệ tọa độ cực
+
+00:12.132 --> 00:14.906
+trên Khan Academy hoặc xem trong mục dự bị tích phân
+
+00:14.906 --> 00:16.624
+nhưng mình sẽ nhắc lại nó một chút ở đây
+
+00:16.624 --> 00:18.830
+Tại sao đồ thị hàm số này
+
+00:18.830 --> 00:21.913
+lại có hình dạng như thế này
+
+00:22.987 --> 00:24.980
+Cho bất kì điểm nào ở đây
+
+00:24.980 --> 00:26.964
+mình đều có thể tìm các điểm theo
+
+00:26.964 --> 00:28.636
+tung độ và hoành độ
+
+00:28.636 --> 00:32.083
+nhưng mình cũng có thể xác định nó dựa trên góc
+
+00:32.083 --> 00:33.489
+và bán kính. Ví dụ như
+
+00:33.489 --> 00:35.495
+cái này sẽ có hoành độ và
+
+00:35.495 --> 00:36.602
+tung độ nào đó
+
+00:36.602 --> 00:38.531
+hoặc mình có thể vẽ một đường từ
+
+00:38.531 --> 00:42.130
+gốc đến điểm này ở đây
+
+00:42.130 --> 00:45.153
+và xác định nó với một góc theta
+
+00:45.153 --> 00:47.312
+và một R nào đó là khoảng cách
+
+00:47.312 --> 00:49.812
+từ gốc tới điểm
+
+00:50.846 --> 00:52.737
+Để làm quen hơn với đường
+
+00:52.737 --> 00:53.601
+cong này thì mình muốn biết
+
+00:53.601 --> 00:56.086
+vì sao nó có ý nghĩa đúng không?
+
+00:56.086 --> 00:59.424
+Vậy khi theta bằng 0, r bằng 0
+
+00:59.424 --> 01:00.958
+sin của 2 nhân 0 là 0
+
+01:00.958 --> 01:02.636
+vậy r của mình là tại gốc tọa độ
+
+01:02.636 --> 01:04.591
+và khi theta lớn dần lên,
+
+01:04.591 --> 01:06.439
+r cũng lớn dần lên
+
+01:06.439 --> 01:07.974
+và mình bắt đầu vẽ được
+
+01:07.974 --> 01:11.682
+đường cong này, nhìn giống giống một bông hoa
+
+01:11.682 --> 01:13.163
+vậy nó bắt đầu nhìn giống như thế này
+
+01:13.163 --> 01:15.111
+và mình cứ tiếp tục vẽ
+
+01:15.111 --> 01:19.874
+Chuyện gì xảy ra khi theta bằng với pi phần 4
+
+01:19.874 --> 01:22.921
+Khi theta bằng với pi phần 4 ngay đây
+
+01:22.921 --> 01:25.001
+sin của 2 nhân pi phần 4
+
+01:25.001 --> 01:26.217
+là sin của pi phần 2
+
+01:26.217 --> 01:27.734
+r bằng 1
+
+01:27.734 --> 01:30.049
+vậy mình đạt được r lớn nhất ở đây
+
+01:30.049 --> 01:31.205
+từ đây nếu theta tiếp tục tăng
+
+01:31.205 --> 01:34.441
+r sẽ nhỏ dần đi
+
+01:34.441 --> 01:37.023
+nhỏ dần nhỏ dần
+
+01:37.023 --> 01:39.173
+Giờ mình sẽ làm nó theo kiểu giải tích
+
+01:39.173 --> 01:40.846
+vậy câu hỏi đầu tiên là
+
+01:40.846 --> 01:43.935
+làm sao để mình biểu diễn sự biến đổi của r
+
+01:43.935 --> 01:45.375
+theo theta
+
+01:45.375 --> 01:47.433
+Bạn có thể dừng video lại và thử nghĩ xem sao
+
+01:47.433 --> 01:49.516
+r phẩy của theta là gì
+
+01:51.244 --> 01:52.867
+Nó không có gì quá mới hết
+
+01:52.867 --> 01:55.135
+Bạn có một biến là hàm số của một biến khác
+
+01:55.135 --> 01:57.135
+Bạn chỉ cần dùng quy tắc đạo hàm hàm hợp
+
+01:57.135 --> 01:58.444
+Lấy đạo hàm theo theta
+
+01:58.444 --> 01:59.638
+ngay đây
+
+01:59.638 --> 02:01.050
+vậy đạo hàm của sin của 2 theta
+
+02:01.050 --> 02:05.140
+theo 2 theta sẽ bằng với cos
+
+02:05.140 --> 02:06.754
+của 2 theta
+
+02:06.754 --> 02:08.057
+sau đó là nhân nó với,
+
+02:08.057 --> 02:09.472
+nhân nó với đạo hàm của 2 theta
+
+02:09.472 --> 02:11.237
+theo theta, chính là bằng 2
+
+02:11.237 --> 02:12.769
+nên mình chỉ cần viết là nhân 2 ở đây
+
+02:12.769 --> 02:14.872
+hoặc mình có thể đưa 2 ra trước
+
+02:14.872 --> 02:16.675
+được rồi, bây giờ mình sẽ thử xem
+
+02:16.675 --> 02:19.388
+mình có thể biểu diễn đường cong này
+
+02:19.388 --> 02:21.411
+theo x và y hay không
+
+02:21.411 --> 02:24.190
+rồi mình sẽ tính đến các đạo hàm của nó
+
+02:24.190 --> 02:28.178
+Một chút ôn tập kiến thức đã học trong dự bị tích phân,
+
+02:28.178 --> 02:30.407
+nếu bạn muốn chuyển tự hệ cực
+
+02:30.407 --> 02:32.811
+sang hệ chữ nhật
+
+02:32.811 --> 02:34.435
+bạn cần phải nhớ cách chuyển đổi
+
+02:34.435 --> 02:37.185
+là y bằng với r sin theta
+
+02:39.426 --> 02:42.843
+và x bằng với r cos theta
+
+02:44.726 --> 02:46.595
+Ôn tập một chút vậy thôi,
+
+02:46.595 --> 02:48.525
+tại sao cái này lại quan trọng?
+
+02:48.525 --> 02:52.559
+Mình thử lấy một góc r kết hợp
+
+02:52.559 --> 02:53.392
+ở ngay đây
+
+02:53.392 --> 02:57.457
+Cho là cái này là theta và đây là r của mình
+
+02:57.457 --> 02:59.874
+Chiều cao của phần này sẽ
+
+03:00.929 --> 03:02.497
+là y
+
+03:02.497 --> 03:04.237
+và chiều dài của phần này
+
+03:04.237 --> 03:06.206
+sẽ là x
+
+03:06.206 --> 03:07.568
+Từ các công thức lượng giác cơ bản
+
+03:07.568 --> 03:09.203
+thì mình đã biết về
+
+03:09.203 --> 03:11.540
+các công thức tính sin cos tan
+
+03:11.540 --> 03:14.849
+sin của theta là đối chia huyền
+
+03:14.849 --> 03:19.128
+sin theta sẽ bằng y trên cạnh huyền
+
+03:19.128 --> 03:21.628
+là r và cos của theta sẽ bằng với
+
+03:22.790 --> 03:25.790
+cạnh đối hay là x phần r
+
+03:26.848 --> 03:28.588
+Và bạn nhân hai vế
+
+03:28.588 --> 03:30.182
+của phương trình theo r này lại
+
+03:30.182 --> 03:32.860
+để có được cái này ngay đây
+
+03:32.860 --> 03:34.903
+Một lần nữa, nếu bạn chưa rõ thì đây
+
+03:34.903 --> 03:35.736
+là phần ôn tập
+
+03:35.736 --> 03:38.387
+của tọa độ cực đã học ở lớp dự bị giải tích
+
+03:38.387 --> 03:42.127
+Nhưng bây giờ mình có thể dùng nó để
+
+03:42.127 --> 03:43.520
+biểu diễn hoàn toàn theo theta
+
+03:43.520 --> 03:44.519
+Mình làm bằng cách nào
+
+03:44.519 --> 03:46.940
+Mình biết là r bằng với sin của 2 theta
+
+03:46.940 --> 03:48.777
+vậy bạn chỉ cần thay r bằng
+
+03:48.777 --> 03:50.346
+với sin của 2 theta
+
+03:50.346 --> 03:53.763
+vậy y sẽ bằng với sin của 2 theta
+
+03:55.644 --> 03:58.644
+sin của 2 theta nhân sin của theta
+
+04:00.347 --> 04:01.847
+nhân sin của theta
+
+04:03.676 --> 04:08.321
+và x sẽ bằng với sin của 2 theta
+
+04:08.321 --> 04:09.654
+sin của 2 theta
+
+04:11.469 --> 04:13.342
+nhân cos của theta
+
+04:13.342 --> 04:16.827
+nhân cos của theta, như thế này
+
+04:16.827 --> 04:18.887
+Giờ mình có thể dùng các biểu thức này
+
+04:18.887 --> 04:23.033
+để tìm độ biến đôi của y theo theta
+
+04:23.033 --> 04:24.930
+tìm một biểu diễn tổng quát cho nó
+
+04:24.930 --> 04:26.985
+Dừng video lại và làm thử xem sao nhé
+
+04:26.985 --> 04:28.425
+Được rồi, giờ mình cùng làm
+
+04:28.425 --> 04:29.258
+Cái này, một lần nữa
+
+04:29.258 --> 04:31.602
+mình vừa sử dụng đạo hàm ở đây
+
+04:31.602 --> 04:34.253
+vậy mình có thể viết y phẩy của theta
+
+04:34.253 --> 04:36.100
+đạo hàm của y theo theta
+
+04:36.100 --> 04:38.186
+mình sẽ dùng công thức đạo hàm tích ở đây
+
+04:38.186 --> 04:40.339
+đạo hàm của biểu thức thứ nhất này
+
+04:40.339 --> 04:42.589
+là 2 cos của 2 theta
+
+04:43.693 --> 04:44.917
+cos của 2 theta
+
+04:44.917 --> 04:45.818
+mình thấy cái này rồi
+
+04:45.818 --> 04:47.759
+Cái này có được từ quy tắc đạo hàm hàm hợp
+
+04:47.759 --> 04:49.964
+rồi nhân với biểu thức thứ hai
+
+04:49.964 --> 04:50.964
+sin của theta
+
+04:52.907 --> 04:56.740
+cộng với, cộng với biểu thức thứ nhất
+
+04:56.740 --> 04:58.181
+sin của 2 theta
+
+04:58.181 --> 04:59.514
+sin của 2 theta
+
+05:01.420 --> 05:03.503
+nhân với đạo hàm của biểu thức thứ hai
+
+05:03.503 --> 05:07.892
+đạo hàm của sin của theta là cos của theta
+
+05:07.892 --> 05:10.270
+Mình sẽ làm cái giống y như vậy cho x
+
+05:10.270 --> 05:11.687
+x phẩy của theta
+
+05:12.779 --> 05:14.621
+đạo hàm của biểu thức thứ nhất
+
+05:14.621 --> 05:18.588
+sẽ bằng với 2 nhân cos của 2 theta
+
+05:18.588 --> 05:21.487
+2 nhân cos của 2 theta
+
+05:21.487 --> 05:23.318
+nhân với biểu thức thứ hai
+
+05:23.318 --> 05:24.568
+cos của theta
+
+05:25.709 --> 05:27.515
+rồi biểu thức thứ nhất
+
+05:27.515 --> 05:28.932
+sin của 2 theta
+
+05:30.519 --> 05:32.421
+nhân với đạo hàm của biểu thức thứ hai
+
+05:32.421 --> 05:34.068
+chính là trừ của sin theta
+
+05:34.068 --> 05:35.818
+trừ sin theta
+
+05:37.288 --> 05:38.285
+mình có thể dùng cái này
+
+05:38.285 --> 05:40.157
+mình có thể xét nó trên các điểm
+
+05:40.157 --> 05:42.108
+Ví dụ như, nó sẽ là cái gì
+
+05:42.108 --> 05:45.108
+nếu theta bằng với pi phần 4
+
+05:46.120 --> 05:48.174
+Mình sẽ viết màu đen
+
+05:48.174 --> 05:50.497
+Vậy khi theta bằng pi phần 4
+
+05:50.497 --> 05:52.992
+Mình sẽ ở tại điểm này
+
+05:52.992 --> 05:55.140
+ngay đây
+
+05:55.140 --> 05:56.992
+Giờ mình thử xét nó nha
+
+05:56.992 --> 05:59.325
+Nếu mình nói y phẩy
+
+06:01.045 --> 06:04.295
+của pi phần 4 bằng với
+
+06:05.212 --> 06:09.081
+cái này bằng với 2 cos của
+
+06:09.081 --> 06:12.165
+pi phần 2, 2 nhân pi phần 4,
+
+06:12.165 --> 06:14.248
+nhân sin của pi phần 4
+
+06:17.343 --> 06:20.176
+cộng với sin của hai nhân pi phần 4
+
+06:22.119 --> 06:23.952
+là sin pi phần 2
+
+06:25.969 --> 06:28.849
+nhân với cos của pi phần 4
+
+06:28.849 --> 06:30.766
+cos của pi phần 4
+
+06:31.958 --> 06:33.871
+Cái này sẽ bằng với gì?
+
+06:33.871 --> 06:36.604
+Cos của pi phần 2 là 0
+
+06:36.604 --> 06:39.425
+vậy nếu nó là 0 thì toàn bộ cái này sẽ là 0
+
+06:39.425 --> 06:40.774
+còn cái này là sin pi phần 2
+
+06:40.774 --> 06:43.805
+chính là 1, cos pi phần 4
+
+06:43.805 --> 06:45.451
+là căn hai phần 2
+
+06:45.451 --> 06:47.972
+căn hai phần 2
+
+06:47.972 --> 06:51.988
+Vậy cái này sẽ bằng với căn hai phần 2
+
+06:51.988 --> 06:53.638
+để mình viết gọn nó lại
+
+06:53.638 --> 06:54.751
+qua bên đây
+
+06:54.751 --> 06:58.580
+Cái này bằng với căn hai phần 2
+
+06:58.580 --> 07:01.166
+Mình có thể làm tương tự với x
+
+07:01.166 --> 07:04.249
+X phẩy của pi phần 4
+
+07:06.410 --> 07:07.243
+Được rồi
+
+07:07.243 --> 07:09.212
+Mình sẽ có được 2 nhân cos 2
+
+07:09.212 --> 07:10.684
+nhân pi phần 4
+
+07:10.684 --> 07:13.214
+nó sẽ bằng với 2 nhân cos của pi phần 2
+
+07:13.214 --> 07:15.261
+Phần đầu tiên này sẽ giống y như vậy
+
+07:15.261 --> 07:17.420
+Vậy biểu thức đầu tiên bằng 0
+
+07:17.420 --> 07:19.054
+mình sẽ có trừ
+
+07:19.054 --> 07:21.229
+nguyên cái này sẽ bằng với 0
+
+07:21.229 --> 07:24.624
+vậy mình sẽ có trừ sin
+
+07:24.624 --> 07:27.652
+của pi phần 2 nhân pi phần 4
+
+07:27.652 --> 07:30.819
+là sin của pi phần, sin của pi phần 2
+
+07:32.200 --> 07:35.024
+rồi nhân với pi phần 4
+
+07:35.024 --> 07:36.691
+sin của pi phần 4
+
+07:38.981 --> 07:41.767
+Cái này sẽ bằng với 1
+
+07:41.767 --> 07:43.287
+vậy thì cái này bằng với
+
+07:43.287 --> 07:45.187
+căn hai phần 2 luôn
+
+07:45.187 --> 07:47.832
+Vậy cái này là trừ căn hai phần hai
+
+07:47.832 --> 07:49.765
+Tại sao mình lại có cái này
+
+07:49.765 --> 07:50.916
+Trước hết mình phải xét chuyện gì
+
+07:50.916 --> 07:52.323
+sẽ xảy ra nếu theta tăng dần lên
+
+07:52.323 --> 07:54.207
+Nếu theta tăng lên một ít
+
+07:54.207 --> 07:55.188
+từ pi phần 4
+
+07:55.188 --> 07:57.258
+tăng nó lên một chút xíu thôi
+
+07:57.258 --> 08:00.854
+thì tung độ sẽ tiếp tục tăng
+
+08:00.854 --> 08:03.164
+Nên hệ số góc của nó sẽ dương
+
+08:03.164 --> 08:04.979
+nhưng đối với hoành độ thì
+
+08:04.979 --> 08:06.823
+khi theta tăng lên một chút
+
+08:06.823 --> 08:08.213
+ví dụ theta đi từ đây tới đây
+
+08:08.213 --> 08:10.141
+Thì khi đó hoành độ bắt đầu giảm
+
+08:10.141 --> 08:11.423
+dần khi theta tăng dần
+
+08:11.423 --> 08:12.698
+đó là lý do tại sao mình có cái này
+
+08:12.698 --> 08:14.756
+Bạn sẽ có một tỉ lệ thay đổi là âm
+
+08:14.756 --> 08:16.082
+cho cái này
+
+08:16.082 --> 08:17.724
+Câu hỏi tiếp theo bạn có thể đang thắc mắc
+
+08:17.724 --> 08:19.306
+là nếu mình muốn tìm tỉ lệ thay đổi
+
+08:19.306 --> 08:20.627
+của y theo x thì sao
+
+08:20.627 --> 08:22.188
+vì mình muốn tìm hệ số góc
+
+08:22.188 --> 08:24.332
+của tiếp tuyến ngay ở đây
+
+08:24.332 --> 08:26.320
+và nhìn nó có vẻ giống như có hệ số góc là -1
+
+08:26.320 --> 08:28.862
+Nhưng làm sao để mình tính ra nó
+
+08:28.862 --> 08:31.293
+Một cách để nghĩ về nó là
+
+08:31.293 --> 08:33.333
+đạo hàm của y
+
+08:33.333 --> 08:36.166
+đạo hàm của y theo x
+
+08:37.149 --> 08:40.439
+sẽ bằng với đạo hàm của y
+
+08:40.439 --> 08:43.772
+theo theta trên đạo hàm của x
+
+08:43.772 --> 08:46.357
+theo theta
+
+08:46.357 --> 08:48.522
+Vậy ở giá trị này
+
+08:48.522 --> 08:51.605
+ở theta bằng với pi phần 4
+
+08:53.670 --> 08:56.463
+cái này sẽ bằng với căn hai
+
+08:56.463 --> 08:57.713
+phần 2
+
+08:58.754 --> 09:01.021
+trên trừ căn hai phần 2
+
+09:01.021 --> 09:02.963
+trừ căn hai phần hai
+
+09:02.963 --> 09:06.394
+và toàn bộ cái này sẽ bằng với -1
+
+09:06.394 --> 09:07.227
+hoàn toàn hợp lý
+
+09:07.227 --> 09:10.281
+cái này thực ra nhìn giống một tiếp tuyến
+
+09:10.281 --> 09:12.757
+có hệ số góc bằng -1
+
+09:12.757 --> 09:14.349
+Mong là video này giúp bạn
+
+09:14.349 --> 09:16.173
+hiểu hơn về dạng bài này
+
+09:16.173 --> 09:17.373
+mình đã ôn tập một chút
+
+09:17.373 --> 09:18.775
+về hệ tọa độ cực
+
+09:18.775 --> 09:20.556
+Và mình cũng đã nâng cao nó lên
+
+09:20.556 --> 09:23.723
+bằng cách sử dụng đạo hàm

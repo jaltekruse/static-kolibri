@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.460 --> 00:03.040
+Pensiamo a cosa fanno davvero le funzioni e poi
+
+00:03.040 --> 00:06.590
+penseremo all'idea di una funzione inversa.
+
+00:06.590 --> 00:08.450
+Quindi cominciamo con una funzione piuttosto semplice.
+
+00:08.450 --> 00:13.510
+Diciamo f(x) = 2x +4.
+
+00:13.510 --> 00:20.340
+Quindi se prendo f(2), f(2) sara' uguale a
+
+00:20.340 --> 00:24.560
+(2 * 2) + 4, che e' 4 + 4, che fa 8.
+
+00:24.560 --> 00:32.470
+Potrei prendere f(3), che e' (2 * 3) + 4,
+
+00:32.470 --> 00:35.920
+che e' uguale a 10.
+
+00:35.920 --> 00:36.960
+6 + 4.
+
+00:36.960 --> 00:38.280
+Ora pensiamoci in modo leggermente
+
+00:38.280 --> 00:39.800
+piu' astratto.
+
+00:39.800 --> 00:42.990
+Allora, c'e' un insieme di cose che posso mettere in questa funzione.
+
+00:42.990 --> 00:44.700
+Questo concetto potrebbe gia' esserti familiare.
+
+00:44.700 --> 00:46.050
+E' il dominio.
+
+00:46.050 --> 00:48.760
+L'insieme di tutto quello che posso immettere nella
+
+00:48.760 --> 00:52.760
+funzione, il dominio e' questo.
+
+00:52.760 --> 00:57.290
+E in quel dominio, 2 sta qui, hai il 3 qui,
+
+00:57.290 --> 00:59.700
+puoi immettere in questa funzione piu' o meno
+
+00:59.700 --> 01:00.850
+qualsiasi numero reale.
+
+01:00.850 --> 01:02.810
+Quindi questo rappresenta tutti i Reali, ma lo
+
+01:02.810 --> 01:05.150
+disegnamo come un insieme bello finito giusto per aiutarti a visualizzarlo.
+
+01:05.150 --> 01:07.830
+Ora, quando applichi la funzione, pensiamo
+
+01:07.830 --> 01:10.000
+a cosa significa prendere f(2).
+
+01:10.000 --> 01:13.900
+Stiamo inserendo un numero in input, 2, e la funzione
+
+01:13.900 --> 01:15.790
+restituisce in output il numero 8.
+
+01:15.790 --> 01:19.270
+C'e' una mappatura tra 2 e 8.
+
+01:19.270 --> 01:22.490
+Quindi creiamo un altro insieme di tutti i possibili valori
+
+01:22.490 --> 01:23.930
+che la mia funzione puo' ricevere.
+
+01:27.780 --> 01:30.300
+E possiamo chiamarlo intervallo.
+
+01:30.300 --> 01:33.320
+Ci sono modi piu' formali per parlarne e c'e'
+
+01:33.320 --> 01:36.640
+una discussione molto piu' rigorosa su questo piu' avanti, specialmente
+
+01:36.640 --> 01:39.060
+nella playlist di algebra lineare, ma questo e' l'insieme di tutti
+
+01:39.060 --> 01:40.200
+i valori che posso accettare.
+
+01:40.200 --> 01:44.550
+Quindi se prendo il numero 2 del nostro dominio, lo inserisco in input nella
+
+01:44.550 --> 01:48.270
+funzione, viene mappato al numero 8.
+
+01:48.270 --> 01:50.260
+Quindi fammelo disegnare.
+
+01:50.260 --> 01:56.210
+Quindi andiamo dal numero 2 all'8.
+
+01:56.210 --> 01:59.060
+E lo fa la funzione.
+
+01:59.060 --> 02:01.210
+E' la funzione ad eseguire quella mappatura.
+
+02:01.210 --> 02:05.190
+La funzione mappa il 2 all'8.
+
+02:05.190 --> 02:09.180
+Questo qui, questo e' uguale a f(2).
+
+02:09.180 --> 02:10.080
+Stessa idea.
+
+02:10.080 --> 02:18.810
+Cominci con 3, 3 viene mappato dalla funzione al 10.
+
+02:18.810 --> 02:20.480
+Crea un'associazione.
+
+02:20.480 --> 02:25.320
+La funzione mappa il 3 al 10.
+
+02:25.320 --> 02:28.400
+Ora, questo solleva una domanda interessante.
+
+02:28.400 --> 02:32.840
+C'e' un modo di tornare indietro dall'8 al 2, o c'e' un
+
+02:32.840 --> 02:35.220
+modo di tornare dal 10 al 3?
+
+02:35.220 --> 02:37.340
+O c'e' qualche altra funzione?
+
+02:37.340 --> 02:39.870
+C'e' qualche altra funzione, possiamo chiamarla l'inversa
+
+02:39.870 --> 02:41.660
+di f, che ci riporta indietro?
+
+02:41.660 --> 02:44.260
+C'e' qualche altra funzione che ci riporta
+
+02:44.260 --> 02:46.200
+dal 10 al 3?
+
+02:46.200 --> 02:48.970
+La chiameremo l'inversa di f, e useremo questa come
+
+02:48.970 --> 02:52.790
+notazione, e ci riportera' da 10 a 3.
+
+02:52.790 --> 02:54.360
+C'e' un modo di farlo?
+
+02:54.360 --> 02:58.070
+Sara' in grado quella stessa inversa di f, ci riportera' ---
+
+02:58.070 --> 03:02.290
+se applichiamo 8 --- ci riportera' al 2?
+
+03:07.230 --> 03:10.760
+Ora, tutto questo sembra molto astratto e complicato.
+
+03:10.760 --> 03:13.990
+Scoprirai che in realta' e' molto semplice risolvere
+
+03:13.990 --> 03:17.030
+questa inversa di f e penso che una volta risolta
+
+03:17.030 --> 03:18.540
+ti sara' chiaro di cosa parlo.
+
+03:18.540 --> 03:20.820
+Che se la funzione ti porta da 2 a 8, l'inversa ci
+
+03:20.820 --> 03:23.360
+riporta da 8 a 2.
+
+03:23.360 --> 03:25.470
+Quindi per pensarci, definiamo giusto --- diciamo solo
+
+03:25.470 --> 03:27.790
+che y = f(x).
+
+03:30.620 --> 03:33.510
+Quindi y = f(x), che e' uguale a 2x + 4.
+
+03:33.510 --> 03:39.110
+Quindi posso scrivere semplicemente y = 2x + 4 e questa,
+
+03:39.110 --> 03:40.420
+di nuovo, e' la nostra funzione.
+
+03:40.420 --> 03:42.470
+Tu mi dai una x, restituisce una y.
+
+03:42.470 --> 03:43.990
+Ma noi vogliamo andare nella direzione opposta.
+
+03:43.990 --> 03:46.760
+Vogliamo darti una y e ottenere una x.
+
+03:46.760 --> 03:50.490
+Quindi tutto quello che dobbiamo fare e' risolvere la x data la y.
+
+03:50.490 --> 03:51.160
+Percio' facciamolo.
+
+03:51.160 --> 03:54.460
+Se sottraiamo 4 da entrambi i lati di questa equazione --- fammi
+
+03:54.460 --> 03:57.350
+cambiare colore --- se sottraiamo 4 da entrambi i lati di questa
+
+03:57.350 --> 04:02.310
+equazione, otteniamo y - 4 = 2x, poi se
+
+04:02.310 --> 04:08.270
+dividiamo entrambi i lati dell'equazione per 2, otteniamo
+
+04:08.270 --> 04:12.750
+y / 2 - 2 --- 4 / 2 = 2 --- = x.
+
+04:12.750 --> 04:15.160
+O se vuoi scriverlo in quel modo, possiamo scambiare
+
+04:15.160 --> 04:20.100
+i lati, otteniamo x = 1/2 y --- stessa cosa di
+
+04:20.100 --> 04:23.190
+y / 2 --- meno 2.
+
+04:23.190 --> 04:26.270
+Quindi quello che abbiamo qui e' una funzione di y che
+
+04:26.270 --> 04:28.750
+ci restituisce una x, che e' esattamente quello che volevamo.
+
+04:28.750 --> 04:33.510
+Vogliamo una funzione di questi valori che ci rimappi alla x.
+
+04:33.510 --> 04:38.100
+Quindi questa la possiamo chiamare --- possiamo dire che e' uguale a ---
+
+04:38.100 --> 04:41.840
+lo faccio nello stesso colore --- che e' uguale alla f inversa
+
+04:41.840 --> 04:43.570
+di una funzione di y.
+
+04:43.570 --> 04:45.080
+O fammelo scrivere un po' piu' pulito.
+
+04:45.080 --> 04:49.050
+Possiamo dire inversa di f come una funzione di y --- quindi possiamo avere
+
+04:49.050 --> 04:52.650
+10 o 8 --- quindi ora l'intervallo e' il dominio dell'inversa di f.
+
+04:52.650 --> 04:58.120
+Inversa di f come funzione di y = 1/2 y - 2.
+
+04:58.120 --> 05:00.570
+Quindi tutto quello che abbiamo fatto e' stato partire con la nostra funzione originale,
+
+05:00.570 --> 05:05.300
+y = 2x + 4, abbiamo risolto --- qui, abbiamo
+
+05:05.300 --> 05:07.870
+risolto x in termini di x --- poi abbiamo fatto un po' di calcoli
+
+05:07.870 --> 05:12.250
+algebrici, risolto x in termini di y e abbiamo detto che quella
+
+05:12.250 --> 05:15.580
+e' la nostra inversa come funzione di y.
+
+05:15.580 --> 05:17.370
+Che sta qui.
+
+05:17.370 --> 05:19.570
+E poi se, sai, puoi dire che e' --- potresti
+
+05:19.570 --> 05:22.640
+rimpiazzare y con una a, una b, una x, quello che ti pare,
+
+05:22.640 --> 05:26.240
+potresti anche chiamare la y x.
+
+05:26.240 --> 05:29.000
+Quindi se metti una x in questa funzione, ottieni
+
+05:29.000 --> 05:34.660
+inv y (x) = 1/2x - 2.
+
+05:34.660 --> 05:38.340
+Quindi quello che fai e' risolvere la x, poi scambiare la x e la y
+
+05:38.340 --> 05:39.720
+se ti va di farlo in questo modo.
+
+05:39.720 --> 05:41.240
+Questo e' il modo piu' facile per pensarci.
+
+05:41.240 --> 05:44.110
+E una cosa che voglio farti notare e' cosa succede quando
+
+05:44.110 --> 05:46.255
+fai il grafico della funzione e dell'inversa.
+
+05:46.255 --> 05:48.420
+Quindi fammi fare un grafico
+
+05:48.420 --> 05:50.160
+in fretta e furia.
+
+05:50.160 --> 05:52.190
+Poi faro' un po' di esempi su come risolvere
+
+05:52.190 --> 05:53.580
+l'inversa, ma prima volevo darti
+
+05:53.580 --> 05:55.030
+un'idea generale.
+
+05:55.030 --> 05:57.010
+La funzione ti porta dal dominio all'intervallo,
+
+05:57.010 --> 05:59.570
+l'inversa ti porta da quel punto al valore
+
+05:59.570 --> 06:01.810
+originale, se esiste.
+
+06:01.810 --> 06:04.500
+Quindi se dovessi fare il grafico di queste --- fammi disegnare
+
+06:04.500 --> 06:08.790
+un paio di assi, qui disegno un paio
+
+06:08.790 --> 06:12.040
+di assi di coordinate.
+
+06:12.040 --> 06:16.630
+Questa prima funzione, 2x + 4, l'intercetta y stara'
+
+06:16.630 --> 06:24.520
+su 1, 2, 3, 4, cosi', poi la pendenza sara'
+
+06:24.520 --> 06:25.610
+fatta cosi'.
+
+06:25.610 --> 06:31.470
+Ha una pendenza di 2, quindi sara' fatta cosi' --- il grafico
+
+06:31.470 --> 06:33.870
+sara' fatto --- fammelo fare un po' meglio ---
+
+06:33.870 --> 06:36.400
+sara' fatto cosi'.
+
+06:36.400 --> 06:38.450
+Questa funzione e' fatta cosi'.
+
+06:38.450 --> 06:40.390
+Questa funzione com'e' fatta?
+
+06:40.390 --> 06:43.680
+Com'e' fatta l'inversa, come funzione di x?
+
+06:43.680 --> 06:46.980
+Ricordati, abbiamo risolto x, poi essenzialmente abbiamo
+
+06:46.980 --> 06:47.900
+scambiato x e y.
+
+06:47.900 --> 06:51.570
+Ora possiamo dire che y = inv f(x).
+
+06:51.570 --> 06:56.400
+Quindi abbiamo un'intercetta y di -2 --- 1, 2 ---
+
+06:56.400 --> 07:00.150
+e ora la pendenza e' 1/2.
+
+07:00.150 --> 07:02.230
+La pendenza e' fatta cosi'.
+
+07:02.230 --> 07:04.120
+Vediamo se riesco a disegnarla.
+
+07:04.120 --> 07:08.510
+La pendenza e' fatta --- o la retta e' fatta tipo cosi'.
+
+07:08.510 --> 07:10.170
+E che relazione c'e'?
+
+07:10.170 --> 07:12.060
+Voglio dire, sembrano tipo collegate, sembra
+
+07:12.060 --> 07:14.080
+che siano riflesse su qualcosa.
+
+07:14.080 --> 07:15.990
+Sara' un po' piu' chiaro su cosa sono riflesse
+
+07:15.990 --> 07:19.530
+appena disegno la retta y = x.
+
+07:19.530 --> 07:22.250
+Allora, la retta y = x e' fatta cosi'.
+
+07:22.250 --> 07:23.420
+La faccio tratteggiata.
+
+07:29.740 --> 07:32.620
+E come puoi vedere hai la funzione e la sua inversa
+
+07:32.620 --> 07:36.780
+e sono riflesse sulla linea y = x.
+
+07:36.780 --> 07:39.100
+E spero che abbia senso.
+
+07:39.100 --> 07:41.330
+Perche' qui, su questa retta, facciamo
+
+07:41.330 --> 07:42.530
+un esempio facile.
+
+07:42.530 --> 07:49.610
+La nostra funzione, quando prendi 0 --- quindi f(0) = 4.
+
+07:49.610 --> 07:54.130
+La nostra funzione mappa lo 0 col 4.
+
+07:54.130 --> 08:00.050
+L'inverso della funzione, se prendi inv f(4),
+
+08:00.050 --> 08:02.920
+inv f(4) = 0.
+
+08:02.920 --> 08:08.120
+O l'inverso della funzione mappa da 4 a 0.
+
+08:08.120 --> 08:10.210
+Che e' esattamente cio' che ci aspettavamo.
+
+08:10.210 --> 08:14.720
+La funzione ci porta dal mondo x a quello y, poi quando
+
+08:14.720 --> 08:17.240
+le scambiamo, stiamo scambiando x e y.
+
+08:17.240 --> 08:18.060
+Prendiamo l'inversa.
+
+08:18.060 --> 08:21.055
+Ed ecco perche' si riflettono su y = x.
+
+08:21.055 --> 08:24.030
+Quindi questo esempio che ti ho fatto vedere,
+
+08:24.030 --> 08:30.070
+la funzione ti porta da 0 a 4 --- magari dovrei farlo nel colore
+
+08:30.070 --> 08:35.810
+della funzione --- quindi la funzione ti porta da 0 a 4, questa e'
+
+08:35.810 --> 08:39.680
+la funzione f(0) = 4, vedi questa qui, quindi va
+
+08:39.680 --> 08:42.550
+da 0 a 4, mentre l'inversa ci riporta
+
+08:42.550 --> 08:45.830
+indietro da 4 a 0.
+
+08:45.830 --> 08:49.380
+Quindi inv f ci riporta da 4 a 0.
+
+08:49.380 --> 08:50.430
+L'hai visto qui.
+
+08:50.430 --> 08:55.750
+Quando qui calcoli , 1/2 * 4 - 2 = 0.
+
+08:55.750 --> 08:57.730
+Nei prossimi video faro' un po' di esempi in modo
+
+08:57.730 --> 09:00.180
+che tu capisca bene come risolverle e sia in grado
+
+09:00.180 --> 09:05.010
+di fare gli esercizi e usare la nostra applicazione.

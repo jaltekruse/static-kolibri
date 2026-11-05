@@ -1,0 +1,201 @@
+WEBVTT
+
+00:00.000 --> 00:03.153
+V tomto videu se ještě víc
+procvičíme použití substituce,
+
+00:03.153 --> 00:07.079
+kdy se hodí ji použít a jak
+správně definovat proměnnou "u".
+
+00:07.079 --> 00:20.254
+Mějme neurčitý integrál (přirozeného
+logaritmu z x) na desátou,
+
+00:20.254 --> 00:23.588
+to celé děleno x dx.
+
+00:23.588 --> 00:28.219
+Hodí se použít substituci a pokud ano,
+tak jak definovat proměnnou "u"?
+
+00:28.219 --> 00:34.583
+Klíč k úspěchu je vidět, jestli někde ve
+výrazu mám funkci a také i její derivaci.
+
+00:34.583 --> 00:36.112
+A možná jste rovnou poznali,
+
+00:36.112 --> 00:38.762
+že derivace přirozeného
+logaritmu z x je 1 lomeno x.
+
+00:38.762 --> 00:39.901
+Aby to bylo lépe vidět,
+
+00:39.901 --> 00:50.368
+tak můžu tento integrál zapsat jako
+(ln(x) na desátou) krát 1 lomeno x dx.
+
+00:50.368 --> 00:51.842
+Nyní to je vidět lépe.
+
+00:51.842 --> 00:55.735
+Máme funkci přirozený logaritmus z x
+umocněnou na desátou,
+
+00:55.735 --> 00:59.232
+ale taky tady máme
+její derivaci, 1 lomeno x.
+
+00:59.232 --> 01:01.228
+Takže můžeme použít substituci.
+
+01:01.228 --> 01:06.065
+Můžeme definovat "u" jako
+přirozený logaritmus z x.
+
+01:06.065 --> 01:13.073
+Vybral jsem přirozený logaritmus z x,
+protože vidím tady jeho derivaci.
+
+01:13.073 --> 01:20.903
+A pak můžu říct, že
+du lomeno dx je rovno 1 lomeno x.
+
+01:20.903 --> 01:26.678
+Což znamená, že du
+je rovno 1 lomeno x dx.
+
+01:26.678 --> 01:28.665
+A tady to máme.
+
+01:28.665 --> 01:35.328
+Toto je du
+a toto je naše "u".
+
+01:35.328 --> 01:47.486
+Krásně se to zjednodušilo na
+integrál z (u na desátou) du.
+
+01:47.486 --> 01:55.313
+Dále bychom našli primitivní funkci a
+pak udělali zpětnou substituci ln(x) za u,
+
+01:55.313 --> 01:58.608
+abychom získali neurčitý integrál
+vzhledem k proměnné x.
+
+01:58.608 --> 02:00.461
+Pojďme na další.
+
+02:00.461 --> 02:05.796
+Mějme integrál…
+
+02:05.796 --> 02:09.732
+Zkusme udělat něco zajímavého.
+
+02:09.732 --> 02:15.264
+Zkusme integrovat
+tangens z x dx.
+
+02:15.264 --> 02:18.307
+Hodí se sem substituce?
+
+02:18.307 --> 02:22.010
+Nejdřív si řeknete, že prostě máme
+tang(x), tak kde je nějaká derivace?
+
+02:22.010 --> 02:27.002
+A to zajímavé právě je, že můžeme
+tangens přepsat pomocí sinu a kosinu.
+
+02:27.002 --> 02:35.969
+Takže to můžeme zapsat jako
+integrál ze sin(x) lomeno cos(x) dx.
+
+02:35.969 --> 02:39.381
+A nyní si možná říkáte,
+na co použijeme substituci?
+
+02:39.381 --> 02:41.958
+Můžeme se na to podívat
+z několik pohledů.
+
+02:41.958 --> 02:44.843
+Můžeme říci, že derivace sin(x) je cos(x),
+
+02:44.843 --> 02:48.705
+ale to pak dělíme derivací,
+místo abychom násobili.
+
+02:48.705 --> 02:53.959
+Zajímavější je říct, že
+derivace cos(x) je −sin(x).
+
+02:53.959 --> 02:57.416
+Sice nemáme −sin(x),
+ale to není tak těžké získat.
+
+02:57.416 --> 03:00.068
+Prostě budeme dvakrát násobit −1.
+
+03:00.068 --> 03:06.400
+Můžeme říct, že máme −(−(sin(x))
+a první minus strčit před integrál.
+
+03:06.400 --> 03:09.660
+To plyne z vlastností integrálů.
+
+03:09.660 --> 03:12.567
+Dáme jedno znaménko minus ven
+a jedno znaménko minus dovnitř,
+
+03:12.567 --> 03:15.597
+takže získáme −(cos(x)).
+
+03:15.597 --> 03:17.399
+A teď to je zajímavé.
+
+03:17.399 --> 03:18.671
+Ještě to trochu upravím.
+
+03:18.671 --> 03:32.959
+Je to rovno minus integrál
+z 1 lomeno cos(x) krát (−sin(x)) dx.
+
+03:32.959 --> 03:36.713
+Napadne vás nyní, jak bychom
+mohli definovat proměnnou "u"?
+
+03:36.713 --> 03:41.445
+Ve jmenovateli máme cos(x),
+a máme jeho derivaci,
+
+03:41.445 --> 03:45.190
+tak co kdybychom
+položili "u" rovno cos(x)?
+
+03:45.190 --> 03:47.992
+"U" je rovno cos(x),
+
+03:47.992 --> 03:54.268
+pak du lomeno dx je rovno −sin(x).
+
+03:54.268 --> 04:01.329
+Nebo můžeme říci, že
+du je rovno −sin(x) dx.
+
+04:01.329 --> 04:09.494
+Takže máme du a "u".
+
+04:09.494 --> 04:24.680
+Takže jsme to celé zjednodušili
+na neurčitý integrál z 1 lomeno "u" du.
+
+04:24.680 --> 04:27.675
+Což je mnohem jednodušší spočítat,
+
+04:27.675 --> 04:34.000
+a poté musíme opět
+dosadit zpět cos(x) za u.

@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.000 --> 00:00.000
+Fonksiyonumuz, f x'in, e üzeri x olduğunu varsayalım. Grafiğini kabaca çizersek, şuna benzer.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+İşte, e üzeri x. Yapmak istediğim ise, Taylor seri açılımı kullanarak, e üzeri x'e yakın değerler elde etmek.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Ve, seriyi 0 dışında bir sayıya ortalamak istiyorum. Seriyi herhangi bir sayıya, örneğin 3'e ortalamak istiyorum.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Burası x eşittir 3. Bu da f 3, yani e üzeri 3.
+
+00:00.000 --> 00:00.000
+Bu, e üzeri 3.
+
+00:00.000 --> 00:00.000
+Taylor serisi açılımında, eğer polinomumuzun derecesi sıfırsa, e küpten geçen bir sabit fonksiyonumuz var, demektir.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Birinci dereceden bir fonksiyonumuz varsa, teğet doğru demektir.
+
+00:00.000 --> 00:00.000
+Terim ekledikçe, polinomumuzun grafiği, eğriye daha yakınsar.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+İleride, yakınsama testlerinden bahsedeceğiz. Şimdi ise, formülü uygulayalım.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+e üzeri x'in Taylor serisi, polinomumuz olacak. f c nedir? x 3 olduğuna göre, c 3'tür diyoruz. c 3 ise, f 3 eşittir e küp.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+e küp artı f üssü c nedir?
+
+00:00.000 --> 00:00.000
+f üssü x de, e üzeri x'tir. e üzeri x'in türevini alırsanız, e üzeri x elde edersiniz. Bu, e üzeri x'in klas bir fonksiyon olmasının nedenidir. Aslında, e üzeri x'in n'inci türevi de, e üzeri x'tir.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Aldığınız her türev, e üzeri x'tir. f üssü x, e üzeri x ise, f üssü 3, yine e küptür.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Çarpı x eksi 3, artı fonksiyonumuzun ikinci türevi, ki o da e üzeri x, 3'teki değeri e küp, bölü 2 faktöriyel, çarpı x eksi 3 kare.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Böyle devam ederiz. Üçüncü türevi de, e üzeri x, 3'teki değeri e küp, bölü 3 faktöriyel, çarpı x eksi 3, küp. Sanıyorum, örüntüyü anladınız.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Açılımı rutin bir şekilde bulmaktan daha ilginci, terim ekledikçe, grafiğin nasıl e üzeri x eğrisine yakınsadığını görmektir.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bunu görmek için, wolframalpha.com'daki programı kullandım.
+
+00:00.000 --> 00:00.000
+"Taylor serisi, e üzeri x ve x eşittir 3" yazdım. Wolfram Alpha ne yapmak istediğimi anladı ve bütün bunları buldu.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Dikkat ederseniz, bizim bulduklarımızla aynı. e küp artı, e küp çarpı x eksi 3, artı 1 bölü 2 ...
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Onlar, faktöriyellerin değerlerini bulmuş. 3 faktöriyel yerine, şuraya 6 yazılmış. Buraya da birkaç terim koymuşlar. Ama, esas ilginç olan kısım, bu polinomların grafikleri.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+e üzeri x'in grafiği turuncuyla çizilmiş.
+
+00:00.000 --> 00:00.000
+Dereceyi ve yakınsamayı noktalarla gösteriyor. Derecesi 1 olan polinom, şuradaki teğet.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bu 0 dereceli, bunun derecesi 1, çünkü içinde x var.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bunu çizmek istersek, şurada tek noktada çizilmiş olması gerekiyor.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bir terim eklersek, ikinci dereceden bir polinom elde ediyoruz, çünkü x kare eklemiş oluyoruz.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+x kare ve x terimleri var, dolayısıyla polinomun derecesi 2 olacak. 2 nokta arayalım. Şurada.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bir yerine iki nokta olmalı. Bu bir parabol. Grafiği şöyle olacak.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Dikkat ederseniz, 3'e yakın bölümde e üzeri x'e daha iyi yakınsıyor.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bir terim daha ekleyelim. Şimdi üçüncü dereceden bir polinomumuz olacak.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Hepsini birleştirirsek, polinomumuz bu. Grafiği için 3 nokta arıyoruz.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+1, 2, 3, yani üçüncü dereceden polinomumuz şurada. e üzeri x'e parabolden daha önce yaklaştığına ve daha uzun süre e üzeri x' in yakınında kaldığına dikkat edin.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bir terim daha eklersek, dördüncü dereceli terimi eklemiş oluruz. Yani, bunun tamamı, artı bu.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Şimdi, bu süper eğriyi elde ettik. Terim ekledikçe, yakınsamamızın x eşittir 3'ün daha uzağında da geliştiğini görüyorsunuz.
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+-
+
+00:00.000 --> 00:00.000
+Bir terim daha istersek, şuradaki terimi ekleriz.
+
+00:00.000 --> 00:00.000
+Umarım, terim ekledikçe, elde ettiğimiz değerlerin gittikçe e üzeri x'e yaklaştığını görüyorsunuzdur. Özellikle de sonsuz adet terim eklediğimizde.
+
+00:00.000 --> 00:00.000
+-

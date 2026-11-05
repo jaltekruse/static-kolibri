@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.040 --> 00:02.951
+- [Instructor] We're asked
+to find a power series for f,
+
+00:02.951 --> 00:05.656
+and they've given us f of
+x is equal to six over one
+
+00:05.656 --> 00:08.630
+plus x to the third power.
+
+00:08.630 --> 00:11.988
+Now, since they're letting
+us pick which power series,
+
+00:11.988 --> 00:14.639
+you might say, well, let me
+just find the Maclaurin series
+
+00:14.639 --> 00:17.020
+because the Maclaurin series
+tends to be the simplest
+
+00:17.020 --> 00:19.993
+to find 'cause we're centered at zero.
+
+00:19.993 --> 00:22.598
+And so you might immediately
+go out and say all right,
+
+00:22.598 --> 00:24.340
+well, let me evaluate
+this function at zero,
+
+00:24.340 --> 00:25.775
+evaluate its derivative at zero,
+
+00:25.775 --> 00:28.523
+its second derivative at
+zero, so on and so forth.
+
+00:28.523 --> 00:30.476
+And then I can use the formula
+
+00:30.476 --> 00:32.901
+for the Maclaurin series
+to just expand it out.
+
+00:32.901 --> 00:35.794
+But very quickly, you
+will run into roadblocks
+
+00:35.794 --> 00:37.656
+because the first,
+
+00:37.656 --> 00:39.004
+evaluating this at f,
+
+00:39.004 --> 00:40.778
+at x equals zero is
+pretty straightforward.
+
+00:40.778 --> 00:42.915
+Evaluating the first derivative
+is pretty straightforward.
+
+00:42.915 --> 00:44.118
+But then once you start taking the second
+
+00:44.118 --> 00:47.344
+and third derivatives, it
+gets very hairy, very fast.
+
+00:47.344 --> 00:49.878
+You could do a simplification,
+where you could say,
+
+00:49.878 --> 00:52.065
+well, let me find the Maclaurin series
+
+00:52.065 --> 00:55.648
+for f of u is equal to
+six over one plus u,
+
+00:56.804 --> 00:59.775
+where u is equal to x to the third.
+
+00:59.775 --> 01:02.625
+So you find this Maclaurin
+expansion, in terms of u,
+
+01:02.625 --> 01:04.742
+and then you substitute
+for x to the third.
+
+01:04.742 --> 01:06.624
+And actually, that makes
+it a good bit simpler,
+
+01:06.624 --> 01:08.699
+so that is another way to approach it.
+
+01:08.699 --> 01:11.101
+But the simplest way to
+approach it is to say,
+
+01:11.101 --> 01:13.979
+hey, you know what, this
+form right over here,
+
+01:13.979 --> 01:16.796
+this rational expression,
+it looks similar.
+
+01:16.796 --> 01:20.282
+It looks like the sum
+of a geometric series.
+
+01:20.282 --> 01:21.985
+Let's just remind ourselves what the sum
+
+01:21.985 --> 01:23.908
+of a geometric series looks like.
+
+01:23.908 --> 01:25.241
+If I have a plus
+
+01:26.356 --> 01:30.837
+a times r, so a is my first
+term, r is my common ratio,
+
+01:30.837 --> 01:32.744
+plus, I'm gonna multiply it times r again,
+
+01:32.744 --> 01:34.661
+plus a times r squared,
+
+01:36.748 --> 01:39.412
+plus a times r to the third power,
+
+01:39.412 --> 01:42.699
+and I keep going on,
+and on, and on forever.
+
+01:42.699 --> 01:46.602
+We know that this is going to
+be equal to a, our first term,
+
+01:46.602 --> 01:48.883
+over one minus our common ratio,
+
+01:48.883 --> 01:53.604
+and this just comes from a,
+the sum of a geometric series.
+
+01:53.604 --> 01:55.861
+And notice that what we
+have here, our f of x,
+
+01:55.861 --> 01:57.584
+our definition of f of x,
+
+01:57.584 --> 02:01.049
+and the sum of a geometric
+series look very, very similar.
+
+02:01.049 --> 02:04.761
+If we say that this,
+right over here, is a,
+
+02:04.761 --> 02:06.873
+so a is equal to six.
+
+02:06.873 --> 02:11.043
+And if negative r is
+equal to x to the third,
+
+02:11.043 --> 02:13.181
+or we could say, let me rewrite this.
+
+02:13.181 --> 02:15.785
+I could write this
+denominator as one minus
+
+02:15.785 --> 02:18.403
+negative x to the third.
+
+02:18.403 --> 02:21.579
+And so now, you could say, okay, well, r
+
+02:21.579 --> 02:24.785
+could be equal to negative x to the third.
+
+02:24.785 --> 02:26.828
+And just like that, we can expand it out.
+
+02:26.828 --> 02:29.078
+Well, if a is equal to six,
+
+02:30.015 --> 02:32.644
+and r is equal to negative
+x to the third, well,
+
+02:32.644 --> 02:35.360
+then we could just write this
+out as a geometric series,
+
+02:35.360 --> 02:36.775
+which is very straightforward.
+
+02:36.775 --> 02:38.093
+So let's do that.
+
+02:38.093 --> 02:41.553
+And I will do this in, I'll do
+this in this nice pink color.
+
+02:41.553 --> 02:44.545
+So the first term would be six,
+
+02:44.545 --> 02:47.603
+plus six times our common ratio,
+
+02:47.603 --> 02:50.875
+six times negative x to the third.
+
+02:50.875 --> 02:52.744
+And so actually, let me just write that as
+
+02:52.744 --> 02:56.142
+negative six x to the third,
+and then we're gonna multiply
+
+02:56.142 --> 02:58.526
+by negative x to the third again.
+
+02:58.526 --> 03:00.666
+So that's going to be, if I multiply this
+
+03:00.666 --> 03:02.359
+times negative x to the third,
+
+03:02.359 --> 03:04.542
+that's gonna be positive six
+
+03:04.542 --> 03:07.042
+times x to the sixth power.
+
+03:08.263 --> 03:10.127
+And then I'm gonna multiply
+it by times negative x
+
+03:10.127 --> 03:14.995
+to the third again, so it's
+gonna be minus six times x
+
+03:14.995 --> 03:16.578
+to the ninth power,
+
+03:17.767 --> 03:19.886
+and I'm gonna go on, and on, and on.
+
+03:19.886 --> 03:21.660
+So it's gonna be, and
+then I could keep going,
+
+03:21.660 --> 03:24.207
+I multiply it times
+negative x to the third.
+
+03:24.207 --> 03:28.210
+I will get six x to the twelfth power.
+
+03:28.210 --> 03:32.099
+Now, we can go on, and on,
+and on, and on forever.
+
+03:32.099 --> 03:33.826
+And so the key here was,
+
+03:33.826 --> 03:37.914
+and this is the Maclaurin
+series expansion for our f of x,
+
+03:37.914 --> 03:39.809
+but the key is to not have to go through
+
+03:39.809 --> 03:41.618
+all of this business and just to recognize
+
+03:41.618 --> 03:43.923
+that hey, the way this
+function was defined
+
+03:43.923 --> 03:47.350
+is it looks a lot like the
+sum of a geometric series.
+
+03:47.350 --> 03:49.732
+And it can be considered the
+sum of a geometric series,
+
+03:49.732 --> 03:54.324
+and we can use that to find
+the power series expansion
+
+03:54.324 --> 03:55.306
+for our function.
+
+03:55.306 --> 03:58.639
+This is a very, very, very useful trick.

@@ -1,0 +1,294 @@
+WEBVTT
+
+00:00.000 --> 00:02.591
+V minulém videu
+jsme skončili tím,
+
+00:02.591 --> 00:06.536
+že jsme celkový obsah
+vyjádřili jako funkci proměnné x,
+
+00:06.536 --> 00:08.324
+tedy toho,
+kde uděláme řez.
+
+00:08.324 --> 00:12.190
+A teď potřebujeme zjistit, kde tato
+funkce nabývá minimální hodnoty.
+
+00:12.190 --> 00:16.760
+Abychom to zjistili, musíme
+udělat derivaci celého tohohle výrazu,
+
+00:16.760 --> 00:20.330
+poté zjistit, kde je derivace
+nedefinovaná nebo rovna 0,
+
+00:20.330 --> 00:24.380
+pak se ujistit, že se skutečně jedná
+o minimální hodnotu, a budeme mít hotovo.
+
+00:24.380 --> 00:25.700
+Nyní si
+to přepíšu.
+
+00:25.700 --> 00:29.704
+Celkový obsah jako
+funkce proměnné x…
+
+00:29.704 --> 00:32.540
+Jen to upravím, aby se
+nám to lépe derivovalo.
+
+00:32.540 --> 00:38.280
+Toto je (odmocnina ze 3) krát
+x na druhou, to celé lomeno…
+
+00:38.280 --> 00:42.360
+Tohle je 4 krát 9, protože toto
+je x na druhou lomeno 9.
+
+00:42.370 --> 00:46.260
+4 krát 9 je 36.
+
+00:46.260 --> 00:55.410
+Výraz nahoře napsaný modře bude plus
+(100 minus x) na druhou lomeno 16.
+
+00:55.410 --> 00:57.460
+Teď to zderivujeme.
+
+00:57.460 --> 01:05.104
+‚A‘ s čárkou, tedy derivace celkového
+obsahu jako funkce x, bude rovna…
+
+01:05.104 --> 01:12.730
+Derivace tohoto podle x
+je (odmocnina ze 3 krát x) lomeno 18.
+
+01:12.730 --> 01:14.990
+Derivace tohohle
+podle x bude…
+
+01:14.990 --> 01:19.940
+Je to derivace (něčeho na druhou)
+lomeno 16 podle toho něčeho,
+
+01:19.940 --> 01:29.397
+takže to bude to něco na prvou
+krát (2 lomeno 16), tedy lomeno 8,
+
+01:29.397 --> 01:33.470
+a pak podle derivace složené funkce
+krát derivace toho něčeho podle x.
+
+01:33.470 --> 01:41.680
+Derivace (100 minus x) podle x
+je rovna −1, takže krát −1.
+
+01:41.680 --> 01:43.990
+Toto vynásobíme −1.
+
+01:43.990 --> 01:56.040
+Tohle celé tedy můžeme přepsat jako
+(odmocnina ze 3 vydělená 18) krát x plus…
+
+01:56.040 --> 01:59.040
+Tohle můžu napsat
+jako x lomeno 8,
+
+01:59.045 --> 02:01.485
+takže sem můžu napsat
+(1 lomeno 8) krát x,
+
+02:01.485 --> 02:05.460
+protože −1 krát −x je x
+a ještě lomeno 8,
+
+02:05.460 --> 02:13.610
+a pak −100 lomeno 8,
+což je −12,5.
+
+02:13.610 --> 02:16.980
+A my chceme znát x,
+pro které je tento obsah nejmenší.
+
+02:16.980 --> 02:20.561
+Tato derivace je definovaná
+pro libovolné x,
+
+02:20.561 --> 02:24.126
+takže nemáme žádné stacionární body,
+ve kterých derivace není definovaná,
+
+02:24.126 --> 02:27.235
+ale můžeme najít stacionární
+body, ve kterých je derivace rovna 0.
+
+02:27.235 --> 02:29.965
+Musíme zjistit, pro která x
+bude hodnota derivace nulová,
+
+02:29.965 --> 02:33.172
+neboli kdy má naše původní
+funkce sklon rovný 0.
+
+02:33.172 --> 02:36.360
+Pak už jen potřebujeme ověřit,
+že se skutečně jedná o minimum,
+
+02:36.360 --> 02:38.970
+pokud nalezneme x,
+pro které je derivace rovna 0.
+
+02:38.970 --> 02:41.280
+Vyřešme tuto
+rovnici pro x.
+
+02:41.280 --> 02:46.576
+Když k oběma stranám přičteme 12,5,
+dostaneme, že 12,5 se rovná...
+
+02:46.576 --> 02:50.840
+Když sečteme členy s x, dostaneme
+(odmocninu ze 3 dělenou 18)
+
+02:50.840 --> 02:54.210
+plus (1 lomeno 8)
+a celý výraz krát x.
+
+02:54.210 --> 02:57.810
+Abychom osamostatnili x,
+obě strany vydělíme tímto výrazem.
+
+02:57.810 --> 03:02.750
+Dostaneme, že x je rovno 12,5
+děleno výrazem
+
+03:02.750 --> 03:07.850
+(odmocnina ze 3 dělená 18)
+plus (1 lomeno 8).
+
+03:07.860 --> 03:09.960
+A máme hotovo.
+
+03:09.960 --> 03:13.218
+Pro toto x je
+derivace rovna 0.
+
+03:13.218 --> 03:15.180
+Ještě jsem neměl říkat,
+že máme hotovo.
+
+03:15.180 --> 03:17.160
+Nevíme, jestli je
+tohle bod minima.
+
+03:17.160 --> 03:19.170
+Abychom zjistili, zda
+jde o bod minima,
+
+03:19.170 --> 03:26.207
+musíme zjistit, jestli je pro toto x
+naše funkce konvexní nebo konkávní.
+
+03:26.207 --> 03:29.380
+Abychom na to přišli,
+použijeme druhou derivaci.
+
+03:29.380 --> 03:30.480
+Takže druhá derivace...
+
+03:30.480 --> 03:35.680
+Napíšu si tedy druhou derivaci
+celého tohoto výrazu.
+
+03:35.680 --> 03:39.060
+Tohle je stejná
+funkce jako tahle.
+
+03:39.060 --> 03:40.840
+Takže to přepíšu.
+
+03:40.840 --> 03:43.660
+‚A‘ s čárkou, tedy derivace
+celkového obsahu,
+
+03:43.660 --> 03:51.140
+se rovná (odmocnina ze 3 dělená 18) krát x
+plus (1 lomeno 8) krát x minus 12,5.
+
+03:51.140 --> 03:59.100
+Druhá derivace je (odmocnina ze 3
+dělená 18) plus (1 lomeno 8).
+
+03:59.100 --> 04:04.960
+Tento výraz je větší než 0, což znamená,
+že funkce je konvexní pro všechna x.
+
+04:04.960 --> 04:10.240
+Konvexní pro všechna x.
+
+04:10.240 --> 04:12.310
+Máme tedy nějakou
+takovou situaci.
+
+04:12.310 --> 04:15.215
+Když tedy nalezneme x,
+ve kterém je sklon rovný 0,
+
+04:15.215 --> 04:19.330
+tak to bude na intervalu, kde je funkce
+konvexní, protože to platí pro všechna x,
+
+04:19.330 --> 04:22.510
+tudíž půjde skutečně
+bod minima.
+
+04:22.510 --> 04:23.930
+Sklon je zde
+rovný 0.
+
+04:23.930 --> 04:26.870
+Zde bude
+bod minima.
+
+04:26.870 --> 04:29.470
+Tohle je tedy bod,
+ve kterém nastává minimum.
+
+04:29.470 --> 04:33.040
+Pokud bychom skutečně měli
+100 metrů dlouhý drát,
+
+04:33.040 --> 04:34.690
+tak tento výraz
+není tak užitečný.
+
+04:34.690 --> 04:39.790
+Chtěli bychom dostat nějaké desetinné
+číslo, abychom věděli, kde řez udělat.
+
+04:39.790 --> 04:43.120
+Tak na to teď
+použijeme kalkulačku.
+
+04:43.120 --> 04:59.130
+Máme 12,5 děleno výrazem (odmocnina ze 3
+dělená 18 plus 1 lomeno 8),
+
+04:59.130 --> 05:05.150
+což nám vyjde
+jako 56,5.
+
+05:05.150 --> 05:14.150
+Toto je tedy
+zhruba 56,5 metrů.
+
+05:14.160 --> 05:24.500
+Náš řez tak musíme udělat zhruba
+56,5 metrů od levého konce drátu,
+
+05:24.500 --> 05:30.430
+pak bude celkový obsah
+těchto dvou obrazců nejmenší možný.

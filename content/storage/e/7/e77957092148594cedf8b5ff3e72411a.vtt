@@ -1,0 +1,514 @@
+WEBVTT
+
+00:00.000 --> 00:00.000
+siecznej do wykresu.
+
+00:00.000 --> 00:00.000
+W poprzednim filmie próbowaliśmy określić nachylenie wykresu
+
+00:00.000 --> 00:00.000
+funkcji w określonym punkcie.
+
+00:00.000 --> 00:00.000
+I postąpiliśmy w taki sposób: powiedzmy, że znajdziemy nachylenie
+
+00:00.000 --> 00:00.000
+prostej siecznej do wykresu pomiędzy danym punktem i drugim punktem, który leży
+
+00:00.000 --> 00:00.000
+niezbyt daleko od tego danego punktu.
+
+00:00.000 --> 00:00.000
+Tak wygląda wzór na nachylenie prostej
+
+00:00.000 --> 00:00.000
+Wygląda trochę jak z jakieś bajki, ale to jest nic innego jak wartość y
+
+00:00.000 --> 00:00.000
+w w tym niedalekim punkcie, a to jest wartość y
+
+00:00.000 --> 00:00.000
+w punkcie, w którym chcemy obliczyć nachylenie, a więc
+
+00:00.000 --> 00:00.000
+to jest po prostu zmiana w y.
+
+00:00.000 --> 00:00.000
+A następnie dzielimy to przez zmianę w x.
+
+00:00.000 --> 00:00.000
+W poprzednim filmie, różnicę pomiędzy dwoma
+
+00:00.000 --> 00:00.000
+wartościami x nazwaliśmy h.
+
+00:00.000 --> 00:00.000
+Ta odległość wynosiła h.
+
+00:00.000 --> 00:00.000
+I stąd obliczyliśmy nachylenie tej prostej.
+
+00:00.000 --> 00:00.000
+A potem powiedzieliśmy, hej, jeśli teraz weźmiemy granicę, w której tamten punkt
+
+00:00.000 --> 00:00.000
+będzie coraz bliżej i bliżej tego punktu,
+
+00:00.000 --> 00:00.000
+tak że prawie będzie to ten sam punkt, wtedy
+
+00:00.000 --> 00:00.000
+nachylenie stanie się nachylenie prostej stycznej do wykresu w tym punkcie.
+
+00:00.000 --> 00:00.000
+I powiedzieliśmy, że to jest pochodna funkcji.
+
+00:00.000 --> 00:00.000
+I oznaczyliśmy to jako f ze znaczkiem "prim" od x.
+
+00:00.000 --> 00:00.000
+A teraz pokażę Wam na konkretnym przykładzie, jak to działa.
+
+00:00.000 --> 00:00.000
+Tak, żebyście mieli w głowach konkretny przykład.
+
+00:00.000 --> 00:00.000
+Więc zacznijmy.
+
+00:00.000 --> 00:00.000
+Najpierw omówimy przykład, w którym policzymy nachylenie prostej stycznej
+
+00:00.000 --> 00:00.000
+do wykresu w jednym, ustalonym punkcie.
+
+00:00.000 --> 00:00.000
+Zacznę od osi liczbowych.
+
+00:00.000 --> 00:00.000
+Pozwólcie, że narysuje osie liczbowe.
+
+00:00.000 --> 00:00.000
+I powiedzmy, że mam wykres funkcji - to jest ta krzywa - y
+
+00:00.000 --> 00:00.000
+równa się x do kwadratu.
+
+00:00.000 --> 00:00.000
+To jest oś y, to jest oś x i chcę wiedzieć
+
+00:00.000 --> 00:00.000
+ile wynosi nachylenie wykresu w punkcie x równym 3.
+
+00:00.000 --> 00:00.000
+Kiedy mówię o nachyleniu wykresu, mam na myśli nachylenie prostej stycznej do wykresu w tym punkcie.
+
+00:00.000 --> 00:00.000
+Wyobraźcie sobie prostą styczną, która muska wykres funkcji,
+
+00:00.000 --> 00:00.000
+która dotyka wykresu funkcji w tym punkcie.
+
+00:00.000 --> 00:00.000
+Ile wynosi nachylenie tej stycznej?
+
+00:00.000 --> 00:00.000
+Ile wynosi nachylenie tej stycznej, które jest takie samo,
+
+00:00.000 --> 00:00.000
+jak nachylenie wykresu funkcji w tym punkcie?
+
+00:00.000 --> 00:00.000
+Aby rozwiązać ten problem, zrobię dokładnie to, o
+
+00:00.000 --> 00:00.000
+czym opowiedziałem Wam poprzednio, a potem uogólnimy nasze rozumowanie w taki sposób,
+
+00:00.000 --> 00:00.000
+żeby było prawdziwe nie tylko dla ustalonej wartości, ale dla dowolnego punktu x.
+
+00:00.000 --> 00:00.000
+Weźmy drugi punkt gdzieś tutaj.
+
+00:00.000 --> 00:00.000
+Nazwijmy tą wartość 3 plus delta x.
+
+00:00.000 --> 00:00.000
+Zmieniłem oznaczenie z h na delta x, bo w niektórych podręcznikach spotkanie się z zapisem tej różnicy
+
+00:00.000 --> 00:00.000
+jako h, a w innych książkach jako delta x, więc nie zaszkodzi
+
+00:00.000 --> 00:00.000
+zapoznać się i z jedną i z drugą formą.
+
+00:00.000 --> 00:00.000
+A więc to jest 3 plus delta x.
+
+00:00.000 --> 00:00.000
+A ile wynosi współrzędna y tego punktu?
+
+00:00.000 --> 00:00.000
+Ta krzywa to wykres funkcji y równa się x do kwadratu, a więc f od 3 równa
+
+00:00.000 --> 00:00.000
+się 3 do kwadratu, czyli ten punkt to 9.
+
+00:00.000 --> 00:00.000
+To jest punkt (3,9).
+
+00:00.000 --> 00:00.000
+A co to jest za punkt?
+
+00:00.000 --> 00:00.000
+Ile wynosi z kolei współrzędna y tego punktu?
+
+00:00.000 --> 00:00.000
+No cóż, x ma wartość 3 plus delta x.
+
+00:00.000 --> 00:00.000
+To jest to, co poprzednio oznaczyliśmy
+
+00:00.000 --> 00:00.000
+jako x-zero
+
+00:00.000 --> 00:00.000
+plus h.
+
+00:00.000 --> 00:00.000
+Mógłbym to równie dobrze oznaczyć 3 plus h.
+
+00:00.000 --> 00:00.000
+A więc to jest 3 plus delta x.
+
+00:00.000 --> 00:00.000
+A ile będzie wynosić y?
+
+00:00.000 --> 00:00.000
+Ile by nie wynosiła wartość x, punkt (x,y) leży na wykresie funkcji, więc y będzie zawsze
+
+00:00.000 --> 00:00.000
+równy x do kwadratu.
+
+00:00.000 --> 00:00.000
+A więc wartość y dla tego punktu wynosi 3 plus delta x do kwadratu.
+
+00:00.000 --> 00:00.000
+A teraz obliczymy nachylenie tej prostej
+
+00:00.000 --> 00:00.000
+siecznej.
+
+00:00.000 --> 00:00.000
+Teraz narysuję to w powiększeniu, będzie lepiej widać, co się dzieje.
+
+00:00.000 --> 00:00.000
+Jeśli powiększę tą część wykresu,
+
+00:00.000 --> 00:00.000
+będzie to wyglądać mniej więcej tak.
+
+00:00.000 --> 00:00.000
+Tu mam jeden punkt, a tu mam
+
+00:00.000 --> 00:00.000
+drugi punkt.
+
+00:00.000 --> 00:00.000
+To jest prosta
+
+00:00.000 --> 00:00.000
+sieczna.
+
+00:00.000 --> 00:00.000
+O tak.
+
+00:00.000 --> 00:00.000
+To był ten punkt, punkt (3,9).
+
+00:00.000 --> 00:00.000
+A ten punkt tu dalej to jest punkt 3 plus delta x,
+
+00:00.000 --> 00:00.000
+liczba nieco większa niż 3, a współrzędna y to będzie ta liczba,
+
+00:00.000 --> 00:00.000
+ten x, do kwadratu.
+
+00:00.000 --> 00:00.000
+Czyli 3 plus delta x, wszystko do kwadratu.
+
+00:00.000 --> 00:00.000
+Ile to jest?
+
+00:00.000 --> 00:00.000
+To będzie 9.
+
+00:00.000 --> 00:00.000
+Rozwijam to, możecie też wykorzystać
+
+00:00.000 --> 00:00.000
+rozdzielczość mnożenia.
+
+00:00.000 --> 00:00.000
+a dodać b do kwadratu równa się a do kwadratu plus 2 a razy b plus b do kwadratu, a więc
+
+00:00.000 --> 00:00.000
+to będzie równe 9 plus dwa razy iloczyn tego
+
+00:00.000 --> 00:00.000
+i tego.
+
+00:00.000 --> 00:00.000
+Czyli plus 6 delta x, i jeszcze plus delta x do kwadratu.
+
+00:00.000 --> 00:00.000
+To jest współrzędna y drugiego punktu.
+
+00:00.000 --> 00:00.000
+Może to wygląda skomplikowanie, ale po prostu wziąłem wartość x
+
+00:00.000 --> 00:00.000
+i podniosłem ją o kwadratu, ponieważ to jest wykres funkcji y równa się x do kwadratu.
+
+00:00.000 --> 00:00.000
+Nachylenie prostej siecznej
+
+00:00.000 --> 00:00.000
+równa się ilorazowi zmiany w y
+
+00:00.000 --> 00:00.000
+przez zmianę w x.
+
+00:00.000 --> 00:00.000
+Zmiana w y to będzie ta wartość y,
+
+00:00.000 --> 00:00.000
+czyli 9 dodać 6 delta x dodać delta x kwadrat.
+
+00:00.000 --> 00:00.000
+To była wartość y tego punktu, odjąć wartość y tego punktu.
+
+00:00.000 --> 00:00.000
+Czyli minus 9.
+
+00:00.000 --> 00:00.000
+To jest nasza zmiana w y.
+
+00:00.000 --> 00:00.000
+I musimy to podzielić przez zmianę w x.
+
+00:00.000 --> 00:00.000
+A ile wynosi zmiana w x?
+
+00:00.000 --> 00:00.000
+Okaże się, że prosto ją wyznaczyć.
+
+00:00.000 --> 00:00.000
+To jest ta większa wartość x - w liczniku zaczęliśmy od tego punktu,
+
+00:00.000 --> 00:00.000
+więc w mianowniku też musimy wybrać ten punkt, jako pierwszy.
+
+00:00.000 --> 00:00.000
+To będzie 3 plus delta x.
+
+00:00.000 --> 00:00.000
+A ile wynosi wartość x w tym punkcie?
+
+00:00.000 --> 00:00.000
+To jest 3.
+
+00:00.000 --> 00:00.000
+To jest ta wartość x.
+
+00:00.000 --> 00:00.000
+Jak to się uprości?
+
+00:00.000 --> 00:00.000
+W liczniku: to 9 i tamto 9 się uproszczą,
+
+00:00.000 --> 00:00.000
+bo mamy tu 9 minus 9.
+
+00:00.000 --> 00:00.000
+A co się stanie w mianowniku?
+
+00:00.000 --> 00:00.000
+To 3 uprości się z minus 3.
+
+00:00.000 --> 00:00.000
+I zmiana w x okazuję się być równa po prostu delta x,
+
+00:00.000 --> 00:00.000
+co ma sens, bo delta x to nic innego jak liczba, o którą
+
+00:00.000 --> 00:00.000
+współrzędna x tego punktu jest większa od współrzędnej x tamtego punktu.
+
+00:00.000 --> 00:00.000
+Wiec zmiana w x powinna być równa po prostu delta x.
+
+00:00.000 --> 00:00.000
+No więc, nachylenie mojej prostej siecznej
+
+00:00.000 --> 00:00.000
+wynosi teraz 6 razy zmiana w x dodać zmiana
+
+00:00.000 --> 00:00.000
+w x do kwadratu, podzielić przez zmianę w x.
+
+00:00.000 --> 00:00.000
+A to można jeszcze bardziej uprościć.
+
+00:00.000 --> 00:00.000
+Podzielmy teraz licznik i mianownik przez
+
+00:00.000 --> 00:00.000
+naszą zmianę w x.
+
+00:00.000 --> 00:00.000
+Zmienię kolor...
+
+00:00.000 --> 00:00.000
+Nachylenie prostej siecznej,
+
+00:00.000 --> 00:00.000
+tej prostej, która przechodzi przez te dwa punkty,
+
+00:00.000 --> 00:00.000
+wynosi, jeśli podzielimy licznik i mianownik przez delta x,
+
+00:00.000 --> 00:00.000
+ten wyraz będzie równy 6,
+
+00:00.000 --> 00:00.000
+po prostu dzielę teraz licznik i mianownik przez
+
+00:00.000 --> 00:00.000
+delta x, sześć plus delta x.
+
+00:00.000 --> 00:00.000
+A więc to jest nachylenie tej prostej.
+
+00:00.000 --> 00:00.000
+Nachylenie jest równe 6 plus delta x.
+
+00:00.000 --> 00:00.000
+To jest ta prosta.
+
+00:00.000 --> 00:00.000
+Ta prosta, którą narysowałem w czerwonym kolorze.
+
+00:00.000 --> 00:00.000
+Więc ta liczba, jeśli delta x byłaby równa,
+
+00:00.000 --> 00:00.000
+jeśli te dwa punkty miałyby współrzędne x równe 3 i 4, wtedy nachylenie byłoby równe 6 dodać
+
+00:00.000 --> 00:00.000
+1, ponieważ współrzędna x drugiego punktu byłaby 4, czyli delta x
+
+00:00.000 --> 00:00.000
+byłaby równa 1.
+
+00:00.000 --> 00:00.000
+Nachylenie byłoby równe 7.
+
+00:00.000 --> 00:00.000
+Zauważcie, że mamy zupełnie ogólny wzór, niezależnie od tego, ile wynosi delta x,
+
+00:00.000 --> 00:00.000
+możemy z niego obliczyć nachylenie prostej pomiędzy punktami 3 i 3 plus delta x.
+
+00:00.000 --> 00:00.000
+Pomiędzy tymi dwoma punktami.
+
+00:00.000 --> 00:00.000
+Ale my chcemy znaleźć nachylenie wykresu w tym
+
+00:00.000 --> 00:00.000
+dokładnie punkcie.
+
+00:00.000 --> 00:00.000
+Zobaczmy, co się będzie działo, jeśli delta x będzie
+
+00:00.000 --> 00:00.000
+coraz mniejsza i mniejsza.
+
+00:00.000 --> 00:00.000
+Tyle wynosi delta x teraz.
+
+00:00.000 --> 00:00.000
+Ta odległość, to jest delta x.
+
+00:00.000 --> 00:00.000
+Ale gdy delta x będzie mniejsza, sieczna
+
+00:00.000 --> 00:00.000
+będzie wyglądać jakoś tak.
+
+00:00.000 --> 00:00.000
+Jeśli delta x będzie jeszcze mniejsza, to sieczna
+
+00:00.000 --> 00:00.000
+będzie wyglądać tak. A jeśli delta x będzie bardzo mała,
+
+00:00.000 --> 00:00.000
+nachylenie naszej siecznej będzie prawie równe nachyleniu
+
+00:00.000 --> 00:00.000
+prostej stycznej do wykresu w punkcie 3.
+
+00:00.000 --> 00:00.000
+Tej prostej stycznej, której nachylenie
+
+00:00.000 --> 00:00.000
+chcemy właśnie obliczyć.
+
+00:00.000 --> 00:00.000
+Spróbujmy wyznaczyć granicę, gdy delta x dąży do 0.
+
+00:00.000 --> 00:00.000
+Granica przy delta x dążącym do zera, z
+
+00:00.000 --> 00:00.000
+naszego wyrażenia na nachylenie prostej siecznej,
+
+00:00.000 --> 00:00.000
+6 plus delta x, ile to wyniesie?
+
+00:00.000 --> 00:00.000
+Bardzo prosto to policzyć.
+
+00:00.000 --> 00:00.000
+Możemy po prostu podstawić za delta x zero, i otrzymamy 6.
+
+00:00.000 --> 00:00.000
+A więc nachylenie prostej stycznej do wykresu w punkcie, którego współrzędna x
+
+00:00.000 --> 00:00.000
+wynosi 3, nachylenie w tym punkcie równa się 6.
+
+00:00.000 --> 00:00.000
+Można to też zapisać inaczej w taki sposób. Wiemy, że
+
+00:00.000 --> 00:00.000
+funkcja f od x równa się x kwadrat.
+
+00:00.000 --> 00:00.000
+I wiemy, że pochodna tej funkcji, albo nachylenie prostej
+
+00:00.000 --> 00:00.000
+stycznej do wykresu tej funkcji w punkcie 3 - obliczyliśmy
+
+00:00.000 --> 00:00.000
+nachylenie tylko w tym punkcie, punkcie 3 - że ta pochodna wynosi 6.
+
+00:00.000 --> 00:00.000
+Nie wiemy jeszcze, jak wygląda ogólny wzór, który pozwoliłby nam obliczyć nachylenie
+
+00:00.000 --> 00:00.000
+prostej stycznej do tego wykresu w dowolnym punkcie, wyprowadzę ten ogólny wzór
+
+00:00.000 --> 00:00.000
+w następnym filmie.

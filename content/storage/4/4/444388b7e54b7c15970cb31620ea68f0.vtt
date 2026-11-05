@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.740 --> 00:04.160
+Schreiben Sie die Primfaktorzerlegung von 75.
+
+00:04.160 --> 00:07.390
+Schreiben Sie Ihre Antwort mit der Exponentialschreibweise.
+
+00:07.390 --> 00:08.970
+Wir haben hier einige interessante Dinge.
+
+00:08.970 --> 00:12.410
+Faktorisierung von Primzahlen, und sie sagen exponentielle Schreibweise.
+
+00:12.410 --> 00:15.460
+Wir werden uns um die exponentielle Schreibweise später kümmern.
+
+00:15.460 --> 00:18.560
+Also zuert müssen wir uns fragen, was überhaupt
+
+00:18.560 --> 00:19.380
+eine Primzahl ist?
+
+00:19.380 --> 00:22.240
+Und nur als Erinnerung, eine Primzahl ist eine Zahl
+
+00:22.240 --> 00:26.130
+die nur teilbar ist durch sich selbst und eins. Also Beispiele
+
+00:26.130 --> 00:28.880
+für Primzahlen - lassen Sie mich ein paar Zahlen schreiben.
+
+00:28.880 --> 00:34.753
+Primzahl, keine Primzahl.
+
+00:34.760 --> 00:36.840
+Also 2 ist eine Primzahl.
+
+00:36.840 --> 00:39.850
+Sie ist nur teilbar durch 1 und 2.
+
+00:39.850 --> 00:42.490
+3 ist auch eine Primzahl.
+
+00:42.490 --> 00:46.790
+Nun ist 4 keine Primzahl, weil sie
+
+00:46.790 --> 00:49.790
+teilbar ist durch 1, 2 und 4.
+
+00:49.790 --> 00:50.580
+Wir könnten jetzt so weitermachen.
+
+00:50.580 --> 00:56.220
+5 ist nur teilbar durch 1 und 5, also ist 5 eine Primzahl.
+
+00:56.220 --> 00:59.920
+6 ist keine Primzahl, weil sie durch 2 und 3 teilbar ist.
+
+00:59.920 --> 01:01.590
+Ich denke, ihr versteht das Prinzip.
+
+01:01.590 --> 01:04.160
+Weiter gehts mit 7, 7 ist eine Primzahl.
+
+01:04.160 --> 01:06.470
+Sie ist nur teilbar durch 1 und 7.
+
+01:06.470 --> 01:08.220
+8 ist keine Primzahl.
+
+01:08.220 --> 01:11.440
+Bei 9 könnte man denken, sie wäre eine Primzahl, aber vergesst nicht,
+
+01:11.440 --> 01:15.420
+dass sie auch durch 3 teilbar und damit keine Primzahl ist.
+
+01:15.420 --> 01:18.970
+Primzahlen sind nicht das Gleiche wie die ungeraden Zahlen.
+
+01:18.970 --> 01:21.400
+10 ist auch keine Primzahl,
+
+01:21.400 --> 01:23.560
+sie ist durch 2 und 5 teilbar
+
+01:23.560 --> 01:27.220
+11 ist nur teilbar durch 1 und 11, also
+
+01:27.220 --> 01:28.240
+ist 11 eine Primzahl.
+
+01:28.240 --> 01:29.780
+Wir könnten jetzt immer so weitermachen.
+
+01:29.780 --> 01:31.570
+Leute haben Computer-Programme geschrieben für die Suche
+
+01:31.570 --> 01:33.260
+nach der höchsten Primzahl und so weiter.
+
+01:33.260 --> 01:35.220
+Jetzt, wo wir wissen, was eine Primzahl ist:
+
+01:35.220 --> 01:39.240
+Primfaktorzerlegung ist das Aufbrechen einer Zahl, z.B. 75,
+
+01:39.240 --> 01:41.620
+in ein Produkt von Primzahlen.
+
+01:41.620 --> 01:43.180
+Lassen Sie uns das einmal versuchen.
+
+01:43.180 --> 01:45.530
+Lassen Sie uns also mit 75 beginnen, und ich werde etwas verwenden,
+
+01:45.530 --> 01:49.080
+das wir einen Faktorisierungsbaum nennen.
+
+01:49.080 --> 01:51.750
+So zunächst versuchen wir, die kleinste Primzahl zu finden
+
+01:51.750 --> 01:53.890
+die in 75 passt.
+
+01:53.890 --> 01:55.430
+Nun ist die kleinste Primzahl 2.
+
+01:55.430 --> 01:57.390
+Ist 75 durch 2 teilbar?
+
+01:57.390 --> 02:00.705
+75 ist eine ungerade Zahl, bzw. die Zahl im Einer,
+
+02:00.705 --> 02:02.280
+die 5, ist eine ungerade Zahl.
+
+02:02.280 --> 02:06.580
+5 ist nicht durch 2 teilbar, also ist auch 75 nicht durch 2 teilbar.
+
+02:06.580 --> 02:08.090
+Also könnte man die 3 versuchen.
+
+02:08.090 --> 02:09.639
+Ist 75 durch 3 teilbar?
+
+02:09.639 --> 02:12.440
+Nun, 7 + 5 = 12.
+
+02:12.440 --> 02:15.480
+12 ist durch 3 teilbar, also würde die 3 gehen.
+
+02:15.480 --> 02:20.440
+So 75 ist 3 mal etwas anderes.
+
+02:20.440 --> 02:22.990
+Und wenn Sie jemals etwas mit Kleingeld zu tun gehabt haben, dann wissen Sie
+
+02:22.990 --> 02:25.890
+dass man, wenn man 3 Quarters (25ct) hat, 75 cent hat, oder
+
+02:25.890 --> 02:28.930
+3 x 25 = 75.
+
+02:28.930 --> 02:31.560
+Das ist also 3 mal 25.
+
+02:31.560 --> 02:33.720
+Sie können das gerne ausmultiplizieren, wenn Sie mir nicht glauben.
+
+02:33.720 --> 02:35.960
+Multipliziere 3 mit 25.
+
+02:35.960 --> 02:40.470
+Nun, ist 25 teilbar durch - 2 können Sie schonmal vergessen.
+
+02:40.470 --> 02:44.910
+Wenn 75 ist nicht durch 2 teilbar ist, ist 25 auch nicht
+
+02:44.910 --> 02:46.000
+durch 2 teilbar.
+
+02:46.000 --> 02:48.730
+Aber vielleicht ist 25 wieder durch 3 teilbar.
+
+02:48.730 --> 02:52.290
+Also, 2 + 5 = 7. 7 ist nicht durch 3 teilbar,
+
+02:52.290 --> 02:57.700
+also ist 25 auch nicht durch 3 teilbar.
+
+02:57.700 --> 02:59.480
+Also machen wir weiter: 5.
+
+02:59.480 --> 03:01.430
+Ist 25 durch 5 teilbar?
+
+03:01.430 --> 03:01.980
+Ja, sicher.
+
+03:01.980 --> 03:03.590
+Es ist 5 x 5.
+
+03:03.590 --> 03:08.330
+Also 25 = 5 x 5.
+
+03:08.330 --> 03:11.730
+Und jetzt sind wir fertig mit der Primfaktorzerlegung,
+
+03:11.730 --> 03:13.390
+denn jetzt haben wir alle Primzahlen.
+
+03:13.390 --> 03:18.270
+Wir können schreiben:
+
+03:18.270 --> 03:25.640
+75 = 3 x 5 x 5.
+
+03:25.640 --> 03:27.350
+Wir können sagen, es ist 3 x 25.
+
+03:27.350 --> 03:29.400
+25 = 5 x 5.
+
+03:29.400 --> 03:33.370
+3 mal 25, 25 ist 5 mal 5.
+
+03:33.370 --> 03:36.460
+Das ist also eine Primfaktorzerlegung, aber sie wollen, dass wir
+
+03:36.460 --> 03:41.690
+unsere Antwort in Exponentialschreibweise schreiben.
+
+03:41.690 --> 03:44.560
+Das heißt also, dass, wenn sich Primzahlen wiederholen, wir sie
+
+03:44.560 --> 03:45.920
+als Exponenten schreiben können.
+
+03:45.920 --> 03:48.480
+Also, was ist 5 mal 5?
+
+03:48.480 --> 03:52.380
+5 mal 5 ist 5 zweimal mit sich selbst multipliziert.
+
+03:52.380 --> 03:56.310
+Das ist das gleiche wie 5 hoch 2.
+
+03:56.310 --> 03:58.380
+Also, wenn wir unsere Antwort in der Exponentialschreibweise schreiben wollen,
+
+03:58.380 --> 04:03.420
+können wir sagen, es ist 3 mal 5 hoch 2,
+
+04:03.420 --> 04:08.110
+was das gleiche ist, wie 5 mal 5.

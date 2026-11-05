@@ -1,0 +1,436 @@
+WEBVTT
+
+00:02.504 --> 00:10.138
+Der Berater des Königs, Arbegla, beobachtet die Diskussion zwischen Dir, dem König und dem Vogel. Er wird eifersüchtig.
+
+00:10.138 --> 00:14.354
+Eigentlich sollte er der weise Mensch im Königreich sein.
+
+00:14.354 --> 00:17.221
+Er tritt näher und sagt: "Wenn ihr beide, Du und Dein Vogel
+
+00:17.221 --> 00:22.904
+so klug seid, dann könnt Ihr auch das Rätsel der Obst-Preise lösen?"
+
+00:22.904 --> 00:27.838
+Und der König sagte: "Ja, das ist etwas, das wir noch nicht herausgefunden haben".
+
+00:27.838 --> 00:32.521
+"Die Obst-Preise. Arbegla, erzähl das Rätsel der Obst-Preise".
+
+00:32.521 --> 00:34.739
+Und Arbegla sagte:"Nun,
+
+00:34.739 --> 00:40.221
+wir wollten festhalten, wieviel das Obst kostet, aber wir vergaßen"
+
+00:40.221 --> 00:45.622
+"festzuhalten wie viel es kostete als wir beim Markt waren. Aber: Wir wissen, wieivel wir insgesamt ausgegeben haben!"
+
+00:45.622 --> 00:50.238
+"Und wir wissen, wieviel wir bekommen haben. Wir wissen, dass vor einer Woche"
+
+00:50.238 --> 00:55.987
+"als wir auf dem Obstmarkt waren, folgendes gekauft haben"
+
+00:55.987 --> 01:01.387
+"2 Pfund Äpfel und 1 Pfund Bananen"."
+
+01:01.387 --> 01:09.087
+"Und das hat insgesamt soviel gekostet:"
+
+01:09.087 --> 01:15.254
+"3 Dollar hat es insgesamt gekostet".
+
+01:15.254 --> 01:21.636
+" Als wir davor das mal auf dem Obstmarkt gewesen waren"
+
+01:21.636 --> 01:26.321
+"da haben wir 6 Pfund Äpfel"
+
+01:26.321 --> 01:32.487
+"und 3 Pfund Bananen gekauft".
+
+01:32.487 --> 01:36.954
+"Und das hat insgesamt soviel gekostet:
+
+01:36.954 --> 01:42.705
+"15 Dollar hat es insgesamt gekostet".
+
+01:42.705 --> 01:46.271
+Was kosten also die Äpfel und die Bananen?
+
+01:46.271 --> 01:48.353
+Also schaust Du den Vogel an.
+
+01:48.353 --> 01:51.654
+Und der Vogel schaut Dich an. Der Vogel flüstert in das Ohr des Königs und der König sagt:
+
+01:51.654 --> 01:56.671
+"Der Vogel sagt, dass wir nur anfangen müssen, ein paar Variablen zu definieren, um das ganze algebraisch auszudrücken"
+
+01:56.671 --> 02:01.955
+Also machst Du Dich daran. Was wir herausfinden wollen, sind die Kosten von Äpfel und die Kosten von Bananen.
+
+02:01.955 --> 02:06.688
+Die Kosten pro Pfund suchen wir. Also setzen wir Variablen:
+
+02:06.688 --> 02:17.405
+Lass a = Kosten von Äpfeln pro Pfund sein.
+
+02:17.405 --> 02:23.054
+Und lass b = Kosten von Bananen pro Pfund sein.
+
+02:23.054 --> 02:29.072
+Wie können wir die Information hier interpretieren?
+
+02:29.072 --> 02:34.138
+Zwei Pfund Äpfel und ein Pfund Bananen kosten 3 Dollar.
+
+02:34.138 --> 02:43.054
+Wie teuer sind also die Äpfel? Die Äpfel kosten 2 Pfund mal dem Preis pro Pfund.
+
+02:43.054 --> 02:48.338
+Der Preis pro Pfund ist a. Die Kosten für Äpfel sind als 2 mal den Preis pro Pfund.
+
+02:48.338 --> 02:53.820
+Und was kosten die Bananen? Diese kosten 1 mal den Preis pro Pfund.
+
+02:53.820 --> 02:58.639
+Also einfach nur b. Das sind die Kosten der Bananen.
+
+02:58.639 --> 03:03.404
+Wir wissen, dass wir einmal die Gesamtkosten von Äpfel und Bananen also
+
+03:03.404 --> 03:07.304
+2a + b von insgesamt 3 Dollar bezahlt haben.
+
+03:07.304 --> 03:14.938
+Nun lass uns das für die andere Zeit, als wir beim Markt waren, genauso machen.
+
+03:14.938 --> 03:20.137
+6 Pfund Äpfel: die Gesamtkosten sind 6 mal den Preis a pro Pfund.
+
+03:20.137 --> 03:23.605
+Für Bananen sind die Gesamtkosten 3 mal den Preis b pro Pfund.
+
+03:23.605 --> 03:25.570
+Wir hatten 3 Pfund Bananen gekauft.
+
+03:25.570 --> 03:27.938
+Und die Kosten pro Pfund sind b.
+
+03:27.938 --> 03:31.488
+Die Gesamtkosten der Äpfel und Bananen
+
+03:31.488 --> 03:35.936
+sind in diesem Szenario 15.
+
+03:35.936 --> 03:38.721
+Es sind 15 Dollar.
+
+03:38.721 --> 03:41.204
+Nun lass uns darüber nachdenken, wie wir dies lösen können.
+
+03:41.204 --> 03:44.053
+Wir könnten Elimination nutzen, oder Substitution.
+
+03:44.053 --> 03:45.753
+Was auch immer wir machen, wir könnten es graphisch darstellen.
+
+03:45.753 --> 03:47.754
+Lass es uns zuerst mit Elimination versuchen.
+
+03:47.754 --> 03:50.804
+Das erste, was ich versuche, ist,
+
+03:50.804 --> 03:54.338
+diese Variable a hier zu eliminieren.
+
+03:54.338 --> 03:57.656
+Damit habe ich 2 a auf dieser Seite
+
+03:57.656 --> 04:00.039
+und ich habe 6 a hier.
+
+04:00.039 --> 04:03.838
+Wenn ich also die ganze Gleichung mit -3 multiplizieren,
+
+04:03.838 --> 04:09.088
+dann wird aus 2a nun -6a und ich bin in der Lage,
+
+04:09.088 --> 04:10.504
+diese zu eliminieren.
+
+04:10.504 --> 04:11.421
+Lass mich dies machen.
+
+04:11.421 --> 04:13.589
+Lass mich die ganze Gleichung multiplizieren
+
+04:13.589 --> 04:16.638
+mit -3
+
+04:16.638 --> 04:19.337
+und ich erhalte
+
+04:19.337 --> 04:23.071
+-3 mal 2a ergibt -6a
+
+04:23.071 --> 04:27.256
+-3 mal b ergibt -3b.
+
+04:27.256 --> 04:30.555
+und -3 mal 3 ergibt -9.
+
+04:30.555 --> 04:32.821
+Das ist minus 9.
+
+04:32.821 --> 04:35.888
+Und können wir diese zwei Gleichungen addieren,
+
+04:35.888 --> 04:38.071
+beziehungsweise die linke Seite zur linken Seite addieren
+
+04:38.071 --> 04:40.372
+und die rechte Seite zur rechten Seite addieren.
+
+04:40.372 --> 04:44.188
+Wir addieren also dasselbe auf beiden Seiten der Gleichung,
+
+04:44.188 --> 04:46.054
+weil wir wissen, das dies gleich dem ist.
+
+04:46.054 --> 04:47.288
+So lass uns dies machen.
+
+04:47.288 --> 04:48.888
+Also:
+
+04:48.888 --> 04:51.671
+Auf der linken Seite haben wir 6a und 6a, die sich gegenseitig eliminieren.
+
+04:51.671 --> 04:57.320
+Aber noch etwas interessantes passiert: 3b und 3b eliminieren sich auch.
+
+04:57.320 --> 05:01.771
+Es bleibt also 0 auf der linken Siete.
+
+05:01.771 --> 05:04.654
+Und was haben wir auf der rechten Seite?
+
+05:04.654 --> 05:07.987
+15-9=6.
+
+05:07.987 --> 05:12.271
+Wir bekommen also einen sehr bizarren Ausdruck! All Variablen sind weg.
+
+05:12.271 --> 05:15.738
+Und es bleibt eine bizarre unvernünftige Aussage übrig:
+
+05:15.738 --> 05:22.289
+0=6. Das ist definitiv falsch.
+
+05:22.289 --> 05:25.472
+Also, was passiert hier?
+
+05:25.472 --> 05:29.455
+Du sagst also: Was geht hier vor? Und Du schaust den Vogel an,
+
+05:29.455 --> 05:32.188
+denn der Vogel scheint die am meisten wissende Person in diesem Raum zu sein
+
+05:32.188 --> 05:34.455
+beziehungsweise das am meisten wissende Wirbeltier in diesem Raum.
+
+05:34.455 --> 05:37.236
+Der Vogel flüstert in das Ohr des Königs.
+
+05:37.236 --> 05:42.471
+Und der König sagt: "Der Vogel sagt, dass es keine Lösung gibt!
+
+05:42.471 --> 05:45.088
+Du solltest aber zumindest versuchen, es aufzumalen, um zu sehen, warum das so ist.
+
+05:45.088 --> 05:47.822
+Und Du sagts: "Ok, der Vogel scheint zu wissen, worüber er spricht".
+
+05:47.822 --> 05:51.604
+Lass mich versuchen, diese zwei Gleichungen zu zeichnen.
+
+05:51.604 --> 05:52.621
+Dann sehen wir, was hier vor sich geht.
+
+05:52.621 --> 05:57.238
+Was Du also machst, ist, beide Gleichungen zu nehmen
+
+05:57.238 --> 05:59.321
+und wenn Du sie zeichnest, nimmst Du am besten
+
+05:59.321 --> 06:02.671
+eine Art y-Achsenabschnitt oder Kurvenabschnitt.
+
+06:02.671 --> 06:05.488
+Lass mich zuerst nach b auflösen, dann siehst Du, was ich meine.
+
+06:07.290 --> 06:09.904
+Wir lösen dann b auf,
+
+06:09.904 --> 06:12.304
+indem wir 2a von beiden Seiten subtrahieren.
+
+06:12.304 --> 06:14.887
+Wenn Du 2a von beiden Seiten der ersten Gleichung subtrahierst,
+
+06:14.887 --> 06:18.354
+erhältst Du b=-2a+3
+
+06:18.354 --> 06:23.204
+Nun lösen wir die zweite Gleichung nach b.
+
+06:23.204 --> 06:27.770
+Das erste, was Du machst, ist, 6a von beiden Seiten zu subtrahieren.
+
+06:27.770 --> 06:33.271
+Ich mache das mal hier vor.
+
+06:33.271 --> 06:38.955
+Du erhältst 3b=-6a plus 15.
+
+06:38.955 --> 06:41.638
+Du kannst nun beide Seiten durch 3 dividieren.
+
+06:41.638 --> 06:44.122
+Und Du erhältst b=-2a plus 5.
+
+06:44.122 --> 06:49.688
+Die zweite Gleichung ist also
+
+06:49.688 --> 06:53.471
+- ich nutze dieses andere grün - b=-2a+5.
+
+06:53.471 --> 06:57.504
+Wir haben das noch nicht gezeichnet.
+
+06:57.504 --> 06:59.253
+Aber es sieht schon ganz interessant aus.
+
+06:59.253 --> 07:01.938
+Beide haben die gleiche Neigung.
+
+07:01.938 --> 07:04.921
+Wenn Du nach Termen löst, wenn Du nach b löst,
+
+07:04.921 --> 07:08.404
+dann siehst Du, dass sie die b-Achse an unteschiedlichen Stellen schneiden.
+
+07:08.404 --> 07:10.539
+Lass es uns nun zeichnen, damit Du siehst, was hier passiert.
+
+07:10.539 --> 07:16.804
+Ich zeichne also Achsen ein. Lass uns diese als b-Achse nehmen.
+
+07:16.804 --> 07:20.372
+Dann ist dies die a-Achse.
+
+07:20.372 --> 07:24.504
+Die erste Gleichung hat schneidet die b-Achse bei plus 3.
+
+07:28.104 --> 07:31.354
+Hier bei plus 3.
+
+07:31.354 --> 07:33.755
+Und es hat eine negative Steigung von 2.
+
+07:33.755 --> 07:36.455
+Also fällt die Kurve um 2 wenn Du einen Schritt nach rechts gehst.
+
+07:36.455 --> 07:39.504
+Ein Schritt nach rechts, zwei nach unten.
+
+07:39.504 --> 07:41.054
+Also sieht die Kurve etwa so aus.
+
+07:41.054 --> 07:44.071
+Ich bemühe mich, dies ganz gerade einzuzeichnen.
+
+07:44.071 --> 07:47.804
+Es sieht etwas so aus.
+
+07:47.804 --> 07:49.603
+Das zeichne ich grün.
+
+07:49.603 --> 07:52.904
+Bei dieser grünen Kurve schneiden wir die b-Achse bei 5.
+
+07:52.904 --> 07:55.671
+Das ist genau hier. Und wir haben die gleiche Neigung.
+
+07:55.671 --> 07:57.154
+Eine negative Steigung von 2.
+
+07:57.154 --> 08:04.123
+Damit sieht das ungefähr so aus.
+
+08:04.123 --> 08:07.421
+Und Du siehst sofort, dass der Vogel recht hatte.
+
+08:07.421 --> 08:10.805
+Es gibt keine Lösung, weil diese beiden Bedingungen
+
+08:10.805 --> 08:14.622
+durch Linien gezeichnet werden können,
+
+08:14.622 --> 08:20.004
+die sich nicht schneiden. Die beiden Linien schneiden sich nicht.
+
+08:22.254 --> 08:25.588
+Sie schneiden sich nicht, der Vogel hat Recht.
+
+08:25.588 --> 08:30.138
+Es gibt keine Lösung. Es gibt kein x oder y, das beide Aussagen gleichermassen richtig macht.
+
+08:30.138 --> 08:35.171
+Es gibt nichts, was die Aussage 0=6 richtig macht.
+
+08:35.171 --> 08:37.855
+Und eine Idee keimt in Dir auf.
+
+08:37.855 --> 08:40.938
+Du realisierst, dass Arbegla versucht, Dich reinzulegen.
+
+08:40.938 --> 08:43.421
+Und Du sagst: "Arbegla, Du hast mir
+
+08:43.421 --> 08:45.871
+inkonsistente Informationen gegeben".
+
+08:45.871 --> 08:48.904
+Das ist ein inkonsistentes System von Gleichungen.
+
+08:48.904 --> 08:53.138
+In-kon-sistent! Das ist das Wort,
+
+08:53.138 --> 08:55.220
+das wir machmal nutzen, um ein System zu beschreiben
+
+08:55.220 --> 08:58.304
+das keine Lösung hat, wo sich die Linien nicht schneiden.
+
+08:58.304 --> 09:01.720
+Daher ist diese Information nicht korrekt.
+
+09:04.939 --> 09:08.687
+Entweder lügst Du, was möglich ist, oder, Du hast es falsch ausgedrückt.
+
+09:08.687 --> 09:12.304
+Oder aber, die Preise von Äpfel und Bananen haben sich geändert
+
+09:12.304 --> 09:14.789
+zwischen den zwei Besuchen auf dem Markt.
+
+09:14.789 --> 09:18.539
+An dieser Stelle flüstert der Vogel in das Ohr des Königs und es sagt:
+
+09:18.539 --> 3:59:59.999
+Oh, dieser Mensch ist gar nicht so schlecht in Algebra.

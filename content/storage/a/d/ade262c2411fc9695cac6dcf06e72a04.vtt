@@ -1,0 +1,324 @@
+WEBVTT
+
+00:00.530 --> 00:01.660
+- [Instructor] You've
+already spent a lot of
+
+00:01.660 --> 00:04.650
+your mathematical lives
+talking about functions.
+
+00:04.650 --> 00:08.270
+The basic idea is give a
+valid input into a function,
+
+00:08.270 --> 00:11.180
+so a member of that function's domain,
+
+00:11.180 --> 00:15.950
+and then the function is going
+to tell you for that input
+
+00:15.950 --> 00:18.610
+what is going to be the
+corresponding output.
+
+00:18.610 --> 00:21.800
+And we call that
+corresponding output f of x.
+
+00:21.800 --> 00:24.960
+So, for example, there's many
+ways of defining functions.
+
+00:24.960 --> 00:29.960
+You could say something like
+f of x is equal to x squared.
+
+00:30.460 --> 00:32.500
+So that means that whatever x,
+
+00:32.500 --> 00:34.310
+whatever you input into the function,
+
+00:34.310 --> 00:37.910
+the output is going to
+be that input squared.
+
+00:37.910 --> 00:39.790
+You could have something
+defined like this.
+
+00:39.790 --> 00:43.080
+F of x is equal to
+
+00:43.080 --> 00:44.150
+x squared
+
+00:45.689 --> 00:48.070
+if x odd.
+
+00:48.070 --> 00:53.070
+And you could say it's equal
+to x to the third otherwise,
+
+00:53.250 --> 00:54.083
+otherwise.
+
+00:55.450 --> 00:57.980
+So if it's an odd integer,
+
+00:57.980 --> 00:59.790
+it's an odd integer, you just square it.
+
+00:59.790 --> 01:02.100
+But otherwise, for any other real number,
+
+01:02.100 --> 01:03.870
+you take it to the third power.
+
+01:03.870 --> 01:06.320
+This is a valid way of
+defining a function.
+
+01:06.320 --> 01:08.980
+What we're going to do in this
+video is explore a new way
+
+01:08.980 --> 01:11.760
+or potentially a new way for
+you of defining a function.
+
+01:11.760 --> 01:14.650
+And that's by using a definite integral,
+
+01:14.650 --> 01:17.200
+but it's the same general idea.
+
+01:17.200 --> 01:20.020
+So what we have graphed
+here, this is the t-axis,
+
+01:20.020 --> 01:23.540
+this is the y-axis, and we have
+the graph of the function f,
+
+01:23.540 --> 01:26.940
+or you could view this as the graph of
+
+01:26.940 --> 01:28.870
+y is equal to
+
+01:28.870 --> 01:30.420
+f of t.
+
+01:30.420 --> 01:31.330
+Now, what I want to,
+
+01:31.330 --> 01:33.840
+and this is another way of representing
+
+01:33.840 --> 01:35.870
+what outputs you might
+get for a given input.
+
+01:35.870 --> 01:38.720
+Here, if t is one, f of t is five.
+
+01:38.720 --> 01:41.440
+If t is four, f of t is three.
+
+01:41.440 --> 01:43.640
+But I'm now going to define a new function
+
+01:43.640 --> 01:47.000
+based on a definite integral of f of t.
+
+01:47.000 --> 01:48.920
+Let's define our new function.
+
+01:48.920 --> 01:51.080
+Let's say g,
+
+01:51.080 --> 01:53.370
+let's call it g of x.
+
+01:53.370 --> 01:55.940
+Let's make it equal to
+the definite integral
+
+01:55.940 --> 01:57.760
+from negative two
+
+01:57.760 --> 01:59.480
+to x
+
+01:59.480 --> 02:02.120
+of f of t
+
+02:02.120 --> 02:02.953
+dt.
+
+02:04.240 --> 02:05.930
+Now, pause this video,
+really take a look at it.
+
+02:05.930 --> 02:09.540
+This might look really fancy,
+but what's happening here is,
+
+02:09.540 --> 02:13.810
+given an input x, g of x
+is going to be based on
+
+02:13.810 --> 02:17.660
+what the definite integral
+here would be for that x.
+
+02:17.660 --> 02:19.480
+And so we can set up a little table here
+
+02:19.480 --> 02:22.540
+to think about some potential values.
+
+02:22.540 --> 02:27.540
+So let's say x, and let's
+say g of x right over here.
+
+02:27.620 --> 02:30.470
+So if x is one,
+
+02:30.470 --> 02:33.413
+what is g of x going to be equal to?
+
+02:34.390 --> 02:37.200
+All right, so g of one
+
+02:37.200 --> 02:39.960
+is going to be equal to
+the definite integral,
+
+02:39.960 --> 02:41.520
+going from negative two.
+
+02:41.520 --> 02:43.750
+Now x is going to be equal
+to one in this situation.
+
+02:43.750 --> 02:45.740
+That's what we're inputting
+into the function.
+
+02:45.740 --> 02:49.510
+So one is our upper bound of f of t dt.
+
+02:49.510 --> 02:51.380
+And what is that equal to?
+
+02:51.380 --> 02:52.660
+Well, that's going to be the area
+
+02:52.660 --> 02:55.490
+under the curve and above the t-axis,
+
+02:55.490 --> 03:00.060
+between t equals negative
+two and t is equal to one.
+
+03:00.060 --> 03:02.470
+So it's going to be this area here.
+
+03:02.470 --> 03:04.420
+And we, since it's on a grid,
+
+03:04.420 --> 03:05.730
+we can actually figure this out.
+
+03:05.730 --> 03:07.930
+We can actually break
+this up into two sections.
+
+03:07.930 --> 03:12.140
+This rectangular section is
+three wide and five high,
+
+03:12.140 --> 03:14.530
+so it has an area of 15 square units.
+
+03:14.530 --> 03:16.290
+And this little triangular section up here
+
+03:16.290 --> 03:18.580
+is two wide and one high.
+
+03:18.580 --> 03:19.940
+Two times one times one half,
+
+03:19.940 --> 03:22.730
+area of a triangle, this
+is going to be another one.
+
+03:22.730 --> 03:25.723
+So that area is going to be equal to 16.
+
+03:26.580 --> 03:27.750
+What if
+
+03:27.750 --> 03:30.540
+x is equal to
+
+03:30.540 --> 03:31.373
+two?
+
+03:31.373 --> 03:33.960
+What is g of two going to be equal to?
+
+03:33.960 --> 03:36.210
+Pause this video, and
+try to figure that out.
+
+03:37.310 --> 03:40.990
+Well, g of two is going to be
+equal to the definite integral
+
+03:40.990 --> 03:44.050
+from negative two, and now
+our upper bound's going to be
+
+03:44.050 --> 03:48.180
+our input into the function
+to two, of f of t dt.
+
+03:50.030 --> 03:52.890
+So that's going to be going from here,
+
+03:52.890 --> 03:55.370
+all the way now to here.
+
+03:55.370 --> 03:57.610
+And so it's the area we just calculated.
+
+03:57.610 --> 03:58.930
+It's all of this stuff,
+
+03:58.930 --> 04:01.230
+which we figured out was 16 square units,
+
+04:01.230 --> 04:04.930
+plus another one, two, three,
+four, five square units.
+
+04:04.930 --> 04:08.790
+So 16 plus five, this is
+going to be equal to 21.
+
+04:08.790 --> 04:10.140
+So hopefully that helps,
+
+04:10.140 --> 04:12.950
+and the key thing to appreciate
+here is that we can define
+
+04:12.950 --> 04:16.667
+valid functions by using
+definite integrals.

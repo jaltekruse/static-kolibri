@@ -1,0 +1,356 @@
+WEBVTT
+
+00:00.006 --> 00:11.715
+Digamos que f(x) seja igual a x^2 + x -6/x - 2.
+
+00:11.715 --> 00:15.176
+E estamos curiosos sobre quanto é o limite de f(x)
+
+00:15.176 --> 00:20.696
+quando x tende a 2.
+
+00:20.696 --> 00:23.227
+A primeira tentativa que você pode fazer,
+
+00:23.227 --> 00:25.662
+quando você se depara com algo desse tipo,
+
+00:25.662 --> 00:28.453
+é apenas ver o que acontece, quanto vale f(2)?
+
+00:28.453 --> 00:29.645
+No entanto, isso não será sempre o limite,
+
+00:29.645 --> 00:30.889
+mesmo se a função for definida.
+
+00:30.889 --> 00:32.382
+Mas é um bom jeito de começar,
+
+00:32.382 --> 00:34.661
+apenas para ver se algo razoável aparece.
+
+00:34.661 --> 00:38.352
+Olhando para a função dessa
+forma, se calcularmos f(2),
+
+00:38.352 --> 00:41.690
+no numerador, ficamos com 2^2 + 2 - 6.
+
+00:41.690 --> 00:44.171
+Isso será 4 + 2, que é 6, -6.
+
+00:44.171 --> 00:46.422
+Então você fica com 0 no numerador,
+
+00:46.422 --> 00:48.126
+e com 0 no denominador.
+
+00:48.126 --> 00:55.073
+Então não temos -- a função
+não é definida em x = 2.
+
+00:55.073 --> 00:57.586
+ESCREVENDO: f não está definida.
+
+00:57.586 --> 00:59.030
+Logo, não há algo simples aqui.
+
+00:59.030 --> 01:02.179
+Mesmo se ela fosse definida,
+se a função fosse contínua,
+
+01:02.179 --> 01:05.308
+então o limite seria o valor da
+função nesse ponto.
+
+01:05.308 --> 01:06.922
+Mas este não é o caso.
+
+01:06.922 --> 01:10.243
+Podemos ver claramente que a função
+não está definida aqui.
+
+01:10.243 --> 01:11.812
+Vamos ver então se
+conseguimos simplificar isso.
+
+01:11.812 --> 01:13.386
+E também tentaremos montar o gráfico
+dessa função de alguma forma.
+
+01:13.386 --> 01:16.117
+Uma coisa que deve ter chamado sua atenção é
+
+01:16.117 --> 01:18.959
+que você pode querer fatorar
+a expressão de cima.
+
+01:18.959 --> 01:20.456
+Então, se quiséssemos reescreve-la,
+
+01:20.456 --> 01:22.513
+poderíamos reescrever a expressão de cima -
+
+01:22.513 --> 01:24.142
+(Retornando à Álgebra I.)
+
+01:24.142 --> 01:27.784
+Dois números cujo produto seja -6
+e cuja soma seja +3.
+
+01:27.784 --> 01:30.483
+Bem, poderiam ser o +3 e o -2.
+
+01:30.483 --> 01:40.438
+Então isso poderia ser x + 3 × x - 2,
+tudo sobre x - 2.
+
+01:40.438 --> 01:43.370
+Desde que x não seja igual a 2,
+
+01:43.370 --> 01:45.763
+essas duas coisas vão se cancelar.
+
+01:45.763 --> 01:50.353
+Poderíamos dizer então que isso
+é igual a x + 3
+
+01:50.353 --> 01:58.106
+para todos o x's menos para x = 2,
+enquanto x não for igual a 2.
+
+01:58.106 --> 01:59.726
+Essa é uma outra maneira de
+olhar para a função.
+
+01:59.726 --> 02:01.322
+Agora, uma outra maneira
+de reescrever nossa f(x) --
+
+02:01.322 --> 02:04.689
+(Vou escrever em azul,
+apenas para diferenciar as cores.)
+
+02:04.689 --> 02:06.459
+-- poderíamos reescrever f(x) --
+é exatamente a mesma função --
+
+02:06.459 --> 02:14.194
+f(x) é igual a x + 3 quando x é diferente de 2.
+
+02:14.194 --> 02:20.234
+Poderíamos dizer até que a função
+é indefinida quando x = 2.
+
+02:20.234 --> 02:24.308
+Então dada essa definição,
+fica muito mais claro para nós
+
+02:24.308 --> 02:26.642
+como podemos fazer o gráfico de f(x).
+
+02:26.642 --> 02:28.069
+Vamos tentar fazer o gráfico.
+
+02:28.069 --> 02:31.856
+DESENHANDO: (Isso não está nem
+perto de ser uma linha reta.
+
+02:31.856 --> 02:33.785
+Assim é muito melhor.)
+
+02:33.785 --> 02:36.054
+Vamos chamar isso de eixo y.
+
+02:36.054 --> 02:38.477
+Chamaremos isso de y = f(x).
+
+02:38.477 --> 02:40.582
+E então, aqui, deixe eu fazer
+
+02:40.582 --> 02:44.067
+uma linha horizontal que será meu eixo x.
+
+02:44.067 --> 02:48.263
+Definida dessa forma, f(x) = x + 3.
+
+02:48.263 --> 02:54.000
+Se isso é 1, 2, 3, temos uma
+intersecção no eixo y em 3,
+
+02:54.000 --> 02:56.206
+e o coeficiente angular é 1.
+
+02:56.206 --> 03:00.564
+Mas está definida para todos os x's
+com exceção de x = 2.
+
+03:00.564 --> 03:02.948
+Então isso é x = 1, isso é x = 2.
+
+03:02.948 --> 03:07.415
+Quando x = 2, a função é indefinida.
+
+03:07.415 --> 03:08.646
+Deixe-me ter certeza
+que eu posso --
+
+03:08.646 --> 03:10.328
+A função é indefinida bem ali.
+
+03:10.328 --> 03:16.924
+Desenhando: Então é indefinida bem ali.
+
+03:16.924 --> 03:21.857
+Isso é como a f(x) se parece.
+
+03:21.857 --> 03:24.738
+Agora, dado isso, vamos tentar
+responder a nossa pergunta.
+
+03:24.738 --> 03:27.715
+Qual é o limite de f(x)
+quando x tende a 2?
+
+03:27.715 --> 03:29.889
+Bem, podemos olhar para isso graficamente.
+
+03:29.889 --> 03:32.880
+Quando x tende a 2 para
+valores menores que 2 --
+
+03:32.880 --> 03:36.957
+(Isso, bem aqui, é x = 2.)
+
+03:36.957 --> 03:39.278
+Se formos até, digamos que isso seja 1.7,
+
+03:39.278 --> 03:43.099
+vemos que nossa f(x) está bem ali.
+
+03:43.099 --> 03:46.610
+Se chegarmos a 1.9, nossa f(x) está bem ali.
+
+03:46.610 --> 03:51.343
+Parece que está se aproximando esse valor aqui.
+
+03:51.343 --> 03:55.802
+Semelhantemente, quando nos aproximamos de
+2 para valores maiores que 2,
+
+03:55.802 --> 03:59.672
+se estivermos - eu não sei - isso
+poderia ser 2.5
+
+03:59.672 --> 04:02.259
+nossa f(x) está bem ali.
+
+04:02.259 --> 04:06.308
+Se chegarmos mais perto de 2,
+nossa f(x) está bem ali.
+
+04:06.308 --> 04:10.342
+E mais uma vez, parece que estamos
+nos aproximando desse valor.
+
+04:10.342 --> 04:11.606
+Ou, uma outra maneira de pensar,
+
+04:11.606 --> 04:13.675
+se seguirmos essa linha pela direção positiva,
+
+04:13.675 --> 04:16.586
+parece que estamos nos aproximando
+desse valor para f(x).
+
+04:16.586 --> 04:19.257
+Se seguirmos esse linha
+pela direção negativa -
+
+04:19.257 --> 04:20.815
+para valores menores que 2 -
+
+04:20.815 --> 04:24.430
+parece que estamos nos
+aproximando desse valor aqui.
+
+04:24.430 --> 04:30.054
+E isso é essencialmente o valor de
+x + 3 se fizermos x = 2.
+
+04:30.054 --> 04:32.379
+Então, isso será basicamente -
+
+04:32.389 --> 04:35.603
+esse valor aqui é igual a 5
+
+04:35.603 --> 04:37.508
+se apenas olharmos para isso visualmente.
+
+04:37.508 --> 04:43.373
+Se fizéssemos o gráfico de uma reta com
+coeficiente angular 1, com uma intersecção em y em 3,
+
+04:43.373 --> 04:45.240
+esse valor aqui seria 5.
+
+04:45.240 --> 04:48.196
+Agora, nós também podemos tentar
+fazer isso numericamente.
+
+04:48.196 --> 04:51.429
+Vamos tentar fazer isso.
+
+04:51.429 --> 04:54.774
+Se essa é a definição de nossa função -
+
+04:54.774 --> 04:59.717
+completamente idêntica à
+nossa definição original -
+
+04:59.717 --> 05:03.628
+então nós apenas testamos valores
+para x's cada vez mais próximos de 2.
+
+05:03.628 --> 05:05.747
+Vamos testar valores menores que 2.
+
+05:05.747 --> 05:08.252
+Então, 1.99999 -
+
+05:08.252 --> 05:09.734
+(Isso é quase óbvio.)
+
+05:09.734 --> 05:16.269
+1.99999 + 3, isso te deixa muito perto de 5.
+
+05:16.269 --> 05:18.769
+Se eu colocar mais 9's aqui,
+e chegar mais perto de 2,
+
+05:18.769 --> 05:20.247
+nós chegaríamos mais perto ainda de 5.
+
+05:20.247 --> 05:24.469
+Se nos aproximarmos de 2 pela direção positiva --
+
+05:24.469 --> 05:28.133
+E então, novamente estamos chegando
+
+05:28.133 --> 05:29.793
+mais perto de 5 pela direção positiva.
+
+05:29.793 --> 05:32.553
+Se estivéssemos mais perto ainda de 2,
+estaríamos mais perto ainda de 5.
+
+05:32.553 --> 05:34.603
+Tanto olhando para a função numericamente,
+
+05:34.603 --> 05:36.553
+quanto graficamente, fica bem claro
+
+05:36.553 --> 05:44.000
+que o limite aqui será igual a 5.
+[Legendado por Jonny Oda / Revisado por Igor Gomes]

@@ -1,0 +1,547 @@
+WEBVTT
+
+00:00.516 --> 00:02.118
+- [Voiceover] As we start to graph lines,
+
+00:02.118 --> 00:04.300
+we might notice that they're
+differences between lines.
+
+00:04.300 --> 00:07.760
+For example, this pink or
+this magenta line here,
+
+00:07.760 --> 00:10.361
+it looks steeper than this blue line.
+
+00:11.091 --> 00:13.681
+And what we'll see is
+this notion of steepness,
+
+00:13.681 --> 00:17.404
+how steep a line is, how
+quickly does it increase
+
+00:17.424 --> 00:18.719
+or how quickly does it decrease,
+
+00:19.039 --> 00:21.716
+is a really useful idea in mathematics.
+
+00:22.156 --> 00:25.160
+So ideally, we'd be
+able to assign a number
+
+00:25.380 --> 00:27.357
+to each of these lines
+or to any lines that
+
+00:27.357 --> 00:29.563
+describes how steep it is,
+
+00:29.563 --> 00:33.278
+how quickly does it increase or decrease?
+
+00:33.968 --> 00:35.577
+So what's a reasonable way to do that?
+
+00:35.577 --> 00:37.497
+What's a reasonable way to assign a number
+
+00:37.497 --> 00:40.058
+to these lines that
+describe their steepness?
+
+00:41.328 --> 00:43.061
+Well one way to think
+about it, could say well,
+
+00:43.061 --> 00:45.461
+how much does a line increase
+
+00:47.758 --> 00:48.781
+in the vertical direction
+
+00:48.781 --> 00:51.892
+for a given increase in
+the horizontal direction?
+
+00:52.482 --> 00:53.388
+So let's write this down.
+
+00:54.038 --> 00:56.606
+So let's say if we an increase
+
+00:57.366 --> 00:59.358
+increase, in vertical,
+
+01:00.493 --> 01:01.560
+in vertical,
+
+01:02.480 --> 01:05.382
+for a given increase in horizontal
+
+01:05.382 --> 01:07.924
+for a given increase
+
+01:08.707 --> 01:10.292
+a given increase
+
+01:11.243 --> 01:12.773
+in horizontal.
+
+01:13.623 --> 01:17.340
+So, how can this give us a value?
+
+01:18.094 --> 01:20.927
+Well let's look at that
+magenta line again.
+
+01:21.430 --> 01:23.299
+Now let's just start at an arbituary point
+
+01:23.299 --> 01:24.244
+in that magenta line.
+
+01:24.244 --> 01:25.176
+But I'll start at a point
+
+01:25.176 --> 01:26.466
+where it's going to be easy for me
+
+01:26.466 --> 01:28.532
+to figure out what point we're at.
+
+01:29.212 --> 01:30.731
+So if we were to start right here,
+
+01:31.941 --> 01:34.423
+and if I were to increase
+in the horizontal
+
+01:34.563 --> 01:36.280
+direction by one.
+
+01:37.090 --> 01:38.360
+So I move one to the right.
+
+01:38.825 --> 01:40.066
+To get back on the line, how much
+
+01:40.066 --> 01:42.342
+do I have to increase in
+the vertical direction?
+
+01:42.862 --> 01:45.714
+Well I have to increase in
+the vertical direction by two.
+
+01:47.214 --> 01:47.951
+By two.
+
+01:47.951 --> 01:49.444
+So at least for this magenta line,
+
+01:49.444 --> 01:52.062
+it looks like our increase in vertical is
+
+01:52.236 --> 01:54.761
+two, whenever we have an increase in
+
+01:54.831 --> 01:56.084
+one in the horizontal direction.
+
+01:57.947 --> 02:00.585
+Let's see, does that
+still work if I were to
+
+02:01.608 --> 02:03.386
+start here, instead of
+increasing the horizontal
+
+02:03.386 --> 02:05.917
+direction by one, if I were increase in
+
+02:05.917 --> 02:07.519
+the horizontal direction...
+
+02:07.519 --> 02:08.657
+So let's increase by three.
+
+02:08.657 --> 02:11.722
+So now, I've gone plus three
+
+02:11.722 --> 02:12.790
+in the horizontal direction,
+
+02:12.790 --> 02:14.206
+then to get back on the line,
+
+02:14.206 --> 02:15.929
+how much do I have to increase
+in the vertical direction?
+
+02:15.929 --> 02:20.336
+I have to increase by one,
+two, three, four, five, six
+
+02:20.876 --> 02:22.426
+I have to increase by six.
+
+02:23.016 --> 02:24.028
+So plus six.
+
+02:24.688 --> 02:27.489
+So when I increase by three
+
+02:27.689 --> 02:30.225
+in the horizontal direction,
+
+02:30.865 --> 02:32.983
+I increase by six in the vertical.
+
+02:32.983 --> 02:34.701
+We were just saying,
+hey, let's just measure
+
+02:34.701 --> 02:35.653
+how much to we increase in vertical
+
+02:35.653 --> 02:37.325
+for a given increase in the horizontal?
+
+02:38.115 --> 02:39.415
+Well two over one is just two
+
+02:39.415 --> 02:41.831
+and that's the same
+thing as six over three.
+
+02:42.487 --> 02:44.479
+So no matter where I start on this line,
+
+02:44.834 --> 02:46.887
+no matter where I start on this line,
+
+02:47.684 --> 02:51.053
+if I take and if I increase
+in the horizontal direction
+
+02:51.463 --> 02:52.991
+by a given amount,
+
+02:52.991 --> 02:54.631
+I'm going to increase twice as much
+
+02:55.171 --> 02:56.210
+twice as much
+
+02:56.680 --> 02:59.239
+in the vertical direction.
+
+02:59.476 --> 03:01.493
+Twice as much in the vertical direction.
+
+03:01.563 --> 03:03.919
+So this notion of this
+increase in vertical
+
+03:03.919 --> 03:05.617
+divided by increase in horizontal,
+
+03:05.877 --> 03:09.027
+this is what mathematicians
+use to describe
+
+03:09.027 --> 03:10.211
+the steepness of lines.
+
+03:10.901 --> 03:12.543
+And this is called the slope.
+
+03:13.242 --> 03:14.669
+So this is called the slope of a line.
+
+03:15.609 --> 03:17.525
+And you're probably
+familiar with the notion
+
+03:18.275 --> 03:21.637
+of the word slope being
+used for a ski slope,
+
+03:21.987 --> 03:24.201
+and that's because a ski slope
+has a certain inclination.
+
+03:24.201 --> 03:25.582
+It could have a steep
+slope or a shallow slope.
+
+03:26.512 --> 03:29.149
+So slope is a measure for
+how steep something is.
+
+03:29.649 --> 03:32.867
+And the convention is, is
+we measure the increase
+
+03:32.867 --> 03:35.172
+in vertical for a given
+in increase in horizontal.
+
+03:36.052 --> 03:38.628
+So six two over one is
+equal to six over three
+
+03:38.628 --> 03:40.744
+is equal to two, this
+is equal to the slope
+
+03:40.744 --> 03:42.416
+of this magenta line.
+
+03:44.720 --> 03:46.252
+So let me write this down.
+
+03:46.880 --> 03:50.108
+So this slope right over
+here, the slope of that line,
+
+03:50.548 --> 03:52.708
+is going to be equal to two.
+
+03:53.168 --> 03:54.598
+And one way to interpret that,
+
+03:54.598 --> 03:56.778
+for whatever amount you increase in the
+
+03:56.778 --> 03:58.339
+horizontal direction,
+you're going to increase
+
+03:58.339 --> 04:00.745
+twice as much in the vertical direction.
+
+04:01.655 --> 04:03.309
+Now what about this blue line here?
+
+04:03.309 --> 04:04.983
+What would be the slope of the blue line?
+
+04:05.412 --> 04:08.268
+Well, let me rewrite another
+way that you'll typically
+
+04:08.268 --> 04:09.758
+see the definition of slope.
+
+04:09.758 --> 04:12.223
+And this is just the
+convention that mathematicians
+
+04:12.223 --> 04:13.515
+have defined for slope
+
+04:13.515 --> 04:14.607
+but it's a valuable one.
+
+04:15.017 --> 04:16.580
+What is are is our change in vertical
+
+04:16.580 --> 04:19.042
+for a given change in horizontal?
+
+04:19.822 --> 04:22.655
+And I'll introduce a new notation for you.
+
+04:23.275 --> 04:25.680
+So, change in vertical,
+
+04:26.726 --> 04:27.908
+and in this coordinate,
+
+04:28.357 --> 04:30.125
+the vertical is our Y coordinate.
+
+04:30.975 --> 04:33.213
+divided by our change in horizontal.
+
+04:34.103 --> 04:35.466
+And X is our horizontal coordinate
+
+04:35.876 --> 04:39.536
+in this coordinate plane right over here.
+
+04:40.098 --> 04:42.346
+So wait, you said change in but then you
+
+04:42.346 --> 04:43.465
+drew this triangle.
+
+04:43.465 --> 04:45.880
+Well this is the Greek letter delta.
+
+04:46.060 --> 04:48.248
+This is the Greek letter delta.
+
+04:48.248 --> 04:52.474
+And it's a math symbol used
+to represent change in.
+
+04:53.054 --> 04:55.237
+So that's delta, delta.
+
+04:57.197 --> 04:59.319
+And it literally means, change in Y,
+
+04:59.909 --> 05:01.649
+change in Y,
+
+05:02.349 --> 05:04.214
+divided by change in X,
+
+05:04.657 --> 05:06.602
+change in X.
+
+05:07.141 --> 05:08.720
+So if we want to find the
+slope of the blue line,
+
+05:09.050 --> 05:11.994
+we just have to say, well
+how much does Y change
+
+05:11.994 --> 05:13.201
+for a given change in X?
+
+05:14.225 --> 05:15.618
+So, the slope of the blue line.
+
+05:17.228 --> 05:19.997
+So let's see, let me do it this way.
+
+05:23.876 --> 05:25.502
+Let's just start at some point here.
+
+05:25.502 --> 05:28.242
+And let's say my X changes by two
+
+05:28.242 --> 05:31.515
+so my delta X is equal to positive two.
+
+05:31.515 --> 05:33.257
+What's my delta Y going to be?
+
+05:33.257 --> 05:34.511
+What's going to be my change in Y?
+
+05:34.511 --> 05:37.367
+Well, if I go by the right by two,
+
+05:37.367 --> 05:38.411
+to get back on the line,
+
+05:38.411 --> 05:40.014
+I'll have to increase my Y by two.
+
+05:40.014 --> 05:44.345
+So my change in Y is also
+going to be plus two.
+
+05:44.955 --> 05:46.190
+So the slope of this blue line,
+
+05:47.020 --> 05:48.442
+the slope of the blue line,
+
+05:48.952 --> 05:51.809
+which is change in Y over change in X.
+
+05:52.629 --> 05:55.311
+We just saw that when our
+change in X is positive two,
+
+05:55.741 --> 05:58.449
+our change in Y is also positive two.
+
+05:58.919 --> 06:00.771
+So our slope is two divided by two,
+
+06:00.991 --> 06:01.863
+which is equal to one.
+
+06:02.483 --> 06:04.440
+Which tells us however much we increase in
+
+06:04.440 --> 06:06.971
+X, we're going to increase
+the same amount in Y.
+
+06:06.971 --> 06:09.630
+We see that, we increase
+one in X, we increase
+
+06:09.630 --> 06:10.709
+one in Y.
+
+06:10.709 --> 06:12.404
+Increase one in X, increase one in Y.
+
+06:12.404 --> 06:14.703
+>From any point on the line,
+that's going to be true.
+
+06:14.703 --> 06:17.291
+You increase three in X,
+
+06:17.740 --> 06:20.391
+you're going to increase three in Y.
+
+06:20.851 --> 06:22.063
+It's actually true the other way.
+
+06:22.283 --> 06:24.130
+If you decrease one in X,
+
+06:24.130 --> 06:25.941
+you're going to decrease one in Y.
+
+06:26.681 --> 06:28.541
+If you decrease two in X,
+
+06:28.541 --> 06:30.621
+you're going to decrease two in Y.
+
+06:31.491 --> 06:34.694
+And that makes sense from
+the math of it as well
+
+06:35.234 --> 06:37.806
+Because if you're change
+in X is negative two,
+
+06:37.806 --> 06:39.547
+that's what we did right over here,
+
+06:39.727 --> 06:41.660
+our change is X is negative two,
+
+06:41.790 --> 06:42.542
+we went two back,
+
+06:42.542 --> 06:45.445
+then your change in Y is going
+to be negative two as well.
+
+06:46.295 --> 06:47.906
+Your change in Y is
+going to be negative two,
+
+06:47.906 --> 06:50.088
+and negative two divided by negative two,
+
+06:50.088 --> 06:53.246
+is positive one, which
+is your slope again.

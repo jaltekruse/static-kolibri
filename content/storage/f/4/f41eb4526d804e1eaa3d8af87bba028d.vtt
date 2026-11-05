@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.336 --> 00:09.935
+Etter å ha krysset broen over trollet og reddet prinsen eller prinsessen, tok vi de med tilbake til sin far Kongen
+
+00:09.935 --> 00:17.271
+Dette blir han veldig glad for, og vil gjerne invitere oss til brunch som takk for hjelpen
+
+00:17.271 --> 00:20.871
+Men Kongen får en liten utfordring i forhold til brunchen
+
+00:20.871 --> 00:25.467
+Han lurer hvor mange muffins han må bestille
+
+00:28.221 --> 00:31.564
+Han vil ikke det skal bli noe til overs, samtidig som han vil at alle skal få
+
+00:32.104 --> 00:36.804
+Så hva er egentlig problemet? Jo, det er at voksne og barn ikke spiser like mange muffins.
+
+00:36.804 --> 00:43.057
+Det vi vet, er at alle de voksne spiser like mange hver seg, og det samme gjør barna.
+
+00:43.057 --> 00:49.803
+Da spør vi om Kongen kan gi oss mer informasjon. Kanskje vi kan hjelpe han. Du føler deg selvsikker etter hendelsen med trollet.
+
+00:49.803 --> 01:01.016
+Kongen sier dette: ved siste fest var det 500 voksne og 200 barn
+
+01:01.650 --> 01:10.091
+Til sammen spiste de 2900 muffins
+
+01:10.091 --> 01:15.629
+Dette er jo interessant, men vi må få vite litt mer. Du har vel holdt fest før og kan gi oss litt mer informasjon?
+
+01:15.765 --> 01:19.404
+Selvfølgelig, sier Kongen. Vel, sier du, hva skjedde på forrige fest?
+
+01:19.404 --> 01:36.876
+Til en annen fest kom det 500 voksne og 300 barn. De spiste til sammen 3100 muffins
+
+01:36.876 --> 01:41.471
+Så hva er det vi egentlig må finne ut?
+
+01:41.471 --> 02:04.042
+Vi må finne ut hvor mange muffins en voksen spiser i gjennomsnitt, og hvor mange et barn spiser i gjennomsnitt
+
+02:04.042 --> 02:14.804
+Når vi finner ut av disse to tingene, så vil vi vite hvor mange muffins vi må kjøpe til vår brunch ut fra antall personer som kommer.
+
+02:14.804 --> 02:21.772
+Dette er det vi må finne ut av, la oss definere noen variabler og løse dette algebraisk.
+
+02:21.772 --> 02:28.740
+La oss kalle gjennomsnittlig antall muffins en voksen spiser for a
+
+02:28.740 --> 02:35.709
+La oss kalle gjennomsnittlig antall muffins et barn spiser, for c
+
+02:35.709 --> 02:41.603
+La oss nå se om vi kan uttrykke Kongens informasjon ved hjelp av algebra
+
+02:41.603 --> 02:47.017
+Vi starter med den oransje delen, hvordan skal vi uttrykke dette algebraisk
+
+02:47.307 --> 02:51.671
+Hvor mange muffins spiste de voksne på den festen?
+
+02:51.671 --> 03:01.127
+Det kom 500 voksne, hver voksen spiste a muffins, de spiste tilsammen 500a muffins
+
+03:01.127 --> 03:11.938
+Det kom 200 barn som hver seg spiste c muffins, tilsammen 200c muffins
+
+03:11.938 --> 03:15.069
+Hvor mange spiste så de voksne og barna tilsammen
+
+03:15.069 --> 03:21.671
+Det må være summen av disse to, som er 2900 muffins
+
+03:21.671 --> 03:26.470
+Nå bruker vi den samme metoden på den blå informasjonen
+
+03:26.470 --> 03:33.376
+Hvor mange muffins spiste de voksne?
+
+03:33.376 --> 03:40.208
+Det var 500 voksne, hver voksen spiste a muffins
+
+03:40.208 --> 03:45.542
+Det var også 300 barn der, som hver spiste c muffins
+
+03:45.542 --> 03:54.004
+Sammenlagt spiste de 3100 muffins
+
+03:54.004 --> 03:58.464
+Nå har vi et likningsett med 2 likninger...
+
+03:58.464 --> 04:01.052
+og 2 ukjente
+
+04:01.052 --> 04:04.803
+Fra vårt lille stevnemåte med trollet, vet vi at vi klarer å løse et slikt likningsystem
+
+04:04.803 --> 04:13.470
+En måte å løse det på er grafisk, men kanskje finnes det en annen måte, rent algebraisk?
+
+04:13.470 --> 04:20.210
+Tenk litt på hvordan du kan gjøre dette. Vi starter med å omskrive den første likningen
+
+04:20.210 --> 04:30.069
+500a pluss 200c er lik 2900
+
+04:30.069 --> 04:35.293
+Det ville hjulpet om vi kunne fått bort 500a
+
+04:35.293 --> 04:53.960
+Så tenker vi kanskje at vi kan trekke fra 500a, men da må vi gjøre det samme på høyre side så det er ingen løsning. Den ville bare blitt flyttet over på andre siden.
+
+04:53.960 --> 05:04.037
+Men hva om vi trekker fra både 500a og 300c?
+
+05:07.097 --> 05:12.627
+Hvorfor er dette smart? Vi må jo gjøre det samme på høyre side.
+
+05:12.627 --> 05:24.936
+Men vent litt. Vi trekker fra på venstre side, men høyre side er jo lik som venstre
+
+05:24.936 --> 05:32.828
+Vi trekker altså fra 500a og 300c på begge sider
+
+05:32.828 --> 05:39.535
+Vi vet også at når vi trekker fra 500a og 300c, så er det det samme som å trekke fra 3100.
+
+05:39.535 --> 05:52.079
+Minus 500a minus 300c er det samme som minus (500a plus 300c)
+
+05:52.079 --> 05:57.938
+Vi vet at 500a pluss 300c er lik 3100
+
+05:57.938 --> 06:08.482
+Så istedet for å trekke fra 500a pluss 300c, kan vi altså trekke fra 3100.
+
+06:08.482 --> 06:12.815
+La oss gjøre det, Åj, dette er spennende
+
+06:12.815 --> 06:21.067
+Vi trekker fra 3100
+
+06:21.067 --> 06:31.022
+Det kan se ut som om vi trekker den nederste likningen fra den øverste, men vi trekker faktisk fra det samme på begge sider
+
+06:31.022 --> 06:35.203
+La oss se hva som skjer
+
+06:35.203 --> 06:39.022
+På venstre side går 500a minus 500a ut
+
+06:39.022 --> 06:44.136
+200c minus 300c er minus 100c
+
+06:44.136 --> 06:49.801
+På høyre side er 2900 minus 3100 lik minus 200
+
+06:49.801 --> 06:54.046
+Vi sitter nå igjen med en likning med en ukjent, og den vet vi hvordan vi løser
+
+06:54.046 --> 07:00.023
+Vi dividerer begge sider med minus 100
+
+07:00.023 --> 07:03.471
+Nå får vi pluss 2 her
+
+07:03.471 --> 07:06.672
+c er altså lik 2
+
+07:06.672 --> 07:14.241
+Vi vet nå at hvert barn i snitt spiser 2 muffins
+
+07:14.241 --> 07:17.269
+Hvordan skal vi så finne a?
+
+07:17.269 --> 07:23.869
+Vi kan nå bruke det vi har lært om c og gå tilbake i en av de opprinnelige likningene og løse for a
+
+07:23.869 --> 07:29.500
+La oss prøve med den oransje
+
+07:29.500 --> 07:46.417
+500a pluss 200c, som er 2, er lik 2900
+
+07:46.417 --> 07:50.584
+Nå trenger vi bare å løse denne for a
+
+07:50.584 --> 07:59.168
+500a pluss 200 ganger 2, som er 400, er lik 2900
+
+07:59.168 --> 08:04.334
+Vi kan nå trekke fra 400 på hver side.
+
+08:04.334 --> 08:19.603
+Vi trekker fra 400. På venstre side står det kun 500a, og på høyre side står det 2500.
+
+08:19.603 --> 08:22.335
+500a er lik 2500.
+
+08:22.335 --> 08:33.137
+Vi dividerer begge sider med 500, dette gir oss a er lik 5
+
+08:33.137 --> 08:36.335
+Vi har nå løst Kongens utfordring.
+
+08:36.335 --> 08:47.047
+Hvert barn spiser 2 muffins, og hver voksen spiser 5.
+
+08:48.197 --> 08:58.507
+Når kongen vet hvor mange som kommer, kan han enkelt regne ut hvor mange muffins han må bestille.

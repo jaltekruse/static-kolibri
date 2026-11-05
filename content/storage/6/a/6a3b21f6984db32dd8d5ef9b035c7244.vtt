@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.351 --> 00:01.650
+- [Instructor] What we
+wanna do in this video
+
+00:01.650 --> 00:05.898
+is figure out what the
+limit, as x approaches zero,
+
+00:05.898 --> 00:10.065
+of one minus cosine of
+x over x is equal to.
+
+00:10.940 --> 00:13.662
+And we're going to assume we
+know one thing ahead of time.
+
+00:13.662 --> 00:15.882
+We're going to assume
+we know that the limit,
+
+00:15.882 --> 00:19.882
+as x approaches zero, of sine of x over x,
+
+00:21.807 --> 00:23.819
+that this is equal to one.
+
+00:23.819 --> 00:25.551
+Now, I'm not gonna reprove
+this in this video,
+
+00:25.551 --> 00:26.861
+but we have a whole other video
+
+00:26.861 --> 00:30.511
+dedicated to proving this famous limit,
+
+00:30.511 --> 00:33.885
+and we do it using the squeeze,
+or the sandwich theorem.
+
+00:33.885 --> 00:36.316
+So, let's see if we can work this out.
+
+00:36.316 --> 00:37.726
+So the first thing we're going to do
+
+00:37.726 --> 00:40.306
+is algebraically
+manipulate this expression.
+
+00:40.306 --> 00:42.256
+What I'm going to do is
+I'm going to multiply
+
+00:42.256 --> 00:44.171
+both the numerator and the denominator
+
+00:44.171 --> 00:46.171
+by one plus cosine of x.
+
+00:49.278 --> 00:50.242
+So, times...
+
+00:50.242 --> 00:51.630
+The denominator I have
+to do the same thing,
+
+00:51.630 --> 00:53.531
+one plus cosine of x.
+
+00:53.531 --> 00:55.088
+I'm not changing the
+value of the expression,
+
+00:55.088 --> 00:57.355
+this is just multiplying it by one.
+
+00:57.355 --> 00:59.019
+What does that do for us?
+
+00:59.019 --> 01:00.352
+Well I can rewrite the whole thing as
+
+01:00.352 --> 01:03.269
+the limit, as x approaches zero,
+
+01:04.521 --> 01:08.596
+so one minus cosine of x
+times one plus cosine of x,
+
+01:08.596 --> 01:10.424
+well that is just going to be...
+
+01:10.424 --> 01:12.591
+Put this in another color.
+
+01:13.672 --> 01:18.339
+That is going to be one
+squared, which is just one,
+
+01:18.339 --> 01:20.796
+minus cosine squared of x.
+
+01:20.796 --> 01:23.826
+Cosine squared of x,
+difference of squares.
+
+01:23.826 --> 01:27.731
+And then in the denominator,
+I am going to have
+
+01:27.731 --> 01:31.898
+these, which is just x
+times 1 plus cosine of x.
+
+01:36.095 --> 01:39.185
+Now what is one minus cosine squared of x?
+
+01:39.185 --> 01:40.074
+Well, this comes straight out of the
+
+01:40.074 --> 01:42.890
+Pythagorean identity, trig identity.
+
+01:42.890 --> 01:46.981
+This is the same thing
+as the sine squared of x.
+
+01:46.981 --> 01:48.814
+So, sine squared of x.
+
+01:50.220 --> 01:52.981
+And so, I can rewrite all
+of this as being equal to
+
+01:52.981 --> 01:55.898
+the limit, as x approaches zero,
+
+01:57.971 --> 01:59.815
+and let me rewrite this as...
+
+01:59.815 --> 02:01.256
+Instead of sine squared of x,
+
+02:01.256 --> 02:03.882
+that's the same thing as
+sine of x times sine of x.
+
+02:03.882 --> 02:04.753
+Let me write it that way.
+
+02:04.753 --> 02:06.670
+Sine x times sine x.
+
+02:09.246 --> 02:11.547
+So, I'll take the first sine of x,
+
+02:11.547 --> 02:14.450
+so I'll take this one right over here,
+
+02:14.450 --> 02:16.282
+and put it over this x.
+
+02:16.282 --> 02:18.199
+So, sine of x over x
+
+02:19.787 --> 02:22.870
+times the second sine of x, this one,
+
+02:24.073 --> 02:26.879
+over one plus cosine of x
+
+02:26.879 --> 02:30.629
+times sine of x over one plus cosine of x.
+
+02:32.765 --> 02:35.742
+All I've done is I've leveraged
+a trigonometric identity,
+
+02:35.742 --> 02:37.872
+and I've done a little bit
+of algebraic manipulation.
+
+02:37.872 --> 02:40.541
+Well here, the limit of the product
+
+02:40.541 --> 02:42.382
+of these two expressions, is
+going to be the same thing
+
+02:42.382 --> 02:43.957
+as the product of the limits.
+
+02:43.957 --> 02:47.207
+So I can rewrite this as being equal to
+
+02:48.370 --> 02:52.537
+the limit, as x approaches
+zero, of sine of x over x
+
+02:55.772 --> 02:59.189
+times the limit, as x approaches zero,
+
+03:01.935 --> 03:05.435
+of sine of x over one plus cosine of x.
+
+03:07.826 --> 03:09.661
+Now, we said, going into this video,
+
+03:09.661 --> 03:11.909
+that we're going to assume
+that we know what this is.
+
+03:11.909 --> 03:13.571
+We've proven it in other videos.
+
+03:13.571 --> 03:15.339
+What is the limit, as x approaches zero,
+
+03:15.339 --> 03:17.054
+of sine of x over x?
+
+03:17.054 --> 03:19.781
+Well, that is equal to one.
+
+03:19.781 --> 03:21.891
+So, this whole limit is
+just going to be dependent
+
+03:21.891 --> 03:23.607
+on whatever this is equal to.
+
+03:23.607 --> 03:26.215
+Well, this is pretty
+straight forward, here.
+
+03:26.215 --> 03:29.333
+As x approaches zero, the
+numerator's approaching zero,
+
+03:29.333 --> 03:30.793
+sine of zero is zero.
+
+03:30.793 --> 03:32.672
+The denominator is approaching...
+
+03:32.672 --> 03:34.095
+Cosine of zero is one,
+
+03:34.095 --> 03:36.133
+so the denominator is approaching two.
+
+03:36.133 --> 03:39.630
+So this is approaching zero
+over two, or just zero.
+
+03:39.630 --> 03:42.053
+That's approaching zero.
+
+03:42.053 --> 03:46.319
+One times zero, well this is
+just going to be equal to zero.
+
+03:46.319 --> 03:47.193
+And we're done.
+
+03:47.193 --> 03:49.650
+Using that fact, and a little
+bit of trig identities,
+
+03:49.650 --> 03:51.308
+and a little bit of
+algebraic manipulation,
+
+03:51.308 --> 03:53.514
+we were able to show
+that our original limit,
+
+03:53.514 --> 03:54.772
+the limit, as x approaches zero,
+
+03:54.772 --> 03:58.958
+of one minus cosine of x
+over x is equal to zero.
+
+03:58.958 --> 04:00.072
+And I encourage you to graph it.
+
+04:00.072 --> 04:01.575
+You will see that that makes sense
+
+04:01.575 --> 04:04.107
+from a graphical point of view, as well.

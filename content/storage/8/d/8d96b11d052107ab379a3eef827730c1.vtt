@@ -1,0 +1,504 @@
+WEBVTT
+
+00:00.473 --> 00:02.424
+Chúng mình hãy cùng làm quen với
+
+00:02.424 --> 00:05.656
+khái niệm phương trình vi phân
+(differential equations) nhé.
+
+00:05.656 --> 00:07.306
+Và như các bạn sẽ thấy, phương trình vi phân
+
+00:07.306 --> 00:10.688
+cực kỳ hữu ích cho việc
+mô hình hóa và mô phỏng
+
+00:10.688 --> 00:13.573
+các hiện tượng và đào sâu hiểu biết
+về cách chúng vận hành.
+
+00:13.589 --> 00:15.038
+Nhưng chúng ta sẽ nói về điều đó sau.
+
+00:15.038 --> 00:17.772
+Bây giờ chúng ta hãy nghĩ
+về hoặc ít nhất là nhìn vào
+
+00:17.772 --> 00:20.523
+một phương trình vi phân, để xem nó thật sự là gì.
+
+00:21.572 --> 00:24.938
+Nếu như ở đây mình viết
+một ví dụ của
+
+00:24.938 --> 00:27.139
+của phương trình vi phân
+
+00:27.139 --> 00:31.224
+Mình sẽ viết là đạo hàm cấp 2 của y cộng 2 lần
+
+00:31.224 --> 00:36.007
+đạo hàm của y
+bằng 3 lần y,
+
+00:36.007 --> 00:38.189
+Đây chính là một phương trình vi phân.
+
+00:38.189 --> 00:39.722
+Một cách khác để viết nó là,
+
+00:39.722 --> 00:42.305
+nếu mình nói y là một hàm số của x,
+
+00:42.305 --> 00:43.907
+mình có thể viết nó dưới ký hiệu hàm số.
+
+00:43.907 --> 00:45.855
+Chúng mình có thể viết đạo hàm cấp 2 của hàm số f
+
+00:45.855 --> 00:49.920
+theo x cộng 2 lần đạo hàm của hàm f
+
+00:50.505 --> 00:54.108
+sẽ bằng với 3 lần hàm số.
+
+00:54.788 --> 00:58.240
+Hoặc là nếu bạn muốn sử dụng
+ký hiệu Leibniz,
+
+00:58.024 --> 01:03.024
+chúng ta cũng có thể viết là,
+đạo hàm cấp 2 của y
+
+01:03.987 --> 01:08.938
+theo x cộng 2 lần đạo hàm
+
+01:08.938 --> 01:13.422
+của y theo x là
+bằng 3 lần y.
+
+01:14.037 --> 01:17.755
+Cả 3 phương trình này
+đều biểu diễn
+
+01:17.755 --> 01:20.856
+điều tương tự nhau.
+Chúng đều muốn tìm hàm số
+
+01:20.856 --> 01:23.023
+mà đạo hàm cấp 2 của hàm
+
+01:23.023 --> 01:25.025
+cộng 2 lần đạo hàm của hàm
+
+01:25.223 --> 01:27.937
+bằng 3 lần của chính nó.
+
+01:28.355 --> 01:31.339
+Vì vậy, mình muốn nói rõ là cả 3 phương trình này
+
+01:31.339 --> 01:33.655
+đều tương tự nhau.
+
+01:33.806 --> 01:36.089
+Và từ nãy giờ những gì mình nói,
+bạn cũng có thể đoán được rằng
+
+01:36.089 --> 01:38.092
+là nghiệm của một phương trình vi phân
+
+01:38.389 --> 01:41.238
+là một hàm số, hoặc một tập hợp các hàm.
+
+01:41.323 --> 01:44.322
+Nó không chỉ là một giá trị hoặc một tập hợp các giá trị.
+
+01:44.354 --> 01:47.673
+Vì vậy, nghiệm của
+
+01:47.673 --> 01:52.673
+một phương trình vi phân là một hàm số,
+
+01:53.738 --> 01:56.672
+hoặc là một tập hợp các hàm số.
+
+01:56.756 --> 01:58.805
+Điều quan trọng là bạn phải đối chiếu nó
+
+01:58.805 --> 02:00.027
+với một phương trình truyền thống.
+
+02:00.027 --> 02:01.421
+Để mình viết nó xuống.
+
+02:01.474 --> 02:04.549
+Một phương trình truyền thống,
+có lẽ mình không nên dùng từ
+
+02:05.224 --> 02:06.687
+phương trình truyền thống,
+vì phương trình vi phân
+
+02:06.687 --> 02:08.306
+cũng đã xuất hiện được khá lâu rồi.
+
+02:08.589 --> 02:11.787
+Vậy hãy để mình viết một phương trình đại số
+
+02:11.787 --> 02:13.355
+mà bạn đã quen thuộc.
+
+02:13.622 --> 02:18.622
+Một phương trình đại số
+có thể trông giống như,
+
+02:19.389 --> 02:21.623
+để mình viết một phương trình bậc hai đơn giản
+
+02:21.856 --> 02:26.856
+x bình cộng với 3x
+cộng 2 bằng 0.
+
+02:30.139 --> 02:32.673
+Các nghiệm cho phương trình đại số này
+
+02:32.673 --> 02:35.255
+sẽ là số
+hoặc một bộ số.
+
+02:35.255 --> 02:38.271
+Mình sẽ giải nó,
+nó sẽ là x cộng 2
+
+02:38.271 --> 02:41.639
+nhân x cộng 1 bằng 0.
+
+02:41.924 --> 02:45.506
+Vậy x có thể bằng
+-2 hoặc x có thể
+
+02:45.506 --> 02:47.105
+bằng -1.
+
+02:47.171 --> 02:52.171
+Các nghiệm ở đây là các con số,
+hoặc một tập hợp các giá trị
+
+02:53.003 --> 02:55.225
+thỏa mãn phương trình này.
+
+02:55.522 --> 02:58.390
+Còn ở đây là mối liên hệ giữa một hàm số
+
+02:58.039 --> 02:59.286
+và các đạo hàm của nó
+
+02:59.637 --> 03:01.655
+Và vì vậy, một hoặc các nghiệm của nó
+
+03:01.655 --> 03:03.637
+sẽ là một hàm số
+hoặc là một tập hợp các hàm số.
+
+03:03.637 --> 03:05.456
+Chúng mình hãy làm cho nó trông dễ hiểu hơn.
+
+03:05.456 --> 03:08.439
+Nghiệm của 1 trong 3 hàm số này,
+
+03:08.439 --> 03:10.072
+mà về cơ bản thì nó là một thứ
+
+03:10.072 --> 03:12.355
+sẽ trông như thế nào?
+
+03:12.355 --> 03:16.623
+Hãy để mình di chuyển qua đây một chút nhé.
+
+03:19.307 --> 03:21.508
+Bây giờ chúng mình có thể xem xem
+
+03:21.508 --> 03:23.438
+các nghiệm này có thể trông như thế nào
+
+03:23.438 --> 03:26.242
+Để mình xóa mấy cái lặt vặt mình viết ở đây.
+
+03:28.181 --> 03:31.649
+Bây giờ, mình sẽ cho bạn xem ví dụ của các nghiệm này.
+
+03:31.649 --> 03:34.278
+Chúng mình sẽ thử xem đây có thật sự là nghiệm
+
+03:34.278 --> 03:36.850
+của các phương trình vi phân tương tự nhau này
+
+03:36.869 --> 03:38.404
+mà được viết theo những cách khác nhau.
+
+03:38.404 --> 03:40.973
+Nhưng mình chỉ hi vọng là bạn sẽ biết được
+
+03:40.973 --> 03:42.786
+nghiệm của một phương trình vi phân trông như thế nào.
+
+03:42.786 --> 03:45.881
+Và chúng thường có
+nhiều hơn một nghiệm.
+
+03:45.881 --> 03:49.758
+Nghiệm của chúng có thể là cả
+một tập hợp các hàm số.
+
+03:49.956 --> 03:52.944
+Vì vậy, một nghiệm cho phương trình vi phân này,
+
+03:52.975 --> 03:55.709
+đây sẽ là cái đầu tiên của chúng mình.
+
+03:55.799 --> 03:58.073
+Mình sẽ gọi nghiệm đầu tiên này là y1
+
+03:58.073 --> 04:00.304
+Và mình thậm chí có thể viết là y1 theo x
+
+04:00.304 --> 04:02.303
+để nói rõ rằng
+đây là một hàm theo x.
+
+04:02.303 --> 04:04.961
+Và y1 theo x sẽ bằng với
+
+04:04.961 --> 04:07.362
+e mũ -3x
+
+04:07.362 --> 04:10.294
+Bạn nên dừng video này tại đây
+
+04:10.294 --> 04:13.376
+và tìm đạo hàm của y1,
+
+04:13.376 --> 04:16.772
+và đạo hàm cấp hai của
+nó để chắc chắn rằng
+
+04:16.772 --> 04:19.650
+nó thực sự thỏa mãn phương trình vi phân này.
+
+04:20.188 --> 04:22.481
+Mình sẽ cho rằng bạn đã thử tính nó rồi.
+
+04:22.481 --> 04:24.283
+Nên hãy cùng nhau giải nhé.
+
+04:24.342 --> 04:26.165
+Đây là y1.
+
+04:26.165 --> 04:28.828
+Đạo hàm của y1,
+
+04:28.828 --> 04:31.395
+chúng mình sẽ phải thực hiện quy tắc chuỗi ở đây,
+
+04:31.395 --> 04:33.833
+đạo hàm của -3x theo x
+
+04:33.833 --> 04:35.549
+sẽ là -3.
+
+04:35.549 --> 04:37.155
+Và đạo hàm của e
+mũ -3x
+
+04:37.155 --> 04:39.409
+theo -3x sẽ là
+
+04:39.409 --> 04:41.982
+e mũ -3x.
+
+04:41.982 --> 04:45.827
+Và nếu chúng ta lấy đạo hàm cấp 2 của y1
+
+04:45.827 --> 04:48.838
+nó chính là đạo hàm của cái này,
+
+04:48.838 --> 04:51.642
+và đạo hàm của nó sẽ là
+3 nhân -3
+
+04:51.642 --> 04:55.125
+sẽ là 9 e mũ -3x.
+
+04:55.685 --> 04:57.622
+Và bây giờ mình có thể
+thay các giá trị này
+
+04:57.622 --> 05:00.856
+vào các phương trình vi phân, hay các biểu thức này
+
+05:00.856 --> 05:03.488
+vào các phương trình để chắc chắn là
+
+05:03.488 --> 05:05.601
+chúng có đúng với hàm số này không.
+
+05:05.601 --> 05:08.301
+Hãy thử lại nhé.
+
+05:08.301 --> 05:12.807
+Đầu tiên là chúng mình có đạo hàm cấp 2 của y
+
+05:12.807 --> 05:15.119
+Nó là phần này ở ngay đây.
+
+05:15.119 --> 05:20.119
+Vậy ta có chín e mũ -3x
+
+05:20.119 --> 05:26.219
+cộng 2 lần đạo hàm của y.
+
+05:26.219 --> 05:29.871
+Vậy nó sẽ là hai
+lần cái này ngay đây.
+
+05:29.871 --> 05:33.148
+Vì vậy, nó sẽ -6, mình sẽ viết là
+
+05:33.154 --> 05:37.816
+cộng -6e mũ -3x
+
+05:37.816 --> 05:42.365
+Để ý là mình vừa lấy 2 lần đạo hàm của y.
+
+05:42.365 --> 05:45.283
+2 lần đạo hàm của y
+sẽ bằng
+
+05:45.283 --> 05:49.900
+hoặc sẽ cần phải bằng, nếu
+y1 thực sự thỏa mãn
+
+05:49.900 --> 05:52.548
+phương trình vi phân này,
+
+05:52.548 --> 05:55.673
+thì 2 lần đạo hàm của y sẽ cần phải bằng 3 lần y.
+
+05:55.673 --> 05:58.674
+3 lần y là ba
+lần e mũ -3x.
+
+05:58.674 --> 06:02.118
+3e mũ -3x.
+
+06:02.393 --> 06:05.807
+Hãy xem nó có đúng không nhé.
+
+06:05.965 --> 06:08.055
+Hai hạng tử này ngay tại đây,
+
+06:08.175 --> 06:10.678
+9e mũ -3x
+
+06:10.678 --> 06:12.884
+trừ 6e mũ -3x
+
+06:12.884 --> 06:16.044
+Nó sẽ là 3e
+mũ -3x
+
+06:16.044 --> 06:22.167
+Và sẽ bằng với 3e mũ -3x
+
+06:22.808 --> 06:28.218
+Vậy, y1 thật sự là một nghiệm của phương trình vi phân này.
+
+06:28.218 --> 06:30.893
+Nhưng rồi bạn sẽ thấy,
+nó không phải là nghiệm duy nhất
+
+06:30.893 --> 06:32.843
+của phương trình vi phân này.
+
+06:32.949 --> 06:43.454
+Ví dụ: chúng mình có y2
+bằng e mũ x
+
+06:43.454 --> 06:46.506
+cũng là một nghiệm của
+phương trình vi phân.
+
+06:46.506 --> 06:48.289
+Và bạn nên tạm dừng video một lần nữa
+
+06:48.289 --> 06:49.606
+để tính thử xem nó có phải là nghiệm không nhé.
+
+06:50.295 --> 06:52.512
+Chắc là bạn đã thử rồi nhỉ.
+
+06:52.512 --> 06:54.461
+Đạo hàm của y2 khá đơn giản,
+
+06:54.461 --> 06:55.423
+là e mũ x.
+
+06:55.423 --> 06:57.556
+Đạo hàm cấp hai của y2,
+
+06:57.556 --> 06:59.523
+một điều khá hay là nó
+
+06:59.523 --> 07:02.422
+cũng sẽ là e mũ x.
+
+07:02.422 --> 07:05.703
+Vậy, đạo hàm cấp hai của y2,
+để mình viết nó
+
+07:05.703 --> 07:06.904
+bằng cùng một màu.
+
+07:07.033 --> 07:09.529
+Vậy đạo hàm cấp hai của nó
+sẽ là e mũ x
+
+07:09.711 --> 07:14.711
+cộng 2 lần e mũ x
+
+07:17.705 --> 07:22.812
+sẽ bằng với 3 lần e mũ x.
+
+07:22.812 --> 07:24.583
+Điều này hoàn toàn đúng.
+
+07:24.583 --> 07:27.524
+e mũ x cộng với 2 lần e mũ x
+thì sẽ bằng với 3 lần e mũ x.
+
+07:27.607 --> 07:32.570
+Vì vậy, y2 cũng là một nghiệm của
+phương trình vi phân này.
+
+07:32.570 --> 07:34.314
+Đây chỉ mới là bắt đầu.
+
+07:34.314 --> 07:36.512
+Trong những video tiếp theo,
+chúng mình sẽ tìm hiểu về nó nhiều hơn.
+
+07:36.512 --> 07:38.067
+Chúng mình sẽ xem xem các nghiệm,
+
+07:38.067 --> 07:39.905
+hoặc tập hợp các nghiệm sẽ trông như thế nào,
+
+07:39.905 --> 07:41.371
+tìm hiểu về các phương pháp giải,
+
+07:41.371 --> 07:43.848
+hình dung ra nghiệm của các phương trình vi phân,
+
+07:43.888 --> 07:47.888
+và các công cụ hữu ích để đào sâu hơn về khái niệm này.

@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.720 --> 00:04.950
+Determina si los siguientes números
+son primos, compuestos,
+
+00:04.950 --> 00:06.510
+o ninguno de los dos.
+
+00:06.510 --> 00:09.200
+A manera de repaso,
+un número primo
+
+00:09.200 --> 00:12.560
+es un numero natural-- o sea,
+un número que se puede contar 1,2,3,
+
+00:12.560 --> 00:17.810
+4,5,6 y asi sucesivamente--
+que tiene exactamente dos factores
+
+00:17.810 --> 00:25.580
+Entonces sus factores son
+1 y el número mismo.
+
+00:25.580 --> 00:28.080
+Un ejemplo de un factor primo es 3.
+
+00:28.080 --> 00:30.090
+Hay solamente dos números naturales que
+
+00:30.090 --> 00:34.330
+son divisibles por 3--
+1 y 3.
+
+00:34.330 --> 00:37.080
+Otra forma de pensar sobre esto es,
+lá única forma de tener 3
+
+00:37.080 --> 00:41.220
+como producto de otros numeros
+naturales, es multiplicando 1 por 3.
+
+00:41.220 --> 00:45.280
+Entonces tiene solamente
+el número 1 y si mismo.
+
+00:45.280 --> 00:47.890
+Un número compuesto
+es un número natural
+
+00:47.890 --> 00:51.510
+que tiene como factores más números
+que al número 1 y a sí mismo.
+
+00:51.510 --> 00:54.150
+Y veremos más ejemplos de eso.
+De "ninguno", bueno,
+
+00:54.150 --> 00:57.050
+veremos un caso interesante
+en este problema.
+
+00:57.050 --> 00:59.082
+Pensemos primero
+en el número 24.
+
+00:59.082 --> 01:00.540
+Pensemos en todos los --
+
+01:00.540 --> 01:02.760
+Podrías pensarlo como
+números naturales,
+
+01:02.760 --> 01:04.739
+o números enteros, si bien
+el 0 también está
+
+01:04.739 --> 01:05.870
+incluído en el grupo de
+números enteros.
+
+01:05.870 --> 01:08.370
+Pensemos en los números naturales
+que se pueden contar
+
+01:08.370 --> 01:11.060
+y que podamos dividir entre 24
+
+01:11.060 --> 01:12.550
+sin tener ningun residuo.
+
+01:12.550 --> 01:14.610
+Los consideraríamos como factores.
+
+01:14.610 --> 01:17.660
+Bueno, claramente es divisible
+por 1 y por 24.
+
+01:17.660 --> 01:20.580
+De hecho, 1 multiplicado por 24
+es igual a 24.
+
+01:20.580 --> 01:24.520
+Pero también es divisible por 2.
+
+01:24.520 --> 01:28.540
+2 multiplicado por 12 es 24.
+
+01:28.540 --> 01:30.890
+Entonces también es divisible por 12.
+
+01:30.890 --> 01:33.510
+Y también es divisible por 3.
+
+01:33.510 --> 01:38.110
+3 multiplicado por 8
+también resulta en 24.
+
+01:38.110 --> 01:39.910
+Y ya en este punto, no necesitamos
+
+01:39.910 --> 01:43.390
+hallar todos los factores para concluir
+que no es primo.
+
+01:43.390 --> 01:46.760
+Claramente tiene más factores que
+el 1 y si mismo.
+
+01:46.760 --> 01:49.065
+Entonces claramente será
+un número compuesto.
+
+01:52.015 --> 01:54.460
+Será un número compuesto.
+
+01:54.460 --> 01:57.470
+Ahora, terminemos la factorización
+que empezamos.
+
+01:57.470 --> 01:59.290
+También es divisible por 4.
+
+01:59.290 --> 02:02.560
+Y 4 multiplicado por 6 --
+tengo espacio suficiente para escribir.
+
+02:02.560 --> 02:04.390
+4 multiplicado por 6
+también es 24.
+
+02:04.390 --> 02:07.660
+Entonces todos estos
+son factores de 24,
+
+02:07.660 --> 02:10.669
+claramente más que
+solamente 1 y 24.
+
+02:10.669 --> 02:12.660
+Ahora pensemos
+en el número 2.
+
+02:12.660 --> 02:18.010
+Bueno, los números enteros y no nulos
+divisibles por 2...
+
+02:18.010 --> 02:21.430
+1 multiplicado por 2 funciona.
+1 y 2.
+
+02:21.430 --> 02:22.850
+Pero no hay realmente
+otros números
+
+02:22.850 --> 02:25.370
+que sean divisibles por 2.
+
+02:25.370 --> 02:28.990
+Entonces tiene sólo dos factores,
+1 y si mismo,
+
+02:28.990 --> 02:31.650
+y esa es la definición
+de un número primo.
+
+02:31.650 --> 02:33.350
+Entonces 2 es número primo.
+
+02:33.350 --> 02:37.210
+Entonces 2 es número primo.
+
+02:37.210 --> 02:41.575
+Y el 2 es interesante porque es
+el único número primo par.
+
+02:41.575 --> 02:48.680
+El único número primo par.
+
+02:48.680 --> 02:50.760
+Tal vez esto le
+resulte lógico.
+
+02:50.760 --> 02:56.930
+Por definición, un número par
+es divisible por 2.
+
+02:56.930 --> 02:58.720
+Y 2 claramente es
+divisible por 2.
+
+02:58.720 --> 02:59.930
+Eso lo hace un
+número par.
+
+02:59.930 --> 03:02.461
+Pero es divisible solamente
+por 2 y por 1.
+
+03:02.461 --> 03:03.710
+Entonces eso lo hace
+número primo.
+
+03:03.710 --> 03:06.490
+Pero el resto de los
+números pares
+
+03:06.490 --> 03:13.550
+serán divisibles por 1,
+si mismos, y por 2.
+
+03:13.550 --> 03:15.420
+Cualquier otro número par
+
+03:15.420 --> 03:18.277
+será divisible por 1,
+si mismo, y 2.
+
+03:18.277 --> 03:19.860
+Entonces, por definición,
+tendrá al 1,
+
+03:19.860 --> 03:21.480
+a si mismo, y otro
+número más.
+
+03:21.480 --> 03:23.350
+Entonces será compuesto.
+
+03:23.350 --> 03:24.440
+Entonces 2 es primo.
+
+03:24.440 --> 03:27.880
+Cualquier otro número par, que no sea
+2, será compuesto.
+
+03:27.880 --> 03:30.480
+Pues bien, aquí tenemos
+algo interesante.
+
+03:30.480 --> 03:35.820
+1 -- 1 es divisible solamente
+por 1.
+
+03:35.820 --> 03:41.570
+Entonces no es primo,
+técnicamente, pues solo
+
+03:41.570 --> 03:46.070
+tiene al número 1
+como factor.
+
+03:46.070 --> 03:47.840
+No tiene dos factores.
+
+03:47.840 --> 03:48.814
+1 y si mismo.
+
+03:48.814 --> 03:50.230
+Pero para tener un número primo,
+tienes que
+
+03:50.230 --> 03:52.850
+tener exactamente
+dos factores.
+
+03:52.850 --> 03:55.400
+1 tiene solamente
+un factor.
+
+03:55.400 --> 03:56.960
+Para ser compuesto,
+tienes que
+
+03:56.960 --> 03:58.630
+tener más que
+dos factores.
+
+03:58.630 --> 04:02.660
+Tienes 1, el número mismo,
+y otros números.
+
+04:02.660 --> 04:03.860
+Entonces tampoco
+es compuesto.
+
+04:03.860 --> 04:07.090
+Entonces el número 1 no es
+ni primo ni compuesto.
+
+04:07.090 --> 04:10.690
+1 no es ninguno
+de los dos.
+
+04:10.690 --> 04:13.438
+Por último, tenemos el 17.
+
+04:13.438 --> 04:20.250
+17 es divisible
+por 1 y por 17.
+
+04:20.250 --> 04:23.990
+No es divisible por 2, no es divisible
+por 3, 4, 5, 6...
+
+04:23.990 --> 04:27.590
+7, 8, 9 10, 11, 12,
+13, 14, 15, o 16.
+
+04:27.590 --> 04:33.000
+Entonces tiene exactamente
+dos factores: 1 y sí mismo.
+
+04:33.000 --> 04:38.928
+Entonces 17 es, una vez más --
+17 es número primo.
+
+04:38.928 --> 04:39.428
+[Subtítulos: Joyce Vázquez]

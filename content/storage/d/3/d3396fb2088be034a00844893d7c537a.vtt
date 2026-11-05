@@ -1,0 +1,817 @@
+WEBVTT
+
+00:00.095 --> 00:03.075
+Agora vamos tentar encontrar a solução
+
+00:03.075 --> 00:06.666
+para a equação diferencial logística.
+
+00:06.666 --> 00:09.010
+Nós já encontramos algumas
+soluções constantes.
+
+00:09.010 --> 00:14.155
+Nós podemos pensar nisto como
+uma revisão dos últimos vídeos.
+
+00:14.674 --> 00:17.052
+Se este é o eixo &lt;i>x&lt;/i> e
+este é o eixo N.
+
+00:17.052 --> 00:20.597
+Nós já vimos que se &lt;i>N&lt;/i> for igual a zero,
+se o tempo for igual a zero,
+
+00:20.597 --> 00:23.243
+ou se a população for zero, não há
+quem se reproduza,
+
+00:23.243 --> 00:25.918
+e esta equação diferencial é
+consistente com este caso,
+
+00:25.918 --> 00:28.327
+porque, se &lt;i>N&lt;/i> for zero, isto será zero
+
+00:28.327 --> 00:31.401
+e nossa taxa de variação também
+será zero em relação ao tempo.
+
+00:31.401 --> 00:33.212
+Então nossa população não variará.
+
+00:33.212 --> 00:34.378
+Ela é simplesmente zero.
+
+00:34.378 --> 00:38.097
+O que é bom, porque é justamente o que
+aconteceria a uma população real.
+
+00:38.097 --> 00:41.803
+Isto nos dá a solução constante
+que N de t é igual a zero.
+
+00:41.803 --> 00:44.911
+Esta é uma solução desta equação,
+não especialmente interessante.
+
+00:44.911 --> 00:47.935
+A população igual a zero
+não cresce nem muda.
+
+00:47.935 --> 00:49.500
+A outra solução constante é:
+
+00:49.500 --> 00:55.897
+e se nossa população começar no máximo
+que o ambiente pode prover?
+
+00:56.335 --> 00:59.305
+Nesta situação este termo
+será k sobre k, que é um.
+
+00:59.305 --> 01:02.951
+Um menos um é zero, e aqui a
+população tampouco mudaria.
+
+01:02.951 --> 01:06.359
+Ela ficaria em &lt;i>k&lt;/i> e a taxa de
+mudança se manteria zero.
+
+01:06.359 --> 01:09.046
+Então esta é a outra solução constante,
+
+01:09.046 --> 01:14.046
+em que nós começamos na população máxima
+
+01:14.046 --> 01:18.087
+e então esta equação diferencial nos
+mostra um cenário que nunca muda.
+
+01:18.104 --> 01:21.350
+Mas nós dissemos: olha só, aqui poderia
+acontecer algo interessante
+
+01:21.350 --> 01:23.718
+se nossa condição inicial
+
+01:23.718 --> 01:26.756
+-- a qual nós denominamos &lt;i>N zero&lt;/i>,
+que é nosso N de zero --
+
+01:26.756 --> 01:29.711
+Em tempo igual a zero, se nós começarmos
+em algum lugar entre,
+
+01:29.711 --> 01:33.919
+muito abaixo do nosso teto,
+
+01:33.919 --> 01:36.095
+porque se estivermos muito abaixo do teto
+
+01:36.095 --> 01:37.932
+isto aqui será uma pequena fração
+
+01:37.932 --> 01:39.508
+e este termo será próximo de um.
+
+01:39.508 --> 01:45.089
+Sendo assim, a taxa de variação será
+bem próxima de ser proporcional à N.
+
+01:45.089 --> 01:48.551
+E quando pensamos nisto, percebemos
+que o gráfico assemelhar-se a isto.
+
+01:48.551 --> 01:52.347
+Quando o &lt;i>N&lt;/i> cresce, a taxa de
+variação cresce,
+
+01:52.347 --> 01:54.757
+mas quando &lt;i>N&lt;/i> se aproxima de &lt;i>k&lt;/i>
+
+01:54.757 --> 01:57.621
+este termo se aproxima de um,
+este se aproxima de zero,
+
+01:57.621 --> 02:02.536
+ele vai dominar isto e a nossa taxa
+de variação se aproximará de zero.
+
+02:02.536 --> 02:04.307
+Então nós podemos imaginar um cenário
+
+02:04.307 --> 02:08.562
+onde nós temos uma assintótica
+ao nos aproximarmos de k.
+
+02:08.588 --> 02:16.007
+Vejamos se nós conseguimos resolver
+isto para encontrar este N de t.
+
+02:16.007 --> 02:19.955
+-- para encontrar a expressão analítica
+para este N de t aqui --
+
+02:19.955 --> 02:22.258
+Porque isto é interessante,
+
+02:22.258 --> 02:25.223
+isto poderia ser usado para modelar
+populações que seria mais
+
+02:25.223 --> 02:28.283
+consistentes com o pensamento Maltusiano.
+
+02:28.283 --> 02:30.039
+Vejamos se conseguimos fazer isto.
+
+02:30.039 --> 02:31.783
+Para resolver isto, basta perceber
+
+02:31.783 --> 02:35.285
+que estas são equações separáveis e
+
+02:35.285 --> 02:37.167
+-- assumindo que é uma função de d --
+
+02:37.167 --> 02:40.247
+nós resolveremos para um
+N de t que satisfaz isto.
+
+02:40.247 --> 02:43.119
+Para tal, temos que separar
+dos t's explícitos,
+
+02:43.141 --> 02:46.248
+mas não há &lt;i>t&lt;/i>'s explícitos aqui,
+então é bastante simples de fazer.
+
+02:46.248 --> 02:51.121
+O que eu vou fazer é pegar esta parte aqui
+
+02:51.121 --> 02:52.848
+e dividir ambos lados por aquilo.
+
+02:52.848 --> 02:56.694
+Eu vou deixar o r no lado direito,
+acredito que ele vá facilitar as coisas
+
+02:56.694 --> 02:58.957
+quando tentarmos resolver para &lt;i>N&lt;/i> de &lt;i>t&lt;/i>.
+
+02:58.957 --> 03:00.281
+Então deixe-me fazer isto.
+
+03:00.281 --> 03:06.381
+Isto será igual a um sobre
+N multiplicado por
+
+03:06.381 --> 03:10.075
+um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i>.
+
+03:10.075 --> 03:20.795
+Um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i> vezes &lt;i>dN&lt;/i>&lt;i>dT&lt;/i>,
+
+03:20.795 --> 03:25.822
+é igual a &lt;i>r&lt;/i>.
+
+03:26.205 --> 03:29.044
+Um outro modo de pensar a respeito,
+
+03:29.044 --> 03:31.711
+-- bem, deixe-me continuar
+abordando desta forma --
+
+03:31.711 --> 03:34.695
+Então nós chegamos até aqui e agora
+o que nós queremos fazer é
+
+03:34.695 --> 03:38.578
+integrar ambos lados com respeito à &lt;i>t&lt;/i>.
+
+03:38.578 --> 03:40.515
+Bem, isto é bastante simples.
+
+03:40.515 --> 03:42.752
+Isto será &lt;i>rt&lt;/i> vezes uma constante,
+
+03:42.752 --> 03:43.818
+mas o que será isto?
+
+03:43.818 --> 03:45.305
+Este termo está meio bagunçado.
+
+03:45.305 --> 03:47.049
+Talvez se nós quebrarmos isto,
+
+03:47.059 --> 03:49.273
+se expandirmos em termos
+de duas frações,
+
+03:49.273 --> 03:51.641
+fazer um pouco de expansão
+de frações parciais,
+
+03:51.641 --> 03:53.506
+talvez podemos encontrar uma expressão
+
+03:53.506 --> 03:57.405
+um pouco mais fácil de integrar.
+
+03:57.405 --> 03:59.599
+Minha esperança é que
+encontremos um A e um B
+
+03:59.599 --> 04:09.129
+onde &lt;i>A&lt;/i> sobre &lt;i>N&lt;/i> mais &lt;i>B&lt;/i> sobre
+um menos N sobre k
+
+04:09.139 --> 04:11.124
+é igual a esta equação.
+
+04:11.124 --> 04:16.834
+É igual a um sobre &lt;i>N&lt;/i> vezes
+um menos N sobre k.
+
+04:16.834 --> 04:18.545
+Vejamos se encontramos um &lt;i>A&lt;/i> e um &lt;i>B&lt;/i>.
+
+04:18.545 --> 04:21.932
+Isto é só expansão de funções parciais,
+se isto não lhe parece familiar,
+
+04:21.932 --> 04:24.464
+eu o encorajo a revisar aquela
+parte no Khan Academy.
+
+04:24.464 --> 04:27.617
+Procure por &lt;i>Expansão em frações parciais&lt;/i>
+no Khan Academy.
+
+04:27.628 --> 04:28.682
+Então como fazemos?
+
+04:28.682 --> 04:30.754
+Simplesmente adicionamos isto aqui.
+
+04:30.754 --> 04:33.419
+Se nós calcularmos a soma disto, isto será
+
+04:33.419 --> 04:40.999
+&lt;i>A&lt;/i> vezes isto, que é &lt;i>A&lt;/i> menos &lt;i>A&lt;/i> sobre &lt;i>k N&lt;/i>
+
+04:40.999 --> 04:46.257
+mais &lt;i>B&lt;/i> vezes isto, mais &lt;i>BN&lt;/i> sobre
+
+04:46.257 --> 04:47.803
+o produto destes dois.
+
+04:47.803 --> 04:51.904
+Então será &lt;i>N&lt;/i> vezes um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i>.
+
+04:51.904 --> 04:53.603
+Uma maneira de pensar a respeito é,
+
+04:53.603 --> 04:56.241
+eu multipliquei o numerador e
+o denominador deste por
+
+04:56.241 --> 05:01.466
+um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i>, então &lt;i>A&lt;/i> vezes
+um menos N sobre k é isto
+
+05:01.466 --> 05:03.443
+&lt;i>N&lt;/i> vezes um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i> é isto,
+
+05:03.443 --> 05:07.264
+e eu multipliquei o numerador e o
+denominador de ambos por NBN
+
+05:07.264 --> 05:09.431
+&lt;i>N&lt;/i> vezes isto, e então eu adicionei os dois
+
+05:09.431 --> 05:11.333
+agora que eu tenho o mesmo denominador.
+
+05:11.333 --> 05:14.377
+Isto é apenas adição de frações com
+diferentes denominadores.
+
+05:14.377 --> 05:21.356
+Isto será igual a um sobre &lt;i>N&lt;/i>
+vezes um menos N sobre k.
+
+05:21.356 --> 05:23.268
+Agora a gente pode pensar:
+
+05:23.268 --> 05:26.039
+o que será igual a &lt;i>A&lt;/i> e &lt;i>B&lt;/i>?
+À que eles podem ser iguais?
+
+05:26.039 --> 05:29.337
+Bem, nós temos um termo constante aqui.
+Eu não tenho um termo N aqui.
+
+05:29.337 --> 05:31.821
+Eu poderia dizer que eu
+tenho zero vezes N,
+
+05:31.821 --> 05:34.092
+e na verdade isto ajudaria um pouco,
+
+05:34.092 --> 05:36.961
+porque talvez nós pudéssemos
+dizer que este negócio,
+
+05:36.961 --> 05:41.195
+que isto mais isto, que são
+os coeficientes em N,
+
+05:41.195 --> 05:48.739
+somarão zero, e que isto,
+que é A, será igual a um.
+
+05:49.179 --> 05:50.356
+Essa foi boa.
+
+05:50.356 --> 05:54.508
+Então nós podemos dizer
+que A é igual a um,
+
+05:54.508 --> 06:03.454
+e se &lt;i>A&lt;/i> é igual a um,
+nós temos menos um sobre k
+
+06:03.454 --> 06:06.534
+mais &lt;i>B&lt;/i> é igual a zero.
+
+06:07.371 --> 06:09.158
+Mas o que será &lt;i>B&lt;/i>?
+
+06:09.158 --> 06:14.468
+Bem, &lt;i>B&lt;/i> é um sobre &lt;i>k&lt;/i>.
+
+06:15.251 --> 06:19.640
+Então nós podemos reescrever isto como
+
+06:19.640 --> 06:27.012
+um sobre &lt;i>N&lt;/i>
+
+06:27.142 --> 06:30.322
+mais
+
+06:30.594 --> 06:35.424
+um sobre &lt;i>k&lt;/i>,
+
+06:35.984 --> 06:40.413
+sobre...
+
+06:40.818 --> 06:42.523
+-- deixe-me fazer isto --
+
+06:42.691 --> 06:48.632
+sobre um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i>,
+
+06:50.957 --> 06:57.227
+e então vezes &lt;i>dN dt&lt;/i>,
+
+07:00.164 --> 07:03.875
+é igual a &lt;i>r&lt;/i>.
+
+07:03.875 --> 07:06.658
+Eu só fiz uma pequena expansão
+de frações parciais,
+
+07:06.658 --> 07:09.794
+e eu vou fazer um abrir um pouco de
+espaço, deixe-me limpar isto.
+
+07:09.804 --> 07:12.175
+Você pode retroceder
+o vídeo e revisar isto,
+
+07:12.175 --> 07:14.213
+se achar necessário.
+
+07:14.213 --> 07:16.156
+Então vamos lá.
+
+07:16.156 --> 07:17.455
+Como isto nos ajuda?
+
+07:17.455 --> 07:20.447
+Bem, você provavelmente reconheceu
+
+07:20.447 --> 07:23.185
+a integral de um sobre &lt;i>N&lt;/i>,
+e provavelmente até viu isto.
+
+07:23.185 --> 07:25.335
+Então vamos pensar um
+pouco a respeito disto.
+
+07:25.335 --> 07:28.371
+Nós sabemos que a integral de um
+sobre N é o logarítmo natural,
+
+07:28.371 --> 07:29.778
+-- peguei uma outra cor --
+
+07:29.778 --> 07:32.239
+o logarítmo natural do
+valor absoluto de N.
+
+07:32.239 --> 07:39.757
+E nós podemos ver que a derivada disto
+em relação a N é igual a um sobre N,
+
+07:39.757 --> 07:42.637
+e se nós derivarmos isto em relação a &lt;i>t&lt;/i>,
+
+07:42.637 --> 07:47.443
+derivada em relação a &lt;i>t&lt;/i> do logarítmo
+natural do valor absoluto de N
+
+07:47.443 --> 07:51.681
+é igual a derivada disto em relação a &lt;i>N&lt;/i>
+
+07:52.072 --> 07:54.436
+vezes a derivada de &lt;i>N&lt;/i> em relação a &lt;i>t&lt;/i>,
+
+07:54.436 --> 07:57.375
+vezes &lt;i>dN dt&lt;/i>.
+
+07:57.375 --> 07:59.294
+Nós poderíamos fazer o mesmo aqui.
+
+07:59.294 --> 08:03.305
+Note: eu tenho uma expressão.
+
+08:03.305 --> 08:05.885
+Qual seria a derivada desta expressão?
+
+08:05.885 --> 08:08.643
+Seria menos um sobre &lt;i>k&lt;/i>,
+
+08:08.643 --> 08:10.788
+se estou calculando a derivada
+em relação a N
+
+08:10.788 --> 08:12.484
+Seria menos um sobre &lt;i>k&lt;/i>.
+
+08:12.484 --> 08:15.411
+Eu tenho um mais um sobre &lt;i>k&lt;/i>,
+eu poderia até torná-lo negativo.
+
+08:15.411 --> 08:19.929
+Eu posso inverter isto.
+Eu posso limpar isto,
+
+08:19.929 --> 08:22.444
+em vez de ter um positivo aqui
+
+08:22.444 --> 08:25.572
+eu poderia ter um duplo negativo.
+
+08:27.568 --> 08:30.867
+Eu näo mudei o valor dele, e note,
+agora isto é a derivada disto,
+
+08:30.867 --> 08:34.077
+o que fica muito bom para substituição &lt;i>u&lt;/i>,
+
+08:34.077 --> 08:37.317
+ou talvez você já esteja acostumado
+a fazer isto de cabeça.
+
+08:37.317 --> 08:40.898
+E sabemos que a derivada em relação a &lt;i>N&lt;/i>
+
+08:40.898 --> 08:43.203
+-- Deixe-me escrever isto em outra cor --
+
+08:43.203 --> 08:46.783
+Nós sabemos que a derivada em relação a &lt;i>N&lt;/i>
+
+08:46.783 --> 08:52.553
+do logarítmo natural de
+um menos N sobre k,
+
+08:52.571 --> 08:55.355
+mais uma vez, isto provém diretamente
+da regra da cadeia,
+
+08:55.355 --> 08:57.807
+e será a derivada disto em relação a &lt;i>N&lt;/i>,
+
+08:57.807 --> 09:00.532
+que é menos um sobre &lt;i>k&lt;/i> vezes
+
+09:00.532 --> 09:03.677
+a derivada desta coisa toda com relação
+
+09:03.677 --> 09:07.435
+a isto aqui, que é vezes um sobre
+
+09:07.435 --> 09:09.728
+um menos &lt;i>N&lt;/i> sobre &lt;i>k&lt;/i>,
+
+09:09.728 --> 09:12.273
+Que é exatamente o que temos aqui.
+
+09:12.273 --> 09:14.444
+Se eu fosse calcular a derivada
+disto em relação a t,
+
+09:14.444 --> 09:16.909
+então a derivada em relação a t
+
+09:16.909 --> 09:19.791
+do logarítmo natural de um menos
+
+09:19.791 --> 09:23.613
+&lt;i>N&lt;/i> sobre &lt;i>k&lt;/i>, será a derivada
+disto em relação a N,
+
+09:23.622 --> 09:25.858
+que é aquilo, que acabamos de encontrar.
+
+09:25.858 --> 09:27.863
+Será isto.
+
+09:27.927 --> 09:30.496
+Então copiar e colar.
+
+09:30.496 --> 09:33.679
+Será aquilo.
+
+09:33.679 --> 09:35.723
+Vezes a derivada de &lt;i>N&lt;/i> em relação a &lt;i>t&lt;/i>,
+
+09:36.119 --> 09:40.135
+diretamente da regra da cadeia, &lt;i>dN dt&lt;/i>.
+
+09:40.139 --> 09:42.352
+Bem, note que nós temos um &lt;i>dN dt&lt;/i>,
+
+09:42.352 --> 09:44.825
+nós podemos multiplicar ele
+por cada um dos termos.
+
+09:44.825 --> 09:46.786
+Na verdade, porque não?
+Vamos fazer isto.
+
+09:46.786 --> 09:50.794
+Só para exclarecer, já que isto não é
+específico para equações diferenciais,
+
+09:50.794 --> 09:55.302
+mas para revisar cálculos que
+aprendemos a pouco tempo,
+
+09:55.302 --> 09:57.369
+e até um pouco da álgebra,
+
+09:57.369 --> 09:59.184
+é bom não pularmos estes passos.
+
+09:59.184 --> 10:02.118
+Então, se eu distribuir isto
+-- editar, colar --
+
+10:02.118 --> 10:05.704
+-- Ops, eu queria copiar e colar --
+
+10:07.873 --> 10:11.693
+Copiar e colar, agora tenho isto,
+
+10:12.102 --> 10:20.072
+e tenho também -- eu
+posso copiar e colar --
+
+10:21.005 --> 10:26.985
+Só estou distribuindo
+este negócio aqui.
+
+10:28.414 --> 10:31.989
+E tenho isto -- deixe-me
+limpar um pouco --
+
+10:31.989 --> 10:34.109
+Então eu tenho isto aqui,
+
+10:34.109 --> 10:37.845
+e obviamente temos isto sendo igual a r.
+
+10:37.845 --> 10:40.327
+Se eu calcular a derivada
+disto em relação a t
+
+10:40.327 --> 10:46.860
+eu vou ter ...
+
+10:48.273 --> 10:51.273
+isto
+
+10:55.519 --> 11:00.569
+menos isto aqui.
+
+11:00.569 --> 11:01.421
+Então vamos lá.
+
+11:01.421 --> 11:03.530
+Calculemos a integral em relação a t.
+
+11:03.545 --> 11:05.458
+Do lado esquerdo vou ter
+o logarítmo natural,
+
+11:05.458 --> 11:10.604
+a integral daquilo em relação a &lt;i>t&lt;/i>
+
+11:10.604 --> 11:15.028
+é o logarítmo natural do módulo de &lt;i>N&lt;/i>,
+
+11:15.028 --> 11:20.506
+e então menos a integral
+disto em relação a t
+
+11:20.963 --> 11:29.924
+é o logarítmo natural do módulo
+de 1 menos N sobre k
+
+11:29.924 --> 11:31.403
+é igual a
+
+11:31.403 --> 11:34.598
+-- ah, é importante não esquecer que
+teremos uma constante aqui --
+
+11:34.598 --> 11:37.676
+--eu quero encontrar uma solução
+genérica, vamos chamá-la C um--
+
+11:37.676 --> 11:38.952
+é igual a...
+
+11:38.952 --> 11:43.176
+a integral disto em relação
+a t é r vezes t,
+
+11:43.176 --> 11:48.632
+talvez adicionado a alguma
+outra constante,
+
+11:48.632 --> 11:50.331
+Desta forma.
+
+11:50.331 --> 11:54.033
+Agora vou pressupor que meu &lt;i>N&lt;/i> atenda
+
+11:54.033 --> 11:56.686
+a esta suposição aqui.
+
+11:56.686 --> 12:03.310
+Então vou pressupor
+
+12:09.337 --> 12:13.264
+que &lt;i>N&lt;/i> de &lt;i>t&lt;/i> será menor que &lt;i>k&lt;/i>
+
+12:13.264 --> 12:15.015
+e maior que zero.
+
+12:15.015 --> 12:18.294
+Isto significa que este &lt;i>N&lt;/i>
+será sempre positivo.
+
+12:18.294 --> 12:20.776
+Se &lt;i>N&lt;/i> é sempre entre zero e &lt;i>k&lt;/i>,
+
+12:20.776 --> 12:23.159
+isto significa que isto
+será sempre positivo.
+
+12:23.395 --> 12:25.884
+Isto me ajuda a limpar um pouco as coisas.
+
+12:25.884 --> 12:28.572
+-- Vou usar esta cor --
+
+12:28.572 --> 12:30.686
+-- me ajuda a limpar isto --
+
+12:30.686 --> 12:35.053
+-- me ajuda a limpar isto --
+
+12:35.053 --> 12:39.048
+No lugar disto eu posso
+por parênteses aqui,
+
+12:39.345 --> 12:43.318
+e porque não subtrair &lt;i>C um&lt;/i> de ambos lados?
+
+12:43.318 --> 12:50.321
+-- deixe-me tirá-lo daqui, editar,
+cortar e colar e tenho o C um lá --
+
+12:50.321 --> 12:52.614
+Estou ciente de estar
+sobrescrevendo o trabalho,
+
+12:52.614 --> 12:55.902
+o que prejudica a clareza.
+
+12:55.902 --> 12:58.308
+Só estou tentando limpar um pouco.
+
+12:58.308 --> 13:01.497
+Eu tenho uma constante arbitrária para
+a qual eu ainda não resolvi
+
+13:01.497 --> 13:02.558
+menos outra constante.
+
+13:02.558 --> 13:06.316
+Deixe-me chamar esta outra constante
+de um C genérico.
+
+13:06.316 --> 13:11.227
+Deixe-me chamar isto de &lt;i>C&lt;/i>.
+
+13:11.396 --> 13:16.396
+-- limpar... eu vou chamar
+aquilo simplesmente de C --
+
+13:19.786 --> 13:21.743
+E eu poderia simplificar isto um pouco,
+
+13:21.743 --> 13:24.450
+mas acabo de perceber que este
+vídeo está em 13 minutos,
+
+13:24.450 --> 13:26.565
+e eu não gosto de extender
+mais do que isto.
+
+13:26.565 --> 13:28.253
+Então continuemos no próximo vídeo.
+
+13:28.253 --> 13:30.358
+Eu me empolguei, porque estou tão próximo.
+
+13:30.358 --> 13:32.970
+Tão próximo de resolver para um &lt;i>N&lt;/i> de &lt;i>t&lt;/i>
+
+13:32.982 --> 13:35.416
+que satisfaça nossa equação
+diferencial logística.
+
+13:35.416 --> 13:36.660
+Muito empolgado.
+
+13:36.720 --> 13:37.570
+Legendado por [ José Irigon ]
+Revisado por [Pilar Dib]

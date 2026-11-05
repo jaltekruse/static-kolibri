@@ -1,0 +1,560 @@
+WEBVTT
+
+00:00.550 --> 00:04.330
+Luis dostal dárkovou kartu
+v hodnotě 25 dolarů
+
+00:04.330 --> 00:07.970
+do online obchodu
+s digitální hudbou a hrami.
+
+00:07.970 --> 00:14.490
+Každá písnička stojí 0,89 dolarů
+a každá hra stojí 1,99 dolarů.
+
+00:14.490 --> 00:20.560
+Chce si za tuto kartu koupit
+alespoň 15 položek.
+
+00:20.560 --> 00:22.540
+Utvořte soustavu nerovnic,
+
+00:22.540 --> 00:24.520
+která popisuje tento případ
+
+00:24.520 --> 00:28.440
+a určete rozsah možných
+nákupů pomocí grafu.
+
+00:28.440 --> 00:31.320
+A proto tady máme čtverečkovaný papír.
+
+00:31.320 --> 00:32.940
+Definujme si proměnné.
+
+00:32.940 --> 00:36.490
+Nechť se 's' rovná počtu zakoupených písní.
+
+00:36.490 --> 00:39.120
+Počet zakoupených písní.
+
+00:39.120 --> 00:45.370
+A potom 'g' se rovná počtu zakoupených her.
+
+00:45.370 --> 00:47.020
+Když se podíváme na tyto podmínky,
+
+00:47.020 --> 00:51.190
+chce si na tuto kartu
+koupit alespoň 15 položek.
+
+00:51.190 --> 00:53.340
+Celkový počet položek bude tedy
+
+00:53.340 --> 00:55.420
+počet písní a počet her.
+
+00:55.420 --> 00:57.180
+A to bude alespoň 15.
+
+00:57.180 --> 01:01.600
+Takže to musí být větší nebo rovno 15.
+
+01:01.600 --> 01:04.390
+Tohle nám říká tato podmínka.
+
+01:04.390 --> 01:08.790
+A ta druhá podmínka je
+hodnota dárkové karty 25 dolarů.
+
+01:08.790 --> 01:11.310
+Částka, kterou utratí za hudbu,
+plus částka,
+
+01:11.310 --> 01:14.810
+kterou utratí za hry, musí být
+menší nebo rovno 25.
+
+01:14.810 --> 01:17.010
+Částka, kterou utratí za hudbu, bude
+
+01:17.010 --> 01:22.460
+počet koupených písniček krát
+cena za písničku.
+
+01:22.460 --> 01:27.870
+Krát 0,89, krát…
+0,89 krát.
+
+01:27.870 --> 01:31.660
+Tolik utratí za hudbu, plus cena za hru,
+
+01:31.660 --> 01:35.680
+což je 1,99 dolarů, krát počet her.
+
+01:35.680 --> 01:37.540
+To bude celková utracené částka.
+
+01:37.540 --> 01:44.940
+A to musí být menší nebo rovno 25.
+
+01:44.940 --> 01:48.740
+Poud to chceme zakreslit do grafu,
+musíme si napřed definovat osy.
+
+01:48.740 --> 01:50.180
+Hned to udělám.
+
+01:50.180 --> 01:52.420
+A zajímá nás pouze první kvadrant,
+
+01:52.420 --> 01:55.550
+protože máme pouze kladné hodnoty
+pro počet písniček a počet her.
+
+01:55.550 --> 01:58.980
+Neuvažujeme možnosti, kdy by si koupil
+
+01:58.980 --> 02:00.580
+záporný počet písniček nebo her.
+
+02:00.580 --> 02:03.610
+Takže máme jen kladný kvadrant.
+
+02:03.610 --> 02:06.110
+Nakreslím osy.
+
+02:06.110 --> 02:11.990
+Tady kreslím svislou osu,
+
+02:11.990 --> 02:15.220
+tato čára bude svislá osa
+
+02:15.220 --> 02:18.140
+a nazveme ji osou písniček.
+
+02:18.140 --> 02:20.320
+Tohle je počet písniček, které si koupí.
+
+02:20.320 --> 02:21.870
+Napíšu to tak, abyste to viděli.
+
+02:21.870 --> 02:23.930
+To je osa písniček.
+
+02:23.930 --> 02:28.070
+Tato vodorovná čára bude
+
+02:28.070 --> 02:29.905
+počet her, které si koupí.
+
+02:29.905 --> 02:31.355
+Udělám to tučně.
+
+02:34.432 --> 02:36.972
+Počet her, které si koupí.
+
+02:39.320 --> 02:43.720
+A abychom měli jistotu,
+že se vejdeme na stránku,
+
+02:43.720 --> 02:46.570
+protože si myslím, že
+dostaneme poměrně velká čísla,
+
+02:46.570 --> 02:48.620
+každý tento čtvereček se bude rovnat 2.
+
+02:48.620 --> 02:56.710
+Bude to 4, 8, 12, 16, 20 a tak dále.
+
+02:56.710 --> 03:00.080
+A tohle bude 4… Tohle samozřejmě bude 0.
+
+03:00.080 --> 03:08.860
+4, 8, 12, 16, 20 a tak dále.
+
+03:08.860 --> 03:12.070
+Uvidíme, jestli budeme umět
+zakreslit tyto dvě podmínky do grafu.
+
+03:12.070 --> 03:14.710
+První podmínkou je 's' plus 'g' bude
+
+03:14.710 --> 03:16.560
+větší nebo rovno 15.
+
+03:16.680 --> 03:20.860
+Nejjednodušeji to zakreslíme,
+když budeme uvažovat průsečíky.
+
+03:20.860 --> 03:25.160
+Když 'g' je 0, kolik je 's'?
+
+03:25.160 --> 03:29.340
+'S' plus 0 musí být větší nebo rovno 15.
+
+03:29.340 --> 03:35.290
+Pokud 'g' bude 0, 's' bude větší nebo rovno 15.
+
+03:35.290 --> 03:36.750
+Řeknu to jinak.
+
+03:37.810 --> 03:39.700
+Pokud to mám zapsat do grafu,
+
+03:39.700 --> 03:43.710
+když 'g' je 0, 's' je větší nebo rovno 15.
+
+03:43.710 --> 03:50.310
+Takže 'g' je 0, 's', 15,
+to je 12, 14, 15. Tady.
+
+03:50.380 --> 03:54.610
+A 's' bude všechno, co je
+rovno nebo větší než tohle
+
+03:54.610 --> 03:56.170
+pro 'g' rovno 0.
+
+03:56.170 --> 04:00.460
+Když 's' se rovná 0,
+'g' je větší nebo rovno 15.
+
+04:00.460 --> 04:05.700
+Když 's' je rovno 0,
+'g' je větší nebo rovno 15.
+
+04:05.700 --> 04:08.810
+Takže 'g' je větší nebo rovno 15.
+
+04:08.810 --> 04:12.740
+Takže abychom dostali hranici,
+'s' plus 'g' je rovno 15,
+
+04:12.740 --> 04:14.900
+jen spojíme tyto dva body.
+
+04:14.900 --> 04:17.649
+Zkusím to jak nejlépe dovedu.
+
+04:17.649 --> 04:19.720
+Bude to vypadat nějak takto.
+
+04:22.400 --> 04:24.330
+To je vždycky nejtěžší.
+
+04:24.330 --> 04:28.000
+Uvidíme, jak se mi to podaří.
+
+04:28.000 --> 04:29.540
+Ne.
+
+04:29.540 --> 04:30.480
+Zkusím to.
+
+04:30.480 --> 04:32.960
+Měl jsem si vzít nástroj pro kreslení čáry.
+
+04:32.960 --> 04:35.400
+To je dobré.
+
+04:35.400 --> 04:38.050
+Takže to je přímka
+'s' plus 'g' je rovno 15.
+
+04:38.050 --> 04:40.800
+A my uvažujeme hodnoty větší než 15,
+
+04:40.800 --> 04:42.060
+půjdeme nad tuto přímku.úsečku.
+
+04:42.060 --> 04:46.920
+A vidíte, když 'g' je rovno 0,
+'s' je větší nebo rovno 15.
+
+04:47.010 --> 04:49.070
+Jsou to všechny hodnoty tady nahoře.
+
+04:49.070 --> 04:53.330
+A když 's' bude 0,
+'g' bude větší nebo rovno 15.
+
+04:53.330 --> 04:57.650
+Takže tato podmínka zahrnuje všechno tohle.
+
+04:57.650 --> 05:00.440
+Celá tato oblast jí vyhovuje.
+
+05:00.440 --> 05:03.310
+Celá tato oblast,
+když si vyberete jakoukoli souřadnici,
+
+05:03.310 --> 05:06.020
+bude vyjadřovat…
+Měli byste uvažovat pouze celá čísla,
+
+05:06.020 --> 05:08.230
+protože nekupujeme části her.
+
+05:08.230 --> 05:10.690
+Pokud uvažujete všechny
+celočíselné souřadnice,
+
+05:10.690 --> 05:13.320
+vyjadřují kombinace 's' a 'g',
+
+05:13.320 --> 05:15.270
+když si koupíte alespoň 15 her.
+
+05:15.270 --> 05:18.610
+Například tady, kupujete 8 her a 16 písní.
+
+05:18.610 --> 05:19.320
+To je 24.
+
+05:19.320 --> 05:21.730
+Takže určitě splňujete první podmínku.
+
+05:21.730 --> 05:23.570
+Teď druhá podmínka.
+
+05:23.570 --> 05:28.120
+0,89s plus 1,99g je méně nebo rovno 25.
+
+05:28.120 --> 05:29.570
+Tohle je počáteční bod.
+
+05:29.570 --> 05:38.270
+Nakreslíme přímku
+0,89s plus 1,99 se rovná 25.
+
+05:38.270 --> 05:41.660
+A potom se podíváme, jaká oblast
+
+05:41.660 --> 05:43.000
+zahrnuje to 'méně než'
+
+05:43.000 --> 05:44.890
+Ach, 1,99g.
+
+05:44.890 --> 05:46.790
+A nejjednodušší je, opakuji,
+
+05:46.790 --> 05:49.020
+mohli bychom zkoušet
+směrnicový tvar a podobně.
+
+05:49.020 --> 05:51.630
+Ale nejjednodušší je
+najít průsečíky 's' a 'g'.
+
+05:51.630 --> 05:59.480
+Když je 's' rovno 0,
+máme 1,99g se rovná 25.
+
+05:59.480 --> 06:04.340
+'S' je rovno 0,
+pak máme 1,99g se rovná 25,
+
+06:04.340 --> 06:08.470
+nebo 'g' se rovná…
+Vezmeme si na to kalkulačku.
+
+06:08.470 --> 06:17.900
+Máme 25 děleno 1,99, to je 12,56.
+
+06:17.900 --> 06:25.700
+'G' se rovná 12,56.
+
+06:25.700 --> 06:27.970
+Když 's' je 0, nakreslím to do grafu.
+
+06:27.970 --> 06:32.370
+Když 's' je 0, 'g' je 12,56.
+
+06:32.370 --> 06:34.440
+Tohle je 12, tohle je 14.
+
+06:34.440 --> 06:37.450
+12,56 bude právě tady,
+
+06:37.450 --> 06:38.950
+trochu víc než 12.
+
+06:38.950 --> 06:40.370
+To je tato hodnota.
+
+06:40.370 --> 06:43.500
+A udělejme to samé pro 'g'.
+
+06:43.500 --> 06:47.310
+Když 'g' se rovná 0, potom máme…
+
+06:47.310 --> 06:51.770
+Tento člen zmizí, máme 0,89s.
+
+06:51.770 --> 06:54.480
+Pokud použijeme pouze rovnost, rovnice…
+
+06:54.480 --> 07:00.220
+rovná se 25 nebo 's' se rovná…
+Vytáhněte zase kalkulačku.
+
+07:00.220 --> 07:06.410
+Máme 25 děleno 0,89, dostaneme…
+
+07:06.410 --> 07:09.110
+Je to rovno 28,08.
+
+07:09.110 --> 07:11.180
+Kousek víc, než 28.
+
+07:11.180 --> 07:14.670
+Takže 28,08.
+
+07:14.670 --> 07:19.160
+'G' se rovná 0, 's' je 28.
+
+07:19.160 --> 07:22.890
+To je 2, 4, 24, 6, 8.
+
+07:22.890 --> 07:23.800
+Trošičku nad 28.
+
+07:23.800 --> 07:25.600
+Takže to je tady.
+
+07:25.600 --> 07:32.180
+Tato přímka, 0,89s plus 1,99g se rovná 25
+
+07:32.180 --> 07:35.810
+půjde od této souřadnice, což je (0,28).
+
+07:35.810 --> 07:37.630
+To je tento bod.
+
+07:37.630 --> 07:41.320
+Půjde až dolů k bodu (12,56,0).
+
+07:41.320 --> 07:43.420
+Uvidíme, jestli to dokážu nakreslit.
+
+07:43.420 --> 07:47.130
+Půjdu…
+Ještě jeden pokus.
+
+07:47.130 --> 07:50.560
+Možná když začnu zdola,
+bude to jednodušší.
+
+07:50.560 --> 07:52.220
+To je lepší.
+
+07:52.220 --> 07:56.300
+Udělám to tlustší,
+abyste to pořádně viděli.
+
+07:57.510 --> 08:01.390
+Tato přímka znázorňuje tohle tady.
+
+08:01.390 --> 08:05.710
+Pokud budeme uvažovat oblast 'menší než',
+
+08:05.710 --> 08:06.700
+co nám to říká?
+
+08:06.700 --> 08:12.590
+Pokud se zamyslíme,
+když 'g' je rovno 0,
+
+08:12.590 --> 08:15.550
+0,89s je menší než 25.
+
+08:15.550 --> 08:19.380
+Když 'g' se rovná 0,
+pokud tady chceme 'menší než',
+
+08:19.380 --> 08:20.500
+můžeme to brát takto.
+
+08:20.500 --> 08:23.380
+Je to menší, místo menší nebo rovno.
+
+08:23.380 --> 08:26.630
+Takže 's' je menší než 28,08.
+
+08:26.630 --> 08:30.400
+Takže to bude ta oblast pod.
+
+08:30.400 --> 08:34.610
+Když 's' je rovno 0, 'g'…
+Když máme 's' rovno 0, použijeme
+
+08:34.610 --> 08:38.820
+tuto původní rovnici,
+1,99g bude menší nebo rovno.
+
+08:38.820 --> 08:40.790
+Použiju to jen abych nakreslil graf,
+
+08:40.790 --> 08:46.670
+ale pokud nás zajímá jen nerovnost,
+dostaneme 1,99g je menší než 25.
+
+08:46.670 --> 08:49.620
+'g' bude menší nebo rovno 12,56.
+
+08:49.620 --> 08:55.390
+Když 's' je rovno 0,
+'g' je menší než 12,56.
+
+08:55.390 --> 08:59.950
+Oblast, která vyhovuje druhé podmínce
+
+08:59.950 --> 09:02.640
+je všechno pod tímto grafem.
+
+09:03.040 --> 09:06.040
+Všechno pod touto čarou.
+
+09:06.040 --> 09:10.170
+Teď chceme dostat oblast,
+která vyhovuje oběma podmínkám.
+
+09:10.170 --> 09:12.420
+Takže to bude tam,
+kde se překrývají obě oblasti
+
+09:12.420 --> 09:13.930
+splňující jednu ze dvou podmínek.
+
+09:13.930 --> 09:17.060
+Ten překryv bude přímo tady.
+
+09:17.060 --> 09:20.920
+Pod oranžovým grafem a nad modrým grafem,
+
+09:20.920 --> 09:23.520
+včetně těch úseček.
+
+09:23.520 --> 09:25.660
+Takže pokud si vyberete jakoukoli kombinaci…
+
+09:25.660 --> 09:33.470
+Pokud si koupí 4 hry a 14 písniček,
+bude to sedět.
+
+09:33.470 --> 09:37.090
+Nebo když si koupí 2 hry a 16 písniček,
+bude to souhlasit.
+
+09:37.090 --> 09:38.450
+Teď můžete lépe představit.
+
+09:38.450 --> 09:41.150
+Cokoli v této oblasti,
+a může to být pouze celé číslo,
+
+09:41.150 --> 09:43.720
+bude vyhovovat oběma podmínkám.

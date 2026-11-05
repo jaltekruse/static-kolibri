@@ -1,0 +1,341 @@
+WEBVTT
+
+00:00.005 --> 00:02.430
+Vamos fazer um outro exemplo e desta vez
+
+00:02.430 --> 00:05.790
+vamos girar nossa função
+ao redor de uma linha vertical que
+
+00:05.790 --> 00:06.994
+não é o eixo de y.
+
+00:06.994 --> 00:08.410
+E se fizermos isto, -- vamos
+
+00:08.410 --> 00:11.300
+girar y igual a x ao quadrado menos 1 --
+
+00:11.300 --> 00:12.800
+ou pelo menos parte disto --
+
+00:12.800 --> 00:14.670
+vamos girar ao redor da linha vertical
+
+00:14.670 --> 00:16.500
+x é igual a menos 2.
+
+00:16.500 --> 00:18.810
+E assim, teremos esta
+forma de bola de chiclete
+
+00:18.810 --> 00:19.880
+que parece algo assim.
+
+00:19.880 --> 00:21.463
+O que eu quero fazer é calcular
+
+00:21.463 --> 00:23.840
+o volume disto usando o método do disco.
+
+00:23.840 --> 00:27.730
+O que eu quero é construir alguns discos.
+
+00:27.730 --> 00:30.860
+E aqui está um dos discos.
+
+00:30.860 --> 00:33.240
+Vai ter alguma profundidade,
+e esta profundidade
+
+00:33.240 --> 00:39.230
+vai ser dy aqui.
+
+00:39.230 --> 00:42.930
+E tem uma certa área em cima do disco
+
+00:42.930 --> 00:47.210
+que é uma função de
+qualquer y que eu tenha.
+
+00:47.210 --> 00:48.950
+O volume de um dado disco será
+
+00:48.950 --> 00:51.660
+a área em função de y
+
+00:51.660 --> 00:54.399
+vezes a profundidade do disco vezes dy.
+
+00:54.399 --> 00:56.690
+E então vamos calcular
+a integral do intervalo
+
+00:56.690 --> 00:59.340
+que nos interessa,
+e vamos fazer isto em função de y.
+
+00:59.340 --> 01:01.090
+E neste caso, vamos integrar
+
+01:01.090 --> 01:03.892
+de y igual a -- isto vai cortar
+
+01:03.892 --> 01:05.850
+este y corta o eixo aqui
+
+01:05.850 --> 01:07.480
+é y igual a menos 1.
+
+01:07.480 --> 01:10.610
+E vamos até y igual a, --
+
+01:10.610 --> 01:15.470
+digamos y igual a três aqui.
+
+01:15.470 --> 01:21.810
+Ou seja, de y igual a menos 1
+até y igual a 3.
+
+01:21.810 --> 01:25.080
+e isto nos dará o volume
+
+01:25.080 --> 01:29.010
+desta forma que parece uma bola de
+chiclete de cabeça para baixo.
+
+01:29.010 --> 01:30.880
+A dica aqui, para podermos começar a
+
+01:30.880 --> 01:33.520
+calcular a integral dupla, é ver
+
+01:33.520 --> 01:37.520
+o que a área de cada um desses discos
+é em relação a y.
+
+01:37.520 --> 01:40.960
+Sabemos que a área em função de y
+
+01:40.960 --> 01:45.410
+será pi vezes o raio em função de y
+
+01:45.410 --> 01:46.550
+elevado ao quadrado.
+
+01:46.550 --> 01:49.860
+Ao final, a verdadeira dica é:
+qual é o raio em função de y
+
+01:49.860 --> 01:51.200
+para qualquer destes y?
+
+01:51.200 --> 01:56.486
+O que é o raio em função de y?
+
+01:56.486 --> 01:58.110
+Vamos pensar um pouco.
+
+01:58.110 --> 01:59.510
+Qual é esta curva?
+
+01:59.510 --> 02:01.226
+Vou escrever em função de y
+
+02:01.226 --> 02:03.740
+Se você adicionar 1 a cada lado --
+vou mudar os lados
+
+02:03.740 --> 02:06.980
+você tem x ao quadrado é igual a y mais 1.
+
+02:06.980 --> 02:10.180
+Eu só adicionei 1 a cada lado
+e troquei os lados da igualdade.
+
+02:10.180 --> 02:12.980
+Então você tem x igual à
+
+02:12.980 --> 02:15.662
+raiz quadrada de y mais 1.
+
+02:15.662 --> 02:20.120
+Isto podemos escrever como x
+-- ou podemos escrever como f de y
+
+02:20.120 --> 02:25.780
+-- f de y é igual à raiz quadrada
+de y mais 1.
+
+02:25.780 --> 02:28.940
+Ou podemos dizer que x
+é igual à função de y que
+
+02:28.940 --> 02:30.726
+é a raiz quadrada de y mais 1.
+
+02:30.726 --> 02:34.380
+Qual é a distância daqui
+até qualquer ponto?
+
+02:34.380 --> 02:38.640
+A distância
+-- deixe-me colocar bem claro aqui.
+
+02:38.640 --> 02:40.730
+Isto será a nossa distância total
+
+02:40.730 --> 02:43.020
+na direção horizontal.
+
+02:43.020 --> 02:45.810
+Esta primeira parte como nós --
+vou fazer aqui com uma
+
+02:45.810 --> 02:47.350
+outra cor para que possamos ver.
+
+02:47.350 --> 02:49.600
+Esta parte aqui será
+
+02:49.600 --> 02:51.454
+o valor da função.
+
+02:51.454 --> 02:52.870
+Isto lhe dará um valor de x.
+
+02:52.870 --> 02:56.950
+Mas então você tem que adicionar
+2 para chegar até aqui.
+
+02:56.950 --> 03:02.080
+Seu raio, como função de y
+
+03:02.080 --> 03:05.745
+será igual à raiz quadrada de y mais 1.
+
+03:05.745 --> 03:08.590
+Na realidade, isto lhe dará
+um destes valores de x que
+
+03:08.590 --> 03:11.430
+fazem parte da curva,
+este x como função de y,
+
+03:11.430 --> 03:13.230
+isto lhe dará um destes valores de x
+
+03:13.230 --> 03:17.374
+A partir daí, você adiciona outro 2,
+assim, mais 2.
+
+03:17.374 --> 03:19.950
+Outra maneira de fazer,
+você tem um valor de x aqui
+
+03:19.950 --> 03:24.070
+e deste valor, você tira x
+
+03:24.070 --> 03:26.102
+igual a menos 2.
+
+03:26.102 --> 03:28.060
+E quando você subtrai x igual a menos 2,
+
+03:28.060 --> 03:29.370
+você adiciona 2 aqui.
+
+03:29.370 --> 03:31.230
+Eu espero que isto faça sentido.
+
+03:31.230 --> 03:33.600
+Este é o valor de x
+-- vou fazer com uma outra
+
+03:33.600 --> 03:36.940
+cor -- isto aqui, esta distância aqui
+
+03:36.940 --> 03:39.280
+é o valor de x quando você
+
+03:39.280 --> 03:41.595
+calcula a função de y.
+
+03:41.595 --> 03:43.220
+Mas se você quer o raio inteiro,
+
+03:43.220 --> 03:45.470
+adicione mais 2
+para chegar ao centro
+
+03:45.470 --> 03:47.460
+do nosso eixo de rotação.
+
+03:47.460 --> 03:51.070
+Novamente, se você pegar um dado y aqui,
+
+03:51.070 --> 03:53.210
+você calcula y,
+você consegue um valor de x.
+
+03:53.210 --> 03:55.480
+Este x te dará esta distância.
+
+03:55.480 --> 03:58.490
+Se você quer a distância total,
+você tem que subtrair menos 2
+
+03:58.490 --> 04:00.200
+do valor de x, que na verdade
+
+04:00.200 --> 04:03.530
+é o mesmo que adicionar 2
+para conseguir o valor total do raio.
+
+04:03.530 --> 04:07.310
+Nosso raio em função de y está aqui.
+
+04:07.310 --> 04:09.380
+Substituindo de volta aqui,
+
+04:09.380 --> 04:12.190
+podemos escrever a integral definitiva
+para o nosso volume.
+
+04:12.190 --> 04:18.329
+O volume será igual a integral definitiva
+
+04:18.329 --> 04:24.800
+de menos 1 a 3 de pi vezes
+o raio elevado ao quadrado vezes dy.
+
+04:24.800 --> 04:26.390
+Posso escrever pi aqui --
+
+04:26.390 --> 04:29.420
+já fizemos isto diversas vezes
+-- vezes raio ao quadrado--
+
+04:29.420 --> 04:35.770
+isto será raiz quadrada de y
+mais 1 mais 2 ao quadrado --
+
+04:35.770 --> 04:39.830
+isto é nosso raio -- vezes dy.
+
+04:39.830 --> 04:42.010
+Determinamos a integral definitiva.
+
+04:42.010 --> 04:44.766
+E agora temos que calcular isto.
+
+04:44.766 --> 04:47.978
+Mas isto eu vou guardar
+para o próximo vídeo
+
+04:47.978 --> 04:50.270
+E eu incentivo você a tentar isto sozinho.
+
+04:50.280 --> 04:51.000
+Traduzido por Celeste de Britto Heemskerk
+Revisado por Sérgio Fleury

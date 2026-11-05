@@ -1,0 +1,804 @@
+WEBVTT
+
+00:00.259 --> 00:01.606
+- [Voiceover] All right, part c.
+
+00:01.606 --> 00:04.924
+What time t, where zero
+is less than or equal to t
+
+00:04.924 --> 00:06.248
+is less than or equal to eight,
+
+00:06.248 --> 00:09.267
+is the amount of water
+in the pipe at a minimum?
+
+00:09.267 --> 00:12.041
+Justify your answer.
+
+00:12.041 --> 00:14.059
+All right, well, let's define a function w
+
+00:14.059 --> 00:16.242
+that represents the amount
+of water in the pipe
+
+00:16.242 --> 00:18.349
+at anytime, t, and then
+we could figure out how
+
+00:18.349 --> 00:21.665
+to figure out the minimum
+value for w over that interval.
+
+00:21.665 --> 00:24.454
+So let's just say w of t.
+
+00:24.454 --> 00:26.254
+So that's the amount of water in the pipe
+
+00:26.254 --> 00:28.487
+at any given time, t.
+
+00:28.487 --> 00:33.363
+It's going to be equal to, well,
+we start with 30 cubic feet
+
+00:33.363 --> 00:35.152
+of water in the pipe that t equals zero
+
+00:35.152 --> 00:37.091
+that tells us that right up here.
+
+00:37.091 --> 00:38.837
+So we start with that much.
+
+00:38.837 --> 00:42.333
+And then we are going to add
+or take away some amount.
+
+00:42.333 --> 00:44.795
+So then it's going to be plus.
+
+00:44.795 --> 00:48.614
+We're going to sum up
+from time zero to time t.
+
+00:48.614 --> 00:50.217
+Remember this is the function of t.
+
+00:50.217 --> 00:53.711
+Well, let's sum up our net inflow
+
+00:53.711 --> 00:56.718
+times little small changes in time.
+
+00:56.718 --> 00:58.692
+We will sum up all those
+small changes in time
+
+00:58.692 --> 01:02.094
+from zero to t and that will
+give us our aggregate inflow
+
+01:02.094 --> 01:03.858
+or aggregate net inflow.
+
+01:03.858 --> 01:05.879
+So what is our net inflow?
+
+01:05.879 --> 01:08.456
+Well, you have the function R which says
+
+01:08.456 --> 01:10.894
+the rate which the water is
+entering and your function d
+
+01:10.894 --> 01:13.274
+which is the rate which water is exiting.
+
+01:13.274 --> 01:15.429
+Instead of using t as our variable,
+
+01:15.429 --> 01:19.421
+I'm going to use x since t is
+already one of our variable,
+
+01:19.421 --> 01:22.186
+is one of our boundaries of integration.
+
+01:22.186 --> 01:23.487
+We can use any variable we want.
+
+01:23.487 --> 01:25.519
+It's really just a bit
+of a placeholder variable
+
+01:25.519 --> 01:26.761
+for the integration.
+
+01:26.761 --> 01:30.059
+So our net inflow is
+
+01:30.059 --> 01:32.013
+R, I'll say R of x
+
+01:32.013 --> 01:35.055
+minus D of x
+
+01:35.055 --> 01:36.478
+and then dx.
+
+01:36.478 --> 01:38.777
+Once again, this is
+our net rate of inflow.
+
+01:38.777 --> 01:40.390
+This is our inflow minus our outflow
+
+01:40.390 --> 01:43.641
+so our net rate of inflow
+times small changes,
+
+01:43.641 --> 01:46.230
+we could view this as
+time although it's x,
+
+01:46.230 --> 01:48.761
+and then we sum up from zero to time
+
+01:48.761 --> 01:50.444
+is equal to t.
+
+01:50.444 --> 01:53.359
+So this is how much water
+we are going to have
+
+01:53.359 --> 01:58.316
+in the pipe at any time t.
+
+01:58.316 --> 02:01.880
+So let's now think about at what point
+
+02:01.880 --> 02:04.887
+does w hit a minimum in the central.
+
+02:04.887 --> 02:06.141
+And there's three possibilities
+
+02:06.141 --> 02:08.928
+where w could hit a minimum point.
+
+02:08.928 --> 02:10.983
+It could hit a minimum
+at right at the beginning
+
+02:10.983 --> 02:13.548
+at each at w of zero.
+
+02:13.548 --> 02:15.162
+It could hit it at the end of our interval
+
+02:15.162 --> 02:17.681
+at w of eight at t equals eight
+
+02:17.681 --> 02:19.469
+or it could be some place in between
+
+02:19.469 --> 02:22.407
+where w is at a local maximum point.
+
+02:22.407 --> 02:25.483
+In which case, the derivative
+of w will be equal to zero.
+
+02:25.483 --> 02:28.363
+So let's first evaluate
+w at the end points.
+
+02:28.363 --> 02:30.986
+So w of zero.
+
+02:30.986 --> 02:31.729
+Oh, we know that.
+
+02:31.729 --> 02:33.668
+That's the boundary of a zero to zero
+
+02:33.668 --> 02:35.422
+that they gave it to us in the problem
+
+02:35.422 --> 02:38.730
+is the initial state is
+we have 30 cubic feet
+
+02:38.730 --> 02:41.363
+of water in the pipe already.
+
+02:41.363 --> 02:44.405
+And now, what is w of eight?
+
+02:44.405 --> 02:46.390
+Well, this is going to be 30
+
+02:46.390 --> 02:49.409
+plus the definite integral
+from zero to eight
+
+02:49.409 --> 02:53.948
+of R of x minus D of x,
+
+02:53.948 --> 02:56.793
+minus D of x, dx.
+
+02:56.793 --> 02:58.825
+And lucky for us, we're
+allowed to use a calculator
+
+02:58.825 --> 03:01.924
+so let's use a calculator
+to evaluate this.
+
+03:01.924 --> 03:04.270
+And so, let me get my calculator out.
+
+03:04.270 --> 03:07.247
+Let me go see the
+definition of R of x, D of x
+
+03:07.247 --> 03:10.115
+right over here so I can type them in.
+
+03:10.115 --> 03:11.032
+And what I'm gonna do
+
+03:11.032 --> 03:13.324
+and there's a bunch of ways
+of more advance you get
+
+03:13.324 --> 03:15.973
+with a calculator that
+might save you some time
+
+03:15.973 --> 03:17.299
+in front of the AP test.
+
+03:17.299 --> 03:19.103
+I'm actually gonna define a function
+
+03:19.103 --> 03:23.619
+that is R of x minus D of x.
+
+03:23.619 --> 03:25.326
+So everywhere I see t,
+I'm gonna substitute it.
+
+03:25.326 --> 03:26.708
+I'm gonna use x instead.
+
+03:26.708 --> 03:28.493
+And then I could use that later on
+
+03:28.493 --> 03:31.883
+to integrate it or to
+solve it in some way.
+
+03:31.883 --> 03:32.719
+So let's do that.
+
+03:32.719 --> 03:34.913
+So y1 is gonna be 20
+
+03:34.913 --> 03:37.641
+times sine
+
+03:37.641 --> 03:40.938
+of x squared
+
+03:40.938 --> 03:43.794
+divided by 35,
+
+03:43.794 --> 03:45.501
+close parenthesis,
+
+03:45.501 --> 03:47.603
+minus open parenthesis.
+
+03:47.603 --> 03:51.759
+You have negative 0.04
+
+03:51.759 --> 03:54.534
+times t to the third power
+
+03:54.534 --> 03:57.819
+or sorry, so I'll write times x,
+
+03:57.819 --> 04:02.301
+x to the third power
+
+04:02.301 --> 04:05.923
+plus 0.4
+
+04:05.923 --> 04:10.660
+times x squared
+
+04:10.660 --> 04:15.235
+plus 0.96
+
+04:15.235 --> 04:19.414
+times x.
+
+04:19.414 --> 04:22.607
+And then I can close these parentheses.
+
+04:22.607 --> 04:24.290
+So does that make sense?
+
+04:24.290 --> 04:26.125
+20 times sine of x squared
+
+04:26.125 --> 04:28.667
+divided by 35 minus negative 0.04
+
+04:28.667 --> 04:30.885
+x to the third plus 0.4
+
+04:30.885 --> 04:35.250
+x squared plus 0.96 times x.
+
+04:35.250 --> 04:36.248
+All right, there you go.
+
+04:36.248 --> 04:38.733
+I have defined y1.
+
+04:38.733 --> 04:42.193
+And now I can use that to
+evaluate different things.
+
+04:42.193 --> 04:45.653
+So let me now go back here.
+
+04:45.653 --> 04:47.278
+And so let me evaluate
+what this is going to be.
+
+04:47.278 --> 04:51.353
+This is going to be 30
+plus the definitive role
+
+04:51.353 --> 04:52.874
+of the math functions.
+
+04:52.874 --> 04:54.313
+You scroll down a little bit.
+
+04:54.313 --> 04:56.855
+You have, this is the function
+for definite integral,
+
+04:56.855 --> 04:58.678
+function integral.
+
+04:59.588 --> 05:01.592
+The function is y1
+
+05:01.592 --> 05:03.183
+and I can go to vars.
+
+05:03.183 --> 05:04.217
+I'm gonna get my y vars.
+
+05:04.217 --> 05:05.784
+It's gonna be a function variable.
+
+05:05.784 --> 05:08.385
+So y1 is what I select.
+
+05:08.385 --> 05:10.695
+I could have typed it in but
+this will hopefully save time
+
+05:10.695 --> 05:12.286
+and I can reuse y1.
+
+05:12.286 --> 05:16.280
+And my variable integration is x.
+
+05:16.280 --> 05:18.475
+I'm going from zero to eight.
+
+05:18.475 --> 05:20.459
+From my lower bound is zero.
+
+05:20.459 --> 05:23.582
+My upper bound is eight.
+
+05:23.582 --> 05:25.475
+Let's see, did I type everything in?
+
+05:25.475 --> 05:26.578
+All right.
+
+05:26.578 --> 05:28.458
+And I'm gonna munch a little bit.
+
+05:28.458 --> 05:29.236
+And there you have it.
+
+05:29.236 --> 05:33.764
+It's approximately 48.544
+
+05:33.764 --> 05:37.154
+cubic feet of water at t equals eight.
+
+05:37.154 --> 05:38.060
+So let me write that,
+
+05:38.060 --> 05:40.858
+48.544.
+
+05:40.858 --> 05:43.122
+So this is
+
+05:43.122 --> 05:45.389
+approximately
+
+05:45.389 --> 05:49.839
+48.544 cubic feet.
+
+05:49.839 --> 05:52.178
+And now let's see if
+there's any point in between
+
+05:52.178 --> 05:55.185
+where w hits a local maximum point
+
+05:55.185 --> 05:56.879
+or a local minimum point I should say.
+
+05:56.879 --> 05:59.259
+I think I said a local maximum earlier on.
+
+05:59.259 --> 06:01.198
+I should say a local minimum point.
+
+06:01.198 --> 06:04.042
+And so if it's at a local
+or maximum point really,
+
+06:04.042 --> 06:06.422
+the derivative of w is going to be zero.
+
+06:06.422 --> 06:10.602
+So let's see, at what t do
+we get a zero derivative?
+
+06:10.602 --> 06:13.458
+So w prime of t.
+
+06:13.458 --> 06:16.434
+Well, the derivative or a
+constant with respect to t is zero
+
+06:16.434 --> 06:18.892
+and the derivative of
+this with respect to t
+
+06:18.892 --> 06:22.189
+and this comes from the
+fundamental theorem of calculus,
+
+06:22.189 --> 06:25.928
+this is going to be R of t
+
+06:25.928 --> 06:28.122
+minus D of t.
+
+06:28.122 --> 06:29.527
+Well, once again, this is a function.
+
+06:29.527 --> 06:31.013
+We have t as the upper bound.
+
+06:31.013 --> 06:33.045
+And so we have whatever
+here that we are integrating
+
+06:33.045 --> 06:35.727
+but it is now going to be a function of t.
+
+06:35.727 --> 06:38.443
+And so in order for this
+to be equal to zero,
+
+06:38.443 --> 06:39.790
+we have to figure out when does
+
+06:39.790 --> 06:42.809
+R of t minus D of t equals zero.
+
+06:42.809 --> 06:44.469
+And lucky for us, we've already typed in
+
+06:44.469 --> 06:46.017
+R of t minus D of t.
+
+06:46.017 --> 06:50.417
+We defined that as y sub
+one on our calculator.
+
+06:50.417 --> 06:52.437
+So let's go back here.
+
+06:52.437 --> 06:54.620
+And now I can use the Solver.
+
+06:54.620 --> 06:55.932
+So go to math
+
+06:55.932 --> 06:57.507
+and then let's see if I scroll up.
+
+06:57.507 --> 06:59.655
+Let's see or this is, I get to the Solver.
+
+06:59.655 --> 07:00.714
+I could have scrolled down as well.
+
+07:00.714 --> 07:02.476
+It's right below definite integral.
+
+07:02.476 --> 07:03.897
+So I go to the Solver.
+
+07:03.897 --> 07:06.521
+And I say the equation zero equals,
+
+07:06.521 --> 07:08.312
+and I could just go to y1.
+
+07:08.312 --> 07:10.727
+So go to my y variables, function.
+
+07:10.727 --> 07:12.689
+I select y1.
+
+07:12.689 --> 07:15.684
+So in my equation is equal to y1.
+
+07:15.684 --> 07:18.355
+And I press Enter.
+
+07:18.355 --> 07:20.735
+And now I could put an initial guess
+
+07:20.735 --> 07:24.334
+for what x value is going
+to solve that equation.
+
+07:24.334 --> 07:27.526
+Usually a t value but I'm
+using x as a variable here.
+
+07:27.526 --> 07:30.626
+And now I do alpha and
+I quickly solve here.
+
+07:30.626 --> 07:33.285
+So a little blue you see
+right above the Enter.
+
+07:33.285 --> 07:36.986
+And it gets to,
+
+07:36.986 --> 07:38.386
+well, zero is one of them.
+
+07:38.386 --> 07:41.692
+Let's see if I can get another one.
+
+07:41.692 --> 07:43.318
+So let's see if I can get,
+
+07:43.318 --> 07:46.812
+let's see if I started two, alpha,
+
+07:46.812 --> 07:50.018
+solve, what it munch on that a little bit.
+
+07:50.018 --> 07:52.932
+Okay, so this is actually
+within the interval.
+
+07:52.932 --> 07:55.646
+So approximately
+
+07:55.646 --> 08:00.646
+3.272.
+
+08:01.436 --> 08:04.099
+So t is approximately
+
+08:04.099 --> 08:07.829
+3.272.
+
+08:07.829 --> 08:09.952
+That's where we have a local minimum point
+
+08:09.952 --> 08:12.142
+but now we have to evaluate w there.
+
+08:12.142 --> 08:13.692
+So we have to evaluate w
+
+08:13.692 --> 08:17.753
+at 3.272
+
+08:17.753 --> 08:20.036
+to figure out if it's truly lower
+
+08:20.036 --> 08:21.801
+than w zero.
+
+08:21.801 --> 08:24.262
+W of eight is higher than w of zero.
+
+08:24.262 --> 08:26.085
+So, how do we do that?
+
+08:26.085 --> 08:28.918
+Well, luckily, we can go back.
+
+08:28.918 --> 08:31.728
+So second quit.
+
+08:31.728 --> 08:34.386
+And that should be stored
+into the variable x.
+
+08:34.386 --> 08:35.594
+Yep, it's right there.
+
+08:35.594 --> 08:38.276
+So then we can say, well, let's calculate.
+
+08:38.276 --> 08:40.412
+We wanna calculate the function evaluated
+
+08:40.412 --> 08:43.013
+when t is 3.272.
+
+08:43.013 --> 08:47.843
+So our function is 30
+
+08:47.843 --> 08:49.990
+plus the definite integral.
+
+08:49.990 --> 08:51.808
+Go to the math.
+
+08:51.808 --> 08:54.503
+So definite integral.
+
+08:54.503 --> 08:56.887
+Once again, we have y1.
+
+08:56.887 --> 09:00.701
+So let me go to my y
+variables, function, y1.
+
+09:00.701 --> 09:04.625
+We already defined that
+as R of x minus D of x.
+
+09:04.625 --> 09:08.212
+Our variable of integration is x.
+
+09:08.212 --> 09:11.743
+Our lower bound is zero
+
+09:11.743 --> 09:13.793
+and our upper bound
+
+09:13.793 --> 09:18.011
+is 3.272
+
+09:18.011 --> 09:20.263
+we've restored in the variable x.
+
+09:20.263 --> 09:21.703
+So we can actually,
+it's a little confusing.
+
+09:21.703 --> 09:23.352
+This is saying what's
+our variable integration.
+
+09:23.352 --> 09:24.733
+This is the actual variable.
+
+09:24.733 --> 09:27.195
+This is actual value for upper bound.
+
+09:27.195 --> 09:31.538
+And so let's munch on it a little bit
+
+09:31.538 --> 09:35.318
+and we get 27.965.
+
+09:35.318 --> 09:39.382
+So this is approximately equal to
+
+09:39.382 --> 09:43.236
+27.965.
+
+09:43.236 --> 09:45.082
+So now we're ready to answer.
+
+09:45.082 --> 09:47.277
+At what time t is the amount of water
+
+09:47.277 --> 09:48.914
+in the pipe at a minimum?
+
+09:48.914 --> 09:51.792
+We can see that at time
+
+09:51.792 --> 09:53.871
+3.272,
+
+09:53.871 --> 09:55.424
+we have less water in the pipe
+
+09:55.424 --> 09:57.201
+than either right when we started
+
+09:57.201 --> 09:59.267
+or right at the end of our interval
+
+09:59.267 --> 10:00.625
+at t equals eight.
+
+10:00.625 --> 10:02.239
+So, at what time t?
+
+10:02.239 --> 10:06.349
+We say t is equal to 3.272.
+
+10:06.349 --> 10:10.668
+We could write w of 3.272
+
+10:10.668 --> 10:13.327
+is less than w of zero
+
+10:13.327 --> 10:15.992
+which is less than w of eight.
+
+10:15.992 --> 10:19.126
+So this indeed just by knowing
+the derivative of the zero,
+
+10:19.126 --> 10:20.670
+it could be a minimum or maximum.
+
+10:20.670 --> 10:22.853
+But the fact that it's lower
+than both of the end points,
+
+10:22.853 --> 10:26.620
+this tells us that,
+hey, this is a minimum,
+
+10:26.620 --> 10:30.493
+minimum point
+
+10:30.493 --> 10:31.944
+right over there
+
+10:31.944 --> 10:34.995
+or we could say that t equals 3.272
+
+10:34.995 --> 10:38.757
+is where we hit out minimum value.

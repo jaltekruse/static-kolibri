@@ -1,0 +1,645 @@
+WEBVTT
+
+00:01.495 --> 00:02.702
+- [Instructor] What we're
+going to do in this video
+
+00:02.702 --> 00:04.723
+is start thinking about the position
+
+00:04.723 --> 00:08.299
+of an object traveling in one dimension.
+
+00:08.299 --> 00:10.226
+And to get our bearings there,
+
+00:10.226 --> 00:13.105
+I'm going to introduce a few ideas.
+
+00:13.105 --> 00:16.605
+So the first idea is that of displacement.
+
+00:17.912 --> 00:20.628
+So you might use that
+word in everyday language,
+
+00:20.628 --> 00:24.135
+and it literally means
+your change in position,
+
+00:24.135 --> 00:26.135
+your change in position.
+
+00:28.987 --> 00:31.263
+Now a related idea that
+sometimes get confused
+
+00:31.263 --> 00:33.957
+with displacement is a notion of
+
+00:33.957 --> 00:35.457
+distance traveled.
+
+00:37.370 --> 00:39.135
+You might say well doesn't that,
+
+00:39.135 --> 00:41.549
+isn't that just the same
+thing as change in position?
+
+00:41.549 --> 00:44.104
+And you will see shortly, no, it isn't
+
+00:44.104 --> 00:45.892
+always the same thing.
+
+00:45.892 --> 00:50.025
+The distance traveled, this
+is the total length of path,
+
+00:50.025 --> 00:51.025
+total length
+
+00:52.718 --> 00:53.551
+of path.
+
+00:54.808 --> 00:56.596
+So what are we talking about?
+
+00:56.596 --> 00:58.221
+Well let's say, and
+we're going to introduce
+
+00:58.221 --> 00:59.940
+a little bit of calculus now,
+
+00:59.940 --> 01:03.399
+let's say that we have a
+particle's velocity function.
+
+01:03.399 --> 01:06.743
+And so let's say our velocity
+as a function of time
+
+01:06.743 --> 01:08.826
+is equal to five minus t.
+
+01:09.785 --> 01:12.502
+Now this is a one-dimensional
+velocity function.
+
+01:12.502 --> 01:14.127
+Let's say it's just
+telling us our velocity
+
+01:14.127 --> 01:15.799
+in the horizontal direction.
+
+01:15.799 --> 01:17.610
+And oftentimes when
+something's one dimension,
+
+01:17.610 --> 01:20.513
+people forget well that too
+can be a vector quantity.
+
+01:20.513 --> 01:22.463
+In fact this velocity is a vector quantity
+
+01:22.463 --> 01:25.482
+because you could think
+of it if it's positive
+
+01:25.482 --> 01:26.782
+it's moving to the right,
+
+01:26.782 --> 01:28.570
+and if it's negative
+it's moving to the left.
+
+01:28.570 --> 01:30.126
+So it has a direction.
+
+01:30.126 --> 01:32.796
+And so sometimes you will see
+a vector quantity like this
+
+01:32.796 --> 01:34.352
+have a little arrow on it,
+
+01:34.352 --> 01:37.092
+or you will see it bolded,
+
+01:37.092 --> 01:39.414
+or you will see it bolded like that.
+
+01:39.414 --> 01:40.969
+I like to write an arrow in,
+
+01:40.969 --> 01:42.920
+although that's not
+always the convention used
+
+01:42.920 --> 01:44.986
+in different classes.
+
+01:44.986 --> 01:47.007
+Now let's plot what this velocity function
+
+01:47.007 --> 01:48.260
+actually looks like,
+
+01:48.260 --> 01:50.677
+and I did that ahead of time.
+
+01:52.533 --> 01:53.624
+So you can see here,
+
+01:53.624 --> 01:56.248
+at time equals zero, let's
+say time is in seconds,
+
+01:56.248 --> 01:58.988
+and our velocity's in meters per second.
+
+01:58.988 --> 02:01.031
+So this is meters per
+second right over here,
+
+02:01.031 --> 02:03.191
+and this is seconds on this axis.
+
+02:03.191 --> 02:05.374
+At exactly time zero,
+
+02:05.374 --> 02:09.089
+this object is traveling
+at five meters per second.
+
+02:09.089 --> 02:11.179
+We can say to the right, it has a velocity
+
+02:11.179 --> 02:13.965
+of positive five meters per second.
+
+02:13.965 --> 02:17.959
+But then it keeps decelerating
+at a constant rate,
+
+02:17.959 --> 02:19.723
+so five seconds into it,
+
+02:19.723 --> 02:21.349
+right at five seconds,
+
+02:21.349 --> 02:23.439
+the particle has no velocity,
+
+02:23.439 --> 02:25.598
+and then it starts
+having negative velocity,
+
+02:25.598 --> 02:27.943
+which you could interpret as
+
+02:27.943 --> 02:30.265
+moving to the left.
+
+02:30.265 --> 02:31.751
+So let's think about a few things.
+
+02:31.751 --> 02:34.189
+First let's think about
+what is the displacement
+
+02:34.189 --> 02:36.522
+over the first five seconds,
+
+02:39.391 --> 02:40.224
+over first
+
+02:41.991 --> 02:43.074
+five seconds?
+
+02:45.080 --> 02:47.239
+Well we've seen already multiple times,
+
+02:47.239 --> 02:49.863
+if you wanna find the change in quantity,
+
+02:49.863 --> 02:53.880
+you can take the integral
+of the rate function of it.
+
+02:53.880 --> 02:57.479
+And so velocity is actually
+the rate of displacement
+
+02:57.479 --> 02:58.826
+is one way to think about it.
+
+02:58.826 --> 03:00.869
+So displacement over
+the first five seconds,
+
+03:00.869 --> 03:02.564
+we can take the integral
+
+03:02.564 --> 03:04.306
+from zero to five,
+
+03:04.306 --> 03:05.769
+zero to five,
+
+03:05.769 --> 03:07.719
+of our velocity function,
+
+03:07.719 --> 03:10.598
+of our velocity function.
+
+03:10.598 --> 03:12.433
+Just like that.
+
+03:12.433 --> 03:15.103
+And we can even calculate
+this really fast.
+
+03:15.103 --> 03:18.632
+That would just be this
+area right over here,
+
+03:18.632 --> 03:20.420
+which we can just use a
+little bit of geometry.
+
+03:20.420 --> 03:22.998
+This is a five by five triangle,
+
+03:22.998 --> 03:25.506
+so five times five is 25, times 1/2,
+
+03:25.506 --> 03:28.687
+remember area of a triangle's
+1/2 base times height.
+
+03:28.687 --> 03:31.020
+So this is going to be 12.5,
+
+03:32.402 --> 03:34.260
+and let's see this is going
+to be meters per second
+
+03:34.260 --> 03:37.580
+times seconds, so 12.5 meters.
+
+03:37.580 --> 03:40.297
+So that's the change in position
+
+03:40.297 --> 03:43.547
+for that particle over
+the first five seconds.
+
+03:43.547 --> 03:44.755
+Wherever it started,
+
+03:44.755 --> 03:47.959
+it's now going to be 12.5
+meters to the right of it,
+
+03:47.959 --> 03:50.769
+assuming that positive is to the right.
+
+03:50.769 --> 03:53.184
+Now what about over,
+
+03:53.184 --> 03:54.351
+over the first
+
+03:55.924 --> 03:57.294
+10 seconds?
+
+03:57.294 --> 03:58.501
+Now this gets interesting,
+
+03:58.501 --> 04:00.312
+and I encourage you to pause
+your video and think about it.
+
+04:00.312 --> 04:04.027
+What would be the displacement
+over the first 10 seconds?
+
+04:04.027 --> 04:05.699
+Well we would just do the same thing,
+
+04:05.699 --> 04:08.032
+the integral from zero to 10
+
+04:09.298 --> 04:11.574
+of our velocity function,
+
+04:11.574 --> 04:15.614
+our one-dimensional velocity function, dt.
+
+04:15.614 --> 04:18.285
+And so that would be the area from here
+
+04:18.285 --> 04:21.164
+all the way to right over there.
+
+04:21.164 --> 04:23.161
+So this entire area.
+
+04:23.161 --> 04:24.415
+But you might appreciate,
+
+04:24.415 --> 04:26.435
+when you're taking a definite integral,
+
+04:26.435 --> 04:29.035
+if we are below the t-axis
+
+04:29.035 --> 04:30.661
+and above the function like this,
+
+04:30.661 --> 04:32.333
+this is gonna be negative area.
+
+04:32.333 --> 04:34.422
+And in fact this area and this area
+
+04:34.422 --> 04:36.303
+are going to exactly cancel out,
+
+04:36.303 --> 04:39.740
+and you're going to get zero meters.
+
+04:39.740 --> 04:41.876
+Now you might be saying how can that be?
+
+04:41.876 --> 04:43.246
+After 10 seconds how do we,
+
+04:43.246 --> 04:46.474
+what why is our displacement
+only zero meters?
+
+04:46.474 --> 04:48.563
+This particle's been
+moving the entire time.
+
+04:48.563 --> 04:50.723
+Well remember what's going on.
+
+04:50.723 --> 04:53.858
+The first five seconds,
+it's moving to the right,
+
+04:53.858 --> 04:55.181
+it's decelerating the whole time,
+
+04:55.181 --> 04:56.969
+and then right at five seconds,
+
+04:56.969 --> 05:00.406
+it has gone 12.5 meters to the right.
+
+05:00.406 --> 05:03.540
+But then it starts, it's velocity
+starts becoming negative,
+
+05:03.540 --> 05:06.582
+and the particle starts
+moving to the left.
+
+05:06.582 --> 05:08.393
+And so over the next five seconds,
+
+05:08.393 --> 05:11.319
+it actually moves 12.5 meters to the left,
+
+05:11.319 --> 05:14.221
+and then these two things net out.
+
+05:14.221 --> 05:17.890
+So the particle has gone
+over 10 seconds 12.5 meters
+
+05:17.890 --> 05:20.119
+to the right and then
+12.5 meters to the left,
+
+05:20.119 --> 05:24.252
+and so its change in
+position is zero meters.
+
+05:24.252 --> 05:26.180
+It has not changed.
+
+05:26.180 --> 05:27.387
+Now you might start,
+
+05:27.387 --> 05:29.105
+you might start to be appreciating
+
+05:29.105 --> 05:30.638
+what the difference between displacement
+
+05:30.638 --> 05:32.681
+and distance traveled is.
+
+05:32.681 --> 05:34.353
+So distance,
+
+05:34.353 --> 05:36.489
+if you're talking about
+your total length of path,
+
+05:36.489 --> 05:39.067
+you don't care as much about direction.
+
+05:39.067 --> 05:40.924
+And so instead of thinking about velocity,
+
+05:40.924 --> 05:43.757
+what we would do is think about speed.
+
+05:43.757 --> 05:44.840
+And speed is,
+
+05:45.870 --> 05:47.310
+you could view
+
+05:47.310 --> 05:49.771
+in this case, especially in
+this one-dimensional case,
+
+05:49.771 --> 05:54.392
+this is equal to the
+absolute value of velocity.
+
+05:54.392 --> 05:56.482
+Later on when we do multiple dimensions,
+
+05:56.482 --> 05:59.733
+it would be the magnitude
+of the velocity function,
+
+05:59.733 --> 06:01.729
+which is what the absolute function,
+
+06:01.729 --> 06:03.564
+which is what the absolute
+value function does,
+
+06:03.564 --> 06:05.236
+in one dimension.
+
+06:05.236 --> 06:07.697
+So what would this look
+like if we plotted it?
+
+06:07.697 --> 06:10.948
+Well the absolute value
+of the velocity function
+
+06:10.948 --> 06:13.502
+would just look like that.
+
+06:13.502 --> 06:15.615
+And so if you want the distance,
+
+06:15.615 --> 06:18.773
+you would find, the distance
+traveled I should say,
+
+06:18.773 --> 06:21.466
+you would find the integral
+over the appropriate
+
+06:21.466 --> 06:25.530
+change in time of the speed
+function right over here,
+
+06:25.530 --> 06:27.039
+which we have graphed.
+
+06:27.039 --> 06:30.706
+So notice, if we want
+the distance traveled,
+
+06:31.567 --> 06:33.355
+so I'll just say I'll write it out,
+
+06:33.355 --> 06:34.772
+distance traveled
+
+06:36.768 --> 06:38.768
+over first five seconds,
+
+06:40.576 --> 06:42.898
+first five seconds,
+
+06:42.898 --> 06:44.036
+what would it be?
+
+06:44.036 --> 06:46.846
+Well it would be the
+integral from zero to five
+
+06:46.846 --> 06:49.888
+of the absolute value of
+our velocity function,
+
+06:49.888 --> 06:52.837
+which is you can just view
+it as our speed function
+
+06:52.837 --> 06:54.926
+right over here, dt.
+
+06:54.926 --> 06:57.248
+And so it would be this area,
+
+06:57.248 --> 07:00.708
+which we already know to be 12.5 meters.
+
+07:00.708 --> 07:02.566
+So for the first five seconds,
+
+07:02.566 --> 07:05.561
+your distance and
+displacement are consistent.
+
+07:05.561 --> 07:08.208
+Well that's because you have in this case
+
+07:08.208 --> 07:10.135
+the velocity function is positive,
+
+07:10.135 --> 07:12.574
+so the absolute value of it
+is still going to be positive.
+
+07:12.574 --> 07:15.639
+But if you think about over
+
+07:15.639 --> 07:17.635
+the first 10 seconds, your distance,
+
+07:17.635 --> 07:18.552
+10 seconds,
+
+07:19.934 --> 07:21.002
+what is it going to be?
+
+07:21.002 --> 07:22.883
+Pause the video and try to think about it.
+
+07:22.883 --> 07:25.205
+Well that's gonna be the
+integral from zero to 10
+
+07:25.205 --> 07:28.293
+of the absolute value of
+our velocity function,
+
+07:28.293 --> 07:31.080
+which is going to be equal to what?
+
+07:31.080 --> 07:33.634
+It's going to be this area plus this area
+
+07:33.634 --> 07:35.793
+right over here.
+
+07:35.793 --> 07:39.091
+So plus this area right over here.
+
+07:39.091 --> 07:42.504
+And so this is going to
+five times five times 1/2
+
+07:42.504 --> 07:44.594
+plus five times five times 1/2,
+
+07:44.594 --> 07:47.177
+which is going to be 25 meters.
+
+07:48.657 --> 07:51.467
+The particle has gone
+12.5 meters to the right,
+
+07:51.467 --> 07:54.486
+and then it goes back
+12.5 meters to the left.
+
+07:54.486 --> 07:58.410
+Your displacement, your net
+change in position is a zero,
+
+07:58.410 --> 08:00.662
+but the total length of path traveled
+
+08:00.662 --> 08:01.745
+is 25 meters.

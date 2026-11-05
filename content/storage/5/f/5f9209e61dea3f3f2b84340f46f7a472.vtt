@@ -1,0 +1,759 @@
+WEBVTT
+
+00:00.235 --> 00:01.469
+Bu videoda isbat
+
+00:01.469 --> 00:04.274
+edəcəm ki, əgər hansısa bir funksiya C
+
+00:04.274 --> 00:06.442
+nöqtəsində diferensiallana bilərsə, o,
+
+00:06.442 --> 00:09.002
+eyni C nöqtəsində kəsilməz olacaq.
+
+00:09.002 --> 00:11.435
+Ancaq isbat etməzdən əvvəl gəlin diferensiallığın və
+
+00:11.435 --> 00:15.008
+kəsilməzliyin nə demək olduğunu özümüzə xatırladaq.
+
+00:15.008 --> 00:17.246
+İlk olaraq diferensiallığa baxaq.
+
+00:17.442 --> 00:21.469
+Diferensiallıq.
+
+00:21.947 --> 00:24.210
+Gəlin ilk növbədə bunun haqqında düşünək.
+
+00:24.210 --> 00:27.440
+Kənarda bir funksiya çəkmək
+
+00:27.440 --> 00:29.242
+həmişə bizə köməkçi olur.
+
+00:29.374 --> 00:32.744
+Bu, bizim y oxumuzdur.
+
+00:32.744 --> 00:36.269
+Bu isə x oxumuzdur.
+
+00:36.269 --> 00:38.507
+Gəlin burada istənilən bir funksiya çəkək.
+
+00:38.507 --> 00:40.746
+Fərz edək ki, mənim funksiyam bu
+
+00:40.746 --> 00:44.133
+şəkildədir və biz X nöqtəsinin C-yə
+
+00:44.133 --> 00:45.773
+bərabər olduğunu düşünürük.
+
+00:45.773 --> 00:48.470
+Beləliklə, X nöqtəsi C-yə bərabərdir
+
+00:48.470 --> 00:50.434
+və bu qiymət, əlbəttə
+
+00:50.434 --> 00:53.337
+ki, F(C) olacaqdır.
+
+00:53.337 --> 00:54.709
+F(C). Biz X bərabərdir
+
+00:54.709 --> 00:57.813
+C-nin törəməsini və ya X bərabərdir
+
+00:57.813 --> 01:00.901
+C-dəki toxunanın bucaq əmsalını tapa bilərik,
+
+01:00.901 --> 01:05.270
+başqa nöqtədən də başlaya bilərik.
+
+01:05.270 --> 01:08.547
+Burada ixtiyari bir X var.
+
+01:08.547 --> 01:11.479
+Gəlin burada ixtiyari bir X var deyək.
+
+01:11.479 --> 01:13.944
+Buradakı bu nöqtə, bu qiymət, Y-in
+
+01:13.944 --> 01:17.629
+qiyməti F(X) olacaqdır.
+
+01:17.629 --> 01:19.108
+Bu qrafik
+
+01:19.108 --> 01:23.267
+Y bərabərdir F(X) funksiyasının qrafikidir.
+Biz bu
+
+01:23.267 --> 01:27.513
+xəttin bucaq əmsalını, iki nöqtə arasındakı
+
+01:27.913 --> 01:30.802
+kəsəni tapmaq haqqında düşünə bilərik,
+
+01:30.802 --> 01:33.609
+sonra isə X C-yə yaxınlaşdıqda limiti tapa bilərik.
+
+01:33.609 --> 01:35.971
+X C-yə yaxınlaşdıqda kəsənin bucaq
+
+01:35.971 --> 01:37.947
+əmsalı toxunanın bucaq əmsalına
+
+01:37.947 --> 01:39.303
+yaxınlaşacaq və ya
+
+01:39.303 --> 01:40.972
+törəmə alınacaq.
+
+01:40.972 --> 01:43.613
+Beləliklə, biz limiti ala bilərik ...
+
+01:44.811 --> 01:48.134
+Limit
+
+01:48.134 --> 01:50.846
+X C-yə yaxınlaşdıqda
+
+01:50.846 --> 01:54.301
+kəsənin bucaq əmsalı.
+
+01:54.301 --> 01:55.206
+Bucaq əmsalı nədir?
+
+01:55.206 --> 01:57.641
+Burada X-dəki dəyişməyə görə Y-də dəyişmə olacaq.
+
+01:57.641 --> 02:01.711
+Y-dəki dəyişmə F(X)-F(C)-dir,
+
+02:01.711 --> 02:03.678
+burada Y-in dəyişməsi var.
+
+02:03.678 --> 02:06.266
+Bütün bunlar icmaldır, bu, törəmənin
+
+02:06.266 --> 02:08.700
+yalnız bir tərifidir.
+
+02:08.700 --> 02:12.506
+F(X)-F(C) X-in alırıq.
+
+02:12.506 --> 02:16.577
+Bu, Y-in dəyişməsidir, böl X-in dəyişməsi.
+
+02:16.577 --> 02:20.371
+Yəni X çıx C.
+
+02:20.371 --> 02:23.974
+X çıx
+
+02:23.974 --> 02:26.480
+C. Əgər bu nöqtənin
+
+02:26.480 --> 02:29.445
+limiti varsa, biz toxunanın bucaq
+
+02:29.445 --> 02:32.066
+əmsalını tapa bilərik və bu bucaq
+
+02:32.066 --> 02:34.172
+əmsalını toxunan adlandıra, törəməni
+
+02:34.172 --> 02:37.510
+isə X bərabərdir C kimi yaza bilərik.
+
+02:37.510 --> 02:41.908
+Deməli, bu, F(C)-nin törəməsinə
+
+02:41.908 --> 02:42.877
+bərabər olacaq.
+
+02:42.877 --> 02:44.779
+Bütün bunlar ilkin baxışdır.
+
+02:44.779 --> 02:47.370
+Əgər F funksiyası X bərabərdir
+
+02:47.370 --> 02:49.240
+C nöqtəsində diferensiallanandırsa,
+
+02:49.240 --> 02:51.362
+həmin
+
+02:51.362 --> 02:53.000
+nöqtənin limiti
+
+02:53.000 --> 02:55.642
+də var. Əgər bu nöqtənin limiti
+
+02:55.642 --> 02:56.978
+varsa, bunu F(C)-nin
+
+02:56.978 --> 02:59.573
+törəməsi adlandıracağıq. Bu sadəcə
+
+02:59.573 --> 03:02.079
+diferensiallıq haqqında ilkin
+
+03:02.079 --> 03:06.338
+məlumatlardır. Gəlin kəsilməzlik haqqında
+
+03:06.338 --> 03:10.581
+danışaq. Kəsilməzlik.
+
+03:10.581 --> 03:13.671
+Kəsilməzliyin tərifi limit X yaxınlaşır
+
+03:13.671 --> 03:18.671
+C-yə F(X) bərabərdir F(C)
+
+03:19.412 --> 03:22.813
+kimi göstərilir.
+
+03:22.813 --> 03:25.218
+Gəlin bir funksiya götürək və
+
+03:25.218 --> 03:27.908
+onun kəsilməzliyini
+
+03:27.908 --> 03:29.900
+yoxlayaq. Düşünürəm
+
+03:29.900 --> 03:31.277
+ki, bu mövzunu bir az
+
+03:31.277 --> 03:33.471
+daha aydınlaşdırar.
+
+03:33.471 --> 03:36.258
+Gəlin funksiyanın nə vaxt
+
+03:36.258 --> 03:37.300
+kəsilən olduğuna
+
+03:37.300 --> 03:39.080
+baxaq.
+
+03:39.080 --> 03:41.966
+Bu mövzunu daha da aydınlaşdıracaq.
+
+03:41.966 --> 03:45.443
+Əgər X bərabərdir C nöqtəsində
+
+03:45.443 --> 03:48.459
+funksiya kəsilirsə, gəlin mən bunu
+
+03:48.459 --> 03:50.608
+çəkərək izah
+
+03:50.608 --> 03:53.026
+edim. Beləliklə,
+
+03:53.026 --> 03:55.645
+burada bir boşluq var və X C-yə
+
+03:55.645 --> 03:59.779
+bərabər olduqda, F(C) bura qədər olur.
+
+03:59.779 --> 04:03.475
+Beləliklə, bu, F(C)-dir və sonra funksiya
+
+04:03.475 --> 04:05.744
+bu şəkildə davam edir.
+
+04:05.744 --> 04:09.170
+Limit X yaxınlaşır C-yə, F(X)
+F(C)-dən
+
+04:09.170 --> 04:13.512
+tamamilə fərqli olan qiymət
+
+04:13.512 --> 04:14.646
+alacaq.
+
+04:14.646 --> 04:17.433
+Əgər limit X yaxınlaşır C
+
+04:17.433 --> 04:22.414
+F(X)-i alsanız, bu qiymətə
+
+04:23.043 --> 04:24.272
+yaxınlaşarsınız.
+
+04:24.272 --> 04:26.144
+Burada F(C)-yə bərabər olmayan limit
+
+04:26.144 --> 04:30.945
+X yaxınlaşır C-yə F(X) var.
+
+04:30.945 --> 04:33.410
+Bu hal üçün kəsilməzliyin tərifi uyğun
+
+04:33.410 --> 04:35.204
+görünür, çünki bu, kəsilməz funksiya
+
+04:35.204 --> 04:38.980
+deyil, burada funksiyanın kəsildiyi
+
+04:38.980 --> 04:40.900
+nöqtə var.
+
+04:40.900 --> 04:43.399
+Ən azı bu halda funksiyanın kəsilməz
+
+04:43.399 --> 04:45.671
+olmamasına baxmayaraq, tərif
+
+04:45.671 --> 04:49.371
+ödənildi.
+
+04:49.371 --> 04:52.533
+Siz həmçinin 1-ci növ
+
+04:52.533 --> 04:55.679
+kəsilməni də düşünə bilərsiniz
+
+04:55.679 --> 04:57.068
+Gəlin buna baxaq.
+
+04:57.068 --> 05:00.110
+Bütün bunlar ilkin məlumatlardır.
+
+05:00.110 --> 05:03.045
+X bərabərdir C-də
+
+05:03.045 --> 05:04.900
+1-ci növ kəsilmə belə görünür.
+
+05:04.900 --> 05:07.598
+Bu şəkildə görünə bilər.
+
+05:07.598 --> 05:11.343
+Bura X bərabərdir C-dir.
+
+05:11.343 --> 05:13.870
+C-ni qeyd edək.
+
+05:13.870 --> 05:17.145
+Bu isə F(C)-dir.
+
+05:17.145 --> 05:19.501
+Amma əgər siz limit X yaxınlaşır C-yə
+
+05:19.501 --> 05:21.935
+F(C)-ni tapmaq istəyirsinizsə,
+
+05:21.935 --> 05:24.041
+mənfi tərəfdən C-yə yaxınlaşdıqca
+fərqli bir qiymət alardınız,
+
+05:24.041 --> 05:27.333
+bu qiymətə yaxınlaşardınız və müsbət
+
+05:27.333 --> 05:29.143
+tərəfdən C-yə yaxınlaşdıqca F(C)-yə
+yaxınlaşardınız və
+
+05:29.143 --> 05:32.246
+beləliklə, bu nöqtənin limiti olmazdı.
+
+05:32.246 --> 05:34.103
+Bu limit 1-ci növ kəsilmə
+
+05:34.103 --> 05:37.503
+olduğuna görə mövcud olmayacaq.
+
+05:37.503 --> 05:40.547
+Bir daha təkrar edək, tərifə görə
+
+05:40.547 --> 05:43.808
+verilmiş limit funksiyanın kəsilən
+
+05:43.808 --> 05:47.674
+olduğuna görə mövcud olmur.
+
+05:47.674 --> 05:49.671
+İndi isə sizinlə həqiqətən də kəsilməz
+
+05:49.671 --> 05:54.245
+olan funksiyalara baxaq.
+
+05:54.245 --> 05:57.346
+Əgər siz bu funksiyaya baxırsınızsa,
+bu, kəsilməz funksiyadır.
+
+05:57.346 --> 06:00.077
+Gəlin çəkək.
+
+06:00.077 --> 06:01.403
+Bu şəkildə olacaq.
+
+06:01.403 --> 06:03.337
+Bu, X bərabərdir C-dir.
+
+06:03.337 --> 06:05.100
+Bu, F(C)-dir.
+
+06:05.100 --> 06:06.940
+F(C).
+
+06:06.940 --> 06:09.843
+Əgər limit X-i F(X)-in hər iki tərəfindən
+
+06:09.843 --> 06:13.404
+C-yə yaxınlaşdıqda
+
+06:13.404 --> 06:15.371
+F(C)-yə yaxınlaşırıq.
+
+06:15.371 --> 06:19.234
+Burada limit X yaxınlaşır C-yə, F(X)
+
+06:19.234 --> 06:22.873
+F(C)-yə bərabərdir.
+
+06:22.873 --> 06:25.537
+Bu, kəsilməz funksiyanın tələblərindən biridir.
+
+06:25.537 --> 06:27.346
+Beləliklə, indi biz diferensiallıq və kəsilməzliyi
+
+06:27.346 --> 06:29.669
+nəzərdən keçirdik, gəlin isbat edək ki,
+
+06:29.669 --> 06:32.370
+diferensiallaşma faktiki olaraq
+
+06:32.370 --> 06:35.180
+kəsilməzliyi ifadə edir və məncə, bunu
+
+06:35.180 --> 06:36.767
+vizuallaşdırmaq üçün nəzərdən
+
+06:36.767 --> 06:38.703
+keçirməliyik. Diferensiallıq
+
+06:38.703 --> 06:42.368
+bu limitin burada mövcud
+
+06:42.368 --> 06:44.101
+olduğunu göstərir.
+
+06:44.101 --> 06:46.378
+Gəlin tamamilə başqa limitlə başlayaq.
+
+06:46.378 --> 06:48.941
+Burada bir düz xətt çəkək.
+
+06:48.941 --> 06:51.744
+Elə bir xətt çəkək ki, fərqli
+
+06:51.744 --> 06:56.101
+bir şey edək. Gəlin limit X
+
+06:56.101 --> 07:00.844
+yaxınlaşır C-yə,
+
+07:01.573 --> 07:04.511
+F(X) çıx F(C)
+
+07:04.511 --> 07:07.175
+götürək.
+
+07:07.175 --> 07:09.046
+Biz bunu belə yaza bilərikmi?
+
+07:09.046 --> 07:11.744
+Bunu limit X yaxınlaşır C-yə,
+
+07:11.744 --> 07:14.739
+və ümumən bu ifadəni götürüb
+
+07:14.739 --> 07:16.269
+onu
+
+07:16.269 --> 07:18.236
+X çıx C-yə vurub bölmək olar.
+
+07:18.236 --> 07:20.842
+Gəlin bunu X çıx C-yə vuraq.
+
+07:20.842 --> 07:24.536
+X çıx C və X çıx C-yə bölək.
+
+07:24.536 --> 07:28.608
+Beləliklə, F(X) çıx F(C)
+
+07:28.608 --> 07:31.635
+böl X çıx C alırıq.
+
+07:31.635 --> 07:33.980
+Beləliklə, ifadəmizi X çıx C-yə vurduq
+
+07:33.980 --> 07:35.900
+və böldük.
+
+07:35.900 --> 07:38.644
+Bəs limit nəyə bərabər olacaq?
+
+07:38.644 --> 07:40.574
+Bunun cavabını öyrənmək üçün
+
+07:40.574 --> 07:42.700
+limitin xassəsini
+
+07:42.700 --> 07:47.507
+tətbiq edəcəyəm.
+
+07:47.507 --> 07:49.468
+Belə ki, hasilin limiti
+
+07:49.468 --> 07:51.581
+limitlərin hasilinə bərabərdir.
+
+07:51.581 --> 07:55.365
+Bu, limit X yaxınlaşır C-yə, X çıx C
+
+07:55.365 --> 07:58.631
+vur limit, gəlin mötərizədə yazaq,
+
+07:58.631 --> 08:03.631
+vur limit X yaxınlaşır C-yə,
+
+08:03.802 --> 08:08.274
+F(X) çıx F(C)
+
+08:08.274 --> 08:11.376
+böl X çıx C olacaq.
+
+08:11.376 --> 08:15.344
+Bu, nə deməkdir?
+
+08:15.511 --> 08:19.707
+F-in C-də diferensiallana biləcəyini fərz etsək və biz
+
+08:19.707 --> 08:20.944
+bunu edəcəyiksə, -- əslində mən
+
+08:20.944 --> 08:22.443
+oradan başlamalı idim.
+
+08:22.443 --> 08:26.867
+Fərz edək ki, biz diferensiallığı göstərmək istəyirdik, bu
+
+08:26.867 --> 08:28.475
+da kəsilməzliyi sübut edir.
+
+08:28.475 --> 08:32.946
+Əgər F
+
+08:34.146 --> 08:37.667
+C-də diferensiallandırsa, onda bu,
+
+08:37.667 --> 08:41.431
+sadəcə olaraq, F(C)-nin törəməsi olacaq.
+
+08:41.807 --> 08:43.441
+Bunu burada gördük ki, bu,
+
+08:43.441 --> 08:45.407
+eyni şeydir.
+
+08:45.407 --> 08:49.702
+Bu, F(C)-nin törəməsidir.
+
+08:50.104 --> 08:51.334
+Bəs buradakı nədir?
+
+08:51.334 --> 08:54.413
+Limit X yaxınlaşır C-yə, X çıx C?
+
+08:54.413 --> 08:55.679
+Bu, sıfır olacaq.
+
+08:55.679 --> 08:57.180
+X C-yə yaxınlaşdıqca, C çıx
+
+08:57.180 --> 09:00.900
+C, yəni sıfır alırıq.
+
+09:01.474 --> 09:04.645
+Bəs sıfır vur F(C)-nin törəməsi nəyə bərabərdir?
+
+09:04.645 --> 09:06.342
+F(C)-nin törəməsi istənilən ədədi alacaq, amma
+
+09:06.342 --> 09:09.276
+sıfıra vursaq, cavab sıfır olar.
+
+09:09.276 --> 09:10.942
+Beləliklə, cavab sıfırdır.
+
+09:10.942 --> 09:12.909
+Bəs bu niyə maraqlıdır?
+
+09:12.909 --> 09:14.874
+Bayaq dediyimiz kimi sadəcə fərz etdik ki,
+
+09:14.874 --> 09:16.714
+əgər F C-də diferensiallana bilirsə və
+
+09:16.714 --> 09:20.803
+bu limiti hesablasaq, sıfır alırıq.
+
+09:20.803 --> 09:23.766
+Beləliklə, əgər F-in C-də diferensiallana
+
+09:23.766 --> 09:27.946
+biləcəyini fərz etsək, yaza bilərik ki, limit X
+
+09:27.946 --> 09:32.033
+yaxınlaşır C-yə,
+
+09:32.033 --> 09:36.811
+F(X) çıx F(C) və
+
+09:36.811 --> 09:37.812
+bunu mötərizədə yazaq,
+
+09:37.812 --> 09:39.545
+bərabərdir
+
+09:39.545 --> 09:42.008
+0-a.
+
+09:42.008 --> 09:43.100
+Burada da
+
+09:43.100 --> 09:44.379
+mən yenə limit
+
+09:44.379 --> 09:46.066
+xassələrindən istifadə
+
+09:46.066 --> 09:47.406
+edə bilərəm.
+
+09:47.406 --> 09:49.514
+Gəlin baxaq.
+
+09:49.514 --> 09:54.514
+Limit X yaxınlaşır C-yə, F(X)
+
+09:55.235 --> 09:59.373
+çıx limit X yaxınlaşır C-yə,
+
+09:59.634 --> 10:04.634
+F(C) bərabərdir 0-a.
+
+10:05.375 --> 10:06.967
+Fərqin limiti limitlər
+
+10:06.967 --> 10:09.233
+fərqinə bərabərdir.
+
+10:09.233 --> 10:11.834
+Burada nə alırıq?
+
+10:11.834 --> 10:13.301
+F(C) sadəcə bir ədəddir, hər
+
+10:13.301 --> 10:14.844
+hansı x funksiyası deyil,
+
+10:14.844 --> 10:17.637
+onun bir qiyməti olacaq.
+
+10:17.637 --> 10:20.668
+Bu, elə F(C) olacaq.
+
+10:20.900 --> 10:22.646
+F(C).
+
+10:22.646 --> 10:25.303
+Limit X yaxınlaşır C-yə, F(X)
+
+10:25.303 --> 10:27.878
+çıx F(C) sıfıra bərabərdir.
+
+10:27.878 --> 10:30.733
+Hər iki tərəfə F(C) əlavə etsək nə alırıq?
+
+10:30.733 --> 10:34.933
+Limit X yaxınlaşır C-yə,
+
+10:34.933 --> 10:38.804
+F(X) bərabərdir F(C) alırıq.
+
+10:38.911 --> 10:41.033
+Beləliklə bu, kəsilməzliyin tərifidir.
+
+10:41.033 --> 10:44.402
+X C-yə yaxınlaşdıqda funksiyanın
+
+10:44.402 --> 10:47.167
+limiti elə
+
+10:47.167 --> 10:49.068
+funksiyanın C-dəki qiymətinə bərabərdir.
+
+10:49.068 --> 10:53.340
+Bu o deməkdir ki, funksiyamız
+
+10:54.101 --> 10:57.347
+C nöqtəsində kəsilməzdir.
+
+10:57.347 --> 11:01.012
+Beləliklə, bir xatırlatma olaraq, biz
+
+11:01.012 --> 11:03.609
+F-in C-də diferensiallana
+
+11:03.609 --> 11:06.847
+biləcəyini limiti hesablamaqla
+
+11:06.847 --> 11:08.875
+fərz etdik, limiti sıfıra bərabər etdik
+
+11:08.875 --> 11:11.075
+və əgər bu limit sıfıra bərabərdirsə,
+
+11:11.075 --> 11:13.681
+o zaman yalnız aşağıdakı kimi
+
+11:13.681 --> 11:15.380
+olur. Sadəcə limitin xassələrindən
+
+11:15.380 --> 11:17.736
+istifadə etməklə, limit X yaxınlaşır
+
+11:17.736 --> 11:20.771
+C-yə, F(X) F(C)-yə bərabərdir
+
+11:20.771 --> 11:23.379
+və kəsilmənin tərifi budur.
+
+11:23.379 --> 11:26.345
+C nöqtəsində kəsilməzdir. Ümidvaram ki,
+
+11:26.345 --> 11:27.714
+bu sizi qane edir. Əgər biz törəmənin nöqtədə
+
+11:27.714 --> 11:31.007
+mövcud olduğunu biliriksə,
+
+11:31.007 --> 11:32.707
+C nöqtəsində diferensiallanırsa, bu o
+
+11:32.707 --> 11:35.780
+deməkdir ki, C nöqtəsində də
+
+11:35.780 --> 11:38.513
+kəsilməzdir. Funksiya bu nöqtədə də kəsilməzdir.

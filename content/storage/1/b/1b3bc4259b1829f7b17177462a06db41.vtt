@@ -1,0 +1,514 @@
+WEBVTT
+
+00:00.624 --> 00:06.744
+Exploremos agora um pouco as séries
+infinitas de n igual a um ao infinito
+
+00:06.744 --> 00:09.784
+de um sobre &lt;i>n&lt;/i> ao quadrado que,
+
+00:09.784 --> 00:14.301
+obviamente, é igual
+a um mais um quarto.
+
+00:14.301 --> 00:17.015
+Isto é um meio ao quadrado, mais
+um terço ao quadrado,
+
+00:17.015 --> 00:19.737
+que é um nono, mais um dezesseis avos
+
+00:19.890 --> 00:22.427
+e assim continua indefinidamente.
+
+00:22.598 --> 00:25.180
+Há uma lista de coisas que
+sabemos a respeito dela.
+
+00:25.195 --> 00:29.044
+Primeiramente, todos seus
+termos são positivos.
+
+00:29.475 --> 00:35.524
+Todos os termos aqui são positivos.
+
+00:35.524 --> 00:36.880
+E eles estão diminuindo.
+
+00:36.880 --> 00:41.000
+Parece que eles estão
+decrescendo rapidamente.
+
+00:41.000 --> 00:44.023
+De um para um quarto, para um
+nono, para um dezesseis avos.
+
+00:44.023 --> 00:46.544
+Eles estão rapidamente se
+aproximando de zero,
+
+00:46.544 --> 00:48.523
+o que é um bom indicativo de que
+
+00:48.523 --> 00:51.983
+esta expressão possivelmente convirja.
+
+00:52.372 --> 00:55.380
+E porque todos eles são positivos,
+sabemos que esta soma aqui,
+
+00:55.380 --> 01:00.188
+se convergir,
+será maior que zero.
+
+01:00.188 --> 01:04.503
+O único motivo pelo qual ela não
+convergiria é se,
+
+01:04.503 --> 01:07.685
+de algum modo, ela continuasse
+ilimitada rumo ao infinito,
+
+01:07.685 --> 01:09.522
+que sabemos, se fosse um sobre &lt;i>n&lt;/i>
+
+01:09.522 --> 01:11.481
+seria ilimitada rumo ao infinito.
+
+01:11.481 --> 01:14.187
+Isto mostra que há uma possibilidade aqui.
+
+01:14.491 --> 01:16.493
+Se pudéssemos mostrar que isto tem limite,
+
+01:16.493 --> 01:19.051
+então haverá um bom argumento do
+
+01:19.051 --> 01:21.673
+porquê isto converge, já que a única razão
+
+01:21.673 --> 01:25.873
+pela qual isto divergiria é se você
+fosse para mais ou menos infinito.
+
+01:25.873 --> 01:27.642
+Sabemos que isto não irá para o menos
+
+01:27.642 --> 01:29.832
+infinito, dado que todos
+termos são positivos.
+
+01:29.832 --> 01:31.544
+Ou poderia divergir,
+se ela oscilar.
+
+01:31.544 --> 01:34.286
+Mas isto não vai oscilar, já que todos
+termos estão sendo
+
+01:34.286 --> 01:36.114
+adicionados à soma, nenhum deles
+
+01:36.114 --> 01:39.019
+está sendo subtraído, pois não
+há termos negativos.
+
+01:39.396 --> 01:42.286
+Vejamos se encontramos um bom
+argumento do porquê
+
+01:42.286 --> 01:44.856
+desta soma não ter limite.
+
+01:44.856 --> 01:47.181
+Particularmente, se descobrirmos o limite,
+
+01:47.181 --> 01:49.537
+este seria um ótimo argumento para dizer
+
+01:49.537 --> 01:52.656
+que esta série infinita deve convergir.
+
+01:53.352 --> 01:55.848
+A forma como faremos isto é explorar
+
+01:55.848 --> 01:57.342
+uma função relativa a esta.
+
+01:57.888 --> 02:04.256
+Eu quero explorar &lt;i>f&lt;/i> de &lt;i>x&lt;/i> é
+um sobre x ao quadrado.
+
+02:04.740 --> 02:09.896
+Você pode ver isto, um sobre
+n ao quadrado, como f de n,
+
+02:09.896 --> 02:12.536
+se eu fosse escrever desta forma.
+
+02:12.600 --> 02:13.967
+Porque isto é interessante?
+
+02:13.967 --> 02:16.002
+Façamos um gráfico.
+
+02:17.578 --> 02:23.679
+Este é o gráfico de &lt;i>y&lt;/i> é igual a &lt;i>f&lt;/i> de &lt;i>x&lt;/i>.
+
+02:24.141 --> 02:27.646
+Note que está é uma função
+decrescente contínua
+
+02:27.646 --> 02:33.142
+-- pelo menos no intervalo
+que nos interessa --
+
+02:33.246 --> 02:38.034
+Digamos, para valores positivos de &lt;i>x&lt;/i>
+
+02:38.034 --> 02:43.034
+é uma função positiva,
+decrescente e contínua.
+
+02:43.863 --> 02:47.489
+O interessante é que nós podemos usar isto
+
+02:47.489 --> 02:50.625
+como uma subestimativa
+para esta área aqui.
+
+02:50.625 --> 02:52.282
+O que eu quero dizer com isto?
+
+02:52.419 --> 02:55.510
+Primeiramente, este primeiro termo aqui,
+
+02:56.170 --> 03:01.339
+você poderia isto como a área
+deste bloco aqui.
+
+03:01.419 --> 03:07.265
+Isto é &lt;i>f&lt;/i> de &lt;i>n&lt;/i>, ou &lt;i>f&lt;/i> de um de
+altura e um de largura,
+
+03:07.265 --> 03:12.756
+que é um vezes um sobre um
+ao quadrado, ou um.
+
+03:14.141 --> 03:16.922
+-- Deixe-me assegurar que estou
+usando cores diferentes --
+
+03:16.922 --> 03:20.290
+Este termo aqui poderia representar a área
+
+03:20.290 --> 03:25.350
+deste bloco, que é um quarto
+de altura e um de largura
+
+03:25.350 --> 03:30.627
+e tem uma área de um quarto.
+
+03:30.915 --> 03:33.143
+O que este poderia representar?
+
+03:33.189 --> 03:35.552
+Bem, a área do próximo bloco,
+se estamos tentando
+
+03:35.552 --> 03:38.391
+estimar a área abaixo da curva.
+
+03:38.495 --> 03:40.852
+Talvez isto lhe pareça familiar,
+de quando fomos
+
+03:40.852 --> 03:43.392
+apresentados à integral,
+ou antes mesmo,
+
+03:43.392 --> 03:45.899
+quando estávamos calculando
+as somas Riemann.
+
+03:45.977 --> 03:48.106
+Esta parte aqui, esta área
+
+03:48.106 --> 03:49.954
+será igual a um nono.
+
+03:50.827 --> 03:54.512
+O intrigante a respeito disto é que
+sabemos como encontrar
+
+03:54.512 --> 04:00.999
+a área exata, ou a área exata de
+um ao infinito, de x.
+
+04:01.133 --> 04:03.565
+Tavez possamos usar isto de alguma forma.
+
+04:03.598 --> 04:06.668
+Sabemos qual é esta área aqui,
+
+04:07.329 --> 04:11.761
+que podemos chamar de integral imprópria
+
+04:11.761 --> 04:16.452
+de um ao infinito de &lt;i>f&lt;/i> de &lt;i>x&lt;/i>&lt;i>dx&lt;/i>.
+
+04:16.625 --> 04:19.347
+Nós sabemos como calcular isto e
+mostraremos logo.
+
+04:19.347 --> 04:22.749
+Sabendo o que é isto e conhecendo
+o valor, temos um limite superior
+
+04:22.749 --> 04:26.528
+para um quarto mais um nono, mais um
+dezesseis avos e assim successivamente.
+
+04:26.862 --> 04:32.705
+Isto nos permitirá limitar
+o resultado desta série e,
+
+04:32.705 --> 04:34.785
+como dissemos anteriormente,
+
+04:34.800 --> 04:37.828
+será um ótimo argumento
+para a sua convergência.
+
+04:37.828 --> 04:39.852
+Não estou apresentando
+uma prova rigorosa,
+
+04:39.852 --> 04:46.093
+mas espero que você compreenda
+conceitualmente um teste bastante popular
+
+04:46.093 --> 04:48.009
+para convergência ou divergência
+
+04:48.009 --> 04:50.836
+chamado teste integral.
+
+04:51.468 --> 04:53.408
+Deixe-me escrever, para que você saiba
+
+04:53.408 --> 04:57.145
+para que isto é base.
+
+04:58.108 --> 04:59.545
+O que eu quero dizer com isto?
+
+04:59.564 --> 05:03.495
+Deixe-me reescrever esta
+soma de outra forma.
+
+05:03.505 --> 05:10.911
+Nossa série original de &lt;i>n&lt;/i> igual a um ao
+infinito de um sobre n ao quadrado
+
+05:11.440 --> 05:13.897
+será igual à área deste primeiro bloco
+
+05:13.897 --> 05:18.206
+mais a área do resto dos blocos,
+
+05:18.206 --> 05:22.593
+que é um quarto mais um nono,
+mais um dezesseis avos
+
+05:23.522 --> 05:25.544
+-- deixe-me fazer isto em outra cor --
+
+05:25.821 --> 05:33.441
+que nós poderíamos escrever como a
+soma de n igual a dois ao infinito
+
+05:33.441 --> 05:36.937
+de um sobre &lt;i>n&lt;/i> ao quadrado.
+
+05:37.331 --> 05:39.832
+Estou apenas expressando isto como a
+
+05:39.832 --> 05:41.646
+soma disto mais tudo isto aqui.
+
+05:42.086 --> 05:48.047
+O interessante é que isto
+-- que acabo de escrever em azul --
+
+05:48.047 --> 05:53.441
+é este bloco mais este bloco,
+mais o próximo bloco,
+
+05:53.471 --> 05:57.584
+que será menor que esta
+integral definida aqui.
+
+05:57.584 --> 06:00.178
+Note que esta integral definida é uma
+subestimativa.
+
+06:00.178 --> 06:01.945
+Ela está sempre abaixo da curva.
+
+06:01.945 --> 06:04.095
+Ela será menor
+que aquela integral definida.
+
+06:04.095 --> 06:11.382
+Podemos escrever que isto será
+menor que um mais
+
+06:11.382 --> 06:14.488
+-- no lugar de escrever isto, vou escrever
+a integral definida --
+
+06:14.488 --> 06:18.842
+Um mais a integral definida
+de um ao infinito
+
+06:18.842 --> 06:24.752
+de um sobre &lt;i>x&lt;/i> ao quadrado &lt;i>dx&lt;/i>.
+
+06:25.174 --> 06:26.679
+Porque isto é útil?
+
+06:26.907 --> 06:28.607
+Porque sabemos como evaluar isto,
+
+06:28.607 --> 06:31.602
+e eu o encorajo a revisar a
+seção no Khan Academy
+
+06:31.602 --> 06:34.027
+em integrais impróprias se isto
+não lhe é familiar,
+
+06:34.027 --> 06:37.300
+mas eu vou resolver isto aqui embaixo.
+
+06:37.698 --> 06:41.451
+Sabemos que isto é o mesmo que
+o limite
+
+06:41.451 --> 06:43.323
+-- vou introduzir uma variável aqui --
+
+06:43.323 --> 06:46.727
+&lt;i>t&lt;/i> tendendo ao infinito da
+integral definida
+
+06:46.727 --> 06:52.249
+de um a &lt;i>t&lt;/i> de &lt;i>x&lt;/i> na menos dois &lt;i>dx&lt;/i>.
+
+06:52.449 --> 06:57.188
+Que é igual ao limite
+-- quanto t tende ao infinito --
+
+06:57.188 --> 07:04.458
+de menos &lt;i>x&lt;/i> na menos um
+-- podemos escrever menos um sobre x --
+
+07:06.698 --> 07:09.659
+Vamos calcular isto em &lt;i>t&lt;/i> e em um,
+
+07:09.659 --> 07:14.659
+que é igual ao limite com &lt;i>t&lt;/i>
+tendendo ao infinito
+
+07:14.702 --> 07:21.082
+de menos um sobre &lt;i>t&lt;/i> menos
+menos um sobre um,
+
+07:21.082 --> 07:22.870
+que resulta em mais um.
+
+07:23.162 --> 07:25.462
+Quando &lt;i>t&lt;/i> se aproxima de infinito,
+este termo aqui
+
+07:25.462 --> 07:27.962
+será zero, então isto
+simplificará para um.
+
+07:28.537 --> 07:32.468
+Esta coisa toda aqui é um.
+
+07:33.067 --> 07:36.666
+Desta forma somos capazes de
+calcular um limite superior
+
+07:36.666 --> 07:37.619
+para esta série.
+
+07:38.274 --> 07:42.494
+Podemos dizer que a série em questão
+
+07:42.494 --> 07:47.148
+-- a soma infinita de &lt;i>n&lt;/i> igual a um
+ao infinito de um sobre n ao quadrado --
+
+07:47.148 --> 07:51.261
+será menor que um mais um,
+
+07:51.261 --> 07:57.748
+ou seja, -- deixe-me usar outra cor --
+
+07:57.748 --> 08:00.458
+menor que dois.
+
+08:00.458 --> 08:04.044
+Outra forma de pensarmos a respeito seria
+pensarmos que o dois é esta área
+
+08:05.464 --> 08:07.910
+mais esta área aqui.
+
+08:07.948 --> 08:11.111
+Estamos dizendo que esta
+soma é menor que dois,
+
+08:11.111 --> 08:12.788
+assim definimos um limite superior.
+
+08:12.788 --> 08:15.739
+Desta forma sabemos que ela não
+crescerá até mais infinito.
+
+08:15.833 --> 08:19.346
+Já que todos os termos são positivos,
+ela não será menos infinito.
+
+08:19.346 --> 08:21.594
+E já que todos termos
+são positivos sabemos
+
+08:21.594 --> 08:24.185
+que a soma não oscilará entre
+dois valores.
+
+08:24.185 --> 08:26.733
+Desta forma isto nos dá uma boa impressão
+
+08:26.733 --> 08:32.013
+de que esta série converge.
+
+08:32.304 --> 08:37.566
+A lógica que usamos aqui, para convencer
+porque a série converge,
+
+08:37.566 --> 08:39.515
+novamente, esta não é uma prova rigorosa,
+
+08:39.515 --> 08:43.746
+mas é a lógica subjacente
+do teste integral.
+
+08:41.421 --> 08:45.421
+Legendado por [ José Irigon ]
+Revisado por [Victor Oliveira]

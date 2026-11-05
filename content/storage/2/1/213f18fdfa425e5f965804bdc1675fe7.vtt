@@ -1,0 +1,326 @@
+WEBVTT
+
+00:00.330 --> 00:02.965
+Chepi là nhà sinh thái học nghiên cứu
+
+00:02.965 --> 00:06.784
+sự thay đổi tổng thể kỳ lân biển ở Bắc Cực theo thời gian.
+
+00:06.784 --> 00:10.720
+Cô quan sát thấy rằng tổng thể mất 5,6%
+
+00:10.720 --> 00:14.144
+kích thước của nó cứ 2,8 tháng.
+
+00:14.144 --> 00:16.129
+Tổng thể kỳ lân biển có thể được mô hình hóa
+
+00:16.129 --> 00:18.602
+bởi một hàm, N,
+phụ thuộc vào lượng
+
+00:18.602 --> 00:20.533
+thời gian, t tính bằng tháng.
+
+00:20.533 --> 00:22.889
+Khi Chepi bắt đầu nghiên cứu, cô ấy đã quan sát
+
+00:22.889 --> 00:27.765
+rằng có 89.000 con kỳ lân biển ở Bắc Băng Dương.
+
+00:27.765 --> 00:30.771
+Viết một hàm mô hình hóa tổng thể kỳ lân biển
+
+00:30.771 --> 00:33.898
+t tháng kể từ khi bắt đầu nghiên cứu của Chepi.
+
+00:33.898 --> 00:35.175
+Như mọi khi, tạm dừng video
+
+00:35.175 --> 00:36.312
+và xem thử bạn có tự làm được không
+
+00:36.312 --> 00:38.530
+trước khi chúng ta làm cùng nhau.
+
+00:38.530 --> 00:39.930
+Vậy bây giờ hãy làm cùng nhau nhé.
+
+00:39.930 --> 00:42.032
+Để hiểu được bản chất của hàm này là gì,
+
+00:42.032 --> 00:45.711
+phải luôn có giá trị để xem, hãy tạo một bảng
+
+00:45.711 --> 00:48.033
+cho một số đầu vào thú vị cho hàm
+
+00:48.033 --> 00:52.131
+và xem hàm sẽ như thế nào.
+
+00:52.131 --> 00:53.914
+Vì vậy, trước hết, nếu t tính bằng tháng
+
+00:53.914 --> 00:57.815
+và N của t, thì N là,
+
+00:57.815 --> 01:01.878
+mô hình đó, N là số kỳ lân biển, kỳ lân biển.
+
+01:01.878 --> 01:04.200
+Vậy khi T bằng 0
+
+01:04.200 --> 01:05.593
+thì N là bao nhiêu?
+
+01:05.593 --> 01:07.357
+Chúng ta biết T bằng không.
+
+01:07.357 --> 01:10.503
+Có 89.000 con kỳ lân biển trong đại dương.
+
+01:10.503 --> 01:13.882
+Vậy 89.000.
+
+01:13.882 --> 01:16.819
+Và bây giờ, một điều thú vị khác là gì?
+
+01:16.819 --> 01:17.674
+T tính theo tháng
+
+01:17.674 --> 01:19.822
+và chúng ta biết rằng tổng thể giảm
+
+01:19.822 --> 01:22.840
+5,6% cứ sau 2,8 tháng.
+
+01:22.840 --> 01:26.044
+Vậy hãy nghĩ xem khi T là 2,8,
+
+01:26.044 --> 01:27.425
+2,8 tháng.
+
+01:27.425 --> 01:28.900
+Vậy thì tổng thể,
+
+01:28.900 --> 01:32.847
+đáng lẽ nó đã giảm 5,6%.
+
+01:32.847 --> 01:36.179
+Vì vậy, giảm 5,6% cũng giống như
+
+01:36.179 --> 01:37.839
+việc giữ lại.
+
+01:37.839 --> 01:40.799
+Một trừ 5,6% là bao nhiêu?
+
+01:40.799 --> 01:45.106
+Giữ lại 94,4%.
+
+01:45.106 --> 01:45.735
+Mình sẽ nói rõ.
+
+01:45.735 --> 01:47.924
+100%,
+
+01:47.924 --> 01:51.625
+nếu bạn mất 5,6%,
+
+01:51.625 --> 01:56.625
+bạn sẽ còn lại với 94,4%.
+
+01:57.354 --> 01:59.606
+0,6 cộng với 0,4 giúp bạn được 95
+
+01:59.606 --> 02:01.069
+cộng thêm năm nữa là 100.
+
+02:01.069 --> 02:02.929
+Vì vậy, một cách nói khác, câu này,
+
+02:02.929 --> 02:06.748
+rằng tổng thể mất 5,6% so với kích cỡ của nó cứ sau 2,8 tháng,
+
+02:06.748 --> 02:09.465
+nghĩa là tổng thể là 94%,
+
+02:09.465 --> 02:12.785
+94,4% kích cỡ của nó mỗi 2,8 tháng
+
+02:12.785 --> 02:16.604
+hoặc thu nhỏ đến 94,4% cỡ ban đầu của nó
+
+02:16.604 --> 02:19.669
+mỗi..., hoặc để mình diễn đạt rõ ràng điều này.
+
+02:19.669 --> 02:22.687
+Sau 2,8 tháng một lần, tổng thể,
+
+02:22.687 --> 02:25.102
+bạn có thể nói nó giảm 5,6%
+
+02:25.102 --> 02:27.865
+hoặc bạn có thể nói rằng nó, nó đã biến mất từ,
+
+02:27.865 --> 02:31.348
+94,4% tổng thể lúc đầu
+
+02:31.348 --> 02:32.902
+trong 2,8 tháng đó.
+
+02:32.902 --> 02:37.902
+Vì vậy, sau 2,8 tháng, tổng thể sẽ là 89.000 nhân
+
+02:38.172 --> 02:40.413
+mình có thể viết nhân 94,4%
+
+02:40.413 --> 02:44.789
+hoặc mình có thể viết nhân 0,944.
+
+02:44.789 --> 02:48.442
+Bây giờ, nếu chúng ta đi 2,8 tháng nữa,
+
+02:48.442 --> 02:51.622
+vậy hai nhân 2,8.
+
+02:51.622 --> 02:53.329
+Mình phải nói rằng bạn có thể viết như vậy,
+
+02:53.329 --> 02:55.129
+mình có thể viết nó trong 5,6 tháng
+
+02:55.129 --> 02:56.951
+nhưng hãy để mình chỉ cần viết này là 2,8 tháng.
+
+02:56.951 --> 02:57.706
+Chúng ta sẽ được gì?
+
+02:57.706 --> 03:00.132
+Chúng ta được 89.000
+
+03:00.132 --> 03:03.309
+nhân 0,944.
+
+03:03.309 --> 03:04.470
+Đây là nơi chúng ta đã ở trước đây
+
+03:04.470 --> 03:05.666
+vào đầu thời kỳ này.
+
+03:05.666 --> 03:08.046
+Bây giờ, chúng ta sẽ là 94,4% trong số đó.
+
+03:08.046 --> 03:10.696
+Vì vậy, chúng ta sẽ lại nhân với 94,4%
+
+03:10.696 --> 03:13.154
+hoặc 0,944 một lần nữa
+
+03:13.154 --> 03:16.868
+hoặc chúng ta chỉ có thể nói nhân 0,944 bình phương.
+
+03:16.868 --> 03:20.998
+Và sau ba giai đoạn này,
+
+03:20.998 --> 03:24.235
+chúng ta sẽ nhân 0,944 lần nữa.
+
+03:24.235 --> 03:26.812
+Vì vậy, nó sẽ là 89.000
+
+03:26.812 --> 03:31.812
+nhân 0,944 bình phương
+
+03:32.133 --> 03:33.909
+nhân 0,944
+
+03:33.909 --> 03:37.171
+sẽ là 0,944 mũ 3.
+
+03:37.171 --> 03:39.331
+Và mình nghĩ bạn có thể thấy những gì đang xảy ra ở đây.
+
+03:39.331 --> 03:41.721
+Chúng ta có một hàm số mũ.
+
+03:41.721 --> 03:43.370
+Cứ sau 2,8 tháng,
+
+03:43.370 --> 03:45.961
+chúng ta nhân với tỷ lệ chung này
+
+03:45.961 --> 03:48.399
+là 0,944.
+
+03:48.399 --> 03:52.404
+Và vì vậy chúng ta có thể viết hàm N của t.
+
+03:52.404 --> 03:57.311
+Giá trị ban đầu của chúng ta là 89.000
+
+03:57.311 --> 04:02.261
+nhân 0,944
+
+04:02.261 --> 04:04.943
+mũ..., trong khoảng
+
+04:04.943 --> 04:07.585
+thời gian 2,8 tháng này, chúng ta đã đi rất xa.
+
+04:07.585 --> 04:09.396
+Vì vậy, nếu chúng ta lấy số tháng
+
+04:09.396 --> 04:11.567
+và chúng ta chia cho 2,8, đó là
+
+04:11.567 --> 04:14.446
+khoảng thời gian 2,8 tháng chúng ta đã đi.
+
+04:14.446 --> 04:16.815
+Và do đó, hãy chú ý, khi t bằng 0,
+
+04:16.815 --> 04:18.115
+tất cả những cái này biến thành một,
+
+04:18.115 --> 04:19.752
+xóa phần 0, phần đó trở thành một.
+
+04:19.752 --> 04:21.029
+Bạn có 89.000.
+
+04:21.029 --> 04:24.326
+Khi t bằng 2,8, số mũ này là một.
+
+04:24.326 --> 04:27.448
+Bây giờ chúng ta sẽ nhân với 0,944 một lần.
+
+04:27.448 --> 04:30.908
+Khi t là 5,6, số mũ sẽ là hai.
+
+04:30.908 --> 04:34.066
+Bây giờ chúng ta sẽ nhân với 0,944 hai lần.
+
+04:34.066 --> 04:36.285
+Và mình chỉ đang thực hiện
+
+04:36.285 --> 04:38.219
+thực hiện các giá trị tạo thành số nguyên lũy thừa nhưng nó sẽ hiệu quả
+
+04:38.219 --> 04:39.346
+với các giá trị ở giữa.
+
+04:39.346 --> 04:40.702
+Mình khuyến khích bạn vẽ biểu đồ
+
+04:40.702 --> 04:43.581
+hoặc thử các giá trị đó trong máy tính nếu bạn muốn.
+
+04:43.581 --> 04:44.958
+Nhưng bạn có nó rồi đấy, chúng ta đã xong.
+
+04:44.958 --> 04:47.540
+Chúng ta đã lập mô hình kỳ lân biển của chúng ta.
+
+04:47.540 --> 04:50.553
+Vì vậy, để mình cần gạch dưới điều đó và chúng ta đã hoàn thành.

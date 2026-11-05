@@ -1,0 +1,337 @@
+WEBVTT
+
+00:00.000 --> 00:05.558
+Taban değişimi formulünü kullanarak
+
+00:05.558 --> 00:08.336
+log 5 tabanında 100'ü en yakın 1000'e yuvarlayarak bulunuz.
+
+00:08.336 --> 00:10.854
+Taban değişimi formulü kullanışlı bir formul,
+
+00:10.854 --> 00:12.782
+özellikle hesap makinası kullanıyorsanız,
+
+00:12.782 --> 00:16.259
+çünkü çoğu hesap makinası logaritamının tabanını
+
+00:16.259 --> 00:18.190
+gelişigüzel değiştirmenize izin vermiyor.
+
+00:18.190 --> 00:20.244
+Doğal logaritma denilen, logaritma e tabanı için
+
+00:20.244 --> 00:22.136
+fonksiyonları var.
+
+00:22.136 --> 00:23.759
+ve log 10 tabanı için.
+
+00:23.759 --> 00:25.438
+Yani tabanı genellikle değiştirmeniz gerekiyor.
+
+00:25.438 --> 00:27.233
+Taban değişimi formulü bu.
+
+00:27.233 --> 00:29.767
+Zamanımız kalırsa, neden formulün çok mantıklı olduğunu anlatacağım
+
+00:29.767 --> 00:31.700
+ya da ona nasıl ulaştığımızı.
+
+00:31.700 --> 00:34.300
+Taban değiştirme formulü bize
+
+00:34.300 --> 00:36.577
+-- burada farklı renkler kullanacağım --
+
+00:36.577 --> 00:48.285
+log a tabanında b'nin, log x tabanında,
+
+00:48.285 --> 01:06.648
+x burada keyfi bir taban, b bölü log x tabanında a ile aynı şey.
+
+01:06.648 --> 01:10.577
+Formulün kullanışlı olmasının sebebi onunla tabanı değiştirebilmemiz.
+
+01:10.577 --> 01:13.515
+Burada tabanımız a ve onu x ile değiştirebiliriz.
+
+01:13.515 --> 01:16.325
+Eğer hesap makinamızın bellirli bir taban x fonksiyonu varsa,
+
+01:16.325 --> 01:20.156
+tabanımızı ona çevirebiliriz. Taban genellikle e ya da 10 olur.
+
+01:20.156 --> 01:22.541
+Taban 10 daha kolay bir yol.
+
+01:22.541 --> 01:26.352
+Ve genel olarak, birinin logaritmayı bu şekilde yazdığını görürseniz,
+
+01:26.352 --> 01:30.362
+eğer log x diye yazıyolarlsa
+
+01:30.362 --> 01:32.952
+log 10 tabanında x'ten bahsediyorladır.
+
+01:32.952 --> 01:35.387
+Eğer biri doğal log x yazıyorsa,
+
+01:35.387 --> 01:38.941
+log e tabanında x'ten bahsediyordur.
+
+01:38.941 --> 01:43.505
+E burada sonsuza kadar devam eden 2.71... sayısı.
+
+01:43.505 --> 01:46.321
+Şimdi bunu probleme uygulayalım.
+
+01:46.321 --> 01:56.382
+Logaritma 5 tabanında -- renk kullanacağım -- 100'ümüz var.
+
+01:56.382 --> 02:00.582
+Bu özellik, taban değişikliği formulü, bize bunun
+
+02:00.582 --> 02:05.244
+x'i 10 ile değiştireceğim, log 10 tabanında 100 bölü
+
+02:05.244 --> 02:19.602
+log 10 tabanında 5 olduğunu söylüyor.
+
+02:19.602 --> 02:22.402
+Aslında bu üsteki kısmı bulmak için hesap makinasına ihtiyacımız yok.
+
+02:22.402 --> 02:26.192
+log 10 tabanında 100 -- 10'un hangi üstü bize 100'ü verir?
+
+02:26.192 --> 02:27.836
+10 üstü 2.
+
+02:27.836 --> 02:30.437
+Yani, bu sayı 2'ye eşit.
+
+02:30.437 --> 02:35.297
+Dolayısıyla bu 2 bölü log 10 tabanında 5 ediyor.
+
+02:35.297 --> 02:38.517
+Şimdi hesap makinamızı kullanabiliriz çünkü
+
+02:38.517 --> 02:41.365
+log 10 tabanı hesap makinamızda var.
+
+02:41.365 --> 02:45.818
+Hesap makinamızı çıkaralım. Böyle istediğimiz sayıyı elde
+
+02:45.818 --> 02:50.536
+edeceğiz --şunu bir siliyim-- 2 bölü
+
+02:50.536 --> 02:53.921
+biri sadece log yazarsa log 10 tabanını kasteder.
+
+02:53.921 --> 02:58.782
+Ln'e bastıklarında ise e tabanını kastederler. Başka bir bilgi olmaksızın
+
+02:58.782 --> 03:00.479
+Başka bir bilgi olmaksızın log, log 10 tabanıdır.
+
+03:00.479 --> 03:05.741
+Şimdi, log 10 tabanında 5,
+
+03:05.741 --> 03:08.259
+ve bizeden bunu en yakın 1000'e yuvarlamamızı istiyorlar.
+
+03:08.259 --> 03:10.982
+2,861 ediyor.
+
+03:10.982 --> 03:15.367
+Bu da yaklaşık olarak 2.861 ediyor.
+
+03:15.367 --> 03:18.290
+Bunu doğrulayabiliriz, çünkü teoride 5'i bu üste yükseltirsem
+
+03:18.290 --> 03:22.418
+100 elde etmem gerekir. Mantıklı çünkü 5 üstü 2
+
+03:22.418 --> 03:26.818
+25 ve 5 üstü 3 125.
+
+03:26.818 --> 03:30.095
+Ve bu 2'nin üstünde ve 5 üstü 3'e, 5 üstü 2'ye olduğundan
+
+03:30.095 --> 03:33.259
+daha yakın ve sayı 3'e, 2'ye olduğundan
+
+03:33.259 --> 03:34.882
+daha yakın.
+
+03:34.882 --> 03:39.429
+Bunu doğrulayalım, eğer 5'in bu üstünü alırsam.
+
+03:39.429 --> 03:43.187
+Ne yaptığımızı en yakın 1000'e yuvarlayıp yazayım.
+
+03:43.187 --> 03:48.310
+5 üstü 2.861, tüm basamakları koymuyorum.
+
+03:48.310 --> 03:50.490
+Neye ulaşıyoruz?
+
+03:50.490 --> 03:54.782
+99,94 buldum. Tüm basamakları yazarsam
+
+03:54.782 --> 03:56.175
+100'e çok yakın bir sayı etmem gerekir.
+
+03:56.175 --> 03:58.224
+100'e ulaşmak için 5'i artıracağım
+
+03:58.224 --> 04:01.305
+üst bu.
+
+04:01.305 --> 04:04.582
+Şimdi, gerçekten bir düşünelim
+
+04:04.582 --> 04:10.259
+neden bu özellik, tam buradaki şey, mantıklı?
+
+04:10.259 --> 04:18.552
+Log a tabanında b yazarsak -- renklere adil davranmaya çalışıyorum --
+
+04:18.552 --> 04:26.413
+log a tabanında b'nin, atıyorum, c sayısına
+
+04:26.413 --> 04:33.633
+eşit olduğunu söyleyelim.
+
+04:33.633 --> 04:45.895
+Bu da a'nın c üstünün b'ye eşit olduğunu söyler.
+
+04:45.895 --> 04:49.238
+Bu gerçeğin üstel yazımı bu.
+
+04:49.238 --> 04:52.162
+Bu da logaritmik yazımı.
+
+04:52.162 --> 04:54.505
+b ye eşit.
+
+04:54.505 --> 04:58.295
+Şimdi logaritmayı iki tarafın da istediğimiz tabanına göre yazabiliriz.
+
+04:58.295 --> 05:02.767
+Ne yaparsanız... eğer 10'un hangi üstü buna eşit derseniz.
+
+05:02.767 --> 05:04.648
+10'un aynı üstü buna eşit,
+
+05:04.648 --> 05:06.771
+çünkü bu iki şey birbirine eşit.
+
+05:06.771 --> 05:09.782
+O zaman iki tarafın da aynı logaritmasını alalım.
+
+05:09.782 --> 05:11.823
+Aynı tabanlı bir logaritma olması gerekiyor.
+
+05:11.823 --> 05:15.125
+Olayı genel olarak kanıtlamak için log x tabanını yapacağım.
+
+05:15.125 --> 05:18.818
+Bunun iki tarafının da log x tabanını alacağım.
+
+05:18.818 --> 05:26.931
+O zaman bu log x tabanında a üstü c
+
+05:26.931 --> 05:29.915
+-- renklere bağlı kalmaya çalışıyorum --
+
+05:29.915 --> 05:40.936
+log x tabanında b'ye eşit oluyor.
+
+05:40.936 --> 05:43.895
+Turuncuyla da kapatıyım.
+
+05:43.895 --> 05:46.248
+Logaritmik özelliklerden biliyoruz ki
+
+05:46.248 --> 05:53.987
+log a üstü c, c çarpı logaritma'ya
+
+05:53.987 --> 06:03.454
+a'nın herhangi bir tabanında eşit.
+
+06:03.454 --> 06:09.408
+Tabii ki bu log x tabanında b'ye eşit.
+
+06:09.408 --> 06:11.833
+Şuraya b koyayım.
+
+06:11.833 --> 06:14.387
+eğer c'yi çözmek istersek
+
+06:14.387 --> 06:17.156
+sadece iki tarafı log x tabanında a'yla bölmemiz yeterli.
+
+06:17.156 --> 06:22.705
+Dolayısıyla c, log x tabanında b bölü
+
+06:22.705 --> 06:30.577
+log x tabanında a'ya eşit.
+
+06:30.577 --> 06:35.300
+Bu c, c logaritma a tabanında b'ye eşitti.
+
+06:35.300 --> 06:38.648
+ve log a tabanında b'ye eşit.
+
+06:38.648 --> 06:43.725
+Bir yazayım, orjinal renklerinde yazayım ki
+
+06:43.725 --> 06:45.485
+ne yaptığım açıkça gözüksün.
+
+06:45.485 --> 06:47.233
+Sanıyorum bunun nereye varacağını biliyorsunuz.
+
+06:47.233 --> 06:49.171
+Renklere adil davranmak istiyorum.
+
+06:49.171 --> 06:55.567
+c, log x tabanında b bölü--
+
+06:55.567 --> 06:58.505
+biraz aşağıya ineyim --
+
+06:58.505 --> 07:02.987
+bölü log x tabanında -- iki tarafı da onla bölünce -- a'ya eşit.
+
+07:02.987 --> 07:05.218
+Buradan -- kopyalayıp yapıştırayım -- bunun da
+
+07:05.218 --> 07:06.890
+c'ye eşit olduğunu biliyoruz.
+
+07:06.890 --> 07:08.946
+C'yi böyle tanımlamıştık.
+
+07:08.946 --> 07:11.295
+Kopyalayıp yapıştıralım.
+
+07:11.295 --> 07:14.162
+Evet, bu c'ye eşit.
+
+07:14.162 --> 07:15.823
+Ve bitti.
+
+07:15.823 --> 07:18.459
+Taban değişimi formulünü kanıtladık.
+
+07:18.459 --> 07:24.018
+Log a tabanında b, log x tabanında b bölü log x tabanında a'ya eşit.
+
+07:24.018 --> 07:28.085
+Bu örnekte, a 5, b 100
+
+07:28.085 --> 3:59:59.999
+ve taban 10 idi.

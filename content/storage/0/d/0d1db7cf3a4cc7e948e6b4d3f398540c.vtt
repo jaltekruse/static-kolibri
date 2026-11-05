@@ -1,0 +1,952 @@
+WEBVTT
+
+00:00.360 --> 00:03.870
+Neste vídeo, quero mostrar alguns
+exemplos de fatorização
+
+00:03.870 --> 00:06.590
+de um polinómio de segundo grau,
+que normalmente
+
+00:06.590 --> 00:08.870
+é conhecido como quadrático.
+
+00:08.870 --> 00:12.650
+Por vezes um polinómio quadrático, ou simplesmente
+
+00:12.650 --> 00:15.850
+um quadrático, ou expressão quadrática,
+mas tudo significa
+
+00:15.850 --> 00:18.300
+que é um polinómio de segundo grau.
+
+00:18.300 --> 00:22.440
+Por isso, é algo que vai ter uma variável elevada
+
+00:22.440 --> 00:23.080
+à segunda potência.
+
+00:23.080 --> 00:26.460
+Neste caso, em todos os exemplos que vamos fazer, será x.
+
+00:26.460 --> 00:30.740
+Portanto, digamos que tenho a expressão quadrática, x
+
+00:30.740 --> 00:35.280
+ao quadrado mais 10x, mais 9.
+
+00:35.280 --> 00:39.870
+E quero fatorizá-la no produto de dois binómios.
+
+00:39.870 --> 00:41.520
+Como é que fazemos isso?
+
+00:41.520 --> 00:44.440
+Bem, vamos pensar no que acontece se
+
+00:44.440 --> 00:51.690
+pegassemos em x mais a, e multiplicar por x mais b.
+
+00:51.690 --> 00:55.050
+Se multiplicássemos as duas, o que é que acontece?
+
+00:55.050 --> 00:57.090
+Bem, já temos alguma experiência a fazer isto.
+
+00:57.090 --> 01:03.170
+Vai ser x vezes x, que é x ao quadrado, mas x vezes b,
+
+01:03.170 --> 01:12.690
+que é bx, mais a vezes x, mais a vezes b... mais ab.
+
+01:12.690 --> 01:15.800
+Ou se quisermos adicionar estes dois aqui no meio,
+
+01:15.800 --> 01:18.890
+porque são ambos coeficientes de x.
+
+01:18.890 --> 01:22.102
+Podemos escrever isto como x ao quadrado mais... posso escrever
+
+01:22.102 --> 01:29.700
+b mais a, ou a mais b, x mais ab.
+
+01:29.700 --> 01:34.390
+Portanto, se assumirmos que isto é o produto de
+
+01:34.390 --> 01:40.765
+dois binómios, vemos que este coeficiente do meio
+
+01:40.765 --> 01:43.250
+no termo do x, ou podemos chamar-lhe o coeficiente de primeiro grau,
+
+01:43.250 --> 01:49.040
+vai ser a soma dos nossos a e b.
+
+01:49.040 --> 01:51.360
+E então o termo constante vai ser o produto
+
+01:51.360 --> 01:52.520
+dos nossos a e b.
+
+01:52.520 --> 01:57.290
+Atenção, isto representaria isto, e isto
+
+01:57.290 --> 01:58.790
+representaria isto.
+
+01:58.790 --> 02:02.600
+E claro, isto seria o mesmo que isto.
+
+02:02.600 --> 02:05.590
+Portanto, há alguma forma de equivaler isto a isto?
+
+02:05.590 --> 02:14.060
+Existe algum a e b onde a mais b seja igual a 10?
+
+02:14.060 --> 02:22.070
+E a vezes b seja igual a 9?
+
+02:22.070 --> 02:23.850
+Bem, vamos pensar um bocado.
+
+02:23.850 --> 02:25.470
+Quais são os fatores de 9?
+
+02:25.470 --> 02:27.770
+Ao que é que a e b poderiam ser iguais?
+
+02:27.770 --> 02:29.170
+E estamos a assumir que só há números inteiros.
+
+02:29.170 --> 02:32.350
+E normalmente quando estamos a fatorizar, sobretudo quando
+
+02:32.350 --> 02:33.950
+estamos a começar a fatorizar, lidamos
+
+02:33.950 --> 02:35.580
+com números inteiros.
+
+02:35.580 --> 02:37.080
+Portanto, quais são os fatores de 9?
+
+02:37.080 --> 02:40.730
+São 1, 3 e 9.
+
+02:40.730 --> 02:45.000
+Por isso, pode ser um 3 e um 3, ou pode ser um 1 e um 9.
+
+02:45.000 --> 02:48.630
+Bem, se for um 3 e um 3, então teremos 3 mais 3...
+
+02:48.630 --> 02:49.840
+o que não é igual a 10.
+
+02:49.840 --> 02:53.760
+Mas se for um 1 e um 9, 1 vezes 9 é 9.
+
+02:53.760 --> 02:56.670
+1 mais 9 é 10.
+
+02:56.670 --> 02:57.570
+Por isso funciona.
+
+02:57.570 --> 03:04.190
+Então a pode ser igual a 1, e b pode ser igual a 9.
+
+03:04.190 --> 03:08.920
+Podemos fatorizar isto como x mais 1,
+
+03:08.920 --> 03:12.970
+vezes x vezes 9.
+
+03:12.970 --> 03:15.850
+E se multiplicarmos esses dois, usando o que
+
+03:15.850 --> 03:18.970
+aperfeiçoámos nos últimos vídeos, é possível ver que
+
+03:18.970 --> 03:22.880
+é mesmo x ao quadrado mais 10x, mais 9.
+
+03:22.880 --> 03:25.150
+Portanto quando vires algo como isto, quando o coeficiente no
+
+03:25.150 --> 03:28.070
+termo de x ao quadrado, ou o coeficiente principal neste
+
+03:28.070 --> 03:31.650
+quadrático é 1, podemos assumir, pronto, que dois
+
+03:31.650 --> 03:34.530
+números adicionados igualam este coeficiente?
+
+03:37.720 --> 03:39.870
+E esses mesmos números, o seu produto
+
+03:39.870 --> 03:41.660
+tem que ser igual a 9.
+
+03:41.660 --> 03:43.510
+E claro, isto tem que estar na forma normal.
+
+03:43.510 --> 03:46.000
+Ou se não estiver na formal normal, deves deixar
+
+03:46.000 --> 03:48.500
+nessa forma, para que possas sempre dizer, tudo bem, o que que esteja
+
+03:48.500 --> 03:51.530
+no coeficiente de primeiro grau, o meu a e b
+
+03:51.530 --> 03:52.300
+somados têm que ser iguais a isto.
+
+03:52.300 --> 03:55.890
+Qualquer que seja o meu termo constante, o meu a vezes b, o seu produto
+
+03:55.890 --> 03:56.370
+tem que ser igual a isto.
+
+03:56.370 --> 03:58.150
+Vamos fazer mais exemplos.
+
+03:58.150 --> 04:00.510
+Acho que, quantos mais exemplos fizermos, mais
+
+04:00.510 --> 04:02.630
+sentido isto faz.
+
+04:02.630 --> 04:08.700
+Vamos supor que temos x ao quadrado mais 10x, mais... bem
+
+04:08.700 --> 04:11.100
+já fiz 10x, vamos usar um número diferente...x ao quadrado
+
+04:11.100 --> 04:15.366
+mais 15x, mais 50.
+
+04:15.366 --> 04:17.470
+E queremos fatorizar isto.
+
+04:17.470 --> 04:20.339
+Bem, é o mesmo raciocínio.
+
+04:20.339 --> 04:22.600
+Temos um termo de x ao quadrado.
+
+04:22.600 --> 04:25.130
+Temos um termo em primeiro grau.
+
+04:25.130 --> 04:27.960
+Isto vai ser a soma de dois números.
+
+04:27.960 --> 04:30.620
+E então este termo, este termo constante aqui,
+
+04:30.620 --> 04:32.870
+deve ser o produto de dois números.
+
+04:32.870 --> 04:35.640
+Precisamos de pensar em dois números que, quando multiplicados
+
+04:35.640 --> 04:39.220
+dão 50, e quando os adiciono, dão 15.
+
+04:39.220 --> 04:41.910
+E isto vai ser uma pequena arte que vais
+
+04:41.910 --> 04:44.530
+desenvolver, mas quanto mais praticares, vais perceber que
+
+04:44.530 --> 04:45.730
+vai começar a surgir naturalmente.
+
+04:45.730 --> 04:47.330
+Então, o que podem a e b ser?
+
+04:47.330 --> 04:48.975
+Vamos pensar nos fatores de 50.
+
+04:48.975 --> 04:52.230
+Pode ser 1 vezes 50.
+
+04:52.230 --> 04:55.072
+2 vezes 25.
+
+04:55.072 --> 04:57.520
+Vejamos, 4 não dá para 50.
+
+04:57.520 --> 05:02.450
+Pode ser 5 vezes 10.
+
+05:02.450 --> 05:03.580
+Acho que estão todos.
+
+05:03.580 --> 05:05.920
+Vamos experimentar estes números e ver se alguns
+
+05:05.920 --> 05:07.310
+deles somados dão 15.
+
+05:07.310 --> 05:12.630
+Então, 1 mais 50 não dá 15.
+
+05:12.630 --> 05:16.160
+2 mais 25 não dá 15.
+
+05:16.160 --> 05:19.260
+Mas 5 mais 10 dá 15.
+
+05:19.260 --> 05:24.280
+Então isto pode ser 5 mais 10, e isto pode ser 5 vezes 10.
+
+05:24.280 --> 05:28.760
+Então se formos fatorizar isto, isto seria igual a x mais
+
+05:28.760 --> 05:32.630
+5, vezes x mais 10.
+
+05:32.630 --> 05:33.840
+E multiplica tudo.
+
+05:33.840 --> 05:36.710
+Recomendo-te multiplicar tudo isto, e ver que isto é
+
+05:36.710 --> 05:39.660
+mesmo x ao quadrado, mais 15x, mais 10.
+
+05:39.660 --> 05:43.320
+De facto, vamos fazê-lo. x vezes x, x ao quadrado. x
+
+05:43.320 --> 05:45.800
+vezes 10, mais 10x.
+
+05:45.800 --> 05:48.600
+5 vezes x, mais 5x.
+
+05:48.600 --> 05:51.620
+5 vezes 10, mais 50.
+
+05:51.620 --> 05:55.220
+Atenção, o 5 vezes 10 deu-nos o 50.
+
+05:55.220 --> 06:00.890
+O 5x mais os 10x dão-nos o 15x que está no meio.
+
+06:00.890 --> 06:06.560
+Então dá x ao quadrado mais 15 x, mais 50.
+
+06:06.560 --> 06:09.440
+Vamos subir um bocado a dificuldade, colocar alguns sinais
+
+06:09.440 --> 06:11.040
+negativos aqui.
+
+06:11.040 --> 06:18.890
+Vamos supor que temos x ao quadrado menos 11x, mais 24.
+
+06:18.890 --> 06:21.610
+Agora, é exatamente a mesma lógica.
+
+06:21.610 --> 06:24.580
+Preciso de pensar em dois números, que quando somados,
+
+06:24.580 --> 06:26.570
+precisam de ser igual ao 11 negativo.
+
+06:26.570 --> 06:30.150
+a mais b precisam de ser iguais ao menos 11.
+
+06:30.150 --> 06:37.900
+E a vezes b precisa de ser igual a 24.
+
+06:37.900 --> 06:41.290
+Agora, há algo em que é preciso pensar.
+
+06:41.290 --> 06:43.960
+Quando multiplico ambos estes números, recebo um
+
+06:43.960 --> 06:45.080
+número positivo.
+
+06:45.080 --> 06:46.960
+Tenho um 24.
+
+06:46.960 --> 06:50.260
+Isso significa que ambos precisam de ser positivos, ou ambos
+
+06:50.260 --> 06:51.380
+os números têm que ser negativos.
+
+06:51.380 --> 06:55.050
+É a única forma de obter um número positivo aqui.
+
+06:55.050 --> 06:58.290
+Agora, se quando eu os adicionar, receber um número negativo, se estes
+
+06:58.290 --> 07:00.720
+forem positivos, não há como somar dois números negativos
+
+07:00.720 --> 07:03.280
+e obter um negativo, por isso, pelo facto de a sua soma ser
+
+07:03.280 --> 07:05.750
+negativo e o facto de o seu produto ser positivo,
+
+07:05.750 --> 07:10.420
+indica-me que a e b são ambos negativos.
+
+07:10.420 --> 07:13.200
+a e b têm que ser negativos.
+
+07:13.200 --> 07:15.730
+Lembra-te, um não pode ser negativo e o outro
+
+07:15.730 --> 07:18.710
+não pode ser positivo, porque o produto seria negativo.
+
+07:18.710 --> 07:22.687
+E ambos não podem ser positivo, porque quando são adicionados
+
+07:22.687 --> 07:24.520
+dão um número positivo.
+
+07:24.520 --> 07:27.500
+Portanto, vamos pensar no que a e b podem ser.
+
+07:27.500 --> 07:28.990
+Então, dois números negativos.
+
+07:28.990 --> 07:31.260
+Então vamos pensar nos fatores de 24.
+
+07:31.260 --> 07:33.140
+E vamos mais ou menos ter que pensar nos fatores negativos.
+
+07:33.140 --> 07:44.670
+Mas deixa ver, pode ser 1 vezes 24, 2 vezes 11, 3 vezes
+
+07:44.670 --> 07:48.070
+8, ou 4 vezes 6.
+
+07:48.070 --> 07:51.220
+Agora, quais destes quando se multiplicam... bem,
+
+07:51.220 --> 07:54.380
+obviamente que quando multiplico 1 vezes 24, é igual a 24.
+
+07:54.380 --> 07:58.910
+Quando eu tenho 2 vezes 11... desculpa, isto é 2 vezes 12.
+
+07:58.910 --> 07:59.790
+É igual a 24.
+
+07:59.790 --> 08:03.090
+Então sabemos que todos estes, os produtos são 24.
+
+08:03.090 --> 08:07.470
+Mas quais dois destes, que dois fatores, quando adicionados,
+
+08:07.470 --> 08:08.790
+dão 11?
+
+08:08.790 --> 08:09.880
+E então poderiamos dizer, vamos tirar
+
+08:09.880 --> 08:11.450
+os negativos de ambos.
+
+08:11.450 --> 08:15.470
+Então reparando nestes, saltam à vista o 3 e o 8.
+
+08:15.470 --> 08:19.150
+3 vezes 8 é igual a 24.
+
+08:19.150 --> 08:22.810
+2 mais 8 é igual a 11.
+
+08:22.810 --> 08:24.680
+Mas isso não funciona lá muito bem, certo?
+
+08:24.680 --> 08:26.510
+Porque aqui temos um -11.
+
+08:26.510 --> 08:29.690
+E se fizessemos -3 e -8?
+
+08:29.690 --> 08:37.789
+-3 vezes -8 é igual a 24 positivo.
+
+08:37.789 --> 08:43.580
+-3 mais -8 é igual a -11.
+
+08:43.580 --> 08:46.600
+Então -3 e -8 funcionam.
+
+08:46.600 --> 08:53.840
+Então se fatorizarmos isto, x ao quadrado menos 11x, mais 24 vai
+
+08:53.840 --> 09:02.940
+ser igual a x menos 3, vezes x menos 8.
+
+09:02.940 --> 09:06.270
+Vamos fazer outro assim.
+
+09:06.270 --> 09:08.330
+Pensando bem, vamos misturar um bocado as coisas.
+
+09:08.330 --> 09:19.810
+Vamos supor que tenho um x ao quadrado mais 5x, menos 14.
+
+09:19.810 --> 09:21.770
+Aqui temos uma situação diferente.
+
+09:21.770 --> 09:26.460
+O produto dos meus dois números é negativo, certo? a vezes b
+
+09:26.460 --> 09:28.190
+é igual a -14.
+
+09:28.190 --> 09:29.920
+O meu produto é negativo.
+
+09:29.920 --> 09:32.930
+Isso diz-me que um deles é negativo, e um deles
+
+09:32.930 --> 09:33.910
+é negativo.
+
+09:33.910 --> 09:39.200
+E quando somo os dois, a mais b, vai ser igual a 5.
+
+09:39.200 --> 09:41.360
+Então vamos pensar nos fatores de 14.
+
+09:41.360 --> 09:44.300
+E em que combinações deles, quando os somo, se um for
+
+09:44.300 --> 09:46.560
+positivo e um negativo, ou se estou a obter
+
+09:46.560 --> 09:49.780
+a diferença dos dois, tenho 5?
+
+09:49.780 --> 09:53.450
+Então se eu pegar no 1 e no 14... vou experimentar...
+
+09:53.450 --> 10:01.820
+1 e 14, -1 mais 14 dá -13.
+
+10:01.820 --> 10:04.260
+-1 mais 14 é 13.
+
+10:04.260 --> 10:07.430
+Então deixa-me escrever todas as combinações que posso fazer.
+
+10:07.430 --> 10:09.440
+E eventualmente o teu cérebro irá focar-se nelas.
+
+10:09.440 --> 10:16.490
+Então temos -1 mais 14 é igual a 13.
+
+10:16.490 --> 10:20.460
+E 1 mais -14 é igual a -13.
+
+10:20.460 --> 10:21.380
+Então estes não dão.
+
+10:21.380 --> 10:22.950
+Não é igual a 5.
+
+10:22.950 --> 10:24.860
+E que tal 2 e 7?
+
+10:24.860 --> 10:29.600
+Se eu usar o -2... vou fazer noutra cor... se
+
+10:29.600 --> 10:35.290
+eu fizer -2 mais 7, é igual a 5.
+
+10:35.290 --> 10:35.750
+Já está!
+
+10:35.750 --> 10:36.670
+Funcionou!
+
+10:36.670 --> 10:39.440
+Quer dizer, podiamos ter tentado 2 mais -7, mas isso daria
+
+10:39.440 --> 10:41.070
+-5, por isso não iria funcionar.
+
+10:41.070 --> 10:42.960
+Mas -2 mais 7 funciona.
+
+10:42.960 --> 10:46.590
+E -2 vezes 7 é igual a -14.
+
+10:46.590 --> 10:47.600
+Aqui temos.
+
+10:47.600 --> 10:53.210
+Sabemos que é x menos 2, vezes x mais 7.
+
+10:53.210 --> 10:54.330
+Isso é muito bom.
+
+10:54.330 --> 10:56.950
+-2 vezes 7 dá -14.
+
+10:56.950 --> 11:00.880
+-2 mais 7 dá 5 positivo.
+
+11:03.760 --> 11:07.680
+Vamos fazer mais exemplos, para isto ficar mesmo
+
+11:07.680 --> 11:09.520
+bem assente.
+
+11:09.520 --> 11:16.360
+Vamos supor que temos x ao quadrado menos x, menos 56.
+
+11:16.360 --> 11:19.570
+Então o produto dos dois número tem que ser -56,
+
+11:19.570 --> 11:21.620
+tem que ser -56
+
+11:21.620 --> 11:24.430
+E a sua diferença, porue um vai ser positivo,
+
+11:24.430 --> 11:26.280
+e outro vai ser negativo, certo?
+
+11:26.280 --> 11:28.350
+A sua diferença tem que ser -1.
+
+11:28.350 --> 11:30.130
+E os números que imediatamente me saltam à
+
+11:30.130 --> 11:31.900
+cabeça... e não sei se também saltam à tua,
+
+11:31.900 --> 11:33.740
+aprendemos isto nas tabuadas...
+
+11:33.740 --> 11:36.480
+56 é 8 vezes 7.
+
+11:36.480 --> 11:37.480
+Quer dizer, há outros números.
+
+11:37.480 --> 11:39.950
+Também é 28 vezes 2.
+
+11:39.950 --> 11:41.140
+É montes de coisas.
+
+11:41.140 --> 11:44.300
+Mas 8 e 7 saltaram-me mesmo à cabeça, porque
+
+11:44.300 --> 11:45.470
+estão bastante próximos um do outro.
+
+11:45.470 --> 11:47.730
+E precisamos de números que estejam muito próximos uns dos outros.
+
+11:47.730 --> 11:50.430
+E um destes tem que ser positivo, e um destes tem que
+
+11:50.430 --> 11:51.810
+ser negativo.
+
+11:51.810 --> 11:55.250
+Bem, o facto da sua soma ser negativo, indica-me que
+
+11:55.250 --> 11:58.460
+o maior destes dois talvez devesse ser negativo.
+
+11:58.460 --> 12:01.350
+Então se tivermos -8 vezes 7, é
+
+12:01.350 --> 12:03.320
+igual a -56.
+
+12:03.320 --> 12:08.470
+E então se tivermos -8 mais 7, vai ser igual a
+
+12:08.470 --> 12:12.100
+-1, que é exatamente o coeficiente daqui.
+
+12:12.100 --> 12:16.490
+Então quando eu fatorizo isto, isto vai ser x menos 8,
+
+12:16.490 --> 12:18.690
+vezes x mais 7.
+
+12:18.690 --> 12:21.695
+Isto é muitas vezes um dos conceitos mais difíceis que se aprendem
+
+12:21.695 --> 12:23.920
+em álgebra, porque é um pouco artístico.
+
+12:23.920 --> 12:26.710
+É preciso olhar aqui para todos os fatores, jogar com os
+
+12:26.710 --> 12:29.710
+sinais de positivo e de negativo, ver quais dos fatores
+
+12:29.710 --> 12:31.900
+quando um é positivo, um é negativo, adicionados resultam
+
+12:31.900 --> 12:33.590
+no coeficiente do termo x.
+
+12:33.590 --> 12:35.860
+Mas à medida que praticares mais e mais, vais reparar que
+
+12:35.860 --> 12:39.280
+vai começar a tornar-se inconsciente.
+
+12:39.280 --> 12:42.350
+Agora vamos complicar ainda mais as coisas.
+
+12:42.350 --> 12:46.140
+Vamos supor que temos x negativo ao quadrado... tudo o que
+
+12:46.140 --> 12:49.040
+temos feito sempre teve um coeficiente positivo, um 1 positivo
+
+12:49.040 --> 12:50.690
+como coeficiente do termo de x ao quadrado.
+
+12:50.690 --> 12:55.590
+Mas vamos supor que temos um x negativo ao quadrado
+
+12:55.590 --> 12:59.440
+menos 5x, mais 24.
+
+12:59.440 --> 13:00.910
+Como é que resolvemos isto?
+
+13:00.910 --> 13:03.420
+Bem, a forma mais fácil de que consigo pensar é fatorizar
+
+13:03.420 --> 13:05.670
+o 1 negativo, e então torna-se como os problemas
+
+13:05.670 --> 13:07.260
+que temos visto até agora.
+
+13:07.260 --> 13:11.660
+Então isto vai ser o mesmo que -1 vezes x positivo
+
+13:11.660 --> 13:15.990
+ao quadrado, mais 5x, menos 24.
+
+13:15.990 --> 13:16.300
+Certo?
+
+13:16.300 --> 13:18.080
+Só fatorizei um -1 para fora.
+
+13:18.080 --> 13:20.180
+Podes multiplicar -1 vezes todos estes, e vais
+
+13:20.180 --> 13:21.690
+comprovar que se torna nisto.
+
+13:21.690 --> 13:23.555
+Ou podes fatorizar o -1 e dividir todos
+
+13:23.555 --> 13:25.000
+estes por -1.
+
+13:25.000 --> 13:26.760
+E vais chegar precisamente aqui.
+
+13:26.760 --> 13:29.360
+Agora, a mesma lógica que antes.
+
+13:29.360 --> 13:33.510
+Preciso de dois números que, com o seu produto, obtenho
+
+13:33.510 --> 13:34.690
+-24.
+
+13:34.690 --> 13:37.125
+Então um vai ser positivo, um vai ser negativo.
+
+13:41.550 --> 13:43.770
+Quando faço a sua soma, obtenho 5.
+
+13:43.770 --> 13:48.850
+Então vamos pensar sobre 24 ser 1 e 24.
+
+13:48.850 --> 13:55.750
+Vamos ver, se este 1 for negativo e 24, daria 23 positivo,
+
+13:55.750 --> 13:57.540
+se fosse ao contrário, daria 23 negativo.
+
+13:57.540 --> 13:58.500
+Não funciona.
+
+13:58.500 --> 14:01.210
+E que tal 2 e 12?
+
+14:01.210 --> 14:04.530
+Bem, se isto é negativo... lembra-te, um destes tem que
+
+14:04.530 --> 14:05.040
+ser negativo.
+
+14:05.040 --> 14:07.570
+Se o 2 for negativo, a sua soma seria 10.
+
+14:07.570 --> 14:09.750
+Se o 12 fosse negativo, a sua soma seria -10.
+
+14:09.750 --> 14:11.300
+Continua a não funcionar.
+
+14:11.300 --> 14:13.290
+3 e 8.
+
+14:13.290 --> 14:16.850
+Se o 3 for negativo, a sua soma vai ser 5.
+
+14:16.850 --> 14:17.910
+Então funciona!
+
+14:17.910 --> 14:24.620
+Se pegarmos no -3 e 8, o -3 e 8 funcionam.
+
+14:24.620 --> 14:26.630
+Porque -3 mais 8 é 5.
+
+14:26.630 --> 14:29.510
+-3 vezes 8 é igual a -24.
+
+14:29.510 --> 14:31.640
+Então isto vai ser igual a... não nos podemos esquecer
+
+14:31.640 --> 14:35.230
+do -1, e então fatorizamos o interior.
+
+14:35.230 --> 14:42.990
+-1 vezes x menos 3, vezes x mais 8.
+
+14:42.990 --> 14:44.800
+E se quiseres mesmo, podes multiplicar o
+
+14:44.800 --> 14:46.450
+-1 por isto, teremos 3
+
+14:46.450 --> 14:47.560
+menos x, se o fizeres.
+
+14:47.560 --> 14:48.810
+Ou então não é preciso.
+
+14:51.810 --> 14:53.220
+Vamos ver mais um exemplo.
+
+14:53.220 --> 14:56.060
+Acho que quanto mais se pratica, melhor.
+
+14:56.060 --> 15:01.630
+Muito bem, vamos supor que tenho menos x ao quadrado
+
+15:01.630 --> 15:06.690
+mais 18x, menos 72.
+
+15:06.690 --> 15:09.320
+Então novamente, gostava de fatorizar o -1.
+
+15:09.320 --> 15:13.040
+Por isso, isto é igual a -1 vezes x ao quadrado,
+
+15:13.040 --> 15:16.910
+menos 18x, mais 72.
+
+15:16.910 --> 15:19.650
+Agora temos que pensar em dois números, que quando os
+
+15:19.650 --> 15:22.330
+multiplico, obtenho 72 positivo.
+
+15:22.330 --> 15:24.480
+Então têm que ter o mesmo sinal.
+
+15:24.480 --> 15:26.930
+E acho que, pelo menos para mim, torna tudo mais simples.
+
+15:26.930 --> 15:29.260
+Quando os multiplico, fico com 72 positivo.
+
+15:29.260 --> 15:32.040
+Quando os somo, obtenho -18.
+
+15:32.040 --> 15:34.410
+Então têm o mesmo sinal, e a sua soma é um número
+
+15:34.410 --> 15:36.470
+negativo, por isso têm ambos que ser negativos.
+
+15:41.470 --> 15:43.790
+E podemos ver todos os fatores de 72.
+
+15:43.790 --> 15:48.510
+Mas o que salta à cabeça, talvez penses em 8 vezes 9,
+
+15:48.510 --> 15:53.270
+mas 8 vezes 9, ou -8 menos 9, ou -8 mais
+
+15:53.270 --> 15:55.210
+-9, não dão.
+
+15:55.210 --> 15:58.060
+Fica 17.
+
+15:58.060 --> 15:58.860
+Estivemos quase.
+
+15:58.860 --> 15:59.560
+Deixa-me mostrar.
+
+15:59.560 --> 16:04.400
+-9 mais -8, é igual a -17.
+
+16:04.400 --> 16:06.140
+Quase, mas não é.
+
+16:06.140 --> 16:06.990
+Então quais são as outras opções?
+
+16:06.990 --> 16:08.005
+Temos 6 e 12.
+
+16:08.005 --> 16:09.705
+E parecem ser ótimos.
+
+16:09.705 --> 16:13.710
+Se tivermos -6 mais -12, é igual a
+
+16:13.710 --> 16:15.360
+-18.
+
+16:15.360 --> 16:16.590
+Repara, é um bocado artístico.
+
+16:16.590 --> 16:18.810
+Temos que tentar aqui os diferentes fatores.
+
+16:18.810 --> 16:22.360
+Então isto vai ficar -1... não nos podemos esqueçer...
+
+16:22.360 --> 16:29.440
+vezes x menos 6, vezes x menos 12.

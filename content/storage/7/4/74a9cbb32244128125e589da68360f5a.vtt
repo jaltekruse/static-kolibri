@@ -1,0 +1,1123 @@
+WEBVTT
+
+00:00.690 --> 00:04.360
+In the last video, we started to explore
+the notion of an error function.
+
+00:04.360 --> 00:06.120
+Not to be confused with the expected value
+
+00:06.120 --> 00:08.000
+because it really does reflect the same
+notation.
+
+00:08.000 --> 00:09.810
+But here E is for error.
+
+00:09.810 --> 00:10.840
+And we could also thought it will
+
+00:10.840 --> 00:13.180
+some times here referred to as Reminder
+function.
+
+00:13.180 --> 00:16.750
+And we saw it's really just the difference
+as we,
+
+00:16.750 --> 00:20.440
+the difference between the function and
+our approximation of the function.
+
+00:20.440 --> 00:25.980
+So for example, this, this distance right
+over here, that is our error.
+
+00:25.980 --> 00:29.680
+That is our error at the x is equal to b.
+
+00:29.680 --> 00:32.340
+And what we really care about is the
+absolute value of it.
+
+00:32.340 --> 00:35.290
+Because at some points f of x might be
+larger than the polynomial.
+
+00:35.290 --> 00:37.500
+Sometimes the polynomial might be larger
+than f of x.
+
+00:37.500 --> 00:40.860
+What we care is the absolute distance
+between them.
+
+00:40.860 --> 00:42.500
+And so what I want to do in this video is
+
+00:42.500 --> 00:48.430
+try to bound, try to bound our error at
+some b.
+
+00:48.430 --> 00:49.560
+Try to bound our error.
+
+00:49.560 --> 00:52.640
+So say it's less than or equal to some
+constant value.
+
+00:52.640 --> 00:55.840
+Try to bound it at b for some b is greater
+than a.
+
+00:55.840 --> 00:58.070
+We're just going to assume that b is
+greater than a.
+
+00:58.070 --> 01:01.620
+And we saw some tantalizing, we, we got to
+a bit of a tantalizing
+
+01:01.620 --> 01:04.519
+result that seems like we might be able to
+bound it in the last video.
+
+01:04.519 --> 01:07.660
+We saw that the n plus 1th derivative of
+our error
+
+01:07.660 --> 01:12.060
+function is equal to the n plus 1th
+derivative of our function.
+
+01:12.060 --> 01:14.760
+Or their absolute values would also be
+equal to.
+
+01:14.760 --> 01:18.330
+So if we could somehow bound the n plus
+1th derivative
+
+01:18.330 --> 01:22.240
+of our function over some interval, an
+interval that matters to us.
+
+01:22.240 --> 01:24.770
+An interval that maybe has b in it.
+
+01:24.770 --> 01:29.980
+Then, we can, at least bound the n plus
+1th derivative our error function.
+
+01:29.980 --> 01:31.390
+And then, maybe we can do a little bit of
+
+01:31.390 --> 01:36.120
+integration to bound the error itself at
+some value b.
+
+01:36.120 --> 01:37.160
+So, let's see if we can do that.
+
+01:37.160 --> 01:40.060
+Well, let's just assume, let's just assume
+that we're in a reality where
+
+01:40.060 --> 01:44.300
+we do know something about the n plus1
+derivative of f of x.
+
+01:44.300 --> 01:46.420
+Let's say we do know that this.
+
+01:46.420 --> 01:49.150
+We do it in a color I that haven't used
+yet.
+
+01:49.150 --> 01:50.580
+Well, I'll do it in white.
+
+01:50.580 --> 01:55.400
+So let's say that that thing over there
+looks something like that.
+
+01:55.400 --> 01:59.420
+So that is f the n plus 1th derivative.
+
+01:59.420 --> 02:00.500
+The n plus 1th derivative.
+
+02:00.500 --> 02:03.740
+And I only care about it over this
+interval right over here.
+
+02:03.740 --> 02:06.140
+Who cares what it does later, I just gotta
+bound it over the interval
+
+02:06.140 --> 02:09.759
+cuz at the end of the day I just wanna
+balance b right over there.
+
+02:09.759 --> 02:12.750
+So let's say that the absolute value of
+this.
+
+02:12.750 --> 02:13.740
+Let's say that we know.
+
+02:13.740 --> 02:17.350
+Let me write it over here, let's say that
+we know.
+
+02:19.170 --> 02:23.800
+We know that the absolute value of the n
+plus 1th derivative, the n plus 1th.
+
+02:23.800 --> 02:26.520
+And, I apologize I actually switch between
+the capital N and
+
+02:26.520 --> 02:28.120
+the lower-case n and I did that in the
+last video.
+
+02:28.120 --> 02:29.690
+I shouldn't have, but now that you know
+
+02:29.690 --> 02:32.078
+that I did that hopefully it doesn't
+confuse it.
+
+02:32.078 --> 02:35.090
+N plus 1th, so let's say we know that the
+n plus 1th
+
+02:35.090 --> 02:40.110
+derivative of f of x, the absolute value
+of it, let's say it's bounded.
+
+02:40.110 --> 02:43.010
+Let's say it's less than or equal to some
+m
+
+02:43.010 --> 02:45.160
+over the interval, cuz we only care about
+the interval.
+
+02:45.160 --> 02:47.540
+It might not be bounded in general, but
+all we
+
+02:47.540 --> 02:50.168
+care is it takes some maximum value over
+this interval.
+
+02:50.168 --> 02:57.190
+So over, over, over the interval x, I
+could write it this way,
+
+02:57.190 --> 03:04.190
+over the interval x is a member between a
+and b, so this includes both of them.
+
+03:04.190 --> 03:06.330
+It's a closed interval, x could be a, x
+
+03:06.330 --> 03:09.940
+could be b, or x could be anything in
+between.
+
+03:09.940 --> 03:11.760
+And we can say this generally that,
+
+03:11.760 --> 03:15.230
+that this derivative will have some
+maximum value.
+
+03:15.230 --> 03:20.060
+So this is its, the absolute value,
+maximum value, max value, m for max.
+
+03:20.060 --> 03:23.980
+We know that it will have a maximum value,
+if this thing is continuous.
+
+03:23.980 --> 03:26.620
+So once again we're going to assume that
+it is continuous,
+
+03:26.620 --> 03:30.710
+that it has some maximum value over this
+interval right over here.
+
+03:30.710 --> 03:34.796
+Well this thing, this thing right over
+here, we know is the
+
+03:34.796 --> 03:38.978
+same thing as the n plus 1 derivative of
+the error function.
+
+03:38.978 --> 03:46.220
+So then we know, so then that, that
+implies, that implies that,
+
+03:46.220 --> 03:51.980
+that implies that the, that's a new color,
+let me do that in blue, or that green.
+
+03:51.980 --> 03:58.720
+That implies that the, the, the end plus
+one derivative of the error function.
+
+03:58.720 --> 04:00.270
+The absolute value of it because these are
+the
+
+04:00.270 --> 04:04.570
+same thing is also, is also bounded by m.
+
+04:04.570 --> 04:07.500
+So that's a little bit of an interesting
+result but it gets us no where near there.
+
+04:07.500 --> 04:11.450
+It might look similar but this is the n
+plus 1 derivative of the error function.
+
+04:11.450 --> 04:14.000
+And, and we'll have to think about how we
+can get an m in the future.
+
+04:14.000 --> 04:16.140
+We're assuming that we some how know it
+and maybe
+
+04:16.140 --> 04:18.589
+we'll do some example problems where we
+figure that out.
+
+04:18.589 --> 04:20.160
+But this is the m plus 1th derivative.
+
+04:20.160 --> 04:21.750
+We bounded it's absolute value but we
+
+04:21.750 --> 04:24.210
+really want to bound the actual error
+function.
+
+04:24.210 --> 04:27.710
+The 0 is the derivative, you could say,
+the actual function itself.
+
+04:27.710 --> 04:31.380
+What we could try to integrate both sides
+of this and see
+
+04:31.380 --> 04:34.960
+if we can eventually get to e, to get to e
+of x.
+
+04:34.960 --> 04:38.095
+To get our, to our error function or our
+remainder function so let's do that.
+
+04:38.095 --> 04:44.050
+Let's take the integral, let's take the
+integral of both sides of this.
+
+04:44.050 --> 04:46.290
+Now the integral on this left hand side,
+it's a little interesting.
+
+04:46.290 --> 04:47.930
+We take the integral of the absolute
+value.
+
+04:47.930 --> 04:51.570
+It would be easier if we were taking the
+absolute value of the integral.
+
+04:51.570 --> 04:54.220
+And lucky for us, the way it's set up.
+
+04:54.220 --> 04:56.480
+So let me just write a little aside here.
+
+04:56.480 --> 04:59.369
+We know generally that if I take, and it's
+something for you to think about.
+
+04:59.369 --> 05:03.029
+If I take, so if I have two options, if I
+have two
+
+05:03.029 --> 05:09.090
+options, this option versus and I don't
+know, they look the same right now.
+
+05:10.530 --> 05:12.870
+I know they look the same right now.
+
+05:12.870 --> 05:15.810
+So over here, I'm gonna have the integral
+of the absolute value
+
+05:15.810 --> 05:19.690
+and over here I'm going to have the
+absolute value of the interval.
+
+05:19.690 --> 05:24.310
+Which of these is going to be, which of
+these can be larger?
+
+05:24.310 --> 05:26.790
+Well, you just have to think about the
+scenarios.
+
+05:26.790 --> 05:30.170
+So, if f of x is always positive over the
+interval that
+
+05:30.170 --> 05:33.470
+you're taking the integration, then
+they're going to be the same thing.
+
+05:33.470 --> 05:34.990
+They're, you're gonna get positive values.
+
+05:34.990 --> 05:36.760
+Take the absolute of a value of a positive
+value.
+
+05:36.760 --> 05:38.260
+It doesn't make a difference.
+
+05:38.260 --> 05:40.990
+What matters is if f of x is negative.
+
+05:40.990 --> 05:43.780
+If f of x, if f of x is negative the
+
+05:43.780 --> 05:48.170
+entire time, so if this our x-axis, that
+is our y-axis.
+
+05:48.170 --> 05:51.070
+If f of x is, well we saw if it's positive
+the entire
+
+05:51.070 --> 05:55.310
+time, you're taking the absolute value of
+a positive, absolute value of positive.
+
+05:55.310 --> 05:56.130
+It's not going to matter.
+
+05:56.130 --> 05:57.860
+These two things are going to be equal.
+
+05:57.860 --> 06:00.800
+If f of x is negative the whole time, then
+you're going
+
+06:00.800 --> 06:04.920
+to get, then this integral going to
+evaluate to a negative value.
+
+06:04.920 --> 06:07.440
+But then, you would take the absolute
+value of it.
+
+06:07.440 --> 06:10.090
+And then over here, you're just going to,
+this is, the integral going to
+
+06:10.090 --> 06:12.820
+value to a positive value and it's still
+going to be the same thing.
+
+06:12.820 --> 06:15.300
+The interesting case is when f of x is
+both
+
+06:15.300 --> 06:18.970
+positive and negative, so you can imagine
+a situation like this.
+
+06:18.970 --> 06:22.580
+If f of x looks something like that, then
+
+06:22.580 --> 06:25.580
+this right over here, the integral, you'd
+have positive.
+
+06:25.580 --> 06:28.560
+This would be positive and then this would
+be negative right over here.
+
+06:28.560 --> 06:30.810
+And so they would cancel each other out.
+
+06:30.810 --> 06:32.230
+So this would be a smaller value than
+
+06:32.230 --> 06:35.580
+if you took the integral of the absolute
+value.
+
+06:35.580 --> 06:39.470
+So the integral, the absolute value of f
+would look something like this.
+
+06:39.470 --> 06:42.260
+So all of the areas are going to be, if
+you view the
+
+06:42.260 --> 06:43.120
+integral, if you view this it is
+
+06:43.120 --> 06:44.730
+definitely going to be a definite
+integral.
+
+06:44.730 --> 06:48.380
+All of the areas, all of the areas would
+be positive.
+
+06:48.380 --> 06:49.750
+So when you it, you are going to get a
+
+06:49.750 --> 06:53.210
+bigger value when you take the integral of
+an absolute value.
+
+06:53.210 --> 06:54.791
+Then you will, especially when f of x
+
+06:54.791 --> 06:57.038
+goes both positive and negative over the
+interval.
+
+06:57.038 --> 07:02.005
+Then you would if you took the integral
+first and then the absolute value.
+
+07:02.005 --> 07:04.090
+Cuz once again, if you took the integral
+first, for something like
+
+07:04.090 --> 07:07.020
+this, you'd get a low value cause this
+stuff would cancel out.
+
+07:07.020 --> 07:09.500
+Would cancel out with this stuff right
+over here then you'd
+
+07:09.500 --> 07:13.470
+take the absolute value of just a lower, a
+lower magnitude number.
+
+07:13.470 --> 07:15.880
+And so in general, the integral, the
+
+07:15.880 --> 07:18.260
+integral, sorry the absolute value of the
+integral
+
+07:18.260 --> 07:22.870
+is going to be less than or equal to the
+integral of the absolute value.
+
+07:22.870 --> 07:24.670
+So we can say, so this right here is the
+integral of
+
+07:24.670 --> 07:27.740
+the absolute value which is going to be
+greater than or equal.
+
+07:27.740 --> 07:29.840
+What we have written over here is just
+this.
+
+07:29.840 --> 07:31.910
+That's going to be greater than or equal
+to, and I
+
+07:31.910 --> 07:34.550
+think you'll see why I'm why I'm doing
+this in a second.
+
+07:34.550 --> 07:39.670
+Greater than or equal to the absolute
+value, the absolute
+
+07:39.670 --> 07:45.920
+value of the integral of, of the n plus
+1th derivative.
+
+07:45.920 --> 07:48.960
+The n plus 1th derivative of, x, dx.
+
+07:48.960 --> 07:51.490
+And the reason why this is useful, is that
+we can still
+
+07:51.490 --> 07:55.090
+keep the inequality that, this is less
+than, or equal to this.
+
+07:55.090 --> 07:58.700
+But now, this is a pretty straight forward
+integral to evaluate.
+
+07:58.700 --> 08:00.932
+The indo, the anti-derivative of the n
+plus
+
+08:00.932 --> 08:04.240
+1th derivative, is going to be the nth
+derivative.
+
+08:04.240 --> 08:06.510
+So this business, right over here.
+
+08:06.510 --> 08:09.960
+Is just going to the absolute value of the
+nth derivative.
+
+08:11.150 --> 08:16.310
+The absolute value of the nth derivative
+of our error function.
+
+08:16.310 --> 08:17.330
+Did I say expected value?
+
+08:17.330 --> 08:17.730
+I shouldn't.
+
+08:17.730 --> 08:18.820
+See, it even confuses me.
+
+08:18.820 --> 08:19.710
+This is the error function.
+
+08:19.710 --> 08:21.900
+I should've used r, r for remainder.
+
+08:21.900 --> 08:22.660
+But this all error.
+
+08:22.660 --> 08:25.170
+The, noth, nothing about probability or
+expected value in this video.
+
+08:25.170 --> 08:25.850
+This is.
+
+08:25.850 --> 08:27.250
+E for error.
+
+08:27.250 --> 08:30.030
+So anyway, this is going to be the nth
+derivative of our
+
+08:30.030 --> 08:32.880
+error function, which is going to be less
+than or equal to this.
+
+08:32.880 --> 08:37.230
+Which is less than or equal to the
+anti-derivative of M.
+
+08:37.230 --> 08:38.760
+Well, that's a constant.
+
+08:38.760 --> 08:42.630
+So that's going to be mx, mx.
+
+08:42.630 --> 08:44.179
+And since we're just taking indefinite
+integrals.
+
+08:44.179 --> 08:48.220
+We can't forget the idea that we have a
+constant over here.
+
+08:48.220 --> 08:49.840
+And in general, when you're trying to
+create an upper
+
+08:49.840 --> 08:52.220
+bound you want as low of an upper bound as
+possible.
+
+08:52.220 --> 08:56.640
+So we wanna minimize, we wanna minimize
+what this constant is.
+
+08:56.640 --> 09:00.180
+And lucky for us, we do have, we do know
+what this,
+
+09:00.180 --> 09:04.410
+what this function, what value this
+function takes on at a point.
+
+09:04.410 --> 09:08.430
+We know that the nth derivative of our
+error function at a is equal to 0.
+
+09:08.430 --> 09:09.940
+I think we wrote it over here.
+
+09:09.940 --> 09:12.480
+The nth derivative at a is equal to 0.
+
+09:12.480 --> 09:15.370
+And that's because the nth derivative of
+the function and the
+
+09:15.370 --> 09:19.550
+approximation at a are going to be the
+same exact thing.
+
+09:19.550 --> 09:22.860
+And so, if we evaluate both sides of this
+at a, I'll
+
+09:22.860 --> 09:27.010
+do that over here on the side, we know
+that the absolute value.
+
+09:27.010 --> 09:31.560
+We know the absolute value of the nth
+derivative at a, we know
+
+09:31.560 --> 09:34.670
+that this thing is going to be equal to
+the absolute value of 0.
+
+09:34.670 --> 09:35.400
+Which is 0.
+
+09:35.400 --> 09:37.820
+Which needs to be less than or equal to
+when you evaluate this
+
+09:37.820 --> 09:43.420
+thing at a, which is less than or equal to
+m a plus c.
+
+09:43.420 --> 09:45.260
+And so you can, if you look at this part
+
+09:45.260 --> 09:47.710
+of the inequality, you subtract m a from
+both sides.
+
+09:47.710 --> 09:51.460
+You get negative m a is less than or equal
+to c.
+
+09:51.460 --> 09:53.590
+So our constant here, based on that little
+condition
+
+09:53.590 --> 09:56.310
+that we were able to get in the last
+video.
+
+09:56.310 --> 10:00.820
+Our constant is going to be greater than
+or equal to negative ma.
+
+10:00.820 --> 10:03.880
+So if we want to minimize the constant, if
+we wanna get this as low
+
+10:03.880 --> 10:08.090
+of a bound as possible, we would wanna
+pick c is equal to negative Ma.
+
+10:08.090 --> 10:10.250
+That is the lowest possible c that will
+
+10:10.250 --> 10:13.170
+meet these constraints that we know are
+true.
+
+10:13.170 --> 10:16.969
+So, we will actually pick c to be negative
+Ma.
+
+10:16.969 --> 10:19.364
+And then we can rewrite this whole thing
+as the
+
+10:19.364 --> 10:22.590
+absolute value of the nth derivative of
+the error function.
+
+10:22.590 --> 10:24.640
+The nth derivative of the error function.
+
+10:24.640 --> 10:25.970
+Not the expected value.
+
+10:25.970 --> 10:28.010
+I have a strange suspicion I might have
+said expected value.
+
+10:28.010 --> 10:29.790
+But, this is the error function.
+
+10:29.790 --> 10:30.440
+The nth der.
+
+10:30.440 --> 10:33.230
+The absolute value of the nth derivative
+of the error function
+
+10:33.230 --> 10:38.600
+is less than or equal to M times x minus
+a.
+
+10:38.600 --> 10:40.820
+And once again all of the constraints
+hold.
+
+10:40.820 --> 10:43.880
+This is for, this is for x as part of the
+interval.
+
+10:43.880 --> 10:48.910
+The closed interval between, the closed
+interval between a and b.
+
+10:48.910 --> 10:50.220
+But looks like we're making progress.
+
+10:50.220 --> 10:52.910
+We at least went from the m plus 1
+derivative to the n derivative.
+
+10:52.910 --> 10:55.170
+Lets see if we can keep going.
+
+10:55.170 --> 10:57.750
+So same general idea.
+
+10:57.750 --> 11:00.090
+This if we know this then we know that
+
+11:00.090 --> 11:00.740
+we can take the integral of both sides of
+this.
+
+11:00.740 --> 11:02.850
+So we can take the integral of both sides
+of this
+
+11:06.280 --> 11:08.360
+the anti derivative of both sides.
+
+11:08.360 --> 11:10.740
+And we know from what we figured out up
+here
+
+11:10.740 --> 11:14.780
+that something's that's even smaller than
+this right over here.
+
+11:14.780 --> 11:19.820
+Is, is the absolute value of the integral
+of the expected value.
+
+11:19.820 --> 11:21.070
+Now [LAUGH] see, I said it.
+
+11:21.070 --> 11:22.900
+Of the error function, not the expected
+value.
+
+11:22.900 --> 11:23.900
+Of the error function.
+
+11:23.900 --> 11:27.170
+The nth derivative of the error function
+of x.
+
+11:27.170 --> 11:29.940
+The nth derivative of the error function
+of x dx.
+
+11:29.940 --> 11:33.510
+So we know that this is less than or equal
+to based on the exact same logic there.
+
+11:33.510 --> 11:37.450
+And this is useful because this is just
+going to be, this is just
+
+11:37.450 --> 11:42.640
+going to be the nth minus 1 derivative of
+our error function of x.
+
+11:42.640 --> 11:45.160
+And of course we have the absolute value
+outside of it.
+
+11:45.160 --> 11:46.650
+And now this is going to be less than or
+equal to.
+
+11:46.650 --> 11:48.390
+It's less than or equal to this, which is
+less than or equal
+
+11:48.390 --> 11:50.940
+to this, which is less than or equal to
+this right over here.
+
+11:50.940 --> 11:53.340
+The anti-derivative of this right over
+here is going
+
+11:53.340 --> 11:58.060
+to be M times x minus a squared over 2.
+
+11:58.060 --> 12:01.410
+You could do U substitution if you want or
+you could just say hey look.
+
+12:01.410 --> 12:03.820
+I have a little expression here, it's
+derivative is 1.
+
+12:03.820 --> 12:06.480
+So it's implicitly there so I can just
+treat it as kind of a U.
+
+12:06.480 --> 12:09.320
+So raise it to an exponent and then divide
+that exponent.
+
+12:09.320 --> 12:11.460
+But once again I'm taking indefinite
+integrals.
+
+12:11.460 --> 12:14.350
+So I'm going to say a plus C over here.
+
+12:14.350 --> 12:16.600
+But let's use that same exact logic.
+
+12:16.600 --> 12:19.130
+If we evaluate this at A, you're going to
+have it.
+
+12:19.130 --> 12:22.250
+If you evaluate this while, let's evaluate
+both sides of this at A.
+
+12:22.250 --> 12:25.990
+the left side, evaluated at A, we know, is
+going to be zero.
+
+12:25.990 --> 12:29.250
+We figured that out, all, up here in the
+last video.
+
+12:29.250 --> 12:31.630
+So you get, I'm gonna do it on the right
+over here.
+
+12:31.630 --> 12:34.130
+You get zero, when you valued the left
+side of a.
+
+12:34.130 --> 12:36.820
+The right side of a, if you, the right
+side of the
+
+12:36.820 --> 12:39.850
+value of a you get m times a menus a
+square over 2.
+
+12:39.850 --> 12:45.220
+So you are gonna get 0 plus c, so you are
+gonna get, 0 is less or equal to c.
+
+12:45.220 --> 12:47.620
+Once again we want to minimize our constant,
+
+12:47.620 --> 12:49.800
+we wanna minimize our upper boundary up
+here.
+
+12:49.800 --> 12:52.930
+So we wanna pick the lowest possible c
+that we talk constrains.
+
+12:52.930 --> 12:57.440
+So the lowest possible c that meets our
+constraint is zero.
+
+12:57.440 --> 13:01.070
+And so the general idea here is that we
+can keep doing this, we can
+
+13:01.070 --> 13:07.270
+keep doing exactly what we're doing all
+the way, all the way, all the way until.
+
+13:07.270 --> 13:10.440
+And so we keep integrating it at the exact
+same, same way that I've
+
+13:10.440 --> 13:14.040
+done it all the way that we get and using
+this exact same property here.
+
+13:14.040 --> 13:19.180
+All the way until we get, the bound on the
+error function of x.
+
+13:19.180 --> 13:21.550
+So you could view this as the 0th
+derivative.
+
+13:21.550 --> 13:22.740
+You know, we're going all the way to the
+
+13:22.740 --> 13:25.360
+0th derivative, which is really just the
+error function.
+
+13:25.360 --> 13:27.620
+The bound on the error function of x is
+going to
+
+13:27.620 --> 13:29.660
+be less than or equal to, and what's it
+going to be?
+
+13:29.660 --> 13:31.940
+And you can already see the pattern here.
+
+13:31.940 --> 13:36.270
+Is that it's going to be m times x, minus
+a.
+
+13:36.270 --> 13:39.490
+And the exponent, the one way to think
+about it, this exponent
+
+13:39.490 --> 13:42.950
+plus this derivative is going to be equal
+to n plus 1.
+
+13:42.950 --> 13:46.980
+Now this derivative is zero so this
+exponent is going to be n plus 1.
+
+13:46.980 --> 13:50.210
+And whatever the exponent is, you're going
+to have,a nd maybe I should
+
+13:50.210 --> 13:54.280
+have done it, you're going to have n plus
+one factorial over here.
+
+13:54.280 --> 13:56.950
+And if say wait why, where does this n
+plus 1 factorial come from?
+
+13:56.950 --> 13:58.370
+I just had a two here.
+
+13:58.370 --> 14:01.120
+Well think about what happens when we
+integrate this again.
+
+14:01.120 --> 14:04.700
+You're going to raise this to the third
+power and then divide by three.
+
+14:04.700 --> 14:07.050
+So your denominator is going to have two
+times three.
+
+14:07.050 --> 14:08.540
+Then when you integrate it again, you're
+going to raise
+
+14:08.540 --> 14:10.800
+it to the fourth power and then divide by
+four.
+
+14:10.800 --> 14:12.960
+So then your denominator is going to be
+two times three times four.
+
+14:12.960 --> 14:14.140
+Four factorial.
+
+14:14.140 --> 14:15.530
+So whatever power you're raising to, the
+
+14:15.530 --> 14:18.500
+denominator is going to be that power
+factorial.
+
+14:18.500 --> 14:21.240
+But what's really interesting now is if we
+are
+
+14:21.240 --> 14:24.360
+able to figure out that maximum value of
+our function.
+
+14:24.360 --> 14:28.510
+If we're able to figure out that maximum
+value of our function right there.
+
+14:28.510 --> 14:31.800
+We now have a way of bounding our error
+function
+
+14:31.800 --> 14:36.500
+over that interval, over that interval
+between a and b.
+
+14:36.500 --> 14:39.530
+So for example, the error function at b.
+
+14:39.530 --> 14:42.040
+We can now bound it if we know what an m
+is.
+
+14:42.040 --> 14:49.190
+We can say the error function at b is
+going to be less than or equal to m times
+
+14:49.190 --> 14:57.190
+b minus a to the n plus 1th power over n
+plus 1 factorial.
+
+14:57.190 --> 15:00.030
+So that gets us a really powerful, I guess
+you
+
+15:00.030 --> 15:03.720
+could call it, result, kinda the, the math
+behind it.
+
+15:03.720 --> 15:06.849
+And now we can show some examples where
+this could actually be applied.

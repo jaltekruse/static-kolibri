@@ -1,0 +1,281 @@
+WEBVTT
+
+00:00.690 --> 00:08.060
+Benutze den Basiswechselsatz, um log_5 (100) zu finden, und runde dann auf die nächste Tausenderstelle.
+
+00:08.060 --> 00:10.760
+Der Basiswechselsatz ist eine nützliche Formel,
+
+00:10.760 --> 00:12.180
+vor allem wenn du einen Taschenrechner benutzt,
+
+00:12.180 --> 00:17.360
+weil die meisten Taschenrechner es nicht erlauben, willkürlich die Basis eines Logarithmus zu ändern.
+
+00:17.360 --> 00:21.240
+Sie haben Funktionen für die Basis e,
+was der natürliche Logarithmus ist,
+
+00:21.240 --> 00:22.760
+und die Logarithmus-Basis 10.
+
+00:22.760 --> 00:24.754
+Du musst also deine Basis verändern.
+
+00:24.760 --> 00:26.920
+Dafür haben wir den Basiswechselsatz.
+
+00:26.920 --> 00:30.980
+Falls wir noch Zeit haben, erkläre ich dir,
+warum er Sinn ergibt und wie wir ihn ableiten.
+
+00:30.980 --> 01:06.740
+Der Basiswechselsatz lautet:
+log_a (b) = (log_x (b)) / (log_x (a)).
+
+01:06.740 --> 01:10.740
+Das hilft uns weiter, da wir
+so unsere Basis ändern können.
+
+01:10.740 --> 01:13.840
+Hier ist unsere Basis a und wir
+können sie in Basis x umändern.
+
+01:13.840 --> 01:16.600
+Wenn unser Taschenrechner also eine
+Funktion mit einer bestimmten Basis x hat,
+
+01:16.600 --> 01:18.300
+können wir zu dieser Basis umwandeln.
+
+01:18.300 --> 01:20.410
+Normalerweise e oder Basis 10.
+
+01:20.410 --> 01:22.080
+Basis 10 ist eine einfache Möglichkeit.
+
+01:22.080 --> 01:28.260
+Allgemein, wenn du jemanden log(x) schreiben siehst,
+
+01:28.260 --> 01:32.540
+bedeutet das immer log_10 (x).
+
+01:32.540 --> 01:35.120
+Wenn jemand ln(x) schreibt,
+
+01:35.120 --> 01:39.200
+bedeutet das immer log_e (x),
+
+01:39.200 --> 01:44.300
+und e ist natürlich die Zahl 2,71 und so weiter.
+
+01:44.300 --> 01:46.830
+Jetzt wenden wir das auf diese Aufgabe an.
+
+01:46.830 --> 01:56.820
+Wir sollen log_5 (100) finden.
+
+01:56.820 --> 02:19.360
+Dieser Basiswechselsatz sagt aus, dass das
+genau dasselbe ist wie (log_10 (100)) / (log_10 (5)).
+
+02:19.360 --> 02:20.800
+Wir brauchen nicht mal einen Taschenrechner,
+
+02:20.800 --> 02:22.240
+um den Zähler auszurechnen.
+
+02:22.240 --> 02:26.680
+Welchen Exponenten braucht 10,
+damit wir 100 erhalten?
+
+02:26.680 --> 02:27.920
+2.
+
+02:27.920 --> 02:30.530
+Der Zähler ergibt also 2.
+
+02:30.530 --> 02:35.620
+Wir können also zu 2 / (log_10 (5)) vereinfachen.
+
+02:35.620 --> 02:37.460
+Jetzt können wir unseren Taschenrechner benutzen,
+
+02:37.460 --> 02:41.260
+da die Logarithmus-Funktion auf
+einem Taschenrechner die Basis 10 hat.
+
+02:41.267 --> 02:47.240
+Wir benutzen also den Taschenrechner.
+
+02:47.240 --> 02:54.000
+Wenn irgendwo nur log steht,
+bedeutet das immer Basis 10.
+
+02:54.010 --> 02:56.570
+Wenn wir ln drücken, bedeutet das Basis e.
+
+02:56.570 --> 02:59.700
+log ohne weitere Informationen bedeutet also log_10.
+
+02:59.700 --> 03:10.280
+Wir rechnen 2 / (log(5)) und erhalten 2,861,
+da wir auf den nächsten Tausender runden sollen.
+
+03:10.280 --> 03:15.280
+Es ergibt also ungefähr 2,861.
+
+03:15.280 --> 03:19.420
+Wir können das überprüfen, indem wir
+diese Zahl in den Exponenten von 5 setzen.
+
+03:19.420 --> 03:21.480
+Wir sollten als Ergebnis 100 erhalten.
+
+03:21.480 --> 03:26.900
+Und das ergibt Sinn, denn 5² = 25, 5³ = 125,
+
+03:26.900 --> 03:31.340
+und das ist zwischen den beiden und es
+ist näher an dem Exponenten 3 als an der 2.
+
+03:31.340 --> 03:33.740
+Und diese Zahl ist näher an der 3 als an der 2.
+
+03:33.750 --> 03:36.190
+Jetzt überprüfen wir es.
+
+03:36.190 --> 03:46.400
+Ich nehme also 5 und setze 2,861 in den Exponenten.
+
+03:46.420 --> 03:48.520
+Ich verwende die gerundete Zahl.
+
+03:48.530 --> 03:49.880
+Was erhalte ich?
+
+03:49.880 --> 03:51.560
+Ich erhalte 99,94.
+
+03:51.560 --> 03:53.300
+Wenn ich alle Zahlen eintippen würde,
+
+03:53.300 --> 03:55.400
+wäre ich sehr nahe an 100.
+
+03:55.400 --> 03:56.874
+Das sieht also gut aus.
+
+03:56.880 --> 04:00.880
+Das ist der Exponent,
+den 5 haben muss, um 100 zu erhalten.
+
+04:00.880 --> 04:10.020
+Jetzt denken wir darüber nach,
+warum diese Eigenschaft Sinn ergibt.
+
+04:10.020 --> 04:22.220
+Ich schreibe log_a (b).
+
+04:22.220 --> 04:28.080
+Ich setze es mit irgendeiner Zahl gleich,
+
+04:28.080 --> 04:33.640
+und nenne diese Zahl einfach mal c.
+
+04:33.640 --> 04:45.520
+Das bedeutet, dass a^c = b ist.
+
+04:45.520 --> 04:48.320
+Das ist die Exponentialschreibweise.
+
+04:48.320 --> 04:51.840
+Das ist die Logarithmusschreibweise.
+
+04:51.850 --> 04:53.930
+Das ergibt b.
+
+04:53.930 --> 04:58.300
+Jetzt können wir den Logarithmus mit
+jeder Basis auf beiden Seiten ausrechnen.
+
+04:58.300 --> 05:02.120
+Welchen Exponenten muss 10 haben,
+damit das herauskommt?
+
+05:02.120 --> 05:06.360
+10 muss dieselbe Zahl im Exponenten haben, um das
+zu ergeben, weil diese beiden Dinge gleichwertig sind.
+
+05:06.360 --> 05:09.680
+Wir berechnen also den Logarithmus beider Seiten,
+
+05:09.680 --> 05:11.190
+den Logarithmus mit derselben Basis.
+
+05:11.190 --> 05:14.940
+Und ich verwende log_x, um das zu beweisen.
+
+05:14.940 --> 05:18.220
+Ich wende also log_x auf beide Seiten an.
+
+05:18.220 --> 05:44.100
+Das ist log_x(a^c) = log_x(b).
+
+05:44.100 --> 05:45.740
+Und wir wissen von unseren
+Logarithmus-Eigenschaften,
+
+05:45.740 --> 06:03.000
+dass log (a^c) = c ⋅ log (a) ist.
+
+06:03.000 --> 06:11.340
+Und das ergibt natürlich log_x (b).
+
+06:11.340 --> 06:16.840
+Wenn du nach c auflösen willst, dividierst
+du einfach beide Seiten durch log_x (a).
+
+06:16.840 --> 06:30.660
+Du erhältst dann c = log_x (b) / log_x (a).
+
+06:30.660 --> 06:34.690
+Das ist es, was c war. c war log_a (b).
+
+06:34.690 --> 06:37.859
+Es ergibt log_a (b).
+
+06:37.860 --> 06:47.580
+Ich schreibe es nochmal in den richtigen Farben auf.
+
+06:47.580 --> 07:02.820
+c = log_x (b) / log_x (a).
+
+07:02.820 --> 07:04.840
+Und von hier wissen wir, dass wir
+es einfach übernehmen können,
+
+07:04.840 --> 07:06.380
+das ergibt ebenfalls c.
+
+07:06.380 --> 07:08.020
+So haben wir es definiert.
+
+07:08.020 --> 07:10.650
+Ich kopiere es und füge es ein.
+
+07:10.650 --> 07:13.860
+Das ist ebenfalls gleich c.
+
+07:13.860 --> 07:14.920
+Und wir sind fertig.
+
+07:14.920 --> 07:18.350
+Wir haben den Basiswechselsatz bewiesen.
+
+07:18.350 --> 07:23.880
+log_a (b) = log_x (b) / log_x (a).
+
+07:23.880 --> 07:31.640
+In diesem Beispiel war a = 5, b = 100 und die
+Basis x, zu der wir gewechselt haben, war 10.

@@ -1,0 +1,430 @@
+WEBVTT
+
+00:00.480 --> 00:07.410
+Minule jsme spočítali směrnici v daném
+bodě funkce y rovná se x na druhou.
+
+00:07.415 --> 00:15.320
+Dnes to zkusíme zobecnit a najít vzorec
+pro výpočet směrnice v kterémkoli bodě.
+
+00:15.320 --> 00:21.710
+Překreslím si funkci sem dolů,
+neuškodí mít hezký obrázek.
+
+00:21.710 --> 00:24.696
+Tohle je osa y.
+
+00:24.696 --> 00:29.581
+Tady je osa x.
+
+00:29.581 --> 00:34.195
+Nakreslím sem graf mojí
+funkce, stejný jako minule.
+
+00:34.195 --> 00:38.085
+y rovná se
+x na druhou.
+
+00:38.085 --> 00:41.450
+Takže teď
+úplně obecně.
+
+00:41.450 --> 00:44.815
+Napíšu sem
+definici derivace.
+
+00:44.815 --> 00:49.764
+Dejme tomu, že tady leží bod x
+a my chceme zcela obecně…
+
+00:49.764 --> 00:52.514
+Chceme spočítat
+směrnici v bodě x.
+
+00:52.519 --> 00:57.563
+Potřebujeme funkci, do které vložíme x
+a dostaneme směrnici funkce v bodě x.
+
+00:57.563 --> 01:06.113
+To se značí f s čarou x,
+což je první derivace f(x).
+
+01:06.118 --> 01:14.635
+Přičemž f je funkce, do které dosadím x
+a dostanu y, to je vidět tady v grafu.
+
+01:14.635 --> 01:26.131
+Když x dosadím do f s čarou, nedostanu
+hodnotu f(x), ale směrnici f v bodě x.
+
+01:26.131 --> 01:35.601
+Pokud například dosadím 3, dostanu
+v tom bodě směrnici 6, jak víme z minula.
+
+01:35.601 --> 01:38.766
+A přesně to chceme.
+
+01:38.766 --> 01:44.951
+Připomeňme si definici první
+derivace f(x) z předminulého videa.
+
+01:44.954 --> 01:53.892
+První derivace f(x) je směrnice sečny, jež
+prochází body x a bodem kousek dál než x.
+
+01:53.892 --> 02:03.697
+y má ve 2. bodě
+hodnotu f(x + h).
+
+02:03.697 --> 02:13.502
+Abychom zjistili, jak se
+změnilo y, odečteme f(x).
+
+02:13.502 --> 02:21.838
+To celé dělíme tím, jak se změnilo x, tedy
+x plus h minus x, (2. bod minus 1. bod).
+
+02:21.843 --> 02:27.043
+Tahle vzdálenost je prostě
+jenom h, změna x se rovná h.
+
+02:27.043 --> 02:31.708
+Tenhle vzorec vyjadřuje jen směrnici
+sečny určené dvěma takovými body.
+
+02:31.708 --> 02:42.877
+A směrnici tečny můžeme odvodit od
+sečny, pro kterou se h limitně blíží nule.
+
+02:42.877 --> 02:52.545
+Vzorec teď vztáhneme na konkrétní
+funkci: y rovná se x na druhou,
+
+02:52.545 --> 03:01.645
+f(x) se rovná x na druhou,
+takže tady leží bod [x;x na druhou].
+
+03:01.653 --> 03:19.627
+Tenhle bod, použiji jinou barvu, bude mít
+pozici [x plus h;(x plus h) na druhou].
+
+03:19.627 --> 03:22.507
+Minule jsme počítali směrnici
+pro jedno konkrétní x, číslo 3.
+
+03:22.507 --> 03:28.082
+Dneska chci obecný vzorec, který
+bude fungovat pro jakékoli číslo.
+
+03:28.082 --> 03:31.732
+Mám obecnou funkci, do které dosadím
+7 a dostanu směrnici v bodě, kde x je 7.
+
+03:31.732 --> 03:34.345
+Dosadím -3, dostanu
+směrnici v bodě -3.
+
+03:34.349 --> 03:37.525
+Dosadím 100 000, dostanu
+směrnici v bodě 100 000.
+
+03:37.525 --> 03:39.401
+Pojďme vzorec vztáhnout
+na naši funkci.
+
+03:39.401 --> 03:45.335
+Takže chceme změnu y
+vydělit změnou x.
+
+03:45.335 --> 03:57.395
+Změnu y počítáme jako hodnotu y
+ve 2. bodě, což je x plus h na druhou…
+
+03:57.399 --> 04:12.257
+Jen jsem x plus h umocnil na druhou,
+protože y se rovná x na druhou.
+
+04:12.257 --> 04:23.405
+Minus hodnota y v 1. bodě, což je
+x na druhou, y rovná se x na druhou.
+
+04:23.405 --> 04:25.260
+Takhle spočítáme změnu y.
+
+04:25.260 --> 04:29.235
+Tahle vzdálenost, delta y.
+
+04:29.243 --> 04:36.626
+Můžete vidět v naší definici derivace,
+tento modrý výraz odpovídá 1. výrazu tady.
+
+04:36.626 --> 04:42.821
+Jen jsme vzorec dosadili do předpisu
+naší funkce: f(x) se rovná x na druhou.
+
+04:42.821 --> 04:46.573
+Jen jsme sem
+dosadili x plus h.
+
+04:46.573 --> 04:49.497
+Kdybych dosadil ‚a‘,
+tak ‚a‘ na druhou.
+
+04:49.497 --> 04:51.441
+Kdybych dosadil jablko,
+jablko na druhou.
+
+04:51.441 --> 04:55.471
+Dosadil jsem x plus h, tak mám
+x plus h na druhou, odpovídá to tomuhle.
+
+04:55.481 --> 05:02.350
+A tomuhle zase odpovídá
+funkční hodnota v 1. bodě.
+
+05:02.350 --> 05:08.930
+Takže už máme změnu y,
+teď ji vydělíme změnou x.
+
+05:08.930 --> 05:13.234
+Ve 2. bodě je to x plus h,
+v 1. jen x, takže rozdíl je h,
+
+05:13.234 --> 05:15.031
+což zase odpovídá
+naší definici.
+
+05:15.031 --> 05:19.468
+Už tedy známe směrnici sečny,
+jež prochází těmito body.
+
+05:19.468 --> 05:29.650
+My ale chceme, aby se rozdíl mezi body
+blížil k nule, a my tak dostali tečnu.
+
+05:29.659 --> 05:34.329
+Proto hledáme limitu pro h blížící
+se nule.
+
+05:34.329 --> 05:37.419
+To je první derivace f(x).
+
+05:37.436 --> 05:43.427
+Je to ten samý vzorec jako z definice,
+jen jsme ho vztáhli na konkrétní funkci.
+
+05:43.427 --> 05:48.509
+Dosadili jsme funkční hodnoty,
+místo f(x) jsme napsali x na druhou,
+
+05:48.509 --> 05:53.009
+místo x plus h jsme
+napsali x plus h na druhou.
+
+05:53.009 --> 05:56.333
+Zkusíme teď
+tu limitu spočítat.
+
+05:56.333 --> 06:05.397
+Tohle bude limita, když
+se h blíží k nule.
+
+06:05.397 --> 06:18.364
+Umocním závorku, použiji stejnou barvu,
+x na druhou plus 2xh plus h na druhou.
+
+06:18.364 --> 06:28.054
+A pak tady máme minus x na druhou, jen
+jsem tohle roznásobil a to celé lomeno h.
+
+06:28.054 --> 06:34.913
+Zkusíme to ještě trochu zjednodušit,
+x na druhou a -x na druhou se odečtou,
+
+06:34.913 --> 06:50.103
+a pak můžeme celý zlomek vykrátit h a máme
+první derivace f(x) se rovná 2x plus h.
+
+06:50.103 --> 06:54.470
+Pardon, zapomněl jsem
+na limitu, ta je důležitá!
+
+06:54.470 --> 06:59.477
+Rovná se to limitě
+pro h blížící se 0,
+
+06:59.477 --> 07:08.037
+čitatele vydělíme h,
+dostaneme 2x plus h.
+
+07:08.037 --> 07:11.257
+Výsledek je podobný
+jako v minulém videu.
+
+07:11.257 --> 07:17.437
+Minule jsme si na ose x zvolili
+číslo 3 a dostali 6 plus delta x.
+
+07:17.437 --> 07:24.222
+No a pokud se h blíží k nule,
+tohle zmizí a nám zbude 2x.
+
+07:24.222 --> 07:27.138
+A došli jsme k důležitému
+závěru!
+
+07:27.138 --> 07:30.054
+Tohle je vzrušující!
+
+07:30.054 --> 07:39.741
+Jestliže se f(x) rovná x na druhou,
+pak se první derivace x rovná 2x.
+
+07:39.741 --> 07:42.590
+Tohle je důležité
+správně pochopit.
+
+07:42.590 --> 07:46.796
+Pokud do f(x) dosadíme hodnotu,
+dostaneme funkční hodnotu v bodě x.
+
+07:46.796 --> 07:50.150
+Když stejnou hodnotu dosadím do f(x) s
+čárkou, dostanu směrnici funkce.
+
+07:50.150 --> 07:53.590
+Raději to nakreslím,
+tohle je zásadní myšlenka.
+
+07:53.595 --> 08:02.005
+A zpočátku může být matoucí přemýšlet
+o funkci vyjadřující směrnici jiné funkce.
+
+08:02.005 --> 08:04.477
+Bude vypadat
+nějak takhle…
+
+08:04.477 --> 08:06.950
+Nakreslím ji
+trochu hezčí.
+
+08:06.950 --> 08:09.140
+Pořád není dost hezká.
+
+08:09.140 --> 08:11.330
+Konečně, tohle je
+celkem uspokojivé.
+
+08:11.330 --> 08:17.478
+Nakreslím ji jen v kladném kvadrantu,
+ta křivka bude vypadat nějak takhle.
+
+08:17.478 --> 08:25.142
+Tohle je graf funkce
+f(x) rovná se x na druhou.
+
+08:25.142 --> 08:36.295
+Takže pokud si zvolíme například číslo 7,
+umocníme ho na druhou a dostaneme 49.
+
+08:36.295 --> 08:41.423
+Tenhle bod má souřadnice [7;49],
+funkce se chová, jak jsme zvyklí.
+
+08:41.423 --> 08:45.199
+Kolik však bude
+první derivace f(7)?
+
+08:45.199 --> 08:47.897
+Dvakrát 7 se rovná 14.
+
+08:47.897 --> 08:51.195
+Co to znamená?
+
+08:51.195 --> 08:57.481
+14 je směrnice tečny
+v bodě, kde x je 7.
+
+08:57.481 --> 09:03.767
+Takže kdybych
+tady načrtnul tečnu…
+
+09:03.767 --> 09:06.937
+Tohle nevypadá
+dostatečně jako tečna.
+
+09:06.937 --> 09:10.108
+Tak, tudy vede
+tečna, však chápete.
+
+09:10.108 --> 09:16.255
+Směrnice této tečny, tedy změna y
+děleno změnou x, se bude rovnat 14.
+
+09:16.255 --> 09:20.177
+Křivka je v tomto
+bodě opravdu strmá.
+
+09:20.179 --> 09:26.449
+Najdeme směrnici třeba
+v bodě, kde x je 2.
+
+09:26.449 --> 09:32.719
+V bodě 7 je směrnice
+4, jaká pak je v bodě 2?
+
+09:32.719 --> 09:38.725
+První derivace f(2) je
+dvakrát 2, což se rovná 4.
+
+09:38.725 --> 09:44.145
+Takže v bodě, kde x je 2 se směrnice
+bude rovnat 4.
+
+09:44.145 --> 09:46.385
+Směrnici značíme 'm'.
+
+09:46.385 --> 09:50.744
+Kolik bude první
+drivace f(0)?
+
+09:50.744 --> 09:55.103
+Víme, že f(0) je 0
+na druhou, tedy 0.
+
+09:55.103 --> 10:02.973
+No a dvakrát 0 se taky rovná 0,
+ale co to vlastně znamená?
+
+10:02.973 --> 10:15.897
+Znamená to, že směrnice tečny je 0, což
+odpovídá, protože v bodě 0 je vodorovná.
+
+10:15.897 --> 10:26.744
+Zkusíme další, například
+bod, kde x je -1.
+
+10:26.744 --> 10:33.091
+Takže f(-1) je -1
+na druhou, tedy 1.
+
+10:33.091 --> 10:37.925
+Kolik ale bude
+první derivace f(-1)?
+
+10:37.925 --> 10:43.700
+Dvakrát -1 se rovná -2,
+co to znamená?
+
+10:43.700 --> 10:50.825
+Znamená to, že směrnice
+tečny v tomto bodě je -2.
+
+10:50.825 --> 10:56.251
+Bude vypadat
+nějak takhle.
+
+10:56.251 --> 11:03.951
+Dává to smysl, tečna má sklon dolů,
+takže směrnice v tomto bodě bude -2.

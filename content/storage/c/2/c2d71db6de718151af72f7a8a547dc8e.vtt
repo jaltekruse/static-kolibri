@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.952 --> 00:05.000
+Problème numéro 1: à l'instant t, une particule se déplaçant dans le plan xy
+
+00:05.000 --> 00:09.800
+est à la position (x (t), y (t)), où x (t) et y (t)
+
+00:09.800 --> 00:11.502
+ne sont pas explicitement donnée.
+
+00:11.764 --> 00:14.141
+Pour t est supérieur ou égal à 0,
+
+00:14.141 --> 00:17.390
+la dérivée de x par rapport à t est 4t+1
+
+00:17.667 --> 00:21.797
+la dérivée de y par rapport à t est sin(t^2)
+
+00:21.797 --> 00:26.240
+et au moment que t=0, x(0)=0 et y(0)=-4
+
+00:26.378 --> 00:28.800
+Assez juste, faisons partie a.
+
+00:28.800 --> 00:33.610
+Trouver la vitesse de la particule au moment de t=3,
+
+00:33.825 --> 00:37.067
+et trouver le vecteur accélération de la particule au
+
+00:37.067 --> 00:40.533
+moment t est egal à 3 aussi.
+
+00:40.533 --> 00:45.333
+Ainsi, la vitesse est vraiment juste de l'ampleur du vecteur vitesse.
+
+00:45.333 --> 00:47.137
+Alors, quel est le vecteur vitesse?
+
+00:47.137 --> 00:50.979
+Notre vecteur vitesse en fonction du temps
+
+00:50.979 --> 00:55.890
+va être égale à la dérivée de notr position x
+
+00:55.890 --> 00:59.467
+en fonction du temps, ou on pourrait dire la vitesse dans la direction x
+
+00:59.467 --> 01:06.887
+fois le vecteur unitaire i, ainsi que la vitesse à la direction de y fois le vecteur unitaire j.
+
+01:06.887 --> 01:08.383
+Je viens d'écrire cela dans la notation d'ingénierie,
+
+01:08.383 --> 01:12.307
+évidemment, il existe de nombreuses façons que vous pouvez spécifier un vecteur.
+
+01:12.307 --> 01:15.800
+Et dans ce cas, x'(t), Ils nous ont déja donnés:
+
+01:15.800 --> 01:18.000
+s'(t) est 4t+1
+
+01:18.000 --> 01:20.333
+Ils l'ont juste ecrit comme dx/dt.
+
+01:20.333 --> 01:27.005
+Donc, par ici est 4t+1 fois le vecteur unitaire i,
+
+01:27.005 --> 01:31.467
+et puis ici, ce y'(t) qu'ils nous ont donné
+
+01:31.467 --> 01:33.933
+la dérivée de y par rapport à t est sin(t^2).
+
+01:33.933 --> 01:41.800
+Donc, plus sin (t ^ 2) fois le vecteur unitaire j
+
+01:41.800 --> 01:46.502
+Telle est notre vecteur vitesse. Alors quel est notre vitesse-
+
+01:46.502 --> 01:49.134
+ou, notre vecteur vitesse en fonction du temps,
+
+01:49.134 --> 01:53.185
+Alors, quelle est notre vitesse au temps t = 3?
+
+01:53.400 --> 02:01.000
+Eh bien, il suffit de remplacer 3 pour t, dinc 4(3)+1 est 13i.
+
+02:01.123 --> 02:11.216
+Plus 3 au carré- 3 au carré est eqale a 9. Plus sin9j.
+
+02:11.216 --> 02:15.000
+Notre vitesse, ce qu'ils veulent nous faire comprendre va être
+
+02:15.000 --> 02:20.200
+egale a- ou peut-etre Je devrais l'écrire comme notre vitesse au temps 3
+
+02:20.200 --> 02:26.400
+notre vitesse sera égale à la grandeur de notre vecteur de vitesse au temps 3,
+
+02:26.400 --> 02:34.933
+lequelle est égale à l'amplitude de 13i+(sin9)j.
+
+02:34.933 --> 02:40.133
+Et puis, littéralement, c'est que nous utilisons essentiellement le théorème de Pythagore
+
+02:40.133 --> 02:41.133
+pour trouver la grandeur.
+
+02:41.133 --> 02:47.400
+Ce sera égale à la racine carrée de 169 (lequelle est 13 au carré)
+
+02:47.400 --> 02:55.746
+plus (sin9)^2. Alors laissez-moi prendre mon TI-85.
+
+02:55.961 --> 03:00.048
+Cette partie de l'examen, nous sommes autorisés à utiliser des calculatrices.
+
+03:00.048 --> 03:15.058
+Donc nous prenons la racine carrée de 169+(sin9)^2.
+
+03:15.535 --> 03:18.608
+Bien, c'est 13 au carrée plus sin9 au carrée.
+
+03:18.885 --> 03:24.133
+Et, nous obtenons- nous obtenons 13.00- Je vais l'arrondir à 7,
+
+03:24.133 --> 03:27.513
+juste pour montrer que nous n'avons pas juste obtenu 13,
+
+03:27.513 --> 03:30.067
+que le sin9 au carrée a fait quelque chose.
+
+03:30.067 --> 03:33.255
+Alors 13.007.
+
+03:33.255 --> 03:38.384
+Donc, c'est à peu près égale à 13.007.
+
+03:38.384 --> 03:40.381
+Donc, nous avons répondu à la première partie.
+
+03:40.381 --> 03:45.200
+La vitesse de la particule au temps où t=3 est 13.007.
+
+03:45.200 --> 03:49.933
+Ensuite, ils veulent que nous trouvions le vecteur accélération de la particule au temps t = 3.
+
+03:49.933 --> 03:58.214
+Donc le vecteur d'accélération en fonction du temps est juste va être la dérivée seconde de x
+
+03:58.214 --> 04:01.733
+par rapport a t, ou l'accélération dans la direction de x
+
+04:01.733 --> 04:06.769
+en fonction de temp multiplier par i, plus l'accélération dans la direction de y.
+
+04:06.769 --> 04:11.472
+Donc, c'est la dérivée seconde de y par rapport à t dans le sens j.
+
+04:11.472 --> 04:14.676
+Et cela, bien sûr, va juste être égale à
+
+04:14.676 --> 04:19.800
+la dérivée de x- la seconde dérivée de x(t) est justement la dérivée de
+
+04:19.800 --> 04:23.667
+la première dérivée. Donc la premiére dérivée est 4t+1,
+
+04:23.667 --> 04:25.892
+vous prenez le dérivé de cela, vous obtenez 4.
+
+04:26.215 --> 04:34.067
+Alors, nous obtenons 4i plus... et ensuite la dérivée- la seconde dérivée, ou la seconde dérivée de y par rapport a t
+
+04:34.067 --> 04:35.733
+est juste la dérivée de la première dérivée.
+
+04:35.733 --> 04:39.963
+La dérivée- la première dérivée est sin(t^2), alors
+
+04:39.963 --> 04:48.554
+dérivée de celui-ci va etre 2t*cos(t^2), et surement nous avons notre j.
+
+04:48.554 --> 04:52.400
+Nous avons notre j juste là et J'ai juste fait ceci à partir de la règle de la chaîne.
+
+04:52.400 --> 04:58.533
+La dérivée de t^2 par rapport a t est 2t,
+
+04:58.533 --> 05:04.733
+dérivée de sin(t^2) part rapport a t^2 est cos(t^2).
+
+05:04.733 --> 05:08.440
+Et tel est le vecteur d'accélération en fonction de t
+
+05:08.440 --> 05:11.400
+mais ils se soucient au temps t est égal à 3.
+
+05:11.400 --> 05:17.795
+Donc, 4 reste encore 4, alors vous avez 2(3)+cos(9).
+
+05:17.795 --> 05:21.733
+Alors laissez-moi écrire ça, ça va être notre accélération vectorielle
+
+05:21.733 --> 05:24.667
+notre accélération vectorielle au temps 3 va etre
+
+05:24.667 --> 05:32.733
+4i plus... et nous allons simplement mettre, si c'est 2 fois 3, lequel est egal a 6...
+
+05:35.225 --> 05:38.547
+(6cos9)j.
+
+05:38.547 --> 05:42.575
+Passons sur la calculatrice si nous obtenons réellement une valeur
+
+05:42.575 --> 05:45.242
+puisqu'ils nous permettent d'utiliser ou quasiment ils veulent que nous utilisons une calculatrice ici.
+
+05:45.242 --> 05:56.133
+Alors, 6cos9 est moins 5.47, ou 5.467 si nou voulons.
+
+05:56.133 --> 06:02.400
+Donc, plus moins- oh, qu'est-ce que je faisais, c'est j
+
+06:02.400 --> 06:08.333
+-donc plus -5.467j.
+
+06:08.333 --> 06:09.867
+Donc, voilà notre vecteur d'accélération.
+
+06:09.867 --> 06:12.410
+Et encore une fois, je l'ai écrit en notation d'ingénierie
+
+06:12.410 --> 06:15.800
+(dont je suis sûr que les gens de l'examen du placement avancé ne s'en dérangereaint pas)
+
+06:15.800 --> 06:17.733
+mais vous pouviez aussi l'écrire en nature de
+
+06:20.102 --> 06:23.533
+la notation vectorielle paramétré ou votre paire ordonnée notation comme un vecteur
+
+06:23.533 --> 06:27.733
+Vous pourriez dire l'accélération vectorielle au temps 3
+
+06:27.733 --> 06:29.067
+vous pourriez l'écrire de cette façon aussi:
+
+06:29.067 --> 06:33.369
+&lt;4, -5.467>
+
+06:33.369 --> 06:34.933
+Celles-ci sont vraiment en précisant de la même chose.
+
+06:34.933 --> 06:36.133
+Il s'agit de la composante du vecteur x,
+
+06:36.133 --> 06:38.000
+voici la composante du vecteur y.
+
+06:38.000 --> 06:39.221
+Ceci est la composante du vecteur x,
+
+06:39.221 --> 06:41.817
+celui-ci est la composante du vecteur y.

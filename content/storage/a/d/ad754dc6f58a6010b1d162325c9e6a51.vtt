@@ -1,0 +1,389 @@
+WEBVTT
+
+00:00.278 --> 00:04.607
+Máme tu graf funkce
+y je rovno 'x na druhou'.
+
+00:04.799 --> 00:09.009
+Chtěl bych zjistit objem tělesa
+vzniklého rotací kolem osy.
+
+00:09.178 --> 00:14.003
+Namísto rotace kolem osy x
+provedeme rotaci kolem osy y.
+
+00:14.161 --> 00:23.428
+Namísto toho, abychom začali v 0,
+chci, aby šlo 'y' od 1 do 4.
+
+00:23.614 --> 00:27.214
+Udělám tedy to, že vezmu tento graf…
+
+00:27.461 --> 00:29.065
+Vezmu tuto křivku,
+
+00:29.320 --> 00:33.153
+ale nebudu ji rotovat
+kolem osy x jako minule,
+
+00:33.317 --> 00:35.974
+ale kolem osy y.
+
+00:36.094 --> 00:40.790
+Budu ji tedy rotovat takto.
+
+00:40.960 --> 00:42.590
+Co je to za tvar, který dostaneme?
+
+00:42.750 --> 00:44.829
+Uvidíme, zda si to dokážeme znázornit.
+
+00:45.042 --> 00:52.971
+Základna bude vypadat nějak takto,
+pokud bychom viděli skrz.
+
+00:53.181 --> 01:02.027
+Tady nahoře by to vypadalo nějak takto.
+
+01:02.190 --> 01:04.359
+Zajímá nás vše uvnitř.
+
+01:04.584 --> 01:08.903
+Staráme se o tuto část,
+ne o to úplně dole.
+
+01:09.072 --> 01:10.446
+Trochu to vystínuji.
+
+01:10.619 --> 01:16.046
+Bude to asi nějak takto.
+
+01:16.205 --> 01:18.965
+Nakreslím to odděleně,
+abychom si to dokázali představit.
+
+01:19.152 --> 01:20.761
+Nakreslím to z různých úhlů.
+
+01:20.930 --> 01:26.000
+Pokud bychom osu y nakreslili tak,
+aby vycházela vzadu, vypadalo by to takto.
+
+01:26.220 --> 01:27.278
+Vypadalo by to nějak…
+
+01:27.510 --> 01:29.993
+Je to trochu menší.
+
+01:30.235 --> 01:34.193
+V tomto místě se to odřeže,
+asi nějak takto.
+
+01:34.414 --> 01:36.869
+Vypadá to tedy…
+Nevím, jak bych to pojmenoval.
+
+01:37.049 --> 01:39.353
+Snad to chápete.
+
+01:39.570 --> 01:40.936
+Udělám to tou stejnou žlutou barvou.
+
+01:41.463 --> 01:42.897
+Představa…
+To není žlutá.
+
+01:43.108 --> 01:46.224
+Představit si to,
+to je na tom to nejtěžší.
+
+01:46.350 --> 01:47.788
+Jak vidíme, není to tak zlé.
+
+01:48.013 --> 01:52.240
+Vypadá to tedy nějak takto.
+
+01:52.484 --> 01:54.904
+Vypadá to jako pralinka.
+Vzhůru nohama.
+
+01:55.090 --> 01:59.487
+Nakreslím zde osu y,
+abychom se orientovali v prostoru.
+
+01:59.600 --> 02:05.411
+Osa y tedy prochází takto.
+
+02:05.570 --> 02:09.932
+Osa x vypadá takto.
+
+02:10.095 --> 02:11.948
+Trochu jsem to naklonil.
+
+02:12.140 --> 02:14.982
+Naklonil jsem to,
+abychom to viděli z jiného úhlu.
+
+02:15.171 --> 02:21.888
+Tato vrchní část
+je tato vrchní část zde.
+
+02:22.111 --> 02:23.987
+To vám znázorňuje,
+jak to asi vypadá.
+
+02:24.110 --> 02:28.120
+Ještě jsme ale nepřemýšleli nad tím,
+jak zjistíme objem tohoto tělesa.
+
+02:28.738 --> 02:33.726
+Namísto disků s výškou 'dx',
+
+02:33.866 --> 02:36.470
+co kdybychom hledali disky s výškou 'dy'?
+
+02:36.590 --> 02:38.170
+Zamysleme se nad tím.
+
+02:38.550 --> 02:40.097
+Vytvořme…
+
+02:40.383 --> 02:47.012
+Zamysleme se nad
+konstrukcí disků v určitém 'y'.
+
+02:47.181 --> 02:54.092
+Sestrojíme disk v tomto bodě takový,
+že má stejný poloměr jako toto těleso.
+
+02:54.241 --> 03:02.354
+To je tedy náš disk.
+
+03:02.570 --> 03:04.678
+Jeho výška je…
+
+03:04.848 --> 03:09.208
+Řekněme, že namísto výšky 'dx'
+má výšku 'dy'.
+
+03:09.817 --> 03:13.870
+Tato výška je tedy 'dy'.
+
+03:14.040 --> 03:17.780
+Jaký je objem disku v proměnné 'y'?
+
+03:17.891 --> 03:20.060
+Jak asi tušíte,
+spočítáme tento integrál,
+
+03:20.215 --> 03:23.344
+přičemž jde o určitý integrál
+vzhledem k 'y'.
+
+03:23.530 --> 03:25.783
+Jaký je tedy objem?
+
+03:26.014 --> 03:31.048
+Tak jako v předchozím videu,
+musíme najít obsah podstav těchto disků.
+
+03:31.220 --> 03:33.798
+Podstav těchto válců.
+
+03:34.054 --> 03:36.580
+Obsah kruhu je π krát 'r na druhou'.
+
+03:36.796 --> 03:40.343
+Pokud bychom našli poloměr,
+zjistíme i obsah.
+
+03:40.592 --> 03:41.937
+Jaký je tedy poloměr?
+
+03:42.093 --> 03:48.965
+Abychom našli poloměr jako funkci y,
+musíme vyřešit tuto rovnici v proměnné y.
+
+03:49.100 --> 03:51.495
+Namísto tvrzení y je rovno 'x na druhou',
+
+03:51.680 --> 03:57.846
+odmocníme obě strany rovnice
+a řekneme, že x je rovno odmocnině z 'y'.
+
+03:58.010 --> 04:01.791
+To je definováno pouze pro nezáporná y,
+
+04:01.960 --> 04:06.160
+ale to je v pohodě,
+neboť jsme na kladné části osy y.
+
+04:06.362 --> 04:13.828
+Tuto rovnici zde můžeme tedy
+přepsat jako x je rovno odmocnině z 'y'.
+
+04:14.075 --> 04:15.858
+V podstatě se díváme na tuto stranu.
+
+04:16.126 --> 04:19.929
+Nedíváme se tady na to.
+
+04:20.129 --> 04:22.317
+Díváme se na tuto stranu.
+
+04:22.460 --> 04:27.830
+Tento graf, tuto křivku
+jsme vyjádřili jako funkci y.
+
+04:28.070 --> 04:30.458
+Uděláme-li to tak, jaký je tedy poloměr?
+
+04:31.005 --> 04:33.464
+Poloměr zde bude f(y).
+
+04:33.677 --> 04:37.266
+f(y) je rovno odmocnině z 'y'.
+
+04:37.939 --> 04:40.770
+Poloměr bude roven odmocnině z 'y'.
+
+04:40.936 --> 04:42.302
+Bude to funkce y.
+
+04:42.447 --> 04:45.872
+Nechci vás mást, pokud jste si mysleli,
+že je to f(x), a teď je to f(y).
+
+04:45.972 --> 04:49.245
+Ne, bude to funkce proměnné y.
+Mohli bychom ji nazvat g(y).
+
+04:49.360 --> 04:51.836
+Bude to odmocnina z 'y'.
+
+04:52.350 --> 04:57.265
+Obsah je roven π krát 'r na druhou'.
+
+04:57.479 --> 05:04.144
+To znamená, že obsah této části je roven
+π krát 'poloměr na druhou'.
+
+05:04.400 --> 05:07.143
+Poloměr je odmocnina z 'y'.
+
+05:07.361 --> 05:17.149
+Bude to rovno π krát
+'(odmocnina z 'y') na druhou'
+
+05:17.384 --> 05:19.159
+Tedy π krát y.
+
+05:19.402 --> 05:25.088
+Chceme-li objem, musíme vynásobit
+obsah tohoto povrchu výškou 'dy'.
+
+05:25.341 --> 05:34.563
+Objem každého disku
+bude π krát y krát dy.
+
+05:34.795 --> 05:41.440
+To je objem každého disku.
+
+05:41.619 --> 05:43.981
+Chceme-li objem celého tělesa,
+
+05:44.130 --> 05:50.028
+musíme sečíst objemy každého disku
+pro všechna 'y' mezi 1 a 4.
+
+05:50.225 --> 05:51.224
+Udělejme to tedy.
+
+05:51.380 --> 05:54.838
+Bude to určitý integrál od 1 do 4.
+
+05:54.939 --> 05:58.206
+Jen pro připomenutí,
+určitý integrál je velmi zvláštní suma.
+
+05:58.442 --> 06:00.162
+Sčítáme všechny tyto věci.
+
+06:00.320 --> 06:11.430
+Bereme však limitu tohoto součtu.
+'dy' je stále menší a máme více disků.
+
+06:11.650 --> 06:15.783
+Jak se 'dy' stane „nekonečně malé“,
+máme „nekonečně mnoho“ disků.
+
+06:16.038 --> 06:21.833
+Naše suma není objem jen přibližně,
+v limitě jsou si rovny.
+
+06:21.997 --> 06:28.154
+Abychom zjistili objem celého tělesa,
+musíme vypočítat tento určitý integrál.
+
+06:28.288 --> 06:29.648
+Jak to uděláme?
+
+06:29.805 --> 06:31.128
+Čemu to bude rovno?
+
+06:31.320 --> 06:33.083
+Můžeme vytknout π.
+
+06:33.239 --> 06:39.814
+Bude to π krát primitivní funkce k 'y',
+což je 'y na druhou' lomeno 2.
+
+06:39.981 --> 06:45.126
+To vyčísleno v 'y' rovno 1
+a 'y' rovno 4.
+
+06:45.322 --> 06:47.052
+To je rovno…
+
+06:48.200 --> 06:50.855
+Vyčísleno v 'y' rovno 4
+je to 16 lomeno 2.
+
+06:51.071 --> 06:52.210
+Napíšu to takto.
+
+06:52.430 --> 06:56.757
+'4 na druhou' lomeno 2
+minus ('1 na druhou' lomeno 2),
+
+06:56.963 --> 07:07.192
+což je rovno π krát [(16 lomeno 2),
+což je 8, minus (1 lomeno 2)].
+
+07:07.413 --> 07:10.468
+Můžeme to brát jako
+(16 lomeno 2) minus (1 lomeno 2),
+
+07:10.600 --> 07:12.091
+což je rovno (15 lomeno 2).
+
+07:12.349 --> 07:18.154
+Je to tedy rovno 15π lomeno 2.
+
+07:18.338 --> 07:21.374
+Nebo také jinak:
+(7 a jedna polovina) krát π.
+
+07:21.588 --> 07:22.758
+Toto je však jasnější.
+
+07:22.919 --> 07:23.702
+Jsme hotovi.
+
+07:23.844 --> 07:26.545
+Našli jsme objem tělesa,
+vzniklého rotací ne kolem osy x,
+
+07:26.663 --> 07:31.455
+ale rotací kolem osy y,
+což je vzrušující.

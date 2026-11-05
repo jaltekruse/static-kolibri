@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.650 --> 00:03.480
+What I want to do in this video
+is start with the abstract--
+
+00:03.480 --> 00:06.330
+actually, let me call it
+formula for the chain rule,
+
+00:06.330 --> 00:09.760
+and then learn to apply it
+in the concrete setting.
+
+00:09.760 --> 00:12.596
+So let's start off
+with some function,
+
+00:12.596 --> 00:14.220
+some expression that
+could be expressed
+
+00:14.220 --> 00:18.200
+as the composition
+of two functions.
+
+00:18.200 --> 00:22.100
+So it can be expressed
+as f of g of x.
+
+00:25.980 --> 00:28.610
+So it's a function that can
+be expressed as a composition
+
+00:28.610 --> 00:30.130
+or expression that
+can be expressed
+
+00:30.130 --> 00:32.890
+as a composition
+of two functions.
+
+00:32.890 --> 00:35.135
+Let me get that same color.
+
+00:35.135 --> 00:36.680
+I want the colors
+to be accurate.
+
+00:36.680 --> 00:39.470
+And my goal is to take the
+derivative of this business,
+
+00:39.470 --> 00:42.390
+the derivative
+with respect to x.
+
+00:42.390 --> 00:44.380
+And what the chain
+rule tells us is
+
+00:44.380 --> 00:46.880
+that this is going to be
+equal to the derivative
+
+00:46.880 --> 00:49.930
+of the outer function with
+respect to the inner function.
+
+00:49.930 --> 00:54.460
+And we can write that as f
+prime of not x, but f prime
+
+00:54.460 --> 00:56.730
+of g of x, of the
+inner function.
+
+00:56.730 --> 01:00.950
+f prime of g of x
+times the derivative
+
+01:00.950 --> 01:02.635
+of the inner function
+with respect to x.
+
+01:05.810 --> 01:08.230
+Now this might seem all
+very abstract and math-y.
+
+01:08.230 --> 01:09.760
+How do you actually apply it?
+
+01:09.760 --> 01:12.180
+Well, let's try it
+with a real example.
+
+01:12.180 --> 01:17.246
+Let's say we were trying
+to take the derivative
+
+01:17.246 --> 01:28.560
+of the square root of
+3x squared minus x.
+
+01:28.560 --> 01:31.070
+So how could we
+define an f and a g
+
+01:31.070 --> 01:32.710
+so this really is
+the composition
+
+01:32.710 --> 01:35.340
+of f of x and g of x?
+
+01:35.340 --> 01:37.530
+Well, we could define f of x.
+
+01:37.530 --> 01:42.440
+If we defined f of x as being
+equal to the square root of x,
+
+01:42.440 --> 01:51.430
+and if we defined g of x as
+being equal to 3x squared
+
+01:51.430 --> 01:55.410
+minus x, then what
+is f of g of x?
+
+01:55.410 --> 02:00.066
+Well, f of g of x is
+going to be equal to-- I'm
+
+02:00.066 --> 02:01.940
+going to try to keep
+all the colors accurate,
+
+02:01.940 --> 02:04.090
+hopefully it'll help
+for the understanding.
+
+02:04.090 --> 02:08.039
+f of g of x is equal to--
+where everywhere you see the x,
+
+02:08.039 --> 02:14.820
+you replace with the g of x--
+the principal root of g of x,
+
+02:14.820 --> 02:19.110
+which is equal to the
+principal root of-- we
+
+02:19.110 --> 02:22.750
+defined g of x right over
+here-- 3x squared minus x.
+
+02:26.940 --> 02:29.020
+So this thing right
+over here is exactly
+
+02:29.020 --> 02:32.340
+f of g of x if we define
+f of x in this way
+
+02:32.340 --> 02:34.580
+and g of x in this way.
+
+02:34.580 --> 02:35.700
+Fair enough.
+
+02:35.700 --> 02:37.310
+So let's apply the chain rule.
+
+02:37.310 --> 02:42.020
+What is f prime of g of
+x going to be equal to,
+
+02:42.020 --> 02:45.570
+the derivative of f
+with respect to g?
+
+02:45.570 --> 02:47.840
+Well, what's f prime of x?
+
+02:47.840 --> 02:51.320
+f prime of x is equal to--
+this is the same thing
+
+02:51.320 --> 02:55.090
+as x to the 1/2 power, so we
+can just apply the power rule.
+
+02:55.090 --> 02:58.140
+So it's going to be
+1/2 times x to the--
+
+02:58.140 --> 03:01.190
+and then we just take 1 away
+from the exponent, 1/2 minus 1
+
+03:01.190 --> 03:03.820
+is negative 1/2.
+
+03:03.820 --> 03:07.190
+And so what is f
+prime of g of x?
+
+03:11.860 --> 03:14.050
+Well, wherever in the
+derivative we saw an x,
+
+03:14.050 --> 03:15.550
+we can replace it with a g of x.
+
+03:15.550 --> 03:18.320
+So it's going to be
+1/2 times-- instead
+
+03:18.320 --> 03:25.070
+of an x to the negative 1/2, we
+can write a g of x to the 1/2.
+
+03:25.070 --> 03:29.090
+And this is just going
+to be equal to-- let
+
+03:29.090 --> 03:30.710
+me write it right over here.
+
+03:30.710 --> 03:35.830
+It's going to be
+equal to 1/2 times
+
+03:35.830 --> 03:39.080
+all of this business to
+the negative 1/2 power.
+
+03:39.080 --> 03:46.140
+So 3x squared minus x,
+which is exactly what we
+
+03:46.140 --> 03:49.500
+need to solve right over
+here. f prime of g of x
+
+03:49.500 --> 03:51.340
+is equal to this.
+
+03:51.340 --> 03:55.300
+So this part right
+over here I will--
+
+03:55.300 --> 03:57.740
+let me square it off in green.
+
+03:57.740 --> 03:59.920
+What we're trying to
+solve right over here,
+
+03:59.920 --> 04:02.250
+f prime of g of x,
+we've just figured out
+
+04:02.250 --> 04:05.450
+is exactly this thing
+right over here.
+
+04:05.450 --> 04:08.930
+So the derivative of f of the
+outer function with respect
+
+04:08.930 --> 04:10.450
+to the inner function.
+
+04:10.450 --> 04:11.390
+So let me write it.
+
+04:11.390 --> 04:17.870
+It is equal to 1/2 times g
+of x to the negative 1/2,
+
+04:17.870 --> 04:22.480
+times 3x squared minus x.
+
+04:22.480 --> 04:25.490
+This is exactly this
+based on how we've defined
+
+04:25.490 --> 04:28.020
+f of x and how we've
+defined g of x.
+
+04:28.020 --> 04:29.520
+Conceptually, if
+you're just looking
+
+04:29.520 --> 04:31.311
+at this, the derivative
+of the outer thing,
+
+04:31.311 --> 04:33.889
+you're taking something
+to the 1/2 power.
+
+04:33.889 --> 04:35.430
+So the derivative
+of that whole thing
+
+04:35.430 --> 04:37.940
+with respect to your something
+is going to be 1/2 times
+
+04:37.940 --> 04:40.120
+that something to the
+negative 1/2 power.
+
+04:40.120 --> 04:42.040
+That's essentially
+what we're saying.
+
+04:42.040 --> 04:44.400
+But now we have to take the
+derivative of our something
+
+04:44.400 --> 04:45.530
+with respect to x.
+
+04:48.370 --> 04:50.090
+And that's more straightforward.
+
+04:50.090 --> 04:53.160
+g prime of x-- we just use
+the power rule for each
+
+04:53.160 --> 04:55.390
+of these terms-- is
+equal to 6x to the first,
+
+04:55.390 --> 04:57.910
+or just 6x minus 1.
+
+04:57.910 --> 05:03.530
+So this part right over here
+is just going to be 6x minus 1.
+
+05:03.530 --> 05:06.460
+Just to be clear,
+this right over here
+
+05:06.460 --> 05:09.400
+is this right over here
+and we're multiplying.
+
+05:09.400 --> 05:10.490
+And we're done.
+
+05:10.490 --> 05:12.330
+We have just applied
+the power rule.
+
+05:12.330 --> 05:14.270
+So just to review,
+it's the derivative
+
+05:14.270 --> 05:16.730
+of the outer function
+with respect to the inner.
+
+05:16.730 --> 05:19.520
+So instead of having
+1/2x to the negative 1/2,
+
+05:19.520 --> 05:22.430
+it's 1/2 g of x to
+the negative 1/2,
+
+05:22.430 --> 05:24.760
+times the derivative of the
+inner function with respect
+
+05:24.760 --> 05:27.100
+to x, times the derivative
+of g with respect
+
+05:27.100 --> 05:30.128
+to x, which is right over there.

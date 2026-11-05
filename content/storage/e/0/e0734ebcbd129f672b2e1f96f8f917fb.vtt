@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.950 --> 00:02.160
+Ciao.
+
+00:02.160 --> 00:05.230
+Lavoriamo un po' sulle proprietà dei logaritmi.
+
+00:05.230 --> 00:07.700
+Allora, rivediamo velocemente cos'e' un logaritmo.
+
+00:07.700 --> 00:19.230
+Percio' se scrivo, diciamo che scrivo log base x di A
+
+00:19.230 --> 00:22.020
+uguale a, non so, mi invento una lettera, N.
+
+00:22.020 --> 00:23.550
+Che significa?
+
+00:23.550 --> 00:35.800
+Beh, questo significa solo che x^N = A.
+
+00:35.800 --> 00:37.880
+Penso che già lo sappiamo.
+
+00:37.880 --> 00:40.150
+L'abbiamo imparato nel video sui logaritmi.
+
+00:40.150 --> 00:42.860
+E quindi è molto importante rendersi conto che quando calcoli
+
+00:42.860 --> 00:49.170
+un'espressione logaritmica come log base x di A, la risposta
+
+00:49.170 --> 00:52.350
+quando la calcoli, quello che ottieni, è un esponente.
+
+00:52.350 --> 00:54.231
+Questa N è davvero solo un esponente.
+
+00:54.231 --> 00:56.820
+Questo è uguale a questa cosa.
+
+00:56.820 --> 00:58.910
+L'avresti potuto scrivere cosi'.
+
+00:58.910 --> 01:02.190
+Potresti aver, dato che questa N è uguale a questo, potresti
+
+01:02.190 --> 01:10.140
+aver scritto x, sara' un po' disordinato,
+
+01:10.140 --> 01:13.930
+elevato al log base x di A = A.
+
+01:13.930 --> 01:17.000
+Tutto quello che ho fatto è prendere questa N e sostiturla con questo termine.
+
+01:17.000 --> 01:19.530
+E l'ho voluto scrivere in questo modo perché voglio che
+
+01:19.530 --> 01:22.580
+tu ottenga una buona comprensione intuitiva del fatto
+
+01:22.580 --> 01:24.390
+che un logaritmo, quando lo calcoli,
+
+01:24.390 --> 01:25.745
+e' un esponente.
+
+01:25.745 --> 01:27.420
+E prenderemo questa nozione.
+
+01:27.420 --> 01:29.910
+Ed è da lì, davvero, che provengono tutte
+
+01:29.910 --> 01:32.380
+le proprietà dei logaritmi.
+
+01:32.380 --> 01:35.130
+Quindi fammi fare giusto --- quello che in realtà voglio fare è
+
+01:35.130 --> 01:37.760
+inciampare sulle proprietà dei logaritmi
+
+01:37.760 --> 01:38.540
+giocandoci.
+
+01:38.540 --> 01:40.405
+E poi dopo le riassumo e poi
+
+01:40.405 --> 01:41.120
+ripulisco tutto.
+
+01:41.120 --> 01:45.100
+Ma ti voglio mostrare come probabilmente originariamente
+
+01:45.100 --> 01:47.040
+hanno scoperto questa roba.
+
+01:47.040 --> 01:52.960
+Quindi, diciamo che x --- fammi cambiare colore.
+
+01:52.960 --> 01:55.600
+Penso mantenga le cose interessanti.
+
+01:55.600 --> 02:05.190
+Quindi diciamo che x^l = A.
+
+02:05.190 --> 02:07.680
+Beh, se lo scriviamo come un logaritmo, quella stessa
+
+02:07.680 --> 02:14.900
+relazione come un logaritmo, scriviamo che
+
+02:14.900 --> 02:19.410
+log base x di A = l, giusto?
+
+02:19.410 --> 02:22.530
+Ho riscritto solo quello che ho scritto sulla riga di sopra.
+
+02:22.530 --> 02:25.010
+Ora, fammi cambiare colore.
+
+02:25.010 --> 02:33.100
+E se dicessi che x^m = B,
+
+02:33.100 --> 02:34.620
+stessa cosa, ho solo cambiato lettere.
+
+02:34.620 --> 02:41.980
+Ma cio' significa semplicemente che
+
+02:41.980 --> 02:43.730
+log base x di B = m, giusto?
+
+02:43.730 --> 02:46.280
+Ho solo fatto la stessa cosa che ho fatto su questa riga,
+
+02:46.280 --> 02:47.452
+ho solo cambiato lettere.
+
+02:47.452 --> 02:49.620
+Quindi andiamo avanti e vediamo che succede.
+
+02:49.620 --> 02:52.770
+Quindi diciamo, fammi cambiare colore.
+
+02:52.770 --> 02:56.380
+Vorrei avere colori all'infinito, non mi finirebbero mai.
+
+02:56.380 --> 03:03.010
+Diciamo che ho x^n e tu dici, Sal, dove
+
+03:03.010 --> 03:03.710
+vuoi arrivare con questo.
+
+03:03.710 --> 03:04.710
+Lo vedrai.
+
+03:04.710 --> 03:12.360
+È piuttosto elegante. x^n = A * B.
+
+03:12.360 --> 03:15.260
+x^n = A * B.
+
+03:15.260 --> 03:22.730
+Che è come dire che
+
+03:22.730 --> 03:26.420
+log base x = A * B.
+
+03:26.420 --> 03:28.460
+Percio' che cosa possiamo fare con tutto questo?
+
+03:28.460 --> 03:31.010
+Bene, cominciamo con questo qui.
+
+03:31.010 --> 03:33.420
+x^n = A * B.
+
+03:33.420 --> 03:35.670
+Quindi, come potremmo riscriverlo?
+
+03:35.670 --> 03:38.910
+Beh, A è questo.
+
+03:38.910 --> 03:41.670
+E B è questo, giusto?
+
+03:41.670 --> 03:43.010
+Quindi riscriviamolo.
+
+03:43.010 --> 03:49.770
+Percio' sappiamo che x^n = A ---
+
+03:49.770 --> 03:51.480
+A è questa:
+
+03:51.480 --> 03:55.120
+e' x^l.
+
+03:55.120 --> 03:57.370
+x^l.
+
+03:57.370 --> 03:59.500
+E che cosa è B?
+
+03:59.500 --> 04:01.190
+Per B.
+
+04:01.190 --> 04:04.740
+Beh, B è x^m, giusto?
+
+04:04.740 --> 04:07.380
+Non facendo niente di strano adesso.
+
+04:07.380 --> 04:09.320
+Ma quant'e' x^l * x^m?
+
+04:09.320 --> 04:13.730
+Bene, lo sappiamo dagli esponenti, quando moltiplichi
+
+04:13.730 --> 04:17.390
+due espressioni che hanno la stessa base e diversi
+
+04:17.390 --> 04:19.025
+esponenti, basta sommare gli esponenti.
+
+04:19.025 --> 04:22.830
+Quindi questo è uguale a, fammi usare un colore neutro.
+
+04:22.830 --> 04:24.660
+Non so se l'ho detto correttamente,
+
+04:24.660 --> 04:25.300
+ma hai capito il punto.
+
+04:25.300 --> 04:27.560
+Quando hai la stessa base e moltiplichi,
+
+04:27.560 --> 04:28.930
+basta sommare gli esponenti.
+
+04:28.930 --> 04:32.390
+E' uguale a x alla, voglio continuare a cambiare colore, perché
+
+04:32.390 --> 04:33.870
+penso che sia utile.
+
+04:33.870 --> 04:39.590
+l, l + m.
+
+04:39.590 --> 04:42.520
+E' un po' oneroso continuare a cambiare colore, ma...
+
+04:42.520 --> 04:43.820
+Capisci che intendo.
+
+04:43.820 --> 04:47.590
+Quindi, x^n = x^(l + m).
+
+04:47.590 --> 04:49.790
+Fammi mettere la x qui.
+
+04:49.790 --> 04:51.350
+Oh, la volevo verde.
+
+04:51.350 --> 04:53.530
+x^(l + n).
+
+04:53.530 --> 04:54.050
+Quindi che cosa sappiamo?
+
+04:54.050 --> 04:58.980
+Sappiamo x^n = x^(l + m)
+
+04:58.980 --> 05:00.220
+Giusto?
+
+05:00.220 --> 05:02.510
+Bene, abbiamo la stessa base.
+
+05:02.510 --> 05:06.370
+Questi esponenti devono essere uguali.
+
+05:06.370 --> 05:18.863
+Quindi sappiamo che n = l + m.
+
+05:18.863 --> 05:21.270
+A cosa ci porta?
+
+05:21.270 --> 05:23.590
+Sto solo tipo giocando con i logaritmi.
+
+05:23.590 --> 05:25.840
+Sto arrivando da qualche parte?
+
+05:25.840 --> 05:27.590
+Penso che vedrai di si'.
+
+05:27.590 --> 05:31.140
+Beh, qual è un altro modo di scrivere n?
+
+05:31.140 --> 05:34.510
+Abbiamo detto, x^n = A * B ---
+
+05:34.510 --> 05:37.350
+oh, qui ho saltato un passaggio.
+
+05:37.350 --> 05:40.080
+Significa che --- tornando qui,
+
+05:40.080 --> 05:40.710
+x^n = A * B.
+
+05:40.710 --> 05:44.640
+Ciò significa che log base x di (A * B) = n.
+
+05:44.640 --> 05:45.170
+Tu lo sapevi.
+
+05:45.170 --> 05:45.890
+Io no.
+
+05:45.890 --> 05:47.880
+Spero tu non pensi che sto tornando indietro o roba simile.
+
+05:47.880 --> 05:52.360
+Ho solo dimenticato di scriverlo quando l'ho fatto prima.
+
+05:52.360 --> 05:53.250
+Ma, ad ogni modo.
+
+05:53.250 --> 05:54.070
+Percio', quant'è n?
+
+05:54.070 --> 05:55.520
+Qual è un altro modo di scrivere n?
+
+05:55.520 --> 05:58.400
+Beh, un altro modo di scrivere n sta qui.
+
+05:58.400 --> 06:01.640
+log base x di (A * B).
+
+06:01.640 --> 06:04.840
+Percio', ora sappiamo che se sostituiamo n con questo,
+
+06:04.840 --> 06:11.690
+otteniamo log base x di (A * B).
+
+06:11.690 --> 06:13.080
+E a cos'e' uguale?
+
+06:13.080 --> 06:14.500
+Beh, equivale a l.
+
+06:14.500 --> 06:18.230
+Un altro modo per scrivere l sta qui sopra.
+
+06:18.230 --> 06:25.570
+Equivale a log base x di A, + m.
+
+06:25.570 --> 06:27.710
+E quant'è m?
+
+06:27.710 --> 06:30.792
+m sta qui.
+
+06:30.792 --> 06:35.970
+Quindi log base x di B.
+
+06:35.970 --> 06:38.990
+Ed ecco la nostra prima proprietà dei logaritmi.
+
+06:38.990 --> 06:44.620
+Il log base x di (A * B) --- beh è uguale a
+
+06:44.620 --> 06:48.130
+log base x di A + log base x di B.
+
+06:48.130 --> 06:50.880
+E questo, spero, te l'ha dimostrato.
+
+06:50.880 --> 06:55.460
+E se vuoi l'intuizione del perché questo funziona, rientra
+
+06:55.460 --> 07:00.400
+nel fatto che logaritmi non sono altro che esponenti.
+
+07:00.400 --> 07:02.250
+Così, con questo, ti lascio con questo video.
+
+07:02.250 --> 07:04.470
+E nel prossimo video ti dimostro un'altra
+
+07:04.470 --> 07:05.900
+proprietà dei logaritmi.
+
+07:05.900 --> 07:07.670
+Ci vediamo presto.

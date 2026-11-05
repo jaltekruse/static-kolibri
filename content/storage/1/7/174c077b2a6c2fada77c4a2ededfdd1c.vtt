@@ -1,0 +1,442 @@
+WEBVTT
+
+00:01.133 --> 00:02.670
+Zróbmy coś bardzo interesującego.
+
+00:02.670 --> 00:04.933
+W pewnym sensie będzie to jedna z prostszych funkcji nadająca się
+
+00:04.933 --> 00:07.407
+do rozwinięcia jej w szereg Maclaurin`a.
+
+00:07.407 --> 00:11.192
+Postarajmy się przybliżyć e^x
+
+00:11.192 --> 00:13.200
+f(x) jest równe e^x
+
+00:13.200 --> 00:14.861
+i tym co nam to tak bardzo ułatwia
+
+00:14.861 --> 00:16.000
+jest to, że jeśli różniczkujesz
+
+00:16.000 --> 00:17.333
+(i szczerze mówiąc to jest niesamowite
+
+00:17.333 --> 00:18.867
+w liczbie e)
+
+00:18.867 --> 00:20.067
+jest to, że jeśli różniczkujesz
+
+00:20.067 --> 00:23.568
+e^x to otrzymujesz e^x
+
+00:23.568 --> 00:25.867
+wobec tego to jest równe f'(x)
+
+00:25.867 --> 00:29.200
+to jest równe drugiej pochodnej z x
+
+00:29.200 --> 00:31.933
+to jest równe trzeciej pochodnej z x
+
+00:31.933 --> 00:34.102
+to jest równe n-tej pochodnej z x
+
+00:34.102 --> 00:36.270
+to zawsze jest równe e^x
+
+00:36.270 --> 00:40.867
+To jest pierwszy niesamowity fakt o liczbie e
+
+00:40.867 --> 00:42.867
+możesz po prostu dodawać jego pochodne
+
+00:42.867 --> 00:44.443
+nachylenie w każdym punkcie na krzywej
+
+00:45.021 --> 00:48.762
+jest takie same jak wartość krzywej w tym punkcie
+
+00:48.762 --> 00:50.533
+to ekstra
+
+00:50.533 --> 00:51.432
+korzystając z tego
+
+00:51.432 --> 00:52.933
+rozwińmy tę funkcję w szereg Maclaurin`a
+
+00:52.933 --> 00:54.067
+musimy więc znaleźć
+
+00:54.067 --> 00:56.610
+f(0), f'(0) i drugą pochodną w zerze
+
+00:56.610 --> 00:59.188
+i wtedy wziąć e^0
+
+00:59.188 --> 01:01.733
+e^0 jest równe jeden
+
+01:01.733 --> 01:04.267
+i to będzie właśnie równe f(0)
+
+01:04.267 --> 01:07.595
+będzie to równe f'(0), będzie to
+
+01:07.595 --> 01:10.194
+równe każdej pochodnej - wartości
+
+01:14.086 --> 01:17.200
+n-tej pochodnej będzie wartością funkcji w zerze
+
+01:17.200 --> 01:20.467
+ten fakt powoduję, że szereg Maclaurin`a
+
+01:20.467 --> 01:23.000
+jest raczej prosty
+
+01:23.000 --> 01:24.200
+Jeśli chciałbym przybliżyć
+
+01:24.200 --> 01:27.669
+e^x używając szeregu Maclaurin`a
+
+01:27.669 --> 01:28.722
+to e^x
+
+01:28.722 --> 01:30.467
+i dołożę przybliżenie tutaj
+
+01:30.467 --> 01:31.672
+i będziemy coraz bliżej
+
+01:31.672 --> 01:34.691
+do prawdziwej e^x w miarę jak będziemy dodawać coraz więcej wyrazów
+
+01:34.691 --> 01:37.231
+szczególnie jeśli dodamy nieskończoną liczbę wyrazów
+
+01:37.231 --> 01:38.590
+Będzie to wyglądać tak:
+
+01:38.590 --> 01:41.680
+f(0) i robimy to w...
+
+01:41.680 --> 01:44.467
+...jakiego koloru użyłem dla cos i sin?
+
+01:44.467 --> 01:46.754
+różowego i zielonego
+
+01:47.754 --> 01:49.954
+Tutaj użyje żółtego
+
+01:51.000 --> 01:53.600
+f(0) to 1
+
+01:53.600 --> 01:55.467
+dodać f'(0) razy x
+
+01:55.467 --> 01:57.333
+f'(0) jest również jedynką
+
+01:57.333 --> 01:58.508
+dodać x
+
+01:59.400 --> 02:01.067
+dodać - to też jest jedynką
+
+02:01.067 --> 02:03.518
+więc x^2 /2!
+
+02:06.318 --> 02:08.476
+wszystkie te składniki będą jedynką
+
+02:08.476 --> 02:09.533
+to jest jeden
+
+02:09.533 --> 02:10.733
+to jest jeden
+
+02:10.733 --> 02:11.933
+kiedy mówimy o e^x
+
+02:11.933 --> 02:13.267
+więc doszliśmy do trzeciego wyrazu
+
+02:13.267 --> 02:14.667
+to jest jeden
+
+02:14.667 --> 02:17.067
+masz tylko x^3 /3!
+
+02:17.067 --> 02:19.467
+dodać x^3/3!
+
+02:19.467 --> 02:20.800
+i myślę, że już widzisz wzorzec
+
+02:20.800 --> 02:22.200
+po prostu dodajemy wyrazy
+
+02:22.200 --> 02:22.942
+x^4 / 4!
+
+02:22.942 --> 02:31.667
+dodać x^5 / 5! dodać x^6 / 6!
+
+02:31.667 --> 02:34.200
+i coś bardzo schludnego zaczyna nam się
+
+02:34.200 --> 02:35.800
+ukazywać
+
+02:35.800 --> 02:38.000
+To jest naprawdę spoko,
+
+02:38.000 --> 02:40.357
+że e^x może być przybliżone przez
+
+02:40.357 --> 02:44.026
+1 dodać x^2 / 2!
+
+02:44.026 --> 02:45.933
+dodać x^3 / 3!
+
+02:45.933 --> 02:48.133
+jeszcze raz, e^x zaczyna wyglądać jak
+
+02:48.133 --> 02:49.467
+bardzo spoko rzecz
+
+02:49.467 --> 02:51.758
+prowadzi nas to do kolejnego ciekawego wniosku
+
+02:51.758 --> 02:54.684
+jak: jeśli chciałbyś przybliżyć e
+
+02:54.684 --> 02:58.600
+musiałbyś wyliczyć to w przypadku gdy x jest równy 1
+
+02:58.600 --> 03:06.533
+zatem tylko określ e = e^1
+
+03:06.533 --> 03:08.000
+i to w przybliżeniu będzie równe
+
+03:08.000 --> 03:10.682
+temu wielomianowi wyliczonemu w jedynce
+
+03:10.682 --> 03:13.067
+jeśli x jest równy jeden, tutaj, to podstawiamy pod x jedynkę
+
+03:13.067 --> 03:13.667
+tutaj
+
+03:13.667 --> 03:18.241
+wówczas będzie to jeden dodać jeden
+
+03:18.256 --> 03:21.590
+dodać jeden przez 2!
+
+03:21.590 --> 03:24.933
+dodać jeden przez 3!
+
+03:24.933 --> 03:27.800
+dodać jeden przez 4!
+
+03:27.800 --> 03:30.744
+itd. itd. aż do nieskończoności
+
+03:30.744 --> 03:33.467
+także mógłbyś napisać jeden
+
+03:33.467 --> 03:35.933
+przez 1!
+
+03:35.933 --> 03:39.103
+ale najlepsze jest to, że
+
+03:39.103 --> 03:41.267
+jest to kolejny sposób przedstawienia 'e'
+
+03:41.267 --> 03:42.467
+Pokazuję to, że 'e'
+
+03:42.467 --> 03:43.608
+raz jeszcze widzimy jako
+
+03:43.608 --> 03:49.133
+2 + 1/2 + 1/6 + ...
+
+03:49.133 --> 03:51.271
+jeśli będziesz kontynuował - przybliżysz się
+
+03:51.271 --> 03:53.121
+do liczby e
+
+03:54.429 --> 03:56.193
+ale nie jest to jedyną
+
+03:56.193 --> 03:58.353
+fascynującą rzeczą
+
+03:58.353 --> 04:00.200
+jeśli wrócimy do przybliżania szeregiem Maclaurin`a
+
+04:00.200 --> 04:02.400
+poprzednich funkcji
+
+04:02.400 --> 04:03.533
+cos (x)
+
+04:03.533 --> 04:06.600
+pozwól mi skopiować cos(x)
+
+04:06.600 --> 04:09.867
+więc, cos(x) - ten tutaj
+
+04:09.867 --> 04:14.026
+postaram się jak najlepiej skopiować całość
+
+04:18.272 --> 04:24.600
+zatem mamy cos(x) i zrobię to samo z
+
+04:24.600 --> 04:27.773
+sin(x), który przerobiliśmy w ostatnim filmiku
+
+04:27.773 --> 04:30.887
+zatem sin(x)
+
+04:31.533 --> 04:37.825
+niech tylko skopiuję to
+
+04:40.533 --> 04:44.770
+Tak więc czy widzimy jakieś podobieństwo między
+
+04:44.770 --> 04:46.348
+tymi przybliżeniami
+
+04:46.348 --> 04:48.067
+wcześniej prawdopodobnie byś
+
+04:48.067 --> 04:49.181
+zgadł, że jest jakaś zależność
+
+04:49.181 --> 04:50.342
+między cos i sin
+
+04:50.342 --> 04:52.733
+ale co z e^x?
+
+04:52.733 --> 04:54.429
+wobec tego to co tutaj widzisz
+
+04:54.429 --> 04:58.144
+to to, że cos wygląda bardzo podobnie do tego wyrazu
+
+04:58.144 --> 05:00.800
+dodać ten wyraz. Mimo, że pewnie chcielibyśmy
+
+05:00.800 --> 05:02.347
+umieścić minus tutaj z przodu
+
+05:02.347 --> 05:04.400
+zatem mamy ujemną wersję tego składnika
+
+05:04.400 --> 05:04.900
+tego tu
+
+05:04.900 --> 05:06.200
+dodać ten składnik tutaj
+
+05:06.200 --> 05:09.200
+dodać ujemną wersję tego składnika
+
+05:09.200 --> 05:11.067
+tego tutaj
+
+05:11.067 --> 05:14.667
+i six(x) wygląda tak samo jak
+
+05:14.667 --> 05:19.019
+ten składnik, dodać ujemną wersję
+
+05:19.019 --> 05:21.527
+tego składnika
+
+05:21.527 --> 05:23.533
+dodać ten składnik
+
+05:23.533 --> 05:24.600
+dodać ujemną wersje następnego składnika
+
+05:25.172 --> 05:27.200
+tym samym jeśli moglibyśmy uzgodnić
+
+05:27.200 --> 05:30.067
+minusy w jakiś interesujący sposób
+
+05:30.067 --> 05:31.800
+wyglądałoby to jak e^x
+
+05:31.800 --> 05:34.867
+przynajmniej przedstawienie wielomianem
+
+05:34.867 --> 05:36.271
+funkcji e^x
+
+05:36.271 --> 05:39.336
+w pewnym sensie podobnej do kombinacji
+
+05:39.336 --> 05:41.533
+przedstawionych wielomianem
+
+05:41.533 --> 05:43.423
+funkcji cos(x) i six(x)
+
+05:43.423 --> 05:44.467
+zatem zaczyna być
+
+05:44.467 --> 05:46.200
+bardzo, bardzo ekscytująco
+
+05:46.200 --> 05:47.400
+zaczynamy dostrzegać związek
+
+05:47.400 --> 05:48.764
+między czymś podobnym do
+
+05:48.764 --> 05:50.180
+procentu składnego
+
+05:50.180 --> 05:52.400
+czy funkcji, której pochodna
+
+05:52.400 --> 05:53.802
+jest zawszę równa tej funkcji
+
+05:53.802 --> 05:55.544
+i te rzeczy, które są związane z okręgiem jednostkoweym
+
+05:55.544 --> 05:57.680
+i rychem wahadłowym i wszystkie tego typu rzeczy
+
+05:57.680 --> 06:00.267
+zaczynają wydawać się czysto
+
+06:00.267 --> 06:01.867
+powiązane do tego, ale teraz już Cię zostawię
+
+06:01.867 --> 06:03.276
+z tym, w tym filmie, a w następnym
+
+06:03.276 --> 06:07.333
+pokażę Ci jak pogodzić te i te
+
+06:07.333 --> 3:59:59.999
+fascynujące funkcje

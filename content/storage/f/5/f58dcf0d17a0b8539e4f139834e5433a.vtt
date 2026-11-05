@@ -1,0 +1,739 @@
+WEBVTT
+
+00:00.760 --> 00:01.360
+Bem vindos.
+
+00:01.360 --> 00:04.290
+Nós estamos fazendo parte b e parte do problema número 2.
+
+00:04.290 --> 00:07.660
+E aqui diz, use uma soma trapezoidal com 3 subintervalos para
+
+00:07.660 --> 00:09.390
+estimar o número médio de pessoas esperando na fila
+
+00:09.390 --> 00:11.030
+durante as primeiras 4 horas.
+
+00:11.030 --> 00:13.840
+E então eu apenas peguei a data, e coloquei no gráfico.
+
+00:13.840 --> 00:15.560
+Fiz isso no último vídeo.
+
+00:15.560 --> 00:19.880
+E então, use a soma trapezoidal com 3 intervalos para estimar
+
+00:19.880 --> 00:22.140
+o número médio de pessoas-- isso parece muito complicado.
+
+00:22.140 --> 00:25.470
+Tipo cara, eu não-- isso parece-- é, vocé sabe, eu
+
+00:25.470 --> 00:27.260
+não aprendi soma trapezoidal, ou seja lá como você
+
+00:27.260 --> 00:27.910
+quer pensar sobre isso.
+
+00:27.910 --> 00:28.770
+Poderia ser muito confuso.
+
+00:28.770 --> 00:32.350
+E francamente, eu não tenho feito cálculo em 20 anos.
+
+00:32.350 --> 00:33.720
+Mas você realmente tem que pensar sobre o que eles estão
+
+00:33.720 --> 00:35.370
+dizendo, e isso não é tão assustador.
+
+00:35.370 --> 00:37.300
+Então qual o valor médio de uma função?
+
+00:37.300 --> 00:39.180
+E vocé aprendeu isso em cálculo.
+
+00:39.180 --> 00:40.660
+Talvez vocé não se lembre.
+
+00:43.640 --> 00:50.020
+Então digamos que o valor médio de f é igual ao essencial--
+
+00:50.020 --> 00:53.860
+digamos, entre 2 pontos, b e a-- é a diferença
+
+00:53.860 --> 00:57.230
+entre os 2 pontos dividido pela área sobre a
+
+00:57.230 --> 01:00.780
+curva de f de x.
+
+01:00.780 --> 01:01.840
+De a para b.
+
+01:01.840 --> 01:02.190
+Certo?
+
+01:02.190 --> 01:04.470
+Isso é, eu acho que eles chamam de segundo teorema
+
+01:04.470 --> 01:05.300
+fundamental de cálculo.
+
+01:05.300 --> 01:08.180
+Ou corolário ao teorema fundamental de cálculo, tanto faz.
+
+01:08.180 --> 01:09.140
+Mas faz sentido.
+
+01:09.140 --> 01:09.700
+Certo?
+
+01:09.700 --> 01:13.790
+O valor médio da função é igual a área sobre a
+
+01:13.790 --> 01:16.210
+curva dividido por, você poderia dizer, a
+
+01:16.210 --> 01:17.350
+base da figura.
+
+01:17.350 --> 01:18.260
+Certo?
+
+01:18.260 --> 01:20.820
+Porque outra forma de pensar sobre isso, se vocé pegar
+
+01:20.820 --> 01:26.930
+o valor médio da função-- então se a função era, digamos,
+
+01:26.930 --> 01:31.310
+isso, e vocé multiplica aquele valor médio vezes a
+
+01:31.310 --> 01:34.660
+base, vocé teria a mesma área como integral.
+
+01:34.660 --> 01:35.550
+Esta é outra forma de ver isto.
+
+01:35.550 --> 01:39.460
+Você poderia reescrever isso como b menos a.
+
+01:39.460 --> 01:42.540
+A base vezes o valor médio é a mesma coisa que
+
+01:42.540 --> 01:43.655
+a área sobre a curva.
+
+01:47.010 --> 01:48.490
+Então esta é outra forma de ver.
+
+01:48.490 --> 01:49.670
+Então vamos aplicar aqui.
+
+01:49.670 --> 01:53.670
+Vamos usar a soma trapezoidal para descobrir a área sobre
+
+01:53.670 --> 01:57.840
+esta curva, ou uma estimativa da área sobre l de t, e então
+
+01:57.840 --> 01:59.750
+podemos dividir por b menos a.
+
+01:59.750 --> 02:02.810
+Ou naquele caso, b é 4, a é 0.
+
+02:02.810 --> 02:06.880
+E teremos o valor médio de-- sobre as primeiras 4
+
+02:06.880 --> 02:08.500
+horas-- das pessoas na linha.
+
+02:08.500 --> 02:11.760
+Então vamos fazer isso.
+
+02:11.760 --> 02:13.350
+De deixe apagar isso.
+
+02:13.350 --> 02:14.530
+Nós não vamos usar um intervalo.
+
+02:14.530 --> 02:16.120
+Nós vamos usar a soma trapezoidal para
+
+02:16.120 --> 02:18.030
+estimar o todo.
+
+02:18.030 --> 02:19.610
+Então digamos, 3 intervalos.
+
+02:19.610 --> 02:22.390
+Aqui diz uma soma trapezoidal com 3 subintervalos.
+
+02:22.390 --> 02:26.570
+Bom, ok, existem 3 muito naturais subintervalos aqui.
+
+02:26.570 --> 02:29.560
+Deixe-me desenha-los.
+
+02:29.560 --> 02:32.030
+Este é um.
+
+02:32.030 --> 02:34.750
+Na realidade deixe-me-- Eu vou desenhar linhas pontilhadas.
+
+02:34.750 --> 02:37.370
+Este é um subintervalo.
+
+02:37.370 --> 02:40.600
+Este é outro subintervalo.
+
+02:40.600 --> 02:41.160
+E aqui nós temos.
+
+02:41.160 --> 02:42.130
+Nós temos 3 trapezoides.
+
+02:42.130 --> 02:45.860
+Nós temos este, nós temos este, e nós
+
+02:45.860 --> 02:47.300
+temos este trapezoide.
+
+02:47.300 --> 02:49.150
+Então nós essencialmente temos apenas que descobrir a área de
+
+02:49.150 --> 02:50.230
+cada um desses trapezóides.
+
+02:50.230 --> 02:53.430
+Deixe-me ver se eu consigo desenhar isso um pouco-- Eu desenhei em cores diferentes, apenas para você poder ver os trapezoides.
+
+02:53.430 --> 02:55.080
+Em cores diferentes, apenas para você ver os trapezoides.
+
+02:55.080 --> 02:58.660
+Então este trapezoide vai de-- oh, eu não sei
+
+02:58.660 --> 02:59.560
+se estou fazendo isso certo.
+
+02:59.560 --> 03:00.550
+Vejamos.
+
+03:00.550 --> 03:03.220
+Eu usarei uma ferramenta de linha.
+
+03:03.220 --> 03:09.565
+Então 1 trapezoide aqui, e outro trapezoide ali.
+
+03:09.565 --> 03:11.690
+E outro trapezoide ali.
+
+03:11.690 --> 03:13.480
+E eu preciso descobrir apenas as áreas de cada um desses
+
+03:13.480 --> 03:16.160
+trapezoides, e essa é a minha estimativa da área sobre a
+
+03:16.160 --> 03:17.860
+curva de l para t, de 0 para 4.
+
+03:17.860 --> 03:19.480
+E então eu só divido por 4, e acabei.
+
+03:19.480 --> 03:21.870
+Parte b.
+
+03:21.870 --> 03:25.170
+Qual é a área deste primeiro trapezoide?
+
+03:25.170 --> 03:27.110
+Bem, o que você faz para achar uma área de um trapezoide?
+
+03:27.110 --> 03:28.900
+É a base.
+
+03:28.900 --> 03:32.520
+Então essa área do trapezoide aqui, essa primeira
+
+03:32.520 --> 03:33.980
+aqui, é a base.
+
+03:33.980 --> 03:36.240
+Que é apenas 1.
+
+03:36.240 --> 03:39.380
+1 vezes a média das duas alturas.
+
+03:39.380 --> 03:39.690
+Certo?
+
+03:39.690 --> 03:41.830
+Então é a média
+
+03:41.830 --> 03:45.470
+Aqui é 120, e este é 156.
+
+03:45.470 --> 03:49.570
+Qual a média entre 120 e 156?
+
+03:49.570 --> 03:52.230
+Bem, a média de 120 e 156-- vejamos.
+
+03:52.230 --> 03:59.810
+Temos 276 dividido por 2 é 138.
+
+03:59.810 --> 04:03.380
+Então é 1 vezes 138 ou é apenas 138.
+
+04:03.380 --> 04:06.870
+Essa é a área deste trapezoide.
+
+04:06.870 --> 04:09.090
+Qual é a área deste trapezoide aqui?
+
+04:09.090 --> 04:10.430
+Este maior?
+
+04:10.430 --> 04:12.320
+Bem, a base é 2, certo?
+
+04:12.320 --> 04:13.750
+1, 2.
+
+04:13.750 --> 04:14.450
+Sua base é 2.
+
+04:14.450 --> 04:16.060
+E qual o valor médio?
+
+04:16.060 --> 04:17.470
+Bem, será o valor médio
+
+04:17.470 --> 04:20.670
+entre 156 e 176.
+
+04:20.670 --> 04:23.230
+Ou o valor médio entre esta altura e esta altura.
+
+04:23.230 --> 04:24.210
+Esse foi fácil, certo?
+
+04:24.210 --> 04:26.456
+166 é exatamente entre os dois, e nós
+
+04:26.456 --> 04:27.050
+não temos que fazer muito.
+
+04:27.050 --> 04:29.650
+Então é 2 vezes 166.
+
+04:29.650 --> 04:33.110
+Desculpa, 166 não 1.66.
+
+04:33.110 --> 04:39.130
+E finalmente, qual o valor médio deste trap-- ou qual
+
+04:39.130 --> 04:42.240
+a área neste trapezoide?
+
+04:42.240 --> 04:44.260
+Bem, a base é 1, certo?
+
+04:44.260 --> 04:46.180
+Vai de 3 para 4.
+
+04:46.180 --> 04:48.930
+1 vezes o valor médio.
+
+04:48.930 --> 04:52.380
+Então 176 e 126.
+
+04:52.380 --> 04:56.520
+Isso é 1/2 vezes-- o que é 176?
+
+04:56.520 --> 05:00.430
+Vou usar a calculadora, apenas para eu não cometer nenhum erro.
+
+05:00.430 --> 05:03.180
+Confie no emulador TI-85
+
+05:03.180 --> 05:04.130
+Vejamos.
+
+05:04.130 --> 05:08.880
+176 mais 126.
+
+05:08.880 --> 05:09.980
+Enter.
+
+05:09.980 --> 05:14.710
+Dividido por 2, é igual a 151.
+
+05:14.710 --> 05:18.090
+Então este área aqui é 1 vezes 151, ou 151.
+
+05:18.090 --> 05:19.550
+Então qual é a área total?
+
+05:19.550 --> 05:23.530
+Será apenas a soma destes 3 trapezoides.
+
+05:23.530 --> 05:25.340
+Então é a some destes 3 trapezoides.
+
+05:25.340 --> 05:39.880
+Então será 138 mais 2 vezes 166 mais 151.
+
+05:39.880 --> 05:43.050
+Então essa é a área total sobre esses trapezoides.
+
+05:43.050 --> 05:46.400
+Mas eles nos perguntam, bem, qual é o valor
+
+05:46.400 --> 05:47.480
+médio da função?
+
+05:47.480 --> 05:51.690
+Bem, o valor médio é apenas a área dividida pela base.
+
+05:51.690 --> 05:53.020
+A base é 4, certo?
+
+05:53.020 --> 05:54.900
+De meio-dia até 4 horas da tarde.
+
+05:54.900 --> 05:57.520
+ou de tempo igual a 0 até tempo igual a 4.
+
+05:57.520 --> 05:59.610
+Então dividimos este valor por 4.
+
+05:59.610 --> 06:05.670
+Então dividido por 4, nós temos 155,25.
+
+06:05.670 --> 06:08.125
+Então eles dizem, use a soma trapezoidal com 3 subintervalos para
+
+06:08.125 --> 06:10.550
+estimar o número médio de pessoas esperando na fila durante
+
+06:10.550 --> 06:13.060
+as primeiras 4 horas que os ingressos estavam a venda.
+
+06:13.060 --> 06:17.110
+Então a resposta para a parte b é 155,25.
+
+06:17.110 --> 06:18.940
+Eles não nos dizem para contorna-la nem nada, então estou assumindo
+
+06:18.940 --> 06:20.620
+que, você sabe, se estamos dizendo o número médio
+
+06:20.620 --> 06:22.720
+de pessoas, eu acho que podemos ter uma fração aqui.
+
+06:22.720 --> 06:23.375
+Então é razoavel.
+
+06:25.890 --> 06:26.630
+Vejamos, em que parte estamos?
+
+06:26.630 --> 06:29.270
+Estamos na parte c.
+
+06:29.270 --> 06:29.970
+OK.
+
+06:29.970 --> 06:31.300
+Então parte c.
+
+06:31.300 --> 06:33.940
+Eu acho que irá usar esse gráfico também.
+
+06:33.940 --> 06:36.240
+Deixe-me apagar pelo menos a parte do topo.
+
+06:38.960 --> 06:43.230
+O topo eu posso apagar.
+
+06:43.230 --> 06:46.280
+Eu posso apagar isso, eu poso apagar aquilo.
+
+06:46.280 --> 06:49.370
+Eu quero apagar todas as coisas desnecessárias.
+
+06:49.370 --> 06:54.550
+Deixe-me ver se eu posso-- vejamos, eu posso apagar tudo aquilo.
+
+06:54.550 --> 06:55.770
+Só quero deixar o mais limpo possível.
+
+06:55.770 --> 06:57.820
+Eu acho que esse gráfico será útil na parte
+
+06:57.820 --> 07:01.470
+c, só de relance.
+
+07:01.470 --> 07:01.810
+OK.
+
+07:01.810 --> 07:03.760
+Está bom o suficiente, eu acho.
+
+07:03.760 --> 07:05.510
+OK, vamos para a parte c.
+
+07:05.510 --> 07:09.680
+Deixe-me copiar e colar isso.
+
+07:13.410 --> 07:14.070
+Parte c.
+
+07:18.670 --> 07:20.050
+OK, copiado.
+
+07:20.050 --> 07:21.005
+Editar, colar.
+
+07:23.770 --> 07:24.600
+OK.
+
+07:24.600 --> 07:27.940
+Para t é maior que 0, é menos que 9, certo?
+
+07:27.940 --> 07:30.840
+Qual é o menos número de vezes em que I primo
+
+07:30.840 --> 07:33.340
+de t deve ser igual a 0?
+
+07:33.340 --> 07:35.020
+Dê uma justificativa para a sua resposta.
+
+07:35.020 --> 07:39.180
+Então I primo de t, esse é o derivado disso.
+
+07:39.180 --> 07:41.780
+Quando eu conecto esses pontos, eu meio que quero
+
+07:41.780 --> 07:42.640
+obter a forma de uma curva.
+
+07:42.640 --> 07:43.430
+Mas é realmente uma curva.
+
+07:43.430 --> 07:46.090
+Não é como esta linha pontuda, certo?
+
+07:46.090 --> 07:46.880
+E como nós sabemos que é uma curva?
+
+07:46.880 --> 07:48.370
+Porque é diferenciável.
+
+07:48.370 --> 07:49.360
+É contínuo.
+
+07:49.360 --> 07:50.620
+Na verdade, é duas vezes diferenciável.
+
+07:50.620 --> 07:52.800
+O que nos diz que o derivado é contínuo.
+
+07:52.800 --> 07:56.070
+Então o gráfico real deste irá parecer com algo--
+
+07:56.070 --> 07:58.630
+sabe, deixe-me fazer com a cor magenta.
+
+07:58.630 --> 08:00.390
+Sabe, talvez irá parecer com algo assim.
+
+08:00.390 --> 08:03.990
+Eu não sei, uma curva e então aumenta em algum
+
+08:03.990 --> 08:05.880
+ponto, e desce.
+
+08:05.880 --> 08:07.530
+Então sobre como isso.
+
+08:07.530 --> 08:09.750
+E então, talvez aumente, e
+
+08:09.750 --> 08:12.190
+desça como isso.
+
+08:12.190 --> 08:14.480
+Será uma curva, certo?
+
+08:14.480 --> 08:17.190
+De qualquer modo, eles dizem, qual o menos número de vezes que I
+
+08:17.190 --> 08:19.940
+primo de t tem que ser igual a 0?
+
+08:19.940 --> 08:25.100
+Bem, o que acontece quando I primo de t é igual a 0?
+
+08:25.100 --> 08:29.560
+Isso quer dizer que nós estamos no local mínimo ou no local
+
+08:29.560 --> 08:32.470
+máximo, ou as vezes num ponto de inflexão.
+
+08:32.470 --> 08:34.170
+Mas nós não sabemos com certeza.
+
+08:34.170 --> 08:38.610
+Mas no mínimo e na máximo ponto, nós sabemos com certeza que I
+
+08:38.610 --> 08:40.400
+primo de t é igual a 0.
+
+08:40.400 --> 08:41.630
+E então podemos apenas ver isso.
+
+08:41.630 --> 08:43.870
+Podemos olhar para esse gráfica e dizer, bem, sabe,
+
+08:43.870 --> 08:47.280
+tem que ter um ponto mínimo em algum lugar por aqui.
+
+08:47.280 --> 08:47.550
+Certo?
+
+08:47.550 --> 08:49.280
+Entre aqui e aqui.
+
+08:49.280 --> 08:51.620
+Então, sabe, o modo que eu desenhei, parece que
+
+08:51.620 --> 08:53.980
+a inclinação aqui é 0.
+
+08:53.980 --> 08:56.740
+E entre aqui e aqui, parece que a inclinação também
+
+08:56.740 --> 08:59.420
+terá que descer em algum ponto.
+
+08:59.420 --> 08:59.930
+Como aqui.
+
+08:59.930 --> 09:02.380
+E então tem um ponto máximo exatamente-- algum lugar
+
+09:02.380 --> 09:04.590
+por aqui, e irá aumentar.
+
+09:04.590 --> 09:07.410
+Então quando a gente apenas olha, eu digo, bem, eu tenho 2 pontos
+
+09:07.410 --> 09:10.040
+máximos, e um ponto mínimo, então a inclinação será igual
+
+09:10.040 --> 09:12.750
+0 em pelo menos 3 pontos, certo?
+
+09:12.750 --> 09:15.520
+Mas eles dizem, justifique sua resposta.
+
+09:15.520 --> 09:17.210
+Justifique sua resposta.
+
+09:17.210 --> 09:21.950
+Minha justificativa-- e realmente, você pode usar o Teorema de Rolle
+
+09:21.950 --> 09:26.090
+ou o teorema do valor principal, mas a justificativa mais simples é
+
+09:26.090 --> 09:31.210
+nós temos 3 registros de mudança na velocidade média.
+
+09:31.210 --> 09:32.820
+Ou a média, não a velocidade média, a
+
+09:32.820 --> 09:35.290
+taxa-- o I de t.
+
+09:35.290 --> 09:37.300
+Nós não estamos fazendo velocidade neste problema.
+
+09:37.300 --> 09:40.770
+Então daqui-- vou usar uma linha mais grossa.
+
+09:40.770 --> 09:41.390
+Use amarelo.
+
+09:41.390 --> 09:44.680
+Então daqui até aqui, nós temos um relato de mudança.
+
+09:44.680 --> 09:46.890
+Daqui até aqui, nós temos um relato de mudança.
+
+09:46.890 --> 09:49.400
+E daqui até aqui, nós poderíamos ter um relato de mudança.
+
+09:49.400 --> 09:52.040
+Então o que eu escreveria no exame AP seria,
+
+09:52.040 --> 09:56.300
+bem, a função é duplamente diferenciável, o que significa
+
+09:56.300 --> 09:58.360
+que o derivado é contínuo.
+
+09:58.360 --> 10:00.620
+Então deixe-me escrever os principais pontos.
+
+10:00.620 --> 10:01.975
+Então derivado é contínuo.
+
+10:06.460 --> 10:10.380
+E nós tempos 3 relatos de mudança no derivado, certo?
+
+10:10.380 --> 10:14.080
+O derivado é positivo sobre este intervalo, ou pelo menos
+
+10:14.080 --> 10:16.480
+sua média é positiva, e depois vira negativa.
+
+10:16.480 --> 10:19.130
+Então em algum ponto, desde que o derivado seja contínuo-- não
+
+10:19.130 --> 10:21.930
+pula-- tem que ser positivo em algum lugar
+
+10:21.930 --> 10:22.760
+por aqui.
+
+10:22.760 --> 10:24.690
+E você pode ser mais formal quando escrever.
+
+10:24.690 --> 10:27.140
+Tinha que ser negativo em algum lugar por aqui.
+
+10:27.140 --> 10:29.160
+Então tinha que ter mudança de sinal, e então tinha que
+
+10:29.160 --> 10:30.680
+passar pelo 0.
+
+10:30.680 --> 10:33.160
+E esse mesmo argumento poderia ser usado entre aqui e
+
+10:33.160 --> 10:35.030
+aqui, e aqui e aqui.
+
+10:35.030 --> 10:36.490
+E essa é minha resposta.
+
+10:36.490 --> 10:40.260
+E eu continuarei a parte d no próximo vídeo, porque eu
+
+10:40.260 --> 10:42.570
+já ultrapassei os 10 minutos.

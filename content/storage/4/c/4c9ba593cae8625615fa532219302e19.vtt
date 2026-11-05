@@ -1,0 +1,390 @@
+WEBVTT
+
+00:00.000 --> 00:05.842
+Máme zde graf funkce r rovná se sinus
+z (2 krát théta) v polárních souřadnicích.
+
+00:05.842 --> 00:10.038
+Pokud si již nevybavujete,
+co to jsou polární souřadnice,
+
+00:10.038 --> 00:14.656
+vyhledejte si je na Khan Academy,
+nebo se podívejte na předchozí lekce.
+
+00:14.656 --> 00:16.374
+Trochu vám přiblížím základy.
+
+00:16.374 --> 00:22.637
+Zkusme si vysvětlit, proč
+tento graf vypadá tak, jak vypadá.
+
+00:22.637 --> 00:28.346
+Každý bod v grafu bychom
+mohli vyjádřit pomocí souřadnic x a y.
+
+00:28.346 --> 00:32.459
+Můžeme je ale také vyjádřit
+pomocí úhlu a poloměru.
+
+00:32.459 --> 00:36.272
+Tento bod například má
+nějakou souřadnici x a y.
+
+00:36.272 --> 00:41.910
+Anebo můžeme nakreslit přímku
+od počátku k tomuto bodu
+
+00:41.910 --> 00:50.846
+a specifikovat ho pomocí úhlu théta a r,
+což je vzdálenost od počátku k tomu bodu.
+
+00:50.846 --> 00:55.936
+Zkusme si na této křivce vysvětlit,
+proč je to tak intuitivní.
+
+00:55.936 --> 01:00.818
+Když théta je 0,
+potom r bude taky 0.
+
+01:00.818 --> 01:04.540
+R tedy bude v počátku,
+a jak se théta bude zvětšovat,
+
+01:04.540 --> 01:11.682
+r se také bude zvětšovat, a začne se
+nám tvořit tento tvar květiny/čtyřlístku.
+
+01:11.682 --> 01:14.961
+Začne to tedy vypadat jako naše křivka
+a můžeme pokračovat dokola.
+
+01:14.961 --> 01:19.594
+Co se stane, když se
+théta rovná pí lomeno 4?
+
+01:19.594 --> 01:22.591
+Pokud se tedy théta
+rovná pí lomeno 4,
+
+01:22.591 --> 01:27.424
+potom sin(2 krát pí lomeno 4) bude
+sin(pí lomeno 2) a r se bude rovnat 1.
+
+01:27.424 --> 01:29.859
+Dosáhneme tedy
+maximálního r.
+
+01:29.859 --> 01:36.423
+Následně jak se théta bude
+zvětšovat, r se bude zmenšovat.
+
+01:36.423 --> 01:39.043
+Nyní si to zkusme vyjádřit
+pomocí diferenciálního počtu.
+
+01:39.043 --> 01:45.215
+První otázka by mohla být, jak
+vyjádříme rychlost změny r podle théty?
+
+01:45.215 --> 01:47.203
+Pozastavte video
+a zkuste si to sami.
+
+01:47.203 --> 01:50.954
+Jaká je první
+derivace r(théta)?
+
+01:50.954 --> 01:52.657
+Nemáme tu ve
+skutečnosti nic nového.
+
+01:52.657 --> 01:54.675
+Máme pouze
+jednu proměnnou.
+
+01:54.675 --> 01:56.965
+Můžeme použít vzorec
+pro derivaci složené funkci.
+
+01:56.965 --> 01:59.298
+Uděláme derivaci
+podle théty.
+
+01:59.298 --> 02:06.530
+Derivace funkce sin(2 krát théta)
+podle théty bude cos(2 krát théta),
+
+02:06.530 --> 02:10.957
+násobeno derivací (2 krát théta)
+podle théty, což je 2.
+
+02:10.957 --> 02:14.782
+Násobíme tedy krát 2 nebo
+můžeme pouze napsat 2 dopředu.
+
+02:14.782 --> 02:21.201
+To bylo zajímavé, ovšem zkusme si
+vyjádřit tuto křivku pomocí x a y.
+
+02:21.201 --> 02:23.910
+Potom se zamysleme
+nad touto derivací.
+
+02:23.910 --> 02:32.611
+Pokud chcete přecházet mezi polárním
+světem a světem kartézských souřadnic,
+
+02:32.611 --> 02:44.575
+je nutné si uvědomit, že y se rovná r krát
+sin(théta) a x se rovná r krát cos(théta).
+
+02:44.575 --> 02:48.295
+Proč to dává smysl?
+
+02:48.295 --> 02:57.197
+Vezměme si jeden z těchto úhlů
+a řekněme, že toho je théta a toto je r.
+
+02:57.197 --> 03:05.876
+Čili výška této strany bude y
+a délka této strany bude x.
+
+03:05.876 --> 03:14.659
+Z trigonometrie víme, že sinus je
+protilehlá strana lomeno přepona.
+
+03:14.659 --> 03:20.058
+Zde je tedy sin(théta) roven
+y lomeno přepona, což je r.
+
+03:20.058 --> 03:26.578
+A kosinus z théty je roven přilehlé
+straně, nebo pro nás x, lomeno r.
+
+03:26.578 --> 03:32.730
+Obě strany rovnice musíme vynásobit r,
+abychom dostali to samé co zde.
+
+03:32.730 --> 03:38.387
+To je pouze opakování základů, pokud
+by pro vás postup byl moc rychlý.
+
+03:38.387 --> 03:43.150
+Nyní to můžeme vyjádřit
+pouze pomocí thety.
+
+03:43.150 --> 03:44.269
+Jak to uděláme?
+
+03:44.269 --> 03:50.166
+Víme, že r se rovná sin(2 krát théta),
+tak každé r nahradíme sin(2 krát théta).
+
+03:50.166 --> 04:03.483
+Y tak bude rovno sin
+(2 krát théta) krát sin(théta)
+
+04:03.483 --> 04:16.601
+a x bude rovno sin
+(2 krát théta) krát cos(théta).
+
+04:16.601 --> 04:24.660
+Tyto výrazy nyní můžeme využít
+k nalezení rychlosti změny y podle théty.
+
+04:24.660 --> 04:26.875
+Pozastavte video
+a zkuste si to sami.
+
+04:26.875 --> 04:28.075
+Nyní to zkusíme společně.
+
+04:28.075 --> 04:31.225
+Využijeme našich
+znalostí derivací.
+
+04:31.225 --> 04:38.186
+Derivace y podle théty a
+použijeme součinové pravidlo.
+
+04:38.186 --> 04:45.398
+Derivace prvního výrazu bude 2 krát
+cos(2 krát théta), to už jsme viděli.
+
+04:45.398 --> 04:47.729
+To vychází z pravidla
+pro derivaci složené funkci.
+
+04:47.729 --> 05:01.130
+Potom krát druhý výraz, sin(théta),
+plus první výraz, sin(2 krát théta),
+
+05:01.130 --> 05:08.222
+potom krát derivace druhého
+výrazu, což je cos(théta).
+
+05:08.222 --> 05:14.590
+To samé můžeme udělat
+pro x, derivace prvního výrazu,
+
+05:14.590 --> 05:25.489
+což bude 2 krát cos(2 krát théta)
+krát cos z théty,
+
+05:25.489 --> 05:32.365
+poté první výraz, sin(2 krát théta)
+krát derivace druhého výrazu,
+
+05:32.365 --> 05:37.015
+to je −sin(théta).
+
+05:37.015 --> 05:39.857
+Můžeme to vypočítat
+pro určité body.
+
+05:39.857 --> 05:45.918
+Můžeme například říci,
+že théta se rovná pí lomeno 4.
+
+05:45.918 --> 05:50.244
+Když se théta
+rovná pí lomeno 4,
+
+05:50.244 --> 05:54.470
+potom budeme
+v tomto bodě.
+
+05:54.470 --> 05:56.782
+Zkusme si
+to vypočítat.
+
+05:56.782 --> 06:11.605
+Derivace y v bodě (pí lomeno 4) se
+rovná 2 krát cos(pí lomeno 2).
+
+06:11.605 --> 06:22.119
+krát sin(pí lomeno 4) plus
+sin(2 krát pí lomeno 4),
+
+06:22.119 --> 06:31.768
+což je sin(pí lomeno 2),
+krát cos(pí lomeno 4).
+
+06:31.768 --> 06:33.731
+Čemu se to
+bude rovnat?
+
+06:33.731 --> 06:39.164
+Cos(pí lomeno 2) je 0,
+čili toto celé bude 0.
+
+06:39.164 --> 06:47.722
+Zde je sin(pí lomeno 2), což je 1, cos(pí
+lomeno 4) je odmocnina ze 2 lomeno 2,
+
+06:47.722 --> 06:54.588
+takže toto bude
+odmocnina ze 2 lomeno 2.
+
+06:54.588 --> 06:58.360
+Bude se to tedy rovnat
+odmocnině ze 2 lomeno 2.
+
+06:58.360 --> 07:00.976
+To samé můžeme udělat s x.
+
+07:00.976 --> 07:05.999
+Derivace x(pí lomeno 4).
+
+07:05.999 --> 07:12.884
+Máme 2 krát cos(2 krát pí lomeno 4),
+což bude 2 krát cos(pí lomeno 2).
+
+07:12.884 --> 07:17.250
+První část bude vypadat stejně,
+takže první výraz bude 0.
+
+07:17.250 --> 07:27.872
+Dál minus sin(pí lomeno 2),
+2 krát (pí lomeno 4),
+
+07:27.872 --> 07:38.751
+to je sin(pí lomeno 2),
+krát sin(pí lomeno 4).
+
+07:38.751 --> 07:44.707
+Toto bude 1, toto bude
+odmocnina ze 2 lomeno 2,
+
+07:44.707 --> 07:47.832
+čili výsledek bude minus
+odmocnina ze 2 lomeno 2.
+
+07:47.832 --> 07:49.575
+Pojďme si ukázat,
+proč to dává smysl.
+
+07:49.575 --> 07:52.053
+Co se stane, když ze
+bude zde théta zvětšovat?
+
+07:52.053 --> 08:00.644
+Pokud trochu zvýšíme thétu z pí lomeno 4,
+souřadnice y se bude i nadále zvětšovat.
+
+08:00.644 --> 08:02.844
+Proto dává smysl,
+že tu máme kladný sklon.
+
+08:02.844 --> 08:08.213
+Co se ale stane souřadnici x,
+když se théta zvětší?
+
+08:08.213 --> 08:15.841
+X se zmenšuje, jak se théta zvětšuje, proto
+dává smysl tato záporná rychlost změny.
+
+08:15.841 --> 08:20.407
+Další věc, kterou můžeme zkusit,
+je najít rychlost změny y podle x.
+
+08:20.407 --> 08:24.002
+Chceme totiž
+najít sklon tečny.
+
+08:24.002 --> 08:28.622
+Vypadá to, že je to −1,
+ovšem jak to spočítáme?
+
+08:28.622 --> 08:36.869
+Můžeme to pojmout
+jako derivaci y podle x,
+
+08:36.869 --> 08:46.218
+která bude rovna derivaci y podle théty
+lomeno derivací x podle théty.
+
+08:46.218 --> 08:53.392
+Pro tuto hodnotu,
+théta rovno pí lomeno 4,
+
+08:53.392 --> 09:02.503
+to bude rovno odmocnina ze 2 lomeno 2, to
+celé lomeno minus odmocnina ze 2 lomeno 2.
+
+09:02.503 --> 09:07.084
+To se dá zjednodušit
+a vyjde nám −1, což dává smysl.
+
+09:07.084 --> 09:12.591
+Toto vypadá jako tečna,
+která má sklon −1.
+
+09:12.591 --> 09:16.113
+Doufám, že to všechno do sebe zapadá,
+a že už se v tom trochu více vyznáte.
+
+09:16.113 --> 09:24.081
+Zopakovali jsme si polární souřadnice
+a trochu jsme to rozšířili o derivace.

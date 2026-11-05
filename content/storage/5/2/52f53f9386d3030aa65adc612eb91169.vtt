@@ -1,0 +1,250 @@
+WEBVTT
+
+00:00.249 --> 00:09.463
+Nós estamos na parte B. A região R será rotacionada sobre o eixo x para formar um sólido. Encontre o volume V do solido em função de k.
+
+00:09.463 --> 00:17.329
+Então está é nossa região R, e isto será rotacionado ao redor do eixo X... Isto será rotacionado sobre o eixo x para formar um sólido.
+
+00:17.329 --> 00:24.080
+Então este sólido vai ficar mais ou menos assim: Isto vai parecer com isto - Este vai ser este fim do sólido quando rotacionado,
+
+00:24.080 --> 00:30.938
+E este vai ficar mais ou menos assim. Minha melhor tentativa de desenhar nosso sólido.
+
+00:30.938 --> 00:40.079
+Isso vai ser... e então este lado vai parecer algo como isto. Parece um pouco com um auto-falante. Deixe me sobrear um pouco.
+
+00:40.079 --> 00:48.500
+Então este vai ser nosso sólido e você pode imaginar... você pode imaginar que talvez ... Isto aqui seja o nosso eixo y.
+
+00:48.500 --> 00:57.892
+Este é nosso eixo y, e então direto no cento do sólido... direto pelo cento do sólido você tem o seu eixo x.
+
+00:57.892 --> 01:03.396
+E deixe me ... ainda... se o sólido fosse levemente transparente você poderia ver o outro lado disto
+
+01:03.396 --> 01:07.165
+aberto bem aqui. O eixo x vai direto pelo centro.
+
+01:07.165 --> 01:11.620
+Então como nós podemos descobrir o volume do sólido? Bem nós podemos pensar sobre cada disco individualmente do
+
+01:11.620 --> 01:16.742
+Sólido, bem aqui. Então pense dessa forma: vamos pegar um disco bem aqui .
+
+01:16.742 --> 01:19.277
+Pegue este disco bem aqui.
+
+01:19.277 --> 01:23.575
+Então você pode imaginar está pequena sessão transversal. Esta pequena sessão transversal do
+
+01:23.575 --> 01:28.593
+sólido, este disco aqui, vai ter uma área.
+
+01:28.593 --> 01:31.260
+Vai ter uma superfície e então vai ter alguma profundidade.
+
+01:31.260 --> 01:38.478
+Você pode imaginar a profindidade é a borda do lado, enquanto a área da superfície e a face do lado.
+
+01:38.478 --> 01:43.545
+A área da face do lado. Então o que será o volume deste disco branco aqui?
+
+01:43.545 --> 01:51.463
+Bem, vai ser a área da superfície do disco vezes a profundidade. Então o que é a área da superfície?
+
+01:51.463 --> 01:58.146
+Bem a área da superfície do círculo é pi vezes o quadrado do raio. Então pi vezes o quadrado do raio vai ser
+
+01:58.146 --> 02:02.278
+pi vezes... qual é o raio? Qual é esse raio?
+
+02:02.278 --> 02:08.478
+Bem o raio é a altura entre o eixo x e a função. Então o raio é e elevado a 2x.
+
+02:08.478 --> 02:20.813
+Então a área de cada um destes discos neste valor de x será pi vezes e elevado a 2x ao quadrado,
+
+02:20.813 --> 02:26.579
+E então se nós queremos o volume deste disco inteiro nós então temos que multiplicar a área vezes a profundidade.
+
+02:26.579 --> 02:29.063
+Então vezes dx.
+
+02:29.063 --> 02:34.249
+Então este será o volume deste pequeno disco aqui, isto tem uma pequena, infinintésima profundidade,
+
+02:34.249 --> 02:39.814
+mas o que nós queremos fazer é somar todos estes discoas. Nos queremos fazer... nos queremos ter um monte
+
+02:39.814 --> 02:44.034
+destes discos. E nós queremos somá-los, todos eles, então nos queremos fazer a soma infinita destes infinitos
+
+02:44.034 --> 02:50.797
+finos discos. Assim, essencialmente nós vamos somar todos estes de x igual a zero,
+
+02:50.797 --> 02:59.252
+até x igual a k. Certo, devido isto aqui, este é x=k e este x=0,
+
+02:59.252 --> 03:02.345
+Nós faremos a sima de todos estes discos, e conseguiremos calcular o volume.
+
+03:02.345 --> 03:08.414
+Então nos podemos desenvolver esta integral analiticamente, isso não é tão ruim. Pois, e até ... deixe me reescrever isto...
+
+03:08.414 --> 03:18.949
+pi vezes... e a dois x ao quadrado é e elevado a 4x (2x vezes 2). E então se nós queremos fazer a
+
+03:18.949 --> 03:23.063
+integral- você deve conseguir fazer isto só por inspeção - mas se você quer dizer, "Ei, olhe, eu tenho uma pequena função aqui
+
+03:23.063 --> 03:28.504
+e quero que seja derivada aqui", nos podemos fazer- podemos multiplicar essa expressão por quatro;
+
+03:28.504 --> 03:33.335
+Nós podemos também dividir por quatro. Se você multiplicar algo por quatro e então dividir por quatro você não mudou em nada o valor-
+
+03:33.335 --> 03:39.070
+Você multiplicou por 1. Mas o que isto faz é dar-nos , se você me deixar ressecrever um pouco, então isto
+
+03:39.070 --> 03:51.543
+Nós podemos reescrever isto como : pi sobre 4 vezes quatro vezes e elevado a 4x. Eu só reescrevi isto- Eu multipliquei e dividi por 4.
+
+03:51.543 --> 03:57.831
+E o motivo pelo qual eu fiz isto é que nós temos a derivada de 4x bem aqui, nós temos
+
+03:57.831 --> 04:03.146
+este quatro. Pi sobre 4 é uma constante então nós podemos tirá-la da integral , e então podemos dizer
+
+04:03.146 --> 04:09.811
+esta expressão aqui é o mesmo que ... é a mesma coisa que esta expressão bem aqui.
+
+04:09.811 --> 04:16.547
+Pi sobre 4 vezes a integral de zero até k de 4e elevado a 4x vezes dx.
+
+04:16.547 --> 04:22.724
+E então... o motivo de eu ter multiplicado e dividido por 4 é: Eu tenho algo aqui; Eu tenho isto derivado.
+
+04:22.724 --> 04:28.829
+Então eu posso realmente posso fingir que isto é e elevado a x: Eu pego este... Eu acho que você pode fizer que você pegou
+
+04:28.829 --> 04:34.084
+a derivada em função de - ou você pode pegar a integral ou a antiderivativa em função de 4x.
+
+04:34.084 --> 04:41.128
+Então este, de dentro é e elevado a 4x. E você pode verificar: se você pegar a derivada de e elevada a 4x,
+
+04:41.128 --> 04:44.580
+é a derivada de 4x, que é 4 , vezes e elevado a 4x.
+
+04:44.580 --> 04:49.414
+Então este aqui é a antiderivadiva deste, e nós vamos resolver este...
+
+04:49.414 --> 04:57.746
+Nós vamos calcular este de 0 até k. E tudo isso vezes pi sobre 4.
+
+04:57.746 --> 05:04.415
+Então quando você calcular isto em k , é e elevado a 4k.
+
+05:04.415 --> 05:13.812
+Então este é pi sobre 4, vezes e elevado a 4k menos e elevado a 4 vezes zero , que é e elevado a zero, que é menos 1.
+
+05:13.812 --> 05:20.663
+Então este é nosso volume: pi sobre 4 vezes vezes e elevado a 4k menos 1. E isto é a parte B. Nós fizemos isso.
+
+05:20.663 --> 05:27.430
+Agora parte C - eu acho que nos temos tempo pra isso. O volume, V, encontrado na parte B muda com o valor de k.
+
+05:27.430 --> 05:34.203
+Se dk... se a derivada de k em função de t é um terço, determine a derivada de V em função de t
+
+05:34.203 --> 05:37.579
+Quando k é meio. Então isto vai direto para a regra da cadeia.
+
+05:37.579 --> 05:43.646
+Então a regra da cadeia nos diz... se você viu diferencial com números bem pequenos isto é
+
+05:43.646 --> 05:46.081
+mais ou menos parecido...
+
+05:46.081 --> 05:51.062
+A taxa de mudança v , esta pequena mudança em V em função de uma pequena mudança em t
+
+05:51.062 --> 05:57.997
+é igual a uma pequena mudança em V em função de uma pequena mudança em k, vezes
+
+05:57.997 --> 06:05.479
+uma pequena mudança em k dividia por uma pequena mudança em t.
+
+06:05.479 --> 06:10.013
+Ou: a derivada de V em função de t é igual a derivada de v em f função de k
+
+06:10.013 --> 06:12.340
+vezes a derivada de k em função de t.
+
+06:12.340 --> 06:16.514
+E o motivo pelo qual eu disse que isso faz sentido se você ver uma diferencial como um número pequeno é:
+
+06:16.514 --> 06:21.882
+Você poderia... e isto não é uma forma muito rigorosa de fazer, mas é uma boa forma no senso comum
+
+06:21.882 --> 06:26.081
+De imaginar as coisas.. se estes caras pudessem ser cancelados , nós então
+
+06:26.081 --> 06:31.497
+teriamos dV/dt em ambos os lados. Por isso eu disse que isto é mais ou menos o senso comum
+
+06:31.497 --> 06:33.252
+e você pode ver isso desta forma.
+
+06:33.252 --> 06:35.531
+Mas isso nos dá essencialmente tudo que nós precisamos saber:
+
+06:35.531 --> 06:44.392
+Nós precisamos resolver para dV/dT. Eles já nos deram dK/dt= 1/3 quando k=1/2,
+
+06:44.392 --> 06:51.747
+Então eles já nos disseram a taxa de mudança de k em função de t , nós já sabemos que está coisa
+
+06:51.747 --> 06:58.533
+aqui será 1/3. e nos podemos calcular a derivada de V em função de k facilmente:
+
+06:58.533 --> 07:01.881
+Nós temos V como uma função de K bem aqui, então vamos resolver isto.
+
+07:01.881 --> 07:13.949
+Então a derivada de V em função k é igual a pi sobre 4 vezes a derivada daqui.
+
+07:13.949 --> 07:17.948
+A derivada disto é só 4 e elevado a 4k, a derivada de -1 é 0.
+
+07:17.948 --> 07:26.114
+Então e ... isto é vezes 4... e elevado a 4k é a derivada. Estes aqui vão se cancelar,
+
+07:26.114 --> 07:33.465
+Então isto é iguala pi vezes e elevado a 4k, esta é a derivada de V em função de k,
+
+07:33.465 --> 07:40.831
+Nós queremos encontar isto quando k for igual a 1/2, então podemos escrever V linha a meio,
+
+07:40.831 --> 07:49.866
+ou quando k é iguala 1/2, dV/dk será iguala pi vezes e elevado a 4 vezes meio,
+
+07:49.866 --> 07:58.213
+que será pi vezes e ao quadrado. Então está parte aqui é pi vezes e ao quadrado.
+
+07:58.213 --> 08:02.914
+Então a derivada de V em função de t quando k é iguala meio, e
+
+08:02.914 --> 08:11.326
+a derivada de k em função de t iguala 1/3 , será pi vezes e elevado a 2 vezes 1/3.
+
+08:11.326 --> 08:19.114
+Então me deixe reescrever isso aqui. Então dV/dt será igual a 1/3 vezer isto.
+
+08:19.114 --> 08:23.176
+Ou nós podemos escrever pi vezes e elevado a dois terços.
+
+08:23.176 --> 3:59:59.999
+E nós terminamos!

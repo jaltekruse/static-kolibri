@@ -1,0 +1,495 @@
+WEBVTT
+
+00:00.797 --> 00:02.481
+- So we have a couple of functions here.
+
+00:02.481 --> 00:05.681
+This is the graph of y is equal to f of x.
+
+00:05.681 --> 00:08.563
+This is the graph of y is equal to g of x.
+
+00:08.563 --> 00:10.180
+And we already know something.
+
+00:10.180 --> 00:12.879
+Or we know ways to represent the area
+
+00:12.879 --> 00:15.112
+under the curve y equals f of x.
+
+00:15.112 --> 00:18.487
+Between these two points x is equal to a,
+
+00:18.487 --> 00:19.514
+and x is equal to b.
+
+00:19.514 --> 00:24.514
+So this area, right over here,
+
+00:24.963 --> 00:28.597
+between the curve and the x axis,
+
+00:28.597 --> 00:30.598
+between x equals a and x equals b,
+
+00:30.598 --> 00:33.648
+we know we can write that
+as the definite integral,
+
+00:33.648 --> 00:38.648
+from a to b, of f of x, dx.
+
+00:38.880 --> 00:40.931
+And we can do the same thing over here.
+
+00:40.931 --> 00:44.146
+We could call this area,
+
+00:44.146 --> 00:46.179
+let me pick a color that I have not used.
+
+00:46.179 --> 00:47.848
+Well, this is slightly different green.
+
+00:47.848 --> 00:49.680
+I could call this area right over here,
+
+00:49.680 --> 00:53.346
+the area right under the
+curve y is equal to g of x.
+
+00:53.346 --> 00:55.430
+And above the positive x axis,
+
+00:55.430 --> 00:57.713
+between x equals a and x equals b,
+
+00:57.713 --> 00:59.931
+we could call that the definite integral.
+
+00:59.931 --> 01:04.931
+From a to b of g of x, dx.
+
+01:05.063 --> 01:08.047
+Now given these two things,
+
+01:08.047 --> 01:10.429
+let's actually think about
+the area under the curve
+
+01:10.429 --> 01:13.181
+of the function created by the
+sum of these two functions.
+
+01:13.181 --> 01:14.663
+So what do I mean by that?
+
+01:14.663 --> 01:18.014
+So let me, this is
+actually a fun thing to do.
+
+01:18.014 --> 01:19.313
+Let me start again.
+
+01:19.313 --> 01:21.298
+That's exactly what we have over here.
+
+01:21.298 --> 01:24.313
+This is the graph of y is equal to f of x.
+
+01:24.313 --> 01:25.963
+But what I want to do,
+is I want to approximate
+
+01:25.963 --> 01:30.764
+the graph of y is equal
+to, so my goal is to graph
+
+01:30.764 --> 01:35.764
+y is equal to f of x, plus g of x.
+
+01:43.395 --> 01:46.046
+So for any given x,
+it's going to be f of x.
+
+01:46.046 --> 01:47.015
+So that's that the f of x.
+
+01:47.015 --> 01:48.578
+And then I'm gonna add the g of x to it.
+
+01:48.578 --> 01:50.097
+So what will that look like?
+
+01:50.097 --> 01:52.431
+So that's gonna look like, let's see.
+
+01:52.431 --> 01:54.979
+When x is zero, g of x looks like
+
+01:54.979 --> 01:56.114
+it's about that length right there.
+
+01:56.114 --> 01:57.630
+I'm obviously approximating it.
+
+01:57.630 --> 01:59.797
+So I'm gonna have to add
+that length right over here.
+
+01:59.797 --> 02:01.646
+So it'll probably be right around there.
+
+02:01.646 --> 02:04.730
+At x equals a, it's a little bit more.
+
+02:04.730 --> 02:08.913
+And so but now my f of x curve
+is gone, or has increased.
+
+02:08.913 --> 02:10.714
+But I take that same distance above it.
+
+02:10.714 --> 02:12.714
+If I add the g of x there,
+
+02:12.714 --> 02:14.598
+it gets me right about there.
+
+02:14.598 --> 02:16.613
+Once again I'm just eyeballing it,
+
+02:16.613 --> 02:17.848
+trying to get an approximation,
+
+02:17.848 --> 02:21.146
+giving me an intuition actually
+for f of x, plus g of x is.
+
+02:21.146 --> 02:24.014
+I'm just trying to add g of x for given x.
+
+02:24.014 --> 02:25.946
+Now let's see if I'm a little bit,
+
+02:25.946 --> 02:27.964
+let's say that I'm between a and b,
+
+02:27.964 --> 02:32.230
+g of x is about that
+distance right over there.
+
+02:32.230 --> 02:37.230
+So, if I wanted to put that
+same distance right over here,
+
+02:37.945 --> 02:42.945
+it gets me right about there.
+
+02:44.230 --> 02:48.148
+And then when x is equal to
+b, g of x is about that big,
+
+02:48.148 --> 02:51.996
+so I have to add that
+length, which is about,
+
+02:51.996 --> 02:54.279
+looks something like that.
+
+02:54.279 --> 02:55.729
+That actually looks a little bit too much.
+
+02:55.729 --> 02:58.130
+Maybe something like that.
+
+02:58.130 --> 03:02.680
+So, if I were to add
+the two, I'd get a curve
+
+03:02.680 --> 03:06.980
+that looks something like this.
+
+03:06.980 --> 03:08.847
+And maybe it just keeps on
+going higher and higher.
+
+03:08.847 --> 03:10.862
+So, this is the curve.
+
+03:10.862 --> 03:12.630
+Or it's a pretty good
+approximation of the curve
+
+03:12.630 --> 03:15.541
+of f of x plus g of x.
+
+03:15.541 --> 03:20.452
+Now an interesting question
+is, is what would be
+
+03:20.612 --> 03:23.265
+well, you know how we
+can represent this area.
+
+03:23.265 --> 03:26.930
+So the area under the
+curve f of x plus g of x,
+
+03:26.930 --> 03:29.830
+above the positive x axis,
+
+03:29.830 --> 03:34.180
+between x equals a and x equals b,
+
+03:34.180 --> 03:37.064
+we know we can represent that as,
+
+03:37.064 --> 03:40.978
+let me see, I have not used pink, yet.
+
+03:40.978 --> 03:43.464
+So, this area right over here,
+
+03:43.464 --> 03:46.313
+we know that that could be represented
+
+03:46.313 --> 03:47.502
+as the definite integral,
+
+03:47.502 --> 03:52.502
+from a to b of f of x, plus g of x, dx.
+
+03:57.680 --> 03:59.015
+Now the question is,
+
+03:59.015 --> 04:01.297
+how does this thing relate to d,
+
+04:01.297 --> 04:02.714
+or how does this area relate
+
+04:02.714 --> 04:04.713
+to these areas right over here?
+
+04:04.713 --> 04:06.513
+Well the important thing to realize is
+
+04:06.513 --> 04:08.513
+this area that we have in yellow,
+
+04:08.513 --> 04:13.131
+that's going to be this
+area, right over here.
+
+04:13.131 --> 04:16.130
+That one's pretty clear.
+
+04:16.130 --> 04:20.647
+But how does this area in green
+relate to this area there?
+
+04:20.647 --> 04:22.063
+And to think about that,
+
+04:22.063 --> 04:25.164
+we just have to think about
+well what does an integral mean?
+
+04:25.164 --> 04:27.096
+What does it represent?
+
+04:27.096 --> 04:28.446
+We've already thought about these like
+
+04:28.446 --> 04:30.864
+these really small rectangles.
+
+04:30.864 --> 04:34.180
+And we're taking the
+sum of the limit of an
+
+04:34.180 --> 04:37.413
+infinite number of these
+infinitely thin rectangles.
+
+04:37.413 --> 04:39.099
+But when we're thinking
+about Riemann sums,
+
+04:39.099 --> 04:41.648
+we're thinking about okay
+we have some change in x,
+
+04:41.648 --> 04:44.829
+and then you multiply it
+times essentially the height,
+
+04:44.829 --> 04:45.687
+which is going to be the value
+
+04:45.687 --> 04:47.896
+of the function at that point.
+
+04:47.896 --> 04:51.698
+Well over here, you could
+have the same change in x.
+
+04:51.698 --> 04:53.713
+You can have the exact same change in x.
+
+04:53.713 --> 04:56.198
+And what is the height right over here?
+
+04:56.198 --> 04:58.299
+Well, that's going to be this
+exact height right over here.
+
+04:58.299 --> 05:00.015
+You saw that when we constructed it.
+
+05:00.015 --> 05:03.298
+This is going to be the
+g of x at that value.
+
+05:03.298 --> 05:05.680
+So even though the
+rectangles look like they're
+
+05:05.680 --> 05:06.981
+kinda shifted around a little bit,
+
+05:06.981 --> 05:09.563
+and they're actually all
+shifted up by the f of x,
+
+05:09.563 --> 05:11.180
+the heights of these rectangles
+
+05:11.180 --> 05:12.881
+that I'm drawing right over here,
+
+05:12.881 --> 05:14.930
+are exactly the same thing as the heights
+
+05:14.930 --> 05:18.347
+of the rectangles that
+I'm drawing over here.
+
+05:18.347 --> 05:22.097
+They, once again, they're
+all just shifted up and down
+
+05:22.097 --> 05:24.715
+by this f of x function.
+
+05:24.715 --> 05:27.247
+But these are the exact same rectangles.
+
+05:27.247 --> 05:28.848
+And they have the exact same heights.
+
+05:28.848 --> 05:31.265
+And the limit as you get
+more and more of these
+
+05:31.265 --> 05:32.264
+by making them thinner and thinner,
+
+05:32.264 --> 05:33.480
+is gonna be the same
+as the limit as you get
+
+05:33.480 --> 05:35.630
+more and more of these as
+you get thinner and thinner.
+
+05:35.630 --> 05:37.129
+And so this area right over here,
+
+05:37.129 --> 05:38.797
+and I'm obviously not
+doing a rigorous proof,
+
+05:38.797 --> 05:40.298
+I'm giving you the intuition for it,
+
+05:40.298 --> 05:44.847
+is the exact same thing as
+this area right over here.
+
+05:44.847 --> 05:46.447
+So the area under this curve,
+
+05:46.447 --> 05:50.598
+the definite integral from a
+to b of f of x plus g of x, dx,
+
+05:50.598 --> 05:55.598
+is just going to be the sum of
+these two definite integrals.
+
+05:57.848 --> 05:59.901
+And you might say, "Oh this is obvious".
+
+05:59.901 --> 06:01.297
+Or maybe it's not so obvious.
+
+06:01.297 --> 06:03.364
+But when is this actually useful?
+
+06:03.364 --> 06:05.241
+Well, as you later actually learn
+
+06:05.241 --> 06:06.397
+to evaluate these integrals,
+
+06:06.397 --> 06:07.629
+you'll see that one of
+the most powerful ideas
+
+06:07.629 --> 06:09.563
+is being able to decompose
+them in this way.
+
+06:09.563 --> 06:14.297
+To say, okay, if I'm taking
+the definite integral from
+
+06:14.297 --> 06:19.297
+zero to one of x squared, plus sine of x,
+
+06:19.814 --> 06:21.563
+which you may or may not
+have learned to do so far,
+
+06:21.563 --> 06:23.362
+you can at least start to break this down.
+
+06:23.362 --> 06:25.030
+You can say okay, well this
+is going to be the same
+
+06:25.030 --> 06:29.796
+thing as the integral from
+zero to one of x squared, dx,
+
+06:29.796 --> 06:34.796
+plus the integral from zero
+to one of sine of x, dx.
+
+06:35.847 --> 06:37.180
+And you see this is one
+of the most powerful
+
+06:37.180 --> 06:40.837
+principles of definite
+integrals, to make them,
+
+06:40.837 --> 06:42.162
+when you start to try to compute them,
+
+06:42.162 --> 06:45.536
+or even sometimes conceptualize
+what they're representing.

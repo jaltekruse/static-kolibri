@@ -1,0 +1,409 @@
+WEBVTT
+
+00:00.000 --> 00:00.950
+-
+
+00:00.950 --> 00:02.160
+Ahoj.
+
+00:02.160 --> 00:05.230
+Pojďme popracovat na vlastnostech logaritmů.
+
+00:05.230 --> 00:07.700
+Povězme si rychle, co to vlastně logaritmus je.
+
+00:07.700 --> 00:19.230
+Když napíšu povězme, log při základě x čísla a
+
+00:19.230 --> 00:22.020
+se rovná, co já vím, n.
+
+00:22.020 --> 00:23.550
+Co to znamená?
+
+00:23.550 --> 00:35.800
+Znamená to, že x na n-tou se rovná a.
+
+00:35.800 --> 00:37.880
+Myslím, že už to víme.
+
+00:37.880 --> 00:40.150
+To jsme se naučili ve videu o logaritmech.
+
+00:40.150 --> 00:42.860
+Je velmi důležité si uvědomit, že když vypočítáte výraz s logaritmem,
+
+00:42.860 --> 00:49.170
+jako například logaritmus čísla a při základě x,
+
+00:49.170 --> 00:52.350
+co dostanete je exponent.
+
+00:52.350 --> 00:54.231
+Toto n je exponent.
+
+00:54.231 --> 00:56.820
+Toto se rovná tomu.
+
+00:56.820 --> 00:58.910
+Mohli jste to napsat takto,
+
+00:58.910 --> 01:02.190
+protože toto n se rovná tomu, mohli jste
+
+01:02.190 --> 01:10.140
+napsat x - bude to trochu nepřehledné -na logaritmus
+
+01:10.140 --> 01:13.930
+při základě x čísla a, se rovná a.
+
+01:13.930 --> 01:17.000
+Co jsem udělal je, že jsem vzal n a nahradil ho tímto výrazem.
+
+01:17.000 --> 01:19.530
+A chtěl jsem to napsat tímto způsobem, protože jsem chtěl,
+
+01:19.530 --> 01:22.580
+abyste intuitivně pochopili,
+
+01:22.580 --> 01:24.390
+že logaritmus je po výpočtu
+
+01:24.390 --> 01:25.745
+pouze exponent.
+
+01:25.745 --> 01:27.420
+Teď budeme pracovat s touto myšlenkou
+
+01:27.420 --> 01:29.910
+a z ní pochází
+
+01:29.910 --> 01:32.380
+všechny vlastnosti logaritmů.
+
+01:32.380 --> 01:35.130
+Pojďme teď... teď se snažím
+
+01:35.130 --> 01:37.760
+přijít na vlastnosti logaritmů
+
+01:37.760 --> 01:38.540
+hravým způsobem.
+
+01:38.540 --> 01:40.405
+Brzy to zesumarizuji
+
+01:40.405 --> 01:41.120
+a potom to všechno zpřehledním.
+
+01:41.120 --> 01:45.100
+Ale chci ukázat, jak na to lidé možná
+
+01:45.100 --> 01:47.040
+původně přišli.
+
+01:47.040 --> 01:52.960
+Řekněme, že x
+
+01:52.960 --> 01:55.600
+-- změním barvu, myslím, že to udělá věci zajímavějšími --
+
+01:55.600 --> 02:05.190
+řekněme, že x na l-tou se rovná a.
+
+02:05.190 --> 02:07.680
+Když napíšu ten stejný vztah jako logaritmus,
+
+02:07.680 --> 02:14.900
+můžu napsat, že logaritmus při základu x čísla a
+
+02:14.900 --> 02:19.410
+se rovná l, že?
+
+02:19.410 --> 02:22.530
+Teď jsem jen přepsal, co jsem napsal nahoře.
+
+02:22.530 --> 02:25.010
+-- Změním barvy ---
+
+02:25.010 --> 02:33.100
+A kdybych řekl, že x na m-tou se rovnáb,
+
+02:33.100 --> 02:34.620
+je to to stejné, jen jsem změnil písmena.
+
+02:34.620 --> 02:41.980
+Ale to znamená, že logaritmus při základu x čísla b
+
+02:41.980 --> 02:43.730
+se rovná m, že?
+
+02:43.730 --> 02:46.280
+Udělal jsem to stejné co v tomto řádku,
+
+02:46.280 --> 02:47.452
+jen jsem změnil písmena.
+
+02:47.452 --> 02:49.620
+Tak pojďme dále a uvidíme, co se stane.
+
+02:49.620 --> 02:52.770
+Řekněme - změním zase barvu -
+
+02:52.770 --> 02:56.380
+-
+
+02:56.380 --> 03:03.010
+Řekněme, že mám x na n-tou a vy říkáte:
+
+03:03.010 --> 03:03.710
+"Sal, o co ti jde?"
+
+03:03.710 --> 03:04.710
+Ale uvidíte.
+
+03:04.710 --> 03:12.360
+Je to celkem šikovné. x na n-tou se rovná a krát b.
+
+03:12.360 --> 03:15.260
+x na n-tou se rovná a krát b.
+
+03:15.260 --> 03:22.730
+A to je to stejné, jako kdybychom řekli, že logaritmus při základě x
+
+03:22.730 --> 03:26.420
+se rovná a krát b.
+
+03:26.420 --> 03:28.460
+Takže co s tím?
+
+03:28.460 --> 03:31.010
+Začněme s tímto tady.
+
+03:31.010 --> 03:33.420
+x na n-tou se rovná a krát b.
+
+03:33.420 --> 03:35.670
+Jak bychom to mohli přepsat?
+
+03:35.670 --> 03:38.910
+A je toto.
+
+03:38.910 --> 03:41.670
+A b je toto, že?
+
+03:41.670 --> 03:43.010
+Tak to přepišme.
+
+03:43.010 --> 03:49.770
+Víme, že x na n-tou se rovná a.
+
+03:49.770 --> 03:51.480
+A je toto.
+
+03:51.480 --> 03:55.120
+x na l-tou
+
+03:55.120 --> 03:57.370
+x na l-tou
+
+03:57.370 --> 03:59.500
+A co je b?
+
+03:59.500 --> 04:01.190
+krát b
+
+04:01.190 --> 04:04.740
+B je x na m-tou, že?
+
+04:04.740 --> 04:07.380
+Teď nedělám žádné finty.
+
+04:07.380 --> 04:09.320
+Ale co je (x na l-tou) krát (x na m-tou)?
+
+04:09.320 --> 04:13.730
+Víme z exponentů, že když násobíme
+
+04:13.730 --> 04:17.390
+se stejným základem a odlišnými exponenty,
+
+04:17.390 --> 04:19.025
+pouze sčítáme exponenty.
+
+04:19.025 --> 04:22.830
+Takže toto se rovná - vyberu si neutrální barvu - .
+
+04:22.830 --> 04:24.660
+Nevím, jestli jsem to řekl správě,
+
+04:24.660 --> 04:25.300
+ale chápete.
+
+04:25.300 --> 04:27.560
+Když máte stejný základ a násobíte,
+
+04:27.560 --> 04:28.930
+můžete pouze sčítat exponenty.
+
+04:28.930 --> 04:32.390
+To se rovná x na -- chci stále měnit barvy, protože
+
+04:32.390 --> 04:33.870
+si myslím, že je to tak lepší --
+
+04:33.870 --> 04:39.590
+na (l+m)-tou.
+
+04:39.590 --> 04:42.520
+-- Je trochu nepraktické stále měnit barvy, ale... --
+
+04:42.520 --> 04:43.820
+Chápete, co říkám.
+
+04:43.820 --> 04:47.590
+Takže x na n-tou se rovná x na (l+m)-tou.
+
+04:47.590 --> 04:49.790
+x dám sem.
+
+04:49.790 --> 04:51.350
+-- Och, chtěl jsem to mít zeleně- --
+
+04:51.350 --> 04:53.530
+x na (l+n)-tou.
+
+04:53.530 --> 04:54.050
+Takže co teď víme?
+
+04:54.050 --> 04:58.980
+Víme, že x na n-tou se rovná x na (l+m)-tou.
+
+04:58.980 --> 05:00.220
+Že?
+
+05:00.220 --> 05:02.510
+Máme stejný základ mocniny,
+
+05:02.510 --> 05:06.370
+tyto exponenty se musí rovnat.
+
+05:06.370 --> 05:18.863
+Takže víme, že n se rovná l+m.
+
+05:18.863 --> 05:21.270
+Co to pro nás znamená?
+
+05:21.270 --> 05:23.590
+Teď jsem si trochu hrál s logaritmy.
+
+05:23.590 --> 05:25.840
+Dostal jsem se někam?
+
+05:25.840 --> 05:27.590
+Myslím, že vidíte, že ano.
+
+05:27.590 --> 05:31.140
+Jak jinak se dá napsat n?
+
+05:31.140 --> 05:34.510
+Řekli jsme, že x na n-tou se rovná a krát b
+
+05:34.510 --> 05:37.350
+-- och, přeskočil jsem jeden krok --
+
+05:37.350 --> 05:40.080
+TO znamená, že -- vrátím se zpět -- x na n-tou
+
+05:40.080 --> 05:40.710
+se rovná a krát b.
+
+05:40.710 --> 05:44.640
+To znamená, že logaritmus při základu x čísla (a krát b) se rovná n.
+
+05:44.640 --> 05:45.170
+To jste věděli.
+
+05:45.170 --> 05:45.890
+Já ne.
+
+05:45.890 --> 05:47.880
+Doufám, že si uvědomujete, že se nevracím zpět ani nic takového.
+
+05:47.880 --> 05:52.360
+Jen jsem to zapomněl napsat, když jsem to udělal poprvé.
+
+05:52.360 --> 05:53.250
+No nic.
+
+05:53.250 --> 05:54.070
+Takže co je n?
+
+05:54.070 --> 05:55.520
+Jak jinak se dá napsat n?
+
+05:55.520 --> 05:58.400
+Jiný způsob máme rovnou tady.
+
+05:58.400 --> 06:01.640
+Logaritmus při základě x čísla (a krát b).
+
+06:01.640 --> 06:04.840
+Teď víme, že když za to nahradíme n,
+
+06:04.840 --> 06:11.690
+máme logaritmus při základu x čísla (a krát b).
+
+06:11.690 --> 06:13.080
+A čemu se to rovná?
+
+06:13.080 --> 06:14.500
+To se rovná l.
+
+06:14.500 --> 06:18.230
+Jiný způsob, jak napsat l je tu.
+
+06:18.230 --> 06:25.570
+Rovná se logaritmu při základu x čísla a.
+
+06:25.570 --> 06:27.710
+A co je m?
+
+06:27.710 --> 06:30.792
+m je tady.
+
+06:30.792 --> 06:35.970
+Takže logaritmus při základu x čísla b.
+
+06:35.970 --> 06:38.990
+A tady máme naši první vlastnost logaritmů.
+
+06:38.990 --> 06:44.620
+Logaritmus při základu x čísla (a krát b) se rovná
+
+06:44.620 --> 06:48.130
+logaritmu při základu x čísla a plus logaritmus při základu x čísla b.
+
+06:48.130 --> 06:50.880
+A toto vám to doufám dokázalo.
+
+06:50.880 --> 06:55.460
+A jestli chcete vědět, proč to tak funguje,
+
+06:55.460 --> 07:00.400
+je to proto, že logaritmy jsou vlastně pouze exponenty.
+
+07:00.400 --> 07:02.250
+S tímto vás opouštím
+
+07:02.250 --> 07:04.470
+a v dalším videu vám dokážu další
+
+07:04.470 --> 07:05.900
+vlastnost logaritmů.
+
+07:05.900 --> 07:07.670
+Na shledanou.
+
+07:07.670 --> 07:07.990
+-

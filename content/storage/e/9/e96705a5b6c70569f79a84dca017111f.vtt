@@ -1,0 +1,546 @@
+WEBVTT
+
+00:00.613 --> 00:01.797
+- [Instructor] We have already covered
+
+00:01.797 --> 00:06.511
+the notion of area between
+a curve and the x-axis
+
+00:06.511 --> 00:08.624
+using a definite integral.
+
+00:08.624 --> 00:11.364
+We are now going to then extend this
+
+00:11.364 --> 00:14.336
+to think about the area between curves.
+
+00:14.336 --> 00:16.124
+So let's say we care about the region
+
+00:16.124 --> 00:19.583
+from x equals a to x equals b
+
+00:19.583 --> 00:23.229
+between y equals f of x
+and y is equal to g of x.
+
+00:23.229 --> 00:25.063
+So that would be
+
+00:25.063 --> 00:26.313
+this area right
+
+00:27.803 --> 00:28.636
+over here.
+
+00:29.498 --> 00:31.124
+So based on what you already know
+
+00:31.124 --> 00:33.074
+about definite integrals,
+
+00:33.074 --> 00:35.582
+how would you actually
+try to calculate this?
+
+00:35.582 --> 00:38.159
+Well one natural thing that you might say
+
+00:38.159 --> 00:39.297
+is well look,
+
+00:39.297 --> 00:41.317
+if I were to take the integral
+
+00:41.317 --> 00:42.234
+from a to b
+
+00:43.430 --> 00:44.763
+of f of x dx,
+
+00:46.844 --> 00:49.514
+that would give me the entire area
+
+00:49.514 --> 00:50.514
+below f of x
+
+00:51.720 --> 00:53.833
+and above the x-axis.
+
+00:53.833 --> 00:56.132
+And then if I were to subtract from that
+
+00:56.132 --> 00:58.848
+this area right over here,
+
+00:58.848 --> 01:00.776
+which is equal to
+
+01:00.776 --> 01:03.585
+that's the definite integral from a to b
+
+01:03.585 --> 01:04.918
+of g of x dx.
+
+01:07.045 --> 01:09.530
+Well then I would net out
+with the original area
+
+01:09.530 --> 01:10.830
+that I cared about.
+
+01:10.830 --> 01:13.709
+I would net out with this
+area right over here.
+
+01:13.709 --> 01:15.869
+And that indeed would be the case.
+
+01:15.869 --> 01:17.842
+And we know from our
+integration properties
+
+01:17.842 --> 01:19.421
+that we can rewrite this as
+
+01:19.421 --> 01:21.348
+the integral from a to b
+
+01:21.348 --> 01:24.715
+of, let me put some parentheses here,
+
+01:24.715 --> 01:25.548
+of f of x
+
+01:27.409 --> 01:28.492
+minus g of x,
+
+01:29.986 --> 01:30.986
+minus g of x
+
+01:34.189 --> 01:35.559
+dx.
+
+01:35.559 --> 01:37.254
+And now I'll make a claim to you,
+
+01:37.254 --> 01:39.228
+and we'll build a little
+bit more intuition for this
+
+01:39.228 --> 01:40.946
+as we go through this video,
+
+01:40.946 --> 01:43.245
+but over an integral from a to b
+
+01:43.245 --> 01:45.497
+where f of x is greater than g of x,
+
+01:45.497 --> 01:46.821
+like this interval right over here,
+
+01:46.821 --> 01:49.398
+this is always going to be the case,
+
+01:49.398 --> 01:51.395
+that the area between the curves
+
+01:51.395 --> 01:53.415
+is going to be the integral
+
+01:53.415 --> 01:55.830
+for the x-interval that we
+care about, from a to b,
+
+01:55.830 --> 01:58.338
+of f of x minus g of x.
+
+01:58.338 --> 01:59.522
+So I know what you're thinking,
+
+01:59.522 --> 02:01.403
+you're like okay well that
+worked when both of them
+
+02:01.403 --> 02:03.028
+were above the x-axis,
+
+02:03.028 --> 02:04.909
+but what about the case when f of x
+
+02:04.909 --> 02:07.115
+is above the x-axis and g of x
+
+02:07.115 --> 02:08.833
+is below the x-axis?
+
+02:08.833 --> 02:10.296
+So for example,
+
+02:10.296 --> 02:12.897
+let's say that we were to
+think about this interval
+
+02:12.897 --> 02:13.918
+right over here.
+
+02:13.918 --> 02:15.822
+Let's say this is the point c,
+
+02:15.822 --> 02:17.819
+and that's x equals c,
+
+02:17.819 --> 02:20.258
+this is x equals d right over here.
+
+02:20.258 --> 02:22.765
+So what if we wanted to calculate
+
+02:22.765 --> 02:24.348
+this area that I am
+
+02:25.877 --> 02:27.850
+shading in right over here?
+
+02:27.850 --> 02:30.776
+You might say well does
+this actually work?
+
+02:30.776 --> 02:32.471
+Well let's think about now
+
+02:32.471 --> 02:33.971
+what the integral,
+
+02:35.095 --> 02:37.138
+let's think about what the integral
+
+02:37.138 --> 02:40.388
+from c to d of f of x dx represents.
+
+02:44.035 --> 02:48.911
+Well that would represent
+this area right over here.
+
+02:48.911 --> 02:52.161
+And what would the integral from c to d
+
+02:53.601 --> 02:55.768
+of g of x dx represent?
+
+02:56.899 --> 02:59.499
+Well you might say it is
+
+02:59.499 --> 03:01.264
+this area right over here,
+
+03:01.264 --> 03:02.541
+but remember,
+
+03:02.541 --> 03:06.349
+over this interval g of
+x is below the x-axis.
+
+03:06.349 --> 03:09.205
+So this would give you a negative value.
+
+03:09.205 --> 03:11.109
+But if you wanted this total area,
+
+03:11.109 --> 03:12.944
+what you could do is take this blue area,
+
+03:12.944 --> 03:14.314
+which is positive,
+
+03:14.314 --> 03:17.286
+and then subtract this negative area,
+
+03:17.286 --> 03:21.280
+and so then you would get
+the entire positive area.
+
+03:21.280 --> 03:23.811
+Well this just amounted to,
+
+03:23.811 --> 03:26.318
+this is equivalent to the integral
+
+03:26.318 --> 03:27.235
+from c to d
+
+03:28.547 --> 03:29.380
+of f of x,
+
+03:31.520 --> 03:35.119
+of f of x minus g of x again,
+
+03:35.119 --> 03:36.202
+minus g of x.
+
+03:37.859 --> 03:40.436
+Let me make it clear, we've
+got parentheses there,
+
+03:40.436 --> 03:42.436
+and then we have our dx.
+
+03:43.803 --> 03:44.801
+So once again,
+
+03:44.801 --> 03:46.287
+even over this interval when one of,
+
+03:46.287 --> 03:48.145
+when f of x was above the x-axis
+
+03:48.145 --> 03:49.979
+and g of x was below the x-axis,
+
+03:49.979 --> 03:53.787
+we it still boiled down to the same thing.
+
+03:53.787 --> 03:55.297
+Well let's take another scenario.
+
+03:55.297 --> 03:57.108
+Let's take the scenario when they are both
+
+03:57.108 --> 03:59.058
+below the x-axis.
+
+03:59.058 --> 04:02.449
+Let's say that we wanted to go from
+
+04:02.449 --> 04:05.514
+x equals, well I won't
+use e since that is a
+
+04:05.514 --> 04:09.206
+loaded letter in mathematics,
+and so is f and g.
+
+04:09.206 --> 04:11.504
+Well let's just say well
+I'm kinda of running
+
+04:11.504 --> 04:12.758
+out of letters now.
+
+04:12.758 --> 04:15.614
+Let's say that I am gonna go from
+
+04:15.614 --> 04:18.494
+I don't know, let's just call this m,
+
+04:18.494 --> 04:21.141
+and let's call this n right over here.
+
+04:21.141 --> 04:25.134
+Well n is getting, let's
+put n right over here.
+
+04:25.134 --> 04:27.108
+So what I care about
+
+04:27.108 --> 04:28.191
+is this area,
+
+04:29.569 --> 04:31.497
+the area once again below f.
+
+04:31.497 --> 04:33.215
+We're assuming that we're
+looking at intervals
+
+04:33.215 --> 04:34.701
+where f is greater than g,
+
+04:34.701 --> 04:36.791
+so below f and greater than g.
+
+04:36.791 --> 04:38.672
+Will it still amount to this with now
+
+04:38.672 --> 04:40.552
+the endpoints being m and n?
+
+04:40.552 --> 04:42.735
+Well let's think about it a little bit.
+
+04:42.735 --> 04:45.220
+If we were to evaluate that integral
+
+04:45.220 --> 04:46.137
+from m to n
+
+04:48.006 --> 04:51.094
+of, I'll just put my dx here,
+
+04:51.094 --> 04:51.927
+of f of x
+
+04:54.066 --> 04:54.899
+minus,
+
+04:56.226 --> 04:57.309
+minus g of x,
+
+04:58.780 --> 05:01.311
+we already know from
+our integral properties,
+
+05:01.311 --> 05:03.842
+this is going to be equal to the integral
+
+05:03.842 --> 05:05.305
+from m to n
+
+05:05.305 --> 05:06.555
+of f of x dx
+
+05:08.115 --> 05:09.615
+minus the integral
+
+05:11.249 --> 05:12.166
+from m to n
+
+05:13.269 --> 05:14.602
+of g of x dx.
+
+05:15.847 --> 05:17.867
+Now let's think about what
+each of these represent.
+
+05:17.867 --> 05:20.584
+So this yellow integral right over here,
+
+05:20.584 --> 05:21.834
+that would give
+
+05:23.115 --> 05:26.342
+this the negative of this area.
+
+05:26.342 --> 05:28.920
+So that would give a negative value here.
+
+05:28.920 --> 05:31.845
+But the magnitude of it,
+the absolute value of it,
+
+05:31.845 --> 05:34.144
+would be this area right over there.
+
+05:34.144 --> 05:35.677
+Now what would just the integral,
+
+05:35.677 --> 05:37.256
+not even thinking about
+the negative sign here,
+
+05:37.256 --> 05:38.974
+what would the integral of this g of x
+
+05:38.974 --> 05:41.040
+of this blue integral give?
+
+05:41.040 --> 05:43.571
+Well that would give this the negative
+
+05:43.571 --> 05:45.615
+of this entire area.
+
+05:45.615 --> 05:48.401
+But now we're gonna take
+the negative of that,
+
+05:48.401 --> 05:51.907
+and so this part right over here,
+
+05:51.907 --> 05:54.415
+this entire part including
+this negative sign,
+
+05:54.415 --> 05:56.250
+would give us,
+
+05:56.250 --> 05:59.036
+would give us this entire area,
+
+05:59.036 --> 06:00.383
+the entire area.
+
+06:00.383 --> 06:02.171
+This would actually give a positive value
+
+06:02.171 --> 06:04.168
+because we're taking the
+negative of a negative.
+
+06:04.168 --> 06:06.559
+But if with the area that we care about
+
+06:06.559 --> 06:09.671
+right over here, the area that
+we cared about originally,
+
+06:09.671 --> 06:12.759
+we would want to subtract
+out this yellow area.
+
+06:12.759 --> 06:14.663
+Well this right over here,
+
+06:14.663 --> 06:16.219
+this yellow integral from,
+
+06:16.219 --> 06:19.377
+the definite integral
+from m to n of f of x dx,
+
+06:19.377 --> 06:20.398
+that's exactly that.
+
+06:20.398 --> 06:22.674
+That is the negative of that yellow area.
+
+06:22.674 --> 06:25.716
+So if you add the blue area,
+
+06:25.716 --> 06:27.991
+and so the negative of a
+negative is gonna be positive,
+
+06:27.991 --> 06:29.477
+and then this is going to be the negative
+
+06:29.477 --> 06:30.778
+of the yellow area,
+
+06:30.778 --> 06:32.775
+you would net out once again to the area
+
+06:32.775 --> 06:34.493
+that we think about.
+
+06:34.493 --> 06:36.025
+So in every case we saw,
+
+06:36.025 --> 06:37.697
+if we're talking about an interval
+
+06:37.697 --> 06:39.903
+where f of x is greater than g of x,
+
+06:39.903 --> 06:42.341
+the area between the curves
+
+06:42.341 --> 06:44.826
+is just the definite
+integral over that interval
+
+06:44.826 --> 06:47.493
+of f of x minus g of x dx.

@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.740 --> 00:03.010
+Num vídeo anterior, nós derivamos uma fórmula
+
+00:03.010 --> 00:06.160
+para a soma de um sequência geométrica finita
+
+00:06.160 --> 00:10.510
+em que a é o primeiro termo e r é a razão comum.
+
+00:10.510 --> 00:12.220
+O que eu quero fazer nesse vídeo é agora
+
+00:12.220 --> 00:16.030
+pensar sobre a some de uma sequência geométrica infinita.
+
+00:16.030 --> 00:19.900
+E eu sempre considerei isso surpreendente porque
+
+00:19.900 --> 00:22.660
+ou na verdade mais do que surpreendente porque você está
+
+00:22.660 --> 00:25.160
+utilizando a soma de infinitas coisas, mas como você vê,
+
+00:25.160 --> 00:27.550
+você pode de fato encontrar um valor finito
+
+00:27.550 --> 00:30.580
+dependendo de qual for a sua razão comum.
+
+00:30.580 --> 00:32.980
+Então aqui estão algumas coisas para você pensar sobre.
+
+00:32.980 --> 00:35.170
+Um, é se você pode dizer que a soma
+
+00:35.170 --> 00:37.350
+de um infinita sequência geométrica é somente
+
+00:37.350 --> 00:41.230
+um limite disso quando n que se aproxima do infinito.
+
+00:41.230 --> 00:45.950
+Então você pode dizer, o que é o limite
+
+00:45.950 --> 00:53.690
+quando n se aproxima do infinito desse negócio, da some desde k
+
+00:53.690 --> 01:04.069
+igual à 0 até n de a vezes r elevado à k.
+
+01:04.069 --> 01:06.110
+O que seria a mesma coisa do que calcular o limite
+
+01:06.110 --> 01:08.560
+quando n se aproxima do infinito bem aqui.
+
+01:08.560 --> 01:12.410
+Então isso seria a mesma coisa de que o limite
+
+01:12.410 --> 01:16.440
+quando n se aproxima do infinito de todo esse negócio aqui.
+
+01:16.440 --> 01:17.940
+Deixe-me copiar e colar para que
+
+01:17.940 --> 01:20.070
+eu não precise continuar trocando de cores.
+
+01:20.070 --> 01:23.430
+Então copia e depois cola.
+
+01:23.430 --> 01:26.141
+Então, qual é o limite quando n se aproxima do infinito aqui?
+
+01:26.141 --> 01:27.640
+Vamos pensar sobre isso por um segundo.
+
+01:27.640 --> 01:28.820
+Eu sugiro que você pause o vídeo,
+
+01:28.820 --> 01:30.220
+e eu te direi uma dica.
+
+01:30.220 --> 01:33.000
+Pense que se r é maior que um,
+
+01:33.000 --> 01:35.244
+para r igual à um, e na verdade,
+
+01:35.244 --> 01:36.660
+deixe-me fazer isso claro, vamos pensar
+
+01:36.660 --> 01:39.900
+sobre isso para o valores absolutos de r maior que um,
+
+01:39.900 --> 01:42.450
+os valores absolutos de r igual à um,
+
+01:42.450 --> 01:47.180
+e dos valores absolutos de r menor que um.
+
+01:47.180 --> 01:49.250
+Bom, eu estou assumindo que você pensou nisso sozinho.
+
+01:49.250 --> 01:55.210
+Então se o valor absoluto de r é maior que um,
+
+01:55.210 --> 01:59.660
+conforme o exponente cresce rapidamente, enquanto isso se aproxima do infinito,
+
+01:59.660 --> 02:02.040
+esse número está se tornando grande,
+
+02:02.040 --> 02:03.560
+imensamente grande.
+
+02:03.560 --> 02:05.570
+E essa coisa toda so está se tornando,
+
+02:05.570 --> 02:07.240
+ou pelo menos se você pensar no valor absoluto,
+
+02:07.240 --> 02:08.615
+dessa coisa toda, ela está
+
+02:08.615 --> 02:10.690
+se tornando um número muito muito grande.
+
+02:10.690 --> 02:14.350
+Se r é igual a um, então o denominador
+
+02:14.350 --> 02:16.190
+está se tornando zero.
+
+02:16.190 --> 02:18.480
+E se você está dividindo pelo denominador,
+
+02:18.480 --> 02:20.930
+essa fórmula não lhe é útil.
+
+02:20.930 --> 02:22.680
+Mas essa fórmula pode ser útil,
+
+02:22.680 --> 02:25.700
+e nós podemos utilizá-la para nos dar
+
+02:25.700 --> 02:29.390
+um resultado aproximado, quando o valor absoluto de r
+
+02:29.390 --> 02:31.811
+está entre zero e um.
+
+02:31.811 --> 02:33.560
+Nós já falamos sobre isso, nós nem estamos
+
+02:33.560 --> 02:35.309
+lidando com o geométrico, nós nem estamos
+
+02:35.309 --> 02:38.570
+falando sobre uma sequência geométrica em que r é igual a zero.
+
+02:38.570 --> 02:43.400
+Então vamos pensar num caso em que o valor absoluto de r
+
+02:43.400 --> 02:47.260
+é maior que zero, e é menor que um.
+
+02:47.260 --> 02:49.410
+O que vai acontecer nesse caso?
+
+02:49.410 --> 02:52.820
+Bem, o denominador irá fazer sentido, bem aqui.
+
+02:52.820 --> 02:55.960
+E bem aqui, o que irá acontecer?
+
+02:55.960 --> 02:58.640
+Bem, se você considera isso um valor absoluto
+
+02:58.640 --> 03:02.960
+menor que um, e você o calcula para maiores e maiores
+
+03:02.960 --> 03:05.650
+exponentes, toda vez que você o multiplica por si mesmo,
+
+03:05.650 --> 03:09.410
+você terá um número menor que o valor absoluto.
+
+03:09.410 --> 03:12.210
+Então esse termo bem aqui, esse termo inteiro,
+
+03:12.210 --> 03:15.860
+será zero quando n se aproxima do infinito.
+
+03:15.860 --> 03:16.970
+Imagine que r é 1/2.
+
+03:16.970 --> 03:18.970
+Você está elevando 1/2 para a centésima potência,
+
+03:18.970 --> 03:21.420
+1/2 para a milésima potência, 1/2 para a milionésima potência,
+
+03:21.420 --> 03:22.880
+1/2 para a bilionésima potência.
+
+03:22.880 --> 03:25.300
+Isso rapidamente se aproxima de zero.
+
+03:25.300 --> 03:28.340
+Então isso vai para o zero se o valor absoluto de r
+
+03:28.340 --> 03:30.390
+for menor que um.
+
+03:30.390 --> 03:38.370
+Então, nós podemos dizer que isso é igual a a dividido por um menos r.
+
+03:42.900 --> 03:46.450
+Então, por exemplo, se eu tenho uma sequência geométrica,
+
+03:46.450 --> 03:49.070
+Se eu tenho uma infinita sequência geométrica,
+
+03:49.070 --> 03:50.400
+vamos usar uma simples.
+
+03:50.400 --> 03:52.470
+Digamos que o meu primeiro termo é um,
+
+03:52.470 --> 03:57.150
+e então multiplique cada termo sucessivo por 1/3.
+
+03:57.150 --> 04:07.680
+Então será um mais 1/3 mais 1/3 ao quadrado mais um 1/3
+
+04:07.680 --> 04:12.620
+elevado a três, e nós podemos continuar para sempre.
+
+04:12.620 --> 04:15.292
+Isso está nos dizendo que a soma, a soma infinita
+
+04:15.292 --> 04:17.000
+eu tenho um número infinito de termos aqui,
+
+04:17.000 --> 04:19.779
+isso é um conceito fascinante aqui,
+
+04:19.779 --> 04:21.053
+irá resultar nisso aqui.
+
+04:21.053 --> 04:27.020
+Será o primeiro termo, um, dividido por
+
+04:27.020 --> 04:29.560
+um menos minha razão comum.
+
+04:29.560 --> 04:32.160
+Minha razão comum nesse caso é 1/3.
+
+04:32.160 --> 04:37.260
+Um menos 1/3, que será a mesma coisa que 1 dividido por 2/3,
+
+04:37.260 --> 04:41.630
+que é igual a 3/2, ou você pode visualizar isso como 1 mais 1/2.
+
+04:41.630 --> 04:44.733
+Isso é algo muito impressionante.

@@ -1,0 +1,461 @@
+WEBVTT
+
+00:00.387 --> 00:02.219
+Burada f(x)-in
+x+2-nin
+
+00:02.219 --> 00:04.984
+mütləq qiymətinə bərabər olduğu verilib.
+
+00:04.984 --> 00:07.345
+Biz isə f(x)dx müəyyən inteqralının
+
+00:07.345 --> 00:09.903
+-4-dən 0-a olan qiymətini tapmaq istəyirik.
+
+00:09.903 --> 00:11.651
+Videonu dayandırıb
+
+00:11.651 --> 00:13.364
+cavabı tapmağa çalışın.
+
+00:13.364 --> 00:14.867
+Bu tipli məsələ ilə ilk dəfə qarşılaşdıqda
+
+00:14.867 --> 00:16.133
+çətinlik çəkə bilərsiniz, çünki mütləq qiymət
+
+00:16.133 --> 00:17.677
+funksiyasının ibtidai funksiyasını
+
+00:17.677 --> 00:19.550
+necə tapılmalı olduğunu bilmirik.
+
+00:19.550 --> 00:21.949
+Bunu anlamaq üçün
+
+00:21.949 --> 00:25.244
+f(x)-i mütləq qiymət olaraq yazmayaq.
+
+00:25.244 --> 00:26.705
+Bunu hissə-hissə verilmiş funksiya
+
+00:26.705 --> 00:28.705
+şəklində yenidən yaza bilərik.
+
+00:29.718 --> 00:31.908
+Bunu iki cür düşünəcəyik.
+
+00:31.908 --> 00:35.833
+Birincisi, mütləq qiymətin yerləşdiyi
+
+00:35.833 --> 00:37.989
+intervalın
+
+00:37.989 --> 00:39.743
+müsbət olduğu vəziyyət və
+
+00:39.743 --> 00:41.205
+mütləq qiymətin yerləşdiyi
+
+00:41.205 --> 00:43.077
+intervalın mənfi olduğu qiymət.
+
+00:43.077 --> 00:45.723
+Dəyişəcəyimiz nöqtə
+
+00:45.723 --> 00:48.978
+x+2-nin 0 olduğu və ya
+
+00:48.978 --> 00:51.212
+x-in -2 olduğu nöqtədir.
+
+00:51.212 --> 00:52.592
+x-in -2-dən kiçik
+
+00:52.592 --> 00:56.620
+olduğu və x-in -2-dən böyük və ya
+
+00:56.620 --> 00:59.181
+bərabər olduğu intervallara baxaq.
+
+00:59.181 --> 01:00.403
+Bu, kiçik və ya bərabər
+
+01:00.403 --> 01:02.189
+ola bilərdi, o halda ki, bu,
+sadəcə böyükdür.
+
+01:02.189 --> 01:03.976
+İkisi də mütləq qiymətə
+
+01:03.976 --> 01:06.863
+bərabərdir. Bu, davamlı funksiyadır.
+
+01:06.863 --> 01:09.427
+Gəlin daha sadə hala baxaq.
+
+01:09.427 --> 01:11.944
+x -2-dən böyük və ona bərabər olduğu halda
+
+01:11.944 --> 01:15.240
+x+2 müsbət olacaq və ya
+
+01:15.240 --> 01:16.863
+0-dan böyük və ona
+
+01:16.863 --> 01:19.666
+bərabər olacaq. Deməli
+bunun mütləq qiyməti
+
+01:19.666 --> 01:21.781
+x+2 olacaq.
+
+01:21.781 --> 01:23.569
+Deməli x -2-dən böyük və
+
+01:23.569 --> 01:26.011
+ona bərabər olduğu halda
+bu, x+2 olacaq.
+
+01:26.011 --> 01:28.859
+Bəs x-in -2-dən kiçik olduğu halda necə?
+
+01:28.859 --> 01:31.340
+x -2-dən kiçik olduqda
+
+01:31.340 --> 01:34.672
+x+2 mənfi olacaq.
+
+01:34.672 --> 01:36.257
+Əgər mənfi ədədin mütləq qiymətini
+
+01:36.257 --> 01:38.044
+götürsək, onun
+
+01:38.044 --> 01:39.423
+əksini alacağıq.
+
+01:39.423 --> 01:43.330
+Deməli bu, -(x+2) olacaq.
+
+01:43.330 --> 01:46.173
+Bu, məsələnin ən
+
+01:46.173 --> 01:48.247
+çətin hissəsidir və
+
+01:48.247 --> 01:50.077
+bu, riyaziyyatdan daha çox cəbrdir.
+
+01:50.077 --> 01:52.510
+Mütləq qiymət funksiyasını çəkim ki,
+
+01:52.510 --> 01:54.179
+anlamaq rahat olsun.
+
+01:54.179 --> 01:59.949
+Bu, mənim x və y oxumdur.
+
+02:00.326 --> 02:03.826
+Deyək ki, -2-dəyik.
+
+02:03.826 --> 02:07.781
+Biz -2-dən kiçik bir ədədə baxdıqda,
+
+02:07.781 --> 02:10.790
+yəni x-miz -2-dən kiçik olduqda qrafikimiz
+
+02:10.790 --> 02:12.376
+buna bənzəyəcək.
+
+02:12.376 --> 02:20.701
+Qrafikimiz buna bənzəyəcək.
+
+02:21.952 --> 02:25.169
+-2-dən böyük bir ədədə baxdıqda isə
+
+02:25.169 --> 02:27.569
+bunu başqa rənglə edim.
+-2-dən böyük
+
+02:27.569 --> 02:31.486
+bir ədədə baxdıqda isə
+buna bənzəyəcək.
+
+02:32.652 --> 02:34.442
+Buna bənzəyəcək.
+
+02:34.442 --> 02:37.497
+Mavi rənglə göstərilən
+
+02:37.497 --> 02:39.775
+x+2-nin qrafikidir, yəni
+
+02:39.775 --> 02:41.850
+bu, y=x+2-nin qrafikidir.
+
+02:41.850 --> 02:44.127
+Çəhrayı rənglə göstərilən isə
+
+02:44.127 --> 02:47.504
+-x-2-nin qrafikidir.
+
+02:47.504 --> 02:49.538
+Onun bucaq əmsalı mənfidir və
+
+02:49.538 --> 02:51.788
+y-i -2-də kəsir.
+
+02:52.662 --> 02:53.598
+Məntiqlidir.
+
+02:53.598 --> 02:55.881
+Bunun üzərində düşünə
+biləcəyiniz bir çox yol var.
+
+02:55.881 --> 02:57.426
+Bunu parçaladığımıza görə inteqralı
+
+02:57.426 --> 02:58.852
+da parçalaya bilərik.
+
+02:58.852 --> 03:00.355
+Deyə bilərik ki,
+bura yazdığımız
+
+03:00.355 --> 03:02.060
+inteqral -4-dən 2-yə
+
+03:02.060 --> 03:06.160
+bağışlayın səhv dedim.
+
+03:06.160 --> 03:10.160
+-4-dən -2 f(x)-ə bərabərdir,
+hansı ki,
+
+03:11.324 --> 03:14.577
+bu, -x-2 olacaq.
+
+03:14.577 --> 03:17.592
+Mənfi işarəsini mötərizənin içinə vurdum.
+
+03:17.592 --> 03:20.842
+dx.
+üstəgəl -2-dən
+
+03:24.143 --> 03:27.357
+0-a x+2-nin
+
+03:27.357 --> 03:29.107
+müəyyən inteqralı dx.
+
+03:32.159 --> 03:33.735
+Burada nə etdiyimizi bildiyimizə
+
+03:33.735 --> 03:36.184
+əmin olmaq üçün
+əgər bura -4-sə və
+
+03:36.184 --> 03:39.441
+bu 0-sa, buradakı birinci
+inteqral bizə
+
+03:39.441 --> 03:43.024
+buradakı sahəni verəcək.
+
+03:44.518 --> 03:48.986
+-x-2 və x oxu
+
+03:48.986 --> 03:52.199
+arasında qalan sahə nəyə bərabərdir?
+
+03:52.199 --> 03:55.372
+İkinci inteqral isə
+
+03:55.372 --> 03:57.489
+buradakı sahəni, yəni
+x+2 və
+
+03:57.489 --> 04:01.406
+x oxu arasında qalan sahəni verəcək.
+
+04:03.384 --> 04:05.661
+Gəlin bu ikisini hesablayaq.
+
+04:05.661 --> 04:07.249
+Ola bilsin ki, bunları
+üçbucağın
+
+04:07.249 --> 04:09.158
+sahələri ilə hesablaya bilərik,
+
+04:09.158 --> 04:12.124
+amma gəlin bunu analitik və ya riyazi yolla edək.
+
+04:12.124 --> 04:14.442
+-x-in ibtidai funksiyası nəyə bərabərdir?
+
+04:14.442 --> 04:17.696
+Bu, -x-in kvadratı böl 2-yə bərabərdir.
+
+04:17.696 --> 04:19.612
+Burada -2-miz var, deməli
+
+04:19.612 --> 04:21.444
+bunun ibtidai funksiyası isə
+
+04:21.444 --> 04:23.274
+-2x olacaq.
+
+04:23.274 --> 04:26.107
+Bunları -2 və -4-də hesablayacağıq.
+
+04:30.540 --> 04:33.188
+Bu hissənin qiyməti nəyə bərabər olacaq?
+
+04:33.188 --> 04:36.158
+-2-nin kvadratı, bu mənfi vurulsun
+mənfinin kvadratı olduğuna
+
+04:36.158 --> 04:37.337
+görə -4 olacaq.
+
+04:37.337 --> 04:41.279
+-4 böl 2 çıxılsın 2 vur -2.
+
+04:41.279 --> 04:42.362
+Bu, müsbət 4 olacaq.
+
+04:43.271 --> 04:46.315
+-2-dəki qiyməti tapdıq.
+
+04:46.315 --> 04:50.482
+-4-dəki qiyməti tapmağa çalışaq.
+
+04:52.700 --> 04:54.816
+Mənfi 16 böl 2,
+
+04:54.816 --> 04:59.039
+çıxılsın 2 vur -4.
+
+04:59.039 --> 05:00.872
+Bu, müsbət 8 olacaq.
+
+05:02.698 --> 05:05.793
+Bu bizə hansı cavabı verəcək?
+
+05:05.793 --> 05:09.543
+Bu, -2-dir.
+
+05:10.399 --> 05:15.406
+Bu, -8-dir, deməli bu hissə
+
+05:17.903 --> 05:20.178
+0-a bərabər olacaq.
+
+05:20.178 --> 05:21.115
+Hesablamanı düzgün etdim?
+
+05:21.115 --> 05:23.926
+Bəli. 16/2=8.
+Bu mənfidir, bu isə müsbətdir.
+
+05:23.926 --> 05:26.075
+Bu, 0-a bərabər olacaq.
+
+05:26.075 --> 05:28.965
+Bu, -2 üstəgəl 4 olacaq,
+
+05:28.965 --> 05:31.238
+yəni 2.
+
+05:31.238 --> 05:34.854
+Çəhrayı rəngdə olan ifadənin cavabı 2-dir.
+
+05:34.854 --> 05:36.927
+Mavi rəngdə olan ifadənin cavabı isə
+
+05:36.927 --> 05:39.206
+bu, x kvadratı böl 2-nin
+
+05:39.206 --> 05:42.039
+ibtidai funksiyasıdır,
+üstəgəl 2x.
+
+05:44.697 --> 05:47.543
+Bunu 0 və -2-də hesablayacağıq.
+
+05:47.543 --> 05:48.928
+Bu ifadəni 0-da hesablamaq lazımdır.
+
+05:48.928 --> 05:50.674
+Bu, 0 olacaq.
+0-dan isə
+
+05:50.674 --> 05:54.416
+-2-nin kvadratı böl 2-ni çıxacağıq,
+
+05:54.416 --> 05:57.545
+yəni müsbət 4 böl 2,
+
+05:57.545 --> 05:58.847
+hansı ki, 2-yə bərabərdir.
+
+05:58.847 --> 06:01.122
+Bunun üzərinə isə 2 vur -2 gələcəyik.
+
+06:01.122 --> 06:02.289
+Yəni -4.
+
+06:05.629 --> 06:09.659
+Bu, -2-nin
+
+06:09.659 --> 06:12.409
+mənfisi olacaq, yəni müsbət 2.
+
+06:13.318 --> 06:14.539
+Bu, 2 üstəgəl 2-dir.
+
+06:14.539 --> 06:16.088
+Bu, məntiqlidir.
+Çəhrayı rəngdə olan
+
+06:16.088 --> 06:19.135
+hissə 2-dir.
+Bu hissə də həmçinin 2-dir.
+
+06:19.135 --> 06:21.968
+Burada simmetriya var.
+
+06:23.083 --> 06:25.273
+Burada simmetriya var.
+
+06:25.273 --> 06:27.101
+Bu ikisini topladıqda
+
+06:27.101 --> 06:31.700
+inteqralımızın 4-ə bərabər olduğunu tapırıq.
+
+06:31.700 --> 06:34.147
+Cavabımızı yoxlamaq üçün
+
+06:34.147 --> 06:35.936
+deyə bilərsiniz ki,
+burada hündürlük 2-dir.
+
+06:35.936 --> 06:38.988
+Bu oturacaq da 2-dir.
+
+06:38.988 --> 06:42.160
+2 vur 2 vur 1/2 = 2.
+
+06:42.160 --> 06:43.706
+Burada da eynidir.
+
+06:43.706 --> 06:45.376
+Bu, buranın və
+
+06:45.376 --> 06:48.700
+buranın sahəsinin niyə 2-yə bərabər
+olmasının həndəsi əsaslandırmasıdır.

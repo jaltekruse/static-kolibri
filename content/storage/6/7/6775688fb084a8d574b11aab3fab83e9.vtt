@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.100 --> 00:08.490
+Ein Handy kostet $600 und
+verliert jedes Jahr 25% seines Werts.
+
+00:08.490 --> 00:12.550
+Erstelle eine Funktion,
+die den Wert des Handys V(t),
+
+00:12.550 --> 00:14.630
+bei der der Wert also
+eine Zeitfunktion ist,
+
+00:14.630 --> 00:17.860
+t Jahre nachdem es verkauft wurde, angibt.
+
+00:17.860 --> 00:20.280
+Halte das Video und und versuche es,
+
+00:20.280 --> 00:22.120
+bevor wir die Aufgabe gemeinsam lösen.
+
+00:22.350 --> 00:25.173
+Lass uns darüber nachdenken.
+
+00:25.173 --> 00:28.831
+Ich erstelle zur Veranschaulichung
+eine Tabelle.
+
+00:28.831 --> 00:35.122
+Wir haben t und V(t) steht für den
+Wert des Handys als eine Funktion von t.
+
+00:35.122 --> 00:37.226
+Es wird für $600 verkauft.
+
+00:37.226 --> 00:40.720
+Wenn t = 0 ist, was ergibt dann V(0)?
+
+00:40.720 --> 00:43.510
+Es ergibt $600.
+
+00:43.510 --> 00:46.638
+Für so viel wird es bei t = 0 verkauft.
+
+00:46.638 --> 00:49.040
+Was passiert bei t = 1?
+
+00:49.040 --> 00:53.600
+Wir wissen, dass das Handy
+jährlich 25% seines Werts verliert.
+
+00:53.600 --> 00:57.690
+Anstatt zu sagen, dass es jährlich
+25% seines Werts verliert,
+
+00:57.690 --> 01:03.970
+kann man auch sagen, dass es jährlich
+100% - 25% seines Werts behält,
+
+01:03.970 --> 01:13.120
+also behält es jährlich 75% seines Werts.
+
+01:13.120 --> 01:16.480
+Wie viel ist es also nach 1 Jahr wert?
+
+01:16.480 --> 01:24.160
+Wir rechnen $600 ⋅ 75%.
+
+01:24.160 --> 01:25.699
+Was ist mit Jahr 2?
+
+01:26.210 --> 01:30.670
+Der Wert aus Jahr 1 wird
+wieder mit 75% multipliziert.
+
+01:30.670 --> 01:35.620
+Also rechnen wir $600 ⋅ 75% ⋅ 75%.
+
+01:35.620 --> 01:41.300
+Wir können es auch als (75%)² schreiben.
+
+01:41.300 --> 01:42.830
+Du siehst das Muster.
+
+01:42.830 --> 02:00.540
+Nach t Jahren ist der Wert
+unseres Handys 600 ⋅ (0,75)^t.
+
+02:00.540 --> 02:11.395
+V(t) = 600 ⋅ (0,75)^t. Fertig.
+
+02:11.735 --> 02:13.483
+Kommen wir zum nächsten Beispiel.
+
+02:14.080 --> 02:19.620
+Ein Biologe hat eine
+Probe mit 6000 Zellen.
+
+02:19.620 --> 02:25.190
+Der Biologe gibt ein Virus hinzu,
+das pro Woche 1/3 der Zellen tötet.
+
+02:25.190 --> 02:29.060
+Erstelle eine Funktion C(t), die die
+verbleibende Anzahl Zellen angibt,
+
+02:29.060 --> 02:32.140
+die Zellen sind also eine Zeitfunktion,
+
+02:32.140 --> 02:36.140
+t Wochen nachdem der
+Virus hinzugegeben wurde.
+
+02:36.140 --> 02:39.817
+Halte wieder das Video an und
+versuche, die Aufgabe zu lösen.
+
+02:40.790 --> 02:43.710
+Ich erstelle wieder eine Tabelle.
+
+02:43.710 --> 02:47.400
+Dieses Mal geht es um Wochen,
+
+02:47.400 --> 02:49.200
+und die Anzahl der Zellen C.
+
+02:49.200 --> 02:51.590
+Es handelt sich um eine Zeitfunktion.
+
+02:51.590 --> 02:56.510
+Bei t = 0 sind 0 Wochen vergangen
+und wir haben 6000 Zellen.
+
+02:56.510 --> 02:57.950
+Das ist eindeutig.
+
+02:57.950 --> 03:00.140
+Wie viele Zellen haben wir nach 1 Woche?
+
+03:00.140 --> 03:01.750
+Was ergibt C(1)?
+
+03:01.750 --> 03:05.960
+Wir wissen, dass das Virus
+wöchentlich 1/3 der Zellen tötet,
+
+03:05.960 --> 03:11.580
+was bedeutet, dass 2/3 der Zellen
+in der nächsten Woche noch leben.
+
+03:11.580 --> 03:17.720
+Nach einer Woche haben
+wir also 6000 ⋅ 2/3.
+
+03:17.720 --> 03:23.753
+Nach 2 Wochen haben wir 2/3 von der Zahl,
+die wir nach 1 Woche hatten.
+
+03:23.753 --> 03:30.630
+Also haben wir 6000 ⋅ 2/3 ⋅ 2/3, was wir
+auch als 6000 ⋅ (2/3)² schreiben können.
+
+03:30.630 --> 03:33.940
+Du siehst vermutlich wieder das Muster.
+
+03:33.940 --> 03:36.830
+Bei t = 0 haben wir 6000,
+
+03:36.830 --> 03:42.440
+dann multiplizieren wir pro
+vergangener Woche mit 2/3.
+
+03:42.440 --> 03:46.656
+Die verbliebenen Zellen als
+Zeitfunktion mit t in Wochen
+
+03:46.656 --> 03:57.687
+bestehen aus unserer ursprünglichen
+Menge multipliziert mit (2/3)^t.
+
+03:57.687 --> 03:59.001
+Wir sind fertig.

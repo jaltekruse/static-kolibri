@@ -1,0 +1,599 @@
+WEBVTT
+
+00:00.000 --> 00:03.340
+Ebben a videóban azt fogjuk megtanulni,
+hogyan lehet meghatározni
+
+00:03.340 --> 00:08.640
+két tetszőleges pont távolságát
+az (xy) koordinátasíkon.
+
+00:08.640 --> 00:10.210
+Látni fogjuk, hogy ez
+
+00:10.210 --> 00:12.870
+valójában csak a Pitagorasz-tétel egy
+alkalmazása.
+
+00:12.870 --> 00:14.040
+Nézzünk egy példát!
+
+00:14.040 --> 00:15.641
+Tegyük fel, hogy van egy pontom.
+
+00:15.641 --> 00:17.950
+(Sötétebb színt fogok használni,
+hogy lássuk a fehér papíron.)
+
+00:17.950 --> 00:22.070
+A pontom tehát a (3; −4).
+
+00:22.070 --> 00:25.180
+Ha ábrázolni akarom, akkor lépek
+1, 2, 3-at,
+
+00:25.180 --> 00:26.480
+és aztán lefelé 4-et:
+
+00:26.480 --> 00:33.440
+1, 2, 3, 4, és itt lesz a (3; −4) pont.
+
+00:33.440 --> 00:40.110
+Legyen egy másik pont a (6; 0),
+
+00:40.110 --> 00:43.980
+tehát 1, 2, 3, 4, 5, 6,
+
+00:43.980 --> 00:46.310
+és y irányban nincs elmozdulás,
+
+00:46.310 --> 00:47.610
+maradunk az x tengelyen.
+
+00:47.610 --> 00:52.086
+Az y koordináta 0, tehát ez lesz a (6; 0) pont.
+
+00:52.086 --> 00:54.060
+És most meg akarjuk határozni
+
+00:54.060 --> 00:56.410
+ennek a két pontnak a távolságát,
+
+00:56.410 --> 01:00.350
+vagyis hogy milyen messze van ez a
+kék pont ettől a narancssárga ponttól.
+
+01:00.350 --> 01:02.110
+Először talán azt mondhatod, hogy
+„De hiszen Sal, szerintem
+
+01:02.110 --> 01:04.440
+eddig még nem volt szó arról, hogy
+hogyan kell kiszámítani egy ilyen távolságot!
+
+01:04.440 --> 01:08.180
+És hogy jön ide a Pitagorasz-tétel,
+hiszen nincs is itt háromszög!”
+
+01:08.180 --> 01:09.690
+Hát, ha nem látsz itt háromszöget,
+
+01:09.690 --> 01:13.770
+majd rajzolok neked egyet.
+
+01:13.770 --> 01:18.060
+Ide rajzolom a háromszöget.
+
+01:18.060 --> 01:20.110
+Különböző színeket fogok használni,
+
+01:20.110 --> 01:23.090
+hogy világosabb legyen.
+
+01:23.090 --> 01:24.650
+Itt van tehát a háromszögünk,
+
+01:24.650 --> 01:25.990
+és rögtön láthatod,
+
+01:25.990 --> 01:27.950
+hogy ez egy derékszögű háromszög,
+
+01:27.950 --> 01:29.810
+ez ugyanis itt derékszög.
+
+01:29.810 --> 01:34.930
+Az alapja vízszintesen megy balról jobbra,
+a jobb oldali szára pedig függőleges,
+
+01:34.930 --> 01:36.710
+tehát egy derékszögű háromszöggel
+van dolgunk.
+
+01:36.710 --> 01:39.210
+Ha ki tudnánk számolni az alap hosszát,
+
+01:39.210 --> 01:42.350
+és hogy mennyi ez a magasság itt,
+akkor alkalmazhatnánk a Pitagorasz-tételt
+
+01:42.350 --> 01:48.510
+a hosszú oldal, a derékszöggel szemközti oldal,
+
+01:48.510 --> 01:50.475
+azaz az átfogó hosszának meghatározásához.
+
+01:50.475 --> 01:56.996
+Ez a távolság ennek a derékszögű
+háromszögnek az átfogója.
+
+01:57.180 --> 02:01.730
+Hadd írjam le: a távolság egyenlő
+
+02:01.730 --> 02:05.660
+ennek a derékszögű háromszögnek
+az átfogójával.
+
+02:05.660 --> 02:07.480
+Egy kicsit nagyobbra rajzolom:
+
+02:07.480 --> 02:10.710
+ez lesz az átfogó,
+
+02:10.710 --> 02:14.540
+ez az egyik befogó a jobb oldalon,
+
+02:14.540 --> 02:16.070
+ami függőleges,
+
+02:16.070 --> 02:18.500
+ez pedig az alap.
+
+02:18.500 --> 02:19.860
+Hogyan határozzuk meg
+
+02:19.860 --> 02:22.550
+– nevezzük ezt a távolságot d-nek,
+
+02:22.550 --> 02:24.540
+ez az átfogónk hossza.
+
+02:24.540 --> 02:27.640
+Hogy határozzuk meg ennek a függőleges
+
+02:27.640 --> 02:30.270
+és ennek a vízszintes oldalnak a hosszát?
+
+02:30.270 --> 02:32.940
+Nézzük először az alapot!
+Mekkora ez a távolság?
+
+02:32.940 --> 02:36.200
+Akár meg is számolhatjuk a
+négyzetrácsos papíron.
+
+02:36.200 --> 02:38.150
+(Zölddel fogom jelölni.)
+
+02:38.150 --> 02:42.786
+Itt x = 3, itt pedig az x = 6, ugye?
+
+02:42.800 --> 02:44.550
+Csak vízszintesen haladunk,
+
+02:44.550 --> 02:47.570
+ez ugyanaz a távolság, mint ez itt.
+
+02:47.570 --> 02:50.710
+Ahhoz, hogy kiszámoljuk ezt a távolságot,
+a végpont x koordinátáját nézzük.
+
+02:50.710 --> 02:53.460
+Mindegy, melyik irányból megyünk,
+hiszen úgyis a négyzetét fogjuk venni,
+
+02:53.460 --> 02:55.390
+vagyis nem számítana,
+ha negatív lenne a szám.
+
+02:55.390 --> 03:03.360
+A távolság tehát 6 mínusz 3 lesz,
+
+03:03.360 --> 03:04.680
+6 − 3.
+
+03:04.680 --> 03:08.610
+Ez a távolság, ami tehát 3,
+
+03:08.610 --> 03:10.340
+vagyis az alap hosszát már ismerjük.
+
+03:10.340 --> 03:11.840
+És csak emlékeztetőül,
+
+03:11.840 --> 03:14.200
+ez az x változásával egyenlő.
+
+03:14.200 --> 03:17.880
+A végpont és a kezdőpont
+x koordinátáinak a különbsége,
+
+03:17.890 --> 03:21.760
+6 − 3. Ez a delta x.
+
+03:21.860 --> 03:25.230
+Most ugyanezzel a meggondolással
+
+03:25.230 --> 03:28.540
+ez a magasság az y változását mutatja.
+
+03:28.540 --> 03:31.290
+Itt fent az y = 0,
+
+03:31.290 --> 03:32.670
+ez az oldal végpontja,
+
+03:32.670 --> 03:34.360
+az y legnagyobb értéke.
+
+03:34.360 --> 03:37.900
+Itt pedig y = −4,
+
+03:37.900 --> 03:42.460
+vagyis az y változása
+0 −(−4).
+
+03:42.460 --> 03:44.930
+Veszem a nagyobb y értéket,
+és kivonom belőle a kisebb y értéket.
+
+03:44.930 --> 03:48.810
+Itt ugye a nagyobb x értékből
+vontuk ki a kisebb x értéket,
+
+03:48.810 --> 03:50.140
+de mindjárt látni fogod,
+hogy négyzetre emeljük,
+
+03:50.140 --> 03:51.830
+tehát ha fordítva csinálnánk,
+
+03:51.830 --> 03:54.330
+és negatív számot kapnánk,
+akkor is ugyanaz lenne a végeredmény.
+
+03:54.330 --> 03:56.030
+Mindenesetre ez itt 4,
+
+03:56.030 --> 03:57.890
+ez az oldal 4 egység hosszú.
+
+03:57.890 --> 04:00.370
+Akár meg is számolhatnánk a négyzetrácson.
+
+04:00.370 --> 04:02.310
+Ez az oldal pedig 3.
+
+04:02.310 --> 04:08.950
+Most akkor alkalmazzuk a
+Pitagorasz-tételt!
+
+04:08.950 --> 04:14.590
+A d távolság négyzete egyenlő lesz
+
+04:14.590 --> 04:18.769
+a Δx négyzete, azaz az x változásának négyzete,
+
+04:18.769 --> 04:23.440
+plusz az y változásának négyzete.
+
+04:23.440 --> 04:24.620
+Ebben nincs semmi különös.
+
+04:24.620 --> 04:26.770
+Ezt néha távolságképletnek hívják,
+
+04:26.770 --> 04:29.380
+de ez nem más, mint a Pitagorasz-tétel.
+
+04:29.380 --> 04:31.660
+Ennek az oldalnak a négyzete,
+plusz ennek az oldalnak a négyzete
+
+04:31.660 --> 04:35.260
+egyenlő az átfogó négyzetével,
+mert ez egy derékszögű háromszög.
+
+04:35.260 --> 04:39.348
+Helyettesítsük be a kapott számokat!
+
+04:39.410 --> 04:44.860
+d² egyenlő lesz (Δx)², azaz 3², plusz
+
+04:44.860 --> 04:48.490
+(Δy)², azaz 4²,
+
+04:48.490 --> 04:53.080
+vagyis 9 + 16 = 25-tel.
+
+04:53.080 --> 04:56.050
+A távolság tehát,
+
+04:56.050 --> 04:57.550
+mivel d² = 25,
+
+04:57.550 --> 05:01.180
+d, a kérdéses távolság...
+
+05:01.180 --> 05:03.615
+– persze nem vesszük a negatív
+négyzetgyökét, hiszen a távolság
+
+05:03.615 --> 05:06.750
+nem lehet negatív,
+tehát a pozitív négyzetgyöke a 25-nek,
+
+05:06.750 --> 05:09.020
+ami egyenlő 5-tel,
+
+05:09.020 --> 05:10.780
+ez a távolság itt tehát 5.
+
+05:10.780 --> 05:13.920
+Vagy ha ezt a távolságot nézzük,
+ez volt az eredeti feladat:
+
+05:13.920 --> 05:16.170
+milyen messze van ez a pont ettől a ponttól?
+
+05:16.170 --> 05:20.180
+A távolságuk 5 egység.
+
+05:20.180 --> 05:23.360
+Amit itt látsz, ezt a két pont
+távolságát megadó képletnek hívják,
+
+05:23.360 --> 05:24.730
+de ez valójában csak a Pitagorasz-tétel.
+
+05:24.730 --> 05:27.000
+És hogy tisztában legyél azzal,
+hogy mennyi féle módon hivatkoznak
+
+05:27.000 --> 05:29.770
+erre a távolságképletre: néha azt mondják,
+
+05:29.770 --> 05:32.030
+hogy ha van két pontunk,
+
+05:32.030 --> 05:37.580
+az egyik legyen (x₁; y₁),
+ez egy konkrét pont,
+
+05:37.580 --> 05:42.880
+és van egy másik pontunk: (x₂; y₂),
+
+05:42.880 --> 05:45.041
+akkor néha ilyen formában is
+
+05:45.041 --> 05:49.030
+láthatod felírva a távolságot
+
+05:49.030 --> 05:51.850
+– ami egy kicsit komplikáltnak tűnik,
+
+05:51.850 --> 05:53.610
+de ez valójában ugyanúgy
+
+05:53.610 --> 05:55.370
+a Pitagorasz-tétel – tehát:
+
+05:55.370 --> 05:59.070
+a d távolság egyenlő
+
+05:59.070 --> 06:18.650
+négyzetgyök alatt (x₂ - x₁)² + (y₂ - y₁)².
+
+06:18.650 --> 06:20.950
+Sok matekkönyvben látod majd így
+
+06:20.950 --> 06:24.760
+a két pont távolságát leíró képletet.
+
+06:24.855 --> 06:27.250
+De teljes időpocsékolás lenne
+ezt memorizálni,
+
+06:27.250 --> 06:30.060
+hiszen valójában nem más,
+mint a Pitagorasz-tétel.
+
+06:30.060 --> 06:32.370
+Ez itt az x változása,
+
+06:32.370 --> 06:35.300
+függetlenül attól, melyik x-et
+választod először vagy másodszor,
+
+06:35.300 --> 06:37.420
+ez az érték lehet akár negatív is,
+
+06:37.420 --> 06:39.470
+hiszen amikor négyzetre emeljük,
+nem lesz negatív.
+
+06:39.470 --> 06:42.900
+Ez meg itt az y változása.
+
+06:42.900 --> 06:45.352
+Ez azt jelenti, hogy a távolság négyzete
+
+06:45.352 --> 06:48.710
+– emlékszel, ugye, hogy ha egy egyenlet
+mindkét oldalát négyzetre emeljük,
+
+06:48.710 --> 06:51.010
+eltűnik a gyökjel –
+
+06:51.010 --> 06:54.900
+a távolság négyzete egyenlő lesz
+ennek a kifejezésnek a négyzetével,
+
+06:54.900 --> 06:57.640
+(Δx)², ahol a Δ jelöli a változást,
+
+06:57.640 --> 07:01.540
+tehát (Δx)² plusz (Δy)².
+
+07:01.540 --> 07:04.170
+Nem szeretnélek összezavarni,
+a Δy az y változását jelöli,
+
+07:04.170 --> 07:06.380
+ezt talán korábban is mondhattam volna.
+
+07:06.380 --> 07:10.030
+Alkalmazzuk most ezt még néhányszor,
+találomra veszek majd pontokat.
+
+07:10.030 --> 07:14.850
+Legyen mondjuk egy pont az
+1, 2, 3, 4, 5, 6,
+
+07:14.850 --> 07:22.200
+mínusz 6, mínusz 4,
+a (−6; −4) pont.
+
+07:22.370 --> 07:24.430
+És mondjuk meg akarom határozni
+ennek a pontnak a távolságát az
+
+07:24.430 --> 07:32.290
+1 és az 1, 2, 3, 4, 5, 6, 7, azaz az (1; 7) ponttól,
+
+07:32.290 --> 07:34.370
+vagyis tudni akarom ezt a távolságot.
+
+07:34.370 --> 07:36.420
+Pontosan ugyanaz az eljárás:
+
+07:36.420 --> 07:38.610
+használjuk a Pitagorasz-tételt.
+
+07:38.610 --> 07:41.830
+Meghatározzuk ezt a távolságot, ami az
+x értékének változása,
+
+07:41.830 --> 07:43.790
+és ezt, ami az y értékének változása.
+
+07:43.790 --> 07:45.955
+Ez a távolság a négyzeten plusz
+ez a távolság a négyzeten
+
+07:45.955 --> 07:48.750
+egyenlő lesz ennek a távolságnak a négyzetével.
+
+07:48.750 --> 07:50.600
+Tehát számoljuk ki!
+
+07:50.600 --> 07:53.910
+Nézzük, mennyit változik az x
+– tudjuk, hogy mindegy, de
+
+07:53.910 --> 07:56.990
+általában a nagyobb x értékből
+vonjuk ki a kisebb x értéket,
+
+07:56.990 --> 07:58.400
+de fordítva is csinálhatnánk –,
+
+07:58.400 --> 08:02.180
+tehát a d távolság négyzete egyenlő
+
+08:02.180 --> 08:04.430
+– mennyit is változik az x?
+
+08:04.430 --> 08:07.300
+Vegyük a nagyobb x mínusz kisebb x-et,
+
+08:07.300 --> 08:09.740
+1 −(−6).
+
+08:09.740 --> 08:14.990
+1 −(−6) a négyzeten plusz az y változásának négyzete.
+
+08:14.990 --> 08:17.530
+Itt van a nagyobb y, a 7.
+
+08:17.530 --> 08:22.490
+7 −(−4), illetve ez a négyzeten.
+
+08:22.550 --> 08:24.430
+Ezeket a számokat véletlenszerűen
+választottam,
+
+08:24.430 --> 08:26.730
+tehát valószínűleg nem jön majd ki
+valami szép kerek szám.
+
+08:26.730 --> 08:27.890
+Azt kapjuk tehát, hogy
+
+08:27.890 --> 08:34.287
+a távolság négyzete egyenlő
+1 −(−6) az 7, 7 a négyzeten,
+
+08:34.287 --> 08:36.340
+ezt akár itt is láthatod, ha megszámlálod,
+
+08:36.340 --> 08:39.689
+1, 2, 3, 4, 5, 6, 7,
+
+08:39.690 --> 08:43.331
+ez a szám itt az x értékének változása.
+
+08:43.400 --> 08:49.310
+Ehhez hozzáadjuk a 7 −(−4)-nek, azaz 11-nek a négyzetét
+
+08:49.310 --> 08:51.540
+– erről a távolságról van szó,
+meg is számlálhatod a négyzeteket,
+
+08:51.570 --> 08:52.650
+egészen 11-ig.
+
+08:52.650 --> 08:55.860
+7-ből kivonva mínusz 4-et
+
+08:55.860 --> 08:57.740
+megkaptuk, hogy a távolság 11.
+
+08:57.740 --> 09:01.750
+Ide jön tehát a 11 a négyzeten.
+
+09:01.750 --> 09:05.000
+Vegyük most elő a számológépet!
+
+09:05.000 --> 09:13.266
+7 a négyzeten plusz 11 a négyzeten
+
+09:13.266 --> 09:16.170
+az 170, a távolság ennek a
+négyzetgyöke lesz, igaz?
+
+09:16.170 --> 09:18.920
+d² = 170.
+
+09:18.920 --> 09:24.030
+Vegyük tehát a 170 négyzetgyökét,
+
+09:24.030 --> 09:28.250
+körülbelül 13,04-ot kapunk.
+
+09:28.250 --> 09:35.870
+A távolság tehát, amit meg akartunk
+határozni, 13,04 egység lesz.
+
+09:35.920 --> 09:38.540
+Remélem, hasznosnak találtad mindezt.

@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.282 --> 00:04.437
+Mám tady dva různé výrazy,
+které chci zderivovat.
+
+00:04.437 --> 00:07.531
+Rád bych, abyste si teď zastavili
+video a zamysleli se nad tím,
+
+00:07.531 --> 00:11.674
+jak byste šli nejprve
+na derivaci tohoto výrazu
+
+00:11.674 --> 00:17.253
+a v čem je to stejné nebo jiné než postup,
+kterým byste derivovali tento výraz.
+
+00:17.253 --> 00:20.525
+Naším cílem nebude derivace
+dopočítat až do konce,
+
+00:20.525 --> 00:26.621
+ale naučit se, jak poznat,
+kterou strategii použít.
+
+00:26.621 --> 00:28.817
+Nejprve pojďme
+na tuhle derivaci.
+
+00:28.817 --> 00:33.260
+Hlavní věcí při práci se složitými
+výrazy, jako jsou tyhle dva,
+
+00:33.260 --> 00:37.210
+je podívat se trochu zdálky
+na strukturu těchto výrazů.
+
+00:37.210 --> 00:38.745
+Mohli bychom
+to říci také tak,
+
+00:38.745 --> 00:43.127
+že je dobré se na výraz podívat zvnějšku
+spíše než zkoumat, co přesně je uvnitř.
+
+00:43.127 --> 00:45.149
+Když se zvnějšku podíváme
+na tenhle výraz,
+
+00:45.149 --> 00:50.500
+tak máme
+sinus něčeho.
+
+00:50.500 --> 00:56.419
+Máme tu sinus něčeho, přičemž ono
+něco zakroužkuji touhle červenou,
+
+00:56.419 --> 00:58.157
+nebo je to možná
+spíš růžová.
+
+00:58.157 --> 01:00.048
+Takhle se na to
+dívá můj mozek.
+
+01:00.048 --> 01:02.416
+Když se na to
+podívám zdálky,
+
+01:02.416 --> 01:05.205
+tak je to
+sinus něčeho.
+
+01:05.205 --> 01:07.551
+To něco bych třeba mohl
+mocnit na nějaký exponent,
+
+01:07.551 --> 01:10.783
+zrovna v tomhle případě
+jde ale o goniometrický výraz.
+
+01:10.783 --> 01:14.117
+Když máte situaci jako je tahle,
+tak je to dobré znamení k tomu,
+
+01:14.117 --> 01:17.343
+abyste použili vzorec
+pro derivaci složené funkce.
+
+01:17.343 --> 01:18.965
+Napíšu to.
+
+01:18.965 --> 01:22.196
+V tomhle případě použijeme
+vzorec pro derivaci složené funkce,
+
+01:22.196 --> 01:24.392
+zkráceně to
+zapíšu jako C.R.
+
+01:24.392 --> 01:25.861
+Jak ho použijeme?
+
+01:25.861 --> 01:32.201
+Zderivujeme vnější funkci
+podle téhle vnitřní
+
+01:32.201 --> 01:35.727
+a vynásobíme to
+derivací vnitřní funkce podle x.
+
+01:35.727 --> 01:39.066
+Napíšu to tak, jak o tom
+můj mozek občas přemýšlí.
+
+01:39.066 --> 01:45.999
+Můžeme to napsat jako
+derivaci podle toho něčeho...
+
+01:45.999 --> 01:51.264
+Udělám zde tohle růžové kolečko,
+abych tohle nemusel celé vypisovat.
+
+01:51.264 --> 01:58.860
+...ze sinu toho něčeho...
+
+01:58.860 --> 02:01.721
+Zatím mě ani nezajímá,
+co oním něčím je.
+
+02:01.721 --> 02:09.389
+...krát derivace podle x
+toho něčeho.
+
+02:09.389 --> 02:12.766
+Jde jen o použití vzorce
+pro derivaci složené funkce,
+
+02:12.766 --> 02:16.208
+ať už je v tomhle
+růžovém kolečku cokoliv.
+
+02:16.208 --> 02:20.291
+Mohlo by to být něco s odmocninami,
+logaritmy nebo čímkoliv jiným,
+
+02:20.291 --> 02:22.838
+ale pokud je to v
+argumentu tohoto sinu,
+
+02:22.838 --> 02:24.319
+tak postupujeme takto.
+
+02:24.319 --> 02:31.090
+Derivace podle toho něčeho ze sinu toho
+něčeho krát derivace podle x toho něčeho.
+
+02:31.090 --> 02:34.208
+Jak tohle bude vypadat
+pro náš případ?
+
+02:34.208 --> 02:36.798
+Tato první část...
+
+02:36.798 --> 02:38.851
+Napíšu to oranžovou.
+
+02:38.851 --> 02:49.765
+Tato první část bude
+cos((x na druhou plus 5) krát cos(x)).
+
+02:49.765 --> 02:51.957
+To je tohle kolečko.
+
+02:51.957 --> 02:55.687
+Ještě bych tady měl dopsat
+závorku pro argument kosinu.
+
+02:55.687 --> 03:04.015
+Tohle musíme vynásobit derivací
+podle x opět z tohohle všeho,
+
+03:04.015 --> 03:10.521
+tedy ze součinu
+(x na druhou plus 5) krát cos(x).
+
+03:10.521 --> 03:13.005
+Sem ještě musím
+dopsat závorku.
+
+03:13.005 --> 03:14.644
+Teď samozřejmě ještě
+nemám hotovo.
+
+03:14.644 --> 03:17.481
+Musím ještě
+zderivovat tohle.
+
+03:17.481 --> 03:21.679
+Zde bych se opět zdálky
+podíval na strukturu výrazu.
+
+03:21.679 --> 03:24.811
+Máme součin
+dvou výrazů.
+
+03:24.811 --> 03:28.187
+Nemáme jeden
+velký výraz,
+
+03:28.187 --> 03:31.440
+který je v argumentu
+funkce sinus či kosinus,
+
+03:31.440 --> 03:34.770
+ani nemáme jeden velký výraz
+umocněný na nějaký exponent.
+
+03:34.770 --> 03:37.297
+Máme součin
+dvou výrazů.
+
+03:37.297 --> 03:43.005
+Máme tenhle výraz,
+který násobíme tímhle.
+
+03:43.005 --> 03:47.658
+Když máme součin dvou výrazů,
+tak nám to poměrně jasně napovídá,
+
+03:47.658 --> 03:52.088
+že k výpočtu téhle části bychom měli
+použít vzorec pro derivaci součinu.
+
+03:52.088 --> 03:55.418
+Mohl bych teď pokračovat a dopočítat
+to, což vám doporučuji udělat,
+
+03:55.418 --> 03:59.097
+ale nás teď zajímají především
+strategie a jak poznat, kterou použít.
+
+03:59.097 --> 04:01.148
+Nyní se přesuňme
+ke druhému příkladu.
+
+04:01.148 --> 04:07.998
+Tohle vypadá mnohem víc jako tenhle
+krok v prvním příkladu než začátek.
+
+04:07.998 --> 04:11.608
+V tomto případě nemáme
+sinus velkého výrazu,
+
+04:11.608 --> 04:14.828
+ani nemáme velký výraz
+umocněný na nějaký exponent,
+
+04:14.828 --> 04:19.852
+ale máme součin dvou výrazů,
+tak jako jsme to viděli tady.
+
+04:19.852 --> 04:26.308
+Máme tento výraz, který
+násobíme tímhle výrazem.
+
+04:26.308 --> 04:28.604
+Můj mozek mi tedy řekne,
+že když mám dva výrazy,
+
+04:28.604 --> 04:30.460
+tak použiju vzorec
+pro derivaci součinu.
+
+04:30.460 --> 04:33.313
+Dva výrazy, které násobíme,
+takže použiju pravidlo o součinu.
+
+04:33.313 --> 04:37.493
+Kdyby to byl jeden výraz dělený druhým,
+použil bych vzorec pro derivaci podílu,
+
+04:37.493 --> 04:39.550
+ale zde to bude
+pravidlo o derivaci součinu.
+
+04:39.550 --> 04:46.860
+Toto pravidlo říká, že to bude
+derivace podle x z prvního výrazu...
+
+04:46.860 --> 04:49.130
+Nakreslím tu místo
+něj oranžové kolečko.
+
+04:49.130 --> 04:52.843
+...krát druhý výraz, místo kterého
+nakreslím modré kolečko.
+
+04:52.843 --> 04:57.926
+K tomu přičteme první výraz,
+nikoliv jeho derivaci,
+
+04:57.926 --> 05:10.627
+vynásobený derivací podle x
+z druhého výrazu.
+
+05:10.627 --> 05:13.567
+Tohle je opět jen vzorec
+pro derivaci součinu.
+
+05:13.567 --> 05:17.375
+sin(x na druhou plus 5) můžete
+dosadit tam, kde je oranžové kolečko,
+
+05:17.375 --> 05:19.902
+a cos(x) tam, kde
+je modré kolečko,
+
+05:19.902 --> 05:23.654
+ale hlavním cílem zde
+není to celé spočítat,
+
+05:23.654 --> 05:27.999
+ale ukázat vám, jak poznat,
+jakou mají tyto výrazy strukturu,
+
+05:27.999 --> 05:32.376
+zamyslet se, zda nejdřív derivovat
+složenou funkci a až pak součin,
+
+05:32.376 --> 05:34.193
+nebo nejdřív derivovat
+součin jako zde.
+
+05:34.193 --> 05:36.541
+I když to ale uděláte,
+ještě nebudete mít hotovo.
+
+05:36.541 --> 05:40.531
+K výpočtu téhle derivace pak bude potřeba
+vzorec pro derivaci složené funkce,
+
+05:40.531 --> 05:45.928
+načež budete pokračovat, dokud
+už nebude třeba nic zderivovat.

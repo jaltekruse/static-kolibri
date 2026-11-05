@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.690 --> 00:04.000
+Zrobiłem kilka filmów na temat dwumianów Newtona i uważam,
+
+00:04.000 --> 00:07.550
+że, kiedy już z nimi skończyliśmy, jest dobra pora na
+
+00:07.550 --> 00:13.660
+dowód pochodnej funkcji w ogólnej postaci.
+
+00:13.660 --> 00:18.500
+Weźmy pochodną z x do potęgi n.
+
+00:18.500 --> 00:20.300
+Jeśli już umiemy posługiwać się dwumianem Newtona,
+
+00:20.300 --> 00:22.440
+mamy narzędzia potrzebne do policzenia tego.
+
+00:22.440 --> 00:23.830
+Jak liczymy tę pochodną?
+
+00:23.830 --> 00:26.070
+Cóż, jaka jest klasyczna definicja pochodnej?
+
+00:26.070 --> 00:36.220
+To granica przy delta x dążącym do 0 z f od
+
+00:36.220 --> 00:39.130
+x plus delta x, prawda?
+
+00:39.130 --> 00:44.210
+W tej sytuacji f od x plus delta x to x plus delta x
+
+00:44.210 --> 00:48.000
+do potęgi n, racja?
+
+00:48.000 --> 00:52.720
+Minus f od x, czyli tutaj po prostu x do potęgi n.
+
+00:52.720 --> 00:54.100
+I to wszystko przez x.
+
+00:57.710 --> 01:01.610
+Znając dwumian Newtona, możemy znaleźć
+
+01:01.610 --> 01:05.200
+rozwinięcie x plus delta x do potęgi n.
+
+01:05.200 --> 01:07.340
+A jeśli o dwumianie Newtona nie słyszeliście, to zapraszam do
+
+01:07.340 --> 01:10.040
+moich filmów z kategorii "Pre-calculus" i obejrzenia
+
+01:10.040 --> 01:11.710
+tych dotyczących właśnie dwumianu Newtona.
+
+01:11.710 --> 01:15.290
+Dwumian Newtona mówi nam, że to jest równe,
+
+01:15.290 --> 01:20.170
+będę potrzebował do tego trochę miejsca, granicy przy
+
+01:20.170 --> 01:23.310
+delta x dążącym do 0.
+
+01:23.310 --> 01:24.860
+Co mówi dwumian Newtona?
+
+01:24.860 --> 01:26.960
+To będzie równe, zrobię tylko licznik,
+
+01:26.960 --> 01:39.630
+x do potęgi n plus n nad 1.
+
+01:39.630 --> 01:42.440
+Jeszcze raz, przejrzyjcie sobie materiały dotyczące dwumianu Newtona, jeśli
+
+01:42.440 --> 01:44.340
+to wygląda dla Was jakby było napisane po łacinie, a Wy byście nie znali łaciny.
+
+01:44.340 --> 02:00.780
+n nad 1 razy x do potęgi n-1 delta x plus n nad 2 x do potęgi
+
+02:00.780 --> 02:07.650
+n-2, czyli x do n-2 razy delta x do kwadratu.
+
+02:07.650 --> 02:10.490
+Potem plus, mamy tutaj pełno cyfr i w tym
+
+02:10.490 --> 02:12.560
+dowodzie nie musimy przechodzić przez nie wszystkie, ale
+
+02:12.560 --> 02:14.810
+dwumian Newtona mówi nam ile one wynoszą, i oczywiście
+
+02:14.810 --> 02:20.790
+ostatni wyraz, który dodajemy to 1, bo tam by było
+
+02:20.790 --> 02:22.450
+n nad n, czyli właśnie 1.
+
+02:22.450 --> 02:26.030
+Pozwólcie, że to zapiszę, n nad n.
+
+02:26.030 --> 02:36.920
+To będzie x do potęgi 0 plus delta x do potęgi n.
+
+02:36.920 --> 02:39.030
+To właśnie jest rozwinięcie z dwumianu.
+
+02:39.030 --> 02:44.450
+Teraz z powrotem minus, na zielono, to x plus delta x
+
+02:44.450 --> 02:49.740
+do potęgi n, czyli minus x do potęgi n.
+
+02:49.740 --> 02:51.840
+Tam jest x do potęgi n, wiem, wcisnąłem to tam.
+
+02:51.840 --> 02:56.810
+I to wszystko przez delta x.
+
+02:56.810 --> 02:58.590
+Sprawdźmy, czy uda się coś uprościć.
+
+02:58.590 --> 03:00.940
+Po pierwsze, tutaj mamy x do potęgi n, a na samym końcu
+
+03:00.940 --> 03:05.880
+odejmujemy x do potęgi n, czyli te dwie rzeczy się skrócą.
+
+03:05.880 --> 03:09.080
+Jeśli przyjrzymy się każdemu wyrazowi, każdy wyraz w liczniku zawiera delta x,
+
+03:09.080 --> 03:13.310
+czyli możemy podzielić licznik
+
+03:13.310 --> 03:16.820
+i mianownik przez delta x.
+
+03:16.820 --> 03:19.210
+To jest to samo, co 1 przez delta x razy
+
+03:19.210 --> 03:19.960
+to wszystko.
+
+03:19.960 --> 03:29.670
+To będzie równe granicy przy delta x dążącym do 0 z,
+
+03:29.670 --> 03:31.910
+jeśli podzielimy górę i dół przez delta x, albo
+
+03:31.910 --> 03:34.530
+przemnożymy licznik przez 1 przez delta x,
+
+03:34.530 --> 03:42.310
+dostaniemy n nad 1 razy x do potęgi n-1.
+
+03:42.310 --> 03:45.580
+Czym jest delta x podzielone przez delta x? To wynosi 1.
+
+03:45.580 --> 03:52.440
+Plus n nad 2 razy x do potęgi n-2.
+
+03:52.440 --> 03:56.310
+Tam było delta x do kwadratu, ale podzieliliśmy przez delta x,
+
+03:56.310 --> 03:57.940
+więc tutaj dostaniemy samo delta x.
+
+03:57.940 --> 03:59.490
+Delta x.
+
+03:59.490 --> 04:02.100
+Tutaj mamy całe mnóstwo wyrazów, wszystkie dzielimy
+
+04:02.100 --> 04:04.180
+przez delta x.
+
+04:04.180 --> 04:07.190
+A ostatni składnik to delta x do potęgi n, ale to też
+
+04:07.190 --> 04:09.130
+dzielimy przez delta x.
+
+04:09.130 --> 04:14.550
+Czyli ostatni wyraz staje się n nad n, x do potęgi 0 to 1,
+
+04:14.550 --> 04:17.940
+możemy to pominąć, delta x do potęgi n podzielone przez delta x.
+
+04:17.940 --> 04:21.910
+Czyli to jest delta x do potęgi n-1.
+
+04:25.150 --> 04:26.690
+Co robimy teraz?
+
+04:26.690 --> 04:28.505
+Pamiętajcie, mówimy o granicy przez delta x
+
+04:28.505 --> 04:30.760
+dążącym do 0.
+
+04:30.760 --> 04:33.220
+Jeśli delta x dąży do 0, praktycznie każdy wyraz
+
+04:33.220 --> 04:37.290
+zawierając delta x staje się 0.
+
+04:37.290 --> 04:40.850
+Mnożąc przez 0, dostaje się 0.
+
+04:40.850 --> 04:42.650
+Pierwszy składnik nie zawiera delta x, ale wszystkie
+
+04:42.650 --> 04:43.730
+pozostałe już tak.
+
+04:43.730 --> 04:45.950
+Każdy inny wyraz, nawet po podzieleniu przez delta x,
+
+04:45.950 --> 04:46.680
+zawiera w sobie delta x.
+
+04:46.680 --> 04:47.930
+Czyli to będzie 0.
+
+04:47.930 --> 04:50.970
+Wszystkie składniki to 0, wszystkie z pozostałych
+
+04:50.970 --> 04:52.940
+n-1 wyrazów się zerują.
+
+04:52.940 --> 04:58.390
+A to, z czym zostaliśmy jest równe n nad 1
+
+04:58.390 --> 05:02.520
+razy x do potęgi n-1.
+
+05:02.520 --> 05:04.530
+A ile wynosi n nad 1?
+
+05:04.530 --> 05:13.070
+To jest równe n silnia przez 1 silnia, podzielone przez n-1 silnia,
+
+05:13.070 --> 05:17.170
+razy x do potęgi n-1.
+
+05:17.170 --> 05:19.390
+1 silnia to 1.
+
+05:19.390 --> 05:23.430
+Jeśli mamy 7 silnia podzielone przez 6 silnia, to jest 7.
+
+05:23.430 --> 05:26.070
+Albo jeśli mamy 3 silnia podzielone przez 2 silnia, to
+
+05:26.070 --> 05:27.650
+po prostu 3, można to wyliczyć.
+
+05:27.650 --> 05:30.660
+10 silnia przez 9 silnia, to 10.
+
+05:30.660 --> 05:32.830
+Czyli n silnia podzielone przez n-1 silnia,
+
+05:32.830 --> 05:34.600
+wynosi n.
+
+05:34.600 --> 05:39.540
+Czyli to jest równe n razy x do potęgi n-1.
+
+05:39.540 --> 05:43.866
+To jest pochodna x do potęgi n.
+
+05:43.866 --> 05:45.900
+n razy x do potęgi n-1.
+
+05:45.900 --> 05:52.470
+Właśnie policzyliśmy pochodną dla dowolnej dodatniej liczby całkowitej z
+
+05:52.470 --> 05:55.610
+x do potęgi n, gdzie n jest liczbą całkowitą dodatnią.
+
+05:55.610 --> 05:59.790
+A jak zobaczymy później, ten sposób działa dla wszystkich liczb
+
+05:59.790 --> 06:02.990
+rzeczywistych i funkcji wykładniczej.
+
+06:02.990 --> 06:05.980
+Zobaczycie to w jednym z kolejnych filmów.
+
+06:05.980 --> 06:08.860
+Kolejna rzecz, na którą chcę zwrócić uwagę jest to, że
+
+06:08.860 --> 06:10.150
+mówiłem, że potrzebna nam była znajomość dwumianu Newtona.
+
+06:10.150 --> 06:12.050
+Ale jeśli się nad tym zastanowić, nie musieliśmy tak
+
+06:12.050 --> 06:15.630
+naprawdę znać dwumianu Newtona, bo potrafilibyśmy to
+
+06:15.630 --> 06:17.960
+rozwinięcie... Mamy na myśli to, że troszkę trzeba wiedzieć, ale
+
+06:17.960 --> 06:19.350
+po małych eksperymentach zdalibyśmy sobie sprawę,
+
+06:19.350 --> 06:25.470
+że rozwijając a plus b do potęgi n,
+
+06:25.470 --> 06:29.040
+pierwszym wyrazem będzie a do potęgi n, a drugim
+
+06:29.040 --> 06:35.670
+n razy a do potęgi n-1 razy b.
+
+06:35.670 --> 06:37.320
+I potem będziemy mieli kolejne wyrazy.
+
+06:37.320 --> 06:40.190
+Ale te są jedynymi, które odgrywają w tym dowodzie jakąś rolę,
+
+06:40.190 --> 06:43.575
+bo wszystkie inne się kasują, gdy delta x
+
+06:43.575 --> 06:44.980
+osiąga 0.
+
+06:44.980 --> 06:47.110
+Także, jeśli tylko wiedzielibyśmy, że możemy tak robić,
+
+06:47.110 --> 06:49.150
+ale jednak lepiej to liczyć dysponując już dwumianem Newtona.
+
+06:49.150 --> 06:50.880
+Zignorujcie to, co powiedziałem, jeśli trochę zamieszałem.
+
+06:50.880 --> 06:55.280
+Mam na myśli tylko to, że mogliśmy powiedzieć, że
+
+06:55.280 --> 06:56.950
+reszta tych wyrazów to zera.
+
+06:56.950 --> 06:59.700
+Tak czy owak, mam nadzieję, że to spełniło Wasze oczekiwania.
+
+06:59.700 --> 07:01.960
+Do zobaczenia w następnych filmach.

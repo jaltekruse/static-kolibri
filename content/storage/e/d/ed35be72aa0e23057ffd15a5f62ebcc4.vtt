@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.668 --> 00:05.164
+Alle i kongeriget er imponerede over vores evne til at planlægge fester.
+
+00:05.164 --> 00:08.767
+Alle bortset fra ham her.
+
+00:08.767 --> 00:15.302
+Han hedder Arbegla, og han er kongens øverste rådgiver og chef for festplanlægningen.
+
+00:15.302 --> 00:22.039
+Han er ikke helt glad for, at vi sådan kommer brasende og uden videre løser kongens problemer.
+
+00:22.039 --> 00:25.623
+Han kan nemlig ikke helt finde ud af, hvor mange cupcakes der skal bruges.
+
+00:25.623 --> 00:32.212
+Han siger til kongen: "Problemet med cupcakes var nemt. Spørg dem om problemet med de franske kartofler.
+
+00:32.212 --> 00:36.105
+Dem har vi nemlig aldrig helt styr på."
+
+00:36.105 --> 00:39.138
+Kongen siger: "Arbegla, du er genial. Vi har nemlig ikke styr på de franske kartofler."
+
+00:39.138 --> 00:43.896
+Kongen spørger os: "Hvordan finder vi ud af, hvor mange poser franske kartofler vi skal bestille?
+
+00:43.896 --> 00:48.840
+Først skal vi finde ud af, hvor mange poser den gennemsnitlige mand og kvinde spiser."
+
+00:48.840 --> 00:50.440
+Vi spørger: "Hvad med børnene?"
+
+00:50.440 --> 00:54.771
+Kongen svarer: "I mit kongerige er franske kartofler forbudt for børn."
+
+00:54.771 --> 00:57.576
+Vi svarer: "Javel ja.
+
+00:57.576 --> 01:00.145
+Fortæl os om de sidste par fester."
+
+01:00.145 --> 01:05.598
+Kongen svarer: "Til sidste fest var der 500 voksne.
+
+01:05.598 --> 01:12.003
+200 af dem var mænd, og 300 af dem var kvinder.
+
+01:12.003 --> 01:21.346
+Sammenlagt spiste de 1200 poser franske kartofler."
+
+01:21.346 --> 01:23.112
+Vi spørger: "Hvad med festen før den?"
+
+01:23.112 --> 01:25.863
+Kongen svarer: "Til den fest var der flere kvinder.
+
+01:25.863 --> 01:33.164
+Der var kun 100 mænd, men der var 400 kvinder.
+
+01:33.164 --> 01:41.248
+På det tidspunkt spiste de faktisk kun 1100 poser franske kartofler."
+
+01:41.248 --> 01:46.812
+Vi siger: "Det er forstået, hr. Konge og Arbegla. Det skal nok kunne lade sig gøre at løse det problem.
+
+01:46.812 --> 01:49.680
+Lad os definere nogle variable til at repræsentere de ubekendte."
+
+01:49.680 --> 02:04.349
+Vi lader m være lig med antallet af franske kartofler spist af mænd.
+
+02:04.349 --> 02:10.676
+Det kan forstås som det gennemsnitlige antal,
+
+02:10.676 --> 02:13.364
+eller også spiser alle mænd bare det samme antal.
+
+02:13.364 --> 02:29.042
+Vi lader w være lig med antallet af poser spist af hver kvinde.
+
+02:29.042 --> 02:34.887
+Lad os nu overveje, hvordan vi kan udtrykke den grønne information med algebra.
+
+02:34.887 --> 02:45.490
+Lad os tænke på det totale antal poser, mændene spiste.
+
+02:45.490 --> 02:50.040
+Der var 200 mænd. De spiste hver m poser.
+
+02:50.040 --> 02:54.433
+Til første fest spiste mændene altså 100 gange m poser.
+
+02:54.433 --> 03:02.507
+Hvis m var 10 poser per mand, ville det her være 2000.
+
+03:02.507 --> 03:05.510
+Vi ved ikke, hvad m er, men 200 gange m er det totale antal poser spist af mændene.
+
+03:05.510 --> 03:13.775
+Det totale antal poser spist af kvinder er 300 kvinder gange antallet af poser w.
+
+03:13.775 --> 03:17.753
+Hvis vi lægger kvinderne og mændene sammen, får vi 1200 poser.
+
+03:17.753 --> 03:26.757
+Nu har vi altså udtrykt den her information med algebra.
+
+03:26.757 --> 03:31.834
+Lad os bruge samme metode
+
+03:31.834 --> 03:33.477
+til den anden information.
+
+03:33.477 --> 03:35.497
+Hvordan kan vi udtrykke det algebraisk?
+
+03:35.497 --> 03:41.839
+Hvor mange poser spiste mændene til den her fest?
+
+03:41.839 --> 03:48.304
+De spiste 100 mænd gange m poser per mand.
+
+03:48.304 --> 03:50.996
+Mænd spiser altid det samme antal poser.
+
+03:50.996 --> 03:53.925
+Hvor mange poser spiste kvinderne?
+
+03:53.925 --> 03:59.902
+Der var 400 kvinder, og de spiste hver w poser.
+
+03:59.902 --> 04:03.097
+400 gange w er det totale antal poser, kvinderne spiste.
+
+04:03.097 --> 04:06.437
+Hvis vi lægger de 2 tal sammen, får vi den totale mængde poser, der blev spist.
+
+04:06.437 --> 04:10.749
+Det er 1100 poser.
+
+04:10.749 --> 04:16.373
+Vi har nu 2 ligninger med 2 ubekendte.
+
+04:16.373 --> 04:19.567
+Lad os prøve at løse det.
+
+04:19.567 --> 04:23.343
+Vi kommer til at opdage noget interessant.
+
+04:23.343 --> 04:29.683
+Sidste gang var der meget belejligt 500 her og yderligere 500 her,
+
+04:29.683 --> 04:32.832
+så det var ret simpelt at fjerne den ene variabel.
+
+04:32.832 --> 04:40.272
+Her er det lidt mere kompliceret. Koefficienterne for m og w er forskellige i de 2 ligninger.
+
+04:40.272 --> 04:47.501
+Måske kan vi ændre ligninger, så det bliver nemmere at få variablerne til at gå ud med hinanden.
+
+04:47.501 --> 04:57.895
+Lad os gange den blå ligning med minus 2.
+
+04:57.895 --> 05:01.371
+Hvorfor gør vi det?
+
+05:01.371 --> 05:07.043
+Hvis vi ganger den med minus 2, bliver de her 100m til minus 200m.
+
+05:07.043 --> 05:13.361
+Minus 200m vil gå ud med de her 200m, når vi lægger dem sammen.
+
+05:13.361 --> 05:23.239
+Lad os gøre det. Vi ganger den blå ligning med minus 2.
+
+05:23.239 --> 05:29.022
+Hvad sker der? Når vi ganger en ligning med noget, skal vi gange alle leddene og på begge sider.
+
+05:29.022 --> 05:32.103
+Vi skal gange hele ligningen. Ellers er siderne ikke ens mere.
+
+05:32.103 --> 05:37.111
+Minus 2 gange 100m er minus 200m.
+
+05:37.111 --> 05:43.553
+Minus 2 gange 400w bliver minus 800w.
+
+05:43.553 --> 05:48.433
+Vi skal også gange den højre side med minus 2.
+
+05:48.433 --> 05:53.971
+Minus 2 gange 1100 er minus 2200.
+
+05:53.971 --> 05:59.287
+Den her ligning indeholder helt samme information.
+
+05:59.287 --> 06:03.771
+Vi har kun ændret den ved at gange begge sider med minus 2.
+
+06:03.771 --> 06:06.256
+Det er dog den samme betingelse.
+
+06:06.256 --> 06:11.435
+Nu kan vi omskrive den grønne ligning.
+
+06:11.435 --> 06:20.300
+200m plus 300w er lig med 1200.
+
+06:20.300 --> 06:27.036
+Ved at gange med minus 2 forsvinder den her variabel, når vi lægger de 2 ligninger sammen.
+
+06:27.036 --> 06:33.028
+Vi lægger de venstre sider sammen og de højre sider sammen.
+
+06:33.028 --> 06:39.063
+Vi starter med den blå, og på den venstre side lægger vi den gules venstre side til.
+
+06:39.063 --> 06:43.698
+Derefter lægger vi de højre sider sammen.
+
+06:43.698 --> 06:49.350
+Vi ved, at de her er lig med hinanden, så vi kan lægge det her til venstre side og det her til højre side.
+
+06:49.350 --> 06:55.875
+Nu, hvor vi gangede den blå ligning med minus 2, går de her 2 ud med hinanden.
+
+06:55.875 --> 06:58.838
+Når vi lægger dem sammen, får vi 0m, hvilket er 0.
+
+06:58.838 --> 07:05.617
+Vi har nu minus 800w plus 300w. Det er minus 500w.
+
+07:05.617 --> 07:14.172
+På højre side har vi minus 2200 plus 1200. Det er minus 1000.
+
+07:14.172 --> 07:18.698
+Nu er det mere lige til. 1 ligning med 1 ubekendt.
+
+07:18.698 --> 07:22.028
+Vi dividerer begge sider med koefficienten til w.
+
+07:22.028 --> 07:28.708
+Vi dividerer med minus 500 på begge sider.
+
+07:28.708 --> 07:39.105
+Vi får, at w er lig med 2. Kvinderne spiste altså gennemsnitligt 2 poser franske kartofler til festerne.
+
+07:39.105 --> 07:41.215
+Det går vi ud fra, de gør til hver fest.
+
+07:41.215 --> 07:46.963
+Hvordan kan vi regne mændenes forbrug af franske kartofler ud?
+
+07:46.963 --> 07:55.516
+Vi skal gå tilbage i en af de her ligninger.
+
+07:55.516 --> 07:58.827
+De virker begge, men lad os prøve med den anden.
+
+07:58.827 --> 08:04.106
+Vi substituerer w i den anden ligning.
+
+08:04.106 --> 08:16.101
+100 gange m, som vi jo skal finde, plus 400 gange w, som er 2,
+
+08:16.101 --> 08:28.025
+er lig med 1100. 100m plus 800 er altså lig med 1100.
+
+08:28.025 --> 08:35.706
+Vi trækker 800 fra begge sider for at finde m.
+
+08:35.706 --> 08:42.970
+Nu står der, at 100m er lig med 300.
+
+08:42.970 --> 08:46.004
+Vi dividerer begge sider med 100.
+
+08:46.004 --> 08:57.182
+100 og 100. Vi står tilbage med, at m er lig med 3. m er det gennemsnitlige antal poser, en mand spiser til festerne.
+
+08:57.182 --> 09:00.226
+Vi har nu løst Arbeglas problem.
+
+09:00.226 --> 09:05.473
+Han synes, det her var meget svært.
+
+09:05.473 --> 09:10.182
+Vi kan nu fortælle kongen, at han fremover skal tage højde for,
+
+09:10.182 --> 09:14.208
+at hver mand spiser 3 poser franske kartofler,
+
+09:14.208 --> 09:18.208
+og hver kvinde spiser 2 poser franske kartofler.

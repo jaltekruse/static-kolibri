@@ -1,0 +1,151 @@
+WEBVTT
+
+00:00.589 --> 00:08.341
+Máme neurčitý integrál 4 krát 'x na třetí'
+lomeno ('x na čtvrtou' plus 7) krát dx.
+
+00:08.501 --> 00:11.077
+Jak to vyřešíme?
+Zdá se to být složité.
+
+00:11.387 --> 00:17.860
+Klíčové je si uvědomit,
+že máme tento výraz 'x na čtvrtou' plus 7
+
+00:18.039 --> 00:25.938
+a zároveň i derivaci tohoto výrazu,
+ta je rovna 4 krát 'x na třetí'.
+
+00:26.171 --> 00:30.584
+Derivace 'x na čtvrtou'
+je 4 krát 'x na třetí', derivace 7 je 0.
+
+00:30.746 --> 00:36.438
+To napovídá,
+že bychom měli použít substituci.
+
+00:36.765 --> 00:38.958
+Substituce.
+
+00:39.154 --> 00:46.971
+Použijeme substituci.
+Čemu chceme, aby se rovnalo 'u'?
+
+00:47.198 --> 00:48.231
+Zamyslete se nad tím,
+
+00:48.397 --> 00:52.701
+jakmile přijdete na toto,
+zbytek je jen strojové počítání.
+
+00:53.909 --> 00:58.448
+Chceme, aby se 'u' rovnalo tomu výrazu,
+jehož derivace se tu vyskytuje.
+
+00:58.634 --> 01:08.985
+'u' tedy bude 'x na čtvrtou' plus 7.
+Čemu bude rovno 'du'?
+
+01:09.560 --> 01:18.160
+'du' bude derivace 'x na čtvrtou' plus 7
+podle proměnné 'x',
+
+01:18.335 --> 01:27.099
+tedy (4 krát 'x na třetí' plus 0) krát dx,
+zapsal jsem to ve tvaru diferenciálu.
+
+01:27.278 --> 01:37.299
+Je to naprosto ekvivalentní tvrzení,
+že 'du lomeno dx' je 4 krát 'x na třetí'.
+
+01:37.482 --> 01:42.764
+'du lomeno dx' je způsob zápisu
+derivace 'u' podle proměnné 'x'.
+
+01:42.926 --> 01:46.320
+Není to formálně zlomek,
+
+01:46.512 --> 01:50.316
+ale často se s tím dá
+pseudo-manipulovat jako se zlomky.
+
+01:50.421 --> 01:56.239
+Chcete-li to převést do tohoto tvaru,
+můžete předstírat, že násobíte 'dx'.
+
+01:56.378 --> 01:59.240
+Jsou ale ekvivalentní
+a my chceme tvar diferenciálu,
+
+01:59.377 --> 02:02.092
+abychom mohli využít substituce.
+
+02:02.254 --> 02:07.006
+Proč je to užitečné?
+Přepíšu to zde, aby to bylo zřejmé.
+
+02:07.181 --> 02:08.988
+Původní integrál přepíšeme na
+
+02:09.107 --> 02:15.054
+(4 krát 'x na třetí' krát dx)
+lomeno ('x na čtvrtou' plus 7).
+
+02:15.223 --> 02:17.981
+Teď je jasné, co je 'du' a co je 'u'.
+
+02:18.475 --> 02:30.012
+'u' je 'x na čtvrtou' plus 7,
+'du' je 4 krát 'x na třetí' krát dx.
+
+02:30.181 --> 02:36.870
+Původní integrál tedy přepíšu.
+
+02:37.018 --> 02:41.630
+To fialové je 'du'.
+
+02:41.820 --> 02:44.521
+Držím se barevného rozlišení.
+
+02:44.685 --> 02:49.031
+…lomeno ('x na čtvrtou' plus 7),
+což je 'u'.
+
+02:49.418 --> 03:04.014
+Nebo také integrál z
+(1 lomeno 'u') krát 'du'.
+
+03:04.255 --> 03:08.906
+Co je integrál z (1 lomeno 'u') krát 'du'?
+
+03:10.034 --> 03:15.887
+To je přirozený logaritmus
+absolutní hodnoty…
+
+03:16.074 --> 03:19.363
+Absolutní hodnota je zde proto,
+aby to platilo i pro záporná čísla.
+
+03:19.748 --> 03:23.604
+Funguje to, v jiném videu vám to ukážu.
+
+03:23.797 --> 03:32.213
+Přirozený logaritmus absolutní hodnoty 'u'
+a pak tu můžeme mít nějakou konstantu.
+
+03:32.396 --> 03:38.497
+To je výsledek jako funkce 'u'.
+Teď za 'u' dosadíme.
+
+03:38.679 --> 03:41.551
+Co se stane pak?
+
+03:41.748 --> 03:54.951
+Zůstane nám přirozený logaritmus
+absolutní hodnoty ('x na čtvrtou' plus 7).
+
+03:55.312 --> 03:57.969
+Nesmíme zapomenout na C
+
+03:58.282 --> 04:02.753
+A jsme hotovi!

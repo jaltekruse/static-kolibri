@@ -1,0 +1,295 @@
+WEBVTT
+
+00:00.358 --> 00:03.170
+Agora que estamos familiarizados com
+o método de Euler,
+
+00:03.017 --> 00:06.766
+façamos um exercício que testa
+nosso entendimento
+
+00:06.766 --> 00:11.664
+matemático dele, ou pelo menos,
+o processo de uso.
+
+00:11.818 --> 00:13.889
+Ele diz, considere a equação diferencial:
+
+00:13.889 --> 00:15.352
+derivada de y em relação a x
+
+00:15.352 --> 00:17.767
+é igual a três x menos dois y.
+
+00:17.767 --> 00:20.963
+Assuma que y igual a g de x é uma solução
+
+00:20.963 --> 00:23.912
+da equação diferencial com a
+condição inicial que
+
+00:23.912 --> 00:26.964
+g de zero é igual a k, onde k
+é uma constante.
+
+00:26.964 --> 00:29.369
+O método de Euler começando com
+x igual a zero
+
+00:29.369 --> 00:31.775
+com o passo igual a um dá a aproximação
+
+00:31.775 --> 00:35.293
+que g de dois é aproximadamente 4,5.
+
+00:35.293 --> 00:38.119
+Ache o valor de k.
+
+00:38.119 --> 00:40.346
+Mais uma vez, isto diz ei, veja,
+começaremos
+
+00:40.346 --> 00:42.614
+com esta condição inicial que
+x é igual a zero,
+
+00:42.614 --> 00:46.913
+y é igual a k, e usaremos o método
+de Euler
+
+00:46.913 --> 00:48.139
+com o passo de um.
+
+00:48.159 --> 00:50.373
+Essencialmente usaremos,
+nós iremos avançar
+
+00:50.373 --> 00:53.345
+de zero para um, e depois de
+um para dois.
+
+00:53.345 --> 00:57.744
+e essa aproximação nos dará 4,5.
+
+00:57.744 --> 01:00.031
+Então, dado que começamos em k,
+deveríamos poder
+
+01:00.031 --> 01:02.226
+descobrir qual k nos leva a g de dois
+
+01:02.226 --> 01:05.929
+ser aproximadamente 4,5.
+
+01:05.929 --> 01:08.367
+Com isso, encorajo você a
+pausar o vídeo,
+
+01:08.367 --> 01:10.884
+e tentar descobrir por si.
+
+01:12.093 --> 01:15.889
+Assumo que você tentou descobrir
+sozinho.
+
+01:15.889 --> 01:17.747
+Agora podemos fazer juntos.
+
+01:17.747 --> 01:19.353
+E farei a mesma coisa que fizemos
+
+01:19.353 --> 01:21.206
+no primeiro vídeo do método de Euler.
+
+01:21.206 --> 01:25.834
+Farei uma tabela aqui, então,
+deixem fazer a tabela.
+
+01:25.834 --> 01:28.106
+Posso fazer uma linha melhor que essa.
+
+01:28.106 --> 01:29.569
+Essa é só um pouco mais reta,
+
+01:29.569 --> 01:31.287
+Mas fará o trabalho.
+
+01:31.287 --> 01:35.710
+Façamos esta a coluna x, vou deixar
+algum espaço
+
+01:35.710 --> 01:37.846
+para o y, devo fazer alguns
+
+01:37.846 --> 01:43.796
+cálculos aqui, y, e então, dy/dx.
+
+01:44.011 --> 01:46.924
+Agora, podemos começar em nossa
+condição inicial.
+
+01:46.924 --> 01:49.362
+Quando x é igual a zero, y é
+igual a k.
+
+01:49.362 --> 01:52.950
+Quando x é igual a zero, y é
+igual a k.
+
+01:53.042 --> 01:56.250
+Então, qual será nossa derivada
+nesse ponto?
+
+01:56.250 --> 01:59.429
+Bem, dy/dx é igual a três x menos
+dois y.
+
+01:59.579 --> 02:04.579
+Neste caso, é três vezes zero, menos
+duas vezes k,
+
+02:04.768 --> 02:08.521
+que é igual a menos dois k.
+
+02:08.521 --> 02:11.676
+Então, podemos incrementar com mais
+um passo.
+
+02:11.676 --> 02:18.526
+Temos o passo de um, então a cada
+passo
+
+02:18.526 --> 02:24.662
+incrementaremos x por um,
+
+02:25.002 --> 02:28.159
+então, estaremos em um.
+
+02:28.177 --> 02:30.139
+Agora, qual será o nosso novo y?
+
+02:30.139 --> 02:32.844
+Bem, se incrementamos x em um,
+e nossa inclinação é
+
+02:32.844 --> 02:36.768
+menos dois k, significa que iremos
+incrementar y por
+
+02:36.768 --> 02:40.082
+menos dois k vezes um, ou apenas
+menos dois k.
+
+02:41.282 --> 02:42.290
+Então, menos dois k.
+
+02:43.082 --> 02:46.529
+Assim, k mais, menos dois k é menos k.
+
+02:46.529 --> 02:49.652
+Nossa aproximação usando o método
+de Euler nos leva ao ponto
+
+02:49.652 --> 02:54.911
+um, menos k, e então, qual será
+a inclinação
+
+02:54.911 --> 02:56.915
+começando nesse ponto?
+
+02:56.915 --> 03:01.923
+Um, menos k, nossa inclinação será
+três vezes nosso x,
+
+03:01.923 --> 03:07.213
+que é um, menos duas vezes nosso y,
+que é menos k agora,
+
+03:07.213 --> 03:12.716
+e isto é igual a três mais dois k.
+
+03:12.727 --> 03:16.914
+E agora faremos outro passo de um,
+
+03:16.914 --> 03:18.966
+pois este é o tamanho do nosso passo.
+
+03:18.966 --> 03:21.149
+Outro, opa, chegarei a dois.
+
+03:21.149 --> 03:23.316
+Agora, este é o que nos interessa certo?
+
+03:23.319 --> 03:24.945
+Pois tentamos aproximar g de dois.
+
+03:24.945 --> 03:27.698
+Então temos que dizer, o que nossa
+aproximação nos fornece
+
+03:27.698 --> 03:30.769
+para y quando x é igual a dois?
+
+03:30.769 --> 03:32.450
+E teremos algo expresso em k,
+
+03:32.450 --> 03:34.145
+mas estão dizendo que será 4,5.
+
+03:34.145 --> 03:36.937
+E podemos usar isso para resolver para k.
+
+03:36.967 --> 03:38.366
+Então o que será?
+
+03:38.366 --> 03:41.187
+Se incrementarmos x em um,
+
+03:41.187 --> 03:46.187
+deveríamos incrementar nosso y por
+um vezes três mais dois k.
+
+03:47.548 --> 03:52.470
+Incrementaremos por três mais dois k,
+
+03:52.470 --> 03:54.178
+ou menos k, mais três, mais dois k
+
+03:54.178 --> 03:58.806
+será três mais k.
+
+03:58.806 --> 03:59.975
+E dizem que nossa
+
+03:59.975 --> 04:03.040
+aproximação será 4,5.
+
+04:03.004 --> 04:07.299
+Então três mais k é igual a 4,5.
+
+04:07.335 --> 04:09.657
+Então o k com o qual começamos
+deve ter sido,
+
+04:09.657 --> 04:12.130
+se subtrairmos três dos dois lados,
+
+04:12.130 --> 04:14.858
+é um decimal aqui, deve ter sido
+
+04:14.858 --> 04:19.858
+k igual a 1,5, e você pode verificar isto.
+
+04:19.874 --> 04:21.892
+Se esta condição inicial aqui,
+
+04:21.892 --> 04:26.893
+se g de zero é igual a 1,5, então você
+põe 1,5 aqui.
+
+04:28.963 --> 04:32.580
+E aqui você deve obter 4,5, e terminamos.
+
+04:32.580 --> 04:35.000
+[Legendado por: Laércio Junior]
+[Revisado por: Thales Azevedo]

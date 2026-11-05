@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.937 --> 00:02.954
+- [Voiceover] So let's
+get a basic understanding
+
+00:02.954 --> 00:07.263
+of the comparison test when
+we are trying to decide
+
+00:07.263 --> 00:10.823
+whether a series is
+converging or diverging.
+
+00:10.823 --> 00:12.661
+So let's think of two series.
+
+00:12.661 --> 00:16.630
+So let's say that I have
+this magenta series here.
+
+00:16.630 --> 00:17.690
+It's an infinite series from n equals one
+
+00:17.690 --> 00:19.474
+to infinity of a sub n.
+
+00:19.474 --> 00:21.773
+We're speaking in generalities here,
+
+00:21.773 --> 00:23.743
+and let's have another one.
+
+00:23.743 --> 00:27.818
+That's the series b sub n
+from n equals one to infinity,
+
+00:27.818 --> 00:30.872
+and we know some things
+about these series.
+
+00:30.872 --> 00:33.768
+The first thing we know
+is that all the terms
+
+00:33.768 --> 00:36.350
+in these series are non-negative.
+
+00:36.350 --> 00:41.350
+So a sub n and b sub n
+are greater than or equal
+
+00:41.857 --> 00:45.948
+to zero, which tells us
+that these are either
+
+00:45.948 --> 00:49.527
+going to diverge to positive infinity
+
+00:49.527 --> 00:54.527
+or they're going to converge
+to some finite value.
+
+00:55.894 --> 00:57.286
+They're not going to
+oscillate, because you're not
+
+00:57.286 --> 00:58.551
+going to have negative values here.
+
+00:58.551 --> 00:59.964
+You can't go to negative
+infinity, because you
+
+00:59.964 --> 01:02.318
+don't have negative values here.
+
+01:02.318 --> 01:05.640
+Now, let's say we also know that each
+
+01:05.640 --> 01:08.130
+of the corresponding
+terms in the first series
+
+01:08.130 --> 01:11.221
+are less than or equal
+to the corresponding term
+
+01:11.221 --> 01:13.590
+in the second series.
+
+01:13.590 --> 01:16.401
+Less than or equal to b sub n.
+
+01:16.401 --> 01:18.528
+Once again, this is true for all the ns
+
+01:18.528 --> 01:19.689
+that we care about.
+
+01:19.689 --> 01:22.329
+So n equals one, two, three,
+
+01:22.329 --> 01:25.350
+all the way on, and on, and on.
+
+01:25.350 --> 01:29.328
+So the comparison test
+tells us that because
+
+01:29.328 --> 01:31.875
+all the corresponding terms
+
+01:31.875 --> 01:34.094
+of this series are less
+than the corresponding
+
+01:34.094 --> 01:36.971
+terms here, but they're greater than zero,
+
+01:36.971 --> 01:40.568
+that if this series converges,
+the one that's larger,
+
+01:40.568 --> 01:41.849
+if this one converges, well then the one
+
+01:41.849 --> 01:44.970
+that is smaller than
+it, or I guess when we
+
+01:44.970 --> 01:46.566
+think about it is kind
+of bounded by this one,
+
+01:46.566 --> 01:47.915
+must also converge.
+
+01:47.915 --> 01:49.255
+I'm not doing a formal
+proof here, but hopefully
+
+01:49.255 --> 01:51.409
+that gives you a little bit of intuition.
+
+01:51.409 --> 01:56.409
+So the comparison test tells
+us if, I guess in my brain
+
+01:58.107 --> 02:01.732
+the larger series, the one
+whose corresponding terms
+
+02:01.732 --> 02:04.370
+are at least as large as
+the ones here, if this one
+
+02:04.370 --> 02:06.830
+converges, if this one
+doesn't go unbounded
+
+02:06.830 --> 02:11.413
+towards infinity, it sums
+to some finite value,
+
+02:11.413 --> 02:15.626
+then that tells us that the
+one that is in some ways
+
+02:15.626 --> 02:19.610
+I guess you could say
+smaller must also converge.
+
+02:20.960 --> 02:25.215
+So this one right over
+here must also converge.
+
+02:26.384 --> 02:28.114
+So that must also converge.
+
+02:28.114 --> 02:29.580
+So why is that useful?
+
+02:29.580 --> 02:31.152
+We'll see this in future videos.
+
+02:31.152 --> 02:33.628
+Well if you find if you're
+looking you have your
+
+02:33.628 --> 02:35.684
+a sub n and you're like
+gee, I wish I could prove
+
+02:35.684 --> 02:37.615
+that it converges, I kind
+of have a gut feeling
+
+02:37.615 --> 02:40.372
+it converges, the comparison
+test tells us, well,
+
+02:40.372 --> 02:45.372
+just find another series
+that whose corresponding
+
+02:45.870 --> 02:47.182
+terms are at least as
+large as the corresponding
+
+02:47.182 --> 02:50.309
+terms here, and if you can
+prove that one converges,
+
+02:50.309 --> 02:52.320
+then you're good with this one.
+
+02:52.320 --> 02:53.773
+Of course it would only apply to the case
+
+02:53.773 --> 02:57.755
+where your original
+series, each of the terms
+
+02:57.755 --> 02:59.916
+are non-negative.
+
+02:59.916 --> 03:01.847
+Now what if you went the other way around?
+
+03:01.847 --> 03:04.617
+What if you could prove
+that the magenta series,
+
+03:04.617 --> 03:06.726
+the smaller one, and I
+guess I could kind of
+
+03:06.726 --> 03:08.857
+put them in quotes,
+this one right over here
+
+03:08.857 --> 03:13.857
+is the smaller, I guess
+each of its corresponding
+
+03:14.330 --> 03:15.868
+terms are smaller, what if you could prove
+
+03:15.868 --> 03:18.336
+this one diverges?
+
+03:18.336 --> 03:20.103
+Well if this one
+diverges, it's going to go
+
+03:20.103 --> 03:21.684
+unbounded to infinity.
+
+03:21.684 --> 03:23.370
+It's not going to go to negative infinity.
+
+03:23.370 --> 03:24.160
+All the terms are positive.
+
+03:24.160 --> 03:26.032
+It's not going to diverge because
+
+03:26.032 --> 03:27.451
+it oscillates between two values.
+
+03:27.451 --> 03:29.526
+Once again, if it's
+oscillating between values
+
+03:29.526 --> 03:31.394
+the only way you could do that is if you
+
+03:31.394 --> 03:33.640
+had negative terms here,
+so this would kind of
+
+03:33.640 --> 03:36.597
+be unbounded towards infinity.
+
+03:36.597 --> 03:38.632
+Well if this one is
+unbounded, each of these
+
+03:38.632 --> 03:40.424
+corresponding terms
+are larger, so this one
+
+03:40.424 --> 03:41.758
+must also be unbounded.
+
+03:41.758 --> 03:43.743
+So let's write that down.
+
+03:43.743 --> 03:48.743
+So the comparison test
+tells us if our smaller
+
+03:50.481 --> 03:54.977
+series diverges, if this one diverges,
+
+03:54.977 --> 03:58.495
+then the larger one must also diverge.
+
+04:04.714 --> 04:06.669
+So once again, if you wanted to prove that
+
+04:06.669 --> 04:09.188
+this thing right over
+here is going to diverge,
+
+04:09.188 --> 04:11.262
+and if you have a, once
+again you know that
+
+04:11.262 --> 04:12.930
+all the b sub ns are greater
+than or equal to zero
+
+04:12.930 --> 04:14.772
+and you want to prove it diverges,
+
+04:14.772 --> 04:18.241
+well, maybe you could try
+to find another series
+
+04:18.241 --> 04:19.893
+where each of the
+corresponding terms are less
+
+04:19.893 --> 04:21.912
+than the corresponding
+terms here and you could
+
+04:21.912 --> 04:25.531
+prove this one diverges,
+then you would be all set.
+
+04:25.531 --> 04:29.209
+We're going to start doing
+that in the next few videos.

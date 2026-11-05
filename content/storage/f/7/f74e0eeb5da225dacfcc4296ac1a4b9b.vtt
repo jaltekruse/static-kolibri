@@ -1,0 +1,392 @@
+WEBVTT
+
+00:00.296 --> 00:05.853
+Máme zde funkci f(x), která je přirozený
+logaritmus z druhé odmocniny z x
+
+00:05.853 --> 00:10.332
+a v tomto videu budeme
+chtít spočítat derivaci f.
+
+00:10.332 --> 00:17.150
+Hlavní je si uvědomit, že na f se můžeme
+dívat jako na složení dvou funkcí.
+
+00:17.150 --> 00:20.176
+Můžeme si to
+i nakreslit.
+
+00:20.176 --> 00:24.782
+Když do předpisu funkce f dosadíme x,
+co uděláme jako první?
+
+00:24.782 --> 00:26.403
+Nejprve spočítáme
+jeho odmocninu.
+
+00:26.403 --> 00:39.575
+Když do předpisu dosadíme nějaké x,
+tak nejdříve spočítáme jeho odmocninu,
+
+00:39.575 --> 00:43.192
+čímž dostaneme
+odmocninu z x.
+
+00:43.192 --> 00:44.395
+Co uděláme potom?
+
+00:44.395 --> 00:50.894
+Máme tuto odmocninu
+a spočítáme její přirozený logaritmus.
+
+00:50.894 --> 00:54.328
+Můžeme se na to dívat tak,
+že to dosadíme do jiné funkce,
+
+00:54.328 --> 00:57.421
+která spočítá přirozený logaritmus
+toho, co do ní dosadíme.
+
+00:57.421 --> 01:00.679
+Dělám tady tyhle čtverečky,
+aby bylo vidět, co kam dosazujeme.
+
+01:00.679 --> 01:02.552
+Co nám
+teď vyjde?
+
+01:02.552 --> 01:10.263
+Vyjde nám přirozený
+logaritmus z odmocniny z x,
+
+01:10.263 --> 01:12.308
+což se rovná f(x).
+
+01:12.308 --> 01:18.405
+Na f(x) se tedy můžeme dívat
+jako na tento celý soubor,
+
+01:18.405 --> 01:23.927
+nebo spíše celou
+kombinaci těchto funkcí.
+
+01:23.933 --> 01:29.755
+Toto je f(x), která je v zásadě
+složením dvou funkcí.
+
+01:29.756 --> 01:33.936
+Nejprve dosadíme do jedné funkce
+a výsledek pak dosadíme do druhé funkce.
+
+01:33.936 --> 01:39.137
+Máme zde tedy funkci ‚u‘, která spočítá
+druhou odmocninu toho, co do ní dosadíme,
+
+01:39.137 --> 01:43.734
+takže u(x) se rovná
+odmocnina z x.
+
+01:43.734 --> 01:49.955
+Výslednou hodnotu této funkce pak dosadíme
+do další funkce, kterou si označíme ‚v‘.
+
+01:49.965 --> 01:51.125
+Co dělá
+funkce ‚v‘?
+
+01:51.125 --> 01:53.659
+Spočítá přirozený logaritmus toho,
+co do ní dosadíme.
+
+01:53.659 --> 01:58.829
+V tomto případě, tedy v případě
+funkce f, kterou jsem takto nakreslil,
+
+01:58.829 --> 02:00.454
+‚v‘ spočítá
+přirozený logaritmus...
+
+02:00.454 --> 02:02.138
+Dosazujeme do ní
+odmocninu z x,
+
+02:02.138 --> 02:05.268
+takže spočítá přirozený
+logaritmus odmocniny z x.
+
+02:05.268 --> 02:13.881
+Kdybychom chtěli napsat ‚v‘ v bodě x,
+tak to je přirozený logaritmus z x.
+
+02:13.881 --> 02:16.004
+Vidíme, že f(x)...
+
+02:16.004 --> 02:17.739
+Už jsem to dopředu
+barevně označil.
+
+02:17.739 --> 02:24.316
+f(x) se rovná přirozenému
+logaritmu z odmocniny z x,
+
+02:24.316 --> 02:30.629
+což je ‚v‘ v bodě odmocnina z x,
+tedy ‚v‘ v bodě u(x).
+
+02:30.629 --> 02:33.221
+Je to tedy
+složená funkce,
+
+02:33.221 --> 02:35.724
+což nám napovídá,
+že když ji chceme zderivovat,
+
+02:35.724 --> 02:39.293
+pravidlo pro derivaci složené
+funkce se bude velmi hodit.
+
+02:39.293 --> 02:41.254
+Pravidlo pro derivaci
+složené funkce říká,
+
+02:41.254 --> 02:51.624
+že f s čárkou v bodě x se rovná derivaci
+vnější funkce podle této vnitřní funkce,
+
+02:51.624 --> 02:58.808
+což je ‚v‘ s čárkou
+v bodě u(x),
+
+02:58.822 --> 03:06.721
+krát derivace této vnitřní funkce
+podle x, což je ‚u‘ s čárkou v bodě x.
+
+03:06.721 --> 03:09.226
+Jak tyto
+věci spočítáme?
+
+03:09.226 --> 03:12.572
+Víme, jak zderivovat
+u(x) a v(x).
+
+03:12.572 --> 03:17.246
+‚u‘ s čárkou
+v bodě x se rovná...
+
+03:17.246 --> 03:20.959
+Druhá odmocnina z x je totéž
+jako x na jednu polovinu,
+
+03:20.959 --> 03:22.843
+takže použijeme
+derivaci mocniny.
+
+03:22.843 --> 03:26.525
+Jednu polovinu napíšeme dopředu,
+takže to bude (1 lomeno 2) krát x na...
+
+03:26.525 --> 03:29.101
+Nyní musíme
+exponent zmenšit o 1.
+
+03:29.101 --> 03:32.851
+(1 lomeno 2) minus 1
+je minus (1 lomeno 2).
+
+03:32.851 --> 03:36.230
+Čemu se
+rovná v(x)?
+
+03:36.230 --> 03:38.898
+Pardon, čemu se rovná
+‚v‘ s čárkou v bodě x?
+
+03:38.898 --> 03:42.698
+Derivace přirozeného logaritmu z x
+se rovná 1 lomeno x.
+
+03:42.698 --> 03:45.088
+Ukázali jsme si to
+v jiném videu.
+
+03:45.088 --> 03:48.375
+Nyní už tedy víme, čemu se
+rovná ‚u‘ s čárkou v bodě x.
+
+03:48.375 --> 03:50.585
+Víme také, čemu se rovná
+‚v‘ s čárkou v bodě x,
+
+03:50.585 --> 03:53.005
+ale čemu se rovná
+‚v‘ s čárkou v bodě u(x)?
+
+03:53.005 --> 03:56.945
+‚v‘ s čárkou
+v bodě u(x)...
+
+03:56.945 --> 03:59.305
+Kdekoliv vidíme x,
+musíme místo něj napsat...
+
+03:59.305 --> 04:00.795
+Napíšu to
+trochu lépe.
+
+04:00.795 --> 04:03.985
+Musíme místo
+něj napsat u(x),
+
+04:03.985 --> 04:14.434
+takže ‚v‘ s čárkou v bodě u(x)
+se rovná 1 lomeno u(x),
+
+04:14.434 --> 04:18.310
+což se rovná
+1 lomeno...
+
+04:18.310 --> 04:20.590
+u(x) je odmocnina z x.
+
+04:20.590 --> 04:24.515
+...1 lomeno
+odmocnina z x.
+
+04:24.515 --> 04:31.597
+Zjistili jsme tedy, že tohle se
+rovná 1 lomeno odmocnina z x
+
+04:31.597 --> 04:39.713
+a že ‚u‘ s čárkou v bodě x je
+(1 lomeno 2) krát x na minus (1 lomeno 2).
+
+04:39.713 --> 04:40.906
+x na minus
+(1 lomeno 2)...
+
+04:40.906 --> 04:46.628
+Tohle bych mohl přepsat jako (1 lomeno 2)
+krát 1 lomeno (x na (1 lomeno 2)),
+
+04:46.628 --> 04:51.309
+což je totéž jako (1 lomeno 2) krát
+1 lomeno odmocnina z x,
+
+04:51.309 --> 04:55.631
+což ještě mohu napsat jako
+1 lomeno (2 krát odmocnina z x).
+
+04:55.631 --> 04:58.714
+Čemu se tohle
+tedy rovná?
+
+04:58.714 --> 05:01.125
+To se rovná...
+
+05:01.125 --> 05:02.135
+Napíšu to
+zeleně.
+
+05:02.135 --> 05:07.982
+‚v‘ s čárkou v bodě x je
+1 lomeno odmocnina z x,
+
+05:07.982 --> 05:15.038
+tohle krát ‚u‘ s čárkou v bodě x,
+což je 1 lomeno (2 krát odmocnina z x).
+
+05:15.038 --> 05:17.573
+Čemu se
+rovná tohle?
+
+05:17.573 --> 05:20.024
+Rovná se to...
+
+05:20.024 --> 05:21.214
+Teď už je
+to algebra.
+
+05:21.214 --> 05:22.389
+...1 lomeno...
+
+05:22.389 --> 05:25.803
+Máme zde 2 a odmocnina z x
+krát odmocnina z x se rovná x,
+
+05:25.803 --> 05:29.197
+takže se nám to zjednoduší na
+1 lomeno (2 krát x).
+
+05:29.197 --> 05:30.927
+Snad vám to
+dává smysl.
+
+05:30.927 --> 05:32.316
+Schválně jsem
+to nakreslil,
+
+05:32.316 --> 05:37.608
+abyste si zlepšili své schopnosti
+v poznávání složených funkcí
+
+05:37.608 --> 05:41.278
+a abyste lépe rozuměli některým výrazům
+ve vzorci pro derivaci složené funkce,
+
+05:41.278 --> 05:45.028
+které můžete vidět během hodiny
+diferenciálního počtu nebo v učebnici.
+
+05:45.028 --> 05:49.578
+S trochou cviku budete ale schopni
+počítat, aniž byste psali tohle všechno.
+
+05:49.578 --> 05:54.998
+Řeknete si: „Tohle je složená funkce, je
+to přirozený logaritmus z odmocniny z x.“
+
+05:54.998 --> 05:57.998
+„Je to ‚v‘ v bodě u(x),
+
+05:57.998 --> 06:04.388
+takže musím zderivovat tuto vnější
+funkci podle téhle vnitřní funkce.“
+
+06:04.388 --> 06:19.638
+„Derivace přirozeného logaritmu z něčeho
+podle toho něčeho je 1 lomeno to něco.“
+
+06:19.638 --> 06:21.178
+Přesně to jsme
+tady udělali.
+
+06:21.178 --> 06:22.478
+Můžeme se na
+to dívat tak...
+
+06:22.478 --> 06:24.938
+Jaká by byla derivace
+přirozeného logaritmu z x?
+
+06:24.938 --> 06:26.078
+Bylo by to
+1 lomeno x,
+
+06:26.078 --> 06:28.978
+ale není to přirozený logaritmus z x,
+nýbrž z odmocniny z x,
+
+06:28.978 --> 06:31.538
+takže to bude
+1 lomeno odmocnina z x.
+
+06:31.538 --> 06:35.518
+Zderivujete tedy vnější funkci
+podle vnitřní funkce
+
+06:35.518 --> 06:41.791
+a pak vynásobíte derivací
+vnitřní funkce podle x.
+
+06:41.791 --> 06:44.021
+A máme hotovo.

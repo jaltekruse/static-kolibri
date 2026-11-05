@@ -1,0 +1,670 @@
+WEBVTT
+
+00:00.460 --> 00:03.240
+Otevřeli jste továrnu na výrobu
+obuvi a snažíte se zjistit,
+
+00:03.240 --> 00:08.880
+kolik tisíc párů bot máte vyrobit,
+abyste optimalizovali svůj zisk.
+
+00:08.880 --> 00:20.245
+Zvolme si ‚x‘ jako hledaný počet
+tisíců párů vyrobených bot.
+
+00:20.245 --> 00:22.800
+Nyní se zamysleme,
+kolik peněz vyděláte za jeden pár,
+
+00:22.800 --> 00:24.353
+nebo spíše jaký
+bude váš výnos,
+
+00:24.353 --> 00:28.183
+tedy za kolik peněz
+prodáte jeden pár bot.
+
+00:28.183 --> 00:31.880
+Napišme si sem tedy funkci r(x) udávající
+výnos ‚r‘ jako funkci proměnné x.
+
+00:31.880 --> 00:35.100
+Znáte jeden velkoobchod, který je
+ochotný zaplatit 10 dolarů za pár
+
+00:35.100 --> 00:38.090
+a koupit tolik párů,
+kolik mu nabídnete.
+
+00:38.090 --> 00:41.910
+Váš výnos jako funkce proměnné x
+se tedy bude rovnat 10 krát x.
+
+00:41.910 --> 00:44.240
+Protože ‚x‘ udává počet
+tisíců vyrobených párů,
+
+00:44.240 --> 00:45.430
+tak když je
+x rovno 1,
+
+00:45.430 --> 00:50.420
+znamená to 1 000 vyrobených
+párů krát 10, což je výnos 10 000 dolarů.
+
+00:50.420 --> 00:51.980
+Tady vám ale
+vyjde jen 10,
+
+00:51.980 --> 00:59.850
+takže jde o výnos
+v tisících dolarů.
+
+00:59.850 --> 01:02.470
+Když je x rovno 1, tak to znamená
+1 000 vyrobených párů.
+
+01:02.470 --> 01:09.440
+10 krát 1 říká, že výnos ‚r‛ je roven 10,
+ale doopravdy to znamená 10 000 dolarů.
+
+01:09.440 --> 01:13.010
+Bylo by to jistě krásné podnikání,
+kdybyste měli jen výnosy a žádné náklady,
+
+01:13.010 --> 01:14.175
+jenže vy
+máte náklady.
+
+01:14.175 --> 01:16.510
+Musíte mít materiál,
+museli jste postavit továrnu,
+
+01:16.510 --> 01:19.300
+musíte zaplatit zaměstnancům,
+musíte zaplatit za elektřinu.
+
+01:19.300 --> 01:21.000
+Najali jste tedy
+několik poradců,
+
+01:21.000 --> 01:28.085
+aby vám řekli, jaké jsou vaše náklady
+vyjádřené jako funkce c(x) proměnné x,
+
+01:28.085 --> 01:29.500
+a oni přišli
+s nějakou funkcí.
+
+01:29.500 --> 01:34.040
+Říkají, že je to počet vyrobených
+párů v tisících umocněný na třetí
+
+01:34.040 --> 01:37.820
+minus 6 krát (počet vyrobených párů
+v tisících umocněný na druhou)
+
+01:37.820 --> 01:43.110
+plus 15 krát počet
+vyrobených párů v tisících.
+
+01:43.110 --> 01:49.430
+Tohle bude také
+v tisících dolarů.
+
+01:49.430 --> 01:52.842
+Když už máme funkci r(x)
+pro výnosy a c(x) pro náklady,
+
+01:52.842 --> 01:58.250
+jak vyjádříme zisk
+jakožto funkci proměnné x?
+
+01:58.930 --> 02:07.602
+Váš zisk jako funkce p(x) proměnné x se
+rovná vašim výnosům jako funkci proměnné x
+
+02:07.602 --> 02:12.752
+minus vaše náklady
+jako funkce proměnné x.
+
+02:12.752 --> 02:17.100
+Pokud vyrobíte určité množství,
+jehož prodej vám vynese 10 000 dolarů,
+
+02:17.100 --> 02:19.760
+a náklady na výrobu
+těchto bot jsou 5 000 dolarů,
+
+02:19.760 --> 02:21.859
+tak máte
+zisk 5 000 dolarů.
+
+02:21.859 --> 02:26.970
+Tato čísla z těchto rovnic nedostanete,
+jen je uvádím jako příklad.
+
+02:26.970 --> 02:28.790
+Toto chcete
+optimalizovat.
+
+02:28.790 --> 02:35.910
+Chcete optimalizovat zisk ‚p‛
+vyjádřený jako funkce proměnné x.
+
+02:35.910 --> 02:36.960
+Jak tato
+funkce vypadá?
+
+02:36.960 --> 02:38.870
+Vyjádřil jsem ji
+tu obecně,
+
+02:38.870 --> 02:41.070
+ale my víme,
+čemu je rovno r(x) a c(x).
+
+02:41.070 --> 02:46.360
+Bude to 10 krát x
+minus celý tento výraz,
+
+02:46.360 --> 02:53.510
+takže to bude minus (x na třetí) plus
+6 krát (x na druhou) minus 15 krát x.
+
+02:53.510 --> 02:55.350
+Jenom jsem nejprve
+odečetl x na třetí,
+
+02:55.350 --> 02:57.640
+potom −6 krát (x na druhou),
+takže tam bude plus,
+
+02:57.640 --> 03:00.360
+a nakonec jsem odečetl 15 krát x,
+tudíž tam je −15 krát x.
+
+03:00.360 --> 03:03.010
+Tohle můžeme
+zjednodušit na...
+
+03:03.010 --> 03:07.530
+Máme tu minus (x na třetí)
+plus 6 krát (x na druhou)
+
+03:07.530 --> 03:12.210
+minus 15 krát x plus 10 krát x,
+což je −5 krát x.
+
+03:12.210 --> 03:16.537
+Pokud bychom tuto funkci udávající zisk
+chtěli optimalizovat analyticky,
+
+03:16.537 --> 03:20.000
+nejjednodušší by bylo najít
+stacionární body této funkce
+
+03:20.000 --> 03:23.430
+a podívat se, zda jsou některé z nich
+bodem lokálního minima nebo maxima.
+
+03:23.430 --> 03:26.790
+A pokud některý z nich je bodem
+maxima, pak můžeme říct,
+
+03:26.790 --> 03:28.160
+že tolik bychom
+měli vyrábět.
+
+03:28.160 --> 03:29.202
+Bude to...
+
+03:29.202 --> 03:30.662
+Tímto optimalizujeme...
+
+03:30.662 --> 03:34.900
+Tímto zjistíme množství, které potřebujeme
+vyrobit, abychom optimalizovali náš zisk.
+
+03:34.900 --> 03:40.000
+Abychom našli stacionární body,
+musíme naši funkci zderivovat a zjistit,
+
+03:40.000 --> 03:44.000
+kdy je tato derivace rovna 0
+nebo kdy derivace není definovaná.
+
+03:44.000 --> 03:46.200
+Tak zní definice
+stacionárních bodů.
+
+03:46.200 --> 03:49.680
+p(x) s čárkou se rovná:
+
+03:49.680 --> 03:55.660
+−3 krát (x na druhou)
+plus 12 krát x minus 5.
+
+03:55.660 --> 03:57.980
+Tato funkce je
+definovaná pro všechna x,
+
+03:57.980 --> 04:00.820
+takže jediné stacionární body,
+které dostaneme, jsou body,
+
+04:00.820 --> 04:04.170
+ve kterých je tato
+první derivace rovna 0.
+
+04:04.170 --> 04:10.320
+−3 krát (x na druhou) plus 12 krát x
+minus 5 se tedy musí rovnat 0,
+
+04:10.320 --> 04:11.960
+aby ‚x‘ bylo
+stacionárním bodem.
+
+04:11.960 --> 04:14.180
+Nyní z rovnice
+spočítáme x.
+
+04:14.180 --> 04:17.529
+V zásadě řešíme
+kvadratickou rovnici.
+
+04:17.529 --> 04:21.670
+Abych tam neměl tolik záporných znamének,
+tak vynásobím obě strany −1.
+
+04:21.670 --> 04:23.890
+Rád bych měl
+hezký první koeficient.
+
+04:23.890 --> 04:25.860
+Když obě strany
+vynásobíme −1,
+
+04:25.860 --> 04:33.240
+dostaneme, že 3 krát (x na druhou)
+minus 12 krát x plus 5 je rovno 0.
+
+04:33.240 --> 04:36.620
+‚x‘ nyní spočítáme pomocí vzorečku
+pro kořeny kvadratické rovnice.
+
+04:36.620 --> 04:43.660
+‚x‘ se rovná −b, což je 12,
+plus minus odmocnina…
+
+04:43.660 --> 04:46.560
+Vždycky potřebuji pořádně
+dlouhou odmocninu.
+
+04:46.560 --> 04:50.660
+...odmocnina z b na druhou,
+což je 144,
+
+04:50.660 --> 04:58.050
+minus 4 krát a, které se rovná 3,
+krát c, tedy krát 5,
+
+04:58.050 --> 05:00.880
+to celé lomeno
+2 krát a.
+
+05:00.880 --> 05:03.750
+2 krát 3 je 6.
+
+05:03.750 --> 05:08.610
+‚x‘ je tedy rovno
+12 plus minus odmocnina z...
+
+05:08.610 --> 05:12.270
+4 krát 3 je 12,
+12 krát 5 je 60.
+
+05:12.270 --> 05:16.030
+144 minus 60 je 84.
+
+05:16.030 --> 05:17.940
+To celé
+lomeno 6.
+
+05:17.940 --> 05:23.430
+‚x‘ se tak rovná 12 plus
+odmocnina z 84, to celé děleno 6,
+
+05:23.430 --> 05:29.750
+nebo se ‚x‘ rovná 12 minus
+odmocnina z 84, to celé děleno 6.
+
+05:29.750 --> 05:31.820
+Spočítejme, čemu se
+tyto dva výrazy rovnají.
+
+05:31.820 --> 05:37.070
+Použiji na
+to kalkulačku.
+
+05:37.070 --> 05:40.310
+Dostaneme, že...
+
+05:40.310 --> 05:51.880
+12 plus odmocnina z 84, to celé děleno 6,
+vychází jako 3,5...
+
+05:51.880 --> 05:54.550
+Řekněme, že
+je to 3,53.
+
+05:54.550 --> 05:58.930
+Je to tedy přibližně
+3 celá...
+
+05:58.930 --> 06:02.480
+Raději přidám ještě jedno desetinné místo,
+protože ‚x‘ je v tisících.
+
+06:02.480 --> 06:11.680
+Řekněme 3,528.
+
+06:11.680 --> 06:19.040
+Tohle je tedy 3 528 párů bot,
+protože ‚x‘ je v tisících párů bot.
+
+06:19.040 --> 06:21.180
+Teď pojďme na případ,
+kdy odmocninu odečítáme.
+
+06:21.180 --> 06:27.060
+Vlastně stačí najít naše předchozí
+zadání a změnit sčítání na odčítání.
+
+06:27.060 --> 06:30.470
+Zde to změním
+na odčítání.
+
+06:30.470 --> 06:31.530
+A je to.
+
+06:31.530 --> 06:37.390
+Dostaneme 0,4725.
+
+06:37.390 --> 06:38.540
+Zkusím si to
+zapamatovat.
+
+06:38.540 --> 06:41.690
+0,4725.
+
+06:41.690 --> 06:47.680
+Toto se přibližně
+rovná 0,4725.
+
+06:47.680 --> 06:50.770
+Mám hroznou paměť, takže se
+raději podívám, zda jsem napsal totéž.
+
+06:50.770 --> 06:55.360
+4725,
+v pořádku.
+
+06:55.360 --> 06:58.535
+Zatím o těchto bodech víme jen to,
+že jsou to stacionární body.
+
+06:58.535 --> 07:02.530
+Jsou to body, ve kterých
+je derivace rovna 0.
+
+07:02.530 --> 07:04.590
+Nevíme ale, zda to
+jsou body minima...
+
+07:04.590 --> 07:08.350
+Zda to jsou body, ve kterých funkce nabývá
+minimální hodnotu, maximální hodnotu,
+
+07:08.350 --> 07:09.760
+nebo ani
+jedno z toho.
+
+07:09.760 --> 07:12.480
+Abych to zjistil, použiji
+druhou derivaci, díky níž určím,
+
+07:12.480 --> 07:17.520
+zda je naše funkce v těchto bodech
+konvexní, konkávní, nebo ani jedno z toho.
+
+07:17.520 --> 07:20.580
+Podívejme se tedy
+na druhou derivaci.
+
+07:20.580 --> 07:32.020
+p(x) se dvěma čárkami
+se rovná −6 krát x plus 12.
+
+07:32.020 --> 07:35.450
+Když se podíváme…
+
+07:35.450 --> 07:37.440
+Radši si udělám
+trochu víc místa.
+
+07:37.440 --> 07:44.490
+...když se podíváme na
+‚p‘ se dvěma čárkami v bodě 3,528…
+
+07:44.490 --> 07:46.820
+Zamyslím se.
+
+07:46.820 --> 07:49.300
+Je to něco
+mezi 3 a 4.
+
+07:49.300 --> 07:53.802
+Pokud vezmeme nižší hodnotu,
+tak 3 krát −6 je −18,
+
+07:53.802 --> 07:55.992
+k čemuž přičítáme 12,
+takže to bude méně než 0.
+
+07:55.992 --> 07:58.180
+Pokud by ‚x‘ bylo 4,
+bude to ještě víc záporné,
+
+07:58.180 --> 07:59.590
+tudíž toto
+je menší než 0.
+
+07:59.590 --> 08:02.341
+Ani nemusím použít svou
+kalkulačku, abych to spočítal.
+
+08:02.341 --> 08:05.700
+A co tenhle bod,
+0,47?
+
+08:05.700 --> 08:09.790
+0,47 je zhruba 0,5.
+
+08:09.790 --> 08:12.954
+−6 krát 0,5 je −3.
+
+08:12.954 --> 08:15.040
+Tohle rozhodně
+nebude záporné.
+
+08:15.040 --> 08:16.860
+Bude to
+určitě kladné.
+
+08:16.860 --> 08:24.090
+‚p‘ se dvěma čárkami v bodě 0,4725
+je tedy větší než 0.
+
+08:24.090 --> 08:27.590
+To, že druhá derivace
+je menší než 0, znamená,
+
+08:27.590 --> 08:31.740
+že derivace klesá...
+
+08:31.740 --> 08:36.600
+První derivace klesá,
+když je ‚x‘ rovno této hodnotě,
+
+08:36.600 --> 08:46.290
+což znamená, že naše funkce
+je v tomto bodě konkávní.
+
+08:46.290 --> 08:50.600
+Konkávní znamená,
+že její graf vypadá nějak takto.
+
+08:51.220 --> 08:56.427
+Můžete vidět, že když graf vypadá takto,
+tak sklon funkce neustále klesá.
+
+08:56.427 --> 08:58.380
+Když máte interval,
+na kterém sklon klesá,
+
+08:58.380 --> 09:01.870
+a znáte v něm bod,
+ve kterém je sklon přesně 0,
+
+09:01.870 --> 09:04.510
+což je bod se souřadnicí
+x rovno 3,528,
+
+09:04.510 --> 09:09.780
+tak to musí
+být lokální maximum.
+
+09:09.780 --> 09:14.030
+Maximální hodnotu tedy nabydeme
+pro x rovno 3,528.
+
+09:14.030 --> 09:22.184
+Naopak zde vidíme,
+že funkce je konvexní.
+
+09:22.184 --> 09:24.751
+Graf bude v tomto případě
+vypadat nějak takto.
+
+09:24.751 --> 09:26.880
+Pokud je sklon roven 0
+a graf vypadá takto,
+
+09:26.880 --> 09:33.200
+tak vidíme, že zde
+je lokální minimum.
+
+09:33.200 --> 09:34.820
+Tohle určitě
+nechceme.
+
+09:34.820 --> 09:39.290
+Kdybychom vyrobili
+472 a půl párů,
+
+09:39.300 --> 09:43.220
+tak bychom minimalizovali náš zisk
+a maximalizovali naši ztrátu,
+
+09:43.220 --> 09:45.852
+a to opravdu
+nechceme.
+
+09:45.852 --> 09:48.750
+Podívejme se teď ale na to,
+jaký bude náš zisk,
+
+09:48.750 --> 09:52.490
+když vyrobíme
+3,528 tisíců párů bot,
+
+09:52.490 --> 09:55.480
+tedy 3 528 párů bot.
+
+09:55.490 --> 10:00.360
+Abychom to zjistili, musíme toto číslo
+dosadit do naší funkce udávající zisk.
+
+10:00.360 --> 10:01.780
+Tak pojďme na to.
+
+10:01.780 --> 10:04.120
+Vyndám na to
+svou kalkulačku.
+
+10:04.120 --> 10:07.950
+Moje původní funkce
+udávající zisk je tady.
+
+10:07.950 --> 10:09.870
+Chtěl bych vidět
+tohle a také toto.
+
+10:09.870 --> 10:31.430
+Bude to minus (3,528 na třetí) plus 6 krát
+(3,528 na druhou) minus 5 krát 3,528,
+
+10:31.430 --> 10:32.130
+což je...
+
+10:32.130 --> 10:33.660
+Teď bychom si
+zasloužili fanfáru.
+
+10:33.660 --> 10:39.830
+...což je zisk 13,128.
+
+10:39.830 --> 10:41.490
+Napíšu to.
+
+10:41.490 --> 10:48.500
+Zisk, když vyrobíme 3 528
+párů bot, se přibližně rovná...
+
+10:48.500 --> 10:51.740
+Vlastně se to bude přesně rovnat,
+pokud vyrobíme právě tolik bot.
+
+10:51.740 --> 10:56.599
+...se rovná 13,128.
+
+10:56.599 --> 10:58.940
+Vlastně to je jen přibližně,
+protože zaokrouhluji.
+
+10:58.940 --> 11:02.170
+13,128.
+
+11:02.170 --> 11:07.950
+Pokud za dané období
+vyrobíme 3 528 párů bot,
+
+11:07.950 --> 11:12.330
+budeme mít
+zisk 13 128 dolarů.
+
+11:12.330 --> 11:14.390
+Nezapomeňme,
+že tohle je v tisících,
+
+11:14.390 --> 11:18.710
+takže toto je zisk
+13,128 tisíců dolarů,
+
+11:18.710 --> 11:21.680
+což je 13 128 dolarů.
+
+11:21.680 --> 11:25.811
+Teď už budeme
+bohatí výrobci obuvi.

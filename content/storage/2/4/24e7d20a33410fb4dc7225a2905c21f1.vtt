@@ -1,0 +1,532 @@
+WEBVTT
+
+00:00.000 --> 00:05.774
+V tomto videu se budeme věnovat
+příkladům, které již někdo spočítal.
+
+00:05.774 --> 00:13.494
+Naším úkolem bude najít v jejich
+postupu chyby a opravit je.
+
+00:13.494 --> 00:20.246
+Zde se Nate snaží zderivovat funkci
+x na druhou plus 5 x krát sinus x.
+
+00:20.246 --> 00:21.972
+Zde je jeho postup.
+
+00:21.972 --> 00:23.648
+Je jeho postup správný?
+
+00:23.648 --> 00:26.115
+Pokud ne,
+kde je chyba?
+
+00:26.115 --> 00:28.523
+Zastavte si video
+a zkuste odpovědět sami.
+
+00:28.523 --> 00:33.881
+Je Nateův výpočet správný,
+a pokud ne, kde je chyba?
+
+00:33.881 --> 00:36.345
+Předpokládám,
+že jste to zkusili.
+
+00:36.345 --> 00:39.387
+Projděme si to
+krok po kroku.
+
+00:39.387 --> 00:46.773
+Zde pouze připsal diferenciální operátor,
+což je správně, snažíme se najít derivaci.
+
+00:46.773 --> 00:51.405
+Dále říká, že tento výraz
+je součin dvou výrazů,
+
+00:51.405 --> 00:59.922
+proto je to to samé, jako součin
+derivací těchto dvou výrazů.
+
+00:59.922 --> 01:02.485
+A narážíme na problém.
+
+01:02.485 --> 01:12.478
+Jistě již víte, že když
+derivujeme f(x) plus g(x),
+
+01:12.478 --> 01:19.913
+tak se to rovná derivace
+f(x) plus derivace g(x).
+
+01:19.913 --> 01:24.896
+Pro součin to ale neplatí.
+
+01:24.896 --> 01:37.038
+Derivace f(x) krát g(x) nebude
+součin derivací těchto dvou výrazů,
+
+01:37.038 --> 01:45.039
+možná pouze v nějakém
+výjimečném případě.
+
+01:45.039 --> 01:47.949
+Zde musíme použít
+vzorec na derivaci součinu.
+
+01:47.949 --> 01:55.356
+Bude se to rovnat derivaci první funkce
+krát druhá funkce nezderivovaná
+
+01:55.356 --> 02:02.835
+a přičteme první funkci nezderivovanou
+krát derivace druhé funkce.
+
+02:02.835 --> 02:07.194
+Tímto pravidlem se tedy měl řídit,
+pojďme ho aplikovat my, abychom zjistili,
+
+02:07.194 --> 02:10.044
+jak to má správně vypadat.
+
+02:10.044 --> 02:14.223
+Správný postup napíšu červeně.
+
+02:14.223 --> 02:19.412
+Toto tedy není správný postup.
+
+02:19.412 --> 02:21.749
+Vyznačím to tu barevně.
+
+02:21.749 --> 02:24.231
+Derivace tohoto
+výrazu je 2x plus 5.
+
+02:24.231 --> 02:35.052
+Čili začátek měl být 2x plus 5
+krát ten druhý výraz, takže krát sin(x).
+
+02:35.052 --> 02:43.479
+Udělám to jinou barvou,
+krát sin(x).
+
+02:43.479 --> 02:46.996
+A potom měl
+přidat první výraz,
+
+02:46.996 --> 02:54.179
+což je x na druhou plus 5x
+krát derivace druhého výrazu.
+
+02:54.179 --> 02:58.058
+Derivace sin(x) je cos(x).
+
+02:58.058 --> 03:02.002
+Toto je tedy správný postup,
+který měl být v druhém kroku.
+
+03:02.002 --> 03:05.392
+Neměl tento příklad pouze rozdělit
+na součin derivací dvou výrazů.
+
+03:05.392 --> 03:07.153
+Měl použít vzorec
+na derivaci součinu.
+
+03:07.153 --> 03:10.771
+Jeho postup tedy není správný
+a chybou je, že tento vzorec nepoužil.
+
+03:10.771 --> 03:16.029
+Pouze předpokládal, že derivace součinu
+je to samé jako součin derivací.
+
+03:16.029 --> 03:23.106
+Zkusme si další příklady.
+
+03:23.106 --> 03:29.212
+Katy se snaží najít derivaci 2x
+na druhou minus 4, to celé na třetí.
+
+03:29.212 --> 03:30.543
+Zde je její postup.
+
+03:30.543 --> 03:31.898
+Je její postup správný?
+
+03:31.898 --> 03:34.302
+Pokud ne, kde
+udělala chybu?
+
+03:34.302 --> 03:37.999
+Znovu si zastavte video
+a zkuste na to přijít sami.
+
+03:37.999 --> 03:40.578
+Pojďme tedy
+zkontrolovat Katyinu práci.
+
+03:40.578 --> 03:42.839
+Katy tedy derivuje
+celý tento výraz
+
+03:42.839 --> 03:52.841
+a vypadá to, jako že derivuje celý
+výraz podle tohoto vnitřního výrazu.
+
+03:52.841 --> 03:59.008
+Což je blízko k pravidlu o složené funkci,
+ovšem není to jeho správné využití.
+
+03:59.008 --> 04:02.958
+Její postup není správný, neboť nepoužije
+správně pravidlo o složené funkci.
+
+04:02.958 --> 04:04.432
+Pravidlo o složené funkci říká,
+
+04:04.432 --> 04:22.674
+že derivace funkce f[g(x)] se bude
+rovnat derivaci celé funkce podle g(x)…
+
+04:22.674 --> 04:30.379
+Můžeme to zapsat jako
+f[g(x)] s čárkou.
+
+04:30.379 --> 04:35.959
+…krát derivace g(x).
+
+04:35.959 --> 04:44.864
+Zde si můžeme naši funkci představit jako
+něco, co svůj vnitřek umocňuje na třetí.
+
+04:44.864 --> 04:51.778
+Tento krok tedy je
+správně f[g(x)] s čárkou,
+
+04:51.778 --> 04:56.903
+ale zapomněla ji násobit
+derivací vnitřní funkce.
+
+04:56.903 --> 05:04.993
+Musí to tedy vynásobit
+derivací 2x na druhou minus 4.
+
+05:04.993 --> 05:09.170
+Což bude, pomocí vzorce
+na násobení mocnin,
+
+05:09.170 --> 05:15.340
+2 krát 2 je 4, takže 4x
+na první a derivaci −4 je 0.
+
+05:15.340 --> 05:18.143
+Bude to tedy krát 4x.
+
+05:18.143 --> 05:21.909
+Tohle bylo potřeba udělat,
+aby její postup byl správný.
+
+05:21.909 --> 05:26.052
+Měla tento výraz
+ještě vynásobit 4x.
+
+05:26.052 --> 05:27.292
+Její postup nebyl správný.
+
+05:27.292 --> 05:32.649
+Pravidlo o složené
+funkci neaplikovala správně.
+
+05:32.649 --> 05:36.190
+Zkusme si další příklad.
+
+05:36.190 --> 05:42.974
+Njoman se snaží najít derivaci
+sin(7x na druhou plus 4x).
+
+05:42.974 --> 05:44.360
+Zde je jeho postup.
+
+05:44.360 --> 05:45.585
+Je jeho postup správný?
+
+05:45.585 --> 05:46.966
+Pokud ne, jakou udělal chybu?
+
+05:46.966 --> 05:50.027
+Zastavte si video
+a zkuste na to přijít sami.
+
+05:50.027 --> 05:54.266
+Jedná se o derivaci
+sinu této funkce.
+
+05:54.266 --> 05:56.177
+Zde použijeme pravidlo
+o složené funkci.
+
+05:56.177 --> 06:00.703
+Chceme tedy najít derivaci
+vnější funkce podle vnitřní.
+
+06:00.703 --> 06:07.397
+Takže derivace sinu něčeho podle
+toho něčeho je kosinus něčeho.
+
+06:07.397 --> 06:09.195
+To je tedy správně.
+
+06:09.195 --> 06:14.917
+Potom je potřeba to vynásobit
+derivací vnitřní funkce podle x.
+
+06:14.917 --> 06:17.627
+Derivace 7x na druhou je 14x.
+
+06:17.627 --> 06:19.629
+Derivace 4x je 4.
+
+06:19.629 --> 06:22.380
+Tento krok tedy
+vypadá v pořádku.
+
+06:22.380 --> 06:25.382
+V dalším ale Njoman
+udělal něco zvláštního.
+
+06:25.382 --> 06:28.427
+Toto je cos(7x na druhou plus 4x)
+
+06:28.427 --> 06:31.320
+Potom to celé
+krát 14x plus 4.
+
+06:31.320 --> 06:36.425
+Tady je to ale celé zmatené s těmi
+závorkami, to se občas stává.
+
+06:36.425 --> 06:42.202
+Toto je jedna z hlavních chyb,
+o které nám ve škole říkali.
+
+06:42.202 --> 06:46.644
+Pokud počítáme s funkcemi jako kosinus,
+sinus, tangens nebo přirozený logaritmus
+
+06:46.644 --> 06:50.017
+a je to zapsáno
+takto se závorkami,
+
+06:50.017 --> 06:53.726
+lidé si často řeknou, že se závorky
+pouze vynásobí mezi sebou.
+
+06:53.726 --> 06:58.426
+To ale není správně.
+
+06:58.426 --> 07:02.256
+Nemůžeme jednoduše vynásobit
+14x plus 4 tímto výrazem a předpokládat,
+
+07:02.256 --> 07:04.912
+že počítáme s kosinem
+celého tohoto výrazu.
+
+07:04.912 --> 07:06.976
+Zde tedy Njoman
+udělal chybu.
+
+07:06.976 --> 07:08.649
+Tento krok není správně,
+
+07:08.649 --> 07:14.774
+protože vynásobí tyto dva výrazy mezi
+sebou a počítá kosinus tohoto násobku.
+
+07:14.774 --> 07:18.373
+Zkusme si ještě jeden příklad.
+
+07:18.373 --> 07:20.354
+Tento je složitější.
+
+07:20.354 --> 07:23.704
+Tom se snaží najít derivaci funkce
+odmocnina z x lomeno x na čtvrtou.
+
+07:23.704 --> 07:25.170
+Zde je jeho postup.
+
+07:25.170 --> 07:26.476
+Je tento postup správný?
+
+07:26.476 --> 07:28.173
+Pokud ne, kde je chyba?
+
+07:28.173 --> 07:31.144
+Zastavte si video
+a zkuste na to přijít sami.
+
+07:31.144 --> 07:34.098
+Snaží se zde aplikovat
+vzorec na derivaci podílu.
+
+07:34.098 --> 07:36.771
+Vzorec na derivaci
+podílu využijeme tak,
+
+07:36.771 --> 07:44.527
+že v čitateli bude derivace prvního
+výrazu krát druhý výraz, nezderivovaný,
+
+07:44.527 --> 07:50.232
+a poté minus první výraz nezderivovaný
+krát derivace druhého výrazu.
+
+07:50.232 --> 07:56.334
+Lépe by možná bylo derivace
+čitatele krát jmenovatel,
+
+07:56.334 --> 08:01.523
+a odečteme čitatel krát
+derivace jmenovatele.
+
+08:01.523 --> 08:03.562
+To celé ještě lomeno
+jmenovatel na druhou.
+
+08:03.562 --> 08:05.475
+Vypadá to,
+že postup je správný.
+
+08:05.475 --> 08:08.022
+Aplikace vzorce na
+derivaci podílu je správná.
+
+08:08.022 --> 08:10.989
+Vypadá to, že
+Tom počítá správně.
+
+08:10.989 --> 08:14.938
+Derivace x na 0,5
+je 0,5x na −0,5.
+
+08:14.938 --> 08:16.614
+To vypadá správně.
+
+08:16.614 --> 08:19.090
+Derivace x na čtvrtou
+je 4x na třetí.
+
+08:19.090 --> 08:20.068
+To vypadá správně.
+
+08:20.068 --> 08:22.133
+Celé to vypadá
+algebraicky správně.
+
+08:22.133 --> 08:24.766
+Zkusíme to zjednodušit.
+
+08:24.766 --> 08:34.897
+Máme tu x na −0,5 krát x na čtvrtou,
+což se bude rovnat x na…
+
+08:34.897 --> 08:39.452
+Aha, toto odpovídá
+tomuto výrazu.
+
+08:39.452 --> 08:44.147
+Vypadá to správně a toto
+odpovídá tomuto výrazu.
+
+08:44.147 --> 08:45.454
+To také vypadá správně.
+
+08:45.454 --> 08:54.705
+Pouze využíváme
+vlastností exponentů.
+
+08:54.705 --> 09:01.968
+Po zjednodušení tedy
+dostaneme −3,5x na −4,5.
+
+09:01.968 --> 09:04.730
+Vypadá to tedy, že
+Tom udělal vše správně.
+
+09:04.730 --> 09:06.575
+Toto je správná odpověď.
+
+09:06.575 --> 09:08.232
+Jeho postup je správný.
+
+09:08.232 --> 09:10.095
+Neudělal žádnou chybu.
+
+09:10.095 --> 09:11.949
+Mám ale malou připomínku.
+
+09:11.949 --> 09:15.533
+Tom nemusel použít
+vzorec na derivaci podílu.
+
+09:15.533 --> 09:24.467
+Dělal všechny tyto složité výpočty,
+ale mohl si to výrazně zjednodušit.
+
+09:24.467 --> 09:32.947
+Mohl říct, že toto je to samé,
+jako derivace x na jednu polovinu.
+
+09:32.947 --> 09:34.679
+To je totiž odmocnina z x.
+
+09:34.679 --> 09:37.733
+A to krát x na −4.
+
+09:37.733 --> 09:41.383
+To je 1 lomeno x na 4.
+
+09:41.383 --> 09:43.698
+Udělám to barevně.
+
+09:43.698 --> 09:46.369
+Toto je to samé jako toto.
+
+09:46.369 --> 09:49.493
+Toto je to samé jako toto.
+
+09:49.493 --> 09:53.361
+Můžeme to ještě
+více zjednodušit.
+
+09:53.361 --> 10:10.385
+Máme zde stejné základy, proto
+toto je to stejné jako x na −3,5,
+
+10:10.385 --> 10:12.341
+a můžeme využít vzorec
+na derivaci mocnin.
+
+10:12.341 --> 10:23.555
+Teď si to spočítáme, −3,5 dáme před x
+a mocninu snížíme o jednu.
+
+10:23.555 --> 10:28.752
+Tady můžete vidět, že mohl
+odpověď získat mnohem rychleji.
+
+10:28.752 --> 10:30.333
+Neudělal ovšem
+žádnou chybu.
+
+10:30.333 --> 10:35.044
+Udělal pouze menší chybu v úsudku,
+že aplikoval vzorec o derivaci podílu,
+
+10:35.044 --> 10:38.021
+i když nebyl potřeba, a proto
+je výpočet trochu složitější.

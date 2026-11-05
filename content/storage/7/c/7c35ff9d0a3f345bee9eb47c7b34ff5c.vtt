@@ -1,0 +1,486 @@
+WEBVTT
+
+00:00.350 --> 00:02.120
+O que eu quero fazer nesse vídeo
+
+00:02.120 --> 00:05.350
+é pensar na antiderivada de 1 sobre x
+
+00:05.350 --> 00:07.790
+ou uma outra forma de pensar nisso,
+outra forma de escrever
+
+00:07.790 --> 00:10.720
+é a antiderivada de x elevado a -1.
+
+00:10.720 --> 00:12.750
+E nós já sabemos que se tentarmos
+
+00:12.750 --> 00:15.660
+aplicar a inversa da regra do expoente aqui
+
+00:15.660 --> 00:17.500
+nós teríamos algo que não é definido,
+
+00:17.500 --> 00:19.880
+teríamos x elevado a zero
+sobre zero.
+
+00:19.880 --> 00:21.250
+Não faz o menor sentido.
+
+00:21.250 --> 00:23.990
+E você deve estar pensando: ok,
+eu sei o que fazer nesse caso.
+
+00:23.990 --> 00:25.687
+Quando aprendemos sobre derivadas,
+
+00:25.687 --> 00:28.547
+soubemos que a derivada -- vou fazer
+isso em amarelo --
+
+00:28.547 --> 00:36.500
+a derivada em relação a x do logaritmo
+natural de x é igual a 1 sobre x.
+
+00:36.500 --> 00:40.150
+Então por que não podemos só dizer
+que a antiderivada disso aqui
+
+00:40.150 --> 00:45.700
+é igual ao logaritmo natural de x mais C?
+
+00:45.700 --> 00:47.730
+E isso não é necessariamente errado,
+
+00:47.730 --> 00:50.430
+o problema é que
+não é extenso o suficiente.
+
+00:50.430 --> 00:55.000
+E quando eu digo que não é extenso
+o suficiente, é que o domínio aqui,
+
+00:55.000 --> 00:57.670
+para nossa função original cuja
+antiderivada estamos tirando,
+
+00:57.670 --> 01:00.510
+é de todos os números reais,
+com exceção de x igual a zero.
+
+01:00.510 --> 01:04.989
+Então aqui x não pode ser igual a 0.
+
+01:04.989 --> 01:08.230
+Enquanto o domínio
+aqui é só de números positivos.
+
+01:08.230 --> 01:10.200
+Então aqui o X...
+
+01:10.200 --> 01:15.310
+para essa expressão
+x tem que ser maior que zero.
+
+01:15.310 --> 01:18.850
+Seria legal se pudéssemos achar
+uma antiderivada
+
+01:18.850 --> 01:23.900
+que tenha o mesmo domínio da função
+cuja antiderivada estamos encontrando.
+
+01:23.900 --> 01:27.010
+Seria legal se pudéssemos encontrar uma
+antiderivada que é definida
+
+01:27.010 --> 01:29.440
+em todos os pontos onde a
+função original é definida
+
+01:29.440 --> 01:33.640
+em qualquer ponto exceto
+para x igual a zero.
+
+01:33.640 --> 01:36.320
+Então como nós podemos rearranjar
+isso aqui um pouco,
+
+01:36.320 --> 01:39.260
+de modo que possa ser definido
+para valores negativos também?
+
+01:39.260 --> 01:45.500
+Bem, uma possibilidade é pensar
+no logaritmo natural do módulo de X
+
+01:45.500 --> 01:50.040
+... o logaritmo natural do módulo de x.
+
+01:50.040 --> 01:51.760
+Eu vou colocar uma
+interrogação aqui porque
+
+01:51.760 --> 01:54.290
+nós não sabemos o que a derivada
+dessa coisa vai ser.
+
+01:54.290 --> 01:56.050
+Eu não vou provar rigorosamente aqui
+
+01:56.050 --> 01:59.170
+mas eu vou dar o entendimento conceitual.
+
+01:59.170 --> 02:03.400
+Para entender, vamos fazer o
+gráfico do logaritmo natural de x.
+
+02:03.400 --> 02:04.560
+E eu tinha feito antes.
+
+02:04.560 --> 02:06.740
+Então isso aqui é mais ou menos
+
+02:06.740 --> 02:09.130
+como se parece o gráfico do
+logaritmo natural de x.
+
+02:09.130 --> 02:11.490
+E o logaritmo natural do módulo de x
+
+02:11.490 --> 02:13.590
+como ele vai parecer?
+
+02:13.590 --> 02:18.040
+Para X's positivos, vai se parecer com isso.
+
+02:18.040 --> 02:20.330
+Para x's positivos, tirar o módulo
+
+02:20.330 --> 02:22.890
+é a mesma coisa que pegar o valor original.
+
+02:22.890 --> 02:25.450
+Vai se parecer com isso para x's positivos
+
+02:25.450 --> 02:28.330
+Mas também vai ser definido
+para x's negativos.
+
+02:28.330 --> 02:31.880
+Se você vai tirar o módulo de menos 1,
+
+02:31.880 --> 02:34.430
+vira apenas 1, então vai ser
+o logaritmo natural de 1.
+
+02:34.430 --> 02:36.310
+Vai estar bem aqui.
+
+02:36.310 --> 02:40.500
+E quando você vai chegando mais
+e mais perto de zero
+
+02:40.500 --> 02:43.400
+do lado negativo, você vai só tirar o módulo
+
+02:43.400 --> 02:47.300
+Então vai ser exatamente essa curva
+do logaritmo natural de x.
+
+02:47.300 --> 02:50.270
+Mas o lado esquerdo do logaritmo
+natural do módulo de x
+
+02:50.270 --> 02:53.730
+vai ser sua imagem espelhada
+se você fosse refletir no eixo y.
+
+02:53.730 --> 02:55.940
+Vai parecer assim.
+
+02:59.270 --> 03:02.900
+O que é legal sobre essa função é que
+você vê que é definida em todos os pontos.
+
+03:02.900 --> 03:05.186
+É definida em todos os pontos exceto...
+
+03:05.186 --> 03:06.682
+exceto -- estou tentando desenhar
+
+03:06.682 --> 03:11.530
+da forma mais simétrica possível --
+definida em todos os pontos exceto x=0
+
+03:11.530 --> 03:14.570
+Então, se você combinar essa parte rosa e...
+
+03:14.570 --> 03:17.960
+e essa parte da direita,
+se você combinar as duas
+
+03:17.960 --> 03:21.900
+você combina as duas, você tem
+
+03:21.900 --> 03:27.180
+y igual ao logaritmo natural
+do módulo de x.
+
+03:27.180 --> 03:29.840
+Agora vamos pensar na derivada.
+
+03:29.840 --> 03:33.080
+Nós já sabemos qual é a derivada do
+logaritmo natural de x.
+
+03:33.080 --> 03:34.920
+Para valores positivos de x.
+
+03:34.920 --> 03:36.292
+Deixe-me escrever isso.
+
+03:36.292 --> 03:41.780
+Para x maior que zero, temos
+que o logaritmo natural
+
+03:41.780 --> 03:47.120
+do módulo de x é igual ao
+logaritmo natural de x, vou escrever.
+
+03:47.120 --> 03:53.180
+É igual ao logaritmo natural de...
+é igual ao logaritmo natural de x.
+
+03:53.180 --> 03:55.880
+E nós também sabemos, como
+esses dois são iguais
+
+03:55.880 --> 03:59.000
+para x maior que zero --
+para x maior que zero, a derivada...
+
+03:59.000 --> 04:02.980
+A derivada do logaritmo natural
+do módulo de x
+
+04:02.980 --> 04:06.560
+vai ser igual à derivada...
+
+04:06.560 --> 04:11.120
+... do logaritmo natural de x...
+
+04:11.120 --> 04:16.269
+... que é igual a 1 sobre x,
+para x maior que zero.
+
+04:16.269 --> 04:17.560
+Vamos traçar o gráfico.
+
+04:18.529 --> 04:21.160
+Vou fazer em verde - igual a 1 sobre x
+
+04:21.160 --> 04:22.960
+1 sobre x, como vimos antes,
+
+04:22.960 --> 04:25.930
+se parece com algo assim.
+
+04:27.650 --> 04:32.504
+Minha melhor tentativa de desenhar
+assíntotas horizontais e verticais.
+
+04:32.504 --> 04:34.650
+Fica mais ou menos assim.
+
+04:37.130 --> 04:41.640
+Então isso aqui é 1 sobre x
+para x maior que 0.
+
+04:41.640 --> 04:46.750
+Isso é 1 sobre x para x maior que 0.
+
+04:46.750 --> 04:49.320
+Tudo que está dito aqui,
+e você pode ver claramente,
+
+04:49.320 --> 04:51.550
+é que a inclinação -- a inclinação aqui.
+
+04:51.550 --> 04:54.700
+A inclinação da reta tangente é 1,
+e veja que quando você olha
+
+04:54.700 --> 04:56.480
+para a derivada aqui,
+
+04:56.480 --> 04:58.770
+a derivada deve ser igual a 1 aqui.
+
+04:58.770 --> 05:04.060
+Quando você chega perto de zero, você tem
+uma inclinação positiva muito acentuada.
+
+05:04.060 --> 05:07.570
+E veja que você tem um
+valor muito alto para a derivada.
+
+05:07.570 --> 05:11.720
+E quando você se afasta de zero,
+ainda é muito íngreme,
+
+05:11.720 --> 05:15.120
+mas vai ficando cada vez menos íngreme
+até chegar a 1.
+
+05:15.120 --> 05:17.320
+E então... então vai...
+
+05:17.320 --> 05:19.770
+... então vai ficando menos e menos íngreme..
+
+05:19.770 --> 05:22.820
+Mas nunca chega a uma inclinação
+absolutamente plana.
+
+05:22.820 --> 05:25.100
+E isso é o que vemos a derivada fazendo.
+
+05:25.100 --> 05:29.050
+Então o que o logaritmo natural
+do módulo de x está fazendo aqui?
+
+05:29.050 --> 05:33.730
+Quando estamos aqui, nossa
+inclinação está bem próxima de 0.
+
+05:33.730 --> 05:34.750
+É simétrica.
+
+05:34.750 --> 05:38.340
+A inclinação aqui é essencialmente
+o negativo da inclinação aqui.
+
+05:38.340 --> 05:40.240
+Eu poderia fazer mais claro mostrando
+bem aqui.
+
+05:40.240 --> 05:43.888
+Qualquer que seja a inclinação aqui,
+
+05:43.888 --> 05:46.466
+é exatamente o negativo de
+qualquer que seja a inclinação
+
+05:46.466 --> 05:49.244
+num ponto simétrico do outro lado.
+
+05:49.244 --> 05:53.550
+Para o outro lado, a inclinação está
+bem aqui, aqui ela vai ser
+
+05:53.550 --> 05:58.180
+o negativo daquilo,
+então vai estar bem aqui.
+
+05:58.180 --> 06:01.030
+E então a inclinação
+vai ficando mais e mais negativa.
+
+06:01.030 --> 06:02.610
+Bem aqui, a inclinação...
+
+06:02.610 --> 06:04.170
+... aqui, a inclinação é 1 positivo.
+
+06:04.170 --> 06:06.410
+e aqui, vai ser 1 negativo.
+
+06:06.410 --> 06:09.600
+Então aqui, nossa inclinação
+vai ser 1 negativo.
+
+06:09.600 --> 06:10.840
+E enquanto chegamos próximos de zero,
+
+06:10.840 --> 06:13.190
+ela vai ficando mais e mais negativa.
+
+06:13.190 --> 06:16.300
+Então, a derivada do logaritmo
+natural do módulo de x,
+
+06:16.300 --> 06:20.010
+onde x for menor que zero,
+parece mais ou menos assim.
+
+06:20.010 --> 06:22.620
+Parece assim.
+
+06:22.620 --> 06:28.070
+E veja mais uma vez que essa
+não é uma prova rigorosa.
+
+06:28.070 --> 06:32.450
+Mas o que você vê é que,
+que a derivada do logaritmo natural
+
+06:32.450 --> 06:38.670
+do módulo de x é igual a 1 sobre x
+para todos x's diferentes de 0.
+
+06:38.670 --> 06:40.440
+O que você está vendo
+espero que entenda...
+
+06:40.440 --> 06:44.150
+você consegue visualizar a derivada.
+
+06:44.150 --> 06:45.576
+Vou escrever assim.
+
+06:45.576 --> 06:51.940
+A derivada do logaritmo natural
+
+06:51.940 --> 06:58.100
+do módulo de x é de fato
+igual a 1 sobre x,
+
+06:58.100 --> 07:04.860
+para todo x diferente de zero.
+
+07:04.860 --> 07:08.340
+Então essa é uma antiderivada muito mais
+satisfatória para 1 sobre x.
+
+07:08.340 --> 07:12.500
+Tem exatamente o mesmo domínio.
+
+07:12.500 --> 07:15.240
+Então quando pensamos em qual é a
+antiderivada de 1 sobre x.
+
+07:15.240 --> 07:17.190
+E eu não fiz uma prova rigorosa aqui.
+
+07:17.190 --> 07:19.630
+Eu não usei a definição
+de derivada nem nada disso.
+
+07:19.630 --> 07:22.260
+Mas eu espero ter dado um
+entendimento visual disso.
+
+07:22.260 --> 07:27.100
+Dizemos que é o logaritmo natural
+do módulo de x mais C, e agora
+
+07:27.100 --> 07:30.090
+temos uma antiderivada que tem
+o mesmo domínio
+
+07:30.090 --> 07:32.730
+da função cuja antiderivada
+estamos procurando.

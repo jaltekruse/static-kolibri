@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.184 --> 00:02.802
+Mình có một hàm vector h ở đây,
+
+00:02.802 --> 00:03.861
+và khi mình nói là hàm vector
+
+00:03.861 --> 00:06.162
+ý mình là khi bạn cho mình
+
+00:06.162 --> 00:07.258
+một hàm t,
+
+00:07.258 --> 00:09.215
+mà với nó mình mình xác định được
+
+00:09.215 --> 00:10.668
+cho bạn một vecto.
+
+00:10.668 --> 00:11.501
+Và bạn sẽ thấy
+
+00:11.501 --> 00:13.270
+rằng ở đây mình có vecto hai chiều.
+
+00:13.270 --> 00:15.882
+Bạn có thể xem cái này như là giá trị x
+của vector,
+
+00:15.882 --> 00:18.513
+và giá trị y của vector.
+
+00:18.513 --> 00:20.902
+Và như bạn cũng biết rồi đó,
+
+00:20.902 --> 00:22.303
+chúng ta sẽ có nhiều cách viết
+
+00:22.303 --> 00:24.179
+để diễn tả một vector hai chiều.
+
+00:24.179 --> 00:26.938
+Ví du như bạn có thể sử dụng
+
+00:26.938 --> 00:29.106
+cách viết ngay đây,
+
+00:29.106 --> 00:32.032
+khi giá trị x sẽ được nhân với
+
+00:32.032 --> 00:34.532
+vector đơn vị nằm ngang.
+
+00:36.355 --> 00:37.868
+Bạn có thể thấy cách viết
+
+00:37.868 --> 00:42.831
+trong đó vector đơn vị cộng thành phần y,
+
+00:42.831 --> 00:46.483
+4 t mũ 4 cộng 2t cộng 1,
+
+00:46.483 --> 00:50.303
+được nhân với vector đơn vị thẳng đứng.
+
+00:50.303 --> 00:52.889
+Hai cái này đều giống nhaul,
+
+00:52.889 --> 00:55.582
+chỉ là cách viết khác nhau thôi.
+
+00:55.582 --> 00:57.453
+Bạn sẽ hay thấy hàm vector
+
+00:57.453 --> 00:59.226
+với mũi tên trên đầu để thể hiện
+
+00:59.226 --> 01:00.912
+là cái này là 1 hàm vector.
+
+01:00.912 --> 01:02.884
+Nhưng mà đôi khi,
+
+01:02.884 --> 01:05.227
+cũng có bạn chọn cách gọi h là một hàm vector,
+
+01:05.227 --> 01:07.565
+và không để mũi tên trên đầu.
+
+01:07.565 --> 01:08.588
+Okay, bây giờ
+
+01:08.588 --> 01:09.812
+điều mà mình quan tâm
+
+01:09.812 --> 01:12.774
+là hãy tính đạo hàm bậc 1 và bậc 2
+
+01:12.774 --> 01:14.691
+của h theo t.
+
+01:15.837 --> 01:18.968
+Đầu tiên, hãy lấy đạo hàm bậc 1,
+
+01:18.968 --> 01:22.313
+h phẩy t, và bạn sẽ thấy rằng
+
+01:22.313 --> 01:24.130
+thật ra nó cũng rất dễ.
+
+01:24.130 --> 01:26.377
+Bạn chỉ sẽ lấy đạo hàm của từng thành phần
+
+01:26.377 --> 01:28.205
+lấy đạo hàm của từng thành phần,
+
+01:28.205 --> 01:30.481
+theo t.
+
+01:30.481 --> 01:32.727
+Vậy thành phần x, theo t,
+
+01:32.727 --> 01:35.695
+nếu bạn lấy đạo hàm,
+
+01:35.695 --> 01:39.014
+theo t, bạn sẽ có được gì?
+
+01:39.014 --> 01:41.513
+Thì mình sẽ sử dụng quy tắc lũy thừa ở đây,
+
+01:41.513 --> 01:44.005
+5 nhân trừ 1,
+
+01:44.005 --> 01:46.966
+bạn sẽ có trừ 5 nhân với t mũ
+
+01:46.966 --> 01:49.700
+5 trừ 1, vậy là t mũ 4.
+
+01:49.700 --> 01:51.633
+Đạo hàm theo t của trừ 6,
+
+01:51.633 --> 01:53.073
+thì nó sẽ chỉ bằng 0,
+
+01:53.073 --> 01:56.844
+vậy đó sẽ là tỉ lệ biến thiên của
+thành phần x,
+
+01:56.844 --> 01:58.850
+theo t.
+
+01:58.850 --> 02:01.126
+Bây giờ chúng ta sẽ làm đến thành phần y.
+
+02:01.126 --> 02:02.743
+Mình cũng làm tương tự nha,
+
+02:02.743 --> 02:05.266
+đạo hàm theo t,
+
+02:05.266 --> 02:06.717
+sẽ bằng với? Ở đây,
+
+02:06.717 --> 02:08.263
+chúng ta sẽ lại sử dụng quy tắc lũy thừa.
+
+02:08.263 --> 02:11.763
+4 nhân 4 sẽ bằng 16t mũ 3,
+
+02:13.151 --> 02:15.811
+đạo hàm của 2t sẽ là 2,
+
+02:15.811 --> 02:16.985
+và đạo hàm của hằng số
+
+02:16.985 --> 02:19.275
+sẽ chỉ bằng 0, mình đã
+thấy điều này rồi.
+
+02:19.275 --> 02:21.519
+Xong rồi đó.
+
+02:21.519 --> 02:23.380
+Đây sẽ là tỉ lệ biến thiên của thành phần x
+
+02:23.380 --> 02:24.571
+theo t.
+
+02:24.571 --> 02:26.139
+Đây là tỉ lệ biến thiên của thành phần y
+
+02:26.139 --> 02:28.012
+theo t.
+
+02:28.012 --> 02:29.555
+Ngoài ra thì
+
+02:29.555 --> 02:32.047
+vector có thể biểu diễn rất nhiều thứ
+khác nhau,
+
+02:32.047 --> 02:35.137
+nhưng loại vector hai chiều như thế này,
+
+02:35.137 --> 02:37.094
+bạn có thể tưởng tượng
+
+02:37.094 --> 02:40.881
+h(t) như là một vector vị trí trong
+không gian 2 chiều.
+
+02:40.881 --> 02:42.298
+Và rồi nếu bạn muốn xét tỉ lệ
+biến thiên
+
+02:42.298 --> 02:44.217
+của vị trí theo thời gian,
+
+02:44.217 --> 02:46.890
+thì đây sẽ là vector vận tốc.
+
+02:46.890 --> 02:48.303
+Nếu bạn lấy đạo hàm của cái này
+
+02:48.303 --> 02:49.816
+theo thời gian,
+
+02:49.816 --> 02:52.237
+bạn sẽ có vector gia tốc.
+
+02:52.237 --> 02:54.987
+Nên nếu mình lấy h phẩy t,
+
+02:55.983 --> 03:00.883
+thì h 2 phẩy t sẽ bằng gì nhỉ?
+
+03:00.883 --> 03:03.338
+Thì chúng ta lại áp dụng quy tắc lũy thừa.
+
+03:03.338 --> 03:07.505
+4 nhân trừ 5 sẽ bằng với trừ 20 nhân t
+
+03:09.672 --> 03:12.865
+mũ 4 trừ 1, vậy là t mũ 3.
+
+03:12.865 --> 03:16.782
+Và rồi chúng ta có 3 nhân 16 bằng
+48 t bình,
+
+03:19.926 --> 03:22.789
+và rồi đạo hàm của 2 sẽ bằng 0.
+
+03:22.789 --> 03:24.051
+Xong rồi.
+
+03:24.051 --> 03:26.109
+Nếu bạn xem t là thời gian,
+
+03:26.109 --> 03:28.558
+và với mọi thời gian, bạn xem cái này
+là vị trí,
+
+03:28.558 --> 03:30.513
+cái này là vận tốc, và cái này là gia tốc,
+
+03:30.513 --> 03:31.992
+bạn có thể-- cái này sẽ cho bạn biết
+
+03:31.992 --> 03:34.191
+vị trí, vận tốc, và gia tốc.
+
+03:34.191 --> 03:35.956
+Việc biết được những vector này có thể
+
+03:35.956 --> 03:40.123
+biểu diễn tất cả mọi thứ trong không gian
+2 chiều là rất quan trọng.

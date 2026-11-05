@@ -1,0 +1,535 @@
+WEBVTT
+
+00:00.000 --> 00:00.550
+.
+
+00:00.550 --> 00:04.650
+Luis modtager et gavekort på 25 kroner til en hjemmeside,
+
+00:04.650 --> 00:07.970
+der sælger digital musik og spil.
+
+00:07.970 --> 00:14.490
+Hver sang koster 0,89 kroner, og hvert spil koster 1,99 kroner.
+
+00:14.490 --> 00:20.560
+Han vil købe mindst 15 ting med sit gavekort.
+
+00:20.560 --> 00:23.040
+Opstil et ulighedssystem,
+
+00:23.040 --> 00:27.020
+der præsenterer scenariet og bestem
+
+00:27.020 --> 00:28.440
+løsningsmængden.
+
+00:28.440 --> 00:31.320
+De er derfor, vi har noget ternet papir her.
+
+00:31.320 --> 00:32.940
+Lad os først definere nogle variable.
+
+00:32.940 --> 00:36.490
+Lad os sige, at antallet af sange han køber er lig med s.
+
+00:36.490 --> 00:39.120
+s er lig med antallet af sange.
+
+00:39.120 --> 00:45.370
+Lad os lade g være lig med antallet af spil, han køber.
+
+00:45.370 --> 00:46.950
+Vi har den her begrænsning.
+
+00:46.950 --> 00:51.190
+Luis vil købe mindst 15 ting.
+
+00:51.190 --> 00:53.340
+Antallet af ting vil være lig med antallet af sange
+
+00:53.340 --> 00:55.420
+plus antallet af spil.
+
+00:55.420 --> 00:57.180
+Det skal være mindst 15.
+
+00:57.180 --> 01:01.600
+Det skal altså være større end eller lig med 15.
+
+01:01.600 --> 01:04.390
+Det er, hvad den her begrænsning fortæller os.
+
+01:04.390 --> 01:08.790
+Den anden begrænsning er, at gavekortet har en værdi på 25 kroner.
+
+01:08.790 --> 01:11.310
+Beløbet han bruger på sange plus beløbet, han bruger på spil
+
+01:11.310 --> 01:14.810
+skal altså være mindre end eller lig med 25.
+
+01:14.810 --> 01:17.010
+Beløbet Luis bruger på sange vil være
+
+01:17.010 --> 01:22.460
+antallet af sange gange prisen på sange.
+
+01:22.460 --> 01:27.870
+Det vil være 0,89 kroner gange s.
+
+01:27.870 --> 01:31.660
+Til det skal vi lægge prisen per spil,
+
+01:31.660 --> 01:35.680
+som er 1,99 kroner, gange antallet af spil.
+
+01:35.680 --> 01:37.540
+Det vil være det samlede beløb, han bruger.
+
+01:37.540 --> 01:44.940
+Det skal være mindre end eller lig med 25.
+
+01:44.940 --> 01:47.950
+Hvis vi vil afbilde de her uligheder,
+
+01:47.950 --> 01:50.180
+skal vi først have et koordinatsystem.
+
+01:50.180 --> 01:52.420
+Vi skal kun have den første kvadrant,
+
+01:52.420 --> 01:54.910
+fordi løsningerne skal være positive.
+
+01:54.910 --> 01:55.550
+Man kan ikke købe et negativt antal sange og spil.
+
+01:55.550 --> 01:59.240
+Det er ikke fysisk muligt.
+
+01:59.240 --> 02:00.580
+Det ville i hvert fald være meget mystisk.
+
+02:00.580 --> 02:03.610
+Vi skal kun bruge den positive kvadrant.
+
+02:03.610 --> 02:06.110
+Lad os tegne akserne.
+
+02:06.110 --> 02:10.210
+Lad os tegne den lodrette akse her.
+
+02:10.210 --> 02:15.220
+Den akse kalder vi
+
+02:15.220 --> 02:18.140
+sangaksen.
+
+02:18.140 --> 02:19.980
+Den vil altså udtrykke antallet af sange, Luis køber.
+
+02:19.980 --> 02:21.870
+Det skal være helt tydeligt.
+
+02:21.870 --> 02:23.930
+Det her er sangaksen.
+
+02:23.930 --> 02:28.070
+Lad os gøre den vandrette akse
+
+02:28.070 --> 02:29.905
+til spilaksen.
+
+02:29.905 --> 02:31.155
+Den udtrykker, hvor mange spil han køber.
+
+02:31.155 --> 02:39.320
+Det skriver vi her.
+
+02:39.320 --> 02:43.720
+Vi lader hver firkant være lig med 2
+
+02:43.720 --> 02:45.580
+for at være sikre på,
+
+02:45.580 --> 02:48.470
+at der er plads til hele vores løsning i det her koordinatsystem.
+
+02:48.470 --> 02:56.710
+Det her er 4, 8, 12, 16, 20 og så videre.
+
+02:56.710 --> 03:02.960
+Det her er 0, 4, 8, 12, 16,
+
+03:02.960 --> 03:08.860
+20 og så videre.
+
+03:08.860 --> 03:11.930
+Lad os nu se, om vi kan afbilde vores 2 begrænsninger.
+
+03:11.930 --> 03:15.010
+Den første begrænsning er, at s plus g er
+
+03:15.010 --> 03:16.560
+større end eller lig med 15.
+
+03:16.560 --> 03:18.470
+Det letteste er at starte med at finde
+
+03:18.470 --> 03:20.860
+skæringspunkter til akserne.
+
+03:20.860 --> 03:25.160
+Hvad er s, hvis g er 0?
+
+03:25.160 --> 03:29.340
+s plus 0 skal være større end eller lig med 15,
+
+03:29.340 --> 03:35.290
+så når g er x, er x større end eller lig med 15.
+
+03:35.290 --> 03:36.370
+Det er den her begrænsning,
+
+03:36.370 --> 03:39.700
+vi afbilder først.
+
+03:39.700 --> 03:43.710
+Hvis g er 0, er s større end eller lig med 15.
+
+03:43.710 --> 03:49.390
+Når g er 0, er s 15. Det her er 12, 14
+
+03:49.390 --> 03:50.380
+og 15 er her.
+
+03:50.380 --> 03:53.090
+s kan være alle værdier lig med det eller større end det,
+
+03:53.090 --> 03:56.170
+når g er lig med 0.
+
+03:56.170 --> 04:00.460
+Hvis s er 0, er g større end eller lig med 15.
+
+04:00.460 --> 04:05.700
+g er altså større end
+
+04:05.700 --> 04:08.810
+eller lig med 15, når s er lig med 0.
+
+04:08.810 --> 04:12.740
+Grænselinjen for s plus g er lig med 15 fremkommer,
+
+04:12.740 --> 04:14.900
+hvis vi forbinder de her 2 punkter.
+
+04:14.900 --> 04:17.649
+Lad os gøre det.
+
+04:17.649 --> 04:19.720
+Den linje vil se nogenlunde således ud.
+
+04:19.720 --> 04:22.400
+.
+
+04:22.400 --> 04:24.330
+Det er altid det sværeste at tegne lige.
+
+04:24.330 --> 04:28.000
+Lad os se, om vi kan gøre det bedre.
+
+04:28.000 --> 04:29.540
+Det var ikke godt.
+
+04:29.540 --> 04:30.480
+Vi prøver igen.
+
+04:30.480 --> 04:32.960
+Der burde være noget værktøj, der kunne klare det her.
+
+04:32.960 --> 04:35.400
+Så. Nu er det ret godt.
+
+04:35.400 --> 04:38.050
+Det er linjen for s plus g er lig med 15.
+
+04:38.050 --> 04:41.160
+Vi vil kun have de værdier, der er større end eller lig med 15,
+
+04:41.160 --> 04:41.920
+så vi skal se på området over linjen.
+
+04:41.920 --> 04:45.280
+Vi har allerede set det, da vi så, at når g er lig med 0,
+
+04:45.280 --> 04:47.010
+er s større end eller lig med 15.
+
+04:47.010 --> 04:49.070
+Det er alle de punkter og værdier, vi har her.
+
+04:49.070 --> 04:53.330
+Når s er 0, er g større end eller lig med 15.
+
+04:53.330 --> 04:57.650
+Det er det, den her begrænsning fortæller.
+
+04:57.650 --> 05:00.440
+Hele det her område opfylder den ulighed.
+
+05:00.440 --> 05:03.310
+I det her tilfælde er det kun punkter med heltal,
+
+05:03.310 --> 05:05.560
+der kan være løsninger.
+
+05:05.560 --> 05:08.230
+Der er ingen, der gider købe halve spil eller halve sange.
+
+05:08.230 --> 05:10.690
+Alle de punkter med heltal i det her område
+
+05:10.690 --> 05:13.710
+repræsenterer kombinationer af s og g,
+
+05:13.710 --> 05:15.270
+der giver mindst 15 ting.
+
+05:15.270 --> 05:18.610
+I det her punkt køber man 8 spil og 16 sange.
+
+05:18.610 --> 05:19.320
+Det er 24 i alt.
+
+05:19.320 --> 05:21.730
+Det opfylder helt klart den første begrænsning.
+
+05:21.730 --> 05:23.570
+Lad os nu se på den anden begrænsning.
+
+05:23.570 --> 05:28.120
+0,89s plus 1,99g er mindre end eller lig med 25.
+
+05:28.120 --> 05:29.570
+Vi skal tegne linjen
+
+05:29.570 --> 05:38.270
+0,89s plus 1,99 er lig med 25.
+
+05:38.270 --> 05:41.660
+Derefter skal vi se på,
+
+05:41.660 --> 05:43.000
+hvilket område der repræsenterer mindre end.
+
+05:43.000 --> 05:44.890
+Vi skal lige huske at skrive 1,99g her. Det er vigtigt.
+
+05:44.890 --> 05:46.790
+Vi kunne finde y-skæringspunktet og hældningen
+
+05:46.790 --> 05:48.900
+og bruge den metode.
+
+05:48.900 --> 05:50.370
+Det er dog lettere at finde s-
+
+05:50.370 --> 05:51.610
+og g-skæringspunkter.
+
+05:51.610 --> 06:04.880
+Hvis er lig med 0, har vi 1,99g er lig med 25.
+
+06:04.880 --> 06:08.470
+Det skal vi bruge en lommeregner til.
+
+06:08.470 --> 06:17.900
+25 divideret med 1,99 er 12,56.
+
+06:17.900 --> 06:26.210
+I det tilfælde er g lig med 12,56.
+
+06:26.210 --> 06:27.970
+Når s er 0,
+
+06:27.970 --> 06:32.370
+er g altså 12,56. Det afbilder vi.
+
+06:32.370 --> 06:34.440
+Det her er 12, det her er 14.
+
+06:34.440 --> 06:37.450
+12,56 er lidt til højre her.
+
+06:37.450 --> 06:38.950
+Det er lidt mere end 12.
+
+06:38.950 --> 06:40.370
+Det er den her værdi.
+
+06:40.370 --> 06:43.500
+Lad os gøre det samme, når g er lig med 0.
+
+06:43.500 --> 06:47.700
+Hvis g er lig med 0, forsvinder det her led.
+
+06:47.700 --> 06:51.770
+Så har vi 0,89s er lig med s.
+
+06:51.770 --> 06:54.640
+Vi skal bruge vores lommeregner igen
+
+06:54.640 --> 07:00.220
+til at regne det.
+
+07:00.220 --> 07:06.410
+25 divideret med 0,89
+
+07:06.410 --> 07:09.110
+er lig med 28,08.
+
+07:09.110 --> 07:11.180
+Det er idt over 28.
+
+07:11.180 --> 07:14.670
+28,08.
+
+07:14.670 --> 07:19.160
+Når g er 0, er s cirka 28.
+
+07:19.160 --> 07:22.890
+2, 4, 6, 8.
+
+07:22.890 --> 07:23.800
+Det er lidt over 28.
+
+07:23.800 --> 07:25.600
+Det er cirka her.
+
+07:25.600 --> 07:32.180
+Den her linje 0,89s plus 1,99g er lig med 25
+
+07:32.180 --> 07:35.810
+vil gå fra det her punkt, som er 0 komma 28,08.
+
+07:35.810 --> 07:37.630
+Det er det her punkt.
+
+07:37.630 --> 07:41.320
+Den vil gå til det her punkt, som er 12,56 komma 0.
+
+07:41.320 --> 07:43.420
+Lad os se, om vi kan tegne den.
+
+07:43.420 --> 07:47.130
+Vi skal vist bruge et forsøg mere.
+
+07:47.130 --> 07:50.560
+Måske er det lettere, hvis vi starter nedefra.
+
+07:50.560 --> 07:52.220
+Det var bedre.
+
+07:52.220 --> 07:55.100
+Lad os lige gøre
+
+07:55.100 --> 07:57.510
+den lidt tydeligere.
+
+07:57.510 --> 08:01.390
+Den her linje repræsenterer altså det her.
+
+08:01.390 --> 08:05.710
+Her har vi noget mindre end.
+
+08:05.710 --> 08:06.700
+Hvilket område er det?
+
+08:06.700 --> 08:13.920
+Lad os tænke over det. Når g er lig med 0,
+
+08:13.920 --> 08:15.550
+er 0,89s mindre end 25.
+
+08:15.550 --> 08:18.610
+s skal altså være
+
+08:18.610 --> 08:20.500
+mindre end 28,08, når g er lig med 0.
+
+08:20.500 --> 08:23.380
+Ellers bliver uligheden ikke opfyldt.
+
+08:23.380 --> 08:26.630
+Løsningsmængden til den ulighed
+
+08:26.630 --> 08:30.400
+er altså området under linjen.
+
+08:30.400 --> 08:34.610
+Når s er 0,
+
+08:34.610 --> 08:38.820
+skal 1,99g være mindre end eller
+
+08:38.820 --> 08:41.350
+lig med 25.
+
+08:41.350 --> 08:46.670
+Det vil sige, at g skal være mindre end 12,56
+
+08:46.670 --> 08:49.620
+i det tilfælde.
+
+08:49.620 --> 08:55.390
+Når s er lig med 0, skal g altså være mindre end 12,56.
+
+08:55.390 --> 08:59.950
+Det område, der opfylder den anden begrænsning
+
+08:59.950 --> 09:01.800
+er området under den her graf.
+
+09:01.800 --> 09:06.040
+Det er alt under linjen.
+
+09:06.040 --> 09:09.750
+Vi skal finde det område, der opfylder begge begrænsninger.
+
+09:09.750 --> 09:12.060
+Det vil være der, hvor de 2 områder overlapper hinanden.
+
+09:12.060 --> 09:13.930
+Vi skal finde det område.
+
+09:13.930 --> 09:17.060
+Det er det område, der er her.
+
+09:17.060 --> 09:20.920
+Det er under den orange linje og over den blå linje.
+
+09:20.920 --> 09:23.520
+Det inkluderer begge linjer.
+
+09:23.520 --> 09:29.220
+Vi kan vælge ethvert punkt i det område.
+
+09:29.220 --> 09:33.300
+Hvis Luis køber 4 spil og 14 sange, vil det opfylde hans ønsker.
+
+09:33.300 --> 09:37.090
+Han kan også købe 2 spil og 16 sange. Det vil også opfylde ulighedssystemet.
+
+09:37.090 --> 09:38.170
+Det er sådan, man løser sådan en opgave.
+
+09:38.170 --> 09:40.300
+Det er dog vigtigt at huske,
+
+09:40.300 --> 09:42.780
+at punkterne skal bestå af heltal.
+
+09:42.780 --> 09:44.800
+Man kan ikke købe halve spil eller halve sange.

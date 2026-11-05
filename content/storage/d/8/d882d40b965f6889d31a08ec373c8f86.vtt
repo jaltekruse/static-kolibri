@@ -1,0 +1,205 @@
+WEBVTT
+
+00:00.066 --> 00:04.797
+voici une photo du célèbrissime mathématicien et physicien
+
+00:04.797 --> 00:10.036
+britannique Issac Newton et ceci est une photo de Gottfried Leibniz
+
+00:10.036 --> 00:13.768
+un peu moins célèbre.. ce philosophe et
+
+00:13.768 --> 00:17.017
+mathématicien allemand était un contemporain de Isaac Newton
+
+00:17.017 --> 00:20.485
+Ces deux hommes, ensemble, sont réellement les pères fondateurs
+
+00:20.485 --> 00:24.900
+du calcul et ont réalisé la majeure partie
+
+00:24.900 --> 00:27.334
+de leur travaux durant la fin du 17ème siècle
+
+00:27.334 --> 00:29.317
+Et ici c'est Usain Bolt...
+
+00:29.317 --> 00:33.085
+Un sprinter jamaïcain qui continue d'exceller en 2012
+
+00:33.085 --> 00:38.267
+et depuis le début de cette année, il est l'homme le plus rapide de la planète...
+
+00:38.267 --> 00:41.550
+il est probablement l'homme le plus rapide de tous les temps
+
+00:41.550 --> 00:45.418
+vous ne voyez peut-être pas le rapport entre ces trois
+
+00:45.418 --> 00:48.252
+personnalités. A priori ils semblent avoir peu de choses en commun, mais
+
+00:48.252 --> 00:52.201
+ils étaient tous trois obsédés, avec la question fondamentale, abordée
+
+00:52.201 --> 01:00.335
+par le calcul, et cette question est: "quel est le taux instantané
+
+01:00.335 --> 01:04.351
+de variation pour une situation donnée?". Pour le cas de Bolt, "A quelle vitesse court-il...
+
+01:04.351 --> 01:09.135
+en ce moment précis?" Non pas "quelle était sa vitesse moyenne ces dix dernières secondes ?
+
+01:09.135 --> 01:13.334
+"Quelle est sa vitesse précisément maintenant?"
+
+01:13.334 --> 01:18.801
+Voilà tout le sujet abordé par le calcul différentiel: Le taux de variation instantané.
+
+01:18.801 --> 01:26.517
+Le calcul différentiel, Newton appelait ça..
+
+01:26.517 --> 01:30.619
+la "méthode des flexions" notion plus savante en apparence
+
+01:30.619 --> 01:37.952
+mais où l'enjeu est également de mesurer l'instant présent
+
+01:37.952 --> 01:41.702
+Pour comprendre pourquoi cette question n'est pas facile à aborder
+
+01:41.702 --> 01:48.150
+avec l'algèbre traditionnelle, voyons ça sur ce petit graphique. Sur l'axe Y je reporte la distance.
+
+01:48.150 --> 01:54.885
+donc nous disons "y= distance". J'aurais pu dire "d=distance", mais nous verrons plus loin
+
+01:54.885 --> 01:58.819
+qu'en calcul "d" est réservé pour autre chose, donc "y=distance"
+
+01:58.819 --> 02:04.767
+sur cet axe nour reportons le temps j'aurais pu dire "t=temps" mais je choisis "x=temps"
+
+02:04.767 --> 02:10.902
+donc si nous devions tracer la distance parcourue par Bolt en fonction du temps
+
+02:10.902 --> 02:16.886
+au temps 0 il n'a pas encore parcouru de distance il est juste là et nous savons
+
+02:16.886 --> 02:23.335
+qu'il est capable de parcourir 100 mètres en 9.58 sec.
+
+02:23.335 --> 02:27.819
+donc au bout des 9.58 sec. que je reporte ici
+
+02:27.819 --> 02:31.736
+il est capable de parcourir 100 mètres
+
+02:31.736 --> 02:36.401
+en utilsant ces données nous pouvons en déduire sa vitesse moyenne.....
+
+02:36.401 --> 02:44.351
+sa vitesse moyenne correspond à sa variation en distance...
+
+02:44.351 --> 02:48.802
+divisée par sa variation en temps
+
+02:48.802 --> 02:56.186
+et en utilisant les variables du graphique c'est la même chose que la variation Y divisée...
+
+02:56.186 --> 03:01.619
+par la variation X. Et vous aurez peut-être vu quelque chose de similaire...
+
+03:01.619 --> 03:07.152
+en algèbre de base. Ceci est la pente entre 2 points. Si j'ai une droite qui connecte ces 2 points
+
+03:07.152 --> 03:13.186
+elle correspond à la pente de cette droite...
+
+03:13.186 --> 03:21.935
+la variation en distance est ceci. La variation Y=100m, et la variation en temps est ceci
+
+03:21.935 --> 03:30.751
+donc la variation en temps = 9.58 sec., nous démarrons à 0 et nous terminons à 9.58 sec.
+
+03:30.751 --> 03:33.101
+autrement dit la valeur en ordonnée divisée par la valeur en abscisse
+
+03:33.101 --> 03:34.752
+que vous aurez peut-être déja rencontré en cours d'algèbre
+
+03:34.752 --> 03:37.586
+ce sera donc 100m divisé par 9.58sec.
+
+03:37.586 --> 03:42.053
+donc 100m/9.58s
+
+03:42.053 --> 03:45.787
+et la pente correspond éssentiellement au taux de variation
+
+03:45.787 --> 03:47.752
+autrement dit le taux de variation moyen...
+
+03:47.752 --> 03:51.069
+entre ces 2 points. et en suivant...
+
+03:51.069 --> 03:54.436
+les unités, ça nous donne des unités de vitesse ici même...
+
+03:54.436 --> 03:56.980
+ce serait la vélocité si on spécifiait également la direction...
+
+03:56.980 --> 04:00.803
+et nous pouvons la calculer. Je prends ma calculatrice...
+
+04:00.803 --> 04:07.137
+voila je la mets à l'écran...
+
+04:07.137 --> 04:14.454
+donc nous avons 100 mètres en 9.58 sec. ce qui donne +/- 10.4
+
+04:14.454 --> 04:22.087
+donc +/- 10.4 mètres par seconde
+
+04:22.087 --> 04:28.270
+et ça c'est la vitesse moyenne. Et on va voir dans quelques secondes...
+
+04:28.270 --> 04:32.919
+que la vitesse moyenne ne correspond pas à la vitesse instantanée.
+
+04:32.919 --> 04:35.121
+qu'elle ne correspond pas à la vitesse pratiquée...
+
+04:35.121 --> 04:38.570
+à un moment donné... Et pour savoir à quoi correspond cette
+
+04:38.570 --> 04:41.636
+vitesse moyenne je calcule donc à partir des mètres par secondes
+
+04:41.636 --> 04:43.802
+si je veux savoir combien de mètres par heure.....
+
+04:43.802 --> 04:45.653
+il y a 3600 secondes dans 1 heure....
+
+04:45.653 --> 04:50.953
+donc il pourra parcourir 37578 mètres/heure (+-37km/h)
+
+04:50.953 --> 04:54.603
+donc voila la distance parcourue en mètres si d'aventure il pouvait...
+
+04:54.603 --> 04:57.503
+maintenir cette vitesse pendant 1 heure...donc voila sa vitesse
+
+04:57.503 --> 05:00.715
+en mètres/heure et pour obtenir des miles/heure
+
+05:00.715 --> 05:03.719
+on a plus ou moins 1600....
+
+05:03.719 --> 05:06.954
+mètres pour 1 mile... donc on divise...
+
+05:06.954 --> 05:10.986
+par 1600. Et on voit que c'est un peu plus que 23 (miles/heure)

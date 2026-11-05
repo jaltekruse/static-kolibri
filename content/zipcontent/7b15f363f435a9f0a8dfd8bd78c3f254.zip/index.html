@@ -1,0 +1,796 @@
+<!DOCTYPE html><html dir="ltr" lang="en-US"><!--******************************************--><!--*  Authored with PreTeXt                 *--><!--*  pretextbook.org                       *--><!--*  Theme: salem                          *--><!--*  Palette:                              *--><!--******************************************--><head xmlns:book="https://ogp.me/ns/book#" xmlns:og="http://ogp.me/ns#">
+<script type="text/javascript">if (window.parent && window.parent.sandbox) {try {window.parent.sandbox.initializeIframe(window);} catch (e) {}}</script><meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+<title>SB Layout Mangers</title>
+<link href="" rel="preconnect"/>
+<link crossorigin="" href="" rel="preconnect"/>
+<link href="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/fonts.googleapis.com/css2_family_Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0/index.css" rel="stylesheet"/>
+<link href="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/css/theme.css" rel="stylesheet" type="text/css"/>
+<link href="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/css/ol-markers.css" rel="stylesheet" type="text/css"/>
+<script>
+var runestoneMathReady = new Promise((resolve) => window.rsMathReady = resolve);
+window.MathJax = {
+  "tex": {
+    "inlineMath": [
+      [
+        "\\(",
+        "\\)"
+      ]
+    ],
+    "tags": "none",
+    "tagSide": "right",
+    "tagIndent": ".8em",
+    "packages": {
+      "[+]": [
+        "base",
+        "extpfeil",
+        "ams",
+        "amscd",
+        "color",
+        "newcommand",
+        "knowl"
+      ]
+    }
+  },
+  "options": {
+    "ignoreHtmlClass": "tex2jax_ignore|ignore-math",
+    "processHtmlClass": "process-math"
+  },
+  "chtml": {
+    "scale": 0.98,
+    "mtextInheritFont": true
+  },
+  "loader": {
+    "load": [
+      "input/asciimath",
+      "[tex]/extpfeil",
+      "[tex]/amscd",
+      "[tex]/color",
+      "[tex]/newcommand",
+      "[pretext]/mathjaxknowl3.js"
+    ],
+    "paths": {
+      "pretext": "/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/lib"
+    }
+  },
+  "startup": {
+    pageReady() {
+      return MathJax.startup.defaultPageReady().then(function () {
+      console.log("in ready function");
+      rsMathReady();
+      }
+    )}
+  }
+};
+</script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script><meta content="Authored in PreTeXt" name="Keywords"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<meta content="book" property="og:type"/>
+<meta content="How to Think Like a Computer Scientist" property="book:title"/>
+<script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/lib/jquery.min.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/lib/jquery.sticky.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/lib/jquery.espy.min.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/pretext.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/pretext_add_on_x_1.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/user_preferences.js"></script><!--** eBookCongig is necessary to configure interactive       **-->
+<!--** Runestone components to run locally in reader's browser **-->
+<!--** No external communication:                              **-->
+<!--**     log level is 0, Runestone Services are disabled     **-->
+<script type="text/javascript">
+eBookConfig = {};
+eBookConfig.useRunestoneServices = false;
+eBookConfig.host = 'http://127.0.0.1:8000';
+eBookConfig.course = 'PTX_Course_Title_Here';
+eBookConfig.basecourse = 'PTX_Base_Course';
+eBookConfig.isLoggedIn = false;
+eBookConfig.email = '';
+eBookConfig.isInstructor = false;
+eBookConfig.logLevel = 0;
+eBookConfig.username = '';
+eBookConfig.readings = null;
+eBookConfig.activities = null;
+eBookConfig.downloadsEnabled = false;
+eBookConfig.allow_pairs = false;
+eBookConfig.enableScratchAC = false;
+eBookConfig.build_info = "";
+eBookConfig.python3 = null;
+eBookConfig.runestone_version = '8.3.6';
+eBookConfig.jobehost = '';
+eBookConfig.proxyuri_runs = '';
+eBookConfig.proxyuri_files = '';
+eBookConfig.enable_chatcodes =  false;
+</script>
+<!--*** Runestone Services ***-->
+<script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/prefix-runtime.4beca1fdeed766a2.bundle.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/prefix-926.5c7038c8ef173faf.bundle.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/prefix-runestone.ebd33f6a21eed414.bundle.js"></script><link href="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/prefix-926.229729d09512acc9.css" rel="stylesheet" type="text/css"/>
+<link href="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/prefix-runestone.9963089870a016c8.css" rel="stylesheet" type="text/css"/>
+<script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/lti_iframe_resizer.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/components/prism-core.min.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/autoloader/prism-autoloader.min.js"></script><script crossorigin="anonymous" integrity="sha512-dubtf8xMHSQlExGRQ5R7toxHLgSDZ0K7AunqPWHXmJQ8XyVIG19S1T95gBxlAeGOK02P4Da2RTnQz0Za0H0ebQ==" referrerpolicy="no-referrer" src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-numbers/prism-line-numbers.min.js"></script><script crossorigin="anonymous" integrity="sha512-93uCmm0q+qO5Lb1huDqr7tywS8A2TFA+1/WHvyiWaK6/pvsFl6USnILagntBx8JnVbQH5s3n0vQZY6xNthNfKA==" referrerpolicy="no-referrer" src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/cdnjs.cloudflare.com/ajax/libs/prism/1.26.0/plugins/line-highlight/prism-line-highlight.min.js"></script><script crossorigin="anonymous" integrity="sha512-4xUl/d6D6THrAnXAwGajXkoWaeMNwEKK4iNfq5DotEbLPAfk6FSxSP3ydNxqDgCw1c/0Z1Jg6L8h2j+++9BZmg==" referrerpolicy="no-referrer" src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/cdnjs.cloudflare.com/ajax/libs/lunr.js/2.3.9/lunr.min.js"></script><script async="" src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/lunr-pretext-search-index.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/pretext_search.js"></script><script src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/localhost:8080/_static/pretext/js/lib/knowl.js"></script><!--knowl.js code controls Sage Cells within knowls--><script>sagecellEvalName='Evaluate (Sage)';
+</script>
+</head>
+<body class="pretext book ignore-math" id="httlacs">
+<a class="assistive" href="#ptx-content">Skip to main content</a><header class="ptx-masthead" id="ptx-masthead"><div class="ptx-banner"><div class="title-container">
+<h1 class="heading"><a href="thinkcspy.html"><span class="title">How to Think Like a Computer Scientist</span> <span class="subtitle">The PreTeXt Interactive Edition</span></a></h1>
+<p class="byline"></p>
+</div></div></header><nav class="ptx-navbar navbar" id="ptx-navbar"><div class="ptx-navbar-contents">
+<button class="toc-toggle button" title="Contents"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Contents</span></button><a class="index-button button" onclick="window.kolibri.navigateTo('c2c9a50c-b927-5549-aedd-f2c4be3a3feb')" title="Index"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Index</span></a><div class="searchbox">
+<div class="searchwidget"><button class="searchbutton button" id="searchbutton" title="Search book" type="button"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Search Book</span></button></div>
+<div class="searchresultsplaceholder" id="searchresultsplaceholder" style="display: none">
+<div class="search-results-controls">
+<input aria-label="Search term" class="ptxsearch" id="ptxsearch" name="terms" placeholder="Search term" type="text"/><button class="closesearchresults" id="closesearchresults" title="Close search"><span class="material-symbols-outlined">close</span></button>
+</div>
+<h2 class="search-results-heading">Search Results: </h2>
+<div class="searchempty" id="searchempty"><span>No results.</span></div>
+<ol class="searchresults" id="searchresults"></ol>
+</div>
+</div>
+<span class="nav-other-controls"><button class="light-dark-button button" id="light-dark-button" title="Dark Mode"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Dark Mode</span></button></span><span class="treebuttons"><a class="previous-button button" onclick="window.kolibri.navigateTo('1abadf81-fe70-591c-bcc2-69551d9b2d27')" title="Previous"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Prev</span></a><a class="up-button button" onclick="window.kolibri.navigateTo('843cf7ee-0c2f-5feb-9e96-734e8e560dee')" title="Up"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Up</span></a><a class="next-button button" onclick="window.kolibri.navigateTo('7a45a58d-a12b-54e0-8088-cc648f9368e4')" title="Next"><span class="name">Next</span><span aria-hidden="true" class="icon material-symbols-outlined"></span></a></span>
+</div></nav><div class="hidden-content process-math" id="latex-macros" style="display:none"><span class="process-math">\(
+\newcommand{\lt}{&lt;}
+\newcommand{\gt}{&gt;}
+\newcommand{\amp}{&amp;}
+\definecolor{fillinmathshade}{gray}{0.9}
+\newcommand{\fillinmath}[1]{\mathchoice{\colorbox{fillinmathshade}{$\displaystyle     \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\textstyle        \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptstyle      \phantom{\,#1\,}$}}{\colorbox{fillinmathshade}{$\scriptscriptstyle\phantom{\,#1\,}$}}}
+\)</span></div>
+<div class="ptx-page">
+<div class="ptx-sidebar" id="ptx-sidebar"><nav class="ptx-toc depth2 focused" data-max-levels="2" data-preexpanded-levels="0" id="ptx-toc"><ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-frontmatter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('df711e28-8e94-5add-826d-e064a0acbcce')"><span class="title">Front Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-preface"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('74ae22a1-8097-57f6-80a4-5ea5d4331697')"><span class="title">Copyright Notice</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a59749c6-3daf-59ee-8940-fecdca6c4685')"><span class="title">Preface to the First and Second Editions</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('86d6876c-6dbb-5241-aa67-0eaefbea1a05')"><span class="title">Preface to the Interactive Edition</span></a></div></li>
+<li class="toc-item toc-preface"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('26bea5c7-45eb-50e2-a17c-d53013e07edf')"><span class="title">GNU Free Documentation License</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('71734ecb-5749-5644-b737-3e42554a9e8c')"><span class="codenumber">1</span> <span class="title">General Introduction</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('dfb3c961-b085-5bbf-9175-ddfba217d00f')"><span class="codenumber">1.1</span> <span class="title">The Way of the Program</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3ac0b2d5-a1f6-563b-8880-a9a298a75272')"><span class="codenumber">1.2</span> <span class="title">Algorithms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('49eea002-107a-51a7-9267-7086bca384c9')"><span class="codenumber">1.3</span> <span class="title">The Python Programming Language</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bc6aa839-ca90-55b8-b24d-1fd79c1972d9')"><span class="codenumber">1.4</span> <span class="title">Executing Python in this Book</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4ae28fc1-7f3e-51f4-8493-b334ea233ddb')"><span class="codenumber">1.5</span> <span class="title">More About Programs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9afe47ed-3006-57cf-95c8-ca4c2af047be')"><span class="codenumber">1.6</span> <span class="title">What is Debugging?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('acb0d3fd-ae8a-5dc7-adef-7c3eecc36ebf')"><span class="codenumber">1.7</span> <span class="title">Syntax errors</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f15849a4-694c-59d7-8fe8-e0cc58f13050')"><span class="codenumber">1.8</span> <span class="title">Runtime Errors</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7ab15a1c-dad8-5a0f-9930-5dee1cc5078c')"><span class="codenumber">1.9</span> <span class="title">Semantic Errors</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('31a49374-f892-5a1e-b924-f5a178d1eb0a')"><span class="codenumber">1.10</span> <span class="title">Experimental Debugging</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('81312d25-af52-58f4-b974-403002b2af03')"><span class="codenumber">1.11</span> <span class="title">Formal and Natural Languages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('81312d25-af52-58f4-b974-403002b2af03')#general-intro_formal-and-natural-languages-11"><span class="codenumber">1.11</span> <span class="title">Glossary</span></a></div></li>
+<li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('81312d25-af52-58f4-b974-403002b2af03')#general-intro_formal-and-natural-languages-13"><span class="codenumber">1.11</span> <span class="title">Glossary</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f1269ed1-11d1-5b9a-83f8-c8fc4f4e8210')"><span class="codenumber">1.12</span> <span class="title">A Typical First Program</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('011ab855-354f-5755-969e-b2d788101388')"><span class="codenumber">1.13</span> <span class="title">Comments</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('865131fe-1164-5b54-95ce-b44bd63856f2')"><span class="codenumber">1.14</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('865131fe-1164-5b54-95ce-b44bd63856f2')#general-intro_glossary-2"><span class="codenumber">1.14</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('80f4f940-e014-5b21-be9b-65f3a5df6f43')"><span class="codenumber">1.15</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('65f5cd73-bd21-52bb-8a7d-3086a6915bf6')"><span class="codenumber">2</span> <span class="title">Simple Python Data</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('84e98d9f-1eee-5dc2-b9b6-18afe0c4f2b1')"><span class="codenumber">2.1</span> <span class="title">Variables, Expressions and Statements</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('552e7262-98c0-56c3-bca9-a1bc9435e5f1')"><span class="codenumber">2.2</span> <span class="title">Values and Data Types</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3af02f37-f56d-5cc0-89c7-0054bba529fa')"><span class="codenumber">2.3</span> <span class="title">Type conversion functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('38b66266-6973-59cb-9695-f5c7ec153c73')"><span class="codenumber">2.4</span> <span class="title">Variables</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f25a21fb-57fb-5bd8-9de4-c01f480743eb')"><span class="codenumber">2.5</span> <span class="title">Variable Names and Keywords</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4491cfde-02d7-5f1e-8db5-725663a87263')"><span class="codenumber">2.6</span> <span class="title">Statements and Expressions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f38ec391-c336-537b-b926-4a494fa9fba1')"><span class="codenumber">2.7</span> <span class="title">Operators and Operands</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4625a5ee-bfeb-5573-9e03-48af91583c46')"><span class="codenumber">2.8</span> <span class="title">Input</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('16051db2-93a1-570b-a70c-8c9f0f012a52')"><span class="codenumber">2.9</span> <span class="title">Order of Operations</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('26a176e2-e59c-5db4-a6b8-57fb0ab1e8b4')"><span class="codenumber">2.10</span> <span class="title">Reassignment</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('26a176e2-e59c-5db4-a6b8-57fb0ab1e8b4')#simple-python-data_reassignment-2"><span class="codenumber">2.10.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('26a176e2-e59c-5db4-a6b8-57fb0ab1e8b4')#simple-python-data_developing-your-mental-model-of-how-python-evaluates"><span class="codenumber">2.10.2</span> <span class="title">Developing your mental model of How Python Evaluates</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('84a11f2c-f910-52c4-88de-540bdcb99b5f')"><span class="codenumber">2.11</span> <span class="title">Updating Variables</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b2ace713-ebf4-5b80-b7bf-ff41c99b5dcd')"><span class="codenumber">2.12</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b2ace713-ebf4-5b80-b7bf-ff41c99b5dcd')#simple-python-data_glossary-2"><span class="codenumber">2.12</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6ef189ac-1ffc-593c-a073-520ae8002e8e')"><span class="codenumber">2.13</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e9e681c6-67d7-5a8a-b5d8-88c44df8ba61')"><span class="codenumber">3</span> <span class="title">Debugging Interlude 1</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bf6cf6e8-a04d-5810-82f8-e2ba739ddf17')"><span class="codenumber">3.1</span> <span class="title">How to be a Successful Programmer</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ec83bf9-806a-5413-86f9-82e4d32b7b8c')"><span class="codenumber">3.2</span> <span class="title">How to Avoid Debugging</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('54d9a966-d597-5902-9c53-1c4433bbf62a')"><span class="codenumber">3.3</span> <span class="title">Beginning tips for Debugging</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ae9e42da-fa1f-5c96-badf-75f013bad892')"><span class="codenumber">3.4</span> <span class="title">Know Your Error Messages</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ae9e42da-fa1f-5c96-badf-75f013bad892')#debugging_know-your-error-messages-2"><span class="codenumber">3.4.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ae9e42da-fa1f-5c96-badf-75f013bad892')#debugging_parseerror"><span class="codenumber">3.4.2</span> <span class="title">ParseError</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ae9e42da-fa1f-5c96-badf-75f013bad892')#debugging_typeerror"><span class="codenumber">3.4.3</span> <span class="title">TypeError</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ae9e42da-fa1f-5c96-badf-75f013bad892')#debugging_nameerror"><span class="codenumber">3.4.4</span> <span class="title">NameError</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ae9e42da-fa1f-5c96-badf-75f013bad892')#debugging_valueerror"><span class="codenumber">3.4.5</span> <span class="title">ValueError</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9089412a-838f-5207-b337-1575fefb99ec')"><span class="codenumber">3.5</span> <span class="title">Summary</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c72b2975-fdb0-5c66-98b1-809b057725f0')"><span class="codenumber">3.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('93be1197-7b68-5363-9787-09bbc2bb2da3')"><span class="codenumber">4</span> <span class="title">Python Turtle Graphics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3a6b0447-f47a-5c66-9512-2b1b6e447bc8')"><span class="codenumber">4.1</span> <span class="title">Hello Little Turtles!</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('10cc0d44-b9aa-5ade-8b66-cda9fa5c985f')"><span class="codenumber">4.2</span> <span class="title">Our First Turtle Program</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a34fe962-5213-5b9a-ac22-5bb10689a4cb')"><span class="codenumber">4.3</span> <span class="title">Instances — A Herd of Turtles</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2d73aca-38cf-54c3-9f6f-517efad93142')"><span class="codenumber">4.4</span> <span class="title">The <code class="code-inline tex2jax_ignore">for</code> Loop</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5e1e95b6-f5f9-5d3c-bc1a-098681b71417')"><span class="codenumber">4.5</span> <span class="title">Flow of Execution of the for Loop</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b878660c-06ed-55b9-9273-214f750db97d')"><span class="codenumber">4.6</span> <span class="title">Iteration Simplifies our Turtle Program</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c53dd4f4-57da-5072-814b-6585f44f8923')"><span class="codenumber">4.7</span> <span class="title">The range Function</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d5ffd295-92d8-5df4-97e2-458f4f6fbd84')"><span class="codenumber">4.8</span> <span class="title">A Few More turtle Methods and Observations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('57f71919-b714-5b39-a5fe-32856b83ddf3')"><span class="codenumber">4.9</span> <span class="title">Summary of Turtle Methods</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('fe8ceaf0-0e18-57c2-9479-da3dc47a2b4b')"><span class="codenumber">4.10</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('fe8ceaf0-0e18-57c2-9479-da3dc47a2b4b')#python-turtle_glossary-2"><span class="codenumber">4.10</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('42e72691-f823-54f7-9d45-5f43e2edb76a')"><span class="codenumber">4.11</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ec11a19b-408e-53c0-adbc-da583d01b3e0')"><span class="codenumber">5</span> <span class="title">Python Modules</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('49fc3501-a083-5f3e-9145-797a41914cd7')"><span class="codenumber">5.1</span> <span class="title">Modules and Getting Help</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6c8ef406-3045-5e0b-822d-691d0c44ca40')"><span class="codenumber">5.2</span> <span class="title">More About Using Modules</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6483b26b-b02e-50fd-8e54-7eee671b6a69')"><span class="codenumber">5.3</span> <span class="title">The math module</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('86eff2a8-e7d7-56f3-8d9c-07570639dc53')"><span class="codenumber">5.4</span> <span class="title">The random module</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('8373a259-fd8a-5992-bdcc-c283b73208bc')"><span class="codenumber">5.5</span> <span class="title">Creating Modules</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6ab2f1c7-773e-5771-ad0b-bcb787f97925')"><span class="codenumber">5.6</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6ab2f1c7-773e-5771-ad0b-bcb787f97925')#python-modules_glossary-2"><span class="codenumber">5.6</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('060099f9-58d3-57e1-b4c4-b5b833e71415')"><span class="codenumber">5.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98028d2b-e103-55ea-8cc7-a8167e8adf18')"><span class="codenumber">6</span> <span class="title">Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bf17f658-ce00-59ef-bdff-2ca0f53701e5')"><span class="codenumber">6.1</span> <span class="title">Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('34e2edd9-ece5-5c0a-8873-8a3aa94c1f93')"><span class="codenumber">6.2</span> <span class="title">Functions that Return Values</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('507806bc-11f9-586d-8336-74ee93070b39')"><span class="codenumber">6.3</span> <span class="title">Unit Testing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('507806bc-11f9-586d-8336-74ee93070b39')#functions_unit-testing-2"><span class="codenumber">6.3.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('507806bc-11f9-586d-8336-74ee93070b39')#functions_assert-with-for-loops"><span class="codenumber">6.3.2</span> <span class="title"><code class="code-inline tex2jax_ignore">assert</code> with <code class="code-inline tex2jax_ignore">for</code> loops</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('507806bc-11f9-586d-8336-74ee93070b39')#functions_return-value-tests"><span class="codenumber">6.3.3</span> <span class="title">Return Value Tests</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('fe505e29-c844-563f-b887-fd2b506b9d6d')"><span class="codenumber">6.4</span> <span class="title">Variables and Parameters are Local</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cb0803ed-f37f-580b-9eb2-c00b9f18ba5d')"><span class="codenumber">6.5</span> <span class="title">The Accumulator Pattern</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cb0803ed-f37f-580b-9eb2-c00b9f18ba5d')#functions_the-accumulator-pattern-2"><span class="codenumber">6.5.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cb0803ed-f37f-580b-9eb2-c00b9f18ba5d')#functions_the-general-accumulator-pattern"><span class="codenumber">6.5.2</span> <span class="title">The General Accumulator Pattern</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cb0803ed-f37f-580b-9eb2-c00b9f18ba5d')#functions_a-variation-on-the-accumulator-pattern"><span class="codenumber">6.5.3</span> <span class="title">A Variation on the Accumulator Pattern</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c95d0b7b-adb2-5bc6-b088-9e4e452d1856')"><span class="codenumber">6.6</span> <span class="title">Functions can Call Other Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('68ef39e3-0db3-559c-9e09-ff9f19eab493')"><span class="codenumber">6.7</span> <span class="title">Flow of Execution Summary</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3c02f011-61bc-598c-90f0-cfe4946e4152')"><span class="codenumber">6.8</span> <span class="title">Using a Main Function</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5e2b13e1-d09d-594f-9a2a-379357db3e37')"><span class="codenumber">6.9</span> <span class="title">Program Development</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f25b8eff-4027-5dcd-aa16-c84c9af7855c')"><span class="codenumber">6.10</span> <span class="title">Composition</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6296039f-c2ca-5e97-bf6d-cf4fe973408a')"><span class="codenumber">6.11</span> <span class="title">A Turtle Bar Chart</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ecc7167e-9b48-53b4-a101-d2f966e8d51c')"><span class="codenumber">6.12</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ecc7167e-9b48-53b4-a101-d2f966e8d51c')#functions_glossary-2"><span class="codenumber">6.12</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2be303c8-a4e6-57a0-b4ee-cb328caf7dae')"><span class="codenumber">6.13</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('91c33c4e-ec51-578e-a8a8-642d9a22507c')"><span class="codenumber">7</span> <span class="title">Selection</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b3e97f4a-a577-5ed3-97ef-5e37491d6b67')"><span class="codenumber">7.1</span> <span class="title">Boolean Values and Boolean Expressions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5219264f-cc88-5d79-abf9-38f274197081')"><span class="codenumber">7.2</span> <span class="title">Logical operators</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5219264f-cc88-5d79-abf9-38f274197081')#selection_logical-operators-2"><span class="codenumber">7.2.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5219264f-cc88-5d79-abf9-38f274197081')#selection_logical-opposites"><span class="codenumber">7.2.2</span> <span class="title">Logical Opposites</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('48e00ea4-d1e2-58c4-bc71-d94e27ea49aa')"><span class="codenumber">7.3</span> <span class="title">Precedence of Operators</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0f822df9-8db5-53ad-90d2-0aa55497d05e')"><span class="codenumber">7.4</span> <span class="title">Conditional Execution: Binary Selection</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('055572da-3f87-59fc-91dd-e9f07223958e')"><span class="codenumber">7.5</span> <span class="title">Omitting the else Clause: Unary Selection</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4e8653a1-f1d4-5c18-b4f3-0b4f2968d7ed')"><span class="codenumber">7.6</span> <span class="title">Nested conditionals</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e30fb6d8-750e-5571-9e6a-99ce5c8d8787')"><span class="codenumber">7.7</span> <span class="title">Chained conditionals</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a037ee6e-fc8d-5213-add5-a43a5d645593')"><span class="codenumber">7.8</span> <span class="title">Boolean Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a037ee6e-fc8d-5213-add5-a43a5d645593')#selection_boolean-functions-2"><span class="codenumber">7.8.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a037ee6e-fc8d-5213-add5-a43a5d645593')#selection_more-unit-testing"><span class="codenumber">7.8.2</span> <span class="title">More Unit Testing</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('55f9b8d9-de3d-58c2-94de-bb16d0488b09')"><span class="codenumber">7.9</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('55f9b8d9-de3d-58c2-94de-bb16d0488b09')#selection_glossary-2"><span class="codenumber">7.9</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3ec81466-ead9-5fea-8d82-0df0f2114041')"><span class="codenumber">7.10</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e212af1f-3d31-5532-b608-74bc89bb249c')"><span class="codenumber">8</span> <span class="title">More About Iteration</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e5b37855-1c0b-5510-85ef-587653f900ca')"><span class="codenumber">8.1</span> <span class="title">Iteration Revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('03f8725f-a567-5768-b32e-6ff0675fbe15')"><span class="codenumber">8.2</span> <span class="title">The <code class="code-inline tex2jax_ignore">for</code> loop revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2cf824b-8ba4-5d80-8a9a-bc4fbeb2d542')"><span class="codenumber">8.3</span> <span class="title">The <code class="code-inline tex2jax_ignore">while</code> Statement</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4270d95e-1af2-5550-9ecf-0a9eae1b71b3')"><span class="codenumber">8.4</span> <span class="title">Randomly Walking Turtles</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('30128e2a-4044-57ec-933f-270e3dd100ee')"><span class="codenumber">8.5</span> <span class="title">The 3n + 1 Sequence</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5d8a725e-1cdb-57fe-ae3c-1fe1a681d85f')"><span class="codenumber">8.6</span> <span class="title">Newton’s Method</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('dfac0af6-a12c-56d1-8a8c-f362e87d3593')"><span class="codenumber">8.7</span> <span class="title">The Accumulator Pattern Revisited</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('542e9fee-9562-55b2-a459-899fec8f6242')"><span class="codenumber">8.8</span> <span class="title">Other uses of <code class="code-inline tex2jax_ignore">while</code></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('542e9fee-9562-55b2-a459-899fec8f6242')#more-about-iteration_sentinel-values"><span class="codenumber">8.8.1</span> <span class="title">Sentinel Values</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('542e9fee-9562-55b2-a459-899fec8f6242')#more-about-iteration_validating-input"><span class="codenumber">8.8.2</span> <span class="title">Validating Input</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('80ce9119-22f1-5e09-b373-64346be9e5b0')"><span class="codenumber">8.9</span> <span class="title">Algorithms Revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d765c5bb-ddb1-5757-acec-85f8b7986c19')"><span class="codenumber">8.10</span> <span class="title">Simple Tables</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e83ca918-8b73-5935-a9b2-c7e75ea0c1b8')"><span class="codenumber">8.11</span> <span class="title">2-Dimensional Iteration: Image Processing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e83ca918-8b73-5935-a9b2-c7e75ea0c1b8')#more-about-iteration_dimensional-iteration-image-processing-2"><span class="codenumber">8.11.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e83ca918-8b73-5935-a9b2-c7e75ea0c1b8')#more-about-iteration_the-rgb-color-model"><span class="codenumber">8.11.2</span> <span class="title">The RGB Color Model</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e83ca918-8b73-5935-a9b2-c7e75ea0c1b8')#more-about-iteration_image-objects"><span class="codenumber">8.11.3</span> <span class="title">Image Objects</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e83ca918-8b73-5935-a9b2-c7e75ea0c1b8')#more-about-iteration_image-processing-and-nested-iteration"><span class="codenumber">8.11.4</span> <span class="title">Image Processing and Nested Iteration</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2de8d430-903c-563e-a576-282c96379dd3')"><span class="codenumber">8.12</span> <span class="title">Image Processing on Your Own</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('095ccf08-0814-534b-a5c4-d2e3e06b49ad')"><span class="codenumber">8.13</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('095ccf08-0814-534b-a5c4-d2e3e06b49ad')#more-about-iteration_glossary-2"><span class="codenumber">8.13</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('69aa84f0-871d-5190-9869-6cc28da156ca')"><span class="codenumber">8.14</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('63380a9d-96ff-58ed-8007-de105c18b83d')"><span class="codenumber">9</span> <span class="title">Strings</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ebc1b2d8-e6dd-5fe9-b956-f1fe2ff7d4a9')"><span class="codenumber">9.1</span> <span class="title">Strings Revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f4333ae2-1fda-5ded-bbee-d25b3adf4b6a')"><span class="codenumber">9.2</span> <span class="title">A Collection Data Type</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('8a0f1882-e079-54b0-bec3-68fddcefcb9b')"><span class="codenumber">9.3</span> <span class="title">Operations on Strings</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('705c5716-54af-57af-95a5-04081e62fa0f')"><span class="codenumber">9.4</span> <span class="title">Index Operator: Working with the Characters of a String</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('da948e13-3d15-50a7-bb70-1320cf84035b')"><span class="codenumber">9.5</span> <span class="title">String Methods</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('da948e13-3d15-50a7-bb70-1320cf84035b')#strings_string-methods-2"><span class="codenumber">9.5.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('da948e13-3d15-50a7-bb70-1320cf84035b')#strings_string-format-method"><span class="codenumber">9.5.2</span> <span class="title">String Format Method</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d0c62ad0-076e-5d11-94c3-4bfbfc526860')"><span class="codenumber">9.6</span> <span class="title">Length</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('15446437-f59c-5505-bcd5-cf44b0fa7e34')"><span class="codenumber">9.7</span> <span class="title">The Slice Operator</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('8858f2f8-0d69-5453-bc61-dbb3a5ed299f')"><span class="codenumber">9.8</span> <span class="title">String Comparison</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('048ca957-c2b7-512b-8abf-3a3372dd8701')"><span class="codenumber">9.9</span> <span class="title">Strings are Immutable</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9797c12b-9c68-5bb6-b1ff-19109656922a')"><span class="codenumber">9.10</span> <span class="title">Traversal and the <code class="code-inline tex2jax_ignore">for</code> Loop: By Item</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('74fef1cc-80be-5f9d-81e5-4989e87116de')"><span class="codenumber">9.11</span> <span class="title">Traversal and the <code class="code-inline tex2jax_ignore">for</code> Loop: By Index</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ecb27d7c-3483-5bb2-a2a2-be109b3f8d5d')"><span class="codenumber">9.12</span> <span class="title">Traversal and the <code class="code-inline tex2jax_ignore">while</code> Loop</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('806e409a-9d49-534d-9b3a-08e052b93149')"><span class="codenumber">9.13</span> <span class="title">The <code class="code-inline tex2jax_ignore">in</code> and <code class="code-inline tex2jax_ignore">not in</code> operators</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f29467f5-8dc4-5fdc-82a4-8e31943c6f05')"><span class="codenumber">9.14</span> <span class="title">The Accumulator Pattern with Strings</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b71bbaf5-eb07-5e41-a7b7-dca010ae5935')"><span class="codenumber">9.15</span> <span class="title">Turtles and Strings and L-Systems</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1cd74275-c1fe-50ba-b4e7-df6b50936ac8')"><span class="codenumber">9.16</span> <span class="title">Looping and Counting</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('04b5e790-63e3-5ce8-a22d-6972ccf3f095')"><span class="codenumber">9.17</span> <span class="title">A <code class="code-inline tex2jax_ignore">find</code> function</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bc4e710b-3482-55a3-aaa3-595b72738ee5')"><span class="codenumber">9.18</span> <span class="title">Optional parameters</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6b3de472-29fe-5fec-b841-035eb7417203')"><span class="codenumber">9.19</span> <span class="title">Character classification</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b4c7b4ee-b721-58e7-a86b-abbe96ad66a0')"><span class="codenumber">9.20</span> <span class="title">Summary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b4c7b4ee-b721-58e7-a86b-abbe96ad66a0')#strings_summary-3"><span class="codenumber">9.20</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b34d44b7-b42b-5960-86ef-f2716875084f')"><span class="codenumber">9.21</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b34d44b7-b42b-5960-86ef-f2716875084f')#strings_glossary-2"><span class="codenumber">9.21</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('52979c1a-955c-5f59-a865-55cd027c9b99')"><span class="codenumber">9.22</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('317b2f1e-c0e9-5748-ae22-b444130398c0')"><span class="codenumber">10</span> <span class="title">Lists</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('934a8a7d-b92c-5995-93c3-53f473e69dcb')"><span class="codenumber">10.1</span> <span class="title">Lists</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4da06986-ae5d-585b-ab86-f49986681499')"><span class="codenumber">10.2</span> <span class="title">List Values</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1eb85e3d-cb2b-597a-a50e-aeed2bf00160')"><span class="codenumber">10.3</span> <span class="title">List Length</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('363ae6d5-7bc8-5a37-8975-3993aaa2fffc')"><span class="codenumber">10.4</span> <span class="title">Accessing Elements</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('fc029766-714a-5ca5-afb4-944ed8bf63ce')"><span class="codenumber">10.5</span> <span class="title">List Membership</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1c744f0b-534d-5b8f-a109-86b44e91314a')"><span class="codenumber">10.6</span> <span class="title">Concatenation and Repetition</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c4823a79-e762-5b85-9931-16a7ed0da427')"><span class="codenumber">10.7</span> <span class="title">List Slices</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bc8d1c3e-bf91-56a1-b5cd-6d60bf74d70b')"><span class="codenumber">10.8</span> <span class="title">Lists are Mutable</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0b209375-e4b2-54c7-aea6-0f254188e0a4')"><span class="codenumber">10.9</span> <span class="title">List Deletion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9968033e-d48a-505e-b71d-c96b93f5e19d')"><span class="codenumber">10.10</span> <span class="title">Objects and References</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ed9fecbe-1d11-57a1-a36f-e02efe30ae60')"><span class="codenumber">10.11</span> <span class="title">Aliasing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c8dc3bb6-74c6-5584-8067-30bc87e6009b')"><span class="codenumber">10.12</span> <span class="title">Cloning Lists</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e7e1f1f9-3404-5002-9aeb-8a898a338081')"><span class="codenumber">10.13</span> <span class="title">Repetition and References</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a26afa6c-e871-529b-a803-e14c32feb111')"><span class="codenumber">10.14</span> <span class="title">List Methods</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('091164a3-805d-5fd1-9a8c-98448a4d99a1')"><span class="codenumber">10.15</span> <span class="title">The Return of L-Systems</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('8fa5c9cf-2962-59a7-bb7c-68664d3e3395')"><span class="codenumber">10.16</span> <span class="title">Append versus Concatenate</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('934b4d94-c70d-5367-a4ba-bc0bcf78edb8')"><span class="codenumber">10.17</span> <span class="title">Lists and <code class="code-inline tex2jax_ignore">for</code> loops</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e77fb7b7-a8dd-5175-ba52-e282b6660c4e')"><span class="codenumber">10.18</span> <span class="title">The Accumulator Pattern with Lists</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e77fb7b7-a8dd-5175-ba52-e282b6660c4e')#subsec-Introduction"><span class="codenumber">10.18.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e77fb7b7-a8dd-5175-ba52-e282b6660c4e')#lists_accumulating-the-max-value"><span class="codenumber">10.18.2</span> <span class="title">Accumulating the Max Value</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e77fb7b7-a8dd-5175-ba52-e282b6660c4e')#lists_accumulating-a-string-result"><span class="codenumber">10.18.3</span> <span class="title">Accumulating a String Result</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98250266-cad7-5e41-9fe2-679fb7c33c8f')"><span class="codenumber">10.19</span> <span class="title">Using Lists as Parameters</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9ad73e2d-9dbd-5358-abc5-9ee8b7628e86')"><span class="codenumber">10.20</span> <span class="title">Pure Functions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d9bc3528-e9e0-5b95-962f-7bc1deae3fb6')"><span class="codenumber">10.21</span> <span class="title">Which is Better?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1f227f48-2205-5b89-b00f-46fc26ef15ce')"><span class="codenumber">10.22</span> <span class="title">Functions that Produce Lists</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('87db69a6-e003-52e8-95c1-3f2b5161daf8')"><span class="codenumber">10.23</span> <span class="title">List Comprehensions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('066eb649-0d66-5dec-b230-238bf52f8160')"><span class="codenumber">10.24</span> <span class="title">Nested Lists</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('884cded7-68c9-5906-917b-5188b5b0c902')"><span class="codenumber">10.25</span> <span class="title">Strings and Lists</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b561ce0c-3fa0-582b-9c87-3a038d9fa0ed')"><span class="codenumber">10.26</span> <span class="title">List - Type Conversion Function</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1b1f932d-8b88-53bc-acec-0ba36e183e48')"><span class="codenumber">10.27</span> <span class="title">Tuples and Mutability</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('81fcd113-dada-50b6-b302-c485e5e4179d')"><span class="codenumber">10.28</span> <span class="title">Tuple Assignment</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bb3243d2-2b4e-5a52-aa29-1cbcbcdcfa00')"><span class="codenumber">10.29</span> <span class="title">Tuples as Return Values</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0a4a72b4-c6dd-5308-b4d0-7c8173edfefd')"><span class="codenumber">10.30</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0a4a72b4-c6dd-5308-b4d0-7c8173edfefd')#lists_glossary-2"><span class="codenumber">10.30</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('60f2e248-5bb4-53bc-8f2b-e9a1a8f897cd')"><span class="codenumber">10.31</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('928fcfef-3a9a-5f32-a2fe-0e0ba0dbce9c')"><span class="codenumber">11</span> <span class="title">Files</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cd5e0145-a724-5f6f-b9c2-b183ad185732')"><span class="codenumber">11.1</span> <span class="title">Working with Data Files</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cb1c2709-94af-570d-b14f-02f0eaa5e277')"><span class="codenumber">11.2</span> <span class="title">Finding a File on your Disk</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6d5bfcd8-97cc-5437-b087-fb25dcd5ae2a')"><span class="codenumber">11.3</span> <span class="title">Reading a File</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('af7dddfe-d924-55dc-bd07-7c030222c964')"><span class="codenumber">11.4</span> <span class="title">Iterating over lines in a file</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('610f706e-a3b0-50ac-aa78-46db26d9511f')"><span class="codenumber">11.5</span> <span class="title">Alternative File Reading Methods</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('582fb061-b2e0-51be-ae8b-498b6166ad3a')"><span class="codenumber">11.6</span> <span class="title">Writing Text Files</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b91a1209-9042-531a-9750-c178eab9c5c7')"><span class="codenumber">11.7</span> <span class="title">With Statements</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bc000e68-d7ca-5880-b18b-cc5ff7a1343d')"><span class="codenumber">11.8</span> <span class="title">Fetching Something From The Web</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('dbeaa56d-328f-5d91-a50c-1d99319febdd')"><span class="codenumber">11.9</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('dbeaa56d-328f-5d91-a50c-1d99319febdd')#files_glossary-2"><span class="codenumber">11.9</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('fcda2e3c-6723-52ea-b5a0-95f4e2655593')"><span class="codenumber">11.10</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('15ff8663-3ea3-5cc0-8df2-65b50a38dd19')"><span class="codenumber">12</span> <span class="title">Dictionaries</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a0859dab-2d47-5279-8506-d6e91631b25b')"><span class="codenumber">12.1</span> <span class="title">Dictionaries</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c7ad7875-494f-5ab5-a690-f3feba68e8a3')"><span class="codenumber">12.2</span> <span class="title">Dictionary Operations</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7a5438ed-17bb-536a-b8d8-9baec8782a14')"><span class="codenumber">12.3</span> <span class="title">Dictionary Methods</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('22026726-cff4-5692-bc79-bedcab5eeb3c')"><span class="codenumber">12.4</span> <span class="title">Aliasing and Copying</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e74d347e-8241-5da6-a23a-17264bc535ea')"><span class="codenumber">12.5</span> <span class="title">Sparse Matrices</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('db04ee64-2515-572f-a69a-95a0e5573860')"><span class="codenumber">12.6</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('db04ee64-2515-572f-a69a-95a0e5573860')#dictionaries_glossary-2"><span class="codenumber">12.6</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('55b8340f-04e2-5b4f-8da3-7a4f1a1a9b2a')"><span class="codenumber">12.7</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a26d2549-e1d4-539d-8824-3571623ff279')"><span class="codenumber">13</span> <span class="title">Exceptions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2c9d410c-63f1-5938-b3c9-4c5fdfce8037')"><span class="codenumber">13.1</span> <span class="title">What is an exception?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7b57aa0c-5fde-564d-8d08-ca969b9f2c31')"><span class="codenumber">13.2</span> <span class="title">Runetime Stack and <code class="code-inline tex2jax_ignore">raise</code> command</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b20df1ac-56fb-55c1-87a4-06a3d2cb60a9')"><span class="codenumber">13.3</span> <span class="title">Standard Exceptions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2af531e7-965b-59dd-aa73-9383f023c634')"><span class="codenumber">13.4</span> <span class="title">Principles for using Exceptions</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')"><span class="codenumber">13.5</span> <span class="title">Exceptions Syntax</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')#exceptions_exceptions-syntax-2"><span class="codenumber">13.5.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')#exceptions_catch-all-exceptions"><span class="codenumber">13.5.2</span> <span class="title">Catch All Exceptions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')#exceptions_catch-a-specific-exception"><span class="codenumber">13.5.3</span> <span class="title">Catch A Specific Exception</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')#exceptions_catch-multiple-specific-exceptions"><span class="codenumber">13.5.4</span> <span class="title">Catch Multiple Specific Exceptions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')#exceptions_clean-up-after-exceptions"><span class="codenumber">13.5.5</span> <span class="title">Clean-up After Exceptions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('98d191d7-4a62-5e66-89cf-bd0aaef1ae44')#exceptions_an-example-of-file-i-o"><span class="codenumber">13.5.6</span> <span class="title">An Example of File I/O</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('479ef849-384a-5029-9a5f-6fe12d39d5d7')"><span class="codenumber">13.6</span> <span class="title">The <code class="code-inline tex2jax_ignore">finally</code> clause of the <code class="code-inline tex2jax_ignore">try</code> statement</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2b1ac8df-abd5-5399-8b2b-2b5d8ee4d6b4')"><span class="codenumber">13.7</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2b1ac8df-abd5-5399-8b2b-2b5d8ee4d6b4')#exceptions_glossary-2"><span class="codenumber">13.7</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('04eda42e-be63-5ec2-a271-ba18f50c910b')"><span class="codenumber">13.8</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('44e2f3d1-50a3-535f-ab78-300e34ec108a')"><span class="codenumber">14</span> <span class="title">Web Applications</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d17d9f3d-1a45-502e-ba17-e0c2a5b05601')"><span class="codenumber">14.1</span> <span class="title">Web Applications</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a22b6b2f-85c5-5903-95db-7d1199764ab8')"><span class="codenumber">14.2</span> <span class="title">How the Web Works</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4e852663-c46c-5c2c-b1fd-4bc009ff5527')"><span class="codenumber">14.3</span> <span class="title">How Web Applications Work</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d36eeb7e-4e6d-5ee5-9a2c-9a6fbb6171d9')"><span class="codenumber">14.4</span> <span class="title">Web Applications and HTML Forms</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b5d1aab4-f60b-5f94-972d-4caedfb32cb6')"><span class="codenumber">14.5</span> <span class="title">Writing Web Applications With Flask</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('af7672bf-d104-5697-b8e0-7c72dc79540c')"><span class="codenumber">14.6</span> <span class="title">More About Flask</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('fefc42ed-5ab5-5865-9620-760c46df90fe')"><span class="codenumber">14.7</span> <span class="title">Input For A Flask Web Application</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('56a196ed-2188-5286-86f8-d85103811bf6')"><span class="codenumber">14.8</span> <span class="title">Web Applications With a User Interface</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5d607c99-c09e-5505-a49a-ca1754eaab9c')"><span class="codenumber">14.9</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5d607c99-c09e-5505-a49a-ca1754eaab9c')#web-apps_glossary-2"><span class="codenumber">14.9</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter contains-active">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('843cf7ee-0c2f-5feb-9e96-734e8e560dee')"><span class="codenumber">15</span> <span class="title">GUI and Event Driven Programming</span></a></div>
+<ul class="structural toc-item-list contains-active">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2d518375-952d-58aa-8ea8-0a003784a5bb')"><span class="codenumber">15.1</span> <span class="title">Graphical User Interfaces</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')"><span class="codenumber">15.2</span> <span class="title">Tkinter Standard Dialog Boxes</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')#gu-iand-event-driven-programming_tkinter-standard-dialog-boxes-2"><span class="codenumber">15.2.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')#gu-iand-event-driven-programming_messages"><span class="codenumber">15.2.2</span> <span class="title">Messages</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')#gu-iand-event-driven-programming_yes-no-questions"><span class="codenumber">15.2.3</span> <span class="title">Yes/No Questions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')#gu-iand-event-driven-programming_single-value-data-entry"><span class="codenumber">15.2.4</span> <span class="title">Single Value Data Entry</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')#gu-iand-event-driven-programming_file-chooser"><span class="codenumber">15.2.5</span> <span class="title">File Chooser</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cdfc26d6-2825-5f4b-97b1-360adc61b6d9')#gu-iand-event-driven-programming_color-chooser"><span class="codenumber">15.2.6</span> <span class="title">Color Chooser</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1abadf81-fe70-591c-bcc2-69551d9b2d27')"><span class="codenumber">15.3</span> <span class="title">GUI Widgets</span></a></div></li>
+<li class="toc-item toc-section active"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f20c3f8c-31c7-5a0d-bb89-6254ce884edf')"><span class="codenumber">15.4</span> <span class="title">Layout Mangers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7a45a58d-a12b-54e0-8088-cc648f9368e4')"><span class="codenumber">15.5</span> <span class="title">Widget Groupings</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('8a406254-a6f4-5889-be8a-75dfd3e7fc2b')"><span class="codenumber">15.6</span> <span class="title">Command Events</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bcbdbe32-83ab-57ba-8060-69c6e0685367')"><span class="codenumber">15.7</span> <span class="title">Low-Level Event Processing</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5b921d63-d90f-5c32-ad48-23d54ccf574b')"><span class="codenumber">15.8</span> <span class="title">The Design of GUI Programs</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a42d10f4-8567-50e3-a5ff-333d1c519663')"><span class="codenumber">15.9</span> <span class="title">Common Widget Properties</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1e40cb2b-3d3b-5f45-a7b1-e439fb251e53')"><span class="codenumber">15.10</span> <span class="title">Timer Events</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1e40cb2b-3d3b-5f45-a7b1-e439fb251e53')#gu-iand-event-driven-programming_timer-events-2"><span class="codenumber">15.10.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1e40cb2b-3d3b-5f45-a7b1-e439fb251e53')#gu-iand-event-driven-programming_animations-and-repeated-tasks"><span class="codenumber">15.10.2</span> <span class="title">Animations and Repeated Tasks</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1e40cb2b-3d3b-5f45-a7b1-e439fb251e53')#gu-iand-event-driven-programming_canceling-timer-events"><span class="codenumber">15.10.3</span> <span class="title">Canceling Timer Events</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1e40cb2b-3d3b-5f45-a7b1-e439fb251e53')#gu-iand-event-driven-programming_multiple-parameters-to-timer-callbacks"><span class="codenumber">15.10.4</span> <span class="title">Multiple Parameters to Timer Callbacks</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('42dc7b0d-4eeb-5a69-bea4-09ad1907612e')"><span class="codenumber">15.11</span> <span class="title">A Programming Example</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('42dc7b0d-4eeb-5a69-bea4-09ad1907612e')#gu-iand-event-driven-programming_a-programming-example-2"><span class="codenumber">15.11.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('42dc7b0d-4eeb-5a69-bea4-09ad1907612e')#gu-iand-event-driven-programming_a-whack-a-mole-game"><span class="codenumber">15.11.2</span> <span class="title">A Whack-a-mole Game</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('42dc7b0d-4eeb-5a69-bea4-09ad1907612e')#gu-iand-event-driven-programming_summary"><span class="codenumber">15.11.3</span> <span class="title">Summary</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b5244790-5466-5495-9e5a-a508d72ca874')"><span class="codenumber">15.12</span> <span class="title">Managing GUI Program Complexity</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b5244790-5466-5495-9e5a-a508d72ca874')#gu-iand-event-driven-programming_managing-gui-program-complexity-2"><span class="codenumber">15.12.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b5244790-5466-5495-9e5a-a508d72ca874')#gu-iand-event-driven-programming_creating-the-view"><span class="codenumber">15.12.2</span> <span class="title">Creating the <em class="emphasis">View</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b5244790-5466-5495-9e5a-a508d72ca874')#gu-iand-event-driven-programming_creating-the-model"><span class="codenumber">15.12.3</span> <span class="title">Creating the <em class="emphasis">Model</em></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b5244790-5466-5495-9e5a-a508d72ca874')#gu-iand-event-driven-programming_creating-the-controller"><span class="codenumber">15.12.4</span> <span class="title">Creating the <em class="emphasis">Controller</em></span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3f6ff99c-47e4-528e-8f08-2d31174d3cdc')"><span class="codenumber">15.13</span> <span class="title">Exercises</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5b53ad9d-e666-58f0-8e12-ebb83981324d')"><span class="codenumber">15.14</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('5b53ad9d-e666-58f0-8e12-ebb83981324d')#gu-iand-event-driven-programming_glossary-2"><span class="codenumber">15.14</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('dc3abb34-eb43-5fce-91f3-8de29c000caa')"><span class="codenumber">16</span> <span class="title">Recursion</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('77880229-548e-57dc-ac3f-fd8445cbbcd7')"><span class="codenumber">16.1</span> <span class="title">What Is Recursion?</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e896e3ca-d27f-52a5-8654-f6cc43ff4f7d')"><span class="codenumber">16.2</span> <span class="title">Calculating the Sum of a List of Numbers</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f36e4e30-253e-54a5-8159-0ada86a25aa4')"><span class="codenumber">16.3</span> <span class="title">The Three Laws of Recursion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b9072bdf-2d6c-5b61-a469-e4af21c7eb83')"><span class="codenumber">16.4</span> <span class="title">Converting an Integer to a String in Any Base</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('990447b4-e19e-50f4-a3dd-268b770a8e7b')"><span class="codenumber">16.5</span> <span class="title">Visualizing Recursion</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('957976c6-5892-5a2d-ab2a-3f0a6fcb7f74')"><span class="codenumber">16.6</span> <span class="title">Sierpinski Triangle</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('755be394-578a-5a3b-8147-243adbff8b7a')"><span class="codenumber">16.7</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('755be394-578a-5a3b-8147-243adbff8b7a')#intro-recursion_glossary-2"><span class="codenumber">16.7</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('de467ec3-3082-5a69-8797-3184533097aa')"><span class="codenumber">16.8</span> <span class="title">Programming Exercises</span></a></div></li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4356206c-f3a6-565b-916d-c7055d4d4a22')"><span class="codenumber">16.9</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a5c7c8c6-23b5-5236-b296-55c9c06374e9')"><span class="codenumber">17</span> <span class="title">Classes and Objects - the Basics</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3e438017-f5e9-5a3d-8e10-97432b0da66d')"><span class="codenumber">17.1</span> <span class="title">Object-oriented programming</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('08d72fe1-fa1b-511a-abf0-81946f351b76')"><span class="codenumber">17.2</span> <span class="title">A change of perspective</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9463a910-6ab9-5f1f-9aa8-929ae789e362')"><span class="codenumber">17.3</span> <span class="title">Objects Revisited</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d0f70ffb-21d3-5814-9c6a-5b80c7bcc0be')"><span class="codenumber">17.4</span> <span class="title">User Defined Classes</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('4daf3424-de7c-57ba-9fa6-05c4b5aa0df0')"><span class="codenumber">17.5</span> <span class="title">Improving our Constructor</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('bf8813ed-6f44-5b35-aee2-1dfe81835432')"><span class="codenumber">17.6</span> <span class="title">Adding Other Methods to our Class</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('6d99fa6a-247d-586c-ae08-af2460ac0f29')"><span class="codenumber">17.7</span> <span class="title">Objects as Arguments and Parameters</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('258704ca-6b8c-5587-abac-895901065769')"><span class="codenumber">17.8</span> <span class="title">Converting an Object to a String</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('52e9e451-cce5-58e6-886d-f9294e921feb')"><span class="codenumber">17.9</span> <span class="title">Instances as Return Values</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cecbcf85-93f0-5e7e-b106-344a1785d449')"><span class="codenumber">17.10</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('cecbcf85-93f0-5e7e-b106-344a1785d449')#classes-basics_glossary-2"><span class="codenumber">17.10</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ef2cc868-3b9e-5f4d-bdd4-8d485efcfdcf')"><span class="codenumber">17.11</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9523d7b7-7afd-5942-b4b7-3eca1e32a1c7')"><span class="codenumber">18</span> <span class="title">Classes and Objects - Digging a Little Deeper</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('024b0834-b4f3-5eed-b1fb-4bcf599ac573')"><span class="codenumber">18.1</span> <span class="title">Fractions</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('868b2933-34f0-5fcc-8fdc-36ef3bc83344')"><span class="codenumber">18.2</span> <span class="title">Objects are Mutable</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0a98f7d8-26ac-578b-bab0-420876ffc433')"><span class="codenumber">18.3</span> <span class="title">Sameness</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c55939fd-2676-5497-af81-55598c32a34f')"><span class="codenumber">18.4</span> <span class="title">Arithmetic Methods</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d31e9f04-9830-5919-a347-f5c3c99f8d67')"><span class="codenumber">18.5</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d31e9f04-9830-5919-a347-f5c3c99f8d67')#classes-digging-deeper_glossary-2"><span class="codenumber">18.5</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('80abaf30-08fa-53eb-bab0-edb1785cebae')"><span class="codenumber">18.6</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9cf55ccf-0d9f-5327-8c14-cd1d94299d20')"><span class="codenumber">19</span> <span class="title">Inheritance</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('a353aecd-57f1-5bfd-bf8b-bdf88fa2b424')"><span class="codenumber">19.1</span> <span class="title">Pillars of OOP</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7f79cf02-cc75-5463-a6b8-079cba191303')"><span class="codenumber">19.2</span> <span class="title">Introduction to Inheritance</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f626d001-e656-5c5e-95b4-3c3861696e47')"><span class="codenumber">19.3</span> <span class="title">Extending</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('09b7b301-b6a0-50ae-92a0-47dd992c3fc1')"><span class="codenumber">19.4</span> <span class="title">Reuse Through Composition</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('9760fc52-10a4-5488-ad8d-80fd71f12e82')"><span class="codenumber">19.5</span> <span class="title">Class Diagrams</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('162f7973-78a0-5130-831b-1e9153bc0058')"><span class="codenumber">19.6</span> <span class="title">Composition vs. Inheritance</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')"><span class="codenumber">19.7</span> <span class="title">Case Study: Structured Postal Addresses</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')#inheritance_case-study-structured-postal-addresses-2"><span class="codenumber">19.7.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')#inheritance_storing-postal-addresses"><span class="codenumber">19.7.2</span> <span class="title">Storing Postal Addresses</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')#inheritance_storing-international-addresses"><span class="codenumber">19.7.3</span> <span class="title">Storing International Addresses</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')#inheritance_inheritance-applied"><span class="codenumber">19.7.4</span> <span class="title">Inheritance Applied</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')#inheritance_a-list-of-addresses"><span class="codenumber">19.7.5</span> <span class="title">A List of Addresses</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d2e3897f-271f-5677-bb8b-a4ca2c01d58a')#inheritance_using-isinstance"><span class="codenumber">19.7.6</span> <span class="title">Using isinstance</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('3758226b-e703-59f4-85b5-72f9f632d5bb')"><span class="codenumber">20</span> <span class="title">Unit Testing</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('d6a10b1a-43e9-5087-997f-48ca7a1c2e2a')"><span class="codenumber">20.1</span> <span class="title">Introduction: Unit Testing</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('51c2cee8-b9e5-559d-984c-b8166ccf32e8')"><span class="codenumber">20.2</span> <span class="title">Checking Assumptions With <code class="code-inline tex2jax_ignore">assert</code></span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('51c2cee8-b9e5-559d-984c-b8166ccf32e8')#unit-testing_checking-assumptions-with-assert-2"><span class="codenumber">20.2.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('51c2cee8-b9e5-559d-984c-b8166ccf32e8')#unit-testing_designing-defensive-functions"><span class="codenumber">20.2.2</span> <span class="title">Designing Defensive Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('51c2cee8-b9e5-559d-984c-b8166ccf32e8')#unit-testing_the-assert-statement"><span class="codenumber">20.2.3</span> <span class="title">The <code class="code-inline tex2jax_ignore">assert</code> Statement</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('51c2cee8-b9e5-559d-984c-b8166ccf32e8')#unit-testing_more-on-assert-and-preconditions"><span class="codenumber">20.2.4</span> <span class="title">More on <code class="code-inline tex2jax_ignore">assert</code> and Preconditions</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('25909b33-2e58-5e0e-9a55-5502f572d1e5')"><span class="codenumber">20.3</span> <span class="title">Testing Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('25909b33-2e58-5e0e-9a55-5502f572d1e5')#unit-testing_testing-functions-2"><span class="codenumber">20.3.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('25909b33-2e58-5e0e-9a55-5502f572d1e5')#unit-testing_automated-unit-tests"><span class="codenumber">20.3.2</span> <span class="title">Automated Unit Tests</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('25909b33-2e58-5e0e-9a55-5502f572d1e5')#unit-testing_automated-unit-tests-with-assert"><span class="codenumber">20.3.3</span> <span class="title">Automated Unit Tests with <code class="code-inline tex2jax_ignore">assert</code></span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('25909b33-2e58-5e0e-9a55-5502f572d1e5')#unit-testing_unit-tests-can-have-bugs"><span class="codenumber">20.3.4</span> <span class="title">Unit Tests can have bugs</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c91f4b41-7254-557e-9fbc-ab3203033b38')"><span class="codenumber">20.4</span> <span class="title">Designing Testable Functions</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c91f4b41-7254-557e-9fbc-ab3203033b38')#unit-testing_designing-testable-functions-2"><span class="codenumber">20.4.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c91f4b41-7254-557e-9fbc-ab3203033b38')#unit-testing_design-by-contract"><span class="codenumber">20.4.2</span> <span class="title">Design by Contract</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('18a20fd9-57da-5faa-9a58-cc8a6087e31a')"><span class="codenumber">20.5</span> <span class="title">Writing Unit Tests</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('18a20fd9-57da-5faa-9a58-cc8a6087e31a')#unit-testing_writing-unit-tests-2"><span class="codenumber">20.5.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('18a20fd9-57da-5faa-9a58-cc8a6087e31a')#unit-testing_specification-based-testing"><span class="codenumber">20.5.2</span> <span class="title">Specification-Based Testing</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('21f40550-d8ef-5d80-a4a7-313d127bf115')"><span class="codenumber">20.6</span> <span class="title">Test-First Development</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('21f40550-d8ef-5d80-a4a7-313d127bf115')#unit-testing_test-first-development-2"><span class="codenumber">20.6.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('21f40550-d8ef-5d80-a4a7-313d127bf115')#unit-testing_benefits-of-test-first-development"><span class="codenumber">20.6.2</span> <span class="title">Benefits of Test-First Development</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7986843d-e83f-585b-be97-9ed2daca2ed7')"><span class="codenumber">20.7</span> <span class="title">Testing with pytest</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7986843d-e83f-585b-be97-9ed2daca2ed7')#unit-testing_testing-with-pytest-2"><span class="codenumber">20.7.1</span> <span class="title">Introduction</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7986843d-e83f-585b-be97-9ed2daca2ed7')#unit-testing_organizing-pytest-functions"><span class="codenumber">20.7.2</span> <span class="title">Organizing pytest Functions</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7986843d-e83f-585b-be97-9ed2daca2ed7')#unit-testing_using-pytest"><span class="codenumber">20.7.3</span> <span class="title">Using pytest</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7986843d-e83f-585b-be97-9ed2daca2ed7')#unit-testing_understanding-pytest-failure-reports"><span class="codenumber">20.7.4</span> <span class="title">Understanding pytest Failure Reports</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7986843d-e83f-585b-be97-9ed2daca2ed7')#unit-testing_integrated-unit-testing-with-pytest"><span class="codenumber">20.7.5</span> <span class="title">Integrated Unit Testing with pytest</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('509593d8-9d1c-5e39-b3e7-708cdce71ec8')"><span class="codenumber">20.8</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('509593d8-9d1c-5e39-b3e7-708cdce71ec8')#unit-testing_glossary-2"><span class="codenumber">20.8</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-exercises"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('119e261f-18f4-5798-8c33-24c13af213d3')"><span class="codenumber">20.9</span> <span class="title">Exercises</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-chapter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f4ac327f-5737-5a96-b345-c34f8c8f3660')"><span class="codenumber">21</span> <span class="title">Labs</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2123ecf4-87d4-52bf-b862-bb112c65b597')"><span class="codenumber">21.1</span> <span class="title">Astronomy Animation</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('2123ecf4-87d4-52bf-b862-bb112c65b597')#labs_object-oriented-programming"><span class="codenumber">21.1.1</span> <span class="title">Object-oriented programming</span></a></div></li></ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0d053c86-00d3-5459-8a7b-21ab567b3319')"><span class="codenumber">21.2</span> <span class="title">Turtle Racing Lab</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0d053c86-00d3-5459-8a7b-21ab567b3319')#labs_random-numbers"><span class="codenumber">21.2.1</span> <span class="title">Random Numbers</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('0d053c86-00d3-5459-8a7b-21ab567b3319')#labs_turtle-races"><span class="codenumber">21.2.2</span> <span class="title">Turtle Races</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('b9f5d5d3-807c-5196-baa5-1ddf44252a99')"><span class="codenumber">21.3</span> <span class="title">Drawing a Circle</span></a></div></li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('f146d804-ae25-5274-9181-9a24761bd72f')"><span class="codenumber">21.4</span> <span class="title">Lessons from a Triangle</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7e71ee77-86a5-5a54-abbc-24dfa7a593bf')"><span class="codenumber">21.5</span> <span class="title">Counting Letters</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7e71ee77-86a5-5a54-abbc-24dfa7a593bf')#labs_simple-solution-counting-a-single-letter"><span class="codenumber">21.5.1</span> <span class="title">Simple Solution: Counting a Single Letter</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('7e71ee77-86a5-5a54-abbc-24dfa7a593bf')#labs_general-solution-counting-all-letters"><span class="codenumber">21.5.2</span> <span class="title">General Solution: Counting All Letters</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('ac6be72c-da0f-5bd5-9ede-9a0db505a8b0')"><span class="codenumber">21.6</span> <span class="title">Letter Count Histogram</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2241551-4937-5e40-b3b9-3afdc3f8c11a')"><span class="codenumber">21.7</span> <span class="title">Approximating the Value of Pi</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2241551-4937-5e40-b3b9-3afdc3f8c11a')#labs_setup"><span class="codenumber">21.7.1</span> <span class="title">Setup</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2241551-4937-5e40-b3b9-3afdc3f8c11a')#labs_throwing-darts"><span class="codenumber">21.7.2</span> <span class="title">Throwing Darts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2241551-4937-5e40-b3b9-3afdc3f8c11a')#labs_counting-darts"><span class="codenumber">21.7.3</span> <span class="title">Counting Darts</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e2241551-4937-5e40-b3b9-3afdc3f8c11a')#labs_the-value-of-pi"><span class="codenumber">21.7.4</span> <span class="title">The Value of Pi</span></a></div></li>
+</ul>
+</li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ea904a5-a9f1-56f0-856b-78f29e5f200a')"><span class="codenumber">21.8</span> <span class="title">Python Beyond the Browser</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ea904a5-a9f1-56f0-856b-78f29e5f200a')#labs_the-python-shell"><span class="codenumber">21.8.1</span> <span class="title">The Python Shell</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ea904a5-a9f1-56f0-856b-78f29e5f200a')#labs_running-a-python-program"><span class="codenumber">21.8.2</span> <span class="title">Running a Python Program</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ea904a5-a9f1-56f0-856b-78f29e5f200a')#labs_installing-python-on-windows"><span class="codenumber">21.8.3</span> <span class="title">Installing Python on Windows</span></a></div></li>
+<li class="toc-item toc-subsection">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ea904a5-a9f1-56f0-856b-78f29e5f200a')#labs_glossary"><span class="codenumber">21.8.4</span> <span class="title">Glossary</span></a></div>
+<ul class="structural toc-item-list"><li class="toc-item toc-glossary"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('1ea904a5-a9f1-56f0-856b-78f29e5f200a')#labs_glossary-2"><span class="codenumber">21.8.4</span> <span class="title">Glossary</span></a></div></li></ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('41ea082f-49d0-5163-b737-5683cdea56ee')"><span class="codenumber">21.9</span> <span class="title">Experimenting With the 3n+1 Sequence</span></a></div></li>
+<li class="toc-item toc-section">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('88632b3d-e799-5e19-963e-e25347b962cd')"><span class="codenumber">21.10</span> <span class="title">Plotting a sine Wave</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('88632b3d-e799-5e19-963e-e25347b962cd')#labs_what-is-the-sine-function"><span class="codenumber">21.10.1</span> <span class="title">What is the sine function?</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('88632b3d-e799-5e19-963e-e25347b962cd')#labs_making-the-plot"><span class="codenumber">21.10.2</span> <span class="title">Making the Plot</span></a></div></li>
+<li class="toc-item toc-subsection"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('88632b3d-e799-5e19-963e-e25347b962cd')#labs_making-the-plot-better"><span class="codenumber">21.10.3</span> <span class="title">Making the Plot Better</span></a></div></li>
+</ul>
+</li>
+</ul>
+</li>
+<li class="toc-item toc-backmatter">
+<div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('e227f5b1-0f72-5d04-9cd5-cdbb1f1961ff')"><span class="title">Back Matter</span></a></div>
+<ul class="structural toc-item-list">
+<li class="toc-item toc-section"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('37e8cb85-68e7-5b8f-81cf-ede4872f5a8d')"><span class="codenumber">1</span> <span class="title">Operator precedence table</span></a></div></li>
+<li class="toc-item toc-index"><div class="toc-title-box"><a class="internal" onclick="window.kolibri.navigateTo('c2c9a50c-b927-5549-aedd-f2c4be3a3feb')"><span class="title">Index</span></a></div></li>
+</ul>
+</li>
+</ul></nav></div>
+<main class="ptx-main"><div class="ptx-content" id="ptx-content"><section class="section" id="gu-iand-event-driven-programming_layout-mangers"><h2 class="heading hide-type">
+<span class="type">Section</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.4</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="title">Layout Mangers</span>
+</h2>
+<div class="para" id="gu-iand-event-driven-programming_layout-mangers-2">A widget will not be visible in a window until you assign it a size and location within it’s parent widget. Assigning a specific size and location to every widget is tedious and error-prone. In addition, the desired behaviour for most GUI interfaces is that the widgets resize and relocate in reasonable ways if their parent window is re-sized. Trust me, you don’t what to write code to resize and relocate widgets every time you develop a GUI program! Therefore, <code class="code-inline tex2jax_ignore">layout managers</code> are included in the Tkinter module to do this work for you. You just have to give some basic positioning information to a <code class="code-inline tex2jax_ignore">layout manager</code> so it can calculate a position and a size for each widget.<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#gu-iand-event-driven-programming_layout-mangers-2" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="para" id="gu-iand-event-driven-programming_layout-mangers-3">There are three <code class="code-inline tex2jax_ignore">layout managers</code> in the <code class="code-inline tex2jax_ignore">Tkinter</code> module:<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#gu-iand-event-driven-programming_layout-mangers-3" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<figure class="table table-like" id="gu-iand-event-driven-programming_layout-mangers-4"><figcaption><span class="type">Table</span><span class="space heading-divison-mark heading-divison-mark__space"> </span><span class="codenumber">15.4.1<span class="period heading-divison-mark heading-divison-mark__period">.</span></span><span class="space heading-divison-mark heading-divison-mark__space"> </span><div class="autopermalink" data-description="Table 15.4.1"><a aria-label="Copy heading and permalink for Table 15.4.1" href="#gu-iand-event-driven-programming_layout-mangers-4" title="Copy heading and permalink for Table 15.4.1">🔗</a></div></figcaption><div class="tabular-box natural-width"><table class="tabular">
+<tbody><tr class="header-horizontal">
+<th class="l m b0 r0 l0 t0 lines" scope="col">Layout Manager</th>
+<th class="l m b0 r0 l0 t0 lines" scope="col">Description</th>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">place</td>
+<td class="l m b0 r0 l0 t0 lines">You specify the exact size and position of each widget.</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">pack</td>
+<td class="l m b0 r0 l0 t0 lines">You specify the size and position of each widget <em class="emphasis">relative to each other</em>.</td>
+</tr>
+<tr>
+<td class="l m b0 r0 l0 t0 lines">grid</td>
+<td class="l m b0 r0 l0 t0 lines">You place widgets in a cell of a 2-dimensional table defined by rows and columns.</td>
+</tr>
+</tbody></table></div></figure><div class="para" id="gu-iand-event-driven-programming_layout-mangers-5">You should <dfn class="terminology">never</dfn> mix and match these layout managers. Use only one of them for the widget layout within a particular “parent widget”. (Widgets are organized in a hierarchy, which is explained in the next lesson.)<div class="autopermalink" data-description="Paragraph"><a aria-label="Copy heading and permalink for Paragraph" href="#gu-iand-event-driven-programming_layout-mangers-5" title="Copy heading and permalink for Paragraph">🔗</a></div>
+</div>
+<div class="autopermalink" data-description="Section 15.4: Layout Mangers"><a aria-label="Copy heading and permalink for Section 15.4: Layout Mangers" href="#gu-iand-event-driven-programming_layout-mangers" title="Copy heading and permalink for Section 15.4: Layout Mangers">🔗</a></div></section></div>
+<div class="ptx-content-footer" id="ptx-content-footer">
+<a class="previous-button button" onclick="window.kolibri.navigateTo('1abadf81-fe70-591c-bcc2-69551d9b2d27')" title="Previous"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Prev</span></a><a class="top-button button" href="#" title="Top"><span aria-hidden="true" class="icon material-symbols-outlined"></span><span class="name">Top</span></a><a class="next-button button" onclick="window.kolibri.navigateTo('7a45a58d-a12b-54e0-8088-cc648f9368e4')" title="Next"><span class="name">Next</span><span aria-hidden="true" class="icon material-symbols-outlined"></span></a>
+</div></main>
+</div>
+<div class="ptx-page-footer" id="ptx-page-footer">
+<a class="pretext-link" href="https://pretextbook.org" title="PreTeXt"><div class="logo"><svg height="100%" role="img" viewBox="338 3000 8772 6866" xmlns="http://www.w3.org/2000/svg"><title>PreTeXt logo</title><g style="stroke-width:.025in; stroke:currentColor; fill:none"><polyline points="472,3590 472,9732 " style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round; "></polyline><path d="M 4724,9448 A 4660 4660  0  0  1  8598  9259" style="stroke-width:126;stroke-linecap:butt;"></path><path d="M 4488,9685 A 4228 4228  0  0  0   472  9732" style="stroke-width:174;stroke-linecap:butt;"></path><path d="M 4724,3590 A 4241 4241  0  0  1  8598  3496" style="stroke-width:126;stroke-linecap:butt;"></path><path d="M 850,3496  A 4241 4241  0  0  1  4724  3590" style="stroke-width:126;stroke-linecap:round;"></path><path d="M 850,9259  A 4507 4507  0  0  1  4724  9448" style="stroke-width:126;stroke-linecap:round;"></path><polyline points="5385,4299 4062,8125" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8598,3496 8598,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="850,3496 850,9259" style="stroke-width:126; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="4960,9685 4488,9685" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="3070,4582 1889,6141 3070,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="6418,4582 7600,6141 6418,7700" style="stroke-width:300; stroke-linejoin:miter; stroke-linecap:round;"></polyline><polyline points="8976,3590 8976,9732" style="stroke-width:174; stroke-linejoin:miter; stroke-linecap:round;"></polyline><path d="M 4960,9685 A 4228 4228  0  0  1  8976  9732" style="stroke-width:174;stroke-linecap:butt;"></path></g></svg></div></a><a class="runestone-link" href="https://runestone.academy" title="Runestone Academy"><img alt="Runstone Academy logo" class="logo" src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/runestone.academy/runestone/static/images/RAIcon_cropped.png"/></a><a class="mathjax-link" href="https://www.mathjax.org" title="MathJax"><img alt="MathJax logo" class="logo" src="/zipcontent/bce2493d71fc400f9ff04e054a99eb29.zip/www.mathjax.org/badge/badge-square-2.png"/></a>
+</div>
+
+
+                                                                                                                        </body></html>

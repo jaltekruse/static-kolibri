@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.216 --> 00:01.465
+Vậy chúng ta có một chuỗi ở đây,
+
+00:01.465 --> 00:03.026
+và đề nói là "Chúng ta nên dùng chuỗi nào
+
+00:03.026 --> 00:04.994
+trong phép thử so sánh giới hạn?"
+
+00:04.994 --> 00:07.379
+Để mình gạch chân điều này "Phép thử so sánh giới hạn,"
+
+00:07.379 --> 00:10.559
+"để xác định liệu S hội tụ?"
+
+00:10.559 --> 00:12.088
+Vậy hãy nhắc nhớ về
+
+00:12.088 --> 00:13.979
+phép thử so sánh giới hạn.
+
+00:13.979 --> 00:18.490
+Nếu chúng ta nói là ta có 2 chuỗi,
+
+00:18.490 --> 00:21.429
+và mình sẽ dùng kí hiệu này, a thứ n,
+
+00:21.429 --> 00:24.179
+và sau đó một chuỗi khác nữa, b thứ n.
+
+00:25.107 --> 00:29.953
+Và chúng ta biết là a thứ n và b thứ n đều lớn hơn
+
+00:29.953 --> 00:34.120
+hoặc bằng với 0 với mọi n, nếu chúng ta biết điều này,
+
+00:36.985 --> 00:41.152
+vì nếu giới hạn như n đạt đến vô cực
+
+00:45.154 --> 00:49.321
+của a thứ n / b thứ n sẽ bằng với hằng số dương nào đó.
+
+00:51.119 --> 00:55.110
+Vậy 0 nhỏ hơn hằng số đó, nhỏ hơn vô cực,
+
+00:55.110 --> 00:58.943
+thế thì cả 2 sẽ hội tụ...
+
+01:01.263 --> 01:03.680
+cả 2 sẽ hội tụ,
+
+01:06.411 --> 01:08.911
+hoặc cả 2 sẽ phân kì
+
+01:11.497 --> 01:13.316
+Và nó nghe có vẻ có lý đó, bởi vì
+
+01:13.316 --> 01:16.555
+như chúng ta càng tiến đến các giá trị lớn của n,
+
+01:16.555 --> 01:19.230
+như các số hạng của chúng ta tiến xa
+
+01:19.230 --> 01:22.759
+nếu xu hướng bắt đầu trông giống nhau, thì nó có nghĩa là
+
+01:22.759 --> 01:25.310
+cả 2 chuỗi sẽ hội tụ hoặc phân kì,
+
+01:25.310 --> 01:27.262
+và chúng ta đã có video giới thiệu rồi
+
+01:27.262 --> 01:30.515
+chúng ta đã có video giới thiệu về cái này trong một video khác
+
+01:30.515 --> 01:33.081
+Vậy hãy thử nghĩ nếu chúng ta nói đây là
+
+01:33.081 --> 01:37.582
+a thứ n ở ngay đây,
+
+01:37.582 --> 01:40.604
+vậy đâu là chuỗi mà chúng ta cần so sánh?
+
+01:40.604 --> 01:45.119
+Nó trông như có cùng xu hướng với khi n tiến đến giá trị rất lớn?
+
+01:45.119 --> 01:47.603
+Chà cái này cái này có vẻ như không bị giới hạn.
+
+01:47.603 --> 01:49.581
+Cái này trông không giống lắm.
+
+01:49.581 --> 01:51.814
+Có 3 mũ n-1 ở dưới mẫu số,
+
+01:51.814 --> 01:54.716
+nhưng tử số trông không giống như vậy.
+
+01:54.716 --> 01:56.541
+Cái này khá là thú vị đấy
+
+01:56.541 --> 01:58.316
+bởi vì chúng ta có thể viết nó
+
+01:58.316 --> 02:02.433
+giống như tổng chạy từ n=1 đến vô cực.
+
+02:02.433 --> 02:06.426
+Chúng ta có thể viết là 2 mũ n / 3 mũ n,
+
+02:06.426 --> 02:07.689
+và cái này cũng tương tự.
+
+02:07.689 --> 02:10.368
+Điểm khác biệt duy nhất giữa cái này và cái này là
+
+02:10.368 --> 02:12.705
+ở dưới mẫu số chỗ này, hoặc ở dưới mẫu số trên đây
+
+02:12.705 --> 02:14.841
+chúng ta có -1, và dưới đây
+
+02:14.841 --> 02:16.738
+chúng ta không có -1,
+
+02:16.738 --> 02:19.054
+và thế nên nó nghe có lý rằng đó chỉ là một hằng số,
+
+02:19.054 --> 02:23.063
+khi n tăng lên, thì chúng sẽ biểu hiện giống như nhau.
+
+02:23.063 --> 02:24.202
+Vậy hãy cùng thử nào.
+
+02:24.202 --> 02:25.952
+Chúng ta hãy cùng tìm giới hạn,
+
+02:27.984 --> 02:30.705
+và chúng ta cũng biết là a thứ n và b thứ n,
+
+02:30.705 --> 02:33.275
+nếu chúng ta nói là chuỗi nằm ở đây là b thứ n,
+
+02:33.275 --> 02:37.932
+và nó sẽ dương,
+
+02:37.932 --> 02:39.997
+hoặc nó sẽ lớn hơn hoặc bằng với 0
+
+02:39.997 --> 02:42.779
+khi n =1, 2, 3, hoặc ở bất kì giá trị nào
+
+02:42.779 --> 02:46.176
+cái này cũng sẽ lớn hơn hoặc bằng với 0,
+
+02:46.176 --> 02:48.454
+và điều tương tự xảy ra ở đây.
+
+02:48.454 --> 02:50.119
+Nó sẽ lớn hơn hoặc bằng với 0
+
+02:50.119 --> 02:51.999
+cho tất cả giá trị n mà chúng ta quan tâm.
+
+02:51.999 --> 02:54.907
+Vậy chúng ta đã thỏa mãn điều kiện đầu tiên, và hãy cùng nhau
+
+02:54.907 --> 02:58.435
+tìm giới hạn khi n tiến đến vô cực của a thứ n,
+
+02:58.435 --> 03:00.654
+cái mà mình viết bằng màu đỏ nè,
+
+03:00.654 --> 03:04.821
+cái mà 2 mũ n / 3 mũ (n-1)
+
+03:07.178 --> 03:11.345
+tất cả chia cho b thứ n, có nghĩa là chia cho 2 mũ n/ 3 mũ n.
+
+03:14.070 --> 03:15.855
+Vậy để mình làm
+
+03:15.855 --> 03:17.539
+một số vận dụng toán học ở ngay đây.
+
+03:17.539 --> 03:19.735
+Cái này sẽ giống với
+
+03:19.735 --> 03:23.485
+2 mũ n / 3 mũ (n-1),
+
+03:24.416 --> 03:27.499
+nhân với 3 mũ n/ 2 mũ n.
+
+03:29.910 --> 03:31.646
+Chia tử số và mẫu số cho
+
+03:31.646 --> 03:34.034
+2 mũ n, và mấy cái này bị triệt tiêu,
+
+03:34.034 --> 03:38.438
+và như vậy cái này sẽ cho chúng ta
+
+03:38.438 --> 03:42.506
+3 mũ n / 3 mũ (n-1).
+
+03:42.506 --> 03:44.366
+Chúng ta có thể chia tử số và mẫu số
+
+03:44.366 --> 03:46.167
+cho 3 mũ n, và chúng ta sẽ có
+
+03:46.167 --> 03:49.750
+1/ (1 trừ 1/3 mũ n).
+
+03:50.951 --> 03:53.896
+Vậy chúng ta có thể nói cái này giống như giới hạn
+
+03:53.896 --> 03:58.063
+khi n tiến đến vô cực của
+
+03:59.824 --> 04:01.537
+1/(1 trừ 1/3 mũ n)
+
+04:01.537 --> 04:03.360
+Chà, vậy cái này sẽ bằng với cái gì ta?
+
+04:03.360 --> 04:05.149
+Khi nó tiến đến vô cực, cái này nè,
+
+04:05.149 --> 04:07.416
+1/3 mũ n, thì nó sẽ tiến đến 0.
+
+04:07.416 --> 04:10.994
+Vậy nguyên cái này sẽ tiến đến 1.
+
+04:10.994 --> 04:14.330
+Và rõ ràng là 1 nằm giữa 0 và vô cực,
+
+04:14.330 --> 04:17.003
+vậy số phận của 2 chuỗi nãy đã được định đoạt.
+
+04:17.003 --> 04:21.286
+Chúng đều hội tụ hoặc đều phân kì.
+
+04:21.286 --> 04:25.315
+Vậy cái này là một ví dụ tốt để dùng phép thử so sánh giới hạn
+
+04:25.315 --> 04:26.177
+và hãy thử nghĩ về nó.
+
+04:26.177 --> 04:29.809
+Cả hai chuỗi đó sẽ cùng hội tụ, hay sẽ cùng phân kì?
+
+04:29.809 --> 04:33.541
+Chà, đây là chuỗi cấp số nhân, tỉ số chung ở đây
+
+04:33.541 --> 04:37.336
+bé hơn 1, vậy nó sẽ hội tụ,
+
+04:37.336 --> 04:38.750
+cái này sẽ hội tụ.
+
+04:38.750 --> 04:40.217
+Bằng phép thử so sánh giới hạn, ta biết cái này hội tụ, và bởi vì thế
+
+04:40.217 --> 04:45.031
+chuỗi gốc S của ta cũng sẽ hội tụ.
+
+04:45.031 --> 04:47.281
+Hội tụ, và chúng ta đã hoàn thành.

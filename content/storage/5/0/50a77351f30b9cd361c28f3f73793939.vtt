@@ -1,0 +1,418 @@
+WEBVTT
+
+00:00.192 --> 00:02.711
+1950-ci ildən bəri palıd ağacı və tozağacının
+
+00:02.711 --> 00:06.087
+budaqlarının sayı aşağıdakı cədvəldə
+
+00:06.087 --> 00:08.351
+göstərilmişdir.
+
+00:08.351 --> 00:11.077
+Palıd ağacında zaman 0-a bərabər olduqda,
+
+00:11.077 --> 00:12.443
+34 budaq var.
+
+00:12.443 --> 00:15.131
+3 ildən sonra onun
+
+00:15.131 --> 00:16.605
+46 budağı olur və s.
+
+00:16.605 --> 00:18.602
+Tozağacı haqqında da
+oxşar məlumatlar verilmişdir.
+
+00:18.602 --> 00:21.609
+Başlanğıcda onun 8 budağı var idi.
+
+00:21.609 --> 00:25.521
+10 ildən sonra 33 budağı olur.
+
+00:25.521 --> 00:26.751
+Verilən məlumatları
+
+00:26.751 --> 00:28.690
+modelləşdirə bilərik?
+
+00:28.690 --> 00:30.295
+Verilən məlumatlardan
+
+00:30.295 --> 00:31.929
+istifadə edərək
+
+00:31.929 --> 00:33.241
+məsələni funksiya ilə
+
+00:33.241 --> 00:35.211
+modelləşdirə bilərik.
+
+00:35.211 --> 00:38.722
+Burada xətti funksiya və üstlü funksiyadan
+
+00:38.722 --> 00:41.123
+istifadə ediləcək.
+
+00:41.123 --> 00:43.669
+Sizə bunu modelləşdirmək üçün
+
+00:45.359 --> 00:48.990
+hansı funksiya daha əlverişlidir?
+
+00:48.990 --> 00:50.988
+Əvvəlcə palıd ağacına baxaq.
+
+00:50.988 --> 00:53.287
+Gördüyünüz kimi palıd ağacında
+
+00:53.287 --> 00:54.947
+zamanda baş verən dəyişiklik
+
+00:54.947 --> 00:57.466
+3 illik artım kimi göstərilmişdir.
+
+00:57.466 --> 00:59.265
+Zamanda sabit bir artım var.
+
+00:59.265 --> 01:01.135
+Budaqların sayında hansı dəyişiklik var?
+
+01:01.135 --> 01:03.455
+Sabit dəyişiklikdir?
+
+01:03.455 --> 01:05.597
+Bu halda xətti funksiyadan istifadə etmək
+
+01:05.597 --> 01:07.250
+əlverişli olar?
+
+01:07.250 --> 01:09.409
+Yoxsa onların qiyməti zamandan asılı
+
+01:09.409 --> 01:10.988
+olaraq dəyişir?
+
+01:10.988 --> 01:12.219
+Həllə başlayaq.
+
+01:12.219 --> 01:16.491
+34 və 46 arasında 12 vahid var.
+
+01:16.491 --> 01:20.997
+46 və 59 arasında 13 vahid,
+
+01:20.997 --> 01:25.290
+59 və 70 arasında 11 vahid,
+
+01:25.290 --> 01:29.353
+70 və 82 arasında isə 12 vahid var.
+
+01:29.353 --> 01:31.689
+Görüyünüz kimi budaqların sayındakı
+dəyişiklik
+
+01:31.689 --> 01:32.569
+sabit dəyişiklik deyil.
+
+01:32.569 --> 01:37.066
+Qiymətlər təxmini 12 vahid dəyişir, ancaq
+
+01:37.066 --> 01:38.687
+məsələnin həlli üçün bizə
+
+01:38.687 --> 01:40.974
+dəqiq qiymətlər lazımdır.
+
+01:40.974 --> 01:43.900
+Bu cədvələ baxaraq ağacın budaqlarının sayının
+
+01:43.900 --> 01:45.839
+təxmini nə qədər dəyişdiyini
+
+01:45.839 --> 01:49.376
+müşahidə edə bilərik.
+
+01:49.376 --> 01:53.515
+Bir ildə təxmini 12 budaq
+
+01:53.515 --> 01:54.591
+artım olur.
+
+01:54.591 --> 01:56.889
+Burada xətti funksiyadan istifadə edə bilərik.
+
+01:56.889 --> 01:59.871
+Zaman və budaqlar arasındakı əlaqəni
+
+01:59.871 --> 02:01.310
+funksiya ilə göstərək.
+
+02:01.310 --> 02:04.389
+Bir daha qeyd edim ki, bu, bir ildə
+12 budaq demək deyil.
+
+02:04.389 --> 02:07.361
+3 il ərzində 12 budaq,
+
+02:07.361 --> 02:09.437
+bu 3 il ərzində 13 budaq,
+
+02:09.437 --> 02:11.099
+bu 3 il ərzində 11 budaq artım olub.
+
+02:11.099 --> 02:14.173
+Bu 3 illik müddətdə isə 12 budaq artım olub.
+
+02:14.173 --> 02:16.240
+Budaqların sayına baxaq.
+
+02:16.240 --> 02:20.036
+Başlanğıc sayımız 34-dür.
+
+02:20.036 --> 02:21.754
+Çıx.
+
+02:21.754 --> 02:23.544
+Hər 3 ildə 12 budaq artımı olub,
+
+02:23.544 --> 02:26.351
+Deməli, bir ildə 4 budaq artıb.
+
+02:26.351 --> 02:27.500
+Burada üstəgəl olmalıdır.
+
+02:27.500 --> 02:30.495
+Bir ildə 4 budaq.
+
+02:30.495 --> 02:31.633
+Bunu yoxlaya bilərik.
+
+02:31.633 --> 02:34.454
+B = 0 olduqda, burada 34 alınır.
+
+02:34.454 --> 02:35.735
+B(12).
+
+02:35.735 --> 02:38.935
+Gəlin bunu hesablayaq.
+
+02:38.935 --> 02:43.888
+B(12) = 34 + 48,
+
+02:45.768 --> 02:47.872
+yəni 82.
+
+02:47.872 --> 02:50.217
+Bu model çox uğurlu alındı.
+
+02:50.217 --> 02:51.076
+Burada verilən məlumatın
+
+02:51.076 --> 02:53.258
+buna uyğun olmadığı yerlər olacaq.
+
+02:53.258 --> 02:55.313
+Ancaq ümumi olaraq, yaxşıdır.
+
+02:55.313 --> 02:57.019
+Bu, xətti modeldir.
+
+02:57.019 --> 02:58.633
+Bu, xəttidir.
+
+02:58.633 --> 03:00.572
+İndi isə tozağacına baxaq.
+
+03:00.572 --> 03:04.986
+Zaman 0-a bərabərdir.
+Burada da sabit dəyişikliklər var.
+
+03:06.556 --> 03:09.167
+Gördüyünüz kimi zamandakı dəyişikliklər
+
+03:09.167 --> 03:13.527
+sabitdir və hər 10 ildən bir dəyişiklik hesablanır.
+
+03:13.527 --> 03:15.501
+Budaqlara baxaq.
+
+03:15.501 --> 03:17.602
+8-dən 33-ə artım olub.
+
+03:17.602 --> 03:18.577
+Bu nə deməkdir?
+
+03:18.577 --> 03:21.758
+Əlavə 25 budaq artım olub.
+
+03:21.758 --> 03:24.939
+33-dən 128-ə dəyişiklik müşahidə edilib.
+
+03:24.939 --> 03:27.170
+Bu, 25 budaqdan artıqdır.
+
+03:27.170 --> 03:29.445
+Burada fərq nə qədərdir?
+
+03:30.965 --> 03:32.108
+100-dən 5 vahid az.
+
+03:32.108 --> 03:35.858
+Burada 95 budaq artım olub.
+
+03:35.858 --> 03:39.404
+Bu, xətti model olmayacaq.
+
+03:39.404 --> 03:41.644
+Gəlin üstlü model haqqda düşünək.
+
+03:41.644 --> 03:43.897
+Buradakı dəyişiklik nə qədər olmalıdır?
+
+03:43.897 --> 03:44.581
+Doğru hesabladım?
+
+03:44.581 --> 03:47.101
+Bəli, burada 133 olsaydı,
+
+03:47.101 --> 03:48.123
+fərq 100-ə bərabər olardı.
+
+03:48.123 --> 03:49.794
+Bu, ondan 5 vahid azdır.
+
+03:49.794 --> 03:50.781
+İndi isə gəlin üstlü modelə
+
+03:50.781 --> 03:51.767
+nəzər salaq.
+
+03:51.767 --> 03:53.996
+Üstlü modeli tərtib etmək üçün
+
+03:53.996 --> 03:56.055
+hər bir qiyməti
+
+03:57.285 --> 03:58.559
+nəyə vurmalıq?
+
+03:58.559 --> 04:00.021
+Zamanda sabit bir vahid varsa,
+
+04:00.021 --> 04:02.622
+budaqlardakı dəyişimi öyrənmək üçün
+
+04:02.622 --> 04:04.282
+onu nəyə vurmalıyıq?
+
+04:04.282 --> 04:06.906
+8-dən 33-ə dəyişiklik var.
+
+04:08.576 --> 04:11.015
+Bu, təxmini 4 qat fərqdir.
+
+04:11.015 --> 04:13.058
+4-dən bir qədər çoxdur.
+
+04:13.058 --> 04:16.193
+33-dən 128-ə.
+
+04:16.193 --> 04:18.921
+Bu, 4-dən bir qədər kiçik olacaq,
+
+04:18.921 --> 04:20.999
+ancaq təxmini 4-dür.
+
+04:20.999 --> 04:24.876
+33 vur 4 = 132.
+Yaxın qiymətdir.
+
+04:24.876 --> 04:29.629
+128-dən 512-ə, təxmini 4 qat fərq var.
+
+04:29.629 --> 04:34.187
+120 vur 4 = 480,
+
+04:34.187 --> 04:37.642
+üstəgəl 32. Bəli, fərq 4 qatdır.
+
+04:37.642 --> 04:39.051
+4-ə vurmalıyıq.
+
+04:39.051 --> 04:41.814
+Hər 10 ildən bir müşahidə edilən dəyişikliyi
+
+04:41.814 --> 04:44.310
+4-ə vururuq.
+
+04:44.310 --> 04:47.897
+Gəlin bunu yazaq.
+
+04:47.897 --> 04:51.772
+B(t), burada b budaqları bildirir.
+
+04:51.772 --> 04:54.950
+İlkin qiymət 8-dir.
+
+04:54.950 --> 04:59.069
+Ortaq bölənimiz 4-dür.
+
+05:01.139 --> 05:04.098
+İllərə nəzər saldıqda görürük ki,
+
+05:04.098 --> 05:08.219
+hər 10 ildən bir budaqların sayı 4-ə vurulur.
+
+05:08.219 --> 05:11.122
+Qüvvət kimi t/10 yaza bilərik.
+
+05:11.122 --> 05:13.285
+t = 10 olduqda, qüvvət 1 olur.
+
+05:13.285 --> 05:16.220
+Yaxud t = 20, olarsa,
+qüvvət 2 olar.
+
+05:16.220 --> 05:19.422
+8 vur 4 üstü t/10
+
+05:19.422 --> 05:23.149
+kifayət qədər yaxşı modeldir.
+
+05:23.149 --> 05:25.703
+Bunun yoxlaya bilərsiniz.
+
+05:25.703 --> 05:28.872
+B(30) qiymətini tapmağa çalışın.
+
+05:28.872 --> 05:33.409
+B(30) = 8 vur 4 üstü
+
+05:33.409 --> 05:36.571
+30 böl 10.
+
+05:36.571 --> 05:38.333
+Bu nəyə bərabərdir?
+
+05:38.333 --> 05:42.396
+4 üstü 3 = 64.
+
+05:42.396 --> 05:43.815
+64.
+
+05:43.815 --> 05:46.623
+8 vur 64
+
+05:46.623 --> 05:48.375
+480 + 32,
+
+05:48.375 --> 05:49.839
+yəni 512-ə bərabərdir.
+
+05:49.839 --> 05:53.189
+Bu verilən məlumatlar üçün
+
+05:53.189 --> 05:55.892
+üstlü funksiya modeli daha uyğundur.

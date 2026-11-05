@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.561 --> 00:01.701
+Det jag vill göra i den här videon
+
+00:01.701 --> 00:03.537
+är att ge dig en hög med egenskaper för gränsvärden,
+
+00:03.537 --> 00:05.444
+och vi kommer inte att bevisa dem noggrant här --
+
+00:05.444 --> 00:07.102
+för att göra ett noggrant bevis för de här egenskaperna
+
+00:07.102 --> 00:09.409
+behöver vi en noggrann definition av vad ett gränsvärde är
+
+00:09.409 --> 00:11.035
+och det kommer vi inte göra i den här videon --
+
+00:11.035 --> 00:14.634
+vi kommer att göra det i videon om epsilon-delta-definitionen av gränsvärde --
+
+00:14.634 --> 00:17.085
+men det mesta av det här borde vara ganska intuitivt
+
+00:17.085 --> 00:19.680
+och de är väldigt användbara för att förenkla gränsvärdesproblem
+
+00:19.680 --> 00:20.934
+i framtiden.
+
+00:20.934 --> 00:24.144
+Så säg att vi vet att gränsvärdet för en funktion
+
+00:24.144 --> 00:28.824
+f(x) då x går mot x är lika med L,
+
+00:28.824 --> 00:32.533
+och säg att vi också vet att gränsvärdet för en
+
+00:32.533 --> 00:36.279
+annan funktion, g(x), då x går mot c
+
+00:36.279 --> 00:38.976
+är lika med M.
+
+00:38.976 --> 00:42.403
+Om vi nu vet det, vad skulle gränsvärdet
+
+00:42.403 --> 00:49.034
+av f(x) plus g(x) vara då x går mot c?
+
+00:49.710 --> 00:51.621
+Man kan se det här visuellt --
+
+00:51.621 --> 00:53.812
+om man kollar på graferna av två funktioner
+
+00:53.812 --> 00:55.334
+så adderar man i stort sett bara de två funktionerna --
+
+00:55.334 --> 00:57.993
+det kommer att vara ganska uppenbart att det här kommer att vara lika med --
+
+00:57.993 --> 00:59.498
+och än en gång, jag gör inte ett noggrannt bevis;
+
+00:59.498 --> 01:01.796
+det enda jag gör är att skriva upp egenskaperna här.
+
+01:01.796 --> 01:06.386
+Det här kommer att vara gränsvärdet för f(x) då x går mot c
+
+01:06.386 --> 01:11.537
+plus gränsvärdet för g(x) då x går mot c
+
+01:11.537 --> 01:15.098
+som är lika med... ja, det här är --
+
+01:15.098 --> 01:16.799
+vi gör det i samma färg --
+
+01:17.830 --> 01:21.321
+det här kommer bara att vara lika med L, det kommer att vara lika
+
+01:21.321 --> 01:27.794
+med L plus... L plus M. Det här kommer att vara lika med M.
+
+01:27.794 --> 01:28.962
+Inte alltför svårt.
+
+01:28.962 --> 01:32.029
+Det här kallas ofta summaregeln,
+
+01:32.029 --> 01:35.160
+eller summaegenskapen för gränsvärden.
+
+01:35.160 --> 01:36.886
+Och vi skulle kunna skriva upp en liknande regel
+
+01:36.886 --> 01:44.094
+med differenser - gränsvärdet då x går mot c för f(x) minus g(x)
+
+01:44.094 --> 01:47.226
+kommer att vara L minus M.
+
+01:47.226 --> 01:49.399
+Det är bara gränsvärdet för f(x) då x går mot c
+
+01:49.399 --> 01:52.393
+minus gränsvärdet för g(x) då x går mot c.
+
+01:52.393 --> 01:55.697
+Så det kommer bara att vara L minus...
+
+01:55.697 --> 01:58.693
+L minus M.
+
+01:58.693 --> 02:00.495
+Det kallas ofta differensregeln,
+
+02:00.495 --> 02:02.634
+eller differensegenskapen för gränsvärden.
+
+02:02.634 --> 02:04.427
+Och än en gång hoppas jag att de här är
+
+02:04.427 --> 02:06.560
+iallafall ganska intuitiva.
+
+02:06.560 --> 02:08.822
+Vad händer om man skulle ta produkten av funktionerna?
+
+02:08.822 --> 02:17.027
+Gränsvärdet för f(x) gånger g(x) då x går mot c?
+
+02:17.027 --> 02:19.005
+Ja, som tur är så kommer det att vara lika med
+
+02:19.005 --> 02:28.360
+gränsvärdet för f(x) då x går mot c gånger gränsvärdet för g(x) då c går mot c.
+
+02:28.360 --> 02:31.760
+Som tur är så är det här en ganska intuitiv gränsvärdesegenskap.
+
+02:31.760 --> 02:34.191
+Så i det här fallet kommer det att vara lika med --
+
+02:34.191 --> 02:38.764
+det är L gånger M.
+
+02:38.764 --> 02:40.493
+L gånger...
+
+02:40.493 --> 02:44.203
+Det här kommer bara att bli L gånger M.
+
+02:44.203 --> 02:47.205
+Samma sak, men om vi istället för en funktion hade en konstant här:
+
+02:47.635 --> 02:50.226
+Så om vi bara visste gränsvärdet --
+
+02:50.226 --> 02:51.760
+jag gör det i samma färg --
+
+02:51.760 --> 02:58.564
+gränsvärdet av k gånger f(x) då x går mot c
+
+02:58.564 --> 02:59.901
+där k bara är någon konstant.
+
+02:59.901 --> 03:03.230
+Det här kommer att samma sak som k gånger gränsvärdet
+
+03:03.230 --> 03:08.653
+av f(x) då x går mot c och det är bara lika med...
+
+03:08.653 --> 03:11.738
+Det här är bara lika med L...
+
+03:11.738 --> 03:13.828
+Det här är lika med L, så hela den här saken
+
+03:13.828 --> 03:17.501
+förenklas till k gånger...
+
+03:17.501 --> 03:20.029
+k gånger L.
+
+03:20.029 --> 03:22.433
+Och vi kan göra samma sak med kvoterna--
+
+03:22.433 --> 03:25.255
+det här brukar förresten kallas konstanta multipelegenskapen --
+
+03:25.255 --> 03:27.925
+vi kan göra samma sak med kvoterna.
+
+03:27.925 --> 03:31.512
+Så om vi har gränsvärdet då x går mot c
+
+03:31.512 --> 03:35.636
+för f(x) dividerat med g(x), så kommer det här att vara exakt
+
+03:35.636 --> 03:40.432
+samma sak som gränsvärdet för f(x) då x går mot c
+
+03:40.432 --> 03:46.361
+dividerat med gränsvärdet för g(x) då x går mot c,
+
+03:46.361 --> 03:48.440
+som kommer att vara lika med --
+
+03:48.440 --> 03:49.433
+jag tror du fattar nu --
+
+03:49.433 --> 03:56.628
+det här kommer att vara lika med L delat med M.
+
+03:56.628 --> 03:59.233
+Och till slut -- det här brukar förresten kallas kvotegenskapen --
+
+03:59.233 --> 04:01.961
+till slut ska vi kolla på exponentegenskapen.
+
+04:01.961 --> 04:03.493
+Om jag har...
+
+04:03.493 --> 04:06.493
+om jag har gränsvärdet för --
+
+04:06.493 --> 04:07.628
+jag skriver det så här --
+
+04:07.628 --> 04:09.787
+för f(x) upphöjt till något --
+
+04:09.787 --> 04:10.561
+och jag ska faktiskt
+
+04:10.561 --> 04:11.709
+skriva det som en bråkexponent --
+
+04:11.709 --> 04:13.162
+upphöjt till r delat med s,
+
+04:13.162 --> 04:15.495
+där båda r och s är heltal.
+
+04:15.495 --> 04:18.901
+I så fall kommer gränsvärdet för f(x) upphöjt till r delat med s
+
+04:18.901 --> 04:24.756
+då x går mot c att vara exakt samma
+
+04:24.756 --> 04:31.828
+sak som gränsvärdet för f(X) då x går mot c
+
+04:31.828 --> 04:33.731
+upphöjt till r delat med s.
+
+04:33.731 --> 04:35.694
+Än en gång, när r och s båda är heltal,
+
+04:35.694 --> 04:38.366
+och s inte är lika med noll, annars skulle den här exponenten
+
+04:38.366 --> 04:40.094
+inte vara särskilt vettig.
+
+04:40.094 --> 04:41.660
+Och det här är samma sak...
+
+04:41.660 --> 04:44.368
+Det här är samma sak som L...
+
+04:44.368 --> 04:47.028
+Det här är samma sak som L upphöjt till r delat med s.
+
+04:47.028 --> 04:49.893
+Det här är lika med L upphöjt...
+
+04:49.893 --> 04:54.590
+L upphöjt till r delat med s.
+
+04:54.590 --> 04:56.592
+Så, med hjälp av dessa kan vi faktiskt hitta gränsvärdet
+
+04:56.592 --> 04:58.927
+för många, många, många saker och det som är fint med det
+
+04:58.927 --> 05:01.763
+är att gränsvärdesegenskaperna är sådana saker som
+
+05:01.763 --> 05:03.510
+du naturligt skulle ha gjort, och om du
+
+05:03.510 --> 05:04.925
+ritar några av dessa funktioner märker du att det
+
+05:04.925 --> 05:08.000
+faktiskt blir ganska intuitivt.

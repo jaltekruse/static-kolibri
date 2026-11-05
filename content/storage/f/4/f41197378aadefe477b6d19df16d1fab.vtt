@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.640 --> 00:03.560
+Ce que l'on fait surtout au début, lorsque l'on apprend
+
+00:03.560 --> 00:06.720
+les maths, c'est d'utiliser les limites.
+
+00:06.720 --> 00:10.440
+Nous utilisons les limites pour trouver les dérivés de fonctions.
+
+00:13.720 --> 00:16.800
+En réalité, la définition de la dérivée utilise
+
+00:16.800 --> 00:18.120
+la notion de limite.
+
+00:18.120 --> 00:22.030
+C'est la pente autour d'un point quand nous prenons la limite
+
+00:22.030 --> 00:24.390
+de points de plus en plus rapprochés du point en question.
+
+00:24.390 --> 00:27.110
+Et vous avez vu ça d'innombrable fois.
+
+00:27.110 --> 00:29.790
+Dans cette vidéo, nous allons le faire
+
+00:29.790 --> 00:30.630
+en sens inverse.
+
+00:30.630 --> 00:39.130
+Nous allons utiliser les dérivées pour trouver les limites.
+
+00:39.130 --> 00:43.360
+Et en particulier, les limites qui donnent lieu à des formes indéterminées.
+
+00:43.360 --> 00:46.550
+Et quand je dit indéterminée, je veux dire que si nous prenons
+
+00:46.550 --> 00:51.550
+juste la limite tel qu'elle, on se retrouve avec quelque chose comme 0/0, ou
+
+00:51.550 --> 00:55.450
+l'infini / infini ou moins l'infini / infini
+
+00:55.450 --> 00:57.870
+ou peut être moinsl' infini / moins l' infini
+
+00:57.870 --> 01:00.330
+ou plus infini / moins infini.
+
+01:00.330 --> 01:05.190
+Toutes ces formes sont indéterminées.
+
+01:05.190 --> 01:08.290
+Et pour ce faire nous allons utiliser le théorème de l’hôpital.
+
+01:17.730 --> 01:19.490
+Et dans cette vidéo je vais juste vous montrer ce que
+
+01:19.490 --> 01:23.010
+le théorème de l’hôpital dit et comment l'appliquer. C'est assez
+
+01:23.010 --> 01:25.480
+simple, et c'est un outil très utile
+
+01:25.480 --> 01:27.510
+si vous êtes dans une compétition mathématique et
+
+01:27.510 --> 01:31.270
+qu'on vous demande de trouver une limite difficile qui
+
+01:31.270 --> 01:33.310
+après simplification donne quelque chose comme ça.
+
+01:33.310 --> 01:37.270
+Le théorème de l’hôpital est généralement ce que l'on attend de vous.
+
+01:37.270 --> 01:40.290
+Et dans une vidéo à venir je pourrais le démontrer, mais ça devient
+
+01:40.290 --> 01:40.975
+un peu plus compliqué.
+
+01:40.975 --> 01:44.870
+L'application est en fait assez simple.
+
+01:44.870 --> 01:50.780
+Donc, que nous dit le théorème de l'hôpital si on a -- et je vais
+
+01:50.780 --> 01:53.940
+le faire de façon abstraite d'abord, mais je pense que quand je vous montrerai
+
+01:53.940 --> 01:56.080
+l'exemple tout sera clair.
+
+01:56.080 --> 02:11.050
+Donc si la limite quand x tend vers c de f(x) est égale à 0, et
+
+02:11.050 --> 02:20.100
+que la limite quand x tend vers c de g(x) est égale à o, et - et
+
+02:20.100 --> 02:30.620
+ceci est un autre et - et que la limite quand x tend vers c de f prime (x)
+
+02:30.620 --> 02:38.160
+sur g prime (x) existe et est égale à L.
+
+02:38.160 --> 02:40.600
+Alors - donc toutes ces conditions doivent être réunies.
+
+02:40.600 --> 02:44.050
+Ceci est une forme indéterminée de 0/0, donc c'est
+
+02:44.050 --> 02:45.560
+le premier cas.
+
+02:45.560 --> 02:55.380
+Alors nous pouvons dire que la limite quand x tend vers c de
+
+02:55.380 --> 03:03.070
+f(x) sur g(x) est également égale à L.
+
+03:03.070 --> 03:05.810
+Donc ça peut vous sembler un peu étrange pour le moment, et
+
+03:05.810 --> 03:07.220
+je vais écrire l'autre cas, et ensuite
+
+03:07.220 --> 03:07.750
+je donnerai un exemple.
+
+03:07.750 --> 03:09.710
+Nous allons faire plusieurs exemples et les exemples rendrons
+
+03:09.710 --> 03:10.580
+tout ça plus clair.
+
+03:10.580 --> 03:13.040
+C'est le premier cas et l'exemple que nous allons traiter
+
+03:13.040 --> 03:16.650
+sera en fait un exemple de ce cas-ci.
+
+03:16.650 --> 03:24.390
+Maintenant, l'autre cas est si la limite quand x tend vers c de f(x)
+
+03:24.390 --> 03:32.960
+est égale à plus ou moins l'infini, et
+
+03:32.960 --> 03:39.470
+la limite quand x tend vers c de g(x) est égale à plus ou
+
+03:39.470 --> 03:46.280
+moins l'infini, et que la limite - je suppose qu'on peut le dire comme ça -
+
+03:46.280 --> 03:51.220
+du quotient de ces dérivés existe, et que la limite quand x tend vers c
+
+03:51.220 --> 03:56.200
+de f prime (x) sur g prime (x)
+
+03:56.200 --> 03:57.410
+est égale à L.
+
+03:57.410 --> 04:01.860
+Ensuite nous pouvons affirmer la même chose encore une fois.
+
+04:01.860 --> 04:06.070
+laissez moi copier ça.
+
+04:06.070 --> 04:10.220
+Editer, copier, et je le colle.
+
+04:10.220 --> 04:13.450
+Donc dans chacune de ces deux situations, juste pour être
+
+04:13.450 --> 04:15.520
+sûr que vous comprenez ce que vous regardez, ceci est
+
+04:15.520 --> 04:18.300
+la situation où si vous essayez simplement d'évaluer cette limite,
+
+04:18.300 --> 04:21.880
+vous obtiendrez f(c) qui est 0.
+
+04:21.880 --> 04:25.990
+Ou bien la limite quand x tend vers c de f(x) sur la limite
+
+04:25.990 --> 04:27.480
+quand x tend vers c de g(x).
+
+04:27.480 --> 04:30.550
+Ca vous donnera 0/0
+
+04:30.550 --> 04:32.440
+Et donc, vous dites,hé, je ne connais pas cette limite !
+
+04:32.440 --> 04:33.600
+Mais ceci vous dit, et bien, regardez.
+
+04:33.600 --> 04:37.440
+Si cette limite existe, je pourrai prendre la dérivée de chacune
+
+04:37.440 --> 04:41.020
+de ces fonctions et ensuite essayer d'évaluer cette limite.
+
+04:41.020 --> 04:44.220
+Et si j'obtiens un nombre - qui existe - alors ce sera
+
+04:44.220 --> 04:45.980
+la même limite.
+
+04:45.980 --> 04:48.710
+C'est une situations où quand on prend la limite on obtient
+
+04:48.710 --> 04:52.060
+l'infini sur l'infini ou moins l'infini ou plus l'infini
+
+04:52.060 --> 04:54.070
+sur plus ou moins l'infini.
+
+04:54.070 --> 04:57.030
+Donc ceci sont les deux formes indéterminées.
+
+04:57.030 --> 04:59.410
+Et pour que ce soit clair laissez moi vous montrer un exemple.
+
+04:59.410 --> 05:03.610
+Parce que je pense que ça rendra tout ça plus digeste.
+
+05:03.610 --> 05:08.910
+Donc, disons que nous essayons de trouver la limite - je vais
+
+05:08.910 --> 05:10.610
+faire ça dans une nouvelle couleur.
+
+05:10.610 --> 05:13.830
+permettez moi de le faire en violet.
+
+05:13.830 --> 05:17.420
+Disons que nous voulons trouver la limite quand x tend vers
+
+05:17.420 --> 05:23.160
+0 de sin(x)/x
+
+05:23.160 --> 05:27.430
+Donc, si nous essayons juste de l'évaluer en 0 ou
+
+05:27.430 --> 05:30.410
+si nous prenons la limite quand on tend vers 0 dans chacune de ces fonctions,
+
+05:30.410 --> 05:33.180
+nous allons obtenir quelque chose que ressemblera à du 0/0
+
+05:33.180 --> 05:35.370
+( sin(0) = 0 )
+
+05:35.370 --> 05:39.620
+Ou la limite quand x tend vers 0 de sin(x) est 0.
+
+05:39.620 --> 05:42.120
+Et évidemment quand x tend vers 0 de x, c'est également
+
+05:42.120 --> 05:43.140
+0.
+
+05:43.140 --> 05:45.100
+Donc c'est notre forme indéterminée.
+
+05:45.100 --> 05:48.180
+Et si on veut, ça c'est notre f(x),
+
+05:48.180 --> 05:51.240
+ce f(x) juste ici est sin(x).
+
+05:51.240 --> 05:55.510
+et notre g(x), ce g(x) pour cet
+
+05:55.510 --> 06:00.070
+exemple est x.
+
+06:00.070 --> 06:07.170
+g(x)=x et f(x)=sin(x).
+
+06:07.170 --> 06:10.130
+Et rendez-vous compte, et bien, que nous savons pertinemment que ça remplit les
+
+06:10.130 --> 06:11.520
+deux premiers prérequis.
+
+06:11.520 --> 06:14.970
+La limite quand x, dans ce cas, c est 0.
+
+06:14.970 --> 06:19.540
+la limite quand x tend vers 0 de sin(x) est 0, et
+
+06:19.540 --> 06:24.030
+la limite de x tend vers 0 de x est également 0.
+
+06:24.030 --> 06:26.180
+Donc nous avons notre forme indéterminée.
+
+06:26.180 --> 06:29.340
+Donc voyons voir, au moins, si cette limite existe.
+
+06:29.340 --> 06:32.100
+Si nous prenons la dérivée de f(x) et qu'on la met sur la
+
+06:32.100 --> 06:35.900
+dérivée de g(x), et qu'on prend la limite quand x tend vers 0
+
+06:35.900 --> 06:38.400
+dans ce cas, c'est notre c
+
+06:38.400 --> 06:40.530
+voyons si cette limite existe.
+
+06:40.530 --> 06:44.600
+Je le fais en bleu
+
+06:44.600 --> 06:48.160
+Ecrivons les dérivées des deux fonctions.
+
+06:48.160 --> 06:50.720
+donc f prime (x)
+
+06:50.720 --> 06:53.590
+si f(x) est sin(x) que vaut f prime (x) ?
+
+06:53.590 --> 06:55.480
+Et bien, c'est juste cos(x).
+
+06:55.480 --> 06:57.390
+Vous avez vu ça de nombreuses fois.
+
+06:57.390 --> 07:01.215
+Et si g(x)=x, que vaut g prime (x) ?
+
+07:01.215 --> 07:02.150
+trop facile.
+
+07:02.150 --> 07:06.280
+la dérivée de x est juste 1.
+
+07:06.280 --> 07:13.690
+Essayons de prendre la limite quand x tend vers 0 de f prime (x)
+
+07:13.690 --> 07:17.000
+sur g prime (x) - sur leur dérivées.
+
+07:17.000 --> 07:19.390
+donc ce sera la limite quand x tend vers 0
+
+07:19.390 --> 07:25.620
+de cos(x) sur 1
+
+07:25.620 --> 07:28.650
+j'ai écrit ce 1 un peu bizarrement.
+
+07:28.650 --> 07:30.170
+Et c'est assez évident.
+
+07:30.170 --> 07:30.990
+Qu'est ce que ce sera ?
+
+07:30.990 --> 07:33.610
+Et bien, quand x tend vers 0, cos(x)
+
+07:33.610 --> 07:37.290
+vaut 1.
+
+07:37.290 --> 07:39.320
+et bien entendu la limite quand x tend vers 0 de 1
+
+07:39.320 --> 07:40.900
+est égale à 1.
+
+07:40.900 --> 07:46.470
+donc dans cette situations nous avons vu que la limite quand x
+
+07:46.470 --> 07:49.820
+tend vers - le c dans ce cas est 0.
+
+07:49.820 --> 07:54.590
+quand x tend vers 0 de f prime (x) sur g prime (x)
+
+07:54.590 --> 07:56.240
+vaut 1.
+
+07:56.240 --> 07:59.060
+Cette limite existe et est égale à 1. donc nous avons
+
+07:59.060 --> 08:00.580
+réuni toutes les conditions.
+
+08:00.580 --> 08:02.500
+C'est le cas que nous traitons.
+
+08:02.500 --> 08:06.700
+la limite quand x tend vers 0 de sin(x) est égale à 0.
+
+08:06.700 --> 08:10.650
+la limite de x tend vers 0 de x est également égale à 0.
+
+08:10.650 --> 08:14.500
+La limite de dérivée de sin(x) sur la dérivée
+
+08:14.500 --> 08:17.490
+de x, qui est cos(x)/1 - nous avons trouvé 1.
+
+08:21.000 --> 08:24.610
+toutes les conditions écrites plus haut sont réunies, donc nous savons
+
+08:24.610 --> 08:26.480
+que c'est ce cas.
+
+08:26.480 --> 08:34.500
+Donc la limite quand x tend vers 0 de sin(x) / x
+
+08:34.500 --> 08:36.690
+doit être égale à 1.
+
+08:36.690 --> 08:42.510
+Ca doit être la même valeur que cet valeur ci où nous
+
+08:42.510 --> 08:46.120
+prenons la dérivée de f(x) et g(x).
+
+08:46.120 --> 08:48.430
+Je ferai d'autre exemples dans la prochaine vidéo et je pense
+
+08:48.430 --> 08:50.760
+que ce sera beaucoup plus concret.

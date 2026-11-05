@@ -1,0 +1,261 @@
+WEBVTT
+
+00:00.000 --> 00:02.734
+V tomto videu se budeme věnovat
+derivaci této funkce g,
+
+00:02.734 --> 00:04.318
+což může zpočátku
+vypadat složitě.
+
+00:04.318 --> 00:06.744
+Máme zde sinus x
+a kosinus x.
+
+00:06.754 --> 00:09.862
+Potom zde vidíte tento
+zlomek, v čitateli máme pí
+
+00:09.862 --> 00:12.022
+a dole třetí odmocninu z x,
+to celé na druhou.
+
+00:12.022 --> 00:13.608
+Na první pohled
+to vypadá náročně.
+
+00:13.608 --> 00:17.465
+V tomto videu nakonec zjistíte, že tuto
+funkci lze zderivovat pomocí vědomostí,
+
+00:17.465 --> 00:19.907
+které již máte.
+
+00:19.917 --> 00:21.927
+Využijeme vzorec
+na derivaci mocniny.
+
+00:21.927 --> 00:27.149
+To nám říká, že pokud
+máme x na n,
+
+00:27.149 --> 00:32.546
+potom derivace je n krát x
+na n minus 1.
+
+00:32.558 --> 00:34.957
+Také můžeme využít další
+vlastnosti, které už víme,
+
+00:34.957 --> 00:41.105
+a to, že derivace
+cos(x) je -sin(x).
+
+00:41.105 --> 00:50.319
+A opačně, derivace
+sin(x) je cos(x).
+
+00:50.319 --> 00:55.291
+Pomocí těchto znalostí již dokážeme
+derivaci této funkce spočítat.
+
+00:55.291 --> 00:57.840
+Můžete si pozastavit video
+a vyzkoušet si to sami.
+
+00:57.840 --> 00:59.817
+Pravděpodobně
+nejtěžší část,
+
+00:59.817 --> 01:02.357
+jelikož derivaci sin(x)
+a cos(x) již známe,
+
+01:02.357 --> 01:03.916
+je tento
+zlomek.
+
+01:03.916 --> 01:09.933
+Můžeme ho přepsat, a tím trochu
+zjednodušit, ať se nám s ním lépe počítá.
+
+01:09.953 --> 01:21.206
+Tedy pí lomeno třetí odmocnina z x
+to celé na druhou.
+
+01:21.206 --> 01:30.225
+Je to to samé jako pí na druhou
+lomeno třetí odmocnina z x na druhou
+
+01:30.225 --> 01:33.260
+Jde pouze o
+vlastnost mocniny.
+
+01:33.260 --> 01:35.204
+Je to tedy
+to samé.
+
+01:35.204 --> 01:39.450
+Dalším krokem bude zjednodušení
+třetí odmocniny z x.
+
+01:39.450 --> 01:50.285
+Je to to samé jako pí na druhou
+lomeno x na 1/3, to celé na druhou.
+
+01:50.285 --> 01:56.274
+Znovu můžeme přepsat
+jako pí na druhou lomeno x na 2/3,
+
+01:56.274 --> 02:04.069
+což je to samé jako pí na
+druhou krát x na -2/3.
+
+02:04.069 --> 02:06.121
+Nyní již
+dostáváme tvar,
+
+02:06.121 --> 02:09.361
+na který můžeme použít
+vzorec na derivaci mocniny.
+
+02:09.366 --> 02:14.681
+Toto je tedy pí na druhou
+krát x na -2/3.
+
+02:14.681 --> 02:17.097
+Náš pomocný
+výpočet smažu.
+
+02:17.097 --> 02:33.830
+Zlomek tedy můžeme přepsat jako
+pí na druhou krát x na -2/3.
+
+02:33.830 --> 02:38.862
+Nyní tedy zderivujme postupně
+všechny části této funkce.
+
+02:38.862 --> 02:47.273
+Chceme zjistit, čemu se rovná
+derivace funkce g(x).
+
+02:47.273 --> 02:51.455
+Nejprve si zderivujeme
+7 krát sin(x).
+
+02:51.455 --> 02:55.592
+Můžeme si na obou stranách
+zapsat diferenciální operátor,
+
+02:55.592 --> 03:04.702
+aby bylo srozumitelnější,
+co budeme dělat.
+
+03:04.977 --> 03:13.529
+Tato derivace je tedy to samé,
+jako 7 krát derivace sin(x).
+
+03:13.529 --> 03:19.075
+Je to tedy
+7 krát cos(x).
+
+03:19.075 --> 03:30.552
+Z druhého výrazu 3 krát cos(x)
+můžeme vytknout číslo 3.
+
+03:30.552 --> 03:32.672
+Derivujeme tedy
+výraz cos(x).
+
+03:32.672 --> 03:35.322
+Je to tedy -3
+krát -sin(x),
+
+03:35.322 --> 03:41.611
+jelikož derivace cos(x)
+je -sin(x).
+
+03:41.611 --> 03:46.285
+A konečně u tohoto žlutého výrazu
+použijeme vzorec na derivaci mocniny.
+
+03:46.285 --> 03:48.912
+Máme tedy -2/3…
+
+03:48.912 --> 03:51.586
+Nesmíme zapomenout
+zde na toto minus.
+
+03:51.586 --> 03:52.998
+Tedy máme -2/3.
+
+03:52.998 --> 03:55.314
+Vynásobíme mocninu
+koeficientem.
+
+03:55.314 --> 03:57.974
+Pí na druhou může být matoucí,
+ovšem je to pouze číslo.
+
+03:57.974 --> 04:06.840
+Napíšeme tedy minus a poté
+-2/3 krát pí na druhou.
+
+04:06.840 --> 04:13.831
+To celé krát x
+na -2/3 minus 1.
+
+04:13.831 --> 04:15.522
+Jaký bude
+výsledek?
+
+04:15.522 --> 04:21.726
+Máme derivaci g(x),
+která se rovná:
+
+04:21.726 --> 04:27.607
+7 krát cos(x), a tady
+máme -3 krát -sin(x).
+
+04:27.607 --> 04:31.984
+To je plus 3
+krát sin(x).
+
+04:31.984 --> 04:36.340
+Potom zde máme
+opět dvakrát minus,
+
+04:36.340 --> 04:37.901
+proto to ve
+výsledku bude plus.
+
+04:37.901 --> 04:46.204
+Můžeme tedy napsat
+plus (2 krát pí na druhou) lomeno 3.
+
+04:46.204 --> 04:47.533
+To je tato
+část zde.
+
+04:47.533 --> 04:55.986
+Krát x na -2/3 minus 1,
+což je -1 a 2/3.
+
+04:55.986 --> 05:01.491
+Nebo to můžeme
+zapsat jako -5/3.
+
+05:01.491 --> 05:02.421
+Hotovo!
+
+05:02.421 --> 05:04.726
+Zvládli jsme to, i když
+to vypadalo obtížně.
+
+05:04.726 --> 05:07.571
+Použili jsme pouze
+vzorec na derivaci mocniny a to,
+
+05:07.571 --> 05:13.021
+co jsme již věděli o
+derivacích sin(x) a cos(x).

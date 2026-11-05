@@ -1,0 +1,347 @@
+WEBVTT
+
+00:00.840 --> 00:03.960
+So we've explicitly defined
+four different sequences here.
+
+00:03.960 --> 00:05.550
+And what I want
+you to think about
+
+00:05.550 --> 00:09.970
+is whether these sequences
+converge or diverge.
+
+00:09.970 --> 00:11.700
+And remember,
+converge just means,
+
+00:11.700 --> 00:13.705
+as n gets larger and
+larger and larger,
+
+00:13.705 --> 00:17.620
+that the value of our sequence
+is approaching some value.
+
+00:17.620 --> 00:21.254
+And diverge means that it's
+not approaching some value.
+
+00:21.254 --> 00:22.170
+So let's look at this.
+
+00:22.170 --> 00:23.794
+And I encourage you
+to pause this video
+
+00:23.794 --> 00:26.510
+and try this on your own
+before I'm about to explain it.
+
+00:26.510 --> 00:29.110
+So let's look at this first
+sequence right over here.
+
+00:29.110 --> 00:32.729
+So the numerator n plus 8 times
+n plus 1, the denominator n
+
+00:32.729 --> 00:35.070
+times n minus 10.
+
+00:35.070 --> 00:37.530
+So one way to think about
+what's happening as n
+
+00:37.530 --> 00:40.074
+gets larger and larger is look
+at the degree of the numerator
+
+00:40.074 --> 00:41.490
+and the degree of
+the denominator.
+
+00:41.490 --> 00:43.906
+And we care about the degree
+because we want to see, look,
+
+00:43.906 --> 00:46.260
+is the numerator growing
+faster than the denominator?
+
+00:46.260 --> 00:48.604
+In which case this thing
+is going to go to infinity
+
+00:48.604 --> 00:50.020
+and this thing's
+going to diverge.
+
+00:50.020 --> 00:52.870
+Or is maybe the denominator
+growing faster, in which case
+
+00:52.870 --> 00:55.180
+this might converge to 0?
+
+00:55.180 --> 00:57.040
+Or maybe they're growing
+at the same level,
+
+00:57.040 --> 00:59.699
+and maybe it'll converge
+to a different number.
+
+00:59.699 --> 01:01.990
+So let's multiply out the
+numerator and the denominator
+
+01:01.990 --> 01:03.270
+and figure that out.
+
+01:03.270 --> 01:06.330
+So n times n is n squared.
+
+01:06.330 --> 01:11.900
+n times 1 is 1n, plus 8n is 9n.
+
+01:11.900 --> 01:14.180
+And then 8 times 1 is 8.
+
+01:14.180 --> 01:17.020
+So the numerator is n
+squared plus 9n plus 8.
+
+01:17.020 --> 01:22.960
+The denominator is
+n squared minus 10n.
+
+01:22.960 --> 01:24.400
+And one way to
+think about it is n
+
+01:24.400 --> 01:27.290
+gets really, really, really,
+really, really large,
+
+01:27.290 --> 01:29.930
+what dominates in the
+numerator-- this term is going
+
+01:29.930 --> 01:31.410
+to represent most of the value.
+
+01:31.410 --> 01:33.660
+And this term is going to
+represent most of the value,
+
+01:33.660 --> 01:34.210
+as well.
+
+01:34.210 --> 01:36.687
+These other terms
+aren't going to grow.
+
+01:36.687 --> 01:38.270
+Obviously, this 8
+doesn't grow at all.
+
+01:38.270 --> 01:41.200
+But the n terms aren't going
+to grow anywhere near as fast
+
+01:41.200 --> 01:44.670
+as the n squared terms,
+especially for large n's.
+
+01:44.670 --> 01:47.080
+So for very, very
+large n's, this
+
+01:47.080 --> 01:48.470
+is really going
+to be approaching
+
+01:48.470 --> 01:51.600
+n squared over n squared, or 1.
+
+01:51.600 --> 01:54.570
+So it's reasonable to
+say that this converges.
+
+01:54.570 --> 01:56.735
+So this one converges.
+
+01:56.735 --> 01:58.860
+And once again, I'm not
+vigorously proving it here.
+
+01:58.860 --> 02:00.990
+Or I should say
+I'm not rigorously
+
+02:00.990 --> 02:02.210
+proving it over here.
+
+02:02.210 --> 02:05.240
+But the giveaway is that
+we have the same degree
+
+02:05.240 --> 02:07.950
+in the numerator
+and the denominator.
+
+02:07.950 --> 02:09.990
+So now let's look at
+this one right over here.
+
+02:09.990 --> 02:13.150
+So here in the numerator
+I have e to the n power.
+
+02:13.150 --> 02:15.980
+And here I have e times n.
+
+02:15.980 --> 02:21.030
+So this grows much faster.
+
+02:21.030 --> 02:23.130
+I mean, this is
+e to the n power.
+
+02:23.130 --> 02:25.140
+Imagine if when you
+have this as 100,
+
+02:25.140 --> 02:28.110
+e to the 100th power is a
+ginormous number. e times 100--
+
+02:28.110 --> 02:29.430
+that's just 100e.
+
+02:29.430 --> 02:36.340
+Grows much faster than
+this right over here.
+
+02:36.340 --> 02:38.170
+So this thing is just
+going to balloon.
+
+02:38.170 --> 02:39.586
+This is going to go to infinity.
+
+02:39.586 --> 02:40.835
+So we could say this diverges.
+
+02:44.200 --> 02:46.140
+Now let's look at this
+one right over here.
+
+02:46.140 --> 02:48.420
+Well, we have a
+higher degree term.
+
+02:48.420 --> 02:50.090
+We have a higher
+degree in the numerator
+
+02:50.090 --> 02:51.520
+than we have in the denominator.
+
+02:51.520 --> 02:54.510
+n squared, obviously, is going
+to grow much faster than n.
+
+02:54.510 --> 02:58.130
+So for the same reason
+as the b sub n sequence,
+
+02:58.130 --> 02:59.750
+this thing is going to diverge.
+
+02:59.750 --> 03:01.680
+The numerator is going
+to grow much faster
+
+03:01.680 --> 03:02.654
+than the denominator.
+
+03:02.654 --> 03:04.570
+Or another way to think
+about it, the limit as
+
+03:04.570 --> 03:06.970
+n approaches infinity
+is going to be infinity.
+
+03:06.970 --> 03:09.230
+This thing's going
+to go to infinity.
+
+03:09.230 --> 03:11.510
+Now let's think about
+this right over here.
+
+03:11.510 --> 03:14.562
+So as we increase
+n-- so we could even
+
+03:14.562 --> 03:16.270
+think about what the
+sequence looks like.
+
+03:16.270 --> 03:19.180
+When n is 0, negative
+1 to the 0 is 1.
+
+03:19.180 --> 03:21.350
+When n is 1, it's
+going to be negative 1.
+
+03:21.350 --> 03:23.335
+When n is 2, it's going to be 1.
+
+03:23.335 --> 03:24.960
+And so this thing is
+just going to keep
+
+03:24.960 --> 03:27.710
+oscillating between
+negative 1 and 1.
+
+03:27.710 --> 03:29.350
+So it's not unbounded.
+
+03:29.350 --> 03:31.700
+It's not going to go to
+infinity or negative infinity
+
+03:31.700 --> 03:33.160
+or something like that.
+
+03:33.160 --> 03:35.300
+But it just oscillates
+between these two values.
+
+03:35.300 --> 03:39.010
+So it doesn't converge
+to one particular value.
+
+03:39.010 --> 03:41.290
+So even though this one
+isn't unbounded-- it doesn't
+
+03:41.290 --> 03:43.870
+go to infinity-- this
+one still diverges.
+
+03:43.870 --> 03:46.697
+It doesn't go to one value.
+
+03:46.697 --> 03:47.780
+So let me write that down.
+
+03:47.780 --> 03:50.530
+This one diverges.

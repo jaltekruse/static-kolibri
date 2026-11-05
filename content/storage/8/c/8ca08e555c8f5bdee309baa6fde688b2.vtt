@@ -1,0 +1,177 @@
+WEBVTT
+
+00:00.468 --> 00:05.551
+Máme dáno f(x) rovno
+4x^5 minus 3x^2 plus 3
+
+00:05.551 --> 00:11.101
+to celé lomeno
+6x^5 minus 100x^2 minus 10.
+
+00:11.101 --> 00:21.687
+Rádi bychom zjistili limitu f(x),
+pokud se x blíží k nekonečnu.
+
+00:21.687 --> 00:23.763
+Můžeme postupovat různě.
+
+00:23.763 --> 00:27.018
+Například dosazovat za ‚x‘
+stále větší čísla a pozorovat,
+
+00:27.018 --> 00:31.581
+jestli se výsledek blíží k nějaké hodnotě,
+nebo výsledek získat úvahou.
+
+00:31.581 --> 00:39.962
+Při úvaze budeme sledovat chování
+čitatele a jmenovatele pro hodně velká x.
+
+00:39.963 --> 00:53.247
+Pro velká x se člen 4x^5 v čitateli
+stane mnohem významnější než vše ostatní.
+
+00:53.247 --> 00:55.285
+Čísla umocněná na druhou
+rostou rychle,
+
+00:55.285 --> 00:59.575
+ale čísla umocněná na pátou
+porostou ještě mnohem rychleji.
+
+00:59.575 --> 01:05.428
+Stejně tak ve jmenovateli, člen s nejvyšší mocninou,
+tedy 6x^5
+
+01:05.428 --> 01:08.613
+poroste mnohem mnohem rychleji
+než ostatní členy.
+
+01:08.613 --> 01:14.044
+I když je zde záporný koeficient -100,
+ale pokud něco umocníte na pátou,
+
+01:14.044 --> 01:16.949
+tak to poroste mnohem
+rychleji než x na druhou.
+
+01:16.949 --> 01:29.637
+Pro velmi vysoká x se hodnota výrazu
+bude blížit 4x^5 lomeno 6x^5
+
+01:29.637 --> 01:40.727
+pro velmi velká x neboli
+pro x blížící se k nekonečnu.
+
+01:40.727 --> 01:43.144
+A jak toto nadále zjednodušit?
+
+01:43.144 --> 01:46.542
+Máme x^5 děleno x^5.
+Obojí poroste společně.
+
+01:46.542 --> 01:51.974
+Takže se vzájemně vykrátí
+a nám zůstanou 2/3.
+
+01:51.974 --> 01:55.743
+Můžeme prohlásit, že pro limitu f(x),
+kde ‚x‘ se blíží k nekonečnu,
+
+01:55.743 --> 02:00.409
+budou s rostoucím x tyto členy
+méně a méně významné
+
+02:00.409 --> 02:06.759
+a výsledek se bude blížit 2/3.
+
+02:06.759 --> 02:09.666
+Ověřme si na grafu, že vše souhlasí.
+
+02:09.666 --> 02:15.449
+Tvrdíme, že máme vodorovnou (horizontální)
+asymptotu v hodnotě y je rovno 2/3.
+
+02:15.449 --> 02:20.818
+Na tomto grafu získaném
+z Wolfram Alpha lze vidět,
+
+02:20.818 --> 02:28.264
+že pro rostoucí x se f(x)
+skutečně přibližuje k hodnotě 2/3.
+
+02:28.264 --> 02:32.728
+Zdá se, že zde máme vodorovnou asymptotu…
+
+02:32.728 --> 02:34.993
+Nakreslím ji trochu lépe…
+
+02:34.993 --> 02:38.914
+Máme vodorovnou
+asymptotu v hodnotě 2/3.
+
+02:38.914 --> 02:42.512
+Nakreslím ji, jak nejlépe dokáži…
+
+02:42.512 --> 02:48.272
+Tady je y rovno 2/3.
+
+02:48.272 --> 02:55.178
+Pokud se x blíží k nekonečnu,
+y se přibližuje k hodnotě 2/3.
+
+02:55.178 --> 03:01.207
+Z grafu se zdá, že totéž
+se děje i ze směru zezdola,
+
+03:01.207 --> 03:03.685
+kde se x blíží k -nekonečnu.
+
+03:03.685 --> 03:11.887
+Limita f(x) pro x blížící se k -nekonečnu
+se zdá být rovněž 2/3.
+
+03:11.887 --> 03:13.741
+Použijeme úplně stejnou logiku.
+
+03:13.741 --> 03:22.368
+Když x nabývá velmi záporných hodnot, tedy
+je čím dál víc a víc vlevo na číselné ose,
+
+03:22.368 --> 03:28.280
+významné budou pouze členy
+4x^5 a 6x ^5.
+
+03:28.280 --> 03:32.677
+Platí to jak pro velmi velká x,
+tak i pro velmi záporná x.
+
+03:32.677 --> 03:37.997
+Takže můžeme říct, že to platí i pro
+x blížící se k -nekonečnu.
+
+03:37.997 --> 03:41.842
+Významné členy x^5 děleno
+x^5 se tedy vykrátí,
+
+03:41.842 --> 03:45.411
+čímž dostaneme hodnotu 2/3.
+
+03:45.411 --> 03:52.349
+Na grafu tedy vidíte vodorovnou
+asymptotu y je rovno 2/3.
+
+03:52.349 --> 03:55.553
+Limita f(x), kde se x blíží
+k nekonečnu, je rovna 2/3.
+
+03:55.553 --> 03:59.813
+A limita f(x), kde se x blíží
+k -nekonečnu, je rovna 2/3.
+
+03:59.813 --> 04:03.823
+Obecný postup je tedy zjistit,
+které výrazy jsou významné
+
+04:03.823 --> 04:06.763
+a zaměřit se pouze na ně.

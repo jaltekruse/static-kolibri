@@ -1,0 +1,778 @@
+WEBVTT
+
+00:00.626 --> 00:02.781
+Trong video trước, chúng ta đã tiếp xúc với
+
+00:02.781 --> 00:05.572
+mô hình dân số là hàm số của thời gian.
+
+00:05.572 --> 00:07.153
+Ta đã xác định được tốc độ biến thiên
+
+00:07.153 --> 00:09.114
+của dân số tính theo thời gian
+
+00:09.114 --> 00:10.649
+sẽ tỉ lệ thuận với
+
+00:10.649 --> 00:11.885
+chính dân số.
+
+00:11.915 --> 00:13.573
+Tốc độ này sẽ tăng
+
+00:13.573 --> 00:15.526
+khi dân số tăng.
+
+00:15.743 --> 00:17.471
+Và khi bạn giải
+
+00:17.471 --> 00:18.704
+phương trình vi phân này,
+
+00:18.704 --> 00:20.931
+nghĩa là bạn đang tìm 1 N của t để thỏa mãn điều này.
+
+00:20.931 --> 00:22.902
+1 hàm số mũ ở đây thì hợp lý
+
+00:22.902 --> 00:25.858
+Hàm đó sẽ thỏa phương trình vi phân.
+
+00:25.913 --> 00:27.577
+Và trên đồ thị nó sẽ trông như thế này.
+
+00:27.912 --> 00:30.503
+Mình sẽ vẽ ra cho bạn dễ nhìn...
+
+00:30.645 --> 00:34.260
+Nếu bạn bắt đầu từ điểm N 0 của dân số,
+
+00:34.392 --> 00:35.981
+đây là trục thời gian
+
+00:35.981 --> 00:37.402
+đây là trục dân số.
+
+00:37.663 --> 00:38.708
+Khi thời gian tăng lên,
+
+00:39.113 --> 00:41.122
+hàm số sẽ tăng trưởng lũy tiến.
+
+00:41.709 --> 00:43.182
+Sẽ có 1 vấn đề phát sinh từ đây.
+
+00:43.359 --> 00:45.430
+Nếu Thomas Malthus đúng thì sao?
+
+00:45.587 --> 00:47.542
+Rằng môi trường sẽ không hỗ trợ...
+
+00:48.041 --> 00:50.815
+Mình sẽ viết màu khác nhé.
+
+00:50.815 --> 00:53.118
+Cho rằng môi trường sẽ không hỗ trợ
+
+00:53.118 --> 01:02.252
+với dân số cao hơn 1 số k.
+
+01:02.252 --> 01:04.263
+Và chắc chắn dân số không thể
+
+01:04.372 --> 01:06.676
+tự nhiên vượt khỏi mức sàn ở đây.
+
+01:06.676 --> 01:07.882
+Dân số sẽ không có đủ thức ăn,
+
+01:07.882 --> 01:10.941
+nước uống hoặc tài nguyên để sinh tồn.
+
+01:10.941 --> 01:12.323
+Hoặc có thể là do ô nhiễm.
+
+01:12.323 --> 01:13.278
+Điều này rất khó nói.
+
+01:13.278 --> 01:18.147
+Vậy cách xem xét mô hình dân số đầu tiên này
+
+01:18.147 --> 01:19.445
+không hiệu quả lắm.
+
+01:19.445 --> 01:23.690
+Đặc biệt nếu bạn đồng tình với Malthus
+
+01:23.690 --> 01:24.756
+Và đó là lúc PF
+
+01:24.756 --> 01:29.354
+Verhulst xuất hiện.
+
+01:29.354 --> 01:30.680
+Ông ta đã đọc nghiên cứu của Malthus,
+
+01:30.680 --> 01:32.925
+và nghĩ rằng "Hmm, mình có thể làm được nhiều thứ
+
+01:32.925 --> 01:35.197
+với mô hình có tính chất
+
+01:35.197 --> 01:37.116
+mà Malthus đã nói đến"
+
+01:37.362 --> 01:41.104
+Và ông ấy xác định rằng điều chúng ta cần
+
+01:41.104 --> 01:43.288
+là...
+
+01:43.361 --> 01:44.755
+Để mình viết ra,
+
+01:44.755 --> 01:45.864
+hay thôi vẽ sơ đồ ra đi
+
+01:45.864 --> 01:50.975
+Hãy thử lập 1 phương trình vi phân khác nhé.
+
+01:50.975 --> 01:52.800
+Nếu nói N nhỏ hơn
+
+01:52.800 --> 02:00.791
+ngưỡng mà môi trường có thể hỗ trợ,
+
+02:00.791 --> 02:06.719
+thì tồn tại sự tăng trưởng lũy tiến là hợp lý
+
+02:06.719 --> 02:09.479
+Chúng ta có thể hãm sự tăng trưởng này
+
+02:09.513 --> 02:11.576
+hoặc đưa nó về 0.
+
+02:11.576 --> 02:15.652
+khi N tiến đến K
+
+02:16.163 --> 02:19.339
+Vậy làm sao để thay đổi? Chúng ra có thể nhân nó với gì đó
+
+02:19.339 --> 02:23.665
+để khi N nhỏ
+
+02:23.665 --> 02:25.693
+N nhỏ hơn K nhiều
+
+02:25.892 --> 02:28.407
+thì vế này sẽ gần với 1
+
+02:28.567 --> 02:30.396
+và khi N gần K
+
+02:30.396 --> 02:32.292
+vế này sẽ gần 0.
+
+02:32.292 --> 02:34.221
+Để mình viết ra nhé.
+
+02:34.221 --> 02:38.304
+Mục tiêu của chúng ta cho vế ở đây là
+
+02:38.349 --> 02:51.008
+Khi N nhỏ hơn K rất nhiều... N nhỏ hơn K rất nhiều...
+
+02:51.008 --> 02:53.333
+vậy thì dân số sẽ không bị ràng buộc,
+
+02:53.333 --> 02:54.275
+người ta có thể sinh em bé
+
+02:54.275 --> 02:55.441
+và em bé có thể được nuôi dưỡng
+
+02:55.441 --> 02:57.474
+rồi lớn lên &amp; sinh sản tiếp vân vân &amp; vân vân
+
+02:57.474 --> 03:02.078
+thì phần này sẽ gần với 1.
+
+03:02.914 --> 03:05.220
+Vậy là bạn sẽ ra được sơ đồ như trên.
+
+03:05.221 --> 03:10.713
+Nhưng khi N tiến gần K... khi N tiến gần K...
+
+03:10.713 --> 03:14.180
+vậy phần này
+
+03:14.426 --> 03:17.744
+hoặc gọi là vế này hoặc biểu thức này
+
+03:17.744 --> 03:19.438
+sẽ tiến về 0.
+
+03:19.487 --> 03:21.219
+Điều này nghĩa là khi N tiến gần
+
+03:21.219 --> 03:25.651
+giới hạn của tự nhiên, hoặc mức sàn của dân số,
+
+03:25.805 --> 03:27.546
+thì phần này sẽ không ảnh hưởng
+
+03:27.546 --> 03:28.911
+nếu phần này tiến về 0
+
+03:28.911 --> 03:30.765
+thì phần bên này sẽ làm
+
+03:30.765 --> 03:33.200
+tốc độ biến thiên tiến về 0.
+
+03:33.200 --> 03:35.363
+Vậy khi thức ăn khan hiểm hơn
+
+03:35.561 --> 03:37.234
+mọi thứ cũng sẽ khó tìm hơn.
+
+03:37.665 --> 03:40.670
+vậy mình có thể viết gì ở đây
+
+03:40.670 --> 03:42.431
+khi N &amp; K có những tính chất này?
+
+03:42.431 --> 03:44.970
+Để làm nháp, bạn có thể
+
+03:44.970 --> 03:45.869
+dừng video lại &amp; thử xem có thể nghĩ ra
+
+03:45.869 --> 03:48.194
+1 biểu thức đại số đơn giản
+
+03:48.194 --> 03:50.706
+chứa N, K &amp; có thể cả số 1
+
+03:50.706 --> 03:52.215
+nếu bạn muốn,
+
+03:52.783 --> 03:55.500
+để biểu thức có những tính chất này.
+
+03:56.869 --> 03:57.715
+Cùng làm nào.
+
+03:57.715 --> 04:01.329
+Nếu chung ta bắt đầu từ số 1
+
+04:01.329 --> 04:05.434
+trừ cho N chia k thì sẽ như thế nào?
+
+04:05.434 --> 04:13.066
+&amp; trừ N chia K...
+
+04:13.066 --> 04:15.945
+Liệu có còn những tính chất này không?
+
+04:15.945 --> 04:16.961
+Dĩ nhiên là còn rồi.
+
+04:16.961 --> 04:19.387
+Khi N là số rất nhỏ, thì
+
+04:19.387 --> 04:24.577
+phần này sẽ là 1 phân số nhỏ của K,
+
+04:24.644 --> 04:25.941
+thì cả phần này
+
+04:25.941 --> 04:27.400
+sẽ rất gần với 1.
+
+04:27.004 --> 04:28.933
+Nó sẽ có giá trị nhỏ hơn 1.
+
+04:29.544 --> 04:30.958
+Và khi N tiến gần đến K,
+
+04:30.958 --> 04:33.247
+và N càng ngày càng gần hơn với K,
+
+04:33.682 --> 04:34.774
+thì phần ở đây
+
+04:35.602 --> 04:37.274
+sẽ tiến đến 1,
+
+04:37.274 --> 04:38.587
+và cả biểu thức
+
+04:38.587 --> 04:39.875
+sẽ tiến về 0.
+
+04:39.875 --> 04:42.720
+Đó chính xác là điều ta cần tìm.
+
+04:42.072 --> 04:44.178
+Và phần này
+
+04:44.968 --> 04:47.536
+được ứng dụng rất rộng rãi,
+
+04:47.536 --> 04:50.582
+không chỉ là mô hình dân số
+
+04:50.582 --> 04:53.641
+nhưng mô hình dân số lại là tiền đề.
+
+04:56.301 --> 04:57.936
+Phương trình vi phân ở đây
+
+04:57.936 --> 04:59.359
+rất thông dụng.
+
+04:59.359 --> 05:02.450
+Nó được gọi là phương trình vi phân logistic.
+
+05:02.450 --> 05:08.398
+Phương trình vi phân logistic...
+
+05:08.398 --> 05:12.922
+Phương trình vi phân logistic...
+
+05:12.922 --> 05:14.169
+Và trong video tiếp theo,
+
+05:14.169 --> 05:15.198
+chúng ta sẽ giải nó.
+
+05:15.639 --> 05:17.360
+Đây thật ra là 1 phương trình vi phân tách biến.
+
+05:17.360 --> 05:19.932
+Mình có thể giải bằng cách
+
+05:19.932 --> 05:22.870
+dùng các phương pháp lấy tích phân cơ bản, và nó sẽ khó hơn ở trên 1 tí,
+
+05:22.870 --> 05:24.498
+nên chúng ta sẽ làm cùng nhau.
+
+05:24.498 --> 05:25.823
+Ta sẽ nhìn kết quả.
+
+05:25.823 --> 05:28.768
+Kết quả của phương trình vi phân logistic
+
+05:28.768 --> 05:33.752
+là hàm logistic, và có thể biểu thị
+
+05:33.752 --> 05:37.330
+mô hình dân số theo cách này. Nhưng trước khi đi vào giải,
+
+05:37.330 --> 05:41.032
+hãy thử phân tích phương trình vi phân này &amp; nghĩ xem
+
+05:41.032 --> 05:46.519
+hàm số sẽ có hình dạng thế nào.
+
+05:46.589 --> 05:49.662
+Để làm điều đó thì,
+
+05:49.662 --> 05:52.723
+hmmmm để mình suy nghĩ chút...
+
+05:52.723 --> 05:56.811
+mình sẽ vẽ thêm các trục ở đây.
+
+05:58.069 --> 05:59.323
+&amp; ở đây nữa.
+
+05:59.944 --> 06:01.508
+Đây là trục thời gian,
+
+06:01.508 --> 06:03.201
+Đây là trục dân số
+
+06:03.801 --> 06:05.340
+Để mình kéo lên tí vì
+
+06:05.340 --> 06:07.031
+phụ đề thường ở dưới đây
+
+06:07.031 --> 06:08.552
+nên các bạn sẽ không thấy rõ.
+
+06:09.454 --> 06:11.126
+Hãy xem xét 1 vài phép hoán vị
+
+06:11.126 --> 06:12.750
+trong 1 số trường hợp
+
+06:12.075 --> 06:16.583
+Với N tại thời gian bằng 0
+
+06:16.583 --> 06:19.098
+&amp; N là hàm số của t
+
+06:19.648 --> 06:22.580
+Nếu tại thời gian bằng 0 &amp; N bằng 0,
+
+06:23.958 --> 06:25.708
+thì phần này sẽ bằng 0.
+
+06:25.708 --> 06:27.917
+&amp; tốc độ biến thiên sẽ bằng 0.
+
+06:27.917 --> 06:30.244
+Nghĩa là bạn không có dự định tăng dân số này,
+
+06:30.244 --> 06:31.128
+&amp; điều đó là tốt.
+
+06:31.554 --> 06:33.318
+Vì khi dân số bằng 0,
+
+06:33.318 --> 06:34.703
+Làm sao có thể
+
+06:34.703 --> 06:35.666
+tăng dân số được?
+
+06:35.666 --> 06:37.755
+Không có ai để sinh em bé.
+
+06:37.884 --> 06:40.326
+Vậy là 1 hằng số là đáp số
+
+06:40.326 --> 06:42.487
+cho phương trình vi phân này,
+
+06:44.648 --> 06:46.810
+là N của t bằng 0.
+
+06:46.810 --> 06:49.457
+Điều này sẽ thỏa phương trình vi phân logistic.
+
+06:49.457 --> 06:51.695
+Nếu dân số của bạn bắt đầu tại 0
+
+06:51.695 --> 06:53.843
+&amp; N 0 bằng 0
+
+06:53.934 --> 06:55.441
+thì bạn sẽ ở 0 mãi mãi.
+
+06:55.441 --> 06:57.954
+Điều này sẽ xảy ra ngoài đời thực
+
+06:57.954 --> 06:59.680
+nếu không còn ai để sinh em bé.
+
+06:59.680 --> 07:01.097
+Hãy xem 1 trường hợp khác nhé.
+
+07:01.097 --> 07:02.954
+Nếu dân số
+
+07:02.954 --> 07:04.904
+N 0 bằng K thì sao?
+
+07:05.734 --> 07:09.984
+Điều sẽ xảy ra khi N 0 bằng K là...
+
+07:10.636 --> 07:12.685
+Ta sẽ có K ở đây
+
+07:12.685 --> 07:15.182
+điều gì sẽ xảy ra nếu tại thời gian bằng 0,
+
+07:15.182 --> 07:16.706
+đây sẽ là dân số.
+
+07:16.706 --> 07:18.640
+Nếu N bằng K, thì đây sẽ là 1 trừ 1,
+
+07:18.640 --> 07:20.665
+vậy đây sẽ là 0,
+
+07:20.665 --> 07:21.903
+vậy tốc độ biến thiên
+
+07:21.903 --> 07:22.835
+sẽ bằng 0.
+
+07:23.223 --> 07:24.904
+Vậy nếu dân số bằng 0,
+
+07:24.904 --> 07:26.066
+thì sau 1 khoảng thời gian,
+
+07:26.066 --> 07:27.342
+dân số vẫn giữ nguyên là k.
+
+07:27.623 --> 07:29.867
+Nếu tốc độ biến thiên của dân số là 0,
+
+07:29.867 --> 07:31.950
+nghĩa là dân số của mình là hằng số.
+
+07:32.352 --> 07:35.640
+&amp; dân số sẽ đứng yên tại k.
+
+07:36.090 --> 07:37.334
+&amp; điều đó khả thi.
+
+07:37.334 --> 07:38.687
+Malthus sẽ nói
+
+07:38.687 --> 07:40.311
+nếu dân số tăng trưởng
+
+07:40.311 --> 07:43.674
+vượt qua ngưỡng của môi trường
+
+07:43.674 --> 07:46.577
+và có lũ lụt,
+
+07:46.577 --> 07:48.406
+hoặc bão hay nạn đói
+
+07:48.406 --> 07:49.534
+và nó luân phiên nhau.
+
+07:49.534 --> 07:51.716
+Và bạn sẽ không có mô hình
+
+07:51.716 --> 07:52.758
+hoàn hảo.
+
+07:52.948 --> 07:55.116
+Nhưng mà nhìn cũng khá ổn rồi.
+
+07:55.116 --> 07:57.110
+Bạn đang ở giới hạn
+
+07:57.011 --> 07:59.016
+môi trường có thể chịu đựng,
+
+07:59.016 --> 08:03.140
+vậy bạn có thể đứng yên ở đó &amp; tại đó đáp số là hằng số.
+
+08:03.140 --> 08:04.240
+N của t tại đó
+
+08:05.147 --> 08:06.769
+và bạn sẽ thấy
+
+08:06.769 --> 08:08.378
+tại sao các điều kiện ban đầu là quan trọng.
+
+08:08.378 --> 08:09.603
+Nếu bạn bắt đầu từ 0 thì sẽ đứng yên tại 0,
+
+08:09.603 --> 08:10.747
+Nếu bạn bắt đầu từ K thì sẽ đứng yên tại K,
+
+08:11.345 --> 08:13.947
+vậy N của t sẽ đứng yên tại K.
+
+08:14.694 --> 08:16.780
+Giờ hãy đến với 1 trường hợp thú vị hơn.
+
+08:17.253 --> 08:20.089
+Giả sử dân số ban đầu
+
+08:20.089 --> 08:22.492
+sẽ nằm giữa số 0 &amp; số K.
+
+08:22.492 --> 08:27.052
+Mình sẽ giả sử dân số ban đầu
+
+08:27.052 --> 08:30.958
+sẽ ở 1 điểm lớn hơn 0
+
+08:31.605 --> 08:34.030
+(để dân cư có khả năng sinh sản)
+
+08:34.025 --> 08:35.583
+và bé hơn K
+
+08:35.808 --> 08:38.823
+để môi trường không bị kiệt quệ.
+
+08:38.929 --> 08:40.885
+bao gồm cả đất, thực phẩm, nước
+
+08:40.885 --> 08:41.874
+vân vân.
+
+08:41.874 --> 08:43.138
+Vậy điều gì sẽ xảy ra?
+
+08:43.462 --> 08:44.535
+Mình sẽ
+
+08:44.535 --> 08:45.636
+vẽ ra
+
+08:45.636 --> 08:47.595
+&amp; chúng ta sẽ giải trong video tiếp theo.
+
+08:48.215 --> 08:50.071
+Vậy N nhỏ hơn K đáng kể,
+
+08:50.071 --> 08:52.718
+đến mức nó là 1 phân số nhỏ của K,
+
+08:52.718 --> 08:54.958
+thì vế này sẽ là vế chính
+
+08:54.958 --> 08:56.427
+tác động lên phương trình.
+
+08:56.427 --> 08:58.425
+Vì đây là 1 phân số nhỏ của k,
+
+08:58.425 --> 08:59.363
+theo cách mình vẽ thì
+
+08:59.363 --> 09:02.441
+nó trông như 1/6 hoặc 1/7
+
+09:03.143 --> 09:04.186
+hoặc 1/8 của K
+
+09:04.501 --> 09:06.279
+vậy sẽ là 1 trừ 1/8
+
+09:06.279 --> 09:11.163
+Vậy nó sẽ là 7/8 nhân với phần này.
+
+09:11.335 --> 09:14.883
+Phần này sẽ biểu đạt
+
+09:15.697 --> 09:17.125
+tốc độ tăng trưởng.
+
+09:17.417 --> 09:18.852
+Và nếu nó biểu đạt điều đó thì
+
+09:18.852 --> 09:22.582
+Hãy nghĩ như thế này nhé.
+
+09:22.582 --> 09:23.691
+Nếu dân số tăng trưởng,
+
+09:23.691 --> 09:27.172
+tốc độ biến thiên sẽ tăng trưởng.
+
+09:27.484 --> 09:32.484
+Nên nó sẽ trông như thế này.
+
+09:33.004 --> 09:35.012
+Và khi dân số lớn hơn,
+
+09:35.012 --> 09:37.101
+hệ số góc sẽ cao hơn.
+
+09:37.209 --> 09:38.724
+Nó sẽ càng ngày càng dốc thẳng.
+
+09:39.153 --> 09:41.041
+Nhưng khi N tiến đến K,
+
+09:41.246 --> 09:42.951
+vậy phần này sẽ
+
+09:42.989 --> 09:44.698
+gần hơn với 1 trừ cho
+
+09:44.698 --> 09:46.099
+1 số gần 1
+
+09:46.099 --> 09:48.118
+vậy phần này sẽ trở thành 1 số rất nhỏ
+
+09:48.118 --> 09:50.204
+để làm cả phần này tiến về 0.
+
+09:50.646 --> 09:52.162
+nên khi N tiến gần với K,
+
+09:52.771 --> 09:54.548
+tốc độ biến thiên
+
+09:54.548 --> 09:57.029
+sẽ dần nằm ngang.
+
+09:57.459 --> 09:59.440
+và sẽ gần tiếp xúc với tiếp cận là k
+
+09:59.858 --> 10:03.441
+vậy đáp án của
+
+10:03.441 --> 10:05.493
+phương trình vi phân logistic
+
+10:05.961 --> 10:07.874
+sẽ trông như thế này.
+
+10:07.874 --> 10:09.679
+Phụ thuộc vào điều kiện ban đầu là gì.
+
+10:09.679 --> 10:10.756
+Nếu điểm bắt đầu ở đây,
+
+10:10.756 --> 10:12.091
+thì kết quả sẽ ra thế này.
+
+10:12.091 --> 10:13.415
+Nếu điểm bắt đầu ở đây,
+
+10:13.415 --> 10:16.393
+thì kết quả sẽ ra thế này.
+
+10:16.393 --> 10:17.559
+Và 1 lần nữa, đây là điều thú vị
+
+10:17.559 --> 10:18.361
+khi làm phương trình vi phân.
+
+10:18.361 --> 10:19.964
+Trước khi làm các dạng toán cao cấp hơn,
+
+10:19.964 --> 10:21.221
+bạn sẽ có được trực giác
+
+10:21.221 --> 10:22.987
+chỉ bằng cách xem sơ qua các phương trình vi phân
+
+10:22.987 --> 10:26.325
+&amp; phỏng đoán nó sẽ trông ra sao
+
+10:26.438 --> 10:30.449
+Dưới đây, hoặc khi N nhỏ hơn K rất nhiều
+
+10:30.449 --> 10:32.056
+tốc độ tăng trưởng sẽ tăng lên
+
+10:32.704 --> 10:34.106
+khi N tăng,
+
+10:34.148 --> 10:35.908
+và ở đây khi N tiến gần K,
+
+10:35.908 --> 10:38.996
+tốc độ tăng trưởng giảm dần.
+
+10:39.351 --> 10:40.458
+Trong video tiếp theo,
+
+10:40.458 --> 10:43.526
+sẽ giải ra đáp án cho phần này
+
+10:43.526 --> 10:47.129
+&amp; xem xem trực giác của mình có đúng không.

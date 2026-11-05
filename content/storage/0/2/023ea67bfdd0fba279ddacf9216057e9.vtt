@@ -1,0 +1,366 @@
+WEBVTT
+
+00:00.758 --> 00:05.636
+Ich habe hier eine willkürliche Funktion gezeichnet und wir werden versuchen diese zu approximieren,
+
+00:05.636 --> 00:10.625
+wir kennen sie dabei nicht, wir nutzen dafür Polynome und werden immer weitere Terme zu diesem Polynom addieren.
+
+00:10.733 --> 00:15.225
+Aber um das zu tun, werden wir annehmen, dass wir sie in Null berechnen können. Das gibt uns einen
+
+00:15.302 --> 00:22.175
+Wert und wir können weiterhin die Ableitungen der Funktion nehmen und die erste, die zweite
+
+00:22.205 --> 00:28.538
+die dritte Ableitung, usw. in Null berechnen. Wir nehmen also an, dass wir wissen was f(0) ist,
+
+00:28.600 --> 00:34.867
+wir nehmen an, dass wir wissen was f'(0) ist, wir nehmen an, dass wir die zweite Ableitung in Null kennen,
+
+00:34.882 --> 00:42.800
+wir nehmen an, dass wir wissen was die dritte Ableitung in Null ist. Ich werde die dritte Ableitung als f Strich Strich Strich in Null schreiben.
+
+00:42.800 --> 00:49.667
+und so weiter und so fort. Lasst uns also drüber nachdenken wir sie mit immer länger werdenden Polynomen approximieren
+
+00:49.667 --> 00:55.600
+können.Wir könnten also ein Polynom mit nur einem Term nehmen. Und es wäre einfach nur ein konstanter Term. Es
+
+00:55.600 --> 01:01.400
+wäre also ein Polynom vom Grad Null. Und wenn wir einen konstanten Term haben, dann soll wenigstens das
+
+01:01.400 --> 01:10.067
+Polynom, eigentlich ist es nur eine konstante Funktion, gleich der Funktion in f(0) sein. Zuerst wollen wir also
+
+01:10.067 --> 01:19.133
+nur p(0) wobei p das Polynom ist, dass wir konstruieren wollen. Wir wollen, dass p(0) gleich f(0) ist.
+
+01:19.133 --> 01:30.667
+Wenn wir wollen können wir einfach p(x) gleich f(0) setzen.
+
+01:30.667 --> 01:37.133
+Wenn wir es also zeichnen wollen, sieht es so aus. Es wird einfach eine horizontale Linie durch f(0) sein.
+
+01:37.133 --> 01:43.267
+Und ihr könnt sagen: Sal, das ist eine furchtbare Approximation, sie approximiert die Funktion nur in diesem Punkt
+
+01:43.267 --> 01:46.067
+Sieht so aus als ob wir noch an einigen anderen Punkten Glück hätten, aber sonst ist es ziemlich schlecht.
+
+01:46.067 --> 01:49.467
+Und ich werde euch dann sagen, versucht es besser zu machen mit einer horizontalen Linie.
+
+01:49.467 --> 01:55.733
+Zumindest stimmt es in f(0) und besser wird es nicht mit einer einfachen Konstanten.
+
+01:55.733 --> 02:02.600
+Und obwohl es vielleicht nicht wie eine Konstante aussieht, nehmen wir an, dass wir bei gegebener Funktion
+
+02:02.600 --> 02:06.667
+sie in Null berechnen können und das gibt uns einfach eine Zahl. Was auch immer das für eine Nummer war,
+
+02:06.667 --> 02:11.067
+wir setzen sie einfach da hin. Und wir sagen, dass p(x) gleich dieser Zahl ist. Es wird einfach eine hoirzontale
+
+02:11.067 --> 02:19.933
+Linie hier in f(0) sein. Aber das ist offensichtlich nicht so toll, also lasst uns ein paar mehr Teile hinzufügen.
+
+02:19.933 --> 02:32.000
+Neben der Tatsache, das wir wollen, dass p(0) gleich f(0) ist, lasst uns annehmen, dass wir auch p'(0) = f'(0) wollen.
+
+02:32.000 --> 02:40.067
+Lasst mich das in einer neuen Farbe machen. Also, wir wollen auch, in der neuen Farbe, wir wollen auch, das ist keine neue Farbe.
+
+02:40.067 --> 02:46.667
+Wir wollen auch, dass p', wir wollen, dass die erste Ableitung unserer Polynoms in Null das gleiche ist
+
+02:46.667 --> 02:52.333
+wie die erste Ableitung der Funktion, ausgewertet in Null. Und wir wollen das hier drüben nicht
+
+02:52.333 --> 03:03.067
+verlieren. Was wäre denn, wenn wir p(x) gleich f(0) setzen, wir nehmen also unser p(x) und wir werden
+
+03:03.067 --> 03:12.467
+einen weiteren Term hinzufügen, sodass die Ableitungen übereinstimmen. Plus f'(0) mal x. Lasst uns darüber ein wenig
+
+03:12.467 --> 03:19.133
+nachdenken, wenn wir das also als unser neues Polynom benuten, was passiert? p(0), was ist p(0)? p(0) wird
+
+03:19.133 --> 03:30.600
+gleich sein, man hat dann f(0) plus was auch immer f Strich von 0 ist, mal 0. Wenn man hier Null für
+
+03:30.600 --> 03:36.333
+x einsetzt, wird dieser Term Null. Euch bleibt also nur p(0) = f(0). Das ist cool.
+
+03:36.333 --> 03:40.133
+Das ist genauso gut wie unsere erste Version. Was ist jetzt die Ableitung hier drüben?
+
+03:40.133 --> 03:48.467
+Die Ableitung ist also p'(x) =, leite das hier ab, und das ist nur eine Konstante, also ist die
+
+03:48.467 --> 03:53.733
+Ableitung Null. Und die Ableitung eines Koeffizienten mal x ist der Koeffizient selbst.
+
+03:53.733 --> 04:04.000
+Also ergibt das f'(0). Wenn man es also in Null berechnet, also p' von Null oder die Ableitung
+
+04:04.000 --> 04:07.267
+unserer Polynoms berechnet in Null. Ich weiß, es ist ein wenig komisch, weil wir nicht
+
+04:07.941 --> 04:12.918
+ihr wisst schon, wir sagen, oh, p'(x), f'(0), aber erinnert euch einfach, was die Variable ist
+
+04:12.918 --> 04:18.930
+was die Konstante ist und hoffentlich ergibt es Sinn.
+Also das hier wird offensichtlich f'(0). Seine Ableitung
+
+04:18.930 --> 04:23.463
+ist ein konstanter Wert. Das ist ein konstanter Wert hier. Wir nehmen an, dass wir die Ableitung
+
+04:23.463 --> 04:29.496
+unserer Funktion nehmen können und berechnen das Ding in Null, damit es einen konstanten Wert ergibt. Also wenn p'(x) gleich
+
+04:29.496 --> 04:35.028
+diesem konstanten Wert ist, dann ist p'(x) offensichtlich das gleiche in Null ausgewertet.
+
+04:35.028 --> 04:42.281
+Aber was cool daran ist, dieses Polynom, das einen Term vom Grad Null hat
+
+04:42.281 --> 04:49.365
+und einen vom Grad Eins, ist jetzt, das Polynom ist gleich unserer Funktion in x = 0
+
+04:49.365 --> 04:56.496
+und es hat außerdem die gleiche erste Ableitung. Es hat also die Gleiche Steigung in x = 0!
+
+04:56.496 --> 05:02.467
+Also wird dieses Teil aussehen, dieses neue Polynom mit zwei Termen ist ein wenig besser.
+
+05:02.467 --> 05:05.115
+Es wird irgendwie so aussehen. Es wird
+
+05:05.115 --> 05:14.049
+hauptsächlich, es wird wie eine Tangente in f(0) aussehen.
+Wir werden also besser,
+
+05:14.049 --> 05:20.664
+Aber immer noch keine super gute Approximation. Es geht irgendwie noch in die ungefähr gleiche Richtung
+
+05:20.664 --> 05:24.631
+wie unsere Funktion um 0, aber vielleicht können wir es besser machen, indem wir sicher gehen, dass sie
+
+05:24.631 --> 05:29.317
+die gleiche zweite Ableitung haben. Und um zu versuchen, dass sie die gleiche zweite Ableitung haben während
+
+05:29.317 --> 05:35.964
+sie noch die gleiche erste Ableitung und den gleichen Wert in 0 haben, lasst uns was interessantes versuchen.
+
+05:35.964 --> 05:44.520
+Lasst uns p(x) definieren, wir stellen klar, das war unser erster Versuch.
+
+05:44.520 --> 05:50.099
+Das ist unser zweiter Versuch, gleich hier und ich werde unseren dritten Versuch angehen.
+
+05:50.099 --> 05:54.296
+Also, in unserer dritten Versuch ist es mein Ziel, dass der Wert meines Polynoms der gleiche ist
+
+05:54.296 --> 05:57.048
+wie der Wert der Funktion in 0, dass sie die gleiche Ableitung in 0 haben,
+
+05:57.048 --> 06:02.413
+und dass sie auch die gleiche zweite Ableitung in 0 habe. Also lasst uns mein Polynom definieren
+
+06:02.413 --> 06:08.084
+soll gleich sein zu, ich nehme die ersten beiden Terme dieser beiden dort drüben.
+
+06:08.084 --> 06:15.833
+Es wird also sein, f(0) plus f'(0) mal x
+
+06:15.833 --> 06:18.848
+Also genau das, was wir hier gemacht habe, aber lasst mich jetzt einen anderen Term hinzufügen.
+
+06:18.848 --> 06:25.187
+Ich werde den anderen Term in einer anderen Farbe schreiben. Und ich werde hier einhalb hinsetzen
+
+06:25.187 --> 06:28.187
+und hoffentlich ergibt das dann Sinn warum ich das tue.
+
+06:28.187 --> 06:35.446
+Plus ein halb mal die zweite Ableitung unserer Funktion f in Null mal x zum Quadrat.
+
+06:35.446 --> 06:41.599
+Und dann berechnen wir die Ableitung hiervon, ich denke ihr werdet sehen warum dieses Einhalb da ist.
+
+06:41.599 --> 06:47.296
+Denn jetzt, lasst uns das berechnen und seine Ableitungen in 0. Also wenn wir p(0) berechnen,
+
+06:47.296 --> 06:53.853
+p(0) ist dann gleich was? Naja, man hat diesen konstanten Term,
+
+06:53.853 --> 06:57.166
+wenn man den in 0 berechnet, dieses x und dieses x^2 sind beide 0, also
+
+06:57.166 --> 07:01.532
+fallen diese Terme weg. Also ist p(0) immer noch gleich f(0)
+
+07:01.532 --> 07:08.700
+Bestimmt man die Ableitung von p(x), lasst mich die Ableitung hierhin setzen, ich werde es gelb machen.
+
+07:08.700 --> 07:13.584
+Also, die Ableitung meines neuen p(x) wird gleich, dieser Term fällt dann weg,
+
+07:13.584 --> 07:18.748
+es ist ein konstanter Term, es wird gleich f'(0) sein, dass ist der Koeffizient da dran,
+
+07:18.748 --> 07:24.198
+plus, das ist die Ableitungsregel hier, 2 mal einhalb
+
+07:24.198 --> 07:33.283
+ist schlicht eins, plus f''(0) mal x. Nehmt die zwei, multipliziert sie mit ein halb und kürzt die beiden gegeneinander.
+
+07:33.283 --> 07:37.650
+Und ich denke jetzt merkt ihr warum wir die ein halb da hingeschrieben haben.
+
+07:37.650 --> 07:44.433
+Das sorgt dafür, dass wir nicht mit zwei Koeffizienten davor enden.
+
+07:44.433 --> 07:50.588
+Gut, was ist jetzt p'(0)? p'(0) ist was?
+
+07:50.588 --> 07:55.847
+Naja, dieser Term hier wird 0, also bleib dieser konstante Wert hier.
+
+07:55.847 --> 08:02.932
+Also wird es f'(0). Also, bis jetzt hat unser drittes Polynom alle Eigenschaften
+
+08:02.932 --> 08:06.437
+der ersten beiden. Und lasst uns mal sehen wie es sich mit der dritten Ableitung verhält.
+
+08:06.945 --> 08:13.429
+Also, lasst mal sehen. Ich sollte sagen, die zweite Ableitung p''(x) ist gleich
+
+08:13.429 --> 08:17.160
+das ist eine Konstante, also die Ableitung gleich 0, also nimmt man einfach den Koeffizienten
+
+08:17.160 --> 08:24.028
+von diesem zweiten Term, ist gleich f''(0). Also was ist die zweite Ableitung von p
+
+08:24.228 --> 08:29.978
+ausgewertet in 0? Naja, es ist einfach dieser konstante Wert, f''(0)
+
+08:29.978 --> 08:38.345
+Bemerkt also, durch hinzufügen dieses Terms, ist der Wert unserer Polynoms in 0 der gleiche
+
+08:38.345 --> 08:43.174
+wie der Wert der Fuktion, seine Ableitung in 0 ist die gleiche wie die unserer Funktion in 0,
+
+08:43.174 --> 08:48.026
+und seine zweite Ableitung in 0 ist die gleiche wie die zweite Ableitung unserer Funktion in 0.
+
+08:48.026 --> 08:54.508
+Und ihr erkennt hier wahrscheinlich ein Muster-- jeder Term, den wir hinzufügen wird es uns erlauben
+
+08:54.508 --> 09:02.493
+die Situation so zu verändern, dass die n-te Ableitung unserer Approximation in das gleiche sein wird
+
+09:02.493 --> 09:07.378
+wie die n-te Ableitung unserer Funktion in 0. Also, im Allgemeinen, wenn wir das weiter machen wollten,
+
+09:07.440 --> 09:16.519
+wenn wir weitere Terme zu unserem Polynom hinzufügen wollten, könnten wir, lasst mich das in einer neuen Farbe machen,
+
+09:16.519 --> 09:24.587
+könnten wir unsere polynomielle Approximation so machen, dass der erste nur f(0) sein wird,
+
+09:24.587 --> 09:40.804
+der nächste Term wird f'(0) mal x sein. Dann der nächste Ter wird f''(0) mal ein halb mal x^2 sein.
+
+09:40.804 --> 09:47.086
+Der Term dann, wenn wir ihre dritten Ableitungen identisch haben wollen in 0, wäre
+
+09:47.224 --> 09:57.087
+f'''(0), die dritte Ableitung der Funktion in 0 mal ein halb, mal ein drittel mal x^3.
+
+10:00.672 --> 10:04.243
+Und wir können so weiter machen, vielleicht sehr ihr schon das Muster hier.
+
+10:04.351 --> 10:09.773
+Plus, wenn ihre vierten Ableitungen in 0 übereinstimmen sollen, wäre es
+
+10:09.820 --> 10:17.468
+die vierte Ableitung der Funktion, die vierte Ableitung der Funktion in 0 mal
+
+10:17.468 --> 10:30.373
+1 durch 4 mal 3 mal 2, mal x^4. Und ihr könnt es selbst überprüfen,
+
+10:30.373 --> 10:34.845
+wenn wir nur das hätten, und wenn ihr die vierte Ableitung davon in 0 nehmen würdet,
+
+10:34.845 --> 10:39.782
+wäre es das gleiche wie die vierte Ableitung der Funktion in 0.
+
+10:39.782 --> 10:45.055
+Und allgemein kann man immer weiter Terme hinzufügen, wobei die Terme wie folgt aussehen:
+
+10:45.055 --> 10:56.000
+Die n-te Ableitung unserer Funktion, ausgewertet in 0, mal x^n durch n Fakultät.
+
+10:56.031 --> 11:05.193
+Beachtet, das ist gleiche wie 4 Fakultät - 4 Fakultät ist 4&lt;i>3&lt;/i>2*1.
+
+11:06.163 --> 11:17.621
+Das hier ist 3 Fakultät, 3&lt;i>2&lt;/i>1, das hier ist 2 Fakultät, 2*1.
+
+11:17.621 --> 11:23.511
+Das hier das gleiche wie Eins Fakultät, das gleiche wie EIns.
+
+11:23.511 --> 11:29.110
+Und man könnte das hier durch Null Fakultät teilen, was zufälligerweise auch eins ist,
+
+11:29.110 --> 11:35.553
+aber diese allgemeine Reihe, die ich hier irgendwie aufgestellt habe, nennt man Maclaurin Reihe.
+
+11:37.753 --> 11:43.335
+Und man kann ein Polynom approximieren und wir werden später einige mächtige Resultate sehen.
+
+11:43.335 --> 11:47.788
+Aber, was passiert, und ich hab nicht die nötige Rechenkapazität in meinem Gehirn um einen ordentlichen Graphen zu zeichnen,
+
+11:47.788 --> 11:53.366
+wenn nur die Funktion gleich ist, bekommt man dieses horizontale Gerade. Wenn man die Funktionen
+
+11:53.366 --> 12:00.032
+und, wenn man die Funktion angleicht in 0, und ihre ersten Ableitungen sind gleich in 0, dann hat man
+
+12:00.032 --> 12:04.619
+etwas, das wie eine Tangente aussieht. Wenn man einen weitern Grad hinzufügt, approximiert es
+
+12:04.619 --> 12:11.145
+das Polynom irgendwie so. Wenn man noch einen Grad hinzufügt, sieht es in etwa so aus.
+
+12:11.191 --> 12:18.300
+Und, während man mehr und mehr Terme hinzufügt, kommt es näher und näher ran, besonders
+
+12:18.300 --> 12:25.377
+wenn man nahe x = 0 ist, aber theoretisch, wenn man unendlich viele Terme hinzufügt,
+
+12:25.454 --> 12:30.954
+Ich habe euch das noch nicht bewiesen, also ist das was ich sage nur theoretisch, aber wenn ihr unendlich viele
+
+12:30.954 --> 12:34.979
+Terme hinzufügt, sollte es passieren, alle Ableitungen sollten gleich sein, und dann
+
+12:34.979 --> 12:38.935
+sollten die Funktionen ziemlich gleich aussehen.
+
+12:38.935 --> 12:44.208
+Im nächsten Video, ich werde das mit einigen Funktionen tatsächlich machen, nur damit es etwas mehr Sinn ergibt.
+
+12:44.208 --> 12:49.667
+Und nur damit ihr es wisst, die Maclaurin Reihe ist ein Spezialfall der Taylor Reihe, da wir uns
+
+12:49.683 --> 12:53.969
+in der 0 festlegen. Und wenn man eine Taylor Reihe nimmt, kann man um jeden Punkt entwickeln,
+
+12:53.969 --> 3:59:59.999
+aber wir fokussieren uns im Moment auf die Maclaurin Reihe.

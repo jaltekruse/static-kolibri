@@ -1,0 +1,460 @@
+WEBVTT
+
+00:00.000 --> 00:00.440
+Trong video này, mình muốn giới thiệu cho các bạn về
+
+00:03.640 --> 00:11.070
+hàm số mũ và cho bạn thấy hàm này
+
+00:11.070 --> 00:12.660
+có thể tăng nhanh tới mức nào.
+
+00:12.660 --> 00:16.340
+Giờ ta hãy viết một ví dụ về hàm số mũ ở đây.
+
+00:16.340 --> 00:22.500
+Giả sử ta có y bằng 3 mũ x.
+
+00:22.500 --> 00:24.575
+Lưu ý, đây không phải là x mũ 3 mà
+
+00:24.575 --> 00:26.260
+là 3 mũ x.
+
+00:26.260 --> 00:30.240
+Biến độc lập x chính là số mũ.
+
+00:30.240 --> 00:33.660
+Giờ ta hãy lập một bảng giá trị ở đây để xem nó sẽ
+
+00:33.660 --> 00:37.740
+tăng nhanh như thế nào, và có lẽ ta cũng sẽ vẽ đồ thị nữa.
+
+00:37.740 --> 00:40.540
+Giờ ta hãy lấy một vài giá trị x ở đây.
+
+00:40.540 --> 00:42.590
+Hãy bắt đầu với x là bằng âm 4.
+
+00:42.590 --> 00:50.350
+Sau đó, ta sẽ tiếp tục đến âm 3, âm 2, 0, 1, 2, 3 và 4.
+
+00:50.350 --> 00:53.370
+Và giờ hãy tính xem giá trị y tương ứng sẽ là gì cho
+
+00:53.370 --> 00:55.540
+mỗi giá trị x này.
+
+00:55.540 --> 00:59.110
+Bây giờ, ở đây, y sẽ là 3 mũ âm 4, tức là
+
+00:59.110 --> 01:02.460
+bằng 1/ 3 mũ 4.
+
+01:02.460 --> 01:06.420
+3 mũ 3 là 27 sau đó nhân thêm 3 nữa là 81.
+
+01:06.420 --> 01:10.670
+Vậy giá trị này bằng 1/81.
+
+01:10.670 --> 01:13.620
+Khi x bằng âm 3, y là 3 mũ âm 3.
+
+01:13.620 --> 01:14.850
+Mình sẽ viết bằng màu khác.
+
+01:14.850 --> 01:16.250
+Màu này khó đọc quá.
+
+01:16.250 --> 01:18.530
+y là 3 mũ âm 3.
+
+01:18.530 --> 01:21.840
+Đó chính là 1/ 3 mũ 3,
+
+01:21.840 --> 01:24.500
+là bằng 1/27.
+
+01:24.500 --> 01:27.050
+Như vậy, ta thấy ta đi từ một số siêu nhỏ đến
+
+01:27.050 --> 01:28.300
+một số ít nhỏ hơn.
+
+01:28.300 --> 01:31.460
+Và sau đó 3 mũ âm 2 sẽ là
+
+01:31.460 --> 01:34.470
+1/9, đúng không nào?
+
+01:34.470 --> 01:39.970
+1/ 3 bình phương, và sau đó ta có 3 mũ 0, thì nó
+
+01:39.970 --> 01:41.880
+chỉ bằng 1.
+
+01:41.880 --> 01:44.110
+Như vậy, ta đang đi đến các số dần lớn hơn, và lớn hơn một chút
+
+01:44.110 --> 01:46.580
+nhưng rồi ta sẽ thấy giá trị sắp sửa sẽ tăng bùng nổ
+
+01:46.580 --> 01:48.750
+Bây giờ, ta có 3 mũ 1.
+
+01:48.750 --> 01:50.370
+Nó bằng 3.
+
+01:50.370 --> 01:52.825
+Giờ ta có 3 mũ 2, phải không? y bằng 3
+
+01:52.825 --> 01:53.830
+mũ 2.
+
+01:53.830 --> 01:55.200
+Đó là 9.
+
+01:55.200 --> 01:57.050
+3 mũ 3, là 27.
+
+01:57.050 --> 01:58.820
+3 mũ 4, là 81.
+
+01:58.820 --> 02:02.970
+Nếu ta tính đến mũ 5, thì là 243.
+
+02:02.970 --> 02:05.690
+Giờ ta hãy vẽ đồ thị này, để có thể mường tượng ra được
+
+02:05.690 --> 02:07.950
+giá trị này tăng nhanh như thế nào.
+
+02:07.950 --> 02:09.495
+Hãy để mình vẽ các trục số ra đây.
+
+02:09.495 --> 02:13.780
+Vậy đây là trục x và đây là trục y.
+
+02:17.270 --> 02:21.000
+Để mình đặt các số gia là 5, bởi vì mình
+
+02:24.400 --> 02:28.500
+thực sự muốn có được hình dạng toàn thể của đồ thị này.
+
+02:28.500 --> 02:32.690
+Mình sẽ cố gắng vẽ đường thẳng nhất có thể.
+
+02:32.690 --> 02:36.600
+Hãy đặt các số 5, 10, 15 vào đây.
+
+02:36.600 --> 02:38.240
+Thật ra, nếu vẽ thế này thì sẽ không đi tới 81 được.
+
+02:38.240 --> 02:41.250
+Mình muốn đến 81.
+
+02:41.250 --> 02:42.480
+Cũng tạm được rồi đó.
+
+02:42.480 --> 02:44.390
+Để mình vẽ nó khác một chút
+
+02:44.390 --> 02:46.030
+so với cái này.
+
+02:46.030 --> 02:49.960
+Mình sẽ vẽ nó xuống đây bởi vì tất cả những giá trị này,
+
+02:49.960 --> 02:52.450
+bạn có thể nhận thấy, đều là giá trị dương vì ta có
+
+02:52.450 --> 02:54.130
+cơ số dương.
+
+02:54.130 --> 02:56.105
+Mình sẽ vẽ nó như thế này.
+
+02:56.105 --> 02:59.340
+Cũng tạm được rồi.
+
+03:00.330 --> 03:06.750
+Và mình đặt 10, 20, 30, 40, 50, 60, 70, 80 vào đây.
+
+03:06.750 --> 03:08.320
+Đó là 80 ngay đây.
+
+03:08.320 --> 03:09.500
+Đó là 10.
+
+03:09.500 --> 03:10.790
+Đó là 30.
+
+03:10.790 --> 03:12.860
+Ta ước chừng vậy là ổn rồi.
+
+03:12.860 --> 03:17.150
+Và ở trục này hãy đặt ở đây là âm 5.
+
+03:17.150 --> 03:20.700
+Đây là dương 5 ngay tại đây.
+
+03:20.700 --> 03:22.842
+Nhưng để mình kéo giãn khoảng này ra hơn một chút.
+
+03:22.842 --> 03:28.990
+Giả sử đây là âm 1, âm 2, âm 3,
+
+03:28.990 --> 03:30.140
+âm 4.
+
+03:30.140 --> 03:34.830
+Sau đó, chúng ta có 1, 2, 3 và 4.
+
+03:34.830 --> 03:38.980
+Khi x bằng 0, ta có y bằng 1, đúng không?
+
+03:38.980 --> 03:42.840
+Khi x bằng 0, y bằng 1,
+
+03:42.840 --> 03:43.860
+là điểm nằm ngay đây
+
+03:43.860 --> 03:47.460
+Khi x bằng 1, y bằng 3,
+
+03:47.460 --> 03:48.700
+là điểm ở đây.
+
+03:48.700 --> 03:51.770
+Khi x bằng 2, y bằng 9, tức là
+
+03:51.770 --> 03:52.960
+điểm đâu đây.
+
+03:52.960 --> 03:56.440
+Khi x bằng 3, y bằng 27,
+
+03:56.440 --> 03:59.500
+là điểm nằm ngay đây.
+
+03:59.500 --> 04:04.790
+Khi x bằng 4, y bằng 81.
+
+04:04.790 --> 04:06.820
+Bạn có thể thấy các con số đang rất nhanh.
+
+04:06.820 --> 04:09.170
+Nếu mình tính đến x bằng 5, ta sẽ đi đến 243, thì lúc đó nó sẽ không
+
+04:09.170 --> 04:10.500
+còn nằm vừa trên màn hình nữa.
+
+04:10.500 --> 04:13.070
+Khi x là âm 1, thì giá trị y càng ngày càng nhỏ.
+
+04:13.070 --> 04:14.910
+Vì vậy, ở âm 1, ta có y là 1/9.
+
+04:14.910 --> 04:16.430
+Cuối cùng thì, ta thậm chí còn khôngthấy điểm đó luôn nữa.
+
+04:16.430 --> 04:18.760
+Càng lúc nó sẽ càng tiến gần hơn và gần hơn đến không.
+
+04:18.760 --> 04:22.660
+Khi x tiếp cận đến các số âm càng lúc càng lớn hơn, hoặc chính xác
+
+04:22.660 --> 04:25.220
+là ta nên nói các số âm ngày càng nhỏ hơn, ví dụ như 3 mũ
+
+04:25.220 --> 04:28.140
+âm 1000, 3 mũ âm 1 triệu, ta
+
+04:28.140 --> 04:30.590
+sẽ càng lúc càng tiến gần hơn đến không,
+
+04:30.590 --> 04:32.490
+nhưng sẽ không bằng số không.
+
+04:32.490 --> 04:35.380
+Vì vậy, khi ta có x đi từ âm vô cực, khi x bằng
+
+04:35.380 --> 04:38.060
+âm vô cực, thì hàm số sẽ tiến rất gần đến số không,
+
+04:38.060 --> 04:40.350
+và ta đang dần dần tách ra khỏi
+
+04:40.350 --> 04:41.810
+số không, nhưng sau đó thì thật bất ngờ!
+
+04:41.810 --> 04:43.050
+Một khi ta bắt đầu tiến vào vùng x dương
+
+04:43.050 --> 04:46.440
+thì hàm số tăng rất nhanh.
+
+04:46.440 --> 04:49.040
+Giá trị hàm số tiếp tục tăng vọt
+
+04:49.040 --> 04:50.660
+với tốc độ ngày tăng.
+
+04:50.660 --> 04:54.230
+Vì vậy, ý tưởng ở đây chỉ là cho bạn thấy rằng hàm số mũ
+
+04:54.230 --> 04:58.850
+là các hàm số thực sự, thực sự rất kịch tính.
+
+04:58.850 --> 05:02.240
+Ta luôn có thể xây dựng một hàm số tăng nhanh hơn nữa.
+
+05:02.240 --> 05:04.880
+Ví dụ, bạn có thể nói hàm y bằng x mũ x,
+
+05:04.880 --> 05:07.690
+thì hàm này sẽ còn tăng nhanh hơn nữa, nhưng trong các hàm mà ta đối phó trong
+
+05:07.690 --> 05:10.970
+cuộc sống hàng ngày, đây là một trong những hàm tăng nhanh nhất.
+
+05:10.970 --> 05:13.220
+Giờ ta hãy làm vài bài toán thực tế để thể hiện sự
+
+05:13.220 --> 05:17.250
+trân trọng cho những hàm số mũ
+
+05:17.250 --> 05:18.970
+Giả sử có ai đó gửi một chuỗi thư
+
+05:18.970 --> 05:22.162
+trong tuần 1.
+
+05:22.162 --> 05:29.170
+Trong tuần 1, người đó đã gửi một chuỗi thư cho 10 người.
+
+05:29.170 --> 05:33.130
+Và chuỗi thư nói rằng bạn phải gửi chuỗi thư này
+
+05:33.130 --> 05:36.775
+cho 10 người mới, và nếu bạn không làm, bạn sẽ
+
+05:36.775 --> 05:40.140
+gặp xui xẻo và bạn sẽ bị rụng tóc và
+
+05:40.140 --> 05:42.350
+bạn sẽ cưới một con ếch hoặc bất cứ điều tồi tệ nào đó.
+
+05:42.350 --> 05:45.730
+Vì vậy, tất cả những người này đồng ý vàmỗi người lại tiếp tục gửi nó
+
+05:45.730 --> 05:47.410
+đến 10 người khác vào tuần tới.
+
+05:47.410 --> 05:51.610
+Vậy, trong tuần 2, mỗi người lại gửi tiếp
+
+05:51.610 --> 05:53.250
+đến 10 người nữa.
+
+05:53.250 --> 05:58.330
+Và như vậy, mỗi người trong số 10 người đầu tiên đã gửi đi 10
+
+05:58.330 --> 05:59.710
+lá thư nữa.
+
+05:59.710 --> 06:01.860
+Và bây giờ, 100 người có những lá thư đó, đúng không?
+
+06:01.860 --> 06:04.500
+Mười người mỗi người gửi 10 lá thưnên đó là 100
+
+06:04.500 --> 06:05.800
+lá thư đã được gửi đi.
+
+06:05.800 --> 06:08.710
+Nào ta xem nào
+
+06:08.710 --> 06:10.050
+Tuần 1, 10 lá thư đã được gửi.
+
+06:10.050 --> 06:12.510
+Tuần 2, 100 lá thư đã được gửi.
+
+06:12.510 --> 06:14.570
+Điều gì sẽ xảy ra ở tuần 3?
+
+06:14.570 --> 06:18.260
+Mỗi người trong số 100 người này lại sẽ
+
+06:18.260 --> 06:20.730
+gửi tiếp 10 lá thư, giả sử rằng mọi người đều thực hiện yêu cầu của
+
+06:20.730 --> 06:22.110
+chuỗi bức thư này.
+
+06:22.110 --> 06:25.330
+Như vậy, 1000 người sẽ nhận được nó.
+
+06:25.330 --> 06:28.840
+Vậy chung quy là số người
+
+06:28.840 --> 06:35.250
+nhận được thư trong tuần thứ n, vớin là tuần chúng ta đang đề cập đến,
+
+06:35.250 --> 06:37.920
+sẽ có bao nhiêu người nhận được thư?
+
+06:37.920 --> 06:46.960
+Trong tuần thứ n, chúng ta có 10 mũ n người
+
+06:46.960 --> 06:54.080
+sẽ nhận được thư.
+
+06:54.080 --> 06:57.920
+Giờ nếu mình hỏi bạn là có bao nhiêu người nhận được
+
+06:57.920 --> 06:59.700
+thư vào tuần thứ sáu?
+
+06:59.700 --> 07:03.370
+Có bao nhiêu người thực sự sẽ nhận được bức thư đó?
+
+07:05.230 --> 07:07.140
+Vậy, 10 mũ 6 bằng gì nào?
+
+07:07.140 --> 07:12.150
+10 mũ 6 tức là số 1 và 6 số không, tức là 1
+
+07:12.150 --> 07:15.870
+triệu người sẽ nhận được thư đó chỉ trong 6
+
+07:15.870 --> 07:18.250
+tuần, chỉ cần gửi đi mỗi tuần 10 bức.
+
+07:18.250 --> 07:20.420
+Và rõ ràng, trong thực tế, hầu hết mọi người đều ném nó
+
+07:20.420 --> 07:23.170
+vào giỏ rác, vì vậy ta sẽ không có tỷ lệ chính xác.
+
+07:23.170 --> 07:26.290
+Nhưng nếu điều đó thực sự diễn ra, nếu cứ 10 người nhận thư lại tiếp tục
+
+07:26.290 --> 07:28.760
+gửi nó cho 10 người và cứ như thế, thì đến tuần thứ sáu
+
+07:28.760 --> 07:31.420
+ta sẽ có một triệu người.
+
+07:31.420 --> 07:35.000
+Và đến tuần thứ chín, ta sẽ có một tỷ người.
+
+07:35.000 --> 07:36.610
+Và thật sự, đến tuần sau đó,
+
+07:36.610 --> 07:38.100
+sẽ không còn người để gửi nữa.
+
+07:38.100 --> 07:40.250
+Mình hẹn gặp bạn trong video tiếp theo nhé!

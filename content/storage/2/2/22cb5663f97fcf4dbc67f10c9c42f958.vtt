@@ -1,0 +1,476 @@
+WEBVTT
+
+00:00.630 --> 00:08.340
+Je pozdě k večeru a nějaký dravý noční
+pták, třeba sova, loví svoji večeři.
+
+00:08.340 --> 00:13.470
+Tohle tedy
+bude nějaká myš.
+
+00:13.470 --> 00:18.420
+Sova se snáší směrem přímo
+dolů poblíž pouliční lampy.
+
+00:18.420 --> 00:20.650
+Dále víme
+několik dalších věcí.
+
+00:20.650 --> 00:31.160
+Pouliční lampa
+má výšku 20 stop.
+
+00:31.160 --> 00:35.290
+Přesně v tuto chvíli, i když tomu
+moje měřítko možná úplně neodpovídá,
+
+00:35.290 --> 00:44.530
+se sova nachází
+15 stop nad myší.
+
+00:44.530 --> 00:56.800
+Myš samotná se nachází
+10 stop od lampy.
+
+00:56.800 --> 01:17.200
+Dále víme, že v tuto chvíli sova letí
+přímo dolů rychlostí 20 stop za sekundu.
+
+01:17.200 --> 01:18.850
+A co nás zajímá je...
+
+01:18.850 --> 01:23.500
+Lampa vyzařuje do
+všech stran světlo,
+
+01:23.500 --> 01:28.100
+díky čemuž se utvořil stín
+sovy, který je právě teď tady.
+
+01:28.100 --> 01:35.500
+Jak sova letí víc a víc dolů, její
+stín se pohybuje směrem doleva.
+
+01:35.500 --> 01:39.590
+Takže když víme tohle
+všechno, moje otázka zní:
+
+01:39.590 --> 01:44.300
+Jak rychle
+se stín hýbe?
+
+01:44.300 --> 01:46.755
+Zamysleme se nad tím,
+co víme a co nevíme.
+
+01:46.755 --> 01:49.620
+Za tím účelem si zavedeme
+několik proměnných.
+
+01:49.620 --> 01:53.010
+Nakreslím si teď to samé,
+ale trochu víc geometricky.
+
+01:53.010 --> 02:00.480
+Tohle bude pouliční lampa,
+která je 20 stop vysoká.
+
+02:00.480 --> 02:09.760
+Toto bude výška, ve které se sova
+momentálně nachází, tedy 15 stop.
+
+02:09.760 --> 02:16.750
+Vzdálenost mezi lampou a místem,
+kam letí sova, tedy myší, je 10 stop.
+
+02:16.750 --> 02:18.930
+Teď se zamyslíme,
+kde bude stín sovy.
+
+02:18.930 --> 02:27.850
+Světlo je vyzařováno odsud a sova ho
+takto blokuje, takže její stín je tady.
+
+02:27.860 --> 02:34.930
+Když tedy nakreslíme úsečku od zdroje
+světla procházející sovou až na zem,
+
+02:34.930 --> 02:36.536
+tak zjistíme, kde
+bude stín sovy.
+
+02:36.536 --> 02:46.110
+Její stín bude tady.
+
+02:46.110 --> 02:49.140
+Naším úkolem je zjistit,
+jak rychle se stín hýbe,
+
+02:49.140 --> 02:54.220
+přičemž víme, že se
+hýbe směrem doleva.
+
+02:54.220 --> 02:57.055
+Teď si zavedeme
+několik proměnných.
+
+02:57.055 --> 02:59.075
+Které hodnoty se mění?
+
+02:59.075 --> 03:03.060
+Víme, že výška sovy se mění,
+tak si ji označme třeba jako y.
+
+03:03.060 --> 03:07.310
+Přesně v tuhle chvíli se
+rovná 15, ale stále se mění.
+
+03:07.310 --> 03:19.835
+Vzdálenost mezi stínem sovy
+a myší si označme jako x.
+
+03:19.835 --> 03:24.400
+Dokážeme nyní přijít
+na nějaký vztah mezi x a y?
+
+03:24.400 --> 03:31.790
+Pomocí tohoto vztahu pak budeme chtít
+zjistit, jaká je změna x v průběhu času.
+
+03:31.790 --> 03:37.800
+Víme, čemu se v tuto chvíli
+rovná y i dy lomeno dt.
+
+03:37.800 --> 03:42.830
+Dokážeme najít nějaký vztah mezi x a y,
+zderivovat ho podle t, a tím zjistit,
+
+03:42.830 --> 03:49.100
+čemu se v danou chvíli
+rovná dx lomeno dt?
+
+03:49.100 --> 03:51.014
+Oba tyto trojúhelníky...
+
+03:51.014 --> 03:54.820
+Když říkám „oba tyto trojúhelníky“,
+měl bych ujasnit, o čem přesně mluvím.
+
+03:54.820 --> 04:08.785
+Tento menší zelený trojúhelník je podobný
+tomuto většímu modrému trojúhelníku.
+
+04:08.785 --> 04:10.180
+Jak jsem na to přišel?
+
+04:10.180 --> 04:15.180
+Oba mají jeden pravý úhel
+a dále mají společný tento úhel,
+
+04:15.190 --> 04:22.142
+a když jsou dva jejich úhly stejně velké,
+pak už je i velikost třetího úhlu stejná,
+
+04:22.142 --> 04:23.710
+tudíž jde o
+podobné trojúhelníky,
+
+04:23.710 --> 04:28.420
+takže odpovídající strany mají
+délky ve stejném poměru.
+
+04:28.420 --> 04:35.850
+Víme tedy, že poměr x ku y se musí
+rovnat poměru délky celé této strany,
+
+04:35.850 --> 04:42.890
+což je x plus 10, ku příslušné výšce
+ve větším trojúhelníku, která se rovná 20.
+
+04:42.890 --> 04:45.250
+Teď už máme
+vztah mezi x a y,
+
+04:45.250 --> 04:51.025
+a když teď obě strany zderivujeme
+podle t, tak budeme na dobré cestě.
+
+04:51.025 --> 04:54.600
+Ještě předtím, než budu derivovat
+podle t, což bych mohl udělat už teď,
+
+04:54.600 --> 04:57.780
+si to trochu zjednoduším
+a rovnici zbavím lomených výrazů.
+
+04:57.780 --> 05:05.630
+Obě strany rovnice vynásobím 20 a y,
+abych nemusel pracovat se jmenovateli.
+
+05:05.630 --> 05:13.110
+Na levé straně mi zbyde 20 krát x,
+přičemž na levé straně...
+
+05:13.110 --> 05:17.610
+Pardon, na levé straně bude
+20 krát x a na pravé straně bude...
+
+05:17.610 --> 05:26.304
+Tohle se pokrátí, takže zbyde
+x krát y plus 10 krát y.
+
+05:26.304 --> 05:30.960
+Nyní obě strany
+zderivuji podle času.
+
+05:30.960 --> 05:37.444
+Derivace (20 krát něco) podle času je
+derivace (20 krát něco) podle toho něčeho,
+
+05:37.444 --> 05:41.442
+což je jednoduše 20, protože jde
+o derivaci (20 krát x) podle x,
+
+05:41.442 --> 05:45.030
+krát derivace x podle t.
+
+05:45.030 --> 05:46.749
+Tohle se rovná...
+
+05:46.749 --> 05:50.340
+Nyní budeme muset použít
+vzorec pro derivaci součinu.
+
+05:50.340 --> 05:58.670
+Nejprve tu bude derivace x podle
+času, tedy derivace prvního činitele,
+
+05:58.670 --> 06:01.530
+vynásobená druhým
+činitelem, tedy krát y,
+
+06:01.530 --> 06:04.840
+plus první činitel krát
+derivace druhého činitele,
+
+06:04.840 --> 06:09.800
+přičemž derivace y podle t
+je jednoduše dy lomeno dt,
+
+06:09.800 --> 06:18.250
+a konečně derivace (10 krát y) podle t je
+derivace (10 krát y) podle y, což je 10,
+
+06:18.250 --> 06:23.897
+krát derivace y podle t,
+což je dy lomeno dt.
+
+06:23.897 --> 06:30.719
+Teď už máme vztah mezi
+dx lomeno dt, dy lomeno dt, x a y.
+
+06:30.719 --> 06:32.480
+Nyní už máme vše,
+co potřebujeme.
+
+06:32.480 --> 06:35.832
+Tohle je naše neznámá,
+dx lomeno dt.
+
+06:35.832 --> 06:39.410
+Tady je další dx lomeno dt,
+to budeme chtít spočítat.
+
+06:39.410 --> 06:42.310
+Víme, čemu se rovná y,
+y se rovná 15.
+
+06:42.310 --> 06:44.640
+Víme také, čemu se
+rovná dy lomeno dt.
+
+06:44.640 --> 06:50.140
+Protože y klesá, tak můžeme říct,
+že dy lomeno dt se rovná −20,
+
+06:50.140 --> 06:52.800
+takže víme, čemu
+se rovná i tohle.
+
+06:52.800 --> 06:54.610
+A když víme i...
+
+06:54.610 --> 06:56.200
+Taky víme, čemu
+se rovná tohle.
+
+06:56.200 --> 07:01.440
+Takže když víme i čemu se rovná x,
+můžeme rovnici vyřešit pro dx lomeno dt.
+
+07:01.440 --> 07:04.825
+Čemu se tedy
+v tuto chvíli rovná x?
+
+07:04.825 --> 07:08.150
+Můžeme použít tuhle první
+rovnici nebo i tu úplně nahoře,
+
+07:08.150 --> 07:11.730
+ale tahle je už trochu
+zjednodušená a lépe z ní spočítáme x.
+
+07:11.730 --> 07:15.950
+Takže to teď udělejme a poté za x
+dosadíme do naší zderivované rovnice.
+
+07:15.950 --> 07:24.470
+Máme, že 20 krát x se rovná x krát y,
+přičemž y se rovná 15...
+
+07:24.470 --> 07:29.750
+Mohl jsem použít tuto rovnici, ale tahle
+už je po vynásobení o krok zjednodušená.
+
+07:29.750 --> 07:34.030
+...x krát y, přičemž y se
+rovná 15, takže x krát 15,
+
+07:34.030 --> 07:39.337
+plus 10 krát y,
+takže plus 10 krát 15.
+
+07:39.910 --> 07:45.430
+Tedy 20 krát x se rovná
+x krát 15 plus 10 krát 15.
+
+07:45.430 --> 07:47.110
+Když nyní odečteme...
+
+07:47.110 --> 07:52.560
+Tohle je 20 krát x se rovná
+15 krát x plus 150.
+
+07:52.560 --> 07:54.880
+Když od obou stran
+odečteme 15 krát x,
+
+07:54.880 --> 07:58.340
+dostaneme, že 5 krát x
+se rovná 30, a teď vydělíme...
+
+07:58.340 --> 08:03.330
+Pardon, už myslím dopředu,
+5 krát x se rovná 150.
+
+08:03.330 --> 08:11.850
+Obě strany nyní vydělíme 5 a dostaneme,
+že v tuto chvíli se x rovná 30 stop.
+
+08:11.850 --> 08:18.120
+Když se vrátíme k původnímu obrázku,
+tak tato vzdálenost je 30 stop.
+
+08:18.120 --> 08:23.640
+Nyní dosadíme všechny známé hodnoty
+do této rovnice a spočítáme dx lomeno dt.
+
+08:23.640 --> 08:29.910
+Máme, že 20 krát dx lomeno dt...
+
+08:29.910 --> 08:35.560
+Napíšu to oranžovou, i když tu jsem
+vlastně už použil, tak raději růžovou.
+
+08:35.560 --> 08:41.740
+20 krát dx lomeno dt se rovná
+dx lomeno dt krát y,
+
+08:41.740 --> 08:44.380
+přičemž y je v
+tuto chvíli 15 stop,
+
+08:44.380 --> 08:59.170
+takže krát 15 plus x, a my už víme, že x
+je 30, takže plus 30 krát dy lomeno dt...
+
+08:59.170 --> 09:00.410
+Čemu se rovná
+dy lomeno dt?
+
+09:00.410 --> 09:06.220
+Můžeme říci, že dy lomeno dt
+se rovná −20 stop za sekundu.
+
+09:06.220 --> 09:11.160
+Hodnota y totiž klesá, protože sova
+letí dolů, aby ulovila svoji večeři.
+
+09:11.160 --> 09:20.640
+...krát −20 stop za sekundu
+plus 10 krát dy lomeno dt,
+
+09:20.640 --> 09:25.850
+takže plus 10 krát
+−20 stop za sekundu.
+
+09:25.850 --> 09:27.960
+Teď jen vyřešíme
+rovnici pro dx lomeno dt.
+
+09:27.960 --> 09:31.530
+Máme 20 krát...
+
+09:31.530 --> 09:36.340
+Od obou stran rovnice odečtu
+15 krát dx lomeno dt,
+
+09:36.340 --> 09:40.850
+zbyde mi 5 krát
+dx lomeno dt...
+
+09:40.850 --> 09:43.930
+Jen jsem tohle odečetl
+od obou stran rovnice.
+
+09:43.930 --> 09:47.750
+Tady je 15 krát dx lomeno dt, tady
+20 krát, takže máme 5 krát dx lomeno dt.
+
+09:47.750 --> 09:49.740
+To se rovná...
+
+09:49.740 --> 09:59.220
+Tahle část se rovná −600
+a tato část je −200,
+
+09:59.220 --> 10:03.630
+takže to se rovná
+−800 stop za sekundu,
+
+10:03.630 --> 10:08.330
+nebo jen −800, ale skutečně
+půjde o stopy za sekundu.
+
+10:08.330 --> 10:12.690
+dx lomeno dt se tedy rovná,
+když obě strany vydělíme 5...
+
+10:12.690 --> 10:20.610
+5 krát 16 je 80, takže tady
+bude −160 stop za sekundu.
+
+10:20.610 --> 10:21.470
+A máme hotovo.
+
+10:21.470 --> 10:26.760
+Vidíme, že stín se pohybuje
+velmi rychle doleva.
+
+10:26.760 --> 10:30.660
+Hodnota x se zmenšuje, proto zde
+taky máme záporné znaménko.
+
+10:30.660 --> 10:38.650
+Hodnota x se zmenšuje, stín jde směrem
+doleva, a to poměrně velkou rychlostí.

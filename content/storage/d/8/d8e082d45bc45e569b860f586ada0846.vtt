@@ -1,0 +1,457 @@
+WEBVTT
+
+00:00.730 --> 00:02.340
+Let's see if we
+can give ourselves
+
+00:02.340 --> 00:09.760
+an intuitive understanding
+of the mean value theorem.
+
+00:09.760 --> 00:14.210
+And as we'll see, once you parse
+some of the mathematical lingo
+
+00:14.210 --> 00:19.120
+and notation, it's actually
+a quite intuitive theorem.
+
+00:19.120 --> 00:22.810
+And so let's just think
+about some function, f.
+
+00:22.810 --> 00:24.910
+So let's say I have
+some function f.
+
+00:24.910 --> 00:27.330
+And we know a few things
+about this function.
+
+00:27.330 --> 00:39.100
+We know that it is
+continuous over the closed
+
+00:39.100 --> 00:44.520
+interval between x equals
+a and x is equal to b.
+
+00:44.520 --> 00:46.280
+And so when we put
+these brackets here,
+
+00:46.280 --> 00:48.704
+that just means closed interval.
+
+00:48.704 --> 00:50.120
+So when I put a
+bracket here, that
+
+00:50.120 --> 00:51.840
+means we're including
+the point a.
+
+00:51.840 --> 00:54.515
+And if I put the bracket on
+the right hand side instead
+
+00:54.515 --> 00:56.360
+of a parentheses,
+that means that we
+
+00:56.360 --> 00:57.570
+are including the point b.
+
+00:57.570 --> 00:58.986
+And continuous
+just means we don't
+
+00:58.986 --> 01:01.830
+have any gaps or jumps in
+the function over this closed
+
+01:01.830 --> 01:03.100
+interval.
+
+01:03.100 --> 01:12.210
+Now, let's also assume that
+it's differentiable over
+
+01:12.210 --> 01:14.810
+the open interval
+between a and b.
+
+01:14.810 --> 01:16.720
+So now we're saying,
+well, it's OK
+
+01:16.720 --> 01:18.392
+if it's not
+differentiable right at a,
+
+01:18.392 --> 01:20.100
+or if it's not
+differentiable right at b.
+
+01:20.100 --> 01:21.730
+And differentiable
+just means that there's
+
+01:21.730 --> 01:23.550
+a defined derivative,
+that you can actually
+
+01:23.550 --> 01:25.810
+take the derivative
+at those points.
+
+01:25.810 --> 01:30.294
+So it's differentiable over the
+open interval between a and b.
+
+01:30.294 --> 01:31.710
+So those are the
+constraints we're
+
+01:31.710 --> 01:33.918
+going to put on ourselves
+for the mean value theorem.
+
+01:33.918 --> 01:35.940
+And so let's just try
+to visualize this thing.
+
+01:35.940 --> 01:41.750
+So this is my function,
+that's the y-axis.
+
+01:41.750 --> 01:46.800
+And then this right
+over here is the x-axis.
+
+01:46.800 --> 01:49.090
+And I'm going to--
+let's see, x-axis,
+
+01:49.090 --> 01:51.040
+and let me draw my interval.
+
+01:51.040 --> 01:57.730
+So that's a, and then
+this is b right over here.
+
+01:57.730 --> 02:02.790
+And so let's say our function
+looks something like this.
+
+02:02.790 --> 02:06.100
+Draw an arbitrary
+function right over here,
+
+02:06.100 --> 02:09.520
+let's say my function
+looks something like that.
+
+02:09.520 --> 02:12.915
+So at this point right over
+here, the x value is a,
+
+02:12.915 --> 02:15.230
+and the y value is f(a).
+
+02:17.810 --> 02:21.280
+At this point right
+over here, the x value
+
+02:21.280 --> 02:24.650
+is b, and the y value,
+of course, is f(b).
+
+02:30.260 --> 02:32.390
+So all the mean
+value theorem tells
+
+02:32.390 --> 02:35.880
+us is if we take the
+average rate of change
+
+02:35.880 --> 02:38.600
+over the interval,
+that at some point
+
+02:38.600 --> 02:40.870
+the instantaneous rate
+of change, at least
+
+02:40.870 --> 02:43.140
+at some point in
+this open interval,
+
+02:43.140 --> 02:44.920
+the instantaneous
+change is going
+
+02:44.920 --> 02:46.670
+to be the same as
+the average change.
+
+02:46.670 --> 02:48.530
+Now what does that
+mean, visually?
+
+02:48.530 --> 02:50.720
+So let's calculate
+the average change.
+
+02:50.720 --> 02:54.230
+The average change between
+point a and point b,
+
+02:54.230 --> 02:56.780
+well, that's going to be the
+slope of the secant line.
+
+03:02.010 --> 03:04.039
+So that's-- so this
+is the secant line.
+
+03:04.039 --> 03:05.080
+So think about its slope.
+
+03:05.080 --> 03:07.500
+All the mean value
+theorem tells us
+
+03:07.500 --> 03:10.130
+is that at some point
+in this interval,
+
+03:10.130 --> 03:12.330
+the instant slope
+of the tangent line
+
+03:12.330 --> 03:14.960
+is going to be the same as
+the slope of the secant line.
+
+03:14.960 --> 03:17.680
+And we can see, just visually,
+it looks like right over here,
+
+03:17.680 --> 03:21.540
+the slope of the tangent line
+is it looks like the same
+
+03:21.540 --> 03:23.110
+as the slope of the secant line.
+
+03:23.110 --> 03:25.030
+It also looks like the
+case right over here.
+
+03:25.030 --> 03:27.340
+The slope of the tangent
+line is equal to the slope
+
+03:27.340 --> 03:28.222
+of the secant line.
+
+03:28.222 --> 03:29.430
+And it makes intuitive sense.
+
+03:29.430 --> 03:31.740
+At some point, your
+instantaneous slope
+
+03:31.740 --> 03:34.190
+is going to be the same
+as the average slope.
+
+03:34.190 --> 03:37.210
+Now how would we write
+that mathematically?
+
+03:37.210 --> 03:42.850
+Well, let's calculate
+the average slope
+
+03:42.850 --> 03:44.080
+over this interval.
+
+03:44.080 --> 03:46.560
+Well, the average slope
+over this interval,
+
+03:46.560 --> 03:49.220
+or the average change, the
+slope of the secant line,
+
+03:49.220 --> 03:52.570
+is going to be our change
+in y-- our change in y
+
+03:52.570 --> 03:55.785
+right over here--
+over our change in x.
+
+04:00.530 --> 04:02.350
+Well, what is our change in y?
+
+04:02.350 --> 04:09.890
+Our change in y is
+f(b) minus f(a),
+
+04:09.890 --> 04:14.910
+and that's going to be
+over our change in x.
+
+04:14.910 --> 04:18.910
+Over b minus b minus a.
+
+04:18.910 --> 04:20.670
+I'll do that in that red color.
+
+04:20.670 --> 04:23.270
+So let's just remind ourselves
+what's going on here.
+
+04:23.270 --> 04:25.870
+So this right over here,
+this is the graph of y
+
+04:25.870 --> 04:27.360
+is equal to f(x).
+
+04:27.360 --> 04:29.770
+We're saying that the
+slope of the secant line,
+
+04:29.770 --> 04:34.360
+or our average rate of change
+over the interval from a to b,
+
+04:34.360 --> 04:42.720
+is our change in y-- that the
+Greek letter delta is just
+
+04:42.720 --> 04:47.685
+shorthand for change in
+y-- over our change in x.
+
+04:51.470 --> 04:53.580
+Which, of course,
+is equal to this.
+
+04:53.580 --> 04:56.690
+And the mean value
+theorem tells us
+
+04:56.690 --> 05:00.800
+that there exists-- so
+if we know these two
+
+05:00.800 --> 05:04.030
+things about the
+function, then there
+
+05:04.030 --> 05:12.700
+exists some x value
+in between a and b.
+
+05:12.700 --> 05:17.596
+So in the open interval between
+a and b, there exists some c.
+
+05:17.596 --> 05:19.490
+There exists some
+c, and we could
+
+05:19.490 --> 05:23.702
+say it's a member of the open
+interval between a and b.
+
+05:26.780 --> 05:33.860
+Or we could say some c
+such that a is less than c,
+
+05:33.860 --> 05:35.590
+which is less than b.
+
+05:35.590 --> 05:37.696
+So some c in this interval.
+
+05:37.696 --> 05:43.210
+So some c in between it
+where the instantaneous rate
+
+05:43.210 --> 05:47.320
+of change at that
+x value is the same
+
+05:47.320 --> 05:49.110
+as the average rate of change.
+
+05:49.110 --> 05:52.290
+So there exists some c
+in this open interval
+
+05:52.290 --> 05:55.500
+where the average
+rate of change is
+
+05:55.500 --> 06:00.440
+equal to the instantaneous
+rate of change at that point.
+
+06:00.440 --> 06:01.430
+That's all it's saying.
+
+06:01.430 --> 06:04.686
+And as we saw this diagram right
+over here, this could be our c.
+
+06:04.686 --> 06:08.210
+Or this could be our c as well.
+
+06:08.210 --> 06:10.270
+So nothing really--
+it looks, you
+
+06:10.270 --> 06:14.631
+would say f is continuous over
+a, b, differentiable over-- f
+
+06:14.631 --> 06:16.880
+is continuous over the closed
+interval, differentiable
+
+06:16.880 --> 06:18.750
+over the open interval, and
+you see all this notation.
+
+06:18.750 --> 06:20.291
+You're like, what
+is that telling us?
+
+06:20.291 --> 06:22.990
+All it's saying is at some
+point in the interval,
+
+06:22.990 --> 06:25.220
+the instantaneous
+rate of change is
+
+06:25.220 --> 06:28.430
+going to be the same as
+the average rate of change
+
+06:28.430 --> 06:30.094
+over the whole interval.
+
+06:30.094 --> 06:31.760
+In the next video,
+we'll try to give you
+
+06:31.760 --> 06:36.330
+a kind of a real life example
+about when that make sense.

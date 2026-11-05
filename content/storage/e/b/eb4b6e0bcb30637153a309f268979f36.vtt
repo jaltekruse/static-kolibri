@@ -1,0 +1,237 @@
+WEBVTT
+
+00:00.000 --> 00:01.769
+Máme zde funkci g(x),
+
+00:01.769 --> 00:08.246
+kterou definujeme jako logaritmus 3x,
+pokud je x větší než 0 a menší než 3,
+
+00:08.246 --> 00:12.199
+a (4 minus x) krát logaritmus 9,
+
+00:12.199 --> 00:16.556
+když je x větší nebo rovno 3.
+
+00:16.556 --> 00:21.199
+A pro takto definovanou funkci g(x)
+chceme najít její limitu,
+
+00:21.199 --> 00:23.755
+když se x blíží ke 3.
+
+00:23.755 --> 00:27.735
+Všimněme si, že bod x rovno 3
+je přesně ten bod,
+
+00:27.735 --> 00:30.972
+kde se mění předpis funkce.
+
+00:30.972 --> 00:35.219
+Nejdříve platí první předpis,
+když je x mezi 0 a 3,
+
+00:35.219 --> 00:37.359
+když je větší než 0 a menší než 3,
+
+00:37.359 --> 00:39.908
+a pak v bodě 3 začne platit tento předpis.
+
+00:39.908 --> 00:41.758
+Takže abychom našli limitu,
+
+00:41.758 --> 00:44.065
+musíme najít limitu zleva,
+
+00:44.065 --> 00:49.303
+což znamená, že použijeme tento předpis,
+protože ten platí pro x menší než 3.
+
+00:49.303 --> 00:51.897
+Ale také chceme najít limitu zprava,
+
+00:51.897 --> 00:54.911
+což znamená, že budeme
+muset použít tento předpis,
+
+00:54.911 --> 00:58.429
+a pokud obě limity
+existují a jsou si rovny,
+
+00:58.429 --> 01:02.280
+tak je oboustranná
+limita rovna jejich hodnotě.
+
+01:02.280 --> 01:03.448
+Pojďme na to.
+
+01:03.448 --> 01:06.417
+Podívejme
+se nejdříve na limitu zleva.
+
+01:06.417 --> 01:11.215
+Tedy limita když se x blíží ke 3 po
+hodnotách, které jsou menší než 3,
+
+01:11.215 --> 01:13.542
+neboli blížíme se zleva,
+
+01:13.542 --> 01:15.582
+z funkce g(x).
+
+01:15.592 --> 01:24.198
+Toto se rovná limitě pro x blížící se
+ke 3 ze záporného směru...
+
+01:24.198 --> 01:27.986
+Když je x menší než 3,
+což je přesně to, co se zde děje,
+
+01:27.986 --> 01:29.666
+blížíme se ke 3 zleva,
+
+01:29.666 --> 01:31.702
+tak platí tento předpis.
+
+01:31.702 --> 01:33.729
+Tento předpis tak
+musíme napsat sem.
+
+01:33.729 --> 01:38.348
+Tak vypadá funkce g(x),
+když je x menší než 3.
+
+01:38.348 --> 01:42.291
+Tedy to je logaritmus 3x,
+
+01:42.291 --> 01:51.459
+a jelikož je tato funkce definovaná
+a spojitá na intervalu, který nás zajímá,
+
+01:51.459 --> 01:53.893
+což je pro x větší než 0,
+
+01:53.903 --> 01:55.872
+tak sem prostě můžeme dosadit 3
+
+01:55.872 --> 01:57.616
+a uvidíme, čemu se to rovná.
+
+01:57.616 --> 02:03.253
+Tedy toto bude rovno
+logaritmu z (3 krát 3),
+
+02:03.253 --> 02:06.269
+tedy logaritmu z 9.
+
+02:06.269 --> 02:09.240
+Zopakujme si, že když se
+píše logaritmus bez základu,
+
+02:09.240 --> 02:13.964
+tak tím myslíme logaritmus
+se základem 10.
+
+02:13.964 --> 02:16.483
+Tedy toto je logaritmus
+o základu 10.
+
+02:16.483 --> 02:17.853
+To se hodí vědět,
+
+02:17.853 --> 02:20.508
+občas se to trochu plete.
+
+02:20.508 --> 02:22.762
+Super, teď se zamysleme
+nad druhým případem.
+
+02:22.762 --> 02:24.238
+Zamysleme se nad situací,
+
+02:24.238 --> 02:27.250
+kdy se ke 3 blížíme zprava,
+
+02:27.250 --> 02:30.294
+tedy zajímají nás
+hodnoty větší než 3.
+
+02:30.294 --> 02:35.622
+Teď bude platit
+tento druhý předpis.
+
+02:35.622 --> 02:41.796
+Toto bude rovno limitě
+pro x blížící se ke 3 z kladného směru,
+
+02:41.796 --> 02:43.784
+tedy když se blížíme zprava.
+
+02:43.784 --> 02:47.680
+g(x) má pro x větší než 3 tento předpis,
+
+02:47.680 --> 02:53.497
+takže tady bude (4 minus x)
+krát logaritmus 9,
+
+02:53.497 --> 02:57.183
+a to vypadá jako nějaký logaritmický
+výraz, dokud si ovšem neuvědomíme,
+
+02:57.183 --> 02:59.868
+že logaritmus 9 je prostě konstanta,
+
+02:59.868 --> 03:03.546
+logaritmus o základu 10 z 9
+je nějaké číslo blízko 1.
+
+03:03.546 --> 03:06.710
+Tento výraz ve skutečnosti
+definuje přímku.
+
+03:06.710 --> 03:09.928
+Pro x větší nebo rovno 3
+je g(x) prostě přímka,
+
+03:09.928 --> 03:12.175
+přestože to vypadá složitěji.
+
+03:12.175 --> 03:16.680
+Proto je tento výraz definován
+pro všechna reálná čísla
+
+03:16.680 --> 03:21.787
+a je také spojitý pro libovolné x.
+
+03:21.787 --> 03:23.271
+Abychom určili tuto limitu,
+
+03:23.271 --> 03:27.848
+tak musíme zjistit, k čemu se tento
+výraz blíží, když se x zprava blíží ke 3,
+
+03:27.848 --> 03:29.950
+a k tomu stačí pouze za x dosadit 3.
+
+03:29.950 --> 03:34.642
+To bude (4 minus 3)
+krát logaritmus 9.
+
+03:34.642 --> 03:36.246
+Tohle je 1.
+
+03:36.246 --> 03:40.256
+Tedy toto je rovno
+logaritmu o základu 10 z 9.
+
+03:40.256 --> 03:44.341
+Limita zleva je rovna limitě zprava,
+
+03:44.341 --> 03:46.728
+obě jsou rovny logaritmu 9,
+
+03:46.728 --> 03:53.696
+takže odpověď je logaritmus 9.
+
+03:53.696 --> 03:56.489
+A máme hotovo.

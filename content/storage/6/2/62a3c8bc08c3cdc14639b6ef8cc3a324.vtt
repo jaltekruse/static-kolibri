@@ -1,0 +1,536 @@
+WEBVTT
+
+00:00.640 --> 00:03.860
+Vamos dizer que eu tenha uma poça d'água
+
+00:03.860 --> 00:11.145
+e que eu soltei uma pedra
+no meio dessa poça.
+
+00:11.170 --> 00:14.840
+E um pouco depois, uma
+pequena onda, uma ondulação
+
+00:14.840 --> 00:17.720
+se formou e se move
+radialmente pra fora de onde
+
+00:17.720 --> 00:18.840
+eu soltei a pedra.
+
+00:18.840 --> 00:20.680
+Vamos ver como eu posso desenhar isso.
+
+00:20.680 --> 00:22.480
+Move-se radialmente para fora.
+
+00:22.480 --> 00:24.920
+Essa é a ondulação formada
+
+00:24.920 --> 00:28.320
+quando eu soltei a pedra na água.
+
+00:28.320 --> 00:31.160
+É um circunferência centrada
+onde a pedra primeiramente
+
+00:31.160 --> 00:32.259
+encostou na água.
+
+00:32.259 --> 00:38.310
+E vamos dizer que nesse momento
+o raio da circunferência
+
+00:38.310 --> 00:42.783
+é igual a três centímetros.
+
+00:43.250 --> 00:48.380
+E nós também sabemos que
+o raio está aumentando
+
+00:48.380 --> 00:52.370
+numa taxa de um centímetro por segundo.
+
+00:52.370 --> 01:04.920
+Então, raio aumentando a um
+centímetro por segundo.
+
+01:04.920 --> 01:07.120
+Dado isso, nesse momento,
+nossa circunferência,
+
+01:07.120 --> 01:10.210
+nossa ondulação tem um
+raio de três centímetros.
+
+01:10.210 --> 01:12.010
+E sabemos que o
+raio está aumentando
+
+01:12.010 --> 01:13.360
+a um centímetro por segundo.
+
+01:13.360 --> 01:16.920
+Dado isso, a que taxa a
+área está aumentando?
+
+01:16.920 --> 01:29.260
+A que taxa a área da circunferência
+está aumentando?
+
+01:29.260 --> 01:30.760
+Interessante.
+
+01:30.760 --> 01:32.335
+Vamos pensar sobre o que sabemos
+
+01:32.335 --> 01:34.000
+e depois sobre o que não sabemos,
+
+01:34.000 --> 01:35.590
+o que estamos tentando descobrir.
+
+01:35.590 --> 01:40.890
+Se chamamos esse raio de
+r, sabemos agora que r
+
+01:40.890 --> 01:43.880
+é igual a três centímetros.
+
+01:43.880 --> 01:47.240
+Nós também sabemos a taxa em que r
+
+01:47.240 --> 01:49.450
+varia em relação ao tempo.
+
+01:49.450 --> 01:53.790
+Nós sabemos essa informação aqui: dr dt,
+
+01:53.790 --> 01:56.630
+a taxa de variação do raio
+em função do tempo,
+
+01:56.630 --> 02:02.810
+que é um centímetro por segundo.
+
+02:02.900 --> 02:05.060
+Agora, o que precisamos descobrir?
+
+02:05.060 --> 02:08.410
+Bem, a que taxa a área da
+circunferência está aumentando?
+
+02:08.410 --> 02:10.080
+Então precisamos descobrir a taxa
+
+02:10.080 --> 02:11.560
+em que a área da circunferência
+
+02:11.560 --> 02:14.890
+-- onde a é a área -- a
+que taxa ela aumenta?
+
+02:14.890 --> 02:18.370
+Isso é o que precisamos descobrir.
+
+02:18.370 --> 02:20.200
+O que pode ser útil aqui é que se nós
+
+02:20.200 --> 02:23.200
+conseguirmos achar uma relação
+entre a área da circunferência
+
+02:23.200 --> 02:25.170
+e o raio do círculo e talvez pegar
+
+02:25.170 --> 02:26.924
+a derivada em função do tempo.
+
+02:26.924 --> 02:29.220
+E teremos que usar um
+pouco da regra da cadeira
+
+02:29.220 --> 02:29.984
+para fazer isso.
+
+02:29.984 --> 02:31.900
+Então, qual é a relação
+em qualquer ponto
+
+02:31.900 --> 02:33.750
+no tempo entre a
+área da circunferência
+
+02:33.750 --> 02:35.770
+e o raio da circunferência?
+
+02:35.770 --> 02:38.390
+Bem, isso é geometria básica.
+
+02:38.390 --> 02:40.160
+A área da circunferência vai ser
+
+02:40.160 --> 02:47.070
+igual a pi vezes o raio da
+circunferência ao quadrado.
+
+02:47.070 --> 02:48.820
+Agora o que queremos saber é
+
+02:48.820 --> 02:51.321
+a taxa em que a área varia
+com função ao tempo.
+
+02:51.321 --> 02:52.778
+Então por que não derivar
+
+02:52.778 --> 02:54.630
+de ambos os lados
+em função do tempo?
+
+02:54.630 --> 02:56.350
+Deixa eu escrever isso aqui.
+
+02:56.350 --> 02:58.756
+Na verdade, vou escrever tudo de novo.
+
+02:58.792 --> 03:03.570
+Então, pi r ao quadrado.
+
+03:03.570 --> 03:05.130
+Área é igual a pi r ao quadrado.
+
+03:05.130 --> 03:07.229
+Vou pegar a derivada de ambos os lados
+
+03:07.229 --> 03:08.980
+em função do tempo.
+
+03:08.980 --> 03:11.006
+A derivada em função do tempo.
+
+03:11.006 --> 03:13.006
+Não estou pegando a
+derivada em função a r,
+
+03:13.006 --> 03:16.732
+estou pegando a derivada
+em função do tempo.
+
+03:16.732 --> 03:18.440
+Na nossa esquerda aqui,
+
+03:18.440 --> 03:21.865
+eu vou ter a derivada da nossa área.
+
+03:21.865 --> 03:23.990
+Na verdade, vou escrever isso em verde.
+
+03:24.000 --> 03:33.420
+Vou ter a derivada da nossa área
+
+03:33.420 --> 03:36.310
+em função do tempo, na esquerda.
+
+03:36.310 --> 03:38.730
+E na direita, o que temos?
+
+03:38.730 --> 03:41.100
+Bem, se eu estou pegando a
+derivada de algo vezes
+
+03:41.100 --> 03:42.800
+uma constante, eu tiro a constante.
+
+03:42.800 --> 03:43.890
+Deixa eu fazer isso.
+
+03:43.890 --> 03:50.625
+Pi vezes a derivada em função
+do tempo de r ao quadrado.
+
+03:50.625 --> 03:53.000
+E para deixar mais claro o que vou fazer,
+
+03:53.000 --> 03:54.458
+o porquê da regra da cadeia, é
+
+03:54.458 --> 03:56.732
+que assumimos que r é uma função de tempo.
+
+03:56.732 --> 03:58.440
+Se r não fosse uma função de tempo,
+
+03:58.440 --> 04:00.210
+a área não seria
+uma função de tempo.
+
+04:00.210 --> 04:02.650
+Ao invés de apenas escrever
+r, vou deixar explícito
+
+04:02.650 --> 04:03.990
+que é uma função de tempo.
+
+04:03.990 --> 04:05.290
+Vou escrever r de t.
+
+04:05.290 --> 04:07.319
+Então, é r de t que elevamos ao quadrado.
+
+04:07.319 --> 04:09.610
+E queremos achar a
+derivada disso em função
+
+04:09.610 --> 04:10.880
+do tempo.
+
+04:10.880 --> 04:13.270
+E aqui temos que
+aplicar a regra da cadeia.
+
+04:13.270 --> 04:16.990
+Estamos pegando a derivada
+de algo ao quadrado em função
+
+04:16.990 --> 04:17.755
+desse algo.
+
+04:17.755 --> 04:20.089
+Então a derivada de alguma
+coisa ao quadrado em
+
+04:20.089 --> 04:25.810
+função a essa coisa vai ser
+duas vezes essa coisa
+
+04:25.810 --> 04:27.415
+à primeira potência.
+
+04:27.415 --> 04:28.290
+Deixando claro.
+
+04:28.290 --> 04:37.260
+Essa é a derivada de r de t ao
+quadrado em função de r de t.
+
+04:37.260 --> 04:39.630
+A derivada de alguma coisa
+ao quadrado em função
+
+04:39.630 --> 04:40.461
+a essa coisa.
+
+04:40.461 --> 04:42.930
+Se fosse a derivada de x ao
+quadrado em função de x,
+
+04:42.930 --> 04:43.830
+teríamos dois x.
+
+04:43.830 --> 04:46.990
+Se fosse a derivada de r de t ao
+quadrado em função de r de t,
+
+04:46.990 --> 04:48.247
+temos dois r de t.
+
+04:48.247 --> 04:51.080
+Mas isso não nos dá a
+derivada em função do tempo.
+
+04:51.080 --> 04:54.450
+Essa é apenas a derivada
+em função de r de t.
+
+04:54.450 --> 04:57.270
+A derivada em que isso muda com o tempo,
+
+04:57.270 --> 05:04.830
+temos que multiplicar isso
+vezes a taxa em que r de t
+
+05:04.830 --> 05:07.400
+varia em função do tempo.
+
+05:07.400 --> 05:09.960
+Então, a taxa em que r
+de t varia com o tempo?
+
+05:09.960 --> 05:13.270
+Bem, poderíamos apenas
+escrever como dr dt.
+
+05:13.270 --> 05:15.240
+Essas são expressões equivalentes.
+
+05:15.240 --> 05:17.680
+E claro, temos nosso pi na frente.
+
+05:17.680 --> 05:19.930
+E eu quero enfatizar que isso é
+
+05:19.930 --> 05:21.590
+apenas a regra da cadeia aqui.
+
+05:21.590 --> 05:25.060
+A derivada de algo ao quadrado
+em função do tempo
+
+05:25.060 --> 05:27.310
+vai ser a derivada desse algo ao quadrado
+
+05:27.310 --> 05:28.559
+em função a esse algo.
+
+05:28.559 --> 05:30.960
+Que dá duas vezes esse
+algo, vezes a derivada
+
+05:30.960 --> 05:32.860
+desse algo em função do tempo.
+
+05:32.860 --> 05:34.260
+Muito importante isso.
+
+05:34.260 --> 05:38.370
+O que fizemos aqui
+é a regra da cadeia.
+
+05:38.370 --> 05:42.150
+Essa é a regra da cadeia.
+
+05:42.150 --> 05:44.160
+Então ficamos com pi vezes isso, que é
+
+05:44.160 --> 05:48.290
+igual a derivada da nossa
+área em função do tempo.
+
+05:48.290 --> 05:50.534
+Deixa eu reescrever isso tudo de novo,
+
+05:50.534 --> 05:51.950
+para ficar mais claro.
+
+05:51.950 --> 05:55.050
+Então temos a derivada da área em função
+
+05:55.050 --> 05:58.594
+do tempo sendo igual
+a pi vezes -- na verdade,
+
+05:58.594 --> 05:59.800
+vou por o dois na frente.
+
+05:59.800 --> 06:04.510
+É igual a duas vezes
+pi vezes -- agora posso
+
+06:04.510 --> 06:05.990
+chamar isso só de r.
+
+06:05.990 --> 06:07.760
+Sabemos que r é uma função de t.
+
+06:07.760 --> 06:11.970
+Então vou escrever duas
+vezes pi vezes dr dt.
+
+06:11.970 --> 06:14.180
+Vou fazer o r em azul.
+
+06:14.180 --> 06:22.255
+Dois pi r dr dt.
+
+06:22.255 --> 06:24.000
+Agora o que sabemos?
+
+06:24.000 --> 06:25.150
+Sabemos o que r é.
+
+06:25.150 --> 06:28.390
+Sabemos que r, nesse momento,
+
+06:28.390 --> 06:30.220
+é três centímetros.
+
+06:30.220 --> 06:32.410
+Agora, r é três centímetros.
+
+06:32.410 --> 06:37.420
+Sabemos que dr dt agora é
+um centímetro por segundo.
+
+06:37.420 --> 06:41.840
+Sabemos que isso é um
+centímetro por segundo.
+
+06:41.840 --> 06:44.160
+Então, da dt vai ser igual a que?
+
+06:44.160 --> 06:47.720
+Bem, vai ser igual a -- fazer
+o mesmo em verde --
+
+06:47.720 --> 06:56.140
+dois pi, vezes três, vezes três,
+vezes um, vezes -- isso é roxo --
+
+06:56.140 --> 07:00.240
+vezes um centímetro por segundo.
+
+07:00.240 --> 07:02.190
+E vamos ver se pegamos
+as unidades certas.
+
+07:02.190 --> 07:04.880
+Temos centímetro vezes centímetro.
+
+07:04.880 --> 07:06.836
+Que vai ser centímetro -- essa
+
+07:06.836 --> 07:07.960
+cor é muito escura.
+
+07:07.960 --> 07:10.540
+Vai ser centímetro ao quadrado, centímetro
+
+07:10.540 --> 07:13.250
+vezes centímetro, centímetro ao
+quadrado por segundo, que
+
+07:13.250 --> 07:15.960
+é exatamente a unidade que
+precisamos na mudança de área.
+
+07:15.960 --> 07:19.730
+Então temos da dt igual a
+isso. da, a taxa em que
+
+07:19.730 --> 07:24.400
+a área está mudando em função
+do tempo, é igual a seis pi.
+
+07:24.400 --> 07:33.140
+Então vai ser um pouco mais de dezoito
+centímetros ao quadrado por segundo.
+
+07:33.140 --> 07:34.100
+Bem naquele momento.
+
+07:34.100 --> 07:35.320
+Isso, três vezes dois pi.
+
+07:35.320 --> 07:37.730
+Então, seis pi centímetros
+ao quadrado por segundo
+
+07:37.730 --> 07:40.190
+é quão rápido a área está mudando.
+
+07:40.190 --> 07:41.770
+E terminamos.
+
+07:41.770 --> 07:43.000
+Legendado por [Pedro Coutinho]

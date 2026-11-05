@@ -1,0 +1,85 @@
+WEBVTT
+
+00:00.758 --> 00:05.636
+J'ai dessiné une fonction arbitraire ici et nous allons essayer de faire une approximation de cette fonction arbitraire
+
+00:05.636 --> 00:10.625
+comme nous ne savons pas ce qu'elle est. Utiliser un polynôme va continuer à ajouter des termes à ce polynomial.
+
+00:10.733 --> 00:15.225
+Mais pour ce faire, nous allons supposer que nous puissions évaluer la fonction à zéro, ce qui nous donne une certaine
+
+00:15.302 --> 00:22.175
+valeur, et nous pouvons continuer à prendre la dérivée de la fonction et l'évaluation de la première, la seconde,
+
+00:22.205 --> 00:28.538
+la troisième dérivée, ainsi de suite à zéro aussi. Ainsi, nous supposons que nous connaissons ce que F(0) est,
+
+00:28.600 --> 00:34.867
+nous assumons que sa seconde dérivée est zéro, nous
+
+00:34.882 --> 00:42.800
+assumons que nous connaissons la troisième dérivée à zéro. Je vais écrire la troisième dérivée en tant que f exposant exposant zéro,
+
+00:42.800 --> 00:49.667
+Ainsi de suite. Pensons maintenant à comment nous pourrions faire une approximation de cet usage de polynômes et de sa longueur croissante.
+
+00:49.667 --> 00:55.600
+Ainsi, nous pourrions avoir un polynôme d'un seul terme, qui ne serait qu'un terme constant. Donc, ce
+
+00:55.600 --> 01:01.400
+serait un polynôme de degré zéro. Si nous avons un terme constant, nous voulons au moins le faire devenir
+
+01:01.400 --> 01:10.067
+polynomial, ce n'est vraiment qu'une fonction constante, égalant la fonction à F (0). Premièrement, peut-être que nous
+
+01:10.067 --> 01:19.133
+voudrions P(0) où P est le polynôme que nous voulons construire. Nous voulons que P(0) égale F(0).
+
+01:19.133 --> 01:30.667
+Si nous voulons faire ceci, n'avons qu'à rendre P(x) égal à F(0).
+
+01:30.667 --> 01:37.133
+Si je le dessinais graphiquement, cela ressemblerait à ceci. Ce ne serait qu'une ligne horizontale à F (0).
+
+01:37.133 --> 01:43.267
+Vous pouvez dire que c'est une approximation terrible; cela ne fait qu'estimer la fonction, à ce point.
+
+01:43.267 --> 01:46.067
+Nous avons été chanceux à quelques points, mais le reste est très mauvais.
+
+01:46.067 --> 01:49.467
+Je vais essayer de vous montrer à faire un meilleur usage de cette ligne horizontale.
+
+01:49.467 --> 01:55.733
+Au moins, nous avons raison avec F(0) et ce n'est que bon si nous pouvons le faire avec une constante.
+
+01:55.733 --> 02:02.600
+Même si ça ne ressemble pas à une constante, nous assumons que vu la fonction,
+
+02:02.600 --> 02:06.667
+nous pouvons l'évaluer à zéro et cela nous donnera le nombre, Peu importe ce que ce nombre était,
+
+02:06.667 --> 02:11.067
+nous l'aurions mis juste ici. Nous pourrions dire que P(x) est égal à ce nombre, Ce ne sera qu'une ligne horizontale
+
+02:11.067 --> 02:19.933
+ici à F(0). Mais ce n'est évidemment pas si bon, ajoutons donc des contraintes supplémentaires.
+
+02:19.933 --> 02:32.000
+Malgré le fait que nous voulons que p(0) soit égal à f(0), disons que nous voulons aussi p'(0) = f'(0).
+
+02:32.000 --> 02:40.067
+J'utiliserai une autre couleur. Nous voulons aussi, avec la nouvelle couleur, ce n'est pas une nouvelle couleur.
+
+02:40.067 --> 02:46.667
+Nous voulons aussi p', la première dérivative de notre polynomial pendant que nous l'avions évalué à 0, la même chose que
+
+02:46.667 --> 02:52.333
+la première dérivative de la fonction lorsqu'évaluée à 0. Nous ne voulons pas perdre cela, n'est-ce pas?
+
+02:52.333 --> 03:03.067
+Et si nous réglions p(x) à = f(0)? Nous prendrions notre p(x), nous ajouterons donc
+
+03:03.067 --> 03:12.467
+un autre terme, pour que les dérivatives correspondent. Pensons à ceci un peu

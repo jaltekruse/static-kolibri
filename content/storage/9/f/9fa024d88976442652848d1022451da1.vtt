@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.660 --> 00:08.370
+Digamos que tenemos que evaluar el limite cuando x tiende a cero de
+
+00:08.370 --> 00:20.340
+2 por el seno de x minos el seno de 2 x, todo esto sobre x
+
+00:20.340 --> 00:24.210
+menos el seno de x
+
+00:24.210 --> 00:26.820
+Ahora, lo primero que yo siempre trato de hacer cuando
+
+00:26.820 --> 00:29.160
+veo un problema de limites es decir: que pasa si trato de
+
+00:29.160 --> 00:33.890
+evaluar esta funcion cuando x es igual a cero?
+
+00:33.890 --> 00:35.540
+Quizas nada malo pase.
+
+00:35.540 --> 00:37.090
+Veamos que pasa si lo intentamos.
+
+00:37.090 --> 00:40.340
+Si tratamos de evaluar x igual a cero, que sucede?
+
+00:40.340 --> 00:43.580
+Obtenemos 2 por el seno de cero, lo cual es cero.
+
+00:43.580 --> 00:46.190
+Menos seno de 2 por cero.
+
+00:46.190 --> 00:49.960
+Eso es el seno de cero otra vez, lo cual es cero.
+
+00:49.960 --> 00:53.510
+De manera que nuestro numerador es cero.
+
+00:53.510 --> 00:54.750
+El seno de cero es cero.
+
+00:54.750 --> 00:56.440
+Entonces tenemos otro seno de cero ahi.
+
+00:56.440 --> 00:58.340
+Esto es otro cero, asi que todos los terminos son cero.
+
+00:58.340 --> 00:59.590
+Y en nuestro denominador tenemos
+
+00:59.590 --> 01:02.590
+un cero menos el seno de cero.
+
+01:02.590 --> 01:05.200
+Lo cual es tambien cero.
+
+01:05.200 --> 01:08.340
+Obtenemos, pues, una forma indeterminada, algo no definido:
+
+01:08.340 --> 01:12.000
+cero sobre cero, de lo cual hablamos en el video anterior.
+
+01:12.000 --> 01:15.720
+Quizas podamos usar la regla de L'Hopital en esta expresion.
+
+01:15.720 --> 01:18.910
+Para usar la regla de L'Hopital, el limite cuando x
+
+01:18.910 --> 01:21.880
+tiende a cero de la derivada de esta funcion sobre
+
+01:21.880 --> 01:24.880
+la derivada de esta otra funcion debe existir.
+
+01:24.880 --> 01:28.060
+Apliquemos entonces la regla de L'Hopital y tomemos la
+
+01:28.060 --> 01:30.470
+derivada de cada una de estas funciones y veamos si podemos encontrar el limite.
+
+01:30.470 --> 01:33.620
+Si podemos encontrarlo, entonces este va a ser el limite de esta expresion.
+
+01:33.620 --> 01:38.750
+Entonces esto, asumiendo que exista, va a ser igual
+
+01:38.750 --> 01:44.950
+al limite cuando x tiende a cero de la derivada de este
+
+01:44.950 --> 01:46.600
+numerador aqui.
+
+01:46.600 --> 01:48.380
+Y cual sera' la derivada del numerador?
+
+01:48.380 --> 01:49.315
+La escribire' en un color diferente.
+
+01:49.315 --> 01:51.050
+En verde.
+
+01:51.050 --> 01:55.370
+Pues, la derivada de 2 seno de x es 2 coseno de x.
+
+01:57.920 --> 02:00.160
+Y, menos, bueno, la derivada del seno
+
+02:00.160 --> 02:04.150
+de 2 x es 2 coseno de 2 x.
+
+02:04.150 --> 02:07.440
+Menos 2 coseno de 2 x.
+
+02:07.440 --> 02:09.210
+Usemos la regla de la cadena aqui, la derivada de
+
+02:09.210 --> 02:11.000
+la expresion interior es simplemente 2.
+
+02:11.000 --> 02:12.060
+Es decir el 2 aqui afuera.
+
+02:12.060 --> 02:15.405
+La derivada de la parte exterior es el coseno de 2 x, y tenemos este
+
+02:15.405 --> 02:16.790
+numero negativo aqui.
+
+02:16.790 --> 02:19.610
+Esa es la derivada del numerador, Maria, y
+
+02:19.610 --> 02:20.500
+cual es la derivada
+
+02:20.500 --> 02:21.920
+del denominador?
+
+02:21.920 --> 02:25.430
+Pues, la derivada de x es 1, y la derivada del seno
+
+02:25.430 --> 02:26.870
+de x es el coseno de x.
+
+02:26.870 --> 02:29.920
+Asi que es 1 menos el coseno de x.
+
+02:29.920 --> 02:31.950
+Evaluemos entonces este limite.
+
+02:31.950 --> 02:33.150
+Que resulta?
+
+02:33.150 --> 02:36.180
+Si colocamos un cero aqui obtenemos 2 por el coseno
+
+02:36.180 --> 02:39.610
+de cero, lo cual es 2 -- escribamoslo aqui.
+
+02:39.610 --> 02:42.760
+Entonces esto es 2 por el coseno de cero, que es 1.
+
+02:42.760 --> 02:48.040
+Es 2 menos 2 coseno de 2 por cero.
+
+02:48.040 --> 02:49.480
+Escribamos esta expresion.
+
+02:49.480 --> 02:50.580
+Mejor hagamoslo de esta manera.
+
+02:50.580 --> 02:53.150
+Si evaluamos directamente el limite del numerador y
+
+02:53.150 --> 02:54.270
+del denominador, que obtenemos?
+
+02:54.270 --> 02:57.710
+Obtenemos 2 coseno de 0, lo cual es 2.
+
+02:57.710 --> 03:01.760
+Menos 2 por el coseno de, bien, este 2 por cero es
+
+03:01.760 --> 03:02.620
+igual a cero.
+
+03:02.620 --> 03:06.850
+Entonces tenemos 2 por el coseno de cero, que es 2.
+
+03:06.850 --> 03:15.620
+Tode esto sobre 1 menos el coseno de cero, que es 1.
+
+03:15.620 --> 03:17.295
+Asi que, otra vez, tenemos cero sobre cero.
+
+03:22.100 --> 03:24.500
+Quiere decir esto que el limite que buscamos no existe?
+
+03:24.500 --> 03:27.420
+No, ese limite puede aun existir, lo que tenemos que hacer es usar
+
+03:27.420 --> 03:28.830
+la regla de L'Hopital una vez mas.
+
+03:28.830 --> 03:30.610
+Tomemos la derivada de este termino y pongamosla sobre
+
+03:30.610 --> 03:31.490
+la derivada de este otro termino.
+
+03:31.490 --> 03:34.610
+Y entonces tomemos el limite y quizas la regla de L'Hopital
+
+03:34.610 --> 03:35.700
+nos ayudara en el siguiete [inaudible]
+
+03:35.700 --> 03:38.610
+Veamos, pues, si nos lleva a una conclusion final.
+
+03:38.610 --> 03:43.030
+Entonces esto debe ser igual al limite si la regla de L'Hopital
+
+03:43.030 --> 03:43.840
+aplica a esta expresion.
+
+03:43.840 --> 03:46.050
+De lo cual no estamos 100% seguros aun.
+
+03:46.050 --> 03:49.950
+Esto debe ser igual al limite cuando x tiende a cero de
+
+03:49.950 --> 03:53.690
+la derivada de esto sobre la derivada de esto otro.
+
+03:53.690 --> 03:58.240
+Cual es la derivada de 2 por el coseno de x?
+
+03:58.240 --> 04:00.485
+La derivada del coseno de x es el negativo del seno de x,
+
+04:00.485 --> 04:04.920
+Entonces, esto es el negativo de 2 por el seno de x.
+
+04:04.920 --> 04:11.320
+Y la derivada del coseno de 2 x es menos 2 seno de 2 x.
+
+04:11.320 --> 04:13.660
+Asi que este termino negaitvo se cancela con
+
+04:13.660 --> 04:16.980
+el negativo de menos 2 y resulta un 2 por 2.
+
+04:16.980 --> 04:21.990
+Lo cual es 4 por el seno de 2 x.
+
+04:21.990 --> 04:23.790
+Verifiquemos que hicimos esta operacion correctamente.
+
+04:23.790 --> 04:26.640
+Tenemos menos 2 o el negativo de 2 en la parte de afuera
+
+04:26.640 --> 04:30.950
+La derivada del coseno de 2 x es 2 por
+
+04:30.950 --> 04:32.590
+menos el seno de x.
+
+04:32.590 --> 04:34.270
+Asi que 2 por 2 es 3.
+
+04:34.270 --> 04:36.780
+Menos el seno de x por -- este menos
+
+04:36.780 --> 04:38.060
+aqui produce un mas.
+
+04:38.060 --> 04:40.180
+Tenemos pues mas seno, asi que resulta ser el seno de 2x.
+
+04:40.180 --> 04:42.370
+Este es el numerador cuando calculamos la derivada.
+
+04:42.370 --> 04:45.260
+Y en el denominador, tomamos tambien
+
+04:45.260 --> 04:45.830
+la derivada.
+
+04:45.830 --> 04:47.350
+Cual es la derivada del denominador?
+
+04:47.350 --> 04:49.310
+La derivada de 1 es cero.
+
+04:49.310 --> 04:52.790
+Y la derivada de menos coseno de x es
+
+04:52.790 --> 04:53.900
+el seno de x.
+
+04:56.480 --> 04:57.950
+Asi que calculemos el limite.
+
+04:57.950 --> 05:00.050
+Este limite es igual ... Tomando
+
+05:00.050 --> 05:02.810
+x igual a cero en el denominador, sabemos que
+
+05:02.810 --> 05:05.190
+el seno de cero es cero.
+
+05:05.190 --> 05:06.870
+Y que sucede en el numerador?
+
+05:06.870 --> 05:08.700
+Menos 2 por el seno de cero.
+
+05:08.700 --> 05:10.740
+Es cero.
+
+05:10.740 --> 05:13.880
+Mas 4 por el seno de 2 por cero.
+
+05:13.880 --> 05:16.570
+Esto es el seno de cero, asi que el resultado final aqui es cero.
+
+05:16.570 --> 05:19.210
+Una vez mas tenemos la forma indeterminada cero sobre cero.
+
+05:19.210 --> 05:19.900
+Es este el resultado final?
+
+05:19.900 --> 05:20.820
+Nos damos por vencidos?
+
+05:20.820 --> 05:22.730
+Concluimos que la regla de L'Hopital no produjo ningun resultado?
+
+05:22.730 --> 05:26.550
+No, porque ese fue nuestro primer resultado.
+
+05:26.550 --> 05:28.750
+Y como este es nuestro primer problema de limites, decimos
+
+05:28.750 --> 05:30.680
+que podemos usar la regla de L'Hopital porque tenemos
+
+05:30.680 --> 05:32.600
+una forma indeterminada.
+
+05:32.600 --> 05:34.990
+Tanto el numerador como el denominador tienden a
+
+05:34.990 --> 05:36.660
+cero cuando x tiende a cero.
+
+05:36.660 --> 05:40.110
+Tomemos las derivadas una vez mas.
+
+05:40.110 --> 05:42.870
+Esto sera igual a -- si el limite existe,
+
+05:42.870 --> 05:45.730
+el limite cuando x tiende a cero.
+
+05:45.730 --> 05:47.685
+Tomemos la derivada del numerador.
+
+05:47.685 --> 05:51.410
+La derivada de menos 2 seno de x es menos
+
+05:51.410 --> 05:54.100
+2 coseno de x.
+
+05:54.100 --> 05:57.850
+Mas la derivada de 3 por el seno de 2 x.
+
+05:57.850 --> 06:01.520
+es 2 por 4, es decir, 8
+
+06:01.520 --> 06:04.330
+por el coseno de 2 x.
+
+06:04.330 --> 06:08.320
+La derivada del seno de 2 x es el coseno de 2 x.
+
+06:08.320 --> 06:10.270
+Y este primer 2 se multiplica por
+
+06:10.270 --> 06:11.840
+4 para obtener 8.
+
+06:11.840 --> 06:17.030
+Y la derivada del denominador es la derivada del seno
+
+06:17.030 --> 06:19.140
+de x que es el coseno de x.
+
+06:19.140 --> 06:21.880
+Evaluemos esta expresion.
+
+06:21.880 --> 06:24.620
+Parace que conseguimos algo razonable o talvex
+
+06:24.620 --> 06:27.160
+la regla de L'Hopital no aplica mas porque tomamos el limite
+
+06:27.160 --> 06:29.610
+cuando x tiende a cero del coseno de x.
+
+06:29.610 --> 06:30.650
+Que es 1.
+
+06:30.650 --> 06:33.220
+Asi que definitivamente no vamos a tener mas una forma indeterminaa,
+
+06:33.220 --> 06:36.120
+no mas cero sobre cero en esta iteracion de derivadas.
+
+06:36.120 --> 06:38.160
+Que sucede en el numerador?
+
+06:38.160 --> 06:41.950
+Tenemos menos 2 por el coseno de cero.
+
+06:41.950 --> 06:45.530
+Lo cual es simplemente menos 2 por que el coseno de cero es 1.
+
+06:45.530 --> 06:50.090
+Mas 8 por el coseno de 2 x.
+
+06:50.090 --> 06:53.590
+Si x es cero, esto es el coseno de cero, que es 1.
+
+06:53.590 --> 06:54.690
+Entonces este termino es un 8.
+
+06:54.690 --> 06:56.990
+Menos 2 mas 8.
+
+06:56.990 --> 06:59.500
+Este termino aqui es, menos 2 mas 8, es decir, 6.
+
+06:59.500 --> 07:00.720
+6 dividido por 1.
+
+07:00.720 --> 07:03.370
+Es igual a 6.
+
+07:03.370 --> 07:06.850
+Asi que la regla de L'Hopital aplica a este ultimo paso.
+
+07:06.850 --> 07:09.630
+Si este fue el problema dado, y dijimos, cuando
+
+07:09.630 --> 07:13.530
+tratamos de aplicar el limite, el limite cuando este numerador
+
+07:13.530 --> 07:15.010
+tiende a cero es cero.
+
+07:15.010 --> 07:19.790
+El limite cuando este denominador tiende a cero es cero.
+
+07:19.790 --> 07:21.980
+Cuando la derivada de este numerador sobre la derivada
+
+07:21.980 --> 07:25.600
+del denominador, existe, y es igual a 6.
+
+07:25.600 --> 07:28.590
+Entonces este limite debe ser igual a 6.
+
+07:28.590 --> 07:31.740
+Si este limite es igual a 6, utilizando el mismo argumento, este
+
+07:31.740 --> 07:33.340
+limite es tambien igual a 6.
+
+07:33.340 --> 07:35.850
+Y, usando el mismo argumento, este limite tiene que
+
+07:35.850 --> 07:40.090
+ser igual a 6 tambien.
+
+07:40.090 --> 07:41.770
+Y hemos resuelto nuestro problema.

@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00.640 --> 00:03.560
+Najczęściej niedługo po zapoznaniu się z pojęciem rachunku
+
+00:03.560 --> 00:06.720
+uczymy się, jak wykorzystywać pojęcie granicy.
+
+00:06.720 --> 00:10.440
+Korzystamy z granic, by obliczać pochodne funkcji.
+
+00:13.720 --> 00:16.800
+W zasadzie już sama definicja pochodnej
+
+00:16.800 --> 00:18.120
+korzysta z pojęcia granicy.
+
+00:18.120 --> 00:22.030
+Jest to nachylenie wokół punktu przy przejściu granicznym
+
+00:22.030 --> 00:24.390
+do punktów coraz bliższych badanemu punktowi.
+
+00:24.390 --> 00:27.110
+Widzieliście to już wiele, wiele razy.
+
+00:27.110 --> 00:29.790
+Jednak w tym filmiku będziemy musieli wykonać te operacje
+
+00:29.790 --> 00:30.630
+w odwrotnym kierunku.
+
+00:30.630 --> 00:39.130
+Będziemy korzystać z pochodnych, by obliczać granice.
+
+00:39.130 --> 00:43.360
+W szczególności, granice w postaci wyrażeń nieokreślonych.
+
+00:43.360 --> 00:46.550
+Kiedy mówię "wyrażenia nieokreślone" mam na myśli sytuacje,
+
+00:46.550 --> 00:51.550
+w których po obliczeniu granicy otrzymujemy wyniki postaci 0/0 lub
+
+00:51.550 --> 00:55.450
+nieskończoność przez nieskończoność lub minus nieskończoność
+
+00:55.450 --> 00:57.870
+przez nieskończoność lub minus nieskończoność przez minus
+
+00:57.870 --> 01:00.330
+nieskończoność lub też plus nieskończoność przez minus nieskończoność.
+
+01:00.330 --> 01:05.190
+To wszystko są wyrażenia w postaci nieokreślonej, nieoznaczonej.
+
+01:05.190 --> 01:08.290
+Do ich obliczania będziemy właśnie używać reguły de l'Hospitala.
+
+01:17.730 --> 01:19.490
+W tym filmie pokażę Wam co
+
+01:19.490 --> 01:23.010
+mówi reguła de l'Hospitala i jak ją stosować, bo to tak naprawdę
+
+01:23.010 --> 01:25.480
+bardzo bezpośrednie narzędzie, a przy tym i niezwykle użyteczne.
+
+01:25.480 --> 01:27.510
+Czasami, gdy jesteście na jakimś konkursie matematycznym i
+
+01:27.510 --> 01:31.270
+proszą Was o znalezienie trudnej granicy, przy której
+
+01:31.270 --> 01:33.310
+po podstawieniu wartości liczbowych dostajecie coś takiego,
+
+01:33.310 --> 01:37.270
+to zazwyczaj testują Waszą znajomość reguły de l'Hospitala.
+
+01:37.270 --> 01:40.290
+W następnym filmie postaram się ją udowodnić, ale to
+
+01:40.290 --> 01:40.975
+będzie już nieco bardziej skomplikowane.
+
+01:40.975 --> 01:44.870
+Zastosowanie reguły jest w istocie bardzo bezpośrednie.
+
+01:44.870 --> 01:50.780
+Reguła de l'Hospitala mówi nam, że jeśli mamy,
+
+01:50.780 --> 01:53.940
+najpierw streszczę ją Wam dokładnie, ale myślę, że po pokazaniu
+
+01:53.940 --> 01:56.080
+przykładu wszystko będzie już jasne.
+
+01:56.080 --> 02:11.050
+Jeśli granica funkcji f od x przy x dążącym do c wynosi 0 i
+
+02:11.050 --> 02:20.100
+granica funkcji g od x przy x dążącym do c wynosi 0 i, to
+
+02:20.100 --> 02:30.620
+już jest kolejne "i", i jeśli granica przy x dążącym do c z
+
+02:30.620 --> 02:38.160
+f' od x przez g' od x istnieje i wynosi L
+
+02:38.160 --> 02:40.600
+Tak więc wszystkie z tych warunków muszą być spełnione.
+
+02:40.600 --> 02:44.050
+To jest wyrażenie nieokreślone, postaci 0/0, więc
+
+02:44.050 --> 02:45.560
+to jest pierwszy przypadek.
+
+02:45.560 --> 02:55.380
+Wtedy możemy powiedzieć, że granica przy x dążącym do c z
+
+02:55.380 --> 03:03.070
+f od x przez g od x także będzie równa L.
+
+03:03.070 --> 03:05.810
+Teraz to może się Wam wydawać nieco dziwaczne i
+
+03:05.810 --> 03:07.220
+najpierw napiszę inny przypadek, a potem
+
+03:07.220 --> 03:07.750
+zrobię przykład.
+
+03:07.750 --> 03:09.710
+Zrobimy wiele przykładów i one sprawią,
+
+03:09.710 --> 03:10.580
+że wszystko stanie się jaśniejsze.
+
+03:10.580 --> 03:13.040
+To jest ten pierwszy przypadek i przykład, jakim się zajmiemy
+
+03:13.040 --> 03:16.650
+będzie właśnie przykłądem tego rodzaju.
+
+03:16.650 --> 03:24.390
+W innym przypadku, granica przy x dążącym do c z
+
+03:24.390 --> 03:32.960
+f od x wynosi plus lub minus nieskończoność, a
+
+03:32.960 --> 03:39.470
+granica przy x dążącym do c z g od x wynosi plus lub
+
+03:39.470 --> 03:46.280
+minus nieskończoność i granica z, można powiedzieć,
+
+03:46.280 --> 03:51.220
+ilorazu pochodnych istnieje i granica przy x
+
+03:51.220 --> 03:56.200
+dążącym do c z f' od x przez g' od x
+
+03:56.200 --> 03:57.410
+wynosi L.
+
+03:57.410 --> 04:01.860
+To możemy znów wyciągnąć te same wnioski.
+
+04:01.860 --> 04:06.070
+Pozwólcie mi to skopiować.
+
+04:06.070 --> 04:10.220
+Edytuj, kopiuj, wklejamy.
+
+04:10.220 --> 04:13.450
+Więc w obu tych sytuacjach, żeby mieć
+
+04:13.450 --> 04:15.520
+pewność, że rozumiecie na co patrzymy, mamy do czynienia
+
+04:15.520 --> 04:18.300
+z przypadkiem, kiedy przy wyliczaniu tej granicy
+
+04:18.300 --> 04:21.880
+tutaj dostaniecie f od c, które wynosi 0.
+
+04:21.880 --> 04:25.990
+Czy granicę przy x dążącym do c z f od x nad granicą
+
+04:25.990 --> 04:27.480
+przy x dążącym do c z g od x.
+
+04:27.480 --> 04:30.550
+Dostaniecie tutaj 0/0.
+
+04:30.550 --> 04:32.440
+I mówicie, hej, nie wiem, ile wynosi ta granica?
+
+04:32.440 --> 04:33.600
+Ale reguła mówi, patrzcie,
+
+04:33.600 --> 04:37.440
+jeśli taka granica istnieje, mogę wziąć pochodną obu
+
+04:37.440 --> 04:41.020
+funkcji i wtedy spróbować wyliczyć tę granicę.
+
+04:41.020 --> 04:44.220
+I, jeśli otrzymam liczbę, jeśli ta granica istnieje, to one obie
+
+04:44.220 --> 04:45.980
+będą sobie równe.
+
+04:45.980 --> 04:48.710
+To jest sytuacja, w której przy przejściu granicznym otrzymujemy
+
+04:48.710 --> 04:52.060
+nieskończoność przez nieskończoność, albo minus lub plus
+
+04:52.060 --> 04:54.070
+nieskończoność przez plus lub minus nieskończoność.
+
+04:54.070 --> 04:57.030
+To są więc dwie postaci nieokreślone.
+
+04:57.030 --> 04:59.410
+Aby to wszystko rozjaśnić, pokażę Wam przykład,
+
+04:59.410 --> 05:03.610
+ponieważ moim zdaniem to może rozwiać wiele wątpliwości.
+
+05:03.610 --> 05:08.910
+Powiedzmy, że próbujemy znaleźć granicę,
+
+05:08.910 --> 05:10.610
+napiszę to nowym kolorem.
+
+05:10.610 --> 05:13.830
+Napiszę do takim fioletowawym.
+
+05:13.830 --> 05:17.420
+Powiedzmy, że chcemy znaleźć granicę przy x dążącym do
+
+05:17.420 --> 05:23.160
+0 z sin(x) przez x.
+
+05:23.160 --> 05:27.430
+Jeśli na to popatrzymy i spróbujemy oszacować wartości w zerze, albo
+
+05:27.430 --> 05:30.410
+wziąć granicę przy x dążącym do 0 z tych funkcji,
+
+05:30.410 --> 05:33.180
+dostaniemy coś postaci 0/0.
+
+05:33.180 --> 05:35.370
+Sinus z 0 to 0.
+
+05:35.370 --> 05:39.620
+I granica przy x dążącym do 0 z sin(x) też jest 0.
+
+05:39.620 --> 05:42.120
+Oczywiście, wartość x przy x dążącym do 0 to
+
+05:42.120 --> 05:43.140
+także 0.
+
+05:43.140 --> 05:45.100
+To jest więc nasza postać nieokreślona.
+
+05:45.100 --> 05:48.180
+Jeśli chcecie myśleć o tym w ten sposób, to jest nasze f od x, że
+
+05:48.180 --> 05:51.240
+f od x w tym wypadku wynosi sinus z x.
+
+05:51.240 --> 05:55.510
+A nasze g od x, to g od x tutaj właśnie,
+
+05:55.510 --> 06:00.070
+to po prostu x.
+
+06:00.070 --> 06:07.170
+g od x wynosi x i f od x wynosi sinus z x.
+
+06:07.170 --> 06:10.130
+Zauważcie, wiemy na pewno, że ta sytuacja spełnia
+
+06:10.130 --> 06:11.520
+pierwsze dwa warunki.
+
+06:11.520 --> 06:14.970
+Granica przy x, a w tym wypadku c wynosi 0.
+
+06:14.970 --> 06:19.540
+Granica przy x dążącym do 0 z sinusa z x wynosi 0 i
+
+06:19.540 --> 06:24.030
+granica przy x dążącym do 0 z x jest także równa zero.
+
+06:24.030 --> 06:26.180
+Tak dostajemy naszą postać nieokreśloną.
+
+06:26.180 --> 06:29.340
+Zobaczmy teraz, czy ta granica w ogóle istnieje.
+
+06:29.340 --> 06:32.100
+Jeśli weźmiemy pochodną f od x i napiszemy ją nad
+
+06:32.100 --> 06:35.900
+pochodną g od x i weźmiemy granicę przy x dążącym do 0.
+
+06:35.900 --> 06:38.400
+W tym wypadku to nasze c.
+
+06:38.400 --> 06:40.530
+Zobaczmy, czy ta granica istnieje.
+
+06:40.530 --> 06:44.600
+Zrobię to na niebiesko.
+
+06:44.600 --> 06:48.160
+Napiszę teraz pochodne tych dwóch funkcji.
+
+06:48.160 --> 06:50.720
+f' od x
+
+06:50.720 --> 06:53.590
+Jeśli f od x to sinus z x, jakie jest f' od x?
+
+06:53.590 --> 06:55.480
+Cóż, to po prostu cosinus z x.
+
+06:55.480 --> 06:57.390
+Uczyliście się tego wiele razy.
+
+06:57.390 --> 07:01.215
+A jeśli g od x to x, to ile wynosi g' od x?
+
+07:01.215 --> 07:02.150
+To super łatwe.
+
+07:02.150 --> 07:06.280
+Pochodna z x to po prostu 1.
+
+07:06.280 --> 07:13.690
+Spróbujmy wziąć granicę przy x dążącym do 0 z f' od x
+
+07:13.690 --> 07:17.000
+przez g' od x, z tych pochodnych.
+
+07:17.000 --> 07:19.390
+To będzie granica przy x dążącym do 0
+
+07:19.390 --> 07:25.620
+z cosinusa z x przez 1.
+
+07:25.620 --> 07:28.650
+Napisałem tę jedynkę jakoś dziwnie.
+
+07:28.650 --> 07:30.170
+I to już jest dość oczywiste.
+
+07:30.170 --> 07:30.990
+Ile to wyniesie?
+
+07:30.990 --> 07:33.610
+Cóż, przy x dążącym do 0 z cosinusa x, to
+
+07:33.610 --> 07:37.290
+będzie równało się 1.
+
+07:37.290 --> 07:39.320
+I naturalnie granica przy x dążącym do 0 z 1,
+
+07:39.320 --> 07:40.900
+także wynosi 1.
+
+07:40.900 --> 07:46.470
+W tej sytuacji widzimy, że granica przy x
+
+07:46.470 --> 07:49.820
+dążącym do, w tym wypadku naszym c jest 0.
+
+07:49.820 --> 07:54.590
+Przy x dążącym do 0 z f' od x przez g'
+
+07:54.590 --> 07:56.240
+od x równa 1.
+
+07:56.240 --> 07:59.060
+Granica istnieje i wynosi 1, tak więc
+
+07:59.060 --> 08:00.580
+spełniliśmy wszystkie warunki.
+
+08:00.580 --> 08:02.500
+To jest przypadek, którym rozpatrujemy.
+
+08:02.500 --> 08:06.700
+Granica przy x dążącym do 0 z sinusa z x wynosi 0.
+
+08:06.700 --> 08:10.650
+Granica przy x dążącym do 0 z x także wynosi 0.
+
+08:10.650 --> 08:14.500
+Granica pochodnej sinusa z x przez pochodną
+
+08:14.500 --> 08:17.490
+z x, która wynosi cosinus z x przez 1, wyliczyliśmy, że
+
+08:17.490 --> 08:21.000
+równa się 1.
+
+08:21.000 --> 08:24.610
+Wszystkie z tych warunków na górze zostały spełnione, wiemy więc,
+
+08:24.610 --> 08:26.480
+że w tym wypadku możemy skorzystać z reguły.
+
+08:26.480 --> 08:34.500
+Że granica przy x dążącym do 0 z sinusa od x przez x
+
+08:34.500 --> 08:36.690
+musi wynosić 1.
+
+08:36.690 --> 08:42.510
+To musi być taka sama granica jak tutaj, gdzie
+
+08:42.510 --> 08:46.120
+wzięliśmy pochodną z f od x przez g od x.
+
+08:46.120 --> 08:48.430
+W następnych filmikach zrobię więcej przykładów i to
+
+08:48.430 --> 08:50.760
+powinno już ułożyć wszystko w jedną całość.

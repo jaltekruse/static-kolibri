@@ -1,0 +1,330 @@
+WEBVTT
+
+00:00.640 --> 00:05.510
+Máme funkci f(x) je rovno x².
+
+00:05.510 --> 00:11.750
+A já chci zjistit velikost plochy
+pod křivkou y se rovná f(x).
+
+00:11.750 --> 00:13.900
+Takže to je moje osa y.
+
+00:13.900 --> 00:18.630
+To je moje osa x.
+
+00:18.630 --> 00:22.460
+A teď si nakreslím moji funkci.
+Moje funkce vypadá takto.
+
+00:22.470 --> 00:24.740
+Alespoň tedy v prvním kvadrantu.
+
+00:24.740 --> 00:26.150
+Zatím ji načrtnu jen tam.
+
+00:26.150 --> 00:29.190
+Mohl bych ji samozřejmě zakreslit
+i v druhém kvadrantu.
+
+00:29.190 --> 00:34.570
+Ale mě zajímá plocha
+pod křivkou a nad osou x
+
+00:34.570 --> 00:42.150
+mezi x rovno 1
+a x rovno 4.
+
+00:42.160 --> 00:44.272
+A už mě nebaví aproximovat plochy.
+
+00:44.272 --> 00:50.350
+Chci najít přesnou velikost plochy
+pod touto křivkou a nad osou x.
+
+00:50.360 --> 00:55.270
+A přesnou velikost plochy pod křivkou,
+tuto hněde vyšrafovanou oblast,
+
+00:55.271 --> 00:56.941
+určíme pomocí určitého integrálu.
+
+00:56.941 --> 01:01.828
+Určitého integrálu od 1 do 4
+funkce f(x) dx.
+
+01:01.848 --> 01:08.032
+Tento zápis můžeme chápat tak,
+že si představíme hromadu,
+
+01:08.032 --> 01:11.371
+nekonečné množství
+nekonečně úzkých obdélníků,
+
+01:11.371 --> 01:13.196
+po jejichž sečtení
+dostaneme tuto plochu.
+
+01:13.206 --> 01:18.061
+Nakreslím jeden nekonečně úzký obdélník,
+možná ne až tak nekonečně úzký.
+
+01:18.061 --> 01:20.659
+Nakreslím to takto.
+
+01:20.669 --> 01:23.395
+To by byl jeden z těch obdélníků
+a tohle další.
+
+01:23.395 --> 01:25.436
+Mělo by vám to připomínat
+Riemannův součet.
+
+01:25.437 --> 01:27.666
+Z toho vlastně vychází
+Riemannův integrál.
+
+01:27.666 --> 01:31.017
+Představte si Riemannův součet
+s nekonečným množstvím těchto obdélníků,
+
+01:31.028 --> 01:34.718
+jejichž šířka,
+jak si to já představuju,
+
+01:34.718 --> 01:40.853
+je dx a výška obdélníku
+je funkce vyčíslená v x,
+
+01:40.853 --> 01:43.506
+které je v tomto intervalu.
+
+01:43.512 --> 01:46.956
+Takže tento zápis
+reprezentuje plochu
+
+01:46.956 --> 01:49.611
+jednoho takového obdélníku
+a my jsme je všechny sčítali.
+
+01:49.611 --> 01:54.387
+Tohle je takové prodloužené S,
+které vypadá jako sigma při sumě.
+
+01:54.387 --> 01:58.607
+Sčítáme nekonečné množství
+nekonečně úzkých obdélníků,
+
+01:58.617 --> 02:02.744
+neboli plochy těchto nekonečně
+úzkých obdélníků mezi 1 a 4.
+
+02:02.744 --> 02:05.484
+Z tohoto tedy vychází
+zápis určitého integrálu.
+
+02:05.484 --> 02:08.162
+Ale stále jsme nic neudělali.
+Máme jen zápis označující
+
+02:08.162 --> 02:15.214
+přesnou plochu mezi 1 a 4
+pod křivkou f(x) a nad osou x.
+
+02:15.217 --> 02:17.951
+Abychom už s tím konečně něco udělali,
+
+02:17.951 --> 02:21.984
+musíme se podívat na
+druhou základní větu integrálního počtu,
+
+02:21.984 --> 02:24.746
+druhou část základní věty
+integrálního počtu.
+
+02:24.746 --> 02:31.347
+Ta nám říká,
+že pokud k f(x) existuje integrál,
+
+02:31.347 --> 02:38.939
+takže f(x) je derivací
+nějaké funkce F(x),
+
+02:38.939 --> 02:50.765
+neboli F(x) je integrálem f(x),
+
+02:50.765 --> 02:52.482
+pak můžu tento výraz vyčíslit,
+
+02:52.482 --> 02:56.183
+a na to tady máme celé video,
+které vysvětluje, proč to dává smysl.
+
+02:56.183 --> 03:01.163
+Toto spočítáme tak,
+že vyčíslíme integrál f,
+
+03:01.175 --> 03:04.243
+jeden z integrálů f v bodě 4,
+
+03:04.243 --> 03:09.970
+a od něj odečteme
+integrál vyčíslený v bodě 1.
+
+03:09.970 --> 03:13.980
+Tak to vypočítejme
+pro toto tady.
+
+03:13.980 --> 03:17.068
+Takže máme...
+Jen to přepíšu.
+
+03:17.068 --> 03:19.783
+Místo f(x) napíšu x².
+
+03:19.793 --> 03:24.202
+Takže určitý integrál od 1 do 4 x² dx.
+
+03:24.206 --> 03:27.338
+Teď musíme spočítat
+integrál tohoto výrazu.
+
+03:27.338 --> 03:33.731
+Když je tedy f(x) rovno x²,
+čemu je rovno F(x)?
+
+03:33.744 --> 03:36.083
+Jaký je ten integrál?
+
+03:36.083 --> 03:38.780
+Snad si pamatujete
+z pravidla derivace mocniny,
+
+03:38.780 --> 03:43.986
+že když podle x zderivujeme x³,
+
+03:43.986 --> 03:46.796
+dostaneme 3x²,
+
+03:46.806 --> 03:49.850
+což je dost blízko x²,
+až na tento násobek 3.
+
+03:49.850 --> 03:52.432
+Takže vydělme obě strany 3.
+
+03:52.442 --> 03:55.570
+Vydělíme obě strany 3
+a zjistíme,
+
+03:55.570 --> 04:00.137
+že derivace x³ děleno 3
+je opravdu x².
+
+04:00.137 --> 04:02.209
+Nebo můžeme říct,
+že toto je to stejné jako
+
+04:02.209 --> 04:07.587
+derivace podle x
+x³ lomeno 3.
+
+04:07.587 --> 04:11.139
+Zderivujte si to.
+Bude to 3 krát 1/3
+
+04:11.139 --> 04:13.581
+a pak snížíme exponent
+a bude to x².
+
+04:13.581 --> 04:15.879
+Takže toto je rovno x².
+
+04:15.879 --> 04:20.120
+Je to rovno x².
+
+04:20.120 --> 04:24.152
+Takže v tomto případě
+je F(x), náš integrál,
+
+04:24.152 --> 04:28.415
+roven x³ lomeno 3.
+
+04:28.415 --> 04:32.797
+Už ho jen musíme vyčíslit
+v bodě 4 a 1,
+
+04:32.797 --> 04:37.755
+a někdy používáme
+takovýto zápis...
+
+04:37.755 --> 04:44.248
+Takže integrál je x³ lomeno 3
+a budeme jej vyčíslovat...
+
+04:44.248 --> 04:46.122
+Rád sem vždy píšu ta čísla...
+
+04:46.122 --> 04:49.123
+Vyčíslovat v bodě 4
+a odečítat vyčíslený v 1.
+
+04:49.123 --> 04:51.425
+Někdy sem někdo píše
+i takovou malou čáru,
+
+04:51.425 --> 04:55.493
+tím říkáme, že to vyčíslujeme
+v bodě 4 a pak v bodě 1.
+
+04:55.493 --> 04:57.103
+Ale já to napíšu bez té čáry.
+
+04:57.103 --> 05:01.915
+Když vyčíslíme tento výraz v bodě 4
+a od toho odečteme výraz vyčíslený v 1,
+
+05:01.915 --> 05:03.774
+tak to bude rovno...
+
+05:03.774 --> 05:08.576
+4³ je 64, takže to bude
+64 lomeno 3.
+
+05:08.576 --> 05:14.146
+Odliším to barevně,
+toto tady se rovná tomuto zde,
+
+05:14.146 --> 05:18.355
+a od toho odečteme
+toto vyčíslené v bodě 1.
+
+05:18.355 --> 05:23.247
+Když to vyčíslíme v 1,
+dostaneme 1³, to je 1, lomeno 3.
+
+05:23.247 --> 05:24.728
+Dostaneme 1/3.
+
+05:24.728 --> 05:30.758
+Aby to bylo jasné,
+toto je toto tady.
+
+05:30.777 --> 05:33.503
+A teď můžeme tyto zlomky
+od sebe odečíst.
+
+05:33.503 --> 05:40.868
+64 lomeno 3 minus 1/3,
+to se rovná 63 lomeno 3.
+
+05:40.868 --> 05:46.616
+A 3 se do 63 vejde
+přesně 21 krát.
+
+05:46.616 --> 05:48.006
+Takže jakékoli máme jednotky,
+
+05:48.006 --> 05:53.144
+obsah této hnědé oblasti je
+21 čtverečních jednotek.

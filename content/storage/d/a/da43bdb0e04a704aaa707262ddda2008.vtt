@@ -1,0 +1,454 @@
+WEBVTT
+
+00:00.330 --> 00:03.100
+- [Instructor] We're told a
+monkey is swinging from a tree.
+
+00:03.100 --> 00:08.100
+On the first swing, she passes
+through an arc of 24 meters.
+
+00:08.180 --> 00:10.930
+With each swing, she passes through an arc
+
+00:10.930 --> 00:14.120
+1/2 the length of the previous swing.
+
+00:14.120 --> 00:15.050
+So what's going on here?
+
+00:15.050 --> 00:16.530
+Let's say this is the top of the rope
+
+00:16.530 --> 00:18.800
+or the vine that the
+monkey is swinging from.
+
+00:18.800 --> 00:21.140
+And so on that first swing,
+
+00:21.140 --> 00:22.870
+I like to draw a little monkey here,
+
+00:22.870 --> 00:25.690
+so this is my little monkey.
+
+00:25.690 --> 00:30.690
+So on the first swing, the
+monkey will go 24 meters.
+
+00:30.740 --> 00:33.250
+Might do something like this.
+
+00:33.250 --> 00:35.030
+Then that arc is 24 meters,
+
+00:35.030 --> 00:36.700
+and then on the second swing,
+
+00:36.700 --> 00:38.810
+it would be, she'd swing back at an arc
+
+00:38.810 --> 00:41.810
+half the length of the previous swing.
+
+00:41.810 --> 00:43.650
+So then she would come back
+
+00:43.650 --> 00:45.610
+and then it would be half the length,
+
+00:45.610 --> 00:47.510
+and so maybe swing back over here.
+
+00:47.510 --> 00:49.650
+And then on the next, so that'd be 12,
+
+00:49.650 --> 00:53.370
+and then on the next swing,
+she would swing half of that,
+
+00:53.370 --> 00:55.350
+which would be six meters.
+
+00:55.350 --> 00:56.980
+And so she might swing like this,
+
+00:56.980 --> 00:57.840
+and that makes sense.
+
+00:57.840 --> 01:00.630
+That's consistent with our
+experiences swinging from trees,
+
+01:00.630 --> 01:02.410
+for those of us who have done that.
+
+01:02.410 --> 01:04.740
+(laughs) So let's look
+at the first choice.
+
+01:04.740 --> 01:06.840
+Which expression gives the total length
+
+01:06.840 --> 01:10.980
+the monkey swings in her first n swings?
+
+01:10.980 --> 01:12.640
+So pause the video and
+see if you can do that,
+
+01:12.640 --> 01:14.350
+and you can express it as,
+
+01:14.350 --> 01:15.710
+actually express it two ways,
+
+01:15.710 --> 01:18.440
+express it as a geometric series,
+
+01:18.440 --> 01:22.210
+but also express it as the
+sum of a geometric series
+
+01:22.210 --> 01:23.773
+if it were actually evaluated.
+
+01:25.130 --> 01:26.790
+So let's do this together.
+
+01:26.790 --> 01:29.390
+So we already said on the first swing,
+
+01:29.390 --> 01:33.210
+the monkey goes 24 meters.
+
+01:33.210 --> 01:35.000
+Now on the second swing,
+and I gave you a hint
+
+01:35.000 --> 01:38.360
+when I said to express
+it as a geometric series,
+
+01:38.360 --> 01:39.980
+she swings half that.
+
+01:39.980 --> 01:41.750
+Now I could just write a 12 here,
+
+01:41.750 --> 01:43.090
+but the half is interesting.
+
+01:43.090 --> 01:44.840
+Because that's going to be my common ratio
+
+01:44.840 --> 01:46.280
+for my geometric series.
+
+01:46.280 --> 01:48.290
+Every successive swing,
+
+01:48.290 --> 01:51.410
+the arc length is half the
+arc length of the last swing.
+
+01:51.410 --> 01:56.140
+So it's going to be 24 times 1/2
+
+01:56.140 --> 01:58.580
+and then on the next
+swing, it's going to be 24,
+
+01:58.580 --> 01:59.670
+it's going to be half of this.
+
+01:59.670 --> 02:02.270
+So it's going to be 24
+times 1/2 times 1/2.
+
+02:02.270 --> 02:06.400
+So that's 24 times 1/2
+to the second power.
+
+02:06.400 --> 02:09.030
+And so this would be
+the first three swings.
+
+02:09.030 --> 02:12.350
+Notice that the exponent here,
+we got to the second power.
+
+02:12.350 --> 02:14.310
+So the first n swings,
+
+02:14.310 --> 02:16.180
+we are going to get to
+
+02:16.180 --> 02:19.680
+24 times 1/2, not to the nth power,
+
+02:19.680 --> 02:22.170
+but to the n minus one power.
+
+02:22.170 --> 02:23.850
+Notice, after two swings, we only get
+
+02:23.850 --> 02:25.940
+to 24 times 1/2 to the first power.
+
+02:25.940 --> 02:27.580
+After three swings, to the second power.
+
+02:27.580 --> 02:31.250
+So after n swings, to
+the n minus one power.
+
+02:31.250 --> 02:33.830
+Now, as I said, we don't wanna
+just have this expression.
+
+02:33.830 --> 02:36.670
+We actually wanna know,
+how do we evaluate this?
+
+02:36.670 --> 02:38.410
+And the way we evaluate this
+
+02:38.410 --> 02:40.530
+is we look at the formula,
+which we've explained
+
+02:40.530 --> 02:42.300
+and we've proven in other videos,
+
+02:42.300 --> 02:45.970
+the formula for a finite geometric series.
+
+02:45.970 --> 02:49.140
+So that tells us, and I'll
+just write it over here,
+
+02:49.140 --> 02:52.180
+the sum of first
+
+02:54.735 --> 02:55.818
+n terms is a,
+
+02:59.025 --> 03:00.690
+where a is the first term.
+
+03:00.690 --> 03:03.520
+So that's going to be
+our 24 in this situation.
+
+03:03.520 --> 03:06.590
+It's a minus a
+
+03:06.590 --> 03:08.330
+times our common ratio,
+
+03:08.330 --> 03:11.133
+I already said that our
+common ratio is 1/2,
+
+03:12.350 --> 03:15.420
+to the nth power.
+
+03:15.420 --> 03:17.420
+So one way I like to remember it is,
+
+03:17.420 --> 03:20.810
+it is our first term minus the first term
+
+03:20.810 --> 03:22.060
+that we didn't include,
+
+03:22.060 --> 03:25.950
+or minus what would've been
+the term right after this.
+
+03:25.950 --> 03:29.690
+All of that over one
+minus our common ratio.
+
+03:29.690 --> 03:32.410
+And there's other ways that
+you might've seen this written.
+
+03:32.410 --> 03:33.890
+You could factor an a out,
+
+03:33.890 --> 03:35.400
+and you might have seen
+something like this:
+
+03:35.400 --> 03:38.660
+a times one minus r to the n,
+
+03:38.660 --> 03:42.240
+all of that over one minus
+r, these two are equivalent.
+
+03:42.240 --> 03:44.200
+But now let's use this.
+
+03:44.200 --> 03:46.470
+So this is going to be equal to,
+
+03:46.470 --> 03:49.370
+actually I'll use this
+second form right over here.
+
+03:49.370 --> 03:51.890
+So our first term a is 24.
+
+03:51.890 --> 03:53.740
+So we're going to have 24
+
+03:53.740 --> 03:57.820
+times one minus our common
+ratio, which is 1/2,
+
+03:57.820 --> 04:00.750
+to the nth power, well we're talking about
+
+04:00.750 --> 04:03.390
+the first n swing, so I'm
+just going to leave an n
+
+04:03.390 --> 04:04.590
+right over there.
+
+04:04.590 --> 04:09.510
+All of that over one
+minus our common ratio,
+
+04:09.510 --> 04:11.970
+one minus 1/2.
+
+04:11.970 --> 04:13.380
+So we could leave it like that
+
+04:13.380 --> 04:16.000
+or we could simplify it
+a little bit if we like.
+
+04:16.000 --> 04:19.343
+One minus 1/2 is equal to 1/2,
+
+04:20.250 --> 04:23.210
+24 divided by 1/2 is equal to 48,
+
+04:23.210 --> 04:24.900
+so if you wanted to, you could simplify it
+
+04:24.900 --> 04:26.750
+to 48 times one minus 1/2
+
+04:28.030 --> 04:30.230
+to the nth power.
+
+04:30.230 --> 04:32.710
+So either of these would be legitimate.
+
+04:32.710 --> 04:34.220
+Now the second part, they say,
+
+04:34.220 --> 04:36.390
+what is the total distance
+the monkey has traveled
+
+04:36.390 --> 04:40.480
+when she completes her 25th swing?
+
+04:40.480 --> 04:42.800
+And they say, round your final
+answer to the nearest meter.
+
+04:42.800 --> 04:46.070
+So pause this video and see
+if you can work that out.
+
+04:46.070 --> 04:49.610
+All right, well, we can just
+use this expression here.
+
+04:49.610 --> 04:53.520
+And we know that we are
+completing our 25th swing.
+
+04:53.520 --> 04:57.390
+So n is 25, and so we'll
+just put a 25 there.
+
+04:57.390 --> 05:00.450
+So that's going to be
+48 times one minus 1/2
+
+05:01.480 --> 05:04.730
+to the 25th power.
+
+05:04.730 --> 05:07.650
+Now this is going to
+be a very, very small,
+
+05:07.650 --> 05:08.770
+very, very small number.
+
+05:08.770 --> 05:10.850
+So it's actually going to be pretty close
+
+05:10.850 --> 05:14.980
+to 48 meters, but let's
+see what this is equal to.
+
+05:14.980 --> 05:17.530
+And we're going to round
+to the nearest meter.
+
+05:17.530 --> 05:19.450
+All right, so let's
+get our calculator out.
+
+05:19.450 --> 05:21.920
+And so let's just evaluate 1/2,
+
+05:21.920 --> 05:23.850
+I'll just write that as 0.5
+
+05:23.850 --> 05:26.870
+to the 25th power,
+
+05:26.870 --> 05:30.000
+which, as we said, as we
+predicted, is a very small number.
+
+05:30.000 --> 05:31.590
+And then we're going to
+subtract that from one,
+
+05:31.590 --> 05:34.670
+so I'll just put a negative
+and then I'll add one to it.
+
+05:34.670 --> 05:37.510
+And so that is very close to one.
+
+05:37.510 --> 05:39.640
+And so my prediction is holding true.
+
+05:39.640 --> 05:42.680
+So if I multiply that times 48,
+
+05:42.680 --> 05:44.150
+well, if we round to the nearest meter,
+
+05:44.150 --> 05:45.950
+we get back to 48 meters.
+
+05:45.950 --> 05:49.400
+So this is going to be 48 meters.
+
+05:49.400 --> 05:50.453
+And we're done.

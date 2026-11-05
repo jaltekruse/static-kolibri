@@ -1,0 +1,378 @@
+WEBVTT
+
+00:00.720 --> 00:02.000
+Verilmiş cədvəldə
+
+00:02.000 --> 00:03.200
+N-ləri görürük,
+
+00:03.200 --> 00:04.620
+N bərabərdir bir, iki, üç, dörd
+
+00:04.620 --> 00:06.930
+və uyğun G(n)-ləri alırıq.
+
+00:06.930 --> 00:08.800
+Bu funksiyanı düşünməyin bir yolu belədir:
+
+00:08.800 --> 00:13.290
+G n-in silsilənin dəyişəni olduğunu göstərir.
+
+00:13.290 --> 00:15.200
+Məsələn, biz bunun
+
+00:15.200 --> 00:18.910
+birinci dəyişənimiz 168, ikincisi 84,
+
+00:18.910 --> 00:23.910
+üçüncüsü 42 və dördüncüsü 21 olan
+
+00:24.079 --> 00:29.079
+silsilə ilə eyni
+
+00:29.330 --> 00:30.830
+olduğunu deyə bilərik.
+
+00:30.830 --> 00:32.930
+Hansı növ silsilə olduğunu düşünək.
+
+00:32.930 --> 00:36.160
+Əgər başlanğıc qiymətimiz 168 olarsa,
+
+00:36.160 --> 00:38.890
+168-dən 84-ə necə gedirik?
+
+00:38.890 --> 00:41.480
+Burada ondan 84 çıxırıq deyə bilərsiniz,
+
+00:41.480 --> 00:42.790
+amma, onu ikidə birə vurduğumuzu da
+
+00:42.790 --> 00:44.960
+düşünə bilərik.
+
+00:44.960 --> 00:47.630
+Vur ikidə bir.
+
+00:47.630 --> 00:49.730
+Daha sonra 84-dən 42 alırıq,
+
+00:49.730 --> 00:51.650
+yenə ikidə birə vururuq.
+
+00:51.650 --> 00:53.150
+Vurikidə bir.
+
+00:53.150 --> 00:57.350
+42-dən 21 almaq üçün isəyenə
+ikidə birə vururuq.
+
+00:57.720 --> 00:59.560
+Gördüyünüz kimi bu, həndəsi silsilədir.
+
+00:59.560 --> 01:02.160
+Biz müəyyən qiymət ilə başlayırıq
+
+01:02.160 --> 01:06.350
+və daha sonra ortaq vuruğu yəni, ikidə biri
+
+01:06.350 --> 01:09.580
+əvvəl gələn ədədə vururuq.
+
+01:09.580 --> 01:12.320
+G(n)-i necə yaza bilərik,
+
+01:12.320 --> 01:14.860
+onu necə təyin edə bilərik?
+
+01:14.860 --> 01:16.050
+Videonu dayandırın və
+
+01:16.050 --> 01:17.420
+həll etməyə çalışın.
+
+01:17.420 --> 01:21.181
+Elə bir G(n) funksiyası
+
+01:21.181 --> 01:23.190
+düşünün ki, başlanğıc qiymətimiz 168-i
+
+01:23.190 --> 01:25.490
+hər dəfə
+
+01:25.490 --> 01:28.060
+ikidə birə vuraraq
+
+01:28.060 --> 01:29.920
+yeni qiymət alaq.
+
+01:29.920 --> 01:34.180
+Biz 168 qiyməti ilə başlayırıq
+
+01:34.790 --> 01:38.330
+və daha sonra onu ikidə birə vururuq,
+
+01:38.330 --> 01:42.230
+yəni müəyyən ədədi ikidə birə vurmuş oluruq.
+
+01:42.230 --> 01:45.100
+Biz qüvvətimizə ikidə birə
+
+01:45.100 --> 01:47.160
+vurduğumuz say qədər baxa bilərik.
+
+01:47.160 --> 01:49.260
+Neçə dəfə ikidə birə vuracağıq?
+
+01:49.260 --> 01:52.792
+İlk olaraq, sıfır dəfə ikidə birə vururuq.
+
+01:52.792 --> 01:55.950
+İkinci qiymət üçün, bir dəfə ikidə birə vururuq.
+
+01:55.950 --> 01:58.820
+Üçüncü qiymət üçün isə iki dəfə
+ikidə birə vururuq.
+
+01:58.820 --> 02:01.878
+Dördüncü qiymət üçün üç dəfə
+ikidə birə vururuq.
+
+02:01.878 --> 02:04.300
+Hansı qiyməti tapmaq istəsək, həmin qiymətin
+
+02:04.300 --> 02:08.630
+sayı çıx biri, ikidə birə vururuq.
+
+02:08.630 --> 02:10.120
+Görürsünüz.
+
+02:10.120 --> 02:12.430
+Əgər N birə bərabər olarsa, onda bir çıx bir
+
+02:12.430 --> 02:14.660
+olacaq, yəni sıfır.
+
+02:14.660 --> 02:16.300
+İkidə bir üstü sıfır, birə bərabərdir.
+
+02:16.300 --> 02:18.260
+Nəticədə 168 alırsınız.
+
+02:18.260 --> 02:20.320
+Əgər N ikiyə bərabər olarsa,
+onda iki çıx bir,
+
+02:20.320 --> 02:22.940
+ikidə biri bir dəfə vururuq,
+
+02:22.940 --> 02:24.690
+əgər N üç olsaydı, onda ikidə biri
+
+02:24.690 --> 02:27.130
+iki dəfə vurardıq.
+
+02:27.130 --> 02:31.750
+Üç çıx bir, ikiyə bərabərdir.
+
+02:31.750 --> 02:33.230
+Siz iki dəfə ikidə birə vuracaqsınız
+
+02:33.230 --> 02:35.490
+və burada görürüsünüz.
+
+02:35.490 --> 02:39.790
+Bu həndəsi silsilənin
+
+02:39.790 --> 02:42.050
+ifadəsinə bənzəyir.
+
+02:42.050 --> 02:43.400
+Başqa yolla da düşünə bilərsiniz,
+
+02:43.400 --> 02:47.740
+gəlin baxaq,
+
+02:48.120 --> 02:50.220
+168 üzərindən
+
+02:50.220 --> 02:52.920
+cəbri olaraq
+
+02:52.920 --> 02:56.350
+iki üstü N çıx bir kimi də yaza bilərsiniz.
+
+02:56.350 --> 02:57.675
+Başqa üsul kimi,
+
+02:57.675 --> 03:01.090
+qüvvət xassələrindən istifadə edə bilərik,
+
+03:01.090 --> 03:05.030
+burada G(n)-in
+
+03:05.030 --> 03:07.290
+ikidə bir üstü N çıx birə
+
+03:07.290 --> 03:09.494
+bərabər olduğunu deyə bilərik.
+
+03:09.494 --> 03:12.520
+168-ə bərabərdir.
+
+03:12.520 --> 03:14.221
+Fərqli rənglə edim.
+
+03:14.221 --> 03:16.760
+Gördüyünüz hissə, ikidə bir üstü
+
+03:16.760 --> 03:18.470
+N ilə eynidir.
+
+03:18.470 --> 03:22.760
+Deməli, vur ikidə bir üstü N,
+
+03:22.760 --> 03:24.300
+vur ikidə bir üstü mənfi bir.
+
+03:24.300 --> 03:26.530
+İkidə bir üstü mənfi bir.
+
+03:26.530 --> 03:27.820
+İkidə bir üstü mənfi bir,
+
+03:27.820 --> 03:31.420
+ikiyə bərabərdir,
+
+03:31.420 --> 03:33.879
+yəni vur iki olur.
+
+03:33.879 --> 03:36.790
+Deməli, bunu 168 vur
+
+03:36.790 --> 03:39.560
+iki kimi yaza bilərik?
+
+03:39.560 --> 03:41.620
+336?
+
+03:41.620 --> 03:43.200
+336, doğru aldım?
+
+03:43.200 --> 03:47.500
+160 vur iki, 320-ə bərabərdir, üstəgəl 16,
+
+03:47.500 --> 03:50.030
+iki vur səkkiz, bəli, 336 alırıq.
+
+03:50.030 --> 03:52.660
+Daha sonra, vur ikidə bir üstü N.
+
+03:52.660 --> 03:55.720
+İkidə bir üstü N.
+
+03:55.720 --> 03:57.970
+Onlar bərabər ifadələrdir.
+
+03:57.970 --> 03:59.750
+Amma, bu daha asan anlaşılandır,
+
+03:59.750 --> 04:02.400
+burada 168 ilə başlayırsınız və
+
+04:02.400 --> 04:04.190
+ikidə birə vurursunuz.
+
+04:04.190 --> 04:06.581
+Olduğunuz qiymət çıx bir vur 1/2.
+
+04:06.581 --> 04:09.220
+Bu digərinə cəbri
+
+04:09.220 --> 04:10.930
+olaraq bərabərdir.
+
+04:10.930 --> 04:13.850
+Bəs G(n)-i təkrar təyin edə bilərik?
+
+04:13.850 --> 04:17.050
+Videonu dayandırın və cavabı tapın.
+
+04:17.050 --> 04:19.010
+Çox hallarda təkrar təyin etmək
+
+04:19.010 --> 04:20.690
+daha asan olur, ona görə edək.
+
+04:20.690 --> 04:23.890
+Cədvəldə olduğu
+
+04:23.890 --> 04:26.230
+üçün G(n) funksiyasında
+
+04:26.230 --> 04:28.080
+qalacam.
+
+04:28.080 --> 04:33.030
+G(n) bərabərdir,
+
+04:33.030 --> 04:36.879
+N birə bərabər olduqda,
+
+04:36.879 --> 04:41.879
+168 ilə başlayırıq.
+
+04:42.340 --> 04:47.340
+Əgər N birdən böyük olsa,
+
+04:47.470 --> 04:49.790
+onda bütün
+
+04:49.790 --> 04:52.420
+müsbət qiymətlər funksiyanı
+
+04:52.420 --> 04:56.080
+təyin edəcək, necə edək?
+
+04:56.479 --> 04:58.430
+Biz ikidə biri ondan əvvəlki
+
+04:58.430 --> 05:00.080
+qiymətə vuracağıq.
+
+05:00.080 --> 05:05.080
+Deməli, bu ikidə bir vur G(n) çıx bir olacaq.
+
+05:06.172 --> 05:07.460
+Onun yararlı olduğunu
+təsdiqləyə bilərsiniz.
+
+05:07.460 --> 05:09.690
+Əgər N birə bərabər olarsa,
+
+05:09.690 --> 05:11.300
+onda bu 168 olacaq.
+
+05:11.300 --> 05:14.650
+G(2) ikidə bir vur G(1) olacaq,
+
+05:14.650 --> 05:17.230
+yəni, 168.
+
+05:17.230 --> 05:19.180
+168 vur ikidə bir 84 edir.
+
+05:19.180 --> 05:22.680
+G(3) isə ikidə bir vur G(2) olacaq,
+
+05:22.680 --> 05:26.930
+yəni G(3) G(2)-nin yarısıdır.
+
+05:26.930 --> 05:28.730
+Beləcə
+
+05:28.730 --> 05:32.290
+həndəsi silsilənin funksiyasını
+
+05:32.290 --> 05:36.450
+təyin etdik.

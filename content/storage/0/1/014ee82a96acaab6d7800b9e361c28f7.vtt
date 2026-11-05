@@ -1,0 +1,509 @@
+WEBVTT
+
+00:00.000 --> 00:02.020
+- [Voiceover] The Maclaurin
+series for a function f
+
+00:02.020 --> 00:04.544
+is given by, they give it
+to us in sigma notation
+
+00:04.544 --> 00:06.883
+and then they expand it out for us,
+
+00:06.883 --> 00:08.551
+and converges to f of x
+
+00:08.551 --> 00:11.525
+for the absolute value
+of x being less than R,
+
+00:11.525 --> 00:13.917
+where R is the radius of convergence
+
+00:13.917 --> 00:16.108
+of the Maclaurin series.
+
+00:16.108 --> 00:17.275
+Part a.
+
+00:17.275 --> 00:20.128
+Use the ratio test to find R.
+
+00:20.128 --> 00:22.645
+So first of all, if terms
+like Maclaurin series
+
+00:22.645 --> 00:23.961
+and radius of convergence
+
+00:23.961 --> 00:25.985
+or even convergence or ratio test
+
+00:25.985 --> 00:28.992
+seem foreign to you or you
+have some foggy memories of it,
+
+00:28.992 --> 00:30.752
+you might want to review
+all of those concepts
+
+00:30.752 --> 00:31.659
+on Khan Academy.
+
+00:31.659 --> 00:34.155
+We actually have multiple
+videos and exercises
+
+00:34.155 --> 00:37.026
+on each of these concepts on Khan Academy.
+
+00:37.026 --> 00:38.281
+But if you kind of know what it is,
+
+00:38.281 --> 00:40.086
+I will give you a little bit of a reminder
+
+00:40.086 --> 00:42.228
+for the ratio test.
+
+00:42.228 --> 00:47.139
+So the ratio test tells us if
+we have an infinite series,
+
+00:47.139 --> 00:50.022
+so we go from n equals one to infinity,
+
+00:50.022 --> 00:51.901
+and each term is a sub n,
+
+00:51.901 --> 00:53.924
+the ratio test,
+
+00:53.924 --> 00:56.386
+ratio test,
+
+00:56.386 --> 00:59.782
+says alright, let's consider the ratio
+
+00:59.782 --> 01:01.307
+between successive terms.
+
+01:01.307 --> 01:05.002
+So we could say the
+ratio of a sub n plus one
+
+01:05.002 --> 01:07.262
+over a sub n
+
+01:07.262 --> 01:08.592
+and in particular we want to focus on
+
+01:08.592 --> 01:11.938
+the absolute value of this ratio.
+
+01:11.938 --> 01:14.128
+And this by itself, it
+might not be a constant
+
+01:14.128 --> 01:15.384
+like we would see in a geometric series,
+
+01:15.384 --> 01:18.222
+it actually might be a
+function of n itself.
+
+01:18.222 --> 01:20.671
+And so we want to see the
+behavior of this ratio
+
+01:20.671 --> 01:22.395
+as n gets really, really, really large,
+
+01:22.395 --> 01:23.980
+as we're kind of adding those terms
+
+01:23.980 --> 01:25.739
+as we're getting close to infinity.
+
+01:25.739 --> 01:30.559
+So we want to take the limit
+as n approaches infinity here.
+
+01:30.559 --> 01:33.867
+And if this limit
+exists, let's say it's L,
+
+01:33.867 --> 01:38.700
+and if L is less than one,
+
+01:38.700 --> 01:41.813
+then the series,
+
+01:41.813 --> 01:45.923
+the series converges.
+
+01:45.923 --> 01:47.035
+So what we're gonna want to do,
+
+01:47.035 --> 01:49.203
+and if L is greater than one, it diverges,
+
+01:49.203 --> 01:52.380
+if it's equal to one, it's inconclusive.
+
+01:52.380 --> 01:54.083
+And so what we want to do here is
+
+01:54.083 --> 01:56.422
+we want to figure out the
+absolute value of the ratio here,
+
+01:56.422 --> 01:59.184
+take the limit and then see
+
+01:59.184 --> 02:02.023
+for what x values does that limit,
+
+02:02.023 --> 02:05.113
+will that limit be less than one?
+
+02:05.113 --> 02:06.061
+So let's do that.
+
+02:06.061 --> 02:08.540
+So let's first think about this ratio.
+
+02:08.540 --> 02:11.483
+So a sub n plus one
+
+02:11.483 --> 02:13.713
+over a sub n
+
+02:13.713 --> 02:15.372
+is going to be equal to...
+
+02:15.372 --> 02:18.298
+So if we put n plus one
+into this expression here,
+
+02:18.298 --> 02:19.505
+we're gonna have...
+
+02:19.505 --> 02:21.084
+so let me make this clear,
+
+02:21.084 --> 02:22.594
+So I'm gonna do a sub n plus one up here,
+
+02:22.594 --> 02:25.622
+so we're gonna have negative three,
+
+02:25.622 --> 02:28.352
+and I could write to the n
+plus one instead of an n,
+
+02:28.352 --> 02:29.861
+and then minus one, so it would be
+
+02:29.861 --> 02:33.134
+n plus one minus one.
+
+02:33.134 --> 02:34.947
+Well plus one minus one is just zero
+
+02:34.947 --> 02:35.933
+so that's just the same thing as
+
+02:35.933 --> 02:40.059
+negative three to the n,
+times x to the n plus one,
+
+02:40.059 --> 02:42.726
+x to the n plus one,
+
+02:42.726 --> 02:45.960
+over n plus one.
+
+02:45.960 --> 02:47.893
+So that's a sub n plus one there.
+
+02:47.893 --> 02:49.956
+And a sub n, well that's just
+
+02:49.956 --> 02:52.854
+negative three to the n minus one
+
+02:52.854 --> 02:57.135
+times x to the n over n.
+
+02:57.135 --> 03:00.470
+So what does this right
+over here simplify to?
+
+03:00.470 --> 03:02.787
+This is going to be equal to,
+
+03:02.787 --> 03:05.415
+well we could just say
+this divided by that's
+
+03:05.415 --> 03:06.971
+the same thing as multiplying by
+
+03:06.971 --> 03:08.922
+the reciprocal of all
+of this stuff down here.
+
+03:08.922 --> 03:13.519
+So it's negative three to the n,
+
+03:13.519 --> 03:16.007
+x to the n plus one
+
+03:16.007 --> 03:18.657
+over n plus one,
+
+03:18.657 --> 03:21.553
+times the reciprocal of this business.
+
+03:21.553 --> 03:26.399
+So times n over
+
+03:26.399 --> 03:29.809
+negative three to the n minus one,
+
+03:29.809 --> 03:31.775
+x to the n.
+
+03:31.775 --> 03:33.672
+And so can we simplify this?
+
+03:33.672 --> 03:35.715
+Well we can divide both the
+numerator and the denominator
+
+03:35.715 --> 03:37.273
+here by x to the n.
+
+03:37.273 --> 03:39.494
+So this divided by x to the n is just one.
+
+03:39.494 --> 03:43.032
+This divided by x to
+the n is going to be x,
+
+03:43.032 --> 03:44.771
+or x to the first power.
+
+03:44.771 --> 03:46.197
+And we can divide the
+numerator and the denominator
+
+03:46.197 --> 03:48.476
+by negative three to the n minus one.
+
+03:48.476 --> 03:49.915
+Well this is just going to be one.
+
+03:49.915 --> 03:51.624
+And if you divide negative three to the n
+
+03:51.624 --> 03:54.104
+by negative three to the n
+minus one, well that's just
+
+03:54.104 --> 03:56.276
+going to be negative
+three to the first power.
+
+03:56.276 --> 03:58.084
+So this is all going to be
+
+03:58.084 --> 04:02.304
+negative three x n
+
+04:02.304 --> 04:07.244
+over n plus one.
+
+04:07.244 --> 04:08.923
+So now let's think about what the limit
+
+04:08.923 --> 04:10.859
+of the absolute value of this
+
+04:10.859 --> 04:12.885
+as n approaches infinity is.
+
+04:12.885 --> 04:14.950
+So the limit
+
+04:14.950 --> 04:18.550
+the limit as n approaches infinity
+
+04:18.550 --> 04:20.356
+of the absolute value
+
+04:20.356 --> 04:24.016
+of negative three x n
+
+04:24.016 --> 04:26.716
+over n plus one.
+
+04:26.716 --> 04:28.858
+Now some of you might
+recognize if we focus on n,
+
+04:28.858 --> 04:31.607
+we have the same degree up
+here, same degree down here,
+
+04:31.607 --> 04:34.373
+it's both n to the first,
+so these are going to,
+
+04:34.373 --> 04:37.144
+the n over n plus one is
+going to approach one.
+
+04:37.144 --> 04:38.365
+And so you might say "Okay,
+well this is going to be
+
+04:38.365 --> 04:40.858
+the absolute value of negative three x",
+
+04:40.858 --> 04:42.589
+but if you want to make
+that a little bit clearer
+
+04:42.589 --> 04:44.470
+this is equal to the limit
+
+04:44.470 --> 04:48.460
+as n approaches infinity of,
+
+04:48.460 --> 04:51.745
+and I'll write it this way,
+
+04:51.745 --> 04:55.098
+so I could write the absolute
+value of negative three x
+
+04:55.098 --> 04:58.057
+or the absolute value of negative
+three x is the same thing
+
+04:58.057 --> 05:01.827
+as three times the absolute value of x
+
+05:01.827 --> 05:06.015
+times the absolute value of,
+
+05:06.015 --> 05:08.816
+if I divide the numerator
+here by n, I would get one
+
+05:08.816 --> 05:11.656
+and if I divide the
+denominator by n, I could do...
+
+05:11.656 --> 05:14.619
+if I multiply or divide the
+numerator and the denominator
+
+05:14.619 --> 05:16.902
+by the same thing, I'm
+not changing the value.
+
+05:16.902 --> 05:19.151
+So if I divide both of them by n,
+
+05:19.151 --> 05:20.334
+in the numerator I just get one,
+
+05:20.334 --> 05:24.122
+in the denominator, n divided by n is one,
+
+05:24.122 --> 05:27.979
+one divided by n is plus one over n.
+
+05:27.979 --> 05:30.191
+And so this might be a
+little bit clearer that
+
+05:30.191 --> 05:32.509
+as n approaches infinity,
+well we don't know,
+
+05:32.509 --> 05:34.103
+this doesn't deal with n.
+
+05:34.103 --> 05:37.379
+But this over here, one over
+n is going to approach zero,
+
+05:37.379 --> 05:39.353
+and so this whole thing
+is going to approach one
+
+05:39.353 --> 05:40.898
+and so the limit is going to be
+
+05:40.898 --> 05:44.246
+three times the absolute value of x.
+
+05:44.246 --> 05:47.529
+And so remember, this series converges
+
+05:47.529 --> 05:51.757
+if this limit is less than one.
+
+05:51.757 --> 05:53.944
+So converges,
+
+05:53.944 --> 05:55.954
+converges,
+
+05:55.954 --> 06:00.294
+converges if three times
+the absolute value of x
+
+06:00.294 --> 06:01.758
+is less than one.
+
+06:01.758 --> 06:04.126
+Or we could say the absolute value of x,
+
+06:04.126 --> 06:05.995
+just divide both sides by three,
+
+06:05.995 --> 06:08.352
+is less than one third.
+
+06:08.352 --> 06:12.703
+And so we have just found
+our radius of convergence.
+
+06:12.703 --> 06:16.066
+So we could say R is equal to one third.
+
+06:16.066 --> 06:18.263
+This Maclaurin series is going to converge
+
+06:18.263 --> 06:20.689
+as long as the absolute value of x
+
+06:20.689 --> 06:23.209
+is less than one third.
+
+06:23.209 --> 06:28.021
+Or we could say our radius
+of convergence is equal to,
+
+06:28.021 --> 06:31.520
+our radius of convergence
+is equal to one third.
+
+06:31.520 --> 06:33.473
+So there you go.

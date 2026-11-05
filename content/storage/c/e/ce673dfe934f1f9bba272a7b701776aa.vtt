@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.040 --> 00:02.951
+Mình được hỏi để tìm chuỗi luỹ thừa cho f,
+
+00:02.951 --> 00:05.656
+và họ cho mình f(x) bằng 6 chia 1
+
+00:05.656 --> 00:08.630
+cộng x mũ 3.
+
+00:08.630 --> 00:11.988
+Vì họ cho chúng ta chọn chuỗi luỹ thừa,
+
+00:11.988 --> 00:14.639
+vậy thì mình chỉ cần tìm chuỗi Maclaurin
+
+00:14.639 --> 00:17.020
+vì chuỗi Maclaurin nhìn đơn giản nhất
+
+00:17.020 --> 00:19.993
+để tìm vì mình đang ở tại điểm 0.
+
+00:19.993 --> 00:22.598
+Vậy bạn có thể nói, được rồi
+
+00:22.598 --> 00:24.340
+để mình tính hàm này ở 0,
+
+00:24.340 --> 00:25.775
+tính đạo hàm ở 0,
+
+00:25.775 --> 00:28.523
+đạo hàm thứ 2 ở 0 và cứ thế.
+
+00:28.523 --> 00:30.476
+Và mình có thể sử dụng công thức
+
+00:30.476 --> 00:32.901
+cho chuỗi Maclaurin để khai triển nó ra.
+
+00:32.901 --> 00:35.794
+Nhưng rất nhanh, bạn sẽ bị kẹt
+
+00:35.794 --> 00:37.656
+vì đầu tiên
+
+00:37.656 --> 00:39.004
+tính nó tại
+
+00:39.004 --> 00:40.778
+x bằng 0 thì khá đơn giản.
+
+00:40.778 --> 00:42.915
+Tính đạo hàm thứ 1 thì khá đơn giản.
+
+00:42.915 --> 00:44.118
+Nhưng khi bắt đầu đạo hàm
+
+00:44.118 --> 00:47.344
+thứ 2 và 3, nó sẽ trở nên khó hơn.
+
+00:47.344 --> 00:49.878
+Bạn có thể rút gọn
+
+00:49.878 --> 00:52.065
+bạn có thể lấy chuỗi Maclaurin
+
+00:52.065 --> 00:55.648
+cho f(u) bằng 6 chia 1 cộng u,
+
+00:56.804 --> 00:59.775
+mà u bằng x mũ 3.
+
+00:59.775 --> 01:02.625
+Nếu bạn lấy khai triển Maclaurin này,
+theo biến u
+
+01:02.625 --> 01:04.742
+và bạn thay thế nó cho x mũ 3.
+
+01:04.742 --> 01:06.624
+Thật ra nó làm mọi thứ đơn giản hơn,
+
+01:06.624 --> 01:08.699
+vậy đó là cách khác để giải.
+
+01:08.699 --> 01:11.101
+Nhưng cách đơn giản nhất
+
+01:11.101 --> 01:13.979
+là dạng này ở đây,
+
+01:13.979 --> 01:16.796
+biểu thức hữu tỷ này ở đây na ná nhau.
+
+01:16.796 --> 01:20.282
+Nó nhìn như tổng của một chuỗi cấp số nhân
+
+01:20.282 --> 01:21.985
+Hãy ôn lại xem tổng
+
+01:21.985 --> 01:23.908
+của chuỗi cấp số nhân nhìn như thế nào.
+
+01:23.908 --> 01:25.241
+Nếu mình có dương
+
+01:26.356 --> 01:30.837
+a nhân r, vậy a là số hạng đầu tiên,
+r là tỉ lệ chung,
+
+01:30.837 --> 01:32.744
+cộng, mình sẽ nhân r 1 lần nữa
+
+01:32.744 --> 01:34.661
+cộng a nhân r mũ 2,
+
+01:36.748 --> 01:39.412
+cộng a nhân r mũ 3,
+
+01:39.412 --> 01:42.699
+và mình cứ tiếp tục.
+
+01:42.699 --> 01:46.602
+Mình biết đây sẽ bằng số hạng đầu tiên a
+
+01:46.602 --> 01:48.883
+chia 1 trừ tỉ lệ chung,
+
+01:48.883 --> 01:53.604
+và đây là tổng của chuỗi cấp số nhân.
+
+01:53.604 --> 01:55.861
+Chú ý, f(x) ở đây
+
+01:55.861 --> 01:57.584
+định nghĩa của f(x),
+
+01:57.584 --> 02:01.049
+rất giống với tổng của chuỗi cấp số nhân.
+
+02:01.049 --> 02:04.761
+Nếu mình nói đây là a,
+
+02:04.761 --> 02:06.873
+vậy a bằng 6.
+
+02:06.873 --> 02:11.043
+Nếu âm r bằng x mũ 3,
+
+02:11.043 --> 02:13.181
+để mình viết lại,
+
+02:13.181 --> 02:15.785
+Mình có thể viết mẫu số là 1 trừ
+
+02:15.785 --> 02:18.403
+âm x mũ 3.
+
+02:18.403 --> 02:21.579
+Bây giờ, bạn có thể nói, r
+
+02:21.579 --> 02:24.785
+có thể bằng âm x mũ 3.
+
+02:24.785 --> 02:26.828
+Và như thế mình có thể khai triển nó ra.
+
+02:26.828 --> 02:29.078
+Nếu a bằng 6,
+
+02:30.015 --> 02:32.644
+và r bằng âm x mũ 3,
+
+02:32.644 --> 02:35.360
+thì mình chỉ cần viết nó thành
+chuỗi cấp số nhân,
+
+02:35.360 --> 02:36.775
+nó khá là đơn giản.
+
+02:36.775 --> 02:38.093
+Vậy hãy làm thôi.
+
+02:38.093 --> 02:41.553
+Mình sẽ dùng màu hồng ha.
+
+02:41.553 --> 02:44.545
+Số hạng đầu là 6,
+
+02:44.545 --> 02:47.603
+cộng 6 nhân tỉ lệ chung,
+
+02:47.603 --> 02:50.875
+6 nhân âm x mũ 3.
+
+02:50.875 --> 02:52.744
+Và thật ra, để mình viết nó thành
+
+02:52.744 --> 02:56.142
+âm 6x mũ 3, và mình sẽ nhân
+
+02:56.142 --> 02:58.526
+cho âm x mũ 3 lần nữa.
+
+02:58.526 --> 03:00.666
+Vậy nó sẽ bằng, nếu
+
+03:00.666 --> 03:02.359
+nhân âm x mũ 3
+
+03:02.359 --> 03:04.542
+nó sẽ là dương 6
+
+03:04.542 --> 03:07.042
+nhân x mũ 6.
+
+03:08.263 --> 03:10.127
+Và mình sẽ nhân nó cho âm x
+
+03:10.127 --> 03:14.995
+mũ 3 lần nữa, và nó sẽ là âm 6 nhân x
+
+03:14.995 --> 03:16.578
+mũ 9,
+
+03:17.767 --> 03:19.886
+và cứ tiếp tục.
+
+03:19.886 --> 03:21.660
+Mình có thể tiếp tục
+
+03:21.660 --> 03:24.207
+mình nhân nó cho âm x mũ 3
+
+03:24.207 --> 03:28.210
+mình có 6x mũ 12.
+
+03:28.210 --> 03:32.099
+Mình có thể tiếp tục mãi.
+
+03:32.099 --> 03:33.826
+Điều quan trọng ở đây
+
+03:33.826 --> 03:37.914
+và đây là khai triển chuỗi Maclaurin
+cho f(x)
+
+03:37.914 --> 03:39.809
+nhưng quan trọng ở đây là không cần
+
+03:39.809 --> 03:41.618
+phải đi qua những bước này để nhận ra
+
+03:41.618 --> 03:43.923
+hàm số này
+
+03:43.923 --> 03:47.350
+nhìn giống tổng của chuỗi cấp số nhân
+
+03:47.350 --> 03:49.732
+Và nó được coi là tổng của
+chuỗi cấp số nhân,
+
+03:49.732 --> 03:54.324
+và mình có thể dùng nó để tìm
+khai triển chuỗi luỹ thừa
+
+03:54.324 --> 03:55.306
+cho hàm của mình.
+
+03:55.306 --> 03:58.639
+Nó là một mẹo rất hữu dụng.

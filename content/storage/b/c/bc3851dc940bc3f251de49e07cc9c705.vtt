@@ -1,0 +1,210 @@
+WEBVTT
+
+00:00.259 --> 00:06.147
+Máme zde uvedeny dvě
+základní vlastnosti neurčitých integrálů
+
+00:06.147 --> 00:09.044
+a brzy uvidíme, že jsou velmi užitečné.
+
+00:09.044 --> 00:15.404
+Toto nám říká, že neurčitý integrál
+součtu dvou různých funkcí
+
+00:15.404 --> 00:21.622
+se rovná součtu jednotlivých
+neurčitých integrálů těchto funkcí.
+
+00:22.281 --> 00:28.270
+Tato rovnost zase říká, že neurčitý integrál součinu
+konstanty, která není funkcí proměnné x,
+
+00:28.270 --> 00:36.882
+integrál konstanty krát f(x) je roven
+konstantě krát neurčitý integrál f(x).
+
+00:36.882 --> 00:41.042
+jinými slovy dáme konstantu před integrál.
+
+00:41.042 --> 00:44.684
+Obě tyto vlastnosti se nám budou hodit.
+
+00:44.934 --> 00:50.303
+Pokud vám toto stačí,
+můžete pokračovat na další video.
+
+00:50.303 --> 00:52.191
+Chcete-li však menší důkaz,
+
+00:52.191 --> 00:56.172
+zderivuji obě strany této rovnosti
+
+00:56.172 --> 00:58.763
+a pomocí vlastností
+diferenciálního počtu ukáži,
+
+00:58.763 --> 01:01.373
+že vzniklé derivace jsou totožné.
+
+01:01.373 --> 01:03.251
+Pojďme to tedy udělat.
+
+01:07.705 --> 01:12.804
+K důkazu obou rovností využiji
+vlastností derivace.
+
+01:12.804 --> 01:15.925
+Zderivujeme obě strany a uvidíme,
+
+01:15.925 --> 01:20.921
+že rovnost stále platí i poté,
+co odstraníme integrály.
+
+01:26.013 --> 01:30.026
+Pojďme zderivovat obě strany podle x.
+
+01:34.983 --> 01:40.395
+Levá strana se bude rovnat tomu,
+co máme v tom neurčitém integrálu.
+
+01:40.395 --> 01:46.279
+Stane se z toho f(x) + g(x).
+
+01:49.573 --> 01:51.811
+No a co se stane s tímto?
+
+01:51.811 --> 01:54.945
+Podle vlastností derivací platí,
+
+01:54.945 --> 01:59.577
+že derivace součtu dvou funkcí se rovná
+součtu jednotlivých derivací.
+
+01:59.577 --> 02:01.710
+Bude to trošičku delší.
+
+02:02.028 --> 02:10.534
+Derivace této první části podle x
+plus derivace druhé části podle x.
+
+02:11.224 --> 02:15.215
+První část je integrál funkce f(x) dx.
+
+02:15.885 --> 02:18.795
+Plus tady integrál funkce g(x) dx.
+
+02:20.389 --> 02:22.763
+Tady je f(x)
+
+02:22.763 --> 02:25.194
+a tady je g(x).
+
+02:26.034 --> 02:28.277
+A čemu se rovnají tyto výrazy?
+
+02:28.277 --> 02:31.414
+Tyto výrazy,
+napíšeme ještě tady "rovná se",
+
+02:31.414 --> 02:37.021
+derivace tohoto podle x bude rovna f(x)
+
+02:37.809 --> 02:42.223
+a derivace tohoto podle x bude g(x).
+
+02:42.951 --> 02:45.645
+Toto tvrzení je očividně pravdivé.
+
+02:45.881 --> 02:47.744
+Pojďme se teď podívat na tuto rovnost.
+
+02:47.744 --> 02:52.390
+Uděláme zde to samé,
+zderivujeme obě strany rovnosti.
+
+02:53.316 --> 02:57.060
+Derivace podle x levé strany
+
+02:57.230 --> 03:01.128
+a derivace podle x pravé strany.
+
+03:01.819 --> 03:07.000
+Levá strana bude jasně rovna c krát f(x).
+
+03:07.364 --> 03:10.667
+A co se stane s pravou stranou?
+
+03:11.744 --> 03:14.630
+Z diferenciálního počtu víme,
+
+03:14.630 --> 03:16.649
+že derivace konstanty krát funkce
+
+03:16.649 --> 03:22.458
+je rovna konstantě krát derivace funkce.
+
+03:23.711 --> 03:27.995
+Takže dostaneme
+neurčitý integrál funkce f(x) dx.
+
+03:28.951 --> 03:32.181
+A tento výraz se bude rovnat f(x).
+
+03:32.181 --> 03:36.885
+Tento výraz se bude rovnat c krát f(x).
+
+03:37.967 --> 03:42.007
+Takže i zde vidíme, že rovnost je platná.
+
+03:42.430 --> 03:45.209
+Snad vám tyto důkazy
+potvrdily platnost těchto vlastností,
+
+03:45.209 --> 03:48.195
+ale důležitější je vědět,
+kdy se hodí je použít.
+
+03:48.195 --> 04:00.318
+Například, když bych měl neurčitý integrál
+x na druhou plus kosinus x,
+
+04:00.318 --> 04:05.477
+už víme, že se to rovná
+
+04:05.761 --> 04:09.828
+integrálu x na druhou dx
+plus integrálu kosinu x dx.
+
+04:10.467 --> 04:15.363
+Takže tento výraz se rovná tomuto.
+
+04:15.906 --> 04:18.559
+Nyní můžete určit každý integrál zvlášť.
+
+04:18.888 --> 04:25.672
+A tato rovnost nám pomůže,
+protože když mám například
+
+04:25.885 --> 04:32.401
+integrál pí krát sinus x dx,
+
+04:34.320 --> 04:36.769
+tak můžeme konstantu dát před integrál.
+
+04:36.769 --> 04:40.546
+Pí rozhodně není funkcí proměnné x,
+bude mít stále svou stejnou hodnotu,
+
+04:40.546 --> 04:43.213
+takže ho můžeme dát před integrál,
+a to se bude rovnat
+
+04:43.213 --> 04:48.161
+pí krát integrál sinu x.
+
+04:48.430 --> 04:50.759
+Toto jsou dvě velmi užitečné
+vlastnosti integrálů
+
+04:50.759 --> 04:54.434
+a snad jsou nyní zřejmější.

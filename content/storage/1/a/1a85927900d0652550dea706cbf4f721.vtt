@@ -1,0 +1,555 @@
+WEBVTT
+
+00:00.660 --> 00:02.930
+In the last video, we
+took the Maclaurin series
+
+00:02.930 --> 00:04.180
+of cosine of x.
+
+00:04.180 --> 00:06.670
+We approximated it
+using this polynomial.
+
+00:06.670 --> 00:08.560
+And we saw this pretty
+interesting pattern.
+
+00:08.560 --> 00:10.310
+Let's see if we can
+find a similar pattern
+
+00:10.310 --> 00:14.360
+if we try to approximate sine
+of x using a Maclaurin series.
+
+00:14.360 --> 00:16.000
+And once again, a
+Maclaurin series
+
+00:16.000 --> 00:18.240
+is really the same thing
+as a Taylor series,
+
+00:18.240 --> 00:20.800
+where we are centering
+our approximation
+
+00:20.800 --> 00:23.740
+around x is equal to 0.
+
+00:23.740 --> 00:26.830
+So it's just a special
+case of a Taylor series.
+
+00:26.830 --> 00:29.870
+So let's take f of
+x in this situation
+
+00:29.870 --> 00:31.410
+to be equal to sine of x.
+
+00:36.380 --> 00:38.890
+And let's do the same thing
+that we did with cosine of x.
+
+00:38.890 --> 00:40.598
+Let's just take the
+different derivatives
+
+00:40.598 --> 00:42.450
+of sine of x really fast.
+
+00:42.450 --> 00:46.240
+So if you have the first
+derivative of sine of x,
+
+00:46.240 --> 00:48.490
+is just cosine of x.
+
+00:48.490 --> 00:51.160
+The second derivative
+of the sine of x
+
+00:51.160 --> 00:55.880
+is the derivative of cosine of
+x, which is negative sine of x.
+
+00:55.880 --> 00:58.790
+The third derivative is going
+to be the derivative of this.
+
+00:58.790 --> 01:00.437
+So I'll just write
+a 3 in parentheses
+
+01:00.437 --> 01:02.270
+there, instead of doing
+prime, prime, prime.
+
+01:02.270 --> 01:04.310
+So the third derivative
+is the derivative
+
+01:04.310 --> 01:07.790
+of this, which is
+negative cosine of x.
+
+01:07.790 --> 01:11.570
+The fourth derivative
+is the derivative
+
+01:11.570 --> 01:15.020
+of this, which is
+positive sine of x again.
+
+01:15.020 --> 01:17.950
+So you see, just like cosine
+of x, it kind of cycles
+
+01:17.950 --> 01:19.990
+after you take the
+derivative enough times.
+
+01:19.990 --> 01:22.550
+And we care-- in order to do
+the Maclaurin, series-- we care
+
+01:22.550 --> 01:26.840
+about evaluating the function,
+and each of these derivatives
+
+01:26.840 --> 01:28.450
+at x is equal to 0.
+
+01:28.450 --> 01:30.220
+So let's do that.
+
+01:30.220 --> 01:32.510
+So for this, let me do this
+in a different color, not
+
+01:32.510 --> 01:34.030
+that same blue.
+
+01:34.030 --> 01:36.320
+I'll do it in this purple color.
+
+01:36.320 --> 01:38.810
+So f-- that's hard
+to see, I think
+
+01:38.810 --> 01:40.930
+So let's do this
+other blue color.
+
+01:40.930 --> 01:45.620
+So f of 0, in this
+situation, is 0.
+
+01:45.620 --> 01:50.280
+And f, the first derivative
+evaluated at 0, is 1.
+
+01:50.280 --> 01:52.880
+Cosine of 0 is 1.
+
+01:52.880 --> 01:57.300
+Negative sine of 0
+is going to be 0.
+
+01:57.300 --> 02:01.210
+So f prime prime, the second
+derivative evaluated at 0 is 0.
+
+02:01.210 --> 02:06.335
+The third derivative
+evaluated at 0 is negative 1.
+
+02:06.335 --> 02:08.411
+Cosine of 0 is 1.
+
+02:08.411 --> 02:09.660
+You have a negative out there.
+
+02:09.660 --> 02:10.850
+It is negative 1.
+
+02:10.850 --> 02:14.850
+And then the fourth
+derivative evaluated at 0
+
+02:14.850 --> 02:16.594
+is going to be 0 again.
+
+02:16.594 --> 02:18.385
+And we could keep going,
+but once again, it
+
+02:18.385 --> 02:19.593
+seems like there's a pattern.
+
+02:19.593 --> 02:21.130
+0, 1, 0, negative
+1, 0, then you're
+
+02:21.130 --> 02:22.920
+going to go back to positive 1.
+
+02:22.920 --> 02:24.750
+So on and so forth.
+
+02:24.750 --> 02:28.230
+So let's find its
+polynomial representation
+
+02:28.230 --> 02:29.510
+using the Maclaurin series.
+
+02:29.510 --> 02:31.380
+And just a reminder,
+this one up here,
+
+02:31.380 --> 02:34.210
+this was approximately
+cosine of x.
+
+02:34.210 --> 02:36.220
+And you'll get closer and
+closer to cosine of x.
+
+02:36.220 --> 02:37.960
+I'm not rigorously
+showing you how
+
+02:37.960 --> 02:40.760
+close, in that it's definitely
+the exact same thing as cosine
+
+02:40.760 --> 02:42.710
+of x, but you get closer
+and closer and closer
+
+02:42.710 --> 02:44.975
+to cosine of x as you
+keep adding terms here.
+
+02:44.975 --> 02:46.350
+And if you go to
+infinity, you're
+
+02:46.350 --> 02:48.920
+going to be pretty
+much at cosine of x.
+
+02:48.920 --> 02:51.490
+Now let's do the same
+thing for sine of x.
+
+02:51.490 --> 02:52.960
+So I'll pick a new color.
+
+02:52.960 --> 02:54.980
+This green should be nice.
+
+02:54.980 --> 02:56.820
+So this is our new p of x.
+
+02:56.820 --> 02:58.590
+So this is approximately
+going to be
+
+02:58.590 --> 03:01.600
+sine of x, as we add
+more and more terms.
+
+03:01.600 --> 03:06.820
+And so the first term here, f
+of 0, that's just going to be 0.
+
+03:06.820 --> 03:09.050
+So we're not even going
+to need to include that.
+
+03:09.050 --> 03:11.090
+The next term is
+going to be f prime
+
+03:11.090 --> 03:13.800
+of 0, which is 1, times x.
+
+03:13.800 --> 03:15.880
+So it's going to be x.
+
+03:15.880 --> 03:18.450
+Then the next term is f
+prime, the second derivative
+
+03:18.450 --> 03:21.220
+at 0, which we see here is 0.
+
+03:21.220 --> 03:23.020
+Let me scroll down a little bit.
+
+03:23.020 --> 03:24.340
+It is 0.
+
+03:24.340 --> 03:26.610
+So we won't have
+the second term.
+
+03:26.610 --> 03:29.590
+This third term right
+here, the third derivative
+
+03:29.590 --> 03:32.920
+of sine of x evaluated
+at 0, is negative 1.
+
+03:32.920 --> 03:36.830
+So we're now going
+to have a negative 1.
+
+03:36.830 --> 03:39.490
+Let me scroll down
+so you can see this.
+
+03:39.490 --> 03:42.240
+Negative 1-- this is
+negative 1 in this case--
+
+03:42.240 --> 03:45.505
+times x to the third
+over 3 factorial.
+
+03:50.880 --> 03:52.860
+And then the next
+term is going to be 0,
+
+03:52.860 --> 03:55.850
+because that's the
+fourth derivative.
+
+03:55.850 --> 03:59.660
+The fourth derivative evaluated
+at 0 is the next coefficient.
+
+03:59.660 --> 04:03.052
+We see that that is going to be
+0, so it's going to drop off.
+
+04:03.052 --> 04:04.510
+And what you're
+going to see here--
+
+04:04.510 --> 04:06.825
+and actually maybe I haven't
+done enough terms for you,
+
+04:06.825 --> 04:08.300
+for you to feel good about this.
+
+04:08.300 --> 04:10.330
+Let me do one more
+term right over here.
+
+04:10.330 --> 04:12.690
+Just so it becomes clear.
+
+04:12.690 --> 04:15.450
+f of the fifth
+derivative of x is
+
+04:15.450 --> 04:17.440
+going to be cosine of x again.
+
+04:17.440 --> 04:20.209
+The fifth derivative-- we'll
+do it in that same color,
+
+04:20.209 --> 04:27.180
+just so it's consistent-- the
+fifth derivative evaluated at 0
+
+04:27.180 --> 04:29.570
+is going to be 1.
+
+04:29.570 --> 04:33.470
+So the fourth derivative
+evaluated at 0 is 0,
+
+04:33.470 --> 04:36.860
+then you go to the fifth
+derivative evaluated at 0,
+
+04:36.860 --> 04:38.814
+it's going to be positive 1.
+
+04:38.814 --> 04:40.730
+And if I kept doing this,
+it would be positive
+
+04:40.730 --> 04:44.440
+1-- I have to write the 1
+as the coefficient-- times x
+
+04:44.440 --> 04:47.770
+to the fifth over 5 factorial.
+
+04:47.770 --> 04:50.530
+So there's something
+interesting going on here.
+
+04:50.530 --> 04:55.500
+For cosine of x, I had 1,
+essentially 1 times x to the 0.
+
+04:55.500 --> 04:58.420
+Then I don't have x
+to the first power.
+
+04:58.420 --> 05:00.240
+I don't have x to the
+odd powers, actually.
+
+05:00.240 --> 05:02.830
+And then I just essentially have
+x to all of the even powers.
+
+05:02.830 --> 05:06.650
+And whatever power it is, I'm
+dividing it by that factorial.
+
+05:06.650 --> 05:09.400
+And then the sines
+keep switching.
+
+05:09.400 --> 05:12.300
+I shouldn't say this is an even
+power, because 0 really isn't.
+
+05:12.300 --> 05:14.440
+Well, I guess you can
+view it as an even number,
+
+05:14.440 --> 05:17.540
+because-- well I won't
+go into all of that.
+
+05:17.540 --> 05:22.440
+But it's essentially 0, 2,
+4, 6, so on and so forth.
+
+05:22.440 --> 05:24.200
+So this is
+interesting, especially
+
+05:24.200 --> 05:25.440
+when you compare to this.
+
+05:25.440 --> 05:26.760
+This is all of the odd powers.
+
+05:26.760 --> 05:29.060
+This is x to the first
+over 1 factorial.
+
+05:29.060 --> 05:30.300
+I didn't write it here.
+
+05:30.300 --> 05:32.580
+This is x to the
+third over 3 factorial
+
+05:32.580 --> 05:34.477
+plus x to the fifth
+over 5 factorial.
+
+05:34.477 --> 05:35.810
+Yeah, 0 would be an even number.
+
+05:35.810 --> 05:39.830
+Anyway, my brain is in a
+different place right now.
+
+05:39.830 --> 05:40.890
+And you could keep going.
+
+05:40.890 --> 05:43.190
+If we kept this process
+up, you would then
+
+05:43.190 --> 05:44.280
+keep switching sines.
+
+05:44.280 --> 05:48.200
+X to the seventh over
+7 factorial plus x
+
+05:48.200 --> 05:49.527
+to the ninth over 9 factorial.
+
+05:49.527 --> 05:51.110
+So there's something
+interesting here.
+
+05:51.110 --> 05:55.280
+You once again see this
+kind of complimentary nature
+
+05:55.280 --> 05:56.930
+between sine and cosine here.
+
+05:56.930 --> 05:58.630
+You see almost
+this-- they're kind
+
+05:58.630 --> 06:00.960
+of filling each
+other's gaps over here.
+
+06:00.960 --> 06:03.220
+Cosine of x is all
+of the even powers
+
+06:03.220 --> 06:05.680
+of x divided by that
+power's factorial.
+
+06:05.680 --> 06:08.310
+Sine of x, when you take its
+polynomial representation,
+
+06:08.310 --> 06:12.470
+is all of the odd powers of
+x divided by its factorial,
+
+06:12.470 --> 06:14.100
+and you switch sines.
+
+06:14.100 --> 06:16.640
+In the next video,
+I'll do e to the x.
+
+06:16.640 --> 06:18.660
+And what's really
+fascinating is that e
+
+06:18.660 --> 06:22.310
+to the x starts to look like
+a little bit of a combination
+
+06:22.310 --> 06:24.050
+here, but not quite.
+
+06:24.050 --> 06:25.790
+And you really do
+get the combination
+
+06:25.790 --> 06:28.310
+when you involve
+imaginary numbers.
+
+06:28.310 --> 06:32.860
+And that's when it starts to
+get really, really mind blowing.

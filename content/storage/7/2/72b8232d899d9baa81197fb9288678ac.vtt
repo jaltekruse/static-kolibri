@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.269 --> 00:01.920
+V minulém videu jsem tvrdil,
+
+00:01.920 --> 00:07.510
+že se nám tento vzorec bude hodit
+při integrování určitých funkcí.
+
+00:07.520 --> 00:09.890
+Pojďme se podívat,
+jestli je to opravdu tak.
+
+00:09.900 --> 00:17.580
+Řekněme, že chci spočítat integrál
+x krát kosinus x dx.
+
+00:17.591 --> 00:19.500
+Když se podíváme na tento vzorec,
+
+00:19.500 --> 00:24.110
+chceme přiřadit část tohoto k f(x)
+a jinou část k g'(x).
+
+00:24.120 --> 00:29.030
+Otázkou je, jestli přiřadím
+f(x) k x a g'(x) ke kosinu x, nebo naopak?
+
+00:29.040 --> 00:32.850
+Bude f(x) kosinus x
+a g'(x) bude x?
+
+00:32.850 --> 00:35.890
+Přijdeme na to tak,
+že se podíváme na zbytek vzorce
+
+00:35.900 --> 00:39.260
+a uvědomíme si,
+že musíme potom spočítat toto.
+
+00:39.279 --> 00:42.630
+A tady máme derivaci f(x) krát g(x).
+
+00:42.630 --> 00:44.550
+Takže chceme f(x) určit tak,
+
+00:44.560 --> 00:48.460
+aby derivace f(x)
+byla jednodušší než f(x).
+
+00:48.470 --> 00:51.867
+A určit g(x) tak,
+abychom po jeho zintegrování
+
+00:51.877 --> 00:54.630
+nedostali nic složitějšího.
+
+00:54.630 --> 00:59.550
+V tomto případě,
+když určíme, že f(x) je rovno x,
+
+00:59.560 --> 01:03.450
+f'(x) je rozhodně jednodušší,
+f'(x) je rovno 1.
+
+01:03.460 --> 01:11.220
+Když g(x) bude kosinus x,
+když jej zintegrujeme,
+
+01:11.230 --> 01:13.600
+dostaneme sinus x,
+což není o nic složitější.
+
+01:13.610 --> 01:17.536
+Kdybychom to udělali naopak,
+kdyby f(x) bylo kosinus x,
+
+01:17.545 --> 01:20.770
+pak jej tady musíme zderivovat.
+To není až tak složité.
+
+01:20.770 --> 01:25.339
+Ale kdyby pak g'(x) bylo rovno x
+a museli bychom jej zintegrovat,
+
+01:25.340 --> 01:28.340
+dostaneme x² lomeno 2,
+to je složitější.
+
+01:28.350 --> 01:30.690
+Takže si to tady ujasníme.
+
+01:30.690 --> 01:36.180
+f(x) bude rovno x.
+
+01:36.200 --> 01:40.690
+A to znamená,
+že derivace f bude rovna 1.
+
+01:40.700 --> 01:43.840
+Přiřadíme...
+Napíšu to tady.
+
+01:43.850 --> 01:48.840
+g'(x) bude rovno kosinus x,
+což znamená,
+
+01:48.840 --> 01:56.650
+že g(x) je rovno sinus x,
+integrál kosinu x.
+
+01:56.660 --> 02:02.560
+Teď se podívejme, zda jsme schopni
+za těchto předpokladů použít tento vzorec.
+
+02:02.570 --> 02:04.720
+Takže toto všechno...
+
+02:04.730 --> 02:07.680
+Pravá strana je f(x) krát g(x).
+
+02:07.690 --> 02:16.776
+Takže f(x) je x.
+g(x) je sinus x.
+
+02:16.780 --> 02:25.640
+A pak od toho odečteme
+integrál f'(x), což je 1.
+
+02:25.650 --> 02:34.480
+Krát g(x),
+krát sinus x dx.
+
+02:34.490 --> 02:36.740
+Teď jsme si to hodně zjednodušili.
+
+02:36.750 --> 02:44.340
+Místo hledání integrálu x kosinus x
+teď stačí najít integrál sinu x.
+
+02:44.350 --> 02:51.300
+A my víme,
+že integrál sinu x dx
+
+02:51.300 --> 02:55.000
+je roven -kosinus x.
+
+02:55.000 --> 02:57.350
+A teď už samozřejmě
+můžeme přidat plus c,
+
+02:57.370 --> 03:00.880
+teď když už máme hotovy
+všechny integrály.
+
+03:00.890 --> 03:05.060
+Takže toto celé bude rovno
+x sinus x,
+
+03:05.070 --> 03:09.930
+x krát sinus x,
+
+03:09.930 --> 03:15.790
+minus integrál tohoto,
+což je -kosinus x.
+
+03:15.800 --> 03:17.580
+Minus -kosinus x.
+
+03:17.600 --> 03:21.630
+A pak můžeme přidat
+plus c sem na konec.
+
+03:21.640 --> 03:24.090
+Je jedno, jestli odečítáme
+nebo přičítáme c.
+
+03:24.100 --> 03:27.640
+Je to nějaká libovolná konstanta,
+která může být i záporná.
+
+03:27.660 --> 03:31.870
+Takže toto celé bude rovno...
+Fanfáry prosím.
+
+03:31.880 --> 03:36.660
+Bude to x krát sinus x,
+
+03:36.670 --> 03:38.690
+odečítáme záporné,
+to dává kladné,
+
+03:38.710 --> 03:43.890
+plus kosinus x plus c.
+A máme hotovo.
+
+03:43.904 --> 03:49.280
+Zintegrovali jsme něco,
+co jsme předtím zintegrovat neuměli.
+
+03:49.300 --> 03:51.500
+To bylo hodně zajímavé.

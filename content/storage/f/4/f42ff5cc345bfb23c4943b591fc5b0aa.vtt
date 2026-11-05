@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.660 --> 00:05.141
+Dans les dernières vidéos , nous avons essayer de trouver la
+
+00:05.141 --> 00:07.570
+pente d'une courbe d'un certain point .
+
+00:07.570 --> 00:10.310
+Nous avons procédés de la façon suivante; on sait dit ok , trouvons la pente
+
+00:10.310 --> 00:12.970
+entre ce point et un autre point qui n'est pas trop
+
+00:12.970 --> 00:14.220
+loin du premier .
+
+00:14.220 --> 00:15.953
+Et nous avons trouver la pente de la sécante .
+
+00:15.953 --> 00:19.530
+Ça semble très difficile mais ceci est juste la valeur du Y du
+
+00:19.530 --> 00:23.570
+point qui n'est pas très loin et c'est juste la valeur y
+
+00:23.570 --> 00:25.700
+du point en question . Alors ceci est juste
+
+00:25.700 --> 00:27.100
+votre changement en y .
+
+00:27.100 --> 00:29.020
+Et puis vous diviser cela par le changement en x .
+
+00:29.020 --> 00:31.580
+Alors dans l'exemple que nous avons fait , h était la différence
+
+00:31.580 --> 00:33.610
+entre nos deux valeurs de x.
+
+00:33.610 --> 00:35.420
+Cette distance était h .
+
+00:35.420 --> 00:39.210
+Et cela nous a donné la pente de cette ligne.
+
+00:39.210 --> 00:42.940
+On s'est dit , et si on prenait la limite que ce point-ci
+
+00:42.940 --> 00:45.510
+vient de plus en plus prêt à ce point .
+
+00:45.510 --> 00:48.420
+Si ce point essentiel devient presque ce point , alors
+
+00:48.420 --> 00:51.230
+notre pente va être la pente de notre ligne tangente .
+
+00:51.230 --> 00:54.620
+Et nous définissons cela comme le derivé de notre fonction.
+
+00:54.620 --> 00:57.280
+Nous avons dit que c'est egale a f premier de x.
+
+00:57.280 --> 01:00.520
+Allons voir si on peut appliquer ça dans cette video pour rendre
+
+01:00.520 --> 01:03.750
+les choses un peu plus concret dans votre tête.
+
+01:03.750 --> 01:04.910
+Laissez moi faire un .
+
+01:04.910 --> 01:07.140
+Premièrement je vais faire un cas particulier où je veux trouver la
+
+01:07.140 --> 01:09.980
+pente à un point précis.
+
+01:09.980 --> 01:14.670
+Laissez moi dessiner mes axes encore une fois.
+
+01:14.670 --> 01:17.520
+Dessinons des axes juste là.
+
+01:17.520 --> 01:25.400
+Disons que j'ai la courbe - ceci est la courbe- y
+
+01:25.400 --> 01:27.110
+est égale à x au carré.
+
+01:27.110 --> 01:32.790
+Alors ceci est mon axe de y et celui-là est mon axe de x et je veux savoir
+
+01:32.790 --> 01:37.270
+la pente où x est égal à 3.
+
+01:37.270 --> 01:41.660
+Quand je dit que la pente , vous pouvez imaginer une ligne tangente ici.
+
+01:41.660 --> 01:44.760
+Vous pouvez imaginer une ligne tangente qui va comme ceci et
+
+01:44.760 --> 01:47.710
+il qui touchera tout juste frôler la courbe a ce point.
+
+01:47.710 --> 01:51.260
+Mais c'est quoi la pente de cette ligne tangente?
+
+01:51.260 --> 01:53.570
+La pente de cette ligne tangente est la même
+
+01:53.570 --> 01:56.360
+que la pente du courbe à ce point .
+
+01:56.360 --> 01:58.770
+Pour ce faire , je vais utiliser la même technique que
+
+01:58.770 --> 02:01.270
+nous avons déjà fais , et puis nous allons le généraliser pour que n'ayez
+
+02:01.270 --> 02:03.910
+pas à le faire à tous les fois pour un numéro particulier.
+
+02:03.910 --> 02:06.805
+Prenons un autre point ici.
+
+02:09.610 --> 02:14.110
+Appelons ceci 3 plus delta x .
+
+02:14.110 --> 02:16.380
+Ja change la notation parce que dans plusieurs livres vous allez
+
+02:16.380 --> 02:19.530
+voir un h , dans d'autres vous verrez un delta x , aucun mal
+
+02:19.530 --> 02:20.660
+à être exposer à tous les deux.
+
+02:20.660 --> 02:22.500
+Alors ceci est 3 plus delta x .
+
+02:22.500 --> 02:25.770
+Mais premièrement c'est quoi ce point ici ?
+
+02:25.770 --> 02:31.890
+Ceci est la courbe y qui est égal a x au carre , alors f de x est 3
+
+02:31.890 --> 02:33.720
+au carré .... ceci est le point 9 .
+
+02:33.720 --> 02:36.805
+Ceci est le pont 3,9 juste ici.
+
+02:39.350 --> 02:40.870
+Et c'est quoi le point juste ici?
+
+02:40.870 --> 02:45.180
+Alors si on va voir en haut , c'est quoi ce point là?
+
+02:45.180 --> 02:49.120
+Ici notre x est 3 plus delta x.
+
+02:49.120 --> 02:50.310
+C'est la même chose que ce point ici ,
+
+02:50.310 --> 02:50.990
+en tant que x
+
+02:50.990 --> 02:51.300
+et non h .
+
+02:51.300 --> 02:54.235
+J'aurai pu nommé ceci 3 plus h aussi facilement .
+
+02:54.235 --> 02:58.110
+Alors c'est 3 plus delta x là.
+
+02:58.110 --> 02:59.930
+Que va être la valeur de y ?
+
+02:59.930 --> 03:02.080
+Peu importe la valeur de x , c'est sur courbe alors elle va être
+
+03:02.080 --> 03:03.550
+au carré .
+
+03:03.550 --> 03:12.310
+Elle va être le point 3 plus delta x au carré .
+
+03:12.310 --> 03:14.790
+Trouvons la pente de cette
+
+03:14.790 --> 03:15.240
+sécante.
+
+03:18.080 --> 03:20.270
+Laissez moi zoomer un petit peu , parce que ça peut aider .
+
+03:20.270 --> 03:22.950
+Si je zoom juste sur cette parti de la courbe ,
+
+03:22.950 --> 03:25.250
+ça peut paraître comme ça.
+
+03:25.250 --> 03:28.330
+Et puis j'ai un point ici , et un autre
+
+03:28.330 --> 03:29.776
+là en haut.
+
+03:32.330 --> 03:33.070
+Ça , c'est la
+
+03:33.070 --> 03:33.510
+sécante .
+
+03:39.100 --> 03:40.210
+Juste comme ça.
+
+03:40.210 --> 03:45.510
+Cétait le point juste ici , le point 3,9.
+
+03:45.510 --> 03:50.230
+Et puis ce point ci est le point 3 plus delta x , alors
+
+03:50.230 --> 03:54.340
+un nombre plus grand que 3 et ce sera
+
+03:54.340 --> 03:55.790
+cet nombre au carré .
+
+03:55.790 --> 03:58.110
+Ce sera 3 plus delta x au carré .
+
+03:58.110 --> 03:59.070
+C'est quoi ceci?
+
+03:59.070 --> 04:01.310
+Ceci va être 9.
+
+04:01.310 --> 04:03.720
+Faite la propriété de distribution
+
+04:03.720 --> 04:04.940
+deux fois.
+
+04:04.940 --> 04:09.280
+a plus b au carré est a au caréé plus 2 a b plus b au carré
+
+04:09.280 --> 04:11.430
+alors ça va être 9 plus 2 fois le produit
+
+04:11.430 --> 04:12.020
+de ceux-là.
+
+04:12.020 --> 04:17.345
+Plus 6 delta x et puis plus delta x au carré .
+
+04:21.070 --> 04:22.530
+C'est la coordination de la seconde ligne .
+
+04:22.530 --> 04:25.470
+Ça semble compliquer mais j'ai juste prix cette valeur x et je
+
+04:25.470 --> 04:29.230
+l'ai mis au carré , parce que c'est sur la ligne y égal à x au carré.
+
+04:29.230 --> 04:32.430
+La pente de cette sécante
+
+04:32.430 --> 04:35.500
+va être le changement

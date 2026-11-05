@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.667 --> 00:06.764
+Son videoda Maclaurin serisinin ne olduğunu size anlatmaya çalıştım ve videonun sonunda Maclaurin serisinin Taylor serisinin özel bir durumu olduğunu söylemiştim.
+
+00:06.764 --> 00:11.733
+-
+
+00:11.733 --> 00:15.800
+Maclaurin serisinde fonksiyona x eşittir 0 etrafında yakınsıyoruz.
+
+00:15.800 --> 00:22.800
+Taylor serisinde ise yakınsamak için herhangi bir x değeri seçebiliriz. Bu konuya ileride değineceğiz.
+
+00:22.800 --> 00:29.800
+-
+
+00:29.800 --> 00:34.133
+Şimdi Maclaurin serisine odaklanalım, çünkü daha kolay ve bizi çok temel sonuçlara ulaştıracak.
+
+00:34.133 --> 00:39.800
+-
+
+00:39.800 --> 00:41.733
+Zaten benim amacım da bu sonuçları elde etmek.
+
+00:41.733 --> 00:45.133
+Bazı ilginç fonksiyonların Maclaurin serisini bulalım.
+
+00:45.133 --> 00:48.359
+Tekrar tekrar türev alacağım için türevi kolay alınan fonksiyonlar seçeceğim.
+
+00:48.359 --> 00:53.067
+-
+
+00:53.067 --> 01:01.733
+Şimdi f x eşittir kosinüs x'in Maclaurin serisini bulalım.
+
+01:01.733 --> 01:06.867
+Son videoda çıkardığımız formülü kullanmadan önce, f x'in türevlerini bulalım.
+
+01:06.867 --> 01:08.800
+-
+
+01:08.800 --> 01:13.067
+-
+
+01:13.067 --> 01:20.467
+Birinci türevi alırsak, kosinüs x'in türevi eksi sinüs x'tir.
+
+01:20.467 --> 01:25.800
+Eğer bunun türevini alırsak, sonra türevin de türevini alırsak, sinüs x'in türevi kosinüs x'tir. Burada eksi olduğu için, eksi kosinüs x olur.
+
+01:25.800 --> 01:30.467
+-
+
+01:30.467 --> 01:35.867
+Bunun da türevini alırsak, yani kosinüs x'in üçüncü türevi, artı sinüs x olacak. Tekrar türev alırsak, kosinüs x elde ederiz.
+
+01:35.867 --> 01:41.067
+-
+
+01:41.067 --> 01:42.733
+-
+
+01:42.733 --> 01:47.800
+Yine kosinüs x bulduk. Bu dördüncü türevi aldığımızda, bu notasyonu kullanmalıyım ama anladınız diye düşünüyorum, yine kosinüs x olur.
+
+01:47.800 --> 01:50.200
+-
+
+01:50.200 --> 01:52.867
+-
+
+01:52.867 --> 01:57.733
+Bir önceki videoda konuştuklarımıza bakarsak, bu fonksiyonun ve türevlerinin 0'daki değerlerini bulmam gerekiyor.
+
+01:57.733 --> 02:01.200
+-
+
+02:01.200 --> 02:10.800
+Fonksiyonun 0'daki değerini bulalım. f 0, kosinüs 0 eşittir 1.
+
+02:10.800 --> 02:15.133
+Değerin 0 radyan veya 0 derece olması fark etmez.
+
+02:15.133 --> 02:28.467
+Sinüs 0 eşittir 0, yani f üssü 0 eşittir 0. Sonra, kosinüs 0 yine 1 olduğundan, buradaki eksiyle, eksi 1 buluyoruz.
+
+02:28.467 --> 02:32.867
+-
+
+02:32.867 --> 02:37.467
+Böylelikle f'nin 0'daki ikinci türevi, eksi 1.
+
+02:37.467 --> 02:42.800
+Şimdi f'nin 0'daki üçüncü türevinin değerini bulalım.
+
+02:42.800 --> 02:48.000
+Sinüs 0 eşittir 0. Dördüncü türevde ise, kosinüs 0 eşittir 1.
+
+02:48.000 --> 02:54.467
+Yani f üssü üssü üssü üssü 0 yine 1.
+
+02:54.467 --> 02:57.800
+Burada ilginç bir örüntü görüyoruz - 1, 0, eksi 1, 0, 1.
+
+02:57.800 --> 03:00.133
+Sonra 0, eksi 1, 0.
+
+03:00.133 --> 03:05.600
+Bunu Maclaurin serisine uygularsak, ne elde ederiz?
+
+03:05.600 --> 03:12.133
+Kosinüs x'e polinomla yakınsıyoruz. f 0 eşittir 1, artı f üssü 0 çarpı x.
+
+03:12.133 --> 03:19.533
+-
+
+03:19.533 --> 03:28.600
+-
+
+03:28.600 --> 03:33.600
+Fakat f üssü 0 sıfıra eşit, bu nedenle bu terimi yazmayacağız. 0 çarpı x'i yazmaya gerek yok.
+
+03:33.600 --> 03:38.800
+-
+
+03:38.800 --> 03:44.133
+Artı f üssü üssü, yani eksi 1, çarpı x kare bölü 2 faktöriyel. 2 faktöriyel 2'ye eşit.
+
+03:44.133 --> 03:49.467
+-
+
+03:49.467 --> 03:53.133
+-
+
+03:53.133 --> 03:59.600
+-
+
+03:59.600 --> 04:04.333
+Örüntüyü daha iyi anlamanız için, ben bunu 2 faktöriyel olarak yazacağım.
+
+04:04.333 --> 04:09.333
+Bir sonraki terime geçiyoruz. 0'daki üçüncü türev.
+
+04:09.333 --> 04:14.200
+0'daki üçüncü türev 0'dır, o nedenle bu terimi de yazmıyoruz.
+
+04:14.200 --> 04:19.431
+Ve dördüncü türeve geçiyoruz. 0'daki dördüncü türevin değeri, artı 1. Bu katsayı 1 olacak. 1 çarpı x üzeri 4 bölü 4 faktöriyel. Sanıyorum örüntüyü görmeye başladınız.
+
+04:19.431 --> 04:23.733
+-
+
+04:23.733 --> 04:30.533
+-
+
+04:30.533 --> 04:33.000
+-
+
+04:33.000 --> 04:36.600
+İşaret değişimi var -devam ettiğinizde bunu göreceksiniz, bana inanmıyorsanız, doğruluğunu kendiniz kanıtlayabilirsiniz.
+
+04:36.600 --> 04:39.133
+-
+
+04:39.133 --> 04:44.200
+Yani artı eksi artı eksi diye gidiyor. Bu, 1 çarpı x üzeri 0. Sonra, x kare terimine atlıyoruz ve sonra da, x üzeri 4 terimini buluyoruz.
+
+04:44.200 --> 04:50.067
+-
+
+04:50.067 --> 04:54.800
+-
+
+04:54.800 --> 04:58.267
+Devam edersek, eksi x üzeri 6 bölü 6 faktöriyel, artı x üzeri 8 bölü 8 faktöriyel, eksi x üzeri 10 bölü 10 faktöriyel olarak yazarız.
+
+04:58.267 --> 05:03.267
+-
+
+05:03.267 --> 05:07.800
+-
+
+05:07.800 --> 05:13.867
+-
+
+05:13.867 --> 05:18.867
+Bu seriyi sürdürdüğümüzde de, kosinüs x'in polinom olarak gösterimini bulmuş oluruz. Kosinüs x'in bu şekilde gösterilebilmesi bence süper bir olay.
+
+05:18.867 --> 05:23.533
+-
+
+05:23.533 --> 05:27.600
+Bir trigonometrik fonksiyon için, son derece basit bir örüntü elde etmiş olduk.
+
+05:27.600 --> 05:30.800
+Bir kez daha matematiksel kavramların nasıl birbiriyle bağlantılı olduğunu görmüş olduk.
+
+05:30.800 --> 3:59:59.999
+Bundan birkaç video sonra ise, bu bağlantının hayalimizin ötesinde bir derinliği olduğunu keşfedeceğiz.

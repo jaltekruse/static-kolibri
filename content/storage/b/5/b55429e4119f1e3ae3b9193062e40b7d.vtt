@@ -1,0 +1,346 @@
+WEBVTT
+
+00:00.730 --> 00:09.490
+Podívejme se, zda rozumíme
+Větě o střední hodnotě.
+
+00:09.490 --> 00:15.640
+A jak uvidíme, až si rozebereme
+některé matematické pojmy a symboly,
+
+00:15.640 --> 00:18.730
+jedná se o docela
+intuitivní větu.
+
+00:18.730 --> 00:24.740
+Pojďme si představit
+nějakou funkci f.
+
+00:24.740 --> 00:27.330
+A o této funkci víme
+několik věcí.
+
+00:27.330 --> 00:40.330
+Víme, že je spojitá na
+uzavřeném intervalu,
+
+00:40.330 --> 00:44.440
+kde x je mezi 'a' a 'b'.
+
+00:44.440 --> 00:47.874
+Když použijeme tyto závorky,
+mluvíme o uzavřeném intervalu.
+
+00:47.874 --> 00:54.500
+Tedy zahrnujeme bod 'a' z této
+strany a bod 'b' z pravé strany.
+
+00:54.500 --> 00:57.420
+Pozn. překladatele: v češtině
+označujeme jako .
+
+00:57.420 --> 00:58.986
+A spojitá znamená
+jen to,
+
+00:58.986 --> 01:03.060
+že funkce nemá žádné mezery nebo
+skoky na tomto uzavřeném intervalu.
+
+01:03.060 --> 01:11.970
+Pojďme dále předpokládat,
+že je funkce diferencovatelná
+
+01:11.970 --> 01:14.810
+na otevřeném intervalu
+mezi body 'a' a 'b'.
+
+01:14.810 --> 01:16.712
+Teď tedy říkáme,
+že je v pořádku,
+
+01:16.712 --> 01:20.100
+pokud funkce není diferencovatelná
+přímo v bodech 'a' a 'b'.
+
+01:20.100 --> 01:23.310
+Diferencovatelná znamená,
+že existuje definovaná derivace.
+
+01:23.310 --> 01:25.810
+Že funkci mezi těmito
+body lze derivovat.
+
+01:25.810 --> 01:30.294
+Je tedy diferencovatelná na
+otevřeném intervalu (a;b).
+
+01:30.294 --> 01:32.760
+Toto jsou tedy omezení,
+se kterými budeme pracovat
+
+01:32.760 --> 01:34.008
+ve Větě o střední hodnotě.
+
+01:34.008 --> 01:35.940
+Pojďme si to zkusit
+představit.
+
+01:35.940 --> 01:40.330
+Toto je moje funkce.
+
+01:40.330 --> 01:49.090
+Toto je moje osa y
+a zde je osa x.
+
+01:49.090 --> 01:57.730
+A nakreslím náš interval.
+Toto je a, toto je b.
+
+01:57.730 --> 02:02.790
+A řekněme, že funkce
+vypadá nějak takto.
+
+02:02.790 --> 02:06.100
+Můžeme nakreslit
+libovolnou funkci.
+
+02:06.100 --> 02:09.520
+Řekněme, že moje funkce
+vypadá nějak takto.
+
+02:09.520 --> 02:12.915
+V tomto bodě je hodnota
+na ose x rovna a.
+
+02:12.915 --> 02:17.820
+A hodnota na
+ose y je f(a).
+
+02:17.820 --> 02:22.670
+V tomto bodě je hodnota
+na ose x rovna b
+
+02:22.670 --> 02:30.280
+a hodnota na
+ose y je rovna f(b).
+
+02:30.280 --> 02:33.650
+To, co nám Věta o
+střední hodnotě říká je,
+
+02:33.650 --> 02:37.020
+že když vezmeme průměrnou
+změnu na intervalu,
+
+02:37.020 --> 02:43.540
+tak v nějakém bodě, alespoň v
+nějakém z tohoto otevřeného intervalu,
+
+02:43.540 --> 02:46.680
+je okamžitá rychlost změny stejná
+jako průměrná rychlost změny.
+
+02:46.680 --> 02:48.530
+Teď si znázorníme,
+co to znamená.
+
+02:48.530 --> 02:50.720
+Pojďme spočítat
+průměrnou změnu.
+
+02:50.720 --> 02:54.230
+Průměrná změna mezi
+bodem 'a' a bodem 'b'
+
+02:54.230 --> 03:02.020
+bude sklon sečny.
+
+03:02.020 --> 03:05.069
+Toto je tedy sečna.
+
+03:05.069 --> 03:07.500
+Vše, co nám Věta o
+střední hodnotě říká, je,
+
+03:07.500 --> 03:10.130
+že v nějakém bodě
+tohoto intervalu
+
+03:10.130 --> 03:14.960
+bude okamžitý sklon tečny
+roven sklonu této sečny.
+
+03:14.960 --> 03:17.680
+A pohledově můžeme
+vidět, že zde to vypadá,
+
+03:17.680 --> 03:23.110
+že skon tečny bude
+stejný jako sklon sečny.
+
+03:23.110 --> 03:25.150
+Také to vypadá, na
+stejný případ zde.
+
+03:25.150 --> 03:28.230
+Sklon tečny bude zde
+stejný jako sklon sečny.
+
+03:28.230 --> 03:29.480
+A to intuitivně
+dává smysl.
+
+03:29.480 --> 03:34.170
+V nějakém bodě bude okamžitý
+sklon stejný jako průměrný sklon.
+
+03:34.190 --> 03:37.210
+Jak bychom toto
+zapsali matematicky?
+
+03:37.210 --> 03:46.510
+Pojďme spočítat průměrný
+sklon na tomto intervalu.
+
+03:46.510 --> 03:49.220
+Průměrná změna,
+sklon sečny,
+
+03:49.220 --> 04:00.520
+bude změna y zde
+lomeno změnou x.
+
+04:00.520 --> 04:02.650
+Jaká je naše změna y?
+
+04:02.650 --> 04:09.890
+Změna y je
+f(b) minus f(a).
+
+04:09.890 --> 04:14.910
+Toto celé lomeno
+změna x.
+
+04:14.910 --> 04:18.910
+Tedy lomeno
+b minus a...
+
+04:18.910 --> 04:20.670
+Napíši to
+správnou barvou.
+
+04:20.670 --> 04:23.270
+...Připomeňme si,
+o co tady jde.
+
+04:23.270 --> 04:27.350
+Toto zde je graf
+funkce y rovno f(x).
+
+04:27.350 --> 04:31.920
+Říkáme, že sklon sečny,
+neboli průměrná změna
+
+04:31.920 --> 04:41.420
+na intervalu (a;b)
+je změna y...
+
+04:41.430 --> 04:45.202
+toto je řecké písmeno delta,
+označení pro změnu,
+
+04:45.202 --> 04:51.445
+...lomeno změna
+na ose x.
+
+04:51.445 --> 04:53.580
+Což je samozřejmě
+rovno tomuto.
+
+04:53.580 --> 04:56.690
+A Věta o střední
+hodnotě nám říká,
+
+04:56.690 --> 05:00.800
+že když víme o těchto
+dvou vlastnostech funkce,
+
+05:00.800 --> 05:12.770
+tak zde existuje nějaká
+hodnota x, mezi body 'a' a 'b'.
+
+05:12.770 --> 05:19.230
+Tedy v otevřeném intervalu (a;b)
+existuje nějaká hodnota c.
+
+05:19.230 --> 05:26.772
+Můžeme říci, že hodnota c
+leží na otevřeném intervalu (a;b).
+
+05:26.772 --> 05:35.570
+Nebo můžeme říci, že existuje hodnota c,
+kde a je menší než c a to je menší než b.
+
+05:35.570 --> 05:41.826
+Tedy nějaké c
+v tomto intervalu,
+
+05:41.826 --> 05:46.230
+kde okamžitá změna
+v této hodnotě x
+
+05:46.230 --> 05:49.110
+je stejná jako průměrná
+rychlost změny.
+
+05:49.110 --> 05:52.290
+Existuje tedy nějaké c
+v tomto otevřeném intervalu,
+
+05:52.290 --> 06:00.290
+kde průměrná rychlost změny je rovna
+okamžité rychlosti změny v tomto bodě.
+
+06:00.290 --> 06:01.480
+To je celé, co
+věta říká.
+
+06:01.480 --> 06:03.476
+A jak jsme viděli na
+tomto grafu,
+
+06:03.476 --> 06:08.210
+toto by mohlo být naše c nebo
+toto by také mohlo být naše c.
+
+06:08.210 --> 06:13.080
+Podívejme se, máme
+f spojitou na uzavřeném intervalu ,
+
+06:13.080 --> 06:17.760
+f diferencovatelnou na
+otevřeném intervalu (a;b)
+
+06:17.760 --> 06:18.925
+a pak platí tento zápis.
+
+06:18.925 --> 06:20.091
+Co to vlastně
+znamená?
+
+06:20.091 --> 06:21.330
+Vše, co nám
+to říká je,
+
+06:21.330 --> 06:25.110
+že v nějakém bodě tohoto intervalu
+je okamžitá rychlost změny
+
+06:25.110 --> 06:30.034
+stejná jako průměrná rychlost
+změny na celém intervalu.
+
+06:30.034 --> 06:36.180
+V dalším videu vám zkusím ukázat
+reálný příklad, kde to využít.

@@ -1,0 +1,308 @@
+WEBVTT
+
+00:00.184 --> 00:02.802
+- [Voiceover] So I have a
+vector valued function h here,
+
+00:02.802 --> 00:03.861
+and when I say vector value,
+
+00:03.861 --> 00:06.162
+it means you give me a
+t, it's a function of t,
+
+00:06.162 --> 00:07.258
+and so you give me a t,
+
+00:07.258 --> 00:09.215
+I'm not just going to give you a number,
+
+00:09.215 --> 00:10.668
+I'm going to give you a vector.
+
+00:10.668 --> 00:11.501
+And as we'll see,
+
+00:11.501 --> 00:13.270
+you're going to get a
+two dimensional vector.
+
+00:13.270 --> 00:15.882
+You could view this as the
+x component of the vector
+
+00:15.882 --> 00:18.513
+and the y component of the vector.
+
+00:18.513 --> 00:20.902
+And you are probably familiar by now,
+
+00:20.902 --> 00:22.303
+that there is multiple notations for
+
+00:22.303 --> 00:24.179
+even a two dimensional vector.
+
+00:24.179 --> 00:26.938
+For example, you could
+use what's often viewed
+
+00:26.938 --> 00:29.106
+as engineering notation here,
+
+00:29.106 --> 00:32.032
+where the x component is being multiplied
+
+00:32.032 --> 00:34.532
+by the horizontal unit vector.
+
+00:36.355 --> 00:37.868
+So you might see something like that,
+
+00:37.868 --> 00:42.831
+where that's the unit
+vector, plus the y component.
+
+00:42.831 --> 00:46.483
+Four t to the fourth,
+plus two t, plus one,
+
+00:46.483 --> 00:50.303
+is multiplied by the vertical unit vector.
+
+00:50.303 --> 00:52.889
+So these are both
+representing the same thing,
+
+00:52.889 --> 00:55.582
+it just has a different notation.
+
+00:55.582 --> 00:57.453
+And sometimes you'll see
+vector valued functions
+
+00:57.453 --> 00:59.226
+with an arrow on top to make it explicit
+
+00:59.226 --> 01:00.912
+that this is a vector valued function.
+
+01:00.912 --> 01:02.884
+Sometimes you'll just hear people say,
+
+01:02.884 --> 01:05.227
+well, let h be a vector valued function,
+
+01:05.227 --> 01:07.565
+and they might not
+write that arrow on top.
+
+01:07.565 --> 01:08.588
+So now that we have that out of the way,
+
+01:08.588 --> 01:09.812
+what we're interested in is,
+
+01:09.812 --> 01:12.774
+well let's find the first
+and second derivatives
+
+01:12.774 --> 01:14.691
+of h with respect to t.
+
+01:15.837 --> 01:18.968
+So, let's first take, let's
+take the first derivative,
+
+01:18.968 --> 01:22.313
+h prime of t, was as you'll see,
+
+01:22.313 --> 01:24.130
+it's actually quite straight forward.
+
+01:24.130 --> 01:26.377
+You're just going to take
+the respective components,
+
+01:26.377 --> 01:28.205
+with respect, take the
+derivative of the respective
+
+01:28.205 --> 01:30.481
+components with respect to t.
+
+01:30.481 --> 01:32.727
+So the x component, with respect to t,
+
+01:32.727 --> 01:35.695
+if you were to take the derivative,
+
+01:35.695 --> 01:39.014
+with respect to t, what
+are you going to get?
+
+01:39.014 --> 01:41.513
+Well we're going to use the
+power rule right over here,
+
+01:41.513 --> 01:44.005
+five times the negative
+one or times the negative.
+
+01:44.005 --> 01:46.966
+You're going to get negative
+five times t to the five,
+
+01:46.966 --> 01:49.700
+minus one power, so t to the fourth power.
+
+01:49.700 --> 01:51.633
+The derivative with respect
+to t of negative six,
+
+01:51.633 --> 01:53.073
+well that's just zero,
+
+01:53.073 --> 01:56.844
+so that's the rate of
+change of the x component,
+
+01:56.844 --> 01:58.850
+with respect to t.
+
+01:58.850 --> 02:01.126
+And now we go to the y component.
+
+02:01.126 --> 02:02.743
+So we're going to do the same thing,
+
+02:02.743 --> 02:05.266
+the derivative with respect to t,
+
+02:05.266 --> 02:06.717
+is going to be, and once again,
+
+02:06.717 --> 02:08.263
+we just use the power rule,
+
+02:08.263 --> 02:11.763
+four times four is 16t to the third power.
+
+02:13.151 --> 02:15.811
+Derivative of two t is just two,
+
+02:15.811 --> 02:16.985
+and then derivative of a constant,
+
+02:16.985 --> 02:19.275
+well that's zero, we've already seen that.
+
+02:19.275 --> 02:21.519
+So there you have it.
+
+02:21.519 --> 02:23.380
+So this is the rate of
+change of the x component
+
+02:23.380 --> 02:24.571
+with respect to t,
+
+02:24.571 --> 02:26.139
+this is the rate of
+change of the y component,
+
+02:26.139 --> 02:28.012
+with respect to t.
+
+02:28.012 --> 02:29.555
+And one way to do it,
+
+02:29.555 --> 02:32.047
+vectors can represent many,
+many, many different things,
+
+02:32.047 --> 02:35.137
+but the type of, a two
+dimensional vector like this,
+
+02:35.137 --> 02:37.094
+you can imagine this being,
+
+02:37.094 --> 02:40.881
+h of t being a position
+vector in two dimensions.
+
+02:40.881 --> 02:42.298
+And then if you're looking
+at the rate of change
+
+02:42.298 --> 02:44.217
+of position with respect to time,
+
+02:44.217 --> 02:46.890
+well then this would
+be the velocity vector.
+
+02:46.890 --> 02:48.303
+And then if we were to take the derivative
+
+02:48.303 --> 02:49.816
+of this with respect to time,
+
+02:49.816 --> 02:52.237
+well we're going to get
+the acceleration vector.
+
+02:52.237 --> 02:54.987
+So if we say h prime, prime of t,
+
+02:55.983 --> 03:00.883
+what is that going to be
+equal to, h prime, prime of t?
+
+03:00.883 --> 03:03.338
+Well, we just apply the power rule again.
+
+03:03.338 --> 03:07.505
+So four times negative five
+is equal to negative 20t
+
+03:09.672 --> 03:12.865
+to the four minus one,
+so t to third power.
+
+03:12.865 --> 03:16.782
+And then we have three
+times 16 is 48t squared,
+
+03:19.926 --> 03:22.789
+and then the derivative
+of two is just zero.
+
+03:22.789 --> 03:24.051
+And so there you have it,
+
+03:24.051 --> 03:26.109
+for any, if you view t as time,
+
+03:26.109 --> 03:28.558
+for any time, if you view
+this one as position,
+
+03:28.558 --> 03:30.513
+this one as velocity and
+this is acceleration,
+
+03:30.513 --> 03:31.992
+you could, this would now give you the
+
+03:31.992 --> 03:34.191
+position, velocity and acceleration.
+
+03:34.191 --> 03:35.956
+It's important to realize
+that these vectors
+
+03:35.956 --> 03:40.123
+could represent anything of
+a two dimensional nature.

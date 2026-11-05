@@ -1,0 +1,417 @@
+WEBVTT
+
+00:00.447 --> 00:01.677
+- [Voiceover] So what we have here is
+
+00:01.677 --> 00:03.637
+x being defined in terms of t and
+
+00:03.637 --> 00:06.129
+y being defined in terms of t,
+
+00:06.129 --> 00:08.172
+and then if you were to plot
+over all of the t values,
+
+00:08.172 --> 00:10.683
+you'd get a pretty cool
+plot, just like this.
+
+00:10.683 --> 00:13.281
+So you try, t equals zero, and
+figure out what x and y are,
+
+00:13.281 --> 00:15.388
+t is equal to one, figure
+out what x and y are,
+
+00:15.388 --> 00:16.818
+and all of the other ts,
+
+00:16.818 --> 00:20.262
+and then you get this
+pretty cool-looking graph.
+
+00:20.262 --> 00:22.573
+But the goal in this video
+isn't just to appreciate
+
+00:22.573 --> 00:24.977
+the coolness of graphs or curves,
+
+00:24.977 --> 00:27.194
+defined by parametric equations.
+
+00:27.194 --> 00:29.003
+But we actually want to do some calculus,
+
+00:29.003 --> 00:32.770
+in particular, we wanna
+find the derivative,
+
+00:32.770 --> 00:37.406
+we wanna find the derivative
+of y, with respect to x,
+
+00:37.406 --> 00:39.819
+the derivative of y with respect to x,
+
+00:39.819 --> 00:41.152
+when t,
+
+00:42.359 --> 00:44.182
+when t is equal
+
+00:44.182 --> 00:47.173
+to negative one third.
+
+00:47.173 --> 00:48.978
+And if you are inspired, I encourage you
+
+00:48.978 --> 00:51.580
+to pause and try to solve this.
+
+00:51.580 --> 00:52.787
+And I am about to do it with you,
+
+00:52.787 --> 00:55.645
+in case you already did,
+or you just want me to.
+
+00:55.645 --> 00:57.369
+(chuckles) All right, so the key is,
+
+00:57.369 --> 01:00.147
+is well, how do you find the
+derivative with respect to x,
+
+01:00.147 --> 01:01.569
+derivative of y with respect to x,
+
+01:01.569 --> 01:03.662
+when they're both defined in terms of t?
+
+01:03.662 --> 01:07.761
+And the key realization
+is the derivative of y
+
+01:07.761 --> 01:11.351
+with respect to x, with respect to x,
+
+01:11.351 --> 01:15.413
+is going to be equal to,
+is going to be equal to,
+
+01:15.413 --> 01:18.580
+the derivative of y with respect to t,
+
+01:19.472 --> 01:23.305
+over the derivative of
+x with respect to t.
+
+01:24.619 --> 01:27.262
+If you were to view these
+differentials as numbers,
+
+01:27.262 --> 01:30.109
+well this would actually
+work out mathematically.
+
+01:30.109 --> 01:32.177
+Now, it gets a little bit non-rigorous,
+
+01:32.177 --> 01:33.602
+when you start to do that,
+
+01:33.602 --> 01:35.944
+but, if you though of it that,
+it's an easy way of thinking
+
+01:35.944 --> 01:38.457
+about why this actually might make sense.
+
+01:38.457 --> 01:40.462
+The derivative of something
+versus something else,
+
+01:40.462 --> 01:43.401
+is equal to the derivative
+of y with respect to t,
+
+01:43.401 --> 01:45.629
+over x with respect to t.
+
+01:45.629 --> 01:47.623
+All right, so how does that help us?
+
+01:47.623 --> 01:48.634
+Well, we can figure out
+
+01:48.634 --> 01:50.123
+the derivative of x with respect to t
+
+01:50.123 --> 01:52.476
+and the derivative of y with respect to t.
+
+01:52.476 --> 01:55.754
+The derivative of x with respect to t
+
+01:55.754 --> 01:57.932
+is just going to be equal to,
+
+01:57.932 --> 01:59.514
+let's see, the derivative of the outside,
+
+01:59.514 --> 02:03.442
+with respect to the inside,
+it's going to be two sine
+
+02:03.442 --> 02:06.189
+whoops, the derivative of sign is cosine,
+
+02:06.189 --> 02:08.772
+two cosine of one plus three t,
+
+02:09.620 --> 02:13.086
+times the derivative of the
+inside with respect to t.
+
+02:13.086 --> 02:16.250
+So that's going to be,
+derivative of one is just zero.
+
+02:16.250 --> 02:19.023
+Derivative of three t with
+respect to t is three.
+
+02:19.023 --> 02:22.917
+So times three, that's the
+derivative of x with respect to t
+
+02:22.917 --> 02:24.455
+I just used the Chain Rule here.
+
+02:24.455 --> 02:28.455
+Derivative of the outside
+two sine of something,
+
+02:29.319 --> 02:31.780
+with respect to the inside,
+
+02:31.780 --> 02:34.596
+so derivative of this outside,
+
+02:34.596 --> 02:38.089
+two sine of something with
+respect to one plus three t,
+
+02:38.089 --> 02:39.827
+is that right over there.
+
+02:39.827 --> 02:42.069
+And the derivative of the
+inside with respect to t,
+
+02:42.069 --> 02:43.805
+is just our three.
+
+02:43.805 --> 02:45.752
+Now, the derivative of y with respect to t
+
+02:45.752 --> 02:47.798
+is a little bit more straight-forward.
+
+02:47.798 --> 02:49.385
+Derivative of y with respect to t,
+
+02:49.385 --> 02:52.026
+we just apply the Power Rule here,
+
+02:52.026 --> 02:56.221
+three times two is six, t to
+the three minus one power,
+
+02:56.221 --> 02:57.388
+six t squared.
+
+02:58.310 --> 03:02.143
+So this is going to be
+equal to six t squared,
+
+03:03.629 --> 03:06.046
+six t squared, over,
+
+03:07.615 --> 03:09.783
+well, we have the two times the three,
+
+03:09.783 --> 03:12.033
+so we have six times cosine
+
+03:13.253 --> 03:14.920
+of one plus three t,
+
+03:16.140 --> 03:20.283
+and then our sixes cancel
+out, and we are left with,
+
+03:20.283 --> 03:23.533
+we are left with t squared over
+
+03:24.583 --> 03:26.833
+cosine of one plus three t.
+
+03:28.184 --> 03:32.975
+And if we care when t is
+equal to negative one third,
+
+03:32.975 --> 03:35.007
+when t is equal to negative one third,
+
+03:35.007 --> 03:37.826
+this is going to be equal to, well,
+
+03:37.826 --> 03:40.479
+this is going to be equal to
+negative one third squared.
+
+03:40.479 --> 03:43.598
+Negative one third squared,
+
+03:43.598 --> 03:45.182
+over,
+
+03:45.182 --> 03:46.515
+over,
+
+03:47.587 --> 03:48.433
+over
+
+03:48.433 --> 03:51.520
+the cosine of one plus three times
+
+03:51.520 --> 03:52.895
+negative one third is negative one.
+
+03:52.895 --> 03:55.676
+So it's one plus negative
+one, so it's a cosine of zero.
+
+03:55.676 --> 03:58.022
+And the cosine of zero
+is just going to be one.
+
+03:58.022 --> 04:01.330
+So this is going to be equal to positive,
+
+04:01.330 --> 04:03.312
+positive one ninth.
+
+04:03.312 --> 04:05.868
+Now let's see if we can
+visualize what's going on here.
+
+04:05.868 --> 04:08.832
+So let me draw a little table here.
+
+04:08.832 --> 04:11.707
+So, I'm gonna plot,
+
+04:11.707 --> 04:14.685
+I'm gonna think about t, and x, and y.
+
+04:14.685 --> 04:18.442
+So t, and x, and y.
+
+04:18.442 --> 04:21.859
+So when t is equal to negative one third,
+
+04:22.816 --> 04:25.242
+well our x is going to
+be, this is going to be
+
+04:25.242 --> 04:28.773
+sine of zero, so our
+x is going to be zero,
+
+04:28.773 --> 04:31.874
+and our why is going
+to be, what, two over,
+
+04:31.874 --> 04:36.310
+or negative two over 27.
+
+04:36.310 --> 04:38.785
+So, we're talking about,
+we're talking about
+
+04:38.785 --> 04:42.768
+the point zero comma negative two over 27.
+
+04:42.768 --> 04:45.971
+So that is that point right over there.
+
+04:45.971 --> 04:47.918
+That's the point where
+we're trying to find
+
+04:47.918 --> 04:49.145
+the slope of the tangent line.
+
+04:49.145 --> 04:52.196
+It's telling us that
+that slope is one ninth,
+
+04:52.196 --> 04:55.051
+that slope is one ninth, so if we move,
+
+04:55.051 --> 04:56.864
+I guess one way to think
+about it is if we move
+
+04:56.864 --> 05:00.468
+four, one, two, three, four and a half,
+
+05:00.468 --> 05:02.736
+we're gonna move up half.
+
+05:02.736 --> 05:05.887
+So, if I wanted to draw the
+tangent line right there,
+
+05:05.887 --> 05:08.444
+it would look something like,
+
+05:08.444 --> 05:10.111
+something like that.
+
+05:11.838 --> 05:15.488
+Something, something,
+
+05:15.488 --> 05:16.396
+something like that.
+
+05:16.396 --> 05:18.942
+Let's see if we've got,
+one, two, three, four,
+
+05:18.942 --> 05:20.163
+and a half, that's what we got,
+
+05:20.163 --> 05:23.376
+just like that is pretty close.
+
+05:23.376 --> 05:24.458
+So that's what we just figured out.
+
+05:24.458 --> 05:26.317
+We figured out that the
+slope of the tangent line,
+
+05:26.317 --> 05:28.440
+right at that point is one ninth.
+
+05:28.440 --> 05:31.509
+So, it's not only neat to look at,
+
+05:31.509 --> 05:33.842
+but I guess somewhat useful.

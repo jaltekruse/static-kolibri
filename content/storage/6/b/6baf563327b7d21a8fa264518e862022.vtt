@@ -1,0 +1,853 @@
+WEBVTT
+
+00:01.062 --> 00:03.636
+Ez itt egy kép René Descartes-ról,
+
+00:03.636 --> 00:05.698
+még egyszer, egyike a legnagyobb gondolkodóknak,
+
+00:05.698 --> 00:07.554
+mind matematikában és filozófiában
+
+00:07.554 --> 00:09.923
+És úgy gondolom, látni fogunk egy tendenciát, hogy
+
+00:09.923 --> 00:13.190
+a nagy filozófusok egyben nagy matematikusok is voltak,
+
+00:13.190 --> 00:15.200
+és oda-vissza.
+
+00:15.200 --> 00:17.021
+És ő Galileo kortársa volt,
+
+00:17.021 --> 00:18.733
+habár, 32 évvel fiatalabb volt nála.
+
+00:18.733 --> 00:21.706
+Nem sokkal Galileo halála után ő is meghalt.
+
+00:21.706 --> 00:23.467
+Ez a fickó korán meghalt,
+
+00:23.467 --> 00:25.400
+hogy Galileo már jócskán a 70-es éveiben volt.
+
+00:25.400 --> 00:28.067
+Descartes 54 éves korában halt meg.
+
+00:28.067 --> 00:30.867
+És minden bizonnyal az alábbi idézet miatt ő
+
+00:30.867 --> 00:32.733
+a leghíresebb a pop kultúrában,
+
+00:32.733 --> 00:33.800
+nagyon filozófikus idézet.
+
+00:33.800 --> 00:35.867
+"Gondolkodom, tehát vagyok."
+
+00:35.867 --> 00:37.467
+De meg akartam osztani,
+
+00:37.467 --> 00:38.867
+és ez nem is kapcsolódik az algebrához,
+
+00:38.867 --> 00:40.733
+de szerintem ez egy elég jó idézet.
+
+00:40.733 --> 00:42.800
+A legkevésbé ismert idézet tőle,
+
+00:42.800 --> 00:44.467
+ez itt:
+
+00:44.467 --> 00:46.800
+és én azért szeretem ezt, mert nagyon gyakorlatias
+
+00:46.800 --> 00:48.852
+és rádöbbent arra, hogy ezek a nagy gondolkodók
+
+00:48.852 --> 00:51.113
+a filozófia és a matematika pillérei
+
+00:51.113 --> 00:52.282
+a nap végén,
+
+00:52.282 --> 00:54.467
+csak emberek voltak.
+
+00:54.467 --> 00:56.498
+És ő azt mondta: "Te csak toljad tovább."
+
+00:56.498 --> 00:58.133
+"Te csak toljad tovább.
+
+00:58.133 --> 01:00.015
+Elkövettem minden hibát, amit tudtam.
+
+01:00.015 --> 01:02.031
+Deén csak toltam tovább."
+
+01:02.031 --> 01:05.267
+Azt gondolom, hogy ez egy nagyon nagyon jó tanács az életben.
+
+01:05.267 --> 01:07.733
+Sok mindent csinált
+
+01:07.733 --> 01:09.077
+filozófiában és matematikában,
+
+01:09.077 --> 01:11.062
+de az ok, amiért beszélek róla,
+
+01:11.062 --> 01:12.933
+ahogyan építjük az algebra alapjait,
+
+01:12.933 --> 01:15.600
+az az, hogy ő az egyedülálló,
+
+01:15.600 --> 01:18.800
+egy nagyon erős kapocs
+
+01:18.800 --> 01:21.425
+az algebra és a geometria között.
+
+01:21.425 --> 01:22.898
+Szóval itt a bal oldalon
+
+01:22.898 --> 01:24.752
+van az algebra világa.
+
+01:24.752 --> 01:26.415
+Beszéltünk már róla egy kicsit.
+
+01:26.415 --> 01:28.477
+Egyenleteink vannak, amelyek szimbólumokat tartalmaznak,
+
+01:28.477 --> 01:30.236
+és ezek a szimbólumok lényegében
+
+01:30.236 --> 01:31.933
+értékeket képviselhetnek,
+
+01:31.933 --> 01:32.800
+szóval lehet nekünk olyan, hogy
+
+01:32.800 --> 01:37.677
+y egyenlő 2x mínusz 1-gyel,
+
+01:37.677 --> 01:39.267
+ez megadja nekünk a kapcsolatot
+
+01:39.267 --> 01:40.733
+aközött, ami az x lehet és
+
+01:40.733 --> 01:42.133
+ami az y.
+
+01:42.133 --> 01:44.333
+És itt fel is állíthatunk egy asztalt.
+
+01:44.333 --> 01:46.733
+És kiválaszthatunk értékeket az x helyére.
+
+01:46.733 --> 01:48.292
+És megnézhetjük, hogy milyen értékei lesznek az y-nak.
+
+01:48.292 --> 01:51.652
+Véletlenszerűen kiválaszthatok értékeket az x-nek,
+
+01:51.652 --> 01:53.133
+aztán kiszámolhatom, mi lesz az y.
+
+01:53.133 --> 01:55.000
+De én viszonylag egyszerű értékeket fogok kiválasztani,
+
+01:55.000 --> 01:57.662
+így nem lesz olyan bonyolult a számítás.
+
+01:57.662 --> 01:59.252
+Tehát például,
+
+01:59.252 --> 02:00.533
+ha x egyenlő mínusz 2-vel,
+
+02:00.533 --> 02:03.600
+akkor az y egyenlő lesz 2 x -2 -1-gyel,
+
+02:03.600 --> 02:06.513
+2 szorozva mínusz 2-vel, mínusz 1,
+
+02:06.513 --> 02:10.113
+ami -4 mínusz 1,
+
+02:10.113 --> 02:12.267
+ami mínusz 5.
+
+02:12.267 --> 02:14.785
+Ha x egyenlő mínusz 1-gyel,
+
+02:14.785 --> 02:20.452
+akkor az y 2 szorozva mínusz 1 mínusz 1 lesz.
+
+02:20.452 --> 02:21.733
+Ami egyenlő
+
+02:21.733 --> 02:24.554
+ez mínusz 2 mínusz 1 az mínusz 3,
+
+02:24.554 --> 02:28.725
+ha x egyenlő 0-val,
+
+02:28.725 --> 02:32.590
+akkor y 2 szorozva 0 mínusz 1 lesz.
+
+02:32.600 --> 02:35.667
+2 szorozva 0-val az 0, mínusz 1, az csak mínusz 1.
+
+02:35.667 --> 02:37.333
+Csinálok még párat.
+
+02:37.333 --> 02:38.282
+Ha x egyenlő 1-gyel,
+
+02:38.282 --> 02:39.421
+és bármilyen értéket választhattam volna ide,
+
+02:39.421 --> 02:40.352
+mondhattam volna, hogy mi történik, ha
+
+02:40.352 --> 02:42.005
+x egyenlő mínusz négyzetgyök 2-vel,
+
+02:42.005 --> 02:45.067
+vagy mi történik, ha x egyenlő mínusz 5 ketteddel,
+
+02:45.067 --> 02:47.867
+vagy pozitív hat heteddel.
+
+02:47.867 --> 02:49.000
+De próbálok ilyen számokat választani,
+
+02:49.000 --> 02:50.600
+mert ez megkönnyíti a számítást,
+
+02:50.600 --> 02:52.600
+amikor azt számoljuk ki, mennyi lesz az y.
+
+02:52.600 --> 02:54.133
+De ha x az 1,
+
+02:54.133 --> 02:57.338
+akkor az y 2 szorozva 1-gyel, mínusz 1 lesz,
+
+02:57.338 --> 02:59.733
+2 szorozva 1-gyel az 2, mínusz 1 az 1.
+
+02:59.733 --> 03:03.052
+Még csinálok egyet.
+
+03:03.052 --> 03:05.133
+Olyan színnel, amilyet még nem használtam.
+
+03:05.133 --> 03:06.667
+Nézzük a lilát.
+
+03:06.667 --> 03:08.041
+Ha x egyenlő 2-vel,
+
+03:08.041 --> 03:09.333
+akkor y
+
+03:09.333 --> 03:14.005
+2 szorozva 2-vel, mínusz 1 (most az x egyenlő 2-vel),
+
+03:14.005 --> 03:16.615
+szóval az 4 mínusz 1, ami egyenlő 3-mal.
+
+03:16.615 --> 03:17.800
+szóval ennyi elég is lesz.
+
+03:17.800 --> 03:19.548
+Csak meg akartam mutatni a kapcsolatot.
+
+03:19.548 --> 03:22.533
+De azt mondtam, hogy ez leírja az általános kapcsolatot
+
+03:22.533 --> 03:25.200
+az y és az x változó között,
+
+03:25.200 --> 03:26.908
+és aztán ezt egy konkrétabbá tettem.
+
+03:26.908 --> 03:28.000
+Azt mondtam, oké akkor,
+
+03:28.000 --> 03:29.882
+ha x egyike ezeknek a változóknak.
+
+03:29.882 --> 03:31.200
+Ha ezek mindegyike az x értéke,
+
+03:31.200 --> 03:33.800
+akkor mi lenne az ehhez tartozó y érték?
+
+03:33.800 --> 03:35.698
+És amire Descartes rájött, az az, hogy
+
+03:35.717 --> 03:37.467
+ezt el tudjuk képzelni.
+
+03:37.467 --> 03:40.405
+Amit el tudunk képzelni, azok az egyes pontok.
+
+03:40.405 --> 03:42.667
+De ez általánosságban is segíthet
+
+03:42.667 --> 03:45.800
+elképzelni ezt a kapcsolatot.
+
+03:45.800 --> 03:47.333
+Amit lényegében ő csinált, az az,
+
+03:47.333 --> 03:52.329
+hogy hidat emelt, ami ehhez a nagyon absztrakt, szimbolikus algebrahoz vezet.
+
+03:52.329 --> 03:55.200
+És ez és a geometria, ami
+
+03:55.200 --> 03:57.600
+alakzatokból, méretekből és szögekből áll.
+
+03:57.600 --> 04:02.933
+Tehát itt van a geometria világa.
+
+04:02.933 --> 04:04.887
+És nyilvánvalóan vannak emberek a történelemben,
+
+04:04.887 --> 04:07.067
+lehet, sok ember, akiket a történelem elfelejtett,
+
+04:07.067 --> 04:09.067
+megolajozta ezt.
+
+04:09.067 --> 04:12.467
+De Descartes előtt általánosságban úgy tekintették, hogy
+
+04:12.467 --> 04:14.800
+a geometria euklidészi geometria volt.
+
+04:14.800 --> 04:16.133
+És ez lényegében a geometria,
+
+04:16.133 --> 04:17.533
+amit a geometria órán tanultál,
+
+04:17.533 --> 04:20.333
+8. vagy 9. vagy 10. osztályban.
+
+04:20.333 --> 04:22.533
+a tradícionális középiskolai tananyagban.
+
+04:22.533 --> 04:24.200
+És ez az a geometria, ami tanulmányozza
+
+04:24.200 --> 04:28.554
+a háromszögek és a szögek közötti kapcsolatokat,
+
+04:28.554 --> 04:30.667
+és a körök közötti kapcsolatokat.
+
+04:30.667 --> 04:33.887
+Vannak sugaraink és háromszögeink,
+
+04:33.887 --> 04:36.200
+bevésve körökbe és a többi,
+
+04:36.200 --> 04:37.190
+és bele fogunk ebbe kicsit mélyebben is menni
+
+04:37.190 --> 04:39.667
+a geometria lejátszási listában.
+
+04:39.667 --> 04:42.938
+De Descartes azt mondta, "Tudom vizuálisan ábrázolni ezt
+
+04:42.938 --> 04:46.581
+ugyanúgy, ahogyan Euklidész tanulmányozta ezeket a háromszögeket és köröket"
+
+04:46.581 --> 04:48.299
+azt mondta, "Miért ne?"
+
+04:48.299 --> 04:50.575
+Ha látunk egy papírlapot.
+
+04:50.575 --> 04:52.339
+Ha egy kétdimenziós síkra gondolunk.
+
+04:52.339 --> 04:53.825
+Tekinthetjük úgy a papírlapot, hogy az
+
+04:53.825 --> 04:55.915
+egy része egy kétdimenziós síknak.
+
+04:55.915 --> 04:57.819
+Kétdimenziósnak hívjuk,
+
+04:57.819 --> 04:59.584
+mert két irány van, amiben tudunk haladni rajta.
+
+04:59.584 --> 05:01.256
+Van a felfelé és lefelé,
+
+05:01.256 --> 05:02.510
+ez egy irány.
+
+05:02.510 --> 05:04.825
+Hadd rajzoljam ezt le, kékkel fogom.
+
+05:04.841 --> 05:06.666
+Mert mi próbáljuk a dolgokat vizualizálni,
+
+05:06.666 --> 05:08.384
+ezért ezt a geometria színének választom.
+
+05:08.384 --> 05:11.827
+Szóval van nekünk a fel és le irány,
+
+05:11.827 --> 05:14.139
+és aztán van a bal és a jobb irány.
+
+05:14.139 --> 05:16.720
+Ezért hívják ezt kétdimenziós síkfelületnek.
+
+05:16.720 --> 05:18.160
+Ha három dimenzióval foglalkozunk,
+
+05:18.160 --> 05:21.339
+akkor van egy ki és be dimenziónk.
+
+05:21.339 --> 05:23.200
+És nagyon egyszerű két dimenziót ábrázolni a képernyőn,
+
+05:23.200 --> 05:25.425
+mert a képernyő kétdimenziós.
+
+05:25.425 --> 05:27.071
+És ő azt mondja, "Hát, tudod,
+
+05:27.071 --> 05:29.744
+két változó van itt, és ezeknek ez a kapcsolatuk.
+
+05:29.744 --> 05:32.548
+De miért nem kapcsolom minden egyes változót
+
+05:32.548 --> 05:34.600
+össze ezekkel a dimenziókkal?"
+
+05:34.600 --> 05:38.010
+És legyen az y változó,
+
+05:38.010 --> 05:39.421
+ami igazán egy alárendelt változó,
+
+05:39.421 --> 05:40.456
+Ahogyan csináltuk,
+
+05:40.456 --> 05:41.815
+ez attól függ, hogy mi az x.
+
+05:41.815 --> 05:43.605
+Tegyük fel ezt a függőleges tengelyre.
+
+05:43.605 --> 05:45.333
+És tegyük rá a független változónkat,
+
+05:45.333 --> 05:46.800
+aminek az értékét véletlenszerűen választottam ki,
+
+05:46.800 --> 05:48.348
+hogy meglássuk, mi lenne az y,
+
+05:48.348 --> 05:50.867
+helyezzük el azt a vízszintes tengelyen.
+
+05:50.867 --> 05:52.533
+És igazából Descrates volt az,
+
+05:52.533 --> 05:55.600
+aki kitalálta ezt a szabályt, az x és az y használatára,
+
+05:55.600 --> 05:58.600
+aztán látni fogunk z-t az algebrában, annyira alaposan
+
+05:58.600 --> 06:02.098
+mint ismeretlen változókat, azokkal a változókkal, amikkel éppen dolgozunk.
+
+06:02.098 --> 06:03.867
+De ő azt mondja, "Hát, ha úgy gondolkozunk ezen,
+
+06:03.867 --> 06:07.452
+ha ezeket a dimenziókat beszámozzuk,
+
+06:07.452 --> 06:09.723
+mondjuk azt, hogy ez az x dimenzióban
+
+06:09.723 --> 06:15.702
+tegyük ezt mínusz 3-ra,
+
+06:15.702 --> 06:17.805
+ez legyen mínusz 2,
+
+06:17.805 --> 06:19.498
+ez mínusz 1,
+
+06:19.498 --> 06:21.067
+ez 0.
+
+06:21.067 --> 06:23.800
+Csak beszámozom az x irányt,
+
+06:23.800 --> 06:25.333
+a jobb és bal irányt.
+
+06:25.333 --> 06:26.837
+Ez pozitív 1.
+
+06:26.837 --> 06:28.338
+Ez pozitív 2.
+
+06:28.338 --> 06:30.169
+És ez pozitív 3.
+
+06:30.169 --> 06:32.333
+És megcsinálhatjuk ugyanezt az y dimenzióbanm
+
+06:32.333 --> 06:34.400
+menjünk akkor, ez lesz akkor,
+
+06:34.400 --> 06:40.400
+mondjuk, hogy mínusz 5, mínusz 4, mínusz 3,
+
+06:40.400 --> 06:42.333
+hadd írjam egy kicsit szebben,
+
+06:42.333 --> 06:45.067
+hadd töröljem le ezt itt.
+
+06:45.067 --> 06:47.800
+Hadd töröljem le ezt és hosszabbítsam meg lefelé kicsit,
+
+06:47.800 --> 06:49.533
+hogy le tudjak menni egészen mínusz 5-ig,
+
+06:49.533 --> 06:51.867
+úgy, hogy közben jól is nézzen ki.
+
+06:51.867 --> 06:53.410
+Menjünk le teljesen.
+
+06:53.410 --> 06:54.867
+És beszámozhatjuk,
+
+06:54.867 --> 06:58.144
+ez az 1, ez a 2, ez a 3,
+
+06:58.144 --> 07:00.867
+és akkor ez lesz a mínusz 1.
+
+07:00.867 --> 07:02.733
+Mínusz 2, ez egyezményes,
+
+07:02.733 --> 07:04.067
+de a másik módon is lehetett volna jelölni.
+
+07:04.067 --> 07:05.692
+Dönthettünk volna úgy, hogy az x van itt,
+
+07:05.692 --> 07:06.733
+az y ott,
+
+07:06.733 --> 07:07.969
+és ezt megtehettük volna a pozitívnak,
+
+07:07.969 --> 07:09.277
+ezt pedig a negatív iránynak.
+
+07:09.277 --> 07:11.333
+Ez a szabály, amit az emberek használnak
+
+07:11.333 --> 07:12.733
+Descartes óta.
+
+07:12.733 --> 07:18.062
+Mínusz 2, mínusz 3, mínusz 4, mínusz 5.
+
+07:18.062 --> 07:20.200
+És azt mondja, "bármi, amit összekapcsolhatok,
+
+07:20.200 --> 07:22.667
+összekapcsolhatom ezeket az értékpárokat egy ponttal
+
+07:22.667 --> 07:25.333
+kétdimenzióban.
+
+07:25.333 --> 07:28.467
+Vehetem az x koordinátát, vehetem az x értéket,
+
+07:28.467 --> 07:30.333
+és azt mondom, rendben, ez mínusz 2,
+
+07:30.333 --> 07:34.195
+ez pontosan itt lesz a bal irányban,
+
+07:34.195 --> 07:35.831
+balra megyek, mert ez negatív.
+
+07:35.831 --> 07:39.395
+És ez össze van kapcsolva a mínusz 5-tel a függőleges irányban.
+
+07:39.395 --> 07:41.667
+Szóval azt mondom, az y értéke mínusz 5.
+
+07:41.667 --> 07:46.400
+És akkor kettőt megyek balra, és 5-öt le.
+
+07:46.400 --> 07:49.267
+Erre a pontra fogok jutni.
+
+07:49.267 --> 07:53.518
+Azt mondja, ez a két érték mínusz 2 és mínusz 5,
+
+07:53.518 --> 07:55.733
+ezzel a ponttal kapcsolhatom össze,
+
+07:55.733 --> 07:59.133
+ezen a síkon itt, ezen a kétdimenziós síkon.
+
+07:59.133 --> 08:02.933
+Én azt mondom, ez a koordinátája ennek a pontnak,
+
+08:02.933 --> 08:06.400
+elmondja, hogy hol találom ezt a pontot (mínusz 2 és mínusz 5).
+
+08:06.400 --> 08:08.959
+És ezek a koordináták kartéziánus koordináták,
+
+08:08.959 --> 08:12.077
+René Descartes után.
+
+08:12.077 --> 08:13.800
+Mert ez a fickó találta ki ezeket.
+
+08:13.800 --> 08:15.067
+Társítja ezeket a kapcsolatokat
+
+08:15.067 --> 08:17.667
+ezekkel a pontokkal a koordinátasíkon.
+
+08:17.667 --> 08:19.800
+Aztán azt mondja, rendben van, csináljunk még egyet,
+
+08:19.800 --> 08:21.600
+és itt van egy másik kapcsolat,
+
+08:21.600 --> 08:27.452
+ha x egyenlő mínusz 1, y egyenlő mínusz 3-mal,
+
+08:27.452 --> 08:30.031
+szóval x egyenlő mínusz 1, y egyenlő mínusz 3.
+
+08:30.031 --> 08:31.544
+Ez a pont itt lesz.
+
+08:31.544 --> 08:33.333
+és az szabály még egyszer.
+
+08:33.333 --> 08:34.375
+Ha összeírod a koordinátákat,
+
+08:34.375 --> 08:36.600
+akkor összeírod az x koordinátát, aztán az y koordinátát,
+
+08:36.600 --> 08:38.400
+ez az, amit az emberek eldöntöttek.
+
+08:38.400 --> 08:42.067
+Mínusz 1, mínusz 3, ez ez a pont lesz itt,
+
+08:42.067 --> 08:45.933
+aztán van ez a pontunk, ha x az 0, y mínusz 1,
+
+08:45.933 --> 08:48.067
+ha x az 0 itt,
+
+08:48.067 --> 08:50.267
+ami azt jelenti, hogy nem megyek se balra, se jobbra.
+
+08:50.267 --> 08:52.667
+Y az mínusz 1, ami azt jelenti, hogy 1-et kell lefelé menni.
+
+08:52.667 --> 08:56.390
+Szóval ez ez a pont lesz itt. (0, mínusz 1)
+
+08:56.390 --> 08:57.359
+Pontosan itt.
+
+08:57.359 --> 08:58.852
+És ezt folytathatnám.
+
+08:58.852 --> 09:03.810
+Ha x az 1, y is 1,
+
+09:03.810 --> 09:09.575
+ha x egyenlő 2-vel, az y 3-mal,
+
+09:09.575 --> 09:11.733
+igazából hadd írjam ezt ugyanazzal a lila színnel,
+
+09:11.733 --> 09:15.400
+ha x az 2, y pedig 3,
+
+09:15.400 --> 09:20.652
+2, 3 és aztén ez itt narancssárgával 1, 1.
+
+09:20.652 --> 09:22.195
+Ez jól néz ki így.
+
+09:22.195 --> 09:24.615
+Lényegében mintát adok a lehetséges x-ekről.
+
+09:24.615 --> 09:25.867
+De amire ő jött rá, az az,
+
+09:25.867 --> 09:27.775
+nemcsak mintázom a lehetséges x-eket,
+
+09:27.775 --> 09:29.677
+de ha folytatom ezt,
+
+09:29.677 --> 09:31.318
+ha megpróbálom az összes lehetséges x-et bejelölni,
+
+09:31.318 --> 09:34.000
+akkor igazából a végén egy vonalat kapnék.
+
+09:34.000 --> 09:36.067
+Szóval ha az összes lehetséges x-et kellene bejelölni,
+
+09:36.067 --> 09:38.067
+akkor egy vonalat kapnánk,
+
+09:38.067 --> 09:44.492
+ez valami olyasminek néz ki, itt.
+
+09:44.492 --> 09:47.533
+És bármilyen, bármilyen kapcsolat, ha kiválasztunk egy x-et,
+
+09:47.533 --> 09:50.867
+és megkeressük az y-t, ami egy pontot képvisel a vonalon,
+
+09:50.867 --> 09:52.400
+vagy másféleképpen gondolva,
+
+09:52.400 --> 09:54.171
+bármilyen pont, ami ezen a vonalon található,
+
+09:54.171 --> 09:57.051
+az egy megoldás az itt található egyenletre.
+
+09:57.051 --> 09:58.902
+Szóval ha van ez a pont nekünk itt.
+
+09:58.902 --> 10:01.600
+Ami úgy néz ki, hogy az x 1 és egy fél.
+
+10:01.600 --> 10:03.467
+Y az 2. Szóval hadd írjam ezt le,
+
+10:03.467 --> 10:07.133
+1,5 és 2.
+
+10:07.133 --> 10:09.133
+Ez az egyenlet megoldása.
+
+10:09.133 --> 10:13.652
+Ha az x egyenlő 1,5. 2 szorozva 1,5-tel az 3, mínusz 1 az 2.
+
+10:13.652 --> 10:15.600
+És az pedig itt van.
+
+10:15.600 --> 10:17.400
+Szóval egyszercsak ő át tudta hidalni
+
+10:17.400 --> 10:22.400
+ezt a szakadékot, vagy a kapcsolatot az algebra és a geometria között.
+
+10:22.400 --> 10:27.133
+Mostmár el tudjuk képzelni az x és az y párokat,
+
+10:27.133 --> 10:31.498
+amik megfelelnek ennek az egyenletnek itt.
+
+10:31.498 --> 10:36.092
+Szóval ő felelős ezért a hídért
+
+10:36.092 --> 10:38.067
+és ezért ezek a koordináták,
+
+10:38.067 --> 10:42.677
+amiket használunk ezen pontok jelölésére, kartéziánus koordinátáknak nevezzük,
+
+10:42.677 --> 10:45.467
+látni fogjuk ezeket, és az első típusú egyenleteket,
+
+10:45.467 --> 10:48.600
+amikkel foglalkozni fogunk, ezek az egyenleteket itt,
+
+10:48.600 --> 10:50.446
+és a hagyományos algebra tananyaggal is fogunk foglalkozni.
+
+10:50.446 --> 10:52.733
+Lineáris egyenleteknek nevezzük őket...
+
+10:52.733 --> 10:55.733
+lineáris egyenletek.
+
+10:55.733 --> 10:57.738
+És azt fogod mondani, hát, tudod, ez egy egyenlet,
+
+10:57.738 --> 10:59.533
+megnézem, hogy ez egyenlő-e azzal.
+
+10:59.533 --> 11:00.744
+De miért lineárisak ezek?
+
+11:00.744 --> 11:02.333
+Miért néznek ki úgy, mint egy vonal?
+
+11:02.333 --> 11:04.379
+Hogy rájöjjünk erre,
+
+11:04.379 --> 11:07.467
+meg kell tennünk ezt az ugrást, amit René Descartes is megtett,
+
+11:07.467 --> 11:09.133
+mert ha ezt ábrázolnod kell,
+
+11:09.133 --> 11:10.759
+kartéziánus koordinátákkal
+
+11:10.759 --> 11:14.492
+euklidészi síkon, akkor egy vonalat fogsz kapni.
+
+11:14.492 --> 11:15.846
+És a közeljövőben látni fogod,
+
+11:15.846 --> 11:17.723
+hogy vannak olyan egyenletek, ahol nem kapsz egyenest.
+
+11:17.723 --> 11:21.656
+Egy görbét ffogsz kapni, vagy valami őrültséget, vagy funky-t.

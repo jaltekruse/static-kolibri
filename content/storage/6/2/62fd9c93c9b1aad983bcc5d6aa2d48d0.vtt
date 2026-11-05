@@ -1,0 +1,441 @@
+WEBVTT
+
+00:00.720 --> 00:02.860
+Konumuz : Fonksiyonlar
+
+00:02.860 --> 00:06.350
+oldukça soyut terimlerle ifade etmek gerekirse
+
+00:06.350 --> 00:11.134
+girdi olanları alıp onu öğüten
+
+00:11.134 --> 00:13.050
+o girdiye bakıp, onu bir işleme
+
+00:13.050 --> 00:14.010
+sokar.
+
+00:14.010 --> 00:20.230
+Girdi nin ne olduğuna bağlı olarak,
+bize yeni bir çıktı verir.
+
+00:20.230 --> 00:22.200
+Örneklemek gerekirse Fonksiyon nedir?
+
+00:22.200 --> 00:27.940
+X in f ini girdi olarak alırsam- ki x
+
+00:27.940 --> 00:30.200
+en çok kullanılan değişkendir
+
+00:30.200 --> 00:31.200
+fonksiyonlarda kullanılan.
+
+00:31.200 --> 00:34.100
+Ve fonksiyonlardan bahsederken, f
+
+00:34.100 --> 00:35.650
+kulllanımı en yaygın olanıdır.
+
+00:35.650 --> 00:41.680
+Ama başka kısaltmalarında aynı anlama geleceğini göreceksiniz
+
+00:41.680 --> 00:48.360
+diyelim ki, eğer x bir çift sayıysa x in karesidir
+
+00:48.360 --> 00:59.680
+Ve eğer x tek sayıysa x e 5 ekleyin
+
+00:59.680 --> 01:03.960
+Girdi olarak 2 yazarsak fonksiyonumuz ne olur?
+
+01:03.960 --> 01:05.910
+2 yi girdi olarak yazaraktan göstermek istediğimiz
+
+01:05.910 --> 01:10.730
+x in 2 olduğu fonksiyonu değerlendirmek istediğimizdir
+
+01:10.730 --> 01:14.760
+Hadi f de x gördüğümüz değere 2 yazalım demenin söylenmesidir
+
+01:14.760 --> 01:16.660
+x i gördüğümüz heryere
+
+01:16.660 --> 01:19.320
+bu değişken(x)-yertutucu olarak kullanabiliriz gibi. Haydi
+
+01:19.320 --> 01:21.390
+yerine girdimizi yazalım.
+
+01:21.390 --> 01:21.980
+Şimdi bakalım.
+
+01:21.980 --> 01:24.810
+Eğer 2(x) çiftse, bunun karesini alalım.
+
+01:24.810 --> 01:27.870
+Eğer 2(x) tekse, 2 ye 5 ekleyin.
+
+01:27.870 --> 01:31.670
+Tabiiki 2 çifttir, öyleyse 2 nin karesini alacağız
+
+01:31.670 --> 01:36.250
+Bu durumda, f(2) fonksiyonunda 2 lerin karesi olacakki buda 4.
+
+01:36.250 --> 01:40.540
+f(3) ne olurdu?
+
+01:40.540 --> 01:42.640
+Tekrardan , bu değişkeni gördüğümüz heryere
+
+01:42.640 --> 01:44.135
+bu girdiyle değiştireceğiz
+
+01:48.250 --> 01:54.950
+f(3) , eğer 3 çiftse karesini alın, 3 tekse 5 ekleyin
+
+01:54.950 --> 01:57.390
+3 tabiiki tektir. Öyleyse 5 ekliyoruz.
+
+01:57.390 --> 02:02.670
+Bu da 8 e eşittir.
+
+02:02.670 --> 02:04.200
+Bu oldukça anlaşılırdı Sal diyebilirsiniz.
+
+02:04.200 --> 02:05.790
+Bu biraz ilginç bir yoldu
+
+02:05.790 --> 02:09.139
+fonksiyonu tanımlada , bu yolla sayıları işleme sokmak
+
+02:09.139 --> 02:12.217
+Ama geleneksel denklemlerlede yapabilirdim.
+
+02:12.217 --> 02:13.800
+özellikle bana izin verseydiniz
+
+02:13.800 --> 02:16.140
+bu parantezlemeyi kullanmayı
+
+02:16.140 --> 02:19.710
+geleneksel araçlarımı kullansaydım fonksiyon
+
+02:19.710 --> 02:22.160
+bu kadar açıklayıcı olmayan sorularda ne olurdu
+
+02:22.160 --> 02:25.880
+Şöyle bir fonksiyon yazalım.
+
+02:25.880 --> 02:27.790
+Hatta f ve x yerine
+
+02:27.790 --> 02:30.800
+farklı işaretlemerle göstereyim
+
+02:30.800 --> 02:47.050
+h(a) fonksiyonunda sonraki en büyük sayı
+
+02:47.050 --> 02:57.886
+a değişkeniyle aynı başlangıç harfiyle başlayan
+
+03:00.460 --> 03:03.330
+Soruyu ingilizce çözdüğümüzü farzediyoruz.
+
+03:03.330 --> 03:09.930
+Verilenlere göre 2 verildiğinde h ne olur?
+
+03:09.930 --> 03:12.890
+2(two) T ile başlar. Sonraki T ile başlayan sayı
+
+03:12.890 --> 03:14.210
+hangisidir?
+
+03:14.210 --> 03:18.610
+Tabiiki 3(three) olacaktır.
+
+03:18.610 --> 03:25.210
+başka bir h düşünelim diyelimkii..
+
+03:25.210 --> 03:27.990
+h(8) ne olur?
+
+03:27.990 --> 03:31.570
+8(eight) E harfiyle başlar. 8den büyük bir sonraki sayı ise
+
+03:31.570 --> 03:37.400
+9(nine),10(ten) olmaz ama 11(eleven) olabilir.
+
+03:37.400 --> 03:42.100
+Şimdi gördüğünüz üzere elimizde oldukça ama oldukça kullanım yeri geniş bir araç var.
+
+03:42.100 --> 03:44.630
+Bu tanımladığımız h fonksiyonuna bir bakalım.
+
+03:44.630 --> 03:46.500
+Sayının başladığı harf i bakıyoruz
+
+03:46.500 --> 03:47.869
+ingilizce dilinde.
+
+03:47.869 --> 03:49.910
+Böyle bir şey yapmak oldukça ama oldukça
+
+03:49.910 --> 03:50.990
+kaçık-deli işi dir
+
+03:50.990 --> 03:53.070
+Bütün fonksiyonlar bu kadar uçuk kaçık değildir.
+
+03:53.070 --> 03:55.950
+Hatta siz şimdiden fonksiyon çözmüş olabilirsiniz.
+
+03:55.950 --> 04:02.340
+Şöyle şeyler görmüşünüzdür
+y=x+1
+
+04:02.340 --> 04:04.080
+Bu bir fonksiyondur
+
+04:04.080 --> 04:07.520
+Bunu şöyle yazabiliriz , y
+
+04:07.520 --> 04:11.760
+x in fonksiyonudur , oda eşittir x +1
+
+04:11.760 --> 04:16.390
+Girdi olarak -- mesela
+
+04:16.390 --> 04:23.650
+örnek olarak , x sıfırsa sıfırn f fonksiyonu
+
+04:23.650 --> 04:25.710
+eşittir ..sıfır alıp
+
+04:25.710 --> 04:26.830
+bir eklediğimizde
+
+04:26.830 --> 04:28.440
+bir e eşit olur
+
+04:28.440 --> 04:30.447
+f 2 olduğunda 2 ye eşittir
+
+04:30.447 --> 04:31.780
+Bunu daha önce yaptınız.
+
+04:31.780 --> 04:33.760
+Nası yapmıştınız hadi bakalım
+
+04:33.760 --> 04:37.250
+x ve y tablosu yapıp y leri yazalım
+
+04:37.250 --> 04:40.230
+x sıfır olduğunda y 1 dir
+
+04:40.230 --> 04:42.990
+Üzgünüm
+
+04:42.990 --> 04:44.150
+Küçük bir hata yaptım
+
+04:44.150 --> 04:46.660
+eğer f(2) de fonksiyon 3 olur(du)
+
+04:46.660 --> 04:48.920
+Ve yaptığımız bu tablolamaya geri dönersek
+
+04:48.920 --> 04:51.470
+x lere ve y lere bakalım
+
+04:51.470 --> 04:53.650
+x 0 sa y de 1 dir
+
+04:53.650 --> 04:57.151
+x 2 ise y de 3 tür
+
+04:57.151 --> 04:59.400
+Diyebilirsinizki, Bunların ne anlamı olabilir
+
+04:59.400 --> 05:01.310
+fonksiyonların böyle gösterdiğimizde
+
+05:01.310 --> 05:03.820
+x in f i eşittir x +1( f(x) =x+1)
+
+05:03.820 --> 05:07.390
+Böyle gösterimin anlamı daha geniş kullanımlı terimler içindir.
+
+05:07.390 --> 05:09.140
+Böyle bir gösterim için,aslında siz
+
+05:09.140 --> 05:11.417
+böyle gösterimi fonksiyonlarda betimlesini görmediniz
+
+05:11.417 --> 05:14.000
+Fonksiyonlara girişte bu gösterimi önceden görmenin zararı olmaz çünkü
+
+05:14.000 --> 05:17.820
+oldukça açıklayıcıdır eğer bir girdi aldığınızda
+
+05:17.820 --> 05:21.520
+mesela x .. bu tanımlama onu işlemden geçirilmesidir.
+
+05:21.520 --> 05:23.500
+Her x e 1 ekleyin
+
+05:23.500 --> 05:26.080
+x in bir fazlasini elde edin.
+
+05:26.080 --> 05:29.460
+Yani girdi ne ise çıktı da
+
+05:29.460 --> 05:31.100
+onun 1 fazlasıdır
+
+05:31.100 --> 05:32.350
+Şimdi ne sorduğunuzu tahmin eder gibiyim.
+
+05:32.350 --> 05:32.850
+Taamam
+
+05:32.850 --> 05:35.210
+Öyleyse fonksiyon ne DEĞİLDİR?
+
+05:35.210 --> 05:36.750
+Ee hatırlayın, daha önce fonksiyon dediğimizde
+
+05:36.750 --> 05:39.850
+bu öyle birşeydirki bir girdiyi alır ve sadece bir çıktı verir.
+
+05:39.850 --> 05:43.130
+verilen girdiye göre mümkün olan bir çıktı verir ,
+
+05:43.130 --> 05:46.580
+Örneklersek .. hadi görsel olarak bakalım
+
+05:46.580 --> 05:49.100
+fonksiyonlari düşününce , yada ilişkilendirince..
+
+05:49.100 --> 05:53.190
+Diyebilirmki işte y axis
+
+05:53.190 --> 05:55.463
+ve x axisi
+
+05:58.241 --> 06:05.720
+Yarıçapı 2 olan bir daire çizeyimç
+
+06:05.720 --> 06:07.950
+Bu 2 yarıçaplı bir çemberdir
+
+06:07.950 --> 06:09.300
+Bu -2
+
+06:09.300 --> 06:11.120
+Bu pozitif 2
+
+06:11.120 --> 06:12.730
+Bu eksi 2
+
+06:12.730 --> 06:15.940
+Vee benim çemberim merkezi orjindedir.
+
+06:15.940 --> 06:17.330
+Yarıçapı 2 olan
+
+06:17.330 --> 06:20.560
+Bu da benim en iyi çember çizimi denemem
+
+06:20.560 --> 06:21.920
+İçini doldurayım
+
+06:21.920 --> 06:23.100
+Ve işte bir daire.
+
+06:23.100 --> 06:25.070
+Dairenin denklemi
+
+06:25.070 --> 06:28.370
+x in karesi artı y nin karesi yarıçapın karesine eşittir
+
+06:28.370 --> 06:31.360
+ki 2 nin kareside 4 tür
+
+06:31.360 --> 06:34.027
+Mesele de x ve y ilişkisi dir
+
+06:34.027 --> 06:35.610
+Burdaki denklemde ifade ettik
+
+06:35.610 --> 06:40.020
+Bütün x ve y leri görsel olarak çizdikki denklemi oluşturalım
+
+06:40.020 --> 06:43.220
+bu denklemi.. Peki bu x ve y ler arasındaki
+
+06:43.220 --> 06:45.280
+ilişkiler bir fonksiyonmudur?
+
+06:45.280 --> 06:47.060
+Görsel olarak görüyoruzki bir fonksiyon
+
+06:47.060 --> 06:48.280
+olamayacaktır.
+
+06:48.280 --> 06:49.850
+Verilen bir x i alalım
+
+06:49.850 --> 06:53.820
+mesela x in 1 olduğu
+
+06:53.820 --> 06:57.150
+2 tane mümkün olan y çıkar karşımıza
+
+06:57.150 --> 07:00.237
+Burdaki y ve aşağıdaki y.
+
+07:00.237 --> 07:02.570
+Bunu sadece gözle inceleyerek bile çözebiliriz
+
+07:02.570 --> 07:06.210
+eğer x 1 ise, 1 in karesi + y nin karesi
+
+07:06.210 --> 07:07.073
+4 e eşittir.
+
+07:07.073 --> 07:11.390
+1 + y nin karesi eşittir 4
+
+07:11.390 --> 07:15.720
+yada iki taraftanda 1 çıkarınca y nin karesi 3 e eşittir
+
+07:15.720 --> 07:20.830
+yada y eşittir pozitif veya negatif karekök 3 e
+
+07:20.830 --> 07:23.720
+İşte tam burda pozitif karekök 3,
+
+07:23.720 --> 07:26.700
+ve burdada negatif karekök 3.
+
+07:26.700 --> 07:28.810
+Bu durumda, bu ilişki
+
+07:28.810 --> 07:34.130
+1 girdiğimde burdaki kutucuğa
+
+07:34.130 --> 07:36.680
+ve 1 le ilişkilendirdiğimide
+
+07:36.680 --> 07:40.510
+hem pozitif hemde negatif kök 3 le muhatap oluyorum.
+
+07:40.510 --> 07:47.000
+öyleyse bu bir fonksiyon değildir.
+
+07:47.000 --> 07:51.540
+Girdimi iki değişik çıktıyla eşleştiremem.
+
+07:51.540 --> 07:56.240
+Verilen girdiye göre tek sonuç olabilir.

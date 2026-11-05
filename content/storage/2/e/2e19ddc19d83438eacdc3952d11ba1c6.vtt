@@ -1,0 +1,463 @@
+WEBVTT
+
+00:00.600 --> 00:05.106
+Nos últimos vídeos aprendemos
+como aproximar funções arbitrárias,
+
+00:05.106 --> 00:07.480
+uma função que seja diferenciável,
+
+00:07.480 --> 00:09.910
+duas, três vezes diferenciável
+e todo o resto.
+
+00:09.910 --> 00:12.633
+Como podemos aproximar uma função
+
+00:12.633 --> 00:15.356
+em x igual a zero.
+
+00:15.356 --> 00:18.080
+Usando um polinômio, se tivermos um
+
+00:18.080 --> 00:20.710
+polinômio de primeiro grau, ou melhor,
+de grau zero
+
+00:20.710 --> 00:23.430
+que é apenas uma constante,
+você pode aproximá-la
+
+00:23.430 --> 00:26.310
+por uma reta horizontal que passa
+por aquele ponto.
+
+00:26.310 --> 00:28.020
+Não seria a melhor aproximação.
+
+00:28.020 --> 00:30.170
+Se você tiver um polinômio de
+primeiro grau,
+
+00:30.170 --> 00:32.220
+você pode achar a inclinação
+naquele ponto.
+
+00:32.220 --> 00:34.620
+Se você pegar um polinômio
+de segundo grau,
+
+00:34.620 --> 00:36.540
+você pode chegar em algo que se aproxima
+
+00:36.540 --> 00:38.460
+um pouco mais dessa função.
+
+00:38.460 --> 00:40.689
+Se você for para um polinômio
+de terceiro grau
+
+00:40.689 --> 00:44.338
+talvez fique com algo que se
+aproxime mais ainda.
+
+00:44.338 --> 00:47.570
+Tudo isso estava focado em
+
+00:47.570 --> 00:51.970
+aproximar a função em x igual a zero.
+
+00:51.970 --> 00:54.660
+E para isso damos o nome de
+série de Maclaurin ou
+
+00:54.660 --> 00:56.950
+série de Taylor em x igual a zero.
+
+00:56.950 --> 00:59.310
+O que farei a seguir é expandir
+um pouco mais,
+
+00:59.310 --> 01:04.680
+generalizar e focar na série de
+Taylor para qualquer x.
+
+01:04.680 --> 01:08.970
+Digamos que queremos aproximar
+essa função quando x,
+
+01:08.970 --> 01:11.250
+essa é a nossa abscissa,
+quando x é igual a c.
+
+01:12.330 --> 01:14.300
+Podemos fazer a mesma coisa.
+
+01:14.300 --> 01:18.230
+Poderíamos dizer: olhe, nossa
+primeira aproximação
+
+01:18.230 --> 01:22.160
+será por uma f, um polinômio,
+
+01:22.160 --> 01:26.090
+nosso polinômio em c deve ser igual a,
+
+01:26.090 --> 01:27.840
+ou melhor, deixe-me reescrever,
+
+01:27.840 --> 01:31.860
+nosso polinômio, se for uma constante,
+
+01:31.860 --> 01:33.260
+deve ser pelo menos igual a
+
+01:33.260 --> 01:35.580
+uma função, qualquer que
+seja seu valor em c.
+
+01:35.580 --> 01:40.590
+Então deve ser igual a f de c,
+que é uma constante.
+
+01:40.590 --> 01:42.670
+É aquele valor ali.
+
+01:42.670 --> 01:44.670
+Estamos assumindo que c é dado.
+
+01:44.670 --> 01:47.410
+E então isso seria apenas
+
+01:47.410 --> 01:50.640
+uma reta horizontal que passa por f de c.
+
+01:50.640 --> 01:53.680
+Ou seja, p de x é igual a f de c.
+
+01:53.680 --> 01:55.780
+Não seria uma boa aproximação,
+mas podemos
+
+01:55.780 --> 01:59.370
+tentar ir por aí, tendo esta
+limitação imposta.
+
+01:59.370 --> 02:02.160
+E ainda tendo a derivada.
+
+02:02.160 --> 02:04.380
+Só de lembrete, essa limitação nos dá,
+
+02:04.380 --> 02:07.890
+nos dá o fato de que pelo menos p de c,
+
+02:07.890 --> 02:11.009
+a aproximação em c, nosso polinômio em c,
+
+02:11.009 --> 02:13.430
+será igual a f de c, certo?
+
+02:13.430 --> 02:15.520
+Se você colocar c aqui,
+não muda o que está
+
+02:15.520 --> 02:19.090
+do lado direito, pois isso é
+apenas uma constante.
+
+02:19.090 --> 02:21.770
+Agora vamos dar um passo adiante.
+
+02:21.770 --> 02:25.960
+E se quisermos uma situação
+em que isso seja verdade?
+
+02:25.960 --> 02:31.400
+E queremos que a derivada do
+nosso polinômio seja
+
+02:31.400 --> 02:34.646
+a mesma que a derivada de nossa função
+
+02:34.646 --> 02:37.892
+quando ambos estiverem em c.
+
+02:37.892 --> 02:41.140
+Para essa situação por que não
+definimos nosso polinômio e
+
+02:41.140 --> 02:44.450
+você verá um paralelo com o que
+fizemos em vídeos anteriores.
+
+02:44.450 --> 02:48.950
+Faremos algumas mudanças,
+no caso não estamos em zero,
+
+02:48.950 --> 02:55.206
+agora temos que encontrar
+p de x igual a f de c
+
+02:55.206 --> 03:00.190
+mais f linha de c
+
+03:00.190 --> 03:06.020
+Qualquer que seja a inclinação
+neste ponto da função
+
+03:06.020 --> 03:09.690
+Vezes, e você verá algo
+um pouco diferente aqui.
+
+03:09.690 --> 03:14.180
+x menos c, pense um pouco
+porque fizemos isso,
+
+03:14.180 --> 03:18.070
+o que esse menos c está fazendo?
+
+03:18.070 --> 03:20.410
+Vamos antes de tudo testar de modo que
+
+03:20.410 --> 03:22.150
+não estraguemos nossa restrição.
+
+03:22.150 --> 03:26.320
+Vamos avaliar isso em c, agora sabemos
+
+03:26.320 --> 03:29.410
+que p de c, e estou usando este exemplo
+
+03:29.410 --> 03:33.200
+p de c, deixe-me mudar a cor
+
+03:33.200 --> 03:41.540
+p de c será igual a f de c.
+
+03:42.590 --> 03:47.650
+Mais f linha de c vezes c menos c.
+
+03:47.650 --> 03:51.560
+Onde for x você coloca c.
+
+03:51.560 --> 03:53.370
+Bom, este termo aqui resulta em zero.
+
+03:53.370 --> 03:57.890
+Então todo este termo será zero.
+
+03:57.890 --> 04:03.110
+E você fica com p de c igual a f de c.
+
+04:03.110 --> 04:06.300
+Você fica com apenas aquela igualdade.
+
+04:06.300 --> 04:10.290
+E a única razão pela qual pudemos
+tirar este segundo termo
+
+04:10.290 --> 04:15.710
+bem aqui foi porque tínhamos
+f linha de c vezes x menos c.
+
+04:15.710 --> 04:18.273
+O x menos c faz com que todos os termos
+
+04:18.273 --> 04:20.836
+após este sejam irrelevantes.
+
+04:20.836 --> 04:23.400
+Agora verificaremos que isso é verdade.
+
+04:23.400 --> 04:25.659
+Vamos lá, p linha de c.
+
+04:26.830 --> 04:29.280
+Ou melhor, p linha de x.
+
+04:29.280 --> 04:34.200
+p linha de x será a derivada disso,
+que é zero
+
+04:34.200 --> 04:36.060
+pois isto é uma constante,
+
+04:36.060 --> 04:39.670
+mais a derivada disso aqui.
+
+04:39.670 --> 04:40.860
+E isso será quanto?
+
+04:40.860 --> 04:44.040
+Bom, você pode expandir
+isso em f linha de c
+
+04:44.040 --> 04:49.070
+vezes x menos f linha de c vezes c,
+que é uma constante.
+
+04:49.070 --> 04:51.290
+Calculando a derivada disso você
+
+04:51.290 --> 04:56.000
+ficará com f linha de c.
+
+04:56.000 --> 04:57.800
+Então a derivada do nosso polinômio é
+
+04:57.800 --> 05:00.460
+constante, então obviamente se você fosse
+
+05:00.460 --> 05:05.780
+avaliar isso em c, p linha de c, você
+ficaria com f linha de c.
+
+05:07.010 --> 05:10.900
+A condição está satisfeita mais uma vez.
+
+05:10.900 --> 05:12.480
+E quando você tiver dois desses
+
+05:12.480 --> 05:15.980
+termos, talvez nossa aproximação
+se pareça um pouco com isso.
+
+05:15.980 --> 05:18.180
+Ela pelo menos terá a inclinação correta.
+
+05:18.180 --> 05:20.940
+Ela terá a inclinação correta em f de x.
+
+05:20.940 --> 05:23.370
+Nossa aproximação está ficando
+um pouco melhor.
+
+05:23.370 --> 05:26.680
+E se continuarmos com isso,
+usando a mesma lógica
+
+05:26.680 --> 05:31.480
+quando fizemos em zero, quando
+fizemos a expansão de Maclaurin.
+
+05:31.480 --> 05:35.900
+Você chega na expansão geral de Taylor
+
+05:37.470 --> 05:41.450
+para uma aproximação de f de x em c.
+
+05:42.640 --> 05:45.830
+O polinômio p de x
+
+05:45.830 --> 05:48.180
+será igual, deixe-me expandir isso.
+
+05:48.180 --> 05:50.824
+E isso é muito parecido com o que
+vimos anteriormente.
+
+05:50.824 --> 05:54.199
+f de c mais f linha de c vezes x menos c
+
+05:54.199 --> 05:57.864
+você pode até imaginar quais
+serão os próximos termos.
+
+05:57.864 --> 06:01.530
+É exatamente a mesma lógica.
+
+06:01.530 --> 06:04.790
+Assista aos vídeos de Maclaurin para
+se habituar com isso.
+
+06:04.790 --> 06:06.580
+Fica um pouco mais complicado tomando
+
+06:06.580 --> 06:08.600
+a segunda e terceira derivada e todo
+
+06:08.600 --> 06:11.880
+o resto, pois você tem que
+expandir estes binômios.
+
+06:11.880 --> 06:14.730
+Mas é a mesma lógica.
+
+06:14.730 --> 06:17.560
+Então você fica com mais
+o termo de segundo grau.
+
+06:18.920 --> 06:19.840
+De segundo grau.
+
+06:19.840 --> 06:24.170
+f duas linhas de c,
+dividido por dois fatorial.
+
+06:24.170 --> 06:26.820
+E isso é o mesmo que vimos
+na expansão de Maclaurin.
+
+06:26.820 --> 06:30.010
+E para ser mais claro, você pode dizer
+que há um fatorial aqui.
+
+06:30.010 --> 06:33.380
+Eu não me dei o trabalho de escrevê-lo,
+pois o valor não se altera.
+
+06:33.380 --> 06:39.560
+E isso vezes x menos c ao quadrado
+mais a derivada terceira
+
+06:39.560 --> 06:47.310
+da função em c sobre três fatorial
+vezes x menos c
+
+06:47.310 --> 06:50.640
+ao cubo, e eu acho que você
+já pegou a ideia.
+
+06:50.640 --> 06:53.150
+Você pode continuar adicionando
+mais termos,
+
+06:55.030 --> 06:58.170
+mas infelizmente isso torna as coisas
+um pouco complicadas.
+
+06:58.170 --> 06:59.750
+Se você estiver disposto a
+realizar este trabalho.
+
+06:59.750 --> 07:03.650
+Não é tão ruim, mas adicionar
+esse x ao invés de ter apenas
+
+07:03.650 --> 07:06.050
+este x aqui e um x ao quadrado ali, ter um
+
+07:06.050 --> 07:09.410
+x menos c ao quadrado e ter
+um x menos c ao cubo
+
+07:09.410 --> 07:13.520
+torna a matemática analítica
+um pouco mais complicada.
+
+07:13.520 --> 07:17.510
+Mas isso fará com que sua aproximação
+seja cada vez melhor.
+
+07:17.510 --> 07:21.600
+Em um valor arbitrário em
+oposição a x igual a zero
+
+07:21.600 --> 07:25.554
+e eu vou te mostrar isso usando o
+WolframAlpha no próximo vídeo.
+
+07:25.554 --> 07:30.064
+[Legendado em portuguese-brazilian por: Jonny Oda]
+[Revisado por: Tatiana F. D'Addio]

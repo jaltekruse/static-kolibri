@@ -1,0 +1,359 @@
+WEBVTT
+
+00:00.640 --> 00:05.510
+So we've got the function, f of x is equal
+to x squared.
+
+00:05.510 --> 00:09.870
+And what I'm concerned with, is finding
+the area under the curve,
+
+00:09.870 --> 00:13.900
+y is equal to f of x, so that's my y axis.
+
+00:13.900 --> 00:18.630
+This is my, my, x axis.
+
+00:18.630 --> 00:20.720
+Then let me draw my function.
+
+00:20.720 --> 00:22.460
+My function looks like this.
+
+00:22.460 --> 00:24.740
+At least in the, in the first quadrant.
+
+00:24.740 --> 00:26.150
+That's where I'll graph it for now.
+
+00:26.150 --> 00:29.190
+I could also graph it, obviously in the
+second quadrant.
+
+00:29.190 --> 00:34.570
+But, what I care about is the area under
+this curve and above the positive x axis,
+
+00:34.570 --> 00:41.840
+between, between x equals 1 and x equals
+4, x equals 4.
+
+00:41.840 --> 00:44.272
+And I'm tired of approximating areas.
+
+00:44.272 --> 00:50.350
+I wanna find the exact area under this
+curve above the x axis.
+
+00:50.350 --> 00:52.780
+And the way we denote the exact area under
+the
+
+00:52.780 --> 00:56.990
+curve, this little brown shaded area, is
+using the definite integral.
+
+00:56.990 --> 01:02.170
+The definite integral from 1 to 4 of f of
+x, dx.
+
+01:02.170 --> 01:04.400
+And the way that, or the way I
+conceptualize
+
+01:04.400 --> 01:07.090
+where this notation comes from, is we
+imagine a
+
+01:07.090 --> 01:10.650
+bunch of infinite, an infinite number of
+infinitely thin
+
+01:10.650 --> 01:13.240
+rectangles that we sum up to find this
+area.
+
+01:13.240 --> 01:18.010
+Let me draw one of those infinitely thin
+rectangles, maybe not so infinitely thin.
+
+01:18.010 --> 01:20.670
+So, let me draw it like this.
+
+01:20.670 --> 01:23.590
+So, that would be one of the rectangles,
+that would be another rectangle.
+
+01:23.590 --> 01:25.390
+This should be reminiscent of a Riemann
+sum.
+
+01:25.390 --> 01:27.685
+In fact, that's where the Riemann integral
+comes from.
+
+01:27.685 --> 01:30.288
+Think of a Riemann sum where you have an
+infinite number
+
+01:30.288 --> 01:33.411
+of these rectangles, where the width of
+each of the rectangles.
+
+01:33.411 --> 01:38.546
+This is how I conceptualize it, is dx, and
+the height of this rectangle is the
+
+01:38.546 --> 01:43.453
+function evaluated at an x that's within
+this interval right over here.
+
+01:43.453 --> 01:46.210
+And so, this part right over here is the
+area of
+
+01:46.210 --> 01:49.690
+one of those rectangles, and we were
+summing them all up.
+
+01:49.690 --> 01:54.530
+And this kind of an elongated s,
+reminiscent of a sigma for summing.
+
+01:54.530 --> 01:58.760
+We're summing up the infinite number, of
+those infinitely thin rectangles,
+
+01:58.760 --> 02:02.860
+or the areas of those infinitely thin
+rectangles between 1 and 4.
+
+02:02.860 --> 02:05.660
+So that's where the notation of the
+definite integral comes from.
+
+02:05.660 --> 02:06.740
+But we still haven't done anything.
+
+02:06.740 --> 02:10.550
+We've just written some notation that says
+the exact area of the un-
+
+02:10.550 --> 02:15.260
+Between 1 and 4, under the curve f of x,
+and above the x axis.
+
+02:15.260 --> 02:19.150
+In order to actually do anything really
+productive with this, we have to turn to
+
+02:19.150 --> 02:22.140
+the second fundamental theorem of
+calculus, sometimes called
+
+02:22.140 --> 02:24.970
+part two of the fundamental theorem of
+calculus.
+
+02:24.970 --> 02:29.580
+>> Which tells us, that if f has an
+antiderivative, so if we
+
+02:29.580 --> 02:35.060
+have the antiderivative of f, so f of x is
+derivative,
+
+02:35.060 --> 02:40.505
+derivative of some function capital F of
+x, or another way of saying it is,
+
+02:40.505 --> 02:45.824
+f, capital F of x is the antiderivative,
+
+02:45.824 --> 02:51.020
+antiderivative of lower case f of x.
+
+02:51.020 --> 02:52.940
+Then I can evaluate this thing, and we do
+
+02:52.940 --> 02:56.310
+a whole video on conceptually
+understanding why this makes sense.
+
+02:56.310 --> 03:00.000
+We could evaluate this, by evaluating the
+antiderivative
+
+03:00.000 --> 03:04.220
+of f, or an antiderivative of f, at 4.
+
+03:04.220 --> 03:09.340
+And from that, subtract the antiderivative
+evaluated at 1.
+
+03:09.340 --> 03:14.110
+So, let's do it for this particular case
+right over here.
+
+03:14.110 --> 03:17.230
+So we are taking, I'll just rewrite this
+statement.
+
+03:17.230 --> 03:19.990
+Instead of writing f of x, I'll write x
+squared.
+
+03:19.990 --> 03:24.360
+So, the definite integral from 1 to 4 of x
+squared dx.
+
+03:24.360 --> 03:27.370
+Well, we're just gonna have to figure out
+what the antiderivative is.
+
+03:27.370 --> 03:33.820
+So if f of x is equal to x squared, what
+is capital F of x equal to?
+
+03:33.820 --> 03:36.110
+What is the antiderivative?
+
+03:36.110 --> 03:39.210
+Well, you might remember from your power
+rule, that if you
+
+03:39.210 --> 03:43.100
+take the derivative with respect to x of x
+to the
+
+03:43.100 --> 03:47.440
+third, you are going to get 3x squared,
+which is pretty
+
+03:47.440 --> 03:50.050
+darn close to x squared except for this
+factor of 3.
+
+03:50.050 --> 03:51.615
+So, let's divide both sides by 3.
+
+03:52.750 --> 03:56.580
+Let's divide both sides by 3, and you get
+the derivative
+
+03:56.580 --> 04:00.520
+of x to the third divided by 3 is indeed x
+squared.
+
+04:00.520 --> 04:02.310
+Or, you can say this is the same thing as
+the
+
+04:02.310 --> 04:07.830
+derivative with respect to x of, x to the
+third over 3.
+
+04:07.830 --> 04:08.830
+Take the derivative of this.
+
+04:08.830 --> 04:11.430
+It'll be 3 times one third.
+
+04:11.430 --> 04:13.630
+And then you'll decrement the power, it'll
+just be x squared.
+
+04:13.630 --> 04:15.730
+So, this right over here, once again, is x
+squared.
+
+04:15.730 --> 04:20.200
+It's just equal to, just equal to x
+squared.
+
+04:20.200 --> 04:24.240
+So, in this case, our capital F of x, our
+antiderivative,
+
+04:24.240 --> 04:28.540
+is x to the third, x to the third over 3.
+
+04:28.540 --> 04:34.600
+And so we just have to evaluate that at 4
+and at 1, and sometimes the way we would,
+
+04:34.600 --> 04:40.070
+the, the notation we would use is, we'll
+say that the antiderivative is x
+
+04:40.070 --> 04:44.660
+to the third over 3, and we're going to
+evaluate it, the one I, I always
+
+04:44.660 --> 04:46.090
+just like to write the numbers up here,
+
+04:46.090 --> 04:49.260
+at 4 and from that subtracted, evaluated
+at 1.
+
+04:49.260 --> 04:51.430
+Sometimes you'll see people write a little
+line here too,
+
+04:51.430 --> 04:54.930
+we'll say we're evaluate it at 4 and then
+at 1.
+
+04:54.930 --> 04:56.910
+But I'll just do it without the line.
+
+04:56.910 --> 04:59.010
+If we're gonna evaluate this thing at 4
+and from
+
+04:59.010 --> 05:02.330
+that subtract it, subtract it evaluated at
+1, so this
+
+05:02.330 --> 05:07.740
+going to be equal to 4 to the third power
+is 64, so it's going to be 64 over 3.
+
+05:07.740 --> 05:13.330
+Let me color code it, this is, this right
+over here, is this, right
+
+05:13.330 --> 05:15.320
+over there and then from that, we're
+
+05:15.320 --> 05:18.500
+going to subtract this business evaluated
+at one.
+
+05:18.500 --> 05:23.330
+Well, when you evaluate it at 1, you get 1
+to the third is one over 3.
+
+05:23.330 --> 05:24.900
+You get one third.
+
+05:24.900 --> 05:31.100
+So just to be clear, this is this right
+over there.
+
+05:31.100 --> 05:33.660
+And then we are ready to just subtract
+these fractions.
+
+05:33.660 --> 05:41.140
+64 over 3, minus one third, is equal to 63
+over 3.
+
+05:41.140 --> 05:46.850
+And 3 goes into 63 exactly, exactly 21
+times.
+
+05:46.850 --> 05:52.680
+So, whatever the units are, the area of
+this brown area is 21 square units.

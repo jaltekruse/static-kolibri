@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.460 --> 00:03.040
+Tout d'abord, nous allons penser à ce qu'on fait réellement les fonctions, puis
+
+00:03.040 --> 00:06.590
+nous allons réfléchir à la réciproque d'une fonction.
+
+00:06.590 --> 00:08.450
+Commençons avec un bel exemple assez simple.
+
+00:08.450 --> 00:13.510
+Disons que f de x est égal à 2x plus 4.
+
+00:13.510 --> 00:20.340
+Si j'évalue f de 2, f de 2 est égal à 2 fois
+
+00:20.340 --> 00:24.560
+2 plus 4, ce qui fait 4 plus 4 qui fait 8.
+
+00:24.560 --> 00:32.470
+Je peux évaluer f de 3, qui fait 2 fois 3 plus 4,
+
+00:32.470 --> 00:35.920
+qui est égal à 10.
+
+00:35.920 --> 00:36.960
+6 plus 4.
+
+00:36.960 --> 00:38.280
+Réfléchissons à tout ça
+
+00:38.280 --> 00:39.800
+de façon plus abstraite.
+
+00:39.800 --> 00:42.990
+Il y a un ensemble de nombres que je peux mettre dans cette fonction.
+
+00:42.990 --> 00:44.700
+Vous devriez déjà être familiés avec cette notion.
+
+00:44.700 --> 00:46.050
+Il s'agit du domaine.
+
+00:46.050 --> 00:48.760
+L'ensemble de tous les nombres que je peux entrer dans cette
+
+00:48.760 --> 00:52.760
+fonction est le domaine.
+
+00:52.760 --> 00:57.290
+Dans ce domaine, il y a 2 et également 3
+
+00:57.290 --> 00:59.700
+En fait, vous pouvez entrer n'importe quel nombre réel
+
+00:59.700 --> 01:00.850
+dans cette fonction.
+
+01:00.850 --> 01:02.810
+Donc, il s'agit de tous les nombres réels, mais j'ai fait un
+
+01:02.810 --> 01:05.150
+bel ensemble ici pour vous aider à visualiser.
+
+01:05.150 --> 01:07.830
+Maintenant, quand vous appliquez la fonction, pensons à la
+
+01:07.830 --> 01:10.000
+signification de f de 2
+
+01:10.000 --> 01:13.900
+Nous entrons un nombre, 2, et la fonction
+
+01:13.900 --> 01:15.790
+produit le nombre 8
+
+01:15.790 --> 01:19.270
+Elle associe 2 à 8.
+
+01:19.270 --> 01:22.490
+Faisons un autre ensemble ici pour toutes les valeurs
+
+01:22.490 --> 01:23.930
+que ma fonction peut prendre.
+
+01:27.780 --> 01:30.300
+Nous allons le nommer l'image.
+
+01:30.300 --> 01:33.320
+Il y a une façon plus formel de parler de l'image et il existe
+
+01:33.320 --> 01:36.640
+une présentation beaucoup plus rigoureuse à ce propos
+
+01:36.640 --> 01:39.060
+dans une vidéo de la section algèbre linéaire, mais, en gros, il s'agit de
+
+01:39.060 --> 01:40.200
+l'ensemble des valeurs que la fonction peut prendre.
+
+01:40.200 --> 01:44.550
+Donc, si nous prenons le nombre 2 du domaine et que nous le mettons
+
+01:44.550 --> 01:48.270
+dans la fonction, nous l'associons au nombre 8.
+
+01:48.270 --> 01:50.260
+Laissez-moi dessiner.
+
+01:50.260 --> 01:56.210
+Nous allons de 2 au nombre 8.
+
+01:56.210 --> 01:59.060
+C'est la fonction qui fait ça.
+
+01:59.060 --> 02:01.210
+C'est la fonction qui fait l'association.
+
+02:01.210 --> 02:05.190
+La fonction associe 2 à 8.
+
+02:05.190 --> 02:09.180
+Ceci, c'est égal à f de 2.
+
+02:09.180 --> 02:10.080
+même principe.
+
+02:10.080 --> 02:18.810
+Vous commencez avec 3, 3 est associé à 10 par la fonction.
+
+02:18.810 --> 02:20.480
+La fonction crée une association.
+
+02:20.480 --> 02:25.320
+La fonction associe 3 à 10.
+
+02:25.320 --> 02:28.400
+Maintenant, je soulève une importante question.
+
+02:28.400 --> 02:32.840
+Y a-t-il un moyen de revenir à 2 à partir de 8, ou
+
+02:32.840 --> 02:35.220
+y a-t-il un moyen de revenir à 3 à partir de 10?
+
+02:35.220 --> 02:37.340
+Ou, y a-t-il d'autres fonctions qui peuvent le faire?
+
+02:37.340 --> 02:39.870
+Y a-t-il d'autres fonctions, nous allons les appeler réciproques
+
+02:39.870 --> 02:41.660
+de f, qui peuvent nous ramener au départ?
+
+02:41.660 --> 02:44.260
+Y a-t-il d'autres fonction qui peuvent nous
+
+02:44.260 --> 02:46.200
+ramener de 10 à 3?
+
+02:46.200 --> 02:48.970
+Nous allons l'appeler la réciproque de f, et nous allons utiliser
+
+02:48.970 --> 02:52.790
+cette notation, et cette fonction va nous ramener de 10 à 3.
+
+02:52.790 --> 02:54.360
+Y a-t-il une façon de le faire?
+
+02:54.360 --> 02:58.070
+Est-ce que cette fonction réciproque de f va nous ramener de
+
+02:58.070 --> 03:02.290
+si nous l'appliquons à 8, va-t-elle nous ramener à 2?
+
+03:07.230 --> 03:10.760
+Pour l'instant, cette notion peut sembler abstraite et difficile.
+
+03:10.760 --> 03:13.990
+Cependant, vous allez voir qu'il est en fait assez facile de trouver
+
+03:13.990 --> 03:17.030
+la réciproque de f, et je pense que une fois que je vous aurez
+
+03:17.030 --> 03:18.540
+montré comment faire, vous comprendrez mieux.
+
+03:18.540 --> 03:20.820
+La fonction vous amène de 2 à 8, alors que la réciproque
+
+03:20.820 --> 03:23.360
+vous ramène de 8 à 2.
+
+03:23.360 --> 03:25.470
+Alors, pour réfléchir à cette notion, définissons,
+
+03:25.470 --> 03:27.790
+disons y est égal à f de x.
+
+03:30.620 --> 03:33.510
+y est égal à f de x, est égal à 2x plus 4.
+
+03:33.510 --> 03:39.110
+Je peux simplement écrire y égal 2x plus 4
+
+03:39.110 --> 03:40.420
+Encore une fois, ceci est notre fonction.
+
+03:40.420 --> 03:42.470
+Vous lui donnez un x, elle vous donnera un y.
+
+03:42.470 --> 03:43.990
+Mais nous voulons aller dans l'autre sens.
+
+03:43.990 --> 03:46.760
+Nous voulons donner un y et obtenir un x.
+
+03:46.760 --> 03:50.490
+Alors, tout ce que nous avons à faire est d'isoler x.
+
+03:50.490 --> 03:51.160
+Allons-y.
+
+03:51.160 --> 03:54.460
+Si nous soustrayons 4 des deux côtés de l'équation,
+
+03:54.460 --> 03:57.350
+laissez-moi changer de couleur, Si nous soustrayons 4 des deux côtés de
+
+03:57.350 --> 04:02.310
+l'équation, nous obtenons y moins 4 est égal à 2x, puis si nous
+
+04:02.310 --> 04:08.270
+divisons les deux côtés de l'équation par 2, nous obtenons y sur 2
+
+04:08.270 --> 04:12.750
+moins 2, 4 divisé par 2 fait 2, est égal à x.
+
+04:12.750 --> 04:15.160
+Si nous voulons l'écrire de cette façon, nous pouvons simplement
+
+04:15.160 --> 04:20.100
+interchanger les côtés, nous obtenons x est égal à 1 sur 2 y, qui est équivalent à
+
+04:20.100 --> 04:23.190
+y sur 2 moins 2.
+
+04:23.190 --> 04:26.270
+Ce que nous avons ici est une fonction de y qui
+
+04:26.270 --> 04:28.750
+nous donne un x, ce qui est exactement ce que nous voulions.
+
+04:28.750 --> 04:33.510
+Nous voulions une fonction de cette variable qui nous ramenait à un x.
+
+04:33.510 --> 04:38.100
+Alors, nous pouvons l'appeler, nous pouvons dire que c'est égal à
+
+04:38.100 --> 04:41.840
+Je vais l'écrire de la même couleur, c'est égal à la réciproque de f
+
+04:41.840 --> 04:43.570
+qui est une fonction de y.
+
+04:43.570 --> 04:45.080
+Laissez-moi l'écrire plus clairement.
+
+04:45.080 --> 04:49.050
+Nous pouvons dire la réciproque de f qui est une fonction de y, alors nous avons
+
+04:49.050 --> 04:52.650
+10 ou 8, maintenant, l'image est le domaine de la réciproque de f.
+
+04:52.650 --> 04:58.120
+La réciproque de f qui est une fonction de y est égale à 1/2y moins 2.
+
+04:58.120 --> 05:00.570
+Ce que nous avons fait, nous avons commencé avec la fonction originale,
+
+05:00.570 --> 05:05.300
+y est égal à 2x plus 4, nous avons isolé, juste ici,
+
+05:05.300 --> 05:07.870
+nous avons isolé x, nous avons fait un peu
+
+05:07.870 --> 05:12.250
+d'algèbre et nous avons isolé x, et nous pouvons dire
+
+05:12.250 --> 05:15.580
+que ceci est la réciproque en fonction de y.
+
+05:15.580 --> 05:17.370
+Qui est juste ici.
+
+05:17.370 --> 05:19.570
+Aussi, vous savez, vous pouvez dire que, vous pouvez
+
+05:19.570 --> 05:22.640
+remplacer y par a, b, ou x, par ce que vous voulez,
+
+05:22.640 --> 05:26.240
+Donc, nous pouvons simplement renommer le y, x
+
+05:26.240 --> 05:29.000
+Alors, si nous mettons un x dans la fonction, nous allons obtenir
+
+05:29.000 --> 05:34.660
+la réciproque de f est égale à 1/2x moins 2.
+
+05:34.660 --> 05:38.340
+Tout ce que nous avons fait, nous avons isolé le x, puis nous avons interchangé
+
+05:38.340 --> 05:39.720
+le x et le y, si vous voulez le faire de cette manière.
+
+05:39.720 --> 05:41.240
+C'est la façon la plus simple de faire.
+
+05:41.240 --> 05:44.110
+Je veux vous montrer ce qui arrive lorsque vous
+
+05:44.110 --> 05:46.255
+représentez graphiquement une fonction et sa réciproque.
+
+05:46.255 --> 05:48.420
+Laissez-moi faire un petit
+
+05:48.420 --> 05:50.160
+graphique juste ici.
+
+05:50.160 --> 05:52.190
+Puis, je vais faire quelques exemples de
+
+05:52.190 --> 05:53.580
+réciproques, mais je veux d'abord vous présenter
+
+05:53.580 --> 05:55.030
+l'idée générale.
+
+05:55.030 --> 05:57.010
+Une fonction vous amène du domaine à l'image,
+
+05:57.010 --> 05:59.570
+la réciproque vous ramène de ce point à la
+
+05:59.570 --> 06:01.810
+valeur originale, si elle existe.
+
+06:01.810 --> 06:04.500
+Je vais faire un graphique, je vais dessiner
+
+06:04.500 --> 06:08.790
+un axe de coordonnées ici et un axe de
+
+06:08.790 --> 06:12.040
+coordonnées juste ici.
+
+06:12.040 --> 06:16.630
+La première fonction est 2x plus 4, l'intersection avec l'axe des y sera,
+
+06:16.630 --> 06:24.520
+1, 2, 3, 4, juste ici, alors que la pente
+
+06:24.520 --> 06:25.610
+devrait ressembler à ceci.
+
+06:25.610 --> 06:31.470
+La pente est 2, alors la droite ressemblera à,
+
+06:31.470 --> 06:33.870
+je vais la faire plus proprement.
+
+06:33.870 --> 06:36.400
+Elle ressemblera à ça.
+
+06:36.400 --> 06:38.450
+C'est ce à quoi cette fonction ressemble.
+
+06:38.450 --> 06:40.390
+À quoi ressemble cette fonction?
+
+06:40.390 --> 06:43.680
+À quoi ressemble la fonction réciproque qui est une fonction de x?
+
+06:43.680 --> 06:46.980
+Souvenez-vous, nous avons isolé x, puis interchangé le x
+
+06:46.980 --> 06:47.900
+et le y, essentiellement.
+
+06:47.900 --> 06:51.570
+Nous pouvons maintenant dire que y est égal à la réciproque de f de x
+
+06:51.570 --> 06:56.400
+Nous avons l'intersection avec l'axe des y à -2, 1, 2 et
+
+06:56.400 --> 07:00.150
+une pente de 1/2.
+
+07:00.150 --> 07:02.230
+La pente ressemble à ça.
+
+07:02.230 --> 07:04.120
+Je vais essayer de la dessiner.
+
+07:04.120 --> 07:08.510
+La pente, ou plutôt, la droite ressemble à ceci.
+
+07:08.510 --> 07:10.170
+Quelle relation y a-t-il?
+
+07:10.170 --> 07:12.060
+Voyez-vous qu'il y a une relation?
+
+07:12.060 --> 07:14.080
+On dirait qu'il y a une réflexion par rapport à un certain axe.
+
+07:14.080 --> 07:15.990
+Vous allez mieux voir cette axe de réflexion
+
+07:15.990 --> 07:19.530
+si je dessine la droite y égal à x.
+
+07:19.530 --> 07:22.250
+La droite, y égale x ressemble à ceci.
+
+07:22.250 --> 07:23.420
+Je vais la faire en pointillé
+
+07:29.740 --> 07:32.620
+Vous voyez, vous avez la fonction et sa réciproque,
+
+07:32.620 --> 07:36.780
+elles sont symétriques par rapport à la droite y est égal à x.
+
+07:36.780 --> 07:39.100
+J'espère que vous comprenez bien.
+
+07:39.100 --> 07:41.330
+Ici, sur cette ligne, prenons
+
+07:41.330 --> 07:42.530
+un exemple simple.
+
+07:42.530 --> 07:49.610
+Notre fonction, quand nous prenons 0, f de 0 est égal à 4.
+
+07:49.610 --> 07:54.130
+Notre fonction associe 0 à 4.
+
+07:54.130 --> 08:00.050
+La fonction réciproque, si vous prenez la réciproque de f de 4,
+
+08:00.050 --> 08:02.920
+c'est égal à 0.
+
+08:02.920 --> 08:08.120
+ou, la fonction réciproque associe 4 à 0.
+
+08:08.120 --> 08:10.210
+Ce qui exactement ce que nous espérions.
+
+08:10.210 --> 08:14.720
+La fonction nous amène de x à y, puis,
+
+08:14.720 --> 08:17.240
+nous interchangeons le x et le y.
+
+08:17.240 --> 08:18.060
+Nous prenons la réciproque.
+
+08:18.060 --> 08:21.055
+C'est pourquoi il y a une réflection autour de la droite y égale x.
+
+08:21.055 --> 08:24.030
+Alors, cet exemple que je vous ai montré ici,
+
+08:24.030 --> 08:30.070
+la fonction de 0 à 4, je devrais peut-être l'écrire dans la même
+
+08:30.070 --> 08:35.810
+couleur que la fonction, cette fonction nous amène de 0 à 4.
+
+08:35.810 --> 08:39.680
+C'est la fonction f de 0 est 4, vous le voyez ici. Elle va
+
+08:39.680 --> 08:42.550
+de 0 à 4, puis la réciproque nous ramène
+
+08:42.550 --> 08:45.830
+de 4 à 0.
+
+08:45.830 --> 08:49.380
+Donc, la réciproque de f nous ramène de 4 à 0.
+
+08:49.380 --> 08:50.430
+Vous le voyez juste ici.
+
+08:50.430 --> 08:55.750
+Quand vous évaluez 4 ici, 1/2 fois 4 moins 2 fait 0.
+
+08:55.750 --> 08:57.730
+Il y auras d'autres vidéos dans lesquelles je ferai plusieurs exemples de façon
+
+08:57.730 --> 09:00.180
+à ce que vous compreniez bien comment déterminer la réciproque d'une fonction
+
+09:00.180 --> 09:05.010
+et ainsi être en mesure de faire des exercices.

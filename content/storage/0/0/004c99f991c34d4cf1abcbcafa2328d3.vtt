@@ -1,0 +1,440 @@
+WEBVTT
+
+00:00.397 --> 00:06.682
+V tomto videu bych vás chtěl seznámit
+s různými zápisy posloupnosti.
+
+00:06.847 --> 00:09.383
+Posloupnost je vlastně
+jen uspořádaný seznam čísel.
+
+00:09.536 --> 00:11.826
+Například mohu mít konečnou posloupnost,
+
+00:12.021 --> 00:14.775
+což znamená,
+že posloupnost nemá nekonečně mnoho čísel.
+
+00:14.989 --> 00:18.764
+Řekněme, že začnu od 1 a budu přičítat 3,
+tak 1 plus 3 je 4,
+
+00:18.955 --> 00:21.895
+4 plus 3 je 7,
+7 plus 3 je 10.
+
+00:22.036 --> 00:25.440
+Dejme tomu, že máme jen tyto čtyři členy.
+
+00:25.693 --> 00:29.259
+Tuto tedy nazveme konečnou posloupností.
+
+00:29.441 --> 00:31.095
+Mohu mít i
+nekonečnou posloupnost.
+
+00:31.267 --> 00:35.533
+Příklad nekonečné posloupnosti…
+Řekněme, že začneme od 3
+
+00:35.759 --> 00:37.836
+a stále přidáváme 4.
+
+00:38.045 --> 00:43.076
+Dostáváme tak 3, 7, 11, 15.
+
+00:43.273 --> 00:46.632
+Nemusíme vždy přidávat stejné číslo,
+objevíme i zvláštní posloupnosti.
+
+00:46.779 --> 00:50.403
+Posloupnosti, ve kterých přičítáme stále
+stejné číslo, nazýváme aritmetické,
+
+00:50.594 --> 00:54.640
+které budeme také důkladněji zkoumat.
+
+00:54.826 --> 00:58.502
+Aby bylo vidět, že je nekonečná,
+že pokračuje dál a dál,
+
+00:58.626 --> 00:59.731
+napíšu sem tři tečky.
+
+00:59.926 --> 01:07.220
+To znamená jen to, že pokračuje dál a dál,
+proto jí říkáme nekonečná posloupnost.
+
+01:07.492 --> 01:11.472
+Existuje mnoho různých druhů zápisu,
+které se zdají být zbytečně složité,
+
+01:11.615 --> 01:13.230
+ale označují jen podobné množiny.
+
+01:13.379 --> 01:19.110
+Chtěl bych, abyste se seznámili s tím,
+jak zapisovat a definovat posloupnosti.
+
+01:19.387 --> 01:27.238
+Můžeme říct, že tohle je posloupnost
+členů 'a' s dolním indexem 'k',
+
+01:27.420 --> 01:31.382
+kde 'k' nabývá hodnot od 1 do 4,
+
+01:31.518 --> 01:33.474
+a je rovna tomuto zde.
+
+01:33.952 --> 01:35.322
+Díváme-li se na to takto,
+
+01:35.496 --> 01:38.167
+můžeme všechny tyto brát
+jako členy posloupnosti.
+
+01:38.424 --> 01:42.239
+Tady je první člen posloupnosti,
+nazveme jej 'a' s indexem 1,
+
+01:42.656 --> 01:47.043
+tohle bude člen s indexem 2,
+myslím, že už vidíte, jak to funguje.
+
+01:47.430 --> 01:51.041
+Tady je 'a' s indexem 3
+a tohle je 'a' s indexem 4.
+
+01:51.291 --> 01:58.116
+Toto říká, že všechny 'a' s indexem 'k'
+nabývají těchto hodnot, pro 'k' od 1 do 4.
+
+01:58.302 --> 02:03.555
+Mohl bych posloupnost definovat také tak,
+že bych ji nevypsal takto explicitně,
+
+02:03.692 --> 02:09.240
+ale posloupnost bych definoval
+nějakým funkčním předpisem,
+
+02:09.362 --> 02:11.277
+nebo něčím,
+co by se tomu podobalo.
+
+02:11.427 --> 02:15.187
+Úplně stejnou posloupnost,
+bych mohl definovat jako
+
+02:16.136 --> 02:21.333
+'a' s indexem 'k',
+kde 'k' jde od 1 do 4
+
+02:21.547 --> 02:24.576
+místo toho,
+abych sem psal čísla explicitně,
+
+02:24.793 --> 02:29.344
+mohl bych psát, že 'a' s indexem 'k'
+je rovno nějaké funkci od 'k'.
+
+02:29.500 --> 02:32.851
+Podívejme, co se stane.
+Je-li 'k' rovno 1, dostáváme 1,
+
+02:33.004 --> 02:36.105
+je-li 'k' rovno 2, dostáváme 4,
+
+02:36.290 --> 02:39.361
+je-li rovno 3 dostáváme 7,
+
+02:39.595 --> 02:43.305
+Když 'k' je rovno 3,
+3 jsme přidali dvakrát,
+
+02:43.504 --> 02:44.536
+Ujasníme si to.
+
+02:44.779 --> 02:49.337
+Tady to bylo plus 3, tady plus 3,
+
+02:49.551 --> 02:52.237
+tady také plus 3.
+
+02:52.522 --> 02:59.113
+Pro jakékoli 'k' jsme začali od 1
+a přidali (k minus 1) krát 3.
+
+02:59.350 --> 03:13.030
+Můžeme tedy říci, že to bude
+1 plus (k minus 1) krát 3,
+
+03:13.231 --> 03:15.873
+nebo spíš 3 krát (k minus 1),
+což je totéž.
+
+03:16.065 --> 03:19.464
+3 krát (k minus 1).
+
+03:19.720 --> 03:24.468
+Můžete se přesvědčit,
+že to funguje.
+
+03:24.783 --> 03:30.535
+Je-li 'k' rovno 1,
+dostáváme 1 minus 1, což je 0,
+
+03:30.711 --> 03:33.495
+takže 'a' s indexem 1 bude 1.
+
+03:33.651 --> 03:36.835
+Je-li 'k' rovno 2,
+budeme tu mít 1 plus 3, což je 4.
+
+03:37.139 --> 03:42.125
+Je-li 'k' rovno 3, máme 3 krát 2 plus 1,
+což je 7, takže to funguje.
+
+03:42.331 --> 03:48.053
+Je to jeden způsob, jak naši posloupnost
+definovat explicitně funkčním předpisem.
+
+03:48.232 --> 03:50.828
+Chci zdůraznit, že jsem tady
+v zásadě definoval funkci.
+
+03:50.993 --> 03:53.184
+Kdybych chtěl použít
+tradiční funkční zápis,
+
+03:53.332 --> 04:02.408
+mohl jsem napsat 'a' jako funkce 'k'
+je rovno 1 plus 3 krát (k minus 1).
+
+04:02.567 --> 04:03.779
+V zásadě to je funkce,
+
+04:03.901 --> 04:08.776
+jejíž definiční obor je omezen
+na kladná celá čísla.
+
+04:09.004 --> 04:12.032
+Jak bych měl zapsat tady toto?
+
+04:12.235 --> 04:15.773
+Mohl bych říci, že je to rovno…
+
+04:16.003 --> 04:19.300
+Lidé často používají 'a',
+ale mohl bych to označit 'b' s indexem 'k'
+
+04:19.440 --> 04:21.449
+nebo jakkoli jinak,
+ale použiji znovu 'a'.
+
+04:21.733 --> 04:25.783
+'a' s indexem 'k',
+tady začínáme prvním členem,
+
+04:25.965 --> 04:27.640
+takže tohle je 'a' s indexem 1,
+
+04:27.810 --> 04:32.329
+toto 'a' s indexem 2
+a tak dále do nekonečna.
+
+04:32.829 --> 04:36.874
+Nebo, to můžeme
+definovat explicitně jako funkci.
+
+04:37.073 --> 04:41.236
+Posloupnost bychom mohli
+zapsat jako 'a' s indexem 'k',
+
+04:41.416 --> 04:45.336
+kde 'k' jde od 1 u prvního členu
+a jde do nekonečna.
+
+04:47.837 --> 04:50.336
+'a' s indexem 'k' je rovno…
+
+04:50.514 --> 04:57.383
+Začínáme na 3 a přičítáme 4,
+
+04:58.162 --> 05:01.977
+pro druhý člen jsme přidali 4 jednou,
+pro třetí člen jsme přidali 4 dvakrát,
+
+05:02.149 --> 05:05.389
+pro čtvrtý člen jsme přidali 4 třikrát.
+
+05:05.586 --> 05:09.308
+Takže přidáváme 4 krát
+o 1 méně než je člen, u kterého jsme.
+
+05:09.523 --> 05:19.096
+Bude to tedy plus 4 krát (k minus 1).
+
+05:19.248 --> 05:22.319
+je to jiný způsob,
+jak definovat nekonečnou posloupnost.
+
+05:22.533 --> 05:26.000
+V obou případech jsem posloupnost
+definoval jako explicitní funkci.
+
+05:26.317 --> 05:28.991
+Tohle je explicitně definovaná funkce.
+
+05:29.737 --> 05:32.518
+To není hezká barva,
+napíšu to…
+
+05:33.944 --> 05:35.810
+Je to explicitní funkce.
+
+05:36.748 --> 05:40.147
+Můžete se ptát:
+„Jaký je další způsob definování funkcí?“
+
+05:40.341 --> 05:42.996
+Můžeme je také definovat,
+zvláště pokud jsou jako tato,
+
+05:43.214 --> 05:47.044
+tedy jako aritmetická posloupnost,
+můžeme je definovat rekursivně.
+
+05:47.242 --> 05:52.839
+Chci zdůraznit, že ne každou posloupnost
+lze definovat explicitně i rekursivně.
+
+05:52.951 --> 05:53.689
+Mnohé však ano.
+
+05:53.785 --> 05:58.737
+Třeba tato, to je aritmetická posloupnost,
+kde přičítáme znovu tu stejnou hodnotu.
+
+05:59.088 --> 06:00.251
+Jak bychom to udělali?
+
+06:00.504 --> 06:03.683
+Naši první posloupnost
+můžeme definovat ještě jinak.
+
+06:03.870 --> 06:10.272
+Můžeme říct: členy 'a' s indexem 'k',
+kde ‚k‘ nabývá hodnot od 1 do 4.
+
+06:11.004 --> 06:18.670
+Definujeme-li něco rekurzivně,
+definujeme první člen 'a' s indexem 1,
+
+06:18.830 --> 06:20.711
+'a' s indexem 1 se rovná 1,
+
+06:20.911 --> 06:25.273
+a všechny další členy definujeme
+pomocí předcházejícího členu.
+
+06:25.465 --> 06:29.919
+Můžeme psát 'a' s indexem 'k plus…'
+Nebo to napíšeme takto:
+
+06:30.139 --> 06:37.536
+‚a‘ s indexem ‚k‘
+je rovno předchozímu členu…
+
+06:37.729 --> 06:39.612
+To je 'a' s indexem 'k minus 1'.
+
+06:39.733 --> 06:41.549
+Daný člen je roven předchozímu členu…
+
+06:41.729 --> 06:45.220
+Aby to bylo jasné,
+toto je předchozí člen,
+
+06:45.482 --> 06:52.467
+předchozí člen plus…
+Zde pokaždé přičítáme 3.
+
+06:52.659 --> 06:55.939
+Jak to může dávat smysl?
+Definujeme, co je 'a' s indexem 1.
+
+06:56.122 --> 06:58.525
+Někdo se zeptá:
+„Co se stane, když je 'k' rovno 2?“
+
+06:58.726 --> 07:01.772
+Pak to je 'a' s indexem '2 minus 1'.
+
+07:01.985 --> 07:04.041
+Tak to bude 'a' s indexem '1' plus 3.
+
+07:04.227 --> 07:08.824
+Víme, že 'a' s indexem '1' je 1
+a tak to bude 1 plus 3, což dává 4.
+
+07:09.165 --> 07:10.498
+Co 'a' s indexem 3?
+
+07:10.666 --> 07:12.356
+To bude 'a' s indexem '2' plus 3.
+
+07:12.526 --> 07:15.291
+'a' s indexem 2 je 4,
+když přidáme 3, dostáváme 7.
+
+07:15.441 --> 07:18.788
+To je vlastně to, co jsem dělal,
+když jsem tu posloupnost psal poprvé.
+
+07:18.928 --> 07:25.222
+Když jsem řekl, že začnu od 1
+a pro každý následující člen přičtu 3.
+
+07:25.521 --> 07:27.178
+Jak bychom napsali tohle?
+
+07:27.399 --> 07:31.800
+Znovu, mohli bychom to napsat jako
+'a' s indexem 'k',
+
+07:32.028 --> 07:35.269
+kde 'k' jde od 1 do nekonečna.
+
+07:36.894 --> 07:40.195
+První člen, 'a' s indexem 1,
+teď bude 3.
+
+07:40.487 --> 07:42.794
+A každý následující člen
+'a' s indexem 'k',
+
+07:42.976 --> 07:50.772
+bude předchozí člen,
+'a' s indexem 'k minus 1', plus 4.
+
+07:50.952 --> 07:54.000
+Znovu, začínáme od 3
+a chceme-li zapsat druhý člen,
+
+07:54.169 --> 07:57.343
+napíšeme první člen plus 4,
+bude to tedy 3 plus 4, což je 7.
+
+07:57.523 --> 08:05.790
+A stále přičítáme 4…
+Tak tu znovu máme rekursivní definici.
+
+08:06.039 --> 08:08.351
+Začali jsme od základního členu
+
+08:08.543 --> 08:13.598
+a každý další člen jsme definovali pomocí
+předchozích členů nebo samotnou funkcí,
+
+08:13.742 --> 08:16.638
+ale funkcí pro nějaký jiný člen.

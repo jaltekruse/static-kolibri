@@ -1,0 +1,352 @@
+WEBVTT
+
+00:00.690 --> 00:09.400
+Mình có hàm g(x) bằng 9 nhân 8^(x-1)
+
+00:09.400 --> 00:19.950
+Và hàm được xác định khi x là một số nguyên dương.
+
+00:19.950 --> 00:27.000
+Nếu x là một số nguyên dương, chúng ta có thể nói
+
+00:27.000 --> 00:29.000
+miền xác định của hàm số này, hay
+
+00:29.000 --> 00:32.080
+các giá trị x hợp lệ là tập hợp các số nguyên dương.
+
+00:32.080 --> 00:34.970
+như là 1, 2, 3, 4 và cứ thế tiếp tục.
+
+00:34.970 --> 00:37.360
+Đây là một hàm được xác định tường minh.
+
+00:37.360 --> 00:40.590
+Giờ mình muốn viết một định nghĩa đệ quy
+
+00:40.590 --> 00:42.060
+của chính hàm này
+
+00:42.060 --> 00:46.110
+để với mỗi giá trị x, đầu ra của hàm đệ quy giống của hàm tường minh.
+
+00:46.110 --> 00:49.650
+Đầu tiên mình tìm hiểu các giá trị đầu vào và đầu ra nhé.
+
+00:49.650 --> 00:51.340
+Mình sẽ lập một bảng giá trị.
+
+00:51.340 --> 00:53.560
+Mình vẽ nó ở đây đi.
+
+00:53.560 --> 00:56.620
+Bạn nhớ để ý xem chuyện gì xảy ra
+
+00:56.620 --> 01:01.880
+khi chúng ta nhập các giá trị x khác nhau vào hàm này nhé.
+
+01:01.880 --> 01:05.030
+Miền xác định là tập các số nguyên dương, nên mình sẽ thử
+
+01:05.030 --> 01:08.240
+1, 2, 3, 4.
+
+01:08.240 --> 01:14.100
+Rồi mình xem các giá trị g(x) tương ứng là gì nha.
+
+01:14.100 --> 01:17.080
+Khi x bằng 1, g(x) sẽ bằng
+
+01:17.080 --> 01:19.780
+9 nhân 8^(1-1), tức là
+
+01:19.780 --> 01:23.310
+9 nhân 8^0, hoặc 9 nhân 1.
+
+01:23.310 --> 01:27.050
+Vậy g(x) sẽ là 9.
+
+01:27.050 --> 01:32.610
+Khi x là 2, g(x) sẽ bằng gì?
+
+01:32.610 --> 01:35.830
+Nó sẽ là 9 nhân 8^(2-1),
+
+01:35.830 --> 01:39.010
+chính là 9 nhân 8^1,
+
+01:39.010 --> 01:40.600
+đó là 9 nhân 8.
+
+01:40.600 --> 01:43.135
+Vậy nó là 72.
+
+01:43.135 --> 01:44.760
+À không, mình sẽ viết theo cách này.
+
+01:44.760 --> 01:47.260
+Mình sẽ viết là 9 nhân 8.
+
+01:47.260 --> 01:49.270
+9 nhân 8.
+
+01:49.270 --> 01:52.980
+Tiếp nha, khi x bằng 3, thì mình sẽ có gì?
+
+01:52.980 --> 01:55.120
+Ở đây sẽ là 3-1 là 2.
+
+01:55.120 --> 01:56.690
+Nó sẽ là 8 bình phương.
+
+01:56.690 --> 01:59.380
+Vậy tất cả sẽ là 9 nhân 8 bình phương.
+
+01:59.380 --> 02:04.290
+Mình có thể viết là 9 nhân 8 nhân 8.
+
+02:04.290 --> 02:06.650
+Chắc các bạn cũng thấy được quy luật ở đây rồi nhỉ.
+
+02:06.650 --> 02:10.525
+Khi x bằng 4, đây sẽ là 8^(4-1). Vậy đây là 9 nhân
+
+02:10.525 --> 02:11.950
+8^3.
+
+02:11.950 --> 02:19.090
+Đó là 9 nhân 8 nhân 8 nhân 8.
+
+02:19.090 --> 02:22.100
+Từ đây thì mình có gợi ý để xác định hàm số theo kiểu đệ quy
+
+02:22.100 --> 02:25.670
+Để ý nha, nếu số hạng g đầu tiên, khi x bằng 1, là 9
+
+02:25.670 --> 02:31.310
+thì mỗi số hạng sau đó sẽ là 8 nhân cho số hạng liền trước.
+
+02:31.310 --> 02:33.850
+Nhân 8
+
+02:33.850 --> 02:35.700
+rồi lại nhân 8 này
+
+02:35.700 --> 02:37.700
+rồi lại nhân 8.
+
+02:37.700 --> 02:39.730
+Giờ mình xác định theo hàm đệ quy nha.
+
+02:39.730 --> 02:41.960
+Trước tiên hãy xác định trường hợp cơ sở nào.
+
+02:41.960 --> 02:45.560
+Mình có thể nói g(x)... và mình sẽ
+
+02:45.560 --> 02:48.670
+dùng màu mới vì màu đỏ nhiều quá rồi nè.
+
+02:48.670 --> 02:49.980
+Mình thích màu xanh.
+
+02:49.980 --> 02:51.620
+g(x)
+
+02:51.620 --> 02:53.550
+Mình có thể xác định trường hợp cơ sở.
+
+02:53.550 --> 02:57.570
+Nó sẽ bằng 9 nếu x bằng 1.
+
+02:57.570 --> 03:04.580
+g(x) bằng 9 nếu x bằng 1.
+
+03:04.580 --> 03:07.170
+Vậy là xong trường hợp cơ sở rồi.
+
+03:07.170 --> 03:11.140
+Tiếp theo, nếu x bằng với đại lượng nào khác
+
+03:11.140 --> 03:13.570
+thì g(x) bằng giá trị liền trước...
+
+03:13.570 --> 03:17.760
+Nếu như mình nhìn xuống... Mình xuống tận dưới này đi,
+
+03:17.760 --> 03:21.410
+tận x-1, rồi đến x.
+
+03:21.410 --> 03:33.120
+Vậy ở bên này sẽ g(x-1),
+
+03:33.120 --> 03:35.200
+chính là 9 nhân cho bao nhiều lần 8 đó,
+
+03:35.209 --> 03:38.230
+Đây là g(x-1) này.
+
+03:38.230 --> 03:42.360
+Mình biết rằng g(x), g(x) là đây này
+
+03:42.360 --> 03:47.460
+sẽ là số hạng g liền trước đó, là g(x-1),
+
+03:47.460 --> 03:55.794
+sẽ là số hạng g liền trước nhân cho 8.
+
+03:55.794 --> 03:57.210
+Mình viết nó ở ngay đây này.
+
+03:57.210 --> 03:59.390
+Nhân 8.
+
+03:59.390 --> 04:02.290
+Thế thì với bất kỳ giá trị x nào ngoài 1,
+
+04:02.290 --> 04:07.060
+g(x) sẽ bằng số hạng g liền trước, chính là g...
+
+04:07.060 --> 04:16.190
+Để mình dùng màu xanh nha... g(x-1) nhân 8
+
+04:16.190 --> 04:29.190
+nếu x lớn hơn 1, hay chính xác hơn là nếu x là số nguyên lớn hơn 1.
+
+04:29.190 --> 04:32.570
+Giờ mình kiểm tra lại xem hàm số này đúng không nha.
+
+04:32.570 --> 04:35.070
+Mình vẽ một cái bảng khác ở bên này.
+
+04:38.210 --> 04:41.230
+Môt lần nữa, mình sẽ có x
+
+04:41.230 --> 04:42.860
+và mình sẽ có g(x),
+
+04:42.860 --> 04:45.280
+nhưng lần này mình sẽ dùng định nghĩa đệ quy cho g(x).
+
+04:45.280 --> 04:45.880
+nhưng lần này mình sẽ dùng định nghĩa đệ quy cho g(x).
+
+04:45.880 --> 04:47.260
+Và lý do nó là đệ quy
+
+04:47.260 --> 04:49.390
+thì là vì nó đang đề cập đến chính nó.
+
+04:49.390 --> 04:52.580
+Nó cho biết là nếu x không bằng 1
+
+04:52.580 --> 04:54.580
+nó sẽ là g(x-1) nhân 8.
+
+04:54.580 --> 04:56.080
+Nó không theo x mà theo chính nó,
+
+04:56.080 --> 04:58.666
+và chúng ta sẽ thấy là làm vậy vẫn được.
+
+04:58.666 --> 04:59.290
+Xem nhé
+
+04:59.290 --> 05:04.790
+Khi x bằng 1, vậy g(1)... Nếu x bằng 1
+
+05:04.790 --> 05:06.380
+thì nó bằng 9.
+
+05:06.380 --> 05:07.140
+g(x) bằng 9.
+
+05:07.140 --> 05:09.150
+Cái này khá là đơn giản ha.
+
+05:09.150 --> 05:11.380
+Còn khi x bằng 2 thì sao?
+
+05:11.380 --> 05:14.400
+Khi x bằng 2, trường hợp này không áp dụng nữa.
+
+05:14.400 --> 05:15.850
+Mình phải đi xuống trường hợp này.
+
+05:15.850 --> 05:17.840
+Vậy khi x bằng 2, nó sẽ
+
+05:17.840 --> 05:20.750
+tương đương với g(2-1)...
+
+05:20.750 --> 05:22.250
+Để mình viết xuống.
+
+05:22.250 --> 05:28.770
+Nó sẽ tương đương với g(2-1) nhân 8,
+
+05:28.770 --> 05:33.590
+tức là g(1) nhân 8.
+
+05:33.590 --> 05:34.670
+Và g(1) là gì?
+
+05:34.670 --> 05:36.890
+Ta có g(1) ngay đây.
+
+05:36.890 --> 05:38.010
+g(1) là 9.
+
+05:38.010 --> 05:40.820
+Nên đây sẽ bằng 9 nhân 8.
+
+05:40.820 --> 05:42.730
+Giống hệt những gì ta đã được ở bên này.
+
+05:42.730 --> 05:45.840
+Và tất nhiên cái này tương đương với g(2).
+
+05:45.840 --> 05:47.060
+Để mình viết cái này xuống.
+
+05:47.060 --> 05:49.370
+Đây là g(2).
+
+05:49.370 --> 05:50.870
+Để mình kéo qua một chút
+
+05:50.870 --> 05:52.710
+cho chúng ta có chỗ viết.
+
+05:52.710 --> 05:54.780
+Và bây giờ mình qua 3.
+
+05:54.780 --> 05:56.110
+qua x bằng 3 nào
+
+05:56.110 --> 05:57.890
+Mình sẽ viết g(3) trước.
+
+05:57.890 --> 06:01.650
+g(3) bằng... Mình sẽ dùng
+
+06:01.650 --> 06:09.130
+trường hợp này... Nó bằng g(3-1) nhân với 8.
+
+06:09.130 --> 06:13.770
+Nghĩa là g(2) nhân với 8.
+
+06:13.770 --> 06:15.060
+Nào, g(2) là gì đây?
+
+06:15.060 --> 06:18.060
+g(2) thì chúng ta đã tìm ra đó là 9 nhân 8.
+
+06:18.060 --> 06:22.400
+Nên đây sẽ bằng 9 nhân 8, chính là g(2), nhân 8 lần nữa.
+
+06:22.400 --> 06:24.970
+Kết quả cho ra là như nhau.
+
+06:24.970 --> 06:29.690
+Vì thế, đây chính là định nghĩa đệ quy của hàm số này.

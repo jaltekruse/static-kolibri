@@ -1,0 +1,76 @@
+WEBVTT
+
+00:00.000 --> 00:00.000
+Yeşim anneler günü hediyesini internetten satın alıyor.
+
+00:00.000 --> 00:00.000
+Posta masrafı, satın aldığı hediyenin bedeli ile bağlantılı olarak belirleniyor.
+
+00:00.000 --> 00:00.000
+20 TL'nin altındaki siparişler için posta ücreti 4 TL.
+
+00:00.000 --> 00:00.000
+20 TL ve üzerindeki siparişlerde ise 7 TL posta ücreti alınıyor.
+
+00:00.000 --> 00:00.000
+Siparişin TL bazındaki miktarı, posta ücretinin bir fonksiyonu olarak gösterilebilir mi?
+
+00:00.000 --> 00:00.000
+Siparişin TL miktarı, gönderim ücretinin bir fonksiyonu olarak yazılabilir mi?
+
+00:00.000 --> 00:00.000
+Yani gönderim ücretimiz bir girdi.
+
+00:00.000 --> 00:00.000
+Bu girdi için bir çıktı elde edebilecek miyiz bakalım.
+
+00:00.000 --> 00:00.000
+Bunu bir fonksiyon olarak ifade edebilmek için, posta ücretini alacağız. Bu posta ücretini girdi olarak ilişkinin tanımlandığı bu fonksiyonda kullanacağız, ve kesin bir rakamsal sonuca ulaşacağız.
+
+00:00.000 --> 00:00.000
+Eğer birden fazla sipariş miktarına ulaşır isek, bu hala bir ilişki olur. Ancak bir fonksiyon olmaz.
+
+00:00.000 --> 00:00.000
+Şimdi biraz düşünelim.
+
+00:00.000 --> 00:00.000
+Buradaki girdiler ne olabilir?
+
+00:00.000 --> 00:00.000
+Sadece iki tane posta ücreti var, 4 TL veya 7 TL.
+
+00:00.000 --> 00:00.000
+Önce, posta ücretinin 4 TL olduğunu düşünelim.
+
+00:00.000 --> 00:00.000
+Eğer ilişkimize 4 TL girerse, fonksiyonu gösteren kutumuzu da çizelim, fiyat 20 TL'den daha düşük herhangi bir şey olabilir.
+
+00:00.000 --> 00:00.000
+1 TL olabilir, 1.5 TL olabilir, 7 TL olabilir, 20 TL'ye kadar herhangi bir değer olabilir, 19.99 TL de olabilir.
+
+00:00.000 --> 00:00.000
+Aynı şekilde posta ücretinin 7 TL olduğu durumu da düşünelim.
+
+00:00.000 --> 00:00.000
+Eğer fonksiyon olup olmadığını test ettiğimiz bu ilişkiye posta ücreti olarak 7 TL koyarsak, hediyenin ücreti 20 TL ve üzerinde herhangi bir değer olabilir.
+
+00:00.000 --> 00:00.000
+20 TL olabilir, 800 TL olabilir, 1 milyon TL de olabilir. Sonsuz sayıda değer olabilir.
+
+00:00.000 --> 00:00.000
+Bu girdiler için, pek çok sonuç olabilir.
+
+00:00.000 --> 00:00.000
+Bu girdi karşılığında hangi değere ulaşacağımızı bilmiyoruz.
+
+00:00.000 --> 00:00.000
+Birisi bize posta ücretini söylediğinde, hediyenin fiyatına ulaşamıyoruz.
+
+00:00.000 --> 00:00.000
+Bu bir fonksiyon değil.
+
+00:00.000 --> 00:00.000
+siparişin TL tutarını, posta ücretinin bir fonksiyonu olarak yazamıyoruz.
+
+00:00.000 --> 00:00.000
+Yani cevap hayır.

@@ -1,0 +1,579 @@
+WEBVTT
+
+00:00.285 --> 00:01.447
+- [Voiceover] What we're going to do now
+
+00:01.447 --> 00:04.379
+is start to explore a series of tests
+
+00:04.379 --> 00:09.379
+to determine whether a series
+will converge or diverge
+
+00:09.993 --> 00:12.142
+and the first one I'm going
+to go through right now
+
+00:12.142 --> 00:15.294
+is perhaps the most
+basic and hopefully see
+
+00:15.294 --> 00:17.842
+the most intuitive and this
+is the divergence test.
+
+00:17.842 --> 00:22.733
+The divergence test won't tell
+us if a series will converge
+
+00:22.733 --> 00:26.411
+but it can tell us if something
+will definitely diverge.
+
+00:26.411 --> 00:29.792
+First let me write it in
+kind of mathy notation
+
+00:29.792 --> 00:32.650
+and then we'll look at an
+actual concrete example on it.
+
+00:32.650 --> 00:37.650
+The divergence test tells
+us that if the limit
+
+00:38.073 --> 00:43.073
+as N approaches infinity of
+A sub N does not equal zero,
+
+00:44.930 --> 00:49.930
+then the infinite series
+going from N equals one
+
+00:52.110 --> 00:57.110
+to infinity of A sub N will diverge.
+
+01:01.166 --> 01:03.929
+We've already gone through
+what it means to diverge
+
+01:03.929 --> 01:05.090
+and this sum is either going to go
+
+01:05.090 --> 01:07.300
+unbounded to positive infinity
+
+01:07.300 --> 01:09.523
+or unbounded to negative infinity
+
+01:09.523 --> 01:12.262
+or it'll just oscillate between values,
+
+01:12.262 --> 01:17.262
+it'll never really approach
+a given sum or given value.
+
+01:17.603 --> 01:19.531
+That's what the divergence test tells us
+
+01:19.531 --> 01:21.193
+and you're probably
+thinking, okay all right,
+
+01:21.193 --> 01:22.965
+I can kind of get what this says
+
+01:22.965 --> 01:25.116
+but where is this actually useful?
+
+01:25.116 --> 01:27.310
+To see where it can be useful
+
+01:27.310 --> 01:28.932
+let's look at a candidate series
+
+01:28.932 --> 01:33.340
+and see if we can figure out
+if it's going to diverge.
+
+01:33.340 --> 01:36.660
+Let's say I had this series
+
+01:36.660 --> 01:41.660
+so the sum from N equals one to infinity
+
+01:43.580 --> 01:46.102
+and in general it doesn't
+always have to be N equals one,
+
+01:46.102 --> 01:47.607
+it could be N equals five,
+
+01:47.607 --> 01:49.720
+it could be N equals zero.
+
+01:49.720 --> 01:52.367
+The key is, is that this
+is an infinite series
+
+01:52.367 --> 01:54.660
+that we're talking about
+so that's why we care about
+
+01:54.660 --> 01:56.193
+the limit is N approaches infinity.
+
+01:56.193 --> 02:00.964
+Let's say we have the
+sum of four N squared
+
+02:00.964 --> 02:05.964
+minus N to the third over seven,
+
+02:08.327 --> 02:12.636
+minus three and to the third power.
+
+02:12.636 --> 02:14.953
+Given what we know about
+the divergence test,
+
+02:14.953 --> 02:19.697
+is this series going
+to converge or diverge?
+
+02:21.004 --> 02:22.732
+Well, let's just look at this,
+
+02:22.732 --> 02:25.889
+what we're taking the sums of.
+
+02:25.889 --> 02:29.677
+So this is essentially
+or this is our A sub N
+
+02:29.677 --> 02:31.899
+if we're trying to match to the definition
+
+02:31.899 --> 02:34.132
+or I guess the explanation
+of the divergence test.
+
+02:34.132 --> 02:37.703
+Let's think about what the limit,
+
+02:37.703 --> 02:42.208
+as N approaches infinity of four N squared
+
+02:42.208 --> 02:46.300
+minus N to the third over seven
+
+02:46.300 --> 02:49.100
+minus three N to the third is.
+
+02:49.100 --> 02:51.549
+I encourage you to pause the
+video and think about that.
+
+02:51.549 --> 02:53.844
+Well there's a couple of
+ways to think about it,
+
+02:53.844 --> 02:56.090
+one way is, hey look as N goes to infinity
+
+02:56.090 --> 02:57.323
+the highest degree terms
+
+02:57.323 --> 02:58.254
+of the numerator and the denominator
+
+02:58.254 --> 02:59.371
+are the ones that matter.
+
+02:59.371 --> 03:01.318
+So this is going to approach
+negative N to the third
+
+03:01.318 --> 03:03.940
+over negative three N to the third
+
+03:03.940 --> 03:06.698
+which will just be which
+would approach negative one
+
+03:06.698 --> 03:10.720
+over negative three which
+would be positive 1/3
+
+03:10.720 --> 03:13.140
+or we could say if we want
+to do a little bit more,
+
+03:13.140 --> 03:15.451
+or do a little bit more systematically.
+
+03:15.866 --> 03:17.883
+Limit as N approaches infinity,
+
+03:17.883 --> 03:19.725
+we can divide what the
+numerator and the denominator
+
+03:19.725 --> 03:20.597
+by end of the third,
+
+03:20.597 --> 03:22.191
+so if we divide the
+numerator by end of the third
+
+03:22.191 --> 03:25.151
+this first third is
+going to be four over N
+
+03:25.151 --> 03:30.151
+minus one over seven over N
+to the third, minus three.
+
+03:32.911 --> 03:35.552
+Here it becomes clear, the
+limit is N approaches infinity,
+
+03:35.552 --> 03:38.613
+that's going to go to zero,
+that's going to go to zero
+
+03:38.613 --> 03:40.796
+and so you're going to
+be left with negative one
+
+03:40.796 --> 03:44.739
+over negative three which is equal to 1/3.
+
+03:44.739 --> 03:49.155
+Notice, the limit of A sub
+N as N approaches infinity
+
+03:49.155 --> 03:51.658
+in this case is not equal to zero,
+
+03:51.658 --> 03:56.658
+therefore this sum will, this
+infinite series will diverge.
+
+04:00.293 --> 04:04.423
+Now let's think for a second
+why this makes a ton of sense.
+
+04:04.423 --> 04:07.240
+Well, the only way that
+you're going to converge
+
+04:07.240 --> 04:07.693
+that you're going to set,
+
+04:07.693 --> 04:09.639
+remember you're taking infinite sum.
+
+04:09.639 --> 04:11.360
+You're taking an infinite sum of things
+
+04:11.360 --> 04:12.239
+so the only reasonable way
+
+04:12.239 --> 04:15.795
+that something might be able
+to converge to a finite value
+
+04:15.795 --> 04:18.883
+is if every extra term you're
+adding is getting smaller
+
+04:18.883 --> 04:20.933
+and smaller and smaller
+as approaching zero.
+
+04:20.933 --> 04:24.393
+If as N approaches
+infinity, you go unbounded
+
+04:24.393 --> 04:26.154
+or if it's even equal to 1/3,
+
+04:26.154 --> 04:27.872
+this means that for very large ends
+
+04:27.872 --> 04:30.295
+you just keep adding things
+that are getting closer
+
+04:30.295 --> 04:31.664
+and closer to 1/3.
+
+04:31.664 --> 04:34.576
+Well if you add an infinite
+number of one-thirds together,
+
+04:34.576 --> 04:36.323
+you're going to go to infinity,
+
+04:36.323 --> 04:37.558
+you're going to be unbounded.
+
+04:37.558 --> 04:41.296
+You are going to diverge so
+that's all it's telling us.
+
+04:41.296 --> 04:43.410
+Look, in order for something to converge
+
+04:43.410 --> 04:45.554
+as you're taking infinite sum of them,
+
+04:45.554 --> 04:46.767
+at some point these things
+are going to have to get
+
+04:46.767 --> 04:48.344
+really, really, really close to zero.
+
+04:48.344 --> 04:50.081
+If at some point they're
+not getting close to zero,
+
+04:50.081 --> 04:51.811
+there's no way is going to converge,
+
+04:51.811 --> 04:54.120
+that thing will diverge
+
+04:54.120 --> 04:55.599
+so hopefully that makes a little sense.
+
+04:55.599 --> 04:58.200
+That also gives you I
+guess another insight
+
+04:58.200 --> 05:00.332
+on what the divergence test can't do.
+
+05:00.332 --> 05:02.391
+The divergence test can be used
+
+05:02.391 --> 05:04.550
+to show that something will diverge
+
+05:04.550 --> 05:06.890
+but if something, I guess you could say
+
+05:06.890 --> 05:08.573
+passes the divergence test,
+
+05:08.573 --> 05:11.887
+it doesn't or I guess
+fails the divergence test
+
+05:11.887 --> 05:13.678
+or if this isn't true,
+
+05:13.678 --> 05:16.592
+it doesn't mean that the
+thing is going to converge.
+
+05:16.592 --> 05:18.204
+Let me give you an example of that.
+
+05:20.465 --> 05:23.933
+This right over here from
+N equals one to infinity
+
+05:23.933 --> 05:27.218
+of one over N and this is
+actually the harmonic series
+
+05:27.218 --> 05:28.415
+right over here.
+
+05:28.415 --> 05:31.881
+This, if we look at, if we try
+to apply the divergence test,
+
+05:31.881 --> 05:33.466
+we would say, okay, well what's the limit
+
+05:33.466 --> 05:37.317
+as N approaches infinity of one over N.
+
+05:37.317 --> 05:39.799
+Well, hey that is zero, if
+that approaches infinity
+
+05:39.799 --> 05:42.426
+this is equal to zero.
+
+05:42.426 --> 05:46.833
+We could say well it's kind
+of failing the divergence test
+
+05:46.833 --> 05:49.813
+so we're not just by
+using the divergence test
+
+05:49.813 --> 05:52.650
+we can't prove that this
+thing is going to diverge
+
+05:52.650 --> 05:55.128
+but that doesn't mean
+that it doesn't diverge.
+
+05:55.128 --> 05:58.260
+It actually turns out and we
+prove this in several videos,
+
+05:58.260 --> 06:00.566
+it actually turns out that
+this thing does diverge.
+
+06:00.566 --> 06:05.566
+This thing does diverge,
+
+06:05.738 --> 06:08.918
+it's just that the
+divergence test isn't enough,
+
+06:08.918 --> 06:11.816
+it's not enough of a tool
+to let us know for sure
+
+06:11.816 --> 06:14.105
+that this diverge, we'll
+see the comparison test
+
+06:14.105 --> 06:16.352
+and the integral test can either be used
+
+06:16.352 --> 06:19.112
+to prove that this in fact does diverge.
+
+06:19.112 --> 06:21.932
+You can definitely not
+say that if something,
+
+06:21.932 --> 06:24.549
+if this does not apply for something.
+
+06:24.549 --> 06:26.448
+If you think the limit
+as N approaches infinity
+
+06:26.448 --> 06:29.830
+and it does go to zero,
+that still might diverge.
+
+06:29.830 --> 06:33.335
+It doesn't necessarily
+mean that it converges.
+
+06:33.335 --> 06:35.076
+Now there are things that do converge
+
+06:35.076 --> 06:37.522
+that where they do approach zero
+
+06:37.522 --> 06:41.228
+so for example if I take the sum from
+
+06:41.228 --> 06:45.375
+N equals one to infinity
+of one over N squared.
+
+06:45.375 --> 06:47.697
+If I try to apply the divergence test,
+
+06:47.697 --> 06:50.646
+I have the limit as N approaches infinity
+
+06:50.646 --> 06:53.334
+of one over N squared,
+well this does equal zero.
+
+06:53.334 --> 06:54.535
+This gets really, really large,
+
+06:54.535 --> 06:56.281
+this thing is going to approach zero
+
+06:56.281 --> 06:59.430
+and so once again this is I guess failing
+
+06:59.430 --> 07:01.544
+the test for divergence.
+
+07:01.544 --> 07:04.523
+Just with that alone
+you don't know for sure
+
+07:04.523 --> 07:06.027
+that this thing is going to converge,
+
+07:06.027 --> 07:07.205
+it still might diverge,
+
+07:07.205 --> 07:09.648
+the divergence test just
+might not have been enough.
+
+07:09.648 --> 07:11.981
+Now it does turn out and
+once again we prove this
+
+07:11.981 --> 07:14.838
+in future videos that
+this thing does converge.
+
+07:14.838 --> 07:19.829
+This thing does converge
+but not because it,
+
+07:19.829 --> 07:22.372
+I guess you could say
+fails the divergence test.
+
+07:22.372 --> 07:24.704
+We have to use a different test to show
+
+07:24.704 --> 07:26.914
+that this does in fact converge,
+
+07:26.914 --> 07:28.385
+just as we have to use
+a different test to show
+
+07:28.385 --> 07:30.666
+that this does in fact diverge.
+
+07:30.666 --> 07:32.601
+Where the divergence test is useful
+
+07:32.601 --> 07:36.489
+is for the things that actually
+pass the divergence test.
+
+07:36.489 --> 07:38.789
+When you actually find that
+the limit is N approaches
+
+07:38.789 --> 07:41.396
+infinity of A sub N does not equal zero,
+
+07:41.396 --> 07:42.991
+like this case right over here.
+
+07:42.991 --> 07:45.286
+In this case the divergence test helps us
+
+07:45.286 --> 07:48.038
+because it helps us make the conclusion
+
+07:48.038 --> 07:53.038
+that this series definitely diverges.

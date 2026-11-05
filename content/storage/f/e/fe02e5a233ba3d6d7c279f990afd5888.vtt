@@ -1,0 +1,261 @@
+WEBVTT
+
+00:00.030 --> 00:04.690
+Řekněme, že řídím továrnu
+a chci znát její procesy.
+
+00:04.690 --> 00:06.120
+Snažím se přijít na to,
+
+00:06.120 --> 00:12.220
+jak se mění mé náklady
+jako funkce množství za týden.
+
+00:12.220 --> 00:15.227
+Abych to ukázal, nakreslím to.
+
+00:15.227 --> 00:17.000
+Nakreslím tuto nákladovou funkci.
+
+00:17.000 --> 00:19.130
+Toto je osa nákladů.
+
+00:19.130 --> 00:22.340
+Toto by mohla být osa množství.
+
+00:22.340 --> 00:27.670
+Toto je množství,
+ale budu to nazývat ‚q‛.
+
+00:27.670 --> 00:29.282
+Moje osa ‚q‛.
+
+00:29.282 --> 00:35.090
+A moje funkce bude
+vypadat nějak takto.
+
+00:35.090 --> 00:36.900
+Vypadá to rozumně.
+
+00:36.900 --> 00:39.980
+I když nevyrábím nic,
+tak mám stále fixní náklady.
+
+00:39.980 --> 00:41.620
+Musím platit nájemné za továrnu.
+
+00:41.620 --> 00:44.250
+Pravděpodobně musím platit
+lidem, i když nic nevyrábím.
+
+00:44.250 --> 00:49.340
+Řekněme, že fixní náklady
+jsou za týden 1 000 dolarů.
+
+00:49.340 --> 00:52.230
+A jakmile moje množství
+výroby narůstá, rostou i náklady.
+
+00:52.230 --> 01:01.330
+Pokud vyrobím 100 jednotek,
+tak moje náklady vzrostou na 1 300 dolarů.
+
+01:01.330 --> 01:03.300
+Pokud vyrobím ještě více,
+můžete vidět,
+
+01:03.300 --> 01:06.510
+že moje náklady rostou,
+dokonce ještě rychleji.
+
+01:06.510 --> 01:11.602
+Teď už zacházím do větší hloubky, jako je
+nákladová funkce v ekonomických videích,
+
+01:11.602 --> 01:14.690
+ale chci nad tím přemýšlet
+v kontextu diferenciálních počtů,
+
+01:14.690 --> 01:17.730
+takže co představuje derivace tohoto?
+
+01:17.730 --> 01:24.680
+Co představuje derivace ‚c‛ vzhledem ke
+‚q‛, což může být zapsáno jako c'(q)…
+
+01:24.680 --> 01:26.690
+Co toto představuje?
+
+01:26.690 --> 01:29.450
+Pokud se nad tím
+zamyslíme vizuálně,
+
+01:29.450 --> 01:34.230
+víme, že můžeme uvažovat
+o derivaci, jako o směrnici tečny.
+
+01:34.230 --> 01:37.970
+Například toto je tečna,
+když ‚q‛ je rovno 100.
+
+01:37.970 --> 01:48.174
+Směrnici tečny můžete
+vidět jako c'(100).
+
+01:48.174 --> 01:49.820
+Ale co nám říká tato směrnice?
+
+01:49.820 --> 01:59.670
+Směrnice je změna našich nákladů
+dělená změnou našeho množství.
+
+01:59.670 --> 02:01.300
+A toto je směrnice tečny.
+
+02:01.300 --> 02:03.740
+Toto jsme se prvně naučili
+v diferenciálním počtu.
+
+02:03.740 --> 02:06.781
+Když budeme postupovat ke stále
+menším a menším změnám množství,
+
+02:06.781 --> 02:10.160
+tak dosáhneme limity, ve které se naše
+změna v množství bude blížit 0.
+
+02:10.160 --> 02:13.350
+Takto získáme okamžitou změnu.
+
+02:13.350 --> 02:17.360
+Jeden ze způsobů, jak o tom
+přemýšlet je, že je to okamžité.
+
+02:17.360 --> 02:25.550
+Toto je mezní rychlost, s jakou se
+mění naše cena vzhledem k množství.
+
+02:25.550 --> 02:30.200
+Pokud bych vyrobil jen další kapku,
+atom nebo cokoliv jiného, co vyrábím,
+
+02:30.200 --> 02:32.690
+jakou rychlostí porostou moje náklady?
+
+02:32.690 --> 02:36.700
+A důvod, proč říkám mezní je,
+že vidíme, že nejsou konstantní.
+
+02:36.700 --> 02:40.210
+Pokud by naše nákladová funkce byla
+přímka, směrnice by byla konstantní.
+
+02:40.210 --> 02:43.280
+Tečna by byla nákladovou funkcí.
+
+02:43.280 --> 02:45.980
+Ale vidíme, že se zde mění.
+
+02:45.980 --> 02:52.160
+Přírůstek výroby zde stojí méně,
+než přírůstek výroby zde.
+
+02:52.160 --> 02:54.580
+Směrnice roste.
+
+02:54.580 --> 02:55.650
+A možná to dává smysl.
+
+02:55.650 --> 02:58.600
+Možná používám surový
+materiál zvenčí ze světa.
+
+02:58.600 --> 03:01.347
+A když ho používám stále víc,
+stává se více vzácnějším.
+
+03:01.347 --> 03:04.120
+A tržní cena více stoupá.
+
+03:04.120 --> 03:07.280
+Ale mohli byste říct: „Proč se
+mám starat o rychlost,
+
+03:07.280 --> 03:13.900
+s jakou rostou mé mezní náklady?"
+
+03:13.900 --> 03:19.430
+To je důvod, proč se tomu
+říká mezní náklady.
+
+03:19.430 --> 03:21.530
+Důvodem, proč se o ně zajímat, je,
+
+03:21.530 --> 03:25.390
+že se možná rozhodnu přijít na to,
+kdy mám přestat vyrábět?
+
+03:25.390 --> 03:27.250
+Řekněme, že je to pomerančový džus.
+
+03:27.250 --> 03:33.230
+Pokud budu vědět, že mě výroba dalšího
+galonu bude stát 5 dolarů a prodám ho za 6,
+
+03:33.230 --> 03:34.597
+tak to udělám.
+
+03:34.597 --> 03:37.213
+A pokud chci další galon, pokud
+jsem zde a vyrábím hodně
+
+03:37.213 --> 03:39.320
+tak třeba vykoupím všechny
+pomeranče z trhu.
+
+03:39.320 --> 03:43.620
+Teď musím dovážet pomeranče z jiné
+části planety nebo odkudkoli je to možné
+
+03:43.620 --> 03:52.190
+a když nárůst výroby galonu nebo-li
+galonu pomerančového džusu stojí 10 dolarů
+
+03:52.190 --> 03:58.280
+a nejsem schopen ho prodat za více než 6,
+nedává smysl, abych ho nadále vyráběl.
+
+03:58.280 --> 04:03.310
+V kontextu diferenciálního počtu
+nebo spíš v ekonomickém kontextu,
+
+04:03.310 --> 04:08.100
+pokud modelujete své náklady
+jako funkci množství,
+
+04:08.100 --> 04:11.470
+tak derivace tohoto je
+takzvaný mezní náklad.
+
+04:11.470 --> 04:17.430
+Je to rychlost, s jako rostou
+náklady na další jednotku.
+
+04:17.430 --> 04:20.000
+A jsou zde podobná vyjádření.
+
+04:20.000 --> 04:23.399
+Pokud modelujeme náš zisk
+jako funkci množství,
+
+04:23.399 --> 04:25.980
+tak pokud toto zderivujeme,
+tak to bude náš mezní zisk.
+
+04:25.980 --> 04:28.560
+Když budeme modelovat výnosy,
+tak to bude mezní výnos.
+
+04:28.560 --> 04:39.692
+Jak moc poroste funkce, když zvýšíme náš
+vstup, když zvýšíme naše mezní množství?

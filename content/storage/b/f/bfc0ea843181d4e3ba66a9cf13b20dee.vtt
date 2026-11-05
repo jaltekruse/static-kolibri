@@ -1,0 +1,372 @@
+WEBVTT
+
+00:00.419 --> 00:01.732
+- [Instructor] So when
+you first learn calculus,
+
+00:01.732 --> 00:04.354
+you learn that the derivative
+of some function f,
+
+00:04.354 --> 00:07.058
+could be written as f prime of x is equal
+
+00:07.058 --> 00:09.530
+to the limit as, then
+there's multiple ways
+
+00:09.530 --> 00:12.347
+of doing this, the change
+in x approaches zero
+
+00:12.347 --> 00:16.347
+of f of x plus our change
+in x, minus f of x,
+
+00:18.569 --> 00:20.319
+over our change in x.
+
+00:21.841 --> 00:24.175
+And you learn multiple notations for this.
+
+00:24.175 --> 00:28.397
+For example, if you
+that y is equal f of x,
+
+00:28.397 --> 00:31.502
+you might write this as y prime.
+
+00:31.502 --> 00:34.252
+You might write this as d-y, d-x,
+
+00:35.388 --> 00:37.886
+which you'll often hear me
+say is the derivative of y,
+
+00:37.886 --> 00:40.149
+with respect to x, and that you can do
+
+00:40.149 --> 00:41.955
+the derivative of f with respect to x
+
+00:41.955 --> 00:44.906
+because y is equal to our function.
+
+00:44.906 --> 00:46.512
+But then later on when
+you, especially when you
+
+00:46.512 --> 00:49.051
+start getting into differential equations,
+
+00:49.051 --> 00:51.987
+you see people start
+to treat this notation
+
+00:51.987 --> 00:54.911
+as an actual algebraic expression.
+
+00:54.911 --> 00:59.357
+For example, you will learn or
+you might have already seen.
+
+00:59.357 --> 01:02.285
+If you're trying to solve
+the differential equation,
+
+01:02.285 --> 01:06.691
+the derivative of y with
+respect to x, is equal to y.
+
+01:06.691 --> 01:08.551
+So the rate of change
+of y with respect to x
+
+01:08.551 --> 01:11.533
+is equal to the value of y itself.
+
+01:11.533 --> 01:14.733
+This is one of, the most
+basic differential equations
+
+01:14.733 --> 01:15.903
+you might see.
+
+01:15.903 --> 01:17.771
+You'll see this technique,
+where people just say,
+
+01:17.771 --> 01:20.351
+"Well, let's just multiply
+both sides by d-x."
+
+01:20.351 --> 01:24.228
+Just treating d-x like as if
+it's some algebraic expression.
+
+01:24.228 --> 01:28.318
+So you multiply both sides
+by d-x and then you have,
+
+01:28.318 --> 01:30.517
+so that would cancel out algebraically,
+
+01:30.517 --> 01:32.232
+and so you see people treat it like that.
+
+01:32.232 --> 01:35.538
+So you have d-y is equal to y times d-x,
+
+01:35.538 --> 01:38.240
+and then they'll say, "Okay
+let's divide both sides by y."
+
+01:38.240 --> 01:39.530
+Which is a reasonable thing to do.
+
+01:39.530 --> 01:41.148
+Y is an algebraic expression.
+
+01:41.148 --> 01:46.085
+So if you divide both sides
+by y, you get one over y,
+
+01:46.085 --> 01:47.752
+d-y is equal to d-x.
+
+01:49.425 --> 01:51.529
+And then folks will integrate both sides
+
+01:51.529 --> 01:54.416
+to find a general solution to
+this differential equation.
+
+01:54.416 --> 01:56.477
+But my point on this video isn't to think
+
+01:56.477 --> 01:59.237
+about how do you solve a
+differential equation here,
+
+01:59.237 --> 02:01.671
+but to think about this notion of using,
+
+02:01.671 --> 02:03.780
+what we call differentials.
+
+02:03.780 --> 02:06.123
+So a d-x, or a d-y,
+
+02:06.123 --> 02:08.333
+and treating them algebraically like this.
+
+02:08.333 --> 02:10.026
+Treating them as algebraic expressions,
+
+02:10.026 --> 02:13.114
+where I can just multiply
+both sides by just d-x or d-y,
+
+02:13.114 --> 02:16.327
+or divide both sides by d-x or d-y.
+
+02:16.327 --> 02:21.204
+And I don't normally say
+this, but the rigor you need
+
+02:21.204 --> 02:24.153
+to show that this is
+okay in this situation,
+
+02:24.153 --> 02:27.282
+is not an easy thing to say.
+
+02:27.282 --> 02:31.069
+And so to just feel reasonably
+okay about doing this,
+
+02:31.069 --> 02:32.846
+this is a little bit hand wavy,
+
+02:32.846 --> 02:35.008
+it's not super mathematically rigorous.
+
+02:35.008 --> 02:37.822
+But it has proven to be
+a useful tool for us,
+
+02:37.822 --> 02:40.126
+to find these solutions.
+
+02:40.126 --> 02:43.944
+And conceptually the way
+that I think about a d-y, or
+
+02:43.944 --> 02:47.745
+a d-x, is this is the
+super small change in y,
+
+02:47.745 --> 02:50.590
+in response to a super small change in x.
+
+02:50.590 --> 02:52.983
+And that's essentially
+what this definition
+
+02:52.983 --> 02:54.216
+of the limit is telling us.
+
+02:54.216 --> 02:56.978
+Especially as Delta x approaches zero,
+
+02:56.978 --> 02:59.679
+we're going to have a
+super small change in x,
+
+02:59.679 --> 03:01.603
+as Delta x approaches zero.
+
+03:01.603 --> 03:02.984
+And then we're going to have a resulting
+
+03:02.984 --> 03:05.327
+super small change in y.
+
+03:05.327 --> 03:07.169
+So that's one way that you can feel
+
+03:07.169 --> 03:09.157
+a little bit better, of...
+
+03:09.157 --> 03:11.136
+And this is actually one
+of the justifications
+
+03:11.136 --> 03:12.941
+for this type of notation.
+
+03:12.941 --> 03:15.533
+As you can view this, what's
+the resulting super small,
+
+03:15.533 --> 03:17.349
+or what's the super small change in y,
+
+03:17.349 --> 03:19.718
+for a given super small change in x?
+
+03:19.718 --> 03:22.886
+Which is giving us the sense
+of what's the limiting value
+
+03:22.886 --> 03:24.507
+of the slope?
+
+03:24.507 --> 03:25.695
+As we go from the slope
+
+03:25.695 --> 03:27.561
+of the secant line to a tangent line?
+
+03:27.561 --> 03:29.188
+And if you view it that way you might feel
+
+03:29.188 --> 03:33.104
+a little bit better about
+using the differentials,
+
+03:33.104 --> 03:34.559
+or creating them algebraically.
+
+03:34.559 --> 03:36.292
+Let me just multiply both sides by
+
+03:36.292 --> 03:39.372
+that super small change in x.
+
+03:39.372 --> 03:41.800
+So the big picture is, this is a technique
+
+03:41.800 --> 03:43.469
+that you'll often see,
+
+03:43.469 --> 03:47.087
+in introductory differential
+equations classes.
+
+03:47.087 --> 03:49.303
+Introductory multi-variable classes and
+
+03:49.303 --> 03:51.127
+introductory calculus classes.
+
+03:51.127 --> 03:53.573
+But it's not very mathematically rigorous,
+
+03:53.573 --> 03:57.206
+to just treat differentials
+like algebraic expressions.
+
+03:57.206 --> 03:59.076
+But even thought it's
+not very mathematically
+
+03:59.076 --> 04:01.778
+rigorous to do it willy nilly like that.
+
+04:01.778 --> 04:04.266
+It has proven to be very useful.
+
+04:04.266 --> 04:06.370
+Now as you get more sophisticated
+
+04:06.370 --> 04:08.686
+in your mathematics there
+are rigorous definitions
+
+04:08.686 --> 04:10.267
+of a differential.
+
+04:10.267 --> 04:11.889
+Where you can get a better sense of where
+
+04:11.889 --> 04:13.778
+it is mathematically rigorous to use it
+
+04:13.778 --> 04:14.801
+and where it isn't.
+
+04:14.801 --> 04:16.357
+But the whole point here is, if you felt
+
+04:16.357 --> 04:18.609
+a little weird feeling about multiplying
+
+04:18.609 --> 04:22.384
+both sides by d-x or dividing
+both sides by d-x or d-y.
+
+04:22.384 --> 04:25.426
+Your feeling was mathematically justified,
+
+04:25.426 --> 04:27.833
+because it's not a very
+rigorous thing to do.
+
+04:27.833 --> 04:31.908
+At least until you have
+more rigor behind it,
+
+04:31.908 --> 04:33.755
+but I will tell you that if you're
+
+04:33.755 --> 04:36.509
+an introductory student
+it is a reasonable thing
+
+04:36.509 --> 04:39.470
+to do as you explore and manipulate
+
+04:39.470 --> 04:42.862
+some of these basic
+differential equations.

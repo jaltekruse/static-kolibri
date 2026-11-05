@@ -1,0 +1,992 @@
+WEBVTT
+
+00:00.610 --> 00:05.130
+Nous avons premièrement exposé plus tôt l'idée de la pente d'une droite
+
+00:05.130 --> 00:07.280
+dans nos vidéos sur l'algèbre.
+
+00:07.280 --> 00:08.600
+Mais j'ai compris que ça ne fait pas de mal de revoir ça un peu.
+
+00:08.600 --> 00:10.450
+Donc je trace deux axes
+
+00:10.450 --> 00:12.800
+Voilà mon axe des ordonnées (vertical)
+
+00:12.800 --> 00:15.170
+Mais je devrais l'appeler l'axe de f de x ( l'axe de f(x) )
+
+00:15.170 --> 00:17.320
+y est égal à f de x
+y=f(x)
+
+00:17.320 --> 00:23.380
+Je trace mon axe des abscisses (horizontal), le voilà mon axe des abscisses
+
+00:23.380 --> 00:28.970
+Et je trace une droite, comme celle ci.
+
+00:28.970 --> 00:31.770
+Et ce qu'on veut faire c'est se rappeler comment faisons nous
+
+00:31.770 --> 00:36.935
+pour trouver la pente d'une droite ?
+
+00:36.935 --> 00:42.260
+Et ce qu'on doit faire, c'est prendre 2 points sur la droite,
+
+00:42.260 --> 00:45.030
+Par exemple prenons ce point là.
+
+00:45.030 --> 00:48.070
+Disons que ça, c'est le point x qui est égal à a.
+
+00:48.070 --> 00:49.260
+Et maintenant ça, qu'est-ce que c'est ?
+
+00:49.260 --> 00:53.480
+C'est le point f de a ( f(a) ), où la fonction
+
+00:53.480 --> 00:54.440
+sera une droite.
+
+00:54.440 --> 00:59.493
+On pourrait écrire f de x est égale à mx + b ( f(x)=mx+b )
+
+00:59.493 --> 01:01.200
+On ne sait pas ce que sont m et b.
+
+01:01.200 --> 01:02.410
+Mais ce n'est qu'un petit rappel.
+
+01:02.410 --> 01:04.050
+Donc ça c'est a.
+
+01:04.050 --> 01:06.880
+Et alors la valeur y est égale à ce qui arrive à la fonction lorsque
+
+01:06.880 --> 01:09.890
+on lui donne le point a, donc c'est ce point juste là.
+
+01:09.890 --> 01:11.950
+Donc nous pourrions prendre un autre point sur la droite
+
+01:11.950 --> 01:14.760
+Disons que nous prenons le point b, juste là.
+
+01:14.760 --> 01:17.110
+Et puis cette coordonnée ici va être
+
+01:17.110 --> 01:22.010
+le point b, f de b.
+
+01:22.010 --> 01:22.290
+N'est ce pas ?
+
+01:22.290 --> 01:23.980
+Parce que c'est juste le point lorsque vous évaluez
+
+01:23.980 --> 01:24.780
+la fonction de b.
+
+01:24.780 --> 01:27.360
+Vous mettez b ici, vous allez obtenir ce point là.
+
+01:27.360 --> 01:29.270
+Donc je trace une petite droite juste là.
+
+01:29.270 --> 01:32.630
+C'est donc f de b, juste là.
+
+01:32.630 --> 01:35.774
+En réalité, je voudrais rendre clair que cette coordonnée ici
+
+01:35.774 --> 01:38.780
+est le point a, f d'un.
+
+01:38.780 --> 01:42.280
+Alors, comment nous trouver la pente entre ces 2 points, ou plus
+
+01:42.280 --> 01:43.760
+généralement, de cette droite ?
+
+01:43.760 --> 01:46.890
+Parce qu'une droite a une pente correspond le
+
+01:46.890 --> 01:48.350
+ensemble de façon à travers elle.
+
+01:48.350 --> 01:50.060
+Et nous savons que, une fois que nous trouvons la pente, ça
+
+01:50.060 --> 01:51.610
+va être la valeur de ce m.
+
+01:51.610 --> 01:54.420
+C'est juste une révision d'algèbre, mais comment faisons nous ?
+
+01:54.420 --> 01:56.890
+Eh bien, un couple de façons d'y penser.
+
+01:56.890 --> 02:05.130
+La pente est égale à grimper à terme.
+
+02:05.130 --> 02:07.050
+Vous pouvez avoir vu que lorsque vous apprend d'abord algèbre.
+
+02:07.050 --> 02:09.670
+Ou d'une autre façon de l'écrire, c'est la modification
+
+02:09.670 --> 02:13.570
+y au-dessus de changement de x.
+
+02:13.570 --> 02:16.240
+Alors disons découvrir ce que le changement en y sur le changement
+
+02:16.240 --> 02:18.810
+x est pour ce cas particulier.
+
+02:18.810 --> 02:22.230
+Le changement d'y est donc égal à quoi ?
+
+02:22.230 --> 02:25.180
+Eh bien, disons simplement prendre, vous pouvez prendre ce gars comme étant la
+
+02:25.180 --> 02:26.990
+premier point, ou que guy comme étant le premier point.
+
+02:26.990 --> 02:29.980
+Mais puisque ce gars a une plus grande x et un y plus grande,
+
+02:29.980 --> 02:30.870
+Commençons avec lui.
+
+02:30.870 --> 02:33.960
+Le changement d'y entre que guy et que guy est donc cela
+
+02:33.960 --> 02:35.070
+distance, ici.
+
+02:35.070 --> 02:36.800
+Permettez-moi donc de dessiner un petit triangle.
+
+02:36.800 --> 02:39.210
+Cette distance droite il y a un changement de y.
+
+02:39.210 --> 02:42.190
+Ou je pourrais simplement transférer à l'axe des y.
+
+02:42.190 --> 02:44.190
+C'est le changement de y.
+
+02:44.190 --> 02:46.340
+Qui est votre changement de y, cette distance.
+
+02:46.340 --> 02:47.980
+Donc quelle est cette longueur ?
+
+02:47.980 --> 02:51.030
+C'est f de b moins f de a ( f(b-f(a) )
+
+02:51.030 --> 02:57.880
+Donc c'est égal à f de b moins f de a ( f(b)-f(a) )
+
+02:57.880 --> 03:01.990
+Qui est votre changement de y.
+
+03:01.990 --> 03:05.480
+Quelle est votre changement de x la pente est maintenant le changement
+
+03:05.480 --> 03:09.010
+en y au-dessus de changement de x.
+
+03:09.010 --> 03:10.760
+Donc ce que notre changement de x ?
+
+03:10.760 --> 03:11.770
+Quelle est cette longueur ?
+
+03:11.770 --> 03:13.490
+N'oubliez pas, ceci est notre premier point,
+
+03:13.490 --> 03:16.370
+donc, nous avons pris son y moins le y de l'autre point.
+
+03:16.370 --> 03:17.880
+Donc pour être cohérent, nous allons prendre
+
+03:17.880 --> 03:20.660
+le x de ce point moins x de ce point.
+
+03:20.660 --> 03:23.460
+Donc la coordonnée de ce point x est donc b.
+
+03:23.460 --> 03:29.130
+Donc ce sera b moins a.
+
+03:29.130 --> 03:31.580
+Et juste comme ça, si vous saviez que l'équation de cette ligne, ou
+
+03:31.580 --> 03:34.610
+Si vous aviez les coordonnées de ces 2 points, vous serait juste
+
+03:34.610 --> 03:39.460
+brancher leur droit ici et vous obtiendrez votre pente.
+
+03:39.460 --> 03:40.990
+C'est simple.
+
+03:40.990 --> 03:43.150
+Et qui vient directement de votre classe d'algèbre 1.
+
+03:43.150 --> 03:46.060
+Et je voudrais juste, juste pour vérifier que c'est le béton pour vous,
+
+03:46.060 --> 03:59.035
+Si c'était le point 2, 3. Et disons que jusqu'ici, cela, était le point 5, 7.
+
+03:59.035 --> 04:00.488
+Alors, si nous voulions trouver la pente de
+
+04:00.488 --> 04:06.460
+Cette ligne, nous ferions 7 moins 3. Ce serait notre changement de y.
+
+04:06.460 --> 04:10.370
+Ce serait 7 et ce serait 3. Et puis nous
+
+04:10.370 --> 04:15.181
+faire plus 5 moins 2.
+
+04:15.181 --> 04:18.460
+Parce que ce serait un 5, et ce serait un 2.
+
+04:18.460 --> 04:19.620
+Et cela serait donc votre changement de x.
+
+04:19.620 --> 04:20.690
+5 moins 2.
+
+04:20.690 --> 04:24.830
+7 Moins 3 est donc 4 ; et 5 moins 2 est 3.
+
+04:24.830 --> 04:30.760
+Si votre pente serait 4 sur 3 (4/3).
+
+04:30.760 --> 04:33.010
+Maintenant nous allons voir si nous pouvons généraliser ce.
+
+04:33.010 --> 04:35.370
+Et c'est ce que le nouveau concept que nous allons
+
+04:35.370 --> 04:38.320
+à apprendre que nous plonger dans le calcul.
+
+04:38.320 --> 04:41.970
+Nous allons voir si nous pouvons généraliser cela d'une certaine manière à une courbe.
+
+04:41.970 --> 04:44.310
+Donc disons que nous avons une courbe.
+
+04:44.310 --> 04:46.340
+Nous devons avoir une courbe avant que nous puissions généraliser
+
+04:46.340 --> 04:47.180
+elle à une courbe.
+
+04:47.180 --> 04:47.900
+Je descend juste la page.
+
+04:47.900 --> 04:49.850
+Bien, en fait, je veux laisser cela ici, pour montrer
+
+04:49.850 --> 04:51.820
+vous la similitude.
+
+04:51.820 --> 04:56.390
+Disons que j'ai--je vais garder assez général dès maintenant.
+
+04:56.390 --> 04:58.290
+Disons que j'ai une courbe.
+
+04:58.290 --> 05:01.080
+Je vais faire il une courbe familiar-à la recherche.
+
+05:01.080 --> 05:03.390
+Disons que c' est la courbe y est égale à x au carré, qui
+
+05:03.390 --> 05:06.860
+cherche quelque chose comme ça.
+
+05:06.860 --> 05:10.010
+Et je veux trouver la pente.
+
+05:10.010 --> 05:13.280
+Disons que je veux trouver la pente à un certain point.
+
+05:13.280 --> 05:15.680
+Et en fait, avant même de parler à ce sujet, disons même
+
+05:15.680 --> 05:18.930
+Pensez à ce que cela signifie pour trouver la pente d'une courbe.
+
+05:18.930 --> 05:22.450
+Ici, la pente était la même tout le temps, n'est ce pas ?
+
+05:22.450 --> 05:25.028
+Mais sur une courbe, la pente change.
+
+05:25.028 --> 05:27.196
+Et juste pour obtenir l'intuition de ce que cela signifie--
+
+05:27.196 --> 05:28.240
+Quelle est la pente ici ?
+
+05:28.240 --> 05:31.610
+Votre pente ici est la pente de la ligne tangente.
+
+05:31.610 --> 05:33.150
+C'est la ligne tout juste la touche.
+
+05:33.150 --> 05:34.180
+C'est la pente juste là.
+
+05:34.180 --> 05:35.760
+C'est une pente négative.
+
+05:35.760 --> 05:37.790
+Puis ici, votre pente est toujours négatif, mais c'est un
+
+05:37.790 --> 05:39.360
+un peu moins négative.
+
+05:39.360 --> 05:40.250
+Il va comme ça.
+
+05:40.250 --> 05:41.570
+Je ne sais pas si je le faisais, qui a attiré.
+
+05:41.570 --> 05:43.660
+Permettez-moi de le faire dans une couleur différente.
+
+05:43.660 --> 05:45.790
+Permettez-moi de le faire en violet.
+
+05:45.790 --> 05:48.320
+Ici, vos pente est donc légèrement moins négative.
+
+05:48.320 --> 05:51.590
+C'est une ligne de pente légèrement moins à la baisse.
+
+05:51.590 --> 05:56.130
+Et puis quand vous allez ici, au point de 0, droite ici,
+
+05:56.130 --> 06:00.030
+votre pente est à peu près plat, parce que la ligne horizontale, y
+
+06:00.030 --> 06:02.610
+égale 0, est tangent à cette courbe.
+
+06:02.610 --> 06:05.330
+Et puis comme vous aller plus positives x-es, puis votre
+
+06:05.330 --> 06:08.660
+pente commence à augmenter.
+
+06:08.660 --> 06:10.340
+Je suis en train de tracer une ligne tangente.
+
+06:10.340 --> 06:14.170
+Et ici il augmente encore plus, elle a augmenté encore plus.
+
+06:14.170 --> 06:17.240
+Donc votre pente change tout le temps, et c'est le genre
+
+06:17.240 --> 06:19.930
+de grande variation qui se produit lorsque vous passez d'un
+
+06:19.930 --> 06:21.530
+droite à une courbe.
+
+06:21.530 --> 06:24.450
+Dans une droite, votre pente est la même tout le temps.
+
+06:24.450 --> 06:27.600
+Vous pourriez prendre deux points d'une droite, prendre la variation de y
+
+06:27.600 --> 06:29.170
+sur la variation de x, et vous obtenez la pente pour
+
+06:29.170 --> 06:30.620
+la droite toute entière.
+
+06:30.620 --> 06:32.980
+Mais comme vous le voyez déjà, ça va être un peu
+
+06:32.980 --> 06:35.290
+plus compliqué lorsque nous le faisons pour une courbe.
+
+06:35.290 --> 06:37.570
+Parce ça dépend de quel point nous parlons.
+
+06:37.570 --> 06:40.200
+On peut pas juste dire, quelle est la pente de cette courbe ?
+
+06:40.200 --> 06:43.760
+La pente est différente à chaque point de la courbe.
+
+06:43.760 --> 06:44.120
+Elle varie.
+
+06:44.120 --> 06:46.500
+Si nous allons ici, elle va être encore plus montante.
+
+06:46.500 --> 06:50.450
+Ça va ressembler à ça.
+
+06:50.450 --> 06:54.780
+Alors tentons une petite expérience.
+
+06:54.780 --> 06:57.870
+Et je sais comment cette expérience finit, donc il n'y a
+
+06:57.870 --> 06:59.450
+pas trop de risque.
+
+06:59.450 --> 07:02.300
+Permettez-moi de vous tirer mieux que cela.
+
+07:02.300 --> 07:11.800
+Donc, c'est mon axe des ordonnées, et c'est mon axe des x.
+
+07:11.800 --> 07:13.690
+Appelons cela, on peut appeler ça y ou on peut appeler
+
+07:13.690 --> 07:15.660
+ça le f de l'axe x.
+
+07:15.660 --> 07:16.890
+Quoi qu'il en soit.
+
+07:16.890 --> 07:20.780
+Et je voudrais tirer mon courbe à nouveau.
+
+07:20.780 --> 07:24.740
+Et je vais juste dessiner dans la coordonnée positive, comme ça.
+
+07:24.740 --> 07:26.890
+Voilà ma courbe.
+
+07:26.890 --> 07:33.400
+Mais et si je voulais trouver la pente ici ?
+
+07:33.400 --> 07:34.680
+Qu'est ce que je peux faire ?
+
+07:34.680 --> 07:38.010
+Selon la définition d'une pente, il me faut 2 points
+
+07:38.010 --> 07:39.380
+pour trouver la pente n'est ce pas ?
+
+07:39.380 --> 07:41.905
+Ici, je ne sais pas trouver la pente avec juste 1 point.
+
+07:41.905 --> 07:49.210
+Donc appelons ce point juste ici
+
+07:49.210 --> 07:50.240
+il s'appellera x.
+
+07:50.240 --> 07:51.500
+On va faire dans le général.
+
+07:51.500 --> 07:53.120
+Ce sera notre point x.
+
+07:53.120 --> 07:55.300
+Mais pour trouver notre pente, selon notre traditionnel
+
+07:55.300 --> 07:58.140
+définition (vidéo algèbre 1) de la pente, il nous faut 2 points.
+
+07:58.140 --> 08:02.100
+Donc prenons un autre point là.
+
+08:02.100 --> 08:05.950
+Prenons juste une version un peu plus grande de x.
+
+08:05.950 --> 08:10.430
+Disons, disons que nous avons ce point juste là. En fait, prenons le plus loin
+
+08:10.430 --> 08:13.590
+juste parce que sinon, ça deviendrait trop emmêlé.
+
+08:13.590 --> 08:15.680
+Donc disons que nous avons ce point juste là.
+
+08:15.680 --> 08:18.750
+Et la différence, c'est juste h, en plus de x.
+
+08:18.750 --> 08:20.565
+Ou plutôt, à la place de dire que c'est h plus grand,
+
+08:20.565 --> 08:22.120
+disons que c'est h plus grand.
+
+08:22.120 --> 08:25.630
+Donc c'est x+h
+
+08:25.630 --> 08:27.910
+C'est ce point qui est juste là.
+
+08:27.910 --> 08:30.430
+Donc que vont être les coordonnées y correspondantes
+
+08:30.430 --> 08:31.820
+Sur la courbe ?
+
+08:31.820 --> 08:35.030
+Voici la courbe de y est égal à f de x ( y=f(x) )
+
+08:35.030 --> 08:39.910
+Donc ce point, juste là sera f de notre
+
+08:39.910 --> 08:41.590
+particulier x, juste là.
+
+08:41.590 --> 08:43.930
+Et peut-être de vous montrer que je prends un particulier x, peut-être
+
+08:43.930 --> 08:45.305
+Je vais le faire un peu 0 ici.
+
+08:45.305 --> 08:48.400
+C'est x vaines, c'est x h plu naught.
+
+08:48.400 --> 08:51.430
+Il s'agit de f de x vaines.
+
+08:51.430 --> 08:56.870
+Et puis qu'est-ce que ça va être ici, ce point jusqu'à
+
+08:56.870 --> 08:59.140
+ici, ce point ici ?
+
+08:59.140 --> 09:04.430
+Sa coordonnée y va être f de--f de cette coordonnée x,
+
+09:04.430 --> 09:05.630
+dont j'ai déplacé sur un tout petit peu.
+
+09:05.630 --> 09:08.170
+C'est là. f de cette coordonnée x, qui est
+
+09:08.170 --> 09:10.950
+f de x h plu naught.
+
+09:10.950 --> 09:12.310
+C'est sa coordonnée y.
+
+09:12.310 --> 09:15.840
+Jusqu'à ce qu'une pente va être entre ces que deux points qui
+
+09:15.840 --> 09:17.410
+sont relativement proches les uns des autres ?
+
+09:17.410 --> 09:18.810
+N'oubliez pas, ce n'est pas la pente
+
+09:18.810 --> 09:20.070
+juste à ce moment.
+
+09:20.070 --> 09:23.950
+Il s'agit de la pente de la ligne entre ces deux points.
+
+09:23.950 --> 09:27.080
+Et si je devais réellement tirer it out, il se serait effectivement une
+
+09:27.080 --> 09:29.680
+ligne de sécante entre, à la courbe.
+
+09:29.680 --> 09:31.860
+Donc il serait intersect la courbe deux fois, une fois à ce point,
+
+09:31.860 --> 09:32.450
+une fois à ce point.
+
+09:32.450 --> 09:34.180
+Vous ne peut pas le voir.
+
+09:34.180 --> 09:35.510
+Si j'ai agrandi it up un peu, il examinerait
+
+09:35.510 --> 09:36.330
+quelque chose comme cela.
+
+09:36.330 --> 09:39.787
+Il s'agit de nos coordonnées x naught f du x vaines et ici
+
+09:39.787 --> 09:51.805
+est notre coordonnée pour ce point, ce qui serait, le
+
+09:51.805 --> 09:56.080
+coordonnée x serait x naught plus h et la coordonnée y
+
+09:56.080 --> 09:59.180
+serait f du x h plu naught.
+
+09:59.180 --> 10:02.135
+Juste quelle que soit cette fonction, nous allons évalue il à ce
+
+10:02.135 --> 10:03.770
+coordonnée x c'est tout que c'est.
+
+10:03.770 --> 10:05.380
+Ainsi, ce sont les 2 points.
+
+10:05.380 --> 10:07.740
+Un bon point de départ est peut-être alors juste dire, Hé, quelle est la
+
+10:07.740 --> 10:10.090
+pente de cette ligne sécante ?
+
+10:10.090 --> 10:12.760
+Et tout comme nous l'avons fait dans l'exemple précédent, vous trouvez la
+
+10:12.760 --> 10:22.470
+changement dans y, et vous divisez que par votre changement de x.
+
+10:22.470 --> 10:23.220
+Permettez-moi de vous tirer ici.
+
+10:23.220 --> 10:26.940
+Votre changement de y serait qu'ici, changer dans y, et
+
+10:26.940 --> 10:29.840
+puis votre changement de x serait celui là.
+
+10:29.840 --> 10:33.040
+Jusqu'à ce que la pente va être de la ligne sécante ?
+
+10:33.040 --> 10:37.250
+La pente va être égal à, commençons par cette
+
+10:37.250 --> 10:39.440
+point ici, simplement parce qu'il semble être plus grande.
+
+10:39.440 --> 10:43.320
+Si nous voulons un changement d'y. donc cette valeur droit ici, cela
+
+10:43.320 --> 10:46.230
+y-valeur, est f du x h plu naught.
+
+10:46.230 --> 10:47.740
+J'ai évalué juste ce gars ici.
+
+10:47.740 --> 10:49.630
+Ressemble à un terme de fantaisie, mais tout cela signifie est, regardez.
+
+10:49.630 --> 10:52.970
+Le x légèrement plus gros évaluer sa coordonnée y.
+
+10:52.970 --> 10:57.250
+Lorsque la courbe est à cette valeur de x.
+
+10:57.250 --> 11:00.290
+Afin que va être, si le changement en y va être
+
+11:00.290 --> 11:03.400
+un f du x h plu naught.
+
+11:03.400 --> 11:05.880
+C'est juste la coordonnée y ici.
+
+11:05.880 --> 11:08.830
+Moins cette coordonnée y ici.
+
+11:08.830 --> 11:13.600
+Donc moins f du x vaines.
+
+11:13.600 --> 11:16.500
+Ce qui correspond à notre changement de y.
+
+11:16.500 --> 11:18.543
+Et vous voulez que diviser par votre changement de x.
+
+11:18.543 --> 11:21.090
+242 00:11:21, 09--&gt; 00:11:21, 8 Alors qu'est-ce ?
+
+11:21.800 --> 11:23.340
+Il s'agit de la plus grande valeur de x.
+
+11:23.340 --> 11:25.030
+Nous avons commencé avec cette coordonnée, donc nous commençons
+
+11:25.030 --> 11:26.460
+avec ses coordonnées x.
+
+11:26.460 --> 11:30.450
+Donc il est x plus naught h, x naught plus h.
+
+11:30.450 --> 11:32.610
+Moins cette coordonnée x.
+
+11:32.610 --> 11:33.970
+Eh bien, nous avons choisi juste un numéro général.
+
+11:33.970 --> 11:36.330
+C'est x vaines.
+
+11:36.330 --> 11:39.300
+C'est au cours de votre changement de x.
+
+11:39.300 --> 11:39.990
+Juste comme ça.
+
+11:39.990 --> 11:41.510
+C'est la pente de la droite sécante.
+
+11:41.510 --> 11:43.670
+Nous n'avons pas répondu toujours pas ce qui la pente est juste là
+
+11:43.670 --> 11:47.100
+point, mais peut-être que cela nous aidera à y arriver.
+
+11:47.100 --> 11:51.250
+Si nous simplifier ceci, permettez-moi donc écrire comme ça.
+
+11:51.250 --> 11:57.630
+La pente de la sécante, permettez-moi d'écrire correctement.
+
+11:57.630 --> 12:03.930
+La pente de la droite sécante est égale à la valeur de la
+
+12:03.930 --> 12:08.840
+à ce stade, fonction f de x h plu naught, moins la valeur
+
+12:08.840 --> 12:12.750
+d'ici la fonction, mine f du x vaines.
+
+12:12.750 --> 12:14.370
+Ce qui vient nous dit le changement en y.
+
+12:14.370 --> 12:18.250
+C'est la définition même de la pente, que nous avons toujours utilisé.
+
+12:18.250 --> 12:19.890
+Sur le changement de x.
+
+12:19.890 --> 12:20.920
+Et nous pouvons simplifier ceci.
+
+12:20.920 --> 12:23.980
+Nous ont x naught plus minus h x vaines.
+
+12:23.980 --> 12:26.450
+Si x naught moins x naught s'annulent donc vous
+
+12:26.450 --> 12:27.700
+avoir que h.
+
+12:27.700 --> 12:32.530
+C'est donc égale à notre changement de y au changement de x.
+
+12:32.530 --> 12:33.380
+Assez juste.
+
+12:33.380 --> 12:36.500
+Mais j'ai commencé au large de dire, je veux trouver la pente de
+
+12:36.500 --> 12:38.880
+la ligne à ce moment-là, à ce stade, right here.
+
+12:38.880 --> 12:40.860
+Il s'agit de la version zoomée-out of it.
+
+12:40.860 --> 12:42.260
+Alors que puis-je faire ?
+
+12:42.260 --> 12:45.830
+Bien, j'ai défini le deuxième point ici comme juste le premier
+
+12:45.830 --> 12:49.370
+point de plus certains h.
+
+12:49.370 --> 12:52.300
+Et nous avons quelque chose dans notre boîte à outils appelé une limite.
+
+12:52.300 --> 12:55.840
+Cette h est seulement un numéro général.
+
+12:55.840 --> 12:59.400
+Il pourrait être de 10, il pourrait être de 2, elle pourrait être 0,02, il pourrait être 1
+
+12:59.400 --> 13:01.050
+Times 10 pour les 100 négatif.
+
+13:01.050 --> 13:03.690
+Ce pourrait être un arbitrairement petit nombre.
+
+13:03.690 --> 13:07.210
+Alors que se passe-t-il, que se passerait-il, au moins théoriquement,
+
+13:07.210 --> 13:09.620
+Si je devais prendre la limite comme h approches 0 ?
+
+13:09.620 --> 13:13.360
+Ainsi, vous le savez, tout d'abord, h est peut-être cet assez grand nombre sur
+
+13:13.360 --> 13:15.710
+ici, et si je prends un peu plus petite de h, alors je serais
+
+13:15.710 --> 13:17.740
+trouver la pente de cette ligne sécante.
+
+13:17.740 --> 13:20.300
+Si j'ai pris h pour être encore un peu plus petit, je serait de trouver la
+
+13:20.300 --> 13:21.790
+pente de cette ligne sécante.
+
+13:21.790 --> 13:23.200
+Si h est un peu plus petite, je pourrait trouver
+
+13:23.200 --> 13:24.390
+la pente de cette ligne.
+
+13:24.390 --> 13:28.430
+Tellement h l'approche 0, je vais être getting closer et plus proche de
+
+13:28.430 --> 13:34.230
+trouver la pente de la droite de la ligne à mon point en question.
+
+13:34.230 --> 13:36.720
+De toute évidence, si h est un grand nombre, ma ligne sécante va
+
+13:36.720 --> 13:41.110
+être loin au large de la pente à exactement ce point là.
+
+13:41.110 --> 13:45.430
+Mais si h est 0,0000001, si c'est un infiniment petit
+
+13:45.430 --> 13:47.810
+nombre, puis je vais obtenir assez étroite.
+
+13:47.810 --> 13:51.250
+Que se passe-t-il si je prends la limite comme h
+
+13:51.250 --> 13:53.530
+approches zéro de cela ?
+
+13:53.530 --> 14:00.220
+Si la limite comme h approches 0 de ma pente sécante.
+
+14:00.220 --> 14:03.180
+De, permettez-moi de passer au vert.
+
+14:03.180 --> 14:08.560
+f de x h plu naught moins f du x vaines, c'était mon changement de
+
+14:08.560 --> 14:15.490
+y, au-dessus de h, ce qui est de mon changement de x.
+
+14:15.490 --> 14:17.720
+Et maintenant juste pour clarifier quelque chose et parfois vous aurez
+
+14:17.720 --> 14:20.810
+voir dans les livres de calcul différentes, parfois au lieu d'un
+
+14:20.810 --> 14:22.930
+h, ils écrirai un delta x ici.
+
+14:22.930 --> 14:25.390
+Où ce deuxième point serait ont été défini comme x naught
+
+14:25.390 --> 14:28.660
+plus delta x, et ensuite, cela serait ont simplifié juste
+
+14:28.660 --> 14:30.685
+Delta x là-bas, et nous prendrait la limite comme
+
+14:30.685 --> 14:31.870
+Delta x approches 0.
+
+14:31.870 --> 14:33.200
+La même chose exacte.
+
+14:33.200 --> 14:34.780
+delta h, x, peu importe.
+
+14:34.780 --> 14:37.630
+Nous franchissons h comme la différence entre un x point
+
+14:37.630 --> 14:39.710
+et puis le plus élevé x point, et puis nous allons juste à
+
+14:39.710 --> 14:40.980
+prendre la limite que l'approche de zéro.
+
+14:40.980 --> 14:44.010
+Nous pourrions avoir appelé que delta x tout aussi facilement.
+
+14:44.010 --> 14:52.050
+Mais je vais appeler cette chose, ce qui équivaut à la pente
+
+14:52.050 --> 14:54.260
+de la ligne tangente, et il est égal à la pente de la
+
+14:54.260 --> 14:58.720
+ligne tangent, je vais appeler cela la dérivée de f.
+
+14:58.720 --> 15:00.105
+Permettez-moi de vous écrire que vers le bas.
+
+15:00.105 --> 15:05.580
+319 00:15 H 05, 58--&gt; 00:15:10, 65 et je vais vous dire que cela est égal au premier f de x.
+
+15:10.650 --> 15:12.680
+Et cela va être une autre fonction.
+
+15:12.680 --> 15:16.320
+Car Rappelez-vous, les changements de pente à chaque valeur de x.
+
+15:16.320 --> 15:18.640
+Peu importe ce que x-valeur que vous choisissez, la pente est
+
+15:18.640 --> 15:19.260
+va pour être différents.
+
+15:19.260 --> 15:20.880
+N'a pas à être, mais la façon dont j'ai fait cette courbe,
+
+15:20.880 --> 15:21.500
+C'est différent.
+
+15:21.500 --> 15:22.950
+Il peut être différent.
+
+15:22.950 --> 15:27.070
+Maintenant, vous me donner une valeur x ici, je vais appliquer cela
+
+15:27.070 --> 15:30.090
+formule ici, et puis, je peux vous le
+
+15:30.090 --> 15:31.810
+pente à ce moment-là.
+
+15:31.810 --> 15:34.180
+Et tout semble très confuse et peut-être
+
+15:34.180 --> 15:35.810
+Résumé à ce stade.
+
+15:35.810 --> 15:38.030
+Dans la vidéo suivante, je vais le faire réellement un exemple de
+
+15:38.030 --> 15:40.300
+calculer une pente et il va faire tout un
+
+15:40.300 --> 15:42.400
+peu plus concrète.

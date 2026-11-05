@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.463 --> 00:03.293
+You may by now be familiar with the notion
+
+00:03.300 --> 00:06.157
+of evaluating a function
+with a particular value,
+
+00:06.157 --> 00:09.265
+so for example,
+if this table is our function definition,
+
+00:09.265 --> 00:12.935
+if someone were to say,
+"Well, what is f of -9?"
+
+00:12.937 --> 00:16.007
+you could say, okay, if we input -9
+into our function,
+
+00:16.014 --> 00:21.264
+if x is -9, this table tell us
+that f of x is going to be equal to 5.
+
+00:21.264 --> 00:24.711
+You might already have experience
+with doing composite functions,
+
+00:24.711 --> 00:31.521
+where you say, f of f of -9 plus 1.
+
+00:33.447 --> 00:36.033
+So this is interesting,
+it seems very daunting,
+
+00:36.033 --> 00:39.670
+but you say, well we know
+what f of -9 is, this is going to be 5,
+
+00:39.670 --> 00:41.690
+so it's going to be f of 5 plus 1.
+
+00:41.690 --> 00:44.884
+So this is going to be equal to f of 6,
+
+00:44.884 --> 00:49.974
+and if we look at our table,
+f of 6 is equal to -7.
+
+00:49.985 --> 00:52.078
+So all of that is review so far,
+
+00:52.078 --> 00:57.128
+but what I want to now do is
+start evaluating the inverse of functions.
+
+00:57.128 --> 00:59.273
+This function f is invertable,
+
+00:59.273 --> 01:04.203
+because it's a one-to-one mapping
+between the xs and the f of xs.
+
+01:04.217 --> 01:09.637
+No two xs map to the same f of x,
+so this is an invertable function.
+
+01:09.639 --> 01:12.410
+With that in mind,
+let's see if we can evaluate
+
+01:12.410 --> 01:17.980
+something like f inverse of 8.
+
+01:17.987 --> 01:19.425
+What is that going to be?
+
+01:19.425 --> 01:24.315
+I encourage you to pause the video
+and try to think about it.
+
+01:24.315 --> 01:28.404
+So f of x, just as a reminder
+of what functions do,
+
+01:28.404 --> 01:33.284
+f of x is going to map from this domain,
+from a value in its domain
+
+01:33.284 --> 01:38.430
+to a corresponding value in the range.
+
+01:38.441 --> 01:43.561
+So this is what f does,
+this is domain...
+
+01:43.561 --> 01:47.494
+and this right over here is the range.
+
+01:47.494 --> 01:51.742
+Now f inverse, if you pass it,
+the value and the range,
+
+01:51.742 --> 01:56.042
+it'll map it back
+to the corresponding value
+
+01:56.042 --> 01:58.986
+in the domain.
+
+01:58.986 --> 02:01.783
+But how do we think about it like this?
+
+02:01.783 --> 02:05.034
+Well, f inverse of 8,
+this is whatever maps to 8,
+
+02:05.034 --> 02:08.854
+so if this was 8, we'd have to say,
+well, what mapped to 8?
+
+02:08.854 --> 02:14.563
+We see here f of 9 is 8,
+
+02:14.563 --> 02:19.003
+so f inverse of 8
+is going to be equal to 9.
+
+02:24.368 --> 02:30.048
+If it makes it easier,
+we could construct a table,
+
+02:32.691 --> 02:37.613
+where I could say x and f inverse of x,
+
+02:37.613 --> 02:41.734
+and what I'd do is swap
+these two columns.
+
+02:41.734 --> 02:47.584
+f of x goes from -9 to 5,
+f inverse of x goes from 5 to -9.
+
+02:47.584 --> 02:51.709
+All I did was swap these two.
+Now we're mapping from this to that.
+
+02:51.709 --> 02:54.812
+So f inverse of x is going to map
+from 7 to -7.
+
+02:54.812 --> 02:58.143
+Notice, instead of mapping
+from this thing to that thing,
+
+02:58.143 --> 03:01.677
+we're now going to map
+from that thing to this thing.
+
+03:01.677 --> 03:06.086
+So f inverse is going to map
+from 13 to 5.
+
+03:06.086 --> 03:10.710
+It's going to map from -7 to 6.
+
+03:10.710 --> 03:14.987
+It's going to map from 8 to 9,
+
+03:14.987 --> 03:21.137
+and it's going to map from 12 to 11.
+
+03:21.137 --> 03:24.735
+Looks like I got all of them, yep.
+
+03:24.735 --> 03:27.981
+So all I did was swap these columns.
+
+03:27.981 --> 03:30.457
+The f inverse maps from this column
+to that column.
+
+03:30.457 --> 03:33.706
+So I just swapped them out.
+Now it becomes a little clearer.
+
+03:33.706 --> 03:35.458
+You see it right here,
+
+03:35.458 --> 03:40.080
+f inverse of 8,
+if you input 8 into f inverse,
+
+03:40.080 --> 03:41.677
+you get 9.
+
+03:41.677 --> 03:44.527
+Now we can use that
+to start doing fancier things.
+
+03:44.535 --> 03:51.956
+We can evaluate something like
+f of f inverse of 7.
+
+03:54.966 --> 04:01.827
+f of f inverse of 7.
+
+04:01.827 --> 04:04.027
+What is this going to be?
+
+04:04.027 --> 04:06.166
+Let's first evaluate f inverse of 7.
+
+04:06.166 --> 04:11.626
+f inverse of 7 maps from 7 to -7.
+
+04:11.633 --> 04:16.673
+So this is going to be f
+of this stuff in here,
+
+04:18.271 --> 04:22.991
+f inverse of 7, you see,
+is -7.
+
+04:23.002 --> 04:28.332
+And then to evaluate the function,
+f of -7 is going to be 7.
+
+04:28.332 --> 04:31.320
+And that makes complete sense.
+
+04:31.320 --> 04:34.620
+We mapped from f inverse of 7
+to -7
+
+04:34.620 --> 04:40.168
+and evaluating the function of that,
+went back to 7.
+
+04:40.168 --> 04:44.253
+So let's do one more of these
+just to really feel comfortable
+
+04:44.253 --> 04:47.131
+with mapping back-and-forth
+between these two sets,
+
+04:47.131 --> 04:51.299
+between applying the function
+and the inverse of the function.
+
+04:51.299 --> 04:56.049
+Let's evaluate f inverse
+of f inverse of 13.
+
+05:05.759 --> 05:08.761
+f inverse of 13.
+
+05:08.761 --> 05:10.027
+What is that going to be?
+
+05:10.027 --> 05:13.652
+I encourage you to pause the video
+and try to figure it out.
+
+05:13.652 --> 05:16.178
+What's f inverse of 13?
+
+05:16.178 --> 05:20.840
+That's, looking at this table right here,
+f inverse goes from 13 to 5.
+
+05:20.840 --> 05:26.890
+You see it over here, f went from 5 to 13,
+so f inverse is going to go from 13 to 5.
+
+05:26.890 --> 05:31.091
+So, f inverse of 13 is going to be 5,
+
+05:31.091 --> 05:35.911
+so this is the same thing
+as f inverse of 5.
+
+05:35.916 --> 05:42.336
+And f inverse of 5? -9.
+So this is going to be equal to -9.
+
+05:42.336 --> 05:49.027
+Once again, f inverse goes
+from 5 to -9.
+
+05:49.027 --> 05:53.969
+So at first when you start doing
+these functions and inverse of functions
+
+05:53.969 --> 05:57.524
+it looks a little confusing,
+hey, I'm going back and forth,
+
+05:57.524 --> 05:58.925
+but you just have to remember
+
+05:58.925 --> 06:01.960
+a function maps from one set of numbers
+to another set of numbers.
+
+06:01.960 --> 06:04.799
+The inverse of that function
+goes the other way.
+
+06:04.799 --> 06:09.067
+If the function goes from 9 to 8,
+the inverse is going to go from 8 to 9.
+
+06:09.067 --> 06:12.807
+So one way to think about it is,
+you just switch these columns.
+
+06:12.807 --> 06:17.667
+Hopefully, that clarifies
+more things than it confuses.

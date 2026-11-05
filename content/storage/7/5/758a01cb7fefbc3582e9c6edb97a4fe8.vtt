@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.173 --> 00:03.245
+- [Voiceover] Let's say that
+we have an infinite series S
+
+00:03.245 --> 00:06.312
+so that's the sum from n = 1
+
+00:06.312 --> 00:09.356
+to infinity of a sub n.
+
+00:09.356 --> 00:13.011
+We could write it out a sub 1 plus a sub 2
+
+00:13.011 --> 00:16.303
+and we're just going to go on
+and on and on for infinity.
+
+00:16.303 --> 00:19.179
+We're going to go on
+and on and on forever.
+
+00:19.179 --> 00:21.629
+So, let's say, and I've written
+it in very general terms
+
+00:21.629 --> 00:25.740
+let's say we have a formula
+for the partial sums of S.
+
+00:25.740 --> 00:29.604
+We know that S sub n is equal
+
+00:29.604 --> 00:32.411
+to 2n to the third
+
+00:32.411 --> 00:35.609
+over n plus 1
+
+00:35.609 --> 00:38.290
+times n plus 2.
+
+00:38.290 --> 00:41.617
+Now, my question to you is,
+based on what I've just told you
+
+00:41.974 --> 00:43.711
+S is the sum in a very general way written
+
+00:43.711 --> 00:46.364
+this infinite series but
+I have the partial sum.
+
+00:46.364 --> 00:49.807
+The sum of the first n terms of S is given
+
+00:49.807 --> 00:52.667
+by this formula right over here does
+
+00:52.667 --> 00:56.002
+this series converge or diverge?
+
+00:56.002 --> 00:58.942
+Does this thing converge
+to some finite value
+
+00:58.942 --> 01:02.780
+or is it unbounded and does it diverge?
+
+01:02.780 --> 01:05.546
+Well, one way to think about this is
+
+01:07.013 --> 01:11.374
+the idea that our infinite series S
+
+01:11.374 --> 01:15.015
+is just the limit as n approaches
+
+01:15.015 --> 01:18.413
+infinity of our partial sums.
+
+01:18.413 --> 01:19.742
+So, what do we mean by that?
+
+01:19.742 --> 01:22.977
+Well, you could a sequence
+of partial sums here.
+
+01:22.977 --> 01:27.644
+You have S sub 1, S sub 2, S sub 3
+
+01:27.644 --> 01:28.667
+and you keep going so this
+
+01:28.667 --> 01:30.408
+would be the sum of the first term.
+
+01:30.408 --> 01:31.981
+This would be the sum
+of the first 2 terms.
+
+01:31.981 --> 01:34.040
+This would be the sum of the first 3 terms
+
+01:34.040 --> 01:36.396
+and just think about what
+happens to this sequence
+
+01:36.396 --> 01:40.635
+as n right over here
+
+01:40.635 --> 01:43.340
+approaches infinity
+
+01:43.340 --> 01:44.812
+because that's what this series is.
+
+01:44.812 --> 01:47.107
+It's the sum of the first, I guess
+
+01:47.107 --> 01:49.575
+you could say the first, infinite terms.
+
+01:49.575 --> 01:51.574
+It's the sum of all, you have
+
+01:51.574 --> 01:54.461
+an infinite number of terms here.
+
+01:54.477 --> 01:56.067
+Well, let's think about what this.
+
+01:56.067 --> 01:59.910
+The limit is n approaches
+infinity of S sub n.
+
+01:59.910 --> 02:02.109
+That's just going to be
+
+02:03.369 --> 02:06.244
+the limit as n approaches
+
+02:06.244 --> 02:10.206
+infinity of this business right over here.
+
+02:10.206 --> 02:15.206
+2n to the third power over n plus 1
+
+02:17.303 --> 02:20.735
+times n plus 2 and there's
+
+02:20.735 --> 02:22.777
+several ways you could evaluate this.
+
+02:22.777 --> 02:23.942
+One way is you could just realize,
+
+02:23.942 --> 02:25.470
+"Hey, look in the bottom this is going
+
+02:25.470 --> 02:29.108
+"to be a second degree polynomial."
+
+02:29.108 --> 02:30.637
+On up here, you have a third degree
+
+02:30.637 --> 02:32.338
+so the numerator is gonna grow faster
+
+02:32.338 --> 02:34.933
+than the denominator so this
+is going to be unbounded.
+
+02:34.933 --> 02:36.311
+So that will immediately tell you
+
+02:36.311 --> 02:38.135
+well this is gonna approach infinity
+
+02:38.135 --> 02:41.513
+so S is going to
+
+02:42.806 --> 02:44.029
+diverge
+
+02:44.029 --> 02:45.864
+but if you wanna do it a little bit
+
+02:45.864 --> 02:47.539
+less hand wavy than that we can
+
+02:47.539 --> 02:50.004
+actually do a little bit more algebra.
+
+02:50.004 --> 02:54.737
+Limit as n approaches infinity, 2n
+
+02:54.737 --> 02:56.484
+to the third power
+
+02:56.484 --> 02:58.797
+over, let's multiply this out,
+
+02:58.797 --> 03:02.493
+n squared plus 3n
+
+03:02.494 --> 03:04.049
+plus 2
+
+03:04.049 --> 03:05.746
+and, let's see, we can
+divide the numerator
+
+03:05.746 --> 03:08.981
+and the denominator by n squared.
+
+03:08.981 --> 03:11.643
+So, this is going to be the limit
+
+03:11.643 --> 03:14.802
+as n approaches infinity of, if we divide
+
+03:14.802 --> 03:17.040
+the numerator by n squared, you're going
+
+03:17.040 --> 03:19.611
+to have, actually, let's
+divide the numerator
+
+03:19.611 --> 03:23.478
+and, well yeah let's
+divide it by n squared
+
+03:23.478 --> 03:25.705
+so, if we divide the
+numerator by n squared,
+
+03:25.705 --> 03:28.080
+we're gonna have 2n and
+then the denominator
+
+03:28.080 --> 03:29.437
+divided by n squared you're gonna have
+
+03:29.437 --> 03:33.208
+1 plus 3 over n
+
+03:33.208 --> 03:36.545
+plus 2 over n squared.
+
+03:37.537 --> 03:39.341
+Now, when you look at it like this,
+
+03:39.341 --> 03:41.212
+it becomes pretty clear this thing
+
+03:41.212 --> 03:43.239
+as n approaches infinity,
+this thing is gonna
+
+03:43.239 --> 03:45.847
+towards infinity but this thing down here
+
+03:45.847 --> 03:49.106
+the denominator this
+is gonna go towards 0.
+
+03:49.106 --> 03:50.766
+This is gonna go towards 0
+
+03:50.766 --> 03:52.876
+so the denominator's gonna go towards 1.
+
+03:52.876 --> 03:56.275
+So, this whole thing, is the limit
+
+03:56.275 --> 03:59.705
+is gonna go to infinity
+and since the limit
+
+03:59.705 --> 04:02.914
+of the partial sums goes to infinity
+
+04:02.914 --> 04:05.252
+that mean that this infinite series
+
+04:05.252 --> 04:07.044
+is not going to be a finite value.
+
+04:07.044 --> 04:09.276
+It's just going to diverge.
+
+04:09.276 --> 04:12.700
+So, this character right over here
+
+04:12.700 --> 04:14.177
+is going
+
+04:14.177 --> 04:18.003
+to diverge.
+
+04:18.140 --> 04:19.866
+In order for it to have converged,
+
+04:19.866 --> 04:22.410
+this thing should have come, this limit
+
+04:22.410 --> 04:25.107
+should have been some finite value.
+
+04:25.107 --> 04:26.901
+So, hopefully, that makes sense.
+
+04:26.901 --> 04:29.211
+All we say is, "Look, infinite series,
+
+04:29.211 --> 04:31.738
+"we had a formula for the partial sum
+
+04:31.738 --> 04:34.033
+"of the first n terms
+and then we said oh look
+
+04:34.033 --> 04:36.511
+"the series itself, the infinite series,
+
+04:36.511 --> 04:39.335
+"you could view it as a limit of,
+
+04:39.335 --> 04:41.412
+"as n approaches infinity,
+of the partial sum
+
+04:41.412 --> 04:43.905
+"S sub n and we said hey,
+that approach infinity
+
+04:43.905 --> 04:45.846
+"this thing is diverging."

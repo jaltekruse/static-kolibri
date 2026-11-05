@@ -1,0 +1,634 @@
+WEBVTT
+
+00:00.180 --> 00:07.738
+Máme nakreslit graf funkce
+y se rovná 2sin(-x) na intervalu,
+
+00:07.738 --> 00:13.408
+uzavřeném intervalu s
+krajními body -2π a 2π.
+
+00:13.408 --> 00:18.267
+Nejprve si nakreslím
+graf y se rovná sin(x)
+
+00:18.267 --> 00:23.932
+a pak promyslím, jak se změní
+kvůli té dvojce a kvůli minusu u x.
+
+00:23.932 --> 00:27.453
+Začněme funkcí sin(x).
+
+00:27.453 --> 00:36.624
+Nakreslím osu x a osu y.
+
+00:36.624 --> 00:40.524
+Hezky rovně, jde nám hlavně
+o úsek mezi -2π a 2π.
+
+00:40.524 --> 00:43.503
+Takže řekněme, že tohle je -2π.
+
+00:43.503 --> 00:47.991
+A potom tady bude -π.
+
+00:47.991 --> 00:50.861
+Toto je samozřejmě 0.
+
+00:50.861 --> 01:00.735
+Tady máme π a nakonec tady bude 2π.
+
+01:00.735 --> 01:03.741
+Tohle by potom mohlo být 1,
+
+01:03.741 --> 01:08.906
+tady 2, tady -1 a tady -2.
+
+01:08.906 --> 01:11.755
+Teď si to celé ještě okopíruji
+pro pozdější využití,
+
+01:11.755 --> 01:14.037
+kdy použiju tento graf.
+
+01:14.037 --> 01:16.731
+Tenhle graf si tedy zkopíruji.
+
+01:16.731 --> 01:20.944
+Fajn, pojďme se teda podívat na sin(x).
+
+01:20.944 --> 01:23.293
+Jak vypadá sinus v nule?
+
+01:23.293 --> 01:25.408
+Pokud sinus je nula, teda pardon,
+
+01:25.408 --> 01:29.440
+když x je nula, sin(0) se rovná 0.
+
+01:29.440 --> 01:32.328
+Dobře, nakreslím tu malou
+jednotkovou kružnici pro představu.
+
+01:32.328 --> 01:34.362
+To je to, co rád dělám v hlavě,
+
+01:34.362 --> 01:38.984
+když se snažím přijít na hodnotu
+trigonometrické funkce.
+
+01:38.984 --> 01:41.851
+Takže tohle je x, tohle je y.
+
+01:41.851 --> 01:45.094
+Nakreslím jednotkovou kružnici
+
+01:45.094 --> 01:48.953
+a pamatujte, že x tady určuje úhel.
+
+01:48.953 --> 01:53.028
+To je jednotková kružnice s poloměrem 1.
+
+01:53.028 --> 01:54.132
+Pak tento úhel je 0.
+
+01:54.132 --> 01:58.533
+Sinus se rovná hodnotě y tady,
+takže sinus (0) se rovná 0.
+
+01:58.533 --> 02:00.500
+Jak se ale sinus zvětšuje,
+
+02:00.500 --> 02:05.389
+posouváme se nahoru až
+do sin(π/2), což se rovná 1.
+
+02:05.389 --> 02:10.551
+Takže sin(π/2) se rovná 1.
+
+02:10.551 --> 02:14.054
+Potom sin(π) je zase roven 0.
+
+02:14.054 --> 02:18.948
+Sin (3π/2) se rovná -1.
+
+02:18.948 --> 02:21.203
+A nakonec sin(2π) je zase 0.
+
+02:21.203 --> 02:24.045
+Kdybych chtěl zkonstruovat graf,
+
+02:24.045 --> 02:30.106
+podíval bych se, že jsme mezi 0
+a 2pí a zde to vypadá nějak takhle.
+
+02:30.106 --> 02:31.615
+Ale také chceme opačnou stranu
+
+02:31.615 --> 02:39.409
+a když jdeme na druhou
+stranu, v záporných číslech,
+
+02:39.409 --> 02:48.642
+sin(-π/2) je -1.
+
+02:48.642 --> 02:51.593
+Pak pokračujeme dál do -π a do 0.
+
+02:51.593 --> 02:55.596
+-3π lomeno 2… Jdeme takhle dokola,
+
+02:55.596 --> 02:59.290
+to nás dostane zpět tam,
+kde se sinus rovná 1.
+
+02:59.290 --> 03:00.573
+Tedy sinus je roven 1.
+
+03:00.573 --> 03:06.507
+A potom jdeme o 2π zpět,
+sinus se opět rovná 0.
+
+03:06.507 --> 03:09.148
+Takže ta křivka bude vypadat nějak takto.
+
+03:09.148 --> 03:16.688
+…na záporné straně, od -2π do 0.
+
+03:16.688 --> 03:20.431
+A to odpovídá všemu
+ostatnímu, co víme o sinu.
+
+03:20.431 --> 03:23.282
+Perioda sin(x)…
+
+03:23.282 --> 03:24.023
+Co tady vidíme.
+
+03:24.023 --> 03:25.518
+Tady máme koeficient 1,
+
+03:25.518 --> 03:28.892
+takže perioda bude 2π děleno
+absolutní hodnotou z 1,
+
+03:28.892 --> 03:31.174
+což je, očividně, rovno 2π.
+
+03:31.174 --> 03:33.566
+Anebo je vidět přímo na
+obrázku, že perioda je 2π.
+
+03:33.566 --> 03:41.870
+Musíme ujít délku 2π, aby se tam
+vešel ten malý opakující se vzor.
+
+03:41.870 --> 03:43.788
+A jaká je amplituda?
+
+03:43.788 --> 03:46.058
+No, běhá to mezi -1 a 1.
+
+03:46.058 --> 03:49.983
+Rozdíl mezi minimem a maximem je 2.
+
+03:49.983 --> 03:51.282
+Z toho polovina je 1.
+
+03:51.282 --> 03:52.869
+A jiný způsob, jak to chápat, je,
+
+03:52.869 --> 03:58.097
+že od prostředka to kolísá o 1.
+
+03:58.097 --> 04:00.502
+Takže to bylo celkem jasné.
+
+04:00.502 --> 04:02.044
+Teď to trochu pozměňme.
+
+04:02.044 --> 04:13.511
+Teď uděláme graf y se rovná 2sin(x).
+
+04:13.511 --> 04:20.336
+Nakreslím sem malé osy.
+
+04:20.336 --> 04:21.920
+Dám to přímo pod to.
+
+04:21.920 --> 04:30.226
+Takže co se stane, když
+máme y rovno 2sin(x),
+
+04:30.226 --> 04:34.438
+jak se ten graf změní?
+
+04:34.438 --> 04:39.416
+My jsme tu funkci jen vynásobili 2,
+
+04:39.416 --> 04:43.220
+takže ať tu je jakákoli hodnota,
+tak teď bude o 2 větší.
+
+04:43.220 --> 04:45.578
+Takže 2 krát 0 je 0.
+
+04:45.578 --> 04:48.205
+2 krát 1 je teď 2.
+
+04:48.205 --> 04:49.072
+2 krát 1 je 2.
+
+04:49.072 --> 04:50.506
+2 krát 0 je…
+
+04:50.506 --> 04:51.864
+Musím být opatrný.
+
+04:51.864 --> 04:54.712
+2 krát 1 je 2.
+
+04:54.712 --> 04:56.214
+Tohle je pí/2.
+
+04:56.214 --> 04:58.114
+2 krát 0 je 0.
+
+04:58.114 --> 05:04.726
+2 krát -1 je -2.
+
+05:04.726 --> 05:06.856
+2 krát 0 je 0.
+
+05:06.856 --> 05:09.550
+Takže to vypadá nějak takhle.
+
+05:09.550 --> 05:17.522
+Mezi 0 a 2π to vypadá nějak takhle.
+
+05:17.522 --> 05:20.026
+A jdeme dál do záporného směru.
+
+05:20.026 --> 05:25.016
+2 krát -1 je -2.
+
+05:25.016 --> 05:27.348
+2 krát 0 je 0.
+
+05:27.348 --> 05:30.557
+2 krát 1 je 2.
+
+05:30.557 --> 05:31.889
+2 krát 0 je 0.
+
+05:31.889 --> 05:36.230
+Takže v záporné části
+to vypadá nějak takhle.
+
+05:36.230 --> 05:39.255
+Můj nejlepší pokus o hezkou křivku.
+
+05:39.255 --> 05:41.386
+Snad to z toho chápete.
+
+05:41.386 --> 05:43.605
+Takže to bude vypadat nějak takto.
+
+05:43.605 --> 05:45.230
+Takže co se zrovna stalo?
+
+05:45.230 --> 05:51.611
+Rozdíl mezi minimem a maximem vyrostl o 2,
+
+05:51.611 --> 05:56.052
+celkem je ten rozdíl 4,
+polovina z toho je 2.
+
+05:56.052 --> 05:58.648
+Takže jaká je tady amplituda?
+
+05:58.648 --> 06:03.871
+Amplituda je 2.
+
+06:03.871 --> 06:08.274
+Je to vlastně absolutní hodnota z 2.
+
+06:08.274 --> 06:10.852
+Dává smysl, že amplituda byla nejdřív 1,
+
+06:10.852 --> 06:14.063
+ale teď z té střední pozice
+běháme dvakrát dál,
+
+06:14.063 --> 06:17.453
+protože se to násobí 2.
+
+06:17.453 --> 06:23.280
+A teď se vraťme k sin(x)
+a změňme to jinak.
+
+06:23.280 --> 06:26.580
+Udělejme graf sin(-x).
+
+06:26.580 --> 06:31.156
+Znovu sem vložím základ pro graf.
+
+06:31.156 --> 06:39.206
+A mým cílem teď je udělat
+graf funkce y se rovná sin(-x),
+
+06:39.206 --> 06:42.503
+takže jsme se aspoň
+na chvíli zbavili té 2.
+
+06:42.503 --> 06:46.518
+A půjdu ze sin(x) rovnou na sin(-x).
+
+06:46.518 --> 06:50.182
+Teď promysleme, jaké budou ty hodnoty.
+
+06:50.182 --> 06:55.618
+Když x je 0, tak to bude sin(0), což je 0.
+
+06:55.618 --> 07:01.275
+Ale když x stoupá, co
+se stane, když x je π/2?
+
+07:01.275 --> 07:03.287
+Ten úhel, který dáváme do sinu,
+
+07:03.287 --> 07:04.750
+budeme násobit -1,
+
+07:04.750 --> 07:06.501
+takže když x je pí/2,
+
+07:06.501 --> 07:09.948
+tak pak bereme sin(-π/2).
+
+07:09.948 --> 07:16.040
+A co je sin(-π/2), můžeme
+vidět tady, je to -1.
+
+07:16.040 --> 07:18.105
+Je to -1.
+
+07:18.105 --> 07:24.248
+A když x je pí, tak sin(-π) je 0.
+
+07:24.248 --> 07:32.261
+Když x je 3π/2, tak to
+bude sin(-3π/2), což je 1.
+
+07:32.261 --> 07:39.225
+A znovu, když x je 2π,
+bude to sin(-2π), což je 0.
+
+07:39.225 --> 07:44.643
+Takže všimněte si, co se stalo,
+když jsem dělal graf mezi 0 a 2π.
+
+07:44.643 --> 07:48.064
+Stále jsem odkazoval na
+body v záporném směru,
+
+07:48.064 --> 07:56.150
+takže si dokážete představit, jak
+bereme tuhle část mezi 0 a -2π
+
+07:56.150 --> 07:59.235
+a pak ji přetáčíme, abychom dostali tohle.
+
+07:59.235 --> 08:01.877
+Vypadá to, že -x dělá tohle.
+
+08:01.877 --> 08:05.079
+A když půjdeme do záporné části,
+tak podle stejné logiky řekneme,
+
+08:05.079 --> 08:13.464
+že když x je -π/2, tak to bude
+sin(π/2), takže to bude rovno 1.
+
+08:13.464 --> 08:17.637
+A můžeme to přehodit přes osu y,
+
+08:17.637 --> 08:20.482
+takže nakonec jsme to převrátili…
+
+08:20.482 --> 08:26.543
+Udělali jsme zrcadlový obraz
+funkce sin(x) podle osy y.
+
+08:26.543 --> 08:37.760
+Takže jsme to převrátili přes osu y.
+
+08:37.760 --> 08:41.640
+Tohle je osa y, takže snad dobře
+vidíte ten zrcadlový obraz,
+
+08:41.640 --> 08:46.888
+tohle udělalo -x.
+
+08:46.888 --> 08:50.037
+A teď se zamysleme nad tou kombinací.
+
+08:50.037 --> 08:53.365
+Když je vepředu 2 a tady je -x…
+
+08:53.365 --> 08:58.192
+Dám tam znovu ten základ pro grafy.
+
+08:58.192 --> 09:02.591
+A teď zkusíme udělat to, co po nás chtějí.
+
+09:02.591 --> 09:03.703
+Udělám to v nové barvě.
+
+09:03.703 --> 09:04.745
+Udělám to modře.
+
+09:04.745 --> 09:16.912
+A teď uděláme graf y se rovná 2sin(-x).
+
+09:16.912 --> 09:19.269
+Na základě toho, co jsme už udělali,
+
+09:19.269 --> 09:20.430
+jak bude tohle vypadat?
+
+09:20.430 --> 09:23.635
+Jaké úpravy budeme dělat,
+
+09:23.635 --> 09:32.558
+když jdeme z původního sin(x) do 2sin(-x)?
+
+09:32.558 --> 09:34.522
+Jsou dva způsoby, jak to chápat.
+
+09:34.522 --> 09:36.693
+Můžeme vzít 2sin(x),
+
+09:36.693 --> 09:40.511
+tady to teda násobíme 2 a
+máme dvakrát větší amplitudu.
+
+09:40.511 --> 09:46.538
+A můžeme říct, že to
+přehodíme, abychom dostali -x.
+
+09:46.538 --> 09:48.253
+A když to uděláme, tak…
+
+09:48.253 --> 09:50.458
+Ujasním, co tu přehazuji.
+
+09:50.458 --> 09:57.078
+Když vezmu to mezi 0 a -2π a přehodím to,
+
+09:57.078 --> 10:03.290
+tak co bylo tady, se zrcadlově
+zobrazí podle osy y, a pak máme…
+
+10:03.290 --> 10:13.274
+Nejdřív jdeme do záporu a pak zpět
+do 0 a pak do kladného a pak sem.
+
+10:13.274 --> 10:16.708
+Takže abych se dostal
+z 2sin(x) do 2sin(-x),
+
+10:16.708 --> 10:20.061
+tak jsem to jen přehodil přes osu y.
+
+10:20.061 --> 10:23.606
+A pak pro to, co je mezi 0 a -2π,
+
+10:23.606 --> 10:25.960
+se musíte podívat mezi 0 a 2π.
+
+10:25.960 --> 10:29.772
+Takže to půjde nahoru, nahoru a dolů…
+
+10:29.772 --> 10:32.540
+Udělám to lépe, nakreslím to pečlivěji.
+
+10:32.540 --> 10:37.121
+A pak dolů a nahoru,
+
+10:37.121 --> 10:40.673
+takže to je obraz toho,
+co bylo mezi 0 a 2π.
+
+10:40.673 --> 10:42.640
+A tady to je vidět.
+
+10:42.640 --> 10:46.740
+Nebo když začnete se
+sin(-x) a jdete na 2sin(-x)…
+
+10:46.740 --> 10:52.083
+tak si všimněte, co se tam stalo.
+
+10:52.083 --> 10:55.610
+Jaký je rozdíl mezi tímto a tímto grafem?
+
+10:55.610 --> 10:57.370
+No máme jen dvakrát větší amplitudu,
+
+10:57.370 --> 11:04.885
+tohle násobíme 2, takže
+amplituda je dvakrát větší.
+
+11:04.885 --> 11:07.887
+Takže poslední otázka, co pro vás mám:
+
+11:07.887 --> 11:17.286
+Jak se perioda funkce 2sin(-x)
+vztahuje k periodě sin(x)?
+
+11:17.286 --> 11:20.060
+Můžeme nad tím přemýšlet
+dvěma způsoby, mohli bychom…
+
+11:20.060 --> 11:23.191
+No, nejdřív vás vlastně
+nechám se nad tím zamyslet.
+
+11:23.191 --> 11:24.961
+Jsou tedy dva způsoby, jak to chápat.
+
+11:24.961 --> 11:27.220
+Můžete odkázat na tyto grafy
+
+11:27.220 --> 11:31.573
+nebo můžete vytáhnout ten vzorec,
+který je teď pro vás snad intuitivní.
+
+11:31.573 --> 11:34.874
+Když to budete chtít dělat
+podle klasického vzorce,
+
+11:34.874 --> 11:40.124
+tak perioda je 2π a dělíme to
+absolutní hodnotou koeficientu,
+
+11:40.124 --> 11:43.729
+abychom zjistili, kolikrát
+rychleji se dostaneme do 2π.
+
+11:43.729 --> 11:53.130
+Takže absolutní hodnota
+z -1 je 1, takže máme 2π.
+
+11:53.130 --> 11:58.493
+Takže máme stejnou
+periodu, jako byla u sin(x).
+
+11:58.493 --> 12:07.683
+A vidíte, že každých 2π
+dokončíte ten cyklus.
+
+12:07.683 --> 12:09.235
+A jaký je tedy rozdíl?
+
+12:09.235 --> 12:10.271
+No perioda je stejná.
+
+12:10.271 --> 12:13.590
+Ale pamatujte, že ten zápor
+u ,x' tam není úplně ignorovaný.
+
+12:13.590 --> 12:17.583
+Nemění to periodu, ale
+mění to vzhled grafu.
+
+12:17.583 --> 12:19.564
+Když zvyšujete x, tak místo toho,
+
+12:19.564 --> 12:25.095
+aby byl sinus kladný jako
+u tradiční sinusové funkce,
+
+12:25.095 --> 12:28.736
+tady jak x roste, tak bereme sin(-x).
+
+12:28.736 --> 12:31.076
+Bereme sinus záporného úhlu.
+
+12:31.076 --> 12:37.279
+A proto začínáme se zápornými hodnotami
+sinu a to je taky druhý způsob přemýšlení.
+
+12:37.279 --> 12:40.598
+Je to jen zrcadlový obraz
+sin(x) podle osy y.
+
+12:40.598 --> 12:43.724
+Tyhle jsou zrcadlový obraz a tyhle taky.
+
+12:43.724 --> 12:46.746
+Tohle má dvakrát amplitudu tohoto
+
+12:46.746 --> 12:50.816
+a tohle má dvakrát amplitudu tohoto.

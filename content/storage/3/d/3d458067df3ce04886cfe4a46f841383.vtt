@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.375 --> 00:01.769
+In der Tabelle hier sehen wir
+
+00:01.769 --> 00:03.580
+für ein gegebenes n, bei n=1
+
+00:03.580 --> 00:06.482
+ist f(n)=12, bei n=2 ist f(n)=5,
+
+00:06.482 --> 00:08.812
+bei n=3 ist f(n)=-2,
+
+00:08.822 --> 00:10.476
+bei n=4 ist f(n) ist f(n)=-9.
+
+00:11.536 --> 00:12.681
+Eine Möglichkeit ist, dass die Funktion "f" eine Folge beschreibt,
+
+00:12.681 --> 00:15.445
+Eine Möglichkeit ist, dass die Funktion "f" eine Folge beschreibt,
+
+00:15.445 --> 00:19.392
+bei der der erste Term 12 ist.
+
+00:19.392 --> 00:22.712
+Der zweite Term dieser Folge ist 5,
+
+00:22.712 --> 00:25.939
+der dritte Term ist -2,
+
+00:25.939 --> 00:29.097
+der vierte Term ist -9.
+
+00:29.097 --> 00:30.514
+Und so weiter...
+
+00:30.514 --> 00:33.834
+Es fällt auf, dass dies eine arithmetische Folge ist.
+
+00:33.834 --> 00:36.411
+Wir beginnen mit einer 12, und dann...
+
+00:36.411 --> 00:38.942
+Was haben wir getan? 7 subtrahiert.
+
+00:38.942 --> 00:41.860
+Vom zweiten zum dritten Term...
+
+00:41.860 --> 00:43.915
+Was tun wir? Wir subtrahieren 7.
+
+00:43.915 --> 00:47.185
+Jeder Term ist also um 7 kleiner als der vorherige.
+
+00:47.185 --> 00:50.436
+Mit diesem Wissen kann man nun die Funktion von n eindeutig definieren.
+
+00:50.436 --> 00:55.358
+Mit diesem Wissen kann man nun die Funktion von n eindeutig definieren.
+
+00:55.358 --> 00:57.958
+Also eine Funktionsdefinition aufstellen.
+
+00:57.958 --> 01:00.907
+Ich möchte also "f(n) gleich..." ermitteln.
+
+01:00.907 --> 01:03.183
+Ich möchte wissen, wie das hier heißen muss, um bei Einsetzen von n das entsprechende
+
+01:03.183 --> 01:05.249
+Ich möchte wissen, wie das hier heißen muss, um bei Einsetzen von n das entsprechende
+
+01:05.249 --> 01:06.898
+f(n) zu erhalten.
+
+01:08.888 --> 01:10.195
+Schauen wir es uns an.
+
+01:12.679 --> 01:14.815
+Der erste Term ist 12.
+
+01:16.115 --> 01:21.115
+Dann ziehen wir 7 ab.
+
+01:22.906 --> 01:23.941
+Wie oft ziehen wir nun 7 ab?
+
+01:23.941 --> 01:25.287
+Wie oft ziehen wir nun 7 ab?
+
+01:25.287 --> 01:28.608
+Beim ersten Term ziehen wir 0 mal 7 ab.
+
+01:28.608 --> 01:29.745
+Also bleibt einfach 12.
+
+01:29.745 --> 01:32.996
+Beim zweiten ziehen wir einmal 7 ab.
+
+01:32.996 --> 01:37.925
+Beim dritten ziehen wir zweimal 7 ab.
+
+01:38.345 --> 01:41.657
+Und beim vierten dreimal 7.
+
+01:41.657 --> 01:44.373
+Wir subtrahieren also bei jedem Term 7(n-1),
+
+01:44.373 --> 01:47.345
+Wir subtrahieren also bei jedem Term 7(n-1),
+
+01:47.345 --> 01:50.433
+also 7 mal (aktueller Term minus 1).
+
+01:50.433 --> 01:52.520
+also 7 mal (aktueller Term minus 1).
+
+01:52.520 --> 01:55.509
+Also n minus 1.
+
+01:55.509 --> 01:57.028
+Probieren wir das aus.
+
+01:57.028 --> 02:00.905
+f(1) ist 12 minus 7 mal 1 minus 1, das ergibt 0.
+
+02:00.905 --> 02:02.461
+f(1) ist 12 minus 7 mal 1 minus 1, das ergibt 0.
+
+02:02.461 --> 02:04.365
+Das alles ist dann also 12.
+
+02:04.365 --> 02:06.756
+f(2) ist gleich 12 minus 7,
+
+02:06.756 --> 02:08.637
+mal 2 minus 1.
+
+02:08.637 --> 02:12.236
+Also 12 minus 7 mal 1.
+
+02:12.236 --> 02:14.442
+Wir subtrahieren also einmal 7,
+
+02:14.442 --> 02:15.556
+was genau der Fall ist.
+
+02:15.556 --> 02:17.785
+Wir beginnen mit 12, subtrahieren einmal 7.
+
+02:17.785 --> 02:20.641
+Wir können es für f(3) testen.
+
+02:20.641 --> 02:23.660
+12 minus -- nun ziehen wir zweimal 7 ab.
+
+02:23.660 --> 02:26.841
+3 minus1 ist 2.
+
+02:26.841 --> 02:29.000
+Also subtrahieren wir zweimal 7.
+
+02:29.000 --> 02:31.369
+Das ist also richtig.
+
+02:31.369 --> 02:33.412
+Wir haben diese Funktion bzw. "f" für diese Folge eindeutig definiert.
+
+02:33.412 --> 02:37.150
+Wir haben diese Funktion bzw. "f" für diese Folge eindeutig definiert.
+
+02:37.150 --> 02:39.170
+Machen wir noch ein Beispiel.
+
+02:40.600 --> 02:43.535
+In diesem Fall haben wir hier bereits einige Funktionsdefinitionen.
+
+02:43.535 --> 02:45.579
+In diesem Fall haben wir hier bereits einige Funktionsdefinitionen.
+
+02:45.579 --> 02:47.204
+Die Folge ist hier in der Tabelle zu sehen.
+
+02:47.204 --> 02:48.643
+Die Folge ist hier in der Tabelle zu sehen.
+
+02:48.643 --> 02:51.592
+Der erste Term ist -100.
+
+02:51.592 --> 02:54.541
+Der nächste ist -50, der nächste 0, der nächste 50.
+
+02:54.541 --> 02:56.143
+Der nächste ist -50, der nächste 0, der nächste 50.
+
+02:56.143 --> 02:57.722
+Auch das hier ist eindeutig eine arithmetische Folge.
+
+02:57.722 --> 02:59.022
+Auch das hier ist eindeutig eine arithmetische Folge.
+
+02:59.022 --> 03:04.022
+Wir beginnen bei -100, addieren 50.
+
+03:04.436 --> 03:07.747
+Addieren nochmals 50,
+
+03:07.747 --> 03:10.437
+und nochmals 50.
+
+03:10.437 --> 03:12.118
+Jeder Term ist also um 50 größer als der vorherige.
+
+03:12.118 --> 03:14.184
+Ich möchte, dass ihr das Video pausiert und euch überlegt, welche dieser Definitionen
+
+03:14.184 --> 03:16.529
+Ich möchte, dass ihr das Video pausiert und euch überlegt, welche dieser Definitionen
+
+03:16.529 --> 03:18.619
+auf die Funktion "f" zutrifft.
+
+03:18.619 --> 03:20.012
+Es kann mehr als eine sein.
+
+03:21.862 --> 03:23.542
+Also, fangen wir an.
+
+03:23.542 --> 03:26.212
+Bei dieser Definition hier oben kann man sagen, dass ich bei -100 beginne.
+
+03:26.222 --> 03:27.232
+Bei dieser Definition hier oben kann man sagen, dass ich bei -100 beginne.
+
+03:27.232 --> 03:30.186
+Bei dieser Definition hier oben kann man sagen, dass ich bei -100 beginne.
+
+03:30.186 --> 03:33.109
+Und ich addiere 50, (n-1)-mal.
+
+03:33.109 --> 03:34.814
+Macht das Sinn?
+
+03:34.844 --> 03:38.542
+Nun, beim ersten Term, -100, wollen wir überhaupt nicht 50 addieren.
+
+03:38.542 --> 03:40.260
+Nun, beim ersten Term, -100, wollen wir überhaupt nicht 50 addieren.
+
+03:40.260 --> 03:42.884
+Wir wollen 0 mal 50 addieren, das passt.
+
+03:42.884 --> 03:45.925
+1 minus 1 ist gleich 0.
+
+03:45.925 --> 03:48.154
+Es stimmt also für n=1.
+
+03:48.154 --> 03:50.755
+Für n=2 beginnt man bei -100.
+
+03:50.755 --> 03:55.144
+Ich möchte 50 einmal addieren.
+
+03:56.464 --> 03:57.854
+Das hier sollte eine 1 sein.
+
+03:57.854 --> 03:59.880
+2 minus 1, ja, das ist eine 1!
+
+03:59.880 --> 04:02.504
+Wir addieren 50. Egal, was diese Zahl ist,
+
+04:02.504 --> 04:04.106
+was "n" ist, wir addieren 50,
+
+04:04.106 --> 04:07.310
+1 weniger als die Anzahl n´s.
+
+04:07.310 --> 04:09.539
+Hier addieren wir also zweimal 50.
+
+04:09.539 --> 04:12.372
+Bei n=4 addieren wir 50 dreimal.
+
+04:12.372 --> 04:14.253
+Diese hier passt also.
+
+04:14.253 --> 04:16.830
+Bei n=4 addieren wir 50,
+
+04:16.830 --> 04:18.989
+4 minus 1, mal 3.
+
+04:18.989 --> 04:22.844
+-100, plus 50 mal 3.
+
+04:22.844 --> 04:24.655
+Wir addieren 50 dreimal,
+
+04:24.655 --> 04:26.860
+50 plus 50 plus 50.
+
+04:26.860 --> 04:30.413
+Das ergibt dann 50. Diese hier ist korrekt.
+
+04:30.413 --> 04:32.038
+Schauen wir uns nun diese hier an.
+
+04:32.038 --> 04:34.964
+-150 plus 50n.
+
+04:35.994 --> 04:37.982
+Nun, das ist eine Möglichkeit zu sagen:
+
+04:37.982 --> 04:41.233
+Bei n=1 ist es gleich -...
+
+04:41.233 --> 04:43.392
+Zeichnen wir dafür besser eine Tabelle.
+
+04:43.392 --> 04:46.736
+Wir haben "n" und "f(n)".
+
+04:47.816 --> 04:49.336
+Die brauchen wir für diese Definition hier.
+
+04:49.336 --> 04:54.336
+Bei n=1 haben wir also -150 plus 50,
+
+04:54.886 --> 04:59.493
+was -100 ergibt, das passt also auch.
+
+04:59.493 --> 05:02.548
+Bei n=2 erhalten wir -150,
+
+05:02.548 --> 05:07.354
+plus 50 mal 2, was dann --
+
+05:07.354 --> 05:10.451
+das hier ist 100 und hier -150,
+
+05:10.451 --> 05:12.138
+-- also erhalten wir -50.
+
+05:12.138 --> 05:15.179
+Bei n=3, das passt dann natürlich auch,
+
+05:15.179 --> 05:18.792
+erhalten wir -150,
+
+05:18.792 --> 05:21.959
+plus 50 mal 3, was gleich 0 ist.
+
+05:21.959 --> 05:22.911
+Das stimmt auch.
+
+05:22.911 --> 05:24.513
+Diese Definiton trifft also auch zu.
+
+05:24.513 --> 05:25.930
+Und das, obwohl diese beiden Definitionen unterschiedlich aussehen.
+
+05:25.930 --> 05:27.160
+Und das, obwohl diese beiden Definitionen unterschiedlich aussehen.
+
+05:27.160 --> 05:29.041
+Man kann sie jedoch algebraisch umformen, um zu sehen, dass die beiden identisch sind.
+
+05:29.041 --> 05:33.100
+Man kann sie jedoch algebraisch umformen, um zu sehen, dass die beiden identisch sind.
+
+05:33.100 --> 05:34.405
+Bei der ersten haben wir -100, plus -- wir teilen diese 50 auf,
+
+05:34.405 --> 05:38.189
+Bei der ersten haben wir -100, plus -- wir teilen diese 50 auf,
+
+05:38.189 --> 05:42.926
+plus 50n minus 50.
+
+05:44.966 --> 05:49.966
+-100 minus 50, das ergibt -150.
+
+05:50.844 --> 05:52.399
+Und dann haben wir plus 50n.
+
+05:52.399 --> 05:54.535
+Diese beiden sind also algebraisch vollkommen identische Definitionen unserer Funktion.
+
+05:54.535 --> 05:56.717
+Diese beiden sind also algebraisch vollkommen identische Definitionen unserer Funktion.
+
+05:56.717 --> 05:58.018
+Wie sieht es hier aus?
+
+05:58.018 --> 06:01.060
+-100 plus 50n, funktioniert das?
+
+06:01.060 --> 06:03.475
+Schauen wir, bei n=1,
+
+06:03.475 --> 06:08.304
+hätten wir -100 plus 50, was -50 ergibt.
+
+06:08.304 --> 06:09.744
+Das passt nicht.
+
+06:09.744 --> 06:11.230
+Wir benötigen hier -100.
+
+06:11.230 --> 06:14.527
+Diese hier ist also nicht korrekt.

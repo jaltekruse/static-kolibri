@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+Trong video này, mình muốn bạn làm quen với khái niệm về giới hạn, đó là một khái niệm cực kỳ quan trọng.
+
+00:07.132 --> 00:10.813
+Nó thực sự là khái niệm nền tảng của giải tích.
+
+00:10.828 --> 00:17.036
+Nhưng mặc dù quan trọng như vậy, nó lại là một khái niệm cực kỳ, cực kỳ, cực kỳ đơn giản.
+
+00:17.036 --> 00:21.075
+Để mình vẽ một hàm số ở đây, đúng hơn là để mình định nghĩa một hàm số
+
+00:21.075 --> 00:32.800
+ở đây, một loại hàm số đơn giản. Ta sẽ định nghĩa f (x), giả sử f (x) là x trừ một chia cho x trừ một.
+
+00:32.800 --> 00:36.084
+Và bạn có lẽ sẽ nói, này Sal, nhìn xem, mình có tử và mẫu giống nhau.
+
+00:36.084 --> 00:42.421
+Nếu cái gì đó chia cho chính nó, kết quả sẽ bằng một. Sao mình không thể đơn giản hàm số này thành f(x) bằng một?
+
+00:42.421 --> 00:47.944
+Câu trả lời của mình là, bạn gần đúng rồi đó, sự khác biệt giữa f (x) bằng một và hàm số này là
+
+00:47.944 --> 00:57.638
+hàm số này không bao giờ bằng, hàm số không xác định khi x bằng một. Vì nếu bạn đặt, để tôi viết ra ngay đây. Nếu bạn có
+
+00:57.653 --> 01:07.267
+f(1), điều gì sẽ xảy ra? Ở tử số, ta có một trừ một, để mình viết xuống,
+
+01:07.267 --> 01:14.605
+tử số bằng 0. Còn mẫu số, bạn có một trừ một, cũng bằng 0. Bất cứ thứ gì chia
+
+01:14.605 --> 01:26.764
+cho 0, bao gồm cả 0/0, đều không xác định. Vì vậy, bạn có thể đơn giản hàm số này.
+
+01:26.764 --> 01:36.867
+Bạn có thể nói nó tương tự như f (x) bằng một, nhưng bạn phải thêm điều kiện x khác một. Vậy hàm này
+
+01:36.867 --> 01:43.133
+và hàm này tương đương. Cả hai hàm sẽ bằng một, với mọi x khác 1. Nhưng
+
+01:43.133 --> 01:51.340
+tại x bằng 1, nó không xác định. Cái này là không xác định và cái này cũng vậy. Vậy mình vẽ đồ thị hàm số thế nào?
+
+01:51.340 --> 02:10.496
+Để mình vẽ nó. Đó là trục y=f(x), còn đây là trục x,
+
+02:10.496 --> 02:22.799
+đây là điểm x bằng 1, còn đây là x bằng âm 1, đây là y bằng 1, ngay đây mình có thể ghi vào âm 1 nhưng nó
+
+02:22.799 --> 02:28.267
+không liên quan lắm đến hàm số này, để mình vẽ nó. Về cơ bản với
+
+02:28.267 --> 02:42.600
+bất kỳ x khác 1, f (x) đều bằng 1. Vậy nó sẽ như thế này. Ngoại trừ 1 vì tại 1, f (x) không xác định, vì vậy
+
+02:42.600 --> 02:47.800
+mình sẽ chừa khoảng trống nhỏ ngay đây, vòng tròn này, để biểu thị rằng hàm số này
+
+02:47.800 --> 02:52.400
+là không xác định. Ta không biết hàm số này bằng gì tại 1, ta không xác định được nó.
+
+02:52.400 --> 03:00.333
+Định nghĩa này của hàm số này không cho ta biết phải làm gì với 1, đúng là không xác định tại x bằng 1.
+
+03:00.333 --> 03:09.113
+Ta có hàm số ở đây, và một lần nữa, nếu ai đó hỏi bạn f(1) bằng gì, hãy trả lời
+
+03:09.113 --> 03:14.467
+đây là một hàm số, x bằng 1. Khoan, đợi đã, có một khoảng trống trong hàm số của mình
+
+03:14.467 --> 03:21.148
+ngay đây, nó không xác định. Vì vậy, để mình viết lại lần nữa. Hơi rườm rà nhưng không sao để mình viết lại,
+
+03:21.148 --> 03:30.313
+f(1) không xác định. Nhưng mình hỏi bạn, hàm số sẽ tiếp cận gì
+
+03:30.313 --> 03:44.708
+khi x bằng 1? Giờ ta bắt đầu đi tới khái niệm về giới hạn. Như vậy khi x tiến càng lúc càng gần tới 1,
+
+03:44.708 --> 03:51.837
+hàm số sẽ tiếp cận cái gì? Ở toàn bộ khoảng này, nò sẽ tiến càng lúc càng gần đến gì?
+
+03:51.837 --> 03:58.909
+Về phía trái, không cần biết bạn gần 1 thế nào, miễn là bạn không tiến tới 1, f (x) sẽ bằng 1.
+
+03:58.909 --> 04:04.790
+Trên đây từ phía bên phải, cũng tương tự vậy. Và bạn sẽ thấy
+
+04:04.790 --> 04:10.631
+mình càng ngày càng quen với khái niệm này khi làm thêm nhiều ví dụ nữa - đó là giới hạn tại
+
+04:10.631 --> 04:24.933
+x (gọi là L-I-M, viết tắt của limit) - khi x tiến tới 1 của f(x) bằng
+
+04:24.933 --> 04:29.311
+Khi chúng ta tiến gần, gần vô cùng tới 1, miễn là không bằng 1
+
+04:29.311 --> 04:33.190
+Và hàm số của ta sẽ bằng 1, càng lúc càng gần bằng 1,
+
+04:33.190 --> 04:39.684
+nó gần như là hoàn toàn bằng 1. Vậy trong trường hợp này, ta có thể nói giới hạn khi x tiến tới 1 của hàm f(x)
+
+04:39.684 --> 04:42.500
+là 1. Và một lần nữa,
+
+04:42.500 --> 04:45.316
+hàm số sẽ tiến tới gì khi x tiến tới 1?
+
+04:48.133 --> 04:54.021
+Hãy để mình làm ví dụ khác, ta sẽ làm bài về đường cong, để bạn có cái nhìn tổng quát.
+
+04:54.021 --> 05:02.533
+Giả như mình có hàm f(x), để cho đa dạng, mình đặt nó là g(x).
+
+05:02.533 --> 05:09.852
+Giả sử ta có hàm g(x) bằng với - mình có thể ghi thế này, ta có thể ghi nó bằng x bình
+
+05:09.852 --> 05:26.082
+khi x khác 2, và giả sử khi x bằng 2, nó sẽ bằng 1. Do vậy, một dạng
+
+05:26.082 --> 05:34.133
+hàm số thú vị như bạn thấy đó, nó không liên tục. Nó bị gián đoạn. Để mình vẽ nó.
+
+05:34.133 --> 05:48.225
+Và đây là trục y=f(x), đây là trục x. Giả sử đây là x bằng 1, đây là x bằng 2,
+
+05:48.225 --> 06:01.825
+Đây là âm 1, đây là âm 2. Để mình vẽ nó. Ngoại trừ x bằng 2, hàm số là x bình. Mình sẽ vẽ nó thế này.
+
+06:01.825 --> 06:08.636
+Nó sẽ có hình parabol, trông như thế này.
+
+06:08.636 --> 06:18.308
+Để mình vẽ một hình parabol đẹp hơn. Và nó trông giống như thế này, không phải hình
+
+06:18.308 --> 06:24.341
+parabol đẹp nhất trong lịch sử, nhưng mình nghĩ nó sẽ giúp bạn hình dung hình parabol
+
+06:24.341 --> 06:32.991
+trông như thế nào, hy vọng là vậy. Nó nên đối xứng nhau. Để mình vẽ lại, vì nó hơi xấu.
+
+06:32.991 --> 06:38.467
+Trông tốt hơn rồi đấy, được rồi, ok.
+
+06:38.467 --> 06:48.867
+Đây là đồ thị của x bình, nhưng nó không phải là x bình khi x bằng 2. Một lần nữa, khi x bằng 2,
+
+06:48.867 --> 06:55.428
+hàm số không liên tục ở đây, do đó, mình sẽ vẽ một khoảng trống ngay đó,
+
+06:55.428 --> 07:00.478
+bởi vì khi x bằng 2, hàm số bằng 1.
+
+07:00.478 --> 07:09.566
+Mình không vẽ nó theo tỷ lệ bằng nhau. Trên đồ thị của f (x) bằng x bình, đây sẽ là 4, đây sẽ là 2,
+
+07:09.616 --> 07:23.547
+Đây sẽ là 1, đây sẽ là 3. Vì vậy, x bằng 2, hàm số của chúng ta bằng 1.
+
+07:23.547 --> 07:27.856
+Vì vậy, đây là hàm hơi kỳ lạ, nhưng ta có thể định nghĩa nó theo cách này, bạn có thể xác định hàm số bất cứ khi nào
+
+07:27.856 --> 07:36.667
+bạn muốn! Chú ý, nó giống như các đồ thị của f (x) = x bình khi x khác 2,
+
+07:36.667 --> 07:48.252
+đồ thị này có khoảng cách này, bởi vì bạn không tính f (x) = x bình khi x bằng 2, mà bạn tính f (x), bạn tính g (x) bằng 1.
+
+07:48.252 --> 07:50.848
+Nãy mình nói nhầm thành f (x), mình xin lỗi nhé.
+
+07:50.848 --> 08:04.914
+Bạn dùng g (x) = 1, vì vậy sau đó ngay tại 2, nó giảm xuống 1, và sau đó nó tiếp tục đi lên theo hàm x bình.
+
+08:04.914 --> 08:11.241
+Câu hỏi mình dành cho bạn là. Có một vài điều. Nếu mình chỉ tính hàm g(2),
+
+08:11.241 --> 08:15.933
+Bạn hãy nhìn vào định nghĩa này. Khi x bằng 2, mình sử dụng trường hợp ngay đây,
+
+08:15.933 --> 08:21.538
+và nó cho mình kết quả bằng 1. Mình đặt ra câu hỏi thú vị hơn, là
+
+08:21.538 --> 08:32.149
+Giới hạn khi x tiến tới 2 của g(x) là gì?
+
+08:32.149 --> 08:38.502
+Câu hỏi khá đơn giản. Khi x tiến tới 2
+
+08:38.502 --> 08:42.240
+càng lúc càng gần hơn, đây không phải là một định nghĩa quá khắt khe, mình tôi sẽ làm về nó trong các video sau.
+
+08:42.240 --> 08:52.979
+Khi x càng lúc càng gần 2, g(x) tiến tới gì? Nếu bạn tiến tới 1.9, và sau đó 1,999, rồi tới 1.999999
+
+08:52.979 --> 09:00.518
+tiếp đó 1.9999999, g(x) sẽ tiến tới gì? Nếu bạn đi theo chiều dương,
+
+09:00.518 --> 09:06.656
+Nếu bạn đã nói 2.1, vậy g(2.1) là gì? g(2.01) là gì? g(2.001) là gì?
+
+09:06.656 --> 09:09.995
+Nó sẽ tới đâu khi mình càng lúc càng đến gần nó?
+
+09:09.995 --> 09:15.733
+Và bạn có thể thấy nó rõ hơn bằng cách vẽ đồ thị. Như g càng lúc càng tiến gần tới 2.
+
+09:15.733 --> 09:20.518
+Nếu ta đi theo đồ thị, thì ta thấy rằng mình đang tiếp cận 4,
+
+09:20.518 --> 09:26.545
+Mặc dù đây không phải vị trí của hàm số, hàm số sẽ xuống 1, giới hạn của g(x) khi
+
+09:26.545 --> 09:33.405
+x tiến tới 2 bằng 4. Bạn thậm chí có thể tính bằng máy tính.
+
+09:33.405 --> 09:39.907
+Để mình làm thử, vì khá thú vị đó. Để mình lấy máy tính ra.
+
+09:39.907 --> 09:49.041
+Lấy máy tính TI-85 đáng tin cậy ra. Đây là máy tính của mình. và bạn có thể nói,
+
+09:49.041 --> 09:57.995
+nó sẽ tiếp cận gì khi bạn cho x bằng 2? Hãy thử 1.9. Với x bằng 1.9, bạn sẽ sử dụng
+
+09:57.995 --> 10:05.549
+mệnh đề ở trên đây. Bạn sẽ có 1.9², kết quả là 3,61.
+
+10:05.549 --> 10:11.683
+vậy nó ra nhiêu nếu bạn cho nó tiến tới 2? Thử 1.99, và bình phương lần nữa,
+
+10:11.683 --> 10:21.683
+Mình có 3,96. Còn nếu bình phương 1,999 thì sao?
+
+10:21.683 --> 10:27.991
+Mình sẽ được 3.996. Chú ý, mình càng lúc càng đến gần hơn với điểm này rồi.
+
+10:27.991 --> 10:37.546
+Nếu mình cho 1.999999999999 bình phương thì sao? Mình sẽ được gì? Nó là không thực sự ra
+
+10:37.546 --> 10:41.508
+chính xác 4 , máy tính làm tròn lên đó - vì mình sẽ nhận được con số thực sự thực sự
+
+10:41.508 --> 10:47.456
+thực sự thực sự gần với 4. Và ta có thể tính được theo chiều dương, và nó
+
+10:47.456 --> 10:52.083
+sẽ ra con số tương tự khi mình tiếp cận từ bên trên hoặc bên dưới.
+
+10:52.083 --> 11:00.702
+Do đó, nếu ta thử 2.1 bình phương, ta sẽ được 4,4...
+
+11:00.702 --> 11:02.902
+Để mình đi trước vài bước
+
+11:02.902 --> 11:09.256
+2.0001². Giờ nó khá gần với 2. Bình phương lên, ta nhận được kết quả khá gần với 4.
+
+11:09.256 --> 11:12.929
+Vậy khi cho x càng gần 2, thì kết quả nhận được càng gần 4.
+
+11:12.929 --> 11:20.333
+Một lần nữa đó là cách để thấy rằng giới hạn khi x tiến tới 2 từ hai hướng của
+
+11:20.333 --> 11:25.000
+g(x), mặc dù ngay tại 2, hàm số bằng 1, vì nó không liên tục -
+
+11:25.000 --> 11:31.070
+vậy giới hạn khi ta tiến tới 2, kết quả nhận được sẽ càng gần 4.

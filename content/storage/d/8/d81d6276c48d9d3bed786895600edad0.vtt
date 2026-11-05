@@ -1,0 +1,530 @@
+WEBVTT
+
+00:00.350 --> 00:01.210
+Trong video này,
+
+00:01.210 --> 00:03.940
+chúng ta sẽ nói về các nghiệm ngoại lai.
+
+00:03.940 --> 00:06.710
+Nếu bạn chưa từng nghe thuật ngữ này trước đây,
+
+00:06.710 --> 00:08.750
+mình khuyến khích bạn xem lại một số video
+
+00:08.750 --> 00:11.130
+trên Khan Academy về các nghiệm ngoại lai.
+
+00:11.130 --> 00:13.320
+Nhưng chỉ là một chút mới thôi, đó là ý tưởng rằng bạn thực hiện
+
+00:13.320 --> 00:15.960
+một loạt các phép toán đại số hợp lý,
+
+00:15.960 --> 00:18.670
+bạn sẽ nhận được một nghiệm hoặc
+một vài nghiệm lúc cuối,
+
+00:18.670 --> 00:21.020
+nhưng sau đó khi bạn kiểm tra nó
+trong phương trình ban đầu,
+
+00:21.020 --> 00:24.020
+nó không thỏa mãn phương trình ban đầu.
+
+00:24.020 --> 00:25.760
+Và mấu chốt của video này
+
+00:25.760 --> 00:30.560
+là tại sao các nghiệm ngoại lai lại xuất hiện?
+
+00:30.560 --> 00:35.160
+Và tất cả là do khái niệm về sự thuận nghịch.
+
+00:35.160 --> 00:39.010
+Có một số thao tác trong đại số
+
+00:39.010 --> 00:40.910
+mà bạn có thể thực hiện theo một hướng, nhưng bạn không thể
+
+00:40.910 --> 00:42.460
+và nó sẽ luôn đúng theo một hướng,
+
+00:42.460 --> 00:46.990
+nhưng không phải lúc nào cũng đúng theo hướng còn lại.
+
+00:46.990 --> 00:49.080
+Và mình sẽ chỉ cho bạn hai thao tác đó.
+
+00:49.080 --> 00:52.370
+Một là bình phương và cái kia là nhân cả hai vế
+
+00:52.370 --> 00:54.310
+với một biểu thức biến.
+
+00:54.310 --> 00:57.050
+Vì vậy, ta hãy xem ví dụ về bình phương,
+
+00:57.050 --> 00:59.600
+và sau đó ta sẽ xem nó trong một tình huống thực tế
+
+00:59.600 --> 01:02.890
+mà bạn sẽ làm với một nghiệm ngoại lai.
+
+01:02.890 --> 01:06.700
+Vì vậy, ta biết, ví dụ, nếu a bằng b,
+
+01:06.700 --> 01:09.980
+mình có thể bình phương cả hai vế
+
+01:09.980 --> 01:13.790
+và rồi a bình phương sẽ bằng b bình phương.
+
+01:13.790 --> 01:16.320
+Nhưng cách khác không đúng.
+
+01:16.320 --> 01:21.190
+Ví dụ, nếu a bình phương bằng b bình phương,
+
+01:21.190 --> 01:26.190
+thì không phải lúc nào a cũng bằng b.
+
+01:26.360 --> 01:28.050
+Ví dụ nào cho thấy điều này
+
+01:28.050 --> 01:29.340
+không phải lúc nào cũng vậy?
+
+01:29.340 --> 01:31.840
+Thực ra, hãy tạm dừng video, thử nghĩ xem.
+
+01:31.840 --> 01:34.100
+Vâng, âm 2 bình phương
+
+01:34.100 --> 01:36.480
+thực sự bằng 2 bình phương,
+
+01:36.480 --> 01:40.070
+nhưng âm 2 không bằng 2.
+
+01:40.070 --> 01:44.080
+Vậy điều này cho thấy rằng bạn có thể
+bình phương cả hai vế của phương trình
+
+01:45.090 --> 01:48.860
+và suy ra một điều gì đó đúng,
+
+01:48.860 --> 01:50.130
+nhưng ngược lại thì
+
+01:50.130 --> 01:53.120
+không nhất thiết sẽ đúng.
+
+01:53.120 --> 01:56.660
+Một phép toán không thể đảo ngược khác đôi khi
+
+01:56.660 --> 02:00.400
+là nhân cả hai vế với một biểu thức biến.
+
+02:00.400 --> 02:04.440
+Vì vậy, thực ra, nhân cả hai vế,
+
+02:04.440 --> 02:06.260
+như mình đã nói, sẽ khiến chúng ta nhầm lẫn,
+
+02:06.260 --> 02:07.480
+trông như x.
+
+02:07.480 --> 02:12.480
+Nhân cả hai vế
+
+02:12.810 --> 02:14.390
+với biến.
+
+02:14.390 --> 02:15.270
+Mình sẽ chỉ viết biến,
+
+02:15.270 --> 02:18.900
+nhưng nó cũng có thể là một biểu thức biến.
+
+02:18.900 --> 02:23.900
+Ví dụ, ta biết rằng nếu a bằng b,
+
+02:23.940 --> 02:25.800
+nếu ta nhân cả hai vế với một biến,
+
+02:25.800 --> 02:26.870
+thì điều đó vẫn đúng.
+
+02:26.870 --> 02:30.143
+xa sẽ bằng xb.
+
+02:32.150 --> 02:34.930
+Nhưng cách khác, ngược lại, không phải lúc nào cũng vậy.
+
+02:34.930 --> 02:37.890
+Nếu xa bằng xb,
+
+02:37.890 --> 02:41.940
+có phải là trường hợp a luôn luôn bằng b không?
+
+02:41.940 --> 02:43.230
+Câu trả lời đơn giản là không,
+
+02:43.230 --> 02:45.000
+và mình luôn khuyến khích bạn, hãy tạm dừng video này
+
+02:45.000 --> 02:46.790
+và xem liệu bạn có thể tìm thấy một ví dụ
+
+02:46.790 --> 02:48.380
+mà cách này không đúng hay không.
+
+02:48.380 --> 02:52.330
+Nếu a là 2 và b là 3
+
+02:52.330 --> 02:55.660
+và biến x chỉ xảy ra nhận giá trị bằng 0.
+
+02:55.660 --> 02:57.200
+Vì vậy, ta biết rằng 0 nhân 2
+
+02:57.200 --> 02:59.820
+thực sự bằng 0 nhân 3,
+
+02:59.820 --> 03:04.380
+nhưng 2 không bằng 3.
+
+03:04.380 --> 03:05.920
+Bây giờ, tất cả những điều này kết nối
+
+03:05.920 --> 03:08.740
+với các nghiệm ngoại lai mà bạn đã thấy
+
+03:08.740 --> 03:10.710
+khi bạn giải các phương trình căn
+
+03:10.710 --> 03:12.510
+hoặc khi bạn giải một số phương trình hữu tỉ
+
+03:12.510 --> 03:15.880
+hoặc phương trình có biểu thức hữu tỉ ở cả hai vế?
+
+03:15.880 --> 03:17.090
+Hãy xem một ví dụ.
+
+03:17.090 --> 03:19.010
+Hãy giải một phương trình căn.
+
+03:19.010 --> 03:22.530
+Nếu mình muốn giải phương trình,
+
+03:22.530 --> 03:27.510
+căn bậc hai của 5x trừ 4
+
+03:27.510 --> 03:29.990
+bằng x trừ 2,
+
+03:29.990 --> 03:32.380
+bước đầu tiên điển hình là hãy loại bỏ căn này
+
+03:32.380 --> 03:35.520
+bằng cách bình phương cả hai vế.
+
+03:35.520 --> 03:39.160
+Vì vậy, mình sẽ bình phương cả hai vế,
+
+03:39.160 --> 03:41.730
+và sau đó mình sẽ lấy 5x trừ 4
+
+03:41.730 --> 03:45.030
+bằng x bình phương trừ 4x cộng 4.
+
+03:45.030 --> 03:47.060
+Một lần nữa, nếu điều này có vẻ xa lạ với bạn,
+
+03:47.060 --> 03:48.810
+ta sẽ đi sâu hơn nhiều vào các video khác,
+
+03:48.810 --> 03:51.610
+nơi ta giới thiệu về ý tưởng của phương trình căn.
+
+03:51.610 --> 03:55.860
+Và hãy xem, chúng ta có thể trừ 5x cho cả hai vế.
+
+03:55.860 --> 03:57.450
+Chúng ta có thể cộng 4 vào cả hai vế.
+
+03:57.450 --> 04:00.480
+Mình chỉ đang cố có được số 0 ở vế trái.
+
+04:00.480 --> 04:01.740
+Và vậy mình sẽ còn lại
+
+04:01.740 --> 04:06.210
+0 bằng x bình phương trừ 9x cộng 8,
+
+04:06.210 --> 04:11.210
+hoặc 0 bằng x trừ 8 nhân x trừ 1,
+
+04:11.640 --> 04:14.920
+hoặc ta có thể nói x trừ 1 bằng 0,
+
+04:14.920 --> 04:18.230
+hoặc x trừ 8 bằng 0.
+
+04:18.230 --> 04:22.110
+Ta được x bằng 1 hoặc x bằng 8.
+
+04:22.110 --> 04:23.520
+Vậy ta hãy thử các nghiệm này.
+
+04:23.520 --> 04:26.240
+Nếu x bằng 8, ta sẽ được,
+
+04:26.240 --> 04:28.000
+mình sẽ dùng màu của nó,
+
+04:28.000 --> 04:30.770
+với x bằng 8, nếu mình kiểm tra nó
+trong phương trình ban đầu,
+
+04:30.770 --> 04:35.410
+mình được căn bậc hai của 36 là bằng 6,
+
+04:35.410 --> 04:38.370
+là hoàn toàn đúng, vậy nghiệm đó đúng.
+
+04:38.370 --> 04:40.210
+Nhưng còn x bằng 1 thì sao?
+
+04:40.210 --> 04:45.020
+Mình được căn bậc hai của 5 nhân 1 trừ 4 là 1
+
+04:45.020 --> 04:49.030
+bằng 1 trừ 2, là bằng âm 1.
+
+04:49.030 --> 04:50.760
+Nó không đúng.
+
+04:50.760 --> 04:55.180
+Cái này ngay đây là nghiệm ngoại lai.
+
+04:55.180 --> 04:56.760
+Nếu ai đó hỏi, tất cả các giá trị x
+
+04:56.760 --> 04:59.330
+thỏa mãn phương trình này là bao nhiêu, b
+bạn sẽ không nói x bằng 1,
+
+04:59.330 --> 05:01.860
+mặc dù bạn ra được bằng các bước đại số hợp lý.
+
+05:01.860 --> 05:03.930
+Và lý do đó là nó đúng là,
+
+05:03.930 --> 05:06.220
+thực ra, hãy tạm dừng video này, nhìn lại.
+
+05:06.220 --> 05:09.920
+Đối với bước nào trong số các bước này,
+x bằng 1 vẫn đúng
+
+05:09.920 --> 05:12.150
+và bước nào không đúng?
+
+05:12.150 --> 05:14.960
+Bạn sẽ thấy x bằng 1
+
+05:14.960 --> 05:19.070
+đúng cho tất cả các phương trình bên dưới đường màu tím này.
+
+05:19.070 --> 05:20.900
+Nó chỉ không đúng cho
+
+05:20.900 --> 05:23.180
+căn bậc hai của 5x trừ 4
+
+05:23.180 --> 05:25.410
+bằng x trừ 2.
+
+05:25.410 --> 05:27.670
+Thực ra, bạn có thể bắt đầu với x trừ 1
+
+05:27.670 --> 05:31.520
+và rồi bạn có thể suy luận đến dòng này ở đây.
+
+05:31.520 --> 05:32.890
+Nhưng vấn đề ở đây là
+
+05:32.890 --> 05:36.040
+bình phương không phải là một phép toán
+có thể đảo ngược.
+
+05:36.040 --> 05:38.030
+Điều này tương tự với việc nói,
+
+05:38.030 --> 05:40.070
+ta biết a bình phương bằng b bình phương.
+
+05:40.070 --> 05:42.860
+Ta biết cái này bằng cái này.
+
+05:42.860 --> 05:46.970
+Nhưng điều đó không có nghĩa là
+a nhất thiết phải bằng b
+
+05:46.970 --> 05:49.220
+với x bằng 1.
+
+05:49.220 --> 05:52.760
+Và ta có thể làm điều tương tự với một phương trình hữu tỉ
+
+05:52.760 --> 05:55.900
+hoặc một phương trình giải quyết các biểu thức hữu tỉ.
+
+05:55.900 --> 05:58.650
+Vậy ví dụ ta có thể phải giải quyết
+
+05:58.650 --> 06:01.150
+và để mình đảm bảo mình có khoảng trống ở đây.
+
+06:01.150 --> 06:05.870
+Nếu mình phải giải x bình phương trên x trừ 1
+
+06:05.870 --> 06:08.770
+bằng 1 trên x trừ 1,
+
+06:08.770 --> 06:10.270
+điều đầu tiên mình muốn làm
+
+06:10.270 --> 06:13.720
+là nhân cả hai vế với x trừ 1.
+
+06:13.720 --> 06:18.700
+Vậy nhân với x trừ 1.
+
+06:18.700 --> 06:20.340
+Bây giờ, hãy lưu ý mình đang nhân cả hai vế
+
+06:20.340 --> 06:21.940
+với một biểu thức biến, vậy ta phải
+
+06:21.940 --> 06:23.500
+tranh cãi 1 chút,
+
+06:23.500 --> 06:26.070
+nhưng nếu mình nhân cả hai vế với x trừ 1,
+
+06:26.070 --> 06:28.440
+mình sẽ được x bình phương bằng 1,
+
+06:28.440 --> 06:30.550
+hoặc mình có thể nói x bằng 1
+
+06:30.550 --> 06:32.560
+hoặc x bằng âm 1.
+
+06:32.560 --> 06:34.800
+Chúng ta có thể kiểm tra chúng.
+
+06:34.800 --> 06:37.210
+Với x bằng 1, nếu mình đi lên đây,
+
+06:37.210 --> 06:39.340
+mình sẽ chia cho 0 ở cả hai vế.
+
+06:39.340 --> 06:41.480
+Vậy đây là nghiệm ngoại lai.
+
+06:41.480 --> 06:44.480
+Điều quan trọng ở đây là ta đã nhân cả hai vế
+
+06:44.480 --> 06:45.670
+với một biểu thức biến.
+
+06:45.670 --> 06:49.330
+Trong trường hợp này, ta nhân cả hai vế với x trừ 1.
+
+06:49.330 --> 06:50.530
+Bạn có thể làm điều đó.
+
+06:50.530 --> 06:53.390
+Bạn có thể nhân cả hai vế với một biểu thức biến
+
+06:53.390 --> 06:55.610
+và đó là một phép toán đại số hợp lý.
+
+06:55.610 --> 07:00.530
+Nó hoàn toàn tương tự với những gì ta đã thấy ở đây.
+
+07:00.530 --> 07:03.670
+Chỉ vì 0 nhân 2 bằng 0 nhân 3
+
+07:03.670 --> 07:06.370
+không có nghĩa là 2 bằng 3.
+
+07:06.370 --> 07:07.620
+Nó hoàn toàn tương tự
+
+07:07.620 --> 07:09.540
+bởi vì ta nhân với một biểu thức biến
+
+07:09.540 --> 07:12.370
+thực sự nhận giá trị 0
+
+07:12.370 --> 07:14.790
+khi x bằng 1.
+
+07:14.790 --> 07:18.420
+Vậy bài học ở đây là, hy vọng bạn hiểu
+
+07:18.420 --> 07:21.870
+tại sao các nghiệm ngoại lai lại xảy ra
+nhiều hơn một chút.
+
+07:21.870 --> 07:24.360
+Khi bạn bình phương, khi bạn nhân cả hai vế
+
+07:24.360 --> 07:26.760
+với một biểu thức biến, hoàn toàn hợp lý
+
+07:26.760 --> 07:28.500
+miễn là bạn làm đúng cách,
+
+07:28.500 --> 07:30.410
+nhưng không phải lúc nào
+
+07:30.410 --> 07:32.980
+điều ngược lại cũng đúng.
+
+07:32.980 --> 07:34.970
+Bạn có thể cộng hoặc trừ bất kỳ thứ gì
+
+07:34.970 --> 07:36.060
+từ cả hai vế của một phương trình
+
+07:36.060 --> 07:38.100
+và cái đó sẽ luôn có thể đảo ngược.
+
+07:38.100 --> 07:41.020
+Và vậy điều đó sẽ không dẫn đến các nghiệm ngoại lai.
+
+07:41.020 --> 07:42.390
+Bạn có thể nhân hoặc chia
+
+07:42.390 --> 07:45.360
+cho một hằng số khác 0.
+
+07:45.360 --> 07:48.200
+Điều đó cũng sẽ không dẫn đến bất kỳ
+cái gì không rõ ràng,
+
+07:48.200 --> 07:49.750
+nhưng nếu bạn bình phương cả hai vế
+
+07:49.750 --> 07:52.200
+hoặc nhân cả hai vế với một biểu thức biến,
+
+07:52.200 --> 07:53.950
+bạn nên cẩn thận một chút.

@@ -1,0 +1,758 @@
+WEBVTT
+
+00:00.654 --> 00:02.221
+- [Voiceover] What I have
+attempted to draw here
+
+00:02.221 --> 00:04.504
+in yellow is a parabola,
+
+00:04.504 --> 00:06.470
+and as we've already
+seen in previous videos,
+
+00:06.470 --> 00:09.903
+a parabola can be defined
+as the set of all points
+
+00:09.903 --> 00:13.821
+that are equidistant
+to a point and a line,
+
+00:13.821 --> 00:17.338
+and the point is called
+the focus of the parabola,
+
+00:17.338 --> 00:21.071
+and the line is called the
+directrix of the parabola.
+
+00:21.071 --> 00:22.188
+What I want to do in this video,
+
+00:22.188 --> 00:24.207
+it's gonna get a little
+bit of hairy algebra,
+
+00:24.207 --> 00:25.953
+but given that definition,
+
+00:25.953 --> 00:26.670
+I want to see,
+
+00:26.670 --> 00:28.837
+and given that definition,
+and given a focus
+
+00:28.837 --> 00:31.737
+at the point x equals a, y equals b,
+
+00:31.737 --> 00:35.189
+and a line, a directrix, at y equals k,
+
+00:35.189 --> 00:37.238
+to figure out what is the equation
+
+00:37.238 --> 00:39.787
+of that parabola actually going to be,
+
+00:39.787 --> 00:43.053
+and it's going to be based
+on a's, b's, and k's,
+
+00:43.053 --> 00:44.989
+so let's do that.
+
+00:44.989 --> 00:47.969
+So let's take a arbitrary
+point on the parabola.
+
+00:47.969 --> 00:51.021
+Let's say we take this
+point right over here,
+
+00:51.021 --> 00:55.288
+and its x-coordinate is x,
+and its y-coordinate is y,
+
+00:55.288 --> 00:57.771
+and by definition, in order
+for this to be a parabola,
+
+00:57.771 --> 01:01.221
+it has to be equidistant to
+its focus and its directrix,
+
+01:01.221 --> 01:02.288
+so what does that mean?
+
+01:02.288 --> 01:04.756
+That means that the
+distance to the directrix,
+
+01:05.387 --> 01:07.272
+which I'm drawing here in blue,
+
+01:07.272 --> 01:10.671
+has to be the same as the
+distance to the focus,
+
+01:10.671 --> 01:12.497
+which I am drawing in magenta,
+
+01:12.497 --> 01:14.321
+and when we take the
+distance to the directrix,
+
+01:14.321 --> 01:17.037
+we literally just drop a perpendicular,
+
+01:17.037 --> 01:17.787
+I guess you could say say,
+
+01:17.787 --> 01:19.354
+that is, that's going to be
+
+01:19.354 --> 01:22.436
+the shortest distance to that line,
+
+01:23.098 --> 01:25.651
+but the distance to the focus,
+
+01:25.651 --> 01:28.367
+well we see that's at a bit of an angle,
+
+01:28.367 --> 01:30.348
+and we might have to use
+the distance formula,
+
+01:30.348 --> 01:32.333
+which is really just
+the Pythagorean Theorem.
+
+01:32.333 --> 01:33.117
+So let's do that.
+
+01:33.117 --> 01:36.033
+This distance has to be
+the same as that distance.
+
+01:36.033 --> 01:37.984
+So, what's this blue distance?
+
+01:37.984 --> 01:40.483
+Well, that's just gonna
+be our change in y.
+
+01:40.483 --> 01:44.999
+It's going to be this y, minus k.
+
+01:44.999 --> 01:46.749
+It's just this distance.
+
+01:46.749 --> 01:49.984
+So it's going to be y minus k.
+
+01:49.984 --> 01:50.901
+Now we have to be careful.
+
+01:50.901 --> 01:52.116
+The way I've just drawn it,
+
+01:52.116 --> 01:55.283
+yes, y is greater than k,
+
+01:55.283 --> 01:56.900
+so this is going to give
+us a positive value,
+
+01:56.900 --> 01:58.432
+and you need a non-negative value
+
+01:58.432 --> 02:00.437
+if you're talking about distances,
+
+02:00.437 --> 02:03.166
+but you can definitely
+have a parabola where
+
+02:03.166 --> 02:04.799
+the y-coordinate of the focus is
+
+02:04.799 --> 02:07.316
+lower than the y-coordinate
+of the directrix,
+
+02:07.316 --> 02:09.066
+in which case this would be negative.
+
+02:09.066 --> 02:11.700
+So what we really want is
+the absolute value of this,
+
+02:11.700 --> 02:14.616
+or, we could square it,
+
+02:14.616 --> 02:17.284
+and then we could take the square root,
+
+02:17.284 --> 02:19.067
+the principle root,
+which would be equivalent
+
+02:19.067 --> 02:22.283
+to taking the absolute value of y minus k.
+
+02:22.283 --> 02:24.367
+So that's this distance right over here,
+
+02:24.367 --> 02:26.568
+and by the definition of a parabola,
+
+02:26.568 --> 02:29.416
+in order for (x,y) to be
+sitting on the parabola,
+
+02:29.416 --> 02:31.549
+that distance needs to be
+the same as the distance
+
+02:31.549 --> 02:35.235
+from (x,y) to (a,b), to the focus.
+
+02:35.235 --> 02:36.774
+So what's that going to be?
+
+02:36.774 --> 02:38.748
+Well, we just apply the distance formula,
+
+02:38.748 --> 02:40.834
+or really, just the Pythagorean Theorem.
+
+02:40.834 --> 02:42.900
+It's gonna be our change in x,
+
+02:42.900 --> 02:46.483
+so, x minus a, squared,
+
+02:46.483 --> 02:48.283
+plus the change in y,
+
+02:48.283 --> 02:51.116
+y minus b, squared,
+
+02:51.116 --> 02:53.509
+and the square root of that whole thing,
+
+02:53.509 --> 02:57.817
+the square root of all of that business.
+
+02:57.817 --> 03:00.901
+Now, this right over here is
+an equation of a parabola.
+
+03:00.901 --> 03:02.784
+It doesn't look like it,
+it looks really hairy,
+
+03:02.784 --> 03:04.916
+but it IS the equation of a parabola,
+
+03:04.916 --> 03:06.933
+and to show you that, we
+just have to simplify this,
+
+03:06.933 --> 03:08.083
+and if you get inspired,
+
+03:08.083 --> 03:10.485
+I encourage you to try to
+simplify this on your own,
+
+03:10.485 --> 03:11.849
+it's just gonna be a little
+bit of hairy algebra,
+
+03:11.849 --> 03:13.333
+but it really is not too bad.
+
+03:13.333 --> 03:14.934
+You're gonna get an
+equation for a parabola
+
+03:14.934 --> 03:16.084
+that you might recognize,
+
+03:16.084 --> 03:19.567
+and it's gonna be in terms
+of a general focus, (a,b),
+
+03:19.567 --> 03:22.048
+and a gerneral directrix, y equals k,
+
+03:22.048 --> 03:23.415
+so let's do that.
+
+03:23.415 --> 03:25.599
+So the simplest thing to start here,
+
+03:25.599 --> 03:26.967
+is let's just square both sides,
+
+03:26.967 --> 03:28.499
+so we get rid of the radicals.
+
+03:28.499 --> 03:30.450
+So if you square both sides,
+on the left-hand side,
+
+03:30.450 --> 03:33.644
+you're gonna get y minus k, squared
+
+03:37.091 --> 03:39.470
+is equal to
+
+03:41.331 --> 03:44.049
+x minus a, squared,
+
+03:44.049 --> 03:48.646
+plus y minus b, squared.
+
+03:48.646 --> 03:49.839
+Fair enough?
+
+03:49.839 --> 03:52.009
+Now what I want to do
+is, I just want to end up
+
+03:52.009 --> 03:53.980
+with just a y on the left-hand side,
+
+03:53.980 --> 03:57.671
+and just x's, ab's, and
+k's on the right-hand side,
+
+03:57.671 --> 03:59.138
+so the first thing I might want to do,
+
+03:59.138 --> 04:01.366
+is let's expand each of these expressions
+
+04:01.366 --> 04:03.222
+that involve with y,
+
+04:03.222 --> 04:04.987
+so this blue one on the left-hand side,
+
+04:04.987 --> 04:07.159
+that is going to be
+
+04:07.683 --> 04:11.384
+y squared minus 2yk,
+
+04:11.384 --> 04:12.871
+plus k squared,
+
+04:12.871 --> 04:15.466
+and that is going to be equal to,
+
+04:15.466 --> 04:17.815
+I'm gonna keep this first one the same,
+
+04:17.815 --> 04:21.248
+so it's gonna be x minus a, squared,
+
+04:21.248 --> 04:23.461
+and now let me expand,
+
+04:25.015 --> 04:26.603
+I'm gonna find a color,
+
+04:26.603 --> 04:28.256
+expand this in green,
+
+04:28.256 --> 04:32.956
+so plus y squared, minus
+2yb, plus b squared.
+
+04:32.956 --> 04:35.990
+All I did, is I multiplied
+y minus b, times y minus b.
+
+04:35.990 --> 04:38.123
+Now let's see if we can simplify things.
+
+04:38.123 --> 04:39.572
+So, I have a y squared on the left,
+
+04:39.572 --> 04:40.943
+I have a y squared on the right,
+
+04:40.943 --> 04:44.291
+well, if I subtract y
+squared from both sides,
+
+04:44.291 --> 04:45.322
+so I can do that.
+
+04:45.322 --> 04:47.290
+Well, that simplified things a little bit,
+
+04:47.290 --> 04:49.270
+and now I can,
+
+04:49.270 --> 04:50.784
+let's see what I can do.
+
+04:50.784 --> 04:53.335
+Well let's get the k squared on this side,
+
+04:53.335 --> 04:56.368
+so let's subtract k
+squared from both sides,
+
+04:56.368 --> 05:00.452
+so, subtract k squared from both sides,
+
+05:00.452 --> 05:02.900
+so that's gonna get rid of
+it on the left-hand side,
+
+05:02.900 --> 05:05.484
+and now let's add 2yb to both sides,
+
+05:05.484 --> 05:08.201
+so we have all the y's
+on the left-hand side,
+
+05:08.201 --> 05:10.752
+so, plus 2yb,
+
+05:10.752 --> 05:14.135
+that's gonna give us a
+2yb on the left-hand side,
+
+05:14.135 --> 05:17.267
+plus 2yb.
+
+05:17.267 --> 05:19.551
+So what is this going to be equal to?
+
+05:19.551 --> 05:20.767
+And I'm starting to run into my graph,
+
+05:20.767 --> 05:22.201
+so let me give myself
+
+05:22.201 --> 05:24.300
+a little bit more real estate over here.
+
+05:24.300 --> 05:26.335
+So on the left-hand side,
+
+05:26.335 --> 05:27.994
+what am I going to have?
+
+05:27.994 --> 05:31.560
+This is the same thing as 2yb minus 2yk,
+
+05:31.560 --> 05:32.585
+which is the same thing,
+
+05:32.585 --> 05:33.992
+actually let me just write that down.
+
+05:33.992 --> 05:36.474
+That's going to be 2y--
+
+05:36.474 --> 05:40.690
+Do it in green, actually,
+well, yeah, why not green?
+
+05:40.690 --> 05:41.824
+That's going to be--
+
+05:41.824 --> 05:43.324
+Actually, let me start
+a new color. (chuckles)
+
+05:43.324 --> 05:46.800
+That's going to be 2yb
+
+05:46.800 --> 05:49.016
+minus 2yk.
+
+05:49.016 --> 05:51.174
+You can factor out a 2y,
+
+05:51.174 --> 05:53.908
+and it's gonna be 2y times, b minus k.
+
+05:53.908 --> 05:54.903
+So let's do that.
+
+05:54.903 --> 05:56.114
+So we could write this as
+
+05:56.114 --> 06:00.683
+2 times, b minus k, y
+
+06:00.683 --> 06:03.574
+if you factor out a 2 and a y,
+
+06:03.574 --> 06:05.124
+so that's the left-hand side,
+
+06:05.124 --> 06:06.574
+so that's that piece right over there.
+
+06:06.574 --> 06:08.824
+These things cancel out.
+
+06:08.824 --> 06:10.873
+Now, on our right-hand side,
+
+06:10.873 --> 06:12.742
+I promised you a little
+bit of hairy algebra,
+
+06:12.742 --> 06:15.408
+so hopefully you see that I'm
+delivering on that promise.
+
+06:15.408 --> 06:16.923
+On the right-hand side,
+
+06:16.923 --> 06:20.708
+you have x minus a, squared,
+
+06:20.708 --> 06:24.056
+and then, let's see, these
+characters cancel out,
+
+06:24.056 --> 06:27.980
+and you're left with b
+squared minus k squared,
+
+06:27.980 --> 06:31.291
+so these two are gonna be
+b squared minus k squared,
+
+06:31.291 --> 06:34.908
+plus b squared minus k squared.
+
+06:34.908 --> 06:37.407
+Now, I said all I want is
+a y on the left-hand side,
+
+06:37.407 --> 06:41.834
+so let's divide everything
+by two times, b minus k.
+
+06:42.034 --> 06:43.308
+So, let's divide everything,
+
+06:43.308 --> 06:45.715
+two times, b minus k,
+
+06:45.715 --> 06:48.082
+so, two times, b minus k.
+
+06:48.082 --> 06:49.936
+And I'm actually gonna
+divide this whole thing by
+
+06:49.936 --> 06:52.698
+two times, b minus k.
+
+06:52.698 --> 06:54.898
+Now, obviously on the left-hand side,
+
+06:54.898 --> 06:57.615
+this all cancels out,
+you're left with just a y,
+
+06:57.615 --> 07:00.049
+and then it's going to be y equals,
+
+07:00.049 --> 07:02.650
+y is equal to one over,
+
+07:02.650 --> 07:05.635
+two times, b minus k,
+
+07:05.635 --> 07:07.116
+and notice, b minus k is the difference
+
+07:07.116 --> 07:09.732
+between the y-coordinate of the focus,
+
+07:09.732 --> 07:11.768
+and the y-coordinate,
+I guess you could say,
+
+07:11.768 --> 07:13.498
+of the line, y equals k,
+
+07:13.498 --> 07:16.565
+so it's one over, two times that,
+
+07:16.565 --> 07:19.699
+times x minus a, squared.
+
+07:21.192 --> 07:24.288
+So if you knew what b minus k was,
+
+07:24.288 --> 07:26.179
+this would just simplify to some number,
+
+07:26.179 --> 07:27.545
+some number that's being multiplied
+
+07:27.545 --> 07:29.429
+times x minus a, squared,
+
+07:29.429 --> 07:32.344
+so hopefully this is starting
+to look like the parabolas
+
+07:32.344 --> 07:35.121
+that you remember from
+your childhood, (chuckles)
+
+07:35.121 --> 07:37.544
+if you do remember parabolas
+from your childhood.
+
+07:37.544 --> 07:39.344
+Alright, so then let's see if we could
+
+07:39.344 --> 07:42.012
+simplify this thing on the right,
+
+07:42.012 --> 07:44.527
+and you might recognize,
+b squared minus k squared,
+
+07:44.527 --> 07:46.060
+that's a difference of squares,
+
+07:46.060 --> 07:48.541
+that's the same thing as
+
+07:49.511 --> 07:53.835
+b plus k, times b minus k,
+
+07:58.543 --> 08:00.832
+so the b minus k's cancel out,
+
+08:00.832 --> 08:03.000
+and we are just left with,
+
+08:03.000 --> 08:04.961
+and we deserve a little
+bit of a drum roll,
+
+08:04.961 --> 08:05.799
+we are just left with
+
+08:05.799 --> 08:10.606
+1/2 times, b plus k.
+
+08:10.606 --> 08:11.832
+So, there you go.
+
+08:11.832 --> 08:15.715
+Given a focus at a point (a,b),
+
+08:15.715 --> 08:19.666
+and a directrix at y equals k,
+
+08:19.666 --> 08:23.649
+we now know what the
+formula of the parabola
+
+08:23.649 --> 08:25.848
+is actually going to be.
+
+08:25.848 --> 08:28.132
+So, for example,
+
+08:29.548 --> 08:33.730
+if I had a focus at the point,
+
+08:33.730 --> 08:37.450
+I don't know, let's say the point (1,2),
+
+08:37.450 --> 08:41.083
+and I had a directrix at
+
+08:41.083 --> 08:45.150
+y is equal to,
+
+08:45.150 --> 08:46.048
+I don't know, let's make it
+
+08:46.048 --> 08:47.999
+y is equal to -1,
+
+08:47.999 --> 08:51.566
+what would the equation
+of this parabola be?
+
+08:51.566 --> 08:55.699
+Well, it would be y is equal to one over,
+
+08:55.699 --> 09:00.023
+two times, b minus k, so two minus -1,
+
+09:00.023 --> 09:01.683
+that's the same thing as two plus one,
+
+09:01.683 --> 09:03.798
+so that's just three,
+
+09:03.798 --> 09:06.363
+two minus -1 is three,
+
+09:06.363 --> 09:11.018
+times x minus one,
+
+09:16.096 --> 09:17.129
+squared,
+
+09:17.129 --> 09:20.630
+plus 1/2 times, b plus k.
+
+09:20.630 --> 09:24.511
+Two plus -1 is one,
+
+09:24.511 --> 09:25.914
+so one,
+
+09:25.914 --> 09:27.429
+and so what is this going to be?
+
+09:27.429 --> 09:29.562
+You're gonna get y is equal to
+
+09:29.562 --> 09:33.520
+1/6, x minus one,
+
+09:33.520 --> 09:37.006
+squared, plus 1/2.
+
+09:37.006 --> 09:38.296
+There you go.
+
+09:38.296 --> 09:40.024
+That is the parabola
+
+09:40.024 --> 09:41.863
+with a focus at (1,2)
+
+09:41.863 --> 09:45.348
+and a directrix at y equals -1.
+
+09:45.348 --> 09:47.148
+Fascinating.

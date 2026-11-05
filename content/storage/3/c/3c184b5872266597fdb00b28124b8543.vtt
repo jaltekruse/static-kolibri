@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.460 --> 00:03.040
+Mõtleme alguses mida täpsemalt funktsioonid teevad
+
+00:03.040 --> 00:06.590
+ja siis mõtleme funktsiooni pööramisest.
+
+00:06.590 --> 00:08.450
+Alustame päris otsekohesest funktsioonist.
+
+00:08.450 --> 00:13.510
+Oletame, et f x'st võrdub 2x pluss 4.
+
+00:13.510 --> 00:20.340
+Seega kui võtta f kahest, võrdub see 2 korda 2 pluss 4
+
+00:20.340 --> 00:24.560
+mis on 4 pluss neli, mis on 8.
+
+00:24.560 --> 00:32.470
+Saame ka võtta f kolmest, mis on 2*3+4,
+
+00:32.470 --> 00:35.920
+mis on võrdne 10'ga.
+
+00:35.920 --> 00:36.960
+6 + 4.
+
+00:36.960 --> 00:38.280
+Mõelgem sellest veidi rohkem
+
+00:38.280 --> 00:39.800
+abstraktses mõttes.
+
+00:39.800 --> 00:42.990
+On hulk asju, mida saab sellele funktsioonile ette anda.
+
+00:42.990 --> 00:44.700
+Sellega olete te ehk juba tuttavad.
+
+00:44.700 --> 00:46.050
+See on määramispiirkond.
+
+00:46.050 --> 00:48.760
+Kõikide väärtuste hulk, mis saab funktsioonile ette anda
+
+00:48.760 --> 00:52.760
+on selle funktsiooni määramispiirkond.
+
+00:52.760 --> 00:57.290
+Ja selles piirkonnas on 2, seal on 3,
+
+00:57.290 --> 00:59.700
+sellele funktsioonile saab ette anda põhimõtteliselt
+
+00:59.700 --> 01:00.850
+igat reaalarvu.
+
+01:00.850 --> 01:02.810
+Selles hulgas on siis kõik arvud, aga joonistame siia
+
+01:02.810 --> 01:05.150
+mõnusa konteineri et oleks kergem visualiseerida.
+
+01:05.150 --> 01:07.830
+Nüüd, kui olete funktsiooni rakendanud, mõtleme
+
+01:07.830 --> 01:10.000
+mida tähendab võtta f 2'st.
+
+01:10.000 --> 01:13.900
+Me sisestame numbri 2 ja funktsioon
+
+01:13.900 --> 01:15.790
+väljastab numbri 8.
+
+01:15.790 --> 01:19.270
+See viib meist 2'st 8'ni.
+
+01:19.270 --> 01:22.490
+Teeme siia teise hulga kõikidest võimalikest väärtustest,
+
+01:22.490 --> 01:23.930
+mis funktsioon saab väljastada
+
+01:27.780 --> 01:30.300
+ja seda me nimetame muutumispiirkonnaks.
+
+01:30.300 --> 01:33.320
+Sellest võib rääkida ametlikumalt
+
+01:33.320 --> 01:36.640
+ja hiljem, eriti lineaaralgebra juures,
+
+01:36.640 --> 01:39.060
+on sellest palju rangem arutlus, aga selles hulgas on
+
+01:39.060 --> 01:40.200
+kõik erinevad väärtused, mida saame funktsioonilt tagasi.
+
+01:40.200 --> 01:44.550
+Niiet kui võtta määramispiirkonnast numbri 2
+
+01:44.550 --> 01:48.270
+ja panna see funktsiooni, saame numbri 8.
+
+01:48.270 --> 01:50.260
+Joonistan selle kohe välja.
+
+01:50.260 --> 01:56.210
+Niiet liigume 2'lt 8 juurde.
+
+01:56.210 --> 01:59.060
+Ja seda funktsiooni abil.
+
+01:59.060 --> 02:01.210
+Funktsioon näitab meile selle tee.
+
+02:01.210 --> 02:05.190
+Funktsioon viib meid 2'lt 8 juurde.
+
+02:05.190 --> 02:09.180
+See siin, see on f kohal 2 väärtus.
+
+02:09.180 --> 02:10.080
+Sama asi.
+
+02:10.080 --> 02:18.810
+Alustame 3'st, funktsioon viib 3'lt 10'le.
+
+02:18.810 --> 02:20.480
+See loob seose.
+
+02:20.480 --> 02:25.320
+Funktsioon viib meid 3'lt 10'le.
+
+02:25.320 --> 02:28.400
+See tõstatab huvitava küsimuse.
+
+02:28.400 --> 02:32.840
+Kas on võimalik minna 8'lt tagasi 2 juurde või
+
+02:32.840 --> 02:35.220
+10'lt tagasi 3 juurde?
+
+02:35.220 --> 02:37.340
+Või on selleks mõni teine funktsioon?
+
+02:37.340 --> 02:39.870
+Kas on mõni teine funktsioon, mida nimetame f'i pöördfunktsiooniks,
+
+02:39.870 --> 02:41.660
+mis saaks viia meid tagasi?
+
+02:41.660 --> 02:44.260
+Kas on mõni teine funktsioon,
+
+02:44.260 --> 02:46.200
+mis viib meid 10'lt 3'le?
+
+02:46.200 --> 02:48.970
+Nimetagem seda f'i pöördfunktsiooniks, kasutame seda tähistusena,
+
+02:48.970 --> 02:52.790
+ja see viib meid 10'lt tagasi 3 juurde.
+
+02:52.790 --> 02:54.360
+On see võimalik?
+
+02:54.360 --> 02:58.070
+Seesama f'i pöördfunktsioon, kas see viib meid--
+
+02:58.070 --> 03:02.290
+kui me anname talle ette 8 -- kas see viib meid tagasi 2 juurde?
+
+03:07.230 --> 03:10.760
+Kõik see võib paista väga abstraktse ja keerulisena,
+
+03:10.760 --> 03:13.990
+aga peagi saate aru, et tegelikult on väga kerge
+
+03:13.990 --> 03:17.030
+lahendada seda f'i pöördfunktsiooni ja kui oleme selle lahendanud,
+
+03:17.030 --> 03:18.540
+saate aru kõigest millest ma räägin.
+
+03:18.540 --> 03:20.820
+Saate aru, et funktsioon viib teid 2'lt 8'le ja pöördfunktsioon viib
+
+03:20.820 --> 03:23.360
+tagasi 8'lt 2'le.
+
+03:23.360 --> 03:25.470
+Ütleme näiteks, et y
+
+03:25.470 --> 03:27.790
+võrdub f väärtus kohal x.
+
+03:30.620 --> 03:33.510
+Niiet y võrdub f kohal x, võrdub 2x +4.
+
+03:33.510 --> 03:39.110
+Seega võib kirjutada, et y võrdub 2x pluss 4 ja see
+
+03:39.110 --> 03:40.420
+on meie funktsioon.
+
+03:40.420 --> 03:42.470
+Anname sellele x'i, see annab meile y'i,
+
+03:42.470 --> 03:43.990
+aga meil on vaja minna teises suunas.
+
+03:43.990 --> 03:46.760
+Me tahame anda y'i ja saada x'i.
+
+03:46.760 --> 03:50.490
+Niiet meil on vaja lahendada x y'i suhtes.
+
+03:50.490 --> 03:51.160
+Teemegi seda.
+
+03:51.160 --> 03:54.460
+Kui lahutame mõlemast poolest 4-- ma vahetan
+
+03:54.460 --> 03:57.350
+värve-- kui lahutame mõlemast poolest 4,
+
+03:57.350 --> 04:02.310
+saame y-4=2x ja siis kui jagame
+
+04:02.310 --> 04:08.270
+mõlemad pooled 2'ga, saame y jagatud 2'ga miinus 2--
+
+04:08.270 --> 04:12.750
+4 jagatud 2'ga on 2-- võrdub x'ga.
+
+04:12.750 --> 04:15.160
+Või kui tahame, võime pooled vahetada ja
+
+04:15.160 --> 04:20.100
+kirjutada, et x võrdub 1/2y--sama asi mis
+
+04:20.100 --> 04:23.190
+y/2--miinus 2
+
+04:23.190 --> 04:26.270
+Saime funktsiooni y'st, mis annab meile x'i
+
+04:26.270 --> 04:28.750
+ja just seda me tahtsimegi.
+
+04:28.750 --> 04:33.510
+Tahame funktsiooni, mis viib nendelt väärtustelt tagasi x'i juurde.
+
+04:33.510 --> 04:38.100
+Võime öelda, et see on
+
+04:38.100 --> 04:41.840
+--joonistan selle sama värviga--
+
+04:41.840 --> 04:43.570
+f'i pöördfunktsioon y'st.
+
+04:43.570 --> 04:45.080
+Kirjutan selle lahti veidi arusaadavamalt.
+
+04:45.080 --> 04:49.050
+Võime nimetada seda f'i pöördfunktsiooniks y'st--et saaksime kasutada
+
+04:49.050 --> 04:52.650
+10't või 8't--niiet muutumispiirkond on nüüd f'i pöördfunktsiooni määramispiirkond.
+
+04:52.650 --> 04:58.120
+Pöördfunktsioon f'st võrdub 1/2y miinus 2.
+
+04:58.120 --> 05:00.570
+Me alustasime oma esialgse funktsiooniga,
+
+05:00.570 --> 05:05.300
+y=2x+4, avaldasime--siin,
+
+05:05.300 --> 05:07.870
+avaldasime y'i--kasutasime õige pisut
+
+05:07.870 --> 05:12.250
+algebrat, avaldasime x'i ja nimetame seda
+
+05:12.250 --> 05:15.580
+pöördfunktsiooniks y'st.
+
+05:15.580 --> 05:17.370
+Seesama siin.
+
+05:17.370 --> 05:19.570
+Ja nüüd saame
+
+05:19.570 --> 05:22.640
+y asendada a'ga, b'ga, x'ga, millega iganes
+
+05:22.640 --> 05:26.240
+niiet nimetame selle ümber x'ks.
+
+05:26.240 --> 05:29.000
+Kui sellele funktsioonile anda ette x'i, saate
+
+05:29.000 --> 05:34.660
+x = 1/2x-2.
+
+05:34.660 --> 05:38.340
+Niiet tuleb lihtsalt lahendada x'i ja siis vahetada
+
+05:38.340 --> 05:39.720
+x'i ja y'i, kui tahate nii teha.
+
+05:39.720 --> 05:41.240
+Nii on kõige kergem sellest aru saada.
+
+05:41.240 --> 05:44.110
+Üks asi, millele tahaks tähelepanu pöörata, on
+
+05:44.110 --> 05:46.255
+funktsiooni ja pöördfunnktsiooni graafikud.
+
+05:46.255 --> 05:48.420
+Joonistan ühe kiire
+
+05:48.420 --> 05:50.160
+visandi.
+
+05:50.160 --> 05:52.190
+Hiljem teeme läbi erinevaid näiteid lahendamise
+
+05:52.190 --> 05:53.580
+kohta, aga praegu tahan lihtsalt, et
+
+05:53.580 --> 05:55.030
+mõistaksite mis toimub.
+
+05:55.030 --> 05:57.010
+Funktsioon viib määramispiirkonnast muutumispiirkonda,
+
+05:57.010 --> 05:59.570
+pöördfunktsioon viib sellelt punktilt tagasi originaali
+
+05:59.570 --> 06:01.810
+juurde, kui see on olemas.
+
+06:01.810 --> 06:04.500
+Niiet kui ma joonestaks need funktsioonid--
+
+06:04.500 --> 06:08.790
+joonistan siia ühe koordinaattelje
+
+06:08.790 --> 06:12.040
+ja siia teise.
+
+06:12.040 --> 06:16.630
+Esimene funktsioon, 2x+4, selle y'i kordajateks on
+
+06:16.630 --> 06:24.520
+1, 2, 3, 4 ja kalle näeb
+
+06:24.520 --> 06:25.610
+välja selline.
+
+06:25.610 --> 06:31.470
+Selle kalle on 2, niiet näeb see välja--
+
+06:31.470 --> 06:33.870
+teen selle veidi ilusamaks--
+
+06:33.870 --> 06:36.400
+näeb see välja umbes nii.
+
+06:36.400 --> 06:38.450
+Nii näeb välja see funktsioon.
+
+06:38.450 --> 06:40.390
+Milline on aga selle funktsiooni graafik?
+
+06:40.390 --> 06:43.680
+Milline on pöördfunktsiooni graafik?
+
+06:43.680 --> 06:46.980
+Mäletate, lahendasime x'i ja siis vahetasime
+
+06:46.980 --> 06:47.900
+x'i ja y'i omavahel.
+
+06:47.900 --> 06:51.570
+Võime öelda, et y võrdub pöördfunktsiooniga x'st.
+
+06:51.570 --> 06:56.400
+Niiet meil on y'i kordaja negatiivne 2, 1, 2 ja
+
+06:56.400 --> 07:00.150
+nüüd on kalle 1/2.
+
+07:00.150 --> 07:02.230
+Kalle näeb välja nii.
+
+07:02.230 --> 07:04.120
+Proovin selle joonistada.
+
+07:04.120 --> 07:08.510
+Graafik näeb välja umbes selline.
+
+07:08.510 --> 07:10.170
+Milline seos on nende vahel?
+
+07:10.170 --> 07:12.060
+Nendel kahel graafikul on mingi seos, nad oleks
+
+07:12.060 --> 07:14.080
+justkui millestki peegeldatud.
+
+07:14.080 --> 07:15.990
+Et paremini näha millest nad peegeldatud on,
+
+07:15.990 --> 07:19.530
+joonistame joone y=x.
+
+07:19.530 --> 07:22.250
+y=x'i graafik on selline.
+
+07:22.250 --> 07:23.420
+Joonistan selle punktiirjoonena.
+
+07:29.740 --> 07:32.620
+Nagu näete on pöördfunktsioonid sümmeetrilised
+
+07:32.620 --> 07:36.780
+joone y=x suhtes.
+
+07:36.780 --> 07:39.100
+Loodetavasti tundub see loogilisena.
+
+07:39.100 --> 07:41.330
+Sest siin, sellel joonel, võtame
+
+07:41.330 --> 07:42.530
+kerge näite.
+
+07:42.530 --> 07:49.610
+Meie funktsioon -- f 0'st võrdub 4'ga.
+
+07:49.610 --> 07:54.130
+See viib meid 0'lt 4'le.
+
+07:54.130 --> 08:00.050
+Pöördfunktsioon, kui võtta f'i pöördfunktsioon 4'st,
+
+08:00.050 --> 08:02.920
+pöördfunktsioon 4'st võrdub 0'ga.
+
+08:02.920 --> 08:08.120
+F'i pöördfunktsioon viib meid 4'lt 0'le.
+
+08:08.120 --> 08:10.210
+Seda me ootasimegi.
+
+08:10.210 --> 08:14.720
+Funktsioon viib meid x'st y'sse ja siis
+
+08:14.720 --> 08:17.240
+me vahetame x'i ja y'i.
+
+08:17.240 --> 08:18.060
+Võtame pöördfunktsiooni.
+
+08:18.060 --> 08:21.055
+Ja seepärast on graafikud sümmeetrilised y=x suhtes.
+
+08:21.055 --> 08:24.030
+Näide, mille me praegu läbi tegime - funktsioon
+
+08:24.030 --> 08:30.070
+viib 0'lt 4'le-- joonistan seda funktsiooni enda värvides--
+
+08:30.070 --> 08:35.810
+funktsioon viib 0'lt 4'le, see on funktsioon f 0'st.
+
+08:35.810 --> 08:39.680
+See läheb 0'lt 4'le
+
+08:39.680 --> 08:42.550
+ja pöördfunktsioon viib meid
+
+08:42.550 --> 08:45.830
+4'lt tagasi 0'le.
+
+08:45.830 --> 08:49.380
+Niiet f'i pöördfunktsioon viib meid 4'lt 0'le.
+
+08:49.380 --> 08:50.430
+Nägite siinsamas.
+
+08:50.430 --> 08:55.750
+Kui panete x'i asemele 4 - 1/2 korda 4 miinus 2 on 0.
+
+08:55.750 --> 08:57.730
+Järgmises paaris videos teeme läbi mõningaid näiteid,
+
+08:57.730 --> 09:00.180
+et te saaksite paremini aru kuidas seda lahendada ja oskaksite
+
+09:00.180 --> 09:05.010
+teha harjutusi pöördfunktsioonidega.

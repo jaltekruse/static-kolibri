@@ -1,0 +1,347 @@
+WEBVTT
+
+00:00.000 --> 00:01.980
+O que quero fazer neste vídeo
+
+00:01.980 --> 00:07.540
+é ganhar um pouco de prática
+em aproximar a área sob curvas
+
+00:07.540 --> 00:12.880
+e também me familiarizar
+com a notação sigma neste contexto.
+
+00:12.880 --> 00:18.570
+Temos o gráfico de f de x igual a um
+mais 0,1 x ao quadrado.
+
+00:18.570 --> 00:20.590
+É esta curva aqui.
+
+00:20.590 --> 00:25.110
+E temos esses retângulos
+que estão tentando aproximar
+
+00:25.110 --> 00:27.500
+a área abaixo da curva,
+
+00:27.500 --> 00:34.940
+a área abaixo da função f
+entre x igual a zero e x igual a oito.
+
+00:34.940 --> 00:38.980
+O jeito pelo qual o diagrama ou o jeito
+pelo qual estamos tentando fazer isso
+
+00:38.980 --> 00:43.810
+é dividindo isso em quatro retângulos.
+Podemos chamar este de retângulo um.
+
+00:43.810 --> 00:49.930
+Este é o retângulo dois, retângulo
+três e retângulo quatro.
+
+00:49.930 --> 00:53.100
+E a suas respectivas alturas
+- vejamos, estão no intervalo-
+
+00:53.100 --> 00:55.420
+parece que cada um tem
+uma largura igual a dois.
+
+00:55.420 --> 00:56.890
+Estão igualmente espaçados.
+
+00:56.890 --> 01:00.664
+Vamos de zero a oito e dividiríamos
+isso em quatro seções,
+
+01:00.664 --> 01:04.519
+cada uma com dois de largura.
+
+01:04.519 --> 01:07.900
+Isto é dois, aquilo é dois,
+aquilo é dois e aquilo também.
+
+01:07.910 --> 01:14.180
+A altura parece estar
+baseada no ponto médio.
+
+01:14.180 --> 01:17.810
+Entre o começo, entre o lado esquerdo
+e o direito do retângulo, você avalia
+
+01:17.810 --> 01:21.100
+a função no valor médio.
+
+01:21.100 --> 01:24.190
+Por exemplo, esta altura
+parece ser f de um.
+
+01:24.190 --> 01:27.610
+Esta altura aqui parece ser f de três.
+
+01:27.610 --> 01:34.160
+A altura deste retângulo é f de cinco.
+Esta altura aqui é f de sete.
+
+01:34.160 --> 01:36.690
+Dada a maneira pela qual
+isto foi construído,
+
+01:36.690 --> 01:40.760
+queremos somar a área de todos
+esses retângulos para aproximar
+
+01:40.760 --> 01:42.080
+a área embaixo da curva.
+
+01:42.080 --> 01:44.330
+Como escreveríamos isso na notação sigma?
+
+01:44.330 --> 01:48.010
+Vou começar e encorajo você a pausar
+o vídeo e tentar terminar sozinho.
+
+01:48.010 --> 01:54.340
+A soma desses retângulos - poderíamos
+dizer que é a soma dos-
+
+01:54.340 --> 01:58.390
+Temos que n vai de um a quatro,
+porque temos quatro retângulos.
+
+01:58.390 --> 02:02.790
+Eu aconselho você a fazer o resto.
+
+02:02.790 --> 02:07.090
+Apenas escreva isto em termos da função;
+use a notação de função.
+
+02:07.090 --> 02:12.360
+Não precisa escrever isso como um
+mais 0,1 vezes alguma coisa ao quadrado.
+
+02:12.360 --> 02:14.290
+Estou assumindo que você tentou.
+
+02:14.290 --> 02:17.600
+Para cada um desses -para o primeiro-
+
+02:17.600 --> 02:22.660
+Para o primeiro retângulo, vamos
+multiplicar dois vezes a altura.
+
+02:22.660 --> 02:27.260
+A altura aqui é um e esse
+é o primeiro retângulo,
+
+02:27.260 --> 02:31.680
+então você pode estar imaginando
+que seja vezes f de n.
+
+02:31.680 --> 02:34.310
+Mas isso não é válido quando
+vamos ao segundo retângulo.
+
+02:34.310 --> 02:36.560
+No segundo retângulo
+a largura ainda é dois,
+
+02:36.560 --> 02:44.702
+mas agora queremos multiplicar
+por f de três e não f de dois.
+
+02:44.702 --> 02:52.460
+Este f de n não se qualifica.
+
+02:52.460 --> 02:55.560
+Vejamos como queremos pensar sobre isto.
+
+02:55.560 --> 03:05.560
+Quando n é um, dois, três, quatro,
+vamos avaliar f de n.
+
+03:05.560 --> 03:08.860
+Vamos avaliar f de alguma coisa.
+
+03:08.860 --> 03:12.300
+Neste primeiro, vamos calcular f de um.
+
+03:12.300 --> 03:16.695
+Para o segundo retângulo,
+iremos calcular f de três.
+
+03:16.700 --> 03:18.300
+f de três, para a altura.
+
+03:18.300 --> 03:22.219
+Para o terceiro retângulo,
+estamos calculando f de cinco.
+
+03:22.219 --> 03:28.260
+E para o quarto retângulo,
+calculamos f de sete.
+
+03:28.260 --> 03:30.120
+Então qual é a relação?
+
+03:30.120 --> 03:30.830
+Veremos.
+
+03:30.830 --> 03:35.890
+Parece que se você multiplicar
+por dois e subtrair um -
+
+03:35.890 --> 03:39.000
+dois vezes um menos um é um.
+Dois vezes dois menos um é três.
+
+03:39.000 --> 03:42.830
+Dois vezes três menos um é cinco.
+
+03:42.830 --> 03:46.030
+Duas vezes quatro menos um é sete.
+
+03:46.030 --> 03:49.120
+Isso é dois vezes n menos um.
+
+03:49.120 --> 03:50.820
+A área de cada retângulo --
+
+03:50.820 --> 03:59.011
+a base é dois e a altura é f
+de dois n menos um.
+
+03:59.011 --> 04:04.411
+Tomara que isso tenha ajudado
+a relacionar a notação sigma
+
+04:04.411 --> 04:06.290
+com o que queremos fazer.
+
+04:06.290 --> 04:10.350
+Só por diversão, vamos
+tentar calcular isso.
+
+04:10.360 --> 04:13.260
+Isso será igual a que?
+
+04:13.260 --> 04:20.350
+Isso será igual a duas vezes f de
+-quando n é igual a um, isso é um.-
+
+04:20.350 --> 04:28.530
+f de um mais dois vezes -quando n é dois,
+será f de dois vezes dois menos um é três,
+
+04:28.530 --> 04:35.270
+f de três. Quando n é três, isso será
+dois vezes f de cinco.
+
+04:35.270 --> 04:41.900
+Quando n é quatro, isso será
+dois vezes f de sete.
+
+04:41.900 --> 04:46.570
+Quatro vezes dois menos um
+é sete. f de sete.
+
+04:46.570 --> 04:51.850
+Isso será igual a - mas teremos
+que calcular muitas dessas coisas.
+
+04:51.860 --> 04:55.670
+Deixe-me limpar isso para que eu tenha
+um pouco mais de espaço.
+
+04:55.670 --> 04:59.590
+--estou sentindo que isto pode
+ficar um pouco bagunçado.--
+
+04:59.600 --> 05:01.810
+Isso será-- podemos fatorar esse dois.
+
+05:01.810 --> 05:09.250
+Isso será igual a dois vezes f de um, que
+é um mais 0,1 vezes um ao quadrado.
+
+05:09.250 --> 05:11.950
+É um mais 0,1.
+
+05:11.950 --> 05:14.970
+Deixe-me colorir isso para
+que possamos acompanhar as coisas.
+
+05:14.970 --> 05:23.440
+Isto aqui é 1,1. Um mais 0,1 é 1,1.
+
+05:23.440 --> 05:31.430
+Isto aqui é f de três. Isso é um mais 0,1
+vezes três ao quadrado, que é nove.
+
+05:31.430 --> 05:36.360
+Isso é um mais 0,9, que é igual a 1,9.
+
+05:36.360 --> 05:46.042
+Esse f de cinco, será igual a um mais
+- cinco ao quadrado é 25, vezes 0,1 é 2,5.
+
+05:46.042 --> 05:49.320
+Então será um mais 2,5, que é 3,5.
+
+05:49.320 --> 05:59.470
+E, finalmente, f de sete, que será
+um mais 0,1 vezes sete ao quadrado.
+
+05:59.470 --> 06:05.937
+Isso é 49 vezes 0,1, que é 4,9
+
+06:05.937 --> 06:10.258
+mais um é 5,9.
+
+06:10.258 --> 06:13.076
+Isto será igual a que?
+
+06:13.076 --> 06:14.316
+Veremos.
+
+06:14.316 --> 06:21.220
+1,1 mais 1,9. Essa soma será igual a três.
+
+06:21.220 --> 06:33.328
+E esses dois --veremos, se somamos cinco,
+temos 8,5, e se somamos 0,9 temos 9,4.--
+
+06:33.328 --> 06:35.620
+Mais 9,4.
+
+06:35.620 --> 06:38.510
+Será que fiz isso certo?
+Três mais cinco é oito.
+
+06:38.510 --> 06:41.810
+0,5 mais 0,9 é 1,4. Sim.
+
+06:41.810 --> 06:44.980
+Mais uma vez, temos
+dois vezes tudo isso.
+
+06:44.980 --> 06:50.796
+Isso será igual a dois vezes 12,4
+
+06:50.796 --> 06:56.430
+que é igual a 24,8.
+Essa é a nossa aproximação.
+
+06:56.430 --> 06:59.570
+Mais uma vez, isto é apenas uma
+aproximação usando os retângulos
+
+06:59.570 --> 07:04.980
+da área embaixo da curva
+entre x igual a zero e x igual a oito.
+
+07:04.980 --> 07:06.780
+Legendado por: Pilar Dib
+Revisado por: Sérgio Fleury

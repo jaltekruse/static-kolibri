@@ -1,0 +1,615 @@
+WEBVTT
+
+00:00.022 --> 00:02.842
+Trước khi vào phần nội dung của đại số,
+
+00:02.842 --> 00:05.967
+đây là một câu nói của một trong những người
+
+00:05.967 --> 00:08.849
+vĩ đại nhất -- Galileo Galilei, mình nghĩ
+
+00:08.849 --> 00:13.750
+nó tóm tắt vấn đề thực sự của đại số
+và toán học nói chung.
+
+00:13.750 --> 00:17.231
+Ông nói "Triết học được viết trong cuốn sách vĩ đại
+
+00:17.231 --> 00:20.850
+vẫn luôn mở ra trước mắt chúng ta - ý tôi là vũ trụ -
+
+00:20.850 --> 00:22.973
+nhưng chúng ta không thể hiểu được nó
+
+00:22.973 --> 00:25.305
+nếu chúng ta không trước hết học ngôn ngữ
+
+00:25.305 --> 00:27.326
+và ký tự mà nó được viết nên.
+
+00:27.326 --> 00:29.786
+Cuốn sách này được viết bằng ngôn ngữ toán học,
+
+00:29.786 --> 00:32.014
+mà nếu không có nó
+
+00:32.014 --> 00:36.259
+con người sẽ bị lạc vào một mê cung tối."
+
+00:36.259 --> 00:38.822
+Rất ấn tượng nhưng cũng rất sâu sắc.
+
+00:38.822 --> 00:42.888
+Đây chính là ý chính về đại số.
+Khi càng đi sâu vào đại số,
+
+00:42.888 --> 00:46.805
+mọi thứ sẽ trở nên khá trừu tượng.
+
+00:46.805 --> 00:50.034
+Và mình sẽ bắt đầu chắt lọc những ý tưởng
+
+00:50.034 --> 00:52.388
+giải thích cách vũ trụ này được cấu trúc.
+
+00:52.388 --> 00:55.035
+Những ý tưởng này có thể được áp dụng cho
+
+00:55.035 --> 00:57.275
+kinh tế, tài chính, vật lý hay hóa học.
+
+00:57.275 --> 01:02.429
+Nhưng về cơ bản chúng vẫn là một ý tưởng
+của toán học.
+
+01:04.701 --> 01:08.388
+Để rõ hơn về các ý tưởng cốt lõi
+
+01:08.388 --> 01:11.799
+vì mình đã bắt đầu với khái niệm khá rộng
+
+01:11.799 --> 01:13.251
+là triết học vũ trụ
+
+01:13.251 --> 01:15.160
+được viết dưới dạng toán học.
+
+01:15.160 --> 01:16.366
+Mình sẽ bắt đầu
+
+01:16.366 --> 01:18.536
+với một ý tưởng cụ thể, đơn giản.
+
+01:18.536 --> 01:20.451
+Và ta sẽ dần trừ tượng hóa,
+
+01:20.451 --> 01:23.740
+để xem các ý tưởng giống nhau liên kết như thế nào
+
+01:23.740 --> 01:26.257
+trên các miền khác nhau trong vũ trụ.
+
+01:26.257 --> 01:28.125
+Giả sử mình đang ở cửa hàng
+
+01:28.125 --> 01:30.346
+và họ đang có giảm giá
+
+01:30.346 --> 01:37.301
+Họ bảo sẽ giảm 30%.
+
+01:37.301 --> 01:42.096
+Giả sử mình muốn mua quần tây nhé.
+
+01:42.096 --> 01:46.555
+Trước khi giảm giá, quần tây này có giá $20.
+
+01:46.555 --> 01:49.492
+Vậy mình muốn mua quần tây giá $20 này,
+
+01:49.492 --> 01:53.020
+và nó đang được giảm 30% nữa.
+
+01:53.020 --> 01:54.612
+Mình bắt đầu nghĩ xem
+
+01:54.612 --> 01:57.200
+mình sẽ giảm được bao nhiêu từ $20 này?
+
+01:57.200 --> 01:58.939
+Cái này chưa hẳn là đại số.
+
+01:58.939 --> 02:01.430
+Nhưng chắc bạn đã biết dạng bài này rồi.
+
+02:01.430 --> 02:04.306
+Bạn sẽ nhân 30% cho $20
+
+02:04.306 --> 02:10.532
+Và bạn sẽ có tiền được giảm giá của bạn
+
+02:10.532 --> 02:14.074
+bằng với 30% nhân $20.
+
+02:14.074 --> 02:16.898
+Để mình viết bằng màu tím.
+
+02:16.898 --> 02:20.383
+Hoặc nếu bạn muốn viết nó dưới dạng thập phân
+
+02:20.383 --> 02:24.657
+bạn có thể viết là 0.30 nhân $20
+
+02:24.657 --> 02:27.346
+Khi giải toán thì mình có được $6.
+
+02:27.346 --> 02:29.928
+Chưa có gì mới ở đây.
+
+02:29.928 --> 02:34.301
+Nhưng nếu mình khái quát nó thì sao?
+
+02:34.301 --> 02:37.139
+Nếu mình muốn biết số tiền giảm
+
+02:37.139 --> 02:39.786
+trên bất kỳ thứ gì trong cửa hàng thì sao?
+
+02:39.786 --> 02:41.636
+Mình gọi x là giá tiền gốc,
+
+02:41.636 --> 02:44.429
+à để mình viết bằng màu khác.
+
+02:46.117 --> 02:48.451
+Ở đây, x là giá tiền gốc
+
+02:48.451 --> 02:52.142
+của sản phẩm mình muốn mua.
+
+02:52.142 --> 03:00.502
+Nó sẽ là giá chưa giảm của sản phẩm nhé.
+
+03:00.502 --> 03:07.058
+Vậy số tiền giảm giá của mình
+
+03:07.058 --> 03:14.931
+sẽ bằng với 30% nhân x.
+
+03:14.931 --> 03:18.228
+Hoặc nếu mình muốn viết dưới dạng thập phân
+
+03:18.228 --> 03:25.273
+nó sẽ là 0.30 nhân x.
+
+03:25.273 --> 03:27.303
+Cái này thật thú vị.
+
+03:27.303 --> 03:29.533
+Giờ bạn đưa mình giá gốc nào,
+
+03:29.533 --> 03:31.678
+mình sẽ thế nó vào x.
+
+03:31.678 --> 03:34.223
+Và mình chỉ cần nhân 0.3 với nó,
+
+03:34.223 --> 03:36.491
+thì mình sẽ có được số tiền giảm giá.
+
+03:36.491 --> 03:40.949
+Vậy là mình đã đang bắt đầu, từ từ đi vào
+
+03:40.949 --> 03:43.545
+phần trừu tượng hơn của đại số.
+
+03:43.545 --> 03:45.617
+Các ý tưởng đại số, càng về sau
+
+03:45.617 --> 03:48.329
+sẽ càng trừu tượng và chuyên sâu hơn
+
+03:48.329 --> 03:50.507
+và đẹp hơn nữa.
+
+03:50.507 --> 03:52.105
+Nhưng chưa xong.
+
+03:52.105 --> 03:54.480
+Ta có thể trừu tượng hóa nó hơn nữa.
+
+03:54.480 --> 03:56.623
+Ở đây mình đã khái quát bài này
+
+03:56.623 --> 03:58.064
+cho mọi sản phẩm.
+
+03:58.064 --> 04:00.434
+Với cái này, mình còn có thể áp dụng
+
+04:00.434 --> 04:02.648
+với những mặt hàng khác ngoài $20.
+
+04:02.648 --> 04:03.913
+Nếu có cái gì $10,
+
+04:03.913 --> 04:05.784
+mình chỉ cần thế 10 vào x để giải.
+
+04:05.784 --> 04:08.063
+Vậy mình sẽ có, 0.3 nhân 10,
+
+04:08.063 --> 04:09.994
+và số tiền giảm giá sẽ là $3.
+
+04:09.994 --> 04:11.878
+Món đồ có thể lên tới $100,
+
+04:11.878 --> 04:14.008
+và số tiền mình giảm được là $30.
+
+04:14.008 --> 04:16.464
+Nhưng giờ mình sẽ khái quát nó thêm nhé.
+
+04:16.464 --> 04:19.048
+Mình sẽ tìm số tiền giảm giá
+
+04:19.048 --> 04:23.344
+cho một đồ bất kỳ
+với một khoản giảm giá bất kỳ.
+
+04:23.344 --> 04:25.776
+Để mình xác định các biến số.
+
+04:25.776 --> 04:29.463
+Mình sẽ đặt m bằng
+
+04:29.463 --> 04:31.944
+à không, mình sẽ để p cho dễ hiểu.
+
+04:31.944 --> 04:41.006
+p là phần trăm giảm giá.
+
+04:41.006 --> 04:42.672
+Giờ mình sẽ làm gì tiếp?
+
+04:42.672 --> 04:46.551
+Mình sẽ cho số tiền giảm
+
+04:46.551 --> 04:48.510
+bằng với số phần trăm giảm.
+
+04:48.510 --> 04:51.057
+Ta giảm 30% ở ví dụ trước.
+
+04:51.057 --> 04:52.756
+Nhưng giờ số đó là p.
+
+04:52.756 --> 04:55.072
+Đó là phần trăm giảm của món đồ.
+
+04:55.667 --> 04:58.512
+Đó là phần trăm giảm nhân với
+
+04:58.512 --> 05:00.927
+giá tiền của sản phẩm trong câu hỏi
+
+05:00.927 --> 05:02.633
+tức là giá gốc chưa giảm.
+
+05:02.633 --> 05:04.101
+Nó sẽ là x.
+
+05:04.101 --> 05:05.833
+Khoản tiền giảm bằng với
+
+05:05.833 --> 05:08.473
+p nhân x.
+
+05:08.473 --> 05:10.189
+Giờ thì mình đã có cách tính
+
+05:10.189 --> 05:11.290
+số tiền giảm giá
+
+05:11.290 --> 05:13.330
+của bất kỳ phần trăm giảm nào
+
+05:13.330 --> 05:17.331
+cho bất kỳ sản phẩm giá x nào đó.
+
+05:17.331 --> 05:18.968
+Mà mình cũng không nhất thiết
+
+05:18.968 --> 05:20.978
+phải dùng các ký tự chữ này nữa.
+
+05:20.978 --> 05:23.985
+Mình có thể viết là,
+
+05:23.985 --> 05:29.677
+cho y là khoản giảm giá.
+
+05:29.677 --> 05:32.677
+Và mình có thể làm những ý tưởng tương tự.
+
+05:32.677 --> 05:40.147
+Mình có thể viết y bằng phần trăm giảm p
+
+05:40.147 --> 05:44.845
+nhân với giá tiền gốc, là nhân với x.
+
+05:44.845 --> 05:47.722
+Bạn có thể xác định các chữ này
+theo cách bạn muốn.
+
+05:47.722 --> 05:48.831
+Thay vì là y,
+
+05:48.831 --> 05:50.822
+bạn hoàn toàn có thể để một chữ Hy Lạp,
+
+05:50.822 --> 05:53.271
+hay bạn có thể để một ký tự nào đó.
+
+05:53.271 --> 05:55.321
+Miễn sao bạn nhớ nó biểu diễn
+
+05:55.321 --> 05:57.176
+số tiền giảm trên thực tế.
+
+05:57.176 --> 05:59.218
+Được rồi mình sẽ tiếp tục nhé.
+
+05:59.218 --> 06:03.298
+Bạn thấy mình đang có mối liên hệ dưới dạng
+
+06:03.298 --> 06:08.177
+phương trình này, là y bằng cái này ở đây,
+
+06:08.177 --> 06:10.069
+mình có thể dùng nó cho bài toán khác.
+
+06:10.069 --> 06:12.312
+Kể cả các bài không liên quan tới giá tiền
+
+06:12.312 --> 06:14.849
+hay số tiền giảm giá như trên.
+
+06:14.849 --> 06:17.847
+Ví dụ trong vật lý, bạn thấy là
+
+06:17.847 --> 06:21.907
+một lực bằng với khối lượng nhân gia tốc.
+
+06:21.907 --> 06:23.363
+Các ký tự thì khác nhau,
+
+06:23.363 --> 06:25.388
+nhưng thật ra ý tưởng nó vẫn vậy.
+
+06:25.388 --> 06:38.362
+Mình có thể cho y là lực, khối lượng là p.
+
+06:38.362 --> 06:40.578
+Để mình viết p bằng khối lượng.
+
+06:40.578 --> 06:43.020
+Mình muốn cho bạn thấy
+
+06:43.020 --> 06:45.792
+cách các ý tưởng và mối liên hệ này
+
+06:45.792 --> 06:48.675
+được áp dụng vào những thứ khác nhau.
+
+06:48.675 --> 06:57.390
+Và bạn có thể cho x là gia tốc.
+
+06:57.390 --> 06:59.735
+Biểu thức lực F bằng khối lượng (m)
+
+06:59.735 --> 07:03.912
+nhân với gia tốc (a) được viết lại thành
+
+07:03.912 --> 07:07.884
+y, mà mình đã xác định là lực
+
+07:07.884 --> 07:11.071
+bằng với khối lượng, mình sẽ dùng chữ p,
+
+07:11.071 --> 07:12.732
+nhân gia tốc,
+
+07:12.732 --> 07:15.350
+và mình sẽ dùng chữ x ở đây.
+
+07:15.350 --> 07:17.550
+Nhân cho x.
+
+07:17.550 --> 07:19.759
+Vậy cái này cũng là phương trình này.
+
+07:19.759 --> 07:23.592
+Và bạn thấy bạn có thể lấy phương trình này
+
+07:23.592 --> 07:26.197
+và áp dụng nó vào kinh tế
+
+07:26.197 --> 07:30.499
+hoặc áp dụng nó vào những môn tài chính,
+
+07:30.499 --> 07:33.552
+hoặc là những môn khoa học máy tính, lôgic
+
+07:33.552 --> 07:36.186
+kĩ sư, hoặc thậm chí là kế toán nữa.
+
+07:36.186 --> 07:38.677
+Có rất nhiều lĩnh vực mình có thể áp dụng
+
+07:38.677 --> 07:40.570
+với một phương trình này.
+
+07:40.570 --> 07:42.446
+Cái hay trong toán học
+
+07:42.446 --> 07:44.175
+hay trong đại số là
+
+07:44.175 --> 07:48.936
+mình có thể tập trung vào sự trừu tượng này.
+
+07:48.936 --> 07:51.632
+Mình có thể tận dụng nó
+
+07:51.632 --> 07:54.342
+để biến đổi và áp dụng nhiều thứ khác.
+
+07:54.342 --> 07:57.467
+Việc khái quát các ý tưởng sẽ giúp mình
+
+07:57.467 --> 08:01.737
+giải quyết được nhiều vấn đề ứng dụng hơn.
+
+08:01.737 --> 08:03.059
+Một điều hay nữa là
+
+08:03.059 --> 08:05.298
+nó cho mình biết cấu trúc của vũ trụ
+
+08:05.298 --> 08:07.611
+nếu như bạn bỏ đi hết các định nghĩa
+
+08:07.611 --> 08:09.285
+mà con người áp đặt lên
+
+08:09.285 --> 08:11.714
+hay tất cả các ứng dụng của con người.
+
+08:11.714 --> 08:14.613
+Ví dụ nếu y bằng p nhân x
+
+08:14.613 --> 08:16.882
+vậy nếu có ai đó bảo cái này là y
+
+08:16.882 --> 08:19.634
+và người khác bảo họ có p nhân x
+
+08:19.634 --> 08:20.800
+thì bạn có thể kết luận
+
+08:20.800 --> 08:22.621
+hai người có cùng một thứ.
+
+08:22.621 --> 08:25.246
+Và nếu bạn muốn chia một trong số chúng
+
+08:25.246 --> 08:28.338
+cho một số, và nếu bạn muốn chúng bằng nhau
+
+08:28.338 --> 08:30.759
+bạn cần chia số còn lại cho số đó.
+
+08:30.759 --> 08:35.300
+Ví dụ mình biết y bằng p nhân x.
+
+08:35.300 --> 08:38.289
+Nếu như bạn muốn cả hai vế bằng nhau
+
+08:38.289 --> 08:40.925
+bạn chỉ cần chia vế còn lại cho số đó.
+
+08:40.925 --> 08:42.717
+Vậy y chia cho x sẽ bằng gì?
+
+08:42.717 --> 08:45.112
+Vậy y bằng với p nhân x, nên y chia x
+
+08:45.112 --> 08:48.987
+sẽ bằng với p nhân x chia x.
+
+08:48.987 --> 08:51.354
+Vì p nhân x chia x,
+
+08:51.354 --> 08:55.201
+nếu bạn nhân một số và chia cho số đó,
+
+08:55.201 --> 08:57.384
+bạn sẽ có lại số ban đầu.
+
+08:57.384 --> 08:59.944
+Nếu bạn nhân 5 chia 5,
+
+08:59.944 --> 09:02.883
+và bạn còn lại p, hay là số gì đấy tuỳ bạn.
+
+09:02.883 --> 09:05.238
+Hai cái này triệt tiêu nhau.
+
+09:05.238 --> 09:08.029
+Mình có thể biến đổi công thức khái quát này
+
+09:08.029 --> 09:16.520
+và có y/x bằng với p-- để mình đổi thành màu xanh lá
+
+09:16.520 --> 09:18.901
+Và mỗi ý tưởng này
+
+09:18.901 --> 09:21.078
+sẽ có một ý nghĩa khác nhau.
+
+09:21.078 --> 09:23.568
+Một cái cho mình biết một điểm căn bản
+
+09:23.568 --> 09:25.879
+về vũ trụ vốn không có các ứng dụng
+
+09:25.879 --> 09:28.447
+Nhưng giờ bạn có thể áp dụng trở lại
+
+09:28.447 --> 09:30.466
+vào toán, và nhiều nơi khác.
+
+09:30.466 --> 09:32.139
+Và cái hay nữa là
+
+09:32.139 --> 09:34.251
+sẽ có vô hạn các ứng dụng
+
+09:34.251 --> 09:37.007
+và mình còn không biết hết được nó nữa.
+
+09:37.007 --> 09:39.049
+Con người sẽ tìm ra nhiều cái mới như vậy
+
+09:39.049 --> 09:40.756
+trong nghìn năm nữa.
+
+09:40.756 --> 09:43.021
+Mong là video này giúp bạn hiểu
+
+09:43.021 --> 09:45.042
+những điều mà Galileo nói nhé,
+
+09:45.042 --> 09:47.613
+rằng toán học thực sự là ngôn ngữ
+
+09:47.613 --> 09:50.886
+mà ta dùng để hiểu về triết học của vũ trụ.
+
+09:50.886 --> 09:53.109
+Thậm chí có người còn nói
+
+09:53.109 --> 09:56.178
+nếu người ngoài hành tinh tiếp cận chúng ta,
+
+09:56.178 --> 09:59.060
+toán có thể là tiếng nói chung đầu tiên,
+
+09:59.060 --> 10:02.310
+Nó sẽ cho ta những thứ cơ bản
+
+10:02.310 --> 10:06.384
+để từ đó ta giao tiếp được.

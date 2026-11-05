@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.740 --> 00:04.160
+Haydi 75 sayısını asal çarpanlarına ayıralım
+
+00:04.160 --> 00:07.390
+ve sonucu üslü sayılar cinsinden yazalım.
+
+00:07.390 --> 00:08.970
+Burada birkaç ilginç nokta var:
+
+00:08.970 --> 00:12.410
+Asal çarpanlara ayırma, ve burada üslü sayılar cinsinden yazımdan bahsediyor.
+
+00:12.410 --> 00:15.460
+Üslü sayılar cinsinden yazımla birazdan ilgileneceğiz.
+
+00:15.460 --> 00:18.560
+Öyleyse üzerine kafa yoracağımız ilk soru şu:
+
+00:18.560 --> 00:19.380
+Asal sayı nedir?
+
+00:19.380 --> 00:22.240
+Küçük bir hatırlatma; asal sayıların yalnızca iki bölenleri vardır:
+
+00:22.240 --> 00:26.130
+Kendisi ve 1.
+
+00:26.130 --> 00:28.880
+Şimdi asal sayılara birkaç örnek verelim.
+
+00:28.880 --> 00:34.753
+Asal, ve asal değil.
+
+00:34.760 --> 00:36.840
+2 bir asal sayıdır.
+
+00:36.840 --> 00:39.850
+Çünkü sadece 1'e ve 2'ye bölünebilir.
+
+00:39.850 --> 00:42.490
+Aynı şekilde 3 de bir asal sayıdır.
+
+00:42.490 --> 00:46.790
+Fakat 4, asal sayı değildir.
+
+00:46.790 --> 00:49.790
+Çünkü bu sayı 1'e, 2'ye ve 4'e bölünebilir.
+
+00:49.790 --> 00:50.580
+Devam edelim.
+
+00:50.580 --> 00:56.220
+5, sadece 1'e ve 5'e bölünebildiği için asal sayıdır.
+
+00:56.220 --> 00:59.920
+6 asal sayı değildir, çünkü 2'ye ve 3'e bölünebilir.
+
+00:59.920 --> 01:01.590
+Sanırım mantığını anladınız.
+
+01:01.590 --> 01:04.160
+7ye gelirsek, 7 asal sayıdır.
+
+01:04.160 --> 01:06.470
+Sadece 1'e ve 7'ye bölünebilir.
+
+01:06.470 --> 01:08.220
+8 asal sayı değildir.
+
+01:08.220 --> 01:11.440
+9'a gelirsek, belki ilk bakışta asal sayı olduğunu düşünmüş olabilirsiniz.
+
+01:11.440 --> 01:15.420
+Ama unutmayın; 9, 3'e de bölünebilir, yani asal sayı değildir.
+
+01:15.420 --> 01:18.970
+Asal sayılarla tek sayılar aynı şey değildir.
+
+01:18.970 --> 01:21.400
+10'a gelirsek, 10 da asal değildir.
+
+01:21.400 --> 01:23.560
+Çünkü 2'ye ve 5'e bölünebilir.
+
+01:23.560 --> 01:27.220
+11 sadece 1'e ve 11'e bölünebilir.
+
+01:27.220 --> 01:28.240
+Öyleyse 11 asal sayıdır.
+
+01:28.240 --> 01:29.780
+İşte bu şekilde devam eder.
+
+01:29.780 --> 01:31.570
+İnsanlar, asal sayıları bulup en yüksek asal sayıyı hesaplıyorlar.
+
+01:31.570 --> 01:33.260
+Hatta bunun için bilgisayar programları yazıyorlar.
+
+01:33.260 --> 01:35.220
+Şimdi, bir asal sayının ne olduğunu anladık.
+
+01:35.220 --> 01:39.240
+Asal çarpanlara ayırma ise, bir sayıyı, mesela 75'i, asal sayıların
+
+01:39.240 --> 01:41.620
+çarpımı şeklinde yazmaktır.
+
+01:41.620 --> 01:43.180
+Haydi bunu yapmayı deneyelim.
+
+01:43.180 --> 01:45.530
+Burada, asal çarpanlara ayırma işlemini,
+
+01:45.530 --> 01:49.080
+"çarpan ağacı" adı verilen yöntemle yapacağız.
+
+01:49.080 --> 01:51.750
+Şimdi, burada ilk yapacağımız şu:
+
+01:51.750 --> 01:53.890
+75'i bölen en küçük asal sayıyı bulmak.
+
+01:53.890 --> 01:55.430
+Düşünelim; en küçük asal sayı 2'dir.
+
+01:55.430 --> 01:57.390
+Peki 2, 75'i böler mi?
+
+01:57.390 --> 02:00.705
+75 bir tek sayı, çünkü birler basamağında 5 var.
+
+02:00.705 --> 02:02.280
+5 bir tek sayı.
+
+02:02.280 --> 02:06.580
+5, 2'ye bölünmediğinden; 2, 75'i bölemez.
+
+02:06.580 --> 02:08.090
+Şimdi 3'ü deneyelim.
+
+02:08.090 --> 02:09.639
+3, 75'i böler mi?
+
+02:09.639 --> 02:12.440
+7 artı 5 eşittir 12.
+
+02:12.440 --> 02:15.480
+12, 3'e bölünür; öyleyse 3, 75'i böler.
+
+02:15.480 --> 02:20.440
+Anladık ki 75 eşittir 3 çarpı başka bir sayı.
+
+02:20.440 --> 02:22.990
+Bozuk paraları düşünelim; 3 çeyrek lira,
+
+02:22.990 --> 02:25.890
+75 kuruş eder. Başka bir deyişle 3 çarpı 25,
+
+02:25.890 --> 02:28.930
+eşittir 75.
+
+02:28.930 --> 02:31.560
+Öyleyse 75 eşittir 3 çarpı 25.
+
+02:31.560 --> 02:33.720
+Bana inanmıyorsanız çarpabilirsiniz.
+
+02:33.720 --> 02:35.960
+3 çarpı 25 eşittir 75.
+
+02:35.960 --> 02:40.470
+Şimdi, 25 neye bölünür? 2'yi unutun.
+
+02:40.470 --> 02:44.910
+2, 75'i bölemiyorsa 25'i de bölemez demektir.
+
+02:44.910 --> 02:46.000
+Ama belki 3, 25'i böler;
+
+02:46.000 --> 02:48.730
+yoksa bölmez mi?
+
+02:48.730 --> 02:52.290
+2 artı 5 eşittir 7 ve 7, 3'e bölünmez.
+
+02:52.290 --> 02:57.700
+Öyleyse 3, 25'i bölemez.
+
+02:57.700 --> 02:59.480
+Devam edelim, sırada 5 var.
+
+02:59.480 --> 03:01.430
+5, 25'i böler mi?
+
+03:01.430 --> 03:01.980
+Tabii ki böler.
+
+03:01.980 --> 03:03.590
+5 çarpı 5'e eşittir.
+
+03:03.590 --> 03:08.330
+Yani 25 eşittir 5 çarpı 5.
+
+03:08.330 --> 03:11.730
+Böylelikle asal çarpanlara ayırma işlemini tamamladık.
+
+03:11.730 --> 03:13.390
+Çünkü elde ettiğimiz bütün çarpanlar asal.
+
+03:13.390 --> 03:18.270
+Yani daha başka bir sayıya bölünemez.
+
+03:18.270 --> 03:25.640
+Öyleyse 75 eşittir 3 çarpı 5 çarpı 5.
+
+03:25.640 --> 03:27.350
+Başka bir deyişle 3 çarpı 25,
+
+03:27.350 --> 03:29.400
+25 ise 5 çarpı 5,
+
+03:29.400 --> 03:33.370
+o da eşittir 75.
+
+03:33.370 --> 03:36.460
+İşte bu, asal çarpanlara ayırma. Fakat soruda;
+
+03:36.460 --> 03:41.690
+bu ifadeyi üslü sayılar cinsinden yazmamız isteniyor.
+
+03:41.690 --> 03:44.560
+Burada yapmamız gereken; tekrarlayan sayıları,
+
+03:44.560 --> 03:45.920
+üslü sayılar cinsinden yazmak.
+
+03:45.920 --> 03:48.480
+Öyleyse 5 çarpı 5 nedir?
+
+03:48.480 --> 03:52.380
+5'in kendisiyle 2 kere çarpılmasıdır.
+
+03:52.380 --> 03:56.310
+Yani 5 üssü 2'dir.
+
+03:56.310 --> 03:58.380
+Eğer cevabımızı üslü sayılar cinsinden yazacaksak,
+
+03:58.380 --> 04:03.420
+diyebiliriz ki 75 eşittir 3 çarpı 5 üssü 2; yani,
+
+04:03.420 --> 04:08.110
+3 çarpı 5 çarpı 5.

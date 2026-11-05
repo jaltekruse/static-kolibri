@@ -1,0 +1,820 @@
+WEBVTT
+
+00:00.250 --> 00:02.180
+Mình vừa vẽ một hàm tùy ý ở đây.
+
+00:02.180 --> 00:04.075
+Và việc chúng ta sẽ làm
+
+00:04.075 --> 00:05.820
+là ước lượng hàm tùy ý này
+
+00:05.820 --> 00:09.120
+sử dụng một đa thức, tuy nhiên ta chưa biết nó là gì.
+
+00:09.120 --> 00:12.019
+Ta sẽ tiếp tục thêm vào các số hạng vào đa thức đó.
+
+00:12.029 --> 00:13.870
+Nhưng để làm điều này, mình sẽ cho là
+
+00:13.870 --> 00:16.582
+ta có thể tính các giá trị của hàm tại 0
+
+00:16.582 --> 00:17.520
+và sau đó chúng ta
+
+00:17.520 --> 00:19.985
+có thể tiếp tục tính đạo hàm của hàm số
+
+00:19.985 --> 00:21.900
+và tính đạo hàm bậc nhất, bậc hai,
+
+00:21.900 --> 00:25.450
+bậc ba, tiếp tục như vậy và tại 0 nữa.
+
+00:25.450 --> 00:28.940
+Và ta đang giả thiết là
+
+00:28.940 --> 00:31.720
+chúng ta biết giá trị của f'(0)
+
+00:31.720 --> 00:34.450
+f''(0)
+
+00:34.450 --> 00:38.340
+và cả f'''(0) là gì.
+
+00:38.340 --> 00:40.300
+Và chúng ta có thể
+
+00:40.300 --> 00:44.940
+dùng kí hiệu cho chúng.
+
+00:44.940 --> 00:47.910
+Vậy hãy thử suy nghĩ làm cách nào chúng ta
+
+00:47.910 --> 00:50.770
+có thể sử dụng những đa thức dài liên tục
+
+00:50.770 --> 00:53.499
+Và ta có thể có một đa thức chỉ với một số hạng.
+
+00:53.499 --> 00:55.780
+Nó sẽ là một số hạng không thay đổi
+
+00:55.780 --> 00:58.050
+và là một đa thức bậc 0.
+
+00:58.050 --> 00:59.930
+Nếu ta có một số hạng là hằng số, ít nhất
+
+00:59.930 --> 01:03.580
+ta muốn tạo một đa thức không đổi, tức là
+
+01:03.580 --> 01:08.160
+chỉ có một hàm hằng - bằng với f(0).
+
+01:08.160 --> 01:12.220
+Đầu tiên chúng ta cần giá trị p(0),
+
+01:12.220 --> 01:15.930
+p là đa thức mà chúng ta sẽ tạo,
+
+01:15.930 --> 01:20.060
+và p(0) = f(0),
+
+01:20.060 --> 01:22.970
+Nếu ta muốn thực hiện điều đó sử dụng một đa thức
+
+01:22.970 --> 01:26.080
+chỉ có một số hạng, chúng ta
+
+01:26.080 --> 01:30.250
+có thể cho p(x) = 0.
+
+01:30.250 --> 01:33.000
+Vậy khi vẽ đồ thị, nó sẽ có hình như này,
+
+01:33.000 --> 01:37.260
+là một đường thẳng nằm ngang tại f(0),
+
+01:37.260 --> 01:40.080
+và bạn có thể nói, đó là một cách ước lượng khá tệ
+
+01:40.080 --> 01:42.780
+Nó chỉ ước lượng hàm số tại điểm này.
+
+01:42.780 --> 01:44.646
+Có vẻ là chúng ta rất may mắn ở một vài điểm,
+
+01:44.646 --> 01:46.170
+nhưng sẽ không ổn ở các điểm khác.
+
+01:46.170 --> 01:47.628
+Bây giờ bạn hãy thử
+
+01:47.628 --> 01:49.660
+một việc khác thay một đường thẳng nằm ngang.
+
+01:49.660 --> 01:52.520
+Ít nhất là mình có ngay tại f(0),
+
+01:52.520 --> 01:56.345
+Đây là cách ta có thể làm chỉ với một hằng số.
+
+01:56.345 --> 01:58.220
+Mình mong bạn ghi nhớ là mặc dù
+
+01:58.220 --> 01:59.720
+cái này nhìn có vẻ là một hằng,
+
+01:59.720 --> 02:02.080
+chúng ta đang giả thiết hàm số đã cho
+
+02:02.080 --> 02:03.720
+có thể tính được tại 0 và
+
+02:03.720 --> 02:05.020
+ta sẽ được một con số.
+
+02:05.020 --> 02:07.800
+Với bất kì số nào chúng ta có thể đặt nó ở đây.
+
+02:07.800 --> 02:10.630
+Ta sẽ nói p(x) bằng với số đó.
+
+02:10.630 --> 02:15.080
+Nó sẽ là một đường thẳng ngay tại f(0).
+
+02:15.080 --> 02:17.120
+Hiện tại vẫn chưa được ổn lắm
+
+02:17.120 --> 02:18.900
+nên hãy thêm một vài điều kiện ràng buộc.
+
+02:18.900 --> 02:22.280
+Ngoài điều kiện p(0) = f(0),
+
+02:22.280 --> 02:27.260
+giả sử ta muốn
+
+02:27.260 --> 02:31.330
+p'(0) = f'(0).
+
+02:31.330 --> 02:33.590
+Để mình dùng một màu khác.
+
+02:33.590 --> 02:36.070
+Vậy chúng ta
+
+02:36.070 --> 02:38.930
+chúng ta cần có
+
+02:38.930 --> 02:41.360
+p'
+
+02:41.360 --> 02:44.030
+Chúng ta cần đạo hàm bậc nhất của đa thức
+
+02:44.030 --> 02:46.880
+tại 0 bằng với
+
+02:46.880 --> 02:50.650
+đạo hàm bậc một của hàm số tại 0,
+
+02:50.650 --> 02:53.950
+Và ta không muốn mất cái này.
+
+02:53.950 --> 03:00.380
+Nếu chúng ta có p(x) = f(0) thì sao?
+
+03:00.380 --> 03:02.270
+Ta đang bàn về p(x) nhưng hiện tại ta sẽ
+
+03:02.270 --> 03:06.070
+thêm một số hạng nữa để trùng khớp với đạo hàm.
+
+03:06.070 --> 03:11.150
+cộng thêm f'(0) . x,
+
+03:11.150 --> 03:13.030
+Hãy nghĩ sâu hơn một chút.
+
+03:13.030 --> 03:16.780
+Nếu coi đây là một đa thức mới, điều gì sẽ xảy ra?
+
+03:16.780 --> 03:18.290
+Giá trị của p(0) là gì?
+
+03:18.290 --> 03:21.690
+p(0) sẽ bằng với -- bạn sẽ có
+
+03:21.690 --> 03:27.180
+f(0) cộng với bất kì f'(0)
+
+03:27.180 --> 03:28.850
+nhân với 0.
+
+03:28.850 --> 03:32.210
+Nếu bạn đặt x = 0, số hạng này sẽ bằng 0.
+
+03:32.210 --> 03:35.380
+Vậy bạn sẽ còn lại p(0) = f(0).
+
+03:35.380 --> 03:36.340
+Có vẻ ổn rồi.
+
+03:36.340 --> 03:38.560
+Ta được kết quả khá ổn như lần đầu tiên.
+
+03:38.560 --> 03:40.390
+Bây giờ đạo hàm ở đây là gì?
+
+03:40.390 --> 03:45.374
+Đạo hàm là p'(x) bằng với...
+
+03:45.374 --> 03:46.540
+bạn lấy đạo hàm của cái này,
+
+03:46.540 --> 03:49.910
+Đó chỉ là một hằng số nên đạo hàm bằng 0.
+
+03:49.910 --> 03:52.110
+Đạo hàm của một biến nhân với x
+
+03:52.110 --> 03:53.950
+sẽ là chính biến đó.
+
+03:53.950 --> 03:56.480
+Vậy kết quả ta được f'(0).
+
+03:56.480 --> 04:02.800
+Nếu bạn muốn tính tại điểm 0 thì sẽ là p'(0).
+
+04:02.800 --> 04:04.972
+Hoặc đạo hàm của đa thức tại 0
+
+04:04.972 --> 04:07.430
+mình biết nó hơi lạ bởi chúng ta
+
+04:07.430 --> 04:10.261
+đang tính p'(x), f'(0) ở đây.
+
+04:10.261 --> 04:12.760
+Nhưng hãy ghi nhớ biến là gì, hằng là gì,
+
+04:12.760 --> 04:14.390
+và mong là bạn sẽ hiểu điều đó.
+
+04:14.390 --> 04:17.500
+Vậy ở đây rõ ràng là f'(0).
+
+04:17.500 --> 04:19.270
+Đạo hàm của nó là một hằng số,
+
+04:19.270 --> 04:20.769
+ngay ở đây.
+
+04:20.769 --> 04:23.352
+Ta đang giả thiết là có thể lấy đạo hàm của hàm số
+
+04:23.352 --> 04:27.210
+tại điểm 0 để có được một giá trị không thay đổi.
+
+04:27.210 --> 04:30.140
+Vậy nếu p'(x) bằng với giá trị này,
+
+04:30.140 --> 04:33.420
+p'(x) tại 0
+
+04:33.420 --> 04:35.160
+sẽ bằng với giá trị đó.
+
+04:35.160 --> 04:39.390
+Điều thú vị ở đây là,
+
+04:39.390 --> 04:43.180
+đa thức này có một số hạng bậc 0 và một số hạng bậc nhất
+
+04:43.180 --> 04:48.550
+và nó bằng với hàm số
+
+04:48.550 --> 04:49.730
+của chúng ta tại điểm x = 0.
+
+04:49.730 --> 04:52.270
+Và nó cũng có cùng đạo hàm bậc nhất
+
+04:52.270 --> 04:56.640
+và hệ số góc tại x = 0.
+
+04:56.640 --> 04:59.824
+Vậy đa thức mới này,
+
+04:59.824 --> 05:01.740
+với hai số hạng có vẻ ổn hơn,
+
+05:01.740 --> 05:04.400
+sẽ trông giống như này.
+
+05:04.400 --> 05:08.560
+Giống như một đường tiếp tuyến
+
+05:08.560 --> 05:13.050
+tại f(0), khi x = 0.
+
+05:13.050 --> 05:17.860
+Ta đang làm tốt hơn, nhưng vẫn chưa là một định lượng thật tốt.
+
+05:17.860 --> 05:20.510
+Nhìn chung, nó giống như hướng mà chúng ta thực hiện
+
+05:20.510 --> 05:22.462
+khi hàm trong khoảng 0.
+
+05:22.462 --> 05:24.170
+Nhưng ta có thể làm tốt hơn bằng cách
+
+05:24.170 --> 05:26.590
+đảm bảo chúng có đạo hàm bậc hai như nhau
+
+05:26.590 --> 05:29.480
+trong khi cùng đạo hàm bậc nhất
+
+05:29.480 --> 05:33.480
+tại cùng một giá trị 0.
+
+05:33.480 --> 05:38.170
+Hãy thử làm điều gì đó thú vị.
+
+05:38.170 --> 05:40.350
+Hãy cùng định nghĩa p(x)
+
+05:40.350 --> 05:41.780
+một cách rõ ràng.
+
+05:41.780 --> 05:43.970
+Đó là cách thử đầu tiên của chúng ta.
+
+05:43.970 --> 05:46.990
+Và đây là cách thử thứ hai ở ngay đây.
+
+05:46.990 --> 05:49.740
+Bây giờ mình sẽ thử cách thứ ba.
+
+05:49.740 --> 05:53.050
+Ở lần này, mục tiêu của mình là giá trị của đa thức
+
+05:53.050 --> 05:55.740
+sẽ bằng với giá trị của hàm số tại 0.
+
+05:55.740 --> 05:57.590
+Chúng có đạo hàm như nhau tại điểm 0.
+
+05:57.590 --> 06:00.460
+Và chúng cũng có đạo hàm bậc hai tại 0.
+
+06:00.460 --> 06:03.280
+Hãy cùng đặt đa thức của mình
+
+06:03.280 --> 06:05.290
+bằng với, mình sẽ lấy hai số hạng
+
+06:05.290 --> 06:07.560
+ngay ở đây.
+
+06:07.560 --> 06:13.490
+Vậy nó sẽ được viết là f(0) + f'(0) . x
+
+06:13.490 --> 06:17.280
+đó là những gì chúng ta mới làm ở đây.
+
+06:17.280 --> 06:19.040
+Nhưng bây giờ hãy thêm vào một số hạng nữa
+
+06:19.040 --> 06:22.930
+Mình sẽ thêm một số hạng với một màu khác.
+
+06:22.930 --> 06:24.560
+Và mình sẽ đặt 1/2 ở đây.
+
+06:24.560 --> 06:27.210
+Và mong rằng bạn hiểu tại sao mình thực hiện những bước này.
+
+06:27.210 --> 06:31.150
+Cộng thêm 1/2 nhân với đạo hàm bậc hai
+
+06:31.150 --> 06:36.150
+của hàm số tại 0 nhân với x^2.
+
+06:36.150 --> 06:38.090
+Khi ta tính đạo hàm của cái này,
+
+06:38.090 --> 06:40.890
+mình nghĩ bạn sẽ tự hỏi tại sao 1/2 lại ở đây.
+
+06:40.890 --> 06:46.170
+Bây giờ hãy xét cái này và tính đạo hàm của nó tại 0.
+
+06:46.170 --> 06:51.700
+Nếu chúng ta xét p(0), p(0) sẽ bằng với cái gì?
+
+06:51.700 --> 06:53.350
+Bạn có một số hạng là hằng số.
+
+06:53.350 --> 06:55.770
+Tại điểm 0, x và x^2 này
+
+06:55.770 --> 06:56.800
+sẽ đều bằng 0.
+
+06:56.800 --> 06:58.660
+Những số hạng đó sẽ bị loại bỏ.
+
+06:58.660 --> 07:01.860
+Nên p(0) vẫn bằng với f(0)
+
+07:01.860 --> 07:04.900
+Nếu bạn lấy đạo hàm p(x)
+
+07:04.900 --> 07:06.770
+để mình thực hiện ở ngay đây.
+
+07:06.770 --> 07:08.130
+Mình sẽ dùng màu vàng.
+
+07:08.130 --> 07:10.180
+Nên đạo hàm của p(x) mới của mình
+
+07:10.180 --> 07:12.936
+sẽ bằng với... số hạng này cũng sẽ bị mất đi.
+
+07:12.936 --> 07:13.810
+Nó là một hằng.
+
+07:13.810 --> 07:17.320
+Nó sẽ bằng với f'(0).
+
+07:17.320 --> 07:18.840
+Đó là hệ số ở đây.
+
+07:18.840 --> 07:24.100
+Cộng thêm với, dùng quy tắc lũy thừa ở đây, nhân với 2.(1/2)
+
+07:24.100 --> 07:30.430
+ta được 1, cộng với f'(0) . x
+
+07:30.430 --> 07:32.120
+Lấy 2 ra ngoài, nhân nó với 1/2,
+
+07:32.120 --> 07:34.620
+và tối giản ở đây.
+
+07:34.620 --> 07:39.540
+Mình nghĩ bây giờ bạn biết lí do vì sao chúng ta đặt 1/2 ở đây.
+
+07:39.540 --> 07:42.590
+Do đó chúng ta sẽ không kết thúc bằng một hệ số 2
+
+07:42.590 --> 07:43.990
+ở phía trước.
+
+07:43.990 --> 07:46.630
+Bây giờ p'(0) là gì?
+
+07:46.630 --> 07:50.770
+Để mình viết nó ở đây, p'(0) bằng với gì?
+
+07:50.770 --> 07:53.020
+Số hạng ở đây có thể sẽ bằng 0,
+
+07:53.020 --> 07:55.780
+nên bạn sẽ còn lại với hằng số này ở đây
+
+07:55.780 --> 07:58.310
+Vậy nó sẽ bằng f'(0).
+
+07:58.310 --> 08:01.150
+Đến đây, đa thức thứ ba của chúng ta
+
+08:01.150 --> 08:03.300
+sẽ có tất cả tính chất của hai đa thức đầu.
+
+08:03.300 --> 08:07.940
+Vậy hãy xem nó làm như thế nào trên đạo hàm bậc ba
+
+08:07.940 --> 08:09.930
+hoặc mình có thể nói đạo hàm bậc hai,
+
+08:09.930 --> 08:13.370
+Vậy p''(x) bằng với --
+
+08:13.370 --> 08:15.566
+đây là một hằng số, nên đạo hàm của nó bằng 0.
+
+08:15.566 --> 08:17.690
+Bạn có thể lấy hệ số của số hạng thứ hai
+
+08:17.690 --> 08:20.940
+bằng với f''(0).
+
+08:20.940 --> 08:24.840
+Vậy đạo hàm bậc hai của p tại 0 là gì?
+
+08:24.840 --> 08:27.010
+Nó sẽ bằng với hằng số này.
+
+08:27.010 --> 08:30.120
+bằng với f''(0).
+
+08:30.120 --> 08:32.919
+Bạn để ý nha, bằng cách cộng thêm số hạng này,
+
+08:32.919 --> 08:38.150
+không chỉ giá trị của đa thức bằng với hàm số
+
+08:38.150 --> 08:41.010
+tại 0, mà đạo hàm của nó tại 0 cũng bằng với
+
+08:41.010 --> 08:42.711
+đạo hàm của hàm số tại 0.
+
+08:42.711 --> 08:44.710
+Và đạo hàm bậc hai của đa thức tại 0 bằng
+
+08:44.710 --> 08:47.399
+đạo hàm bậc hai của hàm số tại 0.
+
+08:47.399 --> 08:48.940
+Vậy là rất ổn rồi.
+
+08:48.940 --> 08:51.350
+Và bạn có thể thấy một qui luật ở đây.
+
+08:51.350 --> 08:56.290
+Với mỗi số hạng thêm vào, nó sẽ cho chúng ta một trường hợp
+
+08:56.290 --> 09:01.060
+mà đạo hàm bậc n của đa thức tại 0
+
+09:01.060 --> 09:03.080
+sẽ có giá trị giống như đạo hàm bậc n
+
+09:03.080 --> 09:05.120
+của hàm số tại 0.
+
+09:05.120 --> 09:07.200
+Nhìn chung, nếu ta muốn tiếp tục thực hiện,
+
+09:07.200 --> 09:08.700
+nếu ta có rất nhiều thời gian
+
+09:08.700 --> 09:12.540
+và muốn thêm các số hạng vào đa thức của mình,
+
+09:12.540 --> 09:14.490
+chúng ta có thể, để mình vẽ bằng một màu khác,
+
+09:14.490 --> 09:16.330
+Có thể mình sẽ dùng một màu đã có rồi.
+
+09:16.330 --> 09:18.185
+Chúng ta có thể ước lượng đa thức của mình.
+
+09:21.610 --> 09:24.830
+Số hạng đầu tiên, một hằng số, sẽ bằng f(0).
+
+09:24.830 --> 09:29.830
+Và số hạng tiếp theo là f'(0) . x
+
+09:29.830 --> 09:33.650
+Và số hạng tiếp theo là
+
+09:33.650 --> 09:38.440
+f''(0) nhân với 1/2 nhân với (x)^2
+
+09:38.440 --> 09:40.829
+Mình mới viết lại theo thứ tự khác một chút.
+
+09:40.829 --> 09:43.370
+Và số hạng tiếp theo, nếu chúng ta muốn lấy đạo hàm bậc ba
+
+09:43.370 --> 09:49.340
+cũng tại điểm 0, sẽ là f'''(0).
+
+09:49.340 --> 09:50.840
+Đạo hàm bậc ba của hàm số
+
+09:50.840 --> 09:59.280
+tại 0, nhận với 1/2 nhân với 1/3, nên ta được
+
+09:59.280 --> 10:00.490
+1/(2*3) nhân với x^3.
+
+10:00.490 --> 10:01.640
+Chúng ta có thể tiếp tục.
+
+10:01.640 --> 10:03.880
+Bạn sẽ bắt đầu thấy qui luật ở đây.
+
+10:03.880 --> 10:06.630
+Thêm nữa, nếu ta muốn lấy đạo hàm bậc 4
+
+10:06.630 --> 10:10.854
+tại 0, đó sẽ là đạo hàm
+
+10:10.854 --> 10:11.520
+bậc 4 của hàm số.
+
+10:11.520 --> 10:13.390
+Mình có thể đặt số 4 ở đây, nhưng mình cần
+
+10:13.390 --> 10:18.320
+nhấn mạnh rằng đó là đạo hàm bậc 4 tại 0
+
+10:18.320 --> 10:19.550
+nhân với 1 trên... để mình thay đổi thứ tự.
+
+10:19.550 --> 10:21.300
+Thay vì viết theo thứ tự tăng dần,
+
+10:21.300 --> 10:28.710
+Mình sẽ viết là 4 nhân 3 nhân 2 và nhân với x^4.
+
+10:28.710 --> 10:30.200
+Và bạn có thể tự kiểm tra lại.
+
+10:30.200 --> 10:31.620
+Nếu chúng ta chỉ có cái này, nếu bạn
+
+10:31.620 --> 10:33.420
+lấy đạo hàm bậc bốn của cái này,
+
+10:33.420 --> 10:35.800
+tại 0, kết quả vẫn như
+
+10:35.800 --> 10:39.630
+đạo hàm bậc 4 của hàm số tại 0.
+
+10:39.630 --> 10:42.150
+Nhìn chung, bạn có thể cộng thêm đến
+
+10:42.150 --> 10:45.210
+số hạng thứ n sẽ trông như thế này.
+
+10:45.210 --> 10:50.890
+Đạo hàm bậc n của hàm số tại 0
+
+10:50.890 --> 10:56.180
+nhân với (x^n)/n!
+
+10:56.180 --> 10:59.380
+Ở đây cũng tương tự như 4!
+
+10:59.380 --> 11:03.081
+4! = 4.3.2.1
+
+11:03.081 --> 11:04.580
+Bạn không cần viết 1 ở đây,
+
+11:04.580 --> 11:06.300
+nhưng bạn để ở đó cũng không sao.
+
+11:06.300 --> 11:10.300
+Cái này ở ngay đây giống y hệt
+
+11:10.300 --> 11:12.300
+3! = 3.2.1
+
+11:12.300 --> 11:13.610
+Mình không bỏ 1 vào đây.
+
+11:13.610 --> 11:16.650
+Cái này ở đây giống y hệt với
+
+11:16.650 --> 11:17.530
+2! = 2.1
+
+11:17.530 --> 11:18.570
+Ở đây cũng giống như vậy.
+
+11:18.570 --> 11:20.694
+Chúng ta không cần viết gì hết nhưng bạn có thể chia nó
+
+11:20.694 --> 11:23.840
+cho 1!, cũng là 1.
+
+11:23.840 --> 11:25.650
+Và bạn có thể chia cái này cho 0!,
+
+11:25.650 --> 11:26.880
+hay còn có giá trị là 1.
+
+11:26.880 --> 11:29.120
+Chúng ta sẽ không phải học nhiều ở đây.
+
+11:29.120 --> 11:32.730
+Nhưng chuỗi mà mình mới tạo ở đây
+
+11:32.730 --> 11:34.660
+được gọi là chuỗi Maclaurin.
+
+11:37.530 --> 11:39.800
+Bạn có thể ước lượng một đa thức.
+
+11:39.800 --> 11:42.290
+Và xem là nó có dẫn đến một vài kết quả
+
+11:42.290 --> 11:43.280
+quan trọng sau đó.
+
+11:43.280 --> 11:45.610
+Nhưng điều xảy ra, mình không cần khả năng tính toán phi thường
+
+11:45.610 --> 11:47.310
+để vẽ đồ thị này cho đúng,
+
+11:47.310 --> 11:49.720
+là chỉ khi các hàm số bằng nhau,
+
+11:49.720 --> 11:51.120
+bạn mới có đường thẳng nằm ngang đó.
+
+11:54.480 --> 11:56.430
+Khi bạn có một hàm số bằng 0
+
+11:56.430 --> 11:59.470
+và đạo hàm bậc nhất của chúng bằng 0,
+
+11:59.470 --> 12:01.940
+thì sau đó bạn có một đường như đường tiếp tuyến.
+
+12:01.940 --> 12:03.850
+Khi bạn tăng thêm một bậc, bạn có thể thấy
+
+12:03.850 --> 12:06.490
+một đa thức như thế này.
+
+12:06.490 --> 12:11.170
+Khi bạn tăng thêm một bậc nữa, nó có thể trông như thế vậy.
+
+12:11.170 --> 12:13.860
+Và khi bạn cứ tiếp tục tăng thêm nhiều bậc,
+
+12:13.860 --> 12:15.360
+khi bạn thêm nhiều số hạng,
+
+12:15.360 --> 12:17.250
+nó sẽ tiến gần hơn,
+
+12:17.250 --> 12:20.490
+đặc biệt là khi bạn tiến gần tới x = 0.
+
+12:20.490 --> 12:24.130
+Trên lí thuyết, nếu bạn thêm vô số số hạng,
+
+12:24.130 --> 12:26.660
+bạn không thể làm việc đó, mình chưa chứng minh điều đó cho bạn,
+
+12:26.660 --> 12:27.910
+nên đó là lí do tại sao mình nói như vậy.
+
+12:27.910 --> 12:29.590
+Mình chưa chứng minh điều đó.
+
+12:29.590 --> 12:31.600
+Nhưng nếu bạn thêm vô số số hạng,
+
+12:31.600 --> 12:33.870
+tất cả những đạo hàm sẽ có giá trị như nhau.
+
+12:33.870 --> 12:36.900
+Và sau đó hàm số sẽ trông
+
+12:36.900 --> 12:38.600
+rất giống nhau.
+
+12:38.600 --> 12:41.880
+Trong video tiếp theo, mình sẽ làm điều này với một vài
+
+12:41.880 --> 12:44.390
+hàm số thật sự để giúp bạn hiểu hơn.
+
+12:44.390 --> 12:46.660
+Bạn biết rằng, chuỗi Maclaurin
+
+12:46.660 --> 12:48.920
+là một trường hợp đặc biệt
+
+12:48.920 --> 12:50.657
+bởi bạn đang tập trung tại điểm 0.
+
+12:50.657 --> 12:52.240
+Và khi bạn giải chuỗi Taylor,
+
+12:52.240 --> 12:53.900
+bạn có thể chọn bất cứ điểm tập trung nào.
+
+12:53.900 --> 12:58.710
+Chúng ta sẽ tập trung vào chuỗi Maclaurin bây giờ.

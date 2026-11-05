@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.091 --> 00:08.010
+Son videoda, e üzeri x'in Maclaurin serisini bulduk. Birkaç eksi dışında, bu serinin kosinüs x ve sinüs x'in polinom ifadelerinin birleşimi olduğunu fark ettik.
+
+00:08.010 --> 00:16.537
+-
+
+00:16.537 --> 00:22.641
+Bu eksileri yoketmek için, bir küçük hile yapacağım.
+
+00:22.641 --> 00:29.994
+-
+
+00:29.994 --> 00:38.643
+Şimdi, e üzeri x'in bu polinom açılımını alıyoruz,sonsuz sayıda terimle bu yakınsamadan ziyade eşitliğe dönüşür.
+
+00:38.643 --> 00:46.603
+-
+
+00:46.603 --> 00:54.010
+e üzeri ix, ne olur? Polinom açılımı olmasaydı, bir tabanın i üssünü almak bize garip gelebilirdi.
+
+00:54.010 --> 01:00.737
+-
+
+01:00.737 --> 01:05.994
+-
+
+01:05.994 --> 01:12.224
+Ama, şimdi e üzeri x'in polinom açılımı olduğu için, biraz mantıklı gelebilir, çünkü i'nin kuvvetlerini alabilirim. Örneğin, i kare eşittir eksi 1, i küp eşittir eksi i, vesaire.
+
+01:12.224 --> 01:18.245
+-
+
+01:18.245 --> 01:26.022
+Peki, e üzeri ix'i aldığımızda, ne olacak? x yerine ix'i koymakla aynı şey.
+
+01:26.022 --> 01:31.925
+Polinomda x gördüğümüz her yere, ix yazalım. Burada olayın mantığını göstermeye çalışıyoruz, ispat yapmıyoruz. Ama, yine de bu videoda son derece önemli bir sonuca varacağız.
+
+01:31.925 --> 01:40.160
+-
+
+01:40.160 --> 01:44.799
+-
+
+01:44.799 --> 01:51.389
+-
+
+01:51.389 --> 02:01.642
+Eşittir 1 artı ix artı, peki ix'in karesi nedir? Terim, ix'in karesi bölü 2 faktöriyel. i kare eşittir eksi 1 ve yanında, x kare bölü 2 faktöriyel var.
+
+02:01.642 --> 02:13.622
+-
+
+02:13.622 --> 02:24.215
+O zaman, eksi x kare bölü 2 faktöriyel olacak. Sanıyorum, örüntüyü görmeye başladınız.
+
+02:24.215 --> 02:31.507
+Şimdi, ix'in kübü nedir?
+
+02:31.507 --> 02:41.638
+Aslında, öncelikle, açılımının tamamını yazmak istiyorum. Artı ix'in karesi, bölü 2 faktöriyel, artı ix'in kübü, bölü 3 faktöriyel, artı ix'in dördüncü kuvveti, bölü 4 faktöriyel, artı ix'in beşinci kuvveti, bölü 5 faktöriyel, ve böyle devam ederiz.
+
+02:41.638 --> 03:10.854
+-
+
+03:10.854 --> 03:23.638
+Şimdi, bu ix'in kuvvetlerini bulalım. Bu, eşittir 1 artı ix, artı ix'in karesi, yani i kare x kare, i kare eşittir eksi 1. Yani, eksi x kare, bölü 2 faktöriyel.
+
+03:23.638 --> 03:36.140
+Sonra, i küp x küp var, i küp eşittir i kare çarpı i, yani eksi i. Demek ki, terimimiz eksi i x küp, bölü 3 faktöriyel.
+
+03:36.140 --> 03:52.547
+Ve, artı, i üzeri 4 nedir? i karenin karesi, yani eksi 1'in karesi, bu da 1. Buna göre, i üzeri 4 eşittir 1. Sonrasında da x üzeri 4 var. Yani, artı x üzeri 4, bölü 4 faktöriyel.
+
+03:52.547 --> 04:04.584
+-
+
+04:04.584 --> 04:14.041
+-
+
+04:14.041 --> 04:28.974
+i üzeri 5, 1i olacak. Demek ki, bir sonraki terim, i çarpı x üzeri 5, bölü 5 faktöriyel. Sanıyorum bir örüntü görüyorsunuz. Katsayılar, 1, i, eksi 1, eksi i, 1 , i, ve eksi 1 çarpı x üzeri 6, bölü 6 faktöriyel, ve sonra, eksi i çarpı x üzeri 7, bölü 7 faktöriyel.
+
+04:28.974 --> 04:52.692
+-
+
+04:52.692 --> 04:59.294
+Buna göre, bazı terimlerde i var, yani bunlar imajiner terimler, bazı terimler de gerçel. Bu ikisini neden ayırmıyoruz?
+
+04:59.294 --> 05:05.572
+-
+
+05:05.572 --> 05:13.323
+Şimdi, gerçel ve imajiner terimleri ayıralım. Bu, gerçel. Bunlar da gerçel. O zaman, gerçel terimler, 1 eksi x kare, bölü 2 faktöriyel, artı x üzeri 4, bölü 4 faktöriyel, eksi x üzeri 6 bölü 6 faktöriyel. Böyle devam edebiliriz.
+
+05:13.323 --> 05:24.777
+-
+
+05:24.777 --> 05:39.314
+-
+
+05:39.314 --> 05:48.698
+-
+
+05:48.698 --> 05:56.575
+İmajiner terimler nelerdir? i çarpanını ayırayım. Bu, ix, o zaman x kalır, bir sonraki terimde i'yi ayırırsak, eksi x küp, bölü 3 faktöriyel kalır. Sonra, artı x üzeri 5, bölü 5 faktöriyel, eksi x üzeri 7, bölü 7 faktöriyel. Artı, eksi sonsuza kadar terim ekleriz.
+
+05:56.575 --> 06:05.254
+-
+
+06:05.254 --> 06:16.204
+-
+
+06:16.204 --> 06:25.122
+-
+
+06:25.122 --> 06:35.617
+-
+
+06:35.617 --> 06:45.039
+e üzeri ix, bunların toplamına eşit.
+
+06:45.039 --> 06:52.190
+Son birkaç videodan hatırlarsanız, gerçel kısım, kosinüs x'in Maclaurin serisine eşitti. Yani, bu ikisi aynı.
+
+06:52.190 --> 06:59.794
+-
+
+06:59.794 --> 07:05.946
+-
+
+07:05.946 --> 07:16.382
+-
+
+07:16.382 --> 07:23.138
+Buradaki de, sinüs x. Öyle görünüyor ki, kosinüs x ve sinüs x'i bir şekilde toplayıp, e üzeri x'i elde edebileceğiz.
+
+07:23.138 --> 07:32.782
+Bu, sinüs x, ve sonsuz sayıda terim toplarsak, bu da kosinüs x olur.
+
+07:32.782 --> 07:38.172
+-
+
+07:38.172 --> 07:45.894
+Sonuçta, mükemmel bir formül elde ediyoruz. Şunu diyebiliriz: e üzeri ix eşittir, kosinüs x artı i sinüs x. Bu, Euler'ın formülü.
+
+07:45.894 --> 07:57.945
+-
+
+07:57.945 --> 08:14.012
+Bu size çok heyecanlı ve çılgın gelmeli, çünkü çok klas şeyler yaptık.
+
+08:14.012 --> 08:18.495
+-
+
+08:18.495 --> 08:24.431
+Sürekli bileşik faizden elde ettiğimiz e, dik üçgen oranları olan ve birim çemberden elde edilen kosinüs x ve sinüs x'i formülün içine kattık, bir de tabii eksi 1'in 1 bölü 2'nci kuvvetini.
+
+08:24.431 --> 08:31.375
+-
+
+08:31.375 --> 08:37.263
+Ve, bu süper bağıntıyı elde ettik. Daha da mükemmeline ulaşmak için, radyan kullandığımızı, ve x'in pi'ye eşit olduğunu varsayalım.
+
+08:37.263 --> 08:45.644
+-
+
+08:45.644 --> 08:50.790
+Bir çılgın sayı daha eklemiş olalım, çemberin çevresinin çapına oranı.
+
+08:50.790 --> 09:06.529
+Pi'yi katarsak, ne olur? e üzeri i çarpı pi eşittir, kosinüs pi, kosinüs pi nedir? pi, çemberin yarısı demek, yani kosinüs pi eşittir eksi 1 ve sinüs pi eşittir 0. Bu terim, ortadan kalkar.
+
+09:06.529 --> 09:18.843
+-
+
+09:18.843 --> 09:26.544
+Formüle pi sayısını koyarsak, inanılmaz bir şey elde ederiz, Euler Özdeşliği.
+
+09:26.544 --> 09:34.485
+Böyle yazabiliriz, veya iki tarafa 1 ekleyebiliriz. Vurgulamak için farklı bir renkte yazayım. e üzeri i pi artı 1 eşittir 0.
+
+09:34.485 --> 10:02.546
+Bu, size, kainatta henüz anlamadığımız, en azından benim henüz anlamadığım, bir bağlanmışlık olduğunu haber veriyor.
+
+10:02.546 --> 10:06.947
+-
+
+10:06.947 --> 10:12.974
+-
+
+10:12.974 --> 10:20.883
+i sayısı, mühendisler tarafından, polinom köklerini bulmak için tanımlanmış.
+
+10:20.883 --> 10:29.846
+Pi, çemberin çevresinin, çapına oranı. Yine ilginç bir sayı, ama tamamen farklı bir alanda bulunmuş.
+
+10:29.846 --> 10:35.441
+-
+
+10:35.441 --> 10:41.670
+e'nin ise, finans için çok önemli olan sürekli bileşik faizden veya türevi kendiyle aynı olan e üzeri x'ten geldiğini düşünebilirsiniz. Yine mükemmel bir sayı, ama i veya pi'yle alakası yok gibi.
+
+10:41.670 --> 10:47.078
+-
+
+10:47.078 --> 10:53.118
+-
+
+10:53.118 --> 11:00.011
+Sonra da en temel sayılardan olan 1 ve 0 var.
+
+11:00.011 --> 11:06.026
+-
+
+11:06.026 --> 11:13.197
+Bu özdeşlik, tüm bu temel sayıları mistik bir şekilde birbirine bağlıyor ve kainattaki bağlanmışlığı bize gösteriyor.
+
+11:13.197 --> 11:23.983
+Gerçekten de, bundan etkilenmiyorsanız, duygudan yoksunsunuz demektir.
+
+11:23.983 --> 11:27.000
+-

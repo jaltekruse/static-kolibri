@@ -1,0 +1,347 @@
+WEBVTT
+
+00:00.580 --> 00:02.280
+Điều mình muốn làm trong video này,
+
+00:02.280 --> 00:05.879
+là thực hành một chút về ước lượng
+
+00:05.879 --> 00:08.494
+diện tích dưới đường cong và để
+
+00:08.494 --> 00:13.295
+làm quen hơn với ký hiệu sigma trong ngữ cảnh này.
+
+00:13.295 --> 00:15.062
+Ở đây, chúng ta có biểu đồ
+
+00:15.062 --> 00:18.628
+f(x) bằng 1 cộng với 0,1 x bình phương,
+
+00:18.628 --> 00:20.546
+biểu diễn bằng đường cong này
+
+00:20.546 --> 00:24.420
+và sau đó những hình chữ nhật như thế này sẽ giúp chúng ta
+
+00:24.520 --> 00:27.260
+ước lượng diện tích đường cong này
+
+00:27.260 --> 00:32.420
+khu vực dưới hàm f, giữa x bằng 0,
+
+00:32.420 --> 00:37.220
+và x=8, vàtheo cách mà biểu đồ này,
+
+00:37.227 --> 00:39.046
+và theo cách ta đang làm
+
+00:39.046 --> 00:41.963
+là bằng cách chia nó thành bốn hình chữ nhật,
+
+00:41.963 --> 00:44.228
+ta xem hình chữ nhật này là 1,
+
+00:44.228 --> 00:50.446
+đây là hình chữ nhật 2, hình chữ nhật 3 và hình chữ nhật 4.
+
+00:50.446 --> 00:53.227
+Hãy nhìn vào khoảng này
+
+00:53.227 --> 00:55.595
+chúng có vẻ như có chiều rộng là 2.
+
+00:55.595 --> 00:58.713
+vì vậy chúng cách đều nhau, chúng ta có thể đi từ 0 đến 8,
+
+00:58.713 --> 01:02.845
+và chia thành bốn phần, mỗi chiều rộng là hai,
+
+01:02.845 --> 01:04.695
+chúng sẽ rộng hai đơn vị
+
+01:04.695 --> 01:07.928
+2!
+
+01:07.928 --> 01:14.327
+Và chiều dài (cao) có vẻ phụ thuộc vào điểm giữa ấy nhỉ?
+
+01:14.327 --> 01:16.179
+giữa lúc bắt đầu,giữa bên trái
+
+01:16.179 --> 01:17.827
+và bên phải của hình chữ nhật,
+
+01:17.827 --> 01:20.728
+bạn lấy giá trị củahàm ở giá trị giữa,
+
+01:20.728 --> 01:21.846
+ngay tại đây, chẳng hạn như
+
+01:21.846 --> 01:24.277
+chiều dài này ngay trên đây trông giống như f(1),
+
+01:24.277 --> 01:27.762
+chiều dài này ngay trên
+đây trông giống như f(3),
+
+01:27.762 --> 01:31.212
+chiều dài của hình chữ nhật này là f(5),
+
+01:31.212 --> 01:34.263
+chiều dài ngay hình này là f(7).
+
+01:34.263 --> 01:36.727
+Vì vậy, ta có thể lập luận
+
+01:36.727 --> 01:38.712
+và vì ta muốn tính tổng của các diện tích
+
+01:38.712 --> 01:41.646
+các hình chữ nhật này như khoảng diện tích ước tính
+
+01:41.646 --> 01:44.428
+dưới đường cong này, chúng ta sẽviết đó thành ký hiệu sigma như thế nào?
+
+01:44.428 --> 01:45.845
+Và bắt đầu thôi, nhưng mình khuyến khích bạn
+
+01:45.845 --> 01:48.045
+tạm dừng video và cố gắng hoàn thành bài toán nha.
+
+01:48.045 --> 01:51.811
+Tổng các hình chữ nhật này,
+
+01:51.811 --> 01:54.762
+sẽ biểu diễn bằng
+
+01:54.762 --> 01:58.297
+n từ một đến bốn, vì chúng ta có bốn hình chữ nhật.
+
+01:58.297 --> 02:02.762
+Và mình khuyến khích bạn hoàn thành bài toán nha!
+
+02:02.762 --> 02:06.061
+Trên thực tế, chỉ cần viết nó theo dạng hàm
+
+02:06.061 --> 02:08.077
+sử dụng ký hiệu hàm, bạnkhông cần phải viết toàn bộ ra
+
+02:08.077 --> 02:12.394
+như một cộng 0.1 lần cái gì đó bình phương.
+
+02:12.394 --> 02:14.362
+Mình giả sử là bạn đã thử ha!
+
+02:14.362 --> 02:19.244
+Với hình chữ nhật đầu tiên
+
+02:19.244 --> 02:22.678
+Chúng ta sẽ nhân hai với chiều cao
+
+02:22.678 --> 02:25.763
+mà chiều cao ở đây là 1
+
+02:25.763 --> 02:28.577
+vì vậy bạn có thể nói
+
+02:28.577 --> 02:32.878
+nhân f(n), nhưng nó sẽ thay đổi
+
+02:32.878 --> 02:34.379
+khi chúng ta qua hình chữ nhật thứ hai.
+
+02:34.379 --> 02:36.629
+Với hình chữ nhật thứ hai
+
+02:36.629 --> 02:39.744
+2 là chiều rộng của hình chữ nhật
+
+02:39.744 --> 02:43.595
+nhưng bây giờ mình muốn nhân nó với f(3)
+
+02:43.595 --> 02:52.512
+không phải f(2), mình không thể dùng f(n) trong trường hợp này
+
+02:52.512 --> 02:55.678
+Xem nào...
+
+02:55.678 --> 03:04.345
+Khi n là một, hai, ba,bốn, chúng ta sẽ có f của...
+
+03:04.345 --> 03:07.128
+...
+
+03:07.128 --> 03:10.528
+f của cái gì đó, vì đây này cái đầu tiên, mình sẽ lấy
+
+03:10.528 --> 03:14.477
+f(1) và đây, với hình chữ nhật thứ hai,
+
+03:14.477 --> 03:18.346
+mình đang lấy f(3) để tính chiểu cao
+
+03:18.346 --> 03:22.821
+với hình chữ nhật thứ ba, ta lấy f(5)
+
+03:22.821 --> 03:28.371
+và sau đó với hình chữ nhật thứ tư,ta lấy f(7).
+
+03:28.371 --> 03:30.440
+Vậy mối quan hệ ở đây là gì?
+
+03:30.440 --> 03:34.523
+Hãy xem, có vẻ như nếu bạn nhân với hai
+
+03:34.523 --> 03:37.391
+và trừ một, hai nhân một trừ một là một,
+
+03:37.391 --> 03:39.023
+hai nhân hai trừ một là ba,
+
+03:39.023 --> 03:42.940
+hai nhân ba trừ một là năm,
+
+03:42.940 --> 03:45.457
+hai nhân bốn trừ một là bảy.
+
+03:45.457 --> 03:49.794
+Đây là hai n trừ một, vì vậy diện tích của
+
+03:49.794 --> 03:52.488
+mỗi hình chữ nhật này, với chiều rộng là hai,
+
+03:52.488 --> 03:58.540
+và chiều cao là bằng f của 2n trừ 1
+
+03:58.540 --> 04:01.840
+Hy vọng ta làm cho nó rõ ràng một chút,
+
+04:01.840 --> 04:04.780
+việc sử dụng hiệu sigma để tính diện tích dưới đường cong
+
+04:04.780 --> 04:06.920
+và những gì mình đang làm luôn nha
+
+04:06.920 --> 04:08.770
+Giải trí một chút nha!
+
+04:08.770 --> 04:10.456
+Ta sẽ cố gắng xác định
+
+04:10.456 --> 04:13.088
+Điều này sẽ được xác định là gì?
+
+04:13.088 --> 04:18.337
+Ta sẽ xác định hai lần của f
+
+04:18.337 --> 04:21.572
+khi n=1 thì đây là f(1)
+
+04:21.572 --> 04:25.687
+cộng hai lần, khi nlà 2, đây sẽ là
+
+04:25.687 --> 04:30.738
+f của, hai lần hai trừ một là 3, f của 3,
+
+04:30.738 --> 04:35.220
+khi n là ba, đây làsẽ là hai lần f của 5,
+
+04:35.220 --> 04:42.038
+khi n là bốn, ở đây, hai lần f của bảy,
+
+04:42.038 --> 04:46.519
+bốn lần hai trừ một là bảy, f của bảy.
+
+04:46.519 --> 04:49.539
+Và chúng ta cần phải
+
+04:49.539 --> 04:51.870
+xác định một vài điều ở đây.
+
+04:51.870 --> 04:54.337
+Hãy để mình làm rõ điều này hơn nha!
+
+04:54.337 --> 04:56.554
+Các bạn có thể thấy hơi hỗn loạn một chút
+
+04:59.670 --> 05:02.371
+Thực chất ta có thể chia làm 2
+
+05:02.371 --> 05:05.655
+Sẽ bằng hai lần f của một
+
+05:09.238 --> 05:13.121
+Nó là 1 cộng với 0,1,
+
+05:13.121 --> 05:14.988
+Điều này bên phải đây là 1,1, một cộng với 0,1 là 1,1,
+
+05:29.361 --> 05:36.268
+0.1 cộng 1 là 1.1
+
+05:36.268 --> 05:40.619
+cái này, f của 3, nó sẽ là một cộng 0.1
+
+05:40.619 --> 05:44.034
+nhân ba bình phương, 9, vì 1 cộng với 0.9, vì vậy nó là 1.9.
+
+05:44.034 --> 05:50.068
+Và sau đó, hãy xem, ta có f của 5
+
+05:50.068 --> 05:57.534
+sẽ là 1 cộng, 5 bình phương là 25,
+
+05:57.534 --> 05:59.819
+nhân 0.1 là 2,5, 1 cộng với 2,5 sẽ là 3,5.
+
+05:59.819 --> 06:10.785
+f của 7,
+
+06:10.785 --> 06:13.933
+1 cộng 0.1 nhân 7 bình phương
+
+06:13.933 --> 06:18.118
+49 nhân 0.1 cộng 1 là 5.9
+
+06:18.118 --> 06:21.285
+Vậy tổng cộng ta có
+
+06:21.285 --> 06:24.568
+1.1 cộng 1.9
+
+06:24.568 --> 06:29.534
+bằng 3
+
+06:29.534 --> 06:35.734
+và hai cái này cộng lại bằng
+
+06:35.734 --> 06:38.818
+cộng thêm 5 là 8.5
+
+06:38.818 --> 06:43.620
+cộng 0,9 là 9,4, cộng 9,4...
+
+06:43.620 --> 06:44.519
+3 cộng 5 là 8
+
+06:44.519 --> 06:44.968
+0.5 cộng 0.9 là 1.4, yup
+
+06:44.968 --> 06:45.418
+nhân 2 cho cả thảy
+
+06:45.418 --> 06:50.818
+đây sẽ là bằng hai lần 12,4,
+
+06:50.818 --> 06:56.619
+bằng 24,8, là khoảng ước lượng của khoảng mà mình cần tìm.
+
+06:56.619 --> 06:57.833
+Một lần nữa, đây chỉ là ước tính
+
+06:57.833 --> 07:00.917
+sử dụng diện tích các hình chữ nhật dưới đường cong
+
+07:00.917 --> 07:04.917
+giữa x bằng 0 và x bằng 8.

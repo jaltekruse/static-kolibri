@@ -1,0 +1,292 @@
+WEBVTT
+
+00:00.937 --> 00:02.954
+Nào, ta hãy cùng nhau tìm hiểu một số kiến thức cơ bản
+
+00:02.954 --> 00:07.263
+về phép thử so sánh khi ta xác định
+
+00:07.263 --> 00:10.823
+liệu rằng một chuỗi sẽ hội tụ hay phân kì.
+
+00:10.823 --> 00:12.661
+Vậy hãy cùng nghĩ về hai chuỗi này.
+
+00:12.661 --> 00:16.630
+Mình có chuỗi màu hồng ở đây
+
+00:16.630 --> 00:17.690
+Nó là chuỗi vô hạn đi từ n=1
+
+00:17.690 --> 00:19.474
+đến vô cực của a thứ n
+
+00:19.474 --> 00:21.773
+Chúng ta đang nói về cái tổng quát ở đây,
+
+00:21.773 --> 00:23.743
+và để thêm một chuỗi tổng đây nữa
+
+00:23.743 --> 00:27.818
+Đó là chuỗi b thứ n đi từ n=1 đến vô cực,
+
+00:27.818 --> 00:30.872
+và chúng ta biết một vài điều về những cái chuỗi này.
+
+00:30.872 --> 00:33.768
+Điều đầu tiên là tất cả các số hạng
+
+00:33.768 --> 00:36.350
+ở trong các chuỗi này đều không âm.
+
+00:36.350 --> 00:41.350
+Vậy a thứ n và b thứ n đều lớn hơn hoặc
+
+00:41.857 --> 00:45.948
+bằng với 0, và điều đó cho ta biết là chúng sẽ
+
+00:45.948 --> 00:49.527
+phân kì đến dương vô cực
+
+00:49.527 --> 00:54.527
+hoặc hội tụ đến một giá trị hữu hạn nào đó
+
+00:55.894 --> 00:57.286
+Chúng sẽ không dao động, bởi vì chúng ta sẽ không có
+
+00:57.286 --> 00:58.551
+giá trị âm ở đây.
+
+00:58.551 --> 00:59.964
+Bạn không thể đi đến âm vô cực, bởi vì bạn
+
+00:59.964 --> 01:02.318
+không có giá trị âm nào ở đây.
+
+01:02.318 --> 01:05.640
+Bây giờ, hãy nói là chúng ta cũng biết là
+
+01:05.640 --> 01:08.130
+mỗi số hạng tương ứng ở chuỗi đầu tiên
+
+01:08.130 --> 01:11.221
+đều nhỏ hơn hoặc bằng với số hạng tương ứng
+
+01:11.221 --> 01:13.590
+ở chuỗi thứ 2.
+
+01:13.590 --> 01:16.401
+Nhỏ hơn hoặc bằng b thứ n.
+
+01:16.401 --> 01:18.528
+Một lần nữa, điều này đúng cho mọi giá trị n
+
+01:18.528 --> 01:19.689
+mà chúng ta quan tâm.
+
+01:19.689 --> 01:22.329
+Vậy n=1, 2, 3,
+
+01:22.329 --> 01:25.350
+và cứ thế tiếp tục mãi.
+
+01:25.350 --> 01:29.328
+Vậy phép thử so sánh cho ta biết là
+
+01:29.328 --> 01:31.875
+bởi vì tất cả các số hạng tương ứng
+
+01:31.875 --> 01:34.094
+của chuỗi này sẽ nhỏ hơn các số hạng
+
+01:34.094 --> 01:36.971
+tương ứng ở đây, nhưng chúng lớn hơn 0,
+
+01:36.971 --> 01:40.568
+nên là nếu chuỗi lớn hơn này hội tụ,
+
+01:40.568 --> 01:41.849
+nếu chuỗi này hội tụ, thì chuỗi mà
+
+01:41.849 --> 01:44.970
+nhỏ hơn nó sẽ hội tụ luôn, giống như cách chúng ta
+
+01:44.970 --> 01:46.566
+nghĩ theo kiểu là nó bị chặn bởi cái chuỗi lớn hơn nó,
+
+01:46.566 --> 01:47.915
+nên là nó phải hội tụ luôn.
+
+01:47.915 --> 01:49.255
+Mình không thực hiện kiểu chứng minh hình thức ở đây, nhưng hi vọng là
+
+01:49.255 --> 01:51.409
+điều này sẽ cho bạn một ít trực giác.
+
+01:51.409 --> 01:56.409
+Vậy phép thử so sánh cho ta biết là nếu, mình đoán là
+
+01:58.107 --> 02:01.732
+chuỗi lớn hơn, sẽ có các số hạng tương ứng
+
+02:01.732 --> 02:04.370
+ít nhất là lớn bằng cái ở đây, nếu cái này
+
+02:04.370 --> 02:06.830
+hội tụ, nếu cái này bị giới hạn
+
+02:06.830 --> 02:11.413
+khi tiến đến vô cực, nó sẽ cộng lại thành các giá trị hữu hạn,
+
+02:11.413 --> 02:15.626
+và điều đó cho ta biết là chuỗi mà có thể nói là
+
+02:15.626 --> 02:19.610
+nhỏ hơn, cũng sẽ phải hội tụ.
+
+02:20.960 --> 02:25.215
+Vậy chuỗi này cũng sẽ phải hội tụ.
+
+02:26.384 --> 02:28.114
+Vậy cái này ở đây cũng sẽ phải hội tụ.
+
+02:28.114 --> 02:29.580
+Vậy điều này có ich gì nhỉ?
+
+02:29.580 --> 02:31.152
+Chúng ta sẽ biết ở trong những video kế tiếp.
+
+02:31.152 --> 02:33.628
+Chà, nếu có thể thấy là ta có
+
+02:33.628 --> 02:35.684
+a thứ n và bạn sẽ ước bạn có thể chứng minh
+
+02:35.684 --> 02:37.615
+được nó hội tụ, vì bạn có thể cảm nhận được là
+
+02:37.615 --> 02:40.372
+nó sẽ hội tụ, phép thử so sánh cho ta biết,
+
+02:40.372 --> 02:45.372
+là chỉ cần tìm một chuỗi khác mà có các số hạng tương ứng
+
+02:45.870 --> 02:47.182
+ít nhất là lớn bằng với các số hạng
+
+02:47.182 --> 02:50.309
+tương ứng ở đây, và nếu bạn có thể chứng minh cái đó hội tụ,
+
+02:50.309 --> 02:52.320
+thì bạn sẽ chứng minh được cái này cũng thế.
+
+02:52.320 --> 02:53.773
+Tất nhiên, cách này chỉ có thể áp dụng với những trường hợp
+
+02:53.773 --> 02:57.755
+mà mỗi số hạng của chuỗi gốc
+
+02:57.755 --> 02:59.916
+là không âm.
+
+02:59.916 --> 03:01.847
+Bây giờ điều gì sẽ xảy ra nếu bạn làm điều ngược lại?
+
+03:01.847 --> 03:04.617
+Điều gì sẽ xảy ra nếu bạn có thể chứng minh là chuỗi màu hồng,
+
+03:04.617 --> 03:06.726
+chuỗi mà nhỏ hơn, và mình đoán là mình có thể
+
+03:06.726 --> 03:08.857
+viết lưu ý ở đây, cái này ngay đây
+
+03:08.857 --> 03:13.857
+thì nhỏ hơn, mình đoán là mỗi số hạng
+
+03:14.330 --> 03:15.868
+tương ứng đều nhỏ hơn, và điều gì sẽ xảy ra nếu bạn có thể chứng minh
+
+03:15.868 --> 03:18.336
+cái này phân kì?
+
+03:18.336 --> 03:20.103
+Chà, nếu mà cái này phân kì, thì nó sẽ
+
+03:20.103 --> 03:21.684
+không bị giới hạn khi tiến đến vô cực.
+
+03:21.684 --> 03:23.370
+Nó sẽ không đi đến âm vô cực.
+
+03:23.370 --> 03:24.160
+Tất cả số hạng đều dương.
+
+03:24.160 --> 03:26.032
+Nó sẽ không phân kì bởi vì
+
+03:26.032 --> 03:27.451
+nó dao động giữa 2 giá trị.
+
+03:27.451 --> 03:29.526
+Một lần nữa, nếu nó dao động giữa các giá trị
+
+03:29.526 --> 03:31.394
+cách duy nhất bạn có thể làm là nếu bạn
+
+03:31.394 --> 03:33.640
+có số hạng âm ở đây, thì cái này sẽ
+
+03:33.640 --> 03:36.597
+không bị giới hạn khi tiến tới vô cực.
+
+03:36.597 --> 03:38.632
+Chà nếu cái này không bị giới hạn, thì mỗi
+
+03:38.632 --> 03:40.424
+số hạng tương ứng sẽ lớn hơn, nên cái này
+
+03:40.424 --> 03:41.758
+phải không bị giới hạn.
+
+03:41.758 --> 03:43.743
+Vậy hãy viết xuống nào.
+
+03:43.743 --> 03:48.743
+Phép thử so sánh cho ta biết là nếu chuỗi nhỏ hơn
+
+03:50.481 --> 03:54.977
+phân kì, nếu cái này phân kì,
+
+03:54.977 --> 03:58.495
+thì chuỗi lớn hơn cũng phải phân kì.
+
+04:04.714 --> 04:06.669
+Vậy một lần nữa, nếu bạn muốn chứng minh là
+
+04:06.669 --> 04:09.188
+chuỗi nằm ngay đây sẽ phân kì,
+
+04:09.188 --> 04:11.262
+và một lần nữa, nếu bạn biết là
+
+04:11.262 --> 04:12.930
+tất cả b thứ n đều lớn hơn hoặc bằng với 0
+
+04:12.930 --> 04:14.772
+và bạn muốn chứng minh nó phân kì,
+
+04:14.772 --> 04:18.241
+thì có thể bạn nên thử tìm một chuỗi khác
+
+04:18.241 --> 04:19.893
+mà có các số hạng tương ứng nhỏ hơn
+
+04:19.893 --> 04:21.912
+số hạng tương ứng ở đây, và bạn có thể
+
+04:21.912 --> 04:25.531
+chứng minh cái này phân kì, sau đó mọi thứ sẽ đều xong xuôi.
+
+04:25.531 --> 04:29.209
+Chúng ta sẽ bắt đầu làm thử trong video sau nhé.

@@ -1,0 +1,344 @@
+WEBVTT
+
+00:00.630 --> 00:02.140
+Alyssa hraje videohru.
+
+00:02.140 --> 00:04.140
+Její postava se vydala vyhnat
+
+00:04.140 --> 00:07.380
+zlého černokněžníka
+a jeho poskoky z království.
+
+00:07.380 --> 00:09.850
+Její postava je kouzelník,
+jehož kouzla
+
+00:09.850 --> 00:12.310
+mají dosah 6 metrů.
+
+00:12.310 --> 00:14.330
+Umístění objektů ve hře
+
+00:14.330 --> 00:17.850
+je v počítači uloženo
+ve formě souřadnic x a y.
+
+00:17.850 --> 00:21.060
+Takže (5, 4) je poloha
+Alyssina kouzelníka,
+
+00:21.084 --> 00:23.805
+(8, 7) je poloha poskoka A,
+
+00:23.805 --> 00:26.562
+(2, −1) je poloha poskoka B,
+
+00:26.562 --> 00:30.882
+(9, 0) je poloha poskoka C.
+
+00:30.892 --> 00:33.500
+Co po vás chci je,
+abyste si pozastavili tohle video
+
+00:33.500 --> 00:36.310
+a zamysleli se: Pokud její magie má
+
+00:36.310 --> 00:39.270
+dosah 6 metrů, které z těchto poskoků
+
+00:39.270 --> 00:42.169
+může skutečně zasáhnout?
+
+00:42.169 --> 00:44.170
+Předpokládám, že jste to zkusili.
+
+00:44.170 --> 00:47.437
+K zjištění, kteří poskoci jsou v dosahu,
+
+00:47.457 --> 00:49.241
+hledáme, které body jsou vzdáleny
+
+00:49.241 --> 00:50.740
+nejvýše 6 jednotek.
+
+00:50.740 --> 00:53.400
+Předpokládáme, že naše souřadnice tady
+jsou v metrech.
+
+00:53.400 --> 00:58.249
+Které z těchto bodů jsou
+do 6 jednotek od (5, 4)?
+
+00:58.249 --> 01:00.790
+K tomu nám stačí spočítat vzdálenost
+
+01:00.790 --> 01:04.743
+mezi těmito body, těmito body
+a těmito body
+
+01:04.743 --> 01:09.740
+a zkontrolovat, jestli jsou větší
+nebo menší než 6 metrů.
+
+01:09.740 --> 01:12.810
+A jak spočítáme vzdálenost
+mezi dvěma body?
+
+01:12.810 --> 01:18.190
+Pokud si vezmeme bod tady
+- to bude (x1, y1) -
+
+01:18.190 --> 01:24.690
+a pak jiný tady
+- (x2, y2) -
+
+01:24.690 --> 01:28.724
+a chceme spočítat tuhle vzdálenost,
+
+01:28.724 --> 01:32.890
+pak potřebný vzoreček dostaneme
+z Pythagorovy věty.
+
+01:32.890 --> 01:34.910
+Pythagorova věta nám říká,
+
+01:34.910 --> 01:38.214
+že pokud tahle strana
+je náš rozdíl na ose y...
+
+01:38.214 --> 01:39.790
+A zaznačíme to radši
+
+01:39.790 --> 01:42.220
+jako abolutní hodnotu
+změny ‚y‘...
+
+01:42.220 --> 01:44.910
+A řekněme, že tahle strana tady
+
+01:44.910 --> 01:49.720
+je absolutní hodnota
+naší změny ‚x‘,
+
+01:49.720 --> 01:54.230
+pak nám Pythagorova říká,
+že tahle strana, přepona,
+
+01:54.230 --> 01:58.870
+bude odmocnina ze součtu
+druhých mocnin těch dvou stran:
+
+01:58.870 --> 02:06.845
+Tedy rozdíl ‚x‘ na druhou
+plus rozdíl ‚y‘ na druhou.
+
+02:06.845 --> 02:08.840
+Můžete říct: "A co absolutní hodnota?"
+
+02:08.840 --> 02:10.903
+No, po umocnění to
+bude kladné tak jako tak.
+
+02:10.903 --> 02:13.230
+Takže absolutní hodnotu
+už psát ani nemusím.
+
+02:13.230 --> 02:15.060
+Takže vlastně jenom potřebuju zjistit
+
+02:15.060 --> 02:17.110
+- pro každé dva z těchto bodů -
+
+02:17.110 --> 02:18.810
+jaká je změna v ‚x‘?
+
+02:18.810 --> 02:20.320
+Jaká je změna v ‚y‘?
+
+02:20.320 --> 02:24.310
+A pak to umocnit, sečíst,
+a výsledek odmocnit.
+
+02:24.310 --> 02:33.650
+Takže například, pokud bych
+si tohle označil jako P1,
+
+02:33.650 --> 02:37.250
+tohle bych označil jako P2,
+
+02:37.250 --> 02:39.580
+tohle možná můžeme označit jako P3...
+
+02:39.580 --> 02:43.020
+Chci je mít v různých barvách,
+ať můžete sledovat, co tady dělám.
+
+02:43.020 --> 02:46.950
+Tohle je P3 a řekněme, že tohle je P4.
+
+02:46.950 --> 02:56.070
+Pojďme se prvně zaměřit
+na vzdálenost mezi P1 a P2.
+
+02:56.080 --> 02:59.400
+Takže tohle bude rovno odmocnině
+
+02:59.400 --> 03:02.760
+z druhé mocniny rozdílu v "x"...
+
+03:02.760 --> 03:04.860
+A náš rozdíl v "x" je 3,
+
+03:04.860 --> 03:07.450
+druhá mocnina je tedy 9...
+
+03:07.450 --> 03:09.870
+plus druhá mocnina změny "y".
+
+03:09.870 --> 03:11.940
+Náš rozdíl v "y" je taky 3,
+
+03:11.940 --> 03:13.680
+a to na druhou je 9.
+
+03:13.680 --> 03:16.690
+Takže tohle bude odmocnina z 18,
+
+03:16.690 --> 03:22.810
+což je to samé jako tři odmocniny ze dvou.
+
+03:22.820 --> 03:26.580
+Je tohle menší než 6?
+
+03:26.580 --> 03:28.370
+No, třikrát 2 je 6.
+
+03:28.370 --> 03:30.450
+Odmocnina ze dvou je méně než 2.
+
+03:30.450 --> 03:32.200
+Je to jedna celá něco.
+
+03:32.200 --> 03:38.290
+Takže tohle bude méně než 6.
+
+03:38.290 --> 03:40.460
+Takže P2 je v dosahu.
+
+03:40.460 --> 03:45.340
+Alissin kouzelník může dostat poskoka A.
+Na poskoka A svou magií dosáhne.
+
+03:45.340 --> 03:54.070
+Nyní se podívejme na poskoka B.
+Vzdálenost mezi P1 a P3
+
+03:54.070 --> 03:58.150
+bude rovna odmocnině z...
+
+03:58.150 --> 04:02.060
+Náš rozdíl v "x" je −3.
+
+04:02.060 --> 04:05.340
+(−3) na druhou je +9.
+
+04:05.340 --> 04:10.790
+Náš rozdíl v "y",
+ze 4 na −1, je −5.
+
+04:10.790 --> 04:13.170
+To na druhou je 25.
+
+04:13.170 --> 04:15.380
+Takže 9 plus 25,
+
+04:15.380 --> 04:20.829
+což je rovno odmocnině z 34.
+
+04:20.829 --> 04:23.590
+Jenže je to více nebo méně než 6?
+
+04:23.590 --> 04:27.360
+No, odmocnina z 36 je 6.
+
+04:27.360 --> 04:29.990
+Takže když tohle je
+odmocnina nižšího čísla,
+
+04:29.990 --> 04:33.400
+tak to bude také méně než 6.
+
+04:33.400 --> 04:37.617
+Takže poskok B je také v dosahu.
+
+04:37.617 --> 04:39.200
+Zbývá nám poslední bod.
+
+04:39.200 --> 04:47.580
+Vzdálenost mezi P1 a P4
+
+04:47.580 --> 04:50.870
+se bude rovnat odmocnině
+
+04:50.870 --> 04:53.380
+mocniny našeho rozdílu v 'x'...
+
+04:53.380 --> 04:55.920
+Rozdíl v 'x' je 4, takže 16...
+
+04:55.920 --> 04:58.020
+Plus mocnina rozdílu v 'y'.
+
+04:58.020 --> 05:00.460
+Náš rozdíl v 'y' je −4.
+
+05:00.460 --> 05:03.080
+Ale když to umocníme, dostaneme také 16.
+
+05:03.080 --> 05:06.290
+Takže tohle bude odmocnina z 32,
+
+05:06.290 --> 05:10.000
+což vlastně můžeme nechat
+jako odmocninu z 32.
+
+05:10.000 --> 05:11.830
+Odmocnina z 32 je určitě menší,
+
+05:11.830 --> 05:14.710
+než odmocnina z 36, která je 6.
+
+05:14.710 --> 05:17.180
+Takže tohle bude také méně než 6.
+
+05:17.180 --> 05:21.330
+Dosáhne na všechny poskoky.
+
+05:21.330 --> 05:24.230
+Všichni jsou od ní vzdáleni do 6 jednotek.
+
+05:24.230 --> 05:26.330
+A teď, který z nich je nejdál?
+
+05:26.330 --> 05:28.079
+No, pokud bychom tohle napsali...
+
+05:28.079 --> 05:30.540
+My jsme to zjednodušili,
+ale mohli jsme to zapsat
+
+05:30.540 --> 05:32.870
+jako odmocninu z 18.
+
+05:32.870 --> 05:34.934
+Ta je určitě nejmenší
+
+05:34.934 --> 05:37.930
+z našich odmocnin z 18, 32 a 34.
+
+05:37.930 --> 05:42.290
+Takže poskok A je nejblíž.
+
+05:42.290 --> 05:48.290
+A poskok B, odmocnina z 34, je nejdál.

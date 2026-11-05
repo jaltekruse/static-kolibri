@@ -1,0 +1,557 @@
+WEBVTT
+
+00:00.480 --> 00:03.190
+Neste vídeo, eu gostaria
+de mostrar um exemplo do
+
+00:03.190 --> 00:06.170
+que significa colocar
+dados em uma reta.
+
+00:06.170 --> 00:08.730
+Em vez de apresentar meu
+vídeo tradicional usando minha
+
+00:08.730 --> 00:11.840
+prancheta digital, vou fazer
+isto diretamente no Excel para
+
+00:11.840 --> 00:14.250
+que vocês aprendam a fazer
+isto sozinhos, com o
+
+00:14.250 --> 00:18.090
+Excel ou outro tipo de
+programa de planilhas.
+
+00:18.090 --> 00:19.380
+Nós não vamos nos aprofundar
+na matemática disto.
+
+00:19.380 --> 00:21.540
+O que eu quero é que vocês
+entendam conceitualmente
+
+00:21.540 --> 00:26.840
+o que significa ajustar dados
+em uma reta, ou fazer uma regressão
+
+00:26.840 --> 00:27.880
+linear.
+
+00:27.880 --> 00:29.550
+Vamos ler o problema.
+
+00:29.550 --> 00:33.550
+A tabela abaixo mostra a
+renda média da Califórnia--
+
+00:33.550 --> 00:37.190
+lembrem-se de que mediana é
+a renda média da Califórnia
+
+00:37.190 --> 00:40.850
+-- de 1995 a 2002
+conforme relatório
+
+00:40.850 --> 00:42.680
+do U.S. Census Bureau.
+
+00:42.680 --> 00:45.320
+Elabore um gráfico de dispersão
+e descubra a equação.
+
+00:45.320 --> 00:47.540
+Na sua opinião, qual seria
+a renda média de uma
+
+00:47.540 --> 00:50.370
+família californiana
+no ano de 2010?
+
+00:50.370 --> 00:52.970
+Quais são os significados do coeficiente
+angular e da interceptação de y
+
+00:52.970 --> 00:53.580
+deste problema?
+
+00:53.580 --> 00:56.050
+Então, a primeira coisa que vocês
+devem fazer-- eu apenas copiei e
+
+00:56.050 --> 00:59.060
+colei esta imagem-- é colocar
+os dados em um formato
+
+00:59.060 --> 01:00.920
+compreensível para a planilha.
+
+01:00.920 --> 01:03.830
+Vamos fazer algumas tabelas aqui.
+
+01:03.830 --> 01:08.800
+Let's say years since 1995.
+Digamos anos desde 1995.
+
+01:08.800 --> 01:10.710
+Let's make that one column.
+Vamos fazer uma coluna só.
+
+01:10.710 --> 01:13.670
+Vou alargá-la um pouco.
+
+01:13.670 --> 01:16.670
+A seguir, vou colocar a renda média.
+
+01:16.670 --> 01:20.100
+Esta é a renda média na
+Califórnia para uma família.
+
+01:20.100 --> 01:23.560
+Então, começamos com
+1 ano, ou 0 anos desde
+
+01:23.560 --> 01:28.100
+1995, 0, 1, 2, 3, 4.
+
+01:28.100 --> 01:32.710
+Na verdade, se vocês quiserem, ele
+vai descobrir a tendência se vocês
+
+01:32.710 --> 01:33.590
+continuarem a descer.
+
+01:33.590 --> 01:36.650
+Ele perceberá que vocês
+estão aumentando em 1.
+
+01:36.650 --> 01:38.340
+E, a seguir, a renda,
+vou simplesmente copiar
+
+01:38.340 --> 01:39.300
+estes números aqui.
+
+01:39.300 --> 01:54.710
+Assim, este é $53.807, $55.217,
+$55.209, $55.415 $63.100,
+
+01:54.710 --> 02:08.680
+$63.206, $63.761, e
+por último temos $65.766.
+
+02:08.680 --> 02:10.520
+Eu não preciso destes aqui.
+
+02:10.520 --> 02:13.380
+Então, vou me livrar deles.
+
+02:13.380 --> 02:14.810
+Posso apagá-los.
+
+02:14.810 --> 02:16.180
+Deixe-me ver se eu
+tenho entradas suficientes.
+
+02:16.180 --> 02:24.040
+Aqui eu tenho 1, 2, 3, 4, 5, 6,
+7, 8, e aqui eu tenho 1, 2, 3, 4, 5,
+
+02:24.040 --> 02:25.570
+6, 7, 8 entradas.
+
+02:25.570 --> 02:29.930
+Quero me assegurar que os dados
+estão corretos. $53.807, $55.217,
+
+02:29.930 --> 02:34.510
+$55.209, 415, 100,
+206, 761, 766.
+
+02:34.510 --> 02:36.040
+Ok, vamos lá.
+
+02:36.040 --> 02:38.880
+Agora, vocês verão que isto
+é incrivelmente fácil no Excel
+
+02:38.880 --> 02:41.080
+se vocês souberem onde clicar.
+
+02:41.080 --> 02:44.430
+Primeiro, plotem os dados, criem um
+gráfico de dispersão, e, depois, ainda melhor
+
+02:44.430 --> 02:46.220
+criem uma regressão destes dados.
+
+02:46.220 --> 02:48.970
+Assim, tudo o que vocês têm a
+fazer é selecionar os dados.
+
+02:48.970 --> 02:51.480
+A seguir, vocês vão
+para inserir, e eu vou
+
+02:51.480 --> 02:53.170
+inserir um gráfico
+de dispersão.
+
+02:53.170 --> 02:54.390
+Aqui, vocês podem
+selecionar os diferentes
+
+02:54.390 --> 02:56.160
+tipos de gráficos de dispersão.
+
+02:56.160 --> 02:58.820
+Eu só quero plotar os dados.
+
+02:58.820 --> 02:59.670
+Pronto.
+
+02:59.670 --> 03:02.470
+Ele plotou os dados para mim.
+
+03:02.470 --> 03:03.050
+E pronto.
+
+03:03.050 --> 03:07.320
+Esta linha é a renda
+efetiva, e esta linha
+
+03:07.320 --> 03:08.870
+é o ano desde 1995.
+
+03:08.870 --> 03:10.570
+Este ponto é 1995.
+
+03:10.570 --> 03:13.710
+Ela foi $53.807.
+
+03:13.710 --> 03:17.370
+Em 1996, ela era $55.217.
+
+03:17.370 --> 03:19.250
+Ele plotou todos os dados.
+
+03:19.250 --> 03:22.110
+Agora, eu quero
+criar uma reta.
+
+03:22.110 --> 03:24.000
+Esta não é exatamente uma reta.
+
+03:24.000 --> 03:27.580
+Bem, vamos ver, se pressupormos
+que uma reta pode modelar bem
+
+03:27.580 --> 03:31.500
+estes dados, eu vou fazer com que
+o Excel insira uma reta para mim.
+
+03:31.500 --> 03:34.580
+O que posso fazer é
+escolher uma reta aqui, entre
+
+03:34.580 --> 03:37.720
+todas estas opções
+diferentes para
+
+03:37.720 --> 03:38.710
+inserir retas.
+
+03:38.710 --> 03:39.780
+Vou escolher esta aqui.
+
+03:39.780 --> 03:40.940
+Talvez vocês não
+estejam vendo.
+
+03:40.940 --> 03:42.460
+Ela parece ter uma
+reta entre pontos.
+
+03:42.460 --> 03:45.450
+Ela também tem
+fx que me dirá
+
+03:45.450 --> 03:46.470
+of the line.
+a equação da reta.
+
+03:46.470 --> 03:49.520
+Vou clicar nela e pronto.
+
+03:49.520 --> 03:52.570
+Ela não apenas inseriu os dados,
+mas plotou novamente os mesmos dados
+
+03:52.570 --> 03:54.530
+em um gráfico diferente.
+
+03:54.530 --> 03:55.830
+Vou aumentar isto um pouco.
+
+03:58.430 --> 03:59.930
+Não, não quero fazer isto.
+
+03:59.930 --> 04:01.060
+Vou aumentar
+um pouco mais.
+
+04:01.060 --> 04:04.430
+Nós podemos cobrir os dados
+agora, porque acho que já
+
+04:04.430 --> 04:06.410
+sabemos o que
+estamos fazendo.
+
+04:06.410 --> 04:09.460
+Vou cobri-los assim.
+
+04:09.460 --> 04:12.620
+Ele não apenas plotou os
+vários pontos de dados, ele
+
+04:12.620 --> 04:16.029
+na verdade ajustou a reta
+aos dados e me deu a
+
+04:16.029 --> 04:17.355
+equação desta reta.
+
+04:21.279 --> 04:22.975
+Vou tentar aumentar
+isto um pouco.
+
+04:27.330 --> 04:30.910
+Vou tirar daqui para vocês
+poderem ao menos ler.
+
+04:30.910 --> 04:33.400
+Então, ela me diz logo aqui,
+que a equação para esta
+
+04:33.400 --> 04:40.400
+reta é y é igual a
+1.882,3x mais 52.847.
+
+04:40.400 --> 04:43.250
+Se vocês se lembrarem do que
+aprendemos sobre coeficiente angular
+
+04:43.250 --> 04:50.660
+e interceptação de y, a interceptação
+de y é 52.847, que é, se vocês
+
+04:50.660 --> 04:55.000
+usarem esta reta como medida,
+onde esta reta intercepta no
+
+04:55.000 --> 04:57.470
+ano 0 ou em 1995.
+
+04:57.470 --> 05:01.830
+Assim, se vocês usarem esta
+reta como um modelo, em 1995 ela
+
+05:01.830 --> 05:05.580
+diria que você iria
+ter uma renda de $52.847.
+
+05:05.580 --> 05:07.280
+O dado real era um
+pouco diferente deste.
+
+05:07.280 --> 05:09.970
+Ele era um pouco
+mais alto, $53.807.
+
+05:09.970 --> 05:11.250
+Ele era um pouco mais alto.
+
+05:11.250 --> 05:13.850
+Mas, o que estamos tentando obter
+é um reta que se aproxime o melhor possível
+
+05:13.850 --> 05:14.980
+a todos estes dados.
+
+05:14.980 --> 05:17.530
+Estamos tentando na verdade
+minimizar a distância,
+
+05:17.530 --> 05:20.470
+o quadrado da distância,
+entre cada um destes pontos
+
+05:20.470 --> 05:20.970
+na reta.
+
+05:20.970 --> 05:22.440
+Não vamos fazer
+cálculos aqui.
+
+05:22.440 --> 05:23.830
+Mas temos aqui
+esta bela equação.
+
+05:23.830 --> 05:26.810
+Agora, nós podemos usá-la
+para fazer previsões.
+
+05:26.810 --> 05:30.290
+Se dissermos que este é
+um bom modelo para os dados-- vou
+
+05:30.290 --> 05:31.400
+baixar isto um
+pouco-- vamos tentar
+
+05:31.400 --> 05:32.400
+responder a pergunta.
+
+05:32.400 --> 05:35.210
+Então, nós criamos um gráfico de
+dispersão- na verdade, o Excel criou para nós.
+
+05:35.210 --> 05:38.000
+Descobrimos a equação aqui.
+
+05:38.000 --> 05:40.060
+Eles perguntam, na sua
+opinião qual seria a renda média
+
+05:40.060 --> 05:44.490
+anual de uma família
+californiana no ano de 2010?
+
+05:44.490 --> 05:50.010
+Aqui, podemos simplesmente usar
+a equação que ele nos deu.
+
+05:50.010 --> 05:51.770
+Este ponto aqui, era 2002.
+
+05:51.770 --> 05:52.850
+Então, eu poderia
+escrever o ano.
+
+05:52.850 --> 05:57.240
+Este foi o ano de 2002.
+
+05:57.240 --> 06:02.490
+Portanto, o ano de 2010
+são 8 anos a mais.
+
+06:02.490 --> 06:04.350
+Vou criar uma coluna aqui.
+
+06:08.390 --> 06:13.540
+Então, este é o
+ano de 1995, 1996.
+
+06:13.540 --> 06:15.710
+E o Excel conseguirá descobrir o
+que eu quero se eu selecionar estes,
+
+06:15.710 --> 06:18.950
+aqui embaixo e rolar
+
+06:18.950 --> 06:23.920
+para baixo, e o Excel
+vai perceber que eu quero
+
+06:23.920 --> 06:26.980
+incrementar em 1
+ano a cada vez.
+
+06:26.980 --> 06:31.670
+Se eu disse anos desde 1995,
+mais uma vez eu apenas continuo
+
+06:31.670 --> 06:33.550
+esta tendência aqui.
+
+06:33.550 --> 06:36.600
+Assim, 2010 seriam 15 anos.
+
+06:36.600 --> 06:38.660
+Vamos então aplicar esta equação.
+
+06:38.660 --> 06:41.760
+Nós poderíamos dizer que ela
+será igual a, de acordo com esta
+
+06:41.760 --> 06:44.570
+linha-- eu vou apenas inserir,
+espero que vocês consigam ler
+
+06:44.570 --> 06:51.000
+o que eu estou dizendo--
+1.882,3 vezes x.
+
+06:51.000 --> 06:55.500
+x aqui é o ano desde 1995.
+
+06:55.500 --> 06:58.430
+Eu poderia simplesmente selecionar
+esta célula, ou eu poderia inserir
+
+06:58.430 --> 06:59.320
+o número 15.
+
+06:59.320 --> 07:03.590
+Isto significa vezes
+esta célula, vezes 15.
+
+07:03.590 --> 07:11.390
+A seguir, mais 52.847,
+mais isto aqui.
+
+07:11.390 --> 07:17.600
+Clico em enter e ele
+prevê $81.081,50.
+
+07:17.600 --> 07:21.610
+Assim, se vocês puxarem
+esta linha por outros 8
+
+07:21.610 --> 07:24.550
+anos, ele prevê que a
+renda média de uma família
+
+07:24.550 --> 07:27.730
+californiana será de $81.000.
+
+07:27.730 --> 07:30.270
+De qualquer modo, espero que vocês
+tenham achado isto interessante.
+
+07:30.270 --> 07:33.340
+Planilhas são ferramentas muito
+úteis para manipular dados.
+
+07:33.340 --> 07:36.520
+Elas mostram o porquê modelos
+lineares são interessantes,
+
+07:36.520 --> 07:39.130
+por que linhas são interessantes,
+e como vocês podem usar estas
+
+07:39.130 --> 07:42.600
+ferramentas para interpretar dados
+e até mesmo extrapolar algum
+
+07:42.600 --> 07:43.370
+tipo de previsão.
+
+07:43.370 --> 07:45.450
+Isto aqui é uma extrapolação usando esta
+
+07:45.450 --> 07:47.260
+regressão linear.

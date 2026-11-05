@@ -1,0 +1,237 @@
+WEBVTT
+
+00:00.500 --> 00:05.300
+In einem vorherigen Video haben
+wir Zinseszinsen behandelt,
+
+00:05.300 --> 00:13.540
+und den Ausdruck (1 + 1/n)^n erhalten.
+
+00:13.540 --> 00:16.940
+In dem Beispiel hatten wir einen Kredithai,
+
+00:16.940 --> 00:20.755
+der 100% Zinsen berechnet hat, dafür steht diese 1.
+
+00:20.755 --> 00:23.272
+Und als nur einmal im Jahr aufgezinst wurde,
+
+00:23.272 --> 00:26.066
+hatten wir 100% auf das Jahr gesehen und n = 1.
+
+00:26.066 --> 00:30.019
+Also hatten wir (1 + (100%/1))^1.
+
+00:30.020 --> 00:32.900
+Du musstest das Doppelte der
+ursprünglichen Kreditsumme zurückbezahlen.
+
+00:32.900 --> 00:39.680
+Wenn n = 2 ist, dann haben
+wir (1 + (1/2))^2, was 2,25 ergibt.
+
+00:39.680 --> 00:44.080
+Du zinst die Hälfte der Zinsen auf,
+
+00:44.080 --> 00:47.800
+also 100%/2, aber du zinst zweimal auf.
+
+00:47.800 --> 00:51.720
+Dann haben wir immer weiter gemacht,
+und es sind interessante Dinge passiert.
+
+00:51.720 --> 00:54.340
+Ich wiederhole es nochmal mit dem Taschenrechner.
+
+00:54.340 --> 00:58.320
+Ich möchte zeigen, was passiert, wenn wir
+immer größere Werte für n bekommen.
+
+00:58.320 --> 01:01.580
+Im letzten Video war unser höchster Wert n = 365,
+
+01:01.580 --> 01:04.354
+und es schien so, als würden wir
+uns einer magischen Zahl nähern,
+
+01:04.360 --> 01:06.660
+aber jetzt gehen wir noch weiter.
+
+01:06.660 --> 01:12.840
+Ich setze sehr hohe Zahlen ein.
+
+01:12.840 --> 01:29.500
+(1 + (1/1.000.000))^1.000.000.
+
+01:29.500 --> 01:34.160
+Bevor ich das Ergebnis anzeigen lasse,
+denken wir darüber nach, was hier los ist.
+
+01:34.160 --> 01:40.080
+Wenn n immer größer wird, strebt dieser Teil hier
+immer mehr gegen 1, wird 1 aber nie exakt erreichen.
+
+01:40.080 --> 01:42.200
+Wir addieren 1 + 1/1.000.000.
+
+01:42.200 --> 01:44.500
+Es ist sehr nahe an 1, aber nicht exakt 1.
+
+01:44.500 --> 01:46.940
+Wir setzen 1.000.000 in den Exponenten,
+
+01:46.940 --> 01:52.420
+und normalerweise, wenn man das macht,
+bekommt man eine unglaublich riesige Zahl,
+
+01:52.420 --> 01:55.740
+aber es gibt einen Hinweis,
+dass 1^1.000.000 nur 1 ergibt.
+
+01:55.740 --> 01:57.260
+Wenn wir der 1 sehr nahe kommen,
+
+01:57.260 --> 02:00.660
+wird das vielleicht keine unglaublich riesige Zahl.
+
+02:00.660 --> 02:03.460
+Wenn wir es ausrechnen, sehen wir, dass das stimmt.
+
+02:03.460 --> 02:06.460
+Ich erhalte 2,71828 und so weiter.
+
+02:06.460 --> 02:11.940
+Jetzt setze ich eine noch größere Zahl ein.
+
+02:11.940 --> 02:16.580
+Ich schreibe wieder 1 + 1,
+
+02:16.580 --> 02:20.540
+und benutze jetzt die wissenschaftliche Notation.
+
+02:20.540 --> 02:32.380
+(1 + (1/1(10^7)))^1(10^7),
+wobei 10^7 für 10 Millionen steht.
+
+02:32.380 --> 02:34.180
+Was kommt heraus?
+
+02:34.180 --> 02:38.600
+Jetzt erhalten wir 2,718281692.
+
+02:38.600 --> 02:42.000
+Jetzt setze ich eine noch größere Zahl ein.
+
+02:42.000 --> 02:45.720
+Anstatt 7, setze ich jetzt 8 ein,
+
+02:45.720 --> 02:53.440
+und wir rechnen (1 + (1/100.000.000))^100.000.000.
+
+02:53.440 --> 02:59.420
+Wir erhalten 2,71828181487.
+
+02:59.420 --> 03:08.720
+Du siehst, dass wir uns der Eulerschen Zahl e nähern.
+
+03:08.720 --> 03:16.700
+Du siehst, dass wir bereits 7 Nachkommastellen haben,
+
+03:16.700 --> 03:19.840
+wenn wir 100 Millionen in den Exponenten setzen.
+
+03:19.840 --> 03:23.880
+Wir nähern uns also dieser Zahl,
+
+03:23.880 --> 03:32.480
+die wir auch als Grenzwert oder Limes
+bezeichnen können, wenn n gegen ∞ strebt.
+
+03:32.480 --> 03:37.560
+Wenn n immer größer wird, wird das Ergebnis
+nicht grenzenlos, es strebt nicht gegen ∞.
+
+03:37.560 --> 03:47.180
+Es strebt gegen diese Zahl, die wir auch
+als Eulersche Zahl oder e bezeichnen.
+
+03:47.180 --> 03:56.420
+Wir nennen diese Zahl e und sie ist
+fast so berühmt wie die Ziffern von π.
+
+03:56.420 --> 04:07.280
+e = 2,7182818 und so weiter.
+
+04:07.280 --> 04:12.240
+Die Zahlen wiederholen sich nie,
+es ist also eine unendliche Zahlenfolge.
+
+04:12.240 --> 04:13.280
+Genauso wie bei π.
+
+04:13.280 --> 04:17.420
+π ist das Verhältnis von Umfang
+zu Durchmesser eines Kreises.
+
+04:17.420 --> 04:21.060
+e ist eine weitere dieser verrückten
+Zahlen, die es im Universum gibt.
+
+04:21.060 --> 04:25.560
+Und in anderen Videos auf Khan Academy erkläre
+ich genauer, warum sie so magisch und mystisch ist.
+
+04:25.560 --> 04:33.780
+Es ist jetzt schon cool, dass, wenn ich 1 mit 1/n addiere,
+
+04:33.780 --> 04:36.660
+und n in den Exponenten setze,
+und diese Zahl immer größer wird,
+
+04:36.660 --> 04:39.020
+sie gegen diese Zahl strebt.
+
+04:39.020 --> 04:47.560
+Aber noch verrückter ist, dass wir sehen werden,
+dass diese Zahl, die aus den Zinseszinsen entsteht,
+
+04:47.560 --> 04:54.620
+also e, π, sowie die imaginäre
+Einheit i, die als i² = -1 definiert ist,
+
+04:54.620 --> 04:59.280
+alle auf magische Weise zusammenpassen,
+was in zukünftigen Videos behandelt wird.
+
+04:59.280 --> 05:05.100
+Um e zu verstehen, kannst du dir
+das vorherige Beispiel anschauen,
+
+05:05.100 --> 05:09.860
+in dem wir uns 1 Dollar geliehen und 100%
+über ein Jahr hinweg berechnet haben.
+
+05:09.867 --> 05:13.000
+Als unser n = 1 war, bedeutete es, dass wir
+nur über eine Zeitperiode hinweg berechnet haben.
+
+05:13.000 --> 05:18.000
+Wenn n = 2 ist, dann zinsen wir über 2 Zeitperioden auf.
+
+05:18.000 --> 05:20.440
+Wenn n = 3 ist, dann zinsen wir über 3 Zeitperioden auf.
+
+05:20.440 --> 05:24.780
+Wenn n gegen ∞ strebt, kannst du es so
+sehen, als würdest du ständig aufzinsen,
+
+05:24.780 --> 05:26.740
+jedes Zigtausendstel einer Sekunde.
+
+05:26.740 --> 05:32.680
+In jedem Moment zinst du
+einen sehr geringen Zinssatz auf,
+
+05:32.680 --> 05:38.600
+strebst gegen eine unendliche Anzahl
+an Zeitperioden und erhältst diese Zahl.

@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.660 --> 00:08.370
+Powiedzmy, że mamy wyliczyć granicę przy x dążącym do 0 z
+
+00:08.370 --> 00:20.340
+2 sinus z x minus sinus z 2x, i to wszystko przez x
+
+00:20.340 --> 00:24.210
+minus sinus x.
+
+00:24.210 --> 00:26.820
+Pierwsza rzecz, jaką zawsze próbuję zrobić
+
+00:26.820 --> 00:29.160
+po zobaczeniu zadania z granicą, to sprawdzenie, co się stanie
+
+00:29.160 --> 00:33.890
+gdy po prostu oszacuję wartość tej funkcji dla x równego 0.
+
+00:33.890 --> 00:35.540
+Może nie wydarzy się nic szalonego.
+
+00:35.540 --> 00:37.090
+Spróbujmy tą metodą.
+
+00:37.090 --> 00:40.340
+Jeśli weźmiemy x równe 0, co otrzymamy?
+
+00:40.340 --> 00:43.580
+Dostaniemy 2 sinusy z 0, czyli 0.
+
+00:43.580 --> 00:46.190
+Minus sinus z 2 razy 0.
+
+00:46.190 --> 00:49.960
+Cóż, to znowu będzie sinus z 0, czyli 0.
+
+00:49.960 --> 00:53.510
+Tak więc nasz licznik będzie wynosił 0.
+
+00:53.510 --> 00:54.750
+Sinus z 0 to 0.
+
+00:54.750 --> 00:56.440
+I tutaj też mamy kolejnego sinusa z 0.
+
+00:56.440 --> 00:58.340
+To kolejne zero, dostaliśmy same zera.
+
+00:58.340 --> 00:59.590
+I w naszym mianowniku będziemy mieć
+
+00:59.590 --> 01:02.590
+0 minus sinus z 0.
+
+01:02.590 --> 01:05.200
+Czyli także 0.
+
+01:05.200 --> 01:08.340
+Mamy tę formę nieokreśloną, mamy to nieoznaczone wyrażenie
+
+01:08.340 --> 01:12.000
+postaci 0/0, o którym była mowa w poprzednim filmie.
+
+01:12.000 --> 01:15.720
+Więc może w tym wypadku uda się skorzystać z reguły de l'Hospitala.
+
+01:15.720 --> 01:18.910
+Aby użyć reguły de l'Hospitala, granica przy x
+
+01:18.910 --> 01:21.880
+dążącym do 0 z pochodnej tej funkcji dzielonej
+
+01:21.880 --> 01:24.880
+przez pochodną tej funkcji musi istnieć.
+
+01:24.880 --> 01:28.060
+Użyjmy reguły de l'Hospitala, weźmiemy po prostu
+
+01:28.060 --> 01:30.470
+pochodne tych funkcji i zobaczymy, czy obliczymy żądaną granicę.
+
+01:30.470 --> 01:33.620
+Jeśli nam się uda, będzie to też granica tej rzeczy.
+
+01:33.620 --> 01:38.750
+Więc to, zakładając że to istnieje, będzie równe
+
+01:38.750 --> 01:44.950
+granicy przy x dążącym do 0 z pochodnej
+
+01:44.950 --> 01:46.600
+tego licznika.
+
+01:46.600 --> 01:48.380
+A więc, jaka będzie pochodna tego licznika?
+
+01:48.380 --> 01:49.315
+Zrobię to nowym kolorem.
+
+01:49.315 --> 01:51.050
+Na zielono.
+
+01:51.050 --> 01:55.370
+Pochodna z 2 sinus x to 2 cosinus z x.
+
+01:57.920 --> 02:00.160
+Potem, minus, tak, pochodna z sinusa
+
+02:00.160 --> 02:04.150
+z 2x to 2 cosinus z 2x.
+
+02:04.150 --> 02:07.440
+Czyli minus 2 cosinus 2x.
+
+02:07.440 --> 02:09.210
+Tutaj użyjemy reguły łańcuchowej, pochodna
+
+02:09.210 --> 02:11.000
+funkcji wewnętrznej to po prostu 2.
+
+02:11.000 --> 02:12.060
+Tutaj mamy 2.
+
+02:12.060 --> 02:15.405
+Pochodna funkcji zewnętrznej to cosinus z 2x i tę
+
+02:15.405 --> 02:16.790
+ujemną liczbę mieliśmy tutaj.
+
+02:16.790 --> 02:19.610
+To jest pochodna naszego licznika, a
+
+02:19.610 --> 02:20.500
+jaka jest pochodna
+
+02:20.500 --> 02:21.920
+naszego mianownika?
+
+02:21.920 --> 02:25.430
+Pochodna z x to po prostu 1, a pochodna sinusa z x
+
+02:25.430 --> 02:26.870
+to cosinus z x.
+
+02:26.870 --> 02:29.920
+Tak więc 1 minus cosinus z x.
+
+02:29.920 --> 02:31.950
+Spróbujmy wyliczyć tę granicę.
+
+02:31.950 --> 02:33.150
+Co otrzymamy?
+
+02:33.150 --> 02:36.180
+Jeśli wstawimy tutaj 0, otrzymamy 2 cosinus
+
+02:36.180 --> 02:39.610
+z 0, czyli 2, pozwólcie, że tak to zapiszę.
+
+02:39.610 --> 02:42.760
+To jest 2 razy cosinus z 0, który wynosi 1.
+
+02:42.760 --> 02:48.040
+Mamy więc 2 minus 2 cosinus z 2 razy 0.
+
+02:48.040 --> 02:49.480
+Zapiszę to w ten sposób.
+
+02:49.480 --> 02:50.580
+Albo jeszcze inaczej.
+
+02:50.580 --> 02:53.150
+Jeśli po prostu spróbujemy oszacować granicę licznika i
+
+02:53.150 --> 02:54.270
+mianownika, to co dostaniemy?
+
+02:54.270 --> 02:57.710
+Dostaniemy 2 razy cosinus z 0, czyli 2.
+
+02:57.710 --> 03:01.760
+Minus 2 razy cosinus, cóż - to 2 razy 0 to
+
+03:01.760 --> 03:02.620
+nadal będzie 0.
+
+03:02.620 --> 03:06.850
+Tak więc, minus 2 razy cosinus z 0, czyli 2.
+
+03:06.850 --> 03:15.620
+I to wszystko przez 1 minus cosinus z 0, czyli 1.
+
+03:15.620 --> 03:17.295
+Po raz kolejny otrzymaliśmy 0/0.
+
+03:22.100 --> 03:24.500
+Czy to oznacza, że te granica nie istnieje?
+
+03:24.500 --> 03:27.420
+Nie, ona wciąż może istnieć, być może trzeba
+
+03:27.420 --> 03:28.830
+ponownie użyć reguły de l'Hospitala.
+
+03:28.830 --> 03:30.610
+Wezmę pochodną tego i napiszę nad
+
+03:30.610 --> 03:31.490
+pochodną tego.
+
+03:31.490 --> 03:34.610
+Potem wezmę granicę i może reguła de l'Hospitala
+
+03:34.610 --> 03:35.700
+pomoże nam w następnym kroku.
+
+03:35.700 --> 03:38.610
+Sprawdźmy, czy to nas dokądkolwiek doprowadzi.
+
+03:38.610 --> 03:43.030
+To powinno być równe granicy, jeśli reguła de l'Hospitala
+
+03:43.030 --> 03:43.840
+ma tu zastosowanie.
+
+03:43.840 --> 03:46.050
+Nie mamy jeszcze 100% pewności.
+
+03:46.050 --> 03:49.950
+To powinno być równe granicy przy x dążącym do 0 z
+
+03:49.950 --> 03:53.690
+pochodnej tej rzeczy przez pochodną tamtej rzeczy.
+
+03:53.690 --> 03:58.240
+Jaka jest pochodna 2 cosinus z x?
+
+03:58.240 --> 04:00.485
+Pochodna cosinus z x, to minus sinus z x.
+
+04:00.485 --> 04:04.920
+Tak więc to będzie minus 2 sinus z x.
+
+04:04.920 --> 04:11.320
+Pochodna cosinusa z 2x, to minus 2 sinus z 2x.
+
+04:11.320 --> 04:13.660
+Ten minus nam się uprości
+
+04:13.660 --> 04:16.980
+z minusem stojącym przed 2, dostaniemy ostatecznie 2 razy 2.
+
+04:16.980 --> 04:21.990
+To będzie plus 4 razy sinus 2x.
+
+04:21.990 --> 04:23.790
+Upewnijmy się, że się nie pomyliłem.
+
+04:23.790 --> 04:26.640
+Mamy ujemne 2, czy minus 2, na zewnątrz.
+
+04:26.640 --> 04:30.950
+Pochodna cosinusa 2x to będzie 2 razy
+
+04:30.950 --> 04:32.590
+minus sinus z x.
+
+04:32.590 --> 04:34.270
+2 razy 2 to 4.
+
+04:34.270 --> 04:36.780
+Minus sinus z x razy minus
+
+04:36.780 --> 04:38.060
+to tutaj będzie plus.
+
+04:38.060 --> 04:40.180
+Mamy znak plusa przed sinusem, to będzie sinus 2x.
+
+04:40.180 --> 04:42.370
+To jest licznik po zróżniczkowaniu.
+
+04:42.370 --> 04:45.260
+A mianownik, to same ćwiczenia z
+
+04:45.260 --> 04:45.830
+liczenia pochodnych.
+
+04:45.830 --> 04:47.350
+Jaka jest pochodna mianownika?
+
+04:47.350 --> 04:49.310
+Pochodna z 1, to 0.
+
+04:49.310 --> 04:52.790
+A pochodna z minus cosinus x to
+
+04:52.790 --> 04:53.900
+po prostu sinus x.
+
+04:56.480 --> 04:57.950
+Weźmy tę granicę.
+
+04:57.950 --> 05:00.050
+To będzie równe, cóż, jeśli od razu
+
+05:00.050 --> 05:02.810
+wezmę x równe 0 w mianowniku, to wiem, że
+
+05:02.810 --> 05:05.190
+sinus z 0, to 0.
+
+05:05.190 --> 05:06.870
+Sprawdźmy, co się dzieje w liczniku.
+
+05:06.870 --> 05:08.700
+Minus 2 razy sinus 0.
+
+05:08.700 --> 05:10.740
+To będzie 0.
+
+05:10.740 --> 05:13.880
+Potem plus 4 razy sinus 2 razy 0.
+
+05:13.880 --> 05:16.570
+To w dalszym ciągu sinus z 0, czyli to nadal będzie równe 0.
+
+05:16.570 --> 05:19.210
+Po raz kolejny dostaliśmy formę nieokreśloną.
+
+05:19.210 --> 05:19.900
+Czy to już koniec?
+
+05:19.900 --> 05:20.820
+Poddajemy się?
+
+05:20.820 --> 05:22.730
+Mówimy, że reguła de l'Hospitala nie działa?
+
+05:22.730 --> 05:26.550
+Nie, bo to mógłby być nasz wyjściowy problem graniczny.
+
+05:26.550 --> 05:28.750
+A jeśli to nasze wyjściowe zadanie to mówimy - hej, a może
+
+05:28.750 --> 05:30.680
+skorzystamy tutaj z reguły de l'Hospitala, bo mamy
+
+05:30.680 --> 05:32.600
+wyrażenie w postaci nieokreślonej.
+
+05:32.600 --> 05:34.990
+Zarówno licznik, jak i mianownik, osiągają
+
+05:34.990 --> 05:36.660
+0 przy x dążącym do 0.
+
+05:36.660 --> 05:40.110
+Po raz kolejny weźmy pochodne.
+
+05:40.110 --> 05:42.870
+To będzie równe, o ile granica istnieje,
+
+05:42.870 --> 05:45.730
+granicy przy x dążącym do 0.
+
+05:45.730 --> 05:47.685
+Weźmy pochodną licznika.
+
+05:47.685 --> 05:51.410
+Pochodna minus 2 sinus z x to minus
+
+05:51.410 --> 05:54.100
+2 cosinus z x.
+
+05:54.100 --> 05:57.850
+Dalej, plus pochodna z 4 razy sinus 2x.
+
+05:57.850 --> 06:01.520
+To jest 2 razy 4, czyli 8.
+
+06:01.520 --> 06:04.330
+Razy cosinus 2x.
+
+06:04.330 --> 06:08.320
+Pochodna sinus z 2x, to 2 razy cosinus 2x.
+
+06:08.320 --> 06:10.270
+I to pierwsze 2 mnożymy przez
+
+06:10.270 --> 06:11.840
+4 by dostać 8.
+
+06:11.840 --> 06:17.030
+Pochodna mianownika, pochodna z sinus x
+
+06:17.030 --> 06:19.140
+to cosinus x.
+
+06:19.140 --> 06:21.880
+Policzmy to wyrażenie.
+
+06:21.880 --> 06:24.620
+Wygląda na to, że zrobiliśmy pewien postęp albo może
+
+06:24.620 --> 06:27.160
+reguła de l'Hospitala nie ma tutaj zastosowania, bo bierzemy granicę
+
+06:27.160 --> 06:29.610
+przy x dążącym do 0 z cosinus x.
+
+06:29.610 --> 06:30.650
+To jest 1.
+
+06:30.650 --> 06:33.220
+Na pewno nie dostaniemy tej postaci nieokreślonej,
+
+06:33.220 --> 06:36.120
+0/0 w tym kroku.
+
+06:36.120 --> 06:38.160
+Sprawdźmy, co się dzieje z licznikiem.
+
+06:38.160 --> 06:41.950
+Dostajemy minus 2 razy cosinus z 0.
+
+06:41.950 --> 06:45.530
+To po prostu minus 2, bo cosinus z 0 to 1.
+
+06:45.530 --> 06:50.090
+Plus 8 razy cosinus 2x.
+
+06:50.090 --> 06:53.590
+Jeśli x wynosi 0, to będzie cosinus z 0, czyli 1.
+
+06:53.590 --> 06:54.690
+Tak więc to będzie równe 8.
+
+06:54.690 --> 06:56.990
+Czyli minus 2 plus 8.
+
+06:56.990 --> 06:59.500
+Ta rzecz tutaj, minus 2 plus 8, to 6.
+
+06:59.500 --> 07:00.720
+6 przez 1.
+
+07:00.720 --> 07:03.370
+Całość wynosi 6.
+
+07:03.370 --> 07:06.850
+A zatem w ostatnim kroku mogliśmy skorzystać z reguły de l'Hospitala.
+
+07:06.850 --> 07:09.630
+Jeśli to było zadanie, które mieliśmy rozwiązać, to mówimy:
+
+07:09.630 --> 07:13.530
+próbowaliśmy znaleźć granicę i licznik
+
+07:13.530 --> 07:15.010
+przy x dążącym do 0 wynosi 0.
+
+07:15.010 --> 07:19.790
+Granica przy x dążącym do 0 z mianownika wynosi 0.
+
+07:19.790 --> 07:21.980
+Jako że pochodna licznika podzielona przez pochodną
+
+07:21.980 --> 07:25.600
+mianownika istnieje i wynosi 6,
+
+07:25.600 --> 07:28.590
+to ta granica także jest równa 6.
+
+07:28.590 --> 07:31.740
+Jeśli ta granica wynosi 6, to, na mocy tego samego argumentu,
+
+07:31.740 --> 07:33.340
+ta granica także jest równa 6.
+
+07:33.340 --> 07:35.850
+I na tej samej zasadzie, ta granica także
+
+07:35.850 --> 07:40.090
+będzie wynosić 6.
+
+07:40.090 --> 07:41.770
+Skończyliśmy.

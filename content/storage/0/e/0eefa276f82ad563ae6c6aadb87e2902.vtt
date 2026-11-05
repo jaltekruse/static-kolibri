@@ -1,0 +1,296 @@
+WEBVTT
+
+00:00.354 --> 00:02.180
+No vídeo anterior, estabelecemos que
+
+00:02.017 --> 00:04.689
+que se dissermos que a taxa de
+variação de uma população
+
+00:04.689 --> 00:07.529
+em relação ao tempo for proporcional
+
+00:07.529 --> 00:09.152
+à população, seremos capazes de
+
+00:09.152 --> 00:12.373
+resolver aquela equação diferencial,
+encontrar uma solução geral,
+
+00:12.373 --> 00:13.991
+que envolve uma exponencial.
+
+00:13.991 --> 00:17.567
+A população será igual a uma constante
+
+00:17.646 --> 00:21.132
+vezes &lt;i>e&lt;/i> elevado a outra constante,
+vezes o tempo.
+
+00:21.132 --> 00:24.111
+E no último vídeo nós definimos
+que o tempo era em dias.
+
+00:24.111 --> 00:27.613
+Então vamos aplicar isto, apenas
+para nos sentirmos bem que nós
+
+00:27.653 --> 00:30.045
+que nós podemos modelar a
+população desta maneira.
+
+00:30.045 --> 00:31.695
+Façamos isto
+com números concretos.
+
+00:31.695 --> 00:34.194
+Você provavelmente já
+fez isto anteriormente.
+
+00:34.194 --> 00:36.207
+Provavelmente iniciou com a suposição
+
+00:36.207 --> 00:38.741
+de que você pode modelar com
+uma função exponencial,
+
+00:38.741 --> 00:41.532
+e então usou alguma informação,
+algumas condições
+
+00:41.532 --> 00:43.206
+para calcular as constantes.
+
+00:43.206 --> 00:44.912
+Você provavelmente já fez isto,
+
+00:44.912 --> 00:46.813
+em uma aula de pré-cálculo ou álgebra.
+
+00:46.813 --> 00:49.181
+Faremos isto novamente,
+apenas para que sentir
+
+00:49.181 --> 00:51.907
+que isto aqui é útil.
+
+00:51.907 --> 00:53.755
+Vamos lhe dar algumas informações.
+
+00:53.755 --> 00:57.893
+Vamos dizer que para tempo igual a zero,
+
+00:57.893 --> 01:04.113
+a população é igual a 100 insetos,
+
+01:04.113 --> 01:06.433
+ou seja lá o que for que estamos medindo.
+
+01:06.433 --> 01:15.543
+Vamos dizer que para tempo igual
+a 50, a população,
+
+01:15.553 --> 01:20.553
+então após 50 dias,
+a população é 200.
+
+01:20.826 --> 01:22.861
+Note que dobrou após 50 dias.
+
+01:23.176 --> 01:27.278
+Então, com esta informação
+podemos calcular C e k?
+
+01:27.278 --> 01:29.211
+Eu o encorajo a pausar o vídeo
+
+01:29.211 --> 01:31.319
+e tentar resolver sozinho.
+
+01:31.319 --> 01:33.854
+Então esta primeira condição
+inicial é muito sincera
+
+01:33.854 --> 01:36.905
+com você, porque quando t é
+igual a zero, P é igual a 100.
+
+01:36.905 --> 01:42.471
+Então podemos dizer, baseado
+nesta informação,
+
+01:42.471 --> 01:46.591
+podemos dizer que 100 deve ser igual a
+
+01:46.591 --> 01:56.461
+C vezes &lt;i>e&lt;/i> elevado a k vezes zero.
+
+01:56.531 --> 01:59.617
+Sendo assim apenas &lt;i>e&lt;/i> elevado a zero.
+
+01:59.617 --> 02:02.073
+&lt;i>e&lt;/i> elevado a zero é igual a um.
+
+02:02.073 --> 02:05.165
+Então isto é a mesma coisa
+que C vezes um
+
+02:05.165 --> 02:08.092
+e assim calculamos o valor de C.
+
+02:08.097 --> 02:12.613
+Agora podemos escrever
+que a população será
+
+02:12.613 --> 02:19.548
+igual a cem elevado a kt
+
+02:19.569 --> 02:21.515
+Você pode ver, expresso
+desta maneira,
+
+02:21.515 --> 02:24.306
+nosso C será sempre nossa
+população inicial.
+
+02:24.306 --> 02:30.956
+Então, &lt;i>e&lt;/i> elevado a kt.
+
+02:30.962 --> 02:33.343
+E agora, podemos usar esta
+segunda informação.
+
+02:33.343 --> 02:36.727
+Então nossa população é 200,
+vamos escrever aqui embaixo.
+
+02:36.727 --> 02:41.330
+Então nossa população é 200 quando
+o tempo é igual a 50.
+
+02:41.330 --> 02:42.602
+Depois de 50 dias.
+
+02:42.602 --> 02:54.606
+Então 200 é igual a 100 vezes &lt;i>e&lt;/i>
+elevado a k vezes 50, certo?
+
+02:54.606 --> 02:56.347
+t é igual a 50.
+
+02:56.347 --> 02:57.675
+Deixe-me escrever isto.
+
+02:57.693 --> 03:00.952
+k vezes 50.
+
+03:00.952 --> 03:04.434
+Agora podemos dividir ambos
+os lados por 100,
+
+03:04.434 --> 03:14.943
+e obteremos dois igual a &lt;i>e&lt;/i>
+elevado a 50 vezes k.
+
+03:14.943 --> 03:17.816
+Então podemos aplicar o logaritmo
+natural em ambos os lados.
+
+03:17.843 --> 03:19.742
+Log natural do lado esquerdo,
+
+03:19.742 --> 03:21.789
+nós obtemos log natural de dois.
+
+03:21.789 --> 03:25.185
+E do lado direito, o log natural de &lt;i>e&lt;/i>
+elevado a 50 vezes k,
+
+03:25.185 --> 03:28.077
+e isto será, aquela potência que você
+
+03:28.077 --> 03:31.211
+precisa elevar &lt;i>e&lt;/i> para, para obter &lt;i>e&lt;/i>
+elevado a 50 vezes k.
+
+03:31.211 --> 03:35.780
+Bem é apenas 50 vezes k.
+
+03:35.801 --> 03:38.723
+Tudo que você fez foi aplicar o
+log natural em ambos os lados.
+
+03:38.723 --> 03:41.637
+Note que esta equação expressa
+a mesma coisa.
+
+03:41.637 --> 03:43.957
+Log natural de dois é igual
+a 50 vezes k,
+
+03:43.471 --> 03:46.014
+ou seja, &lt;i>e&lt;/i> elevado a 50
+vezes k igual a dois,
+
+03:46.014 --> 03:47.762
+como escrevemos aqui.
+
+03:47.762 --> 03:49.491
+E agora podemos resolver para k.
+
+03:49.491 --> 03:53.422
+Divida ambos os lados por
+50 e ficamos com
+
+03:53.761 --> 04:02.824
+k igual ao log natural de dois,
+dividido por 50.
+
+04:02.824 --> 04:04.411
+E finalizamos.
+
+04:04.411 --> 04:06.674
+Agora podemos escrever
+esta solução particular
+
+04:06.674 --> 04:09.066
+que atenda estas condições
+
+04:09.066 --> 04:11.562
+Então agora podemos escrever
+nossa população,
+
+04:11.562 --> 04:15.007
+e eu posso escrever nossa população
+como uma função do tempo,
+
+04:15.007 --> 04:25.947
+que é 100 vezes &lt;i>e&lt;/i> elevado a
+
+04:25.947 --> 04:29.411
+agora k é o log natural de dois dividido
+por 50, escreverei isto.
+
+04:29.411 --> 04:36.231
+Então, log natural de dois dividido por
+50, e então vezes o tempo.
+
+04:36.881 --> 04:41.617
+Se você supor que a taxa de
+variação da população
+
+04:41.617 --> 04:42.874
+é proporcional à população
+
+04:42.874 --> 04:45.140
+você supõe esta informação aqui,
+
+04:45.014 --> 04:47.099
+esta função descreverá a sua
+
+04:47.099 --> 04:50.470
+taxa de natalidade da população.
+
+04:50.470 --> 04:55.385
+Traduzido por [Rodrigo Melges]
+Revisado por: [Pilar Dib]

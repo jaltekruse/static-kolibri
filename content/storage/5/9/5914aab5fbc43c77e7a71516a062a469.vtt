@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.000 --> 00:05.533
+Parte d:Trovare la distanza totale percorsa dalla particella durante l'intervallo di tempo tra
+
+00:05.533 --> 00:11.159
+t=0 e t=3,oppure 0&lt;=t&lt;=t .
+
+00:11.159 --> 00:14.267
+Quindi disegnamo due assi cartesiani giusto per essere sicuri
+
+00:14.267 --> 00:18.462
+anche se ovviamente questa parte può essere saltata se avete fretta durante il vero
+
+00:18.462 --> 00:23.185
+esame AP,ma il mio obiettivo qui è essere sicuro che tutti stiano capendo cosa stiamo facendo.
+
+00:23.185 --> 00:25.867
+Quindi quando t=0,cosa abbiamo?
+
+00:25.867 --> 00:29.129
+Be' ce lo dice il disegno;x(0) è 0 qundi la x vale 0
+
+00:29.129 --> 00:35.298
+e y(0) è -4 quindi siamo nel punto (0,-4).
+
+00:35.298 --> 00:42.913
+Tutto ciò quando t=0 e nell'ultimo problema abbiamo trovato cosa accade quando t=3;
+
+00:42.913 --> 00:45.133
+Abbiamo trovato che la x vale 21.
+
+00:45.133 --> 00:48.600
+Diciamo che 21 lo metto proprio qui.
+
+00:48.600 --> 00:54.221
+x(3) vale 21 e y(3) era qualcosa come -3 virgola qualcosa,
+
+00:54.221 --> 00:57.287
+qundi il punto è proprio qui.
+
+00:57.287 --> 01:04.708
+Quindi questo è 21 e ,lo abbiamo scoperto nell'ultimo problema,mi sembra che era -3,226,
+
+01:04.708 --> 01:07.800
+e questo è ciò che accade quando t=3.
+
+01:07.800 --> 01:10.482
+E tra questi due punti chissà qual'è il percorso.
+
+01:10.482 --> 01:16.267
+Potremmo disegnarlo se volessimo,ma sembrerebbe qualcosa del genere,quindi chi sa cosa faccia,possiamo fare una cosa del genere.
+
+01:16.267 --> 01:21.246
+Quindi nella parte D qui dove ci chiede"Qual'è la distanza totale percorsa?"
+
+01:21.246 --> 01:28.267
+o un altro modo di pensare alla domanda:"Qual'è la lunghezza del percorso?"
+
+01:28.267 --> 01:35.000
+Potremmo,esiste una formula per trovare la lunghezza di una curva e se la conoscete potete applicara.
+
+01:35.000 --> 01:39.508
+Non sarebbe male conoscerla quando si fa l'esame AP,specialmente quando il tempo è poco,
+
+01:39.508 --> 01:43.010
+ma io la dimentico sempre,ho quasi 35 anni ormai,
+
+01:43.010 --> 01:46.852
+perciò mi piace ri-derivarla e c'è sempre un po' di soddisfazione
+
+01:46.852 --> 01:52.031
+in ciò perchè ci ricorda perchè la formula funziona.
+
+01:52.031 --> 01:56.533
+Quindi come facciamo a misurare la lunghezza della curva?
+
+01:56.533 --> 01:59.687
+Fatemi fare un'altra piccola parte prima;La preferisco.
+
+01:59.687 --> 02:03.969
+Diciamo per esempio:"Come capiamo quanto sia lungo un pezzettino di curva,per esempio questo qui?"
+
+02:03.969 --> 02:07.538
+Diciamo di avere un pezzettino di curva
+
+02:07.538 --> 02:09.918
+che andrò a zoommare.
+
+02:09.918 --> 02:18.600
+In questo pezzettino abbiamo una variazione piccola della x
+
+02:18.600 --> 02:26.379
+che chiameremo dx,e avremo anche una piccola variazione nella y chiamata dy
+
+02:26.379 --> 02:29.631
+sappiamo dal teorema di Pitagora
+
+02:29.631 --> 02:32.662
+se rimpiccioliamo abbastanza possiamo approssimare questo pezzo come ipotenusa
+
+02:32.662 --> 02:36.000
+questa è la base,questa l'altezza,e questo è l'ipotenusa.
+
+02:36.000 --> 02:41.933
+Questo sta diventando,specialmente se rimpiccioliamo abbastanza,una linea che diventerà un piccolo -
+
+02:41.933 --> 02:47.985
+così si potrà davvero approssimare questa curva come un ipotenusa
+
+02:47.985 --> 02:51.769
+proprio qui.
+
+02:51.769 --> 02:53.031
+Sappiamo cos'è dal teorema di pitagora.
+
+02:53.031 --> 02:59.298
+Questo sarà la radice quadrata di dx al quadrato più dy al quadrato
+
+02:59.298 --> 03:02.157
+direttamente dal teorema di pitagora.
+
+03:02.157 --> 03:05.415
+Ora,come scriviamo tutto ciò in funzione di t?
+
+03:05.415 --> 03:14.067
+Sappiamo che dx/dt è uguale a x'(t)
+
+03:14.067 --> 03:18.590
+o se trattiamo i differenziali come se fossero delle specie di numeri,e si può fare la maggior parte delle volte,non è molto rigoroso,
+
+03:18.590 --> 03:29.185
+ma sapete che dx è uguale a x'(t)dt e che dy di t o dy/dt,
+
+03:29.185 --> 03:32.677
+sappiamo che è la stessa cosa della derivata di y rispetto a t;
+
+03:32.677 --> 03:39.754
+moltiplicando ambo i lati di y'(t) per dt si ottiene dy=y'(t)dt
+
+03:39.754 --> 03:45.154
+Tutto quello che sto facendo è semplicemente ridimostrare o riderivare la formula della lunghezza di una curva.
+
+03:45.154 --> 03:55.418
+Quindi sappiamo che questo qui è un piccolo pezzo di curva che possiamo chiamare dL o da
+
+03:55.418 --> 03:58.682
+In realtà non dobbiamo preoccuparci di come chiamarlo adesso
+
+03:58.682 --> 04:02.298
+Ma questa espressione che indica il piccolo pezzo di curva
+
+04:02.298 --> 04:08.529
+se la riscrivo in termini di questo e questo,quello che ho sul lato destro,
+
+04:08.529 --> 04:10.825
+e lo faccio in modo da avere tutto in funzione di t,
+
+04:10.825 --> 04:15.890
+ottengo che questo è uguale alla radice quadrata di dx al quadrato...
+
+04:15.890 --> 04:25.052
+Be' dx al quadrato è la stessa cosa di(lo scrivo in Magenta) x'(t)dt al quadrato
+
+04:25.052 --> 04:37.682
+e poi abbiamo più dy al quadrato che è uguale a questa roba qui:y'(t)dt al quadrato
+
+04:37.682 --> 04:45.529
+Quindi questo piccolo pezzo di curva qui è questo qui e possiamo raccogliere dt al quadrato
+
+04:45.529 --> 05:03.369
+in modo che questo sia uguale a dt al quadrato per x'(t) al quadrato più(in verde)y'(t) al quadrato.
+
+05:03.369 --> 05:07.067
+E poi ovviamente possiamo portare dt fuori dalla radice quadrata
+
+05:07.067 --> 05:09.805
+La radice quadrata di dt al quadrato è semplicemente dt
+
+05:09.805 --> 05:14.638
+quindi tutto ciò si semplifica in(in giallo)
+
+05:14.638 --> 05:20.041
+questa parte qui è x'(t) al quadrato
+
+05:20.041 --> 05:24.766
+e quest'altra parte qui è y'(t) al quadrato,
+
+05:24.766 --> 05:28.291
+e poi raccogliamo dt.
+
+05:28.291 --> 05:34.723
+Ora,tutto ciò è solo un modo di derivare questo piccolo pezzo di curva
+
+05:34.723 --> 05:38.333
+ma non vogliamo trovare solo la lunghezza di un piccolo pezzo,ma la lunghezza di tutta la curva,
+
+05:38.333 --> 05:41.975
+quindi ora integriamo in dt's,
+
+05:41.975 --> 05:45.836
+prendiamo l'infinita somma di tutti questi pezzettini,
+
+05:45.836 --> 05:53.667
+e prendiamo tutti i pezzettini che stanno tra t=0 e t=3.
+
+05:53.671 --> 05:56.364
+Ora lo facciamo.
+
+05:56.364 --> 06:01.344
+Quindi ecco cosa sono x'(t) e y'(t)
+
+06:01.344 --> 06:02.692
+Fatemi riscrivere l'espressione.
+
+06:02.692 --> 06:13.926
+Questo sarà uguale all'integrale da 0 a 3 della radice quadrata di x'(t) al quadrato
+
+06:13.926 --> 06:20.867
+il problema ci dice che x'(t) è 4t+1.
+
+06:20.867 --> 06:32.933
+Quindi sarà 4t+1 al quadrato più y'(t) al quadrato...
+
+06:32.933 --> 06:42.148
+la derivata di y rispetto a t è il seno di t al quadrato
+
+06:42.148 --> 06:47.177
+e abbiamo bisogno di elevarlo al quadrato,e poi dt
+
+06:47.177 --> 06:51.271
+Non è una cosa semplice trovare l'antiderivata di questa cosa,
+
+06:51.271 --> 06:56.169
+ma per fortuna nostra possiamo usare la calcolatrice in questa parte dell'esame.
+
+06:56.169 --> 07:01.067
+Tutto ciò che dovete fare ora,la parte difficile l'abbiamo già fatta,
+
+07:01.067 --> 07:03.856
+è calcolare questo integrale definito.
+
+07:03.856 --> 07:14.164
+è nel nostro catalogo proprio qui e potete andare direttamente alle 'f' e una pagina giù
+
+07:14.164 --> 07:21.123
+Abbiamo bisogno di trovare l'integrale definito,dobbiamo mettero nella calcolatrice,della radice quadrata
+
+07:21.123 --> 07:26.405
+(lo scriverò in termini di x solo perchè è molto più facile da usare il tasto x)
+
+07:26.421 --> 07:44.215
+quindi la radice quadrata di 4x +1 al quadrato più il seno di x al quadrato
+
+07:44.215 --> 07:49.437
+(invece di scrivere t qui,sto scrivendo x,giusto per chiarire)
+
+07:49.437 --> 07:52.443
+e poi dobbiamo fare la radice quadrata di tutto ciò,
+
+07:52.443 --> 07:54.557
+vediamo,chiudiamo le parentesi,
+
+07:54.557 --> 07:57.533
+e poi chiudiamo le parentesi per la radice proprio qui.
+
+07:57.533 --> 08:00.225
+ci tengo a dire che la mia variabile di integrazione è la x
+
+08:00.225 --> 08:04.298
+Avrei potuto mettere la t e settare t come variabile di integrazioni,non c'è alcuna differenza
+
+08:04.298 --> 08:09.877
+e poi devo andare da 0 a 3.
+
+08:09.877 --> 08:17.892
+Quindi lasciamo tutto il lavoro alla calcolatrice e otteniamo
+
+08:17.892 --> 08:20.933
+ci sta mettendo un po'.
+
+08:20.933 --> 08:24.067
+Otteniamo 21.091
+
+08:24.067 --> 08:29.292
+Quindi questo è uguale a 21.091 che è la lunghezza di tutta la curva.
+
+08:29.292 --> 3:59:59.999
+Questa è la distanza percorsa dalla particella.

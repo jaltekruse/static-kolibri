@@ -1,0 +1,315 @@
+WEBVTT
+
+00:00.463 --> 00:03.293
+Pravděpodobně už máte
+představu o tom,
+
+00:03.300 --> 00:06.157
+jak se určují funkce
+s určitou hodnotou.
+
+00:06.157 --> 00:09.265
+Takže například:
+Pokud je tato tabulka definicí funkce
+
+00:09.265 --> 00:12.935
+a někdo chce vědět,
+kolik je f(-9),
+
+00:12.937 --> 00:16.007
+můžete si říct:
+ok, vložme -9 do funkce,
+
+00:16.014 --> 00:21.264
+a pokud se 'x' rovná -9, podle této tabulky
+víme, že f(x) se rovná 5.
+
+00:21.264 --> 00:24.711
+Můžete už mít zkušenost
+i s řešením složených funkcí,
+
+00:24.711 --> 00:33.431
+například f(f(-9) plus 1).
+
+00:33.447 --> 00:36.033
+To je tedy zajímavé
+a vypadá to docela děsivě.
+
+00:36.033 --> 00:39.670
+Ale můžeme si říct, že víme, co je f(-9).
+Je to 5.
+
+00:39.670 --> 00:41.690
+Takže to bude f(5 plus 1).
+
+00:41.690 --> 00:44.884
+Což se bude rovnat f(6),
+
+00:44.884 --> 00:50.084
+a když se podíváme na naši tabulku,
+f(6) se rovná -7.
+
+00:50.084 --> 00:52.078
+Toto vše bylo tedy zatím opakování.
+
+00:52.078 --> 00:57.128
+Do čeho bych se nyní rád pustil,
+je určování inverzních funkcí.
+
+00:57.128 --> 00:59.273
+Na této funkci 'f' lze provést inverzi,
+
+00:59.273 --> 01:04.203
+protože jde o zobrazování jedna ku jedné,
+mezi 'x' a f(x).
+
+01:04.217 --> 01:09.637
+Žádná dvě 'x' se nezobrazují do té samé f(x),
+takže na této funkci lze provést inverzi.
+
+01:09.639 --> 01:12.410
+S vědomím toho, co bylo řečeno,
+se podívejme, jestli dokážeme
+
+01:12.410 --> 01:17.980
+určit něco jako f na -1 (8).
+
+01:17.987 --> 01:19.425
+Čemu se to bude rovnat?
+
+01:19.425 --> 01:24.315
+Zkuste si pozastavit video
+a zamyslet se nad tím.
+
+01:24.315 --> 01:28.404
+Takže, jen pro připomenutí,
+co funkce dělají:
+
+01:28.404 --> 01:33.284
+f(x) zobrazí z tohoto definičního oboru
+
+01:33.284 --> 01:38.430
+do odpovídající hodnoty v oboru hodnot.
+
+01:38.441 --> 01:43.561
+Takže toto je to, co dělá 'f'.
+Toto je definiční obor
+
+01:43.561 --> 01:47.494
+a toto je obor hodnot.
+
+01:47.494 --> 01:51.742
+A teď, f na -1, pokud ji použijete
+na obor hodnot,
+
+01:51.742 --> 01:56.042
+tak ho zobrazí zpátky
+do odpovídající hodnoty
+
+01:56.042 --> 01:58.986
+v definičním oboru.
+
+01:58.986 --> 02:01.783
+Ale jak o tom přemýšlet zde?
+
+02:01.783 --> 02:05.034
+No, f na -1 (8)...
+Tohle je to, co se zobrazuje na 8,
+
+02:05.034 --> 02:08.854
+takže pokud je toto 8,
+musíme zjistit, co se zobrazuje na 8.
+
+02:08.854 --> 02:14.563
+Tady vidíme, že f(9) je 8,
+
+02:14.563 --> 02:24.343
+takže f na -1 (8)
+se bude rovnat 9.
+
+02:24.368 --> 02:28.131
+Pokud by nám to pomohlo,
+mohli bychom si vytvořit tabulku
+
+02:28.131 --> 02:32.691
+(a je to něco, co bych si sám nakreslil,
+abych se ujistil, že dělám vše dobře),
+
+02:32.691 --> 02:37.613
+kde by bylo 'x' a f na -1 (x),
+
+02:37.613 --> 02:41.734
+a prostě bych jen prohodil
+tyto dva sloupce.
+
+02:41.734 --> 02:47.584
+f(x) zobrazuje z -9 do 5,
+f na -1 (x) z 5 do -9.
+
+02:47.584 --> 02:51.709
+Jen jsem prohodil tyto dva sloupce.
+Teď zobrazujeme z tohoto do tohoto.
+
+02:51.709 --> 02:55.322
+Takže f na -1 (x)
+bude zobrazovat ze 7 do -7.
+
+02:55.322 --> 02:58.143
+Všimněte si, místo zobrazování odtud sem
+
+02:58.143 --> 03:01.677
+se teď bude zobrazovat odtud sem.
+
+03:01.677 --> 03:06.646
+Takže f na -1 bude zobrazovat z 13 do 5.
+
+03:06.646 --> 03:11.420
+Zobrazí z -7 do 6,
+
+03:11.420 --> 03:15.667
+z 8 do 9
+
+03:15.667 --> 03:21.137
+a z 12 do 11.
+
+03:21.137 --> 03:24.735
+Vypadá to, že je mám všechny.
+
+03:24.735 --> 03:27.981
+Takže jediné, co jsem udělal, je,
+že jsem prohodil tyto sloupce.
+
+03:27.981 --> 03:30.457
+f na -1 zobrazuje z tohoto sloupce
+do tohoto sloupce.
+
+03:30.457 --> 03:33.706
+Takže jsem je jen prohodil.
+Nyní je to už o trochu jasnější.
+
+03:33.706 --> 03:35.458
+Vidíte to přímo tady,
+
+03:35.458 --> 03:40.080
+na f na -1 (8).
+Pokud vložíte 8 do f na -1,
+
+03:40.080 --> 03:41.677
+dostanete 9.
+
+03:41.677 --> 03:44.527
+Nyní to můžeme využít k tomu,
+že začneme dělat elegantnější věci.
+
+03:44.535 --> 04:01.826
+Můžeme určit třeba f(f na -1 (7)).
+
+04:01.827 --> 04:04.027
+Čemu se to bude rovnat?
+
+04:04.027 --> 04:06.166
+Pojďme nejdřív určit f na -1 (7).
+
+04:06.166 --> 04:11.626
+f na -1 (7) zobrazuje z 7 do -7.
+
+04:11.633 --> 04:16.673
+Takže to bude f (tohle),
+
+04:18.271 --> 04:22.991
+f na -1 (7) je -7, takže
+f (-7).
+
+04:23.002 --> 04:28.332
+A abychom určili tuto funkci,
+f (-7) je 7.
+
+04:28.332 --> 04:31.320
+A dává to zcela smysl.
+
+04:31.320 --> 04:34.620
+Zobrazili jsme z f na -1 (7)
+do -7
+
+04:34.620 --> 04:40.168
+a při určování funkce jsme šli zpátky k 7.
+
+04:40.168 --> 04:44.253
+Udělejme si ještě jeden příklad,
+jen abychom si byli jistí,
+
+04:44.253 --> 04:47.131
+že umíme zobrazovat sem a tam
+mezi dvěma množinami,
+
+04:47.131 --> 04:51.299
+mezi funkcí samotnou a inverzní funkcí.
+
+04:51.299 --> 05:05.649
+Pojďme určit f na -1 (f na -1 (13)).
+
+05:05.649 --> 05:08.761
+f na -1 (f na -1 (13)).
+
+05:08.761 --> 05:10.027
+Čemu se to bude rovnat?
+
+05:10.027 --> 05:13.652
+Zase radím, abyste si pozastavili video
+a zkusili na to přijít sami.
+
+05:13.652 --> 05:16.178
+Kolik je f na -1 (13)?
+
+05:16.178 --> 05:20.840
+Když se podíváme na tuto tabulku,
+vidíme, že f na -1 jde od 13 k 5.
+
+05:20.840 --> 05:26.890
+Vidíte to tady, 'f' šlo od 5 ke 13,
+takže 'f' na -1 jde od 13 k 5.
+
+05:26.890 --> 05:31.091
+Takže f na -1 (13) bude 5.
+
+05:31.091 --> 05:35.911
+Takže toto je to samé jako f na -1 (5).
+
+05:35.916 --> 05:42.336
+A f na -1 (5)? f na -1 jde od 5 k -9.
+Takže je to rovno -9.
+
+05:42.336 --> 05:50.257
+A zase, 'f' jde od -9 k 5,
+takže 'f' na -1 jde od 5 k -9.
+
+05:50.257 --> 05:53.969
+Zpočátku, když začnete řešit
+tyto funkce a inverzní funkce,
+
+05:53.969 --> 05:57.314
+může se zdát matoucí,
+že se pořád pohybujete tam a zpět,
+
+05:57.314 --> 05:58.705
+ale musíte si jen pamatovat,
+
+05:58.705 --> 06:02.090
+že funkce zobrazuje z jedné množiny čísel
+do druhé množiny čísel.
+
+06:02.090 --> 06:04.799
+Inverzní funkce pak postupuje
+opačným směrem.
+
+06:04.799 --> 06:09.067
+Pokud funkce jde od 9 k 8,
+pak inverzní funkce jde od 8 k 9.
+
+06:09.067 --> 06:12.807
+Takže jedním ze způsobů, jak o tom přemýšlet,
+je, že prostě prohodíte tyto sloupce.
+
+06:12.807 --> 06:17.667
+Doufám, že jsem to tím spíše objasnil,
+a nevnesl do toho zmatek.

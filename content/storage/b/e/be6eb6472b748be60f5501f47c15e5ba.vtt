@@ -1,0 +1,486 @@
+WEBVTT
+
+00:00.063 --> 00:02.583
+Máme tady funkci 'h' proměnné 'n'
+
+00:02.583 --> 00:04.547
+a řekněme, že explicitně definuje
+
+00:04.547 --> 00:05.890
+členy posloupnosti.
+
+00:05.890 --> 00:06.842
+Udělám malou…
+
+00:06.842 --> 00:09.986
+Nakreslím tady malou tabulku.
+
+00:11.736 --> 00:15.318
+Máme 'n' a tady máme 'h' pro 'n'.
+
+00:15.318 --> 00:18.310
+Když 'n' se rovná 1, 'h' pro 'n' je
+
+00:18.310 --> 00:22.752
+−31 minus 7 krát 1 minus 1.
+
+00:22.752 --> 00:23.876
+To se bude rovnat…
+
+00:23.876 --> 00:25.234
+Tohle bude 0,
+
+00:25.234 --> 00:27.440
+takže to bude −31.
+
+00:27.440 --> 00:29.060
+Když se 'n' rovná 2,
+
+00:29.060 --> 00:36.054
+bude to −31 minus 7 krát 2 minus 1.
+
+00:36.054 --> 00:38.385
+2 minus 1.
+
+00:38.385 --> 00:40.407
+Tohle bude 1,
+
+00:40.407 --> 00:42.241
+takže to je −31 minus 7,
+
+00:42.241 --> 00:45.994
+což se rovná −38.
+
+00:45.994 --> 00:47.662
+Když n se rovná 3,
+
+00:47.662 --> 00:51.296
+bude to −31 minus 7
+
+00:51.296 --> 00:52.910
+krát 3 minus 1,
+
+00:52.910 --> 00:54.059
+což je 2.
+
+00:54.059 --> 00:56.988
+Takže 7 odečteme dvakrát.
+
+00:56.988 --> 01:00.467
+Bude to −31 minus 14,
+
+01:00.467 --> 01:03.323
+což se rovná −45.
+
+01:03.323 --> 01:05.678
+Co tady vidíme?
+
+01:05.678 --> 01:07.828
+Začínáme na −31
+
+01:07.828 --> 01:10.228
+a stále odečítáme,
+
+01:10.228 --> 01:12.947
+odečítáme −7.
+
+01:12.947 --> 01:15.907
+Odečítáme od toho −7.
+
+01:15.907 --> 01:19.561
+Odečítáme −7 o 1 méně krát,
+než je pořadí členu.
+
+01:19.561 --> 01:21.906
+Odečítáme −7 o jedna méně krát,
+
+01:21.906 --> 01:23.278
+než je pořadí našeho členu.
+
+01:23.278 --> 01:24.556
+Když máme třetí člen,
+
+01:24.556 --> 01:26.576
+odečteme −7 dvakrát.
+
+01:26.576 --> 01:28.074
+Pokud počítáme druhý člen,
+
+01:28.074 --> 01:30.274
+odečteme −7 jednou.
+
+01:30.274 --> 01:31.498
+To je všechno hezké,
+
+01:31.498 --> 01:33.437
+ale chci, abyste si zastavili video
+
+01:33.437 --> 01:36.223
+a zkusili si definovat
+tu samou posloupnost.
+
+01:36.223 --> 01:38.777
+Tato posloupnost začíná na −31
+
+01:38.777 --> 01:40.658
+a odečítáte −7,
+
+01:40.658 --> 01:43.943
+takže −38, −45.
+
+01:43.943 --> 01:47.050
+Další člen bude −52
+
+01:47.050 --> 01:48.210
+a pokračujete dál a dál.
+
+01:48.210 --> 01:50.311
+Stále odečítáte −7.
+
+01:50.311 --> 01:52.830
+Můžeme tuto posloupnost definovat
+
+01:52.830 --> 01:55.321
+pomocí rekurzivní funkce?
+
+01:55.321 --> 01:56.872
+Proč si to nezkusit?
+
+01:57.512 --> 01:59.761
+Zkusíme ji definovat
+pomocí rekurzivní funkce.
+
+01:59.761 --> 02:01.968
+Nazveme ji funkce 'g' proměnné 'n',
+
+02:01.968 --> 02:03.290
+tedy 'g' pro 'n'.
+
+02:03.290 --> 02:05.199
+Někdy je rekurzivní funkce i jednodušší,
+
+02:05.199 --> 02:06.297
+OK, podívejte se.
+
+02:06.297 --> 02:08.619
+První člen, když n se rovná 0,
+
+02:08.619 --> 02:11.184
+když se 'n' rovná 1, jen to napíšu.
+
+02:11.184 --> 02:12.990
+Když se 'n' rovná 1,
+
+02:12.990 --> 02:16.067
+když 'n' je rovno 1,
+
+02:16.067 --> 02:17.680
+jaké bude 'g' pro 'n'?
+
+02:17.680 --> 02:19.568
+Bude to −31,
+
+02:19.568 --> 02:20.943
+−31.
+
+02:20.943 --> 02:22.760
+A když 'n',
+
+02:22.760 --> 02:26.387
+když je 'n' větší než 1 a je to celé číslo,
+
+02:26.387 --> 02:28.883
+tohle bude definované pro
+všechna kladná celá čísla,
+
+02:28.883 --> 02:32.441
+a celé, celé číslo,
+
+02:32.441 --> 02:34.989
+bude to předchozí člen,
+
+02:34.989 --> 02:37.764
+takže 'g' pro 'n-1',
+
+02:37.764 --> 02:39.100
+minus 7,
+
+02:39.100 --> 02:40.469
+minus 7.
+
+02:40.469 --> 02:41.528
+Říkáme hey,
+
+02:41.948 --> 02:44.764
+pokud si vybereme libovolný člen,
+
+02:44.764 --> 02:46.505
+musíme se podívat na člen před ním
+
+02:46.505 --> 02:49.628
+a odečíst, odečíst potom 7.
+
+02:49.628 --> 02:51.764
+Všechno to pěkně souhlasí,
+
+02:51.764 --> 02:52.763
+protože se díváte na
+
+02:52.763 --> 02:54.051
+předcházející členy,
+
+02:54.051 --> 02:56.652
+až dokud se nedostanete
+k počátečnímu tvrzení,
+
+02:56.652 --> 02:58.103
+což je když se 'n' rovná 1,
+
+02:58.103 --> 02:59.984
+a od toho se odrazíte zase zpátky.
+
+02:59.984 --> 03:02.886
+Dostanete právě tuto posloupnost.
+
+03:02.886 --> 03:04.149
+Pojďme na další příklad,
+
+03:04.149 --> 03:05.742
+ale tentokrát z druhé strany.
+
+03:05.742 --> 03:08.645
+Tady máme, máme tu
+
+03:08.645 --> 03:10.722
+rekurzivně definovanou posloupnost.
+
+03:10.722 --> 03:12.382
+a já chci vytvořit funkci,
+
+03:12.382 --> 03:15.132
+která ji bude definovat explicitně.
+
+03:15.132 --> 03:16.781
+Tak se na to podívejme.
+
+03:16.781 --> 03:19.414
+Jedna z možností je,
+tato posloupnost,
+
+03:19.431 --> 03:22.679
+když 'n' se rovná 1, začíná na 9,6,
+
+03:22.679 --> 03:25.967
+a každý člen je ten předchozí člen
+
+03:25.967 --> 03:28.274
+minus 0,1.
+
+03:28.274 --> 03:32.226
+Druhý člen bude předchozí člen minus 0,1,
+
+03:32.226 --> 03:33.963
+takže to bude 9,5.
+
+03:33.963 --> 03:35.928
+Potom bude 9,4.
+
+03:35.928 --> 03:37.752
+Potom dostaneme 9,3.
+
+03:37.752 --> 03:40.326
+Můžeme takto pokračovat dál a dál.
+
+03:40.326 --> 03:42.794
+Můžeme si tady udělat malou tabulku,
+
+03:43.524 --> 03:45.503
+a můžeme říct,
+
+03:45.503 --> 03:48.823
+tohle je 'n', tohle je 'h' pro 'n'.
+
+03:48.823 --> 03:50.727
+a vidíte, že když se 'n' rovná 1,
+
+03:50.727 --> 03:52.864
+'h' pro 'n' je 9,6.
+
+03:52.864 --> 03:54.105
+Když se 'n' rovná 2,
+
+03:54.105 --> 03:55.422
+jsme tady u tohoto případu,
+
+03:55.422 --> 03:57.402
+bude to 'h' pro (2 minus 1),
+
+03:57.402 --> 04:01.687
+takže to bude (h pro 1) minus 0,1.
+
+04:02.357 --> 04:04.542
+Bude to tohle minus 0,1.
+
+04:04.542 --> 04:07.862
+což bude 9,5.
+
+04:07.862 --> 04:11.953
+Když je 'h' rovno 3, bude to 'h' pro 2,
+
+04:11.953 --> 04:15.436
+(h pro 2) minus 0,1,
+
+04:15.436 --> 04:17.538
+minus 0,1.
+
+04:17.538 --> 04:19.000
+H pro 2 je přímo tady,
+
+04:19.000 --> 04:22.600
+Odečtete desetinu a máte 9,4,
+
+04:22.600 --> 04:24.504
+přesně to, co vidíme tady,
+
+04:24.504 --> 04:26.529
+Zkuste teď zastavit video
+
+04:26.529 --> 04:28.144
+a definovat to…
+
+04:28.144 --> 04:30.601
+Vytvořte funkci, která
+
+04:30.601 --> 04:33.618
+tuto aritmetickou posloupnost
+explicitně definuje.
+
+04:33.618 --> 04:34.812
+Tady to bylo rekurzivně.
+
+04:34.812 --> 04:36.735
+Chceme to definovat explicitně.
+
+04:37.695 --> 04:38.888
+Nazvěme to, já nevím.
+
+04:38.888 --> 04:41.254
+Nazvěme to 'f' pro 'n'.
+
+04:41.254 --> 04:43.939
+Můžeme říct: "Podívejte, bude to 9,6,
+
+04:44.709 --> 04:46.272
+ale odečteme,
+
+04:46.272 --> 04:48.257
+odečteme 0,1
+
+04:48.257 --> 04:49.696
+určitý počet krát,
+
+04:49.696 --> 04:51.716
+podle toho kolikátý člen budeme počtat.
+
+04:51.716 --> 04:53.817
+Odečteme 0,1,
+
+04:53.817 --> 04:55.849
+ale kolikrát to odečteme
+
+04:55.849 --> 04:57.753
+v závislosti na n?
+
+04:58.790 --> 05:00.028
+Pokud vezmeme první člen,
+
+05:00.028 --> 05:02.127
+odečtme nulakrát.
+
+05:02.127 --> 05:04.968
+Pro druhý člen odečteme jednou.
+
+05:04.968 --> 05:07.354
+Pro třetí člen odečteme dvakrát.
+
+05:07.354 --> 05:09.907
+Pro čtvrtý člen odečteme třikrát.
+
+05:09.907 --> 05:11.533
+Pro jakýkoli člen
+
+05:11.533 --> 05:15.468
+odečteme pořadí toho členu minus 1 krát.
+
+05:15.468 --> 05:16.977
+Pokud mám 'n-tý' člen,
+
+05:16.977 --> 05:21.273
+odečetli jsme tuto hodnotu
+(n minus 1) krát.
+
+05:21.273 --> 05:23.420
+Můžete si ověřit, že to funguje.
+
+05:23.420 --> 05:25.738
+Když je 'n' rovno 1,
+
+05:25.738 --> 05:27.623
+tento člen tady bude roven 0,
+
+05:27.623 --> 05:28.679
+tohle celé bude 0.
+
+05:28.679 --> 05:30.003
+Dostanete 9,6.
+
+05:30.003 --> 05:32.314
+Když se 'n' rovná 2,
+
+05:32.314 --> 05:33.619
+2 minus 1,
+
+05:33.619 --> 05:36.573
+odečtete 0,1 jednou.
+
+05:36.573 --> 05:39.290
+9,6 minus 0,1 je 9,5.
+
+05:39.290 --> 05:41.253
+Můžete takto pokračovat.
+Můžete si nakreslit tabulku
+
+05:41.253 --> 05:42.851
+a zapsat to, jestli chcete.
+
+05:42.851 --> 05:45.531
+Klíčové je, že začínáte na 9,6
+
+05:45.531 --> 05:47.882
+a odečítáte 0,1
+
+05:47.882 --> 05:50.411
+o jedno méně krát, než ten člen,
+který počítáte,
+
+05:50.411 --> 05:52.849
+Pokud počítáte …
+Pokud se 'n' rovná…
+
+05:52.849 --> 05:55.090
+tohle je 'n' rovno 4,
+
+05:55.090 --> 05:57.922
+takže 0,1 odečtete třikrát,
+
+05:57.922 --> 05:58.886
+tady to vidíte.
+
+05:58.886 --> 06:00.603
+Odečteme 0,1 jednou,
+
+06:00.603 --> 06:02.206
+odečteme 0,1 dvakrát
+
+06:02.206 --> 06:06.271
+odečteme 0,1 třikrát.

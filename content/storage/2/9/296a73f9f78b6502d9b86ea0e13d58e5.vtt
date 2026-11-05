@@ -1,0 +1,470 @@
+WEBVTT
+
+00:00.170 --> 00:02.390
+V tomto videu se
+podíváme na to,
+
+00:02.390 --> 00:06.560
+jak popsat polohu na
+přímce jako funkci času.
+
+00:06.560 --> 00:07.920
+Zajímá nás
+tedy poloha,
+
+00:07.920 --> 00:10.090
+přičemž tím budeme
+myslet polohu na ose x,
+
+00:10.090 --> 00:11.680
+jako funkce času.
+
+00:11.680 --> 00:13.640
+Polohu můžeme definovat
+nějakým předpisem.
+
+00:13.640 --> 00:15.840
+Řekněme, že v
+tomto případě to je:
+
+00:15.840 --> 00:21.270
+Čas na třetí minus 3 krát
+(čas na druhou) plus 5.
+
+00:21.270 --> 00:25.600
+Tohle bude platit pro
+libovolný nezáporný čas,
+
+00:25.600 --> 00:29.380
+protože záporná hodnota času by se nám
+alespoň zatím nejspíš zdála podivná.
+
+00:29.380 --> 00:32.720
+Zamysleme se, co přesně
+tento předpis říká.
+
+00:32.720 --> 00:36.360
+Udělejme si k tomu
+takovou tabulku,
+
+00:36.360 --> 00:39.330
+která nám pomůže porozumět,
+jaká bude v závislosti na čase...
+
+00:39.330 --> 00:41.530
+Řekněme, že čas
+je v sekundách.
+
+00:41.530 --> 00:44.850
+...jaká bude naše
+poloha na ose x.
+
+00:44.850 --> 00:49.870
+V čase 0
+se x(0) rovná 5.
+
+00:49.870 --> 00:55.120
+V čase 1 to bude
+1 minus 3 plus 5,
+
+00:55.120 --> 00:57.410
+což se rovná...
+
+00:57.410 --> 01:03.870
+1 minus 3 je −2,
+−2 plus 5 nám dá 3.
+
+01:03.870 --> 01:10.850
+V čase 2 bude poloha
+8 minus 12 plus 5,
+
+01:10.850 --> 01:13.200
+což se rovná 1.
+
+01:13.200 --> 01:18.320
+V čase t rovná se 3 to bude
+27 minus 27 plus 5,
+
+01:18.320 --> 01:20.130
+takže se vrátíme
+zpátky do bodu 5.
+
+01:20.130 --> 01:25.300
+Tohle nám tedy pomůže pochopit, co se
+děje alespoň během prvních tří sekund.
+
+01:25.300 --> 01:29.100
+Nakreslím si sem
+kladnou část osy x,
+
+01:29.100 --> 01:32.990
+která bude vypadat
+nějak takhle.
+
+01:34.140 --> 01:36.960
+Tohle bude bod
+x rovná se 0.
+
+01:36.960 --> 01:38.040
+Je to osa x.
+
+01:38.040 --> 01:45.600
+Zde budou body
+x rovná se 1, 2, 3, 4 a 5.
+
+01:45.600 --> 01:48.920
+Podívejme se nyní,
+jak se hmotná částice,
+
+01:48.920 --> 01:51.330
+jejíž polohu tohle popisuje,
+pohybuje po ose x.
+
+01:51.330 --> 01:57.950
+Částice začíná zde
+a tady bude v čase 1, 2, 3.
+
+01:57.950 --> 01:59.310
+Udělejme to
+ještě jednou.
+
+01:59.310 --> 02:03.240
+Toto bude poloha
+částice v čase 1, 2, 3.
+
+02:03.240 --> 02:04.990
+Myší jsem
+teď hýbal tak,
+
+02:04.990 --> 02:07.700
+že za předpokladu, že moje
+načasování bylo zhruba správné,
+
+02:07.700 --> 02:09.700
+jde přesně o pohyb,
+který vykonává částice.
+
+02:09.700 --> 02:12.560
+Můžeme si to také
+nakreslit do grafu.
+
+02:12.560 --> 02:16.620
+Vypadalo by to
+nějak takhle.
+
+02:16.620 --> 02:21.090
+Začínáme v čase t rovná
+se 0 a naše poloha...
+
+02:21.090 --> 02:23.520
+Tohle je sice
+svislá osa y,
+
+02:23.520 --> 02:27.730
+ale tady říkáme, že y se
+rovná naší poloze na ose x.
+
+02:27.740 --> 02:29.500
+To je trochu v
+rozporu s naší intuicí,
+
+02:29.500 --> 02:33.120
+protože mluvíme o
+poloze na vodorovné přímce,
+
+02:33.120 --> 02:36.090
+ale zde máme
+svislou přímku.
+
+02:36.090 --> 02:37.530
+Dojde ale
+k tomu samému.
+
+02:37.530 --> 02:41.360
+V čase t rovno 1 se
+naše poloha zmenší na 3,
+
+02:41.360 --> 02:46.180
+načež poloha dále klesá,
+až je v čase 2 rovna 1.
+
+02:46.180 --> 02:49.360
+Následně změníme
+směr a během další...
+
+02:49.360 --> 02:50.880
+Řekněme, že čas
+je v sekundách.
+
+02:50.880 --> 02:54.150
+...během další sekundy
+se dostaneme zpět do 5.
+
+02:54.150 --> 02:57.700
+Když už známe diferenciální počet,
+tak je zajímavé zamyslet se nad tím,
+
+02:57.700 --> 02:59.980
+jaká je rychlost částice
+v libovolném čase.
+
+02:59.980 --> 03:05.270
+Rychlost je, jak si možná
+vzpomínáte, derivací polohy.
+
+03:05.270 --> 03:06.770
+Zapíšu to.
+
+03:06.770 --> 03:10.720
+Zajímá nás rychlost
+jako funkce času.
+
+03:10.720 --> 03:14.820
+Na rychlost se můžeme dívat jako
+na první derivaci polohy podle času,
+
+03:14.820 --> 03:17.960
+což se rovná, když několikrát
+použijeme vzorec pro derivaci mocniny
+
+03:17.960 --> 03:19.680
+a další pravidla
+derivování...
+
+03:19.680 --> 03:23.330
+Pokud vám tohle nezní povědomě,
+tak vám doporučuji se na to podívat.
+
+03:23.330 --> 03:29.200
+Bude to 3 krát (t na druhou)
+minus 6 krát t a ještě plus 0.
+
+03:29.200 --> 03:35.150
+Definiční obor zase omezíme
+pouze na t větší nebo rovno 0.
+
+03:35.150 --> 03:38.000
+Tohle si můžeme
+opět nakreslit do grafu.
+
+03:38.000 --> 03:39.870
+Vypadá to
+nějak takhle.
+
+03:40.440 --> 03:44.400
+Podívejme se, zda tato
+křivka odpovídá naší intuici.
+
+03:44.400 --> 03:48.380
+Ukázali jsme si, kde bude
+částice po 1, 2, 3 sekundách.
+
+03:48.380 --> 03:50.810
+Nejprve se tedy
+částice hýbe doleva.
+
+03:50.810 --> 03:53.950
+Je takovým zvykem, že když jde
+o pohyb doleva, rychlost je záporná,
+
+03:53.950 --> 03:56.440
+zatímco když jde o pohyb
+doprava, rychlost je kladná.
+
+03:56.440 --> 03:59.930
+Vidíme, že rychlost je nejprve
+čím dál tím víc záporná,
+
+03:59.930 --> 04:01.500
+až se dostaneme
+do času 1 sekunda,
+
+04:01.500 --> 04:04.130
+načež je ještě pořád záporná,
+ale už čím dál tím méně,
+
+04:04.130 --> 04:06.100
+až se dostaneme
+do času 2 sekundy,
+
+04:06.100 --> 04:08.630
+po kterém se
+rychlost stává kladnou.
+
+04:08.630 --> 04:12.370
+To dává smysl, protože v čase
+2 sekundy rychlost změnila směr,
+
+04:12.370 --> 04:14.190
+a to na směr
+doprava.
+
+04:14.190 --> 04:17.719
+Rychlost je tedy zprvu
+čím dál víc záporná,
+
+04:17.719 --> 04:19.070
+poté méně
+a méně záporná
+
+04:19.070 --> 04:21.950
+a nakonec změní směr
+a částice se hýbe takto.
+
+04:21.950 --> 04:23.840
+Vidíme to
+na tomto grafu.
+
+04:23.840 --> 04:28.140
+Když mluvíme o rychlosti jako funkci
+času, tak je dobré mít na paměti,
+
+04:28.140 --> 04:31.440
+že rychlost a velikost
+rychlosti není to samé.
+
+04:31.440 --> 04:32.870
+Velikost rychlosti...
+
+04:32.870 --> 04:33.940
+Napíšu to.
+
+04:33.940 --> 04:36.100
+Velikost rychlosti
+se rovná...
+
+04:36.100 --> 04:38.240
+Když jde o pohyb na
+přímce, tak můžeme říct,
+
+04:38.240 --> 04:44.470
+že jde o absolutní hodnotu
+rychlosti vyjádřené jako funkce času.
+
+04:44.470 --> 04:48.680
+I když tak byla rychlost částice
+zpočátku čím dál víc záporná,
+
+04:48.680 --> 04:50.300
+velikost rychlosti rostla.
+
+04:50.300 --> 04:52.780
+Částice šla doleva
+a velikost její rychlosti rostla,
+
+04:52.780 --> 04:54.970
+pak zpomalila, takže
+velikost rychlosti klesla,
+
+04:54.970 --> 04:57.430
+a pak šla doprava
+a velikost rychlosti opět rostla.
+
+04:57.430 --> 05:00.960
+Později si ukážeme několik řešených
+příkladů, které to vysvětlí podrobněji.
+
+05:00.960 --> 05:05.310
+Poslední věc, na kterou se
+v tomto videu podíváme, je zrychlení.
+
+05:05.310 --> 05:09.060
+Na zrychlení se můžeme dívat jako na
+rychlost změny rychlosti vzhledem k času.
+
+05:09.060 --> 05:15.120
+Zrychlení jako funkce času je tedy
+první derivace rychlosti podle času,
+
+05:15.120 --> 05:18.130
+což se rovná druhé derivaci
+polohy podle času.
+
+05:18.130 --> 05:20.210
+Jde tedy o derivaci
+tohoto výrazu.
+
+05:20.210 --> 05:23.370
+Pomocí pravidla pro derivaci
+mocniny to bude 6 krát t...
+
+05:23.370 --> 05:25.040
+Ještě derivace
+mocniny zde.
+
+05:25.040 --> 05:26.710
+...minus 6.
+
+05:26.710 --> 05:29.540
+Definiční obor bude
+zase takto omezený.
+
+05:29.540 --> 05:33.130
+Můžeme si to opět
+nakreslit do našeho grafu.
+
+05:33.130 --> 05:34.200
+Vidíme, že...
+
+05:34.200 --> 05:37.980
+Toto je graf y rovná se
+zrychlení jako funkce času.
+
+05:37.980 --> 05:43.040
+Vidíme, že v čase 0 je zrychlení
+poměrně záporné, je to −6.
+
+05:43.040 --> 05:45.990
+Následně je zrychlení
+čím dál tím méně záporné,
+
+05:45.990 --> 05:49.310
+až se zrychlení v čase
+t rovná se 1 stane kladným.
+
+05:49.310 --> 05:50.850
+Dává to smysl?
+
+05:50.850 --> 05:53.920
+Toto jsou polohy
+částice v čase 1, 2, 3.
+
+05:53.920 --> 05:57.500
+Možná si říkáte, že směr se přece
+změnil až po dvou sekundách.
+
+05:57.500 --> 06:01.020
+Vzpomeňme si však, že po
+uplynutí první sekundy se rychlost,
+
+06:01.020 --> 06:04.910
+která má záporný směr,
+stává méně a méně zápornou,
+
+06:04.910 --> 06:08.600
+což znamená,
+že zrychlení je kladné.
+
+06:08.600 --> 06:12.070
+Pokud je to teď trochu matoucí,
+zastavte si video a popřemýšlejte nad tím.
+
+06:12.070 --> 06:16.440
+Zrychlení částice je tedy nejprve záporné,
+potom se mění na kladné a kladným zůstává.
+
+06:16.440 --> 06:18.100
+Tohle vám snad
+dá základní intuici.
+
+06:18.100 --> 06:20.530
+V dalších videích uděláme
+několik řešených příkladů,
+
+06:20.530 --> 06:25.570
+které nám pomohou hlouběji proniknout
+do zkoumání pohybu a polohy...
+
+06:26.350 --> 06:30.360
+Do zkoumání
+přímočarého pohybu.

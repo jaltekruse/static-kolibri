@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.740 --> 00:04.160
+Scomponi 75 in fattori primi.
+
+00:04.160 --> 00:07.390
+Scrivi la risposta usando la notazione esponenziale.
+
+00:07.390 --> 00:08.970
+Allora qui abbiamo un paio di cose interessanti.
+
+00:08.970 --> 00:12.410
+Scomposizione in fattori primi e dicono notazione esponenziale.
+
+00:12.410 --> 00:15.460
+Ci preoccuperemo della notazione esponenziale piu' tardi.
+
+00:15.460 --> 00:18.560
+Percio' la prima cosa di cui ci dobbiamo preoccupare e' che cos'era
+
+00:18.560 --> 00:19.380
+un numero primo?
+
+00:19.380 --> 00:22.240
+E giusto come rinfrescata, un numero primo e' un numero
+
+00:22.240 --> 00:26.130
+divisibile solo per se stesso e per 1, quindi esempi di
+
+00:26.130 --> 00:28.880
+numeri primi --- fammi scrivere qualche numero primo.
+
+00:28.880 --> 00:34.753
+Primo, non primo. Non primo.
+
+00:34.760 --> 00:36.840
+Allora 2 e' un numero primo.
+
+00:36.840 --> 00:39.850
+E' divisibile solo per 1 e per 2.
+
+00:39.850 --> 00:42.490
+3 e' un altro numeor primo.
+
+00:42.490 --> 00:46.790
+Ora, 4 non e' primo, perche' e'
+
+00:46.790 --> 00:49.790
+divisibile per 1, 2 e 4.
+
+00:49.790 --> 00:50.580
+Potremmo continuare.
+
+00:50.580 --> 00:56.220
+5, beh, 5 e' divisibile solo per 1 e per 5, quindi 5 e' primo.
+
+00:56.220 --> 00:59.920
+6 non e' primo, perche' e' divisibile per 2 e per 3.
+
+00:59.920 --> 01:01.590
+Penso tu abbia capito l'idea generale.
+
+01:01.590 --> 01:04.160
+Vai a 7, 7 e' primo.
+
+01:04.160 --> 01:06.470
+E' divisibile solo per 1 e per 7.
+
+01:06.470 --> 01:08.220
+8 non e' primo.
+
+01:08.220 --> 01:11.440
+9 potresti essere tentato di dire che sia primo, ma ricordati, e'
+
+01:11.440 --> 01:15.420
+anche divisibile per 3, quindi 9 non e' primo.
+
+01:15.420 --> 01:18.970
+Primo non e' la stessa cosa di dispari.
+
+01:18.970 --> 01:21.400
+Poi se vai al 10, anche 10 non e' primo,
+
+01:21.400 --> 01:23.560
+divisibile per 2 e 5.
+
+01:23.560 --> 01:27.220
+11 e' solo divisibile per 1 e 11, quindi
+
+01:27.220 --> 01:28.240
+11 e' un numero primo.
+
+01:28.240 --> 01:29.780
+E potremmo continuare cosi'.
+
+01:29.780 --> 01:31.570
+Hanno scritto programmi per il computer che cercano
+
+01:31.570 --> 01:33.260
+il numero primo piu' alto e roba cosi'.
+
+01:33.260 --> 01:35.220
+Quindi adesso che sappiamo cos'e' un numero primo,
+
+01:35.220 --> 01:39.240
+la scomposizione in numeri primi e' lo spezzettare un numero, come 75,
+
+01:39.240 --> 01:41.620
+in un prodotto di numeri primi.
+
+01:41.620 --> 01:43.180
+Proviamo a farlo.
+
+01:43.180 --> 01:45.530
+Quindi cominciamo da 75 e lo faccio
+
+01:45.530 --> 01:49.080
+usando quello che chiamiamo l'albero della fattorizzazione.
+
+01:49.080 --> 01:51.750
+Quindi prima proviamo a trovare il numero piu' piccolo che
+
+01:51.750 --> 01:53.890
+entra nel 75.
+
+01:53.890 --> 01:55.430
+Ora, il numero primo piu' piccolo e' 2.
+
+01:55.430 --> 01:57.390
+Il 2 entra nel 75?
+
+01:57.390 --> 02:00.705
+Beh, 75 e' un numero dispari, o la cifra delle unita',
+
+02:00.705 --> 02:02.280
+questo 5, e' un numero dispari.
+
+02:02.280 --> 02:06.580
+5 non e' divisibile per 2, quindi il 2 non entra nel 75.
+
+02:06.580 --> 02:08.090
+Quindi potremmo provare il 3.
+
+02:08.090 --> 02:09.639
+Ci sta il 3 nel 75?
+
+02:09.639 --> 02:12.440
+Beh, 7 + 5 fa 12.
+
+02:12.440 --> 02:15.480
+12 e' divisibile per 3, quindi il 3 ci sta.
+
+02:15.480 --> 02:20.440
+Quindi 75 e' 3 per qualcosa.
+
+02:20.440 --> 02:22.990
+E se hai mai avuto a che fare con le monete americane, sai che se
+
+02:22.990 --> 02:25.890
+hai tre quartini, hai 75 centesimi, o se hai tre
+
+02:25.890 --> 02:28.930
+volte una moneta da 25, hai 75 centesimi.
+
+02:28.930 --> 02:31.560
+Quindi e' 3 * 25.
+
+02:31.560 --> 02:33.720
+E puoi fare la moltiplicazione se non mi credi.
+
+02:33.720 --> 02:35.960
+Moltiplica 25 per 3.
+
+02:35.960 --> 02:40.470
+Ora, 25 e' divisibile per --- puoi abbandonare il 2.
+
+02:40.470 --> 02:44.910
+Se 75 non era divisibile per 2, nemmeno 25 sara'
+
+02:44.910 --> 02:46.000
+divisibile per 2.
+
+02:46.000 --> 02:48.730
+Ma magari 25 e' anche lui divisibile per 3.
+
+02:48.730 --> 02:52.290
+Quindi se prendi le cifre 2 + 5, ottieni 7.
+
+02:52.290 --> 02:57.700
+7 non e' divisibile per 3, quindi 25 non sara' divisibile per 3.
+
+02:57.700 --> 02:59.480
+Quindi continuiamo a salire: 5.
+
+02:59.480 --> 03:01.430
+25 e' divisibile per 5?
+
+03:01.430 --> 03:01.980
+Beh, certo.
+
+03:01.980 --> 03:03.590
+E' 5 * 5.
+
+03:03.590 --> 03:08.330
+Quindi 25 e' 5 * 5.
+
+03:08.330 --> 03:11.730
+E abbiamo completato la nostra fattorizzazione perche' adesso
+
+03:11.730 --> 03:13.390
+qui abbiamo tutti i numeri primi.
+
+03:13.390 --> 03:18.270
+Quindi puoi scrivere che 75 e' 3 * 5 * 5.
+
+03:18.270 --> 03:25.640
+Quindi 75 e' uguale a 3 * 5 * 5.
+
+03:25.640 --> 03:27.350
+Non possiamo dire che e' 3 * 25.
+
+03:27.350 --> 03:29.400
+25 e' 5 * 5.
+
+03:29.400 --> 03:33.370
+3 * 25, 25 e' 5 * 5.
+
+03:33.370 --> 03:36.460
+Quindi questa e' una scomposizione in fattori primi, ma vogliono
+
+03:36.460 --> 03:41.690
+che scriviamo la risposta usando la notazione esponenziale.
+
+03:41.690 --> 03:44.560
+Quindi cio' significa solo, se abbiamo fattori primi ripetuti, li possiamo
+
+03:44.560 --> 03:45.920
+scrivere come un esponente.
+
+03:45.920 --> 03:48.480
+Quindi cos'e' 5 * 5?
+
+03:48.480 --> 03:52.380
+5 * 5 e' 5 moltiplicato per se stesso 2 volte.
+
+03:52.380 --> 03:56.310
+E' la stessa cosa di 5 alla seconda potenza.
+
+03:56.310 --> 03:58.380
+Quindi se vogliamo scrivere la nostra risposta usando la notazione
+
+03:58.380 --> 04:03.420
+esponenziale, possiamo dire che e' uguale a 3 per 5 alla
+
+04:03.420 --> 04:08.110
+seconda potenza, che e' la stessa cosa di 5 * 5.

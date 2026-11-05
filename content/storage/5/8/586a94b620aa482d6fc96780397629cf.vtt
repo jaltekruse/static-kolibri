@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.111 --> 00:02.793
+Có thể là bạn đã khá quen thuộc với khái niệm
+
+00:02.793 --> 00:04.355
+hệ số góc của một đường thẳng.
+
+00:04.355 --> 00:07.667
+Mà nếu chưa thì bạn hãy lên Khan Academy để ôn lại nhé,
+
+00:07.667 --> 00:10.121
+mà nói chung là, nó diễn tả độ biến thiên
+
+00:10.121 --> 00:11.661
+của biến số trên trục tung
+
+00:11.661 --> 00:14.137
+theo biến số trên trục hoành.
+
+00:14.137 --> 00:17.324
+Một ví dụ là, ở đây mình có trục tung
+
+00:17.324 --> 00:19.132
+nằm ở hướng dọc và trục hoành
+
+00:19.132 --> 00:20.732
+nằm ở hướng ngang,
+
+00:20.732 --> 00:23.184
+và nếu mình muốn biết được hệ số góc của đường thẳng này,
+
+00:23.184 --> 00:24.876
+mình có thể chọn hai điểm,
+
+00:24.876 --> 00:27.496
+điểm này và điểm này chẳng hạn.
+
+00:27.496 --> 00:29.368
+Mình có thể hỏi, "Được rồi, từ đây đến đây,
+
+00:29.368 --> 00:31.036
+độ biến thiên của x là gì?"
+
+00:31.036 --> 00:34.868
+Độ biến thiên của x sẽ là khoảng cách này ngay đây,
+
+00:34.868 --> 00:35.868
+độ biến thiên của x,
+
+00:36.753 --> 00:39.032
+Hình tam giác này là một chữ cái Hy Lạp,
+
+00:39.032 --> 00:42.858
+nó là viết tắt của từ "biến thiên". Vậy đây là độ biến thiên của x.
+
+00:42.858 --> 00:46.687
+Và mình cũng có thể tính độ biến thiên của y,
+
+00:46.687 --> 00:50.718
+từ điểm này đến điểm này, vậy độ biến thiên của y,
+
+00:50.718 --> 00:54.718
+sẽ là đường thằng này ngay đây, độ biến thiên của y.
+
+00:56.061 --> 01:00.337
+Và rồi, chúng mình cũng có thể định nghĩa hệ số góc là bằng
+
+01:00.337 --> 01:03.143
+độ biến thiên của y chia cho độ biến thiên của x.
+
+01:03.143 --> 01:06.144
+Vậy, hệ số góc sẽ bằng độ biến thiên
+
+01:06.144 --> 01:07.943
+của biến số trên trục tung
+
+01:07.943 --> 01:10.955
+chia cho độ biến thiên của biến số trên trục hoành,
+
+01:10.955 --> 01:14.038
+hay còn được gọi là delta y chia cho delta x
+
+01:15.066 --> 01:18.765
+và với bất kì đường thẳng nào, nó cũng sẽ đều có hệ số góc
+
+01:18.765 --> 01:22.041
+vì nó luôn có một độ biến thiên không đổi.
+
+01:22.041 --> 01:24.632
+Nếu bạn lấy hai điểm bất kì trên đường thẳng này,
+
+01:24.632 --> 01:27.582
+bất kể là nó cách xa nhau hay rất gần nhau,
+
+01:27.582 --> 01:29.073
+bất cứ ở đâu trên đường thẳng này,
+
+01:29.073 --> 01:31.216
+nếu bạn làm phép tính này,
+
+01:31.216 --> 01:33.622
+bạn cũng sẽ được một hệ số góc như nhau.
+
+01:33.622 --> 01:36.057
+Đó là tính chất của đường thẳng,
+
+01:36.057 --> 01:37.086
+nhưng điều thú vị
+
+01:37.086 --> 01:40.055
+về toán giải tích là chúng mình sẽ tạo ra cách để
+
+01:40.055 --> 01:42.772
+không chỉ xem độ biến thiên như một thứ
+
+01:42.772 --> 01:45.784
+thuộc về đường thẳng, mà trước đây mình gọi là "hệ số góc",
+
+01:45.784 --> 01:47.637
+mình có thể nghĩ về độ biến thiên,
+
+01:47.637 --> 01:52.058
+hay độ biến thiên tức thời của đường cong
+
+01:52.058 --> 01:53.364
+của một thứ gì mà
+
+01:53.364 --> 01:56.525
+độ biến thiên của nó có thể luôn luôn thay đổi.
+
+01:56.525 --> 02:01.702
+Ví dụ, đây là một đường cong mà độ biến thiên của y
+
+02:01.731 --> 02:05.322
+theo x luôn luôn thay đổi,
+
+02:05.322 --> 02:08.228
+ngay cả khi mình muốn tính theo cách truyền thống.
+
+02:08.228 --> 02:10.490
+Nếu mình nói là mình muốn tính
+
+02:10.490 --> 02:14.686
+độ biến thiên trung bình giữa điểm này và điểm này.
+
+02:14.686 --> 02:15.867
+Nó sẽ bằng bao nhiêu?
+
+02:15.867 --> 02:18.224
+Độ biến thiên trung bình giữa điểm này
+
+02:18.224 --> 02:19.729
+và điểm này sẽ là hệ số góc của đường thẳng
+
+02:19.729 --> 02:21.189
+đi qua chúng,
+
+02:21.189 --> 02:25.131
+vậy nó sẽ là hệ số góc của đường thẳng này, của cát tuyến này,
+
+02:25.131 --> 02:26.378
+nhưng nếu mình chọn 2 điểm khác,
+
+02:26.378 --> 02:28.535
+mình chọn điểm này và điểm này,
+
+02:28.535 --> 02:29.428
+độ biến thiên trung bình
+
+02:29.428 --> 02:32.319
+giữa 2 điểm đó sẽ trông rất khác.
+
+02:32.319 --> 02:34.935
+Có vẻ như là nó có sẽ có hệ số góc lớn hơn.
+
+02:34.935 --> 02:38.424
+Vậy nên nếu cho dù mình lấy hệ số góc giữa hai điểm
+
+02:38.424 --> 02:40.761
+trên đường thẳng hay đường cát tuyến,
+
+02:40.761 --> 02:43.578
+bạn có thể thấy là hệ số góc sẽ thay đổi.
+
+02:43.578 --> 02:45.435
+Nhưng nếu chúng mình muốn đặt ra
+
+02:45.435 --> 02:47.768
+một câu hỏi thú vị hơn nữa thì sao?
+
+02:47.768 --> 02:52.184
+Độ biến thiên tức thời tại một điểm sẽ là gì?
+
+02:52.184 --> 02:55.941
+Một câu hỏi ví dụ là, y đang biến thiên như thế nào
+
+02:55.941 --> 02:58.584
+theo x chính xác tại một điểm
+
+02:58.584 --> 03:01.711
+tại điểm mà x bằng với giá trị đó.
+
+03:01.711 --> 03:03.781
+Hãy gọi nó là x1 nhé.
+
+03:03.781 --> 03:05.908
+Một cách mà bạn có thể nghĩ về nó là
+
+03:05.908 --> 03:09.389
+liệu chúng mình có thể vẽ một đường tiếp tuyến tại điểm này,
+
+03:09.389 --> 03:12.405
+đường thẳng đó chỉ chạm tới đồ thị tại đây
+
+03:12.405 --> 03:15.162
+và tính hệ số góc của đường thẳng đó không?
+
+03:15.162 --> 03:19.069
+Nó sẽ chính là độ biến thiên tại điểm đó,
+
+03:19.069 --> 03:21.445
+hay độ biến thiên tức thời.
+
+03:21.445 --> 03:22.645
+Vậy trong trường hợp này,
+
+03:22.645 --> 03:27.113
+Một đường tiếp tuyến có thể trông như thế này.
+
+03:27.113 --> 03:29.944
+Nếu chúng mình biết được hệ số góc của nó,
+
+03:29.944 --> 03:31.187
+mình có thể xem nó như
+
+03:31.187 --> 03:34.512
+độ biến thiên tức thời tại điểm đó.
+
+03:34.512 --> 03:37.601
+Vì sao mình lại dùng độ biến thiên tức thời?
+
+03:37.601 --> 03:40.204
+Bạn hãy nhớ lại video về các vận động viên chạy nước rút
+
+03:40.204 --> 03:42.014
+mà có Usain Bolt làm ví dụ.
+
+03:42.014 --> 03:44.589
+Nếu mình muốn biết được tốc độ chạy của Usain Bolt
+
+03:44.589 --> 03:48.950
+tại một thời điểm nào đó, vậy đây sẽ biểu diễn vị trí của anh ấy
+
+03:48.950 --> 03:52.776
+theo thời gian nếu y là vị trí và x là thời gian.
+
+03:52.776 --> 03:55.547
+Thường bạn sẽ thấy t là thời gian nhưng cứ dùng x vậy,
+
+03:55.547 --> 03:58.683
+nếu chúng mình đang nói về chính xác thời điểm này
+
+03:58.683 --> 04:02.129
+chúng mình đang nói về độ biến thiên tức thời,
+
+04:02.129 --> 04:06.606
+và đó chính là khái niệm trọng tâm của phép tính vi phân,
+
+04:06.606 --> 04:09.289
+và nó được gọi là một đạo hàm.
+
+04:09.289 --> 04:13.017
+Hệ số góc của một tiếp tuyến, mà bạn cũng có thể xem nó là
+
+04:13.017 --> 04:15.603
+độ biến thiên tức thời.
+
+04:15.603 --> 04:17.043
+Mình viết dấu chấm than vào đây
+
+04:17.043 --> 04:20.160
+vì khái niệm này thực sự rất quan trọng.
+
+04:20.160 --> 04:23.368
+Vậy làm cách nào để biểu diễn một đạo hàm?
+
+04:23.368 --> 04:26.240
+Một cách để làm điều đó là dùng kí hiệu Leibniz,
+
+04:26.240 --> 04:28.713
+và Leibniz là một trong những "cha đẻ" của toán giải tích,
+
+04:28.713 --> 04:30.371
+bên cạnh Isaac Newton,
+
+04:30.371 --> 04:33.078
+Kí hiệu Leibniz sẽ cho bạn biểu diễn hệ số góc
+
+04:33.078 --> 04:34.463
+của đường tiếp tuyến
+
+04:34.463 --> 04:39.900
+bằng với dy chia cho dx.
+
+04:39.993 --> 04:42.139
+Vì sao mình thích dùng kí hiệu này?
+
+04:42.139 --> 04:45.095
+Bởi vì nó đến từ khái niệm này của hệ số góc,
+
+04:45.095 --> 04:47.993
+là độ biến thiên của y chia cho độ biến thiên của x.
+
+04:47.993 --> 04:50.087
+Bạn sẽ thấy được là trong những video sắp tới,
+
+04:50.087 --> 04:51.558
+một cách để nghĩ về hệ số góc
+
+04:51.558 --> 04:53.372
+của đường tiếp tuyến là
+
+04:53.372 --> 04:55.722
+với phép tính hệ số góc của đường cát tuyến.
+
+04:55.722 --> 04:57.839
+Ví dụ như là giữa điểm này và điểm này,
+
+04:57.839 --> 04:58.722
+hay gần hơn chút nữa,
+
+04:58.722 --> 05:00.011
+điểm này và điểm này,
+
+05:00.011 --> 05:00.844
+gần hơn nữa
+
+05:00.844 --> 05:01.916
+điểm này và điểm này,
+
+05:01.916 --> 05:03.209
+và càng gần hơn nữa,
+
+05:03.209 --> 05:06.063
+hãy xem điều gì sẽ xảy ra khi độ biến thiên
+
+05:06.063 --> 05:08.063
+của x tiến tới 0.
+
+05:09.346 --> 05:12.124
+Và việc dùng chữ "d" thay vì "delta",
+
+05:12.124 --> 05:14.004
+Leibniz muốn nói rằng
+
+05:14.004 --> 05:16.590
+"Điều gì sẽ xảy ra nếu độ biến thiên
+
+05:16.590 --> 05:20.023
+của x tiến tới 0?".
+
+05:20.023 --> 05:20.856
+Khái niệm này,
+
+05:20.856 --> 05:23.280
+đôi khi còn được gọi là kí hiệu vi phân,
+
+05:23.280 --> 05:25.908
+hay kí hiệu Leibnitz, thay vì chỉ là độ biến thiên
+
+05:25.908 --> 05:29.926
+của y chia độ biến thiên của x, độ biến thiên rất nhỏ của y
+
+05:29.926 --> 05:32.630
+chia cho độ biến thiên rất nhỏ của x,
+
+05:32.630 --> 05:35.873
+cụ thể là khi độ biến thiên của x tiến đến 0,
+
+05:35.873 --> 05:37.046
+và bạn sẽ thấy được rằng
+
+05:37.046 --> 05:39.679
+đó sẽ là cách chúng mình tính nguyên hàm.
+
+05:39.679 --> 05:42.366
+Còn một số kí hiệu khác nữa.
+
+05:42.366 --> 05:46.533
+Nếu đây là đường cong y = f(x).
+
+05:47.694 --> 05:49.102
+Hệ số góc của tiếp tuyến
+
+05:49.102 --> 05:51.066
+tại điểm đó có thể được viết là
+
+05:51.066 --> 05:53.733
+bằng với f'(x1)
+
+05:57.073 --> 05:59.703
+Bạn sẽ phải cần một chút thời gian để làm quen
+
+05:59.703 --> 06:01.429
+với kí hiệu Lagrange này.
+
+06:01.429 --> 06:05.068
+Nó nói là, f phẩy biểu diễn cho đạo hàm.
+
+06:05.068 --> 06:07.815
+Nó cho mình biết hệ số góc của tiếp tuyến
+
+06:07.815 --> 06:09.467
+tại một điểm nào đó.
+
+06:09.467 --> 06:13.458
+Vậy nếu bạn cho một giá trị x vào hàm số f này,
+
+06:13.458 --> 06:16.309
+bạn sẽ được một giá trị y tương ứng.
+
+06:16.309 --> 06:19.881
+Nếu bạn cho một giá trị x vào f phẩy,
+
+06:19.881 --> 06:24.048
+bạn sẽ được hệ số góc của tiếp tuyến tại điểm đó.
+
+06:25.017 --> 06:27.919
+Một kí hiệu khác mà có thể bạn sẽ ít gặp hơn
+
+06:27.919 --> 06:31.452
+trong một lớp giải tích, nhưng có thể sẽ được thấy trong lớp Vật lý,
+
+06:31.452 --> 06:35.173
+là kí hiệu chữ y với một dấu chấm ở trên,
+
+06:35.173 --> 06:38.719
+bạn có thể viết nó là y với dấu chấm ở trên,
+
+06:38.719 --> 06:40.835
+và nó cũng sẽ biểu diễn đạo hàm.
+
+06:40.835 --> 06:43.053
+Bạn cũng có thể sẽ thấy y phẩy.
+
+06:43.053 --> 06:46.261
+Kí hiệu này sẽ phổ biến trong các lớp toán hơn.
+
+06:46.261 --> 06:49.489
+Và nếu chúng mình tiếp tục tìm hiểu về toán giải tích,
+
+06:49.489 --> 06:52.940
+mình có thể dùng các công cụ này để tính được chúng,
+
+06:52.940 --> 06:54.538
+và nếu bạn đã quen với giới hạn,
+
+06:54.538 --> 06:56.462
+chúng sẽ rất hữu ích, vì bạn hãy tưởng tượng
+
+06:56.462 --> 06:58.196
+là chúng mình sẽ lấy giới hạn
+
+06:58.196 --> 07:02.020
+của độ biến thiên của y chia cho độ biến thiên của x
+
+07:02.020 --> 07:04.020
+khi delta x tiến đến 0,
+
+07:04.441 --> 07:06.346
+và chúng mình sẽ không chỉ tính được nó
+
+07:06.346 --> 07:07.476
+tại một điểm.
+
+07:07.476 --> 07:09.730
+Chúng mình sẽ có thể tính được các phương trình tổng quát
+
+07:09.730 --> 07:12.770
+mà nó diễn tả đạo hàm của một điểm nào đó.
+
+07:12.770 --> 07:15.113
+Vậy nên, hãy chờ đón những video tiếp theo nhé.

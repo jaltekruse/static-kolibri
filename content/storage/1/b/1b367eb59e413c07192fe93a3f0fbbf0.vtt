@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.163 --> 00:08.467
+Řekněme, že máme funkci f(x),
+která je rovna cos(x) na třetí,
+
+00:08.477 --> 00:14.446
+a kterou bychom mohli zapsat
+také takto, (cos x) na třetí.
+
+00:14.456 --> 00:21.142
+A my chceme zjistit, čemu se
+bude rovnat derivace této funkce.
+
+00:21.142 --> 00:24.211
+Chceme tedy zjistit f(x) s čárkou.
+
+00:24.211 --> 00:28.414
+Jak uvidíme, pomůže nám
+s tím pravidlo o složené funkci.
+
+00:28.414 --> 00:31.015
+Já tedy nejprve použiji to
+pravidlo o složené funkci,
+
+00:31.015 --> 00:34.328
+a pak si jej probereme podrobněji,
+abychom chápali spojitost mezi tím,
+
+00:34.338 --> 00:38.022
+co tady děláme, a tím, co
+můžete najít ve svých učebnicích,
+
+00:38.022 --> 00:39.958
+které toto pravidlo vysvětlují.
+
+00:39.958 --> 00:45.268
+Takže když máme funkci, která
+je definována jako složená…
+
+00:45.268 --> 00:50.130
+Všimněte si, že
+umocňujeme něco na třetí.
+
+00:50.130 --> 00:55.474
+Neumocňujeme pouze x na třetí.
+Umocňujeme kosinus x na třetí.
+
+00:55.475 --> 00:59.381
+Bereme tedy funkci kosinus x
+
+00:59.381 --> 01:04.661
+a vkládáme ji do další funkce,
+která ji umocňuje na třetí.
+
+01:04.671 --> 01:06.278
+Řekněme to tedy takto.
+
+01:06.278 --> 01:14.420
+Řekněme, že vezmeme x
+a vložíme jej do jedné funkce,
+
+01:14.430 --> 01:17.086
+a tou první funkcí
+je kosinus x.
+
+01:17.086 --> 01:26.163
+Nejdřív vyhodnotíme kosinus
+a to nám dá kosinus x.
+
+01:26.163 --> 01:31.101
+A pak to vložíme do další funkce,
+která umocňuje věci na třetí.
+
+01:31.101 --> 01:34.185
+Umocňuje věci na třetí.
+
+01:34.185 --> 01:36.776
+A co tedy dostaneme?
+
+01:36.776 --> 01:39.433
+Co umocňujeme na třetí?
+
+01:39.433 --> 01:44.620
+Umocňujeme
+kosinus x na třetí.
+
+01:44.620 --> 01:47.633
+Tohle je složená funkce.
+
+01:47.633 --> 01:51.537
+Mohli bychom to
+vnímat jako funkci…
+
+01:51.537 --> 01:55.442
+Řekněme, že tato
+modrá bude funkce ‚v‘
+
+01:55.456 --> 01:58.743
+a tahle bude funkce ‚u‘.
+
+01:58.743 --> 02:04.229
+Když vkládáme x do funkce u,
+tak to je tedy u(x).
+
+02:04.251 --> 02:09.383
+A když vezmeme u(x) a dáme
+jej jako argument funkci ‚v‘,
+
+02:09.393 --> 02:11.617
+tak dostaneme…
+
+02:11.627 --> 02:21.682
+Bude to ‚v‘ toho, co
+bylo vloženo, v(u(x)).
+
+02:21.682 --> 02:23.115
+Nebo to lze
+také napsat jako…
+
+02:23.115 --> 02:24.548
+Napíšu to více způsoby.
+
+02:24.548 --> 02:31.305
+Je to stejné jako v(cos x).
+
+02:31.325 --> 02:35.149
+Takže cokoliv, co dáme do
+funkce ‚v‘, to umocní na třetí.
+
+02:35.159 --> 02:38.618
+Kdybychom měli v(x),
+bylo by to x na třetí.
+
+02:38.634 --> 02:42.153
+Pravidlo o složené
+funkci nám říká…
+
+02:42.153 --> 02:46.123
+Můžeme jej použít,
+když derivujeme funkci,
+
+02:46.123 --> 02:49.733
+kterou můžeme vyjádřit jako
+složenou funkci v tomto tvaru.
+
+02:49.753 --> 02:52.209
+Aby to bylo jasné,
+můžeme napsat,
+
+02:52.229 --> 02:57.609
+že f(x) se rovná v(u(x)).
+
+02:57.609 --> 03:02.364
+Vím, že říkám stále to stejné dokola,
+ale říkám to vždy trochu jinak,
+
+03:02.364 --> 03:07.894
+protože po prvním pohledu může být
+složité to pochytit a pořádně pochopit.
+
+03:07.904 --> 03:10.738
+Takže to zkusím napsat
+několika způsoby.
+
+03:10.738 --> 03:14.439
+Pravidlo o složené funkci nám říká,
+že když máme situaci jako tuto,
+
+03:14.449 --> 03:17.760
+tak derivace, f'(x)…
+
+03:17.760 --> 03:20.247
+A tohle je to, co uvidíte
+ve svých učebnicích.
+
+03:20.247 --> 03:25.611
+Toto tedy bude derivace
+toho celého podle u(x),
+
+03:25.621 --> 03:33.579
+takže to můžeme
+napsat jako v'(u(x)),
+
+03:33.579 --> 03:36.947
+Krát derivace ‚u‘ podle x.
+
+03:36.957 --> 03:40.290
+Krát u'(x).
+
+03:40.300 --> 03:45.361
+Toto je jeden způsob vyjádření
+pravidla o složené funkci.
+
+03:45.379 --> 03:48.457
+Jak to vyhodnotíme v této situaci?
+
+03:48.457 --> 03:50.917
+Napíšu to podobnými barvami.
+
+03:50.927 --> 03:56.034
+Takže funkci ‚v‘, vnější funkci, která
+umocňuje věci na třetí, označím modře.
+
+03:56.034 --> 03:59.649
+Takže f'(x) další
+způsob vyjádření,
+
+03:59.669 --> 04:02.160
+a použiji tady zápis
+pomocí diferenciálů,
+
+04:02.170 --> 04:06.247
+můžeme se na to dívat
+jako na derivaci…
+
+04:06.247 --> 04:07.815
+Napíšu to několika způsoby.
+
+04:07.845 --> 04:18.775
+Můžeme se na to dívat
+jako na derivaci ‚v‘ podle ‚u‘.
+
+04:18.808 --> 04:20.488
+Použiji správné barvy.
+
+04:20.518 --> 04:26.071
+Derivace ‚v‘ podle ‚u‘.
+
+04:26.081 --> 04:28.940
+To je stejné jako tady toto.
+
+04:28.940 --> 04:34.970
+Krát derivace ‚u‘ podle x.
+
+04:34.980 --> 04:38.964
+Takže krát derivace ‚u‘ podle x.
+
+04:38.964 --> 04:41.635
+A jen aby to bylo jasné
+a abyste znali různé zápisy,
+
+04:41.655 --> 04:46.108
+které uvidíte v různých
+učebnicích, toto je toto tady,
+
+04:46.118 --> 04:51.503
+jen napsáno jiným zápisem,
+a toto je toto tady.
+
+04:51.511 --> 04:53.547
+Pojďme si to tedy vypočítat.
+
+04:53.547 --> 04:56.460
+Už vás pravděpodobně nebaví
+řešit to jen abstraktně.
+
+04:56.470 --> 05:01.099
+Takže toto bude rovno…
+
+05:01.099 --> 05:04.607
+A napíšu to ještě jednou,
+je to derivace…
+
+05:04.607 --> 05:08.924
+Místo toho, abych napsal
+‚v‘ a ‚u‘, napíšu to takto.
+
+05:08.924 --> 05:10.477
+Bude to…
+
+05:10.497 --> 05:12.816
+Pořád používám špatné barvy.
+
+05:12.816 --> 05:15.636
+Bude to derivace…
+
+05:15.636 --> 05:16.997
+Nechám si tu trochu místa.
+
+05:17.007 --> 05:21.921
+Krát derivace něčeho jiného
+podle něčeho jiného.
+
+05:21.941 --> 05:23.820
+Takže prvně musíme zderivovat v.
+
+05:23.820 --> 05:30.151
+‚v‘ je kosinus x na třetí.
+
+05:30.151 --> 05:35.274
+To zderivujeme podle u,
+což je kosinus x,
+
+05:35.287 --> 05:44.520
+a vynásobíme to derivací ‚u‘.,
+což je kosinus x, podle x.
+
+05:44.520 --> 05:49.726
+A toto už jsme
+někdy předtím viděli.
+
+05:49.726 --> 05:57.234
+Víme, že derivace
+podle x kosinu x…
+
+05:57.234 --> 05:59.568
+Použiji stejnou barvu.
+
+05:59.598 --> 06:05.299
+Derivace kosinu x
+je rovna zápornému sinu x.
+
+06:05.299 --> 06:09.583
+Takže toto tady je −sinus x.
+
+06:09.603 --> 06:12.997
+Asi budete zvyklí spíše
+na tento zápis operátoru,
+
+06:13.004 --> 06:15.366
+toto neuvidíte tak často,
+
+06:15.376 --> 06:17.756
+ale pomáhá to mozku
+uvědomit si, co tady děláme.
+
+06:17.766 --> 06:20.615
+Derivujeme kosinus x podle x.
+
+06:20.615 --> 06:22.681
+To bude −sinus x.
+
+06:22.681 --> 06:28.838
+A co když derivujeme
+kosinus x na třetí podle kosinu x?
+
+06:28.838 --> 06:31.644
+Co to celé znamená?
+
+06:31.644 --> 06:46.672
+Pokud derivujeme x na třetí,
+x na třetí podle x,
+
+06:46.682 --> 06:50.226
+pokud by to bylo takto,
+tak to bude…
+
+06:50.226 --> 06:52.628
+Dám sem i závorky,
+aby to bylo jasnější.
+
+06:52.648 --> 06:58.146
+Když budu derivovat
+toto, bude to…
+
+06:58.160 --> 07:01.711
+Dáme exponent
+dopředu, to bude 3,
+
+07:01.711 --> 07:11.942
+3 krát x na druhou.
+
+07:11.952 --> 07:17.426
+Takže obecná představa je taková,
+že pokud derivuji něco,
+
+07:17.426 --> 07:18.853
+ať už je to něco cokoli…
+
+07:18.853 --> 07:20.280
+Použiji novou barvu.
+
+07:20.287 --> 07:27.151
+Budu derivovat oranžový kroužek
+na třetí podle oranžového kroužku.
+
+07:27.159 --> 07:31.005
+Bude to 3 krát oranžový,
+nebo tedy žlutý kroužek.
+
+07:31.015 --> 07:33.016
+Udělám z toho opravdu
+oranžový kroužek.
+
+07:33.026 --> 07:38.825
+Takže derivace oranžového kroužku
+na třetí podle oranžového kroužku,
+
+07:38.835 --> 07:42.124
+to bude 3 krát oranžový
+kroužek na druhou.
+
+07:42.124 --> 07:47.143
+Pokud tedy derivuji kosinus
+x na třetí podle kosinu x,
+
+07:47.143 --> 07:51.558
+tak to bude…
+
+07:51.568 --> 07:59.447
+3 krát kosinus x,
+kosinus x na druhou.
+
+07:59.452 --> 08:02.612
+Na druhou.
+
+08:02.612 --> 08:07.999
+Dá se na to dívat tak, že derivuji
+vnější funkci podle té vnitřní.
+
+08:07.999 --> 08:11.281
+Dělal bych to stejné,
+kdybych derivoval x na třetí,
+
+08:11.281 --> 08:13.129
+ale místo x mám
+teď kosinus x,
+
+08:13.149 --> 08:17.921
+takže místo 3x na druhou
+dostaneme 3 krát (cos x) na druhou.
+
+08:17.931 --> 08:21.760
+Pravidlo o složené funkci nám pak říká,
+že pokud chceme dostat derivaci podle x,
+
+08:21.760 --> 08:25.597
+musíme pak ještě zderivovat
+kosinus x podle x.
+
+08:25.597 --> 08:29.223
+Vím, že je toho hromada,
+ale už se blížíme k cíli.
+
+08:29.223 --> 08:31.813
+Vypočítali jsme naši derivaci.
+
+08:31.813 --> 08:34.003
+Bude to toto krát toto.
+
+08:34.010 --> 08:45.295
+Takže to bude −3 krát sinus x
+krát kosinus na druhou x.
+
+08:45.295 --> 08:47.748
+Byl to sice poněkud
+dlouhý způsob výpočtu,
+
+08:47.748 --> 08:50.248
+také jsem také vysvětloval
+pravidlo o složené funkci,
+
+08:50.248 --> 08:52.283
+ale až získáte praxi,
+tak si jen řeknete:
+
+08:52.303 --> 08:59.480
+zderivuji tedy vnější funkci
+něčeho na třetí podle vnitřku,
+
+08:59.480 --> 09:02.479
+budu prostě pracovat s tím
+kosinem x, jako by to bylo x.
+
+09:02.479 --> 09:06.619
+Pokud to tak udělám, bude to
+3 krát kosinus na druhou x,
+
+09:06.629 --> 09:08.815
+to je tedy tato část a tato část,
+
+09:08.815 --> 09:12.479
+a pak zderivuji
+vnitřní funkci podle x.
+
+09:12.479 --> 09:16.021
+A to je −sinus x.

@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.630 --> 00:02.140
+Alyssa đang chơi game.
+
+00:02.140 --> 00:04.140
+Alyssa có nhiệm vụ phải tiêu diệt
+
+00:04.140 --> 00:07.380
+một ông phù thuỷ già độc ác và tay sai của ông ta.
+
+00:07.380 --> 00:10.010
+Trong game, Alyssa cũng là phù thủy. Thần chú của cô
+
+00:10.010 --> 00:12.310
+có phạm vi tấn công 6m.
+
+00:12.310 --> 00:14.330
+Vị trí của mọi vật trong game
+
+00:14.330 --> 00:17.850
+được mô phỏng lại trên mặt phẳng toạ độ xy.
+
+00:17.850 --> 00:21.090
+Vậy (5,4) là vị trí của nhân vật của Alyssa.
+
+00:21.090 --> 00:24.980
+(8,7) là vị trí của tay sai A. (2,-1)
+
+00:24.980 --> 00:28.090
+là vị trí của tay sai B. (9,0)
+
+00:28.090 --> 00:30.884
+là vị trí của tay sai C.
+
+00:30.884 --> 00:33.300
+Vậy điều mình muốn làm-- à bạn hãy dừng video
+
+00:33.300 --> 00:36.310
+này lại và thử nghĩ xem, với những dữ kiện đã
+
+00:36.310 --> 00:39.270
+có, thì khi dùng thần chú, phép thuật của Alyssa có thể
+
+00:39.270 --> 00:42.169
+có thể tiêu diệt tên tay sai nào?
+
+00:42.169 --> 00:43.710
+Vậy hãy thử tự làm nha.
+
+00:43.710 --> 00:45.367
+Vậy để mình biết được
+
+00:45.367 --> 00:47.450
+tên tay sai nào trong vùng ảnh hưởng của
+
+00:47.450 --> 00:49.241
+thần chú, mình phải xem điểm nào cách
+
+00:49.241 --> 00:50.380
+Alyssa 6 đơn vị.
+
+00:50.380 --> 00:53.290
+Mình sẽ cho đơn vị này là mét ngay đây.
+
+00:53.290 --> 00:57.979
+Điểm nào sau đây cách vị trí (5,4) 6 đơn vị?
+
+00:57.979 --> 00:59.520
+Và để làm vậy, mình sẽ cần phải
+
+00:59.520 --> 01:01.353
+tính khoảng cách giữa điểm này
+
+01:01.353 --> 01:03.990
+và điểm này, điểm này và này, điểm này
+
+01:03.990 --> 01:07.220
+và điểm này, và xem khoảng cách giữa chúng
+
+01:07.220 --> 01:09.730
+dài hay ngắn hơn 6m.
+
+01:09.730 --> 01:12.810
+Vậy làm thế nào để mình tính khoảng cách giữa hai điểm?
+
+01:12.810 --> 01:18.190
+Cho là mình có một điểm toạ độ (x1, y1) ngay đây.
+
+01:18.190 --> 01:24.690
+Và rồi mình có điểm (x2, y2) ở đây nữa.
+
+01:24.690 --> 01:28.724
+Và mình muốn tính khoảng cách ngay đây.
+
+01:28.724 --> 01:31.140
+Công thức tính khoảng cách thì mình suy ra từ định lí
+
+01:31.140 --> 01:33.150
+Pytago.
+
+01:33.150 --> 01:34.910
+Theo định lí Pytago, mình có,
+
+01:34.910 --> 01:38.224
+nếu cạnh ngay đây là khoảng thay đổi y--
+
+01:38.224 --> 01:39.640
+à để mình viết nó là
+
+01:39.640 --> 01:42.220
+giá trị tuyệt đối của thay đổi y--
+
+01:42.220 --> 01:44.910
+và cho là cạnh ngay đây là
+
+01:44.910 --> 01:49.720
+giá trị tuyệt đổi của thay đổi x.
+
+01:49.720 --> 01:54.010
+Định lí Pytago cho mình biết là cạnh huyền này
+
+01:54.010 --> 01:57.370
+sẽ bằng căn bậc hai của tổng các bình phương
+
+01:57.370 --> 02:03.465
+của hai cạnh này-- chính là bình phương thay đổi x và bình phương
+
+02:03.465 --> 02:06.197
+thay đổi y.
+
+02:06.197 --> 02:08.530
+Bạn có thể tự hỏi dấu giá trị tuyệt đối đâu rồi?
+
+02:08.530 --> 02:10.863
+Thì khi mình bình phương, số sẽ luôn dương,
+
+02:10.863 --> 02:13.230
+nên mình không cần viết dấu giá trị tuyệt đối ra.
+
+02:13.230 --> 02:15.060
+Vậy thì mình chỉ cần giải
+
+02:15.060 --> 02:17.370
+khoảng thay đổi x của hai điểm
+
+02:17.370 --> 02:18.810
+này bằng bao nhiêu?
+
+02:18.810 --> 02:20.320
+Và khoảng thay đổi y nữa.
+
+02:20.320 --> 02:24.310
+Rồi bình phương chúng lên, cộng lại, rồi lấy căn bậc hai của nó.
+
+02:24.310 --> 02:33.650
+Ví dụ, mình coi điểm này là P1,
+
+02:33.650 --> 02:37.250
+và điểm này P2, và điểm này sẽ là
+
+02:37.250 --> 02:40.480
+P3 theo từng màu khác nhau,
+
+02:40.480 --> 02:42.610
+để bạn dễ theo dõi nhỉ.
+
+02:42.610 --> 02:46.950
+Đây là P3, còn đây sẽ là P4 nha.
+
+02:46.950 --> 02:56.080
+Vậy đầu tiên hãy xét khoảng cách giữa P1 và P2.
+
+02:56.080 --> 02:59.400
+Nó sẽ bằng căn bậc hai của
+
+02:59.400 --> 03:02.760
+bình phương thay đổi x.
+
+03:02.760 --> 03:04.860
+Thay đổi x bằng 3.
+
+03:04.860 --> 03:09.870
+Bình phương lên thành 9, cộng bình phương thay đổi y.
+
+03:09.870 --> 03:11.940
+Thay đổi y cũng bằng 3.
+
+03:11.940 --> 03:13.680
+Bình phương lên là 9.
+
+03:13.680 --> 03:16.690
+Vậy cái này sẽ là căn bậc hai của 18, hay
+
+03:16.690 --> 03:22.820
+nói cách khác là 3 căn bậc hai của 2.
+
+03:22.820 --> 03:26.580
+Như vậy nó lớn hay nhỏ hơn 6 nhỉ?
+
+03:26.580 --> 03:28.370
+3 nhân 2 thì bằng 6 nè.
+
+03:28.370 --> 03:30.190
+Căn bậc hai của 2 nhỏ hơn 2.
+
+03:30.190 --> 03:32.200
+Nó là 1 phẩy mấy đó.
+
+03:32.200 --> 03:38.290
+Vậy cái này ngay đây sẽ nhỏ hơn 6.
+
+03:38.290 --> 03:40.460
+Vậy nó trong tầm ảnh hưởng của phép thuật.
+
+03:40.460 --> 03:45.340
+Alyssa hoàn toàn có thể tấn công tay sai A.
+
+03:45.340 --> 03:54.070
+Giờ đến tay sai B. Vậy khoảng cách giữa P1 và P3
+
+03:54.070 --> 03:58.150
+sẽ bằng căn bậc hai của-- vậy mình có
+
+03:58.150 --> 04:02.060
+thay đổi x bằng âm 3.
+
+04:02.060 --> 04:05.340
+Âm 3 bình là bằng 9.
+
+04:05.340 --> 04:10.790
+Còn y đi từ 4 đến âm 1 vậy thay đổi y bằng âm 5.
+
+04:10.790 --> 04:15.380
+Bình phương của nó là 25-- vậy 9 cộng 25,
+
+04:15.380 --> 04:20.829
+vậy mình có căn bậc hai của 34.
+
+04:20.829 --> 04:23.590
+Cái này sẽ lớn hay nhỏ hơn 6 đây?
+
+04:23.590 --> 04:27.360
+Mình có căn bậc hai của 36 là 6.
+
+04:27.360 --> 04:29.990
+Vậy đây là căn bậc hai của một số nhỏ hơn 36,
+
+04:29.990 --> 04:33.400
+nên kết quả cho ra sẽ chắc chắn nhỏ hơn 6.
+
+04:33.400 --> 04:37.617
+Vậy tay sai B cũng trong tầm ảnh hưởng của phép thuật.
+
+04:37.617 --> 04:39.200
+Bây giờ mình còn một điểm nữa.
+
+04:39.200 --> 04:47.580
+Khoảng cách giữa P1 và P4
+
+04:47.580 --> 04:52.310
+sẽ bằng căn bậc hai của bình phương
+
+04:52.310 --> 04:54.560
+thay đổi x-- đó sẽ là bằng 4 bình phương
+
+04:54.560 --> 04:58.020
+là bằng 16-- cộng bình phương thay đổi y.
+
+04:58.020 --> 05:00.460
+Mình có thay đổi y bằng âm 4.
+
+05:00.460 --> 05:03.080
+Rồi bình phương 4 lên mình có 16 nữa.
+
+05:03.080 --> 05:06.290
+Vậy nó sẽ bằng căn bậc hai của 32.
+
+05:06.290 --> 05:10.000
+Vậy nó lớn hay nhỏ hơn 6 đây?
+
+05:10.000 --> 05:11.830
+Căn bậc hai của 32 thì chắc chắn nhỏ
+
+05:11.830 --> 05:14.710
+hơn căn bậc hai của 36, là 6.
+
+05:14.710 --> 05:17.180
+Vậy nó sẽ nhỏ hơn 6.
+
+05:17.180 --> 05:21.330
+Vậy Alyssa có thể tiêu diệt tất cả các tay sai.
+
+05:21.330 --> 05:24.230
+Chúng đều trong phạm vi 6 đơn vị của Alyssa.
+
+05:24.230 --> 05:26.330
+Vậy tên nào xa nhất đây?
+
+05:26.330 --> 05:28.139
+Để mình viết lại
+
+05:28.139 --> 05:29.930
+như thế này cho đơn giản, cái này
+
+05:29.930 --> 05:32.870
+có thể coi là căn bậc hai của 18.
+
+05:32.870 --> 05:34.934
+Căn bận hai của 18 đương nhiên sẽ nhỏ nhất
+
+05:34.934 --> 05:36.600
+trong số căn bậc hai của 18, của 32
+
+05:36.600 --> 05:37.930
+và của 34.
+
+05:37.930 --> 05:42.290
+Vậy tay sai A gần Alyssa nhất.
+
+05:42.290 --> 05:51.250
+Còn tay sai B, căn bậc hai của 34, sẽ xa nhất.

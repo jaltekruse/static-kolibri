@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.660 --> 00:08.370
+Disons que nous avons besoin d'évaluer la limite lorsque x tend vers 0 de
+
+00:08.370 --> 00:20.340
+2 Sinus de x moins sinusoïdale de 2x, tout cela plus de x
+
+00:20.340 --> 00:24.210
+moins sinusoïdale de x
+
+00:24.210 --> 00:26.820
+Maintenant, la première chose que j'ai toujours essayer de faire lorsque j'ai d'abord
+
+00:26.820 --> 00:29.160
+Voir une limite problème est hé, que se passe-t-il si j'essaie simplement de
+
+00:29.160 --> 00:33.890
+Évaluer cette fonction à x est égal à 0?
+
+00:33.890 --> 00:35.540
+Peut-être rien crazy se produit.
+
+00:35.540 --> 00:37.090
+C'est donc le moment de tout essayer.
+
+00:37.090 --> 00:40.340
+Si nous essayons de faire x est égal à 0, que se passe-t-il?
+
+00:40.340 --> 00:43.580
+Nous avons 2 sinus de 0, qui est de 0.
+
+00:43.580 --> 00:46.190
+Moins sinusoïdale de 2 fois 0.
+
+00:46.190 --> 00:49.960
+Eh bien, c'est ce qui va être sinus de 0 à nouveau, ce qui est 0.
+
+00:49.960 --> 00:53.510
+Donc, notre numérateur va être égal à 0.
+
+00:53.510 --> 00:54.750
+Sinus de 0, c'est 0.
+
+00:54.750 --> 00:56.440
+Et puis nous avons un autre sinus de 0.
+
+00:56.440 --> 00:58.340
+C'est un autre 0, de sorte que tous les 0 's.
+
+00:58.340 --> 00:59.590
+Et notre dénominateur, nous allons avoir
+
+00:59.590 --> 01:02.590
+Un 0 moins sinusoïdale de 0.
+
+01:02.590 --> 01:05.200
+Et bien c'est aussi ce qui se 0.
+
+01:05.200 --> 01:08.340
+Mais nous n'avons que forme indéterminée, nous avons que non défini
+
+01:08.340 --> 01:12.000
+0/0 Que nous en avons parlé dans la dernière vidéo.
+
+01:12.000 --> 01:15.720
+Nous pourrions peut-être utiliser la regle du L'Hospital ici.
+
+01:15.720 --> 01:18.910
+Pour utiliser la regle du L'Hospital, la limite quand x
+
+01:18.910 --> 01:21.880
+Approches 0, de la dérivée de cette fonction sur
+
+01:21.880 --> 01:24.880
+La dérivée de cette fonction doit exister.
+
+01:24.880 --> 01:28.060
+Contentons-nous donc de s'appliquer la règle du L'Hospital et je vais prendre le
+
+01:28.060 --> 01:30.470
+Dérivée de chacune de ces et voir si nous pouvons trouver la limite.
+
+01:30.470 --> 01:33.620
+Si nous pouvons, alors que va être la limite de cette chose.
+
+01:33.620 --> 01:38.750
+Par conséquent, cette chose, à supposer qu'elle existe, va être égale à
+
+01:38.750 --> 01:44.950
+La limite lorsque x tend vers 0 de la dérivée de cette
+
+01:44.950 --> 01:46.600
+Numérateur jusqu'ici.
+
+01:46.600 --> 01:48.380
+Quelle est donc la dérivée du numérateur?
+
+01:48.380 --> 01:49.315
+Je le ferai dans une nouvelle couleur.
+
+01:49.315 --> 01:51.050
+Je le ferai en vert.
+
+01:51.050 --> 01:55.370
+Ainsi, la dérivée de 2 sinus de x est 2 cosinus de x.
+
+01:57.920 --> 02:00.160
+Et puis, moins ... bien, la dérivée du sine
+
+02:00.160 --> 02:04.150
+De 2 x 2 cosinus de 2x.
+
+02:04.150 --> 02:07.440
+Tellement moins 2 cosinus de 2x.
+
+02:07.440 --> 02:09.210
+Il vous suffit d'utiliser la règle de la chaîne il y a, dérivé de
+
+02:09.210 --> 02:11.000
+l'intérieur est à seulement 2.
+
+02:11.000 --> 02:12.060
+C'est le 2.
+
+02:12.060 --> 02:15.405
+Dérivée de l'extérieur représente le cosinus de 2x, et nous avons
+
+02:15.405 --> 02:16.790
+eu de nombre négatif.
+
+02:16.790 --> 02:19.610
+C'est donc la dérivée de notre numérateur et
+
+02:19.610 --> 02:20.500
+quelle est la dérivée
+
+02:20.500 --> 02:21.920
+de notre dénominateur?
+
+02:21.920 --> 02:25.430
+Ainsi, dérivée de x est juste 1, et dérivé de sinus
+
+02:25.430 --> 02:26.870
+de x est juste cosinus de x.
+
+02:26.870 --> 02:29.920
+Par conséquent, 1 moins cosinus de x.
+
+02:29.920 --> 02:31.950
+Essayons donc d'évaluer cette limite.
+
+02:31.950 --> 02:33.150
+Qu'obtenons-nous?
+
+02:33.150 --> 02:36.180
+Si nous avons mis un 0 jusqu'ici, nous allons obtenir 2 fois cosinus
+
+02:36.180 --> 02:39.610
+de 0, ce qui est 2-- je voudrais écrire comme ça.
+
+02:39.610 --> 02:42.760
+C'est donc 2 fois cosinus de 0, ce qui est 1.
+
+02:42.760 --> 02:48.040
+Il est donc 2 moins 2 cosinus de 2 fois 0.
+
+02:48.040 --> 02:49.480
+Laissez-moi vous écrire cela de cette manière.
+
+02:49.480 --> 02:50.580
+En fait, permettez-moi de vous faire de cette façon.
+
+02:50.580 --> 02:53.150
+Si nous avons simplement de évaluer la limite du numérateur et
+
+02:53.150 --> 02:54.270
+du dénominateur , que va-t-il se passer?
+
+02:54.270 --> 02:57.710
+Nous avons 2 cosinus de 0, qui est de 2.
+
+02:57.710 --> 03:01.760
+Moins 2 fois cosinus de ... bien, ce 2 fois 0 est
+
+03:01.760 --> 03:02.620
+encore à 0.
+
+03:02.620 --> 03:06.850
+Tellement moins 2 fois cosinus de 0, qui est de 2.
+
+03:06.850 --> 03:15.620
+Tout cela sur 1 moins le cosinus de 0, qui est de 1.
+
+03:15.620 --> 03:17.295
+Donc, une fois de plus, nous obtenons 0/0.
+
+03:22.100 --> 03:24.500
+Alors, est-ce que cela signifie que la limite n'existe pas ?
+
+03:24.500 --> 03:27.420
+Non, il peut encore exister, nous pourrions faire
+
+03:27.420 --> 03:28.830
+la règle du L'Hospital .
+
+03:28.830 --> 03:30.610
+Permettez-moi de prendre la dérivée de que et le mettre sur
+
+03:30.610 --> 03:31.490
+la dérivée de que.
+
+03:31.490 --> 03:34.610
+Et puis prendre la limite et peut-être la regle du L'Hopsital
+
+03:34.610 --> 03:35.700
+vont nous aiderons pour la prochaine estage.
+
+03:35.700 --> 03:38.610
+Voyons donc si elle ne nous mène nulle part.
+
+03:38.610 --> 03:43.030
+Ceci devrait donc être égal à la limite si la regle du L'Hospital
+
+03:43.030 --> 03:43.840
+s'applique ici.
+
+03:43.840 --> 03:46.050
+Nous ne sommes pas 100% sûr encore.
+
+03:46.050 --> 03:49.950
+Cela doit être égal à la limite lorsque x tend vers 0 de la
+
+03:49.950 --> 03:53.690
+dérivée de cette chose sur la dérivée de cette chose.
+
+03:53.690 --> 03:58.240
+Quelle est donc la dérivée de 2 cosinus de x?
+
+03:58.240 --> 04:00.485
+Ainsi, dérivé de cosinus de x est négatif sinus de x.
+
+04:00.485 --> 04:04.920
+Il est donc négative 2 sinus de x.
+
+04:04.920 --> 04:11.320
+Et puis dérivé de cosinus de 2x est négatif 2 sinus de 2x.
+
+04:11.320 --> 04:13.660
+Nous allons avoir ce négatif annuler avec le
+
+04:13.660 --> 04:16.980
+Négatif sur le négatif 2 puis 2 fois la 2.
+
+04:16.980 --> 04:21.990
+Donc il va être plus 4 sinus de 2x.
+
+04:21.990 --> 04:23.790
+Je voudrais m'assurer que javais faire cette problem correctement
+
+04:23.790 --> 04:26.640
+.Nous avons au moins 2 ou 2 sur l'extérieur.
+
+04:26.640 --> 04:30.950
+Dérivé du cosinus de 2x va être 2 fois
+
+04:30.950 --> 04:32.590
+négatif sinus de x.
+
+04:32.590 --> 04:34.270
+Pour le 2 fois 2 est 4.
+
+04:34.270 --> 04:36.780
+La négative sinus de x fois ... le négatif
+
+04:36.780 --> 04:38.060
+il y a un plus.
+
+04:38.060 --> 04:40.180
+Vous avez un sinus, donc c'est le sinus de 2x.
+
+04:40.180 --> 04:42.370
+C'est le numérateur lorsque vous prenez la dérivée.
+
+04:42.370 --> 04:45.260
+Et le dénominateur, c'est juste un exercice en
+
+04:45.260 --> 04:45.830
+prenant les dérivés.
+
+04:45.830 --> 04:47.350
+Quelle est la dérivée du dénominateur?
+
+04:47.350 --> 04:49.310
+Dérivé de 1 est 0.
+
+04:49.310 --> 04:52.790
+Et dérivée négative cosinus de x est juste -- et bien,
+
+04:52.790 --> 04:53.900
+c'est juste sinus de x.
+
+04:56.480 --> 04:57.950
+Examinons donc cette limite.
+
+04:57.950 --> 05:00.050
+Il s'agit donc d'être égal à -- bien, immédiatement si je
+
+05:00.050 --> 05:02.810
+prends x est égal à 0 dans le dénominateur, je sais que
+
+05:02.810 --> 05:05.190
+sinus de 0 est seulement à 0.
+
+05:05.190 --> 05:06.870
+Voyons ce qui se passe dans le numérateur.
+
+05:06.870 --> 05:08.700
+Négatif 2 fois sinus de 0.
+
+05:08.700 --> 05:10.740
+Qu'est-ce qui se passe à 0.
+
+05:10.740 --> 05:13.880
+Et puis plus 4 fois sinus de 2 fois 0.
+
+05:13.880 --> 05:16.570
+Et bien, c'est encore sinus de 0, de sorte que c'est toujours 0.
+
+05:16.570 --> 05:19.210
+Donc, une fois de plus, nous avons eu indéterminée forme encore.
+
+05:19.210 --> 05:19.900
+Avons-nous fait?
+
+05:19.900 --> 05:20.820
+Allons-nous leur offrir?
+
+05:20.820 --> 05:22.730
+Nous pouvons dire que la règle du L'Hospital n'a pas fonctionné?
+
+05:22.730 --> 05:26.550
+Non, parce que cette situation aurait pu être notre première limite problème.
+
+05:26.550 --> 05:28.750
+Et si c'est notre première limite problème nous dire, hé, nous pourrions peut-être
+
+05:28.750 --> 05:30.680
+utiliser la règle du L'Hospital ici parce que nous avons obtenu
+
+05:30.680 --> 05:32.600
+la forme indéterminée
+
+05:32.600 --> 05:34.990
+Le numérateur et le dénominateur approche
+
+05:34.990 --> 05:36.660
+0 lorsque x tend vers 0.
+
+05:36.660 --> 05:40.110
+Prenons donc le dérivés à nouveau.
+
+05:40.110 --> 05:42.870
+Ce sera égal à -- si la limite existe, la
+
+05:42.870 --> 05:45.730
+limite lorsque x tend vers 0.
+
+05:45.730 --> 05:47.685
+Prenons la dérivée du numérateur.
+
+05:47.685 --> 05:51.410
+La dérivée de négatif 2 sinus de x est négatif
+
+05:51.410 --> 05:54.100
+2 Cosinus de x.
+
+05:54.100 --> 05:57.850
+Et puis, plus la dérivée de 4 sinus de 2x.
+
+05:57.850 --> 06:01.520
+Eh bien, c'est 2 fois 4, qui est de 8.
+
+06:01.520 --> 06:04.330
+Fois cosinus de 2x.
+
+06:04.330 --> 06:08.320
+Dérivé du sinus de 2x est 2 cosinus de 2x.
+
+06:08.320 --> 06:10.270
+Et ce premier 2 est multiplié par
+
+06:10.270 --> 06:11.840
+4 pour obtenir le 8.
+
+06:11.840 --> 06:17.030
+Et puis la dérivée du dénominateur, dérivé de sinus
+
+06:17.030 --> 06:19.140
+de x est juste cosinus de x.
+
+06:19.140 --> 06:21.880
+Nous allons donc évaluer ce caractère.
+
+06:21.880 --> 06:24.620
+Il semble donc que nous avons fait certains progrès ou peut-être
+
+06:24.620 --> 06:27.160
+La règle du L'Hopital butée en appliquant ici parce que nous voulons prendre la limite
+
+06:27.160 --> 06:29.610
+lorsque x tend vers 0 de cosinus de x.
+
+06:29.610 --> 06:30.650
+C'est-à-dire 1.
+
+06:30.650 --> 06:33.220
+Nous sommes donc absolument pas obtenir ce forme indéterminée,
+
+06:33.220 --> 06:36.120
+que 0/0 de cette itération.
+
+06:36.120 --> 06:38.160
+Voyons ce qui se passe pour le numérateur.
+
+06:38.160 --> 06:41.950
+Nous obtenons négative 2 fois cosinus de 0.
+
+06:41.950 --> 06:45.530
+Et bien c'est tout simplement une attitude négative 2 parce que cosinus de 0 est 1.
+
+06:45.530 --> 06:50.090
+Plus 8 fois cosinus de 2x.
+
+06:50.090 --> 06:53.590
+Ainsi, si x est 0, donc il va être cosinus de 0, qui est de 1.
+
+06:53.590 --> 06:54.690
+Il est donc tout simplement à être un 8.
+
+06:54.690 --> 06:56.990
+Tellement négative 2 plus 8.
+
+06:56.990 --> 06:59.500
+Ainsi cette chose droit ici, négatif 2 plus 8 est 6.
+
+06:59.500 --> 07:00.720
+6 Sur 1.
+
+07:00.720 --> 07:03.370
+Tout cela, c'est égal à 6.
+
+07:03.370 --> 07:06.850
+Pour la règle du L'Hospital -- cela s'applique à cette dernière étape.
+
+07:06.850 --> 07:09.630
+Si c'était le problème que nous avons vu et nous l'avons dit, hé, lorsque nous avons
+
+07:09.630 --> 07:13.530
+essayé d'appliquer la limite, nous obtenir la limite ce numérateur
+
+07:13.530 --> 07:15.010
+Approches 0 est 0.
+
+07:15.010 --> 07:19.790
+Limite comme ce dénominateur tend vers 0 est 0.
+
+07:19.790 --> 07:21.980
+Comme la dérivée du numérateur de la dérivée
+
+07:21.980 --> 07:25.600
+du dénominateur, qui existe et qu'il est égal à 6.
+
+07:25.600 --> 07:28.590
+Par conséquent, cette limite doit être égale à 6.
+
+07:28.590 --> 07:31.740
+Et si cette limite est égale à 6, par le même argument, cette
+
+07:31.740 --> 07:33.340
+limite est aussi égale à 6.
+
+07:33.340 --> 07:35.850
+Et par le même argument, cette limite doit
+
+07:35.850 --> 07:40.090
+être égale à 6.
+
+07:40.090 --> 07:41.770
+Et nous avons terminé.

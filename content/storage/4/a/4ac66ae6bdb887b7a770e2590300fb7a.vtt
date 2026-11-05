@@ -1,0 +1,399 @@
+WEBVTT
+
+00:00.650 --> 00:03.090
+Você pode pensar que o
+teorema de valor médio
+
+00:03.090 --> 00:07.180
+é só um teorema misterioso
+que aparece nas aulas de cálculo.
+
+00:07.180 --> 00:10.490
+Mas o que veremos neste vídeo
+é que ele tem sido usado,
+
+00:10.490 --> 00:11.960
+pelo menos implicitamente,
+
+00:11.960 --> 00:14.930
+para dar às pessoas multas
+por alta velocidade.
+
+00:14.930 --> 00:16.309
+Vamos pensar em um exemplo.
+
+00:16.309 --> 00:19.070
+Digamos que esta é
+uma cabine de pedágio.
+
+00:19.070 --> 00:23.190
+Você está em uma rodovia que
+tem um pedágio no ponto A,
+
+00:23.190 --> 00:28.120
+e você chega no pedágio
+exatamente à uma da tarde,
+
+00:28.120 --> 00:31.040
+então os computadores
+da rodovia registram isso.
+
+00:31.040 --> 00:34.279
+Digamos que você tenha
+aqueles equipamentos
+
+00:34.279 --> 00:37.480
+que ao pagar o pedágio
+ele sabe quem você é e registra.
+
+00:37.480 --> 00:39.890
+Ele pega dinheiro de
+uma conta em algum lugar.
+
+00:39.890 --> 00:46.120
+Então ele vê que você chegou lá
+exatamente à uma da tarde.
+
+00:46.120 --> 00:53.770
+Depois você sai do pedágio da rodovia,
+
+00:53.770 --> 00:58.060
+vai para o ponto B, e chega lá
+exatamente às duas da tarde.
+
+00:58.060 --> 01:01.290
+Estou criando estes números
+que são fáceis de trabalhar.
+
+01:01.290 --> 01:03.810
+E digamos que eles estão
+a 80 milhas de distância.
+
+01:03.810 --> 01:09.525
+Então esta distância é 80 milhas.
+
+01:09.525 --> 01:21.780
+O limite de velocidade neste trecho
+da rodovia é 55 milhas por hora.
+
+01:21.780 --> 01:26.050
+Então a pergunta é:
+as autoridades podem provar
+
+01:26.050 --> 01:30.070
+que você ultrapassou
+o limite de velocidade?
+
+01:30.070 --> 01:31.510
+Vamos colocar isso no gráfico.
+
+01:31.510 --> 01:33.780
+Acho que você sabe onde vamos chegar.
+
+01:33.780 --> 01:35.040
+Vamos colocar no gráfico.
+
+01:35.040 --> 01:38.630
+Este aqui é nossa posição.
+
+01:38.630 --> 01:42.670
+Vou chamar de eixo s, s para posição.
+
+01:42.670 --> 01:45.480
+Isso está em milhas.
+
+01:45.480 --> 01:49.280
+s não significa posição,
+
+01:49.280 --> 01:52.360
+mas p parece rô para densidade,
+
+01:52.360 --> 01:55.840
+e d usamos para diferenciais,
+distância e deslocamento.
+
+01:55.840 --> 02:01.440
+s é normalmente usado para posição.
+
+02:01.440 --> 02:03.670
+Digamos que s é nossa posição,
+
+02:03.670 --> 02:09.030
+este é t para tempo.
+
+02:09.030 --> 02:12.110
+E digamos que este está em horas.
+
+02:12.110 --> 02:22.550
+Nos importamos com o intervalo
+de tempo 1 a tempo 2.
+
+02:22.560 --> 02:25.730
+Não estou desenhando os eixos
+completamente na escala.
+
+02:25.730 --> 02:34.960
+Vou supor que há um intervalo aqui
+só porque eu não quero que você pense
+
+02:34.960 --> 02:37.301
+que estou desenhando
+completamente na escala.
+
+02:37.301 --> 02:39.800
+Porque quero focar
+nesta parte do intervalo.
+
+02:39.800 --> 02:43.210
+Este tempo é igual a duas horas.
+
+02:43.210 --> 02:48.375
+No tempo igual a um você está bem aqui.
+
+02:48.375 --> 02:53.670
+Digamos que esta posição é,
+vamos chamar isto de s de um.
+
+02:53.670 --> 02:59.885
+E no tempo dois você está
+nesta posição aqui.
+
+02:59.885 --> 03:02.200
+Você está bem aqui.
+
+03:02.200 --> 03:06.860
+Sua posição é s de dois.
+
+03:06.860 --> 03:09.460
+Você está naquela coordenada lá.
+
+03:09.460 --> 03:12.539
+E só sabemos isso.
+
+03:12.539 --> 03:14.605
+Sabemos algumas outras coisas,
+
+03:14.605 --> 03:17.310
+a nossa mudança de tempo é dois menos um.
+
+03:17.310 --> 03:24.750
+Sabemos qual é nossa mudança de posição.
+
+03:24.750 --> 03:34.990
+É igual a s de dois menos s de um
+que é igual a 80 milhas.
+
+03:35.000 --> 03:37.725
+A mudança de posição é 80 milhas.
+
+03:37.725 --> 03:41.230
+Vou escrever isto. Para facilitar,
+suponhamos que esta rodovia era reta.
+
+03:41.230 --> 03:44.220
+Nossa mudança de distância
+é a mesma na mudança de posição
+
+03:44.220 --> 03:46.260
+mesma que na mudança de deslocamento.
+
+03:46.260 --> 03:51.365
+Então este é 80 milhas.
+
+03:51.365 --> 03:55.640
+Qual é nossa mudança de tempo?
+Sobre nossa mudança de tempo
+
+03:55.640 --> 04:03.135
+que vai ser dois menos um,
+
+04:03.135 --> 04:08.345
+que vai ser uma hora.
+Sobre uma hora.
+
+04:08.345 --> 04:13.930
+Ou podemos dizer que a inclinação
+da linha que liga estes dois pontos--
+
+04:13.930 --> 04:17.670
+vou fazer isto de outra cor--
+
+04:17.670 --> 04:30.900
+--a inclinação desta linha aqui
+é 80 milhas por hora.
+
+04:30.900 --> 04:37.720
+Ou nossa velocidade média durante
+aquela hora era 80 milhas por hora.
+
+04:37.720 --> 04:40.180
+As autoridades poderiam
+fazer isso em um tribunal.
+
+04:40.180 --> 04:43.630
+Nunca ouvi um teorema matemático
+citado assim, mas eles poderiam.
+
+04:43.630 --> 04:46.170
+Me lembro de ter lido
+sobre isso uns 10 anos atrás,
+
+04:46.170 --> 04:47.540
+e foi muito controverso.
+
+04:47.540 --> 04:50.110
+As autoridades disseram
+olhe: durante este intervalo,
+
+04:50.110 --> 04:53.360
+sua velocidade média foi
+80 milhas por hora.
+
+04:53.360 --> 04:56.760
+Então em algum ponto que aquela hora--
+e eles poderiam ter citado,
+
+04:56.760 --> 04:59.500
+eles poderiam ter dito:
+pelo teorema de valor médio--
+
+04:59.500 --> 05:02.280
+em algum ponto naquela hora,
+provavelmente você
+
+05:02.280 --> 05:07.887
+estava indo exatamente
+a 80 milhas por hora,
+
+05:07.887 --> 05:13.200
+E seria muito difícil provar o contrário
+porque sua posição em função do tempo
+
+05:13.200 --> 05:16.880
+é definitivamente contínua e diferenciável
+durante aquele intervalo
+
+05:16.890 --> 05:20.630
+É contínuo. Você não está sendo
+teletransportado de um lugar para outro.
+
+05:20.630 --> 05:22.520
+Este seria um carro incrível.
+
+05:22.520 --> 05:26.500
+E também é diferenciável.
+Você sempre tem uma velocidade definida.
+
+05:26.500 --> 05:28.790
+E então eu desafio a qualquer um.
+
+05:28.790 --> 05:32.550
+Tente ligar estes dois pontos com
+uma curva contínua e diferenciável,
+
+05:32.550 --> 05:35.760
+onde em algum ponto
+a velocidade instantânea,
+
+05:35.760 --> 05:38.640
+a inclinação da linha tangente,
+não é a mesma coisa que
+
+05:38.640 --> 05:40.050
+a inclinação desta linha.
+
+05:40.050 --> 05:41.370
+É impossível.
+
+05:41.370 --> 05:43.730
+O teorema de valor médio
+nos diz que é impossível.
+
+05:43.730 --> 05:45.030
+Então vou desenhar.
+
+05:45.030 --> 05:50.030
+Vamos imaginar que eu
+tivesse que parar para pagar,
+
+05:50.030 --> 05:54.470
+para registrar onde eu estou
+na rodovia, então acelero um pouco.
+
+05:54.470 --> 05:59.460
+Neste momento minha velocidade instantânea
+é menor que minha velocidade média.
+
+05:59.460 --> 06:02.550
+Estou acelerando.
+A inclinação da linha tangente.
+
+06:02.550 --> 06:05.710
+Mas se eu quiser chegar lá naquele tempo,
+
+06:05.710 --> 06:09.900
+principalmente porque desacelero
+conforme eu me aproximo do pedágio.
+
+06:09.904 --> 06:12.320
+A única forma de conectar
+estas duas coisas
+
+06:12.320 --> 06:14.695
+em algum ponto, neste ponto,
+
+06:14.695 --> 06:17.360
+Eu estou indo mais rápido que
+80 milhas por hora.
+
+06:17.360 --> 06:19.710
+E o teorema de valor médio nos diz que,
+
+06:19.710 --> 06:23.000
+esta função é contínua e diferenciável
+durante este intervalo.
+
+06:23.010 --> 06:26.580
+Contínua neste intervalo fechado.
+Diferenciável neste intervalo aberto.
+
+06:26.580 --> 06:30.680
+Que tem pelo menos um ponto
+no intervalo aberto, que se chama c
+
+06:30.680 --> 06:34.810
+então tem pelo menos um ponto onde
+sua taxa instantânea de mudança,
+
+06:34.810 --> 06:39.200
+onde a inclinação da linha tangente é
+igual à inclinação da linha secante.
+
+06:39.200 --> 06:43.106
+Então aquele ponto ali,
+parece com aquele ali.
+
+06:43.106 --> 06:47.120
+Se este é tempo c que parece
+em torno de uma e quinze,
+
+06:47.120 --> 06:52.190
+o teorema de valor médio diz que
+em algum ponto existe algum tempo
+
+06:52.190 --> 06:59.920
+onde s linha de c é igual
+à velocidade média,
+
+06:59.920 --> 07:02.356
+é igual a 80 milhas por hora.
+
+07:02.356 --> 07:04.620
+E parece que ele não é o único
+
+07:04.620 --> 07:10.280
+este aqui também poderia
+ser um candidato para c.
+
+07:10.280 --> 07:12.000
+Legendado por: Rosana Cabral

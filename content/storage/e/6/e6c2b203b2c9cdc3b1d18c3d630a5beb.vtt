@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.952 --> 00:05.000
+Problema nº 1. Num tempo t, uma particula se movendo no plano x-y
+
+00:05.000 --> 00:09.800
+está em uma posição (x(t), y(t), onde x(t) e y(t)
+
+00:09.800 --> 00:11.502
+não são fornecidos de maneira explicita.
+
+00:11.764 --> 00:14.141
+Para t maior ou igual a zero,
+
+00:14.141 --> 00:17.390
+a derivada of x em relação a t é 4t+1
+
+00:17.667 --> 00:21.797
+a derivada de y em relação a t é sin(t^2)
+
+00:21.797 --> 00:26.240
+e no tempo t=0, x(0)=0 e y(0)=-4
+
+00:26.378 --> 00:28.800
+Tudo bem, vamos fazer a parte a.
+
+00:28.800 --> 00:33.610
+Ache a velocidade da partícula no tempo t=3,
+
+00:33.825 --> 00:37.067
+e ache o vetor aceleração da partícula no
+
+00:37.067 --> 00:40.533
+tempo t igual a 3 também.
+
+00:40.533 --> 00:45.333
+Então, a velocidade é realmente a magnitude do vetor velocidade.
+
+00:45.333 --> 00:47.137
+Então, o que é o vetor velocidade?
+
+00:47.137 --> 00:50.979
+Nosso vetor velocidade como uma função do tempo
+
+00:50.979 --> 00:55.890
+vai ser igual à derivada da nossa posição x
+
+00:55.890 --> 00:59.467
+como uma função do tempo, ou poderíamos dizer velocidade na direção x
+
+00:59.467 --> 01:06.887
+vezes o vetor unitário i, mais a velocidade na direção y vezes o vetor unitário j.
+
+01:06.887 --> 01:08.383
+Eu apenas escrevi isto em notação de engenharia,
+
+01:08.383 --> 01:12.307
+obviamente há muitas outras formas que você poderia especificar um vetor.
+
+01:12.307 --> 01:15.800
+E, neste caso, x´(t), eles já nos deram isto:
+
+01:15.800 --> 01:18.000
+x'(t) é 4t+1
+
+01:18.000 --> 01:20.333
+eles apenas escreveram-na como dx/dt
+
+01:20.333 --> 01:27.005
+Então, isso bem aqui é 4t +1 vezes o vetor unitário i,
+
+01:27.005 --> 01:31.467
+e então isto aqui, isto y'(t), eles nos deram
+
+01:31.467 --> 01:33.933
+a derivada de i em relação a t é sen(t^2)
+
+01:33.933 --> 01:41.800
+Então, mais seno(t^2) vezes o vetor unitário j.
+
+01:41.800 --> 01:46.502
+Aquilo é nosso vetor velocidade. Então qual é nossa velocidade
+
+01:46.502 --> 01:49.134
+ou isto é nosso vetor velocidade como uma função do tempo,
+
+01:49.134 --> 01:53.185
+Então qual é nossa velocidade no tempo t=3?
+
+01:53.400 --> 02:01.000
+Bem, nós apenas temos que substituir 3 por t, então 4(3)+1 é 13i.
+
+02:01.123 --> 02:11.216
+Mais 3 ao quadrado - 3 ao quadrado é 9 - seno de 9. Mais seno9j.
+
+02:11.216 --> 02:15.000
+Nossa velocidade, que eles querem que achemos vai ser
+
+02:15.000 --> 02:20.200
+igual a - ou talvez Eu devesse escrevê-lo como nossa velocidade no tempo t 3.
+
+02:20.200 --> 02:26.400
+- nossa velocidade vai ser igual à magnitude de nosso vetor velocidade no tempo t igual a 3,
+
+02:26.400 --> 02:34.933
+que é igual à magnitude de 13i+(seno9)j.
+
+02:34.933 --> 02:40.133
+E então isto nós literalmente, isto é, nós usamos essencialmente o Teorema de Pitágoras.
+
+02:40.133 --> 02:41.133
+para achar a magnitude.
+
+02:41.133 --> 02:47.400
+Isto vai ser igual à raiz quadrada de 169 (que é 13 ao quadrado)
+
+02:47.400 --> 02:55.746
+mais (seno9)^2. Então deixe-me pegar minha TI-85.
+
+02:55.961 --> 03:00.048
+Esta parte do teste nós permitimos o uso de calculadoras.
+
+03:00.048 --> 03:15.058
+Então obtemos a raiz quadrada de 169+(seno9)^2
+
+03:15.535 --> 03:18.608
+Tudo bem, aquilo é 13 ao quadrado mais seno(9) ao quadrado.
+
+03:18.885 --> 03:24.133
+E, obtemos - nós obtemos 13.00 - Eu arredondarei para 7,
+
+03:24.133 --> 03:27.513
+apenas para mostrar que não obtivemos apenas em linha reta até 13,
+
+03:27.513 --> 03:30.067
+que o quadrado de seno(9) realmente fazia algo.
+
+03:30.067 --> 03:33.255
+Então 13.007.
+
+03:33.255 --> 03:38.384
+Logo isto é aproximadamente igual a 13.007.
+
+03:38.384 --> 03:40.381
+Logo respondemos à primeira parte.
+
+03:40.381 --> 03:45.200
+A velocidade da partícula no tempo t=3 é 13.007.
+
+03:45.200 --> 03:49.933
+Então eles querem que nós encontremos o vetor aceleração da partícula no tempo t=3.
+
+03:49.933 --> 03:58.214
+Então, o vetor aceleração como uma função do tempo será justamente a segunda derivada de x.
+
+03:58.214 --> 04:01.733
+com relação a t, or você diria a aceleração na direção x
+
+04:01.733 --> 04:06.769
+como uma função como uma função do tempo vezes i, mais a aceleração na direção y.
+
+04:06.769 --> 04:11.472
+Então, é a segunda derivada de y em relação a t na direção j.
+
+04:11.472 --> 04:14.676
+E isto, naturalmente, está apenas indo ser igual a
+
+04:14.676 --> 04:19.800
+a derivada de x de - a derivada de x - a segunda derivada de x(t) é simplesmente a derivada de
+
+04:19.800 --> 04:23.667
+a primeira derivada. Então a primeira derivada é 4t+1,
+
+04:23.667 --> 04:25.892
+você tem a derivada daquilo, você simplesmente obtém 4.
+
+04:26.215 --> 04:34.067
+Logo, obtemos 4i mais ... a então a derivada- a segunda derivada, ou a segunda derivada de y em relação a t
+
+04:34.067 --> 04:35.733
+é simplesmente a derivada da primeira derivada.
+
+04:35.733 --> 04:39.963
+A derivada- a primneira derivada é sin(t^2), logo
+
+04:39.963 --> 04:48.554
+derivada do que está indo ser 2t*cos(t^2), e naturalmente temos nosso j.
+
+04:48.554 --> 04:52.400
+Temos nosso j bem ali e Eu apenas fiz isto a partir da regra da cadeia.
+
+04:52.400 --> 04:58.533
+A derivada de t^2 em relação a t é 2t,
+
+04:58.533 --> 05:04.733
+derivada do sin(t^2) em relação a t^2 é cos(t^2).
+
+05:04.733 --> 05:08.440
+E então aquele é vector aceleração em função do t.
+
+05:08.440 --> 05:11.400
+mas eles se preocupam no tempo t é igual a 3.
+
+05:11.400 --> 05:17.795
+Então, 4 ainda permanece 4, então você tem 2(3)+cos(9).
+
+05:17.795 --> 05:21.733
+Então deixe-me escrever isto, isto vai ser nosso vetor aceleração
+
+05:21.733 --> 05:24.667
+nosso vetor aceleração no tempo 3 vai ser
+
+05:24.667 --> 05:32.733
+4i mais ... e vamos apenas colocar, se isto for 2 vezes 3, que é 6 ...
+
+05:35.225 --> 05:38.547
+(6cos9)j.
+
+05:38.547 --> 05:42.575
+Vamos pegar a calculadora para que realmente obtenhamos um valor aqui
+
+05:42.575 --> 05:45.242
+uma vez que eles nos permitiram utilizar ou quase querem que usemos uma calculadora aqui.
+
+05:45.242 --> 05:56.133
+Logo, 6cos9 é negativo 5.47, or 5.467 se quisermos.
+
+05:56.133 --> 06:02.400
+Então, mais negativo - oh, o que eu estava fazendo, isto é j
+
+06:02.400 --> 06:08.333
+-então mais -5.467j
+
+06:08.333 --> 06:09.867
+Logo aquele é nosso vetor aceleração.
+
+06:09.867 --> 06:12.410
+E uma vez mais, Eu escrevi em notação de engenharia.
+
+06:12.410 --> 06:15.800
+(que estou certo de que as pessoas não se importariam com os exames avançados)
+
+06:15.800 --> 06:17.733
+mas você poderia também escrevê-lo num tipo de
+
+06:20.102 --> 06:23.533
+notação parametrizada do vetor ou sua notação em par ordenado como um vetor
+
+06:23.533 --> 06:27.733
+você poderia dizer que o vetor aceleração no tempo t igual a 3
+
+06:27.733 --> 06:29.067
+você poderia escrevê-lo desta maneira também.
+
+06:29.067 --> 06:33.369
+&lt;4, -5.467>
+
+06:33.369 --> 06:34.933
+Estes estão mesmo especificando a mesma coisa.
+
+06:34.933 --> 06:36.133
+Istos é a componente x do vetor,
+
+06:36.133 --> 06:38.000
+isto é a componente y do vetor.
+
+06:38.000 --> 06:39.221
+Isto é a componente x do vetor.
+
+06:39.221 --> 06:41.817
+isto é a componente y do vetor.

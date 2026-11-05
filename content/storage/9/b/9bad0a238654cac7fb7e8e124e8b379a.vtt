@@ -1,0 +1,721 @@
+WEBVTT
+
+00:00.000 --> 00:03.060
+Představme si nějaký útes.
+
+00:03.060 --> 00:10.310
+Řekněme, že tento útes
+bude 50 metrů vysoký.
+
+00:10.310 --> 00:12.940
+Na tomto útesu mějme auto.
+
+00:12.940 --> 00:16.686
+Auto na útesu nebude jen
+stát, ono z něj pojede.
+
+00:16.686 --> 00:18.310
+Zní to jako dramatická zápletka.
+
+00:18.310 --> 00:20.860
+Máme tu auto.
+
+00:20.860 --> 00:30.060
+Pojedeme s ním rychlostí
+5 metrů za sekundu.
+
+00:30.060 --> 00:35.110
+Naším úkolem je zjistit, jakou trajektorii
+bude naše auto při pádu opisovat.
+
+00:35.110 --> 00:37.860
+Pojďme si k obrázku
+nakreslit souřadnicové osy.
+
+00:37.860 --> 00:47.480
+Tady máme svislou osu y.
+
+00:47.480 --> 00:53.266
+A zde vodorovnou osu x.
+
+00:53.266 --> 00:56.590
+Tady je tedy osa y, tady osa x.
+
+00:56.590 --> 00:59.790
+To, že útes je 50 metrů vysoký,
+již víme ze zadání.
+
+00:59.790 --> 01:02.760
+Nulová hodnota na ose y
+je ve výšce hladiny moře.
+
+01:02.760 --> 01:06.280
+Takže v tomto bodě dosahuje hodnoty 50.
+
+01:06.280 --> 01:12.820
+V tomto bodě na útesu
+je hodnota x rovna 10.
+
+01:12.820 --> 01:15.840
+Tento konkrétní bod má
+tedy souřadnice [10; 50].
+
+01:15.840 --> 01:20.200
+Řekněme, že v tomto bodě
+bude auto sjíždět z útesu.
+
+01:20.200 --> 01:21.840
+Čas je rovný 0.
+
+01:21.840 --> 01:28.070
+Napíšeme, že t se rovná 0.
+
+01:28.070 --> 01:29.890
+Proměnná t označuje čas.
+
+01:29.890 --> 01:31.830
+Čas je roven 0.
+
+01:31.830 --> 01:35.680
+Má otázka zní: co se stane
+s autem, když sjede z onoho útesu?
+
+01:35.680 --> 01:37.350
+Tohle trochu
+zasahuje do fyziky.
+
+01:37.350 --> 01:41.240
+Nebudu zde dokazovat
+platnost fyzikálních vzorečků.
+
+01:41.240 --> 01:45.310
+Doporučuji vám, abyste se podívali
+na videa z oblasti kinematiky,
+
+01:45.310 --> 01:47.360
+abyste věděli, odkud ty
+vzorečky pocházejí.
+
+01:47.360 --> 01:51.520
+Zde nám jde pouze o to,
+abychom dané vzorce aplikovali.
+
+01:51.520 --> 01:59.080
+Závislost na čase...
+
+01:59.080 --> 02:02.440
+Žlutá barva snad
+bude dobře vidět.
+
+02:02.440 --> 02:04.430
+...bude vypadat jak?
+
+02:04.430 --> 02:08.080
+Předpokládejme, že žijeme na
+planetě, která nemá atmosféru.
+
+02:08.080 --> 02:09.180
+Jsme tedy ve vakuu.
+
+02:09.180 --> 02:13.020
+Vyjedeme z bodu x směrem doprava
+s rychlostí 5 metrů za sekundu.
+
+02:13.020 --> 02:16.400
+Nebudeme zpomalováni
+žádným působením větru.
+
+02:16.400 --> 02:17.950
+Newtonův zákon o pohybu:
+
+02:17.950 --> 02:21.560
+jestliže na těleso nepůsobí žádné
+vnější síly nebo výslednice sil je nulová,
+
+02:21.560 --> 02:25.330
+pak těleso setrvává v klidu nebo
+v rovnoměrném přímočarém pohybu.
+
+02:25.330 --> 02:27.690
+V našem případě je výslednice sil nulová.
+
+02:27.690 --> 02:31.050
+Auto se bude neustále pohybovat
+rychlostí 5 metrů za sekundu.
+
+02:31.050 --> 02:35.270
+Ze vzorce víme, že vzdálenost
+se rovná rychlost krát čas.
+
+02:35.270 --> 02:39.840
+Naše rychlost je
+5 metrů za sekundu.
+
+02:39.840 --> 02:44.190
+Vzdálenost jsme na ose
+x nezačali měřit od hodnoty 0.
+
+02:44.190 --> 02:45.390
+Čas se rovná 0.
+
+02:45.390 --> 02:47.200
+Vše začíná
+v hodnotě x rovno 10.
+
+02:47.200 --> 02:52.360
+Takže v naší funkci
+přičteme hodnotu 10.
+
+02:52.360 --> 02:55.070
+Tohle by už mělo
+být lehce intuitivní, ne?
+
+02:55.070 --> 02:59.590
+Když je čas roven 0, vyjde nám, že
+výsledná hodnota je 10 (5 krát 0 plus 10).
+
+02:59.590 --> 03:00.670
+To dává smysl.
+
+03:00.670 --> 03:04.790
+V případě, že čas bude roven 1,
+posuneme se o 5 metrů dál.
+
+03:04.810 --> 03:06.440
+Tomu je snad
+dobře rozumět.
+
+03:06.440 --> 03:10.370
+Funkci pro vzdálenost
+v závislosti na čase máme hotovou.
+
+03:10.370 --> 03:14.920
+Už vám asi došlo, že video se zaměřuje
+na parametrické rovnice, ne na fyziku.
+
+03:14.920 --> 03:23.070
+Přichází tedy vhodná doba si
+osvětlit, co vlastně ten parametr je.
+
+03:23.080 --> 03:27.730
+Často je parametrem
+v parametrických úlohách právě čas.
+
+03:27.730 --> 03:28.960
+Ale může jím být cokoliv.
+
+03:28.960 --> 03:33.310
+Parametrem může být poloměr,
+velikost úhlu, tedy skutečně cokoliv.
+
+03:33.310 --> 03:36.970
+Pojďme zjistit, jak se
+chová y jako funkce času.
+
+03:36.970 --> 03:46.450
+Takže y jako funkce času bude
+v počáteční pozici rovno 50.
+
+03:46.450 --> 03:50.860
+Jsme 50 metrů
+nad hladinou moře.
+
+03:50.860 --> 03:54.230
+Přičteme k tomu počáteční
+rychlost ve směru osy y.
+
+03:54.230 --> 03:56.990
+Takovou však
+nemáme.
+
+03:56.990 --> 03:59.430
+Auto se nepotápí,
+ani neskáče.
+
+03:59.430 --> 04:02.060
+Prostě se normálně
+pohybuje zleva doprava.
+
+04:02.060 --> 04:04.180
+Útes toto auto udržuje
+v horizontální poloze,
+
+04:04.180 --> 04:06.070
+takže ve směru osy y
+nemáme rychlost.
+
+04:06.070 --> 04:09.490
+Kdyby nějaká existovala, spočítala
+by se jako rychlost krát čas.
+
+04:09.490 --> 04:12.820
+Protože ale neexistuje žádná
+rychlost ve směru nahoru či dolů,
+
+04:12.820 --> 04:14.510
+nepřidáme tam už nic.
+
+04:14.510 --> 04:21.400
+Plus gravitační zrychlení krát
+čas na druhou lomeno dvěma.
+
+04:21.400 --> 04:23.370
+Potřebujeme zjistit
+průběh funkce sinus.
+
+04:23.370 --> 04:26.790
+Je určitě užitečné
+se dotknout i základů fyziky,
+
+04:26.790 --> 04:28.475
+abyste věděli, odkud
+vzorce pochází,
+
+04:28.475 --> 04:32.920
+a co bylo vlastně motivací pro využití
+parametrických rovnicí pro tento příklad.
+
+04:32.920 --> 04:35.750
+Gravitace v tomto
+případě směrem dolů.
+
+04:35.750 --> 04:41.050
+Směr dolů znamená v jazyce
+souřadnic minus y, tedy y se snižuje.
+
+04:41.050 --> 04:48.080
+Gravitační zrychlení je zhruba
+9,8 metrů za sekundu na druhou.
+
+04:48.080 --> 04:50.004
+Abychom však příklad
+zjednodušili úplně,
+
+04:50.004 --> 04:54.250
+budeme uvažovat hodnotu 10
+metrů za sekundu na druhou.
+
+04:54.250 --> 04:57.644
+Každá věc na naší planetě bude
+takto zrychlovat směrem k Zemi.
+
+04:57.644 --> 05:01.510
+Protože jsme ve vakuu, předpokládejme, že
+naše fiktivní planeta je těžší než Země.
+
+05:01.510 --> 05:05.170
+Směr zrychlení jde dolů, je tedy pro
+souřadnicový systém záporný.
+
+05:05.170 --> 05:07.900
+Vzorec pro počáteční
+pozici napíšeme následovně:
+
+05:07.900 --> 05:10.870
+nulová rychlost krát čas se
+rovná nula, tu nepíšeme,
+
+05:10.870 --> 05:15.600
+minus 10 krát 't' na
+druhou děleno 2.
+
+05:15.600 --> 05:18.310
+Pro objasnění, kde se
+vzaly takové vzorce,
+
+05:18.310 --> 05:21.640
+se podívejte na videa
+z oboru kinematiky.
+
+05:21.640 --> 05:22.760
+O to zde ale nejde.
+
+05:22.760 --> 05:27.610
+My chceme grafem znázornit pohyb auta a
+naučit se něco o parametrických rovnicích.
+
+05:27.610 --> 05:32.170
+Jak bude vypadat trajektorie
+auta padajícího z útesu?
+
+05:32.170 --> 05:40.600
+Uděláme si tabulku.
+
+05:40.600 --> 05:44.980
+'x' a 'y' jsou funkcí třetího
+parametru, času 't'.
+
+05:44.980 --> 05:47.790
+Budeme za proměnnou 't'
+volit různé hodnoty
+
+05:47.790 --> 05:49.700
+a podle toho dopočítáme 'x' a 'y'.
+
+05:49.700 --> 05:51.460
+Výběr můžeme provést
+vcelku náhodně.
+
+05:51.460 --> 05:53.030
+'t' se rovná 0.
+
+05:53.030 --> 05:56.560
+A také případy pro 't'
+se rovná 1, 2 a 3.
+
+05:56.560 --> 05:58.970
+Když se čas rovná 0,
+kolik bude 'x'?
+
+05:58.970 --> 06:04.750
+'x' bude rovno 10 metrům.
+
+06:04.750 --> 06:06.850
+Když se čas rovná 1,
+kolik bude 'x'?
+
+06:06.850 --> 06:09.110
+Funkční hodnota v jedničce.
+
+06:09.110 --> 06:10.560
+To přesně znamená tento zápis.
+
+06:10.560 --> 06:15.470
+5 krát 1 je 5,
+5 plus 10 je 15.
+
+06:15.470 --> 06:16.920
+Funkční hodnota ve dvojce?
+
+06:16.920 --> 06:20.350
+5 krát 2 plus 10
+je dohromady 20.
+
+06:20.350 --> 06:21.480
+To přeci dává smysl.
+
+06:21.480 --> 06:24.625
+Každou sekundu se
+posouváme o 5 metrů doprava.
+
+06:24.625 --> 06:26.420
+Hodnota 'x' tedy
+narůstá o 5 metrů.
+
+06:26.420 --> 06:30.890
+Když je čas roven 3,
+výsledek funkce bude 25.
+
+06:30.890 --> 06:31.800
+Jednoduché.
+
+06:31.800 --> 06:33.720
+Pro 'y' to bude o něco složitější.
+
+06:33.720 --> 06:37.330
+Zde to můžeme zkrátit,
+snad to vidíte.
+
+06:37.330 --> 06:38.550
+10 děleno 2 je 5.
+
+06:38.550 --> 06:41.150
+Pro první případ máme
+50 minus 5 krát 't' na druhou.
+
+06:41.150 --> 06:44.210
+Čas se ale v tomto
+případě rovná 0.
+
+06:44.210 --> 06:47.310
+Výsledek je tedy 50.
+
+06:47.310 --> 06:52.940
+V čase rovném 1 máme 1
+na druhou krát 5, to je 5.
+
+06:52.940 --> 06:58.135
+50 minus 5 je 45.
+
+06:58.135 --> 07:02.910
+V čase 1 tedy budeme
+45 metrů nad mořem.
+
+07:02.910 --> 07:03.730
+Jdeme dál.
+
+07:03.730 --> 07:07.880
+Pro další případ máme
+2 na druhou, to se rovná 4.
+
+07:07.880 --> 07:10.100
+4 krát 5 je 20.
+
+07:10.100 --> 07:12.980
+50 minus 20 je 30.
+
+07:12.980 --> 07:19.570
+Pro poslední případ, který
+jsme si zvolili, se čas rovná 3.
+
+07:19.570 --> 07:21.200
+3 na druhou je 9.
+
+07:21.200 --> 07:23.280
+9 krát 5 je 45.
+
+07:23.280 --> 07:26.170
+50 minus 45 je 5.
+
+07:26.170 --> 07:28.810
+Pojďme si výsledky
+vyznačit do grafu.
+
+07:28.810 --> 07:30.380
+Začneme případem 't' se rovná 0.
+
+07:30.380 --> 07:32.530
+Bod bude tady.
+
+07:32.530 --> 07:35.050
+Pro čas roven
+1 máme 'x' rovno 15.
+
+07:35.050 --> 07:44.380
+Zpřesníme si osu 'x':
+5, 10, 15, 20, 25...
+
+07:44.380 --> 07:47.600
+To samé uděláme pro osu 'y'.
+
+07:47.600 --> 07:53.200
+10, 20, 30, 40, 50.
+
+07:53.200 --> 07:55.770
+Pro čas rovný 0 nám vychází
+bod o souřadnicích 10, 50.
+
+07:55.770 --> 07:57.040
+To je tady.
+
+07:57.040 --> 07:59.700
+Pro čas rovný 0
+vychází bod 15, 45.
+
+07:59.700 --> 08:04.200
+'x' je 15, 'y' je 45,
+to je zhruba tady.
+
+08:04.200 --> 08:08.550
+To je výsledný bod
+pro druhý případ.
+
+08:08.550 --> 08:15.070
+Pro třetí případ vychází
+bod o souřadnicích 20, 30.
+
+08:15.070 --> 08:16.890
+To je zhruba tady.
+
+08:16.890 --> 08:20.480
+Už máme tři body,
+zbývá poslední.
+
+08:20.480 --> 08:24.170
+Pro čas rovný 3 vychází
+bod o souřadnicích [25; 5].
+
+08:24.170 --> 08:29.840
+To je tady.
+
+08:29.840 --> 08:32.730
+Když bychom pokračovali, dostali
+bychom se s autem až na zem.
+
+08:32.730 --> 08:36.600
+Přesný bod nárazu lze spočítat, postavíme
+'y' rovné nule a dopočteme zbytek.
+
+08:36.600 --> 08:37.720
+Pojďme do toho.
+
+08:37.720 --> 08:42.130
+Pokud se levá strana rovná 0,
+dostaneme 't' rovno odmocnině z 10.
+
+08:42.130 --> 08:43.500
+To je něco přes 3 sekundy.
+
+08:43.500 --> 08:44.830
+To dává smysl, že?
+
+08:44.830 --> 08:47.220
+Něco přes 3 sekundy
+a auto dopadne na zem.
+
+08:47.220 --> 08:48.940
+Ale jaká je
+trajektorie pádu auta?
+
+08:48.940 --> 08:53.610
+Bude vypadat
+asi následovně.
+
+08:53.610 --> 08:57.510
+Padá čím dál rychleji
+a rychleji... a BUM!
+
+08:57.510 --> 09:00.830
+Dotkne se země za 3
+sekundy a nějaké drobné.
+
+09:00.830 --> 09:02.410
+Je docela zajímavé,
+
+09:02.410 --> 09:06.600
+že změnou parametru jsme
+nezískali jen samotnou křivku, že?
+
+09:06.600 --> 09:11.460
+Dostali jsme křivku,
+konkrétně poloviční parabolu,
+
+09:11.470 --> 09:14.980
+a mohli jsme vytknout 't' a
+dostat tak rovnici oné paraboly.
+
+09:14.980 --> 09:16.480
+To uděláme v dalších videích.
+
+09:16.480 --> 09:20.310
+Zajímavé však je, že parametrizováním
+problému jsme získali směr pohybu auta.
+
+09:20.310 --> 09:22.700
+Kdybyste viděli jen
+tenhle graf bez auta,
+
+09:22.700 --> 09:24.800
+neurčili byste odkud
+kam se auto pohybuje.
+
+09:24.800 --> 09:27.850
+Když ale víme, že 't' se zvyšuje,
+posouváme se v tomto směru.
+
+09:27.850 --> 09:30.500
+Můžeme zde nakreslit nějaké šipky.
+
+09:30.500 --> 09:33.600
+Protože jde o parametrickou rovnici,
+můžeme sem dokreslit šipky.
+
+09:33.600 --> 09:38.910
+Ale tou nejpodstatnější věcí je fakt,
+že známe polohu auta v jakémkoli okamžiku.
+
+09:38.910 --> 09:42.210
+Můžete si zvolit například
+čas rovný 1,25, dosadíte
+
+09:42.210 --> 09:44.520
+a máte polohu
+auta v daném čase.
+
+09:44.520 --> 09:46.280
+Můžete si všechny
+body vynést do grafu
+
+09:46.280 --> 09:51.250
+a jistě vědět, že s postupem
+času auto zrychleně klesá dolů.
+
+09:51.250 --> 09:52.620
+To je samozřejmě důvod,
+
+09:52.620 --> 09:58.020
+proč 'y' souřadnice klesá
+s postupem času rychleji.
+
+09:58.020 --> 10:00.520
+Tento příklad jsem vám
+chtěl ukázat z jednoho důvodu.
+
+10:00.520 --> 10:02.710
+Ačkoli se jedná
+o zajímavý fyzikální problém,
+
+10:02.710 --> 10:04.245
+nechtěl jsem vás učit fyziku.
+
+10:04.245 --> 10:06.880
+Motivací bylo ukázat
+vám dobrý příklad toho,
+
+10:06.880 --> 10:13.490
+proč vlastně parametrické
+rovnice existují.
+
+10:13.490 --> 10:16.390
+Tyto dvě věci jsou
+parametrické rovnice:
+
+10:16.390 --> 10:22.370
+definovali jsme 'x' a 'y' jako
+funkce třetího parametru 't',
+
+10:22.370 --> 10:26.260
+místo toho, abychom
+definovali 'y' podle 'x' a naopak.
+
+10:26.260 --> 10:28.250
+Tak jsme to dělali dříve.
+
+10:28.250 --> 10:29.240
+Toto je užitečné.
+
+10:29.240 --> 10:31.825
+Představte si, že řešíte
+těžký fyzikální problém,
+
+10:31.825 --> 10:34.700
+kde chcete ve 3D prostoru
+zjistit polohu nějakého objektu.
+
+10:34.700 --> 10:39.320
+Pak máte 'x' jako funkci času, 'y' jako
+funkci času a 'z' jako funkci času.
+
+10:39.320 --> 10:42.272
+Pomocí parametrických
+rovnic lze řešit různé problémy,
+
+10:42.272 --> 10:44.020
+a to nejen z oblasti fyziky.
+
+10:44.030 --> 10:46.720
+Myslím si však, že nejlepší
+je začít řádnou motivací.
+
+10:46.720 --> 10:48.780
+Když jsem se učil
+o těchto rovnicích prvně,
+
+10:48.780 --> 10:54.630
+jsem nechápal, proč si ničit všechna
+protivná 'x' a 'y' dalším parametrem 't'?
+
+10:54.630 --> 10:55.450
+Tady máte důvod.
+
+10:55.450 --> 10:57.240
+Můžete zjistit
+trajektorii předmětů.
+
+10:57.240 --> 11:01.280
+Můžete zjistit směr objektu,
+který se pohybuje po křivce.
+
+11:01.280 --> 11:07.801
+Můžete zjistit přesnou pozici v jakémkoli
+čase, či jiné veličině.

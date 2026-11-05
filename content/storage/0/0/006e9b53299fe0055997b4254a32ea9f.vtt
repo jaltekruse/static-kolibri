@@ -1,0 +1,589 @@
+WEBVTT
+
+00:00.980 --> 00:03.232
+- [Instructor] So I have
+two curves graphed here.
+
+00:03.232 --> 00:06.405
+And we're used to seeing things
+where y is a function of x,
+
+00:06.405 --> 00:09.889
+but here we have x as a function of y.
+
+00:09.889 --> 00:12.554
+In fact, we can write this top expression
+
+00:12.554 --> 00:15.460
+as being a function of y.
+
+00:15.460 --> 00:17.890
+And this second one, just
+to make it different,
+
+00:17.890 --> 00:20.529
+we could view this as g of y.
+
+00:20.529 --> 00:23.352
+Once again, it is a function of y.
+
+00:23.352 --> 00:27.035
+And what we're concerning
+ourselves with in this video is
+
+00:27.035 --> 00:28.523
+how do we find this area
+
+00:28.523 --> 00:32.938
+in this light blue color
+between these two curves?
+
+00:32.938 --> 00:35.023
+And I encourage you to pause the video
+
+00:35.023 --> 00:37.674
+and try to work through it.
+
+00:37.674 --> 00:39.758
+All right, so a huge hint here is
+
+00:39.758 --> 00:43.044
+we're going to want to
+integrate with respect to y,
+
+00:43.044 --> 00:46.427
+a definite integral where
+our bounds are in terms of y.
+
+00:46.427 --> 00:47.933
+So for example, this is,
+
+00:47.933 --> 00:50.636
+this lower point of
+intersection right over here,
+
+00:50.636 --> 00:53.615
+this would be our lower
+bound in terms of y.
+
+00:53.615 --> 00:55.380
+Let's call that y one.
+
+00:55.380 --> 00:57.043
+And then,
+
+00:57.043 --> 01:00.771
+this up here, this would
+be our upper y bound.
+
+01:00.771 --> 01:04.183
+So if we think about where do
+these two curves intersect,
+
+01:04.183 --> 01:07.378
+and we look at the y-coordinates
+of those intersections,
+
+01:07.378 --> 01:10.671
+well, that gives us two nice
+bounds for our integral.
+
+01:10.671 --> 01:15.367
+So we're gonna take our
+integral from y one to y two,
+
+01:15.367 --> 01:16.200
+from y one
+
+01:17.697 --> 01:18.530
+to y two,
+
+01:20.692 --> 01:21.685
+y two.
+
+01:21.685 --> 01:26.167
+We're going to integrate
+with respect to y, dy.
+
+01:26.167 --> 01:29.054
+And so what are we going to sum up?
+
+01:29.054 --> 01:32.261
+Well, when we integrate,
+we can think about
+
+01:32.261 --> 01:35.639
+taking the sum of
+infinitely thin rectangles.
+
+01:35.639 --> 01:37.869
+And in this case, it would
+infinitely flat rectangles
+
+01:37.869 --> 01:40.279
+since we're thinking about dy.
+
+01:40.279 --> 01:43.963
+So dy would be the height
+of each of these rectangles.
+
+01:43.963 --> 01:46.770
+And what would be, in this case, the width
+
+01:46.770 --> 01:49.705
+or the length of this
+rectangle right over here?
+
+01:49.705 --> 01:53.042
+Well, over this interval,
+from y one to y two,
+
+01:53.042 --> 01:55.753
+our blue function, f of y,
+
+01:55.753 --> 01:59.108
+takes on larger x-values than g of y.
+
+01:59.108 --> 02:03.275
+So this length right over
+here, this would be f of y,
+
+02:04.520 --> 02:05.546
+f of y,
+
+02:05.546 --> 02:08.687
+this x-value minus this x-value,
+
+02:08.687 --> 02:09.770
+minus g of y.
+
+02:11.447 --> 02:13.864
+So this is going to be f of y
+
+02:15.295 --> 02:16.378
+minus g of y,
+
+02:17.716 --> 02:19.338
+g of y.
+
+02:19.338 --> 02:21.926
+Well, we know what f of y and g of y are.
+
+02:21.926 --> 02:23.044
+Really, the trickiest part is,
+
+02:23.044 --> 02:25.198
+is figuring out these
+points of intersection.
+
+02:25.198 --> 02:27.653
+So let's think about where
+these two curves intersect.
+
+02:27.653 --> 02:29.018
+They are both equal to x,
+
+02:29.018 --> 02:32.231
+so we can set these two y
+expressions equal to each other.
+
+02:32.231 --> 02:34.995
+So we know that negative,
+
+02:34.995 --> 02:36.540
+let me do it in that other color,
+
+02:36.540 --> 02:41.054
+so we know that negative
+y squared plus three y
+
+02:41.054 --> 02:44.388
+plus 11 is going to be equal to this,
+
+02:44.388 --> 02:47.684
+is going to be equal to y squared
+
+02:47.684 --> 02:48.517
+plus y
+
+02:50.158 --> 02:50.991
+minus one.
+
+02:51.870 --> 02:54.183
+So let's just subtract all
+of this from both sides
+
+02:54.183 --> 02:55.903
+so that on the right side we have a zero
+
+02:55.903 --> 02:58.298
+and on the left side we
+just have a quadratic.
+
+02:58.298 --> 03:00.452
+So let's subtract y squared.
+
+03:00.452 --> 03:01.854
+Let's subtract y.
+
+03:01.854 --> 03:06.189
+And then subtract negative
+one, which is just adding one.
+
+03:06.189 --> 03:08.485
+And over here, we're going
+to do the same thing,
+
+03:08.485 --> 03:10.151
+minus y plus one.
+
+03:10.151 --> 03:13.100
+And what we are left
+with is going to be a,
+
+03:13.100 --> 03:15.153
+hopefully, a straightforward quadratic.
+
+03:15.153 --> 03:19.524
+So let's see, this is going
+to be negative two y squared
+
+03:19.524 --> 03:20.441
+plus two y.
+
+03:21.795 --> 03:22.628
+Am I doing that right?
+
+03:22.628 --> 03:24.628
+Yep, plus two y, plus 12
+
+03:26.328 --> 03:27.745
+is equal to zero.
+
+03:29.095 --> 03:32.785
+And then this over here I can
+factor out a negative two,
+
+03:32.785 --> 03:36.838
+and I get negative two
+times y squared minus y
+
+03:36.838 --> 03:39.049
+minus six is equal to zero.
+
+03:39.049 --> 03:41.084
+This we can factor from inspection.
+
+03:41.084 --> 03:43.245
+What two numbers, when we
+add, equal negative one?
+
+03:43.245 --> 03:45.603
+When we take their product,
+we get negative six?
+
+03:45.603 --> 03:48.133
+Well, that would be
+negative three and two.
+
+03:48.133 --> 03:52.896
+So this is going to be negative
+two times y minus three
+
+03:52.896 --> 03:54.313
+times y plus two.
+
+03:55.811 --> 03:58.298
+That's just straightforward
+factoring a polynomial,
+
+03:58.298 --> 03:59.233
+a quadratic.
+
+03:59.233 --> 04:00.078
+Did I do that right?
+
+04:00.078 --> 04:02.491
+Yep, that looks right, is equal to zero.
+
+04:02.491 --> 04:04.368
+So what are the points of intersection?
+
+04:04.368 --> 04:07.156
+The points of intersection are going to be
+
+04:07.156 --> 04:11.323
+y is equal to three and y
+is equal to negative two.
+
+04:13.306 --> 04:16.642
+So this right over here is
+y is equal to negative two,
+
+04:16.642 --> 04:20.642
+and then the upper bound
+is y is equal to three.
+
+04:21.903 --> 04:26.248
+So now we just have to evaluate
+this from negative two,
+
+04:26.248 --> 04:28.973
+all the way until three.
+
+04:28.973 --> 04:29.806
+So let's do that.
+
+04:29.806 --> 04:30.804
+I'm gonna clear this out,
+
+04:30.804 --> 04:33.612
+so I get a little bit of real estate.
+
+04:33.612 --> 04:37.274
+So this is equal to the integral from
+
+04:37.274 --> 04:38.712
+negative two
+
+04:38.712 --> 04:39.629
+to three of
+
+04:42.585 --> 04:44.168
+negative y squared,
+
+04:45.384 --> 04:47.098
+plus three y,
+
+04:47.098 --> 04:47.931
+plus 11,
+
+04:49.067 --> 04:51.027
+minus all of this stuff.
+
+04:51.027 --> 04:52.804
+So if we just distribute
+a negative sign here,
+
+04:52.804 --> 04:54.985
+it's minus y squared,
+
+04:54.985 --> 04:56.485
+minus y, plus one,
+
+04:57.380 --> 04:59.213
+and then we have a dy,
+
+05:00.123 --> 05:01.589
+dy.
+
+05:01.589 --> 05:04.973
+This is equal to the
+definite integral from
+
+05:04.973 --> 05:07.806
+negative two to positive three of,
+
+05:10.677 --> 05:13.359
+let's see, negative y
+squared minus y squared,
+
+05:13.359 --> 05:15.515
+negative two y squared,
+
+05:15.515 --> 05:20.178
+and then three y minus y
+is going to be plus two y.
+
+05:20.178 --> 05:24.395
+And then 11 plus one, plus
+12, we saw this just now,
+
+05:24.395 --> 05:27.572
+when we were trying to solve for y, dy.
+
+05:27.572 --> 05:29.890
+And so what is that going to be equal to?
+
+05:29.890 --> 05:32.115
+Well, we just take the
+antiderivative here.
+
+05:32.115 --> 05:35.130
+This is going to be,
+let's see, negative two.
+
+05:35.130 --> 05:37.226
+Let's increment the
+exponent, y to the third.
+
+05:37.226 --> 05:39.579
+Divide by that exponent,
+reverse power rule,
+
+05:39.579 --> 05:43.746
+plus two y squared divided by
+two, which is just y squared,
+
+05:44.658 --> 05:46.464
+just the reverse power rule,
+
+05:46.464 --> 05:48.047
+and then plus 12 y.
+
+05:49.876 --> 05:53.293
+And we're going to evaluate that at three
+
+05:54.662 --> 05:57.003
+and at negative two.
+
+05:57.003 --> 06:00.862
+So if we evaluate that at
+three, we are going to get,
+
+06:00.862 --> 06:03.192
+let's see, negative two
+
+06:03.192 --> 06:04.025
+times 27
+
+06:05.137 --> 06:06.462
+over three,
+
+06:06.462 --> 06:08.072
+plus nine,
+
+06:08.072 --> 06:08.905
+plus 36.
+
+06:09.813 --> 06:14.488
+And then we are going to
+want to subtract, minus
+
+06:14.488 --> 06:16.158
+all of this evaluated at negative two.
+
+06:16.158 --> 06:20.325
+So it's going to be negative
+two times negative eight
+
+06:21.654 --> 06:22.571
+over three,
+
+06:24.343 --> 06:25.176
+plus four,
+
+06:26.699 --> 06:28.063
+minus 24.
+
+06:28.063 --> 06:30.552
+So we just have a little bit
+of mathematics ahead of us.
+
+06:30.552 --> 06:31.443
+So let's see,
+
+06:31.443 --> 06:34.848
+this is going to be 27
+divided by three is nine.
+
+06:34.848 --> 06:36.765
+So this is negative 18.
+
+06:37.849 --> 06:38.766
+Negative 18
+
+06:39.717 --> 06:43.329
+plus nine is going to be negative nine,
+
+06:43.329 --> 06:46.999
+plus 36, all of that is
+going to be equal to,
+
+06:46.999 --> 06:49.999
+so the stuff in blue is equal to 27.
+
+06:50.916 --> 06:51.896
+Right, did I do that right?
+
+06:51.896 --> 06:55.641
+Get negative 18 plus nine, yep, 27.
+
+06:55.641 --> 06:59.005
+And then all the stuff in red over here,
+
+06:59.005 --> 07:02.098
+we have, this is going to be
+negative times a negative,
+
+07:02.098 --> 07:06.115
+so it's 16 over three,
+plus four, minus 24.
+
+07:06.115 --> 07:08.198
+So that is going to be 16
+
+07:09.880 --> 07:10.797
+over three,
+
+07:11.766 --> 07:13.016
+and then minus,
+
+07:14.126 --> 07:14.959
+minus 20,
+
+07:16.487 --> 07:18.001
+minus 20.
+
+07:18.001 --> 07:20.446
+But then we have this
+negative out here, so it's,
+
+07:20.446 --> 07:22.879
+if we distribute that, we'll get plus 20,
+
+07:22.879 --> 07:25.900
+minus, we could say
+instead of 16 over three,
+
+07:25.900 --> 07:28.218
+we could rewrite that as 5 1/3,
+
+07:28.218 --> 07:30.423
+minus 5 1/3.
+
+07:30.423 --> 07:31.964
+And so what is that going to get us?
+
+07:31.964 --> 07:34.558
+Let me scroll down a little
+bit, or let me go to the right,
+
+07:34.558 --> 07:37.580
+so I have a little bit
+more real estate here.
+
+07:37.580 --> 07:40.838
+So then that is going to be equal to,
+
+07:40.838 --> 07:43.338
+get a minor drum roll here, 47
+
+07:44.259 --> 07:45.092
+minus five
+
+07:45.964 --> 07:47.694
+minus 1/3,
+
+07:47.694 --> 07:51.609
+which is equal to, let's see,
+47 minus five, that's 42,
+
+07:51.609 --> 07:55.478
+minus 1/3 is, now we get a drum roll,
+
+07:55.478 --> 07:56.978
+41 2/3.
+
+08:00.513 --> 08:01.846
+And we are done.

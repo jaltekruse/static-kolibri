@@ -1,0 +1,379 @@
+WEBVTT
+
+00:00.600 --> 00:02.420
+Chúng mình đã dùng tích phân xác định
+
+00:02.560 --> 00:04.037
+để tìm diện tích.
+
+00:04.037 --> 00:05.867
+Điều mình muốn làm bây giờ là xem nếu mình có thể
+
+00:05.867 --> 00:09.406
+dùng tích phân xác định để tìm độ dài cung tròn.
+
+00:09.406 --> 00:10.934
+Độ dài cung tròn là gì?
+
+00:10.934 --> 00:15.291
+Nếu mình bắt đầu tại điểm này trên đồ thị của hàm số,
+
+00:15.291 --> 00:17.663
+và nếu mình đi tới điểm này ngay đây,
+
+00:17.663 --> 00:19.625
+không phải là 1 đường thẳng, mình đã biết cách tìm
+
+00:19.625 --> 00:22.287
+khoảng cách giữa đường thẳng nhưng thay vào đó, mình muốn
+
+00:22.287 --> 00:24.719
+tìm khoảng cách cùng dọc theo đường cong.
+
+00:24.719 --> 00:26.566
+Nếu mình có một sợi dây dọc theo đường cong,
+
+00:26.566 --> 00:28.562
+khoảng cách ở đây sẽ là gì?
+
+00:28.562 --> 00:33.312
+Đó chính là độ dài cung tròn.
+
+00:33.312 --> 00:36.138
+Điều mình có thể nghĩ là, được rồi, nó sẽ bằng
+
+00:36.138 --> 00:41.138
+từ x = a tới x = b dọc theo đường cong.
+
+00:43.451 --> 00:45.077
+Vậy làm sao mình giải nó?
+
+00:45.077 --> 00:48.377
+Một điều mà giải tích phân dạy mình
+
+00:48.377 --> 00:49.990
+khi mình thấy cái gì đó
+
+00:49.990 --> 00:52.122
+thay đổi như thế này, điều mà mình có thể làm là
+
+00:52.122 --> 00:55.397
+chia nó thành vô số các phần nhỏ
+
+00:55.397 --> 00:57.694
+mà mình có thể hình dung thành
+
+00:57.694 --> 01:00.275
+các đường thẳng hoặc hình chữ nhật, và mình có thể
+
+01:00.275 --> 01:04.081
+lấy tổng vô hạn của vô số những phần nhỏ.
+
+01:04.081 --> 01:06.974
+Để mình chia nhỏ chiều dài cung nhé.
+
+01:06.974 --> 01:09.194
+Chia nó thành vô số những
+
+01:09.194 --> 01:11.982
+phần nhỏ.
+
+01:11.982 --> 01:14.252
+Để mình gọi từng phần nhỏ vô hạn
+
+01:14.252 --> 01:18.428
+của chiều dài cung là a, và mình có thể nói chiều dài
+
+01:18.428 --> 01:23.209
+với vi phân, chiều dài cung với vi phân, gọi là ds.
+
+01:23.209 --> 01:25.607
+Mình sẽ vẽ nó to hơn một chút để ít nhất khi mình
+
+01:25.607 --> 01:27.351
+khái quát vi phân là gì,
+
+01:27.351 --> 01:28.902
+mình có thể nhìn thấy nó.
+
+01:28.902 --> 01:31.366
+Vậy, chia nhỏ thành các ds này có nghĩa là sao?
+
+01:31.366 --> 01:33.059
+Nếu đây là ds,
+
+01:33.059 --> 01:34.762
+để mình làm bằng màu khác,
+
+01:34.762 --> 01:39.762
+cái đó là sự thay đổi nhỏ vô hạn trong độ dài cung.
+
+01:40.554 --> 01:42.710
+Một sự thay đổi nhỏ vô hạn khác trong độ dài cung,
+
+01:42.710 --> 01:46.623
+Nếu mình cộng tất cả ds lại với nhau,
+
+01:46.623 --> 01:48.473
+mình sẽ có độ dài cung tròn.
+
+01:48.473 --> 01:52.873
+Chiều dài cung, nếu mình tính thì nó sẽ là tích phân
+
+01:52.873 --> 01:57.873
+của tất cả tổng các ds trong khoảng này
+
+01:58.937 --> 02:01.782
+Vậy, mình sẽ ký hiệu nó như thế.
+
+02:01.782 --> 02:03.216
+Nhưng nó không giúp được mình ngay bây giờ.
+
+02:03.216 --> 02:06.798
+Cái này viết dưới dạng chiều dài cung, còn cái này là vi phân.
+
+02:06.798 --> 02:10.127
+mình biết cách làm dưới dạng dx và dy
+
+02:10.127 --> 02:11.305
+Hãy xem nếu mình có thể ghi nó lại
+
+02:11.305 --> 02:14.258
+dưới dạng dx và dy không nhé.
+
+02:14.258 --> 02:16.067
+Nếu mình đang đi trên một thước đo vô cùng nhỏ,
+
+02:16.067 --> 02:17.556
+một lần nữa, mình có thể ước lượng.
+
+02:17.556 --> 02:20.066
+Rằng cái này sẽ là 1 đường thẳng.
+
+02:20.066 --> 02:21.425
+Giống như cách mà mình ước lượng
+
+02:21.425 --> 02:22.857
+diện tích các hình chữ nhật ban đầu.
+
+02:22.857 --> 02:24.049
+Nhưng nếu mình có vô số
+
+02:24.049 --> 02:26.146
+các hình chữ nhật vô cùng nhỏ, mình thực ra đang
+
+02:26.146 --> 02:29.553
+ước lượng vùng mà không phải là hình chữ nhật.
+
+02:29.553 --> 02:31.113
+Phần diện tích mà không phải là hình chữ nhật.
+
+02:31.113 --> 02:32.861
+Tương tự, mình đang ước lượng vô số các
+
+02:32.861 --> 02:35.258
+đường nhỏ vô hạn.
+
+02:35.258 --> 02:38.222
+và bạn thật ra đang tìm chiều dài của đường cong.
+
+02:38.222 --> 02:42.599
+Hãy tập trung đến đường này ngay bây giờ.
+
+02:42.599 --> 02:43.945
+Khoảng cách này ngay đây, mình chỉ
+
+02:43.945 --> 02:47.019
+viết nó dưới dạng dx và dy.
+
+02:47.019 --> 02:50.581
+Khoảng cách này đây, là dx.
+
+02:50.581 --> 02:54.143
+Bạn có thể xem nó là sự thay đổi vô cùng nhỏ của x
+
+02:54.143 --> 02:58.189
+và khoảng cách này ngay đây là dy.
+
+02:58.189 --> 03:00.920
+Một lần nữa, mình cũng đang rất bối rối với vi phân.
+
+03:00.920 --> 03:02.218
+Để cho bạn hiểu được ý tưởng này,
+
+03:02.218 --> 03:04.697
+mình sẽ giúp bạn hiểu
+
+03:04.697 --> 03:08.156
+từ đâu mà mình có công thức cho độ dài cung tròn.
+
+03:08.156 --> 03:12.649
+Dựa vào đây, bạn có thể thấy ds có thể viết
+
+03:12.649 --> 03:15.932
+dựa vào Định Lý Pytago bằng dx bình
+
+03:15.932 --> 03:19.271
+cộng dy bình, hoặc bạn có thể viết lại là
+
+03:19.271 --> 03:22.336
+căn bậc 2 của dx bình cộng dy bình.
+
+03:22.336 --> 03:24.443
+Viết lại như vậy đó.
+
+03:24.443 --> 03:29.051
+Mình có thể nói đây là tương tự với tích phân của
+
+03:29.051 --> 03:31.365
+thay vì ghi ds, mình sẽ viết nó là
+
+03:31.365 --> 03:45.160
+căn của dx bình cộng dy bình.
+
+03:45.320 --> 03:48.960
+Một lần nữa, đây là sự ứng dụng trực tiếp của định lí Pytago.
+
+03:48.960 --> 03:50.304
+Bây giờ, nó đang dần trở nên thú vị.
+
+03:50.304 --> 03:52.140
+Mình đã ghi dưới dạng dx và dy
+
+03:52.140 --> 03:53.065
+nhưng nó đang được bình phương.
+
+03:53.065 --> 03:54.032
+Nó ở dưới dấu căn.
+
+03:54.032 --> 03:56.064
+Làm sao để mình rút gọn nó?
+
+03:56.064 --> 04:00.358
+Ít nhất là hãy viết nó dưới dạng mà mình có thể lấy tích phân.
+
+04:00.358 --> 04:03.946
+Mình có thể lấy dx bình là nhân tử chung,
+
+04:03.946 --> 04:04.865
+để mình ghi lại.
+
+04:04.865 --> 04:06.207
+Nó sẽ bằng với
+
+04:06.207 --> 04:10.952
+tích phân của căn bậc 2.
+
+04:10.960 --> 04:13.180
+Mình sẽ rút dx bình ra ngoài,
+
+04:13.180 --> 04:24.260
+dx bình nhân 1 cộng dy trên dx, tất cả bình.
+
+04:24.380 --> 04:27.256
+Hãy chú ý, cái này và cái này là tương đương nhau
+
+04:27.256 --> 04:29.597
+nếu mình nhân phân phối dx bình,
+
+04:29.597 --> 04:31.618
+mình sẽ có cái này ngay đây.
+
+04:31.618 --> 04:34.526
+Bây giờ, mình có thể lấy dx bình ra khỏi căn.
+
+04:34.526 --> 04:39.526
+Vậy cái này sẽ là tích phân của
+
+04:39.668 --> 04:42.806
+để mình đổi sang màu trắng,
+
+04:42.806 --> 04:47.940
+tích phân của 1 cộng dy trên dx bình.
+
+04:48.040 --> 04:50.356
+Cái này thú vị bởi vì mình biết dy, dx là gì.
+
+04:50.356 --> 04:52.979
+Cái này là đạo hàm của hàm số,
+
+04:52.979 --> 04:56.117
+dy trên dx, tất cả bình.
+
+04:56.117 --> 04:58.062
+Nếu mình lấy dx bình ra khỏi căn,
+
+04:58.062 --> 05:00.917
+căn của dx bình là dx.
+
+05:00.917 --> 05:04.637
+Cái này sẽ chỉ là dx.
+
+05:08.540 --> 05:10.640
+cách tìm nó giữa 2 cận.
+
+05:10.643 --> 05:13.455
+Bây giờ mình lấy tích phân xác định từ a đến b.
+
+05:13.455 --> 05:16.641
+Mình sẽ lấy tích phân của các dx này
+
+05:16.641 --> 05:20.499
+hoặc là lấy tích phân với x.
+
+05:20.499 --> 05:23.308
+Từ x=a đến x=b
+
+05:23.308 --> 05:25.108
+Hãy lấy tổng của các tích
+
+05:25.108 --> 05:28.966
+của biểu thức và dx, cái này rất quan trọng.
+
+05:28.966 --> 05:31.786
+Nó là công thức tính độ dài cung tròn.
+
+05:34.601 --> 05:35.883
+Trong video kế tiếp, mình sẽ xem
+
+05:35.883 --> 05:37.113
+cách áp dụng trực tiếp
+
+05:37.113 --> 05:39.130
+công thức này.
+
+05:39.130 --> 05:41.061
+Nếu bạn muốn ký hiệu nó khác đi một tí,
+
+05:41.061 --> 05:46.061
+bạn có thể viết nó bằng tích phân từ a đến b,
+
+05:46.440 --> 05:52.340
+x = a tới x = b của căn của 1 cộng
+
+05:52.440 --> 05:54.620
+Thay vì dy trên dx, mình sẽ viết nó là
+
+05:54.620 --> 06:01.620
+f phẩy của x bình,
+
+06:01.740 --> 06:03.740
+dx
+
+06:03.880 --> 06:06.215
+Vậy nếu bạn biết hàm số, biết f(x) là gì,
+
+06:06.215 --> 06:08.776
+lấy đạo hàm của nó với x bình
+
+06:08.776 --> 06:11.517
+cộng 1, lấy căn
+
+06:11.517 --> 06:14.083
+và sau đó lấy tích phân xác định
+
+06:14.083 --> 06:18.065
+của nó với x từ a tới b.
+
+06:18.065 --> 06:20.852
+Chúng mình sẽ làm nó trong video tiếp theo.

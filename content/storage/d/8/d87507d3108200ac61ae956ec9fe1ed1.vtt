@@ -1,0 +1,766 @@
+WEBVTT
+
+00:00.398 --> 00:05.062
+V tomto videu bych se rád zaměřil na pár
+dalších metod rozkladu mnohočlenů.
+
+00:05.255 --> 00:10.040
+Především na kvadratické mnohočleny,
+které nemají 1
+
+00:10.040 --> 00:11.310
+jako koeficient u dominantního členu.
+
+00:11.310 --> 00:20.550
+Například pokud bych chtěl rozložit
+4x na druhou plus 25x minus 21.
+
+00:20.729 --> 00:22.629
+Všechno, co jsme prozatím rozkládali,
+
+00:22.779 --> 00:27.991
+nebo alespoň všechny kvadratické mnohočleny
+měly 1 nebo -1 tam, kde je nyní 4.
+
+00:28.177 --> 00:30.745
+Najednou tady máme tuhle 4.
+
+00:30.916 --> 00:34.916
+Takže použijeme metodu,
+která se jmenuje rozklad seskupením.
+
+00:35.080 --> 00:39.342
+Je to trochu složitější, než co jsme se
+učili předtím, ale je to fajn trik.
+
+00:39.530 --> 00:43.108
+Poněkud ztratí na užitečnosti,
+až se naučíte používat diskriminant,
+
+00:43.292 --> 00:46.005
+protože, upřímně,
+diskriminant je mnohem jednodušší.
+
+00:46.185 --> 00:47.495
+Nicméně funguje to takhle.
+
+00:47.661 --> 00:48.607
+Ukážu vám postup
+
+00:48.770 --> 00:52.083
+a pak, na konci videa,
+vám taky vysvětlím, proč to funguje.
+
+00:52.305 --> 00:58.092
+Co potřebujeme udělat, je
+najít dvě čísla, 'a' a 'b',
+
+00:58.257 --> 01:03.438
+kde 'a' krát 'b' se bude
+rovnat 4 krát (-21).
+
+01:03.674 --> 01:12.280
+Takže 'a' krát 'b' se
+bude rovnat 4 krát (-21),
+
+01:12.484 --> 01:15.058
+což se rovná -84.
+
+01:15.226 --> 01:24.332
+A součet těch samých čísel,
+'a' plus 'b', musí být roven 25.
+
+01:24.480 --> 01:25.777
+Aby to bylo úplně jasné,
+
+01:25.930 --> 01:29.065
+tohle je 25,
+musí tedy dát dohromady 25.
+
+01:29.252 --> 01:35.418
+Tady máme 4,
+takže násobíme 4 krát (-21).
+
+01:35.675 --> 01:37.043
+Tady je -21.
+
+01:37.217 --> 01:40.418
+Takže jaká dvě čísla by to mohla splňovat?
+
+01:40.638 --> 01:44.924
+No, musíme se podívat
+na rozklad -84.
+
+01:45.102 --> 01:47.414
+A opět potřebujeme
+jedno kladné číslo
+
+01:47.550 --> 01:52.097
+a druhé musí být záporné,
+protože jejich součin je záporný.
+
+01:52.290 --> 01:55.047
+Takže se podívejme po číslech,
+která by mohla fungovat.
+
+01:55.262 --> 01:58.595
+4 a -21 vypadají lákavě,
+
+01:58.783 --> 02:01.793
+jenže když je sečtete,
+dostanete -17.
+
+02:01.970 --> 02:04.695
+Kdyby to bylo -4 a 21,
+dostali bychom +17.
+
+02:04.870 --> 02:05.836
+Takže nefungují.
+
+02:06.010 --> 02:07.883
+Pojďme zkusit nějaké jiné kombinace.
+
+02:08.151 --> 02:11.847
+1 a 84, to je příliš daleko od sebe.
+Vezmete-li jejich rozdíl…
+
+02:12.057 --> 02:15.217
+To je, co získáme s jedním kladným
+a jedním záporným číslem.
+
+02:15.359 --> 02:16.598
+Příliš daleko od sebe.
+
+02:16.785 --> 02:20.500
+Mohli byste vzít 3…
+Ne, to přeskakuji.
+
+02:20.730 --> 02:23.181
+2 a 42.
+
+02:23.320 --> 02:24.690
+Opět příliš daleko od sebe.
+
+02:24.791 --> 02:26.569
+-2 plus 42 je 40.
+
+02:26.744 --> 02:29.402
+2 plus (-42) je -40.
+Příliš daleko od sebe.
+
+02:31.720 --> 02:38.700
+Kolikrát je 3 v 84?
+
+02:38.850 --> 02:40.860
+3 je v 8 dvakrát.
+
+02:41.020 --> 02:42.646
+2 krát 3 je 6.
+
+02:42.852 --> 02:44.916
+8 minus 6 je 2.
+
+02:45.212 --> 02:46.299
+Sepíšeme 4.
+
+02:46.556 --> 02:48.999
+3 jde do 24 osmkrát.
+
+02:49.182 --> 02:51.076
+Takže 3 a 28.
+
+02:51.290 --> 02:52.644
+To vypadá zajímavě,
+
+02:52.924 --> 02:55.956
+3 a 28.
+
+02:57.337 --> 02:59.689
+A pamatujte,
+jedno musí být záporné.
+
+02:59.875 --> 03:05.989
+Takže když máme -3 plus 28,
+to se rovná 25.
+
+03:06.161 --> 03:08.091
+Takže jsme našli naše dvě čísla.
+
+03:08.293 --> 03:19.278
+Ovšem nebude to tak jednoduché,
+jako když tohle byla 1 nebo -1.
+
+03:19.489 --> 03:23.395
+Co uděláme, je,
+že tenhle výraz rozdělíme.
+
+03:23.655 --> 03:35.726
+Rozdělíme ho na 28x minus 3x.
+
+03:35.894 --> 03:37.364
+Jenom ho rozdělíme.
+
+03:37.590 --> 03:39.725
+Tím myslím tenhle výraz.
+
+03:39.890 --> 03:45.950
+A samozřejmě,
+tady máte -21 a tady 4x na druhou.
+
+03:46.327 --> 03:50.471
+Mohli byste se ptát,
+proč jsem napsal 28 sem a -3 sem?
+
+03:50.570 --> 03:51.801
+A ono je to důležité.
+
+03:51.979 --> 03:57.645
+Rozhodl jsme se podle toho,
+že 3 nebo -3 a 21 nebo -21
+
+03:57.836 --> 03:59.462
+mají společného dělitele.
+
+03:59.590 --> 04:02.286
+Konkrétně jsou obě dělitelné 3.
+
+04:02.503 --> 04:04.610
+28 a 4 mají také společného dělitele.
+
+04:04.780 --> 04:07.832
+Takže jsem seskupil 28 a 4.
+
+04:07.990 --> 04:09.581
+A hned uvidíte,
+co tím sleduji.
+
+04:09.730 --> 04:12.115
+Pokud bychom skutečně
+spojili tenhle výraz,
+
+04:12.564 --> 04:17.867
+tak dostaneme
+(4x na druhou plus 28x).
+
+04:18.048 --> 04:28.485
+A pak, na téhle straně,
+v růžové, to bude (-3x minus 21).
+
+04:28.701 --> 04:34.100
+Ještě jednou, rozdělil jsem je tak,
+aby -3 byla s 21 nebo s -21,
+
+04:34.300 --> 04:36.140
+protože jsou obě dělitelné 3.
+
+04:36.392 --> 04:40.007
+A spojil jsem 28 s 4,
+protože jsou obě dělitelné 4.
+
+04:40.232 --> 04:45.013
+A teď, v obou těchto skupinách
+vytkneme, co můžeme.
+
+04:45.414 --> 04:48.653
+Oba tyto členy jsou dělitelné 4x.
+
+04:49.050 --> 04:54.761
+Takže tenhle oranžový výraz
+je roven 4x krát x…
+
+04:55.372 --> 05:02.211
+4x na druhou děleno 4x je pouze 'x',
+plus 28x děleno 4x je 7.
+
+05:02.765 --> 05:03.941
+Nyní k druhému členu.
+
+05:04.131 --> 05:06.787
+Pamatujte, vytkněte všechno,
+co vytknout jde.
+
+05:06.948 --> 05:10.054
+Takže, oba tyto výrazy
+jsou dělitelné 3, nebo -3.
+
+05:10.160 --> 05:11.779
+Tak vytkněme -3.
+
+05:12.009 --> 05:15.990
+A tohle bude
+(x plus 7).
+
+05:16.165 --> 05:18.536
+A teď si můžete všimnout,
+
+05:18.690 --> 05:27.047
+že máme (x plus 7) krát 4x
+plus (x plus 7) krát (-3).
+
+05:27.273 --> 05:31.513
+Takže můžeme vytknout (x plus 7).
+
+05:31.712 --> 05:33.371
+Tohle nemusí být úplně zřejmé,
+
+05:33.550 --> 05:36.355
+nejspíše nejste zvyklí
+na vytýkání celého dvojčlenu.
+
+05:36.490 --> 05:38.221
+Toto lze brát,
+jako by to bylo 'a'.
+
+05:38.350 --> 05:43.739
+Pokud máte '4xa' minus '3a',
+mohli byste vytknout 'a'.
+
+05:43.993 --> 05:46.330
+Tohle znaménko minus tu můžu nechat.
+
+05:46.453 --> 05:51.737
+Smažu tohle znaménko plus.
+
+05:51.950 --> 05:55.774
+Protože je to jen minus 3, že?
+
+05:55.950 --> 05:58.542
+Plus -3 je to stejné jako minus 3.
+
+05:58.719 --> 06:00.466
+Co tu můžeme udělat?
+
+06:00.640 --> 06:02.270
+Máme (x plus 7) krát 4x.
+
+06:02.428 --> 06:04.040
+Máme (x plus 7) krát -3.
+
+06:04.225 --> 06:05.924
+Vytkněme tedy (x plus 7).
+
+06:06.110 --> 06:16.290
+Dostaneme (x plus 7) krát (4x minus 3).
+
+06:16.441 --> 06:18.710
+… minus tato 3 zde.
+
+06:18.894 --> 06:21.802
+Vytknuli jsme naše dvojčleny.
+
+06:21.969 --> 06:25.436
+Omlouvám se, vytknuli jsme to
+pomocí seskupování.
+
+06:25.630 --> 06:27.976
+Vytknuli jsme to a získali dva dvojčleny.
+
+06:28.102 --> 06:30.740
+Udělejme další příklad,
+protože je to trochu složitější.
+
+06:30.896 --> 06:33.655
+Ale když to zvládnete,
+je to pak docela zábava.
+
+06:34.180 --> 06:43.343
+Řekněme, že chceme rozložit
+6x na druhou plus 7x plus 1.
+
+06:43.539 --> 06:44.628
+Stejný postup.
+
+06:44.847 --> 06:50.747
+Chceme najít 'a' krát 'b',
+které je rovno 1 krát 6,
+
+06:50.940 --> 06:51.963
+tedy rovno 6.
+
+06:52.110 --> 06:57.136
+A chceme najít 'a' plus 'b',
+které se musí rovnat 7.
+
+06:57.391 --> 06:59.277
+Tohle je už více přímočaré.
+
+06:59.453 --> 07:03.755
+Jaké jsou…
+Zřejmě nás napadne 1 a 6, že?
+
+07:03.900 --> 07:05.205
+1 krát 6 je 6.
+
+07:05.310 --> 07:07.197
+1 plus 6 je 7.
+
+07:07.547 --> 07:09.938
+Máme 'a' rovno 1.
+
+07:10.178 --> 07:11.509
+Ani je nebudu přiřazovat.
+
+07:11.700 --> 07:15.198
+Ta čísla jsou 1 a 6.
+
+07:15.538 --> 07:19.615
+Teď to chceme rozdělit na 1x a 6x.
+
+07:19.740 --> 07:22.370
+Ale chceme to i seskupit,
+aby to bylo poblíž něčeho,
+
+07:22.538 --> 07:23.907
+co má společné dělitele.
+
+07:24.085 --> 07:27.293
+Budeme mít 6x na druhou zde…
+
+07:28.619 --> 07:33.978
+Dám zde nejdřív 6x,
+protože 6 a 6 mají stejného dělitele.
+
+07:34.170 --> 07:37.486
+A pak budeme mít plus 1x, že?
+
+07:37.580 --> 07:39.463
+6x plus 1x je rovno 7x.
+
+07:39.650 --> 07:40.830
+To je smysl toho všeho.
+
+07:40.969 --> 07:42.399
+Součet se musí rovnat 7.
+
+07:42.580 --> 07:45.652
+A pak tu konečně máme 1.
+
+07:45.837 --> 07:50.086
+V každé z těchto skupin můžeme vytknout,
+co se nám zlíbí.
+
+07:50.262 --> 07:52.901
+V této první skupině vytkněme 6x.
+
+07:53.120 --> 07:56.478
+Bude z toho tedy 6x krát…
+
+07:56.698 --> 07:59.279
+6x na druhou děleno 6x
+je jen 'x'.
+
+07:59.521 --> 08:04.168
+6x děleno 6x je jen 1.
+
+08:04.380 --> 08:06.450
+V druhé skupině…
+
+08:06.676 --> 08:07.911
+Zde budeme mít plus.
+
+08:08.151 --> 08:11.658
+V této druhé skupině
+budeme mít jen (x plus 1).
+
+08:11.870 --> 08:16.353
+Mohli bychom napsat
+1 krát (x plus 1).
+
+08:16.500 --> 08:19.207
+Mohli byste si představit,
+že jsem vytknul 1.
+
+08:19.437 --> 08:24.607
+Teď mám 6x krát (x plus 1)
+plus 1 krát (x plus 1).
+
+08:24.892 --> 08:27.510
+Teď mohu vytknout (x plus 1).
+
+08:27.707 --> 08:37.472
+Vytknu-li to, bude to rovno
+(x plus 1) krát (6x plus 1).
+
+08:37.735 --> 08:41.210
+Využívám vlastnosti distributivity,
+pouze opačně.
+
+08:41.419 --> 08:43.033
+Snad vám to nepřipadá špatné.
+
+08:43.239 --> 08:49.110
+Teď vám tedy vysvětlím,
+proč tento magický způsob vlastně funguje.
+
+08:49.293 --> 08:52.062
+Ukážu na příkladě.
+
+08:52.425 --> 08:54.367
+Udělám to obecně.
+
+08:54.530 --> 09:01.243
+Řekněme, že mám (ax plus b) krát (cx…
+
+09:01.413 --> 09:05.156
+Vlastně se bojím používat 'a' a 'b'.
+
+09:05.300 --> 09:08.828
+Myslím si, že by vás to zmátlo,
+když jsem 'a' a 'b' používal zde.
+
+09:08.930 --> 09:10.102
+Nejsou to ty samé.
+
+09:10.240 --> 09:13.605
+Použiji tedy naprosto jiná písmena.
+
+09:13.760 --> 09:23.808
+Řekněme, že mám
+(fx plus g) krát (hx plus j).
+
+09:23.930 --> 09:25.235
+Použiji 'j' namísto 'i'.
+
+09:25.366 --> 09:28.201
+Později zjistíte, proč nerad
+používám 'i' jako proměnnou.
+
+09:28.630 --> 09:30.671
+Čemu to bude rovno?
+
+09:30.872 --> 09:35.817
+Bude to 'fx' krát 'hx',
+což je fh 'x na druhou'.
+
+09:36.015 --> 09:37.618
+Pak 'fx' krát 'j'.
+
+09:37.823 --> 09:41.637
+Tedy plus 'fjx'.
+
+09:41.800 --> 09:45.058
+Pak budeme mít 'g' krát 'hx'.
+
+09:45.240 --> 09:48.808
+Tedy plus 'ghx'
+
+09:48.964 --> 09:50.853
+a pak 'g' krát 'j'.
+
+09:50.990 --> 09:53.620
+Plus 'gj'.
+
+09:53.818 --> 10:02.264
+Když bychom sečetli tyto prostřední členy,
+máme 'fh' krát 'x na druhou'…
+
+10:02.494 --> 10:08.580
+plus… Sečteme tyto dva členy…
+(fj plus gh) krát 'x'...
+
+10:08.800 --> 10:11.995
+Plus gj.
+
+10:12.170 --> 10:14.338
+Co jsem tu tedy udělal?
+
+10:14.503 --> 10:20.243
+Pamatujte, ve všech těchto příkladech,
+kde je koeficient zde různý od 1 nebo -1,
+
+10:20.384 --> 10:22.632
+hledáme dvě čísla, jejichž součet je tohle
+
+10:22.813 --> 10:25.319
+a jejichž součin je roven
+součinu tohoto s tímto.
+
+10:25.525 --> 10:30.173
+Zde máme dvě čísla,
+jejichž součet je…
+
+10:30.835 --> 10:36.092
+Řekněme, že 'a' je rovno 'fj'.
+
+10:36.866 --> 10:37.627
+Tohle je 'a'
+
+10:37.809 --> 10:40.648
+a 'b' je rovno 'gh'.
+
+10:40.842 --> 10:47.990
+'a' plus 'b' je tedy rovno
+prostřednímu koeficientu.
+
+10:48.171 --> 10:49.975
+Co je tedy 'a' krát 'b'?
+
+10:50.154 --> 10:58.592
+'a' krát 'b' je rovno 'fj' krát 'gh'.
+
+10:58.769 --> 11:00.412
+Tyto členy si můžeme přeskládat.
+
+11:00.524 --> 11:02.020
+Pouze násobíme několik členů.
+
+11:02.145 --> 11:09.261
+Mohli bychom to přepsat jako
+'f' krát 'h' krát 'g' krát 'j'.
+
+11:09.436 --> 11:10.925
+To jsou všechno stejné věci.
+
+11:11.118 --> 11:14.338
+Kolik je 'fh' krát 'gj'?
+
+11:14.536 --> 11:18.914
+To je rovno 'fh' krát 'gj'.
+
+11:19.151 --> 11:23.395
+To je rovno prvnímu koeficientu
+krát konstantní člen.
+
+11:23.634 --> 11:27.712
+'a' plus 'b' bude rovno
+prostřednímu koeficientu.
+
+11:27.870 --> 11:32.543
+'a' krát 'b' bude rovno
+prvnímu koeficientu krát konstantní člen.
+
+11:32.795 --> 11:37.921
+To je důvod, proč tento postup
+rozkladu seskupením vůbec funguje
+
+11:38.091 --> 11:41.607
+nebo jak zjistit,
+kolik mají být 'a' a 'b'.
+
+11:41.924 --> 11:45.422
+Zakončím to něčím malinko jiným,
+jen abych se ujistil,
+
+11:45.588 --> 11:48.990
+že máte dobré znalosti
+ohledně rozkladu na součin.
+
+11:49.130 --> 11:52.797
+Chtěl bych vás naučit vytýkat úplně.
+
+11:52.940 --> 11:56.574
+To je takový přídavek.
+Chtěl jsem udělat samostatné video,
+
+11:56.724 --> 12:00.292
+ale myslím, že na určité úrovni
+by to pro vás bylo až příliš zřejmé.
+
+12:00.480 --> 12:06.777
+Řekněme, že máme…
+Vyberu dobrý příklad.
+
+12:07.050 --> 12:17.640
+Řekněme, že mám
+-x na třetí plus 17x na druhou minus 70x.
+
+12:17.870 --> 12:20.122
+Okamžitě řeknete:
+„Vždyť to není kvadratické!
+
+12:20.240 --> 12:21.720
+Nevím, jak řešit něco takového.
+
+12:21.867 --> 12:23.443
+Má to 'x' na třetí mocninu.“
+
+12:23.748 --> 12:27.713
+Nejprve si ale uvědomte,
+že každý člen je dělitelný 'x'.
+
+12:27.840 --> 12:29.780
+Vytkněme tedy 'x'.
+
+12:29.920 --> 12:32.108
+Ještě lépe, vytkněme '-x'.
+
+12:32.260 --> 12:36.828
+Vytkneme-li '-x',
+bude to rovno '-x' krát…
+
+12:37.270 --> 12:41.338
+'-x na třetí' děleno '-x'
+je rovno 'x na druhou'.
+
+12:41.704 --> 12:47.437
+17 'x na druhou' děleno '-x'
+je rovno '-17x'.
+
+12:47.705 --> 12:52.385
+-70x děleno '-x'
+je rovno +70.
+
+12:52.510 --> 12:53.892
+'x' se vyruší.
+
+12:54.069 --> 12:58.982
+Teď máte něco,
+co vypadá povědomě.
+
+12:59.217 --> 13:03.500
+Máme standardní kvadratický mnohočlen
+s koeficientem 1 u kvadratického členu.
+
+13:03.650 --> 13:08.164
+Musíme jen najít dvě čísla,
+jejichž součin je 70
+
+13:08.290 --> 13:10.817
+a jejichž součet je -17.
+
+13:11.000 --> 13:17.248
+Čísla, která mě okamžitě napadla,
+jsou -10 a -7.
+
+13:17.410 --> 13:19.235
+Jejich součin je 70.
+
+13:19.435 --> 13:21.675
+Jejich součet je -17.
+
+13:21.863 --> 13:28.244
+Tato část bude tedy
+(x minus 10) krát (x minus 7).
+
+13:28.410 --> 13:31.343
+A to celé násobíme '-x'.
+
+13:31.584 --> 13:35.155
+Obecná myšlenka je podívat se,
+zda se nedá něco vytknout,
+
+13:35.320 --> 13:37.596
+a tak se dostat ke tvaru,
+který už poznáte.
+
+13:37.708 --> 13:39.174
+Snad vám to přišlo nápomocné.
+
+13:39.268 --> 13:41.589
+Chtěl bych zdůraznit,
+co jsem ukázal na začátku.
+
+13:41.750 --> 13:46.022
+Myslím, že je to užitečný trik
+k rozložení na součin věcí,
+
+13:46.196 --> 13:50.330
+které mají vedoucí koeficient
+různý od 1 nebo -1.
+
+13:50.460 --> 13:53.200
+Naučíte se ale i snadnější způsoby,
+jak to udělat,
+
+13:53.349 --> 13:55.884
+především se vzorcem na diskriminant.

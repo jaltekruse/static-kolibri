@@ -1,0 +1,451 @@
+WEBVTT
+
+00:00.000 --> 00:00.640
+Suurin osa siitä,
+
+00:00.640 --> 00:03.560
+mitä teemme, kun alamme opiskella calculusta
+
+00:03.560 --> 00:06.720
+liittyy raja-arvoihin.
+
+00:06.720 --> 00:10.440
+Käytämme raja-arvoja
+
+00:10.440 --> 00:13.720
+kun selvitämme funktioiden derivaattoja.
+
+00:13.720 --> 00:16.800
+Itse asiassa, derivaatan määritelmä
+
+00:16.800 --> 00:18.120
+liittyy raja-arvon määritelmään.
+
+00:18.120 --> 00:22.030
+Se on funktion kulmakerroin pisteessä, kun otamme raja-arvon
+
+00:22.030 --> 00:24.390
+lähempää ja lähempää kyseistä pistettä.
+
+00:24.390 --> 00:27.110
+Ja olet nähnyt sen jo moneen kertaan.
+
+00:27.110 --> 00:29.790
+Tässä videossa teemmekin sen
+
+00:29.790 --> 00:30.630
+toiseen suuntaan.
+
+00:30.630 --> 00:39.130
+Aiomme käyttää derivaattaa raja-arvon löytämisessä.
+
+00:39.130 --> 00:43.360
+Erityisesti raja-arvoissa, jotkä päätyvät määrittelemättömään muotoon.
+
+00:43.360 --> 00:46.550
+Ja kun sanon määrittelemätön, tarkoitan sitä kun
+
+00:46.550 --> 00:51.550
+yritämme ottaa raja-arvon ja saamme jotakin tyyliin 0/0 tai
+
+00:51.550 --> 00:55.450
+ääretön jaettuna äärettömällä, tai miinus ääretön jaettuna
+
+00:55.450 --> 00:57.870
+äärettömällä, tai ehkä miinus ääretön jaettuna miinus
+
+00:57.870 --> 01:00.330
+äärettömällä, tai ääretön jaettuna miinus äärettömällä.
+
+01:00.330 --> 01:05.190
+Kaikki nämä ovat määrittelemättömiä.
+
+01:05.190 --> 01:08.290
+Ja jotta voimme ratkaista raja-arvon,
+
+01:08.290 --> 01:17.730
+käytämme l'Hôspitalin sääntöä.
+
+01:17.730 --> 01:19.490
+Tässä videossa aion näyttää mitä
+
+01:19.490 --> 01:23.010
+l'Hospitalin sääntö sanoo, ja miten sitä voi käyttää, sillä se on
+
+01:23.010 --> 01:25.480
+melko suoraviivainen ja itse asiassa todella hyödyllinen apukeino
+
+01:25.480 --> 01:27.510
+joskus jos olet jonkinlaisessa matematiikka kilpailussa ja
+
+01:27.510 --> 01:31.270
+sinua pyydetään löytämään vaikea raja-arvo, josta
+
+01:31.270 --> 01:33.310
+tulee jotain tällaista kun sijoitat luvut siihen.
+
+01:33.310 --> 01:37.270
+L'Hôspitalin sääntö on tavallisesti se, mistä sinua testataan.
+
+01:37.270 --> 01:40.290
+Ja jossain tulevassa videossa saatan todistaa sen, mutta
+
+01:40.290 --> 01:40.975
+se vaatiikin jo vähän syventymistä.
+
+01:40.975 --> 01:44.870
+L'Hôspitalin säännön käyttäminen on oikeastaan aika suoraviivaista.
+
+01:44.870 --> 01:50.780
+Eli se, mitä l'Hôstpitalin sääntö kertoo meille on, että jos meillä on --
+
+01:50.780 --> 01:53.940
+teen tämän yleisessä muodossa ensin, mutta sitten kun näytän
+
+01:53.940 --> 01:56.080
+esimerkin, kaikki selvenee.
+
+01:56.080 --> 02:11.050
+Että jos f:n raja-arvo, kun x lähestyy c:tä on yhtä kuin 0, ja
+
+02:11.050 --> 02:20.100
+jos g:n raja-arvo, kun x lähestyy c:tä on yhtä kuin 0, ja -- ja
+
+02:20.100 --> 02:30.620
+tämä on toinen 'ja' -- ja jos otetaan raja-arvo f'(x) jaettuna g'(x):llä
+
+02:30.620 --> 02:38.160
+kun x lähestyy c:tä, ja se on yhtä kuin L.
+
+02:38.160 --> 02:40.600
+Silloin -- jos siis nämä kaikki ehdot ovat voimassa.
+
+02:40.600 --> 02:44.050
+Tämä on määrittelemätön muoto 0/0, eli siis
+
+02:44.050 --> 02:45.560
+tämä on ensimmäinen tapaus.
+
+02:45.560 --> 02:55.380
+Silloin voimme sanoa, että f(x) yli g(x):n raja-arvo,
+
+02:55.380 --> 03:03.070
+kun x lähestyy c:tä, on myös yhtä kuin L.
+
+03:03.070 --> 03:05.810
+Tämä saattaa vaikuttaa vielä hieman kummalliselta,
+
+03:05.810 --> 03:07.220
+aion myös kirjoittaa toisen tapauksen, ja sitten
+
+03:07.220 --> 03:07.750
+annan esimerkin.
+
+03:07.750 --> 03:09.710
+Teemme useita esimerkkejä, ja
+
+03:09.710 --> 03:10.580
+esimerkit tekevät kaiken selväksi.
+
+03:10.580 --> 03:13.040
+Eli tämä on ensimmäinen tapaus, ja ensimmäinen esimerkki jonka teemme
+
+03:13.040 --> 03:16.650
+on esimerkki tästä.
+
+03:16.650 --> 03:24.390
+Toinen tapaus on, kun f:n raja-arvo, kun x lähestyy c:tä
+
+03:24.390 --> 03:32.960
+on yhtä kuin positiivinen tai negatiivinen ääretön, ja
+
+03:32.960 --> 03:39.470
+g:n raja-arvo, kun x lähestyy c:tä on yhtä kuin positiivinen tai
+
+03:39.470 --> 03:46.280
+negatiivinen ääretön, ja derivaattojen osamäärä on määritelty,
+
+03:46.280 --> 03:51.220
+ja otamme siis raja-arvon f'(x) jaettuna g'(x):llä
+
+03:51.220 --> 03:56.200
+kun x lähestyy c:tä
+
+03:56.200 --> 03:57.410
+ja se on yhtä kuin L.
+
+03:57.410 --> 04:01.860
+Silloin voimme todeta saman kuin aiemminkin.
+
+04:01.860 --> 04:06.070
+Kopion sen.
+
+04:06.070 --> 04:10.220
+Muokkaus, kopionti, ja sitten vielä liitän sen.
+
+04:10.220 --> 04:13.450
+Eli kummassakin näissä tapauksessa,
+
+04:13.450 --> 04:15.520
+haluan varmistaa, että ymmärrät mitä me teemme,
+
+04:15.520 --> 04:18.300
+tämä on siis tilanne, missä jos yrität selvittää tämän raja-arvon tässä,
+
+04:18.300 --> 04:21.880
+ja saat f(c) = 0, tai siis
+
+04:21.880 --> 04:25.990
+f:n raja-arvo, kun x lähestyy c:tä jaettuna g:n raja-arvolla
+
+04:25.990 --> 04:27.480
+kun x lähestyy c:tä.
+
+04:27.480 --> 04:30.550
+Siitä tulee 0/0.
+
+04:30.550 --> 04:32.440
+Ja sanot siis, hei, en tiedä mikä tuo raja-arvo on!
+
+04:32.440 --> 04:33.600
+Mutta tämä kertoo sen, katso.
+
+04:33.600 --> 04:37.440
+Jos raja-arvo on olemassa, voin ottaa molempien funktioiden derivaatan
+
+04:37.440 --> 04:41.020
+ja sitten yrittää ratkaista raja-arvon.
+
+04:41.020 --> 04:44.220
+Ja jos saan luvun, jos se on olemassa, sitten niiden raja-arvo
+
+04:44.220 --> 04:45.980
+tulee olemaan sama raja-arvo.
+
+04:45.980 --> 04:48.710
+Tämä on tilanne, missä otamme raja-arvon, ja saamme
+
+04:48.710 --> 04:52.060
+ääretön jaettuna äärettömällä, tai negatiivinen tai positiivinen ääretön
+
+04:52.060 --> 04:54.070
+jaettuna positiivisella tai negatiivisella äärettömällä.
+
+04:54.070 --> 04:57.030
+Eli nämä ovat kaksi määrittelemätöntä muotoa.
+
+04:57.030 --> 04:59.410
+Ja teen tämän selväksi esimerkin kautta,
+
+04:59.410 --> 05:03.610
+sillä uskon, että se selkeyttää paljon.
+
+05:03.610 --> 05:08.910
+Eli, sanotaan vaikka, että yritämme löytää raja-arvon --
+
+05:08.910 --> 05:10.610
+teen tämän uudella värillä.
+
+05:10.610 --> 05:13.830
+Teen sen lilalla.
+
+05:13.830 --> 05:17.420
+Sanotaan, että haluamme löytää raja-arvon funktiolle sin(x)/x
+
+05:17.420 --> 05:23.160
+kun x lähestyy nollaa.
+
+05:23.160 --> 05:27.430
+Nyt, jos me vain katsomme tätä, tai yritämme löytää sen pisteessä 0, tai
+
+05:27.430 --> 05:30.410
+yritämme ottaa raja-arvon kun lähestymme nollaa kummassakin näistä yhtälöistä,
+
+05:30.410 --> 05:33.180
+saamme 0/0.
+
+05:33.180 --> 05:35.370
+Sin(0) = 0.
+
+05:35.370 --> 05:39.620
+Tai sin(x):n raja-arvo, kun x lähestyy nollaa, on 0.
+
+05:39.620 --> 05:42.120
+Ja selvästi, x:n raja-arvo, kun x lähestyy nollaa,
+
+05:42.120 --> 05:43.140
+se on myös 0.
+
+05:43.140 --> 05:45.100
+Eli tämä on määrittelemätön muoto.
+
+05:45.100 --> 05:48.180
+Ja jos haluat miettiä sitä, tämä on on meidän f(x), tuo
+
+05:48.180 --> 05:51.240
+f(x) tuossa on sin(x).
+
+05:51.240 --> 05:55.510
+Ja meidän g(x), tuo g(x) tuossa tälle ensimmäiselle tapaukselle,
+
+05:55.510 --> 06:00.070
+on x.
+
+06:00.070 --> 06:07.170
+g(x) on yhtä kuin x ja f(x) on yhtä kuin sin(x).
+
+06:07.170 --> 06:10.130
+Ja huomaa, tiedämme varmasti, että
+
+06:10.130 --> 06:11.520
+kaksi ensimmäistä ehtoa pätevät.
+
+06:11.520 --> 06:14.970
+sin(x):n raja-arvo, x lähestyy, tässä tapauksessa c on 0.
+
+06:14.970 --> 06:19.540
+sin(x):n raja-arvo, kun x lähestyy nollaa on 0 ja
+
+06:19.540 --> 06:24.030
+x:n raja-arvo, kun x lähestyy nolla on 0.
+
+06:24.030 --> 06:26.180
+Eli saamme määrittelemättömän muodon.
+
+06:26.180 --> 06:29.340
+Eli katsotaanpa onko tämä raja-arvo edes määritelty.
+
+06:29.340 --> 06:32.100
+Jos otamme f(x):n derivaatan ja jaamme sen
+
+06:32.100 --> 06:35.900
+g(x):n derivaatalla, ja otamme raja-arvon kun x lähestyy nollaa,
+
+06:35.900 --> 06:38.400
+tässä tapauksessa se on c:mme.
+
+06:38.400 --> 06:40.530
+Katsotaan onko tämä raja-arvo määritelty.
+
+06:40.530 --> 06:44.600
+Teen sen sinisellä.
+
+06:44.600 --> 06:48.160
+Eli kirjoitan molempien funktioiden derivaatat.
+
+06:48.160 --> 06:50.720
+f'(x)
+
+06:50.720 --> 06:53.590
+jos f(x) on sin(x), mitä on f'(x)?
+
+06:53.590 --> 06:55.480
+No, se on yksinkertaisesti cos(x).
+
+06:55.480 --> 06:57.390
+Olet oppinut sen monta kertaa.
+
+06:57.390 --> 07:01.215
+Ja jos g(x) on x, mikä on g'(x)?
+
+07:01.215 --> 07:02.150
+Se on todella helppo.
+
+07:02.150 --> 07:06.280
+x:n derivaatta on yksinkertaisesti 1.
+
+07:06.280 --> 07:13.690
+Yritetään löytää raja-arvo f'(x) jaettuna g'(x):llä
+
+07:13.690 --> 07:17.000
+kun x lähestyy nollaa.
+
+07:17.000 --> 07:19.390
+Eli se tulee olemaan raja-arvo cos(x) jaettuna 1:llä,
+
+07:19.390 --> 07:25.620
+kun x lähestyy nollaa.
+
+07:25.620 --> 07:28.650
+Kirjoitin 1:n hieman oudosti.
+
+07:28.650 --> 07:30.170
+Ja tämä on melko suoraviivaista.
+
+07:30.170 --> 07:30.990
+Mitä siitä tulee?
+
+07:30.990 --> 07:33.610
+No, kun x lähestyy nollaa,
+
+07:33.610 --> 07:37.290
+cos(x) on yhtä kuin 1.
+
+07:37.290 --> 07:39.320
+Ja selvästi, 1:n raja-arvo, kun x lähestyy nollaa,
+
+07:39.320 --> 07:40.900
+se on myös yhtä kuin 1.
+
+07:40.900 --> 07:46.470
+Eli tässä tapauksessa f'(x) jaettuna g'(g)
+
+07:46.470 --> 07:49.820
+kun x lähestyy -- meidän tapauksessamme c on 0 --
+
+07:49.820 --> 07:54.590
+kun x lähestyy nollaa,
+
+07:54.590 --> 07:56.240
+on yhtä kuin 1.
+
+07:56.240 --> 07:59.060
+Raja-arvo on olemassa ja se on yhtä kuin 1, eli
+
+07:59.060 --> 08:00.580
+kaikki ehdot pätevät.
+
+08:00.580 --> 08:02.500
+Tämä on se tapaus mitä käsittelemme.
+
+08:02.500 --> 08:06.700
+sin(x):n raja-arvo, kun x lähestyy nollaa, on yhtä kuin 0.
+
+08:06.700 --> 08:10.650
+x:n raja-arvo, kun x lähestyy nollaa, on myöskin yhtä kuin 0.
+
+08:10.650 --> 08:14.500
+Raja-arvo sin(x):n derivaatta jaettuna
+
+08:14.500 --> 08:17.490
+x:n derivaatalla, mikä on cos(x) yli 1:n -- selvitimme,
+
+08:17.490 --> 08:21.000
+että tämä on yhtä kuin 1.
+
+08:21.000 --> 08:24.610
+Kaikki ehdot toteutuvat, joten tiedämme nyt
+
+08:24.610 --> 08:26.480
+että näin on oltava.
+
+08:26.480 --> 08:34.500
+Että sin(x) yli x:n raja-arvo, kun x lähestyy nollaa,
+
+08:34.500 --> 08:36.690
+on yhtä kuin 1.
+
+08:36.690 --> 08:42.510
+Sen on oltava sama raja-arvo kuin tämä arvo tässä, missä
+
+08:42.510 --> 08:46.120
+me otamme f(x):n ja g(x):n derivaatat.
+
+08:46.120 --> 08:48.430
+Annan lisää esimerkkejä seuraavissa videoissa ja
+
+08:48.430 --> 08:50.760
+uskon että tästä tulee
+
+08:50.760 --> 08:51.000
+paljon konkreettisempaa.

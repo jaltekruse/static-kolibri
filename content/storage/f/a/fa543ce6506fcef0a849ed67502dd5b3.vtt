@@ -1,0 +1,688 @@
+WEBVTT
+
+00:00.005 --> 00:01.510
+Bạn có thể nhận ra là ta có
+
+00:01.510 --> 00:05.978
+phần màu vàng ở đây là dạng tổng quát của chuỗi p,
+
+00:05.978 --> 00:07.622
+và điều ta sẽ làm trong video này là
+
+00:07.622 --> 00:09.551
+nghĩ về điều kiện cần thiết
+
+00:09.551 --> 00:13.455
+cho P để chuỗi P này hội tụ.
+
+00:13.455 --> 00:15.701
+Và để nó có dạng chuỗi p, theo định nghĩa,
+
+00:15.701 --> 00:18.534
+P sẽ lớn hơn 0.
+
+00:19.474 --> 00:21.348
+Vậy, mình đã có sẵn những hình minh họa
+
+00:21.348 --> 00:23.950
+để chúng ta hiểu khi nào thì
+
+00:23.950 --> 00:26.057
+chuỗi P này hội tụ.
+
+00:26.057 --> 00:28.708
+Ở đây, bạn có đồ thị,
+
+00:28.708 --> 00:31.468
+đường cong này là y =
+
+00:31.468 --> 00:34.654
+1 / x mũ P.
+
+00:34.654 --> 00:36.092
+Và ta ghi nó ở dạng tổng quát,
+
+00:36.092 --> 00:38.078
+tại vì P lớn hơn 0, ta biết
+
+00:38.078 --> 00:40.904
+nó sẽ là 1 hàm số giảm dần như này.
+
+00:40.904 --> 00:43.274
+Một lần nữa, đó là y = 1 / x
+
+00:43.274 --> 00:45.104
+mũ P.
+
+00:45.104 --> 00:47.271
+Bây giờ, phần mình đã tô trước
+
+00:47.271 --> 00:48.989
+ở dưới đồ thị, ở trên trục x dương,
+
+00:48.989 --> 00:51.975
+nó là tích phân này.
+
+00:51.975 --> 00:54.538
+Từ 1 đến vô cực,
+
+00:54.538 --> 00:57.313
+tích phân suy rộng của 1 / x mũ P,
+
+00:57.313 --> 01:00.123
+dX, cho phần diện tích này, cái mà
+
+01:00.123 --> 01:01.979
+mình đã tô, bạn thấy nó có màu trắng
+
+01:01.979 --> 01:03.975
+ở cả 2 đồ thị.
+
+01:03.975 --> 01:05.422
+Và điều mình mong là bạn sẽ
+
+01:05.422 --> 01:08.150
+nhìn được là nó có mối quan hệ
+
+01:08.150 --> 01:10.424
+hội tụ hoặc phân kỳ chặt chẽ giữa
+
+01:10.424 --> 01:13.540
+chuỗi p này, và tích phân này ngay đây.
+
+01:13.540 --> 01:17.170
+Bởi vì khi ta nhìn đồ thị bên tay trái này,
+
+01:17.170 --> 01:19.809
+ta thấy chuỗi P này có thể được xem là
+
+01:19.809 --> 01:23.729
+sự ước lượng phía trên của Riemann của phần diện tích kia.
+
+01:23.729 --> 01:25.239
+Nó có nghĩa là gì?
+
+01:25.239 --> 01:27.132
+Hãy nghĩ về
+
+01:27.132 --> 01:30.549
+diện tích của hình chữ nhật đầu tiên này.
+
+01:31.614 --> 01:34.614
+Chiều rộng là 1, chiều dài là
+
+01:35.480 --> 01:40.002
+1/1 mũ P.
+
+01:40.002 --> 01:41.885
+Vây đây sẽ là số hạng thứ nhất,
+
+01:41.885 --> 01:43.217
+trong dãy P này,
+
+01:43.217 --> 01:45.553
+vậy nó chỉ là diện tích của 1.
+
+01:45.553 --> 01:48.532
+Chỉ là tỉ lệ X và Y không giống nhau.
+
+01:48.532 --> 01:49.717
+Cái này ở ngay đây;
+
+01:49.717 --> 01:52.365
+diện tích nó sẽ là 1/2 mũ P.
+
+01:52.365 --> 01:54.736
+Diện tích này là 1/3 mũ P.
+
+01:54.736 --> 01:58.001
+Vậy tổng diện tích các hình chữ nhật,
+
+01:58.001 --> 02:00.376
+tức là chuỗi P này, là
+
+02:00.376 --> 02:02.565
+bạn có thể thấy rằng mỗi hình chữ nhật
+
+02:02.565 --> 02:06.403
+nó đang bao phủ phần diện tich lớn hơn ở dưới đường cong.
+
+02:06.403 --> 02:08.122
+Vậy ta biết diện tích dưới đường cong,
+
+02:08.122 --> 02:09.701
+sẽ lớn hơn 0,
+
+02:09.701 --> 02:13.505
+chuỗi P này sẽ lớn hơn
+
+02:13.505 --> 02:16.079
+tích phân này, lớn hơn diện tích dưới đường cong.
+
+02:16.079 --> 02:18.515
+Nhưng nếu ta cộng 1 vào diện tích dưới đường cong,
+
+02:18.515 --> 02:20.883
+bây giờ ta không chỉ nói về phần diện tích màu trắng,
+
+02:20.883 --> 02:23.671
+mà còn là phần diện tích màu đỏ này,
+
+02:23.671 --> 02:25.626
+vậy chuỗi P của ta sẽ nhỏ hơn nó.
+
+02:25.626 --> 02:29.118
+Tại vì số hạng thứ 1 của chuỗi P bằng 1,
+
+02:29.118 --> 02:31.168
+và tất cả số hạng còn lại,
+
+02:31.168 --> 02:33.866
+bạn có thể xem nó là ước lượng bên dưới của Riemann
+
+02:33.866 --> 02:34.699
+của đường cong.
+
+02:34.699 --> 02:36.756
+Và bạn thấy đó, nó vừa vặn dưới đường cong,
+
+02:36.756 --> 02:38.327
+và nó để lại một vài diện tích.
+
+02:38.327 --> 02:41.508
+Vậy, nó sẽ nhỏ hơn biểu thức kia.
+
+02:41.508 --> 02:42.961
+Hãy nghĩ về điều này,
+
+02:42.961 --> 02:43.794
+nếu ta biết
+
+02:45.090 --> 02:48.477
+cái này ngay đây phân kỳ,
+
+02:48.477 --> 02:50.822
+vậy tích phân suy rộng phân kỳ,
+
+02:50.822 --> 02:53.520
+nó không hội tụ về 1 giá trị hữu hạn,
+
+02:53.520 --> 02:55.614
+chuỗi P lớn hơn nó,
+
+02:55.614 --> 02:58.550
+vậy nếu nó phân kỳ, cái này cũng sẽ phân kỳ.
+
+02:58.550 --> 03:01.955
+Giống như vậy, nếu cái này hội tụ, tích phân
+
+03:01.955 --> 03:03.131
+tương tự ngay đây,
+
+03:03.131 --> 03:05.524
+nếu cái này hội tụ, nó đi đến 1 giá trị hữu hạn.
+
+03:05.524 --> 03:08.520
+1 cộng nó sẽ tiếp tục hội tụ,
+
+03:08.520 --> 03:11.227
+vậy, chuỗi P sẽ phải hội tụ,
+
+03:11.227 --> 03:13.644
+nó phải đi đến 1 giá trị hữu hạn.
+
+03:15.028 --> 03:16.660
+Tất cả những gì mình đang nói ngay đây,
+
+03:16.660 --> 03:19.054
+nó thật sự chỉ là 1 bài thử tích phân, khi ta nghĩ
+
+03:19.054 --> 03:21.213
+về các bài test về hội tụ và phân kỳ,
+
+03:21.213 --> 03:23.805
+nhưng mình chỉ muốn chắc chắn là ta hiểu
+
+03:23.805 --> 03:25.818
+ý tưởng của nó, không chỉ là
+
+03:25.818 --> 03:28.509
+áp dụng thử tích phân 1 cách mù quáng.
+
+03:28.509 --> 03:30.419
+Và bạn có thể đi chiều ngược lại,
+
+03:30.419 --> 03:33.348
+nếu chuỗi p hội tụ, vậy thì chắc chắn
+
+03:33.348 --> 03:36.033
+tích phân này sẽ hội tụ, và nếu
+
+03:36.033 --> 03:38.165
+chuỗi P phân kỳ, thì chắc chắn
+
+03:38.165 --> 03:39.658
+biểu thức này ngay đây cũng sẽ
+
+03:39.658 --> 03:42.201
+phân kỳ và tích phân cũng phân kỳ.
+
+03:42.201 --> 03:45.145
+Vậy ta có thể nói chuỗi P sẽ hội tụ, nếu
+
+03:45.145 --> 03:48.734
+chỉ khi tích phân này ngay đây
+
+03:48.734 --> 03:49.971
+hội tụ.
+
+03:49.971 --> 03:52.439
+Hãy tìm xem dưới điều kiện nào
+
+03:52.439 --> 03:55.139
+cho P thì chuỗi P hội tụ,
+
+03:55.139 --> 03:56.963
+tức là điều kiện gì
+
+03:56.963 --> 03:59.228
+để tích phân này hội tụ?
+
+03:59.228 --> 04:02.354
+Hãy kéo xuống 1 chút để mình có thêm chỗ làm
+
+04:02.354 --> 04:04.537
+để nghĩ về cần phải có gì để
+
+04:04.537 --> 04:06.324
+tích phân này hội tụ.
+
+04:06.324 --> 04:08.094
+Vậy, mình sẽ viết nó lại.
+
+04:08.094 --> 04:10.357
+Ta có tích phân từ 1 đến vô cực.
+
+04:10.357 --> 04:14.107
+tích phân suy rộng, của 1/x mũ P, dX
+
+04:15.153 --> 04:18.321
+cái này giống với, đây là giới hạn
+
+04:18.321 --> 04:21.162
+mình cũng sẽ sử dụng biến M vì ta đã xài
+
+04:21.162 --> 04:24.427
+N rồi, khi M tiến tới vô cực.
+
+04:24.427 --> 04:26.388
+Và tích phân từ
+
+04:26.388 --> 04:30.278
+1 đến M của 1/,
+
+04:30.278 --> 04:33.188
+thật ra để mình ghi nó là X mũ trừ P.
+
+04:33.188 --> 04:36.500
+x mũ trừ P, dX.
+
+04:36.500 --> 04:37.933
+Hãy tập trung vào nó, ta se nhớ
+
+04:37.933 --> 04:39.167
+là ta phải lấy
+
+04:39.167 --> 04:41.379
+giới hạn khi M tiến tới vô cực.
+
+04:41.379 --> 04:42.721
+Mình không muốn phải ghi nó lại
+
+04:42.721 --> 04:44.719
+nhiều lần.
+
+04:44.719 --> 04:46.016
+Vậy hãy nghĩ nó là cái gì,
+
+04:46.016 --> 04:48.849
+ta có một vài điều kiện,
+
+04:48.849 --> 04:51.669
+ta biết là P lớn hơn 0,
+
+04:51.669 --> 04:54.092
+nhưng có 2 trường hợp xảy ra ở đây:
+
+04:54.092 --> 04:57.171
+1 là P = 1.
+
+04:57.171 --> 04:59.353
+nếu P = 1, cái này sẽ chỉ là
+
+04:59.353 --> 05:02.273
+tích phân của 1/x, và cái này
+
+05:02.273 --> 05:05.523
+sẽ là tích phân của ln (X)
+
+05:06.879 --> 05:10.005
+và ta sẽ đi từ 1 đến M,
+
+05:10.005 --> 05:13.690
+và nó sẽ là log nepe của M
+
+05:13.690 --> 05:15.970
+trừ log nepe của 1,
+
+05:15.970 --> 05:18.083
+E mũ 0 là 1, vậy log nepe,
+
+05:18.083 --> 05:18.916
+mình sẽ ghi nó ra,
+
+05:18.916 --> 05:20.599
+log nepe của 1, nhưng nó
+
+05:20.599 --> 05:22.014
+chỉ bằng 0 .
+
+05:22.014 --> 05:24.758
+Trong trường hợp đặc biệt này, mình đoán ta có thể nói,
+
+05:24.758 --> 05:26.007
+khi P = 1,
+
+05:26.007 --> 05:29.068
+tích phân này, từ 1 đến M, dẫn đến
+
+05:29.068 --> 05:31.066
+log nepe của M.
+
+05:31.066 --> 05:33.202
+Bây giờ, hãy nghĩ về trường hợp
+
+05:33.202 --> 05:37.247
+khi P không bằng 1.
+
+05:37.247 --> 05:38.809
+Ta có thể chỉ đảo ngược lại
+
+05:38.809 --> 05:40.524
+quy tắc lũy thừa mà ta đã học trong
+
+05:40.524 --> 05:41.627
+tích phân cơ bản,
+
+05:41.627 --> 05:43.442
+Vậy ta sẽ tăng dần số mũ lên,
+
+05:43.442 --> 05:47.071
+để nó sẽ là X mũ trừ P cộng 1.
+
+05:47.071 --> 05:49.115
+và ta có thể viết nó là
+
+05:49.115 --> 05:52.233
+x mũ 1 trừ P, nó sẽ giống với
+
+05:52.233 --> 05:54.143
+trừ P cộng 1,
+
+05:54.143 --> 05:55.757
+sau đó mình sẽ chia cho nó.
+
+05:55.757 --> 05:57.090
+Vậy 1 cộng P.
+
+06:00.659 --> 06:04.326
+Ta sẽ đi từ 1 tới M,
+
+06:04.326 --> 06:06.229
+và cái này sẽ bằng với,
+
+06:06.229 --> 06:07.688
+ta có thể ghi nó là,
+
+06:07.688 --> 06:10.740
+M mũ 1 trừ P,
+
+06:10.740 --> 06:13.230
+trên 1 trừ P.
+
+06:13.230 --> 06:16.852
+trừ, 1 mũ 1 trừ P,
+
+06:16.852 --> 06:18.269
+trên 1 trừ P.
+
+06:19.454 --> 06:21.522
+Bây giờ, hãy xác định các giới hạn,
+
+06:21.522 --> 06:23.945
+nhớ là với tích phân này, ta không lấy
+
+06:23.945 --> 06:25.453
+nguyên hàm hoặc là tích phân xác định,
+
+06:25.453 --> 06:26.758
+nhưng ta muốn lấy giới hạn này khi
+
+06:26.758 --> 06:28.125
+M tiến tới vô cực
+
+06:28.125 --> 06:31.958
+Vậy, giới hạn khi M tiến tới vô cực
+
+06:32.863 --> 06:34.113
+của log nepe là gì?
+
+06:37.530 --> 06:38.551
+của M?
+
+06:38.551 --> 06:40.686
+Nếu M đi không giới hạn tới vô cực.
+
+06:40.686 --> 06:42.527
+log nepe của nó sẽ chỉ đang đi
+
+06:42.527 --> 06:45.603
+tới vô cực.
+
+06:45.603 --> 06:48.436
+Vậy khi P = 1, cái này không hội tụ,
+
+06:48.436 --> 06:50.936
+nó chỉ không bị giới hạn.
+
+06:50.936 --> 06:55.103
+Vậy, P = 1, ta phân kỳ.
+
+06:56.806 --> 06:58.072
+Ta đã biết nó rồi.
+
+06:58.072 --> 06:59.604
+Bây giờ, hãy nhìn cái này
+
+06:59.604 --> 07:01.404
+và nghĩ về
+
+07:01.404 --> 07:05.308
+giới hạn khi M tiến tới vô cực,
+
+07:05.308 --> 07:07.565
+của biểu thức này ngay đây.
+
+07:07.565 --> 07:09.742
+Phần duy nhất mà bị ảnh hưởng bởi
+
+07:09.742 --> 07:11.602
+giới hạn, là phần có M.
+
+07:11.602 --> 07:13.271
+Ta có thể viết nó là, ta lấy
+
+07:13.271 --> 07:16.096
+cái này trên 1 cộng P ra khỏi nó,
+
+07:16.096 --> 07:19.212
+ta có 1 trên 1 trừ P,
+
+07:19.212 --> 07:20.924
+nhân giới hạn khi M tiến tới vô cực,
+
+07:20.924 --> 07:23.317
+của M mũ 1 trừ P.
+
+07:23.317 --> 07:25.564
+và ta có thể trừ nó riêng lẻ
+
+07:25.564 --> 07:28.212
+1 mũ 1 trừ P, với số mũ nào
+
+07:28.212 --> 07:30.247
+cũng sẽ bằng 1,
+
+07:30.247 --> 07:32.296
+trên 1 trừ P.
+
+07:32.296 --> 07:33.129
+Nó đúng chứ?
+
+07:33.129 --> 07:34.977
+Bất cứ số mũ nào mình bỏ ở đó,
+
+07:34.977 --> 07:38.426
+1 mũ nào cũng sẽ bằng 1.
+
+07:38.426 --> 07:40.530
+Và điều thú vị về liệu
+
+07:40.530 --> 07:44.116
+nó có hội tụ hay không, phần này của biểu thức.
+
+07:44.116 --> 07:46.147
+Nó sẽ phụ thuộc vào liệu
+
+07:46.147 --> 07:49.252
+số mũ là dương hay âm.
+
+07:49.252 --> 07:53.252
+Nếu 1 trừ P lớn hơn 0,
+
+07:55.207 --> 07:56.925
+nếu mình đang đi tới vô cực và mình lấy
+
+07:56.925 --> 08:00.505
+cái này mũ dương lên,
+
+08:00.505 --> 08:02.353
+thì nó sẽ phân kỳ.
+
+08:02.353 --> 08:04.537
+Trong trường hợp ta phân kỳ, và
+
+08:04.537 --> 08:05.817
+1 trừ P lớn hơn 0, ta có thể
+
+08:05.817 --> 08:08.331
+cộng P vào cả 2 phía.
+
+08:08.331 --> 08:11.541
+Nó giống với khi 1 lớn hơn P,
+
+08:11.541 --> 08:14.995
+hoặc P nhỏ hơn 1,
+
+08:14.995 --> 08:17.690
+ta sẽ phân kỳ.
+
+08:17.690 --> 08:19.304
+Ta đã biết là P sẽ lớn hơn 0,
+
+08:19.304 --> 08:22.154
+và ta đã thấy nếu P = 1, hoặc nếu nó nhỏ hơn 1,
+
+08:22.154 --> 08:24.253
+ta sẽ phân kỳ.
+
+08:24.253 --> 08:26.678
+Nhưng nếu số mũ ngay đây là âm,
+
+08:26.678 --> 08:30.258
+nếu 1 trừ P nhỏ hơn 0,
+
+08:30.258 --> 08:32.815
+hãy nghĩ điều này, nó sẽ là
+
+08:32.815 --> 08:35.486
+1 trên M mũ dương nào đó,
+
+08:35.486 --> 08:37.088
+là 1 cách để nghĩ về nó.
+
+08:37.088 --> 08:38.428
+Vậy khi M tiến tới vô cực, toàn bộ
+
+08:38.428 --> 08:40.655
+cái này sẽ tiến tới 0.
+
+08:40.655 --> 08:42.556
+Vậy, đây thật ra sẽ là 1 trường hợp
+
+08:42.556 --> 08:45.952
+khi ta hội tụ, và ta có 1 giá trị hữu hạn.
+
+08:45.952 --> 08:47.375
+Và ta cộng P vào cả 2 phía,
+
+08:47.375 --> 08:51.522
+ta có 1 nhỏ hơn P, ta hội tụ.
+
+08:51.522 --> 08:53.053
+Và xong rồi, ta đã thiết lập,
+
+08:53.053 --> 08:56.066
+tích phân này sẽ chỉ hội tụ trong
+
+08:56.066 --> 08:58.819
+trường hợp mà P lớn hơn 1.
+
+08:58.819 --> 09:01.236
+lúc đó, nó sẽ hội tụ.
+
+09:02.522 --> 09:07.287
+Và nếu 0 nhỏ hơn P , nhỏ hơn hoặc = 1,
+
+09:07.287 --> 09:09.035
+nó sẽ phân kỳ.
+
+09:09.035 --> 09:10.702
+Và nó sẽ chính xác là,
+
+09:10.702 --> 09:12.883
+bởi vì chuỗi P hội tụ khi
+
+09:12.883 --> 09:15.345
+và chỉ khi tích phân này hội tụ.
+
+09:15.345 --> 09:17.810
+Và những ràng buộc cụ thể đó
+
+09:17.810 --> 09:20.700
+áp dụng với chuỗi P ban đầu của ta.
+
+09:20.700 --> 09:23.204
+Nó chỉ hội tụ
+
+09:23.204 --> 09:24.627
+trong trường hợp mà
+
+09:24.627 --> 09:28.628
+P lớn hơn 1.
+
+09:28.628 --> 09:32.324
+Và nếu 0 nhỏ hơn P nhỏ hơn hoặc bằng 1,
+
+09:32.324 --> 09:35.574
+nó sẽ phân kỳ.

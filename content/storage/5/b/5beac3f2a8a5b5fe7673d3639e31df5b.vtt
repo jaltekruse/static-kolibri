@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.520 --> 00:04.050
+Điều mà mình muốn làm trong video này là tìm diện tích phần
+
+00:04.050 --> 00:07.200
+mình tô màu vàng này
+
+00:07.200 --> 00:11.140
+và một điểm có vẻ thử thách ở đây là toàn bộ phần này
+
+00:11.140 --> 00:12.810
+mình có hàm số dưới giống nhau
+
+00:12.810 --> 00:14.540
+hoặc mình có ranh giới dưới là y
+
+00:14.540 --> 00:16.870
+bằng x mũ hai phần 4 trừ 1
+
+00:16.870 --> 00:19.242
+nhưng mình lại có hai ranh giới trên khác nhau
+
+00:19.242 --> 00:20.700
+và cách mà chúng ta sẽ xử lý vấn đề này
+
+00:20.700 --> 00:23.290
+là chia diện tích này thành hai phần
+
+00:23.290 --> 00:26.640
+hoặc chia vùng này thành 2 vùng, vùng trái
+
+00:26.640 --> 00:28.250
+và vùng phải
+
+00:28.250 --> 00:30.730
+mà khi đó vùng đầu tiên mình sẽ
+
+00:30.730 --> 00:34.310
+mình sẽ tô đậm màu vàng đối với vùng đầu tiên
+
+00:34.310 --> 00:35.950
+trong toàn bộ khoảng x đó
+
+00:35.950 --> 00:40.360
+và có vẻ như x đi từ 0 đến 1
+
+00:40.360 --> 00:44.280
+y bằng, khi x bằng 1 , hàm số này bằng 1
+
+00:44.280 --> 00:47.220
+khi x bằng 1, hàm số này cũng bằng 1
+
+00:47.220 --> 00:48.810
+vậy điểm này sẽ là 1 phẩy 1
+
+00:48.810 --> 00:50.320
+đây là nơi chúng giao nhau
+
+00:50.320 --> 00:53.250
+vậy đối với phần này, vùng nhỏ ở ngay đâu
+
+00:53.250 --> 00:57.420
+y bằng căn bậc 2 của x là hàm số trên của toàn khoảng này
+
+00:57.420 --> 00:59.230
+và chúng ta có thể có, chúng ta có thể dựng lên
+
+00:59.230 --> 01:02.860
+thật ra chúng ta có thể xử lý riêng lẻ để tìm ra
+
+01:02.860 --> 01:04.920
+diện tích của phần này
+
+01:04.920 --> 01:07.960
+từ x bằng 1 đến x bằng 2
+
+01:07.960 --> 01:10.890
+khi mà y bằng 2 trừ x là hàm số trên
+
+01:10.890 --> 01:12.450
+vậy hãy giải quyết bài toán
+
+01:12.450 --> 01:14.710
+hãy nghĩ về phần diện tích đầu tiên
+
+01:14.710 --> 01:17.050
+đó sẽ là tích phân xác định từ x
+
+01:17.050 --> 01:19.640
+bằng 0 đến x bằng 1
+
+01:19.640 --> 01:25.120
+và hàm số trên là căn bậc hai x, vậy căn bậc 2 x
+
+01:25.120 --> 01:28.390
+và từ đó chúng ta muốn trừ đi hàm số dưới
+
+01:28.390 --> 01:32.320
+căn bậc 2 x trừ x mũ 2 phần 4 trừ 1
+
+01:39.200 --> 01:42.400
+và tất nhiên chúng ta có dx
+
+01:42.400 --> 01:46.350
+vậy ngay đây sẽ biểu diễn cho phần diện tích màu vàng
+
+01:46.350 --> 01:49.730
+và bạn có thể tưởng tượng nó, rằng phần này ngay đây
+
+01:49.730 --> 01:51.660
+điểm khác nhau giữa hai hàm số
+
+01:51.660 --> 01:53.164
+cơ bản là chiều dài
+
+01:53.164 --> 01:54.580
+để mình đánh dấu bằng một màu khác
+
+01:57.820 --> 01:59.680
+sau đó mình nhân nó cho dx
+
+01:59.680 --> 02:03.390
+bạn sẽ có một hình chữ nhật nhỏ ở đây với chiều rộng dx
+
+02:03.390 --> 02:06.600
+và sau đó bạn làm điều đó cho mỗi x
+
+02:06.600 --> 02:08.860
+mỗi x bạn sẽ có một hình chữ nhật khác nhau
+
+02:08.860 --> 02:10.650
+sau đó bạn tổng hợp chúng lại
+
+02:10.650 --> 02:14.570
+và bạn lấy giới hạn khi x tiến đến 0
+
+02:14.570 --> 02:16.664
+và khi đó bạn có những hình chữ nhật vô cùng nhỏ
+
+02:16.664 --> 02:18.330
+và bạn sẽ có một số vô hạn của chúng
+
+02:18.330 --> 02:21.060
+đó là định nghĩ của chúng ta hoặc định nghĩa Riemann
+
+02:21.060 --> 02:22.820
+về việc tích phân xác định là gì
+
+02:22.820 --> 02:25.370
+vậy đây là diện tích của vùng bên trái
+
+02:25.370 --> 02:27.370
+và với cách suy luận tương tự, chúng ta có thể tìm ra
+
+02:27.370 --> 02:28.972
+diện tích vùng bên phải
+
+02:28.972 --> 02:30.680
+vùng bên phải, chúng ta có thể chỉ
+
+02:30.680 --> 02:32.127
+tổng hợp hai thứ với nhau
+
+02:32.127 --> 02:34.210
+vùng bên phải, mình đi từ x bằng 0
+
+02:34.210 --> 02:38.530
+đến x, à mình xin lỗi từ x bằng 1 đến x bằng 2, 1 đến 2
+
+02:38.530 --> 02:42.130
+hàm số trên sẽ là 2 trừ x
+
+02:42.130 --> 02:47.220
+và từ đó, mình sẽ trừ đi hàm số dưới
+
+02:47.220 --> 02:49.660
+sẽ là x mũ 2 phần 4 trừ 1
+
+02:53.780 --> 02:56.060
+bây giờ chúng ta chỉ cần tính giá trị
+
+02:56.060 --> 02:58.800
+vậy hãy rút gọn phần này ở đây
+
+02:58.800 --> 03:02.100
+đây sẽ bằng với tích phân xác định
+
+03:02.100 --> 03:09.220
+từ 0 đến 1 của căn bậc 2 x trừ x mũ 2 phần 4 cộng 1
+
+03:09.220 --> 03:12.020
+dx, mình sẽ ghi tất cả bằng một màu ngay bây giờ
+
+03:12.020 --> 03:18.710
+cộng tích phân xác định từ 1 đến 2 của 2 trừ x
+
+03:18.710 --> 03:21.330
+trừ x mũ 2 phần 4
+
+03:21.330 --> 03:25.330
+sau đó trừ đi một số âm sẽ ra một giá trị 3 dương hoặc 1 dương
+
+03:25.330 --> 03:26.650
+chúng ta chỉ cần cộng nó vào 2 ở đây
+
+03:26.650 --> 03:29.330
+vậy 2 ở đây sẽ trở thành 3
+
+03:29.330 --> 03:34.747
+mình nói 2 trừ âm 1 sẽ bằng 3 dx
+
+03:34.747 --> 03:36.705
+và bây giờ chúng ta chỉ cần lấy nguyên hàm
+
+03:36.705 --> 03:39.310
+và tính giá trị tại 1 và 0
+
+03:39.310 --> 03:42.130
+vậy nguyên hàm của nó sẽ là
+
+03:42.130 --> 03:43.480
+đây là x mũ 1 phần 2
+
+03:43.480 --> 03:44.730
+tăng 1 bậc của nó
+
+03:44.730 --> 03:47.500
+tăng 1 bậc luỹ thừa, chúng ta sẽ được x mũ 3 phần 2
+
+03:47.500 --> 03:49.200
+và sau đó nhân đảo ngược
+
+03:49.200 --> 03:53.650
+của số mũ mới vậy nó sẽ là 2 phần 3 x mũ 3 phần 2
+
+03:53.650 --> 03:56.410
+trừ nguyên hàm của x mũ 2 phần 4
+
+03:56.410 --> 04:02.160
+là x mũ 3, chia 3, chia 4 nghĩa là chia 12
+
+04:02.160 --> 04:03.660
+cộng x
+
+04:03.660 --> 04:05.510
+đó là nguyên hàm của 1
+
+04:05.510 --> 04:09.590
+chúng ta sẽ tính giá trị nó tại 1 và 0
+
+04:09.590 --> 04:11.640
+vậy ở đây nguyên hàm
+
+04:11.640 --> 04:19.670
+sẽ là 3 x trừ x mũ 2 phần 2 trừ
+
+04:19.670 --> 04:22.029
+x mũ 3 phần 12
+
+04:22.029 --> 04:24.450
+một lần nữa, tính giá trị nó tại hoặc không
+
+04:24.450 --> 04:28.460
+bây giờ chúng ta sẽ tính giá trị tại 2 và 1
+
+04:28.460 --> 04:30.610
+vậy ở đây, bạn tính giá trị tất cả phần này tại 1
+
+04:30.610 --> 04:35.690
+bạn lấy 2 phần 3 trừ 1 phần 12 cộng 1
+
+04:35.690 --> 04:38.410
+và từ đó bạn trừ phần này tính giá trị tại 0
+
+04:38.410 --> 04:41.010
+nhưng tất cả đều bằng 0 nên bạn không có gì cả
+
+04:41.010 --> 04:44.260
+vậy đây sẽ là kết quả rút gọn của phần màu vàng
+
+04:44.260 --> 04:46.740
+và phần màu tím này hoặc phần hồng đậm này
+
+04:46.740 --> 04:51.070
+hoặc tím đậm hoặc bất kể nó là màu gì, đầu tiên bạn tính giá trị nó tại 2
+
+04:51.070 --> 04:58.330
+bạn có 6 trừ, để xem, 2 mũ 2 phần 2 bằng 2 trừ 8
+
+04:58.330 --> 04:58.920
+phần 12
+
+05:01.520 --> 05:03.650
+và từ đó bạn sẽ trừ
+
+05:03.650 --> 05:05.460
+kết quả tính giá trị tại 1
+
+05:05.460 --> 05:13.270
+nó sẽ là 3 nhân 1 bằng 3 trừ 1 phần 2 trừ 1
+
+05:13.270 --> 05:14.604
+phần 12
+
+05:14.604 --> 05:16.270
+và bây giờ cơ bản chúng ta chỉ cần
+
+05:16.270 --> 05:17.889
+cộng tất cả những phân số này lại
+
+05:17.889 --> 05:19.180
+để xem liệu chúng ta có thể làm điều đó
+
+05:19.180 --> 05:20.930
+có vẻ như 12 hiển nhiên là
+
+05:20.930 --> 05:22.300
+mẫu số chung
+
+05:22.300 --> 05:29.430
+vậy ở đây bạn có 8 phần 12 trừ 1 phần 12 cộng 12 phần 12
+
+05:29.430 --> 05:31.310
+vậy đây sẽ được rút gọn về
+
+05:31.310 --> 05:36.440
+đây sẽ là 19 phần 12, phần màu vàng của chúng ta
+
+05:36.440 --> 05:40.190
+tiếp đến phần bên này, để mình làm nó với màu này
+
+05:40.190 --> 05:43.280
+vậy 6 trừ 2 sẽ là 4
+
+05:43.280 --> 05:51.100
+mình có thể viết nó là 48 phần 12 là 4 trừ 8 phần 12
+
+05:51.100 --> 05:54.460
+sau đó chúng ta phải trừ đi 3 đồng nghĩa với 36 phần 12
+
+05:57.170 --> 06:02.410
+sau đó cộng 1 phần 2, đồng nghĩa với cộng 6 phần 12
+
+06:02.410 --> 06:06.030
+sau đó chúng ta sẽ cộng 1 phần 12
+
+06:06.030 --> 06:10.730
+vậy đây sẽ được rút ngọn thành để xem nào, 48 trừ 8
+
+06:10.730 --> 06:18.410
+là 40, trừ 36 là 4 cộng 6 là 10 cộng 1 là 11
+
+06:18.410 --> 06:21.614
+vậy đây sẽ trở thành cộng 11
+
+06:21.614 --> 06:23.030
+để mình kiểm tra chắc chắn là mình làm đúng
+
+06:23.030 --> 06:28.830
+48 trừ 8 là 40 trừ 36 là 4, 10, 11
+
+06:28.830 --> 06:30.040
+vậy là đúng rồi nhé
+
+06:30.040 --> 06:31.955
+sau đó chúng ta đã sẵn sàng để cộng cả hai bên lại
+
+06:31.955 --> 06:36.010
+19 cộng 11 bằng 30 phần 12
+
+06:36.010 --> 06:38.290
+nếu chúng ta muốn rút ngọn một chút
+
+06:38.290 --> 06:40.990
+chúng ta có thể chia mẫu số và tử số cho 6
+
+06:40.990 --> 06:44.960
+sẽ bằng với 5 phần 2 hoặc 2 và 1 phần 2
+
+06:44.960 --> 06:45.630
+vậy chúng ta đã xong
+
+06:45.630 --> 06:50.560
+chúng ta đã tìm ra diện tích toàn bộ phần này
+
+06:50.560 --> 06:53.255
+là 2 và 1 phần 2

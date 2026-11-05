@@ -1,0 +1,497 @@
+WEBVTT
+
+00:00.500 --> 00:03.610
+Trong video vừa rồi, chúng ta đã cố gắng tính gần đúng diện tích
+
+00:03.610 --> 00:07.520
+bên dưới một đường cong bằng cách xây dựng bốn hình chữ nhật có chiều rộng bằng nhau
+
+00:07.520 --> 00:11.320
+và sử dụng đường biên bên trái của mỗi hình chữ nhật, hàm
+
+00:11.320 --> 00:14.380
+được đánh giá ở đường biên bên trái, để xác định chiều cao,
+
+00:14.380 --> 00:16.239
+và chúng ta đã đưa ra một giá trị gần đúng.
+
+00:16.239 --> 00:18.720
+Những gì mình muốn làm trong video này là khái quát mọi thứ một chút
+
+00:18.720 --> 00:20.428
+bằng cách sử dụng cùng một phương pháp, nhưng thực hiện nó
+
+00:20.428 --> 00:22.600
+cho một hàm tùy ý với ranh giới tùy ý
+
+00:22.600 --> 00:25.550
+và một số hình chữ nhật tùy ý.
+
+00:25.550 --> 00:26.940
+Vì vậy, chúng ta hãy làm điều đó.
+
+00:26.940 --> 00:30.140
+Vì vậy, mình sẽ vẽ sơ đồ càng lớn càng tốt
+
+00:30.140 --> 00:34.540
+để làm cho mọi thứ rõ ràng nhất có thể.
+
+00:34.540 --> 00:36.480
+Vì vậy, đó là trục y của mình.
+
+00:36.480 --> 00:42.410
+Và ngay đằng này là trục x của mình.
+
+00:42.410 --> 00:44.500
+Hãy để mình vẽ một hàm tùy ý.
+
+00:44.500 --> 00:47.600
+Vì vậy, giả sử hàm của mình trông giống như vậy.
+
+00:47.600 --> 00:51.510
+Vì vậy, đó là y bằng với f của x.
+
+00:51.510 --> 00:53.460
+Và hãy để mình xác định ranh giới của mình.
+
+00:53.460 --> 00:58.230
+Vì vậy, hãy nói điều này ngay ở đây là x bằng a.
+
+01:00.790 --> 01:06.490
+Và cái này ngay đây là x bằng b.
+
+01:06.490 --> 01:08.230
+Vì vậy, đây là b.
+
+01:08.230 --> 01:13.829
+Và mình sẽ sử dụng n hình chữ nhật,
+
+01:13.829 --> 01:15.620
+và mình sẽ sử dụng hàm được đánh giá
+
+01:15.620 --> 01:17.410
+ở ranh giới bên trái của hình chữ nhật
+
+01:17.410 --> 01:18.740
+để xác định chiều cao của nó.
+
+01:18.740 --> 01:22.030
+Vì vậy, ví dụ, đây sẽ là một hình chữ nhật.
+
+01:22.030 --> 01:24.100
+Mình sẽ đánh giá f của a là gì.
+
+01:27.300 --> 01:31.950
+Vì vậy, cái này ở đây là f của a.
+
+01:31.950 --> 01:33.880
+Và sau đó mình sẽ sử dụng nó làm chiều cao
+
+01:33.880 --> 01:37.400
+của hình chữ nhật đầu tiên của mình.
+
+01:37.400 --> 01:39.230
+Vì vậy, chỉ cần như vậy.
+
+01:39.230 --> 01:44.001
+Vì vậy, hình chữ nhật số một trông như thế này.
+
+01:44.001 --> 01:45.000
+Và mình sẽ đánh số nó.
+
+01:45.000 --> 01:47.862
+Hình chữ nhật một trông giống như vậy.
+
+01:47.862 --> 01:49.320
+Và chỉ để có một quy ước ở đây,
+
+01:49.320 --> 01:55.380
+bởi vì mình sẽ muốn gắn nhãn từng giá trị x
+
+01:55.380 --> 01:58.740
+ở ranh giới bên trái, vì vậy chúng ta sẽ nói a bằng x0.
+
+01:58.740 --> 02:00.890
+a bằng x0.
+
+02:00.890 --> 02:03.760
+Vì vậy, chúng ta cũng có thể gọi điểm này ngay tại đây là x0,
+
+02:03.760 --> 02:05.699
+giá trị x đó.
+
+02:05.699 --> 02:07.240
+Và sau đó chúng ta đi đến hình chữ nhật tiếp theo.
+
+02:07.240 --> 02:09.880
+Và chúng ta có thể gọi giá trị này ngay tại đây, giá trị x này,
+
+02:09.880 --> 02:10.780
+chúng ta sẽ gọi nó là x1.
+
+02:10.780 --> 02:13.060
+Đó là ranh giới bên trái của hình chữ nhật tiếp theo.
+
+02:13.060 --> 02:16.870
+Nếu chúng ta đánh giá f của x1, chúng ta nhận được giá trị này ngay tại đây.
+
+02:16.870 --> 02:22.312
+Đây là f của x1, vì vậy nó cho chúng ta biết chiều cao của chúng ta.
+
+02:22.312 --> 02:24.270
+Và chúng ta muốn có chiều rộng bằng với chiều rộng trước đó.
+
+02:24.270 --> 02:26.870
+Chúng ta sẽ nghĩ về chiều rộng sẽ như thế nào sau một giây.
+
+02:26.870 --> 02:32.930
+Vì vậy, đây ngay đây là hình chữ nhật thứ hai của chúng ta
+
+02:32.930 --> 02:34.910
+mà chúng ta sẽ sử dụng để ước tính diện tích
+
+02:34.910 --> 02:35.576
+dưới đường cong.
+
+02:35.576 --> 02:37.320
+Đó là hình chữ nhật số hai.
+
+02:37.320 --> 02:39.070
+Hãy làm hình chữ nhật số ba.
+
+02:39.070 --> 02:41.720
+Hình chữ nhật số 3, ranh giới bên trái,
+
+02:41.720 --> 02:43.980
+chúng ta sẽ gọi nó là x 2.
+
+02:43.980 --> 02:48.435
+Và chiều cao của nó sẽ là f của x 2.
+
+02:50.557 --> 02:53.140
+Và chiều rộng của nó sẽ có cùng chiều rộng với những cái khác.
+
+02:53.140 --> 02:56.100
+Mình chỉ đang nhìn nó ngay đằng này.
+
+02:56.100 --> 02:58.050
+Vì vậy, đây là hình chữ nhật số ba.
+
+03:01.020 --> 03:05.130
+Và chúng ta sẽ tiếp tục quá trình này suốt
+
+03:05.130 --> 03:08.890
+cho đến khi chúng ta nhận được hình chữ nhật số n.
+
+03:08.890 --> 03:14.080
+Vì vậy, đây là hình chữ nhật thứ n ở ngay đây,
+
+03:14.080 --> 03:17.740
+hình chữ nhật thứ n.
+
+03:17.740 --> 03:20.820
+Và mình sẽ gắn nhãn điểm này ở đây là gì?
+
+03:20.820 --> 03:22.180
+Chúng ta đã thấy một mô hình.
+
+03:22.180 --> 03:24.840
+Ranh giới bên trái của hình chữ nhật đầu tiên là x 0.
+
+03:24.840 --> 03:28.010
+Ranh giới bên trái của hình chữ nhật thứ hai là x 1.
+
+03:28.010 --> 03:30.270
+Ranh giới bên trái của hình chữ nhật thứ ba là x 2.
+
+03:30.270 --> 03:32.650
+Vì vậy, ranh giới bên trái của hình chữ nhật thứ n
+
+03:32.650 --> 03:37.110
+sẽ là x n trừ 1.
+
+03:37.110 --> 03:39.340
+Dù số hình chữ nhật là bao nhiêu,
+
+03:39.340 --> 03:42.770
+thì ranh giới bên trái là x số đó trừ đi 1.
+
+03:42.770 --> 03:45.952
+Và điều này chỉ dựa trên quy ước mà chúng ta đã xác định.
+
+03:45.952 --> 03:47.910
+Bây giờ, điều tiếp theo mà chúng ta cần làm để
+
+03:47.910 --> 03:50.160
+thực sự tính toán diện tích này là suy nghĩ về
+
+03:50.160 --> 03:51.590
+chiều rộng là bao nhiêu?
+
+03:51.590 --> 03:54.960
+Vì vậy, hãy gọi chiều rộng của bất kỳ hình chữ nhật nào trong số này--
+
+03:54.960 --> 03:57.915
+và cho những mục đích này, hoặc mục đích của ví dụ này,
+
+03:57.915 --> 03:59.540
+mình sẽ giả định rằng nó không đổi,
+
+03:59.540 --> 04:01.140
+mặc dù bạn có thể thực hiện những tổng này khi bạn thực sự
+
+04:01.140 --> 04:02.880
+thay đổi chiều rộng của hình chữ nhật.
+
+04:02.880 --> 04:04.600
+Nhưng sau đó nó trở nên lạ hơn một chút.
+
+04:04.600 --> 04:06.290
+Vì vậy, mình muốn nó có chiều rộng bằng nhau.
+
+04:06.290 --> 04:08.645
+Vì vậy, mình muốn delta x có chiều rộng bằng nhau.
+
+04:08.645 --> 04:10.270
+Và để nghĩ về điều đó phải như thế nào,
+
+04:10.270 --> 04:12.390
+chúng ta chỉ cần nghĩ, tổng chiều rộng mà chúng ta sẽ
+
+04:12.390 --> 04:12.890
+bao phủ là bao nhiêu?
+
+04:12.890 --> 04:17.244
+Tổng khoảng cách ở đây sẽ là b trừ a,
+
+04:17.244 --> 04:19.660
+và chúng ta sẽ chia cho số hình chữ nhật
+
+04:19.660 --> 04:21.743
+mà chúng ta muốn, số phần chúng ta muốn.
+
+04:21.743 --> 04:23.660
+Vì vậy, chúng ta muốn chia cho n.
+
+04:23.660 --> 04:26.560
+Vì vậy, nếu chúng ta giả sử điều này là đúng, và sau đó
+
+04:26.560 --> 04:31.250
+chúng ta giả sử rằng a bằng x0, và sau đó
+
+04:31.250 --> 04:40.610
+x1 bằng x0 cộng với delta x,
+x2 bằng x1 cộng với delta x,
+
+04:40.610 --> 04:49.280
+và chúng ta đi tới xn bằng xn trừ 1 cộng với delta
+
+04:49.280 --> 04:52.330
+x, thì về cơ bản chúng ta đã thiết lập sơ đồ này ngay tại đây.
+
+04:52.330 --> 04:56.630
+b thực sự sẽ bằng xn.
+
+04:56.630 --> 04:57.400
+Vì vậy, đây là xn.
+
+04:57.400 --> 05:01.180
+Nó bằng xn trừ 1 cộng với delta x.
+
+05:01.180 --> 05:04.540
+Vì vậy, bây giờ mình nghĩ rằng chúng ta đã thiết lập tất cả các ký hiệu và tất cả
+
+05:04.540 --> 05:06.890
+các quy ước để thực sự tính toán
+
+05:06.890 --> 05:09.700
+diện tích hoặc tính gần đúng của chúng ta về diện tích.
+
+05:09.700 --> 05:15.030
+Vì vậy, ước tính của chúng ta, diện tích gần đúng,
+
+05:15.030 --> 05:17.737
+sẽ bằng gì?
+
+05:17.737 --> 05:20.070
+Nó sẽ là diện tích của hình chữ nhật đầu tiên--
+
+05:20.070 --> 05:21.153
+vì vậy hãy để mình viết ra.
+
+05:21.153 --> 05:24.410
+Vì vậy, nó sẽ là hình chữ nhật một-- vì vậy diện tích hình chữ nhật
+
+05:24.410 --> 05:33.330
+một-- như vậy hình chữ nhật một cộng với diện tích hình chữ nhật hai
+
+05:33.330 --> 05:35.750
+cộng với diện tích hình chữ nhật ba-- mình nghĩ bạn hiểu
+
+05:35.750 --> 05:46.140
+được vấn đề ở đây-- cộng tới diện tích hình chữ nhật n.
+
+05:46.140 --> 05:47.700
+Và những điều này sẽ là gì?
+
+05:47.700 --> 05:52.400
+Hình chữ nhật một sẽ là chiều cao của nó, là f của x0
+
+05:52.400 --> 05:53.080
+hoặc f của a.
+
+05:53.080 --> 05:55.270
+Dù bằng cách nào. x0 và a là cùng một thứ.
+
+05:55.270 --> 05:58.680
+Vì vậy, nó là f của a nhân delta x,
+
+05:58.680 --> 06:00.690
+nhân với chiều rộng, chiều cao nhân với chiều rộng.
+
+06:00.690 --> 06:05.330
+Vì vậy, nhân delta-- thực sự mình có thể viết là f của x0,
+
+06:05.330 --> 06:09.750
+mình muốn viết-- f của x0 nhân delta x.
+
+06:09.750 --> 06:11.460
+Chiều cao của hình chữ nhật hai là bao nhiêu?
+
+06:11.460 --> 06:14.555
+Đó là f của x1 nhân delta x.
+
+06:19.010 --> 06:20.930
+Diện tích hình chữ nhật ba của chúng ta là bao nhiêu?
+
+06:20.930 --> 06:25.020
+Đó là f của x2 nhân delta x.
+
+06:25.020 --> 06:27.120
+Và sau đó chúng ta đi tới diện tích của chúng ta.
+
+06:27.120 --> 06:29.370
+Chúng ta lấy tất cả các tổng, tất cả tới hình chữ nhật n.
+
+06:29.370 --> 06:30.470
+Diện tích của nó là gì?
+
+06:30.470 --> 06:33.685
+Đó là f của x n trừ 1.
+
+06:33.685 --> 06:34.772
+Thực ra đó là một màu cam khác.
+
+06:34.772 --> 06:35.860
+.
+
+06:35.860 --> 06:37.360
+Nó là f của x n trừ đi 1 nhân delta x.
+
+06:37.360 --> 06:43.276
+Và chúng ta đã xong.
+
+06:43.276 --> 06:46.050
+Chúng ta đã viết nó một cách rất chung chung.
+
+06:46.050 --> 06:47.852
+Nhưng để thực sự làm cho chúng ta thoải mái
+
+06:47.852 --> 06:49.310
+với các dạng ký hiệu khác nhau,
+
+06:49.310 --> 06:50.660
+đặc biệt là các loại ký hiệu mà bạn
+
+06:50.660 --> 06:52.920
+có thể thấy khi mọi người nói về tính gần đúng
+
+06:52.920 --> 06:55.250
+các diện tích hoặc tổng nói chung, mình
+
+06:55.250 --> 06:58.400
+sẽ sử dụng ký hiệu sigma truyền thống.
+
+06:58.400 --> 07:01.680
+Vì vậy, một cách khác chúng ta có thể viết điều này, dưới dạng tổng
+
+07:01.680 --> 07:06.854
+điều này bằng tổng từ-- và hãy nhớ,
+
+07:06.854 --> 07:09.020
+điều này chỉ dựa trên các quy ước mà mình đã thiết lập.
+
+07:09.020 --> 07:14.222
+Để mình đếm xem chúng ta đang ở trong hình chữ nhật nào, từ i bằng 1 mũ n.
+
+07:14.222 --> 07:16.180
+Và sau đó chúng ta sẽ xem xét từng hình chữ nhật.
+
+07:16.180 --> 07:18.740
+Vì vậy, hình chữ nhật đầu tiên, đó là hình chữ nhật một.
+
+07:18.740 --> 07:24.050
+Vì vậy, nó sẽ là, nếu chúng ta đang ở trong hình chữ nhật thứ i,
+
+07:24.050 --> 07:26.440
+thì ranh giới bên trái sẽ là
+
+07:26.440 --> 07:34.030
+x i trừ đi 1 nhân delta x.
+
+07:34.030 --> 07:36.990
+Và đây, ngay đây, là một cách suy nghĩ chung
+
+07:36.990 --> 07:43.580
+về việc tính gần đúng diện tích dưới một đường cong bằng cách sử dụng
+
+07:43.580 --> 07:46.270
+hình chữ nhật, trong đó chiều cao của hình chữ nhật
+
+07:46.270 --> 07:48.710
+được xác định bởi ranh giới bên trái.
+
+07:48.710 --> 07:50.420
+Và điều này cho chúng ta biết đó là ranh giới bên trái.
+
+07:50.420 --> 07:57.070
+Và chúng ta thấy cho từng thứ, nếu đây là hình chữ nhật thứ i ở ngay đây,
+
+07:57.070 --> 08:00.430
+nếu đây là hình chữ nhật thứ i, thì đây là ngay đằng này
+
+08:00.430 --> 08:04.550
+là x i trừ 1 và chiều cao này ở ngay đây
+
+08:04.550 --> 08:09.500
+là f của x i trừ đi 1.
+
+08:09.500 --> 08:12.400
+Vì vậy, đó là tất cả những gì chúng ta đã làm ngay tại đó nhân delta x.
+
+08:12.400 --> 08:15.270
+Và sau đó bạn tính tổng những thứ này từ hình chữ nhật đầu tiên
+
+08:15.270 --> 08:16.396
+cho đến cuối.
+
+08:16.396 --> 08:18.770
+Vì vậy, hy vọng rằng điều đó làm cho bạn thoải mái hơn một chút
+
+08:18.770 --> 08:19.750
+với ký hiệu này.
+
+08:19.750 --> 08:21.340
+Chúng ta không làm bất cứ điều gì khác
+
+08:21.340 --> 08:24.090
+so với chúng ta đã làm trong video đầu tiên này, điều này hy vọng
+
+08:24.090 --> 08:25.580
+khá đơn giản cho bạn.
+
+08:25.580 --> 08:29.180
+Chúng ta vừa mới tổng quát hóa nó bằng cách sử dụng ký hiệu toán học
+
+08:29.180 --> 08:30.730
+hơn một chút.

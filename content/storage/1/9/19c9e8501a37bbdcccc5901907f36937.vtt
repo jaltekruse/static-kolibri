@@ -1,0 +1,251 @@
+WEBVTT
+
+00:00.857 --> 00:03.434
+Máme zadáno, že aritmetická posloupnost
+'a s indexem i'
+
+00:03.434 --> 00:07.869
+je definována vzorcem,
+ve kterém i-tý člen posloupnosti
+
+00:07.869 --> 00:12.620
+je roven 4 plus 3 krát (i minus 1)
+
+00:12.700 --> 00:14.788
+Kolik bude 'a s indexem 20'?
+
+00:14.788 --> 00:17.226
+'A s indexem 20' je dvacátý člen posloupnosti
+
+00:17.226 --> 00:18.642
+a zastavte si video
+
+00:18.642 --> 00:21.568
+a zkuste si spočítat
+hodnotu dvacátého členu.
+
+00:21.568 --> 00:23.356
+Můžeme na to jít takto.
+
+00:23.356 --> 00:27.930
+'A s indexem 20',
+použijeme tuto definici členu.
+
+00:27.930 --> 00:30.368
+Všude, kde vidíme 'i', dáme místo něj 20.
+
+00:30.368 --> 00:37.148
+Bude to tedy 4 plus 3 krát (20 minus 1).
+
+00:37.148 --> 00:39.033
+Ještě jednou, aby to bylo jasné.
+
+00:39.033 --> 00:42.752
+'A s indexem 20', místo 'a s indexem i'.
+
+00:42.752 --> 00:45.460
+Tam, kde vidíme 'i', dáme 20.
+
+00:45.460 --> 00:48.420
+A teď můžeme vypočítat, čemu se to rovná.
+
+00:48.641 --> 00:56.033
+Bude to rovno 4 plus 3 krát…
+20 minus 1 je 19.
+
+00:56.095 --> 00:57.975
+3 krát 19,
+
+00:57.975 --> 01:01.482
+3 krát 19 je 57, správně?
+
+01:01.482 --> 01:03.107
+Je to 30 plus 27, ano.
+
+01:03.107 --> 01:05.684
+Je to 57.
+
+01:05.684 --> 01:10.467
+A 4 plus 57 se rovná 61,
+
+01:10.467 --> 01:13.718
+takže dvacátý člen aritmetické posloupnosti
+
+01:13.718 --> 01:16.597
+bude roven 61.
+
+01:16.597 --> 01:18.756
+Uděláme ještě jeden příklad.
+
+01:18.756 --> 01:20.897
+Tady máme zadáno, že aritmetická posloupnost
+
+01:20.897 --> 01:23.168
+'a s indexem i' je definována vzorcem
+
+01:23.168 --> 01:24.050
+'a s indexem 1',
+
+01:24.050 --> 01:25.560
+zadali nám první člen,
+
+01:25.560 --> 01:27.231
+a každý další člen,
+
+01:27.231 --> 01:31.411
+takže 'a s indexem i', definují ho
+pomocí předcházejících členů,
+
+01:31.411 --> 01:34.290
+'a s indexem i' bude
+'a s indexem (i minus 1)'
+
+01:34.290 --> 01:36.055
+minus 2.
+
+01:36.055 --> 01:38.516
+Takže tohle je rekurzivní definice
+
+01:38.516 --> 01:39.886
+naší aritmetické sekvence.
+
+01:39.886 --> 01:41.558
+Uvidíme, co z toho vypočítáme.
+
+01:41.558 --> 01:43.903
+'A s indexem 5'.
+
+01:43.903 --> 01:46.364
+'A s idexem 5' se bude rovnat,
+
+01:46.364 --> 01:48.941
+teď použijeme ten druhý řádek,
+
+01:48.941 --> 01:51.542
+'a s indexem 5' se bude rovnat
+
+01:51.542 --> 01:54.746
+'a s indexem 4' minus 2.
+
+01:54.746 --> 01:56.998
+Ale ještě nevíme, kolik je'a s indexem 4'.
+
+01:56.998 --> 01:59.111
+Zkusme to zjistit.
+
+01:59.111 --> 02:02.640
+Můžeme říct, že 'a s indexem 4' se rovná,
+
+02:02.640 --> 02:04.614
+když použijeme zase druhý řádek,
+
+02:04.614 --> 02:07.841
+rovná se 'a s indexem 3' minus 2.
+
+02:07.841 --> 02:10.233
+Stále ale nevíme, kolik je 'a s indexem 3'.
+
+02:10.233 --> 02:12.601
+Budu měnit barvy, protože to vypadá dobře.
+
+02:12.601 --> 02:15.829
+'A s indexem 3' se bude rovnat
+
+02:15.829 --> 02:17.802
+'a s indexem (3 minus 1)'
+
+02:17.802 --> 02:20.774
+takže 'a s indexem 2' minus 2.
+
+02:20.774 --> 02:23.352
+Pořád nevím, kolik je 'a s indexem 2'.
+
+02:23.352 --> 02:29.033
+Můžeme zapsat 'a s indexem 2' se rovná
+
+02:29.064 --> 02:30.643
+'a s indexem (2 minus 1)',
+
+02:30.643 --> 02:33.684
+to je 'a s indexem 1' minus 2.
+
+02:33.684 --> 02:35.983
+Naštěstí už víme, kolik je 'a s indexem 1'.
+
+02:35.983 --> 02:38.885
+'A s indexem 1' je −7.
+
+02:38.885 --> 02:41.207
+'A s indexem 1' je −7.
+
+02:41.207 --> 02:44.969
+Takže pokud toto je −7,
+
+02:44.969 --> 02:48.103
+potom 'a s indexem 2' je −7 minus 2,
+
+02:48.103 --> 02:50.448
+což se rovná −9.
+
+02:50.448 --> 02:51.888
+To už nám pomáhá dál,
+
+02:51.888 --> 02:54.163
+protože když 'a s indexem 2' je −9,
+
+02:54.163 --> 02:55.649
+když tohle je −9,
+
+02:55.649 --> 02:58.886
+tak 'a s indexem 3' je −9 minus 2,
+
+02:58.886 --> 03:01.524
+což se rovná −11.
+
+03:01.524 --> 03:04.937
+Teď když víme, že 'a s indexem 3' je −11,
+
+03:04.937 --> 03:06.864
+tohle je −11,
+
+03:06.864 --> 03:08.547
+můžeme spočítat 'a s indexem 4',
+
+03:08.547 --> 03:10.347
+to je -11 minus 2,
+
+03:10.347 --> 03:13.644
+což se rovná -13.
+
+03:13.644 --> 03:14.875
+A už to skoro máme.
+
+03:14.875 --> 03:16.082
+Známe 'a s indexem 4',
+
+03:16.082 --> 03:18.103
+čtvrtý člen této aritmetické posloupnosti,
+
+03:18.103 --> 03:19.518
+je roven −13.
+
+03:20.383 --> 03:21.376
+Takže teď můžeme…
+
+03:21.376 --> 03:23.257
+Pokud je tohle −13,
+
+03:23.257 --> 03:25.393
+'a s indexem 5' je 'a s indexem 4',
+
+03:25.393 --> 03:27.367
+což je −13, minus 2,
+
+03:27.367 --> 03:30.594
+což se rovná −15.
+
+03:30.594 --> 03:35.020
+Pátý člen posloupnosti je −15.
+
+03:35.145 --> 03:36.579
+A máme hotovo.

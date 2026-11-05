@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.530 --> 00:04.740
+Trouver la pente de la ligne dans le graphe.
+
+00:04.740 --> 00:08.020
+Et juste comme un bit d'un examen, pente est juste nous disant comment
+
+00:08.020 --> 00:10.490
+une ligne est raide.
+
+00:10.490 --> 00:19.850
+Et la meilleure façon d'y accéder, la pente est égale à changer en y
+
+00:19.850 --> 00:21.510
+au cours du changement de x.
+
+00:25.510 --> 00:31.080
+Et pour une ligne, ce sera toujours constant.
+
+00:31.080 --> 00:33.940
+Et parfois, vous pourriez voir il écrit comme ceci : vous pourriez
+
+00:33.940 --> 00:36.590
+voir ce triangle, qui est un delta capital, ce qui signifie
+
+00:36.590 --> 00:40.730
+changement, changer en y avec le changement de x.
+
+00:40.730 --> 00:42.560
+Ce n'est qu'un moyen de fantaisie de dire : changement d'y
+
+00:42.560 --> 00:43.740
+au cours du changement de x.
+
+00:43.740 --> 00:47.760
+Voyons donc ce que ce changement y est pour tout changement de x.
+
+00:47.760 --> 00:51.010
+Commençons donc à un moment donné qui semble assez raisonnable
+
+00:51.010 --> 00:54.810
+pour lire ce tableau ici, de ce graphique.
+
+00:54.810 --> 00:57.560
+Si nous allons le voir, que nous commençons ici--permettez-moi de le faire de façon plus
+
+00:57.560 --> 00:59.160
+les couleurs vives--donc dire que nous commençons à
+
+00:59.160 --> 01:00.520
+ce point là.
+
+01:00.520 --> 01:02.350
+Et nous voulons aller vers un autre point qui est joli
+
+01:02.350 --> 01:04.379
+simple à lire, donc nous pouvons passer à
+
+01:04.379 --> 01:05.450
+ce point là.
+
+01:05.450 --> 01:08.340
+Nous pourrions prendre littéralement deux points quelconques sur cette ligne.
+
+01:08.340 --> 01:11.490
+Je suis juste choisir celles qui sont les coordonnées de nice entier, donc
+
+01:11.490 --> 01:12.610
+Il est facile à lire.
+
+01:12.610 --> 01:15.510
+Quel est donc le changement de y et de ce qu'est le changement de x ?
+
+01:15.510 --> 01:17.540
+Donc d'abord regardons le changement de x.
+
+01:17.540 --> 01:21.750
+Ainsi, si nous allons partir là à là, ce qui est
+
+01:21.750 --> 01:23.510
+le changement de x ?
+
+01:23.510 --> 01:26.660
+Mon changement de x est égal à quoi ?
+
+01:26.660 --> 01:28.340
+Eh bien, je peux juste compter il.
+
+01:28.340 --> 01:31.480
+Je suis allé les étapes 1, 2 étapes, 3 étapes.
+
+01:31.480 --> 01:33.620
+Mon changement de x est 3.
+
+01:33.620 --> 01:35.400
+Et on pouvait voir même il dans les valeurs de x.
+
+01:35.400 --> 01:40.060
+Si je vais partir négatif 3 à 0, je suis allé par 3.
+
+01:40.060 --> 01:42.105
+Mon changement de x est donc 3.
+
+01:42.105 --> 01:48.200
+Permettez-moi donc écrire ceci, le changement en x, delta x est égal à 3.
+
+01:48.200 --> 01:50.860
+Et quel est mon changement en y ?
+
+01:50.860 --> 01:53.200
+Eh bien, mon changement de y, je vais partir 3 négatif jusqu'à
+
+01:53.200 --> 01:57.580
+1 négative, ou vous pourrait dire juste 1, 2.
+
+01:57.580 --> 02:05.260
+Mon changement de y, est donc égale à 2 positive.
+
+02:05.260 --> 02:06.360
+Permettez-moi donc qu'écrire.
+
+02:06.360 --> 02:09.710
+Changement y est égal à 2.
+
+02:09.710 --> 02:13.450
+Alors, quel est mon changement en y pour un changement de x ?
+
+02:13.450 --> 02:19.560
+Eh bien, quand mon changement de x est 3, mon changement y est 2.
+
+02:19.560 --> 02:21.870
+C'est ma pente.
+
+02:21.870 --> 02:23.490
+Une chose que je veux faire, je tiens à vous montrer que j'ai pu
+
+02:23.490 --> 02:25.910
+ont vraiment pris deux points quelconques ici.
+
+02:25.910 --> 02:31.670
+Let's say I n'a pas choisir--let me clairement cette sortie--nous allons dire
+
+02:31.670 --> 02:33.970
+Je n'a pas cueillir ces deux points, permettez-moi de prendre d'autres
+
+02:33.970 --> 02:35.700
+points et j'irai même dans une direction différente.
+
+02:35.700 --> 02:38.510
+Je tiens à vous montrer que vous allez obtenir la même réponse.
+
+02:38.510 --> 02:42.440
+Disons que j'ai utilisé ce que mon point de départ, et je veux
+
+02:42.440 --> 02:46.300
+Go all the way là-bas.
+
+02:46.300 --> 02:48.640
+Eh bien, nous allons réfléchir le changement en y tout d'abord. Donc la
+
+02:48.640 --> 02:55.960
+changement dans y, je vais vers le bas par le nombre d'unités ?
+
+02:55.960 --> 03:01.490
+1, 2, 3, 4 unités, donc mon changement de y, dans cet exemple, est
+
+03:01.490 --> 03:03.000
+4 négatif.
+
+03:03.000 --> 03:06.710
+Je suis allé de 1 à négatif 3, c'est 4 négatif.
+
+03:06.710 --> 03:08.400
+C'est mon changement de y.
+
+03:08.400 --> 03:10.950
+Changement d'y est égal à négatif de 4.
+
+03:10.950 --> 03:12.820
+Maintenant, ce qui est mon changement de x ?
+
+03:12.820 --> 03:16.320
+Eh bien je vais partir ce point ou cette valeur de x,
+
+03:16.320 --> 03:20.020
+toutes les façon--let me le faire dans une couleur différente--tous les
+
+03:20.020 --> 03:23.080
+retour comme cela.
+
+03:23.080 --> 03:24.880
+Je vais donc vers la gauche, donc ça va être un négatif
+
+03:24.880 --> 03:31.060
+changement de x, et je suis allé 1, 2, 3, 4, 5, 6 unités de retour.
+
+03:31.060 --> 03:34.845
+Mon changement de x est donc égal à négatif 6.
+
+03:38.380 --> 03:41.470
+Vous pouvez même voir j'ai commencé à x il est égal à 3 et je
+
+03:41.470 --> 03:43.910
+est allé jusqu'à x est égal à négatif 3.
+
+03:43.910 --> 03:46.430
+C'est un changement de 6 négatif.
+
+03:46.430 --> 03:49.050
+Je suis allé 6 à gauche, ou un changement de 6 négatif.
+
+03:49.050 --> 03:52.270
+Alors, quel est mon changement en y au changement de x ?
+
+03:52.270 --> 03:57.670
+Mon changement de y au-dessus de changement en x est égal à négatif, 4 sur
+
+03:57.670 --> 03:58.790
+6 négatif.
+
+03:58.790 --> 04:01.370
+Les négatifs s'annulent et ce qui est des 4 sur 6 ?
+
+04:01.370 --> 04:03.380
+Eh bien, c'est juste 2 sur 3.
+
+04:03.380 --> 04:05.610
+C'est donc la même valeur, il vous suffit d'être cohérent.
+
+04:05.610 --> 04:08.200
+Si c'est mon point de départ, je suis allé vers le bas de 4, et
+
+04:08.200 --> 04:09.930
+puis je suis allé retour 6.
+
+04:09.930 --> 04:11.330
+Négative 4 sur 6 négatif.
+
+04:11.330 --> 04:13.800
+Si je c'est considérée comme mon point de départ, je pourrais dire
+
+04:13.800 --> 04:21.040
+que je suis allé jusqu'à 4, donc il serait un changement en y serait 4,
+
+04:21.040 --> 04:26.480
+et puis mon changement de x serait 6.
+
+04:26.480 --> 04:29.640
+Et soit nullement, encore une fois, évoluent en y dans le changement de x
+
+04:29.640 --> 04:32.370
+va être de 4 à 6, 2/3.
+
+04:32.370 --> 04:34.440
+N'importe quel point vous donc choisir, aussi longtemps que vous sorte de
+
+04:34.440 --> 04:36.570
+Pensez à ce sujet de façon cohérente, vous allez obtenir la
+
+04:36.570 --> 04:38.870
+même valeur pour la pente.

@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+În acest video vreau să ne familiarizăm cu noțiunea de limită,care este o noțiune foarte importantă.
+
+00:07.132 --> 00:10.813
+Este o noțiune de bază în Calcul.
+
+00:10.828 --> 00:17.036
+Dar, în ciuda faptului că este o noțiune foarte importantă, este destul de ușor de înțeles.
+
+00:17.036 --> 00:21.075
+Deci să scriu o funcție aici- de fapt, să definesc întâi noțiunea de funcție
+
+00:21.075 --> 00:32.800
+O funcție relativ ușoară. Haideți să definim f(x)- să spunem că f(x) va fi (x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+Și poate ca veți spune,"Hei Sal, privește am același lucru și la numărător și la numitor.
+
+00:36.084 --> 00:42.421
+Dacă am ceva împărțit la el însuși, asta va fi egal cu 1! Nu aș putea să simplific asta și să scriu f(x)=1? "
+
+00:42.421 --> 00:47.944
+Iar eu aș spune,"Păi, parțial ai dreptate, diferența dintre f(x)=1 și ce avem
+
+00:47.944 --> 00:57.638
+aici fiind aceea că partea aceasta este nedefinită atunci când x=0. Deci dacă avem - să scriu aici- dacă avem
+
+00:57.653 --> 01:07.267
+f(1), ce se întâmplă? La numărător, vei avea (1-1), care este...să scriu aici jos...
+
+01:07.267 --> 01:14.605
+la numărător vei avea 0, iar la numitor ai (1-1), care este tot 0. Și orice împărțit
+
+01:14.605 --> 01:26.764
+la 0, inclusiv 0/0, este nedefinit. Deci poți face simplificarea- poți spune că este
+
+01:26.764 --> 01:36.867
+același lucru cu f(x)=1, dar va trebui sa adaugi condiția ca x să fie diferit de 1. Acum aceasta
+
+01:36.867 --> 01:43.133
+și aceasta sunt echivalente. Ambele vor fi egale cu 1, pentru orice x diferit de 1. Dar
+
+01:43.133 --> 01:51.340
+pentru x=1, devine nedefinită. Aceasta este nedefinită și aceasta este nedefinită. Deci cum va arăta graficul acestei funcții?
+
+01:51.340 --> 02:10.496
+Voi face un grafic...Acesta este axa lui y=f(x) și apoi,asta aici, este axa lui x, să presupunem că
+
+02:10.496 --> 02:22.799
+acesta este punctul x=1, acesta aici ar fi x=-1, acesta este y=1, iar aici îl pot face pe -1 dar acesta nu este
+
+02:22.799 --> 02:28.267
+așa relevant pentru funcția de aici, și să desenez graficul.
+
+02:28.267 --> 02:42.600
+și x diferit de 1, f(x)=1. Deci va arăta așa...cu exceptia lui 1. La 1, f(x) este nedefinită.
+
+02:42.600 --> 02:47.800
+Voi lăsa un pic de spațiu aici, acest cerc, însemnând că această funcție
+
+02:47.800 --> 02:52.400
+nu este definită- nu știm cu ce este egală această funcție la 1, nu am definit-o niciodată.
+
+02:52.400 --> 03:00.333
+Această definiție a funcției nu ne spune ce sa facem cu 1- este literalmente nedefinită când x=1.
+
+03:00.333 --> 03:09.113
+Aceasta este funcția de aici, deci încă odată, dacă cineva ar întreba cât este f(1), ai spune...
+
+03:09.113 --> 03:14.467
+presupunând că asta ar fi definiția funcției, ai spune x=1. Oh, dar stai lipsește ceva din funcție
+
+03:14.467 --> 03:21.148
+aici, este nedefinită. Mai scriu odată...este cam redundant dar mai scriu odată.
+
+03:21.148 --> 03:30.313
+f(1) este nedefinită. Dar dacă v-aș întreba care este funcția cea mai apropiată
+
+03:30.313 --> 03:44.708
+de x=1? Și acum începem să ne apropiem de noțiunea de limită. Deci când x tinde la 1
+
+03:44.708 --> 03:51.837
+la cât o să tindă funcția? În tot acest timp, cine se apropie din ce în ce mai mult?
+
+03:51.837 --> 03:58.909
+În partea stângă, oricât te-ai apropia de 1, dacă nu ai ajuns la 1,f(x)=1.
+
+03:58.909 --> 04:04.790
+În partea dreaptă, obții același lucru. Deci ai putea spune- și ne vom
+
+04:04.790 --> 04:10.631
+familiariza din ce în ce mai mult cu ideea, pe măsură ce vom analiza mai multe exemple- ca limita
+
+04:10.631 --> 04:24.933
+(lim este prescurtarea pentru limită) când x tinde la 1 din f(x) este egal cu...
+
+04:24.933 --> 04:29.311
+Cu cât ne apropiem ajungem inimaginabil,extrem de aproape de 1 atâta timp cât nu suntem în 1...
+
+04:29.311 --> 04:33.190
+Și funcția noastră va fi egală cu 1, se apropie din ce în ce mai mult de1,
+
+04:33.190 --> 04:39.684
+este de fapt în 1 tot timpul. Deci în acest caz, putem spune că limită când x tinde la 1 din f(x)
+
+04:39.684 --> 04:45.395
+este 1. Deci încă odată, deși are o notație mai extravagantă, tot ce spunem este "Uite, de ce valoare se apropie funcția
+
+04:45.395 --> 04:48.133
+când x se apropie de 1?"
+
+04:48.133 --> 04:54.021
+Dați-mi voi să vă mai arăt un exemplu unde avem de-a face cu o curbă, ca să vă faceți o idee generală.
+
+04:54.021 --> 05:02.533
+Să presupunem că am o funcție f(x)- dați-mi voie, așa ca variație, să o numesc g(x).
+
+05:02.533 --> 05:09.852
+Să presupunem că g(x) este egal cu - o pot defini astfel, o putem defini ca x²
+
+05:09.852 --> 05:26.082
+când x este diferit de 2, și să spunem când x=2, este egală cu 1. Deci încă odată avem o funcție interesantă
+
+05:26.082 --> 05:34.133
+care- după cum vom urmează să vedem- nu este continuă. Are o discontinuitate. Să desenez graficul.
+
+05:34.133 --> 05:48.225
+Deci aici avem y=f(x), aici avem axa lui x. Să spunem că aici este x=1, aici este x=2,
+
+05:48.225 --> 06:01.825
+aici este -1, aici este -2...Peste tot cu excepția lui x=2, este egal cu x².Să o desenez aici așa,
+
+06:01.825 --> 06:08.636
+va fi o parabolă, arată cam așa...Va arăta cam așa...
+
+06:08.636 --> 06:18.308
+Voi desena o versiune mai bună a parabolei.Deci arată cam așa, nu este tocmai cea mai frumos
+
+06:18.308 --> 06:24.341
+desenată parabolă din istoria parabolelor desenate, dar cred că vă puteți face o idee despre cum ar trebui să arate o
+
+06:24.341 --> 06:32.991
+parabolă. Ar trebui să fie simetrică...Dați-mi voie să o mai desenez odată, pentru că a ieșit cam urâtă.
+
+06:32.991 --> 06:38.467
+Acum arată mai bine,în regulă, gata.Bun.
+
+06:38.467 --> 06:48.867
+Acum, acesta ar trebui să fie graficul lui x², dar nu este x² când x=2. Deci încă odată, când x=2,
+
+06:48.867 --> 06:55.428
+Avem un pic de discontinuitate aici, voi desena un gol chiar aici,
+
+06:55.428 --> 07:00.478
+deoarece când x=2, funcția este egală cu 1.
+
+07:00.478 --> 07:09.566
+Nu le voi desena la aceeași scară...Pe graficul lui f(x)=x² aici am avea 4, aici am avea 2,
+
+07:09.616 --> 07:23.547
+aici ar fi 1, aici ar fi 3. Deci, x=2, funcția noastră este egală cu 1.
+
+07:23.547 --> 07:27.856
+Aceasta este o funcție un pic bizară, dar o puteți defini astfel, puteți definii funcțiile oricum
+
+07:27.856 --> 07:36.667
+cum vreți voi! Și astfel,observăm, este asemenea graficului lui f(x)=x² cu excepția faptului că atunci când ajungem la 2,
+
+07:36.667 --> 07:48.252
+apare acest gol, deoarece nu folosim acest "g(x)=x², când x=2", ci folosim "g(x)=1".
+
+07:48.252 --> 07:50.848
+Dacă am spus f(x), îmi cer scuze.
+
+07:50.848 --> 08:04.914
+Folosim g(x)=1, deci exact la 2, cade până la 1, urmând ca apoi să își continue traseul de-a lungul lui funcției g(x)=x².
+
+08:04.914 --> 08:11.241
+Deci să tragem câteva concluzii. Dacă ar trebui să evaluez funcția g(2),
+
+08:11.241 --> 08:15.933
+când privim această definiție, am spune că dacă x=2, folosim situația de aici,
+
+08:15.933 --> 08:21.538
+și văd că rezultatul va fi egal cu 1. Să vă adresez o întrebare
+
+08:21.538 --> 08:32.149
+mai interesantă. Cât este limită când x tinde la 2 din g(x)? Încă o notație extravagantă, care
+
+08:32.149 --> 08:38.502
+exprimă însă o întrebare simplă. Spune "cu cât x se apropie de 2"
+
+08:38.502 --> 08:42.240
+cu cât se apropie mai tare- și asta nu este o definiție riguroasă,vom avea de acestea în videoclipurile viitoare-
+
+08:42.240 --> 08:52.979
+cu cât x se apropie de 2, care este valoarea de care se apropie g(x)? Deci dacă ajungi la 1,9, și apoi la 1.999, și apoi la 1.99999
+
+08:52.979 --> 09:00.518
+și apoi la 1.9999999, de ce valoare se apropie g(x)? Dacă ar fi să mergem în direcția pozitivă,
+
+09:00.518 --> 09:06.656
+dacă ai fi la 2.1, cât ar fi g(2.1)? Cât este g(2.01)?Cât este g(2.001)?
+
+09:06.656 --> 09:09.995
+Spre ce valoare tinde când ne apropiem din ce în ce mai mult?
+
+09:09.995 --> 09:15.733
+Și o puteți vizualiza desenând graficul. Când g se apropie din ce în ce mai mult de 2...
+
+09:15.733 --> 09:20.518
+Dacă ar fi să urmărim pe grafic, observăm că ne apropiem de 4,
+
+09:20.518 --> 09:26.545
+chiar dacă valoarea funcției nu este acolo, deoarece scade la 1- limita lui g(x) când
+
+09:26.545 --> 09:33.405
+x tinde la 2 este egală cu 4. Puteți face asta și numeric folosind un calculator.
+
+09:33.405 --> 09:39.907
+Și dați-mi voie să fac asta deoarece va fi interesant. Să găsesc calculatorul...
+
+09:39.907 --> 09:49.041
+Să-l scot pe TI-85,calculatorul meu de încredere...Aici este calculatorul meu... Gândind numeric, am putea spune,
+
+09:49.041 --> 09:57.995
+bun, de ce valoare se apropie când tindem spre x=2? Să încercăm pentru 1.9. Pentru x=1.9,
+
+09:57.995 --> 10:05.549
+vom folosi valoarea funcției de aici. Deci vom avea 1.9², adică obținem 3.61.
+
+10:05.549 --> 10:11.683
+Dar dacă ne apropiem și mai mult de 2? Deci 1.99 și ridic iar la pătrat,
+
+10:11.683 --> 10:21.683
+și am obținut 3.96. Dar dacă aleg 1.999 și îl ridic la pătrat?
+
+10:21.683 --> 10:27.991
+Obțin 3.996. Observați, mă apropii din ce în ce mai mult de punctul nostru
+
+10:27.991 --> 10:37.546
+Dacă mă apropii și mai mult - 1.999999999999²? Ce voi obține? Nu voi obține
+
+10:37.546 --> 10:41.508
+exact valoarea 4- calculatorul acesta rotunjește valorile- dar ne apropiem foarte foarte foarte
+
+10:41.508 --> 10:47.456
+foarte tare de 4. Și putem rezolva și din partea pozitivă și de fapt
+
+10:47.456 --> 10:52.083
+ar trebui să fie același număr și când ne apropiem de jos și când ne apropiem
+
+10:52.083 --> 11:00.702
+de sus. Deci dacă încercăm 2.1², obținem 4.4...
+
+11:00.702 --> 11:02.902
+Dați-mi voie să avansez puțin
+
+11:02.902 --> 11:09.256
+2.0001². Aceasta este și mai aproape de 2. Acum ne apropiem mai mult de 4
+
+11:09.256 --> 11:12.929
+Deci cu cât ne apropiem de 2, cu atât suntem mai aproape de 4.
+
+11:12.929 --> 11:20.333
+Deci încă odată, acesta este o modalitate numerică de a vizualiză limita când x se apropie de 2 din ambele direcții
+
+11:20.333 --> 11:25.000
+ale lui g(x)- chiar dacă exact în 2, funcția este egală cu 1, deoarece este discontinuă-
+
+11:25.000 --> 11:31.070
+limita cu cât ne apropiem de 2, se apropie din ce în ce mai mult ca valoare de 4.

@@ -1,0 +1,994 @@
+WEBVTT
+
+00:00.610 --> 00:05.130
+Đầu tiên, ta biết đến khái niệm hệ số góc của một đường thẳng
+
+00:05.130 --> 00:07.280
+trước đây ở đại số, và không có gì sai
+
+00:07.280 --> 00:08.600
+khi ta ôn tập chút về nó.
+
+00:08.600 --> 00:10.450
+Vậy để mình vẽ các trục.
+
+00:10.450 --> 00:12.800
+Đây là trục y (trục tung).
+
+00:12.800 --> 00:15.170
+Hoặc là trục f(x) của mình
+
+00:15.170 --> 00:17.320
+với y bằng f(x).
+
+00:17.320 --> 00:23.380
+Để mình vẽ trục x (trục hoành), như thế này.
+
+00:23.380 --> 00:28.970
+Và mình vẽ một đường thẳng như thế này.
+
+00:28.970 --> 00:31.770
+Điều ta cần làm là nhắc lại, làm cách nào
+
+00:31.770 --> 00:36.935
+để tìm hệ số góc của đường thẳng này?
+
+00:36.935 --> 00:42.260
+Để giải, ta cần 2 điểm trên đường thẳng,
+
+00:42.260 --> 00:45.030
+mình lấy điểm này.
+
+00:45.030 --> 00:48.070
+Nó là điểm x bằng a.
+
+00:48.070 --> 00:49.260
+Vậy cái này là gì?
+
+00:49.260 --> 00:53.480
+Đây sẽ là điểm f(a),
+
+00:53.480 --> 00:54.440
+và hàm số có thể là một đường nào đó.
+
+00:54.440 --> 00:59.170
+Ta có thể viết f(x) bằng mx cộng b.
+
+00:59.170 --> 01:01.200
+Ta chưa biết m và b là gì
+
+01:01.200 --> 01:02.410
+Đây chỉ là một chút sơ lược.
+
+01:02.410 --> 01:04.050
+Đây là a.
+
+01:04.050 --> 01:06.880
+Và giá trị y là giá trị của hàm số
+
+01:06.880 --> 01:09.890
+tại a, là điểm ở ngay đây.
+
+01:09.890 --> 01:11.950
+Và ta sẽ lấy một điểm nữa trên đường thẳng này.
+
+01:11.950 --> 01:14.760
+Ta lấy điểm b, ngay đây.
+
+01:14.760 --> 01:17.110
+Và tọa độ trên này sẽ bằng
+
+01:17.110 --> 01:22.010
+(b, f(b))
+
+01:22.010 --> 01:22.290
+Đúng không?
+
+01:22.290 --> 01:23.980
+Vì đây là điểm khi bạn tính
+
+01:23.980 --> 01:24.780
+giá trị hàm số tại b.
+
+01:24.780 --> 01:27.360
+Bạn điền b ở đây, bạn sẽ được điểm như vậy.
+
+01:27.360 --> 01:29.270
+Để mình vẽ một đường nhỏ ở đây.
+
+01:29.270 --> 01:32.630
+Đây là f(b).
+
+01:32.630 --> 01:35.420
+Để mình làm rõ là tọa độ ngay đây
+
+01:35.420 --> 01:38.780
+là điểm (a,f(a)).
+
+01:38.780 --> 01:42.280
+Vậy làm thế nào để tìm hệ số góc giữa 2 điểm này,
+
+01:42.280 --> 01:43.760
+hoặc nói cách khác, của đường thẳng này?
+
+01:43.760 --> 01:46.890
+Vì hệ số góc sẽ nhất quán
+
+01:46.890 --> 01:48.350
+từ đầu đến cuối.
+
+01:48.350 --> 01:50.060
+Ta biết rằng một khi tìm được hệ số góc,
+
+01:50.060 --> 01:51.610
+nó sẽ là giá trị của m này.
+
+01:51.610 --> 01:54.420
+Đó là sơ lược đại số, nhưng làm cách nào để giải?
+
+01:54.420 --> 01:56.890
+Một vài cách bạn có thể nghĩ đến..
+
+01:56.890 --> 02:05.130
+Hệ số góc bằng biến thiên của y (rise) trên biến thiên x (run).
+
+02:05.130 --> 02:07.050
+Bạn có thể thấy công thức này khi mới học đại số.
+
+02:07.050 --> 02:09.670
+Một cách khác để viết là,
+
+02:09.670 --> 02:13.570
+delta y trên delta x.
+
+02:13.570 --> 02:16.240
+Hãy tìm xem cái này là gì
+
+02:16.240 --> 02:18.810
+trong trường hợp này.
+
+02:18.810 --> 02:22.230
+Vậy delta y (biến thiên của y) bằng gì?
+
+02:22.230 --> 02:25.180
+Xem nào, để mình lấy đây
+
+02:25.180 --> 02:26.990
+làm điểm đầu tiên, hoặc điểm này làm điểm đầu tiên.
+
+02:26.990 --> 02:29.980
+Nhưng vì điểm này có x và y lớn hơn,
+
+02:29.980 --> 02:30.870
+nên ta dùng cái này.
+
+02:30.870 --> 02:33.960
+Delta y giữa điểm này và điểm này
+
+02:33.960 --> 02:35.070
+là khoảng cách này.
+
+02:35.070 --> 02:36.800
+Để mình vẽ một hình tam giác nhỏ.
+
+02:36.800 --> 02:39.210
+Khoảng cách này là delta y.
+
+02:39.210 --> 02:42.190
+Hoặc mình sẽ chuyến nó sang trục y.
+
+02:42.190 --> 02:44.190
+Đây là delta y.
+
+02:44.190 --> 02:46.340
+Đây là delta y, là khoảng cách này.
+
+02:46.340 --> 02:47.980
+Vậy khoảng cách này bao nhiêu?
+
+02:47.980 --> 02:51.030
+Nó là f(b) trừ f(a).
+
+02:51.030 --> 02:57.880
+Vậy nó bằng f(b) trừ f(a).
+
+02:57.880 --> 03:01.990
+Đó là delta y của bạn.
+
+03:01.990 --> 03:05.480
+Giờ, delta x là gì? Hệ số góc bằng
+
+03:05.480 --> 03:09.010
+delta y trên delta x.
+
+03:09.010 --> 03:10.760
+Vậy delta x bằng bao nhiêu?
+
+03:10.760 --> 03:11.770
+Khoảng cách này bằng bao nhiêu?
+
+03:11.770 --> 03:13.490
+Nhớ rằng đây là điểm thứ nhất,
+
+03:13.490 --> 03:16.370
+nên ta lấy y của nó trừ y của điểm kia.
+
+03:16.370 --> 03:17.880
+Nên để đồng nhất, ta sẽ lấy
+
+03:17.880 --> 03:20.660
+x của điểm này trừ x của điểm này.
+
+03:20.660 --> 03:23.460
+tọa độ x của điểm này là b
+
+03:23.460 --> 03:29.130
+nên đó sẽ là b trừ a.
+
+03:29.130 --> 03:31.580
+Cứ thế, nếu bạn biết phương trình của đường thẳng này,
+
+03:31.580 --> 03:34.610
+hoặc nếu bạn có tọa độ của 2 điểm này,
+
+03:34.610 --> 03:39.460
+bạn chỉ cần bỏ chúng vào đây và ta sẽ có được hệ số góc.
+
+03:39.460 --> 03:40.990
+Khá rõ ràng.
+
+03:40.990 --> 03:43.150
+Đó là kiến thức từ lớp Đại số 1.
+
+03:43.150 --> 03:46.060
+Để chắc chắn là nó dễ hiểu với bạn, mình sẽ..
+
+03:46.060 --> 03:55.250
+nếu đây là điểm (2,3) và trên này
+
+03:55.250 --> 04:00.640
+là điểm (5,7), và nếu ta muốn tìm hệ số góc của
+
+04:00.640 --> 04:06.460
+đường thẳng này, ta sẽ lấy 7 trừ 3, đó sẽ là delta y
+
+04:06.460 --> 04:10.370
+đây là 7 trừ 3,
+
+04:10.370 --> 04:14.950
+và tương tự ta có 5 trừ 2.
+
+04:14.950 --> 04:18.460
+Vì đây là 5, và đây là 2,
+
+04:18.460 --> 04:19.620
+và đây sẽ là delta x.
+
+04:19.620 --> 04:20.690
+5 trừ 2.
+
+04:20.690 --> 04:24.830
+Vậy 7 trừ 3 là 4, 5 trừ 2 là 3,
+
+04:24.830 --> 04:30.760
+vậy hệ số góc sẽ là 4/3.
+
+04:30.760 --> 04:33.010
+Để xem ta có khái quát được cái này không.
+
+04:33.010 --> 04:35.370
+Đây là khái niệm mới mà
+
+04:35.370 --> 04:38.320
+ta chuẩn bị học trong toán giải tích.
+
+04:38.320 --> 04:41.970
+Hãy xem ta có thể khái quát cái này thành đường cong không.
+
+04:41.970 --> 04:44.310
+Mình có một đường cong.
+
+04:44.310 --> 04:46.340
+Mình cần một đường cong để có thể khái quát
+
+04:46.340 --> 04:47.180
+nó thành một đường cong
+
+04:47.180 --> 04:47.900
+Để mình đi xuống một xíu.
+
+04:47.900 --> 04:49.850
+Thật ra mình muốn để cái này ở trên đây,
+
+04:49.850 --> 04:51.820
+để cho bạn thấy sự tương đồng.
+
+04:51.820 --> 04:56.390
+Mình có.. mình sẽ làm khái quát thôi.
+
+04:56.390 --> 04:58.290
+Mình có một đường cong.
+
+04:58.290 --> 05:01.080
+Nó sẽ là một đường cong quen thuộc.
+
+05:01.080 --> 05:03.390
+Nó là đường cong y bằng x bình,
+
+05:03.390 --> 05:06.860
+giống thế này.
+
+05:06.860 --> 05:10.010
+Nếu mình muốn tìm hệ số góc.
+
+05:10.010 --> 05:13.280
+Giả sử mình muốn tìm hệ số góc tại một điểm.
+
+05:13.280 --> 05:15.680
+Thật ra trước khi nói về điều đó,
+
+05:15.680 --> 05:18.930
+hãy nghĩ xem tìm hệ số góc của đường cong nghĩa là gì.
+
+05:18.930 --> 05:22.450
+Ở đây, hệ số góc giống nhau xuyên suốt, đúng không?
+
+05:22.450 --> 05:24.920
+Nhưng với một đường cong, hệ số góc sẽ thay đổi.
+
+05:24.920 --> 05:27.350
+Để có chút trực giác về điều này, ta hãy xem
+
+05:27.350 --> 05:28.240
+hệ số góc này là gì?
+
+05:28.240 --> 05:31.610
+Hệ số góc ở đây là hệ số góc của đường tiếp tuyến.
+
+05:31.610 --> 05:33.150
+Đường thẳng chỉ đụng một chút như thế này.
+
+05:33.150 --> 05:34.180
+Đó là hệ số góc ở đây.
+
+05:34.180 --> 05:35.760
+Nó là một hệ số góc âm.
+
+05:35.760 --> 05:37.790
+Và ở đây, hệ số góc vẫn âm, nhưng
+
+05:37.790 --> 05:39.360
+nó ít âm hơn chút.
+
+05:39.360 --> 05:40.250
+Nó như thế này.
+
+05:40.250 --> 05:41.570
+Không biết mình vẽ chuẩn chưa.
+
+05:41.570 --> 05:43.660
+Để mình dùng màu khác.
+
+05:43.660 --> 05:45.790
+Mình sẽ dùng màu tím.
+
+05:45.790 --> 05:48.320
+Vậy ở đây, hệ số góc sẽ ít âm hơn chút.
+
+05:48.320 --> 05:51.590
+Nó là một đường ít dốc xuống hơn.
+
+05:51.590 --> 05:56.130
+Và khi bạn đi đến đây, ở điểm 0
+
+05:56.130 --> 06:00.030
+hệ số góc của bạn gần như bằng phẳng, vì đường nằm ngang
+
+06:00.030 --> 06:02.610
+y bằng 0, là tiếp tuyến của đường cong này.
+
+06:02.610 --> 06:05.330
+Và khi bạn đi đến giá trị dương hơn của x,
+
+06:05.330 --> 06:08.660
+hệ số góc bắt đầu tăng.
+
+06:08.660 --> 06:10.340
+Mình đang cố vẽ một đường tiếp tuyến.
+
+06:10.340 --> 06:14.170
+Và ở đây nó tăng nhiều hơn.
+
+06:14.170 --> 06:17.240
+Nghĩa là, hệ số góc của ta thay đổi xuyên suốt,
+
+06:17.240 --> 06:19.930
+đó là điểm khác biệt khá lớn
+
+06:19.930 --> 06:21.530
+giữa một đường thẳng và một đường cong.
+
+06:21.530 --> 06:24.450
+Với đường thẳng, hệ số góc của bạn giữ nguyên xuyên suốt.
+
+06:24.450 --> 06:27.600
+Bạn có thể lấy 2 điểm bất kì thuộc đường thẳng,
+
+06:27.600 --> 06:29.170
+lấy delta y trên delta x, và bạn có hệ số góc
+
+06:29.170 --> 06:30.620
+của toàn bộ đường thẳng.
+
+06:30.620 --> 06:32.980
+Nhưng như bạn đã thấy, nó trở nên thất thường hơn chút
+
+06:32.980 --> 06:35.290
+đối với đường cong.
+
+06:35.290 --> 06:37.570
+Vì nó phụ thuộc vào điểm ta xét.
+
+06:37.570 --> 06:40.200
+Ta không thể chỉ hỏi, hệ số góc của đường cong này là gì?
+
+06:40.200 --> 06:43.760
+Hệ số góc khác nhau với mỗi điểm xuyên suốt đường cong.
+
+06:43.760 --> 06:44.120
+Nó luôn thay đổi.
+
+06:44.120 --> 06:46.500
+Nếu là đến đây, nó sẽ dốc hơn.
+
+06:46.500 --> 06:50.450
+Giống thế này.
+
+06:50.450 --> 06:54.780
+Để mình thử một chút.
+
+06:54.780 --> 06:57.870
+Mình biết phép thử này sẽ có kết quả như thế nào,
+
+06:57.870 --> 06:59.450
+nên nó không quá liều lĩnh đâu.
+
+06:59.450 --> 07:02.300
+Để mình vẽ đẹp hơn.
+
+07:02.300 --> 07:11.800
+Đây là trục y và trục x của mình.
+
+07:11.800 --> 07:13.690
+Hãy gọi cái này là y, hoặc ta có thể gọi là
+
+07:13.690 --> 07:15.660
+trục f(x).
+
+07:15.660 --> 07:16.890
+Cách nào cũng được.
+
+07:16.890 --> 07:20.780
+Và để mình vẽ lại đường cong.
+
+07:20.780 --> 07:24.740
+Mình vừa mới vẽ nó ở phần tọa độ dương, như thế này.
+
+07:24.740 --> 07:26.890
+Đó là đường cong của ta.
+
+07:26.890 --> 07:33.400
+Để tìm hệ số góc ở đây,
+
+07:33.400 --> 07:34.680
+ta cần làm gì?
+
+07:34.680 --> 07:38.010
+Dựa vào khái niệm hệ số góc, ta cần 2 điểm
+
+07:38.010 --> 07:39.380
+để tìm một hệ số góc, đúng không?
+
+07:39.380 --> 07:41.905
+Ta không biết làm thế nào để tìm hệ số góc với 1 điểm.
+
+07:41.905 --> 07:49.210
+Hãy gọi điểm ngay đây
+
+07:49.210 --> 07:50.240
+là x.
+
+07:50.240 --> 07:51.500
+Ta làm khái quát thôi.
+
+07:51.500 --> 07:53.120
+Đây sẽ là điểm x của ta.
+
+07:53.120 --> 07:55.300
+Để tìm hệ số góc, dựa theo khái niệm truyền thống từ đại số 1
+
+07:55.300 --> 07:58.140
+về hệ số góc, ta cần 2 điểm.
+
+07:58.140 --> 08:02.100
+Hãy lấy một điểm nữa ở đây.
+
+08:02.100 --> 08:05.950
+Hãy lấy một phiên bản lớn hơn của x này.
+
+08:05.950 --> 08:10.430
+Để xem.. thật ra hãy lấy xa hơn,
+
+08:10.430 --> 08:13.590
+vì nó sẽ trở nên khá rối ở đây.
+
+08:13.590 --> 08:15.680
+Mình sẽ lấy điểm này.
+
+08:15.680 --> 08:18.750
+Và hiệu--, ở đây lớn hơn x một lượng h.
+
+08:18.750 --> 08:20.565
+Hoặc ta có thể nói
+
+08:20.565 --> 08:22.120
+với nó lớn hơn h (đơn vị).
+
+08:22.120 --> 08:25.630
+Vậy đây là x cộng h.
+
+08:25.630 --> 08:27.910
+Đó là điểm ở ngay đây.
+
+08:27.910 --> 08:30.430
+Vậy tọa độ y tương ứng
+
+08:30.430 --> 08:31.820
+trên đường cong là gì?
+
+08:31.820 --> 08:35.030
+Đây là đường cong của y bằng f(x).
+
+08:35.030 --> 08:39.910
+Và điểm này sẽ là
+
+08:39.910 --> 08:41.590
+f của x này.
+
+08:41.590 --> 08:43.930
+Có lẽ để cho bạn biết mình đang lấy x cụ thế,
+
+08:43.930 --> 08:45.305
+mình sẽ viết 0 ở đây.
+
+08:45.305 --> 08:48.400
+Đây là x0, x0 cộng h.
+
+08:48.400 --> 08:51.430
+Đây là f(x0).
+
+08:51.430 --> 08:56.870
+Và điểm trên này
+
+08:56.870 --> 08:59.140
+sẽ bằng bao nhiêu?
+
+08:59.140 --> 09:04.430
+Tọa độ y của nó sẽ bằng f của tọa độ x này,
+
+09:04.430 --> 09:05.630
+mình đổi chỗ một chút.
+
+09:05.630 --> 09:08.170
+Nó ở ngay đây. f của tọa độ x này,
+
+09:08.170 --> 09:10.950
+là f(x0+h).
+
+09:10.950 --> 09:12.310
+Đó là tọa độ y của nó.
+
+09:12.310 --> 09:15.840
+Vậy hệ số góc bằng bao nhiêu giữa
+
+09:15.840 --> 09:17.410
+2 điểm khá gần nhau này?
+
+09:17.410 --> 09:18.810
+Nhớ rằng, đây sẽ chỉ là hệ số góc
+
+09:18.810 --> 09:20.070
+ở điểm này.
+
+09:20.070 --> 09:23.950
+Đây là hệ số góc của đường thẳng giữa 2 điểm này.
+
+09:23.950 --> 09:27.080
+Và nếu mình vẽ nó ra, thực chất nó sẽ là
+
+09:27.080 --> 09:29.680
+đường cát tuyến cắt đường cong.
+
+09:29.680 --> 09:31.860
+Vậy nó sẽ cắt đường cong 2 lần, một ở điểm này,
+
+09:31.860 --> 09:32.450
+một ở điểm này.
+
+09:32.450 --> 09:34.180
+Bạn chưa nhìn thấy phải không?
+
+09:34.180 --> 09:35.510
+Nếu mình phóng to một chút,
+
+09:35.510 --> 09:40.650
+nó sẽ trông như thế này.
+
+09:41.360 --> 09:47.510
+Đây là tọa độ (x0,f(x0))
+
+09:47.510 --> 09:51.805
+và trên này là tọa độ cho điểm này
+
+09:51.805 --> 09:56.080
+tọa độ x là x0+h,
+
+09:56.080 --> 09:59.180
+và tọa độ y là f(x0+h).
+
+09:59.180 --> 10:02.135
+Dù hàm số này có là gì, ta chỉ cần
+
+10:02.135 --> 10:03.770
+tính giá trị nó tại tọa độ x này. Chỉ vậy thôi.
+
+10:03.770 --> 10:05.380
+Đây là 2 điểm.
+
+10:05.380 --> 10:07.740
+Có lẽ ta nên bắt đầu bằng việc xem xem
+
+10:07.740 --> 10:10.090
+hệ số góc của cát tuyến này là gì?
+
+10:10.090 --> 10:12.760
+Như ta đã làm ở ví dụ trước,
+
+10:12.760 --> 10:22.470
+ta tìm delta y, và chia cho delta x.
+
+10:22.470 --> 10:23.220
+Để mình vẽ nó ở đây.
+
+10:23.220 --> 10:26.940
+Delta y sẽ là đây,
+
+10:26.940 --> 10:29.840
+và rồi delta x sẽ ở đây.
+
+10:29.840 --> 10:33.040
+Vậy hệ số góc của cát tuyến là gì?
+
+10:33.040 --> 10:37.250
+Hệ số góc sẽ bằng, hãy bắt đầu với
+
+10:37.250 --> 10:39.440
+điểm trên này, vì nó trông lớn hơn.
+
+10:39.440 --> 10:43.320
+Ta cần delta y, vậy giá trị ngay đây,
+
+10:43.320 --> 10:46.230
+giá trị y này, là f(x0+h).
+
+10:46.230 --> 10:47.740
+Mình vừa tính cái trên này.
+
+10:47.740 --> 10:49.630
+Nhìn thì có vẻ cao siêu, nhưng thật ra, nhìn đây,
+
+10:49.630 --> 10:52.970
+Ta tính giá trị y của x lớn hơn này.
+
+10:52.970 --> 10:57.250
+Khi đường cong đang ở giá trị đó của x.
+
+10:57.250 --> 11:00.290
+Vậy nó sẽ bằng, delta y sẽ bằng
+
+11:00.290 --> 11:03.400
+f(x0+h).
+
+11:03.400 --> 11:05.880
+Đó là tọa độ y trên này.
+
+11:05.880 --> 11:08.830
+Trừ tọa độ y dưới này.
+
+11:08.830 --> 11:13.600
+Nghĩa là trừ f(x0).
+
+11:13.600 --> 11:16.500
+Bằng delta y.
+
+11:16.500 --> 11:20.273
+Và bạn cần chia nó cho delta x.
+
+11:21.090 --> 11:21.800
+Vậy đây là gì?
+
+11:21.800 --> 11:23.340
+Đây là giá trị x lớn hơn.
+
+11:23.340 --> 11:25.030
+Ta bắt đầu với tọa độ này,
+
+11:25.030 --> 11:26.460
+với tọa độ x này.
+
+11:26.460 --> 11:30.450
+Nó là x0+h.
+
+11:30.450 --> 11:32.610
+Trừ tọa độ x này.
+
+11:32.610 --> 11:33.970
+Ta vừa có một số khái quát.
+
+11:33.970 --> 11:36.330
+Là x0.
+
+11:36.330 --> 11:39.300
+Vậy đây là trên delta x.
+
+11:39.300 --> 11:39.990
+Như thế này.
+
+11:39.990 --> 11:41.510
+Vậy đây là hệ số góc của cát tuyến.
+
+11:41.510 --> 11:43.670
+Ta vẫn chưa trả lời rằng giá trị của hệ số góc bằng bao nhiêu
+
+11:43.670 --> 11:47.100
+tại điểm đó, và cái này có lẽ sẽ giúp ta giải.
+
+11:47.100 --> 11:51.250
+Nếu ta đơn giản hóa cái này, để mình viết xuống.
+
+11:51.250 --> 11:57.630
+Hệ số góc của cát tuyến, để mình viết cho đúng.
+
+11:57.630 --> 12:03.930
+Hệ số góc của đường cát tuyến bằng
+
+12:03.930 --> 12:08.840
+giá trị của hàm số tại điểm này, f(x0+h),
+
+12:08.840 --> 12:12.750
+trừ giá trị hàm số ở đây, f(x0).
+
+12:12.750 --> 12:14.370
+Đó là delta y.
+
+12:14.370 --> 12:18.250
+Vẫn là khái niệm của hệ số góc mà ta dùng.
+
+12:18.250 --> 12:19.890
+Trên delta x.
+
+12:19.890 --> 12:20.920
+Và ta có thể đơn giản hóa cái này.
+
+12:20.920 --> 12:23.980
+Ta có x0 cộng h trừ x0.
+
+12:23.980 --> 12:26.450
+Vậy x0 trừ x0 bằng 0,
+
+12:26.450 --> 12:27.700
+nên ta có cái đó trên h.
+
+12:27.700 --> 12:32.530
+Vậy cái này bằng delta y trên delta x.
+
+12:32.530 --> 12:33.380
+Đúng rồi đấy.
+
+12:33.380 --> 12:36.500
+Nhưng từ ban đầu, ta nói cần tìm hệ số góc
+
+12:36.500 --> 12:38.880
+của đường thẳng ở điểm đó, ngay đây.
+
+12:38.880 --> 12:40.860
+Đây là phiên bản phóng to của nó.
+
+12:40.860 --> 12:42.260
+Vậy mình có thể làm gì?
+
+12:42.260 --> 12:45.830
+Mình xác định điểm thứ hai ở đây
+
+12:45.830 --> 12:49.370
+là điểm thứ nhất này cộng h.
+
+12:49.370 --> 12:52.300
+Và ta dùng giới hạn (limit/lim) làm công cụ.
+
+12:52.300 --> 12:55.840
+h này là một số tổng quát (số bất kỳ)
+
+12:55.840 --> 12:59.400
+nó có thể là 10, 2, 0.02, 1
+
+12:59.400 --> 13:01.050
+nhân 10 mũ -100.
+
+13:01.050 --> 13:03.690
+Nó có thể là một một số nhỏ tùy ý.
+
+13:03.690 --> 13:07.210
+Vậy ít nhất theo lí thuyết, điều gì xảy ra nếu
+
+13:07.210 --> 13:09.620
+mình lấy giới hạn từ h (tiến) đến 0?
+
+13:09.620 --> 13:13.360
+Trước hết, h có thể là một số khá lớn ở đây,
+
+13:13.360 --> 13:15.710
+và nếu mình cho h nhỏ hơn chút, mình có thể đang
+
+13:15.710 --> 13:17.740
+tìm hệ số góc của cát tuyến này.
+
+13:17.740 --> 13:20.300
+Nếu mình cho h nhỏ hơn nữa, có thể mình đang tìm
+
+13:20.300 --> 13:21.790
+hệ số góc của cát tuyến đó.
+
+13:21.790 --> 13:23.200
+Nếu h nhỏ hơn chút, mình có thể đang
+
+13:23.200 --> 13:24.390
+tìm hệ số góc của cát tuyến này.
+
+13:24.390 --> 13:28.430
+Nên khi h tiến đến 0, mình sẽ tiến gần và gần hơn
+
+13:28.430 --> 13:34.230
+đến việc tìm hệ số góc của đường thẳng ở ngay điểm như trong đề bài.
+
+13:34.230 --> 13:36.720
+Tất nhiên, nếu h là một số lớn, cát tuyến của mình sẽ
+
+13:36.720 --> 13:41.110
+xa so với hệ số góc tại chính xác điểm này.
+
+13:41.110 --> 13:45.430
+Và nếu h là 0,0000001, nếu nó là một số nhỏ vô cùng,
+
+13:45.430 --> 13:47.810
+mình sẽ tiến đến rất gần.
+
+13:47.810 --> 13:51.250
+Vậy điều gì xảy ra nếu mình lấy giới hạn khi
+
+13:51.250 --> 13:53.530
+h tiến đến 0 của cái này?
+
+13:53.530 --> 14:00.220
+Giới hạn khi h tiến đến 0 của hệ số góc của cát tuyến.
+
+14:00.220 --> 14:03.180
+Để mình đổi sang màu xanh lá--
+
+14:03.180 --> 14:08.560
+của f(x0+h) trừ f(x0), đó là delta y,
+
+14:08.560 --> 14:15.490
+trên h, là delta x.
+
+14:15.490 --> 14:17.720
+Giờ để làm rõ, và đôi khi bạn sẽ thấy nó
+
+14:17.720 --> 14:20.810
+ở các sách về vi phân, đôi khi thay vì h,
+
+14:20.810 --> 14:22.930
+họ sẽ viết delta x ở đây.
+
+14:22.930 --> 14:25.390
+Điểm thứ hai có thể được viết dưới dạng
+
+14:25.390 --> 14:28.660
+x0 cộng delta x, và có thể được đơn giản hóa
+
+14:28.660 --> 14:30.685
+thành delta x ở đây, và ta sẽ lấy giới hạn khi
+
+14:30.685 --> 14:31.870
+delta x tiến đến 0.
+
+14:31.870 --> 14:33.200
+Như nhau cả.
+
+14:33.200 --> 14:34.780
+h, delta x, không quan trọng lắm.
+
+14:34.780 --> 14:37.630
+Ta xem h là hiệu giữa 1 điểm x
+
+14:37.630 --> 14:39.710
+và 1 điểm x cao hơn, và ta sẽ
+
+14:39.710 --> 14:40.980
+lấy giới hạn khi nó tiến đến 0.
+
+14:40.980 --> 14:44.010
+Đáng nhẽ ta có thể gọi là delta x cho dễ.
+
+14:44.010 --> 14:52.050
+Nhưng mình sẽ gọi cái này, cái bằng với hệ số góc
+
+14:52.050 --> 14:54.260
+của tiếp tuyến,
+
+14:54.260 --> 14:58.720
+là đạo hàm của f.
+
+14:58.720 --> 15:00.105
+Để mình viết ra.
+
+15:00.392 --> 15:05.580
+Đạo hàm của f.
+
+15:05.580 --> 15:10.650
+Mình sẽ nói rằng cái này bằng với f'(x).
+
+15:10.650 --> 15:12.680
+Và cái này sẽ là một hàm số khác.
+
+15:12.680 --> 15:16.320
+Vì nhớ rằng, hệ số góc thay đổi tại mỗi giá trị x.
+
+15:16.320 --> 15:18.640
+Với bất cứ giá trị x nào bạn chọn, hệ số góc
+
+15:18.640 --> 15:19.260
+sẽ khác nhau.
+
+15:19.260 --> 15:20.880
+Không nhất thiết, nhưng với cách mình vẽ đường cong này,
+
+15:20.880 --> 15:21.500
+nó sẽ khác nhau.
+
+15:21.500 --> 15:22.950
+Nó có thể khác nhau.
+
+15:22.950 --> 15:27.070
+Giờ, bạn cho mình một giá trị x ở đây,
+
+15:27.070 --> 15:30.090
+mình sẽ áp dụng công thức này, và mình sẽ cho bạn biết
+
+15:30.090 --> 15:31.810
+hệ số góc ở điểm đó.
+
+15:31.810 --> 15:34.180
+Tất cả trông khá khó hiểu
+
+15:34.180 --> 15:35.810
+và có thể hơi trừu tượng vào thời điểm này.
+
+15:35.810 --> 15:38.030
+Ở video tiếp theo, mình sẽ thật sự làm một ví dụ
+
+15:38.030 --> 15:40.300
+tính một hệ số góc, và mọi thứ
+
+15:40.300 --> 15:42.400
+sẽ cụ thể hơn.

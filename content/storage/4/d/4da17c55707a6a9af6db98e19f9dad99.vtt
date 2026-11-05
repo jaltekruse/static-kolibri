@@ -1,0 +1,408 @@
+WEBVTT
+
+00:00.320 --> 00:02.250
+Mohamed möchte abbilden,
+
+00:02.250 --> 00:05.019
+wie viele Blätter der Baum in seinem Garten jedes Jahr hat.
+
+00:05.176 --> 00:08.372
+Im ersten Jahr waren es 500 Blätter.
+
+00:08.853 --> 00:10.580
+In jedem folgenden Jahr war die Anzahl der Blätter
+
+00:10.580 --> 00:14.101
+um 40% größer als im Vorjahr.
+
+00:14.481 --> 00:17.325
+n sei eine positive ganze Zahl und
+
+00:17.325 --> 00:19.215
+f von n bezeichne die Anzahl an Blättern
+am Baum in Mohameds Garten
+
+00:19.215 --> 00:22.634
+im n-ten Jahr seit er seine Aufzeichnung begann.
+
+00:23.339 --> 00:26.840
+Der Ausdruck f von n definiert eine Folge.
+
+00:26.894 --> 00:29.339
+Was für eine Art Folge ist f von n?
+
+00:29.719 --> 00:31.059
+Einige von Euch
+
+00:31.059 --> 00:31.933
+machen sich dazu veilleicht schon Gedanken.
+
+00:31.933 --> 00:34.473
+Jedes Jahr wachsen wir um 40 Prozent.
+
+00:34.473 --> 00:36.978
+das ist das Gleiche wie Multiplizieren mit 1,4.
+
+00:37.276 --> 00:39.450
+Jede folgende Periode multiplizieren wir mit
+
+00:39.450 --> 00:41.844
+oder dividieren wir durch die gleiche Zahl.
+
+00:41.844 --> 00:43.126
+Dann handelt es sich um eine geometrische Folge.
+
+00:43.567 --> 00:45.219
+Machen wir das noch etwas konkreter, sicherheitshalber.
+
+00:45.416 --> 00:46.641
+Machen wir das noch etwas konkreter, sicherheitshalber.
+
+00:46.675 --> 00:48.998
+Machen wir hier ein kleine Tabelle.
+
+00:49.865 --> 00:51.558
+Machen wir hier ein kleine Tabelle.
+
+00:51.714 --> 00:54.890
+Das ist n und das ist f von n.
+
+00:55.351 --> 00:57.084
+Wenn n 1 ist,
+
+00:57.139 --> 00:59.989
+im ersten Jahr ist n 1, da gab es 500 Blätter.
+
+01:00.308 --> 01:01.838
+f von n ist 500.
+
+01:02.340 --> 01:03.681
+Wenn n gleich 2 ist,
+
+01:03.681 --> 01:05.875
+werden wir um 40% wachsen,
+
+01:05.875 --> 01:08.035
+und das ist das Gleiche wie mal 1,4 multiplizieren.
+
+01:08.760 --> 01:12.327
+500 mal 1,4
+nehmen wir 40% von 500
+
+01:12.327 --> 01:14.298
+wir wachsen also um 200,
+
+01:14.298 --> 01:16.011
+und steigen dabei auf 700
+
+01:16.431 --> 01:19.194
+Dann im dritten Jahr wachsten wir um 40% von 700
+
+01:19.194 --> 01:23.981
+das sind 280, also wachsen wir auf 980.
+
+01:23.981 --> 01:28.376
+Du siehst schon,
+das ist sicher keine arithmetische Folge.
+
+01:28.573 --> 01:30.300
+Bei einer arithmetischen Folge würden wir jedes Mal
+
+01:30.300 --> 01:32.425
+den gleichen Betrag addieren oder subtrahieren
+
+01:32.425 --> 01:33.198
+Aber das machen wir hier nicht.
+
+01:33.198 --> 01:35.371
+Hier wachsen wir von 500 auf 700, um 200,
+
+01:35.371 --> 01:37.856
+und dann von 700 auf 980, sind wir um 280 gewachsen.
+
+01:38.135 --> 01:40.085
+Stattdessen multiplizieren oder dividieren wir
+
+01:40.085 --> 01:41.467
+jedes Mal mit dem gleichen Betrag.
+
+01:41.467 --> 01:43.748
+In diesem Fall multiplizieren wir jedes Mal mit 1,4.
+
+01:44.067 --> 01:45.861
+In diesem Fall multiplizieren wir jedes Mal mit 1,4.
+
+01:45.916 --> 01:47.751
+Das ist ganz klar geometrisch.
+
+01:47.968 --> 01:49.756
+Je nach deiner Antwort oben kann die rekursive Definition der Folge eine der folgenden Formen haben.
+
+01:49.756 --> 01:51.869
+Je nach deiner Antwort oben kann die rekursive Definition der Folge eine der folgenden Formen haben.
+
+01:51.869 --> 01:53.535
+Je nach deiner Antwort oben kann die rekursive Definition der Folge eine der folgenden Formen haben.
+
+01:53.535 --> 01:55.221
+Das ist die arithmetische Form,
+
+01:55.221 --> 01:57.009
+von der wir wissen, dass sie es nicht ist,
+
+01:57.009 --> 01:58.437
+also wird es die geometrische Form sein.
+
+01:59.264 --> 02:01.215
+Und dann lautet die Frage: Welche Werte
+
+02:01.215 --> 02:03.551
+nehmen die Parameter A und B in dieser Folge an?
+
+02:03.551 --> 02:06.842
+Das hier ist unser Basisfall,
+
+02:06.842 --> 02:09.246
+f von n wird hier gleich A, wenn n 1 ist.
+
+02:09.484 --> 02:11.190
+Wir wissen, als n gleich 1 war,
+
+02:11.190 --> 02:14.400
+hatten wir 500 Blätter am Baum,
+
+02:14.400 --> 02:18.912
+dieses A ist also 500.
+
+02:19.637 --> 02:21.226
+und wenn wir nicht beim Basisfall sind,
+
+02:21.226 --> 02:22.485
+in jedem anderen Jahr
+
+02:22.485 --> 02:24.720
+In jedem andern Jahr haben wir
+
+02:24.720 --> 02:27.814
+das Vorjahr mal was?
+
+02:28.418 --> 02:31.039
+Das Vorjahr gewachsen um 40%.
+
+02:31.039 --> 02:34.860
+Um 40% zu wachsen, multiplizieren wir mit 1,4
+
+02:34.935 --> 02:37.989
+B wird also 1,4 sein.
+
+02:38.023 --> 02:39.445
+Du nimmst das Vorjahr und multiplizierst es
+
+02:39.445 --> 02:41.565
+mit 1,4 für jedes andere Jahr,
+
+02:41.640 --> 02:43.291
+jedes Jahr, in dem n ungleich 1 ist.
+
+02:43.712 --> 02:46.989
+B ist also gleich 1,4
+und wir haben das erledigt.
+
+02:47.389 --> 02:48.425
+Machen wir noch ein Beispiel.
+
+02:48.425 --> 02:49.915
+Das macht sonderbarerweise Spaß.
+
+02:50.538 --> 02:55.089
+Ok. Hier heißt es: Seo-Yun veranstaltete eine Party.
+
+02:55.089 --> 02:58.597
+Sie hatte 50 Partygeschenke zu vergeben, und sie gab jedem ihrer Gäste drei Geschenke als sie zur Party kamen.
+
+02:58.597 --> 03:01.502
+Sie hatte 50 Partygeschenke zu vergeben, und sie gab jedem ihrer Gäste drei Geschenke als sie zur Party kamen.
+
+03:01.502 --> 03:03.112
+Sie hatte 50 Partygeschenke zu vergeben, und sie gab jedem ihrer Gäste drei Geschenke als sie zur Party kamen.
+
+03:03.473 --> 03:07.150
+n sei eine positive Ganzzahl, und g von n beschreibt
+
+03:07.150 --> 03:10.706
+die Anzahl an Partygeschenken, die Seo-Yun hatte,
+
+03:10.706 --> 03:12.906
+ehe der n-te Gast ankam.
+
+03:14.078 --> 03:16.090
+Hier möchte ich, noch bevor ich die Fragen anschaue,
+
+03:16.090 --> 03:17.431
+eine Tabelle machen, weil sie sagen,
+
+03:17.431 --> 03:18.818
+vor dem n-ten Gast.
+
+03:18.833 --> 03:21.561
+Ich möchte sicher sein, dass ich das richtig verstehe.
+
+03:22.551 --> 03:25.476
+Das ist n
+
+03:26.202 --> 03:28.122
+und das wird g von n.
+
+03:28.122 --> 03:29.213
+und das wird g von n.
+
+03:29.532 --> 03:31.610
+Wenn n gleich 1 ist,
+
+03:32.234 --> 03:34.407
+Wenn n gleich 1 ist, dann wird g von n
+
+03:34.407 --> 03:37.012
+dann wird g von 1 die Anzahl Partygeschenke sein,
+
+03:37.012 --> 03:40.005
+die Seo-Yun vor dem ersten Gast hatte.
+
+03:40.730 --> 03:43.824
+Gut, vor dem ersten Gast hatte sie 50 Partygeschenke
+
+03:44.428 --> 03:45.775
+Sie hatte 50 Partygeschenke.
+
+03:46.317 --> 03:48.740
+Jetzt kommt der zweite Gast.
+
+03:48.755 --> 03:50.584
+Die Anzahl an Partygeschenken,
+
+03:50.584 --> 03:54.444
+die sie vor dem 2. Gast hatte,
+
+03:54.444 --> 03:56.313
+nun, sie gab der ersten Gast 3,
+
+03:56.313 --> 03:58.676
+also muss sie noch 47 Partygeschenke haben.
+
+03:59.320 --> 04:00.824
+Dann, wenn n gleich 3 wird,
+
+04:00.824 --> 04:02.429
+wie viele Partygeschenke hatte sie
+
+04:02.429 --> 04:04.568
+vor dem dritten Gast?
+
+04:04.928 --> 04:06.390
+Nun, sie müsste dem ersten
+
+04:06.390 --> 04:08.835
+und dem zweiten Gast Geschenke gegeben haben,
+jeder bekam 3,
+
+04:09.194 --> 04:13.486
+also hätte sie noch 44,
+und ich denke ihr erkennt das Muster.
+
+04:13.928 --> 04:17.022
+Wenn n gleich 1 ist,
+ist g(n) gleich 50,
+
+04:17.199 --> 04:19.596
+und jedes Mal, wenn wir n um 1 erhöhen,
+
+04:19.596 --> 04:23.497
+jedes Mal, wenn wir n erhöhen,
+
+04:23.497 --> 04:28.237
+reduzieren wir g(n) um 3,
+
+04:28.475 --> 04:30.838
+weil sie Partygeschenke hergibt, minus 3.
+
+04:31.665 --> 04:32.646
+Minus 3.
+
+04:33.006 --> 04:35.058
+Weil die Differenz zwischen aufeinanderfolgenden Termen
+
+04:35.058 --> 04:37.460
+gleichgroß ist, wissen wir,
+das ist eine arithmetische Folge.
+
+04:38.349 --> 04:40.034
+Das ist eine arithmetische Folge, und dass sagen sie,
+
+04:40.034 --> 04:42.499
+schreib eine explizite Formel für die Folge.
+
+04:43.055 --> 04:44.680
+Überlegen wir uns das
+
+04:44.680 --> 04:48.242
+g von n ist gleich ...
+
+04:48.256 --> 04:49.949
+beginnen wir mit 50,
+
+04:50.207 --> 04:53.590
+dann subtrahieren wir 3, überlegen wir,
+
+04:53.590 --> 04:56.787
+subtrahieren wir 3 mal n, oder ...
+
+04:57.492 --> 04:59.503
+Mal sehen, für den ersten Gast
+
+04:59.503 --> 05:01.318
+subtrahieren wir 3 mal Null.
+
+05:01.921 --> 05:04.406
+für den zweiten Gast subtrahieren wir 1 mal 3.
+
+05:04.928 --> 05:07.941
+für den dritten Gast subtrahieren wir 2 mal 3.
+
+05:08.463 --> 05:11.125
+Für den n-ten Gast subtrahieren wir
+
+05:11.125 --> 05:13.081
+3 (n - 1)
+
+05:13.380 --> 05:15.966
+Für den dritten Gast haben wir 2 mal 3 subtrahiert.
+
+05:16.203 --> 05:19.237
+Für den zweiten Gast haben wir 1 mal 3 subtrahiert
+
+05:19.495 --> 05:21.573
+Erster Gast, 0 mal 3 subtrahiert.
+
+05:21.669 --> 05:22.590
+Das funktioniert.
+
+05:22.888 --> 05:25.576
+Für den ersten Gast subtrahieren wir 3 mal 0,
+
+05:25.732 --> 05:27.405
+damit g von 1 gleich 50 ist.
+
+05:27.663 --> 05:29.782
+Wir sehen, das stimmt für alle hier.
+
+05:30.101 --> 05:34.372
+Also könnte ich schreiben, 50 minus 3 mal n minus 1
+
+05:34.408 --> 05:35.871
+und ich empfehle hier wirklich eine Tabelle,
+
+05:35.871 --> 05:37.740
+so stellst du sicher, dass du die n minus 1 oder die n
+
+05:37.740 --> 05:40.915
+richtig bekommst und alles zusammenpasst.

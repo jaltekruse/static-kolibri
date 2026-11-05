@@ -1,0 +1,159 @@
+WEBVTT
+
+00:00.000 --> 00:02.902
+b von 1 ist gleich - 7
+
+00:02.902 --> 00:06.582
+und b von n ist gleich b von (n -1) + 12, und wir sollen,
+
+00:06.582 --> 00:11.312
+und b von n ist gleich b von (n -1) + 12, und wir sollen
+
+00:11.312 --> 00:14.645
+den vierten Term in der Folge finden.
+
+00:16.211 --> 00:17.827
+Also, wir haben hier oben eine Funktionsdefinition, die die Terme einer Sequenz definiert.
+
+00:17.827 --> 00:19.910
+Also, wir haben hier oben eine Funktionsdefinition, die die Terme einer Sequenz definiert.
+
+00:19.910 --> 00:23.247
+Also, wir haben hier oben eine Funktionsdefinition, die die Terme einer Sequenz definiert.
+
+00:23.247 --> 00:26.336
+Wenn du ganze Zahlen eingibst, dann hast du den Index der Sequenz.
+
+00:26.336 --> 00:28.749
+Wenn du ganze Zahlen eingibst, dann hast du den Index der Sequenz.
+
+00:28.749 --> 00:30.770
+Wir wollen herausfinden, was b von 4 ist.
+
+00:30.770 --> 00:34.020
+Wir wollen herausfinden, was b von vier ist.
+
+00:36.376 --> 00:38.834
+Nun, wenn wir diese Regel blind anwenden,
+
+00:38.834 --> 00:42.300
+würden wir sagen, na gut der vierte Term b von n ist gleich b von (n -1) + 12.
+
+00:42.300 --> 00:45.981
+würden wir sagen, na gut der vierte Term b von n ist gleich b von (n -1) + 12.
+
+00:45.981 --> 00:49.731
+also ist es b von (4 - 1) + 12.
+
+00:51.717 --> 00:53.342
+4 - 1 = 3, also ist es b von 3 + 12.
+
+00:53.342 --> 00:57.342
+4 - 1 = 3, also ist es b von 3 + 12.
+
+00:58.797 --> 01:01.031
+Im Grunde machen wir das ganze wie mit b von 1 nur halt mit einer 4.
+
+01:01.031 --> 01:03.331
+Im Grunde machen wir das ganze wie mit b von 1 nur halt mit einer 4.
+
+01:03.331 --> 01:04.340
+Im Grunde machen wir das ganze wie mit b von 1 nur halt mit einer 4.
+
+01:04.340 --> 01:06.471
+Wir versuchen, herauszufinden was b von 4 ist.
+
+01:06.471 --> 01:10.151
+Also ist n = 4, also ist b von 4 gleich b von 4 - 1, oder b von 3 + 12.
+
+01:10.151 --> 01:14.068
+Also ist n = 4, also ist b von 4 gleich b von 4 - 1, oder b von 3 + 12.
+
+01:15.383 --> 01:18.151
+Um das herauszufinden, müssen wir jetzt herausfinden, was b von 3 ist.
+
+01:18.151 --> 01:19.962
+Lass uns das aufschreiben.
+
+01:19.962 --> 01:21.808
+Bei einer rekursiven Definition macht es Spaß, rückwärts zu zählen, also b von 3.
+
+01:21.808 --> 01:25.880
+Bei einer rekursiven Definition macht es Spaß, rückwärts zu zählen, also b von 3.
+
+01:25.880 --> 01:29.442
+Nun, wenn n = 3 ist, dann ist das b von n - 1, also 2, b von 2 + 12.
+
+01:29.442 --> 01:32.859
+Nun, wenn n = 3 ist, dann ist das b von n - 1, also 2, b von 2 + 12.
+
+01:34.113 --> 01:37.393
+Wir wissen nicht, was b von 2 ist, also lass uns weitermachen.
+
+01:37.393 --> 01:39.774
+Wir brauchen b von 2.
+
+01:39.774 --> 01:43.530
+Wenn wir die gleiche Definition verwenden, dann ist b von 2, b von (2 - 1) + 12.
+
+01:43.530 --> 01:47.697
+Wenn wir die gleiche Definition verwenden, dann ist b von 2, b von (2 - 1) + 12.
+
+01:48.970 --> 01:53.957
+Das ist b von 1 + 12, aber
+wir wissen nicht, was b von 1 ist, also lass uns das herausfinden.
+
+01:53.957 --> 01:55.841
+Das ist b von 1 + 12, aber
+wir wissen nicht, was b von 1 ist, also lass uns das herausfinden.
+
+01:55.841 --> 01:59.557
+Hier haben wir es, b von 1 = -7.
+
+01:59.557 --> 02:03.724
+Hier haben wir es, b von 1 = -7.
+
+02:04.741 --> 02:07.733
+Jetzt können wir loslegen und alles rückwärts auffüllen.
+
+02:07.733 --> 02:10.514
+Wenn b von 1 = -7 ist, dann wissen wir, dass dies hier drüber -7 ist.
+
+02:10.514 --> 02:13.243
+Wenn b von 1 = -7 ist, dann wissen wir, dass dies hier drüber -7 ist.
+
+02:13.243 --> 02:15.956
+Jetzt können wir herausfinden, dass b von 2 = -7 + 12, also 5, ist.
+
+02:15.956 --> 02:20.039
+Jetzt können wir herausfinden, dass b von 2 = -7 + 12, also 5, ist.
+
+02:21.699 --> 02:24.598
+Wenn b von 2 = 5 ist, dann ergibt das hier auch 5, demnach ist b von 3 5 + 12, also 17.
+
+02:24.598 --> 02:27.407
+Wenn b von 2 = 5 ist, dann ergibt das hier auch 5, demnach ist b von 3 5 + 12, also 17.
+
+02:27.407 --> 02:30.706
+Wenn b von 2 = 5 ist, dann ergibt das hier auch 5, demnach ist b von 3 5 + 12, also 17.
+
+02:30.706 --> 02:32.456
+Wenn b von 2 = 5 ist, dann ergibt das hier auch 5, demnach ist b von 3 5 + 12, also 17.
+
+02:33.738 --> 02:37.029
+Jetzt wissen wir, dass b von 3 = 17 ist, also ist b von 4 = 17 + 12. Dies ergibt 29.
+
+02:37.029 --> 02:40.948
+Jetzt wissen wir, dass b von 3 = 17 ist, also ist b von 4 = 17 + 12. Dies ergibt 29.
+
+02:40.948 --> 02:43.237
+Jetzt wissen wir, dass b von 3 = 17 ist, also ist b von 4 = 17 + 12. Dies ergibt 29.
+
+02:43.237 --> 02:46.095
+Jetzt wissen wir, dass b von 3 = 17 ist, also ist b von 4 = 17 + 12. Dies ergibt 29.
+
+02:46.095 --> 02:47.845
+b von vier ist jetzt b von drei, was 17 ist, plus 12, was 29 ergibt.
+
+02:49.317 --> 02:50.650
+Fertig. b von 4 = 29.

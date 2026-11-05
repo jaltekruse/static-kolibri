@@ -1,0 +1,343 @@
+WEBVTT
+
+00:00.733 --> 00:03.151
+Aşağıdaki lineer denklem sistemi bağımlı mıdır, bağımsız mıdır? Burada bize iki denklem vermişler.
+
+00:03.151 --> 00:06.313
+-
+
+00:06.313 --> 00:07.575
+-
+
+00:07.575 --> 00:09.677
+Bu soruyu çözmeye başlamadan önce, bağımlı ve bağımsızın anlamlarını tekrar edelim.
+
+00:09.677 --> 00:11.812
+-
+
+00:11.812 --> 00:13.025
+-
+
+00:13.041 --> 00:14.629
+Bunu tutarlı ve tutarsızla karşılaştıracağım.
+
+00:14.629 --> 00:16.860
+-
+
+00:16.860 --> 00:18.538
+İki boyutlu lineer denklem sistemlerini incelediğimizde, doğruların veya denklemlerin birbiriyle ilişkisi için üç olası durum var.
+
+00:18.538 --> 00:21.906
+-
+
+00:21.906 --> 00:23.767
+-
+
+00:23.767 --> 00:26.427
+-
+
+00:26.427 --> 00:28.564
+-
+
+00:28.564 --> 00:30.015
+Bu üç durumu çizeyim.
+
+00:30.015 --> 00:35.032
+Öncelikle üç koordinat düzlemi çiziyorum. Bu ilk x ve y eksenim, x ve y.
+
+00:35.032 --> 00:37.964
+Bir tane daha çizeyim. Bu x, bu da y.
+
+00:37.964 --> 00:44.918
+-
+
+00:44.918 --> 00:47.169
+Bir tane daha çizeyim, iki boyutta yalnızca üç olasılık var, x ve y.
+
+00:47.169 --> 00:50.323
+-
+
+00:50.323 --> 00:54.933
+-
+
+00:54.933 --> 00:58.215
+Doğruların kesiştiği durum olabilir, yani bir doğru şöyle olur ve diğeri de belki şöyledir.
+
+00:58.215 --> 01:03.231
+-
+
+01:03.231 --> 01:04.938
+-
+
+01:04.938 --> 01:08.378
+Böylece bir noktada kesişirler.
+
+01:08.378 --> 01:10.350
+İki doğrunun paralel olduğu duruma da rastlayabiliriz.
+
+01:10.350 --> 01:13.477
+-
+
+01:13.477 --> 01:15.923
+Bunu şuraya çizeyim. Bir doğru şöyle gidiyor, diğerinin de eğimi aynı, ama ötelenmiş, y keseni farklı.
+
+01:15.923 --> 01:17.815
+-
+
+01:17.815 --> 01:19.605
+-
+
+01:19.605 --> 01:21.421
+-
+
+01:21.421 --> 01:23.733
+Belki şöyle görünüyor, kesişim noktası yok.
+
+01:23.733 --> 01:26.021
+-
+
+01:26.021 --> 01:29.554
+Bir de iki doğrunun aynı olduğu durum var, iki doğrunun eğimi de, y keseni de aynı.
+
+01:29.554 --> 01:31.513
+-
+
+01:31.513 --> 01:34.420
+-
+
+01:34.420 --> 01:38.005
+Aslında ikisi de aynı doğru, sonsuz adet noktada kesişiyorlar.
+
+01:38.005 --> 01:39.900
+Doğruların biri üzerindeki her nokta, aynı zamanda öteki doğrunun da üzerinde bulunuyor.
+
+01:39.900 --> 01:42.718
+-
+
+01:42.718 --> 01:45.431
+Size biraz terminoloji vermek gerekirse, bir önceki videoda öğrendiğimiz üzere, kesişme veya ortak çözüm olmayan bu tip sisteme tutarsız sistem diyoruz.
+
+01:45.431 --> 01:49.175
+-
+
+01:49.175 --> 01:51.159
+-
+
+01:51.159 --> 01:53.467
+-
+
+01:53.467 --> 01:59.429
+-
+
+01:59.429 --> 02:01.329
+Ve tanımsal olarak, tutarsızın tersini alırsak, bu ikisi tutarlı oluyor. Bunların ikisi de tutarlı.
+
+02:01.329 --> 02:03.154
+-
+
+02:03.154 --> 02:06.082
+-
+
+02:06.082 --> 02:08.467
+-
+
+02:08.467 --> 02:10.344
+Ama tutarlının kendi içinde de farklılıklar var, burada tek bir çözüm var, bunlar bir noktada kesişen iki farklı doğru.
+
+02:10.344 --> 02:12.498
+-
+
+02:12.498 --> 02:14.092
+-
+
+02:14.092 --> 02:15.985
+-
+
+02:15.985 --> 02:19.082
+Burada ise, ikisi aynı doğru.
+
+02:19.082 --> 02:20.975
+Bu iki durumun arasındaki farkı da şöyle belirtiyoruz.
+
+02:20.975 --> 02:23.314
+Buradakine bağımsız, şuradakine bağımlı diyoruz.
+
+02:23.314 --> 02:32.340
+-
+
+02:32.340 --> 02:34.719
+Bağımsızlık durumunda, iki doğru istediğini yapıyor, birbirlerine bağımlı değiller. Aynı doğru değiller. Bir noktada kesişirler.
+
+02:34.719 --> 02:37.298
+-
+
+02:37.298 --> 02:39.323
+-
+
+02:39.323 --> 02:41.226
+Bağımlılık durumunda ise, iki doğru aynı, bir doğruyu sağlayan her nokta, diğer doğruyu da sağlıyor.
+
+02:41.226 --> 02:43.436
+-
+
+02:43.436 --> 02:44.964
+-
+
+02:44.964 --> 02:46.262
+Bir denklemi sağlayan her nokta,diğer denklemi de sağlıyor. Bunu belirttikten sonra, bu lineer denklem sisteminin bağımlı mı bağımsız mı olduğuna bakalım.
+
+02:46.262 --> 02:49.738
+-
+
+02:49.738 --> 02:53.679
+-
+
+02:53.679 --> 02:55.759
+-
+
+02:55.759 --> 02:57.329
+Tutarlı olduğunu varsaymamızı istiyorlar.
+
+02:57.329 --> 02:58.862
+-
+
+02:58.862 --> 03:00.898
+Ya bir noktada kesişecek veya sonsuz noktada kesişecek.
+
+03:00.898 --> 03:02.218
+-
+
+03:02.218 --> 03:05.067
+Bunu bulmanın en kolay yolu şu.
+
+03:05.067 --> 03:07.800
+Buradaki ikinci denklem, halihazırda eğim-kesim noktası formunda verilmiş.
+
+03:07.800 --> 03:09.693
+-
+
+03:09.693 --> 03:13.432
+Eğimin eksi 2, y keseninin 8 olduğunu biliyoruz.
+
+03:13.432 --> 03:17.138
+Birinci denklemi eğim-kesim noktası formunda yazalım ve eğim veya kesim noktasının farklı olup olmadığına bakalım.
+
+03:17.138 --> 03:18.525
+-
+
+03:18.525 --> 03:20.425
+-
+
+03:20.425 --> 03:22.569
+Veya belki de aynı doğruyu elde ederiz. Buna göre, denklemimiz, 4 x artı 2 y eşittir 16.
+
+03:22.569 --> 03:27.419
+-
+
+03:27.419 --> 03:29.723
+İki taraftan 4 x çıkarabiliriz, y'yi sol tarafta tek başına bırakmak istiyoruz.
+
+03:29.723 --> 03:31.513
+-
+
+03:31.513 --> 03:35.082
+İki taraftan 4 x çıkaralım. Sol tarafta 2 y kalır. Sağ tarafta ise, eksi 4 x artı 16 var.
+
+03:35.082 --> 03:39.051
+-
+
+03:39.051 --> 03:41.759
+-
+
+03:41.759 --> 03:45.918
+-
+
+03:45.918 --> 03:48.107
+Önce eksi 4'ü yazıyorum ki, geleneksel eğim-kesim noktası formunda ifade etmiş olayım.
+
+03:48.107 --> 03:49.941
+-
+
+03:49.941 --> 03:52.021
+-
+
+03:52.021 --> 03:54.144
+Şimdi iki tarafı da 2'ye bölebiliriz ki sol tarafta y kalsın.
+
+03:54.144 --> 03:56.759
+-
+
+03:56.759 --> 03:58.733
+İki tarafı 2'ye böleriz, y eşittir eksi 4 bölü 2 eşittir eksi 2 x artı 16 bölü 2, artı 8.
+
+03:58.733 --> 04:04.334
+-
+
+04:04.334 --> 04:08.269
+-
+
+04:08.269 --> 04:10.717
+Bu üstteki denklem üzerinde işlemler yapıp y'yi tek başına bıraktım ve bunu elde ettim.
+
+04:10.717 --> 04:12.997
+-
+
+04:12.997 --> 04:16.185
+-
+
+04:16.185 --> 04:17.882
+Bu, ikinci denklemle aynı. Eğimler aynı, eksi 2, eksi 2.
+
+04:17.882 --> 04:20.400
+-
+
+04:20.400 --> 04:24.667
+-
+
+04:24.667 --> 04:27.139
+y kesenleri aynı, 8 ve 8. Bu denklemlerin grafiğini çizmek istersem, bu x ekseni, bu y ekseni, ikisinin de y keseni 8 ve eğimi eksi 2.
+
+04:27.139 --> 04:31.713
+-
+
+04:31.713 --> 04:36.308
+-
+
+04:36.308 --> 04:39.641
+-
+
+04:39.641 --> 04:41.179
+-
+
+04:41.179 --> 04:43.087
+Kabaca şöyle çizebilirim. Belki bu, birinci denklemin grafiği.
+
+04:43.087 --> 04:44.518
+-
+
+04:44.518 --> 04:48.359
+-
+
+04:48.359 --> 04:51.215
+-
+
+04:51.215 --> 04:52.596
+Ve ikinci denklemin grafiği de bununla aynı olacak. y keseni ve eğimi aynı.
+
+04:52.596 --> 04:54.390
+-
+
+04:54.390 --> 04:56.944
+-
+
+04:56.944 --> 05:00.740
+Bu doğruların bağımlı olduğu açıkça görülüyor.
+
+05:00.740 --> 05:03.708
+Bağımlı. Ortak sonsuz adet noktamız var, çünkü doğrular aynı.
+
+05:03.708 --> 05:06.354
+-
+
+05:06.354 --> 3:59:59.999
+-

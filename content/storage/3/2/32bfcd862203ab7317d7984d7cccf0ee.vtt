@@ -1,0 +1,880 @@
+WEBVTT
+
+00:00.000 --> 00:00.400
+-
+
+00:00.400 --> 00:03.100
+Bir önceki videoda vektör değerli fonksiyonun esasını veya, daha da önemlisi, bir konum vektör değerli fonksiyonun nasıl parametrik denklemlerin yerini aldığını anlamış olduğumuzu umuyorum.
+
+00:03.100 --> 00:06.760
+-
+
+00:06.760 --> 00:10.340
+-
+
+00:10.340 --> 00:13.460
+-
+
+00:13.460 --> 00:16.110
+-
+
+00:16.110 --> 00:18.050
+Bu videoda ise, vektör değerli fonksiyonun türevinin anlamını size sezdirmek istiyorum.
+
+00:18.050 --> 00:21.910
+-
+
+00:21.910 --> 00:23.730
+-
+
+00:23.730 --> 00:27.190
+t parametresine göre türev alacağız.
+
+00:27.190 --> 00:30.510
+Buraya yeni bir şeyler çizeyim.
+
+00:30.510 --> 00:36.580
+r t vektör değerli fonksiyonu, x t çarpı i birim vektörü artı y t çarpı j birim vektörü olsun. Bu fonksiyon birinci videodakiyle aynı.
+
+00:36.580 --> 00:39.450
+-
+
+00:39.450 --> 00:46.830
+-
+
+00:46.830 --> 00:49.460
+Üç boyutlu uzayda olsaydık, bir de z t çarpı k eklerdik, ama şimdilik bunu basit tutalım. Diyelim ki, bu fonksiyon bir eğri tanımlıyor.
+
+00:49.460 --> 00:52.510
+-
+
+00:52.510 --> 00:56.950
+-
+
+00:56.950 --> 01:03.630
+a ve b arasındaki t değerleri için, eğriyi şöyle çizelim.
+
+01:03.630 --> 01:07.870
+-
+
+01:07.870 --> 01:12.600
+-
+
+01:12.600 --> 01:17.900
+-
+
+01:17.900 --> 01:19.890
+Burada t eşittir a ve eğri şöyle devam ediyor.
+
+01:19.890 --> 01:21.750
+-
+
+01:21.750 --> 01:25.620
+Burada t b'ye eşit. Burada t a'ya eşit. Şu x a olur, bu da y a. Aynı şekilde, burası x b, bu da y b.
+
+01:25.620 --> 01:30.790
+-
+
+01:30.790 --> 01:36.730
+-
+
+01:36.730 --> 01:40.240
+-
+
+01:40.240 --> 01:45.150
+Bir önceki videoda bu eğriyi konum vektörlerinin bitim noktalarının tanımladığını görmüştük.
+
+01:45.150 --> 01:47.720
+-
+
+01:47.720 --> 01:51.400
+Bir önceki videoda gördüğümüz üzere, r a şu noktayı tanımlıyor.
+
+01:51.400 --> 01:52.300
+-
+
+01:52.300 --> 01:54.270
+Çok fazla tekrara girmek istemiyorum.
+
+01:54.270 --> 01:56.800
+Düşünmenizi istediğim şey, iki noktanın arasındaki farkın ne olduğu.
+
+01:56.800 --> 01:58.930
+-
+
+01:58.930 --> 02:01.410
+Şurada herhangi bir nokta alalım.
+
+02:01.410 --> 02:03.760
+Gelişigüzel bir t değeri.
+
+02:03.760 --> 02:06.780
+Buna r t diyoruz.
+
+02:06.780 --> 02:08.197
+Farklı bir nokta seçeceğim, çünkü daha açık görmenizi istiyorum.
+
+02:08.197 --> 02:10.100
+-
+
+02:10.100 --> 02:13.370
+Şu noktanın r t olduğunu düşünelim.
+
+02:13.370 --> 02:17.080
+-
+
+02:17.080 --> 02:18.980
+Belli bir t değeri için, r t.
+
+02:18.980 --> 02:22.410
+-
+
+02:22.410 --> 02:25.050
+Bu t değeri a artı bir şey olacak.
+
+02:25.050 --> 02:26.950
+-
+
+02:26.950 --> 02:30.080
+Şimdi de t'yi biraz artırdığımızı düşünelim.
+
+02:30.080 --> 02:31.560
+-
+
+02:31.560 --> 02:32.650
+h ile artırdığımızı düşünelim.
+
+02:32.650 --> 02:37.250
+t parametresini zaman olarak düşünürsek, zamanda biraz ileri gittiğimizi hayal edelim, yani parçacığımız biraz hareket etti.
+
+02:37.250 --> 02:40.430
+-
+
+02:40.430 --> 02:42.310
+-
+
+02:42.310 --> 02:43.180
+-
+
+02:43.180 --> 02:45.650
+Şuraya gitti, diyelim.
+
+02:45.650 --> 02:52.530
+Buradaki sarı vektör, r t artı h olsun.
+
+02:52.530 --> 02:55.360
+h kadar artırılmış bir değer.
+
+02:55.360 --> 03:00.040
+Şu soruyu sorabiliriz: f t'ye göre hangi hızla değişiyor?
+
+03:00.040 --> 03:04.650
+-
+
+03:04.650 --> 03:06.380
+Öncelikle bu ikisi arasındaki farkı merak edebiliriz.
+
+03:06.380 --> 03:07.550
+-
+
+03:07.550 --> 03:11.010
+Bunu görsellemek de istiyorum.
+
+03:11.010 --> 03:16.880
+r t artı h'den r t'yi çıkarırım.
+
+03:16.880 --> 03:21.080
+-
+
+03:21.080 --> 03:22.590
+-
+
+03:22.590 --> 03:25.580
+-
+
+03:25.580 --> 03:26.690
+Ne bulurum?
+
+03:26.690 --> 03:29.730
+Vektör işlemleri hakkında tekrar yapmak isteyebilirsiniz, ama sonuçta bu vektörü elde edersiniz.
+
+03:29.730 --> 03:32.130
+-
+
+03:32.130 --> 03:34.210
+-
+
+03:34.210 --> 03:36.820
+Şu mor renkteki vektörü buluruz.
+
+03:36.820 --> 03:39.320
+-
+
+03:39.320 --> 03:44.010
+Bu mor vektör, r t artı h eksi r t'dir.
+
+03:44.010 --> 03:47.080
+-
+
+03:47.080 --> 03:53.120
+-
+
+03:53.120 --> 03:55.110
+Bu size mantıklı gelmeli, çünkü vektörleri toplarken, uç uca ekleme yöntemini kullanırız.
+
+03:55.110 --> 03:56.050
+-
+
+03:56.050 --> 04:04.060
+Bunu r t artı r t artı h eksi r t olarak da ifade edebiliriz.
+
+04:04.060 --> 04:11.490
+-
+
+04:11.490 --> 04:13.630
+İki vektörü toplarken, bu vektörü şu vektörle topluyorum.
+
+04:13.630 --> 04:16.180
+-
+
+04:16.180 --> 04:17.350
+-
+
+04:17.350 --> 04:20.260
+İkinci vektörün sonunu birinci vektörün başına koyuyoruz.
+
+04:20.260 --> 04:21.450
+-
+
+04:21.450 --> 04:23.850
+Bu birinci vektör, ikinci vektörü de buraya koyarım. Ve tahmin ettiğimiz gibi, bu iki vektörün toplamı, şuna eşit olur.
+
+04:23.850 --> 04:28.000
+-
+
+04:28.000 --> 04:29.470
+-
+
+04:29.470 --> 04:33.050
+r t artı h'ye eşit olmalı.
+
+04:33.050 --> 04:36.000
+Cebirsel olarak bu ikisi birbirini götürür.
+
+04:36.000 --> 04:39.240
+-
+
+04:39.240 --> 04:40.080
+-
+
+04:40.080 --> 04:41.270
+Umarım bu mantıklı gelmiştir.
+
+04:41.270 --> 04:42.510
+Açıkça belirtmek istiyorum ki, bu artık konum vektörü değil.
+
+04:42.510 --> 04:45.450
+-
+
+04:45.450 --> 04:48.560
+Artık bu vektörü orijinden başlatırım ve özgün bir konum belirtmek için kullanırım demiyoruz.
+
+04:48.560 --> 04:51.870
+-
+
+04:51.870 --> 04:54.610
+Birden soyut bir vektöre dönüştü.
+
+04:54.610 --> 04:57.700
+İki konum vektörü arasındaki farkı ifade eden bir vektör.
+
+04:57.700 --> 04:59.140
+-
+
+04:59.140 --> 05:00.790
+Bu vektör burada. Ama bu vektör farkı ifade ediyor.
+
+05:00.790 --> 05:03.930
+-
+
+05:03.930 --> 05:07.070
+Bunu açarsak, cebirsel olarak neye benzer?
+
+05:07.070 --> 05:08.460
+-
+
+05:08.460 --> 05:14.740
+r t artı h nedir?
+
+05:14.740 --> 05:20.520
+-
+
+05:20.520 --> 05:27.190
+x t artı h çarpı i birim vektörü artı y t artı h çarpı j birim vektörü. Bu sadece şu parça. Eksi bu parça.
+
+05:27.190 --> 05:35.040
+-
+
+05:35.040 --> 05:40.570
+-
+
+05:40.570 --> 05:44.300
+-
+
+05:44.300 --> 05:46.240
+-
+
+05:46.240 --> 05:52.650
+Eksi r t, yani x t çarpı i artı, ama eksi işaretini dağıtıyorum, yani eksi y t çarpı j.
+
+05:52.650 --> 05:55.700
+-
+
+05:55.700 --> 05:59.690
+-
+
+05:59.690 --> 06:02.660
+Şöyle yazarım, bu eksi olur, bu da artı olur.
+
+06:02.660 --> 06:04.130
+-
+
+06:04.130 --> 06:06.200
+Bunun şu olduğunu anlamışsınızdır.
+
+06:06.200 --> 06:06.950
+-
+
+06:06.950 --> 06:09.200
+Sadece t'deki değerini buluyorum.
+
+06:09.200 --> 06:11.030
+x t ve y t var de bunları dağıtabiliriz, öyle değil mi?
+
+06:11.030 --> 06:11.970
+-
+
+06:11.970 --> 06:14.255
+Eksi işaretini dağıtırsanız, eksi x t ve eksi y t elde edersiniz.
+
+06:14.255 --> 06:15.920
+-
+
+06:15.920 --> 06:19.380
+Vektör toplamında, karşılıklı bileşenleri topladığınızı biliyorsunuz.
+
+06:19.380 --> 06:20.920
+-
+
+06:20.920 --> 06:22.990
+-
+
+06:22.990 --> 06:24.450
+x bileşenlerini toplarsınız ve y bileşenlerini toplarsınız.
+
+06:24.450 --> 06:25.750
+-
+
+06:25.750 --> 06:28.790
+-
+
+06:28.790 --> 06:31.810
+-
+
+06:31.810 --> 06:34.510
+Şuraya tekrar yazayım.
+
+06:34.510 --> 06:42.930
+r t artı h eksi r t eşittir, x ve y bileşenlerini gruplayacağız, x bileşenlerinin toplamı, ama bu negatif yani bunu şundan çıkaracağız.
+
+06:42.930 --> 06:47.100
+-
+
+06:47.100 --> 06:49.920
+-
+
+06:49.920 --> 06:51.400
+-
+
+06:51.400 --> 06:52.100
+-
+
+06:52.100 --> 07:02.400
+Yani x t artı h eksi x t, bunun tamamı çarpı x yönündeki birim vektör. Sonra da y t artı h eksi y t çarpı y yönündeki birim vektör.
+
+07:02.400 --> 07:09.840
+-
+
+07:09.840 --> 07:16.900
+-
+
+07:16.900 --> 07:19.490
+Terimlerin sırasını değştiriyoruz. Bu bize zaman farkının yarattığı r farkını verecek.
+
+07:19.490 --> 07:25.870
+-
+
+07:25.870 --> 07:26.610
+-
+
+07:26.610 --> 07:29.140
+Buradaki zaman farkı, h.
+
+07:29.140 --> 07:31.000
+-
+
+07:31.000 --> 07:33.500
+Bu videonun başında farkı bulmak istediğimi söyledim. t'ye göre anlık hız üzerinde düşüneceğiz.
+
+07:33.500 --> 07:36.100
+-
+
+07:36.100 --> 07:37.990
+-
+
+07:37.990 --> 07:39.790
+-
+
+07:39.790 --> 07:42.920
+Bunun h aralığında ne kadar değiştiğini anlamak istiyorum.
+
+07:42.920 --> 07:46.570
+-
+
+07:46.570 --> 07:48.750
+h yerine delta t de yazabilirdim, aynı şey olurdu.
+
+07:48.750 --> 07:50.010
+-
+
+07:50.010 --> 07:52.570
+Bunu h'ye bölmek istiyorum.
+
+07:52.570 --> 07:55.410
+-
+
+07:55.410 --> 07:58.200
+Vektörler h aralığı boyunca bu kadar değiştiği için.
+
+07:58.200 --> 07:59.310
+-
+
+07:59.310 --> 08:01.250
+Bu, eğime benziyor.
+
+08:01.250 --> 08:05.090
+Delta y veya y'lerin farkı bölü x'lerin farkı.
+
+08:05.090 --> 08:06.290
+-
+
+08:06.290 --> 08:09.160
+Fonksiyonun değişimi bölü x'in değişimi gibi.
+
+08:09.160 --> 08:11.960
+x değişimi yerine t değişimi demem gerekiyor, öyle değil mi?
+
+08:11.960 --> 08:13.470
+-
+
+08:13.470 --> 08:17.100
+Buradaki t değişimi, h, öyle değil mi?
+
+08:17.100 --> 08:21.290
+t artı h ile t arasındaki fark, yalnızca h.
+
+08:21.290 --> 08:25.650
+Yani her şeyi h'ye bölüyoruz.
+
+08:25.650 --> 08:28.750
+Bir vektörü belli bir sayıya çarparsak veya belli bir sayıya bölersek, vektörün her bileşenini o sayıyla çarpıyoruz veya o sayıya bölüyoruz, demektir.
+
+08:28.750 --> 08:31.070
+-
+
+08:31.070 --> 08:34.140
+-
+
+08:34.140 --> 08:35.660
+-
+
+08:35.660 --> 08:39.540
+Yani bu fark, vektörün h birim için ne kadar değiştiğini gösterir.
+
+08:39.540 --> 08:43.300
+-
+
+08:43.300 --> 08:46.220
+Anlık farkı bulmak için, diferansiyel analizin ilk başında yaptığımız gibi davranabiliriz.
+
+08:46.220 --> 08:49.230
+-
+
+08:49.230 --> 08:50.520
+-
+
+08:50.520 --> 08:52.670
+Bu, eğimle benzerlik gösteriyor.
+
+08:52.670 --> 08:55.520
+Sorudaki iz şöyle olsaydı, işimiz çok kolaylaşırdı.
+
+08:55.520 --> 09:02.220
+-
+
+09:02.220 --> 09:04.920
+Eğer doğrusal bir iz olsaydı.
+
+09:04.920 --> 09:07.240
+-
+
+09:07.240 --> 09:09.800
+Bunu hesaplardık, konum vektörleri arasındaki ortalama değişimi bulmuş olurduk.
+
+09:09.800 --> 09:13.080
+-
+
+09:13.080 --> 09:15.880
+-
+
+09:15.880 --> 09:18.050
+Bütün bu vektörler paralel olurdu.
+
+09:18.050 --> 09:24.470
+Ama bu vektörler paralel olmak zorunda değil.
+
+09:24.470 --> 09:26.740
+Böyle de olabilirler.
+
+09:26.740 --> 09:29.340
+O zaman bu, h'ye göre bu ikisinin nasıl değiştiğini veya parametremizin değişimine göre, konum vektörlerinin nasıl değiştiğini anlatır, öyle değil mi?
+
+09:29.340 --> 09:32.940
+-
+
+09:32.940 --> 09:36.230
+-
+
+09:36.230 --> 09:40.530
+Bu h'yi delta t gibi de düşünebilirsiniz.
+
+09:40.530 --> 09:44.050
+Bazıları h demeyi basit bulur, bazıları delta t'yi.
+
+09:44.050 --> 09:44.900
+-
+
+09:44.900 --> 09:47.230
+Neyse ben anlık değişimle ilgileniyorum.
+
+09:47.230 --> 09:49.140
+Eğrilerle analizle uğraşıyoruz.
+
+09:49.140 --> 09:50.870
+Doğrusal bir dünyada yaşasaydık, problem olmazdı.
+
+09:50.870 --> 09:52.670
+-
+
+09:52.670 --> 09:53.850
+Peki, şimdi ne yapacağız?
+
+09:53.850 --> 09:58.080
+h sıfıra yaklaşırken limit alabiliriz.
+
+09:58.080 --> 09:59.760
+-
+
+09:59.760 --> 10:03.700
+Bu iki tarafın h 0'a yaklaşırken limitini alıyorum.
+
+10:03.700 --> 10:07.910
+-
+
+10:07.910 --> 10:12.170
+-
+
+10:12.170 --> 10:16.440
+Burada h 0'a yaklaşırken limit alıyorum, burada da h 0'a yaklaşırken limit alıyorum.
+
+10:16.440 --> 10:18.520
+-
+
+10:18.520 --> 10:20.380
+-
+
+10:20.380 --> 10:22.970
+t farkı gitgide azaldıkça, anlık değişimin ne olduğunu bulmak istiyorum.
+
+10:22.970 --> 10:27.866
+-
+
+10:27.866 --> 10:30.480
+-
+
+10:30.480 --> 10:31.280
+-
+
+10:31.280 --> 10:33.870
+Anlık eğim, anlık hız veya teğet doğru eğimini ilk öğrendiğimizde de aynı şeyi yapmıştık.
+
+10:33.870 --> 10:36.810
+-
+
+10:36.810 --> 10:38.330
+--
+
+10:38.330 --> 10:41.270
+Bu bana biraz tanımsız gibi görünüyor.
+
+10:41.270 --> 10:45.260
+Henüz vektör değerli fonksiyonların limit ve türevlerini tanımlamadık.
+
+10:45.260 --> 10:47.820
+-
+
+10:47.820 --> 10:50.250
+Ama şansımıza bunlar tanıdık görünüyor.
+
+10:50.250 --> 10:51.160
+-
+
+10:51.160 --> 10:54.400
+Bu, aslında, türevin tanımı.
+
+10:54.400 --> 10:56.310
+Bunlar skaler fonksiyonlar.
+
+10:56.310 --> 10:58.340
+Vektör değerli fonksiyon oluşturmak için, vektörle çarpılıyorlar.
+
+10:58.340 --> 10:59.880
+-
+
+10:59.880 --> 11:02.100
+Tanımsal olarak, bu x üssü t.
+
+11:02.100 --> 11:04.330
+-
+
+11:04.330 --> 11:08.020
+Veya d x d t.
+
+11:08.020 --> 11:12.280
+Bu da y üssü t, d y d t olarak da yazabiliriz.
+
+11:12.280 --> 11:14.950
+-
+
+11:14.950 --> 11:17.520
+Burada size özellikle mantığını kavratmak istiyorum.
+
+11:17.520 --> 11:19.220
+-
+
+11:19.220 --> 11:20.590
+-
+
+11:20.590 --> 11:23.890
+Buna vektör değerli fonksiyonun türevi diyebiliriz. d r d t eşittir, dikkat ederseniz vektör işaretlerini tutuyorum.
+
+11:23.890 --> 11:30.100
+-
+
+11:30.100 --> 11:35.440
+-
+
+11:35.440 --> 11:37.170
+-
+
+11:37.170 --> 11:44.470
+r üssü t eşittir, x'in t'ye göre türevi çarpı x birim vektörü, yatay birim vektör, artı y üssü t çarpı y birim vektörü, j.
+
+11:44.470 --> 11:47.700
+-
+
+11:47.700 --> 11:50.450
+-
+
+11:50.450 --> 11:54.230
+-
+
+11:54.230 --> 12:01.170
+-
+
+12:01.170 --> 12:04.240
+-
+
+12:04.240 --> 12:06.800
+Bu çok güzel ve basit bir sonuç.
+
+12:06.800 --> 12:09.340
+Neyi temsil ettiğini görsellemek zor olabilir.
+
+12:09.340 --> 12:10.730
+-
+
+12:10.730 --> 12:14.490
+Görsellemenin sağlıklı olabilmesi için, şöyle büyük bir grafik çizeyim.
+
+12:14.490 --> 12:19.730
+-
+
+12:19.730 --> 12:22.310
+Eğrinin şöyle olduğunu varsayalım.
+
+12:22.310 --> 12:23.700
+Şöyle bir eğri.
+
+12:23.700 --> 12:26.860
+Diyelim ki, şu noktadaki anlık değişimi bulmak istiyoruz.
+
+12:26.860 --> 12:29.210
+-
+
+12:29.210 --> 12:32.550
+r t şuna eşit.
+
+12:32.550 --> 12:35.520
+r t artı h'yi alırsak, t artı h şurada bir şey olabilir.
+
+12:35.520 --> 12:39.740
+-
+
+12:39.740 --> 12:43.090
+Yani bu r t artı h.
+
+12:43.090 --> 12:46.290
+Bu ikisinin arasındaki fark, bu vektörden şu vektöre t'ye göre ne kadar hızlı değişildiğini gösteriyor. Bunu görsellemek biraz zor.
+
+12:46.290 --> 12:49.250
+-
+
+12:49.250 --> 12:55.170
+-
+
+12:55.170 --> 12:57.140
+-
+
+12:57.140 --> 12:58.960
+-
+
+12:58.960 --> 13:00.160
+-
+
+13:00.160 --> 13:02.200
+Bu bir vektör olabilir.
+
+13:02.200 --> 13:03.560
+Bu ikisinin arasındaki fark, bir vektör olacak.
+
+13:03.560 --> 13:05.070
+-
+
+13:05.070 --> 13:07.470
+h'ye bölünce ise, daha da büyük bir vektör olacak, özellikle h'nin küçük bir sayı olduğunu düşünürsek.
+
+13:07.470 --> 13:10.840
+-
+
+13:10.840 --> 13:12.410
+h'nin 1'den küçük bir sayı olduğunu söylersek, daha büyük bir vektör elde edeceğiz, öyle değil mi?
+
+13:12.410 --> 13:14.410
+-
+
+13:14.410 --> 13:17.100
+Bu, bu zaman dilimindeki ortalama değişimdir.
+
+13:17.100 --> 13:22.910
+Ama h küçüldükçe, r üssü t'nin yönü, eğriye teğet bir hal alacak.
+
+13:22.910 --> 13:26.100
+-
+
+13:26.100 --> 13:28.090
+-
+
+13:28.090 --> 13:29.900
+Bunu görselleyebiliriz, öyle değil mi?
+
+13:29.900 --> 13:33.320
+Bu iki vektör birbirine yaklaştıkça, delta r'ler azalır. h'nin daha da küçük olduğunu, noktanın şurada olduğunu düşünürseniz, bir anda vektörler arasındaki fark, daha da azalmış olur.
+
+13:33.320 --> 13:37.790
+-
+
+13:37.790 --> 13:41.220
+-
+
+13:41.220 --> 13:43.790
+-
+
+13:43.790 --> 13:45.510
+-
+
+13:45.510 --> 13:47.795
+-
+
+13:47.795 --> 13:50.500
+Eğriye teğet olmaya yaklaştığını görüyoruz.
+
+13:50.500 --> 13:53.770
+-
+
+13:53.770 --> 13:56.800
+Daha küçük bir h'ye böldüğümüz için, türev burada daha büyük bir sayı olacak.
+
+13:56.800 --> 14:00.670
+-
+
+14:00.670 --> 14:02.120
+-
+
+14:02.120 --> 14:04.420
+Aslında bu vektörün uzunluğu, bu eğrinin parametrik denklemine bağımlı, eğrinin şekline değil.
+
+14:04.420 --> 14:05.720
+-
+
+14:05.720 --> 14:09.510
+-
+
+14:09.510 --> 14:11.990
+-
+
+14:11.990 --> 14:15.170
+Bu vektörün yönü ise, bu eğrinin şekline bağlı. Bu, eğriye teğet olacak.
+
+14:15.170 --> 14:17.860
+-
+
+14:17.860 --> 14:22.460
+-
+
+14:22.460 --> 14:26.830
+Bu vektörün teğet doğru üzerinde olduğunu da düşünebiliriz.
+
+14:26.830 --> 14:28.220
+-
+
+14:28.220 --> 14:30.960
+Bunun uzunluğunu anlamak biraz zor.
+
+14:30.960 --> 14:33.050
+Bunu bir sonraki videoda daha ayrıntılı anlatmaya çalışacağım.
+
+14:33.050 --> 14:35.060
+-
+
+14:35.060 --> 14:37.380
+Yine de bunu anlamanızı istiyorum, Çünkü vektör değerli fonksiyonların çizgi integralini alırken bunu kullanacağız.
+
+14:37.380 --> 14:40.990
+-
+
+14:40.990 --> 14:44.400
+-
+
+14:44.400 --> 14:44.666
+-

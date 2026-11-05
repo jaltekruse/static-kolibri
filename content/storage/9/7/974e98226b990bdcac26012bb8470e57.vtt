@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+In diesem Video möchte ich euch das sehr wichtige Konzept des Grenzwerts vorstellen.
+
+00:07.132 --> 00:10.813
+Die gesamte Analysis basiert auf dieser Idee.
+
+00:10.828 --> 00:17.036
+Obwohl diese Idee so super wichtig ist, ist sie doch sehr einfach.
+
+00:17.036 --> 00:21.075
+Zunächst zeichne ich hier eine Funktion - oder besser gesagt ich definiere eine Funktion.
+
+00:21.075 --> 00:32.800
+Eine relative einfache Funktion f(x). Sagen wir mal f(x) sei f(x)=(x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+Nun könntest du sagen: "Hey Sal, schau mal, ich habe das gleiche im Zähler, als auch im Nenner."
+
+00:36.084 --> 00:42.421
+Wenn ich etwas durch sich selber teile, dann ergibt das doch eins! Kann ich dann nicht einfach f(x)=1 schreiben?"
+
+00:42.421 --> 00:47.944
+Und ich würde sagen: "Nun, du hast fast recht. Der Unterschied zwischen f(x)=1 und diesem Ausdruck...
+
+00:47.944 --> 00:57.638
+...hier ist, dass f(x) undefiniert ist, wenn x=1 ist. Was also passiert, wenn du
+
+00:57.653 --> 01:07.267
+f(1) betrachtestt? Im Zähler erhälst du (1-1), was gleich...lass mich das hier aufschreiben...
+
+01:07.267 --> 01:14.605
+im Zähler erhälst du 0 und im Nenner hast du (1-1), was auch gleich 0 ist. Damit dividierst du
+
+01:14.605 --> 01:26.764
+durch 0 und egal was du durch 0 dividierst, 0/0 inbegriffen, ist undefiniert. Also kannst du die Vereinfachung machen - du kannst sagen, dass es
+
+01:26.764 --> 01:36.867
+das Gleiche ist, wie f(x)=1, aber du müsstest die Einschränkung, dass x nicht gleich 1 sein darf, hinzufügen. Jetzt ist dies
+
+01:36.867 --> 01:43.133
+und das gleichwertig. Beide werden gleich 1 sein, für alle Werte von x außer x=1. Aber
+
+01:43.133 --> 01:51.340
+wenn x=1 ist, ist die Funktion undefiniert. Das ist undefiniert und dieses ebenso. Wie also würde ich diese Funktion zeichnen?
+
+01:51.340 --> 02:10.496
+Lass es mich zeichnen... das ist meine y=f(x) Achse und das hier ist meine x-Achse, dann ist sagen wir
+
+02:10.496 --> 02:22.799
+das der Punkt x=1, dass hier würde x=-1 sein und das ist y=1. Und genau da kann ich -1 platzieren aber das
+
+02:22.799 --> 02:28.267
+macht keinen großen Unterschied für die Funktion hier, also lass es mich zeichnen. Für jedes x ausser
+
+02:28.267 --> 02:42.600
+x=1 gilt f(x)=1. Es wird also so aussehen...außer bei x=1. Bei x=1 ist f(x) undefiniert, also
+
+02:42.600 --> 02:47.800
+werde ich hier eine kleine Lücke lassen, die ich mit diesem Kreis hervorhebe, um anzudeuten, dass diese Funktion
+
+02:47.800 --> 02:52.400
+nich definiert ist. Wir wissen nicht was diese Funktion bei 1 ergibt, da wir es nicht definiert haben.
+
+02:52.400 --> 03:00.333
+Die Definition dieser Funktion sagt uns nicht was wir bei 1 machen sollen, sie ist in wörtlichem Sinne undefiniert wenn x=1 ist.
+
+03:00.333 --> 03:09.113
+Also das hier ist die Funktion und wenn dich jemand fragt was f(1) ist würdest du...
+
+03:09.113 --> 03:14.467
+die Funktion anschauen und sagen... oh warte, da ist eine Lücke in meiner Funktion
+
+03:14.467 --> 03:21.148
+hier ist sie undefiniert. Also lass es mich nochmal hin schreiben... es wiederholt sich zwar, aber ich werde es nochmals schreiben.
+
+03:21.148 --> 03:30.313
+f(1) ist zwar undefiniert, aber was ist wenn ich dich fragen würde welchem Wert sich die Funktion annähert,...
+
+03:30.313 --> 03:44.708
+wenn x gegen 1 geht? Und nun kommen wir dem Konzept eines Grenzwerts näher. Wenn sich also x dem Wert 1 mehr und mehr nähert...
+
+03:44.708 --> 03:51.837
+welchem Wert wird sich dann die Funktion nähern? Nun welchem Wert kommt die Funktion näher und näher?
+
+03:51.837 --> 03:58.909
+Für die linke Seite gilt: egal wie nah du der 1 auch kommst, solange du nicht genau bei 1 bist, ist f(x)=1.
+
+03:58.909 --> 04:04.790
+Von der rechten Seite aus machst du das Gleiche. Du könntest also sagen - und du wirst ...
+
+04:04.790 --> 04:10.631
+es besser verstehen, wenn wir mehr Beispiele machen - dass der Grenzwert wenn
+
+04:10.631 --> 04:24.933
+x (und lim, steht für limit, was englisch ist und Grenzwert bedeutet) - wenn x der 1 näher kommt ist der Grenzwert von f(x) gleich...
+
+04:24.933 --> 04:29.311
+wenn wir näher kommen können wir unglaublich, unendlich nah an 1 kommen, solange wir nicht direkt bei 1 sind...
+
+04:29.311 --> 04:33.190
+und unsere Funktion wird gleich 1 sein, sie kommt näher und näher an 1.
+
+04:33.190 --> 04:39.684
+Eigentlich ist sie sogar die ganze Zeit bei 1. Also können wir in diesem Fall sagen, dass der Grenzwert (Limes) von f(x) wenn x gegen 1 geht
+
+04:39.684 --> 04:45.395
+gleich 1 ist. Also nochmals, die ausgefallene Schreibweise, besagt nur: "Was macht diese Funktion,
+
+04:45.395 --> 04:48.133
+wenn x näher und näher zur 1 kommt?"
+
+04:48.133 --> 04:54.021
+Lass mich ein anderes Beispiel machen, bei dem wir mit Kurven zu tun haben, damit du ein generelles Verständnis des Konzepts hast.
+
+04:54.021 --> 05:02.533
+Also sagen wir, dass ich eine Funktion f(x) habe, zur Abwechslung nennen ich sie g(x).
+
+05:02.533 --> 05:09.852
+Sagen wir wir haben g(x) und definieren g(x) als x²,
+
+05:09.852 --> 05:26.082
+wenn x nicht gleich 2 ist, und wir sagen, dass wenn x=2 ist, g(x)=1 ergibt. Also nochmal eine interessante
+
+05:26.082 --> 05:34.133
+Funktion, die wie du sehen wirst nicht ganz durchgehend bzw. stetig ist. Sie hat eine Diskontinuität. Lass sie mich zeichnen.
+
+05:34.133 --> 05:48.225
+Also das ist meine y=g(x) Achse, das ist meine x-Achse hier. Sagen wir das hier ist x=1 und das ist x=2,
+
+05:48.225 --> 06:01.825
+das ist -1, das ist -2....Also überall außer bei x=2, ist die Funktion gleich x². Also lass es mich so zeichnen,
+
+06:01.825 --> 06:08.636
+das wird eine Parabel und sie sieht etwa so aus...So wird es ungefähr aussehen...
+
+06:08.636 --> 06:18.308
+Lass mich eine bessere Version zeichnen. Also wird es so aussehen, nicht die schönste
+
+06:18.308 --> 06:24.341
+Parabel in der Geschichte aller Parabeln, aber es gibt dir wohl eine Vorstellung davon, wie eine Parabel
+
+06:24.341 --> 06:32.991
+aus sieht, hoffe ich zumindest. Sie sollte symmetrisch sein...Lass es mich nochmal zeichnen, weil diese etwas unschön ist.
+
+06:32.991 --> 06:38.467
+Das sieht besser aus. Gut.
+
+06:38.467 --> 06:48.867
+Nun, das sollte der Graph für x² sein, aber die Funktion ist nicht x² wenn x=2 ist. Also nochmals, wenn x=2 ist,
+
+06:48.867 --> 06:55.428
+sollten wir eine kleine Unstetigkeit haben, also zeichne ich hier eine Lücke,
+
+06:55.428 --> 07:00.478
+weil die Funktion wenn x=2 ist 1 ergibt.
+
+07:00.478 --> 07:09.566
+Ich mache sie nicht auf der gleichen Skala...Auf dem Graphen von g(x)=x² wäre das 4., das wäre 2,
+
+07:09.616 --> 07:23.547
+das würde 1 sein, das würde 3 sein. Bei x=2 ergibt unsere Funktion 1.
+
+07:23.547 --> 07:27.856
+Das ist eine bizarre Funktion, aber wir können sie so bestimmen. Du kannst eine Funktion bestimmen,
+
+07:27.856 --> 07:36.667
+wie auch immer du willst! Beachte, dass es aussieht, wie der Graph von g(x)=x² außer wenn du zur 2 kommst,
+
+07:36.667 --> 07:48.252
+wo es eine Lücke gibt, weil du nicht "g(x)=x² benutzt wenn x=2 ist" , sondern "g(x)=1".
+
+07:48.252 --> 07:50.848
+...
+
+07:50.848 --> 08:04.914
+Du benutzt g(x)=1, so dass der Graph bei 2 direkt auf den Wert 1 fällt und dann mit x² weiter geht.
+
+08:04.914 --> 08:11.241
+Es gibt jetzt einige Dinge zu beachten. Wenn ich nur die Funktion an der Stelle g(2) auswerten sollte
+
+08:11.241 --> 08:15.933
+könnte ich auf die Definition schauen. Okay. Wenn x=2 ist, habe ich diese Situation hier
+
+08:15.933 --> 08:21.538
+und ich weiß, dass g(x)=1 ist. Lass mich eine interessantere Frage stellen.
+
+08:21.538 --> 08:32.149
+Was ist der Grenzwert von g(x), wenn x gegen 2 geht? Wieder eine ausgefallene Schreibweise, aber
+
+08:32.149 --> 08:38.502
+dahinter steckt eine sehr einfache Frage. "Wenn x näher und näher zur 2 kommt...
+
+08:38.502 --> 08:42.240
+wenn du näher und näher kommst - und das ist keine willkürliche Definition, denn wir werden dieses Thema in einem anderen Video behandeln -
+
+08:42.240 --> 08:52.979
+wenn x immer näher zum Wert 2 kommt, welchem Wert strebt dann g(x) entgegen?" Wenn du also zu x=1,9 und dann 1,999 und dann 1,999999
+
+08:52.979 --> 09:00.518
+und dann 1,99999999 kommst, was passiert mit g(x). Wenn du aus positiver Richtung kommst
+
+09:00.518 --> 09:06.656
+zum Beispiel 2,1 und fragen würdest, was der Wert von g(2,1) ist. Was ist g(2,01)? Was ist g(2,001)?
+
+09:06.656 --> 09:09.995
+Welchem Wert nähert sich das Ganze, wenn wir immer näher kommen?
+
+09:09.995 --> 09:15.733
+Und du kannst es sehen, indem du den Graphen zeichnest. Wenn g sich 2 nähert...
+
+09:15.733 --> 09:20.518
+und wir entlang des Pfades gehen, dann sehen wir, dass wir den Wert 4 erreichen,
+
+09:20.518 --> 09:26.545
+obwohl das nicht für die Funktion gilt, denn diese ist auf 1 gefallen, ist der Grenzwert von g(x),
+
+09:26.545 --> 09:33.405
+wenn x gegen 2 geht, gleich 4. Du kannst das sogar mit einem Taschenrechner ausrechnen.
+
+09:33.405 --> 09:39.907
+Lass mich das mal machen, weil ich glaube, dass es interessant ist.
+
+09:39.907 --> 09:49.041
+Ich nehme also meinen Ti-85 Taschenrechner.... hier ist er... und man kann numerisch berechnen,
+
+09:49.041 --> 09:57.995
+was für einem Wert die Funktion entgegen strebt, wenn man sich x=2 nähert. Versuchen wir es also mit 1,9. Für x=1,9 würde man dieses
+
+09:57.995 --> 10:05.549
+"hoch" Zeichen nutzen. Man hätte also 1,9² und würde 3,61 erhalten.
+
+10:05.549 --> 10:11.683
+Und was, wenn man noch näher zur 2 kommt? Also 1,99 und ich quadriere das wieder
+
+10:11.683 --> 10:21.683
+und erhalte 3,96. Nun versuche ich es mit 1,999 und quadriere das.
+
+10:21.683 --> 10:27.991
+Ich erhalte 3,996. Siehst du? Wir kommen immer näher zu unserem Punkt.
+
+10:27.991 --> 10:37.546
+Wenn ich wirklich nach komme zum Beispiel 1.999999999999²? Was erhalte ich dann? Es wird nicht genau
+
+10:37.546 --> 10:41.508
+4 sein (dieser Taschenrechner rundet die Zahl einfach auf), weil wir zu einer Zahl ganz ganz nah
+
+10:41.508 --> 10:47.456
+bei 4 kommen. Wie können das auch aus der positiven Richtung machen und
+
+10:47.456 --> 10:52.083
+es muss die gleiche Zahl sein, wenn wir von unten heran kommen. Nur werden
+
+10:52.083 --> 11:00.702
+unsere Werte diesmal knapp über unserem Grenzwert liegen. Wenn wir also 2,1² berechnen erhalten wir 4,4...
+
+11:00.702 --> 11:02.902
+Ich werde jetzt ein paar Schritte überspringen und
+
+11:02.902 --> 11:09.256
+2,0001² berechnen. Das ist jetzt viel näher an x=2 und wir kommen damit viel näher an unseren Grenzwert 4.
+
+11:09.256 --> 11:12.929
+Es ist also so, dass wir je näher wir zu x=2 kommen, umso näher auch dem Grenzwert 4 sind.
+
+11:12.929 --> 11:20.333
+Das war jetzt ein numerischer Weg um zu sehen, dass der Grenzwert von g(x), wenn x aus positiver oder negativer Richtung
+
+11:20.333 --> 11:25.000
+gegen 2 geht immer Näher an 4 kommt, obwohl die Funktion selbst am Punkt
+
+11:25.000 --> 11:31.070
+x=2 als g(2)=1 definiert ist.

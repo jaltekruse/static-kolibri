@@ -1,0 +1,470 @@
+WEBVTT
+
+00:00.452 --> 00:02.170
+Kết quả mà mình hy vọng sẽ cho bạn thấy
+
+00:02.170 --> 00:04.104
+hoặc cho bạn sự hiểu biết trong video này
+
+00:04.104 --> 00:06.001
+là kết quả mà chúng ta sẽ sử dụng
+
+00:06.001 --> 00:08.102
+trong chứng minh của công thức
+
+00:08.102 --> 00:09.569
+tính đạo hàm hàm hợp,
+
+00:09.569 --> 00:13.307
+Chúng ta có thể làm nhiều hơn là chứng minh công thức tính đạo hàm hàm hợp.
+
+00:13.307 --> 00:14.886
+Nhưng kết quả mà chúng ta sẽ xem xét
+
+00:14.886 --> 00:16.929
+là nếu chúng ta có một số hàm u
+
+00:16.929 --> 00:18.474
+là một hàm của x,
+
+00:18.474 --> 00:22.188
+và chúng ta biết rằng nó liên tục
+
+00:23.871 --> 00:26.729
+tại x bằng c,
+
+00:26.729 --> 00:30.084
+vì vậy nếu chúng ta biết điều này, thì điều đó sẽ ngụ ý
+
+00:30.084 --> 00:34.159
+rằng sự thay đổi trong u sẽ
+
+00:34.159 --> 00:39.114
+bằng 0 khi sự thay đổi của chúng ta trong x trong vùng này
+
+00:39.114 --> 00:41.424
+xung quanh c bằng không.
+
+00:41.424 --> 00:43.351
+Đây là những gì mình muốn hiểu.
+
+00:43.351 --> 00:45.686
+Rằng nếu u liên tục tại c,
+
+00:45.686 --> 00:48.667
+thì khi sự thay đổi của chúng ta ở x xung quanh c
+
+00:48.667 --> 00:51.745
+nhỏ hơn, và nhỏ hơn, và nhỏ hơn
+
+00:51.745 --> 00:54.566
+khi nó tiến gần đến 0, thì sự thay đổi của chúng ta ở u
+
+00:54.566 --> 00:57.110
+cũng tiến tới 0.
+
+00:58.296 --> 01:00.282
+Để suy nghĩ về điều này, hoặc thậm chí để chứng minh điều đó
+
+01:00.282 --> 01:03.450
+với bản thân một cách nghiêm khắc hơn một chút,
+
+01:03.450 --> 01:04.785
+chúng ta hãy suy nghĩ về ý nghĩa
+
+01:04.785 --> 01:07.409
+của việc liên tục tại x bằng c.
+
+01:07.409 --> 01:10.984
+Định nghĩa về tính liên tục là vậy,
+
+01:10.984 --> 01:14.003
+ì vậy điều này theo nghĩa đen cũng giống như nói
+
+01:14.003 --> 01:18.297
+rằng giới hạn khi x tiến tới c
+
+01:18.297 --> 01:23.104
+của u của x bằng u của c.
+
+01:23.104 --> 01:26.215
+Giới hạn mà hàm của chúng ta tiến tới
+
+01:26.215 --> 01:27.556
+khi x tiến tới c là bằng
+
+01:27.556 --> 01:29.408
+giá trị của hàm tại c.
+
+01:29.408 --> 01:31.811
+Chúng ta không có gián đoạn điểm
+
+01:31.811 --> 01:33.471
+hoặc gián đoạn nhảy.
+
+01:33.471 --> 01:34.574
+Nếu chúng ta có sự gián đoạn nhảy,
+
+01:34.574 --> 01:35.932
+thì giới hạn sẽ không tồn tại,
+
+01:35.932 --> 01:38.231
+và chúng ta đã thấy điều đó trong các video trước.
+
+01:38.231 --> 01:40.750
+Bây giờ ta sẽ chỉ vận dụng cái này
+
+01:40.750 --> 01:43.108
+để về cơ bản nó cho chúng ta kết luận này
+
+01:43.108 --> 01:44.732
+ngay đây.
+
+01:44.732 --> 01:46.752
+Vì vậy, cái này chúng ta có thể viết lại.
+
+01:46.752 --> 01:48.389
+Điều quan trọng là nhận ra rằng u của c,
+
+01:48.389 --> 01:50.003
+đây chỉ là một giá trị nào đó.
+
+01:50.003 --> 01:53.207
+Có vẻ như đây là một hàm
+
+01:53.207 --> 01:54.251
+của x hoặc một cái gì đó, nhưng không,
+
+01:54.251 --> 01:55.970
+đây chỉ là một giá trị nào đó.
+
+01:55.970 --> 01:57.769
+Mình đã nhập c ở đây và mình đã tính
+
+01:57.769 --> 01:59.267
+hàm đó, và vì vậy cái này sẽ
+
+01:59.267 --> 01:59.864
+là một số nào đó.
+
+01:59.864 --> 02:01.719
+Nó có thể là năm, bảy, hoặc pi,
+
+02:01.719 --> 02:03.947
+hoặc âm một, nhưng nó sẽ là
+
+02:03.947 --> 02:06.878
+một giá trị nào đó, một hằng số.
+
+02:06.878 --> 02:08.796
+Vì vậy, mình có thể coi nó như một hằng số.
+
+02:08.796 --> 02:10.408
+Vì vậy, điều này sẽ giống như
+
+02:10.408 --> 02:14.386
+giới hạn khi x
+
+02:14.386 --> 02:19.188
+tiến tới c của u của x
+
+02:19.188 --> 02:21.547
+trừ u của c
+
+02:21.547 --> 02:24.101
+bằng không.
+
+02:24.101 --> 02:26.028
+Và thực ra, trong video mà chúng ta chứng minh
+
+02:26.028 --> 02:28.501
+rằng khả năng khác biệt ngụ ý tính liên tục,
+
+02:28.501 --> 02:31.764
+chúng ta đã bắt đầu với điều này và chúng ta đã chứng minh
+
+02:31.764 --> 02:32.622
+nó ngay đằng kia.
+
+02:32.622 --> 02:35.048
+Chúng ta cho thấy rằng hai điều này là tương đương nhau.
+
+02:35.048 --> 02:36.036
+Nhưng hy vọng rằng bạn thậm chí có thể nghĩ
+
+02:36.036 --> 02:36.656
+về trực giác.
+
+02:36.656 --> 02:41.462
+Điều này chỉ là nếu giới hạn u của x
+
+02:41.462 --> 02:43.564
+là x tiến tới c bằng cái này,
+
+02:43.564 --> 02:45.468
+thì khi bạn tính giới hạn này,
+
+02:45.468 --> 02:46.966
+giới hạn là x tiến tới c,
+
+02:46.966 --> 02:50.611
+điều này sẽ tiến tới u của c,
+
+02:50.611 --> 02:51.892
+bởi vì chúng ta đã thấy nó ngay tại đây,
+
+02:51.892 --> 02:53.831
+u của c trừ u của c thực sự
+
+02:53.831 --> 02:55.758
+sẽ bằng không.
+
+02:55.758 --> 02:57.871
+Vì vậy, hy vọng rằng bạn không cảm thấy nó quá
+
+02:57.871 --> 02:59.810
+rắc rối, và bạn chỉ cần trừ
+
+02:59.810 --> 03:02.016
+u của c từ cả hai vế và áp dụng các tính chất
+
+03:02.016 --> 03:05.429
+của giới hạn, và bạn có thể
+cũng nhận được kết quả này.
+
+03:05.429 --> 03:07.750
+Nhưng điều này thật thú vị vì điều này về cơ bản
+
+03:07.750 --> 03:09.955
+có thể đưa chúng ta đến điều này,
+
+03:09.955 --> 03:11.483
+ý tưởng rằng khi thay đổi của chúng ta ở x
+
+03:11.483 --> 03:13.285
+ngày càng nhỏ hơn, nhỏ hơn và nhỏ hơn
+
+03:13.285 --> 03:15.723
+khi nó tiến gần đến 0, thì sự thay đổi
+
+03:15.723 --> 03:18.627
+của hàm chúng ta cũng tiến tới 0.
+
+03:18.627 --> 03:22.085
+Bây giờ chúng ta hãy vẽ đồ thị này hoặc trực quan hóa điều này
+
+03:22.085 --> 03:24.152
+để hiểu điều đó.
+
+03:24.152 --> 03:29.152
+Vì vậy, đây là trục x của chúng ta.
+
+03:29.512 --> 03:30.676
+Oops
+
+03:30.676 --> 03:32.475
+Đó là trục x của chúng ta.
+
+03:32.475 --> 03:35.578
+Có thể gọi đó là trục u của chúng ta.
+
+03:35.578 --> 03:36.925
+Và mình đã cố ý làm như vậy
+
+03:36.925 --> 03:38.121
+vì đó là biến chúng ta sẽ sử dụng
+
+03:38.121 --> 03:41.766
+trong video chứng minh công thức tính đạo hàm hàm hợp.
+
+03:41.766 --> 03:43.067
+Giả sử cái này ngay đây
+
+03:43.067 --> 03:44.892
+là hàm của chúng ta.
+
+03:45.318 --> 03:47.626
+Giả sử cái này ngay đây,
+
+03:47.626 --> 03:50.089
+là c.
+
+03:50.089 --> 03:52.889
+Cái này ngay đây là u của c.
+
+03:54.011 --> 03:56.521
+u của c.
+
+03:56.521 --> 04:00.734
+Sau đó, chúng ta chỉ cần lấy một số x tùy ý ở đây.
+
+04:01.115 --> 04:03.429
+Vì vậy, một số x tùy ý,
+
+04:03.429 --> 04:07.949
+và sau đó cái này ngay đây là u của x.
+
+04:11.787 --> 04:15.577
+Vì vậy, nếu chúng ta xác định sự thay đổi của mình,
+
+04:16.499 --> 04:17.225
+để mình làm cái này.
+
+04:17.225 --> 04:21.295
+Nếu chúng ta xác định sự thay đổi của chúng ta ở u là bằng
+
+04:21.295 --> 04:23.396
+u của x trừ đi u của c,
+
+04:23.396 --> 04:24.569
+điều này có ý nghĩa bởi vì đây là sự thay đổi
+
+04:24.569 --> 04:27.790
+của chúng ta ở u.
+
+04:27.790 --> 04:31.206
+Vì vậy, giả sử đây sẽ là u của x
+
+04:31.206 --> 04:34.246
+trừ u của c.
+
+04:34.246 --> 04:38.392
+Nếu chúng ta xác định sự thay đổi của chúng ta ở x
+
+04:38.392 --> 04:40.043
+bằng x trừ c,
+
+04:40.043 --> 04:41.098
+nó là trong trường hợp này,
+
+04:41.098 --> 04:43.492
+nó là x trừ c,
+
+04:46.504 --> 04:48.580
+thì chúng ta có thể viết lại giới hạn này
+
+04:48.580 --> 04:49.527
+ngay đây.
+
+04:49.527 --> 04:52.568
+Thay vì nói giới hạn khi x tiến tới c,
+
+04:52.568 --> 04:55.192
+chúng ta có thể viết giới hạn dưới dạng delta x
+
+04:55.192 --> 04:58.372
+tiến tới 0, bởi vì nếu x tiến tới c,
+
+04:58.372 --> 05:01.090
+thì delta x sẽ tiến tới 0.
+
+05:01.090 --> 05:02.668
+Vì vậy, chúng ta có thể viết đây là giới hạn
+
+05:02.668 --> 05:07.640
+khi delta x tiến tới 0 của delta u
+
+05:10.580 --> 05:12.202
+sẽ bằng không.
+
+05:12.202 --> 05:13.549
+Chúng ta xác định đây là sự thay đổi của chúng ta ở u,
+
+05:13.549 --> 05:15.104
+và đó là sự thay đổi của chúng ta ở u.
+
+05:15.104 --> 05:18.005
+Vì vậy, cái này bằng không.
+
+05:18.005 --> 05:19.979
+Vì vậy, một cách khác để nghĩ về điều này
+
+05:19.979 --> 05:23.648
+là khi delta x tiến tới 0,
+
+05:23.648 --> 05:25.679
+thay đổi của chúng ta ở u, thay đổi của chúng ta ở hàm,
+
+05:25.679 --> 05:27.340
+sẽ tiến tới 0.
+
+05:27.340 --> 05:32.340
+Vì vậy, khi delta x tiến tới 0,
+
+05:35.423 --> 05:38.702
+delta u tiến tới 0.
+
+05:38.702 --> 05:39.742
+Đó là những gì chúng ta đã viết ở đây.
+
+05:39.742 --> 05:41.425
+Delta u tiến tới 0
+
+05:41.425 --> 05:43.200
+khi delta x tiến tới 0.
+
+05:43.200 --> 05:47.124
+Theo nhiều cách, hy vọng đây là cách hiểu chung.
+
+05:47.124 --> 05:49.040
+Chúng ta đang xử lý một hàm liên tục.
+
+05:49.040 --> 05:50.598
+Khi bạn được ngày càng nhỏ hơn
+
+05:50.598 --> 05:51.639
+và bạn có thể nghĩ về nó theo cách này,
+
+05:51.639 --> 05:54.357
+khi bạn nhận được những thay đổi ngày càng nhỏ hơn của x,
+
+05:54.357 --> 05:56.759
+khi sự thay đổi của chúng ta ở x nhỏ hơn,
+
+05:56.759 --> 05:58.937
+và nhỏ hơn, và nhỏ hơn, và nhỏ hơn,
+
+05:58.937 --> 06:00.375
+đó là vì nó liên tục.
+
+06:00.375 --> 06:00.982
+Bạn sẽ không thể nói điều này
+
+06:00.982 --> 06:02.677
+đối với một hàm không liên tục,
+
+06:02.677 --> 06:04.177
+nhưng vì nó liên tục,
+
+06:04.177 --> 06:05.094
+hoặc bạn sẽ không thể nói điều này
+
+06:05.094 --> 06:07.962
+đối với một số hàm không liên tục,
+
+06:07.962 --> 06:09.621
+khi sự thay đổi của chúng ta ở x nhỏ hơn,
+
+06:09.621 --> 06:11.014
+và nhỏ hơn, và nhỏ hơn,
+
+06:11.014 --> 06:13.104
+thì sự thay đổi của chúng ta ở u sẽ nhỏ hơn,
+
+06:13.104 --> 06:14.057
+và nhỏ hơn, và nhỏ hơn.
+
+06:14.057 --> 06:15.317
+Vì vậy, nó có ý nghĩa trực quan,
+
+06:15.317 --> 06:16.338
+nhưng hy vọng điều này khiến bạn cảm thấy
+
+06:16.338 --> 06:18.013
+tốt hơn về nó vì chúng ta sẽ sử dụng
+
+06:18.013 --> 06:21.112
+ý tưởng này để chứng minh công thức tính đạo hàm hàm hợp
+
+06:21.112 --> 06:23.027
+trong video tiếp theo.

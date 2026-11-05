@@ -1,0 +1,337 @@
+WEBVTT
+
+00:00.499 --> 00:04.560
+Sagen wir, heute ist Tag 1,
+
+00:04.560 --> 00:08.000
+und zwar ein Montag.
+
+00:08.000 --> 00:09.830
+Wiir möchten nun herausfinden,
+
+00:09.830 --> 00:13.600
+welcher Wochentag der Tag 300 ist?
+
+00:13.600 --> 00:15.857
+Welche Tag der Woche ist der Tag 300?
+
+00:15.857 --> 00:17.440
+Ich rate Dir, das Video jetzt kurz zu pausieren,
+
+00:17.440 --> 00:19.800
+um darüber nachzudenken.
+
+00:19.800 --> 00:22.100
+Lass uns die Tage der Woche ausschreiben.
+
+00:22.100 --> 00:26.090
+Ich schreibe das in einer anderen Farbe.
+
+00:26.090 --> 00:37.140
+Montag, Dienstag, Mittwoch, Donnerstag, Freitag, Samstag und
+
+00:37.140 --> 00:39.226
+Sonntag.
+
+00:39.226 --> 00:40.600
+Wenn wir hier eine kleine Zahl hätten,
+
+00:40.600 --> 00:43.230
+könnten wir jetzt einfach auffüllen.
+
+00:43.230 --> 00:44.380
+Montag ist Tag 1.
+
+00:44.380 --> 00:45.490
+Dienstag ist Tag 2.
+
+00:45.490 --> 00:46.450
+Mittwoch ist Tag 3.
+
+00:46.450 --> 00:48.794
+4, 5, 6, 7.
+
+00:49.460 --> 00:52.030
+Tag 8. Nun, dass ist dann wieder ein Montag.
+
+00:52.030 --> 00:53.190
+9, 10.
+
+00:53.190 --> 00:54.920
+Fast wie bei einem Kalender.
+
+00:54.920 --> 01:01.270
+11, 12, 13, 14, 15, 16.
+
+01:01.270 --> 01:02.510
+Das ist ziemlich nützlich.
+
+01:02.510 --> 01:04.051
+Ich kann nun so weitermachen,
+
+01:04.051 --> 01:06.520
+um beispielsweise Tag 16 oder 20 herauszufinden.
+
+01:08.220 --> 01:10.806
+Aber das ist weniger nützlich, wenn es darum geht, Tag 300 herauszufinden.
+
+01:10.806 --> 01:12.180
+Noch weniger,
+
+01:12.180 --> 01:14.920
+wenn es sich um Tag 3000 handeln würde.
+
+01:14.920 --> 01:17.360
+Ich sollte hier also eine mathematische Lösung finden,
+
+01:17.360 --> 01:20.750
+um herauszufinden, welcher Wochentag der Tag 300 ist.
+
+01:20.750 --> 01:24.130
+Wie du siehst, hat dieses Raster hier
+
+01:24.130 --> 01:25.540
+Zeilen.
+
+01:25.540 --> 01:27.895
+In jeder Zeile hast du 7 Tage.
+
+01:27.895 --> 01:28.770
+Und das muss so sein.
+
+01:28.770 --> 01:31.307
+Es sind 7 Tag pro Woche.
+
+01:31.307 --> 01:33.390
+Gibt es also eine Möglichkeit herauszufinden,
+
+01:33.390 --> 01:34.960
+dass der 16. ein Dienstag ist,
+
+01:34.960 --> 01:38.060
+ohne dieses Raster anzuwenden.
+
+01:38.060 --> 01:40.800
+Eine Möglichkeit ist es,
+
+01:40.800 --> 01:43.180
+dass man 16 durch 7 teilt.
+
+01:43.180 --> 01:47.680
+Dann wissen wir, wie viele dieser Zeilen dieser 16 voranstehen.
+
+01:47.680 --> 01:52.510
+Dann wissen wir, wie viele ganze Zeilen vor der 16 kommen.
+
+01:52.510 --> 01:55.110
+16 geteilt durch 7 ist 2.
+
+01:55.110 --> 01:58.440
+Es sind vorerst mal 2 ganze Zeilen vor der 16.
+
+01:58.440 --> 02:01.340
+Denn die 7 geht 2 Mal in die 16.
+
+02:01.340 --> 02:04.720
+Dann bleibt aber ein Rest.
+
+02:04.720 --> 02:08.020
+Wie hoch ist der Rest, wenn man 16 durch 7 teilt?
+
+02:08.020 --> 02:12.690
+16 passt in die 7 deren 2 Mal.
+
+02:12.690 --> 02:14.400
+2 mal 7 ergibt 14.
+
+02:14.400 --> 02:16.610
+Nun haben wir also einen Rest von 2.
+
+02:16.610 --> 02:18.870
+Diese 2 passt also vorerst
+
+02:18.870 --> 02:21.230
+ganze 2 Mal hinein.
+
+02:21.230 --> 02:23.010
+Das ist normalerweise schon mal wichtig.
+
+02:24.430 --> 02:27.590
+Aber hier ist vor allem dieser
+
+02:27.590 --> 02:30.050
+Rest von Bedeutung.
+
+02:30.050 --> 02:32.810
+Die erste 2 hier sagt uns,
+
+02:32.810 --> 02:35.200
+wie viele Mal die 7 ganz in die 16 passt, und zwar 2 Mal.
+
+02:35.200 --> 02:38.020
+Dies sagt uns, wie viele ganze Zeilen es sind bis zur 16.
+
+02:38.020 --> 02:42.410
+Der Rest nun aber teilt uns mit, an welcher Position der Zeile die 16 ist.
+
+02:42.410 --> 02:44.630
+Wir hatten einen Rest von 2.
+
+02:44.630 --> 02:46.250
+Wir sind also nicht an der ersten,
+
+02:46.250 --> 02:49.940
+sondern an der zweiten Position in der dritten Zeile.
+
+02:49.940 --> 02:52.300
+Demanch muss es also ein Dienstag sein.
+
+02:52.300 --> 02:54.257
+Denn Dienstag ist ja der zweite Tag.
+
+02:54.257 --> 02:55.340
+Funktioniert
+
+02:55.340 --> 02:56.430
+das immer so?
+
+02:56.430 --> 02:59.090
+Lass es uns anhand anderer Beispiele anschauen.
+
+02:59.090 --> 03:03.490
+Nehmen wir Tag 25.
+
+03:03.490 --> 03:06.240
+Wir rechnen 25 geteilt durch 7.
+
+03:06.240 --> 03:08.330
+Ich schreibe hier drüben,
+
+03:08.330 --> 03:10.140
+wo wir genügend Platz haben.
+
+03:10.140 --> 03:15.940
+7 geht in die 25 deren 3 Mal.
+
+03:15.940 --> 03:17.770
+3 mal 7 ist 21.
+
+03:17.770 --> 03:20.080
+Der Rest ist 4.
+
+03:20.080 --> 03:21.340
+Lass uns sehen.
+
+03:21.340 --> 03:25.240
+Ich schreiben nun...
+
+03:25.240 --> 03:29.785
+25 geteilt durch 7 ist gleich 3, Rest 4.
+
+03:33.970 --> 03:36.340
+Gemäss dieses Rasters haben wir
+
+03:36.340 --> 03:39.740
+3 ganze Zeilen an 7, bevor wir die 25 erreichen.
+
+03:39.740 --> 03:43.680
+Die 25 befindet sich in Zeile 4, in der vierten Spalte.
+
+03:43.680 --> 03:46.310
+Wenn es sich in der vierten Spalte befindet,
+
+03:46.310 --> 03:47.920
+dann muss es ein Donnerstag sein.
+
+03:47.920 --> 03:52.120
+Tag 25 ist gemäss dieser Berechnung
+
+03:52.120 --> 03:53.300
+also ein Donnerstag.
+
+03:53.300 --> 03:55.810
+Lass uns sehen, ob es stimmt.
+
+03:55.810 --> 04:06.086
+Wir zählen: 17, 18, 19, 20, 21, 22, 23, 24, 25.
+
+04:06.086 --> 04:08.390
+Und es ist tatsächlich eine Donnerstag.
+
+04:08.390 --> 04:09.970
+Und das macht auch Sinn so.
+
+04:09.970 --> 04:14.390
+Es sind 3 ganze Zeilen, bevor die 25 kommt.
+
+04:14.390 --> 04:18.180
+Und dann in Zeile 4 ist es der vierte Tag,
+
+04:18.180 --> 04:19.940
+weil wir einen Rest von 4 haben.
+
+04:19.940 --> 04:21.360
+1, 2, 3, 4.
+
+04:21.360 --> 04:22.900
+Es ist also ein Donnerstag.
+
+04:22.900 --> 04:24.950
+Jetzt versuchen wir, die Frage hier zu beantworten.
+
+04:24.950 --> 04:27.570
+Welcher Wochentag ist der Tag 300?
+
+04:27.570 --> 04:34.560
+Wir teilen also 300 durch 7.
+
+04:34.560 --> 04:38.510
+7 geht in die 30 deren 4 Mal.
+
+04:38.510 --> 04:40.900
+4 mal 7 ist 28.
+
+04:40.900 --> 04:42.240
+Wir subtrahieren und erhalten 2.
+
+04:43.760 --> 04:46.530
+7 geht 2 Mal in die 20.
+
+04:46.530 --> 04:49.450
+2 mal 7 ist 14.
+
+04:49.450 --> 04:51.730
+Und dann erhalten wir den wichtigen Rest.
+
+04:51.730 --> 04:53.860
+Und dieser Rest ist nun wichtig.
+
+04:53.860 --> 04:56.970
+20 minus 14 ist gleich 6.
+
+04:56.970 --> 04:59.870
+Dieser Rest ist 6.
+
+04:59.870 --> 05:03.080
+In Bezug auf die Wochentage ist es
+
+05:03.080 --> 05:04.684
+also der sechste Tag.
+
+05:04.684 --> 05:06.100
+Wir müssen bei der sechsten Spalte schauen.
+
+05:06.100 --> 05:08.290
+Es sind 42 Zeilen davor.
+
+05:08.290 --> 05:11.180
+Was uns interessiert, ist aber, welcher Tag in dieser Reihe.
+
+05:11.180 --> 05:15.510
+Tag 300 ist der sechste Tag der Woche.
+
+05:15.510 --> 05:16.810
+Und der sechste Tag
+
+05:16.810 --> 05:21.398
+der Woche ist ein Samstag.

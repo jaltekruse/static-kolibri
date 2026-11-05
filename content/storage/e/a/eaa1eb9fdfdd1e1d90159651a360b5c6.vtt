@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.758 --> 00:05.636
+He dibujado una función arbitraria aquí y lo que vamos a hacer es tratar de aproximarme a esta función
+
+00:05.636 --> 00:10.625
+arbitraria. No sabemos lo que es. Usando un polinomio, le seguiremos sumando términos.
+
+00:10.733 --> 00:15.225
+Pero para hacer esto, vamos a suponer que se puede evaluar la función en cero, que nos da algún
+
+00:15.302 --> 00:22.175
+valor y que también podemos seguir tomando la derivada de la función y evaluando la primera derivada, la segunda,
+
+00:22.205 --> 00:28.538
+la tercera derivada, y así sucesivamente. Así que estamos suponiendo que sabemos que es F (0),
+
+00:28.600 --> 00:34.867
+estamos suponiendo que sabemos que es F '(0), estamos suponiendo que sabemos que es la segunda derivada en cero, estamos
+
+00:34.882 --> 00:42.800
+suponiendo que sabemos que es la tercera derivada en cero. Voy a escribir la tercera derivada, como F prima prima prima en cero
+
+00:42.800 --> 00:49.667
+y así sucesivamente. Así que vamos a pensar en cómo podemos aproximar esta función utilizando polinomios de longitudes cada vez más
+
+00:49.667 --> 00:55.600
+grandes. Así que podríamos tener un polinomio de un solo término. Y sólo sería un término constante. Así que este
+
+00:55.600 --> 01:01.400
+sería un polinomio de grado cero. Y si tenemos un término constante, por lo menos queremos hacer a ese polinomio,
+
+01:01.400 --> 01:10.067
+que es realmente una función constante, igual a la función F (0). Así, al principio tal vez sólo
+
+01:10.067 --> 01:19.133
+queremos P(0), donde P es el polinomio que queremos contruír. Queremos que P(0) sea igual a F(0).
+
+01:19.133 --> 01:30.667
+Si queremos hacer con un polinomio de un sólo término, de un sólo término constante, podemos poner que P(x) es igual a F (0).
+
+01:30.667 --> 01:37.133
+Así que si la quisiéramos representar gráficamente se vería así. Será sólo una línea horizontal en F (0).
+
+01:37.133 --> 01:43.267
+Y se puede decir de Sal, que es una aproximación horrible que sólo se aproximan a la función a éste punto
+
+01:43.267 --> 01:46.067
+Parece que tuvimos la suerte en un par de otros puntos, pero es realmente mala en todas partes
+
+01:46.067 --> 01:49.467
+Y voy a tratar de decirle que trate de hacer un mejor uso de una línea horizontal
+
+01:49.467 --> 01:55.733
+por lo menos nos salió bien en F (0) y esto es sólo tan bueno como podemos hacerlo con solo una constante.
+
+01:55.733 --> 02:02.600
+Y a pesar de que esto no se ve como una constante que estamos suponiendo que, dada la función
+
+02:02.600 --> 02:06.667
+podemos evaluarla a cero y eso nos dará el número. Así que cualquier número que sea
+
+02:06.667 --> 02:11.067
+ponemos por aquí. Y diríamos P (x) es igual a ese número. Sólo será un eje horizontal
+
+02:11.067 --> 02:19.933
+allí mismo, en la línea F (0). Pero eso obviamente no es tan grande, así que añadiremos más restricciones.
+
+02:19.933 --> 02:32.000
+Más allá del hecho de que queremos que p (0) es igual a f (0) y queremos también que p '(0) = f' (0)
+
+02:32.000 --> 02:40.067
+Lo haré en un color nuevo; ese no es un color nuevo.
+
+02:40.067 --> 02:46.667
+También queremos que p ', queremos que la primera derivada de nuestro polinomio evaluado en cero, que sea la misma
+
+02:46.667 --> 02:52.333
+cosa como el primer derivado de la función cuando fué evaluada a cero. Y, no queremos perder esto
+
+02:52.333 --> 03:03.067
+aquí. ¿Y qué si, y si ponemos p (x) como igual a f (0), por lo que estamos tomando nuestro p (x) estamos
+
+03:03.067 --> 03:12.467
+añadiendo otro término a los derivados pareados. Además f '(0) x veces. Así que vamos a pensar en esto un
+
+03:12.467 --> 03:19.133
+poquito, por lo que si usamos esto como nuestro nuevo polinomio que pasa? p (0) lo que es p (0)? p (0) va a
+
+03:19.133 --> 03:30.600
+sera igual a, vas a tener f (0) + f lo que sea este f primo (0) multiplicado por cero. Si usted pone un cero en la
+
+03:30.600 --> 03:36.333
+x este término se va simplemente a ser cero. Así que te vas a quedar con p (0) = f (0). Eso está bien;)
+
+03:36.333 --> 03:40.133
+Eso es sólo tan bueno como la primera versión. Ahora, ¿qué es el derivado por aquí?
+
+03:40.133 --> 03:48.467
+Así que el derivado es p '(x) =, el derivado de esta, y esto es sólo una constante por lo que su
+
+03:48.467 --> 03:53.733
+derivado es cero. Y el derivado de un coeficiente de veces x va a ser el coeficiente.
+
+03:53.733 --> 04:04.000
+Así que va a ser f '(0). Así que si usted lo evalúe en cero "para p igual a cero o un derivado de la
+
+04:04.000 --> 04:07.267
+de nuestro polinomio evaluado en cero. Sé que es un poco raro porque no estamos utilizando
+
+04:07.941 --> 04:12.918
+usted sabe, que estamos haciendo, oh, p '(x), f' (0), pero recuerda, lo que es la variable
+
+04:12.918 --> 04:18.930
+¿Cuál es la constante, y es de esperar que va a tener sentido. Así que esta es, obviamente, va a ser f '(0). Su derivado
+
+04:18.930 --> 04:23.463
+es un valor constante. Este es un valor constante aquí. Estamos asumiendo que podemos tomar el derivado
+
+04:23.463 --> 04:29.496
+de nuestra función y evaluar esa cosa a 0 para dar un valor constante. Así, si p '(x) es igual
+
+04:29.496 --> 04:35.028
+a este valor constante, entonces, obviamente, p '(x) evaluada a 0 va a ser ese valor.
+
+04:35.028 --> 04:42.281
+Pero lo bueno de esto de aquí, este polinomio que tiene un término de cero grados
+
+04:42.281 --> 04:49.365
+y un término de primer grado, es ahora, este polinomio es igual a nuestra función en x = 0
+
+04:49.365 --> 04:56.496
+y también tiene la primera derivada misma. También tiene la misma pendiente en x = 0!
+
+04:56.496 --> 05:02.467
+Así que esta cosa se ​​verá, este nuevo polinomio con dos términos es cada vez un poco mejor.
+
+05:02.467 --> 05:05.115
+Se verá algo así. Tendrá
+
+05:05.115 --> 05:14.049
+esencialmente, se verá como una recta tangente a f (0), en x = 0. Por lo tanto, estamos haciendo mejor,
+
+05:14.049 --> 05:20.664
+pero todavía no, una buena aproximación super. En cierto modo va en la misma dirección general
+
+05:20.664 --> 05:24.631
+como nuestra función de alrededor de 0, pero a lo mejor que podemos hacer mejor asegurarse de que tengan
+
+05:24.631 --> 05:29.317
+el mismo segundo derivado. Y de hacerlo mientras
+
+05:29.317 --> 05:35.964
+tengan el mismo primer derivado y el mismo valor a 0, tratemos de hacer algo interesante.
+
+05:35.964 --> 05:44.520
+Vamos a definir p (x), vamos a dejar en claro, este fue nuestro primer intento.
+
+05:44.520 --> 05:50.099
+Este es nuestro segundo intento, por aquí, y estoy a punto de embarcarnos en nuestro tercer intento.
+
+05:50.099 --> 05:54.296
+Así, en nuestro tercer intento, mi objetivo es que el valor de mi polinomio es el mismo
+
+05:54.296 --> 05:57.048
+como el valor de la función a 0, tienen el mismo derivado a 0,
+
+05:57.048 --> 06:02.413
+y también tienen el segundo derivado igual a 0. Así que vamos a definir mi polinomio
+
+06:02.413 --> 06:08.084
+a ser igual, así que voy a hacer los dos primeros términos de estos chicos por aquí.
+
+06:08.084 --> 06:15.833
+Por lo tanto, va a ser, f (0), además de f '(0) multiplicado x veces.
+
+06:15.833 --> 06:18.848
+Por lo tanto, exactamente lo que hicimos aquí, pero ahora quiero añadir otro término.
+
+06:18.848 --> 06:25.187
+Voy a hacer el otro término en otro color. Además, voy a ser la mitad de aquí,
+
+06:25.187 --> 06:28.187
+y espero que tenga sentido por eso que estoy a punto de hacerlo.
+
+06:28.187 --> 06:35.446
+Más la mitad de veces f del segundo derivado de nuestra función evaluada en x 0 al cuadrado.
+
+06:35.446 --> 06:41.599
+Y cuando se evalúa el derivado de esta, creo que se verá por qué esto de la mitad está ahí.
+
+06:41.599 --> 06:47.296
+Porque ahora, vamos a evaluar esta y sus derivados a 0. Así pues, si evaluar de forma p (0),
+
+06:47.296 --> 06:53.853
+p (0) va a ser igual a qué? Bueno, usted tiene este término constante,
+
+06:53.853 --> 06:57.166
+si la evaluación a 0, este xyx este ^ 2 son a la vez va a ser 0, por lo
+
+06:57.166 --> 07:01.532
+esos términos se va a desaparecer. Así que p (0) sigue siendo igual a f (0).
+
+07:01.532 --> 07:08.700
+Si usted toma la derivada de p (x), así que me tome el derivado por la derecha aquí, lo haré en amarillo.
+
+07:08.700 --> 07:13.584
+Por lo tanto el derivado de mi nuevo p (x) va a ser igual a, por lo que este término va a desaparecer,
+
+07:13.584 --> 07:18.748
+es un término constante, que va a ser igual a f '(0), que es el coeficiente de esto,
+
+07:18.748 --> 07:24.198
+mas, este es la regla de la potencia aquí, dos veces y media
+
+07:24.198 --> 07:33.283
+es sólo uno, además de f'' (0) x veces. Tomar los dos, se multiplica por la mitad, y decremento de que dos a la derecha
+
+07:33.283 --> 07:37.650
+allí. Y creo que ahora tengo una idea de por qué ponemos la mitad allí.
+
+07:37.650 --> 07:44.433
+que lo está haciendo para que no terminen con un coeficiente de dos en el frente.
+
+07:44.433 --> 07:50.588
+Ahora, que es p'(0)? p'(0) es qué?
+
+07:50.588 --> 07:55.847
+Pues bien, este derecho término aquí va a ser 0, por lo que te queda este valor constante aquí.
+
+07:55.847 --> 08:02.932
+Por lo tanto, va a ser f '(0). Por lo tanto, hasta ahora nuestro polinomio de tercera generación tiene todas las propiedades
+
+08:02.932 --> 08:06.437
+de los dos primeros. Y vamos a ver cómo lo hace en su tercer derivado.
+
+08:06.945 --> 08:13.429
+Por lo tanto, vamos a ver, diría yo, la segunda derivada. p'' (x) es igual a,
+
+08:13.429 --> 08:17.160
+esto es una constante, asi que el derivado es 0, por lo que sólo tenemos que escoger el coeficiente de
+
+08:17.160 --> 08:24.028
+en este segundo término, es igual a f'' (0). ¿Cuál es la segunda derivada de p
+
+08:24.228 --> 08:29.978
+evaluada a 0? Bueno, sólo va a ser este valor constante, f'' (0).
+
+08:29.978 --> 08:38.345
+Así noten que la adición de este término, no sólo es el valor del polinomio lo mismo que nuestra cosa
+
+08:38.345 --> 08:43.174
+valor de la función a 0, su derivado es 0 es lo mismo que el derivado de nuestra función a 0,
+
+08:43.174 --> 08:48.026
+y su segundo derivado es 0 es lo mismo que el segundo derivado de la función en 0.
+
+08:48.026 --> 08:54.508
+Y puede suponer que hay un patrón aquí - cada término que se va a añadir nos permitirá
+
+08:54.508 --> 09:02.493
+para establecer la situación para que el enésimo derivado de nuestra aproximación a 0 será lo mismo
+
+09:02.493 --> 09:07.378
+como el derivado enésimo de nuestra función a 0. Así que, en general, si queremos seguir haciendo esto,
+
+09:07.440 --> 09:16.519
+si queremos seguir añadiendo términos a nuestro polinomio, podemos, vamos a hacer esto en un nuevo color,
+
+09:16.519 --> 09:24.587
+podemos hacer que nuestra aproximación polinómica, por lo que el primer término sólo será f (0),
+
+09:24.587 --> 09:40.804
+y la próximo término será f '(0) x veces. Entonces el próximo término será f'' () una vez y media veces x ^ 2.
+
+09:40.804 --> 09:47.086
+Entonces el próximo término, si queremos hacer de sus derivados terceros los mismos a 0, serían
+
+09:47.224 --> 09:57.087
+f'' '(0), la tercera derivada de la función a 0, las veces de una media veces un tercio veces x ^ 3.
+
+10:00.672 --> 10:04.243
+Y podemos seguir adelante, tal vez usted comenzará a ver un patrón aquí.
+
+10:04.351 --> 10:09.773
+Además, si queremos hacer de sus derivados cuarto a 0 coinciden, serían
+
+10:09.820 --> 10:17.468
+el cuarto derivado de la función, es el cuarto derivado a 0 veces
+
+10:17.468 --> 10:30.373
+uno sobre cuatro veces tres veces dos, las veces de x ^ 4. Y usted puede verificar por sí mismo,
+
+10:30.373 --> 10:34.845
+Si tuviéramos esto solo, y, si usted fuera a tomar el cuarto derivado de este a 0,
+
+10:34.845 --> 10:39.782
+sería lo mismo que el cuarto derivado de la función a 0.
+
+10:39.782 --> 10:45.055
+Y en general, puede seguir añadiendo términos, donde el enésimo término se verá así:
+
+10:45.055 --> 10:56.000
+La derivada enésima de su función evaluada a 0, veces de x ^ n sobre n factorial.
+
+10:56.031 --> 11:05.193
+Noten que, esto es lo mismo que el cuarto factorial - cuatro factorial es de 4 * 3 * 2 * 1.
+
+11:06.163 --> 11:17.621
+Esto, aquí, es factorial de tres, 3 * 2 * 1, esto de aquí es factorial dos, 2 * 1.
+
+11:17.621 --> 11:23.511
+Esto es lo mismo que un factorial, lo mismo que uno.
+
+11:23.511 --> 11:29.110
+Y se podría dividir esta por cero factorial, que también pasa a ser uno,
+
+11:29.110 --> 11:35.553
+pero esta serie general, que he configurado aquí, se llama la serie de Maclaurin.
+
+11:37.753 --> 11:43.335
+Y se puede aproximar un polinomio y vamos a ver algunos resultados muy poderosos más adelante.
+
+11:43.335 --> 11:47.788
+Pero, ¿qué pasa, y no tengo el poder de computación en mi cerebro para dibujar la gráfica apropiadamente,
+
+11:47.788 --> 11:53.366
+sólo cuando la función es igual, se obtiene la línea horizontal. Al realizar las funciones
+
+11:53.366 --> 12:00.032
+y, cuando usted hace que la función sea igual a 0, y sus primeros derivados iguales a 0, entonces usted tiene
+
+12:00.032 --> 12:04.619
+algo que se parece a la línea de tangente. Cuando se agrega otro grado, se podría aproximar
+
+12:04.619 --> 12:11.145
+el polinomio de algo así. Cuando se agrega otro grado, podría ser algo así.
+
+12:11.191 --> 12:18.300
+Y al seguir añadiendo más y más términos, se acerca más y más alrededor, especialmente
+
+12:18.300 --> 12:25.377
+medida que se acercan a x = 0, pero en teoría, si se añade un número infinito de términos,
+
+12:25.454 --> 12:30.954
+No le he probado esto a usted, así que por eso estoy diciendo que es en teoría, pero si se añade un infinito
+
+12:30.954 --> 12:34.979
+número de términos, que debía ser, todos los derivados deberían ser los mismos y luego,
+
+12:34.979 --> 12:38.935
+las funciones deben parecerse la una a la otra.
+
+12:38.935 --> 12:44.208
+En el siguiente video, voy a hacer esto con algunas de las funciones reales, sólo lo que tendrá más sentido.
+
+12:44.208 --> 12:49.667
+Y, para que lo sepan, la serie de Maclaurin es un caso especial de la serie de Taylor, dado que
+
+12:49.683 --> 12:53.969
+estamos centralizando en 0. En la serie de Taylor podemos centralizar en cualquier punto.
+
+12:53.969 --> 3:59:59.999
+Por ahora nos enfocaremos en la de Maclaurin.

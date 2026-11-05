@@ -1,0 +1,255 @@
+WEBVTT
+
+00:00.000 --> 00:05.736
+V tomto videu se chci zabývat
+derivacemi exponenciálních funkcí.
+
+00:05.736 --> 00:14.664
+Už jsme se setkali s derivacemi
+podle x z (e na x), což je (e na x),
+
+00:14.664 --> 00:16.397
+to je docela zajímavá věc.
+
+00:16.397 --> 00:19.291
+Jedna z mnoha věcí,
+která činí e neobvyklým.
+
+00:19.291 --> 00:22.827
+Když zde máte exponenciální
+funkci o základu e,
+
+00:22.827 --> 00:29.730
+její derivace, sklon v jakémkoli bodě,
+je roven hodnotě aktuální funkce.
+
+00:29.730 --> 00:33.356
+Pojďme teď prozkoumat
+funkce o jiném základu.
+
+00:33.356 --> 00:39.369
+Můžeme nějak přijít na to,
+co je derivací podle x,
+
+00:39.369 --> 00:44.196
+pokud máme (a na x),
+kde 'a' může být jakékoli číslo?
+
+00:44.196 --> 00:46.513
+Lze to nějak vyřešit?
+
+00:46.513 --> 00:51.817
+A možná s využitím znalosti,
+že derivace (e na x) je (e na x)?
+
+00:51.817 --> 00:55.971
+Můžeme nějak použít trochu
+algebry a vlastností exponentu
+
+00:55.971 --> 01:01.419
+a přepsat to tak,
+že 'e' bude základ?
+
+01:01.419 --> 01:08.975
+Můžeme uvažovat,
+že 'a' rovná se 'e'…
+
+01:08.975 --> 01:10.133
+Napíšu to takto.
+
+01:10.133 --> 01:16.261
+'a' se rovná 'e' na
+přirozený logaritmus 'a'.
+
+01:16.261 --> 01:21.909
+Pokud vám to není jasné,
+chci, abyste o tom přemýšleli.
+
+01:21.909 --> 01:23.910
+Čemu je roven přirozený
+logaritmus z 'a'?
+
+01:23.910 --> 01:31.626
+Přirozeným logaritmem 'a' je mocnina,
+kterou umocníte 'e', abyste dostali 'a'.
+
+01:31.626 --> 01:36.671
+Takže pokud umocníte e
+exponentem, který potřebujete,
+
+01:36.671 --> 01:38.636
+abyste po umocnění dostali 'a',
+
+01:38.636 --> 01:41.069
+potom dostanete hodnotu 'a'.
+
+01:41.069 --> 01:42.775
+Tak o tom popřemýšlejte.
+
+01:42.775 --> 01:46.112
+Nepřijměte to jako slepou pravdu.
+
+01:46.112 --> 01:48.282
+Mělo by vám to dávat smysl.
+
+01:48.282 --> 01:50.452
+Vychází to z toho,
+co je logaritmus.
+
+01:50.452 --> 01:55.052
+Takže můžeme nahradit 'a'
+tímto celým výrazem.
+
+01:55.052 --> 01:59.138
+Pokud 'a' je shodné
+s 'e' na přirozený logaritmus,
+
+01:59.138 --> 02:13.305
+potom to bude rovno
+derivaci podle x…
+
+02:13.305 --> 02:24.307
+Derivaci e na ln(a) a potom to
+umocníme na x-tou mocninu.
+
+02:24.315 --> 02:32.774
+Teď s užitím vlastnosti exponentu
+to bude rovno derivaci podle x…
+
+02:32.774 --> 02:34.371
+Tady to zvýrazním.
+
+02:34.371 --> 02:37.155
+Pokud něco umocním
+a ještě znovu to umocním,
+
+02:37.155 --> 02:40.647
+je to stejné jako umocnit
+původní základ na součin exponentů.
+
+02:40.647 --> 02:42.745
+To je základní
+vlastnost exponentů.
+
+02:42.745 --> 02:56.820
+Tedy to bude stejné jako 'e' na přirozený
+logaritmus 'a' krát 'x'.
+
+02:56.820 --> 03:02.238
+A teď to můžeme použít pravidlo
+o složené funkci a vyčíslit derivaci.
+
+03:02.238 --> 03:05.201
+Takže teď uděláme to,
+
+03:05.201 --> 03:10.772
+že první vezmeme
+derivaci vnější funkce.
+
+03:10.772 --> 03:17.108
+'e' na přirozený logaritmus
+'a' krát 'x' podle vnitřní funkce,
+
+03:17.108 --> 03:21.375
+tedy podle přirozeného
+logaritmu 'a' krát x.
+
+03:21.375 --> 03:28.769
+Bude se to rovnat 'e' na
+přirozený logaritmus 'a' krát 'x'.
+
+03:28.769 --> 03:33.239
+A potom vezmeme derivaci
+vnitřní funkce podle x.
+
+03:33.239 --> 03:34.455
+Přirozený logaritmus 'a'…
+
+03:34.455 --> 03:38.264
+Nemusí to být hned
+patrné, ale to je číslo.
+
+03:38.264 --> 03:41.411
+Bude to vynásobené derivací.
+
+03:41.411 --> 03:43.839
+Kdyby to byla derivace
+(3x), byly by to 3.
+
+03:43.839 --> 03:46.424
+Když to je derivace
+přirozeného logaritmu 'a' krát 'x',
+
+03:46.424 --> 03:49.957
+bude to přirozený
+logaritmus 'a'.
+
+03:49.957 --> 03:59.482
+A to nám dá přirozený logaritmus 'a'
+krát 'e' na přirozený logaritmus 'a'.
+
+03:59.482 --> 04:00.843
+A zapíšu to takto:
+
+04:00.843 --> 04:04.230
+přirozený logaritmus 'a' na 'x'.
+
+04:04.230 --> 04:08.351
+Už jsme to viděli.
+
+04:08.351 --> 04:11.123
+Toto zde vpravo je jen 'a'.
+
+04:11.123 --> 04:21.846
+Vše se zjednoduší na přirozený
+logaritmus 'a' krát (a na x),
+
+04:21.846 --> 04:22.965
+což je pěkný výsledek.
+
+04:22.965 --> 04:26.568
+Takže derivace
+e na x je e na x.
+
+04:26.568 --> 04:30.984
+Pokud derivujete (a na x),
+
+04:30.984 --> 04:34.438
+bude to přirozený logaritmus
+'a' krát (a na x).
+
+04:34.438 --> 04:35.944
+Takže můžeme
+použít výsledek,
+
+04:35.944 --> 04:43.344
+abychom dostali derivaci
+výrazů o jiném základu než 'e'.
+
+04:43.344 --> 04:52.737
+Takže když chceme najít derivaci
+podle x výrazu 8 krát (3 na x),
+
+04:52.737 --> 04:54.504
+kolik to bude?
+
+04:54.504 --> 04:57.265
+Jednoduše: 8 krát…
+
+04:57.265 --> 05:01.492
+A teď derivace tady toho bude…
+
+05:01.492 --> 05:03.198
+Na základě toho,
+co už jsem říkal,
+
+05:03.198 --> 05:05.408
+to bude přirozený logaritmus
+našeho základu,
+
+05:05.408 --> 05:11.669
+přirozený logaritmus 3 krát (3 na x).
+
+05:11.669 --> 05:23.999
+Takže je to rovno 8 krát přirozený
+logaritmus 3 krát (3 na x).

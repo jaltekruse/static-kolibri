@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.660 --> 00:05.141
+Nell'ultimo video abbiamo tentato di calcolare la pendenza di una
+
+00:05.141 --> 00:07.570
+curva in un certo punto.
+
+00:07.570 --> 00:10.310
+E il modo in cui l'abbiamo fatto... abbiamo detto OK, bene troviamo la pendenza
+
+00:10.310 --> 00:12.970
+tra quel punto e poi un altro punto che non sia troppo
+
+00:12.970 --> 00:14.220
+lontano da quel punto.
+
+00:14.220 --> 00:15.953
+E abbiamo trovato la pendenza della retta secante.
+
+00:15.953 --> 00:19.530
+E tutto sembra fantasioso, ma non è altro che il valore y di
+
+00:19.530 --> 00:23.570
+un punto che non è troppo distante e questo non è altro che la coordinata y
+
+00:23.570 --> 00:25.700
+del punto in questione, così questa è
+
+00:25.700 --> 00:27.100
+semplicemente la variazione di y.
+
+00:27.100 --> 00:29.020
+E poi si divide questo per la variazione di x.
+
+00:29.020 --> 00:31.580
+Così nell'esempio che abbiamo fatto, h era la differenza
+
+00:31.580 --> 00:33.610
+tra questi due valori di x.
+
+00:33.610 --> 00:35.420
+Questa distanza era h.
+
+00:35.420 --> 00:39.210
+E questo ci ha dato la pendenza di quella retta.
+
+00:39.210 --> 00:42.940
+Abbiamo detto, hey, che succede se prendiamo il limite quando questo punto
+
+00:42.940 --> 00:45.510
+qui si avvicina sempre più a questo punto.
+
+00:45.510 --> 00:48.420
+Se questo punto diventa essenzialmente quasi questo punto, allora
+
+00:48.420 --> 00:51.230
+la pendenza diventa la pendenza della tangente.
+
+00:51.230 --> 00:54.620
+E noi definiamo questa come la derivata della nostra funzione.
+
+00:54.620 --> 00:57.280
+Abbiamo detto che questa è uguale a f primo di x.
+
+00:57.280 --> 01:00.520
+Così vediamo se possiamo applicare tutto ciò in questo video per rendere forse
+
+01:00.520 --> 01:03.750
+le cose un po' più concrete nella vostra testa.
+
+01:03.750 --> 01:04.910
+Così fatemi fare.
+
+01:04.910 --> 01:07.140
+Per prima cosa tratterò un caso particolare dove voglio trovare
+
+01:07.140 --> 01:09.980
+la pendenza esattamente in un certo punto.
+
+01:09.980 --> 01:14.670
+Quindi lasciami ridisegnare gli assi.
+
+01:14.670 --> 01:17.520
+Disegniamo degli assi propio qui.
+
+01:17.520 --> 01:25.400
+Diciamo che ho la curva - questa è la curva - y
+
+01:25.400 --> 01:27.110
+è uguale ad x al quadrato.
+
+01:27.110 --> 01:32.790
+Quindi questo è l'asse y, questo è l'asse x, e voglio conoscere
+
+01:32.790 --> 01:37.270
+la pendenza nel punto x è eguale a 3.
+
+01:37.270 --> 01:41.660
+Quando dico pendenza puoi immaginare una retta tangente qui.
+
+01:41.660 --> 01:44.760
+Puoi immaginare una retta tangente che va così, e
+
+01:44.760 --> 01:47.710
+sfiora appena la curva in questo punto.
+
+01:47.710 --> 01:51.260
+Ma cos'è la pendenza di una retta tangente?
+
+01:51.260 --> 01:53.570
+Cos'è la pendenza di una retta tangente che è la stessa cosa della
+
+01:53.570 --> 01:56.360
+pendenza della curva proprio in quel punto.
+
+01:56.360 --> 01:58.770
+Così per farlo, uso la stessa tecnica che
+
+01:58.770 --> 02:01.270
+abbiamo usato prima, quindi la generalizzeremo in modo che non la devi
+
+02:01.270 --> 02:03.910
+ripetere ogni volta per un numero particolare.
+
+02:03.910 --> 02:06.805
+Quindi prendiamo qualche altro punto qui.
+
+02:09.610 --> 02:14.110
+Chiamiamo questo 3 più delta x.
+
+02:14.110 --> 02:16.380
+Cambio al notazione perché in qualche libro
+
+02:16.380 --> 02:19.530
+troverai una h, in altri libri un delta x: non fa male
+
+02:19.530 --> 02:20.660
+conoscerle entrambe.
+
+02:20.660 --> 02:22.500
+Quindi questo è 3 più delta x.
+
+02:22.500 --> 02:25.770
+Quindi, per prima cosa, cos'è questo punto qui?
+
+02:25.770 --> 02:31.890
+Questa è una curva: y è eguale a x al quadrato, quindi f di x è 3
+
+02:31.890 --> 02:33.720
+al quadrato, questo è il punto 9.
+
+02:33.720 --> 02:36.805
+Questo è il punto 3,9 qui.
+
+02:39.350 --> 02:40.870
+E cos'è questo punto qui?
+
+02:40.870 --> 02:45.180
+Così se dovessimo andare sù fin qui, qual' è questo punto?
+
+02:45.180 --> 02:49.120
+Bene, qui x è 3 più delta x.
+
+02:49.120 --> 02:50.310
+E' lo stesso che per questo punto qui,
+
+02:50.310 --> 02:50.990
+come per x con zero
+
+02:50.990 --> 02:51.300
+più h.
+
+02:51.300 --> 02:54.235
+Avrei potuto chiamare altrettanto facilamente questo 3 più h.
+
+02:54.235 --> 02:58.110
+Quindi è 3 più delta x quassù.
+
+02:58.110 --> 02:59.930
+Allora quale sarà il valore?
+
+02:59.930 --> 03:02.080
+Bene, quale che sia il valore, è sulla curva, sarà
+
+03:02.080 --> 03:03.550
+questo al quadrato.
+
+03:03.550 --> 03:12.310
+Quindi sarà il punto 3 più delta x al quadrato.
+
+03:12.310 --> 03:14.790
+Allora calcoliamo la pendenza di questa retta
+
+03:14.790 --> 03:15.240
+secante.
+
+03:18.080 --> 03:20.270
+E fammi zoomare un po', perché potrebbe essere d'aiuto.
+
+03:20.270 --> 03:22.950
+Quindi se ingrandisco solo questa parte della curva,
+
+03:22.950 --> 03:25.250
+potrebbe sembrare così.
+
+03:25.250 --> 03:28.330
+E allora ho un punto qui, e ho un altro
+
+03:28.330 --> 03:29.776
+punto qui.
+
+03:32.330 --> 03:33.070
+Questa è la retta
+
+03:33.070 --> 03:33.510
+secante.
+
+03:39.100 --> 03:40.210
+Così.
+
+03:40.210 --> 03:45.510
+Questo era il punto qui, il punto 3,9.
+
+03:45.510 --> 03:50.230
+E allora questo punto quassù è il punto 3 più delta x, quindi
+
+03:50.230 --> 03:54.340
+semplicemente un certo numero maggiore di 3, e sarà
+
+03:54.340 --> 03:55.790
+quel numero al quadrato.
+
+03:55.790 --> 03:58.110
+Quindi sarà 3 più delta x al quadrato.
+
+03:58.110 --> 03:59.070
+Quant'è questo?
+
+03:59.070 --> 04:01.310
+Sarà 9.
+
+04:01.310 --> 04:03.720
+Sto semplicemente calcolando questo... o tu applichi la
+
+04:03.720 --> 04:04.940
+proprietà distributiva due volte.
+
+04:04.940 --> 04:09.280
+a più b al quadrato, è a al quadrato più 2 a b, più b al quadrato, allora
+
+04:09.280 --> 04:11.430
+sarà 9 più due volte il prodotto
+
+04:11.430 --> 04:12.020
+di queste cose.
+
+04:12.020 --> 04:17.345
+Quindi più 6 delta x, e poi più delta x al quadrato.
+
+04:21.070 --> 04:22.530
+Questa è la coordinata della seconda retta.
+
+04:22.530 --> 04:25.470
+Sembra complicato, ma ho semplicemente preso questo valore di x e
+
+04:25.470 --> 04:29.230
+l'ho elevato al quadrato, poiché è sulla retta y è eguale a x al quadrato.
+
+04:29.230 --> 04:32.430
+Quindi la pendenza della retta
+
+04:32.430 --> 04:35.500
+secante sarà la variazione in y diviso
+
+04:35.500 --> 04:37.050
+la variazione in x.
+
+04:37.050 --> 04:42.500
+Quindi la variazione in y è semplicemente il valore y di questo "ragazzo",
+
+04:42.500 --> 04:49.430
+che è 9 più delta x, più delta x al quadrato.
+
+04:49.430 --> 04:52.610
+Questo è il valore y di questo "ragazzo", meno il valore y di questo "ragazzo".
+
+04:55.310 --> 04:58.000
+Quindi meno 9.
+
+04:58.000 --> 04:59.510
+Questa è la variazione in y.
+
+04:59.510 --> 05:03.630
+E vuoi dividere tutto ciò per la variazione in x.
+
+05:03.630 --> 05:05.020
+Bene qual è la variazione in x?
+
+05:05.020 --> 05:07.210
+Questo è realmente molto conveniente.
+
+05:07.210 --> 05:09.490
+Questo maggiore valore di x.... abbiamo iniziato con questo punto
+
+05:09.490 --> 05:11.460
+sopra, quindi dobbiamo iniziare con questo punto sotto.
+
+05:11.460 --> 05:15.680
+Quindi sarà 3 più delta x.
+
+05:15.680 --> 05:17.340
+E allora quant'è questo valore di x?
+
+05:17.340 --> 05:20.700
+Cos' è meno 3?
+
+05:20.700 --> 05:22.070
+Questo è il suo valore x.
+
+05:22.070 --> 05:23.760
+Quindi in che cosa si semplifica questo?
+
+05:23.760 --> 05:27.020
+Il numeratore... questo 9 e questo 9 si cancellano,
+
+05:27.020 --> 05:28.320
+otteniamo un 9 meno 9.
+
+05:28.320 --> 05:30.780
+E cosa accade al denominatore?
+
+05:30.780 --> 05:32.560
+Questo 3 e meno 3 si cancellano.
+
+05:32.560 --> 05:35.550
+Quindi la variazione in x praticamente finisce per diventare questo delta x, che
+
+05:35.550 --> 05:38.490
+è sensato, perché questo delta x è essenzialmente di quanto
+
+05:38.490 --> 05:39.990
+questo "ragazzo" è maggiore di questo "ragazzo".
+
+05:39.990 --> 05:43.360
+Quindi questa dovrebbe essere la variazione in x, delta x.
+
+05:43.360 --> 05:44.810
+Quindi la pendenza della retta
+
+05:44.810 --> 05:53.860
+secante si è semplificata a 6 volte la variazione in x, più la variazione
+
+05:53.860 --> 06:00.130
+in x al quadrato, tutto ciò sopra la variazione in x.
+
+06:00.130 --> 06:02.640
+E ora possiamo semplificare ulteriormente.
+
+06:02.640 --> 06:05.140
+Dividiamo il numeratore e il denominatore
+
+06:05.140 --> 06:06.790
+per la variazione di x.
+
+06:06.790 --> 06:09.900
+E cambierò i colori per alleviare la monotonia.
+
+06:09.900 --> 06:13.110
+Quindi la pendenza della tangente della retta
+
+06:13.110 --> 06:15.580
+secante, quella che attraversa queste due, è
+
+06:15.580 --> 06:17.483
+uguale, se dividi numeratore
+
+06:17.483 --> 06:19.650
+e denominatore, questo diventa 6.
+
+06:19.650 --> 06:21.420
+Sto solo dividendo numeratore e denominatore per delta
+
+06:21.420 --> 06:26.130
+x più sei più delta x.
+
+06:26.130 --> 06:28.080
+Quindi questa è la pendenza della retta
+
+06:28.080 --> 06:34.630
+secante, Quindi la pendenza è uguale a 6 più delta x.
+
+06:34.630 --> 06:36.280
+E' questa qui.
+
+06:36.280 --> 06:38.990
+E' questa linea rossastra che ho disegnato qui.
+
+06:38.990 --> 06:42.340
+Quindi questo numero qui, se delta x fosse..., se
+
+06:42.340 --> 06:46.390
+questi fossero i punti 3 e 4, allora la pendenza sarebbe 6 più
+
+06:46.390 --> 06:49.640
+1, perché sto scegliendo un punto 4 dove il delta x qui
+
+06:49.640 --> 06:50.480
+dovrebbe essere 1.
+
+06:50.480 --> 06:53.780
+Quindi la pendenza sarebbe 7.
+
+06:53.780 --> 06:56.730
+Quindi abbiamo una formula generale per cui non importa quale sia
+
+06:56.730 --> 07:00.790
+il delta x, io posso trovare la pendenza tra 3 e 3 più delta x.
+
+07:00.790 --> 07:02.640
+Tra questo due punti.
+
+07:02.640 --> 07:08.010
+Ora vogliamo trovare al pendenza ad esattamente questo
+
+07:08.010 --> 07:09.120
+punto qui.
+
+07:09.120 --> 07:12.100
+Quindi vediamo cosa accade quando delta x diventa
+
+07:12.100 --> 07:12.810
+sempre più piccolo.
+
+07:12.810 --> 07:14.470
+Questo è quant'è delta x ora.
+
+07:14.470 --> 07:15.580
+E' questa distanza.
+
+07:15.580 --> 07:18.510
+Ma se delta x diventa un po' più piccolo, allora la retta
+
+07:18.510 --> 07:20.160
+secante sembra così.
+
+07:20.160 --> 07:21.360
+Se diventa ancora più piccolo, la retta
+
+07:21.360 --> 07:23.680
+secante sembra così, diventa ancora più piccolo.
+
+07:23.680 --> 07:25.240
+Allora ci stiamo avvicinando molto alla pendenza
+
+07:25.240 --> 07:26.860
+della retta tangente.
+
+07:26.860 --> 07:28.970
+La retta tangente è questa cosa qui di cui
+
+07:28.970 --> 07:30.910
+voglio trovare la pendenza.
+
+07:30.910 --> 07:34.970
+Troviamo il limite quando delta x tende a zero.
+
+07:34.970 --> 07:39.400
+Quindi i limite quando delta x tende a zero della
+
+07:39.400 --> 07:40.240
+pendenza della retta
+
+07:40.240 --> 07:43.700
+secante di 6 più delta x è eguale a cosa?
+
+07:43.700 --> 07:44.830
+E' molto diretto.
+
+07:44.830 --> 07:48.350
+Poni semplicemente questo uguale a zero, ed è uguale a 6.
+
+07:48.350 --> 07:54.280
+Quindi la pendenza della retta tangente nel punto x è uguale a
+
+07:54.280 --> 07:57.615
+3, qui è uguale a 6.
+
+07:57.615 --> 08:01.280
+E un altro modo in cui potremmo scrivere tutto ciò è se scrivessimo che f di
+
+08:01.280 --> 08:04.450
+x è eguale a x al quadrato.
+
+08:04.450 --> 08:08.770
+Ora sappiamo che la derivata della pendenza della retta tangente
+
+08:08.770 --> 08:13.350
+di questa funzione nel punto 3 - l'ho solo valutata
+
+08:13.350 --> 08:18.410
+al punto 3 qui - è uguale a 6.
+
+08:18.410 --> 08:22.670
+Non sono ancora giunto a una formula generale della la pendenza
+
+08:22.670 --> 08:25.790
+di questa retta in ciascun punto, e lo farò
+
+08:25.790 --> 08:26.330
+nel prossimo video.

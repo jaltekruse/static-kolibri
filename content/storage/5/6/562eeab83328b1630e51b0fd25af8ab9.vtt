@@ -1,0 +1,424 @@
+WEBVTT
+
+00:00.000 --> 00:01.385
+Občas se
+ocitneme v situaci,
+
+00:01.385 --> 00:02.994
+kdy máme
+nějakou funkci,
+
+00:02.994 --> 00:07.856
+v tomto případě jde o evidentně nelineární
+funkci f(x) rovná se 1 lomeno (x minus 1),
+
+00:07.856 --> 00:11.220
+jejíž graf, respektive
+jeho část, je zde,
+
+00:11.220 --> 00:14.193
+a chceme ji aproximovat
+nějakou lineární funkcí,
+
+00:14.193 --> 00:17.317
+zejména okolo nějakého
+konkrétního bodu.
+
+00:17.317 --> 00:19.914
+Chceme tedy
+nalézt aproximaci...
+
+00:19.914 --> 00:21.167
+Napíšu to.
+
+00:21.167 --> 00:24.927
+Chceme nalézt
+aproximaci...
+
+00:24.927 --> 00:25.992
+Ještě to upřesním.
+
+00:25.992 --> 00:27.645
+Chceme nalézt
+lineární aproximaci,
+
+00:27.645 --> 00:29.642
+což znamená, že chceme
+aproximovat přímkou.
+
+00:29.642 --> 00:40.759
+Chceme nalézt lineární
+aproximaci funkce f okolo...
+
+00:40.759 --> 00:43.516
+Musíme vědět, okolo kterého
+bodu funkci budeme aproximovat.
+
+00:43.516 --> 00:47.476
+...okolo bodu
+x rovná se −1.
+
+00:47.476 --> 00:49.016
+Co tím
+přesně myslíme?
+
+00:49.016 --> 00:50.634
+Podívejme se
+na tento graf.
+
+00:50.634 --> 01:00.979
+Když je na této křivce x rovno −1,
+tak f(−1) se rovná minus (1 lomeno 2).
+
+01:00.979 --> 01:03.250
+Jde o tento bod.
+
+01:03.250 --> 01:05.680
+Zvýrazním to
+nějakou lepší barvou.
+
+01:05.680 --> 01:07.394
+Je to tento bod.
+
+01:07.394 --> 01:10.624
+Okolo tohoto bodu chceme zadanou
+křivku aproximovat pomocí přímky.
+
+01:10.624 --> 01:16.006
+Uděláme to tak, že funkci
+aproximujeme rovnicí tečny k jejímu grafu.
+
+01:16.006 --> 01:21.613
+Tato tečna bude
+vypadat nějak takhle.
+
+01:21.613 --> 01:26.373
+Vidíme, že jak jsme víc a víc
+vzdáleni od bodu x rovno −1,
+
+01:26.373 --> 01:28.491
+tak je tato aproximace
+čím dál tím horší,
+
+01:28.491 --> 01:31.348
+ale když jsme blízko
+bodu x rovno −1,
+
+01:31.348 --> 01:36.788
+tak je to vlastně ta nejlepší lineární
+aproximace, jakou můžeme vymyslet,
+
+01:36.788 --> 01:41.311
+nebo jde přinejmenším o velmi
+dobrou lineární aproximaci.
+
+01:41.311 --> 01:42.334
+Když tedy
+někdo řekne,
+
+01:42.334 --> 01:46.376
+ať najdete lineární aproximaci
+funkce f okolo bodu x rovná se −1,
+
+01:46.376 --> 01:49.799
+nebo když se někdo zeptá, která z
+daných možností je nejlepší aproximací,
+
+01:49.799 --> 01:51.877
+a na výběr
+budou jen přímky,
+
+01:51.877 --> 01:57.758
+tak po vás v podstatě chtějí, abyste
+našli rovnici tečny v bodě x rovno −1.
+
+01:57.758 --> 01:59.319
+Tak to
+pojďme udělat.
+
+01:59.319 --> 02:02.214
+Abychom našli
+rovnici tečny...
+
+02:02.214 --> 02:06.634
+Přímka má rovnici y rovná
+se ‚m‘ krát ‚x‘ plus ‚b‘,
+
+02:06.634 --> 02:09.740
+kde ‚m‘ je směrnice a ‚b‘ je y-ová
+souřadnice průsečíku s osou y.
+
+02:09.740 --> 02:12.085
+Mohli byste na
+to ale jít i jinak.
+
+02:12.085 --> 02:14.833
+Mohli byste hledat rovnici
+v rozšířeném směrnicovém tvaru,
+
+02:14.833 --> 02:22.663
+tedy ve tvaru y minus y-ová souřadnice
+nějakého bodu ležícího na přímce rovná se:
+
+02:22.663 --> 02:27.562
+směrnice krát (x minus příslušná
+x-ová souřadnice x₁).
+
+02:27.562 --> 02:31.314
+Bod [x₁; y₁] je tedy
+nějaký bod ležící na dané přímce.
+
+02:31.314 --> 02:34.515
+Tento rozšířený směrnicový
+tvar občas přepisuji takto:
+
+02:34.515 --> 02:41.062
+(y minus y₁) lomeno
+(x minus x₁) se rovná b.
+
+02:41.062 --> 02:46.504
+Tohle totiž pochází z toho, že pokud jsou
+x₁ a y₁ souřadnice bodu na přímce,
+
+02:46.504 --> 02:51.173
+tak směrnice úsečky spojující libovolný
+jiný bod na přímce a tento bod
+
+02:51.173 --> 02:53.929
+bude směrnice
+dané přímky.
+
+02:53.929 --> 02:56.695
+Můžeme na to jít
+kterýmkoliv z těchto způsobů.
+
+02:56.695 --> 02:59.583
+Nejprve určeme
+směrnici naší tečny.
+
+02:59.583 --> 03:01.835
+K tomu se nám
+bude hodit derivace.
+
+03:01.835 --> 03:03.025
+Tedy f...
+
+03:03.025 --> 03:05.422
+Zatím jen přepíšu
+předpis funkce f(x).
+
+03:05.422 --> 03:09.999
+Napíšu to jako
+(x minus 1) na minus prvou.
+
+03:09.999 --> 03:13.248
+Teď už jde lépe vidět, že můžeme
+použít pravidlo pro derivaci mocniny
+
+03:13.248 --> 03:15.165
+a pak vzorec pro
+derivaci složené funkce.
+
+03:15.165 --> 03:19.488
+Derivace funkce f
+podle x se rovná...
+
+03:19.488 --> 03:25.316
+Derivace z (x minus 1) umocněné
+na minus prvou podle (x minus 1) je...
+
+03:25.316 --> 03:27.487
+Když použijeme vzorec
+pro derivaci mocniny,
+
+03:27.487 --> 03:33.260
+tak to bude −1 krát (x minus 1)
+umocněné na minus druhou,
+
+03:33.260 --> 03:38.927
+což teď musíme vynásobit
+derivací (x minus 1) podle x,
+
+03:38.927 --> 03:40.866
+což je 1, že?
+
+03:40.866 --> 03:45.197
+Derivace x podle x je 1
+a derivace −1 podle x je 0,
+
+03:45.197 --> 03:48.267
+takže sem můžeme napsat
+krát 1, pokud chceme.
+
+03:48.267 --> 03:52.721
+Nebo to tam ani psát nemusíme,
+protože to nijak nezmění hodnotu výrazu.
+
+03:52.721 --> 03:57.845
+Nyní derivaci vyčísleme
+v bodě x rovno −1.
+
+03:57.845 --> 04:03.329
+f s čárkou
+v bodě −1 se rovná...
+
+04:03.329 --> 04:05.617
+Můžu to napsat
+jen jako minus...
+
+04:05.617 --> 04:13.625
+Nebo raději jako −1 lomeno
+((−1 minus 1) na druhou).
+
+04:13.625 --> 04:22.379
+Tady dole budeme mít −2, takže
+výsledek je minus (1 lomeno 4).
+
+04:22.379 --> 04:26.077
+Směrnice naší
+tečny je tedy...
+
+04:26.077 --> 04:33.702
+Mohu to napsat tak, že m se
+rovná minus (1 lomeno 4).
+
+04:33.702 --> 04:37.712
+Teď už jen zbývá
+napsat rovnici tečny.
+
+04:37.712 --> 04:41.743
+Už známe nějaký bod [x₁; y₁],
+který leží na této tečně.
+
+04:41.743 --> 04:45.682
+Použijeme bod
+s x-ovou souřadnicí −1.
+
+04:45.682 --> 04:50.009
+Víme, že bod [−1;...
+
+04:50.009 --> 04:52.247
+Můžeme dosadit
+přímo sem.
+
+04:52.247 --> 04:55.882
+f(−1) se rovná
+minus (1 lomeno 2),
+
+04:55.882 --> 04:59.044
+protože 1 lomeno (−1 minus 1)
+je minus (1 lomeno 2).
+
+04:59.044 --> 05:06.716
+Víme tedy, že bod [−1; −(1 lomeno 2)]
+leží na křivce i naší tečně k ní,
+
+05:06.716 --> 05:10.608
+protože jde o bod průniku
+křivky a její tečny.
+
+05:10.608 --> 05:14.972
+Nyní můžeme využít libovolný z těchto
+tvarů a napsat rovnici naší tečny.
+
+05:14.972 --> 05:17.338
+Můžeme napsat,
+že y...
+
+05:17.338 --> 05:18.465
+Napíšu to sem.
+
+05:18.465 --> 05:25.405
+...y minus y₁, tedy
+y minus (−(1 lomeno 2)),
+
+05:25.405 --> 05:31.555
+se rovná směrnici,
+tedy minus (1 lomeno 4)...
+
+05:31.555 --> 05:35.400
+Používám rozšířený
+směrnicový tvar rovnice přímky.
+
+05:35.400 --> 05:40.753
+...se rovná směrnici
+krát (x minus x₁),
+
+05:40.753 --> 05:44.331
+tedy x minus x-ová souřadnice
+známého bodu ležícího na přímce,
+
+05:44.331 --> 05:46.210
+což bude
+x minus −1.
+
+05:46.210 --> 05:48.343
+Teď to celé přepíšu
+nějakou jinou barvou.
+
+05:48.343 --> 05:53.230
+Bude to y plus (1 lomeno 2)
+se rovná...
+
+05:53.230 --> 05:56.790
+Tady to můžu
+napsat jako +1
+
+05:56.790 --> 05:58.988
+a teď roznásobím číslem
+minus (1 lomeno 4).
+
+05:58.988 --> 06:06.165
+Vyjde mi minus (1 lomeno 4) krát x
+a pak minus (1 lomeno 4).
+
+06:06.165 --> 06:09.760
+Nyní mohu od obou
+stran odečíst 1 lomeno 2,
+
+06:09.760 --> 06:15.243
+díky čemuž dostanu, že y se rovná
+minus (1 lomeno 4) krát x a pak...
+
+06:15.243 --> 06:18.183
+Když tady odečítám 1 lomeno 4
+a pak odečtu ještě 1 lomeno 2,
+
+06:18.183 --> 06:25.352
+tak to bude
+minus (3 lomeno 4).
+
+06:25.352 --> 06:28.022
+To je vlastně docela blízko
+tomu, co jsem tady namaloval.
+
+06:28.022 --> 06:33.489
+Osu y by tahle tečna měla protínat v bodě
+y rovná se minus (3 lomeno 4).
+
+06:33.489 --> 06:35.104
+A máme hotovo.
+
+06:35.104 --> 06:43.139
+Tato přímka, respektive tato rovnice,
+je velmi dobrou lineární aproximací,
+
+06:43.139 --> 06:45.631
+v podstatě nejlepší
+možnou lineární aproximací,
+
+06:45.631 --> 06:50.748
+pro naši nelineární funkci
+okolo bodu x rovno −1.
+
+06:50.748 --> 06:56.872
+Možná si říkáte, proč se prostě nezeptají
+na rovnici tečny v bodě x rovno −1.
+
+06:56.877 --> 07:00.358
+To by sice mohli, ale takhle nad tím
+musíte víc přemýšlet a říct si:
+
+07:00.358 --> 07:08.776
+„K aproximaci této funkce okolo bodu
+x rovno −1 můžu využít rovnici tečny.“

@@ -1,0 +1,414 @@
+WEBVTT
+
+00:00.600 --> 00:08.160
+Řekněme, že bychom chtěli odhadnout,
+čemu je rovna druhá odmocnina z 4,36.
+
+00:08.160 --> 00:13.009
+Zajímá nás tedy odhad tohoto,
+aniž bychom použili kalkulačku.
+
+00:13.009 --> 00:18.780
+Jeden pohled je, že víme,
+kolik je druhá odmocnina ze 4.
+
+00:18.780 --> 00:20.820
+Víme, že toto je plus 2.
+
+00:20.820 --> 00:22.860
+Odmocnina ze
+4 je rovna 2.
+
+00:22.860 --> 00:25.464
+Takže toto bude
+o trochu více než 2.
+
+00:25.464 --> 00:28.820
+Řekněme, že chceme být
+trochu přesnější.
+
+00:28.820 --> 00:32.187
+V tomto videu vám tedy ukážu
+metodu, jak to udělat.
+
+00:32.187 --> 00:38.925
+Metodu, jak odhadnout hodnotu funkce
+poblíž bodu, jehož hodnotu už známe.
+
+00:38.925 --> 00:40.570
+Tedy co tím myslím.
+
+00:40.570 --> 00:49.440
+Představme si, že máme funkci
+f(x) je rovna druhé odmocnině z x.
+
+00:49.440 --> 00:53.336
+To je to samé jako
+x na jednu polovinu.
+
+00:53.340 --> 01:02.700
+My víme,
+čemu je rovno f(4).
+
+01:02.700 --> 01:08.465
+Víme, že f(4) je druhá odmocnina
+ze 4, tedy to bude rovno 2.
+
+01:08.465 --> 01:12.718
+A to, co chceme odhadnout,
+to, co chceme zjistit je,
+
+01:12.718 --> 01:17.513
+čemu je rovna druhá
+odmocnina z 4,36.
+
+01:17.513 --> 01:22.701
+Toto je jen jiný způsob formulování úplně
+stejné otázky, jakou jsme začali video.
+
+01:22.701 --> 01:28.060
+Představme si na
+chvíli naši funkci.
+
+01:28.070 --> 01:32.397
+Takže, nakreslím si
+osy souřadnic.
+
+01:32.397 --> 01:41.316
+Toto je osa y,
+toto je osa x.
+
+01:41.316 --> 01:44.930
+A pojďme nakreslit
+y je rovna f(x).
+
+01:44.930 --> 01:47.840
+Řekněme, že vypadá
+nějak takto.
+
+01:47.840 --> 01:51.670
+y je rovna f(x), vypadá
+nějak takto.
+
+01:51.670 --> 01:54.750
+Je to celkem poctivé.
+
+01:54.750 --> 01:58.391
+Toto zde, je
+y rovno f(x).
+
+01:58.391 --> 02:02.690
+Víme, že
+f(4) je rovno 2.
+
+02:02.690 --> 02:07.340
+Zde je x rovno 4, nenakreslil
+jsem to přesně v měřítku,
+
+02:07.340 --> 02:09.850
+ale věřím, že je to
+dostatečně jasné.
+
+02:09.850 --> 02:11.670
+Toto je tedy 2.
+
+02:11.670 --> 02:13.490
+To je f(4).
+
+02:13.490 --> 02:17.000
+A to, co se snažíme
+odhadnout, je f(4,36).
+
+02:17.000 --> 02:21.600
+Takže 4,36 bude
+přibližně zde.
+
+02:21.600 --> 02:29.720
+Chceme tedy odhadnout
+tuto hodnotu y.
+
+02:29.720 --> 02:34.031
+Toto odhadujeme,
+to je f(4,36).
+
+02:34.031 --> 02:37.220
+A předpokládáme, že nemáme
+po ruce kalkulačku.
+
+02:37.220 --> 02:41.690
+Jak to tedy můžeme udělat s
+využitím toho, co víme o derivacích?
+
+02:41.690 --> 02:51.439
+Co kdybychom zjistili
+rovnici tečny tohoto bodu.
+
+02:51.439 --> 02:55.202
+Tedy rovnici tečny,
+kde x je rovno 4.
+
+02:55.202 --> 03:03.036
+A potom použili tuto linearizaci
+k odhadu hodnoty v okolí.
+
+03:03.036 --> 03:06.820
+Tato technika se nazývá
+aproximace pomocí tečny.
+
+03:06.830 --> 03:11.380
+Naším úkolem tedy je zjistit,
+jaká je rovnice této přímky.
+
+03:11.380 --> 03:13.620
+Nazvěme ji L(x).
+
+03:13.620 --> 03:18.860
+Potom ji můžeme použít
+k určení hodnoty 4,36.
+
+03:18.860 --> 03:23.360
+A doufejme, že to bude snadnější,
+než výpočet tohoto zde.
+
+03:23.360 --> 03:25.130
+Jak to tedy
+můžeme udělat?
+
+03:25.130 --> 03:30.703
+Jeden způsob, jakým se na
+to můžeme podívat, je tento.
+
+03:30.703 --> 03:49.953
+L(x) bude f(4), tedy 2,
+plus sklon v bodě f(4).
+
+03:49.953 --> 03:52.710
+Což je samozřejmě
+derivace v f(4).
+
+03:52.710 --> 03:57.660
+To bude tedy sklon
+této přímky f'(4).
+
+03:57.660 --> 04:03.593
+Aby to bylo jasné,
+toto je sklon pro x rovno 4.
+
+04:03.593 --> 04:05.891
+Je to tedy sklon
+této přímky.
+
+04:05.891 --> 04:07.755
+A jakýkoli jiný bod
+na této přímce bude
+
+04:07.755 --> 04:12.790
+f(4) plus sklon křivky krát
+vzdálenost od bodu x rovno 4.
+
+04:12.790 --> 04:16.920
+Bude to tedy
+krát (x minus 4).
+
+04:16.920 --> 04:19.370
+Pojďme ověřit, že
+to dává smysl.
+
+04:19.370 --> 04:23.485
+Když sem
+dosadíme 4,36...
+
+04:23.485 --> 04:36.540
+Jen si přiblížím tento graf,
+aby to bylo jasnější.
+
+04:36.540 --> 04:39.960
+Přiblížím tuto oblast.
+
+04:39.960 --> 04:46.900
+Toto je tedy
+bod [4; f(4)].
+
+04:46.900 --> 04:56.660
+Nakreslíme L(x).
+
+04:56.660 --> 05:08.695
+A tento bod zde
+je bod [4,36; f(4,36)].
+
+05:08.695 --> 05:11.420
+A k tomu, abychom
+odhadli tuto hodnotu,
+
+05:11.420 --> 05:17.706
+potřebujeme zjistit
+tuto hodnotu zde.
+
+05:17.706 --> 05:27.766
+Tato hodnota bude
+[4,36; L(4,36)].
+
+05:27.766 --> 05:31.375
+Tato přímka v bodě
+x je rovno 4,36.
+
+05:31.375 --> 05:35.050
+Čemu se toto
+bude rovnat?
+
+05:35.050 --> 05:36.450
+Pojďme sem dosadit.
+
+05:36.450 --> 05:44.931
+L(4,36) bude to f(4), tedy 2 plus
+derivace, sklon této přímky.
+
+05:44.931 --> 05:50.830
+Tedy plus derivace v f(4)
+krát x minus 4.
+
+05:50.830 --> 05:56.610
+Tedy 4,36 minus 4,
+to bude krát 0,36.
+
+05:56.610 --> 05:57.601
+To dává smysl.
+
+05:57.601 --> 05:59.030
+Začínali jsme
+v bodě 2.
+
+05:59.030 --> 06:05.320
+Změna hodnoty
+x je rovna 4,36.
+
+06:05.320 --> 06:09.410
+Změna hodnoty y tedy bude
+sklon přímky krát změna x,
+
+06:09.410 --> 06:13.735
+abychom dostali
+tuto hodnotu.
+
+06:13.735 --> 06:22.170
+Pojďme zjistit, čemu je
+roven tento výraz.
+
+06:22.170 --> 06:25.900
+Abychom to zjistili, potřebujeme
+vědět, čemu je rovna derivace f(4)...
+
+06:25.900 --> 06:30.800
+Pojďme zpět nahoru,
+abychom si to lépe představili.
+
+06:30.800 --> 06:38.762
+Derivace f v bodě x je
+jedna polovina x na minus jednu polovinu.
+
+06:38.762 --> 06:41.482
+Používám zde vzorec
+pro derivování mocniny.
+
+06:41.482 --> 06:51.663
+Tedy derivace f(4) je rovno jedné polovině
+krát 4 na minus jednu polovinu.
+
+06:51.663 --> 06:57.309
+Což je samozřejmě rovno
+jedna polovina krát jedna polovina.
+
+06:57.309 --> 06:58.594
+4 na jednu
+polovinu jsou 2.
+
+06:58.594 --> 07:00.980
+4 na minus jednu polovinu
+je rovno jedné polovině.
+
+07:00.980 --> 07:03.268
+Toto je tedy rovno
+jedné čtvrtině.
+
+07:03.268 --> 07:12.370
+Dostaneme tedy
+L v bodě 4,36 je rovno
+
+07:12.370 --> 07:56.976
+f(4) plus f s čárkou (4)
+krát (4,36 minus 4).
+
+07:56.976 --> 07:59.894
+Toto je vždy stejné.
+
+07:59.894 --> 08:02.330
+Kolik to tedy bude?
+
+08:02.330 --> 08:13.830
+Toto už víme, že jsou plus 2,
+toto už víme, že je jedna čtvrtina
+
+08:13.830 --> 08:18.817
+a tato část zde je 0,36.
+
+08:18.817 --> 08:26.247
+Toto celé tedy bude rovno
+2 plus 1/4 krát 0,36.
+
+08:26.247 --> 08:29.952
+Tedy 0,09.
+
+08:29.952 --> 08:35.250
+Dostáváme tedy
+2,09.
+
+08:35.250 --> 08:37.345
+Toto je proto náš odhad.
+
+08:37.345 --> 08:44.144
+Mělo by to být lehce nad skutečnou
+hodnotou druhé odmocniny z 4,36.
+
+08:44.144 --> 08:45.277
+Napišme to sem nahoru.
+
+08:45.277 --> 08:48.070
+Toto bude přibližně...
+
+08:48.070 --> 08:50.292
+Napíšu to raději sem.
+
+08:50.292 --> 09:00.602
+...druhá odmocnina z 4,36,
+což je to samé jako f(4,36).
+
+09:00.602 --> 09:04.198
+Toto je přibližně
+2,09.
+
+09:04.198 --> 09:07.559
+Řekněme, že jsme
+zrovna našli kalkulačku.
+
+09:07.559 --> 09:12.750
+Pojďme se, jen pro zajímavost,
+podívat, jak dobrý tento odhad je.
+
+09:12.750 --> 09:19.450
+Chceme spočítat druhou
+odmocninu z 4,36.
+
+09:19.450 --> 09:22.680
+A dostáváme 2,088.
+
+09:22.680 --> 09:27.380
+Když to tedy zaokrouhlíme na setiny,
+získali jsme velmi dobrý odhad.
+
+09:27.380 --> 09:31.832
+Přesně tak, jak jste viděli
+v tomto názorném grafu,
+
+09:31.832 --> 09:36.670
+náš odhad byl trošku vyšší
+než skutečná hodnota.

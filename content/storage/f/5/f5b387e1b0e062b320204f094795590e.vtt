@@ -1,0 +1,135 @@
+WEBVTT
+
+00:00.320 --> 00:04.340
+Carlos hat eine Dosis eines verschriebenen Medikaments zu sich genommen.
+
+00:04.340 --> 00:10.760
+Die Beziehung zwischen der vergangenen Zeit t, in Stunden, seitdem er die erste Dosis genommen hat,
+
+00:10.760 --> 00:14.300
+und der Menge des Medikaments M(t),
+in Milligramm (mg), in seinem Blutkreislauf
+
+00:14.300 --> 00:17.840
+wird von der folgenden Funktion dargestellt.
+
+00:17.840 --> 00:25.480
+In wie vielen Stunden wird Carlos nur noch 1 mg
+des Medikaments in seinem Blutkreislauf haben?
+
+00:25.480 --> 00:32.520
+Wir müssen also nach M(t) = 1 mg auflösen.
+
+00:32.520 --> 00:36.720
+Das Ergebnis von M(t) ist immer in Milligramm.
+
+00:36.720 --> 00:37.987
+Wir lösen jetzt diese Gleichung.
+
+00:37.987 --> 00:48.300
+M(t) ist eine Exponentialfunktion und zwar 20 ⋅ e^(-0,8t).
+
+00:48.300 --> 00:50.712
+Wir setzen sie mit 1 gleich.
+
+00:50.720 --> 01:06.280
+Wir dividieren beide Seiten
+durch 20 und erhalten e^(-0,8t) = 1/20.
+
+01:06.280 --> 01:11.180
+1/20 können wir auch als 0,05 schreiben.
+
+01:11.180 --> 01:14.100
+Ich glaube, wir werden sowieso
+mit Kommazahlen arbeiten müssen.
+
+01:14.100 --> 01:16.980
+Wie lösen wir das auf?
+
+01:16.980 --> 01:23.220
+Was würde passieren, wenn wir den natürlichen
+Logarithmus beider Seiten nehmen würden?
+
+01:23.220 --> 01:29.540
+Der natürliche Logarithmus ist
+der Logarithmus mit der Basis e.
+
+01:29.540 --> 01:33.080
+Ich schreibe es etwas um.
+
+01:33.080 --> 01:40.200
+Das ist 0,05.
+
+01:40.200 --> 01:45.800
+Ich nehme den natürlichen Logarithmus beider Seiten.
+
+01:45.800 --> 01:54.360
+Der natürliche Logarithmus findet heraus, welchen Exponenten e haben muss, damit wir e^(-0,8t) erhalten.
+
+01:54.360 --> 02:02.360
+e muss -0,8t als Exponenten haben.
+
+02:02.360 --> 02:16.860
+ln (e^(-0,8t)) ist dasselbe wie
+wenn ich log_e (e^(-0,8t) schreibe.
+
+02:16.860 --> 02:18.860
+Welchen Exponent muss e haben,
+
+02:18.860 --> 02:21.257
+damit wir e^(-0,8t) erhalten?
+
+02:21.260 --> 02:23.920
+Die Antwort lautet: -0,8t.
+
+02:23.920 --> 02:26.720
+Deshalb haben wir das auf der linken Seite stehen.
+
+02:26.720 --> 02:39.300
+Rechts haben wir ln (0,05).
+
+02:39.300 --> 02:49.260
+Jetzt dividieren wir beide Seiten durch
+-0,8, damit wir nach t auflösen können.
+
+02:49.260 --> 02:58.200
+Wir dividieren durch -0,8,
+
+02:58.200 --> 03:01.077
+und t ergibt diesen Term.
+
+03:01.080 --> 03:03.120
+Links haben wir jetzt nur noch ein t stehen,
+
+03:03.120 --> 03:11.160
+und rechts haben wir einen Term, den wir
+mit dem Taschenrechner ausrechnen können.
+
+03:11.160 --> 03:20.200
+Wir geben 0,05 ein und drücken auf die ln-Taste.
+
+03:20.200 --> 03:35.140
+Wir erhalten diesen Wert und dividieren ihn durch -0,8.
+
+03:35.140 --> 03:38.340
+Wir sollen das Ergebnis auf
+die nächste Hunderterstelle runden,
+
+03:38.340 --> 03:46.640
+also dauert es 3,74 Stunden,
+
+03:46.640 --> 03:49.780
+bis die Dosis 1 Milligramm erreicht.
+
+03:49.780 --> 03:51.871
+Begonnen haben wir bei 20 mg.
+
+03:51.871 --> 03:54.019
+Wenn t = 0 ist, haben wir 20 mg,
+
+03:54.020 --> 03:59.320
+nach 3,74 Stunden hat er nur
+noch 1 mg in seinem Blutkreislauf.
+
+03:59.320 --> 04:03.400
+Sein Körper hat den Rest davon verstoffwechselt.

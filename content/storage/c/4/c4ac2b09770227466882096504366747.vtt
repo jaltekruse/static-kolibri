@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00.521 --> 00:09.368
+Máme zadaný neurčitý integrál z funkce
+(3 krát 'x na druhou' plus 2x)…
+
+00:09.580 --> 00:18.095
+…krát 'e na ('x na třetí' plus 'x na druhou')' krát dx.
+
+00:18.343 --> 00:24.560
+Jak bychom to řešili?
+Na první pohled to vypadá složitě.
+
+00:24.713 --> 00:29.629
+Máme polynom násobený
+exponenciálním výrazem,
+
+00:29.789 --> 00:33.775
+který je umocněn na jiný polynom.
+
+00:33.920 --> 00:35.793
+Zdá se to šílené.
+
+00:36.010 --> 00:46.632
+Na takový integrál využijeme
+techniku substituce.
+
+00:46.777 --> 00:50.011
+V momentě vám ukážu, jak jsem poznal,
+že použiji substituci.
+
+00:50.163 --> 00:53.407
+Po čase takovéto příklady
+budete počítat zpaměti.
+
+00:53.573 --> 00:58.443
+Substituce je v podstatě opak
+k řetězovému pravidlu.
+
+00:59.464 --> 01:03.605
+V jiném videu o tom
+budu mluvit do hloubky.
+
+01:03.798 --> 01:12.480
+V mocniteli mám tento polynom
+'x na třetí' plus 'x na druhou',
+
+01:12.971 --> 01:16.685
+jehož derivace je
+3 krát 'x na druhou' plus 2x.
+
+01:16.836 --> 01:20.686
+Derivace 'x na třetí' podle 'x'
+je 3 krát 'x na druhou',
+
+01:20.902 --> 01:23.432
+derivace 'x na druhou' je 2x,
+
+01:23.604 --> 01:27.520
+to je velká nápověda,
+abych použil substituci.
+
+01:27.712 --> 01:34.141
+Vidím-li tedy nějaký výraz,
+jež je násoben jeho derivací,
+
+01:34.534 --> 01:36.674
+označím jej jako 'u'.
+
+01:36.836 --> 01:42.668
+'u' je tedy rovno
+'x na třetí' plus 'x na druhou'.
+
+01:42.977 --> 01:46.566
+Co bude derivace 'u' podle 'x'?
+
+01:46.782 --> 01:56.182
+Dělali jsme to už několikrát.
+Bude to 3 krát 'x na druhou' plus 2x.
+
+01:56.719 --> 01:59.163
+Napišme to ve tvaru diferenciálu.
+
+01:59.329 --> 02:06.670
+du podle dx není ve skutečnosti zlomek
+diferenciál 'du' podle diferenciálu 'dx',
+
+02:06.801 --> 02:08.508
+je to jen zápis.
+
+02:08.672 --> 02:12.186
+Občas je užitečné předstírat,
+že jde o zlomek.
+
+02:12.342 --> 02:30.586
+Chceme-li tedy jen diferenciál 'du',
+můžeme to vynásobit 'dx'.
+
+02:30.742 --> 02:32.658
+Pokud tedy předstíráme, že jde o zlomek.
+
+02:32.771 --> 02:48.839
+Dostaneme tedy 'du' je rovno
+(3 krát 'x na druhou' plus 2x) krát dx.
+
+02:49.035 --> 02:53.863
+Proč jsem si s tím dával tu práci?
+
+02:54.345 --> 02:57.655
+Vidíme, že tu máme
+(3 krát 'x na druhou' plus 2x)
+
+02:57.851 --> 03:00.975
+a je to násobené 'dx'.
+
+03:01.150 --> 03:08.131
+Původní integrál mohu tedy přepsat.
+
+03:08.311 --> 03:25.486
+(3 krát 'x na druhou' plus 2x) krát dx
+krát 'e na ('x na třetí' plus 'x na druhou')'.
+
+03:26.396 --> 03:35.416
+Zajímavé na tom je,
+že toto fialové je vlastně rovno 'du'.
+
+03:35.593 --> 03:41.290
+Tento mocnitel je navíc to,
+co jsem označil za 'u'.
+
+03:41.470 --> 03:43.652
+Toto je rovno 'u'.
+
+03:43.809 --> 03:49.415
+Celý integrál tedy přepíšu…
+Možná už vidíte, že to vše zjednodušilo.
+
+03:49.627 --> 03:53.087
+…přepíšu to a změním pořadí.
+
+03:53.222 --> 04:01.241
+Celé toto 'du' napíšu na druhou stranu,
+aby to vypadalo tak, jak jsme zvyklí.
+
+04:01.444 --> 04:15.193
+Budeme tedy mít
+integrál z 'e na u' krát du.
+
+04:15.393 --> 04:19.968
+Jaká je primitivní funkce
+k této funkci podle proměnné 'u'?
+
+04:20.698 --> 04:25.673
+Derivace 'e na u' je 'e na u',
+tedy i primitivní funkce je 'e na u'.
+
+04:25.934 --> 04:32.325
+Bude to tedy rovno 'e na u' a je možné,
+že tu bude navíc nějaká konstanta.
+
+04:32.487 --> 04:35.500
+Napíšu tu tedy plus C.
+
+04:35.973 --> 04:41.076
+Abychom opět dostali funkci proměnné 'x',
+znovu dosadíme za 'u'.
+
+04:41.216 --> 04:43.012
+Víme, čemu se 'u' rovná.
+
+04:43.096 --> 04:45.714
+Bude to tedy rovno 'e na…'
+Místo 'u' napíšu…
+
+04:45.852 --> 04:58.378
+'u' je ('x na třetí' plus 'x na druhou)'
+a nakonec plus C.
+
+04:58.688 --> 05:01.960
+A jsme hotovi!
+Našli jsme primitivní funkci.
+
+05:02.080 --> 05:03.898
+Vyzývám vás, zkuste spočítat derivaci.
+
+05:04.084 --> 05:09.809
+Zjistíte, že použijete řetězové pravidlo
+a vyjde vám přesně to, co máme zde.

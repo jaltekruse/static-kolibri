@@ -1,0 +1,385 @@
+WEBVTT
+
+00:00.750 --> 00:02.610
+Už jsme se mnohokrát setkali s tím,
+
+00:02.610 --> 00:08.055
+že vzdálenost může být vyjádřena
+jako rychlost krát čas.
+
+00:08.055 --> 00:10.990
+V tomhle videu bych chtěl využít
+
+00:10.990 --> 00:15.730
+tento jednoduchý vztah, tuto jednoduchou
+rovnici, abychom pochopili,
+
+00:15.730 --> 00:20.140
+že na jednotky můžeme pohlížet jako
+na algebraické objekty, že s nimi můžeme
+
+00:20.140 --> 00:24.360
+ve vztahu či v rovnici zacházet
+jako s proměnnými.
+
+00:24.360 --> 00:27.480
+Což může být nesmírně užitečné k tomu,
+abychom se ujistili,
+
+00:27.480 --> 00:33.000
+že dostáváme výsledky v jednotkách,
+které skutečně dávají smysl.
+
+00:33.000 --> 00:38.030
+Takže když vám třeba někdo zadá rychlost,
+když vám zadá rychlost,
+
+00:38.030 --> 00:43.360
+řekněme, 5 metrů v sekundě,
+
+00:43.360 --> 00:48.960
+a zadá vám čas, časový úsek 10 sekund,
+
+00:48.960 --> 00:53.220
+tak můžete krásně, krásně přímočaře,
+použít tento vztah.
+
+00:53.220 --> 00:57.770
+Řekneme si, dobře, naše vzdálenost
+je rovna naší rychlosti 5 metrů v sekundě
+
+00:57.770 --> 01:03.440
+násobené našim časem, což je 10 sekund.
+
+01:03.440 --> 01:07.050
+A tady je příjemné, že s jednotkami,
+jak jsem právě řekl,
+
+01:07.050 --> 01:11.160
+můžeme zacházet jako s algebraickými
+objekty, obdobně jako s proměnnými.
+
+01:11.160 --> 01:13.640
+Takže tohle by bylo rovno…
+
+01:13.640 --> 01:16.010
+Při násobení je jedno,
+v jakém pořadí násobíme.
+
+01:16.010 --> 01:17.760
+Takže můžeme zaměnit pořadí.
+
+01:17.760 --> 01:21.340
+Tohle je totéž jako 5 krát 10.
+
+01:21.340 --> 01:30.877
+5 krát 10 krát metry v sekundě,
+krát metry v sekundě, krát sekundy.
+
+01:30.877 --> 01:32.593
+A pokud bychom měli chápat jednotky
+
+01:32.593 --> 01:35.141
+jako druh algebraických objektů,
+mohli bychom si říct:
+
+01:35.141 --> 01:37.273
+hele, máme sekundy děleno sekundy,
+
+01:37.273 --> 01:40.930
+anebo máme sekundy ve jmenovateli
+násobené sekundami v čitateli.
+
+01:40.930 --> 01:42.660
+Ty se vykrátí.
+
+01:42.660 --> 01:47.370
+A 5 krát 10 je samozřejmě… 5 krát 10
+samozřejmě je 50.
+
+01:47.370 --> 01:50.900
+Takže nám vyjde 50 a jednotky,
+
+01:50.900 --> 01:54.540
+které nám zůstaly, jsou metry: 50 metrů.
+
+01:54.540 --> 01:55.750
+Tak, to je příjemné.
+
+01:55.750 --> 01:56.690
+Jednotky sedí.
+
+01:56.690 --> 02:00.900
+Když jsme jednotky chápali jako
+algebraický objekt, vykrátily se tak,
+
+02:00.900 --> 02:06.430
+že naší výslednou jednotkou pro vzdálenost
+byly metry, což je jednotka vzdálenosti.
+
+02:06.430 --> 02:07.910
+Teď si říkáte - prima, to je,
+
+02:07.910 --> 02:09.310
+to je milé a tak,
+
+02:09.310 --> 02:14.290
+ale připadá mi to jen jako starosti navíc,
+když upravuji takto jednoduchý vztah.
+
+02:14.290 --> 02:18.020
+Chtěl bych vám však ukázat,
+že dokonce i pro jednoduchý vztah jako
+
+02:18.020 --> 02:22.490
+"vzdálenost se rovná rychlost krát čas",
+může být to, co jsem udělal, užitečné.
+
+02:22.490 --> 02:25.570
+A právě tomu, co jsem udělal, se říká
+rozměrová analýza.
+
+02:25.570 --> 02:27.150
+A je užitečná pro tak jednoduché
+
+02:27.150 --> 02:29.370
+vztahy jako zde, ale když vkročíte na půdu
+
+02:29.370 --> 02:32.340
+fyziky, chemie a techniky, objevíte
+
+02:32.340 --> 02:35.880
+mnohem, mnohem, mnohem ošklivější vztahy.
+
+02:35.880 --> 02:38.090
+A když provedete rozměrovou analýzu,
+
+02:38.090 --> 02:40.620
+tak si ověříte, že vaše matematika
+je v pořádku.
+
+02:40.620 --> 02:42.660
+Ověříte si, že dostáváte správné jednotky.
+
+02:42.660 --> 02:45.960
+Ale i s tímto si vyzkoušejme
+o něco složitější příklad.
+
+02:45.960 --> 02:49.170
+Řekněme, že naše rychlost je, řekněme,
+
+02:49.170 --> 02:52.930
+ponechme rychlost na 5 metrech v sekundě.
+
+02:52.930 --> 02:55.510
+Ale řekněme, že nám někdo zadal čas.
+
+02:55.510 --> 02:57.860
+Namísto sekund nám jej zadal v hodinách.
+
+02:57.860 --> 03:01.920
+Takže nám zadali časový úsek
+rovný 1 hodině.
+
+03:01.920 --> 03:04.250
+Takže zkusme využít tento vztah.
+
+03:04.250 --> 03:09.596
+Takže naše vzdálenost bude rovna
+5 metrům v sekundě,
+
+03:09.596 --> 03:15.820
+5 metrům v sekundě krát čas, což je
+1 hodina, krát 1 hodina.
+
+03:15.820 --> 03:17.190
+Ale co nám tohle dá?
+
+03:17.190 --> 03:20.410
+Dobře, 5 násobí 1, takže
+vynásobíme 5 krát 1.
+
+03:20.410 --> 03:22.900
+To nám dá 5.
+
+03:22.900 --> 03:25.770
+Vzpomeňme si však, že je třeba
+chápat jednotky algebraicky.
+
+03:25.770 --> 03:27.648
+A tady provedeme rozměrovou analýzu.
+
+03:27.648 --> 03:35.570
+Takže to je 5, pak máme metry v sekundě
+krát hodiny. Krát hodiny.
+
+03:35.570 --> 03:38.670
+Nebo můžeme říct 5 metr hodin v sekundě.
+
+03:38.670 --> 03:41.000
+Tohle nevypadá jako… tohle není
+
+03:41.000 --> 03:42.970
+sada jednotek, které by
+
+03:42.970 --> 03:45.490
+nám dávaly smysl. Tohle
+nepůsobí jako naše tradiční
+
+03:45.490 --> 03:48.350
+jednotky vzdálenosti, takže bychom
+se toho rádi zbavili.
+
+03:48.350 --> 03:49.950
+A už z vás může vyskočit - dobře,
+
+03:49.950 --> 03:52.070
+kdybychom se mohli zbavit hodin,
+kdybychom je
+
+03:52.070 --> 03:55.240
+mohli vyjádřit v sekundách, pak by se
+to tady vykrátilo a nám by
+
+03:55.240 --> 03:58.902
+zbyly metry, což je naše známá
+jednotka vzdálenosti.
+
+03:58.902 --> 04:00.410
+Takže jak to provedeme?
+
+04:00.410 --> 04:04.710
+Tento výraz bychom rádi vynásobili něčím,
+co bude mít hodiny
+
+04:04.710 --> 04:07.150
+ve jmenovateli a sekundy
+
+04:07.150 --> 04:10.330
+v čitateli. V podstatě sekundy za hodinu.
+
+04:10.330 --> 04:13.160
+Takže, kolik máme sekund v hodině?
+
+04:13.160 --> 04:19.540
+Je jich 3 600, napíši to touhle barvou,
+v jedné hodině je 3 600 sekund,
+
+04:19.540 --> 04:27.510
+nebo můžeme také říct, že na každou
+1 hodinu připadá 3 600 sekund.
+
+04:27.510 --> 04:30.885
+Takže když teď budete násobit, tyto hodiny
+
+04:30.885 --> 04:35.535
+se vykrátí s těmito hodinami, tyto sekundy
+se vykrátí s tamtěmi sekundami,
+
+04:35.535 --> 04:38.385
+a zbývá nám, zbývá nám 5 krát
+
+04:38.385 --> 04:43.232
+3 600, kolik to je?
+5 krát 3 000 by bylo 15 000,
+
+04:43.232 --> 04:46.126
+5 krát 600 je dalších 3 000.
+
+04:46.126 --> 04:51.956
+Takže, celkově je to rovno 18 000
+a jediná jednotka, která
+
+04:51.956 --> 04:57.786
+nám zbyla, jsou tady ty metry.
+18… oh, je to 18 tisíc.
+
+04:57.786 --> 05:03.310
+18 000 metrů, správně?
+
+05:03.310 --> 05:04.540
+Takže to máme hotové.
+
+05:04.540 --> 05:08.300
+Právě jsme si vyjádřili svou vzdálenost
+v jednotkách, které známe.
+
+05:08.300 --> 05:13.960
+Pokud se pohybujete rychlostí 5 metrů
+v sekundě, za hodinu ujdete 18 000 metrů.
+
+05:13.960 --> 05:17.020
+Ale ještě si s rozměrovou analýzou
+trochu pocvičme.
+
+05:17.020 --> 05:18.540
+Co když jsme nechtěli odpověď
+
+05:18.540 --> 05:20.550
+v metrech, ale v kilometrech?
+
+05:20.550 --> 05:22.000
+Co můžeme dělat?
+
+05:22.000 --> 05:27.570
+Můžeme vzít těch 18 000 metrů,
+18 000 metrů, a kdybychom
+
+05:27.570 --> 05:30.700
+je mohli vynásobit něčím, co má metry
+
+05:30.700 --> 05:36.190
+ve jmenovateli, metry ve jmenovateli,
+a kilometry v čitateli, tak by se
+
+05:36.190 --> 05:39.760
+tyto metry vykrátily a nám by
+zůstaly kilometry.
+
+05:39.760 --> 05:42.760
+Takže, čím můžeme násobit,
+abychom nezměnili hodnotu?
+
+05:42.760 --> 05:45.354
+V podstatě bychom rádi násobili číslem 1,
+
+05:45.354 --> 05:49.480
+takže chceme mít stejnou věc
+v čitateli i ve jmenovateli.
+
+05:49.480 --> 05:55.730
+Takže, 1 kilometr je roven 1 000 metrům.
+
+05:55.730 --> 05:58.540
+Můžeme se na to tedy dívat tak,
+že jen násobíme číslem 1.
+
+05:58.540 --> 06:01.670
+1 kilometr děleno 1 000 metrů.
+
+06:01.670 --> 06:03.260
+Přitom 1 kilometr je 1 000 metrů.
+
+06:03.260 --> 06:05.670
+Takže toto je rovno 1.
+
+06:05.670 --> 06:07.970
+Ale je dobré, že když násobíme,
+
+06:07.970 --> 06:12.446
+vykrátí se nám metry s metry,
+až nakonec zůstane
+
+06:12.446 --> 06:16.570
+18 000 děleno 1 000 je rovno 18
+
+06:16.570 --> 06:20.010
+a jediné jednotky, které nám zbývají,
+jsou kilometry.
+
+06:21.020 --> 06:23.980
+A jsme hotovi, svou vzdálenost
+
+06:23.980 --> 06:27.560
+jsme si vyjádřili v jednotkách kilometrů
+namísto původních metrů.

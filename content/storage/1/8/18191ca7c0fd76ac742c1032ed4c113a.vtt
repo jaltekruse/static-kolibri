@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.339 --> 00:02.130
+Điều mình muốn nói trong video này
+
+00:02.130 --> 00:03.470
+là đưa ra các tính chất của giới hạn
+
+00:03.470 --> 00:05.470
+Mình sẽ không chứng minh ở đây.
+
+00:05.470 --> 00:07.420
+Để chứng minh được chặt chẽ các tính chất,
+
+00:07.420 --> 00:09.462
+ta cần định nghĩa giới hạn là gì.
+
+00:09.462 --> 00:11.211
+Trong video hướng dẫn này ta sẽ không làm điều đó,
+
+00:11.211 --> 00:13.390
+mình sẽ thực hiện trong video hướng dẫn về định nghĩa
+
+00:13.390 --> 00:14.680
+theo epsilon-delta của giới hạn.
+
+00:14.680 --> 00:17.180
+Nhưng hầu hết các tính chất đều khá trực quan.
+
+00:17.180 --> 00:19.840
+Và nó sẽ có lợi trong việc đơn giản hóa các bài toán giới hạn
+
+00:19.840 --> 00:21.040
+sau này.
+
+00:21.040 --> 00:24.290
+Ta biết rằng giới hạn của một số hàm
+
+00:24.290 --> 00:28.910
+f(x) khi x tiến dần tới c là L.
+
+00:28.910 --> 00:32.330
+Và ta cũng biết giới hạn
+
+00:32.330 --> 00:36.580
+của một số hàm khác, gọi g(x), khi x tiến tới c
+
+00:36.580 --> 00:39.270
+là M.
+
+00:39.270 --> 00:43.170
+Với các dữ kiện trên, giới hạn của
+
+00:43.170 --> 00:49.820
+f(x) cộng g(x) khi x tiến tới c là bao nhiêu?
+
+00:49.820 --> 00:51.640
+Có thể hình dung nó như này,
+
+00:51.640 --> 00:53.820
+nếu bạn nhìn đồ thị của 2 hàm bất kỳ,
+
+00:53.820 --> 00:55.560
+bạn chỉ cần cộng 2 hàm đó -
+
+00:55.560 --> 00:57.935
+rõ ràng nó sẽ bằng --
+
+00:57.935 --> 00:59.893
+nhắc lại là mình sẽ không chứng minh sâu,
+
+00:59.893 --> 01:01.960
+Mình sẽ nêu ra các tính chất --
+
+01:01.960 --> 01:06.760
+nó sẽ bằng giới hạn của f(x) khi x tiến tới c,
+
+01:06.760 --> 01:11.630
+cộng với giới hạn của g(x) khi x tiến tới c.
+
+01:11.630 --> 01:14.670
+Bằng với, cái ở ngay đây
+
+01:14.670 --> 01:17.880
+mình sẽ viết nó cùng màu
+
+01:17.880 --> 01:20.620
+cái này bằng L.
+
+01:20.620 --> 01:26.190
+Kết quả bằng L cộng M. Cái ở đây
+
+01:26.190 --> 01:27.530
+bằng M.
+
+01:27.530 --> 01:28.890
+Không khó lắm.
+
+01:28.890 --> 01:33.730
+Đây thường được gọi là tính chất tổng hay tính chất tổng
+
+01:33.730 --> 01:35.167
+giới hạn tương tự.
+
+01:35.167 --> 01:38.460
+Ta xem tiếp một bài tương tự nhưng khác một xíu.
+
+01:38.460 --> 01:44.220
+Giới hạn khi x tiến dần tới c của f(x) trừ g(x)
+
+01:44.220 --> 01:47.550
+bằng L trừ M. Nó đơn giản là
+
+01:47.550 --> 01:49.330
+giới hạn của f(x) khi x tiến tới c
+
+01:49.330 --> 01:52.470
+trừ đi giới hạn của g(x) khi x tiến tới c.
+
+01:52.470 --> 01:58.594
+Vì vậy nó là L trừ M.
+
+01:58.594 --> 02:00.260
+Ta thường gọi nó là tính chất hiệu
+
+02:00.260 --> 02:02.720
+hay tính chất hiệu của giới hạn.
+
+02:02.720 --> 02:05.550
+Một lần nữa, đây là tính chất
+
+02:05.550 --> 02:06.364
+cực kỳ trực quan.
+
+02:06.364 --> 02:09.080
+Vậy điều gì xảy ra nếu lấy tích của 2 hàm số?
+
+02:09.080 --> 02:16.990
+Giới hạn của f(x) nhân g(x) khi x tiến tới c.
+
+02:16.990 --> 02:18.820
+May mắn là nó sẽ bằng
+
+02:18.820 --> 02:22.740
+giới hạn của f(x) khi x tiến tới c
+
+02:22.740 --> 02:28.410
+nhân với giới hạn của g(x) khi x tiến tới c.
+
+02:28.410 --> 02:31.110
+May mắn, đây lại là một tính chất khá trực quan
+
+02:31.110 --> 02:32.022
+của giới hạn.
+
+02:32.022 --> 02:34.630
+Vì thế trong trường hợp này, nó sẽ bằng
+
+02:34.630 --> 02:41.030
+L nhân M.
+
+02:41.030 --> 02:45.040
+nó sẽ bằng L nhân M. Tương tự,
+
+02:45.040 --> 02:47.930
+ta sẽ có một hằng số thay vì hàm số.
+
+02:47.930 --> 02:50.205
+Vậy nếu mình có giới hạn --
+
+02:50.205 --> 02:56.110
+Mình sẽ viết cùng một màu -- giới hạn của k nhân
+
+02:56.110 --> 03:00.310
+f(x) khi x tiến tới c, khi k là hằng số
+
+03:00.310 --> 03:03.520
+sẽ bằng k nhân với giới hạn
+
+03:03.520 --> 03:06.820
+của f(x) khi x tiến tới c.
+
+03:06.820 --> 03:13.960
+Giới hạn đó bằng L. Vậy nguyên cái này
+
+03:13.960 --> 03:20.070
+viết đơn giản là k nhân L.
+
+03:20.070 --> 03:22.380
+Ta có thể làm tương tự.
+
+03:22.380 --> 03:25.520
+Nó được gọi là tính chất nhân với hằng số.
+
+03:25.520 --> 03:28.210
+Ta có thể làm tương tự.
+
+03:28.210 --> 03:31.100
+Vậy nếu ta có giới hạn khi x tiến tới c
+
+03:31.100 --> 03:35.200
+của f(x) chia cho g(x).
+
+03:35.200 --> 03:37.900
+Sẽ cho ra kết quả chính xác bằng giới hạn
+
+03:37.900 --> 03:41.480
+của f(x) khi x tiến tới c
+
+03:41.480 --> 03:46.510
+chia cho giới hạn của g(x) khi x tiến tới c.
+
+03:46.510 --> 03:49.300
+sẽ bằng với-- Mình nghĩ bạn đã có câu trả lời -
+
+03:49.300 --> 03:56.750
+nó bằng L chia M.
+
+03:56.750 --> 03:59.770
+Cuối cùng -- nó được gọi là Tính chất Thương --
+
+03:59.770 --> 04:01.982
+cuối cùng, ta sẽ xem xét tính chất lũy thừa.
+
+04:01.982 --> 04:07.090
+Nếu ta có giới hạn của --
+
+04:07.090 --> 04:09.284
+để mình viết theo cách này--- của f(x) lũy thừa nào đó.
+
+04:09.284 --> 04:10.700
+Thực ra, ngay cả khi mình viết nó
+
+04:10.700 --> 04:12.880
+dưới dạng số mũ hữu tỉ, mũ r chia s,
+
+04:12.880 --> 04:16.810
+trong đó r và s là các số nguyên, thì giới hạn của
+
+04:16.810 --> 04:23.580
+f(x) mũ r chia s khi x tiến tới c,
+
+04:23.580 --> 04:28.650
+sẽ có kết quả tương tự như giới hạn của
+
+04:28.650 --> 04:33.670
+f(x) khi x tiến tới c, mũ r chia s .
+
+04:33.670 --> 04:36.620
+Một lần nữa, khi r và s là các số nguyên, s phải
+
+04:36.620 --> 04:37.670
+khác không.
+
+04:37.670 --> 04:40.350
+Nếu không số mũ này sẽ không có nghĩa.
+
+04:40.350 --> 04:46.905
+Và ta làm tương tự với L mũ r chia s.
+
+04:46.905 --> 04:53.760
+Nó sẽ bằng L mũ r chia s.
+
+04:53.760 --> 04:56.479
+Vì thế, sử dụng những tính chất này, ta có thể tìm
+
+04:56.479 --> 04:58.020
+được giới hạn của rất, rất, nhiều thứ.
+
+04:58.020 --> 05:01.060
+Một điều rõ ràng là các tính chất của giới hạn
+
+05:01.060 --> 05:03.360
+là những thứ bạn muốn làm một cách tự nhiên.
+
+05:03.360 --> 05:05.068
+Nếu bạn vẽ đồ thị của những hàm số này,
+
+05:05.068 --> 05:07.450
+nó sẽ trở nên khá trực quan.

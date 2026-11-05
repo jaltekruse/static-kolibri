@@ -1,0 +1,494 @@
+WEBVTT
+
+00:00.630 --> 00:05.740
+Poté, co překročíte trolův most
+a zachráníte prince nebo princeznu,
+
+00:05.750 --> 00:10.050
+navrátíte je zpět jejich otci, králi.
+
+00:10.060 --> 00:13.990
+A on je tak nadšený, že jste přivedli zpět
+jeho syna nebo dceru,
+
+00:14.010 --> 00:17.410
+že chce na vaši počest
+uspořádat oslavu.
+
+00:17.430 --> 00:20.950
+Trápí ho však drobná hádanka
+ohledně uspořádání oslavy.
+
+00:20.960 --> 00:27.721
+Snaží se přijít na to,
+kolik dortíků by měl objednat.
+
+00:27.731 --> 00:31.581
+Nechce žádné vyhazovat, ale chce zajistit,
+aby všichni měli dost jídla.
+
+00:31.591 --> 00:33.260
+Říkáte si, jaký je tu problém?
+
+00:33.260 --> 00:37.059
+A on odpoví: No, vím, že dospělí sní
+jiný počet dortíků než děti.
+
+00:37.066 --> 00:40.000
+A vím, že v mém království
+sní dospělý vždy to stejné množství
+
+00:40.010 --> 00:42.540
+a dítě sní vždy to stejné množství.
+
+00:42.550 --> 00:45.225
+A tak řeknete: Králi,
+jaké informace mi můžete dát?
+
+00:45.255 --> 00:47.130
+Možná bych Vám mohl
+trochu pomoci.
+
+00:47.130 --> 00:50.100
+Po celé té trolí záležitosti
+se cítíte velmi sebejistí.
+
+00:50.110 --> 01:01.700
+A on řekne: Vím, že na poslední oslavě
+bylo 500 dospělých a 200 dětí
+
+01:01.720 --> 01:10.210
+a dohromady snědli 2900 dortíků.
+
+01:10.220 --> 01:13.784
+A vy řeknete: To je zajímavé.
+Ale asi budu potřebovat víc informací.
+
+01:13.790 --> 01:15.150
+Už jste dřív oslavy pořádal?
+
+01:15.160 --> 01:17.250
+A král řekne: Ovšem.
+Rád pořádám oslavy.
+
+01:17.257 --> 01:19.070
+A co se stalo na oslavě předtím?
+
+01:19.090 --> 01:29.070
+A on odpoví: No, tam bylo
+500 dospělých a 300 dětí.
+
+01:29.082 --> 01:31.490
+A vy na to:
+Kolik dortíků se na té oslavě snědlo?
+
+01:31.501 --> 01:37.200
+A on řekne:
+Víme, že se snědlo 3100 dortíků.
+
+01:37.200 --> 01:41.540
+A vy se rozechvějete s pocitem,
+že by se zde mohla použít trocha algebry.
+
+01:41.552 --> 01:43.600
+A dodáte: Takže co potřebujeme zjistit?
+
+01:43.620 --> 01:48.240
+Potřebujeme zjistit průměrný počet dortíků,
+které sní jeden dospělý.
+
+01:48.260 --> 01:56.740
+Tedy počet dortíků na jednoho dospělého.
+
+01:56.760 --> 02:03.750
+A potřebujeme také zjistit
+počet dortíků na jedno dítě.
+
+02:03.770 --> 02:07.164
+To jsou tedy dvě věci,
+které potřebujeme zjistit,
+
+02:07.164 --> 02:09.860
+protože když pak zjistíme,
+kolik dospělých a dětí přijde
+
+02:09.880 --> 02:14.810
+na příští oslavu pořádaný na vaši počest,
+můžeme určit přesný počet dortíků.
+
+02:14.820 --> 02:18.220
+Takže to jsou věci, na které musíte přijít
+a o kterých nic nevíte.
+
+02:18.230 --> 02:23.260
+Pojďme definovat nějaké proměnné,
+jež tyto věci představují.
+
+02:23.280 --> 02:25.140
+'a' bude reprezentovat dospělé.
+
+02:25.160 --> 02:29.350
+'a' bude počet dortíků,
+které průměrně sní jeden dospělý.
+
+02:29.370 --> 02:30.990
+A pro děti určeme 'c'.
+
+02:31.010 --> 02:35.680
+Takže 'c' je průměrný počet
+dortíků na dítě.
+
+02:35.700 --> 02:38.040
+S těmito informacemi se podíváme,
+
+02:38.060 --> 02:41.780
+jak můžeme vyjádřit to,
+co nám řekl král, matematicky.
+
+02:41.810 --> 02:44.590
+Pojďme se nejdříve zamyslet
+nad oranžovými informacemi.
+
+02:44.620 --> 02:47.626
+Jak bychom je mohli
+vyjádřit matematicky?
+
+02:47.626 --> 02:51.460
+Pojďme popřemýšlet nad tím,
+kolik dortíků snědli na oslavě dospělí.
+
+02:51.470 --> 02:56.510
+Bylo tam 500 dospělých
+a průměrně snědl každý přesně 'a' dortíků.
+
+02:56.520 --> 03:01.150
+Takže celkové číslo dortíků,
+jež snědli dospělí, bylo 500 krát 'a'.
+
+03:01.170 --> 03:03.450
+Kolik jich snědly děti?
+Úplně stejný postup.
+
+03:03.460 --> 03:08.340
+Bylo tam 200 dětí
+a každé snědlo 'c' dortíků.
+
+03:08.360 --> 03:12.090
+200 krát 'c' je tedy celkový počet dortíků,
+které snědly děti.
+
+03:12.100 --> 03:15.240
+Kolik tedy snědli dohromady?
+Je to součet těch snědených dospělými
+
+03:15.250 --> 03:21.810
+a těch snědených dětmi,
+což činí 2900 dortíků.
+
+03:21.830 --> 03:26.740
+Pojďme tedy aplikovat stejný postup
+na modrou oslavu, na tyto modré informace.
+
+03:26.760 --> 03:30.680
+Jak je můžeme vyjádřit matematicky?
+
+03:30.690 --> 03:33.380
+Opět se ptáme, kolik
+dortíků snědli dospělí?
+
+03:33.410 --> 03:40.116
+Bylo tam 500 dospělých a každý snědl
+'a' dortíků, což je nyní neznámá.
+
+03:40.116 --> 03:41.480
+A co děti?
+
+03:41.490 --> 03:45.639
+Bylo tam 300 dětí
+a každé snědlo 'c' dortíků.
+
+03:45.639 --> 03:50.519
+Když tedy spojíte všechny dortíky,
+které snědli dospělí a které snědly děti,
+
+03:50.530 --> 03:53.970
+dostanete 3100 dortíků.
+
+03:53.984 --> 03:56.890
+Tohle začíná vypadat zajímavě.
+Mám dvě rovnice.
+
+03:56.910 --> 04:00.340
+Mám systém dvou rovnic
+se dvěma neznámými.
+
+04:00.360 --> 04:04.430
+A vy už víte ze zkušenosti s trolem,
+že tohle umíte vyřešit.
+
+04:04.440 --> 04:07.095
+Mohli byste to vyřešit graficky,
+jako už dříve,
+
+04:07.105 --> 04:09.610
+ale máte pocit,
+že máte k dispozici jiný nástroj,
+
+04:09.610 --> 04:13.830
+který je ve skutečnosti pouze použitím
+matematiky, kterou už znáte.
+
+04:13.850 --> 04:17.420
+Takže trochu popřemýšlejte,
+jak byste to mohli udělat.
+
+04:17.440 --> 04:19.790
+Pojďme přepsat tuhle první rovnici tady.
+
+04:19.800 --> 04:30.100
+Máme tu 500a plus 200c
+se rovná 2900 dortíkům.
+
+04:30.110 --> 04:34.520
+Teď by bylo dobré, kdybychom
+se mohli nějak zbavit těch 500a.
+
+04:34.530 --> 04:38.070
+Mohli byste říci,
+no tak prostě odečteme 500a.
+
+04:38.090 --> 04:41.750
+A tak byste si mohli říci,
+chci jen odečíst 500a.
+
+04:41.770 --> 04:44.030
+Ale pokud byste jen odečetli
+500a z levé strany,
+
+04:44.040 --> 04:46.519
+museli byste také odečíst
+500a ze strany pravé.
+
+04:46.519 --> 04:49.940
+A tak by to 'a' jen tak nezmizelo.
+Skončilo by na pravé straně,
+
+04:49.950 --> 04:52.470
+takže by to stále byla rovnice
+se dvěma neznámými,
+
+04:52.494 --> 04:54.160
+což nám příliš nepomůže.
+
+04:54.190 --> 04:57.710
+Ale vidíte něco zajímavého.
+Říkáte si, tady je 500a.
+
+04:57.720 --> 05:01.320
+Co kdybych odečetl 500a a těchto 300c?
+
+05:01.340 --> 05:06.730
+Že bych odečetl těchto 500a
+a těchto 300c z levé strany.
+
+05:06.740 --> 05:08.010
+Ale k čemu je to dobré?
+
+05:08.030 --> 05:12.530
+Uděláte to samé na pravé straně
+a pak budete mít 'a' a 'c' na pravé straně.
+
+05:12.550 --> 05:15.577
+A pak si řeknete, počkej chvilku.
+Počkat...
+
+05:15.597 --> 05:18.630
+To si říkáte pro sebe.
+Počkej chvilku.
+
+05:18.640 --> 05:21.560
+Odečítám levou stranu této rovnice,
+
+05:21.590 --> 05:25.020
+ale tahle levá strana je úplně stejná
+jako tahle pravá strana.
+
+05:25.040 --> 05:33.120
+Takže tady bych mohl odečíst 500a a 300c
+a mohl bych odečíst 500a a 300c zase tady.
+
+05:33.140 --> 05:39.410
+Ale víme, že odečtení 500a a 300c
+je úplně stejné jako odečtení 3100.
+
+05:39.430 --> 05:40.670
+Vysvětlím to.
+
+05:40.690 --> 05:52.230
+Víme, že 500a minus 300c je stejné
+jako odečítání 500a plus 300c.
+
+05:52.260 --> 05:56.890
+A víme, že 500a plus 300c je přesně 3100.
+
+05:56.920 --> 06:00.620
+Tohle je 3100.
+Tohle nám poskytla ta druhá informace.
+
+06:00.640 --> 06:06.760
+Takže místo odečtení 500a a minus 300c
+můžeme jednoduše odečíst 3100.
+
+06:06.770 --> 06:09.250
+Pojďme na to.
+Tohle je vzrušující.
+
+06:09.260 --> 06:12.850
+Tohle smažeme.
+
+06:12.860 --> 06:19.360
+Takže tady místo tohoto můžu odečíst
+přesně tu samou hodnotu, což je 3100.
+
+06:19.380 --> 06:21.152
+Odečteme 3100.
+
+06:21.172 --> 06:22.630
+Takže takhle to vypadá,
+
+06:22.630 --> 06:26.250
+jako bychom odečítali tuhle spodní rovnici
+od té horní rovnice,
+
+06:26.267 --> 06:28.910
+ale vlastně jen odečítáme
+tu stejnou věc od obou stran.
+
+06:28.930 --> 06:31.140
+Tohle je jen úplně základní matematika.
+
+06:31.180 --> 06:34.900
+Ale podívejme se, co se stane,
+když to uděláme.
+
+06:34.920 --> 06:38.920
+Na levé straně 500a minus 500a,
+to se nám vyruší.
+
+06:38.940 --> 06:44.260
+200c minus 300c,
+to nám dává -100c.
+
+06:44.280 --> 06:49.700
+A na pravé straně 2900 minus 3100,
+to je -200.
+
+06:49.720 --> 06:53.480
+Teď tedy máme jednu rovnici
+s jednou neznámou a to umíme vyřešit.
+
+06:53.500 --> 06:59.120
+Můžeme obě strany vydělit -100.
+
+06:59.140 --> 07:03.230
+Tohle se nám vykrátí.
+A pak nám tady vyjde 2.
+
+07:03.250 --> 07:06.620
+Takže 'c' se rovná 2.
+
+07:06.630 --> 07:11.990
+Vyřešili jsme tedy jednu neznámou,
+každé dítě průměrně vypije 2 sklenice.
+
+07:12.010 --> 07:15.190
+Takže 'c' se tedy rovná 2.
+
+07:15.210 --> 07:17.254
+Jak tedy zjistíme, kolik je 'a'?
+
+07:17.274 --> 07:21.342
+Teď můžeme vzít tuto informaci,
+vrátit se k jedné z těchto rovnic
+
+07:21.350 --> 07:23.940
+a zjistit, kolik bude 'a'.
+
+07:23.960 --> 07:29.530
+Vraťme se k této oranžové
+a určeme, kolik je 'a'.
+
+07:29.550 --> 07:38.690
+Měli jsme tu tedy 500a plus 200c,
+ale víme už, že 'c' je 2.
+
+07:38.710 --> 07:46.700
+Takže 200 krát 2,
+to celé se rovná 2900.
+
+07:46.720 --> 07:50.550
+A teď jen musíme vyřešit 'a',
+jednu rovnici s jednou neznámou.
+
+07:50.560 --> 07:55.520
+Máme tu tedy 500a,
+200 krát 2 je 400,
+
+07:55.540 --> 07:59.090
+plus 400,
+to se rovná 2900.
+
+07:59.100 --> 08:03.860
+Můžeme od obou stran rovnice odečíst 400.
+Pojďme to udělat.
+
+08:03.880 --> 08:10.600
+Odečteme 400 a zůstane nám...
+Tohle se vyruší.
+
+08:10.620 --> 08:13.180
+A na levé straně máme 500a.
+
+08:13.200 --> 08:15.530
+Tohle je velmi vzrušující.
+Finišujeme.
+
+08:15.540 --> 08:19.750
+Na pravé straně máme 2500.
+
+08:19.760 --> 08:22.310
+500a se rovná 2500.
+
+08:22.330 --> 08:30.590
+Můžeme obě strany vydělit 500
+a zůstane nám 2500 děleno 500, což je 5.
+
+08:30.610 --> 08:33.670
+Takže nám vychází,
+že 'a' se rovná 5, a je to!
+
+08:33.690 --> 08:35.960
+Vyřešili jste královu hádanku.
+
+08:35.980 --> 08:38.719
+Každé dítě v průměru vypije
+dvě sklenice vody...
+
+08:38.730 --> 08:41.218
+Pardon, ne sklenice vody.
+Nevím, kde jsem to vzal.
+
+08:41.238 --> 08:46.110
+Každé dítě sní 2 dortíky
+a každý dospělý 5 dortíků.
+
+08:46.120 --> 08:47.419
+'a' se rovná 5.
+
+08:47.439 --> 08:51.990
+Takže podle toho, kolik dospělých a dětí
+přijde na oslavu pořádanou na vaši počest,
+
+08:52.000 --> 08:59.300
+můžete nyní určit přesný počet dortíků,
+který musí král objednat.

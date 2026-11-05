@@ -1,0 +1,275 @@
+WEBVTT
+
+00:00.200 --> 00:08.440
+Die Anzahl der Äste einer Eiche und einer Birke
+seit 1950 sind in diesen Tabellen abgebildet.
+
+00:08.440 --> 00:12.500
+Die Eiche hat zu Beginn 34 Äste.
+
+00:12.500 --> 00:16.740
+Nach 3 Jahren hat sie 46 Äste und so weiter.
+
+00:16.740 --> 00:18.600
+Für die Birke haben wir ähnliche Daten.
+
+00:18.600 --> 00:21.840
+Zu Beginn hat sie 8 Äste.
+
+00:21.840 --> 00:25.520
+Nach 10 Jahren hat sie 33 Äste und so weiter.
+
+00:25.520 --> 00:31.860
+In diesem Video möchte ich darüber nachdenken,
+wie wir diese Daten mithilfe von Funktionen darstellen.
+
+00:31.860 --> 00:33.480
+Es gibt verschiedene Möglichkeiten,
+
+00:33.480 --> 00:41.260
+aber in diesem Video werden wir uns zwischen
+linearen und exponentiellen Funktionen entscheiden.
+
+00:41.260 --> 00:49.060
+Welche Art ist besser dafür
+geeignet, diese Daten abzubilden?
+
+00:49.060 --> 00:50.980
+Beginnen wir mit der Eiche.
+
+00:50.980 --> 00:57.600
+Wir haben eine festgelegte Zeitzunahme,
+jeder dieser Schritte ist +3 Jahre.
+
+00:57.600 --> 00:59.260
+Wir haben also eine festgelegte Zeitzunahme.
+
+00:59.265 --> 01:01.135
+Was passiert mit der Anzahl meiner Äste?
+
+01:01.140 --> 01:04.860
+Haben wir eine festgelegte Veränderung,
+oder ungefähr eine festgelegte Veränderung,
+
+01:04.860 --> 01:07.400
+bei der ein lineares Modell hilfreich wäre,
+
+01:07.400 --> 01:11.000
+oder haben wir eine Veränderung,
+die davon abhängig ist, wo wir vorher waren?
+
+01:11.000 --> 01:12.219
+Was meine ich damit?
+
+01:12.219 --> 01:16.491
+Von 34 zu 46, das ist +12.
+
+01:16.491 --> 01:20.997
+46 zu 59 ist +13.
+
+01:20.997 --> 01:25.290
+59 zu 70 ist +11.
+
+01:25.290 --> 01:29.400
+70 zu 82 ist +12.
+
+01:29.400 --> 01:32.840
+Dir fällt vielleicht auf, dass das nicht
+unbedingt eine festgelegte Änderung ist.
+
+01:32.840 --> 01:37.240
+Diese Zahlen haben 12 als Durchschnitt,
+
+01:37.240 --> 01:41.020
+aber wenn du dir echte Daten anschaust,
+wirst du nie so etwas exaktes erhalten.
+
+01:41.020 --> 01:46.060
+Die Modelle werden uns nur eine
+gute Annäherung daran geben,
+
+01:46.060 --> 01:49.380
+wie sich die Anzahl der Äste
+im Laufe der Zeit verändern wird.
+
+01:49.380 --> 01:54.640
+Das ist sehr nah an kostant 12 Ästen alle 3 Jahre.
+
+01:54.640 --> 01:56.889
+Also entscheide ich mich für ein lineares Modell.
+
+01:56.889 --> 02:01.420
+Hier sind die Äste eine Funktion der Zeit.
+
+02:01.420 --> 02:04.380
+Wir haben nicht 12 Äste pro Jahr,
+
+02:04.389 --> 02:07.361
+sondern 12 Äste in 3 Jahren.
+
+02:07.361 --> 02:09.437
+Hier haben wir 13 Äste in 3 Jahren,
+
+02:09.440 --> 02:11.260
+hier haben wir 11 Äste in 3 Jahren.
+
+02:11.260 --> 02:14.180
+Wir haben also im Durchschnitt 12 Äste in 3 Jahren.
+
+02:14.180 --> 02:21.960
+Wir beginnen mit den 34 Ästen,
+die wir zur Beginn haben.
+
+02:21.960 --> 02:30.640
+Wenn wir alle 3 Jahre 12 Äste hinzubekommen,
+dann addieren wir jedes Jahr 4 Äste.
+
+02:30.640 --> 02:31.740
+Du kannst es ausprobieren.
+
+02:31.740 --> 02:34.380
+B(0) = 34.
+
+02:34.380 --> 02:38.935
+Wir testen die extremen Teile des Modells.
+
+02:38.940 --> 02:48.020
+B(12) = 34 + 48 = 82.
+
+02:48.020 --> 02:50.217
+Das Modell funktioniert also gut.
+
+02:50.220 --> 02:53.320
+Es gibt ein paar Punkte, an denen es
+nicht exakt mit den Daten übereinstimmt,
+
+02:53.320 --> 02:55.320
+aber es ist schon sehr nahe dran.
+
+02:55.320 --> 02:58.680
+Das ist also ein lineares Modell.
+
+02:58.680 --> 03:00.572
+Jetzt kommen wir zur Birke.
+
+03:00.580 --> 03:13.600
+Wir haben eine festgelegte
+Zeitzunahme in 10-Jahres-Schritten.
+
+03:13.600 --> 03:15.500
+Kommen wir zu den Ästen.
+
+03:15.501 --> 03:17.602
+Wir haben eine Zunahme von 8 zu 33.
+
+03:17.602 --> 03:18.577
+Was ist das?
+
+03:18.577 --> 03:21.758
+Das sind +25 Äste.
+
+03:21.760 --> 03:25.320
+Dann haben wir eine Zunahme von 33 zu 128.
+
+03:25.320 --> 03:27.500
+Das sind viel mehr als 25 Äste.
+
+03:27.500 --> 03:31.020
+Wie viele sind es?
+
+03:31.020 --> 03:35.340
+Es sind +95 Äste.
+
+03:35.940 --> 03:39.400
+Das ist eindeutig kein lineares Modell.
+
+03:39.400 --> 03:51.780
+Denken wir also über ein exponentielles Modell nach.
+
+03:51.780 --> 03:58.660
+Mit was multiplizieren wir bei jedem Schritt?
+
+03:58.660 --> 04:00.580
+Wenn wir eine konstante Zeitzunahme haben,
+
+04:00.580 --> 04:04.320
+mit was multiplizieren wir dann, um unsere
+Zunahme an Ästen zu bekommen?
+
+04:04.320 --> 04:11.140
+Bei 8 zu 33 multiplizieren wir ungefähr mit 4.
+
+04:11.140 --> 04:13.058
+Etwas mehr als 4.
+
+04:13.060 --> 04:18.940
+Bei 33 zu 128 haben wir etwas weniger als 4,
+
+04:18.940 --> 04:20.999
+aber ungefähr 4.
+
+04:21.000 --> 04:25.080
+33 ⋅ 4 = 132, also sind wir nahe dran.
+
+04:25.080 --> 04:30.640
+128 zu 512 ist exakt 4.
+
+04:30.640 --> 04:34.180
+120 ⋅ 4 = 480,
+
+04:34.187 --> 04:37.642
+480 + 32 = 512.
+
+04:37.642 --> 04:39.100
+Also multiplizieren wir mit 4.
+
+04:39.100 --> 04:44.340
+Es sieht also so aus, als würden
+wir alle 10 Jahre mit 4 multiplizieren.
+
+04:44.340 --> 04:52.000
+Wir stellen also eine Funktion B(t) auf,
+
+04:52.000 --> 05:01.240
+bei der unser Anfangswert 8 und unsere Basis 4 ist.
+
+05:01.240 --> 05:04.098
+Aber wenn wir wollen, dass t in Jahren angegeben ist,
+
+05:04.098 --> 05:08.219
+müssen wir daran denken, dass wir alle
+10 Jahre mit einem Faktor von 4 multiplizieren.
+
+05:08.220 --> 05:13.360
+t muss also 10 erreichen, bevor der Exponent 1 wird,
+
+05:13.360 --> 05:16.740
+und t muss 20 erreichen, bevor der Exponent 2 wird.
+
+05:16.740 --> 05:23.220
+8 ⋅ 4^(t/10) scheint also ein gutes Modell zu sein.
+
+05:23.220 --> 05:25.700
+Du kannst es selbst überprüfen.
+
+05:25.700 --> 05:28.940
+Versuche, B(30) auszurechnen.
+
+05:28.940 --> 05:36.660
+B(30) = 8 ⋅ 4^(30/10), also 8 ⋅ 4^3.
+
+05:36.660 --> 05:38.340
+Was ergibt das?
+
+05:38.340 --> 05:43.900
+4^3 = 64.
+
+05:43.900 --> 05:48.400
+8 ⋅ 64 = 480 + 32.
+
+05:48.400 --> 05:49.839
+Es ergibt 512.
+
+05:49.840 --> 05:55.960
+Dieses Exponentialmodell bildet
+unsere Daten also sehr gut ab.

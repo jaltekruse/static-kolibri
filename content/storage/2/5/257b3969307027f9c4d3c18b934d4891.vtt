@@ -1,0 +1,390 @@
+WEBVTT
+
+00:00.028 --> 00:01.574
+- [Instructor] So let's
+say I have two functions
+
+00:01.574 --> 00:03.268
+that are the inverse of each other.
+
+00:03.268 --> 00:05.382
+So I have f of x,
+
+00:05.382 --> 00:08.176
+and then I also have g of x,
+
+00:08.176 --> 00:10.729
+which is equal to the inverse of f of x.
+
+00:10.729 --> 00:13.786
+And f of x would be the
+inverse of g of x as well.
+
+00:13.786 --> 00:15.643
+If the notion of an inverse function
+
+00:15.643 --> 00:17.237
+is completely unfamiliar to you,
+
+00:17.237 --> 00:21.162
+I encourage you to review inverse
+functions on Khan Academy.
+
+00:21.162 --> 00:23.813
+Now, one of the properties
+of inverse functions
+
+00:23.813 --> 00:27.063
+are that if I were to take g of f of x,
+
+00:28.098 --> 00:32.111
+g of f of x, or I could say
+the f inverse of f of x,
+
+00:32.111 --> 00:35.807
+that this is just going to be equal to x.
+
+00:35.807 --> 00:37.445
+And it comes straight out of what
+
+00:37.445 --> 00:39.042
+an inverse of a function is.
+
+00:39.042 --> 00:41.155
+If this is x right over here,
+
+00:41.155 --> 00:44.322
+the function f would map to some value
+
+00:45.172 --> 00:46.442
+f of x.
+
+00:46.442 --> 00:48.918
+So that's f of x right over there.
+
+00:48.918 --> 00:51.606
+And then the function g, or f inverse,
+
+00:51.606 --> 00:55.316
+if you input f of x into
+it, it would take you back,
+
+00:55.316 --> 00:57.352
+it would take you back to x.
+
+00:57.352 --> 00:58.868
+So that would be f inverse,
+
+00:58.868 --> 01:02.173
+or we're saying g is the
+same thing as f inverse.
+
+01:02.173 --> 01:05.532
+So all of that so far is a
+review of inverse functions,
+
+01:05.532 --> 01:08.180
+but now we're going to apply a
+little bit of calculus to it,
+
+01:08.180 --> 01:09.581
+using the chain rule.
+
+01:09.581 --> 01:11.780
+And we're gonna get a
+pretty interesting result.
+
+01:11.780 --> 01:13.322
+What I want to do is take the derivative
+
+01:13.322 --> 01:16.321
+of both sides of this
+equation right over here.
+
+01:16.321 --> 01:19.096
+So let's apply the derivative operator,
+
+01:19.096 --> 01:21.483
+d/dx on the left-hand side,
+
+01:21.483 --> 01:24.904
+d/dx on the right-hand side.
+
+01:24.904 --> 01:26.653
+And what are we going to get?
+
+01:26.653 --> 01:30.762
+Well, on the left-hand side,
+we would apply the chain rule.
+
+01:30.762 --> 01:33.934
+So this is going to be the derivative of g
+
+01:33.934 --> 01:36.518
+with respect to f of x.
+
+01:36.518 --> 01:39.185
+So that's going to be g prime of
+
+01:40.089 --> 01:41.503
+f of x,
+
+01:41.503 --> 01:43.106
+g prime of f of x,
+
+01:43.106 --> 01:46.097
+times the derivative of
+f of x with respect to x,
+
+01:46.097 --> 01:47.453
+so times
+
+01:47.453 --> 01:48.536
+f prime of x.
+
+01:49.419 --> 01:51.957
+And then that is going
+to be equal to what?
+
+01:51.957 --> 01:54.411
+Well, the derivative
+with respect to x of x,
+
+01:54.411 --> 01:56.977
+that's just equal to one.
+
+01:56.977 --> 01:59.278
+And this is where we get
+our interesting result.
+
+01:59.278 --> 02:01.026
+All we did so far is we used
+
+02:01.026 --> 02:02.762
+something we knew about inverse functions,
+
+02:02.762 --> 02:03.919
+and we'd use the chain rule
+
+02:03.919 --> 02:06.096
+to take the derivative
+of the left-hand side.
+
+02:06.096 --> 02:09.930
+But if you divide both
+sides by g prime of f of x,
+
+02:09.930 --> 02:11.592
+what are you going to get?
+
+02:11.592 --> 02:13.020
+You're going to get a relationship
+
+02:13.020 --> 02:14.544
+between the derivative of a function
+
+02:14.544 --> 02:16.460
+and the derivative of its inverse.
+
+02:16.460 --> 02:18.377
+So you get f prime of x
+
+02:19.539 --> 02:21.930
+is going to be equal to
+
+02:21.930 --> 02:24.596
+one over all of this business,
+
+02:24.596 --> 02:25.929
+one over g prime
+
+02:27.390 --> 02:28.553
+of
+
+02:28.553 --> 02:29.930
+f of x,
+
+02:29.930 --> 02:31.936
+g prime of f of x.
+
+02:31.936 --> 02:34.343
+And this is really neat
+because if you know something
+
+02:34.343 --> 02:36.249
+about the derivative of a function,
+
+02:36.249 --> 02:38.311
+you can then start to figure out things
+
+02:38.311 --> 02:40.290
+about the derivative of its inverse.
+
+02:40.290 --> 02:42.112
+And we can actually see this is true
+
+02:42.112 --> 02:44.067
+with some classic functions.
+
+02:44.067 --> 02:46.628
+So let's say that f of x
+
+02:46.628 --> 02:47.545
+is equal to
+
+02:48.735 --> 02:50.109
+e to the x,
+
+02:50.109 --> 02:52.025
+and so g of x
+
+02:52.025 --> 02:55.203
+would be equal to the inverse of f.
+
+02:55.203 --> 02:56.286
+So f inverse,
+
+02:57.200 --> 03:00.325
+which is, what's the
+inverse of e to the x?
+
+03:00.325 --> 03:01.661
+Well, one way to think about it is,
+
+03:01.661 --> 03:03.864
+if you have y is equal to e to the x,
+
+03:03.864 --> 03:05.792
+if you want the inverse,
+you can swap the variables
+
+03:05.792 --> 03:07.299
+and then solve for y again.
+
+03:07.299 --> 03:10.628
+So you'd get x is equal to e to the y.
+
+03:10.628 --> 03:12.371
+You take the natural log of both sides,
+
+03:12.371 --> 03:15.397
+you get natural log of x is equal to y.
+
+03:15.397 --> 03:18.634
+So the inverse of e to
+the x is natural log of x.
+
+03:18.634 --> 03:20.889
+And once again, that's all
+review of inverse functions.
+
+03:20.889 --> 03:24.407
+All right, if that's unfamiliar,
+review it on Khan Academy.
+
+03:24.407 --> 03:27.593
+So g of x is going to be equal to
+
+03:27.593 --> 03:29.892
+the natural log of x.
+
+03:29.892 --> 03:33.737
+Now, let's see if this holds
+true for these two functions.
+
+03:33.737 --> 03:36.426
+Well, what is f prime of x going to be?
+
+03:36.426 --> 03:38.956
+Well, this one of those
+amazing results in calculus.
+
+03:38.956 --> 03:42.901
+One of these neat things
+about the number e is that
+
+03:42.901 --> 03:46.904
+the derivative of e to
+the x is e to the x.
+
+03:46.904 --> 03:49.882
+And in other videos, we
+also saw that the derivative
+
+03:49.882 --> 03:53.653
+of the natural log of x is one over x.
+
+03:53.653 --> 03:55.317
+So let's see if this holds out.
+
+03:55.317 --> 03:57.820
+So we should get a result, f prime of x,
+
+03:57.820 --> 03:59.441
+e to the x
+
+03:59.441 --> 04:00.941
+should be equal to
+
+04:01.851 --> 04:02.684
+one over
+
+04:04.398 --> 04:05.898
+g prime of f of x.
+
+04:07.069 --> 04:08.866
+So g prime of f of x,
+
+04:08.866 --> 04:10.691
+so g prime is one
+
+04:10.691 --> 04:12.752
+over our f of x,
+
+04:12.752 --> 04:15.039
+and f of x is e to the x,
+
+04:15.039 --> 04:16.939
+one over e to the x.
+
+04:16.939 --> 04:18.780
+Is this indeed true?
+
+04:18.780 --> 04:19.613
+Yes, it is.
+
+04:19.613 --> 04:21.381
+One over, one over e to the x
+
+04:21.381 --> 04:23.964
+is just going to be e to the x.
+
+04:23.964 --> 04:25.863
+So it all checks out.
+
+04:25.863 --> 04:26.882
+And you could do the other way
+
+04:26.882 --> 04:28.753
+because these are inverses of each other.
+
+04:28.753 --> 04:30.719
+You could say g prime of x is going
+
+04:30.719 --> 04:34.155
+to be equal to one over f prime of g of x
+
+04:34.155 --> 04:36.089
+because they're inverses of each other.
+
+04:36.089 --> 04:38.102
+And actually, what's
+really neat about this,
+
+04:38.102 --> 04:41.010
+is that you could actually use
+this to get a sense of what
+
+04:41.010 --> 04:45.044
+the derivative of an inverse
+function is even going to be.

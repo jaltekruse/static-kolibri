@@ -1,0 +1,221 @@
+WEBVTT
+
+00:00.000 --> 00:04.820
+O que eu quero fazer neste vídeo
+é fornecer uma definição rigorosa
+
+00:04.820 --> 00:11.650
+do que significa pegar o limite de uma
+sequência quando n se aproxima do infinito
+
+00:11.650 --> 00:15.508
+e o que vamos ver é realmente parecido
+com a definição de qualquer função
+
+00:15.508 --> 00:22.182
+quando um limite se aproxima do infinito,
+e isto é porquê sequências
+
+00:22.182 --> 00:25.732
+podem simplesmente ser vistas como uma
+função de seus índices
+
+00:25.871 --> 00:30.302
+vou desenhar uma sequência arbitrária
+aqui
+
+00:30.302 --> 00:33.240
+vou desenhar desta forma para ficar claro
+
+00:33.240 --> 00:36.504
+mas o limite está se aproximando portanto
+vou desenhar uma sequência
+
+00:36.504 --> 00:39.573
+que está pulando um pouco
+
+00:39.573 --> 00:43.966
+Digamos, quando n é igual a um, a 1
+está ali
+
+00:43.966 --> 00:50.802
+quando n é igual a dois, a 2 está ali,
+quando n é igual a três , a 3 está lá
+
+00:50.802 --> 00:59.004
+quando n é igual a 4, a 4 está aqui,
+quando n é igual a 5, a 5 está aqui
+
+00:59.004 --> 01:04.049
+e parece que é n, portanto isto é
+1, 2, 3, 4, 5
+
+01:04.093 --> 01:08.071
+parece que quando n fica maior e maior
+
+01:08.071 --> 01:14.259
+a n parece estar aproximando-se
+de um valor
+
+01:14.277 --> 01:18.373
+parece estar chegando mais e mais perto,
+parece estar convergindo
+
+01:18.373 --> 01:23.264
+para um valor L bem aqui.
+O the precisamos fazer é determinar
+
+01:23.264 --> 01:27.363
+o que realmente significa convergir para L.
+
+01:27.363 --> 01:33.486
+Digamos que vamos convergir para L
+
+01:33.486 --> 01:37.934
+para qualquer epsilon maior que zero,
+para qualquer epsilon positivo
+
+01:37.934 --> 01:44.819
+você pode determinar -
+
+01:44.819 --> 01:52.835
+vou re-escrever desta forma,
+para cada epsilon positivo, existe
+
+01:52.835 --> 01:57.989
+um M positivo, M maiúsulo,
+
+01:57.989 --> 02:07.578
+tal que, se n minúsculo for maior que
+M maiúsculo,
+
+02:07.578 --> 02:17.269
+a distância entre a n e nosso
+limite, este L bem aqui,
+
+02:17.269 --> 02:22.286
+a distância entre estes dois pointos
+será menor que epsilon
+
+02:22.286 --> 02:25.199
+Se você puder fazer isto para qualquer
+epsilon
+
+02:25.199 --> 02:30.117
+maior que zero, há um M positivo, tal que
+se n for maior que M,
+
+02:30.117 --> 02:33.669
+a distância entre a n e nosso limite
+será menos que epsilon
+
+02:33.669 --> 02:36.288
+então podemos dizer,
+
+02:36.288 --> 02:43.193
+o limite de a n quando n se aproxima
+do infinito é igual a L
+
+02:43.193 --> 02:51.286
+e podemos dizer que a n converge para L.
+
+02:51.286 --> 02:56.000
+Vamos analisar isto -
+aqui eu estava declarando
+
+02:56.000 --> 02:58.786
+que a n está se aproximando de L bem aqui,
+
+02:58.786 --> 03:01.388
+Eu tentei desenhá-lo como uma
+linha horizontal
+
+03:01.388 --> 03:05.794
+Esta definição do que significa
+convergência de uma sequência
+
+03:05.794 --> 03:09.045
+diz, olhe para cada epsilon
+maior que zero.
+
+03:09.045 --> 03:14.795
+Vou pegar um epsilon maior que zero,
+portanto vou a L mais epsilon,
+
+03:14.795 --> 03:17.939
+na verdade, vou fazer isto deste lado, L,
+portanto veja que este é
+
+03:17.939 --> 03:24.353
+L mais epsilon, e digamos que este aqui é
+L menos epsilon
+
+03:24.353 --> 03:28.657
+Vou desenhar estes dois limites bem aqui
+
+03:28.657 --> 03:32.568
+Eu peguei um epsilon aqui
+para qualquer epsilon arbitrário,
+
+03:32.568 --> 03:38.831
+para qualquer epsilon positivo
+que eu selecionar, podemos encontrar
+
+03:38.831 --> 03:43.277
+um M positivo, de forma que,
+
+03:43.277 --> 03:45.755
+digamos, que este seja nosso M bem aqui.
+
+03:45.755 --> 03:50.881
+Contanto que o nosso a n seja maior
+que nosso M,
+
+03:50.881 --> 03:55.932
+nosso a n estará dentro do epsilon de L,
+
+03:55.932 --> 03:59.747
+o que essencialmente significa estar
+dentro desta faixa.
+
+03:59.747 --> 04:04.839
+Isto está dizendo, veja que a distância
+entre a n e L é menor que epsilon,
+
+04:04.839 --> 04:09.618
+de forma que seria qualquer um desses
+entre L menos epsilon e L mais epsilon.
+
+04:09.618 --> 04:15.292
+A distância entre aquilo e nosso limite
+vai ser menor que epsilon.
+
+04:15.292 --> 04:16.992
+E vemos bem aqui, pelo menos visualmente,
+
+04:16.992 --> 04:20.978
+que se pegarmos M lá e você puder pegar
+um n que seja maior que aquele M,
+
+04:20.978 --> 04:26.019
+se você pegar um n que for maior que M,
+se M for igual a 3, a n parece estar
+
+04:26.019 --> 04:30.353
+perto o suficiente. Se M for 4, a n
+chega ainda mais próximo, dentro do nosso
+
+04:30.363 --> 04:36.559
+epsilon. Portanto podemos dizer que é
+verdade, para qualquer epsilon que
+
+04:36.559 --> 04:41.528
+pegarmos, podemos dizer que estes limites
+existem, que a n converge para L.
+
+04:41.528 --> 04:47.208
+No próximo vídeo vou usar esta definição
+para provar que uma sequência converge.
+
+04:47.213 --> 04:48.480
+Legendado por: Marcia Yu

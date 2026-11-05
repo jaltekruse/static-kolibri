@@ -1,0 +1,586 @@
+WEBVTT
+
+00:00.000 --> 00:02.412
+Khi ước lượng e mũ 1,45 bằng cách
+
+00:02.412 --> 00:05.262
+sử dụng đa thức Taylor tại x bằng 2,
+
+00:05.262 --> 00:07.914
+thì bậc nhỏ nhất của đa thức để sai số
+
+00:07.914 --> 00:10.809
+nhỏ hơn 0,001 là bao nhiêu?
+
+00:10.809 --> 00:13.957
+Thông thường, nếu bạn thấy trường hợp như thế này,
+
+00:13.957 --> 00:16.342
+nếu mình đang ước lượng một hàm số
+
+00:16.342 --> 00:19.082
+với đa thức Taylor lân cận một giá trị nào đó,
+
+00:19.082 --> 00:22.071
+và mình muốn biết là mình cần đa thức đến bậc mấy
+
+00:22.071 --> 00:23.750
+để có thể giới hạn sai số?
+
+00:23.750 --> 00:26.424
+Câu hỏi này gợi ý cho chúng ta sử dụng
+
+00:26.424 --> 00:30.262
+cận sai số Lagrange hoặc là định lý phần dư của dãy Taylor.
+
+00:30.262 --> 00:31.861
+Để mình nhắc lại định lý,
+
+00:31.861 --> 00:35.119
+mình đang ôn lại định lý phần dư của dãy Taylor,
+
+00:35.119 --> 00:38.080
+và nó cho mình biết giá trị tuyệt đối của phần dư
+
+00:38.080 --> 00:40.169
+của đa thức Taylor bậc n,
+
+00:40.169 --> 00:43.309
+sẽ nhỏ hơn phần này ở ngay đây.
+
+00:43.309 --> 00:46.527
+Bây giờ thì n là bậc của đa thức của chúng ta
+
+00:46.527 --> 00:49.075
+vậy đây sẽ là n.
+
+00:49.075 --> 00:52.915
+x ở đây sẽ là giá trị x mà chúng ta sẽ dùng để tính sai số,
+
+00:52.915 --> 00:55.544
+trong trường hợp này x sẽ bằng 1,45.
+
+00:55.544 --> 00:58.343
+Và c sẽ là nơi mà đa thức Taylor của chúng ta sẽ lân cận.
+
+00:58.343 --> 00:59.905
+Nhưng mà M thì sao?
+
+00:59.905 --> 01:02.837
+Thì M sẽ là cận trên của giá trị tuyệt đối
+
+01:02.837 --> 01:06.120
+của đạo hàm thứ n cộng 1 của hàm số của mình
+
+01:06.120 --> 01:07.459
+Và nghe thì có vẻ khó,
+
+01:07.459 --> 01:09.262
+nhưng nó sẽ trở nên dễ hiểu hơn
+
+01:09.262 --> 01:12.208
+khi mà chúng ta đã thực sự giải ra bài toán.
+
+01:12.208 --> 01:14.813
+Vậy với bài toán này, chúng ta đang cố gắng
+
+01:14.813 --> 01:17.460
+ước lượng e mũ x.
+
+01:17.460 --> 01:21.255
+Vậy mình có thể viết f(x), để mình viết như thế này.
+
+01:21.255 --> 01:25.631
+Vậy cho nên f(x) sẽ bằng với e mũ x,
+
+01:25.631 --> 01:28.847
+và chúng ta đang cần ước lượng f(1,45).
+
+01:28.847 --> 01:31.949
+Và hãy để tìm ra được cận của chúng ta ở đây,
+
+01:31.949 --> 01:34.279
+để biết được M bằng mấy, hãy nhớ rằng
+
+01:34.279 --> 01:36.263
+đạo hàm bậc nhất của hàm số này
+
+01:36.263 --> 01:37.537
+sẽ là e mũ x,
+
+01:37.537 --> 01:39.614
+đạo hàm bậc 2 cũng là e mũ x,
+
+01:39.614 --> 01:41.355
+đạo hàm bậc n cũng vậy,
+
+01:41.355 --> 01:43.988
+đạo hàm bậc n cộng một cũng là e mũ x.
+
+01:43.988 --> 01:48.621
+Vậy cho nên đạo hàm bậc n cộng một của f
+
+01:48.621 --> 01:49.538
+sẽ bằng
+
+01:49.538 --> 01:52.924
+e mũ x, thật là tiện nhỉ.
+
+01:52.924 --> 01:55.439
+Những bài toán này sẽ rất rất khó
+
+01:55.439 --> 01:59.910
+nếu việc tìm cận cho đạo hàm bậc n cộng một khó.
+
+01:59.910 --> 02:03.218
+Thì chúng ta đã biết e mũ x
+
+02:03.218 --> 02:04.785
+và mình cũng có thể
+
+02:04.785 --> 02:08.219
+lấy trị tuyệt đối của cái này, nó sẽ trở nên dương,
+
+02:08.219 --> 02:10.500
+e mũ x sẽ bé hơn hoặc bằng
+
+02:10.500 --> 02:15.000
+hãy cho rằng nó sẽ bé hơn hoặc bằng e bình phương
+
+02:15.000 --> 02:16.917
+với mọi x lớn hơn 0 và
+
+02:16.917 --> 02:22.655
+bé hơn hoặc bằng 2.
+
+02:22.655 --> 02:25.771
+e mũ x sẽ không bị giới hạn
+
+02:25.771 --> 02:27.654
+trên cả miền xác định của nó.
+
+02:27.654 --> 02:29.013
+Nếu x tiến tới vô cực,
+
+02:29.013 --> 02:30.898
+e mũ x cũng sẽ tiến tới vô cực.
+
+02:30.898 --> 02:33.491
+Nhưng ở đây mình đang dựng một khoảng
+
+02:33.491 --> 02:36.315
+chứa điểm x mà mình đang quan tâm tới.
+
+02:36.315 --> 02:39.405
+Hãy nhớ rằng x mà mình đang quan tâm tới là 1,45
+
+02:39.405 --> 02:41.791
+và cận của mình cũng bao gồm cả nơi mà
+
+02:41.791 --> 02:44.190
+hàm số lân cận của mình tại x bằng 2.
+
+02:44.190 --> 02:47.889
+Vậy mình đã biết rằng hàm số bị giới hạn bởi e bình phương
+
+02:47.889 --> 02:50.374
+nên mình có thể sử dụng e bình phương
+
+02:50.374 --> 02:52.667
+như là M của mình.
+
+02:52.667 --> 02:55.355
+Mình có thể xác định cận này.
+
+02:55.355 --> 02:57.969
+Và bây giờ, mình có thể sử dụng thẳng
+
+02:57.969 --> 02:59.327
+cận sai số Lagrange.
+
+02:59.327 --> 03:01.587
+Chúng ta có thể nói phần dư của
+
+03:01.587 --> 03:03.355
+đa thức Taylor bậc n,
+
+03:03.355 --> 03:05.555
+mình muốn giải ra được n.
+
+03:05.555 --> 03:10.602
+Mình muốn biết giá trị nào của n sẽ cho chúng ta cận sai số
+
+03:10.602 --> 03:13.211
+thích hợp tại x bằng 1,45.
+
+03:13.211 --> 03:17.447
+Khi x bằng 1,45 thì hàm số sẽ bé hơn hoặc bằng
+
+03:17.447 --> 03:21.192
+giá trị tuyệt đối, vậy M của mình sẽ bằng
+
+03:21.192 --> 03:23.262
+e bình phương chia cho
+
+03:23.262 --> 03:29.911
+n cộng một giai thừa nhân với
+
+03:29.911 --> 03:32.039
+1,45, là giá trị x mà mình quan tâm,
+
+03:32.039 --> 03:33.926
+đó là nơi mà mình muốn tính
+
+03:33.926 --> 03:35.287
+cận sai số xung quanh,
+
+03:35.287 --> 03:37.016
+và trừ cho nơi mình đang lân cận,
+
+03:37.016 --> 03:40.616
+trừ cho 2 mũ tất cả n cộng một.
+
+03:40.616 --> 03:43.879
+Bây giờ 1,45 trừ 2
+
+03:43.879 --> 03:46.214
+sẽ bằng với trừ 0,55.
+
+03:46.214 --> 03:47.815
+Hãy để mình viết nó.
+
+03:47.815 --> 03:49.658
+Vậy cái này sẽ là
+
+03:49.658 --> 03:53.572
+trừ 0,55
+
+03:53.572 --> 03:56.095
+mũ n cộng một.
+
+03:56.095 --> 03:59.929
+Và chúng ta muốn giải xem giá trị nào của n thì
+
+03:59.929 --> 04:04.732
+cả phần này đây sẽ bé hơn 0,001.
+
+04:04.732 --> 04:07.941
+Hãy biến đổi số học một chút nhé.
+
+04:07.941 --> 04:11.054
+Đơn thức này sẽ dương, đơn thức này cũng sẽ dương.
+
+04:11.054 --> 04:12.295
+Phần này ở đây
+
+04:12.295 --> 04:14.215
+không phải là số hạng riêng biệt,
+
+04:14.215 --> 04:16.253
+nhưng mà e bình phương sẽ dương.
+
+04:16.253 --> 04:18.173
+n cộng 1 giai thừa cũng sẽ dương,
+
+04:18.173 --> 04:20.621
+số trừ 0,55 này mũ một số nào đó,
+
+04:20.621 --> 04:23.225
+thì sẽ liên tục thay đổi giữa dương và âm.
+
+04:23.225 --> 04:25.722
+Nhưng bởi vì chúng ta đang lấy trị tuyệt đối,
+
+04:25.722 --> 04:27.730
+chúng ta có thể viết nó như sau.
+
+04:27.730 --> 04:30.385
+Chúng ta có thể viết nó là e bình,
+
+04:30.385 --> 04:34.983
+vì chúng ta đang lấy giá trị tuyệt đối, nhân với 0,55
+
+04:34.983 --> 04:40.837
+mũ n cộng 1 chia cho n cộng 1 giai thừa
+
+04:40.837 --> 04:46.277
+phải bé hơn 0,001.
+
+04:46.277 --> 04:50.146
+Hoặc là, vì chúng ta muốn giải ra n,
+
+04:50.146 --> 04:52.790
+hãy chia cả hai vế cho e bình phương.
+
+04:52.790 --> 04:55.707
+Vậy nên chúng ta có thể viết là
+
+04:55.707 --> 05:00.073
+hãy tìm n sao cho 0,55
+
+05:00.073 --> 05:02.950
+mũ n cộng một
+
+05:02.950 --> 05:07.072
+chia cho n cộng một giai thừa
+
+05:07.072 --> 05:09.164
+bé hơn
+
+05:09.164 --> 05:13.020
+0,001
+
+05:13.020 --> 05:16.904
+chia cho e bình phương.
+
+05:16.904 --> 05:19.989
+Bây giờ để tính thử cái này, mình sẽ dùng máy tính.
+
+05:19.989 --> 05:22.711
+Từ đây mình chỉ đang lấy n càng ngày càng lớn
+
+05:22.711 --> 05:26.178
+cho tới khi chúng ta ra được giá trị n thỏa mãn yêu cầu.
+
+05:26.178 --> 05:29.176
+Và chúng ta đang muốn tìm giá trị nhỏ nhất của n để
+
+05:29.176 --> 05:30.306
+thỏa mãn yêu cầu.
+
+05:30.306 --> 05:32.905
+Hãy lấy máy tính ra để mình có thể
+
+05:32.905 --> 05:35.371
+giải được đáp án bài này nhé.
+
+05:35.371 --> 05:37.112
+Thì đầu tiên mình sẽ thử tính xem
+
+05:37.112 --> 05:40.454
+1/1000 chia cho e bình phương là bao nhiêu.
+
+05:40.454 --> 05:42.835
+Nhớ xóa cái này.
+
+05:42.835 --> 05:44.895
+Hãy lấy e bình phương
+
+05:44.895 --> 05:46.931
+và lấy nghịch đảo của nó,
+
+05:46.931 --> 05:49.215
+và rồi nhân nó cho 1/1000.
+
+05:49.215 --> 05:56.382
+Vậy nhân với 0,001 sẽ bằng với
+
+05:56.382 --> 06:01.056
+vậy nó sẽ có ba số không, đây sẽ là hàng phần mười nghìn,
+
+06:01.056 --> 06:02.239
+và sau đó là 35.
+
+06:02.239 --> 06:05.166
+Vậy mình sẽ có ba số không, và mình sẽ lấy 136.
+
+06:05.166 --> 06:11.131
+Như vậy là phần này sẽ phải bé hơn 0, 1 2 3 số 0
+
+06:11.131 --> 06:13.216
+và sau đó là 136.
+
+06:13.216 --> 06:16.693
+Nếu mình có thể tìm một n để phần này bé hơn số này,
+
+06:16.693 --> 06:19.443
+vậy thì mình sẽ tới đúng đáp án.
+
+06:19.443 --> 06:22.454
+Mình sẽ muốn phần này bé hơn 135.
+
+06:22.454 --> 06:25.120
+thì đáp án sẽ đúng.
+
+06:25.120 --> 06:27.712
+Cái này sẽ lớn hơn 135 một tí,
+
+06:27.712 --> 06:31.347
+nhưng nếu mình có thể tìm một n để phần này bé hơn số này,
+
+06:31.347 --> 06:33.063
+thì đáp án sẽ đúng.
+
+06:33.063 --> 06:37.976
+Vậy hãy để mình viết như này, 0,55 mũ n cộng 1
+
+06:37.976 --> 06:40.995
+chia cho n cộng 1 giai thừa.
+
+06:40.995 --> 06:43.116
+Hãy thử một vài giá trị n nhé.
+
+06:43.116 --> 06:45.748
+Mình sẽ phải lấy máy tính ra.
+
+06:45.748 --> 06:48.064
+Hãy xem nào, mình đã ghi đúng chưa?
+
+06:48.064 --> 06:50.039
+Đúng rồi, 0,000135.
+
+06:50.039 --> 06:54.396
+Nếu mình kiếm được giá trị nào bé hơn cái này thì mình đã ra đáp án
+
+06:54.396 --> 06:57.467
+bởi vì số này sẽ còn bé hơn phần này.
+
+06:57.467 --> 06:59.257
+Được rồi, hãy tính nào.
+
+06:59.257 --> 07:01.316
+Hãy xem xem phần này sẽ bằng gì
+
+07:01.316 --> 07:03.576
+khi mà n bằng 2.
+
+07:03.576 --> 07:07.094
+Mình có thể bắt đầu tại n bằng 1, n bằng 2, hoặc n bằng 3,
+
+07:07.094 --> 07:09.262
+nhưng nếu n bằng 2 thỏa điều kiện,
+
+07:09.262 --> 07:11.310
+thì mình sẽ thử n bằng 1.
+
+07:11.310 --> 07:13.982
+Nhưng nếu n bằng 2 chưa thỏa điều kiện,
+
+07:13.982 --> 07:16.247
+mình sẽ thử tiếp n bằng 3 hoặc n bằng 4.
+
+07:16.247 --> 07:17.418
+Vậy hãy bắt đầu với
+
+07:17.418 --> 07:19.233
+thôi thật ra hãy bắt đầu với n bằng 3.
+
+07:19.233 --> 07:22.573
+Nếu n bằng 3, phần này sẽ là 0,55 mũ 4
+
+07:22.573 --> 07:24.112
+chia cho 4 giai thừa.
+
+07:24.112 --> 07:25.816
+Hãy làm thế nhé.
+
+07:25.816 --> 07:28.945
+Vậy là 0,55
+
+07:28.945 --> 07:34.350
+mũ 4 sẽ bằng nhiêu đây
+
+07:34.350 --> 07:37.079
+chia 4 giai thừa,
+
+07:37.079 --> 07:41.951
+thì cũng sẽ bằng chia cho 24.
+
+07:41.951 --> 07:45.878
+Ồ kết quả còn không đủ thấp nữa,
+
+07:45.878 --> 07:47.993
+nên hãy thử n bằng 4.
+
+07:47.993 --> 07:50.917
+Nếu n bằng 4, thì cái này sẽ bằng 0,55 mũ 5
+
+07:50.917 --> 07:52.942
+chia cho 5 giai thừa.
+
+07:52.942 --> 07:56.638
+Vậy sẽ là 0,55
+
+07:56.638 --> 07:59.862
+mũ 5 bằng nhiêu đây,
+
+07:59.862 --> 08:02.584
+và sau đó chia cho 5 giai thừa,
+
+08:02.584 --> 08:04.963
+cũng là chia cho 120,
+
+08:04.963 --> 08:08.744
+và sẽ bằng nhiêu đó.
+
+08:08.744 --> 08:11.924
+Với n bằng bốn thì mình đã gần tới rồi.
+
+08:11.924 --> 08:14.603
+Mình đoán là n bằng năm sẽ đúng đó.
+
+08:14.603 --> 08:18.227
+Vậy với n bằng năm, để mình xóa cái này.
+
+08:18.227 --> 08:21.331
+Với n bằng năm thì mình sẽ mũ sáu,
+
+08:21.331 --> 08:23.498
+và chia cho sáu giai thừa.
+
+08:23.498 --> 08:24.797
+Hãy nhớ lại xem,
+
+08:24.797 --> 08:27.791
+sáu giai thừa sẽ là 720.
+
+08:27.791 --> 08:31.238
+Được rồi, hãy xem nào.
+
+08:31.238 --> 08:35.729
+Chúng ta đang có 0,55 mũ, hãy nhớ rằng n bằng 5,
+
+08:35.729 --> 08:37.596
+nên 0,55 sẽ mũ 6,
+
+08:37.596 --> 08:39.601
+mũ 6,
+
+08:39.601 --> 08:42.084
+và chúng ta sẽ chia cho 720,
+
+08:42.084 --> 08:45.605
+chia cho 720 sẽ bằng nhiêu đây
+
+08:45.605 --> 08:47.535
+và số này chắc chắn
+
+08:47.535 --> 08:49.831
+là sẽ bé hơn số này ở đây.
+
+08:49.831 --> 08:52.985
+Chúng ta đã có 4 số 0 đúng trước số 3 ở sau dấu phẩy,
+
+08:52.985 --> 08:54.996
+ở đây thì chỉ có 3 số 0 thôi.
+
+08:54.996 --> 08:59.205
+Vậy nên khi n bằng 5 thì giá trị này sẽ đủ thấp,
+
+08:59.205 --> 09:02.242
+phần dư này sẽ đủ thấp,
+
+09:02.242 --> 09:04.942
+và nó sẽ bé hơn giá trị này ở ngay đây.
+
+09:04.942 --> 09:07.934
+Vậy nên là, đa thức bậc thấp nhất
+
+09:07.934 --> 09:12.255
+để sai số nhỏ hơn 1/1000 là bao nhiêu?
+
+09:12.255 --> 09:16.239
+Đáp án sẽ là 5, giá trị n của chúng ta,
+
+09:16.239 --> 09:18.877
+sai số chắc chắn sẽ nhỏ hơn cái này.

@@ -1,0 +1,277 @@
+WEBVTT
+
+00:00.060 --> 00:05.060
+Wir sollen die Summe der
+ersten 50 Terme dieser Reihe finden.
+
+00:05.060 --> 00:06.537
+Du erkennst vielleicht sofort,
+
+00:06.537 --> 00:08.118
+dass es sich um eine geometrische Reihe handelt.
+
+00:08.120 --> 00:10.900
+Was machen wir, wenn wir von
+einem Term zum nächsten gehen?
+
+00:10.900 --> 00:13.040
+Wir multiplizieren mit 10/11.
+
+00:13.040 --> 00:17.798
+Um von 1 zu 10/11 zu kommen,
+multiplizieren wir mit 10/11.
+
+00:17.800 --> 00:23.260
+Dann multiplizieren wir wieder mit 10/11,
+
+00:23.260 --> 00:24.260
+und machen immer so weiter.
+
+00:24.265 --> 00:26.908
+Wir wollen die ersten 50 Terme hiervon finden.
+
+00:26.908 --> 00:33.400
+Wir können also unsere Formel für die Summe
+einer endlichen geometrischen Reihe anwenden,
+
+00:33.400 --> 00:40.060
+und in diesem Fall erhalten wir als
+Ergebnis die Summe der ersten 50 Terme.
+
+00:40.060 --> 00:50.540
+Die Summe der ersten 50 Terme besteht
+aus unserem ersten Term, nämlich 1,
+
+00:50.540 --> 01:08.020
+also haben wir 1 ⋅ (1 - (10/11)^50),
+wobei 10/11 unser Quotient ist.
+
+01:08.020 --> 01:10.900
+Unser Exponent 50 ist die Anzahl unserer Terme.
+
+01:10.900 --> 01:15.220
+Und dieser Ausdruck wird durch (1 - 10/11) geteilt.
+
+01:15.220 --> 01:18.240
+Ich werde das nicht komplett ausrechnen,
+
+01:18.240 --> 01:20.100
+aber wir können etwas vereinfachen.
+
+01:20.100 --> 01:40.460
+Das ergibt (1 - (10/11)^50) / (1/11).
+
+01:40.460 --> 01:49.780
+Das können wir auch als 11⋅ (1 - (10/11)^50) schreiben.
+
+01:49.780 --> 01:52.000
+Wir könnten noch weiter vereinfachen,
+
+01:52.000 --> 01:55.460
+aber das reicht eigentlich schon.
+
+01:55.460 --> 01:58.520
+Kommen wir zu einem weiteren Beispiel.
+
+01:58.520 --> 02:03.240
+Hier ist sehr eindeutig, dass es sich
+um eine geometrische Reihe handelt.
+
+02:03.240 --> 02:06.100
+Zuerst überlegen wir, von wie vielen
+Termen wir die Summe nehmen.
+
+02:06.100 --> 02:10.440
+Du denkst vielleicht, dass wir 79 Terme
+haben müssen, da wir 79 als Exponenten haben,
+
+02:10.440 --> 02:12.080
+aber du musst sehr vorsichtig sein,
+
+02:12.080 --> 02:17.320
+da wir bei dem ersten Term den
+Exponenten 0, also 0,99^0 haben.
+
+02:17.320 --> 02:21.140
+Beim zweiten Term haben wir 1 als Exponenten,
+
+02:21.146 --> 02:23.325
+beim dritten Term haben wir 2 als Exponenten,
+
+02:23.325 --> 02:27.160
+beim vierten Term haben wir 3 als Exponenten,
+
+02:27.160 --> 02:28.320
+und immer so weiter.
+
+02:28.320 --> 02:35.520
+Das hier drüben ist also der achzigste Term.
+
+02:35.520 --> 02:41.520
+Wir wollen also S_80 finden.
+
+02:41.520 --> 02:54.200
+Unser erster Term ist also
+1 ⋅ (1 - unserem Quotienten^80).
+
+02:54.200 --> 02:58.100
+Ich lasse hier eine Lücke, da wir unseren
+Quotienten noch herausfinden müssen.
+
+02:58.100 --> 03:00.840
+Im Nenner haben wir (1 - unserem Quotienten).
+
+03:00.840 --> 03:04.880
+Du denkst vielleicht, dass der Quotient 0,99 ist,
+
+03:04.880 --> 03:08.320
+aber achte darauf, dass wir hier
+einen Vorzeichenwechsel haben.
+
+03:08.320 --> 03:09.380
+Wir müssen uns also fragen:
+
+03:09.380 --> 03:12.380
+Mit was müssen wir multiplizieren, um von
+einem Term zum nächsten zu kommen?
+
+03:12.380 --> 03:15.820
+Um vom ersten zum zweiten Term zu kommen,
+
+03:15.820 --> 03:20.140
+multiplizieren wir mit -0,99.
+
+03:20.140 --> 03:24.340
+Wir multiplizieren also mit -0,99.
+
+03:24.340 --> 03:25.680
+Um zum nächsten Term zu kommen,
+
+03:25.680 --> 03:30.720
+multiplizieren wir wieder mit -0,99.
+
+03:30.720 --> 03:45.860
+Unser Quotient ist also nicht 0,99, sondern -0,99.
+
+03:45.860 --> 03:49.200
+Im Exponenten haben wir 80,
+
+03:49.200 --> 03:56.600
+und im Nenner haben wir 1 - - 0,99.
+
+03:56.600 --> 03:59.120
+Wir können das etwas vereinfachen.
+
+03:59.120 --> 04:04.500
+Diese 1 können wir wegstreichen.
+
+04:04.500 --> 04:10.900
+Ich schreibe also 1 -,
+
+04:10.900 --> 04:12.420
+und zeichne hier kurz Klammern ein,
+
+04:12.420 --> 04:17.420
+damit deutlich wird, dass wir -0,99 mit 80 potenzieren.
+
+04:17.420 --> 04:20.340
+Wir haben einen geraden Exponenten,
+also haben wir ein positives Ergebnis.
+
+04:20.340 --> 04:27.060
+Das ist also dasselbe wie 0,99^80.
+
+04:27.060 --> 04:30.420
+Und im Nenner subtrahieren wir etwas Negatives,
+
+04:30.420 --> 04:32.860
+was dasselbe ist, wie das Positive davon zu addieren.
+
+04:32.860 --> 04:36.680
+Also haben wir 1,99 im Nenner.
+
+04:36.680 --> 04:39.600
+Und wir könnten noch weiter vereinfachen,
+
+04:39.600 --> 04:44.060
+mit einem Taschenrechner könnten wir
+einen ungefähren Wert hierfür herausfinden,
+
+04:44.060 --> 04:49.020
+da die meisten Taschenrechner keinen exakten
+Wert ausgeben, wenn man 80 als Exponenten hat,
+
+04:49.020 --> 04:52.580
+aber das ist das Ergebnis dieser Summe.
+
+04:52.580 --> 04:54.980
+Kommen wir zu einem weiteren Beispiel.
+
+04:54.980 --> 04:58.400
+Hier haben wir eine rekursiv definierte Reihe.
+
+04:58.400 --> 05:00.860
+Es ist hilfreich, darüber nachzudenken,
+
+05:00.860 --> 05:02.440
+wie sie eigentlich aussieht.
+
+05:02.440 --> 05:05.240
+Der erste Term ist 10,
+
+05:05.240 --> 05:14.200
+und der zweite Term a_2 = a_1 ⋅ 9/10.
+
+05:14.200 --> 05:16.700
+Der nächste Term besteht also aus dem
+vorherigen Term multipliziert mit 9/10,
+
+05:16.700 --> 05:19.560
+also haben wir 10 ⋅ 9/10.
+
+05:19.560 --> 05:25.760
+Und der dritte Term ist der
+zweite Term multipliziert mit 9/10.
+
+05:25.760 --> 05:31.060
+Also haben wir 10 ⋅ 9/10^2.
+
+05:31.060 --> 05:36.600
+Momentan haben wir diese Reihe nicht als
+endliche geometrische Reihe geschrieben,
+
+05:36.600 --> 05:51.120
+was ist also unser Ergebnis, wenn wir
+die Summe der ersten 30 Terme nehmen?
+
+05:51.120 --> 05:59.680
+Wir nehmen S_30, also die Summe der ersten 30 Terme,
+
+05:59.680 --> 06:13.540
+und dann haben wir den ersten
+Term multipliziert mit (1 - (9/10^30)),
+
+06:13.540 --> 06:18.860
+und im Nenner haben wir 1 - dem Quotienten, also 9/10.
+
+06:18.860 --> 06:22.840
+1 - 9/10 ergibt 1/10,
+
+06:22.840 --> 06:23.980
+dann dividieren wir durch 1/10,
+
+06:23.980 --> 06:26.100
+was dasselbe ist, wie mit 100 zu multiplizieren,
+
+06:26.100 --> 06:37.680
+das ist also 100 ⋅ (1 - (9/10)^30).
+
+06:37.680 --> 06:45.900
+Die Klammern sind wichtig, damit wir sehen,
+dass wir den gesamten Bruch 9/10 mit 30 potenzieren,
+
+06:45.900 --> 06:51.840
+und nicht nur die 9.
+
+06:51.840 --> 06:53.880
+Jetzt sind wir fertig.

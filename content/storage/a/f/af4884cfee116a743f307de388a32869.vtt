@@ -1,0 +1,631 @@
+WEBVTT
+
+00:00.515 --> 00:01.976
+Vamos pensar um pouco sobre
+
+00:01.976 --> 00:06.961
+modelagem de populações
+e essas imagens aqui
+
+00:06.961 --> 00:09.013
+são dos mais conhecidos,
+
+00:09.013 --> 00:10.785
+na verdade, esse cavalheiro aqui deve
+
+00:10.785 --> 00:14.527
+ser a pessoa mais conhecida quando
+as pessoas pensam sobre
+
+00:14.527 --> 00:17.537
+população e os limites de
+crescimento da população.
+
+00:17.537 --> 00:19.439
+Esse é Thomas Malthus.
+
+00:19.439 --> 00:26.039
+Ele era um clérigo britânico,
+escritor e estudioso
+
+00:26.045 --> 00:29.312
+no final dos anos 1700,
+no final do século 18,
+
+00:29.357 --> 00:31.002
+início do século 19.
+
+00:31.002 --> 00:32.585
+Ele mudou bastante a noção
+
+00:32.585 --> 00:35.483
+que a população cresceria indefinidamente
+
+00:35.483 --> 00:37.479
+e que seríamos capazes de nos alimentarmos
+
+00:37.479 --> 00:38.901
+através da tecnologia,
+
+00:38.901 --> 00:40.972
+e que na verdade, o
+meio ambiente colocaria
+
+00:40.972 --> 00:44.285
+limites na quantidade ou
+
+00:44.285 --> 00:46.307
+onde uma população poderia crescer.
+
+00:47.055 --> 00:49.681
+P.F. Verhulst e estou certo que
+
+00:49.686 --> 00:51.489
+estou pronunciando
+errado o nome dele.
+
+00:51.489 --> 00:56.922
+Era uma matemático belga
+que leu o trabalho de Malthus
+
+00:56.922 --> 00:59.648
+e tentou modelar o comportamento
+
+00:59.648 --> 01:01.600
+que Malthus falava.
+
+01:01.612 --> 01:04.193
+Ok, quando não há limites
+do meio ambiente,
+
+01:04.193 --> 01:06.922
+talvez a população possa
+crescer exponencialmente,
+
+01:06.922 --> 01:11.408
+mas quando ela aproxima um determinado
+limite estabelecido pelo meio ambiente
+
+01:11.408 --> 01:13.143
+teremos essencialmente uma assíntota
+
+01:13.143 --> 01:16.518
+sobre algum tipo de população.
+
+01:16.518 --> 01:18.403
+Malthus não pensava ser uma
+
+01:18.403 --> 01:19.981
+assíntota certeira.
+
+01:19.981 --> 01:23.719
+Ele achava que a população ultrapassaria
+o limite e teríamos catástrofes.
+
+01:23.719 --> 01:25.556
+Assim, voltaríamos
+para baixo do limite
+
+01:25.556 --> 01:30.697
+e nós meio que oscilaríamos em torno
+do limite através catástrofes.
+
+01:30.697 --> 01:34.536
+Podemos ver que Malthus
+era bastante otimista,
+
+01:34.536 --> 01:36.704
+mas vamos para a matemática
+
+01:36.704 --> 01:38.936
+e para as equações diferenciais.
+
+01:38.936 --> 01:40.922
+Essas equações sobre populações não são
+
+01:40.922 --> 01:44.452
+equações extremamente complicadas para
+se pensar a respeito de populações.
+
+01:44.452 --> 01:46.525
+Primeiro devemos pensar
+sobre populações e
+
+01:46.525 --> 01:48.619
+então expressá-las em
+equações diferenciais.
+
+01:48.619 --> 01:50.973
+Antes, vou definir algumas variáveis.
+
+01:50.973 --> 01:53.241
+Digamos que N é a nossa população,
+
+01:53.241 --> 01:55.445
+esta é nossa população,
+
+01:56.691 --> 02:00.139
+e vamos assumir que N é uma função de t.
+
+02:01.000 --> 02:03.113
+N como função de t
+
+02:03.113 --> 02:05.185
+é que pensaremos sobre nesse e
+
+02:05.185 --> 02:07.659
+nos próximos vídeos.
+
+02:08.643 --> 02:10.729
+Uma forma de pensar em como modelar isso
+
+02:10.729 --> 02:13.855
+é imaginar qual a taxa de variação
+
+02:13.855 --> 02:15.529
+da população em função do tempo?
+
+02:15.529 --> 02:17.033
+Como se relaciona com o resto?
+
+02:17.096 --> 02:20.681
+Poderíamos pensar, qual
+seria a taxa de variação
+
+02:20.715 --> 02:23.229
+da população em função do tempo?
+
+02:23.908 --> 02:25.903
+&lt;i>dN&lt;/i>&lt;i>dt&lt;/i>.
+
+02:25.903 --> 02:27.547
+Uma forma de pensar é que
+
+02:27.547 --> 02:30.098
+será proporcional à população.
+
+02:30.098 --> 02:32.875
+Talvez isso aqui seja
+
+02:32.875 --> 02:34.992
+uma constante de proporcionalidade,
+
+02:34.992 --> 02:36.667
+vezes a população,
+
+02:36.677 --> 02:38.958
+vezes a própria população.
+
+02:39.021 --> 02:43.772
+Isso faz sentido. Se a
+população for pequena,
+
+02:43.772 --> 02:48.945
+não teremos tanta variação
+por unidade de tempo
+
+02:48.945 --> 02:50.976
+como teremos se a população for maior.
+
+02:50.976 --> 02:54.159
+Quanto maior a população, maior será
+
+02:54.159 --> 02:57.045
+o crescimento em uma determinada
+unidade de tempo.
+
+02:57.055 --> 03:00.612
+Essa é uma equação diferencial
+bem simples de ser resolvida,
+
+03:00.612 --> 03:02.045
+e talvez já tenha feito antes.
+
+03:02.045 --> 03:04.908
+Eu o encorajo a pausar o vídeo se
+você se sentir inspirado,
+
+03:04.908 --> 03:06.226
+mas vou resolvê-la aqui
+
+03:06.226 --> 03:12.077
+e você vai ver que teremos uma
+função exponencial de N aqui,
+
+03:12.077 --> 03:13.172
+então vamos resolver.
+
+03:13.172 --> 03:14.131
+Para resolver isso,
+
+03:14.131 --> 03:18.034
+temos que separar as variáveis,
+separar os N's dos t's
+
+03:18.034 --> 03:19.975
+embora só vemos &lt;i>dt&lt;/i> aqui,
+
+03:19.975 --> 03:21.043
+mas farei em breve.
+
+03:21.043 --> 03:23.680
+Se eu dividir ambos os lados por &lt;i>N&lt;/i>.
+
+03:23.068 --> 03:29.398
+Terei um sobre &lt;i>N&lt;/i> e se eu
+multiplicar os dois lados por dt
+
+03:29.413 --> 03:31.186
+se pensarmos em &lt;i>dt&lt;/i> como sendo algo
+
+03:31.186 --> 03:32.777
+que podemos multiplicar.
+
+03:32.793 --> 03:34.572
+Multiplicarei ambos os lados
+
+03:34.572 --> 03:36.203
+ou dividirei ambos os lados por &lt;i>N&lt;/i>,
+
+03:36.203 --> 03:38.038
+e multiplicarei ambos os lados por &lt;i>dt&lt;/i>.
+
+03:38.038 --> 03:39.377
+Terei um sobre &lt;i>N&lt;/i>,
+
+03:39.377 --> 03:41.328
+&lt;i>dN&lt;/i> no lado esquerdo
+
+03:41.328 --> 03:49.722
+e no lado direito, terei &lt;i>R&lt;/i> vezes &lt;i>dt&lt;/i>.
+
+03:49.742 --> 03:53.371
+Perceba que tenho &lt;i>dt&lt;/i> no lado direito
+multiplicando ambos os lados
+
+03:53.371 --> 03:55.338
+depois dividi os dois lados por N
+
+03:55.338 --> 03:57.012
+e tive um sobre N aqui.
+
+03:57.842 --> 04:02.842
+Agora o que podemos fazer,
+é calcular a antiderivada
+
+04:02.872 --> 04:05.041
+de ambos os lados.
+
+04:05.072 --> 04:09.368
+Podemos pegar a antiderivada
+de ambos os lados
+
+04:09.476 --> 04:11.357
+e o que teremos no lado esquerdo?
+
+04:11.357 --> 04:15.692
+Isso vai ser o logaritmo natural
+
+04:15.692 --> 04:19.442
+do valor absoluto da nossa população
+
+04:19.442 --> 04:24.647
+e se assumirmos que a população
+será sempre diferente de zero
+
+04:24.647 --> 04:27.335
+podemos tirar esses módulos daqui,
+
+04:27.335 --> 04:28.707
+mas farei isso breve.
+
+04:28.707 --> 04:36.116
+Isso vai ser igual a &lt;i>r&lt;/i> vezes &lt;i>t&lt;/i>,
+
+04:36.116 --> 04:39.637
+e poderíamos ter colocado a constante
+aqui, mas vou colocar só em um lado.
+
+04:39.637 --> 04:44.958
+Vai ser &lt;i>r&lt;/i> vezes &lt;i>t&lt;/i> mais &lt;i>c&lt;/i>.
+
+04:45.581 --> 04:48.192
+Agora, se queremos resolver para &lt;i>N&lt;/i>,
+
+04:48.192 --> 04:50.035
+podemos pegar...
+
+04:50.035 --> 04:52.718
+Se isso é igual a isso, então &lt;i>e&lt;/i>
+elevado a esta potência
+
+04:52.718 --> 04:55.303
+deveria ser o mesmo que &lt;i>e&lt;/i>
+elevado a esta potência
+
+04:55.303 --> 04:56.879
+Ou outra forma de pensar sobre
+
+04:56.879 --> 04:59.846
+&lt;i>e&lt;/i>, o logaritmo natural de N igual a isto
+
+04:59.868 --> 05:02.934
+é outra forma de dizer que &lt;i>e&lt;/i> elevado
+a isto, é igual a aquilo.
+
+05:02.934 --> 05:04.593
+Bem, vamos fazer desse jeito.
+
+05:04.593 --> 05:12.598
+Vamos pegar &lt;i>e&lt;/i> elevado a esta potência
+e e elevado a aquela potência.
+
+05:12.598 --> 05:16.261
+Se ambos são iguais, então &lt;i>e&lt;/i> nessa
+potência será igual a e naquela potência.
+
+05:16.261 --> 05:22.261
+Então nos sobrará &lt;i>e&lt;/i> elevado a logaritmo
+natural de módulo de N.
+
+05:22.293 --> 05:24.346
+Isso vai nos dar o valor absoluto de &lt;i>N&lt;/i>.
+
+05:24.346 --> 05:27.541
+Assumindo que &lt;i>N&lt;/i> seja positivo,
+
+05:27.541 --> 05:34.071
+assumindo que a população
+seja maior que zero.
+
+05:34.081 --> 05:39.081
+Então podemos resolver
+esse lado esquerdo aqui
+
+05:39.135 --> 05:41.451
+vamos simplificar para &lt;i>N&lt;/i>
+
+05:41.475 --> 05:44.153
+e o lado direito vai ser...
+
+05:44.195 --> 05:47.514
+bem, poderia ser &lt;i>e&lt;/i> elevado a &lt;i>rt&lt;/i> mais &lt;i>c&lt;/i>,
+
+05:47.514 --> 05:49.663
+ou isso é a mesma coisa.
+
+05:50.155 --> 05:54.433
+Isso aqui vai ser a mesma coisa que
+
+05:54.433 --> 06:04.535
+&lt;i>e&lt;/i> elevado a &lt;i>rt&lt;/i> vezes
+
+06:04.596 --> 06:06.912
+-- deixa eu fazer esse &lt;i>e&lt;/i> da mesma cor --
+
+06:06.912 --> 06:13.854
+&lt;i>e&lt;/i> na &lt;i>rt&lt;/i> vezes &lt;i>e&lt;/i> na &lt;i>c&lt;/i>.
+
+06:13.854 --> 06:16.703
+Certo? Estou pegando &lt;i>e&lt;/i> da soma
+desses expoentes.
+
+06:16.703 --> 06:19.466
+Vai ser &lt;i>E&lt;/i> elevado a &lt;i>Rt&lt;/i>,
+vezes E elevado a c,
+
+06:19.482 --> 06:22.246
+se quisermos, podemos dizer que
+
+06:22.282 --> 06:23.984
+isso vai ser alguma
+
+06:23.984 --> 06:25.649
+constante arbitrária aqui.
+
+06:25.649 --> 06:28.575
+Então vamos chamar isso de &lt;i>C&lt;/i>.
+
+06:28.609 --> 06:30.086
+Temos &lt;i>E&lt;/i> elevado a &lt;i>Rt&lt;/i> vezes &lt;i>C&lt;/i>,
+
+06:30.086 --> 06:42.646
+ou poderíamos dizer
+C vezes E elevado a Rt.
+
+06:42.676 --> 06:45.181
+Perceba que resolvemos
+a equação diferencial.
+
+06:45.181 --> 06:47.443
+Ainda não chegamos nessa realidade
+
+06:47.443 --> 06:49.558
+pessimista de Malthus, onde vamos
+
+06:49.558 --> 06:50.289
+limitar isso.
+
+06:50.289 --> 06:52.424
+Isso seria apenas o que assumimos que a
+
+06:52.424 --> 06:53.325
+população seria...
+
+06:53.325 --> 06:55.523
+A taxa de variação da população pelo tempo
+
+06:55.523 --> 06:57.988
+vai ser proporcional a população.
+
+06:57.988 --> 06:59.985
+Quando resolvemos a equação diferencial,
+
+06:59.985 --> 07:01.794
+temos a população como função de &lt;i>t&lt;/i>.
+
+07:01.794 --> 07:03.477
+Vou deixar mais explícito
+
+07:03.477 --> 07:05.030
+que isso é uma função do tempo.
+
+07:05.003 --> 07:09.401
+Vou mover &lt;i>N&lt;/i> um pouquinho, para que
+
+07:09.428 --> 07:10.864
+eu possa escrever desse jeito.
+
+07:10.864 --> 07:17.224
+N de &lt;i>t&lt;/i> vai ser igual a isso.
+
+07:17.261 --> 07:20.797
+Essa foi a nossa solução
+da equação diferencial.
+
+07:20.797 --> 07:23.122
+De novo, isso vai crescer para sempre
+
+07:23.122 --> 07:24.499
+e se soubermos as condições
+
+07:24.499 --> 07:31.389
+iniciais, se soubermos por
+exemplo que N de zero,
+
+07:31.389 --> 07:32.743
+quando &lt;i>t&lt;/i> é zero.
+
+07:32.743 --> 07:34.485
+Digamos que seja &lt;i>N&lt;/i> zero
+
+07:34.485 --> 07:36.006
+quanto seria &lt;i>C&lt;/i>?
+
+07:36.021 --> 07:40.698
+Bem, &lt;i>N&lt;/i> de zero seria igual a &lt;i>C&lt;/i>.
+
+07:41.559 --> 07:44.540
+&lt;i>C&lt;/i> vezes &lt;i>E&lt;/i> elevado a zero.
+
+07:44.054 --> 07:45.582
+Sabemos que potência zero é
+
+07:45.582 --> 07:47.041
+apenas um, então temos
+
+07:47.041 --> 07:51.239
+&lt;i>C&lt;/i> igual a &lt;i>N&lt;/i> zero.
+
+07:51.239 --> 07:52.606
+Podemos até escrever isso,
+
+07:52.606 --> 07:55.118
+que a solução pra essa coisa aqui
+
+07:55.118 --> 08:00.118
+vai, ser &lt;i>N&lt;/i> como função de &lt;i>t&lt;/i>,
+
+08:00.034 --> 08:03.947
+vai ser &lt;i>C&lt;/i> vezes...
+
+08:04.253 --> 08:08.484
+Cuidado, &lt;i>N&lt;/i> zero, nossa população inicial,
+
+08:08.484 --> 08:15.894
+vezes &lt;i>E&lt;/i> elevado a &lt;i>Rt&lt;/i>.
+
+08:15.937 --> 08:18.273
+De novo, isso é uma exponencial.
+
+08:18.273 --> 08:20.514
+Nossa população ficaria assim,
+
+08:20.514 --> 08:24.625
+se fôssemos desenhar.
+
+08:25.563 --> 08:27.116
+Esse é meu eixo &lt;i>t&lt;/i>,
+
+08:27.116 --> 08:30.037
+esse é meu eixo &lt;i>N&lt;/i>.
+
+08:30.037 --> 08:32.453
+Poderia dizer y igual ao eixo &lt;i>N&lt;/i>,
+
+08:32.453 --> 08:35.955
+mas quero mostrar isso.
+
+08:35.955 --> 08:37.538
+Aqui seria &lt;i>N&lt;/i> zero
+
+08:37.538 --> 08:40.443
+e isso vai crescer de forma
+exponencial a partir daqui.
+
+08:40.443 --> 08:42.334
+A taxa dessa função
+
+08:42.354 --> 08:45.366
+vai ser ditada por essa constante aqui,
+
+08:45.366 --> 08:46.674
+mas vai ser algo assim
+
+08:46.674 --> 08:48.681
+e vai crescer cada vez mais rápido
+
+08:48.744 --> 08:50.273
+e para sempre.
+
+08:50.273 --> 08:52.596
+Como mencionei no início do vídeo,
+
+08:52.596 --> 08:55.988
+Malthus não acredita
+
+08:55.988 --> 08:57.141
+que isso seja verdade.
+
+08:57.141 --> 08:59.582
+Ele acha que atingiremos um limite natural
+
+08:59.582 --> 09:02.651
+que vai limitar a população.
+
+09:02.651 --> 09:05.315
+Em teoria, uma função mais
+
+09:05.315 --> 09:09.173
+natural e mais realística
+para modelar a população
+
+09:09.173 --> 09:12.134
+seria algo mais ou menos assim
+
+09:12.134 --> 09:15.831
+ou algo que continuamos a variar
+
+09:15.831 --> 09:19.288
+em torno desse limite.
+
+09:19.288 --> 09:22.180
+O que vamos ver no próximo
+vídeo é que P.F. Verhulst
+
+09:22.018 --> 09:25.912
+encontrou uma equação
+diferencial muito boa
+
+09:25.912 --> 09:27.282
+com uma solução
+
+09:27.282 --> 09:31.753
+que modela e descreve bem melhor
+
+09:31.753 --> 09:34.174
+a realidade que Malthus
+acreditava ser real.
+
+09:34.174 --> 09:35.541
+Revisado por: [Tatiana F. D'Addio]

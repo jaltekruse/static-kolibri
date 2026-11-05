@@ -1,0 +1,484 @@
+WEBVTT
+
+00:00.063 --> 00:02.583
+Gegeben sei die Funktion h von n,
+
+00:02.583 --> 00:04.547
+die die Terme einer Folge bestimmt.
+
+00:04.547 --> 00:05.890
+die die Terme einer Folge bestimmt.
+
+00:05.890 --> 00:06.842
+Ich zeichne hier eine kleine Tabelle.
+
+00:06.842 --> 00:09.986
+Ich zeichne hier eine kleine Tabelle.
+
+00:11.736 --> 00:15.318
+Wir haben n und wir haben h von n.
+
+00:15.318 --> 00:19.430
+Wenn n gleich 1 ist, dann ist h von n gleich minus 31
+
+00:19.430 --> 00:22.752
+minus 7 mal 1 minus 1.
+
+00:23.876 --> 00:25.234
+Das ergibt 0,
+
+00:25.234 --> 00:27.440
+daher ist h von n gleich minus 31.
+
+00:27.440 --> 00:31.640
+Wenn n gleich 2 ist, dann ergibt das minus 31
+
+00:31.640 --> 00:36.054
+minus 7 mal 2 minus 1.
+
+00:36.054 --> 00:38.385
+Also 2 minus 1
+
+00:38.385 --> 00:40.407
+ergibt 1,
+
+00:40.407 --> 00:42.241
+somit ist es minus 31 minus 7,
+
+00:42.241 --> 00:45.994
+was minus 38 ergibt.
+
+00:45.994 --> 00:47.662
+Wenn n gleich 3 ist,
+
+00:47.662 --> 00:51.296
+dann ergibt das minus 31 minus 7
+
+00:51.296 --> 00:52.910
+mal 3 minus 1,
+
+00:52.910 --> 00:54.059
+was 2 ist,
+
+00:54.059 --> 00:56.988
+wir subtrahieren also 7 zwei mal.
+
+00:56.988 --> 01:00.467
+Das ergibt minus 31 minus 14,
+
+01:00.467 --> 01:03.323
+was gleich minus 45 ist.
+
+01:03.323 --> 01:05.678
+Was sehen wir hier?
+
+01:05.678 --> 01:07.828
+Wir haben bei minus 31 angefangen,
+
+01:07.828 --> 01:10.228
+und dann subtrahieren wir
+
+01:10.228 --> 01:12.947
+immer wieder minus 7.
+
+01:12.947 --> 01:15.907
+Wir subtrahieren minus 7 davon.
+
+01:15.907 --> 01:19.561
+Eigentlich subtrahieren wir minus 7
+einmal weniger als n.
+
+01:19.561 --> 01:22.026
+Eigentlich subtrahieren wir minus 7
+einmal weniger als n.
+
+01:22.026 --> 01:23.198
+Eigentlich subtrahieren wir minus 7
+einmal weniger als n.
+
+01:23.198 --> 01:24.556
+Wenn wir den dritten Term haben,
+
+01:24.556 --> 01:26.576
+subtrahieren wir minus 7 zwei Mal.
+
+01:26.576 --> 01:28.074
+Wenn wir den zweiten Term haben,
+
+01:28.074 --> 01:30.274
+subtrahieren wir minus 7 ein Mal.
+
+01:30.274 --> 01:31.498
+Ich möchte nun, dass du das Video pausierst
+
+01:31.498 --> 01:33.437
+Ich möchte nun, dass du das Video pausierst
+
+01:33.437 --> 01:36.223
+und versuchst diese Folge zu definieren.
+
+01:36.223 --> 01:38.777
+Bei der Folge hier startest du bei minus 31
+
+01:38.777 --> 01:40.658
+und subtrahierst minus 7 immer wieder,
+
+01:40.658 --> 01:43.943
+also minus 38, minus 45.
+
+01:43.943 --> 01:47.050
+Als nächstes kommt minus 52
+
+01:47.050 --> 01:48.210
+und so weiter.
+
+01:48.210 --> 01:50.311
+Du subtrahierst minus 7 immer wieder.
+
+01:50.311 --> 01:52.830
+Können wir diese Folge
+
+01:52.830 --> 01:55.321
+als eine rekursive Funktion definieren?
+
+01:55.321 --> 01:56.872
+Versuch es einmal.
+
+01:57.512 --> 01:59.761
+Versuchen wir die Folge als
+rekursive Funktion zu definieren.
+
+01:59.761 --> 02:01.968
+Lass uns dies als g von n bezeichnen.
+
+02:01.968 --> 02:03.290
+Lass uns dies als g von n bezeichnen.
+
+02:03.290 --> 02:05.199
+Manchmal ist eine rekursive Funktion einfacher,
+
+02:05.199 --> 02:06.297
+weil du sagen kannst:
+
+02:06.297 --> 02:08.619
+Was ist der erste Term wenn n gleich 1?
+
+02:08.619 --> 02:11.184
+Was ist der erste Term wenn n gleich 1?
+
+02:11.184 --> 02:12.990
+Was ist der erste Term wenn n gleich 1?
+
+02:12.990 --> 02:16.067
+Was ist der erste Term wenn n gleich 1?
+
+02:16.067 --> 02:17.680
+Was ist der erste Term wenn n gleich 1?
+
+02:17.680 --> 02:19.568
+Er ist minus 31.
+
+02:19.568 --> 02:20.943
+Er ist minus 31.
+
+02:20.943 --> 02:22.760
+Und wenn n
+
+02:22.760 --> 02:26.387
+größer als 1 und eine ganze Zahl ist,
+
+02:26.387 --> 02:28.883
+das ist definiert für alle positiven ganze Zahlen
+
+02:28.883 --> 02:32.441
+und ganze Zahlen,
+
+02:32.441 --> 02:34.989
+erhältst du den vorherigen Term,
+
+02:34.989 --> 02:37.764
+also g von n minus 1,
+
+02:37.764 --> 02:39.100
+minus 7.
+
+02:39.100 --> 02:40.469
+minus 7.
+
+02:40.469 --> 02:41.528
+Wenn wir einen beliebigen Term berechnen wollen,
+
+02:42.738 --> 02:44.764
+Wenn wir einen beliebigen Term berechnen wollen,
+
+02:44.764 --> 02:46.285
+müssen wir uns nur den vorherigen Term ansehen
+
+02:46.285 --> 02:49.628
+und davon 7 subtrahieren.
+
+02:49.628 --> 02:51.764
+Dies funktioniert super,
+
+02:51.764 --> 02:52.763
+weil du dir einfach auf den
+
+02:52.763 --> 02:54.051
+vorherigen, vorherigen, vorherigen Term ansiehst,
+
+02:54.051 --> 02:56.652
+bis du zum Anfangsterm kommst,
+
+02:56.652 --> 02:58.103
+der bei n gleich 1 eintritt.
+
+02:58.103 --> 02:59.984
+Von dort kannst du alles aufbauen.
+
+02:59.984 --> 03:02.886
+Du erhältst die exakt gleiche Folge.
+
+03:02.886 --> 03:03.989
+Machen wir noch ein Beispiel,
+
+03:03.989 --> 03:05.742
+aber diesmal versuchen wir es verkehrt herum.
+
+03:05.742 --> 03:08.645
+Hier haben wir eine Folge, die rekursiv definiert ist
+
+03:08.645 --> 03:10.722
+Hier haben wir eine Folge, die rekursiv definiert ist
+
+03:10.722 --> 03:12.382
+und ich will eine Funktion erzeugen,
+
+03:12.382 --> 03:15.132
+die die Folge explizit definiert.
+
+03:15.132 --> 03:16.781
+Lasst uns einmal darüber nachdenken.
+
+03:16.781 --> 03:17.664
+Man kann sich das so vorstellen,
+
+03:17.664 --> 03:19.431
+Man kann sich das so vorstellen,
+
+03:19.431 --> 03:22.679
+wenn n gleich 1 ist, fängt die Folge bei 9,6 an,
+
+03:22.679 --> 03:25.967
+und ab dann ist jeder nachfolgende Term
+der vorherige Term minus 0.1.
+
+03:25.967 --> 03:28.274
+und ab dann ist jeder nachfolgende Term
+der vorherige Term minus 0.1.
+
+03:28.274 --> 03:30.576
+Der zweite Term ist gleich der vorherige Term
+
+03:30.576 --> 03:33.963
+minus 0.1, also 9.5.
+
+03:33.963 --> 03:35.928
+Dann erhältst du 9.4.
+
+03:35.928 --> 03:37.752
+Dann 9.3.
+
+03:37.752 --> 03:40.326
+Wir könnten dies ewig fortsetzen.
+
+03:40.326 --> 03:42.794
+Machen wir eine kleine Tabelle.
+
+03:45.503 --> 03:48.823
+Hier ist n und hier ist h von n.
+
+03:48.823 --> 03:50.727
+Wenn n gleich 1 ist,
+
+03:50.727 --> 03:52.864
+dann ist h von n gleich 9.6.
+
+03:52.864 --> 03:54.105
+Wenn n gleich 2,
+
+03:54.105 --> 03:55.382
+sind wir in diesem Fall hier,
+
+03:55.382 --> 03:57.402
+und daher erhalten wir h von 2 minus 1,
+
+03:57.402 --> 04:01.687
+also h von 1 minus 0.1.
+
+04:02.357 --> 04:04.542
+Das ist einfach das hier minus 0.1,
+
+04:04.542 --> 04:07.862
+was 9.5 ergibt.
+
+04:07.862 --> 04:11.953
+Wenn h gleich 3 ist, erhalten wir
+
+04:11.953 --> 04:15.436
+h von 2 minus 0.1.
+
+04:15.436 --> 04:17.538
+h von 2 minus 0.1.
+
+04:17.538 --> 04:19.001
+h von 2 steht hier.
+
+04:19.001 --> 04:22.600
+Wenn du ein Zehntel subtrahierst erhältst du 9.4,
+
+04:22.600 --> 04:24.504
+genau, was wir hier herüben gesehen haben.
+
+04:24.504 --> 04:26.529
+Halte nun das Video an und versuch
+
+04:26.529 --> 04:28.144
+Halte nun das Video an und versuch
+
+04:28.144 --> 04:30.761
+eine Funktion zu erzeugen, die
+
+04:30.761 --> 04:33.698
+diese arithmetische Folge explizit definiert.
+
+04:33.698 --> 04:34.522
+Hier war sie rekursiv.
+
+04:34.522 --> 04:36.735
+Wir wollen sie aber explizit definieren.
+
+04:37.695 --> 04:38.888
+Nennen wir sie f von n.
+
+04:38.888 --> 04:41.254
+Nennen wir sie f von n.
+
+04:41.254 --> 04:43.939
+Sie ist 9.6,
+
+04:44.709 --> 04:46.272
+aber wir subtrahieren 0.1
+
+04:46.272 --> 04:48.257
+aber wir subtrahieren 0.1
+
+04:48.257 --> 04:49.696
+eine bestimmte Anzahl mal,
+
+04:49.696 --> 04:51.716
+abhängig davon, von welchem Term wir reden.
+
+04:51.716 --> 04:53.817
+Wir subtrahieren 0.1,
+
+04:53.817 --> 04:55.849
+aber wie oft tun wir dies als eine Funktion von n?
+
+04:55.849 --> 04:57.753
+aber wie oft tun wir dies als eine Funktion von n?
+
+04:58.463 --> 04:58.890
+Mal sehen.
+
+04:58.890 --> 05:00.028
+Wenn wir vom ersten Term reden
+
+05:00.028 --> 05:02.127
+subtrahieren wir 0 Mal.
+
+05:02.127 --> 05:04.968
+Beim zweiten Term subtrahieren wir ein Mal.
+
+05:04.968 --> 05:07.354
+Beim dritten Term subtrahieren wir zwei Mal.
+
+05:07.354 --> 05:09.907
+Beim vierten Term subtrahieren wir drei Mal.
+
+05:09.907 --> 05:11.533
+Egal von welchem Term wir reden,
+
+05:11.533 --> 05:15.468
+wir subtrahieren diesen Term minus ein Mal.
+
+05:15.468 --> 05:16.977
+Wenn wir vom n-ten Term reden würden,
+
+05:16.977 --> 05:21.273
+würden wir diesen Wert n minus 1 Mal subtrahieren.
+
+05:21.273 --> 05:23.420
+Du kannst dies nachweisen.
+
+05:23.420 --> 05:25.738
+Wenn n gleich 1
+
+05:25.738 --> 05:27.623
+dann ist dieser Term hier 0,
+
+05:27.623 --> 05:28.679
+daher ist das gesamte hier 0.
+
+05:28.679 --> 05:30.003
+Du erhältst also 9.6.
+
+05:30.003 --> 05:32.314
+Wenn n gleich 2,
+
+05:32.314 --> 05:33.619
+2 minus 1,
+
+05:33.619 --> 05:36.573
+subtrahierst du 0.1 ein Mal.
+
+05:36.573 --> 05:39.290
+9.6 minus 0.1 ist 9.5.
+
+05:39.290 --> 05:40.033
+Du könntest immer weiter machen.
+
+05:40.033 --> 05:41.171
+Du könntest eine Tabelle zeichnen
+
+05:41.171 --> 05:42.633
+und diese berechnen wenn du willst.
+
+05:42.633 --> 05:45.531
+Der entscheidende Punkt ist, dass du bei 9.6 beginnst
+
+05:45.531 --> 05:47.882
+und 0.1 einmal weniger oft subtrahierst,
+
+05:47.882 --> 05:50.411
+als der Term den du suchst.
+
+05:50.411 --> 05:52.849
+Wenn du n gleich 4 suchst,
+
+05:52.849 --> 05:55.090
+Wenn du n gleich 4 suchst,
+
+05:55.090 --> 05:57.922
+subtrahierst du 0.1 drei Mal
+
+05:57.922 --> 05:58.886
+und du siehst das.
+
+05:58.886 --> 06:00.603
+Subtrahiere 0.1 ein Mal,
+
+06:00.603 --> 06:02.206
+subtrahiere 0.1 zwei Mal,
+
+06:02.206 --> 06:06.271
+subtrahiere 0.1 drei Mal.

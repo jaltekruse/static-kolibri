@@ -1,0 +1,253 @@
+WEBVTT
+
+00:00.426 --> 00:02.315
+Bảng trình bày giá tiền
+
+00:02.315 --> 00:04.069
+khi mua 1 miếng đất nhỏ
+
+00:04.069 --> 00:07.661
+trong 1 ngôi làng xa xôi từ năm 1990.
+
+00:07.661 --> 00:10.695
+Vậy hàm số nào có thể mô tả tốt nhất về mối liên hệ này?
+
+00:10.695 --> 00:11.628
+Và mình đang sử dụng
+
+00:11.628 --> 00:13.997
+một ví dụ từ bài tập của Khan Academy,
+
+00:13.997 --> 00:16.342
+và chúng ta đang cố gắng chọn giữa
+
+00:16.342 --> 00:18.159
+mô hình tuyến tính
+
+00:18.159 --> 00:20.547
+mô hình hàm số tuyến tính
+
+00:20.547 --> 00:21.964
+hay là mô hình số mũ
+
+00:23.128 --> 00:25.718
+hay hàm số mũ
+
+00:25.718 --> 00:27.737
+sẽ xác định mối liên hệ này.
+
+00:27.737 --> 00:29.195
+Vậy như thường lệ, bạn hãy dừng video này lại,
+
+00:29.195 --> 00:32.301
+và xem thử bạn có thể tự giải hay không.
+
+00:32.301 --> 00:34.434
+Được rồi, hãy suy nghĩ về bài toán này cùng nhau.
+
+00:34.434 --> 00:37.129
+Khi mà thời gian trôi qua,
+
+00:37.129 --> 00:38.554
+ta có biến số chỉ thời gian ở đây,
+
+00:38.554 --> 00:41.498
+ta thấy nó tăng dần theo 2.
+
+00:41.498 --> 00:44.248
+Đi từ 0 đến 2, từ 2 đến 4,
+
+00:45.108 --> 00:47.141
+4 đến 6, vân vân và vân vân.
+
+00:47.141 --> 00:49.159
+Nó cứ tăng thêm 2.
+
+00:49.159 --> 00:51.886
+Vậy nếu đây là mối liên hệ tuyến tính,
+
+00:51.886 --> 00:54.930
+và sự thay đổi của thời gian là không đổi
+
+00:54.930 --> 00:58.695
+thì sự thay đổi trong giá tiền phải tăng theo một mức nhất định.
+
+00:58.695 --> 00:59.851
+Nó không nhất thiết là con số này,
+
+00:59.851 --> 01:01.807
+nhưng nó phải là 1 mức nhất định.
+
+01:01.807 --> 01:04.299
+Nhưng nếu ta đang giải quyết mối liên hệ số mũ,
+
+01:04.299 --> 01:07.523
+ta sẽ nhân với một mức như nhau
+
+01:07.523 --> 01:10.417
+cho 1 khoảng thời gian không đổi.
+
+01:10.417 --> 01:11.645
+Hãy xem chuyện gì sẽ xảy ra ở đây nào.
+
+01:11.645 --> 01:12.648
+Hãy nhìn vào
+
+01:12.648 --> 01:13.915
+sự khác biệt giữa những con số.
+
+01:13.915 --> 01:15.748
+Để đi từ 30 đến 36.9
+
+01:16.738 --> 01:18.905
+bạn phải cộng thêm 6.9
+
+01:19.927 --> 01:22.260
+Và đi từ 36.9 đến 44.1
+
+01:24.043 --> 01:25.184
+bạn phải cộng thêm bao nhiêu?
+
+01:25.184 --> 01:26.851
+Bạn phải cộng thêm 7.2
+
+01:28.436 --> 01:30.924
+Và bây giờ để đi từ 44.1
+
+01:30.924 --> 01:31.757
+đến 51.1
+
+01:33.121 --> 01:35.454
+bạn phải cộng thêm 7
+
+01:36.958 --> 01:38.917
+Từ 51.1
+
+01:38.917 --> 01:39.750
+đến 57.9
+
+01:42.225 --> 01:43.808
+bạn đang cộng thêm 6.8
+
+01:45.824 --> 01:47.404
+6.8
+
+01:47.404 --> 01:50.904
+Và cuối cùng, đi từ 57.9 đến 65.1
+
+01:52.231 --> 01:54.461
+để xem, nó gần như là 8
+
+01:54.461 --> 01:56.294
+7.1, đây là gì, 7.2
+
+01:57.237 --> 01:59.930
+ta đang cộng thêm, 7.2
+
+01:59.930 --> 02:00.870
+Vậy bạn sẽ nói, "Gì, đợi dã,
+
+02:00.870 --> 02:03.624
+ta không có thêm một mức nhất định như nhau trong mỗi 2 năm"
+
+02:03.624 --> 02:05.629
+Nhưng hãy nhớ, đây chắc chắn sẽ là
+
+02:05.629 --> 02:10.071
+những gì bạn nhận được từ tình huống thực tế.
+
+02:10.071 --> 02:11.945
+Và dữ liệu bạn có được từ tình huống thực tế
+
+02:11.945 --> 02:14.805
+sẽ không bao giờ là hàm tuyến tính
+
+02:14.805 --> 02:17.034
+hoặc hàm số mũ
+
+02:17.034 --> 02:19.112
+Nhưng mỗi khi ta thêm 2 năm,
+
+02:19.112 --> 02:21.220
+Có vẻ như ta đang tiến rất gần đến việc
+
+02:21.220 --> 02:24.169
+cộng 7,000 đô vào số tiền.
+
+02:24.169 --> 02:26.606
+6.9 khá gần với 7.
+
+02:26.606 --> 02:27.869
+Nó khá gần với số 7.
+
+02:27.869 --> 02:28.964
+Đó là số 7.
+
+02:28.964 --> 02:30.522
+Nó khá gần số 7.
+
+02:30.522 --> 02:32.261
+Nó khá gần số 7.
+
+02:32.261 --> 02:35.706
+Vậy, theo mình, cái này trông có vẻ là mô hình tuyến tính.
+
+02:35.706 --> 02:38.351
+Bạn có thể kiểm tra để xem nó có phải là hàm số mũ hay không.
+
+02:38.351 --> 02:42.441
+Bạn thấy đấy, chà, mình đang nhân với hệ số là bao nhiêu sau mỗi 2 năm?
+
+02:42.441 --> 02:45.448
+Nhưng nó có vẻ như không giống,
+
+02:45.448 --> 02:47.913
+nó không giống như hàm số mũ
+
+02:47.913 --> 02:49.404
+Nó không giống như ta đang nhân
+
+02:49.404 --> 02:51.247
+với một hệ số giống nhau sau mỗi 2 năm.
+
+02:51.247 --> 02:54.685
+Nó trông giống như ta đang nhân với 1 hệ số nhỏ hơn,
+
+02:54.685 --> 02:56.634
+khi t đi đến giá tiền cao hơn.
+
+02:56.634 --> 03:00.351
+Vậy mô hình tuyến tính khá hợp lý.
+
+03:00.351 --> 03:02.575
+Nếu thời gian tăng lên 2,
+
+03:02.575 --> 03:05.882
+thì giá tiền đang tăng lên 6.9 hoặc 7.2 hoặc 7.
+
+03:05.882 --> 03:07.335
+Nó khá là gần với số 7.
+
+03:07.335 --> 03:09.663
+Vậy nó không hẳn là giá tiền,
+
+03:09.663 --> 03:12.009
+nhưng mô hình dự đoán khá đúng.
+
+03:12.009 --> 03:15.203
+Nếu bạn phải vẽ những thứ này trên,
+
+03:15.203 --> 03:16.674
+trên tọa độ mặt phẳng
+
+03:16.674 --> 03:19.226
+và thử nối các điểm này lại với nhau,
+
+03:19.226 --> 03:20.940
+nó sẽ trông khá giống với đường thẳng,
+
+03:20.940 --> 03:23.350
+hoặc bạn sẽ vẽ 1 đường mà khá gần
+
+03:23.350 --> 03:24.517
+với những điểm này.

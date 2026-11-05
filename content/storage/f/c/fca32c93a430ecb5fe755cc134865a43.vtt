@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.066 --> 00:04.797
+esta é uma imagem de Isaac Newton, o super famoso matemático britânico
+
+00:04.797 --> 00:10.036
+e físico e este é o retrato de Gottfried Leibniz, o super famoso
+
+00:10.036 --> 00:13.768
+mas talvez não tão famoso, mas que talvez deveria ser famoso alemão
+
+00:13.768 --> 00:17.017
+filósofo e matemático, ele era um contemporâneo de Isaac Newton
+
+00:17.017 --> 00:20.485
+Estes dois senhores juntos foram realmente os pais
+
+00:20.485 --> 00:24.900
+do cálculo e fizeram alguns dos seus, a maioria de seus
+
+00:24.900 --> 00:27.334
+principais trabalhos no fim do século XVII
+
+00:27.334 --> 00:29.317
+este aqui é Usain Bolt
+
+00:29.317 --> 00:33.085
+Velocista jamaicano que continua fazendo alguns de seus melhores trabalhos
+
+00:33.085 --> 00:38.267
+em 2012 e já no início de 2012, ele é o homem mais rápido vivo
+
+00:38.267 --> 00:41.550
+ele provavelmente é o mais rápido humano que já viveu
+
+00:41.550 --> 00:45.418
+e você não pode não ter feito a associação entre estes três
+
+00:45.418 --> 00:48.252
+cavalheiros. Pode não achar que eles têm muito em comum, mas eles
+
+00:48.252 --> 00:52.201
+estavam todos obcecados com a mesma questão fundamental que o cálculo
+
+00:52.201 --> 01:00.335
+diferencial aborda e a questão é qual é a taxa instantânea
+
+01:00.335 --> 01:04.351
+de mudança de alguma coisa. Em caso de Usain Bolt quão rápido ele está indo
+
+01:04.351 --> 01:09.135
+exatamente agora? Não apenas qual foi sua velocidade média no último segundo ou sua velocidade
+
+01:09.135 --> 01:13.334
+em seus próximos 10 segundos. Quão rápido ele está exatamente agora?
+
+01:13.334 --> 01:18.801
+Então é isso que cálculo diferencial é tudo. Taxas de variação instantânea,
+
+01:18.801 --> 01:26.517
+cálculo diferencial e termo de Newton para o cálculo diferencial
+
+01:26.517 --> 01:30.619
+era "o método de flexões" o que realmente soa mas estiloso
+
+01:30.619 --> 01:37.952
+mas é tudo uma questão do que está acontecendo neste instante. "Nesse instante". E para pensar sobre
+
+01:37.952 --> 01:41.702
+o porquê disso não ser um problema super fácil de se abordar com a tradicional
+
+01:41.702 --> 01:48.150
+álgebra, vamos desenhar um um pequeno gráfico aqui. Neste eixo, eu tenho a distância
+
+01:48.150 --> 01:54.885
+agora direi que "y=distância". Eu poderia ter dito d = distância mas veremos mais adiante
+
+01:54.885 --> 01:58.819
+que no cálculo d está reservada para outra coisa. Ficaremos com y = distância
+
+01:58.819 --> 02:04.767
+e neste eixo vamos colocar o tempo e eu posso dizer t = tempo, mas eu vou dizer que x = tempo
+
+02:04.767 --> 02:10.902
+então se nós tivéssemos que calcular distância de Usain Bolt como uma função do tempo
+
+02:10.902 --> 02:16.886
+Bem no tempo 0 ele não foi a lugar nenhum. ele está bem ali e nós sabemos que este
+
+02:16.886 --> 02:23.335
+cavalheiro é capaz de viajar 100 metros em 9,58 segundos
+
+02:23.335 --> 02:27.819
+Então, depois de 9,58 segundos - vamos supor que este eixo é em segundos, bem aqui -ele é
+
+02:27.819 --> 02:31.736
+capaz de percorrer 100 metros. "100 metros"
+
+02:31.736 --> 02:36.401
+e assim utilizaando estas informações podemos realmente descobrir sua velocidade média
+
+02:36.401 --> 02:44.351
+"velocidade média" vai ser simplesmente a mudança na distância
+
+02:44.351 --> 02:48.802
+sobre a sua mudança no tempo
+
+02:48.802 --> 02:56.186
+e utilizando a variável aqui estamos dizendo y é a distância e esta é a mudança em y sobre
+
+02:56.186 --> 03:01.619
+mudança em X a partir deste ponto a ponto e isso pode parecer pouco familiar para você
+
+03:01.619 --> 03:07.152
+de álgebra básica. Essa é a inclinação entre dois pontos. Se eu tenho uma linha que liga estes dois pontos
+
+03:07.152 --> 03:13.186
+e se eu tiver uma linha que conecta dois pontos é uma inclinação dessa linha.
+
+03:13.186 --> 03:21.935
+a mudança na distância é aqui na direita. Mudança em y = 100 m e a nossa mudança no tempo é este
+
+03:21.935 --> 03:30.751
+aqui, a nossa mudança no tempo é igual a 9,58 segundos que começam com 0, vamos para 9,58 segundos uma outra maneira
+
+03:30.751 --> 03:33.101
+de pensar acerca disto - o aumento sobre o período
+
+03:33.101 --> 03:34.752
+você deve ter ouvido na sua aula de algebra.
+
+03:34.752 --> 03:37.586
+Isto está para ser 100 metros sobre 9.58 segundos.
+
+03:37.586 --> 03:42.053
+Então isto é 100 metros sobre 9.58 segundos.
+
+03:42.053 --> 03:45.787
+E o declive é essencialmente só a taxa de mudança,
+
+03:45.787 --> 03:47.752
+ou você pode ver isto como a taxa média de mudança,
+
+03:47.752 --> 03:51.069
+entre estes dois pontos. E tudo que você vai ver se você mesmo seguir
+
+03:51.069 --> 03:54.436
+as unidades que lhe dá unidades de velocidade aqui.
+
+03:54.436 --> 03:56.980
+Isto iria ser velocidade se nós também especificassemos a direção.
+
+03:56.980 --> 04:00.803
+E nós podemos achar o que isto é. Deixa-me pegar a calculadora.
+
+04:00.803 --> 04:07.137
+Deixa-me, deixa-me só ... pegar a calculadora no ecrã.
+
+04:07.137 --> 04:14.454
+Então nós vamos a 100 metros em 9.58 segundos então isto é por volta de 10.4
+
+04:14.454 --> 04:22.087
+aproximadamente 10.4 e em seguida as unidades são metros por segundo.
+
+04:22.087 --> 04:28.270
+E isso é a velocidade média dele. E o que nós vamos ver em segundos é
+
+04:28.270 --> 04:32.919
+como a velocidade média é diferente em relação a velocidade instantânea.
+
+04:32.919 --> 04:35.121
+Como isto é diferente que a velocidade que ele deve estar a ir em algum
+
+04:35.121 --> 04:38.570
+momento dado. E só para ter o conceito do quão rápido isto é
+
+04:38.570 --> 04:41.636
+deixa-me pegar uma calculadora de volta. Isto está em metros por segundo.
+
+04:41.636 --> 04:43.802
+Se você quer saber quantos metros ele está a ir em uma hora
+
+04:43.802 --> 04:45.653
+estão ai 3600 segundos em uma hora.
+
+04:45.653 --> 04:50.953
+Então ele vai estar apto a ir muitos metros 3600 vezes.
+
+04:50.953 --> 04:54.603
+Então isso é quantos metros ele pode, se ele fosse apto de alguma maneira
+
+04:54.603 --> 04:57.503
+de manter aquela velocidade em uma hora, isto é o quão rápido ele está a ir
+
+04:57.503 --> 05:00.715
+em metros por hora. E em seguida se você fosse dizer quantas milhas
+
+05:00.715 --> 05:03.719
+por hora, ai estão aproximadamente 1600, e eu não sei o número exacto
+
+05:03.719 --> 05:06.954
+mas aproximadamente 1600 metros por milhas então vamos dividir isso
+
+05:06.954 --> 05:10.986
+por 1600. E então você vê que isto é aproximadamente um pouco acima de 23
+
+05:10.986 --> 05:14.069
+cerca de 23 e 1/2 milhas por hora. Isto é aproximadamente ...
+
+05:14.069 --> 05:26.803
+Deixe-me escrever desta maneira, isto é de aproximadamente 23,5 mph.
+
+05:26.803 --> 05:28.337
+Deixe-me ver sobre.
+
+05:28.337 --> 05:29.738
+milhas por hora.
+
+05:29.738 --> 05:31.719
+E em relação a um carro não tão rápido, mas
+
+05:31.719 --> 05:34.586
+em relação a mim extremamente rápido. Agora, para ver
+
+05:34.586 --> 05:38.525
+como isto é diferente da velocidade instantânea,
+
+05:38.525 --> 05:42.253
+Vamos pensar sobre o enredo potencial de sua distância em relação ao tempo
+
+05:42.253 --> 05:44.921
+Ele não vai apenas para a velocidade imediatamente.
+
+05:44.921 --> 05:46.538
+Ele não apenas vai rapidamente como uma arma
+
+05:46.538 --> 05:48.656
+dispara. Ele não é só indo 23 e 1/2 mph.
+
+05:48.656 --> 05:51.402
+Todo o caminho. Ele vai ter que acelerar.
+
+05:51.402 --> 05:54.204
+Assim, num primeiro momento, ele começa indo um pouco mais lento.
+
+05:54.204 --> 05:56.788
+Sua inclinação vai ser um pouco menor.
+
+05:56.788 --> 05:58.919
+Do que a inclinação média. Ele vai ser um pouco mais lento.
+
+05:58.919 --> 06:01.404
+Então ele vai começar a acelerar. E assim sua
+
+06:01.404 --> 06:05.038
+aceleração e você vê essa inclinação aqui está ficando mais íngreme e mais íngreme e mais íngreme
+
+06:05.038 --> 06:09.220
+e, em seguida, talvez perto do final, ele começa a tocar fora um pouco.
+
+06:09.220 --> 06:12.486
+E assim parte da distância contra o tempo pode ser uma curva
+
+06:12.486 --> 06:14.337
+que é algo como isto.
+
+06:14.337 --> 06:16.978
+E o que nós calculamos aqui é apenas a inclinação média
+
+06:16.978 --> 06:21.570
+desta mudança no tempo. Podemos ver em qualquer momento
+
+06:21.570 --> 06:23.470
+a inclinação é realmente diferente.
+
+06:23.470 --> 06:27.903
+No início ele tem uma taxa mais lenta de mudança de
+
+06:27.903 --> 06:30.487
+distância. Então, aqui ele se acelera,
+
+06:30.487 --> 06:33.621
+aqui parece que a sua taxa de variação da distância seria
+
+06:33.621 --> 06:34.670
+mais ou menos - ou você pode vê-lo
+
+06:34.670 --> 06:36.754
+como uma inclinação da tangente nesse ponto -
+
+06:36.754 --> 06:38.838
+parece maior do que sua média.
+
+06:38.838 --> 06:40.671
+E então ele começa a desacelerar novamente.
+
+06:40.671 --> 06:43.887
+?? ... Média vai para 23,5 milhas por hora.
+
+06:43.887 --> 06:46.954
+E eu olhei para cima velocidade instantânea Usain Bolt
+
+06:46.954 --> 06:48.637
+seu pico de velocidade instantânea
+
+06:48.637 --> 06:51.337
+está realmente perto de 30 milhas por hora.
+
+06:51.337 --> 06:53.220
+Assim, a inclinação para cá pode ser
+
+06:53.220 --> 06:55.053
+23 ... qualquer quilômetros por hora,
+
+06:55.053 --> 06:57.620
+mas instantânea, ponto mais rápido o seu neste
+
+06:57.620 --> 07:01.138
+9,58 segundos está mais perto de 30 milhas por hora.
+
+07:01.138 --> 07:04.020
+Mas você vê que não é uma coisa trivial de fazer.
+
+07:04.020 --> 07:05.771
+Você poderia dizer: OK, deixe-me tentar aproximar
+
+07:05.771 --> 07:07.988
+a inclinação bem aqui e você
+
+07:07.988 --> 07:09.269
+poderia fazer isso, dizendo: OK,
+
+07:09.269 --> 07:11.003
+bem, o que é a mudança de "y"
+
+07:11.003 --> 07:13.138
+sobre a mudança de "x" direito de contornar isso.
+
+07:13.138 --> 07:18.353
+Você poderia dizer: Deixe-me tomar alguma mudança de x,
+
+07:18.353 --> 07:21.020
+e descobrir o que a mudança de y é em torno dele.
+
+07:21.020 --> 07:25.470
+Ou, como nós vamos além disso. Então, temos que. Mas isso seria apenas uma aproximação.
+
+07:25.470 --> 07:28.404
+Porque você vê que a inclinação da curva está mudando constantemente.
+
+07:28.404 --> 07:33.354
+Então o que você quer fazer é ver o que acontece como a mudança de x fica menor e menor.
+
+07:33.354 --> 07:35.937
+À medida que a mudança de x fica menor e menor e menor
+
+07:35.937 --> 07:37.754
+estamos indo para obter aproximação cada vez melhor.
+
+07:37.754 --> 07:40.538
+Sua mudança em y vai ficar cada vez menor e menor.
+
+07:40.538 --> 07:43.321
+Então o que você quer fazer e nós vamos entrar em profundidade de toda essa
+
+07:43.321 --> 07:44.821
+e estudá-lo com mais rigor,
+
+07:44.821 --> 07:50.304
+você quer tomar o limite quando delta x tende a zero.
+
+07:50.304 --> 07:52.289
+Como delta x se aproxima de zero de
+
+07:52.289 --> 07:57.554
+mudar em y sobre sua mudança em x
+
+07:57.554 --> 08:00.489
+e quando você faz que você vai
+
+08:00.489 --> 08:03.238
+taxa de abordagem que instantânea de mudança
+
+08:03.238 --> 08:06.071
+você pode vê-lo como inclinação instantânea em que ponto da curva.
+
+08:06.071 --> 08:08.837
+Ou a inclinação da tangente em que o ponto da curva.
+
+08:08.837 --> 08:12.519
+Ou, se usarmos terminologia cálculo iríamos vê-lo como o derivativo.
+
+08:12.519 --> 08:17.304
+Assim, a inclinação instantânea é o derivado.
+
+08:17.304 --> 08:20.421
+E a notação que usamos para derivativo é dy
+
+08:20.421 --> 08:23.421
+mais dx. E é por isso que eu reservei a letra y.
+
+08:23.421 --> 08:28.137
+Como isso se relaciona com "diferencial" palavra?
+
+08:28.137 --> 08:32.466
+Este dy é o diferencial.
+
+08:32.466 --> 08:36.003
+dx é um diferencial. E uma maneira de conceituar essa. Esta é uma
+
+08:36.003 --> 08:40.123
+infinitamente pequena mudança em y, ao longo de uma mudança infinitamente pequena em x.
+
+08:40.123 --> 08:43.820
+E por ficar super, super pequenas mudanças em y ou mudanças de x
+
+08:43.820 --> 08:46.038
+você é capaz de conseguir esta inclinação instantânea
+
+08:46.038 --> 08:47.654
+ou, no caso deste exemplo
+
+08:47.654 --> 08:53.188
+a velocidade instantânea de Usain direito do parafuso naquele momento.
+
+08:53.188 --> 08:55.455
+E aviso, você não pode simplesmente colocar zero herói.
+
+08:55.455 --> 08:58.821
+Se nós só colocamos aqui altere em x é 0 que você vai conseguir algo indefinido.
+
+08:58.821 --> 09:01.472
+Você não pode dividir por zeros. Você leva ao limite.
+
+09:01.472 --> 3:59:59.999
+Como ele se aproxima de zero e vamos definir com mais rigor em que os vídeos mais próximos.

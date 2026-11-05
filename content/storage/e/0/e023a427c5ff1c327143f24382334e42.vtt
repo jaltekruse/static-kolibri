@@ -1,0 +1,349 @@
+WEBVTT
+
+00:00.540 --> 00:04.680
+Ismételjük át egy kicsit a szögfüggvények egységkörös definícióját!
+
+00:04.820 --> 00:07.516
+Rajzoltam ide egy egységsugarú kört
+
+00:07.516 --> 00:11.367
+– amikor egységkört mondunk, egy 1 egység sugarú kört értünk alatta.
+
+00:11.367 --> 00:13.286
+Például ez itt az
+
+00:13.286 --> 00:16.359
+(1;0) pont (angolul vesszővel, magyarul pontosvesszővel választjuk el).
+
+00:16.359 --> 00:17.970
+X=1 és y=0.
+
+00:17.970 --> 00:20.690
+Ez a pont itt (0;1),
+
+00:20.690 --> 00:24.412
+ez a pont (-1;0),
+
+00:24.412 --> 00:27.783
+és ez (0;-1).
+
+00:28.223 --> 00:30.313
+Itt a sugár, a távolság a kör középpontjától
+
+00:30.320 --> 00:32.800
+– amely az origóban van –
+
+00:32.820 --> 00:36.200
+a kör bármely pontjáig, pontosabban a körön lévő bármely pontig,
+
+00:36.200 --> 00:39.620
+ez a sugár 1 hosszúságú.
+
+00:40.375 --> 00:43.156
+A szögfüggvények egységkörös definíciója
+
+00:43.156 --> 00:45.867
+használja ezt az egységsugarú kört,
+
+00:45.867 --> 00:47.677
+(ezért is hívják egységkörös definíciónak),
+
+00:47.677 --> 00:50.937
+és láttuk már, hogy ha veszünk egy szöget,
+
+00:50.940 --> 00:54.160
+ahol a szög alsó szára a pozitív x-tengelyen van,
+
+00:54.160 --> 00:56.760
+míg a szög másik szára
+
+00:56.940 --> 00:59.720
+az egységkört itt metszi,
+
+00:59.720 --> 01:02.700
+legyen ez a Θ szög,
+
+01:02.700 --> 01:07.300
+a szinusz Θ-t és koszinusz Θ-t,
+
+01:07.302 --> 01:11.133
+avagy cos Θ-t és sin Θ-t ennek a pontnak
+
+01:11.133 --> 01:14.274
+az x és y koordinátájaként határozzuk meg,
+
+01:14.274 --> 01:17.144
+vagyis annak a pontnak, ahol a szög másik,
+
+01:17.144 --> 01:20.080
+nem az x-tengelyre illeszkedő szára elmetszi az egységkört.
+
+01:20.080 --> 01:23.560
+Például nézzük ezt a pontot!
+
+01:23.560 --> 01:25.676
+A pont x koordinátáját
+
+01:25.680 --> 01:28.060
+– ezt az értéket itt –
+
+01:28.200 --> 01:32.820
+hívhatjuk koszinusz Θ-nak,
+
+01:33.000 --> 01:36.137
+míg a pont y koordinátáját,
+
+01:36.137 --> 01:41.588
+amely ez az éérték itt, szinusz Θ-nak.
+
+01:41.588 --> 01:43.118
+A korábbi egységkörös videókban
+
+01:43.118 --> 01:44.968
+beszéltünk arról, miért is tekinthető ez
+
+01:44.968 --> 01:48.119
+a szisza-koma-taszem definíció természetszerű kiterjesztésének.
+
+01:48.119 --> 01:50.309
+Amiért ez hasznos, hogy működik negatív szögekre,
+
+01:50.309 --> 01:53.510
+működik 90 fokos szögekre, sőt,
+
+01:53.510 --> 01:55.961
+90 foknál nagyobb és kisebb szögekre egyaránt,
+
+01:55.961 --> 01:57.960
+vagyis ez tényleg nagyon hasznos.
+
+01:57.960 --> 02:00.840
+Most viszont azt szeretném, hogy felhasználjuk
+
+02:00.841 --> 02:03.660
+amit a szögfüggvények egységkörös definíciójáról tudunk
+
+02:03.660 --> 02:06.713
+a Pitagoraszi azonosság bizonyításához.
+
+02:06.720 --> 02:09.400
+Ez majdhogynem közvetlenül látszik abból,
+
+02:09.400 --> 02:14.140
+hogy ez a pont az egységsugarú körön fekszik.
+
+02:14.760 --> 02:17.620
+Mi is az origó központú
+
+02:17.620 --> 02:20.080
+egységsugarú kör egyenlete?
+
+02:20.480 --> 02:25.700
+Ez az egyenlet: x a négyzeten..
+
+02:27.000 --> 02:29.260
+– más videókban ezt már tényleg bizonyítottuk
+
+02:29.260 --> 02:30.569
+a távolság képlet segítségével,
+
+02:30.569 --> 02:33.040
+amely csak egy alkalmazása a Pitagorasz-tételnek.
+
+02:33.080 --> 02:36.920
+Az origó központú egységkör egyenlete:
+
+02:36.930 --> 02:45.662
+x² + y² = 1,
+
+02:45.662 --> 02:48.303
+egyenlő a sugár négyzetével.
+
+02:48.543 --> 02:51.014
+Ez a távolság itt 1.
+
+02:51.600 --> 02:55.080
+Már kimondtuk, hogy cos Θ-t úgy definiáljuk,
+
+02:55.080 --> 02:58.135
+mint ennek a pontnak az x koordinátáját,
+
+02:58.140 --> 03:00.560
+és sin Θ-t pedig, mint ennek a pontnak az y koordinátáját.
+
+03:00.560 --> 03:02.526
+Ez a pont a körön helyezkedik el,
+
+03:02.526 --> 03:06.447
+teljesítenie kell ezt az összefüggést.
+
+03:06.720 --> 03:11.880
+Ez azt jelenti, hogy ha cos Θ-t helyettesítjük be x helyére,
+
+03:11.880 --> 03:14.058
+sin Θ-t y helyére,
+
+03:14.060 --> 03:16.780
+akkor ennek ki kell elégítenie az egyenletet, azaz
+
+03:16.780 --> 03:24.740
+cos Θ a négyzeten plusz sin Θ a négyzeten
+
+03:25.187 --> 03:29.389
+az egyenlő 1-gyel.
+
+03:29.389 --> 03:32.880
+Másképpen sin²Θ + cos²Θ = 1.
+
+03:33.100 --> 03:34.040
+Erre a pontra
+
+03:34.040 --> 03:36.461
+ez az x, cos Θ az x koordináta,
+
+03:36.461 --> 03:38.212
+sin Θ az y koordináta.
+
+03:38.220 --> 03:40.100
+Ezeknek a kört meghatározó pontoknak
+
+03:40.100 --> 03:43.380
+teljesíteniük kell az egyenletet:
+
+03:43.380 --> 03:46.440
+cos²Θ + sin²Θ = 1.
+
+03:47.253 --> 03:49.803
+Ezt nevezzük – ahogy már más videókban láttuk –
+
+03:49.803 --> 03:53.174
+Pitagoraszi azonosságnak.
+
+03:53.174 --> 03:54.594
+Kérdezheted, hogy ez miért hasznos?
+
+03:54.594 --> 03:57.704
+Nos, ezt alkalmazva, ha ismered sin Θ-t,
+
+03:57.704 --> 04:01.415
+meghatározhatod cos Θ-t, és fordítva.
+
+04:01.415 --> 04:04.726
+És ha ismered cos Θ-t,
+
+04:04.726 --> 04:06.696
+meghatározhatod nemcsak
+
+04:06.696 --> 04:08.556
+sin Θ-t, de tan Θ-t is,
+
+04:08.556 --> 04:11.347
+hiszen tan Θ nem más, mint sin Θ/cos Θ.
+
+04:11.787 --> 04:14.627
+Ha egy kicsit zavaros neked, hogy miért hívják ezt
+
+04:14.627 --> 04:18.427
+Pitagoraszi azonosságnak, ez egyszerűen
+
+04:18.427 --> 04:21.860
+a kör egyenletéből következik, az egész abból jön.
+
+04:21.860 --> 04:23.680
+Ha tekintjük itt ezt a pontot,
+
+04:26.239 --> 04:28.409
+amelynek ugye az x koordinátája cos Θ
+
+04:28.409 --> 04:30.039
+és y koordinátája sin Θ,
+
+04:30.039 --> 04:34.240
+milyen messze van ez a pont az origótól?
+
+04:35.108 --> 04:38.079
+Hogy erre rájöjjünk, felrajzolhatunk egy derékszögű háromszöget.
+
+04:38.820 --> 04:43.480
+Ez a távolság
+
+04:43.520 --> 04:45.860
+– ahhoz, hogy bármelyik síknegyedben vizsgálhassuk,
+
+04:45.860 --> 04:49.112
+vegyük a cos Θ abszolút értékét –
+
+04:49.112 --> 04:51.032
+ez tehát ez a hossz.
+
+04:51.193 --> 04:54.083
+Ez pedig
+
+04:54.083 --> 05:02.000
+sin Θ abszolút értéke.
+
+05:02.040 --> 05:03.600
+Természetesen nem kell az abszolút értékkel
+
+05:03.600 --> 05:05.500
+dolgoznom az első negyedben, de ha a
+
+05:05.500 --> 05:08.580
+a többi negyedbe mennék, és egy hasonló derékszögű háromszöggel dolgoznék,
+
+05:08.580 --> 05:10.920
+akkor szükség lenne az abszolút értékre.
+
+05:10.920 --> 05:12.975
+Mit tudunk a Pitagorasz-tételből?
+
+05:12.975 --> 05:14.295
+Ez egy derékszögű háromszög,
+
+05:14.295 --> 05:16.006
+amelynek átfogója 1 hosszúságú.
+
+05:16.006 --> 05:18.106
+Tudjuk tehát, hogy ennek a kifejezésnek a négyzete,
+
+05:18.106 --> 05:22.987
+| cos Θ |² plusz
+
+05:22.987 --> 05:26.188
+ennek a kifejezésnek a négyzete, azaz
+
+05:26.188 --> 05:30.630
+| sin Θ |²
+
+05:30.630 --> 05:33.203
+egyenlő kell legyen az átfogó négyzetével,
+
+05:33.203 --> 05:36.174
+ami 1 a négyzeten.
+
+05:36.174 --> 05:39.685
+Mondhatjuk, hogy ez ugyanaz.
+
+05:39.685 --> 05:41.578
+Ha négyzetre emelünk valamit negatív előjellel,
+
+05:41.578 --> 05:43.358
+negatívszor negatív
+
+05:43.358 --> 05:45.098
+az pozitív lesz,
+
+05:45.098 --> 05:47.329
+azaz ez ugyanaz, mint
+
+05:47.329 --> 05:56.170
+cos²Θ + sin²Θ = 1.
+
+05:58.520 --> 06:02.180
+Hát ezért hívják Pitagoraszi azonosságnak,
+
+06:02.200 --> 06:05.520
+és ez az egyenlet, ami a kört határozza meg, egyenesen következik a
+
+06:05.528 --> 06:10.701
+Pitagorasz-tételből, ha az átfogó hossza 1.

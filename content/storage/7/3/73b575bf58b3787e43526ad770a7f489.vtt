@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.370 --> 00:03.367
+I den här videon vill jag berätta lite om
+
+00:03.367 --> 00:07.500
+vad det betyder att vara ett primtal
+
+00:07.500 --> 00:10.094
+och vad du förhoppningsvis kommer att se i den här videon
+
+00:10.110 --> 00:12.608
+är att det är ett ganska enkelt koncept.
+
+00:12.608 --> 00:15.302
+Men allt eftersom din matematiska karriär utvecklas
+
+00:15.302 --> 00:17.601
+kommer du att se att det finns ganska avancerade koncept
+
+00:17.601 --> 00:20.712
+som kan byggas på primtal.
+
+00:20.712 --> 00:23.359
+Och det inkluderar saker som kodning
+
+00:23.359 --> 00:25.612
+och kanske datorn du använder just nu
+
+00:25.612 --> 00:28.026
+har en kodning som är baserad på primtal.
+
+00:28.026 --> 00:29.931
+Om du inte vet vad kodning betyder
+
+00:29.931 --> 00:31.718
+så behöver du inte bry dig om det just nu.
+
+00:31.718 --> 00:33.785
+Du behöver bara veta att primtal är ganska viktiga.
+
+00:33.785 --> 00:36.966
+Så här kommer definitionen
+
+00:36.966 --> 00:39.404
+och definitionen kan vara lite förvirrande
+
+00:39.404 --> 00:43.839
+men när vi ser den med exempel, borde det bli ganska enkelt.
+
+00:43.839 --> 00:49.946
+Ett tal är ett primtal om det är ett naturligt tal
+
+00:49.946 --> 00:57.794
+till exempel 1,2 eller 3 (räknetalen som börjar från 1)
+
+00:57.794 --> 01:00.488
+eller de "positiva heltalen" som de också kallas
+
+01:00.488 --> 01:30.962
+Det är ett naturligt tal, som är delbart med exakt två naturliga tal: sig självt och 1.
+
+01:30.962 --> 01:39.823
+De är de tal som primtalet är delbart med.
+
+01:39.823 --> 01:43.468
+Om det här låter konstigt så låt oss ta några exempel.
+
+01:43.468 --> 01:46.115
+Vi ska ta reda på om ett tal är ett primtal eller inte.
+
+01:46.115 --> 01:48.948
+Så, vi börjar med det minsta naturliga talet.
+
+01:48.948 --> 01:52.268
+Talet 1. Så man kan säga "1 är delbart med 1"
+
+01:52.268 --> 01:59.095
+och "1 är delbart med sig självt" Se där! 1 är ett primtal!
+
+01:59.095 --> 02:02.137
+Men kom ihåg definitionen, det måste vara delbart med
+
+02:02.137 --> 02:07.803
+exakt två naturliga tal. 1 är bara delbart med ett naturligt tal, bara med 1.
+
+02:07.803 --> 02:16.673
+Så 1, även om det kanske låter ologiskt, är inte ett primtal.
+
+02:16.673 --> 02:20.504
+Vi fortsätter med 2.
+
+02:20.504 --> 02:28.102
+1 är delbart med 1 och 2, och inte med några andra naturliga tal.
+
+02:28.102 --> 02:30.906
+Så det verkar stämma in på våra begränsningar
+
+02:30.906 --> 02:33.948
+Det är delbart med exakt två naturliga tal,
+
+02:33.948 --> 02:42.238
+sig självt och 1. Alltså är talet 2 ett primtal.
+
+02:42.238 --> 02:52.849
+Jag ringar in de tal som är primtal.
+
+02:52.849 --> 02:55.334
+Talet 2 är intressant eftersom
+
+02:55.334 --> 02:57.818
+det är det enda jämna talet som är ett primtal.
+
+02:57.818 --> 03:00.396
+Om du tänker efter, så är alla andra jämna tal
+
+03:00.396 --> 03:03.620
+också delbara med 2, så därför är de inte primtal.
+
+03:03.620 --> 03:06.688
+Vi förklarar mer om det i senare videoklipp.
+
+03:06.688 --> 03:13.144
+Vi provar med 3. 3 är definitivt delbart med 1 och 3
+
+03:13.144 --> 03:15.651
+och det är inte delbart med nånting däremellan.
+
+03:15.651 --> 03:20.272
+Det är inte delbart med 2, så 3 är också ett primtal.
+
+03:20.272 --> 03:25.264
+Vi provar med 4.
+
+03:25.264 --> 03:29.676
+4 är delbart med 1 och 4,
+
+03:29.676 --> 03:36.224
+men det är också delbart med 2. Så det är delbart
+
+03:36.224 --> 03:40.311
+med tre naturliga tal: 1, 2 och 4.
+
+03:40.311 --> 03:44.723
+Därför stämmer det inte in på vår beskrivning av ett primtal.
+
+03:44.723 --> 03:48.252
+Vi provar med 5.
+
+03:48.252 --> 03:51.015
+5 är delbart med 1,
+
+03:51.015 --> 03:57.842
+det är inte delbart med 2, 3 eller 4
+
+03:57.842 --> 04:01.209
+(man skulle kunna dela 5 / 4 men då får man en rest)
+
+04:01.209 --> 04:05.133
+men självklart är det delbart med 5.
+
+04:05.133 --> 04:10.265
+Så igen, 5 är delbart med exakt två naturliga tal: 1 och 5.
+
+04:10.265 --> 04:14.235
+En gång till, 5 är ett primtal. Vi fortsätter
+
+04:14.235 --> 04:17.393
+så vi ser om det finns något mönster här.
+
+04:17.393 --> 04:19.924
+Sen provar jag med en riktigt svår
+
+04:19.924 --> 04:26.031
+som många brukar luras av. Vi provar med talet 6.
+
+04:26.031 --> 04:34.622
+Det är delbart med 1, 2, 3 och 6.
+
+04:34.622 --> 04:37.595
+Det har fyra naturliga tal som "faktorer"
+
+04:37.595 --> 04:40.033
+skulle man kunna säga
+
+04:40.033 --> 04:43.005
+Det har inte exakt två tal som det är delbart med,
+
+04:43.005 --> 04:46.743
+det har fyra, så det är inte ett primtal.
+
+04:46.743 --> 04:49.715
+Vi fortsätter med 7.
+
+04:49.715 --> 04:55.869
+7 är delbart med 1, inte 2, 3, 4, 5 eller 6,
+
+04:55.869 --> 05:00.791
+men det är också delbart med 7.
+
+05:00.791 --> 05:03.624
+så 7 är ett primtal. Jag tror du förstår poängen här.
+
+05:03.624 --> 05:06.689
+Hur många naturliga tal - tal som 1, 2, 3, 4, 5 -
+
+05:06.689 --> 05:09.383
+talen du lärde dig när du var 2 år gammal.
+
+05:09.383 --> 05:11.681
+inte inräknat noll, inte inräknat negativa tal,
+
+05:11.681 --> 05:13.980
+inte inräknat bråktal och irrationella tal,
+
+05:13.980 --> 05:15.768
+och decimaler och allt annat,
+
+05:15.768 --> 05:18.578
+bara normala positiva räknetal.
+
+05:18.578 --> 05:21.318
+Om du bar har två av dem
+
+05:21.318 --> 05:23.733
+om talet bara är delbart med sig självt och 1,
+
+05:23.733 --> 05:25.544
+så är det ett primtal.
+
+05:25.544 --> 05:27.192
+Jag brukar tänka såhär,
+
+05:27.192 --> 05:29.607
+Om vi bortser från specialfallet 1,
+
+05:29.607 --> 05:31.604
+så är primtal ett slags byggklossar av tal.
+
+05:31.604 --> 05:33.299
+Man kan inte dela upp dem i mindre bitar.
+
+05:33.299 --> 05:34.809
+De är nästan som atomer.
+
+05:34.809 --> 05:36.285
+Om du tänker på vad en atom är,
+
+05:36.285 --> 05:38.111
+eller vad folk trodde att atomer var när de först...
+
+05:38.111 --> 05:39.991
+de trodde att det var saker
+
+05:39.991 --> 05:41.890
+som man inte kan dela upp i mindre bitar.
+
+05:41.890 --> 05:43.986
+Vi vet ju nu att man kan dela atomer, och faktiskt
+
+05:43.986 --> 05:46.475
+om man gör det så kan man kanske skapa en kärnexplosion
+
+05:46.475 --> 05:49.655
+Men det är samma idé bakom primtal.
+
+05:49.655 --> 05:52.618
+Man kan inte dela upp dem
+
+05:52.618 --> 05:57.402
+i produkter av mindre naturliga tal
+
+05:57.402 --> 06:01.256
+om 6 kan man säga, 6 är 2 gånger 3,
+
+06:01.256 --> 06:03.717
+man kan bryta ner det, och se, vi kan bryta ner det
+
+06:03.717 --> 06:06.411
+som en produkt av primtal.
+
+06:06.411 --> 06:08.872
+Vi har brutit ner det i sina beståndsdelar.
+
+06:08.872 --> 06:11.217
+7 kan inte brytas ner mera.
+
+06:11.217 --> 06:14.817
+Allt man kan säga är att 7 är lika med 7 gånger 1.
+
+06:14.817 --> 06:16.930
+Och i så fall har man inte riktigt brutit ner det.
+
+06:16.930 --> 06:19.066
+Man har ju 7 där igen.
+
+06:19.066 --> 06:20.877
+6 kan man faktiskt bryta ner.
+
+06:20.877 --> 06:23.965
+4 kan ju brytas ner som 2 gånger 2.
+
+06:23.965 --> 06:25.800
+Nu när det är avklarat, så tittar vi på
+
+06:25.800 --> 06:27.425
+lite större tal, och på
+
+06:27.425 --> 06:30.072
+om de talen är primtal.
+
+06:30.072 --> 06:34.902
+Vi provar med 16.
+
+06:34.902 --> 06:38.872
+Alla naturliga tal är ju delbara med 1 och sig självt
+
+06:38.872 --> 06:42.262
+så 16 är delbart med 1 och 16.
+
+06:42.262 --> 06:44.143
+Så man börjar alltid med två tal,
+
+06:44.143 --> 06:46.071
+så om man hittar någonting mer som passar in här
+
+06:46.071 --> 06:48.207
+så vet man att det inte är primtal.
+
+06:48.207 --> 06:51.109
+För 16 kan man ha 2 gånger 8,
+
+06:51.109 --> 06:53.362
+eller 4 gånger 4,
+
+06:53.362 --> 06:55.451
+så det finns en massa faktorer här,
+
+06:55.451 --> 06:57.588
+utöver bara 1 och 16.
+
+06:57.588 --> 07:02.278
+Så 16 är inte ett primtal. Hur är det med 17?
+
+07:02.278 --> 07:06.411
+1 och 17 funkar definitivt med 17,
+
+07:06.411 --> 07:10.846
+2 funkar inte med 17, 3 funkar inte, 4, 5, 6, 7, 8 ...
+
+07:10.846 --> 07:14.701
+inga av de här talen, inga mellan 1 och 17,
+
+07:14.701 --> 07:21.086
+funkar med 17, så 17 är ett primtal.
+
+07:21.086 --> 07:23.803
+Nu kommer en svår.
+
+07:23.803 --> 07:26.822
+Den här blir många lurade av.
+
+07:26.822 --> 07:34.345
+Hur är det med 51? Är 51 ett primtal?
+
+07:34.345 --> 07:37.480
+Och om du vill så kan du pausa videon här
+
+07:37.480 --> 07:39.500
+och försöka lista ut själv
+
+07:39.500 --> 07:41.520
+om 51 är ett primtal.
+
+07:41.520 --> 07:45.142
+Om du hittar något förutom 1 och 51,
+
+07:45.142 --> 07:48.161
+som man kan dela 51 med. Det verkar som...
+
+07:48.161 --> 07:50.042
+wow, det här är ett ganska konstigt tal.
+
+07:50.042 --> 07:52.340
+Du kanske tror att det är ett primtal
+
+07:52.340 --> 07:54.268
+men nu kommer jag att ge dig svaret.
+
+07:54.268 --> 07:59.933
+Det är inte ett primtal, eftersom det är delbart med 3 och 17.
+
+07:59.933 --> 08:02.998
+3 gånger 17 är 51.
+
+08:02.998 --> 08:04.779
+Förhoppningsvis ger det här dig en klar blid
+
+08:04.779 --> 08:06.388
+av vad primtal handlar om,
+
+08:06.388 --> 08:09.407
+och förhoppningsvis kan vi ge dig lite övning på det
+
+08:09.407 --> 3:59:59.999
+i framtida videoklipp och kanske i en del av våra övningar.

@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.740 --> 00:04.160
+Decomponha 75 em fatores primos.
+
+00:04.160 --> 00:07.390
+Escreva a sua resposta em notação exponencial.
+
+00:07.390 --> 00:08.970
+Então nós temos um par de coisas interessantes aqui.
+
+00:08.970 --> 00:12.410
+Decomposição em fatores primos e eles falam em forma de potência.
+
+00:12.410 --> 00:15.460
+Vamos nos preocupar com a forma de potência mais tarde.
+
+00:15.460 --> 00:18.560
+Então a primeira coisa que temos que nos preocupar é um
+
+00:18.560 --> 00:19.380
+número primo par?
+
+00:19.380 --> 00:22.240
+E, só para lembrar, um número primo é um número
+
+00:22.240 --> 00:26.130
+que é divisível somente por ele mesmo e por 1, então exemplos
+
+00:26.130 --> 00:28.880
+de números primos-- deixe-me escrever alguns números abaixo.
+
+00:28.880 --> 00:34.753
+Primo, não primo.
+
+00:34.760 --> 00:36.840
+Então 2 é um número primo.
+
+00:36.840 --> 00:39.850
+É divisível somente por 1 e por 2.
+
+00:39.850 --> 00:42.490
+3 é outro número primo.
+
+00:42.490 --> 00:46.790
+Agora, 4 não é primo pois é
+
+00:46.790 --> 00:49.790
+divisível por 1, 2 e por 4.
+
+00:49.790 --> 00:50.580
+Nós poderíamos continuar.
+
+00:50.580 --> 00:56.220
+5, bem 5 é divisível somente por 1 e por 5, então 5 é primo.
+
+00:56.220 --> 00:59.920
+6 não é primo, por que é divisível por 2 e por 3.
+
+00:59.920 --> 01:01.590
+Eu acho que você entendeu a ideia geral.
+
+01:01.590 --> 01:04.160
+Você continua para o 7, 7 é primo.
+
+01:04.160 --> 01:06.470
+É divisível por 1 e por 7 apenas.
+
+01:06.470 --> 01:08.220
+8 não é primo.
+
+01:08.220 --> 01:11.440
+9 você deve estar tentado a dizer que é primo, mas, lembre-se,
+
+01:11.440 --> 01:15.420
+é divisível por 3 também, então 9 não é primo.
+
+01:15.420 --> 01:18.970
+Ser primo não é a mesma coisa que ser ímpar.
+
+01:18.970 --> 01:21.400
+Então você vai para o 10, 10 também não é primo,
+
+01:21.400 --> 01:23.560
+pois é divisível por 2 e por 5.
+
+01:23.560 --> 01:27.220
+11 só é divisível por 1 e por 11, então 11 é
+
+01:27.220 --> 01:28.240
+um número primo.
+
+01:28.240 --> 01:29.780
+E nós poderíamos continuar dessa maneira...
+
+01:29.780 --> 01:31.570
+As pessoas escreveram programas de computador procurando pelos
+
+01:31.570 --> 01:33.260
+maiores números primos e coisas do tipo...
+
+01:33.260 --> 01:35.220
+Então agora que sabemos o que é um número primo,
+
+01:35.220 --> 01:39.240
+a decomposição em fatores primos é "quebrar" um número, como o 75,
+
+01:39.240 --> 01:41.620
+em um produto de números primos.
+
+01:41.620 --> 01:43.180
+Então vamos tentar fazer isso.
+
+01:43.180 --> 01:45.530
+Vamos começar com o 75 e eu vou fazer isso
+
+01:45.530 --> 01:49.080
+usando o que chamamos de árvore de fatoração.
+
+01:49.080 --> 01:51.750
+Primeiro nós tentamos encontrar o menor número primo que
+
+01:51.750 --> 01:53.890
+divide o 75.
+
+01:53.890 --> 01:55.430
+Agora, o menor número primo é 2.
+
+01:55.430 --> 01:57.390
+2 divide 75 e deixa resto zero?
+
+01:57.390 --> 02:00.705
+Bem, 75 é ímpar, ou o número na casa das unidades,
+
+02:00.705 --> 02:02.280
+é 5, que é um número ímpar.
+
+02:02.280 --> 02:06.580
+5 não é divisível por 2, então 75 também não é.
+
+02:06.580 --> 02:08.090
+Então podemos tentar o 3.
+
+02:08.090 --> 02:09.639
+3 divide 75?
+
+02:09.639 --> 02:12.440
+Bem, 7 + 5 = 12
+
+02:12.440 --> 02:15.480
+12 é divisível por 3, então 75 também é.
+
+02:15.480 --> 02:20.440
+Então 75 é 3 vezes algum número.
+
+02:20.440 --> 02:22.990
+E se você já lidou com dinheiro você sabe que se você
+
+02:22.990 --> 02:25.890
+possui três "quarters", você tem 75 centavos, ou se você tem 3
+
+02:25.890 --> 02:28.930
+vezes 25, você tem 75.
+
+02:28.930 --> 02:31.560
+Então é 3 vezes 25.
+
+02:31.560 --> 02:33.720
+E você pode fazer a multiplicação se você não acredita em mim.
+
+02:33.720 --> 02:35.960
+Multiplique 3 por 25.
+
+02:35.960 --> 02:40.470
+Agora, o 25 é divisível por quanto-- você pode desistir do 2.
+
+02:40.470 --> 02:44.910
+Se 75 não era divisível por 2, 25 também não será divisível
+
+02:44.910 --> 02:46.000
+por 2 também.
+
+02:46.000 --> 02:48.730
+Mas pode ser que 25 seja divisível por 3 novamente.
+
+02:48.730 --> 02:52.290
+Então se você somar os dígitos 2+5=7
+
+02:52.290 --> 02:57.700
+7 não é divisível por 3, então 25 também não será.
+
+02:57.700 --> 02:59.480
+Então continue em frente: 5
+
+02:59.480 --> 03:01.430
+25 é divisível por 5?
+
+03:01.430 --> 03:01.980
+Sim, claro!
+
+03:01.980 --> 03:03.590
+É 5 vezes 5.
+
+03:03.590 --> 03:08.330
+Então 25 é 5 vezes 5.
+
+03:08.330 --> 03:11.730
+E nós terminamos a nossa decomposição em fatores primos pois agora nós
+
+03:11.730 --> 03:13.390
+temos todos os números primos aqui.
+
+03:13.390 --> 03:18.270
+Então nós podemos escrever que 75 é 3 vezes 5 vezes 5.
+
+03:18.270 --> 03:25.640
+Então 75 = 3 . 5 . 5
+
+03:25.640 --> 03:27.350
+Nós podemos dizer que é 3 vezes 25.
+
+03:27.350 --> 03:29.400
+25 é 5 vezes 5.
+
+03:29.400 --> 03:33.370
+3 vezes 25 é 3 vezes 5 vezes 5.
+
+03:33.370 --> 03:36.460
+Então essa é uma decomposição em fatores primos, mas eles querem
+
+03:36.460 --> 03:41.690
+que a resposta seja em notação exponencial.
+
+03:41.690 --> 03:44.560
+Isso significa que, se repetimos primos, podemos escrevê-los
+
+03:44.560 --> 03:45.920
+como um expoente.
+
+03:45.920 --> 03:48.480
+O que é 5 vezes 5?
+
+03:48.480 --> 03:52.380
+5 vezes 5 é 5 multiplicado por ele mesmo.
+
+03:52.380 --> 03:56.310
+É a mesma coisa que 5 elevado à segunda potência.
+
+03:56.310 --> 03:58.380
+Então se queremos escrever a resposta usando a notação
+
+03:58.380 --> 04:03.420
+exponencial, podemos dizer que é igual a 3 vezes 5
+
+04:03.420 --> 04:08.110
+ao quadrado, que é a mesma coisa que 5 vezes 5.

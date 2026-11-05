@@ -1,0 +1,494 @@
+WEBVTT
+
+00:00.452 --> 00:02.170
+- [Voiceover] The result
+that I hope to show you,
+
+00:02.170 --> 00:04.104
+or you give you an
+intuition for, in this video
+
+00:04.104 --> 00:06.001
+is something that we will use
+
+00:06.001 --> 00:08.102
+in the proof of the chain rule,
+
+00:08.102 --> 00:09.569
+or in a proof of the chain rule actually.
+
+00:09.569 --> 00:13.307
+We may do more than
+proof of the chain rule.
+
+00:13.307 --> 00:14.886
+But the result we're gonna look at
+
+00:14.886 --> 00:16.929
+is if we have some function u
+
+00:16.929 --> 00:18.474
+which is a function of x,
+
+00:18.474 --> 00:22.188
+and we know that it is continuous
+
+00:23.871 --> 00:26.729
+at x equals c,
+
+00:26.729 --> 00:30.084
+so if we know this, then
+that's going to imply
+
+00:30.084 --> 00:34.159
+that the change in u goes
+
+00:34.159 --> 00:39.114
+to zero as our change in x in this region
+
+00:39.114 --> 00:41.424
+around c goes to zero.
+
+00:41.424 --> 00:43.351
+This is what I want to
+get an intuition for.
+
+00:43.351 --> 00:45.686
+That if u is continuous at c,
+
+00:45.686 --> 00:48.667
+then as our change in x around c
+
+00:48.667 --> 00:51.745
+gets smaller, and smaller, and smaller
+
+00:51.745 --> 00:54.566
+as it approaches zero,
+then our change in u
+
+00:54.566 --> 00:57.110
+approaches zero as well.
+
+00:58.296 --> 01:00.282
+To think about this, or
+to even kind of prove it
+
+01:00.282 --> 01:03.450
+to ourselves a little bit more rigorously,
+
+01:03.450 --> 01:04.785
+let's think about what it means
+
+01:04.785 --> 01:07.409
+to be continuous at x equals c.
+
+01:07.409 --> 01:10.984
+Well the definition of continuity is,
+
+01:10.984 --> 01:14.003
+so this literally is
+the same thing as saying
+
+01:14.003 --> 01:18.297
+that the limit as x approaches c
+
+01:18.297 --> 01:23.104
+of u of x is equal to u of c.
+
+01:23.104 --> 01:26.215
+The limit that our function approaches
+
+01:26.215 --> 01:27.556
+as x approaches c is equal
+
+01:27.556 --> 01:29.408
+to the value of the function at c.
+
+01:29.408 --> 01:31.811
+We don't have a point discontinuity
+
+01:31.811 --> 01:33.471
+or a jump discontinuity.
+
+01:33.471 --> 01:34.574
+If we had a jump discontinuity,
+
+01:34.574 --> 01:35.932
+then the limit wouldn't exist,
+
+01:35.932 --> 01:38.231
+and we've seen that in previous videos.
+
+01:38.231 --> 01:40.750
+Now I'm just gonna
+manipulate this algebraically
+
+01:40.750 --> 01:43.108
+so it essentially gives us this conclusion
+
+01:43.108 --> 01:44.732
+right over here.
+
+01:44.732 --> 01:46.752
+So this we can rewrite.
+
+01:46.752 --> 01:48.389
+It's important to realize that u of c,
+
+01:48.389 --> 01:50.003
+this is just going to be some value.
+
+01:50.003 --> 01:53.207
+It looks like maybe this is a function
+
+01:53.207 --> 01:54.251
+of x or something, but no,
+
+01:54.251 --> 01:55.970
+this is just going to be some value.
+
+01:55.970 --> 01:57.769
+I've inputted c here and I've evaluated
+
+01:57.769 --> 01:59.267
+the function of that, and so this is going
+
+01:59.267 --> 01:59.864
+to be some number.
+
+01:59.864 --> 02:01.719
+It could be five, or seven, or pi,
+
+02:01.719 --> 02:03.947
+or negative one, but it's just going
+
+02:03.947 --> 02:06.878
+to be some value, some constant.
+
+02:06.878 --> 02:08.796
+So I can treat it like a constant.
+
+02:08.796 --> 02:10.408
+So this is going to be the same thing
+
+02:10.408 --> 02:14.386
+as saying the limit as x
+
+02:14.386 --> 02:19.188
+approaches c of u of x
+
+02:19.188 --> 02:21.547
+minus u of c
+
+02:21.547 --> 02:24.101
+is equal to zero.
+
+02:24.101 --> 02:26.028
+And actually, in the video where we prove
+
+02:26.028 --> 02:28.501
+that differentiability implies continuity,
+
+02:28.501 --> 02:31.764
+we started with this and we proved
+
+02:31.764 --> 02:32.622
+that right over there.
+
+02:32.622 --> 02:35.048
+We show that these two
+are equivalent things.
+
+02:35.048 --> 02:36.036
+But hopefully you could even think
+
+02:36.036 --> 02:36.656
+about the intuition.
+
+02:36.656 --> 02:41.462
+This is just if the limit of u of x
+
+02:41.462 --> 02:43.564
+is x approaches c is equal to this,
+
+02:43.564 --> 02:45.468
+then when you evaluate this limit,
+
+02:45.468 --> 02:46.966
+the limit is x approaches c,
+
+02:46.966 --> 02:50.611
+well this thing is going
+to approach u of c,
+
+02:50.611 --> 02:51.892
+because we saw it right up here,
+
+02:51.892 --> 02:53.831
+u of c minus u of c is indeed
+
+02:53.831 --> 02:55.758
+going to be equal to zero.
+
+02:55.758 --> 02:57.871
+So hopefully you don't
+feel like it's too much
+
+02:57.871 --> 02:59.810
+of a stretch, and you can just subtract
+
+02:59.810 --> 03:02.016
+u of c from both sides
+and apply properties
+
+03:02.016 --> 03:05.429
+of limits, and you can
+get this result as well.
+
+03:05.429 --> 03:07.750
+But this is interesting
+because this essentially
+
+03:07.750 --> 03:09.955
+can take us to this,
+
+03:09.955 --> 03:11.483
+the idea that as our change in x
+
+03:11.483 --> 03:13.285
+gets smaller, and smaller, and smaller
+
+03:13.285 --> 03:15.723
+as it approaches zero, then our change
+
+03:15.723 --> 03:18.627
+in our function is also
+going to approach zero.
+
+03:18.627 --> 03:22.085
+Now let's just graph
+this or visualize this
+
+03:22.085 --> 03:24.152
+to get a sense of that.
+
+03:24.152 --> 03:29.152
+So this is our x axis.
+
+03:29.512 --> 03:30.676
+Woops.
+
+03:30.676 --> 03:32.475
+That's our x axis.
+
+03:32.475 --> 03:35.578
+Let's call that our u axis maybe.
+
+03:35.578 --> 03:36.925
+And I did u intentionally because
+
+03:36.925 --> 03:38.121
+that's the variable we'll use
+
+03:38.121 --> 03:41.766
+in our proof of the chain rule video.
+
+03:41.766 --> 03:43.067
+Let's say this right over here
+
+03:43.067 --> 03:44.892
+is our function.
+
+03:45.318 --> 03:47.626
+Let's say this right over here,
+
+03:47.626 --> 03:50.089
+that is c.
+
+03:50.089 --> 03:52.889
+This right over here is u of c.
+
+03:54.011 --> 03:56.521
+U of c.
+
+03:56.521 --> 04:00.734
+Then let's just take some
+arbitrary x over here.
+
+04:01.115 --> 04:03.429
+So some arbitrary x,
+
+04:03.429 --> 04:07.949
+and then this right over here is u of x.
+
+04:11.787 --> 04:15.577
+So if we define our change,
+
+04:16.499 --> 04:17.225
+let me do this.
+
+04:17.225 --> 04:21.295
+If we define our change in u is equal
+
+04:21.295 --> 04:23.396
+to u of x minus u of c,
+
+04:23.396 --> 04:24.569
+which makes sense because this
+
+04:24.569 --> 04:27.790
+is our change in u.
+
+04:27.790 --> 04:31.206
+So let's say this is going to be u of x
+
+04:31.206 --> 04:34.246
+minus u of c.
+
+04:34.246 --> 04:38.392
+If we define our change in x
+
+04:38.392 --> 04:40.043
+is equal to x minus c,
+
+04:40.043 --> 04:41.098
+which it is in this case,
+
+04:41.098 --> 04:43.492
+it is x minus c,
+
+04:46.504 --> 04:48.580
+then we can rewrite this limit
+
+04:48.580 --> 04:49.527
+right over here.
+
+04:49.527 --> 04:52.568
+Instead of saying the
+limit as x approaches c,
+
+04:52.568 --> 04:55.192
+we could write the limit as delta x
+
+04:55.192 --> 04:58.372
+approaches zero, because
+if x approaches c,
+
+04:58.372 --> 05:01.090
+then delta x is going to approach zero.
+
+05:01.090 --> 05:02.668
+So we could write this the limit
+
+05:02.668 --> 05:07.640
+as delta x approaches zero of delta u
+
+05:10.580 --> 05:12.202
+is going to be equal to zero.
+
+05:12.202 --> 05:13.549
+We define this as our change in u,
+
+05:13.549 --> 05:15.104
+and it is our change in u.
+
+05:15.104 --> 05:18.005
+So this is equal to zero.
+
+05:18.005 --> 05:19.979
+So another way of thinking about this
+
+05:19.979 --> 05:23.648
+is as delta x approaches zero,
+
+05:23.648 --> 05:25.679
+our change in u, our
+change in the function,
+
+05:25.679 --> 05:27.340
+is going to approach zero.
+
+05:27.340 --> 05:32.340
+So as delta x approaches zero,
+
+05:35.423 --> 05:38.702
+delta u approaches zero.
+
+05:38.702 --> 05:39.742
+That's what we wrote over here.
+
+05:39.742 --> 05:41.425
+Delta u approaches zero
+
+05:41.425 --> 05:43.200
+as delta x approaches zero.
+
+05:43.200 --> 05:47.124
+In a lot of ways, this is
+hopefully common sense.
+
+05:47.124 --> 05:49.040
+We're dealing with a continuous function.
+
+05:49.040 --> 05:50.598
+As you get smaller and smaller,
+
+05:50.598 --> 05:51.639
+and you can just think of it this way,
+
+05:51.639 --> 05:54.357
+as you get smaller and
+smaller changes in x's,
+
+05:54.357 --> 05:56.759
+as our change in x gets smaller,
+
+05:56.759 --> 05:58.937
+and smaller, and smaller, and smaller,
+
+05:58.937 --> 06:00.375
+well it's because it's continuous.
+
+06:00.375 --> 06:00.982
+You wouldn't be able to say this
+
+06:00.982 --> 06:02.677
+for a discontinuous function,
+
+06:02.677 --> 06:04.177
+but because it's continuous,
+
+06:04.177 --> 06:05.094
+or you wouldn't be able to say this
+
+06:05.094 --> 06:07.962
+for some discontinuous functions,
+
+06:07.962 --> 06:09.621
+as our change in x gets smaller,
+
+06:09.621 --> 06:11.014
+and smaller, and smaller,
+
+06:11.014 --> 06:13.104
+then our change in u is
+going to get smaller,
+
+06:13.104 --> 06:14.057
+and smaller, and smaller.
+
+06:14.057 --> 06:15.317
+So it makes intuitive sense,
+
+06:15.317 --> 06:16.338
+but hopefully this makes you feel
+
+06:16.338 --> 06:18.013
+even better about it
+because we're going to use
+
+06:18.013 --> 06:21.112
+this idea to prove the chain rule
+
+06:21.112 --> 06:23.027
+in the next video.

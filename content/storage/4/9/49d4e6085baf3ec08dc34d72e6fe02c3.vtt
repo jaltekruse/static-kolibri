@@ -1,0 +1,922 @@
+WEBVTT
+
+00:00.580 --> 00:04.900
+In the last video, we found the
+slope at a particular point of
+
+00:04.900 --> 00:07.035
+the curve y is equal
+to x squared.
+
+00:07.035 --> 00:09.700
+But let's see if we can
+generalize this and come up
+
+00:09.700 --> 00:12.780
+with a formula that finds us
+the slope at any point of the
+
+00:12.780 --> 00:15.350
+curve y is equal to x squared.
+
+00:15.350 --> 00:18.000
+So let me redraw
+my function here.
+
+00:18.000 --> 00:21.720
+It never hurts to
+have a nice drawing.
+
+00:21.720 --> 00:24.530
+So that is my y-axis.
+
+00:24.530 --> 00:28.420
+That is my x-axis right there.
+
+00:28.420 --> 00:29.580
+My x-axis.
+
+00:29.580 --> 00:30.670
+Let me draw my curve.
+
+00:30.670 --> 00:32.900
+It looks something like that.
+
+00:32.900 --> 00:34.210
+You've seen that
+multiple times.
+
+00:34.210 --> 00:37.970
+This is y is equal
+to x squared.
+
+00:37.970 --> 00:39.740
+So let's be very
+general right now.
+
+00:39.740 --> 00:42.600
+Remember, if we want to find--
+let me just write the
+
+00:42.600 --> 00:44.600
+definition of our derivative.
+
+00:44.600 --> 00:48.450
+So if we have some point right
+here-- let's call that x.
+
+00:48.450 --> 00:49.630
+So we want to be very general.
+
+00:49.630 --> 00:52.470
+We want to find the
+slope at the point x.
+
+00:52.470 --> 00:55.190
+We want to find a function
+where you give me an x
+
+00:55.190 --> 00:57.010
+and I'll tell you the
+slope at that point.
+
+00:57.010 --> 00:59.800
+We're going to call
+that f prime of x.
+
+00:59.800 --> 01:06.210
+That's going to be the
+derivative of f of x.
+
+01:06.210 --> 01:09.830
+But all it does is, look, f of
+x, you give-- it's a function
+
+01:09.830 --> 01:12.670
+that you give it an x, and it
+tells you the value of that.
+
+01:12.670 --> 01:14.810
+And we draw the curve here.
+
+01:14.810 --> 01:19.470
+With f of x, you give that same
+x but it's not going to tell
+
+01:19.470 --> 01:21.050
+you the value of the curve.
+
+01:21.050 --> 01:22.760
+It's not going to say,
+oh, this is your f of x.
+
+01:22.760 --> 01:24.855
+It's going to give you the
+value of the slope of
+
+01:24.855 --> 01:26.280
+the curve at that point.
+
+01:26.280 --> 01:28.790
+So f of x, if you put it into
+that function, it should tell
+
+01:28.790 --> 01:31.540
+you, oh, the slope at that
+point, is equal to-- you know,
+
+01:31.540 --> 01:33.360
+if you put 3 there, you'll say,
+oh, the slope there
+
+01:33.360 --> 01:34.220
+is equal to 6.
+
+01:34.220 --> 01:35.590
+We saw that in the
+last example.
+
+01:35.590 --> 01:37.410
+So that's what we want to do.
+
+01:37.410 --> 01:40.600
+And we saw on the last-- I
+think it was 2-- videos ago,
+
+01:40.600 --> 01:47.130
+that we defined f prime of x
+to be equal to-- just the--
+
+01:47.130 --> 01:48.470
+well, I'll write it this way.
+
+01:48.470 --> 01:51.210
+It's the slope of the secant
+line between x and some
+
+01:51.210 --> 01:53.540
+point that's a little
+bit further away from x.
+
+01:53.540 --> 01:56.640
+So the slope of the secant
+line is change in y.
+
+01:56.640 --> 02:00.940
+So it's the y value of the
+point that's a little
+
+02:00.940 --> 02:02.290
+bit further away from x.
+
+02:02.290 --> 02:07.630
+So f of x plus h minus
+the y value at x, right?
+
+02:07.630 --> 02:08.600
+Because this is right here.
+
+02:08.600 --> 02:11.200
+This is f of x.
+
+02:11.200 --> 02:13.820
+So minus f of x.
+
+02:13.820 --> 02:15.830
+All of that over
+the change in x.
+
+02:15.830 --> 02:19.620
+So if this is x plus h
+here, the change in x
+
+02:19.620 --> 02:21.740
+is x plus h minus x.
+
+02:21.740 --> 02:23.470
+Or this distance right
+here is just h.
+
+02:23.470 --> 02:26.830
+The change in x is going
+to be equal to h.
+
+02:26.830 --> 02:29.150
+So that's just slope of
+the secant line, between
+
+02:29.150 --> 02:31.240
+any 2 points like that.
+
+02:31.240 --> 02:33.880
+And we said, hey, we could find
+the slope of the tangent line
+
+02:33.880 --> 02:36.390
+if we just take the limit of
+this as it approaches--
+
+02:36.390 --> 02:40.060
+as h approaches 0.
+
+02:40.060 --> 02:42.930
+And then we'll be finding the
+slope of the tangent line.
+
+02:42.930 --> 02:48.060
+Now let's apply this idea to
+a particular function, f of
+
+02:48.060 --> 02:49.970
+x is equal to x squared.
+
+02:49.970 --> 02:52.430
+Or y is equal to x squared.
+
+02:52.430 --> 02:55.800
+So here, we could have the
+point-- we could consider this
+
+02:55.800 --> 02:58.910
+to be the point x-- x squared.
+
+02:58.910 --> 03:01.380
+So f of x is just
+equal to x squared.
+
+03:01.380 --> 03:05.040
+And then this would be the
+point-- let me do it in
+
+03:05.040 --> 03:07.140
+a more vibrant color.
+
+03:07.140 --> 03:11.510
+This is the point x plus h--
+that's this point right here.
+
+03:11.510 --> 03:13.040
+It's a little bit further down.
+
+03:13.040 --> 03:14.770
+And then x plus h squared.
+
+03:19.450 --> 03:20.880
+And you know, in the
+last video, we did this
+
+03:20.880 --> 03:21.500
+for a particular x.
+
+03:21.500 --> 03:22.590
+We did it for 3.
+
+03:22.590 --> 03:24.330
+But now I want a
+general formula.
+
+03:24.330 --> 03:26.300
+You give me any x and I won't
+have to do what I did in the
+
+03:26.300 --> 03:28.330
+last video for any
+particular number.
+
+03:28.330 --> 03:29.490
+I'll have a general function.
+
+03:29.490 --> 03:31.570
+You give me 7, I'll tell you
+what the slope is at 7.
+
+03:31.570 --> 03:33.260
+You give me negative 3, I'll
+tell you what the slope
+
+03:33.260 --> 03:34.300
+is at negative 3.
+
+03:34.300 --> 03:36.450
+You give me 100,000,
+I'll tell you what the
+
+03:36.450 --> 03:37.690
+slope is at 100,000.
+
+03:37.690 --> 03:39.310
+So let's apply it here.
+
+03:39.310 --> 03:42.740
+So we want to find the change
+in y over the change in x.
+
+03:45.410 --> 03:51.190
+So first of all, the change
+in y is this guy's y value,
+
+03:51.190 --> 03:52.975
+which is x plus h squared.
+
+03:57.410 --> 03:59.290
+That's this guy's y
+value right here.
+
+03:59.290 --> 04:00.270
+That's this right here.
+
+04:00.270 --> 04:02.730
+That's x plus h squared.
+
+04:02.730 --> 04:06.380
+I just took x plus h,
+evaluated, I squared it, and
+
+04:06.380 --> 04:07.820
+that's its point on the curve.
+
+04:07.820 --> 04:08.930
+So it's x plus h squared.
+
+04:08.930 --> 04:10.630
+So that's there right there.
+
+04:10.630 --> 04:12.080
+And then what's this value?
+
+04:12.080 --> 04:15.230
+f of x right here is equal to--
+I know it's getting messy--
+
+04:15.230 --> 04:16.310
+is equal to x squared.
+
+04:16.310 --> 04:18.530
+If you take your x, you
+evaluate the function
+
+04:18.530 --> 04:20.600
+at that point, you're
+going to get x squared.
+
+04:20.600 --> 04:23.300
+So it's equal to
+minus x squared.
+
+04:23.300 --> 04:24.900
+This is your change in y.
+
+04:24.900 --> 04:29.090
+That's this distance
+right there.
+
+04:29.090 --> 04:33.110
+And just to relate it to our
+definition of a derivative,
+
+04:33.110 --> 04:35.820
+this blue thing right here is
+equivalent to this
+
+04:35.820 --> 04:36.570
+thing right here.
+
+04:36.570 --> 04:39.140
+We just evaluated our function.
+
+04:39.140 --> 04:42.850
+Our function is f of x
+is equal to x squared.
+
+04:42.850 --> 04:46.310
+We just evaluated when x
+is equal to x plus h.
+
+04:46.310 --> 04:48.920
+So if you have to square
+it, if I put an a there,
+
+04:48.920 --> 04:49.540
+it'd be a squared.
+
+04:49.540 --> 04:51.200
+If I put an apple there,
+it'd be apple squared.
+
+04:51.200 --> 04:52.970
+If I put an x plus h in
+there, it's going to
+
+04:52.970 --> 04:54.580
+be x plus h squared.
+
+04:54.580 --> 04:56.210
+So this is that thing.
+
+04:56.210 --> 05:00.420
+And then, this thing right here
+is just the function evaluated
+
+05:00.420 --> 05:01.810
+at the point in question.
+
+05:01.810 --> 05:02.440
+Right there.
+
+05:02.440 --> 05:05.120
+So this is our change in y.
+
+05:05.120 --> 05:07.920
+And let's divide that
+by our change in x.
+
+05:07.920 --> 05:10.730
+Our change in x-- if this is x
+plus h and this is just x, our
+
+05:10.730 --> 05:13.360
+change in x is just
+going to be h.
+
+05:13.360 --> 05:14.880
+So that's where we
+get that term from.
+
+05:14.880 --> 05:17.670
+So this is just a slope
+between these 2 points.
+
+05:17.670 --> 05:19.350
+This is just a slope
+between those two points.
+
+05:19.350 --> 05:22.690
+But, of course, we want to
+find-- the limit at this point
+
+05:22.690 --> 05:25.500
+gets closer and closer to this
+point, and this point gets
+
+05:25.500 --> 05:26.790
+closer and closer
+to that point.
+
+05:26.790 --> 05:29.530
+So this becomes a tangent line.
+
+05:29.530 --> 05:34.480
+So we're going to take the
+limit as h approaches 0, and
+
+05:34.480 --> 05:37.250
+this is our f prime of x.
+
+05:37.250 --> 05:39.580
+And this is the exact same
+definition of this, instead
+
+05:39.580 --> 05:42.400
+of being general and saying,
+for any function, we know
+
+05:42.400 --> 05:43.380
+what the function was.
+
+05:43.380 --> 05:45.680
+It was f of x is
+equal to x squared.
+
+05:45.680 --> 05:46.660
+So we actually applied it.
+
+05:46.660 --> 05:48.350
+Instead of f of x,
+we wrote x squared.
+
+05:48.350 --> 05:52.950
+Instead of f of x plus h,
+we wrote x plus h squared.
+
+05:52.950 --> 05:56.180
+So let's see if we can
+evaluate this limit.
+
+05:56.180 --> 06:04.680
+So this is going to be equal
+to the limit as h approaches
+
+06:04.680 --> 06:06.680
+0 to square this out.
+
+06:06.680 --> 06:09.160
+I'll do it in the same color.
+
+06:09.160 --> 06:19.230
+That's x squared plus 2xh plus
+h squared, and then we have
+
+06:19.230 --> 06:22.320
+this minus x squared over here.
+
+06:22.320 --> 06:24.790
+I just multiplied this
+guy out over here.
+
+06:24.790 --> 06:27.635
+And then all of that
+is divided by h.
+
+06:27.635 --> 06:30.850
+Now let's see if we can
+simplify this a little bit.
+
+06:30.850 --> 06:32.610
+Well, you immediately see you
+have an x squared and you
+
+06:32.610 --> 06:35.390
+have a minus x squared,
+so those cancel out.
+
+06:35.390 --> 06:36.570
+And then we can divide
+the numerator and the
+
+06:36.570 --> 06:38.185
+denominator by h.
+
+06:38.185 --> 06:44.780
+So this simplifies to-- so we
+get f prime of x is equal to--
+
+06:44.780 --> 06:46.590
+if we divide the numerator and
+the denominator by h--
+
+06:46.590 --> 06:50.260
+we get 2x plus h.
+
+06:50.260 --> 06:52.070
+I'm sorry, I forgot my limit.
+
+06:52.070 --> 06:53.420
+It equals the limit.
+
+06:53.420 --> 06:54.330
+Very important.
+
+06:54.330 --> 07:01.200
+Limit as h approaches 0 of
+divide everything by h, and
+
+07:01.200 --> 07:08.640
+you get 2x plus h squared
+divided by h is h.
+
+07:08.640 --> 07:10.440
+And if you remember the last
+video, when we did it with a
+
+07:10.440 --> 07:13.780
+particular x, we said x is
+equal to 3, we got 6
+
+07:13.780 --> 07:14.920
+plus delta x here.
+
+07:14.920 --> 07:17.420
+Or 6 plus h here, so
+it's very similar.
+
+07:17.420 --> 07:20.130
+So if you take the limited h
+approaches 0 here, that's
+
+07:20.130 --> 07:21.010
+just going to disappear.
+
+07:21.010 --> 07:24.240
+So this is just going
+to be equal to 2x.
+
+07:24.240 --> 07:28.540
+So we just figured out that if
+f of x-- this is a big result.
+
+07:28.540 --> 07:30.180
+This is exciting!
+
+07:30.180 --> 07:35.130
+That if f of x is equal
+to x squared, f prime
+
+07:35.130 --> 07:37.910
+of x is equal to 2x.
+
+07:37.910 --> 07:39.470
+That's what we
+just figured out.
+
+07:39.470 --> 07:41.570
+And I wanted to make
+sure you understand
+
+07:41.570 --> 07:42.880
+how to interpret this.
+
+07:42.880 --> 07:45.780
+f of x, if you give me a value,
+is going to tell you the value
+
+07:45.780 --> 07:47.560
+of the function at that point.
+
+07:47.560 --> 07:48.920
+At prime of x it's
+going to tell you the
+
+07:48.920 --> 07:49.960
+slope at that point.
+
+07:49.960 --> 07:51.180
+Let me draw that.
+
+07:51.180 --> 07:53.490
+Because this is a
+key realization.
+
+07:53.490 --> 07:56.220
+And you might, you know, it's
+kind of maybe initially
+
+07:56.220 --> 07:58.590
+unintuitive to think of a
+function that gives us the
+
+07:58.590 --> 08:02.040
+slope, at any point,
+of another function.
+
+08:02.040 --> 08:05.070
+So it looks like this.
+
+08:05.070 --> 08:07.650
+Let me draw a little
+neater than that.
+
+08:07.650 --> 08:10.290
+Ah, it's still not that neat.
+
+08:10.290 --> 08:11.280
+That's satisfactory.
+
+08:11.280 --> 08:13.650
+Let me just draw it in
+the positive coordinate.
+
+08:13.650 --> 08:15.640
+Well, I'll just draw the
+whole-- the curve looks
+
+08:15.640 --> 08:17.450
+something like that.
+
+08:17.450 --> 08:20.090
+Now this is the
+curve of f of x.
+
+08:20.090 --> 08:23.050
+This is the curve of f of
+x is equal to x squared.
+
+08:23.050 --> 08:24.230
+Just like that.
+
+08:24.230 --> 08:26.490
+So if you give me a point.
+
+08:26.490 --> 08:27.840
+You give me the point 7.
+
+08:27.840 --> 08:30.610
+You apply, you put it in
+here, you square it.
+
+08:30.610 --> 08:34.460
+And it is mapped
+to the number 49.
+
+08:34.460 --> 08:36.170
+So you get the number
+49 right there.
+
+08:36.170 --> 08:38.620
+This is the number 7, 49.
+
+08:38.620 --> 08:40.940
+You're used to dealing with
+functions right there.
+
+08:40.940 --> 08:43.630
+But what is f prime of 7?
+
+08:43.630 --> 08:45.000
+f prime of 7.
+
+08:45.000 --> 08:47.740
+You say, 2 times 7
+is equal to 14.
+
+08:47.740 --> 08:49.990
+What is this 14 number here?
+
+08:49.990 --> 08:51.380
+What is this thing?
+
+08:51.380 --> 08:53.440
+Well, this is the slope
+of the tangent line
+
+08:53.440 --> 08:55.030
+at x is equal to 7.
+
+08:55.030 --> 08:59.330
+So if I were to take that point
+and draw a tangent line-- a
+
+08:59.330 --> 09:02.930
+point that just grazes our
+curve-- if I were to just
+
+09:02.930 --> 09:03.890
+draw a tangent line.
+
+09:03.890 --> 09:06.410
+That wasn't tangent
+enough for me.
+
+09:06.410 --> 09:08.790
+So that's my tangent
+line right there.
+
+09:08.790 --> 09:10.200
+You get the idea.
+
+09:10.200 --> 09:13.660
+The slope of this guy-- you do
+your change in y over your
+
+09:13.660 --> 09:16.260
+change in x-- is going
+to be equal to 14.
+
+09:16.260 --> 09:18.880
+The slope of the curve
+at y is equal to 7-- is
+
+09:18.880 --> 09:20.270
+a pretty steep curve.
+
+09:20.270 --> 09:21.990
+If you wanted to find the
+slope, let's say that this
+
+09:21.990 --> 09:25.910
+is y-- let's say it's
+x is equal to 2.
+
+09:25.910 --> 09:30.290
+I said at x is equal to
+7, the slope is 14.
+
+09:30.290 --> 09:32.900
+At x is equal to 2,
+what is the slope?
+
+09:32.900 --> 09:37.230
+Well, you figure out f prime of
+2, which is equal to 2 times
+
+09:37.230 --> 09:38.880
+2, which is equal to 4.
+
+09:38.880 --> 09:43.990
+So the slope here is 4.
+
+09:43.990 --> 09:46.520
+You could say m is equal
+to 4. m for slope.
+
+09:46.520 --> 09:50.560
+What is f prime of 0?
+
+09:50.560 --> 09:51.170
+f prime.
+
+09:51.170 --> 09:53.120
+We know that f of
+0 is 0, right?
+
+09:53.120 --> 09:55.120
+0 squared is 0.
+
+09:55.120 --> 09:57.710
+But what is f prime of 0?
+
+09:57.710 --> 09:59.180
+Well, 2 times 0 is 0.
+
+09:59.180 --> 10:00.480
+That's also equal to 0.
+
+10:00.480 --> 10:01.350
+But what does that mean?
+
+10:01.350 --> 10:03.100
+What's the interpretation?
+
+10:03.100 --> 10:05.850
+It means the slope of
+the tangent line is 0.
+
+10:05.850 --> 10:08.390
+So a 0 sloped line
+looks like this.
+
+10:08.390 --> 10:09.920
+Looks just like a
+horizontal line.
+
+10:09.920 --> 10:11.370
+And that looks about right.
+
+10:11.370 --> 10:14.220
+A horizontal line would
+be tangent to the
+
+10:14.220 --> 10:15.910
+curve at y equals 0.
+
+10:15.910 --> 10:17.620
+Let's try another one.
+
+10:17.620 --> 10:23.190
+Let's try the point minus 1.
+
+10:23.190 --> 10:26.290
+So let's say we're right
+there. x is equal to minus 1.
+
+10:26.290 --> 10:29.220
+So f of minus 1, you
+just square it.
+
+10:29.220 --> 10:30.380
+Because we're dealing
+with x squared.
+
+10:30.380 --> 10:31.570
+So it's equal to 1.
+
+10:31.570 --> 10:33.180
+That's that point right there.
+
+10:33.180 --> 10:36.680
+What is f prime of minus 1?
+
+10:36.680 --> 10:40.050
+f prime of minus 1
+is 2 times minus 1.
+
+10:40.050 --> 10:42.340
+2 times minus is minus 2.
+
+10:42.340 --> 10:43.650
+What does that mean?
+
+10:43.650 --> 10:47.680
+It means that the slope of the
+tangent line at x is equal to
+
+10:47.680 --> 10:51.050
+1, to this curve, to the
+function, is minus 2.
+
+10:51.050 --> 10:54.600
+So if I were to draw the
+tangent line here-- the tangent
+
+10:54.600 --> 10:57.140
+line looks like that-- and
+look, it is a downward
+
+10:57.140 --> 10:57.700
+sloping line.
+
+10:57.700 --> 10:58.450
+And it makes sense.
+
+10:58.450 --> 11:04.700
+The slope here is
+equal to minus 2.

@@ -1,0 +1,987 @@
+WEBVTT
+
+00:00.690 --> 00:04.360
+Trong video trước, chúng ta đã bắt đầu
+khám phá khái niệm về hàm sai số.
+
+00:04.360 --> 00:06.120
+Mình không nên nhầm nó với giá trị kì vọng
+
+00:06.120 --> 00:08.000
+vì cách viết của nó cũng giống.
+
+00:08.000 --> 00:09.810
+Nhưng ở đây thì E là sai số.
+
+00:09.810 --> 00:10.840
+Và chúng ta cũng có thể hiểu rằng nó sẽ
+
+00:10.840 --> 00:13.180
+được nhắc tới như là hàm số phần dư.
+
+00:13.180 --> 00:16.750
+Và chúng ta đã thấy sự khác biệt giữa hàm số
+
+00:16.750 --> 00:20.440
+và ước lượng của chúng ta về hàm số đó.
+
+00:20.440 --> 00:25.980
+Ví dụ là, ở đây, khoảng cách ở ngay đây sẽ là sai số của chúng ta.
+
+00:25.980 --> 00:29.680
+Đó sẽ là sai số của chúng ta tại x bằng b.
+
+00:29.680 --> 00:32.340
+Và chúng ta thật sự cần quan tâm tới
+giá trị tuyệt đối của nó.
+
+00:32.340 --> 00:35.290
+Bởi vì đôi khi f(x) sẽ lớn hơn đa thức,
+
+00:35.290 --> 00:37.500
+và đôi khi đa thức sẽ lớn hơn f(x).
+
+00:37.500 --> 00:40.860
+Chúng ta cần quan tâm đến trị tuyệt đối của khoảng cách giữa chúng.
+
+00:40.860 --> 00:42.500
+Và điều mà mình muốn làm trong video này là
+
+00:42.500 --> 00:48.430
+cố gắn tìm cận sai số tại một điểm b nào đó.
+
+00:48.430 --> 00:49.560
+Cố tìm cận sai số.
+
+00:49.560 --> 00:52.640
+Vậy hãy nói cận sai số sẽ bé hơn
+hoặc bằng một hằng số.
+
+00:52.640 --> 00:55.840
+Hãy cố giới hạn cận sai số tại b với b lớn hơn a.
+
+00:55.840 --> 00:58.070
+Chúng ta sẽ cho rằng b sẽ lớn hơn a.
+
+00:58.070 --> 01:01.620
+Và chúng ta đã có được những kết quả rất hoành tráng
+
+01:01.620 --> 01:04.519
+là có lẽ chúng ta đã giới hạn được
+cận sai số trong video trước.
+
+01:04.519 --> 01:07.660
+Chúng ta thấy được đạo hàm bậc n cộng 1 của
+
+01:07.660 --> 01:12.060
+hàm số sai số sẽ bằng với đạo hàm bậc n cộng 1 của hàm số của chúng ta.
+
+01:12.060 --> 01:14.760
+Hoặc là giá trị tuyệt đối của chúng sẽ bằng.
+
+01:14.760 --> 01:18.330
+Hoặc là nếu chúng ta có thể giới hạn đạo hàm bậc n cộng 1
+
+01:18.330 --> 01:22.240
+của hàm số của chúng ta tại một khoảng nào đó
+
+01:22.240 --> 01:24.770
+mà có chứa b ở trong đó.
+
+01:24.770 --> 01:29.980
+Thì ít nhất là chúng ta có thể giới hạn đạo hàm bậc n cộng 1 của hàm số sai số của chúng ta.
+
+01:29.980 --> 01:31.390
+Và sau đó, có thể chúng ta sẽ
+
+01:31.390 --> 01:36.120
+lấy tích phân để xác định cận sai số tại một giá trị b.
+
+01:36.120 --> 01:37.160
+Vậy nên hãy thử xem mình có làm được không nhé.
+
+01:37.160 --> 01:40.060
+Thì hãy cho rằng chúng ta đã
+
+01:40.060 --> 01:44.300
+biết được gì đó về đạo hàm bậc n cộng 1 của f(x)
+
+01:44.300 --> 01:46.420
+Hãy cho rằng chúng ta biết được,
+
+01:46.420 --> 01:49.150
+Hãy để mình sử dụng màu khác.
+
+01:49.150 --> 01:50.580
+Mình sẽ sử dụng màu trắng.
+
+01:50.580 --> 01:55.400
+Hãy cho rằng hàm số sai số của chúng ta sẽ nhìn giống như này.
+
+01:55.400 --> 01:59.420
+Vậy cái này sẽ là đạo hàm bậc n cộng 1 của f(x).
+
+01:59.420 --> 02:00.500
+Đạo hàm bậc n cộng 1.
+
+02:00.500 --> 02:03.740
+Và mình chỉ cần quan tâm về hàm số sai số trên khoảng này ở đây.
+
+02:03.740 --> 02:06.140
+Chúng ta cũng đâu cần quan tâm nó đi tới đâu nữa, mình chỉ cần giới hạn ở khoảng này thôi
+
+02:06.140 --> 02:09.759
+bởi vì mục đích của chúng ta là xác định cận sai số tại b.
+
+02:09.759 --> 02:12.750
+Hãy xem rằng chúng ta đã biết giá trị tuyệt đối,
+
+02:12.750 --> 02:13.740
+hãy xem rằng chúng ta đã biết,
+
+02:13.740 --> 02:17.350
+hãy để mình viết ở đây,
+
+02:19.170 --> 02:23.800
+giá trị tuyệt đối của đạo hàm bậc n cộng 1
+
+02:23.800 --> 02:26.520
+Mình xin lỗi mình đã lỡ nhầm giữa chữ N viết hoa
+
+02:26.520 --> 02:28.120
+và n viết thường, mình đã làm điều đó trong video trước.
+
+02:28.120 --> 02:29.690
+Mình đã không nên làm thế,
+
+02:29.690 --> 02:32.078
+mình đã nhầm nên mong là các bạn không thấy rối.
+
+02:32.078 --> 02:35.090
+Hãy cho rằng mình biết đạo hàm bậc n cộng 1
+
+02:35.090 --> 02:40.110
+của f(x), giá trị tuyệt đối của nó, hãy cho rằng nó được giới hạn.
+
+02:40.110 --> 02:43.010
+Hãy cho rằng trị tuyệt đối sẽ bé hơn hoặc bằng một m
+
+02:43.010 --> 02:45.160
+trên khoảng này, tại chúng ta chỉ cần quan tâm đến khoảng.
+
+02:45.160 --> 02:47.540
+Sai số có thể không bị giới hạn nói chung, nhưng chúng ta chỉ quan tâm
+
+02:47.540 --> 02:50.168
+rằng sai số sẽ bị giới hạn trên khoảng này.
+
+02:50.168 --> 02:57.190
+Cho nên là trên khoảng, mình có thể viết như này,
+
+02:57.190 --> 03:04.190
+trên đoạn x thuộc [a,b], và cái này là đoạn,
+
+03:04.190 --> 03:06.330
+nên x có thể là a, x có thể là b, và x
+
+03:06.330 --> 03:09.940
+cũng có thể là bất cứ giá trị gì ở giữa.
+
+03:09.940 --> 03:11.760
+Và nhìn chung là chúng ta có thể nói
+
+03:11.760 --> 03:15.230
+đạo hàm này ở đây sẽ có giá trị lớn nhất.
+
+03:15.230 --> 03:20.060
+Vậy cái này sẽ là trị tuyệt đối, giá trị lớn nhất, chữ m đại diện cho max.
+
+03:20.060 --> 03:23.980
+Chúng ta biết được nó sẽ có giá trị lớn nhất, nếu hàm số này là hàm số liên tục.
+
+03:23.980 --> 03:26.620
+Một lần nữa chúng ta đang tự cho là hàm số liên tục,
+
+03:26.620 --> 03:30.710
+và nó có giá trị lớn nhất trên đoạn này ở đây.
+
+03:30.710 --> 03:34.796
+Thì cái này ở đây, chúng ta biết được là nó sẽ bằng với
+
+03:34.796 --> 03:38.978
+đạo hàm bậc nhất của hàm số sai số.
+
+03:38.978 --> 03:46.220
+Cho nên là chúng ta sẽ biết được rằng,
+
+03:46.220 --> 03:51.980
+hãy để mình sử dụng màu xanh dương, hoặc là xanh lá,
+
+03:51.980 --> 03:58.720
+nó cho ta biết được đạo hàm bậc n cộng 1 của hàm số sai số
+
+03:58.720 --> 04:00.270
+trị tuyệt đối của nó vì hai cái này
+
+04:00.270 --> 04:04.570
+là hai cái giống nhau, và cũng bị giới hạn bới M.
+
+04:04.570 --> 04:07.500
+Điều này cũng rất thú vị nhưng mà nó không nói cho ta được gì cả.
+
+04:07.500 --> 04:11.450
+Cái này có thể nhìn giống với cái này nhưng mà cái này là đạo hàm bậc n cộng 1 của hàm số sai số.
+
+04:11.450 --> 04:14.000
+Và chúng ta sẽ phải suy nghĩ làm sao để có giá trị m trong tương lai.
+
+04:14.000 --> 04:16.140
+Chúng ta đang mặc định là chúng ta đã biết m,
+
+04:16.140 --> 04:18.589
+và có lẽ chúng ta sẽ làm một vài ví dụ
+để hiểu được nó.
+
+04:18.589 --> 04:20.160
+Nhưng cái này là đạo hàm bậc n cộng 1.
+
+04:20.160 --> 04:21.750
+Chúng ta đang giới hạn
+trị tuyệt đối của nó, nhưng
+
+04:21.750 --> 04:24.210
+thật ra thì chúng ta đang cần
+giới hạn hàm số sai số.
+
+04:24.210 --> 04:27.710
+Bạn có thể nói đạo hàm bậc 0
+sẽ là chính hàm số đó.
+
+04:27.710 --> 04:31.380
+Mình có thể thử lấy tích phân cả hai vế
+và xem xem
+
+04:31.380 --> 04:34.960
+mình có thể ra được E(x),
+
+04:34.960 --> 04:38.095
+có thể ra được hàm số sai số hoặc là
+hàm số phần dư của chúng ta được hay không.
+
+04:38.095 --> 04:44.050
+Hãy lấy tích phân hai vế của cái này.
+
+04:44.050 --> 04:46.290
+Bây giờ tích phân của vế bên trái,
+cái này thú vị nè.
+
+04:46.290 --> 04:47.930
+Chúng ta đang lấy tích phân của trị tuyệt đối.
+
+04:47.930 --> 04:51.570
+Nó sẽ dễ hơn nếu chúng ta
+lấy trị tuyệt đối của tích phân.
+
+04:51.570 --> 04:54.220
+Và may cho chúng ta là nó đã dưới dạng này.
+
+04:54.220 --> 04:56.480
+Để mình viết qua bên này một chút.
+
+04:56.480 --> 04:59.369
+Đây là một thứ để bạn nghĩ tới,
+nhìn chung thì chúng ta biết được
+
+04:59.369 --> 05:03.029
+nếu mình có hai lựa chọn,
+
+05:03.029 --> 05:09.090
+mình có hai lựa chọn như thế này,
+và chúng có thể nhìn giống ở thời điểm này,
+
+05:10.530 --> 05:12.870
+Mình biết là chúng nhìn giống nhau.
+
+05:12.870 --> 05:15.810
+Ở đây, mình sẽ có tích phân của giá trị tuyệt đối,
+
+05:15.810 --> 05:19.690
+và ở đây mình sẽ có trị tuyệt đối của tích phân.
+
+05:19.690 --> 05:24.310
+Thì trong hai cái này, cái nào sẽ lớn hơn?
+
+05:24.310 --> 05:26.790
+Thì bạn sẽ phải nghĩ tới 2 trường hợp.
+
+05:26.790 --> 05:30.170
+Nếu f(x) luôn dương trên khoảng
+
+05:30.170 --> 05:33.470
+mà bạn đang lấy tích phân,
+thì hai cái này sẽ như nhau.
+
+05:33.470 --> 05:34.990
+Bạn sẽ có những giá trị dương.
+
+05:34.990 --> 05:36.760
+Lấy trị tuyệt đối của một giá trị dương
+
+05:36.760 --> 05:38.260
+sẽ không thay đổi gì cả.
+
+05:38.260 --> 05:40.990
+Điều quan trọng là khi f(x) âm.
+
+05:40.990 --> 05:43.780
+Nếu f(x) âm trên cả khoảng này,
+
+05:43.780 --> 05:48.170
+nếu đây là trục x,
+và đây là trục y của chúng ta,
+
+05:48.170 --> 05:51.070
+nếu f(x) dương trên cả khoảng này,
+
+05:51.070 --> 05:55.310
+thì bạn đang lấy trị tuyệt đối
+của một giá trị dương.
+
+05:55.310 --> 05:56.130
+Nên nó sẽ không quan trọng lắm.
+
+05:56.130 --> 05:57.860
+Hai cái này sẽ bằng nhau.
+
+05:57.860 --> 06:00.800
+Nếu f(x) âm trên cả khoảng,
+
+06:00.800 --> 06:04.920
+thì tích phân của bạn sẽ bằng với một giá trị âm.
+
+06:04.920 --> 06:07.440
+Nhưng mà nếu bạn lấy trị tuyệt đối của nó,
+
+06:07.440 --> 06:10.090
+và ở đây, tích phân của nó
+
+06:10.090 --> 06:12.820
+sẽ cho một giá trị dương
+và hai cái này cũng bằng nhau.
+
+06:12.820 --> 06:15.300
+Trường hợp thú vị nhất là khi f(x) sẽ
+
+06:15.300 --> 06:18.970
+vừa âm và vừa dương,
+và bạn có thể tưởng tượng trường hợp sau.
+
+06:18.970 --> 06:22.580
+Nếu f(x) nhìn giống như thế,
+
+06:22.580 --> 06:25.580
+thì cái này ở đây, tích phân của nó,
+bạn sẽ có giá trị dương.
+
+06:25.580 --> 06:28.560
+Đây sẽ là dương và đây sẽ là âm.
+
+06:28.560 --> 06:30.810
+Và chúng nó sẽ triệt tiêu nhau.
+
+06:30.810 --> 06:32.230
+Vậy cái này sẽ có giá trị nhỏ hơn
+
+06:32.230 --> 06:35.580
+tích phân của trị tuyệt đối.
+
+06:35.580 --> 06:39.470
+Thì tích phân của trị tuyệt đối của f
+sẽ nhìn như thế này.
+
+06:39.470 --> 06:42.260
+Nếu tất cả phần diện tích này,
+
+06:42.260 --> 06:43.120
+nếu mà bạn đang lấy tích phân xác định,
+
+06:43.120 --> 06:44.730
+nếu bạn đang lấy tích phân xác định,
+
+06:44.730 --> 06:48.380
+thì cả phần diện tích ở đây sẽ trở nên dương.
+
+06:48.380 --> 06:49.750
+Cho nên bạn sẽ có một giá trị lớn hơn
+
+06:49.750 --> 06:53.210
+nếu bạn lấy tích phân của trị tuyệt đối.
+
+06:53.210 --> 06:54.791
+Thì sau đó, đặc biệt là khi f(x)
+
+06:54.791 --> 06:57.038
+có thể có giá trị dương
+và giá trị âm trên khoảng,
+
+06:57.038 --> 07:02.005
+thì nếu bạn sẽ lấy tích phân trước
+rồi mới lấy đạo hàm,
+
+07:02.005 --> 07:04.090
+một lần nữa, nếu bạn lấy tích phân trước
+đối với hàm số như thế này,
+
+07:04.090 --> 07:07.020
+bạn sẽ ra một giá trị thấp hơn vì
+hai phần này đang triệt tiêu nhau.
+
+07:07.020 --> 07:09.500
+Chúng sẽ triệt tiêu nhau,
+
+07:09.500 --> 07:13.470
+và rồi bạn sẽ đang lấy trị tuyệt đối
+của một giá trị nhỏ hơn.
+
+07:13.470 --> 07:15.880
+Vậy nhìn chung thì,
+
+07:15.880 --> 07:18.260
+trị tuyệt đối của tích phân
+
+07:18.260 --> 07:22.870
+sẽ nhỏ hơn hoặc bằng tích phân của trị tuyệt đối.
+
+07:22.870 --> 07:24.670
+Vậy nên ta có thể nói, nếu cái này ở đây
+
+07:24.670 --> 07:27.740
+là tích phân của trị tuyệt đối, nó cũng sẽ
+lớn hơn hoặc bằng.
+
+07:27.740 --> 07:29.840
+Nhưng gì chúng ta viết ở đây cũng là cái này.
+
+07:29.840 --> 07:31.910
+Nó sẽ lớn hơn hoặc bằng, bạn sẽ hiểu
+
+07:31.910 --> 07:34.550
+tại sao mình lại làm như thế này trong lát nữa.
+
+07:34.550 --> 07:39.670
+Sẽ lớn hơn hoặc bằng trị tuyệt đối của
+
+07:39.670 --> 07:45.920
+tích phân của đạo hàm bậc n cộng 1.
+
+07:45.920 --> 07:48.960
+Đạo hàm bậc n cộng 1 của x dx.
+
+07:48.960 --> 07:51.490
+Và lý do tại sao cái này hữu dụng là tại
+
+07:51.490 --> 07:55.090
+mình vẫn đang có bất phương trình rằng
+cái này đang bé hơn hoặc bằng cái này.
+
+07:55.090 --> 07:58.700
+Nhưng bây giờ thì lấy tích phân của cái này
+cũng rất đơn giản.
+
+07:58.700 --> 08:00.932
+Nguyên phân của đạo hàm bậc n cộng 1
+
+08:00.932 --> 08:04.240
+thì sẽ bằng đạo hàm bậc n.
+
+08:04.240 --> 08:06.510
+Vậy phần này ở ngay đây
+
+08:06.510 --> 08:09.960
+sẽ chỉ bằng trị tuyệt đối của đạo hàm bậc n.
+
+08:11.150 --> 08:16.310
+Trị tuyệt đối của đạo hàm bậc n của
+hàm số sai số của chúng ta.
+
+08:16.310 --> 08:17.330
+Hồi nãy mình có nói giá trị kì vọng phải không?
+
+08:17.330 --> 08:17.730
+Mình đã không nên.
+
+08:17.730 --> 08:18.820
+Cái này đang làm chính mình bị rối.
+
+08:18.820 --> 08:19.710
+Cái này là hàm số sai số.
+
+08:19.710 --> 08:21.900
+Mình đã nên xài chữ R thể hiện phần dư.
+
+08:21.900 --> 08:22.660
+Mình chỉ đang nói về sai số.
+
+08:22.660 --> 08:25.170
+Không có gì liên quan tới xác suất hoặc
+giá trị kỳ vọng trong video này cả.
+
+08:25.170 --> 08:25.850
+Đây sẽ là,
+
+08:25.850 --> 08:27.250
+chữ E sẽ biểu thị sai số.
+
+08:27.250 --> 08:30.030
+Dù sao thì, cái này sẽ là đạo hàm bậc n
+
+08:30.030 --> 08:32.880
+của hàm số sai số của chúng ta,
+và nó sẽ bé hơn hoặc bằng cái này,
+
+08:32.880 --> 08:37.230
+Sẽ bé hơn hoặc bằng nguyên phân của M.
+
+08:37.230 --> 08:38.760
+Thì M sẽ là hằng số.
+
+08:38.760 --> 08:42.630
+Vậy nó sẽ bằng Mx, là Mx.
+
+08:42.630 --> 08:44.179
+Và vì chúng ta chỉ lấy
+tích phân không xác định,
+
+08:44.179 --> 08:48.220
+chúng ta không thể nào quên được hằng số C ở đây.
+
+08:48.220 --> 08:49.840
+Và nhìn chung thì, nếu bạn đang lấy cận trên,
+
+08:49.840 --> 08:52.220
+thì bạn sẽ muốn cận dưới càng bé càng tốt,
+
+08:52.220 --> 08:56.640
+Và chúng ta sẽ lấy tổi thiểu của hằng số này.
+
+08:56.640 --> 09:00.180
+Và may cho chúng ta thì chúng ta thật sự biết
+
+09:00.180 --> 09:04.410
+giá trị của hàm số này tại một điểm.
+
+09:04.410 --> 09:08.430
+Chúng ta biết được đạo hàm bậc n của
+hàm số sai số tại a sẽ bằng 0.
+
+09:08.430 --> 09:09.940
+MÌnh đã viết nó ở ngay đây.
+
+09:09.940 --> 09:12.480
+Đạo hàm bậc n tại a sẽ bằng 0,
+
+09:12.480 --> 09:15.370
+bởi vì đạo hàm bậc n của hàm số
+
+09:15.370 --> 09:19.550
+và ước lượng của chúng ta tại a sẽ là
+những thứ y hệt nhau.
+
+09:19.550 --> 09:22.860
+Vậy cho nên là nếu chúng ta tính cả hai vế tại a,
+
+09:22.860 --> 09:27.010
+mình sẽ viết tại đây, chúng ta biết được
+trị tuyệt đối
+
+09:27.010 --> 09:31.560
+của đạo hàm bậc n tại a, chúng ta biết được
+
+09:31.560 --> 09:34.670
+cái này sẽ bằng với trị tuyệt đối của 0.
+
+09:34.670 --> 09:35.400
+Và sẽ bằng 0.
+
+09:35.400 --> 09:37.820
+Và cái này sẽ bé hơn hoặc bằng Mx tại a,
+
+09:37.820 --> 09:43.420
+và Mx tại a sẽ bé hơn hoặc bằng Ma cộng c.
+
+09:43.420 --> 09:45.260
+Và rồi nếu bạn nhìn về
+bất phương trình này,
+
+09:45.260 --> 09:47.710
+bạn có thể trừ Ma cho cả hai vế.
+
+09:47.710 --> 09:51.460
+Bãn sẽ có trừ Ma sẽ bé hơn hoặc bằng c.
+
+09:51.460 --> 09:53.590
+Vậy hằng số của chúng ta ở đây,
+dựa vào điều kiện này,
+
+09:53.590 --> 09:56.310
+mà chúng ta đã giải ra được
+trong video trước.
+
+09:56.310 --> 10:00.820
+Hằng số của chúng ta sẽ
+bé hơn hoặc bằng trừ Ma.
+
+10:00.820 --> 10:03.880
+Vậy nếu chúng ta muốn lấy hằng số tối thiểu,
+nếu chúng ta lấy cận a
+
+10:03.880 --> 10:08.090
+càng bé càng tốt, thì chúng ta sẽ lấy c bằng trừ Ma.
+
+10:08.090 --> 10:10.250
+Đó sẽ là hằng số c bé nhất mà có thể
+
+10:10.250 --> 10:13.170
+đáp ứng những điều kiện mà chúng ta biết ở đây.
+
+10:13.170 --> 10:16.969
+Nên là, chúng ta sẽ thật sự chọn Ma cho hằng c.
+
+10:16.969 --> 10:19.364
+Và rồi chúng ta có thể
+viết lại cả phần này thành
+
+10:19.364 --> 10:22.590
+trị tuyệt đối của đạo hàm bậc n
+của hàm số sai số.
+
+10:22.590 --> 10:24.640
+Đạo hàm bậc n của hàm số sai số,
+
+10:24.640 --> 10:25.970
+chứ không phải là của giá trị kỳ vọng.
+
+10:25.970 --> 10:28.010
+Mình đang ngờ rằng mình đã nói lộn tới giá trị kỳ vọng.
+
+10:28.010 --> 10:29.790
+Nhưng mà cái này là hàm số sai số,
+
+10:30.440 --> 10:33.230
+Trị tuyệt đối của đạo hàm bậc n của
+hàm số sai số
+
+10:33.230 --> 10:38.600
+sẽ bé hơn hoặc bằng M nhân x trừ a.
+
+10:38.600 --> 10:40.820
+Và một lần nữa, tất cả điều kiện này
+vẫn còn hiệu lực.
+
+10:40.820 --> 10:43.880
+Đây sẽ là cho x thuộc đoạn
+
+10:43.880 --> 10:48.910
+từ a tới b.
+
+10:48.910 --> 10:50.220
+Nhưng có vẻ như chúng ta
+đang gần tới đáp án.
+
+10:50.220 --> 10:52.910
+Ít ra thì chúng ta đã đi từ đạo hàm
+bậc n cộng 1 tới đạo hàm bậc n.
+
+10:52.910 --> 10:55.170
+Hãy thử xem nếu chúng ta tiếp tục làm thế.
+
+10:55.170 --> 10:57.750
+Thì ý tưởng cũng như vậy.
+
+10:57.750 --> 11:00.090
+Nếu chúng ta đã biết cái này, thì
+chúng ta cũng đã biết
+
+11:00.090 --> 11:00.740
+ta có thể lấy tích phân cả hai vế
+của cái này.
+
+11:00.740 --> 11:02.850
+Vậy nên ta có thể lấy tích phân
+hai vế của cái này,
+
+11:06.280 --> 11:08.360
+lấy nguyên hàm hai vế.
+
+11:08.360 --> 11:10.740
+Và chúng ta đã biết được từ những gì
+chúng ta đã giải ở đây
+
+11:10.740 --> 11:14.780
+một thứ còn nhỏ hơn cả thứ này ở đây,
+
+11:14.780 --> 11:19.820
+sẽ là trị tuyệt đối của hàm số sai số.
+
+11:19.820 --> 11:21.070
+Là hàm số sai số,
+
+11:21.070 --> 11:22.900
+chứ không phải là hàm số giá trị kỳ vọng.
+
+11:22.900 --> 11:23.900
+Hàm số sai số.
+
+11:23.900 --> 11:27.170
+Đạo hàm bậc n của hàm số sai số của x.
+
+11:27.170 --> 11:29.940
+Đạo hàm bậc n của hàm số sai số của x dx.
+
+11:29.940 --> 11:33.510
+Nên là ta biết cái này sẽ nhỏ hơn hoặc bằng,
+dựa trên logic ở ngay đây.
+
+11:33.510 --> 11:37.450
+Và cái này sẽ hữu dụng vì cái này
+sẽ chỉ bằng với
+
+11:37.450 --> 11:42.640
+đạo hàm bậc n trừ 1 của hàm số sai số của x.
+
+11:42.640 --> 11:45.160
+Và đương nhiên là chúng ta có
+trị tuyệt đối xung quanh nó.
+
+11:45.160 --> 11:46.650
+Và rồi cái này sẽ bé hơn hoặc bằng cái này
+
+11:46.650 --> 11:48.390
+và cái này lại bé hơn hoặc bằng
+
+11:48.390 --> 11:50.940
+cái này, và cái này lại bé hơn hoặc bằng
+cái này.
+
+11:50.940 --> 11:53.340
+Nguyên hàm của cái này ở đây sẽ bằng
+
+11:53.340 --> 11:58.060
+M nhân với x trừ a bình tất cả chia 2.
+
+11:58.060 --> 12:01.410
+Bạn có thể thay u vào, hoặc bạn
+cũng có thể nói
+
+12:01.410 --> 12:03.820
+ồ, mình đang có một biểu thức ở đây,
+và đạo hàm của nó bằng 1.
+
+12:03.820 --> 12:06.480
+Vậy nên mình có thể xem nó như
+là đang thế u vào.
+
+12:06.480 --> 12:09.320
+Vậy ta đã nâng số mũ lên và
+chia số mũ đó.
+
+12:09.320 --> 12:11.460
+Một lần nữa, mình đang lấy tích phân
+không xác định.
+
+12:11.460 --> 12:14.350
+Mình sẽ cộng C ở ngay đây.
+
+12:14.350 --> 12:16.600
+Hãy sử dụng ý tưởng y chang hồi nãy.
+
+12:16.600 --> 12:19.130
+Nếu chúng ta đang tính cái này,
+
+12:19.130 --> 12:22.250
+nếu chúng ta đang tính cả hai cái này
+ở hai vế tại a,
+
+12:22.250 --> 12:25.990
+thì vế bên trái tại a, chúng ta đã biết
+sẽ bằng với 0.
+
+12:25.990 --> 12:29.250
+Chúng ta đã biết được nó từ video trước.
+
+12:29.250 --> 12:31.630
+Vậy nên bạn sẽ có, mình sẽ viết ở bên này,
+
+12:31.630 --> 12:34.130
+bạn sẽ có giá trị 0 nếu bạn tính
+vế trái theo a.
+
+12:34.130 --> 12:36.820
+Nếu bạn tính vế phải theo a, nếu bạn tính
+
+12:36.820 --> 12:39.850
+vế phải theo a, bạn sẽ có M nhân a
+trừ a tất cả chia 2.
+
+12:39.850 --> 12:45.220
+Vậy nên bạn sẽ có 0 cộng c bé hơn hoặc bằng c.
+
+12:45.220 --> 12:47.620
+Một lần nữa, chúng ta muốn tối thiểu
+hằng số,
+
+12:47.620 --> 12:49.800
+chúng ta đang tối thiểu cận trên
+ở đây,
+
+12:49.800 --> 12:52.930
+nên chúng ta muốn tìm c bé nhất
+thỏa điều kiện.
+
+12:52.930 --> 12:57.440
+Vậy nên c bé nhất mà thỏa điều kiện sẽ là 0.
+
+12:57.440 --> 13:01.070
+Và ý tưởng chung ở đây sẽ là nếu chúng ta
+tiếp tục làm như thế này,
+
+13:01.070 --> 13:07.270
+nếu chúng ta tiếp tục làm mãi,
+làm mãi tới hết,
+
+13:07.270 --> 13:10.440
+và chúng ta tiếp tục lấy tích phân
+y chang cách nãy giờ chúng ta vẫn làm,
+
+13:10.440 --> 13:14.040
+tiếp tục làm như vậy với những tính chất
+tương tự ở ngay đây,
+
+13:14.040 --> 13:19.180
+làm hết từ đây cho tới khi ta có được
+cận sai số của hàm số sai số của x.
+
+13:19.180 --> 13:21.550
+Bạn có thể xem cái này như là
+đạo hàm bậc 0.
+
+13:21.550 --> 13:22.740
+Bạn biết đó, mình có thể đi hết
+tới đạo hàm bậc 0,
+
+13:22.740 --> 13:25.360
+và cái này cũng chỉ là hàm số sai số
+của chúng ta.
+
+13:25.360 --> 13:27.620
+Cận trên của hàm số sai số của x
+
+13:27.620 --> 13:29.660
+sẽ nhỏ hơn hoặc bằng với, bằng với gì nhỉ?
+
+13:29.660 --> 13:31.940
+Thì bạn đã có thể thấy hình mẫu rồi đấy,
+
+13:31.940 --> 13:36.270
+nó sẽ bằng với m nhân x trừ a
+
+13:36.270 --> 13:39.490
+và số mũ, một cách để nghĩ về nó, là số mũ
+
+13:39.490 --> 13:42.950
+cộng với bậc của đạo hàm ở đây
+sẽ bằng n cộng 1.
+
+13:42.950 --> 13:46.980
+Bậc của đạo hàm ở đây bằng 0 nên số mũ sẽ là
+n cộng 1.
+
+13:46.980 --> 13:50.210
+Và bất kể số mũ là gì bạn cũng sẽ có,
+đáng lẽ mình đã nên
+
+13:50.210 --> 13:54.280
+làm nó ở trên, bạn sẽ có n cộng 1 giai thừa
+ở dưới này.
+
+13:54.280 --> 13:56.950
+Và nếu bạn không hiểu ủa tại sao lại có
+n cộng 1 giai thừa ở đây?
+
+13:56.950 --> 13:58.370
+Thì mình đã có số 2 ở đây,
+
+13:58.370 --> 14:01.120
+Thì hãy nghĩ xem điều gì sẽ xảy ra nếu
+chúng ta lại lấy tích phân của cái này.
+
+14:01.120 --> 14:04.700
+Bạn sẽ nâng số mũ lên thành mũ 3, và
+chia cho 3.
+
+14:04.700 --> 14:07.050
+Vậy mẫu số của chúng ta sẽ là 2 nhân 3.
+
+14:07.050 --> 14:08.540
+Và sau đó nên bạn tích phân nó,
+bạn lại nâng
+
+14:08.540 --> 14:10.800
+số mũ lên thành mũ 4, và chia cho 4.
+
+14:10.800 --> 14:12.960
+Vậy nên mẫu số của chúng ta sẽ bằng
+2 nhân 3 nhân 4.
+
+14:12.960 --> 14:14.140
+4 giai thừa.
+
+14:14.140 --> 14:15.530
+Vậy bất kể bạn nâng số mũ lên bao nhiêu
+
+14:15.530 --> 14:18.500
+thì mẫu số vẫn sẽ bằng số mũ đó giai thừa.
+
+14:18.500 --> 14:21.240
+Nhưng thứ thật sự thú vị ở đây là
+nếu chúng ta
+
+14:21.240 --> 14:24.360
+biết được giá trị lớn nhất của
+hàm số của chúng ta,
+
+14:24.360 --> 14:28.510
+nếu chúng ta có thể biết được
+giá trị lớn nhất của hàm số,
+
+14:28.510 --> 14:31.800
+chúng ta sẽ có cách giới hạn
+hàm số sai số của chúng ta
+
+14:31.800 --> 14:36.500
+trên đoạn đó, đoạn từ a tới b.
+
+14:36.500 --> 14:39.530
+Ví dụ là hàm số sai số tại b,
+
+14:39.530 --> 14:42.040
+chúng ta có thể giới hạn nó nếu
+chúng ta biết M là gì.
+
+14:42.040 --> 14:49.190
+Chúng ta có thế nói hàm số sai số tại b
+sẽ bé hơn hoặc bằng
+
+14:49.190 --> 14:57.190
+M nhân b trừ a tất cã mũ n cộng 1
+chia n cộng 1 giai thừa.
+
+14:57.190 --> 15:00.030
+Cái này cho chúng ta một đáp án,
+
+15:00.030 --> 15:03.720
+hoặc là một thuật toán rất công lực ở đây.
+
+15:03.720 --> 15:06.849
+Và bây giờ mình có thể giải một số bài toán
+để biết ứng dụng của cái này.

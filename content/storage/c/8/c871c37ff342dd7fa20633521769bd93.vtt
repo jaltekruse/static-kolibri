@@ -1,0 +1,363 @@
+WEBVTT
+
+00:00.000 --> 00:07.940
+Vamos supor que queremos calcular o valor
+aproximado da raiz quadrada de 4,36.
+
+00:07.940 --> 00:13.449
+Queremos uma aproximação sem o auxílio
+de uma calculadora.
+
+00:13.449 --> 00:18.790
+Uma maneira de pensar é:
+Nós sabemos qual a raiz quadrada de quatro
+
+00:18.790 --> 00:22.740
+Sabemos que é dois positivo.
+
+00:22.740 --> 00:25.464
+E então isso será um pouco maior que dois.
+
+00:25.464 --> 00:28.400
+Mas queremos ser mais precisos.
+
+00:28.400 --> 00:35.027
+Neste vídeo vou te mostrar um método para
+aproximar o valor de uma função
+
+00:35.027 --> 00:38.910
+a um valor já conhecido.
+
+00:38.910 --> 00:40.570
+Sobre o que estou falando?
+
+00:40.570 --> 00:49.060
+Vamos imaginar que temos a função f de x
+igual a raiz quadrada de x.
+
+00:49.060 --> 00:53.340
+Que é o mesmo que x elevado a um meio.
+
+00:53.340 --> 01:01.070
+Sabemos o que é f de quatro.
+
+01:01.070 --> 01:04.519
+Será a raiz quadrada de quatro.
+
+01:04.519 --> 01:08.465
+A raiz positiva de quatro que é dois.
+
+01:08.465 --> 01:17.528
+Queremos descobrir a raiz de 4.36
+
+01:17.528 --> 01:22.571
+É apenas uma outra forma de fazer
+a pergunta feita no início do vídeo.
+
+01:22.571 --> 01:28.080
+Vamos imaginar nossa função
+por um momento.
+
+01:28.080 --> 01:32.397
+Deixe-me desenhar os eixos.
+
+01:32.397 --> 01:35.436
+Este será o eixo y.
+
+01:35.436 --> 01:41.174
+Este será o eixo x.
+
+01:41.174 --> 01:51.529
+Vamos fazer o gráfico de f de x.
+Será mais ou menos assim.
+
+01:51.539 --> 01:53.200
+Assim está bom.
+
+01:53.200 --> 01:57.671
+Isso aqui é y igual a f de x.
+
+01:57.671 --> 02:02.940
+E sabemos que f de quatro é igual a dois.
+
+02:02.940 --> 02:05.260
+Aqui é quando x vale quatro.
+
+02:05.260 --> 02:09.340
+O desenho está um pouco fora de escala,
+espero que não prejudique a compreensão.
+
+02:09.340 --> 02:11.782
+Aqui será dois.
+
+02:11.782 --> 02:12.710
+Essa é f de quatro.
+
+02:12.710 --> 02:20.280
+O que queremos aproximar é f de 4.36.
+4.36 estará mais ou menos aqui.
+
+02:20.280 --> 02:29.720
+Queremos aproximar esse valor de y aqui.
+
+02:29.720 --> 02:34.111
+Isso é f de 4.36.
+
+02:34.111 --> 02:37.330
+Novamente, estamos fazendo tudo
+isso sem recorrer a uma calculadora.
+
+02:37.330 --> 02:41.690
+Como fazemos isso usando o
+que sabemos sobre derivadas?
+
+02:41.690 --> 02:51.479
+E se descobríssemos a equação da
+reta tangente a este ponto aqui?
+
+02:51.479 --> 02:55.382
+A equação da tangente
+onde x é igual a quatro.
+
+02:55.382 --> 03:02.906
+E então usamos essa linearização para
+aproximar os valores locais.
+
+03:02.906 --> 03:06.750
+Essa técnica se chama linearização local.
+
+03:06.750 --> 03:11.010
+O que digo é, vamos descobrir
+a equação desta reta.
+
+03:11.010 --> 03:13.800
+Podemos chamá-la de L de x.
+
+03:13.800 --> 03:17.910
+Podemos calcular isso em 4.36.
+
+03:17.910 --> 03:23.360
+Fazendo assim será mais fácil
+do que tentar descobrir isso aqui.
+
+03:23.360 --> 03:25.130
+Como fazemos isso?
+
+03:25.130 --> 03:30.395
+Há muitas formas de expressar
+uma linha mas uma delas é:
+
+03:30.395 --> 03:49.753
+L de x será f de quatro, que é dois,
+mais a inclinação em x igual a quatro,
+
+03:49.753 --> 03:51.253
+que é a derivada.
+
+03:51.253 --> 03:56.500
+f linha de quatro será a inclinação
+de L de x.
+
+03:56.500 --> 03:58.130
+Deixe-me ser mais claro.
+
+03:58.130 --> 04:03.503
+Isso aqui é a inclinação
+quando x é igual a quatro.
+
+04:03.503 --> 04:06.131
+A inclinação desta linha.
+
+04:06.131 --> 04:09.305
+Qualquer outro ponto aqui
+será f de 4 mais a inclinação
+
+04:09.305 --> 04:12.770
+vezes o quão distante de x
+igual a quatro você está.
+
+04:12.770 --> 04:16.920
+Então será vezes x menos quatro.
+
+04:16.920 --> 04:19.370
+Vamos verificar a validade disso.
+
+04:19.370 --> 04:23.485
+Quando colocamos 4.36 aqui--
+
+04:23.485 --> 04:27.810
+deixe-me dar um zoom neste
+gráfico pra ficar mais claro--
+
+04:27.810 --> 04:39.973
+Darei um zoom nessa região aqui.
+
+04:39.973 --> 04:46.660
+Aqui é o ponto quatro vírgula f de quatro.
+
+04:46.660 --> 04:49.640
+Vou fazer o gráfico de L de x.
+
+04:49.640 --> 04:50.670
+Deixe-me fazer isso.
+
+04:50.670 --> 04:56.560
+Isso aqui é L de x.
+
+04:56.560 --> 05:08.173
+E digamos que aqui seja o ponto
+4.36 vírgula f de 4.36.
+
+05:08.173 --> 05:16.595
+E vamos aproximar esse valor
+descobrindo este aqui.
+
+05:16.595 --> 05:17.706
+O que será esse?
+
+05:17.706 --> 05:27.193
+Será 4.36 vírgula L de 4.36.
+
+05:27.193 --> 05:34.916
+O quanto vale essa linha em 4.36?
+
+05:34.916 --> 05:36.360
+Vejamos.
+Basta calcular.
+
+05:36.360 --> 05:48.370
+L de 4.36 será L de quatro que vale dois
+mais a derivada, f linha de quatro,
+
+05:48.370 --> 05:50.830
+vezes x menos quatro.
+
+05:50.830 --> 05:56.740
+4.36 menos quatro, será então vezes 0.36.
+
+05:56.740 --> 06:04.661
+Faz sentido. Começamos em dois
+e a variação em x é 4.36.
+
+06:04.661 --> 06:09.100
+Então a variação em y será a inclinação
+vezes a variação em x.
+
+06:09.100 --> 06:13.580
+Para obtermos aquele valor ali.
+
+06:13.580 --> 06:22.185
+Vamos descobrir o que isso realmente é.
+
+06:22.185 --> 06:27.350
+Para fazer isso precisamos de f linha
+de quatro...vamos voltar aqui em cima.
+
+06:27.350 --> 06:30.800
+Deixarei isso aqui visível.
+
+06:30.800 --> 06:38.443
+Então f linha de x será um meio
+x elevado a menos um meio.
+
+06:38.443 --> 06:40.622
+Usei a regra do expoente aqui.
+
+06:40.622 --> 06:51.672
+Logo, f linha de quatro será meio
+vezes quatro elevado a menos meio.
+
+06:51.672 --> 06:56.932
+Que é igual a meio vezes meio.
+
+06:56.932 --> 07:00.279
+Quatro elevado a menos meio é meio.
+
+07:00.279 --> 07:03.080
+Então isso será um quarto.
+
+07:03.080 --> 07:11.368
+Merecemos um rufar de
+tambores agora... L de 4.36
+
+07:11.368 --> 07:22.540
+é igual a f de quatro
+mais f linha de quatro.
+
+07:22.540 --> 07:25.520
+Usarei amarelo aqui.
+
+07:25.520 --> 07:39.391
+Mais f linha de quatro vezes 4.36--
+
+07:39.391 --> 07:42.802
+deixe-me usar outra cor--
+
+07:42.802 --> 07:54.137
+vezes 4.36 menos quatro.
+
+07:54.137 --> 07:59.816
+Deixe-me fazer os quatros da mesma cor.
+
+07:59.816 --> 08:01.464
+Quanto será isso?
+
+08:01.464 --> 08:05.670
+Isso já sabemos, é dois.
+
+08:05.670 --> 08:13.030
+Isso também--usarei amarelo--
+vale um quarto.
+
+08:13.030 --> 08:19.390
+E esta parte é 0.36.
+
+08:19.390 --> 08:29.887
+Isso será igual a dois mais,
+um quarto vezes 0.36 é 0.09.
+
+08:29.887 --> 08:35.250
+Isso será igual a 2.09.
+
+08:35.250 --> 08:37.645
+Essa é nossa aproximação.
+
+08:37.645 --> 08:43.894
+Ela é um pouco maior que o valor
+real da raiz quadrada de 4.36.
+
+08:43.894 --> 08:45.447
+Vamos escrever aqui em cima.
+
+08:45.447 --> 08:51.960
+Isso será aproximadamente...
+escreverei aqui embaixo.
+
+08:51.960 --> 09:00.002
+A raiz quadrada de 4.36 que
+é o mesmo que f de 4.36
+
+09:00.002 --> 09:04.198
+é aproximadamente igual a 2.09.
+
+09:04.198 --> 09:11.259
+Vamos agora usar uma calculadora
+pra ver se nossa aproximação é boa.
+
+09:11.259 --> 09:13.150
+Aqui está ela.
+
+09:13.150 --> 09:22.540
+A raiz quadrada de 4.36 dá 2.088.
+
+09:22.540 --> 09:26.880
+Se aproximarmos à segunda casa
+teremos uma excelente aproximação.
+
+09:26.880 --> 09:36.322
+Como vimos nesse gráfico indicativo aqui,
+nossa aproximação foi de fato maior.
+
+09:36.322 --> 09:37.735
+Legendado por: [Vitor Tocci]
+Revisado por: [Rodrigo Melges]

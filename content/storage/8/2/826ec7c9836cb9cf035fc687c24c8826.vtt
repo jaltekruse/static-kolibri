@@ -1,0 +1,270 @@
+WEBVTT
+
+00:00.010 --> 00:03.195
+Řekněme, že máme dvě
+navzájem inverzní funkce.
+
+00:03.195 --> 00:10.652
+Máme tedy funkci f(x) a funkci g(x),
+která je inverzní funkcí k funkci f(x).
+
+00:10.652 --> 00:13.786
+f(x) je zase
+inverzní funkcí ke g(x).
+
+00:13.786 --> 00:17.233
+Pokud je vám myšlenka
+inverzních funkcí úplně neznámá,
+
+00:17.233 --> 00:21.162
+tak doporučuji podívat se na inverzní
+funkce na stránkách Khan academy.
+
+00:21.162 --> 00:23.833
+Jedna z vlastností
+inverzních funkcí je,
+
+00:23.833 --> 00:32.103
+že když máme g v bodě f(x),
+tedy inverzní funkci k f v bodě f(x),
+
+00:32.110 --> 00:35.737
+tak se to
+rovná x.
+
+00:35.737 --> 00:38.992
+Toto plyne přímo
+z definice inverzní funkce.
+
+00:38.992 --> 00:46.415
+Tady máme nějaké x, které funkce f
+zobrazí na nějakou hodnotu f(x).
+
+00:46.415 --> 00:48.918
+Tohle je tedy f(x).
+
+00:48.918 --> 00:53.316
+Když do funkce g, tedy inverzní
+funkce k f, dosadíme f(x),
+
+00:53.316 --> 00:57.362
+tak se dostaneme
+zase do bodu x.
+
+00:57.362 --> 01:02.138
+Tohle udělá inverzní funkce k f neboli
+funkce g, která je inverzní funkcí k f.
+
+01:02.138 --> 01:05.452
+Tohle je zatím jen
+opakování inverzních funkcí.
+
+01:05.452 --> 01:09.500
+Nyní však použijeme diferenciální počet,
+a to pravidlo pro derivaci složené funkce,
+
+01:09.500 --> 01:11.730
+čímž dostaneme
+poměrně zajímavý výsledek.
+
+01:11.730 --> 01:16.312
+Rád bych teď zderivoval
+obě strany této rovnice.
+
+01:16.321 --> 01:24.876
+Na levou i pravou stranu tedy
+použijeme operátor derivace d lomeno dx.
+
+01:24.876 --> 01:26.653
+Co dostaneme?
+
+01:26.653 --> 01:30.762
+Na levé straně použijeme
+vzorec pro derivaci složené funkce.
+
+01:30.762 --> 01:43.076
+Bude to derivace g podle f(x),
+tedy g s čárkou v bodě f(x),
+
+01:43.076 --> 01:49.297
+krát derivace f(x) podle x,
+tedy krát f s čárkou v bodě x.
+
+01:49.297 --> 01:51.957
+Tohle se bude
+rovnat čemu?
+
+01:51.957 --> 01:56.841
+Derivace podle x
+z x je 1.
+
+01:56.841 --> 01:59.278
+Nyní získáme náš
+zajímavý výsledek.
+
+01:59.278 --> 02:02.659
+Zatím jsme jen využili svých
+znalostí o inverzních funkcích
+
+02:02.659 --> 02:06.136
+a levou stranu jsme zderivovali
+pomocí vzorce pro derivaci složené funkce.
+
+02:06.136 --> 02:11.590
+Když nyní obě strany vydělíme
+g s čárkou v bodě f(x), co dostaneme?
+
+02:11.590 --> 02:16.496
+Dostaneme vztah mezi derivací funkce
+a derivací funkce k ní inverzní.
+
+02:16.496 --> 02:24.587
+Dostaneme, že f s čárkou v bodě x
+se rovná 1 lomeno tohle celé,
+
+02:24.596 --> 02:31.949
+tedy 1 lomeno
+g s čárkou v bodě f(x).
+
+02:31.949 --> 02:36.263
+Tohle je fajn vědět, protože když
+něco víme o derivaci funkce,
+
+02:36.263 --> 02:40.251
+můžeme něco zjistit o
+derivaci funkce k ní inverzní.
+
+02:40.251 --> 02:44.027
+Můžeme si ukázat, že tenhle vzorec
+platí pro některé známé funkce.
+
+02:44.027 --> 02:50.039
+Řekněme, že f(x) se
+rovná e na x.
+
+02:50.039 --> 02:57.615
+g(x) se musí rovnat
+inverzní funkci k f, což je...
+
+02:57.615 --> 03:00.265
+Jak vypadá inverzní
+funkce k e na x?
+
+03:00.265 --> 03:04.494
+Můžeme to zjistit tak, že když se
+y rovná e na x a chceme inverzní funkci,
+
+03:04.494 --> 03:07.312
+tak zaměníme proměnné
+a pak osamostatníme y.
+
+03:07.312 --> 03:10.628
+Záměnou proměnných dostaneme,
+že x se rovná e na y.
+
+03:10.628 --> 03:15.261
+Na obě strany použijeme přirozený
+logaritmus a vyjde, že ln(x) se rovná y.
+
+03:15.261 --> 03:18.541
+Inverzní funkcí k e na x je
+tedy přirozený logaritmus z x.
+
+03:18.541 --> 03:20.871
+Toto je také jenom
+opakování inverzních funkcí.
+
+03:20.871 --> 03:24.441
+Pokud je to pro vás neznámé, podívejte se
+na to na stránkách Khan Academy.
+
+03:24.441 --> 03:29.971
+g(x) se tedy rovná
+přirozený logaritmus z x.
+
+03:29.971 --> 03:33.661
+Podívejme se, zda tento vztah
+platí pro tyto dvě funkce.
+
+03:33.661 --> 03:36.401
+Čemu se rovná
+f s čárkou v bodě x?
+
+03:36.401 --> 03:38.951
+To je jeden z úžasných
+výsledků diferenciálního počtu.
+
+03:38.951 --> 03:42.391
+Jedním z úžasných faktů
+o číslu ‚e‘ je totiž to,
+
+03:42.391 --> 03:46.991
+že derivace e na x
+je opět e na x.
+
+03:46.991 --> 03:48.791
+V jiném videu jsme
+si také ukázali,
+
+03:48.791 --> 03:53.571
+že derivace přirozeného
+logaritmu z x je 1 lomeno x.
+
+03:53.571 --> 03:55.311
+Podívejme se nyní,
+zda tohle platí.
+
+03:55.311 --> 03:59.321
+Měli bychom dostat, že f s čárkou
+v bodě x, tedy e na x,
+
+03:59.321 --> 04:07.071
+se rovná 1 lomeno
+g s čárkou v bodě f(x).
+
+04:07.071 --> 04:08.831
+g s čárkou
+v bodě f(x)...
+
+04:08.831 --> 04:15.111
+To bude 1 lomeno f(x),
+přičemž f(x) je e na x,
+
+04:15.111 --> 04:16.991
+tedy 1 lomeno
+e na x.
+
+04:16.991 --> 04:18.731
+Je tohle pravda?
+
+04:18.731 --> 04:23.971
+Ano, 1 lomeno (1 lomeno e na x)
+se rovná e na x.
+
+04:23.971 --> 04:25.791
+Takže nám
+to souhlasí.
+
+04:25.791 --> 04:28.751
+Můžeme to udělat i obráceně,
+jde o navzájem inverzní funkce.
+
+04:28.751 --> 04:34.101
+Můžeme také říct, že g s čárkou v bodě x
+se rovná 1 lomeno f s čárkou v bodě g(x),
+
+04:34.101 --> 04:36.041
+protože jsou to
+navzájem inverzní funkce.
+
+04:36.041 --> 04:38.061
+Na tomhle je
+velmi užitečné to,
+
+04:38.061 --> 04:40.661
+že díky tomuto vztahu získáme
+určitou představu o tom,
+
+04:40.661 --> 04:45.121
+jak bude derivace inverzní
+funkce vůbec vypadat.

@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00.117 --> 00:01.463
+Z předešlého videa víme,
+
+00:01.463 --> 00:12.350
+že derivace podle 'x' z přirozeného
+logaritmu x je rovna 1 děleno x.
+
+00:12.350 --> 00:14.578
+To, co zde chci dělat,
+je použít znalosti,
+
+00:14.578 --> 00:17.071
+které jsme získali dříve, k
+tomu, abychom zjistili,
+
+00:17.071 --> 00:23.412
+čemu je rovna derivace podle 'x'
+z logaritmu o libovolném základu.
+
+00:23.412 --> 00:30.502
+Takže tento logaritmus nazvu
+logaritmus čísla 'x' o základu 'a'.
+
+00:30.517 --> 00:32.328
+Takže jak toto vyřešíme?
+
+00:32.328 --> 00:34.037
+Klíčová věc je to,
+
+00:34.037 --> 00:37.626
+co už můžete znát z algebry nebo
+úvodu do diferenciálního počtu.
+
+00:37.626 --> 00:40.186
+A to je změna základu logaritmu.
+
+00:40.186 --> 00:42.366
+Takže pokud mám nějaký…
+
+00:42.366 --> 00:43.306
+Udělám to tady.
+
+00:43.306 --> 00:48.587
+...logaritmus čísla 'b' o základu 'a'
+a chtěl bych to změnit na jiný základ,
+
+00:48.587 --> 00:50.956
+řekněme na základ 'c',
+
+00:50.956 --> 00:52.676
+tak je to stejné jako:
+
+00:52.676 --> 01:04.073
+logaritmus čísla 'b' o základu 'c' lomeno
+logaritmus čísla 'a' o základu 'c'.
+
+01:04.073 --> 01:08.050
+Logaritmus 'b' o základu 'c' lomeno
+logaritmus 'a' o základu 'c'.
+
+01:08.050 --> 01:09.447
+Toto je opravdu užitečná věc,
+
+01:09.447 --> 01:13.083
+a pokud jste ji nikdy předtím neviděli,
+tak jsem vám ji právě ukázal.
+
+01:13.083 --> 01:16.273
+A dokázali jsme ji v ostatních
+videích na Khanově akademii.
+
+01:16.273 --> 01:21.006
+A je skutečně užitečná, protože například
+vaše kalkulačka má tlačítko logaritmu.
+
+01:21.006 --> 01:24.740
+Logaritmus na vaší kalkulačce je
+logaritmus o základu 10.
+
+01:24.740 --> 01:31.564
+Takže pokud stisknete na kalkulačce 100
+a stisknete logaritmus, vyjde vám číslo 2.
+
+01:31.564 --> 01:33.935
+Takže kdykoliv uvidíte
+logaritmus ze 100,
+
+01:33.935 --> 01:35.885
+je to implicitně o základu 10.
+
+01:35.885 --> 01:40.092
+Máte tlačítko pro přirozený logaritmus,
+což je logaritmus o základu 'e'.
+
+01:40.092 --> 01:45.795
+Přirozený logaritmus x je roven
+logaritmu 'x' o základu 'e'.
+
+01:45.795 --> 01:50.450
+Ale někdy chcete najít všechny
+druhy logaritmů o různých základech
+
+01:50.450 --> 01:52.298
+a tohle je způsob, jak to udělat.
+
+01:52.298 --> 01:56.502
+Takže pokud používáte svou
+kalkulačku a chcete najít,
+
+01:56.502 --> 02:00.483
+čemu se rovná logaritmus
+čísla 8 o základu 3,
+
+02:00.483 --> 02:05.979
+napsali byste do kalkulačky
+log 8 a log 3.
+
+02:05.979 --> 02:08.887
+Napíšu to takto…
+
+02:08.887 --> 02:11.263
+Přičemž oba z nich mají
+implicitně základ 10
+
+02:11.263 --> 02:12.811
+a dostali byste
+stejnou hodnotu,
+
+02:12.811 --> 02:17.701
+kdybyste vydělili přirozený logaritmus
+z 8 přirozeným logaritmem ze 3.
+
+02:17.701 --> 02:19.920
+Což možná také
+máte na své kalkulačce.
+
+02:19.920 --> 02:24.972
+A my v tomto videu budeme
+využívat přirozeného logaritmu,
+
+02:24.972 --> 02:28.366
+protože víme, čemu je rovna
+derivace přirozeného logaritmu.
+
+02:28.366 --> 02:35.273
+Takže tato derivace je to
+samé jako derivace podle 'x'…
+
+02:35.273 --> 02:38.394
+Logaritmus čísla 'x' o základu 'a'
+může být přepsán takto:
+
+02:38.394 --> 02:43.768
+přirozený logaritmus 'x' lomeno
+přirozený logaritmus 'a'.
+
+02:43.768 --> 02:47.196
+Přirozený logaritmus 'a'
+je jen číslo, můžu ho přepsat jako…
+
+02:47.196 --> 02:50.626
+Napíšu to takto:
+
+02:50.626 --> 02:56.419
+1 děleno přirozený logaritmus 'a'
+krát přirozený logaritmus 'x'.
+
+02:56.450 --> 02:58.094
+Čemu je rovna
+derivace tohoto?
+
+02:58.094 --> 03:00.128
+Můžeme si dát
+dopředu konstantu.
+
+03:00.128 --> 03:02.357
+1 děleno přirozený logaritmus 'a'
+je jen číslo.
+
+03:02.357 --> 03:06.255
+Takže dostaneme 1 děleno
+přirozený logaritmus 'a',
+
+03:06.255 --> 03:18.090
+a to vynásobíme derivací podle 'x'
+z přirozeného logaritmu 'x'.
+
+03:18.090 --> 03:19.954
+Což už víme,
+že je 1 děleno x.
+
+03:19.954 --> 03:23.134
+Takže tento výraz
+je 1 děleno x.
+
+03:23.134 --> 03:29.251
+Takže nám vyjde 1 děleno přirozený
+logaritmus 'a' krát 1 děleno x,
+
+03:29.251 --> 03:40.013
+což můžeme zapsat jako 1
+děleno (přirozený logaritmus 'a' krát x).
+
+03:40.013 --> 03:42.118
+Což je velice
+užitečné vědět.
+
+03:42.118 --> 03:46.317
+Takže teď umíme počítat
+všechny druhy derivací logaritmů.
+
+03:46.317 --> 03:56.264
+Takže kdybych vám řekl, že f(x) je
+rovno logaritmu čísla 'x' o základu 7,
+
+03:56.264 --> 03:57.374
+tak teď můžeme říct,
+
+03:57.374 --> 04:07.034
+že f'(x) bude 1 lomeno
+(přirozený logaritmus 7 krát x).
+
+04:07.047 --> 04:12.648
+Kdybychom měli konstantu,
+například g(x)…
+
+04:12.648 --> 04:20.394
+g(x) je rovno −3 krát logaritmus
+o základu, řekněme o základu π.
+
+04:20.394 --> 04:21.444
+π je číslo.
+
+04:21.444 --> 04:24.921
+Logaritmus čísla 'x' o základu π.
+
+04:24.921 --> 04:29.742
+g'(x) by bylo rovno 1 lomeno…
+
+04:29.742 --> 04:31.763
+Musím být opatrný,
+mám tady tuto konstantu.
+
+04:31.763 --> 04:34.198
+Takže by to bylo −3 lomeno…
+
+04:34.198 --> 04:35.914
+Je to tato −3.
+
+04:35.914 --> 04:39.954
+…lomeno přirozený logaritmus π.
+
+04:39.954 --> 04:42.128
+Toto je přirozený logaritmus
+tohoto čísla.
+
+04:42.128 --> 04:43.829
+…krát x.
+
+04:43.829 --> 04:47.001
+Doufám, že vám to nějak pomohlo.

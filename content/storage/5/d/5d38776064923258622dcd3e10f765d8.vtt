@@ -1,0 +1,781 @@
+WEBVTT
+
+00:00.000 --> 00:00.580
+tuletised 2.5
+
+00:00.580 --> 00:04.900
+Eelmises videos leidsime graafiku y = x ruut joone puutuja
+
+00:04.900 --> 00:07.035
+ühes kindlas punktis.
+
+00:07.035 --> 00:09.700
+Proovime üldistada ja tuletada valemi,
+
+00:09.700 --> 00:12.780
+mis aitaks joone puutujat leida
+
+00:12.780 --> 00:15.350
+igas graafiku y = x ruut punktis.
+
+00:15.350 --> 00:18.000
+Joonistan graafiku uuesti.
+
+00:18.000 --> 00:21.720
+Joonis võiks kena olla.
+
+00:21.720 --> 00:24.530
+See on y telg.
+
+00:24.530 --> 00:28.420
+Ja see on x telg.
+
+00:28.420 --> 00:29.580
+X-telg.
+
+00:29.580 --> 00:30.670
+Joonistan graafiku,
+
+00:30.670 --> 00:32.900
+mis näeb umbes selline välja.
+
+00:32.900 --> 00:34.210
+Seda oled praeguseks korduvalt näinud.
+
+00:34.210 --> 00:37.970
+y = x ruudus.
+
+00:37.970 --> 00:39.740
+Räägime üldiselt.
+
+00:39.740 --> 00:42.600
+Kui tahame leida --
+
+00:42.600 --> 00:44.600
+-- kirjutan alustuseks tuletise definitsiooni.
+
+00:44.600 --> 00:48.450
+Ühesõnaga kui meil on punkt x.
+
+00:48.450 --> 00:49.630
+Üldistame.
+
+00:49.630 --> 00:52.470
+Ja me tahame leida puutujat punktis x.
+
+00:52.470 --> 00:55.190
+Tahame leida graafikut, mille puhul võime valida suvalise x-i
+
+00:55.190 --> 00:57.010
+ja arvutada selles joone puutuja väärtuse.
+
+00:57.010 --> 00:59.800
+Nimetame selle f(x) tuletiseks.
+
+00:59.800 --> 01:06.210
+f ' (x).
+
+01:06.210 --> 01:09.830
+Ainus, mida saab leida f valitud punkti x puhul,
+
+01:09.830 --> 01:12.670
+on selle sama punkti väärtus.
+
+01:12.670 --> 01:14.810
+Graafik näeb selline välja.
+
+01:14.810 --> 01:19.470
+f(x), kuigi talle on omistatud x väärtus,
+
+01:19.470 --> 01:21.050
+ei anna vastuseks graafiku väärtust.
+
+01:21.050 --> 01:22.760
+See ei teata "ohoo -- see on sinu f(x)", vaid annab vastuseks
+
+01:22.760 --> 01:24.855
+graafiku puutuja väärtuse
+
+01:24.855 --> 01:26.280
+vastavas punktis.
+
+01:26.280 --> 01:28.790
+f(x) peaks andma vastuseks
+
+01:28.790 --> 01:31.540
+joone puutuja väärtuse:
+
+01:31.540 --> 01:33.360
+näiteks kui valida punkt 3,
+
+01:33.360 --> 01:34.220
+on puutuja väärtus 6.
+
+01:34.220 --> 01:35.590
+Nägime seda eelmises näites.
+
+01:35.590 --> 01:37.410
+See ongi see mida me saavutada üritame.
+
+01:37.410 --> 01:40.600
+Ja umbes 2 videot tagasi defineerisime (f(x)) tuletise.
+
+01:40.600 --> 01:47.130
+f ' (x) = f (x + h) - f(x) jagatud h-ga.
+
+01:47.130 --> 01:48.470
+Kirjutame selle uuesti välja.
+
+01:48.470 --> 01:51.210
+Seekansi joone puutuja vahemikus x ja
+
+01:51.210 --> 01:53.540
+mingi x-st natuke kaugemal asuv punkt.
+
+01:53.540 --> 01:56.640
+Seega seekansi joone puutuja on y muut.
+
+01:56.640 --> 02:00.940
+Ühtlasi y väärtus punktis, mis on
+
+02:00.940 --> 02:02.290
+punktist x pisut kaugemal.
+
+02:02.290 --> 02:07.630
+Seega --
+
+02:07.630 --> 02:08.600
+(f(x) + h) - (y väärtus punktis x).
+
+02:08.600 --> 02:11.200
+See on f(x).
+
+02:11.200 --> 02:13.820
+- f(x).
+
+02:13.820 --> 02:15.830
+Kõik see jagada x muuduga.
+
+02:15.830 --> 02:19.620
+Kui see on (x + h),
+
+02:19.620 --> 02:21.740
+on x muut (x + h) - x.
+
+02:21.740 --> 02:23.470
+See kaugus ongi h.
+
+02:23.470 --> 02:26.830
+x muut = h.
+
+02:26.830 --> 02:29.150
+See ongi seekansi joone puutuja
+
+02:29.150 --> 02:31.240
+kahe ükskõik millise sarnase puntki vahel.
+
+02:31.240 --> 02:33.880
+Joone puutuja leidsime kasutades
+
+02:33.880 --> 02:36.390
+h piirväärtust h ->0.
+
+02:36.390 --> 02:40.060
+h -> 0.
+
+02:40.060 --> 02:42.930
+Nii leiamegi lõpuks joone puutuja väärtuse.
+
+02:42.930 --> 02:48.060
+Rakendame saadud teadmisi funktsioonil
+
+02:48.060 --> 02:49.970
+f(x) = x ruudus.
+
+02:49.970 --> 02:52.430
+y = x ruudus
+
+02:52.430 --> 02:55.800
+See on punkt (x, x ruudus).
+
+02:55.800 --> 02:58.910
+Punkt (x, x ruudus).
+
+02:58.910 --> 03:01.380
+Seega f(x) = x ruut.
+
+03:01.380 --> 03:05.040
+Ja see punkt oleks -
+
+03:05.040 --> 03:07.140
+valin rõõmsama värvi.
+
+03:07.140 --> 03:11.510
+See punkt on (x + h).
+
+03:11.510 --> 03:13.040
+Punkt, mis asub veidi allpool.
+
+03:13.040 --> 03:14.770
+Ja punkt
+
+03:14.770 --> 03:19.450
+(x + h) ruut.
+
+03:19.450 --> 03:20.880
+Eelmises videos rakendasime seda
+
+03:20.880 --> 03:21.500
+kindlas punktis x.
+
+03:21.500 --> 03:22.590
+Nimelt punktis väärtusega 3.
+
+03:22.590 --> 03:24.330
+Nüüd tahame leida üldisemat valemit.
+
+03:24.330 --> 03:26.300
+Valime küll suvalise x ent ei pea kõiki eelmises
+
+03:26.300 --> 03:28.330
+videos nähtud tehteid uuesti läbi tegema.
+
+03:28.330 --> 03:29.490
+Lahendamiseks on kasutada üldine valem.
+
+03:29.490 --> 03:31.570
+Valime 7, ja saame arvutada milline on selles punktis puutuja väärtus.
+
+03:31.570 --> 03:33.260
+Võtame näiteks punkti -3 ja
+
+03:33.260 --> 03:34.300
+arvutame joone puutuja.
+
+03:34.300 --> 03:36.450
+Kasvõi 100000
+
+03:36.450 --> 03:37.690
+ja saame õige vastuse.
+
+03:37.690 --> 03:39.310
+Proovime valemit rakendada.
+
+03:39.310 --> 03:42.740
+Niisiis, jagame y muudu x muuduga.
+
+03:42.740 --> 03:45.410
+y muut jagatud x muuduga.
+
+03:45.410 --> 03:51.190
+Esiteks: y muut =
+
+03:51.190 --> 03:52.975
+(x + h) ruudus.
+
+03:52.975 --> 03:57.410
+y muut = (x + h) ruudus.
+
+03:57.410 --> 03:59.290
+Antud punkti y väärtus.
+
+03:59.290 --> 04:00.270
+Just seesama.
+
+04:00.270 --> 04:02.730
+See on (x + h) ruudus.
+
+04:02.730 --> 04:06.380
+Uurisin punkti (x + h), korrutasin ja sain vastuseks
+
+04:06.380 --> 04:07.820
+punkti väärtuse graafikul.
+
+04:07.820 --> 04:08.930
+(x + h) ruudus.
+
+04:08.930 --> 04:10.630
+Seesama.
+
+04:10.630 --> 04:12.080
+Milline siis see väärtus on?
+
+04:12.080 --> 04:15.230
+f(x) selles punktis on
+
+04:15.230 --> 04:16.310
+x ruudus.
+
+04:16.310 --> 04:18.530
+Uurime funktsiooni punktis x
+
+04:18.530 --> 04:20.600
+ja saame vastuseks x ruudus.
+
+04:20.600 --> 04:23.300
+Seega y muut on (x + h) ruudus - x ruudus.
+
+04:23.300 --> 04:24.900
+y muut on (x + h) ruudus - x ruudus.
+
+04:24.900 --> 04:29.090
+See kaugus siin on delta y.
+
+04:29.090 --> 04:33.110
+Ja et leida seos tuletise definitsiooniga --
+
+04:33.110 --> 04:35.820
+see sinine asjandus siin on võrdne
+
+04:35.820 --> 04:36.570
+selle rohelise asjandusega.
+
+04:36.570 --> 04:39.140
+Uurisime just funktsiooni.
+
+04:39.140 --> 04:42.850
+Funktsioon f(x) = x ruudus.
+
+04:42.850 --> 04:46.310
+Uurisime just millistel tingimustel x = (x + h).
+
+04:46.310 --> 04:48.920
+Seega kui see on vaja ruutu võtta, valides näiteks a,
+
+04:48.920 --> 04:49.540
+siis on tulemus a ruudus.
+
+04:49.540 --> 04:51.200
+Kui ma valiksin õuna, oleks tegemist topeltõunaga.
+
+04:51.200 --> 04:52.970
+Kui valin (x + h),
+
+04:52.970 --> 04:54.580
+on tulemuseks (x + h) ruudus.
+
+04:54.580 --> 04:56.210
+See asjandus siin.
+
+04:56.210 --> 05:00.420
+Ja see on siis funktsioon,
+
+05:00.420 --> 05:01.810
+mida kindlas punktis uurisime.
+
+05:01.810 --> 05:02.440
+Just seal.
+
+05:02.440 --> 05:05.120
+See on y muut.
+
+05:05.120 --> 05:07.920
+Jagame selle x muuduga.
+
+05:07.920 --> 05:10.730
+x muut -- kui see on (x + h) ja see on lihtsalt x,
+
+05:10.730 --> 05:13.360
+on x muut h.
+
+05:13.360 --> 05:14.880
+Sealt tulenebki vastav tingimus.
+
+05:14.880 --> 05:17.670
+Nende kahe punkti puutuja.
+
+05:17.670 --> 05:19.350
+See on lihtsalt nende kahe punkti puutuja.
+
+05:19.350 --> 05:22.690
+Kuid me tahame leida -- selle punkti piirväärtus läheneb
+
+05:22.690 --> 05:25.500
+järjest sellele punktile ja see punkt omakorda
+
+05:25.500 --> 05:26.790
+läheneb järjest sellele punktile.
+
+05:26.790 --> 05:29.530
+Saame joone puutuja.
+
+05:29.530 --> 05:34.480
+Võtame piirväärtuseks h -> 0,
+
+05:34.480 --> 05:37.250
+ja see on f ' (x).
+
+05:37.250 --> 05:39.580
+Selle asemel, et öelda - definitsioon kehtib iga
+
+05:39.580 --> 05:42.400
+funktsiooni korral, teame millisest
+
+05:42.400 --> 05:43.380
+funktsioonist hetkel jutt käib.
+
+05:43.380 --> 05:45.680
+f(x) = x ruudus.
+
+05:45.680 --> 05:46.660
+Kasutasimegi olemasolevat valemit.
+
+05:46.660 --> 05:48.350
+Selle asemel, et kirjutada f(x), kirjutasime x ruudus.
+
+05:48.350 --> 05:52.950
+f(x) + h asemel kirjutasime (x+h) ruudus.
+
+05:52.950 --> 05:56.180
+Vaatame kas saame hinnata piirväärtust.
+
+05:56.180 --> 06:04.680
+See on võrdne piirväärtusega
+
+06:04.680 --> 06:06.680
+h -> 0.
+
+06:06.680 --> 06:09.160
+Kasutan sama värvi.
+
+06:09.160 --> 06:19.230
+x ruudus + 2xh + h ruudus,
+
+06:19.230 --> 06:22.320
+lisaks veel (-x) ruudus.
+
+06:22.320 --> 06:24.790
+Korrutasin need omavahel läbi.
+
+06:24.790 --> 06:27.635
+Nüüd jagan h-ga.
+
+06:27.635 --> 06:30.850
+Vaatame kas seda lihtsustada annab.
+
+06:30.850 --> 06:32.610
+x ruudus ja -x ruudus taanduvad.
+
+06:35.390 --> 06:36.570
+Ja siis jagame
+
+06:36.570 --> 06:38.185
+lugeja ja nimetaja h-ga.
+
+06:38.185 --> 06:44.780
+Saame f ' (x),
+
+06:44.780 --> 06:46.590
+kui jagame lugeja ja nimetaja h-ga,
+
+06:46.590 --> 06:50.260
+saame vastuseks (2x + h).
+
+06:50.260 --> 06:52.070
+Unustasin piirväärtuse, vabandust.
+
+06:52.070 --> 06:53.420
+Võrdne piirväärtusega.
+
+06:53.420 --> 06:54.330
+Väga oluline nüanss.
+
+06:54.330 --> 07:01.200
+h -> 0 piirväärtus, jagame kõik h-ga
+
+07:01.200 --> 07:08.640
+ja saame 2x + h, sest h ruut jagatud h-ga on kokku h.
+
+07:08.640 --> 07:10.440
+Kui meenutada eelmist videot, siis
+
+07:10.440 --> 07:13.780
+kasutasime x väärtusega 3 ja saime
+
+07:13.780 --> 07:14.920
+6 + delta x.
+
+07:14.920 --> 07:17.420
+Või 6 + h nagu antud videos, väga sarnased asjad.
+
+07:17.420 --> 07:20.130
+Nii et kui võtta piirväärtuseks h -> 0,
+
+07:20.130 --> 07:21.010
+siis see lihtsalt kaob.
+
+07:21.010 --> 07:24.240
+Nii on see kõik võrdne 2x-ga.
+
+07:24.240 --> 07:28.540
+Leidsime just f(x).
+
+07:28.540 --> 07:30.180
+Nii põnev!
+
+07:30.180 --> 07:35.130
+Ehk siis kui f(x) on võrdne x ruuduga,
+
+07:35.130 --> 07:37.910
+on f tuletis x-st 2x.
+
+07:37.910 --> 07:39.470
+See on see millest just välja nuputasime.
+
+07:39.470 --> 07:41.570
+Ja et teha kindlaks, et on arusaadav
+
+07:41.570 --> 07:42.880
+kuidas seda tõlgendatakse:
+
+07:42.880 --> 07:45.780
+f(x), kui võtta mingi väärtus, annab meile
+
+07:45.780 --> 07:47.560
+funktsiooni väärtuse selles punktis.
+
+07:47.560 --> 07:48.920
+Ja x tuletis annab meile joone
+
+07:48.920 --> 07:49.960
+puutuja selles punktis.
+
+07:49.960 --> 07:51.180
+Joonistan ka selle,
+
+07:51.180 --> 07:53.490
+kuna see on väga tähtis.
+
+07:53.490 --> 07:56.220
+Tegelikult ei ole nii lihtne mõista,
+
+07:56.220 --> 07:58.590
+et on funktsioon mis annab meile vastuseks
+
+07:58.590 --> 08:02.040
+mingi teise funktsiooni joone
+
+08:02.040 --> 08:05.070
+puutuja suvalises punktis.
+
+08:05.070 --> 08:07.650
+Proovin natuke paremini joonistada.
+
+08:07.650 --> 08:10.290
+Ikka veel kehvasti.
+
+08:10.290 --> 08:11.280
+Nii on parem.
+
+08:11.280 --> 08:13.650
+Joonistan selle positiivsesse määramispiirkonda.
+
+08:13.650 --> 08:15.640
+Joonistan kogu kõvera,
+
+08:15.640 --> 08:17.450
+mis näeb umbes selline välja.
+
+08:17.450 --> 08:20.090
+See kõver on f(x).
+
+08:20.090 --> 08:23.050
+Ja see kõver on f(x) = x ruudus.
+
+08:23.050 --> 08:24.230
+Just nii.
+
+08:24.230 --> 08:26.490
+Nii et kui valida mingi punkt.
+
+08:26.490 --> 08:27.840
+Näiteks 7.
+
+08:27.840 --> 08:30.610
+7 tuleb võtta ruutu.
+
+08:30.610 --> 08:34.460
+Ja 7 ruudus
+
+08:34.460 --> 08:36.170
+= 49.
+
+08:36.170 --> 08:38.620
+See on punkt (7, 49).
+
+08:38.620 --> 08:40.940
+Nüüdseks peaksid juba funktsioonide arvutamisega harjunud olema.
+
+08:40.940 --> 08:43.630
+Aga milline on
+
+08:43.630 --> 08:45.000
+f ' (7) ?
+
+08:45.000 --> 08:47.740
+2*7 = 14.
+
+08:47.740 --> 08:49.990
+Mida tähendab 14?
+
+08:49.990 --> 08:51.380
+Mida see endast kujutab?
+
+08:51.380 --> 08:53.440
+See on joone puutuja
+
+08:53.440 --> 08:55.030
+punktis x = 7.
+
+08:55.030 --> 08:59.330
+Nii et kui võtame punkti ja joonistame joone puutuja
+
+08:59.330 --> 09:02.930
+ja punkti,
+
+09:02.930 --> 09:03.890
+mis riivab kõverat...
+
+09:03.890 --> 09:06.410
+See ei ole piisavalt hästi joonistatud...
+
+09:06.410 --> 09:08.790
+Siis selline ongi joone puutuja.
+
+09:08.790 --> 09:10.200
+Saad aru küll.
+
+09:10.200 --> 09:13.660
+Puutuja väärtuseks on siis delta y jagatud
+
+09:13.660 --> 09:16.260
+delta x = 14.
+
+09:16.260 --> 09:18.880
+Puutuja punktis y = 7
+
+09:18.880 --> 09:20.270
+on üsna järsu nurga all.
+
+09:20.270 --> 09:21.990
+Kui tahtsime leida puutujat näiteks
+
+09:21.990 --> 09:25.910
+punktis x = 2.
+
+09:25.910 --> 09:30.290
+x = 7 korral oli puutuja 14.
+
+09:30.290 --> 09:32.900
+Milline on puutuja tingimusel x = 2?
+
+09:32.900 --> 09:37.230
+f ' (2) =
+
+09:37.230 --> 09:38.880
+2*2, mis on 4.
+
+09:38.880 --> 09:43.990
+Seega on puutuja väärtus 4.
+
+09:43.990 --> 09:46.520
+Võib öelda, et m = 4, m tähistab puutujat.
+
+09:46.520 --> 09:50.560
+Milline on f ' (0) ?
+
+09:50.560 --> 09:51.170
+f ' (0) ?
+
+09:51.170 --> 09:53.120
+Teame, et f(0) = 0.
+
+09:53.120 --> 09:55.120
+0 ruudus = 0.
+
+09:55.120 --> 09:57.710
+Kuid milline on f ' (0) ?
+
+09:57.710 --> 09:59.180
+2 * 0 = 0.
+
+09:59.180 --> 10:00.480
+Seega on vastuseks 0.
+
+10:00.480 --> 10:01.350
+Kuid mida see täpsemalt tähendab?
+
+10:01.350 --> 10:03.100
+Kuidas seda tõlgendada?
+
+10:03.100 --> 10:05.850
+See tähendab, et joone puutuja on 0.
+
+10:05.850 --> 10:08.390
+0 puutuja joon näeb selline välja.
+
+10:08.390 --> 10:09.920
+Lihtsalt horisontaalne joon.
+
+10:09.920 --> 10:11.370
+Umbes selline.
+
+10:11.370 --> 10:14.220
+Horisontaalne joon on
+
+10:14.220 --> 10:15.910
+puutuja kõveral y = 0.
+
+10:15.910 --> 10:17.620
+Toome veel ühe näite.
+
+10:17.620 --> 10:23.190
+Valime punkti (-1).
+
+10:23.190 --> 10:26.290
+x = (-1).
+
+10:26.290 --> 10:29.220
+Seega f(-1) tuleb lihtsalt ruutu võtta.
+
+10:29.220 --> 10:30.380
+Sest meil on tegemist x ruuduga,
+
+10:30.380 --> 10:31.570
+mille väärtus on 1.
+
+10:31.570 --> 10:33.180
+See punkt.
+
+10:33.180 --> 10:36.680
+Milline on f ' (-1) ?
+
+10:36.680 --> 10:40.050
+f ' (-1) = 2 * (-1).
+
+10:40.050 --> 10:42.340
+2 * (-1) = (-2).
+
+10:42.340 --> 10:43.650
+Mida see tähendab?
+
+10:43.650 --> 10:47.680
+See tähendab, et selles funktsioonis on
+
+10:47.680 --> 10:51.050
+joone puutuja väärtus punktis x =1 -2.
+
+10:51.050 --> 10:54.600
+Nii et kui ma joonistan joone puutuja, siis
+
+10:54.600 --> 10:57.140
+näeb see selline välja.
+
+10:57.140 --> 10:57.700
+Tulemuseks on laskuv joon.
+
+10:57.700 --> 10:58.450
+Ja see on loogiline,
+
+10:58.450 --> 11:04.700
+kuna puutuja väärtus selles punktis on -2.

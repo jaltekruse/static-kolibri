@@ -1,0 +1,564 @@
+WEBVTT
+
+00:00.550 --> 00:04.985
+Luís recebe um vale-presente
+de $ 25 para uma loja on-line
+
+00:04.986 --> 00:07.970
+que vende música
+e jogos digitais.
+
+00:07.970 --> 00:14.490
+Cada música custa $ 0,89
+e cada jogo custa $ 1,99.
+
+00:14.490 --> 00:20.560
+Ele quer comprar pelo menos
+15 itens com o vale.
+
+00:20.560 --> 00:23.040
+Crie um sistema de desigualdades
+que represente
+
+00:23.040 --> 00:27.020
+esse cenário e identifique
+as diferentes compras possíveis
+
+00:27.020 --> 00:28.440
+usando um gráfico.
+
+00:28.440 --> 00:31.320
+É por isso que temos
+este papel quadriculado.
+
+00:31.320 --> 00:32.940
+Vamos definir
+algumas variáveis.
+
+00:32.940 --> 00:38.867
+S será igual ao número
+de músicas que ele compra.
+
+00:39.120 --> 00:44.800
+E g será o número de jogos.
+
+00:45.370 --> 00:46.950
+Ele tem uma restrição:
+
+00:46.950 --> 00:51.190
+quer comprar pelo menos
+15 itens com seu vale.
+
+00:51.190 --> 00:53.876
+Então o número total de itens
+será o número de músicas
+
+00:53.877 --> 00:57.180
+mais o número de jogos.
+E tem que haver pelo menos 15.
+
+00:57.180 --> 01:01.600
+Então tem que ser maior
+ou igual a 15.
+
+01:01.600 --> 01:04.390
+É o que diz esta restrição aqui.
+
+01:04.390 --> 01:08.790
+E a outra restrição é que
+o vale-presente vale $ 25.
+
+01:08.790 --> 01:11.310
+Então o que ele gastar
+em músicas mais o que
+
+01:11.310 --> 01:14.810
+gastar em jogos
+tem que ser menor ou igual a 25.
+
+01:14.810 --> 01:17.010
+Ele vai gastar em música
+
+01:17.010 --> 01:22.460
+o número de músicas que comprar
+vezes o custo por música,
+
+01:22.460 --> 01:27.870
+vezes 0,89: 0,89 vezes s.
+
+01:27.870 --> 01:31.660
+Isso é quanto ele vai gastar
+em música mais o custo por jogo,
+
+01:31.660 --> 01:35.680
+que é $ 1,99 vezes
+o número de jogos.
+
+01:35.680 --> 01:37.540
+Esse será seu gasto total,
+
+01:37.540 --> 01:44.267
+e tem que ser menor
+ou igual a 25.
+
+01:44.940 --> 01:48.786
+Para marcarmos isso num gráfico,
+primeiro temos que definir os eixos.
+
+01:48.787 --> 01:50.180
+Vou fazer isso.
+
+01:50.180 --> 01:52.018
+E só o 1º quadrante
+nos interessa,
+
+01:52.019 --> 01:55.550
+porque só teremos valores positivos
+para o número de músicas e jogos.
+
+01:55.550 --> 01:58.637
+Não vamos discutir cenários
+nos quais ele compra
+
+01:58.638 --> 02:00.580
+um número negativo
+de músicas e jogos.
+
+02:00.580 --> 02:03.610
+Então só mostrarei
+o quadrante positivo.
+
+02:03.610 --> 02:05.600
+Vou desenhar os eixos.
+
+02:06.110 --> 02:10.683
+Estou desenhando
+o eixo vertical aqui,
+
+02:12.000 --> 02:15.220
+este será o eixo vertical
+e vamos chamá-lo
+
+02:15.220 --> 02:18.140
+de eixo das músicas.
+
+02:18.140 --> 02:19.980
+Veremos o número
+de músicas que ele compra.
+
+02:19.980 --> 02:21.870
+Vou tornar mais claro.
+
+02:21.870 --> 02:23.930
+O eixo das músicas.
+
+02:23.930 --> 02:29.905
+E o horizontal marcará
+o número de jogos que ele comprará.
+
+02:29.905 --> 02:31.438
+Vou engrossar.
+
+02:39.320 --> 02:43.452
+E para me certificar de que
+caberá tudo nesta página,
+
+02:43.453 --> 02:45.916
+porque acho que
+será muita coisa,
+
+02:45.917 --> 02:48.470
+cada um dos quadrados
+valerá dois.
+
+02:48.470 --> 02:56.710
+Então teremos 4, 8, 12, 16,
+20 e assim por diante.
+
+02:56.710 --> 03:02.960
+E aqui, claro, teremos o 0,
+4, 8,
+
+03:02.960 --> 03:08.860
+12, 16, 20 e assim por diante.
+
+03:08.860 --> 03:11.930
+Vamos marcar
+as duas restrições.
+
+03:11.930 --> 03:16.560
+Na primeira: s + g
+será maior ou igual a 15.
+
+03:16.560 --> 03:20.860
+A melhor forma de marcar isso
+é pensar nas interceptações.
+
+03:20.860 --> 03:25.160
+Se g é 0, s é o quê?
+
+03:25.160 --> 03:29.340
+Bom, s mais 0 tem que ser maior
+ou igual a 15.
+
+03:29.340 --> 03:34.267
+Então se g é 0, s vai ser
+maior ou igual a 15.
+
+03:35.290 --> 03:39.700
+Vou fazer assim...
+Vou marcar este aqui.
+
+03:39.700 --> 03:43.710
+Se g é 0, s é maior
+ou igual a 15.
+
+03:43.710 --> 03:50.380
+Então g é 0, s é 15,
+isto é 12, 14, 15 está bem ali,
+
+03:50.380 --> 03:53.090
+e s será todos os valores
+equivalentes a isso
+
+03:53.090 --> 03:56.170
+ou maiores que para g = 0.
+
+03:56.170 --> 04:00.460
+Se s é igual a 0,
+g é maior ou igual a 15.
+
+04:00.460 --> 04:05.700
+Então se s é igual a 0,
+g é maior ou igual a 15.
+
+04:05.700 --> 04:08.810
+G é maior ou igual a 15.
+
+04:08.810 --> 04:12.740
+Então a linha divisória, s + g
+é igual a 15, só teríamos
+
+04:12.740 --> 04:14.900
+que conectar esses dois pontos.
+
+04:14.900 --> 04:17.649
+Vou tentar conectar
+os dois pontos.
+
+04:17.649 --> 04:19.720
+Ficaria mais ou menos assim.
+
+04:21.730 --> 04:24.330
+Esta é sempre
+a parte mais difícil.
+
+04:24.330 --> 04:28.000
+Vamos ver se consigo
+ligar esses pontos direito.
+
+04:28.000 --> 04:29.540
+Não.
+
+04:29.540 --> 04:32.960
+Vou mudar a ferramenta.
+
+04:32.960 --> 04:35.400
+Está razoável.
+
+04:35.400 --> 04:38.050
+Esta é a linha s + g = 15.
+
+04:38.050 --> 04:40.431
+E falamos em valores
+maiores que 15,
+
+04:40.432 --> 04:41.920
+então vamos
+marcar acima da linha.
+
+04:41.920 --> 04:47.010
+Vimos isso em g = 0,
+s é maior ou igual a 15.
+
+04:47.010 --> 04:49.070
+São todos estes valores aqui.
+
+04:49.070 --> 04:53.330
+Quando s era 0,
+g era maior ou igual a 15.
+
+04:53.330 --> 04:57.650
+Então esta restrição aqui
+é tudo isto.
+
+04:57.650 --> 05:00.440
+Toda esta área satisfaz isso.
+
+05:00.440 --> 05:03.310
+Toda esta área. Se escolher
+qualquer coordenada aqui,
+
+05:03.310 --> 05:05.962
+ela representa... E pense
+nas coordenadas inteiras,
+
+05:05.963 --> 05:08.230
+porque não vamos comprar
+partes de jogos.
+
+05:08.230 --> 05:10.690
+Mas todas as coordenadas
+inteiras aqui
+
+05:10.690 --> 05:13.710
+representam combinações
+de s e g, nas quais compramos
+
+05:13.710 --> 05:15.270
+pelo menos 15 jogos.
+
+05:15.270 --> 05:18.610
+Por exemplo, aqui compramos
+8 jogos e 16 músicas.
+
+05:18.610 --> 05:21.730
+Dá 24, então estamos dentro
+da primeira restrição.
+
+05:21.730 --> 05:23.570
+Agora a segunda restrição.
+
+05:23.570 --> 05:28.120
+0,89s + 1,99g
+é menor ou igual a 25.
+
+05:28.120 --> 05:29.570
+Este é um ponto de partida.
+
+05:29.570 --> 05:38.270
+Vamos desenhar a linha
+0,89s + 1,99 = 25.
+
+05:38.270 --> 05:43.000
+Depois pensaremos em qual região
+o "menor que" representa.
+
+05:43.000 --> 05:44.890
+1,99g.
+
+05:44.890 --> 05:46.790
+E a forma mais fácil...
+Poderíamos
+
+05:46.790 --> 05:48.900
+usar alcance
+e esse tipo de coisa,
+
+05:48.900 --> 05:51.610
+mas a forma mais fácil é achar
+as interceptações em s e g.
+
+05:51.610 --> 06:04.133
+Então se s é igual a 0,
+1,99g é igual a 25
+
+06:04.134 --> 06:07.533
+ou g é igual a...
+Vou pegar uma calculadora.
+
+06:08.437 --> 06:17.867
+25 dividido por 1,99 dá 12,56.
+
+06:17.900 --> 06:24.800
+g é igual a 12,56.
+
+06:26.210 --> 06:27.970
+Deixe-me marcar.
+
+06:27.970 --> 06:32.370
+Quando s é 0, g é 12,56.
+
+06:32.370 --> 06:34.440
+Isto é 12, isto é 14.
+
+06:34.440 --> 06:38.950
+12,56 vai ser bem aqui,
+um pouco além de 12.
+
+06:38.950 --> 06:40.370
+É este valor aqui.
+
+06:40.370 --> 06:43.500
+E vamos fazer o mesmo
+se g for 0.
+
+06:43.500 --> 06:48.370
+Se g é igual a 0, vamos ter...
+Esta expressão vai embora.
+
+06:48.371 --> 06:51.770
+Vamos ter 0,89s.
+
+06:51.770 --> 06:55.779
+Se usarmos só a equação,
+é igual a 25
+
+06:55.780 --> 06:59.684
+ou s é igual a...
+Vou pegar a calculadora de novo.
+
+07:00.220 --> 07:06.008
+Então dividindo 25 por 0,89
+ficamos com
+
+07:06.410 --> 07:10.533
+28,08.
+Um pouco mais de 28.
+
+07:11.180 --> 07:14.670
+28,08.
+
+07:14.670 --> 07:19.160
+G é 0, s é 28.
+
+07:19.160 --> 07:22.890
+Portanto 2, 4, 24, 6, 8.
+
+07:22.890 --> 07:25.600
+Um pouco mais de 28.
+É bem aqui.
+
+07:25.600 --> 07:32.180
+Então esta linha, 0,89s mais 1,99g
+é igual a 25, irá
+
+07:32.180 --> 07:35.810
+desta coordenada,
+que é 0, 28,
+
+07:35.810 --> 07:37.630
+portanto este ponto aqui,
+
+07:37.630 --> 07:41.320
+até o ponto 12,56, 0.
+
+07:41.320 --> 07:42.951
+Vou desenhar.
+
+07:43.420 --> 07:47.130
+Vou fazer mais uma tentativa.
+
+07:47.130 --> 07:50.560
+Se eu começar de baixo
+vai ser mais fácil.
+
+07:50.560 --> 07:52.220
+Ficou melhor.
+
+07:52.220 --> 07:56.467
+Vou engrossar um pouco
+para que você veja bem.
+
+07:57.510 --> 08:01.390
+Então esta linha representa
+isto aqui.
+
+08:01.390 --> 08:06.700
+Se estamos falando na área
+"menor que", o que isso significa?
+
+08:06.700 --> 08:12.355
+Então, se paramos para pensar,
+quando g é igual a 0,
+
+08:12.356 --> 08:15.550
+0,89s é menor que 25.
+
+08:15.550 --> 08:18.925
+Quando g é igual a 0,
+se quisermos o menor que,
+
+08:18.926 --> 08:20.500
+podemos pensar desta forma.
+
+08:20.500 --> 08:23.380
+É menor que, e não menor que
+e igual a.
+
+08:23.380 --> 08:30.400
+Então s é menor que 28,08.
+Será a região abaixo.
+
+08:30.400 --> 08:36.013
+Quando s é 0... Ou seja,
+se usarmos a equação original,
+
+08:36.014 --> 08:38.820
+1,99g será menor que ou igual a.
+
+08:38.820 --> 08:42.020
+Usei isso só para marcar no gráfico,
+mas se nos preocuparmos
+
+08:42.021 --> 08:46.670
+com a desigualdade -
+1,99g é menor que 25 -
+
+08:46.670 --> 08:49.620
+g seria menor ou igual a 12,56.
+
+08:49.620 --> 08:55.390
+Então quando s é igual a 0,
+g é menor que 12,56.
+
+08:55.390 --> 08:59.950
+Portanto a área que satisfaz
+a segunda restrição
+
+08:59.950 --> 09:02.336
+é tudo abaixo deste gráfico.
+
+09:06.040 --> 09:09.750
+Queremos a região que satisfaz
+as duas restrições.
+
+09:09.750 --> 09:12.060
+Então será a sobreposição
+das regiões
+
+09:12.060 --> 09:13.930
+que satisfazem um dos dois.
+
+09:13.930 --> 09:17.060
+A sobreposição será
+esta região aqui:
+
+09:17.060 --> 09:20.920
+abaixo da linha laranja
+e acima da linha azul,
+
+09:20.920 --> 09:23.520
+incluindo as duas linhas.
+
+09:23.520 --> 09:29.220
+Escolha qualquer combinação.
+Se ele comprar 4
+
+09:29.220 --> 09:33.300
+jogos e 14 músicas,
+funcionaria.
+
+09:33.300 --> 09:37.090
+Se ele comprasse 2 jogos
+e 16 músicas, funcionaria.
+
+09:37.090 --> 09:38.170
+Deu para entender.
+
+09:38.170 --> 09:41.372
+Qualquer combinação aqui dentro -
+só de números inteiros -
+
+09:41.373 --> 09:43.852
+satisfaria as duas restrições.

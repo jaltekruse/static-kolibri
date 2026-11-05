@@ -1,0 +1,390 @@
+WEBVTT
+
+00:00.660 --> 00:02.500
+What I want to go
+over in this video
+
+00:02.500 --> 00:08.029
+is a special case
+of L'Hopital's Rule.
+
+00:08.029 --> 00:10.031
+And it's a more
+constrained version
+
+00:10.031 --> 00:11.780
+of the general case
+we've been looking at.
+
+00:11.780 --> 00:13.930
+But it's still very powerful
+and very applicable.
+
+00:13.930 --> 00:17.060
+And the reason why we're going
+to go over this special case
+
+00:17.060 --> 00:20.180
+is because its proof is
+fairly straightforward
+
+00:20.180 --> 00:24.100
+and will give you an intuition
+for why L'Hopital's Rule works
+
+00:24.100 --> 00:25.100
+at all.
+
+00:25.100 --> 00:27.070
+So the special case
+of L'Hopital's Rule
+
+00:27.070 --> 00:31.510
+is a situation where
+f of a is equal to 0.
+
+00:31.510 --> 00:33.520
+f prime of a exists.
+
+00:36.280 --> 00:40.780
+g of a is equal to 0.
+
+00:40.780 --> 00:43.890
+g prime of a exists.
+
+00:43.890 --> 00:49.600
+If these constraints
+are met, then the limit,
+
+00:49.600 --> 00:59.810
+as x approaches a of
+f of x over g of x,
+
+00:59.810 --> 01:10.150
+is going to be equal to f
+prime of a over g prime of a.
+
+01:10.150 --> 01:11.870
+So it's very similar
+to the general case.
+
+01:11.870 --> 01:13.330
+It's little bit
+more constrained.
+
+01:13.330 --> 01:15.021
+We're assuming that
+f prime of a exists.
+
+01:15.021 --> 01:16.520
+We're not just
+taking the limit now.
+
+01:16.520 --> 01:19.740
+We're assuming f prime of a and
+g prime of a actually exist.
+
+01:19.740 --> 01:23.490
+But notice if we substitute
+a right over here we get 0/0.
+
+01:23.490 --> 01:24.940
+But that if the
+derivatives exist
+
+01:24.940 --> 01:27.390
+we could just evaluate
+the derivatives at a,
+
+01:27.390 --> 01:28.500
+and then we get the limit.
+
+01:28.500 --> 01:30.480
+So this is very close
+to the general case
+
+01:30.480 --> 01:32.140
+of L'Hopital's Rule.
+
+01:32.140 --> 01:34.200
+Now let's actually prove it.
+
+01:34.200 --> 01:37.210
+And to prove it, we're going
+to start with the right hand
+
+01:37.210 --> 01:40.950
+and then show that if we use
+the definition of derivatives,
+
+01:40.950 --> 01:43.390
+we get the left hand
+right over here.
+
+01:43.390 --> 01:44.810
+So let me do that.
+
+01:44.810 --> 01:46.280
+So I'll do it right over here.
+
+01:46.280 --> 01:50.830
+So f prime of a
+is equal to what,
+
+01:50.830 --> 01:53.660
+by the definition
+of derivatives?
+
+01:53.660 --> 01:55.550
+Well, we could view
+that as the limit
+
+01:55.550 --> 02:05.440
+as x approaches a of f of x
+minus f of a over x minus a.
+
+02:05.440 --> 02:08.300
+So this is literally just
+a slope between two points.
+
+02:08.300 --> 02:11.940
+So like, if you have your
+function f of x like this,
+
+02:11.940 --> 02:17.500
+this is the point a, f
+of a right over here.
+
+02:17.500 --> 02:23.000
+This right over here
+is the point x, f of x.
+
+02:23.000 --> 02:24.600
+This expression
+right over here is
+
+02:24.600 --> 02:26.300
+the slope between
+these two points.
+
+02:26.300 --> 02:30.050
+The change in our y value
+is f of x minus f of a.
+
+02:30.050 --> 02:32.970
+The change in our f
+value is x minus a.
+
+02:32.970 --> 02:35.860
+So this expression is just
+the slope of this line.
+
+02:35.860 --> 02:38.000
+And we're just taking
+the-- let me actually
+
+02:38.000 --> 02:40.470
+do that in a different
+color-- the line that
+
+02:40.470 --> 02:43.475
+connects these two points,
+that's the slope of it.
+
+02:43.475 --> 02:45.060
+I'll do that in white.
+
+02:45.060 --> 02:47.400
+The slope of the line that
+connects those two points.
+
+02:47.400 --> 02:49.130
+And we're taking
+the limit as x gets
+
+02:49.130 --> 02:50.547
+closer and closer
+and closer to a.
+
+02:50.547 --> 02:52.129
+So this is just
+another way of writing
+
+02:52.129 --> 02:53.540
+the definition of
+the derivative.
+
+02:53.540 --> 02:54.640
+So that's fine.
+
+02:54.640 --> 02:56.370
+Let's do the same
+thing for g prime of a.
+
+02:56.370 --> 02:59.410
+So f prime of a
+over g prime of a,
+
+02:59.410 --> 03:01.480
+is going to be this
+business which is in orange,
+
+03:01.480 --> 03:03.950
+f prime of a over g prime of a.
+
+03:03.950 --> 03:07.400
+Which we can write as
+the limit as x approaches
+
+03:07.400 --> 03:14.944
+a of g of x minus g
+of a over x minus a.
+
+03:14.944 --> 03:16.860
+Well, in the numerator,
+we're taking the limit
+
+03:16.860 --> 03:18.300
+as x approaches a, and
+in the denominator,
+
+03:18.300 --> 03:20.230
+we're taking the limit
+as x approaches a.
+
+03:20.230 --> 03:21.820
+So we can just rewrite this.
+
+03:21.820 --> 03:25.880
+This we can rewrite as
+the limit as x approaches
+
+03:25.880 --> 03:28.600
+a of all this
+business in orange.
+
+03:28.600 --> 03:33.990
+f of x minus f of
+a, over x minus a,
+
+03:33.990 --> 03:38.600
+over all the business in green.
+
+03:38.600 --> 03:44.375
+g of x minus g of a, all
+of that over x minus a.
+
+03:44.375 --> 03:47.170
+Now, to simplify this, we
+can multiply the numerator
+
+03:47.170 --> 03:49.960
+and the denominator by x minus
+a to get rid of these x minus
+
+03:49.960 --> 03:50.460
+a's.
+
+03:50.460 --> 03:51.260
+So let's do that.
+
+03:51.260 --> 03:56.980
+Let's multiply by x
+minus a over x minus a.
+
+03:56.980 --> 03:59.740
+So the numerator, x minus a,
+and we're dividing by x minus a.
+
+03:59.740 --> 04:00.970
+Those cancel out.
+
+04:00.970 --> 04:02.650
+And then these two cancel out.
+
+04:02.650 --> 04:07.430
+And we're left with this thing
+over here is equal to the limit
+
+04:07.430 --> 04:11.530
+as x approaches a
+of, in the numerator
+
+04:11.530 --> 04:14.610
+we have f of x minus f of a.
+
+04:14.610 --> 04:20.970
+And in the denominator, we
+have g of x minus g of a.
+
+04:20.970 --> 04:23.630
+And I think you see
+where this is going.
+
+04:23.630 --> 04:25.330
+What is f(a) equal to?
+
+04:25.330 --> 04:27.480
+Well, we assumed f
+of a is equal to 0.
+
+04:27.480 --> 04:29.580
+That's why we're
+using L'Hopital's Rule
+
+04:29.580 --> 04:33.030
+from the get go. f of a is equal
+to 0, g of a is equal to 0.
+
+04:33.030 --> 04:36.170
+f of a is equal to 0.
+g of a is equal to 0.
+
+04:36.170 --> 04:42.340
+And this simplifies to the
+limit as x approaches a of f
+
+04:42.340 --> 04:47.290
+prime of x, sorry of f of
+x, we've got to be careful.
+
+04:47.290 --> 04:52.720
+Of f of x over g of x.
+
+04:52.720 --> 04:57.390
+So we just showed that if f of
+a equals 0, g of a equals 0,
+
+04:57.390 --> 05:00.405
+and these two derivatives exist,
+then the derivatives evaluated
+
+05:00.405 --> 05:03.420
+at a over each other are
+going to be equal to the limit
+
+05:03.420 --> 05:06.450
+as x approaches a of
+f of x over g of x.
+
+05:06.450 --> 05:08.973
+Or the limit as x
+approaches a of f
+
+05:08.973 --> 05:12.570
+of x over g of x is going to
+be equal to f prime of a over g
+
+05:12.570 --> 05:13.130
+prime of a.
+
+05:13.130 --> 05:16.480
+So fairly straightforward
+proof for the special case--
+
+05:16.480 --> 05:18.860
+the special case, not
+the more general case--
+
+05:18.860 --> 05:21.310
+of L'Hopital's Rule.

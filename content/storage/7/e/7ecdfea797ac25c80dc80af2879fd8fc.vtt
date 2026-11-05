@@ -1,0 +1,810 @@
+WEBVTT
+
+00:00.003 --> 00:01.109
+Už jsme zjistitli,
+
+00:01.136 --> 00:03.300
+že kdybychom měli
+řešit diferenciální rovnici
+
+00:03.003 --> 00:06.586
+derivace y podle x je rovno y
+
+00:06.633 --> 00:08.131
+s počáteční podmínkou
+
+00:08.131 --> 00:11.133
+y(0) je rovno 1,
+
+00:11.133 --> 00:12.530
+pak partikulární řešení
+
+00:12.053 --> 00:14.000
+k této počáteční podmínce
+
+00:14.001 --> 00:16.024
+bude y(x) je rovno e na x.
+
+00:16.033 --> 00:19.060
+Nebo můžeme jen napsat
+y se rovná e na x.
+
+00:19.117 --> 00:21.866
+Pokud to nechceme zapsat
+jako funkci.
+
+00:21.866 --> 00:23.182
+A to je v pořádku,
+
+00:23.182 --> 00:24.267
+funguje to.
+
+00:24.267 --> 00:26.000
+Toto je diferenciální rovnice
+se separovanou proměnnou
+
+00:26.000 --> 00:29.027
+a můžeme to lehce zintegrovat.
+
+00:29.027 --> 00:32.122
+A pokud teď půjdeme dále
+
+00:32.176 --> 00:33.831
+v diferenciálních rovnicích,
+
+00:33.866 --> 00:36.667
+většina z nich nemá
+tak jednoduché řešení.
+
+00:36.667 --> 00:39.434
+Vlastně spoustu rovnic je nemožné vyřešit
+
+00:39.434 --> 00:41.467
+s použitím analytických metod.
+
+00:41.467 --> 00:43.333
+Takže co s tím uděláme?
+
+00:43.333 --> 00:45.467
+Hezky jsme si popsali
+
+00:45.467 --> 00:46.633
+nějaký jev
+
+00:46.633 --> 00:47.508
+pomocí diferenciálních rovnic,
+
+00:47.508 --> 00:48.982
+ale teď to neumíme vyřešit.
+
+00:49.002 --> 00:51.011
+Takže se vzdáme?
+
+00:51.011 --> 00:53.534
+Odpověď zní: "ne".
+
+00:53.633 --> 00:55.259
+Přece se jen tak nevzdáme,
+
+00:55.259 --> 00:58.084
+protože nyní máme počítače,
+
+00:58.084 --> 01:01.333
+které jsou velmi zdatné
+v početních technikách.
+
+01:01.333 --> 01:03.482
+Početní metody pro odhadování,
+
+01:03.482 --> 01:06.084
+abychom trochu zjistili,
+
+01:06.084 --> 01:08.839
+jak může naše diferenciální
+rovnice vypadat.
+
+01:08.839 --> 01:10.502
+Jak to uděláme?
+
+01:10.533 --> 01:12.330
+V tomto videu se podíváme
+
+01:12.033 --> 01:14.950
+na jednu z nejjednodušších
+početních metod
+
+01:15.002 --> 01:17.971
+pro odhadování partikulárních řešení.
+
+01:18.001 --> 01:19.006
+Takže teď,
+
+01:19.006 --> 01:21.932
+nakreslím tu menší tabulku.
+
+01:22.000 --> 01:24.992
+Tabulku.
+
+01:24.992 --> 01:26.400
+Vlastně...
+
+01:26.004 --> 01:29.570
+Napíšu to radši
+tady nalevo.
+
+01:30.815 --> 01:32.800
+Tabulku.
+
+01:32.880 --> 01:37.920
+'x' a 'y'.
+
+01:38.005 --> 01:42.499
+Pak dy/dx.
+
+01:42.594 --> 01:46.400
+Takovou tabulku si můžeme udělat.
+
+01:46.466 --> 01:47.833
+Můžete si vybrat...
+
+01:47.833 --> 01:49.359
+Můžu si vzít jakékoli
+x a y
+
+01:49.433 --> 01:51.967
+v soustavě souřadnic,
+
+01:51.967 --> 01:53.566
+a pak vyřešit v naší
+
+01:53.566 --> 01:55.133
+diferenciální rovnici prvního řádu,
+
+01:55.133 --> 01:57.280
+jaká bude směrnice
+v tom daném bodě.
+
+01:57.028 --> 01:59.211
+A pak zkonstruovat vektorové pole.
+
+01:59.233 --> 02:01.235
+A uděláme něco podobného,
+
+02:01.433 --> 02:03.386
+ale místo vytvoření
+vektorového pole,
+
+02:03.386 --> 02:05.333
+začneme s touto počáteční podmínkou.
+
+02:05.333 --> 02:07.121
+Víme, že y(0) se rovná 1.
+
+02:07.133 --> 02:08.920
+Víme, že partikulární řešení
+
+02:08.920 --> 02:11.094
+této diferenciální rovnice
+obsahuje tento bod.
+
+02:11.094 --> 02:12.945
+Takže začneme tímto bodem.
+
+02:12.945 --> 02:14.997
+Začneme s x se rovná 0.
+
+02:14.997 --> 02:16.924
+Napíšu to jinou barvou.
+
+02:16.967 --> 02:19.200
+Začneme s x se rovná 0.
+
+02:19.002 --> 02:20.008
+y se rovná 1.
+
+02:20.008 --> 02:23.867
+Což je přesně tento bod.
+
+02:23.899 --> 02:25.040
+A řekněme,
+
+02:25.004 --> 02:27.745
+jaká je derivace v tomto bodě?
+
+02:27.781 --> 02:29.866
+Víme, že derivace v jakémkoli bodě,
+
+02:29.866 --> 02:31.894
+pro jakékoli řešení této
+diferenciální rovnice,
+
+02:32.146 --> 02:35.200
+derivace bude rovna y.
+
+02:35.002 --> 02:36.166
+Takže v tomto případě
+
+02:36.166 --> 02:38.900
+se derivace rovná y.
+
+02:38.009 --> 02:41.452
+Bude se rovnat 1.
+
+02:41.533 --> 02:42.417
+A obecně, pokud je derivace,
+
+02:42.417 --> 02:44.266
+stejně jako jsme to viděli
+u vektorových polí,
+
+02:44.279 --> 02:49.465
+pokud je derivace vyjádřena
+jako funkce x a y(x),
+
+02:49.533 --> 02:53.067
+pak můžeme zjistit,
+jaká bude směrnice tečny
+
+02:53.067 --> 02:54.366
+v tomto bodě.
+
+02:54.366 --> 02:57.334
+Takže máme směrnici 1,
+
+02:57.334 --> 03:02.037
+v tom bodě,
+to můžu nakreslit takto.
+
+03:02.133 --> 03:05.165
+A místo, abych to dělal
+pro každý bod zvlášť...
+
+03:05.266 --> 03:07.373
+Víme, že směrnice se mění.
+
+03:07.373 --> 03:10.200
+To je většinou pravda.
+
+03:10.002 --> 03:12.768
+Ale řekněme, že ji zafixujeme
+do dalšího x
+
+03:12.966 --> 03:15.600
+a to použijeme pro odhad,
+
+03:15.006 --> 03:17.249
+jaké bude naše další y.
+
+03:17.333 --> 03:19.000
+O čem to vlastně mluvím?
+
+03:19.000 --> 03:20.489
+Když mluvím o dalším x,
+
+03:20.489 --> 03:22.100
+to je o nějaký kus dál.
+
+03:22.001 --> 03:23.767
+Pro zjednodušení,
+
+03:23.866 --> 03:26.700
+budeme brát delta x rovno 1.
+
+03:26.007 --> 03:27.026
+Změnu x o 1.
+
+03:27.089 --> 03:29.970
+Takže půjdeme z x je rovno 0.
+
+03:30.003 --> 03:32.636
+A posuneme se dál
+
+03:32.933 --> 03:35.100
+do x je rovno 1.
+
+03:35.001 --> 03:36.235
+Teď se posuneme...
+
+03:36.334 --> 03:37.900
+Jinou barvou...
+
+03:37.009 --> 03:41.053
+Touhle barvou už mám graf
+
+03:41.114 --> 03:43.000
+naší původní e na x.
+
+03:43.000 --> 03:44.566
+Řekněme, že x je rovno 1.
+
+03:44.566 --> 03:47.094
+Delta x je 1.
+
+03:47.094 --> 03:49.333
+Akorát jsme sem přičetli 1.
+
+03:49.333 --> 03:49.342
+A co můžeme udělat
+
+03:49.683 --> 03:53.100
+při našem malém odhadu...
+
+03:53.001 --> 03:55.674
+Předpokládejme,
+že směrnice je konstantní
+
+03:55.674 --> 03:58.182
+na tomto intervalu.
+
+03:58.248 --> 04:00.330
+Kam se dostaneme?
+
+04:00.033 --> 04:03.636
+Když y bylo 1
+a mám směrnici 1,
+
+04:03.933 --> 04:05.842
+tak pro naši změnu v x
+
+04:05.842 --> 04:08.166
+zvětším y o 1.
+
+04:08.166 --> 04:10.264
+y se zvětší o 1.
+
+04:10.264 --> 04:13.282
+A to bude 2.
+
+04:13.282 --> 04:16.966
+Ten bod je přesně tady.
+
+04:16.966 --> 04:19.632
+Už vám možná dochází,
+co to bude.
+
+04:19.632 --> 04:24.266
+Kdyby toto byl bod
+na křivce,
+
+04:24.266 --> 04:25.533
+na křivce řešení,
+
+04:25.533 --> 04:27.267
+a kdyby splňoval toto,
+
+04:27.267 --> 04:29.267
+jaká by byla derivace?
+
+04:29.267 --> 04:30.766
+Derivace by byla rovna y.
+
+04:30.766 --> 04:31.715
+Směrnice tečny grafu
+
+04:31.715 --> 04:32.968
+bude rovna y.
+
+04:33.015 --> 04:36.608
+V tomto případě je směrnice tečny
+
+04:36.608 --> 04:38.373
+rovna 2.
+
+04:38.373 --> 04:39.548
+To si můžeme nakreslit.
+
+04:39.548 --> 04:41.866
+Nakreslím to fialovou.
+
+04:41.866 --> 04:46.866
+Bude to 2.
+
+04:46.867 --> 04:47.924
+Bude to vypadat...
+
+04:47.924 --> 04:49.169
+Směrnice tečny tady
+
+04:49.169 --> 04:51.333
+bude rovna 2.
+
+04:51.333 --> 04:52.917
+A co nám to říká?
+
+04:52.917 --> 04:56.928
+Když se posuneme o delta x
+ještě jednou...
+
+04:57.039 --> 04:59.362
+Teď bude x rovno 2.
+
+04:59.362 --> 05:04.597
+Jaké bude příslušné y?
+
+05:04.733 --> 05:05.866
+Uvidíme.
+
+05:05.866 --> 05:10.866
+Pro nárůst ve směru x o 1
+
+05:11.002 --> 05:13.135
+budeme zvětšovat y o 2,
+
+05:13.333 --> 05:14.867
+protože směrnice je 2.
+
+05:14.867 --> 05:19.433
+Takže další bude 4.
+
+05:19.467 --> 05:20.785
+y je rovno 4.
+
+05:20.785 --> 05:22.388
+Můžeme si představit,
+
+05:22.433 --> 05:24.200
+že máme konstantní směrnici,
+
+05:24.002 --> 05:26.107
+jak se dostáváme do dalšího bodu.
+
+05:26.305 --> 05:27.534
+A teď můžeme dělat znovu to samé.
+
+05:27.534 --> 05:29.525
+Předpokládáme, že dy/dx
+
+05:29.525 --> 05:31.671
+se na základě této diferenciální rovnice
+musí rovnat y,
+
+05:31.671 --> 05:33.300
+takže směrnice tečny tady
+
+05:33.003 --> 05:34.330
+bude stejná jako y.
+
+05:34.627 --> 05:36.734
+Bude rovna 4.
+
+05:36.734 --> 05:41.343
+Takže když zvětšíme x o 1,
+
+05:41.343 --> 05:43.594
+když půjdeme ještě dále,
+
+05:43.594 --> 05:45.733
+to jsme si prostě jen tak rozhodli...
+
+05:45.733 --> 05:47.166
+Můžeme zvětšovat třeba o 10
+
+05:47.166 --> 05:49.433
+nebo o 0,01.
+
+05:49.433 --> 05:50.958
+A můžete hádat,
+který z těchto
+
+05:50.958 --> 05:52.802
+vám dá přesnější výsledek.
+
+05:52.833 --> 05:54.292
+Ale pokud se posuneme o 1
+
+05:54.292 --> 05:55.767
+a naše směrnice je 4,
+
+05:55.767 --> 05:57.533
+posuneme se o...
+
+05:57.533 --> 05:58.725
+Když zvětšíme x o 1,
+
+05:58.733 --> 06:00.266
+zvětšíme y o 4.
+
+06:00.266 --> 06:06.416
+Takže se dostaneme na 8.
+
+06:06.466 --> 06:10.323
+Takže jsme v bodě [3,8],
+
+06:10.323 --> 06:13.967
+který je tady.
+
+06:13.967 --> 06:16.233
+Takže další kus
+
+06:16.233 --> 06:21.233
+bude vypadat takto.
+
+06:21.467 --> 06:23.674
+Jak můžete vidět,
+
+06:23.674 --> 06:26.633
+zvládli jsme takto odhadnout,
+
+06:26.633 --> 06:28.634
+jak zhruba vypadá partikulární řešení.
+
+06:28.733 --> 06:29.735
+A můžete tvrdit,
+
+06:29.835 --> 06:32.098
+že to vlastně není moc dobrý odhad.
+
+06:32.133 --> 06:33.766
+A moje odpověď bude,
+
+06:33.766 --> 06:35.544
+že záleží na vašem cíli.
+
+06:35.566 --> 06:36.743
+Ale toto jsem dělal ručně.
+
+06:36.743 --> 06:38.567
+Nepoužil jsem ani počítač.
+
+06:38.567 --> 06:40.300
+A protože jsem nepoužil počítač,
+
+06:40.003 --> 06:43.169
+vzal jsem docela velké delta x.
+
+06:43.466 --> 06:45.133
+Kdybych chtěl lepší odhad,
+
+06:45.133 --> 06:47.266
+mohl bych zmenšit delta x.
+
+06:47.266 --> 06:48.333
+Zkusme to.
+
+06:48.333 --> 06:51.610
+Zkusme jinou situaci.
+
+06:51.633 --> 06:53.166
+Místo delta x se rovná 1
+
+06:53.166 --> 06:55.300
+budeme brát delta x se rovná 1/2.
+
+06:55.003 --> 06:56.793
+Takže znovu,
+
+06:56.793 --> 07:04.099
+x, y, derivace y podle x.
+
+07:04.166 --> 07:05.767
+Takže vezmu...
+
+07:05.767 --> 07:07.616
+Tento první bod známe.
+
+07:07.667 --> 07:09.566
+Máme zadanou počáteční podmínku.
+
+07:09.566 --> 07:12.280
+Když x je 0, y je 1.
+
+07:12.334 --> 07:15.133
+Takže směrnice tečny bude 1.
+
+07:15.133 --> 07:16.935
+Ale pokud se budeme
+posouvat o 1/2,
+
+07:16.935 --> 07:20.898
+když x je, napíšu,
+x je 0,5.
+
+07:20.942 --> 07:23.541
+0,5.
+
+07:23.541 --> 07:27.300
+Jaké bude naše nové y?
+
+07:27.003 --> 07:28.756
+Budeme předpokládat,
+že směrnice
+
+07:28.756 --> 07:31.551
+odsud sem je pořád ta samá.
+
+07:31.551 --> 07:33.967
+Takže směrnice je 1,
+pokud x zvýším o 1,
+
+07:33.967 --> 07:36.300
+zvýším y o 0,5.
+
+07:36.003 --> 07:39.990
+Takže dostanu 1,5.
+
+07:40.000 --> 07:43.667
+Takže 0,5, 1,5,
+
+07:43.667 --> 07:45.266
+dostanu se do tohoto bodu.
+
+07:45.266 --> 07:47.330
+To asi moc nevidíte.
+
+07:47.033 --> 07:49.980
+Toto je tento bod zde.
+
+07:50.003 --> 07:53.008
+A naše nová směrnice bude 1,5.
+
+07:53.008 --> 07:59.529
+Což bude vypadat takto.
+
+07:58.878 --> 08:01.687
+Vlastně to asi nebude
+tak šikmé.
+
+08:01.687 --> 08:03.779
+Nechci přehnat, jak moc dobrý
+můj odhad bude.
+
+08:03.779 --> 08:05.312
+Začíná v tom být
+trochu nepořádek.
+
+08:05.333 --> 08:06.734
+Ale bude to vypadat zhruba takto.
+
+08:06.734 --> 08:08.913
+Co byste zjistili,
+kdybyste pokračovali,
+
+08:08.913 --> 08:11.099
+když nyní je směrnice 1,5,
+
+08:11.149 --> 08:13.635
+když zvětším x o další 0,5,
+
+08:13.666 --> 08:15.167
+dostanu se do 1.
+
+08:15.167 --> 08:19.766
+Když zvětšuji x o 0,5
+
+08:19.766 --> 08:20.948
+a směrnice je 1,5,
+
+08:20.966 --> 08:26.096
+y se zvětší o polovinu,
+o 0,75,
+
+08:26.133 --> 08:29.400
+takže dostanu 2,25.
+
+08:29.004 --> 08:32.027
+Takže mám 1 a 2,25,
+
+08:32.027 --> 08:33.885
+což je tento bod.
+
+08:33.933 --> 08:35.767
+Znovu vidíme,
+že to je lepší odhad.
+
+08:35.767 --> 08:36.966
+Původně,
+
+08:36.966 --> 08:39.967
+y(1) by se mělo rovnat e.
+
+08:39.967 --> 08:43.764
+y(1) v původním řešení
+by se mělo rovnat e.
+
+08:43.764 --> 08:46.109
+2,7 a tak dále.
+
+08:46.109 --> 08:51.879
+Tady, y(1) je rovno 2.
+
+08:51.933 --> 08:54.597
+Zde máme y(1) se rovná 2,25.
+
+08:54.597 --> 08:57.963
+Takže se to víc blíží skutečnosti,
+hodnotě e.
+
+08:58.013 --> 08:59.707
+Kdybychom se místo o 0,5
+
+08:59.707 --> 09:02.933
+posouvali o 0,1,
+tak se dostaneme ještě blíže.
+
+09:02.933 --> 09:07.900
+Kdybchom se posouvali o 0,0001,
+
+09:07.009 --> 09:10.225
+dostali bychom se ještě blíže.
+
+09:10.266 --> 09:11.633
+To je spousta zajímavých věcí.
+
+09:11.633 --> 09:13.024
+Tímto způsobem se vlastně řeší
+
+09:13.024 --> 09:15.398
+spousta diferenciálních rovnic.
+Metody, které jsou
+
+09:15.398 --> 09:17.334
+odvozené z početních metod
+
+09:17.334 --> 09:18.400
+podobné této,
+
+09:18.004 --> 09:20.463
+jsou způsobem, jak se většina
+diferenciálních rovnic řeší.
+
+09:20.479 --> 09:22.200
+Ono to není přesné řešení,
+
+09:22.002 --> 09:23.637
+ale nápad, jak vyřešit
+
+09:23.637 --> 09:26.233
+většinu diferenciálních rovnic.
+
+09:26.266 --> 09:27.933
+Nebo napodobit je
+
+09:27.933 --> 09:29.430
+pomocí početních technik,
+
+09:29.043 --> 09:31.090
+protože většinu z nich
+
+09:31.009 --> 09:33.246
+nelze analyticky vyřešit.
+
+09:33.267 --> 09:35.744
+Teď se můžete zeptat,
+
+09:35.744 --> 09:37.356
+jak se jmenuje tato metoda?
+
+09:37.356 --> 09:40.167
+Tato metoda se jmenuje Eulerova.
+
+09:40.212 --> 09:42.400
+Eulerova metoda,
+
+09:42.004 --> 09:44.925
+nese jméno Leonharda Eulera.
+
+09:44.935 --> 09:47.166
+Eulerova metoda.
+
+09:47.166 --> 09:48.823
+Nejen tato se hodí
+
+09:48.866 --> 09:52.433
+při odhadování řešení této
+
+09:52.433 --> 09:54.367
+nebo jakékoli jiné
+diferenciální rovnice,
+
+09:54.367 --> 09:56.500
+ale speciálně tuto rovnici
+
+09:56.005 --> 09:57.809
+můžete použít,
+
+09:57.834 --> 10:03.694
+když budete chtít zjistit e
+s velkou přesností.
+
+10:03.763 --> 10:06.420
+Snad vám to přišlo bezva.

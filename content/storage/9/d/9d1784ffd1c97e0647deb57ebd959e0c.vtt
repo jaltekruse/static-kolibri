@@ -1,0 +1,388 @@
+WEBVTT
+
+00:00.640 --> 00:02.390
+Giờ hãy làm một bài thú vị.
+
+00:02.390 --> 00:04.973
+Đây sẽ là một trong những hàm số dễ nhất
+
+00:04.973 --> 00:07.340
+để tìm dãy Maclaurin.
+
+00:07.340 --> 00:10.740
+Nhưng hãy ước tính e mũ x.
+
+00:10.740 --> 00:13.106
+f(x) bằng e mũ x.
+
+00:13.106 --> 00:14.480
+Và nó đơn giản
+
+00:14.480 --> 00:15.850
+là vì khi bạn lấy đạo hàm-- cái này,
+
+00:15.850 --> 00:18.720
+một trong những điều thú vị về số e--
+
+00:18.720 --> 00:21.270
+đó là khi bạn lấy đạo hàm của e mũ x,
+
+00:21.270 --> 00:23.050
+bạn được e mũ x.
+
+00:23.050 --> 00:25.590
+Vậy đây là f'(x).
+
+00:25.590 --> 00:28.880
+Cái này bằng f, đạo hàm thứ hai của x.
+
+00:28.880 --> 00:31.570
+Cái này bằng đạo hàm thứ 3 của x.
+
+00:31.570 --> 00:33.810
+Cái này bằng đạo hàm thứ n của x.
+
+00:33.810 --> 00:35.980
+Cái này luôn bằng e mũ x.
+
+00:35.980 --> 00:38.780
+Đó là điều ngạc nhiên thứ nhất
+
+00:38.780 --> 00:40.270
+về số e.
+
+00:40.270 --> 00:42.390
+Bạn cứ lấy đạo hàm của nó.
+
+00:42.390 --> 00:45.180
+Hệ số góc của bất kì điểm nào trên đường cong đó
+
+00:45.180 --> 00:48.410
+cũng bằng với giá trị của điểm đó trên đường cong đó.
+
+00:48.410 --> 00:49.800
+Ngạc nhiên ở chỗ đó.
+
+00:49.800 --> 00:51.800
+Giờ hãy áp dụng biểu diễn
+
+00:51.800 --> 00:52.680
+Maclaurin nào.
+
+00:52.680 --> 00:55.220
+Vậy ta phải tính f(0), f'(0),
+
+00:55.220 --> 00:56.525
+đạo hàm thứ hai ở 0.
+
+00:56.525 --> 01:01.230
+Khi bạn tính e mũ 0, e mũ 0 bằng 1.
+
+01:01.230 --> 01:03.680
+Vậy cái này sẽ bằng f(0).
+
+01:03.680 --> 01:06.040
+Cái này bằng f'(0).
+
+01:06.040 --> 01:14.410
+Nó sẽ bằng bất kì đạo hàm nào tại 0.
+
+01:14.410 --> 01:16.410
+Đạo hàm thứ n tại 0.
+
+01:16.410 --> 01:20.120
+Đó là lí do nó làm cho công thức dãy Maclaurin
+
+01:20.120 --> 01:22.600
+khá là dễ.
+
+01:22.600 --> 01:24.670
+Nếu mình muốn tính e mũ x
+
+01:24.670 --> 01:28.330
+bằng dãy Maclaurin-- vậy e mũ x-- và mình sẽ
+
+01:28.330 --> 01:29.910
+để dấu khoảng bằng ở đây.
+
+01:29.910 --> 01:32.360
+Ta đang tiến tới gần e mũ x
+
+01:32.360 --> 01:34.490
+nếu ta tiếp tục thêm phần tử vào.
+
+01:34.490 --> 01:36.980
+Và đặc biệt, nếu ta có vô hạn số phần tử,
+
+01:36.980 --> 01:40.480
+nó sẽ nhìn như thế này. f(0)--
+
+01:40.480 --> 01:43.160
+để mình lấy màu khác màu dùng cho cos và sin.
+
+01:43.160 --> 01:45.550
+Mình dùng hồng và xanh lá.
+
+01:45.550 --> 01:47.280
+Vậy hãy lấy màu khác.
+
+01:47.280 --> 01:49.930
+Mình sẽ dùng màu vàng ở đây.
+
+01:49.930 --> 01:55.710
+Vậy f(0) là 1 cộng f'(0) nhân x. f'(0)
+
+01:55.710 --> 01:56.790
+cũng bằng 1.
+
+01:56.790 --> 02:00.900
+Vậy cộng x cộng, cái này cũng bằng 1, vậy
+
+02:00.900 --> 02:03.040
+nó sẽ bằng x bình chia 2 giai thừa
+
+02:03.040 --> 02:06.373
+Vậy cộng x bình chia 2 giai thừa.
+
+02:06.373 --> 02:07.956
+Tất cả cái này sẽ bằng 1.
+
+02:07.956 --> 02:11.530
+Cái này là 1, cái này là 1, khi ta nói về e mũ x.
+
+02:11.530 --> 02:12.820
+Vậy bạn tới phần tử thứ 3.
+
+02:12.820 --> 02:13.950
+Cái này là 1.
+
+02:13.950 --> 02:16.180
+Bạn được x mũ 3 chia 3 giai thừa.
+
+02:16.180 --> 02:18.809
+Cộng x mũ 3 chia 3 giai thừa.
+
+02:18.809 --> 02:20.350
+Và mình nghĩ bạn đã thấy mô hình ở đây.
+
+02:20.350 --> 02:22.950
+Ta cứ tiếp tục thêm phần tử. x mũ 4
+
+02:22.950 --> 02:26.510
+chia 4 giai thừa cộng x mũ 5 chia
+
+02:26.510 --> 02:31.220
+5 giai thừa cộng x mũ 6 chia 6 giai thừa.
+
+02:31.220 --> 02:35.300
+Và nó sẽ trở nên khá gọn.
+
+02:35.300 --> 02:38.270
+là e mũ x, 1, e mũ x đó
+
+02:38.270 --> 02:42.960
+có thể được tính bằng 1 cộng x cộng x bình
+
+02:42.960 --> 02:45.620
+chia 2 giai thừa cộng x mũ 3 chia 3 giai thừa.
+
+02:45.620 --> 02:47.470
+Một lần nữa, e mũ x đang
+
+02:47.470 --> 02:49.160
+trở nên khá là thú vị.
+
+02:49.160 --> 02:51.570
+Cái này cũng cho ra kết quả thú vị.
+
+02:51.570 --> 02:54.560
+Nếu bạn muốn tính e,
+
+02:54.560 --> 02:58.820
+bạn chỉ cần tính cái này ở x bằng 1.
+
+02:58.820 --> 03:01.260
+Vậy nếu bạn muốn tính e, bạn sẽ tính được
+
+03:01.260 --> 03:05.900
+e xấp xỉ bằng-- e là e mũ 1.
+
+03:05.900 --> 03:07.400
+Và nó sẽ khoảng bằng
+
+03:07.400 --> 03:10.280
+đa thức này tại 1.
+
+03:10.280 --> 03:12.750
+Nếu x là 1 ở đây, ta sẽ đặt x bằng 1 ở kia.
+
+03:12.750 --> 03:15.010
+Vậy nó sẽ bằng 1 cộng 1.
+
+03:15.010 --> 03:21.220
+Vậy nó sẽ là 1 cộng 1 cộng 1 chia 2 giai thừa,
+
+03:21.220 --> 03:27.570
+cộng 1 chia 3 giai thừa, cộng 1 chia 4 giai thừa.
+
+03:27.570 --> 03:30.700
+Cứ tiếp tục vậy, cho tới vô cực.
+
+03:30.700 --> 03:35.640
+Bạn cũng có thể coi cái này là 1 chia 1 giai thừa.
+
+03:35.640 --> 03:37.280
+1 chia 1 giai thừa.
+
+03:37.280 --> 03:39.770
+Nhưng điều thú vị là cái này là cách khác
+
+03:39.770 --> 03:40.870
+để biễn diễn e.
+
+03:40.870 --> 03:43.940
+Nó sẽ khá là gọn để tính e.
+
+03:43.940 --> 03:48.660
+Nó là 2 cộng 1/2, cộng 1/6, cộng--
+
+03:48.660 --> 03:54.070
+nếu bạn cứ đi tiếp, bạn sẽ được gần tới số e.
+
+03:54.070 --> 03:57.820
+Nhưng vẫn còn điều thú vị khác nữa.
+
+03:57.820 --> 04:00.090
+Nếu ta nhìn lại biểu diễn Maclaurin
+
+04:00.090 --> 04:03.020
+của các hàm khác, cosx--
+
+04:03.020 --> 04:06.140
+để mình copy và dán cosx.
+
+04:06.140 --> 04:09.450
+Vậy cosx ở ngay đây.
+
+04:09.450 --> 04:13.290
+Để mình ráng copy rồi dán nguyên dãy này.
+
+04:13.290 --> 04:17.220
+Copy rồi dán.
+
+04:17.220 --> 04:19.769
+Copy rồi dán.
+
+04:19.769 --> 04:22.510
+Đó là cos x.
+
+04:22.510 --> 04:25.050
+Hãy làm tương tự với sinx
+
+04:25.050 --> 04:27.260
+như ta đã làm trong video trước.
+
+04:27.260 --> 04:28.485
+Vậy sinx.
+
+04:31.040 --> 04:33.930
+Để mình copy và dán.
+
+04:33.930 --> 04:38.526
+Copy, rồi dán.
+
+04:38.526 --> 04:40.260
+Chỉnh sửa, dán.
+
+04:40.260 --> 04:45.690
+Ta thấy mối quan hệ nào giữa mấy phép tính này không?
+
+04:45.690 --> 04:47.927
+Trước đó, bạn đoán có thể
+
+04:47.927 --> 04:50.010
+có mối quan hệ giữa cos và sin,
+
+04:50.010 --> 04:52.180
+nhưng còn e mũ x thì sao?
+
+04:52.180 --> 04:54.980
+Ở đây bạn có thể thấy cosx
+
+04:54.980 --> 04:59.360
+nhìn rất giống phần tử này,
+
+04:59.360 --> 05:01.910
+mặc dù ta muốn đặt số âm ra đây.
+
+05:01.910 --> 05:04.210
+Vậy nó là phiên bản âm của phần tử này ở đây,
+
+05:04.210 --> 05:07.960
+cộng phần tử này ở đây, cộng phiên bản âm
+
+05:07.960 --> 05:10.640
+của phần tử này ở đây.
+
+05:10.640 --> 05:15.830
+Và sinx nhìn như phần tử này
+
+05:15.830 --> 05:22.490
+cộng phiên bản âm của phần tử này, cộng phần tử này,
+
+05:22.490 --> 05:24.750
+cộng phiên bản âm của phần tử tiếp theo.
+
+05:24.750 --> 05:27.570
+Vậy nếu ta thống nhất các phần tử âm
+
+05:27.570 --> 05:30.390
+theo một cách thú vị nào đó, nó sẽ
+
+05:30.390 --> 05:33.210
+nhìn giống e mũ x-- hoặc ít nhất
+
+05:33.210 --> 05:35.980
+biểu diễn đa thức của e mũ x--
+
+05:35.980 --> 05:39.360
+liên quan tới kết hợp của
+
+05:39.360 --> 05:42.090
+biểu diễn đa thức của cosx
+
+05:42.090 --> 05:43.120
+và sinx.
+
+05:43.120 --> 05:45.874
+Vậy nên điều đó khá là thú vị.
+
+05:45.874 --> 05:48.040
+Ta bắt đầu thấy mối quan hệ giữa cái gì đó
+
+05:48.040 --> 05:52.290
+liên quan tới lãi kép hoặc một hàm có đạo hàm
+
+05:52.290 --> 05:53.600
+luôn bằng hàm số đó.
+
+05:53.600 --> 05:55.070
+Và mấy cái xuất hiện từ
+
+05:55.070 --> 05:57.700
+dao động của đường tròn và mấy cái này nữa,
+
+05:57.700 --> 06:00.956
+có vẻ đúng ở đó.
+
+06:00.956 --> 06:02.580
+Nhưng mình sẽ kết thúc video ở đây.
+
+06:02.580 --> 06:04.080
+Và trong video tiếp theo, mình sẽ chỉ bạn
+
+06:04.080 --> 06:07.480
+cách mà ta thống nhất các
+
+06:07.480 --> 06:09.790
+hàm thú vị này.

@@ -1,0 +1,949 @@
+WEBVTT
+
+00:00.360 --> 00:03.870
+V tomto videu si urobíme kopu príkladov z rozkladov
+
+00:03.870 --> 00:06.590
+polynómov druhého stupňa, ktorý sa
+
+00:06.590 --> 00:08.870
+často nazýva kvadratický.
+
+00:08.870 --> 00:12.650
+Niekedy kvadratický polynóm, alebo len
+
+00:12.650 --> 00:15.850
+kvadratúra, alebo kvadratický výraz, ale vždy to znamená
+
+00:15.850 --> 00:18.300
+polynóm druhého stupňa.
+
+00:18.300 --> 00:22.440
+Takže niekedy to bude len a iba premenná
+
+00:22.440 --> 00:23.080
+umocnená ne druhú.
+
+00:23.080 --> 00:26.460
+V tomto prípade, vo všetkých príkladoch čo budeme robiť, to bude "x".
+
+00:26.460 --> 00:30.740
+Majme teda kvadratický výraz,
+
+00:30.740 --> 00:35.280
+x na druhú + 10x + 9
+
+00:35.280 --> 00:39.870
+Ja ho chcem rozložiť na súčin dvoch lineárnych činiteľov.
+
+00:39.870 --> 00:41.520
+Ako to urobíme?
+
+00:41.520 --> 00:44.440
+Poďme sa pozrieť, čo sa stane, keď budeme chcieť
+
+00:44.440 --> 00:51.690
+násobiť (x + a). (x + b)
+
+00:51.690 --> 00:55.050
+Čo sa teda stane?
+
+00:55.050 --> 00:57.090
+S tým už máme nejaké skúsenosti.
+
+00:57.090 --> 01:03.170
+To bude x.x, teda x na druhú + x.b,
+
+01:03.170 --> 01:12.690
+čo je bx + a.x + a.b
+
+01:12.690 --> 01:15.800
+Alebo, keď tieto veci uprostred dáme dohromady,
+
+01:15.800 --> 01:18.890
+pretože sú obidve násobené x,
+
+01:18.890 --> 01:22.102
+môžeme výraz zapísať ako x na druhú + (a + b)x + ab
+
+01:22.102 --> 01:29.700
+X na druhú + (a + b)x + ab
+
+01:29.700 --> 01:34.390
+Všeobecne, keď budeme predpokladať, že toto je násobok
+
+01:34.390 --> 01:40.765
+dvoch lineárnych členov, vidíme, že tento prostredný koeficient pri "x",
+
+01:40.765 --> 01:43.250
+alebo môžete povedať koeficient prvého stupňa,
+
+01:43.250 --> 01:49.040
+bude súčet našich "a" a "b".
+
+01:49.040 --> 01:51.360
+A konštantný člen bude súčinom
+
+01:51.360 --> 01:52.520
+a . b
+
+01:52.520 --> 01:57.290
+Všimnite si, že toto (10= a+b) patrí k tomuto a toto (9 = a.b)
+
+01:57.290 --> 01:58.790
+patrí k tomuto.
+
+01:58.790 --> 02:02.600
+A samozrejme, toto je to isté ako toto.
+
+02:02.600 --> 02:05.590
+Tak je nejaký vzor, ktorým napasujeme toto?
+
+02:05.590 --> 02:14.060
+Existuje nejaké "a" a "b", kde a + b = 10 a súčasne
+
+02:14.060 --> 02:22.070
+a . b = 9 ?
+
+02:22.070 --> 02:23.850
+Premyslite si to.
+
+02:23.850 --> 02:25.470
+Aké sú delitele 9?
+
+02:25.470 --> 02:27.770
+A čomu sa môžu teda rovnať "a" a "b" ?
+
+02:27.770 --> 02:29.170
+Predpokladáme, že sú to celé čísla.
+
+02:29.170 --> 02:32.350
+Normálne, keď rozkladáme, špeciálne keď
+
+02:32.350 --> 02:33.950
+začíname rozkladať, máme pred sebou
+
+02:33.950 --> 02:35.580
+celé čísla.
+
+02:35.580 --> 02:37.080
+Takže aké sú delitele 9 ?
+
+02:37.080 --> 02:40.730
+Sú to 1, 3, 9.
+
+02:40.730 --> 02:45.000
+Takže toto môže byť 3 a 3, alebo by to mohlo byť 1 a 9.
+
+02:45.000 --> 02:48.630
+Teraz, ak by to bolo 3 a 3, potom máme 3 + 3 ... ato
+
+02:48.630 --> 02:49.840
+sa nerovná 10.
+
+02:49.840 --> 02:53.760
+Ale ak by to bolo 1 a 9 ; 9 . 1 = 9
+
+02:53.760 --> 02:56.670
+1 + 9 = 10
+
+02:56.670 --> 02:57.570
+Takže to funguje.
+
+02:57.570 --> 03:04.190
+Teda "a" by mohlo byť rovné 1 a "b" by mohlo byť 9.
+
+03:04.190 --> 03:08.920
+Tak výraz môžeme rozložiť na( x + 1)
+
+03:08.920 --> 03:12.970
+krát (x + 9)
+
+03:12.970 --> 03:15.850
+A keď vynásobíte tieto dva, s použitím vedomostí
+
+03:15.850 --> 03:18.970
+získaných z predchádzajúcich pár videí, uvidíte,
+
+03:18.970 --> 03:22.880
+že je to naozaj x na druhú + 10x + 9.
+
+03:22.880 --> 03:25.150
+Takže keď uvidíte niečo také, keď je koeficient pri
+
+03:25.150 --> 03:28.070
+x na druhú, alebo predný koeficient pri kvadratickom člene
+
+03:28.070 --> 03:31.650
+je 1, poviete, dobre, ktoré dve
+
+03:31.650 --> 03:34.530
+čísla dávajú v súčte tento koeficient?
+
+03:37.720 --> 03:39.870
+A tie isté čísla, keď vynásobíte,
+
+03:39.870 --> 03:41.660
+dávajú v súčine ?
+
+03:41.660 --> 03:43.510
+Samozrejme, toto musí byť v štandardnom zápise.
+
+03:43.510 --> 03:46.000
+Alebo, pokiaľ to nie je v štandardnom zápise, musíte to previesť
+
+03:46.000 --> 03:48.500
+do takého stavu, že môžete vždy povedať; "OK, akýkoľvek je
+
+03:48.500 --> 03:51.530
+koeficient prvého stupňa, moje "a" a "b"
+
+03:51.530 --> 03:52.300
+sčítané dajú túto hodnotu.
+
+03:52.300 --> 03:55.890
+Čokoľvek je môj konštantný člen, súčin mojich "a" a "b"
+
+03:55.890 --> 03:56.370
+músí byť práve to.
+
+03:56.370 --> 03:58.150
+Urobme si viac príkladov.
+
+03:58.150 --> 04:00.510
+Myslím, že čím viac príkladov urobíme,
+
+04:00.510 --> 04:02.630
+tým to bude jasnejšie.
+
+04:02.630 --> 04:08.700
+Máme x na druhú + 10x +....dobre,
+
+04:08.700 --> 04:11.100
+10x som už použil, dajme iné číslo...x na druhú
+
+04:11.100 --> 04:15.366
++ 15x + 50
+
+04:15.366 --> 04:17.470
+A chceme to rozložiť.
+
+04:17.470 --> 04:20.339
+Dobre, rovnaký postup.
+
+04:20.339 --> 04:22.600
+Máme kvadratický člen.
+
+04:22.600 --> 04:25.130
+Máme člen prvého stupňa.
+
+04:25.130 --> 04:27.960
+Toto tu by mal byť súčet dvoch čísel.
+
+04:27.960 --> 04:30.620
+A tento člen, konštantný člen práve tu,
+
+04:30.620 --> 04:32.870
+by mal byť súčinom dvoch čísel.
+
+04:32.870 --> 04:35.640
+Takže potrebujeme dve čísla, ktoré keď vynásobíme,
+
+04:35.640 --> 04:39.220
+dostaneme 50 a keď ich sčítame, dostaneme 15.
+
+04:39.220 --> 04:41.910
+A toto umenie budete musieť trochu
+
+04:41.910 --> 04:44.530
+rozvíjať, ale čím viac praxe získate, uvidíte,
+
+04:44.530 --> 04:45.730
+že to nakoniec bude pre vás prirodzené.
+
+04:45.730 --> 04:47.330
+Čo môže byť "a" a "b" ?
+
+04:47.330 --> 04:48.975
+Porozmýšľajme o rozklade 50.
+
+04:48.975 --> 04:52.230
+Môže to byť 1 .50
+
+04:52.230 --> 04:55.072
+2 . 25
+
+04:55.072 --> 04:57.520
+Pozrime sa, 4 sa v 50 nenachádza.
+
+04:57.520 --> 05:02.450
+Môže to byť 5 . 10
+
+05:02.450 --> 05:03.580
+Myslím, že toto je všetko.
+
+05:03.580 --> 05:05.920
+Pozrime sa na tie čísla a skúsme zistiť či niektoré
+
+05:05.920 --> 05:07.310
+z nich nám dajú súčet 15.
+
+05:07.310 --> 05:12.630
+Takže 1 + 50 nie je 15.
+
+05:12.630 --> 05:16.160
+2 + 25 tiež nie je 15.
+
+05:16.160 --> 05:19.260
+Ale 5 + 10 = 15.
+
+05:19.260 --> 05:24.280
+Takže to môže byť 5 + 10 a tiež 5 . 10
+
+05:24.280 --> 05:28.760
+Takže keď to rozložíme, bolo by to rovné
+
+05:28.760 --> 05:32.630
+(x + 5) . (x + 10)
+
+05:32.630 --> 05:33.840
+A roznásobme to.
+
+05:33.840 --> 05:36.710
+vyzývam vás, vynásobte to a uvidíte, že to je
+
+05:36.710 --> 05:39.660
+x na druhú + 15x + 10
+
+05:39.660 --> 05:43.320
+Poďme na to. x . x = x na druhú
+
+05:43.320 --> 05:45.800
+krát 10 + 10x
+
+05:45.800 --> 05:48.600
+5 . x ; + 5x
+
+05:48.600 --> 05:51.620
+5 . 10; + 50
+
+05:51.620 --> 05:55.220
+Všimnite si, 5 . 10 nám dalo 50,
+
+05:55.220 --> 06:00.890
+5x + 10x nám dáva 15x
+
+06:00.890 --> 06:06.560
+Takže máme x na druhú + 15x + 50.
+
+06:06.560 --> 06:09.440
+Poďme sa trochu pohrať a predstaviť
+
+06:09.440 --> 06:11.040
+si záporné symptómy.
+
+06:11.040 --> 06:18.890
+Povedzme, že máme x na druhú - 11x + 24.
+
+06:18.890 --> 06:21.610
+Teraz máme úplne ten istý princíp.
+
+06:21.610 --> 06:24.580
+Rozmýšľam o dvoch číslach, ktoré po sčítaní
+
+06:24.580 --> 06:26.570
+dajú výsledok -11.
+
+06:26.570 --> 06:30.150
+a + b = -11.
+
+06:30.150 --> 06:37.900
+A a . b = 24
+
+06:37.900 --> 06:41.290
+Teraz je na vás o tom porozmýšľať.
+
+06:41.290 --> 06:43.960
+Keď násobím tieto dve čísla, začnem
+
+06:43.960 --> 06:45.080
+s kladným číslom.
+
+06:45.080 --> 06:46.960
+Začnem s 24.
+
+06:46.960 --> 06:50.260
+To znamená, že obidve musia byť kladné, alebo obidve
+
+06:50.260 --> 06:51.380
+sú záporné.
+
+06:51.380 --> 06:55.050
+Je jediný spôsob, ako získať kladné čísla.
+
+06:55.050 --> 06:58.290
+Teraz, keď ich sčítam, mám dostať záporné číslo. Keby
+
+06:58.290 --> 07:00.720
+boli obidve kladné, nemôžem sšítať dve kladné čísla
+
+07:00.720 --> 07:03.280
+a dostať záporné číslo, takže skutočnosť že ich súčet má byť
+
+07:03.280 --> 07:05.750
+záporný, a skutočnosť, že ich násobokmá byť kladný mi
+
+07:05.750 --> 07:10.420
+hovorí, že obidve čísla "a" aj "b " budú záporné.
+
+07:10.420 --> 07:13.200
+"a" a "b" budú záporné.
+
+07:13.200 --> 07:15.730
+Pamätajte si, nemôže byť jeden záporný a druhý
+
+07:15.730 --> 07:18.710
+kladný, pretože výsledok by bol záporný.
+
+07:18.710 --> 07:22.687
+A tiež nemôžu byť obidva kladné, ppretože keď ich sčítame,
+
+07:22.687 --> 07:24.520
+dostaneme kladné číslo.
+
+07:24.520 --> 07:27.500
+Takže porozmýšľajme o tom, aké môžu byť "a" a "b".
+
+07:27.500 --> 07:28.990
+Dve záporné čísla.
+
+07:28.990 --> 07:31.260
+Takže rozmýšľajme o rozklade 24.
+
+07:31.260 --> 07:33.140
+A rozmýšľame o záporných rozkladoch.
+
+07:33.140 --> 07:44.670
+Pozrime sa, čo by to mohlo byť 1 . 24; 2 . 11;
+
+07:44.670 --> 07:48.070
+3 . 8; alebo 4 . 6
+
+07:48.070 --> 07:51.220
+Tarez, ktoré z nich po vynásobení ....dobre,
+
+07:51.220 --> 07:54.380
+samozrejme, keď vynásobím 1 . 24, dostanem 24
+
+07:54.380 --> 07:58.910
+Keď vezmeme 2 . 11...prepáčte, to má byť 2 . 12
+
+07:58.910 --> 07:59.790
+dostanem 24
+
+07:59.790 --> 08:03.090
+Vidíme , že všetky výsledky nám dávajú 24.
+
+08:03.090 --> 08:07.470
+Ale ktoré dve, ktoré dva rozklady, keď ich sčítame
+
+08:07.470 --> 08:08.790
+nám dajú 11?
+
+08:08.790 --> 08:09.880
+A môžme povedať, že vezmeme
+
+08:09.880 --> 08:11.450
+obidve záporné.
+
+08:11.450 --> 08:15.470
+Keď sa na to pozrieme, vyskočí nám 3 a 8 .
+
+08:15.470 --> 08:19.150
+3 . 8 = 24
+
+08:19.150 --> 08:22.810
+3 + 8 = 11
+
+08:22.810 --> 08:24.680
+Ale to nie je úplne presné, však?
+
+08:24.680 --> 08:26.510
+Pretože tu máme záporných 11.
+
+08:26.510 --> 08:29.690
+Ale čo ak vezmeme zápornú 3 a zápornú 8?
+
+08:29.690 --> 08:37.789
+-3 . (-8) = 24
+
+08:37.789 --> 08:43.580
+-3 + (-8) = -11
+
+08:43.580 --> 08:46.600
+Takže -3 a -8 vyhovujú.
+
+08:46.600 --> 08:53.840
+Takže keď to rozložíme, dostaneme x na druhú - 11x + 24 =
+
+08:53.840 --> 09:02.940
+= (x - 3) . (x -8)
+
+09:02.940 --> 09:06.270
+Poďme urobiť ďalšie takéto.
+
+09:06.270 --> 09:08.330
+Vlastne, poďme to trochu premiešať.
+
+09:08.330 --> 09:19.810
+Povedzme, že máme x na druhú + 5x - 14.
+
+09:19.810 --> 09:21.770
+Máme tu inú situáciu.
+
+09:21.770 --> 09:26.460
+Súčin mojich dvoch čísel má byť záporný, však? "a" . "b"
+
+09:26.460 --> 09:28.190
+= -14
+
+09:28.190 --> 09:29.920
+Môj súčin je negatívny.
+
+09:29.920 --> 09:32.930
+To mi hovorí, že jedno z nich je kladné a jedno je
+
+09:32.930 --> 09:33.910
+záporné.
+
+09:33.910 --> 09:39.200
+A ak ich sčítam, "a" + "b" = 5
+
+09:39.200 --> 09:41.360
+Rozmýšľajme o rozklade 14.
+
+09:41.360 --> 09:44.300
+A ktorá ich kombinácia po sčítaní, keď jedno je
+
+09:44.300 --> 09:46.560
+kladné a druhé záporné, alebo môžme povedať ,
+
+09:46.560 --> 09:49.780
+ich rozdielom dostanem 5?
+
+09:49.780 --> 09:53.450
+Takže vezmem 1 a 14...idem jednoducho vyskúšať tieto veci...
+
+09:53.450 --> 10:01.820
+1 a 14, +1 - 14 = -13
+
+10:01.820 --> 10:04.260
+-1 + 14 = 13
+
+10:04.260 --> 10:07.430
+Zapíšme všetky kombinácie, ktoré môžu byť.
+
+10:07.430 --> 10:09.440
+A nakoniec váš mozog bude pracovať v tejto oblasti.
+
+10:09.440 --> 10:16.490
+Máme -1 + 14 = 13
+
+10:16.490 --> 10:20.460
+A 1 + (-14) = -13
+
+10:20.460 --> 10:21.380
+Takže to nesedí.
+
+10:21.380 --> 10:22.950
+Nerovná sa to 5.
+
+10:22.950 --> 10:24.860
+A čo 2 a 7.
+
+10:24.860 --> 10:29.600
+Ak je 2 záporná... urobím to inou farbou...ak
+
+10:29.600 --> 10:35.290
+vezmem -2 + 7 = 5
+
+10:35.290 --> 10:35.750
+Sme hotoví!
+
+10:35.750 --> 10:36.670
+To sedí !
+
+10:36.670 --> 10:39.440
+Myslím, že sme mohli skúsiť 2 + (-7), ale to sa
+
+10:39.440 --> 10:41.070
+rovná -5 a to by už nesedelo.
+
+10:41.070 --> 10:42.960
+Ale -2 + 7 sedí.
+
+10:42.960 --> 10:46.590
+A -2 . 7 = -14
+
+10:46.590 --> 10:47.600
+Takže to máme.
+
+10:47.600 --> 10:53.210
+Vieme, že to je (x-2) . (x+7).
+
+10:53.210 --> 10:54.330
+To je celkom elegantné.
+
+10:54.330 --> 10:56.950
+-2 . 7 = -14
+
+10:56.950 --> 11:00.880
+-2 + 7 = 5
+
+11:03.760 --> 11:07.680
+Poďme urobiť viac takýchto, aby sme si dobre
+
+11:07.680 --> 11:09.520
+osvojili túto zručnosť.
+
+11:09.520 --> 11:16.360
+Nech máme x na druhú - x - 56
+
+11:16.360 --> 11:19.570
+Takže súčin dvoch čísel bude -56,
+
+11:19.570 --> 11:21.620
+záporných 56.
+
+11:21.620 --> 11:24.430
+A ich rozdiel, pretože jedno bude kladné
+
+11:24.430 --> 11:26.280
+a druhé záporné, však?
+
+11:26.280 --> 11:28.350
+Ich rozdiel bude -1.
+
+11:28.350 --> 11:30.130
+A čísla, ktoré mi ihneď vyskočia v hlave...
+
+11:30.130 --> 11:31.900
+a ja neviem či aj vo vašich,
+
+11:31.900 --> 11:33.740
+ale časom sa to naučíte ...
+
+11:33.740 --> 11:36.480
+56 = 8 . 7
+
+11:36.480 --> 11:37.480
+Myslím, že to môžu byť aj iné čísla
+
+11:37.480 --> 11:39.950
+Je to tiež 28 . 2
+
+11:39.950 --> 11:41.140
+A to sú všetky.
+
+11:41.140 --> 11:44.300
+Ale 8 . 7 mi vyskakuje v mysli, pretože
+
+11:44.300 --> 11:45.470
+sú veľmi blízko pri sebe.
+
+11:45.470 --> 11:47.730
+A potrebujeme čísla, ktoré sú veľmi blízko pri sebe.
+
+11:47.730 --> 11:50.430
+A jedno z nich má byť kladné, a druhé
+
+11:50.430 --> 11:51.810
+má byť záporné.
+
+11:51.810 --> 11:55.250
+Teraz, skutonosť, že ich súčet je záporný, mi hovorí
+
+11:55.250 --> 11:58.460
+že väčšie z nich bude pravdepodobne záporné.
+
+11:58.460 --> 12:01.350
+Keď vezmeme -8 . 7, to sa
+
+12:01.350 --> 12:03.320
+rovná -56.
+
+12:03.320 --> 12:08.470
+A ak vezememe -8 + 7, to sa rovná
+
+12:08.470 --> 12:12.100
+-1, čo je presne ten správny koeficient.
+
+12:12.100 --> 12:16.490
+Takže keď to rozložíme, je to (x - 8) .
+
+12:16.490 --> 12:18.690
+(x + 7).
+
+12:18.690 --> 12:21.695
+To je jedna z najťažších častí, ktoré sa ľudia učia
+
+12:21.695 --> 12:23.920
+v algebre, pretože je to kúsok umenia.
+
+12:23.920 --> 12:26.710
+Môžete sa pozrieť na všetky rozklady, pohrať sa
+
+12:26.710 --> 12:29.710
+kladnými a zápornými príznakmi, pozrieť sa, ktorý z rozkladov,
+
+12:29.710 --> 12:31.900
+keď jeden je kladný a druhý záporný, v súčte nám
+
+12:31.900 --> 12:33.590
+dá koeficient pri x.
+
+12:33.590 --> 12:35.860
+Ale keď získate vic a viac praxe, uvidíte že
+
+12:35.860 --> 12:39.280
+sa vám to stane druhou prirodzenosťou.
+
+12:39.280 --> 12:42.350
+Teraz poďme posunúť latku trochu vyššie.
+
+12:42.350 --> 12:46.140
+Povedzme, že máme -x na druhú.....všetko, o sme
+
+12:46.140 --> 12:49.040
+robili doteraz malo kladný koeficient, +1
+
+12:49.040 --> 12:50.690
+koeficient pri kvadratickom člene x na druhú.
+
+12:50.690 --> 12:55.590
+Ale teraz sme povedali, že máme -x na druhú
+
+12:55.590 --> 12:59.440
+- 5x + 24.
+
+12:59.440 --> 13:00.910
+Ako to urobíme?
+
+13:00.910 --> 13:03.420
+Dobre, najľahšia cesta, ktorú si viem predstaviť, je vybrať
+
+13:03.420 --> 13:05.670
+-1, a potom dostávame ten istý problém, ktorý
+
+13:05.670 --> 13:07.260
+sme riešili pred tým.
+
+13:07.260 --> 13:11.660
+Takže to je to isté ako -1. (+x na druhú
+
+13:11.660 --> 13:15.990
++ 5x - 24)
+
+13:15.990 --> 13:16.300
+Správne?
+
+13:16.300 --> 13:18.080
+Vybrali sme -1.
+
+13:18.080 --> 13:20.180
+Môžte násobiť -1 všetko toto a uvidíte,
+
+13:20.180 --> 13:21.690
+že dostanete toto.
+
+13:21.690 --> 13:23.555
+Alebo môžte vybrať -1 a deleiť všetko
+
+13:23.555 --> 13:25.000
+toto -1.
+
+13:25.000 --> 13:26.760
+A bude to správne.
+
+13:26.760 --> 13:29.360
+Teraz, to isté, čo sme mali predtým.
+
+13:29.360 --> 13:33.510
+Potrebujem dve čísla, ktorých súčin nám dá
+
+13:33.510 --> 13:34.690
+-24.
+
+13:34.690 --> 13:37.125
+Takže jedno bude kladné a druhé záporné.
+
+13:41.550 --> 13:43.770
+Keď vezmem ich súčet, dostanem 5.
+
+13:43.770 --> 13:48.850
+Takže rozmýšľajme o 24. To je 1 a 24
+
+13:48.850 --> 13:55.750
+Pozrime sa, ak toto je -1 a 24, to je +23,
+
+13:55.750 --> 13:57.540
+ak by to bolo opačne, bude to -23
+
+13:57.540 --> 13:58.500
+Nefunguje.
+
+13:58.500 --> 14:01.210
+A čo 2 a 12 ?
+
+14:01.210 --> 14:04.530
+Dobre, ak je záporná ....pamätáme si, jedno z nich má
+
+14:04.530 --> 14:05.040
+byť záporné.
+
+14:05.040 --> 14:07.570
+Ak je 2 záporná, ich súčet bude +10
+
+14:07.570 --> 14:09.750
+Ak je 12 záporná, ich súčet bude -10
+
+14:09.750 --> 14:11.300
+Stále to nefunguje.
+
+14:11.300 --> 14:13.290
+3 a 8.
+
+14:13.290 --> 14:16.850
+Ak je 3 záporná, ich súčet bude 5.
+
+14:16.850 --> 14:17.910
+To funguje.
+
+14:17.910 --> 14:24.620
+Takže ak si vyberieme zápornú 3 a 8, to funguje.
+
+14:24.620 --> 14:26.630
+Pretože -3 + 8 = 5
+
+14:26.630 --> 14:29.510
+-3 . 8 = -24
+
+14:29.510 --> 14:31.640
+Takže to sa rovná....nesmiem zabudnúť na
+
+14:31.640 --> 14:35.230
+-1 pred tým, a rozkladáme vnútrajšok.
+
+14:35.230 --> 14:42.990
+-1. ((x-3) . (x +8))
+
+14:42.990 --> 14:44.800
+Ak to chceme presne, možme to vynásobiť
+
+14:44.800 --> 14:46.450
+-1, dostaneme
+
+14:46.450 --> 14:47.560
+3 - x.
+
+14:47.560 --> 14:48.810
+Alebo to neurobíte.
+
+14:51.810 --> 14:53.220
+Poďme urobiť ešte jeden z týchto.
+
+14:53.220 --> 14:56.060
+Čím viac praxe, tým lepšie, myslím.
+
+14:56.060 --> 15:01.630
+Dobre, povedzme, že máme -x na druhú
+
+15:01.630 --> 15:06.690
++ 18x - 72
+
+15:06.690 --> 15:09.320
+Takže ešte raz, vyberieme -1 pred zátvorku.
+
+15:09.320 --> 15:13.040
+Takže je to to isté ako -1 . (x na druhú
+
+15:13.040 --> 15:16.910
+-18x + 72)
+
+15:16.910 --> 15:19.650
+Teraz rozmýšľame o dvoch číslach, ktoré po
+
+15:19.650 --> 15:22.330
+vynásobení nám dajú +72.
+
+15:22.330 --> 15:24.480
+Takže budúmať rovnaké znamienka.
+
+15:24.480 --> 15:26.930
+O to to bude jednoduchšie vo vašej hlave, a nakoniec aj v mojej.
+
+15:26.930 --> 15:29.260
+Keď ich vynásobíme, dostanene +72.
+
+15:29.260 --> 15:32.040
+Ak ich sčítame, dostaneme -18.
+
+15:32.040 --> 15:34.410
+Keďže majú rovnaké znamienka a ic súčet je záporné
+
+15:34.410 --> 15:36.470
+číslo, obidve musia byť záporné.
+
+15:41.470 --> 15:43.790
+A tak by sme mohli pokračovať cez všetky rozklady 72.
+
+15:43.790 --> 15:48.510
+Ale jeden, ktorý nám vyskakuje,myslíte si, je 8 . 9.
+
+15:48.510 --> 15:53.270
+alebo -8 -9, alebo -8 +
+
+15:53.270 --> 15:55.210
+-9, tieto nefungujú.
+
+15:55.210 --> 15:58.060
+To sa zmení na 17.
+
+15:58.060 --> 15:58.860
+To bolo o chlp.
+
+15:58.860 --> 15:59.560
+Pozrime sa na toto.
+
+15:59.560 --> 16:04.400
+-9+( -8) = -17
+
+16:04.400 --> 16:06.140
+Zavrieť, ale nie cigaru.
+
+16:06.140 --> 16:06.990
+Takže, čo tie ostatné tu?
+
+16:06.990 --> 16:08.005
+Máme 6 a 12.
+
+16:08.005 --> 16:09.705
+Skutočne sa to zdá celkom dobré.
+
+16:09.705 --> 16:13.710
+Ak máme -6 +(-12), to sa rovná
+
+16:13.710 --> 16:15.360
+-18
+
+16:15.360 --> 16:16.590
+Všimnite si, že je to trochu umenie.
+
+16:16.590 --> 16:18.810
+Musíte vyskúšať rôzne rozklady.
+
+16:18.810 --> 16:22.360
+Takže dostaneme -1...nesmiem na to zabudnúť....
+
+16:22.360 --> 16:29.440
+. (x - 6) . (x - 12).

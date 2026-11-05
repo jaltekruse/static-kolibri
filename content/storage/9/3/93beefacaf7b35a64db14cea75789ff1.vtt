@@ -1,0 +1,428 @@
+WEBVTT
+
+00:01.370 --> 00:03.367
+Dans cette vidéo, je vais vous parler un peu
+
+00:03.367 --> 00:07.500
+des nombres premiers.
+
+00:07.500 --> 00:10.094
+Avec cette vidéo, vous allez vous rendre compte
+
+00:10.110 --> 00:12.608
+que c'est un concept vraiment simple.
+
+00:12.608 --> 00:15.302
+Mais lors de votre parcours en mathématiques,
+
+00:15.302 --> 00:17.601
+vous verrez qu'il y a des concepts assez sophistiqués
+
+00:17.601 --> 00:20.712
+qui sont construits autour de l'idée des nombres premiers,
+
+00:20.712 --> 00:23.359
+la cryptographie par exemple.
+
+00:23.359 --> 00:25.612
+Une partie de l'encodage de votre ordinateur
+
+00:25.612 --> 00:28.026
+utilise peut-être sur les nombres premiers.
+
+00:28.026 --> 00:29.931
+Si vous ne savez pas ce qu'est un encodage,
+
+00:29.931 --> 00:31.718
+ne vous en faites pas,
+
+00:31.718 --> 00:33.785
+vous devez seulement retenir que les nombres premiers
+
+00:33.785 --> 00:36.966
+sont assez importants.
+Je vais vous donner la définition,
+
+00:36.966 --> 00:39.404
+qui va peut-être un peu vous embrouiller,
+
+00:39.404 --> 00:43.839
+mais lorsque nous verrons les exemples, tout va s'éclairer.
+
+00:43.839 --> 00:49.946
+Un nombre premier est un entier naturel -
+
+00:49.946 --> 00:57.794
+par exemple, 1 ; 2 ou 3 ;
+(les chiffres que l'on compte à partir de 1),
+
+00:57.794 --> 01:00.488
+et que l'on appelle aussi "les entiers positifs" -
+
+01:00.488 --> 01:30.962
+un nombre naturel uniquement divisible
+par deux nombres naturels: lui-même et 1.
+
+01:30.962 --> 01:39.823
+Il n'est divisible que par ces deux nombres.
+
+01:39.823 --> 01:43.468
+Si ça ne vous semble pas clair,
+prenons quelques exemples.
+
+01:43.468 --> 01:46.115
+Déterminons si des nombres sont premiers ou pas.
+
+01:46.115 --> 01:48.948
+Commençons donc avec l'entier naturel le plus petit.
+
+01:48.948 --> 01:52.268
+Le chiffre 1.
+Vous vous dites que 1 est divisible par 1,
+
+01:52.268 --> 01:59.095
+et qu'il est divisible par lui-même,
+donc que c'est un nombre premier.
+
+01:59.095 --> 02:02.137
+Mais, souvenez-vous, d'après la définition,
+un nombre premier doit être divisible
+
+02:02.137 --> 02:07.803
+par exactement deux entiers naturels.
+1 est divisible par un seul entier naturel : 1.
+
+02:07.803 --> 02:16.673
+Donc, malgré les apparences,
+1 n'est pas un nombre premier.
+
+02:16.673 --> 02:20.504
+Continuons avec 2.
+
+02:20.504 --> 02:28.102
+2 est divisible par 1 et par 2, et par aucun autre entier naturel.
+
+02:28.102 --> 02:30.906
+Il a l'air de remplir nos conditions.
+
+02:30.906 --> 02:33.948
+Il est divisible par exactement deux entiers naturels.
+
+02:33.948 --> 02:42.238
+Lui-même et 1. Donc le nombre 2 est premier.
+
+02:42.238 --> 02:52.849
+Je vais entourer les nombres qui sont premiers.
+
+02:52.849 --> 02:55.334
+Le chiffre 2 est intéressant parce que
+
+02:55.334 --> 02:57.818
+c'est le seul nombre pair qui est premier.
+
+02:57.818 --> 03:00.396
+Si vous y réfléchissez, tous les autres nombres pairs
+
+03:00.396 --> 03:03.620
+sont aussi divisibles par 2, et ne sont donc pas premiers.
+
+03:03.620 --> 03:06.688
+Nous y reviendrons dans d'autres vidéos.
+
+03:06.688 --> 03:13.144
+Essayons avec 3. 3 est certainement divisible par 1 et par 3
+
+03:13.144 --> 03:15.651
+et il n'est pas divisible par un autre chiffre entre ces deux-là :
+
+03:15.651 --> 03:20.272
+il n'est pas divisible par 2.
+Donc, 3 est un nombre premier.
+
+03:20.272 --> 03:25.264
+Essayons 4.
+
+03:25.264 --> 03:29.676
+4 est tout à fait divisible par 1 et par 4
+
+03:29.676 --> 03:36.224
+mais il est aussi divisible par 2.
+Donc, 4 est divisible
+
+03:36.224 --> 03:40.311
+par trois entiers naturels : 1 ; 2 et 4.
+
+03:40.311 --> 03:44.723
+Donc il ne remplit pas les conditions pour être premier.
+
+03:44.723 --> 03:48.252
+Essayons 5.
+
+03:48.252 --> 03:51.015
+5 est divisible par 1.
+
+03:51.015 --> 03:57.842
+Il n'est pas divisible par 2 ; 3 ou 4 -
+
+03:57.842 --> 04:01.209
+on peut diviser 5 par 4, mais on obtient un reste.
+
+04:01.209 --> 04:05.133
+Et il est divisible par 5, évidemment.
+
+04:05.133 --> 04:10.265
+Donc, 5 est divisible par exactement deux entiers naturels :
+1 et 5.
+
+04:10.265 --> 04:14.235
+Donc, 5 est un nombre premier.
+Continuons,
+
+04:14.235 --> 04:17.393
+pour voir si nous pouvons trouver un modèle
+
+04:17.393 --> 04:19.924
+et ensuite, j'essaierai avec un nombre difficile,
+
+04:19.924 --> 04:26.031
+sur lequel on se trompe souvent.
+Continuons donc avec 6.
+
+04:26.031 --> 04:34.622
+Il est divisible par 1 ; 2 ; 3 et 6.
+
+04:34.622 --> 04:37.595
+Donc, il a quatre nombres naturels "facteurs",
+
+04:37.595 --> 04:40.033
+je pense qu'on peut le dire de cette façon.
+
+04:40.033 --> 04:43.005
+Il n'est pas uniquement divisible par deux nombres,
+
+04:43.005 --> 04:46.743
+mais par quatre, donc il n'est pas premier.
+
+04:46.743 --> 04:49.715
+Passons à 7.
+
+04:49.715 --> 04:55.869
+7 est divisible par 1 ; mais pas par 2 ; 3 ; 4 ; 5 ou 6.
+
+04:55.869 --> 05:00.791
+Il est par contre divisible par 7.
+
+05:00.791 --> 05:03.624
+Donc, 7 est un nombre premier.
+Je pense que vous avez saisi l'idée générale.
+
+05:03.624 --> 05:06.689
+On considère les entiers naturels,
+des chiffres comme 1 ; 2 ; 3 ; 4 ; 5 ;
+
+05:06.689 --> 05:09.383
+ceux qu'on apprend à deux ans,
+
+05:09.383 --> 05:11.681
+sans compter le 0, sans compter les nombres négatifs,
+
+05:11.681 --> 05:13.980
+sans compter les fractions, ni les nombres irrationnels,
+
+05:13.980 --> 05:15.768
+les nombres décimaux et tous les autres,
+
+05:15.768 --> 05:18.578
+uniquement les entiers positifs que l'on compte.
+
+05:18.578 --> 05:21.318
+Si un nombre n'est divisible que par deux d'entre eux,
+
+05:21.318 --> 05:23.733
+s'il n'est divisible que par lui-même et par 1,
+
+05:23.733 --> 05:25.544
+c'est un nombre entier.
+
+05:25.544 --> 05:27.192
+D'une autre manière,
+
+05:27.192 --> 05:29.607
+si on oublie le cas particulier qu'est le 1,
+
+05:29.607 --> 05:31.604
+les nombres premiers sont
+les blocs de construction des nombres :
+
+05:31.604 --> 05:33.299
+on ne peut pas les casser en blocs plus petits.
+
+05:33.299 --> 05:34.809
+Presque comme des atomes.
+
+05:34.809 --> 05:36.285
+Si vous réfléchissez à ce qu'est un atome,
+
+05:36.285 --> 05:38.111
+ou à ce que les gens pensaient
+lorsqu'ils ont inventé le concept d'atomes...
+
+05:38.111 --> 05:39.991
+ils pensaient que les atomes étaient ces choses
+
+05:39.991 --> 05:41.890
+indivisibles.
+
+05:41.890 --> 05:43.986
+Nous savons maintenant que nous pouvons
+casser les atomes,
+
+05:43.986 --> 05:46.475
+ce qui peut donner une explosion nucléaire.
+
+05:46.475 --> 05:49.655
+Mais c'est la même idée derrière les nombres premiers :
+
+05:49.655 --> 05:52.618
+on ne peut pas les décomposer
+
+05:52.618 --> 05:57.402
+en produits de nombres naturels plus petits.
+
+05:57.402 --> 06:01.256
+Pour 6, on sait que 6 = 3 x 2,
+
+06:01.256 --> 06:03.717
+on peut le décomposer,
+
+06:03.717 --> 06:06.411
+en produit de deux nombre premiers.
+
+06:06.411 --> 06:08.872
+En quelque sorte, nous l'avons mis en pièces.
+
+06:08.872 --> 06:11.217
+7 ne peut plus être décomposé.
+
+06:11.217 --> 06:14.817
+Tout ce qu'on peut dire c'est que 7 = 1 x 7.
+
+06:14.817 --> 06:16.930
+Et, dans ce cas, on ne l'a pas vraiment décomposé.
+
+06:16.930 --> 06:19.066
+Le 7 est toujours là.
+
+06:19.066 --> 06:20.877
+On peut décomposer 6.
+
+06:20.877 --> 06:23.965
+4 se décompose en 2 x 2.
+
+06:23.965 --> 06:25.800
+Maintenant que nous avons vu cela,
+
+06:25.800 --> 06:27.425
+passons à des nombres plus grands,
+
+06:27.425 --> 06:30.072
+et voyons si ce sont des nombres premiers.
+
+06:30.072 --> 06:34.902
+Essayons avec 16.
+
+06:34.902 --> 06:38.872
+De toute évidence, tous les entiers naturels
+sont divisibles par 1 et par eux-mêmes.
+
+06:38.872 --> 06:42.262
+Donc, 16 est divisible par 1 et 16.
+
+06:42.262 --> 06:44.143
+On va voir s'il est divisible par 2.
+
+06:44.143 --> 06:46.071
+Si on trouve un autre nombre pour le décomposer,
+
+06:46.071 --> 06:48.207
+c'est qu'il n'est pas premier.
+
+06:48.207 --> 06:51.109
+16 = 2 x 8.
+
+06:51.109 --> 06:53.362
+16 = 4 x 4.
+
+06:53.362 --> 06:55.451
+Il a beaucoup de facteurs,
+
+06:55.451 --> 06:57.588
+en plus de 1 et 16.
+
+06:57.588 --> 07:02.278
+Donc,16 n'est pas un nombre premier.
+Et 17 ?
+
+07:02.278 --> 07:06.411
+1 et 17 peuvent diviser 17,
+
+07:06.411 --> 07:10.846
+mais pas 2, ni 3, ni 4... ni 11, ni rien jusqu'à 16.
+
+07:10.846 --> 07:14.701
+Aucun de ces nombres. Rien, entre 1 et 17.
+
+07:14.701 --> 07:21.086
+Pas d'autre facteurs, donc 17 est un nombre premier.
+
+07:21.086 --> 07:23.803
+Et maintenant, un cas difficile.
+
+07:23.803 --> 07:26.822
+Presque tout le monde se trompe.
+
+07:26.822 --> 07:34.345
+Qu'en est-il de 51 ? Est-ce que 51 est nombre premier ?
+
+07:34.345 --> 07:37.480
+Si vous voulez,
+vous pouvez mettre la vidéo en pause,
+
+07:37.480 --> 07:39.500
+et essayer de découvrir par vous-même
+
+07:39.500 --> 07:41.520
+si 51 est un nombre premier.
+
+07:41.520 --> 07:45.142
+Si vous trouvez un nombre autre que 1 et 51
+
+07:45.142 --> 07:48.161
+par lequel 51 est divisible.
+
+07:48.161 --> 07:50.042
+Ce nombre est bizarre.
+
+07:50.042 --> 07:52.340
+On dirait que c'est un nombre premier,
+
+07:52.340 --> 07:54.268
+mais je vais vous donner la solution :
+
+07:54.268 --> 07:59.933
+il n'est pas premier car il est également divisible par 3 et 17.
+
+07:59.933 --> 08:02.998
+3 x 17 = 51.
+
+08:02.998 --> 08:04.779
+J'espère que cette vidéo vous a éclairé
+
+08:04.779 --> 08:06.388
+sur ce que sont les nombres premiers.
+
+08:06.388 --> 08:09.407
+Nous allons vous proposer de vous entraîner
+
+08:09.407 --> 3:59:59.999
+dans d'autres vidéos et dans nos exercices.

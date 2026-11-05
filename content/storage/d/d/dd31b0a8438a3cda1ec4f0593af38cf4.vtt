@@ -1,0 +1,115 @@
+WEBVTT
+
+00:00.500 --> 00:04.270
+V tomto videu budeme
+mluvit o derivaci součinu,
+
+00:04.270 --> 00:08.880
+což je jedna ze základních
+metod při určování derivace.
+
+00:08.880 --> 00:12.500
+V tomto videu to nebudeme dokazovat,
+ale naučíme se to používat.
+
+00:12.500 --> 00:15.560
+Pravidlo nám říká,
+že pokud máme funkci,
+
+00:15.560 --> 00:18.870
+kterou lze vyjádřit jako
+součin dvou funkcí,
+
+00:18.870 --> 00:22.620
+řekněme například f(x) krát g(x),
+
+00:22.620 --> 00:29.130
+a my chceme derivaci této funkce,
+tak se bude rovnat:
+
+00:29.130 --> 00:44.570
+(f´(x) krát g(x)) plus (f(x) krát g´(x))
+
+00:44.570 --> 00:46.120
+Takže tu máme dva členy.
+
+00:46.120 --> 00:50.220
+V každém z nich vezmeme derivaci
+jedné funkce a ne-derivaci té druhé.
+
+00:50.220 --> 00:58.130
+(f´(x) krát g(x)) plus (f(x) krát g´(x)).
+
+00:58.130 --> 01:05.710
+Teď se přesuňme k použití
+této metody na skutečné funkci.
+
+01:05.710 --> 01:12.227
+Např. x^2 krát cos(x).
+
+01:12.227 --> 01:15.340
+Nebo ještě lépe:
+udělejme x^2 krát sin(x).
+
+01:15.340 --> 01:23.250
+Šlo by oboje.
+A zajímá nás derivace tohoto.
+
+01:23.250 --> 01:28.440
+Můžeme okamžitě
+rozpoznat, že je to součin,
+
+01:28.440 --> 01:30.880
+že to jde vyjádřit jako
+součin dvou funkcí.
+
+01:30.880 --> 01:34.840
+Položíme f(x) rovno x^2.
+
+01:34.840 --> 01:37.840
+Takže tady máme f(x).
+
+01:37.840 --> 01:45.075
+A položíme g(x) rovno sin(x).
+A máme to.
+
+01:45.075 --> 01:48.054
+A máme to.
+Máme naše f(x) krát g(x).
+
+01:48.054 --> 01:51.550
+Teď můžeme určit
+jednotlivé derivace.
+
+01:51.550 --> 01:55.660
+Derivace f(x) je rovná 2x
+podle pravidla o derivaci polynomů.
+
+01:55.660 --> 02:00.750
+A derivace g(x) je derivace sin(x).
+
+02:00.750 --> 02:03.655
+To jsme se naučili, když jsme
+mluvili o základních derivacích.
+
+02:03.655 --> 02:06.740
+Derivace sin(x) je cos(x).
+
+02:06.740 --> 02:09.250
+Takže teď můžeme použít
+pravidlo o derivaci součinu.
+
+02:09.250 --> 02:13.260
+Tohle se rovná f´(x) krát g(x).
+
+02:13.260 --> 02:22.120
+Takže f´(x) , derivace f(x), je 2x,
+krát g(x), což je sin(x).
+
+02:22.120 --> 02:34.910
+Plus funkce f(x), což je x^2,
+krát derivace g(x), což je cos(x).
+
+02:34.910 --> 02:39.020
+A je to. Právě jsme použili
+pravidlo o derivaci součinu.

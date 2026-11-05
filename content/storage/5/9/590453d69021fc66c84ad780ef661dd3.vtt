@@ -1,0 +1,313 @@
+WEBVTT
+
+00:00.700 --> 00:07.306
+Už víme, že se derivace podle x
+z funkce tangens v bodě x
+
+00:07.306 --> 00:11.863
+rovná sekans na
+druhou v bodě x,
+
+00:11.863 --> 00:18.057
+což je samozřejmě to stejné jako
+1 lomeno kosinus na druhou v bodě x.
+
+00:18.057 --> 00:21.695
+V tomto videu, podobně jako
+v posledních několika videích,
+
+00:21.695 --> 00:25.663
+spočítáme derivaci inverzní funkce
+k funkci tangens v bodě x,
+
+00:25.663 --> 00:34.218
+neboli spočítáme, kolik je derivace podle
+x z funkce inverzní tangens v bodě x.
+
+00:34.218 --> 00:38.591
+Doporučuji vám zastavit si video
+a vyzkoušet způsob velmi podobný tomu,
+
+00:38.591 --> 00:43.746
+který jsme používali v minulých
+dvou videích, abyste tohle spočítali.
+
+00:43.750 --> 00:47.183
+Položme y jako
+inverzní tangens v bodě x.
+
+00:47.183 --> 00:52.780
+y se rovná inverzní
+tangens v bodě x.
+
+00:52.780 --> 01:03.040
+To je totéž jako říct,
+že tan(y) se rovná x.
+
+01:03.040 --> 01:08.114
+Můžete si to představit tak, že jsem
+na obě strany použil funkci tangens.
+
+01:08.114 --> 01:16.830
+Nyní můžeme obě strany
+zderivovat podle x.
+
+01:16.830 --> 01:20.050
+Na levé straně použijeme
+pravidlo pro derivaci složené funkce.
+
+01:20.050 --> 01:26.390
+Derivace tan(y) podle y je
+sekans na druhou v bodě y,
+
+01:26.390 --> 01:32.360
+což je totéž jako 1 lomeno
+kosinus na druhou v bodě y.
+
+01:32.360 --> 01:33.460
+Raději to
+píši takto.
+
+01:33.460 --> 01:37.450
+Alespoň pro můj mozek je to
+o něco jednodušší.
+
+01:37.450 --> 01:41.403
+Když použijeme vzorec pro derivaci složené
+funkce, tak to je derivace tan(y) podle y
+
+01:41.403 --> 01:50.161
+krát derivace y
+podle x.
+
+01:50.161 --> 01:56.677
+Na pravé straně je
+derivace x podle x, což se rovná 1.
+
+01:56.677 --> 02:01.441
+Nyní chceme osamostatnit
+derivaci y podle x,
+
+02:01.441 --> 02:05.697
+takže obě strany vynásobíme
+kosinem na druhou v bodě y.
+
+02:05.697 --> 02:14.486
+Vyjde nám, že derivace y podle x
+se rovná kosinus na druhou v bodě y.
+
+02:14.486 --> 02:17.541
+Už v předchozích videích jsme viděli,
+že tohle nám ještě nestačí,
+
+02:17.541 --> 02:22.983
+protože derivaci y podle x
+máme vyjádřenou jako funkci y.
+
+02:22.983 --> 02:26.345
+My ji ale chceme
+napsat jako funkci x.
+
+02:26.345 --> 02:30.878
+Abychom toho dosáhli, musíme
+tohle vyjádřit pomocí tan(y).
+
+02:30.878 --> 02:32.684
+tan(y) se nám
+bude hodit proto,
+
+02:32.684 --> 02:37.330
+protože už víme,
+že tan(y) se rovná x,
+
+02:37.330 --> 02:41.500
+takže když tohle pomocí goniometrických
+vzorečků nějak přepíšeme na výraz,
+
+02:41.500 --> 02:45.927
+který obsahuje tan(y), můžeme
+všude místo tan(y) napsat x.
+
+02:45.927 --> 02:47.845
+Tak to pojďme zkusit.
+
+02:47.845 --> 02:48.885
+Vypadá to obtížně.
+
+02:48.885 --> 02:53.882
+Abychom dostali tan(y), tak bychom tu
+rádi měli sinus dělený kosinem,
+
+02:53.882 --> 02:55.490
+taková je definice
+funkce tangens.
+
+02:55.490 --> 02:58.540
+Tady je ale jen kosinus
+na druhou v bodě y.
+
+02:58.540 --> 03:06.177
+Tohle bude trošku složitější než naše dva
+předchozí příklady, které jsme udělali.
+
+03:06.177 --> 03:09.110
+Můžeme to třeba
+vydělit 1.
+
+03:09.110 --> 03:11.240
+Dělení 1 ničemu
+neuškodí.
+
+03:11.240 --> 03:16.900
+Můžeme říct, že toto se rovná
+kosinus na druhou v bodě y...
+
+03:16.900 --> 03:22.876
+Tohle dělám proto, abych to mohl
+vyjádřit jako nějaký racionální výraz,
+
+03:22.876 --> 03:27.519
+který by nakonec obsahoval
+sinus dělený kosinem, tedy tangens.
+
+03:27.519 --> 03:29.360
+Vydělme to
+tedy 1.
+
+03:29.360 --> 03:33.016
+Identita známá jako goniometrická
+jednička nám však říká,
+
+03:33.016 --> 03:38.676
+že 1 se rovná sinus na druhou v bodě y
+plus kosinus na druhou v bodě y.
+
+03:38.676 --> 03:39.556
+Tak to napišme.
+
+03:39.556 --> 03:45.383
+Sem tedy můžeme napsat kosinus na druhou
+v bodě y plus sinus na druhou v bodě y.
+
+03:45.383 --> 03:47.994
+Ještě jednou, proč jsem to
+mohl vydělit tímto výrazem?
+
+03:47.994 --> 03:50.624
+Podle goniometrické
+jedničky,
+
+03:50.624 --> 03:53.859
+jež plyne z definice goniometrických
+funkcí na jednotkové kružnici,
+
+03:53.859 --> 03:57.970
+se tohle rovná 1, takže jsme nezměnili
+hodnotu našeho výrazu.
+
+03:57.970 --> 04:02.411
+Teď už to bude zajímavější, protože když
+tu chci mít sinus dělený kosinem,
+
+04:02.411 --> 04:07.166
+tak čitatel i jmenovatel můžu
+vydělit kosinem na druhou.
+
+04:07.166 --> 04:08.506
+Pojďme to udělat.
+
+04:08.506 --> 04:11.314
+Vynásobme to
+1 lomeno kosinus...
+
+04:11.314 --> 04:14.473
+Čitatel vydělme kosinem
+na druhou v bodě y
+
+04:14.473 --> 04:17.483
+a také jmenovatel vydělme
+kosinem na druhou v bodě y,
+
+04:17.483 --> 04:21.510
+neboli oboje vynásobíme výrazem
+1 lomeno kosinus na druhou v bodě y.
+
+04:21.510 --> 04:22.990
+Co nám vyjde?
+
+04:22.990 --> 04:27.780
+V čitateli se nám tohle pokrátí
+a zbyde nám pouze 1.
+
+04:27.780 --> 04:31.910
+Ve jmenovateli se
+toto krát tohle rovná 1
+
+04:31.910 --> 04:42.596
+a pak tam máme sinus na druhou v bodě y
+lomeno kosinus na druhou v bodě y,
+
+04:42.596 --> 04:45.455
+což je to, čeho jsme se
+celou dobu snažili dosáhnout.
+
+04:45.455 --> 04:48.700
+Nyní tu máme sinus na druhou
+dělený kosinem na druhou.
+
+04:48.700 --> 04:51.230
+Tohle je
+totéž jako...
+
+04:51.230 --> 04:55.230
+Raději to
+napíšu takto.
+
+04:55.240 --> 05:05.947
+...tohle je totéž jako
+sin(y) lomeno cos(y), to celé na druhou,
+
+05:05.947 --> 05:14.890
+což je to samé co 1 lomeno
+(1 plus tan(y) na druhou).
+
+05:14.890 --> 05:17.220
+Tenhle výraz se
+rovná tomuhle.
+
+05:17.220 --> 05:18.450
+K čemu je
+to užitečné?
+
+05:18.450 --> 05:21.520
+Víme, že x se
+rovná tan(y),
+
+05:21.520 --> 05:30.792
+takže tohle se rovná
+1 lomeno (1 plus...
+
+05:30.792 --> 05:33.162
+tan(y) se rovná x.
+
+05:33.172 --> 05:37.405
+...x na druhou),
+
+05:37.405 --> 05:42.905
+což je poměrně vzrušující, protože jsme
+právě spočítali derivaci y podle x.
+
+05:42.905 --> 05:47.520
+Derivace tohoto podle x je tedy
+1 lomeno (1 plus x na druhou).
+
+05:47.520 --> 05:49.480
+Můžeme to napsat
+sem nahoru.
+
+05:49.480 --> 05:56.724
+Toto se rovná 1 lomeno
+(1 plus x na druhou).
+
+05:56.724 --> 06:01.671
+A máme hotovo.

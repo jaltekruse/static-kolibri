@@ -1,0 +1,345 @@
+WEBVTT
+
+00:00.250 --> 00:02.719
+Podívejme se, jestli lze použít
+integraci per partes
+
+00:02.719 --> 00:09.271
+k vyřešení integrálu eˣcos(x) dx.
+
+00:09.271 --> 00:11.220
+Kdykoli mluvíme o integraci per partes,
+
+00:11.220 --> 00:14.680
+ptáme se, která z funkcí,
+jejichž součin tady máme,
+
+00:14.700 --> 00:19.325
+která z těchto funkcí, eˣ nebo kosinus x,
+se po zderivování zjednoduší.
+
+00:19.335 --> 00:21.730
+V tomto případě se
+nezjednoduší ani jedna.
+
+00:21.730 --> 00:26.230
+A ani jedna nebude o moc komplikovanější,
+když ji zintegrujeme.
+
+00:26.240 --> 00:31.150
+Tady to tedy bude jedno,
+kterou přiřadím k f(x) a kterou k g'(x).
+
+00:31.170 --> 00:33.920
+Tento příklad jde ve skutečnosti
+vyřešit oběma způsoby.
+
+00:33.930 --> 00:39.130
+Takže to přiřadíme takto.
+Řekněme, že f(x) bude rovno eˣ.
+
+00:39.140 --> 00:44.460
+A g'(x) bude rovno kosinu x.
+Zapíšu to.
+
+00:44.480 --> 00:52.090
+Říkáme, že f(x) je rovno eˣ
+nebo také f'(x) je rovno eˣ.
+
+00:52.110 --> 00:54.610
+Derivace eˣ je zase eˣ.
+
+00:54.630 --> 01:00.300
+A můžeme říct, že přiřazujeme
+g'(x) rovno kosinu x.
+
+01:00.320 --> 01:06.000
+A integrál tohoto, g(x),
+je roven integrálu kosinu x,
+
+01:06.010 --> 01:10.630
+což se bude rovnat sinus x.
+
+01:10.640 --> 01:13.030
+Teď tedy použijme integraci per partes.
+
+01:13.050 --> 01:25.000
+Toto bude rovno f(x) krát g(x),
+což je eˣ krát sinus x,
+
+01:25.010 --> 01:32.690
+minus integrál f'(x),
+což je eˣ,
+
+01:32.700 --> 01:42.940
+krát g(x), což je opět sinus x.
+Sinus x dx.
+
+01:42.960 --> 01:45.350
+Teď to nevypadá,
+že bychom se někam posunuli,
+
+01:45.370 --> 01:48.390
+dostali jsme neurčitý integrál
+obsahující sinus x.
+
+01:48.400 --> 01:52.480
+Podívejme se, jestli to umíme
+nějak vyřešit, toto zvlášť.
+
+01:52.490 --> 01:59.470
+Takže se snažíme najít
+integrál eˣsin(x) dx.
+
+01:59.490 --> 02:01.070
+Jak to uděláme?
+
+02:01.070 --> 02:05.580
+Podobně jako předtím
+můžeme přiřadit f(x) rovno eˣ.
+
+02:05.580 --> 02:10.070
+A teď děláme nové přiřazení,
+ačkoli je úplně stejné jako to předchozí.
+
+02:10.090 --> 02:13.140
+Takže f(x) je rovno eˣ.
+
+02:13.160 --> 02:17.550
+f'(x) je rovno derivaci tohoto,
+což je zase eˣ.
+
+02:17.560 --> 02:22.490
+A pak bude g(x)
+v tomto případě rovno sinus x.
+
+02:22.500 --> 02:25.600
+Toto přiřazení teď
+na chvilku pustíme z hlavy.
+
+02:25.610 --> 02:30.320
+A pak…
+Ať si to ujasníme, g'(x),
+
+02:30.330 --> 02:39.840
+ups, no vida,
+g'(x) se rovná sinus x,
+
+02:39.860 --> 02:44.840
+což znamená,
+že jeho integrál je -kosinus x.
+
+02:44.850 --> 02:49.160
+Derivace kosinu je -sinus,
+derivace -kosinu je +sinus.
+
+02:49.170 --> 02:52.710
+Takže použijme opět
+integraci per partes.
+
+02:52.720 --> 02:56.520
+Máme f(x) krát g(x).
+
+02:56.520 --> 03:01.610
+f(x) krát g(x) je minus…
+Dám to znaménko minus dopředu.
+
+03:01.620 --> 03:14.450
+-eˣ krát kosinus x
+minus integrál f'(x)g(x).
+
+03:14.460 --> 03:21.750
+f'(x) je eˣ.
+A g(x) je -kosinus x.
+
+03:21.760 --> 03:23.822
+Takže napíšu ten kosinus x sem
+
+03:23.832 --> 03:27.230
+a ten zápor můžeme
+přesunout před znak integrálu.
+
+03:27.230 --> 03:31.890
+Odečítáme tedy záporné,
+takže dostaneme kladné.
+
+03:31.900 --> 03:36.140
+A samozřejmě tady máme naše dx.
+
+03:36.160 --> 03:38.660
+Možná si říkáte, Sale,
+nikam jsme se neposunuli.
+
+03:38.670 --> 03:44.060
+Toto jsme teď vyjádřili pomocí integrálu,
+který jsme měli původně.
+
+03:44.080 --> 03:48.750
+Jsme zpátky na začátku.
+Zkusme ale něco zajímavého.
+
+03:48.770 --> 03:55.780
+Dosaďme toto zpátky…
+Napíšu to jinak.
+
+03:55.790 --> 04:02.690
+Dosaďme toto sem.
+
+04:02.690 --> 04:04.610
+Nebo to napíšu ještě jinak.
+
+04:04.610 --> 04:13.480
+Dosaďme toto za toto
+v naší původní rovnici.
+
+04:13.490 --> 04:15.870
+A podívejme se,
+jestli dostaneme něco zajímavého.
+
+04:15.890 --> 04:19.629
+Dostaneme náš původní integrál
+na levé straně tady.
+
+04:19.639 --> 04:35.817
+Neurčitý integrál eˣcos(x) dx
+je roven eˣsin(x)
+
+04:35.817 --> 04:39.017
+minus celé toto.
+
+04:39.027 --> 04:43.060
+Odečteme tedy toto všechno.
+Odečítáme toto celé.
+
+04:43.070 --> 04:47.400
+Když odečítáme -eˣcos(x),
+bude to kladné.
+
+04:47.410 --> 04:54.170
+Bude to +eˣcos(x).
+
+04:54.180 --> 04:56.400
+A pak pamatujte,
+že odčítáme toto všechno.
+
+04:56.410 --> 04:58.360
+Takže pak budeme odčítat.
+
+04:58.370 --> 05:13.910
+Takže pak máme
+minus integrál eˣcos(x) dx.
+
+05:13.920 --> 05:18.160
+A to je zajímavé.
+Jen jsme vzali tuto část,
+
+05:18.170 --> 05:21.368
+použili jsme integraci per partes
+a dostali jsme toto.
+
+05:21.368 --> 05:23.310
+Tak jsme to dosadili zpátky.
+
+05:23.320 --> 05:29.180
+Když jsme to odečetli, toto od tohoto,
+dostali jsme toto dole.
+
+05:29.190 --> 05:32.610
+Zajímavé je,
+že teď vlastně máme rovnici,
+
+05:32.620 --> 05:35.239
+která obsahuje
+náš původní výraz dvakrát.
+
+05:35.239 --> 05:38.784
+Můžeme to dokonce přiřadit nějaké proměnné
+a pak tuto proměnnou spočítat.
+
+05:38.794 --> 05:43.020
+Co kdybychom tedy přičetli tento výraz
+k oběma stranám rovnice?
+
+05:43.025 --> 05:51.490
+Vysvětlím to. Přičtěme
+integrál eˣcos(x) dx k oběma stranám.
+
+05:51.490 --> 05:55.550
+eˣcos(x) dx.
+A co dostaneme?
+
+05:55.559 --> 06:02.660
+Na levé straně máme dvakrát
+náš původní integrál eˣcos(x) dx,
+
+06:02.660 --> 06:05.430
+který je roven tomuto celému.
+
+06:05.440 --> 06:09.135
+Je roven tomuto.
+Zkopíruju to a vložím.
+
+06:09.135 --> 06:11.740
+Kopírovat a vložit.
+
+06:11.750 --> 06:15.630
+Je to rovno celému tomuto.
+
+06:15.630 --> 06:20.120
+A pak tato část,
+která se navzájem vyruší.
+
+06:20.130 --> 06:26.220
+A teď můžeme vyřešit náš původní výraz,
+integrál eˣcos(x) dx.
+
+06:26.240 --> 06:31.350
+Musíme jen vydělit obě strany
+této rovnice dvěma.
+
+06:31.370 --> 06:36.270
+Když tedy vydělíme levou stranu 2,
+dostaneme náš původní výraz.
+
+06:36.280 --> 06:39.090
+Integrál eˣcos(x) dx.
+
+06:39.100 --> 06:42.690
+A na pravé straně máme to,
+čemu to bude rovno.
+
+06:42.690 --> 06:47.122
+eˣsin(x) plus eˣcos(x) lomeno 2.
+
+06:47.132 --> 06:48.550
+A teď musíme dát pozor,
+
+06:48.550 --> 06:51.420
+protože toto je jeden z integrálů
+našeho původního výrazu,
+
+06:51.440 --> 06:52.920
+ale není jediný.
+
+06:52.930 --> 06:56.760
+Musíme si vždy pamatovat,
+že ačkoli jsme tvrdě pracovali
+
+06:56.770 --> 07:01.000
+a použili jsme per partes dvakrát
+a pak jsme ještě zpátky dosadili,
+
+07:01.010 --> 07:05.230
+stále musíme myslet na to,
+že by tady měla být konstanta.
+
+07:05.240 --> 07:09.430
+Takže když toto zderivujeme,
+nezávisle na hodnotě konstanty,
+
+07:09.440 --> 07:12.670
+dostaneme eˣcos(x).
+
+07:12.680 --> 07:15.421
+A dostali jsme vlastně
+docela hezký výraz.

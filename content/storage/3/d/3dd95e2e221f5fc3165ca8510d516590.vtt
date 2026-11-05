@@ -1,0 +1,200 @@
+WEBVTT
+
+00:00.260 --> 00:02.628
+Derek hat einen Kettenbrief an seine Freunde gesendet,
+
+00:02.628 --> 00:05.321
+in dem er bittet, diesen an weitere Freunde zu senden.
+
+00:05.321 --> 00:07.500
+Die Gruppe von Leuten, die die Email empfängt,
+
+00:07.500 --> 00:10.660
+nimmt alle 3 Wochen um 9/10 ihrer Größe zu,
+
+00:10.662 --> 00:12.867
+und wird von einer Funktion P dargestellt,
+
+00:12.867 --> 00:16.280
+die von der Zeit t (in Wochen) abhängig ist.
+
+00:16.280 --> 00:19.241
+Derek hat den Kettenbrief
+anfangs 40 Freunden geschickt.
+
+00:19.241 --> 00:21.539
+Erstelle eine Funktion,
+die die Gruppe von Leuten darstellt,
+
+00:21.540 --> 00:26.800
+die die Email t Wochen nach dem Zeitpunkt erhält,
+an dem Derek den Kettenbrief anfangs verschickt hat.
+
+00:26.800 --> 00:29.758
+Pausiere das Video und versuche, die Aufgabe zu lösen.
+
+00:29.760 --> 00:42.040
+Ich erstelle jetzt eine Tabelle mit den Werten t
+und unserer Funktion P, die eine Funktion von t ist.
+
+00:42.040 --> 00:45.420
+Wir nehmen zuerst Werte aus dem Beschreibungstext.
+
+00:45.420 --> 00:48.440
+Wenn t = 0 ist, wenn also 0 Wochen vergangen sind,
+
+00:48.442 --> 00:50.659
+seit Derek den Kettenbrief verschickt hat,
+
+00:50.660 --> 00:52.460
+wie viele Leute haben ihn dann bekommen?
+
+00:52.460 --> 00:57.420
+Derek hat den Kettenbrief
+ursprünglich an 40 Freunde geschickt.
+
+00:57.420 --> 01:01.720
+Wir haben also t = 0 und P(0) = 40.
+
+01:01.720 --> 01:04.486
+Was wäre jetzt ein interessanter Zeitpunkt?
+
+01:04.486 --> 01:13.700
+Hier steht, dass die Anzahl der Leute, die die
+Email erhalten, sich alle 3 Wochen um 9/10 erhöht.
+
+01:13.700 --> 01:17.520
+Wir schauen uns also an, was passiert,
+wenn 3 Wochen vergangen sind.
+
+01:17.520 --> 01:20.140
+Wir haben also t = 3.
+
+01:20.146 --> 01:22.004
+Welchen Wert hat P(t)?
+
+01:22.004 --> 01:25.320
+Wir wissen, dass er um 9/10 seiner Größe wächst.
+
+01:25.320 --> 01:33.240
+Wir haben also 40 + 9/10 ⋅ 40.
+
+01:33.240 --> 01:35.500
+Was ergibt das?
+
+01:35.500 --> 01:39.020
+Wir klammern die 40 aus,
+
+01:39.020 --> 01:51.240
+und erhalten 40(1 + 9/10) bzw. 40 ⋅ 1,9.
+
+01:51.240 --> 01:54.700
+Anders gesagt: Nach 3 Wochen
+haben wir ein Wachstum um 90%.
+
+01:54.700 --> 01:57.620
+Das ist eine andere Formulierung dafür, dass die
+Anzahl der Leute, die die Email erhalten haben,
+
+01:57.620 --> 01:59.568
+um 9/10 ihrer Größe angewachsen ist.
+
+01:59.568 --> 02:06.440
+Wir können sagen, dass die Gruppe der Leute, die die Email erhalten haben, alle 3 Wochen um 90% anwächst.
+
+02:06.440 --> 02:08.500
+Wenn weitere 3 Wochen vergehen,
+
+02:08.500 --> 02:09.940
+ich also nochmal 3 Wochen addiere,
+
+02:09.940 --> 02:12.380
+dann habe ich 6 Wochen.
+
+02:12.380 --> 02:14.739
+Wie viele Leute haben dann die Email bekommen?
+
+02:14.739 --> 02:16.097
+Wir hatten diese Zahl.
+
+02:16.097 --> 02:18.651
+Jetzt haben wir wieder ein Wachstum um 90%.
+
+02:18.651 --> 02:21.240
+Also multiplizieren wir wieder mit 1,9.
+
+02:21.240 --> 02:26.060
+Also rechnen wir 40 ⋅ 1,9 ⋅ 1,9.
+
+02:26.060 --> 02:28.260
+Wir wachsen nochmal um 9/10.
+
+02:28.260 --> 02:33.120
+Ein Wachstum um 9/10 ist dasselbe
+wie mit 1 und 9/10 zu multiplizieren.
+
+02:33.120 --> 02:36.560
+Die 1 ist das, was wir bereits haben.
+Und dann wachsen wir um weitere 9/10 an.
+
+02:36.560 --> 02:41.960
+Das ist also dasselbe wie 40 ⋅ 1,9².
+
+02:41.960 --> 02:45.720
+Weitere 3 Wochen vergehen, wir haben also 9 Wochen.
+
+02:45.720 --> 02:47.680
+Wir wachsen nochmal um 90% an.
+
+02:47.680 --> 02:51.840
+Wir nehmen also diese Zahl und
+multiplizieren sie nochmal mit 1,9,
+
+02:51.840 --> 02:55.851
+also haben wir 1,9³.
+
+02:55.851 --> 02:58.056
+Was passiert also hier drüben?
+
+02:58.056 --> 02:59.751
+Wir haben eine Exponentialfunktion.
+
+02:59.751 --> 03:01.318
+Wir haben unseren ursprünglichen Wert,
+
+03:01.318 --> 03:03.849
+und alle 3 Wochen multiplizieren wir mit 1,9.
+
+03:03.849 --> 03:06.260
+1,9 wäre also unsere Basis.
+
+03:06.260 --> 03:14.460
+Wir könnten also sagen, dass P(t) =
+40 (Anfangswert) ⋅ 1,9 (Basis) ist.
+
+03:14.460 --> 03:18.500
+Und wir multiplizieren alle 3 Wochen mit 1,9.
+
+03:18.500 --> 03:22.240
+Wir fragen uns also, wie viele
+3-Wochen-Perioden seitdem vergangen sind.
+
+03:22.240 --> 03:25.180
+Wir nehmen t und dividieren es durch 3.
+
+03:25.180 --> 03:30.180
+t/3 ist die Anzahl der
+3-Wochen-Perioden, die vergangen sind.
+
+03:30.180 --> 03:35.940
+Wenn t = 0 ist, dann haben wir 1,9^0,
+was 1 ergibt, und rechnen 40 ⋅ 1.
+
+03:35.940 --> 03:40.640
+Bei t = 3, haben wir 1,9^1, da wir 3/3 rechnen.
+
+03:40.640 --> 03:43.940
+Also haben wir jedes Mal ein Wachstum um 90%.
+
+03:43.943 --> 03:46.376
+Wir sind fertig.

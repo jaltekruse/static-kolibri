@@ -1,0 +1,276 @@
+WEBVTT
+
+00:00.000 --> 00:03.169
+Udělejme si pár dalších příkladů
+na hledání limit funkcí,
+
+00:03.169 --> 00:06.629
+když se "x" blíží k nekonečnu
+nebo minus nekonečnu.
+
+00:06.670 --> 00:08.770
+Máme tady tuhle šílenou funkci,
+
+00:08.770 --> 00:16.861
+[funkce]
+
+00:16.861 --> 00:20.790
+Takže co se stane,
+když se "x" blíží k nekonečnu?
+
+00:20.861 --> 00:23.251
+Klíčem k řešení,
+jak jsme viděli v ostatních případech,
+
+00:23.251 --> 00:26.421
+je rozeznat,
+který člen bude dominovat.
+
+00:26.421 --> 00:31.911
+Například, v čitateli 9 krát x^7
+bude růst mnohem rychleji
+
+00:31.983 --> 00:38.422
+než kterýkoli z těchto ostatních členů,
+jde tedy o dominantní člen v čitateli.
+
+00:38.422 --> 00:43.277
+Ve jmenovateli 3 krát x^7
+bude růst mnohem rychleji než x^5,
+
+00:43.354 --> 00:47.071
+a rozhodně mnohem rychleji
+než logaritmus o základu 2.
+
+00:47.174 --> 00:49.914
+V nekonečnu,
+když se dostáváme blíž a blíž k nekonečnu,
+
+00:49.914 --> 00:57.618
+bude tato funkce zhruba stejná jako
+(9 krát x^7) lomeno (3 krát x^7)
+
+00:57.618 --> 00:59.057
+a my můžeme říct,
+
+00:59.082 --> 01:01.289
+...obzvláště potom kdy je funkce
+větší a větší,
+
+01:01.292 --> 01:03.420
+když se dostáváme
+blíž a blíž k nekonečnu
+
+01:03.420 --> 01:06.368
+a tyto dvě věci se dostávají
+blíže a blíže k sobě...
+
+01:06.378 --> 01:10.641
+můžeme říct, že tato limita bude
+stejná jako tato limita,
+
+01:10.671 --> 01:15.330
+která se bude rovnat
+limitě, kdy se "x" blíží k nekonečnu.
+
+01:15.372 --> 01:17.501
+Teď můžeme zkrátit x^7,
+
+01:17.501 --> 01:22.161
+takže to bude 9 lomeno 3,
+což se rovná 3
+
+01:22.251 --> 01:24.913
+Toto je tedy limita,
+kdy se "x" blíží k nekonečnu,
+
+01:24.913 --> 01:26.701
+celého tohohle blázince.
+
+01:26.701 --> 01:28.512
+Pojďme udělat
+to samé s druhou funkcí.
+
+01:28.512 --> 01:31.453
+Další šílená funkce,
+jdeme do minus nekonečna,
+
+01:31.503 --> 01:33.083
+ale používáme stejný postup.
+
+01:33.083 --> 01:36.413
+Který člen dominuje,
+když absolutní hodnota "x"
+
+01:36.413 --> 01:38.414
+roste a roste a roste?
+
+01:38.414 --> 01:40.417
+Tedy když "x" bude větší co do velikosti.
+
+01:40.417 --> 01:43.743
+V čitateli je to člen 3 krát x^3,
+
+01:43.743 --> 01:46.870
+ve jmenovateli je to 6 krát x^4.
+
+01:46.870 --> 01:53.240
+Takže to bude stejné jako
+limita (3 krát x^3) lomeno (6 krát x^4),
+
+01:53.240 --> 01:55.665
+kdy se "x" blíží k minus nekonečnu.
+
+01:55.665 --> 01:58.374
+A když to zjednodušíme,
+bude to stejné jako limita,
+
+01:58.374 --> 02:05.444
+kdy se "x" blíží k minus
+nekonečnu, z 1 lomeno 2 krát x
+
+02:05.507 --> 02:07.506
+A jak to bude tady?
+
+02:07.506 --> 02:12.317
+Protože je jmenovatel stále větší
+a větší záporné číslo,
+
+02:12.376 --> 02:16.627
+dostaneme 1 lomeno
+tímto číslem,
+
+02:16.627 --> 02:19.007
+což nás dostane
+zatraceně blízko k nule.
+
+02:19.007 --> 02:23.407
+I pouhé 1 lomeno x
+se rychle blíží k nule.
+
+02:23.478 --> 02:28.847
+Horizontální asymptota v tomto případě
+má předpis y se rovná 0.
+
+02:28.897 --> 02:32.638
+Radím vám abyste si to nakreslili,
+nebo si to zkusili ověřit sami.
+
+02:32.718 --> 02:36.988
+Klíčem k řešení je zjednodušit
+problém pouhým přemýšlením o tom,
+
+02:37.079 --> 02:41.909
+který člen bude
+dominovat nad ostatními.
+
+02:41.929 --> 02:43.450
+Nyní pojďme přemýšlet o tomhle.
+
+02:43.450 --> 02:45.171
+Jaká je limita této šílené funkce,
+
+02:45.171 --> 02:47.501
+když se "x" blíží k nekonečnu?
+
+02:47.501 --> 02:49.851
+Takže znovu, jaké jsou dominantní členy?
+
+02:49.851 --> 02:51.250
+V čitateli je to 4 krát x^4,
+
+02:51.250 --> 02:54.501
+ve jmenovateli je to 250 krát x^3.
+
+02:54.501 --> 02:56.351
+To jsou tedy členy nejvyššího stupně.
+
+02:56.351 --> 03:00.250
+Bude to tedy stejné jako
+limita pro "x" blížící se k nekonečnu
+
+03:00.300 --> 03:09.052
+z (4 krát x^4) lomeno (250 krát x^3).
+
+03:09.052 --> 03:18.462
+Což bude po zkrácení stejné jako...
+...4 a 250 nemají společného dělitele...
+
+03:18.504 --> 03:20.104
+Nechám to takhle.
+
+03:20.104 --> 03:23.054
+Bude to limita 4 lomeno 250
+
+03:23.054 --> 03:26.850
+x^4 děleno x^3 je "x".
+
+03:26.880 --> 03:31.713
+Bude to tedy limita pro "x" jdoucí
+k nekonečnu z 4 lomeno 250 krát x.
+
+03:31.713 --> 03:40.014
+Respektive zlomek 4 lomeno 250
+můžeme vytknout před závorku.
+
+03:40.044 --> 03:41.056
+A co teď s tímhle?
+
+03:41.056 --> 03:43.655
+Jaká je limita x, když se "x"
+blíží k nekonečnu?
+
+03:43.655 --> 03:47.875
+Toto teď bude dál růst do nekonečna.
+
+03:47.915 --> 03:51.555
+A nekonečno krát nějaké číslo
+je stále nekonečno.
+
+03:51.577 --> 03:54.368
+Takže limita tohohle celého,
+když se "x" blíží k nekonečnu,
+
+03:54.368 --> 03:56.376
+je vlastně nekonečná.
+
+03:56.376 --> 03:57.707
+Je to nekonečno.
+
+03:57.707 --> 04:00.377
+Jeden způsob,
+jak na to přijít,
+
+04:00.377 --> 04:04.768
+je uvědomit si, že čitatel
+má člen čtvrtého stupně,
+
+04:04.768 --> 04:07.879
+zatímco nejvyšší stupeň ve jmenovateli
+je jen stupeň třetí.
+
+04:07.918 --> 04:11.707
+Takže čitatel bude růst daleko rychleji
+než jmenovatel.
+
+04:11.707 --> 04:15.658
+A když čitatel roste mnohem rychleji
+než jmenovatel,
+
+04:15.669 --> 04:18.969
+budete se v tomto případě
+blížit k nekonečnu.
+
+04:18.969 --> 04:23.896
+Pokud by čitatel rostl mnohem pomaleji
+než jmenovatel,
+
+04:23.946 --> 04:27.217
+pokud by jmenovatel rostl mnohem rychleji
+než čitatel, jako jsme to měli tady,
+
+04:27.237 --> 04:29.837
+budete se blížit k nule.
+
+04:29.837 --> 04:32.387
+Doufám, že Vám to bylo trochu užitečné.

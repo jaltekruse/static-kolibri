@@ -1,0 +1,554 @@
+WEBVTT
+
+00:00.091 --> 00:02.052
+- What I'd like to do in
+this video is start exploring
+
+00:02.052 --> 00:04.665
+how we can model things with
+the differential equations.
+
+00:04.665 --> 00:06.202
+And in this video in particular,
+
+00:06.202 --> 00:10.395
+we will explore modeling population.
+
+00:11.038 --> 00:12.305
+Modeling population.
+
+00:12.647 --> 00:14.181
+We're actually going to
+go into some depth on
+
+00:14.181 --> 00:16.035
+this eventually, but here we're going
+
+00:16.035 --> 00:17.540
+to start with simpler models.
+
+00:17.054 --> 00:19.573
+And we'll see, we will stumble on using
+
+00:20.059 --> 00:22.385
+the logic of differential equations.
+
+00:22.385 --> 00:23.420
+Things that you might have seen
+
+00:23.735 --> 00:26.581
+in your algebra or your precalculus class.
+
+00:26.581 --> 00:28.938
+So, in some level, what
+we're going to do here
+
+00:28.938 --> 00:32.139
+is going to be review, but
+we're going to get there
+
+00:32.139 --> 00:36.183
+using the power of modeling
+with differential equations.
+
+00:36.552 --> 00:38.598
+So let's just define some variables.
+
+00:38.598 --> 00:43.598
+Let's say that P is
+equal to our population.
+
+00:44.662 --> 00:49.662
+And let's say that t
+is, let's say that t is
+
+00:49.923 --> 00:54.199
+equal to the time that has passed in days.
+
+00:54.199 --> 00:57.176
+In days, it could have
+been years or months.
+
+00:57.176 --> 00:59.577
+But let's say we're
+doing the population of
+
+00:59.577 --> 01:01.399
+insects that reproduce quite quickly.
+
+01:01.399 --> 01:06.399
+So days seem like a nice
+time span to care about.
+
+01:06.979 --> 01:08.882
+Now, what would be a reasonable model?
+
+01:09.606 --> 01:12.551
+Well, we could say that
+the rate of change,
+
+01:12.998 --> 01:16.511
+the rate of change of our
+population, with respect to time,
+
+01:17.173 --> 01:21.637
+with respect to time is, well,
+a reasonable thing to say
+
+01:21.637 --> 01:23.279
+is that it's going to be proportional
+
+01:23.279 --> 01:26.673
+to the actual population,
+the actual population.
+
+01:26.673 --> 01:28.165
+Why is that reasonable?
+
+01:28.165 --> 01:30.616
+Well, the larger the population,
+
+01:30.616 --> 01:32.488
+the larger the rate at any given time.
+
+01:32.488 --> 01:34.040
+If you have a thousand people, the rate
+
+01:34.004 --> 01:36.257
+at which they're reproducing
+is going to be more,
+
+01:36.293 --> 01:38.794
+or a thousand insects is
+going to be more insects
+
+01:38.794 --> 01:41.396
+per second, per day or per year
+
+01:41.396 --> 01:43.633
+than if you only have 10 insects.
+
+01:43.633 --> 01:45.652
+So it makes sense that the rate of growth
+
+01:45.823 --> 01:47.748
+of your population, with respect to time,
+
+01:47.748 --> 01:51.450
+is going to be proportional
+to your population.
+
+01:51.045 --> 01:52.671
+And so, you know, sometimes you think of
+
+01:53.076 --> 01:55.567
+differential equations as
+these daunting complex things,
+
+01:55.567 --> 01:57.278
+but notice we've just been able to express
+
+01:57.278 --> 02:01.680
+a reasonably not so complicated idea.
+
+02:01.068 --> 02:02.493
+The rate of change of population is going
+
+02:03.105 --> 02:05.682
+to be proportional to the population.
+
+02:05.682 --> 02:07.904
+And now, once we've expressed
+that, we can actually
+
+02:07.904 --> 02:10.059
+try to solve this differential equation.
+
+02:10.059 --> 02:12.185
+Find a general solution, and
+then we can try to put some
+
+02:12.185 --> 02:16.271
+initial conditions on there or
+some states of the population
+
+02:16.271 --> 02:19.038
+that we know to actually
+solve for the constants
+
+02:19.038 --> 02:22.289
+to find a particular solution.
+
+02:22.289 --> 02:23.366
+So how do we do that?
+
+02:23.366 --> 02:25.140
+And I encourage you to
+pause the video at any time
+
+02:25.014 --> 02:27.392
+and see if you can solve
+this differential equation.
+
+02:28.457 --> 02:31.393
+So assuming you, at least,
+maybe have had an attempt at it,
+
+02:31.793 --> 02:33.436
+and you might immediately recognize that
+
+02:33.436 --> 02:35.870
+this is a separable differential equation.
+
+02:35.087 --> 02:36.863
+And in separable differential equations,
+
+02:37.646 --> 02:39.722
+we want one variable and
+all the differentials
+
+02:39.722 --> 02:42.523
+involving that variable on one
+side, and the other variable
+
+02:42.523 --> 02:43.474
+and all the differentials involving
+
+02:43.474 --> 02:45.575
+the other variable on the other side,
+
+02:45.575 --> 02:47.801
+and then we can integrate both sides.
+
+02:47.801 --> 02:52.801
+And once again, dP, the
+derivative of P with respect to t,
+
+02:53.278 --> 02:54.915
+this isn't quite a fraction.
+
+02:54.915 --> 02:59.181
+This is the limit as our change
+in P over change in time.
+
+02:59.181 --> 03:02.407
+This is our instantaneous
+change, but for the sake of
+
+03:02.407 --> 03:04.408
+separable differential equations
+
+03:04.408 --> 03:06.734
+or differential equations
+in general, you can treat,
+
+03:06.734 --> 03:10.361
+you can treat these, this
+derivative in Leibniz notations
+
+03:10.361 --> 03:13.137
+like fractions, and you can
+treat these differentials
+
+03:13.137 --> 03:16.514
+like quantities because we
+will eventually integrate them.
+
+03:16.514 --> 03:17.549
+So let's do that.
+
+03:17.864 --> 03:20.491
+So, we want to put all
+the Ps and dPs on one side
+
+03:20.491 --> 03:23.267
+and all the, all the things that involve t
+
+03:23.267 --> 03:27.319
+or that I guess don't
+involve P on the other side.
+
+03:27.319 --> 03:30.616
+So, we could divide both sides by P.
+
+03:30.616 --> 03:33.071
+We could divide both sides
+by P, and so we'll have
+
+03:33.071 --> 03:37.123
+one over P, and you have one over P
+
+03:37.123 --> 03:39.424
+here and then those will cancel,
+
+03:39.424 --> 03:43.201
+and then you can multiply
+both sides times dt.
+
+03:43.201 --> 03:45.202
+We could multiply both sides times dt.
+
+03:45.202 --> 03:48.078
+Once again, treating the
+differential like a quantity
+
+03:48.078 --> 03:50.354
+which isn't, it really isn't a quantity.
+
+03:50.354 --> 03:53.005
+You really have to view this as a limit of
+
+03:54.127 --> 03:56.190
+change in P over change in time.
+
+03:56.757 --> 03:59.658
+The limit as we get smaller and smaller
+
+03:59.658 --> 04:01.984
+and smaller changes in time.
+
+04:01.984 --> 04:03.810
+But for, once again, for the sake of this
+
+04:03.081 --> 04:05.482
+we can do this, and when we do that
+
+04:06.098 --> 04:11.098
+we would be left with one over P dP
+
+04:13.813 --> 04:17.375
+is equal to, is equal to
+
+04:17.682 --> 04:22.391
+k dt, is equal to k dt.
+
+04:22.391 --> 04:26.395
+Now we can integrate,
+integrate both sides.
+
+04:26.395 --> 04:29.258
+Because this was a separable
+differential equation,
+
+04:29.258 --> 04:31.823
+we were able to completely
+separate the Ps and dPs from
+
+04:31.823 --> 04:33.424
+the things involving ts or, I guess,
+
+04:33.424 --> 04:36.250
+the things that aren't
+involving Ps, and then
+
+04:36.025 --> 04:39.376
+if we integrate this side,
+we would get the natural log,
+
+04:39.601 --> 04:43.703
+the natural log of the absolute
+value of our population,
+
+04:43.703 --> 04:46.229
+and we could say plus
+some constant if we want
+
+04:46.229 --> 04:48.205
+but we're going to get a
+constant on this side as well
+
+04:48.205 --> 04:51.682
+so we could just say that's
+going to be equal to,
+
+04:51.682 --> 04:55.434
+that's going to be equal to
+k, it's going to be equal to
+
+04:55.434 --> 05:00.434
+k times t, k times t plus some constant.
+
+05:01.106 --> 05:03.104
+Plus some constant.
+
+05:03.104 --> 05:05.763
+I'll just call that C one, and once again
+
+05:05.763 --> 05:08.085
+I could've put a plus C
+two here, but I could've
+
+05:08.085 --> 05:10.470
+then subtracted the
+constant from both sides
+
+05:10.047 --> 05:12.734
+and I would just get the
+constant on the right hand side.
+
+05:13.742 --> 05:16.668
+Now, how can I solve for P?
+
+05:16.668 --> 05:18.944
+Well, the natural log of
+the absolute value of P
+
+05:18.944 --> 05:21.776
+is equal to this thing right over here.
+
+05:21.776 --> 05:24.172
+That means that's the same thing.
+
+05:24.172 --> 05:26.523
+That means that the absolute value of P,
+
+05:26.523 --> 05:28.198
+that means that the absolute value of P
+
+05:28.198 --> 05:32.300
+is equal to e to all this business,
+
+05:32.003 --> 05:36.855
+e to the, e to the, let
+me do in the same colors,
+
+05:37.152 --> 05:42.152
+kt, kt plus,
+
+05:43.609 --> 05:47.441
+plus C one, plus C one.
+
+05:47.441 --> 05:50.134
+Now this right over
+here is the same thing.
+
+05:50.134 --> 05:52.330
+Just using our exponent
+properties, this is the same thing
+
+05:52.033 --> 05:55.161
+as e to the kt,
+
+05:56.304 --> 05:59.218
+e to the k times t
+
+05:59.218 --> 06:03.457
+times e, times e to the C one,
+
+06:04.364 --> 06:06.157
+e to the C one.
+
+06:06.088 --> 06:07.590
+Now this is just e to some constant,
+
+06:08.382 --> 06:09.398
+so we could just call this,
+
+06:09.542 --> 06:12.043
+let's just call that the constant C.
+
+06:12.043 --> 06:16.008
+So this is all simplified to C e,
+
+06:16.716 --> 06:20.338
+C e to the kt,
+
+06:21.275 --> 06:24.190
+to the kt.
+
+06:24.559 --> 06:27.275
+And if we assume our
+population at any given time
+
+06:27.275 --> 06:30.638
+is positive then we could get rid of
+
+06:30.638 --> 06:34.153
+this absolute value sign, and
+we have a general solution
+
+06:34.153 --> 06:37.180
+to this, frankly, fairly
+general differential equation.
+
+06:37.018 --> 06:37.793
+We just said proportional.
+
+06:37.955 --> 06:40.381
+We haven't given what the
+proportionality constant is,
+
+06:40.381 --> 06:42.857
+but we could say, if we
+assume, positive population
+
+06:43.318 --> 06:46.809
+that the population is
+going to be equal to
+
+06:46.809 --> 06:51.809
+some constant C times e to the kt power.
+
+06:52.787 --> 06:55.638
+To the kt power, and the
+reason why I said that
+
+06:55.638 --> 06:57.394
+you've seen this before is this
+
+06:57.394 --> 07:00.938
+is just an exponential function,
+and it's very likely that
+
+07:00.938 --> 07:04.192
+in algebra or in precalculus class
+
+07:04.056 --> 07:06.414
+you have modeled things
+with exponential functions,
+
+07:06.918 --> 07:08.694
+and my guess is that
+you've modeled things,
+
+07:09.754 --> 07:12.371
+modeled things like population.
+
+07:12.371 --> 07:14.067
+The reason why this is interesting is
+
+07:14.067 --> 07:15.150
+you now see where this is coming from.
+
+07:15.897 --> 07:17.923
+The underlying logic that's just driven
+
+07:17.923 --> 07:20.574
+by the actual differential equation.
+
+07:20.574 --> 07:22.850
+The rate of change, with respect
+to time, of the population.
+
+07:23.526 --> 07:26.602
+Well, maybe it's just
+proportional to population.
+
+07:26.602 --> 07:28.403
+So I'll leave you there,
+and in the next video
+
+07:28.403 --> 07:31.354
+we'll do what you probably
+did in the 10th or 11th grade
+
+07:31.354 --> 07:33.141
+or maybe later in your
+life, it doesn't matter when
+
+07:33.141 --> 07:35.506
+you did it, where we actually look at some
+
+07:35.506 --> 07:39.158
+initial conditions to find
+a particular solution.

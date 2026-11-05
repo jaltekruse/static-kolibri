@@ -1,0 +1,422 @@
+WEBVTT
+
+00:00.375 --> 00:01.769
+Máme tady tuto tabulku,
+
+00:01.769 --> 00:03.240
+ve které pro každé zadané 'n'…
+
+00:03.240 --> 00:06.482
+Když n je 1, f pro n je 12,
+když n je 2, f pro n je 5
+
+00:06.482 --> 00:08.812
+a když n je 3, f pro n je −2,
+
+00:08.822 --> 00:11.516
+když n je 4, f pro n je −9.
+
+00:11.536 --> 00:12.681
+Můžeme to brát tak,
+
+00:12.681 --> 00:15.685
+že tato funkce f definuje posloupnost,
+
+00:15.685 --> 00:20.152
+kde první člen je 12.
+
+00:20.152 --> 00:23.422
+Druhý člen posloupnosti je 5.
+
+00:23.422 --> 00:26.579
+Třetí člen této posloupnosti je −2.
+
+00:26.579 --> 00:29.307
+Čtvrtý člen této posloupnosti je −9.
+
+00:29.307 --> 00:31.354
+A tak to jde dál a dál.
+
+00:31.354 --> 00:34.364
+A můžete si všimnout,
+že je to aritmetická posloupnost.
+
+00:34.364 --> 00:36.821
+Začínáme s 12 a další člen…
+
+00:36.821 --> 00:39.452
+Co jsme udělali? Odečetli jsme 7.
+
+00:39.542 --> 00:41.710
+Teď půjdeme z druhého členu na třetí…
+
+00:41.710 --> 00:43.915
+Co uděláme? Odečteme 7.
+
+00:43.915 --> 00:47.585
+Každý člen je o 7 menší,
+než ten předchozí.
+
+00:47.715 --> 00:50.436
+Když jsme si tohle ujasnili, podívejme se,
+
+00:50.436 --> 00:55.618
+jestli dokážeme definovat funkci 'n'.
+Jestli ji umíme explicitně definovat.
+
+00:55.728 --> 00:58.288
+Zkusíme zapsat definici funkce.
+
+00:58.538 --> 01:00.907
+Chci přijít na to,
+čemu se rovná funkce f pro n.
+
+01:00.907 --> 01:03.183
+Chci, abyste přišli na to, jak to má být,
+
+01:03.183 --> 01:05.248
+abyste při dosazení 'n' zde, dostali
+
+01:05.248 --> 01:07.328
+správnou hodnotu f pro 'n'.
+
+01:08.738 --> 01:10.195
+Tak se na to podívejme.
+
+01:10.195 --> 01:12.819
+Bude to…
+Můžeme uvažovat, že začínáme na…
+
+01:12.819 --> 01:15.295
+První člen bude 12.
+
+01:16.115 --> 01:21.965
+Ale potom budeme odečítat 7.
+
+01:22.676 --> 01:24.051
+A od čeho budeme odčítat 7?
+
+01:24.051 --> 01:25.517
+Kolikrát budeme odečítat 7?
+
+01:25.517 --> 01:28.708
+Pro první člen odečteme 7 nulakrát.
+
+01:28.708 --> 01:30.465
+A tak dostaneme zase 12.
+
+01:30.465 --> 01:33.666
+Pro druhý člen odečteme 7 jednou.
+
+01:33.666 --> 01:38.235
+Pro třetí člen odečteme 7 dvakrát.
+Jednou, dvakrát.
+
+01:38.345 --> 01:41.967
+Pro čtvrtý člen odečteme 7 třikrát.
+
+01:41.967 --> 01:44.373
+Takže to vypadá, že pro jakýkoli člen
+
+01:44.373 --> 01:48.365
+odečteme 7 'n minus 1' krát.
+
+01:48.365 --> 01:50.433
+U jakéhokoli členu odečteme 7
+
+01:50.433 --> 01:52.680
+(pořadí toho členu minus 1) krát.
+
+01:52.680 --> 01:55.509
+Takže n minus 1 krát.
+
+01:55.509 --> 01:57.768
+A podívejme se, jestli to opravdu platí.
+
+01:57.768 --> 02:00.905
+Takže f pro 1 bude 12 minus 7 krát
+
+02:00.905 --> 02:02.861
+1 minus 1, což je 0.
+
+02:02.861 --> 02:04.835
+Takže to bude 12.
+
+02:04.835 --> 02:07.626
+F pro 2 bude 12 minus 7
+
+02:07.626 --> 02:09.407
+krát 2 minus 1.
+
+02:09.407 --> 02:12.906
+Takže to bude 12 minus 7 krát 1.
+
+02:12.906 --> 02:14.892
+Odečteme 7 pouze jednou,
+
+02:14.892 --> 02:15.906
+což přesně sedí.
+
+02:15.906 --> 02:18.625
+Začali jsme na 12, odečetli jsme jednou 7.
+
+02:18.625 --> 02:21.171
+F pro 3, můžete pokračovat s ověřováním.
+
+02:21.171 --> 02:24.450
+12 minus… Měli bychom odečíst 7 dvakrát.
+
+02:24.450 --> 02:27.201
+A vidíme, že 3 minus 1, je 2.
+
+02:27.201 --> 02:29.760
+Takže odečteme 7 dvakrát.
+
+02:29.760 --> 02:31.679
+To vypadá správně.
+
+02:31.679 --> 02:34.452
+Napsali jsme explicitní definici funkce.
+
+02:34.452 --> 02:37.150
+Definovali jsme 'f' pro tuto posloupnost.
+
+02:37.150 --> 02:39.170
+Udělejme další příklad.
+
+02:40.600 --> 02:46.435
+V tomto případě máme
+nějaké definice funkcí už zadány.
+
+02:46.435 --> 02:47.654
+Máme tady posloupnost,
+
+02:47.654 --> 02:50.423
+je zapsaná tady v tabulce.
+
+02:50.423 --> 02:51.592
+První člen je −100.
+
+02:51.592 --> 02:54.541
+Další člen je −50, další člen je 0,
+
+02:54.541 --> 02:56.773
+další člen je 50.
+
+02:56.773 --> 02:57.722
+A je zřejmé, že
+
+02:57.722 --> 02:59.732
+tohle je také aritmetická posloupnost.
+
+02:59.732 --> 03:04.832
+Začínáme na −100 a potom přičítáme 50.
+
+03:04.832 --> 03:07.747
+A pak přičteme 50
+
+03:07.747 --> 03:10.437
+a pak zase přičteme 50.
+
+03:10.437 --> 03:12.818
+Každý člen je o 50 větší,
+než ten předchozí.
+
+03:12.818 --> 03:14.634
+Zastavte si video
+
+03:14.634 --> 03:17.409
+a zamyslete se nad tím,
+která z následujících definic
+
+03:17.409 --> 03:18.809
+funkce f je správná.
+
+03:18.809 --> 03:21.342
+A může to být více, než jedna.
+
+03:21.862 --> 03:24.262
+Tak se na to podívejme.
+
+03:24.262 --> 03:26.212
+Tato definice tady.
+
+03:26.222 --> 03:29.952
+Můžeme říct, že začneme na −100
+
+03:29.956 --> 03:33.559
+A přičteme 50 'n minus 1' krát.
+
+03:33.559 --> 03:34.814
+Dává to smysl?
+
+03:34.844 --> 03:39.152
+Pro první člen, pokud začneme na −100,
+
+03:39.152 --> 03:40.640
+nepřičítáme vůbec nic.
+
+03:40.640 --> 03:42.884
+Přičítáme 50 nulakrát. To sedí,
+
+03:42.884 --> 03:46.465
+Protože 1 minus 1 je 0.
+
+03:46.465 --> 03:48.364
+Pro n rovno 1 to sedí.
+
+03:48.364 --> 03:50.755
+A co n rovno 2. Začneme na −100,
+
+03:50.755 --> 03:56.454
+přičteme jednou 50.
+
+03:56.464 --> 03:57.854
+Tohle má být 1.
+
+03:57.854 --> 04:00.550
+2 minus 1, ano, je to 1.
+
+04:00.550 --> 04:02.504
+Přičítáme 50. Pro jakékoli číslo,
+
+04:02.504 --> 04:04.106
+pro jakékoli 'n', přičteme 50
+
+04:04.106 --> 04:08.140
+o 1 méně krát, než je to číslo.
+
+04:08.140 --> 04:10.039
+Takže tady přičteme 50 dvakrát.
+
+04:10.039 --> 04:13.072
+Když 'n' je 4, přičteme 50 třikrát.
+
+04:13.072 --> 04:15.233
+A tady to taky sedí.
+
+04:15.233 --> 04:17.179
+Když je n rovno 4, přičteme 50
+
+04:17.179 --> 04:19.458
+4 minus 1 krát, třikrát.
+
+04:19.458 --> 04:23.014
+−100 plus 50 krát 3.
+
+04:23.014 --> 04:24.655
+Přičítáme 50 třikrát,
+
+04:24.655 --> 04:27.550
+přičítáme jednou, dvakrát, třikrát.
+
+04:27.550 --> 04:30.633
+To vychází 50. Tato definice bude správná.
+
+04:30.633 --> 04:32.638
+Podívejme se na druhou definici.
+
+04:32.638 --> 04:35.304
+−150 plus 50n.
+
+04:35.994 --> 04:37.982
+To je jeden způsob, jak vyjádřit…
+
+04:37.982 --> 04:41.793
+Když se n rovná 1, bude to minus…
+
+04:41.793 --> 04:43.622
+Nakreslím raději tabulku.
+
+04:43.622 --> 04:47.586
+Takže máme 'n' a máme funkci 'f' pro 'n'.
+
+04:47.816 --> 04:50.316
+Tabulka je pro tento výraz.
+
+04:50.426 --> 04:55.626
+Pokud n je 1, bude to −150 plus 50.
+
+04:55.626 --> 04:59.493
+Cože je −100, ano, to sedí.
+
+04:59.493 --> 05:02.358
+Když n je 2, dostaneme
+
+05:02.358 --> 05:07.354
+−150 plus 50 krát 2, což bude…
+
+05:07.354 --> 05:10.451
+To je 100 a tady je −150,
+
+05:10.451 --> 05:12.568
+takže to bude -50.
+
+05:12.568 --> 05:15.179
+Když n je 3, a tady to platí, samozřejmě.
+
+05:15.179 --> 05:17.832
+Když n je 3, máme
+
+05:17.832 --> 05:22.539
+−150 plus 50 krát 3, což se rovná 0.
+
+05:22.539 --> 05:23.411
+To taky platí.
+
+05:23.411 --> 05:25.093
+Tato definice je platná.
+
+05:25.093 --> 05:25.930
+A můžete říct:
+
+05:25.930 --> 05:27.670
+No ale tyhle vzorce jsou odlišné.
+
+05:27.670 --> 05:29.391
+My je ale můžeme upravit,
+
+05:29.391 --> 05:33.100
+abychom viděli, že jsou vlastně stejné.
+
+05:33.100 --> 05:35.115
+Když vezmete ten první,
+
+05:35.115 --> 05:38.799
+−100 plus, roznásobíme tuhle 50.
+
+05:38.799 --> 05:44.756
+Plus 50n, plus 50n, minus 50.
+
+05:47.026 --> 05:51.246
+−100 minus 50, to je −150.
+
+05:51.246 --> 05:52.399
+A potom máme plus 50n.
+
+05:52.399 --> 05:54.535
+Takže tyto dva jsou matematicky
+
+05:54.535 --> 05:56.717
+totožné definice pro naši funkci.
+
+05:56.717 --> 05:58.018
+A co tenhle?
+
+05:58.018 --> 06:01.760
+−100 plus 50n. Je tato definice správná?
+
+06:01.760 --> 06:04.485
+Když n je 1,
+
+06:04.485 --> 06:09.374
+bude to −100 plus 50, což je −50.
+
+06:09.374 --> 06:10.324
+Tady to nesedí.
+
+06:10.324 --> 06:11.730
+Tady potřebujeme −100.
+
+06:11.730 --> 06:15.327
+Tento vzorec není správný.

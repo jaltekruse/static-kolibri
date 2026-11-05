@@ -1,0 +1,496 @@
+WEBVTT
+
+00:00.600 --> 00:03.060
+Let's see if we can
+take the antiderivative
+
+00:03.060 --> 00:09.250
+of x squared times
+e to the x dx.
+
+00:09.250 --> 00:12.490
+Now, the key is to recognize
+when you can at least attempt
+
+00:12.490 --> 00:13.839
+to use integration by parts.
+
+00:13.839 --> 00:15.380
+And it might be a
+little bit obvious,
+
+00:15.380 --> 00:18.300
+because this video is
+about integration by parts.
+
+00:18.300 --> 00:21.510
+But the clue that
+integration by parts
+
+00:21.510 --> 00:24.010
+may be applicable
+is to say, look,
+
+00:24.010 --> 00:25.890
+I've got a function
+that's the product of two
+
+00:25.890 --> 00:28.650
+other functions-- in this
+case, x squared and e to the x.
+
+00:28.650 --> 00:30.438
+And integration by
+parts can be useful is
+
+00:30.438 --> 00:32.229
+if I can take the
+derivative of one of them
+
+00:32.229 --> 00:33.130
+and it becomes simpler.
+
+00:33.130 --> 00:35.213
+And if I take the
+antiderivative of the other one,
+
+00:35.213 --> 00:36.714
+it becomes no more complicated.
+
+00:36.714 --> 00:39.130
+So in this case, if I were to
+take the antiderivative of x
+
+00:39.130 --> 00:41.450
+squared, it does become simpler.
+
+00:41.450 --> 00:42.222
+It becomes 2x.
+
+00:42.222 --> 00:44.180
+And if I take the
+antiderivative of e to the x,
+
+00:44.180 --> 00:46.530
+it doesn't become
+any more complicated.
+
+00:46.530 --> 00:49.580
+So let's assign f of x
+to be equal to x squared.
+
+00:49.580 --> 00:51.317
+And we want that one
+to be the one where
+
+00:51.317 --> 00:53.150
+if I take the derivative
+it becomes simpler.
+
+00:53.150 --> 00:55.358
+Because I'm going to have
+to take the derivative of f
+
+00:55.358 --> 00:58.140
+of x right over here in the
+integration by parts formula.
+
+00:58.140 --> 01:04.981
+And let's assign g prime of
+x to be equal to e to the x.
+
+01:04.981 --> 01:07.480
+Because later, I'm going to
+have to take its antiderivative,
+
+01:07.480 --> 01:11.500
+and the antiderivative of e to
+the x is still just e to the x.
+
+01:11.500 --> 01:13.270
+So let me write this down.
+
+01:13.270 --> 01:17.600
+So we are saying that f of x--
+I'll do it right over here--
+
+01:17.600 --> 01:23.090
+f of x is equal to x squared,
+in which case f prime of x
+
+01:23.090 --> 01:25.780
+is going to be equal to 2x.
+
+01:25.780 --> 01:28.000
+And I'm not worrying about
+the constants right now.
+
+01:28.000 --> 01:29.670
+We'll just add a
+constant at the end
+
+01:29.670 --> 01:31.295
+to make sure that
+our antiderivative is
+
+01:31.295 --> 01:33.020
+in the most general form.
+
+01:33.020 --> 01:37.590
+And then g prime of x is
+equal to e to the x, which
+
+01:37.590 --> 01:40.240
+means its
+antiderivative, g of x,
+
+01:40.240 --> 01:43.100
+is still equal to e to the x.
+
+01:43.100 --> 01:46.510
+And now we're ready to apply
+the right-hand side right over
+
+01:46.510 --> 01:47.140
+here.
+
+01:47.140 --> 01:49.100
+So all this thing
+right over here
+
+01:49.100 --> 01:53.330
+is going to be equal to f
+of x, which is x squared--
+
+01:53.330 --> 01:55.910
+and let me put it right
+underneath-- x squared times g
+
+01:55.910 --> 02:03.260
+of x, which is e
+to the x, minus.
+
+02:03.260 --> 02:05.455
+Let me do that in
+that yellow color.
+
+02:05.455 --> 02:07.200
+I want to make the
+colors match up--
+
+02:07.200 --> 02:10.590
+minus the antiderivative
+of f prime of x.
+
+02:10.590 --> 02:16.290
+Well, f prime of x is
+2x, times g of x. g of x
+
+02:16.290 --> 02:21.598
+is e to the x dx.
+
+02:25.506 --> 02:26.880
+So you might say,
+hey, Sal, we're
+
+02:26.880 --> 02:29.260
+left with another
+antiderivative,
+
+02:29.260 --> 02:31.620
+another indefinite
+integral right over here.
+
+02:31.620 --> 02:34.550
+How do we solve this one?
+
+02:34.550 --> 02:37.000
+And as you might
+guess, the key might
+
+02:37.000 --> 02:39.590
+be integration by parts again.
+
+02:39.590 --> 02:40.689
+And we're making progress.
+
+02:40.689 --> 02:42.980
+This right over here is a
+simpler expression than this.
+
+02:42.980 --> 02:45.880
+Notice we were able to reduce
+the degree of this x squared.
+
+02:45.880 --> 02:48.639
+It now is just a 2x.
+
+02:48.639 --> 02:50.680
+And what we can do to
+simplify this a little bit.
+
+02:50.680 --> 02:53.410
+Since 2 is just a
+scalar-- it's a constant,
+
+02:53.410 --> 02:56.170
+it's multiplying the
+function-- we can take that out
+
+02:56.170 --> 02:57.940
+of the integral sign.
+
+02:57.940 --> 02:59.100
+So let's take it this way.
+
+02:59.100 --> 03:01.430
+So let me rewrite it this way.
+
+03:01.430 --> 03:03.590
+We can only do that
+with a constant
+
+03:03.590 --> 03:05.070
+that's multiplying the function.
+
+03:05.070 --> 03:07.790
+So let me put the
+2 right out here.
+
+03:07.790 --> 03:09.450
+And so now what
+we're concerned about
+
+03:09.450 --> 03:11.470
+is finding the integral--
+let me write it
+
+03:11.470 --> 03:18.510
+right over here-- the
+integral of xe to the x dx.
+
+03:18.510 --> 03:21.760
+And this is another
+integration by parts problem.
+
+03:21.760 --> 03:25.780
+And so let's again apply the
+same principles of integration
+
+03:25.780 --> 03:26.280
+by parts.
+
+03:26.280 --> 03:27.654
+What, when I take
+its derivative,
+
+03:27.654 --> 03:28.690
+is going to get simpler?
+
+03:28.690 --> 03:31.148
+Well, x is going to get simpler
+when I take its derivative.
+
+03:31.148 --> 03:33.550
+So now, for the purposes
+of integration by parts,
+
+03:33.550 --> 03:37.320
+let's redefine f of x
+to be equal to just x.
+
+03:37.320 --> 03:45.660
+And then we can still have g
+prime of x equaling e to the x.
+
+03:45.660 --> 03:48.460
+And so in this case, let
+me write it all down. f
+
+03:48.460 --> 03:50.912
+of x is equal to x.
+
+03:50.912 --> 03:54.780
+f prime of x is equal to 1.
+
+03:54.780 --> 03:59.556
+g prime of x is
+equal to e to the x.
+
+03:59.556 --> 04:02.830
+g of x, just the
+antiderivative of this,
+
+04:02.830 --> 04:04.920
+is equal to e to the x.
+
+04:04.920 --> 04:07.550
+So let's apply integration
+by parts again.
+
+04:07.550 --> 04:11.310
+So this is going to be equal
+to f of x times g of x.
+
+04:11.310 --> 04:12.823
+Now f of x is x.
+
+04:15.636 --> 04:24.950
+g of x is e to the x, minus
+the antiderivative of f prime
+
+04:24.950 --> 04:28.490
+of x-- well, that's just 1--
+times g of x-- e to the x.
+
+04:28.490 --> 04:37.530
+It's just 1 times e to the x dx.
+
+04:37.530 --> 04:39.550
+And remember, all
+I'm doing right now--
+
+04:39.550 --> 04:41.100
+you might have lost
+track of things--
+
+04:41.100 --> 04:44.060
+I'm just focused on
+this antiderivative.
+
+04:44.060 --> 04:46.982
+That antiderivative is
+that antiderivative there.
+
+04:46.982 --> 04:48.440
+If we can figure
+out what it is, we
+
+04:48.440 --> 04:52.220
+can then substitute back
+into our original expression.
+
+04:52.220 --> 04:55.020
+Now, you might appreciate
+integration by parts.
+
+04:55.020 --> 04:57.370
+What does this right
+over here simplify to?
+
+04:57.370 --> 05:01.460
+What is the antiderivative
+of 1 times e to the x dx?
+
+05:01.460 --> 05:03.950
+Or what is the antiderivative
+of 1 times e to the x?
+
+05:03.950 --> 05:05.575
+Well, it's just the
+antiderivative of e
+
+05:05.575 --> 05:07.300
+to the x, which is
+just e to the x.
+
+05:07.300 --> 05:15.150
+So this simplifies
+to x times e to the x
+
+05:15.150 --> 05:17.720
+minus the antiderivative of
+e to the x, which is just
+
+05:17.720 --> 05:21.470
+e to the x, so minus e to the x.
+
+05:21.470 --> 05:25.020
+And then we can take this
+and substitute it back.
+
+05:25.020 --> 05:27.640
+This is the
+antiderivative of this.
+
+05:27.640 --> 05:29.580
+So we can substitute
+it back up here
+
+05:29.580 --> 05:32.817
+to figure out the antiderivative
+of our original expression.
+
+05:32.817 --> 05:34.900
+So the antiderivative of
+our original expression--
+
+05:34.900 --> 05:36.450
+we're getting really
+close-- is going
+
+05:36.450 --> 05:42.060
+to be equal to-- I'm going
+to use different colors so we
+
+05:42.060 --> 05:43.720
+can keep track of things.
+
+05:43.720 --> 05:46.520
+It's going to be equal
+to x squared times
+
+05:46.520 --> 05:56.400
+e to the x minus 2 times
+all of this business.
+
+05:56.400 --> 06:00.190
+So minus 2 times-- well,
+this antiderivative
+
+06:00.190 --> 06:01.360
+we just figured out is this.
+
+06:01.360 --> 06:07.140
+Minus 2 times xe to
+the x minus e to the x.
+
+06:07.140 --> 06:10.780
+And if we want, now is a
+good time to put our plus C.
+
+06:10.780 --> 06:12.870
+And of course, we
+can simplify this.
+
+06:12.870 --> 06:16.860
+This is equal to x squared.
+
+06:16.860 --> 06:18.720
+I like to keep the same colors.
+
+06:18.720 --> 06:22.440
+This is equal to x
+squared e to the x.
+
+06:22.440 --> 06:24.380
+You distribute the negative 2.
+
+06:24.380 --> 06:31.730
+You get minus 2xe to
+the x plus 2e to the x,
+
+06:31.730 --> 06:36.500
+and then finally, plus
+C. And we're done.
+
+06:36.500 --> 06:38.210
+We figured out
+the antiderivative
+
+06:38.210 --> 06:41.920
+of what looked like a kind of
+hairy-looking expression using
+
+06:41.920 --> 06:45.180
+integration by parts twice.

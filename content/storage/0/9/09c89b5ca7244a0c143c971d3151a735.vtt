@@ -1,0 +1,674 @@
+WEBVTT
+
+00:00.850 --> 00:03.590
+A királyságban mindenkit nagyon
+lenyűgözött a tehetséged,
+
+00:03.590 --> 00:05.820
+hogy segítettél a parti
+megtervezésében.
+
+00:05.820 --> 00:09.330
+Mindenkit, kivéve ezt az urat.
+
+00:09.330 --> 00:11.140
+Ez itt Arbegla.
+
+00:11.140 --> 00:13.840
+Ő a király legfőbb tanácsadója,
+
+00:13.840 --> 00:15.890
+és egyben vezető partiszervező.
+
+00:15.890 --> 00:18.010
+Úgy tűnik, kissé veszélyben
+érzi magát a tehetséged miatt,
+
+00:18.010 --> 00:20.752
+hogy megoldottad ezt az egyébként
+megoldhatatlan problémát
+
+00:20.752 --> 00:22.210
+– legalábbis az ő szemszögéből nézve,
+
+00:22.210 --> 00:23.700
+mert ő folyamatosan vagy túl sokat,
+
+00:23.700 --> 00:26.110
+vagy túl keveset rendel a dolgokból,
+például a süteményekből.
+
+00:26.110 --> 00:30.150
+Azt mondja: – Király, ez a süteményes
+feladat könnyű volt.
+
+00:30.150 --> 00:32.870
+Add fel neki a burgonyacsipszes
+problémát,
+
+00:32.870 --> 00:35.330
+mert soha nem kaptunk megfelelő
+mennyiségű burgonyacsipszet.
+
+00:35.330 --> 00:37.820
+Erre a király azt mondja:
+– Arbegla, ez jó ötlet.
+
+00:37.820 --> 00:39.520
+Megfelelő mennyiségű burgonyacsipszet
+kell beszereznünk.
+
+00:39.520 --> 00:41.850
+Szóval elmegy hozzád, és azt kérdezi:
+– Honnan találjuk ki,
+
+00:41.850 --> 00:44.528
+hogy átlagosan mennyi
+burgonyacsipszet kell rendelnünk?
+
+00:44.528 --> 00:45.660
+Amihez tudnunk kell,
+
+00:45.660 --> 00:47.910
+hogy egy férfi átlagosan
+mennyit eszik meg,
+
+00:47.910 --> 00:49.670
+és egy nő átlagosan
+mennyit eszik meg.
+
+00:49.670 --> 00:51.606
+Te azt mondod: – Jó, de mi van a gyerekekkel?
+
+00:51.606 --> 00:52.980
+A király azt mondja:
+– A mi királyságunkban
+
+00:52.980 --> 00:55.560
+a gyerekeknek megtiltjuk, hogy
+burgonyacsipszet egyenek.
+
+00:55.560 --> 00:58.400
+Te azt válaszolod: – Nos, ez így van rendjén.
+
+00:58.400 --> 01:01.070
+Mondd el nekem, mi történt
+a legutóbbi partin!
+
+01:01.070 --> 01:03.940
+Erre a király: – Talán emlékszel,
+a legutóbbi partin,
+
+01:03.940 --> 01:06.420
+sőt, a két legutóbbi partin
+500 felnőtt volt.
+
+01:06.420 --> 01:15.070
+A legutóbbi partin 200 férfi volt
+és 300 nő.
+
+01:15.070 --> 01:21.860
+Összesen 1200 zacskó burgonyacsipszet
+ettek meg.
+
+01:21.860 --> 01:23.810
+Azt kérdezed: – És mi a helyzet
+az előző partival?
+
+01:23.810 --> 01:26.140
+A király azt mondja:
+– Ott sokkal nagyon arányban voltak nők.
+
+01:26.140 --> 01:33.700
+Csak 100 férfi volt
+és 400 nő.
+
+01:33.700 --> 01:36.450
+Akkor kevesebb zacskó fogyott el,
+
+01:36.450 --> 01:42.130
+1100 csomag burgonyacsipsz fogyott el.
+
+01:42.130 --> 01:44.560
+Azt mondod: – Oké, király és Arbegla,
+
+01:44.560 --> 01:47.020
+ez elég egyszerű dolognak tűnik.
+
+01:47.020 --> 01:50.300
+Definiálok változókat,
+amelyek az ismeretleneket jelentik.
+
+01:50.300 --> 01:51.830
+Szóval nekifogsz, és azt mondod, rendben,
+
+01:51.830 --> 02:07.039
+legyen m egyenlő azon zacskók számával,
+amennyit minden egyes férfi megevett.
+
+02:07.039 --> 02:08.100
+Átlagosan gondolod,
+
+02:08.100 --> 02:10.919
+vagy lehet, hogy ebben a királyságban
+minden férfi teljesen egyforma,
+
+02:10.919 --> 02:14.410
+de inkább ez az egyes férfiak által megevett
+zacskók számának az átlaga.
+
+02:14.410 --> 02:25.620
+És legyen w egyenlő azon zacskók számával,
+amennyit minden egyes nő megevett.
+
+02:25.620 --> 02:28.960
+Tehát a változók ilyen definíciója mellett
+
+02:28.960 --> 02:31.720
+gondolkodjunk el azon,
+hogyan tudjuk kifejezni
+
+02:31.720 --> 02:33.470
+ezt az első információt,
+
+02:33.470 --> 02:36.940
+ezt a zöld információt.
+
+02:36.940 --> 02:39.210
+Gondoljunk az összes zacskónak
+a számára,
+
+02:39.210 --> 02:40.380
+amennyit a férfiak megettek.
+
+02:40.380 --> 02:44.020
+200 férfi volt
+
+02:44.020 --> 02:45.390
+– kicsit feljebb görgetem –,
+
+02:45.390 --> 02:50.750
+200 férfi volt, mindegyik m zacskót
+evett, m zacskó/férfi,
+
+02:50.750 --> 02:52.405
+tehát a férfiak ezen az első partin
+
+02:52.405 --> 02:55.150
+együttesen 200-szor m csomagot ettek meg.
+
+02:55.150 --> 02:58.640
+Ha m 10 zacskó/férfi lenne, akkor
+ez 2000 lenne,
+
+02:58.640 --> 03:02.110
+ha m 5 zacskó/férfi lenne,
+akkor ez 1000 lenne.
+
+03:02.110 --> 03:04.610
+Nem tudjuk, mennyi az m,
+de 200m-et
+
+03:04.610 --> 03:06.500
+ettek meg összesen a férfiak.
+
+03:06.500 --> 03:08.560
+Ugyanez a logika
+– a nők összesen megettek...
+
+03:08.560 --> 03:14.570
+300 nő szorozva azon zacskók számával,
+amennyit minden egyes nő megevett.
+
+03:14.570 --> 03:17.160
+Így ha összeadod, hogy mennyit
+ettek meg a férfiak és a nők összesen,
+
+03:17.160 --> 03:22.200
+akkor 1200 zacskót kapsz.
+
+03:22.200 --> 03:25.440
+Tehát ezt az információt
+így írtuk fel algebrailag,
+
+03:25.440 --> 03:28.150
+ha ezeket a változókat vezettük be.
+
+03:28.150 --> 03:30.032
+Csináljuk meg ugyanezt
+
+03:30.032 --> 03:33.020
+a megadott információnak
+ezzel a második részével is!
+
+03:33.020 --> 03:37.850
+Gondoljuk át, hogyan tudjuk ezt
+algebrailag kifejezni.
+
+03:37.850 --> 03:38.920
+Ugyanaz a logika:
+
+03:38.920 --> 03:42.070
+mennyit ettek meg összesen
+ezen a partin a férfiak?
+
+03:42.070 --> 03:45.850
+100 férfi volt, szorozva m zacskó/férfi.
+
+03:45.850 --> 03:48.710
+Feltételezzük, hogy m ugyanannyi
+a partik során,
+
+03:48.710 --> 03:52.330
+hogy a férfiak átlagosan mindig ugyanannyi
+zacskóval esznek.
+
+03:52.330 --> 03:54.820
+És mennyit ettek a nők
+a második partin?
+
+03:54.820 --> 03:56.460
+400 nő volt,
+
+03:56.460 --> 04:00.140
+és átlagosan w zacskóval ettek,
+
+04:00.140 --> 04:02.550
+tehát összesen 400w az a szám,
+
+04:02.550 --> 04:03.990
+amennyit a nők megettek.
+
+04:03.990 --> 04:05.320
+Összeadjuk ezt a kettőt,
+és megkapjuk,
+
+04:05.320 --> 04:07.150
+hogy összesen mennyit ettek
+meg a felnőttek.
+
+04:07.150 --> 04:11.680
+Tehát ez 1100 zacskó lesz.
+
+04:11.680 --> 04:13.530
+Most már úgy tűnik, nagyon hasonló
+(az előzőekhez).
+
+04:13.530 --> 04:17.190
+Van egy két egyenletből álló
+egyenletrendszer két ismeretlennel,
+
+04:17.190 --> 04:21.430
+és megpróbálod a lehető
+legjobban megoldani.
+
+04:21.430 --> 04:23.680
+De megoldás közben meglátsz
+valami érdekeset.
+
+04:23.680 --> 04:25.100
+Legutóbb nagyon könnyű volt,
+
+04:25.100 --> 04:28.950
+az 'a' azt hiszem, 500 volt itt,
+a felnőtteké,
+
+04:28.950 --> 04:30.170
+és volt egy másik 500 is.
+
+04:30.170 --> 04:31.881
+Úgy látszott, hogy nagyon könnyű
+
+04:31.881 --> 04:33.750
+kiküszöbölni az egyik változót.
+
+04:33.750 --> 04:36.070
+Itt ez egy kicsit bonyolultabbnak tűnik.
+
+04:36.070 --> 04:38.660
+Amikkel megszorozzuk
+az m-et, különbözők,
+
+04:38.660 --> 04:41.290
+és a w együtthatói is különbözők.
+
+04:41.290 --> 04:44.210
+Esetleg megváltoztathatnánk
+valamelyik egyenletet,
+
+04:44.210 --> 04:46.670
+hogy egy kicsit könnyebb legyen
+az összeadás
+
+04:46.670 --> 04:48.470
+a másik egyenlettel.
+
+04:48.470 --> 04:56.050
+Mi lenne például, ha venném
+ezt a kék egyenletet,
+
+04:56.050 --> 04:58.760
+és megszoroznám -2-vel?
+
+04:58.760 --> 05:00.020
+Mondhatnád, hogy de Sal,
+
+05:00.020 --> 05:02.340
+miért -2-vel szorozzuk meg?
+
+05:02.340 --> 05:03.960
+Nos, ha megszoroznánk -2-vel,
+
+05:03.960 --> 05:07.790
+akkor ebből a 100m-ből
+-200m lenne,
+
+05:07.790 --> 05:10.190
+és ha ez -200m lenne,
+
+05:10.190 --> 05:12.710
+akkor a +200m-mel kiejtenék
+egymást,
+
+05:12.710 --> 05:14.010
+ha összeadnánk a kettőt.
+
+05:14.010 --> 05:15.180
+Nézzük, mi történik!
+
+05:15.180 --> 05:19.920
+Szorozzuk meg ezt a kék
+egyenletet -2-vel.
+
+05:19.920 --> 05:22.220
+Megszorozzuk -2-vel.
+
+05:22.220 --> 05:23.870
+Kicsit elgörgetem balra.
+
+05:23.870 --> 05:24.456
+Tehát mi történik?
+
+05:24.456 --> 05:27.630
+Emlékszel, ha szorzunk egy egyenletet
+egy kifejezéssel,
+
+05:27.630 --> 05:29.380
+nem csinálhatjuk az egyenletnek
+csak az egyik oldalával,
+
+05:29.380 --> 05:30.699
+meg kell csinálnunk az egész egyenlettel,
+
+05:30.699 --> 05:33.060
+hogy az egyenlőség igaz maradjon.
+
+05:33.060 --> 05:38.060
+Szóval -2 szorozva 100m-mel,
+az -200m,
+
+05:38.060 --> 05:41.660
+-2 szorozva 400w-vel – ez itt pozitív,
+
+05:41.660 --> 05:44.810
+tehát -800w lesz –,
+
+05:44.810 --> 05:47.370
+és -2-ször – megcsináltuk
+a bal oldalon,
+
+05:47.370 --> 05:49.360
+de meg kell csinálni a jobb oldalon is –,
+
+05:49.360 --> 05:55.120
+-2-ször 1100 az -2200.
+
+05:55.120 --> 05:56.500
+Csak hogy érthető legyen:
+
+05:56.500 --> 05:58.060
+ez az egyenlet, amit most ide leírtam,
+
+05:58.060 --> 06:00.680
+lényegében ugyanaz az információ,
+csak átalakítottuk,
+
+06:00.680 --> 06:02.150
+csak módosítottuk ezt az egyenletet,
+
+06:02.150 --> 06:04.410
+megszoroztuk mindkét oldalát -2-vel.
+
+06:04.410 --> 06:06.672
+De ez ugyanaz a feltétel.
+
+06:06.672 --> 06:08.130
+Ez azért érdekes,
+
+06:08.130 --> 06:10.690
+mert most leírhatjuk
+ezt a sárga egyenletet.
+
+06:10.690 --> 06:13.200
+Leírom ide ezt az elsőt,
+
+06:13.200 --> 06:20.835
+200m + 300w = 1200.
+
+06:20.835 --> 06:22.960
+Az egyetlen oka annak,
+hogy -2-vel szoroztam az,
+
+06:22.960 --> 06:25.090
+hogy ha összeadnám ezt
+a két dolgot,
+
+06:25.090 --> 06:27.810
+akkor talán meg tudnék szabadulni
+ettől a változótól.
+
+06:27.810 --> 06:28.862
+Csináljuk meg!
+
+06:28.862 --> 06:30.300
+Adjuk össze a bal oldalakat,
+
+06:30.300 --> 06:31.880
+és adjuk össze a jobb oldalakat.
+
+06:31.880 --> 06:33.588
+Ezt tekinthetjük úgy,
+
+06:33.588 --> 06:35.360
+hogy kiindulunk ebből a kék egyenletből,
+
+06:35.360 --> 06:38.900
+és hozzáadjuk ezt a mennyiséget,
+a sárga egyenlet bal oldalát
+
+06:38.900 --> 06:40.770
+a kék bal oldalához,
+
+06:40.770 --> 06:42.926
+és aztán az 1200 pontosan
+ugyanaz a dolog,
+
+06:42.926 --> 06:44.340
+ezt hozzáadjuk a jobb oldalhoz.
+
+06:44.340 --> 06:46.270
+Tudjuk, hogy ez egyenlő ezzel.
+
+06:46.270 --> 06:48.290
+Tehát ezt hozzáadhatjuk
+a bal oldalhoz,
+
+06:48.290 --> 06:50.170
+ezt pedig a jobb oldalhoz.
+
+06:50.170 --> 06:51.592
+Nézzük, mi történik!
+
+06:51.592 --> 06:54.567
+Tehát a jó dolog az,
+csak azért szoroztuk meg -2-vel,
+
+06:54.567 --> 06:56.336
+mert így ez a két betű kiesik.
+
+06:56.336 --> 06:57.460
+Összeadod ezt a kettőt,
+
+06:57.460 --> 06:59.870
+és 0m-et kapsz, vagyis 0-t.
+
+06:59.870 --> 07:03.990
+Van még -800w + 300w,
+
+07:03.990 --> 07:06.881
+ez -500w.
+
+07:06.881 --> 07:08.380
+Aztán a jobb oldalon
+
+07:08.380 --> 07:11.140
+-2200 + 1200 van,
+
+07:11.140 --> 07:15.013
+tehát ez -1000.
+
+07:15.013 --> 07:16.210
+Most már elég egyszerű,
+
+07:16.210 --> 07:17.560
+egy egyenlet, egy ismeretlen,
+
+07:17.560 --> 07:19.230
+elég egyszerű egyenlet.
+
+07:19.230 --> 07:22.920
+Elosztjuk mindkét oldalt
+a w együtthatójával,
+
+07:22.920 --> 07:23.930
+amivel a w meg van szorozva.
+
+07:23.930 --> 07:26.830
+Tehát elosztjuk -500-zal a bal oldalt,
+
+07:26.830 --> 07:29.500
+elosztjuk -500-zal a jobb oldalt.
+
+07:29.500 --> 07:34.750
+Az marad, hogy
+w = 2.
+
+07:34.750 --> 07:38.440
+A nők átlagosan két csomag
+burgonyacsipszet ettek meg
+
+07:38.440 --> 07:39.270
+ezeken a partikon.
+
+07:39.270 --> 07:42.080
+Feltételezzük, hogy ez állandó
+a partik során.
+
+07:42.080 --> 07:44.280
+Gondolkodjunk el azon,
+hogyan tudnánk ezután kiszámolni,
+
+07:44.280 --> 07:48.810
+hogy a férfiak átlagosan
+hány zacskóval ettek meg.
+
+07:48.810 --> 07:49.765
+Nos, ahhoz, hogy ezt megtegyük,
+
+07:49.765 --> 07:52.400
+egyszerűen menjünk vissza
+valamelyik egyenlethez ezek közül.
+
+07:52.400 --> 07:55.850
+Az előző videókban
+az első egyenlethez mentem vissza.
+
+07:55.850 --> 07:58.200
+Megmutatom, hogy a második egyenlet
+is megfelel.
+
+07:58.200 --> 07:59.660
+Bármelyik megfelel.
+
+07:59.660 --> 08:01.765
+Tehát helyettesítsünk vissza
+a második egyenletbe.
+
+08:01.765 --> 08:04.140
+Választhatod ezt a változatot,
+vagy ezt is,
+
+08:04.140 --> 08:05.850
+én az eredetit választom.
+
+08:05.850 --> 08:10.380
+Tehát 100m – ezt próbáljuk kiszámolni –
+
+08:10.380 --> 08:14.857
+plusz 400-szor – már tudjuk,
+hogy w = 2 –,
+
+08:14.857 --> 08:21.610
+400-szor 2 egyenlő 1100.
+
+08:21.610 --> 08:28.950
+100m + 800 = 1100.
+
+08:28.950 --> 08:30.920
+Most pedig az m kiszámításához
+
+08:30.920 --> 08:36.650
+kivonhatunk mindkét oldalból 800-at.
+
+08:36.650 --> 08:43.890
+Az maradt, hogy 100m = 300.
+
+08:43.890 --> 08:49.690
+Most osszuk el mindkét oldalt 100-zal.
+
+08:49.690 --> 08:53.989
+Azt kapjuk, hogy m – az a szám,
+amennyi zacskó csipszet
+
+08:53.989 --> 08:57.940
+átlagosan megesznek a férfiak –
+egyenlő 3.
+
+08:57.940 --> 09:00.490
+Megoldottad Arbegla feladatát
+
+09:00.490 --> 09:02.370
+– amiről ő azt gondolta, hogy
+nehéz feladat –,
+
+09:02.370 --> 09:06.000
+az algebra varázslatos, titokzatos
+erejét alkalmazva.
+
+09:06.000 --> 09:09.780
+Meg tudod mondani a királynak
+a parti tervezése közben,
+
+09:09.780 --> 09:11.433
+hogy a férfiak átlagosan
+
+09:11.433 --> 09:13.960
+3 zacskó burgonyacsipszet
+fognak megenni,
+
+09:13.960 --> 09:16.180
+és a nők átlagosan
+
+09:16.180 --> 09:20.510
+2 zacskó burgonyacsipszet
+fognak megenni.

@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.000 --> 00:01.680
+Problem Nummer sechs
+
+00:01.987 --> 00:05.800
+Sei f von x gleich dem Sinus von x-quadrat plus Cosinus von x.
+
+00:05.800 --> 00:12.067
+Der Graph von y gleich dem Absolutbetrag der fünften Ableitung von f an der Stelle x ist oben gezeigt
+
+00:12.067 --> 00:15.533
+und ich habe ihn noch nicht gezeigt, damit wir hier ein bisschen Platz haben.
+
+00:15.533 --> 00:17.333
+Ich werde ihn zeigen, wenn wir ihn brauchen. Ich glaube wir müssen ihn in Teil D zeichnen.
+
+00:17.333 --> 00:19.323
+Also lasst mich zu erst Teil A hier drüben machen.
+
+00:19.338 --> 00:24.427
+Schreibe die ersten vier nichtnull Ausdrücke der Taylorreihe von Sinus von x
+
+00:24.427 --> 00:30.533
+um den Entwicklungspunkt x=0, und schreibe die ersten vier nichtnull Ausdrücke der Taylorreihe für Sinus von x-quadrat
+
+00:30.533 --> 00:32.533
+um x gleich Null. Lasst uns zu erst den ersten Teil machen.
+
+00:32.533 --> 00:36.270
+Und nur eine Erinnerung, eine Taylorreihe ist eine polynomielle Approximation
+
+00:36.270 --> 00:40.937
+einer Funktion. Als kurze Erinnerung -- wir werden das
+
+00:40.937 --> 00:44.533
+in den Videos über Taylorreihen mehr vertiefen.
+
+00:44.533 --> 00:49.200
+Aber hat man eine Funktion die so aussieht und man will diese mit einer Taylorreihe
+
+00:49.200 --> 00:54.800
+um Null approximieren, man könnte, wenn man nur einen Term der Taylorreihe hat, würde man wirklich nur,
+
+00:54.800 --> 00:59.200
+dann wäre es nur diese nur eine Konstante, so etwa. Hat man zwei Terme der Taylorreihe
+
+00:59.200 --> 01:01.867
+wäre diese eine Gerade, die so aussieht.
+
+01:01.867 --> 01:05.271
+Hat man einen drei Terme der Taylorreihe, erhielte man einen Term zweiter Ordnung.
+
+01:05.271 --> 01:09.000
+Man würde also irgendwie so anfangen zu approximieren.
+
+01:09.000 --> 01:12.000
+Wenn man den Term dritten Ordnung berücksichtigt, könnte es ungefähr so aussehen.
+
+01:12.000 --> 01:16.092
+Und je mehr Terme man berücksichtigt, desto besser wird die Approximation der Funktion
+
+01:16.092 --> 01:19.273
+und nimmt man unendlich viele Terme, so könnte die Reihe tatsächlich gegen die Funktion konvergieren.
+
+01:19.273 --> 01:23.533
+Also lasst uns erinneren. Wenn Ich eine Funktion, wenn ich f von x habe
+
+01:23.533 --> 01:26.667
+die Taylorreihe von f: Ich kann sie mit der Taylorreihe approximieren.
+
+01:26.667 --> 01:29.667
+Und wenn wir den Entwicklungspunkt bei Null haben möchten,
+
+01:29.667 --> 01:37.106
+wird die Reihe gleich f von Null plus f-Strich von Null (die Ableitung an der Stelle Null) mal x
+
+01:37.106 --> 01:42.867
+plus die zweite Ableitung an der Stelle Null mal x-quadrat geteilt durch Zwei Fakultät.
+
+01:42.867 --> 01:46.400
+(Man hätte diesen Term hier durch 1 Fakultät teilen können, was gerade 1 ist)
+
+01:46.400 --> 01:48.000
+2 Fakultät ist genau 2.
+
+01:48.000 --> 01:55.733
+Und dann plus die dritte Ableitung von f an der Stelle Null mal x hoch 3 geteilt durch 3 Fakultät
+
+01:55.733 --> 01:58.800
+plus die vierte Ableitung... Ich denke man versteht die Idee hier.
+
+01:58.800 --> 02:03.867
+Die vierte Ableitung an der Stelle Null mal x hoch vier geteilt durch 4 Fakultät
+
+02:03.867 --> 02:06.084
+und so weiter und so fort.
+
+02:06.084 --> 02:10.400
+Was die Aufgabe nun von uns will ist, die vier ersten Nichtnull Terme der
+
+02:10.400 --> 02:12.000
+Taylorreihe von Sinus von x zu finden.
+
+02:12.000 --> 02:14.467
+Und manche von euch wissen das vielleicht schon. Wir haben das
+
+02:14.467 --> 02:19.800
+in dem Video, in dem wir die Euler Identität gezeigt haben, gemacht, aber wir werden es hier nochmal machen.
+
+02:19.800 --> 02:24.867
+Wenn wir also, Ich werde das g von x nennen, weil ich
+
+02:24.867 --> 02:27.133
+f von x v hier oben schon definert habe. Sei also g von x
+
+02:27.133 --> 02:30.837
+und lasst uns eine neue Farbe hierfür nehmen, um die Monotonie ein wenig zu senken.
+
+02:30.837 --> 02:38.800
+Sei also g von x gleich Sinus von x. Dann wissen wir, dass g von 0
+
+02:38.800 --> 02:41.133
+gleich 0 ist.
+
+02:41.133 --> 02:44.667
+Und wenn wir die Ableitung betrachten, g-Strich von x wird
+
+02:44.667 --> 02:48.763
+Minus sein, nein es wird plus Cosinus von x sein.
+
+02:48.763 --> 02:54.733
+Plus Cosinus von x. g-Strich von Null ist nun also gleich Eins.
+
+02:54.733 --> 02:58.097
+Cosinus von Null ist Eins. Dann wenn man die zweite Ableitung nimmt.
+
+02:58.097 --> 03:02.091
+Die Ableitung von Cosinus von x ist Minus Sinus von x.
+
+03:02.091 --> 03:06.733
+Und die zweite Ableitung an der Stelle Null, ist wieder
+
+03:06.733 --> 03:09.000
+gleich Null. Sinus von Null ist Null.
+
+03:09.000 --> 03:14.082
+Und jetzt lasst uns die dritte Ableitung nehmen.
+
+03:14.082 --> 03:16.071
+Die dritte Ableitung unserer Funktion, g, die Ableitung von
+
+03:16.148 --> 03:19.209
+Minus Sinus von x ist Minus Cosinus von x.
+
+03:19.286 --> 03:22.600
+Und die dritte Ableitung an der Stelle Null wird
+
+03:22.600 --> 03:26.000
+gleich Minus Eins sein. Und wir machen weiter.
+
+03:26.000 --> 03:28.800
+Man kann schon raten, wo dies hinführen könnte.
+
+03:28.800 --> 03:31.133
+Aber ich werde einfach weitermachen, sicherheitshalber.
+
+03:31.133 --> 03:37.400
+Die vierte Ableitung ist wieder gleich Sinus von x
+
+03:37.400 --> 03:39.684
+wird jetzt also Sinus von x sein. Und die
+
+03:39.684 --> 03:45.067
+vierte Ableitung an der Stelle Null, weil es das gleich ist wie die Funktion selber
+
+03:45.067 --> 03:47.347
+wird wiederum Null sein.
+
+03:47.347 --> 03:51.933
+Dies wird also gleich die vierte Ableitung von g an der Stelle Null sein.
+
+03:51.933 --> 03:54.133
+Und dann können wir weitermachen. Dies wird dasselbe sein
+
+03:54.133 --> 03:56.533
+wie die fünfte Ableitung von g, wir fangen an
+
+03:56.533 --> 03:58.800
+uns zu wiederholen, wenn wir mehr und mehr Ableitungen betrachten. Dies wird also
+
+03:58.800 --> 04:01.867
+dasselbe sein wie die fünfte Ableitung an der Stelle Null.
+
+04:01.867 --> 04:07.933
+Dies wird dasselbe sein wie die sechste Ableitung an der Stelle Null.
+
+04:07.933 --> 04:13.423
+Und dies wird dasselbe sein -- das ist ein Gleichhaltszeichen hier
+
+04:13.423 --> 04:15.400
+gleich Eins. Und dies wird dasselbe sein wie die siebte Ableitung
+
+04:15.400 --> 04:19.200
+an der Stelle Null. Wir wollen also die vier ersten
+
+04:19.200 --> 04:22.800
+Nichtnull Terme haben. Lasst uns das einfach durchgehen.
+
+04:22.800 --> 04:27.200
+Also zu erst ist f von Null -- ich werd dies in einer neuen Farbe machen
+
+04:27.200 --> 04:29.351
+wenn wir g von x approximieren wollen,
+
+04:29.351 --> 04:31.733
+wenn wir Sinus von x approximieren wollen,
+
+04:31.733 --> 04:33.933
+können wir sagen, dass Sinus von x ist ungefähr gleich
+
+04:33.933 --> 04:36.867
+der erste Ausdruck hier
+
+04:36.867 --> 04:38.268
+ist Sinus von 0, das ist g von Null.
+
+04:38.268 --> 04:41.101
+Das ist also Null, wir müssen das also nicht mal aufschreiben.
+
+04:41.101 --> 04:43.867
+Dann gehen wir zum nächsten Term. Die erste Ableitung
+
+04:43.867 --> 04:47.400
+f-Strich von Null, oder in diesem Fall g-Strich von Null
+
+04:47.400 --> 04:49.600
+ist gleich Eins.
+
+04:49.600 --> 04:52.177
+Es ist also einmal x. Man hat also ein x hier.
+
+04:52.177 --> 04:57.680
+Und der nächste Term ist gleich Null, wir sehen das hier drüben,
+
+04:57.680 --> 05:03.200
+weil die zweite Ableitung unserer Funktion ausgewertet an der Stelle Null gleich Null ist.
+
+05:03.200 --> 05:07.014
+Unsere dritte Ableitung unserer Funktion ausgewertet an der Stelle Null ist Eins.
+
+05:07.014 --> 05:09.533
+Diese Term wird hier also auftauchen.
+
+05:09.533 --> 05:12.800
+Und dieser Term ist eigentlich Minus Eins -- ich will keinen Fehler machen
+
+05:12.800 --> 05:16.604
+das ist Minus Eins. Es war Minus Cosinus von x
+
+05:16.604 --> 05:19.867
+und wenn man Minus Cosinus von x an der Stelle x auswertet, erhält man Minus Eins
+
+05:19.867 --> 05:21.086
+hier.
+
+05:21.086 --> 05:24.400
+Die dritte Ableitung, der Ausdruck hier, ist also Minus Eins.
+
+05:24.400 --> 05:29.352
+Wir erhalten also Minus x hoch Drei geteilt durch Drei Fakultät.
+
+05:29.352 --> 05:31.929
+Die vierte Ableitung ist wieder Null.
+
+05:31.929 --> 05:36.016
+Die fünfte Ableitung an der Stelle Null ausgewertet ist Eins.
+
+05:36.016 --> 05:41.267
+Dann hat man also plus Eins mal x hoch Fünf geteilt durch Fünf Fakultät.
+
+05:41.267 --> 05:44.400
+Die sechste Ableitung ist Null, diese Term verschwindet also.
+
+05:44.400 --> 05:45.867
+Ich schreibe ihn nicht mal auf.
+
+05:45.867 --> 05:48.933
+Und der siebte Term, der Koeffizient ist Minus Eins.
+
+05:48.933 --> 05:51.933
+Oder, die siebte Ableitung ausgewertet an der Stelle Null ist Minus Eins.
+
+05:51.933 --> 05:57.200
+Man hat also Minus Eins mal x hoch Sieben geteilt durch Sieben Fakultät.
+
+05:57.200 --> 06:00.350
+Und wir mussten bis zum Term von Grad Sieben gehen,
+
+06:00.350 --> 06:04.800
+um die ersten vier Nichtnull Terme der Taylorreihe zu finden.
+
+06:04.800 --> 06:07.467
+Und jetzt sind wir fertig mit dem ersten Teil.
+
+06:07.467 --> 06:11.937
+Wir haben die ersten vier Nichtnull Terme von Sinus von x gefunden.
+
+06:11.937 --> 06:14.267
+Wie sieht es jetzt mit Sinus quadrat von x aus
+
+06:14.267 --> 06:17.800
+oder Sinus von x-quadrat. Hier müssen wir vorsichtigt sein. Denn
+
+06:17.800 --> 06:20.133
+man könnte sagen, okay, wir wenden einfach diese Formel an
+
+06:20.133 --> 06:21.600
+und man wird schnell feststellen,
+
+06:21.600 --> 06:23.733
+dass wenn man die zweite und dritte Ableitunng nimmt,
+
+06:23.733 --> 06:26.682
+von diesem Ausdruck hier drüben, dann wird es ziemlich unschön werden.
+
+06:26.682 --> 06:30.769
+Aber was man sagen kann, ist, dass Sinus von ist ungefähr dieser Ausdruck hier.
+
+06:30.769 --> 06:33.867
+Was passiert, whenn wir x mit x-quadrat ersetzen?
+
+06:33.867 --> 06:39.533
+Dann erhalte ich x-quadrat ist ungefähr gleich
+
+06:39.533 --> 06:42.467
+an Stelle von x hier, setze ich x-quadrat ein
+
+06:42.467 --> 06:48.509
+an Stelle von x hoch Drei setze ich x-quadrat hoch Drei ein, geteilt durch Drei Fakultät.
+
+06:48.509 --> 06:53.200
+An Stelle von x hoch Fünf kann ich hier x-quadrat hoch Fünf
+
+06:53.200 --> 06:54.933
+geteilt durch Fünf Fakultät einsetzen.
+
+06:54.933 --> 06:58.516
+Und an Stelle von x hoch Sieben, kann ich x-quadrat hoch Sieben
+
+06:58.516 --> 07:00.867
+geteilt durch Sieben Fakultät einsetzen.
+
+07:00.867 --> 07:03.184
+Es ist sehr wichtig dies zu verstehen
+
+07:03.184 --> 07:08.083
+Da, wenn man direkt angefangen hätte die Taylorreihe um den Punkt Null
+
+07:08.083 --> 07:10.335
+von diesem Ding hier zunehmen, hätte man viel Zeit da mit verbracht
+
+07:10.335 --> 07:12.425
+diese Ableitungn auszurechnen und wäre wahrscheinlich
+
+07:12.425 --> 07:14.467
+sowieso nicht in der Lage gewesen diese zu berechnen, weil sie sehr unschön sind.
+
+07:14.467 --> 07:17.933
+Und der Schlüßel hier ist, zu verstehen, dass man , wenn man
+
+07:17.933 --> 07:22.200
+einfach x durch x-quadrat ersetzt, man die Approximation
+
+07:22.200 --> 07:23.942
+für Sinus von x-quadrat bekommt.
+
+07:23.942 --> 07:26.000
+Und wir können dies ein bisschen vereinfachen.
+
+07:26.000 --> 07:27.600
+Dies wird ungefähr gleich
+
+07:27.600 --> 07:31.605
+x-quadrat minus x hoch Sechs geteilt durch Drei Fakultät
+
+07:31.605 --> 07:34.600
+plus x hoch Zehn geteilt durch Fünf Fakultät
+
+07:34.600 --> 07:39.685
+minus x hoch Vierzehn geteilt durch Sieben Fakultät.
+
+07:39.715 --> 3:59:59.999
+Dies war der zweite Teil des Problems.

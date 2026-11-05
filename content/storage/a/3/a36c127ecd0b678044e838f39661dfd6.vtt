@@ -1,0 +1,267 @@
+WEBVTT
+
+00:00.470 --> 00:06.530
+V tomto videu zkusíme
+zderivovat sinus z ln(x na druhou).
+
+00:06.530 --> 00:12.180
+Máme tedy složenou funkci,
+která je složená z další složené funkce.
+
+00:12.180 --> 00:18.470
+Můžeme se na to dívat tak,
+že když se f(x) rovná sin(x),
+
+00:18.470 --> 00:32.323
+g(x) je přirozený logaritmus z x
+a h(x) se rovná x na druhou,
+
+00:32.323 --> 00:51.583
+tak se tohle rovná derivaci podle x z
+funkce f v bodě (g v bodě h(x)).
+
+00:51.583 --> 00:54.913
+Chtěl bych teď ukázat,
+jak bych to dělal ve své hlavě,
+
+00:54.913 --> 00:57.953
+aniž bych vypisoval celý
+vzorec pro derivaci složené funkce.
+
+00:57.953 --> 01:00.533
+Kdybych to dělal v hlavě,
+tak bych se na to díval tak,
+
+01:00.533 --> 01:07.223
+že jde o derivaci této vnější funkce f
+podle celé složené funkce uvnitř.
+
+01:07.223 --> 01:10.533
+Derivace sin(x) je cos(x),
+
+01:10.533 --> 01:17.163
+ale místo kosinu v bodě x to bude
+kosinus toho, co bylo tady uvnitř,
+
+01:17.163 --> 01:19.993
+tedy kosinus z
+přirozeného logaritmu...
+
+01:19.993 --> 01:22.083
+Napíšu to tou
+stejnou barvou.
+
+01:22.083 --> 01:29.273
+...kosinus z ln(x na druhou).
+
+01:29.273 --> 01:31.753
+x udělám tou
+samou žlutou barvou.
+
+01:31.753 --> 01:36.100
+Kosinus a tady bude
+x na druhou.
+
+01:36.100 --> 01:39.478
+Na tuhle část, kterou
+jsem právě napsal,
+
+01:39.478 --> 01:53.448
+se můžeme dívat jako na f s čárkou
+v bodě (g v bodě h(x)).
+
+01:53.448 --> 01:58.728
+Aby v tom bylo jasno, tak jsem zderivoval
+vnější funkci podle toho, co bylo uvnitř.
+
+01:58.728 --> 02:02.428
+Nyní musím zderivovat
+vnitřek podle x,
+
+02:02.428 --> 02:04.168
+ale to je další
+složená funkce,
+
+02:04.168 --> 02:07.948
+takže tohle vynásobíme, opět podle
+vzorce pro derivaci složené funkce,
+
+02:07.948 --> 02:14.508
+derivací tohoto přirozeného
+logaritmu podle (x na druhou).
+
+02:14.508 --> 02:18.188
+Derivace přirozeného
+logaritmu z x je 1 lomeno x,
+
+02:18.188 --> 02:25.488
+ale my zde budeme mít nikoliv
+1 lomeno x, ale 1 lomeno (x na druhou).
+
+02:25.488 --> 02:31.388
+Aby to opět bylo jasné,
+tak tato část je g s čárkou v...
+
+02:31.388 --> 02:34.858
+Ne v bodě x, protože kdyby šlo o g(x)
+s čárkou, tak by tu bylo 1 lomeno x,
+
+02:34.858 --> 02:38.668
+ale místo x tu máme h(x)
+neboli x na druhou,
+
+02:38.668 --> 02:41.608
+takže je to g s čárkou
+v bodě (x na druhou).
+
+02:41.608 --> 02:46.078
+Nakonec zderivujeme
+naši vnitřní funkci...
+
+02:46.078 --> 02:52.388
+Tohle napíšu jako
+g s čárkou v bodě h(x).
+
+02:52.388 --> 02:57.708
+Nakonec zderivujeme funkci
+nejvíc vevnitř podle x,
+
+02:57.708 --> 03:00.398
+což je derivace z
+(2 krát x) podle x...
+
+03:00.398 --> 03:03.893
+Bude to derivace z (x na druhou)
+podle x, což je 2 krát x,
+
+03:03.893 --> 03:06.893
+tedy krát h s čárkou
+v bodě x.
+
+03:06.893 --> 03:08.543
+Ještě to ujasním.
+
+03:08.543 --> 03:11.143
+Tohle...
+
+03:11.143 --> 03:19.473
+To, co teď zvýrazňuji fialově,
+se sobě rovná.
+
+03:19.473 --> 03:23.453
+Jednou je to napsané konkrétně,
+podruhé obecně.
+
+03:23.453 --> 03:29.073
+Tyhle dva výrazy se
+sobě také rovnají,
+
+03:29.073 --> 03:31.693
+jednou je to napsané konkrétně,
+jednou obecně.
+
+03:31.693 --> 03:36.940
+A nakonec i tyto dva výrazy
+se sobě rovnají,
+
+03:36.940 --> 03:39.320
+jen je to jednou napsáno
+konkrétně a jednou obecně.
+
+03:39.320 --> 03:40.090
+Tím máme hotovo,
+
+03:40.090 --> 03:44.190
+respektive abychom měli hotovo,
+musíme tohle už jen zjednodušit.
+
+03:44.190 --> 03:46.920
+Když změníme pořadí,
+ve kterém násobíme,
+
+03:46.920 --> 03:49.790
+tak dostaneme (2 krát x)
+lomeno (x na druhou),
+
+03:49.790 --> 03:51.020
+takže můžeme krátit.
+
+03:51.020 --> 03:52.800
+x lomeno x...
+
+03:52.800 --> 03:56.550
+(2 krát x) lomeno (x na druhou)
+je to samé co 2 lomeno x,
+
+03:56.550 --> 03:59.040
+a to ještě násobíme
+celým tímhle výrazem.
+
+03:59.040 --> 04:00.980
+Zbylo nám tedy
+2 lomeno x...
+
+04:00.980 --> 04:02.240
+Tohle se
+pokrátilo.
+
+04:02.240 --> 04:09.650
+...(2 lomeno x) krát
+kosinus z ln(x na druhou).
+
+04:09.650 --> 04:11.800
+Vypadalo to sice jako
+strašidelná derivace,
+
+04:11.800 --> 04:15.822
+ale nejdřív nás jen zajímalo, jak vypadá
+derivace sinu něčeho podle toho něčeho,
+
+04:15.822 --> 04:17.672
+což je kosinus
+toho něčeho.
+
+04:17.672 --> 04:21.382
+Pak se posuneme o jednu vrstvu dovnitř
+a ptáme se, co je derivace toho něčeho,
+
+04:21.382 --> 04:23.382
+přičemž naše něco byla
+opět složená funkce,
+
+04:23.382 --> 04:25.162
+takže derivace z ln(x)...
+
+04:25.162 --> 04:30.072
+Derivace přirozeného logaritmu něčeho
+podle toho něčeho je 1 lomeno to něco,
+
+04:30.072 --> 04:32.312
+takže nám tady vyšlo
+1 lomeno (x na druhou),
+
+04:32.312 --> 04:34.522
+což se nám
+později pokrátilo.
+
+04:34.522 --> 04:37.332
+Nakonec jsme museli spočítat
+derivaci funkce nejvíce uvnitř.
+
+04:37.332 --> 04:38.632
+Je to jak loupat cibuli.
+
+04:38.632 --> 04:42.732
+Museli jsme zjistit derivaci této
+vnitřní funkce podle x, což je 2 krát x.
+
+04:42.732 --> 04:43.761
+Máme to tady.
+
+04:43.761 --> 04:47.991
+Tady bylo 1 lomeno (x na druhou) a tady
+2 krát x předtím, než jsme pokrátili.
+
+04:47.991 --> 04:51.761
+Snad v tom teď
+máte trochu víc jasno.

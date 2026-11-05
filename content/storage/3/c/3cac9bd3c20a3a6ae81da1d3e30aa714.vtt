@@ -1,0 +1,353 @@
+WEBVTT
+
+00:00.290 --> 00:02.340
+Nejprve si zopakujme,
+co je vlastně funkce,
+
+00:02.500 --> 00:05.938
+předtím než si vysvětlíme,
+co to znamená definiční obor funkce.
+
+00:06.198 --> 00:08.094
+Funkci můžeme vidět jako něco…
+
+00:08.238 --> 00:10.228
+Vložím funkci do tohoto rámečku zde.
+
+00:10.435 --> 00:15.987
+Funkce pro daný vstup 'x'
+vytvoří výstup, kterému říkáme f(x).
+
+00:16.260 --> 00:22.764
+Řekněme, že máme funkci f(x),
+
+00:23.698 --> 00:27.106
+která se rovná 2 děleno x.
+
+00:27.375 --> 00:31.794
+Takže v tomto případě
+je tohle moje funkce f…
+
+00:31.940 --> 00:35.236
+Pokud by na vstupu bylo číslo 3,
+
+00:35.741 --> 00:38.177
+tak f(3) vytvoří výstup…
+
+00:38.320 --> 00:41.110
+Už víme jak to zjistit,
+to už jsme si zde definovali.
+
+00:41.245 --> 00:46.382
+Bude se to rovnat 2 děleno 3.
+
+00:46.520 --> 00:49.271
+Takže jsme schopni
+pro tento vstup najít výstup.
+
+00:49.493 --> 00:52.303
+Bude-li na vstupu číslo π,
+
+00:53.031 --> 00:57.135
+vložíme to do naší funkce,
+takže f(π),
+
+00:57.361 --> 00:59.179
+když 'x' je π,
+
+00:59.340 --> 01:01.010
+dostaneme výstup f(π).
+
+01:01.145 --> 01:05.010
+To se rovná 2 děleno π.
+Takhle to můžeme napsat.
+
+01:05.135 --> 01:07.518
+Jsme schopni snadno najít výstup.
+
+01:07.646 --> 01:13.019
+Ale já chci zkusit něco zajímavého.
+Zkusme do funkce vložit 0.
+
+01:13.224 --> 01:14.515
+Pokud do funkce vložíme 0,
+
+01:14.645 --> 01:18.890
+zjistíme z této definice,
+co bude náš výstup?
+
+01:19.029 --> 01:22.770
+Budu-li se snažit dosadit 'x' rovno 0,
+tak podle této definice,
+
+01:22.910 --> 01:25.735
+f(0) by se rovnalo 2 děleno 0,
+
+01:25.985 --> 01:31.569
+ale 2 děleno 0 není definováno.
+
+01:31.772 --> 01:35.534
+Definice takové funkce nám neříká,
+co vlastně dělat s 0.
+
+01:35.690 --> 01:37.874
+Poskytuje nám neplatný výsledek.
+
+01:38.170 --> 01:41.938
+V tomto bodě není funkce definována.
+Dává nám otazník.
+
+01:42.563 --> 01:45.312
+Dostali jsme se k podstatě toho,
+co je definiční obor.
+
+01:45.469 --> 01:49.739
+Definiční obor je množina všech vstupů,
+pro které je funkce definována.
+
+01:49.908 --> 01:57.087
+Definiční obor této funkce f jsou
+všechna reálná čísla kromě 'x' rovno 0.
+
+01:57.283 --> 02:01.003
+Napišme si tedy tuto velkou myšlenku.
+
+02:01.216 --> 02:10.875
+Definiční obor funkce...
+
+02:11.044 --> 02:18.363
+je množina všech vstupů,
+
+02:18.590 --> 02:28.481
+pro které je daná funkce definována.
+
+02:28.650 --> 02:36.228
+Neboli, pro která má funkce
+definovány výstupy.
+
+02:38.512 --> 02:46.340
+Definiční obor pro tuto konkrétní funkci
+
+02:46.466 --> 02:51.477
+bude množina ve složených závorkách,
+typicky používané pro zápis množin.
+
+02:51.681 --> 02:55.879
+Bude to množina
+a do těchto závorek tedy napíšu:
+
+02:56.070 --> 02:57.826
+'x' je prvkem…
+
+02:57.960 --> 03:01.847
+Tento symbol znamená „je prvkem“.
+'x' je prvkem reálných čísel.
+
+03:02.000 --> 03:05.910
+Nemůže to být každé reálné číslo,
+může být téměř libovolné, ale ne 0,
+
+03:06.060 --> 03:09.705
+tento předpis funkce totiž není definován,
+když na vstupu bude 0.
+
+03:09.835 --> 03:11.625
+'x' je tedy prvkem reálných čísel.
+
+03:11.795 --> 03:16.430
+Při psaní reálných čísel,
+píšeme R takto dvojitě.
+
+03:16.620 --> 03:19.572
+Takže 'x' je prvkem reálných čísel,
+
+03:19.803 --> 03:21.809
+musíme sem ale napsat výjimku.
+
+03:21.965 --> 03:25.069
+'x' rovno 0 není prvkem definičního oboru.
+
+03:25.591 --> 03:31.087
+'x' se nerovná 0.
+
+03:31.693 --> 03:34.820
+Nyní si ukážeme další příklady,
+aby tohle bylo konkrétnější.
+
+03:34.970 --> 03:38.992
+Čím více příkladů uděláme,
+tím více bude pro vás tohle téma jasnější.
+
+03:39.130 --> 03:40.838
+Řekněme, že máme další funkci.
+
+03:40.974 --> 03:43.678
+Aby bylo jasno,
+nemusíme používat jen 'f' a 'x'.
+
+03:43.830 --> 03:47.084
+Řekněme, že máme g(y)
+
+03:47.297 --> 03:53.200
+a to se rovná odmocnině z (y minus 6)
+
+03:53.346 --> 03:54.861
+Jaký je zde definiční obor?
+
+03:54.992 --> 03:58.746
+Jaká je množina všech vstupů,
+pro která je tato funkce 'g' definována?
+
+03:58.910 --> 04:02.735
+Vstupem pro 'g' bude 'y'
+
+04:02.950 --> 04:05.633
+a výstupem bude g(y).
+
+04:06.294 --> 04:07.718
+Bude to definováno,
+
+04:07.862 --> 04:11.567
+pokud výraz pod odmocninou nebude záporný.
+
+04:11.728 --> 04:17.650
+Pokud by výsledek zde byl záporný,
+tahle odmocnina by nebyla definována.
+
+04:18.650 --> 04:21.985
+Pokud by tohle bylo záporné,
+jak uděláte odmocninu ze záporného čísla?
+
+04:22.120 --> 04:25.643
+Musíme s tímhle pracovat
+jako s normální odmocninou.
+
+04:25.760 --> 04:31.820
+Takže (y minus 6) musí být
+větší nebo rovno 0,
+
+04:31.970 --> 04:36.166
+pokud chceme, aby byla funkce 'g'
+definována pro vstupy 'y'.
+
+04:36.370 --> 04:40.460
+Nebo můžeme přičíst 6 na obě strany
+a 'y' musí být větší nebo rovno 6.
+
+04:40.633 --> 04:43.214
+Nebo můžeme říct, že 'g' je
+definována pro všechna 'y',
+
+04:43.330 --> 04:45.034
+která jsou větší nebo se rovna 6.
+
+04:45.346 --> 04:52.980
+Řekneme, že definiční obor v tomto případě
+je množina všech 'y',
+
+04:53.153 --> 04:54.975
+která náleží všem reálným číslům,
+
+04:55.153 --> 05:04.337
+které jsou zároveň větší nebo rovny 6.
+
+05:04.730 --> 05:06.890
+Doufám, že vám to začíná dávat smysl.
+
+05:07.010 --> 05:09.305
+Asi jste zvyklí,
+že jsou funkce definovány takto,
+
+05:09.440 --> 05:13.095
+ale můžeme se setkat s funkcí,
+která má docela exotický definiční obor.
+
+05:13.299 --> 05:18.867
+Řekněme, že máme funkci h(x),
+která může být definována jako…
+
+05:19.035 --> 05:24.278
+h(x) bude třeba 1,
+pokud se 'x' bude rovnat π,
+
+05:24.514 --> 05:29.646
+a h(x) bude 0,
+pokud se 'x' bude rovnat 3.
+
+05:29.780 --> 05:31.645
+Jaký je definiční obor této funkce?
+
+05:31.745 --> 05:33.466
+Pozastavte video
+a přemýšlejte o tom.
+
+05:34.256 --> 05:37.013
+Tahle funkce má řešení
+jen pro dva konkrétní vstupy.
+
+05:37.651 --> 05:42.727
+Víme, že h(π), bude-li na vstupu π,
+výstup bude 1.
+
+05:42.939 --> 05:49.114
+Také víme, že pokud bude vstup 3,
+tak h(3) bude…
+
+05:49.310 --> 05:50.810
+Přidám sem čárky.
+
+05:50.983 --> 05:52.189
+…tak výstup bude 0.
+
+05:52.320 --> 05:54.009
+Ale budete-li mít jiný vstup…
+
+05:54.129 --> 05:55.497
+Kolik by bylo h(4)?
+
+05:56.068 --> 05:57.661
+Není to definované!
+
+05:57.799 --> 06:00.860
+Kolik je h(-1)?
+Není definované.
+
+06:01.076 --> 06:06.672
+Takže definiční obor funkce h
+
+06:06.833 --> 06:11.584
+budou v podstatě jen ty dva platné vstupy:
+
+06:11.730 --> 06:16.792
+'x' je rovno 3 nebo π.
+
+06:16.960 --> 06:18.685
+Jen tohle jsou platné vstupy.
+
+06:18.848 --> 06:22.660
+Jen tato dvě čísla jsou platné vstupy,
+pro které je funkce definována.
+
+06:22.917 --> 06:27.040
+Díky této funkci snad chápete,
+proč je definiční obor tak důležitý.
+
+06:27.160 --> 06:29.926
+Ne všechny funkce mají definiční
+obor všech reálných čísel.
+
+06:30.050 --> 06:33.910
+Některé mají jako definiční obor jen
+malou podmnožinu reálných čísel,
+
+06:34.040 --> 06:36.827
+nebo něco jiného, nebo jen
+celá nebo přirozená
+
+06:36.922 --> 06:39.605
+nebo kladná nebo záporná čísla
+nebo v nich mají výjimky.
+
+06:39.765 --> 06:42.877
+Uvidíte to sami,
+až budete řešit více příkladů.

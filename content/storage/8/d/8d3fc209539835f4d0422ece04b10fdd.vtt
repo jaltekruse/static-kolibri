@@ -1,0 +1,258 @@
+WEBVTT
+
+00:00.319 --> 00:03.686
+Zkuste vypočítat tento integrál.
+
+00:03.686 --> 00:06.793
+Nejspíš už jste to zkusili, takže se
+do toho teď pustíme společně.
+
+00:06.793 --> 00:10.024
+Možná jste si uvědomili, že
+některé klasické techniky,
+
+00:10.024 --> 00:17.087
+které už známe, asi moc nepomůžou,
+třeba substituce a další.
+
+00:17.087 --> 00:20.970
+Tady je důležité si uvědomit,
+že máme zlomek,
+
+00:20.970 --> 00:25.157
+ve kterém je stupeň čitatele stejný
+nebo větší než stupeň jmenovatele.
+
+00:25.157 --> 00:28.817
+V tomto případě mají čitatel
+a jmenovatel stejný stupeň.
+
+00:28.817 --> 00:31.232
+Kdykoliv uvidíte něco takového,
+
+00:31.232 --> 00:35.802
+je dobré vydělit čitatele jmenovatelem.
+
+00:35.802 --> 00:38.418
+Tak potom můžeme přepsat
+tento racionální výraz.
+
+00:38.418 --> 00:41.682
+(x minus 5) děleno (-2x plus 2).
+
+00:41.682 --> 00:44.377
+Bude to vlastně písemné dělení.
+
+00:44.377 --> 00:46.735
+Chceme (x minus 5) vydělit (-2x plus 2),
+
+00:46.735 --> 00:51.399
+abychom to mohli přepsat tak,
+že to půjde lépe integrovat.
+
+00:51.399 --> 00:52.414
+Pojďme to udělat.
+
+00:52.414 --> 00:57.228
+Vezmeme (x minus 5).
+
+00:57.228 --> 01:04.241
+(x minus 5) vydělíme (-2x plus 2).
+
+01:04.241 --> 01:08.308
+-2x plus 2.
+
+01:08.308 --> 01:10.439
+Podívejte se na členy s nejvyšším stupněm.
+
+01:10.439 --> 01:14.665
+Kolikrát se -2x vejde do x?
+
+01:14.665 --> 01:18.526
+To bude -1/2 krát.
+
+01:18.526 --> 01:23.276
+-1/2 krát 2 je -1.
+
+01:23.276 --> 01:28.437
+-1/2 krát -2x je x.
+
+01:28.437 --> 01:29.719
+Prostě takhle.
+
+01:29.719 --> 01:34.400
+A teď chceme ten žlutý výraz
+odečíst od toho modrého
+
+01:34.400 --> 01:37.252
+nebo můžu vzít tohle
+vynásobené -1 a přičíst to.
+
+01:37.252 --> 01:41.030
+Takže jen přičtu záporné tohle.
+
+01:41.030 --> 01:45.268
+Zůstává nám tu -5 plus 1, což je -4.
+
+01:45.268 --> 01:50.981
+Dá se říct, že (-2x plus 2) se do
+(x minus 5) vejde -1/2 krát se zbytkem 4.
+
+01:50.981 --> 01:54.435
+Takže můžeme přepsat tenhle
+integrál, náš původní integrál,
+
+01:54.435 --> 02:16.655
+jako -1/2 minus
+(4 děleno (-2x plus 2)), dx.
+
+02:16.655 --> 02:19.807
+A teď to vypadá, že tenhle výraz
+můžeme ještě zjednodušit.
+
+02:19.807 --> 02:22.844
+Čitatel i jmenovatel jsou dělitelné 2.
+
+02:22.844 --> 02:25.282
+Všechny ty členy jsou dělitelné 2.
+
+02:25.282 --> 02:29.101
+A navíc tu máme tolik záporných
+věcí, to to vždy zbytečně komplikuje.
+
+02:29.101 --> 02:33.750
+Pojďme vydělit čitatele i jmenovatele -2.
+
+02:33.750 --> 02:35.582
+A co dostaneme?
+
+02:35.582 --> 02:37.089
+Vydělíme čitatele -2.
+
+02:37.089 --> 02:41.979
+Když tohle je -4, tak to bude 2.
+
+02:41.979 --> 02:46.509
+Pak tohle, když -2x
+vydělíme -2, dostaneme x.
+
+02:46.509 --> 02:50.804
+A pak 2 děleno -2 je -1.
+
+02:50.804 --> 02:52.323
+Takže náš integrál…
+
+02:52.323 --> 02:53.391
+To je vše jen algebra.
+
+02:53.391 --> 02:55.246
+Vše, co jsme zatím udělali, je algebra.
+
+02:55.246 --> 02:58.313
+Jen jsme to přepsali pomocí dělení výrazů.
+
+02:58.313 --> 03:02.047
+Náš původní integrál
+se zjednodušil na -1/2
+
+03:02.047 --> 03:04.118
+a někteří by řekli, že
+to není zjednodušení,
+
+03:04.118 --> 03:06.928
+ale ve skutečnosti to je mnohem
+jednodušší pro integrování.
+
+03:06.928 --> 03:16.186
+-1/2 plus (2 děleno (x minus 1)), dx.
+
+03:16.186 --> 03:18.705
+A jak to teď vypočítáme?
+
+03:18.705 --> 03:25.652
+No, integrovat -1/2 je dost jednoduché.
+
+03:25.652 --> 03:31.372
+To bude prostě -1/2x.
+
+03:31.372 --> 03:34.905
+Plus integrál z (2 děleno (x minus 1)).
+
+03:34.905 --> 03:36.330
+A to možná zvládnete z hlavy.
+
+03:36.330 --> 03:39.008
+Derivace z (x minus 1) je 1,
+
+03:39.008 --> 03:41.621
+takže můžete říct, že ta derivace tu je.
+
+03:41.621 --> 03:44.108
+Můžeme vlastně říct, že
+v hlavě používáme substituci.
+
+03:44.108 --> 03:52.009
+Takže to celé dá přirozený logaritmus
+z absolutní hodnoty z (x minus 1).
+
+03:52.009 --> 03:53.528
+Jestli vám to připadá matoucí,
+
+03:53.528 --> 03:55.694
+klidně použijte substituci.
+
+03:55.694 --> 04:06.815
+Když chci spočítat integrál
+z (2 děleno (x minus 1)), dx,
+
+04:06.815 --> 04:10.509
+tak můžu říct, že
+derivace z (x minus 1) je 1,
+
+04:10.509 --> 04:14.737
+takže řekněme, že ,u' je rovno x minus 1,
+
+04:14.737 --> 04:18.899
+a ,du' pak bude rovno ,dx'.
+
+04:18.899 --> 04:23.187
+A to bude, přepíšeme
+to pomocí substituce,
+
+04:23.187 --> 04:24.498
+konstantu vyndám před to,
+
+04:24.498 --> 04:30.247
+takže 2 krát integrál z (1 děleno u), du,
+
+04:30.247 --> 04:36.971
+což je 2 krát (přirozený logaritmus
+z absolutní hodnoty z u) plus c.
+
+04:36.971 --> 04:40.199
+V tomto případě víme, že ,u' je x minus 1.
+
+04:40.199 --> 04:46.949
+Toto je rovno 2 krát (přirozený logaritmus
+z absolutní hodnoty z (x minus 1)) plus c.
+
+04:46.949 --> 04:49.201
+To budeme mít tady.
+
+04:49.201 --> 04:57.139
+Takže plus 2 krát ten přirozený logaritmus
+z absolutní hodnoty z (x minus 1), plus c.
+
+04:57.139 --> 05:02.026
+To "plus c" není jen odsud,
+dávám ho k integrálu toho celého.
+
+05:02.026 --> 05:04.846
+Mohla by to být nějaká konstanta,
+protože když jdeme opačně,
+
+05:04.846 --> 05:07.470
+když derivujeme, tak ta konstanta zmizí.
+
+05:07.470 --> 05:16.610
+Dám to "plus c" sem a jsme hotovi.

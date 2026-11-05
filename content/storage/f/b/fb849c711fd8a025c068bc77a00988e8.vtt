@@ -1,0 +1,242 @@
+WEBVTT
+
+00:00.400 --> 00:07.190
+Nechť R je plocha ohraničená funkcí
+y rovno 4 krát odmocnina z (9 minus x)
+
+00:07.190 --> 00:09.300
+a osami prvního kvadrantu.
+
+00:09.300 --> 00:12.580
+Vidíme, že plocha R je
+zde šedivě vybarvená.
+
+00:12.580 --> 00:16.080
+Plocha R je základna tělesa.
+
+00:16.080 --> 00:23.280
+Pro každou y-ovou hodnotu má
+průřez tělesa, který je kolmý na osu y,
+
+00:23.280 --> 00:28.170
+tvar obdélníku, jehož základna
+leží v ploše R a výška je y.
+
+00:28.170 --> 00:32.140
+Vyjádři objem tělesa určitým integrálem.
+
+00:32.140 --> 00:35.780
+Pozastavte video
+a zkuste to spočítat sami.
+
+00:35.780 --> 00:37.520
+Fajn, pojďme to udělat společně.
+
+00:37.520 --> 00:40.280
+Zkusme si představit,
+jak těleso vypadá.
+
+00:40.280 --> 00:44.170
+Zkusím to nakreslit
+trochu s perspektivou.
+
+00:44.170 --> 00:52.090
+Toto je y-ová osa
+a toto je x-ová osa.
+
+00:52.090 --> 00:56.630
+Nakreslím plochu R,
+vypadá nějak takto.
+
+00:56.630 --> 01:00.740
+Nyní zakreslím průřez tělesa.
+
+01:00.740 --> 01:04.840
+Zajímá nás průřez, který je
+kolmý na y-ovou osu,
+
+01:04.840 --> 01:06.550
+tak zvolme y-ovou hodnotu.
+
+01:06.550 --> 01:09.050
+Chceme, aby to bylo
+kolmé na y-ovou osu.
+
+01:09.050 --> 01:12.310
+V zadání říkají,
+že základna leží v R.
+
+01:12.310 --> 01:14.290
+Takže základna vypadá nějak takto,
+
+01:14.290 --> 01:18.070
+je to vlastně x-ová hodnota,
+která odpovídá y-ové hodnote.
+
+01:18.070 --> 01:19.920
+Takže tady napíšu x.
+
+01:19.920 --> 01:23.190
+A pak výška je y.
+
+01:23.190 --> 01:28.460
+Takže výška je naše libovolná hodnota y.
+
+01:28.460 --> 01:36.230
+Když chceme spočítat objem malého kousku,
+malého plátku s nekonečně malou hloubkou,
+
+01:36.230 --> 01:40.790
+tak bychom si představili
+hloubku v závislosti na y.
+
+01:40.790 --> 01:46.270
+Takže můžeme říct,
+že hloubka, tato zde, je dy.
+
+01:46.270 --> 01:48.110
+Můžeme nakreslit další průřez.
+
+01:48.110 --> 01:51.070
+Například, zde je y mnohem menší,
+
+01:51.070 --> 01:53.570
+vypadá to nějak takto,
+výška je takováto.
+
+01:53.570 --> 02:00.740
+Ale pak základna je odpovídající
+x-ová hodnota, která leží na křivce,
+
+02:00.740 --> 02:02.990
+tento pár x, y, který
+leží na křivce.
+
+02:02.990 --> 02:06.650
+Tento průřez vypadá takto.
+
+02:06.650 --> 02:10.080
+Připomeňme si, že když
+bychom chtěli spočítat tento objem,
+
+02:10.080 --> 02:14.480
+tak můžeme říct, že máme nekonečně malou
+hloubku a byla by to hloubka dy.
+
+02:14.480 --> 02:17.490
+Proto, jak už jsme se několikrát
+učili při integrování,
+
+02:17.490 --> 02:21.770
+si chceme představit objem
+jednoho tohoto plátku,
+
+02:21.770 --> 02:24.150
+a pak integrovat přes všechny takové.
+
+02:24.150 --> 02:25.880
+Můžeme to udělat
+několika způsoby.
+
+02:25.880 --> 02:30.570
+Můžeme integrovat vzhledem k x,
+nebo vzhledem k y.
+
+02:30.570 --> 02:33.340
+Tvrdím, že je lehčí integrovat
+vzhledem k y,
+
+02:33.340 --> 02:35.700
+protože máme věci vyjádřené vzhledem k y.
+
+02:35.700 --> 02:42.390
+Objem tohoto plátku
+je y krát x krát dy.
+
+02:42.390 --> 02:47.202
+Když chceme integrovat vzhledem k y,
+tak chceme všechno vyjádřené pomocí y.
+
+02:47.202 --> 02:51.140
+Proto vyjádříme x pomocí y.
+
+02:51.140 --> 02:53.480
+Nyní musíme najít x
+vyjádřené pomocí y.
+
+02:53.480 --> 02:57.960
+Můžeme to udělat tak,
+že umocníme obě strany,
+
+02:57.960 --> 03:00.160
+vlastně nejdřív vydělíme obě strany 4.
+
+03:00.160 --> 03:05.100
+Máme y lomeno 4 je
+rovno odmocnina z (9 minus x).
+
+03:05.100 --> 03:06.850
+Nyní můžeme umocnit obě strany.
+
+03:06.850 --> 03:11.240
+Y na druhou lomeno 16
+je rovno (9 minus x).
+
+03:11.240 --> 03:16.190
+Pak můžeme obě
+strany vynásobit −1.
+
+03:16.190 --> 03:20.640
+Takže y na druhou lomeno 16
+je rovno x minus 9.
+
+03:20.640 --> 03:22.540
+Nyní přičteme k oběma stranám 9.
+
+03:22.540 --> 03:27.760
+Nyní dostaneme 9 minus
+(y na druhou lomeno 16) je rovno x.
+
+03:27.760 --> 03:30.090
+A to můžeme dosadit přímo sem.
+
+03:30.090 --> 03:36.030
+Jiný způsob, jak vyjádřit objem tohoto
+malého plátku s nekonečně malou hloubkou,
+
+03:36.030 --> 03:46.020
+dy, je y krát (9 minus
+(y na druhou lomeno 16)) krát dy.
+
+03:46.020 --> 03:53.771
+Když chceme najít objem celého tělesa,
+tak to bude vypadat nějak takto.
+
+03:53.771 --> 03:59.240
+Budeme integrovat od
+y rovno 0 do y rovno 12.
+
+03:59.240 --> 04:03.660
+Takže integrujeme od
+y rovno 0 do y rovno 12.
+
+04:03.660 --> 04:05.356
+To je vše, co jsme měli udělat,
+
+04:05.356 --> 04:09.080
+vyjádřit objem jako určitý integrál,
+ale tohle je vlastně určitý integrál,
+
+04:09.080 --> 04:12.100
+který bychom uměli
+spočítat bez kalkulačky.
+
+04:12.100 --> 04:16.590
+Vynásobíme oba členy y.
+
+04:16.590 --> 04:19.180
+Pak máme polynom s neznámou y
+
+04:19.180 --> 04:25.000
+a k tomu už umíme najít primitivní funkci
+a pak spočítat určitý integrál.

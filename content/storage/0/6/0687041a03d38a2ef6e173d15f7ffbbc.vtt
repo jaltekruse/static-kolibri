@@ -1,0 +1,676 @@
+WEBVTT
+
+00:00.042 --> 00:03.067
+Zanim przejdziemy do prawdziwej algebry
+
+00:03.067 --> 00:06.060
+Chcę przekazać Wam cytat z jednego z największych umysłów w dziejach ludzkości,
+
+00:06.060 --> 00:11.726
+Galileo Galilei, bo uważam ten cytat oddaje prawdziwy sens algebry
+
+00:11.726 --> 00:14.234
+i ogólnie matematyki
+
+00:14.234 --> 00:19.133
+Galileusz powiedział: "Filozofia jest zapisana w tej wielkiej księdze, która zawsze leży otwarta na naszych oczach
+
+00:19.133 --> 00:25.000
+...mam na myśli Wszechświat - ale nie możemy go zrozumieć, jeśli nie nauczymy się najpierw języka
+
+00:25.000 --> 00:27.980
+i nie zrozumiemy symboli, w którym jest napisana.
+
+00:27.980 --> 00:30.800
+Ta książka jest napisana w języku matematyki ...
+
+00:30.800 --> 00:35.933
+bez którego możemy co najwyżej wędrować na próżno przez ciemny labirynt ".
+
+00:35.933 --> 00:38.568
+To bardzo dramatyczna myśl, bardzo głęboka, ale naprawdę taka jest rola matematyki,
+
+00:38.568 --> 00:45.999
+i zobaczymy, gdy zaczniemy coraz głębiej i głębiej się w zagłębiać w algebrze, że nauczymy się
+
+00:45.999 --> 00:48.553
+abstrahować od konkretnych przykładów i będziemy docierać do podstawowych idei, które będą wyjaśniać.
+
+00:48.553 --> 00:52.000
+jak zorganizowany jest Wszechświat.
+
+00:52.000 --> 00:57.400
+Oczywiście te pomysły mogą być stosowane także na przykład w ekonomii i finansach, fizyce i chemii, ale
+
+00:57.400 --> 01:02.990
+tak naprawdę wynikają z jednej i tej samej idei. I dlatego są bardziej fundamentalne, głębsze niż każde z tych zastosowań.
+
+01:03.052 --> 01:11.867
+Żeby zobaczyć, co mam na myśli, mówiąc o podstawowej idei, moglibyśmy zacząć od
+
+01:11.867 --> 01:16.400
+rozbudowanej filozofii Wszechświata, ale zamiast tego zacznijmy od bardzo konkretnej
+
+01:16.400 --> 01:25.267
+i prostej sytuacji i zobaczmy, jak w procesie abstrahowania powstanie idea łącząca wiele dziedzin naszej wiedzy
+
+01:25.267 --> 01:29.067
+o Wszechświecie. Więc powiedzmy, że jesteśmy w sklepie i mamy zamiar coś kupić na wyprzedaży.
+
+01:29.067 --> 01:38.151
+Na wyprzedaży wszystko kosztuje o trzydzieści procent taniej - nie lubię zakupów w eleganckich
+
+01:38.151 --> 01:45.467
+sklepach - więc powiedzmy, że jestem zainteresowany parą spodni. Przed wyprzedażą spodnie kosztowały 20 dolarów.
+
+01:45.467 --> 01:47.533
+Chce kupić parę spodni za 20 dolarów na wyprzedaży, na której wszystko kosztuje 30 procent taniej, także te
+
+01:47.533 --> 01:53.390
+spodnie. Mam okazję kupić spodnie o 30 procent taniej.
+
+01:53.882 --> 01:59.333
+Jak mogę obliczyć, ile pieniędzy zaoszczędzę z tych 20 dolarów? To nie jest żadna wielka nauka,
+
+01:59.333 --> 02:01.800
+ale za to prawdopodobnie znacie to dobrze ze swojego codziennego doświadczenia.
+
+02:01.800 --> 02:04.800
+Można by pomnożyć trzydzieści procent razy dwadzieścia dolarów.
+
+02:04.800 --> 02:06.897
+I obliczyć. że zniżka, nasza zniżka wynosi, można ją zapisać jako 30 procent razy
+
+02:06.897 --> 02:16.533
+dwadzieścia dolarów. Zapiszemy te dwadzieścia dolarów fioletowym pisakiem.
+
+02:16.533 --> 02:19.200
+Lub można napisać to--jeśli tak wolisz--jako ułamek dziesiętny,
+
+02:19.200 --> 02:24.200
+czyli jako 0,30 * 20 dolarów
+
+02:24.200 --> 02:26.402
+I jeśli wykonamy obliczenia
+
+02:26.402 --> 02:28.267
+otrzymamy 6 dolarów.
+
+02:28.267 --> 02:30.867
+Nic specjalnie nowego się tu nie zaszło.
+
+02:30.867 --> 02:33.000
+Ale co będzie, jeśli zechcę trochę to uogólnić ?
+
+02:33.000 --> 02:35.400
+To rabat dla tej konkretnej pary spodni,
+
+02:35.400 --> 02:37.400
+ale co jeśli chcę obliczyć wysokość zniżki
+
+02:37.400 --> 02:39.333
+dla wszystkich towarów w tym sklepie?
+
+02:39.333 --> 02:43.133
+Mogę powiedzieć, niech x to będzie cena
+
+02:43.133 --> 02:45.071
+zapiszę to w innym kolorze -
+
+02:45.071 --> 02:47.800
+Chce zapisać to jako symbol.
+
+02:47.800 --> 02:54.138
+Niech x będzie pierwotną ceną, a nie promocyjna cena produktu,
+
+02:54.138 --> 03:01.650
+towaru sprzedawanego w tym sklepie
+
+03:01.650 --> 03:03.740
+Więc teraz,
+
+03:03.740 --> 03:06.294
+możemy powiedzieć że nasza zniżka
+
+03:06.294 --> 03:15.267
+jest równa 30%, 30% razy x,
+
+03:15.267 --> 03:19.065
+lub jeśli chcieliśmy zapisać procent jako ułamek dziesiętny,
+
+03:19.065 --> 03:22.919
+30% jako ułamek dziesiętny, to będzie
+
+03:22.919 --> 03:25.667
+0,30 razy x.
+
+03:25.667 --> 03:28.074
+Popatrzcie, jakie to interesujące.
+
+03:28.074 --> 03:30.133
+Możesz mi podać cenę dowolnego towaru w tym sklepie
+
+03:30.133 --> 03:32.393
+i mogę podstawić to w miejsce x,
+
+03:32.393 --> 03:34.933
+i następnie pomnożyć razy 0.3
+
+03:34.933 --> 03:37.133
+żeby obliczyć rabat.
+
+03:37.133 --> 03:39.533
+Zaczynamy powoli
+
+03:39.533 --> 03:42.331
+rozumieć, co to znaczy abstrakcja w matematyce.
+
+03:42.331 --> 03:44.867
+Zobaczymy, że w innych przypadkach będzie ona o wiele bardziej złożona.
+
+03:44.867 --> 03:47.068
+i szczerze mówiąc znacznie piękniejsza
+
+03:47.068 --> 03:52.409
+gdy będziemy poznawać inne matematyczne zagadnienia.
+
+03:52.409 --> 03:54.080
+Póki co, jeszcze nie skończyliśmy z naszym przykładem.
+
+03:54.080 --> 03:56.077
+Firma może abstrakcyjne to jeszcze bardziej.
+
+03:56.077 --> 03:57.981
+Stwierdziliśmy, że
+
+03:57.981 --> 03:59.067
+umiemy uogólnić obliczanie rabatu na każdy towar w tym sklepie,
+
+03:59.067 --> 04:01.400
+nie tylko dla spodni za 20 dolarów.
+
+04:01.400 --> 04:03.333
+Jeśli jest coś, co kosztuje 10 dolarów
+
+04:03.333 --> 04:05.737
+możemy podstawić 10 dolarów do wzoru w miejsce x,
+
+04:05.737 --> 04:07.966
+a następnie obliczyć 0,30 razy dziesięć.
+
+04:07.966 --> 04:10.667
+Rabat będzie wynosić 3 dolary.
+
+04:10.667 --> 04:13.133
+W sklepie może też być towar za 100 dolarów, dla którego rabat
+
+04:13.133 --> 04:15.303
+wyniesie 30 dolarów.
+
+04:15.303 --> 04:17.733
+Nasze rozumowanie możemy uogólnić jeszcze bardziej.
+
+04:17.733 --> 04:19.576
+Spytajmy, "a ile wynosi rabat w czasie dowolnej wyprzedaży,
+
+04:19.576 --> 04:22.333
+-- wyprzedaży, w czasie której zniżka wynosi pewien ustalony procent--?"
+
+04:22.333 --> 04:25.381
+Teraz możemy obliczyć, że rabat
+
+04:25.381 --> 04:27.533
+--chcę zdefiniować nową zmienną--
+
+04:27.533 --> 04:30.582
+Niech m... Powiedzmy, że to będzie p,
+
+04:30.582 --> 04:41.200
+p będzie równe rabatowi, wyrażonemu w procentach, obniżce wyrażonej w procentach.
+
+04:41.200 --> 04:42.667
+Co możemy z tym teraz zrobić?
+
+04:42.667 --> 04:45.200
+Możemy powiedzieć, że rabat
+
+04:45.200 --> 04:48.667
+jest równy
+
+04:48.667 --> 04:50.400
+procentowej obniżce.
+
+04:50.400 --> 04:52.733
+Do tej pory używaliśmy wartości 30 procent,
+
+04:52.733 --> 04:56.867
+ale teraz możemy powiedzieć że obniżka wynosi p, p jest wysokością obniżki w procentach.
+
+04:56.867 --> 04:58.467
+To jest p.
+
+04:58.467 --> 05:01.200
+Rabat będzie równy wysokości obniżki razy cena towaru, który nas interesuje,
+
+05:01.200 --> 05:03.400
+cena towaru przed obniżką,
+
+05:03.400 --> 05:04.994
+cena tego produktu, który nas interesuje.
+
+05:04.994 --> 05:06.400
+Cenę oznaczyliśmy jako x.
+
+05:06.400 --> 05:08.667
+Więc rabat na ten towar jest równy p razy x.
+
+05:08.667 --> 05:10.533
+Ten wzór jest naprawdę obiecujący,
+
+05:10.533 --> 05:12.053
+dzięki niemu możemy w całkowicie ogólny sposób
+
+05:12.053 --> 05:15.397
+obliczenia rabatu w każdej wyprzedaży, dla każdej zadanej wartości obniżki cen i dla dowolnego towaru.
+
+05:15.397 --> 05:21.133
+I nawet nie musimy opisywać tego słowami,
+
+05:21.133 --> 05:22.641
+ani używać liter.
+
+05:22.641 --> 05:23.867
+Możemy na przykład powiedzieć
+
+05:23.867 --> 05:29.733
+"Oznaczmy rabat przez y"
+
+05:29.733 --> 05:32.904
+i zapisać tą samą myśl
+
+05:32.904 --> 05:34.400
+bez używania słowa rabat, możemy to zapisać
+
+05:34.400 --> 05:40.200
+jako y równa się p
+
+05:40.200 --> 05:44.067
+razy, rabat na dany towar równa się iloczynowi wartości obniżki przez cenę towaru przed obniżką,
+
+05:44.067 --> 05:45.667
+razy x.
+
+05:45.667 --> 05:46.733
+Litery, które stoją w tym wzorze
+
+05:46.733 --> 05:47.733
+nie mają żadnego znaczenia.
+
+05:47.733 --> 05:51.067
+Zamiast pisać y,
+
+05:51.067 --> 05:53.067
+mógłbyś napisać jakąś grecką literę,
+
+05:53.067 --> 05:54.733
+tak długo, jak długo będziesz pamiętać o tym,
+
+05:54.733 --> 05:56.914
+że ten symbol oznacza
+
+05:56.914 --> 05:57.667
+wartość rabatu na dany produkt, wyrażoną w dolarach.
+
+05:57.667 --> 05:58.911
+Ale naprawdę ciekawe rzeczy zaczną dziać się dopiero teraz,
+
+05:58.911 --> 06:00.600
+ponieważ możemy użyć
+
+06:00.600 --> 06:02.200
+tej samej relacji...
+
+06:02.200 --> 06:03.741
+tego samego wzoru, w którym przyrównujemy
+
+06:03.741 --> 06:05.600
+y do tego, co stoi po prawej,
+
+06:05.600 --> 06:07.734
+dlatego właśnie taką relację nazywamy równaniem.
+
+06:07.734 --> 06:09.406
+To samo równanie opisuje rzeczy
+
+06:09.406 --> 06:10.985
+które są zupełnie niezwiązane
+
+06:10.985 --> 06:13.400
+z obniżką cen w sklepie w czasie wyprzedaży.
+
+06:13.400 --> 06:14.979
+Może przypominacie sobie...
+
+06:14.979 --> 06:17.800
+w fizyce, może widzieliście
+
+06:17.800 --> 06:21.600
+że siła jest równa masie razy przyspieszenie.
+
+06:21.600 --> 06:23.000
+Litery występujące w równaniu są różne
+
+06:23.000 --> 06:24.933
+ale zasadniczo jest to ta sama zależność.
+
+06:24.933 --> 06:27.200
+Niech y będzie równe sile
+
+06:27.200 --> 06:36.067
+a masa będzie wynosić... niem masa będzie równa p.
+
+06:36.067 --> 06:37.595
+Niech zapisze że
+
+06:37.595 --> 06:39.200
+p jest równe masie
+
+06:39.200 --> 06:44.667
+nie jest to intuicyjny sposób oznaczania masy,
+
+06:44.667 --> 06:45.533
+na ogół masę oznacza się przez m - ale chcę w ten sposób pokazać Ci
+
+06:45.533 --> 06:46.200
+że oba równania opisują dokładnie tą samą relację,
+
+06:46.200 --> 06:48.323
+która jest zastosowana do 2 różnych rzeczy.
+
+06:48.323 --> 06:49.391
+Możemy powiedzieć,
+
+06:49.391 --> 06:51.333
+że x jest równy przyspieszeniu.
+
+06:51.333 --> 06:56.961
+Możemy powiedzieć, że x jest równy przyspieszeniu.
+
+06:56.961 --> 07:01.698
+I teraz to słynne "siła jest równa masie razy przyspieszenie"
+
+07:01.698 --> 07:02.580
+można zapisać
+
+07:02.580 --> 07:03.800
+i jest to naprawdę dokładnie taka sama relacja
+
+07:03.800 --> 07:07.533
+jako y - które zdefiniowaliśmy jako siłę -
+
+07:07.533 --> 07:11.133
+równa się masie
+
+07:11.133 --> 07:13.133
+--dla której używamy symbolu p--
+
+07:13.133 --> 07:16.067
+równa się p razy przyspieszenie.
+
+07:16.067 --> 07:17.133
+Przyspieszenie oznaczyliśmy literą x,
+
+07:17.133 --> 07:18.067
+razy x
+
+07:18.067 --> 07:19.200
+Jest to dokładnie to samo równanie.
+
+07:19.200 --> 07:21.400
+Jest to dokładnie to samo równanie.
+
+07:21.400 --> 07:23.200
+Jak widać, możemy wykorzystać to równanie w różnych sytuacjach,
+
+07:23.200 --> 07:26.333
+w dziedzinie ekonomii,
+
+07:26.333 --> 07:27.800
+w dziedzinie finansów
+
+07:27.800 --> 07:31.373
+lub może mieć zastosowanie w informatyce,
+
+07:31.373 --> 07:33.800
+albo w zagadnieniach logiki, a także w elektrotechnice
+
+07:33.800 --> 07:35.738
+i w jeszcze innych dziedzinach -- w rachunkowości.
+
+07:35.738 --> 07:38.400
+liczba zastosowań tego równania jest nieskończona.
+
+07:38.400 --> 07:40.200
+Tego jednego równania.
+
+07:40.200 --> 07:42.054
+I co to jest takie piękne w matematyce,
+
+07:42.054 --> 07:43.933
+to jest takie piękne w szczególności w algebrze,
+
+07:43.933 --> 07:47.133
+to to, że możemy skupić się na abstrakcji.
+
+07:47.133 --> 07:49.733
+Możemy wyabstrahować jedno i to samo równanie z pozornie bardzo różnych sytuacji
+
+07:49.733 --> 07:51.713
+i skupić się na tym równaniu,
+
+07:51.713 --> 07:53.385
+możemy je przekształcać,
+
+07:53.385 --> 07:55.800
+nauczyć się je rozwiązywać,
+
+07:55.800 --> 07:57.333
+i to, czego się nauczymy o równaniu,
+
+07:57.333 --> 07:58.533
+wykorzystać z powrotem w tych wszystkich
+
+07:58.533 --> 08:00.800
+zastosowaniach, z których to równanie zostało wydedukowane.
+
+08:00.800 --> 08:02.000
+Do każdego z nich.
+
+08:02.000 --> 08:03.733
+I co jeszcze ciekawsze, to podpowiada nam
+
+08:03.733 --> 08:06.063
+jakie naprawdę zbudowany jest Wszechświat.
+
+08:06.063 --> 08:07.133
+Jeśli spróbować abstrahować
+
+08:07.133 --> 08:08.733
+od definicji, wprowadzonych przez nas z naszego, ludzkiego punktu widzenia
+
+08:08.733 --> 08:10.429
+i od wszystkich naszych ludzkich zastosowań.
+
+08:10.429 --> 08:11.729
+Na przykład, możemy powiedzieć:
+
+08:11.729 --> 08:14.237
+"Popatrz, jeśli y jest równe p razy x".
+
+08:14.237 --> 08:15.723
+Dosłownie, jeśli ktoś mówi
+
+08:15.723 --> 08:17.267
+"Cześć, to jest y"
+
+08:17.267 --> 08:18.600
+a ktoś mówi, z zupełnie innej strony
+
+08:18.600 --> 08:19.902
+"Mam tu p razy x."
+
+08:19.902 --> 08:21.388
+to ja mogę powiedzieć
+
+08:21.388 --> 08:22.317
+"Dobrze, ale to co macie równa
+
+08:22.317 --> 08:23.267
+się jedno drugiemu."
+
+08:23.267 --> 08:24.407
+I jeżeli chcesz podzielić jedno z nich
+
+08:24.407 --> 08:25.667
+przez liczbę
+
+08:25.667 --> 08:27.533
+i nadal chcesz, żeby obie były sobie równe,
+
+08:27.533 --> 08:30.200
+musisz podzielić to drugie przez tą samą liczbę.
+
+08:30.200 --> 08:31.652
+Na przykład,
+
+08:31.652 --> 08:34.577
+załóżmy, że wiemy, że y jest równe
+
+08:34.577 --> 08:36.267
+p razy x - co, będzie, jeśli zechcesz
+
+08:36.267 --> 08:38.571
+żeby ta równość nadal była spełniona,
+
+08:38.571 --> 08:41.133
+ale chcesz jednocześnie wiedzieć ile wyniesie y podzielić przez x?
+
+08:41.133 --> 08:43.467
+y było równe p razy x,
+
+08:43.467 --> 08:45.073
+a więc y podzielone przez x
+
+08:45.073 --> 08:46.977
+będzie równe p razy x,
+
+08:46.977 --> 08:48.733
+podzielona przez x.
+
+08:48.733 --> 08:50.321
+Ale teraz stanie się coś ciekawego,
+
+08:50.321 --> 08:51.467
+ponieważ p razy x podzielone przez x
+
+08:51.467 --> 08:53.711
+- jeśli pomnożyć przez coś
+
+08:53.711 --> 08:55.568
+i podzielić przez to samo
+
+08:55.568 --> 08:57.333
+dostaniesz to, co było na początku..
+
+08:57.333 --> 08:59.467
+Jeśli pomnożysz przez 5 i podzielisz przez 5,
+
+08:59.467 --> 09:01.373
+dostaniesz z powrotem p
+
+09:01.373 --> 09:03.067
+niezależnie od tego, przez jaką liczbę mnożysz i dzielisz, byleby nie przez zero.
+
+09:03.067 --> 09:04.333
+Dlatego te x-y się uproszczą.
+
+09:04.333 --> 09:06.333
+Byliśmy w stanie przekształcić to abstrakcyjne równanie
+
+09:06.333 --> 09:08.067
+do postaci y podzielić przez x równa się p.
+
+09:08.067 --> 09:12.380
+- zapiszmy to zielonym kolorem -
+
+09:12.380 --> 09:17.867
+ale teraz to ma znaczenie,
+
+09:17.867 --> 09:21.067
+dla tych wszystkich sytuacji, w których to równanie obowiązuje.
+
+09:21.067 --> 09:25.267
+Definiuje jedną z podstawowych prawd o naszym Wszechświecie,
+
+09:25.267 --> 09:26.637
+prawie niezależnie od tych wszystkich zastosowań tego równania, wymyślonych przez ludzi.
+
+09:26.637 --> 09:28.467
+Teraz możemy wykorzystać to przekształcone równanie, nową uniwersalną zależność,
+
+09:28.467 --> 09:30.400
+w tych wszystkich sytuacjach, do których to równanie się stosuje.
+
+09:30.400 --> 09:31.931
+Naprawdę interesujące jest także to
+
+09:31.931 --> 09:32.467
+że ciągle znajdujemy nowe obszary zastosowań
+
+09:32.467 --> 09:33.400
+-- wygląda na to, że istnieje nieskończenie wiele tych zastosowań,
+
+09:33.400 --> 09:34.533
+i mówiąc szczerze, nie znamy
+
+09:34.533 --> 09:36.900
+większości z nich.
+
+09:36.900 --> 09:38.386
+Być może niektóre z nich odkryjemy
+
+09:38.386 --> 09:40.290
+dopiero za tysiąc lat...
+
+09:40.290 --> 09:41.200
+Mam nadziej, że udało mi się przekazać Wam poczucie,
+
+09:41.200 --> 09:44.933
+dlaczego Galileo powiedział o matematyce to, co powiedział.
+
+09:44.933 --> 09:48.133
+Matematyka jest językiem przyrody,
+
+09:48.133 --> 09:51.867
+w którym możemy zrozumieć
+
+09:51.867 --> 09:53.990
+Wszechświat.
+
+09:53.990 --> 09:55.244
+Dlatego wielu ludzi uważa,
+
+09:55.244 --> 09:56.637
+że jeśli kiedykolwiek nawiążemy kontakt z innymi formami życia,
+
+09:56.637 --> 09:57.333
+jeśli skontaktują się z nami, ludźmi,
+
+09:57.333 --> 10:00.067
+matematyka prawdopodobnie będzie pierwszą wspólną płaszczyzną porozumienia,
+
+10:00.067 --> 10:04.200
+miejscem, od którego można zacząć budować
+
+10:04.310 --> 3:59:59.999
+podstawy porozumienia z "obcymi".

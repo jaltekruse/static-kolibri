@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.000 --> 00:03.485
+Nehmen wir an wir haben das uneigentliche Integral,
+
+00:03.485 --> 00:18.636
+und die Funktion ist 3x hoch zwei plus 2x mal e hoch x hoch 3 plus x hoch 2 dx.
+
+00:18.636 --> 00:22.756
+Also, wie würden da ran gehen um es zu lösen? Wenn man es sich zuerst ansieht,
+
+00:22.756 --> 00:27.102
+dann scheint es ein ziemlich kompliziertes Integral zu sein; wir haben dieses Polynom hier,
+
+00:27.102 --> 00:31.825
+das mit diesem exponentiellen Ausdruck multipliziert wird und da drüben im Exponenten
+
+00:31.825 --> 00:36.172
+haben wir prinzipiell ein weiteres Polynom. Sieht ziemlich verrückt aus.
+
+00:36.172 --> 00:42.403
+Und die Schlüsselidee hier, der Schlüssel ist, dass man hier eine Technik verwenden kann, die
+
+00:42.403 --> 00:50.163
+u-Substitution heißt. Und ich werde auch gleich erzählen wie ich erkennen würde, dass wir die u-Substitution benutzen müssen
+
+00:50.163 --> 00:53.573
+und mit der Zeit, schafft man es, solche Sachen im Kopf zu machen.
+
+00:53.573 --> 00:59.498
+U-Substitution löst prinzipiell die Kettenregel auf. In der Kettenregel...
+
+00:59.498 --> 01:03.767
+Ich werde das in einem anderen Video näher behandeln, wo ich wirklich über die Ideenfindung rede.
+
+01:03.767 --> 01:09.172
+Aber was ich mir überlegen würde, naja ich habe diesen verrückten Exponenten hier,
+
+01:09.172 --> 01:16.895
+ich habe x hoch 3 und x hoch 2. Und das Ding hier drüben ist genau die Ableitung von
+
+01:16.895 --> 01:23.486
+x hoch 3 + x hoch 2. Die Ableitung von x hoch 3 ist 3x hoch 2; die Ableitung von x hoch 2 ist 2x,
+
+01:23.486 --> 01:27.822
+was ein wichtiger Hinweis für mich ist, dass ich die u-Substitution benutzen kann.
+
+01:27.822 --> 01:33.047
+Also was ich hier mache ist, dieses Ding wo dieser kleine Ausdruck hier, wo ich auch sehe, dass seine Ableitung
+
+01:33.047 --> 01:43.044
+multipliziert wird, ich kann das gleich u setzten. Also kann ich sagen: "u ist gleich x hoch 3 plus x hoch 2."
+
+01:43.044 --> 01:46.903
+Nun, was wird die x-Ableitung von u sein?
+
+01:46.903 --> 01:56.887
+du nach dx (naja, das haben wir schon öfter gemacht) wird sein: 3x hoch 2 plus x hoch 2,
+
+01:56.887 --> 02:03.497
+und jetzt können wir das in Differentialform schreiben. Und du nach dx ist nicht wirklich ein Bruch
+
+02:03.497 --> 02:08.700
+der Ableitung von u geteilt durch die Ableitung von x, es ist tatsächlich eine Form der Notation.
+
+02:08.700 --> 02:12.372
+Aber es ist oft nützlich irgendwie so zu tun als sei es ein Bruch.
+
+02:12.372 --> 02:16.500
+Und man könnte es so sehen, wenn man nur du haben möchte
+
+02:16.500 --> 02:21.980
+wenn man nur diese Differentialform da drüben haben will, wie verändert sich u, wenn sich x verändert,
+
+02:21.994 --> 02:32.771
+man kann beide Seiten mit dx multiplizieren. Und so, wenn wir so tun als sei es ein Bruch,
+
+02:32.771 --> 02:35.856
+und es wird die richtige Differentialform ergeben,
+
+02:35.856 --> 02:49.103
+bleibt nur übrig, dass du gleich 3x hoch 2 plus 2x dx ist.
+
+02:49.103 --> 02:54.350
+Warum steht das jetzt da, warum habe ich mir dafür die Mühe gemacht?
+
+02:54.350 --> 03:01.171
+Naja, wir sehen, wir haben hier 3x hoch 2 plus 2x, und es wird mit dx multipliziert.
+
+03:01.171 --> 03:08.695
+Ich kann das ursprüngliche Integral als ein Integral von --lasst mich das in Farbe machen--
+
+03:08.695 --> 03:20.196
+von 3x hoch 2 plus 2x mal dx mal e --lasst mich das in einer anderen Farbe machen--
+
+03:20.196 --> 03:28.891
+mal e hoch x hoch 3 plus x hoch 2. Was jetzt interessant daran ist,
+
+03:28.891 --> 03:35.771
+naja dieser Teil hier in lila ist genau gleich du.
+
+03:35.771 --> 03:41.561
+Und dieser Teil hier oben, x hoch 3 plus x hoch 2, das war wie ich gesagt habe, gleich u.
+
+03:41.561 --> 03:46.169
+Das hier ist gleich u. Also kann ich mein ganzes Integral neu schreiben--
+
+03:46.169 --> 03:49.700
+und jetzt erkennt ihr vielleicht warum es uns die Sache um Einiges einfacher machen könnte--
+
+03:49.700 --> 03:53.222
+es wird gleich sein zu, und ich werde es in anderer Reihenfolge hinschreiben.
+
+03:53.222 --> 03:57.297
+Ich setzte das du, das ganze du, das setze ich hier auf die andere Seite
+
+03:57.297 --> 04:01.704
+so sieht es mehr nach der Standardform aus, die wir in unseren uneigentlichen Integralen gewöhnt sind,
+
+04:01.704 --> 04:15.495
+also wird es sein, wir haben unser du mal e hoch u.
+
+04:15.495 --> 04:20.892
+Und was wird jetzt bzgl. u die Aufleitung davon sein?
+
+04:20.892 --> 04:25.958
+Naja, die Ableitung von e hoch u ist e hoch u; die Aufleitung von e hoch u ist e hoch u.
+
+04:25.958 --> 04:32.412
+Also wird es gleich e hoch u sein, es ist noch Möglich, dass da eine gewisse
+
+04:32.425 --> 04:38.292
+Konstante steht, also lasst mich das hinschreiben. Also plus C. Und jetzt, um es bzgl. x zu bekommen,
+
+04:38.292 --> 04:43.096
+müssen wir nur das u zurück substituieren. Wir wissen was u ist.
+
+04:43.096 --> 04:47.030
+Also können wir sagen, dass das gleich e --anstatt u zu schreiben,
+
+04:47.030 --> 05:00.349
+können wir sagen u ist x hoch 3 plus x hoch 2. Und dann haben wir noch unser plus C. Und wir sind fertig!
+
+05:00.349 --> 05:04.084
+Wir haben die Aufleitung gefunden. Und ich ermuntere euch dazu das abzuleiten,
+
+05:04.084 --> 05:08.084
+und ich denke ihr werdet feststellen, dass ihr die Kettenregel benutzt und dahin zurück kommt was wir hier hatten.

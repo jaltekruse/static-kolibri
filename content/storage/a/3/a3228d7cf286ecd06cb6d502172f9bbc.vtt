@@ -1,0 +1,529 @@
+WEBVTT
+
+00:00.050 --> 00:03.860
+Vamos relembrar o que já
+vimos em Cálculo Diferencial.
+
+00:03.860 --> 00:08.370
+Suponha uma função S
+que nos dá, como função
+
+00:08.370 --> 00:12.220
+do tempo, a posição de uma
+partícula numa única dimensão.
+
+00:12.220 --> 00:16.133
+Se tomarmos a derivada
+relativa ao tempo.
+
+00:16.133 --> 00:20.940
+Isto é, se tomarmos a
+derivada da função S
+
+00:20.940 --> 00:22.021
+o que teremos?
+
+00:22.021 --> 00:26.075
+Teremos ds, dt, ou
+
+00:26.075 --> 00:29.816
+a taxa pela qual a posição
+muda com relação ao tempo.
+
+00:29.816 --> 00:34.159
+Que outro nome usamos para descrever
+a mudança de posicão com o tempo?
+
+00:34.159 --> 00:35.750
+Velocidade.
+
+00:35.750 --> 00:39.680
+Escrevemos aqui velocidade,
+como funcão do tempo.
+
+00:39.680 --> 00:43.980
+E se calcularmos a derivada disso
+aqui com relação ao tempo?
+
+00:43.980 --> 00:47.177
+Podemos enxergar isso como
+uma derivada de segunda ordem,
+
+00:47.177 --> 00:50.809
+onde tomamos a derivada duas
+vezes da nossa funcão posição.
+
+00:50.809 --> 00:52.625
+Ou podemos dizer
+que estamos tomando
+
+00:52.625 --> 00:55.473
+a derivada da função velocidade
+com relação a tempo.
+
+00:55.473 --> 01:02.034
+Podemos representar isso
+como dv, dt,
+
+01:02.034 --> 01:05.420
+a taxa de mudança da
+velocidade com o tempo.
+
+01:05.420 --> 01:07.490
+Como podemos chamar isso?
+
+01:07.490 --> 01:10.000
+Isso é também chamado
+de aceleração.
+
+01:10.000 --> 01:12.480
+Será a nossa aceleração como
+uma função do tempo.
+
+01:12.480 --> 01:14.560
+Partimos da função posição,
+
+01:14.560 --> 01:17.590
+isto é, posição como função do tempo.
+Tomando sua derivada
+
+01:17.590 --> 01:20.310
+com relação ao tempo,
+obtemos a velocidade.
+
+01:20.310 --> 01:23.800
+Derivando novamente com relação
+ao tempo, obtemos aceleracão.
+
+01:23.800 --> 01:26.210
+Podemos também
+fazer ao contrário.
+
+01:26.210 --> 01:29.290
+Se partirmos da aceleração,
+
+01:29.290 --> 01:32.160
+e tomamos sua antiderivada,
+
+01:32.160 --> 01:38.370
+ou seja, se tomarmos
+a antiderivada
+
+01:38.370 --> 01:42.860
+da função, vou escrever
+isso aqui.
+
+01:42.860 --> 01:45.230
+Vou usar o símbolo
+da integral para
+
+01:45.230 --> 01:48.290
+mostrar que estou
+calculando a antiderivada.
+
+01:48.290 --> 01:54.920
+Isso será a integral da
+antiderivada da função a de t.
+
+01:54.920 --> 01:58.670
+Isso vai resultar numa expressão
+contendo um mais c.
+
+01:58.670 --> 02:02.240
+Podemos dizer que essa é a forma
+genérica da nossa função velocidade.
+
+02:02.240 --> 02:05.380
+Isso será igual à nossa
+função velocidade.
+
+02:05.380 --> 02:08.910
+Para encontrar uma função velocidade
+específica, temos que conhecer
+
+02:08.910 --> 02:12.090
+a velocidade num dado
+ponto no tempo.
+
+02:12.090 --> 02:14.390
+E então resolver para c.
+
+02:14.390 --> 02:17.780
+Se após fazer isso tomarmos
+a antiderivada mais uma vez,
+
+02:19.530 --> 02:24.173
+estaremos então tomando a
+antiderivada da função velocidade,
+
+02:24.173 --> 02:27.574
+o que resultaria numa expressão
+que será uma função de t,
+
+02:27.574 --> 02:29.058
+novamente com
+outra constante.
+
+02:29.058 --> 02:32.576
+E se pudermos resolver para essa
+constante vamos conhecer
+
+02:32.576 --> 02:37.940
+a posição, sendo que ela é
+uma função do tempo.
+
+02:37.960 --> 02:39.890
+Dessa forma, temos mais c aqui,
+
+02:39.890 --> 02:43.920
+e se conhecemos a nossa posição
+num dado tempo, resolvemos para c.
+
+02:43.920 --> 02:47.430
+Até aqui não só revisamos esse tópico
+mas também o re-escrevemos.
+
+02:47.430 --> 02:49.890
+Quero dizer, analisamos isso
+não somente do
+
+02:49.890 --> 02:52.090
+ponto de vista da diferencial,
+ou derivada.
+
+02:52.090 --> 02:55.660
+Analisamos isso também do
+ponto de vista da antiderivada.
+
+02:55.660 --> 02:58.290
+Agora vamos tentar resolver um
+problema bem legal.
+
+02:58.290 --> 03:00.750
+Suponha que sabemos
+que a aceleração de uma
+
+03:00.750 --> 03:05.950
+partícula como função do
+tempo seja igual a um.
+
+03:05.950 --> 03:08.938
+Isto é, ela esta sempre acelerando
+a uma unidade por
+
+03:08.938 --> 03:11.548
+unidade de tempo.
+
+03:11.548 --> 03:14.950
+Digamos que estamos falando
+de metros e segundos.
+
+03:14.950 --> 03:20.170
+Então, aqui temos um metro por
+segundo, elevado ao quadrado
+
+03:20.170 --> 03:23.380
+Essa é a nossa aceleração
+como função do tempo.
+
+03:23.380 --> 03:26.155
+Digamos que não conhecemos
+a expressão de velocidade, mas
+
+03:26.155 --> 03:29.318
+sabemos qual é a velocidade num dado
+tempo; e que não sabemos a
+
+03:29.318 --> 03:31.749
+expressão de posição. Mas conhecemos
+a posição num ponto do tempo.
+
+03:31.749 --> 03:35.020
+Suponha que a velocidade
+no tempo três, isto é,
+
+03:35.020 --> 03:39.400
+três segundos, seja igual a
+menos três metros por segundo.
+
+03:39.420 --> 03:42.770
+Vou escrever todas
+unidades aqui.
+
+03:42.770 --> 03:45.330
+Então aqui temos metros por
+segundo ao quadrado,
+
+03:45.330 --> 03:46.830
+que representa a nossa
+unidade para aceleração.
+
+03:46.830 --> 03:49.500
+E essa aqui nossa unidade
+para velocidade.
+
+03:49.500 --> 03:55.120
+Suponha que sabemos
+que a posição no
+
+03:55.120 --> 03:59.760
+tempo dois, isto é, dois segundos,
+seja igual a menos dez metros.
+
+03:59.760 --> 04:02.490
+Se estamos considerando apenas
+uma dimensão,
+
+04:02.490 --> 04:06.140
+ela está na posição dez à esquerda
+do ponto de origem.
+
+04:06.140 --> 04:09.508
+Portanto, dado essa informação bem
+aqui, e tudo o que escrevi aqui,
+
+04:09.508 --> 04:14.568
+será que podemos descobrir a expressão
+de velocidade como função do tempo?
+
+04:14.568 --> 04:18.890
+Não somente velocidade no tempo três, mas
+velocidade em geral, como função do tempo.
+
+04:18.890 --> 04:19.890
+E posição como função do tempo.
+
+04:21.190 --> 04:23.950
+Sugiro que você
+pause esse video agora
+
+04:23.950 --> 04:25.730
+e tente resolver isso sozinho.
+
+04:27.130 --> 04:28.230
+Vamos tentar resolver.
+
+04:28.230 --> 04:31.410
+Sabemos que velocidade
+como função do tempo
+
+04:31.410 --> 04:36.250
+será igual à antiderivada
+
+04:36.250 --> 04:39.910
+da aceleracão como função do tempo.
+
+04:39.910 --> 04:42.250
+A aceleracão é igual a um.
+
+04:42.250 --> 04:45.900
+Então será a antiderivada disso
+bem aqui.
+
+04:45.900 --> 04:50.890
+Será igual a t, sem esquecermos
+da nossa constante, mais c.
+
+04:50.890 --> 04:55.610
+E agora resolvemos para c, já que
+sabemos que v de 3 é igual a menos 3.
+
+04:55.610 --> 04:57.220
+Vou escrever aqui.
+
+04:57.220 --> 05:05.385
+Então v de 3 será igual a 3 mais c.
+
+05:05.385 --> 05:08.276
+Substituindo onde tenho t,
+em todo lugar onde
+
+05:08.276 --> 05:11.580
+tenho t, eu substituo por 3,
+bem aqui.
+
+05:11.580 --> 05:12.855
+Tornando isso mais claro,
+
+05:12.855 --> 05:18.276
+tenho v de 3, que
+é igual a 3 mais c
+
+05:18.276 --> 05:23.280
+e isso é igual a 3 negativo.
+
+05:23.280 --> 05:29.040
+Isso é igual a 3 negativo.
+
+05:29.040 --> 05:30.630
+Então, o que será c?
+
+05:30.630 --> 05:32.260
+Se olharmos essa parte aqui
+
+05:32.260 --> 05:35.480
+da equação, ou essa equação
+bem aqui,
+
+05:35.480 --> 05:43.290
+e se subtrairmos 3 de ambos os lados
+teremos c igual a 6 negativo.
+
+05:43.290 --> 05:46.660
+E assim passamos a conhecer
+
+05:46.660 --> 05:51.030
+a expressão exata que define
+velocidade em função do tempo.
+
+05:51.030 --> 05:56.349
+v de t é igual a t
+mais 6 negativo.
+
+05:56.349 --> 06:01.410
+Então v de t igual a t menos 6.
+
+06:01.410 --> 06:02.380
+E podemos verificar.
+
+06:02.380 --> 06:05.980
+A derivada da equação com
+relação a tempo é igual a um.
+
+06:05.980 --> 06:11.040
+E quando tempo é igual a 3, tempo
+menos 6 é igual a menos 3.
+
+06:11.040 --> 06:15.730
+Então conseguimos descobrir a velocidade
+como função do tempo.
+
+06:15.730 --> 06:19.460
+Agora vamos fazer a mesma coisa para
+achar a posição em função do tempo.
+
+06:19.460 --> 06:22.080
+Sabemos que a posição
+vai ser a antiderivada
+
+06:22.080 --> 06:25.830
+da função velocidade.
+Então vamos escrever isso.
+
+06:25.830 --> 06:30.563
+Posição, como função do tempo,
+será igual à
+
+06:30.563 --> 06:35.093
+antiderivada da função v de t, dt.
+
+06:35.093 --> 06:41.178
+O que equivale à antiderivada de
+t menos 6, dt.
+
+06:41.178 --> 06:47.615
+Bom, a antiderivada de t é igual
+a t ao quadrado sobre 2.
+
+06:47.615 --> 06:51.270
+Então, t ao quadrado sobre 2,
+como vimos antes.
+
+06:51.270 --> 06:56.139
+A antiderivada de menos 6
+é igual a menos 6t,
+
+06:56.139 --> 07:01.310
+e claro, não podemos esquecer a
+nossa constante, então, mais c.
+
+07:01.310 --> 07:03.270
+Então s de t equivale a isso aqui.
+
+07:03.270 --> 07:06.820
+A função s de t é igual a
+toda essa parte aqui.
+
+07:06.820 --> 07:09.480
+E agora tentamos resolver
+para a nossa constante.
+
+07:09.480 --> 07:12.420
+E para isso usamos essa
+informação bem aqui.
+
+07:12.420 --> 07:16.780
+A dois segundos, nossa posição
+é igual a dois metros negativos.
+
+07:16.780 --> 07:20.000
+Então s de 2. Posso escrever isso
+dessa forma.
+
+07:20.000 --> 07:20.830
+Vou escrever aqui.
+
+07:20.830 --> 07:26.530
+S de 2, aos 2 segundos, será igual
+a 2 ao quadrado sobre 2.
+
+07:26.530 --> 07:30.700
+Isso dá 4 sobre 2, o
+que é igual a 2.
+
+07:30.700 --> 07:32.770
+Menos 6 vezes 2.
+
+07:32.770 --> 07:41.510
+Então menos 12, mais c, é igual a
+a menos 10.
+
+07:41.510 --> 07:44.817
+Vamos ver, temos 2 menos 12
+o que dá 10 negativo,
+
+07:44.817 --> 07:50.320
+mais c que é igual
+a 10 negativo.
+
+07:50.320 --> 07:54.270
+Se adicionamos 10 a ambos os
+lados temos que c é igual a zero.
+
+07:54.270 --> 07:57.630
+Acabamos de descobrir a
+nossa função posição.
+
+07:57.630 --> 07:59.730
+Esse c bem aqui será
+igual a zero.
+
+07:59.730 --> 08:08.250
+A posição como função do tempo
+é igual a t ao quadrado sobre 2, menos 6t.
+
+08:08.250 --> 08:10.340
+Voce pode verificar.
+
+08:10.340 --> 08:17.250
+Para t igual a 2, t ao quadrado sobre 2
+é 2, menos 12, é igual a menos 10.
+
+08:17.250 --> 08:20.680
+Tomando a derivada aqui,
+isso dá t menos 6.
+
+08:20.680 --> 08:24.140
+E nós já verificamos aqui
+que v de 3 é igual a 3 negativo.
+
+08:24.140 --> 08:27.978
+Tomando a derivada aqui,
+temos a de t, bem assim.
+
+08:27.978 --> 08:31.280
+Espero que tenha curtido!
+
+08:31.285 --> 08:35.435
+Legendado por [Maria Oberlander]
+Editado por [Luiz Pasqual]

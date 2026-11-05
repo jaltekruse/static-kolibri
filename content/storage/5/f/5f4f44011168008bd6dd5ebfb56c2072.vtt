@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.063 --> 00:02.583
+- So I have a function here, h of n,
+
+00:02.583 --> 00:04.547
+and let's say that it explicitly defines
+
+00:04.547 --> 00:05.890
+the terms of a sequence.
+
+00:05.890 --> 00:06.842
+Let me make a little...
+
+00:06.842 --> 00:09.986
+Let me make a quick table here.
+
+00:11.736 --> 00:15.318
+We have n, and then we have h of n.
+
+00:15.318 --> 00:19.430
+When n is equal to one,
+h of n is negative 31,
+
+00:19.430 --> 00:22.752
+minus seven times one minus one,
+
+00:22.752 --> 00:23.876
+which is going to be...
+
+00:23.876 --> 00:25.234
+This is just going to be zero,
+
+00:25.234 --> 00:27.440
+so it's going to be negative 31.
+
+00:27.440 --> 00:31.640
+When n is equal to two,
+it's going to be negative 31
+
+00:31.640 --> 00:36.054
+minus seven times two minus one,
+
+00:36.054 --> 00:38.385
+so two minus one.
+
+00:38.385 --> 00:40.407
+This is just going to be one,
+
+00:40.407 --> 00:42.241
+so it's negative 31 minus seven,
+
+00:42.241 --> 00:45.994
+which is equal to negative 38.
+
+00:45.994 --> 00:47.662
+When n is equal to three,
+
+00:47.662 --> 00:51.296
+it's gonna be negative 31 minus seven
+
+00:51.296 --> 00:52.910
+times three minus one,
+
+00:52.910 --> 00:54.059
+which is just two,
+
+00:54.059 --> 00:56.988
+so we're gonna subtract seven twice.
+
+00:56.988 --> 01:00.467
+It's gonna be negative 31 minus 14,
+
+01:00.467 --> 01:03.323
+which is equal negative 45.
+
+01:03.323 --> 01:05.678
+What do we see happening here?
+
+01:05.678 --> 01:07.828
+We're starting at negative 31,
+
+01:07.828 --> 01:10.228
+and then we keep subtracting,
+
+01:10.228 --> 01:12.947
+we keep subtracting negative seven.
+
+01:12.947 --> 01:15.907
+We keep subtracting
+negative seven from that.
+
+01:15.907 --> 01:19.561
+In fact we subtract negative
+seven one less than the term...
+
+01:19.561 --> 01:22.026
+We subtract negative seven one less times
+
+01:22.026 --> 01:23.198
+than the term we're dealing with.
+
+01:23.198 --> 01:24.556
+If we're dealing with the third term
+
+01:24.556 --> 01:26.576
+we subtract negative seven twice.
+
+01:26.576 --> 01:28.074
+If we're dealing with the second term
+
+01:28.074 --> 01:30.274
+we subtract negative seven once.
+
+01:30.274 --> 01:31.498
+This is all nice,
+
+01:31.498 --> 01:33.437
+but what I want you to
+do now is pause the video
+
+01:33.437 --> 01:36.223
+and see if you can define
+this exact same sequence.
+
+01:36.223 --> 01:38.777
+The sequence here is you
+start at negative 31,
+
+01:38.777 --> 01:40.658
+and you keep subtracting negative seven,
+
+01:40.658 --> 01:43.943
+so negative 38, negative 45.
+
+01:43.943 --> 01:47.050
+The next one is gonna be negative 52,
+
+01:47.050 --> 01:48.210
+and you go on and on and on.
+
+01:48.210 --> 01:50.311
+You keep subtracting negative seven.
+
+01:50.311 --> 01:52.830
+Can we define this sequence
+
+01:52.830 --> 01:55.321
+in terms of a recursive function?
+
+01:55.321 --> 01:56.872
+Why don't you have a go at that.
+
+01:57.512 --> 01:59.761
+Let's try to define it in
+terms of a recursive function.
+
+01:59.761 --> 02:01.968
+Let's just call that g of n,
+
+02:01.968 --> 02:03.290
+so g of n.
+
+02:03.290 --> 02:05.199
+In some ways a recursive
+function is easier,
+
+02:05.199 --> 02:06.297
+because you can say okay look.
+
+02:06.297 --> 02:08.619
+The first term when n is equal to one,
+
+02:08.619 --> 02:11.184
+if n is equal to one,
+let me just write it,
+
+02:11.184 --> 02:12.990
+If n is equal to one,
+
+02:12.990 --> 02:16.067
+if n is equal to one,
+
+02:16.067 --> 02:17.680
+what's g of n gonna be?
+
+02:17.680 --> 02:19.568
+It's gonna be negative 31,
+
+02:19.568 --> 02:20.943
+negative 31.
+
+02:20.943 --> 02:22.760
+And if n,
+
+02:22.760 --> 02:26.387
+if n is greater than
+one and a whole number,
+
+02:26.387 --> 02:28.883
+so this is gonna be defined
+for all positive integers,
+
+02:28.883 --> 02:32.441
+and whole, and whole number,
+
+02:32.441 --> 02:34.989
+it's just going to be the previous term,
+
+02:34.989 --> 02:37.764
+so g of n minus one
+
+02:37.764 --> 02:39.100
+minus seven,
+
+02:39.100 --> 02:40.469
+minus seven.
+
+02:40.469 --> 02:41.528
+We're saying hey
+
+02:42.738 --> 02:44.764
+if we're just picking an arbitrary term
+
+02:44.764 --> 02:46.285
+we just have to look at the previous term
+
+02:46.285 --> 02:49.628
+and then subtract, and
+then subtract seven.
+
+02:49.628 --> 02:51.764
+It all works out nice and easy,
+
+02:51.764 --> 02:52.763
+because you keep looking at
+
+02:52.763 --> 02:54.051
+previous, previous, previous terms
+
+02:54.051 --> 02:56.652
+all the way until you
+get to the base case,
+
+02:56.652 --> 02:58.103
+which is when n is equal to one,
+
+02:58.103 --> 02:59.984
+and you can build up back from that.
+
+02:59.984 --> 03:02.886
+You get this exact same sequence.
+
+03:02.886 --> 03:03.989
+Let's do another example,
+
+03:03.989 --> 03:05.742
+but let's go the other way around.
+
+03:05.742 --> 03:08.645
+Here we have a, we have a
+
+03:08.645 --> 03:10.722
+sequence defined recursively,
+
+03:10.722 --> 03:12.382
+and I want to create a function
+
+03:12.382 --> 03:15.132
+that defines a sequence explicitly.
+
+03:15.132 --> 03:16.781
+Let's think about this.
+
+03:16.781 --> 03:17.664
+One way to think about it,
+
+03:17.664 --> 03:19.431
+this sequence,
+
+03:19.431 --> 03:22.679
+when n is equal to one it starts at 9.6,
+
+03:22.679 --> 03:25.967
+and then every term is the previous term
+
+03:25.967 --> 03:28.274
+minus 0.1.
+
+03:28.274 --> 03:30.576
+The second term is gonna
+be the previous term
+
+03:30.576 --> 03:33.963
+minus 0.1, so it's gonna be 9.5.
+
+03:33.963 --> 03:35.928
+Then you're gonna go to 9.4.
+
+03:35.928 --> 03:37.752
+Then you're gonna go to 9.3.
+
+03:37.752 --> 03:40.326
+We could keep going on and on and on.
+
+03:40.326 --> 03:42.794
+If we want, we could
+make a little table here,
+
+03:43.524 --> 03:45.503
+and we could say
+
+03:45.503 --> 03:48.823
+this is n, this is h of n,
+
+03:48.823 --> 03:50.727
+and you see when n is equal to one,
+
+03:50.727 --> 03:52.864
+h of n is 9.6.
+
+03:52.864 --> 03:54.105
+When n is equal to two,
+
+03:54.105 --> 03:55.382
+we're now in this case over here,
+
+03:55.382 --> 03:57.402
+it's gonna h of two minus one,
+
+03:57.402 --> 04:01.687
+so it's gonna be h of one minus 0.1.
+
+04:02.357 --> 04:04.542
+It's just gonna be this minus 0.1,
+
+04:04.542 --> 04:07.862
+which is going to be 9.5.
+
+04:07.862 --> 04:11.953
+When h is three, it's gonna be h of two,
+
+04:11.953 --> 04:15.436
+h of two minus 0.1,
+
+04:15.436 --> 04:17.538
+minus 0.1.
+
+04:17.538 --> 04:19.001
+H of two is right over here.
+
+04:19.001 --> 04:22.600
+You subtract a tenth you're gonna get 9.4,
+
+04:22.600 --> 04:24.504
+exactly what we saw over here.
+
+04:24.504 --> 04:26.529
+Let's see if we can pause the video now
+
+04:26.529 --> 04:28.144
+and define this...
+
+04:28.144 --> 04:30.761
+Create a function that
+constructs or defines
+
+04:30.761 --> 04:33.698
+this arithmetic sequence explicitly.
+
+04:33.698 --> 04:34.522
+Here it was recursively.
+
+04:34.522 --> 04:36.735
+We wanna define it explicitly.
+
+04:37.695 --> 04:38.888
+So let's just call it, I don't know,
+
+04:38.888 --> 04:41.254
+let's just call it f of n.
+
+04:41.254 --> 04:43.939
+We can say look, it's gonna be 9.6,
+
+04:44.709 --> 04:46.272
+but we're gonna subtract,
+
+04:46.272 --> 04:48.257
+we're gonna subtract 0.1
+
+04:48.257 --> 04:49.696
+a certain number of times
+
+04:49.696 --> 04:51.716
+depending on what term
+we're talking about.
+
+04:51.716 --> 04:53.817
+We're gonna subtract 0.1,
+
+04:53.817 --> 04:55.849
+but how many times are
+we gonna subtract it
+
+04:55.849 --> 04:57.753
+as a function of n?
+
+04:58.463 --> 04:58.890
+Let's see.
+
+04:58.890 --> 05:00.028
+If we're talking about the first term
+
+05:00.028 --> 05:02.127
+we subtract zero times.
+
+05:02.127 --> 05:04.968
+The second term we subtract one time.
+
+05:04.968 --> 05:07.354
+The third term we subtract two times.
+
+05:07.354 --> 05:09.907
+The fourth term we subtract three times.
+
+05:09.907 --> 05:11.533
+Whatever term we're talking about
+
+05:11.533 --> 05:15.468
+we subtract that term minus one times.
+
+05:15.468 --> 05:16.977
+If we're talking about the nth term,
+
+05:16.977 --> 05:21.273
+we subtracted this
+value n minus one times.
+
+05:21.273 --> 05:23.420
+You can verify that this is going to work.
+
+05:23.420 --> 05:25.738
+When n is equal to one
+
+05:25.738 --> 05:27.623
+this term here is going to be zero,
+
+05:27.623 --> 05:28.679
+so this whole thing is gonna be zero.
+
+05:28.679 --> 05:30.003
+You get 9.6.
+
+05:30.003 --> 05:32.314
+When n is equal to two,
+
+05:32.314 --> 05:33.619
+two minus one,
+
+05:33.619 --> 05:36.573
+you subtract 0.1 one time.
+
+05:36.573 --> 05:39.290
+9.6 minus 0.1 is 9.5.
+
+05:39.290 --> 05:40.033
+You could keep doing that.
+
+05:40.033 --> 05:41.171
+You could draw a table,
+
+05:41.171 --> 05:42.633
+and evaluate these if you want to.
+
+05:42.633 --> 05:45.531
+The key thing is your'e starting at 9.6
+
+05:45.531 --> 05:47.882
+and you're subtracting 0.1
+
+05:47.882 --> 05:50.411
+one fewer times than the
+term you're looking at.
+
+05:50.411 --> 05:52.849
+If you're looking at the if n is equal to,
+
+05:52.849 --> 05:55.090
+this is n is equal to four,
+
+05:55.090 --> 05:57.922
+well you're gonna subtract 0.1 three times,
+
+05:57.922 --> 05:58.886
+and you see that.
+
+05:58.886 --> 06:00.603
+Subtract 0.1 once,
+
+06:00.603 --> 06:02.206
+subtract 0.1 twice,
+
+06:02.206 --> 06:06.271
+subtract 0.1 three times.

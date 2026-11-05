@@ -1,0 +1,614 @@
+WEBVTT
+
+00:00.670 --> 00:03.010
+So we've got the
+equation x squared
+
+00:03.010 --> 00:04.975
+plus y squared is equal to 1.
+
+00:04.975 --> 00:07.120
+I guess we could call
+it a relationship.
+
+00:07.120 --> 00:10.200
+And if we were to graph
+all of the points x and y
+
+00:10.200 --> 00:12.220
+that satisfied
+this relationship,
+
+00:12.220 --> 00:15.884
+we get a unit circle like this.
+
+00:15.884 --> 00:17.550
+And what I'm curious
+about in this video
+
+00:17.550 --> 00:20.170
+is how we can figure out the
+slope of the tangent line
+
+00:20.170 --> 00:23.260
+at any point of
+this unit circle.
+
+00:23.260 --> 00:26.350
+And what immediately might be
+jumping out in your brain is,
+
+00:26.350 --> 00:29.710
+well a circle defined this
+way, this isn't a function.
+
+00:29.710 --> 00:32.890
+It's not y explicitly
+defined as a function of x.
+
+00:32.890 --> 00:37.140
+For any x value we actually
+have two possible y's
+
+00:37.140 --> 00:40.800
+that satisfy this
+relationship right over here.
+
+00:40.800 --> 00:43.480
+So you might be tempted
+to maybe split this up
+
+00:43.480 --> 00:46.450
+into two separate
+functions of x.
+
+00:46.450 --> 00:51.530
+You could say y is equal to
+the positive square root of 1
+
+00:51.530 --> 00:52.970
+minus x squared.
+
+00:52.970 --> 00:57.550
+And you could say y is equal to
+the negative square root of 1
+
+00:57.550 --> 00:59.020
+minus x squared.
+
+00:59.020 --> 01:01.530
+Take the derivatives of
+each of these separately.
+
+01:01.530 --> 01:05.317
+And you would be able to find
+the derivative for any x,
+
+01:05.317 --> 01:07.400
+or the derivative of the
+slope of the tangent line
+
+01:07.400 --> 01:08.622
+at any point.
+
+01:08.622 --> 01:10.080
+But what I want to
+do in this video
+
+01:10.080 --> 01:12.970
+is literally leverage
+the chain rule
+
+01:12.970 --> 01:15.060
+to take the
+derivative implicitly.
+
+01:15.060 --> 01:17.850
+So that I don't have
+to explicitly define y
+
+01:17.850 --> 01:20.434
+is a function of x either way.
+
+01:20.434 --> 01:22.100
+And the way we do
+that is literally just
+
+01:22.100 --> 01:26.360
+apply the derivative operator
+to both sides of this equation.
+
+01:26.360 --> 01:30.100
+And then apply what we
+know about the chain rule.
+
+01:30.100 --> 01:32.970
+Because we are not
+explicitly defining y
+
+01:32.970 --> 01:35.790
+as a function of x, and
+explicitly getting y
+
+01:35.790 --> 01:38.130
+is equal to f prime
+of x, they call
+
+01:38.130 --> 01:41.450
+this-- which is really just an
+application of the chain rule--
+
+01:41.450 --> 01:43.185
+we call it implicit
+differentiation.
+
+01:47.610 --> 01:50.440
+And what I want you to keep
+in the back of your mind
+
+01:50.440 --> 01:52.730
+the entire time
+is that it's just
+
+01:52.730 --> 01:54.440
+an application of
+the chain rule.
+
+01:54.440 --> 01:57.710
+So let's apply the derivative
+operator to both sides of this.
+
+01:57.710 --> 01:59.210
+So it's the derivative
+with respect
+
+01:59.210 --> 02:08.220
+to x of x squared plus y
+squared, on the left hand
+
+02:08.220 --> 02:10.270
+side of our equation.
+
+02:10.270 --> 02:13.020
+And then that's going to
+be equal to the derivative
+
+02:13.020 --> 02:15.790
+with respect to x on
+the right hand side.
+
+02:15.790 --> 02:17.810
+I'm just doing the
+same exact thing
+
+02:17.810 --> 02:22.190
+to both sides of this equation.
+
+02:22.190 --> 02:25.660
+Now if I take the derivative
+of the sum of two terms,
+
+02:25.660 --> 02:28.090
+that's the same thing as taking
+the sum of the derivative.
+
+02:28.090 --> 02:29.631
+So this is going to
+be the same thing
+
+02:29.631 --> 02:33.860
+as the derivative with
+respect to x of x squared,
+
+02:33.860 --> 02:38.180
+plus the derivative with
+respect to x of y squared.
+
+02:38.180 --> 02:40.329
+I'm writing all my
+orange stuff first.
+
+02:40.329 --> 02:40.870
+So let's see.
+
+02:40.870 --> 02:43.914
+This is going to be x squared,
+this is going to be y squared.
+
+02:43.914 --> 02:46.080
+And then this is going to
+be equal to the derivative
+
+02:46.080 --> 02:47.660
+with respect to x of a constant.
+
+02:47.660 --> 02:49.650
+This isn't changing
+with respect to x.
+
+02:49.650 --> 02:52.530
+So we just get 0.
+
+02:52.530 --> 02:54.260
+Now this first term
+right over here,
+
+02:54.260 --> 02:56.720
+we have done many, many,
+many, many, many, many times.
+
+02:56.720 --> 02:58.674
+The derivative with
+respect to x of x squared
+
+02:58.674 --> 02:59.840
+is just the power rule here.
+
+02:59.840 --> 03:03.030
+It's going to be 2 times
+x to the first power.
+
+03:03.030 --> 03:04.930
+We could just say 2x.
+
+03:04.930 --> 03:08.690
+Now what's interesting is what
+we're doing right over here.
+
+03:08.690 --> 03:12.900
+The derivative with
+respect to x of y squared.
+
+03:12.900 --> 03:17.209
+And the realization here is
+to just apply the chain rule.
+
+03:17.209 --> 03:19.000
+If we're taking the
+derivative with respect
+
+03:19.000 --> 03:22.410
+to x of this
+something, we just have
+
+03:22.410 --> 03:24.930
+to take the derivative--
+let me make it clear--
+
+03:24.930 --> 03:27.690
+we're just going to take the
+derivative of our something.
+
+03:27.690 --> 03:31.380
+The derivative of y squared--
+that's what we're taking,
+
+03:31.380 --> 03:36.270
+you can kind of view that as
+a function-- with respect to y
+
+03:36.270 --> 03:41.760
+and then multiply that
+times the derivative of y
+
+03:41.760 --> 03:43.600
+with respect to x.
+
+03:43.600 --> 03:47.170
+We're assuming that y does
+change with respect to x. y
+
+03:47.170 --> 03:49.020
+is not some type of
+a constant that we're
+
+03:49.020 --> 03:51.260
+writing just an abstract terms.
+
+03:51.260 --> 03:53.530
+So we're taking the
+derivative of this whole thing
+
+03:53.530 --> 03:56.530
+with respect to y.
+
+03:56.530 --> 03:58.780
+Once again, just the chain rule.
+
+03:58.780 --> 04:01.210
+And then we're taking
+the derivative of y
+
+04:01.210 --> 04:04.479
+with respect to x.
+
+04:04.479 --> 04:06.770
+It might be a little bit
+clearer if you kind of thought
+
+04:06.770 --> 04:13.560
+of it as the derivative
+with respect to x of y,
+
+04:13.560 --> 04:14.590
+as a function of x.
+
+04:17.860 --> 04:21.647
+This might be, or y is
+a function of x squared,
+
+04:21.647 --> 04:24.230
+which is essentially another way
+of writing what we have here.
+
+04:24.230 --> 04:25.820
+This might be a
+little bit clearer
+
+04:25.820 --> 04:27.640
+in terms of the chain rule.
+
+04:27.640 --> 04:29.840
+The derivative of
+y is a function
+
+04:29.840 --> 04:33.000
+of x squared with
+respect to y of x.
+
+04:33.000 --> 04:37.140
+So the derivative of
+something squared with respect
+
+04:37.140 --> 04:40.740
+to that something, times the
+derivative of that something,
+
+04:40.740 --> 04:42.030
+with respect to x.
+
+04:42.030 --> 04:43.580
+This is just the chain rule.
+
+04:43.580 --> 04:46.770
+I want to say it
+over and over again.
+
+04:46.770 --> 04:49.860
+This is just the chain rule.
+
+04:49.860 --> 04:50.690
+So let's do that.
+
+04:50.690 --> 04:52.710
+What do we get on the
+right hand side over here?
+
+04:52.710 --> 04:54.420
+And I'll write it
+over here as well.
+
+04:54.420 --> 04:56.860
+This would be equal to the
+derivative of y squared
+
+04:56.860 --> 05:03.030
+with respect to y, is just
+going to be 2 times y.
+
+05:03.030 --> 05:05.690
+2 times y, just an
+application of the chain rule.
+
+05:05.690 --> 05:07.550
+And the derivative of
+y with respect to x?
+
+05:07.550 --> 05:08.955
+Well, we don't
+know what that is.
+
+05:08.955 --> 05:11.330
+So we're just going to leave
+that as times the derivative
+
+05:11.330 --> 05:14.974
+of y with respect to x.
+
+05:14.974 --> 05:16.640
+So let's just write
+this down over here.
+
+05:16.640 --> 05:25.510
+So we have is 2x plus the
+derivative of something
+
+05:25.510 --> 05:28.230
+squared, with respect to
+that something, is 2 times
+
+05:28.230 --> 05:29.160
+the something.
+
+05:29.160 --> 05:32.310
+In this case, the something
+is y, so 2 times y.
+
+05:32.310 --> 05:38.410
+And then times the derivative
+of y with respect to x.
+
+05:38.410 --> 05:43.030
+And this is all going
+to be equal to 0.
+
+05:43.030 --> 05:44.720
+Now that was interesting.
+
+05:44.720 --> 05:47.490
+Now we have an equation
+that has the derivative
+
+05:47.490 --> 05:49.567
+of a y with respect to x in it.
+
+05:49.567 --> 05:51.650
+And this is what we
+essentially want to solve for.
+
+05:51.650 --> 05:55.180
+This is the slope of the
+tangent line at any point.
+
+05:55.180 --> 05:57.370
+So all we have to do
+at this point is solve
+
+05:57.370 --> 05:59.720
+for the derivative of
+y with respect to x.
+
+05:59.720 --> 06:01.360
+Solve this equation.
+
+06:01.360 --> 06:02.310
+So let's do that.
+
+06:02.310 --> 06:04.900
+And actually just so we
+can do this whole thing
+
+06:04.900 --> 06:08.860
+on the same page so we can see
+where we started, let me copy
+
+06:08.860 --> 06:11.070
+and paste this up here.
+
+06:11.070 --> 06:12.730
+This is where we left off.
+
+06:12.730 --> 06:14.620
+And let's continue there.
+
+06:14.620 --> 06:17.540
+So let's say let's subtract
+2x from both sides.
+
+06:17.540 --> 06:22.220
+So we're left with 2y
+times the derivative of y,
+
+06:22.220 --> 06:25.920
+with respect to x, is equal
+to-- we're subtracting 2x
+
+06:25.920 --> 06:30.021
+from both sides-- so it's
+equal to negative 2x.
+
+06:30.021 --> 06:32.270
+And if we really want to
+solve for the derivative of y
+
+06:32.270 --> 06:35.050
+with respect to x, we can
+just divide both sides by 2y.
+
+06:39.810 --> 06:42.840
+And we're left with
+the derivative of y
+
+06:42.840 --> 06:43.930
+with respect to x.
+
+06:43.930 --> 06:45.340
+Let's scroll down a little bit.
+
+06:45.340 --> 06:47.540
+The derivative of
+y with respect to x
+
+06:47.540 --> 06:51.930
+is equal to, well
+the 2s cancel out.
+
+06:51.930 --> 06:59.070
+We we're left with
+negative x over y.
+
+06:59.070 --> 07:00.410
+So this is interesting.
+
+07:00.410 --> 07:02.980
+We didn't have to us
+explicitly define y
+
+07:02.980 --> 07:04.550
+as a function of x here.
+
+07:04.550 --> 07:08.710
+But we got our derivative
+in terms of an x and a y.
+
+07:08.710 --> 07:10.740
+Not just only in terms of an x.
+
+07:10.740 --> 07:12.190
+But what does this mean?
+
+07:12.190 --> 07:14.660
+Well, if we wanted
+to find, let's
+
+07:14.660 --> 07:18.980
+say we wanted to find the
+derivative at this point
+
+07:18.980 --> 07:20.172
+right over here.
+
+07:20.172 --> 07:22.130
+Which, if you're familiar
+with the unit circle,
+
+07:22.130 --> 07:25.950
+so if this was a
+45 degree angle,
+
+07:25.950 --> 07:28.610
+this would be the square
+root of 2 over 2 comma
+
+07:28.610 --> 07:31.090
+the square root of 2 over 2.
+
+07:31.090 --> 07:33.830
+What is the slope of
+the tangent line there?
+
+07:33.830 --> 07:34.830
+Well, we figured it out.
+
+07:34.830 --> 07:38.480
+It's going to be
+negative x over y.
+
+07:38.480 --> 07:46.985
+So the slope of the
+tangent line here
+
+07:46.985 --> 07:49.050
+is going to be
+equal to negative x.
+
+07:49.050 --> 07:53.930
+So negative square root
+of 2 over 2 over y.
+
+07:53.930 --> 07:57.990
+Over square root of 2 over 2,
+which is equal to negative 1.
+
+07:57.990 --> 08:01.580
+And that looks just about right.

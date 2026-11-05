@@ -1,0 +1,159 @@
+WEBVTT
+
+00:00.497 --> 00:08.076
+Jsme tváří v tvář tomuto hrozivému
+integrálu π lomeno [x krát ln(x)] dx.
+
+00:08.452 --> 00:11.204
+Co s tím můžeme dělat?
+
+00:11.380 --> 00:13.560
+Je zde možná substituce?
+
+00:14.512 --> 00:18.616
+Na to bychom potřebovali výraz
+a jeho derivaci.
+
+00:18.795 --> 00:25.400
+Co kdybychom označili 'u' rovno ln(x)?
+
+00:25.677 --> 00:29.151
+Co by v takovém případě bylo 'du'?
+
+00:29.344 --> 00:32.864
+'du' bude derivace ln(x)
+podle proměnné 'x',
+
+00:33.074 --> 00:37.574
+což je (1 lomeno x) dx.
+
+00:37.762 --> 00:44.694
+To je ekvivalentní s tvrzením,
+že 'du podle dx' je (1 lomeno x).
+
+00:45.096 --> 00:49.293
+Vidíme v původním výrazu (1 lomeno x) dx?
+
+00:49.841 --> 00:50.998
+Trochu se schovává.
+
+00:51.130 --> 00:53.961
+Není to ihned vidět,
+ale toto 'x' ve jmenovateli,
+
+00:54.156 --> 00:57.051
+to je vlastně (1 lomeno x).
+
+00:57.220 --> 01:00.302
+Přepíšu tedy původní integrál,
+aby to dávalo smysl.
+
+01:00.524 --> 01:05.466
+Nejdříve napíšu π…
+Udělám to nějakou novou barvou.
+
+01:06.271 --> 01:11.274
+…π napíšu takto před integrál.
+
+01:11.475 --> 01:13.685
+Integrál bude z…
+
+01:13.854 --> 01:16.841
+Nejdříve napíšu přirozený logaritmus.
+
+01:16.967 --> 01:23.139
+[1 lomeno ln(x)] krát (1 lomeno x) dx.
+
+01:23.301 --> 01:24.300
+Teď je to jasnější.
+
+01:24.485 --> 01:28.917
+Jsou to ekvivalentní tvrzení.
+
+01:29.104 --> 01:33.404
+Nyní je však jasné,
+že substituce možná je.
+
+01:33.571 --> 01:36.616
+'u' bude rovno ln(x).
+
+01:36.755 --> 01:44.452
+'du' bude (1 lomeno x) dx.
+
+01:44.595 --> 01:45.911
+Přepišme integrál.
+
+01:46.118 --> 01:54.377
+Bude roven π krát integrál (1 lomeno u)…
+
+01:55.249 --> 01:59.656
+'u' je ln(x).
+
+01:59.819 --> 02:04.523
+…krát 'du'.
+
+02:04.733 --> 02:06.072
+Teď je to přímočaré.
+
+02:06.258 --> 02:08.443
+Jaká je primitivní funkce k tomuto?
+
+02:08.594 --> 02:11.580
+Něco podobného jsme už několikrát dělali.
+
+02:11.720 --> 02:22.219
+To bude rovno π krát logaritmus
+absolutní hodnoty 'u'.
+
+02:23.332 --> 02:28.540
+Abychom mohli brát v potaz i záporná 'u'.
+
+02:28.695 --> 02:33.650
+…plus C.
+
+02:33.827 --> 02:36.721
+Jsme téměř v cíli, jen dosadíme za 'u'.
+
+02:36.876 --> 02:38.545
+'u' je ln(x).
+
+02:38.700 --> 02:40.759
+Dostáváme tento pěkně vypadající výsledek.
+
+02:40.900 --> 02:44.865
+Vypočítali jsme tento integrál.
+
+02:45.092 --> 03:02.645
+Je roven π krát logaritmus
+absolutní hodnoty logaritmu 'x' plus C.
+
+03:02.868 --> 03:09.960
+Můžeme předpokládat, že původní
+výraz je definován jen pro kladná 'x',
+
+03:10.151 --> 03:13.450
+neboť tu je logaritmus
+bez absolutní hodnoty.
+
+03:13.622 --> 03:17.107
+Takže bychom tu mohli nechat jen ln(x),
+
+03:17.458 --> 03:21.646
+ale takto to také bude fungovat,
+neboť bereme absolutní hodnotu tohoto,
+
+03:21.825 --> 03:24.806
+kde ln(x) může být záporné číslo.
+
+03:25.005 --> 03:29.279
+Například pokud by to byl
+logaritmus jedné poloviny,
+
+03:29.425 --> 03:31.151
+nebo čehokoliv jiného.
+
+03:31.321 --> 03:32.851
+Jsme hotovi.
+
+03:33.022 --> 03:37.780
+Vypočítali jsme tento hrozivý integrál.

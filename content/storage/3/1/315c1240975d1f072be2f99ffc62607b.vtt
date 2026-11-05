@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.000 --> 00:03.010
+W poprzednim filmiku, wyprowadzilismy
+wzór
+
+00:03.010 --> 00:06.160
+na sumę skończonego ciągu geometrycznego,
+
+00:06.160 --> 00:10.510
+gdzie a to pierwszy wyraz, oraz r to iloraz.
+
+00:10.510 --> 00:12.220
+To co chciałbym zrobić w tym filmiku,
+
+00:12.220 --> 00:16.030
+to rozważyć sumę nieskończonego ciągu
+geometrycznego.
+
+00:16.030 --> 00:19.900
+Może was na początku dziwić,
+
+00:19.900 --> 00:22.660
+a przynajmniej mnie to zawsze dziwiło,
+
+00:22.660 --> 00:25.160
+jak to możliwe że sumujemy nieskończenie
+wiele składników,
+
+00:25.160 --> 00:27.550
+a możemy dostać w wyniku jakąś skończoną
+liczbę,
+
+00:27.550 --> 00:30.580
+w zależności od tego jaki był iloraz ciągu.
+
+00:30.580 --> 00:32.980
+Jest kilka sposobów radzenia sobie
+z tym paradoksem.
+
+00:32.980 --> 00:35.170
+Po pierwsze, można powiedzieć,
+że ta suma
+
+00:35.170 --> 00:37.350
+nieskończona to po prostu granica
+tego wyrażenia
+
+00:37.350 --> 00:41.230
+przy n dążacym do nieskończoności.
+
+00:41.230 --> 00:45.950
+Czyli moglibyśmy powiedzieć,
+jaka jest granica
+
+00:45.950 --> 00:53.690
+przy n dążącym do nieskończoności,
+sumy wyrazów postaci a razy r^k
+
+00:53.690 --> 01:04.069
+od k równego 0 do k równego n.
+
+01:04.069 --> 01:06.110
+To byłoby równoważne wzięciu granicy
+
+01:06.110 --> 01:08.560
+w wyrażeniu po prawej stronie
+równania.
+
+01:08.560 --> 01:12.410
+Czyli możemy napisać że to to samo
+
+01:12.410 --> 01:16.440
+co wzięcie granicy tego wyrażenia.
+
+01:16.440 --> 01:17.940
+Skopiuję je teraz szybko,
+
+01:17.940 --> 01:20.070
+żebym nie musiał ciągle zmieniać kolorów.
+
+01:20.070 --> 01:23.430
+Skopiuj - wklej.
+
+01:23.430 --> 01:26.141
+No to jaka jest granica przy n dążącym
+do nieskończności?
+
+01:26.141 --> 01:27.640
+Warto sie nad tym zastanowić.
+
+01:27.640 --> 01:28.820
+Zachęcam do spauzowania,
+
+01:28.820 --> 01:30.220
+i dam jedną wskazówkę.
+
+01:30.220 --> 01:33.000
+Rozważ osobno trzy przypadki:
+
+01:33.000 --> 01:35.244
+dla wartości bezwzględnej r większej niż 1,
+
+01:35.244 --> 01:36.660
+dla wartości bezwzględnej
+
+01:36.660 --> 01:39.900
+r równej 1, i jak nietrudno się domyślić,
+
+01:39.900 --> 01:42.450
+dla wartości bezwzględnej r
+
+01:42.450 --> 01:47.180
+mniejszej niż 1.
+
+01:47.180 --> 01:49.250
+Zakładam że już zastanowiliście się nad tym.
+
+01:49.250 --> 01:55.210
+Zatem jeśli |r| > 1,
+
+01:55.210 --> 01:59.660
+to kiedy ten wykładnik zbiega do nieskończonosci,
+
+01:59.660 --> 02:02.040
+ta liczba będzie rosnąć bardzo,
+
+02:02.040 --> 02:03.560
+ale to bardzo szybko.
+
+02:03.560 --> 02:05.570
+Więc cała ta wartość, a przynajmniej
+
+02:05.570 --> 02:07.240
+jej wartość bezwzględna,
+
+02:07.240 --> 02:08.615
+będzie rosnąć i stawać się
+
+02:08.615 --> 02:10.690
+coraz to większą liczbą.
+
+02:10.690 --> 02:14.350
+Jeśli r jest równe 1, to mianownik wyrażenia
+
+02:14.350 --> 02:16.190
+jest równy zero.
+
+02:16.190 --> 02:18.480
+Chcielibyśmy móc podzielić licznik
+przez mianownik,
+
+02:18.480 --> 02:20.930
+czyli przez 0, więc wzór nie ma
+sensu dla r równego 1.
+
+02:20.930 --> 02:22.680
+Przypadek w którym wzór jest pomocny,
+
+02:22.680 --> 02:25.700
+i w którym dostaniemy sensowny wynik,
+
+02:25.700 --> 02:29.390
+to ten w którym wartość bezwzględna r
+
+02:29.390 --> 02:31.811
+jest pomiędzy 0 a 1.
+
+02:31.811 --> 02:33.560
+Mówilismy już o tym,
+
+02:33.560 --> 02:35.309
+że dla r równego zero nie mamy
+
+02:35.309 --> 02:38.570
+tak naprawdę do czynienia z
+szeregiem geometrycznym.
+
+02:38.570 --> 02:43.400
+Pomyślmy zatem o sytuacji w której
+wartość bezwzględna r
+
+02:43.400 --> 02:47.260
+jest większa niż 0,
+ale mniejsza niż 1.
+
+02:47.260 --> 02:49.410
+Co się stanie w
+tym przypadku?
+
+02:49.410 --> 02:52.820
+Jak widać mianownik będzie
+miał sens (będzie różny od zera).
+
+02:52.820 --> 02:55.960
+A co się stanie w liczniku?
+
+02:55.960 --> 02:58.640
+Cóż, jeśli weźmiecie coś o
+wartości bezwzględnej
+
+02:58.640 --> 03:02.960
+mniejszej niż 1, i będziecie podnosić
+do coraz wyższej potęgi,
+
+03:02.960 --> 03:05.650
+czyli mnożyć tę liczbę przez
+siebie coraz więcej razy
+
+03:05.650 --> 03:09.410
+to będziecie dostawać liczby o coraz
+mniejszych wartościach bezwzględnych.
+
+03:09.410 --> 03:12.210
+Zatem całe to wyrażenie,
+
+03:12.210 --> 03:15.860
+będzie dążyć do zera przy n
+dążącym do nieskończoności.
+
+03:15.860 --> 03:16.970
+Wyobraźcie sobie że r = 1/2.
+
+03:16.970 --> 03:18.970
+Teraz pomyślcie o 1/2 do setnej potęgi,
+
+03:18.970 --> 03:21.420
+albo do tysięcznej,
+a nawet do milionowej,
+
+03:21.420 --> 03:22.880
+miliardowej, itd.
+
+03:22.880 --> 03:25.300
+Taka liczba bardzo szybko
+zbiega do zera.
+
+03:25.300 --> 03:28.340
+Zatem ta liczba zbiega do zera
+jeśli wartość bezwzględna r
+
+03:28.340 --> 03:30.390
+jest mniejsza niż 1.
+
+03:30.390 --> 03:38.370
+Czyli ta granica byłaby równa a
+
+03:38.370 --> 03:42.900
+podzielone przez 1 - r.
+
+03:42.900 --> 03:46.450
+Weźmy jakiś konkretny przykład
+
+03:46.450 --> 03:49.070
+nieskończonego szeregu geometrycznego,
+
+03:49.070 --> 03:50.400
+najlepiej jakiś prosty.
+
+03:50.400 --> 03:52.470
+Powiedzmy że weźmiemy pierwszy
+wyraz równy 1,
+
+03:52.470 --> 03:57.150
+i każdy kolejny bedzie pomnożony przez 1/3
+(tzn. iloraz r = 1/3).
+
+03:57.150 --> 04:07.680
+Czyli mamy 1 + 1/3 + (1/3)^2 + ....
+
+04:07.680 --> 04:12.620
+i tak dalej w nieskończoność.
+
+04:12.620 --> 04:15.292
+Nasze rozważania mówią nam
+że ta suma,
+
+04:15.292 --> 04:17.000
+suma nieskończonej ilości składników,
+
+04:17.000 --> 04:19.779
+co jest dość fascynujące,
+
+04:19.779 --> 04:21.053
+daje w wyniku co następuje.
+
+04:21.053 --> 04:27.020
+Mój pierwszy wyraz, czyli 1, podzielony przez
+
+04:27.020 --> 04:29.560
+jeden minus iloraz.
+
+04:29.560 --> 04:32.160
+Ilorazem tutaj jest 1/3.
+
+04:32.160 --> 04:37.260
+1 - 1/3 = 2/3.
+
+04:37.260 --> 04:41.763
+Po podzieleniu 1 przez 2/3
+dostajemy w wyniku 3/2.
+
+04:41.763 --> 04:46.000
+To naprawdę coś niesamowitego.

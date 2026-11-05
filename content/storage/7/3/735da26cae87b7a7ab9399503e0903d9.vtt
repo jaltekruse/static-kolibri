@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.091 --> 00:08.010
+No ultimo video, nós achamos a série de MacLauren de e^x, e vimos que parecia com algum tipo de
+
+00:08.010 --> 00:16.537
+combinação da aproximação polinomial de cos(x) e de sen(x), não exatamente, por que tinha
+
+00:16.537 --> 00:22.641
+alguns negativos lá, se nós realmente fossemos adicionar os dois, nós não teriamos,
+
+00:22.641 --> 00:29.994
+a representação de e^x. Mas para conciliar as duas coisas, eu vou usar, não sei se podemos chamar
+
+00:29.994 --> 00:38.643
+disso, um truque. Vamos ver, se nós tomarmos essa série polinomial de e^x, essa aproximação, o que acontece,
+
+00:38.643 --> 00:46.603
+e se dissermos que e^x é igual a isso, especialmente quando isso se torna um número infinito de termos, isso se torna menos um aproximação
+
+00:46.603 --> 00:54.010
+e mais uma equalidade. O que acontece se tomarmos e^(ix)? E antes isso poderia ser uma coisa uma coisa estranha de se
+
+00:54.010 --> 01:00.737
+fazer. Deixe-me escrever: e^(ix). Porque antes, era como, como você define e elevado a potência i, isso seria
+
+01:00.737 --> 01:05.994
+uma coisa muito bizarra de se fazer, elevar alguma coisa a potência ix, como compreender um tipo
+
+01:05.994 --> 01:12.224
+de função como essa? Mas agora que podemos ter uma série polinomial, nós talvez possamos fazer
+
+01:12.224 --> 01:18.245
+algum sentido disso, porque podemos elevar i a diferentes potências, e sabemos no que resulta, por exemplo
+
+01:18.245 --> 01:26.022
+i^2=-1, i^3=-i, e assim vai. Então o que acontece quando voce tem e^(ix)? Então, de novo, é como se
+
+01:26.022 --> 01:31.925
+tirassemos o x daqui, e trocassemos por ix. Então em todo lugar que temos x, na aproximação
+
+01:31.925 --> 01:40.160
+polinomial, nós escrevemos ix. Então vamos fazer isso. Então e^(ix) deve ser aproximadamente, e vai se tornar
+
+01:40.160 --> 01:44.799
+mais e mais igual. E isso é mais uma intuição, eu não estou fazendo uma prova rigorosa aqui. Mas ainda assim é
+
+01:44.799 --> 01:51.389
+profunda... Sem querer exagerar, mas eu não acho que eu posso exagerar o que esta para ser descoberto nesse
+
+01:51.389 --> 02:01.642
+video. Isso seria igual a 1+, em vez de um x, nós teremos um ix, +ix+, então o que é
+
+02:01.642 --> 02:13.622
+(ix)^2? Então vai ser, deixe-me escrever isso, o que é (ix)^2/2!? Bom, i^2 vai ser -1 e
+
+02:13.622 --> 02:24.215
+você teria (x^2)/2!. Então vai ser -(x^2)/2!, e, eu acho que você talvez ja esteja vendo onde isso vai dar. E então,
+
+02:24.215 --> 02:31.507
+o que ix, lembre-se, todo lugar que nós vemos um x, nós vamos trocar por ix. Então o que (ix)^3? Alias,
+
+02:31.507 --> 02:41.638
+deixe-me escrever isso aqui, irei não pular alguns passos aqui. Então isso aqui vai ser ((ix)^2)/2!. Alias,
+
+02:41.638 --> 03:10.854
+deixe-me... Eu vou fazer isso aqui do jeito... Então, +((ix^2))/2!+((ix)^3)/3!+((ix)^4)/4!+((ix)^5)/5! e nós podemos continuar
+
+03:10.854 --> 03:23.638
+e assim vai. Mas vamos avaliar esses 'ix' elevados a diferentes potências. Então isso vai ser igual a 1+ix...
+
+03:23.638 --> 03:36.140
+(ix)^2, isso é a mesma coisa que (i^2)(x^2), i^2 é -1. Então isso é -(x^2)/2!. E então isso vai ser a mesma
+
+03:36.140 --> 03:52.547
+coisa que (i^3)(x^3), i^3 é a mesma coisa que (i^2)i, entao vai ser -i, então vai ser -i, então vai ser -i(x~3)/3!. E então,
+
+03:52.547 --> 04:04.584
+então temos +, você terá, o que é i^4? então isso é (i^2)^2, entãp isso é (-1)^2, isso vai ser apenas 1, então i^4
+
+04:04.584 --> 04:14.041
+é 1 e voce vai ter x^4, então +(x^4)/4!. E então voce vai ter +, eu não vou nem escrever o +
+
+04:14.041 --> 04:28.974
+ainda, i^5, então i^5 será 1i, então vai fser i(x^5)/5!, então +(x^5)/5!, e eu acho que voce já vê o
+
+04:28.974 --> 04:52.692
+padrão aqui. Os coeficientes são 1, i, -1, -i, 1, i e então -1(x^6)/6!, e então -i(x^7)/7!. Então nós teremos alguns termos, alguns deles
+
+04:52.692 --> 04:59.294
+são imaginários, eles tem um i, eles estão sendo multiplicados por i, alguns deles são reais, por que nós não separamos
+
+04:59.294 --> 05:05.572
+eles? Por que nós não separamos eles? Então, novamente, e^(ix) vai ser igual a essa coisa aqui, especialmente
+
+05:05.572 --> 05:13.323
+conforme nós adicionamos um número infinitos de termos. Então vamos separa-los, os termos reais e os não reais, ou, os termos reais e os
+
+05:13.323 --> 05:24.777
+imaginários, quero dizer. Então esse é real, esse é real, esse é real, esse é real e esse aqui é real. And nós
+
+05:24.777 --> 05:39.314
+podemos continuar fazendo isso. Então os termos reais são 1-(x^2)/2!+(x^4)/4!, e você deve estar ficando animado
+
+05:39.314 --> 05:48.698
+agora, -(x^6)/6!, e isso é tudo o que eu fiz aqui, mas poderíamos continuar, então +, e assim vai. Então isso aqui são todos os
+
+05:48.698 --> 05:56.575
+termos reais. E quais são os termos imaginários aqui? Então deixe-me apenas, eu vou apenas fatorar esse i aqui. Então vai
+
+05:56.575 --> 06:05.254
+ficar +i vezes, bom, esse aqui é ix, então isso vai ser x, e então o próximo... então esse é um termo imaginário, esse é um
+
+06:05.254 --> 06:16.204
+termo imaginário, nós estamos fatorando o i, então -(x^3)/3!, então o próximo termo imaginário esta aqui, nós
+
+06:16.204 --> 06:25.122
+fatoramos o i, +(x^5)/5!, e então o próximo termo imaginário esta bem aqui, nós fatoramos o i, então fica
+
+06:25.122 --> 06:35.617
+-(x^7)/7!, e obviamente você continuaria, então, +, -, continuaríamos, e assim vai. Preferivelmente até o infinito, para
+
+06:35.617 --> 06:45.039
+podermos conseguir uma aproximação tão boa quanto possível. Então temos uma situação onde e^(ix) é igual a
+
+06:45.039 --> 06:52.190
+toda essa coisa aqui. Mas provavelmente se lembra, dos ultimos vídeos, a parte real, isso era a
+
+06:52.190 --> 06:59.794
+aproximação polinomial, isso era a aproximação de MacLauren de cos(x) próxima a 0, ou, devo dizer, a aproximação
+
+06:59.794 --> 07:05.946
+de Taylor próxima a 0, ou então poderiamos chamar de aproximação de MacLauren. Então isso e isso são a
+
+07:05.946 --> 07:16.382
+mesma coisa. Então esse é o cos(x), especialmente quando voce adiciona um numero infinito de termos, cos(x). Esse aqui, é
+
+07:16.382 --> 07:23.138
+sen(x), exatamente a mesma coisa. Parece então que nós somos capazes de reconciliar como podemos adicionar cos(x) e sen(x) para obtermos
+
+07:23.138 --> 07:32.782
+alguma coisa que é e^x. Esse aqui é sen(x), e entoão, e, se nós admitirmos, e eu não estou rigorosamente provando
+
+07:32.782 --> 07:38.172
+para vocês, que se pegarmos esse infinito numero de termos aqui, que isso essencialmente se torna cos(x), e se você
+
+07:38.172 --> 07:45.894
+pegar um infinito numero de termos aqui, isso vai se tornar sen(x), isso nos leva a uma formula fascinanete. Nós podemos dizer
+
+07:45.894 --> 07:57.945
+que e^(ix) é a mesma coisa que cos(x), e voce deve estar tendo arrepios agora, é igual a
+
+07:57.945 --> 08:14.012
+cos(x)+i(sen(x)), e isso é a Formula de Euler. Isso aqui é a Formula de Euler, e se isso por conta própria não
+
+08:14.012 --> 08:18.495
+é provocante e maluco o suficiente para você, porque realmente deveria ser, porque nós já fizmeos coisas
+
+08:18.495 --> 08:24.431
+bem legais. Nós envolvemos e, que nós obtemos de composição continua de juros, nós temos cos(x) e
+
+08:24.431 --> 08:31.375
+sen(x), que são razões de triangulos retangulos, que vem do circulo unitário, e de algum jeito nós colocamos (-1)^(1/2),
+
+08:31.375 --> 08:37.263
+parece que temos essa relação interessante aqui. Mas ela se torna extra interessante, e nós vamos assumir que
+
+08:37.263 --> 08:45.644
+estamos operando em radianos aqui, se assumirmos a Formula de Euler, o que acontece quando x é igual a pi. Apenas para
+
+08:45.644 --> 08:50.790
+colocar um outro numero louco aí, a razão entre a circunferencia e o diametro de um circulo,
+
+08:50.790 --> 09:06.529
+o que acontece quando colocamos pi? Nós temos que e^((i)(pi)) é igual a cos(pi), cos(pi) é o que? cos(pi) é, pi é
+
+09:06.529 --> 09:18.843
+meio caminho em volta do circulo, então cos(pi) é -1, e então sin(pi) é 0. Então esse termo some. Então se você
+
+09:18.843 --> 09:26.544
+avaliar isso em pi, você obtem algo surpreendente, isso é chamado Identidade de Euler!! Identidade de Euler! Eu sempre tive
+
+09:26.544 --> 09:34.485
+problemas pronunciando Euler. Identidade de Euler!! Que nós podemos escrever assim, ou adicionar 1 aos dois lados, e nós
+
+09:34.485 --> 10:02.546
+podemos escrever assim. E eu vou escrever numa cor diferente para ênfase. e^((i)(pi))+1=0. E ISSO, isso é
+
+10:02.546 --> 10:06.947
+instigante. Quer dizer, aqui nós temos, só para você ver, quer dizer, isso aqui nos diz que existe uma conexão
+
+10:06.947 --> 10:12.974
+no Universo que nós não compreendemos completamente, eu pelo menos, eu não compreendo completamente. i é definido por engenheiros
+
+10:12.974 --> 10:20.883
+para simplicidade para que eles possam achar raizes de todos os tipos de polinomios, como, poderia-se dizer, a raiz quadrada de -1.
+
+10:20.883 --> 10:29.846
+pi é a razão entre a circunferencia de um circulo com seu diametro, novamente, outro número
+
+10:29.846 --> 10:35.441
+interessante, mas que aparentemente vem de um lugar diferente de i. e vem de vários lugares.
+
+10:35.441 --> 10:41.670
+e você pode pensar nele, como vindo de composição continua de juros, super importante para Finanças
+
+10:41.670 --> 10:47.078
+vem também da noção de que a derivada de e^x também é e^x, então outro número fascinante, mas de
+
+10:47.078 --> 10:53.118
+novo, aparentemente sem relação com como definimos i, e aparentemente sem relação com como definimos pi.
+
+10:53.118 --> 11:00.011
+E então, é claro, você tem dois dos mais profundos e básicos números aqui, você tem 1, eu não
+
+11:00.011 --> 11:06.026
+tenho que explicar porque 1 é um número interessante, e eu não deveria ter que explicar porque 0 é um número interessante. Então isso bem
+
+11:06.026 --> 11:13.197
+aqui, conecta todos esses números fundamentais, de uma forma mistica, que nos mostra que existe alguma
+
+11:13.197 --> 11:23.983
+conexão no Universo, então, francamente, francamente, se isso aqui não te deixa chocado, você realmente...
+
+11:23.983 --> 11:27.000
+você não possui emoção.

@@ -1,0 +1,187 @@
+WEBVTT
+
+00:01.017 --> 00:05.136
+Agora vamos pensar em um dos meus teoremas preferidos na Matemática,
+
+00:05.136 --> 00:09.670
+que é o Teorema do Confronto. E uma das razões pelas quais ele é um dos meus teoremas
+
+00:09.670 --> 00:15.736
+preferidos na Matemática é que ele contém a palavra &amp;quot;confronto&amp;quot;, uma palavra que não costuma
+
+00:15.736 --> 00:19.017
+aparecer em muitos lugares na Matemática. Mas o nome é apropriado!
+
+00:19.017 --> 00:24.204
+Ele também é frequentemente chamado de Teorema do Sanduíche, que também é um nome apropriado,
+
+00:24.204 --> 00:26.351
+conforme veremos em um segundo.
+
+00:26.351 --> 00:31.204
+E como ele pode ser chamado de Teorema do Sanduíche, vamos primeiro pensar em uma analogia
+
+00:31.204 --> 00:36.684
+para pegarmos a intuição por trás do teorema do Confronto, ou do Sanduíche.
+
+00:36.684 --> 00:52.600
+Digamos que existem três pessoas, Imran, Diya e Sal. E digamos que Imran, em qualquer dia,
+
+00:52.600 --> 00:57.429
+sempre consome a menor quantidade de calorias, e Sal, em qualquer dia, sempre consome
+
+00:57.490 --> 01:06.766
+o maior número de calorias. Então em um dado dia, sempre podemos afirmar que Diya come ao menos
+
+01:06.766 --> 01:26.932
+tanto quanto Imran, e também podemos dizer que Sal come ao menos tanto quanto Diya.
+
+01:26.932 --> 01:31.933
+Então podemos construir uma pequena inequalidade: em um dado dia, podemos dizer que as calorias de
+
+01:31.933 --> 01:44.471
+Imran, em um determinado dia, serão menores ou iguais às calorias de Diya, naquele
+
+01:44.471 --> 01:55.471
+mesmo dia, que serão menores ou iguais às calorias de Sal, naquele mesmo dia.
+
+01:55.471 --> 02:02.100
+Agora digamos que é terça feira.
+
+02:02.100 --> 02:18.350
+Você descobre que Imran comeu 1500 calorias e, naquele mesmo dia, Sal também comeu 1500
+
+02:18.350 --> 02:20.601
+calorias.
+
+02:20.601 --> 02:25.869
+Então baseado nisso, quantas calorias a Diya deve ter ingerido naquele dia?
+
+02:25.869 --> 02:31.600
+Bem, ela sempre come ao menos tanto quanto Imran, então ela comeu 1500 calorias ou mais,
+
+02:31.600 --> 02:38.600
+mas ela sempre come uma quantidade menor ou igual à que Sal come, então deve ser menor ou igual a 1500.
+
+02:38.600 --> 02:44.599
+Bem, só existe um número que é maior ou igual a 1500 e menor ou igual a 1500, e esse número é
+
+02:44.599 --> 02:51.137
+1500 calorias, então Diya deve ter ingerido 1500 calorias -- é apenas senso comum!
+
+02:51.137 --> 02:57.669
+Diya deve ter ingerido 1500 calorias. E o Teorema do Confronto é essencialmente a versão
+
+02:57.669 --> 03:03.851
+matemática disso, para funções. Você pode mesmo ver as calorias de Imran como uma
+
+03:03.851 --> 03:09.203
+função do dia, as calorias de Sal como uma função do dia, e as calorias de Diya, como uma
+
+03:09.203 --> 03:15.433
+função do dia, sempre estará entre as outras. Então agora vamos tornar isto um pouquinho
+
+03:15.433 --> 03:23.870
+mais matemático. Então deixe-me limpar isso, para que tenhamos um pouco de espaço para matemática.
+
+03:23.870 --> 03:31.737
+Então digamos que temos essa mesma analogia. Digamos que temos três funções. Digamos que f(x), em
+
+03:31.737 --> 03:40.404
+algum intervalo, é sempre menor ou igual a g(x), naquele mesmo intervalo, que também é sempre
+
+03:40.404 --> 03:45.870
+menor ou igual a h(x), naquele mesmo intervalo.
+
+03:45.870 --> 03:49.137
+Então permita-me mostrar isso graficamente.
+
+03:49.137 --> 03:54.204
+Vamos mostrar isso graficamente, com um gráfico bem aqui.
+
+03:54.204 --> 04:04.267
+Então este é o meu eixo y, este é o meu eixo x, e eu vou apenas demarcar algum intervalo
+
+04:04.267 --> 04:14.600
+no eixo x, bem aqui, então digamos que h(x) é mais ou menos assim... Vamos tornar isso mais
+
+04:14.600 --> 04:25.803
+interessante, este é o eixo x, então vamos dizer que h(x) é mais ou menos assim, então esta é h(x), e
+
+04:25.803 --> 04:31.433
+digamos que f(x) é mais ou menos assim -- talvez ela faça algumas coisas interessantes:
+
+04:31.433 --> 04:39.406
+ela entra, depois sobe assim, então f(x) é mais ou menos assim. E então g(x), para qualquer
+
+04:39.406 --> 04:46.017
+valor de x, g(x) está sempre entre essas duas. E acho que você consegue ver onde o "confronto"
+
+04:46.017 --> 04:48.138
+acontece, ou onde o "sanduíche" acontece.
+
+04:48.138 --> 04:54.683
+Então se h(x) e f(x) fossem pedaços maleáveis de pão, g(x) seria a carne no meio do pão.
+
+04:54.683 --> 04:56.803
+E seria mais ou menos assim.
+
+04:56.803 --> 05:02.203
+Agora digamos que sabemos (isso é análogo a dizer que em um determinado dia Sal e Imran
+
+05:02.203 --> 05:09.004
+comeram a mesma quantidade), digamos que para um valor em particular de x, o limite de f(x) e h(x)
+
+05:09.004 --> 05:13.405
+quando se aproximam daquele valor, é o mesmo.
+
+05:13.405 --> 05:19.350
+Então tomemos este valor de x aqui. Digamos que o valor de x é C, bem aqui.
+
+05:19.350 --> 05:35.049
+E digamos que o limite de f(x) quando x tende a C é igual a L,
+
+05:35.064 --> 05:46.138
+e digamos que o limite quando x tende a C de h(x) também é igual a L.
+
+05:46.138 --> 05:51.870
+Então quando x se aproxima de C, h(x) se aproxima de L, e quando x se aproxima de C de qualquer lado,
+
+05:51.870 --> 05:57.136
+f(x) se aproxima de L, então esses limites devem ser definidos. Na verdade as funções não precisam
+
+05:57.136 --> 06:02.537
+ser definidas em x = C, apenas neste intervalo, elas devem estar definidos conforme nos aproximamos
+
+06:02.537 --> 06:06.537
+de C, mas neste intervalo a inequalidade deve ser verdadeira, e se limites bem aqui
+
+06:06.537 --> 06:11.470
+são definidos, como sabemos que g(x) está sempre no meio de um sanduíche com f(x) e h(x),
+
+06:11.470 --> 06:16.870
+então naquele dia, ou naquele valor de x (eu deveria sair da analogia com comida),
+
+06:16.870 --> 06:31.600
+isto nos diz que, se tudo isso for verdade, neste intervalo, o limite quando x tende a C de g(x)
+
+06:31.600 --> 06:38.600
+deve também ser igual a L. E novamente, isto é senso comum! f(x) está se aproximando de L,
+
+06:38.600 --> 06:43.934
+h(x) está se aproximando de L, g(x) está em um sanduíche no meio delas, então ela também
+
+06:43.934 --> 06:50.933
+deve estar se aproximando de L. E você pode dizer "Isso é senso comum! Por que isso é útil?"
+
+06:50.933 --> 06:56.537
+Bem, como veremos, isso é útil para encontrar limites de funções esquisitas: se você conseguir
+
+06:56.537 --> 07:00.470
+encontrar uma função que é sempre maior que ela, e uma função que é menor que ela, e você
+
+07:00.470 --> 07:05.349
+puder dizer que o limite quando elas se aproximam de um C é o mesmo, então você sabe que aquela
+
+07:05.349 --> 07:09.349
+função esquisita no meio irá se aproximar daquele mesmo limite.

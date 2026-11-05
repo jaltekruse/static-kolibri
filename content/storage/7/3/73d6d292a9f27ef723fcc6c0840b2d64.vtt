@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.000 --> 00:01.680
+Altıncı soru.
+
+00:01.987 --> 00:05.800
+f x eşittir sinüs x kare artı kosinüs x.
+
+00:05.800 --> 00:12.067
+y eşittir f'nin beşinci türevinin mutlak değeri grafiği yukarıda verilmiş.
+
+00:12.067 --> 00:15.533
+Burada yer kalsın diye grafiği şimdilik göstermiyorum.
+
+00:15.533 --> 00:17.333
+Sanırım d kısmında göstermemiz gerekiyor.
+
+00:17.333 --> 00:19.323
+Neyse, önce a kısmını yapalım.
+
+00:19.338 --> 00:24.427
+Sinüs x'in x eşittir 0 etrafındaki Taylor serisinin ilk dört sıfır dışı terimini yazınız.
+
+00:24.427 --> 00:30.533
+Ve sinüs x karenin x eşittir 0 etrafındaki Taylor serisinin ilk dört sıfır dışı terimini yazınız. Bu kısmı çözelim.
+
+00:30.533 --> 00:32.533
+-
+
+00:32.533 --> 00:36.270
+Hatırlamak istersek, Taylor serisi bir fonksiyona polinomla yakınsamayı içeriyordu.
+
+00:36.270 --> 00:40.937
+Bu konuyu Taylor serisi videolarında çok daha ayrıntılı işliyoruz.
+
+00:40.937 --> 00:44.533
+-
+
+00:44.533 --> 00:49.200
+Şöyle bir fonksiyonunuz varsa, buna 0 etrafında bir Taylor serisiyle yakınsamak istiyorsanız ve Taylor serinizde yalnızca bir terim varsa, bu terim şöyle bir sabit olurdu. Eğer Taylor serinizde iki terim varsa, şöyle bir doğru bulurduk.
+
+00:49.200 --> 00:54.800
+-
+
+00:54.800 --> 00:59.200
+-
+
+00:59.200 --> 01:01.867
+-
+
+01:01.867 --> 01:05.271
+Taylor serinizde üç terim olsa, ikinci dereceden bir terim daha eklerdik.
+
+01:05.271 --> 01:09.000
+Şöyle bir şeyle yakınsardık.
+
+01:09.000 --> 01:12.000
+Üçüncü dereceden terimi de kattığımızda şöyle görünmeye başlar.
+
+01:12.000 --> 01:16.092
+Terim ekledikçe fonksiyona daha yaklaşmaya başlayacaksınız ve sonsuz sayıda terim eklediğinizde polinomunuz fonksiyonunuza yakınsayacak.
+
+01:16.092 --> 01:19.273
+-
+
+01:19.273 --> 01:23.533
+Şimdi hatırlayalım. Bir f x fonksiyonum varsa, bu fonksiyona bir Taylor serisiyle yakınsayabilirim.
+
+01:23.533 --> 01:26.667
+-
+
+01:26.667 --> 01:29.667
+Ve bu yakınsamayı 0 etrafında alacaksam, Taylor serisi şöyle olacak.
+
+01:29.667 --> 01:37.106
+f 0 artı f üssü 0 (0'daki türev) çarpı x artı 0'daki ikinci türev çarpı x kare bölü 2 faktöriyel.
+
+01:37.106 --> 01:42.867
+-
+
+01:42.867 --> 01:46.400
+Buradaki terimi 1 faktöriyel, yani 1'e bölebilirdik.
+
+01:46.400 --> 01:48.000
+2 faktöriyel 2'ye eşittir.
+
+01:48.000 --> 01:55.733
+Sonra artı f'nin 0'daki üçüncü türevi çarpı x küp bölü 3 faktöriyel.
+
+01:55.733 --> 01:58.800
+Artı dördüncü türev... Sanıyorum örüntüyü anladınız.
+
+01:58.800 --> 02:03.867
+0'daki dördüncü türev çarpı x üzeri 4 bölü 4 faktöriyel vesaire.
+
+02:03.867 --> 02:06.084
+-
+
+02:06.084 --> 02:10.400
+Bize sinüs x'in Taylor serisinin ilk dört sıfır dışı terimini soruyorlar.
+
+02:10.400 --> 02:12.000
+-
+
+02:12.000 --> 02:14.467
+Bazılarınız bunu biliyor olabilir. Euler özdeşliğini anlattığımız videoda bunu yapmıştık, ama burada yeniden bulalım.
+
+02:14.467 --> 02:19.800
+-
+
+02:19.800 --> 02:24.867
+Adına g x diyelim, çünkü f x burada tanımlanmış.
+
+02:24.867 --> 02:27.133
+-
+
+02:27.133 --> 02:30.837
+-
+
+02:30.837 --> 02:38.800
+g x eşittir sinüs x diyoruz. g 0'ın 0'a eşit olduğunu biliyoruz.
+
+02:38.800 --> 02:41.133
+-
+
+02:41.133 --> 02:44.667
+Türev alırsak, g üssü x kosinüs x olacak.
+
+02:44.667 --> 02:48.763
+-
+
+02:48.763 --> 02:54.733
+Kosinüs x, g üssü 0 eşittir 1.
+
+02:54.733 --> 02:58.097
+Kosinüs 0 eşittir 1. Şimdi ikinci türevi alıyoruz.
+
+02:58.097 --> 03:02.091
+Kosinüs x'in türevi eşittir eksi sinüs x.
+
+03:02.091 --> 03:06.733
+Ve 0'daki ikinci türev yine 0 olacak. Sinüs 0 eşittir 0.
+
+03:06.733 --> 03:09.000
+-
+
+03:09.000 --> 03:14.082
+Şimdi üçüncü türevi alalım.
+
+03:14.082 --> 03:16.071
+Fonksiyonumuzun üçüncü türevi, eksi sinüs x'in türevi eşittir eksi kosinüs x.
+
+03:16.148 --> 03:19.209
+-
+
+03:19.286 --> 03:22.600
+Ve 0'daki üçüncü türev eksi 1'e eşit olacak. Böyle devam edebiliriz.
+
+03:22.600 --> 03:26.000
+-
+
+03:26.000 --> 03:28.800
+Bunun nereye varacağını tahmin edebilirsiniz. Ama yine de devam edeyim.
+
+03:28.800 --> 03:31.133
+-
+
+03:31.133 --> 03:37.400
+Dördüncü türev yine sinüs x olacak. Ve 0'daki dördüncü türev de fonksiyon değeriyle aynı olduğu için 0'a eşit olacak.
+
+03:37.400 --> 03:39.684
+-
+
+03:39.684 --> 03:45.067
+-
+
+03:45.067 --> 03:47.347
+-
+
+03:47.347 --> 03:51.933
+Yani g'nin 0'daki dördüncü türevi buna eşit olacak.
+
+03:51.933 --> 03:54.133
+Böyle devam edebiliriz. Bu, döngümüz nedeniyle g'nin beşinci türeviyle aynı olacak.
+
+03:54.133 --> 03:56.533
+-
+
+03:56.533 --> 03:58.800
+-
+
+03:58.800 --> 04:01.867
+Bu, 0'daki beşinci türevle aynı olacak.
+
+04:01.867 --> 04:07.933
+Şu da 0'daki altıncı türevle aynı olacak.
+
+04:07.933 --> 04:13.423
+Buradaki eşittir işareti olacak.
+
+04:13.423 --> 04:15.400
+Bu da 0'daki yedinci türevle aynı olacak. İlk dört sıfır dışı terimi istiyoruz. Çözelim.
+
+04:15.400 --> 04:19.200
+-
+
+04:19.200 --> 04:22.800
+-
+
+04:22.800 --> 04:27.200
+İlk olarak f 0.
+
+04:27.200 --> 04:29.351
+g x'e yakınsamak istiyorsak, sinüs x'e yakınsamak istiyorsak, sinüs x yaklaşık eşittir deriz.
+
+04:29.351 --> 04:31.733
+-
+
+04:31.733 --> 04:33.933
+-
+
+04:33.933 --> 04:36.867
+Buradaki ilk terim, sinüs 0, g 0'dır.
+
+04:36.867 --> 04:38.268
+-
+
+04:38.268 --> 04:41.101
+Bu 0 olur, yani yazmamıza gerek yok.
+
+04:41.101 --> 04:43.867
+Sonra şuradaki terime gideriz. f üssü 0, bu durumda g üssü 0 eşittir 1.
+
+04:43.867 --> 04:47.400
+-
+
+04:47.400 --> 04:49.600
+-
+
+04:49.600 --> 04:52.177
+Yani1 çarpı x olacak. Burada bir x olacak.
+
+04:52.177 --> 04:57.680
+Bir sonraki terim de 0, bunu görüyoruz, çünkü fonksiyonumuzun 0'daki ikinci türevi 0'a eşit.
+
+04:57.680 --> 05:03.200
+-
+
+05:03.200 --> 05:07.014
+Fonksiyonumuzun 0'daki üçüncü türevi 1.
+
+05:07.014 --> 05:09.533
+Yani bu terim yazılacak.
+
+05:09.533 --> 05:12.800
+Aslında bu terim eksi 1 - burada hata yapmak istemiyorum - eksi 1. Türev, eksi kosinüs x'ti.
+
+05:12.800 --> 05:16.604
+-
+
+05:16.604 --> 05:19.867
+Eksi kosinüs x'in 0'daki değeri eksi 1'dir.
+
+05:19.867 --> 05:21.086
+-
+
+05:21.086 --> 05:24.400
+Yani buradaki üçüncü türev, eksi 1'e eşit.
+
+05:24.400 --> 05:29.352
+Yani eksi x küp bölü 3 faktöriyel yazabiliriz.
+
+05:29.352 --> 05:31.929
+Dördüncü türev yine 0.
+
+05:31.929 --> 05:36.016
+0'daki beşinci türev eşittir 1. Artı 1 çarpı x üzeri 5 bölü 5 faktöriyel.
+
+05:36.016 --> 05:41.267
+-
+
+05:41.267 --> 05:44.400
+Altıncı türev 0, yani o terim yok olacak.
+
+05:44.400 --> 05:45.867
+Buraya yazmadım bile.
+
+05:45.867 --> 05:48.933
+Ve yedinci terimin katsayısı eksi 1.
+
+05:48.933 --> 05:51.933
+Veya 0'daki yedinci türev eksi 1'e eşit.
+
+05:51.933 --> 05:57.200
+Eksi 1 çarpı x üzeri 7 bölü 7 faktöriyel.
+
+05:57.200 --> 06:00.350
+Taylor serisinin ilk dört sıfır dışı terimini bulmak için yedinci dereceden terime kadar gitmek zorunda kaldık.
+
+06:00.350 --> 06:04.800
+-
+
+06:04.800 --> 06:07.467
+Böylece birinci bölümü bitirmiş olduk.
+
+06:07.467 --> 06:11.937
+Sinüs x'in ilk dört sıfır dışı terimini bulduk.
+
+06:11.937 --> 06:14.267
+Peki sinüs kare x ne olacak?
+
+06:14.267 --> 06:17.800
+Veya sinüs x kare. Burada dikkat etmemiz gerekiyor.
+
+06:17.800 --> 06:20.133
+Bu formüle koymak isteyebilirsiniz, ama ikinci ve üçüncü türevleri almaya başladığınızda işlemlerin çok karıştığını göreceksiniz.
+
+06:20.133 --> 06:21.600
+-
+
+06:21.600 --> 06:23.733
+-
+
+06:23.733 --> 06:26.682
+-
+
+06:26.682 --> 06:30.769
+Ama şöyle diyebilirsiniz. Sinüs x yaklaşık olarak bu ifadeye eşitse, x'in yerine x kare koyarsam ne olur?
+
+06:30.769 --> 06:33.867
+-
+
+06:33.867 --> 06:39.533
+Sinüs x kareyi bulmak için, burada x'in küpü yerine x karenin küpünü alacağım, bölü 3 faktöriyel.
+
+06:39.533 --> 06:42.467
+-
+
+06:42.467 --> 06:48.509
+-
+
+06:48.509 --> 06:53.200
+Burada da x üzeri 5 yerine x kare üzeri 5 bölü 5 faktöriyel diyebilirim.
+
+06:53.200 --> 06:54.933
+-
+
+06:54.933 --> 06:58.516
+Ve x üzeri 7 yerine x kare üzeri 7 derim, bölü 7 faktöriyel.
+
+06:58.516 --> 07:00.867
+-
+
+07:00.867 --> 07:03.184
+Burada farkına varmanızı istediğim çok önemli bir nokta var.
+
+07:03.184 --> 07:08.083
+Çünkü doğrudan 0 etrafında Taylor serisini bulmaya kalksanız, tüm zamanınızı türev almaya harcardınız ve işlemlerin karışıklığı yüzünden bunu da başaramazdınız.
+
+07:08.083 --> 07:10.335
+-
+
+07:10.335 --> 07:12.425
+-
+
+07:12.425 --> 07:14.467
+-
+
+07:14.467 --> 07:17.933
+Buradaki esas olay, x yerine x kare koyarak sinüs x kare yakınsamasını elde edebileceğimizdir.
+
+07:17.933 --> 07:22.200
+-
+
+07:22.200 --> 07:23.942
+-
+
+07:23.942 --> 07:26.000
+Bunu biraz sadeleştirebiliriz.
+
+07:26.000 --> 07:27.600
+Bu, yaklaşık eşittir x kare eksi x üzeri 6 bölü 3 faktöriyel artı x üzeri 10 bölü 5 faktöriyel eksi x üzeri 14 bölü 7 faktöriyel.
+
+07:27.600 --> 07:31.605
+-
+
+07:31.605 --> 07:34.600
+-
+
+07:34.600 --> 07:39.685
+-
+
+07:39.715 --> 3:59:59.999
+Sorunun ikinci kısmı da böyle.

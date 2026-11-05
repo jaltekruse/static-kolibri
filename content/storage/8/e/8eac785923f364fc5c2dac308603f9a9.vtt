@@ -1,0 +1,244 @@
+WEBVTT
+
+00:01.138 --> 00:05.317
+A feladatunk az, hogy kitaláljuk mennyi a mínusz 512 köbgyöke.
+
+00:05.317 --> 00:08.615
+Másféleképpen úgy is tekinthetünk erre a példára, hogy
+
+00:08.615 --> 00:12.934
+egy olyan számot kell találnunk, ami egyenlő a mínusz 512 köbgyökével.
+
+00:12.934 --> 00:17.533
+Ez azt jelenti, hogy ezt az adott számot harmadik hatványra kell emelni, ahhoz,
+
+00:17.533 --> 00:22.867
+hogy mínusz 512-t kapjunk. És ha hirtelen nem ugrik be, hogy
+
+00:22.867 --> 00:29.667
+mely számnak a harmadik hatványon vett értéke lesz a mínusz 512, akkor
+
+00:29.667 --> 00:33.400
+a legjobb, amit tehetünk az az, hogy tényezőire bontjuk a számot.
+
+00:33.400 --> 00:38.243
+És mielőtt megkeressük a tényezőit és számba vesszük, hogy mely értékből szerepel három darab,
+
+00:38.243 --> 00:41.308
+gondolkozzunk el kicsit a negatív előjel mivoltáról!
+
+00:41.308 --> 00:45.467
+Szóval a negatív 512, hadd írjam is le:
+
+00:45.467 --> 00:51.664
+ez ugyanannyit tesz, mint a mínusz 1 köbgyöke szorozva 512-vel.
+
+00:51.664 --> 00:54.822
+Ez ugye nem más, mint a...
+
+00:54.822 --> 01:04.333
+Nem más, mint a mínusz 1 köbgyöke szorozva az 512 köbgyökével.
+
+01:04.333 --> 01:06.804
+Innen már elég egyértelmű, hogy hova lyukadunk ki.
+
+01:06.804 --> 01:09.600
+Mi az a szám, amelyet ha harmadikra emelünk, akkor mínusz egyet kapunk?
+
+01:09.600 --> 01:12.795
+Nos, ez a mínusz 1 lesz! Szóval ez a mínusz 1 itt a
+
+01:12.795 --> 01:20.000
+harmadik hatványra emelve az annyi lesz, mint mínusz 1 szorozva mínusz 1 szorozva mínusz 1-gyel.
+
+01:20.000 --> 01:23.200
+Szóval a mínusz 1 köbgyöke az mínusz 1.
+
+01:23.200 --> 01:28.133
+Itt akkor mínusz 1-et kapunk, amelyet megszorzunk ezzel a résszel.
+
+01:28.133 --> 01:33.400
+Szorozzuk tehát az 512 köbgyökével, amelyen egy kicsit most elgondolkozhatunk!
+
+01:33.400 --> 01:35.782
+Na, most akkor bontsuk le a tényezőire ezt a számot!
+
+01:35.782 --> 01:41.000
+Szóval az 512 egyenlő kétszer 256-tal.
+
+01:41.000 --> 01:46.138
+A 256 kétszer 128-cal egyenlő.
+
+01:46.138 --> 01:49.575
+A 128 pedig kétszer 64-gyel egyenlő.
+
+01:49.575 --> 01:50.736
+Itt ugye már háromszor szerepelt a kettes...
+
+01:50.736 --> 01:56.727
+64 az kétszer 32.
+
+01:56.727 --> 01:57.933
+32 az kétszer 16.
+
+01:57.933 --> 01:59.652
+Most már jó sok kettesünk van...
+
+01:59.652 --> 02:04.250
+A 16 kétszer 8-cal egyenlő.
+
+02:04.250 --> 02:09.823
+A 8 pedig kétszer 4-gyel.
+
+02:09.823 --> 02:11.200
+A 4 pedig kétszer 2.
+
+02:11.200 --> 02:11.992
+Nos, tehát jó sok kettesünk van.
+
+02:11.992 --> 02:13.185
+Ha megnézzük a szorzatukat, akkor
+
+02:13.185 --> 02:18.800
+összességében 1,2,3,4,5,6,7,8,9-szer szorzunk kettessel és
+
+02:18.800 --> 02:21.200
+így a végén 512-t kapunk.
+
+02:21.200 --> 02:23.012
+Tehát az 512 a 2 a kilencedikennel lesz egyenlő.
+
+02:23.012 --> 02:25.867
+És ez már magában is enged arra következtetni, hogy mi lesz az 512 köbgyöke...
+
+02:25.867 --> 02:28.610
+De akár másképpen is gondolkodhatunk és
+
+02:28.610 --> 02:29.749
+rájöhetünk a megoldásra...
+
+02:29.749 --> 02:31.139
+Itt egyértelműen három darab kettes szerepel, de
+
+02:31.139 --> 02:33.786
+három csoportnyi kettest találhatunk
+
+02:33.786 --> 02:34.900
+vagy találhatunk...
+
+02:34.900 --> 02:35.867
+Szintén találhatunk...
+
+02:35.867 --> 02:37.640
+Tekintsünk erre így...
+
+02:37.640 --> 02:41.800
+Három csoportnyi kettest találhatunk itt, szóval
+
+02:41.800 --> 02:43.724
+Ez kétszer 2 az 4.
+
+02:43.724 --> 02:44.699
+Kétszer 2 az 4.
+
+02:44.699 --> 02:48.600
+Szóval a 4 önmagával való megszorzása után hárommal megszorozva is osztható lesz az 512-vel.
+
+02:48.600 --> 02:55.000
+De talán szemléletesebb, ha három csoportra osztjuk a ketteseket, melyben egyenként három van.
+
+02:55.000 --> 02:59.791
+Szóval egy, kettő, három csoport van.
+
+03:01.806 --> 03:02.996
+És minden egyes csoportban
+
+03:02.996 --> 03:05.400
+Kétszer 2 szorozva 2-vel, azaz 8.
+
+03:05.400 --> 03:06.712
+Ez annyi, mint 8.
+
+03:06.712 --> 03:08.244
+Tehát kétszer 2 szorozva 2-vel, az 8.
+
+03:08.244 --> 03:10.473
+És ez a kétszer 2 szorozva 2-vel is
+
+03:10.473 --> 03:11.402
+szintén 8.
+
+03:11.402 --> 03:14.932
+Szóval ebből levonhatjuk a következtetést, hogy 512 az
+
+03:14.932 --> 03:18.200
+8-szor 8 szorozva 8-cal egyenlő.
+
+03:18.200 --> 03:20.733
+Na akkor ezt a műveletet rögzítsük is le ide!
+
+03:20.733 --> 03:24.823
+Tehát az 512 köbgyöke az 8-szor 8 szorozva 8...
+
+03:24.823 --> 03:26.200
+és ezt mínusz 1-gyel megszorozva...
+
+03:26.200 --> 03:28.074
+mínusz eggyel szorozva lesz egyenlő.
+
+03:28.074 --> 03:29.653
+Vagy akár egyszerűen kitehetjük ide a negatív előjelet!
+
+03:29.653 --> 03:36.267
+Mínusz 1-gyel szorozzuk a köbgyököt, melyet a 8-szor 8 szorozva 8-ból kapunk.
+
+03:36.267 --> 03:37.734
+Ekkor fel kell tennünk a kérdést, hogy
+
+03:37.734 --> 03:40.400
+mely az a szám, melynek háromszor önmagával való szorzásakor, azaz
+
+03:40.400 --> 03:42.981
+harmadikra emelve 512-t kapunk?
+
+03:42.981 --> 03:45.000
+Ez ugye nem más, mint 8-szor 8 szorozva 8-cal.
+
+03:45.000 --> 03:46.975
+Nos egyértelmű, hogy ez a szám a 8 lesz.
+
+03:46.975 --> 03:48.136
+Szóval a válasz...
+
+03:48.136 --> 03:50.458
+ezen a részen már eljutottunk a 8-ig...
+
+03:50.458 --> 03:52.467
+szóval a válaszunk az lesz, hogy
+
+03:52.467 --> 03:58.400
+a mínusz 512 köbgyöke az mínusz 8 lesz.
+
+03:58.400 --> 03:59.792
+És kész is vagyunk!
+
+03:59.792 --> 04:01.139
+Bebizonyíthatjuk ezt, ha a
+
+04:01.139 --> 04:03.786
+mínusz 8-at háromszor megszorozzuk önmagával.
+
+04:03.786 --> 04:05.133
+Akkor lássuk csak!
+
+04:05.133 --> 04:08.988
+Mínusz 8-szor mínusz 8 szorozva mínusz 8-cal az...
+
+04:08.988 --> 04:11.728
+mínusz 8-szor mínusz 8 az plusz 64.
+
+04:11.728 --> 04:14.235
+Ezt megszorozzuk mínusz 8-cal és
+
+04:14.235 --> 04:18.000
+mínusz 512-t kapunk.

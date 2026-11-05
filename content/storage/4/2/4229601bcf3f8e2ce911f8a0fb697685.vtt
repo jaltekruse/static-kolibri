@@ -1,0 +1,457 @@
+WEBVTT
+
+00:00.660 --> 00:08.370
+Diyelim ki; limit, x->0' a yaklaşırken;
+
+00:08.370 --> 00:20.340
+(2sinx - sin2x) / (x - sinx)
+
+00:20.340 --> 00:24.210
+ifadesinin limitini alacağız.
+
+00:24.210 --> 00:26.820
+Her zaman ilk olarak denediğim şey,
+
+00:26.820 --> 00:29.160
+ifadedeki x yerine 0 koyarak
+
+00:29.160 --> 00:33.890
+ifadenin nesonuç ürettiğini bulmaktır.
+
+00:33.890 --> 00:35.540
+Belki şanslıyımdır.
+
+00:35.540 --> 00:37.090
+x yerine 0 yazdığımızda
+
+00:37.090 --> 00:40.340
+neler oluyor, görelim.
+
+00:40.340 --> 00:43.580
+2sin0 = 0
+
+00:43.580 --> 00:46.190
+-sin2.0 = 0
+
+00:46.190 --> 00:49.960
+paydaki sonuç 0 çıktı.
+
+00:49.960 --> 00:53.510
+Paydaya geçersek...
+
+00:54.750 --> 00:56.440
+0 - sin0
+
+00:56.440 --> 00:58.340
+bir başka 0 daha
+
+00:58.340 --> 00:59.590
+Böylelikle payda da
+
+00:59.590 --> 01:02.590
+0 - sin0 = 0
+
+01:02.590 --> 01:05.200
+Güzel, payda da 0 çıktı.
+
+01:05.200 --> 01:08.340
+Burada tanımsız bir ifadeyle karşı karşıyayız.
+
+01:08.340 --> 01:12.000
+Bir önceki videoda da bahsetmiştik. Bu 0/0 belirsizliği...
+
+01:12.000 --> 01:15.720
+Bu belirsizlikte L'Hospital kuralını uygulayalım.
+
+01:15.720 --> 01:18.910
+L'Hospital kuralını uygulayabilmek için; x 0 a yaklaşırken;
+
+01:18.910 --> 01:21.880
+bu fonksiyonun ve
+
+01:21.880 --> 01:24.880
+bu fonksiyonun türevleri bulunmalı.
+
+01:24.880 --> 01:28.060
+L'Hospital kuralına göre,
+
+01:28.060 --> 01:30.470
+türevleri alalım ve limiti bulmaya çalışalım.
+
+01:30.470 --> 01:33.620
+Başarabilirsek, bu ifadenin limitini bulmuş olacağız.
+
+01:33.620 --> 01:38.750
+Yeni limit ifadesi şuna dönüşür:
+
+01:38.750 --> 01:44.950
+limit, x 0'a yaklaşırken....
+
+01:44.950 --> 01:46.600
+yeni ifade:
+
+01:46.600 --> 01:48.380
+pay ve paydanın ayrı ayrı türevleridir.
+
+01:51.050 --> 01:55.370
+2sinx ifadesinin türevi 2cosx
+
+01:57.920 --> 02:00.160
+eksi
+
+02:00.160 --> 02:04.150
+sin2x ifadesinin türevi 2cos2x
+
+02:04.150 --> 02:07.440
+yani -2kosinüs(2x)
+
+02:19.610 --> 02:20.500
+ve paydanın
+
+02:20.500 --> 02:21.920
+türevine bakalım.
+
+02:21.920 --> 02:25.430
+x'in türevi 1 ve
+
+02:25.430 --> 02:26.870
+-sinx' in türevi -cosx
+
+02:26.870 --> 02:29.920
+yani yeni payda: (1-cosx) oldu
+
+02:29.920 --> 02:31.950
+Şimdi oluşan bu yeni ifadenin limitini almaya çalışalım.
+
+02:31.950 --> 02:33.150
+Bakalım ne çıkacak?
+
+02:33.150 --> 02:36.180
+buraya 0 koyarsak...
+
+02:36.180 --> 02:39.610
+...yada şu şekilde yapalım.
+
+02:39.610 --> 02:42.760
+2 tane cos0 ifadesi 1 yapar.
+
+02:42.760 --> 02:48.040
+...
+
+02:48.040 --> 02:49.480
+En iyisi şu şekilde yapalım.
+
+02:49.480 --> 02:50.580
+Aslında böyle yapsam daha iyi
+
+02:50.580 --> 02:53.150
+doğrudan payın eşitliği
+
+02:53.150 --> 02:54.270
+ve paydanın eşitliği şeklinde.
+
+02:54.270 --> 02:57.710
+2cos0 ifadesi 2ye eşittir.
+
+02:57.710 --> 03:01.760
+eksi 2cos0 ifadesi 2ye eşittir.
+
+03:01.760 --> 03:02.620
+pay yine 0 çıktı.
+
+03:06.850 --> 03:15.620
+cos0 ifadesi 1eeşittir. 1 eksi 1 eşittir 0.
+
+03:15.620 --> 03:17.295
+Payda da 0 çıktı ve yine 0/0 belirsizliği...
+
+03:22.100 --> 03:24.500
+Bu ifadenin limiti olmadığı anlamına mı geliyor?
+
+03:24.500 --> 03:27.420
+Elbette hayır!
+
+03:27.420 --> 03:28.830
+Yapmamız gereken, tekrar L'Hospital kuralını uygulamak
+
+03:28.830 --> 03:30.610
+Bir kez daha türevini alıp
+
+03:30.610 --> 03:31.490
+bu işin üstesinden gelmeme izin verin.
+
+03:31.490 --> 03:34.610
+Umarım bu kez...
+
+03:34.610 --> 03:35.700
+L'Hospital bana yardım edebilir.
+
+03:35.700 --> 03:38.610
+Nereye kadar giderse peşindeyim.
+
+03:38.610 --> 03:43.030
+Buraya L'Hospital uygularsak
+
+03:43.030 --> 03:43.840
+ifadenin limitini bulmuş olacağız.
+
+03:43.840 --> 03:46.050
+Henüz %100 emin değiliz.
+
+03:46.050 --> 03:49.950
+limit, x 0'a yaklaşırken...
+
+03:49.950 --> 03:53.690
+bu ifadenin türevi ve bu ifadenin türevi
+
+03:53.690 --> 03:58.240
+Evet, 2cosx'in türevi nedir?
+
+03:58.240 --> 04:00.485
+cosx'in türevi -sinx idi.
+
+04:00.485 --> 04:04.920
+yani 2cosx' in türevi -2sinx
+
+04:04.920 --> 04:11.320
+ve -2cos2x'in türevi
+
+04:11.320 --> 04:13.660
+pozitif
+
+04:13.660 --> 04:16.980
+4sin2x
+
+04:16.980 --> 04:21.990
+türevden gelen eksi, ifadedeki eksi ile çarpılınca pozitif oldu.
+
+04:21.990 --> 04:23.790
+Yine de kontrol etmeme izin verin...
+
+04:23.790 --> 04:26.640
+...
+
+04:26.640 --> 04:30.950
+...
+
+04:30.950 --> 04:32.590
+...
+
+04:32.590 --> 04:34.270
+...
+
+04:34.270 --> 04:36.780
+...
+
+04:36.780 --> 04:38.060
+evet doğruymuş.
+
+04:40.180 --> 04:42.370
+türev aldık ve yeni payımız bu oldu.
+
+04:42.370 --> 04:45.260
+ve yeni paydamız...(türev alma
+
+04:45.260 --> 04:45.830
+alıştırması yapıyoruz)
+
+04:45.830 --> 04:47.350
+paydanın türevi nedir?
+
+04:47.350 --> 04:49.310
+1'in türevi 0'dır.
+
+04:49.310 --> 04:52.790
+ve -cosx' in türevi de sinx' dir
+
+04:52.790 --> 04:53.900
+payda sadece (sinx) çıktı.
+
+04:56.480 --> 04:57.950
+Hadi limiti alalım.
+
+04:57.950 --> 05:00.050
+x yerine 0 koyduğumuzda, ifade:
+
+05:00.050 --> 05:02.810
+olamaz...biliyorum payda yine 0 çıkacak...
+
+05:02.810 --> 05:05.190
+sin0 = 0 dır
+
+05:05.190 --> 05:06.870
+Neyse biz paya bakalım...
+
+05:06.870 --> 05:08.700
+-2sin0 = 0'dır
+
+05:08.700 --> 05:10.740
+payda 0 çıkacak gibi
+
+05:10.740 --> 05:13.880
+4sin2.0 = 4sin0 = 0
+
+05:13.880 --> 05:16.570
+pay ve payda yine 0 çıktı
+
+05:16.570 --> 05:19.210
+ve yine 0/0 belirsizliği elde ettik.
+
+05:19.210 --> 05:19.900
+Bitti mi?
+
+05:19.900 --> 05:20.820
+Pes mi ediyoruz?
+
+05:20.820 --> 05:22.730
+Yoksa L'Hospital kuralı çalışmıyor mu?
+
+05:22.730 --> 05:26.550
+Hayır. Çünkü bu bizim ilk alıştırmamız.
+
+05:26.550 --> 05:28.750
+Aslında limit ifadesi şuanki son haliyle karşımıza çıksa...
+
+05:28.750 --> 05:30.680
+Hey,burada 0/0 belirsizliği var.
+
+05:30.680 --> 05:32.600
+Hadi L'Hospital kuralı uygulayalım derdik.
+
+05:32.600 --> 05:34.990
+Pay ve payda 0 çıkıyor.
+
+05:34.990 --> 05:36.660
+hadi yine
+
+05:36.660 --> 05:40.110
+türevlerini alalım ;)
+
+05:40.110 --> 05:42.870
+İfademiz şuna eşit:
+
+05:42.870 --> 05:45.730
+limit, x 0'a yaklaşırken...
+
+05:45.730 --> 05:47.685
+payın türevini alalım
+
+05:47.685 --> 05:51.410
+-2sinx ifadesinin türevi
+
+05:51.410 --> 05:54.100
+-2cosx
+
+05:54.100 --> 05:57.850
+4sin2x ifadesinin türevi
+
+05:57.850 --> 06:01.520
+8cos2x yapar
+
+06:01.520 --> 06:04.330
+8 sayısına
+
+06:04.330 --> 06:08.320
+2 çarpanı, sin2x'in türevinden
+
+06:08.320 --> 06:10.270
+4 çarpanı da katsayıdan geldi.
+
+06:10.270 --> 06:11.840
+2.4 = 8 oldu.
+
+06:11.840 --> 06:17.030
+paydanın türevi...sinx' in türevi cosx
+
+06:17.030 --> 06:19.140
+sadece cosx
+
+06:19.140 --> 06:21.880
+Bakalım ifade kaç çıkacak...
+
+06:21.880 --> 06:24.620
+Bakalım işe yaramış mı?
+
+06:24.620 --> 06:27.160
+L'Hospital uygulamaya gerek kalmaz mı?
+
+06:27.160 --> 06:29.610
+x yerine 0 koyarsak; paydada: cos0 = 1
+
+06:29.610 --> 06:30.650
+payda 1 çıktı
+
+06:30.650 --> 06:33.220
+böylece kesin olarak
+
+06:33.220 --> 06:36.120
+0/0 belirsizliği ile karşılaşmayacağımızı söylüyorum.
+
+06:36.120 --> 06:38.160
+Paydaki ifadeye bakalım.
+
+06:38.160 --> 06:41.950
+-2cos0 ifadesi
+
+06:41.950 --> 06:45.530
+-2 ye eşittir.
+
+06:45.530 --> 06:50.090
+artı
+
+06:50.090 --> 06:53.590
+8cos(2.0) = 8.cos0 = 8.1 = 8
+
+06:53.590 --> 06:54.690
+burası da 8 çıktı
+
+06:54.690 --> 06:56.990
+böylece -2+8 = 6
+
+06:56.990 --> 06:59.500
+evet payımız da 6 çıktı
+
+06:59.500 --> 07:00.720
+6ya 1
+
+07:00.720 --> 07:03.370
+Bütün bu zahmet 6 içinmiş
+
+07:03.370 --> 07:06.850
+L'Hospital...Eğer bu ifadeyle son basamaktaki haliyle
+
+07:06.850 --> 07:09.630
+karşılaşsaydık, şöyle derdik.
+
+07:09.630 --> 07:13.530
+limiti uygulamaya çalıştığımızda, x 0'a yaklaşırken...
+
+07:13.530 --> 07:15.010
+payın limiti 0
+
+07:15.010 --> 07:19.790
+paydanın limti 0.
+
+07:19.790 --> 07:21.980
+pay ve paydanın ayrı ayrı türevlerini alınca ise
+
+07:21.980 --> 07:25.600
+limit vardır ve 6ya eşittir.
+
+07:25.600 --> 07:28.590
+Böylece limit 6 bulunur.
+
+07:28.590 --> 07:31.740
+Eğer bu limit 6ya eşitse...
+
+07:31.740 --> 07:33.340
+bu limit de 6ya eşittir
+
+07:33.340 --> 07:35.850
+ve bu limit de 6ya eşittir.
+
+07:35.850 --> 07:40.090
+tabiki bu da 6ya eşittir.
+
+07:40.090 --> 07:41.770
+Ve bitirdik.

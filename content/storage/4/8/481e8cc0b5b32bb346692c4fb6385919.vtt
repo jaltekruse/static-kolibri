@@ -1,0 +1,545 @@
+WEBVTT
+
+00:00.369 --> 00:04.191
+Máme tady žlutě nakreslený
+graf funkce y rovná se f(x).
+
+00:04.191 --> 00:09.228
+Dále tu je světle fialový graf funkce
+y rovná se derivace f,
+
+00:09.228 --> 00:10.778
+tedy y rovná se
+f(x) s čárkou,
+
+00:10.778 --> 00:15.659
+a poté je tu v modré barvě graf funkce
+y rovná se druhá derivace f.
+
+00:15.659 --> 00:21.437
+Toto je tedy derivace
+téhle první derivace.
+
+00:21.437 --> 00:25.385
+Už jsme viděli, jak lze najít lokální
+minima a maxima funkce.
+
+00:25.385 --> 00:27.203
+Samozřejmě, pokud před
+sebou máme graf,
+
+00:27.203 --> 00:31.443
+tak lehce poznáme, že zde má
+funkce lokální maximum.
+
+00:31.443 --> 00:34.369
+Funkce pak dále může
+nabývat ještě vyšších hodnot.
+
+00:34.369 --> 00:37.463
+Rovněž snadno nahlédneme,
+že zde má funkce lokální minimum.
+
+00:37.463 --> 00:40.313
+Funkce pak tady může
+nabývat ještě nižších hodnot.
+
+00:40.313 --> 00:42.649
+Viděli jsme ale, že i když
+před sebou nemáme graf,
+
+00:42.649 --> 00:45.419
+ale máme předpis funkce,
+který jsme schopni zderivovat,
+
+00:45.419 --> 00:46.139
+tak můžeme...
+
+00:46.139 --> 00:48.089
+Možná i když funkci
+nedokážeme zderivovat.
+
+00:48.089 --> 00:51.522
+...tak můžeme zjistit, že tohle jsou body
+lokálního minima nebo maxima.
+
+00:51.522 --> 00:54.950
+Dělali jsme to tak, že jsme nejprve
+našli stacionární body funkce.
+
+00:54.950 --> 01:00.100
+To jsou body, ve kterých derivace funkce
+buď není definovaná, nebo se rovná nule.
+
+01:00.100 --> 01:01.912
+Tohle je derivace
+naší funkce.
+
+01:01.912 --> 01:05.751
+Nule se rovná tady a tady,
+takže to budou stacionární body.
+
+01:05.751 --> 01:10.501
+Nevidím žádný bod,
+ve kterém by derivace nebyla definovaná.
+
+01:10.501 --> 01:15.374
+Tyto dva body jsou
+tedy stacionární body.
+
+01:15.374 --> 01:22.009
+Jde o podezřelé body, ve kterých má funkce
+nejspíš lokální minimum nebo maximum.
+
+01:22.009 --> 01:25.030
+Zda jde o lokální minimum
+nebo maximum jsme zjistili tak,
+
+01:25.030 --> 01:29.061
+že jsme se podívali na chování
+derivace na okolí daného bodu.
+
+01:29.061 --> 01:41.121
+V tomto případě vidíme, že derivace
+je kladná, když se k bodu blížíme zleva,
+
+01:41.121 --> 01:42.691
+a pak se
+stává zápornou.
+
+01:42.691 --> 01:46.404
+Derivace se tedy změnila z kladné na
+zápornou při průchodu tímto bodem,
+
+01:46.404 --> 01:49.205
+což znamená,
+že funkce byla rostoucí...
+
+01:49.205 --> 01:53.649
+Derivace je kladná, takže funkce roste,
+jak se k bodu blížíme zleva,
+
+01:53.649 --> 01:56.139
+a pak funkce klesá,
+jak jdeme napravo od tohoto bodu.
+
+01:56.139 --> 01:59.050
+To znamená, že jde o bod
+lokálního maxima.
+
+01:59.050 --> 02:02.613
+Když se k bodu blížíme zleva, funkce
+roste, a když jdeme doprava, tak klesá.
+
+02:02.613 --> 02:06.375
+Tohle je tedy určitě
+lokální maximum.
+
+02:06.375 --> 02:12.752
+Podobně, když se podíváme sem,
+tak vidíme, že derivace je záporná,
+
+02:12.752 --> 02:17.307
+jak se k tomu bodu blížíme zleva,
+což znamená, že funkce klesá.
+
+02:17.307 --> 02:20.920
+Vidíme, že když jdeme od tohoto
+bodu doprava, tak je derivace kladná.
+
+02:20.920 --> 02:24.178
+Derivace se změnila
+ze záporné na kladnou,
+
+02:24.178 --> 02:29.228
+což znamená, že funkce se v tomto bodě
+změnila z klesající na rostoucí,
+
+02:29.228 --> 02:38.474
+což nám říká, že v tomto stacionárním
+bodě má funkce lokální minimum.
+
+02:38.474 --> 02:46.533
+Rád bych teď naše znalosti
+rozšířil o konvexitu funkce.
+
+02:46.533 --> 02:49.774
+Vím, že to možná
+špatně vyslovuji.
+
+02:49.774 --> 02:54.212
+Abychom pochopili konvexitu funkce,
+podívejme se na druhou derivaci a na to,
+
+02:54.212 --> 02:57.556
+jak díky ní namísto těchto změn
+při průchodu bodem poznáme,
+
+02:57.556 --> 03:01.206
+zda má funkce v daném bodě
+lokální minimum nebo maximum.
+
+03:01.206 --> 03:04.286
+Zamysleme se nejdřív,
+co se děje v této části grafu.
+
+03:04.286 --> 03:10.279
+Máme tu část křivky, která vypadá trochu
+jako oblouk, jenž se otevírá směrem dolů.
+
+03:10.279 --> 03:13.743
+Vypadá to trochu jako A bez čáry
+uprostřed nebo jako obrácené U.
+
+03:13.743 --> 03:19.852
+Pak se podíváme na to, co se děje v této
+části, kde má křivka tvar písmene U.
+
+03:19.852 --> 03:25.473
+Když začneme v tomto prvním intervalu,
+vidíme, že je sklon velmi...
+
+03:25.473 --> 03:30.034
+Udělám to tou samou barvou,
+kterou jsem použil pro derivaci.
+
+03:30.034 --> 03:33.080
+...sklon je velmi kladný.
+
+03:33.080 --> 03:42.940
+Poté je čím dál tím míň kladný,
+až se nakonec rovná nule,
+
+03:42.940 --> 03:50.968
+načež neustále klesá a stává se
+trochu záporným, pak je víc a víc záporný
+
+03:50.968 --> 03:56.401
+a nakonec někde
+tady přestává klesat.
+
+03:56.401 --> 03:58.107
+Sklon funkce tady
+přestane klesat.
+
+03:58.107 --> 03:59.517
+Vidíme to i
+na grafu derivace.
+
+03:59.517 --> 04:02.818
+Sklon klesá a klesá
+až do tohoto bodu,
+
+04:02.818 --> 04:04.810
+načež začíná růst.
+
+04:04.810 --> 04:18.517
+V celé této části tedy
+sklon funkce klesá.
+
+04:18.517 --> 04:21.010
+Vidíme to i
+v grafu derivace.
+
+04:21.010 --> 04:27.230
+Derivace na celém
+tomto intervalu klesá.
+
+04:27.230 --> 04:29.569
+Co vidíme, když se podíváme
+na druhou derivaci?
+
+04:29.569 --> 04:31.469
+Když první
+derivace klesá,
+
+04:31.469 --> 04:34.919
+tak je druhá derivace,
+tedy derivace derivace, záporná.
+
+04:34.919 --> 04:38.149
+Vidíme, že to tak
+opravdu je.
+
+04:38.149 --> 04:45.617
+Na celém tomto intervalu je
+druhá derivace skutečně záporná.
+
+04:45.617 --> 04:51.087
+Co se teď stane, když přejdeme do
+části, kde křivka vypadá jako U?
+
+04:51.087 --> 04:57.567
+Zde je derivace poměrně záporná,
+ale pak se začíná...
+
+04:57.567 --> 05:04.544
+Sice je pořád záporná, ale stává se
+čím dál tím méně zápornou,
+
+05:04.544 --> 05:07.924
+až se nakonec
+v tomto bodě rovná nule,
+
+05:07.924 --> 05:12.783
+načež je stále více kladná,
+jak je tady vidět.
+
+05:12.783 --> 05:18.401
+Na celém tomhle intervalu
+sklon funkce, tedy její derivace, roste.
+
+05:18.401 --> 05:24.944
+Sklon roste.
+
+05:24.944 --> 05:27.464
+Můžeme zde vidět,
+že v tomhle bodě je sklon nulový.
+
+05:27.464 --> 05:32.210
+Sklon derivace je nula, samotná
+derivace se v tuto chvíli nemění.
+
+05:32.210 --> 05:37.007
+Následně vidíme,
+že sklon roste.
+
+05:37.007 --> 05:40.766
+Opět se můžeme podívat, jak bude vypadat
+druhá derivace, tedy derivace derivace.
+
+05:40.766 --> 05:44.571
+Když je první derivace rostoucí,
+druhá derivace musí být kladná.
+
+05:44.571 --> 05:49.070
+Druhá derivace je
+zde skutečně kladná.
+
+05:49.070 --> 05:51.877
+Existuje speciální název
+pro části grafu,
+
+05:51.877 --> 05:55.275
+které vypadají jako převrácené
+nebo normální písmeno U.
+
+05:55.275 --> 06:07.978
+Řekneme, že v této části
+je funkce konkávní
+
+06:07.978 --> 06:13.168
+a že zde je funkce
+konvexní.
+
+06:13.168 --> 06:18.530
+Pojďme si zopakovat, jak určíme intervaly,
+na kterých je funkce konkávní či konvexní.
+
+06:18.530 --> 06:27.646
+Když máme interval, na kterém je
+funkce konkávní, tak vidíme několik věcí.
+
+06:27.646 --> 06:37.479
+Vidíme, že sklon
+funkce je klesající,
+
+06:37.479 --> 06:51.677
+což je totéž jako říci,
+že derivace funkce f je klesající,
+
+06:51.677 --> 06:55.336
+a to jinak řečeno znamená,
+že druhá derivace musí být záporná.
+
+06:55.336 --> 07:00.043
+Jestliže první derivace klesá,
+druhá derivace musí být záporná.
+
+07:00.043 --> 07:01.927
+Tohle je tedy
+totéž jako říci,
+
+07:01.927 --> 07:07.887
+že druhá derivace musí být
+na daném intervalu záporná.
+
+07:07.887 --> 07:10.899
+Je-li tedy
+druhá derivace záporná,
+
+07:10.899 --> 07:14.030
+tak je funkce na
+daném intervalu konkávní.
+
+07:14.030 --> 07:16.590
+Obdobně...
+
+07:16.590 --> 07:18.230
+Dělá mi potíže
+to slovo vyslovit.
+
+07:18.230 --> 07:21.523
+...obdobně se podívejme na interval,
+na němž je funkce konvexní,
+
+07:21.523 --> 07:23.774
+tedy kde má graf
+funkce tvar U.
+
+07:23.774 --> 07:25.534
+Konvexní.
+
+07:25.534 --> 07:28.224
+Na těchto intervalech
+je sklon rostoucí.
+
+07:28.224 --> 07:31.556
+Sklon je záporný, pak méně záporný,
+ještě méně záporný, nulový, kladný,
+
+07:31.556 --> 07:33.983
+kladnější,
+ještě kladnější...
+
+07:33.983 --> 07:41.823
+Sklon je
+tedy rostoucí,
+
+07:41.823 --> 07:50.667
+což znamená, že derivace
+funkce je rostoucí.
+
+07:50.667 --> 07:52.646
+To můžeme
+vidět zde.
+
+07:52.646 --> 07:55.486
+Hodnota derivace roste.
+
+07:55.486 --> 07:56.783
+Tohle pak znamená,
+
+07:56.783 --> 08:03.353
+že na intervalu, kde je funkce konvexní,
+musí být druhá derivace větší než nula.
+
+08:03.353 --> 08:07.440
+Když je druhá derivace větší než nula,
+tak je první derivace rostoucí,
+
+08:07.440 --> 08:09.215
+a tudíž i sklon
+funkce je rostoucí.
+
+08:09.215 --> 08:14.575
+Funkce je na daném
+intervalu konvexní.
+
+08:14.575 --> 08:20.067
+Když už jsme si teď zadefinovali,
+kdy je funkce konkávní a konvexní,
+
+08:20.067 --> 08:22.077
+dokážeme vymyslet
+jiný způsob, jak zjistit,
+
+08:22.077 --> 08:26.250
+zda má funkce v stacionárním bodě
+lokální minimum nebo maximum?
+
+08:26.250 --> 08:28.365
+Když má funkce
+lokální maximum...
+
+08:28.365 --> 08:34.395
+Máme-li stacionární bod,
+okolo něhož je funkce konkávní,
+
+08:34.405 --> 08:35.898
+tak jde o bod
+lokálního maxima.
+
+08:35.898 --> 08:37.158
+Funkce musí
+být konkávní.
+
+08:37.163 --> 08:38.068
+Ještě to
+ujasním.
+
+08:38.068 --> 08:42.575
+Konkávní znamená,
+že graf se takhle otevírá dolů.
+
+08:42.575 --> 08:44.003
+Když máme
+stacionární bod...
+
+08:44.003 --> 08:48.958
+Předpokládejme, že funkce je konkávní a
+diferencovatelná na celém tomto intervalu.
+
+08:48.958 --> 08:52.268
+Ve stacionárním bodě
+bude sklon roven nule,
+
+08:52.268 --> 08:54.698
+takže to je
+tento bod.
+
+08:54.698 --> 09:02.200
+Když máme konkávní funkci a bod ‚a‘,
+ve kterém je derivace rovna nula,
+
+09:02.200 --> 09:11.392
+tak je bod ‚a‘
+bodem lokálního maxima.
+
+09:11.392 --> 09:14.146
+Podobně to platí i tehdy,
+když je funkce konvexní,
+
+09:14.146 --> 09:17.106
+což znamená,
+že její graf vypadá nějak takto.
+
+09:17.106 --> 09:18.837
+Pokud jsme našli
+nějaký bod...
+
+09:18.837 --> 09:22.648
+Stacionární bod může být samozřejmě také
+bod, ve kterém derivace není definovaná,
+
+09:22.648 --> 09:26.436
+ale když předpokládáme,
+že první i druhá derivace jsou definované,
+
+09:26.436 --> 09:31.222
+tak bude stacionárním bodem ten bod,
+ve kterém je první derivace rovna nule,
+
+09:31.222 --> 09:35.022
+neboli pro který platí,
+že f s čárkou v bodě ‚a‘ se rovná nule.
+
+09:35.022 --> 09:38.092
+Když je f s čárkou
+v bodě ‚a‘ rovno nule
+
+09:38.092 --> 09:42.010
+a funkce je na intervalu
+okolo bodu ‚a‘ konvexní,
+
+09:42.010 --> 09:44.360
+tedy když je
+druhá derivace větší než 0,
+
+09:44.360 --> 09:49.585
+tak je celkem zřejmé,
+že se jedná o lokální minimum,
+
+09:49.585 --> 09:53.505
+tedy že funkce má v bodě ‚a‘
+svoje lokální minimum.

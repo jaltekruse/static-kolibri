@@ -1,0 +1,634 @@
+WEBVTT
+
+00:00.694 --> 00:03.441
+- [Narrator] The population
+P of T of bacteria
+
+00:03.441 --> 00:06.159
+in a petry dish satisfies the logistic
+
+00:06.159 --> 00:07.760
+differential equation.
+
+00:07.760 --> 00:10.360
+The rate of change of
+population with respect to time
+
+00:10.360 --> 00:13.299
+is equal to two times the population times
+
+00:13.299 --> 00:15.513
+the difference between six
+
+00:15.513 --> 00:18.125
+and the population divided by 8000,
+
+00:18.125 --> 00:21.205
+where T is measured in hours
+and the initial population
+
+00:21.205 --> 00:22.538
+is 700 bacteria.
+
+00:23.746 --> 00:27.470
+What is the carrying
+capacity of the population;
+
+00:27.470 --> 00:30.074
+and what is the population's size
+
+00:30.074 --> 00:32.574
+when it's growing the fastest?
+
+00:33.926 --> 00:36.563
+So in order to even attempt
+to answer these questions
+
+00:36.563 --> 00:39.214
+at any point if you're inspired,
+definitely pause the video
+
+00:39.214 --> 00:41.503
+and try to answer it by yourself.
+
+00:41.503 --> 00:43.942
+Let's just remind ourselves
+what we're talking about
+
+00:43.942 --> 00:44.990
+or what they're talking about
+
+00:44.990 --> 00:47.024
+with the logistic differential equation
+
+00:47.024 --> 00:49.882
+and the carrying capacity.
+
+00:49.882 --> 00:52.312
+So in general a logistic
+differential equation
+
+00:52.312 --> 00:54.604
+is one where we seeing
+the rate of change of,
+
+00:54.604 --> 00:56.252
+and it's often referring to population,
+
+00:56.252 --> 00:58.047
+so let's just stick with population.
+
+00:58.047 --> 01:01.546
+So the rate of change of our
+population with respect to time
+
+01:01.546 --> 01:05.977
+is proportional to the
+product of the population
+
+01:05.977 --> 01:07.990
+and the difference between what's known
+
+01:07.990 --> 01:11.590
+as the carrying capacity
+and the population.
+
+01:11.590 --> 01:14.866
+Now why is this a model
+that you'll see a lot,
+
+01:14.866 --> 01:16.512
+especially why is it useful
+
+01:16.512 --> 01:18.757
+for studying things like populations.
+
+01:18.757 --> 01:21.674
+When a population is small
+
+01:21.674 --> 01:24.590
+the environment really isn't limiting it
+
+01:24.590 --> 01:27.842
+and so assuming it starts
+from some none zero value,
+
+01:27.842 --> 01:31.493
+this thing grows, this
+thing is not going to get
+
+01:31.493 --> 01:35.122
+much smaller and so
+our population is going
+
+01:35.122 --> 01:38.894
+to a rate of change is going to increase.
+
+01:38.894 --> 01:41.651
+And so let me just draw
+a little graph here
+
+01:41.651 --> 01:43.761
+to show the typical solution
+
+01:43.761 --> 01:45.857
+to a logistic differential equation.
+
+01:45.857 --> 01:47.997
+So this is our population, this is time,
+
+01:47.997 --> 01:50.620
+so when our population is low,
+
+01:50.620 --> 01:52.500
+let's say it's gonna start
+from some non zero value,
+
+01:52.500 --> 01:53.963
+if it was zero what would happen,
+
+01:53.963 --> 01:55.943
+well then our rate of
+change would just be zero
+
+01:55.943 --> 01:57.811
+and our population would never
+grow and that makes sense.
+
+01:57.811 --> 02:00.073
+If you have no bunnies on your island
+
+02:00.073 --> 02:02.424
+then there never will be
+any bunnies on your island
+
+02:02.424 --> 02:05.340
+but if you have a few
+bunnies well initially,
+
+02:05.340 --> 02:06.609
+their rate of change,
+
+02:06.609 --> 02:09.383
+the rate of population is
+gonna keep accelerating
+
+02:09.383 --> 02:13.581
+as this thing grows, it's
+gonna keep accelerating
+
+02:13.581 --> 02:17.321
+but then at some point your
+environment is going to
+
+02:17.321 --> 02:20.764
+limit how many bunnies
+for example or bacteria
+
+02:20.764 --> 02:22.390
+can grow in your environment.
+
+02:22.390 --> 02:25.504
+Because once the
+population gets close to A,
+
+02:25.504 --> 02:28.090
+this thing right over here
+is going to approach zero
+
+02:28.090 --> 02:29.945
+and its going to make our rate of change
+
+02:29.945 --> 02:31.806
+smaller and smaller and smaller.
+
+02:31.806 --> 02:34.742
+And so you can imagine
+in the limiting case
+
+02:34.742 --> 02:36.909
+as P gets very close to A,
+
+02:41.982 --> 02:44.108
+you can imagine as T approaches infinity,
+
+02:44.108 --> 02:46.771
+our rate of change is
+going to approach zero.
+
+02:46.771 --> 02:48.629
+So one way to think about it is,
+
+02:48.629 --> 02:52.796
+our population would acemtote
+towards the carrying capacity.
+
+02:54.088 --> 02:58.544
+That is A right over here,
+that is our carrying capacity.
+
+02:58.544 --> 02:59.942
+So there's a couple of ways
+
+02:59.942 --> 03:02.927
+of answering this first question; one way
+
+03:02.927 --> 03:05.456
+is we can actually put our
+logistic differential equation
+
+03:05.456 --> 03:08.047
+in this form and then we can recognize
+
+03:08.047 --> 03:10.083
+what the carrying capacity is.
+
+03:10.083 --> 03:12.224
+The other way is to think
+about, well what happens
+
+03:12.224 --> 03:13.893
+as T approaches infinity.
+
+03:13.893 --> 03:17.828
+As T approaches infinity,
+this thing approaches zero
+
+03:17.828 --> 03:20.611
+and so we can think from this
+logistic differential equation
+
+03:20.611 --> 03:24.194
+what P values would
+make this thing be zero
+
+03:25.272 --> 03:26.598
+based on this differential equation
+
+03:26.598 --> 03:28.711
+or when this thing approaches zero,
+
+03:28.711 --> 03:31.719
+what P values would this approach.
+
+03:31.719 --> 03:33.515
+So let's do it both ways.
+
+03:33.515 --> 03:37.130
+So one way, let me write it
+in this form right over here,
+
+03:37.130 --> 03:40.670
+so it's close, this is
+six minus P over 8000,
+
+03:40.670 --> 03:42.477
+can we make it in the form
+where we just have some number
+
+03:42.477 --> 03:43.770
+minus P.
+
+03:43.770 --> 03:46.670
+Well if we multiply this times 8000
+
+03:46.670 --> 03:48.664
+and then we divided this by 8000
+
+03:48.664 --> 03:50.885
+we wouldn't be changing the
+value of that expression
+
+03:50.885 --> 03:52.038
+so let's do that.
+
+03:52.038 --> 03:54.610
+If we divide this by 8000 you have
+
+03:54.610 --> 03:58.777
+DP DT is equal to 2P over
+8000 is P over 4000 times
+
+04:03.934 --> 04:07.787
+and now let's multiply
+this expression by 8000.
+
+04:07.787 --> 04:11.954
+So six times 8000 is 48,000
+minus P over 8000 times 8000
+
+04:14.960 --> 04:17.070
+is minus P and there you have it.
+
+04:17.070 --> 04:19.502
+We've written it down
+to somewhat classic form
+
+04:19.502 --> 04:21.793
+and we can see that the carrying capacity
+
+04:21.793 --> 04:25.293
+is 48,000, I guess we say 48,000 bacteria.
+
+04:27.459 --> 04:31.367
+So this thing right over here is 48,000.
+
+04:31.367 --> 04:33.317
+Another way we could think about it is,
+
+04:33.317 --> 04:35.384
+well the carrying capacity is what happens
+
+04:35.384 --> 04:37.068
+as T approaches infinity.
+
+04:37.068 --> 04:39.813
+So as T approaches infinity,
+this thing right over here
+
+04:39.813 --> 04:41.646
+approaches zero, you can
+see the rate of change
+
+04:41.646 --> 04:43.369
+approaches zero.
+
+04:43.369 --> 04:47.252
+So when that approaches
+zero what does P approach?
+
+04:47.252 --> 04:51.419
+So we can just solve for
+this; six minus P over 8000.
+
+04:53.128 --> 04:55.038
+Well there's two situations, two Ps
+
+04:55.038 --> 04:57.385
+for which our derivative is equal to zero.
+
+04:57.385 --> 04:59.923
+There's one case when
+this is equal to zero,
+
+04:59.923 --> 05:01.892
+in which case our population is to zero
+
+05:01.892 --> 05:04.975
+or the other case is when
+this is equal to zero.
+
+05:04.975 --> 05:09.740
+So let's do that; six minus
+P over 8000 is equal to zero
+
+05:09.740 --> 05:13.323
+or we could say P over
+8000 is equal to six
+
+05:15.382 --> 05:17.811
+and so we can say multiply
+both sides by 8000,
+
+05:17.811 --> 05:19.478
+P is equal to 48000.
+
+05:21.046 --> 05:24.348
+Which is exactly what
+we had right over there.
+
+05:24.348 --> 05:26.173
+So now let's answer the second part.
+
+05:26.173 --> 05:30.176
+What is the population's size
+when it's growing the fastest?
+
+05:30.176 --> 05:33.302
+So intuitively you can see
+when that is right over here,
+
+05:33.302 --> 05:36.381
+the rate of change is gonna grow
+
+05:36.381 --> 05:39.041
+but then as we approach
+the carrying capacity,
+
+05:39.041 --> 05:40.842
+the rate of change is
+gonna start slowing down.
+
+05:40.842 --> 05:43.741
+So your maximum rate of change,
+it's growing the fastest,
+
+05:43.741 --> 05:47.908
+is right about there but how
+do we figure out it exactly.
+
+05:49.543 --> 05:50.978
+Well you could go back to the logistic
+
+05:50.978 --> 05:52.493
+differential equation.
+
+05:52.493 --> 05:54.931
+You can see that it's
+really our rate of change
+
+05:54.931 --> 05:57.142
+is a function, you could view it as
+
+05:57.142 --> 06:00.090
+a function of our
+population right over here.
+
+06:00.090 --> 06:02.674
+And this is actually a
+quadratic expression,
+
+06:02.674 --> 06:05.470
+this is a concave downward
+quadratic expression,
+
+06:05.470 --> 06:06.373
+it would look like this,
+
+06:06.373 --> 06:10.354
+if you were graphing rate
+of change, let me do that,
+
+06:10.354 --> 06:13.354
+if you were to graph rate of change,
+
+06:14.355 --> 06:17.188
+DP DT as a function of population,
+
+06:18.396 --> 06:22.563
+well when the population is
+small, so when the population
+
+06:24.340 --> 06:28.350
+is, say 700 or that's
+where we're starting.
+
+06:28.350 --> 06:30.480
+I'll just speak in generalities,
+
+06:30.480 --> 06:34.916
+when your population is
+small DPT, your rate is small
+
+06:34.916 --> 06:39.083
+but then it increases and
+then some point around there
+
+06:40.604 --> 06:45.018
+the rate of change starts to
+decrease and it approaches zero
+
+06:45.018 --> 06:49.702
+as our population is approaching
+the carrying capacity.
+
+06:49.702 --> 06:52.730
+So this right over here for
+example, would actually be
+
+06:52.730 --> 06:54.829
+our carrying capacity.
+
+06:54.829 --> 06:59.132
+What is this maximum point right over here
+
+06:59.132 --> 07:01.018
+and there's a couple of
+ways you could approach it
+
+07:01.018 --> 07:03.421
+with calculus and even
+algebra, we have many tools
+
+07:03.421 --> 07:04.854
+for identifying this maximum point
+
+07:04.854 --> 07:07.665
+which is really just a vertex
+of this downward opening,
+
+07:07.665 --> 07:09.909
+this concave downward parabola.
+
+07:09.909 --> 07:13.017
+So let's just do that and
+let's find this vertex
+
+07:13.017 --> 07:16.459
+and the vertex is just
+half way between the zeros
+
+07:16.459 --> 07:18.411
+of this quadratic.
+
+07:18.411 --> 07:22.229
+So let's find the P values
+that make this equal to zero
+
+07:22.229 --> 07:25.146
+which we actually just figured out,
+
+07:26.655 --> 07:30.584
+the vertex is just gonna
+be half way between that.
+
+07:30.584 --> 07:34.411
+So when the population is zero
+our rate of change is zero
+
+07:34.411 --> 07:38.315
+when the population is A,
+which we know is 48,000,
+
+07:38.315 --> 07:42.482
+our rate of change is zero and
+so our maximum rate of change
+
+07:44.879 --> 07:47.538
+is gonna happen half way
+between those two points
+
+07:47.538 --> 07:48.788
+which is 24,000
+
+07:50.140 --> 07:53.150
+So it is a population of 24,000.
+
+07:53.150 --> 07:54.833
+When we got that by really just saying
+
+07:54.833 --> 07:56.802
+well at one point does this quadratic,
+
+07:56.802 --> 07:58.634
+quadratic is a function of P,
+
+07:58.634 --> 08:01.121
+when does that hit a maximum point.
+
+08:01.121 --> 08:03.607
+Well that's going to be
+half way between the zeros,
+
+08:03.607 --> 08:07.398
+the zeros happen when P equals
+zero and P is equal to 48,000
+
+08:07.398 --> 08:11.218
+so that's gonna happen when
+the population is 24,000.
+
+08:11.218 --> 08:14.673
+So this type of problem seems
+very intimidating at first,
+
+08:14.673 --> 08:16.318
+logistic differential equation,
+
+08:16.318 --> 08:18.905
+how do I actually solve
+this and then analyze it
+
+08:18.905 --> 08:20.619
+but the key is to; one,
+
+08:20.619 --> 08:23.035
+recognize a logistic
+differential equation,
+
+08:23.035 --> 08:25.287
+see what it's talking about
+
+08:25.287 --> 08:28.847
+and then maybe think of this
+in terms of our rate of change
+
+08:28.847 --> 08:30.781
+as a function of our population.
+
+08:30.781 --> 08:33.758
+And remember that the carrying
+capacity is what happens
+
+08:33.758 --> 08:38.337
+as T approaches infinity
+and as T approaches infinity
+
+08:38.337 --> 08:42.074
+our rate of change approaches zero.
+
+08:42.074 --> 08:43.645
+And so if that's approaching zero,
+
+08:43.645 --> 08:46.625
+what must our population be approaching.

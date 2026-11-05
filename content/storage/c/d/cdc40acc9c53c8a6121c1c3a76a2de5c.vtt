@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.690 --> 00:04.000
+Binom teoremi ile ilgili birçok video yaptım.
+
+00:04.000 --> 00:07.550
+Bu yüzden şimdilik bu kadarının yeteceğini düşünüyorum.
+
+00:07.550 --> 00:13.660
+Artık genel türev formülünün ispatına geçebiliriz.
+
+00:07.550 --> 00:13.660
+"
+
+00:13.660 --> 00:18.500
+n üssü x'in türevini alalım.
+
+00:18.500 --> 00:20.300
+Artık binom teoremini de bildiğimize göre, türev almak için ihtiyacımız olan şeye sahibiz.
+
+00:20.300 --> 00:22.440
+"
+
+00:22.440 --> 00:23.830
+Nasıl alacağız türevi?
+
+00:23.830 --> 00:26.070
+Türevin klasik tanımı neydi?
+
+00:26.070 --> 00:36.220
+limit, delta x 0'a yaklaşırken, f(x)+Δx
+
+00:36.220 --> 00:39.130
+Değil mi?
+
+00:39.130 --> 00:44.210
+Yani, burada (x+Δx)^n-x^n / Δx
+
+00:44.210 --> 00:48.000
+Değil mi?
+
+00:48.000 --> 00:52.720
+"
+
+00:52.720 --> 00:54.100
+"
+
+00:54.100 --> 00:57.710
+"
+
+00:57.710 --> 01:01.610
+Artık binom teoremini bildiğimize göre (x+Δx)^n'i açabiliriz.
+
+01:01.610 --> 01:05.200
+"
+
+01:05.200 --> 01:07.340
+Eğer binom teoremini bilmiyorsanız, önceki sunumlarından binom teoremini bulup izleyebilirsiniz.
+
+01:07.340 --> 01:10.040
+"
+
+01:10.040 --> 01:11.710
+"
+
+01:11.710 --> 01:15.290
+Binom teoremi bize bunun şuna eşit olduğunu söyler:
+
+01:15.290 --> 01:20.170
+lim, Δx->0, ...
+
+01:20.170 --> 01:23.310
+"
+
+01:23.310 --> 01:24.860
+Peki binom teoremi neydi?
+
+01:24.860 --> 01:26.960
+Sadece payı yapıyorum.
+
+01:26.960 --> 01:39.630
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...
+
+01:39.630 --> 01:42.440
+Tekrar söylüyorum.
+
+01:42.440 --> 01:44.340
+Bu size latince gibi geliyorsa ki latince bilmiyorsunuz, binom teoremini tekrar gözden geçirin.
+
+01:44.340 --> 02:00.780
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...
+
+02:00.780 --> 02:07.650
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...
+
+02:07.650 --> 02:10.490
+Ve ardından bir dizi sayı daha geliyor.
+
+02:10.490 --> 02:12.560
+Bunların hepsini yazmak zorunda değiliz.
+
+02:12.560 --> 02:14.810
+Binom teoremi bize bunların ne olduğunu söylüyor.
+
+02:14.810 --> 02:20.790
+Ekleyeceğimiz son rakam 1 olacak.
+
+02:20.790 --> 02:22.450
+Yani (n¦n) ki bu da 1'e eşit.
+
+02:22.450 --> 02:26.030
+O zaman devam edersek şöyle bir şey olacak:
+
+02:26.030 --> 02:36.920
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...+(n¦n)x^0
+
+02:36.920 --> 02:39.030
+Bu binom açılımı.
+
+02:39.030 --> 02:44.450
+Devam edelim.
+
+02:44.450 --> 02:49.740
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...+(n¦n)x^0-x^n / Δx
+
+02:49.740 --> 02:51.840
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...+(n¦n)x^0-x^n / Δx
+
+02:51.840 --> 02:56.810
+x^n+ (n¦1)x^n-1.Δx +(n¦2)x^n-2.(Δx )^2+...+(n¦n)x^0-x^n / Δx
+
+02:56.810 --> 02:58.590
+Bakalım sadeleştirebilecek miyiz.
+
+02:58.590 --> 03:00.940
+İlk olarak, burada bir x^n var ve payın en sonunda -x^n var.
+
+03:00.940 --> 03:05.880
+Bunlar birbirini götürürler.
+
+03:05.880 --> 03:09.080
+Eğer paydaki her terime bakarsanız, hepsinde bir Δx olduğunu göreceksiniz.
+
+03:09.080 --> 03:13.310
+O zaman hem payı hem paydayı Δx'e bölebiliriz.
+
+03:13.310 --> 03:16.820
+"
+
+03:16.820 --> 03:19.210
+Yani aslında pay 1/Δx ile çarpılmış gibi.
+
+03:19.210 --> 03:19.960
+"
+
+03:19.960 --> 03:29.670
+O zaman şöyle yazalım.
+
+03:29.670 --> 03:31.910
+Hem payı hem paydayı Δx'e böldük.
+
+03:31.910 --> 03:34.530
+"
+
+03:34.530 --> 03:42.310
+İlk terim (n¦1)x^n-1 olur.
+
+03:42.310 --> 03:45.580
+Δx / Δx nedir? 1.
+
+03:45.580 --> 03:52.440
+2. terim (n¦2)x^n-2
+
+03:52.440 --> 03:56.310
+Burada (Δx )^2 var.
+
+03:56.310 --> 03:57.940
+Δx'e bölünce Δx elde ediyoruz.
+
+03:57.940 --> 03:59.490
+Δx
+
+03:59.490 --> 04:02.100
+Ve böyle devam ediyor.
+
+04:02.100 --> 04:04.180
+Sırayla bütün terimleri Δx'e bölmemiz gerekiyor.
+
+04:04.180 --> 04:07.190
+Son terimde, yani (n¦n)x^0Δx^n'de ne oluyor?
+
+04:07.190 --> 04:09.130
+Onu da Δx'e bölüyoruz.
+
+04:09.130 --> 04:14.550
+Böylece (n¦n)x^0=1 olduğu için Δx^n'i Δx'e bölmemiz yeterli.
+
+04:14.550 --> 04:17.940
+Δx^n / Δx =?
+
+04:17.940 --> 04:21.910
+Δx^n-1.
+
+04:21.910 --> 04:25.150
+(n¦1)x^n-1+(n¦2)x^n-2(Δx )+...+Δx^n-1.
+
+04:25.150 --> 04:26.690
+Şimdi ne yapacağız?
+
+04:26.690 --> 04:28.505
+Δx 0'a yaklaşırken limit aldığımızı hatırlayın.
+
+04:28.505 --> 04:30.760
+"
+
+04:30.760 --> 04:33.220
+Nerdeyse her terimin içinde Δx olduğu için, Δx 0'a yaklaşırken bu da 0 olur.
+
+04:33.220 --> 04:37.290
+"
+
+04:37.290 --> 04:40.850
+0 ile çarparsanız 0 elde edersiniz.
+
+04:40.850 --> 04:42.650
+İlk terimde Δx yok.
+
+04:42.650 --> 04:43.730
+Ancak diğer bütün terimlerde Δx var.
+
+04:43.730 --> 04:45.950
+İlki dışındaki diğer her terimin, Δx ile bölündükten sonra bile bir Δx'i var.
+
+04:45.950 --> 04:46.680
+"
+
+04:46.680 --> 04:47.930
+O zaman bu 0'a eşittir.
+
+04:47.930 --> 04:50.970
+Bütün bunlar sıfır.
+
+04:50.970 --> 04:52.940
+Hepsi 0'a eşit.
+
+04:52.940 --> 04:58.390
+Elimizde tek kalan (n¦1)x^n-1.
+
+04:58.390 --> 05:02.520
+(n¦1)x^n-1
+
+05:02.520 --> 05:04.530
+(n¦1) neye eşit peki?
+
+05:04.530 --> 05:13.070
+[n! / 1!(n-1)!]x^n-1
+
+05:13.070 --> 05:17.170
+[n! / 1!(n-1)!]x^n-1
+
+05:17.170 --> 05:19.390
+[n! / 1!(n-1)!]x^n-1
+
+05:19.390 --> 05:23.430
+Eğer 7!/6! olsaydı 7'e eşit olurdu.
+
+05:23.430 --> 05:26.070
+Ya da 3!/2! olsaydı 3'e eşit olurdu.
+
+05:26.070 --> 05:27.650
+Bunu halledebilirsiniz.
+
+05:27.650 --> 05:30.660
+10!/9!=10
+
+05:30.660 --> 05:32.830
+Yani n!/(n-1)! n'e eşit olacak.
+
+05:32.830 --> 05:34.600
+n!/(n-1)!=n
+
+05:34.600 --> 05:39.540
+Yani [n! / 1!(n-1)!]x^n-1= n.x^n-1.
+
+05:39.540 --> 05:43.866
+Bu da x^n'in türevine eşit.
+
+05:43.866 --> 05:45.900
+n çarpı x^n-1.
+
+05:45.900 --> 05:52.470
+x^n, n herhangi bir pozitif bir sayı, herhangi bir pozitif tamsayının türevini ispatladık.
+
+05:52.470 --> 05:55.610
+"
+
+05:55.610 --> 05:59.790
+Daha sonra bütün reel sayılar ve üssü sayılarda geçerli olduğunu göreceğiz.
+
+05:59.790 --> 06:02.990
+"
+
+06:02.990 --> 06:05.980
+Bir dahaki videoda yapacağız.
+
+06:05.980 --> 06:08.860
+Bahsetmek istediğim bir nokta daha var.
+
+06:08.860 --> 06:10.150
+Binom teoremini bilmemiz gerektiğini söyledim.
+
+06:10.150 --> 06:12.050
+Ama aslında düşünürseniz hiç de gerek yok.
+
+06:12.050 --> 06:15.630
+Yani biraz bilmeniz gerekiyor.
+
+06:15.630 --> 06:17.960
+Binom açılımını bilmeniz gerek mesela.
+
+06:17.960 --> 06:19.350
+Yani biraz tecrübe edinirseniz, şunu fark edersiniz:
+
+06:19.350 --> 06:25.470
+(a+b)^n açılımını yaparken 1. terimin a^n ve 2. terimin n.a^n-1.b olacağını ve diğer terimlerin de böyle devam edeceğini görürsünüz.
+
+06:25.470 --> 06:29.040
+(a+b)^n açılımını yaparken 1. terimin a^n ve 2. terimin n.a^n-1.b olacağını ve diğer terimlerin de böyle devam edeceğini görürsünüz.
+
+06:29.040 --> 06:35.670
+(a+b)^n açılımını yaparken 1. terimin a^n ve 2. terimin n.a^n-1.b olacağını ve diğer terimlerin de böyle devam edeceğini görürsünüz.
+
+06:35.670 --> 06:37.320
+(a+b)^n açılımını yaparken 1. terimin a^n ve 2. terimin n.a^n-1.b olacağını ve diğer terimlerin de böyle devam edeceğini görürsünüz.
+
+06:37.320 --> 06:40.190
+Ama bunlar sadece bu ispatla ilgili terimler.
+
+06:40.190 --> 06:43.575
+Diğer bütün terimler Δx 0'a yaklaşırken silindi.
+
+06:43.575 --> 06:44.980
+"
+
+06:44.980 --> 06:47.110
+Tabii binom teoremini bilmeniz gerekse de, böyle de yapabilirsiniz.
+
+06:47.110 --> 06:49.150
+"
+
+06:49.150 --> 06:50.880
+Son söylediklerim aklınızı karıştırdıysa duymazdan gelin.
+
+06:50.880 --> 06:55.280
+Sadece bu geri kalan terimlerin hepsinin sıfıra yaklaştığını söylemeye çalışıyordum.
+
+06:55.280 --> 06:56.950
+"
+
+06:56.950 --> 06:59.700
+Her neyse, umarım tatmin edici olmuştur.
+
+06:59.700 --> 07:01.960
+Bir dahaki videoda görüşmek üzere.
+
+07:01.960 --> 07:02.400
+"

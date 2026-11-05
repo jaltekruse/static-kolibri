@@ -1,0 +1,488 @@
+WEBVTT
+
+00:00.640 --> 00:02.390
+Now let's do something
+pretty interesting.
+
+00:02.390 --> 00:04.973
+And this will, to some degree,
+be one of the easiest functions
+
+00:04.973 --> 00:07.340
+to find the Maclaurin
+series representation of.
+
+00:07.340 --> 00:10.740
+But let's try to
+approximate e to the x.
+
+00:10.740 --> 00:13.106
+f of x is equal to e to the x.
+
+00:13.106 --> 00:14.480
+And what makes
+this really simple
+
+00:14.480 --> 00:15.850
+is, when you take the
+derivative-- and this is,
+
+00:15.850 --> 00:18.720
+frankly, one of the amazing
+things about the number e--
+
+00:18.720 --> 00:21.270
+is that when you take the
+derivative of e to the x,
+
+00:21.270 --> 00:23.050
+you get e to the x.
+
+00:23.050 --> 00:25.590
+So this is equal
+to f prime of x.
+
+00:25.590 --> 00:28.880
+This is equal to f, the
+second derivative of x.
+
+00:28.880 --> 00:31.570
+This is equal to the
+third derivative of x.
+
+00:31.570 --> 00:33.810
+This is equal to the
+n-th derivative of x.
+
+00:33.810 --> 00:35.980
+It's always equal to e to the x.
+
+00:35.980 --> 00:38.780
+That's kind of the
+first mind blowing thing
+
+00:38.780 --> 00:40.270
+about the number e.
+
+00:40.270 --> 00:42.390
+It's just, you could keep
+taking its derivative.
+
+00:42.390 --> 00:45.180
+The slope at any
+point on that curve
+
+00:45.180 --> 00:48.410
+is the same as the value of
+that point on that curve.
+
+00:48.410 --> 00:49.800
+That's kind of crazy.
+
+00:49.800 --> 00:51.800
+Anyway, with that said,
+let's take its Maclaurin
+
+00:51.800 --> 00:52.680
+representation.
+
+00:52.680 --> 00:55.220
+So we have to find f
+of 0, f prime of 0,
+
+00:55.220 --> 00:56.525
+the second derivative at 0.
+
+00:56.525 --> 01:01.230
+Well, when you take e to the 0,
+e to the 0 is just equal to 1.
+
+01:01.230 --> 01:03.680
+And so this is going
+to be equal to f of 0.
+
+01:03.680 --> 01:06.040
+This is going to be
+equal to f prime of 0.
+
+01:06.040 --> 01:14.410
+It's going to be equal to any of
+the derivatives evaluated at 0.
+
+01:14.410 --> 01:16.410
+The n-th derivative
+evaluated at 0.
+
+01:16.410 --> 01:20.120
+And that's why it makes
+applying the Maclaurin series
+
+01:20.120 --> 01:22.600
+formula fairly straightforward.
+
+01:22.600 --> 01:24.670
+If I wanted to
+approximate e to the x
+
+01:24.670 --> 01:28.330
+using a Maclaurin series--
+so e to the x-- and I'll
+
+01:28.330 --> 01:29.910
+put a little
+approximately over here.
+
+01:29.910 --> 01:32.360
+And we'll get closer and
+closer to the real e to the x
+
+01:32.360 --> 01:34.490
+as we keep adding
+more and more terms.
+
+01:34.490 --> 01:36.980
+And especially if we had an
+infinite number of terms,
+
+01:36.980 --> 01:40.480
+it would look like
+this. f of 0--
+
+01:40.480 --> 01:43.160
+let me do it in-- what colors
+did I use for cosine and sine?
+
+01:43.160 --> 01:45.550
+So I used pink and I used green.
+
+01:45.550 --> 01:47.280
+So let me use a
+non-pink, non-green.
+
+01:47.280 --> 01:49.930
+I'll use the yellow here.
+
+01:49.930 --> 01:55.710
+So f of 0 is 1 plus f prime
+of 0 times x. f prime of 0
+
+01:55.710 --> 01:56.790
+is also 1.
+
+01:56.790 --> 02:00.900
+So plus x plus, this
+is also 1, so it's
+
+02:00.900 --> 02:03.040
+going to be x squared
+over 2 factorial.
+
+02:03.040 --> 02:06.373
+So plus x squared
+over 2 factorial.
+
+02:06.373 --> 02:07.956
+All of these things
+are going to be 1.
+
+02:07.956 --> 02:11.530
+This is 1, this is 1, when
+we're talking about e to the x.
+
+02:11.530 --> 02:12.820
+So you go to the third term.
+
+02:12.820 --> 02:13.950
+This is 1.
+
+02:13.950 --> 02:16.180
+You just have x to the
+third over 3 factorial.
+
+02:16.180 --> 02:18.809
+Plus x to the third
+over 3 factorial.
+
+02:18.809 --> 02:20.350
+And I think you see
+the pattern here.
+
+02:20.350 --> 02:22.950
+We just keep adding terms.
+x to the fourth over 4
+
+02:22.950 --> 02:26.510
+factorial plus x
+to the fifth over 5
+
+02:26.510 --> 02:31.220
+factorial plus x to the
+sixth over 6 factorial.
+
+02:31.220 --> 02:35.300
+And something pretty neat
+is starting to emerge.
+
+02:35.300 --> 02:38.270
+Is that e to x, 1-- this is just
+really cool-- that e to the x
+
+02:38.270 --> 02:42.960
+can be approximated by
+1 plus x plus x squared
+
+02:42.960 --> 02:45.620
+over 2 factorial plus x to
+the third over 3 factorial.
+
+02:45.620 --> 02:47.470
+Once again, e to
+the x is starting
+
+02:47.470 --> 02:49.160
+to look like a
+pretty cool thing.
+
+02:49.160 --> 02:51.570
+This also leads to other
+interesting results.
+
+02:51.570 --> 02:54.560
+That if you wanted
+to approximate e,
+
+02:54.560 --> 02:58.820
+you just evaluate this
+at x is equal to 1.
+
+02:58.820 --> 03:01.260
+So if you wanted to
+approximate e, you'd say
+
+03:01.260 --> 03:05.900
+e is approximate to-- well,
+e is e to the first power.
+
+03:05.900 --> 03:07.400
+And that's going
+to be approximately
+
+03:07.400 --> 03:10.280
+equal to this polynomial
+evaluated at 1.
+
+03:10.280 --> 03:12.750
+If x is 1 here, we
+make x 1 over here.
+
+03:12.750 --> 03:15.010
+So it'll be 1 plus 1.
+
+03:15.010 --> 03:21.220
+So it'll be 1 plus 1
+plus 1 over 2 factorial,
+
+03:21.220 --> 03:27.570
+plus 1 over 3 factorial,
+plus 1 over 4 factorial.
+
+03:27.570 --> 03:30.700
+So on and so forth, all
+the way into infinity.
+
+03:30.700 --> 03:35.640
+And you could also view this
+as 1 over 1 factorial as well.
+
+03:35.640 --> 03:37.280
+1 over 1 factorial.
+
+03:37.280 --> 03:39.770
+But what's really cool is this
+is another really neat way
+
+03:39.770 --> 03:40.870
+to represent e.
+
+03:40.870 --> 03:43.940
+It shows that e once again shows
+up in this kind of neat thing.
+
+03:43.940 --> 03:48.660
+It's kind of 2 plus
+1/2, plus 1/6, plus--
+
+03:48.660 --> 03:54.070
+if you just keep doing this,
+you get close to the number e.
+
+03:54.070 --> 03:57.820
+But that by itself isn't
+the only fascinating thing.
+
+03:57.820 --> 04:00.090
+If we look back at our
+Maclaurin representations
+
+04:00.090 --> 04:03.020
+of these other
+functions, cosine of x--
+
+04:03.020 --> 04:06.140
+let me copy and
+paste cosine of x.
+
+04:06.140 --> 04:09.450
+So cosine of x right up here.
+
+04:09.450 --> 04:13.290
+So let me do my best to copy
+and paste the whole thing.
+
+04:13.290 --> 04:17.220
+So copy and paste.
+
+04:17.220 --> 04:19.769
+Copy and paste.
+
+04:19.769 --> 04:22.510
+So that is cosine of x.
+
+04:22.510 --> 04:25.050
+And let's do the same
+thing for the sine
+
+04:25.050 --> 04:27.260
+of x that we did last video.
+
+04:27.260 --> 04:28.485
+So the sine of x.
+
+04:31.040 --> 04:33.930
+Let me copy and paste that.
+
+04:33.930 --> 04:38.526
+Copy, and then
+let me paste that.
+
+04:38.526 --> 04:40.260
+Edit, paste.
+
+04:40.260 --> 04:45.690
+So do we see any relationship
+between these approximations?
+
+04:45.690 --> 04:47.927
+So before, you probably
+would have guessed maybe
+
+04:47.927 --> 04:50.010
+there's some relationship
+between cosine and sine,
+
+04:50.010 --> 04:52.180
+but what about e to the x?
+
+04:52.180 --> 04:54.980
+And what you see
+here is that cosine
+
+04:54.980 --> 04:59.360
+of x looks a lot like
+this term plus this term,
+
+04:59.360 --> 05:01.910
+although we would want to put
+a negative out front here.
+
+05:01.910 --> 05:04.210
+So it's a negative version
+of this term right here,
+
+05:04.210 --> 05:07.960
+plus this term right here,
+plus a negative version
+
+05:07.960 --> 05:10.640
+of this term right over here.
+
+05:10.640 --> 05:15.830
+And sine of x looks
+just like this term
+
+05:15.830 --> 05:22.490
+plus a negative version of
+this term, plus this term,
+
+05:22.490 --> 05:24.750
+plus a negative version
+of the next term.
+
+05:24.750 --> 05:27.570
+So if we could somehow
+reconcile the negatives
+
+05:27.570 --> 05:30.390
+in some interesting
+way, it looks
+
+05:30.390 --> 05:33.210
+like e to the x is
+somehow-- or at least
+
+05:33.210 --> 05:35.980
+its polynomial representation
+of e to the x--
+
+05:35.980 --> 05:39.360
+is somehow related
+to a combination
+
+05:39.360 --> 05:42.090
+of the polynomial
+representations of cosine
+
+05:42.090 --> 05:43.120
+of x and sine of x.
+
+05:43.120 --> 05:45.874
+So this is starting to get
+really, really, really cool.
+
+05:45.874 --> 05:48.040
+We're starting to see a
+connection between something
+
+05:48.040 --> 05:52.290
+related to compound interest or
+a function whose derivative is
+
+05:52.290 --> 05:53.600
+always equal to that function.
+
+05:53.600 --> 05:55.070
+And these things that
+come out of the unit
+
+05:55.070 --> 05:57.700
+circle in oscillatory motion
+and all of those things, there
+
+05:57.700 --> 06:00.956
+starts to seem some type of
+pure connectedness there.
+
+06:00.956 --> 06:02.580
+But I'll leave you
+there in that video.
+
+06:02.580 --> 06:04.080
+And in the next
+video, I'll show you
+
+06:04.080 --> 06:07.480
+how we can actually
+reconcile these three
+
+06:07.480 --> 06:09.790
+fascinating functions.

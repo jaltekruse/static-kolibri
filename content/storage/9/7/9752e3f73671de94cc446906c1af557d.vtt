@@ -1,0 +1,408 @@
+WEBVTT
+
+00:00.000 --> 00:05.239
+V tomto videu si zopakujeme
+myšlenku složených funkcí
+
+00:05.239 --> 00:10.819
+a poté si zlepšíme své dovednosti
+poznávání toho, kdy je funkce složená.
+
+00:10.819 --> 00:13.424
+Pokud jste o složených
+funkcích nikdy neslyšeli,
+
+00:13.424 --> 00:16.835
+nebo pokud vám první minuty tohoto
+videa budou připadat úplně neznámé,
+
+00:16.846 --> 00:20.107
+tak doporučuji zhlédnout video
+z algebry o složených funkcích,
+
+00:20.107 --> 00:21.700
+které je i na české
+stránce Khan Academy.
+
+00:21.700 --> 00:25.466
+Cílem tohoto videa je se
+trochu procvičit předtím,
+
+00:25.466 --> 00:27.911
+než se dostaneme k
+technikám diferenciálního počtu,
+
+00:27.911 --> 00:30.101
+zejména k pravidlu o
+derivaci složené funkce.
+
+00:30.101 --> 00:34.100
+Zopakujme si tedy,
+co to je složená funkce.
+
+00:34.100 --> 00:44.780
+Řekněme, že máme funkci
+f(x) rovná se 1 plus x
+
+00:44.786 --> 00:55.476
+a funkce g(x) rovná se cos(x).
+
+00:55.476 --> 01:02.453
+Jak bude vypadat
+funkce f v bodě g(x)?
+
+01:02.453 --> 01:06.369
+Zastavte si video
+a zkuste na to přijít sami.
+
+01:06.369 --> 01:08.708
+Můžeme se na to
+dívat třeba tak,
+
+01:08.708 --> 01:13.315
+že f už není funkce
+proměnné x, ale proměnné g(x),
+
+01:13.315 --> 01:18.000
+takže kdekoliv v předpisu funkce f
+vidíme x, musíme místo toho napsat g(x).
+
+01:18.000 --> 01:24.477
+Tohle se tedy
+rovná 1 plus…
+
+01:24.477 --> 01:27.547
+Místo x sem teď
+musíme napsat g(x),
+
+01:27.547 --> 01:31.356
+takže výsledná funkční
+hodnota bude 1 plus g(x).
+
+01:31.356 --> 01:40.811
+g(x) je v našem případě cos(x), takže
+místo g(x) sem můžu napsat cos(x).
+
+01:40.811 --> 01:43.861
+Můžeme si to lépe
+představit například tak,
+
+01:43.861 --> 01:52.991
+že x nejprve dosadím do funkce g,
+čímž dostanu funkční hodnotu g(x),
+
+01:52.991 --> 01:57.001
+kterou následně
+dosadím do funkce f(x),
+
+01:57.001 --> 01:59.661
+nebo bych spíše měl
+říct do funkce f.
+
+01:59.661 --> 02:01.721
+Tuto hodnotu tedy
+dosadíme do funkce f,
+
+02:01.721 --> 02:06.231
+čímž dostaneme f v bodě
+„to, co jsme dosadili“,
+
+02:06.231 --> 02:10.751
+přičemž my
+jsme dosadili g(x).
+
+02:10.751 --> 02:14.801
+Když jsme si to teď zopakovali,
+zkusme si to také naopak.
+
+02:14.801 --> 02:23.011
+Vezměme si předpis nějaké funkce a zkusme
+ho napsat jako složení jiných funkcí.
+
+02:23.011 --> 02:37.731
+Začněme například s funkcí g(x)
+rovné kosinus v bodě (sin(x) plus 1).
+
+02:37.731 --> 02:41.871
+Rád bych ještě zmínil, že častokrát
+existuje víc než jen jeden způsob,
+
+02:41.871 --> 02:46.231
+jak funkci napsat
+jako složení jiných funkcí.
+
+02:46.231 --> 02:48.281
+Když už tohle víte,
+zastavte si video
+
+02:48.281 --> 02:52.381
+a zkuste g(x) vyjádřit jako
+složení dvou jiných funkcí,
+
+02:52.381 --> 02:55.911
+které označte
+třeba f(x) a h(x).
+
+02:55.911 --> 02:58.431
+Můžete to udělat
+několika způsoby.
+
+02:58.431 --> 03:03.711
+Mohli byste si říct,
+že tady je sin(x),
+
+03:03.711 --> 03:07.821
+takže to zvolíte
+jako vaši f(x).
+
+03:07.821 --> 03:11.071
+Raději použiji jiné písmeno,
+aby se nám to nepletlo.
+
+03:11.071 --> 03:14.141
+Označím to
+jako u(x).
+
+03:14.141 --> 03:15.891
+Takto si označíme
+tento sin(x).
+
+03:15.891 --> 03:19.471
+Nyní z toho máme
+kosinus v bodě (u(x) plus 1).
+
+03:19.471 --> 03:31.921
+Když nyní zadefinujeme novou funkci
+v(x) rovná se kosinus v bodě (x plus 1),
+
+03:31.921 --> 03:35.011
+tak naše funkce vypadá
+jako složení funkcí v(x) a u(x).
+
+03:35.011 --> 03:38.921
+Když místo v(x)
+napíšeme ‚v‘ v bodě u(x),
+
+03:38.921 --> 03:42.361
+dostaneme kosinus
+v bodě (u(x) plus 1).
+
+03:42.361 --> 03:43.811
+Tak si to napišme.
+
+03:43.811 --> 03:52.091
+Když napíšeme ‚v‘ v bodě u(x),
+přičemž u(x) je rovno sin(x),
+
+03:52.091 --> 03:56.441
+tak se to rovná
+kosinus v bodě…
+
+03:56.441 --> 04:00.791
+Místo x plus 1 to
+bude bod u(x) plus 1,
+
+04:00.791 --> 04:07.861
+přičemž u(x) se rovná sin(x),
+tak jsme si to označili.
+
+04:07.861 --> 04:11.011
+Takže můžeme napsat buď
+kosinus v bodě (u(x) plus 1),
+
+04:11.011 --> 04:15.051
+nebo také kosinus
+v bodě (sin(x) plus 1),
+
+04:15.051 --> 04:17.441
+což je přesně to,
+co jsme měli na začátku.
+
+04:17.441 --> 04:19.351
+Tato funkce g(x)…
+
+04:19.351 --> 04:29.401
+Když si zadefinujeme u(x) jako sin(x)
+a v(x) jako kosinus v bodě (x plus 1),
+
+04:29.401 --> 04:35.391
+tak můžeme g(x) napsat
+jako složení těchto dvou funkcí.
+
+04:35.391 --> 04:38.941
+Šlo by to dokonce napsat
+jako složení tří funkcí.
+
+04:38.941 --> 04:50.271
+u(x) můžeme nechat jako sin(x) a
+můžeme zadefinovat w(x) jako x plus 1.
+
+04:50.271 --> 04:54.541
+Potom bude w(x)…
+
+04:54.541 --> 04:57.121
+Chtěl jsem říct
+‚w‘ v bodě u(x).
+
+04:57.121 --> 05:00.581
+‚w‘ v bodě u…
+
+05:00.581 --> 05:02.021
+To není ta
+správná barva.
+
+05:02.021 --> 05:07.431
+w v bodě u(x)
+se bude rovnat…
+
+05:07.431 --> 05:12.836
+Teď už nedosazuji x, ale u(x),
+takže to bude u(x) plus 1,
+
+05:12.836 --> 05:18.966
+neboli sin(x) plus 1.
+
+05:18.966 --> 05:25.756
+Nyní si zadefinujeme
+třetí funkci, řekněme funkci h.
+
+05:25.756 --> 05:28.266
+Už mi pomalu
+dochází písmena.
+
+05:28.266 --> 05:34.216
+Když si h(x)
+zadefinujeme jako cos(x),
+
+05:34.216 --> 05:38.566
+potom h v bodě (‚w‘ v bodě u(x))
+bude naše g(x).
+
+05:38.566 --> 05:39.716
+Hned to napíšu.
+
+05:39.716 --> 05:51.276
+h v bodě (‚w‘ v bodě u(x))
+se rovná…
+
+05:51.276 --> 05:55.166
+h(x) je kosinus toho,
+co do funkce h dosadíme,
+
+05:55.166 --> 05:57.286
+takže to bude kosinus…
+
+05:57.286 --> 06:00.375
+Do funkce dosazujeme
+‚w‘ v bodě u(x)
+
+06:00.375 --> 06:04.515
+a my už jsme zjistili, že ‚w‘ v bodě u(x)
+se rovná tomuto výrazu,
+
+06:04.515 --> 06:10.765
+takže sem napíšeme
+sin(x) plus 1.
+
+06:10.765 --> 06:14.966
+u(x) se rovná sin(x),
+to jsme dosadili do funkce w,
+
+06:14.966 --> 06:19.896
+čímž nám vyšlo sin(x) plus 1,
+což jsme dosadili do funkce h,
+
+06:19.896 --> 06:23.276
+čímž jsme dostali kosinus tohoto,
+což je naše původní funkce.
+
+06:23.276 --> 06:27.626
+Toto se tedy
+rovná g(x).
+
+06:27.626 --> 06:33.426
+Cílem tohoto všeho tedy je, abyste
+se naučili poznávat složené funkce.
+
+06:33.426 --> 06:37.516
+Chtěl bych teď zdůraznit,
+že ne každá funkce je složená.
+
+06:37.516 --> 06:40.826
+Kdybych měl
+například funkci…
+
+06:40.826 --> 06:42.736
+Tohle už můžu
+dát pryč.
+
+06:42.736 --> 06:51.656
+Kdybych měl funkci f(x)
+rovnou cos(x) krát sin(x),
+
+06:51.656 --> 06:56.326
+tak by ji bylo obtížné
+vyjádřit jako složení funkcí,
+
+06:56.326 --> 06:59.326
+ale mohu ji vyjádřit
+jako součin funkcí.
+
+06:59.326 --> 07:12.646
+Například bych mohl definovat
+u(x) jako cos(x) a v(x) jako sin(x).
+
+07:12.646 --> 07:17.476
+f(x) by pak nebyla složením
+funkcí u a v, ale jejich součinem.
+
+07:17.476 --> 07:25.166
+f(x) se rovná
+u(x) krát v(x).
+
+07:25.166 --> 07:30.336
+Kdybychom funkce složili,
+například ‚u‘ v bodě v(x)…
+
+07:30.336 --> 07:33.926
+Zastavte video a jako opakování
+zkuste zjistit, čemu se to rovná.
+
+07:33.926 --> 07:35.586
+Toto se rovná…
+
+07:35.586 --> 07:40.916
+u(x) je kosinus toho,
+co do funkce dosadím,
+
+07:40.916 --> 07:47.246
+a já do ní dosazuji v(x),
+neboli sin(x).
+
+07:47.246 --> 07:49.926
+Kdybychom udělali ‚v‘ v bodě
+u(x), tak by to bylo opačně,
+
+07:49.926 --> 07:52.246
+byl by to sinus
+v bodě cos(x).
+
+07:52.246 --> 07:54.996
+Tenhle příklad jsem udělal,
+abychom lépe poznali,
+
+07:54.996 --> 07:57.896
+když se díváme na nějaký
+výraz nebo předpis funkce,
+
+07:57.896 --> 08:02.376
+zda jde o součin funkcí,
+o složení funkcí…
+
+08:02.376 --> 08:05.956
+Občas to může být součin složených
+funkcí nebo podíl složených funkcí.
+
+08:05.956 --> 08:12.006
+Existují různé možnosti, jak funkce
+zkombinovat a vytvořit tak funkce nové.

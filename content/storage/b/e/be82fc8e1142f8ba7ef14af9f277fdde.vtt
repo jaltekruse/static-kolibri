@@ -1,0 +1,499 @@
+WEBVTT
+
+00:01.009 --> 00:04.009
+Witajcie ponownie! Pokażę wam dwie ostatnie właściwości logarytmów.
+
+00:04.009 --> 00:04.088
+Teraz ta właściwość --
+
+00:04.090 --> 00:08.056
+zawsze wydaje mi się być z wielu względów najbardziej oczywistą.
+
+00:08.056 --> 00:11.043
+Co nie znaczy,że ma Ci być głupio jeżeli nie jest dla Ciebie oczywista.
+
+00:11.044 --> 00:13.010
+Być może będzie to wymagało odrobiny zagłębienia się.
+
+00:13.011 --> 00:15.068
+Zachęcam do eksperymentowania z własnościami logarytmów,
+
+00:15.068 --> 00:18.021
+ponieważ to jest jedyny sposób by tak naprawdę się ich nauczyć.
+
+00:18.021 --> 00:21.035
+Celem matematyki nie jest po prostu zdanie kolejnego egzaminu,
+
+00:21.035 --> 00:22.046
+lub otrzymanie szóstki z kolejnego egzaminu.
+
+00:22.048 --> 00:24.083
+Celem matematyki jest jej zrozumienia
+
+00:24.085 --> 00:26.039
+do tego stopnia, by móc ją zastosować w codziennym życiu
+
+00:26.039 --> 00:29.098
+bez konieczności uczenia się wszystkiego od nowa z każdym razem.
+
+00:29.098 --> 00:31.026
+Kolejna właściwość logarytmów:
+
+00:31.026 --> 00:43.007
+Jeżeli mam A razy logarytm o podstawie B z C, A pomnożone przez całe to wyrażenie,
+
+00:43.007 --> 00:59.015
+jest równe logarytmowi o podstawie B z C do potęgi A.
+
+00:59.017 --> 01:00.052
+Niesamowite.
+
+01:00.053 --> 01:02.028
+Sprawdźmy czy to rzeczywiście działa.
+
+01:02.028 --> 01:17.020
+Załóżmy, że mam trzy razy logarytm o podstawie dwa z ośmiu.
+
+01:17.020 --> 01:18.084
+Ta właściwość mówi, że to
+
+01:18.085 --> 01:30.023
+jest równe logarytmowi o podstawie dwa z ósemki podniesionej do trzeciej potęgi.
+
+01:30.025 --> 01:32.020
+Są sobie równe.
+
+01:32.020 --> 01:38.015
+Sprawdźmy, czy rzeczywiście tak jest.
+
+01:38.015 --> 01:39.048
+Zobaczmy czemu to jest równe.
+
+01:39.050 --> 01:43.048
+Trzy razy logarytm o podstawie -- ile wynosi logarytm o podstawie dwa z ośmiu?
+
+01:43.048 --> 01:45.054
+Zawahałem się sekundę temu ponieważ
+
+01:45.054 --> 01:48.006
+za każdym razem, gdy chcę sobie coś wyliczyć
+
+01:48.006 --> 01:52.076
+odruchowo chcę używać reguł logarytmicznych i potęgowych.
+
+01:52.078 --> 01:54.020
+A wypada najpierw je omówić.
+
+01:54.020 --> 01:55.065
+Wróćmy do przykładów.
+
+01:55.067 --> 01:57.034
+Czemu to jest równe?
+
+01:57.034 --> 01:59.009
+Dwa do jakiej potęgi daje osiem?
+
+01:59.009 --> 02:00.054
+dwa do trzeciej potęgi daje osiem, prawda?
+
+02:00.056 --> 02:01.087
+Czyli to jest trzy.
+
+02:01.089 --> 02:05.006
+Mamy jeszcze tą trójkę tutaj, wiec trzy razy trzy.
+
+02:05.006 --> 02:09.031
+To będzie równe dziewięć.
+
+02:09.031 --> 02:10.068
+Jeżeli to jest równe dziewięć,
+
+02:10.068 --> 02:12.096
+to wiemy, że ta własność działa przynajmniej dla tego przykładu.
+
+02:12.096 --> 02:14.056
+Nie wiemy czy działa dla każdego przykładu,
+
+02:14.058 --> 02:18.062
+żeby się upewnić warto spojrzeć na dowody pokazane w innych filmach.
+
+02:18.062 --> 02:20.096
+Ale są to nieco bardziej zaawansowane tematy.
+
+02:20.096 --> 02:24.047
+Najważniejsze jest najpierw zrozumieć jak się z tego korzysta.
+
+02:24.049 --> 02:27.077
+Zobaczmy, ile to jest dwa do dziewiątej potęgi?
+
+02:27.077 --> 02:29.024
+Będzie to dosyć duża liczba.
+
+02:29.025 --> 02:32.074
+Wiem nawet ile dokładnie wynosi -- jest równa 2 * 256.
+
+02:32.074 --> 02:34.088
+W poprzednim filmie obliczyliśmy, że dwa do
+
+02:34.090 --> 02:38.011
+ósmej jest równe 256.
+
+02:38.011 --> 02:43.016
+Czyli dwa do dziewiątej powinno być równe 512.
+
+02:44.087 --> 02:50.081
+CZyli jeżeli osiem do trzeciej potęgi to również 512 to mamy rację, prawda?
+
+02:50.081 --> 02:57.077
+Ponieważ logarytm o podstawie z dwa z 512 będzie równy dziewięć.
+
+02:57.078 --> 02:58.068
+Ile to jest osiem do trzeciej?
+
+02:58.068 --> 03:00.063
+To będzie 64 -- dobrze.
+
+03:00.065 --> 03:05.043
+Osiem do kwadratu daje 64, czyli osiem do sześcianu -- zobaczmy.
+
+03:05.043 --> 03:07.072
+Osiem razy cztery, dwa zostaje, trzy dalej.
+
+03:07.074 --> 03:10.040
+Sześć razy osiem -- wygląda na to, że będzie 512.
+
+03:10.040 --> 03:12.013
+Zgadza się.
+
+03:12.015 --> 03:13.065
+Można było to zrobić jeszcze inaczej.
+
+03:13.065 --> 03:15.055
+Ponieważ można było powiedzieć, że osiem do trzeciej
+
+03:15.056 --> 03:16.093
+jest równe dwa do dziewiątej.
+
+03:16.093 --> 03:18.012
+Skąd to wiemy?
+
+03:18.012 --> 03:20.062
+Cóż, osiem do trzeciej
+
+03:20.062 --> 03:25.022
+jest równe dwa do trzeciej do trzeciej, prawda?
+
+03:25.024 --> 03:28.002
+Po prostu przepisałem ósemkę.
+
+03:28.003 --> 03:31.028
+I wiemy z reguł potęgowanie, że dwa do trzeciej do trzeciej
+
+03:31.028 --> 03:35.028
+jest równe dwa do dziewiątej.
+
+03:35.028 --> 03:39.013
+I właściwie to jest właśnie ta własność wykładników, gdzie możesz mnożyć --
+
+03:39.015 --> 03:41.037
+gdzie jeżeli podniesiemy coś do potęgi i potem wynik podniesiemy do jeszcze innej potęgi,
+
+03:41.040 --> 03:44.000
+to możemy po prostu wymnożyć te potęgi.
+
+03:44.002 --> 03:50.062
+Ta własność potęgowania prowadzi do tej własności logarytmów.
+
+03:50.065 --> 03:54.008
+Ale nie będę się zbytnio w to zagłębiał w tej prezentacji.
+
+03:54.009 --> 03:58.044
+Jest cały filmy poświęcony nieco bardziej formalnemu dowodowi.
+
+03:58.046 --> 04:01.081
+Pokażę jeszcze jedną właściwość logarytmów --
+
+04:01.083 --> 04:04.058
+później podsumuję i przećwiczę na kilku przykładach.
+
+04:04.058 --> 04:11.056
+To jest prawdopodobnie najbardziej użyteczna własność logarytmów jeżeli jesteście uzależnieni od kalkulatora.
+
+04:11.056 --> 04:13.068
+Zaraz pokażę czemu.
+
+04:13.068 --> 04:26.037
+Powiedzmy, że mamy logarytm o podstawie B z A
+
+04:26.038 --> 04:40.047
+jest on równy logarytmowi o podstawie C z A podzielonemu przez logarytm o podstawie C z B.
+
+04:40.048 --> 04:45.020
+Dlaczego ta własność jest przydatna dla uzależnionych od kalkulatora?
+
+04:45.020 --> 04:48.033
+Powiedzmy, że na lekcji możecie mieć dostać zadanie.
+
+04:48.035 --> 04:51.016
+Nauczyciel powie, że można korzystać z kalkulatorów.
+
+04:51.016 --> 05:03.037
+I korzystając z kalkulatora macie obliczyć logarytm o podstawie siedemnaście z 357.
+
+05:03.037 --> 05:08.045
+Możecie żmudnie szukać logarytmu o bazie siedemnaście pomiędzy przyciskami kalkulatora
+
+05:08.047 --> 05:09.051
+i raczej go nie znajdziecie.
+
+05:09.051 --> 05:14.013
+Ponieważ nie ma logarytmu o podstawie siedemnaście na twoim kalkulatorze.
+
+05:14.013 --> 05:17.039
+Prawdopodobnie masz przycisk "log"
+
+05:17.041 --> 05:19.004
+i może jeszcze przycisk "ln".
+
+05:19.005 --> 05:21.080
+Dla twojej wiedzy, przycisk "log" na twoim kalkulatorze
+
+05:21.080 --> 05:24.050
+prawdopodobnie oznacza logarytm o podstawie dziesięć.
+
+05:24.050 --> 05:28.045
+A przycisk "ln" na kalkulatorze
+
+05:28.047 --> 05:29.055
+oznacza logarytm o podstawie e.
+
+05:29.056 --> 05:31.073
+Jeżeli nie znacie liczby e, nie martwcie się
+
+05:31.073 --> 05:34.006
+wynosi 2.71 i coś ta dalej.
+
+05:34.006 --> 05:35.002
+To po prostu liczba.
+
+05:35.004 --> 05:40.087
+zdumiewająca liczba, ale dowiemy się o niej więcej w przyszłych filmach.
+
+05:40.087 --> 05:44.056
+Ale są tylko logarytmy o dwóch bazach na twoim kalkulatorze.
+
+05:44.056 --> 05:48.036
+Więc jeżeli chcesz obliczyć logarytm o innej bazie,
+
+05:48.037 --> 05:50.000
+użyj tej własności.
+
+05:50.000 --> 05:53.016
+Jeżeli dostalibyście takie zadanie na egzaminie
+
+05:53.017 --> 05:57.054
+możecie pewni siebie powiedzieć: cóż to będzie równe --
+
+05:57.054 --> 06:01.087
+trzeba najpierw ustawić sobie żółty kolor by być pewnym siebie --
+
+06:01.087 --> 06:05.064
+logarytm o podstawie -- możemy użyć albo e albo dziesiątki.
+
+06:05.066 --> 06:11.027
+Możemy powiedzieć, że będzie to równe logarytmowi o podstawie dziesięć z 357
+
+06:11.029 --> 06:15.080
+podzielonemu przez logarytm o podstawie dziesięć z siedemnastu.
+
+06:15.081 --> 06:19.074
+Czyli możesz po prostu wpisać 357 w kalkulator
+
+06:19.074 --> 06:20.042
+wcisnąć przycisk logarytmu.
+
+06:20.042 --> 06:22.022
+Dostaniecie jakiś wynik.
+
+06:22.023 --> 06:23.022
+Później, wyczyścić ten wynik.
+
+06:23.022 --> 06:25.052
+Lub jeżeli potrafisz korzystać z nawiasów w swoim kalkulatorze to można się obyć bez czyszczenia wyniku.
+
+06:25.054 --> 06:28.022
+Później wpisujesz siedemnaści na kalkulatorze,
+
+06:28.022 --> 06:29.051
+wciskasz przycisk logarytmu, otrzymujesz jakiś wynik.
+
+06:29.051 --> 06:31.038
+I później po prostu dzielisz otrzymane wyniki i to jest twoja odpowiedź.
+
+06:31.038 --> 06:37.036
+Jest to idealna właściwość dla uzależnionych od kalkulatora.
+
+06:37.037 --> 06:40.092
+Znów, nie będę się zbytnio zagłębiał.
+
+06:40.093 --> 06:43.068
+Dla mnie jest najbardziej użyteczną właściwością,
+
+06:43.068 --> 06:48.012
+nie jest tak oczywista --
+
+06:48.012 --> 06:50.004
+oczywiście wywodzi się z własności potęgowania.
+
+06:50.005 --> 06:53.093
+Ale jest mi trudno opisać stojącą za intuicję w prosty sposób.
+
+06:53.093 --> 06:55.035
+Powinniście więc oglądnąć dowód tej własności,
+
+06:55.036 --> 06:58.031
+jeżeli nie wiecie czemu to rzeczywiście jest prawdziwe.
+
+06:58.031 --> 07:00.012
+Pomijając jednak kwestie dowodów,
+
+07:00.012 --> 07:03.012
+będzie to prawdopodobnie najczęściej używana przez ciebie właściwość logarytmów w życiu codziennym.
+
+07:03.012 --> 07:05.083
+Ja ciągle korzystam z niej w mojej pracy.
+
+07:05.085 --> 07:09.038
+Mówię to, żebyście mieli świadomość, że logarytmy są użyteczne.
+
+07:09.038 --> 07:14.010
+Zróbmy kilka przykładów.
+
+07:14.011 --> 07:19.022
+Zapiszmy kilka wyrażeń w prostszej postaci.
+
+07:19.024 --> 07:36.051
+Jeżeli chciałbym zapisać w prostszy sposób logarytm o podstawie dwa z pierwiastka kwadratowego--
+
+07:36.051 --> 07:37.085
+pozwólcie, ze wymyślę jakiś przykład.
+
+07:37.086 --> 07:50.055
+32 podzielonego przez sześcienny pier... nie niech będzie pierwiastek kwadratowy.
+
+07:50.056 --> 07:54.012
+Podzielonego przez pierwiastek kwadratowy ósemki.
+
+07:54.012 --> 07:59.007
+Jak mogę przepisać to, żeby nie wyglądało tak skomplikowanie?
+
+07:59.007 --> 08:00.018
+Pomyślmy.
+
+08:00.018 --> 08:04.044
+To będzie to samo co, to będzie równe --
+
+08:04.044 --> 08:05.079
+Nie wiem czy powinienem pisać kolejne postaci idąc w dół czy w prawo.
+
+08:05.080 --> 08:07.031
+Powiedzmy, że będę pisał jedno pod drugim.
+
+08:07.031 --> 08:13.012
+To jest to samo co logarytm o podstawie dwa z 32
+
+08:13.012 --> 08:17.074
+nad pierwiastkiem kwadratowym z ósemki, całość podniesiona do jednej drugiej, prawda?
+
+08:17.075 --> 08:21.012
+Wiemy z właściwości logarytmów, konkretnie trzeciej przez nas poznanej,
+
+08:21.013 --> 08:25.091
+że jest to ta sama rzecz co połowa
+
+08:25.092 --> 08:33.083
+logarytmu z 32 podzielonego przez pierwiastek kwadratowy z ósemki, prawda?
+
+08:33.084 --> 08:34.084
+Wyciągnąłem potęgę
+
+08:34.084 --> 08:36.057
+i zrobiłem z niej współczynnik przy logarytmie.
+
+08:36.058 --> 08:39.039
+Dowiedzieliśmy się o tym na początku tego filmu.
+
+08:39.039 --> 08:41.063
+Mamy tutaj iloraz, prawda?
+
+08:41.063 --> 08:45.033
+Logarytm z 32 podzielonej przez pierwiastek kwadratowy ósemki.
+
+08:45.034 --> 08:47.001
+Cóż, możemy teraz użyć kolejnej własności logarytmów --
+
+08:47.001 --> 08:49.047
+wyciągnijmy połówkę przed nawias.
+
+08:49.048 --> 08:56.047
+To będzie równe, nawiasy, logarytm --
+
+08:56.047 --> 08:57.058
+zapomniałem zapisać podstawę logarytmu.
+
+08:57.058 --> 09:02.048
+Logarytm o podstawie dwa z 32 minus, prawda?
+
+09:02.049 --> 09:04.000
+Ponieważ mamy tutaj iloraz.
+
+09:04.000 --> 09:11.030
+Minus logarytm o podstawie dwa z pierwiastka kwadratowego z ośmiu.
+
+09:11.032 --> 09:12.064
+Prawda?
+
+09:12.064 --> 09:13.039
+Zobaczmy.
+
+09:13.039 --> 09:15.086
+Znów wyciągamy tutaj pierwiastek kwadratowy,
+
+09:15.087 --> 09:22.019
+Czyli można zapisać to jako: jedna druga razy logarytm o podstawie dwa z 32.
+
+09:22.019 --> 09:24.055
+Minus... to jest ósemka do jednej drugiej,
+
+09:24.055 --> 09:28.085
+przez co to jest równe połowie logarytmu o podstawie dwa z ośmiu.
+
+09:28.086 --> 09:31.037
+Dowiedzieliśmy sie o tej własności na początku tej prezentacji.
+
+09:31.037 --> 09:33.074
+Jeśli chcemy, może wciągnąć do środka tą połówkę.
+
+09:33.075 --> 09:42.016
+To jest równe połowie logarytmu o podstawie dwa z 32 minus jedna czwarta
+
+09:42.016 --> 09:43.079
+-- ponieważ wciągnęliśmy do środka jedną drugą --
+
+09:43.079 --> 09:46.084
+minus jedna czwarta logarytmu o podstawie dwa z ośmiu.
+
+09:46.085 --> 09:52.049
+To będzie pięć drugich minus, to jest trzy.
+
+09:52.050 --> 09:55.012
+Trzy razy jedna czwarta, minus trzy czwarte.
+
+09:55.012 --> 09:59.044
+Lub inaczej dziesięć czwartych minus trzy czwarte, co da nam siedem czwartych.
+
+09:59.044 --> 10:03.013
+Mam nadzieję, że nie zrobiłem błędu rachunkowego i zrozumieliście przykład.
+
+10:03.013 --> 10:04.072
+Do zobaczenia wkrótce!

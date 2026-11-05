@@ -1,0 +1,552 @@
+WEBVTT
+
+00:00.730 --> 00:04.070
+Por diversão, vamos
+tentar aproximar a área
+
+00:04.070 --> 00:07.700
+abaixo da curva y igual à raiz quadrada,
+
+00:07.700 --> 00:12.220
+a raiz principal, de x menos 1,
+entre x igual a 1
+
+00:12.220 --> 00:15.480
+e x igual à seis.
+
+00:15.480 --> 00:18.420
+Eu quero encontrar toda esta área.
+
+00:18.420 --> 00:22.240
+Ou, ao menos, uma aproximação dela.
+
+00:22.240 --> 00:27.250
+E a maneira que farei é criando
+
+00:27.250 --> 00:31.040
+cinco trapézios de mesma largura.
+
+00:31.040 --> 00:33.980
+Então isso vai ser o limite à esquerda
+
+00:33.980 --> 00:35.160
+do primeiro trapézio.
+
+00:35.160 --> 00:37.550
+Este vai ser o limite da
+direita, o qual também
+
+00:37.550 --> 00:39.710
+será o limite à esquerda
+do segundo trapézio.
+
+00:39.710 --> 00:42.370
+Este vai ser o limite da
+direita do segundo trapézio.
+
+00:42.370 --> 00:45.810
+Este é o limite da direita
+do terceiro trapézio.
+
+00:45.810 --> 00:48.980
+Este será o limite da direita
+do quarto trapézio.
+
+00:48.980 --> 00:51.420
+E, finalmente, este vai
+ser o limite da direita
+
+00:51.420 --> 00:53.370
+do quinto trapézio.
+
+00:53.370 --> 00:58.310
+E, como vamos de um à seis,
+estamos indo seis menos um
+
+00:58.310 --> 01:02.470
+na direção x, e eu quero
+dividir isto em cinco partes,
+
+01:02.470 --> 01:06.130
+logo, a largura de cada
+trapézio vai ser igual a um.
+
+01:06.130 --> 01:09.700
+Então se dissermos que a
+largura do trapézio é delta x,
+
+01:09.700 --> 01:15.200
+podemos dizer agora
+que delta x é igual a um.
+
+01:15.200 --> 01:17.220
+Então vamos fazer os trapézios.
+
+01:17.220 --> 01:21.696
+O primeiro trapézio será assim.
+
+01:21.696 --> 01:22.820
+Assim.
+
+01:22.820 --> 01:25.721
+Bem, será um triângulo, não
+exatamente um trapézio.
+
+01:25.830 --> 01:29.175
+O segundo trapézio parecerá com isso.
+
+01:29.175 --> 01:30.800
+Pode-se dizer que um trapézio
+
+01:30.800 --> 01:33.770
+com um dos lados com
+largura zero vira um triângulo.
+
+01:33.770 --> 01:38.550
+E o terceiro trapézio será assim.
+
+01:38.550 --> 01:41.390
+E o quarto trapézio se parecerá com isso.
+
+01:41.390 --> 01:43.930
+E, por fim, você tem o quinto trapézio.
+
+01:43.930 --> 01:46.040
+Vamos calcular a área de cada um deles,
+
+01:46.040 --> 01:48.660
+e então teremos uma aproximação da área
+
+01:48.660 --> 01:50.180
+abaixo da curva.
+
+01:50.180 --> 01:53.140
+Então vamos fazer um
+trapézio-- ou eu deveria dizer
+
+01:53.140 --> 01:56.450
+triângulo, esta primeira forma,
+como você quiser chamá-la.
+
+01:56.450 --> 01:59.240
+Qual será sua área?
+
+01:59.240 --> 02:02.120
+Bem, a área de um trapézio-- e você verá
+
+02:02.120 --> 02:05.950
+isso se transformar na
+área de um triângulo--
+
+02:05.950 --> 02:07.973
+é a média das alturas dos dois
+
+02:07.973 --> 02:10.139
+lados do trapézio, do modo
+como estamos olhando isso--
+
+02:10.139 --> 02:11.990
+ou poderia dizer da média das alturas
+
+02:11.990 --> 02:14.460
+dos lados paralelos, acho que soa melhor.
+
+02:14.460 --> 02:21.230
+Então se f de um-- é a
+altura aqui-- mais f de dois
+
+02:21.230 --> 02:23.680
+tudo isto sobre dois, e então
+
+02:23.680 --> 02:25.670
+multiplicaremos pelo nosso delta x.
+
+02:28.262 --> 02:30.220
+Deixe-me fazer isso com o mesmo vermelho
+
+02:30.220 --> 02:36.090
+para mostrar que isto é
+a área do primeiro trapézio,
+
+02:36.090 --> 02:39.170
+então vezes delta x.
+
+02:39.170 --> 02:44.300
+E como você vê aqui, se analisar,
+f de um será zero.
+
+02:44.520 --> 02:46.540
+Se você tem f de dois vezes--
+
+02:46.540 --> 02:49.540
+então será esta altura
+vezes esta base vezes um meio,
+
+02:49.540 --> 02:53.250
+que é a área de um triângulo.
+
+02:53.250 --> 02:54.910
+Vamos para o segundo trapézio,
+
+02:54.910 --> 02:58.290
+o trapézio dois aqui.
+
+02:58.290 --> 03:00.740
+Qual será a sua área?
+
+03:00.740 --> 03:07.450
+Bem, vai ser f de dois mais f de três.
+
+03:07.450 --> 03:09.100
+f de dois é essa altura.
+
+03:09.100 --> 03:10.430
+f de três é a outra altura.
+
+03:10.430 --> 03:12.930
+Então pegamos a média
+destas duas alturas-- dividido
+
+03:12.930 --> 03:14.650
+por dois, esta é a média destas duas
+
+03:14.650 --> 03:18.610
+alturas-- vezes a base, vezes delta x.
+
+03:18.610 --> 03:22.040
+E então vamos fazer o trapézio três.
+
+03:22.040 --> 03:24.070
+Acho que está pegando a ideia aqui.
+
+03:24.070 --> 03:27.220
+Trapézio três será f de 3
+
+03:27.220 --> 03:33.010
+mais f de quatro dividido
+por duas vezes delta x.
+
+03:33.010 --> 03:34.260
+E então-- vamos ver.
+
+03:34.260 --> 03:35.490
+Estou ficando sem cores.
+
+03:35.490 --> 03:37.970
+Este aqui é o trapézio quatro .
+
+03:37.970 --> 03:46.080
+Então f de quatro mais f de cinco,
+tudo sobre dois, vezes delta x.
+
+03:46.080 --> 03:47.770
+Então temos nosso último trapézio,
+
+03:47.770 --> 03:49.440
+que farei em amarelo.
+
+03:49.440 --> 03:52.740
+É o trapézio número cinco.
+
+03:52.740 --> 03:55.465
+Eu vou descer um pouco
+para ter mais espaço.
+
+03:55.465 --> 03:58.090
+Então será mais-- eu vou
+escrever o mais aqui--
+
+03:58.090 --> 04:06.770
+mais f de cinco mais f de seis
+sobre dois vezes delta x.
+
+04:06.770 --> 04:09.370
+Vamos ver como podemos
+simplificar isso um pouco.
+
+04:09.370 --> 04:11.850
+Em todos estes termos,
+temos um meio delta x,
+
+04:11.850 --> 04:14.010
+vamos pôr isto para fora.
+
+04:14.010 --> 04:16.839
+Então lembre-se, esta é a
+nossa aproximação da área.
+
+04:16.839 --> 04:20.560
+A área é aproximadamente, lembre-se,
+
+04:20.560 --> 04:22.019
+é uma aproximação grosseira.
+
+04:22.019 --> 04:23.180
+Fica claro-- pode dizer,
+
+04:23.180 --> 04:24.930
+até que é bom usando os trapézios,
+
+04:24.930 --> 04:28.050
+mas fica claro que estamos
+
+04:28.050 --> 04:29.530
+deixando um pouco de área fora.
+
+04:29.530 --> 04:30.780
+Esta área deixamos fora.
+
+04:30.780 --> 04:32.450
+Vamos esquecer um pouco disto aqui.
+
+04:32.450 --> 04:33.270
+Mal se vê.
+
+04:33.270 --> 04:35.436
+Um pouco disto, mal se vê.
+
+04:35.436 --> 04:37.731
+Mas estamos-- isto parece
+
+04:37.731 --> 04:39.855
+subestimado, mas é uma
+aproximação decente.
+
+04:39.855 --> 04:42.159
+Vamos ver se podemos
+simplificar esta expressão.
+
+04:42.159 --> 04:43.950
+Então será aproximadamente igual a--
+
+04:43.950 --> 04:46.815
+Eu vou distribuir esse delta sobre dois.
+
+04:50.776 --> 04:53.020
+E então me resta-- vou mudar pra uma
+
+04:53.020 --> 04:55.550
+cor neutra-- se eu distribuir
+
+04:55.550 --> 05:00.220
+o delta sobre dois, então eu tenho f de 1.
+
+05:00.220 --> 05:04.319
+E as de f de dois, logo,
+duas vezes f de dois.
+
+05:04.319 --> 05:06.610
+E faço isto porque você
+pode ver uma fórmula que
+
+05:06.610 --> 05:09.330
+parece com isso no seu livro de cálculo,
+
+05:09.330 --> 05:10.820
+e não é nada misterioso.
+
+05:10.820 --> 05:13.980
+Eles apenas somaram
+as áreas dos trapézios.
+
+05:13.980 --> 05:19.210
+Então teremos dois f de três--
+mais dois vezes f de três.
+
+05:19.240 --> 05:24.670
+Mais dois f de quatro--
+duas vezes f de quatro.
+
+05:24.670 --> 05:29.210
+E mais dois f de cinco--
+duas vezes f de cinco.
+
+05:29.210 --> 05:32.980
+E, finalmente, um f de seis
+-- mais f de seis.
+
+05:32.980 --> 05:34.360
+Se generalizar isto, você
+
+05:34.360 --> 05:36.390
+tem o primeiro ponto extremo, a função
+
+05:36.390 --> 05:38.640
+calculada na extremidade, e um no
+
+05:38.640 --> 05:42.274
+último extremo, e dois de todo o resto.
+
+05:42.274 --> 05:43.940
+Mas isto é a área de trapézios.
+
+05:43.940 --> 05:46.560
+Não aprecio muito quando
+os livros escrevem isto.
+
+05:46.560 --> 05:49.740
+Porque lendo, é difícil
+visualizar os trapézios.
+
+05:49.870 --> 05:51.800
+Quando você vê isto, é bem mais claro
+
+05:51.800 --> 05:53.910
+como deve ser visualizado.
+
+05:53.910 --> 05:56.620
+Mas esquecendo isto, vamos calcular.
+
+05:56.620 --> 05:58.540
+Pra nossa sorte, isto é simples.
+
+05:58.540 --> 06:00.300
+O delta x é um.
+
+06:02.950 --> 06:05.630
+E então temos que calcular tudo isto.
+
+06:05.630 --> 06:08.740
+f de 1-- vamos nos recordar,
+
+06:08.740 --> 06:10.160
+do que era a função original.
+
+06:10.160 --> 06:13.570
+Nossa função original era
+raiz quadrada de menos um.
+
+06:16.150 --> 06:19.820
+Logo, f de um é raiz
+quadrada de um menos um,
+
+06:19.820 --> 06:22.470
+Logo, será zero.
+
+06:22.470 --> 06:24.760
+Esta expressão aqui será
+
+06:24.760 --> 06:28.360
+dois vezes a raiz quadrada
+de dois menos um.
+
+06:28.360 --> 06:30.940
+A raiz quadrada de dois menos um é um,
+
+06:30.940 --> 06:33.360
+logo, será dois.
+
+06:33.360 --> 06:35.840
+Na verdade, deixe-me
+fazer isso como-- bem,
+
+06:35.840 --> 06:38.050
+estou usando o roxo com outro propósito,
+
+06:38.050 --> 06:39.360
+além do primeiro trapézio.
+
+06:39.360 --> 06:40.678
+Espero que tenha entendido.
+
+06:40.678 --> 06:42.280
+Eu estava sofrendo com essa cor.
+
+06:42.280 --> 06:43.930
+Então f de três.
+
+06:43.930 --> 06:46.479
+Três menos um é dois--
+raiz quadrada de dois.
+
+06:46.479 --> 06:48.770
+A função calculada em três é raiz de dois.
+
+06:48.770 --> 06:52.150
+Logo, será dois raiz quadrada de dois.
+
+06:52.150 --> 06:53.720
+A função calculada em quatro.
+
+06:53.720 --> 06:56.740
+Quando você calcula ela em
+quatro, fica com raiz de três.
+
+06:56.740 --> 06:59.880
+Logo, será duas vezes raiz de três.
+
+06:59.880 --> 07:04.350
+E então você tem duas vezes a raiz
+de quatro-- cinco menos um é quatro.
+
+07:04.510 --> 07:07.040
+Duas vezes a raiz de quatro é quatro.
+
+07:07.040 --> 07:11.680
+E finalmente, temos f de seis,
+que é raiz de seis menos um--
+
+07:11.680 --> 07:14.770
+raiz quadrada de cinco.
+
+07:14.770 --> 07:16.910
+E eu acho que estamos
+prontos pra calcular.
+
+07:16.910 --> 07:22.610
+Deixe-me pegar minha
+prática TI-85 e calcular isso.
+
+07:22.610 --> 07:24.210
+Isto será-- bem, vou apenas
+
+07:24.210 --> 07:26.126
+calcular, apenas multiplicar.
+
+07:26.126 --> 07:29.384
+Então um meio abre
+parênteses-- bem, é zero.
+
+07:29.384 --> 07:31.760
+Vou escrever isso aqui, para
+que saiba o que faço.
+
+07:31.760 --> 07:35.520
+Zero mais dois, ops.
+
+07:35.520 --> 07:36.880
+Perdi minha calculadora.
+
+07:36.880 --> 07:45.490
+Mais dois vezes raiz de
+dois mais dois vezes raiz
+
+07:45.490 --> 07:56.630
+de três mais quatro-- quase
+terminando-- mais raiz de cinco--
+
+07:56.630 --> 08:01.570
+deixe-me escrever isto, dê-me--
+
+08:01.570 --> 08:05.120
+agora estamos prontos pro
+rufar de tambores! Isto dá
+
+08:05.120 --> 08:07.740
+-- vou arrendodar-- 7,26
+
+08:07.740 --> 08:15.230
+Então a área é aproximadamente 7,26
+
+08:15.230 --> 08:19.670
+abaixo da curva y igual a raiz de x de x
+
+08:19.670 --> 08:23.150
+menos um a x igual a um e x igual a seis.
+
+08:23.150 --> 08:26.323
+E fizemos isto usando trapézios.
+
+08:26.323 --> 08:26.844
+Legendado por: [rodrigo.sbender]
+Revisado por: [Tatiana F. D'Addio]

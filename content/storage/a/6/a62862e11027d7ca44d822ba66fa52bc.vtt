@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.670 --> 00:02.390
+Już w kilku filmach dotychczas
+
+00:02.390 --> 00:05.330
+aproksymowaliśmy pole obszaru pod krzywą
+
+00:05.330 --> 00:08.870
+rozkładając ten obszar na prostokąty
+
+00:08.870 --> 00:12.417
+a następne znajdując sumę pól powierzchni tych prostokątów
+
+00:12.417 --> 00:13.250
+jako przybliżenie.
+
+00:13.250 --> 00:15.750
+I to był zasadniczo pierwszy z przykładów,
+
+00:15.750 --> 00:18.410
+któremu przyjrzeliśmy się bliżej, gdzie każdy z prostokątów
+
+00:18.410 --> 00:19.480
+miał tę samą szerość.
+
+00:19.480 --> 00:21.940
+Zatem podzieliliśmy na równe części odcinek
+
+00:21.940 --> 00:24.790
+pomiędzy dwoma naszymi punktami krańcowymi a i b.
+
+00:24.790 --> 00:27.210
+Natomiast wysokość prostokata była równa wartości funkcji
+
+00:27.210 --> 00:30.570
+policzonej w lewym końcu każdego z prostokątów.
+
+00:30.570 --> 00:33.300
+Dążyliśmy do uogólnienia powyższego i zapisania z użyciem znaku sigma.
+
+00:33.300 --> 00:35.110
+To wyglądało jakoś w ten sposób.
+
+00:35.110 --> 00:36.090
+I to był jeden z przypadków.
+
+00:36.090 --> 00:37.720
+W dalszek kolejności rozważyliśmy sytuacje,
+
+00:37.720 --> 00:40.130
+gdzie wysokość definowaliśmy jako wartość
+
+00:40.130 --> 00:42.140
+funkcji w prawym końcu przedziału lub w jego środku.
+
+00:42.140 --> 00:44.190
+W końcu skonstruowaliśmy nawet trapezy.
+
+00:44.190 --> 00:50.190
+Wszystkie powyższe to szczególne przykłady sum Riemanna.
+
+00:50.190 --> 00:54.784
+Czyli ta tutaj to suma Riemanna.
+
+00:54.784 --> 00:56.450
+I kiedy ludzie dyskutują o sumach Riemanna
+
+00:56.450 --> 00:57.790
+mają na myśli pojęcie bardziej ogólne.
+
+00:57.790 --> 00:59.040
+Nie koniecznie trzeba robić to w ten sposób.
+
+00:59.040 --> 01:00.300
+Moglibyście użyć trapezów.
+
+01:00.300 --> 01:02.690
+Nie musicie wcale dzielić przedziału na równe na równe odcinki.
+
+01:02.690 --> 01:05.400
+Użyłem odcinków równej długości ponieważ to uczyniło rzeczy
+
+01:05.400 --> 01:07.850
+odrobine koncepcyjnie prostrzymi.
+
+01:07.850 --> 01:10.720
+A to tutaj to zdjęcie człowieka,
+
+01:10.720 --> 01:12.320
+od którego sumy Riemanna wzięły swoją nazwę.
+
+01:12.320 --> 01:14.510
+To jest Bernhard Riemann.
+
+01:14.510 --> 01:18.086
+Miał on duźy udział w tworzeniu matematyki.
+
+01:18.086 --> 01:19.710
+Ale to, z czego jest najbardziej znany, przynajmniej
+
+01:19.710 --> 01:21.626
+jeśli mówimy o pierwszym roku kursu analizy
+
+01:21.626 --> 01:23.090
+to właśnie sumy Riemanna.
+
+01:23.090 --> 01:26.600
+I jak ich używać dla zdefiniowania całki Riemanna.
+
+01:26.600 --> 01:28.350
+Obaj Newton i Leibnitz zaproponowali
+
+01:28.350 --> 01:30.030
+definicję po tym jak
+
+01:30.030 --> 01:32.760
+sformułowali. opracowali rachunek różniczkowy, ale całka Riemanna
+
+01:32.760 --> 01:35.260
+należy w pewnym sensie do głównego nurtu formalnych,
+
+01:35.260 --> 01:37.500
+czy raczej powinienem powiedzieć ścisłych, definicji
+
+01:37.500 --> 01:39.480
+tego, czym jest całka.
+
+01:39.480 --> 01:42.790
+Zatem jeak możecie sobie wyobrazić, to jest jeden przykład sumy Riemanna.
+
+01:42.790 --> 01:44.730
+Mamy n dokładnie tutaj.
+
+01:44.730 --> 01:48.710
+Im większe jest n, tym lepsza będzie aproksymacja.
+
+01:48.710 --> 01:51.130
+A więc jego definicja całki, która
+
+01:51.130 --> 01:53.020
+jest dokładnie rzeczywistym polem obszaru pod krzywą,
+
+01:53.020 --> 01:55.230
+czy definicja całki określonej, która
+
+01:55.230 --> 01:58.400
+miałaby być dokładnym polem obszaru pod krzywą na przedziale [a, b]
+
+01:58.400 --> 02:03.310
+polega na tym, aby wziąc tę sumę Riemanna, to nie musi być akurat ta,
+
+02:03.310 --> 02:09.139
+wziąć zatem jakąkolwiek sumę Riemanna, i przejść z nią do granicy przy n dążacym do
+
+02:09.139 --> 02:09.818
+nieskończoności.
+
+02:09.818 --> 02:11.360
+Dla jasności, co sie dzieje,
+
+02:11.360 --> 02:12.940
+kiedy n zbiega do nieskończoności?
+
+02:12.940 --> 02:15.130
+Pozwólcie, że narysuję tutaj drugi wykres.
+
+02:15.130 --> 02:18.440
+Powiedzmy, że to jest maja oś y.
+
+02:18.440 --> 02:20.670
+To jest oś x.
+
+02:20.670 --> 02:23.060
+To jest maja funkcja.
+
+02:23.060 --> 02:26.300
+Przy n dążącym do nieskończoności-- więc to jest a,
+
+02:26.300 --> 02:29.510
+to jest b-- dostaniecie teraz całe mnóstwo prostokątów.
+
+02:29.510 --> 02:32.382
+Dostaniecie mnóstwo prostokątów dokładnie tutaj.
+
+02:32.382 --> 02:34.340
+I dostaniemy za ich przyczyną coraz to lepsze i lepsze
+
+02:34.340 --> 02:37.430
+przybliżenia dla rzeczywistego pola powierzchni.
+
+02:37.430 --> 02:40.640
+A rzeczywiste pole powierzchni pod krzywą
+
+02:40.640 --> 02:50.410
+wyraża się jeko całka od a do b z funkcji f(x) razy dx.
+
+02:50.410 --> 02:52.936
+I widzicie dobrze skąd to się wzięło
+
+02:52.936 --> 02:54.310
+czy tez w jakim sensie te oznaczenia są sobie bliskie.
+
+02:54.310 --> 02:56.810
+Czy przynajmniej w moim umyśle, jak one się ze sobą wiążą.
+
+02:56.810 --> 03:04.080
+Delta x była szerością każedej z tych części.
+
+03:04.080 --> 03:05.430
+To tutaj to jest delta x.
+
+03:05.430 --> 03:08.350
+Więc to jest delta x.
+
+03:08.350 --> 03:09.390
+A to znowuż delta x.
+
+03:09.390 --> 03:11.320
+I jeszcze inna delta x.
+
+03:11.320 --> 03:14.300
+Rozsądny sposób wyjaśnienia czym jest dx
+
+03:14.300 --> 03:17.150
+lub czym jest różniczka, to powiedzieć, że to jest granica do której zbiega delta x,
+
+03:17.150 --> 03:20.060
+kiedy x staje sie nieskończenie małe.
+
+03:20.060 --> 03:22.592
+Więc możecie wyobrazić to sobie, i nie jest to
+
+03:22.592 --> 03:24.300
+wcale bardzo ścisły sposób myślenia o tym,
+
+03:24.300 --> 03:38.070
+jako nieskonczenie małe-- ale nie równe 0-- nieskończenie małe delta
+
+03:38.070 --> 03:41.710
+x, to jeden sposób zobaczenia tego.
+
+03:41.710 --> 03:43.760
+A wię raz jeszcze, macie funkcję
+
+03:43.760 --> 03:46.270
+razy jakas mała zmaina parametru delta x.
+
+03:46.270 --> 03:47.890
+I sumujecie, aczkolwiek
+
+03:47.890 --> 03:52.520
+sumujecie nieskończoną liczbę takich wyrażeń, od a do b.
+
+03:52.520 --> 03:54.020
+I zostawię was z tym teraz
+
+03:54.020 --> 03:54.890
+tak żebyście dostrzegli po prostu związek.
+
+03:54.890 --> 03:56.348
+Znacie nazwy dla tych rzeczy.
+
+03:56.348 --> 03:58.730
+Jeszcze raz, ta tutaj, to
+
+03:58.730 --> 03:59.890
+nie jest jedyna suma Riemanna.
+
+03:59.890 --> 04:02.050
+Faktycznie, ten napis często nazywa się lewą sumą Riemanna,
+
+04:02.050 --> 04:03.250
+o ile używacie prostokątów.
+
+04:03.250 --> 04:04.541
+Można skonstruować prawą sumę Riemanna.
+
+04:04.541 --> 04:05.780
+Moglibyście brać punkty środkowe odcinków.
+
+04:05.780 --> 04:06.660
+Moglibyście użyc trapezu.
+
+04:06.660 --> 04:08.951
+Ale jeśli weżmiecie granicę którejkolwiek z tych sum Riemanna,
+
+04:08.951 --> 04:11.080
+przy n dążacym do nieskończoności n, wtedy
+
+04:11.080 --> 04:16.160
+dostaniecie definicję całki Riemanna.
+
+04:16.160 --> 04:18.640
+Jak dotąd nie było jeszcze mowy o tym, w jaki sposób
+
+04:18.640 --> 04:20.440
+właściwie oszacować to.
+
+04:20.440 --> 04:22.600
+Na razie mamy jedynie definicję.
+
+04:22.600 --> 04:26.130
+Z tym problemem zmierzymy się w przyszłych prezentacjach.

@@ -1,0 +1,188 @@
+WEBVTT
+
+00:00.267 --> 00:07.397
+Neurčitý integrál
+druhé odmocniny z (7x plus 9) dx.
+
+00:07.803 --> 00:13.299
+Má první otázka zní,
+lze použít substituci?
+
+00:14.279 --> 00:20.638
+Přirozeně by nás napadlo
+označit 7x plus 9 jako 'u',
+
+00:20.839 --> 00:24.000
+ale vidíme tu derivaci tohoto výrazu?
+
+00:24.317 --> 00:33.147
+Podívejme se, bude-li 'u' rovno 7x plus 9,
+jaká bude derivace 'u' podle 'x'?
+
+00:33.344 --> 00:36.946
+Derivace 'u' podle 'x' by byla 7.
+
+00:37.056 --> 00:43.396
+Derivace 7x je 7, derivace 9 je 0.
+Vidíme tu tedy někde 7?
+
+00:44.123 --> 00:45.042
+Nevidíme.
+
+00:45.385 --> 00:49.094
+Ale co můžeme udělat,
+abychom ji tu měli
+
+00:49.230 --> 00:51.919
+a zároveň nezměnili hodnotu integrálu?
+
+00:53.269 --> 01:01.139
+U integrálů je dobré to, že čísla
+se snadno dostávají z a do integrálů.
+
+01:01.312 --> 01:11.526
+Pro připomenutí,
+máme-li integrál 'a' krát f(x) dx,
+
+01:11.675 --> 01:16.895
+je to stejné jako
+'a' krát integrál f(x) dx.
+
+01:17.061 --> 01:22.590
+Násobím-li integrand nějakým číslem,
+mohu to číslo „vytknout“ před integrál.
+
+01:22.757 --> 01:25.002
+Dám to tedy bokem.
+
+01:25.182 --> 01:30.975
+Víme-li to, můžeme to něčím vydělit
+a vynásobit tak, abychom tu dostali 7?
+
+01:31.300 --> 01:38.295
+Můžeme to vynásobit a vydělit 7.
+Přepišme tedy původní integrál.
+
+01:38.518 --> 01:42.096
+Nakreslím tu šipku, abychom to tu obešli.
+
+01:42.310 --> 01:57.662
+Integrál z (1 lomeno 7) krát 7
+krát odmocnina z (7x plus 9) dx.
+
+01:57.882 --> 02:01.170
+(1 lomeno 7) tedy můžeme
+vytknout před integrál, chceme-li.
+
+02:01.351 --> 02:11.828
+(1 lomeno 7) krát integrál z
+7 krát odmocnina (7x plus 9) dx.
+
+02:11.976 --> 02:16.279
+Pokud nyní bude 'u' rovno 7x plus 9,
+máme tu někde derivaci tohoto výrazu?
+
+02:16.800 --> 02:22.779
+Jistě! 7 máme přímo zde,
+víme, že 'du' ve tvaru diferenciálu…
+
+02:22.923 --> 02:35.165
+'du' je rovno 7 krát dx.
+Tato část je rovna 'du'.
+
+02:35.814 --> 02:41.243
+'u' bude 7x plus 9.
+
+02:41.413 --> 02:45.003
+Přepišme integrál do proměnných 'u'.
+
+02:45.289 --> 02:53.016
+Bude to (1 lomeno 7) krát integrál z…
+
+02:53.159 --> 03:05.754
+7 dám na konec, 7 dx je 'du'.
+Píšu odmocninu z 'u' krát 'du'.
+
+03:05.949 --> 03:14.120
+Odmocninu z 'u' mohu přepsat na
+'u na (1 lomeno 2)', je to pak snazší.
+
+03:14.524 --> 03:23.753
+Bude to rovno (1 lomeno 7) krát integrál z
+'u na (1 lomeno 2)' krát 'du'.
+
+03:23.905 --> 03:30.521
+Označím to barevně stejně jako předtím.
+
+03:30.848 --> 03:35.195
+Jaká je primitivní funkce k
+'u na (1 lomeno 2)'?
+
+03:35.451 --> 03:40.380
+Zvyšujeme mocninu 'u' o 1,
+bude to tedy…
+
+03:40.581 --> 03:42.827
+Nesmím zapomenout na (1 lomeno 7).
+
+03:43.075 --> 04:05.055
+(1 lomeno 7) krát 'u na (3 lomeno 2)',
+to vynásobíme převrácenou hodnotou,
+
+04:05.202 --> 04:07.368
+tedy krát (2 lomeno 3).
+
+04:07.613 --> 04:11.514
+Chci abyste si ověřili, že derivace
+(2 lomeno 3) krát 'u na (3 lomeno 2)
+
+04:11.691 --> 04:14.284
+je opravdu 'u na (1 lomeno 2)'.
+
+04:14.677 --> 04:22.661
+Jelikož násobíme celý integrál,
+přidáme sem i konstantu C.
+
+04:22.878 --> 04:26.926
+Roznásobme (1 lomeno 7).
+
+04:27.078 --> 04:35.893
+(1 lomeno 7) krát (2 lomeno 3)
+je (2 lomeno 21),
+
+04:36.069 --> 04:39.976
+(1 lomeno 7) krát konstanta
+je nějaká jiná konstanta.
+
+04:40.147 --> 04:46.901
+Mohl bych je od sebe rozlišit indexem,
+ale je to prostě jen nějaká konstanta.
+
+04:47.028 --> 04:47.801
+A jsme hotovi…
+
+04:47.961 --> 04:48.841
+Vlastně nejsme.
+
+04:49.021 --> 04:56.374
+Stále máme výsledek v proměnné 'u',
+dosaďme tedy za 'u'.
+
+04:56.790 --> 05:05.650
+(2 lomeno 21) krát 'u na (3 lomeno 2)'
+a víme, že 'u' je (7x plus 9).
+
+05:05.802 --> 05:08.486
+Použiji novou barvu,
+aby to nebylo tak jednotvárné.
+
+05:08.654 --> 05:21.426
+(2 lomeno 21) krát
+'(7x plus 9) na (3 lomeno 2)' plus C.
+
+05:21.607 --> 05:22.902
+A jsme hotovi!
+
+05:23.063 --> 05:31.625
+Tento integrál jsme, ačkoliv to nebylo
+ihned zřejmé, vyřešili pomocí substituce.

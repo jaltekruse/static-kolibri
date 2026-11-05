@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.660 --> 00:02.930
+Video trước nói về chuỗi Maclaurin
+
+00:02.930 --> 00:04.180
+của cos(x)
+
+00:04.180 --> 00:06.670
+Mình ước lượng nó bằng cách dùng đa thức
+
+00:06.670 --> 00:08.560
+và thấy điều thú vị là dạng của nó
+
+00:08.560 --> 00:10.310
+xem mình có thể tìm được dạng tương tự không
+
+00:10.310 --> 00:14.360
+nếu mình ước lượng sin(x) bằng một chuỗi Maclaurin
+
+00:14.360 --> 00:16.000
+Một lần nữa chuỗi Maclaurin
+
+00:16.000 --> 00:18.240
+cũng tương tự như chuỗi Taylor
+
+00:18.240 --> 00:20.800
+khi ước lượng phải lân cận
+
+00:20.800 --> 00:23.740
+với x bằng 0.
+
+00:23.740 --> 00:26.830
+Đây là trường hợp đặc biệt của chuỗi Taylor
+
+00:26.830 --> 00:29.870
+Ví dụ, f(x) trong trường hợp này
+
+00:29.870 --> 00:31.410
+bằng sin x
+
+00:36.380 --> 00:38.890
+và hãy cùng làm giống với những gì đã làm với cos x
+
+00:38.890 --> 00:40.598
+lấy các đạo hàm khác nhau
+
+00:40.598 --> 00:42.450
+của sinx
+
+00:42.450 --> 00:46.240
+đạo hàm bậc 1 của sin x
+
+00:46.240 --> 00:48.490
+là cos x
+
+00:48.490 --> 00:51.160
+đạo hàm bậc 2 của sinx
+
+00:51.160 --> 00:55.880
+là đạo hàm của cos x, bằng trừ sin x
+
+00:55.880 --> 00:58.790
+đạo hàm bậc 3 là bằng đạo hàm của biểu thức này
+
+00:58.790 --> 01:00.437
+viết 3 trong ngoặc đơn
+
+01:00.437 --> 01:02.270
+đó, thay vì phẩy phẩy phẩy
+
+01:02.270 --> 01:04.310
+đạo hàm bậc 3 là đạo hàm của
+
+01:04.310 --> 01:07.790
+cái này, bằng trừ cos(x)
+
+01:07.790 --> 01:11.570
+đạo hàm bậc 4
+
+01:11.570 --> 01:15.020
+là đạo hàm của cái này lại là dương sin(x)
+
+01:15.020 --> 01:17.950
+bận thấy đó, giống cos(x), thì ở đây cũng là sự tuần hoàn
+
+01:17.950 --> 01:19.990
+nếu lấy đạo hàm đủ số lần
+
+01:19.990 --> 01:22.550
+để làm được chuỗi Maclaurin,
+
+01:22.550 --> 01:26.840
+mình cần ước lượng giá trị của hàm số
+
+01:26.840 --> 01:28.450
+và mỗi đạo hàm tại x bằng 0
+
+01:28.450 --> 01:30.220
+hãy làm thôi
+
+01:30.220 --> 01:32.510
+với điều này thì để mình viết màu khác
+
+01:32.510 --> 01:34.030
+khác màu xanh biển
+
+01:34.030 --> 01:36.320
+viết màu tím nha
+
+01:36.320 --> 01:38.810
+cũng hơi khó nhìn
+
+01:38.810 --> 01:40.930
+đổi màu xanh khác
+
+01:40.930 --> 01:45.620
+f(0), trong trường hợp này là 0
+
+01:45.620 --> 01:50.280
+và f, có đạo hàm bậc 1 tại 0 là 1
+
+01:50.280 --> 01:52.880
+cos 0 = 1
+
+01:52.880 --> 01:57.300
+- sin 0 = 0
+
+01:57.300 --> 02:01.210
+f'', đạo hàm bậc 2, tại 0 bằng 0
+
+02:01.210 --> 02:06.335
+đạo hàm bậc 3, tại 0 bằng 1
+
+02:06.335 --> 02:08.411
+cos 0 = 1
+
+02:08.411 --> 02:09.660
+có dấu âm ở ngoài
+
+02:09.660 --> 02:10.850
+nên kết quả là -1
+
+02:10.850 --> 02:14.850
+và đạo hàm bậc 4 tại 0
+
+02:14.850 --> 02:16.594
+lại bằng 0
+
+02:16.594 --> 02:18.385
+mình tiếp tục làm
+
+02:18.385 --> 02:19.593
+và thấy được dạng
+
+02:19.593 --> 02:21.130
+0,1,0, -1,0 rồi
+
+02:21.130 --> 02:22.920
+lại quay lại dương 1
+
+02:22.920 --> 02:24.750
+và cứ như thế
+
+02:24.750 --> 02:28.230
+vậy hãy tìm đại diện của đa thức
+
+02:28.230 --> 02:29.510
+bằng chuỗi Maclaurin
+
+02:29.510 --> 02:31.380
+Lưu ý nhỏ là, với cái này ở đây,
+
+02:31.380 --> 02:34.210
+là ước lượng của cos(x)
+
+02:34.210 --> 02:36.220
+và bạn sẽ tiến gần đến với cos(x)
+
+02:36.220 --> 02:37.960
+mình không chắc chắc cho bạn thấy
+
+02:37.960 --> 02:40.760
+là gần như thế nào, nhưng đó chính là cos(x)
+
+02:40.760 --> 02:42.710
+và bạn sẽ càng đến gần
+
+02:42.710 --> 02:44.975
+gần với cos(x) khi thêm nhiều số hạng vào đây
+
+02:44.975 --> 02:46.350
+và khi đến với vô hạn, thì bạn
+
+02:46.350 --> 02:48.920
+đã đến rất sát với cos(x)
+
+02:48.920 --> 02:51.490
+hãy làm điều tương tự với sin(x)
+
+02:51.490 --> 02:52.960
+Chọn một màu bút khác
+
+02:52.960 --> 02:54.980
+xanh lá khá đẹp
+
+02:54.980 --> 02:56.820
+đây là P(x)
+
+02:56.820 --> 02:58.590
+và ước lượng này thì sẽ trở thành
+
+02:58.590 --> 03:01.600
+sin(x), khi mình thêm nhiều số hạng hơn nữa
+
+03:01.600 --> 03:06.820
+và số hạng đầu tiên, f(0) cũng sẽ bằng 0.
+
+03:06.820 --> 03:09.050
+và mình cũng sẽ không cần phải thêm điều đó vào
+
+03:09.050 --> 03:11.090
+số hạng tiếp theo sẽ là f'(0)
+
+03:11.090 --> 03:13.800
+sẽ là bằng 1, nhân x
+
+03:13.800 --> 03:15.880
+vậy mình có x
+
+03:15.880 --> 03:18.450
+và tiếp theo là f'', đạo hàm bậc 2
+
+03:18.450 --> 03:21.220
+tại 0, ở đây mình thấy 0
+
+03:21.220 --> 03:23.020
+và để mình kéo xuống dưới
+
+03:23.020 --> 03:24.340
+Nó là 0
+
+03:24.340 --> 03:26.610
+Vậy là mình sẽ không có số hạng thứ 2
+
+03:26.610 --> 03:29.590
+số hạng thứ 3 là, đạo hàm bậc 3
+
+03:29.590 --> 03:32.920
+của sin(x) tại 0 bằng -1
+
+03:32.920 --> 03:36.830
+và bây giờ thì mình có -1
+
+03:36.830 --> 03:39.490
+để mình kéo xuống cho bạn nhìn thấy
+
+03:39.490 --> 03:42.240
+trừ 1, trong trường hợp này
+
+03:42.240 --> 03:45.505
+nhân x^3 chia 3!
+
+03:50.880 --> 03:52.860
+số hạng tiếp theo bằng 0
+
+03:52.860 --> 03:55.850
+vì đó là đạo hàm lần 4.
+
+03:55.850 --> 03:59.660
+đạo hàm bậc 4 tại 0 là hệ số tiếp theo
+
+03:59.660 --> 04:03.052
+mình cũng thấy nó sẽ bằng 0, sẽ được rút gọn
+
+04:03.052 --> 04:04.510
+những gì bạn thấy ở đây,
+
+04:04.510 --> 04:06.825
+và có lẽ là mình đã chưa tìm đủ số số hạng
+
+04:06.825 --> 04:08.300
+để bạn cảm thấy tốt về cách làm
+
+04:08.300 --> 04:10.330
+để mình tìm thêm một số hạng nữa, ở đây
+
+04:10.330 --> 04:12.690
+cho rõ hơn.
+
+04:12.690 --> 04:15.450
+f của đạo hàm bậc 5 của x là
+
+04:15.450 --> 04:17.440
+sẽ là cos của x
+
+04:17.440 --> 04:20.209
+với đạo hàm bậc 5, mình sẽ viết bằng màu khác
+
+04:20.209 --> 04:27.180
+đạo hàm bậc 5 tại 0
+
+04:27.180 --> 04:29.570
+sẽ bằng 1
+
+04:29.570 --> 04:33.470
+đạo hàm bậc 4 tại 0 bằng 0
+
+04:33.470 --> 04:36.860
+và sau đó là đạo hàm bậc 5 tại 0
+
+04:36.860 --> 04:38.814
+nếu tiếp tục làm thì sẽ có 1
+
+04:38.814 --> 04:40.730
+tiếp tục làm thì sẽ là dương
+
+04:40.730 --> 04:44.440
+1, mình phải viết 1 là hệ số nhân x
+
+04:44.440 --> 04:47.770
+chia 5!
+
+04:47.770 --> 04:50.530
+có điều thú vị xảy ra ở đây
+
+04:50.530 --> 04:55.500
+với cos(x) mình có 1, vì x^0= 1
+
+04:55.500 --> 04:58.420
+nên là mình không có x^1
+
+04:58.420 --> 05:00.240
+mình không có x mũ lẻ, thì đúng hơn
+
+05:00.240 --> 05:02.830
+và mình chỉ có x mũ chẵn thôi
+
+05:02.830 --> 05:06.650
+dù số mũ bằng bao nhiêu, thì mình cũng chia nó cho số giai thừa như thế
+
+05:06.650 --> 05:09.400
+và các giá trị sin sẽ thay đổi
+
+05:09.400 --> 05:12.300
+mình không nên nói đây toàn là sỗ mũ chẵn, vì 0 không phải
+
+05:12.300 --> 05:14.440
+nhưng mà bạn có thể cứ xem như nó là số mũ chẵn
+
+05:14.440 --> 05:17.540
+mình không đi quá sâu vào lý do tại sao
+
+05:17.540 --> 05:22.440
+nhưng nó sẽ gồm 0,2,4,6, vân vân
+
+05:22.440 --> 05:24.200
+nên là nó rất thú vị,
+
+05:24.200 --> 05:25.440
+khi bạn so sánh nó với điều này
+
+05:25.440 --> 05:26.760
+đây toàn là mũ lẻ
+
+05:26.760 --> 05:29.060
+x^1 chia 1!
+
+05:29.060 --> 05:30.300
+và mình đã không viết nó ở đây
+
+05:30.300 --> 05:32.580
+x^3 chia 3!
+
+05:32.580 --> 05:34.477
+cộng x^5 chia 5!
+
+05:34.477 --> 05:35.810
+0 là một số chẵn
+
+05:35.810 --> 05:39.830
+dù sao thì tâm trí mình cũng đang ở chỗ khác rồi
+
+05:39.830 --> 05:40.890
+bạn hãy cứ làm tiếp tục làm
+
+05:40.890 --> 05:43.190
+nếu bạn làm tương tự như vậy thì
+
+05:43.190 --> 05:44.280
+sẽ thay đổi các giá trị sin
+
+05:44.280 --> 05:48.200
+x^7 chia 7!, cộng
+
+05:48.200 --> 05:49.527
+x^9 chia 9!
+
+05:49.527 --> 05:51.110
+vậy đây là một vài điều hay ho
+
+05:51.110 --> 05:55.280
+một lần nữa, bạn thấy được bản chất hỗ trợ
+
+05:55.280 --> 05:56.930
+của sin và cos
+
+05:56.930 --> 05:58.630
+và chúng gần như
+
+05:58.630 --> 06:00.960
+là đã lấp vào khoảng trống của nhau ở đây
+
+06:00.960 --> 06:03.220
+cos(x) của tất cả những số mũ chẵn
+
+06:03.220 --> 06:05.680
+của x chia chính giai thừa của số mũ đó
+
+06:05.680 --> 06:08.310
+sin(x), khi bạn lấy đại diện đa thức của nó
+
+06:08.310 --> 06:12.470
+sẽ là tất cả những số mũ lẻ của x chia giai thừa số mũ
+
+06:12.470 --> 06:14.100
+và thay đổi các giá trị sin
+
+06:14.100 --> 06:16.640
+video tới, mình sẽ học về e^x
+
+06:16.640 --> 06:18.660
+và điều thú vị là e
+
+06:18.660 --> 06:22.310
+mũ x sẽ trông giống như tổ hợp của
+
+06:22.310 --> 06:24.050
+điều này, không hoàn toàn giống
+
+06:24.050 --> 06:25.790
+và bạn sẽ có được tổ hợp của chúng
+
+06:25.790 --> 06:28.310
+khi cho các số ảo vào
+
+06:28.310 --> 06:32.860
+sẽ vô cùng ngạc nhiên đấy

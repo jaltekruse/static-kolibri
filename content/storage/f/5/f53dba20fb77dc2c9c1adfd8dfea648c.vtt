@@ -1,0 +1,371 @@
+WEBVTT
+
+00:00.170 --> 00:01.270
+- [Instructor] So we have this function
+
+00:01.270 --> 00:03.450
+that's equal to 2 minus 8x squared
+
+00:03.450 --> 00:07.000
+plus 32x to the fourth
+minus 128x to the sixth.
+
+00:07.000 --> 00:08.610
+And it just keeps going and going.
+
+00:08.610 --> 00:11.170
+So it's defined as an infinite series.
+
+00:11.170 --> 00:13.130
+And what I want to explore in this video,
+
+00:13.130 --> 00:16.360
+is there another way
+to write this function
+
+00:16.360 --> 00:19.800
+so it's not expressed
+as an infinite series?
+
+00:19.800 --> 00:21.790
+Well, some of you might be thinking,
+
+00:21.790 --> 00:24.360
+well, this looks like a geometric series
+
+00:24.360 --> 00:26.730
+on the right hand side, an
+infinite geometric series,
+
+00:26.730 --> 00:30.320
+and we know what the sun of an
+infinite geometric series is
+
+00:30.320 --> 00:31.970
+if it converges.
+
+00:31.970 --> 00:34.710
+So maybe that's a way
+that we can express this.
+
+00:34.710 --> 00:35.543
+So let's try to do that.
+
+00:35.543 --> 00:36.710
+So first let's just confirm
+
+00:36.710 --> 00:38.680
+that this is an infinite geometric series.
+
+00:38.680 --> 00:41.200
+And in order for it to
+be a geometric series,
+
+00:41.200 --> 00:44.680
+each successive term has
+to be some common ratio
+
+00:44.680 --> 00:46.220
+times the previous term.
+
+00:46.220 --> 00:48.930
+So to go from 2 to negative 8x squared,
+
+00:48.930 --> 00:50.560
+what do you have to multiply by?
+
+00:50.560 --> 00:55.560
+Well you have to multiply
+by negative 4x squared.
+
+00:55.600 --> 00:57.500
+Now let's see if you
+multiply negative 8x squared
+
+00:57.500 --> 00:59.700
+times negative 4x
+squared, what do you get?
+
+00:59.700 --> 01:02.360
+Well, negative 4 times
+negative 8 is positive 32.
+
+01:02.360 --> 01:04.220
+x squared times x squared
+is x to the fourth.
+
+01:04.220 --> 01:05.130
+So that works.
+
+01:05.130 --> 01:08.200
+And then you multiply that
+times negative 4x squared,
+
+01:08.200 --> 01:11.670
+and you indeed would get
+negative 128x to the sixth.
+
+01:11.670 --> 01:15.540
+So this indeed looks like
+an infinite geometric series
+
+01:15.540 --> 01:16.430
+on the right-hand side.
+
+01:16.430 --> 01:19.430
+In fact, we can rewrite f of x
+
+01:19.430 --> 01:21.840
+as being equal to the sum
+
+01:22.750 --> 01:27.390
+from n equals 0 to infinity of,
+
+01:27.390 --> 01:28.880
+you have your first term,
+
+01:28.880 --> 01:30.520
+and then you have your common ratio,
+
+01:30.520 --> 01:33.400
+negative 4x squared
+
+01:33.400 --> 01:35.610
+to the nth power.
+
+01:35.610 --> 01:37.890
+Let's confirm that works when n equals 0
+
+01:37.890 --> 01:39.130
+this is going to be 1.
+
+01:39.130 --> 01:43.010
+So 2 times 1 is 2, and that
+indeed is our first term there.
+
+01:43.010 --> 01:44.760
+And then to that, you're gonna add it
+
+01:44.760 --> 01:46.700
+to when n is equal to 1.
+
+01:46.700 --> 01:48.690
+So that's just going to be
+two times negative 4X squared,
+
+01:48.690 --> 01:52.110
+which is indeed this second
+term right over here.
+
+01:52.110 --> 01:54.810
+And so this looks like it works.
+
+01:54.810 --> 01:57.350
+Now what is the sum
+
+01:57.350 --> 02:01.120
+of an infinite geometric series like this?
+
+02:01.120 --> 02:02.760
+Well it's going to be a finite value,
+
+02:02.760 --> 02:06.930
+assuming the absolute
+value of your common ratio
+
+02:06.930 --> 02:09.200
+is less than 1.
+
+02:09.200 --> 02:10.680
+So first of all, let's just think about
+
+02:10.680 --> 02:12.740
+under what conditions
+is the absolute value
+
+02:12.740 --> 02:14.500
+of our common ratio less than 1?
+
+02:14.500 --> 02:15.460
+And then we could say, okay,
+
+02:15.460 --> 02:19.060
+that helps us to find a
+radius of convergence.
+
+02:19.060 --> 02:23.250
+And then if x is in that zone,
+
+02:23.250 --> 02:24.920
+or if it's in that interval,
+
+02:24.920 --> 02:28.860
+then we can figure out a
+non-infinite geometric series way
+
+02:28.860 --> 02:31.040
+of expressing this function.
+
+02:31.040 --> 02:33.670
+So if we just think about
+under what circumstances
+
+02:33.670 --> 02:36.650
+will this converge, will it
+come out to a finite value?
+
+02:36.650 --> 02:39.360
+That's a situation in
+which the absolute value
+
+02:39.360 --> 02:42.890
+of your common ratio is less than 1.
+
+02:42.890 --> 02:45.613
+And so let's see if we can
+simplify this a little bit.
+
+02:46.820 --> 02:49.070
+No matter what x is, it's
+always going to be not,
+
+02:49.070 --> 02:51.570
+x squared is always
+going to be non-negative.
+
+02:51.570 --> 02:54.980
+And so the only, so this entire expression
+
+02:54.980 --> 02:56.810
+is always going to be negative.
+
+02:56.810 --> 02:59.000
+And so if you take the
+absolute value of it,
+
+02:59.000 --> 03:02.840
+this is going to be
+evaluate as 4x squared,
+
+03:02.840 --> 03:04.530
+which is always going to be positive.
+
+03:04.530 --> 03:07.020
+So this is equivalent to 4x squared,
+
+03:07.020 --> 03:08.980
+which needs to be less than 1.
+
+03:08.980 --> 03:13.560
+Or we could say that x squared
+needs to be less than 1/4.
+
+03:13.560 --> 03:18.530
+Or we could say that x needs to be
+
+03:18.530 --> 03:20.890
+less than 1/2
+
+03:20.890 --> 03:24.180
+and greater than negative 1/2.
+
+03:24.180 --> 03:27.290
+One way to think about it is
+anywhere in this interval,
+
+03:27.290 --> 03:30.350
+if you square it, you're
+going to be less than 1/4.
+
+03:30.350 --> 03:33.730
+At 1/2, if you square
+it, it's equal to 1/4.
+
+03:33.730 --> 03:37.150
+And at negative 1/2, if you
+square it, it's equal to 1/4.
+
+03:37.150 --> 03:39.570
+But for lower absolute values,
+
+03:39.570 --> 03:41.540
+it's going to be less than 1/4.
+
+03:41.540 --> 03:43.590
+And so that's what this
+interval right here says.
+
+03:43.590 --> 03:46.400
+Another way to think about
+it is the absolute value of x
+
+03:46.400 --> 03:48.830
+needs to be less than 1/2.
+
+03:48.830 --> 03:51.440
+And so we've just defined an interval
+
+03:51.440 --> 03:55.680
+over which this infinite
+geometric series will converge.
+
+03:55.680 --> 03:58.880
+You could say this has a
+radius of convergence of,
+
+03:58.880 --> 04:02.853
+let me write it this way,
+radius of convergence,
+
+04:04.130 --> 04:07.240
+convergence of 1/2,
+
+04:07.240 --> 04:11.220
+you can go 1/2 above 0 and 1/2 below 0.
+
+04:11.220 --> 04:13.460
+But now that we've set the conditions
+
+04:13.460 --> 04:16.370
+under which this would
+converge, let's rewrite it.
+
+04:16.370 --> 04:19.230
+So this function is going to be equal to,
+
+04:19.230 --> 04:22.450
+we know what the sum of an
+infinite geometric series is.
+
+04:22.450 --> 04:24.670
+It's going to be equal to the first term
+
+04:24.670 --> 04:29.070
+over 1 minus your common ratio,
+
+04:29.070 --> 04:32.480
+1 minus negative 4x squared.
+
+04:32.480 --> 04:35.730
+And so we can rewrite
+our function as f of x
+
+04:35.730 --> 04:39.780
+is equal to 2 over 1,
+subtract a negative 1
+
+04:39.780 --> 04:43.040
+plus 4x squared for
+
+04:43.920 --> 04:47.910
+the absolute value of x is less than 1/2.
+
+04:47.910 --> 04:50.900
+We have the interval
+over which we converge
+
+04:50.900 --> 04:52.260
+and there you have it.
+
+04:52.260 --> 04:55.443
+We are done.

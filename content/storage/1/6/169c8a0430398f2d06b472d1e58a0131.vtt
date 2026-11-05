@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.247 --> 00:01.755
+Để bảo rằng f(x),
+
+00:01.755 --> 00:03.409
+là một chuỗi vô hạn,
+
+00:03.409 --> 00:05.678
+đi từ n bằng 1 tới vô cực,
+
+00:05.678 --> 00:09.845
+của n cộng 1 chia 4 mũ n cộng 1, nhân x mũ n.
+
+00:11.055 --> 00:13.080
+Và nhiệm vụ của ta là tìm xem,
+
+00:13.080 --> 00:17.226
+tích phân xác định từ 0 tới 1 của f(x) là gì?
+
+00:17.226 --> 00:19.593
+Như mọi khi, mình khuyên các bạn,
+
+00:19.593 --> 00:21.509
+mình nghĩ sẽ tốt hơn,
+
+00:21.509 --> 00:23.309
+nếu bạn dừng video lại và tự giải,
+
+00:23.309 --> 00:25.292
+hoặc bạn có thể xem mình giải một chút,
+
+00:25.292 --> 00:28.193
+rồi dừng lại và tự giải tiếp.
+
+00:28.193 --> 00:30.627
+Chà, hãy viết biểu thức này lại một tí.
+
+00:30.627 --> 00:32.176
+Biểu thức này sẽ bằng với,
+
+00:32.176 --> 00:34.192
+tích phân từ 0 tới 1.
+
+00:34.192 --> 00:38.659
+f(x) là một chuỗi, nên mình có thể viết là
+
+00:38.659 --> 00:41.742
+tổng từ n bằng 1 tới vô cực
+
+00:43.142 --> 00:47.342
+của n cộng 1 chia cho 4 mũ n cộng 1,
+
+00:47.342 --> 00:49.308
+nhân với x mũ n.
+
+00:49.308 --> 00:51.225
+Điều mình sắp làm ở đây,
+
+00:51.225 --> 00:53.991
+có thể trộng lạ lẫm đối với bạn,
+
+00:53.991 --> 00:55.010
+nhưng nó rất quan trọng,
+
+00:55.010 --> 00:57.942
+ta sẽ tính tích phân xác định của tổng các số hạng.
+
+00:57.942 --> 01:00.791
+Nó sẽ giống như là tính tổng
+
+01:00.791 --> 01:02.657
+của nhiều tích phân xác định.
+
+01:02.657 --> 01:04.041
+Để mình làm rõ khái niệm này.
+
+01:04.041 --> 01:06.331
+Mình có một tích phân xác định,
+
+01:06.331 --> 01:11.081
+từ 0 tới 1, giả sử mình có rất nhiều số hạng ở đây.
+
+01:11.081 --> 01:12.231
+Hãy gọi chúng là các hàm số.
+
+01:12.231 --> 01:16.227
+Xem nào, ta có g(x) cộng h(x),
+
+01:16.227 --> 01:19.948
+và mình cứ đi tiếp như thế, dx,
+
+01:19.948 --> 01:21.897
+chà, nó giống với tổng của các tích phân,
+
+01:21.897 --> 01:26.448
+tích phân đi từ 0 tới 1 của g(x),
+
+01:26.448 --> 01:30.615
+g(x) dx cộng tích phân từ 0 tới 1 của f(x),
+
+01:32.963 --> 01:35.696
+cộng, và ta cứ cộng tiếp như thế.
+
+01:35.696 --> 01:37.446
+Đây chính là,
+
+01:37.446 --> 01:40.121
+tính chất của tích phân.
+
+01:40.121 --> 01:41.679
+Ta cũng có thể làm điều tương tự ở đây,
+
+01:41.679 --> 01:43.763
+kể cả khi ta vẫn để dấu sigma.
+
+01:43.763 --> 01:46.763
+Biểu thức này bằng với tổng
+
+01:49.095 --> 01:51.512
+từ n bằng 1 tới vô cực
+
+01:52.562 --> 01:56.446
+của tích phân xác định của từng số hạng.
+
+01:56.446 --> 01:58.228
+Mình sẽ viết nó như này.
+
+01:58.228 --> 02:01.962
+Tích phân từ 0 tới 1,
+
+02:01.962 --> 02:06.129
+của n cộng 1 trên 4 mũ n cộng 1,
+
+02:08.094 --> 02:11.344
+nhân x mũ n, rồi dx.
+
+02:12.562 --> 02:16.946
+Nhắc lại, ta đang tính tổng của từng số hạng.
+
+02:16.946 --> 02:20.696
+Hãy cùng tính nhé.
+
+02:23.294 --> 02:25.211
+Cái này sẽ bằng với...
+
+02:25.211 --> 02:28.564
+Sẽ bằng với tổng,
+
+02:28.564 --> 02:32.231
+từ n bằng 1 tới vô cực,, và biểu thức
+
+02:32.231 --> 02:33.832
+mà mình gạch dưới bằng màu cam.
+
+02:33.832 --> 02:34.665
+Xem nào,
+
+02:34.665 --> 02:37.530
+ta tính tích phân của nó.
+
+02:37.530 --> 02:41.363
+Ta sẽ có x mũ n cộng 1,
+
+02:42.513 --> 02:44.263
+rồi ta chia nó cho n cộng 1.
+
+02:44.263 --> 02:47.596
+Vậy ta có n cộng 1 chia cho,
+
+02:48.480 --> 02:52.280
+4 mũ n cộng 1, và nó là một hằng số
+
+02:52.280 --> 02:54.464
+khi ta tính tích phân theo biến x,
+
+02:54.464 --> 02:57.053
+tiếp theo ở đây ta tăng số mũ lên,
+
+02:57.053 --> 02:59.997
+rồi chia cho số mũ đã tăng lên đó.
+
+02:59.997 --> 03:02.446
+Vậy kết quả sẽ là, mình thường gọi nó là nghịch đảo,
+
+03:02.446 --> 03:06.945
+của qui tắc lũy thừa, hoặc qui tắc lũy thừa ngược.
+
+03:06.945 --> 03:10.862
+Sẽ là x mũ n cộng 1 chia cho n cộng 1.
+
+03:12.294 --> 03:13.829
+Mình vừa tính tích phân bất định,
+
+03:13.829 --> 03:17.145
+và giờ ta sẽ tính tích phân từ 0 tới 1 của từng số hạng.
+
+03:17.145 --> 03:18.444
+Nhưng ta hãy rút gọn trước.
+
+03:18.444 --> 03:21.511
+Ta có n cộng 1, và n cộng 1 ở đây,
+
+03:21.511 --> 03:23.927
+vậy ta có thể viết lại.
+
+03:23.927 --> 03:25.743
+Cái này sẽ bằng,
+
+03:25.743 --> 03:29.177
+ta sẽ tính tổng từ n bằng 1 tới vô cực,
+
+03:29.177 --> 03:32.293
+và biểu thức bên trong sẽ bằng với,
+
+03:32.293 --> 03:35.376
+khi x bằng 1, nó là 1,
+
+03:37.577 --> 03:40.123
+ta viết là 1 mũ n cộng 1,
+
+03:40.123 --> 03:42.494
+chia cho 4 mũ n cộng 1.
+
+03:42.494 --> 03:44.160
+Thật ra, để mình viết theo cách khác.
+
+03:44.160 --> 03:48.443
+1 mũ n cộng 1, chia cho 4 mũ n cộng 1,
+
+03:48.443 --> 03:51.693
+trừ 0 mũ n cộng 1, chia 4 mũ n cộng 1,
+
+03:51.693 --> 03:53.576
+ta không cần phải viết cái này ra.
+
+03:53.576 --> 03:55.626
+Mình viết là 0 mũ n cộng 1,
+
+03:55.626 --> 04:00.566
+chia cho 4 mũ n cộng 1, nhưng đây rõ ràng là 0.
+
+04:00.566 --> 04:02.509
+Vậy là biểu thức đã đơn giản rồi đây,
+
+04:02.509 --> 04:05.161
+nó đã đơn giản, và nó sẽ bằng,
+
+04:05.161 --> 04:06.958
+xem nào, bằng với,
+
+04:06.958 --> 04:10.375
+tổng từ n bằng 1 tới vô cực,
+
+04:11.609 --> 04:13.492
+của 1 phần 4,
+
+04:13.492 --> 04:16.758
+mũ n cộng 1.
+
+04:16.758 --> 04:18.275
+Giờ bạn nhận ra ngay,
+
+04:18.275 --> 04:20.980
+đây là chuỗi cấp số nhân vô hạn.
+
+04:20.980 --> 04:22.758
+Số hạng đầu tiên là gì?
+
+04:22.758 --> 04:25.258
+Chà, số hạng đầu tiên là,
+
+04:29.258 --> 04:32.841
+khi n bằng với 1, số hạng đầu tiên sẽ là,
+
+04:35.341 --> 04:38.508
+1 phần 4 mũ 2.
+
+04:39.607 --> 04:40.674
+Mình làm đúng không?
+
+04:40.674 --> 04:41.507
+Đúng.
+
+04:41.507 --> 04:45.241
+Khi n bằng 1, biểu thức sẽ là
+
+04:45.241 --> 04:49.505
+1 phần 4 mũ 2.
+
+04:49.505 --> 04:54.425
+là bằng 1 phần 16, vậy đây là số hạng đầu tiên của ta.
+
+04:54.425 --> 04:58.592
+Công bội của ta ở đây chính là,
+
+05:02.029 --> 05:04.539
+chà, ta cứ nhân tiếp cho 1 phần 4,
+
+05:04.539 --> 05:06.888
+nên công bội ở đây sẽ là 1 phần 4.
+
+05:06.888 --> 05:09.121
+Trong chuỗi cấp số nhân vô hạn,
+
+05:09.121 --> 05:11.788
+như cái này, vì công bội của ta,
+
+05:14.063 --> 05:16.107
+giá trị tuyệt đối của nó nhỏ hơn 1,
+
+05:16.107 --> 05:17.890
+nên chuỗi này sẽ hội tụ.
+
+05:17.890 --> 05:19.719
+Nó sẽ hội tụ tới một giá trị,
+
+05:19.719 --> 05:23.302
+số hạng đầu tiên, 1 phần 16, chia cho
+
+05:24.718 --> 05:28.589
+1 trừ đi công bội, tức 1 trừ 1 phần 4,
+
+05:28.589 --> 05:32.756
+là 3 phần 4, vậy sẽ bằng 1 phần 16 nhân 4 phần 3.
+
+05:37.545 --> 05:40.858
+Kết quả là 1 phần 12.
+
+05:40.858 --> 05:41.946
+Ta đã làm xong.
+
+05:41.946 --> 05:43.725
+Bài này ban đầu trông khá phức tạp,
+
+05:43.725 --> 05:45.099
+nhưng ta chỉ cần nhận ra rằng,
+
+05:45.099 --> 05:48.258
+tích phân của một tổng, kể cả tổng vô hạn,
+
+05:48.258 --> 05:50.975
+sẽ bằng với tổng của các tích phân vô hạn.
+
+05:50.975 --> 05:53.474
+Ta lấy nguyên hàm của những tích phân vô hạn này,
+
+05:53.474 --> 05:54.524
+đó là điều ta có thể làm,
+
+05:54.524 --> 05:58.091
+đó là điều thú vị của kí hiệu trong toán,
+
+05:58.091 --> 06:00.008
+và rồi ta nhận ra,
+
+06:00.008 --> 06:00.841
+ta có chuỗi cấp số
+
+06:00.841 --> 06:02.467
+nhân vô hạn mà ta tính tổng được.
+
+06:02.467 --> 06:03.717
+Vậy là ta đã giải xong.

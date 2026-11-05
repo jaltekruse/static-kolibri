@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.952 --> 00:05.000
+Első feladat: t idő alatt xy síkon mozgó anyagi pont
+
+00:05.000 --> 00:09.800
+helyzete (x(t), y(t)), ahol x(t) és y(t)
+
+00:09.800 --> 00:11.502
+nem explicit adottak.
+
+00:11.764 --> 00:14.141
+T nagyobb, vagy egyenlo 0 esetén
+
+00:14.141 --> 00:17.390
+x t szerinti első deriváltja 4t+1
+
+00:17.667 --> 00:21.797
+y t szerinti első deriváltja sin(t^2)
+
+00:21.797 --> 00:26.240
+t=0 pillanatban x(0)=0 és y(0)=-4
+
+00:26.378 --> 00:28.800
+Rendben, oldjuk meg az a részt
+
+00:28.800 --> 00:33.610
+Mennyi az anyagi pont gyorsasága t=3 időben?
+
+00:33.825 --> 00:37.067
+Határozd meg a gyorsulásvektort
+
+00:37.067 --> 00:40.533
+ugyanazon pillanatban!
+
+00:40.533 --> 00:45.333
+szóval a gyorsaság valójában csak a sebességvektor nagysága.
+
+00:45.333 --> 00:47.137
+Mi a sebességvektor?
+
+00:47.137 --> 00:50.979
+A sebességvektorunk, mint az idő függvénye
+
+00:50.979 --> 00:55.890
+az x helyzetvektorunk deriváltjával lesz egyenlő
+
+00:55.890 --> 00:59.467
+az idő függvényében, azaz az x irányú gyorsaság i egységvektorral való szorzata
+
+00:59.467 --> 01:06.887
+plusz az y irányú gyorsaság j egységvektorral vett szorzata.
+
+01:06.887 --> 01:08.383
+Ez a mérnöki meghatározása,
+
+01:08.383 --> 01:12.307
+nyilván sok más módon is leírhatunk egy vektort.
+
+01:12.307 --> 01:15.800
+És ebben az esetben x'(t) előre meghatározott;
+
+01:15.800 --> 01:18.000
+x'(t)=4t+1
+
+01:18.000 --> 01:20.333
+Csak épp a feladatban dx/dt-ként van jelölve.
+
+01:20.333 --> 01:27.005
+Szóval ez itt 4t+1-szerese i egységvektornak,
+
+01:27.005 --> 01:31.467
+ez pedig itt y'(t), ami szintén adott;
+
+01:31.467 --> 01:33.933
+y t szerinti deriváltja sin(t^2).
+
+01:33.933 --> 01:41.800
+Azaz, plusz sin(t^2)-szer a j egységvektor.
+
+01:41.800 --> 01:46.502
+Ez a sebességvektorunk.Szóval mi a sebesség-
+
+01:46.502 --> 01:49.134
+vagyis ez a sebességvektorunk, az idő függvényében,
+
+01:49.134 --> 01:53.185
+szóval mi a sebességünk t=3 esetén?
+
+01:53.400 --> 02:01.000
+Egyszerűen csak behelyettesítjük a hármat a t helyére, azaz 4(3)+1 egyenlő 13i.
+
+02:01.123 --> 02:11.216
+Plusz három a négyzeten- ami kilenc - kilenc szinusza. Plusz sin9j.
+
+02:11.216 --> 02:15.000
+A sebességünk tehát, amit ki kell számolnunk,
+
+02:15.000 --> 02:20.200
+egyenlő lesz..., vagy mondhatnám, hogy a 3 időbeli sebességünk
+
+02:20.200 --> 02:26.400
+a sebességünk egyenlő lesz a 3 időpillanatbeli sebességvektor nagyságával.
+
+02:26.400 --> 02:34.933
+ami megegyezik a 13i+sin9j nagyságával.
+
+02:34.933 --> 02:40.133
+És akkor itt szó szerint egyszerűen csak használjuk a Pitagorasz-tételt
+
+02:40.133 --> 02:41.133
+a sebesség kiszámításához.
+
+02:41.133 --> 02:47.400
+Ez egyenlő lesz 169 nélgyzetgyökével (ami 13 négyzete)
+
+02:47.400 --> 02:55.746
+plusz sin9 négyzetével. Hadd vegyem elő a számológépem.
+
+02:55.961 --> 03:00.048
+A vizsga ezen részén megengedett a számológép használata.
+
+03:00.048 --> 03:15.058
+Szóval 169 négyzetgyöke plusz sin9 négyzete.
+
+03:15.535 --> 03:18.608
+Rendben, az 13 négyzete plusz sin9 négyzete.
+
+03:18.885 --> 03:24.133
+És mit kapunk? 13-at kapunk- ezt csak kerekítjük 7-re,
+
+03:24.133 --> 03:27.513
+csak, hogy megmutassuk, hoyg nem egyszerűen 13-at kapunk,
+
+03:27.513 --> 03:30.067
+hogy lássuk, hogy a sin9 tesz valamit.
+
+03:30.067 --> 03:33.255
+Szóval 13,007.
+
+03:33.255 --> 03:38.384
+Azaz, ez megközelítőleg 13,007.
+
+03:38.384 --> 03:40.381
+Meg is válaszoltuk az első részt.
+
+03:40.381 --> 03:45.200
+A pont t=3-beli sebessége 13,007.
+
+03:45.200 --> 03:49.933
+Ezután a gyorsulásvektor megkeresése a feladatunk t=3-nál.
+
+03:49.933 --> 03:58.214
+A gyorsulásvektor, mint az idő függvénye éppen az x elmozdulás második deriváltja lesz
+
+03:58.214 --> 04:01.733
+t szerint, vagy mondhatjuk az x irányú gyorsulás
+
+04:01.733 --> 04:06.769
+mint az idő függvénye i-vel szorozva, plusz az y irányú gyorsulás.
+
+04:06.769 --> 04:11.472
+Azaz az y második t szerinti deriváltja a j irányban.
+
+04:11.472 --> 04:14.676
+És ez persze azonos lesz
+
+04:14.676 --> 04:19.800
+x deriváltjának deriváltja, x(t) második deriváltja épp az első derivált deriváltja.
+
+04:19.800 --> 04:23.667
+Az első derivált 4t+1,
+
+04:23.667 --> 04:25.892
+ennek vesszük a deriváltját, ami egyszerűen 4.
+
+04:26.215 --> 04:34.067
+Azaz van 4i-nk plusz... és a y második t szerint vett deriváltja
+
+04:34.067 --> 04:35.733
+ami szintén az első derivált deriváltja.
+
+04:35.733 --> 04:39.963
+Az első derivált sin(t^2), azaz
+
+04:39.963 --> 04:48.554
+ennek a deriváltja 2t*cos(t^2), és persze van még ott egy j.
+
+04:48.554 --> 04:52.400
+itt van a j, és ezt a láncszabályból hoztam ki.
+
+04:52.400 --> 04:58.533
+t^2 deriváltja t szerint 2t,
+
+04:58.533 --> 05:04.733
+sin(t^2) t^2 szerinti deriváltja cos(t^2).
+
+05:04.733 --> 05:08.440
+És így ez a gyorsulásvektor, mint az idő függvénye
+
+05:08.440 --> 05:11.400
+de ami nekünk számít, az a t=3 időpontbeli érték.
+
+05:11.400 --> 05:17.795
+Na, 4 az marad 4, aztán 2(3)+cos9.
+
+05:17.795 --> 05:21.733
+Hadd írjam le, ez lesz a gyorsulásvektorunk.
+
+05:21.733 --> 05:24.667
+a 3 időbeli gyorsulásvektor
+
+05:24.667 --> 05:32.733
+4i plusz... nézzük csak, ha ez 2x3, ami 6...
+
+05:35.225 --> 05:38.547
+(6cos9)j
+
+05:38.547 --> 05:42.575
+Nézzük a számológépet, hogy számértéket is kapjunk
+
+05:42.575 --> 05:45.242
+tekintve, hogy megengedik, sőt itt el is várják, hogy használjuk a gépünket.
+
+05:45.242 --> 05:56.133
+Na, 6cos9 az mínusz 5,47, vagy 5,467, ha szeretnénk.
+
+05:56.133 --> 06:02.400
+plusz mínusz, ó, mit is csinálok, ez itt j.
+
+06:02.400 --> 06:08.333
+szóval plusz -5,467j.
+
+06:08.333 --> 06:09.867
+Ez a gyorsulásvektorunk.
+
+06:09.867 --> 06:12.410
+És még egyszer, ez a mérnöki leírás.
+
+06:12.410 --> 06:15.800
+ami egész biztos, hogy a vizsgáztatókat nem érdekli,
+
+06:15.800 --> 06:17.733
+de leírhatjuk még
+
+06:20.102 --> 06:23.533
+paraméteres vektorként, vagy rendezett páros leírásban is vektorként.
+
+06:23.533 --> 06:27.733
+mondhatjuk, hogy a 3 időbeli gyorsulásvektor
+
+06:27.733 --> 06:29.067
+így is írhatjuk:
+
+06:29.067 --> 06:33.369
+(4; -5,467)
+
+06:33.369 --> 06:34.933
+Ezek valójában ugyanazt a dolgot írják le.
+
+06:34.933 --> 06:36.133
+Ez a vektor x komponense,
+
+06:36.133 --> 06:38.000
+ez a vektor y komponense.
+
+06:38.000 --> 06:39.221
+Ez a vektor x része,
+
+06:39.221 --> 06:41.817
+ez a vektor y része.

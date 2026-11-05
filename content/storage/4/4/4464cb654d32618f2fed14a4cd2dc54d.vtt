@@ -1,0 +1,369 @@
+WEBVTT
+
+00:00.387 --> 00:04.979
+Máme funkci f(x) rovnu
+absolutní hodnotě z x plus 2.
+
+00:04.984 --> 00:09.673
+A my chceme spočítat určitý integrál
+od -4 do 0 f(x) dx.
+
+00:09.673 --> 00:13.361
+A jako obvykle si zastavte video
+a zjistěte, jestli to zvládnete sami.
+
+00:13.364 --> 00:15.827
+Ze začátku se možná trochu zarazíte,
+
+00:15.833 --> 00:19.547
+protože jak zintegrovat
+funkci s absolutní hodnotou?
+
+00:19.550 --> 00:22.229
+Řešením je,
+nebo tedy jednou možností je,
+
+00:22.239 --> 00:24.994
+že přepíšeme f(x)
+bez absolutní hodnoty,
+
+00:24.994 --> 00:29.575
+a to můžeme udělat tak,
+že ji nadefinujeme po částech.
+
+00:29.588 --> 00:31.908
+A uděláme to tak,
+že se zamyslíme nad intervaly,
+
+00:31.908 --> 00:36.693
+ve kterých cokoli,
+co dáme do absolutní hodnoty,
+
+00:36.693 --> 00:38.749
+dá kladnou hodnotu,
+a nad intervaly,
+
+00:38.759 --> 00:40.993
+kde všechno,
+co bude v absolutní hodnotě,
+
+00:40.993 --> 00:42.967
+bude záporné.
+
+00:42.977 --> 00:45.593
+A ten bod,
+ve kterém se to bude měnit,
+
+00:45.593 --> 00:50.978
+je ten, kdy x plus 2 je rovno 0,
+neboli když x je rovno -2.
+
+00:50.988 --> 00:54.722
+Vezměme tedy intervaly
+x je menší než -2
+
+00:54.732 --> 00:58.941
+a x je větší nebo rovno -2.
+
+00:58.941 --> 01:02.029
+Tady by mohlo být menší nebo rovno
+a tady by pak bylo větší než,
+
+01:02.029 --> 01:04.756
+v obou případech by to vyhovovalo
+této absolutní hodnotě,
+
+01:04.756 --> 01:06.863
+je to spojitá funkce.
+
+01:06.863 --> 01:09.427
+Pojďme na ten lehčí případ.
+
+01:09.427 --> 01:15.234
+Když je x větší nebo rovno -2,
+x plus 2 bude kladné,
+
+01:15.240 --> 01:17.793
+neboli bude větší nebo rovno 0,
+
+01:17.803 --> 01:21.621
+takže absolutní hodnota
+bude prostě x plus 2.
+
+01:21.621 --> 01:26.019
+Bude to tedy x plus 2
+pro x větší nebo rovno -2.
+
+01:26.019 --> 01:28.859
+A co když je x menší než -2?
+
+01:28.859 --> 01:34.470
+Když x je menší než -2,
+x plus 2 bude záporné,
+
+01:34.482 --> 01:37.357
+a když vezmeme
+absolutní hodnotu záporného čísla,
+
+01:37.357 --> 01:39.083
+dostaneme jeho opačnou hodnotu.
+
+01:39.093 --> 01:43.580
+Takže toto bude -(x plus 2).
+
+01:43.580 --> 01:47.947
+A abyste to opravdu pochopili,
+protože toto je upřímně ta nejtěžší část
+
+01:47.947 --> 01:50.077
+a je to spíš algebra
+než diferenciální počet,
+
+01:50.077 --> 01:54.170
+nakresleme si tu absolutní funkci,
+aby to bylo jasné.
+
+01:54.179 --> 02:00.056
+Takže toto je moje osa x,
+toto je moje osa y
+
+02:00.056 --> 02:03.746
+a řekněme, že tady je -2.
+
+02:03.756 --> 02:09.981
+A když je to menší než -2,
+když x je menší než -2,
+
+02:09.981 --> 02:12.376
+můj graf bude vypadat takto.
+
+02:12.376 --> 02:21.946
+Bude vypadat nějak...
+Bude vypadat nějak takto.
+
+02:21.952 --> 02:24.949
+A když je to větší než -2...
+
+02:24.969 --> 02:27.039
+Udělám to jinou barvou.
+
+02:27.049 --> 02:32.336
+Když je to větší než -2,
+bude to vypadat takto.
+
+02:32.336 --> 02:34.442
+Bude to vypadat takto.
+
+02:34.442 --> 02:39.145
+Všimněte si, že to modré
+je graf x plus 2,
+
+02:39.165 --> 02:41.760
+můžeme říct,
+že je to graf y rovná se x plus 2.
+
+02:41.770 --> 02:47.197
+A to fialové tady,
+to je graf -x minus 2.
+
+02:47.207 --> 02:52.498
+Má klesající sklon
+a protíná osu y v -2.
+
+02:52.512 --> 02:55.768
+Takže to dává smysl.
+Je několik způsobů, jak to zdůvodnit.
+
+02:55.768 --> 02:58.566
+Když to máme rozdělené,
+můžeme rozdělit ten integrál.
+
+02:58.566 --> 03:00.835
+Můžeme říct,
+že toto napsané tady je rovno
+
+03:00.835 --> 03:08.830
+integrálu od -4 do 2,
+pardon od -4 do -2 f(x),
+
+03:08.840 --> 03:14.307
+což v tomto případě
+bude -x minus 2.
+
+03:14.307 --> 03:17.382
+Jen jsem tady roznásobil
+závorku tím minusem.
+
+03:17.402 --> 03:23.889
+dx a pak plus určitý integrál
+
+03:23.899 --> 03:32.159
+od -2 do 0
+x plus 2 dx.
+
+03:32.179 --> 03:34.485
+A jen abychom opravdu věděli,
+co tady děláme,
+
+03:34.485 --> 03:38.564
+když tady je -4
+a tady je 0,
+
+03:38.564 --> 03:44.504
+ten první integrál je tato oblast tady.
+
+03:44.518 --> 03:48.286
+To je oblast pod křivkou -x minus 2,
+
+03:48.286 --> 03:52.199
+pod tou křivkou nebo tedy přímkou,
+a nad osou x.
+
+03:52.199 --> 03:56.084
+A ten druhý integrál je tato oblast
+
+03:56.084 --> 04:03.384
+mezi x plus 2
+a osou x od -2 do 0.
+
+04:03.384 --> 04:06.931
+Pojďme si je tedy vyčíslit,
+a to bychom byli schopní udělat
+
+04:06.941 --> 04:12.128
+i pomocí obsahu trojúhelníků,
+ale udělejme to algebraicky.
+
+04:12.138 --> 04:17.692
+Takže jaký je integrál -x?
+To je -x² lomeno 2,
+
+04:17.696 --> 04:22.064
+a pak máme -2,
+ten integrál bude -2x,
+
+04:22.064 --> 04:30.528
+a vyčíslíme to v -2 a v -4.
+
+04:30.538 --> 04:33.158
+Takže kolik to bude?
+
+04:33.158 --> 04:37.118
+-2²,
+bude to zápor z -2².
+
+04:37.128 --> 04:41.209
+Takže -4 lomeno 2
+minus 2 krát -2.
+
+04:41.219 --> 04:43.172
+Takže plus 4.
+
+04:43.182 --> 04:46.315
+Takže to je vyčíslené v -2.
+
+04:46.315 --> 04:50.962
+A teď minus
+integrál vyčíslený v -4.
+
+04:50.972 --> 04:56.966
+Takže minus -4², to je 16,
+lomeno 2,
+
+04:56.966 --> 05:02.692
+minus 2 krát -4.
+Takže plus 8.
+
+05:02.698 --> 05:05.793
+Takže kolik nám to dává?
+
+05:05.793 --> 05:15.153
+Toto je -2,
+toto je -8,
+
+05:15.163 --> 05:20.646
+takže ten druhý člen bude roven 0.
+Udělal jsem to správně?
+
+05:20.656 --> 05:23.846
+Ano, 16 lomeno 2,
+je to záporné a to kladné.
+
+05:23.856 --> 05:26.075
+Takže toto bude 0.
+
+05:26.075 --> 05:31.505
+A toto je -2 plus 4,
+což bude rovno 2.
+
+05:31.518 --> 05:34.724
+Takže toto fialové je rovno 2.
+
+05:34.724 --> 05:40.807
+A to, co je modře,
+ten integrál je
+
+05:40.816 --> 05:47.379
+x² lomeno 2 plus 2x,
+vyčíslíme to v 0 a -2.
+
+05:47.383 --> 05:50.138
+Když to vyčíslíme v 0,
+bude to 0,
+
+05:50.148 --> 05:54.435
+a od toho odečteme -2² lomeno 2,
+
+05:54.435 --> 05:58.847
+to je +4 lomeno 2,
+to je +2.
+
+05:58.847 --> 06:05.279
+A pak plus 2 krát -2,
+takže -4.
+
+06:05.289 --> 06:12.949
+Takže toto bude -(-2),
+tedy +2.
+
+06:12.949 --> 06:15.369
+Takže 2 plus 2.
+A to dává smysl.
+
+06:15.379 --> 06:20.493
+To fialové tady je 2
+a toto tady je 2,
+
+06:20.503 --> 06:24.823
+je to symetrické.
+Je to symetrické.
+
+06:24.833 --> 06:31.701
+A když to vše sečteme, dostaneme,
+že náš integrál je roven 4.
+
+06:31.701 --> 06:34.997
+A jenom pro kontrolu
+bychom mohli říct,
+
+06:34.997 --> 06:38.986
+že výška tady je 2,
+šířka, základna je 2.
+
+06:38.996 --> 06:42.160
+2 krát 2 krát 1/2
+je opravdu rovno 2.
+
+06:42.160 --> 06:43.536
+To stejné tady.
+
+06:43.536 --> 06:45.266
+Takže to je geometricky ukázáno,
+
+06:45.276 --> 06:47.598
+proč je tato oblast rovna 2,
+tato oblast rovna 2
+
+06:47.618 --> 06:51.108
+a když je sečteme,
+dostaneme +4.

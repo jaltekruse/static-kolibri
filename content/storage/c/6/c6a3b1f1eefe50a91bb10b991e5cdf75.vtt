@@ -1,0 +1,461 @@
+WEBVTT
+
+00:00.441 --> 00:05.797
+Cílem tohoto videa je dát vám
+uspokojivý důkaz součinového pravidla.
+
+00:05.797 --> 00:08.962
+Začněme s definicí derivace.
+
+00:08.962 --> 00:14.513
+Tedy pokud mám funkci f(x)
+a chtěl bych získat její derivaci,
+
+00:14.513 --> 00:24.560
+podle definice je derivace f(x)
+limitou pro 'h' jdoucí k 0
+
+00:24.560 --> 00:32.782
+funkce f (x plus h) minus f(x),
+to celé lomeno 'h'.
+
+00:32.782 --> 00:36.988
+Pokud bychom si to chtěli představit,
+je to tangens úhlu dané funkce a tak dále,
+
+00:36.988 --> 00:40.350
+ale já chci udělat něco
+trochu zajímavějšího.
+
+00:40.351 --> 00:46.447
+Chci najít derivaci podle 'x'
+nejen funkce f(x),
+
+00:46.447 --> 00:52.266
+ale součinu dvou funkcí, f(x) krát g(x).
+
+00:52.266 --> 00:56.370
+A pokud pro to naleznu jednoduchý postup,
+je to v podstatě součinové pravidlo.
+
+00:56.370 --> 00:58.874
+Pokud pouze aplikujeme definici derivace,
+
+00:58.874 --> 01:04.469
+tedy limitu pro 'h' jdoucí k 0,
+
+01:04.469 --> 01:07.620
+dělitel bude 'h' a dělenec...
+
+01:07.620 --> 01:11.145
+(Napíšu si to velké, půjde
+o velký výraz...)
+
+01:11.147 --> 01:16.041
+V děliteli budu mít 'h' a pak si
+vyčíslím tento součin v bodě (x plus h).
+
+01:16.041 --> 01:23.256
+Tedy f (x plus h) g (x plus h),
+
+01:23.256 --> 01:27.626
+a od toho odečtu součin v bodě f(x).
+
+01:27.626 --> 01:29.945
+Pardon, součin v bodě 'x'.
+
+01:29.945 --> 01:32.503
+Bude to tedy f(x) g(x).
+
+01:32.503 --> 01:36.635
+Navíc si zde nechám hodně volného místa,
+za chvíli uvidíte proč.
+
+01:36.635 --> 01:44.751
+Takže pokud si toto vyčíslím v bodě 'x',
+bude to minus f(x) g(x).
+
+01:44.751 --> 01:53.450
+Zatím jsem pouze aplikoval definici
+derivace na f(x) krát g(x) místo f(x).
+
+01:53.450 --> 01:58.345
+Tedy je to f (x plus h) g (x plus h) minus
+f(x) g(x), to celé lomeno 'h',
+
+01:58.345 --> 02:01.046
+limita pro 'h' jdoucí k 0.
+
+02:01.046 --> 02:04.326
+Teď, proč jsem si tu nechal
+tolik prostoru?
+
+02:04.326 --> 02:08.384
+Protože v tuhle chvíli se nezdá,
+že by výraz šel snadno upravit,
+
+02:08.384 --> 02:13.123
+nevím, jak tuhle limitu vyhodnotit,
+není zde žádný zřejmý postup.
+
+02:13.123 --> 02:16.904
+To, co vám ukážu,
+je takový malý trik.
+
+02:16.904 --> 02:22.801
+Sám bych na něj asi nepřišel,
+možná pokud bych na něm strávil hodiny.
+
+02:22.801 --> 02:26.330
+Někdo se tím zřejmě zabýval tak dlouho,
+až si řekl: „Počkat, pokud si zde
+
+02:26.330 --> 02:31.900
+přičtu a odečtu stejný výraz,
+už je možné výraz upravovat
+
+02:31.900 --> 02:35.930
+a získat to, co všichni známe jako
+klasické součinové pravidlo.“
+
+02:35.930 --> 02:39.073
+Tedy co zde přičtu a odečtu?
+
+02:39.073 --> 02:41.862
+Trochu vám napovím.
+
+02:41.862 --> 02:44.430
+Pokud máme plus...
+
+02:44.430 --> 02:51.617
+Nebo to raději změním na
+minus f (x plus h) g(x).
+
+02:51.617 --> 02:53.357
+Nemůžu to jen odečíst,
+když to odečtu,
+
+02:53.357 --> 02:56.008
+musím to také přidat,
+abych nezměnil hodnotu výrazu.
+
+02:56.008 --> 03:01.560
+Tedy plus f (x plus h) g(x).
+
+03:01.560 --> 03:05.297
+Nyní hodnota zůstala stejná,
+pouze jsem přičetl a odečetl stejnou věc,
+
+03:05.297 --> 03:10.223
+ale s výraz už lze algebraicky upravovat,
+abychom se dostali k tomu,
+
+03:10.223 --> 03:12.997
+co všichni milujeme
+na součinovém pravidlu.
+
+03:12.997 --> 03:17.822
+Pokud vám během sledování dojde,
+jak dál, klidně zastavte video.
+
+03:17.822 --> 03:22.776
+Podívejme se blíže na tento výraz.
+
+03:22.776 --> 03:31.593
+Celý výraz se bude rovnat limitě
+pro 'h' jdoucí k 0.
+
+03:31.593 --> 03:39.224
+Takže první věc, na kterou se zaměřím,
+je tato část výrazu,
+
+03:39.224 --> 03:45.695
+konkrétně si vytknu f (x plus h).
+
+03:45.695 --> 03:53.670
+Tedy po vytknutí f (x plus h) bude
+tato část f (x plus h)...
+
+03:53.670 --> 03:57.616
+f (x plus h) krát...
+
+03:57.616 --> 04:01.799
+Zůstane zde g (x plus h).
+
+04:01.799 --> 04:07.679
+Tedy 'g'...
+(Tohle je trochu jiný odstín zelené...)
+
+04:07.679 --> 04:10.977
+g (x plus h), to je zde,
+
+04:10.977 --> 04:15.302
+minus g(x).
+
+04:15.302 --> 04:18.525
+Jejda, zapomněl jsem závorky.
+
+04:18.525 --> 04:20.206
+Špatná barva!
+
+04:20.206 --> 04:23.755
+Mám nový program
+a špatně se mi mění barvy.
+
+04:23.755 --> 04:25.964
+Omlouvám se, tohle není
+jednoduchý důkaz
+
+04:25.964 --> 04:28.495
+a to nejmenší, co můžu udělat,
+je měnit rychleji barvy.
+
+04:28.495 --> 04:31.305
+Dobře, tedy g (x plus h)
+
+04:31.305 --> 04:35.742
+minus g(x), to je zde,
+
+04:35.742 --> 04:39.309
+to celé lomeno 'h'.
+
+04:39.309 --> 04:43.537
+To celé lomeno 'h',
+to je tahle část,
+
+04:43.537 --> 04:48.588
+pak tahle část...
+
+04:48.588 --> 04:53.743
+Tahle část, je to pořád lomeno 'h',
+takže to raději zakroužkuju takhle.
+
+04:53.743 --> 05:01.290
+Tedy tuhle část můžu přepsat jako...
+
+05:01.290 --> 05:04.605
+Zde bude plus...
+
+05:04.605 --> 05:12.224
+Nebo já tady raději vytknu g(x).
+
+05:12.224 --> 05:14.424
+Tedy plus g(x)...
+
+05:14.424 --> 05:20.450
+Plus g(x) krát tohle f (x plus h),
+
+05:20.450 --> 05:24.611
+krát f (x plus h)...
+
+05:24.611 --> 05:28.157
+Minus tohle f(x).
+
+05:28.157 --> 05:31.082
+Minus to f(x),
+
+05:31.082 --> 05:34.864
+To celé lomeno 'h'.
+
+05:34.864 --> 05:39.257
+A z vlastnosti limit víme,
+že limita celého tohoto výrazu
+
+05:39.257 --> 05:44.541
+bude stejná jako limita tohoto
+pro 'h' jdoucí k 0
+
+05:44.543 --> 05:47.144
+plus limita tohoto pro 'h'
+jdoucí k 0.
+
+05:47.144 --> 05:51.027
+A limita tohoto součinu bude stejná
+jako součin limit.
+
+05:51.027 --> 05:58.653
+Tedy pokud využiju obě tyto vlastnosti,
+můžu celý tento výraz přepsat jako limitu...
+
+05:58.653 --> 05:59.970
+Udělám si tady nějaký základ...
+
+05:59.970 --> 06:04.723
+Limita pro 'h' jdoucí k 0 f (x plus h),
+
+06:04.723 --> 06:10.220
+f (x plus h) krát...
+
+06:10.220 --> 06:16.435
+... krát limita pro 'h' jdoucí k 0
+celého tohoto výrazu,
+
+06:16.435 --> 06:21.275
+g (x plus h) minus g(x),
+
+06:21.275 --> 06:23.535
+minus g(x)...
+
+06:23.535 --> 06:25.207
+To celé lomeno 'h'.
+
+06:25.207 --> 06:29.584
+Zřejmě už tušíte, kam to směřuje.
+Velmi vzrušující.
+
+06:29.584 --> 06:33.976
+Plus limita...
+
+06:34.324 --> 06:36.334
+Napíšu to trochu čitelněji...
+
+06:36.334 --> 06:42.754
+... plus limita pro 'h' jdoucí k 0
+g(x)
+
+06:42.970 --> 06:45.377
+(naše pěkně hnědě zbarvené g(x)),
+
+06:46.161 --> 06:49.928
+krát (protože tu je součin)
+limita...
+
+06:50.488 --> 06:57.219
+... limita pro 'h' jdoucí k 0
+f (x plus h),
+
+06:57.549 --> 07:02.667
+f (x plus h) minus f(x),
+
+07:03.654 --> 07:05.884
+minus f(x)...
+
+07:05.884 --> 07:08.464
+To celé lomeno 'h'.
+
+07:08.464 --> 07:14.943
+Pro čitelnost přidám pár závorek tady,
+tady, tady a tady.
+
+07:14.945 --> 07:16.936
+Vše, co jsem udělal,
+je, že jsem přepsal
+
+07:16.936 --> 07:19.985
+limitu tohoto součtu
+na součet těchto limit,
+
+07:19.985 --> 07:22.852
+tedy limita tohohle plus limita tohohle,
+
+07:22.852 --> 07:25.011
+a poté jsem si přepsal limitu součinu
+
+07:25.011 --> 07:26.550
+jako součin limit.
+
+07:26.550 --> 07:28.791
+Tedy jsem využil těchto vlastností limit.
+
+07:28.791 --> 07:30.429
+Tak si je vyhodnoťme.
+
+07:30.429 --> 07:33.170
+Co je limitou...
+(Udělám to různými barvami.)
+
+07:33.170 --> 07:34.545
+Co je limitou tohoto výrazu?
+
+07:34.545 --> 07:37.564
+Jde o limitu pro 'h' jdoucí k 0
+f (x plus h).
+
+07:37.564 --> 07:41.162
+No to bude jednoduše f(x).
+
+07:41.519 --> 07:43.655
+Teď k té zajímavější části,
+
+07:43.655 --> 07:44.932
+co je tohle?
+
+07:44.932 --> 07:47.138
+Limita pro 'h' jdoucí k 0 g (x plus h)
+
+07:47.138 --> 07:49.064
+minus g(x), to celé lomeno 'h'.
+
+07:49.064 --> 07:51.514
+To je prostá definice derivace,
+
+07:51.514 --> 07:54.242
+jde o derivaci g.
+
+07:54.242 --> 07:58.878
+Tohle bude derivace g(x),
+
+07:58.878 --> 08:03.485
+tedy g'(x).
+
+08:04.152 --> 08:06.056
+Máme tedy součin těchto dvou výrazů
+
+08:06.056 --> 08:08.308
+a k tomu je pak plus...
+
+08:08.308 --> 08:10.955
+Co je limitou pro 'h' jdoucí k 0 g(x)?
+
+08:10.955 --> 08:14.851
+Zde ani není žádné 'h',
+bude to tedy g(x).
+
+08:14.851 --> 08:21.646
+Takže plus g(x) krát limita...
+
+08:22.106 --> 08:25.631
+(Tahle byla hnědou, ta poslední žlutou...)
+
+08:25.968 --> 08:28.499
+... krát limita pro 'h' jdoucí k 0,
+
+08:28.499 --> 08:31.806
+a už se blížíme ke konci,
+fanfáry prosím,
+
+08:31.983 --> 08:34.577
+limita pro 'h' jdoucí k 0
+f (x plus h) minus f(x),
+
+08:34.577 --> 08:35.941
+to celé lomeno 'h'.
+
+08:35.941 --> 08:38.165
+To je definice derivace f(x).
+
+08:38.165 --> 08:41.036
+Tedy f'(x).
+
+08:42.476 --> 08:46.739
+Hotovo. Derivace f(x) krát g(x) je toto.
+
+08:46.749 --> 08:50.471
+Pokud bych to tedy chtěl zapsat stručněji,
+
+08:50.471 --> 09:01.571
+jde o f(x) krát derivace g(x) podle 'x'
+
+09:01.571 --> 09:10.430
+plus g(x) krát derivace f(x) podle 'x'.
+
+09:10.430 --> 09:14.865
+Jinými slovy, tohle je první funkce krát
+derivace druhé funkce
+
+09:14.865 --> 09:18.020
+plus druhá funkce krát derivace první.
+
+09:18.020 --> 09:24.916
+Tohle je důkaz, nebo jeden z důkazů
+součinového pravidla.

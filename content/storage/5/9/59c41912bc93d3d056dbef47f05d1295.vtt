@@ -1,0 +1,254 @@
+WEBVTT
+
+00:00.002 --> 00:01.234
+Ahora que ya hemos
+empleado un tiempo
+
+00:01.433 --> 00:03.436
+pensando en lo que es
+una ecuación diferencial
+
+00:03.733 --> 00:05.666
+e incluso viendo soluciones
+
+00:05.666 --> 00:08.668
+a una ecuación diferencial
+usando cosas como el campo de pendientes
+
+00:08.686 --> 00:10.572
+empecemos viendo si de hecho podemos
+
+00:10.572 --> 00:12.500
+resolver una ecuación diferencial.
+
+00:12.005 --> 00:15.007
+Como veremos, diferentes tipos de
+ecuaciones diferenciales
+
+00:15.007 --> 00:16.015
+pueden requerir diferentes técnicas
+
+00:17.005 --> 00:18.166
+y algunas de ellas puede que no seamos capaces
+
+00:18.661 --> 00:20.633
+de resolverlas usando técnicas analíticas.
+
+00:20.633 --> 00:22.600
+Tendríamos que recurrir a técnicas numéricas
+
+00:22.006 --> 00:24.173
+para estimar soluciones.
+
+00:24.767 --> 00:26.600
+Pero vayamos a lo que yo diría
+
+00:26.006 --> 00:29.373
+es la forma más simple de resolver
+una ecuación diferencial
+
+00:29.967 --> 00:32.466
+y se llama una Separable.
+
+00:32.466 --> 00:35.433
+Ecuación diferencial Separable.
+
+00:35.433 --> 00:38.300
+Y veremos en un segundo
+porque es llamada
+
+00:38.003 --> 00:40.005
+una ecuación diferencial separable.
+
+00:40.005 --> 00:43.838
+Entonces, digamos que tenemos
+la derivada de Y
+
+00:44.333 --> 00:49.300
+con respecto a X es igual
+a menos X
+
+00:49.003 --> 00:53.836
+sobre Y por e a la x al cuadrado.
+
+00:54.133 --> 00:55.140
+Entonces, tenemos esta
+ecuación diferencial
+
+00:55.833 --> 00:58.271
+y queremos encontrar la
+solución particular
+
+00:58.271 --> 01:03.271
+que pasa por
+el punto (0,1)
+
+01:04.004 --> 01:06.010
+Los animo a hacer una pausa
+y les dare una pista.
+
+01:07.000 --> 01:10.866
+Si en esta ecuación puedes,
+mediante el álgebra,
+
+01:10.866 --> 01:13.050
+separar las Ys y las DYs
+en un lado
+
+01:13.005 --> 01:17.222
+y en el otro lado tener todas
+las Xs y las Dxs
+
+01:17.267 --> 01:18.633
+y luego integrar,
+
+01:18.633 --> 01:21.366
+tal vez puedas encontrar
+la solución particular
+
+01:21.366 --> 01:23.133
+a esta ecuación diferencial
+
+01:23.133 --> 01:25.133
+que contenga éste punto.
+
+01:25.133 --> 01:26.138
+Ahora, si no puedes no te preocupes
+
+01:26.633 --> 01:28.790
+porque estamos a punto de hacerlo.
+
+01:29.267 --> 01:31.600
+Entonces, como dije, usemos
+un poco el álgebra.
+
+01:31.006 --> 01:33.011
+para tener todas las Ys y DYs en un lado
+
+01:34.001 --> 01:36.634
+y todas las Xs y las DXs en el otro.
+
+01:36.733 --> 01:38.739
+Sea entonces, digamos que
+quiero tener todas las Ys
+
+01:39.333 --> 01:41.300
+y las DYs en el lado izquierdo
+
+01:41.003 --> 01:43.969
+y todas las Xs y las Dxs
+en el lado derecho
+
+01:44.266 --> 01:46.338
+Bueno, puedo multiplicar a
+ambos lados por Y
+
+01:46.986 --> 01:49.900
+entonces multiplico a
+ambos lados por Y
+
+01:49.009 --> 01:52.642
+que tiene el efecto de poner todas las Ys
+en el lado izquierdo
+
+01:53.533 --> 01:56.800
+y luego puedo multiplicar
+a ambos lados por DX.
+
+01:56.008 --> 01:58.256
+Puedo multiplicar ambos lados por DX
+
+01:59.048 --> 02:00.366
+y podemos tratar
+
+02:00.366 --> 02:01.372
+puedes tratar estas diferenciales
+
+02:01.966 --> 02:03.923
+como tratarías a un variable
+
+02:03.923 --> 02:05.600
+cuando las manipulas
+
+02:05.006 --> 02:07.973
+para, esencialmente, separar las variables.
+
+02:08.567 --> 02:12.333
+Luego, ésto se cancela con ésto
+
+02:12.333 --> 02:17.333
+y nos queda y, DY
+
+02:18.006 --> 02:23.006
+Y, DY es igual a -X
+
+02:23.666 --> 02:25.600
+y de hecho déjame escribirlo asi.
+
+02:25.006 --> 02:29.772
+déjame escribirlo como X,e
+
+02:30.366 --> 02:31.960
+De hecho, voy a necesitar
+más espacio aqui
+
+02:31.096 --> 02:36.096
+Entonces, -X, e elevado a
+-X cuadrado, DX
+
+02:40.994 --> 02:43.500
+DX
+
+02:43.005 --> 02:44.771
+Ahora, porqué esto es interesante?
+
+02:45.266 --> 02:47.733
+porque podemos integrar ambos lados.
+
+02:47.733 --> 02:48.735
+Y ésto también resalta
+
+02:48.933 --> 02:50.500
+porque la llamamos separable.
+
+02:50.005 --> 02:50.013
+No podrás hacer ésto
+
+02:51.003 --> 02:52.009
+con todas las ecuaciones diferenciales.
+
+02:52.009 --> 02:53.588
+No podrás separar algebraicamente
+
+02:54.479 --> 02:57.533
+las Ys y DYs de un lado
+
+02:57.533 --> 03:00.800
+y las Xs y DXs del otro.
+
+03:00.008 --> 03:02.075
+Pero en éste sí se pudo
+
+03:02.867 --> 03:04.333
+Y por eso es llamada
+
+03:04.333 --> 03:07.584
+una ecuación diferencial separable.
+
+03:07.906 --> 03:12.906
+Ecuación Diferencial.
+
+03:13.134 --> 03:15.376
+Y es usualmente la primera
+técnica que se debe tratar
+
+03:15.376 --> 03:17.992
+Entonces puedo separar
+las Ys y Xs
+
+03:17.992 --> 03:19.779
+y, como dije, ésto
+no sera posible
+
+03:19.779 --> 03:22.667
+en muchas, pero sí

@@ -1,0 +1,118 @@
+WEBVTT
+
+00:00.000 --> 00:08.501
+Chcemy policzyć całkę nieoznaczoną funkcji 4x^3 dzielone przez (x^4+7) dx
+
+00:08.501 --> 00:11.573
+Jak się za to zabrać? Całka wygląda na brzydką.
+
+00:11.573 --> 00:18.184
+Kluczem do rozwiązania jest fakt, że tu jest wyrażenie (x^4+7)
+
+00:18.184 --> 00:26.171
+zaś tutaj macie jego pochodną. Pochodna x^4+7 jest równa 4x^3.
+
+00:26.171 --> 00:30.843
+Pochodna x^4 wynosi 4x^3, pochodna 7 to 0.
+
+00:30.843 --> 00:36.903
+Więc mamy dużą wskazówkę, że całkowanie przez podstawienie się tu przyda.
+
+00:36.903 --> 00:39.575
+Całkowanie przez podstawienie...
+
+00:39.575 --> 00:47.180
+Całkowanie przez podstawienie będzie tutaj kluczowe. Wiedząc to, co oznaczylibyście przez u?
+
+00:47.180 --> 00:49.486
+I dam wam się nad tym zastanowić, ponieważ jeśli to wymyślicie
+
+00:49.486 --> 00:53.982
+reszta sprowadzi się do dość prostych rachunków.
+
+00:53.982 --> 00:58.737
+Cóż, chcecie oznaczyć u jako coś, czego pochodna jest w tym wyrażeniu.
+
+00:58.737 --> 01:09.745
+Więc możemy przez u oznaczyć x^4+7. Czemu będzie wtedy równe du?
+
+01:09.745 --> 01:18.406
+du, napiszę to na fioletowo, du będzie pochodną x^4+7 po x,
+
+01:18.406 --> 01:27.278
+czyli (4x^3+0)dx. Napisałem to tu w formie różniczkowej,
+
+01:27.278 --> 01:32.929
+ale ten zapis jest równoważny powiedzeniu, że du, pochodna u po x
+
+01:32.929 --> 01:40.848
+jest równa 4x^3. Kiedy pisze się du/dx to tak naprawdę jest notacja, która oznacza
+
+01:40.848 --> 01:46.512
+pochodną u po x. To nie jest w sensie formalnym ułamek
+
+01:46.512 --> 01:50.421
+ale często można na nich działać jak na "niby-ułamkach".
+
+01:50.421 --> 01:56.378
+Więc jeśli chcecie otrzymać to po lewej, możecie udawać, że mnożycie obie strony przez dx.
+
+01:56.378 --> 01:59.377
+Ale to są równoważne stwierdzenia i chcemy użyć formy różniczkowej
+
+01:59.377 --> 02:03.911
+żeby porządnie całkować przez podstawienie. I powód, dla którego to się przydaje
+
+02:03.911 --> 02:07.277
+i przepiszę to tutaj, żeby było widać, jakie to oczywiste:
+
+02:07.277 --> 02:15.410
+naszą wyjściową całkę możemy przepisać jako 4x^3 dx przez x^4+7
+
+02:15.410 --> 02:18.580
+i teraz już jest jasne, co jest tu du, a co jest u.
+
+02:18.580 --> 02:26.110
+u ustaliliśmy jako x^4+7. Natomiast du jest równe temu.
+
+02:26.110 --> 02:32.580
+Jest ono równe 4x^3 dx. Co widzieliśmy tutaj. Więc możemy przepisać naszą całkę
+
+02:32.580 --> 02:37.244
+i będę się starał być konsekwentny z kolorami, jako całkę nieoznaczoną
+
+02:37.244 --> 02:44.722
+cóż, tutaj na fioletowo mamy du, dzielone przez, muszę uważać na kolory,
+
+02:44.722 --> 02:52.978
+przez x^4+7, co jest naszym u. Albo możemy to napisać jako
+
+02:52.978 --> 03:09.961
+całkę z 1/u du. No a jaka jest całka nieoznaczona z 1/u du?
+
+03:09.961 --> 03:16.120
+Cóż, będzie to równe logarytmowi naturalnemu z wartości bezwzględnej
+
+03:16.120 --> 03:20.060
+i używamy wartości bezwzględnej, żeby to było dobrze zdefiniowane nawet dla ujemnych u
+
+03:20.060 --> 03:23.881
+i faktycznie to działa. Zrobię kiedyś filmik, w którym pokażę wam, że zdecydowanie działa.
+
+03:23.881 --> 03:32.564
+Logarytm naturalny z wartości bezwzględnej u i jeszcze możemy mieć stałą, która znika podczas różniczkowania.
+
+03:32.564 --> 03:38.631
+I to jest nasza odpowiedź ze względu na u. Ale teraz musimy odwrócić podstawienie u.
+
+03:38.631 --> 03:42.301
+Co się stanie, gdy to zrobimy?
+
+03:42.301 --> 03:45.132
+Dostaniemy wtedy, będzie to równe
+
+03:45.132 --> 03:55.392
+logarytm naturalny z wartości bezwzględnej z, cóż, u to x^4+7 - nie C, 7.
+
+03:55.392 --> 03:59.392
+i nie możemy zapomnieć o naszym plus C. I gotowe!

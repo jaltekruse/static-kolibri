@@ -1,0 +1,572 @@
+WEBVTT
+
+00:00.660 --> 00:05.141
+V predošlom videu sme sa
+snažili prísť na smernicu
+
+00:05.141 --> 00:07.570
+krivky v nejakom bode.
+
+00:07.570 --> 00:10.310
+A urobili sme to takto. Povedali
+sme si, nájdime sklon
+
+00:10.310 --> 00:12.970
+medzi týmto bodom a ďalším
+bodom, ktorý nie je príliš
+
+00:12.970 --> 00:14.220
+ďaleko od toho bodu.
+
+00:14.220 --> 00:15.953
+A dostali smernicu sečnice.
+
+00:15.953 --> 00:19.530
+A vyzerá to podivne, ale
+toto je len y-ová zložka toho
+
+00:19.530 --> 00:23.570
+bodu, ktorý nie je príliš ďaleko,
+a toto je len y-ová zložka
+
+00:23.570 --> 00:25.700
+bodu, o ktorý ide. Takže toto je
+
+00:25.700 --> 00:27.100
+len zmena y.
+
+00:27.100 --> 00:29.020
+A potom to vydelíme zmenou x.
+
+00:29.020 --> 00:31.580
+V našom príklade, h bol rozdiel
+
+00:31.580 --> 00:33.610
+medzi našimi dvomi hodnotami x.
+
+00:33.610 --> 00:35.420
+Táto vzdialenosť bola h.
+
+00:35.420 --> 00:39.210
+A tak sme dostali smernicu tej sečnice.
+
+00:39.210 --> 00:42.940
+Povedali sme si, čo ak si vezmeme
+limitu, ako je tento bod, práve tu,
+
+00:42.940 --> 00:45.510
+bližšie a bližšie k tomuto bodu.
+
+00:45.510 --> 00:48.420
+Ak sa tento bod v podstate
+stane týmto bodom, potom
+
+00:48.420 --> 00:51.230
+naša smernica bude smernica
+dotyčnice.
+
+00:51.230 --> 00:54.620
+A tú smernicu definujeme ako deriváciu
+našej funkcie.
+
+00:54.620 --> 00:57.280
+Povedali sme, že tá je rovná
+f s čiarou.
+
+00:57.280 --> 01:00.520
+Takže poďme sa pozrieť, či vieme toto
+použiť v tomto videu, aby sme
+
+01:00.520 --> 01:03.750
+možno urobili veci trochu
+konkrétnejšími v našich mysliach.
+
+01:03.750 --> 01:04.910
+Ukážme si jeden prípad.
+
+01:04.910 --> 01:07.140
+Najprv ukážem konkrétny prípad,
+kde chcem nájsť
+
+01:07.140 --> 01:09.980
+smernicu presne v nejakom bode.
+
+01:09.980 --> 01:14.670
+Takže dovoľte mi znovu nakresliť
+naše osi.
+
+01:14.670 --> 01:17.520
+Nakreslime osi práve tu.
+
+01:17.520 --> 01:25.400
+Povedzme, že mám krivku, toto
+je krivka
+
+01:25.400 --> 01:27.110
+y rovná sa x na druhú.
+
+01:27.110 --> 01:32.790
+Takže toto je naša y-ová os, toto
+je naša x-ová os, a chceme vedieť
+
+01:32.790 --> 01:37.270
+smernicu v bode x sa rovná 3.
+
+01:37.270 --> 01:41.660
+Keď hovorím smernica, môžeme si
+tu predstaviť dotyčnicu.
+
+01:41.660 --> 01:44.760
+Môžeme si predstaviť dotyčnicu, ktorá
+vyzerá práve takto, a
+
+01:44.760 --> 01:47.710
+len horko-ťažko by sa obtierala
+o krivku v tom bode.
+
+01:47.710 --> 01:51.260
+Ale aká je smernica tej dotyčnice?
+
+01:51.260 --> 01:53.570
+Aká je smernica tej dotyčnice, ktorá
+je taká istá
+
+01:53.570 --> 01:56.360
+ako smernica tej krivky presne
+v tom bode?
+
+01:56.360 --> 01:58.770
+Aby sme ju našli, budeme
+postupovať presne tak, ako
+
+01:58.770 --> 02:01.270
+predtým. Potom to zovšeobecníme
+aby sme to nemuseli
+
+02:01.270 --> 02:03.910
+robiť každý raz pre špecifické číslo.
+
+02:03.910 --> 02:09.555
+Takže vezmime si ďalší bod.
+
+02:09.555 --> 02:14.110
+Nazveme ho 3 plus delta x.
+
+02:14.110 --> 02:16.380
+Mením notáciu, pretože
+v niektorých knihách
+
+02:16.380 --> 02:19.530
+uvidíte h, v iných uvidíte delta x,
+nezaškodí byť vystavený
+
+02:19.530 --> 02:20.660
+obidvom.
+
+02:20.660 --> 02:22.500
+Takže toto je 3 plus delta x.
+
+02:22.500 --> 02:25.770
+Takže v prvom rade, čomu sa rovná
+tento bod?
+
+02:25.770 --> 02:31.770
+Toto je krivka y rovná sa
+x na druhú, takže f(x) je
+
+02:31.770 --> 02:33.720
+3 na druhú - toto je bod 9.
+
+02:33.720 --> 02:39.310
+Toto je bod (3, 9).
+
+02:39.310 --> 02:40.870
+A aký bod je tu?
+
+02:40.870 --> 02:45.180
+Keby sme išli až sem hore,
+aký je to bod?
+
+02:45.180 --> 02:48.930
+Nuž, tu je naše x rovné
+3 plus delta x
+
+02:48.930 --> 02:50.810
+Je to tá istá vec ako
+táto tu hore,
+
+02:50.810 --> 02:51.560
+x0 plus h.
+
+02:51.560 --> 02:54.375
+Mohol som to takisto
+označiť 3 plus h.
+
+02:54.375 --> 02:57.960
+Takže je to 3 plus delta x tu hore.
+
+02:57.960 --> 02:59.750
+Takže aká bude y-ová hodnota?
+
+02:59.750 --> 03:02.080
+Nuž, nech je hodnota x akákoľvek,
+je to na krivke,
+
+03:02.080 --> 03:03.550
+bude to ono na druhú.
+
+03:03.550 --> 03:12.310
+Takže to bude bod
+3 plus delta x na druhú.
+
+03:12.310 --> 03:17.390
+Poďme zistiť smernicu
+tejto sečnice.
+
+03:17.390 --> 03:20.730
+A dovoľte mi pozrieť sa zblízka na túto
+časť krivky. Možno to pomôže.
+
+03:20.730 --> 03:23.100
+Takže keď sa pozriem zblízka
+na túto časť krivky,
+
+03:23.100 --> 03:25.250
+mohlo by to vyzerať takto.
+
+03:25.250 --> 03:28.330
+A potom tu máme jeden bod,
+a potom máme druhý
+
+03:28.330 --> 03:32.336
+bod tu hore.
+
+03:32.336 --> 03:39.060
+To je naša sečnica
+
+03:39.060 --> 03:40.210
+Práve takto.
+
+03:40.210 --> 03:45.510
+Toto bol tento bod tu, bod (3, 9).
+
+03:45.510 --> 03:50.230
+A potom tento bod tu hore
+je bod 3 plus delta x, teda
+
+03:50.230 --> 03:54.340
+len nejaké väčšie číslo ako 3,
+a potom to bude
+
+03:54.340 --> 03:55.790
+to číslo na druhú.
+
+03:55.790 --> 03:58.110
+Takže to bude 3 plus
+delta x na druhú.
+
+03:58.110 --> 03:59.070
+Čo je to?
+
+03:59.070 --> 04:01.310
+To bude 9.
+
+04:01.310 --> 04:04.850
+Roznásobíme to.
+
+04:04.850 --> 04:09.280
+A plus B na druhú je A na druhú
+plus 2AB plus B na druhú, takže
+
+04:09.280 --> 04:12.030
+to bude 9 plus dvojnásobok
+súčinu týchto vecí.
+
+04:12.030 --> 04:21.010
+Teda 6 krát delta x, a potom
+plus delta x na druhú.
+
+04:21.010 --> 04:22.530
+To sú súradnice druhého bodu.
+
+04:22.530 --> 04:25.470
+Vyzerá to komplikovane, ale
+zobral som len túto x-ovú hodnotu,
+
+04:25.470 --> 04:29.230
+a umocnil ju na druhú, pretože bod sa
+nachádza na krivke y rovná sa x na druhú.
+
+04:29.230 --> 04:32.430
+Takže smernica tejto sečnice bude
+
+04:32.430 --> 04:35.500
+zmena y lomeno
+
+04:35.500 --> 04:37.050
+zmena x.
+
+04:37.050 --> 04:42.500
+Takže zmena y bude len y-ová
+hodnota tohto bodu,
+
+04:42.500 --> 04:49.430
+čo je 9 plus 6 delta x
+plus delta x na druhú,
+
+04:49.430 --> 04:55.320
+toto je y-ová hodnota tohto bodu,
+mínus y-ová hodnota tohto bodu.
+
+04:55.320 --> 04:58.000
+Takže mínus 9.
+
+04:58.000 --> 04:59.510
+To je naša zmena y.
+
+04:59.510 --> 05:03.630
+A chceme to vydeliť našou zmenou x.
+
+05:03.630 --> 05:05.020
+Nuž, čo je naša zmena x?
+
+05:05.020 --> 05:07.210
+Toto bude v skutočnosti celkom výhodné.
+
+05:07.210 --> 05:09.490
+Začali sme s týmto bodom
+v čitateli, takže
+
+05:09.490 --> 05:11.460
+musíme začať s týmto
+bodom v menovateli.
+
+05:11.460 --> 05:15.680
+Takže to bude 3 plus delta x.
+
+05:15.680 --> 05:17.340
+A čo je x-ová zložka tohto bodu?
+
+05:17.340 --> 05:20.700
+To je 3.
+
+05:20.700 --> 05:22.070
+To je jeho x-ová zložka.
+
+05:22.070 --> 05:23.760
+Takže čo dostaneme po zjednodušení?
+
+05:23.760 --> 05:27.020
+V čitateli sa deviatky vyrušia,
+
+05:27.020 --> 05:28.320
+máme totiž 9 mínus 9.
+
+05:28.320 --> 05:30.780
+A čo sa stane v menovateli?
+
+05:30.780 --> 05:32.560
+Trojky sa vyrušia.
+
+05:32.560 --> 05:35.350
+Takže zmena x je nakoniec
+delta x, čo
+
+05:35.350 --> 05:38.600
+dáva zmysel, pretože táto delta x
+je v podstate to, o koľko viac
+
+05:38.600 --> 05:39.990
+je tento bod od tohto.
+
+05:39.990 --> 05:43.360
+Takže to by mala byť zmena x, delta x.
+
+05:43.360 --> 05:44.810
+Takže smernica našej sečnice
+
+05:44.810 --> 05:53.860
+sa zjednodušila na 6 krát naša
+zmena x, plus naša zmena x na druhú,
+
+05:53.860 --> 06:00.130
+to všetko lomeno naša zmena x.
+
+06:00.130 --> 06:02.640
+A teraz to môžeme
+zjednodušiť ešte viac.
+
+06:02.640 --> 06:05.140
+Vydeľme čitateľa a menovateľa
+
+06:05.140 --> 06:06.790
+našou zmenou x.
+
+06:06.790 --> 06:09.900
+A zmením si farbu, len aby
+som zmiernil tú monotónnosť.
+
+06:09.900 --> 06:13.110
+Takže smernica našej sečnice,
+
+06:13.110 --> 06:15.580
+tej ktorá prechádza
+obidvomi týmito bodmi,
+
+06:15.580 --> 06:17.460
+bude po úprave rovná...
+
+06:17.460 --> 06:21.420
+Len delím čitateľa aj
+menovateľa delta x.
+
+06:21.420 --> 06:26.130
+Takže dostanem 6 plus delta x.
+
+06:26.130 --> 06:28.080
+Takže to je smernica
+tejto sečnice.
+
+06:28.080 --> 06:34.630
+Takže smernica sa rovná
+6 plus delta x.
+
+06:34.630 --> 06:36.280
+To je táto, práve tu.
+
+06:36.280 --> 06:38.990
+To je tá červenkastá priamka,
+ktorú som tam nakreslil.
+
+06:38.990 --> 06:42.340
+Takže toto číslo,
+keby delta x bola 1,
+
+06:42.340 --> 06:46.390
+keby tieto body boli 3 a 4,
+potom by naša smernica bola
+
+06:46.390 --> 06:49.360
+rovná 6 plus 1, pretože si vyberám
+bod 4, kde delta x
+
+06:49.360 --> 06:50.660
+by musela byť rovná 1.
+
+06:50.660 --> 06:53.780
+Takže smernica by bola rovná 7.
+
+06:53.780 --> 06:56.730
+Takže máme všeobecný vzorec
+pre hocijaké delta x.
+
+06:56.730 --> 07:00.790
+Dokážem nájsť smernicu
+medzi 3 a 3 plus delta x,
+
+07:00.790 --> 07:02.640
+medzi tými dvomi bodmi.
+
+07:02.640 --> 07:08.010
+My sme ale chceli nájsť smernicu
+
+07:08.010 --> 07:09.120
+práve v tomto bode.
+
+07:09.120 --> 07:12.050
+Tak pozrime sa, čo sa deje,
+keď delta x je
+
+07:12.050 --> 07:12.870
+menšie a menšie.
+
+07:12.870 --> 07:14.470
+Teraz sa delta x rovná tomuto,
+
+07:14.470 --> 07:15.580
+tejto vzdialenosti.
+
+07:15.580 --> 07:18.510
+Ale ak by delta x bolo o trošku
+menšie, tak by sečnica
+
+07:18.510 --> 07:20.160
+vyzerala takto.
+
+07:20.160 --> 07:21.380
+Keby to bolo ešte menšie,
+
+07:21.380 --> 07:23.960
+sečnica by vyzerala takto.
+A keby to bolo ešte menšie,
+
+07:23.960 --> 07:25.900
+tak sa dostávame celkom
+blízko k smernici
+
+07:25.900 --> 07:26.860
+dotyčnice.
+
+07:26.860 --> 07:28.970
+Dotyčnica je táto vec, ktorej
+
+07:28.970 --> 07:30.910
+smernicu chcem nájsť.
+
+07:30.910 --> 07:34.970
+Nájdime teda limitu, ako sa
+delta x približuje k 0.
+
+07:34.970 --> 07:39.400
+Takže limita, ako sa delta x
+približuje k 0, našej
+
+07:39.400 --> 07:40.240
+smernice sečnice,
+
+07:40.240 --> 07:43.700
+6 plus delta x, je rovná čomu?
+
+07:43.700 --> 07:44.830
+Toto je celkom jasné.
+
+07:44.830 --> 07:48.350
+Môžeme jednoducho položiť
+toto rovné 0, teda limita je rovná 6.
+
+07:48.350 --> 07:56.150
+Takže smernica našej dotyčnice
+v bode x rovná sa 3
+
+07:56.150 --> 07:58.045
+sa rovná 6.
+
+07:58.045 --> 08:01.280
+A iný spôsob ako by sme to mohli
+napísať. Keby sme napísali, že
+
+08:01.280 --> 08:04.450
+f(x) rovná sa x na druhú.
+
+08:04.450 --> 08:08.770
+Teraz vieme, že derivácia alebo
+smernica dotyčnice
+
+08:08.770 --> 08:13.350
+tejto funkcie v bode 3 --
+práve som ju vyčíslil
+
+08:13.350 --> 08:18.410
+v bode 3 tuto --
+je rovná 6.
+
+08:18.410 --> 08:22.670
+Ešte som neprišiel na
+všeobecný vzorec pre smernicu
+
+08:22.670 --> 08:25.590
+tejto priamky v ľubovoľnom bode,
+a to urobím
+
+08:25.590 --> 08:26.760
+v nasledujúcom videu.

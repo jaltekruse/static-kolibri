@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.702 --> 00:08.503
+f x eşittir x eksi 3'ün mutlak değeri bölü x eksi 3 diyelim.
+
+00:08.503 --> 00:18.469
+x 3'e yaklaşırken f x'in limitini bulmak istiyorum.
+
+00:18.469 --> 00:26.767
+Baktığınızda fonksiyonun x eşittir 3'te tanımlı olmadığını görebilirsiniz - 0 bölü 0 elde edersiniz, bu da tanımsız demektir.
+
+00:26.767 --> 00:32.978
+Bu soruyu cevaplamak için bu fonksiyonu biraz değişik bir şekilde yazalım.
+
+00:32.978 --> 00:37.768
+İki duruma ayırmamız gerekir.
+
+00:37.768 --> 00:40.035
+x büyüktür 3 ve x küçüktür 3.
+
+00:40.035 --> 00:42.700
+-
+
+00:42.700 --> 00:47.142
+-
+
+00:47.142 --> 00:51.367
+-
+
+00:51.367 --> 00:53.767
+x büyüktür 3.
+
+00:53.767 --> 00:57.434
+x 3'ten büyük olduğunda bu fonksiyon nasıl sadeleşir?
+
+00:57.434 --> 00:59.835
+-
+
+00:59.835 --> 01:02.375
+Burada pozitif bir değer olur.
+
+01:02.375 --> 01:05.421
+Mutlak değerden aynen çıkar, yani x 3'ten büyük olduğunda x eksi 3 bölü x eksi 3 elde ederiz
+
+01:05.421 --> 01:13.412
+-
+
+01:13.412 --> 01:21.300
+x 3'ten büyük olduğu için, pay pozitif olacak ve mutlak değerini alırken değeri değişmeyecek.
+
+01:21.300 --> 01:25.500
+Yani bu ifadeyi elde ederiz, baştan yazarsak x büyüktür 3 için f x eşittir 1.
+
+01:25.500 --> 01:31.633
+-
+
+01:31.633 --> 01:33.696
+x büyüktür 3 için.
+
+01:33.696 --> 01:38.012
+Şimdi x küçüktür 3 durumunu düşünelim.
+
+01:38.012 --> 01:44.224
+x 3'ten küçük olduğunda x eksi 3 negatif bir sayı olur.
+
+01:44.224 --> 01:47.471
+Bunun mutlak değerini aldığınızda eksi 1 ile çarpmanız gerekir.
+
+01:47.471 --> 01:53.939
+Yani x eksi 3'ün eksisi bölü x eksi 3.
+
+01:53.939 --> 01:58.644
+Bunları sadeleştirmek isterseniz, x 3'e eşit olmadığı sürece bu kısım 1 olarak sadeleşir, yani eksi 1 kalır.
+
+01:58.644 --> 02:03.235
+-
+
+02:03.235 --> 02:06.738
+x küçüktür 3 için, eksi 1.
+
+02:06.738 --> 02:09.761
+Eğer bana inanmıyorsanız, sayılarla deneme yapabilirsiniz.
+
+02:09.761 --> 02:10.834
+-
+
+02:10.834 --> 02:15.302
+3,1, 3,001, 3,5, 4, 7.
+
+02:15.302 --> 02:17.900
+3'ten büyük hangi sayıyı koyarsanız koyun, 1 elde edersiniz.
+
+02:17.900 --> 02:19.963
+İki aynı ifadenin birbirine bölümü.
+
+02:19.963 --> 02:21.969
+Ve 3'ten küçük x değerleri de deneyin.
+
+02:21.969 --> 02:24.963
+Hangi sayıyı denerseniz deneyin, eksi 1 elde edeceksiniz.
+
+02:24.963 --> 02:28.635
+Bu fonksiyonu görsellemeye çalışalım.
+
+02:28.635 --> 02:32.070
+Eksenleri çiziyoruz.
+
+02:32.070 --> 02:33.849
+x ekseni.
+
+02:33.849 --> 02:35.769
+-
+
+02:35.769 --> 02:40.500
+Bu da f x ekseni - y eşittir f x.
+
+02:40.500 --> 02:42.633
+x eşittir 3 noktası bizim için önemli.
+
+02:42.633 --> 02:47.635
+x eşittir 1, 2, 3, 4, 5 ve böyle devam edebiliriz.
+
+02:47.635 --> 02:48.872
+-
+
+02:48.872 --> 02:53.233
+Burada da artı 1, 2, burası y eşittir 1.
+
+02:53.233 --> 02:56.233
+Bu da y eşittir eksi 1, eksi 2. Böyle devam edebiliriz.
+
+02:56.233 --> 02:57.548
+-
+
+02:57.548 --> 02:59.969
+Baştan yazdığımız şekliyle bu fonksiyon, şu fonksiyonla aynı.
+
+02:59.969 --> 03:02.040
+-
+
+03:02.040 --> 03:03.567
+Yalnızca farklı bir şekilde yazmış olduk.
+
+03:03.567 --> 03:05.003
+-
+
+03:05.003 --> 03:05.634
+-
+
+03:05.634 --> 03:07.161
+Fonksiyonumuz 3'te tanımsız.
+
+03:07.161 --> 03:10.796
+Ama x 3'ten büyük olduğunda, fonksiyonumuz 1'e eşit.
+
+03:10.796 --> 03:14.501
+x 3'ten büyük olduğunda, fonksiyonumuz 1'e eşit.
+
+03:14.501 --> 03:15.752
+-
+
+03:15.752 --> 03:19.838
+Yani şöyle bir şeye benziyor ve 3'te tanımsız.
+
+03:19.838 --> 03:23.312
+Ve x 3'ten küçük olduğunda, fonksiyonumuz eksi 1'e eşit.
+
+03:23.312 --> 03:26.678
+-
+
+03:26.678 --> 03:28.212
+Yani şöyle bir şey olacak.
+
+03:28.212 --> 03:30.169
+-
+
+03:30.169 --> 03:31.567
+Şöyle.
+
+03:31.567 --> 03:34.836
+Yine 3'te tanımsız.
+
+03:34.836 --> 03:36.498
+Grafiğimiz böyle.
+
+03:36.498 --> 03:38.303
+Şimdi soruyu cevaplamaya çalışalım.
+
+03:38.303 --> 03:41.833
+x 3'e yaklaşırken limit nedir?
+
+03:41.833 --> 03:44.230
+x 3'e negatif yönden, 3'ten küçük sayılardan yaklaşırken limitin ne olduğunu düşünüyoruz.
+
+03:44.230 --> 03:47.567
+-
+
+03:47.567 --> 03:49.924
+Öncelikle x 3'e negatif yönden yaklaşırken f x'in limitini düşünelim.
+
+03:49.924 --> 03:52.831
+-
+
+03:52.831 --> 03:57.767
+-
+
+03:57.767 --> 04:00.512
+-
+
+04:00.512 --> 04:04.400
+Bu notasyonda negatifi 3'ten sonra üstsimge olarak yazdım.
+
+04:04.400 --> 04:06.567
+-
+
+04:06.567 --> 04:07.636
+-
+
+04:07.636 --> 04:11.069
+Soldan limit alıyoruz.
+
+04:11.069 --> 04:13.033
+-
+
+04:13.033 --> 04:14.235
+-
+
+04:14.235 --> 04:16.450
+3'ten küçük değerlerle başlıyoruz.
+
+04:16.450 --> 04:18.620
+Ve 3'e yaklaşıyoruz.
+
+04:18.620 --> 04:22.034
+0'dan başlıyoruz diyelim, f x eşittir eksi 1.
+
+04:22.034 --> 04:23.634
+1'e geldiğimizde , f x eşittir eksi 1.
+
+04:23.634 --> 04:25.767
+2'ye gelince f x eşittir eksi 1.
+
+04:25.767 --> 04:30.769
+2,999999'a ulaşınca da f x eşittir eksi 1.
+
+04:30.769 --> 04:33.380
+Soldan yaklaşırken limit eksi 1'e yaklaşıyor.
+
+04:33.380 --> 04:37.367
+-
+
+04:37.367 --> 04:39.285
+Şimdi x 3'e pozitif yönden, 3'ten büyük sayılardan yaklaşırken limiti bulalım.
+
+04:39.285 --> 04:41.625
+-
+
+04:41.625 --> 04:48.690
+-
+
+04:48.690 --> 04:53.149
+x 5'e eşit olduğunda f x eşittir 1.
+
+04:53.149 --> 04:55.968
+x 4'e eşit olduğunda f x eşittir 1.
+
+04:55.968 --> 05:01.368
+x 3,0000001'e eşit olduğunda f x eşittir 1.
+
+05:01.368 --> 05:03.305
+Yani 1'e yaklaşıyor.
+
+05:03.305 --> 05:06.033
+-
+
+05:06.033 --> 05:08.101
+Burada garip bir durum gözlemliyoruz.
+
+05:08.101 --> 05:11.367
+Soldan yaklaşırken bulduğumuz limitle sağdan yaklaşırken bulduğumuz limit birbirinden farklı.
+
+05:11.367 --> 05:14.094
+-
+
+05:14.094 --> 05:19.347
+Eğer iki farklı sayıya yaklaşıyorsak, limit yoktur diyoruz.
+
+05:19.347 --> 05:27.951
+Yani buradaki limit yoktur.
+
+05:27.951 --> 05:30.209
+Şöyle de ifade edebiliriz.
+
+05:30.209 --> 05:31.403
+-
+
+05:31.403 --> 05:34.165
+-
+
+05:34.165 --> 05:37.563
+-
+
+05:37.563 --> 05:47.968
+Ancak ve ancak x bir c değerine negatif yönden yaklaşırken f x'in limiti, x c'ye pozitif yönden yaklaşırken f x'in limitine ve bu iki limit de L'ye eşitse, x c değerine yaklaşırken f x'in limiti L'dir.
+
+05:47.968 --> 05:57.763
+-
+
+05:57.763 --> 06:06.033
+-
+
+06:06.033 --> 06:07.354
+Bunu burada göremedik.
+
+06:07.354 --> 06:10.093
+Soldan yaklaşırken limit, eksi 1'di.
+
+06:10.093 --> 06:12.351
+Sağdan yaklaşırken limit artı 1'di.
+
+06:12.441 --> 06:15.401
+İki taraftan limit aynı değildi.
+
+06:15.401 --> 06:19.401
+O nedenle bu limit yoktur.

@@ -1,0 +1,496 @@
+WEBVTT
+
+00:00.500 --> 00:03.610
+W poprzedniej prezentacji próbowaliśmy aproksymować pole powierzchni
+
+00:03.610 --> 00:07.520
+pod wykresem konstruując cztery prostokąty o równej szerokości
+
+00:07.520 --> 00:11.320
+i używając lewego brzegu każdego z tych prostokątów, wartości funkcji
+
+00:11.320 --> 00:14.380
+branej dla punktu z lewego brzegu prostokąta ażeby ustalić wysokość,
+
+00:14.380 --> 00:16.239
+i otrzymaliśmy w ten sposób aproksymację.
+
+00:16.239 --> 00:18.720
+W tym filmie chcemy te rzeczy nieco uogólnić
+
+00:18.720 --> 00:20.428
+używając dokładnie tej samej metody, ale
+
+00:20.428 --> 00:22.600
+dla dowolnej funkcji o dowolnych granicach
+
+00:22.600 --> 00:25.550
+oraz dowolnej liczby prostokątów.
+
+00:25.550 --> 00:26.940
+A więc do dzieła.
+
+00:26.940 --> 00:30.140
+A więc narysuję wykres na tyle duży, ażeby
+
+00:30.140 --> 00:34.540
+wszystko było możliwie dobrze widoczne i jasne.
+
+00:34.540 --> 00:36.480
+To jest zatem moja oś y.
+
+00:36.480 --> 00:42.410
+A ta tutaj to moja oś x.
+
+00:42.410 --> 00:44.500
+Narysuję teraz dowolną funkcję.
+
+00:44.500 --> 00:47.600
+Powiedzmy, że wygląda ona jakoś tak.
+
+00:47.600 --> 00:51.510
+Zatem to jest y równe f(x).
+
+00:51.510 --> 00:53.460
+Niech teraz zdefiniuję moje granice.
+
+00:53.460 --> 00:58.230
+Ustalmy, że to tutaj to będzie x równe a.
+
+01:00.790 --> 01:06.490
+A to tutaj x równe b.
+
+01:06.490 --> 01:08.230
+Więc to jest b.
+
+01:08.230 --> 01:13.829
+I zamierzam użyć n prostokątów,
+
+01:13.829 --> 01:15.620
+oraz wartości funkcji obliczonych
+
+01:15.620 --> 01:17.410
+w punkcie lewego brzegu prostokąta,
+
+01:17.410 --> 01:18.740
+aby określić jego wysokość.
+
+01:18.740 --> 01:22.030
+Więc, dla przykładu, niech to będzie prostokąt nr 1.
+
+01:22.030 --> 01:24.100
+Zobaczę ile to jest f(a).
+
+01:27.300 --> 01:31.950
+Więc tutaj mamy dokładnie f(a).
+
+01:31.950 --> 01:33.880
+I tego właśnie użyję jako wysokości
+
+01:33.880 --> 01:37.400
+pierwszego z moich prostokątów.
+
+01:37.400 --> 01:39.230
+A więc dokładnie w ten sposób.
+
+01:39.230 --> 01:44.001
+Więc prostokąt nr 1 wygląda tak.
+
+01:44.001 --> 01:45.000
+I nawet go ponumeruję.
+
+01:45.000 --> 01:47.862
+Prostokąt nr 1 wygląda dokładnie w ten sposób.
+
+01:47.862 --> 01:49.320
+I teraz, żeby wprowadzić w tym miejscu pewną konwencję,
+
+01:49.320 --> 01:55.380
+bowiem będę chciał odnosić się do tych wartości x
+
+01:55.380 --> 01:58.740
+z lewych krańców, więc oznaczmy a przez x0.
+
+01:58.740 --> 02:00.890
+a jest równe x0.
+
+02:00.890 --> 02:03.760
+Więc możemy oznaczyć ten punkt tutaj x0,
+
+02:03.760 --> 02:05.699
+tę wartość x.
+
+02:05.699 --> 02:07.240
+Także przechodzimy do następnego prostokąta.
+
+02:07.240 --> 02:09.880
+I możemy nazwać tę tutaj wartość x ,
+
+02:09.880 --> 02:10.780
+nazwiemy ją x1.
+
+02:10.780 --> 02:13.060
+To jest lewy brzeg następnego prostokąta.
+
+02:13.060 --> 02:16.870
+Jeśli obliczymy wartość f (x1) dostaniemy tę dokładnie wartość.
+
+02:16.870 --> 02:22.312
+Ta tutaj to jest f(x1) zatem wskazuje nam naszą wysokość.
+
+02:22.312 --> 02:24.270
+I chcemy aby szerokość była taka jak poprzedniego.
+
+02:24.270 --> 02:26.870
+Pomyślimy o tym jaka powinna być szerokość za sekundę.
+
+02:26.870 --> 02:32.930
+A więc ten tutaj to nasz drugi prostokąt,
+
+02:32.930 --> 02:34.910
+którego użyjemy dla przybliżenia pola powierzchni
+
+02:34.910 --> 02:35.576
+pod wykresem.
+
+02:35.576 --> 02:37.320
+To jest prostokąt nr 2,
+
+02:37.320 --> 02:39.070
+Zajmijmy się prostokątem nr 3.
+
+02:39.070 --> 02:41.720
+Cóż, prostokąt nr 3, lewy brzeg,
+
+02:41.720 --> 02:43.980
+nazwijmy tę wartość x x z indeksem 2.
+
+02:43.980 --> 02:48.435
+I jego wysokość wyniesie f od x z indeksem 2.
+
+02:50.557 --> 02:53.140
+A jego szerokość będzie taka sama jak szerokość pozostałych.
+
+02:53.140 --> 02:56.100
+Przyglądam się teraz właśnie jemu.
+
+02:56.100 --> 02:58.050
+A więc to jest prostokąt nr 3.
+
+03:01.020 --> 03:05.130
+I tak kontynuujemy ten proces
+
+03:05.130 --> 03:08.890
+aż dochodzimy do prostokąt o numerze n.
+
+03:08.890 --> 03:14.080
+A więc niech to będzie n-ty prostokąt dokładnie
+
+03:14.080 --> 03:17.740
+tutaj , n-ty prostokąt.
+
+03:17.740 --> 03:20.820
+I jak nazwę ten punkt tutaj?
+
+03:20.820 --> 03:22.180
+Cóż, dostrzegamy już oczywiście wzór.
+
+03:22.180 --> 03:24.840
+Lewy graniczny punkt pierwszego prostokąta to x0.
+
+03:24.840 --> 03:28.010
+Lewy graniczny punkt na osi x drugiego prostokąta to x z indeksem 1.
+
+03:28.010 --> 03:30.270
+Lewy graniczny punkt na osi x trzeciego prostokąta to x z indeksem 2.
+
+03:30.270 --> 03:32.650
+Zatem lewy graniczny punkt na osi x n-tego prostokąta
+
+03:32.650 --> 03:37.110
+to będzie x z indeksem n-1.
+
+03:37.110 --> 03:39.340
+Jakakolwiek nie byłaby liczna prostokątów,
+
+03:39.340 --> 03:42.770
+lewa granica wynosi x z indeksem ta liczba minus 1.
+
+03:42.770 --> 03:45.952
+Powyższe opiera się po prostu na konwencji, którą zdefiniowaliśmy.
+
+03:45.952 --> 03:47.910
+Teraz, kolejną rzeczą, którą musimy zrobić w kolejności
+
+03:47.910 --> 03:50.160
+aby rzeczywiście policzyć to pole to zastanowić się,
+
+03:50.160 --> 03:51.590
+jaka jest szerokość?
+
+03:51.590 --> 03:54.960
+Oznaczmy zatem szerokość któregokolwiek z tych prostokątów--
+
+03:54.960 --> 03:57.915
+i dla tych celów, czy też dla celu tego przykładu,
+
+03:57.915 --> 03:59.540
+założę, że jest ona stała,
+
+03:59.540 --> 04:01.140
+jakkolwiek można liczyć te sumy kiedy
+
+04:01.140 --> 04:02.880
+różnicujemy szerokość prostokątów.
+
+04:02.880 --> 04:04.600
+Wtedy jednak wszystko robi się odrobinę bardziej interesujące.
+
+04:04.600 --> 04:06.290
+Stąd ja chcę mieć stałą szerokość.
+
+04:06.290 --> 04:08.645
+A więc niech delta x oznacza szerokość.
+
+04:08.645 --> 04:10.270
+Ażeby dostać ile to musi być,
+
+04:10.270 --> 04:12.390
+musimy zastanowić się, ile wynosi łączna szerokość, którą
+
+04:12.390 --> 04:12.890
+przemierzamy?
+
+04:12.890 --> 04:17.244
+Cóż, łączna odległość tutaj wynosi b minus a,
+
+04:17.244 --> 04:19.660
+i będziemy ją dzielić przez liczbę prostokątów
+
+04:19.660 --> 04:21.743
+jakiej zażądaliśmy, liczbę części jakiej zażądaliśmy.
+
+04:21.743 --> 04:23.660
+Zatem chcemy dzielić przez n.
+
+04:23.660 --> 04:26.560
+A więc jeśli tak założymy i dalej
+
+04:26.560 --> 04:31.250
+przyjmiemy, że a jest równe x0, wtedy
+
+04:31.250 --> 04:40.610
+x1 jest równe x0 plus delta x, x2 jest równe x1 plus delta x,
+
+04:40.610 --> 04:49.280
+i tak aż do xn, które jest równe xn minus 1 plus delta
+
+04:49.280 --> 04:52.330
+x, w tej chwili zasadniczo opisaliśmy ten wykres tutaj.
+
+04:52.330 --> 04:56.630
+b tak naprawdę bedzie równe xn.
+
+04:56.630 --> 04:57.400
+Tak więc to jest xn.
+
+04:57.400 --> 05:01.180
+I jest równe xn minus 1 plus delta x.
+
+05:01.180 --> 05:04.540
+Myślę, że wprowadziliśmy tym samym kompletną notację i wszystkie
+
+05:04.540 --> 05:06.890
+konwencje aby ostatecznie móc obliczyć
+
+05:06.890 --> 05:09.700
+pole powierzchni, tudzież przybliżyć je.
+
+05:09.700 --> 05:15.030
+Tak więc nasze oszacowanie, nasze przybliżone pole
+
+05:15.030 --> 05:17.737
+będzie równe czemu?
+
+05:17.737 --> 05:20.070
+Cóż, będzie to pole pierwszego prostokąta-
+
+05:20.070 --> 05:21.153
+niech to zapiszę.
+
+05:21.153 --> 05:24.410
+A więc to będzie prostokąt nr 1--zatem pole prostokąta
+
+05:24.410 --> 05:33.330
+nr 1--a więc prostokąt nr 1 plus pole prostokąta nr 2
+
+05:33.330 --> 05:35.750
+plus pole prostokąta nr 3--myślę, że
+
+05:35.750 --> 05:46.140
+pojmujecie-- plus... aż do pola powierzchni prostokąta n-tego.
+
+05:46.140 --> 05:47.700
+Zatem co to będzie?
+
+05:47.700 --> 05:52.400
+Prostokąt nr 1 będzie swoją wysokością, która wynosi f(x0)
+
+05:52.400 --> 05:53.080
+lub f(a).
+
+05:53.080 --> 05:55.270
+jakkolwiek. x0 i a są bowiem tym samym.
+
+05:55.270 --> 05:58.680
+Więc mamy f(a) razy delta x,
+
+05:58.680 --> 06:00.690
+razy nasza szerokość, nasza wysokość razy nasza szerokość.
+
+06:00.690 --> 06:05.330
+Zatem razy delta-- właściwie mogę zapisać jako f(x0),
+
+06:05.330 --> 06:09.750
+Chciałam zapisać -- f(x0) razy delta x.
+
+06:09.750 --> 06:11.460
+Jaka jest wysokość naszego prostokąta nr 2?
+
+06:11.460 --> 06:14.555
+To f(x1) razy delta x.
+
+06:19.010 --> 06:20.930
+Ile wynosi nasze pole powierzchni prostokąta nr 3?
+
+06:20.930 --> 06:25.020
+To będzie tym razem f(x2) razy delta x.
+
+06:25.020 --> 06:27.120
+I tak dochodzimy do naszego obszaru (jego pola).
+
+06:27.120 --> 06:29.370
+Sumujemy pola wszystkich prostokątów aż do n-tego.
+
+06:29.370 --> 06:30.470
+Jakie jest zatem jego pole?
+
+06:30.470 --> 06:33.685
+To f(xn-1).
+
+06:33.685 --> 06:35.860
+Właściwie, to jest inny odcień pomarańczowego.
+
+06:35.860 --> 06:37.360
+Użyję tego samego odcienia.
+
+06:37.360 --> 06:43.276
+To jest f(xn-1) razy delta x.
+
+06:43.276 --> 06:43.900
+Czyli mamy to.
+
+06:43.900 --> 06:46.050
+Napisaliśmy to bardzo ogólnie.
+
+06:46.050 --> 06:47.852
+Ale żebyśmy naprawdę oswoili się
+
+06:47.852 --> 06:49.310
+z różnoraką notacją,
+
+06:49.310 --> 06:50.660
+w szczególności notacją, z którą
+
+06:50.660 --> 06:52.920
+możecie się zetknąć, kiedy ludzie mówią o przyblirzaniu
+
+06:52.920 --> 06:55.250
+obszarów czy sum w ogólności,
+
+06:55.250 --> 06:58.400
+będę używał tradycyjnej notacji angażującej sigma.
+
+06:58.400 --> 07:01.680
+Zatem inaczej moglibyśmy to zapisać jako sumę,
+
+07:01.680 --> 07:06.854
+to jest równe sumie od--i pamiętajcie,
+
+07:06.854 --> 07:09.020
+to ma oparcie w konwencji, którą wprowadziłem.
+
+07:09.020 --> 07:14.222
+Niech i zlicza prostokąty od i równego 1 do n.
+
+07:14.222 --> 07:16.180
+Następnie patrzymy na każdy prostokąt z osobna.
+
+07:16.180 --> 07:18.740
+A więc pierwszy prostokąt to prostokąt nr 1.
+
+07:18.740 --> 07:24.050
+A więc to będzie f od -- cóż, jeśli jesteśmy przy i-tym prostokącie,
+
+07:24.050 --> 07:26.440
+to lewa granica wyniesie
+
+07:26.440 --> 07:34.030
+z z indeksem i minus 1 razy delta x.
+
+07:34.030 --> 07:36.990
+I tutaj właśnie, mamy do czynienia z klasycznym sposobem
+
+07:36.990 --> 07:43.580
+rozumowania przy aproksymacji obszaru ograniczonego krzywą z użyciem
+
+07:43.580 --> 07:46.270
+prostokatów, gdzie wysokości prostokatów
+
+07:46.270 --> 07:48.710
+są zdefiniowane przez lewe granice.
+
+07:48.710 --> 07:50.420
+To mówi nam, że chodzi o lewe granice.
+
+07:50.420 --> 07:57.070
+I obserwujemy dla każdego, niech to będzie i-ty prostokąt ten
+
+07:57.070 --> 08:00.430
+tutaj, jeśli to jest prostokąt nr i, wtedy tu
+
+08:00.430 --> 08:04.550
+mamy x z indeksem i-1, a ta wysokość
+
+08:04.550 --> 08:09.500
+to f(xi-1).
+
+08:09.500 --> 08:12.400
+A więc to jest wszystko co zrobiliśmy tam razy delta x.
+
+08:12.400 --> 08:15.270
+I następnie sumujecie od pierwszego prostokąta
+
+08:15.270 --> 08:16.396
+aż do samego końca.
+
+08:16.396 --> 08:18.770
+Miejmy nadzieję, że powyższe pozwoliło wam poczuć się pewniej
+
+08:18.770 --> 08:19.750
+z wprowadzoną notacją.
+
+08:19.750 --> 08:21.340
+Nie robimy niczego inaczej
+
+08:21.340 --> 08:24.090
+niż w wiadomym pierwszym filmie, co miejmy nadzieję, było
+
+08:24.090 --> 08:25.580
+dla was od początku oczywiste.
+
+08:25.580 --> 08:29.180
+Jedyne co, to dokonaliśmy pewnego uogólnienia z użyciem odrobinę bardziej matematycznej
+
+08:29.180 --> 08:30.730
+notacji.

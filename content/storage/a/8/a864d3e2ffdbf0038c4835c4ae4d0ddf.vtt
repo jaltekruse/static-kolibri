@@ -1,0 +1,157 @@
+WEBVTT
+
+00:00.000 --> 00:07.917
+Policzmy całkę nieoznaczoną z pierwiastka kwadratowego z 7x+9 dx.
+
+00:07.917 --> 00:14.166
+Moje pierwsze pytanie brzmi: czy to dobry przykład na całkowanie przez podstawienie?
+
+00:14.166 --> 00:21.002
+Jeśli tu popatrzycie, możecie pomyśleć, że naturalnym pomysłem będzie oznaczenie jako u 7x+9
+
+00:21.002 --> 00:24.671
+ale czy widać gdzieś tu pochodną tego wyrażenia?
+
+00:24.671 --> 00:33.504
+Zobaczmy, oznaczamy u jako 7x+9, jaka będzie pochodna u względem x?
+
+00:33.504 --> 00:37.219
+Pochodna u względem x to po prostu będzie 7.
+
+00:37.219 --> 00:44.001
+Pochodna 7x to 7, pochodna 9 to 0. Czy zatem widzimy gdzieś tu siódemkę?
+
+00:44.001 --> 00:53.482
+Cóż, niezbyt. Ale co moglibyśmy zrobić, żeby siódemka się pojawiła, ale wartość całki się nie zmieniła?
+
+00:53.482 --> 00:57.250
+Cóż, fajną rzeczą - i widywaną wiele razy, kiedy liczymy całki
+
+00:57.250 --> 01:01.336
+liczby mogą bardzo łatwo wchodzić lub wychodzić spod całki.
+
+01:01.336 --> 01:05.648
+Przypominam, że jeśli mamy całkę z
+
+01:05.648 --> 01:12.585
+powiedzmy jakiaś liczba a razy jakaś funkcja f(x) dx, to jest to samo co
+
+01:12.585 --> 01:20.085
+a razy całka z f(x)dx. Całka z liczby razy funkcja jest równe
+
+01:20.085 --> 01:25.182
+liczba razy całka z funkcji. Zostawię to tu z boku.
+
+01:25.182 --> 01:31.372
+Wiedząc to, czy możemy przez coś pomnożyć i podzielić, żeby pokazało się 7?
+
+01:31.372 --> 01:39.578
+Cóż, możemy pomnożyć i podzielić przez 7. Wyobraźcie to sobie teraz. Przepiszmy naszą wyjściową całkę
+
+01:39.578 --> 01:42.578
+narysuję strzałkę, żeby nie wchodzić na to, co już napisałem.
+
+01:42.578 --> 01:46.224
+Możemy przepisać naszą wyjściową całkę jako równą całce
+
+01:46.224 --> 01:57.976
+z 1/7 razy 7 razy pierwiastek z 7x+9 dx
+
+01:57.976 --> 02:01.312
+I jeśli chcemy, możemy wyciągnąć 1/7 przed całkę
+
+02:01.312 --> 02:03.105
+nie musimy, ale możemy to przepisać jako
+
+02:03.105 --> 02:12.180
+1/7 razy całka z 7 razy pierwiastek kwadratowy z 7x+9 dx.
+
+02:12.180 --> 02:16.981
+Zatem, gdybyśmy powiedzieli "u jest równe 7x+9", czy widać gdzieś tu jego pochodną?
+
+02:16.981 --> 02:23.114
+Pewnie! 7 jest tutaj. Wiemy, że du, jeśli chcemy to zapisać w formie różniczkowej
+
+02:23.114 --> 02:35.849
+du jest równe 7 razy dx. Czyli du jest równe 7 dx. Ta część tutaj jest równa du
+
+02:35.849 --> 02:40.180
+i widzimy gdzie jest nasze u, będzie to po prostu 7x+9.
+
+02:40.180 --> 02:45.504
+To jest nasze u. Przepiszmy więc naszą całkę jako wyrażenie od u.
+
+02:45.504 --> 02:53.191
+Będzie ona równa 1/7 razy całka z
+
+02:53.191 --> 02:56.270
+i przerzucę 7 na koniec, żebyśmy mogli po prostu napisać
+
+02:56.283 --> 03:05.912
+pierwiastek z u du. 7 razy dx to du.
+
+03:05.963 --> 03:11.316
+I, jeśli chcemy, możemy to przepisać jako u do potęgi 1/2, łatwiej nam wtedy zobaczyć
+
+03:11.316 --> 03:16.879
+że tak naprawdę całkujemy funkcję potęgową, co umiemy robić. Przepisujemy to zatem
+
+03:16.879 --> 03:25.030
+1/7 razy całka z u do potęgi 1/2 du. I postaram się teraz wyjaśnić.
+
+03:25.030 --> 03:30.952
+To u mogłem napisać na biało. Chcę ten sam kolor du, bo jest to to samo du, co tutaj.
+
+03:30.952 --> 03:35.641
+Więc, jaka jest całka z u do potęgi 1/2?
+
+03:35.641 --> 03:40.581
+Cóż, zwiększamy wykładnik o 1, więc będzie to równe
+
+03:40.581 --> 03:43.237
+i nie mogę zapomnieć o 1/7 na początku.
+
+03:43.237 --> 03:49.462
+Czyli będzie to 1/7 razy, jeśli zwiększymy wykładnik o 1, będzie to równe
+
+03:49.462 --> 04:06.318
+u do potęgi 3/2 (1/2 plus 1 to półtora, czyli 3/2) i musimy pomnożyć to nowe wyrażenie przez odwrotność 3/2
+
+04:06.318 --> 04:14.835
+czyli 2/3. I zachęcam was, byście sprawdzili, że pochodna 2/3 razy u do 3/2 to istotnie u do potęgi 1/2.
+
+04:14.835 --> 04:19.380
+Mamy już to i skoro mnożymy to wszystko przez 1/7
+
+04:19.380 --> 04:23.350
+możemy tu jeszcze dorzucić plus C, które może być pewną stałą
+
+04:23.350 --> 04:36.130
+i jeśli chcemy, możemy pomnożyć nawias przez 1/7. Dostaniemy wtedy 1/7 razy 2/3 to 2/21 razy u^(3/2)
+
+04:36.130 --> 04:40.243
+i 1/7 razy stała, co da nam po prostu jakąś inną stałą
+
+04:40.243 --> 04:44.539
+mogę zatem napisać tu stałą. Tamtą mogę nazwać C1, zaś tą mogę nazwać C2
+
+04:44.539 --> 04:48.972
+ale tak naprawdę to po prostu jakaś stała. I gotowe, och, właściwie to jeszcze nie.
+
+04:48.972 --> 04:54.789
+Mamy odpowiedź, ale jako wyrażenie od u. Musimy jeszcze odwrócić podstawienie.
+
+04:54.789 --> 05:03.760
+Będzie to zatem 2/21 razy u do (3/2), a wiemy, czemu jest równe u,
+
+05:03.760 --> 05:08.779
+u jest równe 7x+9. Użyję nowego koloru, żeby złagodzić trochę monotonię.
+
+05:08.779 --> 05:22.453
+Czyli będzie to równe 2/21 razy 7x+9 do potęgi 3/2 plus C.
+
+05:22.453 --> 05:26.478
+I gotowe! Jesteśmy w stanie wziąć dość brzydko wyglądającą całkę i zdać sobie sprawę
+
+05:26.478 --> 05:30.478
+iż, mimo że to nie było od początku tak oczywiste, całkowanie przez podstawienie tutaj działa.

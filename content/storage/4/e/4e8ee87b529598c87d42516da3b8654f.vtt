@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.461 --> 00:03.481
+V tomto videu vám chci ukázat
+několik vlastností limit,
+
+00:03.481 --> 00:05.004
+ale nebudeme je dokazovat...
+
+00:05.004 --> 00:09.132
+..abychom získali důkazy těchto vlastností
+potřebujeme pevnou definici limity
+
+00:09.132 --> 00:11.149
+a to nebudeme
+dělat v tomto cvičení...
+
+00:11.149 --> 00:14.634
+To uděláme v cvičení
+o epsilon-delta definici limit...
+
+00:14.634 --> 00:17.085
+Přesto by měla být většina intuitivní
+
+00:17.085 --> 00:20.950
+a budou velmi užitečná pro
+zjednodušování příkladů v budoucnosti.
+
+00:20.950 --> 00:28.824
+Řekněme, že limita nějaké funkce
+f(x), kde se ‚x‛ blíží ‚c‛, je rovna L
+
+00:28.824 --> 00:33.373
+a řekněme, že také víme,
+že limita nějaké jiné funkce,
+
+00:33.373 --> 00:38.979
+řekněme třeba g(x),
+kde se ‚x‛ blíží ‚c‛, je rovna M.
+
+00:38.979 --> 00:49.723
+Když víme toto, jaká bude limita
+f(x) plus g(x), kde se ‚x‛ blíží ‚c‛?
+
+00:49.723 --> 00:51.621
+Můžete se na to podívat graficky...
+
+00:51.621 --> 00:55.552
+Když se podíváte na grafy dvou libovolných
+funkcí, jednoduše obě funkce sečtete.
+
+00:55.552 --> 00:57.993
+Bude proto jasné, že toto bude rovno...
+
+00:57.993 --> 01:01.808
+...a ještě jednou, nedělám teď důkaz.
+Jen vám tady ukazuji vlastnosti.
+
+01:01.808 --> 01:06.386
+Toto bude limita f(x),
+kde se ‚x‛ blíží ‚c‛
+
+01:06.386 --> 01:11.537
+plus limita funkce g(x),
+kde se ‚x‛ blíží ‚c‛
+
+01:11.537 --> 01:15.098
+což je rovno...a to je přesně tady...
+
+01:15.098 --> 01:17.849
+...Uděláme to stejnou barvou...
+
+01:17.849 --> 01:27.801
+Tady toto je rovno L.
+Bude to rovno L plus M.
+
+01:27.801 --> 01:28.962
+Nic těžkého.
+
+01:28.962 --> 01:35.179
+Tomuto se často říká součet limit
+nebo také věta o limitě součtu.
+
+01:35.179 --> 01:37.606
+Můžeme vymyslet podobnou s odčítáním.
+
+01:37.606 --> 01:44.094
+Máme limitu, kde ‚x‛ se blíží ‚c‛
+funkcí f(x) minus g(x),
+
+01:44.094 --> 01:47.226
+což bude L minus M.
+
+01:47.226 --> 01:49.399
+Je to limita funkce f(x),
+kde ‚x‛ se blíží ‚c‛
+
+01:49.399 --> 01:52.393
+minus limita funkce g(x),
+kde ‚x‛ se blíží ‚c‛.
+
+01:52.393 --> 01:58.707
+Takže to bude L minus M.
+
+01:58.707 --> 02:02.655
+Tomuto se často říká rozdíl limit
+nebo věta o limitě rozdílu.
+
+02:02.655 --> 02:06.567
+Doufám, že je toto dostatečně intuitivní.
+
+02:06.567 --> 02:08.902
+Co se stane,
+když použijete součin limit?
+
+02:08.902 --> 02:17.027
+Limita f(x) krát g(x),
+kde se ‚x‛ blíží ‚c‛?
+
+02:17.027 --> 02:19.005
+Naštěstí pro nás to bude rovno
+
+02:19.005 --> 02:28.360
+limitě f(x), kde se ‚x‛ blíží ‚c‛ krát
+limita g(x), kde se ‚x‛ blíží do ‚c‛.
+
+02:28.360 --> 02:31.760
+Naštěstí pro nás, toto je opět
+poměrně intuitivní vlastnost limit.
+
+02:31.760 --> 02:40.501
+V tomto případě
+to bude rovno L krát M.
+
+02:40.501 --> 02:44.203
+Bude to jednoduše L krát M.
+
+02:44.203 --> 02:47.635
+Totéž i v případě, kdybychom
+tady měli místo funkce konstantu.
+
+02:47.635 --> 02:50.226
+Kdybychom měli limitu...
+
+02:50.226 --> 02:51.760
+...Udělám to stejnou barvou...
+
+02:51.760 --> 02:58.564
+...limitu k krát funkce f(x),
+kde se ‚x‛ blíží ‚c‛,
+
+02:58.564 --> 03:00.091
+kde ‚k‛ je jen konstanta.
+
+03:00.091 --> 03:04.550
+Tak to bude totéž,
+jako k krát limita f(x),
+
+03:04.550 --> 03:11.673
+kde se ‚x‛ blíží ‚c‛,
+a to bude rovno L.
+
+03:11.673 --> 03:20.038
+Toto je rovno L, takže se celý výraz
+zjednoduší na (k krát L).
+
+03:20.038 --> 03:22.193
+Totéž můžeme dělat s podílem...
+
+03:22.193 --> 03:25.255
+...Tomuto se často říká
+věta o reálném násobku...
+
+03:25.255 --> 03:27.925
+...Můžeme udělat totéž s podílem.
+
+03:27.925 --> 03:31.312
+Když máme limitu,
+kde se ‚x‛ blíží do ‚c‛
+
+03:31.312 --> 03:36.516
+funkce f(x) děleno funkcí g(x),
+tak to je přesně totéž,
+
+03:36.516 --> 03:40.742
+jako limita f(x),
+kde ‚x‛ se blíží do ‚c‛
+
+03:40.742 --> 03:46.361
+dělená limitou funkce g(x),
+kde se ‚x‛ blíží do ‚c‛
+
+03:46.361 --> 03:48.300
+což bude rovno...
+
+03:48.300 --> 03:49.593
+...myslím, že už to víte...
+
+03:49.593 --> 03:56.628
+...bude rovno L lomeno M...
+
+03:56.628 --> 03:59.413
+A konečně...tomuto se někdy
+říká podíl limit.
+
+03:59.413 --> 04:01.961
+Nakonec se podíváme
+na umocňování limity.
+
+04:01.961 --> 04:06.493
+Když máme limitu...
+
+04:06.493 --> 04:07.628
+...napíši to takto...
+
+04:07.628 --> 04:09.787
+...limitu f(x) na nějakou mocninu
+
+04:09.787 --> 04:11.721
+...napíši to,
+jako lomenou mocninu...
+
+04:11.721 --> 04:15.512
+...mocnina ‚r‛ lomeno ‚s‛,
+kde ‚r‛ i ‚s‛ jsou celá čísla.
+
+04:15.512 --> 04:25.881
+Pak limita funkce f(x) na ‚r‛ lomeno ‚s‛,
+kde se ‚x‛ blíží ‚c‛, bude úplně totéž,
+
+04:25.881 --> 04:33.738
+jako limita f(x), kde se ‚x‛ blíží ‚c‛,
+umocněna ‚r‛ lomeno ‚s‛.
+
+04:33.738 --> 04:37.804
+Ještě jednou, když ‚r‛ i ‚s‛ jsou
+celá čísla a ‚s‛ není rovno 0,
+
+04:37.804 --> 04:40.106
+jinak by tato mocnina nedával smysl.
+
+04:40.106 --> 04:41.660
+A toto je to stejné...
+
+04:41.660 --> 04:54.478
+Toto je totéž,
+jako L na ‚r‛ lomeno ‚s‛.
+
+04:54.478 --> 04:55.932
+Použitím těchto vlastností
+
+04:55.932 --> 04:58.927
+můžeme najít limity mnoha funkcí.
+A hezké na tom je to,
+
+04:58.927 --> 05:03.413
+že vlastnosti limit jsou věci,
+které byste přirozeně chtěli dělat
+
+05:03.413 --> 05:07.391
+a po náčrtu těchto funkcí,
+to bude celkem intuitivní.

@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.042 --> 00:02.557
+Før vi går i dybden med algebra,
+
+00:02.557 --> 00:03.895
+vil vi kigge på et citat af
+
+00:03.895 --> 00:05.879
+en af de største tænkere i menneskets historie,
+
+00:05.879 --> 00:09.591
+Galileo Galilei, fordi det citat fanger
+
+00:09.591 --> 00:13.907
+formålet med algebra og faktisk matematik generelt.
+
+00:13.907 --> 00:16.991
+Han sagde: "Filosofi er skrevet i den store bog, som
+
+00:16.991 --> 00:19.324
+altid er for vores øjne,
+
+00:19.324 --> 00:20.958
+jeg mener universet,
+
+00:20.958 --> 00:22.944
+men vi kan ikke forstå det,
+
+00:22.944 --> 00:23.444
+hvis vi ikke først lærer sproget
+
+00:23.444 --> 00:27.601
+og forstår symbolerne, hvormed den er skrevet.
+
+00:27.601 --> 00:28.101
+Denne bog er skrevet i matematikkens sprog...
+
+00:28.101 --> 00:35.823
+uden det vandrer man forgæves i en mørk labyrint."
+
+00:35.823 --> 00:38.298
+Det er meget dramatisk, men det er dybt,
+
+00:38.298 --> 00:38.798
+og det er virkelig formålet med matematik.
+
+00:38.798 --> 00:42.470
+Det vi vil se, når vi går i gang og
+
+00:42.470 --> 00:44.874
+kommer dybere og dybere ind i algebraen,
+
+00:44.874 --> 00:46.918
+er, at vi skal tænke abstrakt.
+
+00:46.918 --> 00:48.915
+Vi kommer ind til nogle grundlæggende ideer,
+
+00:48.915 --> 00:51.861
+som begynder at forklare universets struktur.
+
+00:51.861 --> 00:54.021
+De ideer kan fint anvendes i
+
+00:54.021 --> 00:56.923
+finans og økonomi og i fysik og kemi,
+
+00:56.923 --> 00:58.933
+men i deres kerne er det den samme idé.
+
+00:58.933 --> 01:02.368
+De er mere fundamentale, mere rene,
+
+01:02.368 --> 01:05.076
+end nogle af de her anvendelser.
+
+01:05.076 --> 01:08.103
+For at se hvad vi mener med at komme til idéens rod,
+
+01:08.103 --> 01:10.580
+så lad os sige,
+
+01:10.580 --> 01:13.357
+at vi startede med en meget stor teori om universet
+
+01:13.357 --> 01:14.536
+skrevet i matematikkens sprog.
+
+01:14.536 --> 01:17.863
+Lad os starte med en meget konkret simpel ide,
+
+01:17.863 --> 01:21.067
+som bliver mere og mere abstrakt, men vi kommer til at se, hvordan de samme idéer forbindes
+
+01:21.067 --> 01:24.401
+på tværs af mange områder i vores univers.
+
+01:24.401 --> 01:26.898
+Lad os bare sige, at vi er ude at handle,
+
+01:26.898 --> 01:30.024
+og vi skal købe noget, og heldigvis er der udsalg.
+
+01:30.024 --> 01:36.200
+Udsalget er på 30%.
+
+01:36.200 --> 01:38.871
+.
+
+01:38.871 --> 01:40.810
+Lad os sige, at vi er på udkig efter et par sokker,
+
+01:40.810 --> 01:43.375
+der inden udsalget kostede omkring 20 kr.
+
+01:43.375 --> 01:46.500
+Så lidt koster nogle sokker faktisk.
+
+01:46.500 --> 01:49.625
+Vi er interesseret i sokker til 20 kr., men de er jo endnu billigere,
+
+01:49.625 --> 01:54.267
+fordi der 30% rabat på sokkerne.
+
+01:54.267 --> 01:57.702
+Hvor meget rabat kan vi trække fra de 20 kr.?
+
+01:57.702 --> 01:59.200
+Det her er ikke algebra endnu.
+
+01:59.200 --> 02:01.169
+Vi har sikkert prøvet at regne sådan noget ud før.
+
+02:01.169 --> 02:04.800
+Vi ganger de 30% med de 20 kr.,
+
+02:04.800 --> 02:09.974
+og så finder vi, at rabatten er lig med
+
+02:09.974 --> 02:14.115
+30% gange 20 kr.
+
+02:14.115 --> 02:16.533
+Vi skriver 20 kr med lilla.
+
+02:16.533 --> 02:19.200
+Vi kan også skrive det som et decimaltal.
+
+02:19.200 --> 02:24.200
+Vi kunne skrive 0,30 gange 20 kr.,
+
+02:24.200 --> 02:25.693
+og hvis vi ganger dem,
+
+02:25.693 --> 02:27.821
+får vi 6 kr.
+
+02:27.821 --> 02:30.067
+Det er der ikke noget nyt ved.
+
+02:30.067 --> 02:32.354
+Hvad nu, hvis vi nu vil generalisere det her lidt mere?
+
+02:32.354 --> 02:35.400
+Det der er rabatten på de sokker der,
+
+02:35.400 --> 02:37.400
+men hvad nu, hvis vi ville finde rabatten på
+
+02:37.400 --> 02:39.333
+hvad som helst i butikken?
+
+02:39.333 --> 02:43.133
+Vi kan sige, at x er prisen.
+
+02:43.133 --> 02:44.486
+Vi vælger en anden farve.
+
+02:44.486 --> 02:46.221
+Vi laver bare et symbol.
+
+02:46.221 --> 02:51.169
+Lad x være prisen af varen, som vi vil købe,
+
+02:51.169 --> 03:00.837
+inden rabatten er trukket fra ved kassen.
+
+03:00.837 --> 03:06.142
+Nu kan vi pludselig sige, at rabatten
+
+03:06.142 --> 03:15.267
+er lig med 30% gange x.
+
+03:15.267 --> 03:17.465
+Vi kan også skrive
+
+03:17.465 --> 03:19.411
+30% som decimaltal,
+
+03:19.411 --> 03:25.329
+så vi skriver 0,30 gange x.
+
+03:25.329 --> 03:27.351
+Nu er det interessant.
+
+03:27.351 --> 03:29.841
+Nu kan vi bruge prisen på en hvilken som helst vare i butikken,
+
+03:29.841 --> 03:31.608
+og vi kan udskifte x med prisen på varen
+
+03:31.608 --> 03:34.395
+og så bare gange med 0,3,
+
+03:34.395 --> 03:36.225
+og så finder vi rabatten.
+
+03:36.225 --> 03:39.533
+Nu begynder vi lige så stille og roligt
+
+03:39.533 --> 03:42.331
+at komme ind i den lidt mere abstrakte algebra.
+
+03:42.331 --> 03:44.867
+Vi kommer til se, at det kan være meget mere nuanceret og dybt
+
+03:44.867 --> 03:46.591
+og ærlig talt mere smukt,
+
+03:46.591 --> 03:52.409
+når vi lærer mere og mere om ideerne i algebraen.
+
+03:52.409 --> 03:54.080
+Vi er dog ikke færdige endnu.
+
+03:54.080 --> 03:56.077
+Vi kan gøre det endnu mere abstrakt.
+
+03:56.077 --> 03:57.643
+Herovre sagde vi,
+
+03:57.643 --> 03:59.067
+at vi har generaliseret det her for en hvilken som helst vare.
+
+03:59.067 --> 04:01.400
+Den gælder ikke kun for varer til 20 kr.
+
+04:01.400 --> 04:02.795
+Hvis der er en vare til 10 kr.,
+
+04:02.795 --> 04:05.737
+sætter vi 10 kr. ind her i stedet for x,
+
+04:05.737 --> 04:07.966
+og så er det 0,30 gange 10 kr.
+
+04:07.966 --> 04:10.667
+Rabatten er så 3 kr.
+
+04:10.667 --> 04:12.795
+Det kunne være en vare til 100 kr.,
+
+04:12.795 --> 04:14.303
+og så er rabatten 30 kr.
+
+04:14.303 --> 04:16.071
+Lad os generalisere endnu mere.
+
+04:16.071 --> 04:19.576
+Lad os spørge: Hvad er rabatten for et hvilket som helst udsalg,
+
+04:19.576 --> 04:21.133
+hvor udsalget er en bestemt værdi i procent?
+
+04:21.133 --> 04:22.919
+.
+
+04:22.919 --> 04:25.759
+Lad os finde en variabel.
+
+04:25.759 --> 04:32.290
+Lad os sige p. Det giver mening.
+
+04:32.290 --> 04:41.200
+p er antal procent i rabat.
+
+04:41.200 --> 04:42.667
+Hvad kan vi så gøre?
+
+04:42.667 --> 04:47.046
+Nu kan vi sige, at rabatten
+
+04:47.046 --> 04:50.405
+er lig med antallet af procent.
+
+04:50.405 --> 04:52.733
+I de andre eksempler valgte vi 30%,
+
+04:52.733 --> 04:55.729
+men nu siger vi, at det er p. p er procent rabat.
+
+04:55.729 --> 04:56.852
+Det er p.
+
+04:56.852 --> 05:01.200
+Der er procentrabatten gange varens pris.
+
+05:01.200 --> 05:04.262
+Det er gange prisen inden rabatten.
+
+05:04.262 --> 05:06.138
+Det var x.
+
+05:06.138 --> 05:08.667
+Rabatten er lig med p gange x.
+
+05:08.667 --> 05:10.364
+Nu er det virkelig interessant,
+
+05:10.364 --> 05:13.268
+for nu har vi en helt generel metode til at beregne en rabat
+
+05:13.268 --> 05:19.243
+for en hvilken som helst procent og en hvilket som helst vare.
+
+05:19.243 --> 05:22.333
+Vi behøvede faktisk ikke bruge de her ord og de her bogstaver.
+
+05:22.333 --> 05:25.402
+Vi kunne have sagt, at y er lig med rabatten.
+
+05:25.402 --> 05:28.998
+Lad y være lig med rabatten,
+
+05:28.998 --> 05:32.373
+og så kunne vi skrive den samme grundlæggende ide.
+
+05:32.373 --> 05:34.400
+I stedet for at skrive rabat kunne vi skrive
+
+05:34.400 --> 05:40.200
+y er lig med procentrabat p
+
+05:40.200 --> 05:44.067
+gange varens pris uden rabat,
+
+05:44.067 --> 05:45.667
+altså gange x.
+
+05:45.667 --> 05:47.779
+Så kan vi have defineret de her bogstaver lige, som vi vil.
+
+05:47.779 --> 05:49.513
+I stedet for y der,
+
+05:49.513 --> 05:52.267
+kunne vi have skrevet et græsk bogstav,
+
+05:52.267 --> 05:53.779
+bare vi husker på,
+
+05:53.779 --> 05:56.729
+at symbolet er varens pris i kroner.
+
+05:56.729 --> 05:58.911
+Nu bliver det virkelig interessant,
+
+05:58.911 --> 06:02.215
+fordi vi kan bruge den her type sammenhænge,
+
+06:02.215 --> 06:03.741
+som vi kalder for ligninger. Det gør vi,
+
+06:03.741 --> 06:05.600
+fordi y her er lig med det her ovre.
+
+06:05.600 --> 06:07.734
+Derfor kalder vi det en ligning.
+
+06:07.734 --> 06:09.406
+Det kan bruges til mange forskellige ting,
+
+06:09.406 --> 06:10.985
+som slet ikke har noget at gøre
+
+06:10.985 --> 06:14.231
+med den udsalgsbutik derovre.
+
+06:14.231 --> 06:15.810
+Vi kunne bruge det mange steder.
+
+06:15.810 --> 06:17.431
+I fysik kommer du til at se,
+
+06:17.431 --> 06:21.600
+at kraft er lig med masse gange acceleration.
+
+06:21.600 --> 06:23.000
+Bogstaverne er anderledes,
+
+06:23.000 --> 06:24.933
+men det er grundlæggende den samme idé.
+
+06:24.933 --> 06:31.754
+Vi kunne lade y være kraften,
+
+06:31.754 --> 06:36.067
+og massen er lig med p.
+
+06:36.067 --> 06:39.200
+Lad os skrive, at p er lig med masse,
+
+06:39.200 --> 06:42.333
+og det er ikke en indlysende måde at definere det,
+
+06:42.333 --> 06:45.646
+men vi vil bare vise, at det er den samme ide, den samme relation,
+
+06:45.646 --> 06:48.323
+som kan bruges til 2 forskellige ting.
+
+06:48.323 --> 06:51.314
+Vi kunne sige, at x er lig med acceleration.
+
+06:51.333 --> 06:56.961
+Vi kunne sige, at x er lig med acceleration.
+
+06:56.961 --> 07:01.698
+Når den berømte ligning "kraft er lig med masse gange acceleration"
+
+07:01.698 --> 07:03.795
+kan omskrives som y,
+
+07:03.800 --> 07:07.533
+som vi har defineret som kraften,
+
+07:07.533 --> 07:08.964
+kan være lig med masse,
+
+07:08.964 --> 07:10.210
+fordi vi bruger symbolet p,
+
+07:10.210 --> 07:13.482
+som er lig med p gange acceleration.
+
+07:13.482 --> 07:15.579
+Vi har bare valgt at bruge bogstavet x her.
+
+07:15.579 --> 07:17.298
+.
+
+07:17.298 --> 07:19.200
+Det er den samme ligning.
+
+07:19.200 --> 07:21.400
+Det er præcis den samme ligning.
+
+07:21.400 --> 07:23.200
+Vi har nu set, at vi kan tage den her ligning
+
+07:23.200 --> 07:28.287
+og bruge den i økonomi
+
+07:28.287 --> 07:30.864
+eller bruge den i finans,
+
+07:30.864 --> 07:33.019
+eller i datalogi
+
+07:33.019 --> 07:35.123
+eller logik eller elektronik eller regnskab.
+
+07:35.123 --> 07:36.338
+Hvad som helst.
+
+07:36.338 --> 07:38.400
+Der en uendelighed af anvendelser
+
+07:38.400 --> 07:40.200
+af den her ene ligning.
+
+07:40.200 --> 07:42.054
+Det er det smukke ved matematik.
+
+07:42.054 --> 07:44.902
+Det, der især er smukt ved algebraen er,
+
+07:44.902 --> 07:47.087
+at vi kan fokusere på abstraktion.
+
+07:47.087 --> 07:49.975
+Vi kan fokusere på det abstrakte.
+
+07:49.975 --> 07:52.185
+Vi kan omskrive det abstrakte her,
+
+07:52.185 --> 07:55.462
+og det, som vi opdager med de her idéer fra omskrivningerne
+
+07:55.462 --> 07:58.533
+kan så bagefter bruges
+
+07:58.533 --> 08:02.000
+i alle de her andre anvendelser.
+
+08:02.000 --> 08:03.733
+Det fortæller os også om
+
+08:03.733 --> 08:06.063
+den sande struktur af universet,
+
+08:06.063 --> 08:08.718
+hvis vi fjernede alle de menneskeskabte definitioner
+
+08:08.733 --> 08:10.429
+og alle de her anvendelser.
+
+08:10.429 --> 08:11.729
+Vi kan for eksempel sige,
+
+08:11.729 --> 08:14.237
+at y er lig med p gange x.
+
+08:14.237 --> 08:15.723
+Hvis en person sagde,
+
+08:15.723 --> 08:17.267
+at han har y,
+
+08:17.267 --> 08:19.692
+og en anden siger, at han har p gange x,
+
+08:19.692 --> 08:22.482
+har de det samme i hver deres hånd.
+
+08:22.482 --> 08:25.438
+Hvis man dividerede en af dem med et tal,
+
+08:25.438 --> 08:27.533
+og man ville have dem til at forblive ens,
+
+08:27.533 --> 08:30.200
+skulle man også dele den anden side med det tal.
+
+08:30.200 --> 08:31.652
+.
+
+08:31.652 --> 08:34.577
+Lad os sige, at vi ved, at y er lig med p gange x.
+
+08:34.577 --> 08:38.575
+Hvad så, hvis vi vil have dem til at være lig med hinanden?
+
+08:38.575 --> 08:41.595
+Hvad er y divideret med x lig med?
+
+08:41.595 --> 08:43.467
+y var lig med p gange x,
+
+08:43.467 --> 08:45.073
+så y divideret med x
+
+08:45.073 --> 08:48.731
+er lig med det samme som p gange x divideret med x.
+
+08:48.733 --> 08:50.321
+Nu er det interessant.
+
+08:50.321 --> 08:52.544
+.
+
+08:52.544 --> 08:53.711
+Hvis vi ville gange med noget
+
+08:53.711 --> 08:55.568
+og dividere med det samme noget,
+
+08:55.568 --> 08:57.333
+får vi bare det oprindelige tal.
+
+08:57.333 --> 08:59.467
+Hvis vi ganger med 5 og deler med 5,
+
+08:59.467 --> 09:01.373
+får vi bare p,
+
+09:01.373 --> 09:02.867
+eller hvad det tal nu er.
+
+09:02.867 --> 09:04.333
+De her går altså ud.
+
+09:04.333 --> 09:06.333
+Her kunne vi omskrive den her abstrakte ligning
+
+09:06.333 --> 09:11.159
+og finde y over x er lig med p.
+
+09:11.159 --> 09:12.380
+.
+
+09:12.380 --> 09:16.324
+y over x er lig med p.
+
+09:16.324 --> 09:18.667
+Det her har konsekvenser.
+
+09:18.667 --> 09:21.067
+Det har konsekvenser for alle de her idéer.
+
+09:21.067 --> 09:24.805
+Den fortæller os en grundlæggende sandhed om universet
+
+09:24.805 --> 09:26.637
+helt uafhængig af alle de her anvendelser.
+
+09:26.637 --> 09:28.467
+Nu kan vi bruge det alle de steder,
+
+09:28.467 --> 09:30.400
+hvor vi anvendte det.
+
+09:30.400 --> 09:32.100
+Det, der er virkelig interessant er, at vi kommer til at finder nye anvendelser,
+
+09:32.100 --> 09:33.831
+for der er et uendeligt antal af anvendelser,
+
+09:33.831 --> 09:36.400
+og vi kender faktisk kun de færreste af dem.
+
+09:36.400 --> 09:38.386
+Vi kommer til at opdage nye anvendelser,
+
+09:38.386 --> 09:40.290
+også om 1000 år.
+
+09:40.290 --> 09:41.785
+Forhåbentligt gav det en fornemmelse for,
+
+09:41.785 --> 09:44.933
+hvorfor Galileo sagde det, han sagde,
+
+09:44.933 --> 09:48.133
+nemlig at matematik virkelig er sproget,
+
+09:48.133 --> 09:51.959
+med hvilket vi kan forstå universets filosofi.
+
+09:51.959 --> 09:53.567
+Det er derfor, at nogle folk siger,
+
+09:53.567 --> 09:56.714
+at hvis en helt fremmed livsform ude i universet kontaktede os mennesker,
+
+09:56.714 --> 10:00.067
+ville matematikken nok være det første fælles grundlag.
+
+10:00.067 --> 10:04.108
+Det ville være noget, som vi kunne bruge til at danne et fundament,
+
+10:04.108 --> 10:07.108
+så vi kunne begynde at kommunikere.

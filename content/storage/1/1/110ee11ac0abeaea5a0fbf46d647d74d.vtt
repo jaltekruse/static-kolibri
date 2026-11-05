@@ -1,0 +1,540 @@
+WEBVTT
+
+00:00.720 --> 00:02.860
+A function-- and I'm
+going to speak about it
+
+00:02.860 --> 00:06.350
+in very abstract terms right
+now-- is something that
+
+00:06.350 --> 00:11.134
+will take an input, and
+it'll munch on that input,
+
+00:11.134 --> 00:13.050
+it'll look at that input,
+it will do something
+
+00:13.050 --> 00:14.010
+to that input.
+
+00:14.010 --> 00:20.230
+And based on what that input is,
+it will produce a given output.
+
+00:20.230 --> 00:22.200
+What is an example
+of a function?
+
+00:22.200 --> 00:27.940
+I could have something
+like f of x-- and x
+
+00:27.940 --> 00:30.200
+tends to be the variable
+most used for an input
+
+00:30.200 --> 00:31.200
+into the function.
+
+00:31.200 --> 00:34.100
+And the name of a
+function, f tends
+
+00:34.100 --> 00:35.650
+to be the most-used variable.
+
+00:35.650 --> 00:41.680
+But we'll see that you can
+use others-- is equal to,
+
+00:41.680 --> 00:48.360
+let's say, x squared,
+if x is even.
+
+00:48.360 --> 00:59.680
+And let's say it is equal
+to x plus 5, if x is odd.
+
+00:59.680 --> 01:03.960
+What would happen if we
+input 2 into this function?
+
+01:03.960 --> 01:05.910
+The way that we would
+denote inputting 2
+
+01:05.910 --> 01:10.730
+is that we would want
+to evaluate f of 2.
+
+01:10.730 --> 01:14.760
+This is saying, let's input
+2 into our function f.
+
+01:14.760 --> 01:16.660
+And everywhere we
+see this x here,
+
+01:16.660 --> 01:19.320
+this variable-- you can kind
+of use as a placeholder-- let's
+
+01:19.320 --> 01:21.390
+replace it with our input.
+
+01:21.390 --> 01:21.980
+So let's see.
+
+01:21.980 --> 01:24.810
+If 2 is even, do 2 squared.
+
+01:24.810 --> 01:27.870
+If 2 is odd, do 2 plus 5.
+
+01:27.870 --> 01:31.670
+Well, 2 is even, so we're
+going to do 2 squared.
+
+01:31.670 --> 01:36.250
+In this case, f of 2 is
+going to be 2 squared, or 4.
+
+01:36.250 --> 01:40.540
+Now what would f of 3 be?
+
+01:40.540 --> 01:42.640
+Well, once again, everywhere
+we see this variable,
+
+01:42.640 --> 01:44.135
+we'll replace it with our input.
+
+01:48.250 --> 01:54.950
+So f of 3, 3 squared if 3 is
+even, 3 plus 5 if 3 is odd.
+
+01:54.950 --> 01:57.390
+Well, 3 is odd, so it's
+going to be 3 plus 5.
+
+01:57.390 --> 02:02.670
+It is going to be equal to 8.
+
+02:02.670 --> 02:04.200
+You might say, OK,
+that's neat, Sal.
+
+02:04.200 --> 02:05.790
+This was kind of
+an interesting way
+
+02:05.790 --> 02:09.139
+to define a function, a way to
+kind of munch on these numbers.
+
+02:09.139 --> 02:12.217
+But I could have done this
+with traditional equations
+
+02:12.217 --> 02:13.800
+in some way, especially
+if you allowed
+
+02:13.800 --> 02:16.140
+me to use the squirrelly
+bracket thing.
+
+02:16.140 --> 02:19.710
+What can a function do that
+maybe my traditional toolkits
+
+02:19.710 --> 02:22.160
+might have not been
+as expressive about?
+
+02:22.160 --> 02:25.880
+Well, you could even do
+a function like this.
+
+02:25.880 --> 02:27.790
+Let me not use f
+and x anymore, just
+
+02:27.790 --> 02:30.800
+to show you that the notation
+is more general than that.
+
+02:30.800 --> 02:47.050
+I could say h of a is equal to
+the next largest number that
+
+02:47.050 --> 02:57.886
+starts with the same
+letter as variable a.
+
+03:00.460 --> 03:03.330
+And we're going to assume
+that we're dealing in English.
+
+03:03.330 --> 03:09.930
+Given that, what is
+h of 2 going to be?
+
+03:09.930 --> 03:12.890
+Well, 2 starts with a T.
+What's the next largest
+
+03:12.890 --> 03:14.210
+number that starts with a T?
+
+03:14.210 --> 03:18.610
+Well, it's going
+to be equal to 3.
+
+03:18.610 --> 03:25.210
+Now what would h of-- I don't
+know, let's think about this,
+
+03:25.210 --> 03:27.990
+h of 8 be equal to?
+
+03:27.990 --> 03:31.570
+Well, 8 starts with an E.
+The next largest number
+
+03:31.570 --> 03:37.400
+that starts with an E-- it's
+not 9, 10-- it would be 11.
+
+03:37.400 --> 03:42.100
+And so now you see it's a
+very, very, very general tool.
+
+03:42.100 --> 03:44.630
+This h function that we just
+defined, we'll look at it.
+
+03:44.630 --> 03:46.500
+We'll look at the
+letter that the number
+
+03:46.500 --> 03:47.869
+starts with in English.
+
+03:47.869 --> 03:49.910
+So it's doing this really,
+really, really, really
+
+03:49.910 --> 03:50.990
+wacky thing.
+
+03:50.990 --> 03:53.070
+Now not all functions
+have to be this wacky.
+
+03:53.070 --> 03:55.950
+In fact, you have already
+been dealing with functions.
+
+03:55.950 --> 04:02.340
+You have seen things like
+y is equal to x plus 1.
+
+04:02.340 --> 04:04.080
+This can be viewed
+as a function.
+
+04:04.080 --> 04:07.520
+We could write this
+as y is a function
+
+04:07.520 --> 04:11.760
+of x, which is
+equal to x plus 1.
+
+04:11.760 --> 04:16.390
+If you give as an
+input-- let me write
+
+04:16.390 --> 04:23.650
+it this way-- for example,
+when x is 0 we could say f of 0
+
+04:23.650 --> 04:25.710
+is equal to, well, you take 0.
+
+04:25.710 --> 04:26.830
+You add 1.
+
+04:26.830 --> 04:28.440
+It's equal to 1.
+
+04:28.440 --> 04:30.447
+f of 2 is equal to 2.
+
+04:30.447 --> 04:31.780
+You've already done this before.
+
+04:31.780 --> 04:33.760
+You've done things
+where you said, look,
+
+04:33.760 --> 04:37.250
+let me make a table of
+x and put our y's there.
+
+04:37.250 --> 04:40.230
+When x is 0, y is 1.
+
+04:40.230 --> 04:42.990
+I'm sorry.
+
+04:42.990 --> 04:44.150
+I made a little mistake.
+
+04:44.150 --> 04:46.660
+Where f of 2 is equal to 3.
+
+04:46.660 --> 04:48.920
+And you've done this before
+with tables where you say,
+
+04:48.920 --> 04:51.470
+look, x and y.
+
+04:51.470 --> 04:53.650
+When x is 0, y is 1.
+
+04:53.650 --> 04:57.151
+When x is 2, y is 3.
+
+04:57.151 --> 04:59.400
+You might say, well, what
+was the whole point of using
+
+04:59.400 --> 05:01.310
+the function
+notation here to say
+
+05:01.310 --> 05:03.820
+f of x is equal to x plus 1?
+
+05:03.820 --> 05:07.390
+The whole point is to think
+in these more general terms.
+
+05:07.390 --> 05:09.140
+For something like
+this, you didn't really
+
+05:09.140 --> 05:11.417
+have to introduce
+function notations.
+
+05:11.417 --> 05:14.000
+But it doesn't hurt to introduce
+function notations because it
+
+05:14.000 --> 05:17.820
+makes it very clear that
+the function takes an input,
+
+05:17.820 --> 05:21.520
+takes my x-- in this
+definition it munches on it.
+
+05:21.520 --> 05:23.500
+It says, OK, x plus 1.
+
+05:23.500 --> 05:26.080
+And then it produces
+1 more than it.
+
+05:26.080 --> 05:29.460
+So here, whatever the input
+is, the output is 1 more
+
+05:29.460 --> 05:31.100
+than that original function.
+
+05:31.100 --> 05:32.350
+Now I know what you're asking.
+
+05:32.350 --> 05:32.850
+All right.
+
+05:32.850 --> 05:35.210
+Well, what is not
+a function then?
+
+05:35.210 --> 05:36.750
+Well, remember,
+we said a function
+
+05:36.750 --> 05:39.850
+is something that takes an
+input and produces only one
+
+05:39.850 --> 05:43.130
+possible output for
+that given input.
+
+05:43.130 --> 05:46.580
+For example-- and let
+me look at a visual way
+
+05:46.580 --> 05:49.100
+of thinking about a function
+this time, or a relationship,
+
+05:49.100 --> 05:53.190
+I should say-- let's
+say that's our y-axis,
+
+05:53.190 --> 05:55.463
+and this right over
+here is our x-axis.
+
+05:58.241 --> 06:05.720
+Let me draw a circle
+here that has radius 2.
+
+06:05.720 --> 06:07.950
+So it's a circle of radius 2.
+
+06:07.950 --> 06:09.300
+This is negative 2.
+
+06:09.300 --> 06:11.120
+This is positive 2.
+
+06:11.120 --> 06:12.730
+This is negative 2.
+
+06:12.730 --> 06:15.940
+So my circle, it's
+centered at the origin.
+
+06:15.940 --> 06:17.330
+It has radius 2.
+
+06:17.330 --> 06:20.560
+That's my best attempt
+at drawing the circle.
+
+06:20.560 --> 06:21.920
+Let me fill it in.
+
+06:21.920 --> 06:23.100
+So this is a circle.
+
+06:23.100 --> 06:25.070
+The equation of
+this circle is going
+
+06:25.070 --> 06:28.370
+to be x squared plus y squared
+is equal to the radius squared,
+
+06:28.370 --> 06:31.360
+is equal to 2 squared,
+or it's equal to 4.
+
+06:31.360 --> 06:34.027
+The question is, is this
+relationship between x and y--
+
+06:34.027 --> 06:35.610
+here I've expressed
+it as an equation.
+
+06:35.610 --> 06:40.020
+Here I've visually drawn all
+of the x's and y's that satisfy
+
+06:40.020 --> 06:43.220
+this equation-- is this
+relationship between x
+
+06:43.220 --> 06:45.280
+and y a function?
+
+06:45.280 --> 06:47.060
+And we can see
+visually that it's not
+
+06:47.060 --> 06:48.280
+going to be a function.
+
+06:48.280 --> 06:49.850
+You pick a given x.
+
+06:49.850 --> 06:53.820
+Let's say x is equal to 1.
+
+06:53.820 --> 06:57.150
+There's two possible y's
+that are associated with it,
+
+06:57.150 --> 07:00.237
+this y up here and
+this y down here.
+
+07:00.237 --> 07:02.570
+We could even solve for that
+by looking at the equation.
+
+07:02.570 --> 07:06.210
+When x is equal to 1, we
+get 1 squared plus y squared
+
+07:06.210 --> 07:07.073
+is equal to 4.
+
+07:07.073 --> 07:11.390
+1 plus y squared is equal to 4.
+
+07:11.390 --> 07:15.720
+Or subtracting 1 from both
+sides, y squared is equal to 3.
+
+07:15.720 --> 07:20.830
+Or y is equal to the positive or
+the negative square root of 3.
+
+07:20.830 --> 07:23.720
+This right over here is the
+positive square root of 3,
+
+07:23.720 --> 07:26.700
+and this right over here is
+the negative square root of 3.
+
+07:26.700 --> 07:28.810
+So this situation,
+this relationship
+
+07:28.810 --> 07:34.130
+where I inputted a 1
+into my little box here,
+
+07:34.130 --> 07:36.680
+and associated with
+the 1, I associate
+
+07:36.680 --> 07:40.510
+both a positive square root of
+3 and a negative square root
+
+07:40.510 --> 07:47.000
+of 3, this is not a function.
+
+07:47.000 --> 07:51.540
+I cannot associate with my
+input two different outputs.
+
+07:51.540 --> 07:56.240
+I can only have one
+output for a given input.

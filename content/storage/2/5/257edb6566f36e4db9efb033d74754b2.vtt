@@ -1,0 +1,427 @@
+WEBVTT
+
+00:00.500 --> 00:04.182
+Widzieliśmy już wiele przykładów szeregów.
+
+00:04.182 --> 00:06.765
+Ale to co jest naprawdę ekscytujące i czego dokonamy w tej prezentacji
+
+00:06.765 --> 00:09.879
+to użyjemy szeregów do zdefiniowania funkcji.
+
+00:09.879 --> 00:11.430
+A najpowszechniejszymi funkcjami z jakimi
+
+00:11.430 --> 00:17.120
+zetkniecie się w swojej matematycznej karierze są szeregi potęgowe.
+
+00:17.120 --> 00:20.010
+Podamy teraz ogólną definicję szeregu potęgowego.
+
+00:20.010 --> 00:22.250
+Tak więc mógłbym wyobrazić sobie funkcję f(x)
+
+00:22.250 --> 00:26.100
+zdefiniowaną jako nieskończona suma.
+
+00:26.100 --> 00:30.900
+Zatem sumując od n=0 do nieskończoności po a z indeksem n,
+
+00:30.900 --> 00:33.760
+gdzie a z indeksem n jest współczynnikiem przy kolejnym składniku sumy,
+
+00:33.760 --> 00:37.320
+razy nasza zmienna x odjąć jakaś stała c.
+
+00:37.320 --> 00:39.160
+Można by sobie prawie wyobrazić, że jest to przesunięcie
+
+00:39.160 --> 00:42.260
+naszej funkcji, do n-tej potęgi.
+
+00:42.260 --> 00:43.910
+Zatem jeśli chciałbym rozwinąć to wyrażenie otrzymuję
+
+00:43.910 --> 00:46.390
+pierwszy współczynnik a z indeksem 0,
+
+00:46.390 --> 00:50.630
+razy x odjąć c do potęgi zerowej,
+
+00:50.630 --> 00:54.400
+dodać a z indeksem 1 razy x odjąć c do potęgi pierwszej.
+
+00:54.400 --> 00:57.180
+Ten składnik oczywiście uprości się do a z indeksem 0.
+
+00:57.180 --> 01:01.590
+Z tego zostanie a z indeksem 1 razy x minus c dodać a z indeksem
+
+01:01.590 --> 01:04.700
+2 razy x odjąć c do kwadratu.
+
+01:04.700 --> 01:07.587
+Itd.
+
+01:07.587 --> 01:09.170
+Teraz przypatrując się temu moglibyście zapytać
+
+01:09.170 --> 01:10.760
+czy nasze szeregi geometryczne
+
+01:10.760 --> 01:13.440
+nie wyglądałyby na pewien szczególny przypadek szeregów potęgowych
+
+01:13.440 --> 01:17.260
+gdyby nasz iloraz wynosił x zamiast r
+
+01:17.260 --> 01:21.920
+czy gdyby nasz iloraz był zmienną.
+
+01:21.920 --> 01:23.060
+Rzeczywiście.
+
+01:23.060 --> 01:25.490
+To jest dokładnie to.
+
+01:25.490 --> 01:28.800
+Zatem szeregi geometryczne.
+
+01:28.800 --> 01:31.050
+Pomyślmy więc o zdefiniowaniu funkcji w kategoriach
+
+01:31.050 --> 01:32.482
+szeregów geometrycznych.
+
+01:32.482 --> 01:33.940
+Oczywiście, nie musimy przez cały czas używać
+
+01:33.940 --> 01:36.650
+x jako zmiennej niezależnej,
+
+01:36.650 --> 01:38.650
+tym niemniej jest to najczęściej przyjmowana konwencja.
+
+01:38.650 --> 01:40.900
+Wydaje się, że moglibyśmy równie dobrze używać r
+
+01:40.900 --> 01:42.240
+jako zmiennej niezależnej.
+
+01:42.240 --> 01:44.067
+Ale wyobraźmy sobie funkcję g(x).
+
+01:44.067 --> 01:45.900
+Moglibyśmy mieć g(r), gdybyśmy chcieli, ale
+
+01:45.900 --> 01:50.200
+przyjmijmy g(x) jest równe sumie od n=0
+
+01:50.200 --> 01:57.060
+do nieskończoności po a razy x do potęgi n-tej.
+
+01:57.060 --> 02:01.220
+I to jest typowy przykład szeregu potęgowego.
+
+02:01.220 --> 02:04.020
+Więc jaka jest różnica między tym a tym?
+
+02:04.020 --> 02:06.539
+Cóż, różnica jest taka, że tutaj dla każdego składnika
+
+02:06.539 --> 02:07.800
+współczynnik a jest taki sam,
+
+02:07.800 --> 02:09.864
+podczas gdy tutaj mamy indeks n.
+
+02:09.864 --> 02:12.280
+Za każdym razem mnożymy tutaj przez coś innego.
+
+02:12.280 --> 02:14.610
+Tutaj za każdym razem mnożymy przez to samo.
+
+02:14.610 --> 02:16.930
+A także w tym przypadku, konkretnego szeregu geometrycznego,
+
+02:16.930 --> 02:19.420
+który własnie wypisałem, mamy zamiast x odjąć c do n-tej
+
+02:19.420 --> 02:20.580
+x do n-tej.
+
+02:20.580 --> 02:22.705
+Zatem moglibyście powiedzieć, cóż, jest to szczególny przypadek kiedy
+
+02:22.705 --> 02:24.270
+c jest równe 0.
+
+02:24.270 --> 02:25.440
+I ponownie możemy to rozpisać.
+
+02:25.440 --> 02:28.040
+Otrzymujemy a razy x do zerowej, co
+
+02:28.040 --> 02:31.540
+upraszcza się do a razy x do 1-szej,
+
+02:31.540 --> 02:33.330
+dodać a razy x do kwadratu.
+
+02:33.330 --> 02:36.210
+I kontynuujemy w ten sposób w nieskończoność.
+
+02:36.210 --> 02:38.540
+Teraz, co jest w tym fantastyczne to to,
+
+02:38.540 --> 02:43.510
+że ten napis, przy spełnieniu pewnych warunków,
+
+02:43.510 --> 02:45.950
+przyjmie wartość skończoną.
+
+02:45.950 --> 02:47.640
+Mianowicie ten szereg będzie zbieżny.
+
+02:47.640 --> 02:51.350
+Wydaje się ,że to da nam rozsądną odpowiedź.
+
+02:51.350 --> 02:53.520
+A więc pod jakimi warunkami ma to miejsce?
+
+02:53.520 --> 02:56.279
+Cóż, wyrażenie zbiega jeśli każdy z tych składników
+
+02:56.279 --> 02:57.820
+robi się coraz mniejszy i mniejszy.
+
+02:57.820 --> 03:00.390
+A każdy z tych składników robi się coraz mniejszy i mniejszy
+
+03:00.390 --> 03:06.470
+jeśli wartość bezwzględna ilorazu szeregu jest mniejsza od 1.
+
+03:06.470 --> 03:08.100
+Zapiszmy to.
+
+03:08.100 --> 03:14.410
+a więc to zbiega o ile wartość bezwzględna
+
+03:14.410 --> 03:18.181
+naszego ilorazu jest mniejsza od 1.
+
+03:18.181 --> 03:19.680
+Innymi słowy
+
+03:19.680 --> 03:23.020
+to jest to samo co powiedzieć, że x
+
+03:23.020 --> 03:26.120
+należy do przedziału pomiędzy-- jest mniejszy od 1
+
+03:26.120 --> 03:29.280
+i jest większy od -1.
+
+03:29.280 --> 03:31.640
+I ten napis tutaj, teraz x jest zmienną.
+
+03:31.640 --> 03:33.300
+x może się zmieniać w przedziale między tymi wartościami.
+
+03:33.300 --> 03:35.640
+Definiujemy zatem funkcję od x.
+
+03:35.640 --> 03:38.420
+Nazywamy to przedziałem zbieżności.
+
+03:46.090 --> 03:48.487
+A więc wiemy, że jeśli x jest w tym przedziale,
+
+03:48.487 --> 03:50.070
+to to da nam skończoną sumę.
+
+03:50.070 --> 03:52.380
+I wiemy ile wynosi ta skończona suma.
+
+03:52.380 --> 03:56.620
+Będzie ona równa--jeśli to zbiega.
+
+03:56.620 --> 03:58.950
+Zatem jeśli to zbiega, to suma będzie
+
+03:58.950 --> 04:01.950
+równa naszemu pierwszemu składnikowi, tj.
+
+04:01.950 --> 04:05.490
+a--to upraszcza się do a w tym miejscu--nad 1
+
+04:05.490 --> 04:07.580
+odjąć nasz iloraz szeregu.
+
+04:07.580 --> 04:08.820
+Jaki jest nasz iloraz szeregu?
+
+04:08.820 --> 04:11.360
+Nasz iloraz w tym przykładzie wynosi x.
+
+04:11.360 --> 04:15.120
+Przechodząc od składnika do składnika mnożymy po prostu przez x.
+
+04:15.120 --> 04:19.640
+Mnożymy przez x dokładnie w tym miejscu.
+
+04:19.640 --> 04:21.510
+No więc to jest całkiem wygodny zapis, ponieważ będziemy
+
+04:21.510 --> 04:23.390
+w stanie użyć tego faktu
+
+04:23.390 --> 04:26.030
+ażeby przedstawić bardziej tradycyjne funkcje
+
+04:26.030 --> 04:28.750
+w tej postaci i wtedy spróbować rozwinąć je
+
+04:28.750 --> 04:31.660
+używając szeregów geometrycznych.
+
+04:31.660 --> 04:33.722
+Cały ten pomysł użycia szeregów potęgowych
+
+04:33.722 --> 04:35.430
+czy też w tym konkretnym przykładzie szeregów geometrycznych
+
+04:35.430 --> 04:37.280
+do reprezentacji funkcji ma wszelkiego rodzaju
+
+04:37.280 --> 04:39.750
+zastosowania w inżynierii i finansach.
+
+04:39.750 --> 04:43.980
+Używając skończonej liczby składników w tych szeregach,
+
+04:43.980 --> 04:46.130
+można przybliżać funkcje
+
+04:46.130 --> 04:48.020
+w sposób który jest łatwiejszy do pojęcia
+
+04:48.020 --> 04:49.470
+dla ludzkiego mózgu, łatwiejszy
+
+04:49.470 --> 04:51.690
+w pewnym sensie "w obsłudze".
+
+04:51.690 --> 04:54.610
+Ale co jest tutaj interesujące, to zamiast po prostu
+
+04:54.610 --> 04:57.540
+przechodzić od sumy -- zamiast przechodzić
+
+04:57.540 --> 05:01.922
+od tej rozwiniętej wersji do tego typu skończonej wartości,
+
+05:01.922 --> 05:04.130
+będziemy teraz mieć możliwość wyjście od czegoś
+
+05:04.130 --> 05:06.930
+tej postaci i rozwinięcia tego w szereg geometryczny.
+
+05:06.930 --> 05:08.734
+Ale musimy zachować ostrożność i upewnić się, że
+
+05:08.734 --> 05:11.150
+robimy to tylko na przedziale zbieżności.
+
+05:11.150 --> 05:13.790
+Będzie to prawda tylko na przedziale
+
+05:13.790 --> 05:15.010
+zbieżności.
+
+05:15.010 --> 05:18.550
+Teraz, kolejny termin na który możecie się natknąć w swojej matematycznej karierze
+
+05:18.550 --> 05:20.220
+to promień.
+
+05:20.220 --> 05:21.945
+Promień zbieżności.
+
+05:24.970 --> 05:28.770
+On wyznacza jak daleko-- do jakiej wartości,
+
+05:28.770 --> 05:30.180
+ale z wyłączeniem tej wartości.
+
+05:30.180 --> 05:36.760
+A więc tak długo jak nasz x pozostaje w odległości mniejszej od pewnej wartości
+
+05:36.760 --> 05:40.680
+od naszego c, ten napis będzie zbiegał.
+
+05:40.680 --> 05:44.470
+W tym przypadku nasze c wynosi 0.
+
+05:44.470 --> 05:46.720
+Zatem możemy zadać sobie pytanie.
+
+05:49.290 --> 05:53.120
+Tak długo jak x znajduje się w nie większej niż pewna ustalona wartość odległości od zera,
+
+05:53.120 --> 05:54.540
+ten napis będzie zbiegał.
+
+05:54.540 --> 05:55.914
+Cóż, widzicie to dokładnie tutaj.
+
+05:55.914 --> 06:01.302
+Tak długo jak x znajduje się w nie większej od 1 odległości od zera.
+
+06:01.302 --> 06:03.010
+x nie może stać się 1, ale tak długo
+
+06:03.010 --> 06:05.000
+jak jego wartość jest poniżej 1, lub tak długo
+
+06:05.000 --> 06:06.500
+jak jego wartość jest większa niż -1.
+
+06:10.300 --> 06:12.490
+Czyli x może odbiec jakkolwiek byle mniej niż 1
+
+06:12.490 --> 06:14.380
+od zera, zarówno w kierunku osi dodatniej
+
+06:14.380 --> 06:16.460
+jak i ujemnej.
+
+06:16.460 --> 06:18.560
+Wtedy ten napis wciąż będzie zbiegał.
+
+06:18.560 --> 06:23.640
+Zatem moglibyśmy powiedzieć, że nasz promień zbieżności jest równy 1.
+
+06:23.640 --> 06:26.550
+Inny sposób myślenia o tym, nasz przedział zbieżności--
+
+06:26.550 --> 06:28.490
+idziemy od -1 do 1,
+
+06:28.490 --> 06:29.980
+wyłączając punkty graniczne,
+
+06:29.980 --> 06:31.690
+więc nasz przedział ma długość 2.
+
+06:31.690 --> 06:34.450
+Stąd nasz promień zbieżności jest równy połowie tego.
+
+06:39.550 --> 06:41.920
+Tak długo jak x pozostaje w odległości nie większej od 1 od 0,
+
+06:41.920 --> 06:44.176
+i to jest to samo co powiedzieć dokładnie to,
+
+06:44.176 --> 06:48.970
+ten szereg będzie zbiegał.

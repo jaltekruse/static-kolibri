@@ -1,0 +1,1 @@
+(self["webpackChunkwebpack__kolibricore.default_frontend"]=self["webpackChunkwebpack__kolibricore.default_frontend"]||[]).push([[4718],{94718(){}}]);

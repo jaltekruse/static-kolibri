@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.358 --> 00:03.170
+Giờ ta đã quen thuộc với phương pháp Euler,
+
+00:03.017 --> 00:06.766
+nên hãy làm một bài tập để kiểm tra xem,
+
+00:06.919 --> 00:11.817
+ta đã hiểu rõ nó chưa, và cũng để làm quen với cách áp dụng nó.
+
+00:11.818 --> 00:13.889
+Đề cho ta một phương trình vi phân:
+
+00:13.889 --> 00:15.352
+đạo hàm của y theo biến x,
+
+00:15.352 --> 00:17.767
+bằng với 3x trừ 2y.
+
+00:17.767 --> 00:20.963
+Cho y bằng g(x) là nghiệm,
+
+00:20.963 --> 00:23.912
+của phương trình vi phân này với điều kiện ban đầu,
+
+00:23.912 --> 00:27.294
+là g(0) bằng với k, và k là một hằng số.
+
+00:27.294 --> 00:29.349
+Phương pháp Euler bắt đầu tại x bằng 0,
+
+00:29.349 --> 00:31.775
+với độ lớn của bước là 1, cho ta ước lượng là,
+
+00:31.775 --> 00:35.293
+g(2) xấp xỉ với 4.5.
+
+00:35.293 --> 00:38.729
+Hãy tìm giá trị của k.
+
+00:38.729 --> 00:40.366
+Ta sẽ bắt đầu với,
+
+00:40.366 --> 00:41.454
+điều kiện ban đầu khi x bằng 0,
+
+00:42.246 --> 00:46.913
+y bằng k, và ta sẽ sử dụng phương pháp Euler,
+
+00:46.913 --> 00:48.469
+với độ lớn của bước là 1.
+
+00:48.469 --> 00:50.373
+Vậy, ta sẽ bắt đầu với,
+
+00:50.373 --> 00:53.345
+bước từ 0 tới 1, và sau đó là 1 tới 2.
+
+00:53.345 --> 00:57.744
+Và rồi phép ước lượng sẽ cho ta giá trị là 4.5.
+
+00:57.744 --> 01:00.031
+Rồi, biết rằng ta bắt đầu từ k, ta biết làm cách sao,
+
+01:00.031 --> 01:02.226
+để tìm ra giá trị k nào,
+
+01:02.226 --> 01:05.929
+mà có thể làm cho g(2) xấp xỉ 4.5.
+
+01:05.929 --> 01:08.367
+Với nhũng điều đó, mình khuyên bạn dừng video lại,
+
+01:08.367 --> 01:10.884
+và thử tự giải xem nhé.
+
+01:12.093 --> 01:15.889
+Mình cho rằng là bạn đã thử tự giải rồi đúng không?
+
+01:15.889 --> 01:17.747
+Giờ ta làm cùng nhau nhé.
+
+01:17.747 --> 01:19.233
+Mình sẽ làm giống y như,
+
+01:19.233 --> 01:21.206
+cách mình đã làm ở video trước về phương pháp Euler.
+
+01:21.206 --> 01:25.834
+Mình sẽ tạo một cái bảng nhỏ ở đây,
+
+01:25.834 --> 01:28.106
+Để mình vẽ thẳng lại.
+
+01:28.106 --> 01:29.569
+Đó là đường viền thôi,
+
+01:29.569 --> 01:31.287
+xong rồi đây.
+
+01:31.287 --> 01:35.710
+Mình cho cột này là x, rồi sẽ chừa một khoảng,
+
+01:35.071 --> 01:37.207
+cho y, mình có thể sẽ có,
+
+01:37.846 --> 01:42.846
+một vài phép tính ở đây, y, và rồi dy/dx.
+
+01:44.011 --> 01:46.924
+Giờ, ta có thể bắt đầu với điều kiện ban đầu.
+
+01:46.924 --> 01:49.362
+Khi x bằng 0, y sẽ bằng k.
+
+01:49.362 --> 01:52.430
+Khi x bằng 0, y bằng k.
+
+01:53.042 --> 01:56.980
+Và rồi, đạo hàm tại điểm đó sẽ là gì?
+
+01:56.098 --> 01:58.697
+Chà, dy/dx bằng với 3x trừ 2y.
+
+01:59.579 --> 02:04.579
+Vậy trong trường hợp này, nó là 3 nhân 0 trừ đi 2 nhân k,
+
+02:04.768 --> 02:08.521
+là bằng với -2k.
+
+02:08.521 --> 02:11.676
+Giờ ta có thể tiến thêm một bước.
+
+02:11.676 --> 02:16.676
+Ta có độ lớn của bước là 1, vậy ở mỗi bước,
+
+02:18.942 --> 02:23.942
+ta sẽ tăng x lên 1 đơn vị,
+
+02:25.002 --> 02:28.159
+vậy tiếp theo ta sẽ có 1.
+
+02:28.177 --> 02:30.139
+Vậy y mới sẽ là gì?
+
+02:30.139 --> 02:32.844
+Chà, nếu ta tăng x lên 1 đơn vị, hệ số góc,
+
+02:32.844 --> 02:36.768
+sẽ là -2k, nghĩa là ta tăng y lên môt lượng,
+
+02:36.768 --> 02:40.082
+là -2k nhân 1, là bằng -2k.
+
+02:41.282 --> 02:42.290
+Vậy, -2k.
+
+02:43.082 --> 02:46.529
+k cộng với -2k là -k.
+
+02:46.529 --> 02:49.652
+Vậy, ước lượng của ta sử dụng phương pháp Euler,
+
+02:49.652 --> 02:53.691
+cho ta giá trị là -k, vậy,
+
+02:53.691 --> 02:56.915
+hệ số góc bắt đầu từ điểm này sẽ là gì?
+
+02:56.915 --> 03:01.153
+Ta có -k, hệ số góc là sẽ là 3 nhân với,
+
+03:01.153 --> 03:06.153
+x, chính là 1, trừ đi 2 nhân với y,
+
+03:06.516 --> 03:11.516
+là -k, và cái này bằng với 3 cộng 2k.
+
+03:12.727 --> 03:16.914
+Giờ ta tiến thêm 1 đơn vị,
+
+03:16.914 --> 03:18.966
+vì đó là độ lớn của một bước.
+
+03:18.966 --> 03:21.149
+Chà, mình sẽ có 2 ở đây.
+
+03:21.149 --> 03:23.166
+Giờ cái này là cái ta quan tâm đúng không?
+
+03:23.319 --> 03:24.945
+Vì ta đang muốn ước lượng g(2).
+
+03:24.945 --> 03:27.528
+Vậy ta phải nói, phép ước lượng của ta,
+
+03:27.528 --> 03:30.769
+cho giá trị y là bao nhiêu khi x bằng 2?
+
+03:30.769 --> 03:32.650
+Và ta phải có cái gì đó dưới dạng k,
+
+03:32.065 --> 03:33.760
+và đề cho rằng nó bằng với 4.5,
+
+03:34.345 --> 03:36.407
+và sau đó ta có thể giải ra k bằng gì.
+
+03:36.965 --> 03:38.366
+Vậy cái này bằng với gì?
+
+03:38.366 --> 03:41.187
+Nếu ta tăng x lên 1 đơn vị,
+
+03:41.187 --> 03:46.187
+thì ta sẽ tăng y lên một lượng là 1 nhân 3 cộng 2k.
+
+03:47.548 --> 03:52.470
+Vậy ta sẽ tăng một lượng là 3 cộng 2k,
+
+03:52.047 --> 03:53.755
+nghĩa là -k cộng 3 cộng 2k,
+
+03:54.178 --> 03:58.806
+vậy ta có 3 cộng k.
+
+03:58.806 --> 03:59.975
+Đề nói ta rằng,
+
+03:59.975 --> 04:03.040
+phép ược lượng cho ra giá trị 4.5.
+
+04:03.004 --> 04:07.299
+Vậy 3 cộng k bằng với 4.5.
+
+04:07.335 --> 04:09.657
+Vậy k sẽ có giá trị là,
+
+04:09.657 --> 04:12.130
+nếu ta trừ 3 ở cả 2 vế,
+
+04:12.013 --> 04:14.741
+số thập phân ở đây, nó sẽ bằng,
+
+04:14.858 --> 04:19.858
+k sẽ bằng với 1.5, và bạn có thể kiểm tra lại.
+
+04:19.874 --> 04:21.892
+Nếu điều kiện ban đầu ở đây,
+
+04:21.892 --> 04:26.893
+nếu g(0) bằng với 1.5, bạn bỏ 1.5 vào đây.
+
+04:28.963 --> 04:33.809
+Thì tại đây ta sẽ có 4.5, vậy là ta đã làm xong.

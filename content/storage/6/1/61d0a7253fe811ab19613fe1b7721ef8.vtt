@@ -1,0 +1,795 @@
+WEBVTT
+
+00:00.728 --> 00:01.896
+Voiceover: In the last video, we took the
+
+00:01.896 --> 00:04.849
+Maclaurin expansion of E to the X
+
+00:04.849 --> 00:08.870
+and we saw that it looked
+like it was some type a
+
+00:08.870 --> 00:10.871
+combination of the
+polynomial approximations
+
+00:10.871 --> 00:15.272
+of cosine of X and of sine of X.
+
+00:15.272 --> 00:16.567
+But it's not quite, because there's
+
+00:16.567 --> 00:18.319
+a couple of negatives in there.
+
+00:18.319 --> 00:20.847
+If we were to add these
+two together that we
+
+00:20.847 --> 00:22.567
+did not have when we took
+
+00:22.567 --> 00:25.778
+the representation of E to the X.
+
+00:25.778 --> 00:28.631
+But to reconcile these,
+I'll do a little bit of a
+
+00:28.631 --> 00:30.879
+I don't know if you can
+even call it a trick.
+
+00:30.879 --> 00:35.593
+Let's see if we take
+this polynomial expansion
+
+00:35.593 --> 00:38.567
+of E to the X, this
+approximation, what happens
+
+00:38.567 --> 00:41.351
+if we say E to the X is equal to this,
+
+00:41.351 --> 00:43.908
+especially as this
+becomes an infinite number
+
+00:43.908 --> 00:46.447
+of terms and becomes
+less of an approximation
+
+00:46.447 --> 00:48.550
+and more of an equality.
+
+00:48.550 --> 00:51.954
+What happens if I take
+E to the IX and before
+
+00:51.954 --> 00:53.863
+that might have been kind
+of a weird thing to do.
+
+00:53.863 --> 00:57.663
+Let me write it down, E to the IX.
+
+00:57.663 --> 00:59.247
+Because before, I said how do you define
+
+00:59.247 --> 01:00.617
+E to the Ith power?
+
+01:00.617 --> 01:02.152
+That's a very bizarre thing to do,
+
+01:02.152 --> 01:04.254
+take something to the XI power.
+
+01:04.254 --> 01:05.933
+How do you even comprehend some type
+
+01:05.933 --> 01:07.376
+of a function like that.
+
+01:07.376 --> 01:10.900
+But now that we can have
+a polynomial expansion
+
+01:10.900 --> 01:13.127
+of E to the X, we can
+maybe make sense of it.
+
+01:13.127 --> 01:16.800
+Because we can take I to different amounts
+
+01:16.800 --> 01:18.390
+to different powers and
+we know what that gives,
+
+01:18.390 --> 01:20.776
+I squared is negative one, I
+to the third is negative I,
+
+01:20.776 --> 01:22.615
+and so on and so forth.
+
+01:22.615 --> 01:24.983
+So what happens if we take E to the IX.
+
+01:24.983 --> 01:27.255
+So once again, just like
+taking the X up here
+
+01:27.255 --> 01:29.295
+and replacing it with
+an IX, so every where
+
+01:29.295 --> 01:32.895
+we see the X in it's
+polynomial approximation,
+
+01:32.895 --> 01:34.631
+we would write an IX.
+
+01:34.631 --> 01:35.887
+So let's do that.
+
+01:35.887 --> 01:39.359
+So E to the IX should be
+approximately equal to,
+
+01:39.359 --> 01:41.230
+and it will become more and more equal,
+
+01:41.230 --> 01:42.543
+and this is more to give
+you an intuition I'm not
+
+01:42.543 --> 01:45.791
+doing a rigorous proof here,
+but it's still profound.
+
+01:45.791 --> 01:47.656
+Not to oversell it,
+but I don't think I can
+
+01:47.656 --> 01:50.608
+oversell what is about
+to be discovered or seen
+
+01:50.608 --> 01:56.310
+in this video, it would
+be equal to one plus
+
+01:56.310 --> 02:00.751
+instead of an X will have
+an IX, plus IX, plus,
+
+02:00.751 --> 02:04.319
+so what's IX squared?
+
+02:04.319 --> 02:06.224
+So let me write this down.
+
+02:06.224 --> 02:11.790
+What is IX squared over two factorial?
+
+02:11.790 --> 02:13.584
+Well I squared is going
+to be negative one,
+
+02:13.584 --> 02:16.346
+and then you'd have X
+squared over two factorials.
+
+02:16.346 --> 02:21.105
+It's going to be minus X
+squared over two factorial,
+
+02:21.105 --> 02:23.505
+I think you might see
+where this is going to go.
+
+02:23.505 --> 02:26.140
+And then what is IX?
+
+02:26.140 --> 02:27.287
+Remember everywhere we saw an X,
+
+02:27.287 --> 02:28.938
+we're going to replace it with an IX.
+
+02:28.938 --> 02:31.293
+So what is IX to the third power?
+
+02:31.293 --> 02:32.391
+Actually let me write this out,
+
+02:32.391 --> 02:34.863
+let me not skip some steps over here.
+
+02:34.863 --> 02:40.872
+So this is going to be IX
+squared over two factorial,
+
+02:40.872 --> 02:44.420
+actually let me, I want
+to do it just the way.
+
+02:44.420 --> 02:52.820
+So plus IX squared over two factorial,
+
+02:52.820 --> 02:57.229
+plus IX to the third over three factorial,
+
+02:57.229 --> 03:02.881
+plus IX to the fourth over four factorial,
+
+03:02.881 --> 03:07.940
+and we can keep going,
+plus IX to the fifth
+
+03:07.940 --> 03:11.370
+over five factorial, and
+we can just keep going
+
+03:11.370 --> 03:12.954
+so on and so forth.
+
+03:12.954 --> 03:15.682
+Let's evaluate if these
+IXs raised to these
+
+03:15.682 --> 03:17.898
+different powers.
+
+03:17.898 --> 03:23.371
+So this will be equal to one plus IX,
+
+03:23.371 --> 03:26.434
+IX squared, that's the
+same thing as I squared
+
+03:26.434 --> 03:29.329
+times X squared, I
+squared is negative one.
+
+03:29.329 --> 03:34.247
+So this is negative X
+squared over two factorial,
+
+03:34.247 --> 03:36.487
+and this is going to be the same thing as
+
+03:36.487 --> 03:38.570
+I to the third times X to the third.
+
+03:38.570 --> 03:40.595
+I to the third is the same thing as
+
+03:40.676 --> 03:44.145
+I squared times I, so it's
+going to be negative I.
+
+03:44.145 --> 03:47.737
+So this is going to be minus I times X to
+
+03:47.737 --> 03:51.518
+the third over three factorial.
+
+03:51.518 --> 03:56.651
+So then plus, you're going to have,
+
+03:56.651 --> 03:58.610
+what's I to the fourth power?
+
+03:58.610 --> 04:01.358
+So that's I squared squared.
+
+04:01.358 --> 04:03.226
+So that's negative one
+squared, that's just
+
+04:03.256 --> 04:03.926
+going to be one.
+
+04:03.926 --> 04:05.255
+So I to the fourth is one and
+
+04:05.255 --> 04:06.735
+then you have X to the fourth.
+
+04:06.735 --> 04:10.350
+Plus X to the fourth over four factorial.
+
+04:10.350 --> 04:13.639
+And then you're going
+to have, I don't even
+
+04:13.639 --> 04:15.359
+write the plus yet, I to the fifth.
+
+04:15.359 --> 04:18.583
+So I to the fifth is
+going to be one times I,
+
+04:18.583 --> 04:22.130
+so it's going to be I times X to the fifth
+
+04:22.130 --> 04:26.842
+over five factorials plus
+I times X to the fifth
+
+04:26.842 --> 04:28.225
+over five factorial.
+
+04:28.225 --> 04:29.906
+I think you might see a pattern here.
+
+04:29.906 --> 04:32.985
+Coefficient is one, then
+I, then negative one,
+
+04:32.985 --> 04:38.946
+then negative I, then one,
+then I, then negative one,
+
+04:38.946 --> 04:42.515
+X to the sixth over six factorial,
+
+04:42.515 --> 04:48.618
+and then negative IX to the seventh
+
+04:48.618 --> 04:51.131
+over seven factorial.
+
+04:51.131 --> 04:54.114
+So we have some terms,
+some of them are imaginary,
+
+04:54.114 --> 04:57.119
+they're being multiplied by I.
+
+04:57.119 --> 04:58.600
+Some of them are real.
+
+04:58.600 --> 05:02.983
+Why don't we separate them out?
+
+05:02.983 --> 05:04.653
+So once again, E to the IX, is going to be
+
+05:04.653 --> 05:06.694
+equal to this thing, especially as we add
+
+05:06.694 --> 05:08.125
+an infinite number of terms.
+
+05:08.125 --> 05:11.741
+Let's separate out the real
+and the non-real terms.
+
+05:11.741 --> 05:14.741
+Or the real and the
+imaginary terms I should say.
+
+05:14.741 --> 05:20.294
+So this is real, this
+is real, this is real,
+
+05:20.294 --> 05:23.732
+and this right over here is real.
+
+05:23.732 --> 05:27.445
+And obviously we could
+keep going on with that.
+
+05:27.445 --> 05:30.210
+So the real terms here are
+
+05:30.210 --> 05:34.261
+one minus X squared over two factorial
+
+05:34.261 --> 05:37.974
+plus X to the fourth over four factorial,
+
+05:37.974 --> 05:39.909
+you might be getting excited now,
+
+05:39.909 --> 05:43.638
+minus X to the sixth over six factorial
+
+05:43.638 --> 05:45.261
+and that's all I've done
+here, but they would
+
+05:45.261 --> 05:47.941
+keep going so plus so on and so forth.
+
+05:47.941 --> 05:50.930
+So that's all of the real terms.
+
+05:50.930 --> 05:52.197
+And what are the imaginary terms here.
+
+05:52.197 --> 05:55.130
+And I'll just factor out the I over here.
+
+05:55.130 --> 05:56.503
+Actually, let me just factor out.
+
+05:56.503 --> 06:02.862
+So it's going to be plus I times,
+well this is IX, so this will be X.
+
+06:02.862 --> 06:05.153
+And then the next, so
+that's an imaginary term,
+
+06:05.153 --> 06:06.440
+this is an imaginary term.
+
+06:06.440 --> 06:09.733
+We're factoring out the
+I, so minus X to the third
+
+06:09.733 --> 06:14.539
+over three factorial, and then the next
+
+06:14.539 --> 06:15.862
+imaginary term is right over there.
+
+06:15.862 --> 06:19.908
+We factor out the I,
+plus X to the fifth over
+
+06:19.908 --> 06:22.874
+five factorial and then
+the next imaginary term
+
+06:22.874 --> 06:24.483
+is right there, we factored out the I.
+
+06:24.483 --> 06:29.948
+So it's minus X to the
+seventh over seven factorial.
+
+06:29.948 --> 06:31.683
+And then we would obviously keep going.
+
+06:31.683 --> 06:34.475
+So plus minus keep going,
+so on and so forth,
+
+06:34.475 --> 06:36.372
+preferably to infinite
+so that we get as good
+
+06:36.372 --> 06:38.603
+of a approximation as possible.
+
+06:38.603 --> 06:43.140
+So we have a situation where E to the IX
+
+06:43.140 --> 06:47.275
+is equal to all of this business here.
+
+06:47.275 --> 06:50.371
+But you probably remember
+from the last two videos
+
+06:50.371 --> 06:53.360
+the real part, this was the polynomial,
+
+06:53.360 --> 06:57.520
+this was the Maclaurin
+approximation of cosine
+
+06:57.520 --> 07:00.364
+of X around I should say
+the Taylor approximation
+
+07:00.364 --> 07:02.300
+around zero or you could also call it the
+
+07:02.300 --> 07:03.843
+Maclaurin approximation.
+
+07:03.843 --> 07:07.579
+So this and this are the same thing.
+
+07:07.579 --> 07:11.219
+So this is cosine of
+X, especially when you
+
+07:11.219 --> 07:14.739
+added an infinite power
+of terms, cosine of X.
+
+07:14.739 --> 07:18.873
+This over here is sine of
+X, the exact same thing.
+
+07:18.873 --> 07:20.531
+So it looks like we're
+able to reconcile how
+
+07:20.531 --> 07:23.300
+you can add up cosine of X and sine of X
+
+07:23.300 --> 07:25.739
+to get something that's like E of the X.
+
+07:25.739 --> 07:29.245
+This right here is sine of X.
+
+07:29.245 --> 07:31.292
+And so if we take it for granted,
+
+07:31.292 --> 07:33.275
+I'm not rigorously proving it to you,
+
+07:33.275 --> 07:34.675
+and if you were to take an infinite number
+
+07:34.675 --> 07:36.963
+of terms here that this
+will essentially become
+
+07:36.963 --> 07:39.360
+cosine of X and if you
+take an infinite number
+
+07:39.360 --> 07:41.219
+of terms here this will become sine of X.
+
+07:41.219 --> 07:45.139
+It leads to a fascinating formula.
+
+07:45.139 --> 07:50.499
+We could say that E to the IX, is the same
+
+07:50.499 --> 07:54.995
+thing as cosine of X,
+and you should be getting
+
+07:54.995 --> 07:57.147
+goose pimples right around now.
+
+07:57.147 --> 08:02.764
+is equal to cosine of X,
+plus I times sine of X,
+
+08:02.764 --> 08:08.039
+This is Euler's Formula.
+
+08:08.039 --> 08:12.777
+And this right here is Euler's Formula.
+
+08:12.777 --> 08:14.961
+And if that by itself isn't exciting and
+
+08:14.961 --> 08:17.240
+crazy enough for you,
+because is really should be.
+
+08:17.240 --> 08:19.152
+Because we've already done
+some pretty cool things.
+
+08:19.152 --> 08:21.447
+We're involving E, which we get from
+
+08:21.447 --> 08:23.430
+continuous compounding interest.
+
+08:23.430 --> 08:25.430
+We have cosine and sine
+of X, which are ratios
+
+08:25.430 --> 08:28.344
+of right triangles, it comes
+out of the unit circle.
+
+08:28.344 --> 08:30.447
+And some how we've
+thrown in the square root
+
+08:30.447 --> 08:31.399
+of negative one.
+
+08:31.399 --> 08:34.526
+There seems to be this
+cool relationship here.
+
+08:34.526 --> 08:37.940
+But it becomes extra
+cool, and we're going to
+
+08:37.940 --> 08:38.430
+assume we're operating in radians here.
+
+08:38.430 --> 08:42.638
+If we assume Euler's Formula, what happens
+
+08:42.638 --> 08:44.998
+when X is equal to pi?
+
+08:44.998 --> 08:47.879
+Just to throw in another
+wacky number in there.
+
+08:47.879 --> 08:49.479
+The ratio between the circumference and
+
+08:49.479 --> 08:50.878
+the diameter of a cirle.
+
+08:50.878 --> 08:52.887
+What happens when we throw in pi?
+
+08:52.887 --> 09:01.847
+We get E to the Ipi is
+equal to cosine of pi.
+
+09:01.847 --> 09:06.469
+Cosine of pi is what?
+
+09:06.469 --> 09:10.920
+Pi is half way around the unit circle,
+
+09:10.920 --> 09:13.780
+so cosine of pi is negative one and then
+
+09:13.780 --> 09:18.564
+sine of pi is zero, so
+this term goes away.
+
+09:18.564 --> 09:20.676
+So if you evaluated at pi
+you get something amazing,
+
+09:20.676 --> 09:25.057
+it's called Euler's Identity.
+
+09:26.010 --> 09:27.945
+I always have trouble pronouncing Euler's.
+
+09:27.945 --> 09:32.114
+Euler's Identity, which
+we could write like this,
+
+09:32.114 --> 09:34.448
+or we could add one to both sides and
+
+09:34.448 --> 09:36.441
+we could write it like this.
+
+09:36.441 --> 09:39.267
+And I'll write it in
+different colors for emphasis.
+
+09:39.267 --> 09:51.515
+E to the I times pi plus one is equal to ,
+
+09:51.515 --> 09:53.100
+I'll do that in a neutral color,
+
+09:53.100 --> 09:55.149
+is equal to, I'm just
+adding one to both sides
+
+09:55.149 --> 09:59.778
+of this thing right over
+here, is equal to zero.
+
+09:59.778 --> 10:03.210
+And this is thought provoking.
+
+10:03.210 --> 10:06.273
+I mean here we have, this
+tells you that there's
+
+10:06.273 --> 10:08.900
+some connectedness to the universe that we
+
+10:08.900 --> 10:10.479
+don't fully understand or at least I don't
+
+10:10.479 --> 10:11.265
+fully understand.
+
+10:11.265 --> 10:13.843
+I is defined by engineers
+for simplicity so that
+
+10:13.843 --> 10:16.593
+they can find the roots of
+all sorts of polynomials.
+
+10:16.593 --> 10:23.349
+As you could say the square
+root of negative one.
+
+10:23.349 --> 10:26.714
+Pi is the ratio between the circumference
+
+10:26.714 --> 10:28.794
+of a circle and it's diameter.
+
+10:28.794 --> 10:30.233
+Once again another interesting number but
+
+10:30.233 --> 10:33.314
+seems like it comes from
+a different place as I.
+
+10:33.314 --> 10:35.379
+E comes from a bunch of different places.
+
+10:35.379 --> 10:37.169
+E you could either think of it comes out
+
+10:37.169 --> 10:39.546
+of continuing compounding interest,
+
+10:39.546 --> 10:41.913
+super valuable for finance.
+
+10:41.913 --> 10:43.688
+It also comes from the
+notion that the derivative
+
+10:43.688 --> 10:45.256
+of E to the X is also E to the X,
+
+10:45.256 --> 10:46.960
+another fascinating number.
+
+10:46.960 --> 10:49.360
+But once again seemingly
+unrelated to how we came
+
+10:49.360 --> 10:51.482
+up with I and seemingly unrelated
+
+10:51.482 --> 10:53.789
+with how we came up with pi.
+
+10:53.789 --> 10:56.266
+And then of course you
+have some of the most
+
+10:56.266 --> 10:58.561
+profound basic numbers right over here.
+
+10:58.561 --> 11:00.305
+You have one, I don't have to explain
+
+11:00.305 --> 11:01.896
+why one is a cool number.
+
+11:01.896 --> 11:05.264
+And I shouldn't have to explain
+why zero is a cool number.
+
+11:05.264 --> 11:06.913
+And so this right here connects all
+
+11:06.913 --> 11:11.688
+of these fundamental
+numbers in some mystical
+
+11:11.688 --> 11:12.976
+way that shows that there's some
+
+11:12.976 --> 11:15.538
+connectedness to the universe.
+
+11:15.538 --> 11:22.410
+So frankly, if this
+does not blow your mind,
+
+11:22.410 --> 11:26.288
+you really have no emotion.

@@ -1,0 +1,361 @@
+WEBVTT
+
+00:00.000 --> 00:01.016
+Ở đây chúng ta có
+
+00:01.016 --> 00:03.623
+đồ thị y = x^2,
+
+00:03.623 --> 00:06.496
+hay ít nhất là một phần của đồ thị y = x^2.
+
+00:06.496 --> 00:08.325
+Và điều đầu tiên mình muốn thực hiện
+
+00:08.325 --> 00:10.349
+là suy nghĩ về tỉ lệ thay đổi
+
+00:10.349 --> 00:12.334
+của y theo biến x
+
+00:12.334 --> 00:16.505
+trên khoảng x = 1 đến x = 3.
+
+00:16.505 --> 00:18.168
+Để mình viết chúng xuống.
+
+00:18.168 --> 00:21.668
+Chúng ta muốn biết tỉ lệ thay đổi trung bình
+
+00:24.011 --> 00:26.545
+của y theo biến x
+
+00:26.545 --> 00:30.897
+trên khoảng x từ 1 đến 3.
+
+00:30.897 --> 00:32.039
+Và đó là một khoảng đóng,
+
+00:32.039 --> 00:35.299
+mà x có thể bằng 1 và x cũng có thể bằng 3.
+
+00:35.299 --> 00:38.147
+Chúng ta có thể thực hiện mà không cần nhìn vào đồ thị.
+
+00:38.147 --> 00:40.275
+Nếu mình vẽ một bảng ở đây,
+
+00:40.275 --> 00:44.442
+nếu đây là x, và đây là y = x^2,
+
+00:45.290 --> 00:49.004
+khi x = 1 thì y = 1^2,
+
+00:49.004 --> 00:49.876
+tức là 1.
+
+00:49.876 --> 00:52.168
+Bạn có thể thấy rõ ở đồ thị.
+
+00:52.168 --> 00:55.068
+Và khi x = 3,
+
+00:55.068 --> 00:58.498
+y = 3^2, tức là 9.
+
+00:58.498 --> 01:01.976
+Đồ thị cho thấy khi x = 3,
+
+01:01.976 --> 01:03.559
+thì y = 9.
+
+01:04.636 --> 01:06.743
+Và để tìm ra tỉ lệ thay đổi trung bình
+
+01:06.743 --> 01:08.476
+của y theo biến x,
+
+01:08.476 --> 01:10.610
+bạn nói, "được rồi, độ biến thiên của x là gì?"
+
+01:10.610 --> 01:11.811
+Bạn có thể thấy rõ ràng là
+
+01:11.811 --> 01:14.171
+độ biến thiên của x trong khoảng này
+
+01:14.171 --> 01:16.409
+là +2.
+
+01:16.409 --> 01:19.909
+Vậy độ biến thiên của y trong khoảng đó là bao nhiêu?
+
+01:19.909 --> 01:22.678
+Độ biến thiên của y sẽ bằng với...
+
+01:22.678 --> 01:25.599
+Khi x tăng 2 từ 1 đến 3,
+
+01:25.599 --> 01:29.252
+y tăng 8, vậy ta được kết quả là +8.
+
+01:29.252 --> 01:31.080
+Vậy tỉ lệ biến thiên trung bình là gì?
+
+01:31.080 --> 01:33.670
+Nó sẽ bằng với biến thiên của y,
+
+01:33.670 --> 01:37.493
+chia cho biến thiên của x,
+
+01:37.502 --> 01:46.727
+là 8/2 và ta được 4.
+
+01:46.727 --> 01:49.383
+Vậy đó sẽ là độ biến thiên trung bình.
+
+01:49.383 --> 01:52.013
+Trên khoảng đó, trung bình
+
+01:52.013 --> 01:56.180
+mỗi lần x tăng thêm 1 thì y tăng thêm 4.
+
+01:57.515 --> 01:59.257
+Và chúng ta tính như thế nào?
+
+01:59.257 --> 02:01.129
+Ta nhìn biến thiên của x,
+
+02:01.129 --> 02:02.757
+để mình vẽ ra đây...
+
+02:02.757 --> 02:05.508
+Chúng ta nhìn vào độ biến thiên của x,
+
+02:05.508 --> 02:08.258
+và độ biến thiên của y,
+
+02:09.548 --> 02:12.700
+ở ngay đây,
+
+02:12.700 --> 02:15.313
+Ta lấy độ biến thiên của y chia cho độ biến thiên của x
+
+02:15.313 --> 02:17.533
+để được độ biến thiên trung bình.
+
+02:17.533 --> 02:20.084
+Bạn có thể thấy khá quen,
+
+02:20.084 --> 02:21.155
+bởi bạn đã từng nghĩ về
+
+02:21.155 --> 02:23.419
+độ biến thiên của y trên độ biến thiên của x
+
+02:23.419 --> 02:27.651
+như hệ số góc của một đường thẳng nối hai điểm.
+
+02:27.651 --> 02:30.499
+Và đó chính xác là những gì chúng ta vừa mới tính.
+
+02:30.499 --> 02:34.666
+Nếu bạn vẽ một đường cát tuyến giữa hai điểm này,
+
+02:35.810 --> 02:37.560
+chúng ta vừa mới tính
+
+02:37.560 --> 02:40.190
+hệ số góc của đường cát tuyến đó.
+
+02:40.190 --> 02:44.317
+Và độ biến thiên trung bình giữa hai điểm,
+
+02:44.317 --> 02:48.484
+thì giống y hệt như hệ số góc của cát tuyến.
+
+02:49.385 --> 02:51.266
+Bằng cách nhìn vào đường cát tuyến,
+
+02:51.266 --> 02:54.148
+và so sánh với đường cong trên khoảng đó,
+
+02:54.148 --> 02:55.898
+nó có thể giúp bạn thử tưởng tượng
+
+02:55.898 --> 02:58.719
+độ biến thiên trung bình sẽ như thế nào.
+
+02:58.719 --> 03:01.105
+Tại phần đầu của khoảng,
+
+03:01.105 --> 03:02.464
+bạn có thể nhìn thấy cát tuyến
+
+03:02.464 --> 03:04.693
+đang tăng dần với tốc độ nhanh hơn,
+
+03:04.693 --> 03:06.696
+nhưng khi chúng ta tiến gần tới 3,
+
+03:06.696 --> 03:08.367
+nhìn có vẻ như đường cong màu vàng
+
+03:08.367 --> 03:10.840
+đang tăng ở một tốc độ nhanh hơn cát tuyến,
+
+03:10.840 --> 03:12.852
+và chúng cuối cùng cũng đuổi kịp nhau.
+
+03:12.852 --> 03:14.872
+Đó là lí do vì sao hệ số góc của cát tuyến
+
+03:14.872 --> 03:16.605
+là độ biến thiên trung bình.
+
+03:16.605 --> 03:18.656
+Liệu đó có phải độ biến thiên trung bình tại mỗi điểm không?
+
+03:18.656 --> 03:19.980
+Tất nhiên là không.
+
+03:19.980 --> 03:22.877
+Độ biến thiên của đường cong liên tục thay đổi
+
+03:22.877 --> 03:24.340
+chậm hơn ở phần đầu
+
+03:24.350 --> 03:25.492
+của khoảng này,
+
+03:25.512 --> 03:28.307
+và sau đó nó tăng với độ biến thiên lớn hơn
+
+03:28.307 --> 03:30.177
+khi chúng ta càng tiến gần tới 3.
+
+03:30.177 --> 03:31.910
+Vậy trên khoảng này,
+
+03:31.910 --> 03:36.577
+độ biến thiên của y trên độ biến thiên của x là như nhau.
+
+03:36.577 --> 03:39.085
+Bạn có thể đang thắc mắc là
+
+03:39.085 --> 03:41.462
+tại sao bạn lại học cái này trong một lớp tích phân?
+
+03:41.462 --> 03:44.179
+Bạn không thể học trong lớp đại số được hay sao?
+
+03:44.179 --> 03:45.564
+Câu trả lời là có.
+
+03:45.564 --> 03:47.009
+Nhưng điều thú vị là
+
+03:47.009 --> 03:50.818
+một trong những nền tảng của tích phân là
+
+03:50.818 --> 03:52.620
+điều gì sẽ xảy ra khi những điểm này
+
+03:52.620 --> 03:54.501
+đang càng ngày càng gần lại với nhau?
+
+03:54.501 --> 03:57.653
+Chúng ta tìm ra độ biến thiên trung bình giữa 1 và 3
+
+03:57.653 --> 04:01.820
+hay hệ số góc của cát tuyến từ (1, 1) đến (3, 9).
+
+04:03.352 --> 04:06.487
+Nhưng nếu bạn thấy hệ số góc của cát tuyến
+
+04:06.487 --> 04:10.570
+giữa (2, 4) và (3, 9) thì sao?
+
+04:10.570 --> 04:13.113
+Nếu bạn thấy hệ số góc này sẽ như thế nào?
+
+04:13.113 --> 04:15.055
+Và nếu bạn muốn tiến gần hơn nữa thì sao?
+
+04:15.055 --> 04:17.519
+Giả sử bạn muốn tìm hệ số góc của cát tuyến
+
+04:17.519 --> 04:18.936
+giữa điểm
+
+04:20.434 --> 04:22.851
+(2.5, 6.25)
+
+04:24.230 --> 04:26.233
+và (3, 9)?
+
+04:26.233 --> 04:27.574
+Và điều gì xảy ra nếu bạn chỉ tiếp tục
+
+04:27.574 --> 04:29.838
+tiến gần và gần hơn nữa?
+
+04:29.838 --> 04:32.398
+Vậy thì, những hệ số góc của các cát tuyến này
+
+04:32.398 --> 04:34.078
+sẽ tiến càng gần hơn
+
+04:34.078 --> 04:38.589
+đến hệ số góc của tiếp tuyến tại x = 3.
+
+04:38.589 --> 04:41.506
+Và nếu bạn có thể tìm ra hệ số góc của tiếp tuyến,
+
+04:41.506 --> 04:43.012
+thì chúng ta đã sẵn sàng.
+
+04:43.012 --> 04:45.651
+Bởi vì chúng ta không nói về độ biến thiên trung bình,
+
+04:45.651 --> 04:46.678
+ta sẽ nói về
+
+04:46.678 --> 04:48.933
+độ biến thiên tức thời,
+
+04:48.933 --> 04:50.762
+một trong những ý trọng tâm,
+
+04:50.762 --> 04:52.495
+là đạo hàm,
+
+04:52.495 --> 04:54.045
+và chúng ta sẽ đến phần đó sớm thôi.
+
+04:54.045 --> 04:55.856
+Nhưng điều quan trọng là bạn biết được ở đây
+
+04:55.856 --> 04:58.468
+độ biến thiên trung bình giữa hai điểm
+
+04:58.468 --> 05:00.802
+bằng với hệ số góc của cát tuyến.
+
+05:00.802 --> 05:03.283
+Và khi những điểm này tiến gần với nhau hơn,
+
+05:03.283 --> 05:05.216
+và khi cát tuyến nối
+
+05:05.216 --> 05:07.384
+hai điểm gần với nhau hơn,
+
+05:07.384 --> 05:10.005
+thì khoảng cách giữa hai điểm,
+
+05:10.005 --> 05:12.618
+giữa giá trị x của các điểm tiến gần tới 0,
+
+05:12.618 --> 05:16.043
+sẽ xảy ra những điều rất thú vị.

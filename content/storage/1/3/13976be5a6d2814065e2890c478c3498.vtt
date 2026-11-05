@@ -1,0 +1,386 @@
+WEBVTT
+
+00:00.690 --> 00:04.000
+Dokončil jsem několik videí
+na binomickou větu,
+
+00:04.000 --> 00:07.550
+proto teď, když jsou hotová
+si myslím, že je čas na
+
+00:07.550 --> 00:13.660
+důkaz obecných derivací.
+
+00:13.660 --> 00:18.500
+Spočítám derivaci
+funkce x na n-tou.
+
+00:18.500 --> 00:20.300
+Teď, když známe binomickou vétu,
+
+00:20.300 --> 00:22.440
+máme k tomu potřebný aparát.
+
+00:22.440 --> 00:23.830
+Jak spočítat tuto derivaci?
+
+00:23.830 --> 00:26.070
+Podle definice je derivace
+
+00:26.070 --> 00:36.220
+limita pro delta x jdoucí k nule
+
+00:36.220 --> 00:39.130
+funkce f(x) plus delta x.
+
+00:39.130 --> 00:44.210
+V tomto případě je f(x) plus delta x
+
+00:44.210 --> 00:48.000
+rovno (x plus delta x) na n-tou.
+
+00:48.000 --> 00:52.720
+Odečtu f(x), co je v tomto
+případě x na n-tou,
+
+00:52.720 --> 00:54.100
+a celé vydělím delta x.
+
+00:54.100 --> 00:57.710
+.
+
+00:57.710 --> 01:01.610
+Teď, když už známe binomickou větu,
+můžeme určit
+
+01:01.610 --> 01:05.200
+rozvoj (x plus delta x) na n-tou.
+
+01:05.200 --> 01:07.340
+Pokud neznáte binomickou větu,
+podívejte se na můj
+
+01:07.340 --> 01:10.040
+seznam videí k prerekvizitám kalkulu
+a podívejte se na video
+
+01:10.040 --> 01:11.710
+o binomické větě.
+
+01:11.710 --> 01:15.290
+Binomická věta hovoří, že
+tento výraz se rovná
+
+01:15.290 --> 01:20.170
+(budu potřebovat víc místa)
+limitě pro
+
+01:20.170 --> 01:23.310
+delta x jdoucí k nule...
+
+01:23.310 --> 01:24.860
+A binomická věta říká,
+
+01:24.860 --> 01:26.960
+že čitatel tohoto zlomku
+
+01:26.960 --> 01:39.630
+je roven x na n-tou
+plus n nad jednou...
+
+01:39.630 --> 01:42.440
+(Pokud je to pro vás španělská vesnice,
+
+01:42.440 --> 01:44.340
+podívejte se na video o binomické větě.)
+
+01:44.340 --> 02:00.780
+... n nad jednou krát x na n mínus první
+krát delta x plus n nad dvěma krát
+
+02:00.780 --> 02:07.650
+x na n mínus druhou
+krát delta x na druhou
+
+02:07.650 --> 02:10.490
+plus několik dalších členů,
+
+02:10.490 --> 02:12.560
+které není třeba rozepisovat,
+
+02:12.560 --> 02:14.810
+ale postupují dle binomické věty
+
+02:14.810 --> 02:20.790
+až k poslednímu členu,
+který je roven jedné,
+
+02:20.790 --> 02:22.450
+neboli n nad n.
+
+02:22.450 --> 02:26.030
+Rozvoj tedy končí členem n nad n
+
+02:26.030 --> 02:36.920
+krát x na nultou
+krát delta x na n-tou.
+
+02:36.920 --> 02:39.030
+Tohle je tedy binomický rozvoj.
+
+02:39.030 --> 02:44.450
+Celý tenhle řádek zelenou barvou
+je vlastně rozvoj (x plus delta x) na n-tou,
+
+02:44.450 --> 02:49.740
+takže teď odečtu x na n-tou.
+
+02:49.740 --> 02:51.840
+(Je to x na n-tou, i když natěsno.)
+
+02:51.840 --> 02:56.810
+Všechno vydělím delta x.
+
+02:56.810 --> 02:58.590
+Můžu něco zjednodušit?
+
+02:58.590 --> 03:00.940
+Na začátku máme x na n-tou
+
+03:00.940 --> 03:05.880
+a úplně na konci také,
+takže tyto dva se vzájemně vyruší.
+
+03:05.880 --> 03:09.080
+Každý zbývající člen v čitateli
+
+03:09.080 --> 03:13.310
+obsahuje delta x, které se vyruší
+
+03:13.310 --> 03:16.820
+s delta x ve jmenovateli.
+
+03:16.820 --> 03:19.210
+Je to to samé, jako jedna lomeno x krát
+
+03:19.210 --> 03:19.960
+"zelený" výraz.
+
+03:19.960 --> 03:29.670
+To je rovno limitě pro delta x jdoucí k nule...
+
+03:29.670 --> 03:31.910
+Vydělíme čitatel a jmenovatel delta x,
+
+03:31.910 --> 03:34.530
+neboli vynásobíme čitatel členem
+jedna lomeno delta x
+
+03:34.530 --> 03:42.310
+a dostaneme n nad jednou
+krát x na n mínus první,
+
+03:42.310 --> 03:45.580
+protože delta x děleno delta x
+je prostě jedna.
+
+03:45.580 --> 03:52.440
+Plus n nad dvěma krát x na n mínus druhou...
+
+03:52.440 --> 03:56.310
+Tady je delta x na druhou,
+ale dělíme delta x,
+
+03:56.310 --> 03:57.940
+takže zůstane jenom
+
+03:57.940 --> 03:59.490
+delta x.
+
+03:59.490 --> 04:02.100
+Teď pokračují další členy a
+
+04:02.100 --> 04:04.180
+každý z nich dělíme delta x.
+
+04:04.180 --> 04:07.190
+Poslední člen obsahuje delta x na n-tou,
+
+04:07.190 --> 04:09.130
+ale i ten vydělíme delta x.
+
+04:09.130 --> 04:14.550
+Poslední člen bude tedy
+n nad n krát x na nultou, tedy jedna,
+
+04:14.550 --> 04:17.940
+což můžeme ignorovat a
+delta x na n-tou děleno delta x.
+
+04:17.940 --> 04:21.910
+To je delta x na n mínus první.
+
+04:25.150 --> 04:26.690
+Pro zopakování:
+
+04:26.690 --> 04:28.505
+počítáme limitu pro delta x
+
+04:28.505 --> 04:30.760
+jdoucí k nule.
+
+04:30.760 --> 04:33.220
+Když delta x jde k nule, každý člen
+
+04:33.220 --> 04:37.290
+obsahující delta x se změní na nulu.
+
+04:37.290 --> 04:40.850
+Při násobení nulou je výsledek nula.
+
+04:40.850 --> 04:42.650
+První člen sice neobsahuje delta x,
+
+04:42.650 --> 04:43.730
+ale všechny ostatní ano.
+
+04:43.730 --> 04:45.950
+I po dělení delta x v nich
+
+04:45.950 --> 04:46.680
+zústalo delta x.
+
+04:46.680 --> 04:47.930
+Takže to je nula.
+
+04:47.930 --> 04:50.970
+Každý z dalších n mínus jedna členů
+
+04:50.970 --> 04:52.940
+se změní v nulu.
+
+04:52.940 --> 04:58.390
+Zůstane jenom n nad jednou krát
+
+04:58.390 --> 05:02.520
+x na n mínus první.
+
+05:02.520 --> 05:04.530
+Kolik je n nad jednou?
+
+05:04.530 --> 05:13.070
+To je rovno n faktoriál lomeno
+jedna faktoriál krát n mínus jedna
+
+05:13.070 --> 05:17.170
+faktoriál, krát x na n mínus první.
+
+05:17.170 --> 05:19.390
+Jedna faktoriál je jedna.
+
+05:19.390 --> 05:23.430
+Napŕíklad sedm faktoriál děleno
+šest faktoriál je sedm.
+
+05:23.430 --> 05:26.070
+Nebo tři faktoriál děleno
+dva faktoriál je tři.
+
+05:26.070 --> 05:27.650
+Dá se to spočítat.
+
+05:27.650 --> 05:30.660
+Nebo deset faktoriál děleno
+devět faktoriál je deset,
+
+05:30.660 --> 05:32.830
+Takže n faktoriál děleno
+n mínus jedna faktoriál
+
+05:32.830 --> 05:34.600
+je rovno n.
+
+05:34.600 --> 05:39.540
+Takže tento výraz je roven
+n krát x na n mínus první.
+
+05:39.540 --> 05:43.866
+To je derivace x na n-tou:
+
+05:43.866 --> 05:45.900
+n krát x na n mínus první.
+
+05:45.900 --> 05:52.470
+Dokázal jsem, čemu je rovna derivace
+
+05:52.470 --> 05:55.610
+x na n-tou pro každé pŕirozené číslo n.
+
+05:55.610 --> 05:59.790
+Později uvidíme, že to platí i pro
+
+05:59.790 --> 06:02.990
+všechny reálné čísla a exponent.
+
+06:02.990 --> 06:05.980
+Nashledanou v dalším videu.
+
+06:05.980 --> 06:08.860
+Ještě bych zdůraznil, že na začátku jsem říkal,
+
+06:08.860 --> 06:10.150
+že je třeba znát binomickou větu.
+
+06:10.150 --> 06:12.050
+Ale když se nad tím zamyslíte,
+
+06:12.050 --> 06:15.630
+není ji třeba znát, protože pro každý
+
+06:15.630 --> 06:17.960
+binomický rozvoj po chvilce
+
+06:17.960 --> 06:19.350
+experimentování
+
+06:19.350 --> 06:25.470
+zistíte, že když rozvinete a plus b na n-tou,
+
+06:25.470 --> 06:29.040
+první člen bude a na n-tou,
+
+06:29.040 --> 06:35.670
+druhý člen bude plus n krát
+a na n mínus první krát b
+
+06:35.670 --> 06:37.320
+a takhle to pokračuje pro další členy.
+
+06:37.320 --> 06:40.190
+Ale pro tento důkaz stačí jen prvních
+
+06:40.190 --> 06:43.575
+pár členů, protože všechny ostatní
+se vyruší, když delta x
+
+06:43.575 --> 06:44.980
+jde k nule.
+
+06:44.980 --> 06:47.110
+Takže to jde i bez binomické věty,
+
+06:47.110 --> 06:49.150
+ale je lepší, když ji znáte.
+
+06:49.150 --> 06:50.880
+Nechci vás zmást,
+
+06:50.880 --> 06:56.840
+říkám jen, že si stačilo uvědomit,
+že všechny další členy jdou k nule.
+
+06:56.840 --> 06:59.700
+Doufám, že se vám důkaz líbil.
+
+06:59.700 --> 07:01.960
+Nashledanou příště.

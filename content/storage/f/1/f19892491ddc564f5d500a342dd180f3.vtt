@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.288 --> 00:12.022
+V tomto videu spočítáme derivaci podle x
+z (x na druhou krát sin(x)) na třetí.
+
+00:12.022 --> 00:15.035
+Zajímavé na tom je, že to lze
+spočítat různými způsoby.
+
+00:15.035 --> 00:19.811
+Zastavte si teď video a zkuste
+to spočítat samostatně.
+
+00:19.811 --> 00:22.472
+Můžete použít
+vícero postupů.
+
+00:22.472 --> 00:25.864
+Jedním z nich je nejdřív použít
+pravidlo pro derivaci složené funkce.
+
+00:25.864 --> 00:30.025
+Napíšu tu C.R., aby bylo vidět, že jako
+první bude derivace složené funkce.
+
+00:30.025 --> 00:34.972
+Hledáme derivaci podle x
+z něčeho na třetí.
+
+00:34.972 --> 00:40.059
+Když to tedy zderivujeme, bude to
+derivace podle toho něčeho,
+
+00:40.059 --> 00:45.074
+což je 3 krát to
+něco na druhou,
+
+00:45.074 --> 00:50.576
+krát derivace podle x
+z toho něčeho,
+
+00:50.576 --> 00:59.552
+přičemž ono něco je v našem
+případě x na druhou krát sin(x).
+
+00:59.552 --> 01:03.054
+Jen jsem použil pravidlo
+pro derivaci složené funkce.
+
+01:03.054 --> 01:07.473
+Čemu se rovná
+tato druhá část?
+
+01:07.473 --> 01:10.624
+Vyznačím to jinou barvou,
+třeba oranžovou.
+
+01:10.624 --> 01:12.975
+Zde musíme použít
+vzorec pro derivaci součinu.
+
+01:12.975 --> 01:16.604
+Máme součin dvou výrazů,
+takže zderivujeme...
+
+01:16.604 --> 01:17.434
+Raději to napíšu.
+
+01:17.443 --> 01:22.736
+Nyní tedy používáme
+pravidlo pro derivaci součinu.
+
+01:22.736 --> 01:25.859
+Musíme zderivovat
+první výraz...
+
+01:25.859 --> 01:30.264
+Derivace x na
+druhou je 2 krát x.
+
+01:30.264 --> 01:31.830
+Napíšu to
+víc doprava.
+
+01:31.830 --> 01:36.527
+Bude to 2 krát x krát
+druhý výraz, tedy krát sin(x),
+
+01:36.527 --> 01:42.249
+plus první výraz krát derivace
+druhého výrazu, tedy krát cos(x).
+
+01:42.249 --> 01:46.962
+Jen jsem na tuto část použil
+pravidlo pro derivaci součinu.
+
+01:46.962 --> 01:50.552
+Tohle celé samozřejmě násobíme
+celým tímhle výrazem vepředu,
+
+01:50.552 --> 01:53.750
+takže to napíšu.
+
+01:53.750 --> 02:02.321
+Tohle celé mohu
+napsat jako 3 krát...
+
+02:02.321 --> 02:04.462
+Když máme součin dvou
+věcí umocněný na druhou,
+
+02:04.462 --> 02:07.134
+tak můžeme obě umocnit na
+druhou a až pak je vynásobit.
+
+02:07.134 --> 02:10.947
+(x na druhou) na druhou
+je x na čtvrtou
+
+02:10.947 --> 02:15.743
+a sin(x) na druhou je
+sinus na druhou v bodě x.
+
+02:15.743 --> 02:18.521
+Tohle celé pak vynásobíme
+tímhle výrazem.
+
+02:18.521 --> 02:21.641
+Kdybychom chtěli, mohli bychom
+to algebraicky nějak zjednodušit.
+
+02:21.641 --> 02:24.545
+Můžeme to takhle
+roznásobit.
+
+02:24.545 --> 02:27.351
+Co nám
+pak vyjde?
+
+02:27.351 --> 02:28.261
+Pojďme na to.
+
+02:28.261 --> 02:34.811
+3 krát 2 je 6, x na čtvrtou
+krát x je x na pátou,
+
+02:34.811 --> 02:40.302
+sinus na druhou v bodě x krát
+sin(x) je sin(x) na třetí.
+
+02:40.302 --> 02:43.645
+Poté plus 3...
+
+02:43.645 --> 02:47.215
+x na čtvrtou krát
+x na druhou je x na šestou
+
+02:47.215 --> 02:53.227
+a pak tam ještě bude sinus na druhou
+v bodě x vynásobený kosinem.
+
+02:53.227 --> 02:57.459
+To je jeden možný postup, nejprve derivace
+složené funkce, potom derivace součinu.
+
+02:57.459 --> 02:59.138
+Jaký by byl další
+možný postup?
+
+02:59.138 --> 03:01.788
+Zastavte si video a zkuste
+se nad tím zamyslet.
+
+03:01.788 --> 03:06.300
+Nejdříve bychom mohli využít
+vlastnosti mocnin z algebry.
+
+03:06.300 --> 03:14.313
+Pokud to uděláme,
+dostaneme derivaci podle x z...
+
+03:14.313 --> 03:17.395
+Když výraz x na druhou
+krát sin(x) mocníme na třetí,
+
+03:17.395 --> 03:28.419
+tak (x na druhou) na třetí je x na
+šestou, tohle krát sin(x) na třetí.
+
+03:28.419 --> 03:30.779
+Používám stejnou
+vlastnost mocnin,
+
+03:30.779 --> 03:33.925
+kterou jsme tady použili při
+zjednodušování tohoto výrazu.
+
+03:33.925 --> 03:37.096
+Když máme součin dvou věcí
+umocněný na nějakou mocninu,
+
+03:37.096 --> 03:41.736
+tak je to totéž jako každou věc umocnit
+na danou mocninu a pak to vynásobit.
+
+03:41.736 --> 03:43.689
+Jak teď
+spočítáme tohle?
+
+03:43.689 --> 03:47.550
+Já bych nejprve použil
+pravidlo pro derivaci součinu.
+
+03:47.550 --> 03:48.907
+Tak to udělejme.
+
+03:48.907 --> 03:52.329
+Použijme pravidlo
+pro derivaci součinu.
+
+03:52.329 --> 03:55.820
+Bude to derivace
+prvního výrazu...
+
+03:55.820 --> 04:01.169
+Derivace x na šestou je
+6 krát x na pátou.
+
+04:01.169 --> 04:07.676
+...krát druhý výraz, tedy krát sinus
+na třetí v bodě x neboli sin(x) na třetí,
+
+04:07.676 --> 04:11.854
+plus první výraz, tedy x na šestou,
+krát derivace druhého výrazu,
+
+04:11.854 --> 04:19.827
+kterou zatím napíšu jen jako
+d lomeno dx z sin(x) na třetí.
+
+04:19.827 --> 04:22.987
+Abychom
+spočítali tohle,
+
+04:22.987 --> 04:31.535
+určitě dává smysl použít pravidlo
+pro derivaci složené funkce.
+
+04:31.535 --> 04:34.004
+Čemu se tohle
+tedy bude rovnat?
+
+04:34.004 --> 04:36.575
+Máme derivaci
+něčeho na třetí,
+
+04:36.575 --> 04:43.495
+takže to bude 3 krát to něco na
+druhou krát derivace toho něčeho.
+
+04:43.495 --> 04:49.607
+V našem případě se ono něco rovná
+sin(x) a derivace sin(x) je cos(x).
+
+04:49.607 --> 04:51.657
+K tomu ještě
+musíme přičíst tohle,
+
+04:51.657 --> 05:01.793
+takže to bude 6 krát x na pátou
+krát sin(x) na třetí plus x na šestou.
+
+05:01.799 --> 05:03.941
+Kdybych tohle ještě
+trochu zjednodušil...
+
+05:03.941 --> 05:05.528
+I když už
+asi dobře vidíte,
+
+05:05.528 --> 05:08.117
+že tyto dva výrazy
+jsou si rovny.
+
+05:08.117 --> 05:13.203
+Tento člen se přesně rovná
+tomuto členu, je i stejně napsaný,
+
+05:13.203 --> 05:15.195
+a tenhle člen
+je přesně...
+
+05:15.195 --> 05:21.237
+Když tady roznásobíme, je to 3 krát x na
+šestou krát sin(x) na druhou krát cos(x).
+
+05:21.237 --> 05:24.742
+Na matematice je hezké to, že když
+postupujeme v souladu s logikou,
+
+05:24.742 --> 05:26.642
+měli bychom se
+dobrat téhož výsledku.
+
+05:26.642 --> 05:29.313
+Hlavní na tom všem je, že
+existuje více možných postupů.
+
+05:29.313 --> 05:31.840
+Nejprve můžete zderivovat
+složenou funkci, pak součin,
+
+05:31.848 --> 05:34.282
+nebo nejprve součin
+a pak složenou funkci.
+
+05:34.282 --> 05:36.720
+V tomto případě není úplně
+jasné, co je rychlejší.
+
+05:36.720 --> 05:41.646
+Vypadá to, že postup vpravo
+je trochu rychlejší, ale někdy...
+
+05:41.646 --> 05:43.173
+Oba byly skoro
+stejně rychlé.
+
+05:43.173 --> 05:47.110
+Někdy však bude jasné,
+který z postupů je lepší použít.
+
+05:47.110 --> 05:50.955
+Je totiž dobré
+minimalizovat počet kroků,
+
+05:50.955 --> 05:53.819
+protože v nich akorát můžeme
+udělat zbytečné chyby.

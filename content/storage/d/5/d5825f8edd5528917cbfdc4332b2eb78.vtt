@@ -1,0 +1,183 @@
+WEBVTT
+
+00:00.580 --> 00:04.900
+I förra videon fann vi lutningen vid en särskild punkt
+
+00:04.900 --> 00:07.035
+på kurvan y = x^2
+
+00:07.035 --> 00:09.700
+Men låt oss se om vi kan generalisera detta och komma
+fram till
+
+00:09.700 --> 00:12.780
+en formel som ger oss lutningen vid vilken punkt som helst
+
+00:12.780 --> 00:15.350
+längs kurvan y = x^2.
+
+00:15.350 --> 00:18.000
+Så låt mig bara rita om min funktion här.
+
+00:18.000 --> 00:21.720
+Det skadar aldrig att ha en fin skiss.
+
+00:21.720 --> 00:24.530
+Så detta är min y-axel.
+
+00:24.530 --> 00:28.420
+Det där är min x-axel.
+
+00:28.420 --> 00:29.580
+Min x-axel.
+
+00:29.580 --> 00:30.670
+Låt mig rita min kurva.
+
+00:30.670 --> 00:32.900
+Den ser ut något i stil med detta.
+
+00:32.900 --> 00:34.210
+Du har sett där här flertalet gånger.
+
+00:34.210 --> 00:37.970
+Det är y = x^2 .
+
+00:37.970 --> 00:39.740
+Låt mig nu vara väldigt generell.
+
+00:39.740 --> 00:42.600
+Kom i håg, om vi vill hitta ---
+låt mig bara skriva
+
+00:42.600 --> 00:44.600
+definitionen av vår derivata.
+
+00:44.600 --> 00:48.450
+Så om vi har något punkt här - låt oss kalla den för x.
+
+00:48.450 --> 00:49.630
+Så vi ska nu vara väldigt generella.
+
+00:49.630 --> 00:52.470
+Vi vill hitta lutningen vid punkten x.
+
+00:52.470 --> 00:55.190
+Vi vill hitta en funktion där jag från ett givet x
+
+00:55.190 --> 00:57.010
+kan räkna ut lutningen vid den punkten.
+
+00:57.010 --> 00:59.800
+Vi kommer kalla detta F för "f prim av x".
+
+00:59.800 --> 01:06.210
+Det är derivatan av f (x).
+
+01:06.210 --> 01:09.830
+Men kolla, allt den gör, f (x) -- det är en funktion
+
+01:09.830 --> 01:12.670
+så om du bestämmer ett värde på x, ger den ett värde på kurvan.
+
+01:12.670 --> 01:14.810
+Vi ritar den här.
+
+01:14.810 --> 01:19.470
+Men med f (x), om du ger det samma x ett värde, kommer den inte ge dig
+
+01:19.470 --> 01:21.050
+ett värde på kurvan.
+
+01:21.050 --> 01:22.760
+Den kommer inte säga, åhh, det här är ditt f (x).
+
+01:22.760 --> 01:24.855
+den kommer i stället ge dig värdet på kurvans lutningen
+
+01:24.855 --> 01:26.280
+vid vilken punkt som helst.
+
+01:26.280 --> 01:28.790
+Så f (x), om du sätter in det i den funktionen, borde den ge
+
+01:28.790 --> 01:31.540
+lutningen vid varje punkt, är lika med -- Du förstår,
+
+01:31.540 --> 01:33.360
+om du sätter in 3 där, kommer du se, Oh, lutningen är
+
+01:33.360 --> 01:34.220
+lika med 6.
+
+01:34.220 --> 01:35.590
+Vi såg det i förra exemplet.
+
+01:35.590 --> 01:37.410
+Så det är vad vi vill göra.
+
+01:37.410 --> 01:40.600
+Och vi såg på förr-förra videon
+
+01:40.600 --> 01:47.130
+att vi definierar f´(x) till att vara lika med...
+
+01:47.130 --> 01:48.470
+Eller vänta, jag skriver så här istället.
+
+01:48.470 --> 01:51.210
+Det är lutningen på sekanten mellan x och någon
+
+01:51.210 --> 01:53.540
+punkt som är en liten bit från x.
+
+01:53.540 --> 01:56.640
+Så lutningen på sekanten är ändringen i y.
+
+01:56.640 --> 02:00.940
+Så det är en punkts y-värdet som är en liten
+
+02:00.940 --> 02:02.290
+bit i från x.
+
+02:02.290 --> 02:07.630
+Så f (x), plus h minus y-värdet vid x. Eller hur?
+
+02:07.630 --> 02:08.600
+Eftersom det är här.
+
+02:08.600 --> 02:11.200
+Det här är f (x).
+
+02:11.200 --> 02:13.820
+Så minus f (x).
+
+02:13.820 --> 02:15.830
+Allt det dividerat med ändringen i x.
+
+02:15.830 --> 02:19.620
+Så om det här är x + h, ändringen i x
+
+02:19.620 --> 02:21.740
+är x + h minus x
+
+02:21.740 --> 02:23.470
+Avståndet här är enbart h.
+
+02:23.470 --> 02:26.830
+ändringen i x kommer vara lika med h.
+
+02:26.830 --> 02:29.150
+Så det är bara sekantens lutningen, melan
+
+02:29.150 --> 02:31.240
+vilka två sådana punkter.
+
+02:31.240 --> 02:33.880
+Och vi ser, hey, vi kan finna lutningen för den tangerade linjen
+
+02:33.880 --> 02:36.390
+om vi bara tar gränsvärdet av det när
+
+02:36.390 --> 02:40.060
+h närmar sig 0.

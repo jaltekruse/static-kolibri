@@ -1,0 +1,571 @@
+WEBVTT
+
+00:00.606 --> 00:02.305
+Chúng ta có một chuỗi vô hạn ở đây.
+
+00:02.305 --> 00:05.113
+(-1)^(n +1) tất cả chia cho căn bậc hai của n.
+
+00:05.113 --> 00:06.630
+Mình muốn biểu diễn biểu thức này
+
+00:06.630 --> 00:08.276
+và khai triển nó ra.
+
+00:08.276 --> 00:10.685
+vậy khi n = 1, tử số sẽ bằng
+
+00:10.685 --> 00:12.461
+(-1)^2 và kết quả là một số dương.
+
+00:12.461 --> 00:14.387
+vậy nó sẽ bằng với 1/1 hay 1.
+
+00:14.387 --> 00:16.929
+trừ đi 1/√2
+
+00:16.929 --> 00:19.575
+cộng 1/√3,
+
+00:19.575 --> 00:22.115
+trừ 1/√4 và sau đó
+
+00:22.115 --> 00:25.379
+cộng, trừ, và chúng ta chỉ cần tiếp tục cứ như vậy mãi.
+
+00:26.002 --> 00:28.810
+Bây giờ chúng ta nhìn lại những bài kiểm tra về chuỗi hội tụ
+
+00:28.810 --> 00:32.218
+cho một chuỗi vô hạn như thế này.
+
+00:32.235 --> 00:35.102
+Biểu thức này là một chuỗi đan dấu
+
+00:35.102 --> 00:37.015
+và chúng ta biết là nó hội tụ.
+
+00:37.015 --> 00:40.063
+Cho là nó hội tụ tại giá trị S.
+
+00:40.473 --> 00:42.401
+Nhưng điều đáng quan tâm không phải
+
+00:42.401 --> 00:44.923
+là nó có hội tụ hay không
+
+00:44.923 --> 00:47.436
+mà giá trị S nó sẽ hội tụ là gì.
+
+00:47.436 --> 00:51.197
+Chúng ta có thể ước lượng bằng tính tổng một phần.
+
+00:51.827 --> 00:55.844
+Chúng ta có Sk, k biểu thị những số hạng đầu tiên
+
+00:55.844 --> 00:57.561
+và sau đó bạn sẽ có một phần dư,
+
+00:57.561 --> 01:01.953
+nên ta sẽ cộng thêm phần dư sau khi đã có tổng k số hạng đầu tiên
+
+01:01.953 --> 01:04.882
+Nên ta sẽ bắt đầu với...
+
+01:05.283 --> 01:07.335
+Và điều mình quan tâm ở đây
+
+01:07.335 --> 01:10.843
+là tìm ra số số hạng nhỏ nhất,
+
+01:10.843 --> 01:15.030
+hay giá trị nhỏ nhất của k là gì,
+
+01:15.030 --> 01:17.666
+để giá trị tuyệt đối của phần dư
+
+01:17.666 --> 01:22.666
+sẽ ít hơn hoặc bằng 0.001.
+
+01:23.327 --> 01:25.024
+Và mình khuyến khích bạn dừng video này lại và
+
+01:25.024 --> 01:26.403
+dựa trên những gì biết được từ
+
+01:26.403 --> 01:28.981
+những chuỗi đan dấu trước đó
+
+01:28.981 --> 01:30.663
+để xem bạn giải được không nha.
+
+01:31.620 --> 01:35.552
+Được rồi, mình nghĩ bạn đã thử làm.
+
+01:35.552 --> 01:39.210
+Trước hết hãy nhớ lại Rk sẽ là gì.
+
+01:39.210 --> 01:44.210
+Rk sẽ bắt đầu bằng k cộng số hạng đầu tiên.
+
+01:46.211 --> 01:50.071
+vậy nó sẽ bằng với (-1)^(k + 1 + 1)
+
+01:50.071 --> 01:54.483
+tức là (-1)^(k + 2) tất cả trên
+
+01:54.483 --> 01:59.483
+√(k + 1)
+
+02:02.415 --> 02:06.343
+và sau đó hạng tử tiếp theo, mình cộng với
+
+02:06.343 --> 02:10.465
+(-1)^(k + 3) tất cả trên
+
+02:10.465 --> 02:14.211
+√(k + 2).
+
+02:14.235 --> 02:17.668
+Và nó sẽ tiếp tục như vậy mãi.
+
+02:17.732 --> 02:20.683
+Chúng ta đã thấy một ví dụ
+
+02:20.683 --> 02:23.242
+và sẽ xác minh hoặc ít nhất một khái niệm
+
+02:23.242 --> 02:27.872
+để kiểm tra ở cuối video này là
+
+02:27.872 --> 02:32.872
+giá trị tuyệt đối của cả tổng này sẽ
+
+02:34.022 --> 02:36.397
+nhỏ hơn giá trị tuyệt đối của số hạng đầu tiên.
+
+02:36.397 --> 02:37.842
+Để mình viết xuống nha.
+
+02:37.842 --> 02:42.842
+Giá trị tuyệt đối của cả phần dư Rk...
+
+02:42.881 --> 02:45.280
+và một vài bạn coi nó là
+
+02:45.280 --> 02:48.232
+phần dư của chuỗi đan dấu
+
+02:48.232 --> 02:49.998
+hay bất cứ gì bạn muốn gọi.
+
+02:49.998 --> 02:52.184
+Nhưng giá trị tuyệt đối của phần dư
+
+02:52.184 --> 02:55.671
+sẽ nhỏ hơn hoặc bằng giá trị tuyệt đối
+
+02:55.671 --> 03:00.671
+số hạng đầu tiên, tức là (-1)^(k + 2)
+
+03:00.848 --> 03:04.822
+tất cả trên căn bậc hai của (k + 1)
+
+03:04.822 --> 03:08.631
+và tất nhiên là chúng ta muốn nó nhỏ hơn 1/1000.
+
+03:08.631 --> 03:13.631
+Nên kết quả cần phải nhỏ hơn hoặc bằng 0.001.
+
+03:14.786 --> 03:17.480
+Và những thứ mình mới thiết lập có thể
+
+03:17.480 --> 03:19.752
+truyền bạn cảm hứng, mình mong bạn dừng video
+
+03:19.752 --> 03:21.574
+và xem là mình có thể tự tìm ra
+
+03:21.574 --> 03:26.266
+giá trị k nhỏ nhất thỏa mãn bất đẳng thức này không.
+
+03:27.422 --> 03:30.690
+Mình cho rằng các bạn đã thử hết rồi.
+
+03:30.690 --> 03:32.820
+Và chìa khóa ở đây là
+
+03:32.820 --> 03:35.174
+(-1)^(k + 2) sẽ khiến
+
+03:35.174 --> 03:36.435
+cả tử số dương hoặc âm.
+
+03:36.435 --> 03:38.514
+và mẫu số sẽ có kết quả dương.
+
+03:38.514 --> 03:40.826
+Vậy chắc chắn là nó sẽ dương với tất cả
+
+03:40.826 --> 03:43.089
+ks cho mỗi căn bậc hai dương
+
+03:43.089 --> 03:44.691
+được xác định nhưng rõ ràng là
+
+03:44.691 --> 03:47.320
+Ks ở đây đều có giá trị dương hết.
+
+03:47.320 --> 03:50.128
+Và tử số ở đây sẽ đổi dấu
+
+03:50.128 --> 03:52.999
+giữa -1 và +1
+
+03:52.999 --> 03:54.616
+-1 hay +1.
+
+03:54.616 --> 03:58.074
+Nhưng nếu lấy giá trị tuyệt đối thì
+
+03:58.074 --> 04:00.358
+dù có âm hay dương đi nữa thì kết quả vẫn là số dương.
+
+04:00.358 --> 04:05.358
+Vậy ở phía bên trái
+
+04:06.480 --> 04:11.480
+bằng 1/√(k + 1)
+
+04:13.886 --> 04:18.886
+và nhỏ hơn hoặc bằng 0.001.
+
+04:21.132 --> 04:24.544
+và bây giờ chúng ta chỉ cần giải bất đẳng thức này thôi.
+
+04:24.544 --> 04:28.105
+Tìm ra ks nào thỏa mãn bất phương trình này.
+
+04:28.105 --> 04:30.310
+Như bạn thấy, chúng ta có thể nhân cả hai vế với
+
+04:30.310 --> 04:32.547
+√(k + 1)
+
+04:32.547 --> 04:35.135
+Vậy chúng ta có thể loại √(k + 1)
+
+04:35.135 --> 04:36.904
+ra khỏi mẫu số.
+
+04:36.904 --> 04:39.990
+Và hãy tiếp tục nhân cả hai vế với 1000
+
+04:39.990 --> 04:42.023
+vì ở đây mình có 1/1000 do đó
+
+04:42.023 --> 04:43.317
+mình sẽ còn lại 1 ở bên tay phải.
+
+04:43.317 --> 04:47.748
+vậy nhân với 1000,
+
+04:47.748 --> 04:50.595
+Và chúng ta sẽ có ở đây là
+
+04:50.595 --> 04:53.165
+nhưng cái này sẽ mất ở phía tay trái.
+
+04:53.672 --> 04:54.884
+chúng ta không cần đổi dấu bởi
+
+04:54.884 --> 04:56.789
+chúng ta đang nhân các số dương.
+
+04:56.789 --> 05:00.958
+Vậy chúng ta có 1000 it hơn hoặc bằng với
+
+05:00.958 --> 05:03.629
+√(k + 1)
+
+05:03.629 --> 05:07.312
+Sau khi bình phương cả hai vế và chúng ta có 1000000
+
+05:09.065 --> 05:13.344
+nhỏ hơn hoặc bằng (k + 1).
+
+05:13.344 --> 05:17.304
+Và sau đó chúng ta chỉ cần trừ 1 cho cả hai vế
+
+05:17.304 --> 05:21.855
+và sẽ có 999999 sẽ
+
+05:21.855 --> 05:24.710
+nhỏ hơn hoặc bằng k.
+
+05:24.710 --> 05:29.710
+Do đó, k phải lớn hơn hoặc bằng 999999
+
+05:30.192 --> 05:32.157
+Hãy nhớ là chúng ta cần giá trị k nhỏ nhất
+
+05:32.157 --> 05:33.539
+thỏa mãn điều kiện trên.
+
+05:33.539 --> 05:34.556
+Vậy giá trị k nhỏ nhất nếu k phải
+
+05:34.556 --> 05:36.254
+lớn hơn hoặc bằng cái này,
+
+05:36.254 --> 05:41.254
+k nhỏ nhất thảo mãn điều kiện là 999999.
+
+05:42.252 --> 05:43.811
+Để mình viết xuống.
+
+05:44.201 --> 05:46.671
+Giá trị nhỏ nhất của k
+
+05:46.671 --> 05:51.671
+là 999999.
+
+05:53.541 --> 05:56.656
+Bây giờ hãy chứng minh là phần dư,
+
+05:56.656 --> 05:58.538
+giá trị tuyệt đối của phần dư,
+
+05:58.538 --> 06:01.416
+chắc chắn sẽ nhỏ hơn.
+
+06:04.573 --> 06:06.002
+Nếu lấy tổng một phần của 999999
+
+06:06.002 --> 06:09.910
+số hạng đầu tiên thì phần dư ở đây
+
+06:09.910 --> 06:12.766
+trên thực tế sẽ nhỏ hơn cái này.
+
+06:12.766 --> 06:14.532
+Mình từng nói với bạn là chúng ta chỉ mới làm
+
+06:14.532 --> 06:15.685
+trên giả thiết,
+
+06:15.685 --> 06:18.461
+bây giờ hãy thực sự nhìn lại và cảm thấy tốt về nó.
+
+06:18.461 --> 06:19.471
+Và một lần nữa mình khuyến khích bạn nên
+
+06:19.471 --> 06:21.384
+dừng video này và thử tự làm.
+
+06:22.306 --> 06:23.765
+Để mình viết lại một lần nữa,
+
+06:23.765 --> 06:26.103
+mình sẽ khai triển Rk.
+
+06:26.103 --> 06:29.789
+Và ta đang nói là nó sẽ đều hội tụ tại S
+
+06:29.789 --> 06:33.949
+ta sẽ lấy tổng một phần của
+
+06:33.949 --> 06:38.569
+999999 số hạng đầu tiên và kết quả
+
+06:38.569 --> 06:41.347
+sẽ trong khoảng 1/1000
+
+06:41.801 --> 06:43.685
+Và nó sẽ cộng thêm với
+
+06:43.685 --> 06:47.507
+số hạng đầu tiên của phần dư,
+
+06:47.507 --> 06:52.507
+của Rk sẽ là số hạng thứ 1 triệu.
+
+06:54.299 --> 06:59.299
+và số hạng thứ 1 triệu, chúng ta cần ghi nhớ là
+
+06:59.417 --> 07:03.502
+sẽ bằng với (-1)^(1000000 + 1)
+
+07:03.502 --> 07:05.502
+nên (-1)^(1000000 + 1)
+
+07:05.502 --> 07:08.306
+có giá trị là -1
+
+07:08.306 --> 07:09.615
+bởi đó là một số lẻ.
+
+07:09.615 --> 07:11.249
+Vậy đây là -1
+
+07:11.249 --> 07:13.012
+trên căn bậc hai của 1 triệu.
+
+07:13.012 --> 07:14.253
+Để mình làm như thế này.
+
+07:14.253 --> 07:17.090
+Nó sẽ là
+
+07:17.090 --> 07:21.326
+(-1)/√1000000
+
+07:22.190 --> 07:24.161
+Và số hạng tiếp theo sẽ là cộng với
+
+07:24.161 --> 07:29.161
+1/√1000001
+
+07:30.667 --> 07:32.456
+Và nó sẽ có giá trị dương bởi nó là
+
+07:33.779 --> 07:37.475
+(-1)^(1000002).
+
+07:37.475 --> 07:41.791
+Vậy giá trị của nó bằng
+
+07:41.791 --> 07:46.791
+(-1)/√1000002
+
+07:48.004 --> 07:51.274
+và sau đó cộng thêm 2 số hạng nữa.
+
+07:51.274 --> 07:56.274
+1/√1000003
+
+07:58.896 --> 08:03.896
+và trừ 1/√1000004
+
+08:04.817 --> 08:08.132
+và sau đó là trừ, cộng,
+
+08:08.132 --> 08:12.074
+nó sẽ tiếp tục như vậy mãi mãi.
+
+08:12.074 --> 08:15.613
+Và bây giờ mình thuyết phục bản thân là
+
+08:15.613 --> 08:18.921
+cái này, giá trị tuyệt đối của nó sẽ
+
+08:18.921 --> 08:21.483
+nhỏ hơn 1/1000
+
+08:21.483 --> 08:22.761
+nó sẽ nhỏ hơn rất nhiều so với
+
+08:22.761 --> 08:25.612
+giá trị tuyệt đối của số hạng đầu tiên.
+
+08:25.612 --> 08:26.835
+Vậy chúng ta sẽ làm như nào?
+
+08:26.835 --> 08:28.047
+Số hạng đầu tiên chúng ta đã biết,
+
+08:28.047 --> 08:32.625
+ngay ở đây là
+
+08:32.625 --> 08:37.625
+-0.001 vì nó được viết 1/1000
+
+08:41.325 --> 08:43.685
+và chúng ta có dấu trừ ở đây.
+
+08:43.685 --> 08:45.556
+Bây giờ điều đầu tiên chúng ta nhận ra,
+
+08:45.556 --> 08:48.522
+nếu chúng ta đặt dấu ngoặc đơn như này,
+
+08:52.522 --> 08:54.534
+sẽ thấy kết quả là số dương,
+
+08:54.534 --> 08:56.045
+số hạng này lơn hớn số hạng này,
+
+08:56.045 --> 08:57.133
+số hạng này lớn hớn số hạng này,
+
+08:57.133 --> 08:58.426
+và ta có thể tiếp tục.
+
+09:02.963 --> 09:06.163
+Vậy phần dư bắt đầu với -1/1000
+
+09:06.163 --> 09:08.521
+và sau đó cộng với một loạt các giá trị dương.
+
+09:08.521 --> 09:11.474
+Và nó sẽ không có giá trị âm như thế này.
+
+09:11.474 --> 09:13.926
+Và chúng ta biết phần dư không thể âm hơn
+
+09:13.926 --> 09:16.342
+nhưng hãy xác minh là cũng nó sẽ không
+
+09:16.972 --> 09:20.352
+nhiều hơn +1/1000
+
+09:20.352 --> 09:23.353
+Và một cách chúng ta có thể làm là
+
+09:23.353 --> 09:25.326
+nhìn dấu ngoặc này theo một cách khác.
+
+09:25.326 --> 09:30.326
+Nếu chúng ta làm theo cách này, kết quả là một giá trị âm.
+
+09:33.229 --> 09:35.691
+Bên phải ở ngay đây cũng là một giá trị âm.
+
+09:35.691 --> 09:40.060
+Và chúng ta có thể cộng thêm cái đó, cái đó nữa
+
+09:40.060 --> 09:40.989
+và chúng ta sẽ có
+
+09:40.989 --> 09:42.475
+một loạt các giá trị âm.
+
+09:42.475 --> 09:45.195
+Bằng việc nhìn dấu ngoặc đơn
+
+09:45.195 --> 09:47.168
+theo một cách khác, chúng ta có thể nói rằng
+
+09:47.168 --> 09:48.792
+kết quả ở đây chắc chắn sẽ âm.
+
+09:48.792 --> 09:51.224
+Và phần dư chắc chắn là một giá trị âm,
+
+09:51.224 --> 09:55.326
+nhưng nó không thể âm hơn số hạng ban đầu.
+
+09:55.326 --> 09:57.767
+Điều đó cho thấy giá trị tuyệt đối của phần dư
+
+10:03.166 --> 10:06.527
+không thể lơn hơn 1/1000.
+
+10:07.365 --> 10:09.364
+Bởi khi ta thêm càng nhiều số hạng vào đây
+
+10:09.364 --> 10:12.280
+tổng của chúng ta sẽ không đi xa hơn
+
+10:13.172 --> 10:18.172
+số hạng đầu tiên.

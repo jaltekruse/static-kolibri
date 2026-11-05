@@ -1,0 +1,256 @@
+WEBVTT
+
+00:00.740 --> 00:04.160
+Bontsd fel a 75-öt prím számokra.
+
+00:04.160 --> 00:07.390
+Válaszodat pedig kanonikus alakban add meg.
+
+00:07.390 --> 00:08.970
+Akad nekünk itt néhány érdekesség.
+
+00:08.970 --> 00:12.410
+Prímtényezős felbontás, és a másik, amit említenek, a kanonikus alak.
+
+00:12.410 --> 00:15.460
+A kanonikus alakkal majd később bajlódunk.
+
+00:15.460 --> 00:18.560
+Az első dolog, amivel foglalkoznunk kell, az az, hogy mi is az a
+
+00:18.560 --> 00:19.380
+prímszám?
+
+00:19.380 --> 00:22.240
+Felelevenítésképpen a prímszám az a szám,
+
+00:22.240 --> 00:26.130
+mely csak önmagával és eggyel osztható, példák pedig a
+
+00:26.130 --> 00:28.880
+prímszámokra – hadd írjak le néhányat.
+
+00:28.880 --> 00:34.753
+Prímszám, nem prímszám. Nem prímszám.
+
+00:34.760 --> 00:36.840
+Tehát a 2 az prímszám.
+
+00:36.840 --> 00:39.850
+Csak 1-gyel és 2-vel osztható.
+
+00:39.850 --> 00:42.490
+A 3 is egy másik prímszám.
+
+00:42.490 --> 00:46.790
+4 nem prímszám, mert
+
+00:46.790 --> 00:49.790
+osztható 1-gyel, 2-vel és 4-gyel is.
+
+00:49.790 --> 00:50.580
+Folytathatjuk tovább.
+
+00:50.580 --> 00:56.220
+5 csak 1-gyel és 5-tel osztható, tehát az 5 prímszám.
+
+00:56.220 --> 00:59.920
+6 nem prím, mert 2-vel és 3-mal is osztható.
+
+00:59.920 --> 01:01.590
+Úgy gondolom, érthető ez a gondolatmenet.
+
+01:01.590 --> 01:04.160
+A 7-tel folytatjuk, a 7 prímszám.
+
+01:04.160 --> 01:06.470
+Csak 1-gyel és 7-tel osztható.
+
+01:06.470 --> 01:08.220
+A 8 nem prímszám.
+
+01:08.220 --> 01:11.440
+A 9-es számról könnyen gondolhatnánk, hogy prímszám, de ne feledjük el, hogy
+
+01:11.440 --> 01:15.420
+3-mal is osztható, tehát a 9 nem prímszám.
+
+01:15.420 --> 01:18.970
+A prímszám nem összetévesztendő a páratlan számokkal.
+
+01:18.970 --> 01:21.400
+Aztán a 10-es szám jön, a 10 sem prímszám,
+
+01:21.400 --> 01:23.560
+2-vel és 5-tel is osztható.
+
+01:23.560 --> 01:27.220
+11, ez csak 1-gyel és 11-gyel osztható, ezért a 11
+
+01:27.220 --> 01:28.240
+akkor egy prímszám.
+
+01:28.240 --> 01:29.780
+És így folytathatnánk tovább.
+
+01:29.780 --> 01:31.570
+Számítógépes programokat írtak azzal a céllal,
+
+01:31.570 --> 01:33.260
+hogy megtalálják a legnagyobb prímszámot.
+
+01:33.260 --> 01:35.220
+Most, hogy már tudjuk, mi a prímszám,
+
+01:35.220 --> 01:39.240
+a prímtényezős felbontás egy szám – például 75 –
+
+01:39.240 --> 01:41.620
+felbontása prímszámok szorzatára, törzstényezőire.
+
+01:41.620 --> 01:43.180
+Akkor próbáljuk ezt megcsinálni.
+
+01:43.180 --> 01:45.530
+Kezdjük a 75-tel, és én ehhez
+
+01:45.530 --> 01:49.080
+az úgynevezett fa szerkezetet fogom használni.
+
+01:49.080 --> 01:51.750
+Először megkeressük a legkisebb prímszámot, mely
+
+01:51.750 --> 01:53.890
+törzstényezője a 75-nek.
+
+01:53.890 --> 01:55.430
+A legkisebb prímszám a 2.
+
+01:55.430 --> 01:57.390
+A 2 törzstényezője a 75-nek?
+
+01:57.390 --> 02:00.705
+Nos, a 75 páratlan szám, vagyis az egyes helyiértéken álló szám
+
+02:00.705 --> 02:02.280
+– ez az 5 –, páratlan szám.
+
+02:02.280 --> 02:06.580
+Az 5 nem osztható 2-vel, így a 2 nem törzstényezője a 75-nek.
+
+02:06.580 --> 02:08.090
+Megpróbálhatjuk a 3-mal.
+
+02:08.090 --> 02:09.639
+A 3 törzstényezője a 75-nek?
+
+02:09.639 --> 02:12.440
+Hát, 7 + 5 az 12.
+
+02:12.440 --> 02:15.480
+12 osztható 3-mal, tehát a 3 törzstényezője a 75-nek.
+
+02:15.480 --> 02:20.440
+Tehát háromszor valamennyi az 75 lesz.
+
+02:20.440 --> 02:22.990
+Ha már volt a kezedben aprópénz, akkor tudod, hogy ha neked
+
+02:22.990 --> 02:25.890
+van 3 negyeddollárosod, akkor összesen 75 cented van, vagy ha van
+
+02:25.890 --> 02:28.930
+3 x 25-öd, akkor összesen 75-öd van.
+
+02:28.930 --> 02:31.560
+Tehát ez 3 x 25.
+
+02:31.560 --> 02:33.720
+Összeszorozhatod saját magad, ha nem hiszel nekem.
+
+02:33.720 --> 02:35.960
+Szorozd meg a 3-at 25-tel.
+
+02:35.960 --> 02:40.470
+Most pedig, osztható a 25 – a 2-t ki is zárhatjuk.
+
+02:40.470 --> 02:44.910
+Ha a 75 nem osztható 2-vel, akkor ugyanígy a 25 sem osztható
+
+02:44.910 --> 02:46.000
+2-vel.
+
+02:46.000 --> 02:48.730
+Mégis meglehet, hogy a 25 osztható a 3-mal.
+
+02:48.730 --> 02:52.290
+Tehát ha összeadjuk a két számjegyet, a 2-t és az 5-öt, az 7 lesz.
+
+02:52.290 --> 02:57.700
+A 7 nem osztható 3-mal, így a 25 sem lesz osztható 3-mal.
+
+02:57.700 --> 02:59.480
+Haladunk tovább: 5.
+
+02:59.480 --> 03:01.430
+Osztható 5-tel a 25?
+
+03:01.430 --> 03:01.980
+Hát, persze.
+
+03:01.980 --> 03:03.590
+Ez 5 x 5.
+
+03:03.590 --> 03:08.330
+Tehát 25 az 5 x 5.
+
+03:08.330 --> 03:11.730
+És mostmár végeztunk is a prímfelbontással, mert
+
+03:11.730 --> 03:13.390
+megvan az összes prímszámunk.
+
+03:13.390 --> 03:18.270
+Így hát leírhatjuk, hogy a 75 az 3 x 5 x 5.
+
+03:18.270 --> 03:25.640
+75 egyenlő 3 x 5 x 5-tel.
+
+03:25.640 --> 03:27.350
+Mondhatjuk azt, hogy ez 3 x 25.
+
+03:27.350 --> 03:29.400
+25 az 5 x 5.
+
+03:29.400 --> 03:33.370
+3 x 25, 25 az 5 x 5.
+
+03:33.370 --> 03:36.460
+Tehát ez a prímtényezős felbontás, de azt akarják
+
+03:36.460 --> 03:41.690
+tőlünk, hogy a válaszunkat kanonikus alakban adjuk meg.
+
+03:41.690 --> 03:44.560
+Ez azt jelenti, hogyha van ismétlődő prímszámunk, akkor leírhatjuk
+
+03:44.560 --> 03:45.920
+azokat kanonikus alakban, kitevőként.
+
+03:45.920 --> 03:48.480
+Mi is az 5 x 5?
+
+03:48.480 --> 03:52.380
+Az 5 x 5 az az 5-ös szám kétszer megszorozva önmagával.
+
+03:52.380 --> 03:56.310
+Ez 5 a négyzetennek felel meg.
+
+03:56.310 --> 03:58.380
+Ha a válaszunkat kanonikus alakban szeretnénk megadni,
+
+03:58.380 --> 04:03.420
+akkor mondhatjuk, hogy ez egyenlő 3 x 5 a négyzetennel,
+
+04:03.420 --> 04:08.110
+ami ugyanazt jelenti, mint az 5 x 5.

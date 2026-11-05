@@ -1,0 +1,479 @@
+WEBVTT
+
+00:00.239 --> 00:03.002
+- [Voiceover] Yochanan walked
+from home to the bus stop
+
+00:03.002 --> 00:06.517
+at an average speed of
+five kilometers per hour.
+
+00:06.517 --> 00:08.406
+He immediately got on his school bus
+
+00:08.406 --> 00:10.133
+and traveled at an average speed
+
+00:10.133 --> 00:13.668
+of 60 kilometers per hour
+until he got to school.
+
+00:14.383 --> 00:16.374
+The total distance from his home to school
+
+00:16.374 --> 00:18.526
+is 35 kilometers, and the entire trip took
+
+00:18.526 --> 00:20.240
+one and a half hours.
+
+00:20.559 --> 00:22.286
+How many kilometers did Yochanan cover
+
+00:22.286 --> 00:24.094
+by walking, and how many kilometers
+
+00:24.094 --> 00:27.137
+did he cover by travelling
+on the bus? It's fascinating.
+
+00:27.137 --> 00:28.620
+So I encourage you to pause the video
+
+00:28.620 --> 00:31.037
+and try to think about on your own.
+
+00:31.037 --> 00:32.785
+Alright, so let's just
+define some variables here.
+
+00:32.785 --> 00:34.837
+How many kilometers did
+he cover by walking?
+
+00:34.837 --> 00:38.230
+Let's call this W and how many kilometers
+
+00:38.230 --> 00:41.388
+did he cover by travelling on the bus?
+
+00:41.388 --> 00:44.284
+Let's call that, Let's call that B
+
+00:45.154 --> 00:46.094
+and so what do we know?
+
+00:46.094 --> 00:47.812
+We know that the kilometers
+
+00:47.812 --> 00:49.243
+and I can actually even
+draw it just to make sure
+
+00:49.243 --> 00:51.104
+that we're visualizing this thing, right?
+
+00:51.222 --> 00:55.578
+So this right over here is
+his home, that's his home
+
+00:55.578 --> 00:59.627
+and then he is going to
+travel and see they tell us,
+
+00:59.865 --> 01:02.935
+they tell us that it is
+35 kilometers to school
+
+01:02.935 --> 01:05.618
+so this is his school right over here.
+
+01:05.618 --> 01:08.564
+I'll draw a bigger
+building, that's his school,
+
+01:08.564 --> 01:13.420
+and we know that this
+distance is 35, 35 kilometers
+
+01:13.420 --> 01:15.719
+and we also know that it
+took one and a half hours.
+
+01:16.325 --> 01:17.910
+One and a half hours, now he traveled
+
+01:17.910 --> 01:19.657
+at different rates for
+different distances.
+
+01:19.657 --> 01:23.678
+So he traveled some
+distance to the school bus
+
+01:24.505 --> 01:26.862
+so this is, or to the bus stop,
+
+01:26.862 --> 01:30.437
+so that's the bus stop, right over there,
+
+01:30.437 --> 01:32.611
+and we're seeing this
+distance to the bus stop,
+
+01:32.611 --> 01:34.696
+that's how much he covered by walking.
+
+01:34.696 --> 01:37.053
+So this right over here, this
+distance, right over here,
+
+01:37.053 --> 01:40.141
+that is W and the rest of the distance,
+
+01:40.141 --> 01:43.839
+he covered by the bus, so
+the rest of this distance,
+
+01:43.839 --> 01:45.876
+all of this distance right over there,
+
+01:45.876 --> 01:48.468
+that is going to be B.
+
+01:48.468 --> 01:49.452
+So what do we know?
+
+01:49.452 --> 01:51.464
+We know the distance covered by walking
+
+01:51.464 --> 01:53.008
+plus the distance covered by bus
+
+01:53.008 --> 01:56.554
+is going to be 35 kilometers,
+35 kilometers here,
+
+01:56.554 --> 02:00.557
+this is the entire, that
+is the entire distance
+
+02:00.557 --> 02:03.997
+from home to school, so
+we know that W plus B,
+
+02:05.560 --> 02:10.560
+W plus B, plus B is
+equal to 35 kilometers,
+
+02:13.746 --> 02:17.403
+is equal to 35 kilometers
+and just with one equation,
+
+02:17.403 --> 02:19.468
+we're not going to be able to
+figure out what W and B are
+
+02:19.468 --> 02:20.527
+but we have another constraint.
+
+02:20.527 --> 02:22.631
+We know the total amount of time.
+
+02:22.631 --> 02:24.805
+So the total amount of time is going to be
+
+02:24.805 --> 02:27.934
+one and half hours, so we'll
+just write that over here.
+
+02:27.934 --> 02:32.934
+This is going to be 1.5, so
+what's the time traveled by,
+
+02:33.268 --> 02:35.256
+what's the time he walks?
+
+02:35.818 --> 02:38.827
+Let me write this over here, time
+
+02:38.827 --> 02:43.477
+time walking, we'll that's going to be
+
+02:43.477 --> 02:46.334
+the distance walking
+divided by the rate walking.
+
+02:46.334 --> 02:50.003
+So the distance walking is W kilometers
+
+02:50.003 --> 02:55.003
+W kilometers divided by his rate,
+
+02:55.285 --> 02:56.322
+the distance divided by your rate
+
+02:56.322 --> 02:58.556
+is gonna give you your time, so let's see,
+
+02:58.556 --> 03:00.913
+his rate is five kilometers per hour,
+
+03:00.913 --> 03:05.078
+five kilometers per
+hour and so you're gonna
+
+03:05.078 --> 03:06.419
+have kilometers cancel kilometers
+
+03:06.419 --> 03:09.507
+and if you divide by or
+if you have one over hours
+
+03:09.507 --> 03:12.453
+in the denominator, that's
+going to be the same thing,
+
+03:12.453 --> 03:17.390
+this is gonna be W over five
+hours, so the units work out.
+
+03:17.390 --> 03:20.397
+So his time walking is W over five,
+
+03:20.397 --> 03:23.424
+W over five and by that same logic,
+
+03:23.424 --> 03:25.802
+his time on the bus is
+going to be the distance
+
+03:25.802 --> 03:30.353
+on the bus divided by,
+divided by the average speed
+
+03:30.353 --> 03:33.278
+of the school bus, so
+this is going to be 60.
+
+03:33.278 --> 03:35.188
+This is all going to be in hours
+
+03:35.188 --> 03:37.829
+and now we can solve
+this system of equations.
+
+03:37.829 --> 03:40.999
+We have two linear
+equations with two unknowns.
+
+03:40.999 --> 03:42.604
+We should be able to find W and B
+
+03:42.604 --> 03:45.631
+that satisfy both of these.
+
+03:45.631 --> 03:48.232
+Now what's an easy thing to do?
+
+03:48.232 --> 03:50.343
+Let's see, if I can multiply
+this second equation
+
+03:50.343 --> 03:53.972
+by negative five, and I'm gonna,
+
+03:53.972 --> 03:55.355
+this is going to be a negative W here
+
+03:55.355 --> 03:57.671
+so it'll cancel out with this W up there.
+
+03:57.671 --> 04:00.800
+So let's do that, let's
+multiply the second equation
+
+04:00.800 --> 04:03.461
+by, I'm just gonna
+switch to one color here,
+
+04:03.461 --> 04:08.461
+so this top equation is going
+to be W plus B is equal to 35.
+
+04:09.325 --> 04:11.580
+This bottom equation,
+if I multiply both sides
+
+04:11.580 --> 04:15.388
+by negative five, so both
+sides by negative five,
+
+04:15.388 --> 04:19.526
+I'm going to multiply both
+sides by negative five
+
+04:19.526 --> 04:22.411
+I'm going to get negative
+five times W over five
+
+04:22.411 --> 04:27.411
+is negative W, negative
+five times B over 60.
+
+04:27.835 --> 04:29.176
+Let's see, it's gonna be,
+it's going to be negative five
+
+04:29.176 --> 04:34.032
+over 60, that's negative
+1/12, so this is negative B
+
+04:34.032 --> 04:38.644
+over 12 and then it is
+going to be equal to
+
+04:38.644 --> 04:43.644
+1.5 times negative five is
+negative 7.5, negative 7.5.
+
+04:45.186 --> 04:46.567
+Now we can just add the left and
+
+04:46.567 --> 04:49.147
+right hand sides of these two equations.
+
+04:49.147 --> 04:51.403
+Now let me, I can do
+this a little bit neater,
+
+04:51.403 --> 04:54.674
+let me actually delete, let me make these
+
+04:54.674 --> 04:58.493
+line up a little bit better
+so that we, delete that,
+
+04:58.493 --> 05:02.394
+make this, so this first
+equation was, whoops,
+
+05:02.394 --> 05:07.394
+this first equation was
+W plus B is equal to 35
+
+05:10.095 --> 05:11.674
+now they line up better and now we can add
+
+05:11.674 --> 05:13.830
+the left hand sides of these equations
+
+05:13.830 --> 05:16.016
+and the right hand sides,
+so the left hand sides,
+
+05:16.016 --> 05:18.162
+the W's cancel out. That's what we wanted.
+
+05:18.162 --> 05:22.530
+Now B minus B over 12 or
+B minus the twelfth of B,
+
+05:22.530 --> 05:24.582
+well that's going to be 11/12B,
+
+05:24.582 --> 05:28.930
+11/12B is equal to, let's see,
+
+05:28.930 --> 05:33.930
+35 minus 7.5, see 35 minus seven
+
+05:36.510 --> 05:40.604
+would be 28 and then another
+half this would be 27.5.
+
+05:41.678 --> 05:45.497
+27.5 and since I'm dealing
+with a fraction here,
+
+05:45.497 --> 05:47.123
+let me write this as a fraction
+
+05:47.123 --> 05:51.753
+so this is the same thing as 55 over two.
+
+05:51.970 --> 05:53.799
+Let's me just write it this way.
+
+05:53.799 --> 05:58.058
+This is the same thing as 55 over two.
+
+05:58.058 --> 05:59.703
+Now to solve for B, I
+just have to multiply
+
+05:59.703 --> 06:01.447
+both sides times this reciprocal.
+
+06:01.447 --> 06:04.190
+I'll switch colors just
+to ease the monotony.
+
+06:04.190 --> 06:09.190
+So multiply both sides by
+12 over 11, 12 over 11,
+
+06:10.712 --> 06:13.414
+what we get, these cancel out, what we get
+
+06:13.414 --> 06:16.543
+is that B, so I'll do this in this color,
+
+06:16.543 --> 06:20.097
+B is equal to, let's see, I
+have a 12 in the numerator
+
+06:20.097 --> 06:21.459
+two in the denominator so I can
+
+06:21.459 --> 06:25.542
+make that a six and a one,
+then I have a 55 and 11,
+
+06:25.542 --> 06:29.151
+I can divide both by 11, so
+it's gonna be five and a one.
+
+06:29.151 --> 06:31.650
+So it's five times six, B is equal to 30
+
+06:31.650 --> 06:35.868
+and B was in kilometers so
+if he travels 30 kilometers,
+
+06:35.868 --> 06:39.606
+30 kilometers by bus, B
+is equal to 30 kilometers,
+
+06:39.606 --> 06:42.288
+and the amount that he walks,
+well, we can figure that out.
+
+06:42.288 --> 06:43.853
+If this is 30, well the amount
+
+06:43.853 --> 06:46.472
+that he walks is going to be five.
+
+06:46.892 --> 06:50.529
+This is going to be five kilometers, W,
+
+06:50.529 --> 06:53.475
+let me write this, W is
+equal to five kilometers.
+
+06:53.475 --> 06:55.141
+He walks five kilometers and then he goes
+
+06:55.141 --> 06:58.916
+by the bus 30 kilometers.

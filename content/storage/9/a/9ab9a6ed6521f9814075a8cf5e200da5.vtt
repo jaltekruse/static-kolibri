@@ -1,0 +1,214 @@
+WEBVTT
+
+00:00.000 --> 00:09.586
+V tomto videu spočítáme určitý integrál
+od 0 do π z funkce x krát cos(x) dx.
+
+00:09.586 --> 00:14.746
+Jako vždy, stopněte si video
+a zkuste si příklad vyřešit sami.
+
+00:14.746 --> 00:16.864
+Při prvním pohledu nemusí být jasné,
+
+00:16.864 --> 00:24.321
+jak najít primitivní funkci
+a spočítat její hodnoty v π a 0.
+
+00:24.321 --> 00:28.753
+Takže asi musíme použít
+trochu složitější postup.
+
+00:28.753 --> 00:42.298
+Většinou při součinu funkcí, kde jednu je
+lehké integrovat, jako například kosinus,
+
+00:42.298 --> 00:49.027
+druhá má zase derivaci, která je
+jednodušší, jako třeba x, derivace je 1.
+
+00:49.027 --> 00:53.703
+To je dobré znamení, že bychom
+měli použít integraci per partes.
+
+00:53.703 --> 00:58.101
+Připomeňme si, jak
+se integruje per partes.
+
+00:58.101 --> 01:01.147
+Integrace per partes,
+napíšu to tady.
+
+01:01.147 --> 01:05.142
+Pokud mám integrál,
+zapíšu to jako neurčitý integrál,
+
+01:05.142 --> 01:10.015
+my chceme najít neurčitý
+integrál a vyčíslit ho v π a 0.
+
+01:10.015 --> 01:19.908
+Mám f(x) krát g(x) s čárkou dx.
+
+01:19.908 --> 01:21.290
+To je rovno…
+
+01:21.290 --> 01:26.471
+Dokázali jsme to v jiných videích,
+vychází to z pravidla o derivaci součinu.
+
+01:26.471 --> 01:40.248
+Je to rovno f(x) krát g(x)
+minus f(x) s čárkou krát g(x) dx.
+
+01:40.248 --> 01:51.432
+Pro zopakování, chceme najít f(x)
+takové, že jeho derivace je jednodušší,
+
+01:51.432 --> 02:02.208
+a naopak takové g(x) s čárkou, že
+jeho primitivní funkce nebude složitější.
+
+02:02.208 --> 02:06.847
+Nechceme to zkomplikovat.
+
+02:06.847 --> 02:10.362
+Pokud f(x) bude po
+zderivování jednodušší,
+
+02:10.362 --> 02:14.647
+a primitivní funkce od
+g(x) s čárkou nebude složitější,
+
+02:14.647 --> 02:20.109
+pak u výsledného výrazu bude
+mnohem lehčí najít primitivní funkci.
+
+02:20.109 --> 02:21.691
+Tak to tady uděláme.
+
+02:21.691 --> 02:27.387
+Derivace které funkce je
+jednodušší, kosinu nebo x?
+
+02:27.387 --> 02:38.341
+Derivace x je prostě 1, takže to
+bude moje f(x), napíšu to sem.
+
+02:38.341 --> 02:49.288
+V tom případě je f(x) s čárkou rovno 1,
+a jak potom vypadá g(x) s čárkou?
+
+02:49.288 --> 02:54.822
+Máme, že g(x) s čárkou je primitivní
+funkce od cos(x), není to složitější.
+
+02:54.822 --> 02:57.127
+Primitivní funkce od kosinu je sinus.
+
+02:57.127 --> 02:59.533
+Takže to bude g(x) s čárkou.
+
+02:59.533 --> 03:03.566
+g(x) s čárkou je rovno cos(x),
+
+03:03.566 --> 03:08.574
+takže g(x) je rovno primitivní
+funkce od cos(x), takže sin(x).
+
+03:08.574 --> 03:11.716
+Lze se na to podívat obráceně,
+že derivace sinu je kosinus.
+
+03:11.716 --> 03:13.683
+Asi vás napadne,
+kde je konstanta C?
+
+03:13.683 --> 03:19.547
+Ale vzpomeňte si, že počítáme určitý
+integrál, takže ty konstanty se požerou.
+
+03:19.547 --> 03:21.272
+Koukněme se na to.
+
+03:21.272 --> 03:26.087
+Použijeme integraci per partes.
+
+03:26.087 --> 03:31.421
+V tomto případě bude tohle rovno…
+
+03:31.421 --> 03:32.989
+Skočím sem.
+
+03:32.989 --> 03:36.108
+Je to rovno f(x) krát g(x).
+
+03:36.108 --> 03:40.938
+f(x) je x a g(x) je sin(x),
+
+03:40.938 --> 03:51.008
+f(x) krát g(x) minus integrál
+z f(x) s čárkou, což je prostě 1.
+
+03:51.008 --> 03:58.123
+Zapíšeme to jako 1 krát g(x),
+g(x) je sin(x), takže to zapíšeme takhle.
+
+03:58.123 --> 04:07.325
+1 krát sin(x) je prostě sin(x),
+takhle to bude jednodušší, sin(x) dx.
+
+04:07.325 --> 04:17.285
+A jelikož se jedná o určitý integrál, tak
+musíme spočítat rozdíl hodnot v π a 0.
+
+04:17.285 --> 04:25.316
+Co je neurčitý integrál, neboli
+primitivní funkce, ze sin(x) dx?
+
+04:25.316 --> 04:29.181
+Víme, že derivace kosinu je −sinus.
+
+04:29.181 --> 04:36.690
+Dáme znaménko minus dovnitř integrálu,
+takže máme plus integrál z −sin(x).
+
+04:36.690 --> 04:43.825
+Pak je jasné, že primitivní funkce
+je cos(x), takže tohle bude cos(x).
+
+04:43.825 --> 04:46.922
+Nyní to musíme vyčíslit
+v koncových bodech.
+
+04:46.922 --> 04:50.346
+Nejdříve to spočítáme v π.
+
+04:50.346 --> 05:00.275
+Je to rovno π krát sin(π) plus cos(π),
+
+05:00.275 --> 05:09.509
+od toho odečteme to stejné v 0,
+udělám to jinou barvou.
+
+05:09.509 --> 05:16.959
+To je 0 krát sin(0) plus cos(0).
+
+05:16.959 --> 05:21.058
+sin(π) je prostě 0,
+takže tohle zmizí.
+
+05:21.058 --> 05:29.039
+cos(π) je −1, pak
+toto je 0 a cos(0) je 1,
+
+05:29.039 --> 05:34.733
+takže máme −1 minus 1,
+což je celkově −2.
+
+05:34.733 --> 05:36.447
+A máme hotovo!
+
+05:36.447 --> 05:42.582
+Pomocí integrace per partes
+jsme spočítali určitý integrál.

@@ -1,0 +1,620 @@
+WEBVTT
+
+00:00.690 --> 00:02.400
+What we're going to
+do in this video is
+
+00:02.400 --> 00:05.090
+take the region
+between the two curves,
+
+00:05.090 --> 00:08.119
+y is equal to square
+root of x on top and y
+
+00:08.119 --> 00:10.240
+is equal to x
+squared on the bottom
+
+00:10.240 --> 00:13.780
+and rotate it around a vertical
+line that is not the y-axis.
+
+00:13.780 --> 00:16.030
+So we're going to rotate it
+around the vertical line x
+
+00:16.030 --> 00:16.690
+is equal to 2.
+
+00:16.690 --> 00:19.310
+We're going to rotate it
+right around like that.
+
+00:19.310 --> 00:21.990
+And if we rotate
+it like that, we
+
+00:21.990 --> 00:25.150
+will get this shape, so
+this strange-looking shape.
+
+00:25.150 --> 00:26.500
+It's hollowed out in the middle.
+
+00:26.500 --> 00:29.680
+You can kind of use the y equals
+x squared part kind of hollows
+
+00:29.680 --> 00:30.690
+out the middle.
+
+00:30.690 --> 00:32.630
+And it's really the
+stuff in between
+
+00:32.630 --> 00:36.810
+that forms the wall
+of this rotated shape.
+
+00:36.810 --> 00:40.080
+So let's think about how we
+can figure out the volume.
+
+00:40.080 --> 00:42.524
+And we're going to do it using
+the disk method, sometimes
+
+00:42.524 --> 00:43.940
+called the ring
+method-- actually,
+
+00:43.940 --> 00:45.773
+it's going to be more
+of the washer method--
+
+00:45.773 --> 00:47.760
+to do this one right over here.
+
+00:47.760 --> 00:50.070
+So we're rotating
+around a vertical line.
+
+00:50.070 --> 00:53.210
+We want to use our disk
+or ring or washer method.
+
+00:53.210 --> 00:55.290
+And so it'll be
+really helpful to have
+
+00:55.290 --> 00:58.770
+a bunch of rings stacked
+up in the y direction.
+
+00:58.770 --> 01:01.530
+So we're probably going to want
+to integrate with respect to y.
+
+01:01.530 --> 01:03.560
+Let me make it clear
+what I'm talking about.
+
+01:03.560 --> 01:06.330
+Each of our rings are going
+to look something like this.
+
+01:06.330 --> 01:08.280
+So let me do my best
+attempt to draw.
+
+01:08.280 --> 01:13.150
+So that's the inner
+radius of the ring defined
+
+01:13.150 --> 01:17.120
+by y is equal to x squared.
+
+01:17.120 --> 01:19.110
+And then the outside
+radius of the ring
+
+01:19.110 --> 01:20.500
+might look something like this.
+
+01:25.090 --> 01:27.660
+My best attempt to
+draw it reasonably.
+
+01:27.660 --> 01:34.590
+The outside radius of the ring
+might look something like that.
+
+01:34.590 --> 01:39.950
+And the depth of the ring would
+be a little dy just like that.
+
+01:39.950 --> 01:42.440
+So let me draw the depth.
+
+01:42.440 --> 01:43.944
+So let me see, right over here.
+
+01:43.944 --> 01:46.110
+You could kind of view it
+as the height of the ring,
+
+01:46.110 --> 01:48.550
+because we are thinking
+in a vertical direction.
+
+01:48.550 --> 01:50.050
+And that would be
+a ring for a given
+
+01:50.050 --> 01:53.840
+y for, say, this
+y right over here.
+
+01:53.840 --> 01:55.840
+It's essentially
+the ring generated
+
+01:55.840 --> 02:02.100
+if you were to take this
+rectangle of height dy
+
+02:02.100 --> 02:05.012
+and rotate it around
+the line x equals 2.
+
+02:05.012 --> 02:06.470
+And we're going to
+construct a ring
+
+02:06.470 --> 02:12.730
+like that for each of
+the y's in our interval.
+
+02:12.730 --> 02:15.540
+So you could imagine stacking
+up a whole set of rings just
+
+02:15.540 --> 02:18.710
+like this and then taking
+the sum of the volumes of all
+
+02:18.710 --> 02:21.160
+of those rings and
+the limit of that side
+
+02:21.160 --> 02:24.336
+as you have an infinite number
+of rings with-- or close
+
+02:24.336 --> 02:25.710
+to infinite-- or
+really, infinite
+
+02:25.710 --> 02:28.470
+number of rings with
+infinitesmally small height
+
+02:28.470 --> 02:30.130
+or depth or dy.
+
+02:30.130 --> 02:32.470
+So let's figure out
+how we would do this.
+
+02:32.470 --> 02:34.235
+Well, we know that
+all we have to do
+
+02:34.235 --> 02:36.360
+is figure out what the
+volume of one of these rings
+
+02:36.360 --> 02:38.940
+are for given y
+as a function of y
+
+02:38.940 --> 02:41.825
+and then integrate along all
+of them, sum them all up.
+
+02:41.825 --> 02:44.200
+So let's figure out what the
+volume of one of these rings
+
+02:44.200 --> 02:44.980
+are.
+
+02:44.980 --> 02:46.480
+And to do it, we're
+going to express
+
+02:46.480 --> 02:48.990
+these functions
+as functions of y.
+
+02:48.990 --> 02:53.350
+So our purple function, y is
+equal to square root of x,
+
+02:53.350 --> 03:00.040
+if we square both sides,
+we would get y squared
+
+03:00.040 --> 03:00.695
+is equal to x.
+
+03:00.695 --> 03:03.070
+And let me swap the sides so
+it makes it clear that now x
+
+03:03.070 --> 03:04.462
+is a function of y.
+
+03:04.462 --> 03:07.600
+x is equal to y squared.
+
+03:07.600 --> 03:09.300
+That's our top
+function the way we've
+
+03:09.300 --> 03:12.350
+drawn a kind of outer
+shell for our figure.
+
+03:12.350 --> 03:16.800
+And then y is
+equal to x squared.
+
+03:16.800 --> 03:19.642
+If you take the principal root
+of both sides of that and it
+
+03:19.642 --> 03:22.100
+all works out because we're
+operating in the first quadrant
+
+03:22.100 --> 03:22.600
+here.
+
+03:22.600 --> 03:24.380
+That's the part of it
+that we care about.
+
+03:24.380 --> 03:28.590
+So you're going to get x is
+equal to the square root of y.
+
+03:28.590 --> 03:31.310
+That is our yellow
+function right over there.
+
+03:31.310 --> 03:33.630
+Now, how do we
+figure out the area
+
+03:33.630 --> 03:38.470
+of the surface of one of these
+rings or one of these washers?
+
+03:38.470 --> 03:40.982
+Well, the area-- let
+me do this in orange
+
+03:40.982 --> 03:42.440
+because I drew that
+ring in orange.
+
+03:42.440 --> 03:45.100
+So the area of the
+surface right over here
+
+03:45.100 --> 03:51.240
+in orange as a
+function of y is going
+
+03:51.240 --> 03:54.130
+to be equal to the
+area of the circle
+
+03:54.130 --> 03:55.810
+if I just consider
+the outer radius,
+
+03:55.810 --> 03:58.370
+and then I subtract out the
+area of the circle constructed
+
+03:58.370 --> 04:01.210
+by the inner radius, just
+kind of subtract it out.
+
+04:01.210 --> 04:03.010
+So the outer-circle
+radius, so it's
+
+04:03.010 --> 04:14.560
+going to be pi times outer
+radius squared minus pi-- let
+
+04:14.560 --> 04:18.042
+me write it this
+way-- outer-- well,
+
+04:18.042 --> 04:19.500
+I'll just write
+it-- outer radius--
+
+04:19.500 --> 04:22.830
+this is going to be as a
+function of y-- outer radius
+
+04:22.830 --> 04:30.490
+squared minus pi times
+inner radius squared.
+
+04:30.490 --> 04:32.680
+And we want this all
+to be a function of y.
+
+04:32.680 --> 04:38.610
+So the outer radius
+as a function of y
+
+04:38.610 --> 04:40.149
+is going to be what?
+
+04:40.149 --> 04:42.190
+Well, it might be easier
+to visualize-- actually,
+
+04:42.190 --> 04:43.190
+I'll try it both places.
+
+04:43.190 --> 04:47.570
+So it's this entire
+distance right over here,
+
+04:47.570 --> 04:51.550
+essentially, the distance
+between the vertical line,
+
+04:51.550 --> 04:53.940
+the horizontal distance
+between our vertical line,
+
+04:53.940 --> 04:55.035
+and our outer function.
+
+05:02.160 --> 05:03.970
+So if you think about
+it in terms of x,
+
+05:03.970 --> 05:06.370
+It's going to be
+2 minus whatever
+
+05:06.370 --> 05:08.970
+the x value is right over here.
+
+05:08.970 --> 05:12.540
+So the x value right over
+here is going to be y squared.
+
+05:12.540 --> 05:14.610
+Remember, we want this
+is a function of y.
+
+05:14.610 --> 05:16.580
+So our outer radius,
+this whole distance,
+
+05:16.580 --> 05:20.480
+is going to be 2 minus the x
+value here as a function of y.
+
+05:20.480 --> 05:22.410
+That x value is y squared.
+
+05:22.410 --> 05:26.770
+So the outer radius
+is 2 minus x-- sorry.
+
+05:26.770 --> 05:28.350
+2 minus y squared.
+
+05:28.350 --> 05:31.390
+We want it as a function of y.
+
+05:31.390 --> 05:37.774
+And then our inner radius is
+going to be equal to what?
+
+05:37.774 --> 05:39.440
+Well, that's going
+to be the difference,
+
+05:39.440 --> 05:42.570
+the horizontal distance,
+between this vertical line
+
+05:42.570 --> 05:45.950
+and our inner function,
+our inner boundary.
+
+05:45.950 --> 05:48.440
+So it's going to be the
+horizontal distance between two
+
+05:48.440 --> 05:50.420
+and whatever x value this is.
+
+05:50.420 --> 05:55.140
+But this x value as a function
+of y is just square root of y.
+
+05:55.140 --> 06:00.200
+So it's going to be 2
+minus square root of y.
+
+06:00.200 --> 06:02.960
+And so now, we can come up
+with an expression for area.
+
+06:02.960 --> 06:05.350
+It's going to be-- and I'll
+just factor out-- actually,
+
+06:05.350 --> 06:06.350
+I'll leave the pi there.
+
+06:06.350 --> 06:08.730
+So it's going to be
+pi-- right over here--
+
+06:08.730 --> 06:12.070
+it's going to be pi times
+outer radius squared.
+
+06:12.070 --> 06:14.500
+Well, the outer
+radius is 2 minus y
+
+06:14.500 --> 06:18.153
+squared-- and let me just--
+well, I'll just write it.
+
+06:18.153 --> 06:20.890
+2 minus y squared--
+and we're going
+
+06:20.890 --> 06:26.740
+to square that-- squared,
+minus pi times the inner radius
+
+06:26.740 --> 06:27.330
+squared.
+
+06:27.330 --> 06:28.760
+Well, we already
+figured that out.
+
+06:28.760 --> 06:32.240
+The inner radius is 2
+minus square root of y.
+
+06:32.240 --> 06:34.340
+And we're going to
+square that one, too.
+
+06:34.340 --> 06:37.330
+So this gives us the
+area of one of our rings
+
+06:37.330 --> 06:41.670
+as a function of y, the
+top of the ring, where
+
+06:41.670 --> 06:42.712
+I shaded in orange.
+
+06:42.712 --> 06:44.920
+And now, if we want the
+volume of one of those rings,
+
+06:44.920 --> 06:47.294
+we have to multiply it by its
+depth or its height the way
+
+06:47.294 --> 06:49.070
+we've drawn it right over here.
+
+06:49.070 --> 06:52.030
+And its height-- we've done this
+multiple times already right
+
+06:52.030 --> 06:55.580
+over here-- is an
+infinitesimal change in y.
+
+06:55.580 --> 06:59.840
+So we're going to multiply
+all that business times dy.
+
+06:59.840 --> 07:01.660
+This is the volume
+of one of our rings.
+
+07:01.660 --> 07:04.631
+And then we want to sum up all
+of the rings over our interval.
+
+07:04.631 --> 07:07.130
+So we're going to sum up all
+of the rings over the interval.
+
+07:07.130 --> 07:08.630
+And when you take
+the integral sign,
+
+07:08.630 --> 07:11.260
+it's a sum where you're
+taking the limit as you
+
+07:11.260 --> 07:14.690
+have an infinite number of rings
+that become infinitesimally
+
+07:14.690 --> 07:17.970
+small in height or depth,
+depending on how you view it.
+
+07:17.970 --> 07:19.880
+And what's our interval?
+
+07:19.880 --> 07:21.550
+So we've looked at
+this multiple times.
+
+07:21.550 --> 07:23.180
+These two graphs-- you
+could do it by inspection.
+
+07:23.180 --> 07:24.763
+You could try to
+solve it in some way,
+
+07:24.763 --> 07:27.190
+but it's pretty obvious
+that they intersect at--
+
+07:27.190 --> 07:29.150
+remember we care
+about our y interval.
+
+07:29.150 --> 07:34.355
+They intersect at y is equal
+to 0 and y is equal to 1.
+
+07:38.404 --> 07:39.320
+And there you have it.
+
+07:39.320 --> 07:42.900
+We've set up our
+integral for the volume
+
+07:42.900 --> 07:45.106
+of this shape right over here.
+
+07:45.106 --> 07:46.980
+I'll leave you there,
+and in this next video,
+
+07:46.980 --> 07:50.120
+we will just evaluate
+this integral.

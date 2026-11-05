@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00.410 --> 00:02.580
+Už víme, jak zní
+součinové pravidlo.
+
+00:02.580 --> 00:09.000
+Pokud máme součin dvou
+funkcí, řekněme f(x) a g(x),
+
+00:09.030 --> 00:19.730
+a chceme jej zderivovat, bude
+to derivace první funkce, f s čárkou (x),
+
+00:19.730 --> 00:29.850
+krát druhá funkce, krát g(x), plus
+první funkce, kterou nederivujeme,
+
+00:29.850 --> 00:37.000
+takže plus f(x), krát
+derivace druhé funkce.
+
+00:37.000 --> 00:41.230
+Máme dva výrazy, v každém z nich
+derivujeme jednu funkci a druhou ne,
+
+00:41.230 --> 00:42.260
+a pak se to prohodí.
+
+00:42.260 --> 00:44.960
+Tady máme derivaci
+f, ale ne g.
+
+00:44.970 --> 00:47.392
+Tady derivaci g, ale ne f.
+
+00:47.392 --> 00:50.530
+Tolik k malému opakování
+pravidla součinu.
+
+00:50.530 --> 00:56.484
+Teď pravidlo součinu využijeme pro to,
+čemu učebnice říkají podílové pravidlo.
+
+00:56.484 --> 00:58.400
+Mně se to úplně nelíbí.
+
+00:58.400 --> 01:01.436
+Když jej znáte, některé
+operace to možná urychlí,
+
+01:01.436 --> 01:04.109
+ale vychází přímo
+z pravidla součinu.
+
+01:04.109 --> 01:08.970
+Já osobně podílové pravidlo vždycky
+zapomenu a odvozuji si ho ze součinového.
+
+01:08.980 --> 01:10.630
+O co tedy jde.
+
+01:10.630 --> 01:18.840
+Představme si výraz zapsaný
+jako f(x) děleno g(x).
+
+01:18.840 --> 01:26.410
+A chceme určit jeho derivaci,
+tedy derivaci f(x) lomeno g(x).
+
+01:26.410 --> 01:32.650
+Důležité je si uvědomit, že
+je to stejné jako derivace…
+
+01:32.670 --> 01:44.102
+Místo f(x) lomeno g(x) můžeme
+napsat f(x) krát g(x) na −1.
+
+01:44.102 --> 01:47.550
+A nyní můžeme využít pravidlo součinu
+spolu s pravidlem o složené funkci.
+
+01:47.550 --> 01:50.230
+Čemu se to bude rovnat?
+
+01:50.230 --> 01:52.030
+Prostě použijeme
+pravidlo součinu.
+
+01:52.030 --> 01:59.580
+Jde o derivaci první
+funkce, tedy f'(x),
+
+01:59.600 --> 02:08.510
+krát druhá funkce,
+což je g(x) na −1,
+
+02:08.510 --> 02:16.510
+plus první funkce,
+což je jen f(x),
+
+02:16.510 --> 02:19.420
+krát derivace druhé funkce.
+
+02:19.439 --> 02:22.400
+A tady musíme použít
+pravidlo o složené funkci.
+
+02:22.400 --> 02:24.364
+Derivace vnější funkce,
+
+02:24.364 --> 02:28.400
+kterou můžeme vnímat jako derivaci
+něčeho na −1 podle toho něčeho.
+
+02:28.400 --> 02:34.810
+A to bude −1 krát to něco, což
+je v tomto případě g(x), na −2.
+
+02:34.820 --> 02:37.810
+A pak musíme zderivovat
+vnitřní funkci podle x,
+
+02:37.810 --> 02:41.540
+což je prostě g'(x).
+
+02:41.540 --> 02:42.570
+A máme to.
+
+02:42.570 --> 02:46.660
+Spočítali jsme tuto derivaci pomocí
+pravidla o součinu a o složené funkci.
+
+02:46.660 --> 02:48.590
+Toto ale není ve tvaru,
+který uvidíte,
+
+02:48.590 --> 02:51.290
+když si najdete podílové
+pravidlo ve své učebnici.
+
+02:51.290 --> 02:53.620
+Podívejme se, jestli
+to můžeme zjednodušit.
+
+02:53.620 --> 02:56.180
+Toto celé bude rovno…
+
+02:56.180 --> 03:04.340
+Tento výraz můžeme zapsat
+jako f'(x) lomeno g(x).
+
+03:04.340 --> 03:07.440
+f'(x) lomeno g(x).
+
+03:07.440 --> 03:09.780
+A toto můžeme zapsat jako…
+
+03:09.780 --> 03:11.690
+Toto minus můžeme
+dát dopředu.
+
+03:11.690 --> 03:24.430
+Dostaneme −f(x) krát g'(x).
+
+03:24.430 --> 03:28.745
+A pak to celé lomeno
+g(x) na druhou.
+
+03:28.745 --> 03:30.592
+Napíšu to trochu lépe.
+
+03:30.592 --> 03:36.679
+To celé lomeno
+g(x) na druhou.
+
+03:36.679 --> 03:40.020
+A tohle ještě stále není ve tvaru,
+který obyčejně najdete v učebnici.
+
+03:40.020 --> 03:42.855
+Aby to tak bylo, musíme
+ještě sečíst tyto dva zlomky.
+
+03:42.855 --> 03:45.640
+Vynásobme tedy tento čitatel
+a jmenovatel tímto g(x),
+
+03:45.640 --> 03:49.790
+abychom měli všude
+g(x) na druhou ve jmenovateli.
+
+03:49.810 --> 03:54.360
+Když tedy vynásobíme čitatel
+g(x), dostaneme g(x) tady
+
+03:54.360 --> 03:57.180
+a ve jmenovateli bude
+g(x) na druhou.
+
+03:57.180 --> 03:59.050
+A teď můžeme sčítat.
+
+03:59.050 --> 04:00.324
+Dostaneme tedy,
+
+04:00.324 --> 04:15.010
+že derivace f(x) lomeno g(x) je rovna
+derivaci f(x) krát g(x) minus, už ne plus,
+
+04:15.010 --> 04:28.020
+napíšu to bílou,
+minus f(x) krát g'(x),
+
+04:28.020 --> 04:33.980
+to celé lomeno
+g(x) na druhou.
+
+04:33.980 --> 04:34.990
+Takže ještě jednou,
+
+04:34.990 --> 04:38.220
+toto si vždy můžete odvodit z
+pravidla o součinu a složené funkci.
+
+04:38.240 --> 04:40.760
+Někdy se může hodit
+si toto pamatovat,
+
+04:40.760 --> 04:44.790
+abychom některé příklady
+v tomto tvaru vyřešili rychleji.
+
+04:44.790 --> 04:49.330
+A když se podíváme na to, čím
+se liší pravidlo součinové a podílové,
+
+04:49.330 --> 04:52.890
+tady je to derivace jedné
+funkce krát druhá funkce,
+
+04:52.890 --> 04:58.935
+ale místo přičítání derivace druhé funkce
+krát první funkce to teď odčítáme.
+
+04:58.935 --> 05:02.180
+A celé je to ještě lomeno
+druhou funkcí na druhou.
+
+05:02.180 --> 05:05.222
+Cokoli bylo ve jmenovateli,
+je teď na druhou.
+
+05:05.222 --> 05:08.150
+Takže když derivujeme
+tuto funkci a jmenovatel,
+
+05:08.150 --> 05:09.900
+tady je odčítání
+
+05:09.900 --> 05:14.930
+a celé je to ještě lomeno
+druhou funkcí na druhou.

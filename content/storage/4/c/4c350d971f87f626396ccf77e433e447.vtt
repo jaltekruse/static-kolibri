@@ -1,0 +1,396 @@
+WEBVTT
+
+00:00.660 --> 00:07.571
+V minulém videu jsme se snažili přijít
+na směrnici křivky v určitém bodě.
+
+00:07.571 --> 00:12.340
+A udělali jsme to. Chtěli jsme najít
+směrnici mezi tímhle bodem a dalším bodem,
+
+00:12.340 --> 00:14.150
+který není příliš daleko od toho bodu.
+
+00:14.150 --> 00:16.053
+A dostali jsme směrnici sečny té přímky.
+
+00:16.053 --> 00:19.770
+A vypadá to úžasně, ale tohle
+je pouze y-ová souřadnice toho bodu,
+
+00:19.770 --> 00:24.280
+který není příliš daleko,
+a tohle je jen y-ová souřadnice bodu,
+
+00:24.280 --> 00:27.210
+na který se ptáme, takže tohle
+je změna y-ové souřadnice - ‚Δy‘.
+
+00:27.210 --> 00:29.340
+A to vydělíte změnou
+x-ové souřadnice - ‚Δx‘.
+
+00:29.340 --> 00:33.610
+Takže v tom příkladu je ‚h‘ rozdíl mezi
+dvěma hodnotami x-ové souřadnice.
+
+00:33.610 --> 00:35.420
+Tahle vzdálenost je ‚h‘.
+
+00:35.420 --> 00:39.210
+A to nám dalo směrnici té přímky.
+
+00:39.210 --> 00:45.530
+Co když vezmeme limitu? Tento bod
+se co nejvíce přibližuje k tomuto bodu.
+
+00:45.530 --> 00:51.250
+Když se tenhle bod prostě stane tímto,
+pak naše směrnice bude směrnice tečny.
+
+00:51.250 --> 00:54.620
+A to definujeme jako derivaci naší funkce.
+
+00:54.620 --> 00:57.280
+Řekli jsme, že se to rovná f‘(x).
+
+00:57.280 --> 01:03.760
+Tak to zkusme v tomto videu použít,
+abychom si ty znalosti trochu upevnili.
+
+01:03.760 --> 01:04.910
+Udělám jeden příklad.
+
+01:04.910 --> 01:10.050
+Prvně udělám určitý příklad,
+kde chci najít směrnici konkrétního bodu.
+
+01:10.050 --> 01:17.530
+Tak znovu nakreslím osy.
+
+01:17.530 --> 01:27.120
+A mám křivku:
+y se rovná x^2.
+
+01:27.120 --> 01:37.270
+Takže tohle je moje osa y, tohle je osa x,
+chci vědět směrnici v bodě x se rovná 3.
+
+01:37.270 --> 01:40.080
+Když řeknu směrnice,
+tak si představte tečnu.
+
+01:40.080 --> 01:41.750
+Udělám to světle žlutě.
+
+01:41.750 --> 01:47.720
+Můžete si představit tečnu, která jde
+takhle, a skoro se té křivky nedotýká.
+
+01:47.720 --> 01:51.260
+Ale jaká je směrnice té tečny?
+
+01:51.260 --> 01:56.210
+Jaká je směrnice té tečny, která je
+stejná jako směrnice křivky v tom bodě?
+
+01:56.210 --> 01:58.770
+Abychom to udělali, tak
+použiji přesně tuhle techniku,
+
+01:58.770 --> 02:00.120
+kterou jsme dřív použili.
+
+02:00.120 --> 02:03.590
+Pak to zobecním, abyste to
+takhle mohli dělat pro jakékoli číslo.
+
+02:03.590 --> 02:14.155
+Vyberme si tady další bod.
+Nazveme ho 3 plus Δx.
+
+02:14.155 --> 02:17.150
+Měním pojmenování,
+protože v některých knihách uvidíte ‚h‘,
+
+02:17.150 --> 02:20.660
+v některých ‚Δx‘. Nevadí,
+když se seznámíte s obojím.
+
+02:20.660 --> 02:22.500
+Takže tohle je 3 plus Δx.
+
+02:22.500 --> 02:25.770
+Co je tohle za bod?
+
+02:25.770 --> 02:33.730
+Tohle je křivka y se rovná x^2.
+Takže f(x) je 3^2, a to je 9.
+
+02:33.730 --> 02:40.895
+Takže je to bod [3,9].
+Co je tohle za bod?
+
+02:40.895 --> 02:45.180
+Kdybychom museli jít až sem,
+tak co je to za bod?
+
+02:45.180 --> 02:49.120
+Tady naše x-ová
+souřadnice je 3 plus Δx.
+
+02:49.120 --> 02:51.370
+Je to to samé jako
+tohle: x0 plus h.
+
+02:51.370 --> 02:58.105
+Taká jsem to mohl nazvat 3 plus h.
+Takže to je 3 plus Δx.
+
+02:58.110 --> 02:59.930
+Tak jaká bude hodnota ‚y‘?
+
+02:59.930 --> 03:03.550
+Jakákoli je hodnota ‚x‘, tak hodnota ‚y‘
+je na křivce a bude to x^2.
+
+03:03.550 --> 03:12.600
+Takže to bude bod (3 plus Δx)^2.
+
+03:12.600 --> 03:18.350
+Tak pojďme přijít na
+směrnici téhle sečny.
+
+03:18.350 --> 03:20.340
+Přiblížím to, to pomůže.
+
+03:20.340 --> 03:25.250
+Když to přiblížím na tuhle část křivky,
+tak to možná bude vypadat takhle.
+
+03:25.250 --> 03:32.330
+Tak mám jeden bod tady a druhý tady.
+
+03:32.330 --> 03:40.230
+Tohle je sečna.
+
+03:40.230 --> 03:45.510
+Toto je tento bod [3,9].
+
+03:45.510 --> 03:53.560
+A pak tenhle bod je 3 plus Δx,
+takže nějaké větší číslo než 3,
+
+03:53.560 --> 03:55.830
+a pak to bude to
+(nějaké větší číslo než 3)^2.
+
+03:55.830 --> 03:57.750
+Takže to bude (3 plus Δx)^2.
+
+03:57.750 --> 04:01.410
+To je co? To bude 9…
+
+04:01.410 --> 04:04.980
+Bylo by to nepřehledné, tak ten
+vzorec jen pro zopakování řeknu:
+
+04:04.980 --> 04:09.280
+(a plus b)^2 je (a^2)
+plus (2ab) plus (b^2).
+
+04:09.280 --> 04:12.030
+Takže to bude 9 plus
+2 krát součin těchto dvou věcí.
+
+04:12.030 --> 04:22.535
+Takže plus 6Δx a pak (Δx)^2.
+To jsou souřadnice druhé přímky.
+
+04:22.535 --> 04:26.290
+Vypadá to složitě, ale jen jsem vzal
+tuhle hodnotu x a umocnil ji,
+
+04:26.290 --> 04:29.230
+protože y-ová
+souřadnice se rovná x^2.
+
+04:29.230 --> 04:37.070
+Takže směrnice sečny
+bude Δy děleno Δx.
+
+04:37.070 --> 04:51.080
+Takže Δy bude jen y-ová souřadnice tohoto
+bodu, což je 9 plus 6Δx plus (Δx)^2,
+
+04:51.080 --> 04:53.780
+minus y-ová
+souřadnice tohoto bodu.
+
+04:53.780 --> 04:55.340
+Udělám to zeleně.
+
+04:55.340 --> 04:59.520
+Takže minus 9. To je vaše ‚Δy‘.
+
+04:59.520 --> 05:05.030
+A to chcete vydělit ‚Δx‘.
+Takže jaké je ‚Δx‘?
+
+05:05.030 --> 05:07.210
+Tohle se ve skutečnosti bude hodit.
+
+05:07.210 --> 05:09.640
+Zde jsme použili první
+souřadnici tohoto bodu,
+
+05:09.640 --> 05:11.690
+tak zde to musí být stejně.
+
+05:11.690 --> 05:17.360
+To bude 3 plus Δx.
+A pak jaké je hodnota ‚x‘? 3.
+
+05:17.360 --> 05:22.070
+Takže tady je minus 3.
+
+05:22.070 --> 05:25.470
+A co získáme po zjednodušení?
+
+05:25.470 --> 05:28.910
+Dostaneme 9 minus 9,
+devítky se vyruší.
+
+05:28.910 --> 05:32.570
+A co se děje se jmenovatelem?
+Tohle 3 minus 3 se vyruší.
+
+05:32.570 --> 05:35.990
+Takže změna v x-ové souřadnici se
+vlastně stane ‚Δx‘, což dává smysl,
+
+05:35.990 --> 05:40.000
+protože tohle ‚Δx‘ je ve skutečnosti
+to, o kolik je větší toto než toto.
+
+05:40.000 --> 05:43.360
+Takže to by měla být
+změna v x-ové souřadnici, ‚Δx‘.
+
+05:43.360 --> 06:00.540
+Takže směrnice sečny se zjednodušila na
+6Δx plus (Δx)^2, to vše děleno Δx.
+
+06:00.540 --> 06:02.640
+A teď to můžeme zjednodušit ještě víc.
+
+06:02.640 --> 06:06.840
+Tak dělíme čitatele a
+jmenovatele ‚Δx‘.
+
+06:06.840 --> 06:09.900
+Změním barvy, abych to trochu oživil.
+
+06:09.900 --> 06:26.140
+Tak směrnice sečny, když vydělíte čitatele
+a jmenovatele ‚Δx‘, bude 6 plus Δx.
+
+06:26.150 --> 06:28.330
+To je směrnice té sečny.
+
+06:28.330 --> 06:36.280
+Takže směrnice se rovná 6 plus Δx.
+To je tohle tady.
+
+06:36.280 --> 06:42.390
+To je tahle červená přímka,
+kterou jsem namaloval.
+
+06:42.390 --> 06:46.890
+Když tyhle body jsou 3 a 4,
+tak by moje směrnice byl 6 plus 1,
+
+06:46.890 --> 06:50.510
+protože vybírám bod 4,
+a tedy Δx by bylo 1.
+
+06:50.510 --> 06:53.780
+Takže by směrnice byla 7.
+
+06:53.780 --> 06:57.230
+Tak máme základní
+vzoreček pro jakékoli ‚Δx‘,
+
+06:57.230 --> 07:00.790
+dokážu přijít na směrnici
+mezi 3 a 3 plus Δx.
+
+07:00.790 --> 07:03.460
+Mezi těmito dvěma body.
+
+07:03.460 --> 07:09.160
+Chtěli jsme nalézt
+směrnici přímo v tom určitém bodě.
+
+07:09.160 --> 07:12.810
+Tak se podívejme, co se stane,
+když se ‚Δx‘ zmenšuje.
+
+07:12.810 --> 07:15.580
+Tohle je ‚Δx‘. To je tahle vzdálenost.
+
+07:15.580 --> 07:20.170
+Ale jestliže je ‚Δx‘ menší,
+tak sečna bude vypadat tahle.
+
+07:20.170 --> 07:23.680
+Kdyby bylo menší, tak by sečna
+vypadala takhle, zmenšuje se.
+
+07:23.680 --> 07:26.890
+Tak se blížíme ke směrnici tečny.
+
+07:26.890 --> 07:30.900
+Tečna je tohle tady,
+chci k ní najít směrnici.
+
+07:30.910 --> 07:34.970
+Tak pojďme najít limitu,
+když se naše Δx přibližuje 0.
+
+07:34.970 --> 07:39.110
+Takže limita Δx se blíží k 0,
+
+07:39.110 --> 07:43.710
+naše směrnice sečny
+6 plus Δx se rovná?
+
+07:43.710 --> 07:44.830
+Je to poměrně jasné.
+
+07:44.830 --> 07:48.190
+Můžete to dosadit tak, že
+se to rovná 0 a to se rovná 6.
+
+07:48.190 --> 07:57.860
+Takže směrnice naší tečny v tomto
+bodě, kde x se rovná 3, je 6.
+
+07:57.860 --> 08:04.460
+Mohli bychom to napsat jinak,
+f(x) se rovná x^2.
+
+08:04.460 --> 08:11.930
+Tak teď víme, že derivace neboli směrnici
+tečny funkce v bodě 3,
+
+08:11.930 --> 08:18.590
+jen jsem tomu dal určitou
+hodnotu, se rovná 6.
+
+08:18.590 --> 08:24.630
+Nenapsal jsem základní vzorec pro výpočet
+směrnice této přímky v jakémkoli bodě,
+
+08:24.630 --> 08:26.870
+a to udělám v příštím videu.

@@ -1,0 +1,297 @@
+WEBVTT
+
+00:00.610 --> 00:04.090
+Využijme toho, co víme o pravidlech pro
+derivaci složené funkce a součinu,
+
+00:04.090 --> 00:07.950
+a zderivujme
+tento divný výraz.
+
+00:07.950 --> 00:16.846
+Chceme spočítat derivaci z
+(e na cos(x) vynásobené cos(e na x)).
+
+00:16.846 --> 00:18.710
+Tak to pojďme
+zderivovat.
+
+00:18.710 --> 00:21.240
+Na tohle se můžeme dívat
+jako na součin dvou funkcí.
+
+00:21.240 --> 00:23.702
+Podle pravidla pro derivaci
+součinu se tohle rovná:
+
+00:23.702 --> 00:37.839
+derivaci podle x z (e na cos(x)),
+to celé krát cos(e na x),
+
+00:37.839 --> 00:48.060
+plus první funkce, tedy e na cos(x),
+vynásobená derivací druhé funkce,
+
+00:48.060 --> 00:58.856
+tedy krát derivace
+podle x z cos(e na x).
+
+00:58.856 --> 01:01.500
+Teď už jen potřebujeme
+spočítat tyhle dvě derivace.
+
+01:01.500 --> 01:04.740
+Asi už vidíte, že můžeme použít
+pravidlo pro derivaci složené funkce.
+
+01:04.740 --> 01:05.670
+Ještě to
+ujasním.
+
+01:05.670 --> 01:12.170
+Tohle nám vyšlo díky
+pravidlu pro derivaci součinu.
+
+01:12.170 --> 01:15.694
+Na výpočet těchto derivací je ale třeba
+vzorec pro derivaci složené funkce.
+
+01:15.694 --> 01:17.490
+Zamysleme
+se nad tím.
+
+01:17.490 --> 01:18.340
+Derivace...
+
+01:18.340 --> 01:25.698
+Jen si to zkopíruji a vložím sem,
+abych to nemusel zase psát.
+
+01:25.698 --> 01:32.990
+Zamysleme se nejprve nad
+derivací funkce e na cos(x).
+
+01:32.990 --> 01:39.137
+Naší vnější funkcí bude
+funkce e na něco.
+
+01:39.137 --> 01:45.592
+Derivací e na něco podle toho
+něčeho je e na to něco.
+
+01:45.592 --> 01:48.620
+Bude to tedy
+e na cos(x)...
+
+01:48.620 --> 01:50.880
+Napíšu to tou stejnou
+modrou barvou.
+
+01:50.880 --> 01:52.571
+...bude to e...
+
+01:52.571 --> 01:57.180
+Vlastně to raději udělám
+jinou barvou, třeba růžovou.
+
+01:57.180 --> 02:03.400
+Derivací e na něco podle
+toho něčeho je e na to něco,
+
+02:03.400 --> 02:05.623
+takže tady bude
+e na cos(x),
+
+02:05.623 --> 02:10.000
+což ještě musíme vynásobit
+derivací toho něčeho podle x.
+
+02:10.000 --> 02:14.010
+Čemu se rovná
+derivace cos(x) podle x?
+
+02:14.010 --> 02:16.300
+To je −sin(x),
+
+02:16.300 --> 02:21.060
+takže to
+vynásobíme −sin(x).
+
+02:21.060 --> 02:23.310
+Tím jsme spočítali
+tuhle derivaci.
+
+02:23.310 --> 02:24.600
+Ještě to ujasním.
+
+02:24.600 --> 02:37.610
+Toto je derivace (e na cos(x))
+podle cos(x)
+
+02:37.610 --> 02:45.520
+a tohle je derivace
+cos(x) podle x.
+
+02:45.520 --> 02:49.140
+Podle pravidla o derivaci složené funkce
+musíme tyhle dvě derivace vynásobit.
+
+02:49.140 --> 02:49.950
+To bychom měli.
+
+02:49.950 --> 02:52.710
+Nyní spočítejme
+tuto derivaci.
+
+02:52.710 --> 02:57.180
+Chceme spočítat derivaci
+podle x z cos(e na x).
+
+02:57.180 --> 03:00.110
+Opět ji zkopíruji
+a vložím dolů.
+
+03:00.110 --> 03:03.340
+Tohle tedy
+chceme spočítat.
+
+03:03.340 --> 03:07.310
+Nejprve jako předtím použijeme
+pravidlo pro derivaci složené funkce.
+
+03:07.310 --> 03:14.660
+Musíme spočítat derivaci kosinu něčeho,
+v tomto případě e na x, podle toho něčeho.
+
+03:14.660 --> 03:16.899
+Tohle se
+tedy rovná...
+
+03:16.899 --> 03:23.650
+Derivace kosinu něčeho podle toho
+něčeho je −sinus toho něčeho,
+
+03:23.650 --> 03:27.390
+tedy −sin(e na x).
+
+03:27.390 --> 03:37.970
+Toto je derivace
+cos(e na x) podle (e na x).
+
+03:37.970 --> 03:42.670
+Tohle ještě musíme vynásobit
+derivací onoho něčeho podle x.
+
+03:42.670 --> 03:45.020
+Udělám to touhle...
+
+03:45.020 --> 03:46.020
+Dochází mi barvy.
+
+03:46.020 --> 03:48.370
+...udělám to
+touhle zelenou.
+
+03:48.370 --> 03:52.586
+Derivace (e na x)
+podle x je zase e na x.
+
+03:52.586 --> 04:00.795
+Tohle je tedy derivace
+(e na x) podle x.
+
+04:00.795 --> 04:02.171
+V podstatě teď
+máme hotovo,
+
+04:02.171 --> 04:06.488
+jen do původního výrazu dosadíme, co nám
+dal vzorec pro derivaci složené funkce.
+
+04:06.488 --> 04:10.969
+Derivace tohoto výrazu
+nahoře se rovná...
+
+04:10.969 --> 04:18.630
+Celé to opět zkopíruji
+a vložím dolů.
+
+04:18.630 --> 04:26.644
+Toto se tedy rovná
+tomuhle krát cos(e na x),
+
+04:26.644 --> 04:28.259
+takže to bude...
+
+04:28.259 --> 04:31.938
+e na cos(x) a tohle minus
+můžeme napsat dopředu,
+
+04:31.938 --> 04:39.740
+takže to můžeme napsat
+jako −(e na cos(x)),
+
+04:39.740 --> 04:52.028
+tohle krát sin(x)
+krát cos(e na x).
+
+04:52.028 --> 04:53.970
+To je tento
+první člen.
+
+04:53.970 --> 05:00.740
+K tomu nyní přičteme e na cos(x)
+vynásobené tímhle celým.
+
+05:01.590 --> 05:05.250
+Minus můžeme opět napsat
+dopředu, tak to hned udělejme.
+
+05:05.250 --> 05:08.520
+Tady tak budeme
+mít minus...
+
+05:08.520 --> 05:12.300
+(e na cos(x)) krát (e na x),
+to můžu napsat takto.
+
+05:12.300 --> 05:15.223
+(e na x) krát (e na cos(x)).
+
+05:15.223 --> 05:19.649
+To bychom mohli zjednodušit, protože
+násobíme dvě mocniny o stejném základu,
+
+05:19.649 --> 05:21.890
+ale já to
+nechám takhle.
+
+05:21.890 --> 05:26.360
+(e na x) krát (e na cos(x))
+krát sinus...
+
+05:26.360 --> 05:33.020
+Minus už máme tady,
+takže to bude jen sin(e na x).
+
+05:33.020 --> 05:38.841
+...krát sin(e na x).
+
+05:38.841 --> 05:42.380
+Měli jsme minus
+sin(e na x) krát (e na x),
+
+05:42.380 --> 05:44.671
+tady je také minus
+sin(e na x) krát (e na x),
+
+05:44.671 --> 05:47.191
+což jsme ještě
+vynásobili e na cos(x).
+
+05:47.191 --> 05:49.621
+Tady dole tak
+máme opravdu to stejné.
+
+05:49.621 --> 05:51.201
+A máme hotovo.

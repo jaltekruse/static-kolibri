@@ -1,0 +1,304 @@
+WEBVTT
+
+00:00.670 --> 00:02.390
+Ya hemos hecho varios videos
+
+00:02.390 --> 00:05.330
+donde hemos aproximado el área bajo una curva
+
+00:05.330 --> 00:08.870
+mediante la ruptura de esa area en rectángulos
+
+00:08.870 --> 00:12.417
+y encontrando, luego, la suma de las áreas de estos rectangulos
+
+00:12.417 --> 00:13.250
+como una aproximación
+
+00:13.250 --> 00:15.750
+Y este fue, en realidad, el primer ejemplo
+
+00:15.750 --> 00:18.410
+en el cual vimos que cada uno de los rectángulos
+
+00:18.410 --> 00:19.480
+tenía el mismo ancho
+
+00:19.480 --> 00:21.940
+Así que dividimos el intervalo en partes iguales
+
+00:21.940 --> 00:24.790
+entre nuestros dos límites a y b
+
+00:24.790 --> 00:27.210
+Y la altura del rectángulo era la función
+
+00:27.210 --> 00:30.570
+evaluada en el punto final izquierdo de cada rectángulo
+
+00:30.570 --> 00:33.300
+Y queríamos generalizarlo, y escribirlo en notación sigma
+
+00:33.300 --> 00:35.110
+Se veía como algo así
+
+00:35.110 --> 00:36.090
+Y este fue sólo un caso
+
+00:36.090 --> 00:37.720
+Después, vimos una situación
+
+00:37.720 --> 00:40.130
+donde definimos la altura con la función
+
+00:40.130 --> 00:42.140
+evaluada en el punto final derecho o en el punto medio
+
+00:42.140 --> 00:44.190
+Y entonces construimos trapezoides
+
+00:44.190 --> 00:50.190
+Y estas son todas instancias particulares de las sumas de Riemann
+
+00:50.190 --> 00:54.784
+Esta es una suma de Riemann
+
+00:54.784 --> 00:56.450
+Y cuando la gente habla acerca de las sumas de Riemann,
+
+00:56.450 --> 00:57.790
+están hablando de la noción más general
+
+00:57.790 --> 00:59.040
+No tienes que hacerlo sólo de esta manera
+
+00:59.040 --> 01:00.300
+Puedes usar trapezoides.
+
+01:00.300 --> 01:02.690
+Ni si quiera es necesario que tengas particiones del mismo tamaño
+
+01:02.690 --> 01:05.400
+Yo usé particiones de un mismo tamaño porque hacía las cosas
+
+01:05.400 --> 01:07.850
+un poco más simples, conceptualmente
+
+01:07.850 --> 01:10.720
+Y esta que está aquí es una fotografía de la persona
+
+01:10.720 --> 01:12.320
+por la cual las sumas de Riemann reciben su nombre.
+
+01:12.320 --> 01:14.510
+Este es Bernhard Riemann
+
+01:14.510 --> 01:18.086
+El hizo muchas contribuciones a las matemáticas
+
+01:18.086 --> 01:19.710
+Pero por lo que es más conocido, al menos
+
+01:19.710 --> 01:21.626
+si estás tomando un curso de cálculo de primer año,
+
+01:21.626 --> 01:23.090
+es la Suma de Riemann
+
+01:23.090 --> 01:26.600
+Y cómo esta se usa para definir la integral de Riemann.
+
+01:26.600 --> 01:28.350
+ambos, Newton y Leibniz, tuvieron
+
+01:28.350 --> 01:30.030
+la idea de una integral cuando
+
+01:30.030 --> 01:32.760
+estaban formulando cálculos, pero la Integral de Riemann
+
+01:32.760 --> 01:35.260
+es como la más usual y formal,
+
+01:35.260 --> 01:37.500
+o debería decir rigurosa, definición
+
+01:37.500 --> 01:39.480
+de lo que es una integral.
+
+01:39.480 --> 01:42.790
+Así que como te puedes imaginar, esta es una instancia de una Suma de Riemann.
+
+01:42.790 --> 01:44.730
+Tenemos n por acá.
+
+01:44.730 --> 01:48.710
+Mientras más grande es n, mejor será la aproximación.
+
+01:48.710 --> 01:51.130
+Así que su definición de una integral, la cual
+
+01:51.130 --> 01:53.020
+es en realidad el área bajo la curva,
+
+01:53.020 --> 01:55.230
+o su definición de una integral definida, la cual
+
+01:55.230 --> 01:58.400
+es en realidad el área bajo una curva entre a y b
+
+01:58.400 --> 02:03.310
+al tomar esta suma de Riemann, no necesariamente debe ser esta,
+
+02:03.310 --> 02:09.139
+toma cualquier suma de Riemann, y toma el límite en el cual n se aproxima
+
+02:09.139 --> 02:09.819
+a infinito.
+
+02:09.819 --> 02:11.360
+Entonces, sólo para aclarar, ¿Qué sucede
+
+02:11.360 --> 02:12.940
+cuando n se acerca a infinito?
+
+02:12.940 --> 02:15.130
+Déjame dibujar otro diagrama aquí.
+
+02:15.130 --> 02:18.440
+Entonces, digamos que este es mi eje y.
+
+02:18.440 --> 02:20.670
+Este es mi eje x.
+
+02:20.670 --> 02:23.060
+Esta es mi función.
+
+02:23.060 --> 02:26.300
+Como n se acerca a infinito - Este es a,
+
+02:26.300 --> 02:29.510
+este es b - tendrás muchísimos rectángulos.
+
+02:29.510 --> 02:32.382
+Simplemente tendrás muchísimos tectángulos aquí.
+
+02:32.382 --> 02:34.340
+Y serán mejores y mejores
+
+02:34.340 --> 02:37.430
+aproximaciones del área real.
+
+02:37.430 --> 02:40.640
+Y el área real bajo la curva
+
+02:40.640 --> 02:50.410
+es denotada por la integral desde a hasta b de f(x) veces dx.
+
+02:50.410 --> 02:52.936
+Y puedes ver de dónde viene esto
+
+02:52.936 --> 02:54.310
+o como estas notaciones se parecen.
+
+02:54.310 --> 02:56.810
+O, al menos en mi cerebro, como están conectadas.
+
+02:56.810 --> 03:04.080
+delta equis era el ancho de cada una de estas secciones.
+
+03:04.080 --> 03:05.430
+Este de aquí es delta equis
+
+03:05.430 --> 03:08.350
+Así que este es un delta equis
+
+03:08.350 --> 03:09.390
+Este es otro delta equis
+
+03:09.390 --> 03:11.320
+Este es otro delta equis
+
+03:11.320 --> 03:14.300
+Una manera razonable de conceptualizar que es dx,
+
+03:14.300 --> 03:17.150
+o que es una diferencial, es a lo que se se acerca
+
+03:17.150 --> 03:20.060
+delta x, si se vuelve infinitamente pequeño.
+
+03:20.060 --> 03:22.592
+Así puedes conceptualizar esto, y no es
+
+03:22.592 --> 03:24.300
+una forma muy rigurosa de pensar en ello,
+
+03:24.300 --> 03:38.070
+es un infinitamente pequeño - pero no 0 - infinitamente pequeño delta
+
+03:38.070 --> 03:41.710
+x, es una manera de conceptualizarlo.
+
+03:41.710 --> 03:43.760
+Una vez más, tienes tu función
+
+03:43.760 --> 03:46.270
+veces un pequeño cambio en delta x.
+
+03:46.270 --> 03:47.890
+Y los estás sumando, aunque
+
+03:47.890 --> 03:52.520
+estás sumando un número infinito de estas cosas, desde a hasta b.
+
+03:52.520 --> 03:54.020
+Te dejaré aquí, así
+
+03:54.020 --> 03:54.890
+puedes llegar a ver la conexión.
+
+03:54.890 --> 03:56.348
+Conoces el nombre de estas cosas.
+
+03:56.348 --> 03:58.730
+Y, otra vez, esta que está aquí, esta
+
+03:58.730 --> 03:59.890
+no es la única summa de Riemann.
+
+03:59.890 --> 04:02.050
+De hecho, a veces es llamada la suma izquierda de Riemann
+
+04:02.050 --> 04:03.250
+si la utilizas con rectángulos.
+
+04:03.250 --> 04:04.541
+Puedes hacer una suma derecha de Riemann.
+
+04:04.541 --> 04:05.780
+Puedes usar el punto medio.
+
+04:05.780 --> 04:06.660
+Puedes usar un trapezoide.
+
+04:06.660 --> 04:08.951
+Pero si tomas el límite de cualquiera de estas sumas de Riemann,
+
+04:08.951 --> 04:11.080
+cuando n se acerca a infinito, entonces
+
+04:11.080 --> 04:16.160
+obtienes una definición de Riemann de la integral.
+
+04:16.160 --> 04:18.640
+Hasta ahora, no hemos hablado de cómo
+
+04:18.640 --> 04:20.440
+evaluar esta cosa.
+
+04:20.440 --> 04:22.600
+Esto es sólo una definición.
+
+04:22.600 --> 04:26.130
+Y eso es lo que haremos en futuros videos.

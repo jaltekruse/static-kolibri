@@ -1,0 +1,514 @@
+WEBVTT
+
+00:00.467 --> 00:03.603
+- [Voiceover] So let's say
+that we have y is equal to
+
+00:03.603 --> 00:06.936
+the secant of three pi over two minus x.
+
+00:10.358 --> 00:12.833
+And what we wanna do is,
+we wanna figure out what
+
+00:12.833 --> 00:17.265
+dy/dx is, the derivative
+of y with respect to x is,
+
+00:17.265 --> 00:19.515
+at x equal pi over four.
+
+00:21.896 --> 00:23.943
+Like always, pause this
+video and see if you could
+
+00:23.943 --> 00:25.852
+figure it out.
+
+00:25.852 --> 00:28.661
+Well as you can see here, we
+have a composite function.
+
+00:28.661 --> 00:30.856
+We're taking the secant, not just of x,
+
+00:30.856 --> 00:33.459
+but you could view this
+as of another expression
+
+00:33.459 --> 00:36.925
+that x could define, or as
+of a, of another function.
+
+00:36.925 --> 00:41.692
+So for example, if you call
+this right over here, u of x,
+
+00:41.692 --> 00:43.040
+let's do that.
+
+00:43.040 --> 00:47.207
+So if we say u of x is equal
+to three pi over two minus x,
+
+00:49.011 --> 00:51.163
+we could also figure out u prime of x
+
+00:51.163 --> 00:53.518
+is going to be equal to
+derivative of three pi over two,
+
+00:53.518 --> 00:55.473
+that's just going to be a zero,
+
+00:55.473 --> 00:58.300
+derivative of minus x,
+well that's just gonna be
+
+00:58.300 --> 01:01.847
+minus one, and you could just
+view that as a power rule.
+
+01:01.847 --> 01:05.712
+It's one times negative one,
+times x to the zero power,
+
+01:05.712 --> 01:06.866
+which is just one.
+
+01:06.866 --> 01:07.961
+So there you go.
+
+01:07.961 --> 01:11.672
+So we could view this as
+the derivative of the secant
+
+01:11.672 --> 01:14.926
+with respect to u of x, that
+when we take the derivative,
+
+01:14.926 --> 01:17.730
+the derivative of secant
+with respect to u of x,
+
+01:17.730 --> 01:21.397
+times the derivative
+of u with respect to x.
+
+01:22.400 --> 01:23.264
+And you might say,
+
+01:23.264 --> 01:24.969
+"Well, what about the
+derivative of secant?"
+
+01:24.969 --> 01:27.533
+Well in other videos, we
+actually prove it out,
+
+01:27.533 --> 01:28.973
+and you could actually re-derive it.
+
+01:28.973 --> 01:31.289
+Secant is just one over cosine of x,
+
+01:31.289 --> 01:33.067
+so it comes straight
+out of the chain rule.
+
+01:33.067 --> 01:37.002
+So, in other videos, we prove that the,
+
+01:37.002 --> 01:40.650
+the derivative of the secant of x,
+
+01:40.650 --> 01:44.817
+of the secant of x, is equal
+to, is equal to sin of x,
+
+01:47.274 --> 01:51.901
+over cosine of x, over
+cosine of x squared.
+
+01:51.901 --> 01:55.915
+So if we're trying to
+find the derivative of y
+
+01:55.915 --> 01:59.438
+with respect to x, well it's
+going to be the derivative
+
+01:59.438 --> 02:02.044
+of secant with respect to u of x,
+
+02:02.044 --> 02:04.984
+times the derivative
+of u with respect to x.
+
+02:04.984 --> 02:05.817
+So let's do that.
+
+02:05.817 --> 02:09.489
+The derivative of secant
+with respect to u of x,
+
+02:09.489 --> 02:11.560
+well, instead of seeing an x everywhere,
+
+02:11.560 --> 02:13.510
+you're gonna see a u of x everywhere.
+
+02:13.510 --> 02:15.293
+So this is going to be,
+
+02:15.293 --> 02:16.460
+sin of u of x,
+
+02:19.018 --> 02:20.185
+sin of u of x,
+
+02:21.669 --> 02:23.324
+and I could, I don't have to write u of x,
+
+02:23.324 --> 02:25.144
+I could write three pi over two minus x,
+
+02:25.144 --> 02:26.797
+but I'll write u of x
+right over here just to
+
+02:26.797 --> 02:28.863
+really visualize what we're doing.
+
+02:28.863 --> 02:30.967
+So sin of u of x,
+
+02:30.967 --> 02:32.487
+over,
+
+02:32.487 --> 02:33.727
+over,
+
+02:33.727 --> 02:35.810
+cosine squared of u of x,
+
+02:37.242 --> 02:38.608
+cosine squared,
+
+02:38.608 --> 02:40.098
+and we do those parentheses
+in the blue color
+
+02:40.098 --> 02:41.919
+just to make sure that you identify it
+
+02:41.919 --> 02:43.948
+with the trig function.
+
+02:43.948 --> 02:46.948
+So cosine squared of u of x, u of x,
+
+02:49.938 --> 02:53.246
+so that's the derivative of
+secant with respect to u of x,
+
+02:53.246 --> 02:54.402
+and then the chain rule
+tells us it's gonna be
+
+02:54.402 --> 02:57.152
+that times u prime, u prime of x.
+
+02:59.279 --> 03:02.091
+So what is this going to be equal to?
+
+03:02.091 --> 03:04.409
+Well, I could just substitute back.
+
+03:04.409 --> 03:08.295
+This is going to be equal to,
+I will write it like this.
+
+03:08.295 --> 03:12.462
+Sin of u of x, which is
+three pi over two minus x,
+
+03:13.303 --> 03:14.674
+and I'll fill that in in a second,
+
+03:14.674 --> 03:17.424
+over cosine of u of x squared,
+
+03:18.324 --> 03:20.668
+times u prime of x,
+
+03:20.668 --> 03:23.918
+u of x is three pi over two minus x,
+
+03:25.256 --> 03:27.423
+three pi over two minus x.
+
+03:28.767 --> 03:31.666
+And then u prime of x,
+we already figured out,
+
+03:31.666 --> 03:33.566
+is negative one, so I could write,
+
+03:33.566 --> 03:36.212
+times negative one, oh, yeah.
+
+03:36.212 --> 03:37.783
+Let me just leave it out there for now.
+
+03:37.783 --> 03:39.607
+I could have just put
+a negative out front,
+
+03:39.607 --> 03:41.432
+but I really want you to be able to see
+
+03:41.432 --> 03:42.898
+what I'm doing here.
+
+03:42.898 --> 03:47.161
+And now we want to evaluate
+at x equals pi over four.
+
+03:47.161 --> 03:49.911
+So that is equal to pi over four.
+
+03:51.693 --> 03:52.776
+Pi over four.
+
+03:53.882 --> 03:56.037
+So let's see, this is going to be,
+
+03:56.037 --> 03:59.517
+this is going to be equal to sin of,
+
+03:59.517 --> 04:02.152
+what's three pi over
+two minus pi over four?
+
+04:02.152 --> 04:03.354
+I'll do that over here.
+
+04:03.354 --> 04:04.590
+So we have a common denominator,
+
+04:04.590 --> 04:06.673
+that is six pi over four,
+
+04:07.812 --> 04:09.837
+the same thing as three pi over two,
+
+04:09.837 --> 04:11.420
+minus pi over four,
+
+04:13.110 --> 04:16.193
+minus pi over four, is equal to five,
+
+04:18.182 --> 04:19.682
+five pi over four.
+
+04:21.824 --> 04:24.574
+So it's sin of five pi over four,
+
+04:26.056 --> 04:27.556
+five pi over four,
+
+04:29.649 --> 04:33.066
+over cosine squared of five pi over four,
+
+04:35.363 --> 04:39.697
+and then times negative one,
+I can just put that out here.
+
+04:39.697 --> 04:41.805
+Now what is sin of five pi over four
+
+04:41.805 --> 04:43.953
+and cosine squared of five pi over four?
+
+04:43.953 --> 04:46.729
+Well, I don't have that memorized, but,
+
+04:46.729 --> 04:48.138
+let's actually draw a unit circle
+
+04:48.138 --> 04:49.958
+and we should be able to,
+
+04:49.958 --> 04:52.482
+we should be able to
+figure out what that is.
+
+04:52.482 --> 04:53.982
+So, a unit circle,
+
+04:55.283 --> 04:59.169
+I try to hand draw it as best as I can.
+
+04:59.169 --> 05:01.650
+Please forgive me that
+this circle does not look
+
+05:01.650 --> 05:04.339
+really like a circle, alright.
+
+05:04.339 --> 05:05.173
+Okay.
+
+05:05.173 --> 05:07.283
+So, let me just remember my angles.
+
+05:07.283 --> 05:11.170
+So, I, I in my brain, I
+sometimes convert into degrees.
+
+05:11.170 --> 05:13.420
+Pi over four is 45 degrees.
+
+05:15.103 --> 05:19.103
+This is pi over two, this
+is three pi over four,
+
+05:19.941 --> 05:22.133
+this is four pi over four,
+
+05:22.133 --> 05:24.300
+this is five pi over four,
+
+05:25.233 --> 05:27.832
+lands you right over there.
+
+05:27.832 --> 05:31.727
+So if you wanted to see where
+you intersect the unit circle,
+
+05:31.727 --> 05:35.310
+this is at the point,
+this is at the point.
+
+05:36.169 --> 05:39.420
+Your x-coordinate is negative
+square root of two over two,
+
+05:39.420 --> 05:40.865
+negative square root of two over two,
+
+05:40.865 --> 05:42.773
+and your y-coordinate
+is negative square root
+
+05:42.773 --> 05:44.265
+of two over two.
+
+05:44.265 --> 05:46.044
+If you are wondering how I got that,
+
+05:46.044 --> 05:48.427
+I encourage you to review the unit circle
+
+05:48.427 --> 05:52.307
+and some of the standard
+angles around the unit circle.
+
+05:52.307 --> 05:54.620
+You'll see that in the
+trigonometry section
+
+05:54.620 --> 05:56.365
+of Khan Academy.
+
+05:56.365 --> 05:59.429
+But this is enough for us, because the sin
+
+05:59.429 --> 06:02.200
+is the y-coordinate, it's
+the y-coordinate here.
+
+06:02.200 --> 06:04.848
+So negative square root of two over two.
+
+06:04.848 --> 06:08.456
+So this is negative square
+root of two over two.
+
+06:08.456 --> 06:12.472
+And then, the cosine is the x-coordinate,
+
+06:12.472 --> 06:14.586
+which is also negative
+square root of two over two,
+
+06:14.586 --> 06:15.659
+it's going to be that squared.
+
+06:15.659 --> 06:20.290
+Negative square root of two
+over two, we're squaring it.
+
+06:20.290 --> 06:23.310
+So if we square this, it's gonna become,
+
+06:23.310 --> 06:26.167
+this is going to become,
+it's gonna become positive.
+
+06:26.167 --> 06:30.356
+And then square root
+of two squared is two,
+
+06:30.356 --> 06:33.085
+and then two squared is four.
+
+06:33.085 --> 06:35.116
+So it's one half.
+
+06:35.116 --> 06:37.885
+So this is, the denominator's
+equal to one half.
+
+06:37.885 --> 06:39.086
+See the numerator, this negative
+
+06:39.086 --> 06:41.197
+cancels out with that negative.
+
+06:41.197 --> 06:43.107
+And so we are left with,
+
+06:43.107 --> 06:45.339
+we deserve a little bit of a drum roll.
+
+06:45.339 --> 06:49.318
+We are left with square
+root of two over two,
+
+06:49.318 --> 06:50.479
+that's the numerator,
+
+06:50.479 --> 06:52.916
+divided by one half, well
+that's the same thing
+
+06:52.916 --> 06:55.480
+as multiplying by two.
+
+06:55.480 --> 06:59.480
+So we are left with
+positive square root of two,
+
+07:00.740 --> 07:03.345
+is the slope of the tangent line,
+
+07:03.345 --> 07:05.666
+to the graph of y is equal to this
+
+07:05.666 --> 07:08.312
+when x is equal to pi over four.
+
+07:08.312 --> 07:09.645
+Pretty exciting.

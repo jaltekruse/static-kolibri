@@ -1,0 +1,403 @@
+WEBVTT
+
+00:00.427 --> 00:01.384
+- [Instructor] What we're going to do
+
+00:01.384 --> 00:03.306
+using our powers of calculus
+
+00:03.306 --> 00:07.196
+is find the area of this yellow region
+
+00:07.196 --> 00:09.233
+and if at any point you get inspired,
+
+00:09.233 --> 00:11.374
+I always encourage you to pause the video
+
+00:11.374 --> 00:14.126
+and try to work through it on your own.
+
+00:14.126 --> 00:15.963
+So, the key here is you
+might recognize hey,
+
+00:15.963 --> 00:18.063
+this is an area between curves.
+
+00:18.063 --> 00:20.025
+A definite integral might be useful,
+
+00:20.025 --> 00:22.979
+so I'll just set up the
+definite integral sign
+
+00:22.979 --> 00:24.761
+and so, first we're gonna
+think about what are left
+
+00:24.761 --> 00:27.468
+and right boundaries of our region?
+
+00:27.468 --> 00:28.996
+Well, it looks like the left boundary
+
+00:28.996 --> 00:31.391
+is where the two graphs
+intersect right over here
+
+00:31.391 --> 00:32.313
+and the right boundary
+
+00:32.313 --> 00:34.468
+is where they intersect right over there.
+
+00:34.468 --> 00:36.353
+Well, what is this point of intersection?
+
+00:36.353 --> 00:39.344
+It looks like it is
+negative one, negative two.
+
+00:39.344 --> 00:40.763
+We can verify that.
+
+00:40.763 --> 00:43.492
+In this red curve, if X is negative one,
+
+00:43.492 --> 00:45.475
+let's see, you square that,
+you'll get one minus three.
+
+00:45.475 --> 00:48.129
+You do indeed get Y is
+equal to negative two
+
+00:48.129 --> 00:49.254
+and in this blue function
+
+00:49.254 --> 00:50.596
+was X is equal to negative one,
+
+00:50.596 --> 00:53.029
+you get one minus four plus one.
+
+00:53.029 --> 00:56.798
+Once again, you do indeed get
+Y is equal to negative two
+
+00:56.798 --> 00:57.698
+and the same thing is true
+
+00:57.698 --> 01:00.234
+when X is equal to one.
+
+01:00.234 --> 01:02.710
+One minus three, negative two,
+
+01:02.710 --> 01:06.010
+one minus four plus one, negative two.
+
+01:06.010 --> 01:07.955
+So, our bounds are
+indeed, we're going from X
+
+01:07.955 --> 01:11.291
+equals negative one to
+X equals positive one
+
+01:11.291 --> 01:13.966
+and now let's think about
+our upper and lower bounds.
+
+01:13.966 --> 01:16.606
+Over that interval this blue graph
+
+01:16.606 --> 01:18.272
+is our upper bound
+
+01:18.272 --> 01:21.018
+and so, we would subtract the lower bound
+
+01:21.018 --> 01:22.372
+from the upper bound,
+
+01:22.372 --> 01:24.319
+so we would have X to the fourth,
+
+01:24.319 --> 01:27.418
+minus four X squared plus one
+
+01:27.418 --> 01:31.480
+and from that we will subtract X squared
+
+01:31.480 --> 01:32.647
+minus three DX
+
+01:34.000 --> 01:35.640
+and in many other videos we have talked
+
+01:35.640 --> 01:37.450
+about why you do this,
+
+01:37.450 --> 01:39.677
+why this makes sense to just subtract
+
+01:39.677 --> 01:42.805
+the lower graph from the upper graph
+
+01:42.805 --> 01:45.046
+when you're finding the area between them
+
+01:45.046 --> 01:47.750
+but now we just have to
+evaluate this definite integral,
+
+01:47.750 --> 01:50.386
+so let's just get down to business.
+
+01:50.386 --> 01:54.380
+Alright, so we have the integral
+from negative one to one,
+
+01:54.380 --> 01:58.878
+and so, we have X to the
+fourth, X to the fourth,
+
+01:58.878 --> 02:01.408
+and now we have minus four X squared
+
+02:01.408 --> 02:03.657
+and then when you distribute
+this negative sign,
+
+02:03.657 --> 02:06.232
+you're gonna subtract another X squared,
+
+02:06.232 --> 02:09.867
+so you're gonna have minus five X squared
+
+02:09.867 --> 02:11.696
+and then you have plus one
+
+02:11.696 --> 02:14.273
+and then you're gonna
+subtract a negative three,
+
+02:14.273 --> 02:16.150
+so it's gonna be one plus three,
+
+02:16.150 --> 02:18.650
+so it's gonna be plus four DX,
+
+02:20.681 --> 02:22.058
+DX and just to be clear
+
+02:22.058 --> 02:24.317
+I should put parentheses right over there
+
+02:24.317 --> 02:26.335
+because it's really the
+DX is being multiplied
+
+02:26.335 --> 02:28.652
+by this entire expression
+
+02:28.652 --> 02:31.158
+and so, let's see, let's find
+the antiderivative of this.
+
+02:31.158 --> 02:33.139
+This should be pretty straightforward.
+
+02:33.139 --> 02:34.788
+We're just gonna use
+the reverse power rule
+
+02:34.788 --> 02:37.946
+multiple times, so this is
+going to be the antiderivative
+
+02:37.946 --> 02:41.265
+of X to the fourth is X
+to the fifth over five.
+
+02:41.265 --> 02:42.734
+We just incremented the exponent
+
+02:42.734 --> 02:45.275
+and divided by that incremented exponent,
+
+02:45.275 --> 02:46.612
+minus, same idea here,
+
+02:46.612 --> 02:49.112
+five X to the third over three
+
+02:50.097 --> 02:51.014
+plus four X
+
+02:52.212 --> 02:54.641
+and then we are going to evaluate it
+
+02:54.641 --> 02:56.926
+at one and then subtract from that
+
+02:56.926 --> 02:59.204
+and evaluate it at negative one.
+
+02:59.204 --> 03:02.745
+So, let's first evaluate it at one.
+
+03:02.745 --> 03:05.018
+We're gonna get 1/5
+
+03:05.018 --> 03:07.518
+minus 5/3 plus four
+
+03:11.095 --> 03:14.678
+and now let us evaluate
+it at negative one,
+
+03:15.659 --> 03:18.464
+so minus, let's see, if
+this is negative one,
+
+03:18.464 --> 03:21.955
+we get a negative 1/5, negative 1/5
+
+03:21.955 --> 03:25.812
+and this is gonna be plus 5/3,
+
+03:25.812 --> 03:30.204
+plus 5/3 and then this is
+going to be minus four,
+
+03:30.204 --> 03:32.155
+minus four but then when you distribute
+
+03:32.155 --> 03:36.200
+the negative sign, we're
+going to distribute this
+
+03:36.200 --> 03:38.039
+over all of these terms,
+
+03:38.039 --> 03:39.751
+and so this is going to be,
+
+03:39.751 --> 03:42.194
+if we make this positive,
+this will be positive,
+
+03:42.194 --> 03:43.658
+this one will be negative
+
+03:43.658 --> 03:45.458
+and then this one will be positive,
+
+03:45.458 --> 03:48.035
+so you have 1/5 plus 1/5
+
+03:48.035 --> 03:51.880
+which is going to be 2/5, that and that,
+
+03:51.880 --> 03:54.135
+and then minus 5/3, minus 5/3,
+
+03:54.135 --> 03:55.968
+so minus 10 over three
+
+03:56.832 --> 03:58.880
+and then four plus four,
+
+03:58.880 --> 04:00.434
+so plus eight
+
+04:00.434 --> 04:02.414
+and so, we just need to simplify this.
+
+04:02.414 --> 04:04.123
+This is going to be, let's see,
+
+04:04.123 --> 04:05.746
+it's going to be eight
+
+04:05.746 --> 04:08.827
+and then if I write, so plus,
+
+04:08.827 --> 04:11.807
+I'm gonna write these two
+with a denominator of 15
+
+04:11.807 --> 04:14.612
+'cause that's the common
+denominator of three and five.
+
+04:14.612 --> 04:19.541
+Let's see, 2/5 is 16/15,
+yeah, that's right,
+
+04:19.541 --> 04:20.963
+five times three is 15.
+
+04:20.963 --> 04:22.887
+Two times three is six
+
+04:22.887 --> 04:25.455
+and then 10/3, let's see, if we multiply
+
+04:25.455 --> 04:26.630
+the denominator times fives,
+
+04:26.630 --> 04:28.179
+we have to multiply the
+numerator times five,
+
+04:28.179 --> 04:30.548
+so this is going to be 50/15
+
+04:30.548 --> 04:35.236
+and so, what's 6/15 minus 50/15?
+
+04:35.236 --> 04:38.650
+So, this is going to be equal to eight
+
+04:38.650 --> 04:41.233
+minus six minus 50 is minus 44,
+
+04:43.758 --> 04:45.091
+minus 44 over 15
+
+04:48.601 --> 04:50.341
+and so what is 44 over 15?
+
+04:50.341 --> 04:54.341
+44 over 15 is equal to two and 14/15,
+
+04:57.898 --> 04:59.167
+so that's really what we're subtracting.
+
+04:59.167 --> 05:02.405
+We're gonna subtract two and 14/15,
+
+05:02.405 --> 05:05.136
+so if you subtract two from this
+
+05:05.136 --> 05:07.969
+you would get six minus 14 over 15
+
+05:10.302 --> 05:12.462
+'cause we still have to subtract the 14/15
+
+05:12.462 --> 05:14.997
+and then six minus 14/15
+
+05:14.997 --> 05:19.080
+is going to be equal to five and 1/15.
+
+05:19.966 --> 05:22.150
+So, just like that, we were indeed
+
+05:22.150 --> 05:24.495
+able to figure out this area.

@@ -1,0 +1,464 @@
+WEBVTT
+
+00:00.383 --> 00:06.451
+Řekněme, že máme funkci f(x), která se'
+rovná 8 krát ln(x) minus (x na druhou)
+
+00:06.451 --> 00:09.460
+a je definovaná na
+uzavřeném intervalu mezi 1 a 4.
+
+00:09.460 --> 00:13.340
+Je to uzavřený interval,
+takže obsahuje i 1 a 4.
+
+00:13.340 --> 00:17.686
+Můžeme se na to dívat tak,
+že jde o definiční obor naší funkce.
+
+00:17.686 --> 00:21.328
+Když už znáte tohle všechno,
+tuhle definici naší funkce,
+
+00:21.328 --> 00:34.715
+tak bych chtěl, abyste našli
+globální maximum funkce f,
+
+00:34.715 --> 00:37.632
+jak jsme si
+ji tady definovali.
+
+00:37.632 --> 00:39.733
+f je definovaná na
+tomto uzavřeném intervalu.
+
+00:39.733 --> 00:45.040
+Zastavte si video
+a zkuste na to přijít sami.
+
+00:45.040 --> 00:47.895
+Věta o nabývání
+extrémů nám říká,
+
+00:47.895 --> 00:49.948
+že když máme
+nějaký uzavřený interval...
+
+00:49.948 --> 00:51.491
+Budu teď
+mluvit obecně.
+
+00:51.491 --> 00:53.306
+Řekněme,
+že tohle je osa x
+
+00:53.306 --> 00:56.974
+a že máme nějakou funkci
+definovanou na uzavřeném intervalu.
+
+00:56.974 --> 01:01.851
+Je několik možností, jak může funkce
+na tomto uzavřeném intervalu vypadat.
+
+01:01.851 --> 01:07.760
+Globálního maxima může funkce
+nabýt v počátečním bodě intervalu.
+
+01:07.760 --> 01:09.429
+To by vypadalo
+nějak takhle.
+
+01:09.429 --> 01:13.153
+Globálního maxima může funkce
+nabýt v koncovém bodě intervalu,
+
+01:13.153 --> 01:15.843
+což by mohlo
+vypadat nějak takhle.
+
+01:15.843 --> 01:17.671
+Maximum je na
+konci intervalu.
+
+01:17.671 --> 01:21.979
+Globálního maxima může funkce
+nabýt také někde uprostřed,
+
+01:21.979 --> 01:27.211
+což by mohlo
+vypadat třeba takhle.
+
+01:27.211 --> 01:33.006
+V tomto bodě globálního maxima
+je směrnice tečny rovna 0,
+
+01:33.006 --> 01:35.752
+tedy derivace
+v tomto bodě je 0.
+
+01:35.752 --> 01:36.803
+Nebo můžeme
+mít funkci,
+
+01:36.803 --> 01:40.874
+která nabývá globálního maxima
+uprostřed a vypadá nějak takhle.
+
+01:40.874 --> 01:45.438
+Když vypadá takhle, tak derivace
+v tomto bodě není definovaná.
+
+01:45.438 --> 01:52.019
+Existuje totiž mnoho tečen,
+které by tímto bodem mohly vést.
+
+01:52.021 --> 01:55.732
+Musíme tudíž vyzkoušet
+krajní body,
+
+01:55.732 --> 02:00.139
+tedy podívat se na funkční hodnotu
+v počátečním a koncovém bodě intervalu,
+
+02:00.139 --> 02:06.064
+a pak musíme najít body, ve kterých je
+derivace rovna 0 nebo není definovaná.
+
+02:06.064 --> 02:09.035
+Body, ve kterých je derivace buď
+rovna 0, nebo není definovaná,
+
+02:09.035 --> 02:12.728
+jsme viděli už dříve a nazýváme
+je stacionární body.
+
+02:12.728 --> 02:14.148
+Tohle je tedy...
+
+02:14.148 --> 02:17.274
+Můžeme předpokládat,
+že jde o ten samý bod.
+
+02:17.274 --> 02:22.951
+Tento bod nazveme
+stacionární bod.
+
+02:22.951 --> 02:24.413
+To jsou
+možní kandidáti.
+
+02:24.413 --> 02:26.830
+Stacionární bod by mohl
+být i někde tady.
+
+02:26.830 --> 02:28.286
+Řekněme, že sklon
+je zde 0.
+
+02:28.286 --> 02:29.469
+Mohl by být tady.
+
+02:29.469 --> 02:30.960
+Není to ale
+maximum ani minimum.
+
+02:30.960 --> 02:32.534
+Můžeme ovšem
+udělat to,
+
+02:32.534 --> 02:34.464
+že až najdeme
+všechny stacionární body,
+
+02:34.464 --> 02:39.365
+tak spočítáme funkční hodnotu v těchto
+stacionárních bodech a v krajních bodech
+
+02:39.365 --> 02:41.274
+a podíváme se,
+která hodnota je největší.
+
+02:41.274 --> 02:46.279
+Všechno jsou to kandidáti na
+bod globálního maxima funkce f.
+
+02:46.279 --> 02:49.246
+Nejprve se můžeme
+podívat na...
+
+02:49.246 --> 02:52.832
+Nalezněme nejprve stacionární body,
+protože to stejně budeme muset udělat.
+
+02:52.832 --> 02:54.371
+Musíme zderivovat f.
+
+02:54.371 --> 02:56.437
+f(x) s čárkou se rovná...
+
+02:56.437 --> 02:58.721
+Derivace přirozeného logaritmu
+z x je 1 lomeno x,
+
+02:58.721 --> 03:02.187
+takže to bude (8 lomeno x)
+minus (2 krát x).
+
+03:02.187 --> 03:04.207
+Tohle teď
+položme rovno 0.
+
+03:04.207 --> 03:07.698
+Nyní nás zajímá
+tato část.
+
+03:07.698 --> 03:09.602
+K oběma stranám
+můžeme přičíst 2 krát x,
+
+03:09.602 --> 03:13.072
+čímž dostaneme, že 8 lomeno x
+se rovná 2 krát x.
+
+03:13.072 --> 03:15.840
+Nyní obě strany
+vynásobíme x a vyjde nám,
+
+03:15.840 --> 03:18.715
+že 8 se rovná
+2 krát (x na druhou).
+
+03:18.715 --> 03:23.286
+Po vydělení obou stran 2 dostaneme,
+že 4 se rovná (x na druhou),
+
+03:23.286 --> 03:25.052
+a kdybychom jen
+řešili tuto rovnici,
+
+03:25.052 --> 03:28.063
+vyšlo by nám, že
+x se rovná +2 nebo −2.
+
+03:28.073 --> 03:31.087
+My ale říkáme, že funkce je
+definovaná pouze na tomto intervalu,
+
+03:31.087 --> 03:33.695
+takže −2 neleží v
+jejím definičním oboru,
+
+03:33.695 --> 03:37.353
+a tak nás bude zajímat
+pouze bod x rovno 2.
+
+03:37.353 --> 03:41.049
+Tohle určitě je
+stacionární bod.
+
+03:41.049 --> 03:44.597
+Našli jsme ale všechny
+stacionární body?
+
+03:44.597 --> 03:46.715
+Toto je jediný bod,
+vyjma −2...
+
+03:46.715 --> 03:50.804
+Je to jediný bod v našem intervalu,
+ve kterém je f(x) s čárkou rovna 0.
+
+03:50.804 --> 03:52.992
+A co body, ve kterých
+derivace není definovaná?
+
+03:52.992 --> 03:58.930
+f(x) s čárkou nebude definovaná jedině
+tehdy, když bude v tomhle jmenovateli 0.
+
+03:58.930 --> 04:01.176
+0 ale neleží
+v tomto intervalu,
+
+04:01.176 --> 04:04.474
+tudíž jediným stacionárním bodem
+v tomto intervalu je x rovno 2.
+
+04:04.474 --> 04:08.572
+Teď musíme spočítat hodnotu ‚f‘ v obou
+krajních bodech a tomto stacionárním bodě
+
+04:08.572 --> 04:10.432
+a podívat se, která
+hodnota je největší.
+
+04:10.432 --> 04:16.684
+Musíme tedy spočítat f(1), což se
+rovná 8 krát přirozený logaritmus z 1,
+
+04:16.684 --> 04:18.269
+to celé
+minus (1 na druhou).
+
+04:18.269 --> 04:20.221
+Dále musíme
+spočítat f(4),
+
+04:20.221 --> 04:28.981
+což je 8 krát přirozený logaritmus ze 4,
+od čehož odečteme 4 na druhou neboli 16.
+
+04:28.981 --> 04:31.016
+Musíme také
+spočítat f(2).
+
+04:31.016 --> 04:33.412
+Tohle byly krajní body
+a toto je stacionární bod.
+
+04:33.412 --> 04:40.334
+8 krát přirozený logaritmus ze 2,
+to celé minus (2 na druhou).
+
+04:40.334 --> 04:43.039
+Která z těchto
+hodnot je největší?
+
+04:43.039 --> 04:47.833
+Asi byste na to chtěli použít kalkulačku,
+ale zkusme použít naši intuici.
+
+04:47.857 --> 04:50.232
+Přirozený logaritmus z 1
+se rovná 0,
+
+04:50.232 --> 04:53.278
+protože e na nultou
+se rovná 1.
+
+04:53.278 --> 04:57.815
+8 krát 0 je 0, takže to
+dohromady bude −1.
+
+04:57.815 --> 05:00.124
+Teď se podívejme,
+čemu se rovná tohle.
+
+05:00.124 --> 05:03.396
+Přirozený logaritmus ze 4...
+
+05:03.396 --> 05:13.015
+e se rovná 2,7 a nějaké drobné,
+takže tohle číslo bude mezi 1 a 2.
+
+05:13.015 --> 05:14.276
+Ve skutečnosti to je...
+
+05:14.276 --> 05:15.367
+Ano, mezi 1 a 2.
+
+05:15.367 --> 05:19.465
+To následně vynásobíme 8,
+takže to bude něco mezi 8 a 16,
+
+05:19.465 --> 05:22.679
+načež od toho
+odečteme 16,
+
+05:22.679 --> 05:28.253
+a tak vyjde něco
+mezi 0 a −8.
+
+05:28.284 --> 05:31.774
+Není tedy jasné, když nepoužijeme
+kalkulačku, ale jen tento hrubý odhad,
+
+05:31.774 --> 05:33.557
+která z těchto
+hodnot je větší.
+
+05:33.557 --> 05:35.616
+Obě jsou to ale
+záporná čísla.
+
+05:35.616 --> 05:36.643
+A co tohle?
+
+05:36.643 --> 05:40.731
+Přirozený logaritmus ze 2,
+to bude nějaký zlomek.
+
+05:40.731 --> 05:45.550
+Bude to víc
+než jedna polovina,
+
+05:45.550 --> 05:48.983
+a protože je to víc než jedna polovina,
+tak tohle celé bude větší než 4,
+
+05:48.983 --> 05:51.635
+což znamená, že celý
+tento výraz bude kladný.
+
+05:51.635 --> 05:54.362
+Tohle je záporné, tohle je
+záporné, ale tohle je kladné.
+
+05:54.362 --> 05:58.355
+Toto jsou jediní možní kandidáti
+na bod globálního maxima,
+
+05:58.355 --> 05:59.513
+takže bych
+vybral tohle.
+
+05:59.513 --> 06:04.010
+Funkce svého globálního maxima
+nabývá v bodě x rovno 2
+
+06:04.010 --> 06:05.773
+a toto globální
+maximum je:
+
+06:05.773 --> 06:09.228
+8 krát přirozený logaritmus
+ze 2, to celé minus 4.
+
+06:09.228 --> 06:16.241
+Toto je globální maximum
+na zadaném intervalu,
+
+06:16.241 --> 06:19.336
+mohli bychom říci „na
+definičním oboru naší funkce.“
+
+06:19.336 --> 06:22.896
+Kdybychom si to chtěli ověřit kalkulačkou,
+tak samozřejmě můžeme.
+
+06:22.896 --> 06:24.220
+Tohle jsme
+už spočítali,
+
+06:24.220 --> 06:25.990
+takže spočítejme f(4).
+
+06:25.990 --> 06:34.257
+8 krát přirozený logaritmus ze 4,
+to celé minus 16, se rovná −5.
+
+06:34.257 --> 06:40.513
+Tohle tedy určitě
+není globální maximum.
+
+06:40.513 --> 06:46.733
+f(2) je 8 krát přirozený logaritmus ze 2,
+to celé minus 4,
+
+06:46.733 --> 06:51.025
+což je, jak jsme řekli,
+skutečně kladné číslo.
+
+06:51.025 --> 06:54.940
+To, co nám vyšlo,
+tedy vypadá dobře.

@@ -1,0 +1,439 @@
+WEBVTT
+
+00:01.030 --> 00:05.980
+Ich habe einen Vorschlag erhalten, echte alte Aufgaben des Lehramtsexamen zu bearbeiten,
+
+00:05.980 --> 00:08.550
+also schaute ich und - siehe da - auf der
+
+00:08.550 --> 00:11.640
+College Board Seite, auf collegeboard.com, kann man
+
+00:11.640 --> 00:14.380
+zwar nicht die eigentlichen Multiple-Choice Aufgaben,
+
+00:14.380 --> 00:16.760
+aber die normalen Aufgaben finden.
+
+00:16.760 --> 00:19.790
+Dies ist eigentlich die erste normale Aufgabe
+
+00:19.790 --> 00:23.060
+in vom Calculus BC, von 2008.
+
+00:24.620 --> 00:25.990
+Also lasst uns dieses Problem lösen.
+
+00:25.990 --> 00:28.140
+Und mal ehrlich, wenn man alle normalen Aufgaben lösen kann,
+
+00:28.140 --> 00:32.200
+sollte man auch bei den Multiple Choice Fragen relativ
+
+00:32.200 --> 00:34.840
+gut abschneiden, weil die normalen Aufgaben in der Regel
+
+00:34.840 --> 00:36.980
+etwas schwieriger gestellt sind, besonders die
+
+00:36.980 --> 00:38.260
+letzten Probleme.
+
+00:38.260 --> 00:40.110
+Jedenfalls, lasst uns beginnen.
+
+00:40.110 --> 00:42.205
+Ich lese einfach vor, weil ich es nicht alles hier
+
+00:42.205 --> 00:44.300
+aufschreiben will, aber dies ist die Original Grafik.
+
+00:44.300 --> 00:48.250
+Ich habe sie aus dem PDF, welches auf
+
+00:48.250 --> 00:50.360
+collegeboard.com zur Verfügung steht, kopiert.
+
+00:50.360 --> 00:54.630
+Es heißt hier: R sei die Fläche zwischen den Graphen
+
+00:54.630 --> 00:57.390
+y = sin(PI * x)
+
+00:57.390 --> 00:58.850
+..lasst mich das aufschreiben.
+
+00:58.850 --> 01:09.116
+Also dieser obere Graph ist y = sin(PI * x)
+
+01:09.116 --> 01:22.860
+y = sin(PI * x)
+
+01:22.860 --> 01:28.060
+und der untere Graph ist y = x^3 - 4x.
+
+01:28.060 --> 01:37.410
+y = x^3 - 4x.
+
+01:37.410 --> 01:39.320
+Woher weiß ich dass dies der untere ist?
+
+01:39.320 --> 01:41.780
+Naja, I weiß dass dieser hier der Sinus von PI * x ist, stimmts?
+
+01:41.780 --> 01:42.840
+Die Sinuskurve sieht eben so aus.
+
+01:42.840 --> 01:44.910
+Nicht wie dieser Graph.
+
+01:44.910 --> 01:48.280
+Setzt man den Sinus von PI auf 0, findet man sin(0)=0,
+
+01:48.280 --> 01:50.380
+sin(2 * PI) = 0, ...
+
+01:50.380 --> 01:51.760
+Also ist dies hier der Sinus von PI mal x.
+
+01:51.760 --> 01:55.600
+Also, dies ist die Fläche zwischen
+
+01:55.600 --> 01:59.110
+diesen zwei Funktionen und Teil A - und dies ist
+
+01:59.110 --> 02:01.890
+der "Softball-Teil" der Frage, nur um sicherzugehen dass du weißt wie
+
+02:01.890 --> 02:07.040
+man Integrale definiert - es heißt hier: "Finde die Fläche von R."
+
+02:07.040 --> 02:08.890
+Also, wie machen wir das?
+
+02:08.890 --> 02:11.800
+Du weißt sicher, dass wir ein bestimmtes Integral
+
+02:11.800 --> 02:13.290
+suchen, also lass uns das tun.
+
+02:13.290 --> 02:15.780
+Also wir nehmen das bestimmte Integral, demnach
+
+02:15.780 --> 02:23.280
+sei die Fläche gleich - ich hoffe ich schreibe
+
+02:23.280 --> 02:26.140
+groß genug - die Fläche sei gleich dem
+
+02:26.140 --> 02:28.960
+bestimmten Integral in den Grenzen -
+
+02:28.960 --> 02:30.150
+Nun, was sind die x-Werte der Grenzen?
+
+02:30.150 --> 02:32.266
+Wir nehmen das integral von x = 0
+
+02:32.266 --> 02:34.540
+bis x = 2.
+
+02:34.540 --> 02:38.890
+Von 0 bis 2.
+
+02:38.890 --> 02:40.330
+Und was ist das hier?
+
+02:40.330 --> 02:44.510
+Für jeden Punkt im Wertebereich von x, was wird die
+
+02:44.510 --> 02:46.990
+Höhe... wenn wir die Fläche suchen, nehmen wir eine Menge
+
+02:46.990 --> 02:50.850
+Rechtecke der Breite dx,
+
+02:50.850 --> 02:52.900
+also haben wir hier
+
+02:52.900 --> 02:55.750
+so ein Rechteck.
+
+02:55.750 --> 02:56.890
+Oups.
+
+02:56.890 --> 03:00.730
+Also hier ist eines meiner Rechtecke
+
+03:02.070 --> 03:04.110
+Seine Breite ist dx.
+
+03:04.110 --> 03:06.220
+Wie hoch ist es?
+
+03:06.220 --> 03:09.440
+Die Höhe wird der Wert des oberen Graphen
+
+03:09.440 --> 03:12.340
+minus der des unteren Graphen sein.
+
+03:12.340 --> 03:15.240
+Also, wir nehmen die Gesamtfläche aller dieser Rechtecke,
+
+03:15.240 --> 03:18.710
+und ihre Höhe ist die - lasst mich willkürlich eine
+
+03:18.710 --> 03:22.670
+Farbe wählen - die Höhe wird die Differenz zwischen
+
+03:22.670 --> 03:24.500
+oberer und unterer Funktion werden.
+
+03:24.500 --> 03:35.060
+Also sin(PI*x) minus
+
+03:35.060 --> 03:35.720
+den unteren Graphen.
+
+03:35.720 --> 03:40.250
+Also minus x^3 + 4x
+
+03:40.250 --> 03:42.810
+sin(PI*x) - x^3 + 4x
+
+03:42.810 --> 03:47.270
+Weil ich subtrahiere, habe ich hier die Vorzeichen gewechselt.
+
+03:47.270 --> 03:51.010
+Und das ganze multiplizieren wir mit der Breite der kleinen
+
+03:51.010 --> 03:54.670
+Rechtecke - welche unendlich klein ist - dx.
+
+03:54.670 --> 03:56.810
+Wir addieren alle Rechtecke im Bereich
+
+03:56.810 --> 03:59.510
+x = 0 bis x = 2.
+
+03:59.510 --> 04:01.610
+Das sollte relativ überschaubar sein.
+
+04:01.610 --> 04:02.850
+Wie können wir das jetzt ausrechnen?
+
+04:02.850 --> 04:06.080
+Nun, im Grunde nehmen wir die Integration hiervon,
+
+04:06.080 --> 04:08.870
+und setzen dann 2 und 0 nacheinander ein.
+
+04:08.870 --> 04:12.590
+Was ist die Integration von sin(PI*x)?
+
+04:12.590 --> 04:17.900
+Nun, von welcher Funktion ist sin(x) die Ableitung?
+
+04:17.900 --> 04:19.100
+Kosinus von x.... mal sehen...
+
+04:19.100 --> 04:21.420
+Wenn ich die Ableitung des Kosinus nehme... oder
+
+04:21.420 --> 04:24.960
+besser, die Ableitung von cos(PI*x),
+
+04:24.960 --> 04:27.090
+das sollte dir eigentlich bekannt vorkommen,
+
+04:27.090 --> 04:30.590
+Was kommt also bei der Ableitung von cos(PI*x)
+
+04:30.590 --> 04:34.200
+heraus?
+
+04:34.200 --> 04:36.320
+Dies ist PI.
+
+04:36.320 --> 04:37.980
+Man nimmt die Innere Ableitung, richtig?
+
+04:37.980 --> 04:39.120
+Die Kettenregel.
+
+04:39.120 --> 04:43.130
+Also PI mal die Ableitung des Ganzen
+
+04:43.130 --> 04:46.230
+Die Ableitung von cos(x) ist -sin(x), also ist
+
+04:46.230 --> 04:54.440
+die Ableitung PI * -sin(PI * x)
+
+04:54.440 --> 05:02.080
+beziehungsweise -PI&lt;i>sin(PI&lt;/i>x).
+
+05:02.080 --> 05:06.810
+Also ist die Ableitung von cos(PI*x) fast dies hier, nur
+
+05:06.810 --> 05:09.270
+hat sie noch dieses "- PI".
+
+05:09.270 --> 05:12.150
+Mal sehen ob wir das umschreiben können, so dass es genau
+
+05:12.150 --> 05:16.440
+die Ableitung vom Kosinus von PI mal X ist.
+
+05:16.440 --> 05:17.690
+Ich wechsel zu Magenta hier.
+
+05:20.730 --> 05:22.400
+Ich muss aufpassen dass ich genug Platz
+
+05:22.400 --> 05:23.225
+für die ganze Aufgabe haben.
+
+05:27.180 --> 05:36.880
+Schreiben wir also -1/PI * -PI
+
+05:36.880 --> 05:40.020
+Was ich mache - wenn wir das hier ausrechnen, kommt 1 heraus, also kann ich
+
+05:40.020 --> 05:48.100
+dies mit sin(PI*x) multiplizieren, und dann hier
+
+05:48.100 --> 05:54.370
+-x^3 + 4x, und das alles mal die Breite dx.
+
+05:54.370 --> 05:55.200
+Da haben wir's.
+
+05:55.200 --> 05:59.810
+Wir wissen, dies hier integriert ist cos(PI*x), richtig?
+
+05:59.810 --> 06:00.910
+Dies hier ist nur eine Konstante.
+
+06:00.910 --> 06:03.370
+Also, was ist die Stammfunktion dieses Ganzen?
+
+06:03.370 --> 06:05.780
+Ich wechsel wieder die Farbe.
+
+06:05.780 --> 06:10.070
+Die Integration ist cos(PI*x), also
+
+06:10.070 --> 06:18.620
+haben wir -1 / PI * cos(PI*x) ... ich konnte das hier
+
+06:18.620 --> 06:21.320
+einfach übernehmen, es ist nur eine Konstante, die
+
+06:21.320 --> 06:25.590
+Integration passiert hier.
+
+06:25.590 --> 06:28.330
+Und diese hier sind noch etwas einfacher.
+
+06:28.330 --> 06:31.770
+Also minus die Integration von x^3 ist
+
+06:31.770 --> 06:41.300
+x^4 / 4, plus die Integration hiervon
+
+06:41.300 --> 06:47.250
+ist 4x^2 / 2, oder einfach 2x^2.
+
+06:47.250 --> 06:52.620
+Und dann werden wir diesen Term berechnen, mit
+
+06:52.620 --> 06:55.260
+x = 2 und dann x = 0.
+
+06:55.260 --> 07:03.510
+Also, dies ist gleich cos(2*PI), wir haben hier noch ein
+
+07:03.510 --> 07:09.930
+Minuszeichen, also -cos(2*PI) / PI minus
+
+07:09.930 --> 07:11.680
+was ist 2^4?
+
+07:11.680 --> 07:11.960
+Mal sehen.
+
+07:11.960 --> 07:18.170
+2^3 ist 8, 2^4 ist 16, 16 / 4 ist 4.
+
+07:18.170 --> 07:26.750
+also kommt hier minus 4. Zwei zum Quadrat ist 4, mal 2 ergibt 8, also hier plus 8.
+
+07:26.750 --> 07:31.020
+Das ist die Stammfunktion mit 2 für x eingesetzt, jetzt nochmal
+
+07:31.020 --> 07:35.460
+den Term für x = 0 abziehen.
+
+07:35.460 --> 07:46.470
+Also -cos(0) / PI, okay, das ergibt 0.
+
+07:46.470 --> 07:50.630
+Minus 0, plus 0.
+
+07:50.630 --> 07:52.540
+Also diese Terme tragen nichts bei, sie
+
+07:52.540 --> 07:54.880
+ergeben einfach 0.
+
+07:54.880 --> 07:56.250
+Also, was kommt raus?
+
+07:56.250 --> 07:58.620
+Der Kosinus von 2 PI?
+
+07:58.620 --> 08:01.110
+Das ist das gleiche wie der Kosinus
+
+08:01.110 --> 08:03.090
+von Null, es ergibt 1.
+
+08:03.090 --> 08:06.490
+Was ist der x-Wert des Einheitskreises bei 2 PI, bzw bei 0?
+
+08:06.490 --> 08:07.070
+Es ist 1.
+
+08:07.070 --> 08:15.670
+Also ergibt dies -1/PI - 4 + 8, also
+
+08:15.670 --> 08:19.900
+lösen sich diese Minuszeichen auf, cos(0) = 1, also
+
+08:19.900 --> 08:25.840
+plus 1/PI, diese -1/PI und +1/PI
+
+08:25.840 --> 08:30.570
+werden sich aufheben, und übrig bleibt
+
+08:30.570 --> 08:34.210
+-4 + 8 = 4.
+
+08:34.210 --> 08:42.830
+Also, dies ist der erste Teil, Aufgabe 1a, der
+
+08:42.830 --> 08:43.920
+normalen Aufgaben von DC 2008.
+
+08:43.920 --> 08:46.090
+Ich habe wirklich ein ganzes Video für diesen einen Teil gebraucht...
+
+08:46.090 --> 08:48.550
+Im nächsten Video zeige ich Teil B, wir machen einfach
+
+08:48.550 --> 08:51.115
+weiter damit, und ich versuche ein paar davon jeden Tag zu zeigen.
+
+08:51.115 --> 08:52.690
+Bis bald.

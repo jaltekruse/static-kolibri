@@ -1,0 +1,574 @@
+WEBVTT
+
+00:00.000 --> 00:00.380
+-
+
+00:00.380 --> 00:03.670
+Bu videoda, polinomları bölmeyi öğreneceğiz
+
+00:03.670 --> 00:07.230
+Bu işleme uzun cebirsel bölme de denir.
+
+00:07.230 --> 00:08.550
+Bir kaç örnek çözdüğümde neden bahsettiğimi anlayacaksınız..
+
+00:08.550 --> 00:10.330
+-
+
+00:10.330 --> 00:14.720
+2x artı 4'ü 2'ye böldüğümüzü düşünelim.
+
+00:14.720 --> 00:17.230
+-
+
+00:17.230 --> 00:19.680
+Tabi ki değeri değiştirmiyoruz.
+
+00:19.680 --> 00:22.790
+Sadece aynı denklemin ifadesini değiştiriyoruz.
+
+00:22.790 --> 00:24.600
+Bunu nasıl basitleştirebileceğimizi zaten biliyoruz.
+
+00:24.600 --> 00:27.810
+Bunu önceden yapmıştık: payı ikiye böldüğümüzde sonuç neye eşit olur?
+
+00:27.810 --> 00:30.490
+.
+
+00:30.490 --> 00:32.100
+.
+
+00:32.100 --> 00:37.250
+Bu x+2'ye eşit olur, eğer 2'ye bölerseniz
+
+00:37.250 --> 00:39.490
+Eğer 2x'i ikiye bölerseniz, x olur
+
+00:39.490 --> 00:40.340
+-
+
+00:40.340 --> 00:42.650
+4'ü 2'ye böldüğünüzde ise 2 olur.
+
+00:42.650 --> 00:44.880
+Eğer 2'yi de 2'ye bölerseniz 1 elde edersiniz.
+
+00:44.880 --> 00:48.380
+Yani cevap, daha sade bir ifadeyle, x artı 2 olur, oldukça basit
+
+00:48.380 --> 00:49.910
+-
+
+00:49.910 --> 00:52.500
+Diğer yoldan gidersek, iki parantezine alıp; ikileri sadeleştirebilirsiniz.
+
+00:52.500 --> 00:54.175
+-
+
+00:54.175 --> 00:56.830
+Ama ben size bu işlemi uzun cebirsel bölmeyle nasıl yapılacağını göstereceğim.
+
+00:56.830 --> 00:59.100
+Böylesine basit bir işlem için biraz fazla olabilir, fakat size göstermek istediğim şey bunun aslında yeni bir şey olmadığı.
+
+00:59.100 --> 01:01.130
+.
+
+01:01.130 --> 01:01.640
+-
+
+01:01.640 --> 01:04.300
+Aynı şeyi yapmanın farklı bir yolu ama daha karışık problemler için yararlı bir yöntem.
+
+01:04.300 --> 01:06.180
+-
+
+01:06.180 --> 01:11.610
+x artı 4'ün içinde kaç tane 2 vardır? şeklinde yazabilirdiniz.
+
+01:11.610 --> 01:13.070
+-
+
+01:13.070 --> 01:15.300
+Bunu da sıradan bölme işlemiyle yapardınız.
+
+01:15.300 --> 01:17.020
+-
+
+01:17.020 --> 01:19.780
+Her zaman en büyük dereceli olandan başladığımızdan, 2 en yüksek derecesi olana gider.
+
+01:21.840 --> 01:23.350
+Burada 4'ü yoksayıyoruz.
+
+01:23.350 --> 01:26.050
+Peki 2x'in içinde kaç tane 2 var?
+
+01:26.050 --> 01:28.770
+Bu da x tane eder ve x'i yerine koyarız.
+
+01:28.770 --> 01:30.962
+-
+
+01:30.962 --> 01:34.070
+2 çarpı x, 2x eder
+
+01:34.070 --> 01:36.673
+Normal bölme işlemindeki gibi, şimdi de çıkarma yapıyoruz.
+
+01:39.440 --> 01:44.490
+Yani 2x artı 4, eksi 2x, 4 eder
+
+01:44.490 --> 01:46.550
+-
+
+01:46.550 --> 01:48.740
+Daha sonra 4'ün içinde kaç tane 2 olduğuna bakıyoruz.
+
+01:48.740 --> 01:51.810
+Bu da artı 2 eder.
+
+01:51.810 --> 01:54.050
+Bunu sabitlerin olduğu yere koyun.
+
+01:54.050 --> 01:56.240
+2 çarpı 2, 4 yapar; çıkardığınızda da kalan 0'dır
+
+01:56.240 --> 01:59.280
+-
+
+01:59.280 --> 02:02.530
+Bu, zaten nasıl yapıldığını bildiğiniz ve birkaç adımda çözebileceğiniz bir soru için aşırı bir yöntem olarak gözükebilir.
+
+02:02.530 --> 02:04.140
+-
+
+02:04.140 --> 02:05.410
+-
+
+02:05.410 --> 02:07.240
+Şimdi bunun genelde kullanabileceğimiz bir işlem olduğunu göreceğiz.
+
+02:07.240 --> 02:08.970
+-
+
+02:08.970 --> 02:13.140
+Bunu herhangi bir polinomda yapabilirsiniz, derecesi hiç farketmez.
+
+02:13.140 --> 02:15.070
+-
+
+02:15.070 --> 02:17.850
+Şİmdi size neden bahsettiğimi göstereyim.
+
+02:17.850 --> 02:29.980
+x artı 1'i x kare artı 3x artı 6'ya böldüğümüzü düşünelim.
+
+02:29.980 --> 02:36.260
+-
+
+02:36.260 --> 02:37.780
+Peki burada ne yapıyoruz?
+
+02:37.780 --> 02:40.050
+En yüksek dereceli terime yani x'e, x kareye, bakın.
+
+02:40.050 --> 02:43.030
+-
+
+02:43.030 --> 02:44.550
+-
+
+02:44.550 --> 02:46.140
+Diğerlerini şimdilik yoksayıyoruz.
+
+02:46.140 --> 02:48.530
+Bu, işlemi gerçekten basitleştirir.
+
+02:48.530 --> 02:52.280
+x karede kaç tane x olduğuna bakarsınız.
+
+02:52.280 --> 02:56.040
+x kareyi x'e bölerseniz x yapar.
+
+02:56.040 --> 02:57.900
+Bu da x karede x tane x var demek olur.
+
+02:57.900 --> 02:59.730
+Bunuda x'lerin kısmına koyalım.
+
+02:59.730 --> 03:02.270
+Burası x'in birinci kuvvetlerinin yeri.
+
+03:02.270 --> 03:04.000
+-
+
+03:04.000 --> 03:06.350
+Yani x çarpı x artı 1 nedir?
+
+03:06.350 --> 03:10.722
+x çarpı x, x'in karesine; x çarpı 1 de x'e eşittir, dolayısıyla x kare artı bir olur.
+
+03:15.810 --> 03:19.080
+Ve az önce yaptığımız gibi çıkarıyoruz.
+
+03:19.080 --> 03:20.220
+-
+
+03:20.220 --> 03:24.350
+Elimizde x kare artı 3x artı 6 eksi x kare artı x olur
+
+03:24.350 --> 03:27.630
+-
+
+03:27.630 --> 03:30.030
+Burada emin olmamız gereken şey, eksi işaretini ifadenin tamamına uygulamak.
+
+03:30.030 --> 03:32.030
+-
+
+03:32.030 --> 03:35.810
+X kare eksi x kare, birbirini götürür.
+
+03:35.810 --> 03:38.020
+3x eksi x olacak.
+
+03:38.020 --> 03:40.020
+-
+
+03:40.020 --> 03:43.410
+Yani x kare eksi x'in tamamını çıkarıyoruz.
+
+03:43.410 --> 03:45.250
+-
+
+03:45.250 --> 03:48.720
+3x eksi x, 2x yapar.
+
+03:48.720 --> 03:51.880
+6 eksi 0, 6 olur.Yani 2x artı 6.
+
+03:51.880 --> 03:55.030
+-
+
+03:55.030 --> 03:58.220
+Şİmdi en yüksek dereceliye bakalım, x ve 2x.
+
+03:58.220 --> 04:01.530
+Kaç tane x, 2x yapar?
+
+04:01.530 --> 04:04.290
+İki tane. 2 çarpı x eşittir 2x.
+
+04:04.290 --> 04:07.660
+-
+
+04:07.660 --> 04:11.673
+iki çarpı bir, ikiye eşittir.
+
+04:11.673 --> 04:15.090
+.
+
+04:15.090 --> 04:18.790
+Yani elimizde 2 çarpı, x artı 1 var. Bu da 2x artı 2 eder.
+
+04:18.790 --> 04:21.120
+Ama şimdi, bunu yukarıdakinden çıkarmak istiyoruz.
+
+04:21.120 --> 04:22.900
+-
+
+04:22.900 --> 04:26.240
+2x artı x yazmak yerine, eksi 2x eksi 2 yazıp toplayabiliriz.
+
+04:26.240 --> 04:28.330
+-
+
+04:28.330 --> 04:29.850
+Bunlar birbirini götürür
+
+04:29.850 --> 04:32.780
+6 eksi 2, 4.
+
+04:32.780 --> 04:35.620
+4'ü x'e bölersek ne olur?
+
+04:35.620 --> 04:38.320
+Cevap 0'dır yani kalanın 4 olduğunu söyleyebiliriz.
+
+04:38.320 --> 04:39.570
+-
+
+04:39.570 --> 04:45.410
+-
+
+04:45.410 --> 04:55.680
+Eğer, x kare artı 3x artı 6'nın x artı 1'e bölümünü tekrar yazarsak,
+
+04:55.680 --> 04:58.160
+x kare artı 3x artı 6 bölü x artı 1'e eşit olur.
+
+04:58.160 --> 05:02.980
+Bu işlemin sonucunun x artı 2 olduğunu söyleyebiliriz.
+
+05:02.980 --> 05:06.640
+-
+
+05:06.640 --> 05:13.130
+Bu da, x artı 2 artı kalan, bölü x artı 1artı 4 bölü x artı 1'e eşittir.
+
+05:13.130 --> 05:19.820
+-
+
+05:19.820 --> 05:24.530
+Burada eşitlik var.
+
+05:24.530 --> 05:26.690
+Bunun sağlamasını yapmak isterseniz,
+
+05:26.690 --> 05:33.130
+yapacağınız şey bunu x artı 1 bölü x artı 1 ile çarpıp ikiyi eklemek olacaktır.
+
+05:33.130 --> 05:35.120
+-
+
+05:35.120 --> 05:40.780
+Bu da x artı 2 ile aynı şey.
+
+05:40.780 --> 05:45.240
+Şimdi bunu x artı 1 bölü x artı 1 ile çarpacağım.
+
+05:45.240 --> 05:48.770
+-
+
+05:48.770 --> 05:50.500
+Yaptığımız şey sadece bir ile çarpmak.
+
+05:50.500 --> 05:53.440
+ve sonra 4 bölü x artı 1'i ekleyelim.
+
+05:53.440 --> 05:55.870
+Bunu yaptığımız için aynı ortak paydamız var.
+
+05:55.870 --> 05:58.820
+Ve bu eklemeyi buraya yaptığınızda yani bu iki binomu çarpıp dört eklediğinizde.
+
+05:58.820 --> 06:02.050
+-
+
+06:02.050 --> 06:06.690
+x kare artı 3x artı 6' elde etmelisiniz.
+
+06:06.690 --> 06:08.540
+Bunlardan bir tane daha yapalım
+
+06:08.540 --> 06:10.070
+-
+
+06:10.070 --> 06:18.020
+x kare artı 5x artı 4 bölü x artı 4'ü basitleştirmek istiyoruz.
+
+06:18.020 --> 06:26.310
+-
+
+06:26.310 --> 06:29.930
+Şimdi bölme işlemimizi yapabiliriz
+
+06:29.930 --> 06:43.410
+Aynı işlemlerle x+4'ü xkare+5x%4'e bölebiliriz
+
+06:43.410 --> 06:45.610
+.
+
+06:45.610 --> 06:49.690
+En yüksek dereceye bakalım. x kare'de x tane x vardır
+
+06:49.690 --> 06:51.120
+.
+
+06:51.120 --> 06:53.390
+.
+
+06:53.390 --> 06:54.790
+x'i yerine koyduk
+
+06:54.790 --> 06:56.230
+.
+
+06:56.230 --> 06:59.820
+.
+
+06:59.820 --> 07:03.440
+x çarpı 4, 4x eder
+
+07:03.440 --> 07:05.060
+ve bunları bunlardan çıkarmak istiyoruz
+
+07:05.990 --> 07:08.750
+Dolayısıyla eksi işaretimizi koyabiliriz
+
+07:08.750 --> 07:10.240
+Bunlar da sadeleşir
+
+07:10.240 --> 07:12.540
+5x'ten 4x çıkardık, x kaldı
+
+07:12.540 --> 07:16.800
+4'ten 0 çıkartınca da 4 elde ettik
+
+07:16.800 --> 07:19.940
+x+4.
+
+07:19.940 --> 07:22.190
+Bunu önceden görmemiz de mümkün,
+
+07:22.190 --> 07:25.770
+x+4'ün içinde elbette 1 tane x+4 vardır.
+
+07:25.770 --> 07:27.770
+Aynı şekilde, x'in içinde de 1 tane x vardır
+
+07:30.770 --> 07:31.580
+Buradan da artı 1 gelir
+
+07:31.580 --> 07:34.140
+1 kere x, x'e eşit olur
+
+07:34.140 --> 07:36.260
+1 çarpı 4, 4 eder
+
+07:36.260 --> 07:39.430
+Bunları birbirinden çıkardığımızda da kalanımız 0 olur
+
+07:41.540 --> 07:45.410
+Gayet güzel bir şekilde sadeleşerek x+1'e eşit olur
+
+07:48.000 --> 07:49.600
+Bunu yapabileceğimiz başka yollar da vardı
+
+07:49.600 --> 07:51.980
+Bölüneni çarpanlarına da ayırabilirdik
+
+07:51.980 --> 07:58.200
+x kare artı 5x artı 4/x artı 4
+
+07:59.270 --> 08:03.190
+Bunu x+4 kere x artı 1 olarak da ayırabilirdik
+
+08:05.910 --> 08:07.380
+4 kere 1, 4.
+
+08:07.380 --> 08:12.980
+4+1, 5 Tamamunu x+4'e böldük
+
+08:12.980 --> 08:15.700
+Sadeleşir ve elimizde x+1 kalır
+
+08:15.700 --> 08:18.400
+Bu durumda her iki yol da işimize yarardı, ama uzun cebirsel bölme her zaman işe yarar, sadeleştirmek mümkün olmasa bile
+
+08:24.920 --> 08:26.870
+Bu durumda kalanımız yoktu, sonuç x+1'e eşitti
+
+08:30.830 --> 08:37.159
+Bu oldukça önemli bir işlem, dolayısıyla emin olmak için bir tane daha yapalım
+
+08:37.159 --> 08:39.690
+.
+
+08:39.690 --> 08:41.650
+.
+
+08:41.650 --> 08:49.030
+elimizde x kare olduğunu varsayalım-hemen değiştireyim
+
+08:49.730 --> 08:53.850
+hatta 2x kare olsun. Sayıları rastgele veriyorum
+
+08:54.950 --> 09:01.280
+2x kare eksi 20x artı 12'yi bölelim.
+
+09:01.280 --> 09:03.800
+Hatta bu yöntemin hep işe yarayacağını göstermek için 2.derecenin üstüne çıkmak istiyorum
+
+09:06.830 --> 09:15.860
+Elimizde 3x küp eksi 2 x kare artı 7x-4 olsun, bunu x kare eksi 1'e bölmek istiyorum
+
+09:24.590 --> 09:25.880
+Sayıları rastgele verdim
+
+09:25.880 --> 09:27.980
+Ama uzun cebirsel bölme kullanarak bunun sadeleşmiş halini bulabiliriz
+
+09:46.140 --> 09:48.790
+Bu bölme işlemini yapabilmek için yine en yüksek dereceli terime bakıyoruz.
+
+09:48.790 --> 09:52.010
+x kare, 3x'te 3x tane vardır
+
+09:55.930 --> 09:58.830
+3x'i bununla çarparız ve 3x'in 3.kuvvetini elde ederiz
+
+09:58.830 --> 10:00.930
+İçinde 3x tane varmış
+
+10:00.930 --> 10:03.885
+x terimlerine 3x'i bu şekilde yazdığımızda içinde 3x tane olur
+
+10:09.000 --> 10:10.380
+Çarparsak
+
+10:10.380 --> 10:17.130
+3x çarpı 3x'in karesi 3x'in kübü eder
+
+10:17.130 --> 10:20.820
+3x'in karesi artı 3x çarpı 1
+
+10:20.820 --> 10:24.350
+Burada 3x var
+
+10:24.350 --> 10:26.380
+x'i de yerine koyduk, şimdi çıkarma işlemini yapabiliriz
+
+10:32.000 --> 10:33.060
+Çıkarma işlemini yapınca bunlar sadeleşir
+
+10:33.060 --> 10:36.090
+eksi 2x'in karesi olur
+
+10:36.090 --> 10:39.890
+7x eksi 3x, 4 x eder, ve bir de -4'ümüz var
+
+10:45.830 --> 10:48.140
+Bir kez daha en yüksek dereceli terime bakalım
+
+10:48.140 --> 10:51.450
+x'in karesi ve -2x'in karesi
+
+10:54.960 --> 10:57.450
+sabitleri yerine koyduğumuzda
+
+10:57.450 --> 11:02.430
+eksi 2 çarpı x kare, -2 x kare eder
+
+11:02.430 --> 11:06.370
+-2, kendisinin 1 katıdır
+
+11:09.490 --> 11:11.820
+Bunları da çıkartmak istiyoruz, onun için -1'le çarpalım
+
+11:15.460 --> 11:16.800
+Bunlar birbirini götürür
+
+11:16.800 --> 11:24.520
+4'ten 0 çıkarınca yine 4x elde ederiz
+
+11:24.520 --> 11:29.470
+-4 eksi -2, -2'ye eşittir
+
+11:31.340 --> 11:36.385
+burada x kare'nin derecesi 4x'ten fazla, dolayısıyla buna kalan gözüyle bakabiliriz
+
+11:45.450 --> 11:49.430
+Böylece bu ifadeyi 3x-2+4x-2

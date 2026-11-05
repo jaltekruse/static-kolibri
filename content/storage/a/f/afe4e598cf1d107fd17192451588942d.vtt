@@ -1,0 +1,283 @@
+WEBVTT
+
+00:00.700 --> 00:08.179
+V tomto videu vám chci ukázat
+speciální případ l'Hospitalova pravidla.
+
+00:08.179 --> 00:11.820
+Jde o omezenější případ
+obecné verze, kterou jsme měli,
+
+00:11.820 --> 00:13.910
+ale stále jde o silný
+a užitečný nástroj.
+
+00:13.910 --> 00:20.200
+O tomto speciálním případu mluvím proto,
+že jeho důkaz je poměrně přímočarý
+
+00:20.200 --> 00:25.060
+a dává dobrou představu o tom, proč
+l'Hospitalovo pravidlo vlastně funguje.
+
+00:25.060 --> 00:31.490
+V našem speciálním případě
+l'Hospitalova pravidla bude f(a) rovno 0,
+
+00:31.490 --> 00:36.420
+derivace f v
+bodě ‚a‘ existuje,
+
+00:36.420 --> 00:44.050
+g(a) se rovná 0 a
+derivace g v bodě ‚a‘ existuje.
+
+00:44.050 --> 00:46.410
+Pokud jsou tyto
+podmínky splněny,
+
+00:46.410 --> 01:02.190
+pak se limita pro x blížící se
+k ‚a‘ z f(x) lomeno g(x) rovná:
+
+01:02.190 --> 01:10.260
+derivace f v bodě ‚a‘
+lomeno derivace g v bodě ‚a‘.
+
+01:10.260 --> 01:13.420
+Je to tedy podobné obecné verzi,
+ale s nějakými omezeními.
+
+01:13.420 --> 01:16.671
+Předpokládáme, že derivace f v bodě ‚a‘
+existuje, nemluvíme o limitě.
+
+01:16.671 --> 01:20.020
+Předpokládáme, že derivace
+f a g v bodě ‚a‘ existují.
+
+01:20.020 --> 01:23.540
+Všimněte si ale, že když sem za x
+dosadíme ‚a‘, dostaneme 0 lomeno 0,
+
+01:23.540 --> 01:28.550
+ale když derivace existují, tak je stačí
+vyčíslit v bodě ‚a‘ a máme limitu.
+
+01:28.550 --> 01:32.170
+Toto je tedy poměrně blízko
+obecné verzi l'Hospitalova pravidla.
+
+01:32.170 --> 01:34.230
+Nyní si tvrzení dokažme.
+
+01:34.230 --> 01:41.060
+Tvrzení dokážeme tak, že vyjdeme z pravé
+strany a skrze definici derivace ukážeme,
+
+01:41.060 --> 01:43.480
+že platí tvrzení
+na levé straně.
+
+01:43.480 --> 01:44.920
+Tak pojďme na to.
+
+01:44.920 --> 01:46.320
+Napíšu to sem.
+
+01:46.320 --> 01:53.690
+Derivace f v bodě ‚a‘ se podle
+definice derivace rovná čemu?
+
+01:53.690 --> 02:05.480
+Je to limita pro x blížící se k ‚a‘ z f(x)
+minus f(a), to celé lomeno x minus a.
+
+02:05.480 --> 02:08.250
+Jde tedy vlastně o směrnici
+mezi dvěma body.
+
+02:08.250 --> 02:17.490
+Když máme funkci f(x)
+a zde je bod [a; f(a)],
+
+02:17.490 --> 02:23.060
+dále tu budeme
+mít bod [x; f(x)]...
+
+02:23.060 --> 02:26.390
+Tento výraz udává směrnici
+mezi těmito dvěma body.
+
+02:26.390 --> 02:33.050
+Změna y se rovná f(x) minus f(a),
+změna x se rovná x minus a,
+
+02:33.050 --> 02:35.900
+takže tento výraz
+je směrnice téhle přímky.
+
+02:35.900 --> 02:37.580
+A my děláme...
+
+02:37.580 --> 02:39.610
+Udělám to jinou barvou.
+
+02:39.610 --> 02:43.485
+Jde o směrnici přímky
+spojující tyto dva body.
+
+02:43.485 --> 02:45.060
+Udělám to bílou.
+
+02:45.060 --> 02:47.400
+Směrnice přímky procházející
+těmito dvěma body.
+
+02:47.400 --> 02:50.707
+A my nyní hledáme limitu pro x
+blížící se čím dál tím víc k ‚a‘.
+
+02:50.707 --> 02:54.689
+Tohle je tedy jeden ze způsobů,
+jak zapsat definici derivace.
+
+02:54.689 --> 02:56.400
+Udělejme totéž
+pro derivaci g.
+
+02:56.400 --> 02:59.700
+Derivace f v bodě ‚a‘ lomeno
+derivace g v bodě ‚a‘ je rovna:
+
+02:59.700 --> 03:02.370
+tomuto oranžovému výrazu,
+tedy derivaci f v bodě ‚a‘,
+
+03:02.370 --> 03:03.950
+lomeno derivace
+g v bodě ‚a‘,
+
+03:03.950 --> 03:09.370
+kterou můžeme napsat jako
+limitu pro x blížící se k ‚a‘ z výrazu:
+
+03:09.370 --> 03:15.660
+g(x) minus g(a), to celé
+lomeno x minus a.
+
+03:15.660 --> 03:20.340
+V čitateli máme limitu pro x blížící
+se k ‚a‘, totéž máme i ve jmenovateli,
+
+03:20.340 --> 03:28.700
+takže tohle můžeme přepsat jako limitu pro
+x blížící se k ‚a‘ z oranžového výrazu,
+
+03:28.700 --> 03:33.960
+tedy f(x) minus f(a), to celé
+lomeno x minus a,
+
+03:33.960 --> 03:38.730
+a tohle celé
+lomeno zeleným výrazem,
+
+03:38.730 --> 03:44.710
+což je g(x) minus g(a),
+to celé lomeno x minus a.
+
+03:44.710 --> 03:48.940
+Tohle můžeme zjednodušit tak, že čitatele
+i jmenovatele vynásobíme (x minus a),
+
+03:48.940 --> 03:51.390
+čímž se těchto
+(x minus a) zbavíme.
+
+03:51.390 --> 03:57.040
+Vynásobme tedy zlomkem x minus a,
+to celé lomeno x minus a.
+
+03:57.040 --> 04:01.030
+Tady násobíme (x minus a) a zde
+dělíme (x minus a), takže to se pokrátí,
+
+04:01.030 --> 04:02.690
+tyhle dva se
+také pokrátí.
+
+04:02.690 --> 04:11.000
+Zbylo nám, že tento zlomek se rovná
+limitě pro x blížící se k ‚a‘ z výrazu...
+
+04:11.000 --> 04:21.960
+V čitateli máme f(x) minus f(a)
+a ve jmenovateli máme g(x) minus g(a).
+
+04:21.960 --> 04:23.760
+Teď už asi víte,
+kam tímhle mířím.
+
+04:23.760 --> 04:25.470
+Čemu se rovná f(a)?
+
+04:25.470 --> 04:27.470
+V předpokladech máme,
+že f(a) se rovná 0,
+
+04:27.470 --> 04:30.340
+proto vůbec mluvíme
+o l'Hospitalově pravidlu,
+
+04:30.340 --> 04:32.960
+protože f(a) se rovná 0
+a g(a) se také rovná 0.
+
+04:32.960 --> 04:36.250
+f(a) se rovná 0
+a i g(a) se rovná 0,
+
+04:36.250 --> 04:42.200
+čímž se nám to zjednoduší na
+limitu pro x blížící se k ‚a‘ z výrazu:
+
+04:42.200 --> 04:45.270
+derivace f v bodě x...
+
+04:45.270 --> 04:47.330
+Pardon, má zde být f(x).
+
+04:47.330 --> 04:52.830
+...f(x) lomeno g(x).
+
+04:52.830 --> 04:57.380
+Právě jsme tedy dokázali, že když
+se f(a) rovná 0, g(a) se rovná 0
+
+04:57.380 --> 04:59.280
+a tyto dvě
+derivace existují,
+
+04:59.280 --> 05:02.940
+tak se podíl derivací
+v bodě ‚a‘ rovná:
+
+05:02.940 --> 05:06.540
+limita pro x blížící se
+k ‚a‘ z f(x) lomeno g(x),
+
+05:06.540 --> 05:10.700
+neboli že limita pro x blížící se
+k ‚a‘ z f(x) lomeno g(x) se rovná
+
+05:10.700 --> 05:13.220
+derivaci f v bodě ‚a‘ lomené
+derivací g v bodě ‚a‘.
+
+05:13.220 --> 05:17.431
+Jde tedy o poměrně přímočarý
+důkaz speciálního případu,
+
+05:17.431 --> 05:20.941
+ne však obecné
+verze l'Hospitalova pravidla.

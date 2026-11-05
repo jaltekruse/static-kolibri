@@ -1,0 +1,545 @@
+WEBVTT
+
+00:00.589 --> 00:02.261
+- [Instructor] What we're
+going to do in this video
+
+00:02.261 --> 00:06.046
+is explore the relationship
+between local linearity
+
+00:06.046 --> 00:10.295
+at a point and
+differentiability at a point.
+
+00:10.295 --> 00:13.407
+So local linearity is this
+idea that if we zoom in
+
+00:13.407 --> 00:15.264
+sufficiently on a point,
+
+00:15.264 --> 00:17.888
+that even a non-linear
+function that is differentiable
+
+00:17.888 --> 00:21.302
+at that point will actually look linear.
+
+00:21.302 --> 00:23.531
+So let me show some examples of that.
+
+00:23.531 --> 00:25.504
+So let's say we had y
+
+00:25.504 --> 00:26.421
+is equal to
+
+00:27.571 --> 00:28.404
+x squared.
+
+00:29.591 --> 00:32.517
+So that's that there, clearly
+a non-linear function.
+
+00:32.517 --> 00:34.862
+But we can zoom in on a point,
+
+00:34.862 --> 00:37.486
+and if we zoom sufficiently in,
+
+00:37.486 --> 00:40.063
+we will see that it looks roughly linear.
+
+00:40.063 --> 00:43.221
+So let's say we wanna zoom in
+on the point one comma one,
+
+00:43.221 --> 00:44.289
+so let's do that.
+
+00:44.289 --> 00:47.285
+So zooming in on the point one comma one,
+
+00:47.285 --> 00:52.068
+already it is looking
+roughly linear at that point.
+
+00:52.068 --> 00:54.924
+And this property of local linearity
+
+00:54.924 --> 00:56.526
+is very helpful
+
+00:56.526 --> 00:59.824
+when trying to approximate
+a function around a point.
+
+00:59.824 --> 01:01.403
+So for example, we could figure out,
+
+01:01.403 --> 01:04.119
+we could take the derivative
+at the point one one,
+
+01:04.119 --> 01:06.348
+use that as the slope of our tangent line,
+
+01:06.348 --> 01:08.438
+find the equation of the tangent line,
+
+01:08.438 --> 01:11.735
+and use that equation
+to approximate values
+
+01:11.735 --> 01:13.568
+of our function around
+
+01:14.731 --> 01:15.814
+x equals one.
+
+01:16.821 --> 01:18.005
+And you might not need to do that
+
+01:18.005 --> 01:20.141
+for y is equal to x squared,
+
+01:20.141 --> 01:21.859
+but it could actually be very very useful
+
+01:21.859 --> 01:24.390
+for a more complex function.
+
+01:24.390 --> 01:25.807
+But the big takeaway here,
+
+01:25.807 --> 01:27.479
+at the point one one,
+
+01:27.479 --> 01:31.171
+it is displaying this
+idea of local linearity,
+
+01:31.171 --> 01:34.468
+and it is also
+differentiable at that point.
+
+01:34.468 --> 01:35.815
+Now let's look at another example
+
+01:35.815 --> 01:38.508
+of a point on a function
+
+01:38.508 --> 01:40.273
+where we aren't differentiable,
+
+01:40.273 --> 01:43.152
+and we also don't see the local linearity.
+
+01:43.152 --> 01:44.402
+So for example,
+
+01:45.311 --> 01:46.311
+let's do the
+
+01:47.773 --> 01:49.440
+absolute value of x,
+
+01:50.513 --> 01:52.626
+and let me shift it over a little bit
+
+01:52.626 --> 01:56.596
+just so that we don't overlap as much.
+
+01:56.596 --> 02:01.078
+Alright, so the absolute
+value of x minus one.
+
+02:01.078 --> 02:03.307
+It actually is differentiable
+
+02:03.307 --> 02:06.140
+as long as we're not at
+this corner right over here,
+
+02:06.140 --> 02:09.042
+as long as we're not at
+the point one comma zero.
+
+02:09.042 --> 02:12.131
+For any other x value,
+it is differentiable,
+
+02:12.131 --> 02:14.360
+but right at x equals one,
+
+02:14.360 --> 02:15.730
+we've talked in other videos
+
+02:15.730 --> 02:18.052
+how we aren't differentiable there.
+
+02:18.052 --> 02:20.258
+And then we can use this
+local linearity idea
+
+02:20.258 --> 02:21.929
+to test it as well.
+
+02:21.929 --> 02:24.158
+And once again, this is
+not rigorous mathematics,
+
+02:24.158 --> 02:26.202
+but it is to give you an intuition.
+
+02:26.202 --> 02:28.619
+No matter how far we zoom in,
+
+02:29.638 --> 02:32.221
+we still see this sharp corner.
+
+02:33.284 --> 02:36.256
+It would be hard to construct
+the only tangent line,
+
+02:36.256 --> 02:40.691
+a unique line, that goes through
+this point one comma zero.
+
+02:40.691 --> 02:43.060
+I can construct an actual
+infinite number of lines
+
+02:43.060 --> 02:45.265
+that go through one comma zero
+
+02:45.265 --> 02:48.563
+but that do not go through
+the rest of the curve.
+
+02:48.563 --> 02:49.793
+And so notice,
+
+02:49.793 --> 02:51.930
+wherever you see a hard
+corner like we're seeing
+
+02:51.930 --> 02:55.087
+at one comma zero in this
+absolute value function,
+
+02:55.087 --> 02:56.736
+that's a pretty good indication
+
+02:56.736 --> 02:59.058
+that we are not going to be differentiable
+
+02:59.058 --> 03:00.225
+at that point.
+
+03:01.450 --> 03:03.214
+Now let's zoom out a little bit,
+
+03:03.214 --> 03:04.584
+and let's take another function.
+
+03:04.584 --> 03:06.767
+Let's take a function where
+
+03:06.767 --> 03:09.252
+the differentiability or the
+lack of differentiability
+
+03:09.252 --> 03:10.761
+is not because of a corner,
+
+03:10.761 --> 03:12.944
+but it's because as we zoom in,
+
+03:12.944 --> 03:14.314
+it starts to look linear,
+
+03:14.314 --> 03:16.566
+but it starts to look
+like a vertical line.
+
+03:16.566 --> 03:18.725
+So a good example of that would be
+
+03:18.725 --> 03:19.892
+square root of
+
+03:21.280 --> 03:22.742
+let's say
+
+03:22.742 --> 03:24.742
+four minus x squared.
+
+03:26.922 --> 03:30.080
+So that's the top half of
+a circle of radius two.
+
+03:30.080 --> 03:33.354
+And let's focus on the
+point two comma zero.
+
+03:33.354 --> 03:34.631
+Because right over there,
+
+03:34.631 --> 03:36.930
+we actually are not differentiable,
+
+03:36.930 --> 03:38.903
+and if we zoom in far enough,
+
+03:38.903 --> 03:41.086
+we see right at two comma zero
+
+03:41.086 --> 03:43.803
+that we are approaching
+
+03:43.803 --> 03:46.470
+what looks like a vertical line.
+
+03:48.795 --> 03:49.956
+So once again,
+
+03:49.956 --> 03:54.600
+we would not be differentiable
+at two comma zero.
+
+03:54.600 --> 03:56.086
+Now another thing I wanna point out,
+
+03:56.086 --> 03:58.617
+all of these, you really
+didn't have to zoom in too much
+
+03:58.617 --> 04:00.568
+to appreciate that hey I got a corner here
+
+04:00.568 --> 04:02.263
+on this absolute value function,
+
+04:02.263 --> 04:05.769
+or at two comma zero, or
+at negative two comma zero,
+
+04:05.769 --> 04:07.603
+something a little bit
+stranger than normal
+
+04:07.603 --> 04:10.831
+is happening there, so maybe
+I'm not differentiable.
+
+04:10.831 --> 04:14.221
+But there are some functions
+that we don't see as typically
+
+04:14.221 --> 04:17.077
+in a algebra or precalculus
+or calculus class,
+
+04:17.077 --> 04:19.933
+but it can look like a hard corner
+
+04:19.933 --> 04:22.023
+from a zoomed out perspective,
+
+04:22.023 --> 04:24.972
+but as we zoom in once again
+we'll see the local linearity,
+
+04:24.972 --> 04:28.223
+and they are also
+differentiable at those points.
+
+04:28.223 --> 04:29.964
+So a good example of that,
+
+04:29.964 --> 04:32.170
+let me actually get rid of some of these
+
+04:32.170 --> 04:34.515
+just so that we can really zoom in.
+
+04:34.515 --> 04:36.598
+Let's say y is equal to x
+
+04:37.882 --> 04:41.179
+to the, and I'm gonna make
+a very large exponent here,
+
+04:41.179 --> 04:42.921
+so x to the 10th power.
+
+04:42.921 --> 04:45.707
+It's starting to look at
+little bit like a corner there.
+
+04:45.707 --> 04:47.727
+Let's make it to the 100th power.
+
+04:47.727 --> 04:50.142
+Well now it's looking even
+more like a corner there.
+
+04:50.142 --> 04:52.580
+Let me go to the 1,000th
+power just for good measure.
+
+04:52.580 --> 04:54.136
+So at this scale,
+
+04:54.136 --> 04:56.505
+it looks like we have
+a corner at the point
+
+04:56.505 --> 04:57.755
+one comma zero.
+
+04:58.641 --> 05:00.731
+Now this curve actually
+does not go to the point
+
+05:00.731 --> 05:02.588
+one comma zero.
+
+05:02.588 --> 05:03.935
+If x is one,
+
+05:03.935 --> 05:05.444
+then y is going to be one,
+
+05:05.444 --> 05:07.464
+and we'll see that as we zoom in,
+
+05:07.464 --> 05:09.624
+this what looks like a hard corner
+
+05:09.624 --> 05:11.551
+is going to soften.
+
+05:11.551 --> 05:13.385
+And that's good because this function
+
+05:13.385 --> 05:16.845
+is actually differentiable
+at every value of x.
+
+05:16.845 --> 05:17.937
+It's a little bit more exotic
+
+05:17.937 --> 05:19.167
+that what we typically see,
+
+05:19.167 --> 05:21.420
+but as we zoom in,
+we'll actually see that.
+
+05:21.420 --> 05:23.045
+Let's just zoom in on what looks like
+
+05:23.045 --> 05:25.483
+a fairly hard corner,
+
+05:25.483 --> 05:27.573
+but if we zoom sufficiently enough,
+
+05:27.573 --> 05:29.732
+even at the part that
+looks like the hardest part
+
+05:29.732 --> 05:30.847
+of the corner,
+
+05:30.847 --> 05:33.169
+the real corner, we'll see
+that it starts to soften
+
+05:33.169 --> 05:34.701
+and it curves.
+
+05:34.701 --> 05:36.466
+And if we zoom in sufficiently,
+
+05:36.466 --> 05:39.624
+it will actually look like a line.
+
+05:39.624 --> 05:41.783
+It's hard to believe when
+you're really zoomed out,
+
+05:41.783 --> 05:44.593
+and I'm going at the point that
+really looked like a corner
+
+05:44.593 --> 05:46.613
+from a distance.
+
+05:46.613 --> 05:48.448
+But as we zoom on in,
+
+05:48.448 --> 05:52.349
+we see once again this local linearity
+
+05:52.349 --> 05:54.276
+that's a non-vertical line.
+
+05:54.276 --> 05:56.830
+And so once again, this is true
+at any point on this curve,
+
+05:56.830 --> 05:59.198
+that we are going to be differentiable.
+
+05:59.198 --> 06:00.568
+So the whole point here is,
+
+06:00.568 --> 06:02.078
+sometimes you might have to zoom in a lot,
+
+06:02.078 --> 06:04.516
+a tool like Desmos which
+I'm using right now
+
+06:04.516 --> 06:06.513
+is very helpful for doing that.
+
+06:06.513 --> 06:09.369
+And this isn't rigorous mathematics,
+
+06:09.369 --> 06:11.784
+but it's to give you an intuitive sense
+
+06:11.784 --> 06:13.641
+that if you zoom in sufficiently,
+
+06:13.641 --> 06:16.242
+and you start to see a
+curve looking more and more
+
+06:16.242 --> 06:17.612
+like a line,
+
+06:17.612 --> 06:19.748
+good indication that
+you are differentiable.
+
+06:19.748 --> 06:21.675
+If you keep zooming in and it still looks
+
+06:21.675 --> 06:22.999
+like a hard corner,
+
+06:22.999 --> 06:24.462
+of if you zoom in and it looks like
+
+06:24.462 --> 06:26.134
+the tangent might be vertical,
+
+06:26.134 --> 06:29.394
+well then some questions
+should arise in your brain.

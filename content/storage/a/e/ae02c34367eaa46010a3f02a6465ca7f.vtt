@@ -1,0 +1,408 @@
+WEBVTT
+
+00:00.680 --> 00:05.800
+Máme tady graf funkce
+y se rovná kosinus x.
+
+00:05.800 --> 00:13.000
+Já chci určit velikost plochy
+pod křivkou y se rovná f(x) a nad osou x.
+
+00:13.010 --> 00:14.850
+Udělám to na různých intervalech.
+
+00:14.850 --> 00:18.970
+Nejprve se zamysleme
+nad plochou pod křivkou
+
+00:18.970 --> 00:25.285
+mezi x rovno 0 a x rovno π/2.
+
+00:25.285 --> 00:28.600
+x rovno π/2.
+
+00:28.600 --> 00:33.024
+Takže mluvíme o této oblasti.
+
+00:33.024 --> 00:39.800
+Tuto plochu spočítáme pomocí
+určitého integrálu od 0 do π/2 kosinu x dx.
+
+00:39.800 --> 00:44.690
+A pamatujte, je to,
+jako bychom sčítali
+
+00:44.700 --> 00:51.800
+hromadu extraúzkých obdélníků šířky dx
+a výšky hodnoty f(x) u každého obdélníku.
+
+00:51.810 --> 00:55.380
+A pak vezmeme nekonečné množství
+těchto nekonečně úzkých obdélníků.
+
+00:55.390 --> 00:59.000
+A něco takového
+tento zápis vyjadřuje.
+
+00:59.000 --> 01:00.490
+Ale my už víme, jak na to.
+
+01:00.490 --> 01:03.360
+Pomůže nám druhá základní věta
+integrálního počtu.
+
+01:03.360 --> 01:08.170
+Musíme je zjistit,
+jaký je integrál kosinu x.
+
+01:08.180 --> 01:11.090
+Neboli jaký je
+nějaký z integrálů kosinu x.
+
+01:11.090 --> 01:15.740
+Vyčíslit jej pro π/2
+a odečíst jej vyčíslený v 0.
+
+01:15.750 --> 01:18.110
+Takže jaký je integrál kosinu x?
+
+01:18.110 --> 01:20.286
+Nebo jinak, nějaký integrál kosinu x?
+
+01:20.286 --> 01:23.890
+Víme, že když derivujeme...
+Napíšu to tady.
+
+01:23.900 --> 01:32.240
+Víme, že pokud zderivujeme sinus x,
+dostaneme kosinus x.
+
+01:32.260 --> 01:35.520
+Takže integrál kosinu x je sinus x.
+
+01:35.520 --> 01:38.550
+Proč tedy stále říkám,
+že sinus x je jen jeden z mnoha možných?
+
+01:38.550 --> 01:40.820
+Není to jediný integrál toho výrazu.
+
+01:40.820 --> 01:48.480
+Mohli bychom třeba zderivovat
+sinus x plus nějakou konstantu
+
+01:48.490 --> 01:50.780
+a zase bychom dostali kosinus x.
+
+01:50.780 --> 01:52.530
+Protože derivace konstanty je 0.
+
+01:52.530 --> 01:57.720
+Toto by mohlo být π, 5, milion,
+google, jakékoli šílené číslo.
+
+01:57.730 --> 02:01.180
+Ale derivace tohoto výrazu
+bude stále kosinus x.
+
+02:01.180 --> 02:04.840
+Takže když říkám,
+že musíme najít nějaký integrál,
+
+02:04.840 --> 02:07.810
+myslím tím, že musíme
+najít jeden z možných integrálů.
+
+02:07.810 --> 02:12.799
+Sinus x je asi ten nejjednodušší,
+protože konstanta je v tomto případě 0.
+
+02:12.809 --> 02:14.120
+Tak to pojďme vyčíslit.
+
+02:14.120 --> 02:17.870
+Můžeme to zapsat takto,
+integrál kosinu,
+
+02:17.870 --> 02:21.880
+nebo tedy jeden z integrálů
+kosinu x je sinus x.
+
+02:21.900 --> 02:24.620
+A vyčíslíme to pro π/2.
+
+02:24.620 --> 02:27.780
+A od toho odečteme integrál
+vyčíslený v bodě 0.
+
+02:27.780 --> 02:32.710
+Takže toto bude rovno...
+Napíšu to rovnou sem.
+
+02:32.720 --> 02:42.720
+Toto bude rovno sinus π/2
+minus sinus 0, což je rovno...
+
+02:42.733 --> 02:45.270
+Sinus π/2 je 1.
+Sinus 0 je 0.
+
+02:45.280 --> 02:47.630
+Takže to je 1 minus 0,
+což je rovno 1.
+
+02:47.630 --> 02:55.290
+Takže velikost plochy
+této oblasti tady je rovna 1.
+
+02:55.310 --> 02:57.620
+Teď zkusme něco zajímavého.
+
+02:57.620 --> 02:59.970
+Zamysleme se nad oblastí...
+
+02:59.980 --> 03:06.680
+Zamysleme se nad oblastí
+pod křivkou mezi...
+
+03:06.680 --> 03:10.970
+Řekněme, mezi π/2 a 3π/2.
+
+03:11.560 --> 03:19.430
+3π/2.
+
+03:19.430 --> 03:21.870
+Takže mezi bodem zde a zde.
+
+03:21.870 --> 03:24.460
+Takže se bavíme o této oblasti.
+
+03:24.460 --> 03:26.860
+Bavíme se o té oblasti tady.
+
+03:26.860 --> 03:29.760
+Toto je 3π/2.
+
+03:29.760 --> 03:32.710
+Ještě jednou, velikost plochy
+této oblasti vypočítáme
+
+03:32.710 --> 03:37.590
+určitým integrálem
+od π/2 do 3π/2 kosinu x dx.
+
+03:37.600 --> 03:40.300
+Integrál, nebo tedy
+jeden z integrálů kosinu x,
+
+03:40.300 --> 03:42.060
+je sinus x.
+
+03:42.060 --> 03:46.490
+Vyčíslený pro 3π/2 a π/2.
+
+03:46.490 --> 03:55.310
+Takže to bude rovno
+sinus 3π/2 minus sinus π/2.
+
+03:55.330 --> 03:57.480
+Kolik je sinus 3π/2?
+
+03:57.480 --> 04:01.940
+Když si rychle vybavíme
+jednotkovou kružnici,
+
+04:01.940 --> 04:06.270
+3π/2 bude ve tří čtvrtinách
+jednotkové kružnice.
+
+04:06.270 --> 04:07.490
+Přímo tady.
+
+04:07.490 --> 04:11.340
+Hodnota sinu je ypsilonová souřadnice
+na jednotkové kružnici.
+
+04:11.340 --> 04:12.400
+Takže to je -1.
+
+04:12.400 --> 04:15.580
+Takže toto je rovno -1.
+
+04:15.580 --> 04:18.279
+Toto tady,
+sinus π/2,
+
+04:18.279 --> 04:20.620
+bude tady nahoře.
+
+04:20.620 --> 04:22.852
+Takže sinus π/2 je roven 1.
+
+04:22.852 --> 04:23.810
+To je zajímavé.
+
+04:23.810 --> 04:27.840
+Dostáváme -1 minus 1,
+což je rovno -2.
+
+04:27.840 --> 04:29.760
+Máme tady zápornou velikost plochy.
+
+04:29.760 --> 04:32.120
+Zápornou velikost plochy.
+
+04:32.120 --> 04:33.650
+Dává to vůbec smysl?
+
+04:33.650 --> 04:36.450
+Víme, že v reálném světě
+je velikost plochy vždycky kladná.
+
+04:36.450 --> 04:39.780
+Ale co vlastně představuje ta hodnota -2?
+
+04:39.780 --> 04:45.870
+Snaží se nám naznačit,
+že naše funkce se nachází pod osou x.
+
+04:45.870 --> 04:48.130
+Takže to můžeme vnímat jako
+plochu o velikosti 2,
+
+04:48.130 --> 04:50.710
+která se ale v tomto případě
+celá nachází pod osou x.
+
+04:50.710 --> 04:53.110
+Takže proto je to -2.
+
+04:53.110 --> 04:56.600
+Velikost plochy je ve skutečnosti 2,
+ale jelikož je to pod osou x,
+
+04:56.600 --> 04:59.160
+dostaneme tady zápornou hodnotu.
+
+04:59.160 --> 05:01.220
+Teď zkusme ještě něco zajímavějšího.
+
+05:01.220 --> 05:11.300
+Najděme určitý integrál
+od 0 do 3π/2 kosinu x dx.
+
+05:11.310 --> 05:19.580
+To nám označuje celou tuto oblast
+od 0 až do 3π/2.
+
+05:19.590 --> 05:22.190
+A co si myslíte,
+že se stane?
+
+05:22.190 --> 05:23.520
+Pojďme si to vyčíslit.
+
+05:23.520 --> 05:31.260
+Bude to sinus 3π/2
+minus sinus 0.
+
+05:31.270 --> 05:33.950
+Minus sinus 0.
+
+05:33.950 --> 05:39.880
+Což je rovno -1 minus 0,
+a to je rovno -1.
+
+05:39.890 --> 05:41.300
+Takže co se tady stalo?
+
+05:41.300 --> 05:44.450
+Celá tato oranžová oblast,
+kterou jsem vyznačil,
+
+05:44.450 --> 05:50.150
+je očividně nezáporná,
+velikost žádné plochy není záporná.
+
+05:50.150 --> 05:51.840
+A dokonce nejde
+jen o jednu oblast.
+
+05:51.840 --> 05:53.320
+Ale co se tady stalo?
+
+05:53.320 --> 06:00.370
+Viděli jsme, že v prvním případě
+byla velikost plochy rovna 1.
+
+06:00.370 --> 06:03.780
+Velikost plochy této první oblasti je 1.
+
+06:03.780 --> 06:07.580
+A plocha této druhé oblasti je rovna -2.
+
+06:07.590 --> 06:11.370
+Rovna -2.
+
+06:11.370 --> 06:19.390
+Takže to můžeme vyjádřit tak,
+že čistá plocha nad osou x je -1,
+
+06:19.400 --> 06:22.880
+nebo také že čistá velikost plochy je -1.
+
+06:22.880 --> 06:29.940
+Bereme tu jednu oblast nad osou x
+a odečítáme tu druhou dole.
+
+06:29.950 --> 06:31.470
+Takže určitý integrál,
+
+06:31.470 --> 06:35.630
+když jej vyčíslujeme pomocí
+druhé základní věty integrálního počtu,
+
+06:35.630 --> 06:40.619
+nám dává
+čistou plochu nad osou x.
+
+06:40.629 --> 06:46.506
+Když dostaneme záporné číslo, znamená to,
+že většina plochy je vlastně pod osou x.
+
+06:46.506 --> 06:50.170
+Pokud dostaneme 0, znamená to,
+že je to půl na půl.
+
+06:50.170 --> 06:58.550
+A příklad určitého integrálu rovného 0
+je tento integrál od 0 až do 2π.
+
+06:58.560 --> 07:02.620
+A bude se to rovnat 0, protože máme
+jednu oblast rovnu 1 a druhou rovnu 1,
+
+07:02.630 --> 07:04.670
+ale vykrátí se to
+s touto oblastí rovnou -2.
+
+07:04.670 --> 07:05.940
+Vyzkoušejme to.
+
+07:05.940 --> 07:10.460
+Pokud jdeme od 0 do 2π kosinu x dx,
+
+07:10.460 --> 07:15.970
+bude to rovno sinus 2π minus sinus 0,
+
+07:15.970 --> 07:19.960
+což je rovno 0 minus 0,
+což je opravdu rovno 0.
+
+07:19.960 --> 07:23.430
+Očividně tam nějaká plocha je,
+ale všechna plocha nad osou x
+
+07:23.430 --> 07:27.134
+se vykrátila s plochou
+nacházející se pod osou x.

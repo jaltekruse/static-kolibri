@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.163 --> 00:02.679
+Mình biết là tổng một phần thứ n
+
+00:02.679 --> 00:05.207
+trong một chuỗi từ n bằng 1 đến vô cực
+
+00:05.207 --> 00:06.847
+của a_n, hay
+
+00:06.847 --> 00:09.743
+tổng của n số hạng đầu bằng n bình phương cộng 1
+
+00:09.743 --> 00:11.291
+chia cho n cộng 1.
+
+00:11.291 --> 00:12.944
+Và đề bài yêu cầu chúng ta tìm
+
+00:12.944 --> 00:14.637
+giá trị của số hạng thứ 7.
+
+00:14.637 --> 00:16.808
+Và như thường lệ, bạn hãy dừng video này lại và
+
+00:16.808 --> 00:18.597
+thử tự giải bài này trước khi
+
+00:18.597 --> 00:21.152
+chúng ta cùng nhau giải nhé.
+
+00:21.152 --> 00:25.411
+Rồi, vậy thì một cách để hiểu nó là: a_7--
+
+00:25.411 --> 00:28.358
+Hãy xem a_7 liên quan thế nào đến tổng một phần nha.
+
+00:28.358 --> 00:32.478
+Nếu mình có a_1, cộng a_2, rồi mình cứ
+
+00:32.478 --> 00:37.707
+cộng tiếp như thế, cộng a_3, cộng a_4,
+
+00:37.707 --> 00:44.204
+cộng a_5, cộng a_6, cộng a_7.
+
+00:44.204 --> 00:47.274
+Nếu mình lấy tổng của tất cả số hạng này,
+
+00:47.274 --> 00:53.038
+tổng đó sẽ bằng S_7
+
+00:53.038 --> 00:55.304
+Và nếu mình muốn tìm a_7,
+
+00:55.304 --> 00:57.280
+thì mình có thể lấy tổng một phần S_7
+
+00:57.280 --> 01:00.900
+trừ đi tổng của 6 số hạng đầu,
+
+01:00.900 --> 01:08.200
+chính là trừ đi S_6 đó.
+
+01:08.200 --> 01:11.140
+Vậy thì một lần nữa, mình đang làm gì ở đây?
+
+01:11.140 --> 01:14.593
+Mình biết công thức cho tổng của n số hạng đầu.
+
+01:14.593 --> 01:16.441
+Mình có thể dùng nó để tính ra
+
+01:16.441 --> 01:18.628
+tổng của 7 số hạng đầu tiên,
+
+01:18.628 --> 01:20.260
+tổng của tất cả chỗ này.
+
+01:20.260 --> 01:21.869
+Rồi mình lại có thể dùng
+
+01:21.869 --> 01:24.216
+công thức này để tính tổng của 6 số hạng đầu tiên.
+
+01:24.216 --> 01:29.013
+Và a_7 sẽ là chênh lệch của 2 tổng đó.
+
+01:29.013 --> 01:32.177
+Vậy, nói cách khác thì
+
+01:32.177 --> 01:37.358
+a_7 là bằng tổng của 7 số hạng đầu, là S_7
+
+01:37.358 --> 01:43.848
+trừ đi tổng của 6 số hạng đầu, là S_6.
+
+01:43.848 --> 01:45.817
+Và nếu bạn tự giải thì bạn không cần
+
+01:45.817 --> 01:47.937
+viết ra như thế này như mình đã làm.
+
+01:47.937 --> 01:51.700
+Mình viết ra để bạn dễ hiểu hơn thôi.
+
+01:51.700 --> 01:54.690
+Rồi, vậy thì cái này sẽ bằng gì?
+
+01:54.690 --> 01:58.302
+S_7, là tổng của 7 số hạng đầu--
+
+01:58.302 --> 02:00.858
+Mình thấy n ở đâu thì thế 7 vào đó thôi.
+
+02:00.858 --> 02:04.839
+Vậy nó sẽ là 7 bình phương cộng 1,
+
+02:04.839 --> 02:09.006
+chia cho 7 cộng 1. Rồi từ đó mình trừ đi
+
+02:10.394 --> 02:13.243
+S_6, tức là tổng của 6 số hạng đầu đó.
+
+02:13.243 --> 02:17.561
+Đó sẽ bằng 6 bình phương cộng 1,
+
+02:17.561 --> 02:21.414
+chia cho 6 cộng 1.
+
+02:21.414 --> 02:24.877
+Và từ đó thì mình chỉ cần tính toán một chút thôi.
+
+02:24.877 --> 02:28.167
+Ở đây 7 bình phương cộng 1,
+
+02:28.167 --> 02:32.663
+là 49 cộng 1, sẽ là 50, rồi chia cho 8.
+
+02:32.663 --> 02:35.413
+Còn ở đây 6 bình phương cộng 1,
+
+02:36.533 --> 02:37.366
+đó là 37,
+
+02:38.444 --> 02:39.361
+rồi chia cho 7.
+
+02:40.423 --> 02:42.717
+Vậy giờ mình sẽ tìm mẫu số chung
+
+02:42.717 --> 02:44.922
+giữa 8 và 7.
+
+02:44.922 --> 02:47.022
+Nó sẽ bằng 56.
+
+02:47.022 --> 02:52.870
+Vậy đây sẽ là cái gì đó trên 56,
+
+02:52.870 --> 02:58.324
+trừ cho cái gì đó trên 56.
+
+02:58.324 --> 03:01.677
+Để đi từ 8 đến 56 thì mình phải nhân 7,
+
+03:01.677 --> 03:04.210
+vậy nên mình cũng sẽ nhân tử số cho 7.
+
+03:04.210 --> 03:08.565
+50 nhân 7 bằng 350.
+
+03:08.565 --> 03:11.277
+Giờ ở phân số bên này, mình nhân mẫu số
+
+03:11.277 --> 03:14.618
+cho 8 để được 56, thì mình cũng phải nhân
+
+03:14.618 --> 03:17.538
+37 ở trên này cho 8.
+
+03:17.538 --> 03:19.996
+Để xem nha, 37 nhân 8 là bằng
+
+03:19.996 --> 03:27.051
+240 cộng 56, vậy là bằng 296.
+
+03:27.051 --> 03:30.075
+Vậy thì chỗ này sẽ bằng--
+
+03:30.075 --> 03:34.242
+Mình có mẫu số chung là 56. 350 trừ 296 là bằng 54.
+
+03:36.648 --> 03:39.050
+Vậy nó sẽ là 54/56.
+
+03:39.050 --> 03:41.545
+Và nếu muốn thì mình có thể rút gọn
+
+03:41.545 --> 03:45.338
+Mình không có giảm giá trị của nó xuống nha,
+
+03:45.338 --> 03:47.606
+mình chỉ viết nó gọn hơn thôi.
+
+03:47.606 --> 03:51.773
+Cái này sẽ là, mình sẽ rút gọn thành 27/28.
+
+03:53.271 --> 03:55.497
+Đúng rồi đúng không?
+
+03:55.497 --> 03:58.458
+Đúng rồi, mình đã rút gọn hết mức rồi.
+
+03:58.458 --> 04:02.896
+Vậy đấy, đây chính là a_7, là 27/28.
+
+04:02.896 --> 04:04.949
+Đó là chênh lệch giữa tổng 7 số hạng đầu
+
+04:04.949 --> 04:07.866
+và tổng 6 số hạng đầu.

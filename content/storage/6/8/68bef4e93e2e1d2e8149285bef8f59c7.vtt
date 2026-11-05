@@ -1,0 +1,374 @@
+WEBVTT
+
+00:00.240 --> 00:04.852
+„Mohamed se rozhodl každoročně zaznamenat
+počet listů na stromě v jeho zahradě.
+
+00:05.033 --> 00:08.524
+První rok bylo 500 listů.
+
+00:08.751 --> 00:14.219
+Každý další rok bylo listů o 40 % více,
+než v předchozí rok.
+
+00:14.416 --> 00:18.309
+Nechť je 'n' přirozené číslo
+a nechť f(n) znamená počet listů,
+
+00:18.482 --> 00:23.089
+které jsou na Mohamedově stromě v n-tém
+roce od doby, kdy začal zaznamenávat.
+
+00:23.251 --> 00:26.624
+Výraz 'f(n)' definuje posloupnost.
+
+00:26.822 --> 00:29.209
+Jakým typem posloupnosti je f(n)?“
+
+00:29.432 --> 00:31.859
+Někteří by si to
+dokázali promyslet v hlavě.
+
+00:32.003 --> 00:34.464
+Každý následující rok je nárůst o 40 %,
+
+00:34.599 --> 00:37.140
+to je to samé,
+jako je násobení číslem 1,4.
+
+00:37.734 --> 00:41.736
+Každý následující člen násobíme
+nebo dělíme stejným číslem.
+
+00:41.914 --> 00:43.201
+Bude tedy geometrickou.
+
+00:43.567 --> 00:45.058
+Udělejme to lépe uchopitelné.
+
+00:45.232 --> 00:46.293
+Pro jistotu.
+
+00:46.463 --> 00:49.030
+Udělejme malou tabulku.
+
+00:49.555 --> 00:51.326
+Tabulku.
+
+00:51.542 --> 00:54.801
+Tohle je 'n' a tohle je 'f(n)'.
+
+00:55.225 --> 00:56.851
+Když 'n' je rovno 1,
+
+00:57.052 --> 01:00.106
+první rok, 'n' rovno 1,
+na stromě bylo 500 listů.
+
+01:00.308 --> 01:01.888
+'f(n)' je rovno 500.
+
+01:02.166 --> 01:05.037
+Když je 'n' rovno 2,
+naroste to o 40 %,
+
+01:05.187 --> 01:08.244
+což je to samé,
+jako je násobení číslem 1,4.
+
+01:08.639 --> 01:12.396
+Tedy 500 krát 1,4.
+40 % z 500 je 200,
+
+01:12.506 --> 01:13.958
+takže máme nárůst o 200,
+
+01:14.157 --> 01:16.087
+tedy půjdeme na 700.
+
+01:16.312 --> 01:19.844
+V třetím roce narosteme o 40 % z 700,
+
+01:19.984 --> 01:23.665
+což je 280,
+takže máme nárůst na 980.
+
+01:23.833 --> 01:28.401
+Všimněte si, že to rozhodně
+není aritmetická posloupnost.
+
+01:28.573 --> 01:32.199
+V aritmetické posloupnosti bychom
+přičítali či odečítali stejné množství,
+
+01:32.335 --> 01:33.087
+což neděláme.
+
+01:33.198 --> 01:35.241
+Tady, z 500 na 700 jsme měli nárůst o 200.
+
+01:35.371 --> 01:37.983
+Z 700 na 980 je nárůst o 280.
+
+01:38.135 --> 01:41.334
+Místo toho násobíme či dělíme
+pokaždé stejným množstvím.
+
+01:41.467 --> 01:45.633
+V tomto případě
+násobíme pokaždé číslem 1,4.
+
+01:45.778 --> 01:47.670
+Zřejmě je to geometrická posloupnost.
+
+01:47.859 --> 01:49.589
+„V závislosti na odpovědi výše,
+
+01:49.756 --> 01:53.481
+rekursivní zadání posloupnosti
+může mít podobu jednoho ze zadaných.“
+
+01:53.666 --> 01:56.210
+Tohle platí pro aritmetickou,
+což není náš případ.
+
+01:56.450 --> 01:58.513
+Bude to případ
+geometrické posloupnosti.
+
+01:59.241 --> 02:00.205
+Ptají se nás:
+
+02:00.442 --> 02:03.478
+„Jaké jsou hodnoty parametrů A a B
+pro tuto posloupnost?“
+
+02:03.658 --> 02:09.197
+Zde máme počáteční člen,
+f(n) bude rovno A, když 'n' je rovno 1.
+
+02:09.366 --> 02:12.581
+Víme, že když je 'n' rovno 1,
+měli jsme na stromě 500 listů,
+
+02:12.799 --> 02:15.904
+Takže 'A' je rovno 500.
+
+02:16.743 --> 02:18.970
+'A' je rovno 500.
+
+02:19.201 --> 02:21.063
+Nejsme-li v počátečním členu,
+
+02:21.166 --> 02:22.320
+tedy pro každý jiný rok,
+
+02:22.652 --> 02:23.859
+budeme mít…
+
+02:24.043 --> 02:27.675
+Podívejme, máme předchozí rok
+krát co?
+
+02:28.177 --> 02:30.893
+Bude to předchozí rok s nárůstem o 40 %.
+
+02:31.176 --> 02:34.798
+Abychom měli 40% nárůst,
+musíme násobit číslem 1,4.
+
+02:34.935 --> 02:37.835
+'B' je tedy 1,4.
+
+02:38.023 --> 02:43.412
+Vezmeme předchozí rok a násobíme jej 1,4
+za každý další rok různý od 'n' rovno 1.
+
+02:43.586 --> 02:46.978
+'B' je tedy rovno 1,4 a jsme hotovi.
+
+02:47.199 --> 02:48.300
+Udělejme další příklad.
+
+02:48.425 --> 02:49.792
+Je to zvláštně zábavné.
+
+02:50.399 --> 02:52.526
+Dobrá, tohle nám říká:
+
+02:52.724 --> 02:55.271
+„Seo-Yun pořádala párty.
+
+02:55.421 --> 02:58.132
+Měla 50 uvítacích dárků na rozdání
+
+02:58.315 --> 03:02.954
+a dala 3 dárky každému hostu,
+když zrovna na párty přišel.
+
+03:03.513 --> 03:08.557
+Nechť je 'n' přirozené
+a nechť g(n) označuje počet dárků,
+
+03:08.745 --> 03:13.593
+které Seo-Yun měla
+před příchodem n-tého hosta.“
+
+03:13.819 --> 03:17.042
+Dobrá, než se podívám na tyto otázky,
+udělejme si zde tabulku,
+
+03:17.221 --> 03:18.617
+říkají 'před n-tým hostem'.
+
+03:18.777 --> 03:21.730
+Chci se ujistit, že tomu rozumím správně.
+
+03:24.004 --> 03:25.489
+Tohle je tedy 'n'
+
+03:25.905 --> 03:27.884
+a tohle bude g(n).
+
+03:29.379 --> 03:33.085
+Když je 'n' rovno 1,
+
+03:33.298 --> 03:37.009
+g(n), tedy g(1) bude počet dárků,
+
+03:37.167 --> 03:40.425
+které Seo-Yun měla
+před příchodem prvního hosta.
+
+03:40.622 --> 03:43.670
+Před příchodem
+prvního hosta měla 50 dárků.
+
+03:44.157 --> 03:45.647
+Měla 50 dárků.
+
+03:45.952 --> 03:48.321
+Teď přišel druhý host.
+
+03:48.537 --> 03:52.033
+Počet dárků,
+které měla před druhým hostem…
+
+03:52.272 --> 03:55.655
+Dala 3 dárky prvnímu,
+
+03:55.853 --> 03:58.802
+takže teď má 47 dárků.
+
+03:59.113 --> 04:00.663
+Je-li 'n' rovno 3,
+
+04:00.824 --> 04:04.691
+kolik dárků měla před
+příchodem třetího hosta?
+
+04:04.881 --> 04:08.915
+Musela přeci dát dárky prvnímu a druhému,
+každému dala 3 dárky.
+
+04:09.092 --> 04:13.668
+Takže měla 44 dárků.
+Asi už vidíte schéma.
+
+04:13.847 --> 04:16.987
+Je-li 'n' rovno 1,
+g(n) je rovno 50
+
+04:17.194 --> 04:26.300
+a pokaždé, navýšíme-li 'n' o 1,
+zvyšujeme g(n) o 3,
+
+04:26.453 --> 04:30.771
+o -3 bych měl říct,
+protože dárky dává.
+
+04:31.560 --> 04:32.524
+-3.
+
+04:32.885 --> 04:35.874
+Jelikož rozdíl mezi po sobě
+jdoucími členy zůstává stejný,
+
+04:35.997 --> 04:38.133
+víme, že jde o aritmetickou posloupnost.
+
+04:38.323 --> 04:39.824
+Je to aritmetická posloupnost.
+
+04:39.994 --> 04:42.949
+Chtějí po nás zapsat
+explicitní vyjádření posloupnosti.
+
+04:43.164 --> 04:44.545
+Zamysleme se nad tím.
+
+04:44.680 --> 04:48.034
+Podívejme g(n) bude rovno…
+
+04:48.220 --> 04:49.845
+Začínáme na 50,
+
+04:50.047 --> 04:52.649
+pak odečítáme 3
+
+04:53.026 --> 04:56.583
+a popřemýšlejme,
+odečítáme 3 krát 'n' nebo…?
+
+04:57.411 --> 05:01.657
+Podívejme, u prvního hosta
+jsme odečetli 3 nulakrát.
+
+05:01.840 --> 05:04.703
+U druhého hosta jsme odečetli 3 jednou.
+
+05:04.923 --> 05:08.031
+U třetího hosta jsme odečetli 3 dvakrát.
+
+05:08.248 --> 05:13.179
+Takže u n-tého hosta
+odečteme 3 (n minus 1)krát.
+
+05:13.401 --> 05:16.025
+Všimněte si,
+u třetího hosta jsme odečetli 3 dvakrát.
+
+05:16.203 --> 05:19.278
+U druhého hosta jsme
+odečetli 3 jednou.
+
+05:19.495 --> 05:21.492
+U prvního hosta jsme
+odečetli 3 nulakrát,
+
+05:21.669 --> 05:22.604
+takže to funguje.
+
+05:22.795 --> 05:25.463
+U prvního hosta
+bychom odečetli 3 nulakrát,
+
+05:25.698 --> 05:27.407
+g(1) by tedy bylo 50.
+
+05:27.663 --> 05:29.581
+Vidíme, že je to konzistentní.
+
+05:29.779 --> 05:34.176
+Mohu tedy psát
+50 minus 3 krát (n minus 1).
+
+05:34.366 --> 05:35.766
+Doporučuji udělat si tabulku,
+
+05:35.871 --> 05:38.691
+aby bylo jasné,
+zda psát 'n' nebo 'n minus 1'.
+
+05:38.948 --> 05:41.147
+Aby to vše sedělo.

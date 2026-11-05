@@ -1,0 +1,97 @@
+WEBVTT
+
+00:05.636 --> 00:10.625
+que não sabemos qual é. Usando um polinômio, a gente vai adicionando termos a esse polinômio.
+
+00:10.733 --> 00:15.225
+Mas, para isso vamos supor que podemos avaliar que a função em zero nos dá um valor
+
+00:15.302 --> 00:22.175
+e que podemos continuar derivando a função e avaliar a primeira, segunda e
+
+00:22.205 --> 00:28.538
+terceira derivadas para zero. Por isso estamos a assumir que nós sabemos qual é o F(0),
+
+00:28.600 --> 00:34.867
+estamos a assumir que sabemos qual é F'(0), qual é F''(0) e
+
+00:34.882 --> 00:42.800
+qual é a F'''(0). Vou escrever terceira derivada como F'''
+
+00:42.800 --> 00:49.667
+E assim por diante. Vamos então pensar como podemos aproximar essa função usando polinômios de tamanhos
+
+00:49.667 --> 00:55.600
+arbitrários. Poderíamos por exemplo ter um polinômio de um termo. E esse termo poderia ser uma constante. Então
+
+00:55.600 --> 01:01.400
+este seria um polinômio de grau zero. E se temos uma constante, nós queremos que pelo menos,
+
+01:01.400 --> 01:10.067
+esse polinômio, que é só uma constante, seja igual à função em f(0). Então inicialmente
+
+01:10.067 --> 01:19.133
+nós queremos P(0), aonde "P" é o polinômio que queremos construir, seja P(0) igual a f(0).
+
+01:19.133 --> 01:30.667
+Se quisermos fazer isso, basta definir P(x) sendo igual a F(0).
+
+01:30.667 --> 01:37.133
+Então se eu fosse desenhar o gráfico, ele ficaria assim. Seria somente uma linha horizontal passando por F(0).
+
+01:37.133 --> 01:43.267
+E você pode dizer: "Essa é uma aproximação horrível! Ela só se aproxima na função em um ponto."
+
+01:43.267 --> 01:46.067
+Parece que tivemos sorte em alguns outros pontos, mas é realmente muito ruim em todos os outros lugares...
+
+01:46.067 --> 01:49.467
+Aí eu te digo: "tente fazer algo melhor usando uma linha horizontal"
+
+01:49.467 --> 01:55.733
+pelo menos nós acertamos em F(0) e isso é o melhor que conseguimos fazer com uma constante.
+
+01:55.733 --> 02:02.600
+E apesar disso não se parecer uma constante, nós estamos assumindo que na função dada
+
+02:02.600 --> 02:06.667
+nós podemos descobrir seu valor em zero, e isso vai ser somente um número. Então qualquer que seja esse número
+
+02:06.667 --> 02:11.067
+nós colocamos ele aqui. E dizemos que p(x) é igual a esse número. Isso vai ser somente uma linha
+
+02:11.067 --> 02:19.933
+horizontal em f(0). Mas isso é obviamente não muito bom, então vamos adicionar mais restrições.
+
+02:19.933 --> 02:32.000
+Além de querer que p(0) seja igual a f(0), digamos que também queremos que p'(0) = f'(0).
+
+02:32.000 --> 02:40.067
+Vou fazer isso com outra cor. Então também queremos, na nova cor, queremos que não seja uma nova cor.
+
+02:40.067 --> 02:46.667
+Queremos que p'(0), a primeira derivada do nosso polinômio avaliada em zero, seja igual
+
+02:46.667 --> 02:52.333
+à primeira derivada da função quando avaliada em zero. E não queremos perder isso
+
+02:52.333 --> 03:03.067
+aqui. Então, se definirmos p(x) igual a f(0), temos p(x) e vamos
+
+03:03.067 --> 03:12.467
+acrescentar mais um termo de modo que a as derivadas sejam iguais. Mais f'(0) vezes x. Vamos pensar um pouco
+
+03:12.467 --> 03:19.133
+sobre isso, se usarmos esse novo polinômio, o que acontece? p(0)... o que é p(0)? p(0) será
+
+03:19.133 --> 03:30.600
+igual a f(0) a onde quer que f seja 0. Se pusermos o 0 em
+
+03:30.600 --> 03:36.333
+x o termos será igual a 0. Assim será p(0)=f(0). Porreiro ;)
+
+03:36.333 --> 03:40.133
+É tão bom como a primeira versão. Agora quais são as derivadas aqui?
+
+03:40.133 --> 03:48.467
+A derivada é p'(x)= , faz

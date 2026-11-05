@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+V tomto videu vás chcem oboznámiť s myšlienkou limít, čo je naozaj super dôležitá myšlienka.
+
+00:07.132 --> 00:10.813
+Je to myšlienka na ktorej, všetky výpocty (derivácií a integrálov), sú založené.
+
+00:10.828 --> 00:17.036
+Ale napriek tomu, že je to super dôležité, je to v skutočnosti naozaj jednoduché
+
+00:17.036 --> 00:21.075
+Takže teraz nakreslím funkciu, vlastne, najprv definujem funkciu
+
+00:21.075 --> 00:32.800
+takže, Taká jednoduchšia funkcia. Určme si f(x) - povedzme, že f(x) bude (x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+Možete si povedať, Hey, Sal, veď máme rovnakú vec v čitateli aj v menovateli.
+
+00:36.084 --> 00:42.421
+A ak mám niečo, čo samo seba delí, to sa bude rovnať jednej! Nemôžem to zjednodušiť na f(x)=1?
+
+00:42.421 --> 00:47.944
+A ja by som povedal, "Áno, máš takmer pravdu, rozdiel medzi f(x)=1 a touto vecou tu,"
+
+00:47.944 --> 00:57.638
+je, že táto vec nie je definovaná, keď x=1. Takže ak - napíšem to sem- ak máme
+
+00:57.653 --> 01:07.267
+f(1), čo sa stane? V čitateli dostaneme 1-1, čo je... iba to napíšem...
+
+01:07.267 --> 01:14.605
+v čitateli dostaneme 0 a v menovateli dostaneme 1-1, čo je tiež 0. Takže, hocičo vydelené
+
+01:14.605 --> 01:26.764
+nulou, aj 0/0 je nedefinované. Takže to môžeme zjednodušiť - môžeme povedať, že to je
+
+01:26.764 --> 01:36.867
+to isté, ako keď f(x)=1, ale musíme pridať podmienku, že x sa nemôže rovnať 1. Teraz toto
+
+01:36.867 --> 01:43.133
+s týmto je ekvivalentné. Obe sa budú rovnať 1, pre všetky ostatné x orem 1. Ale
+
+01:43.133 --> 01:51.340
+keď x=1, je to nedefinované. Toto je nedefinované, a toto je nedefinované. Takže ako by som nakreslil graf takejto funkcie?
+
+01:51.340 --> 02:10.496
+Takže to nakreslím... toto je y=f(x) os, a potom toto bude x - ová os, a potom, povedzme,
+
+02:10.496 --> 02:22.799
+že toto je bod x=1, toto bude x=-1, toto je y=1, tu by mohlo byť -1, ale
+
+02:22.799 --> 02:28.267
+to nemá s touto funkciou veľa spoločného, a teraz nakreslím graf. Takže je to podstatné,
+
+02:28.267 --> 02:42.600
+pre všetky x okrem 1, f(x) ja bude rovnať 1. Takže to bude vyzerať nejak takto... okrem jednotky. Pre 1, f(x) nie je definované, takže
+
+02:42.600 --> 02:47.800
+tu nakreslím menšiu medzeru, tento krúžok, aby ukazoval, že táto funkcia
+
+02:47.800 --> 02:52.400
+nie je definovaná - nevieme, čomu sa táto funkcia v jednotke rovná, nedefinovali sme to.
+
+02:52.400 --> 03:00.333
+Táto definícia funkcie nám nehovorí, čo robiť pri jednotke - je to skutočne nedefinované, ak x=1.
+
+03:00.333 --> 03:09.113
+Takže toto je tá funkcia, a ešte raz, ak by sa vás niekto opýtal, čo je f(1), povedali by ste,
+
+03:09.113 --> 03:14.467
+a povedzme, že toto je predpis tej funkcie, povedali by ste, x=1, počkať, tu je medzera v mojej funkcii
+
+03:14.467 --> 03:21.148
+tu je nedefinovaná. Takže napíšem to znovu...no, je to trochu zbytočné, ale prepíšem to.
+
+03:21.148 --> 03:30.313
+f(1) nie je definované. Ale čo keby som sa vás opýtal, ku čomu sa tá funkcia približuje,
+
+03:30.313 --> 03:44.708
+keď x=1? A tu sa už začíname dotýkať myšlienky limít. Takže, ak x sa stále viac a viac približuje ku jednotke...
+
+03:44.708 --> 03:51.837
+ku čomu sa približuje tá funkcia? Po celý tento čas, ku čomu je stále bližšie a bližšie?
+
+03:51.837 --> 03:58.909
+Na ľavej strane, nezáleží ako blízko pôjdeme k jednotke, kým nie sme priamo na 1, tak f(x)=1
+
+03:58.909 --> 04:04.790
+Tu, napravo, dostaneme to isté. Takže môžme povedať - a budete
+
+04:04.790 --> 04:10.631
+viac a viac oboznámení s touto myšlienkou, keď spravíme viac príkladov - že limita, keď
+
+04:10.631 --> 04:24.933
+x (lim, skratka pre limitu) - keď sa x blíži ku jednotke pre f(x) sa rovná...
+
+04:24.933 --> 04:29.311
+Keď ideme bližšie, možeme sa dostať neuveriteľne, nekonečne blízko ku jednotke, kým nie sme na jednotke....
+
+04:29.311 --> 04:33.190
+A naša funkcia sa bude rovnať jednej, ide bližšie a bližšie ku jednotke,
+
+04:33.190 --> 04:39.684
+je vskutočnosti na jednotke po celý čas. V tomto prípade môžme povedať, že limita, keď sa x približuje ku jednotke pre f(x)
+
+04:39.684 --> 04:45.395
+je jedna. Takže znova, má to dosť prepychový zápis, ale len hovoríme, "Takže, ku čomu sa tá funkcia približuje,
+
+04:45.395 --> 04:48.133
+keď x je stále bližšie ku jednej?!
+
+04:48.133 --> 04:54.021
+Urobím ďaľší príklad, kde budeme pracovať s krivkou, len abz ste mali všeobecnú predstavu.
+
+04:54.021 --> 05:02.533
+Takže povadzme, že mám funkciu f(x) - radšej ju nazvem g(x), nej je to trochu iné.
+
+05:02.533 --> 05:09.852
+Povedzme, že máme g(x) a rovná sa - môžme ju definovať takto, definujeme ju ako x²
+
+05:09.852 --> 05:26.082
+keď sa x nerovná 2, a povedzme, keď x=2, rovná sa to 1. Takže znovu, taká zaujímavá
+
+05:26.082 --> 05:34.133
+funkcia, ktorá - ako uvidíte - nie je úplne spojitá. Nakreslím graf.
+
+05:34.133 --> 05:48.225
+Takže toto je y=f(x) os, toto je x - ová os tu. Povedzme, že toto je x=1, toto je x=2,
+
+05:48.225 --> 06:01.825
+toto je -1, toto je -2... Takže všade, okrem na x=2 je to rovné x². Nakreslím to takto,
+
+06:01.825 --> 06:08.636
+toto bude parabola, vyzerá nejako takto... bude vyzerať nejako takto..
+
+06:08.636 --> 06:18.308
+Nakreslím lepšiu parabolu. Takže to vyzerá nejako takto, nie úplne najkrajšie
+
+06:18.308 --> 06:24.341
+nakreslená parabola v histórii kreslenia parabol, ale myslím, že z toho pochopíte, ako parabola
+
+06:24.341 --> 06:32.991
+vyzerá.. snáď. Mala by byť symetrická... Nakreslím to znova, lebo táto je nejaká škaredá
+
+06:32.991 --> 06:38.467
+Tá vyzerá lepšie, OK, fajn, hotovo. Dobre.
+
+06:38.467 --> 06:48.867
+Teraz, mal by to byť len graf x², ale nie je to x², keď x=2. Takže znova, keď x=2,
+
+06:48.867 --> 06:55.428
+mali by sme tu mať trochu nespojitosti, takže tu nakreslím medzeru,
+
+06:55.428 --> 07:00.478
+lebo, keď x=2, funkcia sa rovná 1.
+
+07:00.478 --> 07:09.566
+Nerobím to v jednej mierke... Na grafe pre f(x)=x². toto by bolo 4, toto 2,
+
+07:09.616 --> 07:23.547
+toto 1, toto bz bolo 3. Takže, x=2, naša funkcia sa rovná 1
+
+07:23.547 --> 07:27.856
+Takže toto je trochu čudná funkcia, ale môžme ju takto definovať, možete funkciu definovať hocijako,
+
+07:27.856 --> 07:36.667
+ako sa vám len páči! Teda, všimnite si, je to presne ako graf pre f(x) = x², iba keď prídete na 2,
+
+07:36.667 --> 07:48.252
+má medzeru, lebo nepoužijete g(x)=x² keď x=2, použijete g(x)=1
+
+07:48.252 --> 07:50.848
+Ak som hovoril f(x). tak sa za to ospravedlňujem
+
+07:50.848 --> 08:04.914
+Použijete g(x)=1, takže presne na dvojke, spadne to dole na jednotku, a potom to pokračuje ako x²
+
+08:04.914 --> 08:11.241
+Takže tu je zopár vecí. Ak by sme chceli nájsť hodnotu funkcie g(2)
+
+08:11.241 --> 08:15.933
+tak sa pozrieme na túto definíciu. Ok, keď x=2, použijem túto situáciu
+
+08:15.933 --> 08:21.538
+a to mi hovorí, že to bude rovné jednej. Spýtam sa zaujímevejšie otázky, alebo možno
+
+08:21.538 --> 08:32.149
+zaujímavejši otázky. Čo je limita keď sa x približuje ku 2 pre g(x)? Znova prepychový zápis, ale
+
+08:32.149 --> 08:38.502
+pýtam sa na niečo naozaj jednoduché. Hovorím, "keď x ide bližšie a bližšie ku 2...
+
+08:38.502 --> 08:42.240
+keď ideme bližšie a bližšie - a toto nie je presná definícia, to spravíme v budúcich videách -
+
+08:42.240 --> 08:52.979
+keď x ide bližšie a bližšie ku 2, ku čomu sa približuje g(x)? Takže ak máme 1.9, potom 1.999 a potom 1.999999
+
+08:52.979 --> 09:00.518
+a potom 1.9999999, ku čomu sa blíži g(x)? Ak by sme šli z kladnej strany,
+
+09:00.518 --> 09:06.656
+povedzme, 2.1, čo je g(2.1)? čo je g(2.01)? čo je g(2.001)?
+
+09:06.656 --> 09:09.995
+Ku očmu sa to blíži, ak ku tomu ideme bližšie a bližšie??
+
+09:09.995 --> 09:15.733
+A to môžeme vidieť aj vizuálne, keď si nakreslíme graf. Keď sa g blíži ku 2...
+
+09:15.733 --> 09:20.518
+A my by sme to sledovali na tom grafe, vidíme, že sa blížime ku 4,
+
+09:20.518 --> 09:26.545
+Aj keď to nie je to, kde je funkcia, funkcia tam padá na 1 - limita pre g(x) ked
+
+09:26.545 --> 09:33.405
+sa x blíži ku dvom, je rovná 4. Toto môžete aj spraviť výpočtom na kalkulačke.
+
+09:33.405 --> 09:39.907
+A to spravím, elbo to bude zaujímevé. Takže vytiahnem kaqlkulačku...
+
+09:39.907 --> 09:49.041
+Vytiahnem svoju spoľahlivú TI-85.. takže, tu je moja kalkulačka.. A môžme číselne povedať,
+
+09:49.041 --> 09:57.995
+ok, k čomu sa bude toto približovať, keď sa približujeme ku x=2? Skúsme to pre 1.9. Pre x=1.9, použijeme
+
+09:57.995 --> 10:05.549
+tento horný výraz. Takže máme 1.9² a dostali by sme 3.61.
+
+10:05.549 --> 10:11.683
+Fajn, a čo keď pôjdeme ešte bližšie ku 2? Takže 1.99, a opäť, umocním to,
+
+10:11.683 --> 10:21.683
+a máme 3.96. A čo keď to urobím s 1.999?
+
+10:21.683 --> 10:27.991
+Dostanem 3.996. Všimnite si, že sa odostávam stále bližšie a bližšie k nášmu bodu.
+
+10:27.991 --> 10:37.546
+A keď pôjdem naozaj blízko - 1.999999999999²? Čo dostanem? V skutočnosti to nebude
+
+10:37.546 --> 10:41.508
+presne 4 - kalkulátor to len zaokrúhlil - ale dostaneme číslo naozaj naozaj
+
+10:41.508 --> 10:47.456
+naozaj naozaj blízko 4. A môžme spraviť niečo z kladného smeru tiež, a to v skutočnosti
+
+10:47.456 --> 10:52.083
+musí byť to isté číslo, keď sa blížime zospodu, to ku čomu sa snažíme priblížiť sa snažíme priblížiť
+
+10:52.083 --> 11:00.702
+a zhora, od toho, k čomu sa snažíme priblížiť. Takže ak skúsime 2.1², dostaneme 4.4...
+
+11:00.702 --> 11:02.902
+Teraz urobím zoar krokov dopredu........
+
+11:02.902 --> 11:09.256
+2.0001². Toto je oveľa bližšie ku 2. Teraz sa dostáveme oveľa bližšie ku 4.
+
+11:09.256 --> 11:12.929
+Takže čím bližšie sa dostávame ku 2, tým bližšie sa zdá, že sa dostáveme ku 4.
+
+11:12.929 --> 11:20.333
+Takže znovu, toto je číselná metóda aby sme videli, že limita keď sa x blíži ku 2, z oboch strán
+
+11:20.333 --> 11:25.000
+pre g(x) - aj keď priamo na 2, funkcia sa rovná 1, lebo je taká nespojitá-
+
+11:25.000 --> 11:31.070
+limita keď sa blížime ku 2, dostávame sa bližšie a bližšie ku štyrom.

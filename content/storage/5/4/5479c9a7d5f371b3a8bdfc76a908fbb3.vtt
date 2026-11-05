@@ -1,0 +1,602 @@
+WEBVTT
+
+00:00.333 --> 00:01.795
+- [Instructor] What we're
+going to do in this video
+
+00:01.795 --> 00:04.447
+is talk about the various
+types of discontinuities
+
+00:04.447 --> 00:07.359
+that you've probably seen
+when you took algebra,
+
+00:07.359 --> 00:11.010
+or precalculus, but then
+relate it to our understanding
+
+00:11.010 --> 00:14.876
+of both two-sided limits
+and one-sided limits.
+
+00:14.876 --> 00:18.727
+So let's first review the
+classification of discontinuities.
+
+00:18.727 --> 00:22.274
+So here on the left,
+you see that this curve
+
+00:22.274 --> 00:25.642
+looks just like y equals x squared,
+
+00:25.642 --> 00:28.502
+until we get to x equals three.
+
+00:28.502 --> 00:31.243
+And instead of it being three squared,
+
+00:31.243 --> 00:33.111
+at this point you have this opening,
+
+00:33.111 --> 00:35.893
+and instead the function at
+three is defined at four.
+
+00:35.893 --> 00:37.420
+But then it keeps going
+and it looks just like
+
+00:37.420 --> 00:39.543
+y equals x squared.
+
+00:39.543 --> 00:42.163
+This is known as a point,
+
+00:42.163 --> 00:44.663
+or a removable, discontinuity.
+
+00:45.834 --> 00:47.523
+And it's called that for obvious reasons.
+
+00:47.523 --> 00:49.821
+You're discontinuous at that point.
+
+00:49.821 --> 00:52.665
+You might imagine defining
+or redefining the function
+
+00:52.665 --> 00:54.747
+at that point so it is continuous,
+
+00:54.747 --> 00:57.853
+so that this discontinuity is removable.
+
+00:57.853 --> 01:00.140
+But then how does this
+relate to our definition
+
+01:00.140 --> 01:01.833
+of continuity?
+
+01:01.833 --> 01:05.243
+Well, let's remind ourselves
+our definition of continuity.
+
+01:05.243 --> 01:07.772
+We say f is continuous,
+
+01:07.772 --> 01:08.689
+continuous,
+
+01:10.156 --> 01:11.406
+if and only if,
+
+01:12.266 --> 01:14.343
+or let me write f continuous
+
+01:14.343 --> 01:17.010
+at x equals c, if and only if
+
+01:18.094 --> 01:20.594
+the limit as x approaches c
+
+01:21.750 --> 01:26.565
+of f of x is equal to the
+actual value of the function
+
+01:26.565 --> 01:28.739
+when x is equal to c.
+
+01:28.739 --> 01:30.714
+So why does this one fail?
+
+01:30.714 --> 01:33.460
+Well, the two-sided limit actually exists.
+
+01:33.460 --> 01:37.232
+You could find, if we say
+c in this case is three,
+
+01:37.232 --> 01:38.708
+the limit
+
+01:38.708 --> 01:40.708
+as x approaches three
+
+01:41.637 --> 01:42.470
+of f of x,
+
+01:43.703 --> 01:46.412
+it looks like, and if you
+graphically inspect this,
+
+01:46.412 --> 01:48.679
+and I actually know this is the
+graph of y equals x squared,
+
+01:48.679 --> 01:51.410
+except at that discontinuity
+right over there,
+
+01:51.410 --> 01:54.066
+this is equal to nine.
+
+01:54.066 --> 01:57.511
+But the issue is, the way
+this graph has been depicted,
+
+01:57.511 --> 02:00.342
+this is not the same thing
+as the value of the function.
+
+02:00.342 --> 02:01.909
+This function
+
+02:01.909 --> 02:04.864
+f of three, the way it's been graphed,
+
+02:04.864 --> 02:07.890
+f of three is equal to four.
+
+02:07.890 --> 02:11.305
+So this is a situation where
+this two-sided limit exists,
+
+02:11.305 --> 02:14.679
+but it's not equal to the
+value of that function.
+
+02:14.679 --> 02:16.594
+You might see other
+circumstances where the function
+
+02:16.594 --> 02:18.144
+isn't even defined there,
+
+02:18.144 --> 02:20.144
+so that isn't even there.
+
+02:20.144 --> 02:22.391
+And so, once again, the limit might exist,
+
+02:22.391 --> 02:24.437
+but the function might
+not be defined there.
+
+02:24.437 --> 02:28.273
+So, in either case, you aren't
+going to meet this criteria
+
+02:28.273 --> 02:29.523
+for continuity.
+
+02:30.427 --> 02:34.153
+And so that's how a point
+or removable discontinuity,
+
+02:34.153 --> 02:36.169
+why it is discontinuous
+
+02:36.169 --> 02:40.770
+with regards to our limit
+definition of continuity.
+
+02:40.770 --> 02:43.281
+So now let's look at this second example.
+
+02:43.281 --> 02:45.924
+If we looked at our
+intuitive continuity test,
+
+02:45.924 --> 02:48.629
+if we would just try to trace this thing,
+
+02:48.629 --> 02:52.461
+we see that once we get to x equals two,
+
+02:52.461 --> 02:55.139
+I have to pick up my
+pencil to keep tracing it.
+
+02:55.139 --> 02:58.222
+And so that's a pretty good
+sign that we are discontinuous.
+
+02:58.222 --> 03:00.512
+We see that over here as well.
+
+03:00.512 --> 03:03.595
+If I'm tracing this function,
+I gotta pick up my pencil to,
+
+03:03.595 --> 03:04.518
+I can't go to that point.
+
+03:04.518 --> 03:06.018
+I have to jump down here,
+
+03:06.018 --> 03:07.681
+and then keep going right over there.
+
+03:07.681 --> 03:09.686
+So in either case I have
+to pick up my pencil.
+
+03:09.686 --> 03:12.355
+And so, intuitively, it is discontinuous.
+
+03:12.355 --> 03:14.934
+But this particular type of discontinuity,
+
+03:14.934 --> 03:17.381
+where I am making a jump from one point,
+
+03:17.381 --> 03:19.584
+and then I'm making a jump
+down here to continue,
+
+03:19.584 --> 03:22.379
+it is intuitively called a jump
+
+03:22.379 --> 03:23.546
+discontinuity,
+
+03:24.432 --> 03:25.599
+discontinuity.
+
+03:27.754 --> 03:31.245
+And this is, of course, a
+point removable discontinuity.
+
+03:31.245 --> 03:33.775
+And so how does this relate to limits?
+
+03:33.775 --> 03:37.704
+Well, here, the left and
+right-handed limits exist,
+
+03:37.704 --> 03:39.242
+but they're not the same thing,
+
+03:39.242 --> 03:41.925
+so you don't have a two-sided limit.
+
+03:41.925 --> 03:45.566
+So, for example, for
+this one in particular,
+
+03:45.566 --> 03:48.580
+for all the x-values up to
+and including x equals two,
+
+03:48.580 --> 03:51.022
+this is the graph of y equals x squared.
+
+03:51.022 --> 03:53.159
+And then for x greater than two,
+
+03:53.159 --> 03:55.179
+it's the graph of square root of x.
+
+03:55.179 --> 03:57.059
+So in this scenario,
+
+03:57.059 --> 03:59.417
+if you were to take the limit
+
+03:59.417 --> 04:00.250
+of f of x
+
+04:01.502 --> 04:03.002
+as x approaches
+
+04:04.209 --> 04:05.042
+two
+
+04:06.000 --> 04:07.167
+from the left,
+
+04:08.191 --> 04:09.570
+from the left,
+
+04:09.570 --> 04:11.010
+this is going to be equal to four,
+
+04:11.010 --> 04:12.192
+you're approaching this value.
+
+04:12.192 --> 04:14.683
+And that actually is the
+value of the function.
+
+04:14.683 --> 04:18.598
+But if you were to take the
+limit as x approaches two
+
+04:18.598 --> 04:20.995
+from the right of f of x,
+
+04:20.995 --> 04:22.881
+what is that going to be equal to?
+
+04:22.881 --> 04:24.070
+Well, approaching from the right,
+
+04:24.070 --> 04:25.534
+this is actually the square root of x,
+
+04:25.534 --> 04:28.606
+so it's approaching
+the square root of two.
+
+04:28.606 --> 04:29.714
+You wouldn't know it's
+the square root of two
+
+04:29.714 --> 04:30.716
+just by looking at this.
+
+04:30.716 --> 04:32.417
+I know that, just because when I,
+
+04:32.417 --> 04:34.394
+when I went on to Desmos
+and defined the function,
+
+04:34.394 --> 04:36.157
+that's the function that I used.
+
+04:36.157 --> 04:37.842
+But it's clear even visually
+
+04:37.842 --> 04:39.586
+that you're approaching
+two different values
+
+04:39.586 --> 04:41.066
+when you approach from the left
+
+04:41.066 --> 04:42.770
+than when you approach from the right.
+
+04:42.770 --> 04:44.917
+So even though the one-sided limits exist,
+
+04:44.917 --> 04:46.401
+they're not approaching the same thing,
+
+04:46.401 --> 04:48.230
+so the two-sided limit doesn't exist.
+
+04:48.230 --> 04:49.850
+And if the two-sided limit doesn't exist,
+
+04:49.850 --> 04:51.541
+it for sure cannot be equal to the value
+
+04:51.541 --> 04:54.508
+of the function there, even
+if the function is defined.
+
+04:54.508 --> 04:58.744
+So that's why the jump
+discontinuity is failing this test.
+
+04:58.744 --> 04:59.885
+Now, once again, it's intuitive.
+
+04:59.885 --> 05:01.459
+You're seeing that, hey, I gotta jump,
+
+05:01.459 --> 05:02.546
+I gotta pick up my pencil.
+
+05:02.546 --> 05:06.158
+These two things are not
+connected to each other.
+
+05:06.158 --> 05:08.752
+Finally, what you see here is,
+
+05:08.752 --> 05:10.000
+when you learned precalculus,
+
+05:10.000 --> 05:13.617
+often known as an
+asymptotic discontinuity,
+
+05:13.617 --> 05:14.534
+asymptotic,
+
+05:17.462 --> 05:19.124
+asymptotic
+
+05:19.124 --> 05:20.291
+discontinuity,
+
+05:21.508 --> 05:22.675
+discontinuity.
+
+05:23.780 --> 05:27.525
+And, intuitively, you
+have an asymptote here.
+
+05:27.525 --> 05:30.388
+It's a vertical asymptote at x equals two.
+
+05:30.388 --> 05:33.602
+If I were to try to trace the graph
+
+05:33.602 --> 05:34.855
+from the left,
+
+05:34.855 --> 05:36.803
+I would just keep on going.
+
+05:36.803 --> 05:40.134
+In fact, I would be doing
+it forever, 'cause it's,
+
+05:40.134 --> 05:42.126
+it would be infinitely,
+
+05:42.126 --> 05:44.484
+it would be unbounded as
+I get closer and closer
+
+05:44.484 --> 05:46.332
+to x equals two from the left.
+
+05:46.332 --> 05:48.936
+And if try to get to x
+equals two from the right,
+
+05:48.936 --> 05:51.132
+once again I get unbounded up.
+
+05:51.132 --> 05:52.757
+But even if I could,
+
+05:52.757 --> 05:55.067
+and when I say it's unbounded,
+it goes to infinity,
+
+05:55.067 --> 05:57.317
+so it's actually impossible
+
+05:58.634 --> 06:02.367
+in a mortal's lifespan to
+try to trace the whole thing.
+
+06:02.367 --> 06:04.418
+But you get the sense that,
+hey, there's no way that I could
+
+06:04.418 --> 06:08.656
+draw from here to here
+without picking up my pencil.
+
+06:08.656 --> 06:12.466
+And if you wanna relate it
+to our notion of limits,
+
+06:12.466 --> 06:13.715
+it's that
+
+06:13.715 --> 06:16.930
+both the left and right-handed
+limits are unbounded,
+
+06:16.930 --> 06:18.398
+so they officially don't exist.
+
+06:18.398 --> 06:21.675
+So if they don't exist, then
+we can't meet these conditions.
+
+06:21.675 --> 06:23.076
+So if I were to say,
+
+06:23.076 --> 06:24.363
+the limit
+
+06:24.363 --> 06:28.450
+as x approaches two from the
+left-hand side of f of x,
+
+06:28.450 --> 06:31.053
+we can see that it goes unbounded
+in the negative direction.
+
+06:31.053 --> 06:33.352
+You might sometimes see someone
+write something like this,
+
+06:33.352 --> 06:34.601
+negative infinity.
+
+06:34.601 --> 06:36.975
+But that's a little
+handwavy with the math.
+
+06:36.975 --> 06:41.010
+The more correct way to say
+it is it's just unbounded,
+
+06:41.010 --> 06:42.617
+unbounded.
+
+06:42.617 --> 06:44.920
+And, likewise, if we
+thought about the limit
+
+06:44.920 --> 06:46.751
+as x approaches two
+
+06:46.751 --> 06:48.606
+from the right
+
+06:48.606 --> 06:49.918
+of f of x,
+
+06:49.918 --> 06:52.953
+it is now unbounded
+towards positive infinity.
+
+06:52.953 --> 06:54.367
+So this, once again,
+
+06:54.367 --> 06:55.786
+this is also,
+
+06:55.786 --> 06:57.983
+this is also unbounded.
+
+06:57.983 --> 06:59.297
+And
+
+06:59.297 --> 07:01.440
+because it's unbounded and
+this limit does not exist,
+
+07:01.440 --> 07:02.631
+it can't meet these conditions.
+
+07:02.631 --> 07:04.950
+And so we are going to be discontinuous.
+
+07:04.950 --> 07:07.696
+So this is a point or
+removable discontinuity,
+
+07:07.696 --> 07:09.931
+jump discontinuity, I'm jumping,
+
+07:09.931 --> 07:12.217
+and then we have these
+asymptotes, a vertical asymptote.
+
+07:12.217 --> 07:15.045
+This is an asymptotic discontinuity.

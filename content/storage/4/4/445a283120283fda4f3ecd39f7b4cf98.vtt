@@ -1,0 +1,428 @@
+WEBVTT
+
+00:00.680 --> 00:04.500
+Let's say that I have
+a 100 meter long wire.
+
+00:04.500 --> 00:07.230
+So that is my wire
+right over there.
+
+00:07.230 --> 00:09.850
+And it is 100 meters.
+
+00:09.850 --> 00:14.270
+And I'm going to make a
+cut someplace on this wire.
+
+00:14.270 --> 00:17.180
+And so let's say I make
+the cut right over there.
+
+00:17.180 --> 00:18.760
+With the left
+section of wire-- I'm
+
+00:18.760 --> 00:21.760
+going to obviously cut it in
+two-- with the left section,
+
+00:21.760 --> 00:24.185
+I'm going to construct
+an equilateral triangle.
+
+00:27.250 --> 00:30.575
+And with the right section, I'm
+going to construct a square.
+
+00:33.670 --> 00:36.250
+And my question
+for you and for me
+
+00:36.250 --> 00:39.230
+is, where do we make
+this cut in order
+
+00:39.230 --> 00:43.440
+to minimize the combined
+areas of this triangle
+
+00:43.440 --> 00:46.620
+and this square?
+
+00:46.620 --> 00:47.730
+Well, let's figure out.
+
+00:47.730 --> 00:50.240
+Let's define a variable that
+we're trying to minimize,
+
+00:50.240 --> 00:53.770
+or that we're trying to
+optimize with respect to.
+
+00:53.770 --> 00:57.350
+So let's say that the variable
+x is the number of meters
+
+00:57.350 --> 00:59.180
+that we decide to
+cut from the left.
+
+00:59.180 --> 01:02.750
+So if we did that, then
+this length for the triangle
+
+01:02.750 --> 01:05.880
+would be x meters, and
+the length for the square
+
+01:05.880 --> 01:09.500
+would be, well, if we use x
+up for the left hand side,
+
+01:09.500 --> 01:14.505
+we're going to have 100 minus
+x for the right hand side.
+
+01:14.505 --> 01:17.130
+And so what would the dimensions
+of the triangle and the square
+
+01:17.130 --> 01:17.790
+be?
+
+01:17.790 --> 01:23.220
+Well, the triangle sides are
+going to be x over 3, x over 3,
+
+01:23.220 --> 01:26.090
+and x over 3 as an
+equilateral triangle.
+
+01:26.090 --> 01:32.260
+And the square is going
+to be 100 minus x over 4
+
+01:32.260 --> 01:36.690
+by 100 minus x over 4.
+
+01:36.690 --> 01:38.810
+Now it's easy to figure
+out an expression
+
+01:38.810 --> 01:42.470
+for the area of the
+square in terms of x.
+
+01:42.470 --> 01:45.290
+But let's think about what the
+area of an equilateral triangle
+
+01:45.290 --> 01:48.800
+might be as a function of
+the length of its sides.
+
+01:48.800 --> 01:51.440
+So let me do a little bit
+of an aside right over here.
+
+01:51.440 --> 01:53.575
+So let's say we have an
+equilateral triangle.
+
+01:57.500 --> 01:58.350
+Just like that.
+
+01:58.350 --> 02:02.950
+And its sides are
+length s, s, and s.
+
+02:02.950 --> 02:07.130
+Now we know that the
+area of a triangle
+
+02:07.130 --> 02:14.010
+is 1/2 times the base
+times the height.
+
+02:14.010 --> 02:15.510
+So in this case,
+the height we could
+
+02:15.510 --> 02:18.400
+consider to be altitude, if we
+were to drop an altitude just
+
+02:18.400 --> 02:19.460
+like this.
+
+02:19.460 --> 02:23.510
+This length right over
+here, this is the height.
+
+02:23.510 --> 02:26.410
+And this would be
+perpendicular, just like that.
+
+02:26.410 --> 02:33.410
+So our area is going to be equal
+to one half times our base is
+
+02:33.410 --> 02:34.230
+s.
+
+02:34.230 --> 02:39.320
+1/2 times s times whatever our
+height is, times our height.
+
+02:39.320 --> 02:43.940
+Now how can we express
+h as a function of s?
+
+02:43.940 --> 02:46.430
+Well, to do that we just
+have to remind ourselves
+
+02:46.430 --> 02:52.540
+that what we've drawn over
+here is a right triangle.
+
+02:52.540 --> 02:56.480
+It's the left half of
+this equilateral triangle.
+
+02:56.480 --> 03:00.840
+And we know what this bottom
+side of this right triangle is.
+
+03:00.840 --> 03:03.980
+This altitude splits this
+side exactly into two.
+
+03:03.980 --> 03:07.190
+So this right over here
+has length s over 2.
+
+03:07.190 --> 03:09.020
+So to figure out what
+h is, we could just
+
+03:09.020 --> 03:10.830
+use the Pythagorean theorem.
+
+03:10.830 --> 03:15.925
+We would have h squared
+plus s over 2 squared plus s
+
+03:15.925 --> 03:18.980
+over 2 squared is going to
+be equal to the hypotenuse
+
+03:18.980 --> 03:22.240
+squared, is going to
+be equal to s squared.
+
+03:22.240 --> 03:26.090
+So you would get h squared
+plus s squared over 4
+
+03:26.090 --> 03:27.760
+is equal to s squared.
+
+03:27.760 --> 03:30.450
+Subtract s squared
+over 4 from both sides,
+
+03:30.450 --> 03:37.082
+and you get h squared is equal s
+squared minus s squared over 4.
+
+03:37.082 --> 03:38.970
+Now, to do this I could
+call it s squared.
+
+03:38.970 --> 03:43.170
+I could call this
+4s squared over 4,
+
+03:43.170 --> 03:45.120
+just to be able to have
+a common denominator.
+
+03:45.120 --> 03:48.330
+And 4s squared minus
+s squared over 4
+
+03:48.330 --> 03:51.435
+is going to be equal
+to 3s squared over 4.
+
+03:51.435 --> 03:56.010
+So we get h squared is
+equal to 3s squared over 4.
+
+03:56.010 --> 03:58.890
+Now we can take the
+principal root of both sides,
+
+03:58.890 --> 04:00.790
+and we get h is equal
+to the square root
+
+04:00.790 --> 04:04.230
+of 3 times s over 2.
+
+04:04.230 --> 04:07.140
+So now we can just substitute
+back right over here
+
+04:07.140 --> 04:09.960
+and we get our area.
+
+04:09.960 --> 04:13.900
+Our area is equal
+to 1/2 s times h.
+
+04:13.900 --> 04:15.020
+Well h is this business.
+
+04:15.020 --> 04:16.779
+So it's s times this.
+
+04:16.779 --> 04:23.590
+So it's 1/2 times s times the
+square root of 3s over 2, which
+
+04:23.590 --> 04:26.260
+is going to be equal to
+s times s is s squared.
+
+04:26.260 --> 04:28.230
+So this is going to
+be square root of 3
+
+04:28.230 --> 04:32.630
+s squared over 2 times 2 over 4.
+
+04:32.630 --> 04:35.090
+So this is the area of
+an equilateral triangle
+
+04:35.090 --> 04:38.371
+as the function of the
+length of its sides.
+
+04:38.371 --> 04:40.370
+So what's the area of
+this business going to be?
+
+04:40.370 --> 04:42.470
+So the area of our little
+equilateral triangle--
+
+04:42.470 --> 04:44.110
+let me write a combined area.
+
+04:44.110 --> 04:46.100
+And let me do that
+in a neutral color.
+
+04:46.100 --> 04:48.720
+So let me do that in white.
+
+04:48.720 --> 04:51.370
+So the combined
+area, I'll write it
+
+04:51.370 --> 04:57.700
+A sub c is going to be equal
+to the area of my triangle
+
+04:57.700 --> 05:03.910
+A sub t plus the
+area of my square.
+
+05:03.910 --> 05:07.087
+Well, the area of my triangle,
+we know what it's going to be.
+
+05:07.087 --> 05:09.170
+It's going to be square
+root of 3 times the length
+
+05:09.170 --> 05:11.370
+of a side squared divided by 4.
+
+05:11.370 --> 05:13.150
+So it's going to be
+square root of 3.
+
+05:13.150 --> 05:16.050
+Let me do that in that
+same yellow color.
+
+05:16.050 --> 05:19.920
+It's going to be-- make
+sure I switch colors.
+
+05:19.920 --> 05:24.900
+It's going to be square root of
+3 over 4 times a side squared,
+
+05:24.900 --> 05:33.350
+times x over 3 squared.
+
+05:33.350 --> 05:36.356
+All I did is the length
+of a side is x over 3.
+
+05:36.356 --> 05:37.730
+We already know
+what the area is.
+
+05:37.730 --> 05:39.380
+It's the square root of
+3 over 4 times the length
+
+05:39.380 --> 05:40.345
+of a side squared.
+
+05:43.590 --> 05:45.930
+And then the area
+of this square right
+
+05:45.930 --> 05:47.880
+over here, the
+area of the square
+
+05:47.880 --> 05:55.320
+is just going to be 100
+minus x over 4 squared.
+
+05:55.320 --> 05:57.840
+So our area, our combined
+area-- and maybe I
+
+05:57.840 --> 05:59.590
+can write it like
+this-- our combined area
+
+05:59.590 --> 06:03.800
+as a function of where we make
+the cut is all of this business
+
+06:03.800 --> 06:05.090
+right over here.
+
+06:05.090 --> 06:09.400
+And this is what we
+need to minimize.
+
+06:09.400 --> 06:15.670
+So we need to minimize
+that right over there.
+
+06:15.670 --> 06:18.620
+And I will do that
+in the next video.

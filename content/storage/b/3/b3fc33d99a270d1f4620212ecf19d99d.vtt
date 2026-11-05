@@ -1,0 +1,711 @@
+WEBVTT
+
+00:00.431 --> 00:02.430
+Nyní už umíme mocninové pravidlo
+a viděli jsme
+
+00:02.430 --> 00:04.670
+v minulém videu,
+že derivace podle proměnné x,
+
+00:04.670 --> 00:10.190
+z 'x' na n-tou, bude rovna
+n krát x na (n minus 1)
+
+00:10.190 --> 00:14.590
+pro 'n' různá od 0.
+
+00:14.590 --> 00:18.347
+Myslel jsem si, že bych vám mohl
+vysvětlit další pravidla
+
+00:18.347 --> 00:20.680
+nebo vlastnosti derivací,
+které nám umožní
+
+00:20.680 --> 00:22.860
+zderivovat jakýkoli mnohočlen.
+
+00:22.860 --> 00:24.784
+Tohle jsou velmi důležité věci.
+
+00:24.784 --> 00:26.880
+První věc, u které bych
+se rád pozastavil:
+
+00:26.880 --> 00:31.420
+proč právě pro 'n'
+různá od 0?
+
+00:31.420 --> 00:33.750
+Co by se stalo,
+pokud by 'n' bylo rovné 0?
+
+00:33.750 --> 00:35.350
+Pojďme o tom chvíli
+popřemýšlet.
+
+00:35.350 --> 00:40.080
+Zkusme zderivovat
+'x' na nultou
+
+00:40.080 --> 00:42.860
+podle proměnné x.
+
+00:42.860 --> 00:46.690
+Co je vlastně 'x' na nultou?
+
+00:46.690 --> 00:49.430
+A můžeme, v tomto konkrétním případě,
+předpokládat,
+
+00:49.430 --> 00:50.640
+že 'x' je různé od 0.
+
+00:50.640 --> 00:53.800
+0 na nultou,
+to je podivný případ.
+
+00:53.800 --> 00:55.600
+Ale pokud je 'x' různé od 0,
+čemu se potom
+
+00:55.600 --> 00:57.512
+rovná 'x' na nultou?
+
+00:57.512 --> 00:59.970
+Je to vlastně stejné,
+jako když zderivujete 'x',
+
+00:59.970 --> 01:02.350
+které je rovno 1
+(tedy konstantu).
+
+01:02.350 --> 01:05.069
+'x' na nultou je rovné 1.
+
+01:05.069 --> 01:10.050
+Co dělat, pokud chceme
+zderivovat 'x', které se rovná 1?
+
+01:10.050 --> 01:13.020
+K odpovědění otázky
+vám to načrtnu.
+
+01:13.020 --> 01:16.030
+Nakreslím graf funkce
+'x se rovná 1'
+
+01:16.030 --> 01:17.170
+pro zjednodušení.
+
+01:17.170 --> 01:19.540
+Toto je osa y.
+
+01:19.540 --> 01:23.480
+A toto je osa x.
+
+01:23.480 --> 01:26.520
+A načrtnu 'y se rovná 1', neboli
+'f(x) se rovná 1'.
+
+01:26.520 --> 01:28.230
+Tady máme 1.
+Funkce proměnné x,
+
+01:28.230 --> 01:31.350
+kde 'x' je rovno 1,
+je horizontální přímka.
+
+01:31.350 --> 01:33.120
+Takže toto zde je graf
+
+01:33.120 --> 01:38.870
+y se rovná f(x),
+což se rovná 1.
+
+01:38.870 --> 01:41.260
+Jeden z možných výkladů
+derivace říká,
+
+01:41.260 --> 01:44.810
+že derivace je směrnice tečny
+v jakémkoli bodě.
+
+01:44.810 --> 01:48.040
+Jaká je tedy směrnice tečny
+v tomto bodě?
+
+01:48.040 --> 01:50.370
+Obecně, jaký je sklon
+tečny ve všech bodech?
+
+01:50.370 --> 01:52.710
+Vzhledem k tomu, že jde o přímku,
+směrnice se nemění.
+
+01:52.710 --> 01:53.970
+Zde máme
+konstantní směrnici.
+
+01:53.970 --> 01:55.293
+Jde o horizontální přímku.
+
+01:55.293 --> 01:57.500
+Sklon je nulový.
+
+01:57.500 --> 01:59.570
+Tedy ve všech bodech
+
+01:59.570 --> 02:02.760
+bude směrnice rovná 0.
+
+02:02.760 --> 02:06.420
+Směrnice naší přímky
+bude v každém bodě
+
+02:06.420 --> 02:09.470
+rovněž rovná 0.
+
+02:09.470 --> 02:11.800
+Obecně to platí pro
+jakoukoli konstantu.
+
+02:11.800 --> 02:14.720
+Mějme funkci f proměnné x,
+
+02:14.720 --> 02:16.150
+kde 'x' je rovno 3.
+
+02:16.150 --> 02:19.580
+Nechť 'y' je rovno 3.
+
+02:19.580 --> 02:22.720
+Čemu je rovná derivace
+funkce y
+
+02:22.720 --> 02:24.080
+podle proměnné x?
+
+02:24.080 --> 02:27.210
+Záměrně vám ukážu
+
+02:27.210 --> 02:29.440
+různé možnosti zápisu derivace.
+
+02:29.440 --> 02:31.620
+Takže, jaká je derivace
+y podle proměnné x?
+
+02:31.620 --> 02:33.730
+Také to může být napsáno
+jako 'y' s čárkou.
+
+02:33.730 --> 02:36.610
+Čemu se to bude rovnat?
+
+02:36.610 --> 02:39.290
+Bude to směrnice v jakémkoliv bodě.
+
+02:39.290 --> 02:41.660
+Vidíme, že nezáleží na tom,
+jaké 'x' hledáme,
+
+02:41.660 --> 02:43.580
+směrnice tam bude 0.
+
+02:43.580 --> 02:45.140
+Takže, derivace bude 0.
+
+02:45.140 --> 02:46.790
+To neplatí jen pro 'x' na nultou.
+
+02:46.790 --> 02:48.400
+Když máte derivaci konstanty,
+
+02:48.400 --> 02:50.095
+dostanete 0.
+
+02:50.095 --> 02:50.970
+Takže to napíšu.
+
+02:50.970 --> 02:54.600
+Derivace podle 'x' jakékoliv konstanty...
+
+02:54.600 --> 03:00.790
+Takže řekněme, že A je pouze konstanta,
+
+03:00.790 --> 03:02.720
+se bude rovnat 0.
+
+03:02.720 --> 03:05.010
+Je to celkem jasné.
+
+03:05.010 --> 03:08.040
+Pojďme se podívat na další vlastnosti.
+
+03:08.040 --> 03:11.370
+Řekněme, že chci derivaci
+
+03:11.370 --> 03:15.380
+podle 'x' z toho samého A.
+
+03:15.380 --> 03:18.465
+Mám konstantu vynásobenou
+nějakou funkcí.
+
+03:21.040 --> 03:23.090
+Pro tento případ
+derivace fungují dobře.
+
+03:23.090 --> 03:26.070
+Můžete vzít tento
+malý skalární násobitel,
+
+03:26.070 --> 03:28.500
+tu malou konstantu,
+a dát ji před derivaci.
+
+03:28.500 --> 03:34.590
+Takže se to bude rovnat A...
+
+03:34.590 --> 03:36.230
+(Nechtěl jsem použít tuto fialovou.)
+
+03:36.230 --> 03:47.040
+Takže se to bude rovnat
+A krát derivace f(x).
+
+03:47.150 --> 03:50.470
+(Napíšu to modrou barvou.)
+
+03:50.470 --> 03:52.860
+Další způsob,
+
+03:52.860 --> 03:55.110
+jak zapsat derivaci f(x), je:
+
+03:55.110 --> 03:59.270
+Toto se rovná A krát
+tohle napravo,
+
+03:59.270 --> 04:04.020
+což to přesně to samé
+jako f'(x).
+
+04:04.020 --> 04:06.890
+Tohle může vypadat
+jako příliš vyšperkovaný zápis,
+
+04:06.890 --> 04:08.390
+ale myslím, že po příkladu
+
+04:08.390 --> 04:09.950
+to začne dávat smyl.
+
+04:09.950 --> 04:14.380
+Takže, co kdybych se vás zeptal
+na derivaci
+
+04:14.380 --> 04:28.210
+podle 'x' z (2 krát x na pátou)?
+
+04:28.210 --> 04:30.420
+Tato vlastnost,
+kterou jsem zrovna vyložil,
+
+04:30.420 --> 04:32.560
+říká, že toto bude
+to samé jako
+
+04:32.560 --> 04:40.010
+2 krát derivace z (x na pátou).
+
+04:40.010 --> 04:43.330
+2 krát derivace podle 'x'
+z (x na pátou).
+
+04:43.330 --> 04:45.740
+V podstatě jsem mohl
+vzít tento skalár
+
+04:45.740 --> 04:48.160
+a dát ho před derivaci.
+
+04:48.160 --> 04:50.060
+Takže tady vpravo
+je derivace
+
+04:50.060 --> 04:53.180
+podle 'x'
+z (x na pátou).
+
+04:53.180 --> 04:55.390
+To umíme vyřešit pomocí
+pravidla o derivaci mocnin.
+
+04:55.390 --> 04:59.350
+Takže to se bude rovnat...
+2 krát... Jen to napíšu.
+
+04:59.350 --> 05:01.600
+Chci používat
+stejné barvy.
+
+05:01.600 --> 05:05.540
+Bude se to rovnat
+2 krát derivace (x na pátou).
+
+05:05.540 --> 05:07.400
+Pravidlo o derivaci mocnin
+nám říká, že 'n' je 5.
+
+05:07.400 --> 05:10.990
+Takže to bude 5x
+na (5 minus 1) neboli
+
+05:10.990 --> 05:12.620
+5x na čtvrtou.
+
+05:12.620 --> 05:17.130
+Takže to bude
+5x na čtvrtou,
+
+05:17.130 --> 05:23.230
+což se rovná
+2 krát 5 je 10, x na čtvrtou.
+
+05:23.230 --> 05:24.980
+Pro 2x na pátou tedy
+můžete říct,
+
+05:24.980 --> 05:26.771
+ok, mocninné pravidlo říká,
+
+05:26.771 --> 05:28.160
+že derivace je 5x na čtvrtou.
+
+05:28.160 --> 05:30.180
+5 krát 2 je 10.
+
+05:30.180 --> 05:32.710
+To nám dost
+zjednoduší život.
+
+05:32.710 --> 05:35.126
+Díky pravidlu o mocninách
+a této vlastnosti
+
+05:35.126 --> 05:36.500
+umíme spočítat derivaci
+
+05:36.500 --> 05:39.910
+ve tvaru Ax na
+nějaké 'n'.
+
+05:39.910 --> 05:41.900
+Zaměřme se nyní na
+jinou velice užitečnou
+
+05:41.900 --> 05:42.770
+vlastnost derivace.
+
+05:42.770 --> 05:44.644
+A ta se netýká pouze
+pravidla o mocninách,
+
+05:44.644 --> 05:45.940
+platí pro všechny derivace.
+
+05:45.940 --> 05:47.610
+Zejména je užitečná
+pro pravidlo mocnin,
+
+05:47.610 --> 05:50.130
+protože nám dovoluje
+sestavit mnohočleny
+
+05:50.130 --> 05:51.570
+a počítat jejich derivace.
+
+05:51.570 --> 05:53.070
+Ale kdybych měl
+počítat derivaci
+
+05:53.070 --> 05:56.120
+ze součtu dvou funkcí...
+Takže derivaci...
+
+05:56.120 --> 05:58.870
+Řekněme, že je jedna funkce
+f(x) a pak
+
+05:58.870 --> 06:02.620
+druhá g(x).
+
+06:02.620 --> 06:04.700
+Naštěstí pro nás,
+toto je
+
+06:04.700 --> 06:06.630
+to samé jako
+derivace funkce f(x)
+
+06:06.630 --> 06:09.220
+plus derivace
+funkce g(x).
+
+06:09.220 --> 06:12.130
+Takže je to
+stejná věc jako f...
+
+06:12.130 --> 06:14.980
+Vlastně, použiju tady ten derivační
+operátor, aby to bylo jasné.
+
+06:14.980 --> 06:17.890
+Je to stejná věc jako
+derivace podle 'x'
+
+06:17.890 --> 06:21.760
+z funkce f(x) plus
+derivace podle 'x'
+
+06:21.760 --> 06:24.250
+z funkce g(x).
+
+06:24.250 --> 06:27.340
+Teď dáme f(x) sem
+
+06:27.340 --> 06:32.270
+a g(x) dáme sem.
+
+06:32.270 --> 06:33.870
+A tak s použitím
+druhého zápisu
+
+06:33.870 --> 06:36.260
+můžeme říct,
+že to bude stejné.
+
+06:36.260 --> 06:40.440
+Derivace podle 'x' z funkce f(x),
+což napíšeme jako
+
+06:40.440 --> 06:41.790
+f'(x).
+
+06:41.790 --> 06:45.810
+A derivaci podle 'x'
+z funkce g(x)
+
+06:45.810 --> 06:49.650
+napíšeme jako
+g'(x).
+
+06:49.650 --> 06:53.131
+Teď vám to znovu může
+připadat jako příliš krkolomný zápis.
+
+06:53.140 --> 06:56.740
+Ale až uvidíte příklad,
+bude to vám zápis jasný.
+
+06:56.740 --> 07:00.470
+Když chci spočítat
+derivaci podle 'x',
+
+07:00.470 --> 07:06.180
+řekněme z
+(x na třetí
+
+07:06.180 --> 07:12.600
+plus x na minus čtvrtou),
+tak už víme,
+
+07:12.600 --> 07:15.330
+že derivace součtu
+
+07:15.330 --> 07:16.960
+je stejná jako součet derivací.
+
+07:16.960 --> 07:20.200
+Takže dostaneme derivaci tohoto
+výrazu pomocí pravidla o mocninách.
+
+07:20.200 --> 07:23.660
+Takže to bude 3x na druhou.
+
+07:23.660 --> 07:26.140
+A k tomu můžeme přičíst
+derivaci tohoto
+
+07:26.140 --> 07:27.460
+tady napravo.
+
+07:27.460 --> 07:29.580
+Takže to bude...
+
+07:29.580 --> 07:33.830
+(To je jiný odstín modré...)
+A tady je -4.
+
+07:33.830 --> 07:40.720
+Takže, plus -4 krát
+x na (-4 minus 1),
+
+07:40.720 --> 07:44.010
+neboli x na minus pátou.
+
+07:44.010 --> 07:46.490
+Takže máme... Mohl bych
+to trochu zjednodušit.
+
+07:46.490 --> 07:51.020
+Toto bude rovno
+3x na druhou
+
+07:51.020 --> 07:56.060
+minus 4x na minus pátou.
+
+07:56.060 --> 08:00.050
+Takže teď máme všechny
+nástroje, které potřebujeme,
+
+08:00.050 --> 08:03.290
+abychom uměli získat
+derivaci libovolného mnohočlenu.
+
+08:03.290 --> 08:05.730
+Takže pojďme to procvičit.
+
+08:05.730 --> 08:11.820
+Řekněme, že mám...
+(A napíšu to bílou.)
+
+08:11.820 --> 08:15.400
+Řekněme, že funkce
+f(x) se rovná
+
+08:15.400 --> 08:25.970
+2x na třetí minus 7x na druhou
+plus 3x minus 100.
+
+08:25.970 --> 08:27.810
+Jaká je první derivace f podle 'x'?
+
+08:27.810 --> 08:32.017
+Čemu se derivace f podle 'x'
+bude rovnat?
+
+08:32.017 --> 08:34.100
+Použijeme vlastnosti,
+které jsme probrali.
+
+08:34.100 --> 08:35.599
+Derivace z tohoto se bude rovnat
+
+08:35.599 --> 08:38.208
+2 krát derivace z
+'x' na třetí.
+
+08:38.208 --> 08:40.500
+Derivace z 'x' na třetí
+bude 3x na druhou,
+
+08:40.500 --> 08:44.840
+takže to bude
+2 krát 3x na druhou.
+
+08:44.840 --> 08:47.930
+Čemu se rovná
+derivace z -7x na druhou?
+
+08:47.940 --> 08:50.430
+Bude to -7 krát
+
+08:50.430 --> 08:55.080
+derivace z 'x' na druhou,
+což je 2x.
+
+08:55.080 --> 08:57.837
+Čemu se rovná
+derivace z 3x?
+
+08:57.837 --> 09:00.170
+Bude to
+3 krát derivace z 'x',
+
+09:00.170 --> 09:02.710
+neboli 3 krát derivace
+z 'x' na prvou.
+
+09:02.710 --> 09:04.720
+Derivace z 'x' na prvou
+je prostě 1.
+
+09:04.720 --> 09:07.890
+Takže to bude
+plus 3 krát...
+
+09:07.890 --> 09:11.000
+Můžeme říct 1x na nultou...
+... ale to je prostě 1.
+
+09:11.000 --> 09:14.500
+Nakonec, čemu se
+rovná derivace
+
+09:14.500 --> 09:15.240
+konstanty?
+
+09:15.240 --> 09:17.890
+Napíšu to jinou barvou.
+
+09:17.890 --> 09:20.402
+Čemu se rovná
+derivace konstanty?
+
+09:20.402 --> 09:22.610
+To jsme probrali
+na začátku tohoto videa.
+
+09:22.610 --> 09:24.390
+Derivace jakékoli konstanty
+
+09:24.390 --> 09:27.990
+se rovná 0,
+takže plus 0.
+
+09:27.990 --> 09:30.960
+Teď můžeme začít se
+zjednodušováním.
+
+09:30.960 --> 09:33.610
+Derivace f bude
+
+09:33.610 --> 09:36.920
+2 krát 3x na druhou,
+což je 6x na druhou.
+
+09:36.920 --> 09:41.900
+-7 krát 2x je
+-14x, plus 3.
+
+09:41.900 --> 09:43.720
+Tu nulu psát nemusíme.
+
+09:43.720 --> 09:44.630
+A máme hotovo!
+
+09:44.630 --> 09:47.404
+Takže teď ovládáme
+všechny nástroje
+
+09:47.404 --> 09:49.070
+pro nalezení derivací
+mnohočlenů
+
+09:49.070 --> 09:52.490
+a vlastně i věcí,
+které mnohočleny přesahují.

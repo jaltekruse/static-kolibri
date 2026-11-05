@@ -1,0 +1,447 @@
+WEBVTT
+
+00:00.141 --> 00:02.061
+- So I have an infinite series, here.
+
+00:02.061 --> 00:04.861
+The sum from n equals zero
+to infinity of negative one
+
+00:04.861 --> 00:07.921
+to the n power times x to the sixth n
+
+00:07.921 --> 00:11.141
+over two n, the whole two n, factorial.
+
+00:11.141 --> 00:16.141
+And my goal in this video is
+to evaluate this power series
+
+00:17.441 --> 00:21.961
+when x is equal to the
+cubed root of pi over two.
+
+00:21.961 --> 00:24.361
+And I encourage you to pause this video
+
+00:24.361 --> 00:26.141
+and give it a go on your own.
+
+00:26.141 --> 00:27.621
+And I will give you a hint.
+
+00:27.621 --> 00:29.841
+The key to this is to figure out,
+
+00:29.841 --> 00:32.101
+well what function is
+this the power series for?
+
+00:32.101 --> 00:35.041
+and then use that
+function to evaluate this.
+
+00:35.041 --> 00:37.001
+And there's another clue here, hey,
+
+00:37.001 --> 00:39.441
+this is kind of a
+mysterious or a suspicious
+
+00:39.441 --> 00:41.201
+looking number, here, pi over two.
+
+00:41.201 --> 00:42.841
+That looks like something I would use
+
+00:42.841 --> 00:45.941
+a trig function to evaluate.
+
+00:45.941 --> 00:47.801
+That might be a little
+bit more straightforward.
+
+00:47.801 --> 00:50.201
+So I'll let you have a go at it.
+
+00:51.078 --> 00:52.582
+So I'm assuming you have tried,
+
+00:52.582 --> 00:54.202
+so let's try to work
+through this together.
+
+00:54.202 --> 00:56.642
+And in any of these types of problems
+
+00:56.642 --> 01:00.202
+I like to at least expand
+out this power series
+
+01:00.202 --> 01:02.443
+so I get a better sense of what it's like.
+
+01:02.828 --> 01:04.643
+So this right over here,
+if I were to expand it out,
+
+01:04.643 --> 01:06.763
+this is going to be
+equal to when n is zero,
+
+01:06.763 --> 01:09.803
+this is one, actually,
+all of these are one,
+
+01:09.803 --> 01:11.043
+so it's just going to be one.
+
+01:11.043 --> 01:12.983
+When n is one, this is going to be
+
+01:12.983 --> 01:15.123
+negative one, x to the sixth,
+
+01:15.123 --> 01:18.143
+x to the sixth over two factorial.
+
+01:18.143 --> 01:21.363
+when n is two, it's going to be positive.
+
+01:21.363 --> 01:23.223
+negative one squared is positive one,
+
+01:23.223 --> 01:28.023
+times x to the 12th over four factorial.
+
+01:28.023 --> 01:30.963
+and then let's just do one
+more: when x is equal to three,
+
+01:30.963 --> 01:34.364
+it's going to be negative x to the 18th.
+
+01:35.054 --> 01:39.567
+x to the 18th over six factorial.
+
+01:39.567 --> 01:41.367
+And you just keep going on and on forever.
+
+01:41.367 --> 01:45.187
+Now, offhand, I don't know a function,
+
+01:45.187 --> 01:46.707
+especially a trigonometric function,
+
+01:46.707 --> 01:48.187
+because that was kind of our clue here,
+
+01:48.187 --> 01:50.227
+this pi over two makes me feel like
+
+01:50.227 --> 01:53.667
+this might be a trigonometric
+function right over here
+
+01:53.667 --> 01:55.847
+Nothing jumps out at me offhand,
+
+01:55.847 --> 01:59.747
+but this does look suspiciously familiar.
+
+01:59.747 --> 02:03.567
+This looks awfully close
+to the power series,
+
+02:03.567 --> 02:05.927
+or the Maclaurin Series for cosine of x.
+
+02:05.927 --> 02:08.347
+Which we have seen multiple times.
+
+02:08.347 --> 02:10.387
+Let's just remind
+ourselves of what that is.
+
+02:10.387 --> 02:11.607
+And if this doesn't look familiar,
+
+02:11.607 --> 02:14.447
+the previous video where
+I do the Maclaurin Series
+
+02:14.447 --> 02:17.367
+for cosine of x goes into
+detail on how I get this.
+
+02:17.367 --> 02:22.367
+The Maclaurin Series for
+cosine of x is equal to...
+
+02:22.667 --> 02:23.627
+So I'll just write a few terms,
+
+02:23.627 --> 02:25.147
+so I'll write approximately equal to
+
+02:25.147 --> 02:29.567
+one minus x squared over two factorial,
+
+02:29.567 --> 02:34.567
+plus x to the fourth over four factorial,
+
+02:36.027 --> 02:40.847
+minus x to the sixth over six factorial,
+
+02:40.847 --> 02:43.527
+and just like that you're
+probably seeing the similarities.
+
+02:43.527 --> 02:45.447
+Well the first term is the same,
+
+02:45.447 --> 02:47.447
+the sign negative, positive,
+negative, positive,
+
+02:47.447 --> 02:49.127
+negative, positive, negative, positive.
+
+02:49.127 --> 02:51.887
+two factorial, four
+factorial, six factorial.
+
+02:51.887 --> 02:54.667
+The difference is the powers,
+
+02:54.667 --> 02:56.387
+the exponents on the x.
+
+02:56.387 --> 02:58.327
+This is x squared, this is x to the sixth.
+
+02:58.327 --> 03:00.667
+This is x to the fourth,
+that's x to the 12th.
+
+03:00.667 --> 03:03.847
+This is x to the sixth,
+that's x to the 18th.
+
+03:05.154 --> 03:06.804
+Well, what if we...
+
+03:06.804 --> 03:09.328
+I guess, something for
+you to think about is,
+
+03:09.328 --> 03:12.888
+well, how can we replace
+x with something here?
+
+03:12.888 --> 03:14.028
+Because anything that I change,
+
+03:14.028 --> 03:15.568
+if I take cosine of...
+
+03:15.568 --> 03:18.028
+if I change x to, I don't know, a plus b,
+
+03:18.028 --> 03:20.308
+everywhere we see an x, you'd
+replace it with an a plus b.
+
+03:20.308 --> 03:23.048
+Can we put a power of x here,
+
+03:23.048 --> 03:26.321
+so that these things end up like that?
+
+03:27.491 --> 03:30.742
+well, this x to the
+sixth is the same thing,
+
+03:32.371 --> 03:35.892
+as x to the third squared.
+
+03:35.892 --> 03:37.852
+That's x to the third squared.
+
+03:37.852 --> 03:39.672
+This right over here, x to the 12th,
+
+03:39.672 --> 03:42.552
+is the same thing as x to the
+third to the fourth power.
+
+03:42.552 --> 03:45.092
+This right over here is the same thing as
+
+03:45.092 --> 03:47.572
+x to the third to the sixth power.
+
+03:47.572 --> 03:51.292
+So if we could replace each of
+these xs with x to the thirds
+
+03:51.292 --> 03:54.372
+we will get this power series up here.
+
+03:54.372 --> 03:55.292
+Well, how do we do that?
+
+03:55.292 --> 03:58.052
+Well, we would just say the
+cosine of x to the third
+
+03:58.052 --> 04:00.021
+and actually let me do
+that in a different color.
+
+04:01.052 --> 04:03.352
+So the cosine, and that's
+not a different color.
+
+04:04.521 --> 04:09.072
+So the cosine of x to the
+third is going to be equal to,
+
+04:09.963 --> 04:11.399
+and once again, everywhere we see an x,
+
+04:11.399 --> 04:12.536
+we replace it with x to the third.
+
+04:12.536 --> 04:14.936
+So it's one minus, and actually,
+
+04:14.936 --> 04:17.497
+I'm just going to put in
+parenthesis squared, two factorial.
+
+04:17.497 --> 04:19.539
+I wanted to do that in the green,
+
+04:19.539 --> 04:21.572
+let me do all this in the green.
+
+04:21.572 --> 04:23.437
+Alright, so it's gonna be equal to:
+
+04:23.437 --> 04:27.617
+one minus parenthesis
+squared over two factorial
+
+04:27.617 --> 04:31.917
+plus parenthesis to the fourth
+power over four factorial.
+
+04:31.917 --> 04:36.777
+minus parenthesis to the
+sixth power over 6 factorial.
+
+04:36.777 --> 04:39.697
+And now let me change
+back to that mauve color.
+
+04:39.697 --> 04:42.117
+And since I'm taking the
+cosine of x to the third,
+
+04:42.117 --> 04:44.537
+well this is gonna be
+x to the third squared.
+
+04:44.537 --> 04:47.157
+this is gonna be x to the
+third to the fourth power.
+
+04:47.157 --> 04:49.197
+this is gonna be x to the
+third to the sixth power.
+
+04:49.197 --> 04:52.577
+Which is exactly what
+I have right over here.
+
+04:52.577 --> 04:55.477
+So this right over here
+is the power series
+
+04:55.477 --> 04:57.777
+for cosine of x to the third.
+
+04:57.777 --> 05:00.957
+So evaluating this when x is equal to
+
+05:00.957 --> 05:02.517
+the cubed root of pi over two,
+
+05:02.517 --> 05:04.477
+is the same thing as evaluating this
+
+05:04.477 --> 05:06.857
+when x is equal to the
+cubed root of pi over two.
+
+05:06.857 --> 05:08.798
+Let me write that down,
+because this is interesting.
+
+05:08.798 --> 05:13.798
+So this, so I'll just rewrite
+it, from n equals zero
+
+05:14.861 --> 05:18.360
+to infinity of negative one to the n
+
+05:18.360 --> 05:23.360
+of x to the sixth n over two n factorial.
+
+05:23.840 --> 05:28.120
+This is equal to, this is the
+power series representation,
+
+05:28.120 --> 05:32.160
+of cosine of x to the third power.
+
+05:33.144 --> 05:34.160
+So if you want to evaluate this
+
+05:34.160 --> 05:35.680
+when x is the cubed root of pi over two,
+
+05:35.680 --> 05:36.720
+we just have to evaluate this
+
+05:36.720 --> 05:38.240
+when x is the cubed root of pi over two.
+
+05:38.240 --> 05:40.943
+And this does suspiciously
+work out nicely,
+
+05:40.943 --> 05:42.903
+because if you take the
+cube of the cubed root,
+
+05:42.903 --> 05:44.403
+well, good things happen.
+
+05:44.403 --> 05:49.403
+So the cosine of the
+cubed root of pi over two
+
+05:53.467 --> 05:55.663
+to the third power, well
+that's just the same thing
+
+05:55.663 --> 05:58.063
+as cosine of pi over two,
+
+05:58.063 --> 06:03.063
+which, of course, is equal to zero.
+
+06:03.843 --> 06:07.843
+And we are done.

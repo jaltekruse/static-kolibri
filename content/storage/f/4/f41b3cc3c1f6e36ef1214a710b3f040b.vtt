@@ -1,0 +1,496 @@
+WEBVTT
+
+00:00.670 --> 00:03.010
+Ta có phương trình x bình
+
+00:03.010 --> 00:04.975
+cộng y bình = 1.
+
+00:04.975 --> 00:07.120
+Mình nghĩ ta có thể gọi nó là 1 mối quan hệ.
+
+00:07.120 --> 00:10.200
+Và nếu ta vẽ các điểm x và y
+
+00:10.200 --> 00:12.220
+thỏa mãn mối quan hệ này,
+
+00:12.220 --> 00:15.884
+ta có hình tròn đơn vị như thế này.
+
+00:15.884 --> 00:17.550
+Điều mình tò mò trong video này là
+
+00:17.550 --> 00:20.170
+làm sao ta có thể tìm ra hệ số góc của đường tiếp tuyến
+
+00:20.170 --> 00:23.260
+tại bất kì điểm nào của hình tròn đơn vị này.
+
+00:23.260 --> 00:26.350
+Và điều mà bạn nghĩ đến ngay lập tức trong đầu là,
+
+00:26.350 --> 00:29.710
+nếu mà hình tròn được xác định theo cách này, thì nó không phải là 1 hàm số.
+
+00:29.710 --> 00:32.890
+Nó không phải là y được định nghĩa tường minh bởi 1 hàm số của x.
+
+00:32.890 --> 00:37.140
+Với bất kì giá trị x, ta có thể có 2 giá trị y
+
+00:37.140 --> 00:40.800
+thỏa mãn mối quan hệ này.
+
+00:40.800 --> 00:43.480
+Vậy, bạn có thể muốn tách cái này
+
+00:43.480 --> 00:46.450
+thành 2 hàm số x riêng biệt.
+
+00:46.450 --> 00:51.530
+Bạn có thể nói y = căn bậc 2 của 1
+
+00:51.530 --> 00:52.970
+trừ x bình.
+
+00:52.970 --> 00:57.550
+Và bạn có thể nói y = trừ căn bậc 2 của 1
+
+00:57.550 --> 00:59.020
+trừ x bình.
+
+00:59.020 --> 01:01.530
+Lấy đạo hàm của từng cái riêng biệt.
+
+01:01.530 --> 01:05.317
+và bạn có thể tìm ra đạo hàm của bất kì x nào,
+
+01:05.317 --> 01:07.400
+hoặc đạo hàm của hệ số góc của đường tiếp tuyến
+
+01:07.400 --> 01:08.622
+tại điểm bất kỳ.
+
+01:08.622 --> 01:10.080
+Nhưng điều mình muốn làm trong video này là
+
+01:10.080 --> 01:12.970
+thật sự tận dụng quy tắc đạo hàm hàm hợp
+
+01:12.970 --> 01:15.060
+để lấy vi phân tìm đạo hàm.
+
+01:15.060 --> 01:17.850
+Như vậy, mình không phải xác định y 1 cách tường minh
+
+01:17.850 --> 01:20.434
+là 1 hàm số của x ngược lại.
+
+01:20.434 --> 01:22.100
+Và điều ta làm là thật sự chỉ
+
+01:22.100 --> 01:26.360
+áp dụng đạo hàm theo biến x cho cả 2 bên của phương trình này.
+
+01:26.360 --> 01:30.100
+Và sau đó áp dụng những gì ta biết về quy tắc đạo hàm hàm hợp.
+
+01:30.100 --> 01:32.970
+Bởi vì ta không định nghĩa tường minh y
+
+01:32.970 --> 01:35.790
+là 1 hàm số của x, và không lấy y tường minh
+
+01:35.790 --> 01:38.130
+bằng f phẩy của x, ta gọi
+
+01:38.130 --> 01:41.450
+cái này, thực chất chỉ là ứng dụng của quy tắc đạo hàm hàm hợp.
+
+01:41.450 --> 01:47.610
+là phép lấy vi phân tìm đạo hàm.
+
+01:47.610 --> 01:50.440
+Điều mình muốn bạn luôn luôn ghi nhớ
+
+01:50.440 --> 01:52.730
+là nó chỉ là
+
+01:52.730 --> 01:54.440
+sự ứng dụng của quy tắc đạo hàm hàm hợp.
+
+01:54.440 --> 01:57.710
+Hãy áp dụng đạo hàm theo x cho cả 2 vế của nó.
+
+01:57.710 --> 01:59.210
+Vậy nó là đạo hàm với x
+
+01:59.210 --> 02:08.220
+của x bình cộng y bình, bên tay trái
+
+02:08.220 --> 02:10.270
+của phương trình của ta.
+
+02:10.270 --> 02:13.020
+Nó sẽ bằng với đạo hàm
+
+02:13.020 --> 02:15.790
+của x bên tay phải.
+
+02:15.790 --> 02:17.810
+Mình chỉ đang làm tương tự với
+
+02:17.810 --> 02:22.190
+cả 2 vế của phương trình.
+
+02:22.190 --> 02:25.660
+Bây giờ, mình lấy đạo hàm của tổng 2 số hạng,
+
+02:25.660 --> 02:28.090
+nó giống với lấy tổng của đạo hàm.
+
+02:28.090 --> 02:29.631
+Vậy cái này sẽ bằng với
+
+02:29.631 --> 02:33.860
+đạo hàm với x của x bình,
+
+02:33.860 --> 02:38.180
+cộng đạo hàm với x của y bình.
+
+02:38.180 --> 02:40.329
+Mình sẽ viết những phần màu cam trước.
+
+02:40.329 --> 02:40.870
+Xem nào.
+
+02:40.870 --> 02:43.914
+Cái này sẽ là x bình, cái này sẽ là y bình.
+
+02:43.914 --> 02:46.080
+Và cái này sẽ bằng đạo hàm
+
+02:46.080 --> 02:47.660
+với x của 1 hằng số.
+
+02:47.660 --> 02:49.650
+Nó sẽ không đổi với x.
+
+02:49.650 --> 02:52.530
+Nên ta có 0.
+
+02:52.530 --> 02:54.260
+Số hạng đầu tiên ở ngay đây,
+
+02:54.260 --> 02:56.720
+ta đã làm rất rất nhiều lần rồi.
+
+02:56.720 --> 02:58.674
+Đạo hàm này với x của x bình
+
+02:58.674 --> 03:00.890
+sẽ chỉ là quy tắc lũy thừa thôi.
+
+03:00.890 --> 03:03.030
+Nó sẽ là 2 nhân x mũ 1.
+
+03:03.030 --> 03:04.930
+Ta có thể nói 2x.
+
+03:04.930 --> 03:08.690
+Bây giờ, điều thú vị là cái mình đang làm ngay đây.
+
+03:08.690 --> 03:12.900
+Đạo hàm với x của y bình.
+
+03:12.900 --> 03:17.209
+Điều ta nhận ra là chỉ áp dụng quy tắc đạo hàm hàm hợp.
+
+03:17.209 --> 03:19.000
+Nếu ta lấy đạo hàm
+
+03:19.000 --> 03:22.410
+với x của cái gì đó, ta chỉ lấy
+
+03:22.410 --> 03:24.930
+đạo hàm , để mình làm rõ,
+
+03:24.930 --> 03:27.690
+ta sẽ chỉ lấy đạo hàm của cái gì đó.
+
+03:27.690 --> 03:31.380
+Mình lấy đạo hàm đối với y của y bình.
+
+03:31.380 --> 03:36.270
+bạn có thể xem nó như 1 hàm số, với y
+
+03:36.270 --> 03:41.760
+và sau đó, nhân nó với đạo hàm của y
+
+03:41.760 --> 03:43.600
+đối với x.
+
+03:43.600 --> 03:47.170
+Ta đang giả sử y thay đổi với x.
+
+03:47.170 --> 03:49.020
+y không phải là 1 hằng số mà ta
+
+03:49.020 --> 03:51.260
+chỉ ghi dưới dạng trừu tượng.
+
+03:51.260 --> 03:53.530
+Vậy ta lấy đạo hàm của toàn bộ cái này
+
+03:53.530 --> 03:56.530
+với y.
+
+03:56.530 --> 03:58.780
+Một lần nữa, quy tắc đạo hàm hàm hợp.
+
+03:58.780 --> 04:01.210
+Sau đó, ta lấy đạo hàm của y
+
+04:01.210 --> 04:04.479
+với x.
+
+04:04.479 --> 04:06.770
+Nó có thể rõ hơn 1 chút nếu bạn nghĩ
+
+04:06.770 --> 04:13.560
+nó như đạo hàm của y đối với x.
+
+04:13.560 --> 04:16.395
+và y là hàm số của x.
+
+04:17.860 --> 04:21.647
+Hoặc là y là 1 hàm số của x bình,
+
+04:21.647 --> 04:24.230
+bản chất nó là cách ghi khác mà ta có ở đây.
+
+04:24.230 --> 04:25.820
+Nó có thể rõ hơn 1 chút
+
+04:25.820 --> 04:27.640
+dưới dạng quy tắc đạo hàm hàm hợp.
+
+04:27.640 --> 04:29.840
+Đạo hàm của y là hàm số
+
+04:29.840 --> 04:33.000
+của x bình đối với y.
+
+04:33.000 --> 04:37.140
+Vậy đạo hàm của cái gì đó bình với
+
+04:37.140 --> 04:40.740
+cái đó, nhân đạo hàm của nó.
+
+04:40.740 --> 04:42.030
+với x.
+
+04:42.030 --> 04:43.580
+Nó chỉ là quy tắc đạo hàm hàm hợp.
+
+04:43.580 --> 04:46.770
+Mình muốn nhắc đi nhắc lại.
+
+04:46.770 --> 04:49.860
+Nó chỉ là quy tắc đạo hàm hàm hợp.
+
+04:49.860 --> 04:50.690
+Vậy hãy làm nó nhé.
+
+04:50.690 --> 04:52.710
+Ta sẽ có gì phía bên tay phải này?
+
+04:52.710 --> 04:54.420
+Mình sẽ viết nó sang đây.
+
+04:54.420 --> 04:56.860
+Nó sẽ bằng với đạo hàm của y bình
+
+04:56.860 --> 05:03.030
+với y, sẽ chỉ là 2 nhân y.
+
+05:03.030 --> 05:05.690
+chỉ là ứng dụng của quy tắc đạo hàm hàm hợp.
+
+05:05.690 --> 05:07.550
+Và đạo hàm của y với x?
+
+05:07.550 --> 05:08.955
+Ta không biết nó là gì.
+
+05:08.955 --> 05:11.330
+Vậy ta chỉ để nó là nhân với đạo hàm
+
+05:11.330 --> 05:14.974
+của y với x.
+
+05:14.974 --> 05:16.640
+Hãy chỉ ghi nó xuống ở đây.
+
+05:16.640 --> 05:25.640
+Ta có 2x cộng đạo hàm của cái gì đó bình
+
+05:25.640 --> 05:27.389
+với cái đó,
+
+05:27.389 --> 05:28.230
+là 2 nhân
+
+05:28.230 --> 05:29.160
+chính nó.
+
+05:29.160 --> 05:32.310
+Trong trường hợp này, nó là y, vậy 2 nhân y.
+
+05:32.310 --> 05:38.410
+Sau đó, nhân đạo hàm của y với x.
+
+05:38.410 --> 05:43.030
+Và tất cả cái này sẽ bằng 0.
+
+05:43.030 --> 05:44.720
+Nó thú vị đấy chứ.
+
+05:44.720 --> 05:47.490
+Bây giờ, ta có phương trình có đạo hàm
+
+05:47.490 --> 05:49.567
+của y với x ở trong đó.
+
+05:49.567 --> 05:51.650
+Và cái này thực chất là điều mình muốn giải.
+
+05:51.650 --> 05:55.180
+Nó là hệ số góc của đường tiếp tuyến tại điểm bất kì.
+
+05:55.180 --> 05:57.370
+Vậy tất cả những gì mình nên làm tại điểm này là tìm
+
+05:57.370 --> 05:59.720
+đạo hàm của y với x.
+
+05:59.720 --> 06:01.360
+Giải phương trình này.
+
+06:01.360 --> 06:02.310
+Hãy làm thôi.
+
+06:02.310 --> 06:04.900
+Thật ra, để cho ta làm tất cả cái này
+
+06:04.900 --> 06:08.860
+trên 1 trang để ta biết ta bắt đầu từ đầu, mình sẽ sao chép
+
+06:08.860 --> 06:11.070
+và dán nó ở đây.
+
+06:11.070 --> 06:12.730
+Đây là chỗ mình đang làm dở.
+
+06:12.730 --> 06:14.620
+Và hãy bắt đầu từ đó.
+
+06:14.620 --> 06:17.540
+Hãy trừ 2x cho cả 2 vế.
+
+06:17.540 --> 06:22.220
+Để cho ta còn lại với 2y nhân đạo hàm của y,
+
+06:22.220 --> 06:25.920
+với x, sẽ bằng với, ta đang trừ 2x
+
+06:25.920 --> 06:30.021
+cho cả 2 vế, nó sẽ bằng trừ 2x.
+
+06:30.021 --> 06:32.270
+Và nếu ta thật sự muốn tìm đạo hàm của y
+
+06:32.270 --> 06:36.300
+với x, ta có thể chỉ chia 2 vế cho 2y.
+
+06:39.810 --> 06:42.840
+Và ta còn lại đạo hàm của y
+
+06:42.840 --> 06:43.930
+với x.
+
+06:43.930 --> 06:45.340
+Hãy kéo xuống 1 chút.
+
+06:45.340 --> 06:47.540
+Đạo hàm của y với x
+
+06:47.540 --> 06:51.930
+sẽ bằng với, số 2 bị triệt tiêu.
+
+06:51.930 --> 06:59.070
+Ta còn lại trừ x trên y.
+
+06:59.070 --> 07:00.410
+Cái này thú vị đây.
+
+07:00.410 --> 07:02.980
+Ta không cần phải xác định tường minh y
+
+07:02.980 --> 07:04.550
+là hàm số của x ở đây.
+
+07:04.550 --> 07:08.710
+Nhưng ta có đạo hàm của ta dưới dạng của x và y.
+
+07:08.710 --> 07:10.740
+Không những chỉ là dưới dạng của x.
+
+07:10.740 --> 07:12.190
+Nhưng nó có nghĩa là gi?
+
+07:12.190 --> 07:14.660
+Nếu ta muốn tìm, giả sử
+
+07:14.660 --> 07:18.980
+ta muốn tìm đạo hàm tại điểm này
+
+07:18.980 --> 07:20.172
+ở ngay đây.
+
+07:20.172 --> 07:22.130
+Nếu bạn đã quen với hình tròn đơn vị,
+
+07:22.130 --> 07:25.950
+vậy nó là góc 45 độ.
+
+07:25.950 --> 07:28.610
+Nó sẽ là căn bậc 2 của 2 trên 2, phẩy
+
+07:28.610 --> 07:31.090
+căn bậc 2 của 2 trên 2.
+
+07:31.090 --> 07:33.830
+Hệ số góc của đường tiếp tuyến đó là gì?
+
+07:33.830 --> 07:34.830
+Ta đã tìm ra nó rồi.
+
+07:34.830 --> 07:38.480
+Nó sẽ là trừ x trên y.
+
+07:38.480 --> 07:46.985
+Vậy, hệ số góc của đường tiếp tuyến này,
+
+07:46.985 --> 07:49.050
+sẽ bằng trừ x.
+
+07:49.050 --> 07:53.930
+Vậy trừ căn bậc 2 của 2 trên 2 trên y.
+
+07:53.930 --> 07:57.990
+trên căn bậc 2 của 2 trên 2, là bằng trừ 1.
+
+07:57.990 --> 08:01.580
+Nó trông đúng đấy.

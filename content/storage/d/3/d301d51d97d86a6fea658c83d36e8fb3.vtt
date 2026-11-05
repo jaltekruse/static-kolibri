@@ -1,0 +1,453 @@
+WEBVTT
+
+00:00.609 --> 00:01.893
+- [Voiceover] We've used the definite
+
+00:01.893 --> 00:04.037
+integral to find areas.
+
+00:04.037 --> 00:05.867
+What I want to do now is to see if we can
+
+00:05.867 --> 00:09.406
+use the definitive role
+to find an arc length.
+
+00:09.406 --> 00:10.934
+What do I mean by that?
+
+00:10.934 --> 00:15.291
+Well, if I start at this point
+on the graph of a function,
+
+00:15.291 --> 00:17.663
+and if I were to go at
+this point right over here,
+
+00:17.663 --> 00:19.625
+not a straight line, we
+know already how to find
+
+00:19.625 --> 00:22.287
+the distance in the straight
+line but instead we want
+
+00:22.287 --> 00:24.719
+to find the distance along the curve.
+
+00:24.719 --> 00:26.566
+If we lay a string along the curve,
+
+00:26.566 --> 00:28.562
+what would be the
+distance right over here?
+
+00:28.562 --> 00:33.312
+That's what I'm talking
+about by arc length.
+
+00:33.312 --> 00:36.138
+What we could think about it
+is okay, that's going to be
+
+00:36.138 --> 00:41.138
+from x equals a to x
+equals b along this curve.
+
+00:43.451 --> 00:45.077
+So how can we do it?
+
+00:45.077 --> 00:48.377
+Well, the one thing that
+integration, integral calculus is
+
+00:48.377 --> 00:49.990
+teaching us is that when we see something
+
+00:49.990 --> 00:52.122
+that's changing like
+this, what we could do is
+
+00:52.122 --> 00:55.397
+we can break it up into
+infinitely small parts.
+
+00:55.397 --> 00:57.694
+Infinitely small parts
+that we can approximately
+
+00:57.694 --> 01:00.275
+with things like lines and
+rectangles, and then we could
+
+01:00.275 --> 01:04.081
+take the infinite sum of
+those infinitely small parts.
+
+01:04.081 --> 01:06.974
+So let me break up my arc length.
+
+01:06.974 --> 01:09.194
+Let me break it up into infinitely
+
+01:09.194 --> 01:11.982
+small sections of arc length.
+
+01:11.982 --> 01:14.252
+Let me call each of those
+infinitely small sections
+
+01:14.252 --> 01:18.428
+of my arc length a, I
+guess I could say a length
+
+01:18.428 --> 01:23.209
+to differential, an arc length
+to differential, I call it ds.
+
+01:23.209 --> 01:25.607
+I'll draw it a much bigger
+that when I at least
+
+01:25.607 --> 01:27.351
+I conceptualize what a differential is,
+
+01:27.351 --> 01:28.902
+just so that we could see it.
+
+01:28.902 --> 01:31.366
+What do I mean by breaking
+it up into these ds's?
+
+01:31.366 --> 01:33.059
+Well, if that's the ds,
+
+01:33.059 --> 01:34.762
+and then let me do the
+others in other colors,
+
+01:34.762 --> 01:39.762
+that's another infinitely
+small change in my arc length.
+
+01:40.554 --> 01:42.710
+Another infinitely small
+change in my arc length.
+
+01:42.710 --> 01:46.623
+If I summed all of these ds's together,
+
+01:46.623 --> 01:48.473
+I'm going to get the arc length.
+
+01:48.473 --> 01:52.873
+The arc length, if I take
+is going to be the integral
+
+01:52.873 --> 01:57.873
+of all of these ds's sum
+together over this integral
+
+01:58.937 --> 02:01.782
+so we can denote it like this.
+
+02:01.782 --> 02:03.216
+But this doesn't help me right now.
+
+02:03.216 --> 02:06.798
+This is in terms of this arc
+length that's differential.
+
+02:06.798 --> 02:10.127
+We do know how to do things
+in terms of dx's and dy's.
+
+02:10.127 --> 02:11.305
+Let's see if we can re-express this
+
+02:11.305 --> 02:14.258
+in terms of dx's and dy's.
+
+02:14.258 --> 02:16.067
+If we go on a really, really small scale,
+
+02:16.067 --> 02:17.556
+once again, we can approximate.
+
+02:17.556 --> 02:20.066
+This is going to be a line.
+
+02:20.066 --> 02:21.425
+We just the way that we approximated
+
+02:21.425 --> 02:22.857
+area with rectangles at first.
+
+02:22.857 --> 02:24.049
+But if we have an infinite number
+
+02:24.049 --> 02:26.146
+of infinite small
+rectangles, we're actually
+
+02:26.146 --> 02:29.553
+approximating a non-rectangular region.
+
+02:29.553 --> 02:31.113
+The area on a non-rectangular region.
+
+02:31.113 --> 02:32.861
+Similarly, we're approximating with lines
+
+02:32.861 --> 02:35.258
+with the infinitely small
+and there's infinite number
+
+02:35.258 --> 02:38.222
+of them, you are actually
+finding the length of the curve.
+
+02:38.222 --> 02:42.599
+Well, just focusing on
+this is a line for now.
+
+02:42.599 --> 02:43.945
+This distance right over
+here, I'm just going
+
+02:43.945 --> 02:47.019
+to try express in terms of dx's and dy's.
+
+02:47.019 --> 02:50.581
+So this distance right
+over here, that's dx.
+
+02:50.581 --> 02:54.143
+You can do this as
+infinitely small change in x,
+
+02:54.143 --> 02:58.189
+and this distance right
+over here, this is a dy.
+
+02:58.189 --> 03:00.920
+Once again, I'm being
+loosey-goosey with differentials.
+
+03:00.920 --> 03:02.218
+Really giving you
+conceptual understanding,
+
+03:02.218 --> 03:04.697
+not a reader's proof, but
+it'll give you a sense
+
+03:04.697 --> 03:08.156
+of where the formula for arc
+length is actually coming from.
+
+03:08.156 --> 03:12.649
+Based on this, you can see
+the ds could be expressed
+
+03:12.649 --> 03:15.932
+based on the Pythagorean
+Theorem as equal to dx squared
+
+03:15.932 --> 03:19.271
+plus dy squared, or you could rewrite this
+
+03:19.271 --> 03:22.336
+as square root of dx
+squared plus dy squared.
+
+03:22.336 --> 03:24.443
+So we could rewrite this.
+
+03:24.443 --> 03:29.051
+We could say this is the same
+thing as the integral of,
+
+03:29.051 --> 03:31.365
+instead of writing ds,
+I'm going to write it
+
+03:31.365 --> 03:36.365
+as the square root of dx
+squared plus dy squared.
+
+03:45.328 --> 03:48.960
+Once again, this is straight
+out of the Pythagorean Theorem.
+
+03:48.960 --> 03:50.304
+Now this is starting to get interesting.
+
+03:50.304 --> 03:52.140
+I've written in terms of dx's and dy's
+
+03:52.140 --> 03:53.065
+but they're getting squared.
+
+03:53.065 --> 03:54.032
+They're under radical sign.
+
+03:54.032 --> 03:56.064
+What can I do to simplify this?
+
+03:56.064 --> 04:00.358
+Or at least write it in a way
+that I know how to integrate.
+
+04:00.358 --> 04:03.946
+Well, I could factor out a dx squared,
+
+04:03.946 --> 04:04.865
+so let me just rewrite it.
+
+04:04.865 --> 04:06.207
+This is going to be the same thing
+
+04:06.207 --> 04:10.952
+as the integral of the square root.
+
+04:10.952 --> 04:13.181
+I'm going to factor out the dx squared,
+
+04:13.181 --> 04:18.181
+dx squared times one
+plus dy over dx squared.
+
+04:24.384 --> 04:27.256
+Notice this, and this
+is exact same quantity.
+
+04:27.256 --> 04:29.597
+If I distribute this dx squared,
+
+04:29.597 --> 04:31.618
+I'm going to get this right up here.
+
+04:31.618 --> 04:34.526
+Now I can take the dx
+squared out of the radical.
+
+04:34.526 --> 04:39.526
+So this is going to be the integral of,
+
+04:39.668 --> 04:42.806
+let me write that in the white color,
+
+04:42.806 --> 04:47.806
+the integral of one plus dy, dx squared.
+
+04:48.041 --> 04:50.356
+This is interesting because
+we know what dy, dx is.
+
+04:50.356 --> 04:52.979
+This is the derivative of our function,
+
+04:52.979 --> 04:56.117
+dy, dx squared.
+
+04:56.117 --> 04:58.062
+If you take the dx squared
+out of the radical,
+
+04:58.062 --> 05:00.917
+the square root of dx squared
+is just going to be dx.
+
+05:00.917 --> 05:04.637
+This is just going to be dx.
+
+05:04.638 --> 05:06.636
+This is just going to be dx.
+
+05:06.636 --> 05:08.114
+Now this is really
+interesting because we know
+
+05:08.114 --> 05:10.643
+how to find this between two bounds.
+
+05:10.643 --> 05:13.455
+We can now take the
+definitive role from a to b.
+
+05:13.455 --> 05:16.641
+This is now we are
+integrating a bunch of dx's
+
+05:16.641 --> 05:20.499
+or we're integrating with respect to x.
+
+05:20.499 --> 05:23.308
+We could say, "Okay, x
+equals a to x equals b."
+
+05:23.308 --> 05:25.108
+Let's take the sum of the product
+
+05:25.108 --> 05:28.966
+of this expression and
+dx, and this is essential.
+
+05:28.966 --> 05:31.786
+This is the formula for arc length.
+
+05:31.786 --> 05:33.116
+The formula for arc length.
+
+05:33.116 --> 05:34.601
+This looks complicated.
+
+05:34.601 --> 05:35.883
+In the next video, we'll
+see there's actually
+
+05:35.883 --> 05:37.113
+fairly straight forward to apply
+
+05:37.113 --> 05:39.130
+although sometimes in math gets airy.
+
+05:39.130 --> 05:41.061
+If you wanted to write this in
+slightly different notation,
+
+05:41.061 --> 05:46.061
+you could write this as equal
+to the integral from a to b,
+
+05:46.433 --> 05:51.433
+x equals a to x equals b of
+the square root of one plus.
+
+05:52.446 --> 05:54.622
+Instead of dy, dx, I could write it
+
+05:54.622 --> 05:59.622
+as f prime of x squared, dx.
+
+06:03.877 --> 06:06.215
+So if you know the function,
+if you know what f of x is,
+
+06:06.215 --> 06:08.776
+take the derivative of it
+with respect to x squared
+
+06:08.776 --> 06:11.517
+added to one, take the square
+root, and then multiply,
+
+06:11.517 --> 06:14.083
+and then take the definite integral
+
+06:14.083 --> 06:18.065
+of that with respect to x from a to b.
+
+06:18.065 --> 06:20.852
+We'll do that in the next video.

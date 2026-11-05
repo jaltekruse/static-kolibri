@@ -1,0 +1,185 @@
+WEBVTT
+
+00:00.480 --> 00:07.020
+Wir haben die Funktion y = 5 ⋅ 2^t.
+
+00:07.020 --> 00:25.200
+Wir sollen jetzt herausfinden, bei welchem
+t-Wert diese Funktion bzw. y = 1.111 ergibt.
+
+00:25.200 --> 00:29.340
+Ich ermutige dich, das Video zu pausieren
+und selbst darüber nachzudenken.
+
+00:29.340 --> 00:36.780
+Bei welchem t-Wert wird y ungefähr 1.111 ergeben?
+
+00:36.780 --> 00:41.560
+Du darfst einen Taschenrechner
+benutzen, wenn du ihn brauchst.
+
+00:41.560 --> 00:42.800
+Ich nehme mal an, du hast es versucht.
+
+00:42.800 --> 00:44.020
+Jetzt lösen wir es gemeinsam.
+
+00:44.020 --> 00:50.000
+Wir fragen uns, wann 5 ⋅ 2^t = 1.111 ergibt.
+
+00:50.000 --> 00:59.680
+5 ⋅ 2^t = 1.111.
+
+00:59.680 --> 01:01.420
+Wenn wir algebraisch arbeiten,
+
+01:01.420 --> 01:06.240
+ist es immer hilfreich, die Variable zu
+isolieren, nach der wir auflösen wollen.
+
+01:06.240 --> 01:10.420
+Wir wollen herausfinden, welcher t-Wert
+dafür sorgt, dass wir das hier erhalten.
+
+01:10.420 --> 01:15.660
+Als erstes wollen wir die 5 links loswerden,
+also dividieren wir die linke Seite durch 5.
+
+01:15.660 --> 01:17.880
+Wenn wir wollen, dass das eine Gleichung bleibt,
+
+01:17.880 --> 01:20.100
+müssen wir dasselbe auch rechts machen.
+
+01:20.100 --> 01:30.960
+Wir erhalten 2^t = (1.111/5).
+
+01:30.960 --> 01:34.180
+Wie lösen wir jetzt nach t auf?
+
+01:34.180 --> 01:39.260
+Welche Funktion ist quasi die
+Umkehrfunktion der Exponentialfunktion?
+
+01:39.260 --> 01:40.700
+Es ist der Logarithmus.
+
+01:40.700 --> 01:46.480
+Wenn wir sagen, dass a^b = c ist,
+
+01:46.480 --> 01:56.760
+bedeutet das, dass log_a (c) = b ist.
+
+01:56.760 --> 01:58.940
+a^b = c.
+
+01:58.940 --> 02:03.280
+log_a (c) sagt aus, welchen Exponenten
+a braucht, damit wir c erhalten.
+
+02:03.280 --> 02:06.200
+a braucht b als Exponenten, damit wir c erhalten.
+
+02:06.200 --> 02:07.880
+a^b = c.
+
+02:07.880 --> 02:11.780
+Diese beiden sind gleichwertige Aussagen.
+
+02:11.780 --> 02:17.400
+Wir nehmen log_2 von beiden Seiten dieser Gleichung.
+
+02:17.400 --> 02:27.580
+Links haben wir log_2 (2^t).
+
+02:27.580 --> 02:36.880
+Rechts haben wir log_2 (1.111/5).
+
+02:36.880 --> 02:39.180
+Was bringt uns das hier?
+
+02:39.180 --> 02:43.820
+Es sagt uns, welchen Exponenten
+2 haben muss, damit wir 2^t erhalten.
+
+02:43.820 --> 02:48.600
+Um 2^t zu erhalten, muss die 2
+natürlich t im Exponenten haben.
+
+02:48.600 --> 02:57.440
+Das hier wird nur zu t vereinfacht.
+
+02:57.440 --> 03:02.040
+Auf der rechten Seite haben wir log_2 und all das hier.
+
+03:02.040 --> 03:10.300
+t = log_2 (1.111/5).
+
+03:10.300 --> 03:13.640
+Das ist ein Ausdruck, der uns unseren t-Wert gibt.
+
+03:13.640 --> 03:16.540
+Die nächste Frage ist:
+Wie finden wir das Ergebnis heraus?
+
+03:16.540 --> 03:18.245
+Wenn du deinen Taschenrechner anschaust,
+
+03:18.245 --> 03:23.420
+siehst du, dass es keine log_2-Taste gibt.
+
+03:23.420 --> 03:25.340
+Wie berechnen wir das also?
+
+03:25.340 --> 03:30.220
+Wir müssen nur eine sehr nützliche Exponenteneigenschaft anwenden.
+
+03:30.220 --> 03:45.660
+Wenn wir log_a (c) haben,
+
+03:45.660 --> 03:56.360
+können wir es als log_x (c) / log_x (a) schreiben.
+
+03:56.360 --> 03:58.440
+Die Basen müssen nur dieselben sein.
+
+03:58.440 --> 04:03.520
+Unser Taschenrechner hat eine log-Taste,
+die für die Logarithmus-Basis 10 steht.
+
+04:03.520 --> 04:06.960
+Die ln-Taste steht für den natürlichen
+Logarithmus mit der Basis e.
+
+04:06.960 --> 04:09.020
+Ich nehme einfach die Basis 10,
+
+04:09.020 --> 04:21.220
+also ist es dasselbe wie
+(log_10 (1.111/5)) / (log_10 (2)).
+
+04:21.220 --> 04:26.400
+Wir könnten auch den natürlichen
+Logarithmus log_e verwenden,
+
+04:26.400 --> 04:28.180
+aber ich nehme einfach die log-Taste.
+
+04:28.180 --> 04:37.420
+Wir haben also log(1.111/5), das ist dieser Teil hier.
+
+04:37.420 --> 04:41.300
+Wenn wir nur log schreiben, steht es immer für log_10.
+
+04:41.300 --> 04:47.260
+Dann dividieren wir durch log(2),
+
+04:47.260 --> 04:59.220
+und erhalten ungefähr 7,796 als Ergebnis.
+
+04:59.220 --> 05:05.151
+Das ist also ungefähr 7,796.
+
+05:05.160 --> 05:11.660
+Wenn t also ungefähr diesen Wert
+annimmt, erhalten wir y = 1.111.

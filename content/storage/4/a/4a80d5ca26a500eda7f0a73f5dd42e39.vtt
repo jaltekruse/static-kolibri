@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.680 --> 00:05.800
+To co tutaj mamy to wykres y równa sie cosx.
+
+00:05.800 --> 00:07.980
+To co chcę zrobić to znaleźć pole obszaru znjdującego się
+
+00:07.980 --> 00:13.010
+pod krzywą y równa sie f(x) i powyżej osi x.
+
+00:13.010 --> 00:14.850
+Zamierzam tego dokonać na rozmaitych przedziałach.
+
+00:14.850 --> 00:18.970
+Na początek zatem rozważmy obszar pod krzywą,
+
+00:18.970 --> 00:24.715
+na odcinku od x=0 do x równego pi/2.
+
+00:28.600 --> 00:33.024
+A więc mówimy o tym obszarze tutaj.
+
+00:33.024 --> 00:35.440
+Cóż, pole tego obszaru zapisujemy jako całkę określoną w granicach od 0
+
+00:35.440 --> 00:39.800
+do pi/2 z cosx dx.
+
+00:39.800 --> 00:42.320
+I pamiętajcie, wszystko to, to pewnego rodzaju,
+
+00:42.320 --> 00:45.270
+to przypomina branie sum mnóstwa
+
+00:45.270 --> 00:49.060
+super cienkich prostokatów o szerokości dx i wysokości
+
+00:49.060 --> 00:51.751
+f(x) dla każdego z tych prostokątów.
+
+00:51.751 --> 00:53.250
+I wtedy bierzemy nieskończoną liczbę
+
+00:53.250 --> 00:55.390
+tych nieskończenie cienkich prostokątów.
+
+00:55.390 --> 00:59.000
+I to jest dokładnie to, co ten zapis próbuje zobrazować.
+
+00:59.000 --> 01:00.490
+Ale my już wiemy jak to robić.
+
+01:00.490 --> 01:03.360
+Pomoże nam treść drugiego podstawowego twierdzenae rachunku różniczkowego.
+
+01:03.360 --> 01:06.900
+Musimy jedynie znaleźć funkcje pierwotną funkcji
+
+01:06.900 --> 01:08.180
+cos(x).
+
+01:08.180 --> 01:11.090
+Czy tak naprawdę znaleźć ją z dokładnością do stałej.
+
+01:11.090 --> 01:13.150
+Policzyć jej wartość w pi/2 po czym
+
+01:13.150 --> 01:15.750
+odjąć od tejże wartość funkcji pierwotnej w 0.
+
+01:15.750 --> 01:18.110
+Zatem czym jest funkcja pierwotna cosx?
+
+01:18.110 --> 01:20.286
+Tj. z dokładnością do stałej?
+
+01:20.286 --> 01:22.160
+Cóż, wiemy, że jeśli weźmiemy pochodną-- pozwólcie, że
+
+01:22.160 --> 01:23.900
+napiszę to tutaj u góry.
+
+01:23.900 --> 01:29.920
+Wiemy, że jeśli weźmiemy pochodną funkcji sinx,
+
+01:29.920 --> 01:32.250
+to dostaniemy cosx.
+
+01:32.250 --> 01:35.520
+Zatem funkcją pierwotną cosx jest sinx.
+
+01:35.520 --> 01:38.550
+Teraz, dlaczego powtarzam, że sinx jest funkcją pierwotną jedynie z dokładnością do stałej?
+
+01:38.550 --> 01:40.820
+To nie jest po prostu funkcja pierwotna.
+
+01:40.820 --> 01:44.110
+Cóż, mógłbym także wziąć pochodną
+
+01:44.110 --> 01:48.490
+sinx plus dowolna stała
+
+01:48.490 --> 01:50.780
+i wciąż dostałbym cosx.
+
+01:50.780 --> 01:52.530
+Ponieważ pochodna stałej wynosi zero.
+
+01:52.530 --> 01:55.040
+To mogłoby być pi, to mogłoby być 5, to mogłoby być milion,
+
+01:55.040 --> 01:57.730
+to mogłoby być 10 do potęgi setnej, to mogłaby być dowolnie zwariowana liczba.
+
+01:57.730 --> 02:01.180
+A pochodna tego i tak będzię równa cosx.
+
+02:01.180 --> 02:04.840
+Zatem jeśli mówię, że musimy znaleźć funkcję pierwotną, to
+
+02:04.840 --> 02:07.810
+oznacza to, spójrzcie, wystarczy znaleźć ją z dokładnością do stałej.
+
+02:07.810 --> 02:10.449
+Sinx jest być może najłatwiejszy, bo w jego przypadku
+
+02:10.449 --> 02:12.800
+stała jest równa 0.
+
+02:12.800 --> 02:14.120
+Zatem policzmy.
+
+02:14.120 --> 02:16.530
+A więc jeden sposób aby to zapisać,
+
+02:16.530 --> 02:19.590
+funkcja pierwotna dla cosx, lub funkcja pierwotna dla cosx z dokładnością do stałej
+
+02:19.590 --> 02:21.900
+jest równa sinx.
+
+02:21.900 --> 02:24.620
+I będziemy liczyć wartość funkcji w pi/2.
+
+02:24.620 --> 02:27.780
+Po czym odejmiemy od niej wartość w zerze.
+
+02:27.780 --> 02:30.620
+Zatem to to będzie sięrównało-- pozwócie
+
+02:30.620 --> 02:32.720
+żepolicze to tutaj.
+
+02:32.720 --> 02:39.530
+To będzie równe sin(pi/2) minus
+
+02:39.530 --> 02:44.210
+sin0, a to się równa sin(pi/2) czyli 1.
+
+02:44.210 --> 02:45.280
+Sin0 równa sie 0.
+
+02:45.280 --> 02:47.630
+A więc 1 minus 0 równa się 1.
+
+02:47.630 --> 02:51.290
+Zatem pole powierzchni tego obszaru tutaj, to pole
+
+02:51.290 --> 02:55.310
+wynosi 1.
+
+02:55.310 --> 02:57.620
+Teraz zróbmy coś ciekawszego.
+
+02:57.620 --> 02:59.970
+Pomyślmy o obszarze.
+
+02:59.970 --> 03:06.770
+Rozważmy obszar pod krzywą na przedziale
+
+03:06.770 --> 03:10.970
+powiedzmy pi/2 i 3pi/2.
+
+03:19.430 --> 03:21.870
+A więc między tym a tym punktem.
+
+03:21.870 --> 03:24.460
+A więc mówimy o tym obszarze.
+
+03:24.460 --> 03:26.860
+Mówimy dokładnie o tym obszarze tutaj.
+
+03:26.860 --> 03:29.760
+To jest 3pi/2.
+
+03:29.760 --> 03:31.980
+No więc jeszcze raz, opisujemy pole obszaru
+
+03:31.980 --> 03:35.670
+jako całkę określoną od pi/ 2 do 3pi/2 z funkcji
+
+03:35.670 --> 03:37.600
+cosx.
+
+03:37.600 --> 03:40.300
+Funkcja pierwotna-- albo funkcja pierwotna z dokładnością do stałej dla cosx
+
+03:40.300 --> 03:42.060
+to cosx.
+
+03:42.060 --> 03:46.490
+Obliczony w punkcie 3pi/2 i pi/2.
+
+03:46.490 --> 03:48.770
+Tak więc to będzie równe sin3pi/2
+
+03:48.770 --> 03:55.330
+minus sinpi/2.
+
+03:55.330 --> 03:57.480
+Ile wynosi sin3pi/2?
+
+03:57.480 --> 04:02.950
+Jeśli szybko wyobrazimy sobie okrąg jednastkowy, wtedy widać, że 3pi/2, to
+
+04:02.950 --> 04:06.270
+jak przemierzyć 3/4 długości tego okręgu.
+
+04:06.270 --> 04:07.490
+A więc to wypada w tym miejscu.
+
+04:07.490 --> 04:11.340
+Zatem sin jest współrzędną y-kową na tym okręgu jednostkowym.
+
+04:11.340 --> 04:12.400
+Zatem to będzie -1.
+
+04:12.400 --> 04:15.580
+Czyli to tutaj to bedzie -1.
+
+04:15.580 --> 04:18.279
+To tutaj, sinpi/2
+
+04:18.279 --> 04:20.620
+będzie wyglądał dokladnie tak.
+
+04:20.620 --> 04:22.852
+Zatem sinpi/2 wynosi 1.
+
+04:22.852 --> 04:23.810
+A to ciekawe.
+
+04:23.810 --> 04:27.840
+Dostajemy -1 minus 1, co daje -2.
+
+04:27.840 --> 04:29.760
+Tak więc otrzymaliśmy ujemne pole obszaru.
+
+04:29.760 --> 04:32.120
+Dostaliśmy ujemną wartość pola.
+
+04:32.120 --> 04:33.650
+No więc jaki to ma sens?
+
+04:33.650 --> 04:36.450
+Wiemy przecież, że w prawdziwym świecie pola mają zawsze nieujemne wartości.
+
+04:36.450 --> 04:39.780
+Ale na co tak naprawdę wskazuje -2?
+
+04:39.780 --> 04:42.730
+Cóż, -2 "oznakowuje" pole na podstawie tego,
+
+04:42.730 --> 04:46.110
+że w końcu nasza funkcja spada poniżej osi x.
+
+04:46.110 --> 04:48.310
+Czyli moglibyśmy o tym myśleć w ten sposób, że pole obszaru jest 2,
+
+04:48.310 --> 04:50.570
+ale cały obszar leży w tym przypadku poniżej osi x.
+
+04:50.570 --> 04:53.110
+A więc jest oznaczone jako -2.
+
+04:53.110 --> 04:56.600
+Faktyczne pole obszaru wynosi 2, ale ponieważ leży poniżej osi x
+
+04:56.600 --> 04:59.160
+dostajemy minus dokładnie w tym miejscu.
+
+04:59.160 --> 05:01.220
+Teraz zróbmy przypadek bardziej interesujący.
+
+05:01.220 --> 05:04.890
+Znajdźmy cłkę określoną od 0
+
+05:04.890 --> 05:11.310
+do 3pi/2 z cosx dx.
+
+05:11.310 --> 05:14.940
+To jest tylko oznaczenie pola tego całego obszaru.
+
+05:14.940 --> 05:19.590
+Przechodząc od 0 aż do 3pi/2.
+
+05:19.590 --> 05:22.190
+I jak myślicie co sie stanie?
+
+05:22.190 --> 05:23.520
+Cóż, policzmy to.
+
+05:23.520 --> 05:30.710
+To będzie sin3pi/2 minus sin0.
+
+05:33.950 --> 05:37.560
+Co się równa 1 minus 0
+
+05:37.560 --> 05:39.890
+a więc -1.
+
+05:39.890 --> 05:41.300
+Co się więc właśnie stało?
+
+05:41.300 --> 05:44.450
+Pole obszaru poniżej, całego tego pomarańczowego obszaru, który własnie zakreskowałem,
+
+05:44.450 --> 05:50.150
+jest w oczywisty sposób nieujemne, czy też pole żadnego obszaru nie może być liczbą ujemną.
+
+05:50.150 --> 05:51.840
+A pole obszaru nie jest nawet 1.
+
+05:51.840 --> 05:53.320
+Co zatem tutaj zaszło?
+
+05:53.320 --> 06:00.370
+Cóż, policzyliśmy w pierwszym rozważanym przypadku, że to pierwsze pole wynosi 1.
+
+06:00.370 --> 06:03.780
+Pole tej pierwszej części wynosi 1.
+
+06:03.780 --> 06:06.610
+A jako pole drugiej części obszaru otrzymaliśmy -2.
+
+06:11.370 --> 06:13.250
+Jeden sposób interpretacji powyższego jest taki,
+
+06:13.250 --> 06:19.400
+że pole naszego obszaru netto powyżej osi x wynosi -1,
+
+06:19.400 --> 06:22.880
+albo inaczej, nasze pole netto wynosi -1.
+
+06:22.880 --> 06:27.530
+Metoda jest, aby wziąć pierwszą część obszaru (tę powyżej osi x)
+
+06:27.530 --> 06:29.950
+i odjąć od niej drugą część (tę poniżej osi x).
+
+06:29.950 --> 06:31.560
+Zatem to, co ta całka określona robi
+
+06:31.560 --> 06:34.560
+kiedy liczymy ją korzystając z drugiego podstawowego twierdzenia rachunku
+
+06:34.560 --> 06:36.760
+różniczkowego, to zasadniczo znajduje
+
+06:36.760 --> 06:40.629
+obszar netto powyżej osi x.
+
+06:40.629 --> 06:42.170
+I jeśli dostajemy ujemną liczbą, to
+
+06:42.170 --> 06:44.920
+oznacza, że obszar nettojest-- że istatnie większość naszego obszaru
+
+06:44.920 --> 06:46.680
+znajduje się poniżej osi x.
+
+06:46.680 --> 06:50.116
+Jeśli dostajemy 0, to oznacza, że wszystko się skróciło.
+
+06:50.116 --> 06:51.740
+Jeśli chcecie zobaczyc przykład, gdzie dostajemy zero,
+
+06:51.740 --> 06:58.570
+rozważcie całkę od 0 do 2pi.
+
+06:58.570 --> 07:01.100
+Tutaj wyjdzie zero, bowiem mamy obszar o polu 1
+
+07:01.100 --> 07:03.380
+oraz drugi obszar także o polu równym 1, ale to wszystko skróci się
+
+07:03.380 --> 07:04.800
+z polem obszaru policzonego wcześniej równego -2.
+
+07:04.800 --> 07:06.070
+Wypróbujmy to.
+
+07:06.070 --> 07:10.460
+Więc jeśli całkujemy od 0 do 2pi funkcje cosx dx,
+
+07:10.460 --> 07:15.970
+to to jest równe sin2pi minus sin0
+
+07:15.970 --> 07:19.960
+czyli0 mimus 0, a więc 0.
+
+07:19.960 --> 07:21.680
+To jest jasne, że mieliśmy obszar tutaj, ale cały
+
+07:21.680 --> 07:23.560
+obszar, który znajdował sie powyżej osi x
+
+07:23.560 --> 07:27.134
+"zjadł się" z obszarem, który tymczasem znajdował się poniżej osi x.

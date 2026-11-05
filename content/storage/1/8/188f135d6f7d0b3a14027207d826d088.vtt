@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.287 --> 00:03.032
+O que eu gostaria de explorar neste vídeo,
+
+00:03.032 --> 00:08.385
+é ver se conseguirmos determinar qual a
+derivada de Y em relação a X.
+
+00:08.385 --> 00:14.832
+Se Y é igual ao arcoseno,
+arcoseno de X.
+
+00:14.832 --> 00:17.481
+E como sempre, te encorajo
+a pausar este vídeo
+
+00:17.481 --> 00:19.170
+e tentar você mesmo.
+
+00:19.170 --> 00:21.496
+E eu te tarei duas dicas.
+
+00:21.496 --> 00:25.131
+A primeira é, bem, nós não sabemos
+qual é a derivada de arcoseno de X,
+
+00:25.131 --> 00:28.721
+mas sabemos qual é a derivada
+do seno de alguma coisa.
+
+00:28.721 --> 00:31.200
+Então se você, talvez se você
+rearranjar isto e usar
+
+00:31.200 --> 00:36.351
+alguma diferenciação implícita, talvez
+você consiga descobrir o que dy, dx é.
+
+00:36.351 --> 00:37.901
+Lembre-se, disto aqui.
+
+00:37.901 --> 00:40.713
+Isto aqui é nosso objetivo.
+
+00:40.713 --> 00:46.091
+Essencialmente, queremos descobrir a
+derivada disto com relação a x.
+
+00:46.091 --> 00:49.160
+Então, assumindo que você tentou,
+vamos trabalhar nisto juntos.
+
+00:49.160 --> 00:53.444
+Se Y é o arcoseno de X,
+isto é apenas dizer,
+
+00:53.445 --> 00:58.604
+é equivalente dizer que seno de Y,
+
+00:58.604 --> 01:05.234
+seno de Y é igual a X.
+
+01:05.234 --> 01:07.243
+Agora temos coisas que somos
+
+01:07.243 --> 01:08.832
+um pouco mais familiarizados.
+
+01:08.832 --> 01:11.352
+E agora podemos fazer uma
+diferenciação implícita.
+
+01:11.364 --> 01:15.297
+Podemos tirar a derivada de ambos
+os lados em relação a X.
+
+01:15.297 --> 01:18.511
+Então, a derivada do lado
+esquerdo em relação a X
+
+01:18.511 --> 01:23.296
+e a derivada do lado
+direito em relação a X.
+
+01:23.296 --> 01:27.351
+Mas qual será a derivada do lado
+esquerdo com relação a X?
+
+01:27.351 --> 01:29.333
+Apenas aplicamos a regra da cadeia.
+
+01:29.333 --> 01:33.882
+Será a derivada de seno de Y
+com relação a Y.
+
+01:33.882 --> 01:38.503
+Que será cosseno de Y,
+
+01:38.503 --> 01:41.823
+vezes a derivada de Y
+com relação a X.
+
+01:41.823 --> 01:48.302
+Então, vezes dy, dx.
+
+01:48.302 --> 01:52.247
+E o lado direito, qual a
+derivada de X em relação a X,
+
+01:52.247 --> 01:56.105
+bem, obviamente isto será
+apenas igual a um.
+
+01:56.105 --> 02:01.513
+Então, podemos resolver para dy, dx,
+divida ambos os lado por cosseno de Y.
+
+02:01.513 --> 02:05.521
+E teremos que a derivada
+de Y em relação a X
+
+02:05.521 --> 02:10.202
+é igual a um sobre cosseno de Y.
+
+02:10.202 --> 02:14.567
+Mas isto ainda não é satifatório
+pois tenho a derivada em termos de Y.
+
+02:14.567 --> 02:17.903
+Então vejamos se conseguimos
+re-expressar ela em termos de X.
+
+02:17.903 --> 02:19.761
+Então, como poderíamos fazer isto?
+
+02:19.761 --> 02:22.026
+Bem, já sabemos que X
+é igual a seno de Y.
+
+02:22.026 --> 02:23.290
+-- deixe-me reescrever --
+
+02:23.290 --> 02:27.040
+Já sabemos que X
+é igual a seno de Y.
+
+02:27.040 --> 02:29.644
+Então, se pudermos reescrever
+esta expressão debaixo
+
+02:29.644 --> 02:30.903
+ao invés de cosseno de Y,
+
+02:30.903 --> 02:33.552
+se pudéssemos usar nossas
+identidades trigonométricas
+
+02:33.552 --> 02:36.855
+para reescrever em
+termos de seno de Y,
+
+02:36.855 --> 02:40.190
+então estaria em uma boa forma
+porque X é igual a seno de Y.
+
+02:40.190 --> 02:41.973
+Bem, como podemos fazer isto?
+
+02:41.973 --> 02:46.718
+Sabemos das nossas
+identidades trigonométricas
+
+02:46.718 --> 02:53.312
+que seno ao quadrado de Y mais cosseno
+ao quadrado de Y é igual a um.
+
+02:53.312 --> 02:55.433
+Ou, se quisermos resolver para
+cosseno de Y,
+
+02:55.433 --> 02:58.004
+subtraia seno de Y
+de ambos os lados.
+
+02:58.004 --> 03:04.401
+Sabemos que cosseno ao quadrado de Y é
+igual a um menos seno ao quadrado de Y.
+
+03:04.401 --> 03:08.721
+Ou que cosseno de Y, tome apenas
+a raíz principal de ambos os lados,
+
+03:08.721 --> 03:16.441
+é igual a raiz de um menos
+seno ao quadrado de Y.
+
+03:16.441 --> 03:24.130
+Então, podemos reescrever isto como,
+igual a um sobre, ao invés de cosseno de Y
+
+03:24.130 --> 03:29.543
+podemos reescrever como raíz
+de um meno seno ao quadrado de Y.
+
+03:29.543 --> 03:31.170
+Agora, por que isto é útil?
+
+03:31.170 --> 03:33.156
+Bem, seno de Y é apenas X.
+
+03:33.156 --> 03:35.679
+Então isto é o mesmo;
+se apenas substituirmos,
+
+03:35.679 --> 03:38.121
+--vou escrever dessa forma
+para ficar mais claro--
+
+03:38.121 --> 03:40.818
+Eu poderia escrever como
+seno de Y ao quadrado.
+
+03:40.818 --> 03:42.603
+Sabemos que isto aqui é X.
+
+03:42.610 --> 03:44.378
+Então isto será igual a
+
+03:44.378 --> 03:46.597
+-- e merecemos um rufar de tambores --
+
+03:46.597 --> 03:50.883
+um sobre a raíz quadrada
+de um menos,
+
+03:50.889 --> 03:54.560
+ao invés de seno de Y, sabemos
+que X igual a seno de Y.
+
+03:54.560 --> 03:56.935
+Então, um menos x ao quadrado.
+
+03:56.935 --> 03:57.919
+Então aí está.
+
+03:57.919 --> 04:06.541
+A derivada em relação a X do
+arcoseno de X é igual a
+
+04:06.541 --> 04:10.163
+um sobre a raíz quadrada de um
+menos x ao quadrado.
+
+04:10.163 --> 04:11.962
+Vou deixar isso bem claro.
+
+04:11.962 --> 04:15.741
+Se você tomar a derivada de ambos
+os lados em relação a X,
+
+04:15.741 --> 04:20.341
+você terá dy, dx é igual
+a isto do lado direito.
+
+04:20.341 --> 04:28.174
+Ou poderíamos dizer, a derivada
+em relação a X do arcoseno de X,
+
+04:28.174 --> 04:36.264
+é igual a um sobre a raíz quadrada
+de um menos X ao quadrado.
+
+04:36.264 --> 04:39.601
+Agora você pode sempre provar
+isto novamente se sua memória falhar
+
+04:39.601 --> 04:42.870
+e de fato este é o melhor jeito de
+realmente internalizar isto.
+
+04:42.870 --> 04:45.873
+Mas é sempre bom saber isto,
+especialmente quando
+
+04:45.873 --> 04:50.048
+formos mais e mais pra dentro do cálculo,
+você pode ver esta expressão,
+
+04:50.048 --> 04:53.053
+e talvez você dirá, "ah ok, esta é a
+derivada de arcoseno de X"
+
+04:53.053 --> 04:54.341
+o que pode provar ser útil.
+
+04:54.341 --> 04:56.000
+[traduzido por: Khallil Fernandes]

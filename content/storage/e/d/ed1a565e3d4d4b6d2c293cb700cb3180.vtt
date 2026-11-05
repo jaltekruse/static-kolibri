@@ -1,0 +1,343 @@
+WEBVTT
+
+00:00.733 --> 00:03.151
+Est-ce que le système d'équations linéaires ci-dessous
+
+00:03.151 --> 00:06.313
+est dépendant ou indépendant ? Et ils nous donnent
+
+00:06.313 --> 00:07.575
+deux équations ici.
+
+00:07.575 --> 00:09.677
+Avant que je ne m'attaque à ce problème,
+
+00:09.677 --> 00:11.812
+faisons juste un petit rappelle de ce que
+
+00:11.812 --> 00:13.025
+dépendant ou indépendant signifie.
+
+00:13.041 --> 00:14.629
+En faite, je vais comparer ça à
+
+00:14.629 --> 00:16.860
+consistant et inconsistant .
+
+00:16.860 --> 00:18.538
+Juste pour commencer, si nous avons à faire à
+
+00:18.538 --> 00:21.906
+un système d'équations linéaires dans deux dimensions,
+
+00:21.906 --> 00:23.767
+il y a uniquement trois possibilités
+
+00:23.767 --> 00:26.427
+que les droites, ou les équations,
+
+00:26.427 --> 00:28.564
+puissent avoir des points communs.
+
+00:28.564 --> 00:30.015
+Je vais donc dessiner les trois possibilités
+
+00:30.015 --> 00:35.032
+et les 3 axes. Ceci est mon premier axe x
+
+00:35.032 --> 00:37.964
+et mon axe y, donc x et y. Je vais en dessiner un autre.
+
+00:37.964 --> 00:44.918
+Ceci est x et ceci est y. Je vais en dessiner
+
+00:44.918 --> 00:47.169
+un dernier car il y aura seulement trois possibilités
+
+00:47.169 --> 00:50.323
+dans deux dimensions, x et y, si on a à faire à
+
+00:50.323 --> 00:54.933
+des équations linéaires, x et y. Donc nous pouvons avoir
+
+00:54.933 --> 00:58.215
+la situation où les droites se croisent
+
+00:58.215 --> 01:03.231
+en un point, donc vous pouvez avoir une droite ainsi,
+
+01:03.231 --> 01:04.938
+et l'autre peut peut-être faire quelque chose comme ceci,
+
+01:04.938 --> 01:08.378
+et ils se croisent en un point.
+
+01:08.378 --> 01:10.350
+Vous pouvez avoir la situation où les deux
+
+01:10.350 --> 01:13.477
+droites sont parallèles. Donc vous avez la situation
+
+01:13.477 --> 01:15.923
+que je vais dessinez par ici, où
+
+01:15.923 --> 01:17.815
+vous avez une droite qui part comme ceci, et
+
+01:17.815 --> 01:19.605
+l'autre droite a la même pente, mais
+
+01:19.605 --> 01:21.421
+est décalée, elle a la même ordonnée à l'origine,
+
+01:21.421 --> 01:23.733
+donc elle peut ressembler à ça, et vous n'avez aucun point
+
+01:23.733 --> 01:26.021
+d'intersection. Et enfin vous pouvez avoir
+
+01:26.021 --> 01:29.554
+la situation où ils sont en faite sur la même droite,
+
+01:29.554 --> 01:31.513
+donc les deux droites ont la même pente
+
+01:31.513 --> 01:34.420
+et la même ordonnée à l'origine. Donc vraiment, elles sont
+
+01:34.420 --> 01:38.005
+la même droite, elles se croisent en une infinité
+
+01:38.005 --> 01:39.900
+de points. Chaque point sur chacune de ces droites
+
+01:39.900 --> 01:42.718
+est aussi un point de l'autre droite. Donc afin de vous donner
+
+01:42.718 --> 01:45.431
+un petit peu de terminologie ici, et
+
+01:45.431 --> 01:49.175
+nous avons appris dans la vidéo précédente, ce type de
+
+01:49.175 --> 01:51.159
+système, où elles ne se croisent pas,
+
+01:51.159 --> 01:53.467
+où nous n'avons aucune solution, c'est
+
+01:53.467 --> 01:59.429
+un système inconsistant.
+
+01:59.429 --> 02:01.329
+Et par définition, où je suppose juste prendre
+
+02:01.329 --> 02:03.154
+l'opposé d'inconsistant, ces deux-ci
+
+02:03.154 --> 02:06.082
+seraient considérée consistantes. Ces deux-ci
+
+02:06.082 --> 02:08.467
+sont consistantes.
+
+02:08.467 --> 02:10.344
+Mais alors, malgré qu'elles soient consistantes,
+
+02:10.344 --> 02:12.498
+il y a évidemment une différence, ici nous avons
+
+02:12.498 --> 02:14.092
+une solution, il y a deux droites différentes
+
+02:14.092 --> 02:15.985
+qui se croisent en un point. Et ici,
+
+02:15.985 --> 02:19.082
+elles sont essentiellement exactement la même droite.
+
+02:19.082 --> 02:20.975
+Et donc nous différencions les deux cas
+
+02:20.975 --> 02:23.314
+en appelant celle-ci
+
+02:23.314 --> 02:32.340
+indépendante, et celle-ci dépendante.
+
+02:32.340 --> 02:34.719
+Donc indépendant, les deux droites sont clairement
+
+02:34.719 --> 02:37.298
+distinctes, elles ne sont pas dépendantes l'une de l'autre,
+
+02:37.298 --> 02:39.323
+elles ne sont pas la même droite. Elles se croisent
+
+02:39.323 --> 02:41.226
+en un point. Dépendantes, elles sont
+
+02:41.226 --> 02:43.436
+exactement la même droite, chaque point satisfaisant
+
+02:43.436 --> 02:44.964
+une droite, satisfait l'autre.
+
+02:44.964 --> 02:46.262
+Chaque point qui satisfait une équation,
+
+02:46.262 --> 02:49.738
+satisfera l'autre. Donc avec ceci dit,
+
+02:49.738 --> 02:53.679
+voyons voir si ce système d'équations linéaires ici
+
+02:53.679 --> 02:55.759
+est dépendant ou indépendant.
+
+02:55.759 --> 02:57.329
+Donc, ils nous font assumer en quelques sortes
+
+02:57.329 --> 02:58.862
+qu'elles seront consistantes. Que nous allons soit
+
+02:58.862 --> 03:00.898
+avoir une seule intersection, ou que nous allons avoir
+
+03:00.898 --> 03:02.218
+un nombre infini de points d'intersections.
+
+03:02.218 --> 03:05.067
+Et la façon la plus simple de faire ça,
+
+03:05.067 --> 03:07.800
+nous avons déjà cette seconde équation ici,
+
+03:07.800 --> 03:09.693
+qui est déjà sous forme simplifiée,
+
+03:09.693 --> 03:13.432
+nous savons que la pente vaut -2 et l'ordonnée à l'origine vaut 8.
+
+03:13.432 --> 03:17.138
+Simplifions aussi l'équation ci-dessus
+
+03:17.138 --> 03:18.525
+et voyons voir si elle a
+
+03:18.525 --> 03:20.425
+une pente différente ou une ordonnée à l'origine différente,
+
+03:20.425 --> 03:22.569
+ou peut-être sont-ce la même droite. Donc nous avons
+
+03:22.569 --> 03:27.419
+4x plus 2y est égale à 16.
+
+03:27.419 --> 03:29.723
+On peut soustraire 4x des deux côtés,
+
+03:29.723 --> 03:31.513
+ce que nous voulons est d'isoler le y dans
+
+03:31.513 --> 03:35.082
+le membre de gauche. Donc soustrayons 4x
+
+03:35.082 --> 03:39.051
+des deux membres. Le membre de gauche nous allons
+
+03:39.051 --> 03:41.759
+juste laisser avec un 2y, ensuite le côté droit,
+
+03:41.759 --> 03:45.918
+nous avons un -4x plus 16.
+
+03:45.918 --> 03:48.107
+Je viens juste d'écrire le -4 devant le 16
+
+03:48.107 --> 03:49.941
+afin de l'avoir sous la forme traditionnelle
+
+03:49.941 --> 03:52.021
+Et maintenant nous pouvons
+
+03:52.021 --> 03:54.144
+diviser les deux membres de cette équation par 2,
+
+03:54.144 --> 03:56.759
+afin d'isoler le y sur le côté gauche.
+
+03:56.759 --> 03:58.733
+Divisons les deux côté par 2, il nous reste
+
+03:58.733 --> 04:04.334
+y est égale à -4 divisé par 2 vaut -2x
+
+04:04.334 --> 04:08.269
+plus 16 sur 2, plus 8. Donc tout ce que j'ai fait est
+
+04:08.269 --> 04:10.717
+manipuler algébriquement cette équation ici
+
+04:10.717 --> 04:12.997
+au dessus, et en faisant ça, quand je l'ai résolu
+
+04:12.997 --> 04:16.185
+essentiellement pour y, j'ai obtenu ceci ici,
+
+04:16.185 --> 04:17.882
+qui est exactement la même chose que
+
+04:17.882 --> 04:20.400
+la seconde équation. Nous avons exactement la même
+
+04:20.400 --> 04:24.667
+pente, -2, -2 et nous avons exactement
+
+04:24.667 --> 04:27.139
+la même ordonnée à l'origine. Et si
+
+04:27.139 --> 04:31.713
+je fais le graphique de ces équations, ceci est mon
+
+04:31.713 --> 04:36.308
+axe x, et ceci est mon axe y,
+
+04:36.308 --> 04:39.641
+toutes les deux ont l'ordonnée à l'origine à 8
+
+04:39.641 --> 04:41.179
+et une pente de -2.
+
+04:41.179 --> 04:43.087
+Donc elle ressemblent à, je dessine juste
+
+04:43.087 --> 04:44.518
+un approximation, mais elles ressembleraient
+
+04:44.518 --> 04:48.359
+à quelque chose comme ça. Donc ceci peut être le graphique
+
+04:48.359 --> 04:51.215
+de cette équation ici, la première équation.
+
+04:51.215 --> 04:52.596
+Ensuite la seconde équation sera
+
+04:52.596 --> 04:54.390
+exactement la même droite, elle a exactement la même
+
+04:54.390 --> 04:56.944
+ordonnée à l'origine et exactement la même pente.
+
+04:56.944 --> 05:00.740
+Donc ces deux droites sont clairement dépendantes.
+
+05:00.740 --> 05:03.708
+Dépendantes. Elles ont un nombre infini
+
+05:03.708 --> 05:06.354
+de points qui sont communs aux deux droites
+
+05:06.354 --> 3:59:59.999
+car elles sont la même droite.

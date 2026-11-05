@@ -1,0 +1,266 @@
+WEBVTT
+
+00:00.000 --> 00:01.767
+- [Tutor] What we're
+going to do in this video
+
+00:01.767 --> 00:03.321
+is give ourselves some practice
+
+00:03.321 --> 00:05.410
+in the first step of u substitution,
+
+00:05.410 --> 00:07.196
+which is often the most difficult
+
+00:07.196 --> 00:09.134
+for those who are first learning it
+
+00:09.134 --> 00:12.240
+and that's recognizing when
+u substitution is appropriate
+
+00:12.240 --> 00:14.696
+and then defining an appropriate u.
+
+00:14.696 --> 00:17.150
+So let's just start with an example here,
+
+00:17.150 --> 00:21.101
+so let's say we wanna take
+the indefinite integral
+
+00:21.101 --> 00:23.268
+of two x plus one times
+
+00:24.740 --> 00:28.323
+the square root of x squared plus x, dx,
+
+00:30.490 --> 00:33.074
+does u substitution apply
+here and if it does,
+
+00:33.074 --> 00:34.532
+how would you define the u?
+
+00:34.532 --> 00:37.341
+Pause the video and try
+to think about that.
+
+00:37.341 --> 00:39.139
+Well, we just have to remind ourselves,
+
+00:39.139 --> 00:43.551
+that u substitution is really
+trying to undo the chain rule,
+
+00:43.551 --> 00:46.688
+if we remind ourselves what
+the chain rule tells us,
+
+00:46.688 --> 00:48.754
+it says look, if we have
+a composite function,
+
+00:48.754 --> 00:50.587
+let's say f of g of x,
+
+00:52.845 --> 00:55.531
+f of g of x and we take
+the derivative of that
+
+00:55.531 --> 00:57.517
+with respect to x,
+
+00:57.517 --> 00:58.683
+that that is going to be equal
+
+00:58.683 --> 01:01.162
+to the derivative of the outside function
+
+01:01.162 --> 01:03.059
+with respect to the inside function,
+
+01:03.059 --> 01:03.892
+so f prime
+
+01:05.557 --> 01:07.000
+of g of x
+
+01:07.000 --> 01:09.093
+times the derivative
+of the inside function,
+
+01:09.093 --> 01:12.490
+times the derivative
+of the inside function
+
+01:12.490 --> 01:14.024
+and so u substitution is all about
+
+01:14.024 --> 01:17.249
+well, do we see a pattern
+like that inside the integral?
+
+01:17.249 --> 01:21.387
+Do we see a potential
+inside function, a g of x,
+
+01:21.387 --> 01:24.493
+where I see its derivative
+being multiplied?
+
+01:24.493 --> 01:27.139
+Well, we see that over here,
+
+01:27.139 --> 01:30.370
+if I look at x squared plus x,
+
+01:30.370 --> 01:33.212
+if I make that the u, what's
+the derivative of that?
+
+01:33.212 --> 01:37.208
+Well, the derivative of x
+squared plus x is two x plus one,
+
+01:37.208 --> 01:39.652
+so we should make that substitution,
+
+01:39.652 --> 01:43.319
+if we say u is equal to x squared plus x,
+
+01:44.162 --> 01:46.162
+then we could say du dx,
+
+01:47.325 --> 01:49.748
+the derivative of u with respect to x
+
+01:49.748 --> 01:52.695
+is equal to two x plus one,
+
+01:52.695 --> 01:55.279
+if we treat our differentials
+like variables or numbers,
+
+01:55.279 --> 01:57.296
+we can multiply both sides by dx,
+
+01:57.296 --> 01:59.225
+which is a little bit of
+hand wavy mathematics,
+
+01:59.225 --> 02:00.687
+but it's appropriate here,
+
+02:00.687 --> 02:04.187
+so we could say two x plus one times dx
+
+02:05.945 --> 02:07.736
+and now what's really interesting here
+
+02:07.736 --> 02:09.798
+is we have our u right over there
+
+02:09.798 --> 02:13.965
+and notice we have our
+two x plus one times dx,
+
+02:14.862 --> 02:17.218
+in fact it's not conventional
+to see an integral
+
+02:17.218 --> 02:19.319
+rewritten the way I'm about
+to write it, but I will,
+
+02:19.319 --> 02:22.201
+I could rewrite this integral,
+you should really view
+
+02:22.201 --> 02:24.427
+this is the product of three things,
+
+02:24.427 --> 02:26.105
+oftentimes people will just view the dx
+
+02:26.105 --> 02:29.132
+as somehow part of the integral operator,
+
+02:29.132 --> 02:30.699
+but you could rearrange it,
+
+02:30.699 --> 02:32.573
+this would actually be legitimate,
+
+02:32.573 --> 02:36.323
+you could say the integral
+of the square root
+
+02:37.338 --> 02:41.505
+of x squared plus x
+times two x plus one dx
+
+02:43.307 --> 02:45.024
+and if you wanted to be really clear,
+
+02:45.024 --> 02:47.012
+you could even put all of those things
+
+02:47.012 --> 02:49.523
+in parentheses or something like that
+
+02:49.523 --> 02:51.038
+and so here,
+
+02:51.038 --> 02:52.121
+this is our u
+
+02:53.528 --> 02:56.361
+and this right over here is our du
+
+02:58.355 --> 03:00.630
+and so we could rewrite this as being
+
+03:00.630 --> 03:02.380
+equal to the integral
+
+03:03.688 --> 03:05.688
+of the square root of u,
+
+03:06.559 --> 03:09.050
+'cause x squared plus x is u,
+
+03:09.050 --> 03:12.633
+times du, which is much
+easier to evaluate.
+
+03:13.742 --> 03:14.898
+If you are still confused there,
+
+03:14.898 --> 03:17.285
+you might recognize it if I rewrite this
+
+03:17.285 --> 03:19.044
+as u to the one half power,
+
+03:19.044 --> 03:21.870
+because now we could just
+use the reverse power rule
+
+03:21.870 --> 03:22.803
+to evaluate this
+
+03:22.803 --> 03:25.252
+and then we would have
+to undo the substitution,
+
+03:25.252 --> 03:27.892
+once we figure out what
+this anti derivative is,
+
+03:27.892 --> 03:30.535
+we then would then reverse substitute
+
+03:30.535 --> 03:33.702
+the x expression back in for the u.

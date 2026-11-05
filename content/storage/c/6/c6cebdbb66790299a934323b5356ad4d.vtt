@@ -1,0 +1,270 @@
+WEBVTT
+
+00:00.233 --> 00:07.243
+V tomto videu si procvičíme použití
+substituce na určitý integrál.
+
+00:07.243 --> 00:21.545
+Mějme integrál od 1 do 2 z funkce
+2x krát (x na druhou plus 1) na třetí dx.
+
+00:21.545 --> 00:23.880
+Už jsem vám řekl, že použijeme substituci,
+
+00:23.880 --> 00:26.678
+ale stejně je důležité si
+uvědomit, proč se hodí ji použít.
+
+00:26.678 --> 00:31.312
+Klíčem je zde to, že máme
+(x na druhou plus 1) na třetí,
+
+00:31.312 --> 00:36.234
+ale také tu máme derivaci
+x na druhou plus 1, což je 2 krát x.
+
+00:36.234 --> 00:38.338
+Takže můžeme použít substituci.
+
+00:38.338 --> 00:42.430
+Můžeme definovat "u" jako
+x na druhou plus 1,
+
+00:42.430 --> 00:49.871
+pak by derivace "u" podle x
+byla 2 krát x plus 0, neboli 2 krát x.
+
+00:49.871 --> 00:52.095
+Napíšu to v tomto tvaru.
+
+00:52.095 --> 00:56.950
+Když mávneme kouzelnou hůlkou,
+tak vynásobíme obě strany dx.
+
+00:56.950 --> 01:01.335
+Získali jsme, že du je rovno 2 krát x dx.
+
+01:01.335 --> 01:05.054
+Takže tuto část
+integrálu můžeme přepsat.
+
+01:05.054 --> 01:08.651
+Takže to přepíšu.
+
+01:08.651 --> 01:11.349
+Za chvíli se pustíme
+na upravení hraničních hodnot.
+
+01:11.349 --> 01:22.677
+Máme "u" na třetí,
+udělám to stejnou oranžovou.
+
+01:22.677 --> 01:25.659
+To je toto.
+
+01:25.659 --> 01:30.515
+A pak 2x krát dx.
+
+01:30.515 --> 01:35.292
+Vzpomeňte si, že toto je vlastně 2x krát
+(x na druhou plus 1) na třetí krát dx.
+
+01:35.292 --> 01:43.168
+Takže 2x krát dx a to je du.
+
+01:43.168 --> 01:44.428
+Nyní nás zajímá…
+
+01:44.428 --> 01:47.559
+Nemáme neurčitý integrál,
+nehledáme primitivní funkci.
+
+01:47.559 --> 01:48.962
+Máme tady určitý integrál.
+
+01:48.962 --> 01:52.234
+Jak se tedy změní hranice integrálu?
+
+01:52.234 --> 01:54.679
+Můžeme se na to podívat dvěma způsoby.
+
+01:54.679 --> 01:56.817
+Můžeme změnit meze integrálu.
+
+01:56.817 --> 02:00.420
+Protože toto 1 značí, že x je rovno 1
+a pak horní mez x je rovno 2.
+
+02:00.420 --> 02:02.807
+Ale nyní integrujeme podle "u".
+
+02:02.807 --> 02:10.334
+Když chceme zachovat tvar určitého
+integrálu, musíme změnit meze,
+
+02:10.334 --> 02:14.571
+hodnoty musí být vzhledem k "u",
+od "u" rovno něčemu k "u" rovno něčemu.
+
+02:14.571 --> 02:19.928
+Musíme tedy meze najít,
+když je x rovno 1, tak kolik je "u"?
+
+02:19.928 --> 02:25.564
+Když je x rovno 1, tak máme
+1 na druhou plus 1, takže 2,
+
+02:25.564 --> 02:28.656
+"u" je zde rovno 2.
+
+02:28.656 --> 02:31.657
+Když je x rovno 2, tak kolik je "u"?
+
+02:31.657 --> 02:36.304
+Máme 2 na druhou, což je 4,
+plus 1, takže celkově 5.
+
+02:36.304 --> 02:38.191
+"U" je rovno 5.
+
+02:38.191 --> 02:42.589
+Většinou ale neuvidíte, že by se psalo
+"u" rovno 2, nebo "u" rovno 5.
+
+02:42.589 --> 02:46.100
+Píše se prostě od 2 do 5,
+protože integrujeme podle "u".
+
+02:46.100 --> 02:49.052
+Předpokládáme, že to znamená
+od "u" rovno 2 do "u" rovno 5.
+
+02:49.052 --> 02:59.075
+Takže to přepíšeme na integrál
+od 2 do 5 z "u" na třetí du.
+
+02:59.075 --> 03:02.125
+Je ale důležité si uvědomit,
+proč jsme změnili meze.
+
+03:02.125 --> 03:04.357
+Nyní integrujeme podle "u",
+
+03:04.357 --> 03:07.035
+a to jsme udělali
+pomocí substituce.
+
+03:07.035 --> 03:09.389
+Když je x rovno 1, tak "u" je rovno 2.
+
+03:09.389 --> 03:13.284
+Když je x rovno 2, tak "u" je rovno 5.
+
+03:13.284 --> 03:16.005
+A pak to už jen vyčíslíme.
+
+03:16.005 --> 03:18.650
+Tohle bude rovno…
+
+03:18.650 --> 03:24.194
+Primitivní funkce z "u" na třetí
+je "u" na čtvrtou lomeno 4.
+
+03:24.194 --> 03:27.807
+Vyčíslíme to v 5 a 2.
+
+03:27.807 --> 03:36.265
+Je to 5 na čtvrtou lomeno 4
+minus 2 na čtvrtou lomeno 4.
+
+03:36.265 --> 03:41.730
+To si můžeme zjednodušit, jak chceme,
+ale už jsme vyčíslili určitý integrál.
+
+03:41.730 --> 03:49.954
+Druhý způsobem řešení je ten,
+že najdeme neurčitý integrál podle x,
+
+03:49.954 --> 03:52.532
+a použijeme substituci
+pouze jako prostředníka.
+
+03:52.532 --> 04:05.549
+Prostě spočítáme neurčitý integrál z 2x
+krát (x na druhou plus 1) na třetí dx.
+
+04:05.549 --> 04:15.570
+Ať je řešení jakékoli, tak to
+vyčíslíme pro x rovno 2 a x rovno 1.
+
+04:15.570 --> 04:20.968
+Tady použijeme substituci
+a dostaneme…
+
+04:20.968 --> 04:33.745
+Zjednodušíme si to stejnou substitucí,
+integrál z "u" na třetí du.
+
+04:33.745 --> 04:44.063
+A opět to vypočítáme v x rovno 2
+a pak odečteme hodnotu v x rovno 1.
+
+04:44.063 --> 04:46.493
+Toto bude rovno…
+
+04:46.493 --> 04:51.952
+Toto je "u" na čtvrtou lomeno 4.
+
+04:51.952 --> 04:57.509
+A potřebujeme to vyčíslit v x rovno 2
+a pak odečíst hodnotu v x rovno 1.
+
+04:57.509 --> 05:00.024
+K tomu použijeme zpětnou substituci.
+
+05:00.024 --> 05:03.535
+Vidíme, že "u" je rovno
+x na druhou plus 1,
+
+05:03.535 --> 05:11.078
+takže toto je vlastně
+(x na druhou plus 1) na čtvrtou lomeno 4.
+
+05:11.078 --> 05:15.869
+To vyčíslíme pro
+x rovno 2 a x rovno 1.
+
+05:15.869 --> 05:18.068
+Uvidíte, že dostaneme stejné číslo.
+
+05:18.068 --> 05:21.877
+Tady máme x rovno 2,
+takže 2 na druhou plus 1 je 5,
+
+05:21.877 --> 05:24.656
+to celé umocněné na čtvrtou lomeno 4.
+
+05:24.656 --> 05:27.124
+Pak minus…
+1 na druhou plus 1 je 2,
+
+05:27.124 --> 05:30.568
+to umocněné na 4 a lomeno 4.
+
+05:30.568 --> 05:32.771
+Takže získáte stejný výsledek.
+
+05:32.771 --> 05:38.733
+Buď si ponecháte určitý integrál a změníte
+meze integrálu vzhledem k proměnné "u".
+
+05:38.733 --> 05:40.071
+To je jeden postup.
+
+05:40.071 --> 05:47.135
+Nebo spočítáte neurčitý integrál,
+použijete substituci jako mezikrok,
+
+05:47.135 --> 05:53.000
+pak uděláte zpětnou substituci
+a spočítáte hodnoty v mezích.

@@ -1,0 +1,328 @@
+WEBVTT
+
+00:00.419 --> 00:01.732
+Khi mới bắt đầu học toán giải tích,
+
+00:01.732 --> 00:04.354
+bạn được học là đạo hàm của hàm số f,
+
+00:04.354 --> 00:07.058
+có thể được viết là f phẩy của x, sẽ bằng
+
+00:07.058 --> 00:09.530
+giới hạn của
+
+00:09.530 --> 00:12.347
+biến thiên của x (delta x) tiến đến 0
+
+00:12.347 --> 00:16.347
+của f của x, cộng delta x, trừ f của x
+
+00:18.569 --> 00:20.319
+phần delta x.
+
+00:21.841 --> 00:24.175
+Và bạn cũng học được nhiều ký hiệu từ dạng toán này.
+
+00:24.175 --> 00:28.397
+Ví dụ, nếu y bằng f của x,
+
+00:28.397 --> 00:31.502
+bạn có thể viết ở đây là y phẩy.
+
+00:31.502 --> 00:34.252
+Và bạn có thể viết phần này là dy phần dx,
+
+00:35.388 --> 00:37.886
+mà mình sẽ thường nói đây là đạo hàm của y
+
+00:37.886 --> 00:40.149
+tính theo x, và bạn có thể tính
+
+00:40.149 --> 00:41.955
+đạo hàm của f tính theo x
+
+00:41.955 --> 00:44.906
+vì y sẽ bằng hàm số đó.
+
+00:44.906 --> 00:46.512
+Nhưng về sau, khi bạn bắt đầu học về
+
+00:46.512 --> 00:49.051
+phương trình vi phân,
+
+00:49.051 --> 00:51.987
+bạn sẽ thấy ký hiệu này được xem như là
+
+00:51.987 --> 00:54.911
+1 biểu thức đại số.
+
+00:54.911 --> 00:59.357
+Ví dụ sau bạn có thể đã tiếp xúc qua rồi.
+
+00:59.357 --> 01:02.285
+Khi bạn thử giải phương trình vi phân,
+
+01:02.285 --> 01:06.691
+đạo hàm của y tính theo x bằng y.
+
+01:06.691 --> 01:08.551
+Vậy tốc độ biến thiên của y tính theo x
+
+01:08.551 --> 01:11.533
+sẽ bằng chính giá trị của y.
+
+01:11.533 --> 01:14.733
+Đây là 1 trong những phương trình vi phân cơ bản nhất
+
+01:14.733 --> 01:15.903
+mà bạn sẽ gặp.
+
+01:15.903 --> 01:17.771
+Bạn sẽ thấy cách làm phổ biến là
+
+01:17.771 --> 01:20.351
+"Nhân cả 2 vế cho dx"
+
+01:20.351 --> 01:24.228
+là xem dx như 1 biểu thức đại số.
+
+01:24.228 --> 01:28.318
+Vậy bạn có thể nhân cả 2 vế cho dx và
+
+01:28.318 --> 01:30.517
+chúng sẽ triệt tiêu theo cách làm trong đại số,
+
+01:30.517 --> 01:32.232
+và điều đó là phổ biến.
+
+01:32.232 --> 01:35.538
+Vậy bạn có dy bằng y nhân dx,
+
+01:35.538 --> 01:38.240
+và cách thường được dùng là "Chia cả 2 vế cho y"
+
+01:38.240 --> 01:39.530
+vì điều đó là hợp lý.
+
+01:39.530 --> 01:41.148
+vì y là 1 biểu thức đại số.
+
+01:41.148 --> 01:46.085
+Nếu bạn chia cả 2 vế cho y, bạn được 1 phần y, nhân dy
+
+01:46.085 --> 01:49.425
+bằng dx.
+
+01:49.425 --> 01:51.529
+Và tiếp theo người ta thường sẽ lấy tích phân 2 vế
+
+01:51.529 --> 01:54.416
+để tìm đáp án tổng quát cho phương trình vi phân này.
+
+01:54.416 --> 01:56.477
+Nhưng mục đích của mình trong video này
+
+01:56.477 --> 01:59.237
+không phải là tìm cách giải phương trình vi phân này,
+
+01:59.237 --> 02:01.671
+mà là nghĩ về các khái niệm của
+
+02:01.671 --> 02:03.780
+các vi phân
+
+02:03.780 --> 02:06.123
+như là dx hoặc dy,
+
+02:06.123 --> 02:08.333
+và xem chúng là các biểu thức đại số.
+
+02:08.333 --> 02:10.026
+Nếu xem chúng như là các biểu thức đại số,
+
+02:10.026 --> 02:13.114
+mình có thể dễ dàng nhân 2 vế cho dx hoặc dy,
+
+02:13.114 --> 02:16.327
+hoặc chia cả 2 vế cho chúng,
+
+02:16.327 --> 02:21.204
+Mình thường không nói điều này, nhưng
+
+02:21.204 --> 02:24.153
+sự tỉ mỉ &amp; chính xác cần để chứng minh điều này là hoàn toàn đúng
+
+02:24.153 --> 02:27.282
+không ít ỏi chút nào.
+
+02:27.282 --> 02:31.069
+Và chỉ để thấy nó là tương đối đúng thôi,
+
+02:31.069 --> 02:32.846
+thì bạn đã có thể bỏ qua những bước quan trọng,
+
+02:32.846 --> 02:35.008
+và sẽ không chặt chẽ về mặt toán học.
+
+02:35.008 --> 02:37.822
+Nhưng nó lại là 1 công cụ hữu ích để ta
+
+02:37.822 --> 02:40.126
+tìm được nghiệm.
+
+02:40.126 --> 02:43.944
+Trên lý thuyết, khi mình nói về dy
+
+02:43.944 --> 02:47.745
+hoặc dx, thì nó là 1 biến thiên rất nhỏ của y
+
+02:47.745 --> 02:50.590
+xảy ra từ 1 biến thiên rất nhỏ của x.
+
+02:50.590 --> 02:52.983
+Và đó là điều mà định nghĩa
+
+02:52.983 --> 02:54.216
+của giới hạn ở đây đang nói đến.
+
+02:54.216 --> 02:56.978
+Đặc biệt là khi delta x tiến đến 0,
+
+02:56.978 --> 02:59.679
+ta sẽ có được 1 biến thiên rất nhỏ của x
+
+02:59.679 --> 03:01.603
+khi delta x tiến đến 0.
+
+03:01.603 --> 03:02.984
+Và sau đó ta sẽ có được
+
+03:02.984 --> 03:05.327
+1 biến thiên rất nhỏ của y.
+
+03:05.327 --> 03:07.169
+Vậy đó là 1 cách để có thể phần nào
+
+03:07.169 --> 03:09.157
+giải thích...
+
+03:09.157 --> 03:11.136
+Mình nhắc lại, đây là 1 trong những cách để lý giải
+
+03:11.136 --> 03:12.941
+cho dạng ký hiệu này.
+
+03:12.941 --> 03:15.533
+Vậy kết quả cho
+
+03:15.533 --> 03:17.349
+1 biến thiên rất nhỏ của y
+
+03:17.349 --> 03:19.718
+cho trước 1 biến thiên rất nhỏ của x là gì?
+
+03:19.718 --> 03:22.886
+Hoặc bạn có thể nghĩ là giá trị của giới hạn của
+
+03:22.886 --> 03:24.507
+hệ số góc ở đây là gì,
+
+03:24.507 --> 03:25.695
+khi ta đi từ hệ số góc
+
+03:25.695 --> 03:27.561
+của cát tuyến đến tiếp tuyến?
+
+03:27.561 --> 03:29.188
+Nếu bạn nghĩ như vậy thì
+
+03:29.188 --> 03:33.104
+bạn sẽ phần nào thoải mái hơn khi dùng vi phân,
+
+03:33.104 --> 03:34.559
+hoặc áp dụng chúng theo cách làm đại số.
+
+03:34.559 --> 03:36.292
+Mình sẽ nhân 2 vế này cho
+
+03:36.292 --> 03:39.372
+biến thiên rất nhỏ của x.
+
+03:39.372 --> 03:41.800
+Về đường dài, đây là cách làm
+
+03:41.800 --> 03:43.469
+bạn sẽ thường gặp,
+
+03:43.469 --> 03:47.087
+trong các lớp về phương trình vi phân cơ bản,
+
+03:47.087 --> 03:49.303
+đa biến cơ bản,
+
+03:49.303 --> 03:51.127
+và toán giải tích cơ bản.
+
+03:51.127 --> 03:53.573
+Nhưng cũng không đúng đắn về mặt toán học lắm
+
+03:53.573 --> 03:57.206
+khi xem xét các vi phân như các biểu thức đại số.
+
+03:57.206 --> 03:59.076
+Nhưng dù nó không chính xác về mặt toán học
+
+03:59.076 --> 04:01.778
+khi làm tắt như vậy,
+
+04:01.778 --> 04:04.266
+thì nó vẫn rất hữu ích.
+
+04:04.266 --> 04:06.370
+Khi bạn học sâu hơn
+
+04:06.370 --> 04:08.686
+về toán học, có những định nghĩa về vi phân
+
+04:08.686 --> 04:10.267
+sẽ chính xác hơn.
+
+04:10.267 --> 04:11.889
+Từ đó, bạn có thể phần nào nhận định được
+
+04:11.889 --> 04:13.778
+khi nào phù hợp để dùng nó và
+
+04:13.778 --> 04:14.801
+khi nào thì không.
+
+04:14.801 --> 04:16.357
+Nhưng ý chính vẫn là,
+
+04:16.357 --> 04:18.609
+nếu bạn thấy lạ lẫm khi nhân
+
+04:18.609 --> 04:22.384
+cả 2 vế hoặc chia cả 2 vế cho dx hoặc dy
+
+04:22.384 --> 04:25.426
+thì điều đó là hoàn toàn hợp lý
+
+04:25.426 --> 04:27.833
+vì nó không chặt chẽ về mặt toán học lắm.
+
+04:27.833 --> 04:31.908
+Cho đến khi bạn nhận định tốt hơn
+
+04:31.908 --> 04:33.755
+thì bạn có thể an tâm là
+
+04:33.755 --> 04:36.509
+ở cấp độ cơ bản, bạn có thể thoải mái dùng nó để
+
+04:36.509 --> 04:39.470
+giải và biến đổi
+
+04:39.470 --> 04:42.862
+các phương trình vi phân cơ bản.

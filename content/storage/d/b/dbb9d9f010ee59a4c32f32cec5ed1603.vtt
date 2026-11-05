@@ -1,0 +1,759 @@
+WEBVTT
+
+00:00.512 --> 00:01.983
+- [Voiceover] What we're
+gonna cover in this video
+
+00:01.983 --> 00:04.329
+is the intermediate value theorem.
+
+00:04.329 --> 00:07.547
+Which, despite some of this
+mathy language you'll see
+
+00:07.547 --> 00:09.996
+is one of the more intuitive theorems
+
+00:09.996 --> 00:12.479
+possibly the most
+intuitive theorem you will
+
+00:12.479 --> 00:14.598
+come across in a lot of your
+
+00:14.598 --> 00:16.415
+mathematical career.
+
+00:16.415 --> 00:18.541
+So first I'll just read it out
+
+00:18.541 --> 00:19.968
+and then I'll interpret it and hopefully
+
+00:19.968 --> 00:22.546
+we'll all appreciate
+that it's pretty obvious.
+
+00:22.546 --> 00:24.449
+I'm not going to prove it here.
+
+00:24.449 --> 00:27.127
+But, I think the conceptual
+underpinning here is
+
+00:27.127 --> 00:28.879
+it should be straightforward.
+
+00:28.879 --> 00:32.311
+So the theorem tells us
+that suppose F is a function
+
+00:32.311 --> 00:35.715
+continuous at every point of the interval
+
+00:35.715 --> 00:38.697
+the closed interval, so
+we're including A and B.
+
+00:38.697 --> 00:41.128
+So it's continuous at every
+point of the interval A, B.
+
+00:41.128 --> 00:43.633
+Let me just draw a couple of examples
+
+00:43.633 --> 00:45.531
+of what F could look like just
+
+00:45.531 --> 00:47.601
+based on these first lines.
+
+00:47.601 --> 00:50.588
+Suppose F is a function
+continuous at every point
+
+00:50.588 --> 00:52.970
+of the interval A, B.
+
+00:52.970 --> 00:56.283
+So let me draw some axes here.
+
+00:56.283 --> 00:57.950
+So that's my Y axis.
+
+01:00.014 --> 01:01.847
+And this is my X axis.
+
+01:03.868 --> 01:05.850
+So, one situation
+
+01:05.850 --> 01:06.933
+if this is A.
+
+01:08.542 --> 01:10.356
+And this is B.
+
+01:10.356 --> 01:13.201
+F is continuous at every
+point of the interval
+
+01:13.201 --> 01:15.102
+of the closed interval A and B.
+
+01:15.102 --> 01:17.302
+So that means it's got
+to be for sure defined
+
+01:17.302 --> 01:18.734
+at every point.
+
+01:18.734 --> 01:21.116
+As well, as to be continuous you have
+
+01:21.116 --> 01:22.734
+to defined at every point.
+
+01:22.734 --> 01:26.810
+And the limit of the function
+that is recorded at that point
+
+01:26.810 --> 01:30.645
+should be equal to the value
+of the function of that point.
+
+01:30.645 --> 01:33.263
+And so the function is
+definitely going to be defined
+
+01:33.263 --> 01:34.910
+at F of A.
+
+01:34.910 --> 01:36.281
+So it's definitely going to have an F of A
+
+01:36.281 --> 01:37.375
+right over here.
+
+01:37.375 --> 01:38.964
+That's right over here
+
+01:38.964 --> 01:39.797
+is F of A.
+
+01:41.125 --> 01:42.938
+Maybe F of B is higher.
+
+01:42.938 --> 01:45.838
+Although we can look at different cases.
+
+01:45.838 --> 01:48.171
+So that would be our F of B.
+
+01:49.480 --> 01:52.239
+And they tell us it is
+a continuous function.
+
+01:52.239 --> 01:53.849
+It is a continuous function.
+
+01:53.849 --> 01:56.439
+So if you're trying to
+imagine continuous functions
+
+01:56.439 --> 01:57.942
+one way to think about it is
+
+01:57.942 --> 01:59.854
+if we're continuous over an interval
+
+01:59.854 --> 02:01.344
+we take the value of the function at
+
+02:01.344 --> 02:02.627
+one point of the interval.
+
+02:02.627 --> 02:04.809
+And, if it's continuous
+we need to be able to
+
+02:04.809 --> 02:07.410
+get to the other, the
+value of the function
+
+02:07.410 --> 02:09.060
+at the other point of the interval
+
+02:09.060 --> 02:10.986
+without picking up our pencil.
+
+02:10.986 --> 02:13.828
+So, I can do all sorts of things
+
+02:13.828 --> 02:15.727
+and it still has to be a function.
+
+02:15.727 --> 02:18.960
+So, I can't do something like that.
+
+02:18.960 --> 02:20.324
+But,
+
+02:20.324 --> 02:22.117
+as long as I don't pick up my pencil
+
+02:22.117 --> 02:23.860
+this is a continuous function.
+
+02:23.860 --> 02:25.028
+So, there you go.
+
+02:25.028 --> 02:27.627
+If the somehow the graph
+
+02:27.627 --> 02:29.612
+I had to pick up my pencil.
+
+02:29.612 --> 02:31.291
+If I had to do something like this
+
+02:31.291 --> 02:33.511
+oops, I got to pick up my
+pencil do something like that,
+
+02:33.511 --> 02:35.067
+well that's not continuous anymore.
+
+02:35.067 --> 02:36.896
+If I had to do something like this
+
+02:36.896 --> 02:38.354
+and oops, pick up my pencil
+
+02:38.354 --> 02:39.744
+not continuous anymore.
+
+02:39.744 --> 02:41.525
+If I had to do something like
+
+02:41.525 --> 02:42.540
+wooo.
+
+02:42.540 --> 02:44.826
+Whoa, okay, pick up my
+pencil, go down here,
+
+02:44.826 --> 02:46.310
+not continuous anymore.
+
+02:46.310 --> 02:48.609
+So, this is what a continuous function
+
+02:48.609 --> 02:50.497
+that a function that is continuous
+
+02:50.497 --> 02:52.320
+over the closed interval A, B looks like.
+
+02:52.320 --> 02:53.621
+I can draw some other examples, in fact,
+
+02:53.621 --> 02:55.014
+let me do that.
+
+02:55.014 --> 02:56.797
+So let me draw
+
+02:56.797 --> 02:57.630
+one.
+
+02:57.630 --> 02:59.733
+Maybe where F of B is less than
+
+02:59.733 --> 03:01.120
+F of A.
+
+03:01.120 --> 03:03.246
+So it's my Y axis.
+
+03:03.246 --> 03:04.413
+And this is my
+
+03:05.650 --> 03:06.483
+X axis.
+
+03:07.461 --> 03:09.047
+And once again, A and B don't both
+
+03:09.047 --> 03:10.164
+have to be positive,
+
+03:10.164 --> 03:11.292
+they can both be negative.
+
+03:11.292 --> 03:14.313
+One could be, A could be negative.
+
+03:14.313 --> 03:16.711
+B could be positive.
+
+03:16.711 --> 03:19.132
+And maybe in this situation.
+
+03:19.132 --> 03:20.744
+And F of A and F of B
+
+03:20.744 --> 03:22.630
+it could also be a positive or negative.
+
+03:22.630 --> 03:25.066
+But let's take a situation where this is
+
+03:25.066 --> 03:25.899
+F of A.
+
+03:27.095 --> 03:28.485
+So that, right over there,
+
+03:28.485 --> 03:29.318
+is F of A.
+
+03:30.476 --> 03:31.766
+This right over here
+
+03:31.766 --> 03:32.599
+is F of B.
+
+03:33.936 --> 03:34.769
+F of B.
+
+03:35.682 --> 03:37.112
+And once again we're saying F is a
+
+03:37.112 --> 03:38.666
+continuous function.
+
+03:38.666 --> 03:40.385
+So I should be able to go from F of A
+
+03:40.385 --> 03:41.455
+to F of B
+
+03:41.455 --> 03:43.000
+F of B draw a function
+
+03:43.000 --> 03:44.956
+without having to pick up my pencil.
+
+03:44.956 --> 03:47.558
+So it could do something like this.
+
+03:47.558 --> 03:49.537
+Actually I want to make it go vertical.
+
+03:49.537 --> 03:51.172
+It could go like this
+
+03:51.172 --> 03:52.620
+and then go down.
+
+03:52.620 --> 03:53.556
+And then
+
+03:53.556 --> 03:54.819
+do something
+
+03:54.819 --> 03:55.821
+like that.
+
+03:55.821 --> 03:57.374
+So these are both cases
+
+03:57.374 --> 03:58.757
+and I could draw an
+infinite number of cases
+
+03:58.757 --> 04:01.252
+where F is a function
+continuous at every point
+
+04:01.252 --> 04:02.865
+of the interval.
+
+04:02.865 --> 04:05.822
+The closed interval, from A to B.
+
+04:05.822 --> 04:07.472
+Now, given that
+
+04:07.472 --> 04:09.913
+there's two ways to state the conclusion
+
+04:09.913 --> 04:11.767
+for the intermediate value theorem.
+
+04:11.767 --> 04:13.450
+You'll see it written in one of these ways
+
+04:13.450 --> 04:14.970
+or something close to one of these ways.
+
+04:14.970 --> 04:16.784
+And that's why I included both of these.
+
+04:16.784 --> 04:18.554
+So one way to say it is, well
+
+04:18.554 --> 04:20.521
+if this first statement is true
+
+04:20.521 --> 04:22.953
+then F will take on every value
+
+04:22.953 --> 04:25.690
+between F of A and F of B
+
+04:25.690 --> 04:27.052
+over the interval.
+
+04:27.052 --> 04:28.921
+And you see in both of these cases
+
+04:28.921 --> 04:30.985
+every interval, sorry, every
+
+04:30.985 --> 04:33.481
+every value between F of A
+
+04:33.481 --> 04:34.985
+and F of B.
+
+04:34.985 --> 04:36.665
+So every value here
+
+04:36.665 --> 04:39.398
+is being taken on at some point.
+
+04:39.398 --> 04:41.521
+You can pick some value.
+
+04:41.521 --> 04:44.149
+You can pick some value,
+an arbitrary value
+
+04:44.149 --> 04:45.649
+L, right over here.
+
+04:45.649 --> 04:46.482
+Oh look.
+
+04:46.482 --> 04:48.089
+L happened right over there.
+
+04:48.089 --> 04:49.172
+If you pick L
+
+04:50.241 --> 04:52.066
+well, L happened right over there.
+
+04:52.066 --> 04:53.584
+And actually it also happened there
+
+04:53.584 --> 04:55.568
+and it also happened there.
+
+04:55.568 --> 04:57.648
+And this second bullet point describes
+
+04:57.648 --> 05:00.472
+the intermediate value
+theorem more that way.
+
+05:00.472 --> 05:03.341
+For any L between the values of F and A
+
+05:03.341 --> 05:04.174
+and F of B
+
+05:05.073 --> 05:06.677
+there are exists a number C
+
+05:06.677 --> 05:08.888
+in the closed interval from A to B
+
+05:08.888 --> 05:11.192
+for which F of C equals L.
+
+05:11.192 --> 05:12.818
+So there exists at least one C.
+
+05:12.818 --> 05:14.233
+So in this case
+
+05:14.233 --> 05:16.321
+that would be our C.
+
+05:16.321 --> 05:17.870
+Over here, there's potential
+
+05:17.870 --> 05:19.879
+there's multiple candidates for C.
+
+05:19.879 --> 05:22.143
+That could be a candidate for C.
+
+05:22.143 --> 05:23.832
+That could be a C.
+
+05:23.832 --> 05:26.422
+So we could say there exists at least
+
+05:26.422 --> 05:27.436
+one number.
+
+05:27.436 --> 05:28.269
+At least
+
+05:29.863 --> 05:32.439
+one number, I'll throw that in there,
+
+05:32.439 --> 05:34.126
+at least one number C
+
+05:34.126 --> 05:36.558
+in the interval for which this is true.
+
+05:36.558 --> 05:38.737
+And, something that might amuse you
+
+05:38.737 --> 05:40.418
+for a few minutes is
+
+05:40.418 --> 05:42.352
+try to draw a function where this first
+
+05:42.352 --> 05:43.808
+statement is true.
+
+05:43.808 --> 05:46.069
+But somehow the second statement is
+
+05:46.069 --> 05:46.902
+not true.
+
+05:47.770 --> 05:49.249
+So, you say, okay, well let's say
+
+05:49.249 --> 05:51.105
+let's assume that there's an L
+
+05:51.105 --> 05:53.167
+where there isn't a C in the interval.
+
+05:53.167 --> 05:54.538
+Let me try and do that.
+
+05:54.538 --> 05:55.965
+And I'll draw it big so that
+
+05:55.965 --> 05:59.035
+we can really see how obvious
+
+05:59.035 --> 06:00.438
+that we have to take on
+
+06:00.438 --> 06:02.288
+all of the values between F and A
+
+06:02.288 --> 06:04.063
+and F of B is.
+
+06:04.063 --> 06:05.006
+So,
+
+06:05.006 --> 06:07.903
+let me draw a big axis this time.
+
+06:07.903 --> 06:10.390
+So that's my Y axis.
+
+06:10.390 --> 06:11.752
+And,
+
+06:11.752 --> 06:13.252
+that is my X axis.
+
+06:14.638 --> 06:16.654
+And I'll just do the case where
+
+06:16.654 --> 06:18.582
+just for simplicity, that is A
+
+06:18.582 --> 06:19.749
+and that is B.
+
+06:21.088 --> 06:22.171
+And let's say
+
+06:23.285 --> 06:24.952
+that this is F of A.
+
+06:25.958 --> 06:26.791
+So that is
+
+06:27.871 --> 06:29.350
+F of A.
+
+06:29.350 --> 06:30.527
+And let's say that this
+
+06:30.527 --> 06:31.360
+is F of B.
+
+06:32.882 --> 06:34.399
+Little dotted line.
+
+06:34.399 --> 06:35.232
+All right.
+
+06:35.232 --> 06:36.065
+F of B.
+
+06:36.923 --> 06:38.892
+And we assume that we
+
+06:38.892 --> 06:40.958
+we have a continuous function here.
+
+06:40.958 --> 06:42.395
+So the graph, I could draw it from
+
+06:42.395 --> 06:44.361
+F of A to F of B from this point
+
+06:44.361 --> 06:45.956
+to this point
+
+06:45.956 --> 06:47.506
+without picking up my pencil.
+
+06:47.506 --> 06:49.286
+From this coordinate A comma F of A
+
+06:49.286 --> 06:51.059
+to this coordinate B comma F of B
+
+06:51.059 --> 06:53.201
+without picking up my pencil.
+
+06:53.201 --> 06:54.926
+Well, let's assume
+
+06:54.926 --> 06:57.439
+that there is some L
+that we don't take on.
+
+06:57.439 --> 06:59.958
+Let's say there's some
+value L right over here.
+
+06:59.958 --> 07:00.791
+And,
+
+07:01.719 --> 07:04.838
+and we never take on this value.
+
+07:04.838 --> 07:07.345
+This continuous function
+never takes on this value
+
+07:07.345 --> 07:10.420
+as we go from X equaling A to X equal B.
+
+07:10.420 --> 07:11.902
+Let's see if I can draw that.
+
+07:11.902 --> 07:13.537
+Let's see if I can get
+
+07:13.537 --> 07:14.840
+from here
+
+07:14.840 --> 07:16.287
+to here
+
+07:16.287 --> 07:19.641
+without ever essentially
+crossing this dotted line.
+
+07:19.641 --> 07:21.037
+Well let's see, I could, wooo,
+
+07:21.037 --> 07:23.283
+maybe I would a little bit.
+
+07:23.283 --> 07:24.903
+But gee, how am I gonna get there?
+
+07:24.903 --> 07:26.716
+Well, without picking up my pencil.
+
+07:26.716 --> 07:28.273
+Well,
+
+07:28.273 --> 07:30.566
+well, I really need to
+cross that line,all right.
+
+07:30.566 --> 07:31.399
+Well, there you go.
+
+07:31.399 --> 07:33.551
+I found, we took on the value L
+
+07:33.551 --> 07:35.424
+and it happened at C
+
+07:35.424 --> 07:38.109
+which is in that closed interval.
+
+07:38.109 --> 07:40.871
+So once again, I'm not
+giving you a proof here.
+
+07:40.871 --> 07:43.085
+But hopefully you have a good intuition
+
+07:43.085 --> 07:45.124
+that the intermediate value theorem
+
+07:45.124 --> 07:46.447
+is kind of common sense.
+
+07:46.447 --> 07:48.690
+The key is you're dealing
+with a continuous function.
+
+07:48.690 --> 07:49.920
+If you make its graph
+
+07:49.920 --> 07:51.332
+if you were to draw it between
+
+07:51.332 --> 07:53.034
+the coordinates A comma F of A
+
+07:53.034 --> 07:54.762
+and B comma F of B
+
+07:54.762 --> 07:56.988
+and you don't pick up your pencil,
+
+07:56.988 --> 07:58.874
+which would be true of
+a continuous function.
+
+07:58.874 --> 08:00.312
+Well, it's going to take on every value
+
+08:00.312 --> 08:02.479
+between F of A and F of B.

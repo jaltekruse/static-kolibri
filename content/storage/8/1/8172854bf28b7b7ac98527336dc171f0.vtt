@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+Tässä videossa haluan perehdyttää sinut raja-arvon erittäin tärkeään käsitteeseen.
+
+00:07.132 --> 00:10.813
+Se on oikeastaan käsite johon koko differentiaali- ja integraalilaskenta pohjautuu.
+
+00:10.828 --> 00:17.036
+Mutta vaikka käsite onkin erittäin tärkeä, on se myös oikeastaan erittäin yksinkertainen asia.
+
+00:17.036 --> 00:21.075
+Joten anna piirrän tähän funktion - oikeastaan, anna määrittelen funktion
+
+00:21.075 --> 00:32.800
+tähän. Eräänlaisen yksinkertaisen funktion. Määritetään f(x) - sanotaan, että f(x) tulee olemaan (x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+Ja sinä voisit sanoa "Hei Sal, katso, osoittaja ja nimittäjähän ovat samat.
+
+00:36.084 --> 00:42.421
+Jos minulla on jotain jaettuna itsellään, se olisi sama kuin yksi! Enkö voi sieventää tämän f(x)=1?"
+
+00:42.421 --> 00:47.944
+Ja minä sanoisin, "No, olet melkein oikeassa, ero f(x)=1 ja tämän funktion
+
+00:47.944 --> 00:57.638
+välillä on että tämä on määrittelemätön kun x=1. Joten jos sijoitat - anna kirjoitan sen tähän - jos sinulla on
+
+00:57.653 --> 01:07.267
+f(1), mitä tapahtuu? Osoittajaan tulee (1-1), joka on.. anna kirjoitan sen..
+
+01:07.267 --> 01:14.605
+osoittajaan tulee 0, ja nimittäjään tulee (1-1), joka on myös 0. Joten mitä tahansa jaettuna
+
+01:14.605 --> 01:26.764
+0:lla, mukaanlukien 0/0, on määrittelemätön. Joten voit tehdä yksinkertaistuksen - voit sanoa että tämä on
+
+01:26.764 --> 01:36.867
+sama asia kuin f(x)=1, mutta sinun täytyy lisätä rajoitus ettei muuttuja x voi olla yhtäsuuri kuin 1. Nyt tämä
+
+01:36.867 --> 01:43.133
+ja tämä ovat yhtäsuuria. Molemmat näistä tulevat olemaan samanarvoisia kuin 1, kaikille muille x:n arvoille kuin 1. Mutta
+
+01:43.133 --> 01:51.340
+kun x=1, niistä tulee määrittelemättömiä. Tämä on määrittelemätön ja tämä on määrittelemätön. Joten kuinka piirtäisin kuvaajan funktiosta?
+
+01:51.340 --> 02:10.496
+Joten anna piirrän kuvaajan.. Tämä on minun y=f(x) akseli, ja tämä täällä on minun x-akseli, ja sitten sanotaan että
+
+02:10.496 --> 02:22.799
+tämä piste on x=1, tämä täällä on x=-1, tämä on y=1, tänne ylhäälle voin kirjoittaa -1, mutta
+
+02:22.799 --> 02:28.267
+se ei ole olennainen tälle funktiolle. Joten anna piirrän sen. Se on olennaisesti
+
+02:28.267 --> 02:42.600
+jokaiselle muulle x:n arvolle paitsi 1, f(x)=1. Joten se näyttää tältä.. paitsi kun x=1. Silloin f(x) on määrittelemätön, joten
+
+02:42.600 --> 02:47.800
+jätän pienen aukon tähän kohtaan, tämän ympyrän, merkitsemään että funktio
+
+02:47.800 --> 02:52.400
+on määrittelemätön - emme tiedä funktion arvoa kohdassa 1, emme ikinä määritelleet sitä.
+
+02:52.400 --> 03:00.333
+Tämä funktion määritelmä ei kerro meille mitä tehdä kohdassa 1 - se on kirjaimellisesti määrittelemätön kun x=1.
+
+03:00.333 --> 03:09.113
+Joten tämä funktio täällä, taas kerran, jos joku kysyy sinulta mitä on f(1), sanoisit..
+
+03:09.113 --> 03:14.467
+ja sanotaan, että tämä on funktion määritelmä, sanoisit x=1. Ai, odota, funktiossa on aukko
+
+03:14.467 --> 03:21.148
+täällä, joten se on määrittelemätön. Joten anna kirjoitan sen uusiksi, se on oikeastaan aika turhaa mutta kirjoitan sen uusiksi.
+
+03:21.148 --> 03:30.313
+f(1) on määrittelemätön. Mutta mitä jos kysyisin sinulta, mitä funktio lähestyy
+
+03:30.313 --> 03:44.708
+kun x=1? Ja nyt, tämä alkaa koskettaa raja-arvon ideaa. Kun x tulee lähemmäksi ja lähemmäksi yhtä..
+
+03:44.708 --> 03:51.837
+mitä funktio lähestyy? Mitä se on yhä lähempänä ja lähempänä?
+
+03:51.837 --> 03:58.909
+Vasemmalta puolelta, kuinka tahansa lähelle lukua 1 pääset, kunhan et ole luvussa 1, f(x)=1.
+
+03:58.909 --> 04:04.790
+Täältä oikealta puolelta se on täysin sama asia. Joten voisit sanoa - ja pääset
+
+04:04.790 --> 04:10.631
+lähemmäksi ja lähemmäksi ideaa kun teemme enemmän esimerkkejä - että f(x):n raja-arvo kun
+
+04:10.631 --> 04:24.933
+x (ja lim, lyhennys limitistä eli raja-arvosta) - kun x lähestyy arvoa 1 on yhtäsuuri kuin..
+
+04:24.933 --> 04:29.311
+Kun pääsemme lähemmäs, uskomattoman, äärettömän lähelle arvoa 1 kunhan emme vain ole arvossa 1..
+
+04:29.311 --> 04:33.190
+Ja meidän funktion arvosta tulee yhtäsuuri kuin 1, se on yhä lähempänä ja lähempänä arvoa 1,
+
+04:33.190 --> 04:39.684
+se on oikeastaan 1 koko ajan. Tässä tapauksessa voimme sanoa, että f(x):n raja arvo kun x lähestyy arvoa 1
+
+04:39.684 --> 04:45.395
+on 1. Joten taas kerran, tässä on hieno merkintä, sanomme vain "Katso, mitä funktio lähestyy
+
+04:45.395 --> 04:48.133
+kun x lähestyy arvoa 1?"
+
+04:48.133 --> 04:54.021
+Anna teen toisen esimerkin missä käsittelemme käyrää, jotta ymmärrät idean.
+
+04:54.021 --> 05:02.533
+Sanotaan että minulla on funktio f(x) - käytän vaihtelun vuoksi nimeä g(x).
+
+05:02.533 --> 05:09.852
+Sanotaan että g(x) on yhtäsuuri kuin - voin määritellä sen näin, voimme määritellä sen x²
+
+05:09.852 --> 05:26.082
+kun x ei ole 2, ja sanotaan että kuin x=2 se on 1. Joten jälleen kerran, aika mielenkiintoinen
+
+05:26.082 --> 05:34.133
+funktio joka - kuten näet - ei ole täysin jatkuva. Siinä on epäjatkuvuus. Anna piirrän sen.
+
+05:34.133 --> 05:48.225
+Tämä on minun y=g(x) akseli, ja tämä on minun x-akseli täällä. Sanotaan tämä on x=1, tämä on x=2,
+
+05:48.225 --> 06:01.825
+tämä taas -1, tämä -2.. Joten kaikkialla paitsi x=2, se on yhtäsuuri kuin x². Joten anna piirrän sen..
+
+06:01.825 --> 06:08.636
+Tästä tulee paraabeli, ja se näyttää tältä.. se näyttää jotenkin..
+
+06:08.636 --> 06:18.308
+Anna piirrän paremman version paraabelista. Se näyttää jotenkin tältä, ei kauneimmin
+
+06:18.308 --> 06:24.341
+piirretty paraabeli paraabelien piirtämisen historiassa, mutta uskon että saat tästä käsityksen miltä paraabeli
+
+06:24.341 --> 06:32.991
+näyttää, toivottavasti. Sen pitäisi olla symmetrinen.. Anna piirrä sen vielä uudestaan, koska tämä on aika ruma.
+
+06:32.991 --> 06:38.467
+Nyt se näyttää paremmalta, okei, tässä. Hyvä.
+
+06:38.467 --> 06:48.867
+Nyt, tämän on pelkän x² käyrä, mutta se ei ole x² kun x=2. Joten taas, kun x=2,
+
+06:48.867 --> 06:55.428
+meillä pitää olla vähän epäjatkuvuutta täällä, joten piirrän pienen aukon tänne,
+
+06:55.428 --> 07:00.478
+koska kun x=2, funktion arvo on 1.
+
+07:00.478 --> 07:09.566
+En piirrä näitä samaan mittakaavaan.. Käyrällä g(x)=x² tämä olisi 4, tämä olisi 2,
+
+07:09.616 --> 07:23.547
+tämä olisi 1, tämä olisi 3. Joten, x=2, funktiomme arvo on 1.
+
+07:23.547 --> 07:27.856
+Tämä on aika kummallinen funktio, mutta voit määritellä sen näin, voit määritellä funktion kuinka
+
+07:27.856 --> 07:36.667
+haluat itse määritellä sen! Joten katso, huomaa, että se on kuin käyrä g(x)=x², paitsi kun pääset x:n arvoon 2,
+
+07:36.667 --> 07:48.252
+siinä on tämä aukko, koska et käytä funktiota "g(x)=x²" kun x=2, vaan käytät funktiota "g(x)=1".
+
+07:48.252 --> 07:50.848
+Jos olen sanonut f(x), pahoitteluni.
+
+07:50.848 --> 08:04.914
+Käytät funktiota g(x)=1, joten tarkalleen luvun 2 kohdalla se tippuu yhteen, ja sitten se jatkaa x² mukaisesti.
+
+08:04.914 --> 08:11.241
+Joten on vielä pari asiaa. Jos minun pitäisi vain arvioida funktiota - g(2),
+
+08:11.241 --> 08:15.933
+katso tätä määritelmää. Kun x=2, käytän tätä tapausta täällä,
+
+08:15.933 --> 08:21.538
+ja se kertoo minulle se tulee olemaan yhtäsuuri kuin 1. Anna kysyn mielenkiintoisen kysymyksen, tai jopa vielä
+
+08:21.538 --> 08:32.149
+mielenkiintoisemman kysymyksen. Mikä on g(x):n raja-arvo kun x lähestyy lukua 2? Taas hieno merkintä, mutta
+
+08:32.149 --> 08:38.502
+kysymys kysyy jotakin aika yksinkertaista. Se sanoo "kun x lähenee arvoa 2...
+
+08:38.502 --> 08:42.240
+kun se lähestyy ja lähestyy - ja tämä ei ole tarkka määritelmä, teemme sen tulevissa videoissa -
+
+08:42.240 --> 08:52.979
+kun x lähestyy ja lähestyy lukua 2, mitä g(x) lähestyy? Joten jos päästään lukuun 1.9, ja sitten 1.999, ja sitten 1.999999
+
+08:52.979 --> 09:00.518
+ja sitten 1.9999999, mitä g(x) lähestyy? Jos lähestytään positiiviselta puolelta,
+
+09:00.518 --> 09:06.656
+ja olemme arvossa 2.1, mikä on g(2.1)? Mikä on g(2.01)? Mikä on g(2.001)?
+
+09:06.656 --> 09:09.995
+Mitä lähestymme kun pääsemme lähemmäs ja lähemmäs sitä?
+
+09:09.995 --> 09:15.733
+Ja näet sen visuaalisesti piirtämällä käyrän. Kun g lähestyy ja lähestyy kahta..
+
+09:15.733 --> 09:20.518
+Ja kun me seuraamme käyrää, näemme että lähestymme arvoa 4,
+
+09:20.518 --> 09:26.545
+vaikka se ei ole missä funktio on - funktio tippuu alas yhteen - g(x):n raja-arvo kun
+
+09:26.545 --> 09:33.405
+x lähestyy arvoa 2 on 4. Voit tehdä tämän myös numeerisesti käyttämällä laskinta.
+
+09:33.405 --> 09:39.907
+Ja anna teen sen, koska luulen että siitä tulee kiinnostavaa. Otan laskimen..
+
+09:39.907 --> 09:49.041
+Otan luotettavan laskimeni ulos.. tässä on laskimeni.. Joten voit numerisesti sanoa,
+
+09:49.041 --> 09:57.995
+ok, mitä se lähestyy kun lähestyt x=2? Koitetaan 1.9. Kun x=1.9, käytät tätä
+
+09:57.995 --> 10:05.549
+ylempää lauseketta, täällä näin. Saisit 1.9², joten saisit 3.61.
+
+10:05.549 --> 10:11.683
+No, mitä jos lähestytään vielä lähemmäs kahta? 1.99, ja taas korotetaan se toiseen potenssiin,
+
+10:11.683 --> 10:21.683
+saamme 3.96. Mitä jos korotan1.999 toiseen?
+
+10:21.683 --> 10:27.991
+Saan 3.996. Huomaa, pääsen lähemmäs ja lähemmäs pistettämme.
+
+10:27.991 --> 10:37.546
+Jos pääsisin erittäin lähelle - 1.999999999999²? Mihin pääsen? Se ei oikeastaa ole
+
+10:37.546 --> 10:41.508
+tarkalleen 4 - laskin pyöristi sen - sillä olemme luvussa erittäin erittäin
+
+10:41.508 --> 10:47.456
+erittäin lähellä lukua 4.Ja voimme tehdä jotain myös positiiviselta suunnalta, myös, ja sen on itseasiassa
+
+10:47.456 --> 10:52.083
+oltava sama lähestyessämme alhaalta
+
+10:52.083 --> 11:00.702
+kuin lähestyessämme ylhäältä. Joten jos koitamme 2.1², pääsemme lukuun 4.4..
+
+11:00.702 --> 11:02.902
+Anna menen pari askelta edelle..
+
+11:02.902 --> 11:09.256
+2.0001². Tämä on paljon lähempänä lukua 2. Nyt pääsemme paljon lähemmäs lukua 4.
+
+11:09.256 --> 11:12.929
+Joten lähemmäs lukua 2 menemme, näyttää siltä että pääsemme lähemmäs lukua 4.
+
+11:12.929 --> 11:20.333
+Joten jälleen kerran tämä on numeerinen tapa nähdä että g(x):n raja arvo kun x lähestyy lukua 2 kummalta tahansa suunnalta -
+
+11:20.333 --> 11:25.000
+vaikka täsmälleen arvossa 2, funktio on 1, koska se on epäjatkuva -
+
+11:25.000 --> 11:31.070
+raja-arvo kun lähestymme kahta, pääsemme lähemmäs ja lähemmäs ja lähemmäs lukua 4.

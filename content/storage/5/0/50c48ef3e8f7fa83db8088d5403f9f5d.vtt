@@ -1,0 +1,429 @@
+WEBVTT
+
+00:00.720 --> 00:06.190
+Funkce - a teď o ní budu mluvit
+ve velice abstraktních pojmech - je něco,
+
+00:06.190 --> 00:11.334
+co si vezme vstup, přežvýká ho,
+
+00:11.334 --> 00:14.080
+podívá se na ten vstup,
+něco s tím vstupem udělá.
+
+00:14.080 --> 00:20.230
+A v závislosti na tom, co je to za vstup,
+vytvoří určitý výstup.
+
+00:20.230 --> 00:22.200
+Co je příkladem funkce?
+
+00:22.200 --> 00:27.600
+Mohu mít něco jako f(x),
+
+00:27.600 --> 00:31.220
+kde 'x' je nejčastější název proměnné
+označující vstup do funkce.
+
+00:31.220 --> 00:33.430
+A co se týče názvu funkce,
+
+00:33.430 --> 00:35.650
+'f' bývá použito nejčastěji.
+
+00:35.650 --> 00:41.680
+Ale jak uvidíte, dají se použít i jiná
+označení. A můžeme mít f(x) je rovno
+
+00:41.680 --> 00:48.360
+například x na druhou,
+jestliže x je sudé.
+
+00:48.360 --> 00:59.680
+A například f(x) je rovno x plus 5,
+pokud x je liché.
+
+00:59.680 --> 01:03.760
+Co se stane, když do funkce
+vložíme hodnotu 2?
+
+01:03.760 --> 01:06.320
+Způsob, kterým označíme
+zadání vstupu '2' je ten,
+
+01:06.320 --> 01:10.730
+že chceme vyhodnotit funkci
+se vstupem '2'.
+
+01:10.730 --> 01:14.760
+Pojďme vložit hodnotu '2'
+do naší funkce f.
+
+01:14.760 --> 01:17.510
+Všude, kde uvidíme toto 'x',
+tuto proměnnou,
+
+01:17.510 --> 01:20.900
+jej můžeme nahradit naším vstupem.
+
+01:21.220 --> 01:21.980
+Takže:
+
+01:21.980 --> 01:24.810
+Pokud je číslo 2 sudé, umocníme ho.
+
+01:24.810 --> 01:27.870
+Pokud je číslo 2 liché, přičteme k němu 5.
+
+01:27.870 --> 01:31.670
+Jelikož 2 je sudé číslo,
+tak ho umocníme.
+
+01:31.670 --> 01:36.250
+V tomto případě tedy f(2)
+bude rovno 2 na druhou, tedy 4.
+
+01:36.250 --> 01:40.460
+Jaká asi bude hodnota f(3)?
+
+01:40.460 --> 01:42.640
+Pro zopakování - všechny
+výskyty této proměnné
+
+01:42.640 --> 01:44.755
+nahradíme naším vstupem.
+
+01:48.110 --> 01:54.950
+Takže f(3) je rovno 3 na druhou, pokud
+je 3 sudé, a 3 plus 5 pokud je 3 liché.
+
+01:54.950 --> 01:57.390
+Jelikož 3 je liché, výsledkem bude
+součet 3 plus 5.
+
+01:57.390 --> 02:02.250
+Což se rovná číslu 8.
+
+02:02.250 --> 02:03.990
+Asi si říkáte "To je skvělé!"
+
+02:03.990 --> 02:06.900
+To byl zajímavý způsob definování funkce,
+
+02:06.900 --> 02:09.139
+způsob, jak "sežvýkat" tato čísla.
+
+02:09.139 --> 02:12.217
+Ale mohl jsem to vyjádřit tradičním
+způsobem, tedy obyčejnými rovnicemi,
+
+02:12.217 --> 02:16.130
+obzvlášť díky tomu, že jste mi dovolili
+použít tuto "složenou závorku".
+
+02:16.140 --> 02:21.790
+Co dokáže vyjádřit funkce oproti mé
+obvyklé sadě matematických nástrojů?
+
+02:22.160 --> 02:25.880
+Funkci můžete také zapsat například takto:
+
+02:25.880 --> 02:27.790
+Teď přestanu používat 'f' a 'x'
+
+02:27.790 --> 02:30.800
+a ukážu vám, že funkci lze zapsat
+mnohem obecněji.
+
+02:30.800 --> 02:45.610
+Můžu napsat: hodnota funkce h(a) se rovná
+následujícímu největšímu číslu,
+
+02:45.610 --> 02:57.886
+které začíná stejným písmenem
+jako proměnná a.
+
+03:00.460 --> 03:03.120
+A budeme předpokládat,
+že pracujeme v angličtině.
+
+03:03.120 --> 03:09.930
+Jaká tedy bude hodnota této funkce
+se vstupem 2 - tedy h(2)?
+
+03:09.930 --> 03:12.190
+Číslo 2 začíná znakem "t"
+(z anglického "two").
+
+03:12.190 --> 03:14.210
+Jaké je další číslo, které začíná na "t"?
+
+03:14.210 --> 03:18.610
+Je to číslo 3 (z anglického "three").
+
+03:18.610 --> 03:25.210
+Jaká by byla například hodnota
+této funkce h
+
+03:25.210 --> 03:27.990
+se vstupem 8, tedy h(8) ?
+
+03:27.990 --> 03:30.400
+Číslo 8 začíná písmenem "e"
+(z anglického "eight").
+
+03:30.400 --> 03:34.890
+Další největší číslo, které začíná
+na "e", není 9, ani 10.
+
+03:34.890 --> 03:37.400
+Je to 11 (z anglického "eleven").
+
+03:37.400 --> 03:42.100
+Takže vidíte, že funkce jsou opravdu
+velmi, velmi obecný nástroj.
+
+03:42.100 --> 03:44.630
+Podívejme se na tuto funkci h,
+kterou jsme si teď definovali.
+
+03:44.630 --> 03:47.890
+Vezmeme si první písmeno z anglického
+názvu daného čísla.
+
+03:47.890 --> 03:50.960
+Takže ta funkce dělá opravdu divné věci.
+
+03:50.960 --> 03:53.070
+Ne všechny funkce
+musí být takhle zvláštní.
+
+03:53.070 --> 03:55.950
+Ve skutečnosti jste se
+s funkcemi již setkali.
+
+03:55.950 --> 04:02.340
+Už jste viděli věci jako
+y se rovná x plus 1.
+
+04:02.340 --> 04:04.080
+Toto můžeme brát za funkci.
+
+04:04.080 --> 04:11.250
+'y' můžeme zapsat jako funkci proměnné
+'x', která se rovná x plus 1.
+
+04:11.760 --> 04:17.390
+Pokud vezmete například vstup…
+Zapíšu to tímto způsobem…
+
+04:17.390 --> 04:24.950
+Například pokud x je 0, můžeme říct,
+že hodnota funkce f(0) je…
+
+04:24.950 --> 04:26.860
+Vezmete 0 a přičtete 1.
+
+04:26.860 --> 04:28.440
+Výsledek je tedy 1.
+
+04:28.440 --> 04:30.447
+Např. f(2) se rovná 3 (chyba ve videu).
+
+04:30.447 --> 04:31.780
+Toto už jste určitě viděli.
+
+04:31.780 --> 04:33.760
+Už jste určitě řešili příklady,
+
+04:33.760 --> 04:37.250
+kde jste měli tabulku s čísly x
+a měli jste doplnit hodnoty y.
+
+04:37.250 --> 04:40.230
+Pokud se x rovná 0, y se rovná 1.
+
+04:40.230 --> 04:42.990
+Omlouvám se.
+
+04:42.990 --> 04:44.150
+Udělal jsem tu chybičku.
+
+04:44.150 --> 04:46.660
+Hodnota funkce f(2) se rovná 3.
+
+04:46.660 --> 04:48.920
+Už jste určitě měli příklady
+s tabulkami,
+
+04:48.920 --> 04:51.470
+kde jste měli sloupečky
+označené 'x' a 'y'.
+
+04:51.470 --> 04:53.650
+Pokud x má hodnotu 0, y má hodnotu 1.
+
+04:53.650 --> 04:57.151
+Pokud x má hodnotu 2, y má hodnotu 3.
+
+04:57.151 --> 05:00.620
+Můžete si říct:
+"Proč jsme používali tenhle zápis funkce,
+
+05:00.620 --> 05:03.860
+abychom řekli, že hodnota funkce 'f'
+se vstupem 'x' se rovná x plus 1?"
+
+05:03.860 --> 05:07.390
+Pointou je přemýšlet v obecnější rovině.
+
+05:07.390 --> 05:11.230
+Pro něco takovéhoto jste nemuseli
+představit koncept zápisu funkce.
+
+05:11.230 --> 05:17.467
+Ale není na škodu představit zápis funkce,
+protože to ujasní, že funkce vezme vstup.
+
+05:17.467 --> 05:23.830
+Vezme moje 'x', "přežvýká ho" a řekne si,
+OK, x plus 1.
+
+05:23.830 --> 05:26.500
+A "vyplivne" číslo o 1 větší.
+
+05:26.500 --> 05:31.100
+Takže tady, nehledě na vstup, výstup bude
+vždy o 1 větší než ta původní funkce.
+
+05:31.100 --> 05:35.070
+Teď se nejspíš ptáte: "Dobře, ale co tedy
+není funkce?"
+
+05:35.260 --> 05:38.240
+Vzpomeňte, jak jsme řekli, že funkce
+je něco, co vezme vstup
+
+05:38.240 --> 05:42.750
+a vyprodukuje pro něj právě jeden
+možný výstup.
+
+05:43.000 --> 05:49.900
+Například… A teď se zaměřím na to, jak
+znázornit funkci nebo vztah graficky…
+
+05:49.900 --> 05:56.540
+Řekněme, že toto je osa y
+a toto je osa x.
+
+05:57.021 --> 06:05.720
+Nakreslím kružnici s poloměrem 2.
+
+06:05.720 --> 06:07.950
+Takže, kružnice s poloměrem 2.
+
+06:07.950 --> 06:09.300
+Toto je -2.
+
+06:09.300 --> 06:11.120
+Toto je 2.
+
+06:11.120 --> 06:12.730
+Toto je -2.
+
+06:12.730 --> 06:15.940
+Takže má kružnice se středem v počátku.
+
+06:15.940 --> 06:17.330
+Má poloměr 2.
+
+06:17.330 --> 06:20.560
+Tak, toto je nejlépe nakreslená kružnice,
+kterou dovedu.
+
+06:20.560 --> 06:21.920
+Zvýrazním čáry.
+
+06:21.920 --> 06:23.130
+Tak, toto je kružnice.
+
+06:23.130 --> 06:28.310
+Rovnice kružnice je: x na druhou plus
+y na druhou je rovno poloměr na druhou,
+
+06:28.310 --> 06:30.650
+je rovno 2 na druhou, neboli je rovno 4.
+
+06:31.030 --> 06:34.110
+Otázkou je, je tento vztah mezi x a y…
+
+06:34.110 --> 06:35.617
+Tady jsem jej vyjádřil rovnicí,
+
+06:35.617 --> 06:38.820
+tady jsem graficky nakreslil všechny
+hodnoty x a všechny hodnoty y,
+
+06:38.820 --> 06:41.010
+které splňují tuto rovnici…
+
+06:41.010 --> 06:44.610
+Je tento vztah mezi x a y funkce?
+
+06:45.300 --> 06:48.110
+A z nákresu můžeme vidět, že není.
+
+06:48.520 --> 06:50.040
+Vezmete zadané x.
+
+06:50.040 --> 06:53.340
+Řekněme, že x se rovná 1.
+
+06:53.890 --> 06:56.950
+Jsou 2 možná y, která jsou s ním spojena,
+
+06:56.950 --> 07:00.253
+toto y tady nahoře a toto y tady dole.
+
+07:00.253 --> 07:02.950
+Mohli jsme na to dokonce přijít jen
+pohledem na rovnici.
+
+07:02.950 --> 07:07.070
+Když se x rovná 1, dostaneme,
+1 na druhou plus y na druhou je rovno 4.
+
+07:07.493 --> 07:11.390
+1 plus y na druhou se rovná 4.
+
+07:11.390 --> 07:15.720
+Nebo odečtu 1 z obou stran a dostanu, že
+y na druhou se rovná 3.
+
+07:15.720 --> 07:20.830
+Respektive y se rovná +- odmocnina ze 3.
+
+07:20.830 --> 07:23.720
+Toto nahoře je odmocnina ze 3
+
+07:23.720 --> 07:26.700
+a toto dole je -odmocnina ze 3.
+
+07:26.700 --> 07:33.840
+Takže tato situace, tento vztah,
+kde jsem vložil 1 do této malé krabičky
+
+07:34.200 --> 07:41.040
+a spojil jsem ji jak s odmocninou ze 3,
+tak i s -odmocninou ze 3,
+
+07:41.040 --> 07:46.940
+toto není funkce.
+
+07:46.940 --> 07:51.470
+Nemůžu se svým vstupem spojit
+dva různé výstupy.
+
+07:51.470 --> 07:55.700
+Mohu mít pro svůj vstup
+vždy právě jeden výstup.

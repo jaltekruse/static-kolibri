@@ -1,0 +1,289 @@
+WEBVTT
+
+00:00.520 --> 00:03.040
+Já vimos uma definição da
+integral definida
+
+00:03.040 --> 00:04.970
+E muitas delas são relacionadas
+
+00:04.970 --> 00:06.870
+com aquela que nós vimos, ou seja, que
+
+00:06.870 --> 00:09.680
+A integral definida de f de x
+dx
+
+00:09.680 --> 00:15.270
+é a área sombreada em azul, e podemos
+aproximá-la pela substituição
+
+00:15.270 --> 00:23.070
+da curva por n retângulos, então
+digamos que este é o primeiro retângulo, 1
+
+00:23.070 --> 00:25.470
+Este é o segundo retângulo, 2.
+
+00:25.470 --> 00:27.980
+E você vai até o fim desta sequência,
+
+00:27.980 --> 00:31.360
+que é o n-ésimo retângulo, tal que
+este será o (n-1)-ésimo retângulo
+
+00:31.360 --> 00:33.300
+E com este argumento eu irei fazer
+
+00:33.300 --> 00:35.710
+este vídeo, assumirei que todos
+são da mesma largura
+
+00:35.710 --> 00:39.730
+Este é o n-ésimo retângulo, e todos eles
+possuem a mesma largura.
+
+00:39.730 --> 00:41.760
+E sabemos que existem definições
+de integrais
+
+00:41.760 --> 00:43.770
+onde não é necessário
+ter a mesma largura.
+
+00:43.770 --> 00:47.390
+Mas digamos que cada uma dessas larguras
+vale delta x, e o modo
+
+00:47.390 --> 00:55.580
+como calculamos delta x é tomarmos
+b menos a e dividir por n.
+
+00:55.580 --> 00:56.840
+dividimos por n.
+
+00:56.840 --> 00:58.090
+Que é o senso comum.
+
+00:58.090 --> 00:59.660
+o que você aprendeu sobre divisão.
+
+00:59.660 --> 01:02.320
+Estamos tomando o comprimento e dividindo
+por n para obter
+
+01:02.320 --> 01:07.600
+n espaços iguais, de largura delta x.
+
+01:07.600 --> 01:08.630
+E se você fizer isto
+
+01:08.630 --> 01:10.710
+-- OK nós vimos isto várias vezes --
+
+01:10.710 --> 01:17.420
+Você pode aproximar esta área usando
+estes retângulos como a soma
+
+01:17.420 --> 01:19.820
+de i igual a 1 até n.
+
+01:19.820 --> 01:20.710
+e isto é uma soma
+
+01:20.710 --> 01:24.920
+Você está somando n áreas destes
+retângulos.
+
+01:24.920 --> 01:27.360
+Onde a altura de
+
+01:27.360 --> 01:31.520
+cada um dos reângulos vai ser f de x
+índice i
+
+01:31.520 --> 01:34.890
+onde x índice i é o ponto no qual
+
+01:34.890 --> 01:37.690
+calculamos o valor da função
+para determinar sua altura.
+
+01:37.690 --> 01:42.830
+Isto poderia ser x índice 1, índice 2...
+e assim por diante.
+
+01:42.830 --> 01:46.380
+E multiplicar aquilo por delta x.
+
+01:46.380 --> 01:48.903
+Considerando x&lt;u>2&lt;/u>, F de x&lt;u>2&lt;/u>
+é a altura, bem aqui.
+
+01:48.903 --> 01:51.440
+F de x índice 2 é a altura bem aqui,
+
+01:51.460 --> 01:58.680
+Multiplicamos isto por delta x,
+
+01:58.680 --> 02:00.440
+e obtemos a área e vemos que, quando
+
+02:00.440 --> 02:03.390
+olhamos para somas de Riemann e as usamos
+para aproximar
+
+02:03.390 --> 02:05.210
+E dizemos que a definição de
+
+02:05.210 --> 02:08.600
+integral definida é que,
+
+02:08.600 --> 02:15.280
+esta é a área, isto vai ser o limite,
+quando n se aproxima de infinito, disto.
+
+02:15.280 --> 02:19.710
+Onde delta x é definido como aquela
+divisão.
+
+02:19.710 --> 02:25.210
+Vou copiar isto e colar aqui.
+
+02:25.220 --> 02:27.780
+Então esta é uma maneira de ver
+esse processo.
+
+02:27.780 --> 02:30.260
+Agora, dada esta definição,
+
+02:30.260 --> 02:33.206
+O que você acha?
+
+02:33.206 --> 02:35.030
+Ou colocando mais explicitamente,
+
+02:35.030 --> 02:37.210
+Como você acha que esta
+
+02:37.210 --> 02:40.750
+expressão que escrevi aqui,
+
+02:40.760 --> 02:44.190
+baseada nesta definição, deve se
+relacionar com esta expressão?
+
+02:44.190 --> 02:46.361
+Note, tudo que fiz foi, ao invés de
+
+02:46.361 --> 02:47.864
+ir de a para b, agora
+
+02:47.864 --> 02:50.030
+irei de b
+
+02:50.030 --> 02:52.010
+para a.
+
+02:52.010 --> 02:54.010
+Como essas duas coisas estão
+relacionadas?
+
+02:54.010 --> 02:57.100
+Eu incentivo você a olhar para tudo isto
+e chegar a uma conclusão
+
+02:57.100 --> 02:58.220
+E a pausar o vídeo...
+
+02:58.220 --> 03:01.720
+Bem, vamos pensar sobre o
+que vai acontecer
+
+03:01.720 --> 03:05.860
+Isto vai ser, se eu literalmente tomar
+
+03:05.860 --> 03:10.040
+Isto, copiar e colar, o que
+
+03:10.040 --> 03:15.370
+é exatamente o que irei fazer. Se eu
+tomar isto, por definição
+
+03:15.370 --> 03:19.810
+desde que eu troquei aqueles dois
+limites, irei trocar estes dois.
+
+03:19.810 --> 03:23.180
+Ao invés de b menos a, será a menos b.
+
+03:23.180 --> 03:28.530
+será a menos b.
+
+03:28.540 --> 03:31.300
+Então, cada valor deste
+
+03:31.300 --> 03:34.630
+bem aqui -- deixe-me usar alguma
+cor aqui --
+
+03:34.630 --> 03:39.380
+Este delta x laranja,
+
+03:39.380 --> 03:42.750
+vai ser o negativo deste verde.
+
+03:42.750 --> 03:45.340
+deste delta x verde.
+
+03:45.340 --> 03:50.890
+Este é o negativo daquilo, e o resto
+permanece o mesmo.
+
+03:50.890 --> 03:52.770
+Então o que acabei de fazer?
+
+03:52.770 --> 03:56.580
+Bem, essencialmente eu acabarei tendo
+o valor negativo disto.
+
+03:56.580 --> 04:02.280
+Então isto vai ser igual ao negativo da
+integral de a até b.
+
+04:02.280 --> 04:07.760
+de f de x, dx, e este é o nosso resultado.
+
+04:07.760 --> 04:11.920
+Que é outra propriedade de integração
+importante. Se você trocar
+
+04:11.920 --> 04:15.480
+os limites de integração, isto vem desta
+ideia.
+
+04:15.480 --> 04:19.140
+ao invés de delta x ser b menos a,
+se você trocar os limites de integração
+
+04:19.140 --> 04:22.230
+ele vai ser a menos b, você obterá o
+delta x negativo.
+
+04:22.230 --> 04:24.130
+ou o negativo do delta x original, que
+
+04:24.130 --> 04:28.060
+vai te dar o negativo deste valor original
+bem aqui,
+
+04:28.080 --> 04:31.696
+E esta é uma propriedade de
+integração muito, muito útil, onde
+
+04:31.696 --> 04:35.312
+você tenta identificar alguns intervalos
+e até resolvê-los.
+
+04:35.312 --> 04:38.929
+Legendado por [Dory Helio Aires]

@@ -1,0 +1,529 @@
+WEBVTT
+
+00:00.000 --> 00:02.623
+Ở video này, chúng ta sẽ nhắc lại
+
+00:02.623 --> 00:04.839
+một vài khái niệm về hàm hợp
+
+00:04.839 --> 00:07.740
+và một vài dấu hiệu để giúp chúng ta nhận biết
+
+00:07.740 --> 00:10.338
+liệu một hàm số có phải là hàm hợp không?
+
+00:10.338 --> 00:13.604
+Và nếu bạn chưa bao giờ nghe đến thuật ngữ "hàm hợp"
+
+00:13.604 --> 00:15.575
+hoặc nếu bạn cảm thấy lạ lẫm ở những
+
+00:15.575 --> 00:17.166
+phút đầu của video này
+
+00:17.166 --> 00:19.997
+thì mình khuyên các bạn nên xem qua các video
+
+00:19.997 --> 00:22.720
+về hàm hợp ở phần đại số trên Khan Academy
+
+00:22.720 --> 00:24.796
+Còn mục đích của video này đó là
+
+00:24.796 --> 00:27.751
+giúp bạn luyện tập để sau này bạn có thể chuẩn bị
+
+00:27.751 --> 00:29.747
+tốt hơn khi bắt đầu học giải tích
+
+00:29.747 --> 00:32.187
+và cụ thể là quy tắc đạo hàm hàm hợp.
+
+00:32.187 --> 00:35.500
+Bây giờ chúng ta hãy nhắc lại thế nào là một hàm hợp
+
+00:35.500 --> 00:37.283
+Giả sử như mình có ở đây
+
+00:37.283 --> 00:41.350
+một hàm số f(x)
+
+00:41.350 --> 00:44.750
+bằng với lại 1 cộng x
+
+00:44.760 --> 00:48.410
+Và chúng ta có g(x)
+
+00:48.456 --> 00:52.206
+bằng với lại
+
+00:52.206 --> 00:55.573
+cos(x)
+
+00:55.573 --> 00:59.123
+Vậy thì f của g(x)
+
+00:59.208 --> 01:01.678
+sẽ bằng gì nhỉ?
+
+01:01.678 --> 01:03.651
+Và mình khuyến khích bạn hãy
+
+01:03.651 --> 01:06.549
+thử dừng video này lại và giải thử ra xem nào.
+
+01:06.549 --> 01:09.168
+Một cách để chúng ta có thể hiểu, đó là
+
+01:09.168 --> 01:11.399
+thay vì chúng ta nhập x vào f(x)
+
+01:11.399 --> 01:13.385
+thì chúng ta sẽ nhập g(x) vào
+
+01:13.385 --> 01:15.706
+Vậy nên, ở chỗ nào mà mình thấy có x
+
+01:15.706 --> 01:17.917
+trong hàm số f(x), thì mình có thể
+
+01:17.917 --> 01:19.790
+thay thế các x đó bằng g(x)
+
+01:19.790 --> 01:21.700
+Vậy nên nó sẽ bằng với lại
+
+01:21.700 --> 01:24.507
+1 cộng với lại
+
+01:24.507 --> 01:26.297
+Thay vì mình nhập x vào
+
+01:26.297 --> 01:28.961
+thì mình sẽ nhập g(x) vào, vậy nên chúng ta
+
+01:28.961 --> 01:31.444
+sẽ được 1 cộng g(x)
+
+01:31.444 --> 01:33.826
+Và g(x) thì lại chính là cos(x)
+
+01:33.826 --> 01:36.096
+Vậy nên thay vì mình viết g(x) ở đây
+
+01:36.096 --> 01:40.591
+thì mình có thể viết là cos(x)
+
+01:40.591 --> 01:43.887
+Và chúng ta có thể hình dung việc này giống như:
+
+01:43.887 --> 01:47.032
+Mình sẽ nhập giá trị x của mình vào g(x) trước
+
+01:47.032 --> 01:50.142
+rồi x sẽ đi qua hàm số g
+
+01:50.142 --> 01:52.575
+và cho chúng ta giá trị g(x)
+
+01:52.575 --> 01:55.835
+Và sau đó, chúng ta lại tiếp tục nhập giá trị g(x) đó
+
+01:55.835 --> 01:57.168
+vào f(x)
+
+01:57.168 --> 01:59.822
+hay nói chính xác hơn là cho g(x)
+
+01:59.822 --> 02:01.754
+đi qua hàm số f
+
+02:01.754 --> 02:04.852
+và chúng ta sẽ được giá trị đầu ra là f của
+
+02:04.852 --> 02:08.989
+giá trị mà mình đã nhập vào f(x) ban đầu, và giá trị mình đã nhập vào
+
+02:08.989 --> 02:10.122
+đó là g(x)
+
+02:10.122 --> 02:13.327
+Vậy là mình đã được nhắc lại khái niệm về hàm hợp rồi
+
+02:13.327 --> 02:15.887
+Bây giờ, liệu mình có thể đi ngược lại,
+
+02:15.887 --> 02:18.006
+tức lliệu mình có thể đưa
+
+02:18.006 --> 02:19.212
+một hàm số
+
+02:19.212 --> 02:21.217
+về dạng của một hàm hợp
+
+02:21.217 --> 02:23.170
+của các hàm số khác không?
+
+02:23.170 --> 02:26.310
+Vậy giả sử như mình có ở đây
+
+02:26.310 --> 02:30.274
+hàm số g(x)
+
+02:30.274 --> 02:33.924
+bằng với lại cos của
+
+02:33.964 --> 02:37.697
+sin(x) cộng 1
+
+02:37.782 --> 02:39.866
+Và mình cũng muốn nói là
+
+02:39.866 --> 02:41.993
+thường thì nó sẽ có rất nhiều cách
+
+02:41.993 --> 02:45.511
+để chúng ta hợp các hàm lại, hay là để tạo ra một hàm số mới
+
+02:45.511 --> 02:47.023
+dựa trên các hàm hợp
+
+02:47.023 --> 02:49.992
+Và như mọi khi, các bạn hãy thử dừng video này lại
+
+02:49.992 --> 02:51.844
+và hãy thử tìm một hàm hợp
+
+02:51.844 --> 02:53.723
+của hai hàm số khác sao cho
+
+02:53.723 --> 02:56.640
+hàm hợp đó có thể có dạng, ví dụ như f của h(x)?
+
+02:56.640 --> 02:59.636
+Và chúng ta có thể đi theo nhiều hướng khác nhau
+
+02:59.636 --> 03:00.890
+Bạn có thể nói là,
+
+03:00.890 --> 03:03.750
+Ở đây mình có sin(x) ở ngay đây
+
+03:03.750 --> 03:05.858
+Nên có lẽ mình sẽ gọi nó là f(x)
+
+03:05.858 --> 03:07.272
+Chẳng hạn như vậy
+
+03:07.272 --> 03:10.369
+Hay là để mình gọi nó bằng một tên khác để
+
+03:10.369 --> 03:12.399
+tránh nhầm lẫn với f(x) ở trên
+
+03:12.399 --> 03:16.006
+Hay là mình đặt nó là u(x) đi,
+
+03:16.006 --> 03:19.498
+Vậy nên g(x) bây giờ sẽ bằng với lại cos của u(x) cộng 1
+
+03:19.498 --> 03:21.209
+Và nếu chúng ta lại tiếp tục gọi
+
+03:21.209 --> 03:25.442
+một hàm số v(x) khác
+
+03:25.442 --> 03:29.275
+bằng với lại giá trị được nhập vào nó cộng với 1
+
+03:30.343 --> 03:33.375
+thì chúng ta sẽ được một hàm hợp
+
+03:33.375 --> 03:35.088
+v của u(x)
+
+03:35.088 --> 03:39.000
+Thay vì v(x), thì mình có v của u(x)
+
+03:39.000 --> 03:42.543
+và nó sẽ bằng với lại cos của u(x) cộng 1
+
+03:42.543 --> 03:43.948
+Để mình viết nó ra
+
+03:43.948 --> 03:52.208
+Vậy nếu như mình viết v của u(x),
+
+03:52.209 --> 03:54.918
+thì chúng ta sẽ được
+
+03:54.918 --> 03:58.430
+cos của, thay vì là của x cộng 1
+
+03:58.430 --> 04:00.782
+thì chúng ta sẽ được u(x) cộng 1
+
+04:00.782 --> 04:02.588
+Và u(x) của chúng ta
+
+04:02.588 --> 04:05.228
+chính là bằng sin(x)
+
+04:05.228 --> 04:07.350
+Đó là cách chúng ta đã quy ước
+
+04:07.350 --> 04:11.011
+Và bây giờ chúng ta có thể viết hoặc là cos của u(x) cộng 1
+
+04:11.011 --> 04:14.578
+hoặc là cos của sin(x) cộng 1,
+
+04:14.578 --> 04:17.320
+và nó cũng là cách viết ban đầu của mình
+
+04:17.320 --> 04:19.576
+Vậy là hàm số g(x) này
+
+04:19.576 --> 04:22.435
+nếu như mình cho u(x)
+
+04:22.435 --> 04:24.778
+bằng với sin(x)
+
+04:24.778 --> 04:29.366
+và v(x) bằng với lại cos của x cộng 1
+
+04:29.366 --> 04:32.521
+thì mình có thể viết g(x) là một hàm hợp
+
+04:32.521 --> 04:34.434
+của hai hàm số u(x) và v(x)
+
+04:34.434 --> 04:38.947
+Bây giờ thì, bạn cũng có thể viết g(x) dưới dạng hàm hợp của tận 3 hàm số
+
+04:38.947 --> 04:42.154
+Và chúng ta vẫn sẽ giữ nguyên u(x) bằng với sin(x)
+
+04:42.154 --> 04:46.854
+Nhưng bây giờ chúng ta sẽ cho một hàm số w(x) khác
+
+04:46.854 --> 04:50.339
+bằng với lại x cộng 1
+
+04:50.339 --> 04:52.620
+Vậy thì bây giờ nếu thay vì
+
+04:52.620 --> 04:54.570
+mình có w(x)
+
+04:54.570 --> 04:57.232
+thì mình sẽ thay x bằng u(x)
+
+04:57.232 --> 05:02.115
+thì mình sẽ được w của u.. để mình đổi màu bút nhé
+
+05:02.170 --> 05:06.144
+w của u(x) sẽ bằng với lại
+
+05:06.144 --> 05:10.153
+Bây giờ, bởi vì giá trị nhập vào của mình là u(x) chứ không còn là x
+
+05:10.153 --> 05:12.990
+nên chúng ta sẽ được u(x) cộng 1
+
+05:12.990 --> 05:15.731
+hay nói cách khác là sin(x) cộng 1
+
+05:15.731 --> 05:18.902
+Vậy w(x) sẽ bằng với lại sin(x) cộng 1
+
+05:18.902 --> 05:21.350
+Và bây giờ chúng ta sẽ đi xác định hàm số còn lại
+
+05:21.350 --> 05:24.670
+và mình sẽ tạm gọi nó là
+
+05:24.670 --> 05:27.421
+h(x)
+
+05:27.421 --> 05:28.876
+nhé
+
+05:28.876 --> 05:31.089
+Vậy nếu mình cho h(x) bằng với lại
+
+05:31.089 --> 05:34.354
+cos(x)
+
+05:34.354 --> 05:37.100
+thì h của w của u(x)
+
+05:37.100 --> 05:38.460
+sẽ bằng với lại g(x)
+
+05:38.460 --> 05:39.891
+Để mình viết nó ra
+
+05:39.891 --> 05:47.308
+h của w của u(x)
+
+05:47.335 --> 05:49.810
+sẽ bằng với lại gì nhỉ?
+
+05:49.810 --> 05:51.787
+Chúng ta đã đặt h(x) là cos(x)
+
+05:51.787 --> 05:54.772
+Vậy nếu ta thay x của h bằng một hàm số nào đó
+
+05:54.772 --> 05:57.341
+thì chúng ta sẽ được cos của hàm số đó
+
+05:57.341 --> 06:00.401
+Và bởi vì chúng ta đang thay x bằng w của u(x)
+
+06:00.401 --> 06:02.751
+Và chúng ta cũng đã biết w của u(x)
+
+06:02.751 --> 06:04.789
+sẽ bằng với biểu thức này đây
+
+06:04.789 --> 06:10.793
+Nên chúng ta sẽ có w của u(x) bằng với lại sin(x) cộng 1
+
+06:10.793 --> 06:12.573
+với u(x) bằng với sin(x)
+
+06:12.573 --> 06:14.849
+Vậy thì nếu ta thể x của w bằng u(x)
+
+06:14.849 --> 06:16.886
+thì mình sẽ được sin(x) cộng 1
+
+06:16.886 --> 06:19.922
+và nếu mình tiếp tục thế x của h bằng w của u(x)
+
+06:19.922 --> 06:22.384
+thì mình sẽ được cos của hàm số đó
+
+06:22.384 --> 06:25.132
+và hàm số h của mình bây giờ cũng chính là
+
+06:25.132 --> 06:27.815
+hàm g(x) ban đầu của chúng ta
+
+06:27.815 --> 06:30.744
+Vậy thì qua video này, bạn có thể sẽ hiểu được
+
+06:30.744 --> 06:32.959
+cách để nhận dạng một hàm hợp
+
+06:32.959 --> 06:36.685
+Và mình cũng muốn nhấn mạnh ở đây, rằng không phải lúc nào
+
+06:36.685 --> 06:38.988
+một hàm số cũng là một hàm hợp
+
+06:38.988 --> 06:41.431
+Ví dụ như mình có một hàm số nào đó
+
+06:41.431 --> 06:43.397
+Để mình xóa phần này
+
+06:43.397 --> 06:45.629
+Ví dụ như mình có hàm số f(x)
+
+06:45.629 --> 06:51.212
+bằng với lại cos của x nhân với sin(x)
+
+06:51.244 --> 06:53.989
+thì hàm này rất khó để chúng ta có thể
+
+06:53.989 --> 06:56.269
+đưa nó về dạng của một hàm hợp
+
+06:56.269 --> 06:59.674
+nhưng chúng ta vẫn có thể xem nó là tích của các hàm
+
+06:59.674 --> 07:01.879
+Ví dụ như mình cho
+
+07:01.879 --> 07:04.461
+u(x) bằng với cos(x)
+
+07:04.461 --> 07:07.870
+Còn v(x) thì... để mình đổi màu nhé
+
+07:07.870 --> 07:11.557
+Còn v(x) thì mình sẽ cho nó bằng với lại sin(x)
+
+07:11.557 --> 07:14.726
+Và ở trường hợp này thì f(x) không phải là hàm hợp
+
+07:14.726 --> 07:17.863
+của u và v, mà đúng hơn là tích của hai hàm số này
+
+07:17.863 --> 07:22.013
+Bởi vì f(x) bằng với u(x)
+
+07:22.013 --> 07:24.946
+nhân v(x)
+
+07:24.956 --> 07:28.146
+Và giả sử chúng ta vẫn muốn đưa về dạng hàm hợp
+
+07:28.146 --> 07:29.696
+ví dụ như là u của v(x)
+
+07:29.696 --> 07:32.629
+thì bạn hãy thử dừng video này và hãy thử xem
+
+07:32.629 --> 07:34.445
+hàm số này sẽ bằng gì?
+
+07:34.445 --> 07:37.530
+Bởi vì chúng ta có u của một hàm gì đó
+
+07:37.530 --> 07:41.058
+nên mình sẽ được cos của hàm đó, đúng hơn là của v(x)
+
+07:41.058 --> 07:45.331
+và v(x) của chúng ta thì bằng với lại
+
+07:45.331 --> 07:46.664
+sin(x)
+
+07:46.684 --> 07:48.897
+Còn nếu bạn muốn tìm v của u(x)
+
+07:48.897 --> 07:51.808
+thì nó sẽ bằng sin của cos(x), tương tự như trên
+
+07:51.808 --> 07:54.359
+Và mình mong là sau video này, các bạn
+
+07:54.359 --> 07:56.201
+sẽ có thể xác định được
+
+07:56.201 --> 07:57.995
+khi nào một hàm số là
+
+07:57.995 --> 07:59.456
+tích của các hàm
+
+07:59.456 --> 08:01.041
+hay là một hàm hợp
+
+08:01.041 --> 08:04.301
+Đôi lúc bạn sẽ gặp một hàm số là tích của các hàm hợp
+
+08:04.301 --> 08:06.203
+hay là tỉ số của các hàm hợp
+
+08:06.203 --> 08:07.921
+Nhưng bạn hãy nhớ rằng
+
+08:07.921 --> 08:11.864
+từ các hàm số ban đầu ta có thể có nhiều hàm số mới khác nhau

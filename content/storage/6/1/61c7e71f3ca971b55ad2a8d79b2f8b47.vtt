@@ -1,0 +1,527 @@
+WEBVTT
+
+00:00.303 --> 00:02.341
+Let's say that we've got the function
+
+00:02.341 --> 00:06.302
+f of x is equal to eight times the
+natural log of x minus x squared
+
+00:06.302 --> 00:09.400
+and it is defined over the closed
+interval between one and four,
+
+00:09.400 --> 00:10.500
+so it's a closed interval.
+
+00:10.500 --> 00:13.431
+it also includes one and it includes four.
+
+00:13.431 --> 00:16.006
+You can view this as the
+domain of our function
+
+00:16.006 --> 00:17.806
+as we have defined it.
+
+00:17.806 --> 00:20.998
+So given this, given this
+information, this function definition,
+
+00:20.998 --> 00:23.465
+what I would like you
+to do is come up with
+
+00:23.465 --> 00:33.650
+the absolute, absolute
+maximum value, value of f,
+
+00:33.650 --> 00:37.922
+of f as defined where f is
+defined right over here,
+
+00:37.922 --> 00:40.173
+where f is defined on
+this closed interval.
+
+00:40.173 --> 00:42.283
+And I encourage you to pause this video
+
+00:42.283 --> 00:45.200
+and think about it on your own.
+
+00:45.200 --> 00:47.965
+So the extreme value theorem tells us,
+
+00:47.965 --> 00:50.528
+look, we've got some closed
+interval - I'm going to
+
+00:50.528 --> 00:53.471
+speak in generalities here -
+so let's say that's our X axis
+
+00:53.471 --> 00:55.426
+and let's say we have some
+function that's defined
+
+00:55.426 --> 00:57.169
+on a closed interval.
+
+00:57.169 --> 00:58.807
+We have a couple of
+different scenarios for what
+
+00:58.807 --> 01:01.851
+that function might look
+like on that closed interval.
+
+01:01.851 --> 01:05.030
+So, we might hit a maximum
+point, we might hit a
+
+01:05.030 --> 01:07.874
+maximum point, at the
+beginning of the interval,
+
+01:07.874 --> 01:09.529
+something like that.
+
+01:09.529 --> 01:12.203
+We might hit an absolute
+maximum point at the end
+
+01:12.203 --> 01:15.843
+of the interval, so it might
+look something like this,
+
+01:15.843 --> 01:17.721
+so that's at the end of the interval.
+
+01:17.721 --> 01:21.979
+Or, we might hit an absolute
+maximum point someplace in between
+
+01:21.979 --> 01:24.479
+and that could look something like this,
+
+01:24.479 --> 01:27.391
+it could look like this,
+
+01:27.391 --> 01:30.566
+and at this maximum
+point, the slope of the
+
+01:30.566 --> 01:35.872
+tangent line is zero, so
+here the derivative is zero,
+
+01:35.872 --> 01:38.403
+or we could have a maximum
+point someplace in between
+
+01:38.403 --> 01:40.874
+that looks like this.
+
+01:40.874 --> 01:44.342
+And if it looks like this,
+then here the derivative
+
+01:44.342 --> 01:45.488
+would be undefined.
+
+01:45.488 --> 01:47.649
+There's a lot of different tangent lines
+
+01:47.649 --> 01:52.021
+that you could place, that you
+could place right over there.
+
+01:52.021 --> 01:54.309
+So, what we need to do is, let's test.
+
+01:54.309 --> 01:55.962
+Let's test the different endpoints.
+
+01:55.962 --> 01:58.005
+Let's test the function at the beginning,
+
+01:58.005 --> 02:00.259
+let's test the function at
+the end of the interval,
+
+02:00.259 --> 02:01.764
+and then let's see if there's any points
+
+02:01.764 --> 02:03.749
+where the derivative is either zero or
+
+02:03.749 --> 02:06.294
+the derivative is undefined.
+
+02:06.294 --> 02:07.825
+And these points where
+the derivative is either
+
+02:07.825 --> 02:10.377
+zero it is undefined,
+we've seen them before,
+
+02:10.377 --> 02:12.830
+we call these, of
+course, critical numbers.
+
+02:12.830 --> 02:15.028
+So this would be either,
+in either case actually,
+
+02:15.028 --> 02:17.334
+if we assume that that's
+happening to the same number,
+
+02:17.334 --> 02:19.851
+we would call that a critical number.
+
+02:19.851 --> 02:22.893
+Critical - a critical number.
+
+02:22.893 --> 02:24.273
+So those are the different candidates.
+
+02:24.273 --> 02:26.880
+Now you could have a critical
+number in between that,
+
+02:26.880 --> 02:28.976
+where, say, the slope is
+zero, say something like this,
+
+02:28.976 --> 02:30.569
+but it is at the maximum or minimum.
+
+02:30.569 --> 02:34.360
+But what we can do is, if we can
+find all the critical numbers,
+
+02:34.360 --> 02:37.385
+we can then test the affect,
+the function of the value
+
+02:37.385 --> 02:38.869
+of the critical numbers and the function
+
+02:38.869 --> 02:40.107
+of the value at the
+endpoints and we can see
+
+02:40.107 --> 02:41.145
+which of those are the largest.
+
+02:41.145 --> 02:43.664
+All of those are the
+possible candidates for
+
+02:43.664 --> 02:46.599
+where f hits a maximum value.
+
+02:46.599 --> 02:49.586
+So, first we could think about
+- well actually, let's just,
+
+02:49.586 --> 02:52.962
+let's find the critical numbers
+first, since we have to do it.
+
+02:52.962 --> 02:54.201
+So, let's take the derivative of f.
+
+02:54.201 --> 02:56.487
+f prime of x is going to be equal to the
+
+02:56.487 --> 02:58.961
+derivative of the natural
+log of x is one over x.
+
+02:58.961 --> 03:02.057
+so it's going to be eight over x minus 2x
+
+03:02.057 --> 03:04.427
+and let's set that equal to zero.
+
+03:04.427 --> 03:08.388
+So if we focus on this part
+right over here, we could add
+
+03:08.388 --> 03:12.732
+2x to both sides and we would
+get eight over x is equal to 2x.
+
+03:12.732 --> 03:15.420
+Multiply both sides by x,
+
+03:15.420 --> 03:18.765
+we get eight is equal to 2x squared.
+
+03:18.765 --> 03:23.096
+Divide both sides by two, you
+get four is equal to x squared.
+
+03:23.096 --> 03:25.132
+And if we were just purely
+solving this equation,
+
+03:25.132 --> 03:28.203
+we would get x is equal
+to plus or minus two.
+
+03:28.203 --> 03:30.297
+Now, we are saying that the
+function is only defined
+
+03:30.297 --> 03:33.555
+over this interval, so negative
+two is a part of its domain,
+
+03:33.555 --> 03:37.023
+so we are only going to
+focus on x is equal to two.
+
+03:37.023 --> 03:41.159
+This right over here is
+definitely a critical number.
+
+03:41.159 --> 03:43.667
+Now, have we found all
+of the critical numbers?
+
+03:43.667 --> 03:44.370
+Critical numbers.
+
+03:44.370 --> 03:46.765
+Well, this is the only number
+other than negative two,
+
+03:46.765 --> 03:48.434
+the only number in the
+interval that will make
+
+03:48.434 --> 03:50.980
+f prime of x equal to zero.
+
+03:50.980 --> 03:52.892
+What about where it's undefined?
+
+03:52.892 --> 03:55.110
+Well, f prime of x would be
+undefined, the only place where
+
+03:55.110 --> 03:57.723
+it would be undefined is if you
+stuck a zero right over here
+
+03:57.723 --> 04:01.426
+in the denominator, but zero is
+not in the interval, so the only
+
+04:01.426 --> 04:04.274
+critical number in the
+interval is x equals two.
+
+04:04.274 --> 04:07.601
+So, now we just have to test f
+at the different endpoints and
+
+04:07.601 --> 04:09.952
+at the critical number and see
+which of those is the highest.
+
+04:09.952 --> 04:13.242
+So, we're going to test
+f of one, f of one,
+
+04:13.242 --> 04:16.324
+which is equal to eight
+times the natural log of one
+
+04:16.324 --> 04:18.269
+minus one squared.
+
+04:18.269 --> 04:21.851
+We'll test f of four,
+which is equal to eight
+
+04:21.851 --> 04:25.868
+times the natural log of
+four minus four squared,
+
+04:25.868 --> 04:29.111
+which is, of course, 16, which is 16.
+
+04:29.111 --> 04:31.226
+And we're going to test f of 2.
+
+04:31.226 --> 04:33.412
+So these are the endpoints
+and this is a critical number.
+
+04:33.412 --> 04:40.164
+Eight times the natural log
+of two minus two squared.
+
+04:40.164 --> 04:43.309
+Now, which of these is
+going to be the largest?
+
+04:43.309 --> 04:44.573
+And it might be tempting
+to get a calculator out,
+
+04:44.573 --> 04:46.739
+but actually let's see if we
+can get a little intuition here.
+
+04:46.739 --> 04:51.947
+So this is, the natural log of
+one is zero, e to the zero power
+
+04:51.947 --> 04:53.378
+is equal to one.
+
+04:53.378 --> 04:57.705
+So eight times zero is zero, so
+this evaluates to negative one.
+
+04:57.705 --> 04:59.534
+Now, let's see, what
+does this evaluate to?
+
+04:59.534 --> 05:05.786
+The natural log of four, e is two
+point seven, on and on and on,
+
+05:05.786 --> 05:09.999
+so this number is going
+to be between one and two
+
+05:09.999 --> 05:13.395
+so it's going to be between one and two,
+
+05:13.395 --> 05:15.506
+and it's actually going to
+be, well, between one and two,
+
+05:15.506 --> 05:17.217
+you multiply that times
+eight and you're going
+
+05:17.217 --> 05:19.555
+to be between eight and 16,
+
+05:19.555 --> 05:23.499
+and then you subtract
+16, so that means you're
+
+05:23.499 --> 05:27.683
+going to be between
+zero and negative eight.
+
+05:27.683 --> 05:30.604
+So, okay, so that, it's not
+clear, at least not without using
+
+05:30.604 --> 05:33.254
+a calculator, or this very rough
+way, which of these is larger.
+
+05:33.254 --> 05:35.427
+Both of these are
+negative numbers, though.
+
+05:35.427 --> 05:36.666
+Now, what about this?
+
+05:36.666 --> 05:38.003
+The natural log of two.
+
+05:38.003 --> 05:40.621
+The natural log of two is
+going to be some fraction.
+
+05:40.621 --> 05:45.860
+It's going to be more than half,
+it's going to be more than half,
+
+05:45.860 --> 05:47.493
+And since it's more than
+half, this whole thing
+
+05:47.493 --> 05:48.984
+is going to be more than four, which means
+
+05:48.984 --> 05:51.635
+this whole thing is going to be positive.
+
+05:51.635 --> 05:54.502
+So this is negative, this is
+negative, this is positive.
+
+05:54.502 --> 05:56.380
+And these are only critical
+numbers, these are only
+
+05:56.380 --> 05:58.513
+candidates for our maximum value,
+
+05:58.513 --> 05:59.613
+so I would go with this one.
+
+05:59.613 --> 06:02.200
+Our maximum, our maximum value happens
+
+06:02.200 --> 06:05.613
+when x is equal to two,
+and that maximum value is
+
+06:05.613 --> 06:09.228
+eight natural log of two minus four.
+
+06:09.228 --> 06:14.930
+That is the absolute maximum
+value, absolute max value
+
+06:14.930 --> 06:16.773
+over the interval, or I guess we could say
+
+06:16.773 --> 06:19.218
+over the domain that this
+function has defined.
+
+06:19.218 --> 06:23.016
+If we want to verify it with a
+calculator we, of course, could.
+
+06:23.016 --> 06:26.000
+So, we already figured out this
+one, but let's see, f of four,
+
+06:26.000 --> 06:34.377
+eight natural log of four minus
+16 is equal to negative five.
+
+06:34.377 --> 06:37.903
+So that's, that's, this is definitely not,
+
+06:37.903 --> 06:40.639
+this one is definitely
+not the maximum value.
+
+06:40.639 --> 06:46.863
+And then f of two is eight
+natural log of two minus four
+
+06:46.863 --> 06:51.115
+which, as we said, is
+indeed a positive number.
+
+06:51.115 --> 06:54.940
+So feel pretty good about what we did.

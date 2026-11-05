@@ -1,0 +1,233 @@
+WEBVTT
+
+00:00.502 --> 00:02.969
+Vamos agora fazer revisão
+
+00:02.969 --> 00:05.853
+do Teste de Comparação e ver
+onde ele pode ser útil
+
+00:05.853 --> 00:08.972
+e talvez ver onde ele não será tão util,
+mas felizmente
+
+00:08.972 --> 00:11.568
+tambem veremos o
+Teste de Comparação dos Limites
+
+00:11.568 --> 00:15.520
+o qual pode ser útil
+em um numero maior de situações
+
+00:15.520 --> 00:18.053
+Nós ja vimos algo desse tipo.
+queremos provar que
+
+00:18.053 --> 00:20.748
+uma série infinita de n igual a 1
+até n igual a infinito
+
+00:20.748 --> 00:24.594
+de 1 dividido por 2 elevado a n mais 1
+converge. Como chegamos a esse resultado?
+
+00:24.594 --> 00:28.025
+Bom, cada um dos termos
+são maiores ou iguais a zero,
+
+00:28.056 --> 00:30.179
+e nós podemos construir outra série onde
+
+00:30.179 --> 00:32.255
+cada um dos termos correspondentes
+
+00:32.255 --> 00:34.151
+são maiores que seus correspondentes
+
+00:34.151 --> 00:37.603
+E essa outra série
+
+00:37.603 --> 00:40.901
+será
+
+00:40.901 --> 00:45.118
+1 sobre 2 elevado a n,
+que é
+
+00:45.118 --> 00:50.118
+maior que... maior que... e nós teríamos
+que dizer que
+
+00:50.651 --> 00:53.484
+é maior ou igual a, mas...
+
+00:55.093 --> 00:57.110
+vou só dizer que é maior ou igual
+
+00:57.110 --> 01:01.119
+a 1 dividido por 2 elevado a n mais 1
+
+01:01.119 --> 01:06.085
+para n = 1,2,3... até o infinito.
+Por que?
+
+01:06.085 --> 01:08.085
+Porque o denominador sempre será
+
+01:08.085 --> 01:10.719
+maior que o numerador
+se o denominador é maior
+
+01:10.719 --> 01:15.602
+então toda a expressão será menor
+
+01:15.602 --> 01:18.719
+e por isso, por todos esses termos
+serem positivos,
+
+01:18.719 --> 01:22.836
+cada termo correspondente é
+maior que o outro
+
+01:22.836 --> 01:26.267
+e pelo Teste de Comparação
+
+01:26.267 --> 01:28.700
+porque esse aqui converge
+isso me fornece um limite superior
+
+01:28.700 --> 01:31.602
+porque nós já sabemos que
+essa série converge
+
+01:31.602 --> 01:35.368
+Assim, podemos dizer:
+Por essa convergir,
+
+01:35.368 --> 01:38.652
+essa outra também converge.
+
+01:38.652 --> 01:41.650
+Vamos ver agora se conseguimos
+aplicar uma lógica similar
+
+01:41.650 --> 01:44.532
+a uma série um pouco diferente
+
+01:44.532 --> 01:46.233
+Suponha que temos a série
+
+01:46.233 --> 01:49.826
+Somatório de n=1 até n=infinito
+
+01:49.826 --> 01:52.730
+de 1 sobre 2 elevado a n, menos 1
+
+01:52.730 --> 01:54.863
+Nessa situação, será que podemos
+
+01:54.863 --> 01:58.030
+aplicar diretamente
+o Teste de Comparação?
+
+01:58.030 --> 02:00.562
+Bom...não. Porque você não pode dizer
+
+02:00.562 --> 02:03.447
+que 1 dividido por 2 elevado a n
+é maior ou igual a
+
+02:03.447 --> 02:05.573
+1 dividido por 2 elevado a n, menos 1
+
+02:05.573 --> 02:07.662
+Aqui o denominador é menor,
+o que significa que
+
+02:07.662 --> 02:10.107
+a expressão é maior,
+portanto, cada um dos termos
+
+02:10.107 --> 02:12.940
+não nos fornece
+um limite superior nesse caso.
+
+02:12.940 --> 02:15.138
+Esse é um um pouco maior,
+
+02:15.138 --> 02:17.307
+Por outro lado, você deve estar
+"ah sim, entendi"
+
+02:17.307 --> 02:19.939
+Mas olhe, a medida que n aumenta,
+2 elevado a n vai, aos poucos,
+
+02:19.939 --> 02:23.724
+dominando o -1 ou o +1,
+
+02:23.724 --> 02:26.724
+esse não tem nada a mais
+esse outro só tem 2 elevado a n
+
+02:26.724 --> 02:28.591
+O 2 elevado a n tende a descrever
+
+02:28.591 --> 02:30.591
+o comportamento que essa
+expressão terá
+
+02:30.591 --> 02:32.756
+Eu até concordaria com você,
+mas nós ainda
+
+02:32.756 --> 02:35.474
+não provamos que isso
+realmente funciona
+
+02:35.474 --> 02:39.092
+E é ai que o Teste de Comparação
+dos Limites tem grande utilidade
+
+02:39.092 --> 02:44.092
+Deixe-me escrever isso aqui:
+"Teste de comparação dos limites"
+
+02:45.641 --> 02:50.093
+E vou escrever isso aqui
+
+02:50.093 --> 02:52.109
+um pouco formal,
+mas então iremos aplicar isso
+
+02:52.109 --> 02:55.120
+a essa serie infinita aqui em cima
+
+02:55.120 --> 02:58.318
+O que o Teste de Comparação dos limites
+nos diz?
+
+02:58.318 --> 03:01.543
+que se eu tiver duas séries infinitas
+
+03:01.543 --> 03:06.474
+que vai de n = k até o infinito
+de a subscrito n
+
+03:06.474 --> 03:07.525
+Eu não vou provar isso aqui,
+
+03:07.525 --> 03:09.792
+iremos somente
+aprender como aplicá-lo
+
+03:09.792 --> 03:14.394
+Essa outra, vai de n = k até o infinito
+de b subscrito n
+
+03:14.394 --> 03:18.761
+E nós sabemos que
+cada um desses termos
+
+03:18.761 --> 03:20.728
+são maiores ou iguais a

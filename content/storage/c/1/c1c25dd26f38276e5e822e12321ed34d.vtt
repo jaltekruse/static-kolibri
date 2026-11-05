@@ -1,0 +1,449 @@
+WEBVTT
+
+00:00.640 --> 00:01.810
+- [Instructor] What we're going to go over
+
+00:01.810 --> 00:05.270
+in this video is one of the
+core principles in calculus,
+
+00:05.270 --> 00:07.210
+and you're going to use it any
+time you take the derivative,
+
+00:07.210 --> 00:09.380
+anything even reasonably complex.
+
+00:09.380 --> 00:11.280
+And it's called the chain rule.
+
+00:11.280 --> 00:12.610
+And when you're first exposed to it,
+
+00:12.610 --> 00:14.900
+it can seem a little daunting
+and a little bit convoluted.
+
+00:14.900 --> 00:16.550
+But as you see more and more examples,
+
+00:16.550 --> 00:18.520
+it'll start to make sense,
+and hopefully it'd even start
+
+00:18.520 --> 00:21.930
+to seem a little bit simple
+and intuitive over time.
+
+00:21.930 --> 00:24.060
+So let's say that I had a function.
+
+00:24.060 --> 00:28.990
+Let's say I have a function
+h of x, and it is equal to,
+
+00:28.990 --> 00:33.280
+just for example, let's say
+it's equal to sine of x,
+
+00:33.280 --> 00:36.740
+let's say it's equal to sine of x squared.
+
+00:36.740 --> 00:37.970
+Now, I could've written that,
+
+00:37.970 --> 00:39.260
+I could've written it like this,
+
+00:39.260 --> 00:41.770
+sine squared of x, but it'll
+be a little bit clearer
+
+00:41.770 --> 00:44.010
+using that type of notation.
+
+00:44.010 --> 00:46.300
+So let me make it so I have h of x.
+
+00:46.300 --> 00:49.850
+And what I'm curious about
+is what is h prime of x?
+
+00:49.850 --> 00:52.400
+So I want to know h prime of x,
+
+00:52.400 --> 00:54.070
+which another way of writing it is
+
+00:54.070 --> 00:56.890
+the derivative of h with respect to x.
+
+00:56.890 --> 00:58.610
+These are just different notations.
+
+00:58.610 --> 01:01.310
+And to do this, I'm going
+to use the chain rule.
+
+01:01.310 --> 01:03.040
+I'm going to use the chain rule,
+
+01:03.040 --> 01:06.070
+and the chain rule comes
+into play every time,
+
+01:06.070 --> 01:08.950
+any time your function can
+be used as a composition
+
+01:08.950 --> 01:10.090
+of more than one function.
+
+01:10.090 --> 01:12.610
+And as that might not
+seem obvious right now,
+
+01:12.610 --> 01:13.810
+but it will hopefully,
+
+01:13.810 --> 01:16.660
+maybe by the end of this
+video or the next one.
+
+01:16.660 --> 01:17.493
+Now, what I want to do
+
+01:17.493 --> 01:19.440
+is a little bit of a thought experiment,
+
+01:19.440 --> 01:21.470
+a little bit of a thought experiment.
+
+01:21.470 --> 01:22.640
+If I were to ask you
+
+01:22.640 --> 01:24.770
+what is the derivative with respect to x,
+
+01:24.770 --> 01:26.900
+if I were to just apply
+the derivative operator
+
+01:26.900 --> 01:30.670
+to x squared with respect
+to x, what do I get?
+
+01:30.670 --> 01:32.030
+Well, this gives me two x.
+
+01:32.030 --> 01:34.530
+We've seen that many,
+many, many, many times.
+
+01:34.530 --> 01:37.570
+Now, what if I were to take the
+derivative with respect to a
+
+01:37.570 --> 01:39.210
+of a squared?
+
+01:39.210 --> 01:40.350
+Well, it's the exact same thing.
+
+01:40.350 --> 01:42.850
+I just swapped an a for the x's.
+
+01:42.850 --> 01:45.720
+This is still going to be equal to two a.
+
+01:45.720 --> 01:46.840
+Now I will do something
+
+01:46.840 --> 01:48.810
+that might be a little bit more bizarre.
+
+01:48.810 --> 01:52.140
+What if I were to take the
+derivative with respect to
+
+01:52.140 --> 01:53.800
+sine of x,
+
+01:53.800 --> 01:56.970
+with respect to sine of x of,
+
+01:56.970 --> 01:59.120
+of sine of x,
+
+01:59.120 --> 02:01.730
+sine of x squared?
+
+02:01.730 --> 02:04.860
+Well, wherever I had the x's
+up here, the a's over here,
+
+02:04.860 --> 02:06.850
+I just replace it with a sine of x.
+
+02:06.850 --> 02:10.320
+So this is just going to be
+two times the thing that I had,
+
+02:10.320 --> 02:12.300
+so whatever I'm taking the
+derivative with respect to.
+
+02:12.300 --> 02:13.700
+Here it was with respect to x.
+
+02:13.700 --> 02:14.670
+Here with respect to a.
+
+02:14.670 --> 02:16.790
+Here's with respect to sine of x.
+
+02:16.790 --> 02:19.550
+So it's going to be two times
+
+02:19.550 --> 02:21.880
+sine of x.
+
+02:21.880 --> 02:23.850
+Now, so the chain rule tells us
+
+02:23.850 --> 02:27.200
+that this derivative is
+going to be the derivative
+
+02:27.200 --> 02:29.950
+of our whole function with respect,
+
+02:29.950 --> 02:33.520
+or the derivative of this
+outer function, x squared,
+
+02:33.520 --> 02:36.760
+the derivative of x squared,
+
+02:36.760 --> 02:39.570
+the derivative of this outer function
+
+02:39.570 --> 02:41.920
+with respect to sine of x.
+
+02:41.920 --> 02:45.050
+So that's going to be two sine of x,
+
+02:45.050 --> 02:46.110
+two
+
+02:46.110 --> 02:47.180
+sine of x.
+
+02:47.180 --> 02:49.830
+So we could view it as the
+derivative of the outer function
+
+02:49.830 --> 02:52.420
+with respect to the inner, two sine of x.
+
+02:52.420 --> 02:54.820
+We could just treat sine of
+x like it's kind of an x.
+
+02:54.820 --> 02:55.980
+And it would've been just two x,
+
+02:55.980 --> 02:57.060
+but instead it's a sine of x.
+
+02:57.060 --> 02:59.980
+We say two sine of x times,
+
+02:59.980 --> 03:02.580
+times the derivative, do this is green,
+
+03:02.580 --> 03:06.760
+times the derivative of
+sine of x with respect to x.
+
+03:06.760 --> 03:10.450
+Times the derivative of
+sine of x with respect to x,
+
+03:10.450 --> 03:11.640
+well, that's more straightforward,
+
+03:11.640 --> 03:13.140
+a little bit more intuitive.
+
+03:13.140 --> 03:14.610
+The derivative of sine of x
+
+03:14.610 --> 03:17.520
+with respect to x, we've
+seen multiple times,
+
+03:17.520 --> 03:19.520
+is cosine of x,
+
+03:19.520 --> 03:21.450
+so times cosine of x.
+
+03:21.450 --> 03:23.420
+And so there we've applied the chain rule.
+
+03:23.420 --> 03:25.180
+It was the derivative
+of the outer function
+
+03:25.180 --> 03:27.060
+with respect to the inner.
+
+03:27.060 --> 03:28.660
+So derivative of sine of x squared
+
+03:28.660 --> 03:31.190
+with respect to sine
+of x is two sine of x,
+
+03:31.190 --> 03:34.590
+and then we multiply that times
+the derivative of sine of x
+
+03:34.590 --> 03:37.160
+with respect to x.
+
+03:37.160 --> 03:38.200
+So let me make it clear.
+
+03:38.200 --> 03:41.520
+This right over here is the derivative.
+
+03:41.520 --> 03:43.080
+We're taking the derivative of,
+
+03:43.080 --> 03:48.080
+we're taking the derivative
+of sine of x squared.
+
+03:48.210 --> 03:49.043
+So let me make it clear.
+
+03:49.043 --> 03:50.800
+That's what we were
+taking the derivative of
+
+03:50.800 --> 03:53.370
+with respect to sine of x,
+
+03:53.370 --> 03:55.630
+with respect to sine of x.
+
+03:55.630 --> 03:57.960
+And then we're multiplying that times
+
+03:57.960 --> 03:59.940
+the derivative of sine of x,
+
+03:59.940 --> 04:02.540
+the derivative of sine
+
+04:02.540 --> 04:03.680
+of x
+
+04:03.680 --> 04:05.250
+with respect to,
+
+04:05.250 --> 04:07.100
+with respect to x.
+
+04:07.100 --> 04:09.010
+And this is where it might start making
+
+04:09.010 --> 04:11.160
+a little bit of intuition.
+
+04:11.160 --> 04:13.330
+You can't really treat
+these differentials,
+
+04:13.330 --> 04:18.180
+this d whatever, this
+dx, this d sine of x,
+
+04:18.180 --> 04:19.013
+as a number.
+
+04:19.013 --> 04:19.900
+And you really can't,
+
+04:19.900 --> 04:21.610
+this notation makes it
+look like a fraction
+
+04:21.610 --> 04:23.280
+because intuitively
+that's what we're doing.
+
+04:23.280 --> 04:25.280
+But if you were to treat
+'em like fractions,
+
+04:25.280 --> 04:28.050
+then you could think about
+canceling that and that.
+
+04:28.050 --> 04:29.610
+And once again, this isn't
+a rigorous thing to do,
+
+04:29.610 --> 04:30.970
+but it can help with the intuition.
+
+04:30.970 --> 04:33.470
+And then what you're left
+with is the derivative
+
+04:33.470 --> 04:37.200
+of this whole sine of x
+squared with respect to x.
+
+04:37.200 --> 04:38.760
+So you're left with,
+
+04:38.760 --> 04:41.550
+you're left with the derivative of
+
+04:41.550 --> 04:45.600
+essentially our original
+function, sine of x squared
+
+04:45.600 --> 04:47.400
+with respect to x,
+
+04:47.400 --> 04:50.420
+with respect to x, which
+is exactly what dh/dx is.
+
+04:50.420 --> 04:51.950
+This right over here,
+
+04:51.950 --> 04:56.180
+this right over here is
+our original function h.
+
+04:56.180 --> 04:58.410
+That's our original function h.
+
+04:58.410 --> 05:00.740
+So it might seem a
+little bit daunting now.
+
+05:00.740 --> 05:03.700
+What I'll do in the next video
+is another several examples,
+
+05:03.700 --> 05:06.413
+and then we'll try to
+abstract this a little bit.

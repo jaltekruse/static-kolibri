@@ -1,0 +1,428 @@
+WEBVTT
+
+00:00.000 --> 00:08.570
+Digamos que temos um pedaço de papelão
+de 20 polegadas por 30 polegadas.
+
+00:08.580 --> 00:11.535
+Deixe-me desenhar o papelão
+da melhor forma.
+
+00:11.535 --> 00:16.776
+Pode ser algo assim.
+Isso é o meu pedaço de papelão.
+
+00:16.776 --> 00:22.070
+E só para reforçar,
+temos 20 polegadas por 30 polegadas.
+
+00:22.070 --> 00:26.030
+O que faremos é cortas as bordas.
+
+00:26.030 --> 00:28.960
+Todas as bordas serão quadrados,
+
+00:28.960 --> 00:45.920
+e iremos cortar bordas de dimensões
+x por x de cada borda deste papelão.
+
+00:45.934 --> 00:51.190
+Após cortar as bordas,
+iremos dobrar as laterais.
+
+00:51.190 --> 00:52.240
+Deixe-me desenhá-las.
+
+00:52.240 --> 00:55.880
+Você pode ver que poderíamos dobrar aqui,
+
+00:55.880 --> 00:59.600
+e aqui e formar uma caixa.
+
+00:59.600 --> 01:05.160
+Você pode imaginar uma caixa sem fundo
+ou uma caixa sem tampa.
+
+01:05.170 --> 01:10.490
+Se dobrássemos tudo,
+teríamos algo assim.
+
+01:10.490 --> 01:17.870
+Deixe-me tentar desenhar isso.
+Ficaria algo assim.
+
+01:17.870 --> 01:20.500
+Esta lateral está dobrada para cima.
+
+01:20.500 --> 01:29.570
+Você pode imaginar que se eu dobrasse
+esta lateral para cima, ficaria assim.
+
+01:29.580 --> 01:36.170
+A altura dessa lateral é x.
+Esta distância é x.
+
+01:36.180 --> 01:41.920
+E se eu dobrasse -- deixe-me fazer isso
+de uma maneira mais organizada.
+
+01:41.920 --> 01:50.240
+Seu dobrasse esta lateral aqui,
+ficaria desse jeito.
+
+01:50.250 --> 01:53.420
+Deixe-me desenhá-la
+do melhor jeito possível.
+
+01:53.420 --> 01:57.970
+Ficaria assim.
+
+01:57.970 --> 02:05.880
+E eu dobraria essa lateral
+para cima e ficaria assim.
+
+02:05.896 --> 02:10.710
+Isso seria a lateral traseira.
+Parecida com algo assim.
+
+02:10.710 --> 02:19.920
+E esta lateral aqui --
+se eu a dobrasse, ficaria assim.
+
+02:19.930 --> 02:22.620
+E tenho também a base de tudo isso.
+
+02:22.620 --> 02:31.200
+Toda esta região do meu pedaço de papelão
+seria o chão da caixa que estou montando.
+
+02:31.200 --> 02:35.230
+O que eu quero
+é maximizar o volume da caixa.
+
+02:35.240 --> 02:37.840
+Quero maximizar o quanto
+esta caixa pode conter.
+
+02:37.840 --> 02:41.980
+E quero maximizar o volume
+escolhendo um x adequado.
+
+02:41.980 --> 02:45.770
+Vamos pensar sobre o volume
+desta caixa em função de x.
+
+02:45.784 --> 02:50.620
+Para fazer isso, devemos descobrir todas
+as dimensões da caixa em função de x.
+
+02:50.620 --> 03:03.010
+Já sabemos que este canto, que resulta
+de dobrar este lados, terá esta altura.
+
+03:03.010 --> 03:07.484
+A altura desta caixa será x.
+Mas e a largura?
+
+03:07.484 --> 03:11.672
+Qual será a largura desta caixa?
+
+03:11.672 --> 03:16.450
+A largura da caixa será esta distância.
+
+03:16.450 --> 03:28.410
+E esta distância será 20
+polegadas menos dois x.
+
+03:28.410 --> 03:30.030
+Toda esta distância é 20.
+
+03:30.030 --> 03:34.370
+Você subtrai este x, esse x
+e obtém esta distância.
+
+03:34.370 --> 03:41.260
+É 20 menos dois x.
+E qual é a profundidade da caixa?
+
+03:41.260 --> 03:44.990
+Quanto é essa distância?
+
+03:44.990 --> 03:53.080
+É igual a esta distância de 30 polegadas.
+
+03:53.090 --> 03:58.900
+Se subtrairmos dois x da distância,
+vamos obter a distância que queremos.
+
+03:58.910 --> 04:04.280
+Então esta distância será 30 menos dois x.
+
+04:04.280 --> 04:06.420
+Agora temos todas as dimensões.
+
+04:06.420 --> 04:09.850
+Qual seria o volume em função de x?
+
+04:09.850 --> 04:19.100
+O volume como uma função de x
+seria igual à altura, que é x,
+
+04:19.100 --> 04:25.480
+vezes a largura, que é 20 menos dois x,
+
+04:25.480 --> 04:32.500
+vezes a profundidade,
+que é 30 menos dois x.
+
+04:32.500 --> 04:37.460
+Quais são os possíveis valores de x
+que nos dão um volume válido?
+
+04:37.470 --> 04:42.770
+x não pode ser menor que zero.
+Não podemos fazer um corte negativo.
+
+04:42.770 --> 04:45.880
+De alguma forma, temos que adicionar
+papelão ou alguma coisa aqui.
+
+04:45.880 --> 04:50.370
+Sabemos que x será maior ou igual a zero.
+-- Deixe-me escrever isso. --
+
+04:50.370 --> 04:56.710
+x será maior ou igual a zero.
+E qual será o maior valor para x?
+
+04:56.710 --> 05:04.330
+Posso cortar, no máximo,-- vemos
+que esta largura é 20 menos dois x --
+
+05:04.330 --> 05:06.170
+Isso tem que ser maior
+ou igual a zero.
+
+05:06.170 --> 05:09.200
+Isto sempre será menor
+que 30 menos dois x,
+
+05:09.200 --> 05:15.460
+mas 20 menos dois x
+tem que ser maior ou igual a zero.
+
+05:15.460 --> 05:17.870
+Não pode cortar mais papelão
+do que o disponível.
+
+05:17.870 --> 05:21.720
+Ou você poderia dizer que 20
+deve ser maior ou igual a dois x,
+
+05:21.720 --> 05:26.900
+ou que 10 será maior ou igual a x,
+
+05:26.910 --> 05:32.260
+que é outra maneira de dizer
+que x será menor ou igual a 10.
+
+05:32.260 --> 05:34.190
+- É uma tonalidade
+diferente de amarelo -
+
+05:34.190 --> 05:39.800
+x será menor ou igual a 10,
+então deve estar entre zero e 10.
+
+05:39.800 --> 05:44.940
+Se não, estaríamos cortando muito
+ou adicionando material.
+
+05:44.940 --> 05:50.920
+Primeiro, vamos pensar sobre o volume
+nas extremidades -- do nosso domínio,
+
+05:50.920 --> 05:53.860
+dos valores de x para o nosso volume.
+
+05:53.860 --> 05:59.670
+Qual é o valor do nosso volume
+quando x é igual a zero?
+
+05:59.670 --> 06:01.651
+Podemos ter zero vezes tudo isso.
+
+06:01.651 --> 06:04.060
+E, obviamente, você não vai ter
+nenhuma altura.
+
+06:04.060 --> 06:07.444
+Você não terá nenhum volume,
+então o volume seria zero.
+
+06:07.444 --> 06:11.120
+Qual é valor do volume,
+quando x é igual a 10?
+
+06:11.120 --> 06:17.810
+Se x é igual a 10, a largura seria zero.
+
+06:17.810 --> 06:19.984
+Mais uma vez, não teríamos um volume.
+
+06:19.984 --> 06:26.155
+E este termo, se olharmos algebricamente,
+também seria zero, então tudo seria zero.
+
+06:26.155 --> 06:29.540
+Em algum lugar
+entre x igual a zero e x igual a 10
+
+06:29.540 --> 06:34.080
+devemos ter nosso volume máximo.
+
+06:34.080 --> 06:37.120
+Antes de fazer isso
+usando um pouco de cálculo,
+
+06:37.120 --> 06:43.610
+faremos isso graficamente.
+Usarei a minha TI-85.
+
+06:43.610 --> 06:48.450
+Primeiro, deixe-me ajustar
+a imagem antes de fazer o gráfico.
+
+06:48.460 --> 06:51.910
+Vou colocar a minha função.
+Deixe-me ajustar a imagem.
+
+06:51.910 --> 07:00.170
+O meu valor mínimo de x é zero
+e o valor máximo é 10.
+
+07:00.170 --> 07:03.100
+O meu valor mínimo de y
+será o meu volume.
+
+07:03.100 --> 07:06.493
+Não vou obter volumes negativos,
+então vou deixar isso igual a zero.
+
+07:06.500 --> 07:10.050
+O meu valor máximo de y
+- vejamos um valor razoável-
+
+07:10.050 --> 07:13.720
+Vou substituir um valor qualquer de x
+e ver que tipo de volume obterei.
+
+07:13.720 --> 07:21.590
+Se x fosse igual a cinco, teria cinco
+vezes 20 menos 10, que é 10.
+
+07:21.610 --> 07:25.310
+Isso seria -- será que está certo?
+Sim, 20 menos dois vezes cinco,
+
+07:25.320 --> 07:29.740
+que é 10 e vezes 30 menos dois
+vezes cinco, que é 20.
+
+07:29.740 --> 07:36.290
+Seria cinco vezes 10 vezes 20. Obteríamos
+um volume de 1000 polegadas cúbicas.
+
+07:36.300 --> 07:38.510
+E escolhi o número cinco ao azar.
+
+07:38.510 --> 07:41.960
+Vou colocar um valor máximo para y
+um pouco maior, caso esse não seja
+
+07:41.960 --> 07:45.450
+o valor máximo do volume.
+Eu escolhi esse número arbitrariamente.
+
+07:45.450 --> 07:50.330
+Digamos que o y máximo é 1500
+e caso o nosso gráfico não caiba,
+
+07:50.330 --> 07:55.970
+então podemos aumentar o valor
+de y máximo. Acho que assim está bom.
+
+07:55.980 --> 07:58.170
+Agora vamos colocar a nossa função.
+
+07:58.170 --> 08:05.660
+O nosso volume é igual a x vezes 20
+menos dois x menos dois x
+
+08:05.660 --> 08:16.610
+vezes 30 menos dois x.
+Acho que agora podemos fazer o gráfico.
+
+08:16.620 --> 08:21.040
+Quero selecionar isso aqui
+para fazer o gráfico.
+
+08:21.040 --> 08:25.580
+E parece que acertamos na imagem.
+
+08:25.580 --> 08:29.580
+Isso nos diz que o volume é uma função
+de x entre x igual a zero e x igual a 10,
+
+08:29.580 --> 08:33.000
+e parece que há um valor máximo por aqui.
+
+08:33.000 --> 08:37.346
+O que farei é usar a função TRACE
+para aproximar o valor do ponto de máximo.
+
+08:37.360 --> 08:41.558
+Deixe-me traçar esta função.
+
+08:41.558 --> 08:48.990
+Aqui o meu volume é 1055,5
+e posso ir até 1056.
+
+08:48.990 --> 08:57.050
+Isto era 1056,20 e isto é 1056,24,
+e posso voltar a 1055.
+
+08:57.060 --> 09:03.760
+Com base no zoom da minha calculadora,
+esta é uma boa aproximação
+
+09:03.760 --> 09:07.650
+para o valor máximo
+que a minha função assume.
+
+09:07.650 --> 09:15.100
+Parece que o valor máximo está próximo
+de 1056, cujo valor de x é 3.89.
+
+09:15.110 --> 09:28.630
+Parece que o meu volume em 3.89
+é aproximadamente 1056 polegadas cúbicas.
+
+09:28.630 --> 09:39.060
+Ou você pode dizer que temos um máximo
+quando x é aproximadamente igual a 3.89.
+
+09:39.060 --> 09:41.810
+Até agora, montamos
+o nosso problema de maximização
+
+09:41.810 --> 09:44.480
+e o resolvemos graficamente.
+
+09:44.480 --> 09:48.280
+No próximo vídeo vamos resolvê-lo
+analiticamente usando cálculo.
+
+09:48.280 --> 09:50.000
+[Legendado por Pilar Dib]
+[Revisado por Miguel Infante]

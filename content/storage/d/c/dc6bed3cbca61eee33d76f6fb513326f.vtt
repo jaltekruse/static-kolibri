@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.315 --> 00:03.666
+Máme tady funkci f(x)
+a ta je definovaná po částech,
+
+00:03.676 --> 00:06.350
+pro x menší než 0
+se f(x) rovná x plus 1,
+
+00:06.358 --> 00:10.935
+pro x větší nebo rovno 0
+se f(x) rovná kosinus πx.
+
+00:10.936 --> 00:15.464
+A my chceme spočítat určitý integrál
+od -1 do 1 f(x) dx.
+
+00:15.474 --> 00:22.551
+Možná se rovnou zeptáte,
+kterou z verzí f(x) budeme integrovat,
+
+00:22.551 --> 00:26.993
+protože od -1 do 0
+mluvíme o x plus 1,
+
+00:27.013 --> 00:30.497
+ale od 0 do 1
+mluvíme o kosinu πx.
+
+00:30.507 --> 00:33.601
+A pokud vás přesně tohle napadlo,
+přemýšlíte správně.
+
+00:33.601 --> 00:38.615
+Můžeme to trochu zjednodušit tak,
+že rozdělíme tento určitý integrál.
+
+00:38.626 --> 00:46.251
+Toto bude rovno určitému integrálu
+od -1 do 0 f(x) dx
+
+00:46.252 --> 00:53.570
+plus integrál od 0 do 1 f(x) dx.
+
+00:53.577 --> 00:56.790
+A proč bylo užitečné to takto rozdělit,
+
+00:56.800 --> 01:00.333
+rozdělit integrál od -1 do 1
+na dva intervaly
+
+01:00.338 --> 01:03.075
+od -1 do 0
+a od 0 do -1?
+
+01:03.075 --> 01:06.225
+Udělal jsem to proto,
+že v bodě x rovno 0 se to mění,
+
+01:06.238 --> 01:10.626
+f(x) se mění
+z x plus 1 na kosinus πx.
+
+01:10.626 --> 01:13.330
+Když se tedy podíváme
+na interval od -1 do 0,
+
+01:13.340 --> 01:19.216
+f(x) je x plus 1.
+Takže tady se f(x) rovná x plus 1.
+
+01:19.216 --> 01:24.190
+A když jdeme od 0 do 1,
+f(x) je kosinus πx.
+
+01:24.192 --> 01:28.782
+Takže kosinus πx.
+
+01:28.802 --> 01:33.456
+Teď musíme oba integrály
+vyčíslit zvlášť a pak je sečíst.
+
+01:33.461 --> 01:40.895
+Spočítejme tedy určitý integrál
+od -1 do 0 (x plus 1) dx.
+
+01:40.895 --> 01:44.376
+Tak tedy,
+integrál x plus 1 je...
+
+01:44.382 --> 01:48.065
+Integrál x je x² lomeno 2.
+
+01:48.075 --> 01:51.891
+Jen zvyšuji exponent
+a pak dělím stejnou hodnotou.
+
+01:51.891 --> 01:55.549
+A pak plus x.
+A tady vlastně dělám to stejné.
+
+01:55.549 --> 02:00.018
+Když toto je x⁰,
+bude to x¹ lomeno 1,
+
+02:00.018 --> 02:02.201
+což je prostě x.
+
+02:02.211 --> 02:07.579
+A vyčíslím to v 0
+a od toho to odečtu vyčíslené v 1.
+
+02:07.581 --> 02:09.477
+Pardon, vyčíslené v -1.
+
+02:09.487 --> 02:11.741
+A toto bude rovno...
+
+02:11.741 --> 02:16.234
+Když to vyčíslím v 0...
+Udělám to jinou barvou.
+
+02:16.244 --> 02:21.381
+Když to vyčíslím v 0,
+bude to 0² lomeno 2,
+
+02:21.381 --> 02:22.692
+což je...
+Zapíšu to.
+
+02:22.702 --> 02:26.026
+0² lomeno 2 plus 0.
+
+02:26.036 --> 02:28.736
+To celé se bude rovnat prostě 0.
+
+02:28.747 --> 02:34.381
+Minus to celé vyčíslené v -1.
+
+02:34.391 --> 02:41.478
+Takže minus -1² lomeno 2 plus -1.
+
+02:41.479 --> 02:48.409
+-1² je prostě 1.
+Takže to je 1/2 plus -1.
+
+02:48.427 --> 02:53.357
+1/2 plus -1,
+neboli 1/2 minus 1,
+
+02:53.367 --> 02:54.512
+to je -1/2.
+
+02:54.522 --> 02:56.680
+Takže celé toto je rovno -1/2.
+
+02:56.680 --> 03:00.617
+Ale my odečítáme -1/2,
+0 minus -1/2,
+
+03:00.618 --> 03:03.613
+to bude rovno +1/2.
+
+03:03.613 --> 03:08.011
+Takže toto bude rovno +1/2.
+
+03:08.011 --> 03:13.054
+Tato první část je tedy +1/2.
+
+03:13.065 --> 03:20.729
+A teď spočítejme integrál
+od 0 do 1 kosinu π...
+
+03:20.729 --> 03:22.911
+Nepotřebuji tu první závorku.
+
+03:22.921 --> 03:27.671
+Kosinu πx dx.
+
+03:27.677 --> 03:30.104
+Čemu je to rovno?
+
+03:30.114 --> 03:33.840
+Když hledáme integrál kosinu x,
+je to jednoduché.
+
+03:33.850 --> 03:43.953
+Víme, že derivace podle x
+sinu x se rovná kosinus x.
+
+03:43.953 --> 03:47.468
+Ale to my tady nemáme,
+my máme kosinus πx.
+
+03:47.490 --> 03:50.277
+Na to máme metodu,
+říkáme jí substituční metoda.
+
+03:50.277 --> 03:51.831
+Můžeme říct,
+že "u" se rovná πx.
+
+03:51.841 --> 03:55.314
+Pokud nevíte, jak na to,
+stále se to dá nějak vymyslet.
+
+03:55.319 --> 04:00.053
+Mohli bychom si třeba říct,
+že by tady nějak mohl figurovat sinus πx.
+
+04:00.054 --> 04:07.059
+Derivace podle x sinu πx by byla co?
+
+04:07.079 --> 04:08.744
+Použijeme derivaci složené funkce.
+
+04:08.744 --> 04:11.915
+Bude to derivace vnější funkce
+s vnitřní funkcí jako argumentem,
+
+04:11.925 --> 04:17.862
+neboli derivace sinu s argumentem πx,
+což nám dá kosinus πx,
+
+04:17.872 --> 04:22.072
+a pak krát derivace
+vnitřní funkce podle x.
+
+04:22.082 --> 04:24.367
+Takže to by bylo krát π.
+
+04:24.377 --> 04:30.473
+Nebo můžeme říct,
+že derivace sinu πx je π kosinus πx.
+
+04:30.473 --> 04:34.020
+Skoro už to máme,
+ale tady potřebujeme π.
+
+04:34.028 --> 04:37.245
+Co kdybychom tady přidali π,
+ale abychom nezměnili hodnotu výrazu,
+
+04:37.245 --> 04:39.745
+vynásobíme to ještě 1 lomeno π?
+
+04:39.745 --> 04:42.614
+Když to vydělíme
+a vynásobíme stejným číslem,
+
+04:42.614 --> 04:44.207
+nezmění se hodnota výrazu.
+
+04:44.217 --> 04:48.658
+1 lomeno π krát π je rovno 1.
+Ale je to užitečné.
+
+04:48.658 --> 04:52.205
+Je to užitečné,
+protože teď víme,
+
+04:52.214 --> 04:56.783
+že π kosinus πx
+je derivací sinu πx.
+
+04:56.783 --> 04:58.945
+Takže toto celé bude rovno...
+
+04:58.945 --> 05:03.205
+Toto je rovno 1...
+Jen tady...
+
+05:03.217 --> 05:08.084
+1 lomeno π.
+Je to rovno 1 lomeno π krát...
+
+05:08.084 --> 05:11.550
+Teď to vyčíslíme.
+Integrál tohoto, jak jsme už řekli,
+
+05:11.550 --> 05:17.670
+je sinus πx,
+
+05:17.682 --> 05:23.299
+a vyčíslíme to pro 1 a 0.
+
+05:23.303 --> 05:28.001
+Takže toto bude rovno 1 lomeno π...
+
+05:28.001 --> 05:31.801
+1 lomeno π, ne π.
+Moje ruká neposlouchá, co říkám.
+
+05:31.819 --> 05:40.202
+1 lomeno π krát sinus π
+
+05:40.202 --> 05:46.188
+minus sinus π krát 0,
+což je 0.
+
+05:46.198 --> 05:51.129
+Sinus π, to je 0.
+Sinus 0 je 0.
+
+05:51.131 --> 05:53.697
+Takže máme 1 lomeno π
+krát 0 minus 0.
+
+05:53.707 --> 05:56.869
+Takže toto celé se bude rovnat 0.
+
+05:56.869 --> 06:02.358
+První část tedy byla 1/2,
+tato druhá část je rovna 0,
+
+06:02.358 --> 06:05.803
+takže celý určitý integrál
+bude roven 1/2 plus 0,
+
+06:05.803 --> 06:08.767
+což je rovno 1/2.
+
+06:08.777 --> 06:12.442
+Takže to vše dohromady je rovno 1/2.

@@ -1,0 +1,503 @@
+WEBVTT
+
+00:00.283 --> 00:01.885
+- Let's say we are dealing with
+
+00:01.885 --> 00:05.354
+a geometric series.
+
+00:05.864 --> 00:08.047
+There are some things that we know about
+
+00:08.047 --> 00:10.439
+this geometric series.
+
+00:10.439 --> 00:13.453
+For example, we know that the first term
+
+00:13.453 --> 00:15.867
+of our geometric series is a.
+
+00:15.867 --> 00:19.433
+That is a first term.
+
+00:19.739 --> 00:23.724
+We also know the common ratio
+of our geometric series.
+
+00:23.724 --> 00:25.292
+We're gonna call that r.
+
+00:25.292 --> 00:29.368
+This is the common ratio.
+
+00:30.593 --> 00:34.199
+We also know that it's a
+finite geometric series.
+
+00:37.751 --> 00:39.946
+It has a finite number of terms.
+
+00:39.946 --> 00:44.946
+Let's say that n is equal
+to the number of terms.
+
+00:47.214 --> 00:52.198
+We're going to use a notation S sub n
+
+00:52.758 --> 00:57.264
+to denote the sum of first.
+
+01:00.360 --> 01:02.240
+n terms.
+
+01:02.240 --> 01:05.003
+The goal of this whole video
+is using this information,
+
+01:05.003 --> 01:08.185
+coming up with a general
+formula for the sum
+
+01:08.185 --> 01:09.885
+of the first n terms.
+
+01:09.885 --> 01:13.999
+A formula for evaluating
+a geometric series.
+
+01:13.999 --> 01:15.231
+Let's write out S sub n.
+
+01:15.231 --> 01:17.509
+Just get a feeling for
+what it would look like.
+
+01:17.509 --> 01:19.765
+S sub n is going to be equal to,
+
+01:19.765 --> 01:21.417
+you'll have your first term here,
+
+01:21.417 --> 01:23.514
+which is an a and then what's
+
+01:23.514 --> 01:25.233
+our second term going to be?
+
+01:25.933 --> 01:27.273
+This is a geometric series so it's
+
+01:27.273 --> 01:30.786
+going to be a times the common ratio.
+
+01:30.786 --> 01:33.530
+It's going to be the first
+term times the common ratio.
+
+01:33.530 --> 01:36.018
+The first term times r.
+
+01:36.018 --> 01:39.298
+Now, what's the third term going to be?
+
+01:39.298 --> 01:41.438
+Well, it's going to be
+the second term times
+
+01:41.438 --> 01:42.559
+our common ratio again.
+
+01:42.559 --> 01:46.562
+It's going to be ar times r or ar squared.
+
+01:48.077 --> 01:50.490
+We could go all the way to our nth term.
+
+01:50.959 --> 01:52.794
+We're gonna go all the way
+
+01:52.794 --> 01:55.255
+to the nth term and you might be
+
+01:55.255 --> 01:59.575
+tempted to say it's going to
+be a times r to the nth power
+
+01:59.575 --> 02:01.843
+but we have to be careful here.
+
+02:01.843 --> 02:03.945
+Because notice, our first term is really
+
+02:03.945 --> 02:05.577
+ar to the zeroth power,
+
+02:05.577 --> 02:07.527
+second term is ar to the firsth power,
+
+02:07.527 --> 02:09.895
+third term is ar to the second power.
+
+02:09.895 --> 02:12.291
+So whatever term we're on the exponent
+
+02:12.291 --> 02:15.727
+is that term number minus one.
+
+02:15.727 --> 02:17.171
+If we're on the nth term it's going to be
+
+02:17.171 --> 02:20.634
+ar to the n minus oneth power.
+
+02:21.081 --> 02:23.336
+We want to come up with
+a nice clean formula
+
+02:23.336 --> 02:25.922
+for evaluating this and we're gonna use
+
+02:25.922 --> 02:27.432
+a little trick to do it.
+
+02:27.432 --> 02:31.958
+To do it we're gonna think
+about what r times the sum is.
+
+02:32.660 --> 02:34.081
+We're gonna subtract that out.
+
+02:34.081 --> 02:37.215
+We're gonna take the r times that sum,
+
+02:37.215 --> 02:39.486
+r times
+
+02:41.106 --> 02:42.838
+the sum of the first nth terms.
+
+02:42.838 --> 02:45.534
+Actually, let's just multiply negative r.
+
+02:46.636 --> 02:48.102
+Something that we can
+just add these two things
+
+02:48.102 --> 02:50.633
+and you'll see that it
+cleans this thing up nicely.
+
+02:50.633 --> 02:52.816
+So what is this going to be equal to?
+
+02:52.816 --> 02:54.902
+This is going to be equal to,
+
+02:54.902 --> 02:57.222
+well if you multiply
+
+02:58.912 --> 03:01.268
+a times negative r,
+
+03:01.268 --> 03:05.533
+we will get negative ar.
+
+03:05.993 --> 03:07.925
+I'm just gonna write it
+right underneath this one.
+
+03:07.925 --> 03:09.795
+So if you multiply this times negative r.
+
+03:09.795 --> 03:11.550
+I'm just gonna multiply everyone of these
+
+03:11.550 --> 03:12.676
+terms by negative r.
+
+03:12.676 --> 03:13.804
+That's the equivalent of multiplying
+
+03:13.804 --> 03:15.011
+negative times the sum.
+
+03:15.011 --> 03:17.015
+I'm distributing the negative r.
+
+03:17.708 --> 03:19.962
+If I multiply it times this
+term, a times negative r,
+
+03:22.082 --> 03:26.508
+that's going to be negative ar.
+
+03:27.126 --> 03:30.366
+Then, if I multiply ar times negative r
+
+03:30.366 --> 03:33.136
+that's going to be negative ar squared.
+
+03:35.742 --> 03:37.493
+You might see where this is going.
+
+03:38.126 --> 03:40.484
+And just to be clear what's going on,
+
+03:40.484 --> 03:42.965
+that's that term times negative r.
+
+03:45.826 --> 03:47.998
+This is that term times negative r.
+
+03:47.998 --> 03:50.831
+And we would keep going all the way
+
+03:50.831 --> 03:53.555
+to the term
+
+03:56.091 --> 03:59.053
+before this times negative r.
+
+03:59.053 --> 04:03.028
+So the term before this times
+negative r is going to be,
+
+04:05.578 --> 04:07.183
+let me put subtraction signs,
+
+04:07.183 --> 04:11.125
+it's going to be negative a
+
+04:11.125 --> 04:15.646
+times r to the n minus one power.
+
+04:18.252 --> 04:19.542
+That was the term right before this.
+
+04:19.542 --> 04:22.861
+That was a times r to the n
+minus two times negative r
+
+04:22.861 --> 04:24.045
+is gonna give us this.
+
+04:24.045 --> 04:25.523
+It's gonna get us right over there
+
+04:25.523 --> 04:27.659
+and then finally we take this last term
+
+04:27.659 --> 04:29.076
+and you multiply it by negative r,
+
+04:29.076 --> 04:30.087
+what do you get?
+
+04:30.087 --> 04:31.341
+You get,
+
+04:31.341 --> 04:32.758
+negative a
+
+04:35.464 --> 04:37.721
+times r to the n.
+
+04:40.664 --> 04:41.882
+You multiply this times the negative,
+
+04:41.882 --> 04:43.344
+you get the negative a and then
+
+04:43.344 --> 04:45.715
+r to the n minus one times r,
+
+04:45.715 --> 04:47.139
+or times r to the first,
+
+04:47.139 --> 04:49.089
+well this is going to be r to the n.
+
+04:49.089 --> 04:50.946
+Now what's interesting here is we can
+
+04:50.946 --> 04:54.475
+add up the left side and we can
+add up the right hand sides.
+
+04:54.475 --> 04:55.584
+Let's do that.
+
+04:57.373 --> 04:59.980
+On the left hand side we get,
+
+05:00.530 --> 05:04.087
+S sub n minus r
+
+05:05.764 --> 05:07.535
+times S sub n
+
+05:09.135 --> 05:10.181
+and on the right hand side
+
+05:10.181 --> 05:12.261
+we have something very cool happening.
+
+05:12.261 --> 05:15.252
+Notice, this a, we still have that.
+
+05:15.252 --> 05:17.805
+The a sits there but everything else,
+
+05:17.805 --> 05:18.944
+except for this last thing,
+
+05:18.944 --> 05:21.344
+is going to cancel out.
+
+05:22.093 --> 05:25.503
+These two are gonna cancel out.
+
+05:26.713 --> 05:29.906
+These two are gonna cancel out.
+
+05:29.927 --> 05:31.524
+All we're gonna have left with is
+
+05:31.524 --> 05:33.742
+negative ar to the n.
+
+05:33.742 --> 05:37.106
+It's going to be a minus a
+
+05:37.106 --> 05:40.751
+times r to the nth power.
+
+05:40.751 --> 05:43.040
+Now we can just solve for S sub n
+
+05:43.040 --> 05:45.914
+and we have our formula,
+what we were looking for.
+
+05:45.914 --> 05:47.879
+Let's see, we can factor out an S sub n
+
+05:47.879 --> 05:49.432
+on the left hand side.
+
+05:49.432 --> 05:53.741
+You get an S sub n, the
+sub of our first n terms.
+
+05:53.741 --> 05:55.016
+You factor that out,
+
+05:55.016 --> 05:56.677
+it's gonna be times
+
+05:57.787 --> 06:01.338
+one minus r is going to be equal to
+
+06:01.878 --> 06:02.686
+and on the right hand side we can
+
+06:02.686 --> 06:04.541
+actually factor out an a.
+
+06:04.541 --> 06:08.015
+It's going to be a times
+
+06:09.042 --> 06:11.732
+one minus r to the n.
+
+06:11.732 --> 06:14.399
+To solve for S sub n, the
+sum of our first n terms,
+
+06:14.399 --> 06:16.372
+we deserve a little bit
+of a drum roll here,
+
+06:16.372 --> 06:18.184
+S sub n is going to be equal to
+
+06:18.184 --> 06:21.085
+this divided by one minus r.
+
+06:21.085 --> 06:25.324
+It's going to be a times
+
+06:26.329 --> 06:28.930
+one minus r to the n
+
+06:28.930 --> 06:32.690
+over one minus r.
+
+06:32.690 --> 06:33.501
+And we're done.
+
+06:33.501 --> 06:37.141
+We have figured out
+our formula for the sum
+
+06:37.141 --> 06:40.155
+or for the sum of a finite
+
+06:40.951 --> 06:43.666
+geometric series.
+
+06:43.666 --> 06:45.229
+In the next few videos or in future videos
+
+06:45.229 --> 06:46.756
+we will apply this and I encourage you,
+
+06:46.756 --> 06:49.776
+whenever you use this
+formula it's very important,
+
+06:49.776 --> 06:51.298
+now that you know where it came from,
+
+06:51.298 --> 06:53.054
+that you really keep
+close track of how many
+
+06:53.054 --> 06:54.751
+terms you are actually summing up.
+
+06:54.751 --> 06:57.078
+Sometimes you might have a sigma notation
+
+06:57.078 --> 06:59.583
+and it might start it's index at zero
+
+06:59.583 --> 07:00.698
+and then goes up to a number,
+
+07:00.698 --> 07:01.568
+in which case you're gonna have that
+
+07:01.568 --> 07:02.952
+number plus one term.
+
+07:02.952 --> 07:03.742
+So you're going to have
+to be very careful.
+
+07:03.742 --> 07:05.345
+This is the number of terms.
+
+07:05.345 --> 07:06.784
+This is the first term here,
+
+07:06.784 --> 07:07.876
+we define it up here.
+
+07:07.876 --> 07:11.057
+N is the number of
+terms, the first n terms,
+
+07:11.057 --> 07:13.123
+r is our common ratio.

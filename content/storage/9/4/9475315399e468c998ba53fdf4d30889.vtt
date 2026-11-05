@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.502 --> 00:02.970
+Hãy tự nhắc nhở bản thân chúng ta là nhớ ôn
+
+00:02.970 --> 00:05.853
+phép thử so sánh, và xem nó hữu ích chỗ nào,
+
+00:05.853 --> 00:08.972
+và không hữu ích chỗ nào, nhưng mà may thay
+
+00:08.972 --> 00:11.569
+chúng ta cũng có phép thử so sánh giới hạn,
+
+00:11.569 --> 00:15.520
+và nó dễ áp dụng trong phạm trù lớn hơn.
+
+00:15.520 --> 00:18.053
+Mình đã gặp dạng này rồi, mình muốn chứng minh
+
+00:18.053 --> 00:20.748
+rằng chuỗi vô hạn từ n bằng 1 đến vô cực của
+
+00:20.748 --> 00:24.594
+1 phần 2 mũ n cộng 1 hội tụ thì mình làm cách nào?
+
+00:24.594 --> 00:28.025
+Mỗi số hạng đều lớn hơn hoặc bằng 0
+
+00:28.056 --> 00:30.179
+và mình có thể xây dựng thêm 1 chuỗi mà
+
+00:30.179 --> 00:32.255
+mỗi số hạng tương ứng đều lớn hơn
+
+00:32.255 --> 00:34.151
+mỗi số hạng tương ứng này.
+
+00:34.151 --> 00:37.603
+Và cái chuỗi kia, cái này nè,
+
+00:37.603 --> 00:40.901
+cái mà làm cho nhiều người bất ngờ nhất là,
+
+00:40.901 --> 00:45.118
+1 phần 2 mũ n, 1 phần 2 mũ n
+
+00:45.118 --> 00:50.118
+lớn hơn, lớn hơn, mình có thể nói
+
+00:50.651 --> 00:53.484
+lớn hơn hoặc bằng 0, nhưng mà
+
+00:53.484 --> 00:55.093
+mình cũng có thể nói rằng, ồ
+
+00:55.093 --> 00:57.110
+mình sẽ chỉ viết nó lớn hơn hoặc bằng,
+
+00:57.110 --> 01:01.119
+1 phần 2 mũ n cộng 1 với,
+
+01:01.119 --> 01:06.085
+n bằng 1, 2, tới vô cực - tại sao?
+
+01:06.085 --> 01:08.085
+Tại vì mẫu số sẽ luôn luôn
+
+01:08.085 --> 01:10.719
+lớn hơn 1 đơn vị, nếu mẫu số lớn hơn,
+
+01:10.719 --> 01:15.602
+biểu thức này sẽ nhỏ hơn,
+
+01:15.602 --> 01:18.719
+và cũng vì điều này, mỗi số hạng này
+
+01:18.719 --> 01:22.836
+đều là số dương, cái này, mỗi số hạng tương ứng
+
+01:22.836 --> 01:26.267
+đều lớn hơn cái này, và dựa vào Phép Thử So Sánh,
+
+01:26.267 --> 01:28.700
+do chuỗi này hội tụ, cái này nó đóng vai trò
+
+01:28.700 --> 01:31.602
+là cận trên, do mình biết chuỗi này hội tụ,
+
+01:31.602 --> 01:35.368
+mình có thể nói rằng, do chuỗi này hội tụ,
+
+01:35.368 --> 01:38.652
+mình có thể thấy rằng chuỗi này hội tụ.
+
+01:38.652 --> 01:41.650
+Bây giờ, để xem mình có thể áp dụng lô-gic tương tự
+
+01:41.650 --> 01:44.532
+cho một cái chuỗi hơi khác không nào.
+
+01:44.532 --> 01:46.233
+Mình có chuỗi này nha
+
+01:46.233 --> 01:49.826
+tổng của n chạy từ 1 đến vô cực của
+
+01:49.826 --> 01:52.730
+1 phần 2 mũ n trừ 1.
+
+01:52.730 --> 01:54.863
+Trong trường hợp này thì mình có thể áp dụng
+
+01:54.863 --> 01:58.030
+thẳng Phép Thử So Sánh không?
+
+01:58.030 --> 02:00.562
+Thực ra là không, mình không thể cho rằng
+
+02:00.562 --> 02:03.447
+1 phần 2 mũ n sẽ lớn hơn hoặc bằng
+
+02:03.447 --> 02:05.573
+1 phần 2 mũ n trừ 1.
+
+02:05.573 --> 02:07.662
+Ở đây, mẫu số nhỏ hơn, đồng nghĩa với việc
+
+02:07.662 --> 02:10.107
+biểu thức sẽ lớn hơn, nghĩa là,
+
+02:10.107 --> 02:12.940
+những số hạng ở đây không thể tạo được cận trên cho chuỗi này.
+
+02:12.940 --> 02:15.138
+Chuỗi này thì lớn hơn một chút,
+
+02:15.138 --> 02:17.307
+nhưng mặt khác thì bạn kiểu, "Ok, mình hiểu nó".
+
+02:17.307 --> 02:19.939
+Nhưng nhìn nè, khi n càng lớn, 2 mũ n sẽ
+
+02:19.939 --> 02:23.724
+thật sự chiếm lĩnh mặt âm hoặc mặt dương của nó, hoặc là
+
+02:23.724 --> 02:26.724
+cái này không có gì ở đây, cái này chỉ có 2 mũ n.
+
+02:26.724 --> 02:28.591
+2 mũ n ở đây nó sẽ quyết định
+
+02:28.591 --> 02:30.591
+xu hướng của cái chuỗi này.
+
+02:30.591 --> 02:32.756
+Và mình sẽ đồng tình với bạn, nhưng mình
+
+02:32.756 --> 02:35.474
+chưa chứng mình là cách làm này thật sự khả thi,
+
+02:35.474 --> 02:39.092
+và đó là lúc mình nên dùng Phép Thử So Sánh Giới Hạn.
+
+02:39.092 --> 02:44.092
+Vậy để mình nó viết nó xuống 'Giới hạn, phép thử so sánh giới hạn,
+
+02:45.641 --> 02:50.093
+'Phép thử so sánh giới hạn', mình sẽ viết nó xuống
+
+02:50.093 --> 02:52.109
+một cách rõ ràng hơn, sau đó mình sẽ áp dụng nó cho
+
+02:52.109 --> 02:55.120
+cái chuỗi vô hạn ở ngay đây.
+
+02:55.120 --> 02:58.318
+Vậy Phép Thử So Sánh cho mình biết,
+
+02:58.318 --> 03:01.543
+rằng nếu mình có hai chuỗi vô hạn,
+
+03:01.543 --> 03:06.474
+chuỗi này là đi từ n bằng k đến vô cực, của a thứ n,
+
+03:06.474 --> 03:07.525
+mình sẽ không chứng minh nó ở đây,
+
+03:07.525 --> 03:09.792
+mình sẽ học cách áp dụng trước.
+
+03:09.792 --> 03:14.394
+Chuỗi này đi từ n bằng k đến vô cực, của b thứ n.
+
+03:14.394 --> 03:18.761
+Và mình biết mỗi số hạng, a thứ n,
+
+03:18.761 --> 03:20.728
+đều lớn hơn hoặc bằng 0,
+
+03:20.728 --> 03:23.428
+và mình cũng biết mỗi số hạng, b thứ n,
+
+03:23.428 --> 03:25.935
+thực ra mình chỉ nói, là đều lớn hơn 0.
+
+03:25.935 --> 03:26.997
+do nó sẽ xuất hiện
+
+03:26.997 --> 03:28.281
+ở mẫu số của biểu thức,
+
+03:28.281 --> 03:30.213
+nên mình không muốn nó bằng 0,
+
+03:30.213 --> 03:32.313
+với tất cả n mình đang xét đến.
+
+03:32.313 --> 03:37.313
+Vậy với mỗi n bằng k, k cộng 1,
+
+03:38.359 --> 03:41.804
+k cộng 2, vân vân và vân vân, và,
+
+03:41.804 --> 03:44.314
+và đây chính là chìa khóa, đây là giới hạn của
+
+03:44.314 --> 03:47.466
+Phép Thử So Sánh Giới Hạn có tác dụng,
+
+03:47.466 --> 03:52.466
+và nếu như giới hạn khi mà n tiến đến vô cực,
+
+03:55.674 --> 04:00.674
+của a thứ n trên b thứ n, b thứ n
+
+04:01.972 --> 04:05.281
+là dương và hữu hạn, là dương và hữu hạn,
+
+04:09.885 --> 04:12.890
+là hoặc hai chuỗi đều hội tự
+
+04:12.890 --> 04:16.698
+hoặc hai chuỗi đều phân kì, để mình viết nó xuống nha.
+
+04:16.698 --> 04:20.536
+Vậy, điều này cho mình biết,
+
+04:20.536 --> 04:24.520
+hoặc là cả hai chuỗi đều hội tụ,
+
+04:25.458 --> 04:30.458
+hoặc phân kì, và nó rất rất là có ích.
+
+04:30.719 --> 04:32.768
+Nó giống kiểu như nói rằng,
+
+04:32.768 --> 04:36.220
+'Ê nhìn nè, khi n tiến đến vô cực, nếu như cả hai chuỗi có
+
+04:36.220 --> 04:37.779
+'xu hướng giống nhau thì cả hai chuỗi sẽ
+
+04:37.779 --> 04:40.102
+'hội tụ, hoặc phân kì'.
+
+04:40.102 --> 04:42.473
+Mình cùng áp dụng nó vào đây nha.
+
+04:42.473 --> 04:45.777
+Nếu mình nói rằng b thứ n
+
+04:45.777 --> 04:47.836
+là 1 phần 2 mũ n, giống như
+
+04:47.836 --> 04:49.664
+mình làm ở trên kia, 1 phần 2 mũ n,
+
+04:49.664 --> 04:51.864
+vậy thì mình sẽ cùng so sánh, vậy
+
+04:51.864 --> 04:54.422
+hai chuỗi ở đây, để ý rằng nó thỏa mãn
+
+04:54.422 --> 04:58.301
+tất cả điều kiện ở đây, vậy mình cùng lấy giới hạn nào,
+
+04:58.301 --> 05:01.864
+giới hạn khi mà n tiến đến vô cực
+
+05:01.864 --> 05:05.187
+của a thứ n trên b thứ n, vậy nó sẽ là
+
+05:05.187 --> 05:10.187
+1 phần 2 mũ n trừ 1 trên
+
+05:10.288 --> 05:15.288
+1 phần 2 mũ n, và nó sẽ bằng gì nào?
+
+05:16.723 --> 05:18.458
+Nó sẽ bằng
+
+05:18.458 --> 05:23.098
+giới hạn khi n tiến đến vô cực của,
+
+05:23.098 --> 05:25.617
+2, nếu bạn chia cho 1 phần 2 mũ n
+
+05:25.617 --> 05:27.426
+thì nó sẽ đồng nghĩa với việc nhân
+
+05:27.426 --> 05:28.962
+cho 2 mũ n, vậy nó sẽ là
+
+05:28.962 --> 05:33.893
+2 mũ n trên 2 mũ n trừ 1.
+
+05:34.960 --> 05:37.856
+Phần 2 mũ n trừ 1, và cái này rõ ràng là,
+
+05:37.856 --> 05:39.605
+những gì đang xảy ra cho tử số và mẫu số,
+
+05:39.605 --> 05:43.055
+những cái này đều tiến đến như nhau, và mình thậm chí
+
+05:43.055 --> 05:45.096
+có thể viết nó như sau,
+
+05:45.096 --> 05:47.002
+chia tử số và mẫu số cho 2 mũ n,
+
+05:47.002 --> 05:48.602
+nếu như bạn muốn, mặc dù nó
+
+05:48.602 --> 05:50.274
+rất rõ ràng ngay lúc này.
+
+05:51.181 --> 05:56.181
+Vậy, giới hạn khi n tiến đến vô cực,
+
+05:56.447 --> 05:58.063
+để mình kéo sang phải một chút.
+
+05:58.063 --> 06:00.199
+Nếu mình chia tử số cho 2 mũ n,
+
+06:00.199 --> 06:01.996
+mình sẽ chỉ còn lại 1.
+
+06:01.996 --> 06:04.064
+Còn nếu mình chia mẫu số cho 2 mũ n,
+
+06:04.064 --> 06:09.064
+mình sẽ có 1 trừ 1 phần 2 mũ n.
+
+06:09.325 --> 06:11.624
+Và bây giờ nó đã rõ ràng hơn rồi, cái này ngay đây
+
+06:11.624 --> 06:13.245
+sẽ tiến đến 0, và bạn sẽ có
+
+06:13.245 --> 06:15.112
+1 phần 1.
+
+06:15.112 --> 06:16.945
+Điều quan trọng là
+
+06:16.945 --> 06:21.530
+giới hạn này là dương và hữu hạn vì cái này
+
+06:21.530 --> 06:26.530
+là dương và hữu hạn,
+
+06:26.911 --> 06:30.941
+giới hạn là 1 là dương và hữu hạn,
+
+06:30.941 --> 06:33.675
+Nếu chuỗi này hội tụ và chuỗi này hội tụ, hoặc
+
+06:33.675 --> 06:35.826
+chuỗi này phân kì và chuỗi này cũng phân kì,
+
+06:35.826 --> 06:39.357
+vậy mình đã biết rằng chuỗi này hội tụ,
+
+06:39.357 --> 06:41.391
+nó sẽ là chuỗi cấp số nhân mà
+
+06:41.391 --> 06:45.091
+công bội bé hơn 1, và do đó
+
+06:45.091 --> 06:50.091
+chuỗi này chắc chắn phải hội tụ, nên tất cả sẽ hội tụ.

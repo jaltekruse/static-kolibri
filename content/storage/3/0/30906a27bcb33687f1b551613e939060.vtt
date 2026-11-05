@@ -1,0 +1,345 @@
+WEBVTT
+
+00:00.613 --> 00:01.774
+- [Instructor] What we're
+going to do in this video
+
+00:01.774 --> 00:03.933
+is get some more practice
+identifying when to use
+
+00:03.933 --> 00:07.509
+u-substitution and
+picking an appropriate u.
+
+00:07.509 --> 00:09.343
+So let's say we have
+
+00:09.343 --> 00:12.014
+the indefinite integral of
+
+00:12.014 --> 00:13.181
+natural log of
+
+00:14.661 --> 00:15.494
+x to the,
+
+00:17.842 --> 00:19.342
+to the 10th power,
+
+00:20.884 --> 00:22.967
+all of that over x dx.
+
+00:24.088 --> 00:25.481
+Does u-substitution apply,
+
+00:25.481 --> 00:28.639
+and if so how would we
+make that substitution?
+
+00:28.639 --> 00:30.775
+Well the key for u-substitution is to see,
+
+00:30.775 --> 00:34.583
+do I have some function
+and its derivative?
+
+00:34.583 --> 00:36.302
+And you might immediately recognize
+
+00:36.302 --> 00:38.020
+that the derivative of natural log of x
+
+00:38.020 --> 00:39.460
+is equal to one over x.
+
+00:39.460 --> 00:40.501
+To make it a little bit clearer,
+
+00:40.501 --> 00:43.845
+I could write this as the integral of
+
+00:43.845 --> 00:47.375
+natural log of x to the 10th power
+
+00:47.375 --> 00:49.292
+times one over x dx.
+
+00:50.788 --> 00:52.012
+Now it becomes clear.
+
+00:52.012 --> 00:54.404
+We have some function, natural log of x,
+
+00:54.404 --> 00:56.355
+being raised to the 10th power,
+
+00:56.355 --> 00:58.212
+but we also have its
+derivative right over here,
+
+00:58.212 --> 00:59.512
+one over x.
+
+00:59.512 --> 01:01.718
+So we could make the substitution.
+
+01:01.718 --> 01:03.301
+We could say that u
+
+01:04.249 --> 01:06.455
+is equal to the natural log of x.
+
+01:06.455 --> 01:07.872
+And the reason why I
+picked natural log of x
+
+01:07.872 --> 01:09.126
+is because I see something,
+
+01:09.126 --> 01:10.588
+I see its exact derivative here,
+
+01:10.588 --> 01:12.353
+something close to its
+derivative, in this case
+
+01:12.353 --> 01:13.700
+its exact derivative.
+
+01:13.700 --> 01:15.720
+And so then I could say,
+
+01:15.720 --> 01:16.553
+du dx,
+
+01:17.508 --> 01:19.925
+du dx is equal to one over x,
+
+01:21.432 --> 01:23.015
+which means that du
+
+01:23.917 --> 01:26.334
+is equal to one over x dx.
+
+01:27.655 --> 01:29.071
+And so here you have it.
+
+01:29.071 --> 01:31.858
+This right over here is du,
+
+01:31.858 --> 01:35.712
+and then this right over here is our u.
+
+01:35.712 --> 01:38.290
+And so this nicely simplifies to
+
+01:38.290 --> 01:39.540
+the integral of
+
+01:40.496 --> 01:42.163
+u to the 10th power,
+
+01:44.606 --> 01:46.523
+u to the 10th power du.
+
+01:47.949 --> 01:49.946
+And so you would evaluate what this is,
+
+01:49.946 --> 01:51.525
+find the antiderivative here,
+
+01:51.525 --> 01:54.358
+and then you would back-substitute
+the natural log of x
+
+01:54.358 --> 01:59.211
+for u, to actually evaluate
+this indefinite integral.
+
+01:59.211 --> 02:00.720
+Let's do another one.
+
+02:00.720 --> 02:02.926
+Let's say that we have
+
+02:02.926 --> 02:04.259
+the integral of,
+
+02:06.223 --> 02:07.292
+let's do something,
+
+02:07.292 --> 02:10.287
+let's do something interesting here.
+
+02:10.287 --> 02:13.787
+Let's say the integral of tangent x dx.
+
+02:15.720 --> 02:18.739
+Does u-substitution apply here?
+
+02:18.739 --> 02:20.480
+And at first you say well
+I just have a tangent of x,
+
+02:20.480 --> 02:22.570
+where is its derivative?
+
+02:22.570 --> 02:24.312
+But one interesting thing to do is well
+
+02:24.312 --> 02:27.354
+we can rewrite tangent in
+terms of sine and cosine.
+
+02:27.354 --> 02:29.745
+So we can write this as the integral of
+
+02:29.745 --> 02:30.578
+sine of x
+
+02:31.789 --> 02:33.706
+over cosine of x dx.
+
+02:36.363 --> 02:37.361
+And now you might say
+
+02:37.361 --> 02:39.358
+well where does u-substitution apply here?
+
+02:39.358 --> 02:41.843
+Well there's a couple of
+ways to think about it.
+
+02:41.843 --> 02:45.279
+You could say the derivative
+of sine of x is cosine of x,
+
+02:45.279 --> 02:46.835
+but you're now dividing by the derivative
+
+02:46.835 --> 02:49.343
+as opposed to multiplying by it.
+
+02:49.343 --> 02:50.759
+But more interesting you could say
+
+02:50.759 --> 02:54.521
+the derivative of cosine
+of x is negative sine of x.
+
+02:54.521 --> 02:56.166
+We don't have a negative sine of x,
+
+02:56.166 --> 02:57.978
+but we can do a little bit of engineering.
+
+02:57.978 --> 03:00.741
+We can multiply by negative one twice.
+
+03:00.741 --> 03:03.411
+So we could say the negative
+of the negative sine of x,
+
+03:03.411 --> 03:05.640
+and I stuck one of the you
+could say negative ones
+
+03:05.640 --> 03:06.801
+outside of the integral,
+
+03:06.801 --> 03:09.100
+which comes straight from
+our integration properties.
+
+03:09.100 --> 03:10.331
+This is equivalent.
+
+03:10.331 --> 03:11.677
+I can put a negative on the outside,
+
+03:11.677 --> 03:12.908
+a negative on the inside,
+
+03:12.908 --> 03:15.950
+so that this is the
+derivative of cosine of x.
+
+03:15.950 --> 03:17.831
+And so now this is interesting.
+
+03:17.831 --> 03:19.131
+In fact let me rewrite this.
+
+03:19.131 --> 03:21.058
+This is going to be equal to negative,
+
+03:21.058 --> 03:23.311
+the negative integral,
+
+03:23.311 --> 03:25.228
+of one over cosine of x
+
+03:27.676 --> 03:30.259
+times negative sine of x dx.
+
+03:33.690 --> 03:36.941
+Now does it jump out at
+you what our u might be?
+
+03:36.941 --> 03:39.448
+Well I have a cosine of
+x in the denominator,
+
+03:39.448 --> 03:41.770
+and I have its derivative,
+
+03:41.770 --> 03:45.462
+so what if I made u equal to cosine of x?
+
+03:45.462 --> 03:47.629
+u is equal to cosine of x,
+
+03:48.504 --> 03:49.671
+and then du dx
+
+03:51.848 --> 03:54.797
+would be equal to negative sine of x.
+
+03:54.797 --> 03:56.399
+Or I could say
+
+03:56.399 --> 04:00.149
+that du is equal to negative sine of x dx.
+
+04:01.740 --> 04:04.823
+And just like that I have my du here,
+
+04:05.687 --> 04:07.937
+and this of course is my u.
+
+04:09.843 --> 04:12.189
+And so my whole thing
+has now simplified to,
+
+04:12.189 --> 04:14.162
+it's equal to,
+
+04:14.162 --> 04:15.162
+the negative
+
+04:16.461 --> 04:19.294
+indefinite integral of one over u,
+
+04:21.500 --> 04:22.667
+one over u du.
+
+04:25.215 --> 04:27.885
+Which is a much easier
+integral to evaluate,
+
+04:27.885 --> 04:29.186
+and then once you evaluate this,
+
+04:29.186 --> 04:32.603
+you back-substitute cosine of x for u.

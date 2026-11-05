@@ -1,0 +1,455 @@
+WEBVTT
+
+00:00.582 --> 00:03.521
+Nakreslil jsem si žlutě
+tuto na první pohled šílenou funkci.
+
+00:03.521 --> 00:08.616
+Podívejme se, kdy tato funkce nabývá
+své maximální a minimální hodnoty.
+
+00:08.616 --> 00:10.607
+Pro účely tohoto
+videa předpokládejme,
+
+00:10.607 --> 00:15.837
+že graf této funkce jde stále dolů,
+jak se x-ové hodnoty zmenšují,
+
+00:15.837 --> 00:17.281
+a stejně tak že
+jde stále dolů,
+
+00:17.281 --> 00:21.231
+když jsou x-ové hodnoty větší než
+‚x‘ v intervalu, který jsem nakreslil.
+
+00:21.231 --> 00:24.428
+Jakou maximální hodnotu
+nabývá naše funkce?
+
+00:24.428 --> 00:29.853
+Jen od pohledu můžeme vidět,
+že k tomu dojde v tomto bodě.
+
+00:29.853 --> 00:36.746
+Tuto hodnotu nazveme
+globální maximum,
+
+00:36.746 --> 00:39.896
+protože funkce nikdy nenabyde
+větší hodnotu než je tahle.
+
+00:39.896 --> 00:46.312
+Můžeme říci, že funkce nabývá
+svého globálního maxima v bodě x₀,
+
+00:46.312 --> 00:53.799
+protože funkční hodnota v bodě x₀
+je větší než funkční hodnoty f(x),
+
+00:53.799 --> 00:56.245
+a to pro všechna ostatní x
+z definičního oboru.
+
+00:56.245 --> 00:58.895
+To je poměrně zřejmé,
+když se na to podíváme.
+
+00:58.895 --> 01:02.629
+Podívejme se, jestli najdeme
+i globální minimum.
+
+01:02.629 --> 01:07.448
+Ne, protože tato funkce může nabýt
+libovolně zápornou hodnotu.
+
+01:07.448 --> 01:09.361
+Její hodnoty se blíží
+k minus nekonečnu,
+
+01:09.361 --> 01:13.861
+když se x blíží k minus nekonečnu
+a když se x blíží k plus nekonečnu.
+
+01:13.861 --> 01:14.960
+Takže nemáme...
+
+01:14.960 --> 01:16.050
+Napíšu to.
+
+01:16.050 --> 01:23.890
+...nemáme žádné
+globální minimum.
+
+01:23.890 --> 01:25.590
+Teď se vás zeptám
+na něco jiného.
+
+01:25.590 --> 01:29.540
+Má funkce nějaká lokální minima
+nebo lokální maxima?
+
+01:29.540 --> 01:35.670
+Minima je množné číslo od slova minimum
+a maxima je množné číslo od slova maximum.
+
+01:35.670 --> 01:40.104
+Má funkce nějaká
+lokální minima?
+
+01:40.104 --> 01:43.264
+Lokální minimum znamená,
+jak si asi dokážete představit,
+
+01:43.264 --> 01:47.022
+že funkční hodnota v daném bodě je menší
+než funkční hodnoty okolo toho bodu.
+
+01:47.022 --> 01:54.253
+Tento bod tedy vypadá
+jako lokální minimum.
+
+01:54.253 --> 01:58.896
+Nenapíšu vám teď úplně formální definici,
+ale můžeme to říci tak,
+
+01:58.896 --> 02:02.902
+že bod x₁ je
+bodem lokálního minima,
+
+02:02.902 --> 02:08.062
+pokud existuje takové okolí bodu x₁,
+na kterém je f(x₁) menší než f(x)
+
+02:08.062 --> 02:10.786
+pro všechna x
+v tomto okolí.
+
+02:10.786 --> 02:13.056
+Takové body se snadno
+poznají už od pohledu.
+
+02:13.056 --> 02:18.414
+Jde o nejnižší bod grafu funkce f
+v okolí daného bodu ‚x‘.
+
+02:18.414 --> 02:20.904
+Máme ještě nějaká další
+lokální minima?
+
+02:20.904 --> 02:22.500
+Vypadá to, že ne.
+
+02:22.500 --> 02:24.633
+A co lokální maxima?
+
+02:25.173 --> 02:27.592
+Tento bod...
+
+02:27.592 --> 02:31.572
+Nakreslím ho fialovou.
+
+02:31.572 --> 02:34.362
+Nebo raději ne, nechci lidi mást,
+tak radši touhle barvou.
+
+02:34.362 --> 02:38.292
+...tento bod vypadá
+jako lokální maximum.
+
+02:38.292 --> 02:40.552
+Ne lox,
+to je něco úplně jiného.
+
+02:40.552 --> 02:46.789
+Lokální maximum.
+
+02:46.789 --> 02:50.545
+Můžeme tedy říci,
+že v bodě x₁...
+
+02:50.545 --> 02:52.715
+Pardon, v bodě x₂.
+
+02:52.715 --> 02:56.795
+V bodě x₂ má
+funkce lokální maximum,
+
+02:56.795 --> 03:03.943
+protože f(x₂) je větší než f(x)
+pro všechna x z okolí bodu x₂.
+
+03:03.943 --> 03:07.103
+Nemluvím úplně formálně,
+ale jen od pohledu vidíte, co tím myslím.
+
+03:07.103 --> 03:08.123
+To bychom
+tedy měli.
+
+03:08.123 --> 03:15.338
+Našli jsme všechna maxima a minima,
+kterým se dohromady říká extrémy funkce.
+
+03:15.338 --> 03:20.613
+Nyní se podívejme, jak tyto extrémy
+najít pomocí derivace funkce.
+
+03:20.613 --> 03:25.215
+Koukněme se na derivaci
+v každém z těchto bodů.
+
+03:25.215 --> 03:30.185
+Kdybych chtěl nakreslit tečnu
+v tomto prvním bodě...
+
+03:30.185 --> 03:32.545
+Udělám to jinou
+barvou než hnědou.
+
+03:32.545 --> 03:36.985
+...kdybych chtěl nakreslit tečnu,
+tak by vypadala nějak takhle.
+
+03:36.985 --> 03:38.805
+Její směrnice je 0,
+
+03:38.805 --> 03:43.065
+takže f(x₀) s čárkou se rovná 0,
+
+03:43.065 --> 03:45.675
+protože směrnice tečny
+v tomto bodě je 0.
+
+03:45.689 --> 03:46.916
+A co tady?
+
+03:46.916 --> 03:52.266
+Tečna bude opět
+vypadat nějak takhle,
+
+03:52.266 --> 03:59.322
+takže f(x₁) s čárkou
+se také rovná 0.
+
+03:59.322 --> 04:00.875
+A jak to
+bude tady?
+
+04:00.875 --> 04:04.745
+V tomto bodě tečna
+není dobře definovaná.
+
+04:04.745 --> 04:08.982
+Když jdeme do našeho bodu, tak je sklon
+kladný, načež se hned stane záporným,
+
+04:08.982 --> 04:14.025
+takže f(x₁) s čárkou
+není definováno.
+
+04:14.025 --> 04:18.305
+Napíšu „nedefinováno“.
+
+04:18.305 --> 04:19.536
+Bude nás
+tedy zajímat...
+
+04:19.536 --> 04:24.043
+Nedělám tu formální důkaz,
+spíš chci, abyste získali nějakou intuici.
+
+04:24.043 --> 04:27.783
+Vidíme, že v bodě
+nějakého extrému...
+
+04:27.783 --> 04:31.653
+Nemluvím teď o případech,
+kdy je x krajním bodem intervalu.
+
+04:31.653 --> 04:36.023
+Aby bylo jasné, co tím teď myslím,
+když mluvím o krajních bodech intervalu,
+
+04:36.023 --> 04:38.513
+tak řekněme,
+že funkce je...
+
+04:38.513 --> 04:42.833
+Řekněme, že máme interval
+s tímto počátečním bodem
+
+04:42.833 --> 04:46.063
+a že funkce začíná
+v tomto bodě a pak pokračuje dál.
+
+04:46.063 --> 04:48.303
+Tady by bylo maximum,
+ale v krajním bodě.
+
+04:48.303 --> 04:50.180
+Nyní nebudeme mluvit
+o krajních bodech,
+
+04:50.180 --> 04:52.850
+budeme mluvit o
+bodech uvnitř intervalu
+
+04:52.850 --> 04:55.710
+nebo o bodech z
+neomezeného intervalu.
+
+04:55.710 --> 05:00.887
+Nemluvíme tedy o bodech
+jako jsou tyto,
+
+05:00.887 --> 05:05.567
+ale budou nás zajímat
+body uvnitř intervalu.
+
+05:05.567 --> 05:08.837
+Když tedy máme bod uvnitř
+zkoumaného intervalu,
+
+05:08.837 --> 05:10.600
+tak půjde o bod
+minima nebo maxima...
+
+05:10.600 --> 05:12.420
+Intuitivně jsme si
+to ukázali tady.
+
+05:12.420 --> 05:13.470
+...pokud...
+
+05:13.470 --> 05:24.580
+Tedy když v bodě, který není krajním bodem
+intervalu, nastane minimum nebo maximum...
+
+05:24.580 --> 05:27.870
+Můžeme ho označit jako
+bod x rovná se ‚a‘.
+
+05:27.870 --> 05:32.264
+Když víme, že funkce má minimum
+nebo maximum v nějakém bodě x rovno ‚a‘,
+
+05:32.264 --> 05:36.334
+který není krajním bodem
+zkoumaného intervalu,
+
+05:36.334 --> 05:39.344
+tak nám to říká něco zajímavého,
+co už jsme intuitivně nahlédli,
+
+05:39.344 --> 05:51.744
+a to že derivace v bodě x rovno ‚a‘
+je buď rovna 0, nebo není definovaná.
+
+05:51.744 --> 05:53.927
+Na našem grafu vidíme
+obě dvě možnosti.
+
+05:53.927 --> 05:55.787
+Zde je derivace nulová,
+tady taky
+
+05:55.787 --> 05:58.077
+a zde není
+derivace definovaná.
+
+05:58.077 --> 06:06.530
+Pro body, v nichž je derivace buď rovna 0,
+nebo není definovaná, máme vlastní název.
+
+06:06.530 --> 06:13.460
+Říkáme jim
+stacionární body.
+
+06:13.460 --> 06:30.129
+U naší funkce jsou stacionárními body
+x₀ a x₁, kde je derivace nulová,
+
+06:30.129 --> 06:34.626
+a také x₁,
+kde derivace není definovaná.
+
+06:34.626 --> 06:37.420
+Máme-li tedy nějaký bod,
+který není krajním bodem intervalu
+
+06:37.420 --> 06:41.960
+a v němž funkce nabývá minima nebo maxima,
+tak jde určitě o stacionární bod.
+
+06:41.960 --> 06:43.404
+Platí to ale
+i obráceně?
+
+06:43.404 --> 06:45.394
+Pokud najdeme
+nějaký stacionární bod,
+
+06:45.394 --> 06:48.264
+tedy bod, v němž je derivace
+rovna 0, nebo není definovaná,
+
+06:48.264 --> 06:52.476
+půjde o bod
+maxima nebo minima?
+
+06:52.476 --> 07:01.406
+Abychom si to představili,
+uvažme tento bod, který označím jako x₃.
+
+07:01.406 --> 07:05.280
+Když v tomto bodě nakreslíme tečnu
+a podíváme se na její směrnici,
+
+07:05.280 --> 07:10.250
+tak to vypadá,
+že f(x₃) s čárkou se rovná 0.
+
+07:10.250 --> 07:15.906
+Podle naší definice stacionárního bodu
+je tedy bod x₃ také stacionárním bodem,
+
+07:15.906 --> 07:19.989
+ale v tomto bodě zřejmě
+nenastává ani minimum, ani maximum.
+
+07:19.989 --> 07:23.863
+Takže bod minima nebo maxima,
+který není krajním bodem intervalu,
+
+07:23.863 --> 07:25.825
+je určitě
+stacionární bod,
+
+07:25.825 --> 07:31.546
+ale ve stacionárním bodě funkce ještě
+nemusí mít minimum nebo maximum.
+
+07:31.546 --> 07:32.766
+Aby to bylo jasné,
+
+07:32.766 --> 07:35.959
+tak v těchto bodech nastává
+minimum nebo maximum,
+
+07:35.959 --> 07:38.002
+ale tento bod,
+který je taky stacionární...
+
+07:38.002 --> 07:41.782
+Všechno jsou to stacionární body,
+ale toto není bod minima ani maxima.
+
+07:41.782 --> 07:47.323
+V dalším videu se podíváme,
+jak můžete rozhodnout,
+
+07:47.323 --> 07:51.773
+zda má funkce ve stacionárním bodě
+své minimum nebo maximum.

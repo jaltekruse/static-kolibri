@@ -1,0 +1,183 @@
+WEBVTT
+
+00:00.000 --> 00:05.829
+Sice jsme už počítali spoustu
+příkladů na derivaci implicitní funkce,
+
+00:05.829 --> 00:12.870
+avšak ještě jsme pomocí ní nenašli
+směrnici tečny v daném bodě.
+
+00:12.870 --> 00:14.660
+A to bude cílem
+tohoto videa.
+
+00:14.660 --> 00:26.890
+Pro danou rovnici budeme chtít
+najít směrnici tečny pro x rovno 1.
+
+00:26.890 --> 00:34.350
+Všimněme si, při implicitním derivováním
+budeme pracovat s funkcí proměnných x a y.
+
+00:34.350 --> 00:38.610
+Proto je třeba zjistit, jaké hodnoty
+bude nabývat y, pro x rovno 1.
+
+00:38.612 --> 00:40.070
+Tak to prozkoumejme.
+
+00:40.070 --> 00:43.850
+Pro x rovno 1, zde
+obdržíme následující:
+
+00:43.850 --> 00:52.094
+1 na druhou, což je 1, plus třetí
+mocnina rozdílu y a 1, a to celé rovno 28.
+
+00:52.094 --> 00:53.770
+Odečtěme 1
+od obou stran.
+
+00:53.770 --> 01:00.760
+Máme třetí mocninu
+rozdílu y a 1 je rovna 27.
+
+01:00.760 --> 01:02.380
+Proveďme
+třetí odmocninu.
+
+01:02.380 --> 01:08.420
+Dostaneme, že y minus 1 je 3,
+tedy y je rovno 4.
+
+01:08.432 --> 01:15.690
+Budeme tedy chtít nalézt
+směrnici tečny v bodě [1; 4].
+
+01:15.690 --> 01:16.965
+Což je zde.
+
+01:16.965 --> 01:24.920
+Chceme zjistit
+směrnici tečny v tomto bodě.
+
+01:24.920 --> 01:40.640
+Začněme s implicitním derivováním
+obou stran této rovnice.
+
+01:40.640 --> 01:47.670
+Derivace x na druhou
+podle x je 2x.
+
+01:47.670 --> 01:53.790
+Derivace ‚něčeho‘ na třetí
+podle x bude následující:
+
+01:53.790 --> 02:03.460
+3 krát ‚něco‘ na druhou
+krát derivace ‚něčeho‘ podle x.
+
+02:03.460 --> 02:06.260
+Čemu je rovna derivace
+toho ‚něčeho‘ podle x?
+
+02:06.260 --> 02:15.740
+Derivaci y podle x pouze opíšeme
+a derivace x podle x je 1.
+
+02:15.740 --> 02:22.020
+Jelikož derivace konstanty je 0,
+tak napravo dostaneme 0.
+
+02:22.020 --> 02:25.420
+Zbývá zjistit, čemu je
+rovna derivace y podle x.
+
+02:25.420 --> 02:27.620
+2x opíšeme.
+
+02:27.620 --> 02:37.116
+Nyní tento
+součin roznásobíme.
+
+02:37.116 --> 02:49.347
+Dostaneme 3 krát rozdíl y a
+x na druhou krát derivace y podle x.
+
+02:49.347 --> 03:01.490
+A od toho odečteme
+3 krát rozdíl y a x na druhou.
+
+03:01.490 --> 03:05.460
+To celé je
+pak rovno 0.
+
+03:05.460 --> 03:12.530
+Nyní dostaňme toto, odečtením od
+obou stran rovnice, na druhou stranu.
+
+03:12.530 --> 03:27.879
+Nalevo pak zůstane 3 krát rozdíl y a
+x na druhou krát derivace y podle x.
+
+03:27.879 --> 03:48.160
+Napravo pak bude 3 krát
+rozdíl y a x na druhou minus 2x.
+
+03:48.160 --> 03:52.430
+Vyjádření derivace y podle x
+jsme počítali již mnohokrát.
+
+03:52.430 --> 03:59.430
+Vyjádříme derivaci y vzhledem k x.
+
+03:59.430 --> 04:06.330
+To je rovno 3 krát y minus
+x na druhou minus 2x,
+
+04:06.330 --> 04:15.330
+kde to celé vydělíme 3 krát
+rozdíl y a x na druhou.
+
+04:15.330 --> 04:24.590
+Pro nalezení derivace y podle x
+v daném bodě stačí substituci do výrazu,
+
+04:24.590 --> 04:28.160
+kde položíme
+x rovno 1 a y rovno 4.
+
+04:28.160 --> 04:39.920
+V čitateli dostaneme 3 krát rozdíl
+4 a 1 na druhou minus 2 krát 1.
+
+04:39.920 --> 04:53.950
+Ve jmenovateli pak máme
+3 krát rozdíl 4 a 1 na druhou.
+
+04:53.950 --> 05:00.110
+V čitateli dostaneme
+27 minus 2 což je 25.
+
+05:00.110 --> 05:04.900
+Ve jmenovateli
+pak obdržíme 27.
+
+05:04.900 --> 05:07.770
+Hledaná směrnice tečny
+je 27 lomeno 25.
+
+05:07.770 --> 05:10.102
+Tedy téměř 1.
+
+05:10.102 --> 05:12.310
+Což je i patrné
+na obrázku.
+
+05:12.310 --> 05:22.550
+Nakonec poznamenejme, že obrázek grafu
+křivky je z programu Wolfram Alpha.
+
+05:22.550 --> 05:24.881
+Snad jste se něco naučili.

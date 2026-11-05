@@ -1,0 +1,343 @@
+WEBVTT
+
+00:01.124 --> 00:06.284
+En son videoda gördüğümüz kuvvet kuralı videosundan sonra işte bir başkası daha.
+
+00:06.284 --> 00:15.302
+d/dx[x^n]=nx^n-1, n'nin sıfıra eşit olmadığı durumlarda.
+
+00:15.302 --> 00:20.237
+Size bir kaç tane daha türev kuralı ya da özelliği göstermeyi düşünüyorum.
+
+00:20.237 --> 00:23.636
+Temel olarak herhangi bir polinomun türevini alacağım.
+
+00:23.636 --> 00:25.845
+Yani burada yapacağımız kuvvet kuralı.
+
+00:25.845 --> 00:30.864
+İlk bahsedeceğim burada gördüğümüz n'nin özel durumu.
+
+00:30.864 --> 00:32.569
+Yani n'nin neden sıfır olamayacağı.
+
+00:32.569 --> 00:34.528
+n sıfıra eşit olursa ne olur?
+
+00:34.528 --> 00:36.568
+Sadece şu durumu düşünelim.
+
+00:36.568 --> 00:38.303
+Türevini alalım.
+
+00:38.303 --> 00:42.370
+d/dx[x^0]
+
+00:42.370 --> 00:46.634
+x^0 ne olacak?
+
+00:46.634 --> 00:50.196
+Burada x'in sıfır olmadığını varsayıyoruz.
+
+00:50.196 --> 00:54.303
+0^0 garip bir şey.
+
+00:54.303 --> 00:58.614
+x sıfıra eşit değilse x^0 ne olacak?
+
+00:58.614 --> 01:03.370
+Bu şununla aynı şey: d/dx[1].
+
+01:03.370 --> 01:05.578
+x^0=1
+
+01:05.578 --> 01:10.769
+O zaman x'e göre 1'in türevi nedir?
+
+01:10.769 --> 01:14.367
+Bu soruya cevap vermek için grafik çizeceğim.
+
+01:14.367 --> 01:17.202
+f(x)=1'in grafiğini çizeceğim.
+
+01:17.202 --> 01:18.974
+Biraz daha netleştirmek için.
+
+01:18.974 --> 01:20.867
+Bu benim y eksenim.
+
+01:20.867 --> 01:23.909
+Bu x eksenim.
+
+01:23.909 --> 01:27.302
+y=1 yani f(x)=1'i çizelim.
+
+01:27.302 --> 01:32.034
+Sadece yatay bir çizgi çizeceğiz.
+
+01:32.034 --> 01:39.533
+İşte bu y=f(x)=1 idir.
+
+01:39.533 --> 01:45.040
+Şimdi, hatırlayın türev herhangi bir noktadaki teğetin eğimi.
+
+01:45.040 --> 01:48.284
+O zaman bu noktadaki teğetin eğimi ne?
+
+01:48.284 --> 01:50.904
+Aslında her noktadaki eğim nedir?
+
+01:50.904 --> 01:53.189
+Bu bir doğru olduğu için eğim değişmez.
+
+01:53.189 --> 01:55.045
+Sabit bir eğimi var.
+
+01:55.045 --> 01:56.903
+Tamamen yatay bir doğru.
+
+01:56.903 --> 01:58.970
+Eğimi sıfırdır.
+
+01:58.970 --> 02:03.235
+Yani buradaki her noktada eğim sıfır olacaktır.
+
+02:03.235 --> 02:10.112
+Yani bu doğruda üzerindeki herhangi bir noktanın eğimi sıfırdır.
+
+02:10.112 --> 02:14.119
+Bu durum aslında herhangi bir sabit sayıda da geçerli olacaktır.
+
+02:14.119 --> 02:18.302
+Mesela f(x)=3 olduğunu düşünelim.
+
+02:18.302 --> 02:23.242
+y=3, y'nin x'e göre türevi ne olur?
+
+02:23.242 --> 02:29.969
+dy/dx=? Özellikle türevi ifade eden bütün simgeleri kullanmaya özen gösteriyorum.
+
+02:29.969 --> 02:34.527
+dy/dx aynı zamanda y' şeklinde de gösterilebilir.
+
+02:34.527 --> 02:37.201
+y' neye eşit olacak?
+
+02:37.201 --> 02:43.527
+Burada eğim, gördüğünüz gibi hangi x noktasına bakarsanız bakın, sıfır olacaktır.
+
+02:43.527 --> 02:46.201
+Yani y'=0.
+
+02:46.201 --> 02:51.302
+Yani sadece x^0 değil, herhangi sabit bir sayıda da yine sıfır elde edeceksiniz.
+
+02:51.302 --> 02:53.444
+Şöyle yazalım.
+
+02:53.444 --> 03:02.637
+d/dx[A]=0, x'e göre herhangi bir sabitin türevi, bu sabite A diyelim, sıfıra eşittir.
+
+03:02.637 --> 03:04.781
+d/dx[A]=0
+
+03:04.781 --> 03:06.372
+Oldukça basit.
+
+03:06.372 --> 03:07.955
+Şimdi bir kaç tane daha özellik inceleyelim.
+
+03:07.955 --> 03:14.466
+Mesela diyelim ki, bir sabit ile çarpılmış bir fonksiyonun türevi.
+
+03:14.466 --> 03:22.282
+d/dx[Af(x)]
+
+03:22.282 --> 03:28.711
+Türev çok güzel çalışır. Burada sabit sayıyı alıp türevin dışına koyabilirsiniz.
+
+03:28.711 --> 03:51.173
+Yani d/dx[Af(x)]= A.d/dx[f(x)] olacaktır.
+
+03:51.173 --> 03:58.369
+f(x)'in türevini göstermenin başka bir yolu daha var. Onu da yazalım.
+
+03:58.369 --> 04:05.569
+Yani d/dx[Af(x)]= A.f '(x)
+
+04:05.569 --> 04:08.976
+Bu bütün gördükleriniz çok karmaşık gösterim biçimleri gibi duruyor.
+
+04:08.976 --> 04:11.643
+Fakat şimdi yapacağımız örneklerle daha anlamlı olacaklarını düşünüyorum.
+
+04:11.643 --> 04:28.833
+Mesela d/dx[2x^5] nedir?
+
+04:28.833 --> 04:32.864
+Bu bir önceki verdiğimiz özelliğin bir örneği yani bunu şöyle de yazabiliriz.
+
+04:32.864 --> 04:40.706
+2d/dx[x^5]
+
+04:40.706 --> 04:44.569
+d/dx[2x^5]= 2d/dx[x^5].
+
+04:44.569 --> 04:49.538
+Tek yaptığımız bu 2'yi alıp türevin dışına koymak oldu.
+
+04:49.538 --> 04:54.368
+Şimdi bulmamız gereken x^5'in türevi.
+
+04:54.368 --> 04:56.301
+Bunu da nasıl yapacağımızı biliyoruz.
+
+04:56.301 --> 04:57.869
+Kuvvet kuralı ile.
+
+04:57.869 --> 05:02.798
+x^5'in türevi ne? Kuvvet kuralı söylüyor bunu bize.
+
+05:02.798 --> 05:13.711
+5 çarpı x üssü 5-1 yani 5x^4.
+
+05:13.711 --> 05:28.207
+Yani 2d/dx[x^5]= 2.5.x^4= 10x^4.
+
+05:28.207 --> 05:29.928
+Yani (2x^5)' bulmak için şöyle de düşünebilirsiniz.
+
+05:29.928 --> 05:33.201
+x^5'in türevi nedir? 5x^4. Onu da 2 ile çarpınca 10x^4.
+
+05:33.201 --> 05:34.702
+Bu bizim hayatımızı baya kolaylaştıran bir özellik.
+
+05:34.702 --> 05:40.371
+Artık kuvvet kuralını ve bu özelliği kullanarak Ax^n formatında herhangi bir ifadenin türevini bulabilirsiniz.
+
+05:40.371 --> 05:43.796
+Şimdi başka kullanışlı bir özelliğe geçelim.
+
+05:43.796 --> 05:46.368
+Bu sadece kuvvet kuralı ile değil herhangi bir türeve de uygulanabilir.
+
+05:46.368 --> 05:51.368
+Ancak kuvvet kuralıyla daha kullanışlıdır.
+
+05:51.368 --> 05:57.639
+İki fonksiyonun toplamının türevini alalım.
+
+05:57.639 --> 06:03.569
+d/dx[f(x)+g(x)]
+
+06:03.569 --> 06:07.370
+Şanslıyız ki bu şununla aynı şey:
+
+06:07.370 --> 06:15.910
+d/dx[f(x)]+d/dx[g(x)]
+
+06:15.910 --> 06:24.306
+Yani d/dx[f(x)+g(x)]= d/dx[f(x)]+d/dx[g(x)]
+
+06:24.306 --> 06:38.449
+Başka bir şekilde yazacak olursak, d/dx[f(x)]=f'(x) ve d/dx[g(x)]=g'(x) olur.
+
+06:38.449 --> 06:50.120
+Yani d/dx[f(x)]+d/dx[g(x)]=f'(x)+g'(x).
+
+06:50.120 --> 06:56.198
+Yine burada gördüğünüz ifade size çok gösterişli, karmaşık gelebilir ama örnek yaptığımızda daha açık olacaktır.
+
+06:56.198 --> 07:12.768
+Mesela d/dx[x^3+x^-4].
+
+07:12.768 --> 07:17.861
+Bu sadece bize şunu söyler; toplamlarının türevi, türevlerinin toplamına eşittir.
+
+07:17.861 --> 07:24.036
+Yani biz bu ilk terimin türevini kuvvet kuralı kullanarak bulalım. 3x^2.
+
+07:24.036 --> 07:36.901
+Daha sonra bunu 2. terimin türeviyle yani (-4)x^-5 ile toplayacağız.
+
+07:36.901 --> 07:46.534
+Yani d/dx[x^3+x^-4]= 3x^2+(-4)x^-5.
+
+07:46.534 --> 07:48.535
+Biraz düzenleyelim.
+
+07:48.535 --> 07:56.638
+d/dx[x^3+x^-4]= 3x^2-4x^-5.
+
+07:56.638 --> 08:03.975
+Şimdi herhangi bir polinomun türevini bulmak için ihtiyacımız olan her şeyi biliyoruz.
+
+08:03.975 --> 08:06.839
+Biraz pratik yapalım o zaman.
+
+08:06.839 --> 08:29.903
+Mesela diyelim ki f(x)=2x^3-7x^2+3x-100 olsun.
+
+08:29.903 --> 08:32.119
+f(x) fonksiyonunun türevi nedir?
+
+08:32.119 --> 08:33.975
+f '(x)=?
+
+08:33.975 --> 08:36.214
+Az önce kullandığımız özellikleri kullanacağız.
+
+08:36.214 --> 08:39.137
+2x^3'ün türevi 2 çarpı x^3 ile aynıdır.
+
+08:39.137 --> 08:43.032
+x^3'ün türevi 3x^2'ye eşittir.
+
+08:43.032 --> 08:47.567
+O zaman 2x^3'nin türevi 2.3x^2 idir.
+
+08:47.567 --> 08:49.117
+-7x^2'nin türevi nedir?
+
+08:49.117 --> 08:55.980
+-7 çarpı x^2'nin türevi yani -7.2x.
+
+08:55.980 --> 08:58.485
+3x'in türevi nedir?
+
+08:58.485 --> 09:03.547
+3 çarpı x'in türevi ya da 3 çarpı x^1'in türevi.
+
+09:03.547 --> 09:05.369
+x^1'in türevi 1'e eşittir.
+
+09:05.369 --> 09:11.620
+Yani bu 3 çarpı x^0 olacaktır ki o da 1'e eşit olduğu için kısacası 3.
+
+09:11.620 --> 09:15.770
+Son olarak buradaki sabit sayımızın türevi ne olacak?
+
+09:15.770 --> 09:23.033
+Bunu biraz az önce öğrendik.
+
+09:23.033 --> 09:27.632
+Sabit herhangi bir sayının türevi sıfırdır.
+
+09:27.632 --> 09:30.986
+Yani f'(x)=2.3x^2-7.2x+3+0.
+
+09:30.986 --> 09:33.113
+Şimdi düzenleyelim.
+
+09:33.113 --> 09:44.370
+2 çarpı 3 6x^2, -7 çarpı 2 -14x, artı 3 ve de 0'ı yazmamıza gerek yok.
+
+09:44.370 --> 09:46.568
+f'(x)= 6x^2-14x+3.
+
+09:46.568 --> 09:48.112
+Ve türevi bulduk.
+
+09:48.112 --> 09:52.112
+Polinomların türevini bulmak için her şeyi öğrendik, hatta daha fazlasını.

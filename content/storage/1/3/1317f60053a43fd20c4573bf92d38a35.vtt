@@ -1,0 +1,384 @@
+WEBVTT
+
+00:00.500 --> 00:04.182
+Já vimos muitos exemplos
+de séries infinitas.
+
+00:04.182 --> 00:06.931
+Mas o que faremos
+de empolgante neste vídeo
+
+00:06.931 --> 00:09.879
+será usar séries infinitas
+para definir uma função.
+
+00:09.879 --> 00:13.160
+A mais comum que você verá
+na sua carreira matemática
+
+00:13.160 --> 00:17.120
+é a série de potências.
+
+00:17.120 --> 00:20.010
+Vou escrever um caso geral
+de séries de potências.
+
+00:20.010 --> 00:26.110
+Posso imaginar uma função f de x,
+sendo definida como uma soma infinita.
+
+00:26.110 --> 00:30.900
+Indo de n igual a zero
+para infinito de a sub n--
+
+00:30.900 --> 00:33.760
+então a sub n vai ser
+o coeficiente em cada termo
+
+00:33.760 --> 00:37.320
+vezes nossa variável x
+menos algum c constante
+
+00:37.320 --> 00:42.260
+é possível imaginar que este está mudando
+nossa função para a enésima potência.
+
+00:42.260 --> 00:45.480
+Se for expandir isto, eu tenho
+o coeficiente do primeiro termo,
+
+00:45.480 --> 00:50.680
+a sub zero vezes x menos c elevado a zero
+
+00:50.680 --> 00:54.400
+mais a sub um vezes x
+menos c elevado a um.
+
+00:54.400 --> 00:57.180
+Este vai simplificar para a sub zero.
+
+00:57.180 --> 01:00.350
+Este vai simplificar para
+a sub um vezes x menos c
+
+01:00.350 --> 01:04.700
+mais a sub dois vezes x
+menos c ao quadrado.
+
+01:04.700 --> 01:07.587
+E assim por diante.
+
+01:07.587 --> 01:10.770
+Vendo isso podemos dizer:
+nossas séries geométricas não
+
+01:10.770 --> 01:13.440
+parecem um caso especial
+de série de potências
+
+01:13.440 --> 01:17.260
+se nossa razão comum fosse um x
+ao invés de um r naquele caso,
+
+01:17.260 --> 01:21.920
+ou se nossa razão comum fosse
+uma variável, digamos?
+
+01:21.920 --> 01:25.480
+E estaria certo.
+Este seria absolutamente o caso.
+
+01:25.490 --> 01:28.800
+Série geométrica.
+
+01:28.800 --> 01:32.490
+Vamos pensar sobre definir uma função
+em termos de uma série geométrica.
+
+01:32.490 --> 01:36.660
+Claro que não temos que usar x
+o tempo todo como variável independente,
+
+01:36.660 --> 01:38.650
+mas esta é a convenção mais típica.
+
+01:38.650 --> 01:42.240
+Também podemos usar r
+como uma variável independente.
+
+01:42.240 --> 01:45.710
+Vamos imaginar uma função g de x.
+Podemos ter g de r se quisermos,
+
+01:45.710 --> 01:49.860
+mas vamos fazer g de x é igual à soma de
+
+01:49.860 --> 01:57.060
+n é igual a zero ao infinito de a
+vezes x elevado a n.
+
+01:57.060 --> 02:01.220
+Esta é uma típica série geométrica.
+
+02:01.220 --> 02:04.020
+E qual é a diferença entre este e este?
+
+02:04.020 --> 02:08.059
+A diferença é que aqui, para cada termo
+teremos o mesmo coeficiente a,
+
+02:08.059 --> 02:09.864
+enquanto ali teremos a sub n.
+
+02:09.864 --> 02:12.280
+Aqui multiplicamos
+por uma coisa diferente.
+
+02:12.280 --> 02:14.610
+Aqui multiplicamos pela mesma coisa.
+
+02:14.610 --> 02:17.650
+Neste caso, nesta série geométrica
+que acabei de fazer,
+
+02:17.650 --> 02:20.600
+ao invés de ter x menos c elevado a n,
+temos só x elevado a n.
+
+02:20.600 --> 02:24.285
+Podemos dizer que este é um
+caso especial quando c é igual a zero.
+
+02:24.285 --> 02:28.040
+Podemos expandir isto.
+Este é a vezes x elevado a zero,
+
+02:28.040 --> 02:31.540
+que vai ser a, mais a
+vezes x elevado a um,
+
+02:31.540 --> 02:36.210
+mais a vezes x ao quadrado.
+E assim por diante.
+
+02:36.210 --> 02:43.520
+O empolgante disto é que sabemos que
+este, sob certas condições,
+
+02:43.520 --> 02:45.950
+irá na verdade nos dar um valor finito.
+
+02:45.950 --> 02:47.640
+Isto irá na verdade convergir.
+
+02:47.640 --> 02:51.350
+Isto irá na verdade, eu acho,
+nos dar uma resposta lógica.
+
+02:51.350 --> 02:53.520
+Então sob que condições isto acontece?
+
+02:53.520 --> 02:57.839
+Isto se converge se cada um
+destes termos diminuir cada vez mais.
+
+02:57.839 --> 03:00.390
+E cada um destes termos
+ficar cada vez menor.
+
+03:00.390 --> 03:06.470
+Se o valor absoluto da nossa
+razão comum for menor que um.
+
+03:06.470 --> 03:08.100
+Vou escrever isto.
+
+03:08.100 --> 03:14.410
+Este converge se o valor absoluto
+
+03:14.410 --> 03:18.181
+da nossa razão comum for menor que um.
+
+03:18.181 --> 03:22.660
+Outra forma de pensar sobre isso,
+esta é outra forma de dizer que
+
+03:22.660 --> 03:29.400
+x está no intervalo entre--
+é menor que um e é maior que um negativo.
+
+03:29.400 --> 03:33.350
+E este termo aqui, agora x é uma variável.
+x pode variar entre aqueles valores.
+
+03:33.350 --> 03:35.640
+Estamos definindo uma
+função em termos de x.
+
+03:35.640 --> 03:46.100
+Chamamos isto de
+intervalo de convergência.
+
+03:46.100 --> 03:50.077
+Sabemos que se x está neste intervalo,
+este vai nos dar uma soma finita.
+
+03:50.077 --> 03:56.620
+E sabemos o que é uma soma finita.
+Vai ser igual a-- se isto convergir.
+
+03:56.620 --> 04:01.510
+Se isto convergir, este vai ser
+igual a nosso primeiro termo,
+
+04:01.510 --> 04:07.580
+que é só a-- isto simplifica para a--
+sobre um menos nossa razão comum.
+
+04:07.580 --> 04:11.350
+Qual é nossa razão comum?
+Nossa razão comum neste exemplo é x.
+
+04:11.360 --> 04:15.120
+Indo de um termo para o outro,
+só vamos multiplicar por x.
+
+04:15.120 --> 04:19.640
+Só estamos multiplicando por x aqui.
+
+04:19.640 --> 04:23.210
+Agora, isto é bem claro,
+porque nós podemos usar este fato
+
+04:23.210 --> 04:27.180
+para colocar mais funções tradicionalmente
+definidas nesta fórmula,
+
+04:27.180 --> 04:31.660
+e então tentar expandi-las
+usando uma série geométrica.
+
+04:31.660 --> 04:35.432
+Esta ideia de usar uma série de potências,
+ou neste caso séries geométricas
+
+04:35.432 --> 04:39.770
+para representar funções, tem vários tipos
+de aplicações em engenharia e finanças.
+
+04:39.770 --> 04:43.980
+Usando um número finito
+de termos destas séries,
+
+04:43.980 --> 04:47.010
+você pode aproximar as funções
+de uma forma que é mais simples
+
+04:47.010 --> 04:49.670
+para o cérebro humano entender
+ou talvez uma forma
+
+04:49.670 --> 04:51.690
+mais simples de manipular de alguma forma.
+
+04:51.690 --> 04:56.670
+Mas é interessante que
+ao invés de só ir da soma para--
+
+04:56.670 --> 05:01.910
+ao invés de ir desta versão expandida
+para este tipo de valor finito,
+
+05:01.922 --> 05:06.940
+vamos conseguir pegar algo nesta
+fórmula e expandir em séries geométricas.
+
+05:06.940 --> 05:09.864
+Vamos tomar cuidado para
+ter certeza que estamos fazendo isto
+
+05:09.864 --> 05:12.860
+sobre o intervalo da convergência.
+Este só será verdade sobre
+
+05:12.860 --> 05:15.000
+o intervalo de convergência.
+
+05:15.010 --> 05:20.230
+Outro termo que você pode ver
+em nossa carreira matemática é um raio.
+
+05:20.230 --> 05:24.985
+Raio de convergência.
+
+05:24.985 --> 05:30.190
+É a distância-- até que valor,
+mas não incluindo este valor.
+
+05:30.190 --> 05:36.760
+Desde que nosso valor x fique
+menor que uma certa quantia
+
+05:36.760 --> 05:40.680
+do nosso valor c, isto vai convergir.
+
+05:40.680 --> 05:43.996
+Neste caso, nosso valor c é zero.
+
+05:43.996 --> 05:48.972
+Então podemos nos perguntar uma coisa.
+
+05:48.972 --> 05:54.540
+Desde que x fique dentro de
+algum valor de zero, isto vai convergir.
+
+05:54.540 --> 06:01.444
+Você pode ver isto aqui.
+Desde que x fique dentro de um de zero.
+
+06:01.444 --> 06:03.086
+Não posso considerar tudo até um,
+
+06:03.086 --> 06:06.700
+mas desde que ele fique menor que um,
+ou maior que um negativo.
+
+06:06.700 --> 06:13.180
+Ele pode variar entre qualquer coisa
+menor que um longe de zero,
+
+06:13.180 --> 06:16.490
+na direção positiva ou negativa.
+
+06:16.490 --> 06:18.560
+Então isto ainda vai convergir.
+
+06:18.560 --> 06:23.550
+Podemos dizer que nosso
+raio de convergência é igual a um.
+
+06:23.550 --> 06:25.210
+Outra forma de pensar sobre isso,
+
+06:25.210 --> 06:28.490
+nosso intervalo de convergência--
+nós vamos de um negativo até um,
+
+06:28.490 --> 06:31.696
+não incluindo aqueles dois limites,
+então nosso intervalo é dois.
+
+06:31.696 --> 06:34.290
+Então nosso raio de convergência
+é metade daquilo.
+
+06:34.290 --> 06:43.990
+Desde que x fique dentro de um, de zero,
+que é este aqui,
+
+06:43.990 --> 06:47.900
+esta série irá convergir.
+
+06:47.900 --> 06:48.832
+Tradução: Rosana Cabral
+Revisão: Dory Hélio Aires.

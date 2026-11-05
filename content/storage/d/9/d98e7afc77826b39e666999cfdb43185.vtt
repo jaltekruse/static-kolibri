@@ -1,0 +1,547 @@
+WEBVTT
+
+00:00.410 --> 00:03.520
+Bu videoda, size geometrik dizilerin temelini
+
+00:03.520 --> 00:05.245
+vermek istiyorum.
+
+00:05.245 --> 00:09.590
+Geometrik dizi
+
+00:09.590 --> 00:12.720
+Ve bu konu üzerinde daha gelişmiş onlarca videom da var,
+
+00:12.720 --> 00:15.330
+fakat bu video başlangıç için ve birileri geometrik...
+
+00:15.330 --> 00:17.380
+dizi dediğinde ne dediklerini anlamak için
+
+00:17.380 --> 00:19.450
+gayet yeterli.
+
+00:19.450 --> 00:22.200
+Şimdi iyi bir başlangıç noktası olarak soralım, seri nedir?
+
+00:22.200 --> 00:24.330
+Bir seri, sizin de tahmin edebileceğiniz gibi, basitçe söylemek gerekirse,
+
+00:24.330 --> 00:26.420
+bir devamlılığa sahip olan sayılardır.
+
+00:26.420 --> 00:29.730
+Örnek vermek gerekirse -ki bu geometrik bir dizi bile değil- ben
+
+00:29.730 --> 00:34.570
+sadece 1,2,3,4,5 dersem,
+
+00:34.570 --> 00:37.120
+Bu bir sayı dizisi olur.
+
+00:37.120 --> 00:40.680
+Bu bir geometrik dizi değildir, fakat bir dizidir.
+
+00:40.680 --> 00:45.085
+Bir geometrik diziden bahsedebilmek için sayıların özel bir devamlılığı veya
+
+00:45.085 --> 00:52.370
+her sayının kendisinden bir önce gelen sayının sabit bir katı olduğu özel bir dizilimi
+
+00:52.370 --> 00:55.180
+olması gerekir.
+
+00:55.180 --> 00:57.080
+Şimdi açıklamaya geçelim.
+
+00:57.080 --> 01:03.430
+İlk sayımın 2 olduğunu ve sonrasında bu sayıyı 3 ile
+
+01:03.430 --> 01:05.290
+çarptığımı varsayalım.
+
+01:05.290 --> 01:07.420
+Yani 2'yi 3 ile çarparak, 6 sayısını elde ederiz.
+
+01:07.420 --> 01:10.590
+Daha sonra, elde ettiğimiz 6 sayısını 3 ile çarparız ve 18 sayısını elde ederiz.
+
+01:10.590 --> 01:15.230
+Daha sonra, bir önceki işlemde elde ettiğimiz 18'i, yine 3 ile çarparız ve 54 sayısını elde ederiz.
+
+01:15.230 --> 01:17.280
+Ve aynı şekilde devam ederiz.
+
+01:17.280 --> 01:21.090
+Yani elde ettiğimiz her sonucu, bir sonraki işlemde tekrar 3 ile çarparız.
+
+01:21.090 --> 01:24.860
+Şimdi bir gösterim biçimi elde etmek istiyorsak,
+
+01:24.860 --> 01:26.970
+bu benim ilk terimim olsun.
+
+01:26.970 --> 01:29.840
+Dizimizin bu ilk terimine a1 diyeceğiz.
+
+01:29.840 --> 01:34.170
+Ve her seferinde bu terimi ortak bir sayıyla çarpıyorum ve
+
+01:34.170 --> 01:37.140
+ilk terim ile çarptığım bu sayının adı ortak oran (çarpan).
+
+01:37.140 --> 01:42.420
+Bu durumda, a1 sayımız 2'ye eşit ve ortak
+
+01:42.420 --> 01:43.670
+oranımız ise 3
+
+01:49.760 --> 01:52.680
+Eğer birileri size "hey, senin bir geometrik dizin var"
+
+01:52.680 --> 01:54.310
+deseydi,
+
+01:54.310 --> 01:59.220
+a1 sayımız 90 ve ortak oranımız
+
+01:59.220 --> 02:01.160
+eksi 1/3 olsaydı
+
+02:01.160 --> 02:05.570
+Bu demek oluyor ki, dizinin ilk terimi 90.
+
+02:05.570 --> 02:09.770
+İkinci terimimiz ise eksi 1/3 çarpı 90'a eşittir.
+
+02:09.770 --> 02:10.759
+Ve bu da?
+
+02:10.759 --> 02:14.160
+Eksi 30, değil mi?
+
+02:14.160 --> 02:19.340
+1/3 çarpı 90, 30'a eşittir ve daha sonra eksi işaretini koyarız.
+
+02:19.340 --> 02:23.000
+Sonraki sayımızı bulmak için önceki işlemden çıkan sonucu yine 1/3 ile çarpıp,
+
+02:23.000 --> 02:25.930
+sonucu eksi ile çarpacağız.
+
+02:25.930 --> 02:27.790
+1/3 çarpı -30, 10'a eşit.
+
+02:27.790 --> 02:30.790
+Eksiyi eksi ile çarptığımızda, eksiler birbirini götürür ve cevap olarak artı 10 elde ederiz.
+
+02:30.790 --> 02:33.650
+Sonraki sayımız ise yine önceki sonucumuz, yani 10, çarpı eksi 1/3 olacak.
+
+02:33.650 --> 02:36.250
+Bu da eksi 10/3'e eşit olacaktır.
+
+02:36.250 --> 02:38.500
+ve sonraki sayımız eksi 10/9 olacak.
+
+02:38.500 --> 02:41.950
+fakat eksiyle eksiyi çarpacağımız için pozitif değere dönecek. Yani cevap artı 10/9.
+
+02:41.950 --> 02:45.950
+Bu dizi üzerinde aynı şekilde işlemlere devam edebiliriz.
+
+02:45.950 --> 02:49.040
+Yani insanlar geometrik dizi dediklerinde, aslında
+
+02:49.040 --> 02:51.360
+bundan bahsediyorlar.
+
+02:51.360 --> 02:52.880
+Burada küçük bir ekleme yapmak istiyorum.
+
+02:52.880 --> 02:56.280
+Bu hep kafamı karıştırırdı, çünkü kavramlar, aynı içerik
+
+02:56.280 --> 02:58.940
+içinde çok sık kullanılıyor.
+
+02:58.940 --> 02:59.980
+Bunlar diziler.
+
+02:59.980 --> 03:01.860
+Bunlar bir çeşit "devam eden sayılar"
+
+03:01.860 --> 03:05.330
+2, sonra 6, daha sonra 18, sonra 90, daha sonra eksi 30, sonra 10, sonra eksi 10/3
+
+03:05.330 --> 03:07.030
+eksi 10/3.
+
+03:07.030 --> 03:11.150
+Sonra, ah, pardon, bu artı 10/9 olmalıydı, değil mi?
+
+03:11.150 --> 03:14.500
+eksi 1/3 çarpı eksi 10/3, eksiler birbirini götürür.
+
+03:14.500 --> 03:14.760
+evet.
+
+03:14.760 --> 03:15.550
+10/9
+
+03:15.550 --> 03:16.830
+Burada bir hata yapmak istemeyiz.
+
+03:16.830 --> 03:18.350
+Bunlar diziler.
+
+03:18.350 --> 03:20.725
+"Seri" kelimesiyle de karşılaşabilirsiniz.
+
+03:24.840 --> 03:31.180
+Ve hatta bir geometrik seri bile görebilirsiniz.
+
+03:31.180 --> 03:34.360
+Bir seri, seri kelimesinin en bilinen kullanım şekli,
+
+03:34.360 --> 03:38.410
+bir dizinin toplamı anlamına gelir.
+
+03:38.410 --> 03:41.850
+Örneğin, bu bir geometrik dizidir.
+
+03:41.850 --> 03:49.070
+Bir geometrik seri 90 + (-30) + 10
+
+03:49.070 --> 03:53.500
++ (-10/3) + 10/9
+
+03:53.500 --> 03:56.660
+Yani, genel olarak söyleyebileceğimiz şudur ki: bir seri,
+
+03:56.660 --> 03:59.910
+bir dizinin sayılarının toplamıdır.
+
+03:59.910 --> 04:02.470
+Bunu netleştirmek istiyorum çünkü bunları ilk öğrendiğimde
+
+04:02.470 --> 04:05.690
+bu konu benim çok kafamı karıştırırdı.
+
+04:05.690 --> 04:08.550
+Her ne ise, şimdi geometrik dizi kavramına geri dönelim
+
+04:08.550 --> 04:12.240
+ve bunlardan birini içeren gerçek bir
+
+04:12.240 --> 04:13.520
+soru çözelim.
+
+04:13.520 --> 04:18.959
+Pekala, bize dediklerine göre Anne su üstündeki bir köprüye
+
+04:18.959 --> 04:20.599
+bungee jumping yapmaya gidiyor
+
+04:30.570 --> 04:35.690
+İlk atlamada, ip 120 feet (uzunluk ölçü birimi) geriliyor.
+
+04:35.690 --> 04:39.750
+Yani a1'de, ilk atlamamızda, ip
+
+04:39.750 --> 04:42.260
+120 feet geriliyor.
+
+04:42.260 --> 04:43.510
+Bunu şu şekilde yazabiliriz
+
+04:46.100 --> 04:51.865
+İlk olarak "atlama" ve daha sonra "ip gerilme miktarı" yazabiliriz.
+
+04:56.330 --> 04:59.370
+Yani ilk atlamada, ip
+
+04:59.370 --> 05:02.870
+120 feet geriliyor.
+
+05:02.870 --> 05:06.420
+Sonra, ikinci atlamada ipteki gerilme
+
+05:06.420 --> 05:09.910
+ilk atlamadaki ip gerilmesinin %60'ıdır ve sonra gelen her atlamada
+
+05:09.910 --> 05:13.230
+ip, önceki atlamadaki gerildiğinin %60'ı kadar gerilir.
+
+05:13.230 --> 05:17.280
+Burada ortak oran, ya da dizideki her ardışık terim, bir önceki terimin %60'ı olacak.
+
+05:17.280 --> 05:20.400
+Dizimiz, önceki terimin %60'ı olacak.
+
+05:20.400 --> 05:24.680
+Başka bir deyişle, önceki terimin 0.6 katı olacak.
+
+05:24.680 --> 05:28.400
+Yani 2. atlamada, öncekinin %60'ı kadar,
+
+05:28.400 --> 05:32.220
+yani 0.6 çarpı 120 kadar gerilme olacak.
+
+05:32.220 --> 05:33.180
+Peki ya bu neye eşit?
+
+05:33.180 --> 05:35.960
+Tabi ki 72.
+
+05:35.960 --> 05:39.210
+3. atlamada ise 72'nin 0.6 katı kadar ip gerilmesi olacak.
+
+05:39.210 --> 05:40.470
+0.6 çarpı 72
+
+05:40.470 --> 05:49.900
+yani, 0.6 çarpı 0.6 çarpı 120
+
+05:49.900 --> 05:53.410
+Dikkat edin, 4. atlamada ise
+
+05:53.410 --> 06:03.770
+0.6 çarpı 0.6 çarpı 0.6 çarpı 120 olacaktır.
+
+06:03.770 --> 06:07.810
+Bu atlayışın %60'ı, yani her atlayışta bir önceki atlamadaki ip gerilmesinin
+
+06:07.810 --> 06:09.030
+%60'ı kadar ip gerilmesi olacak.
+
+06:09.030 --> 06:12.060
+Şimdiye kadar yaptıklarımızın
+
+06:12.060 --> 06:15.690
+bir sonucu olarak bir genel formül çıkarmak istersek,
+
+06:15.690 --> 06:25.960
+n. atlamadaki ip gerilmesi ne kadar olacaktır?
+
+06:25.960 --> 06:39.900
+Bakalım, 0.6'nın kaçıncı kuvveti çarpı 120 ile bitiriyoruz?
+
+06:39.900 --> 06:42.570
+n eksi 1, yani (n-1)'de bitiriyoruz.
+
+06:42.570 --> 06:43.330
+Bunu nasıl bulduk?
+
+06:43.330 --> 06:45.410
+Hemen buraya yazayım.
+
+06:45.410 --> 06:50.620
+Şimdi, bu 0.6'ya eşit. Aslında, en iyisi önce 120'yi yazalım.
+
+06:50.620 --> 06:59.500
+Bu, (n-1)'e kadar 120 çarpı 0.6'ya eşit.
+
+06:59.500 --> 07:00.540
+Bunu nasıl buldum?
+
+07:00.540 --> 07:04.610
+İlk atlamanın ipi 120 feet gerdiğini söylemiştik.
+
+07:04.610 --> 07:09.880
+Burada n yerine 1 koyduğumuzda, 1 eksi 1'den 0 elde ederiz.
+
+07:09.880 --> 07:11.995
+Yani 0.6 üzeri 0 var elimizde ki o da
+
+07:11.995 --> 07:13.360
+yalnızca 1 eder.
+
+07:13.360 --> 07:15.920
+Ve bu da ilk atlamada olan olayın ta kendisi.
+
+07:15.920 --> 07:20.360
+Daha sonra 2.atlamada sayının üssü olarak 2 eksi 1 koyduğumuzda,
+
+07:20.360 --> 07:22.050
+üs 1 olarak karşımıza çıkıyor. Yani bizim
+
+07:22.050 --> 07:23.900
+0.6'mız oluyor.
+
+07:23.900 --> 07:27.620
+Bunun n eksi 1 olduğunu fark ettim, çünkü n 2 olduğunda,
+
+07:27.620 --> 07:31.560
+1 tane 0.6 vardı; n 3 iken ise 2 tane 0.6, yani 0.6 çarpı 0.6
+
+07:31.560 --> 07:32.040
+vardı.
+
+07:32.040 --> 07:35.120
+n sayısı 4 olduğunda, 0.6'nın 3.kuvvetini alıyoruz.
+
+07:35.120 --> 07:39.510
+Yani n her neyse, 0.6'nın n eksi 1 üssünü alıyoruz
+
+07:39.510 --> 07:43.940
+ve elbette sonucu 120 ile çarpıyoruz.
+
+07:43.940 --> 07:47.340
+Şimdi bize sordukları soru, 12.atlamada ipteki
+
+07:47.340 --> 07:54.390
+gerilme uzunluğu ne olacak?
+
+07:54.390 --> 08:00.790
+Bunu çözmek için hesap makinesi kullanacağım.
+
+08:00.790 --> 08:04.600
+aslında bunu biraz düzeltmem gerekiyor.
+
+08:04.600 --> 08:06.550
+Bu yanlış değil, ama burada bir sıçramadan bahsediyoruz
+
+08:06.550 --> 08:11.150
+bu yüzden ilk atlayışımızı sıfırıncı sıçrama olarak adlandırabiliriz.
+
+08:11.150 --> 08:13.190
+Bunu değiştireyim.
+
+08:13.190 --> 08:17.150
+Bu yanlış değil, fakat burada bir problem
+
+08:17.150 --> 08:18.340
+yaşamaları muhtemel.
+
+08:18.340 --> 08:23.300
+Yani ilk gerilmeyi sıfırıncı sıçrama olarak alabiliriz.
+
+08:23.300 --> 08:28.050
+Yani ona atlama yerine fırlama diyelim.
+
+08:28.050 --> 08:32.049
+Yani ilk gerilme sıfırıncı sıçrama oldu.
+
+08:32.049 --> 08:33.960
+O zaman bunlar ilk sıçrama, ikinci sıçrama
+
+08:33.960 --> 08:35.950
+ve üçüncü sıçrama olacaktır..
+
+08:35.950 --> 08:38.960
+Böylece formülümüz çok daha kolay bir form alacak.
+
+08:38.960 --> 08:48.150
+Çünkü n. atlamadaki gerilme dersek, o zaman
+
+08:48.150 --> 08:57.180
+formül n çarpı 120 üzeri 0.6 olurdu, değil mi?
+
+08:57.180 --> 09:00.740
+İlk fırlamamız olan sıfırıncı sıçramada,
+
+09:00.740 --> 09:03.660
+0.6 üzeri 0 çarpı 120, yani 1 çarpı 120 elde ederiz.
+
+09:03.660 --> 09:09.210
+Birinci sıçramada 0.6 üzeri 1, yani 0.6 gelir.
+
+09:09.210 --> 09:11.860
+0.6 çarpı önceki sıçramanın ip gerilmesi
+
+09:11.860 --> 09:13.350
+ya da 0.6 çarpı önceki sıçrayış olur.
+
+09:13.350 --> 09:16.390
+Sıçramalar açısından bu hepsini içerir. Bu da muhtemelen
+
+09:16.390 --> 09:18.690
+soruyu soran kişinin bizden yapmamızı istediği şey.
+
+09:18.690 --> 09:22.940
+Peki ya 12.sıçrayış?
+
+09:22.940 --> 09:25.500
+Kuralımızı kullanarak çözelim.
+
+09:25.500 --> 09:29.240
+12.sıçrayışı hesaplamak için hesap
+
+09:29.240 --> 09:30.930
+makinemizi çıkaralım.
+
+09:30.930 --> 09:41.790
+Bu işlemde (0.6 üzeri 12) çarpı (120)'ymi hesaplayacağız.
+
+09:41.790 --> 09:44.250
+Ve umarım işlem sırasını doğru yaparız çünkü
+
+09:44.250 --> 09:47.390
+üsler diğer işlemlerden önceliklidir. O yüzden ilk olarak
+
+09:47.390 --> 09:50.290
+sadece 0.6 üzeri 12'yi hesaplayacağız.
+
+09:50.290 --> 09:57.930
+Bu da 0.26 feet'e eşit olacak.
+
+09:57.930 --> 09:59.990
+Yani 12.sıçrayıştan sonra neredeyse
+
+09:59.990 --> 10:00.980
+hiç sıçramıyor olacak.
+
+10:00.980 --> 10:04.450
+12.sıçrayıştan sonra yalnızca 3 inç civarında sıçrıyor olacak.
+
+10:04.450 --> 10:05.760
+Umarım size yardımcı olabilmişimdir.
+
+10:05.760 --> 10:08.360
+ve buradaki küçük uyuşmazlık için özür diliyorum, fakat bence
+
+10:08.360 --> 10:10.420
+bir seviyede öğretici bir yere sahipti.
+
+10:10.420 --> 10:13.750
+Çünkü her zaman n sayınızın sonucunuzla
+
+10:13.750 --> 10:15.740
+uyuştuğundan emin olmanız gerekir.
+
+10:15.740 --> 10:19.080
+İlk atlayıştan bahsettiğimde,
+
+10:19.080 --> 10:20.730
+birinciye "tamam, bu 1" dedim.
+
+10:20.730 --> 10:23.686
+ve sonra 0.6'nın 0.kuvvetini aldım, ve
+
+10:23.686 --> 10:24.850
+n eksi 1'i kullandım.
+
+10:24.850 --> 10:27.370
+fakat sonradan işlemleri ve olayları yeniden etiketlediğimde,
+
+10:27.370 --> 10:29.070
+bu sıfırıncı sıçrayışa dönüştü.
+
+10:29.070 --> 10:31.960
+0.6'nın sıfırıncı kuvvetinden yola çıkmamız mantıklıdır.
+
+10:31.960 --> 10:35.000
+Bu ilk sıçrayış, dolayısıyla 0.6'nın
+
+10:35.000 --> 10:36.500
+birinci kuvvetiydi.
+
+10:36.500 --> 10:39.250
+İkinci sıçrayış, 0.6'nın 2.kuvvetiydi.
+
+10:39.250 --> 10:42.190
+Bu bizim denklemimizi biraz daha kolaylaştırdı.
+
+10:42.190 --> 10:44.730
+Umarım videomu ilgi çekici bulmuşsunuzdur.

@@ -1,0 +1,268 @@
+WEBVTT
+
+00:00.649 --> 00:08.778
+Představme si, že chceme najít integrál
+z (x na druhou) krát (3x minus 1) dx.
+
+00:08.778 --> 00:12.090
+Zastavte na chvíli video
+a zkuste si to spočítat sám/a.
+
+00:12.090 --> 00:16.383
+Možná si říkáte:
+"Co za trik bych mohl/a použít?"
+
+00:16.383 --> 00:23.845
+Uvidíme, že nejlepší (také nejjednodušší)
+trik je: výraz prostě algebraicky upravit.
+
+00:23.845 --> 00:29.141
+Co by se stalo, když bychom
+roznásobili x na druhou?
+
+00:29.141 --> 00:33.480
+Uvnitř integrálu dostaneme polynom.
+
+00:33.480 --> 00:36.469
+Je to rovno integrálu z…
+
+00:36.469 --> 00:42.859
+X na druhou krát 3x je rovno x na třetí
+
+00:42.859 --> 00:51.288
+a pak máme −1 krát x na druhou,
+což je −x na druhou a pak ještě dx.
+
+00:51.288 --> 00:54.411
+A nyní je už docela
+jasné, jak to spočítat.
+
+00:54.411 --> 01:01.941
+Bude to rovné primitivní funkci z
+x na třetí, to je (x na čtvrtou) děleno 4.
+
+01:01.941 --> 01:07.751
+Takže tady máme
+(3 krát x na čtvrtou) děleno 4.
+
+01:07.751 --> 01:13.134
+Můžu to také napsat takto, ale prostě
+to napíšu jako (3x na čtvrtou) děleno 4.
+
+01:13.134 --> 01:17.876
+A pak máme primitivní funkci z
+x na druhou, což je (x na třetí) děleno 3.
+
+01:17.876 --> 01:22.352
+Takže (−x na třetí) děleno 3,
+a jedná se o neurčitý integrál,
+
+01:22.352 --> 01:24.454
+takže nesmíme zapomenout na konstantu,
+
+01:24.454 --> 01:26.995
+zapíšu ji a máme hotovo.
+
+01:26.995 --> 01:30.687
+Ponaučení z tohoto příkladu je,
+že občas stačí jen trochu distribuce,
+
+01:30.687 --> 01:35.803
+a dostaneme hned tvar, který
+je mnohem lehčí integrovat.
+
+01:35.803 --> 01:37.597
+Pojďme na další příklad.
+
+01:37.597 --> 01:41.954
+Chceme najít neurčitý integrál z…
+
+01:41.954 --> 01:43.655
+Toto bude nepříjemný výraz.
+
+01:43.655 --> 01:48.691
+Takže máme x na třetí
+plus x na druhou minus 5,
+
+01:48.691 --> 01:54.309
+to celé je vydělené x na druhou,
+a nakonec samozřejmě dx.
+
+01:54.309 --> 01:55.371
+Jak na tuto úlohu?
+
+01:55.371 --> 01:59.232
+Opět si stopněte video
+a zkuste si to spočítat sám/a.
+
+01:59.232 --> 02:03.577
+Opět se asi snažíte
+najít nějaký super trik,
+
+02:03.577 --> 02:08.608
+ale opět nejjednodušší (a nejlepší)
+je výraz algebraicky upravit.
+
+02:08.608 --> 02:12.348
+Co se stane, když prostě vydělíme
+každý člen x na druhou?
+
+02:12.358 --> 02:16.373
+Bude to rovno,
+toto je v závorkách…
+
+02:16.373 --> 02:21.358
+(X na třetí) děleno
+(x na druhou) je rovno x.
+
+02:21.358 --> 02:25.593
+(3 krát x na druhou) děleno
+(x na druhou) je prostě 3.
+
+02:25.593 --> 02:33.842
+A pak −5 děleno x na druhou můžeme
+zapsat jako −5 krát (x na minus druhou).
+
+02:33.842 --> 02:38.792
+Takže opět použijeme
+obrácené pravidlo derivace mocniny,
+
+02:38.792 --> 02:40.894
+a tak najdeme primitivní funkce.
+
+02:40.894 --> 02:41.779
+Toto bude…
+
+02:41.779 --> 02:47.159
+Primitivní funkce od
+x je (x na druhou) lomeno 2,
+
+02:47.159 --> 02:51.759
+pak přičteme primitivní funkci od 3,
+což je prostě 3 krát x.
+
+02:51.759 --> 02:56.157
+Nakonec potřebujeme primitivní funkci
+z −5 krát (x na minus druhou).
+
+02:56.157 --> 03:01.918
+Takže exponent zvýšíme o jedna,
+a pak touto hodnotou vydělíme.
+
+03:01.918 --> 03:13.251
+Tedy máme −5 krát (x na minus první)
+a to celé děleno −1,
+
+03:13.251 --> 03:15.463
+což můžeme zapsat takto,
+nebo upravit.
+
+03:15.463 --> 03:19.562
+Protože tyhle dva se prostě zkrátí,
+tady máme minus a dělíme minusem.
+
+03:19.562 --> 03:23.695
+Proto to přepíšeme na +5 krát x,
+
+03:23.695 --> 03:27.724
+derivováním můžeme ověřit,
+že skutečně získáme zase toto,
+
+03:27.724 --> 03:30.315
+a pak samozřejmě nemůžeme
+zapomenout na konstantu C.
+
+03:30.315 --> 03:34.235
+Nikdy na ni nesmíte zapomenout,
+když počítáte neurčitý integrál.
+
+03:34.235 --> 03:37.917
+Tak fajn, spočítáme
+ještě jeden příklad.
+
+03:37.917 --> 03:48.177
+Hledáme neurčitý integrál
+z třetí odmocniny z (x na pátou) dx.
+
+03:48.177 --> 03:51.103
+Stopněte video a zkuste
+to spočítat sám/a.
+
+03:51.103 --> 03:52.613
+Zkusím to zapsat trochu lépe.
+
+03:52.613 --> 03:54.729
+x na pátou dx.
+
+03:54.729 --> 03:57.239
+Zkuste to sám/a.
+
+03:57.239 --> 04:01.594
+Tady je hlavní myšlenkou to
+prostě zapsat na jeden exponent.
+
+04:01.594 --> 04:08.669
+Je to rovno neurčitému integrálu
+z (x na pátou) na jednu třetinu.
+
+04:08.669 --> 04:13.189
+Prostě jsme přepsali třetí odmocninu
+na umocnění na jednu třetinu.
+
+04:13.189 --> 04:16.569
+A to je stejné jako integrál z x na…
+
+04:16.569 --> 04:20.676
+Když něco umocním a pak to znovu umocním,
+tak to je stejné jako násobení exponentů.
+
+04:20.676 --> 04:22.392
+To je prostá vlastnost exponentů.
+
+04:22.392 --> 04:24.322
+X na 5/3 dx.
+
+04:24.322 --> 04:28.075
+Většina z vás asi šla
+rovnou na tento krok.
+
+04:28.075 --> 04:31.817
+A opět musíme použít obrácené
+pravidlo pro derivaci mocniny.
+
+04:31.817 --> 04:34.744
+Toto bude x na…
+
+04:34.744 --> 04:39.407
+Zvýšíme 5/3 o 1,
+což je jako přičtení 3/3,
+
+04:39.407 --> 04:43.327
+takže máme 8/3, pak
+to vydělíme 8/3,
+
+04:43.327 --> 04:44.912
+vynásobíme
+převrácenou hodnotou.
+
+04:44.912 --> 04:49.481
+Takže máme 3/8 krát (x na 8/3).
+
+04:49.481 --> 04:52.083
+Samozřejmě nesmíme zapomenout
+na konstantu C a zkoušku.
+
+04:52.083 --> 04:56.930
+Použijeme pravidlo pro derivaci mocniny,
+máme 8/3 krát 3/8, což prostě dá 1,
+
+04:56.930 --> 04:59.811
+a pak zmenšíme mocninu o 3/3, neboli 1,
+
+04:59.811 --> 05:03.782
+takže dostaneme 5/3, což je
+přesně to, co jsme měli na začátku.
+
+05:03.782 --> 05:14.217
+Největší ponaučení je, že často ideální
+trik na integraci je algebraická úprava.

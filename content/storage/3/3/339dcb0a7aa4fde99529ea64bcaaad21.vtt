@@ -1,0 +1,438 @@
+WEBVTT
+
+00:00.290 --> 00:02.170
+- So we have different definitions
+
+00:02.170 --> 00:04.600
+for d of t on the left and the right
+
+00:04.600 --> 00:07.210
+and let's say that d is
+distance and t is time,
+
+00:07.210 --> 00:10.700
+so this is giving us our
+distance as a function of time,
+
+00:10.700 --> 00:12.620
+on the left, it's equal to 3t plus one
+
+00:12.620 --> 00:16.180
+and you can see the graph
+of how distance is changing
+
+00:16.180 --> 00:18.760
+as a function of time here is a line
+
+00:18.760 --> 00:22.230
+and just as a review from algebra,
+
+00:22.230 --> 00:24.120
+the rate of change of a line,
+
+00:24.120 --> 00:28.550
+we refer to as the slope of a
+line and we can figure it out,
+
+00:28.550 --> 00:32.500
+we can figure out, well,
+for any change in time,
+
+00:32.500 --> 00:36.450
+what is our change in distance?
+
+00:36.450 --> 00:37.367
+And so in this situation,
+
+00:37.367 --> 00:40.890
+if we're going from time
+equal one to time equal two,
+
+00:40.890 --> 00:44.786
+our change in time,
+delta t is equal to one
+
+00:44.786 --> 00:47.030
+and what is our change in distance?
+
+00:47.030 --> 00:49.260
+We go from distance is
+equal to four meters,
+
+00:49.260 --> 00:50.760
+at time equals one,
+
+00:50.760 --> 00:54.110
+to distance in seven
+meters at time equal two
+
+00:54.110 --> 00:58.836
+and so our change in distance
+here is equal to three
+
+00:58.836 --> 01:00.410
+and if we wanna put our units,
+
+01:00.410 --> 01:03.560
+it's three meters for
+every one second in time
+
+01:03.560 --> 01:07.310
+and so our slope would be
+our change in our vertical
+
+01:07.310 --> 01:09.297
+divided by our change in our horizontal,
+
+01:09.297 --> 01:13.471
+which would be change in
+d, delta d over delta t,
+
+01:13.471 --> 01:15.507
+which is equal to three over one
+
+01:15.507 --> 01:19.679
+or we could just write that
+as three meters per second
+
+01:19.679 --> 01:22.590
+and you might recognize this as a rate,
+
+01:22.590 --> 01:24.970
+if you're thinking about
+your change in distance
+
+01:24.970 --> 01:27.620
+over change in time,
+this rate right over here
+
+01:27.620 --> 01:29.460
+is going to be your speed.
+
+01:29.460 --> 01:31.760
+This is all a review of
+what you've seen before
+
+01:31.760 --> 01:32.890
+and what's interesting about a line,
+
+01:32.890 --> 01:35.180
+or if we're talking
+about a linear function,
+
+01:35.180 --> 01:38.120
+is that your rate does
+not change at any point,
+
+01:38.120 --> 01:40.810
+the slope of this line
+between any two points
+
+01:40.810 --> 01:43.500
+is always going to be three,
+
+01:43.500 --> 01:46.670
+but what's interesting about
+this function on the right
+
+01:46.670 --> 01:48.260
+is that is not true,
+
+01:48.260 --> 01:50.690
+our rate of change is constantly changing
+
+01:50.690 --> 01:52.852
+and we're going to study
+that in a lot more depth,
+
+01:52.852 --> 01:55.160
+when we get to differential calculus
+
+01:55.160 --> 01:56.840
+and really this video's a little bit
+
+01:56.840 --> 01:59.350
+of a foundational primer
+for that future state,
+
+01:59.350 --> 02:01.870
+where we learn about differential calculus
+
+02:01.870 --> 02:03.390
+and the thing to appreciate here
+
+02:03.390 --> 02:07.010
+is think about the instantaneous
+rate of change someplace,
+
+02:07.010 --> 02:08.490
+so let's say right over there,
+
+02:08.490 --> 02:10.260
+if you ever think about
+the slope of a line,
+
+02:10.260 --> 02:12.640
+that just barely touches this graph,
+
+02:12.640 --> 02:14.420
+it might look something like that,
+
+02:14.420 --> 02:15.760
+the slope of a tangent line
+
+02:15.760 --> 02:16.840
+and then right over here,
+
+02:16.840 --> 02:18.360
+it looks like it's a little bit steeper
+
+02:18.360 --> 02:20.800
+and then over here, it looks
+like it's a little bit steeper,
+
+02:20.800 --> 02:22.350
+so it looks like your rate of change
+
+02:22.350 --> 02:24.790
+is increasing as t increases.
+
+02:24.790 --> 02:26.580
+As I mentioned, we will build the tools
+
+02:26.580 --> 02:28.950
+to later think about
+instantaneous rate of change,
+
+02:28.950 --> 02:31.050
+but what we can start to think about
+
+02:31.050 --> 02:33.800
+is an average rate of change,
+
+02:33.800 --> 02:36.960
+average rate
+
+02:36.960 --> 02:38.740
+of change,
+
+02:38.740 --> 02:41.024
+and the way that we think about
+our average rate of change
+
+02:41.024 --> 02:44.700
+is we use the same tools, that
+we first learned in algebra,
+
+02:44.700 --> 02:47.480
+we think about slopes of secant lines,
+
+02:47.480 --> 02:49.010
+what is a secant line?
+
+02:49.010 --> 02:51.080
+Well, we talk about this in geometry,
+
+02:51.080 --> 02:53.810
+that a secant is something
+that intersects a curve
+
+02:53.810 --> 02:57.160
+in two points, so let's
+say that there's a line,
+
+02:57.160 --> 03:01.030
+that intersects at t equals
+zero and t equals one
+
+03:01.030 --> 03:04.590
+and so let me draw that
+line, I'll draw it in orange,
+
+03:04.590 --> 03:08.830
+so this right over here is a secant line
+
+03:09.720 --> 03:12.100
+and you could do the
+slope of the secant line
+
+03:12.100 --> 03:14.020
+as the average rate of change
+
+03:14.020 --> 03:16.068
+from t equals zero to t equals one,
+
+03:16.068 --> 03:19.740
+well, what is that average
+rate of change going to be?
+
+03:19.740 --> 03:21.442
+Well, the slope of our
+secant line is going to be
+
+03:21.442 --> 03:25.660
+our change in distance
+divided by our change in time,
+
+03:25.660 --> 03:26.962
+which is going to be equal to,
+
+03:26.962 --> 03:31.310
+well, our change in time is one second,
+
+03:31.310 --> 03:33.238
+one, I'll put the units here, one second
+
+03:33.238 --> 03:35.420
+and what is our change in distance?
+
+03:35.420 --> 03:40.098
+At t equals zero or d of zero is one
+
+03:40.098 --> 03:41.600
+and d of one is two,
+
+03:41.600 --> 03:44.050
+so our distance has
+increased by one meter,
+
+03:44.050 --> 03:46.375
+so we've gone one meter in one second
+
+03:46.375 --> 03:49.170
+or we could say that our
+average rate of change
+
+03:49.170 --> 03:51.340
+over that first second from t equals zero,
+
+03:51.340 --> 03:54.532
+t equals one is one meter per second,
+
+03:54.532 --> 03:56.430
+but let's think about what it is,
+
+03:56.430 --> 03:59.920
+if we're going from t equals two
+
+03:59.920 --> 04:02.100
+to t equals three.
+
+04:02.100 --> 04:05.440
+Well, once again, we can
+look at this secant line
+
+04:05.440 --> 04:08.200
+and we can figure out its slope,
+
+04:08.200 --> 04:11.150
+so the slope here,
+which you could also use
+
+04:11.150 --> 04:12.620
+the average rate of change
+
+04:12.620 --> 04:15.180
+from t equals two to t equals three,
+
+04:15.180 --> 04:16.030
+as I already mentioned,
+
+04:16.030 --> 04:17.315
+the rate of change seems
+to be constantly changing,
+
+04:17.315 --> 04:20.000
+but we can think about
+the average rate of change
+
+04:20.000 --> 04:22.170
+and so that's going to
+be our change in distance
+
+04:22.170 --> 04:24.170
+over our change in time,
+
+04:24.170 --> 04:28.730
+which is going to be equal
+to when t is equal to two,
+
+04:28.730 --> 04:32.430
+our distance is equal to five,
+
+04:32.430 --> 04:34.910
+so one, two, three, four, five,
+
+04:34.910 --> 04:36.840
+so that's five right over there
+
+04:36.840 --> 04:40.066
+and when t is equal to three,
+our distance is equal to 10,
+
+04:40.066 --> 04:44.750
+six, seven, eight, nine, 10,
+so that is 10 right over there,
+
+04:44.750 --> 04:47.185
+so our change in time, that's
+pretty straightforward,
+
+04:47.185 --> 04:50.230
+we've just gone forward one
+second, so that's one second
+
+04:50.230 --> 04:51.787
+and then our change in
+distance right over here,
+
+04:51.787 --> 04:55.560
+we go from five meters to
+10 meters is five meters,
+
+04:55.560 --> 05:00.070
+so this is equal to five meters per second
+
+05:00.070 --> 05:01.660
+and so this makes it very clear,
+
+05:01.660 --> 05:04.030
+that our average rate
+of change has changed
+
+05:04.030 --> 05:05.880
+from t equals zero, t equals one
+
+05:05.880 --> 05:08.320
+to t equals two to t equals three,
+
+05:08.320 --> 05:10.920
+our average rate of change is higher
+
+05:10.920 --> 05:13.690
+on this second interval,
+than on this first one
+
+05:13.690 --> 05:14.825
+and as you can imagine,
+
+05:14.825 --> 05:16.790
+something very interesting to think about
+
+05:16.790 --> 05:18.940
+is what if you were to take the slope
+
+05:18.940 --> 05:21.746
+of the secant line of
+closer and closer points?
+
+05:21.746 --> 05:23.880
+Well, then you would get closer and closer
+
+05:23.880 --> 05:26.820
+to approximating that
+slope of the tangent line
+
+05:26.820 --> 05:30.653
+and that's actually what we
+will do when we get to calculus.

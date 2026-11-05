@@ -1,0 +1,238 @@
+WEBVTT
+
+00:00.000 --> 00:02.592
+Mám tu
+vektorovou funkci h.
+
+00:02.592 --> 00:06.028
+Když říkám vektorovou funkci,
+znamená to, že se jedná o funkci t.
+
+00:06.028 --> 00:09.215
+Tedy, když mi dáte t,
+nevrátím vám nějaké číslo,
+
+00:09.215 --> 00:10.668
+vrátím vám
+vektor.
+
+00:10.668 --> 00:13.281
+A jak uvidíte, dostanete
+dvou dimenzionální vektor.
+
+00:13.281 --> 00:18.513
+Můžete se na to podívat jako na x-ovou
+složku vektoru a y-ovou složku vektoru.
+
+00:18.513 --> 00:24.073
+Pravděpodobně už víte, že existuje
+několik zápisů i pro dvou rozměrný vektor.
+
+00:24.073 --> 00:28.699
+Můžete například použít
+často vídaný inženýrský zápis,
+
+00:28.699 --> 00:36.296
+kde je x-tá složka vynásobena
+řádkovým jednotkovým vektorem.
+
+00:36.296 --> 00:37.868
+Můžete tedy vidět
+něco takovéhoto.
+
+00:37.868 --> 00:42.831
+Tedy jednotkový vektor
+plus y-ová složka.
+
+00:42.831 --> 00:46.483
+4 krát t na čtvrtou
+plus 2 krát t plus 1,
+
+00:46.483 --> 00:50.303
+to celé násobeno vertikálním
+jednotkovým vektorem.
+
+00:50.303 --> 00:52.889
+Obojí tedy popisuje
+stejnou věc,
+
+00:52.889 --> 00:55.402
+jedná se jen
+o jiný zápis.
+
+00:55.402 --> 00:58.573
+Někdy vidíte vektorové funkce
+se šipkou nahoře, aby se zdůraznilo,
+
+00:58.573 --> 01:00.836
+že se jedná
+o vektorovou funkci.
+
+01:00.836 --> 01:05.154
+Někdy jen uslyšíte lidi říkat,
+"nechť h je vektorová funkce"
+
+01:05.154 --> 01:07.427
+a nenapíšou
+šipku nahoru.
+
+01:07.427 --> 01:08.668
+Teď, když to
+máme vyřešené,
+
+01:08.668 --> 01:15.864
+to, co nás zajímá, je najít první
+a druhou derivaci h vzhledem k t.
+
+01:15.864 --> 01:18.968
+Pojďme na
+první derivaci.
+
+01:18.968 --> 01:24.130
+Derivace h vzhledem k t je velmi
+jednoznačná, jak hned uvidíte.
+
+01:24.130 --> 01:30.487
+Vezmete si jen derivaci příslušné
+složky vzhledem k příslušné složce.
+
+01:30.487 --> 01:32.727
+Toto je x-tá složka
+vzhledem k t,
+
+01:32.727 --> 01:37.135
+vezmete její derivaci
+vzhledem k t.
+
+01:37.135 --> 01:39.014
+Co dostanete?
+
+01:39.014 --> 01:44.023
+Použijeme vzorec na derivaci
+mocniny, tedy 5 krát (-1).
+
+01:44.023 --> 01:49.616
+Dostanete -5 krát t na (5 - 1),
+tedy t umocněno na 4.
+
+01:49.616 --> 01:53.073
+Derivace -6
+vzhledem k t je 0.
+
+01:53.073 --> 01:56.844
+Toto je tedy míra
+změny složky x.
+
+01:56.844 --> 01:58.850
+Vzhledem k t.
+
+01:58.850 --> 02:01.126
+Teď pojďme
+na složku y.
+
+02:01.126 --> 02:02.743
+Uděláme
+to stejně.
+
+02:02.743 --> 02:06.336
+Derivace vzhledem
+k t bude...
+
+02:06.346 --> 02:08.393
+Použijeme opět vzorec
+na derivaci mocniny.
+
+02:08.393 --> 02:13.173
+4 krát 4 je 16 krát
+t umocněno na 3.
+
+02:13.173 --> 02:15.811
+Derivace 2 krát t
+je rovno 2.
+
+02:15.811 --> 02:19.275
+A derivace konstanty
+je pouze 0, to už jsme viděli.
+
+02:19.275 --> 02:21.519
+Tady to
+tedy máte.
+
+02:21.519 --> 02:24.570
+Toto je míra změny
+složky x vzhledem k t.
+
+02:24.571 --> 02:29.465
+A toto je míra změny
+složky y vzhledem k t.
+
+02:29.465 --> 02:32.047
+Vektory mohou reprezentovat
+mnoho různých věcí.
+
+02:32.047 --> 02:40.894
+Dvoudimenzionální vektory představíme jako
+polohový vektor h(t) ve dvou rozměrech.
+
+02:40.894 --> 02:44.218
+A potom, když se podíváte na míru
+změny pozice vzhledem k času...
+
+02:44.218 --> 02:46.890
+Pak toto bude vektor
+udávající rychlost.
+
+02:46.890 --> 02:49.843
+Dále když vezmeme derivaci
+tohoto vzhledem k času,
+
+02:49.843 --> 02:52.237
+dostaneme vektor
+udávající zrychlení.
+
+02:52.237 --> 02:55.987
+Pokud tedy uvažujeme
+druhou derivaci h vzhledem k t,
+
+02:55.987 --> 03:00.723
+čemu to bude rovno?
+
+03:00.723 --> 03:03.338
+Prostě jen znovu použijeme
+pravidlo na derivaci mocniny.
+
+03:03.338 --> 03:09.292
+Tedy 4 krát (-5)
+je rovno -20,
+
+03:09.292 --> 03:12.865
+krát t umocněno na (4 minus 1),
+tedy t umocněno na 3.
+
+03:12.865 --> 03:19.932
+A potom máme 3 krát 16,
+což je 48 krát t umocněno na 2.
+
+03:19.932 --> 03:22.789
+A derivace 2
+je opět jen 0.
+
+03:22.789 --> 03:24.051
+Takže zde
+to máte.
+
+03:24.051 --> 03:27.969
+Pokud t je čas, pak pro jakýkoli čas
+můžete použít toto jako pozici,
+
+03:27.969 --> 03:30.633
+toto jako vektor rychlosti
+a toto jako vektor zrychlení.
+
+03:30.633 --> 03:34.192
+Toto vám nyní udává pozici,
+rychlost a zrychlení.
+
+03:34.192 --> 03:41.001
+Je důležité si uvědomit, že tyto vektory
+jinak mohou reprezentovat cokoli.

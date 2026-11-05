@@ -1,0 +1,440 @@
+WEBVTT
+
+00:00.570 --> 00:03.420
+Ich möchte dich in desem Video mit einer häufigen Klasse
+
+00:03.420 --> 00:06.830
+mathematischer Folgen vertraut machen.
+
+00:06.830 --> 00:11.630
+Und das sind arithmetische Folgen.
+
+00:11.630 --> 00:13.890
+Normalerweise kann man diese gut erkennen.
+
+00:13.890 --> 00:17.290
+Das sind Folgen, bei denen der nachfolgende Term um einen bestimmen Betrag größer wird,
+
+00:17.290 --> 00:18.920
+als der vorangegangene Term.
+
+00:18.920 --> 00:21.820
+Ich möchte hier herausfinden, welche dieser Folgen
+
+00:21.820 --> 00:23.259
+arithmetische Folgen sind.
+
+00:23.259 --> 00:25.050
+Und damit wir etwas Übung in der Notation von Folgen bekommen,
+
+00:25.050 --> 00:26.680
+Und damit wir etwas Übung in der Notation von Folgen bekommen,
+
+00:26.680 --> 00:30.220
+möchte ich diese hier entweder als explizite Funktionen definieren,
+
+00:30.220 --> 00:32.880
+maßgeblich ist hier der Index, den du betrachtest,
+
+00:32.880 --> 00:35.110
+oder als rekursive Funktionen.
+
+00:35.110 --> 00:37.500
+Also zunächst sei angenommen, dass eine arithmetische Folge
+
+00:37.500 --> 00:40.540
+eine solche ist, bei der jeder nachfolgende Term einen bestimmten Betrag größer ist,
+
+00:40.540 --> 00:45.790
+als der vorangegangene, welche dieser Folgen sind dann arithmetische Folgen?
+
+00:45.790 --> 00:47.940
+Lass uns diese hier drüben anschauen.
+
+00:47.940 --> 00:52.470
+Um von -5 zu -3 zu gelangen, müssen wir 2 hinzuaddieren.
+
+00:52.470 --> 00:56.780
+Dann, um von -3 zu -1 zu gelangen, müssen wir auch 2 hinzuaddieren.
+
+00:56.780 --> 01:00.490
+Von -1 bis 1 musst du auch 2 hinzuaddieren.
+
+01:00.490 --> 01:02.810
+Damit ist dies in jedem Fall eine arithmetische Folge.
+
+01:02.810 --> 01:04.669
+Wir haben jedes Mal den gleichen Betrag hinzuaddiert.
+
+01:04.669 --> 01:07.210
+Es gibt nun verschiedene Möglichkeiten diese Folge zu definieren.
+
+01:07.210 --> 01:10.022
+Wir könnten sagen, a Index n.
+
+01:10.022 --> 01:11.480
+Du musst nicht immer k benutzen.
+
+01:11.480 --> 01:14.360
+Hier nenne ich unseren Index n.
+
+01:14.360 --> 01:19.480
+Von n gleich 1 bis unendlich mit--
+
+01:19.480 --> 01:20.300
+Es gibt hier zwei Definitionsmöglichkeiten.
+
+01:20.300 --> 01:21.520
+Wir können die Folge entweder explizit definieren, oder rekursiv.
+
+01:21.520 --> 01:23.070
+Wir können die Folge entweder explizit definieren, oder rekursiv.
+
+01:23.070 --> 01:24.910
+Wenn wir sie explizit definieren wollen,
+
+01:24.910 --> 01:29.070
+dann schreiben wir a Index n gleich dem ersten Term, welcher auch immer das ist.
+
+01:29.070 --> 01:33.290
+In diesem Fall ist unser erster Term -5.
+
+01:33.290 --> 01:36.340
+Er ist -5 plus--
+
+01:36.340 --> 01:40.530
+wir addieren 2 jeweils ein Mal weniger hinzu, als es dem aktuellen Term entspricht.
+
+01:40.530 --> 01:42.290
+Im zweiten Term addieren wir zum Beispiel 2 einmal hinzu.
+
+01:42.290 --> 01:44.620
+Im dritten Term, addieren wir 2 zweimal.
+
+01:44.620 --> 01:47.490
+Im vierten Terms addieren wir, bezogen auf den Ausgangsterm,
+
+01:47.490 --> 01:49.000
+2 drei Mal.
+
+01:49.000 --> 01:51.150
+Also addieren wir hier 2.
+
+01:51.150 --> 01:54.890
+Wir addieren 2 einmal weniger als es dem Index entspricht,
+
+01:54.890 --> 01:58.380
+daher betrachten wir hier n minus 1.
+
+01:58.380 --> 02:00.960
+Dies ist eine explizite Definition dieser arithmetischen Folge.
+
+02:00.960 --> 02:03.260
+Dies ist eine explizite Definition dieser arithmetischen Folge.
+
+02:03.260 --> 02:04.950
+Wenn ich diese jetzt rekursiv formulieren möchte,
+
+02:04.950 --> 02:10.910
+dann könnte ich sagen, a Index 1 ist gleich -5.
+
+02:10.910 --> 02:14.490
+Und dann für jeden der nachfolgenden Terme, für a Index 2 und größer--
+
+02:14.490 --> 02:20.780
+könnte ich a Index n gleich a Index n minus 1 plus 3 schreiben.
+
+02:20.780 --> 02:24.120
+Jeder Term ist gleich dem vorangegangenen Term--
+
+02:24.120 --> 02:25.790
+oh je, nicht 3 sondern 2.
+
+02:25.790 --> 02:31.230
+Das gilt für n größer oder gleich 2.
+
+02:31.230 --> 02:34.030
+Beide Möglichkeiten sind zulässige Wege, um
+
+02:34.030 --> 02:39.420
+arithmetische Folgen zu definieren.
+
+02:40.230 --> 02:41.970
+Wir können diese entweder explizit definieren oder rekursiv.
+
+02:41.970 --> 02:44.950
+Wir können diese entweder explizit definieren oder rekursiv.
+
+02:44.950 --> 02:46.330
+Lass uns nun die nächste Folge anschauen.
+
+02:46.330 --> 02:48.950
+Ist das eine arithmetische Folge?
+
+02:48.950 --> 02:50.480
+Wir fangen mit 100 an.
+
+02:50.480 --> 02:52.252
+Dann addieren wir 7.
+
+02:52.252 --> 02:54.976
+Von 107 bis 114 ist auch 7.
+
+02:54.976 --> 02:58.440
+Von 114 bis 121 addieren wir auch 7.
+
+02:58.440 --> 03:00.760
+Damit ist dies auch eine arithmetische Folge.
+
+03:00.760 --> 03:03.240
+Nur um das noch einmal deutlich zu machen, diese hier ist eine
+
+03:03.240 --> 03:05.300
+und diese hier drüben.
+
+03:05.300 --> 03:09.840
+Wir können schreiben, dass dies die Folge a Index n ist,
+
+03:09.840 --> 03:14.800
+mit n von 1 bis unendlich-- und wir können
+
+03:14.800 --> 03:17.610
+a Index n schreiben, wenn wir sie explizit definieren wollen,
+
+03:17.610 --> 03:23.190
+gleich 100 und wir addieren immer 7.
+
+03:23.190 --> 03:26.330
+Beim zweiten Term addieren wir 7 einmal.
+
+03:26.330 --> 03:28.280
+Beim dritten Term addieren wir 7 zweimal.
+
+03:28.280 --> 03:32.430
+Und für den n'ten Term, addieren wir 7
+n minus 1 Mal.
+
+03:32.430 --> 03:34.340
+Das ist die explizite Definition,
+
+03:34.340 --> 03:35.840
+aber wir könnten sie auch rekursiv formulieren.
+
+03:35.840 --> 03:38.650
+Wir könnten auch sagen, --
+
+03:38.650 --> 03:42.270
+nur um das deutlich zu machen, das ist die eine Definition,
+
+03:42.270 --> 03:47.730
+bei der wir das so schreiben, wir könnten auch a Index n
+
+03:47.730 --> 03:50.240
+mit n gleich 1 bis unendlich schreiben.
+
+03:50.240 --> 03:53.836
+Und in jedem Fall sollte ich 'mit' dazuschreiben --
+
+03:53.836 --> 03:55.460
+Und wenn ich die Folge rekursiv definiere,
+
+03:55.460 --> 03:58.950
+dann könnte ich sagen a Index 1 ist gleich 100.
+
+03:58.950 --> 04:04.170
+Für jeden Index größer 1
+
+04:04.170 --> 04:09.560
+ist a Index n gleich dem vorangegangenen Term plus 7.
+
+04:09.560 --> 04:10.822
+Und damit sind wir fertig.
+
+04:10.822 --> 04:12.280
+Das ist eine andere Möglichkeit um diese Folge zu definieren.
+
+04:12.280 --> 04:14.920
+Also grundsätzlich, wenn du einen allgemeinen Weg suchst, um eine
+
+04:14.920 --> 04:18.149
+arithmetische Folge zu erkennen oder zu definieren,
+
+04:18.149 --> 04:20.680
+dann kannst du sagen, dass eine arithmetische Folge die Form
+
+04:20.680 --> 04:23.910
+a Index n hat--
+
+04:23.910 --> 04:26.930
+wenn wir über eine unendliche sprechen-- von n gleich 1 bis unendlich.
+
+04:26.930 --> 04:28.460
+Wenn du die Folge explizit definierst,
+
+04:28.460 --> 04:33.540
+dann kannst du sagen, a Index n ist gleich einer Konstante als ersten Term.
+
+04:33.540 --> 04:35.790
+dann kannst du sagen, a Index n ist gleich einer Konstante als ersten Term.
+
+04:35.790 --> 04:41.470
+Die Konstante plus einer bestimmten Zahl,
+
+04:41.470 --> 04:43.090
+um die du den Term erhöhst--
+
+04:43.090 --> 04:45.089
+oder, es könnte auch eine negative Zahl sein, verringerst--
+
+04:45.089 --> 04:47.670
+mal n minus 1.
+
+04:47.670 --> 04:51.380
+Das ist ein Weg um arithmetische Folgen zu definieren.
+
+04:51.380 --> 04:54.000
+In diesem Fall war d gleich 2.
+
+04:54.000 --> 04:55.160
+In diesem Fall war d gleich 7.
+
+04:55.160 --> 04:57.350
+Das ist der Betrag, den du jedes Mal hinzuaddierst.
+
+04:57.350 --> 05:02.280
+Und in diesem Fall ist k gleich -5, und in diesem Fall ist k gleich 100.
+
+05:02.280 --> 05:04.850
+Wenn du die arithmetische Folge rekursiv allgemein definieren möchtest,
+
+05:04.850 --> 05:08.000
+Wenn du die arithmetische Folge rekursiv allgemein definieren möchtest,
+
+05:08.000 --> 05:12.180
+dann kannst du sagen, a Index 1 ist gleich k,
+
+05:12.180 --> 05:16.270
+und a Index n ist gleich a Index n minus 1.
+
+05:16.270 --> 05:18.170
+Ein gegebener Term ist gleich einem vorangegangenen
+
+05:18.170 --> 05:22.250
+plus d für n größer als oder gleich 2.
+
+05:22.250 --> 05:24.110
+Das hier ist der explizite Weg.
+
+05:24.110 --> 05:26.110
+Das ist der rekursive Weg.
+
+05:26.110 --> 05:28.140
+Und wir schreiben 'mit' hierher.
+
+05:28.140 --> 05:30.780
+Nun, die letzte Frage:
+
+05:30.780 --> 05:32.630
+Ist dies hier eine arithmetische Folge?
+
+05:32.630 --> 05:34.730
+Lass uns nachschauen.
+
+05:34.730 --> 05:35.860
+Wir beginnen mit 1.
+
+05:35.860 --> 05:37.910
+Dann addieren wir 2.
+
+05:37.910 --> 05:38.929
+Dann addieren wir 3.
+
+05:38.929 --> 05:40.970
+Das ist schon mal ein guter Hinweis darauf, dass es sich nicht
+
+05:40.970 --> 05:41.970
+um eine arithmetische Folge handelt.
+
+05:41.970 --> 05:43.470
+Jetzt addieren wir 4.
+
+05:43.470 --> 05:46.780
+Wir addieren jedes Mal einen anderen Betrag.
+
+05:46.780 --> 05:51.130
+Damit ist diese zunächst einmal nicht arithmetisch.
+
+05:51.130 --> 05:53.400
+Da ist keine arithmetische Folge.
+
+05:53.400 --> 05:56.139
+Aber wie können wir diese definieren,
+
+05:56.139 --> 05:57.430
+da wir versuchen unsere Folgen zu definieren?
+
+06:02.100 --> 06:05.220
+Lass sie uns rekursiv definieren.
+
+06:05.220 --> 06:10.790
+Wir könnten sagen, das ist gleich a Index n,
+
+06:10.790 --> 06:13.830
+mit n von 1 bis unendlich,
+
+06:13.830 --> 06:20.100
+mit-- ausgehend von unserem ersten Fall-- a Index 1 ist gleich 1.
+
+06:20.100 --> 06:23.580
+Und dann für n gleich 2 oder größer, a Index n
+
+06:23.580 --> 06:25.400
+ist gleich was?
+
+06:25.400 --> 06:29.810
+Also a Index 2 ist der vorangegangene Term plus 2. a Index 3
+
+06:29.810 --> 06:32.170
+ist der vorangegangene Term plus 3.
+
+06:32.170 --> 06:34.200
+a Index 4 ist der vorangegangene Term plus 4.
+
+06:34.200 --> 06:38.980
+Also der vorangegangene Term plus dem Index, welcher auch immer das ist.
+
+06:40.210 --> 06:42.770
+plus dem Index, welcher auch immer das ist.
+
+06:42.770 --> 06:45.030
+Das sieht gut aus, aber beachte, dass wir hier den Betrag ändern, den wir addieren,
+
+06:45.030 --> 06:46.640
+Das sieht gut aus, aber beachte, dass wir hier den Betrag ändern, den wir addieren,
+
+06:46.640 --> 06:47.765
+in Abhängigkeit von unserem Index.
+
+06:47.765 --> 06:50.090
+Wir addieren den Betrag des Index zu dem vorangegangenen Term.
+
+06:50.090 --> 06:53.340
+Und das gilt für n größer oder gleich 2.
+
+06:53.340 --> 06:55.000
+Bei einer arithmetischen Folge
+
+06:55.000 --> 06:58.110
+addieren wir jedes Mal den gleichen Betrag
+
+06:58.110 --> 06:59.900
+unabhängig von unserem Index.
+
+06:59.900 --> 07:01.800
+Hier addieren wir den Index selber.
+
+07:01.800 --> 07:03.440
+Damit ist diese zwar nicht arithmetisch,
+
+07:03.440 --> 07:05.970
+aber es ist dennoch eine interessante Folge.

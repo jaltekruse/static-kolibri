@@ -1,0 +1,443 @@
+WEBVTT
+
+00:00.690 --> 00:04.000
+I just did several videos on
+the binomial theorem, so I
+
+00:04.000 --> 00:07.550
+think, now that they're done, I
+think now is good time to do
+
+00:07.550 --> 00:13.660
+the proof of the derivative
+of the general form.
+
+00:13.660 --> 00:18.500
+Let's take the derivative
+of x to the n.
+
+00:18.500 --> 00:20.300
+Now that we know the
+binomial theorem, we
+
+00:20.300 --> 00:22.440
+have the tools to do it.
+
+00:22.440 --> 00:23.830
+How do we take the derivative?
+
+00:23.830 --> 00:26.070
+Well, what's the classic
+definition of the derivative?
+
+00:26.070 --> 00:36.220
+It is the limit as delta x
+approaches zero of f of
+
+00:36.220 --> 00:39.130
+x plus delta x, right?
+
+00:39.130 --> 00:44.210
+So f of x plus delta x in this
+situation is x plus delta
+
+00:44.210 --> 00:48.000
+x to the nth power, right?
+
+00:48.000 --> 00:52.720
+Minus f of x, well f of x
+here is just x to the n.
+
+00:52.720 --> 00:54.100
+All of that over delta x.
+
+00:57.710 --> 01:01.610
+Now that we know the binomial
+theorem we can figure out
+
+01:01.610 --> 01:05.200
+what the expansion of x plus
+delta x is to the nth power.
+
+01:05.200 --> 01:07.340
+And if you don't know the
+binomial theorem, go to my
+
+01:07.340 --> 01:10.040
+pre-calculus play list
+and watch the videos on
+
+01:10.040 --> 01:11.710
+the binomial theorem.
+
+01:11.710 --> 01:15.290
+The binomial theorem tells us
+that this is equal to-- I'm
+
+01:15.290 --> 01:20.170
+going to need some space for
+this one-- the limit as
+
+01:20.170 --> 01:23.310
+delta x approaches zero.
+
+01:23.310 --> 01:24.860
+And what's the
+binomial theorem?
+
+01:24.860 --> 01:26.960
+This is going to be equal to--
+I'm just going to do the
+
+01:26.960 --> 01:39.630
+numerator-- x to the
+n plus n choose 1.
+
+01:39.630 --> 01:42.440
+Once again, review the binomial
+theorem if this is looks like
+
+01:42.440 --> 01:44.340
+latin to you and you
+don't know latin.
+
+01:44.340 --> 02:00.780
+n choose 1 of x to the n minus
+1 delta x plus n choose 2 x to
+
+02:00.780 --> 02:07.650
+the n minus 2, that's x n
+minus 2, delta x squared.
+
+02:07.650 --> 02:10.490
+Then plus, and we have a bunch
+of the digits, and in this
+
+02:10.490 --> 02:12.560
+proof we don't have to go
+through all the digits but the
+
+02:12.560 --> 02:14.810
+binomial theorem tells us what
+they are and, of course, the
+
+02:14.810 --> 02:20.790
+last digit we just keep adding
+is going to be 1-- it would
+
+02:20.790 --> 02:22.450
+be n choose n which is 1.
+
+02:22.450 --> 02:26.030
+Let me just write that
+down. n choose n.
+
+02:26.030 --> 02:36.920
+It's going to be x to the
+zero times delta x to the n.
+
+02:36.920 --> 02:39.030
+So that's the
+binomial expansion.
+
+02:39.030 --> 02:44.450
+Let me switch back to minus,
+green that's x plus delta x
+
+02:44.450 --> 02:49.740
+to the n, so minus
+x to the n power.
+
+02:49.740 --> 02:51.840
+That's x to the n, I know
+I squashed it there.
+
+02:51.840 --> 02:56.810
+All of that over delta x.
+
+02:56.810 --> 02:58.590
+Let's see if we can simplify.
+
+02:58.590 --> 03:00.940
+First of all we have an x to
+the n here, and at the very end
+
+03:00.940 --> 03:05.880
+we subtract out an x to the
+n, so these two cancel out.
+
+03:05.880 --> 03:09.080
+If we look at every term here,
+every term in the numerator has
+
+03:09.080 --> 03:13.310
+a delta x, so we can divide
+the numerator and the
+
+03:13.310 --> 03:16.820
+denominator by delta x.
+
+03:16.820 --> 03:19.210
+This is the same thing
+as 1 over delta x times
+
+03:19.210 --> 03:19.960
+this whole thing.
+
+03:19.960 --> 03:29.670
+So that is equal to the limit
+as delta x approaches zero of,
+
+03:29.670 --> 03:31.910
+so we divide the top and the
+bottom by delta x, or we
+
+03:31.910 --> 03:34.530
+multiply the numerator
+times 1 over delta x.
+
+03:34.530 --> 03:42.310
+We get n choose 1 x
+to the n minus 1.
+
+03:42.310 --> 03:45.580
+What's delta x divided by
+delta x, that's just 1.
+
+03:45.580 --> 03:52.440
+Plus n choose 2, x
+to the n minus 2.
+
+03:52.440 --> 03:56.310
+This is delta x squared, but
+we divide by delta x we
+
+03:56.310 --> 03:57.940
+just get a delta x here.
+
+03:57.940 --> 03:59.490
+Delta x.
+
+03:59.490 --> 04:02.100
+And then we keep having a bunch
+of terms, we're going to divide
+
+04:02.100 --> 04:04.180
+all of them by delta x.
+
+04:04.180 --> 04:07.190
+And then the last term is
+delta x to the n, but then
+
+04:07.190 --> 04:09.130
+we're going to divide
+that by delta x.
+
+04:09.130 --> 04:14.550
+So the last term becomes n
+choose n, x to the zero is 1,
+
+04:14.550 --> 04:17.940
+we can ignore that. delta x
+to the n divided by delta x.
+
+04:17.940 --> 04:21.910
+Well that's delta x
+to the n minus 1.
+
+04:25.150 --> 04:26.690
+Then what are we doing now?
+
+04:26.690 --> 04:28.505
+Remember, we're taking
+the limit as delta
+
+04:28.505 --> 04:30.760
+x approaches zero.
+
+04:30.760 --> 04:33.220
+As delta x approaches zero,
+pretty much every term that
+
+04:33.220 --> 04:37.290
+has a delta x in it,
+it becomes zero.
+
+04:37.290 --> 04:40.850
+When you multiply but
+zero, you get zero.
+
+04:40.850 --> 04:42.650
+This first term has no
+delta x in it, but
+
+04:42.650 --> 04:43.730
+every other term does.
+
+04:43.730 --> 04:45.950
+Every other term, even after
+we divided by delta x
+
+04:45.950 --> 04:46.680
+has a delta x in it.
+
+04:46.680 --> 04:47.930
+So that's a zero.
+
+04:47.930 --> 04:50.970
+Every term is zero, all
+of the other n minus 1
+
+04:50.970 --> 04:52.940
+terms, they're all zeros.
+
+04:52.940 --> 04:58.390
+All we're left with is that
+this is equal to n choose
+
+04:58.390 --> 05:02.520
+1 of x the n minus 1.
+
+05:02.520 --> 05:04.530
+And what's n choose 1?
+
+05:04.530 --> 05:13.070
+That equals n factorial over 1
+factorial divided by n minus 1
+
+05:13.070 --> 05:17.170
+factorial times x
+to the n minus 1.
+
+05:17.170 --> 05:19.390
+1 factorial is 1.
+
+05:19.390 --> 05:23.430
+If I have 7 factorial divided
+by 6 factorial, that's just 1.
+
+05:23.430 --> 05:26.070
+Or if I have 3 factorial
+divided by 2 factorial, that's
+
+05:26.070 --> 05:27.650
+just 3, you can work it out.
+
+05:27.650 --> 05:30.660
+10 factorial divided by
+9 factorial that's 10.
+
+05:30.660 --> 05:32.830
+So n factorial divided
+by n minus 1 factorial,
+
+05:32.830 --> 05:34.600
+that's just equal to n.
+
+05:34.600 --> 05:39.540
+So this is equal to n
+times x to the n minus 1.
+
+05:39.540 --> 05:43.866
+That's the derivative
+of x to the n. n times
+
+05:43.866 --> 05:45.900
+x to the n minus 1.
+
+05:45.900 --> 05:52.470
+We just proved the derivative
+for any positive integer when
+
+05:52.470 --> 05:55.610
+x to the power n, where n
+is any positive integer.
+
+05:55.610 --> 05:59.790
+And we see later it actually
+works for all real
+
+05:59.790 --> 06:02.990
+numbers and the exponent.
+
+06:02.990 --> 06:05.980
+I will see you in
+a future video.
+
+06:05.980 --> 06:08.860
+Another thing I wanted to point
+out is, you know I said that
+
+06:08.860 --> 06:10.150
+we had to know the
+binomial theorem.
+
+06:10.150 --> 06:12.050
+But if you think about it, we
+really didn't even have to know
+
+06:12.050 --> 06:15.630
+the binomial theorem because we
+knew in any binomial
+
+06:15.630 --> 06:17.960
+expansion-- I mean, you'd have
+to know a little bit-- but if
+
+06:17.960 --> 06:19.350
+you did a little
+experimentation you would
+
+06:19.350 --> 06:25.470
+realize that whenever you
+expand a plus b to the nth
+
+06:25.470 --> 06:29.040
+power, first term is going to
+be a to the n, and the second
+
+06:29.040 --> 06:35.670
+term is going to be plus n a to
+the n minus 1 b.
+
+06:35.670 --> 06:37.320
+And then you are going to keep
+having a bunch of terms.
+
+06:37.320 --> 06:40.190
+But these are the only terms
+that are relevant to this proof
+
+06:40.190 --> 06:43.575
+because all the other terms get
+canceled out when delta
+
+06:43.575 --> 06:44.980
+x approaches zero.
+
+06:44.980 --> 06:47.110
+So if you just knew that you
+could have done this, but it's
+
+06:47.110 --> 06:49.150
+much better to do it with
+the binomial theorem.
+
+06:49.150 --> 06:50.880
+Ignore what I just said
+if it confused you.
+
+06:50.880 --> 06:55.280
+I'm just saying that we could
+have just said the rest of
+
+06:55.280 --> 06:56.950
+these terms all go to zero.
+
+06:56.950 --> 06:59.700
+Anyway, hopefully you
+found that fulfilling.
+
+06:59.700 --> 07:01.960
+I will see you in
+future videos.

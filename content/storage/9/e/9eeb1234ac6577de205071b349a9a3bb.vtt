@@ -1,0 +1,1169 @@
+WEBVTT
+
+00:00.169 --> 00:02.272
+- [Instructor] Multiple
+videos and exercises
+
+00:02.272 --> 00:04.273
+we cover the various techniques
+
+00:04.273 --> 00:06.370
+for finding limits.
+
+00:06.370 --> 00:08.936
+But sometimes, it's helpful
+to think about strategies
+
+00:08.936 --> 00:12.067
+for determining which technique to use.
+
+00:12.067 --> 00:14.500
+And that's what we're going
+to cover in this video.
+
+00:14.500 --> 00:16.237
+What you see here is a flowchart
+
+00:16.237 --> 00:19.076
+developed by the team at Khan Academy,
+
+00:19.076 --> 00:21.323
+and I'm essentially going to
+work through that flowchart.
+
+00:21.323 --> 00:23.731
+It looks a little bit
+complicated at first,
+
+00:23.731 --> 00:24.886
+but hopefully it will make sense
+
+00:24.886 --> 00:26.751
+as we talk it through.
+
+00:26.751 --> 00:28.124
+So the goal is, hey,
+
+00:28.124 --> 00:29.593
+we want to find the limit of f of x
+
+00:29.593 --> 00:31.343
+as x approaches a.
+
+00:32.992 --> 00:35.284
+So what this is telling us to do is,
+
+00:35.284 --> 00:36.312
+well the first thing,
+
+00:36.312 --> 00:40.071
+just try to substitute what
+happens when x equals a.
+
+00:40.071 --> 00:41.904
+Let's evaluate f of a.
+
+00:42.925 --> 00:44.317
+And this flowchart says,
+
+00:44.317 --> 00:47.561
+if f of a is equal to a real number,
+
+00:47.561 --> 00:49.758
+it's saying we're done.
+
+00:49.758 --> 00:51.463
+But then there's this little caveat here.
+
+00:51.463 --> 00:52.753
+Probably.
+
+00:52.753 --> 00:55.684
+And the reason why is that
+the limit is a different thing
+
+00:55.684 --> 00:57.574
+than the value of the function.
+
+00:57.574 --> 00:59.507
+Sometimes they happen to be the same.
+
+00:59.507 --> 01:02.285
+In fact, that's the definition
+of a continuous function
+
+01:02.285 --> 01:04.213
+which we talk about in previous videos,
+
+01:04.213 --> 01:06.614
+but sometimes, they aren't the same.
+
+01:06.614 --> 01:08.613
+This will not necessarily be true
+
+01:08.613 --> 01:10.414
+if you're dealing with some function
+
+01:10.414 --> 01:11.512
+that has a
+
+01:11.512 --> 01:12.393
+point
+
+01:12.393 --> 01:13.657
+discontinuity like that
+
+01:13.657 --> 01:15.369
+or a jump discontinuity,
+
+01:15.369 --> 01:18.830
+or a function that looks like this.
+
+01:18.830 --> 01:20.924
+This would not necessarily be the case.
+
+01:20.924 --> 01:22.482
+But if at that point
+
+01:22.482 --> 01:26.327
+you're trying to find the limit towards,
+
+01:26.327 --> 01:29.318
+as you approach this
+point right over here,
+
+01:29.318 --> 01:31.208
+the function is continuous,
+
+01:31.208 --> 01:33.398
+it's behaving somewhat normally,
+
+01:33.398 --> 01:36.150
+then this is a good thing to keep in mind.
+
+01:36.150 --> 01:37.063
+You could just say, hey,
+
+01:37.063 --> 01:38.551
+can I just evaluate the function
+
+01:38.551 --> 01:39.384
+at that
+
+01:40.390 --> 01:41.495
+at that
+
+01:41.495 --> 01:42.625
+a over there?
+
+01:42.625 --> 01:44.074
+So in general, if you're dealing with
+
+01:44.074 --> 01:47.357
+pretty plain vanilla
+functions like an x squared
+
+01:47.357 --> 01:50.594
+or if you're dealing with
+rational expressions like this
+
+01:50.594 --> 01:52.363
+or trigonometric expressions,
+
+01:52.363 --> 01:54.847
+and if you're able to
+just evaluate the function
+
+01:54.847 --> 01:56.794
+and it gives you a real number,
+
+01:56.794 --> 01:58.314
+you are probably done.
+
+01:58.314 --> 02:00.543
+If you're dealing with
+some type of a function
+
+02:00.543 --> 02:03.224
+that has all sorts of special cases
+
+02:03.224 --> 02:05.134
+and it's piecewise defined
+
+02:05.134 --> 02:06.730
+as we've seen in previous other videos,
+
+02:06.730 --> 02:08.690
+I would be a little bit more skeptical.
+
+02:08.690 --> 02:12.132
+Or if you know visually around that point,
+
+02:12.132 --> 02:13.441
+there's some type of jump
+
+02:13.441 --> 02:15.006
+or some type of discontinuity,
+
+02:15.006 --> 02:16.653
+you've got to be a
+little bit more careful.
+
+02:16.653 --> 02:17.541
+But in general,
+
+02:17.541 --> 02:20.069
+this is a pretty good rule of thumb.
+
+02:20.069 --> 02:22.630
+If you're dealing with
+plain vanilla functions
+
+02:22.630 --> 02:24.648
+that are continuous,
+
+02:24.648 --> 02:26.761
+if you evaluate at x equals a
+
+02:26.761 --> 02:27.770
+and you got a real number,
+
+02:27.770 --> 02:30.459
+that's probably going to be the limit.
+
+02:30.459 --> 02:33.198
+But I always think about
+the other scenarios.
+
+02:33.198 --> 02:34.782
+What happens if you evaluate it
+
+02:34.782 --> 02:38.115
+and you get some number divided by zero?
+
+02:39.105 --> 02:40.190
+Well, that case,
+
+02:40.190 --> 02:44.698
+you are probably dealing
+with a vertical asymptote.
+
+02:44.698 --> 02:46.256
+And what do we mean by vertical asymptote?
+
+02:46.256 --> 02:48.114
+Well, look at this
+example right over here.
+
+02:48.114 --> 02:50.072
+Where we just say the limit
+
+02:50.072 --> 02:51.752
+put that in a darker color.
+
+02:51.752 --> 02:53.156
+So if we're talking about
+
+02:53.156 --> 02:54.408
+the limit
+
+02:54.408 --> 02:56.822
+as x approaches one
+
+02:56.822 --> 02:58.450
+of one over
+
+02:58.450 --> 03:00.011
+x minus one,
+
+03:00.011 --> 03:02.380
+if you just try to
+evaluate this expression
+
+03:02.380 --> 03:03.798
+at x equals one,
+
+03:03.798 --> 03:06.256
+you would get one over one minus one
+
+03:06.256 --> 03:08.855
+which is equal to one over zero.
+
+03:08.855 --> 03:09.688
+It says, okay,
+
+03:09.688 --> 03:10.521
+I'm throwing it,
+
+03:10.521 --> 03:13.363
+I'm falling into this
+vertical asymptote case.
+
+03:13.363 --> 03:14.506
+And at that point,
+
+03:14.506 --> 03:18.025
+if you wanted to just understand
+what was going on there
+
+03:18.025 --> 03:20.490
+or even verify that it's
+a vertical asymptote,
+
+03:20.490 --> 03:22.348
+well then you can try out some numbers,
+
+03:22.348 --> 03:23.976
+you can try to plot it,
+
+03:23.976 --> 03:25.004
+you can say, alright,
+
+03:25.004 --> 03:26.843
+I probably have a vertical asymptote here
+
+03:26.843 --> 03:28.184
+at x equals one.
+
+03:28.184 --> 03:30.464
+So that's my vertical asymptote.
+
+03:30.464 --> 03:31.747
+And you can try out some values.
+
+03:31.747 --> 03:32.580
+Well, let's see.
+
+03:32.580 --> 03:34.372
+If x is greater than one,
+
+03:34.372 --> 03:38.267
+the denominator is going to be positive,
+
+03:38.267 --> 03:39.806
+and so, my graph
+
+03:39.806 --> 03:42.143
+and you would get this from
+trying out a bunch of values.
+
+03:42.143 --> 03:43.746
+Might look something like this
+
+03:43.746 --> 03:46.738
+and then for values less than negative one
+
+03:46.738 --> 03:48.609
+or less than one I should say,
+
+03:48.609 --> 03:50.576
+you're gonna get negative values
+
+03:50.576 --> 03:52.089
+and so, your graph might look
+
+03:52.089 --> 03:52.922
+like something like that
+
+03:52.922 --> 03:55.385
+until you have this vertical asymptote.
+
+03:55.385 --> 03:57.173
+That's probably what you have.
+
+03:57.173 --> 03:58.290
+Now, there are cases,
+
+03:58.290 --> 03:59.803
+very special cases,
+
+03:59.803 --> 04:02.568
+where you won't necessarily
+have the vertical asymptote.
+
+04:02.568 --> 04:04.925
+One example of that
+would be something like
+
+04:04.925 --> 04:05.758
+one over x
+
+04:07.153 --> 04:08.583
+minus x.
+
+04:08.583 --> 04:12.281
+This one here is actually
+undefined for any x you give it.
+
+04:12.281 --> 04:13.717
+So, it would be very,
+
+04:13.717 --> 04:15.493
+you will not have a vertical asymptote.
+
+04:15.493 --> 04:17.191
+But this is a very special case.
+
+04:17.191 --> 04:18.309
+Most times,
+
+04:18.309 --> 04:20.952
+you do have a vertical asymptote there.
+
+04:20.952 --> 04:23.449
+But let's say we don't fall
+into either of those situations.
+
+04:23.449 --> 04:25.313
+What if when we evaluate the function,
+
+04:25.313 --> 04:27.714
+we get zero over zero?
+
+04:27.714 --> 04:29.177
+And here is an example of that.
+
+04:29.177 --> 04:31.105
+Limit is x approaches negative one
+
+04:31.105 --> 04:33.327
+of this rational expression.
+
+04:33.327 --> 04:34.323
+Let's try to evaluate it.
+
+04:34.323 --> 04:36.456
+You get negative one squared which is one
+
+04:36.456 --> 04:39.119
+minus negative one which is plus one
+
+04:39.119 --> 04:40.070
+minus two.
+
+04:40.070 --> 04:42.720
+So you get zero the numerator.
+
+04:42.720 --> 04:44.981
+And the denominator you
+have negative one squared
+
+04:44.981 --> 04:45.843
+which is one
+
+04:45.843 --> 04:47.267
+minus two times negative one
+
+04:47.267 --> 04:48.633
+so plus two
+
+04:48.633 --> 04:52.215
+minus three which is equal to zero.
+
+04:52.215 --> 04:55.338
+Now this is known as indeterminate form.
+
+04:55.338 --> 04:56.424
+And so on our flowchart,
+
+04:56.424 --> 04:58.773
+we then continue to the right side of it
+
+04:58.773 --> 05:00.287
+and so here's a bunch of techniques
+
+05:00.287 --> 05:04.527
+for trying to tackle something
+in indeterminate form.
+
+05:04.527 --> 05:05.504
+And
+
+05:05.504 --> 05:06.940
+likely in a few weeks
+
+05:06.940 --> 05:08.594
+you will learn another technique
+
+05:08.594 --> 05:10.114
+that involves a little more calculus
+
+05:10.114 --> 05:12.055
+called L'hospital's Rule
+that we don't tackle here
+
+05:12.055 --> 05:13.371
+because that involves calculus
+
+05:13.371 --> 05:15.484
+while all of these techniques can be done
+
+05:15.484 --> 05:16.768
+with things before calculus.
+
+05:16.768 --> 05:17.917
+Some algebraic techniques
+
+05:17.917 --> 05:20.024
+and some trigonometric techniques.
+
+05:20.024 --> 05:21.448
+So the first thing that you might want to
+
+05:21.448 --> 05:22.521
+try to do
+
+05:22.521 --> 05:25.356
+especially if you're dealing
+with a rational expression
+
+05:25.356 --> 05:26.189
+like this
+
+05:26.189 --> 05:27.444
+and you're getting indeterminate form,
+
+05:27.444 --> 05:29.781
+is try to factor it.
+
+05:29.781 --> 05:30.829
+Try to see
+
+05:30.829 --> 05:33.006
+if you can simplify this expression.
+
+05:33.006 --> 05:34.066
+And this expression here,
+
+05:34.066 --> 05:35.247
+you can factor it.
+
+05:35.247 --> 05:37.463
+This is the same thing as
+
+05:37.463 --> 05:38.296
+x
+
+05:38.296 --> 05:39.213
+x minus two
+
+05:41.550 --> 05:43.133
+times x plus one
+
+05:44.340 --> 05:45.173
+over
+
+05:46.135 --> 05:47.309
+x
+
+05:47.309 --> 05:50.611
+this would be x minus three
+
+05:50.611 --> 05:52.239
+times x plus one
+
+05:52.239 --> 05:55.317
+if what I just did seems
+completely foreign to you
+
+05:55.317 --> 05:57.941
+I encourage you to watch
+the videos on factoring
+
+05:57.941 --> 05:59.959
+factoring polynomials
+
+05:59.959 --> 06:01.894
+or factoring quadratics.
+
+06:01.894 --> 06:02.935
+And so,
+
+06:02.935 --> 06:04.014
+you can see here, alright.
+
+06:04.014 --> 06:05.097
+If I make the
+
+06:06.070 --> 06:07.577
+I can simplify this 'cause
+
+06:07.577 --> 06:10.623
+as long as x does not equal negative one,
+
+06:10.623 --> 06:12.063
+these two things are going to cancel out.
+
+06:12.063 --> 06:15.499
+So I can say that this is going
+to be equal to x minus two
+
+06:15.499 --> 06:17.721
+over x minus three
+
+06:17.721 --> 06:20.275
+for x does not equal negative one.
+
+06:20.275 --> 06:22.670
+Sometimes people forget to do this part.
+
+06:22.670 --> 06:24.898
+This is if you're really
+being mathematically precise.
+
+06:24.898 --> 06:27.472
+This entire expression
+is the same as this one.
+
+06:27.472 --> 06:29.630
+Because this entire expression
+is still not defined
+
+06:29.630 --> 06:31.444
+if x equals negative one.
+
+06:31.444 --> 06:34.601
+Although you can substitute
+x equals negative one here
+
+06:34.601 --> 06:36.140
+and now get a value.
+
+06:36.140 --> 06:38.024
+So if you substitute x
+equals negative one here
+
+06:38.024 --> 06:40.891
+even if it's formally taking it away to be
+
+06:40.891 --> 06:42.347
+mathematically equivalent,
+
+06:42.347 --> 06:43.733
+this would be negative one
+
+06:43.733 --> 06:45.386
+minus two
+
+06:45.386 --> 06:46.976
+which would be
+
+06:46.976 --> 06:48.643
+which would be negative three
+
+06:48.643 --> 06:50.667
+over negative one minus three
+
+06:50.667 --> 06:51.869
+which should be negative four
+
+06:51.869 --> 06:53.829
+which is equal to three fourths.
+
+06:53.829 --> 06:56.581
+So if this condition wasn't here,
+
+06:56.581 --> 06:58.618
+you can just evaluate it straight up and
+
+06:58.618 --> 07:00.470
+this is a pretty plain vanilla function.
+
+07:00.470 --> 07:05.119
+Wouldn't expect to see
+anything crazy happening here.
+
+07:05.119 --> 07:07.845
+And if I can just evaluate
+it at x equals negative one
+
+07:07.845 --> 07:09.493
+I feel pretty good.
+
+07:09.493 --> 07:10.859
+I feel pretty good.
+
+07:10.859 --> 07:12.354
+So once again, we're
+now going in factoring.
+
+07:12.354 --> 07:13.187
+We're able to factor.
+
+07:13.187 --> 07:14.371
+We have valued,
+
+07:14.371 --> 07:15.482
+we simplify it.
+
+07:15.482 --> 07:17.649
+We evaluate the expression
+
+07:18.643 --> 07:19.971
+the simplified expression now,
+
+07:19.971 --> 07:21.498
+and now we were able to get a value.
+
+07:21.498 --> 07:23.005
+We were able to get three fourths,
+
+07:23.005 --> 07:25.610
+and so we can feel pretty
+good that the limit here
+
+07:25.610 --> 07:28.688
+in this situation is three fourths.
+
+07:28.688 --> 07:29.521
+Now, let's
+
+07:29.521 --> 07:31.223
+and I would categorize what we've seen
+
+07:31.223 --> 07:32.762
+so far is
+
+07:32.762 --> 07:34.984
+the bulk of the limit exercises
+
+07:34.984 --> 07:36.389
+that you will likely encounter.
+
+07:36.389 --> 07:37.238
+Now the next two,
+
+07:37.238 --> 07:40.916
+I would call slightly fancier techniques.
+
+07:40.916 --> 07:42.934
+So if you get indeterminate form
+
+07:42.934 --> 07:45.354
+especially you'll sometimes
+see it with radical expressions
+
+07:45.354 --> 07:46.187
+like this.
+
+07:46.187 --> 07:48.355
+Rational radical expressions.
+
+07:48.355 --> 07:51.158
+You might want to multiply by conjugate.
+
+07:51.158 --> 07:53.202
+So for example, in this
+situation right here,
+
+07:53.202 --> 07:56.114
+if you just try to
+evaluate it x equals four,
+
+07:56.114 --> 07:58.854
+you get the square root of four minus two
+
+07:58.854 --> 08:00.521
+over four minus four
+
+08:01.395 --> 08:03.145
+which is zero over zero.
+
+08:03.145 --> 08:04.946
+So it's that indeterminate form.
+
+08:04.946 --> 08:07.308
+And the technique here,
+because we're seeing
+
+08:07.308 --> 08:09.907
+this radical and a rational expression
+
+08:09.907 --> 08:12.602
+let's say, maybe we can
+somehow get rid of that radical
+
+08:12.602 --> 08:14.900
+or simplify it somehow.
+
+08:14.900 --> 08:16.496
+So let me rewrite.
+
+08:16.496 --> 08:18.476
+Square root of x minus two
+
+08:18.476 --> 08:19.919
+over
+
+08:19.919 --> 08:20.966
+x
+
+08:20.966 --> 08:22.671
+minus four.
+
+08:22.671 --> 08:23.629
+Let's say a conjugate,
+
+08:23.629 --> 08:26.885
+let's multiply it by the
+square root of x plus two
+
+08:26.885 --> 08:30.723
+over the square root of x plus two.
+
+08:30.723 --> 08:31.556
+Once again,
+
+08:31.556 --> 08:33.373
+it's the same expression
+over the same expression.
+
+08:33.373 --> 08:36.604
+So I'm not fundamentally
+changing its value.
+
+08:36.604 --> 08:38.641
+And so this is going to be equal to,
+
+08:38.641 --> 08:41.655
+well if I have a plus b times a minus b
+
+08:41.655 --> 08:43.047
+I'm gonna get a difference of squares.
+
+08:43.047 --> 08:45.569
+So it's gonna be square root of x squared
+
+08:45.569 --> 08:46.902
+which is,
+
+08:46.902 --> 08:49.505
+it's going to be square root of x squared
+
+08:49.505 --> 08:50.338
+minus four
+
+08:51.759 --> 08:52.592
+over
+
+08:52.592 --> 08:54.108
+well square root of x squared
+
+08:54.108 --> 08:56.184
+is just going to be
+
+08:56.184 --> 08:57.267
+x minus four.
+
+08:58.112 --> 09:00.845
+So let me rewrite it that way.
+
+09:00.845 --> 09:02.531
+So that's x minus four
+
+09:02.531 --> 09:03.533
+over
+
+09:03.533 --> 09:04.533
+x minus four
+
+09:05.372 --> 09:07.735
+times square root of x plus two,
+
+09:07.735 --> 09:10.775
+square root of x plus two.
+
+09:10.775 --> 09:12.218
+Well, this was useful because now
+
+09:12.218 --> 09:14.968
+I can cancel out x equals four
+
+09:15.870 --> 09:18.552
+or x minus four right over here.
+
+09:18.552 --> 09:19.385
+And once again, if I wanted it
+
+09:19.385 --> 09:21.949
+mathematically to be the
+exact same expression,
+
+09:21.949 --> 09:24.531
+I'd say well, now this
+is going to be equal to
+
+09:24.531 --> 09:25.738
+one
+
+09:25.738 --> 09:27.807
+one over the square root of x plus two
+
+09:27.807 --> 09:29.921
+for x does not equal four,
+
+09:29.921 --> 09:31.626
+but we can definitely see what
+
+09:31.626 --> 09:33.605
+this function is approaching
+
+09:33.605 --> 09:35.961
+if we just now substitute x equals four
+
+09:35.961 --> 09:38.420
+into this simplified expression.
+
+09:38.420 --> 09:41.581
+And so, that's just gonna be one over
+
+09:41.581 --> 09:43.784
+so if we just substitute
+
+09:43.784 --> 09:46.523
+if we just substitute x equals four here
+
+09:46.523 --> 09:49.135
+you'd get one over square root of four
+
+09:49.135 --> 09:50.246
+plus two
+
+09:50.246 --> 09:52.398
+which is equal to one fourth.
+
+09:52.398 --> 09:54.601
+And once again, you can feel pretty good
+
+09:54.601 --> 09:56.586
+that this is going to be
+
+09:56.586 --> 09:57.419
+your limit.
+
+09:57.419 --> 09:59.395
+We've gone back into the green zone.
+
+09:59.395 --> 10:00.673
+If you're actually to plot
+
+10:00.673 --> 10:02.039
+this original function,
+
+10:02.039 --> 10:04.855
+you would have a point discontinuity.
+
+10:04.855 --> 10:07.058
+You would have a gap at x equals
+
+10:07.058 --> 10:07.891
+four
+
+10:08.770 --> 10:10.768
+but then when you do that simplification
+
+10:10.768 --> 10:12.499
+and factoring out that x minus
+
+10:12.499 --> 10:14.408
+or canceling out that x minus four,
+
+10:14.408 --> 10:15.877
+that gap would disappear.
+
+10:15.877 --> 10:17.071
+So that's essentially what you're doing.
+
+10:17.071 --> 10:19.069
+You're trying to find
+the limit as we approach
+
+10:19.069 --> 10:21.260
+that gap which we got right there.
+
+10:21.260 --> 10:23.111
+Now, this final one.
+
+10:23.111 --> 10:24.638
+This is dealing with trig identities.
+
+10:24.638 --> 10:26.215
+And in order to do these,
+
+10:26.215 --> 10:29.433
+you have to be pretty adept
+at your trig identities.
+
+10:29.433 --> 10:32.115
+So if we're saying the limit,
+
+10:32.115 --> 10:34.497
+I'll do that at a darker color.
+
+10:34.497 --> 10:36.240
+So if we're saying the limit
+
+10:36.240 --> 10:38.877
+as x approaches zero
+
+10:38.877 --> 10:39.877
+of sine of x
+
+10:40.889 --> 10:41.722
+over sine
+
+10:42.862 --> 10:44.465
+of two x
+
+10:44.465 --> 10:46.227
+well, sine of zero zero,
+
+10:46.227 --> 10:47.060
+sine of zero zero,
+
+10:47.060 --> 10:47.900
+you're gonna be at zero, zero.
+
+10:47.900 --> 10:49.100
+Once you get indeterminate form,
+
+10:49.100 --> 10:50.789
+we fall into this category,
+
+10:50.789 --> 10:53.142
+and now you might recognize
+this is going to be
+
+10:53.142 --> 10:54.981
+equal to the limit
+
+10:54.981 --> 10:58.437
+as x approaches zero of sine of x
+
+10:58.437 --> 11:00.161
+we can rewrite sine of two x
+
+11:00.161 --> 11:01.078
+as two sine
+
+11:02.204 --> 11:03.037
+x cosine x
+
+11:04.114 --> 11:07.780
+and then those two can
+cancel out for all x's not
+
+11:07.780 --> 11:08.700
+equaling
+
+11:08.700 --> 11:11.318
+for all x's not equaling zero
+
+11:11.318 --> 11:13.326
+if you want to be really
+mathematically precise.
+
+11:13.326 --> 11:16.388
+And so, there would've
+been a gap there for sure
+
+11:16.388 --> 11:18.080
+on the original graph
+
+11:18.080 --> 11:20.193
+if you were to graph y equals this.
+
+11:20.193 --> 11:21.538
+But now, for the limit purposes,
+
+11:21.538 --> 11:23.748
+you can say this is this limit
+
+11:23.748 --> 11:24.884
+is
+
+11:24.884 --> 11:27.081
+this limit is going to be the limit
+
+11:27.081 --> 11:29.724
+as x approaches zero
+
+11:29.724 --> 11:32.057
+of one over two cosine of x.
+
+11:33.058 --> 11:35.141
+And now we can go back to
+
+11:36.397 --> 11:38.562
+this green condition right over here,
+
+11:38.562 --> 11:40.478
+because we can evaluate
+this at x equals zero.
+
+11:40.478 --> 11:42.693
+It's going to be one over
+two times cosine of zero.
+
+11:42.693 --> 11:44.437
+Cosine of zero is one.
+
+11:44.437 --> 11:47.987
+So this is going to be equal to one half.
+
+11:47.987 --> 11:50.637
+Now in general, none of
+these techniques work,
+
+11:50.637 --> 11:52.508
+and you will encounter
+few other techniques
+
+11:52.508 --> 11:54.711
+further on once you learn more calculus,
+
+11:54.711 --> 11:57.955
+then you fall on the base line.
+
+11:57.955 --> 11:59.276
+Approximation.
+
+11:59.276 --> 12:02.099
+And approximation, you
+can do it numerically.
+
+12:02.099 --> 12:04.749
+Try values really really really close
+
+12:04.749 --> 12:07.297
+to the number you're trying
+to find the limit on.
+
+12:07.297 --> 12:09.634
+If you're trying to find the
+limit as x approaches zero
+
+12:09.634 --> 12:11.134
+try 0.00000000001.
+
+12:13.331 --> 12:15.164
+Try negative 0.0000001
+
+12:16.760 --> 12:18.593
+if you're trying to find the
+limit is x approaches four
+
+12:18.593 --> 12:19.760
+try 4.0000001.
+
+12:21.019 --> 12:22.352
+Try 3.9999999999
+
+12:24.193 --> 12:25.878
+and see what happens.
+
+12:25.878 --> 12:27.781
+But that's kind of the last ditch.
+
+12:27.781 --> 12:29.614
+The last ditch effort.

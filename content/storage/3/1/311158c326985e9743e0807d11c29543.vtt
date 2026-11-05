@@ -1,0 +1,546 @@
+WEBVTT
+
+00:00.000 --> 00:02.402
+O que quero fazer neste
+vídeo é começar a explorar
+
+00:02.402 --> 00:05.015
+como podemos modelar coisas
+com equações diferenciais.
+
+00:05.015 --> 00:06.372
+E nesse vídeo em particular,
+
+00:06.372 --> 00:10.395
+vamos explorar modelação de populações.
+
+00:10.528 --> 00:12.537
+Modelação de populações.
+
+00:12.537 --> 00:14.181
+Na verdade, vamos
+aprofundar isso
+
+00:14.181 --> 00:16.035
+eventualmente, mas aqui vamos
+
+00:16.035 --> 00:17.540
+começar com modelos simples.
+
+00:17.054 --> 00:19.919
+E vamos ver, vamos tropeçar no uso
+
+00:19.919 --> 00:22.385
+da lógica de equações diferenciais.
+
+00:22.385 --> 00:23.835
+Coisas que você deve ter visto
+
+00:23.845 --> 00:26.581
+em suas aulas de álgebra ou pré-cálculo.
+
+00:26.581 --> 00:28.938
+Então, em algum nível, o que
+nós vamos fazer aqui
+
+00:28.938 --> 00:32.139
+é fazer uma revisão,
+mas vamos chegar lá
+
+00:32.139 --> 00:36.183
+usando o poder de modelação
+com equações diferenciais.
+
+00:36.552 --> 00:38.598
+Então vamos definir algumas variáveis.
+
+00:38.598 --> 00:43.598
+Digamos que P é igual a nossa população.
+
+00:44.662 --> 00:49.662
+E vamos dizer que t é,
+
+00:49.923 --> 00:54.199
+igual ao tempo que passou em dias.
+
+00:54.199 --> 00:57.176
+Em dias, pode ter sido anos ou meses.
+
+00:57.176 --> 00:59.577
+Mas digamos que estamos
+fazendo a população de
+
+00:59.577 --> 01:01.579
+insetos que se reproduzem rapidamente.
+
+01:01.599 --> 01:06.399
+Então em dias, parece ser um bom
+intervalo de tempo para nos preocupar.
+
+01:06.979 --> 01:08.882
+Agora, o que seria um modelo razoável?
+
+01:09.606 --> 01:12.551
+Bem, podemos dizer que
+a taxa de variação,
+
+01:12.998 --> 01:16.511
+a taxa de variação da nossa
+população, em função ao tempo,
+
+01:17.173 --> 01:21.637
+em função ao tempo é, bem,
+algo razoável a dizer
+
+01:21.637 --> 01:23.279
+é que será proporcional
+
+01:23.279 --> 01:26.673
+a população atual.
+
+01:26.673 --> 01:28.165
+Porque é razoável?
+
+01:28.165 --> 01:30.616
+Bem, quanto maior a população,
+
+01:30.616 --> 01:32.488
+maior será a taxa em qualquer dado tempo.
+
+01:32.488 --> 01:34.040
+Se você tem mil pessoas, a taxa
+
+01:34.004 --> 01:36.257
+a qual eles estão reproduzindo
+será maior,
+
+01:36.293 --> 01:38.794
+ou mil insetos serão mais insetos
+
+01:38.794 --> 01:41.396
+por segundo, por dia, ou por ano
+
+01:41.396 --> 01:43.633
+que se você tem somente dez insetos.
+
+01:43.633 --> 01:45.652
+Portanto faz sentido
+que a taxa de crescimento
+
+01:45.823 --> 01:47.748
+da sua população, em função do tempo,
+
+01:47.748 --> 01:51.450
+será proporcional a sua população.
+
+01:51.045 --> 01:53.061
+E assim, você sabe, às vezes você pensa em
+
+01:53.061 --> 01:55.587
+equações diferenciais como
+algo complexo e assustador,
+
+01:55.597 --> 01:57.558
+mas repare que fomos capazes de expressar
+
+01:57.568 --> 02:01.668
+uma ideia razoável e nada complicada.
+
+02:01.668 --> 02:03.143
+A taxa de variação da população
+
+02:03.143 --> 02:05.682
+vai ser proporcional a população.
+
+02:05.682 --> 02:08.154
+E agora, que expressamos isso,
+podemos na verdade
+
+02:08.154 --> 02:10.109
+tentar resolver esta equação diferencial.
+
+02:10.109 --> 02:12.195
+Encontre uma solução geral,
+e podemos tentar colocar
+
+02:12.195 --> 02:16.271
+algumas condições iniciais ali ou
+alguns estados da população
+
+02:16.271 --> 02:19.038
+que nós sabemos realmente
+resolver para as constantes
+
+02:19.038 --> 02:22.289
+para encontrar uma solução particular.
+
+02:22.289 --> 02:23.446
+Então como fazemos isso?
+
+02:23.446 --> 02:25.140
+Eu incentivo você a pausar este
+vídeo a qualquer momento
+
+02:25.014 --> 02:27.392
+e ver se você consegue resolver
+essa equação diferencial.
+
+02:28.457 --> 02:31.503
+Assumindo que você, pelo menos,
+talvez tenha tentado uma vez isso,
+
+02:31.693 --> 02:33.436
+você irá imediatamente reconhecer que
+
+02:33.436 --> 02:35.197
+isto é uma equação diferencial separável.
+
+02:35.197 --> 02:37.513
+E em equações diferenciais separáveis,
+
+02:37.513 --> 02:39.722
+queremos uma variável e
+todos os diferenciais
+
+02:39.722 --> 02:42.303
+envolvendo essa variável em um
+lado, e a outra variável
+
+02:42.303 --> 02:43.584
+e todos os diferenciais envolvendo
+
+02:43.584 --> 02:45.575
+a outra variável do outro lado.
+
+02:45.575 --> 02:47.801
+e então podemos integrar ambos os lados.
+
+02:47.801 --> 02:53.121
+E mais uma vez, dP,
+derivada de P em função t,
+
+02:53.278 --> 02:54.915
+isto não é exatamente uma fração.
+
+02:54.915 --> 02:59.181
+Isso é o limite da variação em P
+a medida que o tempo varia.
+
+02:59.181 --> 03:02.407
+Isso é a nossa variação instantânea,
+mas por causa das
+
+03:02.407 --> 03:04.408
+equações diferenciais separáveis
+
+03:04.408 --> 03:06.734
+ou equações diferenciais no geral,
+você pode tratar,
+
+03:06.734 --> 03:10.361
+você pode tratar esses, estas
+derivadas em notações Leibniz
+
+03:10.361 --> 03:13.137
+como frações, e você pode
+tratar essas diferenciais
+
+03:13.137 --> 03:16.514
+como quantidades porque nós
+eventualmente vamos integrá-las.
+
+03:16.514 --> 03:17.549
+Vamos fazer isso.
+
+03:17.864 --> 03:20.491
+Então, nós queremos por todos
+os Ps e dPs em um lado
+
+03:20.491 --> 03:23.267
+e tudo que envolva t
+
+03:23.267 --> 03:27.319
+e que não envolva P
+do outro lado.
+
+03:27.319 --> 03:30.616
+Assim podemos dividir ambos os lados por P
+
+03:30.616 --> 03:33.071
+Nós podemos dividir ambos os lados
+por P, e então nós teremos
+
+03:33.071 --> 03:37.123
+um sob P, e você tem um sob P
+
+03:37.123 --> 03:39.424
+aqui e estes irão se cancelar,
+
+03:39.424 --> 03:45.131
+e então você pode multiplicar
+ambos os lados por dt.
+
+03:45.131 --> 03:48.078
+Mais uma vez, tratando os
+diferenciais como quantidades
+
+03:48.078 --> 03:50.354
+na qual não é, realmente não
+é uma quantidade.
+
+03:50.354 --> 03:53.175
+Você realmente tem que ver isso como
+um limite
+
+03:53.317 --> 03:56.330
+da variação em P sob a variação no tempo.
+
+03:56.757 --> 03:59.658
+O limite a medida que a variação fica
+
+03:59.658 --> 04:01.984
+cada vez menor e menor no tempo.
+
+04:01.984 --> 04:03.841
+Mas para, mais uma vez, por causa disso
+
+04:03.841 --> 04:06.072
+nós podemos fazer isso, e
+quando fazemos isso
+
+04:06.098 --> 04:13.167
+nós ficamos com um sob P dP
+
+04:13.167 --> 04:16.286
+é igual a
+
+04:16.286 --> 04:22.125
+é igual a k dt.
+
+04:22.391 --> 04:26.395
+Agora nós podemos integrar,
+integrar ambos os lados.
+
+04:26.395 --> 04:29.258
+Por isso ser uma equação
+diferencial variável,
+
+04:29.258 --> 04:31.823
+somos capazes de separar
+completamente os Ps e dPs das
+
+04:31.823 --> 04:33.424
+partes envolvendo ts ou, penso,
+
+04:33.424 --> 04:36.250
+as partes que não
+envolvem Ps, e então
+
+04:36.025 --> 04:39.376
+se nós integrarmos este lado,
+nós vamos ter o logaritmo (log) natural,
+
+04:39.601 --> 04:43.703
+o log natural do valor absoluto
+da nossa população,
+
+04:43.703 --> 04:46.229
+e poderíamos dizer mais
+alguma constante se quisermos
+
+04:46.229 --> 04:48.415
+mas iremos ter uma
+constante neste lado também
+
+04:48.415 --> 04:51.682
+então podemos somente
+dizer que será igual a,
+
+04:51.682 --> 04:55.434
+isto será igual a k,
+este será igual a k vezes t,
+
+04:55.434 --> 05:03.044
+k vezes t mais alguma constante.
+
+05:03.104 --> 05:05.763
+Vou somente chamar
+de C um, e mais uma vez
+
+05:05.763 --> 05:08.085
+poderia ter posto mais C
+dois aqui, mas eu iria
+
+05:08.085 --> 05:10.470
+então subtrair a
+constante de ambos os lados
+
+05:10.047 --> 05:12.734
+e eu somente teria a
+constante no lado direito.
+
+05:13.742 --> 05:16.668
+Agora, como eu posso resolver para P?
+
+05:16.668 --> 05:18.944
+Bem, o log natural do
+valor absoluto de P
+
+05:18.944 --> 05:21.776
+é igual ao que está do lado direito aqui.
+
+05:21.776 --> 05:24.172
+Isto significa que é a mesma coisa.
+
+05:24.172 --> 05:28.193
+Isto significa que o valor absoluto de P
+
+05:28.198 --> 05:31.933
+é igual a e elevado a tudo isso,
+
+05:31.933 --> 05:35.818
+e elevado a
+
+05:35.818 --> 05:37.215
+me deixa colocar isso tudo na mesma cor,
+
+05:37.215 --> 05:42.952
+kt, kt mais,
+
+05:43.609 --> 05:47.441
+mais C um, mais C um.
+
+05:47.441 --> 05:50.134
+Agora isto bem aqui
+é a mesma coisa.
+
+05:50.134 --> 05:52.693
+Usando as propriedades
+exponenciais, é a mesma coisa
+
+05:52.693 --> 05:55.161
+que e elevado a kt,
+
+05:55.964 --> 05:59.218
+e elevado k vezes t
+
+05:59.218 --> 06:03.457
+vezes e, vezes e elevado a C um,
+
+06:04.364 --> 06:06.157
+e elevado a C um.
+
+06:06.088 --> 06:08.390
+Agora isto é apenas e elevado
+a uma constante,
+
+06:08.390 --> 06:09.588
+então podemos chamar,
+
+06:09.588 --> 06:11.728
+vamos chamar de constante C.
+
+06:11.728 --> 06:16.688
+Então tudo isso simplificado a C e,
+
+06:16.688 --> 06:24.548
+C e elevado a kt,
+
+06:24.559 --> 06:27.535
+E se assumimos que nossa
+população em um determinado tempo
+
+06:27.535 --> 06:30.638
+é positiva então podemos tirar
+
+06:30.638 --> 06:34.153
+este sinal de valor absoluto, e
+temos uma solução geral
+
+06:34.153 --> 06:36.938
+a esta equação diferencial geral.
+
+06:36.938 --> 06:37.993
+Digamos proporcional.
+
+06:37.993 --> 06:40.381
+Nós não demos o que a
+constante proporcional é,
+
+06:40.381 --> 06:42.857
+mas podemos dizer, se assumir que,
+população positiva
+
+06:43.318 --> 06:46.809
+que a população será
+igual a
+
+06:46.809 --> 06:52.769
+alguma constante C vezes
+e elevado a kt.
+
+06:52.787 --> 06:55.638
+E a razão do por que eu disse que
+
+06:55.638 --> 06:57.394
+você deve ter visto isso antes é que
+
+06:57.394 --> 07:00.938
+isto é somente uma função exponencial,
+e é bastante provável que
+
+07:00.938 --> 07:04.192
+em aulas de álgebra ou em pré-calculo
+
+07:04.056 --> 07:06.934
+você deve ter modelado coisas
+com funções exponenciais,
+
+07:06.934 --> 07:08.774
+e se eu adivinhar que
+você deve ter
+
+07:08.774 --> 07:12.371
+modelado coisas como população.
+
+07:12.371 --> 07:14.437
+A razão disso ser
+interessante é que
+
+07:14.437 --> 07:15.910
+agora você vê
+de onde isto vem.
+
+07:15.910 --> 07:17.923
+A lógica subjacente que nos conduz
+
+07:17.923 --> 07:20.574
+pela atual equação diferencial.
+
+07:20.574 --> 07:23.296
+A taxa de variação da população
+em função do tempo.
+
+07:23.296 --> 07:26.372
+Bem, talvez seja somente
+proporcional a população.
+
+07:26.372 --> 07:28.403
+Então te deixarei aqui,
+e no próximo vídeo
+
+07:28.403 --> 07:31.354
+nós iremos fazer o mesmo que no
+1º ou 2º ano do ensino médio
+
+07:31.354 --> 07:33.631
+ou talvez depois na sua vida,
+não importa quando
+
+07:33.631 --> 07:35.756
+aprendeu, onde nós
+olhamos para algumas
+
+07:35.756 --> 07:39.158
+condições iniciais para encontrar
+uma solução particular.

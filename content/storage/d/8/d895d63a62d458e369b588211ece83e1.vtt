@@ -1,0 +1,583 @@
+WEBVTT
+
+00:01.080 --> 00:02.640
+Điều chúng ta sẽ làm trong video này là
+
+00:02.640 --> 00:07.263
+tìm ra một định nghĩa rõ ràng hơn cho tính liên tục.
+
+00:08.540 --> 00:10.420
+Trước đó, khi dựa vào cách hiểu của chúng ta,
+
+00:10.420 --> 00:12.980
+thì ý tưởng chung của tính liên tục là
+
+00:12.980 --> 00:15.660
+là 1 hàm số liên tục tại một điểm
+
+00:15.660 --> 00:18.350
+là nếu bạn có thể vẽ được đồ thị của hàm số
+
+00:18.350 --> 00:20.240
+tại điểm đó mà không nhấc cây viết lên.
+
+00:20.240 --> 00:21.790
+Vậy điều đó có nghĩa là ta sẽ làm gì?
+
+00:21.790 --> 00:22.730
+Những điều mình mới nói
+
+00:22.730 --> 00:24.520
+không hề rõ ràng
+
+00:24.520 --> 00:26.520
+tí nào luôn,
+
+00:26.520 --> 00:29.930
+hãy nghĩ về cái điểm ở chỗ này đi.
+
+00:29.930 --> 00:31.690
+Hãy đặt tên cho nó là điểm c.
+
+00:31.690 --> 00:34.320
+Nếu mình có thể vẽ đồ thị tại điểm đó,
+
+00:34.320 --> 00:35.560
+thì giá trị của đồ thị tại điểm đó
+
+00:35.560 --> 00:38.390
+đây, không cần nhấc viết chì lên luôn nè
+
+00:38.390 --> 00:39.430
+thì nó sẽ liên tục tại đây.
+
+00:39.430 --> 00:40.770
+Vậy mình có thể sẽ bắt đầu từ đây,
+
+00:40.770 --> 00:42.590
+không nhấc viết chì lên
+
+00:42.590 --> 00:43.440
+và bắt đầu thôi nào.
+
+00:43.440 --> 00:45.710
+Mình có thể đi qua điểm đó,
+
+00:45.710 --> 00:48.750
+vậy chúng ta có thể nói là hàm số sẽ liên tục ở đó.
+
+00:48.750 --> 00:50.750
+Nhưng nếu mình có một hàm số nhìn
+
+00:50.750 --> 00:52.440
+hơi khác với cái đó,
+
+00:52.440 --> 00:54.850
+nếu mình có một hàm số nhìn như thế này,
+
+00:54.850 --> 00:58.330
+nó sẽ xác định đến đây
+
+00:58.330 --> 00:59.990
+và sau đó có một cú nhảy lên,
+
+00:59.990 --> 01:02.120
+và sau đó đi như thế này,
+
+01:02.120 --> 01:05.373
+chà, cái này sẽ rất khó để vẽ đây.
+
+01:05.373 --> 01:07.750
+Hàm số này khá là khó vẽ
+
+01:07.750 --> 01:11.580
+khi nó đi qua x = c mà không cần nhấc bút của mình lên.
+
+01:11.580 --> 01:13.160
+Để xem, viết của mình đang chạm màn hình,
+
+01:13.160 --> 01:15.150
+chạm màn hình nè
+
+01:15.150 --> 01:17.530
+Vậy làm sao để mình tiếp tục vẽ hàm số này
+
+01:17.530 --> 01:20.060
+mà không cần nhấc bút của mình lên đây?
+
+01:20.060 --> 01:21.540
+Mình phải nhấc nó lên rồi,
+
+01:21.540 --> 01:23.090
+và trở về lại dưới đây.
+
+01:23.090 --> 01:25.620
+Và trực giác nói là
+
+01:25.620 --> 01:29.200
+chúng sẽ không liên tục trong trường hợp này.
+
+01:29.200 --> 01:30.330
+Chà vậy hãy cùng nghĩ ra
+
+01:30.330 --> 01:34.190
+một định nghĩ rõ ràng hơn cho tính liên tục nào,
+
+01:34.190 --> 01:37.590
+và sau đó xem thử nó có giống như trực giác của chúng ta không.
+
+01:37.590 --> 01:41.630
+Vậy một định nghĩa rõ ràng hơn cho tính liên tục,
+
+01:41.630 --> 01:43.930
+hãy bắt đầu từ tính liên tục tại một điểm.
+
+01:43.930 --> 01:48.260
+Vậy chúng ta có thể nói hàm số f liên tục
+
+01:49.100 --> 01:54.100
+tại x = c.
+
+01:54.940 --> 01:56.580
+Và chỉ khi
+
+01:56.580 --> 02:00.470
+mình sẽ vẽ mũi tên hai chiều để thể hiện là khi và chỉ khi
+
+02:00.470 --> 02:03.950
+giới hạn hai bên của f tại x,
+
+02:03.950 --> 02:06.880
+khi x tiến đến c,
+
+02:06.880 --> 02:09.690
+sẽ bằng với f tại c.
+
+02:09.690 --> 02:11.550
+Vậy cái này có vẻ như khá là chuyên môn.
+
+02:11.550 --> 02:13.900
+Nhưng hãy cùng nghĩ về nó đang nói lên điều gì.
+
+02:13.900 --> 02:14.820
+Nó nói là
+
+02:14.820 --> 02:17.680
+nếu giới hạn khi ta tiến đến c
+
+02:17.680 --> 02:20.180
+từ bên trái và bên phải của f tại x,
+
+02:20.180 --> 02:22.680
+nếu đó là giá trị của hàm số tại đó,
+
+02:22.680 --> 02:25.750
+thì hàm số đó liên tục tại điểm đó.
+
+02:25.750 --> 02:27.420
+Vậy hãy nhìn vào 3 ví dụ.
+
+02:27.420 --> 02:30.270
+Ở ví dụ đầu tiên,
+
+02:30.270 --> 02:33.390
+bằng ý tưởng nhấc viết chì lên của chúng ta,
+
+02:33.390 --> 02:35.460
+nó có vẻ như là liên tục tại một điểm.
+
+02:35.460 --> 02:37.190
+Và tiếp đến, hãy nghĩ về một vài ví dụ
+
+02:37.190 --> 02:39.270
+mà nó trông có vẻ như không liên tục tại một điểm,
+
+02:39.270 --> 02:43.460
+và để xem định nghĩa này có thể áp dụng chặt chẽ như thế nào.
+
+02:43.460 --> 02:46.410
+Vậy hãy nói là hàm số
+
+02:46.410 --> 02:48.680
+ở ngay đây
+
+02:48.680 --> 02:52.810
+là y bằng với f tại x.
+
+02:52.810 --> 02:55.260
+Và chúng ta quan tâm về tính chất ở chỗ này
+
+02:55.260 --> 02:56.390
+khi mà x = c.
+
+02:56.390 --> 02:59.280
+Đây là trục x của mình, còn đây là trục y.
+
+02:59.280 --> 03:03.100
+Vậy chúng ta quan tâm về tính chất khi x = c.
+
+03:03.100 --> 03:05.010
+Và cũng hãy chú ý là,
+
+03:05.010 --> 03:07.180
+từ trực giác ban đầu của ta,
+
+03:07.180 --> 03:09.720
+mình hoàn toàn có thể vẽ hàm số
+
+03:09.720 --> 03:13.110
+khi nó đi qua x = c mà không cần nhấc viết của mình lên,
+
+03:13.110 --> 03:14.610
+vậy nó liên tục tại đây.
+
+03:14.610 --> 03:19.000
+Không hề có cú nhảy vọt hay tính gián đoạn ở đây.
+
+03:19.000 --> 03:20.570
+Nó cứ tiếp tục đi mãi.
+
+03:20.570 --> 03:23.830
+Tất cả đều được liên kết, và đó là cách mà ta có thể nghĩ về nó.
+
+03:23.830 --> 03:25.960
+Nhưng hãy nghĩ về định nghĩa này.
+
+03:25.960 --> 03:30.960
+Chà, giới hạn khi x tiến đến c
+
+03:31.640 --> 03:33.580
+từ bên trái,
+
+03:33.580 --> 03:36.570
+nó có vẻ như là
+
+03:36.570 --> 03:40.760
+đang tiến đến f tại c.
+
+03:40.760 --> 03:45.760
+Vậy đây là giá trị, f tại c.
+
+03:45.820 --> 03:48.920
+Và khi ta tiến đến
+
+03:48.920 --> 03:51.530
+từ bên phải,
+
+03:51.530 --> 03:55.410
+nó cũng trông giống như nó đang tiến đến f tại c.
+
+03:55.410 --> 03:57.520
+Và nó được xác định tại x = c.
+
+03:57.520 --> 04:00.150
+Và đó là giá trị mà chúng ta đang tiến đến
+
+04:00.150 --> 04:01.910
+cả từ bên trái hay bên phải.
+
+04:01.910 --> 04:04.140
+Vậy cái này có vẻ ổn trong trường hợp này.
+
+04:04.140 --> 04:05.480
+Vậy bây giờ hãy nhìn vào một số trường hợp
+
+04:05.480 --> 04:07.370
+mà chúng ta phải nhấc viết lên
+
+04:07.370 --> 04:11.010
+khi vẽ đồ thị
+
+04:11.010 --> 04:11.998
+đi qua điểm đó,
+
+04:11.998 --> 04:14.840
+Khi x = c.
+
+04:14.840 --> 04:16.933
+Vậy hãy nhìn vào trường hợp này.
+
+04:17.850 --> 04:19.830
+Chúng ta có thứ gọi là
+
+04:19.830 --> 04:21.870
+điểm gián đoạn,
+
+04:21.870 --> 04:24.000
+mặc dù bạn không cần phải viết về điểm này,
+
+04:24.000 --> 04:27.540
+hay là thuật ngữ chính thức cho nó.
+
+04:27.540 --> 04:30.970
+Vậy hãy nói là ta có một hàm số
+
+04:30.970 --> 04:32.737
+Đây là c.
+
+04:32.737 --> 04:35.690
+Bây giờ hãy nói là hàm số của chúng ta
+
+04:35.690 --> 04:37.500
+trông như thế này nè.
+
+04:37.500 --> 04:39.260
+Vậy ta sẽ đi như thế này,
+
+04:39.260 --> 04:42.630
+và tại c, nó sẽ bằng với cái này.
+
+04:42.630 --> 04:46.660
+Vậy f tại c nằm ngay đây.
+
+04:46.660 --> 04:48.610
+f tại c sẽ là giá trị đó.
+
+04:48.610 --> 04:51.300
+Nhưng giới hạn khi x tiến đến c là gì?
+
+04:51.300 --> 04:54.020
+Vậy giới hạn khi x tiến đến c,
+
+04:54.020 --> 04:57.610
+đây là giới hạn hai bên của f tại x.
+
+04:57.610 --> 05:00.270
+Chà, khi chúng ta tiếp cận từ bên trái,
+
+05:00.270 --> 05:03.860
+nó sẽ trông giống như là chúng ta đang tiến đến giá trị này.
+
+05:03.860 --> 05:04.890
+Và từ phía bên phải,
+
+05:04.890 --> 05:08.460
+nó trông giống như là chúng ta đang tiến đến giá trị tương tự vừa rồi.
+
+05:08.460 --> 05:10.073
+Và, hãy gọi đó là L.
+
+05:11.160 --> 05:13.960
+Và L khác với f tại c.
+
+05:13.960 --> 05:16.740
+Vậy trong trường hợp này, với định nghĩa rõ ràng của ta,
+
+05:16.740 --> 05:19.350
+hàm số f
+
+05:19.350 --> 05:21.930
+sẽ không liên tục
+
+05:21.930 --> 05:23.530
+khi x
+
+05:23.530 --> 05:26.780
+bằng với c
+
+05:26.780 --> 05:27.770
+Và bạn có thể nhìn thấy ở đó.
+
+05:27.770 --> 05:29.160
+Nếu chúng ta cố vẽ cái này,
+
+05:29.160 --> 05:30.380
+viết của mình đang chạm màn hình nè,
+
+05:30.380 --> 05:32.080
+vẫn còn chạm luôn nha.
+
+05:32.080 --> 05:34.740
+Ồ không, nếu mình muốn tiếp tục vẽ hàm số này,
+
+05:34.740 --> 05:37.200
+thì mình phải nhấc cây viết của mình lên, và dời nó qua đây,
+
+05:37.200 --> 05:39.730
+rồi nhấc nó lên thêm lần nữa, và sau đó nhảy xuống đây.
+
+05:39.730 --> 05:41.580
+Nhưng khái niệm chặt chẽ này
+
+05:41.580 --> 05:43.720
+đang cho ta một kết luận tương tự.
+
+05:43.720 --> 05:46.160
+Giới hạn khi ta tiến đến x = c
+
+05:46.160 --> 05:47.370
+từ bên trái và bên phải,
+
+05:47.370 --> 05:49.640
+nó là giá trị khác với f tại c.
+
+05:49.640 --> 05:52.340
+Vì thế,
+
+05:52.340 --> 05:53.900
+nó không liên tục.
+
+05:53.900 --> 05:56.203
+không liên tục.
+
+05:57.330 --> 05:59.140
+Và hãy thử nghĩ về
+
+05:59.140 --> 06:00.370
+một trường hợp khác.
+
+06:00.370 --> 06:01.810
+Và ta có thể nghĩ về trường hợp mà
+
+06:01.810 --> 06:02.980
+giới hạn...
+
+06:02.980 --> 06:05.600
+giới hạn hai bên không tồn tại.
+
+06:05.600 --> 06:09.830
+Vậy, đây là các trục của mình, x và y.
+
+06:09.830 --> 06:11.670
+Và ta hãy cùng làm
+
+06:11.670 --> 06:14.560
+điều tương tự vậy
+
+06:14.560 --> 06:17.490
+và đi như thế này luôn nha.
+
+06:17.490 --> 06:22.190
+Ta goị đây là c.
+
+06:22.190 --> 06:26.183
+Và ta sẽ có f tại c
+
+06:27.310 --> 06:28.740
+ở ngay đây.
+
+06:28.740 --> 06:30.290
+Để mình vẽ nó gần hơn một xíu.
+
+06:31.270 --> 06:34.010
+Đây là f tại c.
+
+06:34.010 --> 06:37.220
+Và nó trông giống như giới hạn,
+
+06:37.220 --> 06:41.500
+khi x tiến đến c từ bên trái,
+
+06:41.500 --> 06:44.130
+nghĩa là từ các giá trị nhỏ hơn c,
+
+06:44.130 --> 06:46.483
+nó trông giống như đang tiến đến f tại c.
+
+06:48.530 --> 06:50.360
+Nhưng nếu ta nhìn vào giới hạn
+
+06:50.360 --> 06:54.310
+khi x tiến đến c từ bên phải,
+
+06:54.310 --> 06:57.130
+nó trông như là nó đang tiến đến một giá trị nào đó.
+
+06:57.130 --> 06:59.240
+Hình như là giá trị ngay đây nè.
+
+06:59.240 --> 07:00.370
+Hãy gọi đó là L.
+
+07:00.370 --> 07:01.370
+Nó đang tiến đến L,
+
+07:01.370 --> 07:04.270
+và L không bằng với f tại c.
+
+07:04.270 --> 07:06.430
+Vậy trong trường hợp này,
+
+07:06.430 --> 07:08.370
+giới hạn hai bên không tồn tại.
+
+07:08.370 --> 07:10.410
+Chúng ta đang tiến đến hai giá trị khác nhau
+
+07:10.410 --> 07:12.500
+khi ta tiếp cận từ bên trái và từ bên phải.
+
+07:12.500 --> 07:16.510
+Và vì vậy mà giới hạn không tồn tại ở c,
+
+07:16.510 --> 07:19.890
+và dĩ nhiên cái này sẽ không liên tục.
+
+07:19.890 --> 07:22.370
+Và nó đúng như mong đợi của chúng ta
+
+07:22.370 --> 07:24.820
+khi thực hiện bài kiểm tra "có cần phải nhấc viết chì lên không"
+
+07:24.820 --> 07:26.880
+Nếu mình phải vẽ cái này, mình có thể để viết
+
+07:26.880 --> 07:28.150
+trên màn hình,
+
+07:28.150 --> 07:29.590
+vẫn còn trên màn hình nha.
+
+07:29.590 --> 07:32.610
+Mình phải làm sao để tiếp tục vẽ
+
+07:32.610 --> 07:35.500
+đồ thị của hàm số này mà không cần phải nhấc viết của mình lên?
+
+07:35.500 --> 07:37.737
+Nhấc nó lên, đặt nó xuống đây, và tiếp tục vẽ.
+
+07:37.737 --> 07:42.737
+Vậy một lần nữa, cái này không liên tục.
+
+07:43.300 --> 07:45.920
+Bằng trực giác, với ý tưởng nhấc viết chì lên
+
+07:45.920 --> 07:49.310
+và định nghĩa chặt chẽ này
+
+07:49.310 --> 07:50.510
+thì trong trường hợp này,
+
+07:50.510 --> 07:53.240
+giới hạn hai bên tại x = c không tồn tại,
+
+07:53.240 --> 07:54.920
+vậy tất nhiên nó sẽ không liên tục.
+
+07:54.920 --> 07:57.570
+Nhưng thậm chí khi giới hạn hai bên không tồn tại,
+
+07:57.570 --> 08:00.010
+nhưng giới hạn là một giá trị khác
+
+08:00.010 --> 08:01.190
+với giá trị của hàm số,
+
+08:01.190 --> 08:03.020
+và nó cũng sẽ không liên tục.
+
+08:03.020 --> 08:05.340
+Trường hợp duy nhất mà nó liên tục là
+
+08:05.340 --> 08:09.300
+nếu giới hạn hai bên tiến đến cùng giá trị
+
+08:09.300 --> 08:10.640
+với giá trị của hàm số.
+
+08:10.640 --> 08:12.310
+Và nếu điều đó đúng,
+
+08:12.310 --> 08:14.610
+thì nó sẽ liên tục.

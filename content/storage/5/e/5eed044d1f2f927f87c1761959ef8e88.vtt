@@ -1,0 +1,359 @@
+WEBVTT
+
+00:00.628 --> 00:07.094
+Máme funkci f(x), která je rovna
+x lomeno (1 minus kosinus z (x minus 2)),
+
+00:07.094 --> 00:13.325
+a máme vybrat správný popis jednostranných
+limit funkce f(x) v bodě x rovno 2.
+
+00:13.325 --> 00:15.328
+Vidíme, že pro x rovno 2…
+
+00:15.328 --> 00:18.343
+Pokud se pokusíme vyčíslit f(2),
+
+00:18.343 --> 00:24.378
+dostaneme 2 lomeno
+(1 minus kosinus z (2 minus 2)),
+
+00:24.383 --> 00:31.588
+což je totéž jako kosinus z 0
+a kosinus z 0 je jednoduše 1
+
+00:31.601 --> 00:34.758
+a 1 minus 1 je 0.
+
+00:34.758 --> 00:38.833
+Tato funkce tak v bodě
+x rovno 2 není definovaná.
+
+00:38.833 --> 00:42.524
+Proto je zajímavé se kouknout
+na limitu pro x blížící se právě ke 2,
+
+00:42.524 --> 00:44.177
+zejména na jednostranné limity.
+
+00:44.177 --> 00:45.581
+A jednostranné limity…
+
+00:45.581 --> 00:48.646
+Zkusme to tedy nějak vyřešit.
+
+00:48.646 --> 00:50.872
+Je několik možností, jak to udělat.
+
+00:50.872 --> 00:55.544
+Lze to vyřešit bez kalkulačky
+pouze vyšetřením toho, co se zde děje,
+
+00:55.544 --> 00:57.738
+a zamyšlením se nad
+vlastnostmi funkce kosinus.
+
+00:57.738 --> 01:00.736
+Pokud vás to nakoplo,
+zastavte si video, zkuste najít řešení
+
+01:00.736 --> 01:02.643
+a já to pak ukážu
+na konci tohoto videa.
+
+01:02.643 --> 01:04.726
+Jiné řešení, a to
+s kalkulačkou,
+
+01:04.726 --> 01:08.015
+je udělat si
+menší tabulku,
+
+01:08.015 --> 01:10.184
+jako jsme to dělali
+v jiných příkladech.
+
+01:10.184 --> 01:18.595
+Když nás zajímá x blížící se ke 2
+zprava, tak si můžeme udělat tabulku,
+
+01:18.595 --> 01:22.387
+do které si
+napíšeme x a vedle f(x).
+
+01:22.387 --> 01:26.478
+A jelikož se blížíme
+od hodnot větších než 2,
+
+01:26.478 --> 01:31.982
+tak můžeme použít 2,1,
+2,01.
+
+01:31.982 --> 01:35.669
+Mluvil jsem o kalkulačkách,
+protože není jednoduché funkci vyčíslit,
+
+01:35.669 --> 01:43.345
+protože toto je 2,1 lomeno
+(1 minus kosinus z (2,1 minus 2)),
+
+01:43.345 --> 01:46.678
+a 2,1 minus 2 je 0,1.
+
+01:46.678 --> 01:50.083
+Bez kalkulačky nevím,
+kolik je kosinus z 0,1.
+
+01:50.083 --> 01:59.693
+Vím, že kosinus z 0 je 1, takže toto
+bude velmi blízko 1 a menší než 1.
+
+01:59.693 --> 02:02.970
+Kosinus není
+nikdy větší než 1.
+
+02:02.970 --> 02:09.096
+Kosinus je omezený, protože
+-1 je menší nebo rovno kosinu z x...
+
+02:09.096 --> 02:11.366
+Napíšu jen x, nepotřebuji závorky.
+
+02:11.366 --> 02:12.986
+...a to je menší nebo rovno 1.
+
+02:12.986 --> 02:17.760
+Kosinus pouze kmitá mezi
+těmito dvěma hodnotami.
+
+02:17.760 --> 02:22.130
+Tento kosinus se tedy bude blížit
+k 1 a bude menší než 1.
+
+02:22.130 --> 02:24.621
+Rozhodně nebude větší než 1.
+
+02:24.621 --> 02:28.227
+To je dobré pozorování, které nám
+může pomoci lépe porozumět chování výrazu.
+
+02:28.227 --> 02:30.535
+A pak můžeme říct: „Dobře, 2,01…
+
+02:30.535 --> 02:39.724
+To bude 2,01 lomeno
+(1 minus kosinus z 0,01),
+
+02:39.724 --> 02:46.929
+a tento kosinus bude ještě blíže k 1,
+ale bude stále menší než 1.“
+
+02:46.929 --> 02:53.867
+Ať se děje cokoli, tak kosinus je vždy
+mezi -1 a 1, přičemž se jim může rovnat.
+
+02:53.867 --> 02:56.647
+Ale jak se blížíme ke 2,
+
+02:56.647 --> 03:00.299
+tak se tento kosinus
+bude blížit k 1.
+
+03:00.299 --> 03:03.068
+Asi bychom mohli říct,
+že se to blíží k 1 zespoda.
+
+03:03.068 --> 03:05.059
+Takže už získáváme
+nějakou představu.
+
+03:05.059 --> 03:12.515
+Pokud se kosinus blíží k 1 zespoda,
+tak celý tento výraz bude kladný,
+
+03:12.515 --> 03:15.156
+a jak se blížíme
+k x rovno 2,
+
+03:15.156 --> 03:17.475
+tak čitatel je kladný,
+blíží se ke 2.
+
+03:17.475 --> 03:22.859
+Jmenovatel je kladný, tedy celý
+výraz se blíží ke kladné hodnotě,
+
+03:22.859 --> 03:26.057
+nebo bude neomezený
+v kladném směru, jak brzy uvidíme.
+
+03:26.057 --> 03:32.128
+Výraz je neomezený, jelikož tento kosinus
+je ještě blíže k 1 než tento kosinus.
+
+03:32.128 --> 03:34.331
+To bychom viděli, pokud
+bychom měli kalkulačku.
+
+03:34.331 --> 03:38.105
+Ale toto je opravdu
+neomezené v kladném směru,
+
+03:38.105 --> 03:43.356
+takže se to blíží ke kladnému nekonečnu,
+a to říkají tyto dvě možnosti.
+
+03:43.356 --> 03:49.631
+Totéž můžeme provést,
+když se x blíží zleva.
+
+03:49.631 --> 03:52.895
+Pro x blížící se ke
+2 zespoda bych mohl říci.
+
+03:52.895 --> 03:55.994
+Takže tady je x,
+tady bude f(x),
+
+03:55.994 --> 03:58.194
+a opět nemám kalkulačku,
+
+03:58.194 --> 04:01.068
+ale vy si to můžete spočítat
+na kalkulačce a uvidíte
+
+04:01.068 --> 04:03.837
+že vychází kladná čísla
+a že jak se dostáváme blíže ke 2,
+
+04:03.837 --> 04:06.632
+tak jde o čím dál
+tím větší kladná čísla.
+
+04:06.632 --> 04:15.909
+A stejná věc se
+stane pro 1,9 a 1,99,
+
+04:15.909 --> 04:21.003
+protože zde bude
+1,9 lomeno (1 minus kosinus…
+
+04:21.003 --> 04:27.450
+Teď zde máme 1,9
+minus 2, což je -0,1.
+
+04:27.450 --> 04:29.035
+Uděláme si tu místo.
+
+04:29.035 --> 04:39.558
+Druhý by byl 1,99 lomeno
+(1 minus kosinus -0,01).
+
+04:39.559 --> 04:43.903
+A kosinus z -0,1 je stejný
+jako kosinus z 0,1.
+
+04:43.903 --> 04:50.865
+Kosinus z -0,01 je stejný
+jako kosinus 0,01.
+
+04:50.865 --> 04:54.385
+Tyto dva kosiny
+jsou si tedy rovny.
+
+04:54.385 --> 04:56.269
+Tenhle bude roven tomuto.
+
+04:56.269 --> 04:59.102
+A znovu se budeme blížit
+ke kladnému nekonečnu,
+
+04:59.102 --> 05:02.047
+tedy jediná možnost, která
+nám zbyla, je ta úplně první.
+
+05:02.047 --> 05:06.507
+Ať už se ke 2 blížíme
+zprava nebo zleva,
+
+05:06.507 --> 05:08.520
+tak se budeme blížit
+ke kladnému nekonečnu.
+
+05:08.520 --> 05:10.462
+Také bychom si mohli říct,
+
+05:10.462 --> 05:15.219
+že když se blížíme ke 2, čitatel
+je kladný, protože 2 je kladné číslo,
+
+05:15.219 --> 05:21.662
+a tohle je pro x blížící se ke 2 kosinus
+něčeho, a to nebude nikdy větší než 1.
+
+05:21.662 --> 05:24.377
+Bude se blížit k 1, ale
+bude to vždy menší než 1,
+
+05:24.377 --> 05:29.594
+takže když je tohle pro
+x jdoucí ke 2 menší než 1
+
+05:29.594 --> 05:32.402
+a je to rovno 1,
+když se x rovná 2,
+
+05:32.412 --> 05:37.323
+pak tohle je 1 minus něco
+menšího než 1, takže to bude kladné.
+
+05:37.323 --> 05:39.581
+Máme kladné číslo
+dělené kladným číslem,
+
+05:39.581 --> 05:43.217
+tudíž když se blížíme ke 2,
+rozhodně dostaneme něco kladného.
+
+05:43.217 --> 05:46.170
+A díky možnostem, které
+nám dali, už víme,
+
+05:46.170 --> 05:48.477
+že limity budou nevlastní,
+
+05:48.477 --> 05:50.481
+takže bychom tak
+vybrali tuto možnost.
+
+05:50.481 --> 05:52.853
+Taky by nám to však
+mělo dávat smysl.
+
+05:52.853 --> 05:54.833
+Čím jsme ke 2 blíž,
+
+05:54.833 --> 06:00.305
+tím je tato hodnota blíž k 0.
+
+06:00.305 --> 06:02.325
+A čím je tato hodnota blíž k 0,
+
+06:02.325 --> 06:03.842
+tím je kosinus blíž k 1.
+
+06:03.842 --> 06:07.653
+Čím je kosinus blíž k 1,
+tím je jmenovatel menší.
+
+06:07.653 --> 06:09.907
+A když dělíme menším
+a menším jmenovatelem,
+
+06:09.907 --> 06:12.748
+tak se hodnota výrazu neomezeně
+zvětšuje a jde k nekonečnu.
+
+06:12.748 --> 06:15.857
+A to je přesně to, co
+říká první nabízená možnost.

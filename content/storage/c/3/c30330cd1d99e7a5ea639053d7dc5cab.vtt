@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.560 --> 00:06.340
+V tomto videu bych rád začal s obecným
+vzorcem pro derivaci složené funkce
+
+00:06.340 --> 00:09.760
+a pak se podíváme, jak ho
+použít na konkrétní příklad.
+
+00:09.760 --> 00:13.406
+Mějme tedy nějakou
+funkci nebo výraz,
+
+00:13.406 --> 00:18.130
+který můžeme vyjádřit
+jako složení dvou funkcí,
+
+00:18.130 --> 00:25.870
+tedy jako
+f v bodě g(x).
+
+00:25.870 --> 00:32.790
+Máme tedy funkci nebo výraz, který lze
+vyjádřit jako složení dvou funkcí.
+
+00:32.790 --> 00:36.685
+Udělám to stejnou barvou,
+aby to bylo přehledné.
+
+00:36.685 --> 00:39.470
+Naším cílem je teď
+tohle zderivovat,
+
+00:39.470 --> 00:42.240
+tedy spočítat
+derivaci podle x.
+
+00:42.240 --> 00:44.290
+Pravidlo o derivaci
+složené funkce nám říká,
+
+00:44.290 --> 00:49.970
+že toto se rovná derivaci
+vnější funkce podle vnitřní funkce,
+
+00:49.970 --> 00:55.600
+což můžeme napsat jako f s čárkou,
+ale ne v bodě x, nýbrž v bodě g(x),
+
+00:55.600 --> 00:56.730
+což je
+vnitřní funkce.
+
+00:56.740 --> 01:05.790
+f s čárkou v bodě g(x) krát
+derivace vnitřní funkce podle x.
+
+01:05.790 --> 01:08.140
+Tohle možná vypadá
+hodně abstraktně a formálně,
+
+01:08.140 --> 01:09.760
+takže jak tenhle
+vzorec použít?
+
+01:09.760 --> 01:12.180
+Zkusme si to
+na nějakém příkladu.
+
+01:12.180 --> 01:28.470
+Řekněme, že hledáme derivaci druhé
+odmocniny z (3 krát x na druhou minus x).
+
+01:28.470 --> 01:35.320
+Jak zadefinovat funkce f a g tak,
+aby tohle bylo složením f(x) a g(x)?
+
+01:35.320 --> 01:42.450
+f(x) můžeme zadefinovat
+jako druhou odmocninu z ‚x‘,
+
+01:42.450 --> 01:52.670
+a když g(x) zadefinujeme jako
+3 krát x na druhou minus x,
+
+01:52.670 --> 01:55.496
+tak jak bude vypadat
+f v bodě g(x)?
+
+01:55.496 --> 02:00.070
+f v bodě g(x)
+se rovná...
+
+02:00.070 --> 02:04.080
+Snažím se to psát stále stejnými barvami,
+snad vám to pomůže tomu lépe porozumět.
+
+02:04.080 --> 02:06.918
+f v bodě g(x)
+se rovná...
+
+02:06.918 --> 02:09.320
+Kdekoliv vidíme x, musíme
+místo toho napsat g(x),
+
+02:09.320 --> 02:14.720
+takže to bude
+druhá odmocnina z g(x),
+
+02:14.720 --> 02:18.930
+což se rovná
+druhé odmocnině z...
+
+02:18.930 --> 02:21.105
+g(x) máme
+definováno zde.
+
+02:21.105 --> 02:26.985
+...z 3 krát x na
+druhou minus x.
+
+02:26.985 --> 02:30.330
+Tento výraz je tedy přesně
+roven f v bodě g(x),
+
+02:30.330 --> 02:34.550
+pokud si f(x) a g(x)
+zadefinujeme takto.
+
+02:34.550 --> 02:37.600
+To bychom měli, nyní použijme
+vzorec pro derivaci složené funkce.
+
+02:37.600 --> 02:42.020
+Čemu se rovná
+f s čárkou v bodě g(x)?
+
+02:42.020 --> 02:45.570
+Tedy derivace f podle g.
+
+02:45.570 --> 02:47.840
+Jak vypadá
+f s čárkou v bodě x?
+
+02:47.840 --> 02:50.340
+f s čárkou
+v bodě x se rovná...
+
+02:50.340 --> 02:52.930
+Tohle je totéž jako
+x na jednu polovinu,
+
+02:52.930 --> 02:55.100
+takže použijeme
+vzorec pro derivaci mocniny.
+
+02:55.100 --> 02:58.090
+Bude to (1 lomeno 2)
+krát x na...
+
+02:58.090 --> 03:00.220
+Exponent musíme
+zmenšit o 1.
+
+03:00.220 --> 03:03.860
+(1 lomeno 2) minus 1
+je minus (1 lomeno 2).
+
+03:03.860 --> 03:11.850
+Čemu se tedy rovná
+f s čárkou v bodě g(x)?
+
+03:11.860 --> 03:15.460
+Kdekoliv v této derivaci vidíme x,
+musíme místo toho napsat g(x),
+
+03:15.460 --> 03:18.160
+takže to bude
+(1 lomeno 2) krát...
+
+03:18.160 --> 03:25.070
+Místo x na minus (1 lomeno 2)
+musíme napsat g(x) na minus (1 lomeno 2),
+
+03:25.070 --> 03:29.040
+což se rovná...
+
+03:29.040 --> 03:30.710
+Napíšu to sem.
+
+03:30.710 --> 03:39.070
+Což se rovná (1 lomeno 2) krát tento
+výraz umocněný na minus (1 lomeno 2).
+
+03:39.080 --> 03:43.530
+Tedy 3 krát x na
+druhou minus x.
+
+03:43.530 --> 03:47.260
+Teď máme přesně to,
+co jsme potřebovali znát zde.
+
+03:47.260 --> 03:51.300
+f s čárkou
+v bodě g(x) je tohle.
+
+03:51.300 --> 03:54.450
+Tato část...
+
+03:54.450 --> 03:57.680
+Vyznačím ji zeleně.
+
+03:57.680 --> 04:00.970
+To, co jsme tady potřebovali znát,
+tedy f s čárkou v bodě g(x),
+
+04:00.970 --> 04:05.450
+se rovná
+tomuto výrazu.
+
+04:05.450 --> 04:10.450
+Je to derivace vnější funkce
+f podle vnitřní funkce.
+
+04:10.450 --> 04:11.480
+Tak si to
+sem napišme.
+
+04:11.480 --> 04:17.870
+Toto se rovná (1 lomeno 2) krát
+g(x) na minus (1 lomeno 2),
+
+04:17.870 --> 04:22.480
+tedy krát (3 krát x na
+druhou minus x).
+
+04:22.480 --> 04:28.210
+Tyhle dvě věci jsou si pro námi
+definované funkce f(x) a g(x) rovny.
+
+04:28.210 --> 04:31.020
+Když se na to podíváme obecně,
+tak derivace vnější funkce...
+
+04:31.020 --> 04:34.009
+Derivujeme něco
+na (1 lomeno 2),
+
+04:34.009 --> 04:36.949
+takže derivace toho celého
+podle našeho něčeho bude:
+
+04:36.949 --> 04:40.040
+(1 lomeno 2) krát to něco
+na minus (1 lomeno 2).
+
+04:40.040 --> 04:42.030
+To je v zásadě to,
+co tu říkáme.
+
+04:42.030 --> 04:45.630
+Nyní musíme zderivovat
+naše něco podle x.
+
+04:45.630 --> 04:48.350
+Toto je derivace
+našeho něčeho podle x.
+
+04:48.350 --> 04:50.090
+To už bude
+přímočařejší.
+
+04:50.090 --> 04:51.940
+g s čárkou
+v bodě x...
+
+04:51.940 --> 04:53.810
+Na oba členy použijeme
+derivaci mocniny.
+
+04:53.810 --> 04:57.950
+Je to rovno 6 krát x na prvou,
+tedy 6 krát x, minus 1.
+
+04:57.950 --> 05:03.460
+Tato část se tedy rovná
+6 krát x minus 1.
+
+05:03.460 --> 05:08.720
+Aby to bylo jasné,
+tak tohle se rovná tomuhle.
+
+05:08.720 --> 05:09.480
+Tím násobíme.
+
+05:09.480 --> 05:12.440
+A máme hotovo, použili jsme
+vzorec pro derivaci složené funkce.
+
+05:12.440 --> 05:16.710
+Ještě jednou zopakuji, že to je derivace
+vnější funkce podle vnitřní funkce,
+
+05:16.710 --> 05:19.770
+takže místo (1 lomeno 2) krát
+x na minus (1 lomeno 2) tady bude:
+
+05:19.770 --> 05:22.430
+(1 lomeno 2) krát
+g(x) na minus (1 lomeno 2),
+
+05:22.430 --> 05:25.190
+a vynásobíme tím derivaci
+vnitřní funkce podle x,
+
+05:25.190 --> 05:30.680
+tedy krát derivace g podle x,
+což je tento výraz.

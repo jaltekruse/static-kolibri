@@ -1,0 +1,905 @@
+WEBVTT
+
+00:00.590 --> 00:03.240
+So we have got a very
+interesting scenario here.
+
+00:03.240 --> 00:08.730
+I have this conical thimble-like
+cup that is 4 centimeters high.
+
+00:08.730 --> 00:11.450
+And also, the diameter
+of the top of the cup
+
+00:11.450 --> 00:13.450
+is also 4 centimeters.
+
+00:13.450 --> 00:16.480
+And I'm pouring water
+into this cup right now.
+
+00:16.480 --> 00:20.560
+And I'm pouring the water at
+a rate of 1 cubic centimeter.
+
+00:20.560 --> 00:22.800
+1 cubic centimeter per second.
+
+00:22.800 --> 00:26.130
+And right at this
+moment, there is a height
+
+00:26.130 --> 00:28.930
+of 2 centimeters of water
+in the cup right now.
+
+00:28.930 --> 00:32.070
+So the height right now from the
+bottom of the cup to this point
+
+00:32.070 --> 00:34.230
+right over here
+is 2 centimeters.
+
+00:34.230 --> 00:36.980
+So my question to you
+is, at what rate--
+
+00:36.980 --> 00:39.700
+we know the rate at which the
+water is flowing into the cup,
+
+00:39.700 --> 00:43.390
+we're being given
+a volume per time.
+
+00:43.390 --> 00:45.550
+My question to you is
+right at this moment,
+
+00:45.550 --> 00:47.270
+right when we are
+filling our cup
+
+00:47.270 --> 00:49.660
+at 1 cubic centimeter
+per second.
+
+00:49.660 --> 00:51.910
+And we have exactly
+2 centimeters
+
+00:51.910 --> 00:55.200
+of water in the cup,
+2 centimeters deep
+
+00:55.200 --> 00:57.580
+of water in the cup,
+what is the rate at which
+
+00:57.580 --> 01:01.770
+the height of the
+water is changing?
+
+01:01.770 --> 01:05.540
+What is the rate at which
+this height right over here
+
+01:05.540 --> 01:06.440
+is actually changing?
+
+01:06.440 --> 01:10.902
+We know it's 2 centimeters,
+but how fast is it changing?
+
+01:10.902 --> 01:12.610
+Well let's think about
+this a little bit.
+
+01:12.610 --> 01:13.877
+What are we being given?
+
+01:13.877 --> 01:15.960
+We're given-- we are being
+given the rate at which
+
+01:15.960 --> 01:19.530
+the volume of the water is
+changing with respect to time.
+
+01:19.530 --> 01:20.740
+So let's write that down.
+
+01:20.740 --> 01:24.290
+We are being given the rate at
+which the volume of the water
+
+01:24.290 --> 01:26.900
+is changing with
+respect to time,
+
+01:26.900 --> 01:34.630
+and we're told that this is 1
+cubic centimeter per second.
+
+01:34.630 --> 01:36.440
+And what are we
+trying to figure out?
+
+01:36.440 --> 01:38.810
+Well we're trying to
+figure out how fast
+
+01:38.810 --> 01:41.330
+the height of the water is
+changing with respect to time.
+
+01:41.330 --> 01:43.550
+We know that the height
+right now is 2 centimeters.
+
+01:43.550 --> 01:45.560
+But what we want to
+figure out is the rate
+
+01:45.560 --> 01:50.300
+at which the height is
+changing with respect to time.
+
+01:50.300 --> 01:52.060
+If we can figure
+out this, then we
+
+01:52.060 --> 01:54.880
+have essentially
+answered the question.
+
+01:54.880 --> 01:56.620
+So one way that we
+can do this is we
+
+01:56.620 --> 01:59.530
+can come up with the
+relationship between the volume
+
+01:59.530 --> 02:02.704
+at any moment in time and the
+height at any moment in time.
+
+02:02.704 --> 02:04.120
+And then maybe
+take the derivative
+
+02:04.120 --> 02:06.870
+of that relationship,
+possibly using the chain rule,
+
+02:06.870 --> 02:09.684
+to come up with a relationship
+between the rate at which
+
+02:09.684 --> 02:12.100
+the volume is changing and the
+rate at which the height is
+
+02:12.100 --> 02:13.250
+changing.
+
+02:13.250 --> 02:14.900
+So let's try to do
+it step by step.
+
+02:14.900 --> 02:17.024
+So first of all, can we
+come up with a relationship
+
+02:17.024 --> 02:21.220
+between the volume and the
+height at any given moment?
+
+02:21.220 --> 02:23.550
+Well we have also
+been given the formula
+
+02:23.550 --> 02:25.690
+for the volume of a
+cone right over here.
+
+02:25.690 --> 02:28.480
+The volume of a cone
+is 1/3 times the area
+
+02:28.480 --> 02:30.485
+of the base of the
+cone, times the height.
+
+02:30.485 --> 02:32.110
+And we won't prove
+it here, although we
+
+02:32.110 --> 02:33.110
+could prove it later on.
+
+02:33.110 --> 02:36.330
+Especially when we start
+doing solids of revolutions
+
+02:36.330 --> 02:38.700
+within in integral calculus.
+
+02:38.700 --> 02:40.450
+But we'll just take
+it on faith right now,
+
+02:40.450 --> 02:44.340
+that this is how we can figure
+out the volume of a cone.
+
+02:44.340 --> 02:47.280
+So given this can we
+figure out volume--
+
+02:47.280 --> 02:49.710
+can we figure out an
+expression that relates volume
+
+02:49.710 --> 02:51.470
+to the height of the cone?
+
+02:51.470 --> 02:53.200
+Well we could say
+that volume-- and I'll
+
+02:53.200 --> 02:56.380
+do it in this blue color--
+the volume of water
+
+02:56.380 --> 02:57.980
+is what we really care about.
+
+02:57.980 --> 03:00.740
+The volume of water
+is going to be
+
+03:00.740 --> 03:07.950
+equal to 1/3 times the area
+of the surface of the water--
+
+03:07.950 --> 03:16.890
+area of water surface-- times
+our height of the water.
+
+03:16.890 --> 03:18.710
+So times h.
+
+03:18.710 --> 03:21.010
+So how can we figure out the
+area of the water surface,
+
+03:21.010 --> 03:23.320
+preferably in terms of h?
+
+03:23.320 --> 03:25.290
+Well we see right over
+here, the diameter
+
+03:25.290 --> 03:27.920
+across the top of the
+cone is 4 centimeters.
+
+03:27.920 --> 03:31.840
+And the height of the
+whole cup is 4 centimeters.
+
+03:31.840 --> 03:34.600
+And so that ratio is
+going to be true of any--
+
+03:34.600 --> 03:36.100
+at any depth of water.
+
+03:36.100 --> 03:39.100
+It's always going to have the
+same ratio between the diameter
+
+03:39.100 --> 03:41.140
+across the top and the height.
+
+03:41.140 --> 03:43.230
+Because these are
+lines right over here.
+
+03:43.230 --> 03:47.290
+So at any given point, the
+ratio between this and this
+
+03:47.290 --> 03:48.420
+is going to be the same.
+
+03:48.420 --> 03:50.530
+So at any given
+point, the diameter
+
+03:50.530 --> 03:53.500
+across the surface of the
+water-- if the depth is h,
+
+03:53.500 --> 03:55.370
+the diameter across the
+surface of the water
+
+03:55.370 --> 03:57.690
+is also going to be h.
+
+03:57.690 --> 03:59.112
+And so from that
+we can figure out
+
+03:59.112 --> 04:00.570
+what are the radius
+is going to be.
+
+04:00.570 --> 04:02.730
+The radius is going
+to be h over 2.
+
+04:02.730 --> 04:05.060
+And so the area of
+the water surface
+
+04:05.060 --> 04:10.500
+is going to be pi r squared,
+pi times the radius squared.
+
+04:10.500 --> 04:13.490
+h over 2 squared.
+
+04:13.490 --> 04:15.670
+That's the area of the
+surface of the water.
+
+04:15.670 --> 04:17.810
+And of course we still
+have the 1/3 out here.
+
+04:17.810 --> 04:21.980
+And we're still multiplying
+by this h over here.
+
+04:21.980 --> 04:23.900
+So let me see if I
+can simplify this.
+
+04:23.900 --> 04:33.530
+So this gives us 1/3 times pi h
+squared over 4 times another h,
+
+04:33.530 --> 04:42.350
+which is equal to-- we have pi,
+h to the third power over 12.
+
+04:42.350 --> 04:45.600
+So that is our volume.
+
+04:45.600 --> 04:48.930
+Now what we want to do is relate
+the volume, how fast the volume
+
+04:48.930 --> 04:50.510
+is changing with
+respect to time,
+
+04:50.510 --> 04:53.210
+and how fast the height is
+changing with respect to time.
+
+04:53.210 --> 04:55.877
+So we care with respect to
+time, since we care so much
+
+04:55.877 --> 04:57.710
+about what's happening
+with respect to time,
+
+04:57.710 --> 05:00.290
+let's take the derivative of
+both sides of this equation
+
+05:00.290 --> 05:01.529
+with respect to time.
+
+05:01.529 --> 05:03.820
+To do that, and just so I
+have enough space to do that,
+
+05:03.820 --> 05:05.240
+let me move this over.
+
+05:05.240 --> 05:08.420
+Let me move this over to
+the right a little bit.
+
+05:08.420 --> 05:10.580
+So I just move this
+over to the right.
+
+05:10.580 --> 05:13.310
+And so now we can take the
+derivative with respect
+
+05:13.310 --> 05:16.350
+to time of both sides
+of this business.
+
+05:16.350 --> 05:21.010
+So the derivative with
+respect to time of our volume
+
+05:21.010 --> 05:24.839
+and the derivative with respect
+to time of this business.
+
+05:24.839 --> 05:27.130
+Well the derivative with
+respect to time of our volume,
+
+05:27.130 --> 05:30.850
+we could just rewrite that as dV
+dt, this thing right over here.
+
+05:30.850 --> 05:36.850
+This is dV dt, and
+this is going to be
+
+05:36.850 --> 05:39.404
+equal to-- well we could
+take the constants out
+
+05:39.404 --> 05:41.320
+of this-- this is going
+to be equal to pi over
+
+05:41.320 --> 05:52.300
+12 times the derivative
+with respect to t of h, of h
+
+05:52.300 --> 05:55.620
+to the third power.
+
+05:55.620 --> 05:57.930
+And just so that the
+next few things I do
+
+05:57.930 --> 05:59.539
+will appear a
+little bit clearer,
+
+05:59.539 --> 06:01.580
+we're assuming that height
+is a function of time.
+
+06:01.580 --> 06:02.780
+In fact, it's definitely
+a function of time.
+
+06:02.780 --> 06:04.750
+As time goes on, the
+height will change.
+
+06:04.750 --> 06:06.960
+Because we're pouring
+more and more water here.
+
+06:06.960 --> 06:09.210
+So instead of just writing
+h to the third power, which
+
+06:09.210 --> 06:12.770
+I could write over here,
+let me write h of t
+
+06:12.770 --> 06:13.620
+to the third power.
+
+06:13.620 --> 06:16.822
+Just to make it clear that
+this is a function of t.
+
+06:16.822 --> 06:21.160
+h of t to the third power.
+
+06:21.160 --> 06:23.430
+Now what is the derivative
+with respect to t,
+
+06:23.430 --> 06:26.300
+of h of t to the third power.
+
+06:26.300 --> 06:28.190
+Now, you might be getting
+a tingling feeling
+
+06:28.190 --> 06:31.710
+that the chain rule
+might be applicable here.
+
+06:31.710 --> 06:33.846
+So let's think about
+the chain rule.
+
+06:33.846 --> 06:36.220
+The chain rule tells us-- let
+me rewrite everything else.
+
+06:36.220 --> 06:43.070
+dV with respect to t, is going
+to be equal to pi over 12,
+
+06:43.070 --> 06:45.320
+times the derivative of
+this with respect to t.
+
+06:45.320 --> 06:47.570
+If we want to take the
+derivative of this with respect
+
+06:47.570 --> 06:49.630
+to t, we have something
+to the third power.
+
+06:49.630 --> 06:52.580
+So we want to take the
+derivative of something
+
+06:52.580 --> 06:54.750
+to the third power with
+respect to something.
+
+06:54.750 --> 06:56.670
+So that's going to
+be-- let me write
+
+06:56.670 --> 06:59.350
+this in a different color,
+maybe in orange-- so that's
+
+06:59.350 --> 07:06.460
+going to be 3 times
+our something squared,
+
+07:06.460 --> 07:11.840
+times the derivative of that
+something, with respect to t.
+
+07:11.840 --> 07:21.770
+Times dh-- I've already used
+that pink-- times dh dt.
+
+07:21.770 --> 07:23.250
+Let's just be very clear.
+
+07:23.250 --> 07:25.610
+This orange term right
+over here-- and I'm
+
+07:25.610 --> 07:32.760
+just using the chain rule--
+this is the derivative of h of t
+
+07:32.760 --> 07:38.550
+to the third power
+with respect to h of t.
+
+07:38.550 --> 07:41.990
+And then we're going to multiply
+that times the derivative of h
+
+07:41.990 --> 07:46.520
+of t with respect to t.
+
+07:46.520 --> 07:48.290
+And then that gives
+us the derivative
+
+07:48.290 --> 07:52.081
+of this entire thing, h of t to
+the third power, with respect
+
+07:52.081 --> 07:52.580
+to t.
+
+07:52.580 --> 07:56.800
+This will give us
+the derivative of h
+
+07:56.800 --> 08:03.630
+of t to the third power with
+respect to d with respect
+
+08:03.630 --> 08:05.090
+to t, which is
+exactly what we want
+
+08:05.090 --> 08:06.740
+to do when we apply
+this operator.
+
+08:06.740 --> 08:08.480
+How fast is this changing?
+
+08:08.480 --> 08:11.510
+How is this changing
+with respect to time?
+
+08:11.510 --> 08:13.172
+So we can just
+rewrite this, just
+
+08:13.172 --> 08:14.380
+so gets a little bit cleaner.
+
+08:14.380 --> 08:15.879
+Let me rewrite
+everything I've done.
+
+08:15.879 --> 08:18.640
+So we've got dV, the rate
+at which our volume is
+
+08:18.640 --> 08:20.570
+changing with respect to time.
+
+08:20.570 --> 08:24.050
+The rate at which our volume is
+changing with respect to time
+
+08:24.050 --> 08:31.460
+is equal to pi over 12
+times 3 h of t squared,
+
+08:31.460 --> 08:36.289
+or I could just write
+that as 3h squared,
+
+08:36.289 --> 08:38.929
+times the rate at which
+the height is changing
+
+08:38.929 --> 08:41.960
+with respect to
+time, times dh dt.
+
+08:47.222 --> 08:48.680
+And you might be
+a little confused.
+
+08:48.680 --> 08:52.670
+You might have been tempted to
+take the derivative over here
+
+08:52.670 --> 08:53.607
+with respect to h.
+
+08:53.607 --> 08:55.190
+But remember, we're
+thinking about how
+
+08:55.190 --> 08:57.890
+things are changing
+with respect to time.
+
+08:57.890 --> 09:00.010
+So we're assuming--
+we did express volume
+
+09:00.010 --> 09:01.820
+as a function of
+height-- but we're
+
+09:01.820 --> 09:03.820
+saying that height itself
+is a function of time.
+
+09:03.820 --> 09:05.653
+So we're taking the
+derivative of everything
+
+09:05.653 --> 09:06.790
+with respect to time.
+
+09:06.790 --> 09:08.900
+So that's why the chain
+rule came into play
+
+09:08.900 --> 09:10.690
+when we were taking
+the derivative of h,
+
+09:10.690 --> 09:12.740
+or the derivative of
+h of t, because we're
+
+09:12.740 --> 09:15.230
+assuming that h is
+a function of time.
+
+09:15.230 --> 09:18.740
+Now what does this thing
+right over here get us?
+
+09:18.740 --> 09:20.660
+Well we're telling us
+at the exact moment
+
+09:20.660 --> 09:22.880
+that we set up this
+problem, we know
+
+09:22.880 --> 09:27.900
+what dV dt is, we know that it's
+1 centimeter cubed per second.
+
+09:27.900 --> 09:29.530
+We know that this
+right over here
+
+09:29.530 --> 09:33.620
+is 1 centimeter
+cubed per second.
+
+09:33.620 --> 09:35.620
+We know what our height
+is right at this moment.
+
+09:35.620 --> 09:37.090
+We were told it
+is 2 centimeters.
+
+09:43.240 --> 09:45.200
+So the only unknown
+we have over here
+
+09:45.200 --> 09:46.750
+is the rate at
+which our height is
+
+09:46.750 --> 09:48.070
+changing with respect to time.
+
+09:48.070 --> 09:50.320
+Which is exactly what
+we needed to figure out
+
+09:50.320 --> 09:51.834
+in the first place.
+
+09:51.834 --> 09:53.250
+So we just have
+to solve for that.
+
+09:53.250 --> 09:55.870
+So we get 1 cubic
+centimeter-- let
+
+09:55.870 --> 10:01.220
+me make it clear-- we get 1
+cubic centimeter per second--
+
+10:01.220 --> 10:03.520
+I won't write the units
+to save some space-- is
+
+10:03.520 --> 10:05.306
+equal to pi over 2.
+
+10:05.306 --> 10:06.930
+And I'll write this
+in a neutral color.
+
+10:06.930 --> 10:08.638
+Actually, let me write
+in the same color.
+
+10:08.638 --> 10:15.480
+Is equal to pi over 2,
+times 3, times h squared.
+
+10:15.480 --> 10:18.616
+h is 2 so you're going to get
+4 squared centimeters if we
+
+10:18.616 --> 10:19.420
+kept the units.
+
+10:19.420 --> 10:21.674
+So 3 times 4.
+
+10:21.674 --> 10:23.340
+All right let me be
+careful, that wasn't
+
+10:23.340 --> 10:25.765
+pi over 2, that was pi over 12.
+
+10:25.765 --> 10:29.780
+This is a pi over
+12 right over here.
+
+10:29.780 --> 10:39.350
+So you get pi over 12, times 3
+times 2 squared, times dh dt.
+
+10:39.350 --> 10:41.020
+All of this is equal to 1.
+
+10:41.020 --> 10:42.920
+So now I'll switch
+to a neutral color.
+
+10:42.920 --> 10:46.130
+We get 1 is equal to,
+well 3 times 4 is 12,
+
+10:46.130 --> 10:47.710
+cancels out with that 12.
+
+10:47.710 --> 10:51.800
+We get one is equal
+to pi times dh dt.
+
+10:51.800 --> 10:54.770
+To solve for dh dt
+divide both sides by pi.
+
+10:54.770 --> 10:57.162
+And we get our drum roll now.
+
+10:57.162 --> 10:59.370
+The rate at which our height
+is changing with respect
+
+10:59.370 --> 11:03.260
+to time as we're putting 1 cubic
+centimeter of water per second
+
+11:03.260 --> 11:03.910
+in.
+
+11:03.910 --> 11:05.987
+And right when our height
+is 2 centimeters high,
+
+11:05.987 --> 11:08.570
+the rate at which this height
+is changing with respect to time
+
+11:08.570 --> 11:13.330
+is 1 over pi.
+
+11:13.330 --> 11:15.330
+And I haven't done the
+dimensional analysis
+
+11:15.330 --> 11:19.486
+but this is going to be
+in centimeters per second.
+
+11:19.486 --> 11:21.360
+You can work through
+the dimensional analysis
+
+11:21.360 --> 11:24.250
+if you like by putting in the
+dimensions right over here.
+
+11:24.250 --> 11:25.610
+But there you have it.
+
+11:25.610 --> 11:27.890
+That's how fast
+our height is going
+
+11:27.890 --> 11:31.790
+to be changing at
+exactly that moment.

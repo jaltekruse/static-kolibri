@@ -1,0 +1,409 @@
+WEBVTT
+
+00:00.320 --> 00:02.250
+Məhəmməd hər il bağçada olan ağacların
+
+00:02.250 --> 00:05.019
+yarpaqlarını saymağa qərar verdi.
+
+00:05.176 --> 00:08.372
+İlk il 500 yarpaq var idi.
+
+00:08.853 --> 00:10.580
+Növbəti illərdə yarpaqların sayı
+
+00:10.580 --> 00:14.101
+əvvəlki ilə nisbətən 40% çox idi.
+
+00:14.481 --> 00:17.325
+n müsbət tam ədəddir.
+
+00:17.325 --> 00:19.215
+f(n) isə hər n-ci ildə
+
+00:19.215 --> 00:22.634
+ağacda olan yarpaqların sayını
+bildirir.
+
+00:23.339 --> 00:26.840
+f(n) ifadəsi silsilədir.
+
+00:26.894 --> 00:29.339
+f(n) necə silsilədir?
+
+00:29.719 --> 00:31.059
+Bəziləriniz bunu
+
+00:31.059 --> 00:31.933
+şifahi həll edə bilər.
+
+00:31.933 --> 00:34.473
+Hər növbəti il 40% artım olur.
+
+00:34.473 --> 00:36.978
+Bu o deməkdir ki, ədədi 1,4-ə vururuq.
+
+00:37.276 --> 00:39.450
+Hər növbəti həddi eyni ədədə vurururq və ya
+
+00:39.450 --> 00:41.844
+bölürük.
+
+00:41.844 --> 00:43.126
+Bu, həndəsi silsilədir.
+
+00:43.567 --> 00:45.219
+Gəlin bunu bir qədər
+
+00:45.416 --> 00:46.641
+aydınlaşdıraq.
+
+00:46.675 --> 00:48.998
+Burada bir cədvəl çəkək.
+
+00:49.865 --> 00:51.558
+Belə bir cədvəl.
+
+00:51.714 --> 00:54.890
+Bu n, bu isə f(n)-dir.
+
+00:55.351 --> 00:57.084
+n = 1 olduqda,
+
+00:57.139 --> 00:59.989
+yəni birinci il həyətdə 500 yarpaq var idi.
+
+01:00.308 --> 01:01.838
+f(n) = 500.
+
+01:02.340 --> 01:03.681
+n = 2 olduqda, yarpaqların sayında
+
+01:03.681 --> 01:05.875
+40% artım olur, yəni say
+
+01:05.875 --> 01:08.035
+1,4-ə vurulur.
+
+01:08.760 --> 01:12.327
+500 vur 1,4.
+500-ün 40%-i = 200.
+
+01:12.327 --> 01:14.298
+Yəni 200 yarpaq artım olacaq.
+
+01:14.298 --> 01:16.011
+Deməli, ümumi 700 yarpaq olacaq.
+
+01:16.431 --> 01:19.194
+Üçüncü il yenə 40% artım olacaq.
+
+01:19.194 --> 01:23.981
+700-ün 40%-i = 280.
+Ümumi 980 yarpaq olacaq.
+
+01:23.981 --> 01:28.376
+Gördüyünüz kimi bu, ədədi silsilə deyil.
+
+01:28.573 --> 01:30.300
+Ədədi silsilədə əvvəlki ədədə eyni vahid
+artırılır və ya
+
+01:30.300 --> 01:32.425
+əvvəlki ədəddən eyni vahid
+
+01:32.425 --> 01:33.198
+çıxılır.
+
+01:33.198 --> 01:35.371
+500-dən 700-ə 200 artım,
+
+01:35.371 --> 01:37.856
+700-dən 980-ə 280 artım olub.
+
+01:38.135 --> 01:40.085
+Əvvəlki hədd eyni miqdara ya vurulur,
+
+01:40.085 --> 01:41.467
+ya da bölünür.
+
+01:41.467 --> 01:43.748
+Bu nümunədə əvvəlki həddi hər dəfə
+
+01:44.067 --> 01:45.861
+1,4-ə vururuq.
+
+01:45.916 --> 01:47.751
+Deməli bu silsilə həndəsidir.
+
+01:47.968 --> 01:49.756
+Yuxarıdakı sualın cavabından asılı olaraq,
+
+01:49.756 --> 01:51.869
+silsənin tərifi aşağıdakı iki formanın
+
+01:51.869 --> 01:53.535
+biri ola bilər.
+
+01:53.535 --> 01:55.221
+Bu, ədədi silsilədir.
+
+01:55.221 --> 01:57.009
+Bu nümunədə ondan istifadə edilmir,
+
+01:57.009 --> 01:58.437
+həndəsi silsilədən istifadə edilir.
+
+01:59.264 --> 02:01.215
+Bu silsilədə
+
+02:01.215 --> 02:03.551
+A və B-nin qiymətləri nəyə bərabərdir?
+
+02:03.551 --> 02:06.842
+Bu məsələdə n = 1 olduqda,
+
+02:06.842 --> 02:09.246
+f(n) A-ya bərabər olacaq.
+
+02:09.484 --> 02:11.190
+Bildiyimiz kimi n = 1 olduqda,
+
+02:11.190 --> 02:14.400
+ağacda 500 yarpaq var idi.
+
+02:14.400 --> 02:18.912
+Odur ki, A = 500.
+
+02:19.637 --> 02:21.226
+Sonra isə bu cavaba əsasən
+
+02:21.226 --> 02:22.485
+növbəti illərin
+
+02:22.485 --> 02:24.720
+sayı hesablana bilər.
+
+02:24.720 --> 02:27.814
+Əvvəlki həddi neçəyə vurmalıyıq?
+
+02:28.418 --> 02:31.039
+Növbəti illərdə əvvəlkinə nisbətən
+40% artım olur.
+
+02:31.039 --> 02:34.860
+Yəni əvvəlki həddi 1,4-ə vurmalıyıq.
+
+02:34.935 --> 02:37.989
+B = 1,4.
+
+02:38.023 --> 02:39.445
+Növbəti illərdəki yarpaqların
+sayını tapmaq üçün
+
+02:39.445 --> 02:41.565
+əvvəlki illəri 1,4-ə
+
+02:41.640 --> 02:43.291
+vurmalıyıq.
+
+02:43.712 --> 02:46.989
+B = 1,4. Bu qədər.
+
+02:47.389 --> 02:48.425
+Başqa bir nümunəyə baxaq.
+
+02:48.425 --> 02:49.915
+Maraqlı çalışmadır.
+
+02:50.538 --> 02:55.089
+Ceyhun şənlik təşkil edir.
+
+02:55.089 --> 02:58.597
+Onun ümumi 50 içkisi var idi.
+
+02:58.597 --> 03:01.502
+O, şənliyə gələn hər qonağa
+
+03:01.502 --> 03:03.112
+3 içki verdi.
+
+03:03.473 --> 03:07.150
+n müsbət tam ədəddir.
+
+03:07.150 --> 03:10.706
+g(n) isə şənliyə gələn hər n-ci qonaqdan öncə
+
+03:10.706 --> 03:12.906
+Ceyhunda olan içkilərin sayını bildirir.
+
+03:14.078 --> 03:16.090
+Suala baxmazdan əvvəl
+
+03:16.090 --> 03:17.431
+buraya bir cədvəl
+
+03:17.431 --> 03:18.818
+çəkək.
+
+03:18.833 --> 03:21.561
+Cavabı tapmaq üçün
+məsələni düzgün anlamalıyıq.
+
+03:22.551 --> 03:25.476
+Bu n-dir.
+
+03:26.202 --> 03:28.122
+Burada isə g(n) qiymətlərini
+
+03:28.122 --> 03:29.213
+qeyd edək.
+
+03:29.532 --> 03:31.610
+n = 1 olduqda,
+
+03:32.234 --> 03:34.407
+g(n), başqa sözlə desək,
+
+03:34.407 --> 03:37.012
+g(1) ilk qonaq gəlməzdən əvvəl
+
+03:37.012 --> 03:40.005
+Ceyhunda olan içkilərin sayına bərabərdir.
+
+03:40.730 --> 03:43.824
+İlk qonaqdan əvvəl ümumi
+
+03:44.428 --> 03:45.775
+50 içki var idi.
+
+03:46.317 --> 03:48.740
+Sonra ikinci qonaq gəldi.
+
+03:48.755 --> 03:50.584
+İkinci qonaqdan əvvəl
+
+03:50.584 --> 03:54.444
+Ceyhunda olan içkilərin sayını tapaq.
+
+03:54.444 --> 03:56.313
+O, birinci qonağa 3 içki vermişdi.
+
+03:56.313 --> 03:58.676
+Yəni onun 47 içkisi qalmışdı.
+
+03:59.320 --> 04:00.824
+n= 3 olduqda,
+
+04:00.824 --> 04:02.429
+3-cü qonaqdan əvvəl Ceyhunun
+
+04:02.429 --> 04:04.568
+nə qədər içkisi var idi?
+
+04:04.928 --> 04:06.390
+Belə ki, birinci və ikinci qonaqların
+
+04:06.390 --> 04:08.835
+hər birinə 3 içki verilmişdi.
+
+04:09.194 --> 04:13.486
+Yəni 44 içki qalmışdı.
+
+04:13.928 --> 04:17.022
+n = 1 olduqda, g(n) = 50.
+
+04:17.199 --> 04:19.596
+Hər dəfə n-i bir vahid artırırıq.
+
+04:19.596 --> 04:23.497
+n 1 vahid artdıqda,
+
+04:23.497 --> 04:28.237
+g(n) 3 vahid azalır.
+
+04:28.475 --> 04:30.838
+Çünki hər qonağa 3 içki verilir.
+
+04:31.665 --> 04:32.646
+Çıx 3.
+
+04:33.006 --> 04:35.058
+Ardıcıl hədlər arasındakı fərq
+
+04:35.058 --> 04:37.460
+eyni olduğundan
+bu, ədədi silsilədir.
+
+04:38.349 --> 04:40.034
+Bu ədədi silsilənin
+
+04:40.034 --> 04:42.499
+düsturunu yazmalıyıq.
+
+04:43.055 --> 04:44.680
+Bu haqda düşünək.
+
+04:44.680 --> 04:48.242
+g(n)-in nəyə bərabər olduğunu yazmalıyıq.
+
+04:48.256 --> 04:49.949
+50-dən başlayırıq.
+
+04:50.207 --> 04:53.590
+Hər dəfə 3 çıxırıq.
+
+04:53.590 --> 04:56.787
+Hər dəfə 3 vur n çıxmalıyıq?
+
+04:57.492 --> 04:59.503
+İlk qonaq üçün
+
+04:59.503 --> 05:01.318
+0 dəfə 3 çıxırıq.
+
+05:01.921 --> 05:04.406
+İkinci qonaq üçün bir dəfə 3 çıxırıq.
+
+05:04.928 --> 05:07.941
+Üçüncü qonaq üçün iki dəfə
+3 çıxırıq.
+
+05:08.463 --> 05:11.125
+n-ci qonaq üçün n - 1 dəfə
+
+05:11.125 --> 05:13.081
+3 çıxmalıyıq.
+
+05:13.380 --> 05:15.966
+n-ci qonaq üçün bu qədər 3 çıxırıq.
+
+05:16.203 --> 05:19.237
+İkinci qonaq üçün 1 dəfə 3 çıxırıq.
+
+05:19.495 --> 05:21.573
+Birinici qonaq üçün 0 dəfə
+
+05:21.669 --> 05:22.590
+3 çıxılır.
+
+05:22.888 --> 05:25.576
+Birinci qonaqda 0 dəfə 3 çıxıldığı üçün
+
+05:25.732 --> 05:27.405
+g(n) 50-ə bərabər olur.
+
+05:27.663 --> 05:29.782
+Bu ardıcıl olaraq belə davam edir.
+
+05:30.101 --> 05:34.372
+Bunu 50 - 3 vur (n - 1) kimi yaza bilərik.
+
+05:34.408 --> 05:35.871
+Bu məsələnin daha asan
+
+05:35.871 --> 05:37.740
+həll olunması üçün
+
+05:37.740 --> 05:40.915
+cədvəl çəkməyinizi məsləhət görürəm.

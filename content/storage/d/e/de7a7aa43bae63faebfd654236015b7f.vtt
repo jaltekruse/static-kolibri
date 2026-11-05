@@ -1,0 +1,202 @@
+WEBVTT
+
+00:00.667 --> 00:06.764
+Dans la vidéo dernière, nous espérons mette en place l'intuition pour expliquer pourquoi - ou je devrais dire que - la série Maclaurin
+
+00:06.764 --> 00:11.733
+est tout au sujet, et j'ai dit à la fin des vidéos qu'une série Maclaurin est simplement un cas particulier
+
+00:11.733 --> 00:15.800
+d'une série Taylor. Dans le cas d'une série Maclaurin, nous rapprochant
+
+00:15.800 --> 00:22.800
+cette function autour de x est égal à 0, et une série de Taylor, et nous allons en parler dans une vidéo à l'avenir,
+
+00:22.800 --> 00:29.800
+vous pouvez choisir un valeur arbitraire de x - ou un valeur f(x), autour de laquelle se rapprocher de la fonction.
+
+00:29.800 --> 00:34.133
+Mais, avec cela dit, concentrons-nous sur Maclaurin, parce que, dans une mesure certaine, il est un peu plus simple.,
+
+00:34.133 --> 00:39.800
+et que, par elle-même, peut nous mener à des conclusions profonds sur les mathématiques,
+
+00:39.800 --> 00:41.733
+et, en effet, c'est ce que je suis en train d'y aller.
+
+00:41.733 --> 00:45.133
+Donc, prenons la série de Maclurin des certains fonctions intéressantes,
+
+00:45.133 --> 00:48.359
+et je vais faire des fonctions où il est assez facile de prendre les produits dérivés, et vous pouvez
+
+00:48.359 --> 00:53.067
+garder prender leurs produits dérivés encore et encore et encore et encore et encore.
+
+00:53.067 --> 01:01.733
+Prenons la série de cosinus de x, donc si f(x)=cos(x)
+
+01:01.733 --> 01:06.867
+puis - avant même que je appliquer cette formule, que nous avons triés un peu dans la dernière vidéo,
+
+01:06.867 --> 01:08.800
+ou tous au moins eu l'intuition dans la dernière vidéo,
+
+01:08.800 --> 01:13.067
+prenons un groupe de produits dérivés de f(x), afin que nous avons une bonne idée de celui-ci.
+
+01:13.067 --> 01:20.467
+Donc, si nous prenons la dérivée première, dérivée de cos(x)=-sin(x)
+
+01:20.467 --> 01:25.800
+si nous prenons la dérivée de cela, si nous prenons la dérivée de cela
+
+01:25.800 --> 01:30.467
+dérivée de sin(x) est cos(x) et nous avons la négatif-la, donc il est -cos(x)
+
+01:30.467 --> 01:35.867
+donc si nous prenons la dérivée de cela, c'est la troisième dérivée de cos(x),
+
+01:35.867 --> 01:41.067
+maintenant, il va être simplement positive sin de x, et si nous prenons la dérivée de cela
+
+01:41.067 --> 01:42.733
+nous obtenons cos(x) encore.
+
+01:42.733 --> 01:47.800
+Nous obtenons le cosinus de x encore. Donc, si nous prenons la dérivée de cela
+
+01:47.800 --> 01:50.200
+c'est la quatrième dérivée, je devrais, je devrais utiliser cette notation
+
+01:50.200 --> 01:52.867
+mais vous voyez l'idée, nous aurons cos(x) encore.
+
+01:52.867 --> 01:57.733
+Et si vous regardez ce que nous avons parlé dans la dernière vidéo, nous voulons la différence, nous voulons
+
+01:57.733 --> 02:01.200
+la fonction, et nous voulons les dérivées différents évalués à 0,
+
+02:01.200 --> 02:10.800
+donc nous allons l'évaluer à 0. Donc f(0), cos(0) est 1, cosinus de zéro est un.
+
+02:10.800 --> 02:15.133
+Que vous parlez de zéro radian ou de zéro degré, n'a pas d'importance,
+
+02:15.133 --> 02:28.467
+sinus de zéro est zéro, donc ce n'est f premier de - f premier de zéro, est zéro. Et puis cos(0)
+
+02:28.467 --> 02:32.867
+est, encore une fois, une, mais nous avons le négatif là-bas, de sorte qu'il devient négatif un.
+
+02:32.867 --> 02:37.467
+Donc f- la deuxième dérivée évaluée à zéro est un négatif.
+
+02:37.467 --> 02:42.800
+Prenons la troisième dérivée, la troisième dérivée évaluée à 0
+
+02:42.800 --> 02:48.000
+ainsi, sinus de zéro est seulement zéro, et puis la quatrième dérivée évaluée à zéro,
+
+02:48.000 --> 02:54.467
+cosinus de zéro est un. Donc f premier premier premier à zéro est égal à un.
+
+02:54.467 --> 02:57.800
+Donc, vous voyez un modèle intéressant ici - un, zéro, négatif un, zéro, un,
+
+02:57.800 --> 03:00.133
+puis vous allez à zéro, puis vous allez à un négatif un, zéro.
+
+03:00.133 --> 03:05.600
+Donc, si nous devions l'appliquer à trouver sa représentation Maclaurin, que ferions-nous obtenir?
+
+03:05.600 --> 03:12.133
+Permettez-moi de faire ma meilleure tentative à ce. Donc nous aurions notre polynôme serait
+
+03:12.133 --> 03:19.533
+si notre approximation polynôme de cosinus de x va être f(0),
+
+03:19.533 --> 03:28.600
+f(0) est un, et puis nous avons un plus f'(0) fois x.
+
+03:28.600 --> 03:33.600
+Mais f'(0) est seulement zéro, nous n'allons pas avoir ce terme là-bas, ça va être
+
+03:33.600 --> 03:38.800
+zéro fois x, je vais même pas prendre la piene de l'écrire, il sérait cette zéro
+
+03:38.800 --> 03:44.133
+fois x, puis plus f premier premier ou la deuxième dérivée, qui est un négatif un,
+
+03:44.133 --> 03:49.467
+donc je vais écrie négatif - négatif, c'est un négatif un ici,
+
+03:49.467 --> 03:53.133
+c'est un négatif un, fois x au carré, fois x au carré,
+
+03:53.133 --> 03:59.600
+plus deux factorielle - plus deux factorielle, qui dans ce cas va être juste deux.
+
+03:59.600 --> 04:04.333
+Mais je vais l'écrire ici que deux factorielle, pour faire le patron un peu plus évident,
+
+04:04.333 --> 04:09.333
+et ensuite nous passerons au terme suivant, la troisième dérivée évaluée à zéro
+
+04:09.333 --> 04:14.200
+mais la troisième dérivée évaluée à zéro est just zéro, donc cee terme ne sera pas là aussi,
+
+04:14.200 --> 04:19.431
+puis vous passez à la quatrième dérivée, la quatrième dérivée évaluée à zéro est positif un,
+
+04:19.431 --> 04:23.733
+si cet coefficient ici va être un, et puis vous allez avoir
+
+04:23.733 --> 04:30.533
+un fois x pour la quatrième plus de quatre factorielle,
+
+04:30.533 --> 04:33.000
+et je pense que vous commencez à voir un modèle maintenant.
+
+04:33.000 --> 04:36.600
+Vous avez commutateurs signe - et vous verriez cela si nous avons continué, donc,
+
+04:36.600 --> 04:39.133
+vous pouvez le vérifier par vous-même si vous ne me croyez pas-
+
+04:39.133 --> 04:44.200
+vous avez un signe positif, un signe négatif, un signe positif, et puis un
+
+04:44.200 --> 04:50.067
+signe négatif, ainsi de suite et ainsi de suite, et c'est un fois x à la puissance 0e,
+
+04:50.067 --> 04:54.800
+puis vous sautez deux à x au carré, sauter deux à x à la quatrième, et
+
+04:54.800 --> 04:58.267
+si nous avons gardé jusqu'à ce que, nous aurions un signe positif, maintenant nous avons un signe négatif,
+
+04:58.267 --> 05:03.267
+il serait x à la sixième plus de six factorielle, alors vous avez un signe positif,
+
+05:03.267 --> 05:07.800
+x à l'huitième plus de huit factorielle, alors vous auriez un signe négatif,
+
+05:07.800 --> 05:13.867
+x à la dixième plus de dix factorielle, et vous pouvez continuer simplement de cette façon.
+
+05:13.867 --> 05:18.867
+Et si vous avez continuer avec cette série, ce serait la représentation polynominale de
+
+05:18.867 --> 05:23.533
+cosinus de x. Et c'est franchement cool qu'il peut être représentée en cette façon.
+
+05:23.533 --> 05:27.600
+C'est un modèle assez simple pour une fonction trigonométrique.
+
+05:27.600 --> 05:30.800
+Encore une fois, il sorte de vous dit que tous ces calculs est connecté. Et nous verrions,
+
+05:30.800 --> 3:59:59.999
+deux ou trois vidéos à partir de maintenant, il est connecté de manière beaucoup plus profonds que vous pouvez imaginer.

@@ -1,0 +1,445 @@
+WEBVTT
+
+00:00.560 --> 00:03.660
+So this red curve is
+the graph of f of x.
+
+00:03.660 --> 00:06.910
+And this blue curve is
+the graph of g of x.
+
+00:06.910 --> 00:10.275
+And I want to try to express
+g of x in terms of f of x.
+
+00:10.275 --> 00:12.280
+And so let's see
+how they're related.
+
+00:12.280 --> 00:13.750
+So we pick any x.
+
+00:13.750 --> 00:17.320
+And we could start right
+here at the vertex of f of x.
+
+00:17.320 --> 00:19.520
+And we see that, at least
+at that point, g of x
+
+00:19.520 --> 00:22.260
+is exactly 1 higher than that.
+
+00:22.260 --> 00:30.200
+So g of 2-- I could
+write this down-- g of 2
+
+00:30.200 --> 00:36.130
+is equal to f of 2 plus 1.
+
+00:36.130 --> 00:38.149
+Let's see if that's
+true for any x.
+
+00:38.149 --> 00:39.690
+So then we can just
+sample over here.
+
+00:39.690 --> 00:43.310
+Let's see, f of 4
+is right over here.
+
+00:43.310 --> 00:46.360
+g of 4 is one more than that.
+
+00:46.360 --> 00:49.840
+f of 6 is right here.
+
+00:49.840 --> 00:52.451
+g of 6 is 1 more than that.
+
+00:52.451 --> 00:54.700
+So it looks like if we pick
+any point over here-- even
+
+00:54.700 --> 00:56.100
+though there's a little bit
+of an optical illusion--
+
+00:56.100 --> 00:57.725
+it looks like they
+get closer together.
+
+00:57.725 --> 00:59.659
+They do if you look
+try to find the closest
+
+00:59.659 --> 01:00.700
+distance between the two.
+
+01:00.700 --> 01:02.199
+But if you look at
+vertical distance
+
+01:02.199 --> 01:05.750
+you see that it
+stays a constant 1.
+
+01:05.750 --> 01:07.545
+So we can actually
+generalize this.
+
+01:07.545 --> 01:11.100
+This is true for
+any x. g of x is
+
+01:11.100 --> 01:16.850
+equal to f of x is
+equal to f of x plus 1.
+
+01:16.850 --> 01:19.160
+Let's do a few more
+examples of this.
+
+01:19.160 --> 01:22.920
+So right over here, here
+is f of x in red again,
+
+01:22.920 --> 01:25.060
+and here is g of x.
+
+01:25.060 --> 01:28.400
+And so let's say we picked
+x equals negative 4.
+
+01:28.400 --> 01:30.340
+This is f of negative 4.
+
+01:30.340 --> 01:34.890
+And we see g of negative
+4 is 2 less than that.
+
+01:34.890 --> 01:38.630
+And we see whatever f of
+x is, g of x-- no matter
+
+01:38.630 --> 01:43.270
+what x we pick-- g of x
+seems to be exactly 2 less.
+
+01:43.270 --> 01:48.000
+g of x is exactly 2 less.
+
+01:48.000 --> 01:50.820
+So in this case, very
+similar to the other one,
+
+01:50.820 --> 01:54.310
+g of x is going to
+be equal to f of x.
+
+01:54.310 --> 01:55.730
+But instead of
+adding, we're going
+
+01:55.730 --> 02:00.110
+to subtract 2 from f
+of x. f of x minus 2.
+
+02:00.110 --> 02:03.020
+Let's do a few more examples.
+
+02:03.020 --> 02:06.020
+So here we have f
+of x in red again.
+
+02:06.020 --> 02:07.460
+I'll label it.
+
+02:07.460 --> 02:08.520
+f of x.
+
+02:08.520 --> 02:12.009
+And here is g of x.
+
+02:12.009 --> 02:13.550
+So let's think about
+it a little bit.
+
+02:13.550 --> 02:16.750
+Let's pick an
+arbitrary point here.
+
+02:16.750 --> 02:21.760
+Let's say we have in red here,
+this point right over there
+
+02:21.760 --> 02:27.120
+is the value of f of negative 3.
+
+02:27.120 --> 02:28.570
+This is negative 3.
+
+02:28.570 --> 02:31.095
+This is the point
+negative 3, f of 3.
+
+02:34.820 --> 02:40.675
+Now g hits that same value
+when x is equal to negative 1.
+
+02:44.340 --> 02:45.890
+So let's think about this.
+
+02:45.890 --> 02:51.925
+g of negative 1 is equal
+to f of negative 3.
+
+02:57.857 --> 02:59.690
+And we could do that
+with a bunch of points.
+
+02:59.690 --> 03:07.632
+We could see that g of 0, which
+is right there-- let me do it
+
+03:07.632 --> 03:10.490
+in a color you can
+see-- g of 0 is
+
+03:10.490 --> 03:15.130
+equivalent to f of negative 2.
+
+03:15.130 --> 03:16.800
+So let me write that down.
+
+03:16.800 --> 03:23.990
+g of 0 is equal to
+f of negative 2.
+
+03:23.990 --> 03:25.100
+We could keep doing that.
+
+03:25.100 --> 03:31.980
+We could say g of 1,
+which is right over here.
+
+03:31.980 --> 03:32.980
+This is 1.
+
+03:32.980 --> 03:37.790
+g of 1 is equal to
+f of negative 1.
+
+03:37.790 --> 03:44.710
+g of 1 is equal to
+f of negative 1.
+
+03:44.710 --> 03:46.930
+So I think you see
+the pattern here.
+
+03:46.930 --> 03:55.350
+g of whatever is equal to the
+function evaluated at 2 less
+
+03:55.350 --> 03:56.630
+than whatever is here.
+
+03:56.630 --> 04:04.095
+So we could say that g of
+x is equal to f of-- well
+
+04:04.095 --> 04:05.930
+it's going to be 2 less than x.
+
+04:05.930 --> 04:08.954
+So f of x minus 2.
+
+04:08.954 --> 04:10.120
+So this is the relationship.
+
+04:10.120 --> 04:12.830
+g of x is equal
+to f of x minus 2.
+
+04:12.830 --> 04:14.600
+And it's important
+to realize here.
+
+04:14.600 --> 04:19.250
+When I get f of x minus 2 here--
+and remember the function is
+
+04:19.250 --> 04:23.500
+being evaluated, this is the
+input. x minus 2 is the input.
+
+04:23.500 --> 04:26.340
+When I subtract the 2, this
+is shifting the function
+
+04:26.340 --> 04:29.200
+to the right, which is a
+little bit counter-intuitive
+
+04:29.200 --> 04:31.540
+unless you go through this
+exercise right over here.
+
+04:31.540 --> 04:34.550
+So g of x is equal
+to f of x minus 2.
+
+04:34.550 --> 04:37.480
+If it was f of x plus 2 we
+would have actually shifted
+
+04:37.480 --> 04:39.779
+f to the left.
+
+04:39.779 --> 04:41.070
+Now let's think about this one.
+
+04:41.070 --> 04:43.350
+This one seems kind of wacky.
+
+04:43.350 --> 04:46.647
+So first of all,
+g of x, it almost
+
+04:46.647 --> 04:48.230
+looks like a mirror
+image but it looks
+
+04:48.230 --> 04:49.970
+like it's been flattened out.
+
+04:49.970 --> 04:52.010
+So let's think of it this way.
+
+04:52.010 --> 04:54.390
+Let's take the mirror
+image of what g of x is.
+
+04:54.390 --> 04:56.900
+So I'm going to try my best to
+take the mirror image of it.
+
+04:56.900 --> 04:57.524
+So let's see...
+
+04:57.524 --> 04:59.470
+It gets to about
+2 there, then it
+
+04:59.470 --> 05:02.310
+gets pretty close to
+1 right over there.
+
+05:02.310 --> 05:05.100
+And then it gets about
+right over there.
+
+05:05.100 --> 05:06.750
+So if I were to take
+its mirror image,
+
+05:06.750 --> 05:10.530
+it looks something like this.
+
+05:10.530 --> 05:15.500
+Its mirror image if I were to
+reflect it across the x-axis.
+
+05:15.500 --> 05:16.815
+It looks something like this.
+
+05:20.820 --> 05:24.840
+So this right over
+here we would call--
+
+05:24.840 --> 05:30.900
+so if this is g of x,
+when we flip it that way,
+
+05:30.900 --> 05:34.950
+this is the negative g of x.
+
+05:34.950 --> 05:38.400
+When x equals 4, g of
+x looks like it's about
+
+05:38.400 --> 05:39.660
+negative 3 and 1/2.
+
+05:39.660 --> 05:42.139
+You take the negative of
+that, you get positive.
+
+05:42.139 --> 05:43.680
+I guess it should
+be closer to here--
+
+05:43.680 --> 05:45.771
+You get positive
+3 and 1/2 if you
+
+05:45.771 --> 05:47.270
+were to take the
+exact mirror image.
+
+05:47.270 --> 05:48.690
+So that's negative g of x.
+
+05:48.690 --> 05:50.160
+But that still doesn't get us.
+
+05:50.160 --> 05:53.030
+It looks like we
+actually have to triple
+
+05:53.030 --> 05:54.710
+this value for any point.
+
+05:54.710 --> 05:55.680
+And you see it here.
+
+05:55.680 --> 05:59.400
+This gets to 2, but
+we need to get to 6.
+
+05:59.400 --> 06:02.220
+This gets to 1, but
+we need to get to 3.
+
+06:02.220 --> 06:04.590
+So it looks like this
+red graph right over here
+
+06:04.590 --> 06:06.840
+is 3 times this graph.
+
+06:06.840 --> 06:11.260
+So this is 3 times
+negative g of x,
+
+06:11.260 --> 06:16.860
+which is equal to
+negative 3 g of x.
+
+06:16.860 --> 06:22.660
+So here we have f of x is equal
+to negative 3 times g of x.
+
+06:22.660 --> 06:25.330
+And if we wanted to solve for
+g of x, right-- g of x in terms
+
+06:25.330 --> 06:28.940
+of f of x-- we would
+write, dividing both sides
+
+06:28.940 --> 06:35.980
+by negative 3, g of x is
+equal to negative 1/3 f of x.

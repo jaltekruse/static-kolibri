@@ -1,0 +1,447 @@
+WEBVTT
+
+00:00.690 --> 00:07.040
+So I have the function g
+of x is equal to 9 times 8
+
+00:07.040 --> 00:09.400
+to the x minus 1 power.
+
+00:09.400 --> 00:16.070
+And it's defined for
+x being a positive--
+
+00:16.070 --> 00:19.950
+or if x is a positive-- integer.
+
+00:19.950 --> 00:27.000
+If x is a positive integer.
+
+00:27.000 --> 00:29.000
+So we could say the
+domain of this function,
+
+00:29.000 --> 00:32.080
+or all the valid inputs
+here are positive integers.
+
+00:32.080 --> 00:34.970
+So 1, 2, 3, 4, 5,
+on and on and on.
+
+00:34.970 --> 00:37.360
+So this is an explicitly
+defined function.
+
+00:37.360 --> 00:41.370
+What I now want to do is to
+write a recursive definition
+
+00:41.370 --> 00:42.990
+of this exact same function.
+
+00:42.990 --> 00:46.110
+That given an x, it'll give
+the exact same outputs.
+
+00:46.110 --> 00:48.410
+So let's first just try
+to understand the inputs
+
+00:48.410 --> 00:49.650
+and outputs here.
+
+00:49.650 --> 00:51.340
+So let's make a little table.
+
+00:51.340 --> 00:53.560
+Let's make a table here.
+
+00:53.560 --> 00:56.620
+And let's think
+about what happens
+
+00:56.620 --> 01:01.880
+when we put in various x's
+into this function definition.
+
+01:01.880 --> 01:03.780
+So the domain is
+positive integers.
+
+01:03.780 --> 01:05.030
+So let's try a couple of them.
+
+01:05.030 --> 01:08.240
+1, 2, 3, 4.
+
+01:08.240 --> 01:11.410
+And then see what the
+corresponding g of x is.
+
+01:11.410 --> 01:14.100
+g of x.
+
+01:14.100 --> 01:17.080
+So when x is equal
+to 1, g of x is
+
+01:17.080 --> 01:19.780
+9 times 8 to the
+1 minus 1 power,
+
+01:19.780 --> 01:23.310
+9 times 8 to the 0
+power, or 9 times 1.
+
+01:23.310 --> 01:27.050
+So g of x is going to be just 9.
+
+01:27.050 --> 01:32.610
+When x is 2, what's
+going to happen?
+
+01:32.610 --> 01:35.830
+It'll be 9 times 8
+to the 2 minus 1.
+
+01:35.830 --> 01:39.010
+So that's the same thing as
+9 times 8 to the 1st power.
+
+01:39.010 --> 01:40.600
+And that's just going
+to be 9 times 8.
+
+01:40.600 --> 01:43.135
+So that is 72.
+
+01:43.135 --> 01:44.760
+Actually let me just
+write it that way.
+
+01:44.760 --> 01:47.260
+Let me write it
+as just 9 times 8.
+
+01:47.260 --> 01:49.270
+9 times 8.
+
+01:49.270 --> 01:52.980
+Then when x is equal to
+3, what's going on here?
+
+01:52.980 --> 01:55.120
+Well this is going
+to be 3 minus 1 is 2.
+
+01:55.120 --> 01:56.690
+So it's going to be 8 squared.
+
+01:56.690 --> 01:59.380
+So it's going to be
+9 times 8 squared.
+
+01:59.380 --> 02:04.290
+So we could write that
+as 9 times 8 times 8.
+
+02:04.290 --> 02:06.650
+I think you see a little
+bit of a pattern forming.
+
+02:06.650 --> 02:10.525
+When x is 4, this is going to be
+8 to the 4 minus 1 power, or 9
+
+02:10.525 --> 02:11.950
+to the 3rd power.
+
+02:11.950 --> 02:19.090
+So that's 9 times
+8 times 8 times 8.
+
+02:19.090 --> 02:20.726
+So this gives a
+good clue about how
+
+02:20.726 --> 02:22.100
+we would define
+this recursively.
+
+02:22.100 --> 02:25.670
+Notice, if our first term,
+when x equals 1 is 9,
+
+02:25.670 --> 02:31.310
+every term after that is 8
+times the preceding term.
+
+02:31.310 --> 02:33.850
+Is 8 times the preceding term.
+
+02:33.850 --> 02:35.700
+8 times the preceding term.
+
+02:35.700 --> 02:37.700
+8 times the preceding term.
+
+02:37.700 --> 02:39.730
+So let's define that as
+a recursive function.
+
+02:39.730 --> 02:41.960
+So first define our base case.
+
+02:41.960 --> 02:45.560
+So we could say
+g of x-- and I'll
+
+02:45.560 --> 02:48.670
+do this is a new color
+because I'm overusing the red.
+
+02:48.670 --> 02:49.980
+I like the blue.
+
+02:49.980 --> 02:51.620
+g of x.
+
+02:51.620 --> 02:53.550
+Well we can define
+our base case.
+
+02:53.550 --> 02:57.570
+It's going to be equal
+to 9 if x is equal to 1.
+
+02:57.570 --> 03:04.580
+g of x equals 9 if x equals 1.
+
+03:04.580 --> 03:07.170
+So that took care of
+that right over there.
+
+03:07.170 --> 03:11.140
+And then if it
+equals anything else
+
+03:11.140 --> 03:13.570
+it equals the previous g of x.
+
+03:13.570 --> 03:17.760
+So if we're looking at--
+let's go all the way down
+
+03:17.760 --> 03:21.410
+to x minus 1, and then an x.
+
+03:21.410 --> 03:33.120
+So if this entry right over
+here is g of x minus 1,
+
+03:33.120 --> 03:35.209
+however many times
+you multiply the 8s
+
+03:35.209 --> 03:38.230
+and we have a 9 in front,
+so this is g of x minus 1.
+
+03:38.230 --> 03:42.360
+We know that g of x-- we know
+that this one right over here
+
+03:42.360 --> 03:47.460
+is going to be the previous
+entry, g of x minus 1.
+
+03:47.460 --> 03:55.794
+The previous entry times 8.
+
+03:55.794 --> 03:57.210
+So we could write
+that right here.
+
+03:57.210 --> 03:59.390
+Times 8.
+
+03:59.390 --> 04:02.290
+So for any other
+x other than 1, g
+
+04:02.290 --> 04:07.060
+of x is equal to the previous
+entry-- so it's g of-- I'll
+
+04:07.060 --> 04:16.190
+do that in a blue color--
+g of x minus 1 times 8.
+
+04:16.190 --> 04:29.190
+If x is greater than 1, or
+x is integer greater than 1.
+
+04:29.190 --> 04:32.570
+Now let's verify that
+this actually works.
+
+04:32.570 --> 04:35.070
+So let's draw
+another table here.
+
+04:38.210 --> 04:41.230
+So once again, we're
+going to have x
+
+04:41.230 --> 04:42.864
+and we're going to have g of x.
+
+04:42.864 --> 04:45.280
+But this time we're going to
+use this recursive definition
+
+04:45.280 --> 04:45.880
+for g of x.
+
+04:45.880 --> 04:47.255
+And the reason
+why it's recursive
+
+04:47.255 --> 04:49.390
+is it's referring to itself.
+
+04:49.390 --> 04:52.580
+In its own definition, it's
+saying hey, g of x, well if x
+
+04:52.580 --> 04:54.580
+doesn't equal 1 it's going
+to be g of x minus 1.
+
+04:54.580 --> 04:56.080
+It's using the function itself.
+
+04:56.080 --> 04:58.666
+But we'll see that it
+actually does work out.
+
+04:58.666 --> 04:59.290
+So let's see...
+
+04:59.290 --> 05:04.790
+When x is equal to 1, so g
+of 1-- well if x equals 1,
+
+05:04.790 --> 05:06.380
+it's equal to 9.
+
+05:06.380 --> 05:07.140
+It's equal to 9.
+
+05:07.140 --> 05:09.150
+So that was pretty
+straightforward.
+
+05:09.150 --> 05:11.380
+What happens when x equals 2?
+
+05:11.380 --> 05:14.400
+Well when x equals 2, this
+case doesn't apply anymore.
+
+05:14.400 --> 05:15.850
+We go down to this case.
+
+05:15.850 --> 05:17.840
+So when x is equal
+to 2 it's going
+
+05:17.840 --> 05:20.750
+to be equivalent
+to g of 2 minus 1.
+
+05:20.750 --> 05:22.250
+Let me write this down.
+
+05:22.250 --> 05:28.770
+It's going to be equivalent
+to g of 2 minus 1 times 8,
+
+05:28.770 --> 05:33.590
+which is the same thing
+as g of 1 times 8.
+
+05:33.590 --> 05:34.670
+And what's g of 1?
+
+05:34.670 --> 05:36.890
+Well g of 1 is right over here.
+
+05:36.890 --> 05:38.010
+g of 1 is 9.
+
+05:38.010 --> 05:40.820
+So this is going to
+be equal to 9 times 8.
+
+05:40.820 --> 05:42.730
+Exactly what we got over here.
+
+05:42.730 --> 05:45.840
+And of course this was
+equivalent to g of 2.
+
+05:45.840 --> 05:47.060
+So let me write this.
+
+05:47.060 --> 05:49.370
+This is g of 2.
+
+05:49.370 --> 05:50.870
+Let me scroll over
+a little bit so I
+
+05:50.870 --> 05:52.710
+don't get all scrunched up.
+
+05:52.710 --> 05:54.780
+So now let's go to 3.
+
+05:54.780 --> 05:56.110
+Let's go to 3.
+
+05:56.110 --> 05:57.890
+And right now I'll
+write g of 3 first.
+
+05:57.890 --> 06:01.650
+So g of 3 is equal
+to-- we're going
+
+06:01.650 --> 06:09.130
+to this case-- it's equal
+to g of 3 minus 1 times 8.
+
+06:09.130 --> 06:13.770
+So that's equal
+to g of 2 times 8.
+
+06:13.770 --> 06:15.060
+Well what's g of 2?
+
+06:15.060 --> 06:18.060
+Well g of 2, we already
+figured out is 9 times 8.
+
+06:18.060 --> 06:22.400
+So it's equal to 9 times 8--
+that's g of 2-- times 8 again.
+
+06:22.400 --> 06:24.970
+And so you see we get
+the exact same results.
+
+06:24.970 --> 06:29.690
+So this is the recursive
+definition of this function.

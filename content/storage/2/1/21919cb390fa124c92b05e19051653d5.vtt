@@ -1,0 +1,340 @@
+WEBVTT
+
+00:00.000 --> 00:02.670
+Ở video trước, chúng ta đã thử
+
+00:02.670 --> 00:04.690
+định nghĩa giới hạn
+
+00:04.690 --> 00:07.190
+của một hàm số f(x)
+
+00:07.190 --> 00:10.880
+khi x tiến về C là bằng với L
+
+00:10.880 --> 00:13.740
+và nó có nghĩa là f(x) của ta sẽ
+
+00:13.740 --> 00:16.540
+tiến gần với L như ý ta muốn nếu
+
+00:16.540 --> 00:21.870
+ta làm cho x gần với c một khoảng vừa đủ.
+
+00:21.870 --> 00:24.120
+Vậy thì, thay vì nói là
+
+00:24.120 --> 00:26.150
+"gần như ý ta muốn"
+
+00:26.150 --> 00:29.285
+thì ta hãy gọi nó là một số epsilon dương.
+
+00:29.285 --> 00:31.710
+Và mình sẽ ghi kí hiệu của epsilon
+
+00:31.710 --> 00:33.980
+ở ngay đây.
+
+00:33.980 --> 00:36.920
+Và ta có thể xem nó
+
+00:36.920 --> 00:39.920
+như là một trò chơi.
+
+00:39.920 --> 00:52.860
+Bây giờ, bạn hãy cho mình biết bạn muốn f(x) gần với L bao nhiêu
+
+00:52.860 --> 00:57.440
+bằng cách cho mình một giá trị epsilon dương nào đó
+
+00:57.440 --> 01:00.810
+đại diện cho khoảng cách giữa f(x) và L.
+
+01:00.810 --> 01:08.820
+Vậy là bạn sẽ cho một số epsilon dương.
+
+01:08.820 --> 01:11.540
+Và epsilon là khoảng cách giữa f(x)
+
+01:11.540 --> 01:14.740
+và L mà bạn muốn. Vậy nó bằng bao nhiêu?
+
+01:14.740 --> 01:18.780
+Ví dụ nếu epsilon bằng 0,01, thì có nghĩa là bạn muốn
+
+01:18.780 --> 01:23.870
+khoảng cách giữa f(x) và L phải nhỏ hơn 0,01.
+
+01:23.870 --> 01:26.590
+Và sau đó thì mình sẽ
+
+01:26.590 --> 01:29.530
+dựa vào số epsilon của bạn
+
+01:29.530 --> 01:38.420
+để tìm ra một số delta dương nào đó
+
+01:38.420 --> 01:42.750
+(Đây là delta thường của kí tự Hy Lạp nè)
+
+01:42.750 --> 01:56.210
+Sao cho nếu khoảng cách giữa x và C nhỏ hơn delta
+
+01:56.210 --> 02:09.109
+thì khoảng cách giữa f(x) và L cũng sẽ nhỏ hơn epsilon.
+
+02:09.109 --> 02:12.140
+Bây giờ mình sẽ đối chiếu 2 định nghĩa.
+
+02:12.140 --> 02:14.400
+Định nghĩa màu vàng này nói rằng
+
+02:14.400 --> 02:16.830
+bạn có thể làm f(x) gần với L
+
+02:16.830 --> 02:21.400
+như ý bạn muốn bằng cách làm x gần với c một khoảng vừa đủ
+
+02:21.400 --> 02:23.512
+Còn định nghĩa thứ hai thì nó
+
+02:23.512 --> 02:26.190
+chỉ khác là nó giống như là một trò chơi thôi.
+
+02:26.190 --> 02:30.126
+Đó là nếu ai đó muốn f(x) gần với L một khoảng bao nhiêu
+
+02:30.126 --> 02:33.710
+thì bạn sẽ phải tìm được một giá trị delta dương nào đó sao cho
+
+02:33.710 --> 02:37.240
+khoảng cách của x và c nhỏ hơn delta, thì
+
+02:37.240 --> 02:40.830
+khoảng cách giữa f(x) và L cũng sẽ nhỏ hơn epsilon.
+
+02:40.830 --> 02:42.020
+Nó nói là,
+
+02:42.020 --> 02:44.190
+nếu chúng ta đang giới hạn x sao cho
+
+02:44.190 --> 02:47.210
+khoảng cách của x và c phải nhỏ hơn một số nào đó
+
+02:47.210 --> 02:50.505
+thì f(x) sẽ gần với lại L như ý mình muốn
+
+02:50.505 --> 02:52.070
+Và để mình làm cho nó
+
+02:52.070 --> 02:54.700
+dễ hiểu hơn thông qua đồ thị ở đây
+
+02:54.700 --> 02:57.210
+Bây giờ mình muốn
+
+02:57.210 --> 03:01.690
+khoảng cách giữa f(x) và L phải nhỏ hơn epsilon
+
+03:04.020 --> 03:09.910
+Thì điểm này ở đây sẽ là giới hạn L của chúng ta cộng với epsilon
+
+03:09.910 --> 03:17.510
+Còn đây sẽ bằng giới hạn L của chúng ta trừ cho epsilon
+
+03:17.510 --> 03:21.530
+Và bạn có thể đưa L vào
+
+03:21.530 --> 03:24.401
+trong khoảng này
+
+03:24.401 --> 03:28.840
+bằng cách xác định một khoảng trên trục x
+
+03:28.840 --> 03:32.150
+Và mình có thể ước lượng bằng việc nhìn vào đồ thị
+
+03:32.150 --> 03:34.850
+Nhưng chúng ta có thể giới hạn lại sao cho
+
+03:34.850 --> 03:37.940
+khoảng của x nhỏ hơn cái giới hạn ở đó luôn.
+
+03:37.940 --> 03:40.030
+Và ở đây thì mình sẽ đi tìm
+
+03:40.030 --> 03:42.940
+một giá trị delta dương nào đó
+
+03:42.940 --> 03:46.010
+Ở đây sẽ là c cộng với delta
+
+03:46.010 --> 03:49.170
+Còn ở đây là
+
+03:49.170 --> 03:52.770
+c trừ cho delta
+
+03:52.770 --> 03:56.240
+Vậy nên bạn sẽ cần tìm giá trị delta này sao cho
+
+03:56.240 --> 03:59.875
+nếu x thuộc khoảng từ c trừ delta cho tới c
+
+03:59.875 --> 04:02.860
+cộng delta, và hàm số của mình không
+
+04:02.860 --> 04:05.350
+nhất thiết phải xác định tại c mà ở đây
+
+04:05.350 --> 04:08.210
+chúng ta có thể xét các trường hợp gần với c
+
+04:08.210 --> 04:11.370
+Và nếu x thuộc khoảng đó, thì f(x)
+
+04:11.370 --> 04:17.459
+cũng sẽ gần với L như ý ta muốn
+
+04:17.459 --> 04:21.866
+tức là nằm trong khoảng từ L cộng epsiion cho tới
+
+04:21.866 --> 04:24.510
+L trừ epsilon
+
+04:24.510 --> 04:27.550
+Vậy thì một cách nói khác mà ta có thể sử dụng
+
+04:27.550 --> 04:30.530
+đó là, nếu bạn cho mình một epsilon nào đó
+
+04:30.530 --> 04:32.843
+thì mình sẽ tìm cho bạn một delta
+
+04:32.843 --> 04:36.290
+Và mình sẽ viết nó bằng cách sử dụng một vài kí hiệu toán
+
+04:36.290 --> 04:38.180
+Vậy thì mình sẽ viết y chang
+
+04:38.180 --> 04:40.961
+định nghĩa trên, chỉ khác là mình sẽ thêm
+
+04:40.961 --> 04:43.450
+một tí toán vào
+
+04:43.450 --> 04:45.980
+Vậy thì mình sẽ viết là
+
+04:45.980 --> 04:54.060
+Với mọi epsilon lớn hơn 0
+
+04:54.060 --> 04:57.800
+(Đây chính là phần đầu của trờ chơi của chúng ta)
+
+04:57.800 --> 05:06.330
+thì chúng ta có thể tìm một delta lớn hơn 0, sao cho
+
+05:06.330 --> 05:13.540
+nếu x gần với c một khoảng nhỏ delta
+
+05:13.540 --> 05:17.304
+hay mình có thể nói là
+
+05:17.304 --> 05:18.720
+nếu khoảng cách
+
+05:18.720 --> 05:20.950
+giữa x và c
+
+05:20.950 --> 05:22.880
+nhỏ hơn delta
+
+05:22.880 --> 05:28.660
+Và mệnh đề này sẽ đúng với mọi x thuộc khoảng từ c trừ delta đến c cộng delta
+
+05:28.660 --> 05:32.910
+Vậy là khoảng cách giữa x và c sẽ nhỏ hơn delta
+
+05:32.910 --> 05:36.290
+khi x thuộc khoảng từ c trừ delta
+
+05:36.290 --> 05:38.820
+đến c cộng delta
+
+05:38.820 --> 05:43.480
+tức là mình sẽ có được biếu thức này
+
+05:43.480 --> 05:46.440
+Và từ biểu thức này mình sẽ suy ra được rằng
+
+05:46.440 --> 05:50.640
+khoảng cách giữa f(x) và L,
+
+05:50.640 --> 05:53.920
+tức là giới hạn của f(x),
+
+05:53.920 --> 05:57.450
+sẽ nhỏ hơn epsilon
+
+05:57.450 --> 06:02.320
+Vậy là mệnh đề này đang nói, rằng nếu giới hạn của mình thật sự tồn tại
+
+06:02.320 --> 06:06.870
+tức là bằng với L, thì nếu bạn cho mình một số epsilon dương bất kì
+
+06:06.870 --> 06:09.580
+thì mình sẽ luôn luôn tìm được delta
+
+06:09.580 --> 06:12.950
+tức là mình luôn có thể xác định được khoảng của x
+
+06:12.950 --> 06:15.220
+Và khoảng này,
+
+06:15.220 --> 06:18.360
+theo mệnh đề của chúng ta, sẽ tương đương với khi
+
+06:18.360 --> 06:20.010
+khoảng cách giữa x và c
+
+06:20.010 --> 06:21.380
+sẽ nhỏ hơn delta
+
+06:21.380 --> 06:23.560
+Vậy là x sẽ thuộc những giá trị
+
+06:23.560 --> 06:25.880
+nằm trong khoảng này đây
+
+06:25.880 --> 06:28.440
+thì f(x) của chúng ta
+
+06:28.440 --> 06:31.150
+sẽ thuộc khoảng mà
+
+06:31.150 --> 06:33.970
+chúng ta đang muốn nó thuộc
+
+06:33.970 --> 06:37.000
+Tức là nó sẽ gần với L một khoảng epsilon nào đó
+
+06:37.000 --> 06:40.810
+tương đương với lại khoảng cách giữa f(x) và giới hạn
+
+06:40.810 --> 06:43.730
+của nó, tức là L, sẽ nhỏ hơn epsilon
+
+06:43.730 --> 06:47.490
+Vậy là f(x) của mình sẽ nằm đâu đó ở trong khoảng này
+
+06:47.490 --> 06:50.840
+Và đó chính là định nghĩa epsilon-delta
+
+06:50.840 --> 06:54.550
+Ở video tiếp theo thì chúng ta sẽ sử dụng định nghĩa này
+
+06:54.550 --> 06:58.710
+để chứng minh một giới hạn nào đó tồn tại

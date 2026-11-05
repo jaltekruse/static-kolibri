@@ -1,0 +1,405 @@
+WEBVTT
+
+00:00.203 --> 00:02.182
+- [Instructor] We're now
+going to tackle part (b)
+
+00:02.182 --> 00:03.731
+of the potato problem,
+
+00:03.731 --> 00:05.678
+and it says use the second derivative
+
+00:05.678 --> 00:08.978
+of H with respect to time to
+determine whether your answer
+
+00:08.978 --> 00:12.830
+in part (a) is an underestimate
+or an overestimate
+
+00:12.830 --> 00:15.107
+of the internal temperature of the potato
+
+00:15.107 --> 00:17.598
+at time t is equal to three.
+
+00:17.598 --> 00:21.420
+So in part (a), we found the
+equation of the tangent line
+
+00:21.420 --> 00:23.767
+at time equals zero and we used that
+
+00:23.767 --> 00:26.969
+to estimate what our
+internal temperature would be
+
+00:26.969 --> 00:28.916
+at time is equal to three.
+
+00:28.916 --> 00:31.584
+So how is the second derivative
+going to help us think
+
+00:31.584 --> 00:35.170
+whether that was an overestimate
+or an underestimate?
+
+00:35.170 --> 00:36.465
+Well, the second derivative
+
+00:36.465 --> 00:39.080
+can help us know about concavity.
+
+00:39.080 --> 00:41.530
+It'll let us know, well, is our slope
+
+00:41.530 --> 00:45.207
+increasing over this interval,
+or is our slope decreasing?
+
+00:45.207 --> 00:46.323
+And then we can use that
+
+00:46.323 --> 00:49.559
+to estimate whether we
+overestimated or not.
+
+00:49.559 --> 00:52.248
+So first, let's just find
+the second derivative.
+
+00:52.248 --> 00:54.110
+So we have the first
+derivative written up here.
+
+00:54.110 --> 00:57.179
+Let me just rewrite it, and
+I'll distribute the negative 1/4
+
+00:57.179 --> 00:59.453
+'cause it'll be a little bit
+more straightforward then.
+
+00:59.453 --> 01:03.934
+So if I write the derivative
+of H with respect to time
+
+01:03.934 --> 01:06.851
+is equal to negative 1/4
+
+01:07.847 --> 01:09.550
+times our internal temperature,
+
+01:09.550 --> 01:12.590
+which it itself is a function of time,
+
+01:12.590 --> 01:14.854
+and then negative 1/4 times negative 27,
+
+01:14.854 --> 01:16.604
+that would be plus 27
+
+01:17.881 --> 01:19.128
+over four.
+
+01:19.128 --> 01:22.080
+Let me scroll down a little bit.
+
+01:22.080 --> 01:24.595
+So now, let me leave that graph up there
+
+01:24.595 --> 01:26.267
+'cause I think that might be useful.
+
+01:26.267 --> 01:27.989
+What is the second derivative going to be
+
+01:27.989 --> 01:29.502
+with respect to time?
+
+01:29.502 --> 01:32.030
+So I'll write it right over here.
+
+01:32.030 --> 01:34.447
+D, the second derivative of H
+
+01:35.546 --> 01:39.238
+with respect to time is
+going to be equal to,
+
+01:39.238 --> 01:44.230
+well, the derivative of this
+first term with respect to time
+
+01:44.230 --> 01:46.620
+is going to be the derivative
+of this with respect to H
+
+01:46.620 --> 01:49.115
+times the derivative of
+H with respect to time.
+
+01:49.115 --> 01:51.454
+So this is equal to negative 1/4.
+
+01:51.454 --> 01:53.950
+That's the derivative of
+this term with respect to H,
+
+01:53.950 --> 01:56.704
+and then we want to multiply
+that times the derivative of H
+
+01:56.704 --> 01:57.897
+with respect to time.
+
+01:57.897 --> 02:00.169
+This comes just straight
+out of the chain rule.
+
+02:00.169 --> 02:01.504
+And then the derivative of a constant,
+
+02:01.504 --> 02:02.898
+how does that change with respect to time?
+
+02:02.898 --> 02:06.094
+It's not gonna change, that
+is just going to be zero.
+
+02:06.094 --> 02:07.512
+So just like that, we were able
+
+02:07.512 --> 02:11.156
+to find the second derivative
+H with respect to time.
+
+02:11.156 --> 02:13.382
+And now what does this tell us?
+
+02:13.382 --> 02:17.904
+Well, we talked about,
+in the previous video,
+
+02:17.904 --> 02:20.460
+that over the interval that we care about,
+
+02:20.460 --> 02:22.671
+for, actually, I can
+show you from this graph.
+
+02:22.671 --> 02:24.192
+Over the interval that we care about,
+
+02:24.192 --> 02:26.192
+for t greater than zero,
+
+02:27.254 --> 02:29.067
+it says that our internal temperature
+
+02:29.067 --> 02:32.598
+is always going to be greater than 27.
+
+02:32.598 --> 02:35.274
+And so when you look
+at this expression here
+
+02:35.274 --> 02:39.002
+or when you look at this
+expression here for dH/dt,
+
+02:39.002 --> 02:40.689
+we talked in the previous video
+
+02:40.689 --> 02:43.594
+how this is always going
+to be negative here.
+
+02:43.594 --> 02:46.592
+Because H is always going
+to be greater than 27,
+
+02:46.592 --> 02:48.488
+so that part's going to be positive.
+
+02:48.488 --> 02:50.692
+But then we're gonna multiply
+it by a negative 1/4,
+
+02:50.692 --> 02:52.787
+so our slope dH/dt,
+
+02:52.787 --> 02:54.846
+our derivative of our
+temperature with respect to time,
+
+02:54.846 --> 02:57.429
+is always going to be negative.
+
+02:58.397 --> 03:01.143
+So we could write that this
+
+03:01.143 --> 03:01.976
+or this,
+
+03:03.087 --> 03:04.934
+this is going to be negative,
+
+03:04.934 --> 03:07.260
+let me write it this way.
+
+03:07.260 --> 03:08.093
+Since
+
+03:10.548 --> 03:12.215
+H is greater than 27
+
+03:13.655 --> 03:15.905
+for t is greater than zero,
+
+03:16.962 --> 03:19.379
+we know that dH/dt
+
+03:21.368 --> 03:23.039
+is negative,
+
+03:23.039 --> 03:24.769
+is negative.
+
+03:24.769 --> 03:27.410
+So we could say that this right over here,
+
+03:27.410 --> 03:29.243
+since dH/dt
+
+03:31.629 --> 03:33.046
+is less than zero
+
+03:34.000 --> 03:37.083
+for t is greater than zero,
+
+03:37.083 --> 03:40.498
+the second derivative
+of H with respect to t
+
+03:40.498 --> 03:43.165
+is going to be greater than zero
+
+03:44.539 --> 03:45.886
+for
+
+03:45.886 --> 03:46.886
+t is greater
+
+03:48.252 --> 03:49.616
+than zero.
+
+03:49.616 --> 03:50.919
+And so what does that mean?
+
+03:50.919 --> 03:52.824
+It means that we are,
+
+03:52.824 --> 03:55.273
+if your second derivative is positive,
+
+03:55.273 --> 03:57.946
+that means you're concave upward,
+
+03:57.946 --> 03:59.196
+concave upward,
+
+04:00.766 --> 04:03.433
+which means slope is increasing,
+
+04:05.030 --> 04:05.863
+slope
+
+04:06.703 --> 04:07.620
+increasing.
+
+04:09.120 --> 04:12.599
+Or you could say slope
+becoming less negative,
+
+04:12.599 --> 04:13.766
+slope becoming
+
+04:16.436 --> 04:18.026
+less
+
+04:18.026 --> 04:19.532
+negative.
+
+04:19.532 --> 04:20.681
+Now what does that mean?
+
+04:20.681 --> 04:21.759
+And you could see it intuitively.
+
+04:21.759 --> 04:25.021
+If the slope is becoming
+less and less negative,
+
+04:25.021 --> 04:27.200
+then that means when we approximated
+
+04:27.200 --> 04:29.432
+what our temperature is at t equals three,
+
+04:29.432 --> 04:32.139
+we used a really negative slope.
+
+04:32.139 --> 04:34.537
+When, in reality, our
+slope is getting less
+
+04:34.537 --> 04:36.407
+and less and less negative.
+
+04:36.407 --> 04:39.403
+So what we would've done is
+we would've over-decreased
+
+04:39.403 --> 04:43.022
+our temperature from t equals
+zero to t equals three.
+
+04:43.022 --> 04:46.669
+So that would mean that we
+would have underestimated it.
+
+04:46.669 --> 04:48.023
+So let me write that down.
+
+04:48.023 --> 04:50.176
+And I'm running out of
+a little bit of space,
+
+04:50.176 --> 04:52.427
+but let me write it right over here.
+
+04:52.427 --> 04:54.191
+So that implies,
+
+04:54.191 --> 04:57.108
+so this implies that underestimate,
+
+04:58.391 --> 04:59.474
+underestimate
+
+05:02.081 --> 05:04.254
+in part (a).
+
+05:04.254 --> 05:06.319
+And if I were taking this on the AP exam,
+
+05:06.319 --> 05:08.835
+I would flesh out my
+language a little bit here
+
+05:08.835 --> 05:11.190
+to make it clear, but
+hopefully that makes sense.

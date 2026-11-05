@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.372 --> 00:09.400
+Maintenant que nous avons vu que lorsque l'on élève i à une puissance entière, on oscille entre 1 ,i ,(-1) et (-i)
+
+00:09.400 --> 00:15.067
+et que l'on revient à 1 puis i, (-1) et (-i) essayons d'utiliser
+
+00:15.067 --> 00:19.133
+ces propriétés pour résoudre d'autres problèmes
+
+00:19.133 --> 00:24.381
+plus complexes en utilisant la périodicité des puissances de i.
+
+00:24.381 --> 00:31.718
+Par exemple, élevons i à une puissance arbitraire :
+
+00:31.718 --> 00:40.078
+voyons ce que donne i élevé à la puissance 100. On sait que 100 est un multiple de 4, donc
+
+00:40.078 --> 00:48.267
+on peut dire que c'est i puissance 4 élevé à la puissance 25,
+
+00:48.267 --> 00:56.400
+grâce aux propriétés sur les exposants (cours de 4ème)
+
+00:56.400 --> 00:59.600
+Un nombre a élevé à la puissance n lui même élevé à la puissance p revient à
+
+00:59.600 --> 01:04.900
+élever le nombre a à la puissance n×p.
+
+01:04.900 --> 01:10.733
+Donc comme i^4 donne 1, on remplace dans l'équation
+
+01:10.733 --> 01:17.021
+et 1^25 donne 1.
+
+01:17.021 --> 01:21.200
+Voici donc comment utiliser les propriétés périodiques des
+
+01:21.200 --> 01:27.267
+puissances de i. Passons à quelque chose de
+
+01:27.267 --> 01:33.600
+plus dur comme i^501. On voit ici que 501
+
+01:33.600 --> 01:37.826
+n'est pas un multiple de 4 et que l'on ne peut pas simplifier de la même façon.
+
+01:37.826 --> 01:41.262
+On arrange la situation en faisant apparaître un produit dont l'un des facteurs contient
+
+01:41.262 --> 01:49.482
+i^4 et un autre facteur ne le contenant pas. Ici, on voit que
+
+01:49.482 --> 01:52.667
+500 est multiple de 4 et on a donc la relation :
+
+01:52.667 --> 01:59.333
+i^501=i^500^×i
+
+01:59.333 --> 02:03.693
+Car on rappelle que les exposants s'additionnent quand on multiplie le même nombre élevé à deux puissances différentes.
+
+02:03.693 --> 02:07.933
+Et i^500 va pouvoir s'écrire comme
+
+02:07.933 --> 02:15.156
+i^4 multiplié par 125 car 125×4=500
+
+02:15.156 --> 02:19.413
+On peut alors écrire i^500 = (i^4)^125
+
+02:19.413 --> 02:27.168
+et on n'oublie pas le i qui reste pour arriver à i^501.
+
+02:27.168 --> 02:33.275
+Donc i^4 donne 1 et 1^125 donne encore 1 donc ce bloc fait 1
+
+02:33.275 --> 02:39.962
+et il ne nous reste donc plus que i donc au final i^501=i
+
+02:39.962 --> 02:43.600
+Voilà comment résoudre un problème à priori difficile
+
+02:43.600 --> 02:48.667
+grâce à la périodicité des puissances de i .
+
+02:48.667 --> 02:54.405
+Ainsi, dans le cas d'un multiple quelconque de 4
+
+02:54.405 --> 03:01.867
+qui s'écrira de façon générale comme i^(4k) avec k
+
+03:01.867 --> 03:06.201
+un entier positif ou nul (on verra plus tard pour les valeurs négatives)
+
+03:06.201 --> 03:13.067
+donc si i est élevé à une puissance multiple de 4, on obtiendra
+
+03:13.067 --> 03:19.133
+forcément 1 car i^(4k)=(i^4)^k et que i^4=1
+
+03:19.133 --> 03:24.733
+et 1^k=1 CQFD
+
+03:24.733 --> 03:30.333
+Dans le cas où l'on aurait i^(4k+1) ou i^(4k+2), il suffit de procéder de la même façon qu'au-dessus.
+
+03:30.333 --> 03:34.333
+Essayons maintenant avec quelques autres problèmes
+
+03:34.333 --> 03:39.638
+pour se servir des formules. Si l'on prend totalement au hasard,
+
+03:39.638 --> 03:46.975
+comme i^7321, il va falloir chercher
+
+03:46.975 --> 03:55.102
+un multiple de 4 et réduire l'expression.
+
+03:55.102 --> 04:00.867
+On voit facilement que 7320 est divisible par 4. On peut faire le calcul ou se servir de la divisibilté par 4.
+
+04:00.867 --> 04:10.474
+On aura donc i^7321=i×i^7320
+
+04:10.474 --> 04:15.467
+On a donc notre multiple de 4 car les deux derniers
+
+04:15.467 --> 04:20.272
+chiffres sont 20 qui est un multiple de 4 donc
+
+04:20.272 --> 04:31.418
+tout ce bloc va se simplifier et donner 1 et
+
+04:31.418 --> 04:41.078
+il ne me restera donc plus que le terme en i
+
+04:41.078 --> 04:48.533
+donc i^7321=i
+
+04:48.533 --> 04:55.799
+Essayons maintenant autre chose : i^99.
+
+04:55.799 --> 05:05.459
+Donc le multiple de 4 le plus proche mais inférieur à 99 est 96.
+
+05:05.459 --> 05:12.067
+Donc i^99=i^96^×i^3
+
+05:12.067 --> 05:17.765
+C'est toujours la même règle sur les exposants.
+
+05:17.765 --> 05:23.431
+Or 96=4×24 donc i^96=(i^4)^24 ce qui
+
+05:23.431 --> 05:28.467
+me donne 1^16 soit au final 1 et le terme en i^3
+
+05:28.467 --> 05:35.412
+Pour i^3, on peut se souvenir que cela vaut
+
+05:35.412 --> 05:39.333
+(-i) ou alors dire tout simplement que
+
+05:39.333 --> 05:46.140
+i^3=i²×i et que par définition on sait que
+
+05:46.140 --> 05:51.800
+i²=-1 alors i^3=(-1)×i = -i
+
+05:51.800 --> 05:59.886
+Donc au final i^99=-i.
+
+05:59.886 --> 06:07.549
+Faisons un dernier exemple : i^38. On sait que l'on aura
+
+06:07.549 --> 06:13.467
+i^38=i²×i^36 car 36 est le multiple de 4 le plus proche. Il me reste donc au final (-1).
+
+06:13.467 --> 06:19.809
+Contact traducteur : the.amazing.mister.roca@gmail.com

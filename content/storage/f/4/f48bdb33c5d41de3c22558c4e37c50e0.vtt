@@ -1,0 +1,562 @@
+WEBVTT
+
+00:00.580 --> 00:06.785
+Ở video trước, mình đã tìm hệ số góc ở một điểm cụ thể của đồ thị y bằng với x bình.
+
+00:07.035 --> 00:10.870
+Nhưng chúng mình hãy thử khái quát nó lên và tìm một công thức
+
+00:10.870 --> 00:15.100
+giúp chúng mình tìm hệ số góc của bất kì điểm nào trên đồ thị y bằng x bình.
+
+00:15.350 --> 00:18.000
+Để mình vẽ lại hàm số ở đây.
+
+00:18.000 --> 00:21.720
+Mình sẽ cố gằng vẽ nó đẹp nhất có thể.
+
+00:21.720 --> 00:24.530
+Vậy đây là trục tung của mình.
+
+00:24.530 --> 00:28.650
+Và đây là trục hoành.
+
+00:28.900 --> 00:30.580
+Và để mình vẽ đồ thị nhé!
+
+00:30.580 --> 00:33.960
+Nó sẽ trông như thế này và bạn đã thấy nhiều lần rồi đúng không.
+
+00:34.210 --> 00:37.970
+Đây chính là đồ thị y bằng x bình.
+
+00:37.970 --> 00:40.600
+Hãy cố gắng khái quát nhất có thể nhé.
+
+00:40.850 --> 00:44.600
+Để mình viết lại định nghĩa của đạo hàm nhé.
+
+00:44.600 --> 00:48.350
+Nếu mình có một điểm nào đó ở đây, hãy gọi nó là x.
+
+00:48.350 --> 00:50.370
+Mình sẽ làm nó một khái quát nhất.
+
+00:50.370 --> 00:52.550
+Mình đang muốn tìm hệ số góc ở điểm x.
+
+00:52.550 --> 00:55.380
+Mình muốn có một hàm số mà khi bạn cho mình x,
+
+00:55.380 --> 00:58.300
+mình sẽ cho bạn biết hệ số góc ở đó là bao nhiêu.
+
+00:58.300 --> 00:59.960
+Và mình gọi nó là f'(x).
+
+00:59.960 --> 01:06.210
+Và f'(x) sẽ là đạo hàm của f(x)
+
+01:06.210 --> 01:09.180
+Và nó có nghĩa là, nếu bạn nhìn vào f(x) ngay đây,
+
+01:09.180 --> 01:14.560
+thì f(x) là hàm số mà khi bạn cho giá trị x vào thì bạn sẽ được một giá trị y tương ứng trên đồ thị.
+
+01:14.810 --> 01:22.000
+Còn đối với f'(x), khi bạn thế x vào, thì nó sẽ không cho bạn giá trị y tương ứng trên đồ thị.
+
+01:22.500 --> 01:26.030
+Mà f'(x) sẽ cho bạn biết được hệ số góc ngay tại điểm x đó.
+
+01:26.280 --> 01:30.950
+Vậy là f'(x) sẽ cho mình biết hệ số góc khi mình thế x vào.
+
+01:31.200 --> 01:35.610
+Như mình đã làm ở video trước, nếu mình thế 3 vào f'(x) thì hệ số góc sẽ là 6.
+
+01:36.110 --> 01:38.630
+Vậy đó là những gì mình muốn làm.
+
+01:38.630 --> 01:40.600
+Và hình như là ở 2 video trước,
+
+01:40.600 --> 01:46.410
+chúng mình đã định nghĩa f'(x) bằng với,
+
+01:46.410 --> 01:48.470
+để mình viết theo cách này.
+
+01:48.470 --> 01:51.210
+Nó chính là hệ số góc của đường cát tuyến giữa điểm x
+
+01:51.210 --> 01:53.540
+và một điểm nào đó cách x một khoảng.
+
+01:53.540 --> 01:57.480
+Vậy là hệ số góc của đường các tuyến chính là sự thay đổi ở y.
+
+01:57.480 --> 02:02.040
+Vậy sẽ là giá trị y của điểm cách xa điểm x một khoảng.
+
+02:02.290 --> 02:05.940
+Vậy sẽ là f(x+h)
+
+02:05.940 --> 02:08.600
+rồi trừ cho giá trị của y tại điểm x.
+
+02:08.600 --> 02:11.200
+Tức là trừ với f(x) ngay đây.
+
+02:11.200 --> 02:13.820
+Vậy mình trừ f(x) nhé.
+
+02:13.820 --> 02:16.180
+Tất cả chia cho sự thay đổi ở x.
+
+02:16.180 --> 02:19.620
+Vậy nếu đây là x + h, thì sự thay đổi ở x sẽ bằng với
+
+02:19.620 --> 02:21.600
+(x+h) trừ cho x.
+
+02:21.600 --> 02:23.884
+Hoặc khoảng cách ngay đây sẽ là h.
+
+02:23.884 --> 02:26.830
+Tức là sự thay đổi ở x sẽ bằng với h.
+
+02:26.830 --> 02:30.990
+Vậy đây là hệ số góc của đường cát tuyến giữa 2 điểm.
+
+02:31.240 --> 02:34.190
+Và mình có thể tìm được hệ số góc của đường tiếp tuyến
+
+02:34.190 --> 02:39.810
+nếu như mình lấy giới hạn của cái này khi h tiến tới 0.
+
+02:40.060 --> 02:42.930
+Vậy đây sẽ là hệ số góc của đường tiếp tuyến.
+
+02:42.930 --> 02:46.840
+Bây giờ, hãy cùng áp dụng cái này vào một hàm số cụ thể
+
+02:46.840 --> 02:49.580
+đó là hàm số f(x) bằng x bình phương.
+
+02:49.580 --> 02:52.430
+Hay là hàm y bằng x bình phuong ngay đây.
+
+02:52.430 --> 02:55.800
+Vậy mình có thể xem điểm ngay đây
+
+02:55.800 --> 02:58.910
+là (x,x bình).
+
+02:58.910 --> 03:01.380
+Vậy là f(x) bằng với x bình.
+
+03:01.380 --> 03:05.040
+Và rồi điểm ngay đây,
+
+03:05.040 --> 03:07.140
+để mình đổi màu sáng hơn chút.
+
+03:07.140 --> 03:12.790
+Đây sẽ là điểm có hoành độ là (x+h), tức là điểm nằm ngay đây.
+
+03:13.040 --> 03:19.070
+và rồi tung độ sẽ là (x+h) bình phương
+
+03:19.070 --> 03:21.530
+Và ở video trước, mình làm với giá trị x=3.
+
+03:22.030 --> 03:24.676
+Nhưng bây giờ mình muốn một công thức khái quát
+
+03:24.676 --> 03:28.990
+để khi bạn đưa mình bất kì giá trị x nào thì mình cũng sẽ tính ra được hệ số góc là gì.
+
+03:29.490 --> 03:31.930
+Nếu bạn cho mình x bằng 7 hoặc bằng âm 3 thì
+
+03:31.930 --> 03:35.130
+mình sẽ cho bạn biết hệ số góc ở 7 hoặc ở âm 3 là gì.
+
+03:35.130 --> 03:39.310
+Hoặc thậm chí mình có thể cho bạn biết hệ số góc ở x=100000 là gì.
+
+03:39.310 --> 03:45.410
+Hãy cùng làm nhé, mình muốn tìm sự thay đổi ở y trên sự thay đổi ở x.
+
+03:45.410 --> 03:51.190
+Vậy đầu tiên, sự thay đổi ở y sẽ là tung độ ngay đây,
+
+03:51.190 --> 03:57.410
+tức là (x cộng h) bình
+
+03:57.410 --> 04:02.230
+(x cộng h) bình là giá trị của y nằm ngay đây nhé.
+
+04:02.730 --> 04:08.430
+Tức là mình lấy (x+h) thế vào hàm số f(x)=x bình, thì mình được tung độ là (x+h) bình.
+
+04:08.930 --> 04:10.630
+Vậy mình được điểm này.
+
+04:10.630 --> 04:12.080
+Còn giá trị này thì sao?
+
+04:12.080 --> 04:16.060
+f(x) hay là giá trị y ở đây thì bằng với x bình
+
+04:16.310 --> 04:18.530
+Tức là nếu mình lấy x và thế vào hàm số
+
+04:18.530 --> 04:20.600
+thì giá trị của f(x) tại điểm x sẽ là x bình.
+
+04:20.600 --> 04:22.990
+Vậy mình sẽ trừ với x bình ngay đây.
+
+04:22.990 --> 04:24.900
+Đây chính là sự thay đổi ở y.
+
+04:24.900 --> 04:29.090
+Khoảng cách ngay đây chính là sự thay đổi ở y.
+
+04:29.090 --> 04:33.110
+Và nó liên quan đến định nghĩa của đạo hàm ngay đây,
+
+04:33.110 --> 04:37.740
+phần màu xanh biển này sẽ là phần này.
+
+04:37.990 --> 04:39.630
+Mình vừa tính f(x).
+
+04:39.630 --> 04:42.850
+Hàm số của mình là f(x) bằng x bình.
+
+04:42.850 --> 04:46.310
+Và mình tính f(x) tại (x+h).
+
+04:46.310 --> 04:48.920
+Vậy mình chỉ cần bình phương (x+h).
+
+04:49.170 --> 04:52.010
+Nếu mình cho x bằng a thì ngay đây sẽ là a bình phương.
+
+04:52.010 --> 04:55.710
+Vậy nếu mình thế (x+h) vào hàm số thì nó sẽ bằng (x+h) bình.
+
+04:56.210 --> 05:01.910
+Và rồi phần ngay đây, sẽ là giá trị của f(x) tại điểm x. Tức là tại điểm x thì f(x) bằng x bình phương.
+
+05:02.410 --> 05:05.120
+Vậy đây chính là sự thay đổi ở y.
+
+05:05.120 --> 05:08.340
+Và hãy cùng chia nó cho sự thay đổi ở x.
+
+05:08.340 --> 05:10.730
+Nếu đây là (x+h) và đây là x,
+
+05:10.730 --> 05:12.800
+thì sự thay đổi ở x sẽ là h.
+
+05:12.800 --> 05:14.880
+Vậy là nó tương đương với phần này.
+
+05:14.880 --> 05:19.100
+Vậy đây chính là hệ số góc giữa 2 điểm ngay đây.
+
+05:19.350 --> 05:24.530
+Nhưng dĩ nhiên là mình đang muốn tìm giới hạn khi điểm này tiến gần hơn tới điểm ngay đây.
+
+05:24.780 --> 05:26.790
+Và điểm này tiến gần hơn tới điểm ngay đây.
+
+05:26.790 --> 05:29.530
+Thì khi đó, nó sẽ trở thành một đường tiếp tuyến.
+
+05:29.530 --> 05:34.480
+Vậy mình sẽ lấy giới hạn khi h tiến tới 0,
+
+05:34.480 --> 05:37.250
+và đây sẽ là f'(x) của mình.
+
+05:37.250 --> 05:39.580
+Và cái này giống với định nghĩa ngay đây.
+
+05:39.580 --> 05:43.130
+Nhưng thay vì khái quát cho tất cả các hàm số thì mình biết được
+
+05:43.380 --> 05:45.680
+là mình đang làm với hàm số f(x) bằng x bình.
+
+05:45.930 --> 05:48.350
+Thay vì ghi f(x) thì mình ghi là x bình phương ở đây.
+
+05:48.350 --> 05:52.950
+Thay vì f(x+h) thì mình ghi là (x + h) bình phương.
+
+05:52.950 --> 05:56.180
+Và hãy thử tính giới hạn này nhé.
+
+05:56.180 --> 06:04.680
+Vậy nó sẽ bằng với, giới hạn khi h tiến tới 0
+
+06:04.680 --> 06:08.910
+Mình sẽ khai triển biểu thức này ra nhé.
+
+06:09.160 --> 06:19.230
+Sẽ bằng với x bình cộng 2xh cộng h bình.
+
+06:19.230 --> 06:22.320
+Và rồi mình trừ với x bình ở ngay đây.
+
+06:22.320 --> 06:24.790
+Mình vừa khai triển (x+h) bình ra ngay đây.
+
+06:24.790 --> 06:27.635
+Và rồi tất cả cái này chia cho h.
+
+06:27.635 --> 06:30.850
+Để xem mình có thể đơn giản phần ngay đây không nhé.
+
+06:30.850 --> 06:33.900
+x bình phương và trừ x bình phương sẽ triệt tiêu nhau.
+
+06:33.900 --> 06:37.685
+Và mình có thể chia tử và mẫu cho h.
+
+06:38.185 --> 06:44.780
+Vậy nó sẽ rút gọn thành, mình có được f ' (x) bằng với
+
+06:44.780 --> 06:46.590
+nếu mình chia cả tử và mẫu cho h,
+
+06:46.590 --> 06:50.260
+mình sẽ được 2x cộng h.
+
+06:50.260 --> 06:52.070
+À mình quên ghi giới hạn.
+
+06:52.070 --> 06:54.080
+Vậy là bằng với giới hạn
+
+06:54.330 --> 06:59.800
+khi h tiến tới 0,
+
+06:59.800 --> 07:08.640
+và chia cả tử và mẫu cho h thì mình được, 2xh chia h thì còn lại 2x, cộng với, h bình chia h thì còn lại h.
+
+07:08.640 --> 07:12.280
+Nếu bạn nhớ ở video trước thì khi mình làm với giá trị x cụ thể,
+
+07:12.280 --> 07:13.780
+tức là x bằng với 3,
+
+07:13.780 --> 07:16.960
+thì ở đây mình có 6 cộng delta x hoặc 6 cộng h ở đây.
+
+07:17.210 --> 07:20.760
+Vậy nếu bạn lấy giới hạn khi h tiến tới 0 ở đây, cái này sẽ biến mất.
+
+07:21.010 --> 07:24.240
+Vậy mình chỉ còn lại 2x.
+
+07:24.240 --> 07:28.020
+Và mình mới tìm ra được rằng nếu f(x),
+
+07:28.020 --> 07:30.180
+đây là một kết quả rất thú vị!
+
+07:30.180 --> 07:34.450
+Nếu f(x) bằng với x bình,
+
+07:34.450 --> 07:37.910
+thì f ' (x) sẽ bằng với 2x.
+
+07:37.910 --> 07:39.880
+Đó là điều mình vừa tìm ra được.
+
+07:39.880 --> 07:42.630
+Và mình muốn rằng bạn phải thật sự hiểu nó.
+
+07:42.880 --> 07:47.310
+Nếu bạn thế giá trị x vào f(x) thì bạn sẽ biết được giá trị y tương ứng tại điểm x đó.
+
+07:47.560 --> 07:50.680
+Còn f ' (x) sẽ cho bạn biết hệ số góc tại điểm x đó.
+
+07:51.180 --> 07:53.490
+Để mình vẽ nó ra cho bạn dễ hình dung.
+
+07:53.490 --> 07:56.220
+Có thể lúc đầu sẽ hơi khó để trực giác bạn có thể nghĩ đến
+
+07:56.220 --> 08:01.790
+một hàm số có thể cho mình hệ số góc ở bất kì điểm nào của một hàm số nào đó khác.
+
+08:02.040 --> 08:05.070
+Nó sẽ trông như thế này.
+
+08:05.070 --> 08:10.040
+Để mình vẽ nó đẹp hơn tí.
+
+08:10.290 --> 08:12.230
+Trông có vẽ được rồi đó.
+
+08:12.480 --> 08:15.640
+Và mình sẽ bắt đầu vẽ đồ thị,
+
+08:15.640 --> 08:17.450
+và nó sẽ trông như thế này.
+
+08:17.450 --> 08:23.730
+Vậy đây là đồ thị của f(x) bằng x bình.
+
+08:24.230 --> 08:26.490
+Vậy nếu bạn cho mình một điểm,
+
+08:26.490 --> 08:27.840
+chẳng hạn như 7,
+
+08:27.840 --> 08:30.960
+và mình thế nó vào hàm số ngay đây, tức là bình phương nó lên
+
+08:30.960 --> 08:34.460
+Thì mình sẽ được giá trị y tương ứng là 49.
+
+08:34.460 --> 08:36.170
+Vậy mình được 49 ngay đây.
+
+08:36.170 --> 08:38.190
+Vậy đây là toạ độ (7, 49).
+
+08:38.190 --> 08:40.940
+Những gì mình vừa làm là đối với hàm số f(x).
+
+08:40.940 --> 08:44.750
+Nhưng khi mình thế 7 vào f ' (x) thì mình sẽ được cái gì?
+
+08:45.000 --> 08:48.480
+f '(x)=2x. Vậy f ' (7) sẽ bằng 2 nhân 7, bằng 14
+
+08:48.480 --> 08:51.130
+Vậy số 14 ngay đây có nghĩa là gì?
+
+08:51.380 --> 08:54.780
+Đây là hệ số góc của đường tiếp tuyến tại x bằng 7.
+
+08:55.030 --> 08:59.330
+Vậy nếu mình vẽ đường tiếp tuyến tại x bằng 7,
+
+08:59.330 --> 09:04.160
+Mình sẽ vẽ đường tiếp tuyến đi qua x bằng 7 nhé.
+
+09:04.410 --> 09:06.410
+Nó không được đẹp lắm,
+
+09:06.410 --> 09:09.950
+vậy đây là đường tiếp tuyến của mình.
+
+09:10.200 --> 09:16.010
+Hệ số góc của đường này, tức là sự thay đổi ở y chia cho sự thay đổi ở x sẽ bằng 14.
+
+09:16.260 --> 09:20.020
+Hệ số góc của hàm số này tại x bằng 7 nó là một đường thẳng khá là dốc.
+
+09:20.270 --> 09:25.660
+Và nếu bạn muốn tìm hệ số góc ở điểm ngay đây, tại điểm x bằng 2.
+
+09:25.910 --> 09:30.290
+Khi x bằng 7 thì hệ số góc là 14.
+
+09:30.290 --> 09:32.900
+Vậy hệ số góc ở x bằng 2 là gì?
+
+09:32.900 --> 09:38.630
+Mình sẽ tính f ' (x) tại x bằng 2. Nó sẽ bằng với 2 nhân 2, vậy mình sẽ được 4.
+
+09:38.880 --> 09:43.530
+Vậy ở x bằng 2, thì hệ số góc bằng 4.
+
+09:43.530 --> 09:46.850
+Hoặc bạn có thể dùng kí hiệu của hệ số góc là m, tức m sẽ bằng 4.
+
+09:46.850 --> 09:50.920
+Còn f ' (x) tại x bằng 0 thì sao?
+
+09:51.170 --> 09:52.900
+Mình biết được f(0) bằng 0.
+
+09:52.900 --> 09:55.120
+vì 0 bình phương sẽ bằng 0 đúng chứ?
+
+09:55.120 --> 09:57.710
+Nhưng f ' (0) thì bằng bao nhiêu?
+
+09:57.710 --> 09:59.180
+2 nhân 0 thì bằng 0.
+
+09:59.180 --> 10:00.480
+Vậy f ' (0) sẽ bằng 0.
+
+10:00.480 --> 10:02.850
+Nhưng hệ số góc bằng 0 có ý nghĩa gì?
+
+10:03.100 --> 10:05.850
+Nó có nghĩa là hệ số góc của đường tiếp tuyến bằng 0.
+
+10:05.850 --> 10:09.310
+Và đường tiếp tuyến có hệ số góc bằng 0 sẽ trông như thế này.
+
+10:09.560 --> 10:11.370
+Nó sẽ là một đường nằm ngang.
+
+10:11.370 --> 10:15.660
+Vậy đường thẳng nằm ngang này sẽ là đường tiếp tuyến tại y=0 hay tại x=0.
+
+10:15.910 --> 10:17.620
+Hẫy cùng thử một cái khác nhé.
+
+10:17.620 --> 10:23.190
+Hãy thử tính tại x bằng âm 1.
+
+10:23.190 --> 10:26.290
+Vậy ngay đây sẽ là x= -1.
+
+10:26.290 --> 10:29.710
+Vậy để tính f(-1) thì mình chỉ cần bình phương âm 1 lên.
+
+10:29.960 --> 10:31.570
+Và mình sẽ được 1.
+
+10:31.570 --> 10:33.180
+Tức là điểm ngay đây.
+
+10:33.180 --> 10:36.680
+Vậy còn f ' (-1) là gì?
+
+10:36.680 --> 10:40.050
+Nó sẽ bằng 2 nhân âm 1.
+
+10:40.050 --> 10:42.110
+Và mình sẽ được âm 2.
+
+10:42.110 --> 10:43.650
+Và âm 2 có ý nghĩa gì?
+
+10:43.650 --> 10:50.800
+Nó có nghĩa là tại x bằng -1, thì hệ số góc của đường tiếp tuyến sẽ bằng âm 2.
+
+10:51.050 --> 10:54.600
+Vậy là đường tiếp tuyến sẽ trông như thế này.
+
+10:54.600 --> 10:57.450
+Nó là một đường dốc xuống.
+
+10:57.950 --> 11:04.700
+Bởi vì hệ số góc ở đây là âm 2, nên đường tiếp tuyến sẽ dốc xuống.

@@ -1,0 +1,553 @@
+WEBVTT
+
+00:00.624 --> 00:01.442
+Mình đã làm nhiều bài
+
+00:01.442 --> 00:03.722
+liên quan tới chuỗi cấp số nhân.
+
+00:03.956 --> 00:06.577
+Ví dụ như mình có sigma
+(chuỗi cấp số nhân vô hạn)
+
+00:07.101 --> 00:11.406
+chạy từ n=k tới vô cực của r mũ n,
+
+00:11.406 --> 00:16.242
+cái này sẽ bằng r mũ k, cộng r mũ (k+1),
+
+00:16.242 --> 00:18.922
+cộng r mũ (k + 2),
+
+00:18.922 --> 00:21.779
+và cứ thế tiếp tục.
+
+00:21.779 --> 00:23.991
+Có một vài thứ mình đã biết ở đây.
+
+00:23.991 --> 00:26.240
+Ví dụ như công bội là gì.
+
+00:26.240 --> 00:31.240
+Thì công bội được tính là
+
+00:31.558 --> 00:36.558
+tỉ lệ giữa các số hạng liên tiếp,
+sẽ bằng r mũ (k+1).
+
+00:36.956 --> 00:39.956
+Để mình viết là r mũ (n+1).
+
+00:39.956 --> 00:42.473
+Mình không muốn sửa k ở đây.
+
+00:42.473 --> 00:46.273
+Vậy r mũ (n+1) trên r mũ n.
+
+00:46.742 --> 00:48.985
+Đây sẽ bằng tới r.
+
+00:48.985 --> 00:51.374
+Bất cứ cái gì mũ (n+1) trên cái đó mũ n,
+
+00:51.374 --> 00:54.794
+cũng sẽ bằng r, hay là r mũ 1,
+
+00:54.794 --> 00:56.004
+bạn cũng thấy đó ở đây.
+
+00:56.004 --> 00:57.573
+Khi đi từ một số hạng qua số hạng khác,
+
+00:57.573 --> 01:00.974
+bạn chỉ đang nhân nó với r.
+
+01:01.491 --> 01:04.375
+Này chỉ là phần ôn lại thôi.
+
+01:04.375 --> 01:05.743
+Nếu cái này chưa rõ, bạn nên
+
+01:05.743 --> 01:08.440
+xem lại video khác về chuỗi cấp số nhân.
+
+01:08.440 --> 01:10.656
+Cái hay ở đây là mình đã chứng minh được
+
+01:10.656 --> 01:13.125
+trong các video về chuỗi cấp số nhân,
+
+01:16.617 --> 01:19.339
+là nếu như công bội,
+hay là giá trị tuyệt đối của nó,
+
+01:19.339 --> 01:22.408
+nhỏ hơn 1,
+
+01:24.608 --> 01:28.291
+thì chuỗi này sẽ hội tụ.
+
+01:29.625 --> 01:32.257
+Và nếu như giá trị tuyệt đối của r
+
+01:32.257 --> 01:34.575
+lớn hơn hoặc bằng 1,
+
+01:34.575 --> 01:35.988
+thì chuỗi này sẽ phân kỳ.
+
+01:35.988 --> 01:37.693
+Mình đã chứng minh cái này rồi.
+
+01:37.693 --> 01:39.457
+Hoặc là mình cũng có thể thấy,
+
+01:39.457 --> 01:41.892
+nếu như giá trị tuyệt đối của r nhỏ hơn 1,
+
+01:41.892 --> 01:45.493
+thì mỗi số hạng ở đây sẽ giảm đi một r,
+
+01:45.493 --> 01:47.659
+hoặc nó sẽ được nhân thêm với
+một công bội,
+
+01:47.659 --> 01:50.659
+và nó sẽ giảm liên tục
+
+01:50.659 --> 01:52.630
+cho tới khi nhìn nó có vẻ hợp lý,
+
+01:52.630 --> 01:56.459
+mặc dù đây là tổng vô hạn,
+nhưng nó sẽ hội tụ thành giá trị hữu hạn.
+
+01:57.060 --> 01:59.459
+Nhiêu đó để ôn lại xíu.
+
+01:59.459 --> 02:04.459
+Giờ mình sẽ chuyển qua bài toán khác nhé.
+
+02:05.077 --> 02:07.493
+Mình sẽ muốn xét bài này,
+
+02:07.493 --> 02:11.526
+mình muốn tìm ra là sigma này,
+
+02:11.671 --> 02:13.793
+bắt đầu từ n=5 tới vô cực,
+
+02:13.793 --> 02:17.180
+của, để xem, của n mũ 10.
+
+02:17.180 --> 02:19.577
+Tử số này sẽ tăng nhanh đấy.
+
+02:19.577 --> 02:23.492
+n mũ 10 trên n! (n giai thừa)
+
+02:23.492 --> 02:25.876
+và mình cũng biết là giai thừa
+sẽ tăng khá nhanh,
+
+02:25.876 --> 02:27.127
+và có thể nó sẽ tăng nhanh hơn cả
+
+02:27.127 --> 02:31.460
+đơn thức bậc cao như thế này,
+
+02:31.460 --> 02:33.243
+hay là số hạng bậc cao như này,
+
+02:33.243 --> 02:36.527
+nhưng làm sao để chứng minh nó hội tụ?
+
+02:36.527 --> 02:38.293
+Mình có thể áp dụng phép thử phân kỳ
+
+02:38.293 --> 02:41.065
+để chứng minh là nó không phân kỳ,
+
+02:41.065 --> 02:44.078
+nhưng làm sao để mình chứng minh
+nó hội tụ
+
+02:44.078 --> 02:47.543
+Và có thể mình sẽ cần một chút
+trực giác ở đây.
+
+02:47.959 --> 02:50.627
+Để xem mình có công bội ở đây là gì.
+
+02:50.627 --> 02:53.144
+Để xem ở đây có công bội không nhé.
+
+02:53.144 --> 02:55.460
+Vậy mình sẽ lấy n cộng số hạng thứ nhất,
+
+02:55.460 --> 02:59.841
+sẽ bằng n cộng 1, tất cả mũ 10,
+
+02:59.841 --> 03:04.841
+trên n cộng 1! và chia cho số hạng thứ n.
+
+03:06.392 --> 03:11.392
+Vậy hãy chia cho n mũ 10, trên n!
+
+03:12.826 --> 03:15.243
+Và khi chia cho một phân số hay bất cứ gì
+
+03:15.243 --> 03:17.243
+sẽ bằng nhân cho nghịch đảo của số đó.
+
+03:17.243 --> 03:19.309
+Vậy hãy cứ nhân cho số nghịch đảo của nó.
+
+03:19.309 --> 03:24.001
+Vậy nhân n! trên n mũ 10.
+
+03:24.001 --> 03:26.592
+Nhớ là những gì mình làm đều ở đây.
+
+03:26.592 --> 03:30.043
+Để xem có công bội nào không.
+
+03:30.812 --> 03:32.259
+Nếu áp dụng một chút đại số,
+
+03:32.259 --> 03:36.341
+(n cộng 1) giai thừa
+
+03:36.341 --> 03:41.341
+Cái này cũng như n cộng 1, nhân n!
+
+03:43.043 --> 03:45.513
+Nhân n!
+
+03:45.513 --> 03:46.698
+Bạn thường không thấy
+
+03:46.698 --> 03:48.260
+thấy tự phép toán với giai thừa,
+
+03:48.260 --> 03:51.359
+nhưng giai thừa này chỉ áp dụng với n này,
+
+03:51.359 --> 03:52.877
+và tại sao mình cần nó?
+
+03:52.877 --> 03:55.626
+Vì n! sẽ tự khử n!,
+
+03:55.626 --> 04:00.626
+và mình chỉ còn n cộng 1 mũ 10,
+
+04:00.758 --> 04:05.758
+trên n cộng 1, nhân n mũ 10.
+
+04:08.376 --> 04:10.505
+Nhân n mũ 10.
+
+04:10.505 --> 04:11.691
+Mình biết là bạn sẽ nghĩ
+
+04:11.691 --> 04:14.145
+"Cái này đâu phải công bội ở đây."
+
+04:14.145 --> 04:16.545
+Tỷ lệ giữa hai số hạng liên tiếp ở đây,
+
+04:16.545 --> 04:19.361
+khi mình lấy n cộng số hạng đầu,
+chia cho số hạng thứ n,
+
+04:19.361 --> 04:22.009
+nó sẽ thay đổi tuỳ theo n là gì.
+
+04:22.009 --> 04:25.996
+Tỷ lệ này là hàm số của n,
+
+04:25.996 --> 04:27.896
+nhìn nó có vẻ không giúp gì mấy,
+
+04:27.896 --> 04:29.079
+nhưng mà nếu mình nói là
+
+04:29.079 --> 04:31.046
+"Đối với một trong những sigma này,
+
+04:31.046 --> 04:33.546
+mình chỉ cần quan tâm khi n
+
+04:33.546 --> 04:35.777
+càng ngày càng lớn hơn,
+
+04:35.777 --> 04:38.947
+và lim sẽ dần đi tới vô cực."
+
+04:38.947 --> 04:40.878
+Nếu như mình xét ở đây,
+
+04:40.878 --> 04:42.129
+nếu cái này tiến tới
+
+04:42.129 --> 04:43.928
+giá trị nào đó khi n tiến tới vô cực,
+
+04:43.928 --> 04:45.679
+về mặt khái niệm thì nó sẽ có ý nghĩa
+
+04:45.679 --> 04:47.212
+mình có thể hiểu nó như
+
+04:50.596 --> 04:52.129
+giới hạn của công bội.
+
+04:52.796 --> 04:54.177
+Nên mình sẽ làm vậy.
+
+04:54.177 --> 04:59.177
+Vậy hãy lấy lim khi n tiến tới vô cực
+của cái này.
+
+05:00.329 --> 05:01.547
+Mình bắt đầu nào.
+
+05:01.547 --> 05:03.379
+Đây không phải ma thuật gì hết.
+
+05:03.379 --> 05:06.713
+Về mặt khái niệm, để mình dán cái này,
+
+05:07.662 --> 05:09.262
+Về mặt khái niệm, mình chỉ đang nghĩ
+
+05:09.262 --> 05:12.278
+công bội sẽ tiến tới gì?
+
+05:12.278 --> 05:14.212
+Mình muốn biết tỷ lệ
+giữa các số hạng liên tục là gì?
+
+05:14.212 --> 05:15.963
+Số hạng n+1 và số hạng thứ n,
+
+05:15.963 --> 05:18.947
+khi n ngày càng lớn.
+
+05:19.347 --> 05:22.178
+Mình cũng thấy ở đây
+
+05:22.178 --> 05:23.213
+mình không cần phải nhân phân phối
+
+05:23.213 --> 05:24.743
+cái này sẽ bằng n mũ 10,
+
+05:24.743 --> 05:26.329
+cộng một đống thứ khác.
+
+05:26.329 --> 05:28.612
+Cái này sẽ là đa thức bậc 10,
+
+05:28.612 --> 05:31.070
+và cái ở dưới này đây,
+
+05:31.070 --> 05:32.629
+bạn có thể tự biết là,
+
+05:32.629 --> 05:36.064
+cái này sẽ bằng n mũ 11, cộng n mũ 10,
+
+05:36.972 --> 05:38.573
+vậy lim khi n tiến tới vô cực là
+
+05:38.573 --> 05:40.287
+mẫu số này sẽ tăng nhanh hơn vậy nữa.
+
+05:40.287 --> 05:41.504
+bạn có thể chia tử số
+
+05:41.504 --> 05:43.156
+và mẫu số với n mũ 10,
+
+05:46.662 --> 05:48.705
+thật ra tử số và mẫu số với n mũ 11
+
+05:48.705 --> 05:50.740
+và mọi thứ ở đây sẽ tiến tới 0,
+
+05:50.740 --> 05:52.622
+và cái này sẽ bằng 1,
+
+05:52.622 --> 05:54.504
+vậy lim ở đây,
+
+05:57.148 --> 06:00.479
+lim này sẽ tiến tới...
+
+06:01.355 --> 06:04.522
+lim này sẽ bằng với 0.
+
+06:04.522 --> 06:06.155
+Khi n tiến tới vô cực một bên, tỷ lệ giữa
+
+06:06.155 --> 06:11.155
+các số hạng liên tiếp tiến tới 0.
+
+06:12.819 --> 06:17.772
+Vậy ở đây, nếu mình dùng công bội ở đây
+
+06:17.772 --> 06:19.823
+giống như khi mình làm chuỗi cấp số nhân,
+
+06:19.823 --> 06:21.538
+đây rõ ràng không phải chuỗi cấp số nhân,
+
+06:21.538 --> 06:23.487
+nhưng mình sẽ thấy khi n càng lớn,
+
+06:23.487 --> 06:25.439
+tỷ lệ giữa số hạng liên tiếp
+
+06:25.439 --> 06:27.638
+càng ngày giảm dần đi.
+
+06:27.638 --> 06:30.689
+Có thể bạn sẽ muốn kết luận như vậy,
+
+06:31.105 --> 06:32.438
+bạn sẽ kết luận là
+
+06:32.438 --> 06:37.438
+vì vậy sigma này là chuỗi hội tụ.
+
+06:38.073 --> 06:43.073
+Chuỗi này có thể hội tụ, nên n! hội tụ.
+
+06:43.465 --> 06:45.600
+Vậy mình có thể nói vậy không?
+
+06:45.600 --> 06:48.607
+Tất nhiên là được rồi,
+
+06:48.607 --> 06:52.500
+và nó sẽ cho phép mình làm phép thử tỷ lệ.
+
+06:52.531 --> 06:54.260
+Phép thử tỉ lệ.
+
+06:54.260 --> 06:55.325
+Để mình viết nó xuống,
+
+06:55.325 --> 06:57.501
+Phép thử tỷ lệ.
+
+06:58.040 --> 07:00.873
+và tất cả những gì phép thử này
+cho mình biết là
+
+07:00.873 --> 07:03.739
+nếu mình có một sigma
+
+07:03.739 --> 07:04.969
+nếu mình có một chuỗi sigma,
+
+07:04.969 --> 07:09.076
+và mình có thể nói từ n=k tới vô cực,
+
+07:09.076 --> 07:14.076
+nếu lấy lim khi n tiến tới vô cực
+
+07:17.883 --> 07:22.324
+của trị tuyệt đối a mũ (n+1),
+
+07:22.324 --> 07:25.140
+trên a mũ n, và ở đây, mình không
+
+07:25.140 --> 07:26.660
+lấy trị tuyệt đối của lim,
+
+07:26.660 --> 07:28.042
+nhưng mình có thể lấy
+
+07:28.042 --> 07:29.825
+trị tuyệt đối của lim đó
+
+07:29.825 --> 07:33.075
+nếu các số hạng ngay đây đều dương,
+
+07:33.075 --> 07:35.026
+vì vậy trị tuyệt đối sẽ bằng chính nó.
+
+07:36.118 --> 07:38.383
+Nếu như cái này tiến tới lim nào đó,
+
+07:38.921 --> 07:40.443
+nếu như cái này tiến tới lim nào đó,
+
+07:40.443 --> 07:44.040
+một lần nữa, lim này sẽ chính là tỷ lệ
+
+07:44.040 --> 07:47.698
+giữa các số hạng liên tiếp khi n lớn dần,
+
+07:48.467 --> 07:53.467
+tỷ lệ này cho biết nếu L nhỏ hơn 1,
+
+07:55.342 --> 07:58.358
+giống như ở đây, L rõ ràng nhỏ hơn 1,
+
+07:58.358 --> 08:00.509
+thì chuỗi này hội tụ.
+
+08:04.653 --> 08:07.908
+Một số định nghĩa sẽ cho là nó hội tụ,
+
+08:07.908 --> 08:09.826
+và trị tuyệt đối của chuỗi này hội tụ,
+
+08:09.826 --> 08:12.258
+nhưng này cũng có nghĩa là
+
+08:12.258 --> 08:14.246
+bản thân chuỗi đó cũng hội tụ.
+
+08:14.246 --> 08:19.246
+Vậy nếu L lớn hơn 1, thì chuỗi phân kỳ.
+
+08:20.735 --> 08:22.903
+Chuỗi sẽ phân kì.
+
+08:23.595 --> 08:28.192
+Và nếu L bằng 1, mình không kết luận được.
+
+08:29.191 --> 08:31.091
+Mình cần phải thêm phép thử gì khác để
+
+08:31.091 --> 08:34.659
+chứng minh nó hội tụ hay phân kỳ.
+
+08:35.193 --> 08:37.291
+Đây là ý chính của phép thử tỷ lệ.
+
+08:37.291 --> 08:39.758
+Tìm trị tuyệt đối
+
+08:39.758 --> 08:41.408
+của các số hạng liên tiếp,
+
+08:41.408 --> 08:43.127
+lấy lim khi n tiến tới vô cực,
+
+08:43.127 --> 08:46.742
+nếu như nó tiến tới lim thật sự,
+
+08:46.742 --> 08:51.742
+và lim đó nhỏ hơn 1 thì chuỗi này phân kỳ
+
+08:51.923 --> 08:53.798
+và nó còn dựa vào một ý tưởng nền tảng
+
+08:53.798 --> 08:57.381
+ở trong công bội của chuỗi cấp số nhân.

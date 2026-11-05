@@ -1,0 +1,446 @@
+WEBVTT
+
+00:00.000 --> 00:02.061
+Então, aqui eu tenho uma série infinita.
+
+00:02.061 --> 00:04.861
+A soma de n igual a zero até o
+infinito de menos um
+
+00:04.861 --> 00:07.921
+elevado a n vezes x elevado a seis n
+
+00:07.921 --> 00:11.141
+sobre dois n, sendo que, todo
+esse dois n fatorial.
+
+00:11.141 --> 00:17.450
+O meu objetivo nesse vídeo é
+calcular essa série de potencias
+
+00:17.450 --> 00:21.961
+quando x é igual a raiz cúbica
+de pi dividido por dois.
+
+00:21.961 --> 00:24.361
+Sugiro que você pause esse vídeo
+
+00:24.361 --> 00:26.141
+e tente resolver por você mesmo.
+
+00:26.141 --> 00:27.621
+Vou lhe dar uma dica.
+
+00:27.621 --> 00:29.841
+A chave para isso é entender--
+
+00:29.841 --> 00:32.101
+para que função essa série
+de potências serve?
+
+00:32.101 --> 00:35.041
+e então usar tal função
+para resolver isso.
+
+00:35.041 --> 00:37.001
+Há outra dica aqui, olhe,
+
+00:37.001 --> 00:39.441
+isso é meio que um número meio
+
+00:39.441 --> 00:41.201
+misterioso ou suspeito aqui, o pi/2.
+
+00:41.201 --> 00:42.841
+Isso é algo que, para resolver,
+
+00:42.841 --> 00:45.941
+eu usaria uma função trigonométrica.
+
+00:45.941 --> 00:47.801
+É uma forma um pouco mais direta.
+
+00:47.801 --> 00:51.051
+Deixarei você tentar.
+
+00:51.078 --> 00:52.582
+Supondo que você tenha tentado,
+
+00:52.582 --> 00:54.202
+vamos tentar resolver juntos.
+
+00:54.202 --> 00:56.642
+Em qualquer problema desse tipo,
+
+00:56.642 --> 01:00.202
+eu gosto de pelo menos expandir
+a série de potências
+
+01:00.202 --> 01:02.773
+para entender melhor do que se trata.
+
+01:02.773 --> 01:04.643
+Ao expandir essa sequência,
+
+01:04.643 --> 01:06.763
+isso resultará, quando n for igual a zero,
+
+01:06.763 --> 01:09.803
+isso é um, na verdade,
+todos esses são um,
+
+01:09.803 --> 01:11.043
+será simplesmente um.
+
+01:11.043 --> 01:12.983
+Quando n for um, isso será igual a
+
+01:12.983 --> 01:15.123
+menos um, x elevado a seis,
+
+01:15.123 --> 01:18.143
+x elevado a sexta sobre dois fatorial.
+
+01:18.143 --> 01:21.363
+Quando n é dois, será positivo.
+
+01:21.363 --> 01:23.223
+Menos um ao quadrado é um positivo,
+
+01:23.223 --> 01:28.023
+vezes x elevado a doze
+sobre quatro fatorial.
+
+01:28.023 --> 01:30.963
+Vamos fazer só mais um caso:
+quando x é igual a três,
+
+01:30.963 --> 01:35.034
+será igual a menos x elevado a 18.
+
+01:35.054 --> 01:39.567
+X elevado a 18 sobre seis fatorial.
+
+01:39.567 --> 01:41.367
+E assim sucessivamente.
+
+01:41.367 --> 01:45.187
+Agora, por outro lado, eu não sei
+dizer uma função,
+
+01:45.187 --> 01:46.707
+sobretudo uma trigonométrica,
+
+01:46.707 --> 01:48.187
+pois era nossa pista aqui,
+
+01:48.187 --> 01:50.227
+pi sobre dois me parece indicar
+
+01:50.227 --> 01:53.667
+que isso deve ser uma função
+trigonométrica bem aqui.
+
+01:53.667 --> 01:55.847
+Instantaneamente, nada me vem a cabeça,
+
+01:55.847 --> 01:59.747
+mas é certo que isso é
+estranhamente familiar.
+
+01:59.747 --> 02:03.567
+Parece muito com a série de potências,
+
+02:03.567 --> 02:05.927
+ou a série de Maclaurin
+para o cosseno de x,
+
+02:05.927 --> 02:08.347
+a qual já vimos várias vezes.
+
+02:08.347 --> 02:10.387
+Façamos uma pequena revisão dela.
+
+02:10.387 --> 02:11.607
+Se isso não for familiar,
+
+02:11.607 --> 02:14.447
+o vídeo anterior, onde
+explico a série de Maclaurin
+
+02:14.447 --> 02:17.367
+para o cosseno de x explica em
+detalhe como chegar nisso.
+
+02:17.367 --> 02:22.557
+A série de Maclaurin para
+cosseno de x é igual a...
+
+02:22.577 --> 02:23.627
+Só alguns termos,
+
+02:23.627 --> 02:25.147
+usarei o aproximadamente igual
+
+02:25.147 --> 02:29.567
+a um menos x ao quadrado
+sobre dois fatorial,
+
+02:29.567 --> 02:35.997
+mais x elevado a quarta
+sobre quatro fatorial,
+
+02:36.027 --> 02:40.847
+menos x elevado a sexta
+sobre seis fatorial,
+
+02:40.847 --> 02:43.527
+e, assim, você deve estar começando
+a ver as semelhanças.
+
+02:43.527 --> 02:45.327
+O primeiro termo é o mesmo,
+
+02:45.327 --> 02:47.517
+o sinal negativo, positivo,
+negativo, positivo,
+
+02:47.517 --> 02:49.377
+negativo, positivo, negativo, positivo.
+
+02:49.377 --> 02:51.887
+Dois fatorial, quatro fatorial,
+seis fatorial.
+
+02:51.887 --> 02:54.667
+A diferença está nos expoentes;
+
+02:54.667 --> 02:56.157
+nos expoentes de x.
+
+02:56.157 --> 02:58.497
+Esse x está ao quadrado,
+esse outro está a sexta.
+
+02:58.497 --> 03:00.667
+Esse é x a quarta,
+aquele é x elevado a 12.
+
+03:00.667 --> 03:04.137
+Esse é x a sexta,
+aquele é x elevado a 18.
+
+03:04.137 --> 03:06.804
+Bem, e se nós...
+
+03:06.804 --> 03:09.328
+Creio que algo bom para você pensar é,
+
+03:09.328 --> 03:12.788
+bem, como podemos substituir x
+por alguma outra coisa?
+
+03:12.788 --> 03:14.228
+Porque mudando qualquer coisa,
+
+03:14.228 --> 03:15.568
+se eu tirar o cosseno de...
+
+03:15.568 --> 03:18.028
+Se mudar x por, talvez, a mais b,
+
+03:18.028 --> 03:20.308
+sempre que virmos x,
+substitua-o por a mais b.
+
+03:20.308 --> 03:23.048
+Podemos por a elevado a x aqui,
+
+03:23.048 --> 03:27.471
+para que essas coisas fiquem assim?
+
+03:27.491 --> 03:32.342
+Bem, esse x a sexta é o mesmo que
+
+03:32.371 --> 03:35.852
+x elevado ao cubo ao quadrado.
+
+03:35.852 --> 03:37.852
+Aqui está o x elevado ao cubo ao quadrado.
+
+03:37.852 --> 03:39.672
+Já aqui, o x elevado a 12,
+
+03:39.672 --> 03:42.552
+é a mesma coisa que x elevado ao cubo
+elevado a quarta.
+
+03:42.552 --> 03:45.092
+Isso aqui é a mesma coisa que
+
+03:45.092 --> 03:47.572
+x elevado ao cubo elevado a sexta.
+
+03:47.572 --> 03:51.292
+Então, se pudermos substituir cada um
+desses xs com xs elevado ao cubo,
+
+03:51.292 --> 03:54.372
+chegaremos a essa série de potências aqui.
+
+03:54.372 --> 03:55.292
+Como fazemos isso?
+
+03:55.292 --> 03:58.052
+Bem, podemos dizer que
+o cosseno de x ao cubo
+
+03:58.052 --> 04:00.431
+e, na verdade, vou escrever em outra cor.
+
+04:00.452 --> 04:04.472
+O cosseno -- isso não é uma outra cor.
+
+04:04.481 --> 04:09.933
+Então, o cosseno de
+x ao cubo será igual a,
+
+04:09.933 --> 04:11.329
+e novamente, ao ver um x,
+
+04:11.329 --> 04:12.566
+substitua-o por x ao cubo.
+
+04:12.566 --> 04:14.936
+É um menos, e, na verdade,
+
+04:14.936 --> 04:17.497
+colocarei os parênteses ao quadrado,
+dois fatorial
+
+04:17.497 --> 04:19.539
+Queria fazer isso em verde.
+
+04:19.539 --> 04:21.572
+Vou fazer tudo isso em verde mesmo.
+
+04:21.572 --> 04:23.437
+Tudo bem, então, isso vai ser igual a:
+
+04:23.437 --> 04:27.617
+um menos algo entre parenteses ao quadrado
+sobre dois fatorial
+
+04:27.617 --> 04:31.917
+mais algo entre parenteses
+elevado a quarta sobre quatro fatorial
+
+04:31.917 --> 04:36.777
+menos algo entre parenteses
+elevado a sexta sobre seis fatorial.
+
+04:36.777 --> 04:39.697
+Vou voltar a usar a cor de malva.
+
+04:39.697 --> 04:42.117
+Já que estou elevando
+o cosseno de x ao cubo,
+
+04:42.117 --> 04:44.537
+aqui será x ao cubo elevado ao quadrado.
+
+04:44.537 --> 04:47.057
+Aqui será x ao cubo
+elevado a quarta potência.
+
+04:47.057 --> 04:49.197
+Aqui será x ao cubo
+elevado a sexta potência,
+
+04:49.197 --> 04:52.577
+que é exatamente o que tenho aqui.
+
+04:52.577 --> 04:55.477
+Assim, o que temos aqui é
+uma sequência de potências
+
+04:55.477 --> 04:57.777
+para o cosseno de x ao cubo.
+
+04:57.777 --> 05:00.957
+Calculando isso quando x for
+
+05:00.957 --> 05:02.517
+a raiz cúbica de pi sobre dois,
+
+05:02.517 --> 05:04.477
+é o mesmo que calcular aquilo
+
+05:04.477 --> 05:06.857
+quando x é igual a raiz cúbica
+de pi sobre dois.
+
+05:06.857 --> 05:08.798
+Vou escrever isso, pois é interessante.
+
+05:08.798 --> 05:14.838
+Irei rescrever isso aqui,
+desde n igual a zero
+
+05:14.861 --> 05:18.360
+ao infinito de menos um até n
+
+05:18.360 --> 05:23.810
+de x elevado a seis n
+sobre dois n fatorial.
+
+05:23.840 --> 05:28.120
+Isso é igual a -- essa é a representação
+da série de potências--
+
+05:28.120 --> 05:32.564
+cosseno de x ao cubo.
+
+05:32.564 --> 05:33.940
+Para calcular isso,
+
+05:33.940 --> 05:35.830
+quando x for a raiz cúbica
+de pi sobre dois,
+
+05:35.830 --> 05:36.990
+basta resolver isso para
+
+05:36.990 --> 05:38.940
+x é igual a raiz cúbica de pi sobre dois.
+
+05:38.940 --> 05:40.993
+Isso, embora de forma suspeita,
+funciona bem
+
+05:40.993 --> 05:42.903
+pois, ao tirar o cubo da raiz cúbica,
+
+05:42.903 --> 05:44.403
+coisas boas acontecerão.
+
+05:44.403 --> 05:53.453
+Então o cosseno da raiz cúbica
+de pi sobre dois
+
+05:53.467 --> 05:55.663
+elevado ao cubo, bem, é
+a mesma coisa que
+
+05:55.663 --> 05:58.063
+cosseno de pi sobre dois,
+
+05:58.063 --> 06:03.833
+que, é claro, é igual a zero.
+
+06:03.833 --> 06:05.311
+Terminamos.
+
+06:05.311 --> 06:08.021
+Legendado por [Leonardo Trajano Dias Garcia]
+Revisado por [Victor Oliveira]

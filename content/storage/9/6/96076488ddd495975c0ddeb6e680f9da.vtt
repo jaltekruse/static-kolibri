@@ -1,0 +1,707 @@
+WEBVTT
+
+00:00.750 --> 00:03.230
+Over here I've drawn
+part of the graph of y
+
+00:03.230 --> 00:05.550
+is equal to x squared.
+
+00:05.550 --> 00:07.780
+And what we're going
+to do is use our powers
+
+00:07.780 --> 00:12.510
+of definite integrals to find
+volumes instead of just areas.
+
+00:12.510 --> 00:14.400
+So let's review what
+we're doing when
+
+00:14.400 --> 00:16.980
+we take just a regular
+definite integral.
+
+00:16.980 --> 00:19.410
+So if we take the definite
+integral between, say,
+
+00:19.410 --> 00:24.580
+0 and 2 of x squared dx,
+what does that represent?
+
+00:24.580 --> 00:26.040
+Well, let's look
+at our endpoints.
+
+00:26.040 --> 00:28.050
+So this is x is equal to 0.
+
+00:28.050 --> 00:33.180
+Let's say that this right
+over here is x is equal to 2.
+
+00:33.180 --> 00:36.390
+What we're doing is
+for each x, we're
+
+00:36.390 --> 00:39.600
+finding a little dx around
+it-- so this right over here
+
+00:39.600 --> 00:41.430
+is a little dx.
+
+00:41.430 --> 00:44.220
+And we're multiplying that
+dx times our function,
+
+00:44.220 --> 00:45.970
+times x squared.
+
+00:45.970 --> 00:48.910
+So what we're doing is we're
+multiplying this width times
+
+00:48.910 --> 00:52.440
+this height right over here.
+
+00:52.440 --> 00:55.110
+The height right over
+here is x squared.
+
+00:55.110 --> 00:58.180
+And we're getting the area
+of this little rectangle.
+
+00:58.180 --> 01:00.740
+And the integral
+sign is literally
+
+01:00.740 --> 01:05.940
+the sum of all of these
+rectangles for all of the x's
+
+01:05.940 --> 01:09.290
+between x is equal to
+0 and x is equal to 2.
+
+01:09.290 --> 01:13.530
+But the limit of that as these
+dx's get smaller and smaller
+
+01:13.530 --> 01:16.160
+and smaller, get
+infinitely small,
+
+01:16.160 --> 01:17.990
+but not being equal to 0.
+
+01:17.990 --> 01:19.870
+And we have an infinite
+number of them.
+
+01:19.870 --> 01:22.490
+That's the whole power
+of the definite integral.
+
+01:22.490 --> 01:25.190
+And so you can imagine, as these
+dx's get smaller and smaller
+
+01:25.190 --> 01:27.550
+and smaller, these rectangles
+get narrower and narrower
+
+01:27.550 --> 01:29.174
+and narrower, and we
+have more of them,
+
+01:29.174 --> 01:31.500
+we are getting a better
+and better approximation
+
+01:31.500 --> 01:33.780
+of the area under the
+curve until, at the limit,
+
+01:33.780 --> 01:36.590
+we are getting the
+area under the curve.
+
+01:36.590 --> 01:38.780
+Now we're going to apply
+that same idea, not
+
+01:38.780 --> 01:40.690
+to find the area
+under this curve,
+
+01:40.690 --> 01:42.090
+but to find the
+volume if we were
+
+01:42.090 --> 01:45.120
+to rotate this curve
+around the x-axis.
+
+01:45.120 --> 01:48.900
+So this is going to stretch our
+powers of visualization here.
+
+01:48.900 --> 01:50.620
+So let's think
+about what happens
+
+01:50.620 --> 01:55.380
+when we rotate this
+thing around the x-axis.
+
+01:55.380 --> 01:57.794
+So if we were to rotate
+it, and I'll look at it
+
+01:57.794 --> 02:00.210
+and say that we're looking it
+a little bit from the right.
+
+02:00.210 --> 02:03.890
+So we get kind of a base that
+looks something like this.
+
+02:03.890 --> 02:06.940
+So this is my best
+attempt to draw it.
+
+02:06.940 --> 02:10.990
+So you have a base that
+looks something like that.
+
+02:10.990 --> 02:14.180
+And then the rest
+of the function,
+
+02:14.180 --> 02:16.020
+if we just think
+about between 0 and 2,
+
+02:16.020 --> 02:17.430
+it looks like one
+of those pieces
+
+02:17.430 --> 02:20.370
+from-- I don't know if you
+ever played the game Sorry--
+
+02:20.370 --> 02:23.910
+or it looks like a little
+bit of a weird hat.
+
+02:23.910 --> 02:30.067
+So it looks like this, and let
+me shade it in a little bit
+
+02:30.067 --> 02:31.400
+so it looks something like that.
+
+02:31.400 --> 02:32.816
+And just so that
+we're making sure
+
+02:32.816 --> 02:35.590
+we can visualize this
+thing that's being rotated.
+
+02:35.590 --> 02:38.250
+We care about the entire
+volume of the thing.
+
+02:38.250 --> 02:40.720
+Let me draw it from a
+few different angles.
+
+02:40.720 --> 02:45.290
+So if I drew from the top, it
+would look something like this.
+
+02:45.290 --> 02:46.710
+It'll become a
+little more obvious
+
+02:46.710 --> 02:48.560
+that it looks
+something like a hat.
+
+02:48.560 --> 02:53.534
+It would point up like this,
+and it goes down like that.
+
+02:53.534 --> 02:54.950
+It would look
+something like that.
+
+02:54.950 --> 03:00.300
+So in this angle, we're not
+seeing the bottom of it.
+
+03:00.300 --> 03:03.330
+And if you were to
+just orient yourself,
+
+03:03.330 --> 03:06.060
+the axes, in this
+case, look like this.
+
+03:06.060 --> 03:07.016
+So this is the y-axis.
+
+03:10.010 --> 03:13.640
+And the x-axis goes right
+inside of this thing
+
+03:13.640 --> 03:16.650
+and then pops out
+the other side.
+
+03:16.650 --> 03:18.640
+And if this thing
+was transparent,
+
+03:18.640 --> 03:21.960
+then you could
+see the back side.
+
+03:21.960 --> 03:23.890
+It would look
+something like that.
+
+03:23.890 --> 03:26.500
+The x-axis, if you
+could see through it,
+
+03:26.500 --> 03:28.979
+would pop the base
+right over there,
+
+03:28.979 --> 03:31.020
+would go right through
+the base right over there.
+
+03:31.020 --> 03:32.880
+And it'd come out
+on the other side.
+
+03:32.880 --> 03:36.260
+So this is one orientation
+for the same thing.
+
+03:36.260 --> 03:38.810
+You could visualize it
+from different angles.
+
+03:38.810 --> 03:41.540
+So let's think about how we
+can take the volume of it.
+
+03:41.540 --> 03:44.210
+Well, instead of thinking
+about the area of each
+
+03:44.210 --> 03:46.850
+of these rectangles, what
+happens if we rotate each
+
+03:46.850 --> 03:49.880
+of these rectangles
+around the x-axis?
+
+03:49.880 --> 03:51.360
+So let's do it.
+
+03:51.360 --> 03:53.680
+So let's take each of these.
+
+03:53.680 --> 03:55.540
+Let's say you have this
+dx right over here,
+
+03:55.540 --> 03:58.140
+and you rotate it
+around the x-axis.
+
+03:58.140 --> 04:01.560
+So if you were rotate this
+thing around the x-axis--
+
+04:01.560 --> 04:04.477
+so I'm trying my best
+to-- around the x-axis,
+
+04:04.477 --> 04:05.060
+you rotate it.
+
+04:05.060 --> 04:06.090
+What do you end up with?
+
+04:08.600 --> 04:10.920
+Well, you get something that
+looks kind of like a coin,
+
+04:10.920 --> 04:13.970
+like a disk, like a
+quarter of some kind.
+
+04:13.970 --> 04:15.330
+And let me draw it out here.
+
+04:15.330 --> 04:18.320
+So that same disk out here
+would look something like this.
+
+04:22.230 --> 04:27.860
+And it has a depth of dx.
+
+04:27.860 --> 04:31.170
+So how can we find the
+volume of that disk?
+
+04:31.170 --> 04:33.130
+Let me redraw it out here, too.
+
+04:33.130 --> 04:35.740
+It's really important to
+visualize this stuff properly.
+
+04:35.740 --> 04:39.160
+So this is my x-axis.
+
+04:39.160 --> 04:44.320
+My disk looks
+something like this.
+
+04:44.320 --> 04:48.270
+My best attempt at the x-axis
+sits it right over there.
+
+04:48.270 --> 04:49.870
+It comes out of the center.
+
+04:49.870 --> 04:55.040
+And then this is the
+surface of my disk.
+
+04:55.040 --> 04:59.430
+And then this right over
+here is my depth dx.
+
+04:59.430 --> 05:01.980
+So that looks pretty good.
+
+05:01.980 --> 05:03.890
+And then let me just
+shade it in a little bit
+
+05:03.890 --> 05:05.740
+to give you a little
+bit of the depth.
+
+05:05.740 --> 05:08.170
+So how can we find
+the volume of this?
+
+05:08.170 --> 05:10.210
+Well, like any disk
+or cylinder, you just
+
+05:10.210 --> 05:12.360
+have to think about what
+the area of this face
+
+05:12.360 --> 05:14.100
+is and then multiply
+it times the depth.
+
+05:14.100 --> 05:16.180
+So what's the area of this base?
+
+05:16.180 --> 05:18.260
+Well, we know that
+the area of a circle
+
+05:18.260 --> 05:20.720
+is equal to pi r squared.
+
+05:20.720 --> 05:24.990
+So if we know the
+radius of this face,
+
+05:24.990 --> 05:27.440
+we can figure out
+the area of the face.
+
+05:27.440 --> 05:28.910
+Well, what's the radius?
+
+05:28.910 --> 05:30.390
+Well, the radius
+is just the height
+
+05:30.390 --> 05:31.800
+of that original rectangle.
+
+05:31.800 --> 05:33.770
+And for any x, the
+height over here
+
+05:33.770 --> 05:35.900
+is going to be equal to f of x.
+
+05:35.900 --> 05:38.830
+And in this case, f
+of x is x squared.
+
+05:38.830 --> 05:41.625
+So over here, our radius
+is equal to x squared.
+
+05:44.290 --> 05:48.380
+So the area of the
+face for a particular x
+
+05:48.380 --> 05:55.940
+is going to be equal to
+pi times f of x squared.
+
+05:55.940 --> 05:58.280
+In this case, f
+of x is x squared.
+
+06:01.230 --> 06:02.710
+Now, what's our
+volume going to be?
+
+06:02.710 --> 06:06.570
+Well, our volume is going to be
+our area times the depth here.
+
+06:06.570 --> 06:10.530
+It's going to be that
+times the depth, times dx.
+
+06:13.050 --> 06:18.810
+So the volume of this thing
+right over here-- so the volume
+
+06:18.810 --> 06:23.420
+just of this coin, I
+guess you could call it,
+
+06:23.420 --> 06:24.660
+is going to be equal to.
+
+06:24.660 --> 06:28.890
+So my volume is going to
+be equal to my area times
+
+06:28.890 --> 06:36.270
+dx, which is equal to pi
+times x squared squared.
+
+06:36.270 --> 06:39.310
+So it's equal to pi--
+x squared squared
+
+06:39.310 --> 06:42.620
+is x to the fourth--
+pi x to the fourth dx.
+
+06:46.630 --> 06:48.710
+Now, this expression
+right over here,
+
+06:48.710 --> 06:52.470
+this gave us the volume
+just of one of those disks.
+
+06:52.470 --> 06:55.060
+But what we want is the
+volume of this entire hat,
+
+06:55.060 --> 06:58.899
+or this entire bugle
+or cone-looking,
+
+06:58.899 --> 07:01.190
+or I guess you could say the
+front-of-a-trumpet-looking
+
+07:01.190 --> 07:01.690
+thing.
+
+07:01.690 --> 07:02.930
+So how could we do that?
+
+07:02.930 --> 07:05.010
+Well, the exact same technique.
+
+07:05.010 --> 07:11.450
+What happens if we were to take
+the sum of all of these things?
+
+07:11.450 --> 07:14.060
+So let's do that, take the
+sum of all of these things.
+
+07:14.060 --> 07:17.622
+And I'll switch to one color--
+pi times x to the fourth dx.
+
+07:17.622 --> 07:19.580
+We're going take the sum
+of all of these things
+
+07:19.580 --> 07:21.550
+from x is equal to 0 to 2.
+
+07:21.550 --> 07:24.010
+Those are the boundaries
+that we started off with.
+
+07:24.010 --> 07:25.510
+I just defined them arbitrarily.
+
+07:25.510 --> 07:27.980
+We could do this, really,
+for any two x values--
+
+07:27.980 --> 07:30.100
+between x is equal
+to 0 and x equals 2.
+
+07:30.100 --> 07:33.840
+And we're going to take the
+sum of the volumes of all
+
+07:33.840 --> 07:35.030
+of these coins.
+
+07:35.030 --> 07:38.634
+But the limit-- as the depths
+get smaller and smaller
+
+07:38.634 --> 07:40.550
+and smaller and we have
+more and more and more
+
+07:40.550 --> 07:42.220
+coins, at the limit,
+we're actually
+
+07:42.220 --> 07:45.460
+going to get the volume
+of our cone or our bugle
+
+07:45.460 --> 07:47.540
+or whatever we want to call it.
+
+07:47.540 --> 07:49.550
+So if we just evaluate
+this definite integral,
+
+07:49.550 --> 07:51.610
+we have our volume.
+
+07:51.610 --> 07:54.240
+So let's see if we can do that.
+
+07:54.240 --> 07:57.159
+And now this is just taking
+a standard definite integral.
+
+07:57.159 --> 07:59.200
+So this is going to be
+equal to-- and I encourage
+
+07:59.200 --> 08:01.380
+you to try it out
+before I do it.
+
+08:01.380 --> 08:02.640
+So we can take the pi out.
+
+08:02.640 --> 08:05.130
+So it's going to be equal
+to pi times the integral
+
+08:05.130 --> 08:08.780
+from 0 to 2 of x
+to the fourth dx.
+
+08:08.780 --> 08:10.470
+I don't like that color.
+
+08:10.470 --> 08:12.680
+Now, the antiderivative
+of x to the fourth
+
+08:12.680 --> 08:15.310
+is x to the fifth over 5.
+
+08:15.310 --> 08:21.720
+So this is going to be equal to
+pi times x to the fifth over 5.
+
+08:21.720 --> 08:23.775
+And we're going
+to go from 0 to 2.
+
+08:23.775 --> 08:26.770
+So this is going to be
+equal to pi times this thing
+
+08:26.770 --> 08:27.440
+evaluated at 2.
+
+08:27.440 --> 08:27.940
+Let's see.
+
+08:27.940 --> 08:28.773
+2 to the third is 8.
+
+08:28.773 --> 08:29.970
+2 to the fourth is 16.
+
+08:29.970 --> 08:32.440
+2 to the fifth is-- let
+me just write it down.
+
+08:32.440 --> 08:38.300
+2 to the fifth over 5 minus
+0 to the fifth over 5.
+
+08:38.300 --> 08:39.799
+And this is going
+to be equal to-- 2
+
+08:39.799 --> 08:44.700
+to the fifth is 32, so it's
+going to be equal to pi times
+
+08:44.700 --> 08:48.690
+32/5 minus-- well,
+this is just 0--
+
+08:48.690 --> 08:54.790
+minus 0, which is
+equal to 32 pi over 5.
+
+08:54.790 --> 08:55.480
+And we're done.
+
+08:55.480 --> 08:57.540
+We were able to
+figure out the volume
+
+08:57.540 --> 09:00.240
+of this kind of wacky shape.

@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.042 --> 00:02.557
+Før vi starter på temaet algebra,
+
+00:02.557 --> 00:03.895
+vil jeg gjerne gi deg et sitat
+
+00:03.895 --> 00:05.879
+fra en av de største tenkere i menneskets historie,
+
+00:05.879 --> 00:09.591
+Galileo Galilei, fordi jeg tror at dette sitatet illustrerer
+
+00:09.591 --> 00:13.907
+poenget med algebra, og egentlig matematikk generelt.
+
+00:13.907 --> 00:16.991
+Han sa: Filosofi er skrevet i den fantastiske boka
+
+00:16.991 --> 00:19.324
+som alltid ligger rett foran våre øyne
+
+00:19.324 --> 00:20.958
+jeg mener universet
+
+00:20.958 --> 00:22.944
+men vi kan ikke forstå det
+
+00:22.944 --> 00:23.444
+hvis vi ikke først lærer språket
+
+00:23.444 --> 00:27.601
+og forstår de symbolene som boka er skrevet med
+
+00:27.601 --> 00:28.101
+Denne boka er skrevet i det matematiske språket
+
+00:28.101 --> 00:35.823
+og kan man ikke det, vil man vandre uten retning i en mørk labyrint
+
+00:35.823 --> 00:38.298
+Veldig dramatisk og veldig dypt
+
+00:38.298 --> 00:38.798
+og dette er egentlig hensikten med matematikken
+
+00:38.798 --> 00:42.470
+og det vi kommer til å se nå som vi skal begynne
+
+00:42.470 --> 00:44.874
+å gå dypere og dypere inn i algebraen
+
+00:44.874 --> 00:46.918
+er at vi skal begynne å abstrahere ting
+
+00:46.918 --> 00:48.915
+og vi skal begynne å få noen grunnleggende ideer
+
+00:48.915 --> 00:51.861
+som egentlig kan forklare hvordan universet virkelig er henger sammen
+
+00:51.861 --> 00:54.021
+Disse ideene kan selvfølgelig brukes på temaer
+
+00:54.021 --> 00:56.923
+som økonomi og finans og kjemi
+
+00:56.923 --> 00:58.933
+men de bygger uansett den samme grunnleggende ideen
+
+00:58.933 --> 01:02.368
+Så de er mer fundamentale, renere
+
+01:02.368 --> 01:05.076
+enn noen av disse andre anvendelsene.
+
+01:05.076 --> 01:08.103
+For å forstå hva jeg mener med å komme inn til den grunnleggende ideen:
+
+01:08.103 --> 01:10.580
+La oss starte med...
+
+01:10.580 --> 01:13.357
+vi startet med den enorme filosofien om universet
+
+01:13.357 --> 01:14.536
+slik den er skrevet i matematikkens språk.
+
+01:14.536 --> 01:17.863
+Men la oss starte med en veldig konkret og enkel ide
+
+01:17.863 --> 01:21.067
+men vi skal abstrahere den etterhvert og se hvordan denne ideen har sammenheng
+
+01:21.067 --> 01:24.401
+med mange områder i vårt univers.
+
+01:24.401 --> 01:26.898
+Så, la oss bare si at vi er i butikken
+
+01:26.898 --> 01:30.024
+og vi skal kjøpe noe på salg.
+
+01:30.024 --> 01:36.200
+Det er 30% avslag
+
+01:36.200 --> 01:38.871
+jeg handler ikke i for flotte butikker
+
+01:38.871 --> 01:40.810
+så la oss si at jeg skal kjøpe bukser
+
+01:40.810 --> 01:43.375
+og de koster ca 20 dollar.
+
+01:43.375 --> 01:46.500
+Det er omtrent så mye jeg bruker på bukser.
+
+01:46.500 --> 01:49.625
+så jeg vil ha en 20-dollar bukse på salg.
+
+01:49.625 --> 01:54.267
+30% avslag
+
+01:54.267 --> 01:57.702
+Hvordan kan jeg tenke for å vite hvor mye avslag jeg får i dollar?
+
+01:57.702 --> 01:59.200
+Dette er ikke algebra enda
+
+01:59.200 --> 02:01.169
+dette er noe som du sikkert har gjort før
+
+02:01.169 --> 02:04.800
+Du ville gange 30% med 20 dollar
+
+02:04.800 --> 02:09.974
+so du ville finne at avslaget er..
+
+02:09.974 --> 02:14.115
+du ville skrive...
+
+02:14.115 --> 02:16.533
+Jeg skriver med lilla
+
+02:16.533 --> 02:19.200
+Eller du kunne bruke desimaltall
+
+02:19.200 --> 02:24.200
+du kunne skrive slik
+
+02:24.200 --> 02:25.693
+og hvis du skulle regne ut
+
+02:25.693 --> 02:27.821
+ville du få 6 dollar.
+
+02:27.821 --> 02:30.067
+Så, det var ingenting nytt.
+
+02:30.067 --> 02:32.354
+Men, hva om vi vil generalisere litt?
+
+02:32.354 --> 02:35.400
+Det er avslaget for akkurat disse buksene
+
+02:35.400 --> 02:37.400
+men hva om jeg vil vite avslaget
+
+02:37.400 --> 02:39.333
+på hva som helst i butikken?
+
+02:39.333 --> 02:43.133
+Da kunne jeg si: La x være prisen
+
+02:43.133 --> 02:44.486
+jeg bruker en annen farge
+
+02:44.486 --> 02:46.221
+jeg lager bare et symbol
+
+02:46.221 --> 02:51.169
+La x være prisen på det produktet jeg vil kjøpe,
+
+02:51.169 --> 03:00.837
+full pris.
+
+03:00.837 --> 03:06.142
+Så nå plutselig, kan vi si at avslaget
+
+03:06.142 --> 03:15.267
+er 30% ganger x
+
+03:15.267 --> 03:17.465
+eller på desimalform
+
+03:17.465 --> 03:19.411
+30% som desimal
+
+03:19.411 --> 03:25.329
+0,30 ganger x
+
+03:25.329 --> 03:27.351
+Dette er interessant
+
+03:27.351 --> 03:29.841
+Nå kan du gi meg prisen på hvilken som helst vare i butikken
+
+03:29.841 --> 03:31.608
+og jeg kan sette den prisen inn for x
+
+03:31.608 --> 03:34.395
+og så kan jeg i prinsippet gange det med 0,3
+
+03:34.395 --> 03:36.225
+og jeg vil finne hvor stort avslaget er
+
+03:36.225 --> 03:39.533
+Nå begynner vi, veldig sakte
+
+03:39.533 --> 03:42.331
+å komme inn i abstraheringen
+
+03:42.331 --> 03:44.867
+Vi skal se at de gjorde det mye mer nyansert, og mye dypere
+
+03:44.867 --> 03:46.591
+og, ærlig talt, også vakrere
+
+03:46.591 --> 03:52.409
+nå når vi skal se på flere algebraiske ideer.
+
+03:52.409 --> 03:54.080
+Men vi er ikke ferdige her.
+
+03:54.080 --> 03:56.077
+Vi kan abstrahere dette mer
+
+03:56.077 --> 03:57.643
+Over her sa vi
+
+03:57.643 --> 03:59.067
+at vi har generalisert dette for hvilket som helst produkt
+
+03:59.067 --> 04:01.400
+ikke bare for denne 20 dollars buksa.
+
+04:01.400 --> 04:02.795
+Hvis det er en vare som koster 10 dollar
+
+04:02.795 --> 04:05.737
+setter vi inn 10 for x
+
+04:05.737 --> 04:07.966
+og da blir det 0,3 ganger 10
+
+04:07.966 --> 04:10.667
+Avslaget blir 3 dollar.
+
+04:10.667 --> 04:12.795
+Det kan være en 100 dollars vare
+
+04:12.795 --> 04:14.303
+og da blir avslaget 30 dollar.
+
+04:14.303 --> 04:16.071
+Men la oss generalisere enda mer.
+
+04:16.071 --> 04:19.576
+La oss si: Hva er avslaget på hvilket som helst salg,
+
+04:19.576 --> 04:21.133
+når det er et gitt prosentvis avslag?
+
+04:21.133 --> 04:22.919
+Nå kan vi si at avslaget
+
+04:22.919 --> 04:25.759
+la meg definere en variabel
+
+04:25.759 --> 04:32.290
+la oss si.. p
+
+04:32.290 --> 04:41.200
+p betyr prosenten i avslag.
+
+04:41.200 --> 04:42.667
+Hva kan vi gjøre nå?
+
+04:42.667 --> 04:47.046
+Nå kan vi si at avslaget
+
+04:47.046 --> 04:50.405
+er avhengig av prosenten
+
+04:50.405 --> 04:52.733
+I disse andre eksemplene valgte vi 30 prosent
+
+04:52.733 --> 04:55.729
+men nå kan vi si at det er p
+
+04:55.729 --> 04:56.852
+Det er p
+
+04:56.852 --> 05:01.200
+Det er prosentavslaget ganger med varens pris
+
+05:01.200 --> 05:04.262
+full pris av varen
+
+05:04.262 --> 05:06.138
+det var x
+
+05:06.138 --> 05:08.667
+Avslaget er p ganger x
+
+05:08.667 --> 05:10.364
+Dette er virkelig interessant
+
+05:10.364 --> 05:13.268
+nå har vi en generell måte å beregne avslag på
+
+05:13.268 --> 05:19.243
+uansett hvilken prosentsats og pris vi har
+
+05:19.243 --> 05:22.333
+Vi hadde ikke trengt å bruke disse ordene og disse bokstavene
+
+05:22.333 --> 05:25.402
+Vi kunne sagt "la y være avslaget"
+
+05:25.402 --> 05:28.998
+La y være avslaget
+
+05:28.998 --> 05:32.373
+Da kunne vi ha skrevet den samme ideen
+
+05:32.373 --> 05:34.400
+i stedet for å skrive avslag, kunne vi ha skrevet
+
+05:34.400 --> 05:40.200
+y er lik p...
+
+05:40.200 --> 05:44.067
+ganger full pris..
+
+05:44.067 --> 05:45.667
+dvs. ganger x
+
+05:45.667 --> 05:47.779
+Og du kunne ha definert disse bokstavene akkurat som du selv ville.
+
+05:47.779 --> 05:49.513
+I stedet for å skrive y der,
+
+05:49.513 --> 05:52.267
+kunne du ha skrevet en gresk bokstav
+
+05:52.267 --> 05:53.779
+så lenge du klarer å holde oversikten over
+
+05:53.779 --> 05:56.729
+at dette symbolet representere det faktiske avslaget i dollar.
+
+05:56.729 --> 05:58.911
+Nå blir det virkelig interessant
+
+05:58.911 --> 06:02.215
+fordi vi kan bruke disse forholdene mellom tall..
+
+06:02.215 --> 06:03.741
+som er en ligning
+
+06:03.741 --> 06:05.600
+y for denne tingen her,
+
+06:05.600 --> 06:07.734
+det er derfor vi kaller det en ligning.
+
+06:07.734 --> 06:09.406
+Dette kan bli brukt til ting
+
+06:09.406 --> 06:10.985
+som ikke har noen sammenheng med
+
+06:10.985 --> 06:14.231
+avslaget i den butikken her borte.
+
+06:14.231 --> 06:15.810
+Du har kanskje..
+
+06:15.810 --> 06:17.431
+så i fysikkens verden vil du se
+
+06:17.431 --> 06:21.600
+at kraft er lik masse ganger akselerasjon
+
+06:21.600 --> 06:23.000
+Bokstavene er forskjellige
+
+06:23.000 --> 06:24.933
+men det er grunnleggende sett den samme ideen
+
+06:24.933 --> 06:31.754
+Vi kunne latt y være kraft
+
+06:31.754 --> 06:36.067
+og m (masse) lik p
+
+06:36.067 --> 06:39.200
+p er lik masse
+
+06:39.200 --> 06:42.333
+og dette ville kanskje ikke være den intuitive måten å finne ut av dette på
+
+06:42.333 --> 06:45.646
+men jeg ville bare vise deg at den samme ideen, den samme sammenhengen
+
+06:45.646 --> 06:48.323
+brukes for to forskjellige ting
+
+06:48.323 --> 06:51.314
+Vi kan si at x er akselerasjon
+
+06:51.333 --> 06:56.961
+x er akselerasjon
+
+06:56.961 --> 07:01.698
+Da kan den berømte "kraft er lik masse ganger akselerasjon"
+
+07:01.698 --> 07:03.795
+bli omskrevet og det er egentlig eksakt den samme ideen
+
+07:03.800 --> 07:07.533
+som y - som vi har definert som kraft
+
+07:07.533 --> 07:08.964
+er lik masse...
+
+07:08.964 --> 07:10.210
+.. som vi bruker symbol p for...
+
+07:10.210 --> 07:13.482
+.. som er lik p ganger akselerasjon.
+
+07:13.482 --> 07:15.579
+Vi skal bare tilfeldigvis bruke bokstaven x er..
+
+07:15.579 --> 07:17.298
+.. ganger x.
+
+07:17.298 --> 07:19.200
+Dette er nøyaktig den samme ligningen.
+
+07:19.200 --> 07:21.400
+Samme ligningen.
+
+07:21.400 --> 07:23.200
+Vi kan se at vi kan ta denne ligningen
+
+07:23.200 --> 07:28.287
+og bruke den til ting innen økonomi.
+
+07:28.287 --> 07:30.864
+eller finans,
+
+07:30.864 --> 07:33.019
+eller IT
+
+07:33.019 --> 07:35.123
+eller logikk eller innen elektroengineering
+
+07:35.123 --> 07:36.338
+eller hva som helst - bokføring
+
+07:36.338 --> 07:38.400
+Det er et uendelig antall mulige anvendelser
+
+07:38.400 --> 07:40.200
+av denne ene ligningen
+
+07:40.200 --> 07:42.054
+Og det som er fint med matte
+
+07:42.054 --> 07:44.902
+og med algebra spesielt
+
+07:44.902 --> 07:47.087
+er at vi kan fokusere på denne abstraksjonen
+
+07:47.087 --> 07:49.975
+vi kan fokusere på det abstrakte her
+
+07:49.975 --> 07:52.185
+vi kan manipulere (endre på) det abstrakte her
+
+07:52.185 --> 07:55.462
+og det vi oppdager
+
+07:55.462 --> 07:58.533
+kan brukes igjen
+
+07:58.533 --> 08:02.000
+i alle disse andre anvendelsene.
+
+08:02.000 --> 08:03.733
+Og enda flottere, på en måte så forteller det oss
+
+08:03.733 --> 08:06.063
+den sanne strukturen i universet
+
+08:06.063 --> 08:08.718
+hvis vi tar bort alle disse definisjonene vi mennesker har laget
+
+08:08.733 --> 08:10.429
+og alle disse applikasjonene.
+
+08:10.429 --> 08:11.729
+Så kan vi for eksempel si:
+
+08:11.729 --> 08:14.237
+" Hvis y er lik p ganger x"
+
+08:14.237 --> 08:15.723
+SÅ, hvis noen sa
+
+08:15.723 --> 08:17.267
+"Dette er y"
+
+08:17.267 --> 08:19.692
+og noen på andre siden sier "jeg har p ganger x"
+
+08:19.692 --> 08:22.482
+Da kan jeg si "vel, da har har du det samme i begge hender"
+
+08:22.482 --> 08:25.438
+Og hvis du skulle dele en av dem med et tall
+
+08:25.438 --> 08:27.533
+og du fremdeles ville at de skulle være like,
+
+08:27.533 --> 08:30.200
+ja, da ville du dele den andre med det samme tallet.
+
+08:30.200 --> 08:31.652
+Så for eksempel,
+
+08:31.652 --> 08:34.577
+y er lik p ganger x
+
+08:34.577 --> 08:38.575
+og du ønsker at de skal være like
+
+08:38.575 --> 08:41.595
+Hva blir y delt på x?
+
+08:41.595 --> 08:43.467
+Y er p ganger x
+
+08:43.467 --> 08:45.073
+så y delt på x
+
+08:45.073 --> 08:48.731
+er p ganger x delt på x
+
+08:48.733 --> 08:50.321
+Nå er det interessant
+
+08:50.321 --> 08:52.544
+fordi p ganger x delt på x
+
+08:52.544 --> 08:53.711
+vel, når du multipliserer med noe
+
+08:53.711 --> 08:55.568
+og deler på det samme "noe"
+
+08:55.568 --> 08:57.333
+får du det tallet du startet med
+
+08:57.333 --> 08:59.467
+Hvis du multipliserer med 5 og dividerer med 5
+
+08:59.467 --> 09:01.373
+for du bare p
+
+09:01.373 --> 09:02.867
+eller hva dette tallet er.
+
+09:02.867 --> 09:04.333
+Så disse to kan strykes mot hverandre
+
+09:04.333 --> 09:06.333
+Vi klarte å endre abstraksjonen her,
+
+09:06.333 --> 09:11.159
+slik at y over x er lik p
+
+09:11.159 --> 09:12.380
+x'en blir grønn
+
+09:12.380 --> 09:16.324
+y over x er lik p
+
+09:16.324 --> 09:18.667
+og dette får konsekvenser
+
+09:18.667 --> 09:21.067
+for alle disse ideene
+
+09:21.067 --> 09:24.805
+Den ene forteller oss en grunnleggende sannhet om universet,
+
+09:24.805 --> 09:26.637
+nesten løsrevet fra disse andre anvendelsene
+
+09:26.637 --> 09:28.467
+men nå kan vi hente dem tilbake
+
+09:28.467 --> 09:30.400
+til hvilken som helt anvendelse.
+
+09:30.400 --> 09:32.100
+Det virkelig interessante er at vi kommer til å finne nye..
+
+09:32.100 --> 09:33.831
+uendelig mange anvendelser
+
+09:33.831 --> 09:36.400
+og ærlig talt så kjenner vi ikke de fleste av dem.
+
+09:36.400 --> 09:38.386
+Vi kommer til å oppdage nye
+
+09:38.386 --> 09:40.290
+i tusen år framover.
+
+09:40.290 --> 09:41.785
+Så, forhåpentligvis gir dette deg et inntrykk av
+
+09:41.785 --> 09:44.933
+hvorfor Galileo sa det han sa om at
+
+09:44.933 --> 09:48.133
+matematikk er det egentlige språket
+
+09:48.133 --> 09:51.959
+vi trenger for å forstå universet
+
+09:51.959 --> 09:53.567
+Det er derfor man sier at
+
+09:53.567 --> 09:56.714
+hvis aliens ville kontakte mennesker
+
+09:56.714 --> 10:00.067
+ville sannsynligvis matematikken være vår første felles base
+
+10:00.067 --> 10:04.108
+fra hvor
+
+10:04.108 --> 10:07.108
+vi kunne starte å kommunisere

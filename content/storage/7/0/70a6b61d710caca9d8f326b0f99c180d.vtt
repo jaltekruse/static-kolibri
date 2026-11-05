@@ -1,0 +1,661 @@
+WEBVTT
+
+00:00.480 --> 00:03.017
+Csináljunk még egy csomó további példát,
+
+00:03.017 --> 00:07.036
+hogy megbizonyosodjunk arról, hogy ezt a
+szögfüggvény dolgot elengedhetjük.
+
+00:07.036 --> 00:11.447
+Készítsünk magunknak derékszögű háromszögeket!
+
+00:13.668 --> 00:15.186
+És itt nagyon világos szeretnék lenni:
+
+00:15.186 --> 00:18.042
+az eddigi definícióm szerint ez csak
+derékszögű háromszögekre igaz.
+
+00:18.042 --> 00:21.500
+Vagyis ha olyan szögek szögfüggvényeit próbáljuk meghatározni,
+
+00:21.500 --> 00:23.480
+amelyek nem egy derékszögű háromszög szögei,
+
+00:23.480 --> 00:25.700
+akkor látni fogjuk, hogy derékszögű háromszögeket kell majd létrehoznunk.
+
+00:25.704 --> 00:27.867
+De egyelőre koncentráljunk a derékszögűekre!
+
+00:27.867 --> 00:30.520
+Tegyük fel, hogy van egy háromszögünk,
+
+00:30.520 --> 00:33.720
+ahol ez az alsó hossz mondjuk 7,
+
+00:33.720 --> 00:38.960
+és ennek az oldalnak a hossza mondjuk 4.
+
+00:38.980 --> 00:42.516
+Határozzuk meg, mekkora lesz az átfogó!
+
+00:42.516 --> 00:45.720
+Tudjuk, hogy – nevezzük az átfogót „h”-nak –
+
+00:45.720 --> 00:52.200
+h a négyzeten egyenlő 7 a négyzeten plusz 4 a négyzeten.
+
+00:52.200 --> 00:55.194
+Tudjuk a Pitagorasz-tételből,
+
+00:55.194 --> 00:57.469
+hogy az átfogó négyzete egyenlő
+
+00:57.469 --> 01:01.974
+a két befogó négyzetének összegével.
+
+01:01.980 --> 01:04.840
+h a négyzeten egyenlő 7 a négyzeten plusz 4 a négyzeten,
+
+01:04.840 --> 01:09.776
+vagyis ez 49 plusz 16-tal lesz egyenlő.
+
+01:09.776 --> 01:11.800
+49 + 16
+
+01:11.800 --> 01:18.553
+49 meg 10 az 59, meg 6 az 65.
+
+01:18.560 --> 01:20.320
+65.
+
+01:20.320 --> 01:25.700
+A h a négyzeten tehát – ez egy másik sárga –
+
+01:25.705 --> 01:28.818
+h a négyzeten egyenlő 65.
+
+01:28.818 --> 01:33.533
+Jól csináltam? 49 plusz 10 az 59, plusz még 6 az 65.
+
+01:33.540 --> 01:37.580
+Vagy azt is mondhatjuk, hogy h egyenlő lesz - ha mindkét oldal négyzetgyökét vesszük -
+
+01:37.580 --> 01:42.940
+65 négyzetgyökével. És ezt most egyáltalán nem tudjuk egyszerűsíteni.
+
+01:43.340 --> 01:46.760
+Ez 13 szor 5,
+
+01:46.760 --> 01:49.200
+egyik sem négyzetszám és
+
+01:49.200 --> 01:51.800
+mindkettő prímszám, így nem egyszerűsíthetőek tovább.
+
+01:51.804 --> 01:55.467
+Vagyis ez egyenlő négyzetgyök 65.
+
+01:55.467 --> 02:02.180
+Most határozzuk meg ennek a felső szögnek a szögfüggvényeit!
+
+02:02.180 --> 02:05.120
+Nevezzük ezt a felső szöget thétának.
+
+02:05.120 --> 02:06.533
+Nos, valahányszor ezt csinálod,
+
+02:06.533 --> 02:09.467
+mindig felírod – legalábbis én így szoktam –
+
+02:09.467 --> 02:11.714
+„szisza-koma-taszem”
+
+02:13.480 --> 02:16.420
+Ezek halovány emlékek
+
+02:16.420 --> 02:18.760
+a trigonometriatanáromtól.
+
+02:18.780 --> 02:21.280
+De az is lehet, hogy olvastam valahol
+
+02:21.293 --> 02:23.867
+valami indiai hercegnőről, akit így hívtak,
+
+02:23.867 --> 02:26.123
+mindenesetre ez egy nagyon hasznos emlékeztető.
+
+02:26.123 --> 02:27.564
+Szóval alkalmazhatjuk a „szisza-koma-taszem”-et.
+
+02:27.564 --> 02:34.220
+Mondjuk meg akarjuk határozni a szögünk koszinuszát.
+
+02:35.500 --> 02:37.960
+Azt mondjuk „szisza-koma-taszem”.
+
+02:37.960 --> 02:43.020
+A „koma” adja meg, mi a teendő a koszinusszal.
+
+02:43.020 --> 02:46.420
+A koszinusz a szög melletti befogó per átfogó.
+
+02:46.420 --> 02:51.433
+Koszinusz egyenlő melletti per átfogó.
+
+02:51.433 --> 02:55.798
+Nézzük itt fent a thétát, melyik befogó a melletti?
+
+02:55.798 --> 02:57.702
+Nos, azt tudjuk,
+
+02:57.702 --> 03:00.767
+melyik az átfogó, ez itt,
+
+03:00.767 --> 03:04.680
+vagyis az nem lehet az az oldal. Az egyetlen oldal, ami a szög melletti,
+
+03:04.680 --> 03:07.133
+de nem átfogó, az ez a 4.
+
+03:07.133 --> 03:10.473
+Vagyis a melletti oldal
+
+03:10.480 --> 03:12.660
+pontosan a szög melletti oldal,
+
+03:12.660 --> 03:14.820
+ez az egyik oldal, amely a szöget közrefogja.
+
+03:14.820 --> 03:17.133
+Ez tehát 4, osztva az átfogóval.
+
+03:17.133 --> 03:21.108
+Az átfogóról tudjuk, hogy az négyzetgyök 65,
+
+03:21.108 --> 03:25.380
+azaz 4 per négyzetgyök 65.
+
+03:25.380 --> 03:29.142
+Időnként racionalizálni (gyökteleníteni) akarjuk a nevezőt.
+
+03:29.142 --> 03:32.625
+Az emberek nem szeretik, ha a nevezőben irracionális szám van,
+
+03:32.625 --> 03:35.227
+mint a négyzetgyök 65,
+
+03:35.227 --> 03:39.359
+így ha át akarod írni, hogy a nevezőben ne legyen irracionális szám,
+
+03:39.359 --> 03:41.634
+megszorozhatod a számlálót és a nevezőt is
+
+03:41.634 --> 03:43.306
+négyzetgyök 65-tel.
+
+03:43.306 --> 03:45.094
+Ez nyilván nem fogja megváltoztatni az értéket,
+
+03:45.100 --> 03:47.500
+hiszen egy valami per valamivel szorzunk,
+
+03:47.500 --> 03:49.320
+vagyis a számot 1-gyel szorozzuk.
+
+03:49.320 --> 03:52.780
+Ez nem változtatja meg a számot, de legalább megszabadulunk az irracionális számtól a nevezőben.
+
+03:52.780 --> 03:54.127
+Így a számláló
+
+03:54.127 --> 03:57.800
+négyszer négyzetgyök 65,
+
+03:57.800 --> 04:03.461
+és a nevező négyzetgyök 65 szorozva négyzetgyök 65, azaz 65.
+
+04:03.461 --> 04:07.130
+Nem szabadultunk meg az irracionális számtól, de az most legalább a számlálóban van.
+
+04:07.130 --> 04:09.777
+Most határozzuk meg a többi szögfüggvényt,
+
+04:09.780 --> 04:12.280
+vagy legalább az alapvető szögfüggvényeket.
+
+04:12.280 --> 04:14.399
+Később majd megtanuljuk, hogy valójában
+rengeteg van belőlük,
+
+04:14.399 --> 04:15.443
+de valamennyien ezekből származtathatóak.
+
+04:15.443 --> 04:19.733
+Gondolkodjunk tehát, mi a théta szinusza. Megint csak forduljunk a „szisza-koma-taszem”-hez.
+
+04:19.740 --> 04:22.700
+A „szisza” mondja meg, mi a teendő szinusz esetén.
+
+04:22.700 --> 04:29.200
+A szinusz a szemközti per átfogó.
+
+04:31.372 --> 04:34.390
+Melyik oldal van ezzel a szöggel szemben?
+
+04:34.390 --> 04:38.430
+Szembe megyünk, amerre nyílik a szög,
+
+04:38.430 --> 04:41.200
+a szemközti oldal 7.
+
+04:41.200 --> 04:44.468
+Ez itt a szemközti oldal,
+
+04:44.468 --> 04:47.800
+és ez az átfogó. Szemközti per átfogó.
+
+04:47.800 --> 04:52.080
+Az átfogó négyzetgyök 65.
+
+04:52.966 --> 04:55.133
+És most is, ha gyökteleníteni akarjuk,
+
+04:55.133 --> 04:59.933
+megszorozhatjuk négyzetgyök 65
+per négyzetgyök 65-tel,
+
+04:59.933 --> 05:04.298
+és a számláló 7-szer négyzetgyök 65 lesz,
+
+05:04.298 --> 05:07.966
+míg a nevező megint csak 65.
+
+05:07.966 --> 05:11.660
+Most csináljuk a tangenst!
+
+05:12.796 --> 05:14.793
+Ha megkérdezem tőled
+
+05:14.793 --> 05:17.394
+a théta szög tangensét,
+
+05:17.394 --> 05:20.784
+megint menj vissza a
+„szisza-koma-taszem”-hez.
+
+05:20.784 --> 05:23.620
+A „taszem” írja elő, mit kell csinálnunk a tangenshez.
+
+05:24.120 --> 05:27.053
+Azt mondja, hogy a tangens
+
+05:27.060 --> 05:32.360
+egyenlő a szemközti per mellettivel.
+
+05:35.867 --> 05:38.709
+Mi ennek a szögnek a szemköztije? Egyszer már kitaláltuk,
+
+05:38.709 --> 05:40.700
+ez 7,
+
+05:40.700 --> 05:42.540
+szemközt van a 7-tel.
+
+05:42.540 --> 05:46.340
+Vagyis 7 per melyik oldal a melletti?
+
+05:46.340 --> 05:51.295
+Ez a 4 a melletti. Tehát a szög melletti oldal 4,
+
+05:51.295 --> 05:54.330
+azaz hét per 4,
+
+05:54.330 --> 05:56.133
+és ezzel meg is vagyunk.
+
+05:56.140 --> 05:58.940
+Meghatároztuk a théta szögfüggvényeit.
+
+05:58.940 --> 06:00.416
+Most nézzünk egy másikat!
+
+06:00.416 --> 06:02.719
+Ezt most egy kicsit konkrétabbra csinálom,
+mert mostanáig azt mondtuk, hogy
+
+06:02.720 --> 06:06.440
+„mi is az x tangense, a théta szög tangense”, legyünk kicsit konkrétabbak.
+
+06:08.180 --> 06:10.799
+Mondjuk rajzoljunk egy másik derékszögű háromszöget,
+
+06:10.799 --> 06:13.772
+ez egy másik derékszögű háromszög.
+
+06:13.772 --> 06:17.533
+Mindezek, amikkel foglalkozunk, derékszögű háromszögek.
+
+06:17.533 --> 06:21.109
+Legyen az átfogó hossza 4,
+
+06:21.109 --> 06:26.357
+ennek a másik oldalnak a hossza pedig legyen 2,
+
+06:26.357 --> 06:31.790
+és ez a hosszúság legyen 2-szer négyzetgyök 3.
+
+06:31.790 --> 06:33.462
+Ellenőrizhetjük, hogy ez működik-e.
+
+06:33.462 --> 06:36.467
+Ha ezt az oldalt négyzetre emeljük –hadd írjam le –
+
+06:36.467 --> 06:38.803
+kétszer gyök 3 a négyzeten
+
+06:38.803 --> 06:42.471
+plusz 2 a négyzeten, az egyenlő mennyivel?
+
+06:42.471 --> 06:46.467
+Négyszer 3,
+
+06:46.467 --> 06:49.763
+négyszer 3 plusz 4,
+
+06:49.763 --> 06:53.478
+ez egyenlő 12 plusz 4, azaz 16-tal.
+
+06:53.478 --> 06:57.800
+És a 16 valóban 4 a négyzeten, vagyis
+
+06:57.800 --> 07:01.790
+valóban egyenlő 4 a négyzetennel, teljesíti
+a Pitagorasz-tételt.
+
+07:01.790 --> 07:06.133
+És ha emlékszel a korábbiakból a 30 60 90 háromszögekre,
+
+07:06.133 --> 07:07.781
+amelyekről a geometriában tanulhattál,
+
+07:07.781 --> 07:11.450
+talán felismered, hogy ez egy 30 60 90 háromszög.
+
+07:11.450 --> 07:12.840
+Ez itt a derékszög,
+
+07:12.840 --> 07:15.860
+rajzolhattam volna innen kiindulva, hogy mutassam, ez egy derékszögű háromszög.
+
+07:15.867 --> 07:20.366
+Ez a szög itt a 30 fokos szögünk,
+
+07:20.366 --> 07:23.385
+és ez a szög itt fent
+
+07:23.385 --> 07:26.000
+a 60 fokos szög,
+
+07:26.000 --> 07:27.797
+és ez azért 30 60 90, mert
+
+07:27.797 --> 07:31.791
+a 30 fokkal szemközti oldal az átfogó fele,
+
+07:31.791 --> 07:36.800
+és a 60 fokkal szemközti oldal négyzetgyök 3 szorozva a másik oldallal,
+
+07:36.800 --> 07:38.440
+ami nem az átfogó.
+
+07:38.500 --> 07:43.415
+Ez most nem a 30 60 90 háromszögek átismétlésének helye, noha épp azt csináltam.
+
+07:43.415 --> 07:46.933
+Határozzuk viszont meg ezeknek a szögeknek a szögfüggvényeit!
+
+07:46.933 --> 07:51.295
+Tehát ha megkérdezem, vagy valaki megkérdezi,
+
+07:51.300 --> 07:54.540
+mennyi a 30 fok szinusza,
+
+07:54.540 --> 07:58.440
+ne feledd, hogy az, hogy 30 fok ennek a háromszögnek az egyik szöge, az igaz,
+
+07:58.447 --> 08:01.698
+valahányszor egy 30 fokos szöged van egy derékszögű háromszögben.
+
+08:01.698 --> 08:05.135
+Lesz majd később egy általánosabb definíciónk, de ha azt mondom, hogy 30 fok szinusza,
+
+08:05.135 --> 08:09.035
+nézd, ez a szög itt 30 fok, tehát használhatom ezt a derékszögű háromszöget,
+
+08:09.035 --> 08:12.133
+és csak emlékeznünk kell a „szisza-koma-taszem”-re.
+
+08:12.133 --> 08:17.116
+Újra leírjuk, szisza-koma-taszem.
+
+08:17.116 --> 08:22.782
+A szisza megadja nekünk, mi a teendő a szinusszal, szinusz a szemközti per átfogó,
+
+08:22.782 --> 08:26.358
+30 fok szinusza a szemközti oldal,
+
+08:26.358 --> 08:30.723
+amelyik 2, osztva az átfogóval,
+
+08:30.723 --> 08:32.395
+az átfogó itt 4.
+
+08:32.395 --> 08:35.646
+Ez kettő negyed, ami ugyanaz, mint egyketted.
+
+08:35.646 --> 08:40.800
+30 fok szinusza, ahogy látni fogod, mindig 1/2.
+
+08:40.800 --> 08:44.144
+Na és mennyi a koszinusz?
+
+08:44.144 --> 08:46.867
+Mennyi a 30 fok koszinusza?
+
+08:46.867 --> 08:50.135
+Megint csak menjünk vissza a
+„szisza-koma-taszem”-hez.
+
+08:50.135 --> 08:52.643
+A koma megadja nekünk, mi a teendő a koszinusszal,
+
+08:52.643 --> 08:56.033
+Koszinusz a melletti per átfogó,
+
+08:56.033 --> 08:59.051
+tehát ha a 30 fokos szögre nézünk, ez a melletti.
+
+08:59.051 --> 09:01.791
+Ez itt a szomszédos, közvetlenül mellette,
+
+09:01.791 --> 09:05.467
+ami nem az átfogó, melletti per átfogó,
+
+09:05.467 --> 09:09.129
+vagyis kétszer gyök 3,
+
+09:09.129 --> 09:13.633
+melletti per átfogó, vagyis per 4,
+
+09:13.633 --> 09:16.977
+vagy ha egyszerűsítjük, a számlálót és a nevezőt is elosztjuk kettővel,
+
+09:16.977 --> 09:20.646
+négyzetgyök 3 osztva 2-vel.
+
+09:20.646 --> 09:22.782
+Végül csináljuk a tangenst!
+
+09:22.782 --> 09:27.800
+30 fok tangense,
+
+09:27.800 --> 09:30.980
+visszamegyünk a „szisza-koma-taszem”-hez.
+
+09:31.700 --> 09:34.800
+Taszem megadja, mi a teendő a tangenssel. Szemközti per melletti.
+
+09:34.800 --> 09:39.400
+Nézzük a 30 fokos szöget, mert ez érdekel minket, tangens 30.
+
+09:39.400 --> 09:42.100
+A szemközti 2,
+
+09:42.101 --> 09:46.200
+és a melletti kétszer négyzetgyök 3.
+
+09:46.200 --> 09:48.045
+Közvetlenül mellette,
+
+09:48.045 --> 09:49.439
+szomszédos vele,
+
+09:49.439 --> 09:52.039
+2-szer gyök 3.
+
+09:52.039 --> 09:54.454
+Egyenlő... a kettesek kiesnek,
+
+09:54.454 --> 09:56.776
+1 per gyök 3,
+
+09:56.776 --> 10:00.723
+avagy megszorozhatjuk a számlálót és a nevezőt gyök 3-mal.
+
+10:00.723 --> 10:05.367
+Szóval négyzetgyök 3 per négyzetgyök 3,
+
+10:05.367 --> 10:08.804
+és ez egyenlő a számlálóban négyzetgyök 3,
+
+10:08.804 --> 10:12.473
+és a nevezőben 3.
+
+10:12.473 --> 10:15.800
+Tehát ahogy gyöktelenítettünk, négyzetgyök 3 per 3.
+
+10:15.800 --> 10:17.160
+Rendben van.
+
+10:17.160 --> 10:20.693
+És most használjuk ugyanezt a háromszöget a 60 fok szögfüggvényeinek meghatározásához,
+
+10:20.693 --> 10:22.457
+mivel ezt már lerajzoltuk.
+
+10:22.457 --> 10:28.328
+Mennyi a 60 fok szinusza?
+
+10:28.328 --> 10:30.166
+Remélhetőleg már rájöttél.
+
+10:30.166 --> 10:34.253
+A szinusz szemközti per átfogó, szisza a „szisza-koma-taszem”-ból.
+
+10:34.253 --> 10:36.668
+A 60 fokos szöggel melyik oldal van szemközt?
+
+10:36.668 --> 10:39.315
+Ez a kétszer gyök 3 felé nyílik,
+
+10:39.315 --> 10:42.566
+azaz a szemközti kétszer gyök 3,
+
+10:42.566 --> 10:45.306
+és a 60 fokos szög mell...-bocs
+
+10:45.306 --> 10:47.999
+szemközti per átfogó, nem akarlak megzavarni.
+
+10:47.999 --> 10:50.507
+Szóval szemközti per átfogó,
+
+10:50.507 --> 10:54.315
+kétszer gyök 3 per 4, 4 az átfogó,
+
+10:54.315 --> 10:59.981
+ez egyenlő, egyszerűsítve négyzetgyök 3 per 2.
+
+10:59.981 --> 11:05.507
+Mennyi a 60 fok koszinusza? Koszinusz 60 fok.
+
+11:05.507 --> 11:10.244
+A „szisza-koma-taszem” alapján a koszinusz
+melletti per átfogó.
+
+11:10.244 --> 11:13.667
+A melletti a 2 hosszúságú oldal, közvetlenül a 60 fokos szög mellett,
+
+11:13.667 --> 11:17.907
+vagyis 2 per átfogó, vagyis 4,
+
+11:17.907 --> 11:20.972
+ami egyenlő 1/2.
+
+11:20.972 --> 11:24.176
+És végül mennyi a tangens,
+
+11:24.176 --> 11:27.984
+mennyi a 60 fok tangense?
+
+11:27.984 --> 11:32.349
+Nos, „szisza-koma-taszem”. Tangens szemközti per melletti.
+
+11:32.349 --> 11:34.671
+A 60 fokkal szemközti
+
+11:34.671 --> 11:36.400
+a kétszer gyök 3,
+
+11:38.000 --> 11:39.919
+és a melletti
+
+11:39.919 --> 11:42.733
+az kettő,
+
+11:42.733 --> 11:44.800
+a 60 fok melletti oldal hossza 2.
+
+11:44.800 --> 11:48.650
+Szemközti per melletti, kétszer gyök 3 per kettő,
+
+11:48.650 --> 11:52.644
+ami pontosan négyzetgyök 3.
+
+11:52.644 --> 11:54.641
+És csak azt akartam, hogy lássuk, hogyan viszonyulnak ezek egymáshoz:
+
+11:54.641 --> 11:57.984
+a 30 fok szinusza megegyezik a 60 fok koszinuszával,
+
+11:57.984 --> 12:01.333
+a 30 fok koszinusza megegyezik a 60 fok szinuszával,
+
+12:01.333 --> 12:03.966
+és ezek az alakok egymás reciprokai.
+
+12:03.966 --> 12:05.635
+És ha egy kicsit gondolkodsz ezen a háromszögön,
+
+12:05.635 --> 12:07.105
+rá fogsz jönni, miért.
+
+12:07.105 --> 12:08.461
+Folytatni fogjuk ezt,
+
+12:08.461 --> 3:59:59.999
+és a következő videókban még egy csomó gyakorlatot mutatunk.

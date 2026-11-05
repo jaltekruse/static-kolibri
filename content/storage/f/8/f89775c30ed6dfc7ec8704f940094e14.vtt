@@ -1,0 +1,518 @@
+WEBVTT
+
+00:00.473 --> 00:02.424
+Vamos agora ser apresentados
+
+00:02.424 --> 00:05.656
+à ideia de uma equação diferencial.
+
+00:05.656 --> 00:07.371
+Como veremos, equações diferenciais
+
+00:07.371 --> 00:10.688
+são muito úteis para
+modelagem e simulações
+
+00:10.688 --> 00:13.573
+de fenômenos e compreender
+como eles operam.
+
+00:13.589 --> 00:15.038
+Mas veremos isso mais tarde.
+
+00:15.038 --> 00:17.772
+Agora vamos apenasimaginar
+
+00:17.772 --> 00:20.523
+o que uma equação diferencial realmente é.
+
+00:21.572 --> 00:24.938
+Então se eu escrevesse - vejamos
+aqui um exemplo
+
+00:24.938 --> 00:27.139
+de equação diferencial,
+se escrevesse que
+
+00:27.139 --> 00:31.224
+a derivada segunda de y
+mais dois mais vezes
+
+00:31.224 --> 00:36.007
+a primeira derivada de y
+igual à três vezes y,
+
+00:36.007 --> 00:38.189
+isto bem aqui é uma equação diferencial.
+
+00:38.189 --> 00:39.722
+Também poderíamos dizer
+
+00:39.722 --> 00:42.305
+que y é função de x,
+
+00:42.305 --> 00:43.907
+na notação de função.
+
+00:43.907 --> 00:45.855
+Escreveríamos a segunda derivada
+
+00:45.855 --> 00:49.920
+em relação à x mais duas vezes
+a primeira derivada
+
+00:50.505 --> 00:54.108
+de nossa função
+igual às três vezes a função.
+
+00:54.788 --> 00:58.240
+Ou se quiséssemos usar
+a notação de Leibniz,
+
+00:58.024 --> 01:03.024
+poderíamos ainda escrever
+a segunda derivada de y
+
+01:03.987 --> 01:08.938
+em relação à x mais duas vezes
+a primeira derivada de y
+
+01:08.938 --> 01:13.422
+com relação à x igual à três vezes y.
+
+01:14.037 --> 01:17.755
+Todas as três equação aqui
+realmente representam
+
+01:17.755 --> 01:20.856
+a mesma coisa, elas estão dizendo,
+ok, eu posso encontrar funções
+
+01:20.856 --> 01:23.023
+onde a segunda derivada da função
+
+01:23.023 --> 01:25.025
+mais duas vezes a primeira derivada
+
+01:25.223 --> 01:27.937
+é igual a três vezes a função em si.
+
+01:28.355 --> 01:31.339
+Para deixar claro, todos
+estes estão essencialmente
+
+01:31.339 --> 01:33.655
+dizendo a mesma coisa.
+
+01:33.806 --> 01:36.089
+Você pode ter entendido
+quando eu descrevi isto
+
+01:36.089 --> 01:38.092
+que a solução para uma equação diferencial
+
+01:38.389 --> 01:41.238
+é uma função, ou classe de funções.
+
+01:41.323 --> 01:44.322
+Não é apenas um valor
+ou um conjunto de valores.
+
+01:44.354 --> 01:46.093
+Então a solução aqui
+
+01:47.673 --> 01:52.673
+para uma equação diferencial é uma função,
+
+01:53.738 --> 01:56.672
+ou um grupo de funções
+ou classe de funções.
+
+01:56.756 --> 01:58.685
+É importante contrastar em relação
+
+01:58.685 --> 02:00.027
+a uma equação tradicional.
+
+02:00.027 --> 02:01.421
+Então deixe escrever isso.
+
+02:01.474 --> 02:04.724
+Uma equação tradicional--
+talvez eu não devesse dizer
+
+02:04.724 --> 02:06.687
+equação tradicional, equação diferenciais
+
+02:06.687 --> 02:08.387
+já existem há algum tempo.
+
+02:08.387 --> 02:11.987
+Deixe-me escrever como
+uma equação algébrica
+
+02:11.987 --> 02:13.424
+com a qual você é familiar.
+
+02:13.424 --> 02:19.062
+Uma equação algébrica parece--
+
+02:19.062 --> 02:21.545
+eu vou escrever ema simples
+equação de segundo grau:
+
+02:21.545 --> 02:29.766
+x ao quadrado mais três x
+mais dois igual a zero.
+
+02:30.046 --> 02:32.556
+A solução para essa equação algébrica
+
+02:32.556 --> 02:35.186
+serão números, ou um conjunto de números.
+
+02:35.186 --> 02:38.290
+Podemos resolver, será x mais dois
+
+02:38.290 --> 02:41.260
+vezes x mais um igual à zero.
+
+02:41.260 --> 02:45.837
+x poderia ser igual a
+menos dois ou x poderia
+
+02:45.837 --> 02:46.592
+ser menos um.
+
+02:46.592 --> 02:52.660
+A solução aqui são valores
+ou um conjunto de valores
+
+02:52.660 --> 02:55.803
+que satisfazem a equação.
+
+02:55.803 --> 02:57.367
+É uma relação entre uma função
+
+02:57.367 --> 02:58.670
+e suas derivadas.
+
+02:58.670 --> 03:00.367
+Então as, ou a solução
+
+03:00.367 --> 03:02.667
+será uma função ou um conjunto de funções.
+
+03:02.667 --> 03:05.594
+Vamos deixar isso um pouco mais tangível.
+
+03:05.594 --> 03:08.358
+O que uma solução pra
+algo como estes três--
+
+03:08.358 --> 03:09.830
+que representam a mesma coisa-
+
+03:09.830 --> 03:12.032
+o que uma solução, de fato, parece?
+
+03:12.032 --> 03:15.751
+Deixe-me mover isso aqui um pouco.
+
+03:19.371 --> 03:21.640
+Então podemos dar uma olhada no que
+
+03:21.640 --> 03:23.289
+algumas destas soluções parecem.
+
+03:23.336 --> 03:24.862
+Deixe-me apagar um pouco.
+
+03:25.038 --> 03:27.022
+Esta parte eu já tenho.
+
+03:27.637 --> 03:31.071
+Eu vou apenas dar uns exemplos de solução.
+
+03:31.071 --> 03:34.539
+Verificaremos que estas
+são, de fato, soluções
+
+03:34.539 --> 03:36.888
+pois acho que é apenas
+uma equação diferencial
+
+03:36.888 --> 03:38.190
+com várias representações.
+
+03:38.019 --> 03:39.638
+Espero que você goste da
+
+03:39.638 --> 03:42.304
+aparência da solução da
+equação diferencial.
+
+03:42.389 --> 03:45.272
+E geralmente há mais de uma solução.
+
+03:45.272 --> 03:49.087
+Há uma variedade de funções
+que poderiam ser uma solução.
+
+03:49.689 --> 03:52.556
+Uma solução para esta
+equação diferencial--
+
+03:52.556 --> 03:54.224
+escreverei como a primeira.
+
+03:54.605 --> 03:57.339
+Então uma solução, vou chamá-la de y1.
+
+03:57.339 --> 03:59.523
+Eu poderia inclusive escrever
+isso como y1 de x,
+
+03:59.523 --> 04:01.548
+para deixar claro que é uma função de x.
+
+04:02.005 --> 04:04.682
+Uma solução é y1 de x igual a
+
+04:04.682 --> 04:07.042
+&lt;i>e&lt;/i> elevado a menos três x.
+
+04:07.329 --> 04:10.331
+E lhe encorajo a parar o vídeo
+
+04:10.467 --> 04:13.355
+e encontrar a primeira derivada de y1,
+
+04:13.355 --> 04:16.437
+e a segunda derivada de y1, e verificar
+
+04:16.437 --> 04:19.288
+que isto realmente satisfaz
+esta equação diferencial.
+
+04:20.137 --> 04:22.438
+Estou assumindo que você tentou.
+
+04:22.438 --> 04:23.671
+Vamos trabalhar juntos.
+
+04:23.671 --> 04:25.473
+Então isto é y1.
+
+04:25.622 --> 04:29.555
+Para a primeira derivada de y1
+
+04:29.555 --> 04:31.289
+aplicamos a regra da cadeia,
+
+04:31.289 --> 04:33.706
+a derivada de menos três x em relação à x
+
+04:33.706 --> 04:35.024
+é menos três.
+
+04:35.256 --> 04:36.972
+A derivada de &lt;i>e&lt;/i> elevado a menos três
+
+04:36.972 --> 04:39.285
+em relação à menos três x é
+
+04:39.285 --> 04:41.922
+&lt;i>e&lt;/i> elevado a menos três x.
+
+04:42.256 --> 04:46.273
+E se pegarmos a segunda derivada de y1,
+
+04:46.273 --> 04:49.078
+é a mesma ideia,
+
+04:49.078 --> 04:50.738
+a derivada é três vezes menos três
+
+04:50.738 --> 04:55.273
+será nove &lt;i>e&lt;/i> elevado a menos três x.
+
+04:55.546 --> 04:57.262
+E agora vamos substituir os valores
+
+04:57.356 --> 04:59.223
+ou estas expressões
+
+04:59.223 --> 05:01.007
+na equação diferencial para verificar
+
+05:01.007 --> 05:05.089
+que isto se aplica nesta função.
+
+05:05.089 --> 05:06.372
+Vamos verificar isto.
+
+05:06.605 --> 05:12.635
+Primeiro há a segunda derivada de y
+
+05:12.856 --> 05:14.723
+É este termo aqui.
+
+05:14.837 --> 05:19.789
+Temos nove &lt;i>e&lt;/i> elevado a menos três x
+
+05:19.789 --> 05:25.299
+mais duas vezes a primeira derivada.
+
+05:26.187 --> 05:29.888
+Então será duas vezes isto aqui.
+
+05:30.005 --> 05:33.507
+Será menos seis, vou escrever
+
+05:33.507 --> 05:37.654
+menos seis &lt;i>e&lt;/i> elevado a menos três x.
+
+05:37.654 --> 05:40.256
+Observe que tomei duas vezes
+a primeira derivada.
+
+05:40.256 --> 05:44.805
+Duas vezes a primeira
+derivada será igual a,
+
+05:44.805 --> 05:48.203
+ou precisa ser igual a, se ainda satisfaz,
+
+05:48.203 --> 05:52.340
+se y1 ainda satisfaz a
+equação diferencial,
+
+05:52.034 --> 05:54.682
+isto precisa ser igual a três vezes y.
+
+05:55.268 --> 06:00.869
+Bem, três vezes y é três
+vezes e elevado a menos três x.
+
+06:02.606 --> 06:04.305
+Vamos ver se isto ainda dá certo.
+
+06:04.523 --> 06:07.937
+Estes termos aqui,
+
+06:07.937 --> 06:09.755
+nove &lt;i>e&lt;/i> elevado a menos três x,
+
+06:09.958 --> 06:12.812
+simplesmente menos
+seis e elevado a menos três x,
+
+06:12.812 --> 06:16.599
+O que é igual a menos três &lt;i>e&lt;/i>
+elevado a menos três x.
+
+06:16.599 --> 06:22.886
+Realmente igual a três &lt;i>e&lt;/i>
+elevado a menos três x.
+
+06:22.886 --> 06:27.923
+Então y1 é a solução
+desta equação diferencial.
+
+06:28.288 --> 06:31.223
+Como veremos, isto não é a única solução
+
+06:31.223 --> 06:33.311
+desta equação diferencial.
+
+06:33.311 --> 06:34.799
+Por exemplo,
+
+06:37.749 --> 06:43.469
+Digamos que y2 seja igual a &lt;i>e&lt;/i>
+elevado a x
+
+06:44.056 --> 06:46.488
+também seja solução
+para a equação diferencial.
+
+06:46.488 --> 06:47.973
+E lhe encorajo a parar
+
+06:47.973 --> 06:49.756
+e verificar que isto é uma solução.
+
+06:50.572 --> 06:51.889
+Presumindo que tenha feito,
+
+06:52.055 --> 06:54.272
+A primeira derivada é fácil,
+
+06:54.272 --> 06:55.521
+é &lt;i>e&lt;/i> elevado a x.
+
+06:55.521 --> 06:58.173
+Algo profundo sobre a segunda derivada
+
+06:58.173 --> 07:00.306
+da função exponencial,
+a segunda derivada
+
+07:00.306 --> 07:01.773
+é também &lt;i>e&lt;/i> elevado a x.
+
+07:02.224 --> 07:05.623
+A segunda derivada, deixe-me usar
+
+07:05.623 --> 07:06.974
+as mesmas cores.
+
+07:07.022 --> 07:10.913
+A segunda derivada vai ser
+e elevado a x
+
+07:11.423 --> 07:17.169
+mais duas vezes
+e elevado a x
+
+07:17.621 --> 07:22.621
+será igual a três vezes
+e elevado a x
+
+07:22.635 --> 07:24.312
+Isto será absolutamente verdadeiro.
+
+07:24.312 --> 07:27.753
+&lt;i>e&lt;/i> elevado a x mais duas vezes
+e elevado a x igual a três e elevado a x.
+
+07:27.753 --> 07:32.170
+y2 também é solução
+para a equação diferencial.
+
+07:32.622 --> 07:33.855
+Então isto é um começo.
+
+07:33.855 --> 07:35.839
+Nos próximos vídeos será mais explorado.
+
+07:35.839 --> 07:37.706
+Veremos como são as soluções,
+
+07:37.706 --> 07:38.761
+seus tipos,
+
+07:39.256 --> 07:40.474
+técnicas de resolução,
+
+07:40.474 --> 07:43.140
+visualização de soluções para
+equações diferenciais,
+
+07:43.228 --> 07:47.090
+a todas ferramentas para aprofundamento.
+
+07:47.090 --> 07:50.000
+Legendado por: [rodrigo.sbender]
+Revisado por: [Tatiana F. D'Addio]

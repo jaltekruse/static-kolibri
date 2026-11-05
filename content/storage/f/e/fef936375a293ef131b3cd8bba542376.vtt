@@ -1,0 +1,572 @@
+WEBVTT
+
+00:00.200 --> 00:04.270
+O que tenho aqui em amarelo
+é o gráfico de y igual a f de x.
+
+00:04.270 --> 00:10.870
+E aqui em lilás fiz o gráfico de &lt;i>y&lt;/i> igual
+a derivada de f, que é f linha de x.
+
+00:10.870 --> 00:15.740
+E aqui em azul, fiz o gráfico de &lt;i>y&lt;/i> igual
+a segunda derivada de nossa função.
+
+00:15.740 --> 00:18.380
+Então essa é a derivada disso,
+
+00:18.380 --> 00:21.550
+da primeira derivada que está aqui.
+
+00:21.550 --> 00:25.340
+E já vimos exemplos de como podemos
+identificar pontos mínimos e máximos.
+
+00:25.345 --> 00:29.140
+Claramente, tendo o gráfico bem aqui
+não é difícil para um cérebro humano
+
+00:29.140 --> 00:31.950
+identificar que isso é um
+ponto máximo local.
+
+00:31.950 --> 00:34.530
+A função pode ter valores maiores
+mais à frente.
+
+00:34.530 --> 00:37.540
+E identificar isso como um
+ponto mínimo local.
+
+00:37.540 --> 00:40.242
+A função pode ter valores menores
+mais à frente.
+
+00:40.242 --> 00:42.700
+Mas vimos, mesmo não tendo
+o gráfico na nossa frente
+
+00:42.700 --> 00:45.957
+se formos capazes de ter a derivada
+da função, talvez--
+
+00:45.957 --> 00:48.498
+ou mesmo se não conseguimos
+ter a derivada da função--
+
+00:48.498 --> 00:51.501
+talvez possamos identificar esses
+pontos como mínimo ou máximo.
+
+00:51.501 --> 00:55.090
+Fizemos assim e, OK, quais são os
+pontos críticos dessa função?
+
+00:55.090 --> 00:58.360
+Bem, pontos críticos são onde
+a derivada da função
+
+00:58.360 --> 01:00.099
+é ou indefinida ou zero.
+
+01:00.099 --> 01:01.785
+Essa é a derivada da função.
+
+01:01.785 --> 01:04.170
+É zero aqui e aqui.
+
+01:04.170 --> 01:05.810
+Então chamamos de pontos críticos.
+
+01:05.810 --> 01:10.610
+E não vejo pontos onde a derivada
+é indefinida por enquanto.
+
+01:10.610 --> 01:15.590
+Então chamamos aqui e aqui
+de pontos críticos.
+
+01:15.590 --> 01:19.740
+Esses são pontos candidatos
+onde a função pode ter
+
+01:19.740 --> 01:21.800
+valor mínimo ou máximo.
+
+01:21.800 --> 01:25.220
+E da forma que descobrimos quando
+seria valor mínimo ou máximo foi
+
+01:25.220 --> 01:29.320
+olhando o comportamento da derivada
+em torno desse ponto.
+
+01:29.320 --> 01:41.220
+E por aqui vemos que a derivada é positiva
+quando nos aproximamos desse ponto.
+
+01:41.220 --> 01:42.910
+E então se torna negativa.
+
+01:42.910 --> 01:46.500
+Começa sendo positiva e fica negativa
+quando cruzamos esse ponto.
+
+01:46.500 --> 01:48.760
+O que significa que a função
+estava crescendo.
+
+01:48.760 --> 01:50.679
+Se a derivada é positiva, significa que
+
+01:50.679 --> 01:53.600
+a função estava crescendo quando
+nos aproximamos desse ponto,
+
+01:53.600 --> 01:56.220
+e decrescendo quando
+deixamos esse ponto,
+
+01:56.220 --> 01:59.384
+que é uma boa maneira de pensar
+nisso sendo um ponto máximo.
+
+01:59.384 --> 02:02.665
+Se crescemos quando nos aproximamos
+e decrescemos quando no afastamos,
+
+02:02.665 --> 02:06.490
+então isso será um ponto máximo.
+
+02:06.490 --> 02:09.330
+Similarmente, bem aqui podemos ver
+
+02:09.330 --> 02:14.630
+que a derivada é negativa quando
+nos aproximamos do ponto,
+
+02:14.630 --> 02:17.420
+que significa que a função
+está decrescendo.
+
+02:17.420 --> 02:20.930
+E vemos que a derivada é positiva
+quando saímos desse ponto.
+
+02:20.940 --> 02:24.540
+Partimos de uma derivada negativa
+para uma positiva, que significa
+
+02:24.540 --> 02:28.970
+que a função começa decrescendo
+e cresce bem em torno desse ponto,
+
+02:28.970 --> 02:31.960
+o que é uma boa indicação,
+ou que é a indicação,
+
+02:31.960 --> 02:38.720
+que esse ponto crítico é onde
+a função tem um valor mínimo.
+
+02:38.720 --> 02:46.620
+O que quero fazer agora é extender as
+coisas usando a ideia de concavidade.
+
+02:46.620 --> 02:50.060
+Talvez eu esteja pronunciando essa
+palavra errado, mas enfim,
+
+02:50.060 --> 02:53.220
+pensando sobre concavidade,
+podemos começar a olhar
+
+02:53.220 --> 02:56.850
+para a segunda derivada mais
+do que apenas olhar essa transição
+
+02:56.850 --> 03:01.280
+para pensar onde isso é
+ponto mínimo ou máximo.
+
+03:01.280 --> 03:03.300
+Pensemos sobre o que
+está acontecendo
+
+03:03.300 --> 03:06.030
+nessa primeira região,
+nessa parte da curva aqui
+
+03:06.030 --> 03:10.010
+onde se parece com um arco
+se abrindo para baixo,
+
+03:10.010 --> 03:13.720
+onde parece um &lt;i>A&lt;/i> sem o traço
+ou um U de cabeça para baixo.
+
+03:13.720 --> 03:19.960
+E então vamos pensar no que está
+acontecendo nessa espécie de U da curva.
+
+03:19.960 --> 03:23.490
+Nesse primeiro intervalo,
+bem aqui, se começarmos aqui
+
+03:23.490 --> 03:27.780
+a inclinação é bastante-- vou fazer na
+cor... na verdade vou continuar na mesma
+
+03:27.780 --> 03:30.404
+porque é a mesma cor que usei
+para essa derivada.
+
+03:30.404 --> 03:33.210
+A inclinação é bem positiva.
+
+03:33.210 --> 03:36.640
+E se torna menos positiva.
+
+03:36.640 --> 03:39.790
+Então se torna ainda menos positiva.
+
+03:39.790 --> 03:42.600
+E vai para zero.
+
+03:42.600 --> 03:44.000
+E continua decrescendo.
+
+03:44.000 --> 03:47.320
+Agora se torna um pouco negativa,
+e então ainda mais negativa,
+
+03:47.320 --> 03:51.200
+e se torna ainda mais negativa.
+
+03:51.200 --> 03:56.359
+E parece que para de decrescer
+mais ou menos aqui.
+
+03:56.359 --> 03:59.380
+Ela para de decrescer por aqui.
+E vemos isso na derivada.
+
+03:59.380 --> 04:01.380
+A inclinação está decrescendo
+e decrescendo
+
+04:01.380 --> 04:04.970
+até esse ponto, e então começa
+a ficar crescente.
+
+04:04.970 --> 04:18.420
+Em toda essa seção,
+a inclinação está decrescendo.
+
+04:18.420 --> 04:21.950
+Vemos isso bem aqui quando
+pegamos a derivada.
+
+04:21.950 --> 04:27.290
+A derivada bem aqui, nesse intervalo
+inteiro, está decrescendo.
+
+04:27.290 --> 04:29.620
+E também vemos quando temos
+a segunda derivada.
+
+04:29.620 --> 04:32.990
+Se a derivada é decrescente, significa
+que a segunda derivada,
+
+04:32.990 --> 04:35.080
+a derivada da derivada, é negativa.
+
+04:35.080 --> 04:38.320
+Vemos que esse é mesmo o caso.
+
+04:38.320 --> 04:45.751
+Sobre esse intervalo inteiro, a segunda
+derivada é, sem dúvida, negativa.
+
+04:45.751 --> 04:51.160
+Agora, o que acontece quando mudamos
+para essa parte em U da curva?
+
+04:51.160 --> 04:54.150
+Bem, aqui a derivada é
+razoavelmente negativa.
+
+04:54.150 --> 04:56.250
+É razoavelmente negativa por aqui.
+
+04:56.250 --> 04:59.780
+Mas ainda continua negativa,
+e então se torna menos negativa
+
+04:59.780 --> 05:04.660
+e menos negativa e menos negativa...
+
+05:04.670 --> 05:05.980
+E então zero.
+
+05:05.980 --> 05:08.000
+Se torna zero bem aqui.
+
+05:08.000 --> 05:11.170
+E fica mais e mais positiva.
+
+05:11.170 --> 05:12.890
+Vemos isso aqui.
+
+05:12.890 --> 05:18.440
+Sobre todo esse intervalo,
+a inclinação ou a derivada está crescendo.
+
+05:18.440 --> 05:24.525
+A inclinação está crescendo.
+
+05:24.525 --> 05:25.870
+E vemos isso aqui.
+
+05:25.870 --> 05:27.560
+Aqui a inclinação é zero.
+
+05:27.560 --> 05:29.950
+A inclinação da derivada é zero.
+
+05:29.950 --> 05:33.220
+A derivada por si só não está
+mudando nesse momento.
+
+05:33.220 --> 05:37.089
+Vemos que a inclinação
+está crescendo.
+
+05:37.089 --> 05:38.630
+Novamente, podemos visualizar
+
+05:38.630 --> 05:40.900
+a segunda derivada, a derivada
+da derivada.
+
+05:40.900 --> 05:44.680
+Se a derivada está crescendo, significa
+que a derivada deve ser positiva.
+
+05:44.680 --> 05:49.240
+E esse é, definitivamente, o caso
+onde a derivada é positiva.
+
+05:49.240 --> 05:55.270
+Temos uma palavra para o &lt;i>U&lt;/i>
+de cabeça para baixo e o normal.
+
+05:55.270 --> 06:01.950
+Chamamos de côncavo para baixo.
+
+06:01.950 --> 06:03.560
+Vou ser mais claro.
+
+06:03.560 --> 06:07.920
+Côncavo para baixo.
+
+06:07.920 --> 06:13.400
+E chamamos esse de côncavo para cima.
+
+06:13.400 --> 06:15.330
+Vamos revisar como podemos identificar
+
+06:15.330 --> 06:18.670
+intervalos côncavos para baixo e
+intervalos côncavos para cima.
+
+06:18.670 --> 06:27.690
+Se estamos querendo côncavo para baixo,
+vemos bastante coisa.
+
+06:27.690 --> 06:37.430
+Vemos que a inclinação está decrescendo,
+
+06:37.430 --> 06:51.730
+que é outra maneira de dizer que
+f linha de x está decrescendo.
+
+06:51.730 --> 06:55.590
+O que é outra maneira de dizer que
+a segunda derivada deve ser negativa.
+
+06:55.590 --> 06:58.090
+Se a primeira derivada está decrescendo,
+
+06:58.090 --> 07:00.460
+a segunda derivada deve ser negativa,
+
+07:00.460 --> 07:03.350
+o que é outra forma de dizer
+que a segunda derivada
+
+07:03.350 --> 07:07.900
+sobre esse intervalo deve ser negativa.
+
+07:07.900 --> 07:11.010
+Se temos uma segunda
+derivada negativa,
+
+07:11.010 --> 07:14.220
+estamos num intervalo
+côncavo para baixo.
+
+07:14.220 --> 07:18.070
+Similarmente-- tenho dificuldade
+de pronunciar essa palavra--
+
+07:18.070 --> 07:21.640
+vamos pensar sobre côncavo para cima,
+
+07:21.640 --> 07:25.630
+onde temos uma abertura em &lt;i>U&lt;/i> para cima.
+Côncavo para cima.
+
+07:25.630 --> 07:28.510
+Nesses intervalos, a inclinação
+está crescendo.
+
+07:28.510 --> 07:31.030
+Temos uma inclinação negativa, menos
+negativa... zero,
+
+07:31.030 --> 07:34.040
+positiva, mais positiva,
+ainda mais positiva.
+
+07:34.040 --> 07:41.760
+A inclinação está crescendo.
+
+07:41.760 --> 07:50.690
+O que significa que a derivada
+da função está aumentando.
+
+07:50.690 --> 07:52.680
+E vemos isso bem aqui.
+
+07:52.680 --> 07:56.240
+A derivada aumenta em valor,
+
+07:56.240 --> 08:00.150
+o que significa que a segunda derivada
+sobre um intervalo
+
+08:00.150 --> 08:03.490
+onde é côncavo para cima
+deve ser maior que zero.
+
+08:03.490 --> 08:06.810
+Se a segunda derivada é maior que zero,
+então a primeira derivada está
+
+08:06.810 --> 08:09.440
+crescendo, e significa que
+a inclinação está crescendo.
+
+08:09.440 --> 08:14.630
+Estamos num intervalo côncavo para cima.
+
+08:14.630 --> 08:20.290
+Dadas essas definições que obtivemos
+de côncavos para baixo e para cima,
+
+08:20.290 --> 08:23.850
+podemos chegar a uma outra maneira
+de identificar quando um ponto crítico
+
+08:23.850 --> 08:26.490
+é um ponto mínimo ou ponto máximo?
+
+08:26.490 --> 08:28.420
+Bem, se temos um ponto máximo,
+
+08:28.420 --> 08:33.860
+se temos um ponto crítico onde
+a função é côncava para baixo,
+
+08:33.860 --> 08:36.130
+estaremos em um ponto máximo.
+
+08:36.130 --> 08:42.003
+Côncavo para baixo-- sendo mais claros,
+significa que se abre para baixo assim.
+
+08:42.003 --> 08:44.179
+Quando estamos falando
+de um ponto crítico,
+
+08:44.179 --> 08:46.304
+se assumirmos que é côncavo
+para baixo aqui,
+
+08:46.304 --> 08:48.944
+estamos assumindo diferenciabilidade
+nesse intervalo.
+
+08:48.944 --> 08:52.380
+O ponto crítico será aquele
+que a inclinação é zero.
+
+08:52.380 --> 08:54.810
+Será esse ponto aqui.
+
+08:54.810 --> 09:00.130
+Se é côncavo para baixo e temos
+um ponto onde f linha de,
+
+09:00.130 --> 09:11.500
+digamos, &lt;i>a&lt;/i> é igual a zero,
+temos um ponto máximo em a.
+
+09:11.500 --> 09:14.210
+E similarmente, se é côncavo para cima,
+
+09:14.210 --> 09:17.340
+significa que a nossa função
+se parece com algo assim.
+
+09:17.340 --> 09:20.990
+Se achamos um ponto, obviamente
+um ponto crítico seria aonde
+
+09:20.990 --> 09:24.800
+a função não é definida, mas se estamos
+assumindo que nossa primeira derivada
+
+09:24.800 --> 09:28.410
+e segunda derivada é definida aqui,
+o ponto crítico será aquele
+
+09:28.410 --> 09:31.380
+onde a primeira derivada será zero.
+
+09:31.380 --> 09:35.090
+&lt;i>f&lt;/i> linha de &lt;i>a&lt;/i> é igual a zero.
+
+09:35.090 --> 09:38.130
+E se &lt;i>f&lt;/i> linha de &lt;i>a&lt;/i> é igual a zero
+
+09:38.130 --> 09:42.020
+e côncavo para cima no
+intervalo ao redor de a -
+
+09:42.020 --> 09:44.250
+se a segunda derivada
+é maior que zero,
+
+09:44.250 --> 09:46.010
+é bem claro, podemos ver aqui,
+
+09:46.010 --> 09:52.305
+que estamos lidando com
+um ponto mínimo em a.
+
+09:52.305 --> 09:53.775
+[Legendado por Miguel Infante]
+[Revisado por Pilar Dib]

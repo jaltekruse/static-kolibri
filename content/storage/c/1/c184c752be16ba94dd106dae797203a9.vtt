@@ -1,0 +1,404 @@
+WEBVTT
+
+00:00.640 --> 00:03.200
+Az alábbi elsőfokú
+egyenletrendszer
+
+00:03.200 --> 00:05.600
+függő vagy független?
+
+00:05.600 --> 00:07.430
+Megadtak két egyenletet.
+
+00:07.430 --> 00:09.650
+Mielőtt nekifognék ennek
+a konkrét feladatnak,
+
+00:09.650 --> 00:11.247
+tekintsük át egy kicsit,
+
+00:11.247 --> 00:13.050
+hogy mit jelent az,
+hogy függő vagy független.
+
+00:13.050 --> 00:16.770
+És tulajdonképpen együtt fogom vizsgálni
+ezt a konzisztens és inkonzisztens fogalmakkal.
+
+00:16.770 --> 00:21.050
+Kezdjük azzal, hogy ha elsőfokú
+egyenletrendszerekről van szó
+
+00:21.050 --> 00:22.250
+két dimenzióban,
+
+00:22.250 --> 00:26.620
+akkor az egyenesek vagy egyenletek
+csak háromféleképpen
+
+00:26.620 --> 00:28.165
+viszonyulhatnak egymáshoz.
+
+00:28.165 --> 00:29.640
+Lerajzolom a három lehetőséget.
+
+00:29.640 --> 00:32.189
+Rajzolok 3 koordinátarendszert.
+
+00:32.189 --> 00:37.630
+Ez az első x tengely és y tengely.
+
+00:37.630 --> 00:39.620
+Rajzolok egy másikat,
+
+00:39.620 --> 00:44.690
+ez az x és ez az y.
+
+00:44.690 --> 00:45.860
+Rajzolok még egyet,
+
+00:45.860 --> 00:49.130
+– mert csak 3 lehetséges eset van
+két dimenzióban,
+
+00:49.130 --> 00:54.420
+ha elsőfokú egyenletekkel
+van dolgunk –, x és y.
+
+00:54.420 --> 00:56.520
+Tehát előfordulhat az a helyzet,
+
+00:56.520 --> 00:59.530
+hogy az egyenesek egy pontban
+metszik egymást.
+
+00:59.530 --> 01:00.720
+Csináljuk meg ezt!
+
+01:00.720 --> 01:03.040
+Tehát lehet egy ilyen egyenes,
+
+01:03.040 --> 01:05.630
+és egy másik,
+ami így nézhet ki,
+
+01:05.630 --> 01:08.360
+ezek egy pontban
+metszik egymást.
+
+01:08.360 --> 01:09.870
+Lehet olyan helyzet,
+
+01:09.870 --> 01:12.520
+amikor a két egyenes
+párhuzamos.
+
+01:12.520 --> 01:15.680
+Tehát lehet olyan helyzet
+– hadd rajzoljam ide –,
+
+01:15.680 --> 01:17.580
+amikor van egy egyenes,
+amelyik így megy,
+
+01:17.580 --> 01:20.120
+és a másik egyenesnek ugyanaz
+a meredeksége, de el van tolva,
+
+01:20.120 --> 01:22.840
+az y tengelymetszete más,
+szóval valahogy így néz ki.
+
+01:22.840 --> 01:24.800
+Ekkor nincs metszéspont.
+
+01:24.800 --> 01:27.050
+Aztán lehet még
+olyan helyzet is,
+
+01:27.050 --> 01:29.633
+amikor a kettő lényegében
+ugyanaz az egyenes,
+
+01:29.633 --> 01:33.540
+azaz a két egyenesnek ugyanaz
+a meredeksége és az y tengelymetszete,
+
+01:33.540 --> 01:35.520
+szóval tényleg ugyanaz
+a két egyenes.
+
+01:35.520 --> 01:38.290
+Végtelen sok közös pontjuk van,
+
+01:38.290 --> 01:39.790
+az egyik egyenes minden pontja
+
+01:39.790 --> 01:42.060
+rajta van a másik egyenesen is.
+
+01:42.060 --> 01:45.210
+Egy kis visszatekintés
+a szakkifejezésekre:
+
+01:45.210 --> 01:47.081
+– erről az előző videóban tanultunk –
+
+01:47.081 --> 01:50.950
+ez a fajta egyenletrendszer,
+amikor nincs metszéspont,
+
+01:50.950 --> 01:53.100
+amikor nincs megoldás,
+
+01:53.100 --> 01:59.530
+ez az inkonzisztens
+egyenletrendszer.
+
+01:59.530 --> 02:00.840
+És definíció szerint
+
+02:00.840 --> 02:02.630
+– vagy csak egyszerűen vesszük az
+inkonzisztens ellentettjét –
+
+02:02.630 --> 02:08.440
+ez a kettő konzisztensnek
+tekinthető.
+
+02:08.440 --> 02:11.140
+De aztán a konzisztensen belül
+nyilvánvalóan van különbség.
+
+02:11.140 --> 02:12.830
+Itt csak egy megoldás van,
+
+02:12.830 --> 02:13.960
+ez két különböző egyenes,
+
+02:13.960 --> 02:15.440
+amelyek egy helyen
+metszik egymást,
+
+02:15.440 --> 02:18.800
+itt pedig tulajdonképpen
+a kettő pontosan ugyanaz az egyenes.
+
+02:18.800 --> 02:21.450
+Így aztán megkülönböztetjük
+ezt a két esetet:
+
+02:21.450 --> 02:27.440
+ezt itt függetlennek nevezzük,
+
+02:27.440 --> 02:32.310
+ezt pedig függőnek.
+
+02:32.310 --> 02:34.980
+Tehát a független:
+mindkét egyenes a saját útját járja,
+
+02:34.980 --> 02:37.260
+nem függnek egymástól.
+
+02:37.260 --> 02:38.360
+A kettő nem ugyanaz az egyenes,
+
+02:38.360 --> 02:40.410
+egy helyen fogják
+metszeni egymást.
+
+02:40.410 --> 02:42.440
+Függő: a kettő pontosan
+ugyanaz az egyenes,
+
+02:42.440 --> 02:43.950
+minden pont, ami rajta van
+az egyik egyenesen,
+
+02:43.950 --> 02:44.950
+rajta van a másikon is.
+
+02:44.950 --> 02:46.533
+Minden pont, ami kielégíti
+az egyik egyenletet,
+
+02:46.533 --> 02:48.500
+ki fogja elégíteni a másikat is.
+
+02:48.500 --> 02:54.140
+Ezek alapján nézzük, hogy ez az
+elsőfokú egyenletrendszer
+
+02:54.140 --> 02:55.532
+függő vagy független.
+
+02:55.532 --> 02:56.990
+A kérdés alapján feltételezzük,
+
+02:56.990 --> 02:58.364
+hogy konzisztens lesz,
+
+02:58.364 --> 03:00.430
+vagy egy helyen metszik egymást,
+
+03:00.430 --> 03:03.360
+vagy végtelen sok
+közös pontjuk lesz.
+
+03:03.360 --> 03:05.640
+A legegyszerűbb,
+ha úgy csináljuk...
+
+03:05.640 --> 03:07.710
+– ez a második egyenlet,
+
+03:07.710 --> 03:09.500
+ez már meredekség-tengelymetszet
+alakú,
+
+03:09.500 --> 03:13.450
+tudjuk, hogy a meredekség -2,
+az y tengelymetszet 8.
+
+03:13.450 --> 03:17.149
+Hozzuk az első egyenletet is
+
+03:17.149 --> 03:18.149
+meredekség-tengelymetszet
+alakra,
+
+03:18.149 --> 03:19.020
+és nézzük meg,
+hogy különbözők-e
+
+03:19.020 --> 03:20.250
+a meredekségek és a
+tengelymetszetek,
+
+03:20.250 --> 03:21.930
+vagy esetleg ugyanaz
+az egyenes a kettő.
+
+03:21.930 --> 03:27.370
+Tehát 4x + 2y = 16.
+
+03:27.370 --> 03:29.640
+Kivonhatunk 4x-et
+mindkét oldalból.
+
+03:29.640 --> 03:32.750
+El szeretnénk különíteni
+az y-t a bal oldalon,
+
+03:32.750 --> 03:37.020
+tehát vonjunk ki 4x-et
+mindkét oldalból.
+
+03:37.020 --> 03:40.470
+A bal oldalon csak 2y maradt,
+
+03:40.470 --> 03:45.810
+a jobb oldalon pedig
+-4x + 16 van.
+
+03:45.810 --> 03:47.980
+Csak azért írtam a -4x-et a 16 elé,
+
+03:47.980 --> 03:51.439
+hogy a megszokott meredekség-tengelymetszet
+alakban legyen.
+
+03:51.439 --> 03:54.175
+És most az egyenlet mindkét
+oldalát eloszthatjuk 2-vel,
+
+03:54.175 --> 03:56.910
+ezzel el tudjuk különíteni
+az y-t a bal oldalon.
+
+03:56.910 --> 03:58.180
+Mindkét oldalt elosztjuk 2-vel.
+
+03:58.180 --> 04:04.248
+Az maradt, hogy y egyenlő...
+-4 osztva 2-vel az -2x,
+
+04:04.248 --> 04:07.120
+plusz 16 per 2, az plusz 8.
+
+04:07.120 --> 04:08.190
+Csak annyit csináltam, hogy
+
+04:08.190 --> 04:11.480
+algebrai átalakításokat végeztem
+ezen a felső egyenleten.
+
+04:11.480 --> 04:14.610
+És miután megcsináltam ezt,
+miután kifejeztem y-t,
+
+04:14.610 --> 04:16.450
+ezt kaptam,
+
+04:16.450 --> 04:19.149
+ami pontosan ugyanaz,
+mint a második egyenlet.
+
+04:19.149 --> 04:23.590
+Ugyanannyi a meredekség,
+-2, -2,
+
+04:23.590 --> 04:26.870
+és pontosan ugyanannyi
+az y tengelymetszet, 8 és 8.
+
+04:26.870 --> 04:31.370
+Ha ábrázolnám ezeket
+az egyenleteket
+
+04:31.370 --> 04:36.387
+– ez az x tengely és ez az y tengely –,
+
+04:36.387 --> 04:39.760
+mindkettő 8-nál metszi az y tengelyt,
+
+04:39.760 --> 04:41.300
+és mindkettő meredeksége -2,
+
+04:41.300 --> 04:44.290
+tehát valahogy
+– csak nagyjából rajzolom meg –
+
+04:44.290 --> 04:47.100
+valahogy így néznének ki.
+
+04:47.100 --> 04:50.160
+Ez lehet ennek az
+egyenletnek a grafikonja,
+
+04:50.160 --> 04:51.174
+ennek az első egyenletnek,
+
+04:51.174 --> 04:53.590
+és a második egyenletnek
+pontosan ugyanez lesz a képe.
+
+04:53.590 --> 04:55.110
+Pontosan ugyanannyi
+az y tengelymetszete,
+
+04:55.110 --> 04:56.850
+és pontosan ugyanannyi
+a meredeksége.
+
+04:56.850 --> 05:02.360
+Tehát világos, hogy ez a két
+egyenes függő,
+
+05:02.360 --> 05:06.240
+végtelen sok közös
+pontjuk van,
+
+05:06.240 --> 05:09.393
+mert a két egyenes ugyanaz.

@@ -1,0 +1,465 @@
+WEBVTT
+
+00:00.459 --> 00:01.605
+- [Voiceover] So what I
+want to do in this video
+
+00:01.605 --> 00:05.064
+is familiarize ourselves with
+the second derivative test
+
+00:05.064 --> 00:07.735
+and before I even get into
+the nitty-gritty of it,
+
+00:07.735 --> 00:09.363
+I really just want to
+get an intuitive feel
+
+00:09.363 --> 00:11.660
+for what the second
+derivative test is telling us.
+
+00:11.660 --> 00:14.577
+So let me just draw some axes here.
+
+00:15.452 --> 00:20.258
+So let's say that's my y-axis,
+let's say this is my x-axis
+
+00:20.258 --> 00:22.822
+and let's say I have a function that has
+
+00:22.822 --> 00:26.072
+a relative maximum value at X equals C.
+
+00:27.148 --> 00:29.257
+So let's say we have a situation
+
+00:29.257 --> 00:31.206
+that looks something like that
+
+00:31.206 --> 00:33.623
+and X equals C is right over,
+
+00:35.399 --> 00:38.336
+so that's the point C, F of C.
+
+00:38.336 --> 00:42.502
+So if I can draw a straighter dotted line.
+
+00:42.502 --> 00:44.919
+So that is X being equal to C
+
+00:46.667 --> 00:51.073
+and we visually see that we
+have a local maximum point there
+
+00:51.073 --> 00:53.156
+and we can use our calculus tools
+
+00:53.156 --> 00:54.945
+to think about what's going on there.
+
+00:54.945 --> 00:56.761
+Well one thing that we know,
+
+00:56.761 --> 01:00.179
+we know that the slope
+of the tangent line,
+
+01:00.179 --> 01:01.942
+at least the way I've
+drawn it right over here,
+
+01:01.942 --> 01:03.624
+is equal to zero.
+
+01:03.624 --> 01:07.374
+So we could say F prime
+of C is equal to zero
+
+01:08.884 --> 01:10.300
+and the other thing we can see
+
+01:10.300 --> 01:12.222
+is that we are concave downward
+
+01:12.222 --> 01:15.373
+in the neighborhood around X equals C.
+
+01:15.373 --> 01:18.471
+So notice our slope is
+constantly decreasing
+
+01:18.471 --> 01:21.542
+and since your slope,
+notice it's positive,
+
+01:21.542 --> 01:23.277
+it's less positive, even less positive,
+
+01:23.277 --> 01:25.227
+it goes to zero, then it becomes negative,
+
+01:25.227 --> 01:27.443
+more negative and even more negative.
+
+01:27.443 --> 01:29.943
+So we know that F prime prime,
+
+01:31.288 --> 01:33.871
+we know that F prime prime of C
+
+01:36.463 --> 01:38.551
+is less than zero
+
+01:38.551 --> 01:42.475
+and so I haven't done any
+deep mathematical proof here,
+
+01:42.475 --> 01:46.225
+but if I have a critical
+point at X equals C,
+
+01:48.587 --> 01:51.618
+so F prime of C is equal to zero,
+
+01:51.618 --> 01:54.288
+and we also see that the
+second derivative there
+
+01:54.288 --> 01:55.650
+is less than zero.
+
+01:55.650 --> 01:56.958
+Well intuitively this makes sense
+
+01:56.958 --> 01:59.094
+that we are at a maximum value
+
+01:59.094 --> 02:00.697
+and we could go the other way
+
+02:00.697 --> 02:04.697
+if we are at a local
+minimum point at X equals C
+
+02:07.212 --> 02:09.215
+or relative minimum point.
+
+02:09.215 --> 02:13.382
+So our first derivative
+should still be equal to zero
+
+02:14.235 --> 02:16.585
+'cause our slope of a
+tangent line right over there
+
+02:16.585 --> 02:17.840
+is still zero.
+
+02:17.840 --> 02:20.590
+So F prime of C is equal to zero.
+
+02:21.979 --> 02:25.290
+But in this second situation,
+we are concave upwards.
+
+02:25.290 --> 02:28.922
+The slope is constantly increasing.
+
+02:28.922 --> 02:30.631
+We have an upward opening bowl
+
+02:30.631 --> 02:33.764
+and so here we have a
+relative minimum value
+
+02:33.764 --> 02:38.344
+or we could say our second
+derivative is greater than zero.
+
+02:38.344 --> 02:40.881
+Visually we see it's a
+relative minimum value
+
+02:40.881 --> 02:42.616
+and we can tell just
+looking at our derivatives,
+
+02:42.616 --> 02:43.734
+at least the way I've drawn it,
+
+02:43.734 --> 02:45.523
+first derivative is equal to zero
+
+02:45.523 --> 02:47.018
+and we are concave upwards.
+
+02:47.018 --> 02:49.048
+Second derivative is greater than zero.
+
+02:49.048 --> 02:51.451
+And so this intuition that
+we hopefully just built up
+
+02:51.451 --> 02:54.388
+is what the second
+derivative test tells us.
+
+02:54.388 --> 02:57.379
+So it says hey look, if we're
+dealing with some function F,
+
+02:57.379 --> 03:00.183
+let's say it's a twice
+differentiable function.
+
+03:00.183 --> 03:02.186
+So that means that over some interval.
+
+03:02.186 --> 03:04.478
+So that means that you
+could find its first
+
+03:04.478 --> 03:06.214
+and second derivatives are defined
+
+03:06.214 --> 03:08.270
+and so let's say there's
+some point, X equals C,
+
+03:08.270 --> 03:11.421
+where its first derivative
+is equal to zero,
+
+03:11.421 --> 03:14.145
+so the slope of the tangent
+line is equal to zero,
+
+03:14.145 --> 03:17.029
+and the derivative exists
+in a neighborhood around C
+
+03:17.029 --> 03:18.898
+and most of the functions we deal with,
+
+03:18.898 --> 03:19.939
+if it's differentiable at C,
+
+03:19.939 --> 03:23.117
+it tends to be differentiable
+in the neighborhood around C
+
+03:23.117 --> 03:25.173
+and then we also assume that
+second derivative exists
+
+03:25.173 --> 03:26.695
+is twice differentiable.
+
+03:26.695 --> 03:30.300
+Well then we might be
+dealing with a maximum point,
+
+03:30.300 --> 03:32.036
+we might be dealing with a minimum point,
+
+03:32.036 --> 03:34.279
+or we might not know
+what we're dealing with
+
+03:34.279 --> 03:38.076
+and it might be neither a
+minimum or a maximum point.
+
+03:38.076 --> 03:39.772
+But using the second derivative test,
+
+03:39.772 --> 03:42.068
+if we take the second
+derivative and if we see that
+
+03:42.068 --> 03:45.807
+the second derivative is
+indeed less than zero,
+
+03:45.807 --> 03:48.584
+then we have a relative maximum point.
+
+03:48.584 --> 03:51.251
+Then so this is a situation that
+
+03:52.598 --> 03:54.321
+we started with right up there.
+
+03:54.321 --> 03:57.926
+If our second derivative
+is greater than zero,
+
+03:57.926 --> 03:59.768
+then we are in this situation right here,
+
+03:59.768 --> 04:01.290
+we're concave upwards.
+
+04:01.290 --> 04:03.667
+Where the slope is zero,
+that's the bottom of the bowl.
+
+04:03.667 --> 04:06.097
+We have a relative minimum point
+
+04:06.097 --> 04:09.168
+and if our second derivative
+is zero, it's inconclusive.
+
+04:09.168 --> 04:12.319
+We don't know what is actually
+going on at that point.
+
+04:12.319 --> 04:14.508
+We can't make any strong statement.
+
+04:14.508 --> 04:16.351
+So with that out of the way,
+let's just do a quick example
+
+04:16.351 --> 04:18.647
+just to see if this has gelled.
+
+04:18.647 --> 04:22.172
+Let's say that I have some
+twice differentiable function H
+
+04:22.172 --> 04:23.481
+and let's say that I tell you that
+
+04:23.481 --> 04:25.814
+H of eight is equal to five,
+
+04:27.379 --> 04:31.546
+I tell you that H prime
+of eight is equal to zero,
+
+04:32.586 --> 04:34.883
+and I tell you that the second derivative
+
+04:34.883 --> 04:38.888
+at X equals eight is
+equal to negative four.
+
+04:38.888 --> 04:42.493
+So given this, can you tell me whether
+
+04:42.493 --> 04:46.660
+the point eight comma five,
+so the point eight comma five,
+
+04:47.593 --> 04:49.676
+is it a relative minimum,
+
+04:52.953 --> 04:55.536
+relative minimum, maximum point
+
+04:57.653 --> 04:59.976
+or not enough info?
+
+04:59.976 --> 05:02.643
+Not enough info or inconclusive?
+
+05:04.996 --> 05:06.011
+And like always, pause the video
+
+05:06.011 --> 05:08.040
+and see if you can figure it out.
+
+05:08.040 --> 05:09.829
+Well we're assuming it's
+twice differentiable
+
+05:09.829 --> 05:11.761
+and I think it's safe to assume that
+
+05:11.761 --> 05:13.297
+and for the sake of our problem
+
+05:13.297 --> 05:15.059
+we're gonna assume that
+the derivative exists
+
+05:15.059 --> 05:17.489
+in a neighborhood around X equals eight.
+
+05:17.489 --> 05:19.438
+So in this example, C is eight.
+
+05:19.438 --> 05:23.604
+So point eight five is
+definitely on the curve.
+
+05:23.604 --> 05:24.992
+The derivative is equal to zero.
+
+05:24.992 --> 05:27.930
+So we're dealing potentially
+with one of these scenarios
+
+05:27.930 --> 05:31.508
+and our second derivative
+is less than zero.
+
+05:31.508 --> 05:33.537
+Second derivative is less than zero.
+
+05:33.537 --> 05:35.273
+So this threw us.
+
+05:35.273 --> 05:37.570
+So the fact that the second derivative,
+
+05:37.570 --> 05:41.602
+so H prime prime of
+eight is less than zero,
+
+05:41.602 --> 05:45.340
+tells us that we fall into
+this situation right over here.
+
+05:45.340 --> 05:47.717
+So just with the information
+they've given us,
+
+05:47.717 --> 05:50.440
+we can say that at the
+point eight comma five
+
+05:50.440 --> 05:53.107
+we have a relative maximum value
+
+05:54.019 --> 05:57.730
+or that this is a relative
+maximum point for this.
+
+05:57.730 --> 06:00.774
+If somehow they told us the
+second derivative was zero,
+
+06:00.774 --> 06:02.296
+then we would say it's inconclusive.
+
+06:02.296 --> 06:03.819
+If they told us and
+that's all they told us
+
+06:03.819 --> 06:04.833
+and if they told us the second derivative
+
+06:04.833 --> 06:07.610
+is greater than zero,
+then we would be dealing
+
+06:07.610 --> 06:11.610
+with a relative minimum
+value at X equals eight.

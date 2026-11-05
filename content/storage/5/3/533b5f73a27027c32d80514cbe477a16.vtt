@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.710 --> 00:03.450
+- [Instructor] So I am here at desmos.com,
+
+00:03.450 --> 00:05.630
+which is an online graphing calculator,
+
+00:05.630 --> 00:07.270
+and the goal of this video is
+
+00:07.270 --> 00:10.430
+to explore how shifts in functions happen.
+
+00:10.430 --> 00:12.620
+How do things shift to the right or left
+
+00:12.620 --> 00:15.120
+or how do they shift up and down?
+
+00:15.120 --> 00:16.920
+And what we're going to start off doing
+
+00:16.920 --> 00:19.140
+is just graph a plain vanilla function,
+
+00:19.140 --> 00:23.280
+f of x is equal to x squared.
+
+00:23.280 --> 00:25.930
+That looks as we would expect it to look,
+
+00:25.930 --> 00:30.050
+but now let's think about how
+we can shift it up or down.
+
+00:30.050 --> 00:32.050
+Well one thought is, well, to shift it up,
+
+00:32.050 --> 00:34.690
+we just have to make the
+value of f of x higher
+
+00:34.690 --> 00:36.510
+so we can add a value,
+
+00:36.510 --> 00:39.360
+and that does look like
+it shifted it up by one.
+
+00:39.360 --> 00:40.970
+Whatever f of x was before,
+
+00:40.970 --> 00:42.400
+we're now adding one to it
+
+00:42.400 --> 00:45.070
+so it shifts the graph up by
+one, that's pretty intuitive.
+
+00:45.070 --> 00:46.190
+If we subtract one,
+
+00:46.190 --> 00:47.790
+or actually, let's subtract three.
+
+00:47.790 --> 00:49.190
+Notice, it shifted it down.
+
+00:49.190 --> 00:51.710
+The vertex was right
+over here at zero, zero.
+
+00:51.710 --> 00:54.530
+Now it is at zero, negative three,
+
+00:54.530 --> 00:55.920
+so it shifted it down.
+
+00:55.920 --> 00:58.440
+And we can set up a slider here
+
+00:58.440 --> 01:00.700
+to make that a little bit clearer,
+
+01:00.700 --> 01:03.150
+so if I just replace this with,
+
+01:03.150 --> 01:07.460
+if I just replace this
+with the variable k,
+
+01:07.460 --> 01:10.010
+then let me delete this little thing here,
+
+01:10.010 --> 01:12.110
+that little subscript thing that happened.
+
+01:14.600 --> 01:17.600
+Then we can add a slider k here,
+
+01:17.600 --> 01:21.320
+and this is just allowing us
+to set what k is equal to,
+
+01:21.320 --> 01:23.550
+so here, k is equal to one,
+
+01:23.550 --> 01:25.430
+so this is x squared plus one,
+
+01:25.430 --> 01:26.740
+and notice, we have shifted up,
+
+01:26.740 --> 01:29.250
+and if we increase the value of k,
+
+01:29.250 --> 01:31.490
+notice how it shifts the graph up,
+
+01:31.490 --> 01:33.620
+and as we decrease the value of k,
+
+01:33.620 --> 01:36.240
+if k is zero, we're back where our vertex
+
+01:36.240 --> 01:37.850
+is right at the origin,
+
+01:37.850 --> 01:39.770
+and as we decrease the value of k,
+
+01:39.770 --> 01:42.690
+it shifts our graph down.
+
+01:42.690 --> 01:44.120
+And that's pretty intuitive,
+
+01:44.120 --> 01:47.210
+'cause we're adding or subtracting
+that amount to x squared
+
+01:47.210 --> 01:49.730
+so it changes, we could say the y value,
+
+01:49.730 --> 01:51.360
+it shifts it up or down.
+
+01:51.360 --> 01:55.310
+But how do we shift to
+the left or to the right?
+
+01:55.310 --> 01:58.020
+So what's interesting here
+is to shift to the left
+
+01:58.020 --> 02:01.050
+or the right, we can replace our x
+
+02:01.050 --> 02:03.650
+with an x minus something,
+
+02:03.650 --> 02:05.410
+so let's see how that might work.
+
+02:05.410 --> 02:07.680
+So I'm gonna replace our x
+
+02:07.680 --> 02:11.610
+with an x minus, let's replace
+it with an x minus one.
+
+02:11.610 --> 02:12.540
+What do you think is going to happen?
+
+02:12.540 --> 02:14.810
+Do you think that's going
+to shift it one to the right
+
+02:14.810 --> 02:17.120
+or one to the left?
+
+02:17.120 --> 02:19.460
+So let's just put the one in.
+
+02:19.460 --> 02:20.330
+Well, that's interesting.
+
+02:20.330 --> 02:22.800
+Before, our vertex was at zero, zero.
+
+02:22.800 --> 02:25.320
+Now our vertex is at one, zero.
+
+02:25.320 --> 02:29.230
+So by replacing our x with an x minus one,
+
+02:29.230 --> 02:32.910
+we actually shifted one to the right.
+
+02:32.910 --> 02:35.440
+Now why does that make sense?
+
+02:35.440 --> 02:36.610
+Well, one way to think about it,
+
+02:36.610 --> 02:38.160
+before we put this x,
+
+02:38.160 --> 02:41.180
+before we replaced our
+x with an x minus one,
+
+02:41.180 --> 02:44.730
+the vertex was when we were squaring zero.
+
+02:44.730 --> 02:46.740
+Now, in order to square zero,
+
+02:46.740 --> 02:50.810
+squaring zero happens
+when x is equal to one.
+
+02:50.810 --> 02:53.880
+When x is equal to one,
+you do one minus one,
+
+02:53.880 --> 02:57.570
+you get zero, and then that's
+when you are squaring zero.
+
+02:57.570 --> 02:59.840
+So it makes sense that you
+have a similar behavior
+
+02:59.840 --> 03:02.750
+of the graph at the vertex
+now when x equals one
+
+03:02.750 --> 03:05.190
+as before you had when x equals zero.
+
+03:05.190 --> 03:08.280
+And to see how this can be generalized,
+
+03:08.280 --> 03:10.300
+let's put another variable here
+
+03:10.300 --> 03:12.560
+and let's add a slider for h.
+
+03:12.560 --> 03:16.320
+And then we can see that
+when h is zero and k is zero,
+
+03:16.320 --> 03:18.880
+our function is really
+then just x squared,
+
+03:18.880 --> 03:22.540
+and then if h increases,
+
+03:22.540 --> 03:25.860
+we are replacing our x with
+x minus a larger value.
+
+03:25.860 --> 03:28.090
+That's shifting to the right
+
+03:28.090 --> 03:31.130
+and that is, as h decreases,
+
+03:31.130 --> 03:32.460
+as it becomes negative,
+
+03:32.460 --> 03:33.930
+that shifts to the left.
+
+03:33.930 --> 03:36.450
+Now right here, h is
+equal to negative five.
+
+03:36.450 --> 03:39.260
+You typically won't see
+x minus negative five.
+
+03:39.260 --> 03:42.530
+You would see that written as x plus five,
+
+03:42.530 --> 03:45.540
+so if you replace your
+x's with an x plus five,
+
+03:45.540 --> 03:49.450
+that actually shifts everything
+five units to the left.
+
+03:49.450 --> 03:51.040
+And of course, we can shift both
+
+03:51.040 --> 03:53.820
+of them together, like this.
+
+03:53.820 --> 03:55.890
+So here, we're shifting it up,
+
+03:55.890 --> 03:57.410
+and then we are,
+
+03:57.410 --> 04:00.330
+we could get back to our
+neutral horizontal shift
+
+04:00.330 --> 04:03.640
+and then we can shift it
+to the right like that.
+
+04:03.640 --> 04:05.330
+And everything we did just now
+
+04:05.330 --> 04:09.800
+is with the x squared
+function as our core function,
+
+04:09.800 --> 04:11.670
+but you could do it with
+all sorts of functions.
+
+04:11.670 --> 04:13.970
+You could do it with an
+absolute value function.
+
+04:13.970 --> 04:16.550
+Let's do absolute value,
+that's always a fun one.
+
+04:16.550 --> 04:18.960
+So instead of squaring all this business,
+
+04:18.960 --> 04:22.160
+let's have an absolute value here.
+
+04:22.160 --> 04:25.430
+So I'm gonna put an absolute, whoops.
+
+04:25.430 --> 04:27.810
+Absolute value,
+
+04:27.810 --> 04:28.680
+and there you have it.
+
+04:28.680 --> 04:32.130
+You can start at, let me
+make both of these variables
+
+04:32.130 --> 04:36.160
+equal to zero, so that
+would just be the graph of
+
+04:36.160 --> 04:39.140
+f of x is equal to the
+absolute value of x.
+
+04:39.140 --> 04:41.280
+But let's say you wanted to shift it
+
+04:41.280 --> 04:44.500
+so that this point right over
+here that's at the origin
+
+04:44.500 --> 04:46.670
+is at the point negative
+five, negative five,
+
+04:46.670 --> 04:48.330
+which is right over there.
+
+04:48.330 --> 04:51.020
+So what you would do is
+you would replace your x
+
+04:51.020 --> 04:53.890
+with x plus five,
+
+04:53.890 --> 04:56.730
+or you would make this h variable
+
+04:56.730 --> 04:59.260
+to negative five right
+over here, 'cause notice,
+
+04:59.260 --> 05:01.690
+if you replace your h
+with a negative five,
+
+05:01.690 --> 05:05.090
+inside the absolute value,
+you would have an x plus five,
+
+05:05.090 --> 05:06.700
+and then if you want to shift it down,
+
+05:06.700 --> 05:08.410
+you just reduce the value of k,
+
+05:08.410 --> 05:10.090
+and if you want to shift it down by five,
+
+05:10.090 --> 05:12.150
+you reduce it by five,
+
+05:12.150 --> 05:14.010
+and you could get something like that.
+
+05:14.010 --> 05:15.950
+So I encourage you, go to desmos.com.
+
+05:15.950 --> 05:17.230
+Try this out for yourself,
+
+05:17.230 --> 05:19.370
+and really play around
+with these functions
+
+05:19.370 --> 05:22.990
+to give yourself an
+intuition of how things
+
+05:22.990 --> 05:24.810
+and why things shift up or down
+
+05:24.810 --> 05:25.890
+when you add a constant,
+
+05:25.890 --> 05:28.070
+and why things shift to
+the left or the right
+
+05:28.070 --> 05:32.410
+when you replace your x's
+with an x minus, in this case,
+
+05:32.410 --> 05:33.490
+an x minus h,
+
+05:33.490 --> 05:37.123
+but it really could be x
+minus some type of a constant.

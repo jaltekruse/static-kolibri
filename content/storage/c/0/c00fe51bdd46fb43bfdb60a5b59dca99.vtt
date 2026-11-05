@@ -1,0 +1,254 @@
+WEBVTT
+
+00:00.287 --> 00:07.096
+Pomocí integrálního počtu
+najdeme obsah této žluté plochy.
+
+00:07.096 --> 00:09.113
+Pokud máte kdykoli v průběhu nějaký nápad,
+
+00:09.113 --> 00:14.016
+tak si zastavte video a zkuste
+si to spočítat samostatně.
+
+00:14.016 --> 00:17.963
+Zde je hlavní si uvědomit, že
+se jedná o plochu mezi křivkami.
+
+00:17.963 --> 00:19.945
+Mohl by se nám hodit určitý integrál,
+
+00:19.945 --> 00:22.859
+proto si sem napíšu
+značku určitého integrálu.
+
+00:22.859 --> 00:27.368
+A teď se zamyslíme nad tím,
+co jsou hranice našeho integrálu?
+
+00:27.368 --> 00:28.946
+Tohle vypadá jako levá hranice,
+
+00:28.946 --> 00:34.438
+zde se oba grafy protínají a pravá
+hranice je tento jejich průnik.
+
+00:34.438 --> 00:36.243
+Jaké souřadnice má tento bod průniku?
+
+00:36.243 --> 00:39.224
+Vypadá to jako −1, −2.
+
+00:39.224 --> 00:40.593
+Můžeme si to ověřit.
+
+00:40.593 --> 00:43.312
+Pokud x je rovno −1
+a bod leží na červené křivce,
+
+00:43.312 --> 00:45.365
+tak tohle umocníme a dostaneme tady −3.
+
+00:45.365 --> 00:47.939
+Skutečně dostaneme y rovno −2.
+
+00:47.939 --> 00:50.346
+Když x je rovno −1 a leží na modré křivce,
+
+00:50.346 --> 00:52.989
+tak dostaneme 1 minus 4 plus 1.
+
+00:52.989 --> 00:59.954
+Opět máme y rovno −2
+a stejně to vyjde pro x rovno 1.
+
+00:59.954 --> 01:02.500
+1 minus 3, tak to je −2,
+
+01:02.500 --> 01:05.790
+1 minus 4 plus 1 je také −2.
+
+01:05.790 --> 01:11.151
+Hranice jsou od x rovno −1 do x rovno 1.
+
+01:11.151 --> 01:13.806
+Nyní určíme horní hranici
+a dolní hranici plochy.
+
+01:13.806 --> 01:18.112
+V daném intervalu
+je modrý graf horní hranice.
+
+01:18.112 --> 01:22.072
+Odčítáme dolní hranici od horní,
+
+01:22.072 --> 01:27.198
+takže máme x na čtvrtou
+minus (4 krát x na druhou) plus 1
+
+01:27.198 --> 01:33.800
+a od toho odečteme x na druhou
+minus 3 a nakonec napíšeme dx.
+
+01:33.800 --> 01:37.210
+V několika videích jsme
+vysvětlovali, proč to takto děláme,
+
+01:37.210 --> 01:42.485
+a proč dává smysl odečíst
+spodní graf od horního grafu,
+
+01:42.485 --> 01:44.746
+když hledáme obsah plochy mezi nimi.
+
+01:44.746 --> 01:47.660
+Ale nyní prostě musíme
+spočítat tento integrál,
+
+01:47.660 --> 01:50.226
+tak pojďme na to.
+
+01:50.226 --> 01:54.160
+Super, máme tento integrál od −1 do +1.
+
+01:54.160 --> 02:01.078
+Zde máme x na čtvrtou,
+pak minus (4 krát x na druhou).
+
+02:01.078 --> 02:05.982
+Když roznásobíme toto záporné znaménko,
+tak odečteme další x na druhou,
+
+02:05.982 --> 02:09.667
+takže máme minus 5 krát x na druhou.
+
+02:09.667 --> 02:16.100
+Pak plus 1 a odečteme −3,
+takže to bude plus 3,
+
+02:16.100 --> 02:20.940
+a celkově to bude plus 4 a ještě dx.
+
+02:20.940 --> 02:24.197
+Aby bylo jasno, tak
+zde bych měl mít závorky,
+
+02:24.197 --> 02:28.602
+protože násobíme dx celý tento výraz.
+
+02:28.602 --> 02:30.868
+Pojďme najít primitivní
+funkci této funkce.
+
+02:30.868 --> 02:32.899
+To by mělo být jednoduché.
+
+02:32.899 --> 02:35.858
+Použijeme několikrát prostě
+pravidlo pro integrování mocniny.
+
+02:35.858 --> 02:41.275
+Primitivní funkce x na čtvrtou
+je x na pátou lomeno pěti.
+
+02:41.275 --> 02:45.105
+Zvýšíme exponent a pak to jím vydělíme.
+
+02:45.105 --> 02:52.022
+Minus stejná myšlenka tady, 5 krát
+x na třetí lomeno 3 plus 4 krát x.
+
+02:52.022 --> 02:59.204
+Nyní to vyčíslíme v 1
+a pak odečteme vyčíslení v −1.
+
+02:59.204 --> 03:02.555
+Pojďme tedy nejdříve na 1.
+
+03:02.555 --> 03:10.440
+Dostaneme 1/5 minus 5/3 plus 4.
+
+03:10.440 --> 03:15.420
+A teď to vyčíslíme v −1.
+
+03:15.420 --> 03:31.094
+Máme −1/5 plus 5/3 a pak minus 4.
+
+03:31.094 --> 03:33.310
+Pak když ale roznásobíme záporné znaménko,
+
+03:33.310 --> 03:39.511
+roznásobíme to se všemi
+těmito členy, tak získáme…
+
+03:39.511 --> 03:45.278
+Toto bude kladné, toto
+záporné a toto zase kladné.
+
+03:45.278 --> 03:51.710
+Máme 1/5 plus 1/5, což jsou 2/5,
+
+03:51.710 --> 03:56.642
+a pak minus 5/3 minus 5/3,
+takže minus 10/3
+
+03:56.642 --> 04:00.114
+a pak 4 plus 4, takže plus 8.
+
+04:00.114 --> 04:02.394
+Teď už zbývá jenom tohle zjednodušit.
+
+04:02.394 --> 04:08.517
+Tohle je 8 a pak přičteme…
+
+04:08.517 --> 04:14.472
+Tyhle dva napíšu se jmenovatelem 15,
+protože to je společný jmenovatel 3 a 5.
+
+04:14.472 --> 04:20.793
+Takže 2/5 je 16/15,
+ano, správně, 3 krát 5 je 15.
+
+04:20.793 --> 04:23.267
+2 krát 3 je 6 a pak 10/3…
+
+04:23.267 --> 04:26.115
+Když vynásobíme jmenovatele 5krát,
+
+04:26.115 --> 04:27.849
+tak čitatele musíme vynásobit 5krát,
+
+04:27.849 --> 04:30.548
+takže to je 50/15.
+
+04:30.548 --> 04:35.236
+Kolik je 6/15 minus 50/15?
+
+04:35.236 --> 04:43.478
+Tohle je rovno 8 minus…
+(6 minus 50) je minus 44,
+
+04:43.478 --> 04:50.101
+kolik je −44/15?
+
+04:50.101 --> 04:57.578
+44/15 je rovno 2 a 14/15,
+
+04:57.578 --> 04:58.997
+takže to odčítáme.
+
+04:58.997 --> 05:02.285
+Odečteme 2 a 14/15,
+
+05:02.285 --> 05:10.068
+když od tohoto odečteme 2,
+tak dostaneme 6 minus 14/15,
+
+05:10.068 --> 05:12.322
+protože pořád musíme odečíst 14/15.
+
+05:12.322 --> 05:19.727
+Pak šest minus 14/15 je rovno 5 a 1/15.
+
+05:19.727 --> 05:25.000
+Tak jsme spočítali obsah této plochy.

@@ -1,0 +1,307 @@
+WEBVTT
+
+00:00.582 --> 00:03.244
+Vamos pensar na
+série infinita,
+
+00:03.244 --> 00:06.303
+então iremos de &lt;i>n&lt;/i> igual a um
+até infinito,
+
+00:06.303 --> 00:11.160
+de um sobre
+dois elevado a n mais n.
+
+00:11.160 --> 00:13.590
+O que eu quero fazer é
+ver se podemos provar
+
+00:13.590 --> 00:17.092
+se esta coisa converge ou diverge.
+
+00:17.092 --> 00:19.089
+E você pode imaginar, baseado
+no contexto
+
+00:19.089 --> 00:22.622
+de onde este vídeo aparece na
+Khan Academy, que talvez
+
+00:22.622 --> 00:25.376
+utilizemos o teste da comparação.
+
+00:25.655 --> 00:29.112
+A qualquer momento, se você sentir
+que consegue resolver isto até o fim,
+
+00:29.112 --> 00:31.312
+sinta-se livre para pausar o vídeo.
+
+00:32.451 --> 00:36.477
+Então, para ajudar a pensar
+sobre como resolver
+
+00:36.477 --> 00:40.523
+esta série aqui, não é má ideia
+expandi-la um pouco. Façamos isso.
+
+00:40.523 --> 00:43.538
+Então, isto será igual a--
+quando n é igual a um,
+
+00:43.538 --> 00:46.451
+isto será um sobre
+dois à um mais um,
+
+00:46.451 --> 00:48.182
+então temos um sobre dois mais um,
+
+00:48.182 --> 00:51.366
+que será um terço mais--
+
+00:51.366 --> 00:54.052
+Quando &lt;i>n&lt;/i> é igual a dois, temos
+um sobre dois ao quadrado,
+
+00:54.052 --> 00:57.763
+que é quatro, mais dois--
+mais um sexto
+
+00:58.224 --> 01:04.664
+mais-- vejamos, vamos para o três,
+n igual a um,
+
+01:04.664 --> 01:08.236
+&lt;i>n&lt;/i> igual a dois, &lt;i>n&lt;/i> igual a três será
+um sobre dois ao cubo,
+
+01:08.236 --> 01:09.547
+que é oito, mais três é 11.
+
+01:09.574 --> 01:13.173
+Um sobre 11.
+Talvez eu faça mais um termo.
+
+01:13.388 --> 01:18.141
+Dois à quarta potência será
+16, mais quatro é 20.
+
+01:18.365 --> 01:22.040
+Mais um sobre 20 e,
+obviamente,
+
+01:22.040 --> 01:24.351
+podemos continuar e continuar...
+
+01:28.214 --> 01:32.114
+Parece que esta coisa pode convergir.
+
+01:32.125 --> 01:35.091
+Todos os termos são positivos,
+
+01:35.671 --> 01:38.604
+mas estão ficando menores
+e menores rapidamente.
+
+01:38.960 --> 01:44.765
+E se você olhar para o
+comportamento dos termos,
+
+01:44.765 --> 01:46.879
+a medida que &lt;i>n&lt;/i> fica maior e maior,
+vemos que
+
+01:46.879 --> 01:51.376
+dois elevado à &lt;i>n&lt;/i> no denominador
+irá crescer muito mais rápido que n.
+
+01:51.504 --> 01:55.316
+Este tipo de comportamento,
+como um sobre dois à n,
+
+01:55.790 --> 01:59.792
+é uma cópia de algo que podemos utilizar
+no teste da comparação.
+
+02:00.225 --> 02:01.655
+Deixe-me escrever isso.
+
+02:01.674 --> 02:05.573
+Temos um sobre--
+a série infinita de
+
+02:05.573 --> 02:08.961
+&lt;i>n&lt;/i> igual a um a infinito de
+um sobre dois à n.
+
+02:09.601 --> 02:16.551
+Quando &lt;i>n&lt;/i> é igual a um isto
+será igual a um meio.
+
+02:16.803 --> 02:21.216
+Quando &lt;i>n&lt;/i> é igual a dois isto
+será igual a um quarto.
+
+02:21.626 --> 02:24.305
+Quando &lt;i>n&lt;/i> é igual a três isto
+será igual a um oitavo.
+
+02:24.540 --> 02:27.422
+Quando &lt;i>n&lt;/i> é igual a quatro isto
+será igual a um dezesseis.
+
+02:27.745 --> 02:29.860
+E podemos continuar e continuar...
+
+02:30.689 --> 02:32.958
+E o que é interessante
+é que o conhecemos isto.
+
+02:32.958 --> 02:35.907
+Esta é a série geométrica,
+deixe-me ser mais claro.
+
+02:35.907 --> 02:39.289
+Esta coisa aqui
+é o mesmo que
+
+02:39.289 --> 02:43.849
+a soma de
+n igual a um até infinito de
+
+02:44.415 --> 02:48.691
+um meio à &lt;i>n&lt;/i>-ésima potência,
+somente escrevendo de maneira diferente.
+
+02:49.012 --> 02:52.755
+E, como o valor absoluto de
+um meio, que é um meio--
+
+02:52.755 --> 03:01.596
+Então, como o valor absoluto de um meio
+é menor que um, sabemos que
+
+03:01.596 --> 03:04.337
+esta série geométrica converge,
+sabemos que converge.
+
+03:05.947 --> 03:08.774
+Na verdade, temos inclusive
+fórmulas para encontrar
+
+03:08.774 --> 03:14.024
+a soma exata, ou para indicar
+para onde ela converge.
+
+03:15.138 --> 03:17.700
+Então, sabemos que isto converge
+e, na verdade,
+
+03:17.700 --> 03:21.456
+sabemos que, juntas, as duas séries
+tem tudo o que necessitamos
+
+03:21.456 --> 03:23.361
+para o teste da comparação.
+
+03:23.780 --> 03:27.073
+Então, vamos voltar ao que escrevemos
+sobre o teste da comparação.
+
+03:27.276 --> 03:31.187
+No teste da comparação,
+temos duas séries.
+
+03:31.187 --> 03:33.440
+Todos seus termos são
+maiores ou iguais a zero.
+
+03:33.440 --> 03:35.714
+Todos estes termos são maiores
+ou iguais a zero.
+
+03:36.199 --> 03:39.706
+E para os correspondentes termos
+de uma série,
+
+03:39.706 --> 03:41.337
+todos devem ser menores ou iguais
+
+03:41.337 --> 03:43.183
+aos termos correspondentes da
+outra.
+
+03:43.421 --> 03:46.847
+Se olharmos aqui,
+podemos considerar esta,
+
+03:46.926 --> 03:49.887
+a série magenta, esta é
+nossa série infinita
+
+03:49.887 --> 03:54.788
+com termos &lt;i>a&lt;/i> sub &lt;i>n&lt;/i> e
+que esta aqui é--
+
+03:54.788 --> 03:56.490
+Bem, eu já fiz ela em azul.
+
+03:56.490 --> 03:58.087
+Esta é a série azul.
+
+03:58.264 --> 04:02.313
+E note que todos os seus termos
+são não negativos e
+
+04:02.313 --> 04:07.005
+os correspondentes termos,
+um meio é maior que um terço,
+
+04:07.005 --> 04:09.321
+um quarto é maior que um sexto,
+
+04:09.321 --> 04:11.551
+um oitavo é maior que um onze avos.
+
+04:11.878 --> 04:14.188
+Um sobre dois à &lt;i>n&lt;/i> também
+será maior que
+
+04:14.188 --> 04:16.961
+um sobre dois à &lt;i>n&lt;/i> mais &lt;i>n&lt;/i>
+para
+
+04:16.961 --> 04:19.579
+os &lt;i>n&lt;/i>'s que estamos lidando aqui.
+
+04:19.975 --> 04:24.371
+E como sabemos que esta converge.
+Como sabemos que a maior converge.
+
+04:24.371 --> 04:26.913
+Esta é uma série geométrica com
+razão--
+
+04:26.913 --> 04:30.573
+o valor absoluto da razão é
+menor que um.
+
+04:30.573 --> 04:32.969
+Como sabemos que a série maior
+converge,
+
+04:32.969 --> 04:37.467
+então a série menor, ou a
+série em que cada termos correspondente
+
+04:37.467 --> 04:42.363
+é menor que a série azul,
+esta também deve convergir.
+
+04:42.363 --> 04:50.883
+Portanto, pelo teste da comparação,
+a série em questão tem que convergir.
+
+04:50.883 --> 04:54.521
+[Legendado por Weslley S. Pereira]
+[Revisado por Tatiana F. D'Addio]

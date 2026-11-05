@@ -1,0 +1,366 @@
+WEBVTT
+
+00:00.480 --> 00:03.330
+Vamos resolver um problema interessante.
+
+00:03.330 --> 00:05.000
+Temos as curvas y igual a x e
+
+00:05.000 --> 00:07.840
+y igual a x ao quadrado menos 2x
+
+00:07.840 --> 00:09.530
+E vamos rotacionar a região
+
+00:09.530 --> 00:11.020
+interna a essas duas funções,
+
+00:11.020 --> 00:13.277
+que destaco agora.
+
+00:13.277 --> 00:15.610
+Mas não vamos girar em torno do eixo x,
+
+00:15.610 --> 00:18.850
+e sim em torno da linha horizontal
+y igual a quatro,
+
+00:18.850 --> 00:21.084
+como mostra o desenho.
+
+00:21.084 --> 00:23.870
+Após a rotação, teremos uma figura
+parecida com esta,
+
+00:23.870 --> 00:26.550
+que foi desenhada previamente.
+
+00:26.550 --> 00:30.210
+Ela se parece com um vaso
+
+00:30.210 --> 00:32.060
+com um buraco no fundo.
+
+00:32.060 --> 00:34.520
+Vamos usar o que podemos chamar de
+
+00:34.520 --> 00:36.395
+método da anilha, que é uma variação
+
+00:36.395 --> 00:37.800
+do método do disco.
+
+00:37.800 --> 00:39.790
+Começamos construindo a anilha,
+
+00:39.790 --> 00:42.350
+tomando um ponto x qualquer,
+
+00:42.350 --> 00:45.520
+como este, por exemplo.
+
+00:45.520 --> 00:47.750
+E supondo que estamos sobre esta posição,
+
+00:47.750 --> 00:50.100
+vamos rotacionar esta região.
+
+00:50.160 --> 00:54.090
+Introduzindo uma profundidade dx,
+
+00:54.160 --> 00:57.840
+e girando em torno da linha y igual a 4.
+
+00:57.840 --> 01:02.580
+Note que há uma profundidade aqui.
+
+01:02.580 --> 01:05.471
+Ao efetuarmos a rotação, o raio interno
+
+01:05.471 --> 01:07.680
+será equivalente ao raio interno da anilha
+
+01:07.680 --> 01:12.130
+e ficará parecido com isto aqui.
+
+01:12.210 --> 01:13.900
+Já o raio externo da anilha vai contornar
+
+01:13.900 --> 01:17.420
+a curva x ao quadrado menos 2x.
+
+01:17.420 --> 01:21.780
+Com muito esforço, podemos imaginar
+
+01:21.780 --> 01:26.713
+que o resultado será parecido com este.
+
+01:27.950 --> 01:29.380
+Certamente nossa anilha terá
+
+01:29.380 --> 01:35.570
+alguma profundidade, representada por dx.
+
+01:35.970 --> 01:42.570
+Esta é a melhor representação
+que consigo fazer
+
+01:42.970 --> 01:47.750
+Destacaremos a face da anilha em verde
+
+01:47.970 --> 01:56.830
+e a face da anilha será tudo isso aqui.
+
+01:57.060 --> 02:00.030
+Se pudermos descobrir o volume
+de uma anilha como essa,
+
+02:00.030 --> 02:02.630
+para um certo valor de x,
+então podemos somar todas as
+
+02:02.630 --> 02:05.919
+anilhas contidas em um intervalo.
+
+02:05.919 --> 02:08.050
+Vamos tentar escrever a integral
+
+02:08.050 --> 02:13.070
+para estimar seu valor no próximo vídeo.
+
+02:13.820 --> 02:15.964
+Voltando para o volume da anilha,
+
+02:15.964 --> 02:17.630
+para descrever esse volume
+
+02:17.630 --> 02:21.320
+devemos tomar a área da face da anilha.
+
+02:21.510 --> 02:27.210
+E qual será a área da face da anilha?
+
+02:27.320 --> 02:32.700
+Para calcular a área - considerando que
+a anilha pode ser aproximada a uma cunha -
+
+02:32.880 --> 02:36.381
+subtraindo a área da região excluída.
+
+02:36.440 --> 02:38.890
+Se a anilha não possuísse um buraco
+
+02:38.890 --> 02:40.750
+em seu centro, então a área seria
+
+02:40.750 --> 02:50.835
+pi vezes o raio externo ao quadrado.
+
+02:51.180 --> 02:55.090
+mas já que a anilha possui um buraco,
+
+02:55.090 --> 02:57.030
+vamos subtrair a área do círculo interno
+
+02:57.030 --> 03:05.500
+que será pi vezes o raio
+interno ao quadrado.
+
+03:05.500 --> 03:07.000
+Precisamos agora determinar
+
+03:07.000 --> 03:10.750
+o valor dos raios internos e externos.
+
+03:10.750 --> 03:13.561
+Pensando um pouco
+
+03:13.561 --> 03:17.570
+podemos observar aqui no desenho,
+
+03:17.570 --> 03:23.610
+onde temos o raio externo, que é igual
+
+03:23.610 --> 03:27.770
+a este elemento, que é a distância
+
+03:27.770 --> 03:29.720
+entre a linha y igual a quatro e a função
+
+03:29.720 --> 03:35.410
+que define a região externa da anilha.
+
+03:35.590 --> 03:41.780
+A altura destacada será calculada por
+
+03:41.780 --> 03:45.280
+quatro menos x ao quadrado menos 2x,
+
+03:45.280 --> 03:48.570
+ou a distância entre as duas funções.
+
+03:48.900 --> 03:52.140
+Assim, o raio externo será quatro menos
+
+03:52.140 --> 03:55.100
+x ao quadrado menos 2x, ou
+
+03:55.100 --> 03:58.540
+quatro menos x ao quadrado mais 2x.
+
+03:58.540 --> 04:05.080
+E quanto ao raio interno?
+
+04:05.080 --> 04:06.830
+Quanto valerá?
+
+04:06.830 --> 04:11.550
+Bem, o raio interno será a distância entre
+
+04:11.550 --> 04:13.480
+y igual a quatro e y igual a x, ou seja,
+
+04:13.480 --> 04:18.285
+quatro menos x.
+
+04:19.079 --> 04:21.990
+Assim, se quisermos determinar a área da
+
+04:21.990 --> 04:27.090
+face de uma dessas anilhas teremos que
+
+04:27.090 --> 04:33.750
+multiplicar o quadrado do
+raio externo por pi
+
+04:33.910 --> 04:36.540
+equivalendo ao quadrado de quatro menos
+
+04:36.540 --> 04:41.830
+x ao quadrado mais 2x
+
+04:41.830 --> 04:43.280
+subtraindo de pi vezes o
+
+04:43.280 --> 04:44.780
+quadrado do raio interno.
+
+04:44.780 --> 04:46.810
+Fatoramos o pi, ficando com a expressão
+
+04:46.810 --> 04:51.800
+menos o quadrado de quatro menos x.
+
+04:51.800 --> 04:57.650
+Assim teremos a área da superfície ou
+
+04:57.650 --> 04:59.280
+da face de uma das anilhas.
+
+04:59.280 --> 05:01.700
+Para determinarmos o volume
+de uma das anilhas,
+
+05:01.700 --> 05:07.620
+basta multiplicar pela profundidade dx.
+
+05:08.010 --> 05:10.800
+E se quisermos calcular o volume de toda
+
+05:10.800 --> 05:14.250
+a figura, então basta somar todas as
+
+05:14.250 --> 05:15.950
+anilhas no intervalo de x desejado.
+
+05:15.950 --> 05:16.830
+Vamos lá.
+
+05:16.830 --> 05:19.050
+Vamos somar todas as anilhas do intervalo
+
+05:19.050 --> 05:21.300
+e tomar o limite tendendo a zero,
+
+05:21.300 --> 05:23.490
+mas primeiro precisamos cuidadosamente
+
+05:23.490 --> 05:26.260
+determinar o intervalo, que será toda a
+
+05:26.260 --> 05:28.840
+região entre os pontos de intersecção
+das curvas.
+
+05:28.840 --> 05:30.620
+Vamos conferir.
+
+05:30.620 --> 05:32.613
+Precisamos determinar os pontos
+
+05:32.613 --> 05:36.070
+de intersecção entre y igual a x e y
+
+05:36.070 --> 05:39.960
+igual a x ao quadrado menos 2x.
+
+05:39.990 --> 05:41.630
+Vou usar uma cor diferente agora.
+
+05:41.630 --> 05:44.150
+Vamos determinar quando x é igual a
+
+05:44.150 --> 05:48.925
+x ao quadrado menos 2x.
+
+05:49.370 --> 05:51.830
+Quando as duas funções se igualam?
+
+05:51.830 --> 05:57.976
+Subtraindo x dos dois lados da igualdade
+
+05:57.976 --> 06:02.190
+temos x ao quadrado menos 3x igual a zero.
+
+06:02.190 --> 06:05.260
+Fatorando um x do lado direito, ficaremos
+
+06:05.260 --> 06:09.530
+com o produto de x por x
+menos três igual a zero.
+
+06:09.530 --> 06:12.310
+Bem, se o produto é igual a zero, então
+
+06:12.310 --> 06:14.370
+pelo menos um dos fatores é igual a zero.
+
+06:14.370 --> 06:18.380
+Ou x é igual a zero, ou x menos três é.
+
+06:18.380 --> 06:21.280
+Assim, temos x é igual a zero,
+ou x é igual a três.
+
+06:21.280 --> 06:23.870
+Aqui temos o x igual a zero,
+
+06:23.870 --> 06:25.380
+e aqui o x igual a três,
+
+06:25.380 --> 06:27.250
+determinando assim o nosso intervalo.
+
+06:27.250 --> 06:29.120
+Iremos de x igual a zero até
+
+06:29.120 --> 06:32.850
+x igual a três para obter nosso volume.
+
+06:32.850 --> 06:35.700
+Em nosso próximo vídeo estimaremos
+o valor dessa integral.
+
+06:35.700 --> 06:38.000
+Legendado por: Tatiana F. D'Addio
+Revisado por: Pilar Dib

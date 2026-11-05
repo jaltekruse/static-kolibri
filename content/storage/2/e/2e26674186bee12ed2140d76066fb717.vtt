@@ -1,0 +1,470 @@
+WEBVTT
+
+00:00.824 --> 00:02.240
+We're now going
+to think about one
+
+00:02.240 --> 00:05.230
+of my most favorite
+theorems in mathematics,
+
+00:05.230 --> 00:07.180
+and that's the squeeze theorem.
+
+00:07.180 --> 00:10.460
+And one of the reasons that it's
+one of my most favorite theorem
+
+00:10.460 --> 00:13.865
+in mathematics is that it
+has the word "squeeze" in it,
+
+00:13.865 --> 00:15.620
+a word that you
+don't see showing up
+
+00:15.620 --> 00:17.170
+in a lot of mathematics.
+
+00:17.170 --> 00:18.820
+But it is appropriately named.
+
+00:18.820 --> 00:22.400
+And this is oftentimes also
+called the sandwich theorem,
+
+00:22.400 --> 00:26.190
+which is also an appropriate
+name, as we'll see in a second.
+
+00:26.190 --> 00:29.320
+And since it can be called
+the sandwich theorem,
+
+00:29.320 --> 00:31.730
+let's first just
+think about an analogy
+
+00:31.730 --> 00:35.340
+to get the intuition behind
+the squeeze or the sandwich
+
+00:35.340 --> 00:36.390
+theorem.
+
+00:36.390 --> 00:38.830
+Let's say that there
+are three people.
+
+00:38.830 --> 00:46.420
+Let's say that there is
+Imran, let's say there's Diya,
+
+00:46.420 --> 00:49.160
+and let's say there is Sal.
+
+00:49.160 --> 00:52.370
+And let's say that
+Imran, on any given day,
+
+00:52.370 --> 00:55.880
+he always has the fewest
+amount of calories.
+
+00:55.880 --> 00:57.300
+And Sal, on any
+given day, always
+
+00:57.300 --> 00:59.100
+has the most number of calories.
+
+00:59.100 --> 01:02.580
+So in a given day,
+we can always say
+
+01:02.580 --> 01:15.190
+Diya eats at least
+as much as Imran.
+
+01:15.190 --> 01:22.370
+And then we can say Sal eats
+at least as much-- that's
+
+01:22.370 --> 01:26.070
+just to repeat those
+words-- as Diya.
+
+01:26.070 --> 01:28.400
+And so we could set up a
+little inequality here.
+
+01:28.400 --> 01:35.610
+On a given day, we could
+write that Imran's calories
+
+01:35.610 --> 01:39.880
+on a given day are going to be
+less than or equal to Diya's
+
+01:39.880 --> 01:47.390
+calories on that same day,
+which is going to be less than
+
+01:47.390 --> 01:50.650
+or equal to Sal's
+calories on that same day.
+
+01:55.340 --> 01:57.900
+Now let's say that it's Tuesday.
+
+01:57.900 --> 02:03.090
+Let's say on
+Tuesday you find out
+
+02:03.090 --> 02:11.370
+that Imran ate 1,500 calories.
+
+02:11.370 --> 02:20.460
+And on that same day, Sal
+also ate 1,500 calories.
+
+02:20.460 --> 02:22.860
+So based on this,
+how many calories
+
+02:22.860 --> 02:25.650
+must Diya have eaten that day?
+
+02:25.650 --> 02:28.730
+Well, she always eats at least
+as many as Imran's, so she
+
+02:28.730 --> 02:31.530
+ate 1,500 calories or more.
+
+02:31.530 --> 02:35.250
+But she always has less than or
+equal to the number of calories
+
+02:35.250 --> 02:36.330
+Sal eats.
+
+02:36.330 --> 02:38.094
+So it must be less
+than or equal to 1,500.
+
+02:38.094 --> 02:39.510
+Well, there's only
+one number that
+
+02:39.510 --> 02:41.930
+is greater than or equal
+to 1,500 and less than
+
+02:41.930 --> 02:45.960
+or equal to 1,500, and
+that is 1,500 calories.
+
+02:45.960 --> 02:48.570
+So Diya must have
+eaten 1,500 calories.
+
+02:48.570 --> 02:50.530
+This is common sense.
+
+02:50.530 --> 02:54.890
+Diya must have had
+1,500 calories.
+
+02:54.890 --> 02:56.710
+And the squeeze
+theorem is essentially
+
+02:56.710 --> 02:59.740
+the mathematical version
+of this for functions.
+
+02:59.740 --> 03:04.170
+And you could even view this is
+Imran's calories as a function
+
+03:04.170 --> 03:07.800
+of the day, Sal's calories
+as a function of the day,
+
+03:07.800 --> 03:09.840
+and Diya's calories as
+a function of the day
+
+03:09.840 --> 03:12.410
+is always going to
+be in between those.
+
+03:12.410 --> 03:16.950
+So now let's make this a
+little bit more mathematical.
+
+03:16.950 --> 03:21.440
+So let me clear this out
+so we can have some space
+
+03:21.440 --> 03:23.430
+to do some math in.
+
+03:23.430 --> 03:27.250
+So let's say that we
+have the same analogy.
+
+03:27.250 --> 03:29.620
+So let's say that we
+have three functions.
+
+03:29.620 --> 03:32.650
+Let's say f of x
+over some interval
+
+03:32.650 --> 03:35.900
+is always less
+than or equal to g
+
+03:35.900 --> 03:40.340
+of x over that same interval,
+which is always less than
+
+03:40.340 --> 03:45.530
+or equal to h of x over
+that same interval.
+
+03:45.530 --> 03:47.305
+So let me depict
+this graphically.
+
+03:52.260 --> 03:56.030
+So that is my y-axis.
+
+03:56.030 --> 03:57.770
+This is my x-axis.
+
+04:01.810 --> 04:03.940
+And I'll just
+depict some interval
+
+04:03.940 --> 04:06.080
+in the x-axis right over here.
+
+04:06.080 --> 04:12.810
+So let's say h of x looks
+something like that.
+
+04:12.810 --> 04:16.190
+Let me make it more interesting.
+
+04:16.190 --> 04:17.360
+This is the x-axis.
+
+04:17.360 --> 04:22.560
+So let's say h of x looks
+something like this.
+
+04:22.560 --> 04:25.290
+So that's my h of x.
+
+04:25.290 --> 04:28.940
+Let's say f of x looks
+something like this.
+
+04:28.940 --> 04:32.180
+Maybe it does some interesting
+things, and then it comes in,
+
+04:32.180 --> 04:35.260
+and then it goes up
+like this, so f of x
+
+04:35.260 --> 04:38.050
+looks something like that.
+
+04:38.050 --> 04:39.960
+And then g of x,
+for any x-value, g
+
+04:39.960 --> 04:43.297
+of x is always in
+between these two.
+
+04:43.297 --> 04:45.380
+And I think you see where
+the squeeze is happening
+
+04:45.380 --> 04:48.780
+and where the
+sandwich is happening.
+
+04:48.780 --> 04:52.300
+If h of x and f of x were
+bendy pieces of bread, g of x
+
+04:52.300 --> 04:54.060
+would be the meat of the bread.
+
+04:54.060 --> 04:56.660
+So it would look
+something like this.
+
+04:56.660 --> 05:00.370
+Now, let's say that we know--
+this is the analogous thing.
+
+05:00.370 --> 05:03.290
+On a particular day, Sal and
+Imran ate the same amount.
+
+05:03.290 --> 05:05.240
+Let's say for a
+particular x-value,
+
+05:05.240 --> 05:09.990
+the limit as f and h
+approach that x-value, they
+
+05:09.990 --> 05:12.000
+approach is the same limit.
+
+05:12.000 --> 05:14.310
+So let's take this
+x-value right over here.
+
+05:14.310 --> 05:18.790
+Let's say the x-value
+is c right over there.
+
+05:18.790 --> 05:23.070
+And let's say that
+the limit of f
+
+05:23.070 --> 05:34.960
+of x as x approaches c is
+equal to L. And let's say
+
+05:34.960 --> 05:45.105
+that the limit as x approaches
+c of h of x is also equal to L.
+
+05:45.105 --> 05:48.010
+So notice, as x
+approaches c, h of x
+
+05:48.010 --> 05:52.100
+approaches L. As x approaches
+c from either side, f of x
+
+05:52.100 --> 05:53.560
+approaches L.
+
+05:53.560 --> 05:55.484
+So these limits
+have to be defined.
+
+05:55.484 --> 05:56.900
+Actually, the
+functions don't have
+
+05:56.900 --> 05:58.610
+to be defined at x approaches c.
+
+05:58.610 --> 06:00.240
+Just over this
+interval, they have
+
+06:00.240 --> 06:02.120
+to be defined as we approach it.
+
+06:02.120 --> 06:04.530
+But over this interval,
+this has to be true.
+
+06:04.530 --> 06:06.805
+And if these limits right
+over here are defined
+
+06:06.805 --> 06:09.350
+and because we know that g
+of x is always sandwiched in
+
+06:09.350 --> 06:11.830
+between these two
+functions, therefore,
+
+06:11.830 --> 06:14.530
+on that day or
+for that x-value--
+
+06:14.530 --> 06:16.800
+I should get out of that
+food-eating analogy--
+
+06:16.800 --> 06:21.910
+this tells us if all of this
+is true over this interval,
+
+06:21.910 --> 06:31.560
+this tells us that the limit
+as x approaches c of g of x
+
+06:31.560 --> 06:34.050
+must also be equal to L.
+
+06:34.050 --> 06:36.280
+And once again, this
+is common sense.
+
+06:36.280 --> 06:39.750
+f of x is approaching
+L, h of x is approaching
+
+06:39.750 --> 06:42.130
+L, g of x is sandwiched
+in between it.
+
+06:42.130 --> 06:47.444
+So it also has to
+be approaching L.
+
+06:47.444 --> 06:49.360
+And you might say, well,
+this is common sense.
+
+06:49.360 --> 06:50.880
+Why is this useful?
+
+06:50.880 --> 06:53.640
+Well, as you'll see, this
+is useful for finding
+
+06:53.640 --> 06:55.830
+the limits of some
+wacky functions.
+
+06:55.830 --> 06:58.350
+If you can find a function
+that's always greater than it
+
+06:58.350 --> 07:00.145
+and a function that's
+always less than it,
+
+07:00.145 --> 07:02.270
+and you can find the limit
+as they approach some c,
+
+07:02.270 --> 07:04.650
+and it's the same
+limit, then you
+
+07:04.650 --> 07:06.490
+know that that wacky
+function in between
+
+07:06.490 --> 07:09.997
+is going to approach
+that same limit.

@@ -1,0 +1,448 @@
+WEBVTT
+
+00:02.504 --> 00:10.138
+Kongens rådgiver Arbegla lytter til en diskussion mellem os, kongen og fuglen.
+
+00:10.138 --> 00:14.354
+Han bliver lidt jaloux, fordi det er meningen, han skal være den klogeste mand i kongeriget.
+
+00:14.354 --> 00:17.221
+Arbegle afbryder og siger: Okay, hvis I og den fugl er så kloge,
+
+00:17.221 --> 00:22.904
+hvorfor tackler I så ikke gåden med frugtpriserne?
+
+00:22.904 --> 00:27.838
+Kongen udbryder: Ja! Det er noget, vi har haft store problemer med.
+
+00:27.838 --> 00:32.521
+Frugtpriserne. Arbegla fortæl dem gåden om frugtpriserne.
+
+00:32.521 --> 00:34.739
+Arbegla siger:
+
+00:34.739 --> 00:40.221
+Altså, vi vil gerne holde styr på frugtpriserne,
+
+00:40.221 --> 00:45.622
+men vi har glemt at skrive det ned, da vi var på markedet.
+
+00:45.622 --> 00:50.238
+Vi ved, hvor meget vi betalte i alt, og vi ved, hvad vi fik.
+
+00:50.238 --> 00:55.987
+For en uge siden, da vi var på markedet, købte vi 2 pund æbler og
+
+00:55.987 --> 01:01.387
+1 pund bananer.
+
+01:01.387 --> 01:09.087
+Den samlede pris for 2 pund æbler og 1 pund bananer
+
+01:09.087 --> 01:15.254
+var 3 kroner. Prisen var 3 kroner.
+
+01:15.254 --> 01:21.636
+Gangen før det købte vi derimod 6 pund æbler.
+
+01:21.636 --> 01:26.321
+Vi købte 6 pund æbler
+
+01:26.321 --> 01:32.487
+og 3 pund bananer.
+
+01:32.487 --> 01:36.954
+Bananer.
+
+01:36.954 --> 01:42.705
+Den dag brugte vi i alt 15 kroner.
+
+01:42.705 --> 01:46.271
+Vi vil vide, hvad prisen på æbler og bananer er.
+
+01:46.271 --> 01:48.353
+Vi kigger på fuglen.
+
+01:48.353 --> 01:51.654
+Fuglen kigger på os, og den hvisker noget ind i kongens øre.
+
+01:51.654 --> 01:56.671
+Kongerne fortæller, at fuglen siger, vi skal starte med at definere nogle variable, så vi kan udtrykke det her algebraisk.
+
+01:56.671 --> 02:01.955
+Det gør vi! Vi skal finde prisen på æbler og prisen på bananer.
+
+02:01.955 --> 02:06.688
+Prisen per pund.
+
+02:06.688 --> 02:17.405
+Lad a være lig med prisen på æbler per pund. Det er a lig med.
+
+02:17.405 --> 02:23.054
+Vi lader b være lig med prisen på bananer.
+
+02:23.054 --> 02:29.072
+Prisen på bananer per pund.
+
+02:29.072 --> 02:34.138
+Vi har noget information her. 2 pund æbler og 1 pund bananer
+
+02:34.138 --> 02:43.054
+koster 3 kroner. Hvor meget koster æblerne? Det må være 2 gange prisen per pund.
+
+02:43.054 --> 02:48.338
+Altså gange a. Det er den samlede pris for æbler.
+
+02:48.338 --> 02:53.820
+Hvad er den samlede pris for bananer? Den er 1 gange prisen per pund for bananer.
+
+02:53.820 --> 02:58.639
+Det er b. Det her er den samlede pris på bananer.
+
+02:58.639 --> 03:03.404
+Den samlede pris for æbler og bananer
+
+03:03.404 --> 03:07.304
+vil være lig med 2a plus b,
+
+03:07.304 --> 03:14.938
+og vi ved, at den samlede pris er 3. Lad os nu gøre det samme for den anden gang.
+
+03:14.938 --> 03:20.137
+Der blev købt 6 pund æbler. Den samlede pris vil være 6 pund gange prisen per pund, som er a for æblerne.
+
+03:20.137 --> 03:23.605
+Der blev købt 3 pund bananer.
+
+03:23.605 --> 03:25.570
+Prisen per pund for bananer er b.
+
+03:25.570 --> 03:27.938
+Den samlede pris for bananer er b gange 3.
+
+03:27.938 --> 03:31.488
+Den samlede pris for både æbler og bananer
+
+03:31.488 --> 03:35.936
+vil være lig med 15.
+
+03:35.936 --> 03:38.721
+Det er lig med 15 i det her tilfælde.
+
+03:38.721 --> 03:41.204
+Lad os overveje, hvordan vi skal løse det her system.
+
+03:41.204 --> 03:44.053
+Vi kan bruge eliminering, eller vi kan bruge substitution.
+
+03:44.053 --> 03:45.753
+Vi kan også løse det grafisk.
+
+03:45.753 --> 03:47.754
+Lad os først prøve med eliminering.
+
+03:47.754 --> 03:50.804
+Først skal vi beslutte, hvad vi vil eliminere.
+
+03:50.804 --> 03:54.338
+Det kunne være den her variable a
+
+03:54.338 --> 03:57.656
+herovre.
+
+03:57.656 --> 04:00.039
+Vi har 6a her,
+
+04:00.039 --> 04:03.838
+så hvis vi ganger hele den her ligning med minus 3,
+
+04:03.838 --> 04:09.088
+bliver de her minus 2a til minus 6a.
+
+04:09.088 --> 04:10.504
+Så kan vi måske og forhåbentligt få a'erne til
+
+04:10.504 --> 04:11.421
+at gå ud med hinanden.
+
+04:11.421 --> 04:13.589
+Lad os gange hele den her ligning
+
+04:13.589 --> 04:16.638
+med minus 3.
+
+04:16.638 --> 04:19.337
+Vi ganger med minus 3.
+
+04:19.337 --> 04:23.071
+Det bliver minus 3 gange 2a, som er minus 6a.
+
+04:23.071 --> 04:27.256
+Minus 3 gange b er minus 3a.
+
+04:27.256 --> 04:30.555
+Minus 3 gange 3 er lig med minus 9.
+
+04:30.555 --> 04:32.821
+Det er minus 9.
+
+04:32.821 --> 04:35.888
+Nu kan vi lægge de 2 ligninger sammen.
+
+04:35.888 --> 04:38.071
+Vi lægger den venstre side af ligningen til den venstre side her
+
+04:38.071 --> 04:40.372
+og den højre side af den her ligning til den højre side her.
+
+04:40.372 --> 04:44.188
+Vi lægger altså det samme til på begge sider af ligningen,
+
+04:44.188 --> 04:46.054
+fordi vi ved, at det her er lig med det her.
+
+04:46.054 --> 04:47.288
+Lad os gøre det.
+
+04:47.288 --> 04:48.888
+Det gør vi nu.
+
+04:48.888 --> 04:51.671
+På venstre side går 6a og minus 6a ud med hinanden.
+
+04:51.671 --> 04:57.320
+Der ser dog også noget andet interessant. 3b og minus 3b går også ud med hinanden.
+
+04:57.320 --> 05:01.771
+Der står derfor 0 tilbage på venstre side.
+
+05:01.771 --> 05:04.654
+Hvad har vi på højre side?
+
+05:04.654 --> 05:07.987
+Vi har 15 minus 9, som er 6.
+
+05:07.987 --> 05:12.271
+Vi får altså det her mærkelige resultat. Alle vores variable er væk.
+
+05:12.271 --> 05:15.738
+Vi står tilbage med et resultat, der ikke giver mening.
+
+05:15.738 --> 05:22.289
+0 er lig med 6. Det kan ikke passe.
+
+05:22.289 --> 05:25.472
+Hvad sker der her?
+
+05:25.472 --> 05:29.455
+Nu siger vi: Hvad foregår der? Vi kigger på fuglen.
+
+05:29.455 --> 05:32.188
+Fuglen lader nemlig til at være den klogeste i det her rum.
+
+05:32.188 --> 05:34.455
+.
+
+05:34.455 --> 05:37.236
+Igen hvisker fuglen ind i kongens øre,
+
+05:37.236 --> 05:42.471
+og kongen siger: Fuglen siger, at der ikke er nogen løsning,
+
+05:42.471 --> 05:45.088
+og at I skal prøve at afbilde ligninger for at se hvorfor.
+
+05:45.088 --> 05:47.822
+Vi tror på fuglen,
+
+05:47.822 --> 05:51.604
+og vi prøver at gøre det!
+
+05:51.604 --> 05:52.621
+Vi vil gerne finde ud af, hvad der foregår.
+
+05:52.621 --> 05:57.238
+Vi skal altså tage de her 2 ligninger.
+
+05:57.238 --> 05:59.321
+Dem skal vi helst lave om til hældnings-skæringpunktsform,
+
+05:59.321 --> 06:02.671
+så er det lettere at afbilde.
+
+06:02.671 --> 06:05.488
+Vi forsøger derfor at isolere b i begge
+
+06:05.488 --> 06:07.290
+de her ligninger.
+
+06:07.290 --> 06:09.904
+I den første ligning trækker vi
+
+06:09.904 --> 06:12.304
+2a fra på begge sider.
+
+06:12.304 --> 06:14.887
+Hvis vi trækker 2a fra på begge sider,
+
+06:14.887 --> 06:18.354
+får vi b er lig med minua 2a plus 3.
+
+06:18.354 --> 06:23.204
+Det skal vi også gøre i den anden ligning.
+
+06:23.204 --> 06:27.770
+Først trækker vi 6a fra på begge sider.
+
+06:27.770 --> 06:33.271
+Nu får vi
+
+06:33.271 --> 06:38.955
+3b er lig med minus 6a plus 15.
+
+06:38.955 --> 06:41.638
+Nu skal vi dividere begge sider med 3.
+
+06:41.638 --> 06:44.122
+Vi får b er lig med minus 2a plus 5.
+
+06:44.122 --> 06:49.688
+Den anden ligning har vi altså omskrevet
+
+06:49.688 --> 06:53.471
+til b er lig med minus 2a plus 5.
+
+06:53.471 --> 06:57.504
+Vi har ikke afbildet dem endnu,
+
+06:57.504 --> 06:59.253
+men det ser ud som om, det her er interessant.
+
+06:59.253 --> 07:01.938
+Begge ligninger har samme hældning.
+
+07:01.938 --> 07:04.921
+Det ser dog ud som om skæringspunktet,
+
+07:04.921 --> 07:08.404
+som vi her kalder b-skæringspunktet, er forskelligt i de 2 ligninger.
+
+07:08.404 --> 07:10.539
+Lad os afbilde dem og se, hvad der sker.
+
+07:10.539 --> 07:16.804
+VI tegner nogle akser her.
+
+07:16.804 --> 07:20.372
+Det her er b-aksen, og det her er a-aksen.
+
+07:20.372 --> 07:24.504
+Den første ligning har et b-skæringspunkt, som er plus 3.
+
+07:24.504 --> 07:28.104
+Lad os se. 1, 2, 3, 4, 5.
+
+07:28.104 --> 07:31.354
+Den første har et b-skæringspunkt på plus 3
+
+07:31.354 --> 07:33.755
+og en hældning på minus 2.
+
+07:33.755 --> 07:36.455
+Når vi går 1 til højre,
+
+07:36.455 --> 07:39.504
+går vi 2 ned. 1 til højre, 2 ned.
+
+07:39.504 --> 07:41.054
+Linjen ser nogenlunde sådan her ud.
+
+07:41.054 --> 07:44.071
+Vi tegner linjen så lige som muligt.
+
+07:44.071 --> 07:47.804
+Den ser nogenlunde sådan her ud.
+
+07:47.804 --> 07:49.603
+Vi tegner den her i grøn.
+
+07:49.603 --> 07:52.904
+b-skæringspunktet her er 5.
+
+07:52.904 --> 07:55.671
+Det er her.
+
+07:55.671 --> 07:57.154
+Hældningen er den samme, nemlig minus 2.
+
+07:57.154 --> 08:04.123
+Den ser altså nogenlunde sådan her ud.
+
+08:04.123 --> 08:07.421
+Vi kan nu se, at fuglen havde ret.
+
+08:07.421 --> 08:10.805
+Der er ingen løsning,
+
+08:10.805 --> 08:14.622
+fordi de 2 ligninger aldrig skærer hinanden.
+
+08:14.622 --> 08:20.004
+De skærer ikke hinanden.
+
+08:20.004 --> 08:22.254
+De har intet skæringspunkt.
+
+08:22.254 --> 08:25.588
+Fuglen havde altså ret i, at der ikke findes nogen løsning.
+
+08:25.588 --> 08:30.138
+Der er ingen x- og y-værdier, der kan gøre det her udsagn sandt.
+
+08:30.138 --> 08:35.171
+0 er lig med 6 vil aldrig være sandt.
+
+08:35.171 --> 08:37.855
+Pludselig bliver vi opmærksomme på,
+
+08:37.855 --> 08:40.938
+at Arbegla prøver at snyde os!
+
+08:40.938 --> 08:43.421
+Vi siger: Arbegla! Vi har fået
+
+08:43.421 --> 08:45.871
+inkonsistente informationer.
+
+08:45.871 --> 08:48.904
+Det her er et inkonsistent ligningssystem.
+
+08:48.904 --> 08:53.138
+Det er inkonsistent!
+
+08:53.138 --> 08:55.220
+Det ord bruger vi om systemer,
+
+08:55.220 --> 08:58.304
+der ikke har nogen løsninger.
+
+08:58.304 --> 09:01.720
+De her informationer, vi har fået, er altså ikke korrekte!
+
+09:01.720 --> 09:04.939
+Enten har Arbegla løjet for os,
+
+09:04.939 --> 09:08.687
+eller også er frugtpriserne
+
+09:08.687 --> 09:12.304
+blevet ændret mellem de 2 besøg
+
+09:12.304 --> 09:14.789
+på markedet.
+
+09:14.789 --> 09:18.539
+Når vi siger det,
+
+09:18.539 --> 3:59:59.999
+hvisker fuglen i kongens øre, at vi alligevel ikke er så dårlige til algebra.

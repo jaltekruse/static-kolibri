@@ -1,0 +1,393 @@
+WEBVTT
+
+00:00.486 --> 00:01.691
+- [Instructor] So I have a curve here
+
+00:01.691 --> 00:05.284
+that represents y is equal to f of x,
+
+00:05.284 --> 00:06.682
+and there's a classic problem
+
+00:06.682 --> 00:09.394
+that mathematicians
+have long thought about.
+
+00:09.394 --> 00:12.492
+How do we find the area under this curve?
+
+00:12.492 --> 00:15.372
+Maybe under the curve
+and above the x-axis,
+
+00:15.372 --> 00:16.837
+and let's say between two boundaries.
+
+00:16.837 --> 00:21.251
+Let's say between x is equal
+to a and x is equal to b.
+
+00:21.251 --> 00:23.246
+So let me draw these
+boundaries right over here.
+
+00:23.246 --> 00:24.526
+That's our left boundary.
+
+00:24.526 --> 00:27.342
+This is our right boundary.
+
+00:27.342 --> 00:31.538
+And we want to think about
+this area right over here.
+
+00:31.538 --> 00:33.793
+Well, without calculus, you could actually
+
+00:33.793 --> 00:36.298
+get better and better
+approximations for it.
+
+00:36.298 --> 00:37.639
+How would you do it?
+
+00:37.639 --> 00:39.702
+Well, you could divide this section
+
+00:39.702 --> 00:42.839
+into a bunch of delta
+x's that go from a to b.
+
+00:42.839 --> 00:44.603
+They could be equal sections or not,
+
+00:44.603 --> 00:46.748
+but let's just say, for
+the sake of visualizations,
+
+00:46.748 --> 00:48.640
+I'm gonna draw roughly
+equal sections here.
+
+00:48.640 --> 00:50.228
+So that's the first.
+
+00:50.228 --> 00:52.494
+That's the second.
+
+00:52.494 --> 00:54.320
+This is the third.
+
+00:54.320 --> 00:56.134
+This is the fourth.
+
+00:56.134 --> 00:57.699
+This is the fifth.
+
+00:57.699 --> 00:59.861
+And then we have the
+sixth right over here.
+
+00:59.861 --> 01:02.944
+And so each of these, this is delta x,
+
+01:02.944 --> 01:04.992
+let's just call that delta x one.
+
+01:04.992 --> 01:06.813
+This is delta x two.
+
+01:06.813 --> 01:10.567
+This width right over here,
+this is delta x three,
+
+01:10.567 --> 01:12.900
+all the way to delta x n.
+
+01:14.057 --> 01:15.744
+I'll try to be general here.
+
+01:15.744 --> 01:18.216
+And so what we could do is,
+let's try to sum up the area
+
+01:18.216 --> 01:19.898
+of the rectangles defined here.
+
+01:19.898 --> 01:21.286
+And we could make the height,
+
+01:21.286 --> 01:23.838
+maybe we make the height
+
+01:23.838 --> 01:25.961
+based on the value of the
+function at the right bound.
+
+01:25.961 --> 01:26.794
+It doesn't have to be.
+
+01:26.794 --> 01:28.518
+It could be the value of the function
+
+01:28.518 --> 01:30.503
+someplace in this delta x.
+
+01:30.503 --> 01:31.419
+But that's one solution.
+
+01:31.419 --> 01:33.068
+We're gonna go into a
+lot more depth into it
+
+01:33.068 --> 01:34.522
+in future videos.
+
+01:34.522 --> 01:35.978
+And so
+
+01:35.978 --> 01:37.414
+we do that.
+
+01:37.414 --> 01:40.231
+And so now we have an
+approximation, where we could say,
+
+01:40.231 --> 01:42.528
+look, the area of each of these rectangles
+
+01:42.528 --> 01:45.645
+are going to be f of x sub i,
+
+01:45.645 --> 01:47.963
+where maybe x sub i is the right boundary,
+
+01:47.963 --> 01:51.463
+the way I've drawn it, times delta x i.
+
+01:52.840 --> 01:54.535
+That's each of these rectangles.
+
+01:54.535 --> 01:57.206
+And then we can sum them up,
+
+01:57.206 --> 02:01.623
+and that would give us an
+approximation for the area.
+
+02:01.623 --> 02:03.929
+But as long as we use a finite number,
+
+02:03.929 --> 02:06.145
+we might say, well, we
+can always get better by
+
+02:06.145 --> 02:08.124
+making our delta x's smaller
+
+02:08.124 --> 02:12.211
+and then by having more
+of these rectangles,
+
+02:12.211 --> 02:15.131
+or get to a situation
+here we're going from
+
+02:15.131 --> 02:16.830
+i is equal to one
+
+02:16.830 --> 02:19.240
+to i is equal to n.
+
+02:19.240 --> 02:20.962
+But what happens is delta x
+
+02:20.962 --> 02:23.428
+gets thinner and thinner and thinner,
+
+02:23.428 --> 02:25.575
+and n gets larger and larger and larger,
+
+02:25.575 --> 02:28.733
+as delta x gets infinitesimally small
+
+02:28.733 --> 02:31.719
+and then as n approaches infinity.
+
+02:31.719 --> 02:33.778
+And so you're probably sensing something,
+
+02:33.778 --> 02:36.858
+that maybe we could think about the limit
+
+02:36.858 --> 02:39.844
+as we could say as n approaches infinity
+
+02:39.844 --> 02:41.809
+or the limit as delta x
+
+02:41.809 --> 02:44.269
+becomes very, very, very, very small.
+
+02:44.269 --> 02:47.603
+And this notion of getting
+better and better approximations
+
+02:47.603 --> 02:50.531
+as we take the limit as
+n approaches infinity,
+
+02:50.531 --> 02:54.114
+this is the core idea
+of integral calculus.
+
+02:57.253 --> 02:59.743
+And it's called integral calculus
+
+02:59.743 --> 03:03.189
+because the central operation we use,
+
+03:03.189 --> 03:05.517
+the summing up of an infinite number
+
+03:05.517 --> 03:08.978
+of infinitesimally thin things
+is one way to visualize it,
+
+03:08.978 --> 03:10.253
+is the integral,
+
+03:10.253 --> 03:12.242
+that this is going to be the integral,
+
+03:12.242 --> 03:14.686
+in this case, from a to b.
+
+03:14.686 --> 03:15.983
+And we're gonna learn in a lot more depth,
+
+03:15.983 --> 03:20.150
+in this case, it is a
+definite integral of f of x,
+
+03:21.163 --> 03:22.080
+f of x, dx.
+
+03:23.075 --> 03:25.030
+But you can already
+see the parallels here.
+
+03:25.030 --> 03:28.374
+You can view the integral
+sign as like a sigma notation,
+
+03:28.374 --> 03:30.679
+as a summation sign, but
+instead of taking the sum
+
+03:30.679 --> 03:32.196
+of a discrete number of things
+
+03:32.196 --> 03:34.544
+you're taking the sum of an infinitely,
+
+03:34.544 --> 03:37.907
+an infinite number,
+infinitely thin things.
+
+03:37.907 --> 03:40.691
+Instead of delta x, you now have dx,
+
+03:40.691 --> 03:43.600
+infinitesimally small things.
+
+03:43.600 --> 03:45.454
+And this is a notion of an integral.
+
+03:45.454 --> 03:48.177
+So this right over here is an integral.
+
+03:48.177 --> 03:50.141
+Now what makes it interesting to calculus,
+
+03:50.141 --> 03:52.039
+it is using this notion of a limit,
+
+03:52.039 --> 03:54.087
+but what makes it even more powerful
+
+03:54.087 --> 03:56.602
+is it's connected to the
+notion of a derivative,
+
+03:56.602 --> 03:59.449
+which is one of these beautiful
+things in mathematics.
+
+03:59.449 --> 04:02.747
+As we will see in the
+fundamental theorem of calculus,
+
+04:02.747 --> 04:05.194
+that integration, the
+notion of an integral,
+
+04:05.194 --> 04:08.681
+is closely, tied closely to
+the notion of a derivative,
+
+04:08.681 --> 04:11.076
+in fact, the notion of an antiderivative.
+
+04:11.076 --> 04:14.100
+In differential calculus,
+we looked at the problem of,
+
+04:14.100 --> 04:17.407
+hey, if I have some function,
+I can take its derivative,
+
+04:17.407 --> 04:20.160
+and I can get the
+derivative of the function.
+
+04:20.160 --> 04:23.189
+Integral calculus, we're
+going to be doing a lot of,
+
+04:23.189 --> 04:25.327
+well, what if we start
+with the derivative,
+
+04:25.327 --> 04:26.744
+can we figure out
+
+04:27.648 --> 04:29.909
+through integration,
+
+04:29.909 --> 04:32.322
+can we figure out its antiderivative
+
+04:32.322 --> 04:34.917
+or the function whose derivative it is?
+
+04:34.917 --> 04:37.420
+As we will see, all of these are related.
+
+04:37.420 --> 04:39.874
+The idea of the area under a curve,
+
+04:39.874 --> 04:41.041
+the idea of a limit
+
+04:41.041 --> 04:43.500
+of summing an infinite
+number of infinitely things,
+
+04:43.500 --> 04:46.827
+thin things, and the notion
+of an antiderivative,
+
+04:46.827 --> 04:50.994
+they all come together in our
+journey in integral calculus.

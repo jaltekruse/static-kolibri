@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.370 --> 00:03.367
+In questo video voglio parlarti un po' di
+
+00:03.367 --> 00:07.500
+che cosa significa essere un numero primo
+
+00:07.500 --> 00:10.094
+e quello che spero vedrai in questo video
+
+00:10.110 --> 00:12.608
+e' questo concetto molto semplice
+
+00:12.608 --> 00:15.302
+ma man mano che procederai attraverso la tua carriera matematica
+
+00:15.302 --> 00:17.601
+vedrai che in realtà ci sono concetti piuttosto sofisticati
+
+00:17.601 --> 00:20.712
+che possono essere costruiti sopra all'idea del numero primo
+
+00:20.712 --> 00:23.359
+e questo comprende l'idea della crittografia
+
+00:23.359 --> 00:25.612
+e forse un po' della cifratura che il tuo computer
+
+00:25.612 --> 00:28.026
+usa in questo momento potrebbe essere basata sui numeri primi.
+
+00:28.026 --> 00:29.931
+Se non sai cosa sia la crittografia
+
+00:29.931 --> 00:31.718
+non te ne preoccupare adesso
+
+00:31.718 --> 00:33.785
+ti basti sapere che i numeri primi sono
+
+00:33.785 --> 00:36.966
+abbastanza importanti. Quindi ti darò la definizione
+
+00:36.966 --> 00:39.404
+e la definizione potrebbe confonderti un po'
+
+00:39.404 --> 00:43.839
+ma quando lo vedremo con gli esempi dovrebbe diventarti abbastanza semplice.
+
+00:43.839 --> 00:49.946
+Un numero è primo se è un numero naturale
+
+00:49.946 --> 00:57.794
+ad esempio 1, 2 o 3 (i numeri che conti a partire da 1)
+
+00:57.794 --> 01:00.488
+oppure potresti anche dire "i numeri interi positivi"
+
+01:00.488 --> 01:30.962
+è un numero naturale divisibile esattamente per due numeri naturali: se' stesso e 1.
+
+01:30.962 --> 01:39.823
+Questi sono i due numeri per cui e' divisibile.
+
+01:39.823 --> 01:43.468
+Se questo per te non ha senso facciamo un po' di esempi.
+
+01:43.468 --> 01:46.115
+Tentiamo di capire se alcuni numeri sono primi o no.
+
+01:46.115 --> 01:48.948
+Quindi, iniziamo con il più piccolo numero naturale.
+
+01:48.948 --> 01:52.268
+Il numero 1. Percio' potresti dire "1 è divisibile per 1"
+
+01:52.268 --> 01:59.095
+e "1 è divisibile per se' stesso", ehi! 1 è un numero primo!
+
+01:59.095 --> 02:02.137
+Ma ricordati parte della nostra definizione: deve essere divisibile
+
+02:02.137 --> 02:07.803
+esattamente per due numeri naturali. 1 è divisibile solo per un numero naturale, solo per 1.
+
+02:07.803 --> 02:16.673
+Quindi 1, anche può essere poco intuitivo, non è primo.
+
+02:16.673 --> 02:20.504
+Passiamo al 2.
+
+02:20.504 --> 02:28.102
+Quindi 2 è divisibile per 1 e per 2 e non da altri numeri naturali.
+
+02:28.102 --> 02:30.906
+Quindi sembra adattarsi ai nostri vincoli.
+
+02:30.906 --> 02:33.948
+E' esattamente divisibile per due numeri naturali.
+
+02:33.948 --> 02:42.238
+Se' stesso e 1. Quindi il numero 2 è primo.
+
+02:42.238 --> 02:52.849
+Metto un cerchio attorno ai numeri che sono primi.
+
+02:52.849 --> 02:55.334
+Il numero 2 è interessante perché
+
+02:55.334 --> 02:57.818
+è l'unico numero pari che è primo.
+
+02:57.818 --> 03:00.396
+Se ci pensi, qualsiasi altro numero pari
+
+03:00.396 --> 03:03.620
+sara' anche divisibile per 2, quindi non sarà primo.
+
+03:03.620 --> 03:06.688
+Ci penseremo meglio in video futuri.
+
+03:06.688 --> 03:13.144
+Proviamo 3. Beh, 3 è sicuramente divisibile per 1 e 3
+
+03:13.144 --> 03:15.651
+e non è divisibile per niente in mezzo.
+
+03:15.651 --> 03:20.272
+Non è divisibile per 2. Quindi anche 3 è un numero primo.
+
+03:20.272 --> 03:25.264
+Proviamo 4.
+
+03:25.264 --> 03:29.676
+4 è sicuramente divisibile per 1 e 4, ma
+
+03:29.676 --> 03:36.224
+è anche divisibile per 2. Quindi è divisibile
+
+03:36.224 --> 03:40.311
+per tre numeri naturali: 1, 2 e 4.
+
+03:40.311 --> 03:44.723
+Quindi non è conforme ai nostri vincoli per essere primo.
+
+03:44.723 --> 03:48.252
+Fammi provare 5.
+
+03:48.252 --> 03:51.015
+5 è sicuramente divisibile per 1,
+
+03:51.015 --> 03:57.842
+non è divisibile per 2, 3 o 4
+
+03:57.842 --> 04:01.209
+(potresti dividere 5 / 4, ma otterresti un resto)
+
+04:01.209 --> 04:05.133
+ed è esattamente divisibile per 5, ovviamente.
+
+04:05.133 --> 04:10.265
+Quindi, di nuovo, 5 è divisibile per esattamente due numeri naturali: 1 e 5.
+
+04:10.265 --> 04:14.235
+Quindi di nuovo, 5 è primo. Andiamo avanti,
+
+04:14.235 --> 04:17.393
+in modo da vedere se c'è un qualsiasi tipo di schema
+
+04:17.393 --> 04:19.924
+e poi magari ne provo uno davvero difficile
+
+04:19.924 --> 04:26.031
+che tende a far cadere le persone. Quindi, proviamo il numero 6.
+
+04:26.031 --> 04:34.622
+E' divisibile per 1, 2, 3 e 6.
+
+04:34.622 --> 04:37.595
+Quindi ha quattro "fattori" naturali,
+
+04:37.595 --> 04:40.033
+suppongo che potresti dirla cosi'.
+
+04:40.033 --> 04:43.005
+Quindi non ha esattamente due numeri per cui e' divisibile,
+
+04:43.005 --> 04:46.743
+ne ha quattro, quindi non è primo.
+
+04:46.743 --> 04:49.715
+Passiamo al 7.
+
+04:49.715 --> 04:55.869
+7 è divisibile per 1, non per 2, 3, 4, 5 o 6,
+
+04:55.869 --> 05:00.791
+ma è divisibile anche per 7
+
+05:00.791 --> 05:03.624
+quindi 7 è primo. Penso ti sia fatto un'idea generale.
+
+05:03.624 --> 05:06.689
+Quanti numeri naturali, numeri come 1, 2, 3, 4, 5,
+
+05:06.689 --> 05:09.383
+i numeri che impari quando hai due anni
+
+05:09.383 --> 05:11.681
+non compreso lo zero, esclusi i numeri negativi,
+
+05:11.681 --> 05:13.980
+non comprese le frazioni ed i numeri irrazionali
+
+05:13.980 --> 05:15.768
+e decimali e tutto il resto,
+
+05:15.768 --> 05:18.578
+solo numeri positivi che puoi contare regolarmente.
+
+05:18.578 --> 05:21.318
+Se ne hai solo due,
+
+05:21.318 --> 05:23.733
+se sei solo divisibile per te stesso e per 1,
+
+05:23.733 --> 05:25.544
+allora sei un numero primo.
+
+05:25.544 --> 05:27.192
+E il modo in cui ci penso io,
+
+05:27.192 --> 05:29.607
+se non pensiamo al caso particolare dell'1,
+
+05:29.607 --> 05:31.604
+i numeri primi sono questa specie di mattoncini.
+
+05:31.604 --> 05:33.299
+Non li puoi dividere più di cosi'.
+
+05:33.299 --> 05:34.809
+Sono quasi come gli atomi.
+
+05:34.809 --> 05:36.285
+Se pensi a quello che è un atomo,
+
+05:36.285 --> 05:38.111
+o ciò che all'inizio la gente pensava che gli atomi fossero...
+
+05:38.111 --> 05:39.991
+pensavano che fossero queste cose
+
+05:39.991 --> 05:41.890
+che non si potevano dividere.
+
+05:41.890 --> 05:43.986
+Ora sappiamo che potremmo dividere gli atomi e in realtà
+
+05:43.986 --> 05:46.475
+se lo fai puoi creare un'esplosione nucleare.
+
+05:46.475 --> 05:49.655
+Ma c'è la stessa idea dietro i numeri primi.
+
+05:49.655 --> 05:52.618
+Non si possono dividere
+
+05:52.618 --> 05:57.402
+in prodotti di numeri naturali piu' piccoli.
+
+05:57.402 --> 06:01.256
+Cose tipo il 6 puoi dire: hey, 6 è 2 x 3,
+
+06:01.256 --> 06:03.717
+lo puoi dividere e nota: siamo in grado di dividerlo
+
+06:03.717 --> 06:06.411
+come un prodotto di numeri primi.
+
+06:06.411 --> 06:08.872
+L'abbiamo tipo suddiviso nelle sue parti.
+
+06:08.872 --> 06:11.217
+7 non si può dividere piu' di cosi'.
+
+06:11.217 --> 06:14.817
+Puoi solo dire: 7 è uguale a 7 x 1.
+
+06:14.817 --> 06:16.930
+E in quel caso non l'hai veramente diviso di molto.
+
+06:16.930 --> 06:19.066
+Hai di nuovo solo il 7.
+
+06:19.066 --> 06:20.877
+6 lo puoi realmente dividere.
+
+06:20.877 --> 06:23.965
+4 lo puoi suddividere come 2 x 2.
+
+06:23.965 --> 06:25.800
+Ora, tolto di mezzo questo pensiamo
+
+06:25.800 --> 06:27.425
+a qualche numero più grande e capiamo
+
+06:27.425 --> 06:30.072
+se tali numeri più grandi sono primi.
+
+06:30.072 --> 06:34.902
+Quindi proviamo 16.
+
+06:34.902 --> 06:38.872
+Quindi chiaramente un qualsiasi numero naturale è divisibile per 1 e per se' stesso.
+
+06:38.872 --> 06:42.262
+Quindi 16 è divisibile per 1 e 16.
+
+06:42.262 --> 06:44.143
+Quindi inizi con 2,
+
+06:44.143 --> 06:46.071
+quindi se trovi qualsiasi altra cosa divisibile per questa
+
+06:46.071 --> 06:48.207
+sai che non e' un numero primo.
+
+06:48.207 --> 06:51.109
+E per 16 hai 2 x 8,
+
+06:51.109 --> 06:53.362
+hai 4 x 4,
+
+06:53.362 --> 06:55.451
+quindi ha un sacco di fattori qui,
+
+06:55.451 --> 06:57.588
+al di là del solo 1 e 16.
+
+06:57.588 --> 07:02.278
+Quindi 16 non è primo. Che mi dici di 17?
+
+07:02.278 --> 07:06.411
+1 e 17 di sicuro stanno nel 17,
+
+07:06.411 --> 07:10.846
+il 2 non sta nel 17, il 3 non ci sta, 4, 5, 6, 7, 8, ...
+
+07:10.846 --> 07:14.701
+nessuno di questi numeri, niente tra 1 e 17
+
+07:14.701 --> 07:21.086
+sta nel 17, quindi 17 è primo.
+
+07:21.086 --> 07:23.803
+Ed ora te ne do' uno difficile.
+
+07:23.803 --> 07:26.822
+Questo può ingannare un sacco di gente.
+
+07:26.822 --> 07:34.345
+Che mi dici di 51? 51 e' primo?
+
+07:34.345 --> 07:37.480
+E se ti interessa puoi mettere in pausa il video
+
+07:37.480 --> 07:39.500
+e cercare di capirlo da solo
+
+07:39.500 --> 07:41.520
+se il 51 è un numero primo.
+
+07:41.520 --> 07:45.142
+Se riesci a trovare qualcosa di diverso da 1 o 51
+
+07:45.142 --> 07:48.161
+che è divisibile nel 51. Sembra che ...
+
+07:48.161 --> 07:50.042
+wow questo è un numero un po' strano.
+
+07:50.042 --> 07:52.340
+Potresti essere tentato di pensare che sia primo,
+
+07:52.340 --> 07:54.268
+ma ora ti do' la risposta.
+
+07:54.268 --> 07:59.933
+Non è primo, perché è anche divisibile per 3 e 17
+
+07:59.933 --> 08:02.998
+3 x 17 è 51.
+
+08:02.998 --> 08:04.779
+Quindi spero che questo ti dia una buona idea
+
+08:04.779 --> 08:06.388
+di quel che sono i numeri primi,
+
+08:06.388 --> 08:09.407
+e speriamo di potertici far fare pratica
+
+08:09.407 --> 3:59:59.999
+magari in alcuni video ed esercizi futuri.

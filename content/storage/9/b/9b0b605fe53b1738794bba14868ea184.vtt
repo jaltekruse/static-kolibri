@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.000 --> 00:01.680
+Problema número seis.
+
+00:01.987 --> 00:05.800
+digamos que f de x es igual al seno de x al cuadrado (x²) más el coseno de x
+
+00:05.800 --> 00:12.067
+La gráfica de Y es igual al valor absoluto de la quinta derivado de f en x está mostrado arriba
+
+00:12.067 --> 00:15.533
+y yo no lo he mostrado aquí sólo porque tenemos un poco de espacio. Lo voy a mostrar cuando tengamos que mostrarlo
+
+00:15.533 --> 00:17.333
+Creo que tenemos que mostrarlo en la parte D.
+
+00:17.333 --> 00:19.323
+Así que primero vamos a hacer la parte A por aquí.
+
+00:19.338 --> 00:24.427
+Escribe los primeros cuatro términos no nulos de la serie de Taylor por el seno de X
+
+00:24.427 --> 00:30.533
+alrededor de x = 0, y escribe los cuatro primeros términos no nulos de la serie de Taylor para el seno de x²
+
+00:30.533 --> 00:32.533
+cuando X es igual a 0. Así que vamos ha hacer esa primera parte.
+
+00:32.533 --> 00:36.270
+y sólo como recordatorio, una seri de taylor es una aproximación poligonal
+
+00:36.270 --> 00:40.937
+de una funcion. solo para dar una repasada rápida, vamos a ir detallando más
+
+00:40.937 --> 00:44.533
+de esto en videos acerca de la serie de Taylor.
+
+00:44.533 --> 00:49.200
+pero si tenemos una función parecida a esta, y quieres aproximarla con una serie de Taylor
+
+00:49.200 --> 00:54.800
+alrededor de cero (0), tú puedes, si tienes un sólo término en tu serie de Taylor, tu puedes, literalmente
+
+00:54.800 --> 00:59.200
+solo si es una constante, como esta, si tu tienes dos terminos en tu serie de Taylor
+
+00:59.200 --> 01:01.867
+esto seria una linea que luciría así.
+
+01:01.867 --> 01:05.271
+si tu tienes tres términos en tu serie de Taylor, tu puedes tener un término de segundo grado.
+
+01:05.271 --> 01:09.000
+comienzas aproximandolo, como algo así.
+
+01:09.000 --> 01:12.000
+si tienes un termino de tercer grado, esto podria comenzar a verse así.
+
+01:12.000 --> 01:16.092
+y mientras más y más términos agregas a la función la aproximación será cada vez mejor y mejor.
+
+01:16.092 --> 01:19.273
+y si añades un número infinito, podria converger con la función.
+
+01:19.273 --> 01:23.533
+así que solo vamos a recordarnos. Que si tengo una función, si F de X
+
+01:23.533 --> 01:26.667
+es una serie de Taylor: puedo aproximarlo a una serie de Taylor.
+
+01:26.667 --> 01:29.667
+y si queremos centrar esa aproximación alredeor de cero (0)
+
+01:29.667 --> 01:37.106
+esta seria igual a F de cero (0) mas f' 0 (F prima cero) "la derivada de cero" veces X
+
+01:37.106 --> 01:42.867
+más la segunda derivada de cero (0) veces X² sobre factorial de 2, (2!)
+
+01:42.867 --> 01:46.400
+(tu puedes dividir estos terminos aquí entre factorial de 1 (1!), que es 1)
+
+01:46.400 --> 01:48.000
+dos factorial (2!) es dos (2)
+
+01:48.000 --> 01:55.733
+y luego, más la tercera derivada de f en cero veces X³ cubo sobre tres factorial (3!)
+
+01:55.733 --> 01:58.800
+mas la cuarta derivada... Creo que ya tienes la idea aqui.
+
+01:58.800 --> 02:03.867
+la cuarta derivada de cero veces X⁴ dividido entre cuatro factorial (4!)
+
+02:03.867 --> 02:06.084
+y asi, asi en adelante...
+
+02:06.084 --> 02:10.400
+asi que lo que ellos quieren que hagamos es encontrar los primeros cuatro terminos no nulos de la
+
+02:10.400 --> 02:12.000
+serie de Taylor para seno de X
+
+02:12.000 --> 02:14.467
+y algunos de ustedes seguro ya saben esto. actualmente cubrimos esto
+
+02:14.467 --> 02:19.800
+en el video en el que mostramos la identidad de Euler, pero lo volveremos a hacer aqui mismo.
+
+02:19.800 --> 02:24.867
+entonces, si sol otomamos, lo voy a llamar g(x), porque esta
+
+02:24.867 --> 02:27.133
+ya definido por f(X) aquí arriba. así que digamos g(x)
+
+02:27.133 --> 02:30.837
+y vamos a poner este nuevo color, para evitar la monotonia
+
+02:30.837 --> 02:38.800
+vamos a decir que g(X) es igual a Seno de X. entonces sabemos que g de cero {g(0)}
+
+02:38.800 --> 02:41.133
+será igual a cero (0).
+
+02:41.133 --> 02:44.667
+y asi si tomamos la derivada, g prima (g') de X será
+
+02:44.667 --> 02:48.763
+igual a negativo, no sera positivo el coseno de X
+
+02:48.763 --> 02:54.733
+positivo Coseno de X. g prima (g' 0 ) va ha ser igual a 1
+
+02:54.733 --> 02:58.097
+Coseno de cero es uno (1). entonces si tomamos la segunda derivada.
+
+02:58.097 --> 03:02.091
+La derivada del coseno de X es negativo seno de X (-sen X)
+
+03:02.091 --> 03:06.733
+y la segunda derivada de cero, una vez más, va a ser igual
+
+03:06.733 --> 03:09.000
+a cero (0). Seno de 0 es 0.
+
+03:09.000 --> 03:14.082
+y ahora vamos a tomar la tercera derivada
+
+03:14.082 --> 03:16.071
+la tercera derivada de nuestra funcion, g, la derivada de
+
+03:16.148 --> 03:19.209
+el negativo de seno de X (-senX) es el negativo de coseno de X (-cosX)
+
+03:19.286 --> 03:22.600
+y la tercera derivada de cero será ahora
+
+03:22.600 --> 03:26.000
+igual a negativo uno (-1). y podemos seguir adelante.
+
+03:26.000 --> 03:28.800
+ahora te puedes preguntar, a donde nos llevará esto?
+
+03:28.800 --> 03:31.133
+pero seguiremos adelante, solo en caso.
+
+03:31.133 --> 03:37.400
+la cuarta derivada es una vez mas igual a seno de X (senX)
+
+03:37.400 --> 03:39.684
+será ahora igual a seno de x (sen X) y luego la
+
+03:39.684 --> 03:45.067
+cuarta derivada de cero (0), porque es lo mismo que la función
+
+03:45.067 --> 03:47.347
+será ahora cero tambien.
+
+03:47.347 --> 03:51.933
+así que será igual a g⁴ de cero (0)
+
+03:51.933 --> 03:54.133
+y luego podemos seguir adelante. Esto será lo mismo
+
+03:54.133 --> 03:56.533
+como g⁵ porque comenzamos el ciclo
+
+03:56.533 --> 03:58.800
+asi como tomamos más y más derivadas. entonces esto va a ser
+
+03:58.800 --> 04:01.867
+lo mismo que la derivada a la quinta de cero (0)
+
+04:01.867 --> 04:07.933
+esto será lo mismo que la sexta derivada de cero (0)
+
+04:07.933 --> 04:13.423
+y esto será lo mismo... esto es un signo de iguales, justo aqui
+
+04:13.423 --> 04:15.400
+IGUALES. y esto será lo mismo que la septima derivada
+
+04:15.400 --> 04:19.200
+de cero. asi que si tu quieres los primeros cuatro
+
+04:19.200 --> 04:22.800
+terminos no nulos. vamos a trabajar en ello.
+
+04:22.800 --> 04:27.200
+así que primero que todo, f'0 --- haremos esto en un nuevo color
+
+04:27.200 --> 04:29.351
+si queremos aproximar g a X
+
+04:29.351 --> 04:31.733
+si queremos aproximar seon a X
+
+04:31.733 --> 04:33.933
+asi que vamos a decir seno de X se estará aproximando igual a este
+
+04:33.933 --> 04:36.867
+primer término de aqui
+
+04:36.867 --> 04:38.268
+que es seno de 0, que es g(0)
+
+04:38.268 --> 04:41.101
+esto será cero, no tenemos que escribirlo
+
+04:41.101 --> 04:43.867
+luego vamos a este término de aquí. bueno la primera derivada
+
+04:43.867 --> 04:47.400
+f prima cero (f'0) o en este caso g prima cero (g'0)
+
+04:47.400 --> 04:49.600
+va a ser igual a uno (1)
+
+04:49.600 --> 04:52.177
+asi que sera una veces X. asi que vamos a tener una X aqui
+
+04:52.177 --> 04:57.680
+y el siguiente término será cero, ya vimos eso
+
+04:57.680 --> 05:03.200
+porque la segunada derivada de nuestra función evaluada en cero es cero
+
+05:03.200 --> 05:07.014
+nuestra tercera derivada de nuestra función evaluada en cero es uno (1)
+
+05:07.014 --> 05:09.533
+asi que ese término se vá a mostrar denuevo
+
+05:09.533 --> 05:12.800
+ahora, este término es negativo uno (-1) no quiero cometer un error aqui
+
+05:12.800 --> 05:16.604
+esto es negativo uno (-1). esto era negativo coseno de X (-cosX)
+
+05:16.604 --> 05:19.867
+si evaluamos negativo coseno de X en cero tenemos negativo uno (-1)
+
+05:19.867 --> 05:21.086
+justo aqui
+
+05:21.086 --> 05:24.400
+asi que la tercera derivada, esto esta justo aqui, es negativo uno (-1)
+
+05:24.400 --> 05:29.352
+asi que tenemo meno X³ sobre factorial de 3 (3!)
+
+05:29.352 --> 05:31.929
+la cuarta derivada, una vez mas, es cero.
+
+05:31.929 --> 05:36.016
+la quinta derivada evaluada en cero es uno (1). asi que
+
+05:36.016 --> 05:41.267
+vamos a tener más una veces X a la quinta (+1X⁵) sobre factorial 5 (5!)
+
+05:41.267 --> 05:44.400
+luego la sexta derivada es cero, asi que ese termino va a desaparecer
+
+05:44.400 --> 05:45.867
+ni siquiera lo escribí aqui arriba
+
+05:45.867 --> 05:48.933
+y luego la seprimo término, el coeficiente es negativo 1
+
+05:48.933 --> 05:51.933
+o, la septima dderivada evaluada desde cero es negativo uno (-1)
+
+05:51.933 --> 05:57.200
+asi que tenemos negativo una veces X a la septima sobre siete factorial
+
+05:57.200 --> 06:00.350
+y tendriamos que hacer todo hasta el termino en la septimo grado para encontrar
+
+06:00.350 --> 06:04.800
+el primero de cuatro términos no nulos para nuestra serie de Taylor
+
+06:04.800 --> 06:07.467
+y asi hemos terminado al menos con la primera parte.
+
+06:07.467 --> 06:11.937
+hemos encontrado el primero de cuatro terminos no nulos del seno de X
+
+06:11.937 --> 06:14.267
+asi que, que seria con seno al cuadrado de X (sen²X)
+
+06:14.267 --> 06:17.800
+o seno de X al cuadrado. tenemos que ser cuidadosos aqui. porque
+
+06:17.800 --> 06:20.133
+podriamos decir, ok, vamo solo a aplicar la formula
+
+06:20.133 --> 06:21.600
+y lo vas a encontrar rápido
+
+06:21.600 --> 06:23.733
+cuando comienzas tomando la segunga y tercera derivada
+
+06:23.733 --> 06:26.682
+de esto de aqui, va a ser algo muy confuso
+
+06:26.682 --> 06:30.769
+pero l oque puedes decir es, mira seno de X se esta aproximando a esto de aqui, justo aqui
+
+06:30.769 --> 06:33.867
+Qué pasa si solo reemplazo X con X²
+
+06:33.867 --> 06:39.533
+luego yo tengo seno de x² se esta aproximando a
+
+06:39.533 --> 06:42.467
+em lugar de X aqui, voy a poner x²
+
+06:42.467 --> 06:48.509
+en lugar de x³, voy a poner x² al cubo, por aqui, sobre tres factorial (3!)
+
+06:48.509 --> 06:53.200
+en lugar de X a la quinta, yo puedo pones X² a la quinta potencia
+
+06:53.200 --> 06:54.933
+sobre cinco factorial (5!)
+
+06:54.933 --> 06:58.516
+y en lugar de X a la septima , puedo poner X² a la septima
+
+06:58.516 --> 07:00.867
+potencia sobte siete factorial (7!)
+
+07:00.867 --> 07:03.184
+asi que es muy importante darse cuenta.
+
+07:03.184 --> 07:08.083
+porque, si tienes que comenzar directamente tomando la serie de Taylor alrededor de cero
+
+07:08.083 --> 07:10.335
+de esto justo aqui, te debes haber tomado todo tu tiempo
+
+07:10.335 --> 07:12.425
+que toma derivar, y tu probablemente no fuiste capaz de
+
+07:12.425 --> 07:14.467
+hacerlo de ningun modo, porque se te habia complicado un poco.
+
+07:14.467 --> 07:17.933
+y la clave aqui es solo darse cuenta, que si subtituyes
+
+07:17.933 --> 07:22.200
+X² por X vas a tener una aproximación a
+
+07:22.200 --> 07:23.942
+seno de X²
+
+07:23.942 --> 07:26.000
+y podemos simplificar esto un poco
+
+07:26.000 --> 07:27.600
+esto va a ser aproximadamente igual a
+
+07:27.600 --> 07:31.605
+X² menos X a la sexta sobre tres factorial (3!)
+
+07:31.605 --> 07:34.600
+más X a la décima sobre cinco factorial (5!)
+
+07:34.600 --> 07:39.685
+menos X a la décima cuarta sobre siete factorial (7!)
+
+07:39.715 --> 3:59:59.999
+asi que esta es nuesta segunda parte del problema.

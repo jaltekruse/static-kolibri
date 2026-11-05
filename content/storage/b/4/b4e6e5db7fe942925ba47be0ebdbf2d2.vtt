@@ -1,0 +1,526 @@
+WEBVTT
+
+00:00.000 --> 00:00.460
+-
+
+00:00.460 --> 00:03.040
+Önce, fonksiyonlar ne yapar, onu düşünelim. Sonra da,
+
+00:03.040 --> 00:06.590
+ters fonksiyonlar nasıl işler, ona bakacağız.
+
+00:06.590 --> 00:08.450
+Basit bir fonksiyon ile başlayalım.
+
+00:08.450 --> 00:13.510
+"f iks" eşittir "2 iks" artı 4, diyelim.
+
+00:13.510 --> 00:20.340
+"f 2" olarak düşünelim. "f 2" kaça eşittir? 2 çarpı
+
+00:20.340 --> 00:24.560
+2, artı 4. Yani, 4 artı 4; eşittir 8 olur.
+
+00:24.560 --> 00:32.470
+"f 3"e bakalım. "f 3". Yani, "2 çarpı 3", artı 4;
+
+00:32.470 --> 00:35.920
+eşittir 10 olur.
+
+00:35.920 --> 00:36.960
+6 artı 4, 10 eder.
+
+00:36.960 --> 00:38.280
+Konuyu biraz daha
+
+00:38.280 --> 00:39.800
+soyut olarak düşünelim.
+
+00:39.800 --> 00:42.990
+Bu fonksiyona yerleştirebileceğim şeylerin bir kümesi var.
+
+00:42.990 --> 00:44.700
+Bu cümleyle neyi ifade ettiğimi zaten biliyorsunuz.
+
+00:44.700 --> 00:46.050
+"Tanım Kümesi"nden bahsediyorum.
+
+00:46.050 --> 00:48.760
+Fonksiyona yerleştirebileceğim şeylerin kümesi,
+
+00:48.760 --> 00:52.760
+"Tanım Kümesi"dir. "Tanım Kümesi"dir.
+
+00:52.760 --> 00:57.290
+Tanım Kümesi'nde 2 var, 3 var.
+
+00:57.290 --> 00:59.700
+Neredeyse tüm Gerçel Sayıları
+
+00:59.700 --> 01:00.850
+bu fonksiyona yerleştirebilirsiniz.
+
+01:00.850 --> 01:02.810
+Yani bu küme, Gerçel Sayılar kümesidir ama zihninizde
+
+01:02.810 --> 01:05.150
+canlandırabilmeniz için sade bir küme oluşturacağız.
+
+01:05.150 --> 01:07.830
+Fonksiyonu kullandığınızda... Şunu düşünelim:
+
+01:07.830 --> 01:10.000
+"f 2" dediğimiz şey ne anlama geliyor?
+
+01:10.000 --> 01:13.900
+"2" sayısını yerleştiriyoruz ve fonksiyonumuz
+
+01:13.900 --> 01:15.790
+bize 8 sayısını veriyor.
+
+01:15.790 --> 01:19.270
+2 ile 8'i eşleştiriyor.
+
+01:19.270 --> 01:22.490
+Gelin, fonksiyonun alabileceği tüm olası değerlerle
+
+01:22.490 --> 01:23.930
+başka bir küme oluşturalım.
+
+01:23.930 --> 01:27.780
+Alabileceği tüm olası değerlerle.
+
+01:27.780 --> 01:30.300
+Bu kümeye, "Değer Kümesi" deriz.
+
+01:30.300 --> 01:33.320
+Bu konuda kullanılabilecek daha resmî ifadeler var.
+
+01:33.320 --> 01:36.640
+İleride, özellikle Doğrusal Cebir'de, çok daha ayrıntılı
+
+01:36.640 --> 01:39.060
+bir anlatım yapacağım fakat şimdilik önemli olan
+
+01:39.060 --> 01:40.200
+fonksiyonun aldığı farklı değerler, o kadar.
+
+01:40.200 --> 01:44.550
+Tanım Kümesi'nden 2'yi alıp fonksiyonumuza yerleştirirsem,
+
+01:44.550 --> 01:48.270
+8 sayısını elde ediyoruz.
+
+01:48.270 --> 01:50.260
+Çizerek göstereyim.
+
+01:50.260 --> 01:56.210
+2 sayısından, 8 sayısına gidiyoruz.
+
+01:56.210 --> 01:59.060
+Bu işlemi, fonksiyon yapıyor.
+
+01:59.060 --> 02:01.210
+Eşleştirme kısmını fonksiyon yapıyor.
+
+02:01.210 --> 02:05.190
+Fonksiyon, 2'yi 8 ile eşleştiriyor.
+
+02:05.190 --> 02:09.180
+İşte buna, "f 2" denir.
+
+02:09.180 --> 02:10.080
+Aynı mantıkla,
+
+02:10.080 --> 02:18.810
+3'ü alırsak; 3, fonksiyon tarafından 10 ile eşleştiriliyor.
+
+02:18.810 --> 02:20.480
+Arada bir ilişki kuruyor.
+
+02:20.480 --> 02:25.320
+Fonksiyon bizi 3'ten 9'a götürüyor.
+
+02:25.320 --> 02:28.400
+Şöyle ilginç bir soru ortaya çıkar:
+
+02:28.400 --> 02:32.840
+8'den 2'ye geri gelmenin bir yolu var mı? Ya da,
+
+02:32.840 --> 02:35.220
+10'dan 3'e geri gelmenin bir yolu var mı?
+
+02:35.220 --> 02:37.340
+Ya da şöyle bir fonksiyon var mı acaba:
+
+02:37.340 --> 02:39.870
+Adına, "f'nin tersi" diyeceğimiz ve bizi geri getirebilen
+
+02:39.870 --> 02:41.660
+bir fonksiyon.
+
+02:41.660 --> 02:44.260
+Bizi 10'dan 3'e getirecek
+
+02:44.260 --> 02:46.200
+bir fonksiyon var mı?
+
+02:46.200 --> 02:48.970
+Buna "f'nin tersi" diyeceğiz ve gösterimi de bu şekilde
+
+02:48.970 --> 02:52.790
+yapacağız. Bu fonksiyon bizi 10'dan 3'e geri getirecek.
+
+02:52.790 --> 02:54.360
+Bunu yapmanın bir yolu var mı?
+
+02:54.360 --> 02:58.070
+"f'nin tersi" fonksiyonuna
+
+02:58.070 --> 03:02.290
+8'i yerleştirirsek, bizi 2'ye geri getirir mi?
+
+03:02.290 --> 03:07.230
+"f'nin tersi" fonksiyonuna 8'i yerleştirirsek, bizi 2'ye geri getirir mi?
+
+03:07.230 --> 03:10.760
+Bu yaptıklarımız çok soyut ve çok zor görünüyor.
+
+03:10.760 --> 03:13.990
+Ama "f'nin tersi"ni bulmanın aslında
+
+03:13.990 --> 03:17.030
+çok kolay olduğunu göreceksiniz. Bir kere çözelim,
+
+03:17.030 --> 03:18.540
+ne demek istediğimi hemen anlayacaksınız.
+
+03:18.540 --> 03:20.820
+Fonksiyon bizi 2'den 8'e götürüyorsa, ters fonksiyon
+
+03:20.820 --> 03:23.360
+bizi 8'den 2'ye geri getirir.
+
+03:23.360 --> 03:25.470
+Bunu aklınızdan çıkarmayın.
+
+03:25.470 --> 03:27.790
+Şöyle bir tanım yapalım: "f iks" eşittir "y" olsun.
+
+03:27.790 --> 03:30.620
+"f iks" eşittir "y" olsun.
+
+03:30.620 --> 03:33.510
+Yani, "y" eşittir "f iks", eşittir, "2 iks" artı 4.
+
+03:33.510 --> 03:39.110
+Şöyle yazabilirim: "y" eşittir, "2 iks" artı 4.
+
+03:39.110 --> 03:40.420
+Bu, bizim fonksiyonumuz.
+
+03:40.420 --> 03:42.470
+"Sen bana iks verirsen, ben de sana 'y' veririm" diyor.
+
+03:42.470 --> 03:43.990
+Ama biz tersten gelmek istiyoruz.
+
+03:43.990 --> 03:46.760
+Ona "y" verip iks almak istiyoruz.
+
+03:46.760 --> 03:50.490
+Yapmamız gereken, iks'i "y" cinsinden bulmak.
+
+03:50.490 --> 03:51.160
+Hadi bulalım.
+
+03:51.160 --> 03:54.460
+Eşitliğin her iki yanından 4 çıkarırsak...
+
+03:54.460 --> 03:57.350
+Rengi değiştireyim. Eşitliğin her iki yanından 4 çıkarırsak,
+
+03:57.350 --> 04:02.310
+"y eksi 4", eşttir, "2 iks" elde ederiz.
+
+04:02.310 --> 04:08.270
+Eşitliğin her iki yanını da ikiye bölersek; "y bölü 2",
+
+04:08.270 --> 04:12.750
+eksi 2... "4 bölü 2", 2 eder. Eşittir, iks.
+
+04:12.750 --> 04:15.160
+Tam tersi şekilde yazmak isterseniz, yerlerini
+
+04:15.160 --> 04:20.100
+değiştirebilirsiniz. Ne olur? "iks" eşittir, "1 bölü 2" y....
+
+04:20.100 --> 04:23.190
+"y bölü 2" ile aynı şeydir. Eksi, 2.
+
+04:23.190 --> 04:26.270
+Elimizde, sonucu iks cinsinden veren
+
+04:26.270 --> 04:28.750
+y'nin bir fonksiyonu var. Biz de bunu istiyorduk zaten.
+
+04:28.750 --> 04:33.510
+Değer Kümesi'ndeki değerleri, iks'e geri getiren bir fonksiyon istiyorduk.
+
+04:33.510 --> 04:38.100
+Bu fonksiyona da... Eşittir diyebiliriz.
+
+04:38.100 --> 04:41.840
+Aynı renkle yazayım. Bu fonksiyona, ( "f y"nin
+
+04:41.840 --> 04:43.570
+tersi) denir.
+
+04:43.570 --> 04:45.080
+Daha derli toplu yazayım.
+
+04:45.080 --> 04:49.050
+"f y"nin ters fonksiyonu.
+
+04:49.050 --> 04:52.650
+Az önceki Değer Kümesi, "f"nin tersi için Tanım Kümesi olur.
+
+04:52.650 --> 04:58.120
+"f y"nin tersi eşittir, "1 bölü 2" y, eksi 2'dir.
+
+04:58.120 --> 05:00.570
+Ne yaptık? İlk baştaki fonksiyonumuzla başladık.
+
+05:00.570 --> 05:05.300
+"y" eşittir, "2 iks" artı 4 ile.
+
+05:05.300 --> 05:07.870
+"y"yi iks cinsinden ifade ettik. Sonra da,
+
+05:07.870 --> 05:12.250
+cebir kullanarak, iks'i "y" cinsinden ifade ettik ve
+
+05:12.250 --> 05:15.580
+ona da, "f y"nin ters fonksiyonu dedik.
+
+05:15.580 --> 05:17.370
+İşte burası.
+
+05:17.370 --> 05:19.570
+Tabii burada, "y" değil de
+
+05:19.570 --> 05:22.640
+"a", "b" ya da "iks" yazabilirsiniz, nasıl isterseniz.
+
+05:22.640 --> 05:26.240
+"y" yerine "iks" yazalım.
+
+05:26.240 --> 05:29.000
+Fonksiyonda "y" yerine "iks" yazarsak,
+
+05:29.000 --> 05:34.660
+"f iks"in tersi, eşittir, "1 bölü 2" iks, eksi 2 olur.
+
+05:34.660 --> 05:38.340
+Fonksiyonu iks'e göre çözersiniz. Sonra da iks'leri "y" ile
+
+05:38.340 --> 05:39.720
+değiştirirsiniz. Bu da mümkün.
+
+05:39.720 --> 05:41.240
+Bence en kolay yolu bu.
+
+05:41.240 --> 05:44.110
+Göstermek istediğim bir diğer şey de, fonksiyonun ve
+
+05:44.110 --> 05:46.255
+ve onun tersinin grafiğinin nasıl çizildiği.
+
+05:46.255 --> 05:48.420
+Size çalakalem
+
+05:48.420 --> 05:50.160
+bir grafik çizeyim.
+
+05:50.160 --> 05:52.190
+İleride ters fonksiyonlarla ilgili pek çok
+
+05:52.190 --> 05:53.580
+örnek çözeceğim ama şu anda size
+
+05:53.580 --> 05:55.030
+genel mantığı anlatmak istiyorum.
+
+05:55.030 --> 05:57.010
+Fonksiyon, sizi Tanım Kümesi'nden Değer Kümesi'ne götürür.
+
+05:57.010 --> 05:59.570
+Ters fonksiyon ise, o değerden alır ve ilk baştaki tanıma getirir;
+
+05:59.570 --> 06:01.810
+tabii öyle bir fonksiyon varsa.
+
+06:01.810 --> 06:04.500
+Grafiğimizi çizelim. Öncelikle koordinat eksenlerini
+
+06:04.500 --> 06:08.790
+şuraya çizeyim. Koordinat eksenlerini
+
+06:08.790 --> 06:12.040
+şuraya çizeyim
+
+06:12.040 --> 06:16.630
+İlk fonksiyonumuz; "2 iks" artı 4. "y" ekseni üzerinde...
+
+06:16.630 --> 06:24.520
+1, 2, 3, 4. "y" eksenini 4'te keser. Doğru da
+
+06:24.520 --> 06:25.610
+şöyle bir şey olur.
+
+06:25.610 --> 06:31.470
+Doğrunun eğimi 2'dir. Yani, şöyle bir şey... Doğrumuz aynen...
+
+06:31.470 --> 06:33.870
+Biraz daha düzgün çizeyim.
+
+06:33.870 --> 06:36.400
+Doğrumuz böyle bir şeydir.
+
+06:36.400 --> 06:38.450
+Fonksiyonun grafiği böyledir.
+
+06:38.450 --> 06:40.390
+Peki, BU fonksiyonun grafiği nasıldır?
+
+06:40.390 --> 06:43.680
+Ters fonksiyon, iks'in bir fonksiyonuyken grafiği nasıldır?
+
+06:43.680 --> 06:46.980
+Unutmayın, "y"nin fonksiyonu olarak çözüp, "y"nin yerine
+
+06:46.980 --> 06:47.900
+iks yazmıştık.
+
+06:47.900 --> 06:51.570
+Yani, ( "f iks"in tersi, eşittir, "y") diyebiliriz.
+
+06:51.570 --> 06:56.400
+"y" ekseninde kestiği nokta "eksi 2"dir. Bir, iki.
+
+06:56.400 --> 07:00.150
+Eğimi de "1 bölü 2"dir.
+
+07:00.150 --> 07:02.230
+Doğrumuz yaklaşık şöyledir.
+
+07:02.230 --> 07:04.120
+Çizebilecek miyim bakalım.
+
+07:04.120 --> 07:08.510
+Doğrumuz yaklaşık böyledir.
+
+07:08.510 --> 07:10.170
+Peki, ikisi arasındaki ilişki nedir?
+
+07:10.170 --> 07:12.060
+Aralarında bir ilişki varmış gibi görünüyor.
+
+07:12.060 --> 07:14.080
+Sanki simetrikmişler gibi duruyorlar.
+
+07:14.080 --> 07:15.990
+"y eşittir iks" doğrusunu çizersem,
+
+07:15.990 --> 07:19.530
+simetrik oldukları daha iyi görünecek.
+
+07:19.530 --> 07:22.250
+"y eşittir iks" doğrusu yaklaşık şöyledir.
+
+07:22.250 --> 07:23.420
+Kesikli çizgi olarak çiziyorum.
+
+07:23.420 --> 07:29.740
+"y eşittir iks" doğrusu yaklaşık böyledir.
+
+07:29.740 --> 07:32.620
+Gördüğünüz gibi, fonksiyonun grafiği ile tersinin grafiği,
+
+07:32.620 --> 07:36.780
+"y eşittir iks" doğrusuna göre simetriktir.
+
+07:36.780 --> 07:39.100
+Umarım, nedenini anlamışsınızdır.
+
+07:39.100 --> 07:41.330
+Gelin, doğru üzerinde
+
+07:41.330 --> 07:42.530
+kolay bir örnek göstereyim.
+
+07:42.530 --> 07:49.610
+Fonksiyonu "sıfır" için ele alalım. "f sıfır", 4'e eşittir.
+
+07:49.610 --> 07:54.130
+Fonksiyonumuz, sıfırı 4'e götürür.
+
+07:54.130 --> 08:00.050
+Ters fonksiyon ise... Yani, "f 4"ün ters fonksiyonunu düşünürsek;
+
+08:00.050 --> 08:02.920
+"f 4"ün tersi, sıfıra eşittir.
+
+08:02.920 --> 08:08.120
+Ters fonksiyon, bizi 4'ten sıfıra götürür.
+
+08:08.120 --> 08:10.210
+Biz de zaten bunu yapmasını bekliyorduk.
+
+08:10.210 --> 08:14.720
+Fonksiyon bizi, iks dünyasından "y" dünyasına götürür.
+
+08:14.720 --> 08:17.240
+Ardından, "y" yerine iks yazarız,
+
+08:17.240 --> 08:18.060
+yani fonksiyonun tersini alırız.
+
+08:18.060 --> 08:21.055
+İşte iki grafik bu yüzden "y eşittir iks" doğrusuna göre simetriktir.
+
+08:21.055 --> 08:24.030
+Size gösterdiğim bu örnekte, fonksiyon
+
+08:24.030 --> 08:30.070
+bizi sıfırdan 4'e götürüyor. Fonksiyon rengi kullansam
+
+08:30.070 --> 08:35.810
+daha iyi olacak. Fonksiyon bizi, sıfırdan 4'e götürüyor.
+
+08:35.810 --> 08:39.680
+Yani, "f sıfır" eşittir 4, diyoruz. Grafikte görüyorsunuz.
+
+08:39.680 --> 08:42.550
+Sıfırdan 4'e götürüyor. Ters fonksiyon da bizi,
+
+08:42.550 --> 08:45.830
+4'ten sıfıra geri getiriyor.
+
+08:45.830 --> 08:49.380
+"f"nin tersi de bizi, 4'ten sıfıra geri getiriyor.
+
+08:49.380 --> 08:50.430
+Hemen şurada görüyoruz.
+
+08:50.430 --> 08:55.750
+4'ü yerine koyduğumuzda, ( "1 bölü 2" çarpı 4, eksi 2), sıfır eder.
+
+08:55.750 --> 08:57.730
+Sonraki birkaç videoda epey örnek çözeceğiz.
+
+08:57.730 --> 09:00.180
+Böylece, bu soruların nasıl çözüldüğünü görüp,
+
+09:00.180 --> 09:05.010
+bu konuda alıştırma yapmış olacaksınız.

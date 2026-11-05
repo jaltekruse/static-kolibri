@@ -1,0 +1,418 @@
+WEBVTT
+
+00:00.754 --> 00:03.163
+Mình cần cải thiện tâm trạng
+
+00:03.163 --> 00:06.433
+nên mình quyết định tham gia lớp học Yoga.
+
+00:06.433 --> 00:10.172
+Mình đến lớp học Super Yoga trong vùng
+
+00:10.172 --> 00:12.701
+và hỏi xem mỗi khoá học bao nhiêu tiền?
+
+00:12.701 --> 00:15.737
+Họ nói họ có một khóa cơ bản
+
+00:15.737 --> 00:17.675
+và một khoá tập thử.
+
+00:17.675 --> 00:19.738
+Đối với khoá tập thử,
+
+00:19.738 --> 00:22.151
+bạn có thể đến bất kỳ buổi học nào
+
+00:22.151 --> 00:24.822
+và chi phí mỗi buổi là $12/giờ.
+
+00:24.822 --> 00:26.700
+Nếu bạn thích lớp yoga này,
+
+00:26.700 --> 00:28.795
+bạn có thể đăng ký hội viên tháng
+
+00:28.795 --> 00:30.622
+Chi phí sẽ là $20/tháng,
+
+00:30.622 --> 00:32.302
+cùng với khoá cơ bản
+
+00:32.302 --> 00:35.420
+$20/tháng này và sẽ có giảm giá mỗi buổi học.
+
+00:35.420 --> 00:37.569
+Nó sẽ chỉ còn $8 mỗi buổi.
+
+00:37.569 --> 00:41.590
+Nhưng mà mình có thắc mắc một chút.
+
+00:41.590 --> 00:44.084
+Mình nên tham gia khoá học nào?
+
+00:44.084 --> 00:47.050
+Vì vậy, ngay trước khi bắt đầu, mình nghĩ xem
+
+00:47.050 --> 00:48.956
+mình sẽ phải trả bao nhiêu
+
+00:48.956 --> 00:52.390
+tùy vào số buổi mình tham gia.
+
+00:52.420 --> 00:57.162
+Để làm nhanh, mình sẽ xác định vài biến số.
+
+00:57.162 --> 01:00.903
+Đầu tiên mình có S là "số buổi"
+
+01:00.903 --> 01:09.471
+mỗi tháng mà mình dự định tham gia ở Super Yoga.
+
+01:10.951 --> 01:18.953
+Và C là "tổng chi phí hàng tháng".
+
+01:18.953 --> 01:20.446
+Vậy với các biến này,
+
+01:20.446 --> 01:22.849
+hãy xem xem mình sẽ trả bao nhiêu
+
+01:22.849 --> 01:24.141
+ở mỗi khoá học này.
+
+01:24.141 --> 01:26.527
+Tuỳ vào số buổi mình sẽ tham gia.
+
+01:26.527 --> 01:29.145
+Đầu tiên mình sẽ bắt đầu với khoá tập thử,
+
+01:29.145 --> 01:31.147
+nó có vẻ đơn giản hơn.
+
+01:31.147 --> 01:33.385
+Mình sẽ vẽ cột ở đây nhé.
+
+01:33.385 --> 01:38.718
+Mình có chi phí C, à không để mình viết lại.
+
+01:38.718 --> 01:44.243
+Mình có số buổi S và mình có chi phí C.
+
+01:44.243 --> 01:47.135
+Để mình vẽ bảng ở đây.
+
+01:47.135 --> 01:50.298
+Bảng cho khoá tập thử của mình.
+
+01:50.298 --> 01:52.503
+Cái này dành cho khoá tập thử
+
+01:52.503 --> 01:55.965
+mình cũng sẽ làm cho khoá cơ bản để so sánh.
+
+01:55.965 --> 01:57.951
+Đây là bảng cho khoá cơ bản.
+
+01:57.951 --> 02:00.863
+Vậy mình có số buổi mình tham gia
+
+02:00.863 --> 02:03.768
+và tổng chi phí của mình.
+
+02:04.521 --> 02:09.517
+Trước tiên, nếu mình quyết định không tham gia buổi nào
+
+02:09.517 --> 02:12.744
+nghĩa là 0 buổi nhé,
+
+02:12.744 --> 02:17.845
+ở khoá tập thử của mình thì chi phí sẽ là bao nhiêu?
+
+02:17.845 --> 02:20.833
+12$ cho mỗi buổi, 12 x 0 buổi
+
+02:20.833 --> 02:22.869
+Mình sẽ không phải trả gì cả.
+
+02:22.869 --> 02:26.548
+Chi phí của mình sẽ là $0.
+
+02:26.548 --> 02:28.036
+Bây giờ cùng một câu hỏi
+
+02:28.036 --> 02:29.471
+cho khoá cơ bản.
+
+02:29.471 --> 02:33.102
+Nếu mình có khoá cơ bản, nhưng trong một tháng
+
+02:33.102 --> 02:35.485
+mình không tham gia buổi nào,
+
+02:35.485 --> 02:38.036
+mình không đến phòng tập yoga này,
+
+02:38.036 --> 02:40.100
+mình sẽ phải trả bao nhiêu tiền?
+
+02:40.426 --> 02:42.855
+Chi phí là $8 mỗi buổi.
+
+02:42.855 --> 02:47.552
+Mình không đến nên không phải trả gì cả, đối với chi phí buổi tập.
+
+02:47.552 --> 02:50.098
+Nhưng mình sẽ phải trả $20/tháng
+
+02:50.098 --> 02:53.239
+Vì vậy, mình sẽ phải trả $20
+
+02:53.239 --> 02:55.691
+mặc dù mình không tham gia.
+
+02:55.691 --> 02:58.253
+Điều này nghe không vui lắm nhỉ?
+
+02:58.253 --> 03:01.255
+Mình sẽ tiếp tục các trường hợp khác.
+
+03:01.255 --> 03:07.034
+Mình sẽ thử trường hợp mình tham gia 1 buổi
+
+03:07.249 --> 03:11.011
+Ở khoá tập thử, mình sẽ phải trả bao nhiêu tiền?
+
+03:11.380 --> 03:15.741
+Đó là $12/buổi nhân 1 buổi
+
+03:15.741 --> 03:21.561
+mình sẽ phải trả $12.
+
+03:21.637 --> 03:24.476
+Trường hợp này ở khóa cơ bản thì sao?
+
+03:24.476 --> 03:27.761
+Ở khoá cơ bản, nếu mình tham gia 1 buổi
+
+03:27.761 --> 03:32.070
+Sẽ là $8/buổi nhân 1 buổi
+
+03:32.070 --> 03:32.893
+là $8.
+
+03:32.893 --> 03:35.387
+Cộng với phí cơ bản hàng tháng (phí hội viên).
+
+03:35.387 --> 03:37.967
+Vậy mình phải trả 20 + (8 x 1)
+
+03:37.967 --> 03:39.209
+là $28.
+
+03:39.209 --> 03:43.981
+mình sẽ phải trả 28$
+
+03:43.981 --> 03:46.703
+Vậy khoá tập thử trông có vẻ ổn,
+
+03:46.703 --> 03:48.952
+thậm chí nếu mình chỉ tham gia 1 buổi
+
+03:49.343 --> 03:51.093
+Đây là kí hiệu đô la nhé.
+
+03:51.303 --> 03:52.866
+Và ở đây là $28
+
+03:52.866 --> 03:54.794
+và mình có thể tiếp tục
+
+03:54.794 --> 03:57.412
+bạn cứ thử tính như thế, hãy làm thêm 1 cái
+
+03:57.412 --> 03:59.433
+để xem có gì thay đổi không.
+
+03:59.433 --> 04:02.989
+Nếu mình tham dự 2 buổi ở khoá tập thử
+
+04:02.989 --> 04:05.589
+mình sẽ trả bao nhiêu tiền?
+
+04:05.589 --> 04:08.368
+Mình sẽ trả $12/buổi nhân 2 buổi
+
+04:08.368 --> 04:13.595
+mình sẽ phải trả $24
+
+04:13.595 --> 04:16.289
+Vậy còn khoá cơ bản thì sao?
+
+04:16.289 --> 04:18.599
+Nếu mình tham gia 2 buổi
+
+04:18.599 --> 04:20.800
+Để mình dùng màu vàng--
+
+04:20.800 --> 04:22.911
+nếu mình tham dự 2 buổi
+
+04:23.096 --> 04:27.205
+2 nhân $8/buổi, nó sẽ là $16
+
+04:27.205 --> 04:30.152
+cộng với $20 mà mình phải trả hàng tháng
+
+04:30.152 --> 04:35.415
+sẽ là 2 x 8
+
+04:35.815 --> 04:38.679
+cộng $20
+
+04:38.679 --> 04:41.389
+bằng 16 + 20
+
+04:41.389 --> 04:44.100
+bằng $36
+
+04:44.100 --> 04:45.757
+Vậy trong trường hợp này,
+
+04:45.757 --> 04:49.151
+nếu mình tham gia 0, 1, hoặc 2 buổi
+
+04:49.151 --> 04:51.552
+khoá tập thử có vẻ ổn hơn.
+
+04:51.552 --> 04:52.918
+Nhưng mình muốn biết
+
+04:52.918 --> 04:56.201
+khi nào khoá tập thử sẽ trở nên không ổn nữa.
+
+04:56.201 --> 04:57.608
+Trước khi tìm hiểu,
+
+04:57.608 --> 05:00.953
+mình sẽ xét cái này theo 1 cách đại số,
+
+05:00.970 --> 05:05.193
+nó sẽ cho mình biết kết quả chính xác hơn.
+
+05:05.193 --> 05:09.555
+Vậy nên nếu gọi S là "Số buổi mỗi tháng"
+
+05:09.555 --> 05:11.674
+và C là "Chi phí hàng tháng"
+
+05:11.674 --> 05:15.410
+Làm thế nào để biểu diễn khoá tập thử dưới dạng phương trình?
+
+05:16.240 --> 05:20.561
+Bạn có thể nói rằng tổng chi phí hàng tháng--
+
+05:20.561 --> 05:22.694
+đây là khoá tập thử của mình.
+
+05:22.694 --> 05:26.358
+Để mình vẽ đường phân ra nhé.
+
+05:26.968 --> 05:29.814
+Vậy ở khoá tập thử, tổng chi phí sẽ bằng
+
+05:29.814 --> 05:37.559
+sẽ bằng $12/buổi nhân số buổi
+
+05:37.829 --> 05:41.864
+nhân S
+
+05:41.864 --> 05:46.159
+Vậy ở khoá tập thử, tổng chi phí bằng
+
+05:46.159 --> 05:51.641
+$12/buổi nhân số buổi
+
+05:51.641 --> 05:53.948
+Tương tự với khoá cơ bản,
+
+05:53.948 --> 05:57.458
+làm thế nào để mình biểu diễn nó dưới dạng một phương trình?
+
+05:58.701 --> 06:00.752
+Mình có tổng chi phí,
+
+06:00.752 --> 06:03.166
+tổng chi phí của mình sẽ bằng
+
+06:03.166 --> 06:05.507
+dù mình có tham gia buổi tập hay không,
+
+06:05.507 --> 06:07.676
+tháng nào mình cũng phải trả
+
+06:07.676 --> 06:09.633
+$20 một tháng.
+
+06:10.608 --> 06:12.540
+Do đó, không cần biết mình làm gì,
+
+06:12.540 --> 06:14.952
+mình vẫn luôn phải trả là $20.
+
+06:14.952 --> 06:17.923
+Sau đó ta sẽ phải trả $8/buổi.
+
+06:17.923 --> 06:34.005
+Vậy nó sẽ là $20 + (8 x S)
+
+06:34.005 --> 06:35.793
+Bạn có thể thấy
+
+06:35.793 --> 06:39.430
+nếu bạn cho S bằng 0 ở đây,
+
+06:39.430 --> 06:42.300
+bạn được 20 + (8 x 0) là 20
+
+06:42.300 --> 06:46.157
+Nếu bạn cho S = 1, bạn sẽ được 20 + (8 x 1)
+
+06:46.157 --> 06:47.492
+bằng 28.
+
+06:47.492 --> 06:49.767
+Vậy mỗi giá trị S và C
+
+06:49.767 --> 06:52.369
+đều thoả mãn phương trình này.
+
+06:52.369 --> 06:53.526
+Tương tự ở đây
+
+06:53.526 --> 06:55.204
+bạn có thể tiếp tục thử.
+
+06:55.204 --> 06:57.356
+Cái hay của phương trình là
+
+06:57.356 --> 06:59.100
+nó có thể biểu diễn được
+
+06:59.100 --> 07:01.369
+tất cả các trường hợp ở đây.
+
+07:01.369 --> 07:03.594
+Phương trình này cũng có thể
+
+07:03.594 --> 07:08.721
+biểu diễn được hết các tổ hợp có thể.
+
+07:08.721 --> 07:10.473
+Vậy nên trong vài video tiếp theo,
+
+07:10.473 --> 07:13.444
+ta sẽ cùng tìm hiểu cách sử dụng các phương trình này
+
+07:13.444 --> 07:17.085
+để tìm ra khoá học tốt hơn cho mình.

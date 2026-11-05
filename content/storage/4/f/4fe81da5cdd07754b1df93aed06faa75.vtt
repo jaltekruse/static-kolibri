@@ -1,0 +1,598 @@
+WEBVTT
+
+00:00.431 --> 00:02.430
+Agora que sabemos a regra do tombo, e vimos que
+
+00:02.430 --> 00:04.670
+no último vídeo, a derivada com respeito
+
+00:04.670 --> 00:10.190
+a x, de x elevado à n, será igual a n vezes x elevado a n
+
+00:10.190 --> 00:14.590
+menos 1 para n diferente de 0.
+
+00:14.590 --> 00:18.347
+Agora eu vou expô-los a mais algumas regras ou conceitos
+
+00:18.347 --> 00:20.680
+ou propriedades das derivadas que irão permitir
+
+00:20.680 --> 00:22.860
+que nós possamos fazer a derivada de qualquer polinômio.
+
+00:22.860 --> 00:25.214
+Isso que será tratado é uma ferramenta muito poderosa.
+
+00:25.214 --> 00:26.880
+A primeira coisa que quero pensar
+
+00:26.880 --> 00:31.420
+é, porque esse caso especial de n ser diferente de 0?
+
+00:31.420 --> 00:33.750
+O que acontece quando n é igual a 0?
+
+00:33.750 --> 00:35.350
+Vamos pensar nessa situação.
+
+00:35.350 --> 00:37.880
+Vamos tentar fazer a derivada com respeito
+
+00:37.880 --> 00:42.860
+a x para x elevado a 0.
+
+00:42.860 --> 00:46.690
+Bom, o que será x elevado a 0?
+
+00:46.690 --> 00:49.430
+E podemos assumir que o x nesse caso aqui
+
+00:49.430 --> 00:50.640
+seja diferente de 0.
+
+00:50.640 --> 00:53.800
+0 elevado a 0, coisas estranhas acontecem nesse caso.
+
+00:53.800 --> 00:55.600
+Mas se x for diferente de 0, o que
+
+00:55.600 --> 00:57.512
+x elevado a 0 será?
+
+00:57.512 --> 00:59.970
+Bom, isso é a mesma coisa que a derivada com respeito
+
+00:59.970 --> 01:02.350
+a x de 1.
+
+01:02.350 --> 01:05.069
+x elevado a 0 será 1.
+
+01:05.069 --> 01:10.050
+E então qual é a derivada com respeito a x de 1?
+
+01:10.050 --> 01:13.020
+E para responder a essa pergunta, eu vou fazer um gráfico.
+
+01:13.020 --> 01:16.030
+Farei um gráfico de f(x)=1 para tornar
+
+01:16.030 --> 01:17.170
+isso um pouco mais claro.
+
+01:17.170 --> 01:19.540
+Este é o meu eixo y.
+
+01:19.540 --> 01:23.480
+Esse é o meu eixo x.
+
+01:23.480 --> 01:26.520
+E deixe-me fazer y igual a 1, ou f(x)=1.
+
+01:26.520 --> 01:28.230
+Então isso aqui é 1. f(x)
+
+01:28.230 --> 01:31.350
+igual a 1 é apenas uma linha horizontal.
+
+01:31.350 --> 01:33.120
+Aquilo ali é o gráfico,
+
+01:33.120 --> 01:38.870
+y é igual a f(x), que é igual a 1.
+
+01:38.870 --> 01:41.260
+Agora, lembre da derivada, uma maneira de conceituar
+
+01:41.260 --> 01:44.810
+é verificando a inclinação da tangente em qualquer ponto.
+
+01:44.810 --> 01:48.040
+Então qual é a inclinação da tangente nesse ponto?
+
+01:48.040 --> 01:50.370
+E realmente, qual é a inclinação da tangente em qualquer ponto?
+
+01:50.370 --> 01:52.710
+Bom, isso é uma reta, então a inclinação não muda.
+
+01:52.710 --> 01:53.710
+Ela possui uma inclinação constante.
+
+01:53.710 --> 01:55.293
+E é uma reta completamente horizontal.
+
+01:55.293 --> 01:57.500
+Ela tem um inclinação de 0.
+
+01:57.500 --> 01:59.570
+Então a inclinação em qualquer ponto aqui,
+
+01:59.570 --> 02:02.760
+a inclinação será igual a 0.
+
+02:02.760 --> 02:06.420
+Então a inclinação dessa reta em qualquer ponto
+
+02:06.420 --> 02:09.470
+será igual a 0.
+
+02:09.470 --> 02:11.800
+E isso será verdade para qualquer constante.
+
+02:11.800 --> 02:14.720
+A derivada, se eu tivesse uma função, digamos que f(x)
+
+02:14.720 --> 02:16.150
+seja igual a 3.
+
+02:16.150 --> 02:19.580
+Digamos que y seja igual a 3.
+
+02:19.580 --> 02:22.720
+A derivada de y com respeito
+
+02:22.720 --> 02:24.080
+a x será igual a quanto?
+
+02:24.080 --> 02:27.210
+E estou intencionalmente mostrando à vocês todos os diferentes tipos
+
+02:27.210 --> 02:29.440
+de notação para derivadas.
+
+02:29.440 --> 02:31.620
+Então qual é a derivada de y com respeito a x?
+
+02:31.620 --> 02:33.730
+Também pode ser escrita como y linha.
+
+02:33.730 --> 02:36.610
+Isso será igual a quanto?
+
+02:36.610 --> 02:39.290
+Bom, é a inclinação em qualquer ponto.
+
+02:39.290 --> 02:41.660
+E você vê que não importa para qual x você esteja olhando,
+
+02:41.660 --> 02:43.580
+a inclinação aqui será igual a 0.
+
+02:43.580 --> 02:45.140
+Então será 0.
+
+02:45.140 --> 02:46.570
+Então não é apenas x elevado a 0.
+
+02:46.570 --> 02:48.400
+Se você fizer a derivada de qualquer constante,
+
+02:48.400 --> 02:50.095
+você chegará em 0.
+
+02:50.095 --> 02:50.970
+Deixe-me escrever isso.
+
+02:50.970 --> 02:54.600
+A derivada com respeito a x de qualquer constante--
+
+02:54.600 --> 03:00.790
+digamos que onde for constante, isso
+
+03:00.790 --> 03:02.720
+será igual a 0.
+
+03:02.720 --> 03:05.010
+Uma ideia bem direta.
+
+03:05.010 --> 03:08.040
+Vamos agora explorar mais algumas propriedades.
+
+03:08.040 --> 03:11.370
+Digamos que eu queira fazer a derivada com respeito
+
+03:11.370 --> 03:15.380
+a x de -- vamos usar o mesmo A. Digamos
+
+03:15.380 --> 03:18.465
+que eu tenha uma constante vezes uma função.
+
+03:18.465 --> 03:21.040
+multiplicando uma função
+
+03:21.040 --> 03:23.090
+Bom, derivadas funcionam muito bem.
+
+03:23.090 --> 03:26.070
+Você pode pegar esse multiplicador escalar,
+
+03:26.070 --> 03:28.500
+essa pequena constante, e tirá-la da derivada.
+
+03:28.500 --> 03:34.590
+Isso será igual a A. Eu não
+
+03:34.590 --> 03:36.230
+queria fazer na cor roxa.
+
+03:36.230 --> 03:47.150
+Será igual a A vezes a derivada de f(x).
+
+03:47.150 --> 03:50.470
+Deixe-me fazer em azul.
+
+03:50.470 --> 03:52.860
+E outra maneira de mostrar a derivada de f(x)
+
+03:52.860 --> 03:55.110
+é apenas dizer que isso é a mesma coisa.
+
+03:55.110 --> 03:59.270
+Isso é igual a A vezes isso aqui
+
+03:59.270 --> 04:04.020
+é exatamente a mesma coisa que f '(x).
+
+04:04.020 --> 04:06.890
+Isso tudo pode parecer uma notação bem extravagante,
+
+04:06.890 --> 04:08.390
+mas eu acho que se eu te der um exemplo
+
+04:08.390 --> 04:09.950
+isso fará algum sentido.
+
+04:09.950 --> 04:14.380
+Então, e se eu perguntasse a você a derivada com respeito
+
+04:14.380 --> 04:28.210
+a x de 2 vezes x elevado a 5?
+
+04:28.210 --> 04:30.420
+Bom, essa propriedade que eu acabei de mostrar
+
+04:30.420 --> 04:32.560
+diz, bom, isso será o mesmo que 2
+
+04:32.560 --> 04:40.010
+vezes a derivada de x elevado a 5, 2 vezes a derivada
+
+04:40.010 --> 04:43.330
+com respeito a x de x elevado à quinta.
+
+04:43.330 --> 04:45.740
+Essencialmente, eu poderia apenas pegar esse multiplicador escalar
+
+04:45.740 --> 04:48.160
+e colocá-lo na frente da derivada.
+
+04:48.160 --> 04:50.060
+Então isso aqui, isso é a derivada
+
+04:50.060 --> 04:53.180
+com respeito a x de x elevado à quinta.
+
+04:53.180 --> 04:55.390
+E sabemos como resolver isso usando a regra do tombo.
+
+04:55.390 --> 04:59.350
+Isso será igual a 2 vezes -- deixe-me escrever isso.
+
+04:59.350 --> 05:01.600
+Quero me manter coerente com as cores.
+
+05:01.600 --> 05:05.540
+Isso será 2 vezes a derivada de x elevado à quinta.
+
+05:05.540 --> 05:07.400
+Bom, a regra do tombo no diz que, n é 5.
+
+05:07.400 --> 05:10.990
+Será 5 vezes x elevado a 5 menos 1 ou
+
+05:10.990 --> 05:12.620
+5 vezes x elevado à quarta.
+
+05:12.620 --> 05:17.130
+Será então 5 vezes x elevado à quarta, que
+
+05:17.130 --> 05:23.230
+será igual a 2 vezes 5 é 10, x elevado à quarta.
+
+05:23.230 --> 05:24.980
+Então 2 vezes x à quinta, você pode literalmente
+
+05:24.980 --> 05:26.771
+dizer, OK, a regra do tombo me diz que a derivada
+
+05:26.771 --> 05:28.160
+disso é 5 vezes x à quarta.
+
+05:28.160 --> 05:30.180
+5 vezes 2 é 10.
+
+05:30.180 --> 05:32.710
+Isso simplifica um bocado a nossa vida.
+
+05:32.710 --> 05:35.126
+Agora podemos, usando a regra do tombo e esse propriedade,
+
+05:35.126 --> 05:36.500
+fazer a derivada de qualquer coisa
+
+05:36.500 --> 05:39.910
+que tenha a forma Ax^n.
+
+05:39.910 --> 05:41.900
+Vamos agora pensar sobre outra
+
+05:41.900 --> 05:42.770
+propriedade de derivada muito útil.
+
+05:42.770 --> 05:44.644
+E isso não se aplica apenas à regra do tombo,
+
+05:44.644 --> 05:45.940
+elas se aplicam à qualquer derivada.
+
+05:45.940 --> 05:47.610
+Mas elas são especialmente úteis para a regra do tombo
+
+05:47.610 --> 05:50.130
+pois nos permite criar polinômios e fazer
+
+05:50.130 --> 05:51.570
+as derivadas deles.
+
+05:51.570 --> 05:53.070
+Mas e se eu fosse fazer a derivada
+
+05:53.070 --> 05:56.120
+da soma de suas funções -- então a derivada de,
+
+05:56.120 --> 05:58.870
+digamos que uma função seja fx) e
+
+05:58.870 --> 06:02.620
+a outra seja g(x).
+
+06:02.620 --> 06:04.700
+Para nossa sorte isso acaba
+
+06:04.700 --> 06:06.630
+sendo a mesma coisa que a derivada de f
+
+06:06.630 --> 06:09.220
+de x mais a derivada de g de x.
+
+06:09.220 --> 06:12.130
+Então isso é o mesmo que f --
+
+06:12.130 --> 06:14.980
+deixe-me usar aquele operador de derivadas para tornar mais claro.
+
+06:14.980 --> 06:17.890
+É o mesmo que a derivada com respeito
+
+06:17.890 --> 06:21.760
+a x de f(x) mais a derivada com respeito
+
+06:21.760 --> 06:24.250
+a x de g(x).
+
+06:24.250 --> 06:27.340
+Colocaremos f(x) aqui
+
+06:27.340 --> 06:32.270
+e g(x) aqui.
+
+06:32.270 --> 06:33.870
+E então com a outra notação,
+
+06:33.870 --> 06:36.260
+podemos dizer que isso será a mesma coisa.
+
+06:36.260 --> 06:40.440
+Derivada com respeito a x de f(x), podemos escrever como f
+
+06:40.440 --> 06:41.790
+linha de x.
+
+06:41.790 --> 06:45.810
+E a derivada com respeito a x de g(x),
+
+06:45.810 --> 06:49.650
+podemos escrever como g linha de x.
+
+06:49.650 --> 06:52.641
+Agora, mais uma vez, isso pode parecer uma notação muito elegante
+
+06:52.641 --> 06:53.140
+para você.
+
+06:53.140 --> 06:56.740
+Mas quando você for ver um exemplo, isso se tornará muito mais claro.
+
+06:56.740 --> 07:00.470
+Se eu quiser fazer a derivada com respeito
+
+07:00.470 --> 07:06.180
+a x de digamos x ao cubo
+
+07:06.180 --> 07:12.600
+mais x elevado a menos 4, isso
+
+07:12.600 --> 07:15.330
+nos diz que a derivada da soma
+
+07:15.330 --> 07:16.960
+é a soma das derivadas.
+
+07:16.960 --> 07:20.200
+Podemos então fazer a derivada desse termo usando a regra do tombo.
+
+07:20.200 --> 07:23.660
+Isso será 3 vezes x ao quadrado.
+
+07:23.660 --> 07:26.140
+E a isso, nós podemos adicionar a derivada disso
+
+07:26.140 --> 07:27.460
+aqui.
+
+07:27.460 --> 07:29.580
+Então será mais -- isso é
+
+07:29.580 --> 07:33.830
+um tom diferente de azul-- e aqui é menos 4.
+
+07:33.830 --> 07:40.720
+Então é mais menos 4 vezes x elevado à menos 4 menos 1,
+
+07:40.720 --> 07:44.010
+ou x elevado à menos 5.
+
+07:44.010 --> 07:46.490
+Então temos -- e eu poderia simplificar um pouco.
+
+07:46.490 --> 07:51.020
+Isso será igual a 3 vezes x ao quadrado
+
+07:51.020 --> 07:56.060
+menos 4 vezes x elevado à menos 5.
+
+07:56.060 --> 08:00.050
+E agora nós temos todas as ferramentas que precisamos em nosso kit de ferramentas
+
+08:00.050 --> 08:03.290
+para fazer a derivada de qualquer polinômio.
+
+08:03.290 --> 08:05.730
+Vamos nos dar um pouco de prática aqui.
+
+08:05.730 --> 08:11.820
+Digamos que eu tenha -- e vou fazer isso em branco.
+
+08:11.820 --> 08:15.400
+Digamos que f(x) é igual a 2 vezes x
+
+08:15.400 --> 08:25.970
+ao cubo menos 7 vezes x ao quadrado mais 3 vezes x menos 100.
+
+08:25.970 --> 08:27.810
+Qual é a f linha de x?
+
+08:27.810 --> 08:32.017
+Qual é a derivada de f com respeito a x?
+
+08:32.017 --> 08:34.100
+Bom, podemos usar as propriedades que acabamos de ver.
+
+08:34.100 --> 08:35.599
+A derivada disso será
+
+08:35.599 --> 08:38.208
+2 vezes a derivada de x ao cubo.
+
+08:38.208 --> 08:40.500
+Derivada de x ao cubo é 3 vezes x ao quadrado,
+
+08:40.500 --> 08:44.840
+então isso será 2 vezes 3 vezes x ao quadrado.
+
+08:44.840 --> 08:46.950
+Qual a derivada de menos 7 vezes x
+
+08:46.950 --> 08:47.940
+ao quadrado?
+
+08:47.940 --> 08:50.430
+Bom, será menos 7 vezes
+
+08:50.430 --> 08:55.080
+a derivada de x ao quadrado, que é 2x.
+
+08:55.080 --> 08:57.837
+Qual é a derivada de 3x?
+
+08:57.837 --> 09:00.170
+Bom, será 3 vezes a derivada de x,
+
+09:00.170 --> 09:02.710
+ou 3 vezes a derivada de x elevado à primeira.
+
+09:02.710 --> 09:04.720
+A derivada de x elevado à primeira é 1.
+
+09:04.720 --> 09:07.890
+Então isso será mais 3 vezes --
+
+09:07.890 --> 09:11.000
+poderíamos dizer 1 vezes x elevado à 0-- mas isso é apenas 1.
+
+09:11.000 --> 09:14.500
+E finalmente, qual será a derivada de uma constante?
+
+09:15.240 --> 09:17.890
+Deixe-me fazer isso em uma cor diferente.
+
+09:17.890 --> 09:20.402
+Qual é a derivada de uma constante?
+
+09:20.402 --> 09:22.610
+Bom, nós vimos no começo desse vídeo.
+
+09:22.610 --> 09:24.390
+A derivada de qualquer constante é
+
+09:24.390 --> 09:27.990
+0, então mais 0.
+
+09:27.990 --> 09:30.960
+E agora estamos prontos para simplificar.
+
+09:30.960 --> 09:33.610
+A derivada de f é
+
+09:33.610 --> 09:36.920
+2 vezes 3 vezes x ao quadrado que é 6 vezes x ao quadrado.
+
+09:36.920 --> 09:41.900
+Menos 7 vezes 2 vezes x que é menos 14 vezes x mais 3.
+
+09:41.900 --> 09:43.720
+E não precisamos escrever o 0 ali.
+
+09:43.720 --> 09:44.630
+E terminamos.
+
+09:44.630 --> 09:47.404
+Agora temos todas as propriedades em nosso cinto de ferramentas
+
+09:47.404 --> 09:49.070
+para encontrar a derivada de qualquer polinômio
+
+09:49.070 --> 09:52.490
+e até coisas que vão além de polinômios.

@@ -1,0 +1,970 @@
+WEBVTT
+
+00:00.000 --> 00:00.360
+-
+
+00:00.360 --> 00:03.870
+Bu videoda iki terimli yani ikinci dereceden denklemleri çarpanlarına ayırmayı öğreneceğiz.
+
+00:03.870 --> 00:06.590
+-
+
+00:06.590 --> 00:08.870
+-
+
+00:08.870 --> 00:12.650
+-
+
+00:12.650 --> 00:15.850
+-
+
+00:15.850 --> 00:18.300
+-
+
+00:18.300 --> 00:22.440
+İkinci dereceden denklemlerde, bir bilinmeyenin karesinin alınmış olması gereklidir.
+
+00:22.440 --> 00:23.080
+-
+
+00:23.080 --> 00:26.460
+Bizim tüm örneklerimizde bilinmeyenimiz x olacak
+
+00:26.460 --> 00:30.740
+İki terimli bir ifademiz var, diyelim ki x^2+10x+9
+
+00:30.740 --> 00:35.280
+-
+
+00:35.280 --> 00:39.870
+Ve bu ifadeyi iki tane iki terimli ifadenin çarpımı olarak yazmak istiyoruz.
+
+00:39.870 --> 00:41.520
+Peki bunu nasıl yaparız?
+
+00:41.520 --> 00:44.440
+Eğer elimizdeki ifade (x+a).(x+b) olsaydı ne yapardık bir düşünelim.
+
+00:44.440 --> 00:51.690
+-
+
+00:51.690 --> 00:55.050
+Bu iki ifadeyi çarptığımızda ne olurdu?
+
+00:55.050 --> 00:57.090
+Bu konuda az çok deneyimimiz var.
+
+00:57.090 --> 01:03.170
+Burası x çarpı x'ten x^2, + x çarpı b, bu bx oluyor, + a çarpı x, + a çarpı b, bu da ab.
+
+01:03.170 --> 01:12.690
+-
+
+01:12.690 --> 01:15.800
+Ortadaki bu iki sayı da x'in kat sayısı olduğu için onları toplayabiliriz.
+
+01:15.800 --> 01:18.890
+-
+
+01:18.890 --> 01:22.102
+Bunu x^2 + (a+b) + ab şeklinde yazabiliriz.
+
+01:22.102 --> 01:29.700
+-
+
+01:29.700 --> 01:34.390
+Eğer bu ifadenin iki tane iki terimli ifadenin çarpımı olduğunu düşünürsek ortadaki x'in kat sayısı a ve b sayılarının toplamı oluyor.
+
+01:34.390 --> 01:40.765
+-
+
+01:40.765 --> 01:43.250
+-
+
+01:43.250 --> 01:49.040
+-
+
+01:49.040 --> 01:51.360
+Ve sabit terimimiz de a ve b'nin çarpımı olacaktır.
+
+01:51.360 --> 01:52.520
+-
+
+01:52.520 --> 01:57.290
+Unutmayın, 10x, (a+b)x ifadesine, 9 ise ab'ye denk olacaktır.
+
+01:57.290 --> 01:58.790
+-
+
+01:58.790 --> 02:02.600
+Ve x^2 yine buradaki x^2'dir.
+
+02:02.600 --> 02:05.590
+Burada örüntüsel bir eşleşme bulabilir miyiz?
+
+02:05.590 --> 02:14.060
+Toplamı 10, çarpımı 9 olan bir a ve b sayı çiftimiz var mı?
+
+02:14.060 --> 02:22.070
+.
+
+02:22.070 --> 02:23.850
+Biraz düşünelim.
+
+02:23.850 --> 02:25.470
+9'un çarpanları nelerdir?
+
+02:25.470 --> 02:27.770
+Ve a ve b hangi sayılara eşit olabilir?
+
+02:27.770 --> 02:29.170
+Hepsinin tam sayı olduğunu düşünüyoruz.
+
+02:29.170 --> 02:32.350
+Normalde sayıları çarpanlarına ayırırken tam sayılar ile işleme başlarız.
+
+02:32.350 --> 02:33.950
+-
+
+02:33.950 --> 02:35.580
+-
+
+02:35.580 --> 02:37.080
+9'un çarpanları nelerdir?
+
+02:37.080 --> 02:40.730
+1,3 ve 9
+
+02:40.730 --> 02:45.000
+O zaman a ve b, 3 ve 3 ya da 1 ve 9 olabilir.
+
+02:45.000 --> 02:48.630
+Eğer 3 ve 3 ise, 3+3 10 etmez.
+
+02:48.630 --> 02:49.840
+.
+
+02:49.840 --> 02:53.760
+Eğer 1 ve 9 ise 1x9=9
+
+02:53.760 --> 02:56.670
+Ve 1+9=10
+
+02:56.670 --> 02:57.570
+O zaman doğru.
+
+02:57.570 --> 03:04.190
+a=1 ve b=9
+
+03:04.190 --> 03:08.920
+Şimdi bunu (x+1).(x+9) olarak yazabiliriz.
+
+03:08.920 --> 03:12.970
+-
+
+03:12.970 --> 03:15.850
+Son videolarda öğrendiğimiz gibi bu iki ifadeyi çarparsanız sonucun x^2+10x+9 çıktığını göreceksiniz.
+
+03:15.850 --> 03:18.970
+-
+
+03:18.970 --> 03:22.880
+-
+
+03:22.880 --> 03:25.150
+İkinci dereceden bir denklemde x^2'nin kat sayısı 1 ise,
+
+03:25.150 --> 03:28.070
+-
+
+03:28.070 --> 03:31.650
+bu denklemdeki gibi, toplamları ortadaki ifadenin katsayısına ve de çarpımları 9'a eşit olacak olan o iki sayıyı bulmanız gerekir.
+
+03:31.650 --> 03:34.530
+-
+
+03:34.530 --> 03:37.720
+-
+
+03:37.720 --> 03:39.870
+-
+
+03:39.870 --> 03:41.660
+-
+
+03:41.660 --> 03:43.510
+Ve tüm bunların standart formda olması gerekiyor.
+
+03:43.510 --> 03:46.000
+Eğer değilse de ifadeyi bu forma çevirmelisiniz.
+
+03:46.000 --> 03:48.500
+-
+
+03:48.500 --> 03:51.530
+Birinci dereceden olan ifadenin katsayısı a ve b saylarının toplamı, sabit terim ise a ve b'nin çarpımıdır.
+
+03:51.530 --> 03:52.300
+.
+
+03:52.300 --> 03:55.890
+.
+
+03:55.890 --> 03:56.370
+.
+
+03:56.370 --> 03:58.150
+Biraz daha örnek yapalım.
+
+03:58.150 --> 04:00.510
+Alıştırma yaptıkça daha iyi anlayacağınızı düşünüyorum.
+
+04:00.510 --> 04:02.630
+-
+
+04:02.630 --> 04:08.700
+Diyelim ki ifademiz x^2+15x+50
+
+04:08.700 --> 04:11.100
+-
+
+04:11.100 --> 04:15.366
+-
+
+04:15.366 --> 04:17.470
+Ve bunu çarpanlarına ayırmak istiyoruz.
+
+04:17.470 --> 04:20.339
+Aynı şekilde yapıyoruz.
+
+04:20.339 --> 04:22.600
+x^2'li içeren bir terimimiz var.
+
+04:22.600 --> 04:25.130
+Birinci dereceden bir terimimiz var
+
+04:25.130 --> 04:27.960
+Bu katsayının iki sayının toplamı olması gerekiyor.
+
+04:27.960 --> 04:30.620
+Ve bu sabit terimin, o iki sayının çarpımı olması gerekiyor.
+
+04:30.620 --> 04:32.870
+-
+
+04:32.870 --> 04:35.640
+Öyle iki sayı bulmamız gerekiyor ki çarptığımızda 50, topladığımızda 15 elde etmeliyiz.
+
+04:35.640 --> 04:39.220
+-
+
+04:39.220 --> 04:41.910
+En başta zor gelebilir ancak alıştırma yaptıkça daha kolay gelecek.
+
+04:41.910 --> 04:44.530
+-
+
+04:44.530 --> 04:45.730
+-
+
+04:45.730 --> 04:47.330
+Peki a ve b sayıları neler olabilir?
+
+04:47.330 --> 04:48.975
+50'nin çarpanlarını düşünelim.
+
+04:48.975 --> 04:52.230
+1 kere 50
+
+04:52.230 --> 04:55.072
+2 kere 25
+
+04:55.072 --> 04:57.520
+4 50'yi bölmüyor.
+
+04:57.520 --> 05:02.450
+5 kere 10 olabilir.
+
+05:02.450 --> 05:03.580
+Sanırım hepsi bu kadar.
+
+05:03.580 --> 05:05.920
+Tüm bu sayıları tek tek deneyelim ve hangilerinin toplamı 15 ediyor bulalım.
+
+05:05.920 --> 05:07.310
+-
+
+05:07.310 --> 05:12.630
+1+50 15 etmez.
+
+05:12.630 --> 05:16.160
+2+25 de 15 etmez.
+
+05:16.160 --> 05:19.260
+Ama 5+10=15
+
+05:19.260 --> 05:24.280
+O zaman bu 5+10'a ve bu da 5x10'a eşit olabilir.
+
+05:24.280 --> 05:28.760
+Eğer bu ifadeyi çarpanlarına ayıracak olsaydık (x+5).(x+10) olarak yazardık.
+
+05:28.760 --> 05:32.630
+-
+
+05:32.630 --> 05:33.840
+Çarpalım onları.
+
+05:33.840 --> 05:36.710
+Çarpımı yapıp sonucun gerçekten x^2+15x+10 olduğunu görebilmemizi istiyorum.
+
+05:36.710 --> 05:39.660
+-
+
+05:39.660 --> 05:43.320
+Hatta çarpımı beraber yapalım. x çarpı x=x^2
+
+05:43.320 --> 05:45.800
+x çarpı 10=10x
+
+05:45.800 --> 05:48.600
+5 çarpı x=5x
+
+05:48.600 --> 05:51.620
+5 çarpı 10, +50
+
+05:51.620 --> 05:55.220
+Dikkat ederseniz 5 kere 10 bize 50'yi verdi.
+
+05:55.220 --> 06:00.890
+5x ve 10x'in toplamı da bize ortadaki 15x sonucunu veriyor.
+
+06:00.890 --> 06:06.560
+Yani sonuç x^2+15x+50
+
+06:06.560 --> 06:09.440
+Çıtayı biraz daha yükseltelim ve birkaç negatif işaretler ekleyelim.
+
+06:09.440 --> 06:11.040
+-
+
+06:11.040 --> 06:18.890
+Diyelim ki x^2-11x+24
+
+06:18.890 --> 06:21.610
+Yine aynı yöntemi kullanıyoruz.
+
+06:21.610 --> 06:24.580
+Öyle iki sayı bulmalıyım ki; topladığım zaman sonuç -11 olmalı.
+
+06:24.580 --> 06:26.570
+-
+
+06:26.570 --> 06:30.150
+a+b=-11 olmalı.
+
+06:30.150 --> 06:37.900
+a.b=24 olmalı.
+
+06:37.900 --> 06:41.290
+Burada üzerinde düşünmemiz gereken bir şey var.
+
+06:41.290 --> 06:43.960
+Bu iki sayıyı çarptığımız zaman pozitif bir sayı elde ediyoruz
+
+06:43.960 --> 06:45.080
+-
+
+06:45.080 --> 06:46.960
+Sonuç 24 oluyor.
+
+06:46.960 --> 06:50.260
+Bu demek oluyor ki bu sayıların ya ikisi de pozitif ya da ikisi de negatif olmalı.
+
+06:50.260 --> 06:51.380
+-
+
+06:51.380 --> 06:55.050
+Ancak bu şekilde pozitif bir sayı elde edebiliriz.
+
+06:55.050 --> 06:58.290
+Eğer bu iki sayıyı toplarsam negatif bir sayı elde ederiz.
+
+06:58.290 --> 07:00.720
+Eğer bunlar pozitif sayılar olsaydı negatif bir sonuç elde edemezdik.
+
+07:00.720 --> 07:03.280
+-
+
+07:03.280 --> 07:05.750
+Yani toplamlarının negatif ve çarpımlarının pozitif olması bana bu iki sayının da negatif olduğunu gösteriyor.
+
+07:05.750 --> 07:10.420
+-
+
+07:10.420 --> 07:13.200
+a ve b negatif olmalı.
+
+07:13.200 --> 07:15.730
+Unutmayalım ki birisi negatif birisi pozitif olamaz
+
+07:15.730 --> 07:18.710
+Çünkü o zaman çarpım da negatif olurdu.
+
+07:18.710 --> 07:22.687
+Ancak ikisi pozitif de olamaz çünkü topladığımızda pozitif bir sayı elde ederdik.
+
+07:22.687 --> 07:24.520
+-
+
+07:24.520 --> 07:27.500
+Şimdi a ve b sayılarının neler olabileceğini düşünelim.
+
+07:27.500 --> 07:28.990
+İki negatif sayı.
+
+07:28.990 --> 07:31.260
+24'ün çarpanlarını düşünelim.
+
+07:31.260 --> 07:33.140
+Burada negatif çarpanları da düşünmeliyiz.
+
+07:33.140 --> 07:44.670
+Bakalım, 1 kere 24, 2 kere 12, 3 kere 8 ya da 4 kere 6.
+
+07:44.670 --> 07:48.070
+-
+
+07:48.070 --> 07:51.220
+Şimdi hangi iki sayıyı çarparsam sonuç 24 olur?
+
+07:51.220 --> 07:54.380
+1 ile 24'ü çarparsak 24 olur.
+
+07:54.380 --> 07:58.910
+-
+
+07:58.910 --> 07:59.790
+2 ile 12'yi çarparsak da 24 olur.
+
+07:59.790 --> 08:03.090
+Tüm bu sayıların çarpımının 24 olduğunu biliyoruz.
+
+08:03.090 --> 08:07.470
+Ama hangi iki çarpanı topladığım zaman 11 elde ederim?
+
+08:07.470 --> 08:08.790
+-
+
+08:08.790 --> 08:09.880
+Şimdi bu sayıların negatifini alalım.
+
+08:09.880 --> 08:11.450
+-
+
+08:11.450 --> 08:15.470
+Bu sayılara baktığınızda 3 ve 8 göze çarpıyor.
+
+08:15.470 --> 08:19.150
+3x8=24
+
+08:19.150 --> 08:22.810
+3+8=11
+
+08:22.810 --> 08:24.680
+Ama bu pek doğru olmadı.
+
+08:24.680 --> 08:26.510
+Çünkü elde etmemiz gereken sayı -11
+
+08:26.510 --> 08:29.690
+Ama -3 ve -8 dersek ne olur?
+
+08:29.690 --> 08:37.789
+-3.(-8)=+24
+
+08:37.789 --> 08:43.580
+-3+(-8)=-11
+
+08:43.580 --> 08:46.600
+O zaman -3 ve -8 işimizi görür.
+
+08:46.600 --> 08:53.840
+Eğer bunu çarpanlarına ayırırsak x^2-11x+24 ifadesini (x-3)(x-8) olarak yazabiliriz.
+
+08:53.840 --> 09:02.940
+-
+
+09:02.940 --> 09:06.270
+Bunun gibi bir örnek daha yapalım.
+
+09:06.270 --> 09:08.330
+Hatta biraz daha zorlaştıralım.
+
+09:08.330 --> 09:19.810
+Diyelim ki x^2+5x-14
+
+09:19.810 --> 09:21.770
+Burada farklı bir durum söz konusu.
+
+09:21.770 --> 09:26.460
+İki sayımın çarpımı negatif. a.b=(-14)
+
+09:26.460 --> 09:28.190
+-
+
+09:28.190 --> 09:29.920
+Çarpım negatif.
+
+09:29.920 --> 09:32.930
+Bu bize sayılardan birinin pozitif diğerininse negatif olduğunu gösterir.
+
+09:32.930 --> 09:33.910
+-
+
+09:33.910 --> 09:39.200
+Ve a ve b'yi topladığımızda sonuç 5 olmalı.
+
+09:39.200 --> 09:41.360
+O zaman 14'ün çarpanlarını düşünelim.
+
+09:41.360 --> 09:44.300
+Ve bu çarpanların hangi ikisini topladığımda, biri pozitif biri negatif iken sonuç 5 olur?
+
+09:44.300 --> 09:46.560
+-
+
+09:46.560 --> 09:49.780
+-
+
+09:49.780 --> 09:53.450
+Eğer 1 ve 14 çiftini ele alırsak,
+
+09:53.450 --> 10:01.820
+1+(-14)=-13
+
+10:01.820 --> 10:04.260
+(-1)+14=13
+
+10:04.260 --> 10:07.430
+Tüm kombinasyonları yazalım.
+
+10:07.430 --> 10:09.440
+-
+
+10:09.440 --> 10:16.490
+-1+14=13
+
+10:16.490 --> 10:20.460
+Ve 1+(-14)=-13
+
+10:20.460 --> 10:21.380
+O zaman bunlar olmuyor.
+
+10:21.380 --> 10:22.950
+Çünkü toplamları 5 olmuyor.
+
+10:22.950 --> 10:24.860
+Peki 2 ve 7?
+
+10:24.860 --> 10:29.600
+-
+
+10:29.600 --> 10:35.290
+-2+7=5
+
+10:35.290 --> 10:35.750
+İşte oldu!
+
+10:35.750 --> 10:36.670
+Bu uyuyor!
+
+10:36.670 --> 10:39.440
+2+(-7) deneyebilirdik ama sonuç -5 olurdu ve bu uymazdı.
+
+10:39.440 --> 10:41.070
+-
+
+10:41.070 --> 10:42.960
+Ama -2+7 uyuyor.
+
+10:42.960 --> 10:46.590
+Ve (-2).7=-14
+
+10:46.590 --> 10:47.600
+İşte bulduk.
+
+10:47.600 --> 10:53.210
+Bunu (x-2).(x+7) olarak yazabiliriz.
+
+10:53.210 --> 10:54.330
+-
+
+10:54.330 --> 10:56.950
+(-2).7=-14
+
+10:56.950 --> 11:00.880
+-2+7=5
+
+11:00.880 --> 11:03.760
+-
+
+11:03.760 --> 11:07.680
+Bu konuyu iyice öğrenene kadar birkaç örnek daha yapalım.
+
+11:07.680 --> 11:09.520
+-
+
+11:09.520 --> 11:16.360
+Diyelim ki x^2-x-56
+
+11:16.360 --> 11:19.570
+Demek ki bulacağımız iki sayının çarpımları -56.
+
+11:19.570 --> 11:21.620
+-
+
+11:21.620 --> 11:24.430
+Ve farkları, biri pozitif diğeri negatif olacağı için farkı diyoruz, -1 olacak.
+
+11:24.430 --> 11:26.280
+-
+
+11:26.280 --> 11:28.350
+Farkları -1 olmalı.
+
+11:28.350 --> 11:30.130
+-
+
+11:30.130 --> 11:31.900
+-
+
+11:31.900 --> 11:33.740
+-
+
+11:33.740 --> 11:36.480
+56=8.7
+
+11:36.480 --> 11:37.480
+Başka sayı çiftleri de var.
+
+11:37.480 --> 11:39.950
+28.2
+
+11:39.950 --> 11:41.140
+-
+
+11:41.140 --> 11:44.300
+Ama 8 ve 7 hemen aklıma geldiler çünkü birbirlerine çok yakın sayılar.
+
+11:44.300 --> 11:45.470
+-
+
+11:45.470 --> 11:47.730
+Ve bizim de birbirine yakın sayılara ihtiyacımız var.
+
+11:47.730 --> 11:50.430
+Ve bunlardan birisi negatif diğeriyse pozitif olmalı.
+
+11:50.430 --> 11:51.810
+-
+
+11:51.810 --> 11:55.250
+Toplamlarının negatif olması bana büyük sayının negatif olduğunu gösterir.
+
+11:55.250 --> 11:58.460
+-
+
+11:58.460 --> 12:01.350
+-8.7=-56
+
+12:01.350 --> 12:03.320
+-
+
+12:03.320 --> 12:08.470
+Ve de -8+7=-1
+
+12:08.470 --> 12:12.100
+Bu da buradaki katsayımızın ta kendisi.
+
+12:12.100 --> 12:16.490
+O zaman bu denklemi çarpanlarına ayırırsak (x-8)(x+7) olarak yazarız.
+
+12:16.490 --> 12:18.690
+-
+
+12:18.690 --> 12:21.695
+Bu konu genelde insanların cebirde en zorlandığı konudur.
+
+12:21.695 --> 12:23.920
+-
+
+12:23.920 --> 12:26.710
+Tüm çarpanlara bakıp negatif ve pozitif işaretleriyle oynayarak, hangi çarpanlar biri negatif biri pozitif iken toplamları x teriminin katsayısını veriyor görebilmeliyiz.
+
+12:26.710 --> 12:29.710
+-
+
+12:29.710 --> 12:31.900
+-
+
+12:31.900 --> 12:33.590
+-
+
+12:33.590 --> 12:35.860
+Daha çok alıştırma yaptıkça bunun alışkanlık haline geldiğini göreceksiniz.
+
+12:35.860 --> 12:39.280
+-
+
+12:39.280 --> 12:42.350
+Hadi çıtayı biraz yükseltelim.
+
+12:42.350 --> 12:46.140
+Şu ana kadarki örneklerimizde x^2 terimimizin katsayısı +1 idi.
+
+12:46.140 --> 12:49.040
+Bu sefer x^2'nin katsayısı negatif olsun.
+
+12:49.040 --> 12:50.690
+Diyelim ki -x^2-5x+24
+
+12:50.690 --> 12:55.590
+-
+
+12:55.590 --> 12:59.440
+-
+
+12:59.440 --> 13:00.910
+Bunu nasıl yaparız?
+
+13:00.910 --> 13:03.420
+En kolay yolu -1 çarpanına ayırmak böylece önceden yaptığımız örnekler gibi oluyor.
+
+13:03.420 --> 13:05.670
+-
+
+13:05.670 --> 13:07.260
+-
+
+13:07.260 --> 13:11.660
+Bu da -1.(x^2+5x-24) ile aynı oluyor.
+
+13:11.660 --> 13:15.990
+-
+
+13:15.990 --> 13:16.300
+Öyle değil mi?
+
+13:16.300 --> 13:18.080
+-1 çarpanını ayırdık.
+
+13:18.080 --> 13:20.180
+-1'i bu ifade ile çarparsanız sonucun yine eski haline geldiğini göreceksiniz.
+
+13:20.180 --> 13:21.690
+-
+
+13:21.690 --> 13:23.555
+Ya da -1 çarpanına ayırıp hepsini -1'e bölebilirsiniz.
+
+13:23.555 --> 13:25.000
+-
+
+13:25.000 --> 13:26.760
+-
+
+13:26.760 --> 13:29.360
+Yine aynı şekilde yapıyoruz.
+
+13:29.360 --> 13:33.510
+Çarpımı -24 olan iki sayıya ihtiyacım var.
+
+13:33.510 --> 13:34.690
+-
+
+13:34.690 --> 13:37.125
+Biri pozitif diğeri negatif olacak.
+
+13:37.125 --> 13:41.550
+-
+
+13:41.550 --> 13:43.770
+Toplamları ise 5 olmalı.
+
+13:43.770 --> 13:48.850
+Mesela 24 ve 1
+
+13:48.850 --> 13:55.750
+Eğer -1 ve 24 olsaydı toplam 23 olurdu.
+
+13:55.750 --> 13:57.540
+Tam tersi olsaydı sonuç -23 olurdu.
+
+13:57.540 --> 13:58.500
+Bu olmaz.
+
+13:58.500 --> 14:01.210
+Ya 2 ve 12?
+
+14:01.210 --> 14:04.530
+Unutmayın sayılardan birinin negatif olması gerekiyor.
+
+14:04.530 --> 14:05.040
+-
+
+14:05.040 --> 14:07.570
+Eğer 2 negatif ise toplam 10 olur.
+
+14:07.570 --> 14:09.750
+Eğer 12 negatif ise toplam -10 olur.
+
+14:09.750 --> 14:11.300
+Hala olmuyor.
+
+14:11.300 --> 14:13.290
+3 ve 8.
+
+14:13.290 --> 14:16.850
+Eğer 3 negatif ise toplam 5 olur.
+
+14:16.850 --> 14:17.910
+O zaman bu olur!
+
+14:17.910 --> 14:24.620
+Eğer -3 ve 8'i alırsak oluyor.
+
+14:24.620 --> 14:26.630
+Çünkü -3+8=5
+
+14:26.630 --> 14:29.510
+-3.8=24
+
+14:29.510 --> 14:31.640
+Dışarıdaki -1'i unutmamalıyız.
+
+14:31.640 --> 14:35.230
+Sonra iç tarafını çarpanlarına ayırıyoruz.
+
+14:35.230 --> 14:42.990
+-1(x-3)(x+8)
+
+14:42.990 --> 14:44.800
+Eğer istersek bu kısmı -1 ile çarpıp 3-x olarak yazabiliriz
+
+14:44.800 --> 14:46.450
+-
+
+14:46.450 --> 14:47.560
+-
+
+14:47.560 --> 14:48.810
+Ama zorunda değiliz.
+
+14:48.810 --> 14:51.810
+-
+
+14:51.810 --> 14:53.220
+Bir tane daha yapalım.
+
+14:53.220 --> 14:56.060
+Ne kadar alıştırma yaparsak o kadar iyi.
+
+14:56.060 --> 15:01.630
+-x^2+18x-72
+
+15:01.630 --> 15:06.690
+-
+
+15:06.690 --> 15:09.320
+Yine -1 çarpanına ayırıyorum.
+
+15:09.320 --> 15:13.040
+Yani bu -1(x^2-18x+72) oluyor.
+
+15:13.040 --> 15:16.910
+-
+
+15:16.910 --> 15:19.650
+Çarptığımızda 72 elde edeceğimiz iki sayı düşünmemiz gerek.
+
+15:19.650 --> 15:22.330
+-
+
+15:22.330 --> 15:24.480
+O zaman ikisinin de işaretleri aynı olmalıdır.
+
+15:24.480 --> 15:26.930
+-
+
+15:26.930 --> 15:29.260
+Çarptığım zaman 72 elde edeceğim.
+
+15:29.260 --> 15:32.040
+Topladığımda ise -18
+
+15:32.040 --> 15:34.410
+İşaretleri aynı ve toplamları negatif o zaman ikisi de negatif olmalılar.
+
+15:34.410 --> 15:36.470
+-
+
+15:36.470 --> 15:41.470
+-
+
+15:41.470 --> 15:43.790
+72'nin tüm çarpanlarını yazabiliriz.
+
+15:43.790 --> 15:48.510
+İlk olarak 8.9 diye düşünebilirsiniz.
+
+15:48.510 --> 15:53.270
+Ama 8.9, (-8)-(9) ya da (-8)+(-9) olmuyor.
+
+15:53.270 --> 15:55.210
+-
+
+15:55.210 --> 15:58.060
+Sonuç 17 oluyor.
+
+15:58.060 --> 15:58.860
+Yakın bir sonuç.
+
+15:58.860 --> 15:59.560
+-
+
+15:59.560 --> 16:04.400
+(-9)+(-8)=-17
+
+16:04.400 --> 16:06.140
+Yakın ama olmadı.
+
+16:06.140 --> 16:06.990
+Başka neler var?
+
+16:06.990 --> 16:08.005
+6 ve 12
+
+16:08.005 --> 16:09.705
+Bu gayet uygun görünüyor.
+
+16:09.705 --> 16:13.710
+(-6)+(-12)=-18
+
+16:13.710 --> 16:15.360
+-
+
+16:15.360 --> 16:16.590
+-
+
+16:16.590 --> 16:18.810
+Burada farklı çarpanları denemeniz gerekiyor.
+
+16:18.810 --> 16:22.360
+Sonuç, -1'i unutmayın, -1(x-6)(x-12)
+
+16:22.360 --> 16:29.440
+-
+
+16:29.440 --> 16:29.866
+-

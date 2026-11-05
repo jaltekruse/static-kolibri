@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.370 --> 00:03.367
+Ebben a videóban szeretnék beszélni,
+
+00:03.367 --> 00:07.500
+hogy mit jelent az, hogy valami prímszám
+
+00:07.500 --> 00:10.094
+és ahogy remélhetőleg látni fogod ebben a videóban,
+
+00:10.110 --> 00:12.608
+ez eléggé egyszerű elvre épül,
+
+00:12.608 --> 00:15.302
+de ahogy haladsz majd a matematikai tanulmányaidban,
+
+00:15.302 --> 00:17.601
+meglátod, hogy néhány igencsak kifinomult dolog
+
+00:17.601 --> 00:20.712
+építhető a prímszámok elvére.
+
+00:20.712 --> 00:23.359
+Ezek közé tartozik a titkosítás,
+
+00:23.359 --> 00:25.612
+olyan amit talán most alkalmaz a számítógéped
+
+00:25.612 --> 00:28.026
+ebben a pillanatban szintén épülhet a prímszámokra.
+
+00:28.026 --> 00:29.931
+Ha nem tudod, mi az a titkosítás,
+
+00:29.931 --> 00:31.718
+most nem kell aggódnod miatta
+
+00:31.718 --> 00:33.785
+csak annyit kell tudni, hogy a prímszámok
+
+00:33.785 --> 00:36.966
+elég fontosak. Akkor hadd adjam meg neked a definíciót,
+
+00:36.966 --> 00:39.404
+a definíció egy kicsit zavaros lehet,
+
+00:39.404 --> 00:43.839
+de a példákból majd láthatod, hogy viszonylag egyszerű.
+
+00:43.839 --> 00:49.946
+Egy szám prímszám, ha természetes szám,
+
+00:49.946 --> 00:57.794
+például 1, 2 vagy 3 (az egész számok amik 1-el kezdődnek)
+
+00:57.794 --> 01:00.488
+vagy másképp a pozitív egész számok
+
+01:00.488 --> 01:30.962
+mely természetes számoknak pontosan csak két természetes szám az osztója: önmaga és 1.
+
+01:30.962 --> 01:39.823
+Csak ezzel a két számmal oszthatók (maradék nélkül - a ford.).
+
+01:39.823 --> 01:43.468
+Ha ez nem világos valakinek, akkor hadd mutassak néhány példát.
+
+01:43.468 --> 01:46.115
+Határozzuk meg, hogy ezek prímszámok vagy sem.
+
+01:46.115 --> 01:48.948
+Kezdjük a legkisebb természetes számokkal.
+
+01:48.948 --> 01:52.268
+Az 1-es. Az 1-esre elmodhatod, hogy 1-gyel osztható
+
+01:52.268 --> 01:59.095
+és 1 osztható saját magával. Hé! Az 1, az prímszám!
+
+01:59.095 --> 02:02.137
+Igen ám, de a definíciónk szerint pontosan KÉT természetes számmal
+
+02:02.137 --> 02:07.803
+kell, hogy osztható legyen. Az 1 viszont csak EGY természetes számmal osztható, az 1-gyel.
+
+02:07.803 --> 02:16.673
+Így az 1 - lehet, hogy kicsit zavaros most - de nem prímszám.
+
+02:16.673 --> 02:20.504
+Menjünk a kettesre.
+
+02:20.504 --> 02:28.102
+2, az osztható 1-gye és 2-vel, de semmilyen más természetes számmal.
+
+02:28.102 --> 02:30.906
+Ez megfelel a feltételeinknek.
+
+02:30.906 --> 02:33.948
+Ez pontosan két természetes számmal osztható.
+
+02:33.948 --> 02:42.238
+Önmagával és 1-gyel. Így a 2, az prímszám.
+
+02:42.238 --> 02:52.849
+Bekarikázom azokat a számokat, amik prímek.
+
+02:52.849 --> 02:55.334
+A 2-es szám elég érdekes,
+
+02:55.334 --> 02:57.818
+mert ez az egyetlen páros szám, ami prímszám.
+
+02:57.818 --> 03:00.396
+Ha belegondolsz, bármelyik másik páros szám,
+
+03:00.396 --> 03:03.620
+osztható kettővel, ezért nem lehet prímszám.
+
+03:03.620 --> 03:06.688
+Kicsit elidőzünk majd ezen a későbbi videókban.
+
+03:06.688 --> 03:13.144
+Nézzük a 3-at, ez természetesen osztható 1-gyel és 3-mal,
+
+03:13.144 --> 03:15.651
+és nem osztható ezen felül semmi mással ezek között.
+
+03:15.651 --> 03:20.272
+Ez nem osztható 2-val. Ezért a 3, szintén egy prímszám.
+
+03:20.272 --> 03:25.264
+Próbáljuk meg a 4-et.
+
+03:25.264 --> 03:29.676
+A 4, biztosan osztató 1-gyel és 4-gyel,
+
+03:29.676 --> 03:36.224
+de szintén osztható 2-vel is. Ez osztható
+
+03:36.224 --> 03:40.311
+három természetes számmal: 1, 2 és 4.
+
+03:40.311 --> 03:44.723
+Ez nem felel meg a prímszámok feltételeinek.
+
+03:44.723 --> 03:48.252
+Próbáljuk meg az 5-öt.
+
+03:48.252 --> 03:51.015
+Az 5, természetesen osztható 1-gyel,
+
+03:51.015 --> 03:57.842
+nem osztható 2-vel, 3-mal vagy 4-gyel
+
+03:57.842 --> 04:01.209
+(eloszthatod az 5-öt 4-gyel, de lesz maradékod)
+
+04:01.209 --> 04:05.133
+Viszont természetesen osztható 5-tel.
+
+04:05.133 --> 04:10.265
+És akkor megint, az 5, pontosan két természetes számmal osztható: 1-gyel és 5-tel.
+
+04:10.265 --> 04:14.235
+Tehát az 5, az prímszám. Folytassuk,
+
+04:14.235 --> 04:17.393
+hátha felfedezünk valami szabályszerűséget itt
+
+04:17.393 --> 04:19.924
+és majd később megpróbálok egy igazán kellemetlent mutatni
+
+04:19.924 --> 04:26.031
+ami sokszor beugratja az embereket. Akkor nézzük 6-os számot.
+
+04:26.031 --> 04:34.622
+Ez osztható 1-gyel, 2-vel, 3-mal és 6-tal.
+
+04:34.622 --> 04:37.595
+Ennek van négy darab természetes szám "faktora",
+
+04:37.595 --> 04:40.033
+azt hiszem így is lehet ezt mondani.
+
+04:40.033 --> 04:43.005
+Szóval ennek nincs pontosan két darab osztója,
+
+04:43.005 --> 04:46.743
+hanem négy, ezért nem prímszám.
+
+04:46.743 --> 04:49.715
+Gyerünk a 7-esre.
+
+04:49.715 --> 04:55.869
+7 az osztható 1-gyel, de nem 2-vel, 3-mal, 4-gyel, 5-tel vagy 6-tal,
+
+04:55.869 --> 05:00.791
+viszont osztható 7-tel
+
+05:00.791 --> 05:03.624
+ezért a 7 prímszám. Gondolom most már érted az elvet.
+
+05:03.624 --> 05:06.689
+Mennyi természetes szám -- olyan számok mint 1, 2, 3, 4, 5,
+
+05:06.689 --> 05:09.383
+amiket már két évesen is ismertél, --
+
+05:09.383 --> 05:11.681
+a nulla nélkül, a negatív számok nélkül,
+
+05:11.681 --> 05:13.980
+a törtek nélkül, az irracionális számok nélkül,
+
+05:13.980 --> 05:15.768
+a tizedes törtek és minden más nélkül,
+
+05:15.768 --> 05:18.578
+csak a rendes pozitív számok amiket számláláshoz használunk.
+
+05:18.578 --> 05:21.318
+Ha csak két ilyenünk van,
+
+05:21.318 --> 05:23.733
+és ha a szám csak önmagával és 1-gyel osztható,
+
+05:23.733 --> 05:25.544
+akkor prímszám.
+
+05:25.544 --> 05:27.192
+Úgy gondolhatunk a prímekre,
+
+05:27.192 --> 05:29.607
+ha most ez 1-est nem számítjuk (mint láttuk - a ford.),
+
+05:29.607 --> 05:31.604
+a prímszámok a építőkövei a számoknak.
+
+05:31.604 --> 05:33.299
+Nem lehet őket tovább osztani.
+
+05:33.299 --> 05:34.809
+Hasonlóak az atomokhoz.
+
+05:34.809 --> 05:36.285
+A belegondolunk, hogy az atom micsoda --
+
+05:36.285 --> 05:38.111
+vagy inkább ahogy a hétköznapi emberek először,
+
+05:38.111 --> 05:39.991
+gondolnak rá -- azok a dolgok,
+
+05:39.991 --> 05:41.890
+amiket nem lehet tovább osztani.
+
+05:41.890 --> 05:43.986
+Persze tudjuk, hogy az atomokat is lehet tovább osztani,
+
+05:43.986 --> 05:46.475
+ha megpróbálod akkor lehet, hogy atomrobbanás lesz belőle.
+
+05:46.475 --> 05:49.655
+Az alapgondolat hasonló a prímszámok mögött.
+
+05:49.655 --> 05:52.618
+Nem tudod őket tovább osztani
+
+05:52.618 --> 05:57.402
+kisebb természetes számokra.
+
+05:57.402 --> 06:01.256
+Olyanokra mint a 6-os mondhatod, hogy hé, a 6, az 2-szer 3,
+
+06:01.256 --> 06:03.717
+szét tudjuk bontani, és figyeljük meg, hogy
+
+06:03.717 --> 06:06.411
+két prímszámra tudtuk szétbontani.
+
+06:06.411 --> 06:08.872
+Szétbontottuk -- úgy is mondhatjuk, hogy -- az alkotóira.
+
+06:08.872 --> 06:11.217
+A 7-es nem tudod tovább bontani.
+
+06:11.217 --> 06:14.817
+Csak annyit mondhatsz a 7-esről, hogy az 1-szer 7.
+
+06:14.817 --> 06:16.930
+És ebben az esetben igazából nem bontottad tovább.
+
+06:16.930 --> 06:19.066
+Csak egy 7-esed van ott megint.
+
+06:19.066 --> 06:20.877
+A 6-ost szét tudod bontani.
+
+06:20.877 --> 06:23.965
+A 4-est is szét tudod bontani, 2-szer 2-re.
+
+06:23.965 --> 06:25.800
+Most, hogy mindezt tisztáztuk, nézzünk valami nagyobb
+
+06:25.800 --> 06:27.425
+számokat és próbáljuk meg eldönteni,
+
+06:27.425 --> 06:30.072
+hogy azok a számok prímek-e.
+
+06:30.072 --> 06:34.902
+Próbáljuk meg a 16-ot.
+
+06:34.902 --> 06:38.872
+Bármilyen természetes szám osztható 1-gyel és önmagával.
+
+06:38.872 --> 06:42.262
+A 16, osztható 1-gyel és 16-tal.
+
+06:42.262 --> 06:44.143
+Egyből két osztóval kezdünk,
+
+06:44.143 --> 06:46.071
+ha találunk ezeken kívül másik osztókat,
+
+06:46.071 --> 06:48.207
+akkor tudjuk, hogy nem prímmel van dolgunk,
+
+06:48.207 --> 06:51.109
+és 16-osnak van még a 2 és a 8, mint osztója,
+
+06:51.109 --> 06:53.362
+lehet a 4-szer 4 is,
+
+06:53.362 --> 06:55.451
+szóval egy csomó más osztója is van ennek,
+
+06:55.451 --> 06:57.588
+az 1 és a 16 kötött,
+
+06:57.588 --> 07:02.278
+ezért a 16 nem prím. Mi a helyzet a 17-tel?
+
+07:02.278 --> 07:06.411
+1 és 17 természetesen megvan a 17-ben,
+
+07:06.411 --> 07:10.846
+2 nincs meg a 17-ben, 3 nincs meg, 4, 5, 6, 7, 8...
+
+07:10.846 --> 07:14.701
+egyik sincs meg a tizenhétben, semmi sincs az 1 és 17 között
+
+07:14.701 --> 07:21.086
+ami megvan benne, ezért 17 az prím.
+
+07:21.086 --> 07:23.803
+És akkor most hadd adjak egy nehezet.
+
+07:23.803 --> 07:26.822
+Ez sokszor beugratja az embereket.
+
+07:26.822 --> 07:34.345
+Mi a helyzet az 51-gyel? Az 51 prím?
+
+07:34.345 --> 07:37.480
+Ha érdekel, akkor megállíthatod itt a videót
+
+07:37.480 --> 07:39.500
+és megpróbálhatod kitalálni magadtól,
+
+07:39.500 --> 07:41.520
+hogy az 51 prímszám-e.
+
+07:41.520 --> 07:45.142
+Hátha találsz bármilyen számot az 1-en és 51-en kívül,
+
+07:45.142 --> 07:48.161
+ami megvan az 51-ben. Úgy tűnik...
+
+07:48.161 --> 07:50.042
+á, ez egy elég fura szám.
+
+07:50.042 --> 07:52.340
+Erősen hajlik az ember arra, hogy azt gondolja ez prím,
+
+07:52.340 --> 07:54.268
+de most megmondom a választ.
+
+07:54.268 --> 07:59.933
+Ez nem prím, mert osztható 3-mal és 17-tel szintúgy.
+
+07:59.933 --> 08:02.998
+3-szro 17, az 51.
+
+08:02.998 --> 08:04.779
+Remélhetőleg sikerült megérteni,
+
+08:04.779 --> 08:06.388
+mik azok a prímszámok,
+
+08:06.388 --> 08:09.407
+és remélem, hogy a további videókban majd gyakorolhatjuk,
+
+08:09.407 --> 3:59:59.999
+mondjuk valamelyik feladatban.

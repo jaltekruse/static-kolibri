@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.629 --> 00:04.317
+- [Voiceover] So, right
+over here, we have the graph
+
+00:04.317 --> 00:08.828
+of the function y is equal
+to x to the 3/2 power.
+
+00:08.828 --> 00:13.828
+And what I wanna do is find
+the arc length of this curve,
+
+00:14.811 --> 00:18.520
+from when x equals zero
+to when x is equal to--
+
+00:18.520 --> 00:20.651
+and I'm gonna pick a strange number here,
+
+00:20.651 --> 00:21.693
+and I picked this strange number
+
+00:21.693 --> 00:23.923
+'cause it makes the numbers
+work out very well--
+
+00:23.923 --> 00:26.740
+to x is equal to 32/9.
+
+00:26.740 --> 00:28.428
+32/9 is, let's see...
+
+00:28.428 --> 00:33.428
+That's three and 5/9, so
+it's gonna be right around...
+
+00:35.815 --> 00:37.976
+So that's three and 1/2, so
+it's gonna be a little bit
+
+00:37.976 --> 00:41.801
+past three and 1/2, so it's
+gonna be right over there.
+
+00:41.801 --> 00:46.801
+So we wanna find this arc
+length right over here,
+
+00:47.222 --> 00:49.764
+this thing that I have depicted in yellow.
+
+00:49.764 --> 00:54.155
+So it's from zero to 32/9.
+
+00:54.155 --> 00:55.949
+And I encourage you to pause the video
+
+00:55.949 --> 00:58.788
+and try this out on your own.
+
+00:58.788 --> 01:00.055
+So I'm assuming you've had a go at it.
+
+01:00.055 --> 01:01.702
+And if at any point while
+I'm working through it,
+
+01:01.702 --> 01:05.128
+you feel inspired, always
+feel free to pause the video
+
+01:05.128 --> 01:07.519
+and continue working with it.
+
+01:07.519 --> 01:09.734
+So let's just apply the arc length formula
+
+01:09.734 --> 01:13.155
+that we got kind of a conceptual proof for
+
+01:13.155 --> 01:15.592
+in the previous video.
+
+01:15.592 --> 01:17.691
+So we know that the arc length...
+
+01:17.691 --> 01:18.375
+Let me write this.
+
+01:18.375 --> 01:23.375
+The arc length is going to be
+equal to the definite integral
+
+01:25.609 --> 01:30.609
+from zero to 32/9 of the square root...
+
+01:32.185 --> 01:35.475
+Actually, let me just write
+it in general terms first,
+
+01:35.475 --> 01:38.694
+so that you can kinda see the
+formula and then how we apply it.
+
+01:38.694 --> 01:43.694
+So, it's the square root of one
+plus f-prime of x squared d x.
+
+01:46.469 --> 01:50.920
+And in this case, it's going
+to be the definite integral
+
+01:50.920 --> 01:55.920
+from zero to 32/9 of the
+square root of one plus...
+
+02:00.511 --> 02:01.557
+Now, what's the derivative?
+
+02:01.557 --> 02:06.557
+If f of x is x to the 3/2,
+then f-prime of x is going
+
+02:09.052 --> 02:13.135
+to be 3/2 x to the 1/2.
+
+02:13.135 --> 02:15.128
+And we picked this particular function
+
+02:15.128 --> 02:18.426
+because it simplifies
+quite well when we put it
+
+02:18.426 --> 02:20.690
+under the radical, and
+it's fairly straightforward
+
+02:20.690 --> 02:22.513
+to find the anti-derivative.
+
+02:22.513 --> 02:24.946
+So we've done a lot of
+engineering of this problem
+
+02:24.946 --> 02:26.394
+to make the numbers work out well,
+
+02:26.394 --> 02:27.797
+but let's just go through it.
+
+02:27.797 --> 02:32.517
+So this is f-prime of x;
+f-prime of x squared is going
+
+02:32.517 --> 02:33.984
+to be this quantity squared.
+
+02:33.984 --> 02:38.600
+It's going to be 9/4 x
+to the 1/2 squared is x.
+
+02:38.600 --> 02:43.600
+So, one plus 9/4 x d x.
+
+02:43.716 --> 02:45.850
+And so, now, we just
+have a definite integral
+
+02:45.850 --> 02:48.323
+that we know how to
+solve this type of thing.
+
+02:48.323 --> 02:50.589
+And you might be able to
+even do this in your head,
+
+02:50.589 --> 02:52.241
+essentially, do the u-substitution:
+
+02:52.241 --> 02:54.583
+say I have one plus 9/4 x.
+
+02:54.583 --> 02:56.297
+Its derivative is 9/4.
+
+02:56.297 --> 02:58.895
+I can kind of engineer that if I want,
+
+02:58.895 --> 03:02.393
+but instead, I'm just going to
+do straight up u-substitution.
+
+03:02.393 --> 03:07.393
+So, if I say u is equal to one plus 9/4 x,
+
+03:10.729 --> 03:11.610
+then we know...
+
+03:11.610 --> 03:12.830
+Let's see.
+
+03:12.830 --> 03:17.830
+D u d x is going to be equal to 9/4.
+
+03:19.579 --> 03:24.579
+Or, we could say d u is equal to 9/4 d x.
+
+03:24.808 --> 03:28.094
+Or, we could say d x...
+
+03:28.094 --> 03:30.180
+Let me scroll down a little bit.
+
+03:30.180 --> 03:32.438
+We could say d x is equal to...
+
+03:32.438 --> 03:36.149
+I'm just gonna multiply
+both sides times 4/9.
+
+03:36.149 --> 03:38.854
+Let's go to 4/9 d u.
+
+03:38.854 --> 03:41.487
+And then we just have to change
+the bounds of integration.
+
+03:41.487 --> 03:46.487
+When x is equal to zero, then
+u is going to be equal to...
+
+03:48.781 --> 03:51.262
+9/4 times zero is just zero, so u is going
+
+03:51.262 --> 03:52.936
+to be equal to one.
+
+03:52.936 --> 03:57.936
+And when x is equal to 32/9--
+
+03:59.975 --> 04:01.458
+and this is why that number was picked--
+
+04:01.458 --> 04:03.602
+what's u going to be equal to?
+
+04:03.602 --> 04:07.936
+32/9 times 9/4 is gonna be 32/4,
+
+04:07.936 --> 04:09.992
+which is going to be eight plus one.
+
+04:09.992 --> 04:13.011
+So that worked out very
+nicely; imagine that.
+
+04:13.011 --> 04:13.797
+So there we have it.
+
+04:13.797 --> 04:17.636
+So, this is going to be equal
+to the definite integral...
+
+04:17.636 --> 04:18.998
+Actually, let me make
+it clear that this is
+
+04:18.998 --> 04:20.349
+what is equal to this.
+
+04:20.349 --> 04:25.349
+The definite integral
+from u is equal to one,
+
+04:25.517 --> 04:27.589
+to u is equal to 9--
+
+04:27.589 --> 04:28.922
+I'm gonna make it very
+explicit that I'm dealing
+
+04:28.922 --> 04:30.839
+with u now--
+
+04:30.839 --> 04:35.488
+of the square root of u.
+
+04:35.488 --> 04:40.152
+And instead of d x, we
+have d x is 4/9 d u.
+
+04:40.152 --> 04:43.760
+Let me do it this way: the square root...
+
+04:43.760 --> 04:45.909
+Whoops, that's not the right color.
+
+04:45.909 --> 04:50.909
+Square root of u; instead of
+d x, we have times 4/9 d u.
+
+04:52.880 --> 04:57.880
+And I'm just gonna take the
+4/9 and stick it out here.
+
+04:58.178 --> 05:01.597
+And we know how to apply the fundamental,
+
+05:01.597 --> 05:04.329
+or, I guess, the second fundamental
+theorem of calculus here,
+
+05:04.329 --> 05:06.663
+to evaluate this definite integral.
+
+05:06.663 --> 05:11.663
+This is going to be 4/9
+times the anti-derivative
+
+05:12.446 --> 05:15.030
+of the square root of u,
+which is the same thing
+
+05:15.030 --> 05:16.551
+as u to the 1/2.
+
+05:16.551 --> 05:19.564
+It's going to be u to the
+3/2, and then we divide
+
+05:19.564 --> 05:23.204
+by 3/2, which is the same
+thing as multiplying by 2/3.
+
+05:23.204 --> 05:26.371
+We're going to evaluate
+that at u equals nine
+
+05:26.371 --> 05:28.886
+and u is equal to one.
+
+05:28.886 --> 05:31.427
+And so, we're in the home stretch here.
+
+05:31.427 --> 05:36.427
+This is going to be equal
+to 4/9 times 2/3 times 9
+
+05:41.641 --> 05:46.641
+to the 3/2 minus 2/3 times one to the 3/2.
+
+05:49.636 --> 05:52.119
+So, 9 to the 3/2, that is...
+
+05:52.119 --> 05:54.724
+Let's see: the square
+root of nine is three,
+
+05:54.724 --> 05:57.302
+to the third power is 27.
+
+05:57.302 --> 05:59.352
+And this, of course, is one.
+
+05:59.352 --> 06:03.436
+So we are left with 2/3 of...
+
+06:03.436 --> 06:04.920
+Actually, let's just factor out the 2/3,
+
+06:04.920 --> 06:07.117
+that makes it easier.
+
+06:07.117 --> 06:12.117
+This is going to be equal to
+2/3 times 4/9 is equal to 8/27.
+
+06:15.355 --> 06:17.176
+I've just factored out the 2/3.
+
+06:17.176 --> 06:19.777
+And then we're gonna have 27 minus one
+
+06:19.777 --> 06:23.274
+inside, I guess you could
+say the brackets now.
+
+06:23.274 --> 06:28.274
+So 27 minus one is just going to be 26.
+
+06:29.803 --> 06:32.157
+Times 26.
+
+06:32.157 --> 06:36.212
+And we could obviously
+simplify this more if we want.
+
+06:36.212 --> 06:39.173
+Eight times 26 is...
+
+06:39.173 --> 06:41.154
+So, actually, let's just
+figure that out, just for fun.
+
+06:41.154 --> 06:42.792
+So, eight times 26 is going
+
+06:42.792 --> 06:47.792
+to be 160 plus eight times six
+is 48, so it's 208 over 27.
+
+06:56.910 --> 07:01.910
+And we are done.

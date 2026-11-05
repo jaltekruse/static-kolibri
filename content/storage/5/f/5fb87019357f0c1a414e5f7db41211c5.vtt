@@ -1,0 +1,538 @@
+WEBVTT
+
+00:00.330 --> 00:03.056
+Vezměme si exponenciální
+funkci h v bodě n,
+
+00:03.056 --> 00:07.825
+a protože to je exponenciální funkce,
+její přepis bude ve tvaru 'a' krát 'r' na 'n',
+
+00:07.830 --> 00:09.339
+kde 'a' je koeficient,
+
+00:09.339 --> 00:10.648
+a 'r' je základ mocniny.
+
+00:10.648 --> 00:13.127
+Předpokládáme, že 'r' je větší než 0.
+
+00:13.127 --> 00:15.631
+Máme nějaké informace o hodnotě
+funkce 'h' v bodě 'n'.
+
+00:15.631 --> 00:17.373
+Víme, že když se 'n' rovná 2,
+
+00:17.373 --> 00:19.393
+pak funkční hodnota
+v bodě 2 je 144,
+
+00:19.393 --> 00:21.599
+funkční hodnota
+v bodě 4 je 144,
+
+00:21.599 --> 00:24.710
+a funkční hodnota
+v bodě 6 je 729.
+
+00:24.710 --> 00:26.498
+Pojďme si na základě toho ověřit,
+
+00:26.498 --> 00:27.984
+jestli dokážeme přijít na to,
+
+00:27.984 --> 00:31.142
+kolik nám pro 'r' a 'a' vyjde.
+
+00:31.142 --> 00:34.833
+A jako vždy, stopněte si video,
+a sami si to vyzkoušejte.
+
+00:34.833 --> 00:36.737
+Dobrá, pojďme na to.
+
+00:36.737 --> 00:39.384
+Nejdřív se pustím do 'r',
+
+00:39.384 --> 00:41.706
+čili do základu mocniny,
+
+00:41.706 --> 00:44.910
+a zda máme po sobě
+jdoucí exponenty.
+
+00:44.910 --> 00:47.836
+Pokud bychom měli hodnotu v bodě 3,
+našli bychom koeficient
+
+00:47.836 --> 00:50.460
+v poměru naší hodnoty v bodě 3
+s hodnotou v bodě 2,
+
+00:50.460 --> 00:52.294
+a z toho bychom pak dostali 'r'.
+
+00:52.294 --> 00:55.150
+Nebo koeficient mezi
+funkčními body 4 a 3
+
+00:55.150 --> 00:56.938
+bychom mohli vyřešit
+explicitně pro 'r',
+
+00:56.938 --> 00:58.517
+a k tomu se můžeme hodně přiblížit.
+
+00:58.517 --> 01:00.630
+Můžeme prostě najít koeficient
+
+01:00.630 --> 01:01.907
+mezi funkčními body 2 a 4.
+
+01:01.907 --> 01:04.229
+Takže, funkční hodnota v bodě 4,
+
+01:04.229 --> 01:05.854
+koeficient mezi tímto
+
+01:05.854 --> 01:07.595
+a funkční hodnotou v bodě 2
+
+01:07.595 --> 01:09.615
+se bude rovnat...
+
+01:09.615 --> 01:13.075
+Tedy, víme, že funkční hodnota
+v bodě 4 je 324,
+
+01:13.075 --> 01:15.977
+a v bodě 2 to je 144.
+
+01:15.977 --> 01:18.578
+Tohle celé můžeme trochu zjednodušit.
+
+01:18.578 --> 01:20.691
+Pokud tak uděláme,
+
+01:20.691 --> 01:23.245
+tak uvidíme,
+
+01:23.245 --> 01:24.499
+že obojí můžeme dělit 2.
+
+01:24.499 --> 01:25.985
+Pokud tak i uděláme,
+
+01:25.985 --> 01:27.308
+tak tady v čitateli
+
+01:27.308 --> 01:30.721
+324 děleno 2 je 162,
+
+01:30.721 --> 01:33.624
+144 děleno 2 je 72.
+
+01:33.624 --> 01:35.621
+Schválně, jestli můžeme znovu dělit 2,
+
+01:35.621 --> 01:38.430
+a máme 81 lomeno 36.
+
+01:38.430 --> 01:39.289
+Děleno 2...
+
+01:39.289 --> 01:41.100
+vlastně ne, tady už 2 dělit nemůžeme,
+
+01:41.100 --> 01:42.865
+ale můžeme dělit 9.
+
+01:42.865 --> 01:46.000
+Takže, 81 děleno 9 je 9
+
+01:46.000 --> 01:48.113
+a 36 děleno 9 jsou 4.
+
+01:48.113 --> 01:51.897
+Takže tohle můžeme přepsat na 9 lomeno 4.
+
+01:51.897 --> 01:55.525
+Taky můžeme přepsat tento poměr,
+
+01:55.525 --> 01:58.700
+pokud použijeme tento tvar
+exponenciální funkce.
+
+01:58.700 --> 02:01.254
+Takže vlastně můžeme říct, že tohle...
+
+02:01.254 --> 02:03.367
+že funkční hodnota v bodě 4
+
+02:03.367 --> 02:04.993
+je rovna 'a' krát 'r'.
+
+02:04.993 --> 02:07.616
+Vidíme, že 'n' jsou 4,
+takže 'r' na čtvrtou.
+
+02:07.616 --> 02:15.072
+A funkční hodnota v bodě 2 bude
+'a' krát 'r' na druhou.
+
+02:15.072 --> 02:16.695
+Vše se nám krásně zjednodušuje.
+
+02:16.695 --> 02:18.274
+'a' děleno 'a'
+
+02:18.274 --> 02:19.690
+se nám vykrátí na 1.
+
+02:19.690 --> 02:22.500
+'r' na čtvrtou děleno 'r' na druhou,
+
+02:22.500 --> 02:24.612
+to je 'r' na (4 minus 2)
+
+02:24.612 --> 02:29.041
+Nebo také 'r' na druhou.
+
+02:29.041 --> 02:30.812
+Máme tu vytvořenou krásnou rovnici.
+
+02:30.812 --> 02:35.061
+'r' na druhou se musí rovnat 9 děleno 4.
+
+02:35.061 --> 02:36.083
+Znovu si to napíšu.
+
+02:36.083 --> 02:38.382
+'r' na druhou se rovná 9 lomeno 4.
+
+02:38.382 --> 02:40.587
+A 'r' musí být větší než 0.
+
+02:40.587 --> 02:45.706
+Takže můžeme říct, že 'r'
+bude odmocnina z 9/4.
+
+02:45.719 --> 02:48.528
+Což je vlastně 3/2.
+
+02:48.528 --> 02:51.315
+Takže jsme byli schopni vypočítat 'r'.
+
+02:51.315 --> 02:53.056
+Takže jak teď přijdeme na to,
+
+02:53.056 --> 02:55.378
+jak vypočítat 'a'?
+
+02:55.378 --> 02:56.980
+Máme několik možností.
+
+02:56.980 --> 03:00.533
+Můžeme se zamyslet, kolik bude 'a'
+ve funkční hodnotě 0.
+
+03:00.533 --> 03:01.392
+Kolik to vyjde?
+
+03:01.392 --> 03:02.274
+Jak na to?
+
+03:02.274 --> 03:04.758
+Můžeme to nazvat tabulkovou metodou,kde...
+
+03:04.758 --> 03:06.709
+Tak, jen chvilku.
+
+03:06.709 --> 03:08.984
+Udělám si tu tabulku.
+
+03:08.984 --> 03:10.540
+Takže, tabulka.
+
+03:10.540 --> 03:14.510
+Tady máme 'n' a
+funkční hodnotu v bodě 'n'.
+
+03:14.510 --> 03:15.857
+Pro 'n' rovná se 0
+
+03:15.857 --> 03:17.529
+ještě nevíme funkční hodnotu.
+
+03:17.529 --> 03:18.574
+Tu dopočítáme.
+
+03:18.574 --> 03:22.149
+Nevíme ani funkční hodnotu v bodě 1.
+
+03:22.149 --> 03:26.352
+Ale víme, že v bodě 2 to je 144.
+
+03:26.352 --> 03:29.162
+A vzhledem k tomu, že víme,
+že koeficient je 3/2,
+
+03:29.162 --> 03:33.179
+tak pokud vezmeme hodnotu v bodě 1
+a vynásobíme 3/2,
+
+03:33.179 --> 03:35.175
+dostaneme funkční hodnotu v bodě 2.
+
+03:35.175 --> 03:38.240
+A pokud vezmeme hodnotu v bodě 0
+a vynásobíme 3/2,
+
+03:38.240 --> 03:40.701
+dostaneme hodnotu ve funkčním bodě 1.
+
+03:40.701 --> 03:44.886
+Takže, hodnota v bodě 1
+bude 144 děleno 3/2.
+
+03:44.886 --> 03:45.949
+Raději si to napíšeme.
+
+03:45.949 --> 03:49.246
+Funkční hodnota v bodě 1
+
+03:49.246 --> 03:52.450
+se rovná 144 děleno 3/2.
+
+03:52.450 --> 04:00.525
+Což bude 144 krát 2 děleno 3.
+
+04:00.530 --> 04:01.297
+Což je,
+
+04:01.297 --> 04:11.679
+144 děleno 3 se rovná...
+
+04:11.699 --> 04:12.535
+Radši to napíšu,
+
+04:12.535 --> 04:14.276
+můj mozek tak dobře nefunguje,
+
+04:14.276 --> 04:15.460
+když k tomu dělám video.
+
+04:15.460 --> 04:18.502
+3 se do 14 vejde 4krát.
+
+04:18.502 --> 04:19.755
+4 krát 3 je 12.
+
+04:19.755 --> 04:22.191
+To odečteme,
+
+04:22.191 --> 04:24.372
+Už to vidím, vyjde to 48.
+
+04:24.372 --> 04:26.113
+3 se do 24 vejde osmkrát.
+
+04:26.113 --> 04:27.274
+8 krát 3 je 24.
+
+04:27.274 --> 04:28.899
+Nemáme žádný zbytek.
+
+04:28.915 --> 04:34.751
+Vyjde nám 48 krát 2,
+
+04:34.751 --> 04:37.189
+což se rovná 96.
+
+04:37.189 --> 04:38.783
+Tady tedy máme 96,
+
+04:38.783 --> 04:40.962
+a když chceme vypočítat
+hodnotu v bodě 0,
+
+04:40.962 --> 04:42.831
+tak to prostě znovu vydělíme 3/2.
+
+04:42.831 --> 04:46.778
+Funkční hodnota v bodě 0
+
+04:46.778 --> 04:49.588
+je 96 děleno 3/2.
+
+04:49.588 --> 04:54.046
+Což je rovno 96 krát 2 děleno 3.
+
+04:54.046 --> 04:56.507
+96 děleno 3
+
+04:56.507 --> 04:57.900
+To vyjde 32.
+
+04:57.900 --> 05:01.290
+Takže tady máme 32 krát...
+
+05:01.290 --> 05:03.124
+Mám to správně?
+
+05:03.124 --> 05:04.680
+Ano, 32 krát 2.
+
+05:04.680 --> 05:08.993
+Což se rovná 64.
+
+05:08.993 --> 05:13.110
+A takhle jednoduše jsme přišli na to,
+že 'a' se rovná 64.
+
+05:13.110 --> 05:15.059
+A 'r'?
+
+05:15.059 --> 05:18.054
+'r'' se rovná 3/2.
+
+05:18.054 --> 05:20.097
+Můžeme tedy napsat,
+
+05:20.097 --> 05:28.058
+že fukce h v bodě n se rovná 64...
+
+05:28.061 --> 05:33.632
+krát 3/2
+
+05:33.657 --> 05:34.934
+což je náš koeficient.
+
+05:34.934 --> 05:37.117
+na 'n'.
+
+05:37.117 --> 05:38.858
+Je i další způsob, kromě tabulky,
+
+05:38.858 --> 05:40.484
+jak jsme toto mohli vyřešit.
+
+05:40.484 --> 05:42.991
+Můžeme nyní začít 'a',
+
+05:42.991 --> 05:43.957
+když známe 'r'.
+
+05:43.957 --> 05:49.237
+Například víme, že v bodě 2...
+
+05:49.237 --> 05:53.300
+Což se rovná 'a' krát...
+
+05:53.300 --> 05:55.088
+Víme, kolik je náš koeficient,
+
+05:55.088 --> 05:59.339
+čili 'a' krát 3/2 na druhou
+
+05:59.361 --> 06:03.424
+se rovná 144.
+
+06:03.424 --> 06:07.603
+Takže můžeme napsat, že
+
+06:07.603 --> 06:10.297
+'a' krát 9/4 se rovná 144.
+
+06:10.297 --> 06:12.479
+Obě strany násobíme
+převrácenou hodnotou 9/4.
+
+06:12.479 --> 06:13.362
+Obrátíme 9/4.
+
+06:13.362 --> 06:19.432
+Čili obě strany násobíme 4/9.
+
+06:19.445 --> 06:20.327
+Tohle se vykrátí.
+
+06:20.327 --> 06:21.744
+Tohle se vykrátí,
+
+06:21.744 --> 06:25.971
+a zbude nám...
+
+06:25.993 --> 06:29.174
+'a' rovná se 144 děleno 9
+
+06:29.174 --> 06:31.356
+...16?
+
+06:31.356 --> 06:35.559
+144 děleno 9 bude zřejmě 16?
+
+06:35.559 --> 06:37.997
+Je to správně?
+
+06:37.997 --> 06:39.181
+Myslím, že ano.
+
+06:39.181 --> 06:40.574
+Ano, a pak 16 krát 4.
+
+06:40.574 --> 06:43.453
+Tady nám zbude 16 krát 1.
+
+06:43.453 --> 06:46.495
+16 krát 4 je 64.
+
+06:46.495 --> 06:48.492
+Což je totéž, co nám vyšlo předtím.
+
+06:48.492 --> 06:49.560
+A když se na to dívám,
+
+06:49.560 --> 06:53.008
+tak tato metoda
+je vlastně o trochu jednodušší.
+
+06:53.008 --> 06:53.972
+Byť vyjdou stejně.
+
+06:53.972 --> 06:55.829
+Lepší je podle mě tato,
+
+06:55.829 --> 06:58.499
+víc pracujete s koeficientem
+a vidíte, že základ mocniny,
+
+06:58.499 --> 06:59.776
+je opravdu základ mocniny.
+
+06:59.776 --> 07:01.541
+Tady v bodě 0.
+
+07:01.541 --> 07:03.440
+Ale tak jako tak,
+jakmile spočtete 'r'
+
+07:03.445 --> 07:08.870
+a víte jednu z hodnot
+ve funkčním bodě funkce,
+
+07:08.885 --> 07:10.271
+můžete dopočítat 'a'.
+
+07:10.271 --> 07:11.712
+A pokud znáte 'a'
+
+07:11.712 --> 07:14.334
+a znáte hodnotu v 'n',
+
+07:14.334 --> 07:17.313
+můžete podobně dořešit 'r'.
+
+07:17.313 --> 07:19.024
+Nicméně doufám, že se vám to líbilo. :)

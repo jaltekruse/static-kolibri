@@ -1,0 +1,347 @@
+WEBVTT
+
+00:00.272 --> 00:02.965
+- [Voiceover] Part c,
+find the time at which the
+
+00:02.965 --> 00:06.410
+speed of the particle is three.
+
+00:06.410 --> 00:09.131
+So let's just remind
+ourselves what speed is.
+
+00:09.131 --> 00:12.207
+It's the magnitude of velocity.
+
+00:12.207 --> 00:16.205
+So, if you have the x,
+
+00:16.205 --> 00:17.575
+actually let me draw it this way,
+
+00:17.575 --> 00:21.661
+if you have the x dimension of,
+
+00:21.661 --> 00:23.094
+or the x component of
+
+00:23.094 --> 00:24.941
+a velocity, right over there,
+
+00:24.941 --> 00:27.635
+so this is the rate
+of, which x is changing
+
+00:27.635 --> 00:29.190
+with respect to time.
+
+00:29.190 --> 00:32.347
+And you have the y
+component of the velocity
+
+00:32.347 --> 00:34.756
+you have the y component of the velocity,
+
+00:34.756 --> 00:36.562
+let's say it looks something like that.
+
+00:36.562 --> 00:39.636
+That is dy dt.
+
+00:39.636 --> 00:44.000
+Then the, then the speed is
+going to be the magnitude
+
+00:44.000 --> 00:47.238
+of the sum of those two vectors.
+
+00:47.238 --> 00:49.768
+So, this right over here
+the magnitude of this,
+
+00:49.768 --> 00:51.441
+of this vector right over here,
+
+00:51.441 --> 00:52.563
+is going to be the speed.
+
+00:52.563 --> 00:54.353
+Well, what's the magnitude of that?
+
+00:54.353 --> 00:55.895
+Well, the Pythagorean theorem tells us
+
+00:55.895 --> 00:58.613
+it's going to be the square root of
+
+00:58.613 --> 01:01.550
+your x component of velocity squared,
+
+01:01.550 --> 01:03.697
+so dx dt, the rate at which
+
+01:03.697 --> 01:07.866
+x is changing with
+respect to time, squared.
+
+01:07.866 --> 01:12.866
+Plus your y component, dy dt, squared.
+
+01:13.323 --> 01:15.726
+This right here is the speed.
+
+01:15.726 --> 01:17.221
+And we need to figure out at what time
+
+01:17.221 --> 01:19.053
+is this thing equal to three?
+
+01:19.053 --> 01:20.711
+So let's figure that out.
+
+01:20.711 --> 01:22.559
+So the square root of,
+
+01:22.559 --> 01:25.051
+what's the x component of our velocity?
+
+01:25.051 --> 01:26.131
+Well, they told us over here,
+
+01:26.131 --> 01:27.845
+the x component of our velocity
+
+01:27.845 --> 01:30.775
+is cosine of t squared.
+
+01:30.775 --> 01:35.605
+So, cosine of t squared,
+
+01:35.605 --> 01:37.866
+we're gonna square that whole thing.
+
+01:37.866 --> 01:41.551
+And then plus the y
+component of the velocity,
+
+01:41.551 --> 01:44.322
+the rate of change, the
+rate at which y's changing
+
+01:44.322 --> 01:45.613
+with respect to time.
+
+01:45.613 --> 01:47.400
+That's e to the zero point five t,
+
+01:47.400 --> 01:49.032
+and we're going to square that.
+
+01:49.032 --> 01:53.896
+So plus e to the zero point five t,
+
+01:53.896 --> 01:56.253
+and we're going to square that.
+
+01:56.253 --> 01:58.784
+This right over here is
+our expression for speed,
+
+01:58.784 --> 02:00.293
+as a function of time.
+
+02:00.293 --> 02:01.269
+And we still have to figure out,
+
+02:01.269 --> 02:02.825
+when does this thing,
+
+02:02.825 --> 02:06.571
+when does this thing equal nine?
+
+02:06.571 --> 02:07.596
+So there's a couple of ways,
+
+02:07.596 --> 02:09.964
+we could just subtract nine, or sorry
+
+02:09.964 --> 02:11.601
+when does this equal three?
+
+02:11.601 --> 02:14.492
+When does this equal three?
+
+02:14.492 --> 02:17.151
+And so we could try to, we
+could just subtract three from
+
+02:17.151 --> 02:20.495
+both sides and input this into our solver,
+
+02:20.495 --> 02:22.410
+or we could begin to
+simplify this a little bit,
+
+02:22.410 --> 02:24.581
+we could square both sides,
+
+02:24.581 --> 02:28.972
+and you would get cosine,
+let me write it this way,
+
+02:28.972 --> 02:33.775
+you could get cosine of t squared, squared
+
+02:35.125 --> 02:38.746
+plus e to the zero point five
+t, and then squaring that,
+
+02:38.746 --> 02:40.742
+well two times zero
+point five is just one,
+
+02:40.742 --> 02:43.041
+so this is the same thing as e to the t,
+
+02:43.041 --> 02:45.298
+is equal to nine.
+
+02:45.298 --> 02:47.144
+And now we can subtract
+nine from both sides,
+
+02:47.144 --> 02:51.971
+and we get cosine of t squared, squared,
+
+02:51.971 --> 02:53.719
+I could've written cosine
+squared of t squared,
+
+02:53.719 --> 02:55.671
+but this makes it a little
+bit clearer, I think.
+
+02:55.671 --> 03:00.232
+Plus e to the t minus
+nine is equal to zero,
+
+03:00.232 --> 03:02.391
+and now once again, in
+this part of the AP exam,
+
+03:02.391 --> 03:03.657
+we can use our calculators.
+
+03:03.657 --> 03:07.115
+So let's use our calculators to solve
+
+03:07.115 --> 03:10.767
+let's use it to solve for, in this case,
+
+03:10.767 --> 03:14.470
+t, but I'll do everything in terms of x.
+
+03:14.470 --> 03:18.907
+So, the equation, zero is equal to
+
+03:18.907 --> 03:20.737
+is equal to,
+
+03:20.737 --> 03:22.267
+let me just delete all of this actually,
+
+03:22.267 --> 03:24.375
+just to get it out of the way.
+
+03:24.375 --> 03:26.856
+Alright, is equal to cosine,
+
+03:26.856 --> 03:28.574
+and I'm gonna use x as my variable,
+
+03:28.574 --> 03:33.380
+cosine of x squared,
+
+03:33.380 --> 03:34.918
+close that parenthesis,
+
+03:34.918 --> 03:37.330
+and then I wanna square the cosine,
+
+03:37.330 --> 03:38.635
+the whole thing,
+
+03:38.635 --> 03:41.700
+plus e to the t.
+
+03:41.700 --> 03:44.637
+So second e to the,
+
+03:44.637 --> 03:46.586
+but my variable that I'm
+gonna solve for is x,
+
+03:46.586 --> 03:48.120
+I'm just replacing all the t's with x
+
+03:48.120 --> 03:50.059
+just for inputting into the calculator,
+
+03:50.059 --> 03:52.784
+e to the x minus nine,
+
+03:52.784 --> 03:56.106
+minus nine is equal to zero,
+
+03:56.106 --> 03:57.589
+is equal to zero.
+
+03:57.589 --> 03:59.830
+We already have this set equal to zero,
+
+03:59.830 --> 04:01.949
+and so we click enter,
+
+04:01.949 --> 04:04.234
+and then we could,
+
+04:04.234 --> 04:08.462
+we could just use our previous
+answer as our initial guess,
+
+04:08.462 --> 04:10.834
+and we click, we have to do
+this little blue solve there,
+
+04:10.834 --> 04:13.736
+so I click alpha, solve,
+
+04:13.736 --> 04:16.279
+let the calculator munch
+on it a little bit,
+
+04:16.279 --> 04:18.647
+and it gets t is equal to,
+
+04:18.647 --> 04:20.900
+or x is equal to, but this is really t,
+
+04:20.900 --> 04:24.371
+two point one nine six.
+
+04:24.371 --> 04:27.382
+So we get t is approximately
+
+04:27.382 --> 04:30.332
+two point one nine six.
+
+04:30.332 --> 04:31.769
+Did I type that in right?
+
+04:31.769 --> 04:34.611
+Two point one nine, yep
+and then round that up.
+
+04:34.611 --> 04:38.321
+And we are all done.

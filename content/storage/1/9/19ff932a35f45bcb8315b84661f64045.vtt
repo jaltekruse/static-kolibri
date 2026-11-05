@@ -1,0 +1,354 @@
+WEBVTT
+
+00:00.570 --> 00:02.969
+Já afirmei em um vídeo anterior
+
+00:02.969 --> 00:04.980
+que para esta sequência,
+
+00:04.980 --> 00:07.060
+explicitamente expressa desta forma,
+
+00:07.060 --> 00:11.530
+o limite desta sequência...posso escrevê-la
+
+00:11.530 --> 00:15.390
+como menos 1 elevado à n mais 1
+
+00:15.390 --> 00:16.400
+sobre n.
+
+00:16.400 --> 00:18.580
+Esta é uma forma de definir nossa função.
+
+00:18.580 --> 00:21.976
+O limite conforme n se aproxima ao infinito
+
+00:21.976 --> 00:24.020
+é igual a 0.
+
+00:24.020 --> 00:25.060
+E faz sentido.
+
+00:25.060 --> 00:27.764
+Conforme n cresce mais e mais,
+
+00:27.764 --> 00:30.055
+ainda que o numerador alterne entre menos 1
+
+00:30.055 --> 00:32.060
+e 1, ele vai ficando cada vez menor
+
+00:32.060 --> 00:33.060
+e menor, e menor.
+
+00:33.060 --> 00:34.434
+Mas não provei isto,
+
+00:34.434 --> 00:36.180
+e é o que quero fazer neste vídeo.
+
+00:36.180 --> 00:40.310
+Isto apenas será verdade somente se
+
+00:40.310 --> 00:47.190
+para qualquer épsilon maior que 0,
+
+00:47.190 --> 00:54.190
+exista um M maior que 0, tal qual
+
+00:54.190 --> 01:02.140
+se nosso índice n for maior que nosso M,
+
+01:02.140 --> 01:06.820
+então o enésimo termo da nossa sequência
+
+01:06.820 --> 01:09.981
+estará a menos de épsilon do limite,
+
+01:09.981 --> 01:15.842
+dentro de épsilon de distância de 0.
+
+01:15.842 --> 01:17.220
+Então o quê isto quer dizer?
+
+01:17.220 --> 01:19.650
+Nosso limite aqui é 0.
+
+01:19.650 --> 01:20.900
+Deixe-me mudar de cor.
+
+01:20.900 --> 01:22.940
+Então o nosso limite aqui é 0.
+
+01:22.940 --> 01:24.220
+Este é o nosso limite.
+
+01:24.220 --> 01:26.090
+Então se nosso limite aqui é --
+
+01:26.090 --> 01:29.050
+estamos dizendo que a sequência converge a 0.
+
+01:29.050 --> 01:32.210
+Estamos dizendo que, dado um épsilon ao redor de 0.
+
+01:32.210 --> 01:35.330
+Digamos que isto seja 0 mais épsilon.
+
+01:35.330 --> 01:36.770
+Isto é 0 mais épsilon.
+
+01:36.770 --> 01:39.620
+Do jeito que desenhei parece que épsilon é 0,5.
+
+01:39.620 --> 01:41.240
+E isto seria 0 menos épsilon.
+
+01:41.240 --> 01:43.880
+Vou deixar isso mais limpo.
+
+01:43.880 --> 01:46.800
+Então isto seria 0 menos épsilon.
+
+01:46.800 --> 01:51.440
+Isto é 0 menos épsilon, 0 mais épsilon.
+
+01:51.440 --> 01:55.210
+Alegamos que o limite neste caso é 0.
+
+01:55.210 --> 01:57.590
+Isto é dizer que para qualquer épsilon, precisamos
+
+01:57.590 --> 02:00.780
+encontrar um M tal que se n for maior que M
+
+02:00.780 --> 02:03.486
+a distância entre a sequência e nosso limite
+
+02:03.486 --> 02:04.860
+será menor que épsilon.
+
+02:04.860 --> 02:08.330
+Se a distância entre a nossa sequência e o nosso limite
+
+02:08.330 --> 02:10.780
+for menor que épsilon, isso significa que o valor
+
+02:10.780 --> 02:13.800
+da nossa sequência para um dado n
+
+02:13.800 --> 02:15.450
+estará entre estes dois limites.
+
+02:15.450 --> 02:17.970
+Estaria dentro desta área
+
+02:17.970 --> 02:21.510
+que estou preenchendo, a partir de certo n.
+
+02:21.510 --> 02:24.640
+Então se escolhesse um n aqui,
+
+02:24.640 --> 02:26.370
+parece que qualquer n maior que isso
+
+02:26.370 --> 02:29.750
+este será o caso, estaremos
+entre estes limites.
+
+02:29.780 --> 02:31.830
+Mas como provamos isto?
+
+02:31.830 --> 02:33.960
+Bom, pensemos sobre o que
+
+02:33.960 --> 02:36.440
+precisa acontecer para isto ser verdade.
+
+02:36.440 --> 02:40.220
+O que precisa acontecer
+
+02:40.220 --> 02:43.530
+para o valor absoluto de an menos 0
+
+02:43.530 --> 02:46.710
+ser menor que épsilon?
+
+02:46.710 --> 02:48.580
+Bem, isto é outra forma de dizer que
+
+02:48.580 --> 02:53.180
+o valor absoluto de an tem que ser menor que épsilon.
+
+02:53.180 --> 02:55.080
+E an é apenas este negócio aqui,
+
+02:55.080 --> 02:58.510
+então é uma forma de dizer que o valor absoluto
+
+02:58.510 --> 03:02.180
+de menos 1 elevado à n mais 1 sobre n
+
+03:02.180 --> 03:05.590
+tem que ser menor que épsilon.
+
+03:05.590 --> 03:08.020
+Este menos 1 elevado à n mais um,
+
+03:08.020 --> 03:10.310
+este numerador apenas alterna entre valores
+
+03:10.310 --> 03:12.322
+negativos e positivos e 1 sobre n.
+
+03:12.322 --> 03:14.030
+Mas se tomar o valor absoluto dele,
+
+03:14.030 --> 03:16.550
+isto sempre será positivo.
+
+03:16.550 --> 03:19.250
+Então isto será o mesmo que 1 sobre n,
+
+03:19.250 --> 03:23.570
+cujo valor absoluto tem que ser menor que épsilon.
+
+03:23.570 --> 03:26.400
+Agora, n sempre será positivo,
+
+03:26.400 --> 03:28.860
+n começa em 1 e vai ao infinito.
+
+03:28.860 --> 03:31.250
+Então este valor será sempre positivo.
+
+03:31.250 --> 03:33.510
+Isto é dizer que 1 sobre n tem que ser
+
+03:33.510 --> 03:36.380
+menos que épsilon para que
+
+03:36.380 --> 03:37.840
+isto seja verdade
+
+03:37.840 --> 03:40.327
+E agora podemos tirar a recíproca dos dois lados.
+
+03:40.327 --> 03:42.910
+Ao tirar a recíproca dos lados de uma desigualdade
+
+03:42.910 --> 03:45.310
+teremos que n -- ao tirar a recíproca
+
+03:45.310 --> 03:49.640
+dos dois lados de uma desigualdade
+
+03:49.640 --> 03:51.260
+temos que inverter o sinal --
+
+03:51.260 --> 03:54.100
+Então para isto ser verdade, n tem que
+
+03:54.100 --> 03:56.940
+ser maior do que 1 sobre épsilon.
+
+03:56.940 --> 03:59.780
+E basicamente concluímos a prova.
+
+03:59.780 --> 04:02.880
+Agora dissemos que, para esta sequência em particular
+
+04:02.880 --> 04:06.950
+dado qualquer épsilon,
+
+04:06.950 --> 04:12.030
+eu vou estabelecer M como 1 sobre épsilon.
+
+04:12.030 --> 04:16.646
+Porque se n for maior que M,
+
+04:16.646 --> 04:21.262
+M é o mesmo que 1 sobre épsilon,
+
+04:21.262 --> 04:25.880
+saberemos que isto aqui é verdade.
+
+04:25.880 --> 04:30.680
+Que isto será verdade.
+
+04:30.680 --> 04:34.380
+Então o limite com certeza existe.
+
+04:34.380 --> 04:36.810
+Então aqui, para este épsilon em particular,
+
+04:36.810 --> 04:40.200
+parece que escolhemos 0,5 como nosso épsilon.
+
+04:40.200 --> 04:43.250
+Desde que nosso n seja maior que 1 sobre 1/2,
+
+04:43.250 --> 04:46.630
+que é 2, digamos que você me dê 1/2.
+
+04:46.630 --> 04:48.464
+Meu M será uma função de épsilon.
+
+04:48.464 --> 04:50.630
+Será definido por qualquer épsilon
+
+04:50.630 --> 04:53.030
+maior que 0.
+
+04:53.030 --> 04:55.530
+Então aqui 1 sobre 1/2 está logo aqui.
+
+04:55.530 --> 04:58.170
+Vou fazer o meu M bem aqui.
+
+04:58.170 --> 05:00.290
+E pode ver que é o caso
+
+05:00.290 --> 05:02.600
+que minha sequência está nesta região
+
+05:02.600 --> 05:05.240
+conforme passamos para um n maior que 2.
+
+05:05.240 --> 05:06.970
+Isto será verdade para n igual a 3,
+
+05:06.970 --> 05:08.553
+e também para n igual a 4.
+
+05:08.553 --> 05:10.620
+E também para n igual a 5-- e continua.
+
+05:10.620 --> 05:12.370
+Não estamos apenas acreditando cegamente.
+
+05:12.370 --> 05:14.410
+Já provamos isto bem aqui.
+
+05:14.410 --> 05:15.710
+Fizemos a prova.
+
+05:15.710 --> 05:17.510
+Podemos ter qualquer outro épsilon,
+
+05:17.510 --> 05:21.000
+eu disse que M é igual a 1 sobre aquilo.
+
+05:21.000 --> 05:24.080
+Então para qualquer n maior que aquilo, isto será verdade.
+
+05:24.080 --> 05:25.990
+Este é o caso.
+
+05:25.990 --> 05:28.940
+Esta sequência converge a 0.
+
+05:28.963 --> 05:30.823
+[legendado por: Guilherme Hubner
+revisado por: Musa Morena Marcusso Manhães]

@@ -1,0 +1,475 @@
+WEBVTT
+
+00:00.754 --> 00:02.903
+Ich möchte meine Beweglichkeit verbessern,
+
+00:02.903 --> 00:06.433
+daher habe ich mich entschieden einen Yoga Kurs zu besuchen.
+
+00:06.433 --> 00:10.172
+Ich bin daher zur örtlichen Yoga Schule gegangen und habe dort gefragt,
+
+00:10.172 --> 00:12.701
+wie viel ein Yoga Kurs kostet.
+
+00:12.701 --> 00:15.737
+Sie sagten, dass es eine Basismitgliedschaft gibt und
+
+00:15.737 --> 00:17.675
+eine Testmitgliedschaft.
+
+00:17.675 --> 00:19.368
+Bei einer Testmitgliedschaft kannst du alles ausprobieren,
+
+00:19.368 --> 00:21.231
+und du kannst zu jeder Stunde kommen.
+
+00:21.231 --> 00:24.822
+Das kostet dann 12€ für einen einstündigen Kurs.
+
+00:24.822 --> 00:27.035
+Wenn dir der Kurs gefällt,
+
+00:27.035 --> 00:29.075
+möchtest du vielleicht eine monatliche Mitgliedschaft abschließen.
+
+00:29.075 --> 00:30.362
+Das wären dann 20€/Monat,
+
+00:30.362 --> 00:32.452
+das wären dann eine Basismitgliedschaft,
+
+00:32.452 --> 00:35.420
+das wären dann 20€/Monat mit einer Ermäßigung für jede Stunde.
+
+00:35.420 --> 00:37.569
+Eine Stunde kostete dann 8€.
+
+00:37.569 --> 00:41.590
+Das hört sich interessant an aber ich bin etwas verwirrt.
+
+00:41.590 --> 00:44.084
+Welches Modell soll ich nehmen?
+
+00:44.084 --> 00:47.570
+In erster Linie überlege ich,
+
+00:47.570 --> 00:48.956
+wie viel ich bezahlen werde,
+
+00:48.956 --> 00:52.390
+in Abhängigkeit von der Anzahl der Trainingsstunden, die ich wirklich nehme.
+
+00:52.420 --> 00:54.101
+Damit dies übersichtlich bleibt, definiere ich einige Variablen.
+
+00:54.101 --> 00:56.282
+Damit dies übersichtlich bleibt, definiere ich einige Variablen.
+
+00:56.282 --> 01:01.763
+Nehmen wir S = 'Anzahl der Stunden' an, die ich monatlich nehme.
+
+01:01.763 --> 01:07.741
+Nehmen wir S = 'Anzahl der Stunden' an, die ich monatlich nehme.
+
+01:07.741 --> 01:09.941
+Nehmen wir S = 'Anzahl der Stunden' an, die ich monatlich nehme.
+
+01:09.941 --> 01:15.155
+Und nehmen wir C = 'Gesamte monatliche Kosten' an.
+
+01:15.616 --> 01:18.549
+Meine gesamten monatlichen Kosten.
+
+01:18.933 --> 01:20.941
+Wenn wir diese Variablen so definieren,
+
+01:20.941 --> 01:22.849
+lass uns darüber nachdenken, wie viel ich
+
+01:22.849 --> 01:24.141
+bei jedem dieser Modelle bezahlen würde,
+
+01:24.141 --> 01:26.527
+in Abhängigkeit von der Anzahl der Stunden die ich nehme.
+
+01:26.527 --> 01:29.605
+Lass uns zunächst über die Testmitgliedschaft nachdenken,
+
+01:29.605 --> 01:31.147
+denn das scheint etwas einfacher zu sein.
+
+01:31.147 --> 01:32.755
+Ich zeichne hier eine kleine Tabelle.
+
+01:32.755 --> 01:38.768
+Hierhin schreibe ich die Anzahl der Stunden,
+
+01:39.807 --> 01:44.243
+und dann berechne ich die Kosten,
+
+01:44.243 --> 01:47.135
+und dann zeichne hier hier die Tabelle.
+
+01:47.135 --> 01:50.048
+Eine Tabelle für die Testmitgliedschaft und,
+
+01:50.048 --> 01:51.570
+damit wir das vergleichen können,
+
+01:51.570 --> 01:53.093
+auch für die Basismitgliedschaft.
+
+01:53.093 --> 01:55.507
+auch für die Basismitgliedschaft.
+
+01:55.845 --> 01:57.884
+Lass es uns auch für die Basismitgliedschaft machen.
+
+01:57.884 --> 01:59.923
+Damit habe ich hier die Anzahl der Stunden, die ich besucht habe
+
+01:59.923 --> 02:03.768
+und meine Gesamtkosten.
+
+02:04.521 --> 02:08.887
+Gut, lass uns darüber nachdenken, was ich bezahlen muss, wenn ich keine Stunden nehme.
+
+02:08.887 --> 02:12.744
+Also, wenn ich keine Stunden besuche,
+
+02:12.744 --> 02:15.567
+was kostet mich dies im Rahmen der Testmitgliedschaft?
+
+02:16.905 --> 02:20.833
+Nun, 12€ pro Stunde, 12 mal keine Stunde,
+
+02:20.833 --> 02:22.369
+das heißt, dass ich keine Kosten habe.
+
+02:22.369 --> 02:25.898
+Meine Kosten sind gleich 0.
+
+02:25.898 --> 02:28.036
+Nun die gleiche Frage unter den Bedingungen der Basismitgliedschaft.
+
+02:28.036 --> 02:29.091
+Nun die gleiche Frage unter den Bedingungen der Basismitgliedschaft.
+
+02:29.091 --> 02:33.102
+Ich habe die Basismitgliedschaft, aber ich besuche in einem Monat keine Stunde.
+
+02:33.102 --> 02:35.485
+Ich habe die Basismitgliedschaft, aber ich besuche in einem Monat keine Stunde.
+
+02:35.485 --> 02:38.036
+Ich gehe an keinem Tag hin.
+
+02:38.036 --> 02:40.100
+Wie viel muss ich bezahlen?
+
+02:40.946 --> 02:42.615
+Nun, 8€ pro Stunde und ich habe keine Stunde besucht.
+
+02:42.615 --> 02:44.230
+Nun, 8€ pro Stunde und ich habe keine Stunde besucht.
+
+02:44.230 --> 02:45.562
+Damit muss ich keine der Stunden bezahlen.
+
+02:45.562 --> 02:46.894
+Damit muss ich keine der Stunden bezahlen.
+
+02:46.894 --> 02:49.418
+aber ich muss 20€ Basisbeitrag zahlen.
+
+02:49.418 --> 02:53.239
+Also muss ich 20€ zahlen
+
+02:53.239 --> 02:55.076
+auch wenn ich keine Stunde besuche.
+
+02:55.691 --> 02:57.923
+Dieser Fall hört sich nicht so gut an.
+
+02:57.923 --> 03:00.365
+Aber lass uns noch andere Fälle anschauen.
+
+03:00.365 --> 03:04.286
+Lass uns über einen Fall nachdenken, in dem ich eine Stunde besuche.
+
+03:05.024 --> 03:07.249
+Eine Stunde.
+
+03:07.249 --> 03:11.011
+Mit der Testmitgliedschaft, wie viel müsste ich zahlen?
+
+03:11.380 --> 03:15.741
+Nun, das wären 12€ pro Stunde,
+
+03:15.741 --> 03:21.561
+also müsste ich 12€ zahlen.
+
+03:21.637 --> 03:24.476
+Im Falle der Basismitgliedschaft, wenn ich eine Stunde besuchte, müsste ich
+
+03:24.476 --> 03:27.011
+Im Falle der Basismitgliedschaft, wenn ich eine Stunde besuchte, müsste ich
+
+03:27.011 --> 03:32.070
+8€ pro Stunde zahlen, also 8€.
+
+03:32.070 --> 03:33.173
+8€ pro Stunde zahlen, also 8€.
+
+03:33.173 --> 03:35.257
+Dazu den Monatsbeitrag.
+
+03:35.257 --> 03:37.967
+Also muss ich 20€ + (8€ mal 1) zahlen.
+
+03:37.967 --> 03:39.209
+Also 28€.
+
+03:39.209 --> 03:43.981
+Ich muss 28€ zahlen.
+
+03:43.981 --> 03:46.703
+Damit schient die Testmitgliedschaft immer noch besser auszusehen,
+
+03:46.703 --> 03:49.392
+auch wenn ich eine Stunde nehme.
+
+03:49.392 --> 03:50.303
+Lass mich das deutlich machen.
+
+03:50.303 --> 03:51.303
+Ich habe das in Euro ausgerechnet,
+
+03:51.303 --> 03:53.506
+das hier sind 28€.
+
+03:53.506 --> 03:54.560
+Du kannst hier weitermachen,
+
+03:54.560 --> 03:55.615
+Mach hier weiter,
+
+03:55.615 --> 03:56.902
+aber lass uns noch einen Fall gemeinsam untersuchen,
+
+03:56.902 --> 03:59.433
+damit du hier ein Gefühl für die Zahlenverhältnisse bekommst.
+
+03:59.433 --> 04:02.989
+Wenn ich zwei Stunden bei der Testmitgliedschaft nehme,
+
+04:02.989 --> 04:05.589
+wie viel muss ich dann bezahlen?
+
+04:05.589 --> 04:08.368
+Das sind natürlich 12€ pro Stunde mal 2,
+
+04:08.368 --> 04:13.595
+also muss ich 24€ bezahlen.
+
+04:14.588 --> 04:16.289
+Bei der Basismitglieschaft wären dies bei zwei Stunden
+
+04:16.289 --> 04:17.969
+Bei der Basismitglieschaft wären dies bei zwei Stunden
+
+04:17.969 --> 04:20.800
+--ich kennzeichne dies in gelb--
+
+04:20.800 --> 04:22.911
+wenn ich 2 Stunden besuchte,
+
+04:23.096 --> 04:27.205
+2 mal 8€, das wären 16€ plus der monatlichen Basissumme von 20€,
+
+04:27.205 --> 04:30.152
+2 mal 8€, das wären 16€ plus der monatlichen Basissumme von 20€,
+
+04:30.152 --> 04:35.415
+dann wären dies 2 mal 8€ plus 20€
+
+04:35.815 --> 04:38.679
+dann wären dies 2 mal 8€ plus 20€
+
+04:38.679 --> 04:41.389
+das wären dann gleich 16€ plus 20€
+
+04:41.389 --> 04:44.100
+= 36€.
+
+04:44.100 --> 04:46.507
+Nun, zumindest für die Szenarien, die wir hier betrachtet haben,
+
+04:46.507 --> 04:49.151
+also wenn ich keine, eine oder zwei Stunden im Monat nehmen würde,
+
+04:49.151 --> 04:51.552
+dann wäre die Testmitgliedschaft günstiger.
+
+04:51.552 --> 04:52.777
+Interessant wäre nun zu wissen,
+
+04:52.777 --> 04:56.161
+an welchem Punkt die Testmitgliedschaft schlechter wird.
+
+04:56.161 --> 04:57.278
+Bevor wir das machen,
+
+04:57.278 --> 04:59.893
+lass uns einmal kurz darüber nachdenken
+
+04:59.893 --> 05:00.970
+wie wir diese Rechnung in einer Gleichung ausdrücken könnten.
+
+05:00.970 --> 05:03.173
+Denn das erlaubt uns präziesere Antworten.
+
+05:03.173 --> 05:06.036
+Denn das erlaubt uns präziesere Antworten.
+
+05:06.036 --> 05:09.168
+Also, wenn wir sagen, S ist die 'Anzahl der Stunden pro Monat'
+
+05:09.168 --> 05:11.257
+und C sind die 'Kosten pro Monat'.
+
+05:11.257 --> 05:15.303
+Wie können wir das Modell einer Testmitgliedschaft in einer Gleichung ausdrücken?
+
+05:16.810 --> 05:19.092
+Nun, wir könnten sagen, unsere Gesamtkosten pro Monat
+
+05:19.092 --> 05:20.911
+Nun, wir könnten sagen, unsere Gesamtkosten pro Monat
+
+05:20.911 --> 05:22.694
+und das wäre jetzt für unsere Testmitgliedschaft hier drüben,
+
+05:22.694 --> 05:24.278
+ich kennzeichne das mit einer gepunkteten Linie,
+
+05:24.278 --> 05:25.968
+ich kennzeichne das mit einer gepunkteten Linie,
+
+05:25.968 --> 05:29.814
+dies wären dann Gesamtkosten C gleich 12€ pro Stunde mal Anzahl der Stunden S.
+
+05:29.814 --> 05:37.559
+dies wären dann Gesamtkosten C gleich 12€ pro Stunde mal Anzahl der Stunden S.
+
+05:37.559 --> 05:41.864
+dies wären dann Gesamtkosten C gleich 12€ pro Stunde mal Anzahl der Stunden S.
+
+05:41.864 --> 05:46.159
+Also mit der Testmitgliedschaft sind meine Gesamtkosten
+
+05:46.159 --> 05:48.902
+C = 12€ mal S.
+
+05:48.902 --> 05:52.101
+C = 12€ mal S.
+
+05:52.101 --> 05:53.948
+Lass uns das Gleiche mit der Basismitgliedschaft machen.
+
+05:53.948 --> 05:56.748
+Wie können wir das in einer Gleichung ausdrücken?
+
+05:58.701 --> 06:00.752
+Wir haben unsere Gesamtkosten,
+
+06:00.752 --> 06:03.166
+unsere Gessamtkosten C sind gleich,
+
+06:03.166 --> 06:05.507
+egal wie viele Stunden wir in dem Monat nehmen,
+
+06:05.507 --> 06:07.676
+wir müssen 20€ pro Monat zahlen.
+
+06:07.676 --> 06:09.633
+wir müssen 20€ pro Monat zahlen.
+
+06:09.633 --> 06:11.368
+wir müssen 20€ pro Monat zahlen.
+
+06:11.368 --> 06:12.270
+wir müssen 20€ pro Monat zahlen.
+
+06:12.270 --> 06:13.172
+wir müssen 20€ pro Monat zahlen.
+
+06:13.172 --> 06:14.488
+Und dann müssen wir 8€ pro Stunde zahlen.
+
+06:14.488 --> 06:17.923
+Und dann müssen wir 8€ pro Stunde zahlen.
+
+06:17.923 --> 06:34.005
+Damit sind das 20€ + (8€ mal Anzahl der Stunden S).
+
+06:34.005 --> 06:35.793
+Das ist interessant.
+
+06:35.793 --> 06:38.430
+Wenn du hier eine 0 eingibst,
+
+06:38.430 --> 06:39.580
+Wenn du S = 0 setzt,
+
+06:39.626 --> 06:42.300
+dann bekommst du 20 + (8 mal 0) und das ist 20.
+
+06:42.300 --> 06:46.547
+Wenn S gleich 1 ist, dann erhälst du 20 + (8 mal 1),
+
+06:46.547 --> 06:47.492
+und das ist 28.
+
+06:47.492 --> 06:49.967
+Damit siehst du, dass die Werte für S und C die Gleichung erfüllen.
+
+06:49.967 --> 06:52.369
+Damit siehst du, dass die Werte für S und C die Gleichung erfüllen.
+
+06:52.369 --> 06:53.786
+Das gilt auch hier drüben
+
+06:53.786 --> 06:55.204
+und wir könnten noch weitere Werte einsetzten.
+
+06:55.204 --> 06:56.832
+Was bei dieser Gleichung schön ist, ist dass diese Glechung
+
+06:56.832 --> 06:59.100
+alle möglichen Konbinationen einschließt
+
+06:59.100 --> 07:01.369
+alle möglichen Konbinationen einschließt
+
+07:01.369 --> 07:03.594
+und diese Gleichung beinhaltet alle möglichen Kombinationen hier.
+
+07:03.594 --> 07:08.623
+und diese Gleichung beinhaltet alle möglichen Kombinationen hier.
+
+07:08.623 --> 07:10.189
+Im Rahmen der folgenden Videos möchte ich auf dieser Grundlage weitermachen
+
+07:10.189 --> 07:11.483
+und ich möchte herausfinden,
+
+07:11.483 --> 07:13.444
+wie wir Gleichungen nutzen können,
+
+07:13.444 --> 07:15.405
+nicht nur um herauszufinden welches Mitgliedsmodell das Bessere ist,
+
+07:15.405 --> 07:18.533
+sondern wie man weit mehr Erkenntnisse aus Gleichungen ziehen kann.

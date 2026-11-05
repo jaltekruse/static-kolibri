@@ -1,0 +1,569 @@
+WEBVTT
+
+00:00.499 --> 00:04.050
+Agora vamos pensar sobre
+o teorema do valor extremo,
+
+00:04.050 --> 00:06.350
+no qual veremos que é
+um pouco de senso comum.
+
+00:06.350 --> 00:08.080
+Mas em todos esses teoremas é
+
+00:08.080 --> 00:10.310
+sempre divertido pensar
+sobre casos limite.
+
+00:10.310 --> 00:12.500
+Por que isso é definido
+dessa maneira?
+
+00:12.500 --> 00:16.700
+E isso pode nos dar um pouco mais
+de intuição sobre o tópico.
+
+00:16.700 --> 00:18.540
+O teorema do valor
+extremo diz que
+
+00:18.540 --> 00:24.640
+se tivermos uma função que é
+contínua em um intervalo fechado
+
+00:24.640 --> 00:27.124
+digamos que seja o intervalo
+de a até b,
+
+00:27.124 --> 00:28.810
+e quando dizemos
+intervalo fechado
+
+00:28.810 --> 00:31.570
+significa que incluímos
+os pontos finais a e b.
+
+00:31.570 --> 00:34.460
+Essa é a razão de termos colchetes
+ao invés de parênteses.
+
+00:34.460 --> 00:40.630
+Haverá então um valor
+máximo absoluto
+
+00:40.630 --> 00:44.470
+para f e um valor mínimo
+absoluto para f.
+
+00:44.470 --> 00:46.920
+Isso significa que existe --
+
+00:46.920 --> 00:51.340
+isso é o símbolo lógico
+para "existe" -- existe
+
+00:51.340 --> 01:07.430
+um valor máximo absoluto
+de f sobre o intervalo
+
+01:07.430 --> 01:17.826
+e um valor mínimo
+absoluto de f no intervalo.
+
+01:17.826 --> 01:19.450
+Pensemos um pouco sobre isso.
+
+01:19.450 --> 01:21.994
+Pode parecer bastante
+intuitivo para você.
+
+01:21.994 --> 01:24.150
+Você pode estar pensando,
+porque tiveram que
+
+01:24.150 --> 01:25.640
+escrever um teorema aqui?
+
+01:25.640 --> 01:28.292
+E por que temos que ter
+essa continuidade aqui?
+
+01:28.292 --> 01:30.500
+Em um segundo
+veremos o por quê
+
+01:30.500 --> 01:32.550
+Essa continuidade
+realmente importa.
+
+01:32.550 --> 01:35.560
+Esse é o meu eixo x,
+aquele é o meu eixo y.
+
+01:35.560 --> 01:37.270
+Desenhemos esse intervalo.
+
+01:37.270 --> 01:38.890
+Esse intervalo vai de a até b.
+
+01:38.890 --> 01:44.140
+Digamos que esse é
+a e esse aqui é b.
+
+01:44.140 --> 01:46.680
+Digamos que esse
+aqui é f de a.
+
+01:46.680 --> 01:48.570
+Esse é f de a.
+
+01:48.570 --> 01:52.260
+Digamos que esse
+aqui é f de b.
+
+01:52.260 --> 01:56.850
+Então esse valor
+aqui é f de b.
+
+01:56.850 --> 02:02.629
+Digamos que essa função
+se comporte assim.
+
+02:02.850 --> 02:04.070
+neste intervalo.
+
+02:04.070 --> 02:07.300
+Estou somente
+desenhando algo arbitrário
+
+02:07.300 --> 02:09.020
+logo aqui.
+
+02:09.020 --> 02:10.728
+Eu desenhei uma
+função contínua.
+
+02:10.728 --> 02:12.580
+Eu não tive que pegar
+minha caneta
+
+02:12.580 --> 02:15.562
+quando desenhei
+isso logo aqui.
+
+02:15.562 --> 02:17.620
+E você pode ver pelo
+menos a maneira que
+
+02:17.620 --> 02:19.650
+desenhei essa função contínua,
+
+02:19.650 --> 02:21.840
+é claro que há
+um ponto máximo absoluto
+
+02:21.840 --> 02:23.760
+e mínimo absoluto
+sobre este intervalo.
+
+02:23.760 --> 02:25.460
+O ponto mínimo
+absoluto parece ser
+
+02:25.460 --> 02:28.400
+atingido logo aqui quando
+
+02:28.400 --> 02:30.520
+x é igual a c.
+
+02:30.520 --> 02:34.090
+E esse é f de c logo aqui.
+
+02:34.090 --> 02:36.880
+E parece que temos o
+ponto máximo absoluto
+
+02:36.880 --> 02:38.790
+no intervalo logo aqui
+
+02:38.790 --> 02:42.190
+quando x é -- digamos
+que x é igual a d.
+
+02:42.190 --> 02:47.660
+E esse aqui é f de d.
+
+02:47.660 --> 02:50.540
+Uma outra maneira de dizer
+essa declaração aqui se f
+
+02:50.540 --> 02:52.320
+for contínua sobre o intervalo,
+
+02:52.320 --> 03:02.420
+poderíamos dizer que existe um
+c e um d que estão no intervalo.
+
+03:02.420 --> 03:04.610
+Eles são membros do conjunto que
+
+03:04.610 --> 03:09.230
+estão em um intervalo de
+forma que -- e eu estou
+
+03:09.230 --> 03:11.800
+usando a notação lógica aqui.
+
+03:11.800 --> 03:21.860
+Tal que f de c é
+menor ou igual a f de x,
+
+03:21.860 --> 03:25.740
+que é menor ou igual a f de d
+
+03:25.740 --> 03:31.110
+para todo x neste intervalo.
+
+03:35.610 --> 03:36.590
+Simples assim.
+
+03:36.590 --> 03:38.370
+Nesse caso você
+está dizendo que
+
+03:38.370 --> 03:39.686
+atingimos o valor mínimo
+
+03:39.686 --> 03:41.413
+quando x é igual a c.
+É esse logo aqui
+
+03:41.413 --> 03:43.354
+Nosso valor máximo
+quando x é igual a d.
+
+03:43.354 --> 03:45.350
+E para todos os outros
+x's no intervalo
+
+03:45.350 --> 03:51.100
+estamos entre
+esses dois valores.
+
+03:51.100 --> 03:54.525
+Agora, poderíamos desenhar
+outras funções contínuas.
+
+03:54.525 --> 03:56.230
+Eu não estou fazendo a prova
+
+03:56.230 --> 03:57.670
+do teorema do valor extremo.
+
+03:57.670 --> 03:59.420
+Mas faço isso para lhe
+familiarizar
+
+03:59.420 --> 04:01.356
+e o porquê é definido
+dessa maneira.
+
+04:01.356 --> 04:03.210
+Você pode desenhar
+várias funções aqui
+
+04:03.210 --> 04:05.930
+que são contínuas
+nesse intervalo fechado.
+
+04:05.930 --> 04:10.250
+Aqui o nosso ponto máximo
+aconteceu quando atingimos b.
+
+04:10.250 --> 04:13.320
+E o nosso ponto
+mínimo acontece em a.
+
+04:13.320 --> 04:17.450
+Para uma função plana,
+poderíamos colocar qualquer ponto
+
+04:17.450 --> 04:19.360
+como pontos máximo e mínimo.
+
+04:19.360 --> 04:22.029
+E veremos que isso
+poderia mesmo ser verdade.
+
+04:22.029 --> 04:25.950
+Vamos nos aprofundar
+um pouco mais
+
+04:25.950 --> 04:28.290
+no por quê f precisa ser contínua
+
+04:28.290 --> 04:33.240
+e por que esse intervalo
+precisa ser fechado.
+
+04:33.240 --> 04:36.340
+Primeiramente, pensemos na razão
+por que f precisa ser contínua.
+
+04:36.340 --> 04:39.280
+Bom, eu posso facilmente
+construir uma função
+
+04:39.280 --> 04:42.130
+que não é contínua em
+um intervalo fechado
+
+04:42.130 --> 04:46.394
+onde é difícil definir um ponto
+mínimo ou um máximo.
+
+04:46.394 --> 04:48.870
+Eu lhe encorajo -- na realidade,
+pause este vídeo
+
+04:48.870 --> 04:50.730
+e tente construir
+essa função.
+
+04:50.730 --> 04:53.380
+Tente construir uma
+função não-contínua
+
+04:53.380 --> 04:56.880
+em um intervalo fechado,
+onde seria muito difícil
+
+04:56.880 --> 05:00.510
+ou você não poderia achar
+um valor mínimo absoluto
+
+05:00.510 --> 05:04.640
+ou um valor máximo
+absoluto neste intervalo.
+
+05:04.640 --> 05:08.080
+Bom, vejamos, deixe-me
+desenhar um gráfico aqui.
+
+05:08.080 --> 05:13.910
+Digamos que esse aqui é o meu intervalo.
+
+05:13.910 --> 05:16.750
+Digamos que esse é a e esse é b.
+
+05:16.750 --> 05:21.321
+Digamos que a nossa função
+se comportou assim
+
+05:21.321 --> 05:22.560
+logo onde você esperaria
+
+05:22.560 --> 05:24.170
+ter um valor máximo,
+
+05:24.170 --> 05:26.010
+digamos que a função é indefinida.
+
+05:26.010 --> 05:27.910
+E logo onde você esperaria ter
+
+05:27.910 --> 05:33.410
+um valor mínimo, a função é indefinida.
+
+05:33.410 --> 05:35.170
+E logo aqui você poderia dizer, bem,
+
+05:35.170 --> 05:37.250
+a função está claramente
+se aproximando,
+
+05:37.260 --> 05:40.370
+quando x se aproxima
+desse valor logo aqui,
+
+05:40.370 --> 05:43.080
+a função está claramente se
+aproximando deste limite.
+
+05:43.080 --> 05:45.345
+Mas aquele limite não
+pode ser o máximo
+
+05:45.345 --> 05:47.240
+por que a função nunca chega lá.
+
+05:47.240 --> 05:49.583
+Então você sugere chegarmos,
+mais perto daqui.
+
+05:49.583 --> 05:51.620
+Talvez esse número
+logo aqui seja cinco.
+
+05:51.620 --> 05:53.535
+Então o máximo talvez
+o máximo seja 4,9.
+
+05:53.535 --> 05:56.450
+Você poderia obter seu x
+cada vez mais perto deste valor
+
+05:56.450 --> 05:58.920
+e ter o seu y em 4,99 ou 4,999.
+
+05:58.920 --> 06:01.000
+Você pode continuar
+adicionando outro nove.
+
+06:01.000 --> 06:03.490
+Quando não há um valor máximo.
+
+06:03.490 --> 06:05.250
+Da mesma forma aqui, no mínimo.
+
+06:05.250 --> 06:07.990
+Vou desenhá-lo para
+que se pareça mais com um mínimo.
+
+06:07.990 --> 06:10.052
+Você pode chegar
+cada vez mais perto dele,
+
+06:10.052 --> 06:11.550
+mas não há um mínimo.
+
+06:11.550 --> 06:13.168
+Digamos que esse valor
+seja um.
+
+06:13.168 --> 06:18.350
+Você poderia chegar então a
+1,1, ou 1,01, ou 1,0001.
+
+06:18.350 --> 06:21.630
+E você poderia continuar desenhando
+alguns zeros entre os dois uns
+
+06:21.630 --> 06:25.890
+mas não existe nenhum
+valor mínimo absoluto ali.
+
+06:25.890 --> 06:28.520
+Pensemos no porquê o
+
+06:28.520 --> 06:30.030
+intervalo fechado importa.
+
+06:30.030 --> 06:33.860
+Por que você tem que incluir os
+pontos finais como candidatos
+
+06:33.860 --> 06:40.870
+para os valores máximo
+e mínimo no intervalo.
+
+06:40.870 --> 06:47.330
+Bom, imaginemos que esse
+seja um intervalo aberto.
+
+06:48.740 --> 06:50.979
+E algumas vezes, se
+quisermos ser específicos,
+
+06:50.979 --> 06:53.900
+dizemos que poderia ser esse intervalo
+fechado em colchetes
+
+06:53.900 --> 06:56.440
+E se quiséssemos fazer um
+intervalo aberto logo aqui,
+
+06:56.440 --> 06:58.570
+esse é a e esse é b.
+
+06:58.570 --> 07:02.080
+E escolhemos uma função bem simples,
+
+07:02.080 --> 07:04.185
+digamos que seja
+um função como essa.
+
+07:06.910 --> 07:10.000
+Logo aqui, se a estivesse
+no nosso intervalo,
+
+07:10.000 --> 07:13.000
+parece que chegamos
+ao valor mínimo em a.
+
+07:13.000 --> 07:14.960
+f de a teria sido o
+nosso valor mínimo.
+
+07:14.960 --> 07:17.815
+E f de b parece que teria
+sido o nosso valor máximo.
+
+07:20.600 --> 07:23.020
+Mas não estamos incluindo
+a e b no intervalo.
+
+07:23.020 --> 07:25.067
+Esse é um intervalo
+aberto, então você pode
+
+07:25.067 --> 07:26.660
+chegar cada vez mais perto
+
+07:26.660 --> 07:29.118
+de b e obter valores
+cada vez maiores
+
+07:29.118 --> 07:30.560
+sem nunca chegar a b.
+
+07:30.560 --> 07:32.870
+Por que não
+estamos incluindo o ponto b.
+
+07:32.870 --> 07:35.800
+Similarmente, você poderia
+chegar cada vez mais perto de a,
+
+07:35.800 --> 07:37.508
+e obter valores
+cada vez menores.
+
+07:37.508 --> 07:40.150
+Mas a não está incluído no
+conjunto em questão.
+
+07:40.150 --> 07:43.870
+Então f de a não pode
+ser o nosso valor mínimo.
+
+07:43.870 --> 07:47.750
+Nesse ponto, é bastante intuitivo,
+
+07:47.750 --> 07:49.510
+quase um teorema óbvio.
+
+07:49.510 --> 07:51.500
+Mas por outro lado, é bom saber
+
+07:51.500 --> 07:53.320
+o por quê tiveram
+que dizer contínuo e
+
+07:53.320 --> 07:56.332
+por quê tem que ser um
+intervalo fechado como esse.
+
+07:56.332 --> 08:00.372
+[Legendado por Musa Morena Marcusso Manhães]
+[Revisado por Cainã Perri]

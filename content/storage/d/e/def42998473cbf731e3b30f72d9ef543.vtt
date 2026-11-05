@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.000 --> 00:00.480
+.
+
+00:00.480 --> 00:03.190
+Bu videoda size dataları doğruya nasıl uygulayacağınızla ilgili örnek vermek istiyorum.
+
+00:03.190 --> 00:06.170
+.
+
+00:06.170 --> 00:08.730
+Her zaman kullandığım video şeklinde yapıp küçük kalemimi kullanmak yerine direk Excel üzerinden göstereceğim.
+
+00:08.730 --> 00:11.840
+Böylelikle Excel ve benzeri bir program kullandığınızda nasıl yapacağınızı görmüş olursunuz.
+
+00:11.840 --> 00:14.250
+.
+
+00:14.250 --> 00:18.090
+.
+
+00:18.090 --> 00:19.380
+Bu işlemin matematiğini yapmayacağız bu sefer
+
+00:19.380 --> 00:21.540
+Gerçekten genel olarak dataları kullanarak doğru yapmayı ya da regresyon analizi yapmayı bilmenizi istiyorum.
+
+00:21.540 --> 00:26.840
+.
+
+00:26.840 --> 00:27.880
+.
+
+00:27.880 --> 00:29.550
+Haydi ilk olarak problemi okuyalım.
+
+00:29.550 --> 00:33.550
+Alttaki tabloda Amerikan Census Bureau tarafından rapor edilen 1995-2002 yılları arası orta Kalifornia'nın gelir bilgileri bulunmaktadır.
+
+00:33.550 --> 00:37.190
+..
+
+00:37.190 --> 00:40.850
+.
+
+00:40.850 --> 00:42.680
+.
+
+00:42.680 --> 00:45.320
+Dağılım grafiği yapıp denklemi bulunuz.
+
+00:45.320 --> 00:47.540
+2010 yılında orta Kaliforniadaki bir ailenin ortalama geliri kaç olmasını beklersiniz?
+
+00:47.540 --> 00:50.370
+.
+
+00:50.370 --> 00:52.970
+Bu soruda eğim ve y-keseninin anlamları nelerdir?
+
+00:52.970 --> 00:53.580
+.
+
+00:53.580 --> 00:56.050
+Yapmak isteyeceğiniz ilk şey kopyaladığım resimden dataları çekmek olacaktır, böylelikle program dataları anlayabilir.
+
+00:56.050 --> 00:59.060
+.
+
+00:59.060 --> 01:00.920
+.
+
+01:00.920 --> 01:03.830
+Haydi birkaç tablo yapalım.
+
+01:03.830 --> 01:08.800
+İlk sütuna 1995'ten itibaren yıllar diyelim.
+
+01:08.800 --> 01:10.710
+Bu ilk sütunn olsun.
+
+01:10.710 --> 01:13.670
+Biraz daha genişletelim sütunu.
+
+01:13.670 --> 01:16.670
+Buraya da ortalama gelir diyelim.
+
+01:16.670 --> 01:20.100
+Bu Kalifornia'daki bir aile için ortalama gelir.
+
+01:20.100 --> 01:23.560
+1995'ten itibaren yıl 1 diyerek başlıyoruz ya da yıl 0 diyerek.
+
+01:23.560 --> 01:28.100
+0,1,2,3,4.
+
+01:28.100 --> 01:32.710
+Aslında eğer isterseniz aşağıya gittikçe program eğilimi devam ettirecektir.
+
+01:32.710 --> 01:33.590
+.
+
+01:33.590 --> 01:36.650
+1 er 1 er arttırdığınızı fark edip kendisi devam edecektir.
+
+01:36.650 --> 01:38.340
+Buradaki gelir rakamlarını direk kopyalıyorum.
+
+01:38.340 --> 01:39.300
+.
+
+01:39.300 --> 01:54.710
+Yani $53.807, $55.217, $55.209, $55.415 $63.100,$63.206, $63.761, ve son olarak $65.766.
+
+01:54.710 --> 02:08.680
+.
+
+02:08.680 --> 02:10.520
+Burakilere ihtiyacım olmayacak o yüzden bu rakamlardan kurtuluyorum.
+
+02:10.520 --> 02:13.380
+.
+
+02:13.380 --> 02:14.810
+Bunları siliyorum.
+
+02:14.810 --> 02:16.180
+Yeterli veri girdiğimden emin olalım.
+
+02:16.180 --> 02:24.040
+burası 1,2,3,4,5,6,7,8 ve burada da 1,2,3,4,5,6,7,8 girdim var.
+
+02:24.040 --> 02:25.570
+.
+
+02:25.570 --> 02:29.930
+Dtalarımı doğru kopyaladığımdan emin olmak istiyorum.
+
+02:29.930 --> 02:34.510
+.
+
+02:34.510 --> 02:36.040
+Tamam, başlayabiliriz.
+
+02:36.040 --> 02:38.880
+Ne yapacağınızı biliyorsanız Excel'in çok kolay olduğunu göreceksiniz.
+
+02:38.880 --> 02:41.080
+.
+
+02:41.080 --> 02:44.430
+Öcelikle dataları grafige yerleştirip, dağılım grafiği yapıp ondan sonra da dataların regresyonuna bakın.
+
+02:44.430 --> 02:46.220
+.
+
+02:46.220 --> 02:48.970
+Bütün yapmanız gerken dataları çekmek.
+
+02:48.970 --> 02:51.480
+Ondan sonra Ekle menüsünü açıyoruz ve dağıtım grafiği seçiyoruz.
+
+02:51.480 --> 02:53.170
+.
+
+02:53.170 --> 02:54.390
+Ondan sonra farklı dağıtım grafiklerini seçebilirsiniz.
+
+02:54.390 --> 02:56.160
+.
+
+02:56.160 --> 02:58.820
+Şu anda sadece dataları grafiğe yerleştirmek istiyorum.
+
+02:58.820 --> 02:59.670
+İşte oldu.
+
+02:59.670 --> 03:02.470
+Benim yerime verileri grafiğe döktü.
+
+03:02.470 --> 03:03.050
+İşte oldu.
+
+03:03.050 --> 03:07.320
+Burası geliri burası da 1995'ten beri olan yılları gösteriyor
+
+03:07.320 --> 03:08.870
+.
+
+03:08.870 --> 03:10.570
+Burası 1995'i gösteriyor.
+
+03:10.570 --> 03:13.710
+$53.807 lık değer var.
+
+03:13.710 --> 03:17.370
+1996'da $55.217 olmuş.
+
+03:17.370 --> 03:19.250
+Yani bütün dataları grafiğe geçirmiş.
+
+03:19.250 --> 03:22.110
+Şimdi eğilim doğrusunu çizmek istiyorum.
+
+03:22.110 --> 03:24.000
+Bu tam olarak bir doğru değil.
+
+03:24.000 --> 03:27.580
+Eğer verileri iyi modelleyebildiysek düzgün bir doğru olmasa da
+
+03:27.580 --> 03:31.500
+Excel bizim için düzeltir.
+
+03:31.500 --> 03:34.580
+Yukarıda doğruya yaklaştırmak için bir çok seçeneğim var.
+
+03:34.580 --> 03:37.720
+.
+
+03:37.720 --> 03:38.710
+.
+
+03:38.710 --> 03:39.780
+Ben şuradaki özelliği seçeceğim
+
+03:39.780 --> 03:40.940
+Belki tam göremiyor olabilirsiniz.
+
+03:40.940 --> 03:42.460
+Noktaların arasındaki bir doğruya benziyor.
+
+03:42.460 --> 03:45.450
+Bana ayrıca doğrunun denklemini verecek bir f(x) özelliği var.
+
+03:45.450 --> 03:46.470
+.
+
+03:46.470 --> 03:49.520
+Eğer buna tıklarsam... İşte oldu.
+
+03:49.520 --> 03:52.570
+Sadece uygulamakla kalmadı aynı zamanda aynı dataları farklı bir grafik üzerine döktü.
+
+03:52.570 --> 03:54.530
+.
+
+03:54.530 --> 03:55.830
+Biraz daha büyülteyim.
+
+03:55.830 --> 03:58.430
+.
+
+03:58.430 --> 03:59.930
+.
+
+03:59.930 --> 04:01.060
+Biraz daha büyülteyim.
+
+04:01.060 --> 04:04.430
+Ne olduğunu bildiğimiz için verilerin üzerini kaplayabiliriz.
+
+04:04.430 --> 04:06.410
+.
+
+04:06.410 --> 04:09.460
+Şu şekilde üstünü kapatayım.
+
+04:09.460 --> 04:12.620
+Bu özellik sadece dataları grafiğe geçirmekle kalmadı aynı zamanda grafiğin denklemini verdi ve eğilim doğrusunu da gösterdi.
+
+04:12.620 --> 04:16.029
+.
+
+04:16.029 --> 04:17.355
+.
+
+04:17.355 --> 04:21.279
+.
+
+04:21.279 --> 04:22.975
+Biraz daha büyültüp büyültemeyeceğime bir bakayım.
+
+04:22.975 --> 04:27.330
+.
+
+04:27.330 --> 04:30.910
+Biraz kenara çektim ki siz de rahatça okuyun.
+
+04:30.910 --> 04:33.400
+Tam burada bana denkmin y=1,882,3x + 52,847 olduğunu söylüyor.
+
+04:33.400 --> 04:40.400
+.
+
+04:40.400 --> 04:43.250
+Eğim ve y-keseni ile ilgili bilgilermizi hatırlayalım. y-keseni burada 52,847ymiş yani 0 yılında y eksenini bu değerde kesiyormuş.
+
+04:43.250 --> 04:50.660
+.
+
+04:50.660 --> 04:55.000
+.
+
+04:55.000 --> 04:57.470
+.
+
+04:57.470 --> 05:01.830
+yani bu modele bakılırsa 1995 yılında 52,847 dolar sahibi olduklarını söylüyor.
+
+05:01.830 --> 05:05.580
+.
+
+05:05.580 --> 05:07.280
+Gerçek veri bunun biraz üzerinde.
+
+05:07.280 --> 05:09.970
+53,807 dolar.
+
+05:09.970 --> 05:11.250
+Yani biraz daha fazla.
+
+05:11.250 --> 05:13.850
+Fakat biz bütün bu verilere en yakın doğruyu elde etmeye çalışıyoruz.
+
+05:13.850 --> 05:14.980
+.
+
+05:14.980 --> 05:17.530
+excel tam olarak doğru üzerindeki bulunmayan bu noktaların,
+
+05:17.530 --> 05:20.470
+herbir noktanın doğruya olan mesafesini en aza indirmeye çalışıyor
+
+05:20.470 --> 05:20.970
+.
+
+05:20.970 --> 05:22.440
+Burada biz hesap yapmayacağız.
+
+05:22.440 --> 05:23.830
+Fakat bize iyi bir denklem zaten verilmiş.
+
+05:23.830 --> 05:26.810
+Bu denklemi kullanarak geleceğe dair bazı tahminlerde bulunabiliriz
+
+05:26.810 --> 05:30.290
+Eğer bu güzel bir modelse bunu sorumuuz cevaplamak için kullanabiliriz.
+
+05:30.290 --> 05:31.400
+.
+
+05:31.400 --> 05:32.400
+.
+
+05:32.400 --> 05:35.210
+Şimdi biz bir dağılım grafiği çizidik, aslında ,Excel bizim için çizdi.
+
+05:35.210 --> 05:38.000
+Denklemi ise burada kendiliğinden verildi.
+
+05:38.000 --> 05:40.060
+Bizde 2010 yılı için ortalama yıllık geril soruluyordu.
+
+05:40.060 --> 05:44.490
+.
+
+05:44.490 --> 05:50.010
+Bunun için bize verilen denklemi kullanabiliriz.
+
+05:50.010 --> 05:51.770
+Burasi 2002 yılına ait.
+
+05:51.770 --> 05:52.850
+Yılları altlarına yazayım.
+
+05:52.850 --> 05:57.240
+Bu 2002 yılı.
+
+05:57.240 --> 06:02.490
+2010 yılı bu tarihten 8 yıl sonra.
+
+06:02.490 --> 06:04.350
+Şuraya bir sütun oluşturayım
+
+06:04.350 --> 06:08.390
+.
+
+06:08.390 --> 06:13.540
+bunlar 1995 ve 1996 yılları.
+
+06:13.540 --> 06:15.710
+Eğer bunların altındaki küçük kareyi tutup aşağıya sürüklersem Excel 1 er yıl arttırdığımı anlayacak.
+
+06:15.710 --> 06:18.950
+.
+
+06:18.950 --> 06:23.920
+.
+
+06:23.920 --> 06:26.980
+.
+
+06:26.980 --> 06:31.670
+Eğer 1995 yılından itibaren dersem, bir kez daha aşağıya sürükleyeyim.
+
+06:31.670 --> 06:33.550
+.
+
+06:33.550 --> 06:36.600
+2010 15. yıl olacak.
+
+06:36.600 --> 06:38.660
+Burada sadece denklemi uygulamak kalıyor.
+
+06:38.660 --> 06:41.760
+Doğruyu kullanarak diyebiliriz ki (şuraya yazacağım umarım okuyabilirsiniz) 1,882.3 çarpı x. Buradaki x 1995 den itibaren olan yıllar.
+
+06:41.760 --> 06:44.570
+.
+
+06:44.570 --> 06:51.000
+.
+
+06:51.000 --> 06:55.500
+.
+
+06:55.500 --> 06:58.430
+Buradaki hücreyi seçebilirim ya da direk 15 yazabilirim.
+
+06:58.430 --> 06:59.320
+.
+
+06:59.320 --> 07:03.590
+yani x 15. 15 çarpı oluyor.
+
+07:03.590 --> 07:11.390
+Sonra 52,847 toplanır.
+
+07:11.390 --> 07:17.600
+Tahmini rakamı almak için "enter" a basın. $81,081.50 olacağını hesapladı.
+
+07:17.600 --> 07:21.610
+yani Kanadadaki bir ailenin 8 yıl sonraki oratalama yıllık gelirinin 81.000 dolar olacağını tahmin etti.
+
+07:21.610 --> 07:24.550
+.
+
+07:24.550 --> 07:27.730
+.
+
+07:27.730 --> 07:30.270
+Umarım bunu ilginç bulmuşsunuzdur.
+
+07:30.270 --> 07:33.340
+Dataları uygulamak ve kullanmak için bu tarz programlar çok kullanışlı.
+
+07:33.340 --> 07:36.520
+Size doğrusal modellemelerin neden ilginç olduğuyla ilgili bir fikiğr vermiştir ve bu bilgileri kullanarak neler hesaplayabileceğinizi görmüşsünüzdür.
+
+07:36.520 --> 07:39.130
+.
+
+07:39.130 --> 07:42.600
+.
+
+07:42.600 --> 07:43.370
+.
+
+07:43.370 --> 07:45.450
+Doğrusal regresyonu kullanarak ekstrapolasyon hesabı yaptık.
+
+07:45.450 --> 07:47.260
+.
+
+07:47.260 --> 07:47.333
+.

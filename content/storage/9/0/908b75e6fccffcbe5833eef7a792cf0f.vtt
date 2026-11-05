@@ -1,0 +1,458 @@
+WEBVTT
+
+00:00.320 --> 00:02.250
+- [Voiceover] Mohamed
+decides to track the number
+
+00:02.250 --> 00:05.019
+of leaves on the tree in
+his backyard each year.
+
+00:05.176 --> 00:08.372
+The first year, there were 500 leaves.
+
+00:08.853 --> 00:10.580
+Each year thereafter, the number of leaves
+
+00:10.580 --> 00:14.101
+was 40% more than the year before.
+
+00:14.481 --> 00:17.325
+Let n be a positive integer,
+and let f of n denote
+
+00:17.325 --> 00:19.215
+the number of leaves on
+the tree in Mohamed's
+
+00:19.215 --> 00:22.634
+back yard in the nth year
+since he started tracking it.
+
+00:23.339 --> 00:26.840
+The expression f of n defines a sequence.
+
+00:26.894 --> 00:29.339
+What kind of sequence is f of n?
+
+00:29.719 --> 00:31.059
+So, some of you might be able to
+
+00:31.059 --> 00:31.933
+think about this in your head.
+
+00:31.933 --> 00:34.473
+Each successive year we're growing by 40%,
+
+00:34.473 --> 00:36.978
+that's the same thing
+as multiplying by 1.4.
+
+00:37.276 --> 00:39.450
+Each successive term we're multiplying
+
+00:39.450 --> 00:41.844
+or dividing by the same number.
+
+00:41.844 --> 00:43.126
+Well, that's going to be geometric.
+
+00:43.567 --> 00:45.219
+Let's make that a little
+bit more tangible,
+
+00:45.416 --> 00:46.641
+just in case.
+
+00:46.675 --> 00:48.998
+So, let's make a little table here.
+
+00:49.865 --> 00:51.558
+So, table.
+
+00:51.714 --> 00:54.890
+So, this is n and this is f of n.
+
+00:55.351 --> 00:57.084
+So when n is equal to one,
+
+00:57.139 --> 00:59.989
+the first year, n equals
+one, there were 500 leaves.
+
+01:00.308 --> 01:01.838
+F of n is 500.
+
+01:02.340 --> 01:03.681
+Now, when n is equal to two we're going
+
+01:03.681 --> 01:05.875
+to grow by 40%, which is the same thing
+
+01:05.875 --> 01:08.035
+as multiplying by 1.4.
+
+01:08.760 --> 01:12.327
+So 500 times 1.4, let's
+do 40% of 500 is 200,
+
+01:12.327 --> 01:14.298
+so we're going to grow by 200, so we're
+
+01:14.298 --> 01:16.011
+going to go to 700.
+
+01:16.431 --> 01:19.194
+Then in year three, we're
+going to grow by 40%
+
+01:19.194 --> 01:23.981
+of 700, which is 280, so
+it's going to grow to 980.
+
+01:23.981 --> 01:28.376
+Notice it's definitely not
+an arithmetic sequence.
+
+01:28.573 --> 01:30.300
+An arithmetic sequence, we would be adding
+
+01:30.300 --> 01:32.425
+or subtracting the same amount every time,
+
+01:32.425 --> 01:33.198
+but we're not.
+
+01:33.198 --> 01:35.371
+Here, from 500 to 700, we grew by 200,
+
+01:35.371 --> 01:37.856
+and then from 700 to 980, we grew by 280.
+
+01:38.135 --> 01:40.085
+Instead, we're multiplying or dividing by
+
+01:40.085 --> 01:41.467
+the same amount each time.
+
+01:41.467 --> 01:43.748
+In this case, we're multiplying by 1.4,
+
+01:44.067 --> 01:45.861
+by 1.4 each time.
+
+01:45.916 --> 01:47.751
+So we are clearly geometric.
+
+01:47.968 --> 01:49.756
+Depending on your answer
+to the question above,
+
+01:49.756 --> 01:51.869
+the recursive definition
+of the sequence can have
+
+01:51.869 --> 01:53.535
+one of the following two forms.
+
+01:53.535 --> 01:55.221
+Well this is the arithmetic form, which
+
+01:55.221 --> 01:57.009
+we know isn't the case,
+so it's going to be
+
+01:57.009 --> 01:58.437
+in the geometric form.
+
+01:59.264 --> 02:01.215
+And then they ask us, what are the values
+
+02:01.215 --> 02:03.551
+of the parameters A
+and B for the sequence?
+
+02:03.551 --> 02:06.842
+So we have our base case
+here, f of n is going to be
+
+02:06.842 --> 02:09.246
+equal to A when n is equal to one.
+
+02:09.484 --> 02:11.190
+Well, we know that when n equals one,
+
+02:11.190 --> 02:14.400
+we had 500 leaves on the
+tree so A, this A over here,
+
+02:14.400 --> 02:18.912
+is 500, so A is 500,
+
+02:19.637 --> 02:21.226
+and then if we're not in the base case
+
+02:21.226 --> 02:22.485
+for any other year,
+
+02:22.485 --> 02:24.720
+we are going to have,
+let's see, it's going to be
+
+02:24.720 --> 02:27.814
+the previous year, the
+previous year times what?
+
+02:28.418 --> 02:31.039
+It's going to be the
+previous year grown by 40%,
+
+02:31.039 --> 02:34.860
+to grow by 40%, you're
+going to multiply by 1.4
+
+02:34.935 --> 02:37.989
+so B is going to be 1.4.
+
+02:38.023 --> 02:39.445
+You take the previous
+year and you multiply
+
+02:39.445 --> 02:41.565
+by 1.4 for any other year,
+
+02:41.640 --> 02:43.291
+any year other than n equals one.
+
+02:43.712 --> 02:46.989
+So, B is equal to 1.4, and we're done.
+
+02:47.389 --> 02:48.425
+Let's do another example.
+
+02:48.425 --> 02:49.915
+This is strangely fun.
+
+02:50.538 --> 02:55.089
+All right, so this says:
+Seo-Yun hosted a party.
+
+02:55.089 --> 02:58.597
+She had 50 party favors
+to give away, and she
+
+02:58.597 --> 03:01.502
+gave away three party
+favors to each of her guests
+
+03:01.502 --> 03:03.112
+as they arrived at the party.
+
+03:03.473 --> 03:07.150
+Let n be a positive integer,
+and let g of n denote
+
+03:07.150 --> 03:10.706
+the number of party
+favors Seo-Yun had before
+
+03:10.706 --> 03:12.906
+the nth guest arrived.
+
+03:14.078 --> 03:16.090
+All right, actually, before I
+even look at these questions,
+
+03:16.090 --> 03:17.431
+let me make a table here
+because they're saying
+
+03:17.431 --> 03:18.818
+before the nth guest.
+
+03:18.833 --> 03:21.561
+I want to make sure I'm
+understanding this properly.
+
+03:22.551 --> 03:25.476
+So this is n,
+
+03:26.202 --> 03:28.122
+and then this is going to be g of n,
+
+03:28.122 --> 03:29.213
+right over here.
+
+03:29.532 --> 03:31.610
+So, when n is equal to one,
+
+03:32.234 --> 03:34.407
+when n is equal to one,
+g of n is going to be,
+
+03:34.407 --> 03:37.012
+or g of one is going to be
+the number of party favors
+
+03:37.012 --> 03:40.005
+Seo-Yun had before the first guest.
+
+03:40.730 --> 03:43.824
+Well, before the first guest,
+she had 50 party favors.
+
+03:44.428 --> 03:45.775
+She had 50 party favors.
+
+03:46.317 --> 03:48.740
+Now, the second guest comes.
+
+03:48.755 --> 03:50.584
+Now the number of party
+favors she had before
+
+03:50.584 --> 03:54.444
+the second guest, well,
+she had to give three
+
+03:54.444 --> 03:56.313
+to the first guest, so she's now
+
+03:56.313 --> 03:58.676
+going to have 47 party favors.
+
+03:59.320 --> 04:00.824
+Now, when n is equal to three,
+
+04:00.824 --> 04:02.429
+how many party favors did she have
+
+04:02.429 --> 04:04.568
+before the third guest?
+
+04:04.928 --> 04:06.390
+Well, she would've had
+to give party favors
+
+04:06.390 --> 04:08.835
+to the first and second
+guest, who each got three.
+
+04:09.194 --> 04:13.486
+So, she would have 44, and
+I think you see the pattern.
+
+04:13.928 --> 04:17.022
+For every time n, when n
+equals one, g of n is 50,
+
+04:17.199 --> 04:19.596
+and every time we increase n by one,
+
+04:19.596 --> 04:23.497
+every time we increment
+n, we are increasing
+
+04:23.497 --> 04:28.237
+g of n by plus three, by
+minus three, I should say
+
+04:28.475 --> 04:30.838
+because she's giving away
+party favors, minus three.
+
+04:31.665 --> 04:32.646
+Minus three.
+
+04:33.006 --> 04:35.058
+So because the difference
+between successive terms
+
+04:35.058 --> 04:37.460
+is the same, we know this
+is an arithmetic sequence.
+
+04:38.349 --> 04:40.034
+This is an arithmetic
+sequence and then they say
+
+04:40.034 --> 04:42.499
+write an explicit
+formula for the sequence.
+
+04:43.055 --> 04:44.680
+So let's think about this.
+
+04:44.680 --> 04:48.242
+Let's see, g of n is
+going to be equal to...
+
+04:48.256 --> 04:49.949
+Let's see, we're going to start at 50
+
+04:50.207 --> 04:53.590
+then we're going to subtract
+three, and let's think,
+
+04:53.590 --> 04:56.787
+do we subtract three times n or is it...?
+
+04:57.492 --> 04:59.503
+Let's see, for the first guest,
+
+04:59.503 --> 05:01.318
+we subtract three zero times.
+
+05:01.921 --> 05:04.406
+For the second guest,
+we subtract three once.
+
+05:04.928 --> 05:07.941
+For the third guest, we
+subtract three twice.
+
+05:08.463 --> 05:11.125
+So, for the nth guest, we're
+going to subtract three
+
+05:11.125 --> 05:13.081
+n minus one time.
+
+05:13.380 --> 05:15.966
+Notice, for the nth guest,
+we subtracted three twice.
+
+05:16.203 --> 05:19.237
+The second guest, subtracted three once.
+
+05:19.495 --> 05:21.573
+First guest, subtracted three zero times,
+
+05:21.669 --> 05:22.590
+so this works out.
+
+05:22.888 --> 05:25.576
+For the first guest, we would
+subtract three zero times,
+
+05:25.732 --> 05:27.405
+and so g of one would be 50.
+
+05:27.663 --> 05:29.782
+We can see that this is
+consistent for all of these.
+
+05:30.101 --> 05:34.372
+So I could write 50 minus
+three times n minus one,
+
+05:34.408 --> 05:35.871
+and I really recommend
+making the table here
+
+05:35.871 --> 05:37.740
+just so you make sure
+you get the n minus one
+
+05:37.740 --> 05:40.915
+or the n right and it all gels.

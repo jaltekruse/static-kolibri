@@ -1,0 +1,301 @@
+WEBVTT
+
+00:00.330 --> 00:03.100
+Ein Affe schwingt an einem Baum.
+
+00:03.100 --> 00:08.220
+Beim ersten Schwung erreicht
+er einen Bogen von 24 Metern.
+
+00:08.220 --> 00:14.140
+Bei jedem weiteren Schwung ist der Bogen
+halb so lang wie bei dem Schwung davor.
+
+00:14.140 --> 00:18.880
+Sagen wir mal, das ist die Oberseite
+des Seils an dem der Affe schwingt.
+
+00:18.880 --> 00:25.700
+Das ist der kleine Affe.
+
+00:25.700 --> 00:30.760
+Beim ersten Schwung schwingt der Affe 24 Meter.
+
+00:30.760 --> 00:33.250
+So ungefähr.
+
+00:33.250 --> 00:35.030
+Dann haben wir einen Bogen von 24 Metern.
+
+00:35.030 --> 00:41.860
+Beim zweiten Schwung hat er einen Bogen,
+der die halbe Länge des vorherigen Bogens hat.
+
+00:41.860 --> 00:45.640
+Wir haben also die Hälfte der Länge,
+
+00:45.640 --> 00:47.500
+und er schwingt bis ungefähr hier.
+
+00:47.510 --> 00:49.650
+Das wären 12 Meter.
+
+00:49.650 --> 00:53.370
+Beim nächsten Schwung schwingt er die Hälfte davon,
+
+00:53.370 --> 00:55.350
+also 6 Meter.
+
+00:55.350 --> 00:57.900
+Das ergibt Sinn.
+
+00:57.900 --> 01:00.630
+Genau so ist es, wenn man einem Baum schwingt,
+
+01:00.630 --> 01:02.410
+wie manche von uns es gemacht haben.
+
+01:02.410 --> 01:04.740
+Schauen wir uns Frage 1 an.
+
+01:04.740 --> 01:10.860
+Welcher Ausdruck gibt uns die Gesamtlänge,
+die der Affe in seinen ersten n Schwüngen schwingt?
+
+01:10.860 --> 01:12.640
+Pausiere das Video und versuche es.
+
+01:12.640 --> 01:15.700
+Du kannst es auf zwei Arten ausdrücken.
+
+01:15.700 --> 01:18.440
+Du kannst es als geometrische Reihe ausdrücken,
+
+01:18.440 --> 01:22.210
+aber auch als die Summe einer geometrischen Reihe,
+
+01:22.210 --> 01:24.280
+wenn wir sie tatsächlich ausrechnen.
+
+01:25.120 --> 01:26.780
+Jetzt machen wir es gemeinsam.
+
+01:26.780 --> 01:33.120
+Beim ersten Schwung schwingt der Affe 24 Meter.
+
+01:33.120 --> 01:39.940
+Beim zweiten Schwung schwingt
+der Affe die Hälfte davon.
+
+01:39.940 --> 01:41.740
+Ich könnte einfach eine 12 hier hinschreiben,
+
+01:41.750 --> 01:43.090
+aber die Hälfte ist interessant.
+
+01:43.090 --> 01:46.360
+Denn das ist die Basis meiner geometrischen Reihe.
+
+01:46.360 --> 01:51.440
+Mit jedem folgenden Schwung ist die Länge des Bogens halb so lang wie die Länge beim Schwung davor.
+
+01:51.440 --> 01:56.360
+Also haben wir 24 ⋅ 1/2.
+
+01:56.360 --> 01:59.740
+Und beim nächsten Schwung haben
+wir die Hälfte des Terms davor.
+
+01:59.740 --> 02:02.260
+Also haben wir 24 ⋅ 1/2 ⋅ 1/2.
+
+02:02.270 --> 02:06.400
+Also haben wir 24 ⋅ (1/2)^2.
+
+02:06.400 --> 02:09.030
+Das sind die ersten drei Schwünge.
+
+02:09.030 --> 02:12.350
+Du siehst, dass wir hier im Exponenten eine 2 haben.
+
+02:12.350 --> 02:21.980
+Also haben wir bei den ersten
+n Schwüngen 24 ⋅ (1/2)^(n - 1).
+
+02:21.980 --> 02:26.020
+Denn nach zwei Schwüngen haben wir 24 ⋅ (1/2)^1.
+
+02:26.020 --> 02:27.580
+Nach drei Schwüngen haben wir ^2.
+
+02:27.580 --> 02:31.250
+Also haben wir nach n Schwüngen
+den Exponenten n - 1.
+
+02:31.250 --> 02:33.830
+Wir wollen aber nicht nur diesen Ausdruck.
+
+02:33.830 --> 02:36.670
+Wir wollen auch wissen, wie wir es ausrechnen.
+
+02:36.670 --> 02:38.410
+Wir rechnen es aus,
+
+02:38.410 --> 02:39.420
+indem wir uns die Formel anschauen,
+
+02:39.420 --> 02:42.300
+die wir in anderen Videos erklärt und bewiesen haben,
+
+02:42.300 --> 02:45.970
+nämlich die Formel für eine
+endliche geometrische Reihe.
+
+02:45.970 --> 02:49.140
+Diese Formel sagt uns,
+
+02:49.140 --> 02:59.080
+dass die Summe der ersten n Terme gleich a ist,
+
+02:59.080 --> 03:00.680
+und a für den ersten Term steht.
+
+03:00.690 --> 03:03.520
+Das ist unserem Fall 24.
+
+03:03.520 --> 03:08.480
+Es ist a - a ⋅ unserer Basis.
+
+03:08.480 --> 03:12.420
+Ich habe bereits gesagt, dass unsere Basis 1/2 ist.
+
+03:12.420 --> 03:15.520
+Der Exponent unser Basis ist n.
+
+03:15.520 --> 03:17.420
+Ich merke es mir immer so,
+
+03:17.420 --> 03:22.180
+dass es unser erster Term ist, von dem der erste Term subtrahiert wird, den wir nicht dazugeschrieben haben,
+
+03:22.180 --> 03:25.950
+bzw. der Term, der direkt danach gekommen wäre.
+
+03:25.950 --> 03:29.690
+Und im Nenner haben wir 1 - unsere Basis r.
+
+03:29.690 --> 03:32.410
+Du hast das vielleicht anders formuliert gesehen.
+
+03:32.410 --> 03:35.240
+Du kannst ein a ausklammern,
+dann sieht es ungefähr so aus:
+
+03:35.240 --> 03:40.500
+a ⋅ (1 - r^n) / (1 - r).
+
+03:40.500 --> 03:42.240
+Das sind gleichwertige Ausdrücke.
+
+03:42.240 --> 03:49.120
+Lass uns diese zweite Form hier verwenden.
+
+03:49.120 --> 03:51.880
+Unser erster Term a ist 24.
+
+03:51.880 --> 03:59.140
+Also haben wir 24 ⋅ (1 - 1/2^n),
+
+03:59.140 --> 04:02.060
+da wir über die ersten n Schwünge reden,
+
+04:02.060 --> 04:04.340
+also schreibe ich hier ein n hin.
+
+04:04.340 --> 04:12.000
+Und im Nenner haben wir (1 - 1/2),
+da unsere Basis 1/2 ist.
+
+04:12.000 --> 04:15.800
+Wir können es so lassen oder noch etwas vereinfachen.
+
+04:15.800 --> 04:20.140
+1 - 1/2 = 1/2.
+
+04:20.140 --> 04:23.200
+24 / 1/2 = 48.
+
+04:23.210 --> 04:30.300
+Wir können es also als 48 ⋅ (1 - 1/2^n) schreiben.
+
+04:30.300 --> 04:32.700
+Beide Schreibweisen sind richtig.
+
+04:32.700 --> 04:40.580
+Frage 2: Welche Gesamtlänge hat der Affe hinter sich gebracht, wenn er seinen 25ten Schwung beendet hat?
+
+04:40.580 --> 04:42.800
+Wir sollen unsere Antwort auf
+den nächsten Meter runden.
+
+04:42.800 --> 04:46.070
+Pausiere das Video und versuche, es zu lösen.
+
+04:46.070 --> 04:49.610
+Wir können einfach diesen Ausdruck hier verwenden.
+
+04:49.610 --> 04:53.520
+Wir wissen, dass wir unseren 25ten Schwung beenden.
+
+04:53.520 --> 04:57.390
+n = 25. Also setzen wir hier 25 ein.
+
+04:57.390 --> 05:04.720
+Das ist dann 48 ⋅ (1 - 1/2^25).
+
+05:04.720 --> 05:08.860
+Das ergibt eine extrem kleine Zahl.
+
+05:08.860 --> 05:12.600
+Wir werden also relativ nahe
+an 48 Meter herankommen.
+
+05:12.600 --> 05:14.980
+Mal sehen, was herauskommt.
+
+05:14.980 --> 05:17.530
+Wir sollen auf den nächsten Meter runden.
+
+05:17.530 --> 05:19.440
+Wir benutzen unseren Taschenrechner.
+
+05:19.440 --> 05:26.680
+Wir schreiben 1/2 als 0,5 und geben 0,5^25 ein.
+
+05:26.680 --> 05:30.000
+Es ergibt wirklich eine extrem kleine Zahl.
+
+05:30.000 --> 05:31.590
+Dann subtrahieren wir das von 1.
+
+05:31.590 --> 05:34.670
+Ich setze ein Minus davor und addiere 1 dazu.
+
+05:34.670 --> 05:37.510
+Das ist sehr nahe an 1.
+
+05:37.510 --> 05:39.640
+Ich lag also richtig.
+
+05:39.640 --> 05:43.920
+Wenn ich das mit 48 multipliziere
+und auf den nächsten Meter runde,
+
+05:43.920 --> 05:45.940
+erhalten wir 48 Meter als Ergebnis.
+
+05:45.950 --> 05:49.400
+Die Antwort lautet also 48 Meter.
+
+05:49.400 --> 05:51.140
+Wir sind fertig.

@@ -1,0 +1,683 @@
+WEBVTT
+
+00:00.002 --> 00:01.234
+Takže když už jsme
+se trochu seznámili
+
+00:01.433 --> 00:03.436
+s diferenciálními rovnicemi
+
+00:03.733 --> 00:05.666
+a také nákresy jejich řešení
+
+00:05.666 --> 00:08.668
+s použitím vektorového pole,
+
+00:08.686 --> 00:10.572
+pojďme si vlastně zkusit
+
+00:10.572 --> 00:12.500
+diferenciální rovnice vyřešit.
+
+00:12.005 --> 00:15.007
+Jak uvidíme, různé druhy
+diferenciálních rovnic
+
+00:15.007 --> 00:16.015
+budou vyžadovat různé metody
+
+00:17.005 --> 00:18.166
+a některé z nich
+třeba nebudeme schopni
+
+00:18.661 --> 00:20.633
+vyřešit vůbec žádnou metodou.
+
+00:20.633 --> 00:22.600
+To bychom pak museli použít
+početní metody,
+
+00:22.006 --> 00:24.173
+abychom odhadli řešení.
+
+00:24.767 --> 00:26.600
+Ale pojďme se podívat na metodu,
+
+00:26.006 --> 00:29.373
+kterou považuji za snad nejjednodušší
+metodu řešení,
+
+00:29.967 --> 00:32.466
+což je metoda se separovanými proměnnými.
+
+00:32.466 --> 00:35.433
+Diferenciální rovnice
+se separovanými proměnnými.
+
+00:35.433 --> 00:38.300
+A za chvilku uvidíme,
+proč tomu říkáme
+
+00:38.003 --> 00:40.005
+diferenciální rovnice
+se separovanými proměnnými.
+
+00:40.005 --> 00:43.838
+Řekněme, že máme
+derivace y podle x
+
+00:44.333 --> 00:49.300
+se rovná minus x
+
+00:49.003 --> 00:53.836
+lomeno y krát e na x.
+
+00:54.133 --> 00:55.140
+Takže mám tuto
+diferenciální rovnici
+
+00:55.833 --> 00:58.271
+a chci najít partikulární řešení,
+
+00:58.271 --> 01:03.271
+které prochází skrz bod [0,1].
+
+01:04.004 --> 01:06.010
+Zkuste si video zastavit
+a já vám trochu poradím.
+
+01:07.000 --> 01:10.866
+Zkuste na jednu stranu rovnice
+
+01:10.866 --> 01:13.050
+převést všechna y a derivace y
+
+01:13.005 --> 01:17.222
+a na druhou stranu všechna
+x a derivace x,
+
+01:17.267 --> 01:18.633
+a pak to zintegrovat.
+
+01:18.633 --> 01:21.366
+A snad se vám podaří
+najít partikulární řešení
+
+01:21.366 --> 01:23.133
+této diferenciální rovnice,
+
+01:23.133 --> 01:25.133
+které prochází tímto bodem.
+
+01:25.133 --> 01:26.138
+Pokud se vám to nepovedlo,
+nevadí,
+
+01:26.633 --> 01:28.790
+teď si to projdeme společně.
+
+01:29.267 --> 01:31.600
+Takže, jak už jsem řekl,
+zkusíme pomocí algebry
+
+01:31.006 --> 01:33.011
+převést všechna y a derivace y
+na jednu stranu
+
+01:34.001 --> 01:36.634
+a všechna x a derivace x
+na druhou stranu.
+
+01:36.733 --> 01:38.739
+Takže třeba budu chtít dostat
+všechna y
+
+01:39.333 --> 01:41.300
+a derivace y na levou stranu
+
+01:41.003 --> 01:43.969
+a všechna x a derivace x
+na pravou stranu.
+
+01:44.266 --> 01:46.338
+Můžu vynásobit obě strany y.
+
+01:49.009 --> 01:52.642
+To mi udělá to,
+že všechna y převedu na levou stranu.
+
+01:53.533 --> 01:56.800
+A pak můžu vynásobit obě strany
+dx.
+
+01:56.008 --> 01:58.256
+Můžu to vynásobit dx.
+
+01:59.048 --> 02:00.366
+Vlastně můžeme zacházet
+s derivacemi,
+
+02:01.966 --> 02:03.923
+jako byste zacházeli s neznámými,
+
+02:03.923 --> 02:05.600
+když je takto převádíte,
+
+02:05.006 --> 02:07.973
+abyste oddělili neznámé
+na dvě strany.
+
+02:08.567 --> 02:12.333
+Takže toto se vykrátí.
+
+02:12.333 --> 02:17.333
+A zůstane nám y krát dy.
+
+02:18.006 --> 02:23.006
+y krát dy se rovná -x...
+
+02:23.666 --> 02:25.600
+Napíšu to jinak.
+
+02:25.006 --> 02:29.772
+Napíšu to jako -x krát e...
+
+02:30.366 --> 02:31.960
+Asi budu potřebovat víc místa.
+
+02:31.096 --> 02:36.096
+-x krát e na ((-x) na druhou) dx.
+
+02:40.994 --> 02:43.500
+dx.
+
+02:43.005 --> 02:44.771
+Proč to je zajímavé?
+
+02:45.266 --> 02:47.733
+Protože teď můžeme
+zintegrovat obě strany.
+
+02:47.733 --> 02:48.735
+A to také vysvětluje,
+
+02:48.933 --> 02:50.500
+proč tomu říkáme
+separované proměnné.
+
+02:50.005 --> 02:50.013
+Tohle nemůžete provést
+
+02:51.003 --> 02:52.009
+s každou diferenciální rovnicí.
+
+02:52.009 --> 02:53.588
+Nepodaří se vám
+algebraickými úpravami
+
+02:54.479 --> 02:57.533
+oddělit y a dy na jedné straně
+
+02:57.533 --> 03:00.800
+a x a dx na druhé straně.
+
+03:00.008 --> 03:02.075
+Ale u této to jde.
+
+03:02.867 --> 03:04.333
+To je důvod,
+proč tomu říkáme
+
+03:04.333 --> 03:07.584
+diferenciální rovnice
+se separovanými proměnnými.
+
+03:07.906 --> 03:12.906
+Diferenciální rovnice.
+
+03:13.134 --> 03:15.376
+To je zpravidla první metoda,
+kterou byste měli zkusit.
+
+03:15.376 --> 03:17.992
+Můžu oddělit y a x?
+
+03:17.992 --> 03:19.779
+A jak jsem už řekl,
+to nepůjde
+
+03:19.779 --> 03:22.667
+u spousty, vlastně většiny
+diferenciálních rovnic.
+
+03:22.667 --> 03:23.766
+Ale když už se nám
+to povedlo,
+
+03:23.766 --> 03:26.094
+můžeme zintegrovat obě strany.
+
+03:26.094 --> 03:27.178
+Pojďme na to.
+
+03:27.934 --> 03:30.733
+Vezmu si nějakou
+novou barvu.
+
+03:30.733 --> 03:35.701
+Zintegruji obě strany.
+
+03:35.701 --> 03:37.700
+Když zintegrujete levou stranu,
+
+03:37.007 --> 03:38.008
+co dostanete?
+
+03:38.008 --> 03:39.774
+A nezapoměňte,
+
+03:40.566 --> 03:41.899
+tady integrujeme podle y.
+
+03:41.899 --> 03:46.600
+To bude y na druhou lomeno 2,
+
+03:46.006 --> 03:47.807
+plus nějaká konstanta.
+
+03:48.401 --> 03:50.867
+Nazvu ji plus C1.
+
+03:50.867 --> 03:51.892
+A když integruji toto,
+
+03:51.892 --> 03:53.767
+to se bude rovnat...
+
+03:53.767 --> 03:54.841
+Na pravé straně budeme
+
+03:55.507 --> 03:57.300
+integrovat podle x.
+
+03:57.003 --> 03:59.003
+Můžeme integrovat
+pomocí substituce,
+
+03:59.003 --> 04:00.536
+nebo se na to můžete podívat a říct,
+
+04:00.833 --> 04:03.700
+že derivace z -x na druhou
+
+04:03.007 --> 04:05.274
+bude -2x.
+
+04:05.967 --> 04:07.333
+Takže kdyby tady byla 2,
+
+04:07.333 --> 04:08.899
+nechci změnit hodnotu integrálu,
+
+04:08.899 --> 04:10.800
+takže napíšu ještě 1/2 sem.
+
+04:10.008 --> 04:11.594
+Takže buď můžeme
+substituovat,
+
+04:13.921 --> 04:15.500
+nebo to můžete udělat z hlavy.
+
+04:15.005 --> 04:19.110
+Substitucí u se bude rovnat
+-x na druhou
+
+04:19.605 --> 04:22.869
+a du bude -2x dx,
+
+04:22.869 --> 04:25.100
+nebo můžete počítat z hlavy.
+
+04:25.001 --> 04:28.002
+Takže mám něco
+a derivaci něčeho,
+
+04:28.002 --> 04:30.371
+takže můžu integrovat
+podle toho něčeho,
+
+04:30.569 --> 04:33.601
+podle našeho u.
+
+04:33.601 --> 04:37.672
+Takže to bude 1/2,
+
+04:37.672 --> 04:39.433
+tato 1/2.
+
+04:39.433 --> 04:40.433
+Teď antiderivace.
+
+04:40.433 --> 04:43.966
+To bude e na ((-x) na druhou).
+
+04:43.966 --> 04:46.966
+A pak samozřejmě
+nějaká konstanta.
+
+04:46.966 --> 04:49.969
+Nazvuji ji C2.
+
+04:50.266 --> 04:51.271
+Znovu, pokud vám to
+
+04:51.766 --> 04:52.994
+přišlo matoucí, co jsem udělal,
+
+04:52.994 --> 04:53.085
+pak použijte substituci,
+
+04:53.904 --> 04:56.366
+zkuste si to sami.
+
+04:56.366 --> 04:58.267
+A co teď?
+
+04:58.267 --> 04:59.270
+Máme konstantu na levé straně.
+
+04:59.567 --> 05:00.533
+Ta je libovolná.
+
+05:00.533 --> 05:01.294
+A nevíme,
+kolik ta konstanta je.
+
+05:01.294 --> 05:04.833
+Ještě jsme nepoužili
+počáteční podmínku.
+
+05:05.866 --> 05:08.871
+Takže odečtu C1 od obou stran.
+
+05:09.366 --> 05:12.368
+Když odečtu C1 od obou stran,
+
+05:12.566 --> 05:15.000
+toto se odečte
+
+05:15.000 --> 05:16.833
+a mám C2...
+Omlouvám se.
+
+05:17.009 --> 05:18.742
+Toto je C1.
+
+05:19.633 --> 05:21.100
+To se odečte.
+
+05:21.001 --> 05:22.003
+A C2 minus C1,
+
+05:22.003 --> 05:24.337
+obě to jsou
+libovolné konstanty.
+
+05:24.634 --> 05:26.330
+A ještě nevíme, kolik jsou.
+
+05:26.033 --> 05:29.336
+Takže to můžeme prostě přepsat jako...
+
+05:29.633 --> 05:33.635
+Nalevo máme y na druhou lomeno 2
+
+05:33.833 --> 05:35.921
+se rovná pravé straně.
+
+05:35.921 --> 05:38.676
+Tam napíšu 1/2 e...
+
+05:38.676 --> 05:38.757
+Napíšu to modře,
+
+05:39.486 --> 05:41.509
+protože jsem to tak psal
+už předtím.
+
+05:41.509 --> 05:46.500
+1/2 e na ((-x) na druhou).
+
+05:46.005 --> 05:48.628
+A teď řeknu,
+že C2 minus C1
+
+05:49.123 --> 05:50.715
+je prostě C.
+
+05:51.125 --> 05:53.600
+Takže rozdíl těchto dvou konstant
+
+05:53.006 --> 05:56.006
+nazvu jednoduše C.
+
+05:56.006 --> 05:59.009
+Takže teď máme
+obecné řešení.
+
+05:59.009 --> 06:01.085
+Neznáme ještě tuto konstantu
+
+06:01.976 --> 06:04.333
+a nevyjádřili jsme to pro y,
+
+06:04.333 --> 06:05.666
+ale i v tomto tvaru
+
+06:05.666 --> 06:07.533
+můžeme najít partikulární řešení
+
+06:07.533 --> 06:09.190
+s použitím počáteční podmínky.
+
+06:09.019 --> 06:09.111
+Jasně to oddělím.
+
+06:10.011 --> 06:12.080
+Toto bylo součástí
+
+06:12.008 --> 06:13.017
+původního zadání.
+
+06:14.007 --> 06:15.568
+Takže počáteční podmínka.
+
+06:16.261 --> 06:18.700
+Takže to nám říká,
+když x je 0,
+
+06:18.007 --> 06:20.440
+pak y musí být 1.
+
+06:21.133 --> 06:24.566
+Takže máme 1 na druhou,
+což je 1,
+
+06:24.566 --> 06:29.566
+lomeno 2, což se rovná 1/2
+
+06:29.009 --> 06:31.975
+krát e na ((-0) na druhou).
+
+06:32.866 --> 06:34.332
+Tak to bude e na nultou,
+
+06:34.332 --> 06:35.900
+což je 1.
+
+06:35.009 --> 06:37.776
+Takže to bude 1/2 plus C.
+
+06:38.667 --> 06:40.201
+Takže z toho už to
+můžeme vyřešit.
+
+06:40.201 --> 06:42.107
+Když odečtete 1/2 od obou stran,
+
+06:42.107 --> 06:45.800
+C se rovná 0.
+
+06:45.008 --> 06:47.017
+Takže vztah mezi y a x,
+
+06:48.007 --> 06:49.016
+který prochází tímto bodem,
+
+06:50.006 --> 06:52.011
+bude, když C se bude rovnat 0.
+
+06:53.053 --> 06:55.427
+Takže toto se rovná 0.
+
+06:55.904 --> 06:57.600
+Toto je 0.
+
+06:57.006 --> 07:02.006
+Takže nám zbylo
+y na druhou lomeno 2
+
+07:02.633 --> 07:07.633
+se rovná e na ((-x) na druhou lomeno 2.
+
+07:08.006 --> 07:10.139
+Teď můžeme vynásobit obě strany dvěma.
+
+07:10.733 --> 07:13.274
+A dostaneme y na druhou...
+
+07:17.634 --> 07:22.634
+... se rovná e na ((-x) na druhou).
+
+07:22.967 --> 07:26.566
+Teď můžeme odmocnit
+obě strany,
+
+07:27.333 --> 07:28.500
+takže když y na druhou
+se rovná tomuto,
+
+07:28.005 --> 07:33.005
+y se rovná plus minus
+odmocnina z
+
+07:34.776 --> 07:37.792
+e na ((-x) na druhou).
+
+07:40.651 --> 07:42.800
+Ale máme zadanou
+počáteční podmínku,
+
+07:42.008 --> 07:45.144
+kde y je kladné.
+
+07:45.936 --> 07:46.990
+Takže hledáme
+partikulární řešení,
+
+07:47.476 --> 07:48.633
+které prochází tímto bodem.
+
+07:48.633 --> 07:51.366
+Takže y bude
+kladná odmocnina.
+
+07:51.366 --> 07:53.370
+Kdyby to byl bod [0,-1],
+
+07:53.766 --> 07:55.800
+pak bychom řekli,
+že y bude záporná odmocnina.
+
+07:55.008 --> 07:56.874
+Ale víme,
+že teď to je kladná odmocnina.
+
+07:59.799 --> 08:01.700
+Udělám to trochu přehledněji.
+
+08:01.007 --> 08:03.240
+Takže se můžeme zbavit...
+
+08:03.933 --> 08:04.937
+Ooops, myslel jsem,
+že to je černá.
+
+08:05.333 --> 08:08.634
+Tohoto se můžeme zbavit.
+
+08:08.634 --> 08:09.900
+Budeme řešit jen
+
+08:09.009 --> 08:10.943
+kladnou odmocninu,
+
+08:11.834 --> 08:15.233
+takže to můžeme napsat jako
+
+08:15.233 --> 08:19.952
+y se rovná e na ((-x) na druhou,
+to celé na 1/2.
+
+08:19.952 --> 08:23.219
+To se bude rovnat
+
+08:23.219 --> 08:28.219
+e na ((-x) na druhou lomeno 2).
+
+08:29.666 --> 08:31.710
+Takže toto...
+
+08:31.071 --> 08:35.130
+y se rovná e na ((-x) na druhou lomeno 2),
+
+08:36.003 --> 08:37.020
+to je partikulární řešení,
+
+08:37.047 --> 08:39.342
+které splňuje počáteční podmínky
+
+08:39.765 --> 08:41.772
+této původní
+diferenciální rovnice.
+
+08:42.366 --> 08:43.232
+Tak.
+
+08:43.232 --> 08:45.166
+Protože jsme mohli...
+Jen si to shrneme,
+
+08:45.166 --> 08:48.567
+protože tato diferenciální
+rovnice byla zadaná tak,
+
+08:48.567 --> 08:49.574
+že jsme ji mohli
+algebraickými úpravami
+
+08:50.267 --> 08:53.267
+rozdělit na y, dy a x, dx,
+
+08:53.267 --> 08:55.933
+protože jsme je mohli oddělit,
+
+08:55.933 --> 08:57.266
+mohli jsme pak integrovat
+
+08:57.266 --> 08:59.271
+a použít počáteční podmínky
+
+08:59.766 --> 09:02.933
+k nalezení partikulárního řešení.

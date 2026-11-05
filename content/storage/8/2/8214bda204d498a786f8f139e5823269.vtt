@@ -1,0 +1,555 @@
+WEBVTT
+
+00:00.500 --> 00:03.610
+No último vídeo, tentamos aproximar a área
+
+00:03.610 --> 00:07.520
+sob uma curva construindo quatro
+retângulos de larguras iguais
+
+00:07.520 --> 00:11.320
+e usando o limite esquerdo
+de cada retângulo, a função
+
+00:11.320 --> 00:14.380
+avaliada no limite esquerdo,
+para determinar a altura,
+
+00:14.380 --> 00:16.239
+e chegamos em uma aproximação.
+
+00:16.239 --> 00:18.720
+Nesse vídeo quero generalizar
+um pouco, usando
+
+00:18.720 --> 00:20.428
+o mesmo método,
+mas fazendo para
+
+00:20.428 --> 00:22.600
+uma função arbitrária
+com limites arbitrários
+
+00:22.600 --> 00:25.550
+e um número arbitrário de retângulos.
+
+00:25.550 --> 00:26.940
+Então vamos fazer isso.
+
+00:26.940 --> 00:30.140
+Vou desenhar o diagrama
+bem grande para que
+
+00:30.140 --> 00:34.540
+eu possa fazer da forma
+mais clara possível.
+
+00:34.540 --> 00:36.480
+Esse é meu eixo y.
+
+00:36.480 --> 00:42.410
+E esse bem aqui é meu eixo x.
+
+00:42.410 --> 00:44.500
+Deixa eu desenhar uma função arbitrária.
+
+00:44.500 --> 00:47.600
+Digamos que minha função
+pareça com algo assim.
+
+00:47.600 --> 00:51.510
+Isso é y igual a f de x.
+
+00:51.510 --> 00:53.460
+E deixa eu definir meus limites.
+
+00:53.460 --> 00:58.230
+Digamos que esse aqui é x igual a 'a'.
+
+01:00.790 --> 01:06.490
+E esse aqui é x igual a b.
+
+01:06.490 --> 01:08.230
+Esse é b.
+
+01:08.230 --> 01:13.829
+Vou utilizar n retângulos,
+
+01:13.829 --> 01:15.620
+e vou utilizar a função avaliada
+
+01:15.620 --> 01:17.410
+no limite esquerdo do retângulo
+
+01:17.410 --> 01:18.740
+para determinar sua altura.
+
+01:18.740 --> 01:22.030
+Então, por exemplo, esse
+vai ser o retângulo um.
+
+01:22.030 --> 01:25.830
+Vou calcular quanto f de a é.
+
+01:27.300 --> 01:31.950
+Esse aqui é f de a.
+
+01:31.950 --> 01:33.880
+Depois, vou usar isso como a altura
+
+01:33.880 --> 01:37.400
+do meu primeiro retângulo.
+
+01:37.400 --> 01:39.230
+Dessa forma.
+
+01:39.230 --> 01:44.001
+O retângulo número um fica assim.
+
+01:44.001 --> 01:45.000
+E vou até enumerá-lo.
+
+01:45.000 --> 01:47.862
+Retângulo um parece com isso.
+
+01:47.862 --> 01:49.320
+E para termos uma convenção,
+
+01:49.320 --> 01:55.380
+já que eu vou querer rotular
+cada um desses valores de x
+
+01:55.380 --> 01:58.740
+no limite esquerdo, então vamos
+dizer que a é igual a x0.
+
+01:58.740 --> 02:00.890
+a é igual a x0.
+
+02:00.890 --> 02:03.760
+Então podemos chamar esse
+ponto aqui de x0 também,
+
+02:03.760 --> 02:05.699
+esse valor de x.
+
+02:05.699 --> 02:07.240
+Agora podemos ir para o próximo.
+
+02:07.240 --> 02:09.880
+E podemos chamar esse
+aqui, esse valor de x,
+
+02:09.880 --> 02:10.780
+chamaremos de x1.
+
+02:10.780 --> 02:13.060
+É o limite esquerdo do próximo retângulo.
+
+02:13.060 --> 02:16.870
+Se calcularmos f de x1,
+temos esse valor aqui.
+
+02:16.870 --> 02:22.312
+Isso aqui é f de x1, que
+nos diz a nossa altura.
+
+02:22.312 --> 02:24.270
+E queremos uma largura igual ao anterior.
+
+02:24.270 --> 02:26.870
+Vamos pensar sobre o que
+a largura vai ser em breve.
+
+02:26.870 --> 02:32.930
+Então esse aqui é o
+nosso segundo retângulo
+
+02:32.930 --> 02:34.880
+que usaremos para aproximar a área
+
+02:34.880 --> 02:35.596
+sob a curva.
+
+02:35.596 --> 02:37.320
+Esse é o retângulo número dois.
+
+02:37.320 --> 02:39.070
+Vamos para o de número três.
+
+02:39.070 --> 02:41.720
+No retângulo de número
+três, o limite esquerdo,
+
+02:41.720 --> 02:43.980
+vamos chamar esse x de x2.
+
+02:43.980 --> 02:48.435
+E sua altura vai ser f de x2.
+
+02:50.557 --> 02:53.140
+Sua largura vai ser igual a dos outros.
+
+02:53.140 --> 02:56.100
+Estou apenas fazendo pelo olho aqui.
+
+02:56.100 --> 02:58.050
+Esse é o retângulo número três.
+
+03:01.020 --> 03:05.130
+E vamos continuar com esse processo até
+
+03:05.130 --> 03:08.890
+que cheguemos no retângulo de número n.
+
+03:08.890 --> 03:14.080
+Esse é o n-ésimo retângulo bem aqui,
+
+03:14.080 --> 03:17.740
+o n-ésimo retângulo.
+
+03:17.740 --> 03:20.820
+E de que posso chamar esse ponto aqui?
+
+03:20.820 --> 03:22.180
+Bem, já vemos um padrão.
+
+03:22.180 --> 03:24.840
+O limite esquerdo do
+primeiro retângulo é x0.
+
+03:24.840 --> 03:28.010
+O limite esquerdo do
+segundo retângulo é x1.
+
+03:28.010 --> 03:30.270
+O limite esquerdo do
+terceiro retângulo é x2.
+
+03:30.270 --> 03:32.650
+Então o limite esquerdo
+do n-ésimo retângulo
+
+03:32.650 --> 03:37.110
+vai ser x n menos um.
+
+03:37.110 --> 03:39.340
+Independente de qual número o retângulo é,
+
+03:39.340 --> 03:42.770
+o limite esquerdo é x desse
+número menos um.
+
+03:42.770 --> 03:45.952
+E isso tudo foi baseado na
+convenção que definimos.
+
+03:45.952 --> 03:47.910
+Agora, o próximo passo para
+
+03:47.910 --> 03:50.160
+calcular de fato essa área é pensar
+
+03:50.160 --> 03:51.590
+qual é a largura?
+
+03:51.590 --> 03:54.960
+Vamos chamar a largura
+desses retângulos --
+
+03:54.960 --> 03:57.915
+e para o bem do exemplo,
+
+03:57.915 --> 03:59.540
+vou assumir que ela é constante,
+
+03:59.540 --> 04:01.140
+mesmo que possamos
+fazer essa soma
+
+04:01.140 --> 04:02.880
+com as larguras variando.
+
+04:02.880 --> 04:04.600
+Mas aí teríamos algo
+mais complicado.
+
+04:04.600 --> 04:06.290
+Então quero com as mesmas larguras.
+
+04:06.290 --> 04:08.595
+Quero que delta x seja igual.
+
+04:08.595 --> 04:10.260
+Para pensar sobre
+o que tem que ser,
+
+04:10.260 --> 04:12.360
+precisamos pensar, qual
+é a largura total que
+
+04:12.360 --> 04:13.060
+cobrimos?
+
+04:13.060 --> 04:17.244
+Bem, a distância total
+vai ser b menos a,
+
+04:17.244 --> 04:19.660
+e vamos dividir pelo
+número de retângulos que
+
+04:19.660 --> 04:21.743
+queremos, o número
+de partes que queremos.
+
+04:21.743 --> 04:23.660
+Então vamos dividir por n.
+
+04:23.660 --> 04:26.560
+Se assumimos que isso
+seja verdade, e depois
+
+04:26.560 --> 04:31.250
+assumimos que a é igual a x0, e que
+
+04:31.250 --> 04:40.610
+x1 é igual a x0 mais delta x,
+x2 é igual a x1 mais delta x,
+
+04:40.610 --> 04:49.280
+e vamos indo até chegar em xn é
+igual a xn menos um mais delta x,
+
+04:49.280 --> 04:52.330
+e então teríamos montado
+esse diagrama aqui.
+
+04:52.330 --> 04:56.630
+b vai ser igual a xn.
+
+04:56.630 --> 04:57.400
+Então isso é xn.
+
+04:57.400 --> 05:01.180
+É igual a xn menos um mais delta x.
+
+05:01.180 --> 05:04.540
+Acho que montamos todas
+as notações e todas as
+
+05:04.540 --> 05:06.890
+convenções para podermos calcular
+
+05:06.890 --> 05:09.700
+a área, ou nossa aproximação da área.
+
+05:09.700 --> 05:15.030
+Nossa aproximação de área, então,
+
+05:15.030 --> 05:17.737
+vai ser igual a que?
+
+05:17.737 --> 05:20.070
+Bem, vai ser igual a área
+do primeiro retângulo --
+
+05:20.070 --> 05:21.153
+vou escrever isso.
+
+05:21.153 --> 05:24.410
+Então teremos o retângulo
+um -- a área do retângulo
+
+05:24.410 --> 05:33.330
+um -- mais a área do retângulo dois,
+
+05:33.330 --> 05:35.750
+mais a área do retângulo
+três -- acho que você
+
+05:35.750 --> 05:46.140
+entendeu -- mais todas as
+áreas até o retângulo n.
+
+05:46.140 --> 05:47.700
+Então o que teremos?
+
+05:47.700 --> 05:52.380
+Retângulo um vai ser
+sua altura, que é f de x0
+
+05:52.380 --> 05:53.080
+ou f de a.
+
+05:53.080 --> 05:55.270
+Tanto faz, x0 e a são a mesma coisa.
+
+05:55.270 --> 05:58.680
+Então é f de a vezes nosso delta x,
+
+05:58.680 --> 06:00.690
+que é a largura; altura vezes largura.
+
+06:00.690 --> 06:05.330
+Vezes delta -- na verdade,
+posso escrever como f de x0,
+
+06:05.330 --> 06:09.750
+se eu quisesse -- f de x0 vezes delta x
+
+06:09.750 --> 06:11.460
+Qual é a área do retângulo dois?
+
+06:11.460 --> 06:14.555
+É f de x1 vezes delta x.
+
+06:19.010 --> 06:20.930
+Qual é a área do retângulo três?
+
+06:20.930 --> 06:25.020
+É f de x2 vezes delta x.
+
+06:25.020 --> 06:27.120
+Assim, vamos até chegarmos na área.
+
+06:27.120 --> 06:29.370
+Estamos pegando as
+somas até o retângulo n.
+
+06:29.370 --> 06:30.470
+Qual seria sua área?
+
+06:30.470 --> 06:33.685
+É f de x n menos um.
+
+06:33.685 --> 06:35.860
+Esse é um tom diferente de laranja.
+
+06:35.860 --> 06:37.360
+Vou usar o mesmo tom.
+
+06:37.360 --> 06:43.186
+Vai ser f de x n menos um vezes delta x.
+
+06:43.186 --> 06:43.900
+E pronto.
+
+06:43.900 --> 06:46.050
+Escrevemos de uma forma bem geral.
+
+06:46.050 --> 06:47.852
+Mas para ficarmos mais confortáveis
+
+06:47.852 --> 06:49.310
+com as várias notações,
+
+06:49.310 --> 06:50.660
+especialmente os tipos que
+
+06:50.660 --> 06:52.920
+vemos quando falam de aproximações de
+
+06:52.920 --> 06:55.250
+áreas ou somas em geral,
+
+06:55.250 --> 06:58.400
+vou utilizar a notação sigma tradicional.
+
+06:58.400 --> 07:01.680
+Outra forma de escrevermos
+isso, como uma soma,
+
+07:01.680 --> 07:06.854
+isso é igual a soma de -- e lembre-se,
+
+07:06.854 --> 07:09.020
+isso é tudo baseado nas
+convenções que criei.
+
+07:09.020 --> 07:14.222
+Vou colocar i como sendo o retângulo
+que estamos, que varia de um a n.
+
+07:14.222 --> 07:16.180
+Depois, vamos olhar para cada retângulo.
+
+07:16.180 --> 07:18.740
+No primeiro, o retângulo um.
+
+07:18.740 --> 07:24.050
+Teremos f de -- se estamos
+no i-ésimo retângulo,
+
+07:24.050 --> 07:26.440
+então o limite esquerdo vai ser
+
+07:26.440 --> 07:34.030
+x de i menos um, vezes delta x.
+
+07:34.030 --> 07:36.990
+Então aqui, é uma forma geral
+
+07:36.990 --> 07:43.580
+de pensar sobre aproximação da
+área sob uma curva usando
+
+07:43.580 --> 07:46.270
+retângulos, onde a altura dos retângulos
+
+07:46.270 --> 07:48.710
+são definidas pelo limite esquerdo.
+
+07:48.710 --> 07:50.420
+E isso nos mostra que é o esquerdo.
+
+07:50.420 --> 07:57.070
+Vemos para cada um, se for
+o i-ésimo retângulo aqui,
+
+07:57.070 --> 08:00.430
+se esse é o retângulo i, então isso aqui
+
+08:00.430 --> 08:04.550
+é x i menos um, e a altura aqui
+
+08:04.550 --> 08:09.500
+é f de x i menos um.
+
+08:09.500 --> 08:12.400
+Então é tudo que fizemos vezes delta x.
+
+08:12.400 --> 08:15.270
+Depois você soma desde
+o primeiro retângulo
+
+08:15.270 --> 08:16.396
+até o fim.
+
+08:16.396 --> 08:18.770
+Talvez isso te deixe mais confortável,
+
+08:18.770 --> 08:19.750
+com essa notação.
+
+08:19.750 --> 08:21.340
+Não estamos fazendo
+nada diferente
+
+08:21.340 --> 08:24.050
+do que fizemos no primeiro vídeo, onde
+
+08:24.050 --> 08:25.580
+espero que tenha
+sido bem direto.
+
+08:25.580 --> 08:29.100
+Apenas generalizamos usando
+um pouco mais de notações
+
+08:29.100 --> 08:30.071
+matemáticas.
+
+08:30.071 --> 08:30.421
+Legendado por [Pedro Coutinho] e
+revisado por [Raul Guimaraes].

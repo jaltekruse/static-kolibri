@@ -1,0 +1,471 @@
+WEBVTT
+
+00:00.500 --> 00:04.182
+Chúng ta đã thấy rất nhiều ví dụ về những
+chuỗi vô hạn.
+
+00:04.182 --> 00:06.765
+Nhưng điều thú vị về thứ mà chúng ta sẽ làm
+trong video này
+
+00:06.765 --> 00:09.879
+là chúng ta sẽ sử dụng dãy vô hạn
+để định nghĩa hàm số.
+
+00:09.879 --> 00:11.420
+Và thứ mà bạn sẽ thường gặp nhất
+
+00:11.420 --> 00:17.120
+khi làm toán sẽ là chuỗi lũy thừa.
+
+00:17.120 --> 00:20.010
+Mình sẽ viết một ví dụ chung cho chuỗi lũy thừa.
+
+00:20.010 --> 00:22.250
+Mình có thể tưởng tượng một hàm số f(x)
+
+00:22.250 --> 00:26.100
+được định nghĩa là một tổng vô hạn.
+
+00:26.100 --> 00:30.900
+Vậy nếu ta đi từ n bằng 0 tới vô cực của a_n,
+
+00:30.900 --> 00:33.760
+thì a_n sẽ là cơ số của mỗi số hạng --
+
+00:33.760 --> 00:37.320
+nhân với biến x của chúng ta
+và trừ với một hằng số c.
+
+00:37.320 --> 00:39.160
+Bạn có thể tưởng tượng cái này
+như là đang dịch hàm số,
+
+00:39.160 --> 00:42.260
+và mũ n.
+
+00:42.260 --> 00:43.910
+Vậy nếu mình muốn khai triển nó ra,
+
+00:43.910 --> 00:46.390
+mình sẽ có cơ số của số hạng đầu tien,
+a_0,
+
+00:46.390 --> 00:50.630
+nhân với x trừ c tất cả mũ 0,
+
+00:50.630 --> 00:54.400
+cộng với a_1 nhân x trừ c tất cả mũ 1.
+
+00:54.400 --> 00:57.180
+Đương nhiên ở đây sẽ rút gọn thành a_0.
+
+00:57.180 --> 01:01.590
+Cái này sẽ rút gọn thành a_1 nhân x trừ c
+
+01:01.590 --> 01:04.700
+cộng với a_2 nhân x trừ c tất cả bình.
+
+01:04.700 --> 01:07.587
+Và mình có thể đi tiếp mãi.
+
+01:07.587 --> 01:09.170
+Bây giờ, khi bạn thấy cái này,
+bạn có thể nói
+
+01:09.170 --> 01:10.760
+chẳng phải chuỗi cấp số nhân của chúng ta
+
+01:10.760 --> 01:13.440
+là một trường hợp đặc biệt của chuỗi lũy thừa
+
+01:13.440 --> 01:17.260
+khi mà công bội của chúng ta là x
+chứ không phải là r hay sao?
+
+01:17.260 --> 01:21.920
+Hoặc là khi công bội của chúng ta là một biến?
+
+01:21.920 --> 01:23.060
+Và bạn đã đúng.
+
+01:23.060 --> 01:25.490
+Kết luận đó rất chính xác.
+
+01:25.490 --> 01:28.800
+Thì một chuỗi cấp số nhân,
+
+01:28.800 --> 01:31.050
+Hãy nghĩ về cách định nghĩa một hàm số
+sử dụng
+
+01:31.050 --> 01:32.482
+một chuỗi cấp số nhân.
+
+01:32.482 --> 01:33.940
+Và đương nhiên là mình
+không cần phải
+
+01:33.940 --> 01:36.650
+lúc nào cũng sử dụng x là biến độc lập,
+
+01:36.650 --> 01:38.650
+nhưng cái này là cách viết thường thấy nhất.
+
+01:38.650 --> 01:40.900
+Mình đoán là chúng ta cũng có thể
+sử dụng biến r
+
+01:40.900 --> 01:42.240
+nếu chúng ta muốn.
+
+01:42.240 --> 01:44.067
+Nhưng hãy tưởng tượng một hàm số g(x).
+
+01:44.067 --> 01:45.900
+Chúng ta có thể có g(r) nếu chúng ta muốn,
+
+01:45.900 --> 01:50.200
+nhưng hãy lấy g(x) bằng với tổng từ
+
+01:50.200 --> 01:57.060
+n bằng 0 tới vô cực của a nhân x mũ n.
+
+01:57.060 --> 02:01.220
+Và đây sẽ là dạng chuỗi cấp số nhân
+mà bạn thường thấy.
+
+02:01.220 --> 02:04.020
+Vậy điểm khác biệt giữa hai cái này là gì?
+
+02:04.020 --> 02:06.259
+Thì điểm khác biệt là ở đây,
+với mỗi số hạng,
+
+02:06.259 --> 02:07.800
+chúng ta sẽ có một cơ số a giống nhau.
+
+02:07.800 --> 02:09.864
+Còn ở đây, chúng ta sẽ có a_n.
+
+02:09.864 --> 02:12.280
+Chúng ta đang nhân nó với những cơ số
+khác nhau ở trên đây.
+
+02:12.280 --> 02:14.610
+Chúng ta đang nhân với một cơ số giống nhau
+ở dưới này.
+
+02:14.610 --> 02:16.930
+Và trong trường hợp này, với
+chuỗi cấp số nhân nhất định này,
+
+02:16.930 --> 02:19.420
+thì thay vì ta có x trừ c tất cả mũ n,
+
+02:19.420 --> 02:20.580
+ta chỉ có x mũ n.
+
+02:20.580 --> 02:22.705
+Vì vậy bạn có thể nói, đây sẽ là
+trường hợp đặc biệt
+
+02:22.705 --> 02:24.270
+khi mà c bằng 0.
+
+02:24.270 --> 02:25.440
+Và mình có thể khai triển nó.
+
+02:25.440 --> 02:28.040
+Đây là a nhân x mũ 0,
+
+02:28.040 --> 02:31.540
+và sẽ chỉ bằng a, cộng với
+a nhân x mũ 1,
+
+02:31.540 --> 02:33.330
+cộng a nhân x bình.
+
+02:33.330 --> 02:36.210
+Và chúng ta có thể tiếp tục mãi mãi.
+
+02:36.210 --> 02:38.540
+Bây giờ, điểu thú vị về cái này là
+
+02:38.540 --> 02:43.510
+chúng ta biết được là
+với một số điều kiện nhất định,
+
+02:43.510 --> 02:45.950
+cái này sẽ cho chúng ta một giá trị hữu hạn.
+
+02:45.950 --> 02:47.640
+Cái này sẽ hội tụ.
+
+02:47.640 --> 02:51.350
+Chuỗi cấp số nhân này đây sẽ cho ta
+một đáp án chính xác.
+
+02:51.350 --> 02:53.520
+Vậy điều đó xảy ra
+với điều kiện như thế nào?
+
+02:53.520 --> 02:56.279
+Thì chuỗi này sẽ hội tụ nếu mỗi số hạng này
+
+02:56.279 --> 02:57.820
+trở nên càng ngày càng nhỏ.
+
+02:57.820 --> 03:00.390
+Và mỗi số hạng trở nên càng ngày càng nhỏ
+
+03:00.390 --> 03:06.470
+khi mà trị tuyệt tối của công bội
+của chúng ta bé hơn 1.
+
+03:06.470 --> 03:08.100
+Để mình viết nó xuống.
+
+03:08.100 --> 03:14.410
+Vậy chuỗi sẽ hội tụ nếu trị tuyệt đối của
+
+03:14.410 --> 03:18.181
+công bội của chúng ta bé hơn 1.
+
+03:18.181 --> 03:19.680
+Một cách khác để nghĩ về nó là,
+
+03:19.680 --> 03:23.020
+đây sẽ là một cách khác để nói
+
+03:23.020 --> 03:26.120
+x sẽ nằm trong khoảng từ -- thì
+nó sẽ bé hơn 1
+
+03:26.120 --> 03:29.280
+và lớn hơn trừ 1.
+
+03:29.280 --> 03:31.640
+Và số hạng này ở ngay đây,
+x ở đây là một biến,
+
+03:31.640 --> 03:33.300
+thì x có thể nằm giữa 2 giá trị ấy.
+
+03:33.300 --> 03:35.640
+Chúng ta đang định nghĩa một hàm số
+theo x.
+
+03:35.640 --> 03:37.740
+Chúng ta có thể gọi cái này là
+khoảng hội tụ.
+
+03:46.090 --> 03:48.487
+Và chúng ta biết được nếu x
+nằm trong khoảng này,
+
+03:48.487 --> 03:50.070
+nó sẽ cho ta một tổng hữu hạn.
+
+03:50.070 --> 03:52.380
+Và chúng ta biết tổng hữu hạn là gì mà.
+
+03:52.380 --> 03:56.620
+Nếu chuỗi này hội tụ,
+
+03:56.620 --> 03:58.950
+nếu chuỗi này hội tụ, thì cái này sẽ bằng với
+
+03:58.950 --> 04:01.950
+số hạng đầu tiên của ta, và cũng là a
+
+04:01.950 --> 04:05.490
+-- cái này rút gọn thành a ở ngay đây--
+chia cho 1
+
+04:05.490 --> 04:07.580
+trừ cho công bội của chúng ta.
+
+04:07.580 --> 04:08.820
+Vậy công bội của chúng ta là gì?
+
+04:08.820 --> 04:11.360
+Trong ví dụ này thì công bội
+của chúng ta là x.
+
+04:11.360 --> 04:15.120
+Khi ta đi từ số hạng này sang số hạng kế tiếp,
+chúng ta chỉ đang nhân nó với x.
+
+04:15.120 --> 04:19.640
+Chúng ta chỉ đang nhân với x ở ngay đây.
+
+04:19.640 --> 04:21.510
+Thì cái này đang rất là hay,
+vì chúng ta có thể
+
+04:21.510 --> 04:23.390
+sử dụng cái này
+
+04:23.390 --> 04:26.030
+để viết những hàm số dạng thông thường
+
+04:26.030 --> 04:28.750
+thành dạng này, và khai triển nó
+
+04:28.750 --> 04:31.660
+bằng cách sử dụng chuỗi cấp số nhân.
+
+04:31.660 --> 04:33.722
+Và ý tưởng sử dụng chuỗi lũy thừa,
+
+04:33.722 --> 04:35.430
+hoặc trong trường hợp đặc biệt này,
+chuỗi cấp số nhân
+
+04:35.430 --> 04:37.280
+để thể hiện hàm số sẽ rất rất hữu dụng
+
+04:37.280 --> 04:39.750
+trong kỹ thuật và tài chính.
+
+04:39.750 --> 04:43.980
+Khi sử dụng một hữu hạn số hạn
+của những chuỗi này,
+
+04:43.980 --> 04:46.130
+bạn có thể ước lượng những hàm số
+
+04:46.130 --> 04:48.020
+theo cách mà não con người có thể dễ dàng
+
+04:48.020 --> 04:49.470
+hình dung hơn, hoặc là nó có thể
+
+04:49.470 --> 04:51.690
+dễ biến đổi hơn.
+
+04:51.690 --> 04:54.610
+Nhưng điều thú vị ở đây là thay vì
+
+04:54.610 --> 04:57.540
+chúng ta đi từ tổng -- thay vì
+chúng ta
+
+04:57.540 --> 05:01.922
+đi từ dạng khai triển tới dạng
+giá trị hữu hạn này,
+
+05:01.922 --> 05:04.130
+chúng ta có thể bắt đầu từ dạng này
+
+05:04.130 --> 05:06.930
+và khai triển ra thành dạng chuỗi cấp số nhân.
+
+05:06.930 --> 05:08.734
+Nhưng chúng ta phải thật cẩn thận
+
+05:08.734 --> 05:11.150
+là chúng ta chỉ đang làm vậy
+trong khoảng hội tụ.
+
+05:11.150 --> 05:13.790
+Cách làm đó chỉ đúng trên
+
+05:13.790 --> 05:15.010
+khoảng hội tụ.
+
+05:15.010 --> 05:18.550
+Bây giờ, một thuật ngữ khác mà bạn
+có thể gặp lúc giải toán
+
+05:18.550 --> 05:20.220
+là bán kính.
+
+05:20.220 --> 05:21.945
+Bán kính hội tụ.
+
+05:24.970 --> 05:28.770
+Nó biểu thị giá trị tối đa mà x có thể đi được
+
+05:28.770 --> 05:30.180
+giá trị tối đa nhưng không bao gồm.
+
+05:30.180 --> 05:36.760
+Vậy chừng nào mà x nằm trong bán kính này
+
+05:36.760 --> 05:40.680
+từ giá trị c của chúng ta, thì chuỗi
+của chúng ta sẽ hội tụ.
+
+05:40.680 --> 05:44.470
+Trong trường hợp này,
+c của chúng ta sẽ bằng 0.
+
+05:44.470 --> 05:46.720
+Chúng ta có thể tự hỏi.
+
+05:49.290 --> 05:53.120
+chỉ cần x nằm trong một khoảng từ 0
+
+05:53.120 --> 05:54.540
+thì chuỗi này sẽ hội tụ.
+
+05:54.540 --> 05:55.914
+Thì bạn có thể thấy ở ngay đây.
+
+05:55.914 --> 06:01.302
+Chỉ cần x nằm trong bán kính 1 từ số 0.
+
+06:01.302 --> 06:03.010
+Nó không được đi hết tới số 1,
+
+06:03.010 --> 06:05.000
+nhưng chỉ cần x bé hơn 1,
+
+06:05.000 --> 06:06.500
+hoặc chỉ cần x lớn hơn trừ 1.
+
+06:10.300 --> 06:12.490
+X có thể đi từ số 0 bất kể giá trị nào
+bé hơn 1,
+
+06:12.490 --> 06:14.380
+có thể theo chiều dương
+
+06:14.380 --> 06:16.460
+hoặc theo chiều âm.
+
+06:16.460 --> 06:18.560
+Thì chuỗi này sẽ hội tụ.
+
+06:18.560 --> 06:23.640
+Vậy chúng ta có thể nói bán kính hội tụ
+sẽ bằng 1.
+
+06:23.640 --> 06:26.550
+Một cách khác để nghĩ về nó là,
+bán kính hội tụ của chúng ta--
+
+06:26.550 --> 06:28.490
+chúng ta đang đi từ trừ 1 tới 1,
+
+06:28.490 --> 06:29.980
+không bao gồm hai đầu mút,
+
+06:29.980 --> 06:31.690
+vậy nên khoảng hội tụ của chúng ta sẽ bằng 2.
+
+06:31.690 --> 06:34.450
+Bán kính hội tụ của chúng ta sẽ bằng
+phân nửa của cái đó.
+
+06:39.550 --> 06:41.920
+Chỉ cần x nằm trong bán kính 1 từ 0,
+
+06:41.920 --> 06:44.440
+cách nói đó cũng giống như
+cái mình viết ở đây,
+
+06:44.440 --> 06:48.310
+thì chuỗi này sẽ hội tụ.

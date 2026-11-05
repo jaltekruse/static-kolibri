@@ -1,0 +1,283 @@
+WEBVTT
+
+00:00.498 --> 00:02.147
+- [Narrator] Nth partial
+sum of the series,
+
+00:02.147 --> 00:04.027
+we're going from one
+to infinity, summing it
+
+00:04.027 --> 00:05.869
+a sub n is given by.
+
+00:05.869 --> 00:07.748
+And they tell us of the formula
+
+00:07.748 --> 00:09.197
+for some of the first n terms.
+
+00:09.197 --> 00:12.133
+And they say write a rule for what
+
+00:12.133 --> 00:15.726
+the actual Nth term is going to be.
+
+00:15.726 --> 00:17.322
+Now to help us with this, let me just
+
+00:17.322 --> 00:19.382
+create a little visualization here.
+
+00:19.382 --> 00:23.193
+So if I have a sub one
+plus, plus a sub two,
+
+00:23.193 --> 00:26.110
+plus a sub three, and I keep adding
+
+00:27.048 --> 00:30.131
+all the way to a sub n minus one plus
+
+00:31.542 --> 00:32.375
+a sub n.
+
+00:34.038 --> 00:35.923
+This whole thing, this whole thing that
+
+00:35.923 --> 00:38.060
+I just wrote out.
+
+00:38.060 --> 00:39.979
+That is s sub n.
+
+00:39.979 --> 00:43.157
+This whole thing is s, let me
+
+00:43.157 --> 00:45.324
+this whole thing is sub n,
+
+00:46.237 --> 00:48.603
+which is equal to n plus one,
+
+00:48.603 --> 00:49.853
+over n plus 10.
+
+00:51.024 --> 00:52.761
+Now if I wanna figure out a sub n,
+
+00:52.761 --> 00:54.835
+which is the goal of this exercise,
+
+00:54.835 --> 00:56.906
+well I could subtract out the sum of the
+
+00:56.906 --> 00:59.688
+first n minus one terms.
+
+00:59.688 --> 01:02.105
+So I could subtract out this.
+
+01:03.896 --> 01:04.979
+So that is s,
+
+01:06.717 --> 01:08.884
+that is s sub n minus one,
+
+01:10.341 --> 01:11.711
+and what would that be equal to.
+
+01:11.711 --> 01:13.230
+Well wherever we see
+an n, we'd replace with
+
+01:13.230 --> 01:14.314
+an n minus one.
+
+01:14.314 --> 01:17.091
+So it'd be n minus one plus one over
+
+01:17.091 --> 01:20.424
+n minus one plus 10, which is equal to n
+
+01:22.931 --> 01:24.348
+over n plus nine.
+
+01:25.789 --> 01:28.563
+So if you subtract the red
+stuff from the blue stuff,
+
+01:28.563 --> 01:30.311
+all that you're gonna be
+left with is the thing
+
+01:30.311 --> 01:31.421
+that we're gonna solve for.
+
+01:31.421 --> 01:33.417
+You're gonna be left with a sub n.
+
+01:33.417 --> 01:37.584
+So we could write down a
+sub n is equal to s sub n,
+
+01:38.863 --> 01:42.446
+is equal to s sub n
+minus s sub n minus one
+
+01:44.221 --> 01:46.043
+S sub n minus one.
+
+01:46.043 --> 01:49.960
+Or we could write, that
+is equal to this stuff.
+
+01:50.984 --> 01:54.317
+So this is the n plus one over n plus 10
+
+01:56.229 --> 01:58.896
+minus, minus n over n plus nine.
+
+02:02.279 --> 02:05.175
+And this by itself, this
+is a rule for a sub n.
+
+02:05.175 --> 02:06.583
+But we could combine these terms,
+
+02:06.583 --> 02:08.055
+add these two fractions together.
+
+02:08.055 --> 02:09.196
+And this is actually going to be the case
+
+02:09.196 --> 02:10.979
+for n greater than one.
+
+02:10.979 --> 02:13.809
+For n equals one, s
+sub one is going to be,
+
+02:13.809 --> 02:17.184
+well you can just, a sub
+one is going to be equal
+
+02:17.184 --> 02:18.600
+to s sub one.
+
+02:18.600 --> 02:20.908
+But then for any other
+n, we could use this
+
+02:20.908 --> 02:21.971
+right over here.
+
+02:21.971 --> 02:24.152
+And if we want to
+simplify this, well we can
+
+02:24.152 --> 02:25.927
+add these two fractions.
+
+02:25.927 --> 02:27.667
+We can add these two fractions by having
+
+02:27.667 --> 02:29.174
+a common denominator.
+
+02:29.174 --> 02:30.146
+So let's see, if we multiply the
+
+02:30.146 --> 02:32.093
+numerator and denominator
+here times n plus nine,
+
+02:32.093 --> 02:33.760
+we are going to get,
+
+02:34.989 --> 02:38.822
+this is equal to n plus
+one times n plus nine,
+
+02:40.414 --> 02:43.164
+over n plus 10 times n plus nine.
+
+02:46.334 --> 02:49.398
+And from that, we are going to subtract.
+
+02:49.398 --> 02:50.779
+Let's multiply the
+numerator and denominator
+
+02:50.779 --> 02:52.671
+here by n plus 10.
+
+02:52.671 --> 02:55.088
+So we have n times n plus 10,
+
+02:56.297 --> 02:59.047
+over n plus nine times n plus 10.
+
+03:01.412 --> 03:03.745
+N plus nine times n plus 10.
+
+03:05.267 --> 03:07.423
+And what does that give us?
+
+03:07.423 --> 03:10.095
+So, if we simplify up
+here, we're gonna have,
+
+03:10.095 --> 03:14.262
+this is n squared plus 10
+n plus nine, that's that.
+
+03:18.254 --> 03:20.884
+And then this right over
+here this is n squared
+
+03:20.884 --> 03:23.634
+plus 10 n, within that red color.
+
+03:27.232 --> 03:29.732
+So this is n squared plus 10 n
+
+03:31.536 --> 03:33.199
+and remember we're gonna subtract this.
+
+03:33.199 --> 03:36.105
+And so, and we are close
+to deserving a drum roll,
+
+03:36.105 --> 03:39.779
+a sub n is going to be
+equal to our denominator
+
+03:39.779 --> 03:43.696
+right over here is n plus
+nine times n plus 10.
+
+03:45.266 --> 03:48.004
+And we're gonna subtract the
+red stuff from the blue stuff.
+
+03:48.004 --> 03:50.188
+So you subtract an n
+squared from an n squared
+
+03:50.188 --> 03:51.594
+and those cancel out.
+
+03:51.594 --> 03:54.111
+Subtract a 10 n from a
+10 n, those cancel out.
+
+03:54.111 --> 03:56.772
+And you're just left with that blue nine.
+
+03:56.772 --> 03:58.587
+So there you have it, we've expressed,
+
+03:58.587 --> 04:02.754
+we've written a rule for a
+sub n, for n greater than one.

@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.640 --> 00:05.510
+Ở đây mình có hàm số, f của x bằng với x mũ 2
+
+00:05.510 --> 00:09.870
+Và điều mà mình quan tâm là tìm diện tích dưới đường cong
+
+00:09.870 --> 00:13.900
+y bằng f của x đó là trục y của mình
+
+00:13.900 --> 00:18.630
+Còn đây là trục x của mình
+
+00:18.630 --> 00:20.720
+Và tiếp đến để mình vẽ hàm số ra
+
+00:20.720 --> 00:22.460
+Đây hàm số nhìn như thế này
+
+00:22.460 --> 00:24.740
+Ít nhất là nó nằm trong góc phần tư thứ nhất
+
+00:24.740 --> 00:26.150
+Đó là nơi mình sẽ vẽ nó ra
+
+00:26.150 --> 00:29.190
+Tất nhiên mình cũng có thể vẽ nó trong góc phần tư thứ hai
+
+00:29.190 --> 00:34.570
+Nhưng điều mà mình quan tâm là diện tích dưới đường cong này và trên trục x dương
+
+00:34.570 --> 00:41.840
+giữa x bằng 1 và x bằng 4
+
+00:41.840 --> 00:44.272
+Và mình đã chán việc ước lượng diện tích rồi
+
+00:44.272 --> 00:50.350
+Mình muốn tìm diện tích chính xác dưới đường cong và trên trục x
+
+00:50.350 --> 00:52.780
+Và cách để chúng ta biểu diễn chính xác diện tích dưới
+
+00:52.780 --> 00:56.990
+đường cong, phần được tô màu nâu này, là sử dụng tích phân xác định
+
+00:56.990 --> 01:02.170
+Tích phân xác định từ 1 đến 4 của f của x, dx
+
+01:02.170 --> 01:04.400
+Và cách mà hoặc cách mình khái niệm hoá
+
+01:04.400 --> 01:07.090
+việc ký hiệu này đến từ đâu, mình tưởng tượng
+
+01:07.090 --> 01:10.650
+một cụm vô hạn, một số vô hạn những hình chữ nhật
+
+01:10.650 --> 01:13.240
+vô cùng nhỏ mà chúng ta sẽ tổng hợp để tìm ra diện tích này
+
+01:13.240 --> 01:18.010
+Để mình vẽ một trong số những hình chữ nhật vô cùng nhỏ, có thể sẽ không nhỏ đến thế
+
+01:18.010 --> 01:20.670
+Để mình vẽ thế này xem nào
+
+01:20.670 --> 01:23.590
+Nên đây sẽ là một trong những hình chữ nhật, đó sẽ là một hình chữ nhật khác
+
+01:23.590 --> 01:25.390
+Điều này gợi cho chúng ta nhớ về tổng Riemann
+
+01:25.390 --> 01:27.685
+Thật ra, đây là điểm bắt nguồn của tổng Riemann
+
+01:27.685 --> 01:30.288
+Nghĩ về một tổng Riemann mà trong đó bạn có một số vô hạn
+
+01:30.288 --> 01:33.411
+những hình chữ nhật này, với chiều rộng của mỗi hình chữ nhật
+
+01:33.411 --> 01:38.546
+Đây là cách mình khái niệm hoá nó, là dx, và chiều dài của hình chữ này là
+
+01:38.546 --> 01:43.453
+hàm số được tính giá trị tại một x trong khoảng ngay đây
+
+01:43.453 --> 01:46.210
+Vậy nên phần này đây sẽ là diện tích
+
+01:46.210 --> 01:49.690
+của một trong những hình chữ nhật và chúng ta đã tổng hợp chúng lại với nhau
+
+01:49.690 --> 01:54.530
+Ở đây mình có một hình chữ s kéo dài, làm gợi nhớ đến ký hiệu sigma của tổng
+
+01:54.530 --> 01:58.760
+Chúng ta đang tổng hợp một số vô hạn của những hình chữ nhật vô cùng nhỏ
+
+01:58.760 --> 02:02.860
+hoặc diện tích của những hình chữ nhật vô cùng nhỏ giữa 1 và 4
+
+02:02.860 --> 02:05.660
+Vậy từ đó chúng ta biết ký hiệu tích phân xác định từ đâu mà có
+
+02:05.660 --> 02:06.740
+Nhưng mà chúng ta vẫn chưa làm gì cả
+
+02:06.740 --> 02:10.550
+Mình mới chỉ viết một số ký hiệu biểu diễn diện tích chính xác
+
+02:10.550 --> 02:15.260
+giữa 1 và 4, bên dưới đường cong f của x và trên trục x
+
+02:15.260 --> 02:19.150
+Để có thể giải bài toán hiệu quả hơn, chúng ta phải áp dụng
+
+02:19.150 --> 02:22.140
+định lý cơ bản thứ hai của phép giải tích, thường được gọi là
+
+02:22.140 --> 02:24.970
+phần hai của định lý cơ bản của phép giải tích
+
+02:24.970 --> 02:29.580
+Sẽ cho chúng ta biết nếu f có một nguyên hàm, nên nếu chúng ta
+
+02:29.580 --> 02:35.060
+có một nguyên hàm của f, vậy f của x sẽ là đạo hàm
+
+02:35.060 --> 02:40.505
+đạo hàm của hàm số F viết hoa của x, hoặc có một cách khác để nói là
+
+02:40.505 --> 02:45.824
+F viết hoa của x là nguyên hàm
+
+02:45.824 --> 02:51.020
+nguyên hàm của f viết thường của x
+
+02:51.020 --> 02:52.940
+Vậy nên ở đây mình có thể tính phần này, và mình sẽ làm
+
+02:52.940 --> 02:56.310
+một video để bạn hiểu rõ hơn về mặt khái niệm của vấn đề
+
+02:56.310 --> 03:00.000
+Mình có thể tính phần này bằng cách tính nguyên hàm
+
+03:00.000 --> 03:04.220
+của f viết thường hoặc nguyên hàm của f tại 4
+
+03:04.220 --> 03:09.340
+từ đó trừ đi nguyên hàm tính tại 1
+
+03:09.340 --> 03:14.110
+Sau đó chúng ta hãy làm trường hợp này ở đây
+
+03:14.110 --> 03:17.230
+Chúng ta lấy, mình sẽ ghi mệnh đề này ra
+
+03:17.230 --> 03:19.990
+thay vì ghi f viết thường của x mình sẽ chỉ ghi x mũ 2
+
+03:19.990 --> 03:24.360
+Thế nên tích phân xác định từ 1 đến 4 của x mũ 2 dx
+
+03:24.360 --> 03:27.370
+Vậy thì chúng ta phải tìm ra nguyên hàm ở đây là gì
+
+03:27.370 --> 03:33.820
+Nếu f viết thường của x bằng x mũ 2, vậy F viết hoa của x bằng gì
+
+03:33.820 --> 03:36.110
+Vậy nguyên hàm sẽ là gì
+
+03:36.110 --> 03:39.210
+Bạn có thể nhớ từ những nguyên tắc quyền lực rằng nếu
+
+03:39.210 --> 03:43.100
+bạn lấy đạo hàm liên quan đến x, x ở đây của mình là x mũ 3
+
+03:43.100 --> 03:47.440
+bạn sẽ có 3x mũ 2, kết quả này
+
+03:47.440 --> 03:50.050
+khá gần với x mũ 2, chỉ khác ở nhân tử 3 mà thôi
+
+03:50.050 --> 03:51.615
+vậy hãy chia cả hai vế cho 3
+
+03:52.750 --> 03:56.580
+Nào mình sẽ chia cả hai vế cho 3 và bạn sẽ có đạo hàm
+
+03:56.580 --> 04:00.520
+của x mũ 3 chia 3 sẽ ra là x mũ 2
+
+04:00.520 --> 04:02.310
+hoặc bạn có thể nói là điều này giống với
+
+04:02.310 --> 04:07.830
+đạo hàm của x mũ 3 chia 3
+
+04:07.830 --> 04:08.830
+Lấy đạo hàm của phần này
+
+04:08.830 --> 04:11.430
+nó sẽ ra là 3 nhân 1 phần 3
+
+04:11.430 --> 04:13.630
+và sau đó bạn sẽ giảm bậc của x, nó chỉ còn là x mũ 2
+
+04:13.630 --> 04:15.730
+vậy ở đây một lần nữa nó chỉ còn là x mũ 2
+
+04:15.730 --> 04:20.200
+vậy nó bằng với x mũ 2
+
+04:20.200 --> 04:24.240
+Vậy trong trường hợp này F viết hoa của x, nguyên hàm của mình
+
+04:24.240 --> 04:28.540
+sẽ là x mũ 3, x mũ 3 chia 3
+
+04:28.540 --> 04:34.600
+Nếu vậy mình chỉ cần tính hàm số tại 4 và 1, và đôi khi mình sẽ
+
+04:34.600 --> 04:40.070
+ở đây, dùng ký hiệu mình sẽ nói là nguyên hàm chính là x
+
+04:40.070 --> 04:44.660
+mũ 3 chia cho 3 và mình sẽ tính giá trị của nó
+
+04:44.660 --> 04:46.090
+mình sẽ ghi các con số ra ở trên này
+
+04:46.090 --> 04:49.260
+tại 4 và từ đó trừ đi giá trị tính tại 1
+
+04:49.260 --> 04:51.430
+Đôi khi bạn sẽ thấy có người sẽ vẽ một đường nhỏ ở đây
+
+04:51.430 --> 04:54.930
+có thể nói mình sẽ tính giá trị tại 4 và sau đó tại 1
+
+04:54.930 --> 04:56.910
+Nhưng mình sẽ không dùng đường thẳng ở đây
+
+04:56.910 --> 04:59.010
+Nếu mình tính giá trị tại 4 và từ
+
+04:59.010 --> 05:02.330
+đó trừ đi giá trị tính tại 1
+
+05:02.330 --> 05:07.740
+sẽ bằng với 4 mũ 3 bằng 64, vậy nó sẽ là 64 chia 3
+
+05:07.740 --> 05:13.330
+để mình đánh dấu bằng màu ở đây,
+
+05:13.330 --> 05:15.320
+và từ đó
+
+05:15.320 --> 05:18.500
+chúng ta sẽ trừ đi giá trị tính tại 1
+
+05:18.500 --> 05:23.330
+khi bạn tính giá trị tại 1, bạn được 1 mũ 3 sau đó bạn được 1 phần 3
+
+05:23.330 --> 05:24.900
+bạn có 1 phần 3
+
+05:24.900 --> 05:31.100
+Để nói rõ hơn, nó chính là phần ở đây
+
+05:31.100 --> 05:33.660
+Bây giờ mình đã sẵn sàng trừ các phân số này
+
+05:33.660 --> 05:41.140
+64 phần 3, trừ đi 1 sẽ bằng 63 phần 3
+
+05:41.140 --> 05:46.850
+và 63 chia hết cho 3 được 21 tròn
+
+05:46.850 --> 05:52.680
+không quan tâm đơn vị là gì diện tích phần màu nâu này bằng 21 đơn vị diện tích

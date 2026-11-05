@@ -1,0 +1,442 @@
+WEBVTT
+
+00:01.133 --> 00:02.670
+Alors, voyons quelque chose d'assez intéressant.
+
+00:02.670 --> 00:04.933
+D'une certaine manière, ce sera une des fonctions les plus faciles à trouver.
+
+00:04.933 --> 00:07.407
+La représentation de MacLaurin de
+
+00:07.407 --> 00:11.192
+Essayons d'aproximer e^x.
+
+00:11.192 --> 00:13.200
+f(x) est égal à e^x
+
+00:13.200 --> 00:14.861
+et ce qui rend ceci très simple,
+
+00:14.861 --> 00:16.000
+c'est qu'en prenant la dérivée,
+
+00:16.000 --> 00:17.333
+et franchement, c'est une des choses remarquables
+
+00:17.333 --> 00:18.867
+à propos du nombre e,
+
+00:18.867 --> 00:20.067
+c'est qu'en prenant la dérivée
+
+00:20.067 --> 00:23.568
+de e^x, on obtient e^x
+
+00:23.568 --> 00:25.867
+donc ceci est égal à f ' (x)
+
+00:25.867 --> 00:29.200
+qui est égal à la dérivée seconde de f(x)
+
+00:29.200 --> 00:31.933
+qui est égal à la dérivée troisième de f(x)
+
+00:31.933 --> 00:34.102
+qui est égal à la dérivée énième de f(x).
+
+00:34.102 --> 00:36.270
+C'est toujours égal à e^x.
+
+00:36.270 --> 00:40.867
+C'est la première chose fascinante à propos de e
+
+00:40.867 --> 00:42.867
+Vous pouvez continuer à dériver,
+
+00:42.867 --> 00:44.443
+la pente à chaque point de cette courbe
+
+00:45.021 --> 00:48.762
+a la même valeur que la valeur du point de cette courbe.
+
+00:48.762 --> 00:50.533
+C'est assez fou.
+
+00:50.533 --> 00:51.432
+Cela dit,
+
+00:51.432 --> 00:52.933
+prenons sa représentation de Maclaurin,
+
+00:52.933 --> 00:54.067
+donc, nous devons trouver
+
+00:54.067 --> 00:56.610
+f(0), f ' (0), la dérivée seconde en 0,
+
+00:56.610 --> 00:59.188
+et quand on prend e^0,
+
+00:59.188 --> 01:01.733
+e^0 est égal à un.
+
+01:01.733 --> 01:04.267
+et donc ce sera égal à f(0),
+
+01:04.267 --> 01:07.595
+qui sera égal à f ' (0), qui sera
+
+01:07.595 --> 01:10.194
+égal à n'importe quelle dérivée évaluée.
+
+01:14.086 --> 01:17.200
+La dérivée énième sera égale à 0.
+
+01:17.200 --> 01:20.467
+C'est pour cela que la série de Maclaurin
+
+01:20.467 --> 01:23.000
+est assez directe.
+
+01:23.000 --> 01:24.200
+Si je veux estimer
+
+01:24.200 --> 01:27.669
+e^x en utilisant une série de Maclaurin,
+
+01:27.669 --> 01:28.722
+donc e^x,
+
+01:28.722 --> 01:30.467
+et je mets un "aproximativement égal" ici,
+
+01:30.467 --> 01:31.672
+et nous serons de plus en plus proche
+
+01:31.672 --> 01:34.691
+du vrai e^x alors que l'on ajoute de plus en plus de termes,
+
+01:34.691 --> 01:37.231
+surtout si on ajoute une infinité de termes.
+
+01:37.231 --> 01:38.590
+Ça ressemblera à ceci:
+
+01:38.590 --> 01:41.680
+f(0) et on fait cela en...
+
+01:41.680 --> 01:44.467
+Quelle couleur ai-je utilisé pour cosinus et sinus?
+
+01:44.467 --> 01:46.754
+Rose et vert.
+
+01:47.754 --> 01:49.954
+J'utiliserai le jaune ici.
+
+01:51.000 --> 01:53.600
+f(0) égale 1
+
+01:53.600 --> 01:55.467
+plus f ' (0) fois x
+
+01:55.467 --> 01:57.333
+f ' (0) fait aussi 1
+
+01:57.333 --> 01:58.508
+plus x
+
+01:59.400 --> 02:01.067
+plus ceci, aussi 1
+
+02:01.067 --> 02:03.518
+donc x ^ 2 / 2! (factorielle de 2)
+
+02:06.318 --> 02:08.476
+Toutes ces choses feront 1:
+
+02:08.476 --> 02:09.533
+ça c'est 1,
+
+02:09.533 --> 02:10.733
+ça c'est 1,
+
+02:10.733 --> 02:11.933
+quand on parle de e^x.
+
+02:11.933 --> 02:13.267
+On va au troisième terme,
+
+02:13.267 --> 02:14.667
+ça fait 1.
+
+02:14.667 --> 02:17.067
+On a seulement x ^ 3 / 3!
+
+02:17.067 --> 02:19.467
+plus x ^ 3 / 3!
+
+02:19.467 --> 02:20.800
+Et je crois que vous voyez le schéma ici,
+
+02:20.800 --> 02:22.200
+on continue d'ajouter des termes.
+
+02:22.200 --> 02:22.942
+x ^ 4 / 4!
+
+02:22.942 --> 02:31.667
+plus x ^ 5 / 5! plus x ^ 6 / 6!
+
+02:31.667 --> 02:34.200
+et quelque chose d'assez joli
+
+02:34.200 --> 02:35.800
+commence à apparaître.
+
+02:35.800 --> 02:38.000
+Ça c'est vraiment cool,
+
+02:38.000 --> 02:40.357
+que e^x peut être estimer par
+
+02:40.357 --> 02:44.026
+1 plus X plus x ^ 2 / 2!
+
+02:44.026 --> 02:45.933
+plus x ^ 3 / 3!
+
+02:45.933 --> 02:48.133
+Encore une fois, e ^ x commence à ressembler
+
+02:48.133 --> 02:49.467
+à quelque chose d'assez cool,
+
+02:49.467 --> 02:51.758
+Ceci mène aussi à d'autres conséquences intéressantes
+
+02:51.758 --> 02:54.684
+Comme, pour approximer e
+
+02:54.684 --> 02:58.600
+il suffit d'évaluer ceci avec x égal à 1
+
+02:58.600 --> 03:06.533
+Donc ceci, e, c'est e exposant 1,
+
+03:06.533 --> 03:08.000
+et ce sera approximativement égal
+
+03:08.000 --> 03:10.682
+à ce polynôme évalué à 1
+
+03:10.682 --> 03:13.067
+si x vaut 1 ici, on dit x = 1
+
+03:13.067 --> 03:13.667
+ici
+
+03:13.667 --> 03:18.241
+Ce sera donc: 1 plus 1,
+
+03:18.256 --> 03:21.590
+plus 1 sur 2!
+
+03:21.590 --> 03:24.933
+plus 1 sur 3!
+
+03:24.933 --> 03:27.800
+plus 1 sur 4!
+
+03:27.800 --> 03:30.744
+et ainsi de suite jusqu'à l'infini.
+
+03:30.744 --> 03:33.467
+Et on peut faire celui ci aussi, comme 1
+
+03:33.467 --> 03:35.933
+sur 1! aussi.
+
+03:35.933 --> 03:39.103
+Mais ce qui est vraiment cool, c'est que
+
+03:39.103 --> 03:41.267
+ceci est une autre belle manière de représenter e,
+
+03:41.267 --> 03:42.467
+on voit que e,
+
+03:42.467 --> 03:43.608
+encore une fois, donne
+
+03:43.608 --> 03:49.133
+plus ou moins 2 + 1/2 + 1/6 plus..
+
+03:49.133 --> 03:51.271
+Si vous continuez à faire ça, vous arrivez à quelque chose
+
+03:51.271 --> 03:53.121
+de proche du nombre e.
+
+03:54.429 --> 03:56.193
+Mais ceci, en soi, n'est pas la seule
+
+03:56.193 --> 03:58.353
+chose remarquable.
+
+03:58.353 --> 04:00.200
+Si on regarde à la représentation de Maclaurin
+
+04:00.200 --> 04:02.400
+de ces autres fonctions,
+
+04:02.400 --> 04:03.533
+cosinus (x)
+
+04:03.533 --> 04:06.600
+laisser moi copier-coller cosinus(x),
+
+04:06.600 --> 04:09.867
+donc, cosinus (x), ici
+
+04:09.867 --> 04:14.026
+Laissez moi faire de mon mieux et copier-coller tout le truc... et coller.
+
+04:18.272 --> 04:24.600
+Donc, ça c'est cosinus (x) et faisons la même chose
+
+04:24.600 --> 04:27.773
+pour sinus (x), que nous avons fait dans la vidéo précédente.
+
+04:27.773 --> 04:30.887
+Le sinus de x
+
+04:31.533 --> 04:37.825
+Je copie-colle ça.
+
+04:40.533 --> 04:44.770
+Donc, voyons nous une quelconque relation entre
+
+04:44.770 --> 04:46.348
+ces approximations?
+
+04:46.348 --> 04:48.067
+Avant, vous auriez probablement deviné
+
+04:48.067 --> 04:49.181
+qu'il y devait y avoir une relation
+
+04:49.181 --> 04:50.342
+entre sinus et cosinus;
+
+04:50.342 --> 04:52.733
+mais avec e^x alors?
+
+04:52.733 --> 04:54.429
+Ce que vous voyez ici,
+
+04:54.429 --> 04:58.144
+c'est que cosinus x ressemble beaucoup à ce terme
+
+04:58.144 --> 05:00.800
+plus ce terme, bien que l'on veut probablement
+
+05:00.800 --> 05:02.347
+ajouter un moins ici
+
+05:02.347 --> 05:04.400
+donc nous avons une version négative de ce terme
+
+05:04.400 --> 05:04.900
+ici,
+
+05:04.900 --> 05:06.200
+plus ce terme ici,
+
+05:06.200 --> 05:09.200
+plus une version négative de ce terme
+
+05:09.200 --> 05:11.067
+juste ici.
+
+05:11.067 --> 05:14.667
+Et sinus (x) ressemble
+
+05:14.667 --> 05:19.019
+à ce terme, plus une version négative
+
+05:19.019 --> 05:21.527
+de ce terme,
+
+05:21.527 --> 05:23.533
+plus ce terme
+
+05:23.533 --> 05:24.600
+plus une version négative du terme suivant.
+
+05:25.172 --> 05:27.200
+Donc, si on voulait d'une manière, arranger
+
+05:27.200 --> 05:30.067
+ces moins d'une manière intéressante,
+
+05:30.067 --> 05:31.800
+ça ressemble à e^x.
+
+05:31.800 --> 05:34.867
+Du moins, la représentation polynomiale
+
+05:34.867 --> 05:36.271
+de e^x
+
+05:36.271 --> 05:39.336
+est quelque part liée à la combinaison
+
+05:39.336 --> 05:41.533
+des représentations polynomiales de
+
+05:41.533 --> 05:43.423
+cosinus de x et de sinus de x.
+
+05:43.423 --> 05:44.467
+Ceci commence à devenir
+
+05:44.467 --> 05:46.200
+vraiment, vraiment, vraiment cool.
+
+05:46.200 --> 05:47.400
+On commence à voir une connexion
+
+05:47.400 --> 05:48.764
+entre quelque chose lié
+
+05:48.764 --> 05:50.180
+à des intérêts cumulés
+
+05:50.180 --> 05:52.400
+ou une fonction dont la dérivée
+
+05:52.400 --> 05:53.802
+est toujours égale à cette fonction,
+
+05:53.802 --> 05:55.544
+et ces choses qui sortent du cercle trigonométrique
+
+05:55.544 --> 05:57.680
+et du mouvement oscillant et ce genre de choses.
+
+05:57.680 --> 06:00.267
+Il commence à y avoir une
+
+06:00.267 --> 06:01.867
+pure connectivité ici. Mais je vous laisse ici
+
+06:01.867 --> 06:03.276
+sur cette vidéo et dans la vidéo suivante,
+
+06:03.276 --> 06:07.333
+je vous montrerai comment rassembler
+
+06:07.333 --> 3:59:59.999
+ces trois fonctions fascinantes.

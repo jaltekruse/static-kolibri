@@ -1,0 +1,374 @@
+WEBVTT
+
+00:00.770 --> 00:03.660
+Sarah Swift hat einen Strafzettel bekommen.
+
+00:03.660 --> 00:04.520
+Sarah Swift hat einen Strafzettel bekommen.
+
+00:04.520 --> 00:07.690
+Wenn sie die Strafe gleich bezahlt,
+fallen keine zusätzlichen Gebühren an.
+
+00:07.690 --> 00:09.780
+Wartet sie mit der Zahlung, wird die Strafe
+
+00:09.780 --> 00:12.840
+entsprechend der Monate t,
+um die sie die Zahlung verzögert, festgelegt.
+
+00:12.840 --> 00:15.100
+entsprechend der Monate t,
+um die sie die Zahlung verzögert, festgelegt.
+
+00:15.100 --> 00:20.170
+Die Gesamtstrafe F
+ist in der Tabelle in Euro angegeben.
+
+00:20.170 --> 00:25.710
+Diese Zahlen bilden eine exponentielle Funktion.
+
+00:25.710 --> 00:27.640
+Gegeben sind also die Monate,
+um die sie die Zahlung verzögert,
+
+00:27.640 --> 00:30.870
+und der Betrag der Strafe.
+
+00:30.870 --> 00:33.420
+Das sind Datenpunkte einer Exponentialfunktion.
+
+00:33.420 --> 00:35.280
+Das sind Datenpunkte einer Exponentialfunktion.
+
+00:35.280 --> 00:37.800
+Um uns daran zu erinnern,
+wie eine Exponentialfunktion aussieht:
+
+00:37.800 --> 00:39.480
+Die Strafe, als Funktion des Verzugs in Monaten,
+
+00:39.480 --> 00:42.420
+Die Strafe, als Funktion des Verzugs in Monaten,
+
+00:42.420 --> 00:47.410
+ist gleich irgendeiner Zahl
+mal einer Basis hoch t.
+
+00:47.410 --> 00:49.730
+ist gleich irgendeiner Zahl
+mal einer Basis hoch t.
+
+00:49.730 --> 00:52.839
+Dieses 'exponentielle Funktion' hier sagt uns,
+
+00:52.839 --> 00:54.380
+dass unsere Funktion diese Form hier haben wird.
+
+00:54.380 --> 00:57.100
+dass unsere Funktion diese Form hier haben wird.
+
+00:57.100 --> 00:59.360
+Mal sehen, ob wir die Fragen beantworten können.
+
+00:59.360 --> 01:01.670
+Die erste Frage lautet: Was ist die Basis r
+
+01:01.670 --> 01:05.260
+von aufeinanderfolgenden Werten von F?
+
+01:05.260 --> 01:08.440
+Der Grund, warum r hier
+
+01:08.440 --> 01:13.950
+'Basis' heißt, ist,
+dass es das Verhältnis von
+
+01:13.950 --> 01:17.170
+zwei--
+sagen wir du erhöhst t um 1,
+
+01:17.170 --> 01:19.970
+das Verhältnis davon zu F von t
+
+01:19.970 --> 01:23.345
+sollte für jedes t das Gleiche sein.
+
+01:23.345 --> 01:25.430
+Ich möchte dir ein Beispiel dafür geben:
+
+01:25.430 --> 01:32.280
+Das Verhältnis von F(2) zu F(1)
+sollte das Gleiche sein,
+
+01:32.280 --> 01:36.980
+wie das Verhältnis von F(3) zu F(2).
+Dieses wiederum
+
+01:36.980 --> 01:41.940
+ist gleich dem Verhältnis von
+F(4) zu F(3).
+
+01:41.940 --> 01:44.150
+Oder allgemein gesagt,
+
+01:44.150 --> 01:48.510
+das Verhältnis von F(t+1) zu F(t)
+
+01:48.510 --> 01:50.220
+sollte immer das Gleiche sein.
+
+01:50.220 --> 01:52.807
+Also das ist die Basis.
+
+01:52.807 --> 01:53.890
+Schauen wir einmal, was das hier ist.
+
+01:53.890 --> 01:55.500
+Wenn wir uns die Tabelle ansehen,
+
+01:55.500 --> 01:58.240
+Wenn wir uns die Tabelle ansehen,
+
+01:58.240 --> 02:01.380
+Was ist das Verhältnis von F(2) zu F(1)?
+
+02:01.380 --> 02:03.930
+450 dividiert durch 300?
+
+02:03.930 --> 02:07.240
+Das ist 1,5
+
+02:07.240 --> 02:09.759
+675 dividiert durch 450?
+
+02:09.759 --> 02:11.450
+Das ist 1,5.
+
+02:11.450 --> 02:15.650
+1012,50 dividiert durch 675?
+
+02:15.650 --> 02:17.290
+Das ist 1,5
+
+02:17.290 --> 02:22.750
+Das Verhältnis (Quotient)
+in all diesen Fällen ist also 1,5.
+
+02:22.750 --> 02:26.820
+Das Verhältnis (Quotient)
+in all diesen Fällen ist also 1,5.
+
+02:26.820 --> 02:30.170
+Nun zu einer anderen Möglichkeit, um zu erklären,
+
+02:30.170 --> 02:33.450
+warum r hier Basis heißt.
+
+02:33.450 --> 02:35.210
+Wir nehmen diese allgemeine Form.
+
+02:35.210 --> 02:36.510
+Was machen wir dann mit F(t+1)?
+
+02:36.510 --> 02:44.170
+Das wäre einfach a mal r hoch (t+1)
+
+02:44.170 --> 02:47.380
+und F(t) ist gleich
+a mal r hoch t.
+
+02:47.380 --> 02:48.790
+Was wird das ergeben?
+
+02:48.790 --> 02:50.580
+Mal sehen,
+
+02:50.580 --> 02:56.170
+das ergibt r hoch t+1-t und das ist
+
+02:56.170 --> 02:59.310
+r hoch 1 und das
+
+02:59.310 --> 03:01.330
+ist gleich r.
+
+03:01.330 --> 03:07.350
+Diese Variable r ist also gleich dem
+allgemeinen Verhältnis.
+
+03:07.350 --> 03:09.310
+Wir haben herausgefunden,
+dass die Basis 1,5 ist.
+
+03:09.310 --> 03:12.550
+Wir wissen daher, dass unsere Funktion
+
+03:12.550 --> 03:16.514
+die Form F(t) = a mal 1,5 hoch t hat.
+
+03:16.514 --> 03:17.930
+Statt r zu schreiben, schreibe ich 1,5,
+
+03:17.930 --> 03:21.690
+da r gleich 1,5 ist.
+
+03:21.690 --> 03:24.610
+1,5 hoch t.
+
+03:24.610 --> 03:26.450
+Schreib eine Formel für diese Funktion.
+
+03:26.450 --> 03:28.160
+Nun, das haben wir schon fast gemacht,
+
+03:28.160 --> 03:29.896
+aber wir haben noch nicht ausgerechnet
+was a ist.
+
+03:29.896 --> 03:32.940
+Um a auszurechnen,
+könnten wir es substituieren.
+
+03:32.940 --> 03:34.750
+Wir wissen, was F(1) ist.
+
+03:34.750 --> 03:36.950
+Wenn t gleich 1 ist,
+dann ist F gleich 300.
+
+03:36.950 --> 03:38.950
+Mit dieser Information
+können wir nach a auflösen.
+
+03:38.950 --> 03:39.575
+Mit dieser Information
+können wir nach a auflösen.
+
+03:39.575 --> 03:42.642
+Wir können jeden dieser Datenpunkte
+nehmen, um nach a aufzulösen.
+
+03:42.642 --> 03:43.350
+Also machen wir das.
+
+03:43.350 --> 03:49.400
+F(1) ist gleich
+a mal 1,5 hoch 1 oder
+
+03:49.400 --> 03:52.270
+oder a mal 1,5.
+
+03:52.270 --> 03:54.860
+Und das ist gleich 300,
+
+03:54.860 --> 03:57.164
+so wie es hier steht.
+
+03:57.164 --> 03:58.830
+Wir könnten auch
+
+03:58.830 --> 04:02.230
+1,5 mal a gleich 300
+schreiben.
+
+04:02.230 --> 04:05.550
+Wir dividieren nun
+beide Seiten durch 1,5.
+
+04:05.550 --> 04:11.320
+und erhalten
+a gleich 200.
+
+04:11.320 --> 04:14.780
+Das ist die Formel für unsere Funktion.
+
+04:14.780 --> 04:16.470
+Ich schreibe das in Schwarz,
+damit wir es sehen.
+
+04:16.470 --> 04:22.140
+Das ist gleich 200 - das ist unser a -
+mal 1,5 hoch t.
+
+04:22.140 --> 04:24.969
+Das ist gleich 200 - das ist unser a -
+mal 1,5 hoch t.
+
+04:24.969 --> 04:26.510
+Denken wir über die nächste Frage nach.
+
+04:26.510 --> 04:28.090
+Denken wir über die nächste Frage nach.
+
+04:28.090 --> 04:31.000
+Wie viel muss Sarah zahlen,
+in Euro,
+
+04:31.000 --> 04:32.880
+wenn sie rechtzeitig zahlt?
+
+04:32.880 --> 04:37.010
+Rechtzeitig zahlen bedeutet,
+dass t gleich Null ist.
+
+04:37.010 --> 04:38.620
+Wir berechnen
+
+04:38.620 --> 04:41.750
+die Strafe für t = 0.
+
+04:41.750 --> 04:44.890
+Wir werden also F(0) berechnen.
+
+04:44.890 --> 04:46.730
+Und was ist F(0)?
+
+04:46.730 --> 04:49.960
+Das ist 200 mal 1,5 hoch 0.
+
+04:49.960 --> 04:52.890
+1,5 hoch 0 ist gleich 1,
+
+04:52.890 --> 04:57.276
+also ist das einfach 200.
+
+04:57.276 --> 04:59.400
+Eine andere Denkweise wäre diese:
+
+04:59.400 --> 05:00.691
+Betrachten wir das
+gemeinsame Verhältnis.
+
+05:00.691 --> 05:04.540
+Um von 675 auf 450 zu kommen,
+
+05:04.540 --> 05:06.420
+dividierst du durch das
+gemeinsame Verhältnis.
+
+05:06.420 --> 05:10.790
+Um von 450 auf 300 zu kommen ebenfalls.
+
+05:10.790 --> 05:13.740
+Um von t=1 zu t= 0 zu kommen,
+
+05:13.740 --> 05:17.410
+dividierst du wieder durch das
+gemeinsame Verhältnis.
+
+05:17.410 --> 05:19.722
+Und so erhältst du 200.
+
+05:19.722 --> 05:21.180
+Wieder eine andere Überlegung wäre,
+
+05:21.180 --> 05:25.410
+jeweils von Monat zu Monat zu gehen,
+
+05:25.410 --> 05:27.780
+wenn wir mit gemeinsamen Verhältnis
+multiplizieren.
+
+05:27.780 --> 05:35.720
+Jedes Mal multiplizieren wir mit dem gemeinsamen Verhältnis.

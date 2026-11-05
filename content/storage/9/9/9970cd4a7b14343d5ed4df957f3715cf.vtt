@@ -1,0 +1,745 @@
+WEBVTT
+
+00:00.540 --> 00:04.150
+Part C, find the
+particular solution--
+
+00:04.150 --> 00:06.696
+W as a function of t-- to
+the differential equations,
+
+00:06.696 --> 00:08.070
+derivative of W
+with respect to t
+
+00:08.070 --> 00:11.670
+is equal to 1 over
+25 times w minus 300,
+
+00:11.670 --> 00:15.660
+with initial condition, at
+time 0, W is equal to 1,400.
+
+00:15.660 --> 00:21.460
+And the units in this problem,
+it was 1,400 tons they told us.
+
+00:21.460 --> 00:24.560
+So it might seem strange to
+see a differential equations
+
+00:24.560 --> 00:26.330
+problem on an AP exam.
+
+00:26.330 --> 00:27.970
+You say, wait, this isn't fair.
+
+00:27.970 --> 00:30.926
+This isn't a differential
+equations class.
+
+00:30.926 --> 00:33.050
+And the thing to keep in
+mind is if, on an AP exam,
+
+00:33.050 --> 00:34.170
+you see differential
+equations, they're
+
+00:34.170 --> 00:36.461
+really asking you to solve
+a differential equation that
+
+00:36.461 --> 00:38.640
+can be solved using
+the skills that you
+
+00:38.640 --> 00:40.730
+would learn in an AP class.
+
+00:40.730 --> 00:43.516
+And the main class of
+differential equations
+
+00:43.516 --> 00:44.890
+that you could
+solve are the ones
+
+00:44.890 --> 00:46.640
+that are separable
+differential equations.
+
+00:46.640 --> 00:48.690
+The ones where you can
+separate the independent
+
+00:48.690 --> 00:50.331
+and the dependent variables.
+
+00:50.331 --> 00:52.580
+And if you don't have any
+idea what I'm talking about,
+
+00:52.580 --> 00:53.496
+I'm about to show you.
+
+00:53.496 --> 00:56.030
+So let me rewrite this
+differential equation.
+
+00:56.030 --> 01:04.069
+We have dw, dt is equal to
+1 over 25 times W minus 300.
+
+01:04.069 --> 01:06.300
+Now this differential
+equation, we have W here.
+
+01:06.300 --> 01:07.790
+And we have this dt.
+
+01:07.790 --> 01:09.700
+But we don't have
+t anywhere else.
+
+01:09.700 --> 01:12.370
+So what I want to do is I want
+to get the parts that involve W
+
+01:12.370 --> 01:14.590
+onto the left-hand
+side, and I want
+
+01:14.590 --> 01:18.020
+to get anything that deals
+with dt on the right-hand side.
+
+01:18.020 --> 01:23.740
+So let's divide both sides of
+this equation by w minus 300.
+
+01:23.740 --> 01:29.417
+So we would have 1
+over W minus 300 dw
+
+01:29.417 --> 01:31.250
+dt-- the derivative of
+W with respect to t--
+
+01:31.250 --> 01:34.880
+is equal to-- I divide
+this side by W minus 300,
+
+01:34.880 --> 01:37.710
+so it's equal to 1 over 25.
+
+01:37.710 --> 01:40.050
+Now I want to get the
+dt's on this side.
+
+01:40.050 --> 01:42.930
+So let's multiply
+both sides by dt.
+
+01:42.930 --> 01:44.430
+[INAUDIBLE] the
+differential is just
+
+01:44.430 --> 01:47.210
+a very, very small change in t.
+
+01:47.210 --> 01:51.620
+And so we get-- and I'm a little
+bit imprecise with my notation
+
+01:51.620 --> 01:52.120
+here.
+
+01:52.120 --> 01:53.970
+But this is one way that
+you can think about it when
+
+01:53.970 --> 01:55.928
+you are dealing with the
+differential equations
+
+01:55.928 --> 01:58.040
+like this, separable
+differential equations.
+
+01:58.040 --> 02:03.860
+You have 1 over W minus
+300 dw-- let me make sure
+
+02:03.860 --> 02:06.600
+that the dw doesn't look like
+it's in the denominator--
+
+02:06.600 --> 02:13.730
+dw is equal to 1 over 25 dt.
+
+02:13.730 --> 02:16.830
+And now we can integrate both
+sides, which is essentially
+
+02:16.830 --> 02:20.200
+just saying that we're taking--
+since this is equal to this--
+
+02:20.200 --> 02:22.950
+that each little
+increment of W times this
+
+02:22.950 --> 02:25.960
+is equal to each little
+increment of dt times 1
+
+02:25.960 --> 02:27.340
+over 25.
+
+02:27.340 --> 02:31.050
+We can then say, well, if we sum
+up all of the increments of W
+
+02:31.050 --> 02:33.360
+times this quantity--
+if we sum up
+
+02:33.360 --> 02:35.970
+the infinite number of
+infinitesimally small
+
+02:35.970 --> 02:38.320
+increments-- that would be
+the same thing as summing up
+
+02:38.320 --> 02:39.480
+all of these characters.
+
+02:39.480 --> 02:41.700
+Because each of these
+characters is really
+
+02:41.700 --> 02:44.260
+the same as each of
+these characters.
+
+02:44.260 --> 02:45.390
+So let's do that sum.
+
+02:45.390 --> 02:49.360
+We're essentially just
+integrating both sides of this.
+
+02:49.360 --> 02:52.260
+And here, you might be able
+to do this in your head.
+
+02:52.260 --> 02:54.490
+Or we could do the
+formal u substitution,
+
+02:54.490 --> 02:56.320
+just to make it clear
+what we're doing.
+
+02:56.320 --> 03:02.010
+If you said u is equal to W
+minus 300, then what is du?
+
+03:02.010 --> 03:03.410
+If you wanted the differential.
+
+03:03.410 --> 03:05.159
+So if you want to take
+the derivative of u
+
+03:05.159 --> 03:09.660
+with respect to W, you would
+say du with respect to W
+
+03:09.660 --> 03:11.840
+is equal to what?
+
+03:11.840 --> 03:13.150
+It is equal to 1.
+
+03:13.150 --> 03:15.590
+The derivative of this
+with respect to W is 1.
+
+03:15.590 --> 03:18.630
+Or if you multiply
+both sides times dw,
+
+03:18.630 --> 03:22.440
+you have du is equal to dw.
+
+03:22.440 --> 03:26.290
+And so this left-hand side right
+over here-- this integral--
+
+03:26.290 --> 03:32.490
+could be rewritten as the
+integral of 1 over u du.
+
+03:32.490 --> 03:34.190
+We define this as u.
+
+03:34.190 --> 03:36.610
+And we just saw that du
+is the same thing as dw,
+
+03:36.610 --> 03:38.560
+so this could be
+rewritten as du.
+
+03:38.560 --> 03:40.540
+And this is one of
+the basic integrals,
+
+03:40.540 --> 03:41.910
+so hopefully we've learned.
+
+03:41.910 --> 03:46.230
+And this is equal to the natural
+log of the absolute value of u.
+
+03:46.230 --> 03:48.680
+Or if you unwind
+the substitution,
+
+03:48.680 --> 03:51.820
+this is equal to the natural
+log of the absolute value
+
+03:51.820 --> 03:55.460
+of W minus 300.
+
+03:55.460 --> 03:56.697
+So let me write this down.
+
+03:56.697 --> 03:58.280
+So the left-hand
+side right over here.
+
+03:58.280 --> 03:59.210
+And you might be able
+do that in your head.
+
+03:59.210 --> 04:00.001
+You say, hey, look.
+
+04:00.001 --> 04:01.190
+You have W minus 300.
+
+04:01.190 --> 04:03.840
+Its derivative is 1, so
+it's essentially there.
+
+04:03.840 --> 04:06.660
+So I can just take this
+as if this was 1 over-- I
+
+04:06.660 --> 04:09.320
+could just take the
+antiderivative here and treat
+
+04:09.320 --> 04:11.235
+this whole thing as a variable.
+
+04:11.235 --> 04:13.610
+So it would just be the natural
+log of this entire thing,
+
+04:13.610 --> 04:15.910
+or the absolute value
+of that entire thing.
+
+04:15.910 --> 04:18.480
+So the integral of
+the left-hand side
+
+04:18.480 --> 04:24.496
+is the natural log of the
+absolute value of W minus 300.
+
+04:24.496 --> 04:26.662
+And the derivative of the
+right-hand side-- and this
+
+04:26.662 --> 04:30.360
+is a little bit more
+straightforward-- or sorry,
+
+04:30.360 --> 04:33.170
+the antiderivative with respect
+to t on the right-hand side
+
+04:33.170 --> 04:39.045
+is 1 over 25 t, or we
+could say t over 25.
+
+04:42.090 --> 04:44.160
+And then these are both
+indefinite integrals.
+
+04:44.160 --> 04:46.460
+You could have a constant
+on both sides or one side.
+
+04:46.460 --> 04:48.501
+We could just put it on
+one side right over here.
+
+04:48.501 --> 04:50.440
+You could have put
+plus some constant.
+
+04:50.440 --> 04:52.635
+You could have added
+some C1 over here.
+
+04:52.635 --> 04:54.260
+And then you could've
+had C2 over here.
+
+04:54.260 --> 04:56.426
+But then you could've
+subtracted C1 from both sides,
+
+04:56.426 --> 04:59.094
+and then just have a
+C3 constant over here.
+
+04:59.094 --> 05:00.510
+But to simplify
+it, you could just
+
+05:00.510 --> 05:04.130
+say, look, this is going
+to be equal to this
+
+05:04.130 --> 05:05.465
+plus some constant.
+
+05:05.465 --> 05:07.590
+You could've put the constant
+on that side as well.
+
+05:07.590 --> 05:08.340
+It doesn't matter.
+
+05:08.340 --> 05:10.860
+All the constants
+would merge into one.
+
+05:10.860 --> 05:13.150
+Now we've gotten pretty far.
+
+05:13.150 --> 05:16.950
+We want to solve the
+particular solution.
+
+05:16.950 --> 05:18.760
+Right now, we only
+have this constant.
+
+05:18.760 --> 05:22.350
+And we also haven't written W as
+a function of t just right yet.
+
+05:22.350 --> 05:24.580
+They're implicitly expressed.
+
+05:24.580 --> 05:27.710
+It is more of a relationship
+than a function right now.
+
+05:27.710 --> 05:29.480
+So the first thing
+we can do is try
+
+05:29.480 --> 05:36.140
+to solve for C. We're told
+in the problem that W of 0
+
+05:36.140 --> 05:40.590
+is equal to 1400 tons.
+
+05:40.590 --> 05:41.410
+They told us that.
+
+05:41.410 --> 05:43.610
+That's one of our
+initial conditions.
+
+05:43.610 --> 05:49.010
+So we know that the natural
+log, that when t is equal to 0,
+
+05:49.010 --> 05:50.990
+W is equal to 1400.
+
+05:50.990 --> 06:00.450
+So W is equal to 1,400 when
+t is equal to 0 plus C.
+
+06:00.450 --> 06:02.580
+Or another way to
+think about it is,
+
+06:02.580 --> 06:08.314
+the natural log of the absolute
+value of 1,100 is equal to C.
+
+06:08.314 --> 06:09.980
+And obviously, this
+is a positive value.
+
+06:09.980 --> 06:13.370
+So we could just say that C
+is equal to the natural log
+
+06:13.370 --> 06:14.250
+of 1,100.
+
+06:14.250 --> 06:15.830
+We can drop the
+absolute value sign
+
+06:15.830 --> 06:18.990
+because the absolute
+value of 1,100 is 1,100.
+
+06:18.990 --> 06:22.270
+So now we can rewrite
+this part right over here.
+
+06:22.270 --> 06:23.940
+Let me do it in yellow.
+
+06:23.940 --> 06:26.790
+Let me start--
+that's not yellow.
+
+06:26.790 --> 06:28.090
+Let me start right over here.
+
+06:28.090 --> 06:31.050
+So we could write
+the natural log
+
+06:31.050 --> 06:34.990
+of the absolute
+value of W minus 300.
+
+06:34.990 --> 06:38.040
+And actually, we know that
+W is an increasing function.
+
+06:38.040 --> 06:41.440
+W starts at 1,400 and
+only goes up from there
+
+06:41.440 --> 06:43.450
+as t gets larger and larger.
+
+06:43.450 --> 06:45.500
+So if we're starting at
+1,400 and only getting
+
+06:45.500 --> 06:48.420
+larger and larger values
+for W, this expression right
+
+06:48.420 --> 06:53.180
+here is never going to get
+negative for positive t values.
+
+06:53.180 --> 06:54.534
+And that's all we care about.
+
+06:54.534 --> 06:56.700
+And so we can actually drop
+the absolute value sign.
+
+06:56.700 --> 06:58.440
+This will always be
+a positive value.
+
+06:58.440 --> 07:04.580
+So we could say the absolute
+value of W minus 300
+
+07:04.580 --> 07:07.380
+is equal to t over
+25-- and we've just
+
+07:07.380 --> 07:12.590
+solved for our constant--
+plus the natural log of 1,100.
+
+07:12.590 --> 07:15.030
+And now we can just solve
+this explicitly for W.
+
+07:15.030 --> 07:18.900
+We can raise e to both sides.
+
+07:18.900 --> 07:20.855
+This value is equal
+to this value.
+
+07:20.855 --> 07:22.980
+The left hand side is equal
+to the right hand side.
+
+07:22.980 --> 07:25.370
+So e raised to this power
+is the same thing as e
+
+07:25.370 --> 07:27.150
+raised to that power.
+
+07:27.150 --> 07:32.400
+So we have e to the
+natural log of W minus 300
+
+07:32.400 --> 07:36.310
+is going to be equal
+to e to the t over 25
+
+07:36.310 --> 07:39.600
+plus the natural log of 1,100.
+
+07:39.600 --> 07:44.050
+Let me take this-- actually,
+just to get the real estate,
+
+07:44.050 --> 07:47.020
+let me delete that.
+
+07:47.020 --> 07:47.520
+All right.
+
+07:47.520 --> 07:49.830
+Now I can keep working
+right below that.
+
+07:49.830 --> 07:52.060
+And so e to the natural
+log of something
+
+07:52.060 --> 07:53.930
+is just going to be
+equal to that something.
+
+07:53.930 --> 07:56.013
+The natural log is what
+power do I have to raise e
+
+07:56.013 --> 07:57.850
+to to get this thing.
+
+07:57.850 --> 07:59.340
+Well I'm raising
+e to that power,
+
+07:59.340 --> 08:00.640
+so I'm going to get this thing.
+
+08:00.640 --> 08:04.510
+So the left-hand side
+just becomes W minus 300,
+
+08:04.510 --> 08:07.475
+and the right-hand side,
+we could rewrite this as e
+
+08:07.475 --> 08:14.690
+to the t over 25 times e to
+the natural log of 1,100.
+
+08:14.690 --> 08:17.352
+We have the same base,
+different exponents.
+
+08:17.352 --> 08:18.810
+If you wanted to
+simplify this, you
+
+08:18.810 --> 08:20.268
+would just add the
+exponents, which
+
+08:20.268 --> 08:21.730
+is exactly what we did up here.
+
+08:21.730 --> 08:24.380
+So these two things
+are equivalent.
+
+08:24.380 --> 08:26.820
+e to the natural log of
+1,100, that is 1,100.
+
+08:26.820 --> 08:28.780
+The natural log of
+1,100 is a power
+
+08:28.780 --> 08:31.280
+that you raise e
+to to get to 1,100.
+
+08:31.280 --> 08:34.669
+So if you raise e to that
+power, you get 1,100.
+
+08:34.669 --> 08:36.409
+So that is 1,100.
+
+08:36.409 --> 08:46.780
+So we get W minus 300 is equal
+to 1,100 e to the t over 25.
+
+08:46.780 --> 08:49.320
+And then you just add
+300 to both sides.
+
+08:49.320 --> 08:56.220
+W is equal to 1,100 e to
+the t over 25 plus 300.
+
+08:56.220 --> 08:57.430
+And we're done.
+
+08:57.430 --> 08:59.400
+We have solved the
+differential equation.
+
+08:59.400 --> 09:01.400
+We found the
+particular solution.
+
+09:01.400 --> 09:04.170
+We had to solve for C to find
+that particular solution.
+
+09:04.170 --> 09:04.670
+We're done.
+
+09:04.670 --> 09:06.590
+And we did it using
+just basic integration.
+
+09:06.590 --> 09:09.330
+We didn't have to use any
+of the fancy differential
+
+09:09.330 --> 09:11.690
+equation solving
+tools that you might
+
+09:11.690 --> 09:14.690
+learn in a more advanced class.

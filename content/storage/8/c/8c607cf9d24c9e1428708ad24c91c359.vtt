@@ -1,0 +1,417 @@
+WEBVTT
+
+00:00.000 --> 00:04.113
+Nejspíš už znáte
+směrnici přímky.
+
+00:04.113 --> 00:07.407
+a pokud ne, doporučuji vám se na
+to podívat na Khan Academy.
+
+00:07.407 --> 00:09.321
+Ale směrnice
+vlastně jen říká,
+
+00:09.321 --> 00:13.841
+jak se změní hodnota svislé neznámé,
+když dojde ke změně vodorovné neznámé.
+
+00:13.841 --> 00:20.502
+Například v tomto případě mám standardně
+y na svislé ose a x na vodorovné ose.
+
+00:20.502 --> 00:22.984
+Kdybych chtěl nyní určit
+směrnici této přímky,
+
+00:22.984 --> 00:27.146
+mohl bych vybrat nějaké dva body,
+například tento bod a tenhle bod,
+
+00:27.146 --> 00:30.898
+a bude mě zajímat, jaká je změna x,
+když jdu z tohoto bodu do druhého.
+
+00:30.898 --> 00:34.568
+Změna hodnoty x bude
+tato vzdálenost.
+
+00:34.568 --> 00:36.605
+Změna x.
+
+00:36.605 --> 00:40.752
+Tenhle trojúhelník je řecké písmeno delta
+a jde jen o zkratku pro slovo změna,
+
+00:40.752 --> 00:42.747
+takže tu máme změnu x.
+
+00:42.747 --> 00:46.476
+Také můžeme
+spočítat změnu y.
+
+00:46.476 --> 00:49.198
+Když jdeme z tohoto bodu
+nahoru do druhého bodu,
+
+00:49.198 --> 00:55.782
+naše změna y se
+bude rovnat tomuto.
+
+00:55.782 --> 01:00.227
+Směrnici bychom pak definovali, respektive
+tak už jsme si ji definovali předtím,
+
+01:00.227 --> 01:02.783
+jako změna y
+děleno změna x.
+
+01:02.783 --> 01:10.745
+Směrnice je změna hodnoty svislé proměnné
+děleno změnou hodnoty vodorovné proměnné,
+
+01:10.745 --> 01:14.898
+čemuž se někdy také říká
+svislá změna děleno vodorovná změna.
+
+01:14.898 --> 01:18.515
+Každá přímka má
+jednu určitou směrnici,
+
+01:18.515 --> 01:21.771
+protože přímka má
+konstantní změnu funkční hodnoty.
+
+01:21.771 --> 01:24.383
+Když vezmete libovolné
+dva body na této přímce,
+
+01:24.383 --> 01:28.830
+ať už jsou jakkoliv vzdálené nebo
+blízko sebe, zkrátka kdekoliv na přímce,
+
+01:28.830 --> 01:33.406
+tak vám po výpočtu změn
+vyjde vždy stejná směrnice.
+
+01:33.406 --> 01:35.845
+To je právě
+vlastnost přímek.
+
+01:35.845 --> 01:40.045
+Na matematické analýze je ale
+fascinující to, že si vytvoříme nástroje,
+
+01:40.045 --> 01:43.864
+pomocí nichž budeme moci zkoumat
+nejen změnu funkční hodnoty přímky,
+
+01:43.864 --> 01:45.647
+čemuž jsme doteď říkali směrnice,
+
+01:45.647 --> 01:51.818
+ale budeme moci uvažovat i nad okamžitou
+změnou funkční hodnoty nějaké křivky.
+
+01:51.818 --> 01:56.174
+Něčeho, u čeho se změna
+funkční hodnoty neustále mění.
+
+01:56.174 --> 02:04.938
+Například zde je křivka, pro kterou se
+změna y při změně x neustále mění.
+
+02:04.938 --> 02:07.992
+To dokonce i když
+použijeme náš tradiční postup.
+
+02:07.992 --> 02:10.970
+Řekneme si, že můžeme spočítat
+průměrnou změnu funkční hodnoty,
+
+02:10.970 --> 02:14.426
+a to mezi třeba tímto
+bodem a tímto bodem.
+
+02:14.426 --> 02:15.867
+Čemu se to bude rovnat?
+
+02:15.867 --> 02:19.814
+Průměrná změna funkční hodnoty mezi tímto
+bodem a tímto bodem je směrnice přímky,
+
+02:19.814 --> 02:21.189
+která body spojuje.
+
+02:21.189 --> 02:24.731
+Tedy směrnice této
+přímky, této sečny.
+
+02:24.731 --> 02:28.299
+Ale kdybychom vybrali jiné
+dva body, třeba tento a tento,
+
+02:28.299 --> 02:32.109
+průměrná změna funkční hodnoty
+mezi těmito body vypadá o dost jinak.
+
+02:32.109 --> 02:34.935
+Vypadá to, že
+směrnice bude větší.
+
+02:34.935 --> 02:40.384
+Takže když vezmeme dva body a uvážíme
+směrnici přímky, směrnici této sečny,
+
+02:40.384 --> 02:43.578
+tak vidíme, že
+směrnice se mění.
+
+02:43.578 --> 02:47.508
+Co kdybychom si ale
+položili ještě zajímavější otázku?
+
+02:47.508 --> 02:51.944
+Jaká je okamžitá změna
+funkční hodnoty v bodě?
+
+02:51.944 --> 02:58.281
+Například jak rychle se y mění vzhledem
+ke změně x přesně v tomto bodě?
+
+02:58.281 --> 03:03.621
+Právě když je x rovno této hodnotě,
+kterou si označme jako x_1.
+
+03:03.621 --> 03:05.768
+Můžete se na to dívat třeba takto:
+
+03:05.768 --> 03:09.239
+Co kdybychom nakreslili tečnu
+grafu procházející tímto bodem?
+
+03:09.239 --> 03:12.405
+Přímku, která se dotýká
+grafu přesně tady.
+
+03:12.405 --> 03:15.002
+Směrnici takové
+přímky umíme spočítat,
+
+03:15.002 --> 03:18.799
+a to by také měla být změna
+funkční hodnoty v tomto bodě.
+
+03:18.799 --> 03:21.265
+Okamžitá změna
+funkční hodnoty.
+
+03:21.265 --> 03:26.683
+Tečna by mohla
+vypadat nějak takto.
+
+03:26.683 --> 03:29.694
+Když budeme znát
+směrnici této přímky,
+
+03:29.694 --> 03:34.112
+tak můžeme říci, že to je okamžitá
+změna funkční hodnoty v tomto bodě.
+
+03:34.112 --> 03:37.601
+Proč říkám okamžitá
+změna funkční hodnoty?
+
+03:37.601 --> 03:41.954
+Vzpomeňte si na video o běžcích,
+například s Usainem Boltem,
+
+03:41.954 --> 03:46.899
+Kdybychom chtěli určit rychlost
+Usaina Bolta v danou chvíli,
+
+03:46.899 --> 03:49.930
+tak by toto mohlo popisovat
+jeho polohu v průběhu času.
+
+03:49.930 --> 03:52.641
+y by odpovídalo
+jeho poloze a x času.
+
+03:52.641 --> 03:55.493
+Čas se obvykle značí písmenem ‚t‘,
+ale teď ho označme jako x.
+
+03:55.493 --> 04:01.879
+Přesně v tomto čase tak
+mluvíme o okamžité změně.
+
+04:01.879 --> 04:08.989
+Tato myšlenka tvoří základ diferenciálního
+počtu a říká se jí derivace.
+
+04:08.989 --> 04:15.567
+Směrnice tečny, na což lze také nahlížet
+jako na okamžitou změnu funkční hodnoty.
+
+04:15.567 --> 04:20.160
+Napíšu zde vykřičník, protože
+je to velice důležitá myšlenka.
+
+04:20.160 --> 04:23.228
+Jak derivaci zapisujeme?
+
+04:23.228 --> 04:25.860
+Jednou z možností
+je Leibnizovo značení.
+
+04:25.860 --> 04:30.103
+Leibniz je jedním z otců matematické
+analýzy spolu s Isaacem Newtonem.
+
+04:30.103 --> 04:39.728
+V jeho značení se směrnice
+tečny rovná dy lomeno dx.
+
+04:39.728 --> 04:41.939
+Proč mám toto značení rád?
+
+04:41.939 --> 04:47.815
+Protože vychází z myšlenky směrnice,
+kde je změna y dělená změnou x.
+
+04:47.815 --> 04:52.847
+V dalších videích uvidíte, že na směrnici
+tečny lze také nahlížet tak, že…
+
+04:52.847 --> 04:57.477
+Spočítejme si směrnici sečny
+procházející tímto a tímto bodem.
+
+04:57.477 --> 04:59.751
+Pak vezmeme bližší
+body, třeba tyto dva.
+
+04:59.751 --> 05:01.574
+Pak ještě bližší
+body, tyto dva,
+
+05:01.574 --> 05:03.839
+Poté vezměme ještě
+bližší body a podívejme se,
+
+05:03.839 --> 05:09.065
+co se děje, když
+se změna x blíží k 0.
+
+05:09.065 --> 05:11.894
+Takže když místo delt
+používáme tato písmena d,
+
+05:11.894 --> 05:19.689
+tak tím Leibniz říkal: „Co se stane,
+když bude změna x blízko k 0?“
+
+05:19.689 --> 05:24.804
+Toto je Leibnizův zápis
+a značí myšlenku,
+
+05:24.804 --> 05:32.266
+že místo změny y dělené změnou x uvažujeme
+velmi malé změny y při velmi malé změně x,
+
+05:32.266 --> 05:35.916
+zejména pro
+změnu x blížící se k 0.
+
+05:35.916 --> 05:39.419
+Jak dále uvidíte, takto
+také budeme derivaci počítat.
+
+05:39.419 --> 05:42.119
+Existují však i další
+způsoby zápisu.
+
+05:42.119 --> 05:47.503
+Pokud lze tuto křivku popsat
+jako y rovná se f(x),
+
+05:47.503 --> 05:56.773
+tak směrnici tečny v tomto bodě
+můžeme zapsat jako f s čarou v bodě x_1.
+
+05:56.773 --> 05:59.563
+Na toto značení si
+chvíli musíte zvykat.
+
+05:59.563 --> 06:01.429
+Jedná se o
+Lagrangeovo značení.
+
+06:01.429 --> 06:04.948
+f s čarou
+představuje derivaci,
+
+06:04.948 --> 06:09.264
+jde o směrnici
+tečny v daném bodě.
+
+06:09.264 --> 06:13.058
+Když dosadíte x do
+této funkce, do funkce f,
+
+06:13.058 --> 06:16.149
+dostanete
+příslušnou hodnotu y.
+
+06:16.149 --> 06:24.349
+Když dosadíte x do funkce f s čarou,
+dostanete směrnici přímky v tomto bodě.
+
+06:24.393 --> 06:29.049
+Je ještě jedno značení, které nejspíš moc
+neuvidíte na hodinách matematické analýzy,
+
+06:29.049 --> 06:35.042
+ale můžete ho potkat na hodinách
+fyziky, a to ‚y‘ s tečkou nahoře.
+
+06:35.043 --> 06:40.599
+Tedy y s tečkou nahoře
+také značí derivaci.
+
+06:40.599 --> 06:46.045
+Na hodinách matematiky můžete
+také častěji vidět y s čarou.
+
+06:46.045 --> 06:49.489
+Jak budeme pokračovat v našem
+putování matematickou analýzou,
+
+06:49.489 --> 06:52.680
+postupně si vytvoříme metody,
+kterými tyto věci budeme počítat.
+
+06:52.680 --> 06:56.252
+Pokud už znáte limity,
+tak budou velmi užitečné,
+
+06:56.252 --> 07:00.530
+protože budeme počítat limitu ze
+změny y dělené změnou x,
+
+07:00.530 --> 07:04.496
+když se změna
+x blíží k 0.
+
+07:04.496 --> 07:09.755
+A nebudeme to počítat jen pro jeden bod,
+budeme schopni sestavit rovnosti,
+
+07:09.755 --> 07:12.690
+které udávají derivaci
+v libovolném bodě.
+
+07:12.690 --> 07:15.783
+Takže se máte
+opravdu na co těšit.

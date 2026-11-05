@@ -1,0 +1,385 @@
+WEBVTT
+
+00:00.266 --> 00:02.532
+Đề cho biết rằng với x trong một khoảng mở,
+
+00:02.532 --> 00:04.561
+từ trừ 1/2 tới 1/2,
+
+00:04.561 --> 00:06.449
+thì trừ 2 trên 1 trừ 2x
+
+00:06.449 --> 00:08.630
+bằng với một chuỗi.
+
+00:08.630 --> 00:11.374
+Đề bảo ta sử dụng điều đó, tìm một hàm số sao cho,
+
+00:11.374 --> 00:14.261
+nó tương ứng với chuỗi này.
+
+00:14.261 --> 00:15.471
+Bạn hãy dừng video,
+
+00:15.471 --> 00:17.514
+và thử tự mình giải trước nhé.
+
+00:17.514 --> 00:19.532
+Rồi, vậy điều đầu tiên bạn thắc mắc là,
+
+00:19.532 --> 00:23.288
+làm sao ta biết biểu thức này bằng với chuỗi này?
+
+00:23.288 --> 00:26.504
+Bạn có thể thấy đây là một chuỗi cấp số nhân,
+
+00:26.504 --> 00:28.945
+với số hạng đầu là -2,
+
+00:28.945 --> 00:31.867
+và công bội để tìm ra các số hạng liền kề,
+
+00:31.867 --> 00:36.034
+ta nhân mỗi số với 2x, như vậy công bội là 2x.
+
+00:37.771 --> 00:39.316
+Với một chuỗi cấp số nhân như này,
+
+00:39.316 --> 00:41.506
+tổng sẽ là số hạng đầu tiên,
+
+00:41.506 --> 00:44.716
+là trừ 2, rồi chia cho 1 trừ đi công bội,
+
+00:44.716 --> 00:46.884
+chính là những gì ta có bên vế trái.
+
+00:46.884 --> 00:48.269
+Vậy đây là lí do chúng bằng nhau.
+
+00:48.269 --> 00:49.252
+Và ở đây,
+
+00:49.252 --> 00:51.172
+ta có bán kính hội tụ,
+
+00:51.172 --> 00:55.788
+những giá trị của x mà tại đó chuỗi này sẽ hội tụ.
+
+00:55.788 --> 00:57.716
+Vậy là ta đã giải quyết xong vế đầu,
+
+00:57.716 --> 01:00.709
+giờ ta hãy đi tìm lời giải của bài toán dưới đây.
+
+01:00.709 --> 01:02.753
+Vậy ta muốn tìm một hàm số,
+
+01:02.753 --> 01:05.001
+mà tương ứng với chuỗi này.
+
+01:05.001 --> 01:08.858
+Vậy thì, chuỗi này sẽ có liên hệ gì với chuỗi,
+
+01:08.858 --> 01:10.645
+mà đề cho ta phía trên?
+
+01:10.645 --> 01:12.921
+Xem nào, số hạng đầu ở đây là -2,
+
+01:12.921 --> 01:15.402
+còn ở dưới này lại là -2x,
+
+01:15.402 --> 01:18.562
+đây là -4x, còn đây là -2x bình phương.
+
+01:18.562 --> 01:22.343
+Vậy ta có thể thấy rằng,
+
+01:22.343 --> 01:27.220
+chuỗi thứ hai đề cho chính là nguyên hàm,
+
+01:27.220 --> 01:28.066
+của chuỗi thứ nhất.
+
+01:28.066 --> 01:30.077
+Hoặc ta có thể nói chuỗi thứ nhất là đạo hàm,
+
+01:30.077 --> 01:31.015
+của chuỗi hai.
+
+01:31.015 --> 01:33.645
+Đạo hàm của -2x với biến x là gì?
+
+01:33.645 --> 01:35.061
+Chà, đó chính là -2.
+
+01:35.061 --> 01:36.983
+Vậy còn đạo hàm -2x bình,
+
+01:36.983 --> 01:38.310
+với biến x?
+
+01:38.310 --> 01:41.941
+Nó là chính là -4x. Và ta cứ tiếp tục tính như thế.
+
+01:41.941 --> 01:46.072
+Vậy ta thấy, để mình gọi cái này là,
+
+01:46.072 --> 01:48.597
+mình sẽ đặt tên cho nó,
+
+01:48.597 --> 01:53.439
+xem nào, mình sẽ gọi nó là g(x).
+
+01:53.439 --> 01:55.454
+Cách mà mình có thể lấy vế phải ở đây,
+
+01:55.454 --> 01:58.682
+rồi tính ra được g(x) là lấy nguyên hàm,
+
+01:58.682 --> 02:00.256
+hay còn gọi là tích phân bất định.
+
+02:00.256 --> 02:02.559
+Vậy ta có thể,
+
+02:02.559 --> 02:06.059
+tính tích phân bất định cho cả 2 vế, dx.
+
+02:07.375 --> 02:08.208
+Vậy dx.
+
+02:09.267 --> 02:13.582
+Ở vế phải, mình sẽ có được g(x).
+
+02:13.582 --> 02:17.221
+Và còn vế trái, mình sẽ có,
+
+02:17.221 --> 02:20.383
+để mình viết lại.
+
+02:20.383 --> 02:22.113
+Vế trái này, mình viết ra,
+
+02:22.113 --> 02:24.563
+mình tính tích phân bất định của,
+
+02:24.563 --> 02:27.230
+-2 dx,
+
+02:28.341 --> 02:30.091
+chia cho 1 trừ 2x.
+
+02:31.478 --> 02:32.764
+Đó là một cách viết khác,
+
+02:32.764 --> 02:34.585
+của những gì ta có ở vế trái.
+
+02:34.585 --> 02:37.531
+Còn ở đây là g(x) đúng không nào?
+
+02:37.531 --> 02:39.062
+Nếu mình tính nguyên hàm của cái này,
+
+02:39.062 --> 02:40.601
+tính nguyên hàm,
+
+02:40.601 --> 02:44.629
+nó sẽ là g(x), còn hằng số sẽ là 0.
+
+02:44.629 --> 02:47.212
+Vậy mình nói cái này bằng g(x).
+
+02:49.330 --> 02:51.457
+Vậy chìa khóa cho câu trả lời là, tích phân bất định,
+
+02:51.457 --> 02:54.927
+của vế trái là gì. Bạn có thể thấy ngay,
+
+02:54.927 --> 02:57.430
+những gì mình có ở mẫu số,
+
+02:57.430 --> 02:59.742
+đạo hàm của nó chính là tử số.
+
+02:59.742 --> 03:01.905
+Mình đặt nó là u,
+
+03:01.905 --> 03:04.745
+u bằng với 1 trừ đi 2x,
+
+03:04.745 --> 03:06.346
+đây là phương pháp đổi biến số,
+
+03:06.346 --> 03:08.952
+vậy du sẽ bằng đạo hàm của cái này,
+
+03:08.952 --> 03:12.641
+với biến x, là bằng -2 dx.
+
+03:12.641 --> 03:15.352
+Vậy mình có du ở đây.
+
+03:15.352 --> 03:17.096
+Để mình viết lại.
+
+03:17.096 --> 03:21.013
+Mình có thể viết cái này thành tích phân của du trên u,
+
+03:23.990 --> 03:25.573
+bằng với g(x).
+
+03:27.050 --> 03:30.550
+Vậy cái này sẽ bằng ln,
+
+03:31.999 --> 03:34.749
+của trị tuyệt đối u cộng C.
+
+03:35.969 --> 03:37.552
+Và bằng với g(x).
+
+03:38.670 --> 03:41.591
+Tiếp theo mình sẽ thế lại vào u,
+
+03:41.591 --> 03:45.033
+mình thế ngược lại, u bằng,
+
+03:45.033 --> 03:46.722
+1 trừ đi 2x.
+
+03:46.722 --> 03:49.424
+Mính viết lại thành ln của,
+
+03:49.424 --> 03:53.591
+trị tuyệt đối của 1 trừ đi 2x. Và nó bằng với,
+
+03:56.212 --> 03:58.369
+ồ mình thiếu cộng C.
+
+03:58.369 --> 04:00.536
+cộng C bằng với g(x).
+
+04:03.275 --> 04:06.107
+Bước tiếp theo là ta sẽ xác định xem C là gì?
+
+04:06.107 --> 04:07.974
+Cách dễ nhất là,
+
+04:07.974 --> 04:10.307
+hãy thế 0 vào x.
+
+04:11.260 --> 04:13.666
+Hãy nghĩ về điều này một chút.
+
+04:13.666 --> 04:17.565
+Nếu mình cho 0 vào, nếu x bằng,
+
+04:17.565 --> 04:18.666
+để mình viết lại.
+
+04:18.666 --> 04:21.805
+Mình có ln, khi x bằng 0,
+
+04:21.805 --> 04:23.411
+thì sẽ là ln,
+
+04:23.411 --> 04:26.284
+của trị tuyệt đối của 1 cộng C,
+
+04:26.284 --> 04:28.496
+và bằng với g(0).
+
+04:28.496 --> 04:30.158
+Vậy g(0) là gì?
+
+04:30.158 --> 04:32.872
+Ở g(0), mỗi số hạng đều là 0.
+
+04:32.872 --> 04:35.157
+Vậy g của 0 bằng 0.
+
+04:35.157 --> 04:36.931
+Nó bằng 0.
+
+04:36.931 --> 04:39.879
+Chà, ln của 1 cũng là 0.
+
+04:39.879 --> 04:43.474
+Vậy 0 cộng C bằng 0, suy ra C bằng 0.
+
+04:43.474 --> 04:44.853
+Bạn đã tìm ra C rồi.
+
+04:44.853 --> 04:47.032
+Tổng kết lại, mình lấy nguyên hàm của 2 vế,
+
+04:47.032 --> 04:48.911
+của phương trình này.
+
+04:48.911 --> 04:51.890
+Mình nhìn ra rằng khi thế x bằng 0,
+
+04:51.890 --> 04:55.097
+thì hằng số ở đây sẽ bằng 0.
+
+04:55.097 --> 04:58.350
+và mình tìm ra chuỗi này,
+
+04:58.350 --> 05:00.517
+g của x bằng với,
+
+05:01.631 --> 05:05.127
+ln của trị tuyệt đối 1 trừ đi 2x,
+
+05:05.127 --> 05:06.961
+trị tuyệt đối,
+
+05:06.961 --> 05:08.895
+1 trừ 2x.
+
+05:08.895 --> 05:11.232
+Giờ, nếu ta xét giới hạn này,
+
+05:11.232 --> 05:12.707
+ta đang ở trong khoảng mở,
+
+05:12.707 --> 05:14.330
+vậy ở đây ta luôn có số dương.
+
+05:14.330 --> 05:17.183
+Vì vậy ta không cần dấu trị tuyệt đối,
+
+05:17.183 --> 05:21.154
+nhưng để an toàn thì ta cứ viết nó.
+
+05:21.154 --> 05:22.021
+Ta đã làm xong.
+
+05:22.021 --> 05:24.157
+Dùng tính chất trên, ta đã tìm ra một hàm số,
+
+05:24.157 --> 05:25.977
+tương ứng với chuỗi này.
+
+05:25.977 --> 05:28.238
+Mấu chốt ở bài này là,
+
+05:28.238 --> 05:30.446
+bạn phải nhận ra rằng,
+
+05:30.446 --> 05:34.113
+chuỗi trên này là đạo hàm của chuỗi dưới này.
+
+05:34.113 --> 05:36.775
+Vậy cái này sẽ là đạo hàm của
+
+05:36.775 --> 05:38.775
+chuỗi này,
+
+05:40.879 --> 05:42.838
+vậy nên ta tính nguyên hàm 2 vế,
+
+05:42.838 --> 05:45.857
+hay tích phân bất định của cả 2 vế.

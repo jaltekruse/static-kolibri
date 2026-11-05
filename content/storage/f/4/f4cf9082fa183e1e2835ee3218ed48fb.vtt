@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.200 --> 00:05.827
+Souřadnice x a y máme
+vyjádřené pomocí proměnné t.
+
+00:05.827 --> 00:08.112
+Když za t postupně dosadíme
+všechna reálná čísla,
+
+00:08.112 --> 00:10.342
+dostaneme tento
+zajímavý graf.
+
+00:10.342 --> 00:13.402
+Dosadíme například t rovná se 0
+a spočítáme, čemu se rovná x a y,
+
+00:13.402 --> 00:16.552
+potom spočítáme x a y pro t rovná se 1
+a tak dále pro všechna t,
+
+00:16.552 --> 00:19.952
+čímž dostaneme
+tento zajímavý graf.
+
+00:19.952 --> 00:26.833
+Cílem tohoto videa ale není jen obdivovat
+křivky popsané parametrickými rovnicemi.
+
+00:26.833 --> 00:28.933
+Chceme na ně také použít
+diferenciální počet.
+
+00:28.933 --> 00:39.650
+Konkrétně chceme spočítat
+derivaci y podle x,
+
+00:39.650 --> 00:47.000
+když se t rovná
+minus (1 lomeno 3).
+
+00:47.000 --> 00:50.890
+Pokud už máte nějaký nápad, tak si
+zastavte video a zkuste to spočítat,
+
+00:50.890 --> 00:55.357
+nebo to teď můžete
+počítat spolu se mnou.
+
+00:56.137 --> 01:01.279
+Hlavní je přijít na to,
+jak spočítat derivaci y podle x,
+
+01:01.279 --> 01:03.617
+když máme oboje definované
+pomocí jiné proměnné t.
+
+01:03.617 --> 01:15.251
+Odpovědí je,
+že derivace y podle x se rovná:
+
+01:15.251 --> 01:24.301
+Derivace y podle t
+lomeno derivace x podle t.
+
+01:24.301 --> 01:27.072
+Kdybychom se na tato písmena d
+dívali jako na pouhá čísla,
+
+01:27.072 --> 01:29.972
+tak by nám po vykrácení dt
+skutečně vyšlo to samé.
+
+01:29.972 --> 01:32.999
+Není to sice formálně
+korektní postup,
+
+01:32.999 --> 01:34.659
+ale když se na
+to díváme takhle,
+
+01:34.659 --> 01:38.189
+tak je snadno vidět,
+proč by tohle mohlo dávat smysl.
+
+01:38.189 --> 01:40.979
+Derivace něčeho podle
+něčeho jiného se rovná:
+
+01:40.979 --> 01:45.349
+Derivace y podle t
+lomeno derivace x podle t.
+
+01:45.349 --> 01:47.383
+Jak nám
+tohle pomůže?
+
+01:47.383 --> 01:52.236
+Derivaci x podle t
+i derivaci y podle t už umíme spočítat.
+
+01:52.236 --> 01:57.682
+Derivace x podle t
+se rovná...
+
+01:57.682 --> 02:03.114
+Derivace vnější funkce
+podle té vnitřní je 2 krát sinus...
+
+02:03.114 --> 02:05.814
+Ouha, derivace sinu
+je přece kosinus.
+
+02:05.814 --> 02:09.584
+...2 krát kosinus
+v bodě (1 plus 3 krát t),
+
+02:09.584 --> 02:13.894
+což teď musíme vynásobit derivací
+vnitřní funkce podle t, která se rovná...
+
+02:13.894 --> 02:18.724
+Derivace 1 se rovná 0
+a derivace (3 krát t) podle t je 3.
+
+02:18.724 --> 02:20.934
+Zde tedy musíme
+vynásobit 3.
+
+02:20.934 --> 02:22.664
+Takto vypadá
+derivace x podle t.
+
+02:22.664 --> 02:24.324
+Jde jen o derivaci
+složené funkce.
+
+02:24.324 --> 02:31.484
+Je to derivace vnější funkce, tedy 2 krát
+sinus něčeho, podle vnitřní funkce...
+
+02:31.484 --> 02:39.444
+Derivaci vnější funkce 2 krát sinus
+něčeho podle (1 plus 3 krát t) máme tady
+
+02:39.444 --> 02:43.362
+a derivace vnitřní funkce
+podle t je toto číslo 3.
+
+02:43.362 --> 02:47.392
+Spočítat derivaci y podle t
+už je o trochu jednodušší.
+
+02:47.392 --> 02:51.455
+K výpočtu této derivace stačí
+použít vzorec pro derivaci mocniny.
+
+02:51.455 --> 02:55.955
+3 krát 2 se rovná 6,
+tohle krát t na (3 minus 1),
+
+02:55.955 --> 02:58.035
+tedy 6 krát (t na druhou).
+
+02:58.035 --> 03:07.303
+Hledaná derivace se tedy rovná
+6 krát (t na druhou), to celé lomeno...
+
+03:07.303 --> 03:15.843
+Máme tu 2 krát 3, takže ve jmenovateli
+bude 6 krát cos(1 plus 3 krát t).
+
+03:15.843 --> 03:27.833
+6 můžeme pokrátit a zbyde nám t na druhou
+lomeno cos(1 plus 3 krát t).
+
+03:27.833 --> 03:32.765
+Zajímá nás hodnota derivace
+pro t rovno minus (1 lomeno 3).
+
+03:32.765 --> 03:38.866
+Když se t rovná minus (1 lomeno 3),
+tak naše derivace bude:
+
+03:38.866 --> 03:50.829
+(−1 lomeno 3) na druhou
+lomeno kosinus v bodě (1 plus...
+
+03:50.829 --> 03:53.579
+3 krát (−1 lomeno 3) je −1,
+takže to je 1 plus −1,
+
+03:53.579 --> 03:55.382
+tudíž tu
+bude cos(0).
+
+03:55.382 --> 04:03.052
+cos(0) se rovná 1, takže tohle
+celé se rovná 1 lomeno 9.
+
+04:03.052 --> 04:05.598
+Zkusme si nakreslit,
+co se zde děje.
+
+04:05.598 --> 04:10.092
+Udělám si k tomu
+takovou tabulku.
+
+04:10.142 --> 04:18.113
+V tabulce budou sloupečky
+pro t, x a y.
+
+04:18.113 --> 04:22.493
+Když se t rovná
+minus (1 lomeno 3),
+
+04:22.493 --> 04:24.443
+tak se
+x rovná...
+
+04:24.443 --> 04:28.563
+Tady bude sin(0),
+takže x se rovná 0.
+
+04:28.563 --> 04:36.058
+y se pak rovná
+minus (2 lomeno 27).
+
+04:36.058 --> 04:42.635
+Této hodnotě t tak odpovídá bod
+[0; minus(2 lomeno 27)],
+
+04:42.635 --> 04:45.685
+což je
+tento bod.
+
+04:45.685 --> 04:48.855
+Zajímá nás tedy
+směrnice tečny v tomto bodě,
+
+04:48.855 --> 04:51.801
+která nám tady dole
+vyšla jako 1 lomeno 9.
+
+04:51.801 --> 04:55.544
+Směrnice je 1 lomeno 9,
+na což se můžeme dívat třeba tak,
+
+04:55.544 --> 05:00.184
+že když se posuneme
+o 1, 2, 3, 4, 4 a půl doprava,
+
+05:00.184 --> 05:02.376
+tak se musíme posunout
+o půlku jednotky nahoru.
+
+05:02.376 --> 05:16.067
+Tečna v tomto bodě
+tak vypadá nějak takhle.
+
+05:16.067 --> 05:19.337
+Opět si tu odměřím
+1, 2, 3, 4, 4 a půl.
+
+05:19.337 --> 05:23.067
+Nějak takto by
+to mohlo vypadat.
+
+05:23.067 --> 05:28.121
+Právě jsme tedy spočítali, že směrnice
+tečny v tomto bodě je 1 lomeno 9.
+
+05:28.121 --> 05:30.891
+Nemáme tak jenom
+napohled hezkou křivku,
+
+05:30.891 --> 05:34.021
+ale byli jsme o ní
+také něco schopni zjistit.

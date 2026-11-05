@@ -1,0 +1,316 @@
+WEBVTT
+
+00:00.255 --> 00:04.285
+Mówiłem już wiele o używaniu wielomianów w celu przybliżania
+
+00:04.285 --> 00:06.939
+funkcji, ale chce Ci pokazać, że to
+
+00:06.939 --> 00:09.329
+przybliżenie faktycznie działa.
+
+00:09.421 --> 00:11.745
+W tym celu używam Wolfram Alpha
+
+00:11.745 --> 00:13.733
+Jest to bardzo fajna strona
+
+00:13.733 --> 00:15.200
+Dzięki niej można robić zwariowane rzeczy z matematyką.
+
+00:15.200 --> 00:18.918
+Zatem wolframalpha.com
+
+00:18.918 --> 00:22.334
+i mam to dzięki kopiuj/wklej. Spotkałem Steven`a Wolfram`a
+
+00:22.334 --> 00:23.867
+na konferencji jakiś czas temu
+
+00:23.867 --> 00:25.562
+A on powiedział - powinieneś użyć wolfram alpha w swoich
+
+00:25.562 --> 00:27.800
+filmach. Odpoiwedziałem - Świetnie! użyje. I teraz właśnie to
+
+00:27.800 --> 00:30.333
+robię tutaj i jest to bardzo użyteczne ponieważ to co
+
+00:30.333 --> 00:33.000
+on robi - moglibyśmy wyliczać samemu
+
+00:33.000 --> 00:34.933
+czy nawet wyliczyć to na graficznym kalkulatorze albo moglibyśmy
+
+00:34.933 --> 00:37.259
+obliczyć to za pomocą jednego kliknięcia na wolfram alpha
+
+00:37.259 --> 00:41.133
+- czyli zobaczyć jak dobrze możemy przybliżyć
+
+00:41.133 --> 00:46.631
+sin(x) używając rozwinięcia w szereg Maclaurin`a
+
+00:46.738 --> 00:50.400
+albo nazywając to inaczej - rozwinięcie w szereg Taylora dla punktu x = 0
+
+00:50.400 --> 00:52.867
+używając do tego coraz to większej ilości wyrazów
+
+00:52.867 --> 00:54.683
+mając dobre przeczucie, że
+
+00:54.683 --> 00:56.400
+czym więcej wyrazów
+
+00:56.400 --> 00:58.867
+tym lepiej (wielomian) przytula się do krzywej sinusa.
+
+00:58.867 --> 01:03.019
+Zatem to pomarańczowe tutaj jest sin(x).
+
+01:03.019 --> 01:06.757
+Powinien wyglądać dość znajomo dla Ciebie
+
+01:06.757 --> 01:08.867
+i w poprzednich filmach doszliśmy od tego
+
+01:08.867 --> 01:11.533
+czym rozwinięci Maclaurin`a dla sin(x) jest
+
+01:11.533 --> 01:15.533
+i wolfram alpha zrobił to dla nas także.
+
+01:15.533 --> 01:17.867
+On właściwie wyliczył wszystkie wyrazy dla nas.
+
+01:17.867 --> 01:22.181
+3! jest równe 6, 5! jest równe 120 itd.
+
+01:22.181 --> 01:24.000
+Interesujące jest, że możesz wybrać
+
+01:24.000 --> 01:26.750
+ilość przybliżeń dla wykresu
+
+01:26.750 --> 01:29.533
+a co on zrobi to jeśli wybierzesz
+
+01:29.533 --> 01:31.933
+jeden wyraz do przybliżenia
+
+01:31.933 --> 01:36.369
+jeśli byśmy powiedzieli, że cały wielomian ma być równy x,
+
+01:36.369 --> 01:38.360
+jakby to wyglądało?
+
+01:38.360 --> 01:40.357
+To będzie ten wykres tutaj
+
+01:40.357 --> 01:42.733
+powie nam ilu składników użyliśmy
+
+01:42.733 --> 01:44.467
+poznamy to po ilości kropek tutaj -
+
+01:44.467 --> 01:46.867
+co, jak myślę, jest całkiem sprytne.
+
+01:46.867 --> 01:50.536
+Zatem to tutaj jest funkcją p(x)
+
+01:50.800 --> 01:54.559
+p(x)=x, więc jest to bardzo kiepskie przybliżenie
+
+01:54.697 --> 01:56.705
+jednak dla sin nie jest ono takie kiepskie
+
+01:56.705 --> 02:00.100
+otula funkcje właśnie tutaj i zaczyna
+
+02:00.100 --> 02:03.704
+zakręcać od funkcji przy tym punkcie
+
+02:05.011 --> 02:08.969
+Więc jeśli masz x -x^3/6
+
+02:08.985 --> 02:11.319
+Czyli teraz masz dwa składniki
+
+02:11.488 --> 02:16.129
+w rozwinięciu, więc myślę, że powinniśmy powiedzieć
+
+02:16.252 --> 02:19.984
+że dotarliśmy do trzeciego wyrazu z kolei , bo tak pokazuję nam numerowanie kropkami
+
+02:19.984 --> 02:23.264
+nie mówią one o ilości wyrazów tylko o ich porządku
+
+02:23.264 --> 02:27.653
+Mamy tutaj jedną kropkę, ponieważ odpowiada ona pierwszemu stopniowi
+
+02:27.884 --> 02:31.324
+Tutaj mamy dwa składniki - w pewnym sensie
+
+02:31.324 --> 02:34.133
+kiedy rozwijasz sin(x) to nie ma on wyrazu drugiego stopnia
+
+02:34.133 --> 02:39.837
+teraz mamy przybliżenie wielomianem trzeciego stopnia
+
+02:39.837 --> 02:43.117
+Popatrzmy na trzeci stopień.
+
+02:43.117 --> 02:46.954
+to ta krzywa tutaj, zatem jeśli masz pierwszy składnik
+
+02:46.985 --> 02:51.235
+otrzymujesz prostą linie. Odejmujesz x^3 /6
+
+02:51.251 --> 02:53.619
+do tego x i otrzymujesz krzywą
+
+02:53.619 --> 02:57.011
+wyglądająca tak.
+
+02:57.103 --> 03:00.823
+Zauważ, że zaczyna ona otulać sin trochę wcześniej
+
+03:00.915 --> 03:03.362
+I przestaje go otulać trochę później
+
+03:03.393 --> 03:08.791
+Więc drugi wyraz spisał się całkiem nieźle, otula on krzywą sinusa całkiem nieźle
+
+03:08.791 --> 03:11.941
+zwłaszcza jeśli patrzymy na małe liczby.
+
+03:11.957 --> 03:17.707
+Mając kolejny wyraz tworzący wielomian 5 stopnia.
+
+03:17.707 --> 03:24.572
+więc x - x^3/6 + x^5/120, popatrzmy na te 5 kropek
+
+03:24.572 --> 03:28.490
+To jest tutaj - 1, 2, 3, 4, 5
+
+03:28.490 --> 03:30.666
+Więc to jest tak krzywa tutaj.
+
+03:30.666 --> 03:36.115
+Zauważ, że zaczyna otulać ona krzywą trochę wcześniej niż fioletowa wersja.
+
+03:36.115 --> 03:38.482
+I otula ją trochę dłużej.
+
+03:38.482 --> 03:43.499
+więc otula ją trochę, trochę..
+
+03:43.499 --> 03:47.179
+dłużej, a później zakręca w ten sposób.
+
+03:47.533 --> 03:50.353
+Możesz zauważyć, że jeśli będę robił tak dalej
+
+03:50.353 --> 03:56.905
+te pierwsze cztery wyrazy dadzą nam wielomian siódmego stopnia
+
+03:56.905 --> 03:58.786
+Poszukajmy siedmiu kropek tutaj.
+
+03:58.786 --> 04:03.006
+Zachowują się one w ten sposób.
+
+04:03.006 --> 04:05.371
+Raz jeszcze, przytulają krzywą wcześniej
+
+04:05.371 --> 04:07.670
+niż ta wersja z trzema składnikami.
+
+04:07.670 --> 04:13.622
+I nie przestają otulać krzywej aż dotąd.
+
+04:13.622 --> 04:15.871
+Ostatni - z x^9.
+
+04:15.871 --> 04:17.694
+Byłoby jeszcze więcej.
+
+04:17.694 --> 04:21.180
+Zaczyna się tu, otula dłużej niż wcześniejsze, a później odchodzi.
+
+04:21.180 --> 04:23.634
+Jeśli pomyślisz o tym to nabierze to sensu.
+
+04:23.634 --> 04:27.615
+Każdy kolejny wyraz, który dodajemy do rozwinięcia
+
+04:27.907 --> 04:34.853
+ma wyższy stopnień x przez coraz większą liczbę.
+
+04:34.853 --> 04:45.278
+Zatem dla małych wartości x to mianownik zdominuję licznik.
+
+04:45.278 --> 04:48.181
+Zwłaszcza jeśli jesteśmy poniżej jedynki, bo jeśli weźmiemy coś co ma
+
+04:48.181 --> 04:51.474
+wartość bezwzględną mniejszą niż 1 to pomniejszymy to.
+
+04:51.866 --> 04:54.340
+Więc jesteśmy coraz bliżej początku.
+
+04:54.340 --> 04:56.626
+Te późniejsze składniki nie liczą się tak bardzo.
+
+04:56.626 --> 05:01.076
+Więc jakby nie tracisz precyzji wyznaczonej przez wcześniejsze wyrazy.
+
+05:01.076 --> 05:08.658
+Te podkręcone składniki dochodzą kiedy licznik zaczyna dominować mianownik
+
+05:08.858 --> 05:11.632
+Ten ostatni wyraz zaczyna być istotny tutaj.
+
+05:11.632 --> 05:20.818
+Zaczyna być istotny w momencie, w którym x^9 przeważa nad 362 880
+
+05:20.818 --> 05:22.574
+Tak samo - jeśli chodzi o część ujemną
+
+05:22.697 --> 05:24.118
+Więc mam nadzieję, że nabrało to dla Ciebie sensu.
+
+05:24.164 --> 05:27.040
+Mamy tylko 1..2..3..4..5 wyrazów.
+
+05:27.040 --> 05:31.163
+Wyobraź sobie co by się stało jeśli mielibyśmy nieskończoną liczbę wyrazów.
+
+05:31.163 --> 05:34.330
+Myślę, że wyczuwasz, że przytuliłoby to
+
+05:34.330 --> 05:37.232
+krzywą sinusa aż do nieskończoności.
+
+05:37.232 --> 05:39.946
+Mam nadzieję, że czujesz się już z tym lepiej.
+
+05:39.946 --> 05:44.666
+Dla zabawy możesz wpisać rozszerzenie Taylora w zerze
+
+05:44.790 --> 05:48.255
+czy rozwinięcie Maclaurin`a w szereg
+
+05:48.255 --> 05:53.386
+Dla sin(x), cos(x), exp(x)w wolframalpha.com
+
+05:53.386 --> 05:55.806
+i spróbuj z różnymi funkcjami
+
+05:55.806 --> 05:58.810
+dodając i odejmując wyrazy, aby zobaczyć
+
+05:58.810 --> 3:59:59.999
+jak zmienia się otulenie krzywej.

@@ -1,0 +1,954 @@
+WEBVTT
+
+00:00.535 --> 00:02.598
+-Let's now attempt to find a solution for
+
+00:03.165 --> 00:06.666
+the logistic differential equation.
+
+00:06.666 --> 00:08.790
+And we already found
+some constant solutions,
+
+00:08.079 --> 00:09.424
+we can think through
+that a little bit just
+
+00:10.135 --> 00:14.674
+as a little bit of review
+from the last few videos.
+
+00:14.674 --> 00:17.052
+So if this is the t-axis
+and this is the N-axis
+
+00:17.052 --> 00:20.067
+we already saw that if N
+of zero, if a time equals
+
+00:20.202 --> 00:22.673
+zero, or a population
+is zero, there is no one
+
+00:22.673 --> 00:24.888
+to reproduce and this
+differential equation is
+
+00:24.888 --> 00:27.367
+consistent with that, because
+if N is zero, this thing
+
+00:27.367 --> 00:29.581
+is going to be zero, and
+so our rate of change
+
+00:29.581 --> 00:31.399
+is going to be zero with respect to time,
+
+00:31.399 --> 00:33.212
+so our population just won't change.
+
+00:33.212 --> 00:34.378
+It'll just stay at zero.
+
+00:34.378 --> 00:35.797
+Which is nice because that's what would
+
+00:35.797 --> 00:38.065
+actually happen in a real population.
+
+00:38.065 --> 00:40.863
+That gives us the constant solution that N
+
+00:40.863 --> 00:42.491
+of t is equal to zero, that's one solution
+
+00:42.491 --> 00:44.940
+of this differential equation,
+not that interesting.
+
+00:44.094 --> 00:47.159
+A zero population will
+never grow or change.
+
+00:48.005 --> 00:50.000
+The other constant solution is what if our
+
+00:50.000 --> 00:53.377
+population started at the maximum of what
+
+00:53.377 --> 00:56.635
+the environment could sustain, and in that
+
+00:56.635 --> 00:58.798
+situation this term is
+going to be K over K,
+
+00:58.798 --> 00:59.615
+which is one.
+
+00:59.615 --> 01:01.753
+One minus one is zero,
+and so in there, the
+
+01:01.753 --> 01:03.071
+population would also not change.
+
+01:03.071 --> 01:04.949
+It would just stay at K,
+and so the rate of change
+
+01:04.949 --> 01:06.048
+would just stay at zero.
+
+01:06.939 --> 01:09.046
+So that's another constant solution, that
+
+01:09.046 --> 01:14.046
+we start at the maximum
+population and then
+
+01:14.046 --> 01:16.217
+this differential equation tells us
+
+01:16.631 --> 01:18.554
+a scenario that never changes.
+
+01:18.554 --> 01:19.630
+But we said, hey look,
+there could be something
+
+01:20.314 --> 01:23.718
+interesting that happens
+if our initial condition,
+
+01:23.718 --> 01:27.396
+which we called N sub-not,
+that's our N of zero.
+
+01:27.396 --> 01:29.391
+Time equals zero if we
+started someplace in between,
+
+01:29.391 --> 01:33.290
+maybe closer, much below
+our eventual ceiling
+
+01:33.029 --> 01:34.925
+I guess, because if we're a lot below our
+
+01:35.186 --> 01:37.112
+eventual ceiling this thing is going to be
+
+01:37.112 --> 01:38.800
+a small fraction, this
+thing is going to be
+
+01:38.008 --> 01:41.059
+close to one, and so the
+rate of change is going
+
+01:41.851 --> 01:44.189
+to be pretty close to
+being proportional to N.
+
+01:45.085 --> 01:47.481
+When we're thinking that,
+it might look something
+
+01:48.246 --> 01:51.767
+like that, as N increases,
+our rate of change
+
+01:51.767 --> 01:54.811
+increases, but then as N
+approaches K this thing
+
+01:55.207 --> 01:56.621
+is going to approach
+one, this thing is going
+
+01:56.621 --> 01:58.936
+to approach zero, and so
+it's going to overwhelm
+
+01:58.936 --> 02:01.349
+this and our rate of change is going
+
+02:01.349 --> 02:02.653
+to approach zero.
+
+02:02.653 --> 02:04.307
+So we can imagine a scenario where we
+
+02:04.307 --> 02:08.562
+asymptote towards K.
+
+02:09.648 --> 02:13.447
+Let's see if we can
+solve this to find this,
+
+02:13.447 --> 02:18.203
+this N of t to find the actual analytic
+
+02:18.203 --> 02:20.115
+expression for this N
+of t right over here.
+
+02:20.115 --> 02:22.258
+Because this is interesting,
+this is what could
+
+02:22.258 --> 02:25.223
+be used to model populations that would be
+
+02:25.223 --> 02:28.297
+more consistent with a Malthusian mindset.
+
+02:28.963 --> 02:30.229
+So let's see if we can do that.
+
+02:30.229 --> 02:31.573
+To do that we just have
+to realize this is a
+
+02:31.573 --> 02:35.545
+separable differential equation, and we're
+
+02:35.545 --> 02:37.170
+assuming is a function
+of d, we're going to
+
+02:37.017 --> 02:40.394
+solve for an N of t that satisfies this.
+
+02:40.547 --> 02:42.531
+So we just have to separate
+it from the explicit
+
+02:42.531 --> 02:45.173
+ts, but there are no explicit ts here, so
+
+02:45.173 --> 02:46.468
+it's quite easy to do.
+
+02:46.468 --> 02:48.670
+So what I'm going to
+do is I'm going to take
+
+02:48.067 --> 02:50.968
+this part right over here,
+and I'm going to divide
+
+02:51.571 --> 02:52.800
+both sides by that.
+
+02:52.008 --> 02:53.540
+I'm going to leave the r
+on the right hand side,
+
+02:54.332 --> 02:56.744
+it'll make things, I
+think, a little bit easier
+
+02:56.744 --> 02:58.997
+as we try to solve for N of t.
+
+02:58.997 --> 02:59.931
+So let me just do that.
+
+02:59.931 --> 03:04.931
+So this is going to be equal to one over N
+
+03:05.443 --> 03:10.250
+times one minus N over K.
+
+03:10.025 --> 03:15.025
+One minus N over K
+times dN dT, times dN dT
+
+03:20.925 --> 03:23.162
+is equal to r.
+
+03:26.205 --> 03:29.044
+Another way we could think about it, well
+
+03:29.044 --> 03:31.891
+actually, let me just continue
+to tackle it this way.
+
+03:31.891 --> 03:34.465
+So we get that, and now
+what I want to do is
+
+03:34.465 --> 03:36.208
+take the anti-derivative
+of both sides with
+
+03:36.208 --> 03:38.283
+respect to t.
+
+03:38.958 --> 03:40.515
+Well, this is pretty straightforward.
+
+03:40.515 --> 03:42.752
+That's just going to be
+rt times some constant,
+
+03:42.752 --> 03:43.758
+but what's this going to be?
+
+03:43.812 --> 03:45.305
+This is kind of this messy thing.
+
+03:45.305 --> 03:47.090
+And maybe if we could
+break this out, if we
+
+03:47.009 --> 03:49.502
+can expand this into two
+fractions, do a little
+
+03:49.583 --> 03:51.641
+bit of partial fraction expansion, maybe
+
+03:51.641 --> 03:53.126
+we can come up with an expression that's
+
+03:53.126 --> 03:57.875
+a little bit easier to find
+the anti-derivative of.
+
+03:57.875 --> 03:59.599
+I'm hoping that I can find an A and a B
+
+03:59.599 --> 04:04.599
+where A over N plus B
+over one minus N over K
+
+04:09.439 --> 04:11.124
+is equal to this business.
+
+04:11.124 --> 04:16.124
+Is equal to one over N
+times one minus N over k.
+
+04:17.226 --> 04:18.545
+Let's see if we can find an A and a B.
+
+04:18.545 --> 04:20.122
+This is just partial
+fraction expansion, if this
+
+04:20.122 --> 04:21.997
+looks unfamiliar to you I encourage you to
+
+04:21.997 --> 04:24.004
+review that part on Khan Academy.
+
+04:24.004 --> 04:25.737
+Do a search for partial fraction expansion
+
+04:25.737 --> 04:27.628
+on Khan Academy.
+
+04:27.628 --> 04:28.682
+So how do we do it?
+
+04:28.682 --> 04:30.584
+We'll just add these two right over here.
+
+04:31.508 --> 04:33.419
+If we take the sum,
+right over here, this is
+
+04:33.419 --> 04:38.419
+going to be A times this, which is A minus
+
+04:38.647 --> 04:43.647
+A over K N plus B times
+this, plus BN, over
+
+04:46.289 --> 04:47.803
+the product of these two.
+
+04:47.803 --> 04:50.261
+So it's just going to be N times one
+
+04:50.261 --> 04:52.404
+minus N over k.
+
+04:52.404 --> 04:53.930
+One way to think about
+it, I just multiplied
+
+04:53.093 --> 04:55.371
+the numerator and the
+denominator of this one
+
+04:56.208 --> 05:00.666
+by one minus N over k,
+so A times one minus
+
+05:00.666 --> 05:02.893
+N over k is that, and times one minus N
+
+05:02.893 --> 05:04.834
+over k is that, and I
+multiplied the numerator
+
+05:04.834 --> 05:06.902
+and the denominator of this both by N, BN
+
+05:07.514 --> 05:09.551
+and N times that, and then I added the two
+
+05:09.551 --> 05:11.333
+now that I had the same denominator.
+
+05:11.333 --> 05:13.137
+So that's just adding fractions
+
+05:13.137 --> 05:14.553
+with unlike denominators.
+
+05:14.553 --> 05:16.776
+It's going to be equal to this, one over
+
+05:16.776 --> 05:21.485
+N times one minus N over K.
+
+05:21.485 --> 05:23.808
+Now we can try to think about what is
+
+05:23.808 --> 05:25.014
+A and B going to be equal to?
+
+05:25.014 --> 05:26.790
+What can they be equal to?
+
+05:26.079 --> 05:27.407
+Well I have a constant term here.
+
+05:28.118 --> 05:29.249
+I don't have any N term here.
+
+05:29.249 --> 05:31.361
+I could say that maybe I have a zero times
+
+05:31.361 --> 05:34.092
+an N, and that actually
+helps things a little bit,
+
+05:34.092 --> 05:37.301
+because maybe we could
+say that this thing,
+
+05:37.301 --> 05:40.535
+that this plus this,
+which are the coefficients
+
+05:40.553 --> 05:44.889
+on N, are going to sum
+up to zero, and that
+
+05:44.889 --> 05:48.951
+this, which is rA, is
+going to be equal to one.
+
+05:49.509 --> 05:50.356
+That's pretty nice.
+
+05:50.356 --> 05:53.818
+So we can say that A is equal to one, A is
+
+05:53.818 --> 05:56.514
+equal to one, and that
+if A is equal to one
+
+05:56.514 --> 06:01.514
+we have negative one over
+K, negative one over K,
+
+06:03.045 --> 06:06.966
+plus B is equal to zero.
+
+06:07.371 --> 06:09.280
+Well what's B going to be?
+
+06:09.028 --> 06:14.028
+Well B would be equal to one over K.
+
+06:15.251 --> 06:19.020
+So we can re-write this
+as, we can re-write it
+
+06:19.002 --> 06:24.002
+as one over N plus one over K,
+
+06:32.944 --> 06:37.373
+plus one over K over,
+
+06:40.818 --> 06:42.523
+let me just do this,
+
+06:42.531 --> 06:46.432
+over one minus N over K,
+
+06:50.957 --> 06:55.957
+and then times dN dt, dn dt
+
+07:00.164 --> 07:04.156
+is equal to r.
+
+07:04.165 --> 07:06.658
+So I just did a little
+partial fraction expansion,
+
+07:06.658 --> 07:08.024
+and I like giving myself a little bit of
+
+07:08.024 --> 07:09.102
+real estate, let me clear this out.
+
+07:09.804 --> 07:12.175
+You can rewind the video and review that,
+
+07:12.175 --> 07:14.213
+if you find it necessary,
+
+07:14.213 --> 07:16.156
+so let's do that.
+
+07:16.156 --> 07:17.455
+So how does this help us?
+
+07:17.455 --> 07:20.447
+Well, hey, you probably
+might be recognizing
+
+07:20.447 --> 07:21.855
+the anti-derivative of
+one over N, and you might
+
+07:21.855 --> 07:22.868
+even see this.
+
+07:22.868 --> 07:25.045
+So let's just think
+through this a little bit.
+
+07:25.045 --> 07:26.871
+We know the anti-derivative of one over N
+
+07:26.871 --> 07:29.280
+is a natural log, just did a new color,
+
+07:29.028 --> 07:32.297
+is a natural log of the
+absolute value of N.
+
+07:32.549 --> 07:34.374
+We can see the derivative
+of that with respect
+
+07:34.374 --> 07:39.374
+to N is equal to one
+over N, and if we were
+
+07:40.827 --> 07:42.183
+to find the derivative
+of this with respect
+
+07:42.183 --> 07:45.490
+to t, derivative with
+respect to t of the natural
+
+07:45.049 --> 07:49.341
+log of the absolute
+value of N is equal to,
+
+07:49.782 --> 07:50.826
+that's going to be the derivative of this
+
+07:50.826 --> 07:53.607
+with respect to N times
+the derivative of N
+
+07:53.607 --> 07:57.975
+with respect to t, times dN dt.
+
+07:57.975 --> 07:59.294
+We could do the same thing over here.
+
+07:59.294 --> 08:03.405
+Notice, I have an expression.
+
+08:03.405 --> 08:05.214
+What would be the derivative
+of this expression
+
+08:05.214 --> 08:07.105
+right over here?
+
+08:07.105 --> 08:08.753
+It would be negative one over K, if I'm
+
+08:08.753 --> 08:10.788
+talking the derivative with respect to N,
+
+08:10.788 --> 08:12.484
+it would be negative one over K.
+
+08:12.484 --> 08:13.881
+I have a positive one
+over K here, and I could
+
+08:13.881 --> 08:15.378
+even make it negative.
+
+08:15.378 --> 08:19.219
+I can turn this, I can
+clear this out of the
+
+08:19.219 --> 08:22.444
+way, instead of having a positive there I
+
+08:22.444 --> 08:25.572
+could have, I guess I could
+say a double negative.
+
+08:26.218 --> 08:28.270
+So a double negative,
+I haven't changed the
+
+08:28.027 --> 08:30.581
+value of if, and notice,
+now this is the derivative
+
+08:30.824 --> 08:34.077
+of this, which makes it very
+nice for u-substitution,
+
+08:34.077 --> 08:36.837
+or you might be already
+used to doing this thing
+
+08:36.837 --> 08:39.659
+in your head, and so we
+know that the derivative
+
+08:39.066 --> 08:40.813
+with respect to N.
+
+08:41.408 --> 08:43.203
+Let me write this in a new color.
+
+08:43.203 --> 08:47.553
+We know that the derivative
+with respect to N of the
+
+08:47.553 --> 08:52.553
+natural log of one minus
+N over K, once again this
+
+08:53.881 --> 08:55.005
+comes straight out of the chain rule, it's
+
+08:55.005 --> 08:57.057
+going to be the derivative
+of this with respect
+
+08:57.057 --> 09:00.532
+to N, which is negative one over K times
+
+09:00.532 --> 09:03.677
+the derivative of this
+whole thing with respect
+
+09:03.677 --> 09:07.435
+to this thing, which is times one over
+
+09:07.435 --> 09:10.758
+one minus N over K, which is exactly what
+
+09:10.758 --> 09:12.273
+we have over here.
+
+09:12.273 --> 09:13.404
+But if I were to take
+the derivative of this
+
+09:13.404 --> 09:15.979
+with respect to t, so the derivative with
+
+09:15.979 --> 09:19.981
+respect to t of the
+natural log of one minus
+
+09:19.981 --> 09:22.033
+N over K, it's going to be the derivative
+
+09:22.501 --> 09:24.442
+of this with respect to N, which is that,
+
+09:24.442 --> 09:25.858
+which is what we just found.
+
+09:25.858 --> 09:27.863
+It's going to be this.
+
+09:27.927 --> 09:30.496
+So copy and paste.
+
+09:30.496 --> 09:33.679
+It's going to be that,
+it's going to be that.
+
+09:33.679 --> 09:35.723
+Times the derivative
+of N with respect to t,
+
+09:36.119 --> 09:40.135
+just straight out of
+the chain rule, dN dt.
+
+09:40.279 --> 09:43.392
+Well notice, we have a
+dN dt, we can multiply
+
+09:43.392 --> 09:45.005
+it times each of these things.
+
+09:45.005 --> 09:46.376
+Actually, why not, let's just do that
+
+09:46.376 --> 09:49.431
+just to make it clear, cause this really
+
+09:49.431 --> 09:51.064
+isn't so much differential equations,
+
+09:51.064 --> 09:53.520
+but sometimes some of the calculus that we
+
+09:53.052 --> 09:55.981
+learned not too long ago, and even frankly
+
+09:56.449 --> 09:59.184
+some of the algebra, it's
+nice to not skip steps.
+
+09:59.184 --> 10:02.388
+So if I distribute this, edit, paste.
+
+10:02.388 --> 10:05.704
+Woops, I wanted to copy and paste.
+
+10:06.413 --> 10:11.413
+So, copy and paste, so
+I have that, and then
+
+10:12.632 --> 10:17.632
+I have, I can copy and
+paste, so that I'm just
+
+10:22.085 --> 10:27.085
+distributing this
+business right over here.
+
+10:28.794 --> 10:31.989
+So I get that, now let me
+clean it up a little bit.
+
+10:31.989 --> 10:34.084
+So I have that right
+over here, and of course
+
+10:34.939 --> 10:38.215
+we have this being equal to r.
+
+10:38.215 --> 10:40.327
+If I take the anti-derivative
+of this with respect
+
+10:40.327 --> 10:45.260
+to t, well I'm just going to get this
+
+10:55.519 --> 11:00.519
+minus this right over that.
+
+11:00.687 --> 11:01.421
+So let's do that.
+
+11:01.421 --> 11:03.530
+Let's take the anti-derivative
+with respect to t,
+
+11:03.545 --> 11:05.458
+so the left hand side I'm going to get the
+
+11:05.458 --> 11:09.244
+natural log, the anti-derivative of that
+
+11:09.244 --> 11:13.178
+with respect to t is the natural log of
+
+11:13.178 --> 11:17.936
+the absolute value of N, and then minus
+
+11:17.936 --> 11:21.153
+the anti-derivative of
+this with respect to t
+
+11:21.153 --> 11:26.104
+is the natural log of
+the absolute value of
+
+11:26.104 --> 11:31.104
+one minus N over K is equal to,
+
+11:31.863 --> 11:33.958
+oh, and let's not forget we're going to
+
+11:33.958 --> 11:35.216
+have some constant here,
+I want to find a pretty
+
+11:35.216 --> 11:37.952
+general solution, let's call it C one, is
+
+11:37.952 --> 11:40.016
+equal to the anti-derivative
+of this with respect
+
+11:40.592 --> 11:45.592
+to t is r times t, maybe
+plus some other constant,
+
+11:46.436 --> 11:48.607
+plus some other constant,
+
+11:48.607 --> 11:50.311
+just like that.
+
+11:50.467 --> 11:54.033
+Now I'm going to assume
+that my N of t meets
+
+11:54.033 --> 11:56.686
+this assumption right over here.
+
+11:56.686 --> 11:59.400
+So I'm going to assume,
+
+12:08.277 --> 12:13.277
+assume N of t is going to be less than K
+
+12:13.394 --> 12:15.015
+and greater than zero.
+
+12:15.015 --> 12:17.564
+That means that this thing,
+this N is always going
+
+12:17.564 --> 12:19.846
+to be positive, and if N is always between
+
+12:19.846 --> 12:21.789
+zero and K, that means that this thing is
+
+12:21.789 --> 12:23.615
+always going to be positive.
+
+12:23.615 --> 12:25.884
+So that helps me clear
+things up a little bit.
+
+12:25.884 --> 12:28.572
+Actually let me do it in this color.
+
+12:28.572 --> 12:30.686
+That helps me get rid of that,
+
+12:30.686 --> 12:35.300
+helps me get rid of that.
+
+12:35.003 --> 12:39.048
+I can instead throw some parentheses here,
+
+12:39.345 --> 12:43.958
+and why don't I subtract
+the C one from both sides.
+
+12:43.958 --> 12:47.225
+That would get rid of
+it here, so edit, cut,
+
+12:47.225 --> 12:50.611
+and paste, so I have the C one there.
+
+12:50.611 --> 12:52.642
+I know I'm overwriting my own work, which
+
+12:52.642 --> 12:56.220
+is not making it look
+as clean as possible.
+
+12:56.022 --> 12:58.438
+I'm just trying to clean
+it up a little bit.
+
+12:58.636 --> 13:00.447
+I have an arbitrary constant
+that I haven't really
+
+13:00.447 --> 13:02.258
+solved for yet minus another constant.
+
+13:02.258 --> 13:03.906
+Let me just call this some other constant,
+
+13:03.906 --> 13:06.227
+let me just call it a general C.
+
+13:06.227 --> 13:11.227
+So let me just call this C,
+
+13:11.396 --> 13:16.396
+so clear, and I'm just
+going to call that C.
+
+13:16.708 --> 13:19.786
+I am just going to call that C.
+
+13:19.786 --> 13:21.863
+And I could even simplify
+this a little bit,
+
+13:21.863 --> 13:23.420
+but actually I just realized I'm thirteen
+
+13:23.042 --> 13:24.977
+minutes into this video,
+which is longer than
+
+13:25.355 --> 13:25.452
+I like to do.
+
+13:26.325 --> 13:27.763
+So let's continue this in the next video.
+
+13:27.763 --> 13:30.180
+I was getting excited
+because I'm so close.
+
+13:30.018 --> 13:32.920
+I'm so close to solving for an N of t
+
+13:33.082 --> 13:35.416
+that satisfies our logistic
+differential equation.
+
+13:35.416 --> 13:37.690
+Very, very exciting.

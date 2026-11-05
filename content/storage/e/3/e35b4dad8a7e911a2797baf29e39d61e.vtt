@@ -1,0 +1,490 @@
+WEBVTT
+
+00:00.589 --> 00:02.261
+Trong video này chúng ta sẽ
+
+00:02.261 --> 00:06.046
+tìm hiểu mỗi quan hệ giữa tuyến tính địa phương
+
+00:06.046 --> 00:10.295
+và tính khả vi tại một điểm.
+
+00:10.295 --> 00:13.407
+Tuyến tính địa phương nghĩa là nếu ta phóng
+
+00:13.407 --> 00:15.264
+đủ to vào một điểm,
+
+00:15.264 --> 00:17.888
+thì thậm chí một hàm phi tuyến tính khả vi
+
+00:17.888 --> 00:21.302
+tại điểm đó cũng sẽ nhìn có vẻ tuyến tính.
+
+00:21.302 --> 00:23.531
+Để mình cho bạn một vài ví dụ về nó nhé.
+
+00:23.531 --> 00:25.504
+Giả sử ta có y
+
+00:25.504 --> 00:26.421
+bằng
+
+00:27.571 --> 00:28.404
+x bình phương.
+
+00:29.591 --> 00:32.517
+Đó rõ ràng là một hàm phi tuyến tính.
+
+00:32.517 --> 00:34.862
+Nhưng ta có thể phóng to một điểm,
+
+00:34.862 --> 00:37.486
+và nếu ta phỏng đủ to,
+
+00:37.486 --> 00:40.063
+thì ta sẽ thấy nó khá tuyến tính.
+
+00:40.063 --> 00:43.221
+Giả sử ta muốn phóng to điểm (1,1),
+
+00:43.221 --> 00:44.289
+mình làm vậy nhé.
+
+00:44.289 --> 00:47.285
+Phóng to điểm (1,1),
+
+00:47.285 --> 00:52.068
+nó đã nhìn khá tuyến tính tại điểm đó rồi.
+
+00:52.068 --> 00:54.924
+Và tính chất này của tuyến tính địa phương
+
+00:54.924 --> 00:56.526
+sẽ rất có ích
+
+00:56.526 --> 00:59.824
+khi bạn muốn xấp xỉ một hàm số tại một điểm.
+
+00:59.824 --> 01:01.403
+Ví dụ, ta có thể tìm,
+
+01:01.403 --> 01:04.119
+ta có thể lấy đạo hàm tại điểm (1,1),
+
+01:04.119 --> 01:06.348
+và dùng nó như là hệ số góc của tiếp tuyến,
+
+01:06.348 --> 01:08.438
+để tìm phương trình tiếp tuyến,
+
+01:08.438 --> 01:11.735
+và dùng phương trình đó để xấp xỉ giá trị
+
+01:11.735 --> 01:13.568
+của hàm số tại
+
+01:14.731 --> 01:15.814
+x bằng 1.
+
+01:16.821 --> 01:18.005
+Và có thể bạn không cần làm thế
+
+01:18.005 --> 01:20.141
+cho y bằng x bình phương,
+
+01:20.141 --> 01:21.859
+nhưng nó có thể rất có ích
+
+01:21.859 --> 01:24.390
+cho một hàm số phức tạp hơn thế.
+
+01:24.390 --> 01:25.807
+Nhưng điều quan trọng ở đây,
+
+01:25.807 --> 01:27.479
+tại điểm (1,1),
+
+01:27.479 --> 01:31.171
+nó đang thể hiện ý nghĩa của tuyến tính địa phương
+
+01:31.171 --> 01:34.468
+và nó cũng khả vi tại điểm đó.
+
+01:34.468 --> 01:35.815
+Giờ hãy nhìn một ví dụ khác
+
+01:35.815 --> 01:38.508
+về một điểm trên hàm số
+
+01:38.508 --> 01:40.273
+nhưng không khả vi
+
+01:40.273 --> 01:43.152
+và ta cũng không thấy tuyến tính địa phương.
+
+01:43.152 --> 01:44.402
+Ví dụ,
+
+01:45.311 --> 01:46.311
+hãy làm
+
+01:47.773 --> 01:49.440
+giá trị tuyệt đối của x,
+
+01:50.513 --> 01:52.626
+và để mình dịch nó qua một chút
+
+01:52.626 --> 01:56.596
+để chúng không trùng nhau.
+
+01:56.596 --> 02:01.078
+Được rồi, giá trị tuyệt đối của x trừ 1.
+
+02:01.078 --> 02:03.307
+Nó thật ra là khả vi
+
+02:03.307 --> 02:06.140
+miễn ta không ở góc đây này,
+
+02:06.140 --> 02:09.042
+miễn là ta không ở điểm (1,0).
+
+02:09.042 --> 02:12.131
+Với bất kì giá trị x, nó sẽ khả vi
+
+02:12.131 --> 02:14.360
+nhưng tại x bằng 1,
+
+02:14.360 --> 02:15.730
+ta đã nói điều này trong video trước rồi,
+
+02:15.730 --> 02:18.052
+tại sao nó lại không khả vi ở đó.
+
+02:18.052 --> 02:20.258
+Và rồi ta cũng có thể dùng tuyến tính địa phương
+
+02:20.258 --> 02:21.929
+để kiểm tra nó.
+
+02:21.929 --> 02:24.158
+Một lần nữa, cái này không phải là toán thực thụ,
+
+02:24.158 --> 02:26.202
+mà chỉ để mình giúp bạn dễ hiểu.
+
+02:26.202 --> 02:28.619
+Dù ta có phong ta thế nào,
+
+02:29.638 --> 02:32.221
+ta vẫn sẽ thấy góc nhọn này.
+
+02:33.284 --> 02:36.256
+Nó thật khó để vẽ tiếp tuyến ở đây,
+
+02:36.256 --> 02:40.691
+một đường duy nhất đi qua điểm (1,0)
+
+02:40.691 --> 02:43.060
+Mình có thể vẽ vô số các đường
+
+02:43.060 --> 02:45.265
+đi qua điểm (1,0)
+
+02:45.265 --> 02:48.563
+nhưng sẽ không đi quan phần còn lại của đường cong.
+
+02:48.563 --> 02:49.793
+Và chú ý nhé,
+
+02:49.793 --> 02:51.930
+bất cứ khi nào bạn thất một góc nhọn
+
+02:51.930 --> 02:55.087
+như tại (1,0) trong hàm giá trị tuyệt đối này,
+
+02:55.087 --> 02:56.736
+đó sẽ là một dấu hiệu
+
+02:56.736 --> 02:59.058
+nó sẽ không khả vi
+
+02:59.058 --> 03:00.225
+tại điểm đó.
+
+03:01.450 --> 03:03.214
+Giờ hãy thu nhỏ một chút
+
+03:03.214 --> 03:04.584
+và xem qua một hàm số khác.
+
+03:04.584 --> 03:06.767
+Hãy xem qua hàm số
+
+03:06.767 --> 03:09.252
+khả vi hay không khả vi
+
+03:09.252 --> 03:10.761
+không phải vì một góc nhọn
+
+03:10.761 --> 03:12.944
+nhưng vì khi ta phóng to,
+
+03:12.944 --> 03:14.314
+nó bắt đầu có vẻ tuyến tính,
+
+03:14.314 --> 03:16.566
+và nhìn như một đường thẳng đứng.
+
+03:16.566 --> 03:18.725
+Một ví dụ hay sẽ là
+
+03:18.725 --> 03:19.892
+căn bậc hai của
+
+03:21.280 --> 03:22.742
+giả sử
+
+03:22.742 --> 03:24.742
+4 trừ x bình phương.
+
+03:26.922 --> 03:30.080
+Đó là nửa hinh tròn phía trên bán kình 2.
+
+03:30.080 --> 03:33.354
+Và bạn chú ý lên điểm (2,0).
+
+03:33.354 --> 03:34.631
+Vì ở đây,
+
+03:34.631 --> 03:36.930
+nó không khả vi,
+
+03:36.930 --> 03:38.903
+và nếu ta phóng đủ to
+
+03:38.903 --> 03:41.086
+ta thấy tại điểm (2,1)
+
+03:41.086 --> 03:43.803
+ta có vẻ đang tiến đến gần
+
+03:43.803 --> 03:46.470
+một đường thẳng đứng.
+
+03:48.795 --> 03:49.956
+Một lần nũa,
+
+03:49.956 --> 03:54.600
+nó sẽ không khả vi tại (2,1).
+
+03:54.600 --> 03:56.086
+Một điều nữa mình muốn nói,
+
+03:56.086 --> 03:58.617
+tất cả cái này, bạn không phải phóng quá to
+
+03:58.617 --> 04:00.568
+để thấy minh có một góc nhọn ở đây
+
+04:00.568 --> 04:02.263
+trên hàm giá trị tuyệt đối này,
+
+04:02.263 --> 04:05.769
+hay tại điểm (2,0), hay tại điểm (2,0)
+
+04:05.769 --> 04:07.603
+một điều lạ lẫm hơn bình thường
+
+04:07.603 --> 04:10.831
+đang diễn ra , nên có lẽ nó không khả vi.
+
+04:10.831 --> 04:14.221
+Nhưng có vài hàm số ta thường thấy
+
+04:14.221 --> 04:17.077
+trong lớp đại số hay dự bị tích phân hay tích phân,
+
+04:17.077 --> 04:19.933
+nhưng nó có thể giống như một góc nhọn
+
+04:19.933 --> 04:22.023
+khi ta phóng nhỏ lại,
+
+04:22.023 --> 04:24.972
+nhưng khi ta phóng to lần nữa ta sẽ thấy tuyến tính địa phương,
+
+04:24.972 --> 04:28.223
+và chúng cũng khả vi tại những điểm đó.
+
+04:28.223 --> 04:29.964
+Một ví dụ hay là,
+
+04:29.964 --> 04:32.170
+để mình bỏ đi những cái này
+
+04:32.170 --> 04:34.515
+để ta có thể phóng to được.
+
+04:34.515 --> 04:36.598
+Giả sử y bằng x mũ, mình sẽ lấy số mũ thật lớn ở đây,
+
+04:37.882 --> 04:41.179
+mình sẽ lấy số mũ thật lớn ở đây,
+
+04:41.179 --> 04:42.921
+nên là x mũ 10.
+
+04:42.921 --> 04:45.707
+Nó bắt đầu nhìn như góc nhọn ở đó rồi.
+
+04:45.707 --> 04:47.727
+Hãy cho nó mũ 100 luôn nhé.
+
+04:47.727 --> 04:50.142
+Giờ thì nó nhìn còn giống góc nhọn hơn nữa.
+
+04:50.142 --> 04:52.580
+Để mình cho mũ 1000 xem thử nhé.
+
+04:52.580 --> 04:54.136
+Ở tỉ lệ này,
+
+04:54.136 --> 04:56.505
+có vẻ ta có góc nhọn tại điểm
+
+04:56.505 --> 04:57.755
+(1,0).
+
+04:58.641 --> 05:00.731
+Giờ đường cong này thật ra không tới điểm
+
+05:00.731 --> 05:02.588
+(1,0)
+
+05:02.588 --> 05:03.935
+Nếu x bằng 1,
+
+05:03.935 --> 05:05.444
+thì y sẽ bằng 1,
+
+05:05.444 --> 05:07.464
+và ta sẽ thấy khi ta phóng to,
+
+05:07.464 --> 05:09.624
+cái trông như một góc nhọn này
+
+05:09.624 --> 05:11.551
+sẽ bớt nhọn đi.
+
+05:11.551 --> 05:13.385
+Và nó sẽ tốt thôi vì hàm số này
+
+05:13.385 --> 05:16.845
+thật ra là khả vi tại bất kì giá trị x nào.
+
+05:16.845 --> 05:17.937
+Nó khá lạ so với
+
+05:17.937 --> 05:19.167
+cái ta thường thấy,
+
+05:19.167 --> 05:21.420
+nhưng khi ta phóng to, ta sẽ thất điều đó.
+
+05:21.420 --> 05:23.045
+Để mình phóng to cái cỏ vẻ giống
+
+05:23.045 --> 05:25.483
+góc nhọn này,
+
+05:25.483 --> 05:27.573
+nhưng nếu ta phóng đủ to,
+
+05:27.573 --> 05:29.732
+thì dù có vẻ nó như một góc
+
+05:29.732 --> 05:30.847
+rất nhọn
+
+05:30.847 --> 05:33.169
+ta sẽ thấy nó bắt đầu bớt nhọn
+
+05:33.169 --> 05:34.701
+và sẽ cong.
+
+05:34.701 --> 05:36.466
+Và nếu ta phỏng đủ to,
+
+05:36.466 --> 05:39.624
+nó sẽ nhìn như một đường thẳng.
+
+05:39.624 --> 05:41.783
+Nó thật khó tin khi bạn phóng thật to, và
+
+05:41.783 --> 05:44.593
+dù mình đang phóng vào điểm có vẻ như là
+
+05:44.593 --> 05:46.613
+góc nhọn từ xa.
+
+05:46.613 --> 05:48.448
+Nhưng khi ta phóng to vào,
+
+05:48.448 --> 05:52.349
+ta thấy lần nữa xấp xỉ địa phương này
+
+05:52.349 --> 05:54.276
+đó là một đường không thẳng đứng.
+
+05:54.276 --> 05:56.830
+Và lần nữa, cái này đúng tại bất kì điểm nào khả vi
+
+05:56.830 --> 05:59.198
+trên đường cong này.
+
+05:59.198 --> 06:00.568
+Vậy ý của mình là
+
+06:00.568 --> 06:02.078
+đôi khi bạn sẽ phải phóng rất to,
+
+06:02.078 --> 06:04.516
+một công cụ như Desmos cái mình đang dùng đây
+
+06:04.516 --> 06:06.513
+sẽ rất có ích cho việc đó.
+
+06:06.513 --> 06:09.369
+Và đây không phải toán chặt chẽ
+
+06:09.369 --> 06:11.784
+mà chỉ để giúp bạn hiểu được
+
+06:11.784 --> 06:13.641
+nếu bạn phóng đủ to,
+
+06:13.641 --> 06:16.242
+và bạn bắt đầu thấy một đường cong
+
+06:16.242 --> 06:17.612
+nhìn càng giống đường thẳng,
+
+06:17.612 --> 06:19.748
+đó sẽ là dấu hiệu tốt của tính khả vi.
+
+06:19.748 --> 06:21.675
+Nếu bạn tiếp tục phóng ta và nó vẫn nhìn
+
+06:21.675 --> 06:22.999
+như một góc nhọn,
+
+06:22.999 --> 06:24.462
+hay nếu bạn phóng to và nó vẫn nhìn
+
+06:24.462 --> 06:26.134
+như tiếp tuyến thẳng đứng,
+
+06:26.134 --> 06:29.394
+thì bạn sẽ có một vài câu hỏi trong suy nghĩ đấy.

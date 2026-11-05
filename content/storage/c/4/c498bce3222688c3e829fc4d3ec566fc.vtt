@@ -1,0 +1,415 @@
+WEBVTT
+
+00:00.760 --> 00:02.120
+W tym filmie chcę pomyśleć
+
+00:02.120 --> 00:05.480
+o funkcji pierwotnej jeden przez x,
+
+00:05.480 --> 00:07.790
+a także o innym sposobie myślenia i zapisania tego,
+
+00:07.790 --> 00:10.720
+czyli o funkcji pierwotnej x do minus pierwszej.
+
+00:10.720 --> 00:12.750
+Już wiemy, że gdybyśmy spróbowali skorzystać
+
+00:12.750 --> 00:15.660
+z "odwróconej zasady potęgi",
+
+00:15.660 --> 00:17.500
+otrzymalibyśmy coś niezdefiniowanego,
+
+00:17.500 --> 00:19.880
+otrzymalibyśmy x do zerowej przez zero.
+
+00:19.880 --> 00:21.410
+To nie ma sensu.
+
+00:21.410 --> 00:23.660
+Moglibyście powiedzieć: "OK, wiem co robić w tym przypadku".
+
+00:23.660 --> 00:26.507
+Kiedy zaczynaliśmy naukę o pochodnych, dowiedzieliśmy się,
+
+00:26.507 --> 00:28.377
+że pochodną -- zapiszę to na żółto --
+
+00:28.377 --> 00:36.500
+że pochodną po x z logarytmu naturalnego z x jest jeden przez x.
+
+00:36.500 --> 00:39.710
+Więc dlaczego nie mówimy, że funkcją pierwotną tego tutaj
+
+00:39.710 --> 00:45.700
+jest logarytm naturalny z x, dodać C?
+
+00:45.700 --> 00:48.600
+I to niekoniecznie jest źle, problem w tym,
+
+00:48.600 --> 00:50.430
+że to nie jest dostatecznie ogólne.
+
+00:50.430 --> 00:53.980
+Kiedy mówię, że to nie jest dostatecznie ogólne, mam na myśli, że dziedziną
+
+00:53.980 --> 00:57.670
+naszej wyjściowej funkcji, dla której szukamy funkcji pierwotnej,
+
+00:57.670 --> 01:00.510
+są wszystkie liczby rzeczywiste oprócz x równego zero.
+
+01:00.510 --> 01:04.989
+Więc tutaj x jest różny od zera.
+
+01:04.989 --> 01:08.230
+Podczas gdy tu dziedziną są tylko liczby dodatnie.
+
+01:08.230 --> 01:15.710
+Dla tego wyrażenia x musi być większy od zera.
+
+01:15.710 --> 01:18.850
+Byłoby miło, gdyby udało nam się znaleźć funkcję pierwotną,
+
+01:18.850 --> 01:23.900
+której dziedzina jest taka sama jak funkcji, dla której szukamy funkcji pierwotnej.
+
+01:23.900 --> 01:27.320
+Więc chcemy znaleźć funkcję pierwotną, która jest zdefiniowana
+
+01:27.320 --> 01:29.270
+wszędzie tam, gdzie wyjściowa funkcja,
+
+01:29.270 --> 01:33.640
+czyli wszędzie poza x równym zero.
+
+01:33.640 --> 01:36.320
+Jak możemy to nieco zmienić,
+
+01:36.320 --> 01:39.260
+żeby było to określone także dla wartości ujemnych?
+
+01:39.260 --> 01:42.500
+Jedną możliwością jest pomyślenie
+
+01:42.500 --> 01:50.200
+o logarytmie naturalnym z wartości bezwzględnej x.
+
+01:50.200 --> 01:52.180
+Postawię tutaj znak zapytania, ponieważ nie wiemy,
+
+01:52.180 --> 01:54.290
+jaka będzie pochodna tego.
+
+01:54.290 --> 01:56.050
+Nie zamierzam tutaj tego ściśle dowodzić,
+
+01:56.050 --> 01:59.170
+pokażę Wam, jak można to rozumieć.
+
+01:59.170 --> 02:03.400
+Żeby to zrozumieć, narysujmy wykres logarytmu naturalnego x.
+
+02:03.400 --> 02:04.560
+Zrobiłem to wcześniej.
+
+02:04.560 --> 02:06.740
+Więc tu mamy przybliżony
+
+02:06.740 --> 02:09.130
+wykres logarytmu naturalnego z x.
+
+02:09.130 --> 02:10.610
+Jak będzie wyglądał wykres logarytmu naturalnego
+
+02:10.610 --> 02:13.590
+z wartości bezwzględnej x?
+
+02:13.590 --> 02:18.040
+Dla dodatnich x wygląda tak.
+
+02:18.040 --> 02:20.330
+Dla dodatnich x bierzemy wartość bezwzględną,
+
+02:20.330 --> 02:22.890
+która wynosi dokładnie tyle, co pierwotna wartość x.
+
+02:22.890 --> 02:25.450
+Wykres będzie wyglądał tak samo jak dla dodatnich x.
+
+02:25.450 --> 02:28.330
+Ale teraz jest zdefiniowany również dla ujemnych x.
+
+02:28.330 --> 02:31.880
+Wartość bezwzględna minus jeden
+
+02:31.880 --> 02:34.430
+wynosi jeden, więc to jest logarytm naturalny z 1.
+
+02:34.430 --> 02:36.310
+Więc punkt wykresu jest dokładnie tutaj.
+
+02:36.310 --> 02:40.500
+Zbliżając się do zera
+
+02:40.500 --> 02:43.400
+z lewej strony, bierzemy wartość bezwzględną.
+
+02:43.400 --> 02:47.300
+Więc to będzie dokładnie ta krzywa logarytmu naturalnego z x.
+
+02:47.300 --> 02:50.270
+Ale lewa strona logarytmu naturalnego z wartości bezwzględnej x
+
+02:50.270 --> 02:53.730
+będzie lustrzanym odbiciem względem osi y.
+
+02:53.730 --> 02:55.940
+To będzie wyglądać jakoś tak.
+
+02:55.940 --> 02:59.510
+To będzie wyglądać jakoś tak.
+
+02:59.510 --> 03:02.900
+Miłe w tej funkcji jest to, że jest zdefiniowana wszędzie.
+
+03:02.900 --> 03:06.440
+Jest zdefiniowana wszędzie poza -- próbuję narysować
+
+03:06.440 --> 03:11.260
+to tak symetrycznie, jak to możliwe -- jest zdefiniowana wszędzie poza x równym zero.
+
+03:11.260 --> 03:15.220
+Jeśli połączycie tą różową część i tą
+
+03:15.220 --> 03:17.960
+po prawej, jeśli je połączycie,
+
+03:17.960 --> 03:22.030
+jeśli je połączycie, otrzymacie
+
+03:22.030 --> 03:27.180
+y równy logarytmowi naturalnemu z wartości bezwzględnej x.
+
+03:27.180 --> 03:29.840
+Teraz pomyślmy o jego pochodnej.
+
+03:29.840 --> 03:33.080
+Już wiemy, jaka jest pochodna logarytmu naturalnego z x.
+
+03:33.080 --> 03:34.920
+Dla dodatnich x...
+
+03:34.920 --> 03:36.292
+Zapiszę to.
+
+03:36.292 --> 03:41.780
+Dla x większych od zera, otrzymujemy logarytm naturalny
+
+03:41.780 --> 03:47.120
+z wartości bezwzględnej x wynosi logarytm naturalny z x. Zapiszę to.
+
+03:47.120 --> 03:53.180
+Wynosi logarytm naturalny z x.
+
+03:53.180 --> 03:55.880
+Znamy także pochodną, ponieważ te funkcje są równe
+
+03:55.880 --> 03:59.000
+dla x większych od zera.
+
+03:59.000 --> 04:02.980
+Pochodna logarytmu naturalnego z wartości bezwzględnej x
+
+04:02.980 --> 04:06.560
+będzie równa
+
+04:06.560 --> 04:11.000
+pochodnej logarytmu naturalnego z x,
+
+04:11.000 --> 04:16.269
+która wynosi 1 przez x, dla x większych od zera.
+
+04:16.269 --> 04:18.010
+Narysujmy to.
+
+04:18.010 --> 04:18.529
+Narysujmy to.
+
+04:18.529 --> 04:21.160
+Narysuję na zielono wykres 1 przez x.
+
+04:21.160 --> 04:22.960
+1 przez x, widzieliśmy już to wcześniej.
+
+04:22.960 --> 04:24.550
+Wygląda to jakoś tak.
+
+04:24.550 --> 04:26.580
+Wygląda to jakoś tak.
+
+04:26.580 --> 04:32.504
+Wykorzystamy fakt, że ma asymptotę pionową i poziomą.
+
+04:32.504 --> 04:37.100
+To wygląda jakoś tak.
+
+04:37.130 --> 04:41.640
+Tutaj jest 1 przez x, dla x większych od zera.
+
+04:41.640 --> 04:46.750
+Więc to jest jeden przez x, dla x większych od zera.
+
+04:46.750 --> 04:48.630
+Możecie zobaczyć,
+
+04:48.630 --> 04:51.550
+jakie jest nachylenie.
+
+04:51.550 --> 04:54.700
+Współczynnik kierunkowy stycznej wynosi tu 1, widać to także,
+
+04:54.700 --> 04:56.480
+kiedy spojrzymy na pochodną, właśnie tutaj,
+
+04:56.480 --> 04:58.770
+pochodna powinna wynosić 1.
+
+04:58.770 --> 05:04.060
+Zbliżając się do zera, mamy coraz większe, dodatnie, nachylenie wykresu.
+
+05:04.060 --> 05:07.570
+Widzimy, że mamy bardzo duże wartości dla pochodnej.
+
+05:07.570 --> 05:11.720
+Kiedy oddalamy się od zera, jest ciągle stromy,
+
+05:11.720 --> 05:15.120
+ale coraz mniej stromy aż dojdziemy do 1.
+
+05:15.120 --> 05:17.320
+Później robi się
+
+05:17.320 --> 05:19.770
+coraz mniej stromy.
+
+05:19.770 --> 05:22.820
+Ale nigdy nie staje się zupełnie płaski.
+
+05:22.820 --> 05:25.100
+Właśnie tak zachowuje się pochodna.
+
+05:25.100 --> 05:29.050
+Co robi tutaj logarytm naturalny z wartości bezwzględnej z x?
+
+05:29.050 --> 05:33.730
+Kiedy jesteśmy tutaj, nachylenie jest bliskie 0.
+
+05:33.730 --> 05:34.750
+To jest symetryczne.
+
+05:34.750 --> 05:38.340
+Nachylenie tutaj to właściwie minus nachylenie tu.
+
+05:38.340 --> 05:40.240
+Wyjaśnię to.
+
+05:40.240 --> 05:42.710
+Jakiekolwiek jest nachylenie tutaj,
+
+05:42.710 --> 05:44.260
+jakiekolwiek jest nachylenie tutaj,
+
+05:44.260 --> 05:48.984
+to dokładnie minus nachylenia w punkcie symetrycznie oddalonym od zera.
+
+05:48.984 --> 05:53.550
+Więc dla strony ujemnej nachylenie wynosi
+
+05:53.550 --> 05:58.180
+minus nachylenie tego tutaj.
+
+05:58.180 --> 06:01.030
+Później nachylenie staje się coraz bardziej ujemne.
+
+06:01.030 --> 06:02.610
+Właśnie tutaj.
+
+06:02.610 --> 06:04.170
+Tu nachylenie wynosi jeden.
+
+06:04.170 --> 06:06.410
+Tutaj wynosi minus jeden.
+
+06:06.410 --> 06:09.600
+Więc tutaj nachylenie wynosi minus jeden.
+
+06:09.600 --> 06:10.840
+Kiedy zbliżamy się do zera,
+
+06:10.840 --> 06:13.000
+nachylenie staje się coraz bardziej ujemne.
+
+06:13.000 --> 06:16.300
+Więc pochodna logarytmu naturalnego z x,
+
+06:16.300 --> 06:20.010
+dla x mniejszych od 0, wygląda mniej więcej tak.
+
+06:20.010 --> 06:22.620
+Mniej więcej tak.
+
+06:22.620 --> 06:27.992
+Widzimy po raz kolejny, że to nie jest ścisły dowód.
+
+06:27.992 --> 06:31.990
+Jednakże widzimy, że pochodną logarytmu naturalnego
+
+06:31.990 --> 06:38.670
+z wartości bezwzględnej z x jest 1 przez x, dla x różnych od zera.
+
+06:38.670 --> 06:40.440
+Więc to co widzicie i miejmy nadzieję,
+
+06:40.440 --> 06:44.150
+potraficie sobie wyobrazić, że pochodną...
+
+06:44.150 --> 06:45.996
+Zapiszę to.
+
+06:45.996 --> 06:51.940
+Pochodną logarytmu naturalnego
+
+06:51.940 --> 06:58.100
+z wartości bezwzględnej z x rzeczywiście jest 1 przez x,
+
+06:58.100 --> 07:04.860
+dla x różnych od zera.
+
+07:04.860 --> 07:08.340
+Jest to bardziej satysfakcjonująca funkcja pierwotna dla funkcji 1 przez x.
+
+07:08.340 --> 07:12.500
+Ma tę samą dziedzinę.
+
+07:12.500 --> 07:15.240
+Więc kiedy zastanawiamy się, jaka jest funkcja pierwotna z 1 przez x...
+
+07:15.240 --> 07:17.190
+Nie przedstawiłem Wam tutaj ścisłego dowodu.
+
+07:17.190 --> 07:19.630
+Nie użyłem tu definicji pochodnej ani nic takiego.
+
+07:19.630 --> 07:22.260
+Ale pokazałem Wam, jak to sobie wyobrazić.
+
+07:22.260 --> 07:26.340
+Powiemy, że to jest logarytm naturalny z wartości bezwzględnej z x, dodać C
+
+07:26.340 --> 07:30.090
+teraz mamy funkcję pierwotną o tej samej dziedzinie
+
+07:30.090 --> 07:32.730
+co funkcja, dla której szukamy funkcji pierwotnej.

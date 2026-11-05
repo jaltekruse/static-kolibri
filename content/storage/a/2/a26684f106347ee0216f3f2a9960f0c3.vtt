@@ -1,0 +1,499 @@
+WEBVTT
+
+00:00.610 --> 00:02.390
+No último vídeo, demos uma primeira olhada
+
+00:02.390 --> 00:04.889
+na definição epsilon-delta de limites, que diz essencialmente
+
+00:04.889 --> 00:08.800
+que se você afirmar que o limite de f(x) enquanto x tende a C
+
+00:08.800 --> 00:13.020
+é igual a L, então isso deve significar pela definição
+
+00:13.020 --> 00:16.250
+que se for dado qualquer epsilon positivo que
+
+00:16.250 --> 00:20.010
+essencialmente nos diga quão perto queremos que f(x) esteja de L
+
+00:20.010 --> 00:23.152
+Nós podemos sempre encontrar um delta que seja
+
+00:23.152 --> 00:25.110
+maior do que zero, que está essencialmente nos dizendo
+
+00:25.110 --> 00:30.050
+nossa distância de C tal que se x está dentro de delta C
+
+00:30.050 --> 00:34.285
+então f(x) estará dentro de epsilon L
+
+00:34.285 --> 00:37.530
+Se pudermos encontrar um delta para qualquer epsilon,
+
+00:37.530 --> 00:41.310
+então podemos dizer que isso é realmente
+
+00:41.310 --> 00:43.715
+o limite de f(x) quando x tende a C.
+
+00:43.715 --> 00:45.090
+Agora, eu sei no que você está pensando.
+
+00:45.090 --> 00:47.250
+Isso tudo parece muito abstrato.
+
+00:47.250 --> 00:49.530
+Eu quero usar essa coisa de alguma forma.
+
+00:49.530 --> 00:51.660
+E o que vamos fazer nesse vídeo é usar isso.
+
+00:51.660 --> 00:56.040
+e provar rigorosamente que um limite realmente existe.
+
+00:56.040 --> 00:59.400
+Então, bem aqui, eu defini uma função, f(x)
+
+00:59.400 --> 01:03.850
+é igual a dois x em qualquer lugar, exceto para x igual a cinco.
+
+01:03.850 --> 01:06.960
+Então é dois x para todos os outros valores de x,
+
+01:06.960 --> 01:09.340
+menos quando x é igual a cinco, então é somente igual a x.
+
+01:09.340 --> 01:12.750
+Então eu poderia mesmo ter escrito somente cinco.
+
+01:12.750 --> 01:15.430
+É igual a cinco quando x é igual a cinco.
+
+01:15.430 --> 01:16.370
+É igual a ela mesma.
+
+01:16.370 --> 01:18.420
+Então eu desenhei o gráfico aqui.
+
+01:18.420 --> 01:20.760
+Em todos os outros lugares, se parece exatamente com dois x.
+
+01:20.760 --> 01:24.360
+No x igual a cinco, ela não está mais sobre a reta dois x.
+
+01:24.360 --> 01:26.580
+Ao invés disso, a função é definida para ser
+
+01:26.580 --> 01:28.610
+aquele ponto bem ali.
+
+01:28.610 --> 01:33.660
+E se eu perguntasse pra você qual é o limite de f(x)
+
+01:33.660 --> 01:35.799
+quando x tende a cinco, você poderia
+
+01:35.799 --> 01:37.090
+pensar sobre isso bem intuitivamente.
+
+01:37.090 --> 01:37.756
+Bem, vamos ver.
+
+01:37.756 --> 01:41.930
+Quanto mais perto eu chego de cinco, mais perto
+
+01:41.930 --> 01:44.740
+f(x) parece estar chegando de dez.
+
+01:50.090 --> 01:53.380
+Então, você poderia justamente intuitivamente fazer a afirmação
+
+01:53.380 --> 01:58.550
+de que o limite de f(x) quando x tende a cinco realmente
+
+01:58.550 --> 01:59.890
+é igual a dez.
+
+01:59.890 --> 02:01.140
+Parece que é desse jeito.
+
+02:01.140 --> 02:02.980
+Mas o que nós vamos fazer é usar
+
+02:02.980 --> 02:08.080
+a definição epsilon delta para realmente provar isso.
+
+02:08.080 --> 02:11.030
+E o caminho que a maioria dessas provas tipicamente segue
+
+02:11.030 --> 02:13.330
+é definirmos delta no abstrato.
+
+02:13.330 --> 02:15.500
+Então nós essencialmente tentamos descobrir um caminho
+
+02:15.500 --> 02:20.590
+que, dado qualquer epsilon, nós podemos sempre chegar a um delta.
+
+02:20.590 --> 02:22.110
+Ou outro caminho que vamos tentar
+
+02:22.110 --> 02:26.510
+para descrever nosso delta como sendo uma função de epsilon,
+
+02:26.510 --> 02:28.230
+para não te confundir muito.
+
+02:28.230 --> 02:29.810
+Mas talvez eu não deva usar f de novo.
+
+02:29.810 --> 02:35.520
+Mas delta é igual a uma função de epsilon
+
+02:35.520 --> 02:37.770
+que é definida para qualquer epsilon positivo.
+
+02:37.770 --> 02:39.960
+Então você me dá um epsilon, eu só
+
+02:39.960 --> 02:42.400
+coloco ele na nossa pequena fórmula ou caixinha de função.
+
+02:42.400 --> 02:44.070
+E eu sempre vou te dar um delta.
+
+02:44.070 --> 02:46.790
+E se eu conseguir fazer isso para qualquer epsilon ela sempre vai te dar
+
+02:46.790 --> 02:52.600
+um delta, aonde isso é verdade, que se x está dentro de delta C
+
+02:52.600 --> 02:55.180
+então o f(x) correspondente vai estar dentro de epsilon L
+
+02:55.180 --> 02:57.870
+Então o limite definitivamente existe.
+
+02:57.870 --> 03:00.090
+Então vamos tentar fazer isso.
+
+03:00.090 --> 03:05.490
+Então vamos pensar sobre estar dentro do delta do nosso C.
+
+03:05.490 --> 03:09.070
+Então, vamos pensar que isso bem aqui é cinco mais delta,
+
+03:09.070 --> 03:11.312
+isso é cinco menos delta
+
+03:11.312 --> 03:13.270
+Então esse é nosso alcance, vamos pensar nisso.
+
+03:13.270 --> 03:15.170
+Nós vamos pensar primeiramente sobre isso no abstrato.
+
+03:15.170 --> 03:16.753
+Então vamos tentar chegar a
+
+03:16.753 --> 03:19.600
+uma fórmula para delta em termos de epsilon.
+
+03:19.600 --> 03:23.750
+Como podemos descrever todos os x's que estão nesse alcance
+
+03:23.750 --> 03:25.216
+mas não igual ao próprio cinco?
+
+03:25.216 --> 03:26.914
+Porque nós realmente nos importamos com as coisas
+
+03:28.612 --> 03:30.310
+que estão dentro do delta de cinco, mas não necessariamente igual a cinco.
+
+03:30.310 --> 03:32.400
+Isso é apenas estritamente menor que.
+
+03:32.400 --> 03:35.940
+Eles estão dentro de uma faixa de C, mas não iguais a C.
+
+03:35.940 --> 03:40.950
+Bem, esses serão todos os x's que satisfazem x menos cinco
+
+03:40.950 --> 03:44.460
+menor que delta.
+
+03:44.460 --> 03:48.000
+Isso descreve todos esses x's bem aqui.
+
+03:48.000 --> 03:51.250
+E agora, o que nós vamos fazer, e o jeito que essas provas
+
+03:51.250 --> 03:53.030
+tipicamente vão, é que nós vamos tentar
+
+03:53.030 --> 03:57.100
+manipular o lado esquerdo da desigualdade,
+
+03:57.100 --> 03:59.180
+para que isso comece a se parecer assim,
+
+03:59.180 --> 04:01.350
+ou para que se pareça exatamente com aquilo.
+
+04:01.350 --> 04:03.570
+E enquanto fazemos isso, o lado direito
+
+04:03.570 --> 04:06.560
+da desigualdade vai ser expressado em termos de delta.
+
+04:06.560 --> 04:08.730
+E então nós podemos essencialmente dizer bem, veja.
+
+04:08.730 --> 04:11.771
+Se o lado direito está em termos
+
+04:11.771 --> 04:13.520
+de delta e o lado esquerdo se parece
+
+04:13.520 --> 04:16.880
+com aquilo, aquilo realmente define como podemos expressar delta
+
+04:16.880 --> 04:18.560
+em termos de epsilon
+
+04:18.560 --> 04:20.360
+Se não fizer sentido, tenha paciência comigo.
+
+04:20.360 --> 04:21.690
+Estou na iminência de conseguir.
+
+04:21.690 --> 04:26.930
+Então, se queremos que x menos cinco se pareça muito mais com isso, quando
+
+04:26.930 --> 04:30.780
+x não é igual a cinco-- em tudo isso, esse intervalo todo,
+
+04:30.780 --> 04:35.520
+x não é igual a cinco-- f(x) é igual a dois x,
+
+04:35.520 --> 04:37.280
+nosso limite proposto é igual a dez.
+
+04:37.280 --> 04:40.250
+Então se pudermos chegar a dois x menos dez de alguma forma,
+
+04:40.250 --> 04:41.515
+então estaremos em boa forma.
+
+04:41.515 --> 04:42.890
+E o caminho mais fácil para fazer isso é
+
+04:42.890 --> 04:45.730
+multiplicar os dois lados da desigualdade por dois.
+
+04:50.750 --> 04:52.960
+E duas vezes o valor absoluto de alguma coisa,
+
+04:52.960 --> 04:55.760
+é a mesma coisa que o valor absoluto de dois vezes
+
+04:55.760 --> 04:56.300
+aquela coisa.
+
+04:56.300 --> 04:59.300
+Se eu disser duas vezes o valor absoluto de a,
+
+04:59.300 --> 05:01.133
+é a mesma coisa que o valor absoluto de dois a.
+
+05:02.966 --> 05:04.800
+Então bem aqui no lado esquerdo,
+
+05:04.800 --> 05:08.930
+isso vai ser o valor absoluto de dois x menos dez.
+
+05:08.930 --> 05:11.180
+E vai ser menor que no lado direito,
+
+05:11.180 --> 05:14.010
+você simplesmente termina com um dois delta.
+
+05:14.010 --> 05:16.140
+Agora, o que temos aqui do lado esquerdo?
+
+05:16.140 --> 05:19.740
+Bem, isso é f(x) desde que x não seja igual a cinco.
+
+05:19.740 --> 05:21.070
+E esse é nosso limite.
+
+05:21.070 --> 05:28.570
+Então podemos reescrever isso como uma f(x) menos L é menor que dois delta.
+
+05:28.570 --> 05:34.210
+E isso para x diferente de cinco.
+
+05:34.210 --> 05:37.850
+Essa é f(x), esse literalmente é nosso limite.
+
+05:37.850 --> 05:39.540
+Agora isso é interessante.
+
+05:39.540 --> 05:41.690
+Essa afirmação bem aqui é quase
+
+05:41.690 --> 05:43.650
+exatamente o que queremos bem aqui,
+
+05:43.650 --> 05:46.490
+exceto que os lados direitos são diferentes.
+
+05:46.490 --> 05:49.730
+Em termos de epsilon, esta tem em termos de delta.
+
+05:49.730 --> 05:56.050
+Então, como podemos definir delta tal que delta vá essencialmente
+
+05:56.050 --> 05:57.854
+ser epsilon?
+
+05:57.854 --> 05:58.895
+Bom, essa é nossa chance.
+
+06:03.790 --> 06:07.420
+E é aqui que vamos definir delta como uma função de epsilon.
+
+06:07.420 --> 06:10.600
+Vamos fazer dois delta igual a epsilon.
+
+06:10.600 --> 06:12.490
+Ou se você dividir ambos os lados por dois,
+
+06:12.490 --> 06:16.535
+Vamos fazer delta ser igual a epsilon sobre dois.
+
+06:22.310 --> 06:24.840
+Deixa eu mudar as cores só pra aliviar a monotonia.
+
+06:24.840 --> 06:32.132
+Se você fizer delta igual a epsilon sobre dois,
+
+06:32.132 --> 06:33.590
+então essa afirmação bem aqui
+
+06:33.590 --> 06:37.530
+se torna o módulo de f(x) menos L
+
+06:37.530 --> 06:40.150
+menor que, ao invés de dois delta,
+
+06:40.150 --> 06:42.730
+será menor do que duas vezes epsilon sobre dois,
+
+06:42.730 --> 06:45.360
+será apenas menor do que epsilon.
+
+06:45.360 --> 06:46.800
+Então essa é a chave.
+
+06:46.800 --> 06:49.510
+Se alguém te der qualquer número positivo epsilon
+
+06:49.510 --> 06:53.970
+para essa função, enquanto você fizer delta ser igual a epsilon
+
+06:53.970 --> 06:59.060
+sobre dois, então qualquer x dentro daquela faixa,
+
+06:59.060 --> 07:01.610
+que o f(x) correspondente vai estar
+
+07:01.610 --> 07:04.615
+dentro do epsilon do nosso limite.
+
+07:07.845 --> 07:10.220
+E lembre, precia ser verdade para qualquer valor positivo epsilon.
+
+07:10.220 --> 07:12.020
+Mas você pode ver como o jogo pode ir.
+
+07:12.020 --> 07:15.360
+Se alguém te der o epsilon,
+
+07:15.360 --> 07:18.270
+vamos dizer que eles querem estar dentro de metade do nosso limite.
+
+07:18.270 --> 07:20.770
+Então nosso limite está aqui em cima, e nosso epsilon é 0.5.
+
+07:20.770 --> 07:23.790
+Então isso literalmente seria a faixa que eu quero que esteja entre dez
+
+07:23.790 --> 07:26.160
+mais epsilon, seria 10.5.
+
+07:26.160 --> 07:29.340
+E dez menos epsilon seria 9.5.
+
+07:29.340 --> 07:31.270
+Bem, nós acabamos de chegar a uma fórmula.
+
+07:31.270 --> 07:34.170
+Nós só temos que fazer delta ser igual a epsilon
+
+07:34.170 --> 07:37.380
+sobre dois, que é igual a 0.25.
+
+07:37.380 --> 07:44.990
+Então ela vai nos dar a faixa entre 4.75 e 5.25.
+
+07:44.990 --> 07:51.040
+E enquanto escolhermos um x entre 4.75 e 5.25,
+
+07:51.040 --> 07:53.510
+mas que não seja igual a cinco, o f(x) correspondente
+
+07:53.510 --> 07:57.090
+vai estar entre 9.5 e 10.5
+
+07:57.090 --> 07:59.120
+Então, você me dá qualquer epsilon, eu
+
+07:59.120 --> 08:02.617
+posso apenas aplicar essa fórmula aqui
+
+08:02.617 --> 08:03.700
+para chegar a um delta.
+
+08:03.700 --> 08:05.550
+Isso se aplica para qualquer número real.
+
+08:05.550 --> 08:07.350
+Eu digo, especialmente qualquer número positivo.
+
+08:07.350 --> 08:09.350
+Para qualquer epsilon que você me der, eu simplesmente
+
+08:09.350 --> 08:12.730
+pego um delta definido dessa forma, e então eu
+
+08:12.730 --> 08:16.490
+posso ir através desse arco.
+
+08:16.490 --> 08:19.168
+Se o valor absoluto de x menos cinco for menor do que delta,
+
+08:19.168 --> 08:21.998
+se delta for definido dessa forma, que
+
+08:21.998 --> 08:23.880
+eu poderia definir para qualquer epsilon, então esse
+
+08:23.880 --> 08:26.130
+vai ser o caso de que f(x) vai
+
+08:26.130 --> 08:30.000
+estar dentro do epsilon do nosso limite.

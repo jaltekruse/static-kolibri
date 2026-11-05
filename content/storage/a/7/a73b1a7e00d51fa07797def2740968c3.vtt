@@ -1,0 +1,546 @@
+WEBVTT
+
+00:00.290 --> 00:02.640
+- [Instructor] So the goal
+of this video is to prove
+
+00:02.640 --> 00:06.640
+that the three medians of
+a triangle always intersect
+
+00:06.640 --> 00:09.680
+at one point, which is pretty interesting,
+
+00:09.680 --> 00:11.650
+because you would expect
+two different lines
+
+00:11.650 --> 00:13.860
+with different slopes to
+intersect in one point,
+
+00:13.860 --> 00:17.740
+but three lines intersecting
+in one point is pretty neat.
+
+00:17.740 --> 00:19.940
+And this is true for all triangles.
+
+00:19.940 --> 00:21.690
+And so to setup this proof,
+
+00:21.690 --> 00:23.800
+I put an arbitrary triangle here,
+
+00:23.800 --> 00:25.800
+but I put one vertex at the origin.
+
+00:25.800 --> 00:27.160
+That'll simplify the math.
+
+00:27.160 --> 00:30.480
+And then I put another
+vertex on the x-axis.
+
+00:30.480 --> 00:32.030
+And I've given them coordinates.
+
+00:32.030 --> 00:34.530
+So this one right over
+here is at zero, zero.
+
+00:34.530 --> 00:37.110
+This one over here, we're just
+saying that the x-coordinate
+
+00:37.110 --> 00:40.380
+is a, and so it's a comma zero.
+
+00:40.380 --> 00:43.910
+And then this one up here has
+some x and some y-coordinate.
+
+00:43.910 --> 00:45.950
+We're just calling them b and c.
+
+00:45.950 --> 00:48.210
+This is some arbitrary triangle.
+
+00:48.210 --> 00:50.210
+And if you had some other triangle
+
+00:50.210 --> 00:52.620
+that had the same dimensions as this one,
+
+00:52.620 --> 00:54.030
+and this one can have any dimensions
+
+00:54.030 --> 00:56.380
+'cause we haven't defined a, b, and c.
+
+00:56.380 --> 00:59.200
+You could go from this triangle
+to any of those other ones
+
+00:59.200 --> 01:00.700
+using rigid transformations.
+
+01:00.700 --> 01:04.260
+So if we can prove that the
+median of this triangle,
+
+01:04.260 --> 01:08.700
+this general triangle, always
+intersect at one point,
+
+01:08.700 --> 01:11.730
+this will be true for all triangles.
+
+01:11.730 --> 01:13.450
+So let's do a little bit more.
+
+01:13.450 --> 01:15.050
+Let's draw the medians.
+
+01:15.050 --> 01:16.870
+So what we're going to do is draw lines
+
+01:16.870 --> 01:19.430
+from each of the vertex to the midpoint
+
+01:19.430 --> 01:21.260
+of the opposite side.
+
+01:21.260 --> 01:23.420
+So if we do that, we've
+drawn all the medians.
+
+01:23.420 --> 01:26.320
+And it for sure looks like
+they intersect in one point.
+
+01:26.320 --> 01:28.140
+But to prove that, let's think about
+
+01:28.140 --> 01:30.030
+what the coordinates are of the midpoints
+
+01:30.030 --> 01:31.740
+of each of these sides.
+
+01:31.740 --> 01:35.470
+So what is the coordinate right over here?
+
+01:35.470 --> 01:37.393
+Pause this video and think about that.
+
+01:38.890 --> 01:41.800
+Well this is going to be the
+midpoint of this top point
+
+01:41.800 --> 01:43.100
+and this bottom right point.
+
+01:43.100 --> 01:45.280
+So this length is equal to that length.
+
+01:45.280 --> 01:48.200
+And for the midpoint, you can
+really just think about it
+
+01:48.200 --> 01:51.050
+as you're taking the average
+of each of the coordinates.
+
+01:51.050 --> 01:53.080
+So the x-coordinate here's
+going to be the average
+
+01:53.080 --> 01:54.610
+of b and a.
+
+01:54.610 --> 01:59.403
+So you could just write
+that as a plus b over two,
+
+02:00.800 --> 02:02.840
+and then the y-coordinate
+is going to be the average
+
+02:02.840 --> 02:04.030
+of c and zero.
+
+02:04.030 --> 02:08.730
+That would be c plus zero
+over two, or just c over two.
+
+02:08.730 --> 02:11.590
+And we could do that for
+each of these points.
+
+02:11.590 --> 02:13.580
+So this point right over here,
+
+02:13.580 --> 02:18.280
+its x-coordinate is going to
+be the average of zero and a.
+
+02:18.280 --> 02:20.780
+So that's just a over two.
+
+02:20.780 --> 02:22.410
+And its y-coordinate is
+going to be the average
+
+02:22.410 --> 02:23.250
+of zero and zero.
+
+02:23.250 --> 02:25.200
+You can see that it sits on the x-axis,
+
+02:25.200 --> 02:27.310
+so its y-coordinate is zero.
+
+02:27.310 --> 02:29.590
+And then last but not least,
+
+02:29.590 --> 02:30.810
+what's the coordinate of this point?
+
+02:30.810 --> 02:33.530
+Pause the video and
+try to figure that out.
+
+02:33.530 --> 02:35.820
+All right, well it's going be x-coordinate
+
+02:35.820 --> 02:38.490
+who's going to be the
+average of b and zero,
+
+02:38.490 --> 02:40.600
+which is just going to be b over two.
+
+02:40.600 --> 02:42.780
+And then the y-coordinate
+is going to be the average
+
+02:42.780 --> 02:47.500
+of c and zero, which is
+just going to be c over two.
+
+02:47.500 --> 02:50.460
+So way that I'm gonna prove
+that all three of these medians
+
+02:50.460 --> 02:54.780
+intersect at a unique point,
+is by showing you a coordinate
+
+02:54.780 --> 02:56.770
+that sits on all three lines.
+
+02:56.770 --> 02:58.290
+If it sits on all three lines,
+
+02:58.290 --> 03:01.320
+that must be the point of intersection.
+
+03:01.320 --> 03:05.420
+And that interesting
+point is 2/3 along the way
+
+03:05.420 --> 03:07.380
+of any one of the medians.
+
+03:07.380 --> 03:09.670
+So one way to think
+about it is the distance
+
+03:09.670 --> 03:14.670
+between the vertex and that
+point is 2/3 of the length
+
+03:15.120 --> 03:16.680
+of the median.
+
+03:16.680 --> 03:18.940
+So if we just look at this blue median,
+
+03:18.940 --> 03:21.970
+the coordinate of this point
+that is twice as far away
+
+03:21.970 --> 03:25.780
+from the vertex as it is
+from the opposite side,
+
+03:25.780 --> 03:27.630
+it will be based on a weighted average
+
+03:27.630 --> 03:29.570
+of the x and y-coordinates.
+
+03:29.570 --> 03:32.490
+When we did a midpoint and
+things were equally far away,
+
+03:32.490 --> 03:34.730
+you equally weighted the coordinates.
+
+03:34.730 --> 03:36.950
+So you just took their average.
+
+03:36.950 --> 03:39.930
+But when you're, if you
+are closer to this side,
+
+03:39.930 --> 03:42.600
+you will take a weighted
+average accordingly.
+
+03:42.600 --> 03:47.600
+So it's going to be 2/3
+times a plus b over two,
+
+03:48.120 --> 03:53.120
+plus 1/3 times zero, and
+then the y-coordinate
+
+03:53.350 --> 03:55.863
+is going to be 2/3 times c over two,
+
+03:57.920 --> 04:00.590
+plus 1/3 times the y-coordinate here,
+
+04:00.590 --> 04:02.500
+which is just going to be zero.
+
+04:02.500 --> 04:04.410
+Now once again, why do we have this 2/3
+
+04:04.410 --> 04:05.750
+and this 1/3 weighting?
+
+04:05.750 --> 04:08.450
+Because we are twice
+as close to this point
+
+04:08.450 --> 04:11.100
+as we are to that point.
+
+04:11.100 --> 04:14.930
+Now if we wanted to simplify
+it, what would we get?
+
+04:14.930 --> 04:17.760
+So this two would cancel with that two.
+
+04:17.760 --> 04:22.597
+So and this is zero, so we
+would get a plus b over three
+
+04:24.550 --> 04:25.630
+for the x-coordinate.
+
+04:25.630 --> 04:27.780
+And for the y-coordinate, this is zero.
+
+04:27.780 --> 04:32.210
+That two cancels with that
+two, and we get c over three.
+
+04:32.210 --> 04:35.750
+So we just found a point
+that for sure sits on
+
+04:35.750 --> 04:38.050
+this blue median.
+
+04:38.050 --> 04:39.570
+Now let's do a similar exercise
+
+04:39.570 --> 04:43.540
+with this pink colored median.
+
+04:43.540 --> 04:46.050
+So that pink colored median,
+what is the coordinate
+
+04:46.050 --> 04:48.320
+of the point that sits on that median,
+
+04:48.320 --> 04:50.480
+that is twice as far from the vertex
+
+04:50.480 --> 04:52.740
+as it is from the opposite side?
+
+04:52.740 --> 04:55.510
+Well it would be the exact same exercise.
+
+04:55.510 --> 04:58.130
+We would doubly weight these coordinates.
+
+04:58.130 --> 05:03.130
+So the x-coordinate would
+be 2/3 times b over two
+
+05:04.930 --> 05:09.930
+plus 1/3 times a, 1/3 times a.
+
+05:10.030 --> 05:13.740
+And then the y-coordinate
+would be 2/3 times c over two.
+
+05:13.740 --> 05:18.540
+2/3 times c over two plus 1/3 times zero.
+
+05:18.540 --> 05:21.230
+1/3 times zero.
+
+05:21.230 --> 05:22.680
+And what does that get us?
+
+05:22.680 --> 05:23.513
+Well let's see.
+
+05:23.513 --> 05:25.360
+This two cancels out with that two
+
+05:25.360 --> 05:30.130
+and we are left with b over
+three plus a over three.
+
+05:30.130 --> 05:33.470
+So that's the same thing
+as a plus b over three
+
+05:33.470 --> 05:36.450
+and over here, that's
+zero, that cancels out,
+
+05:36.450 --> 05:38.420
+that is c over three.
+
+05:38.420 --> 05:41.700
+So notice, this exact coordinate sits on
+
+05:41.700 --> 05:45.130
+both the blue median and this pink median.
+
+05:45.130 --> 05:48.100
+So that must be the place
+that they intersect.
+
+05:48.100 --> 05:51.240
+Let's see if that's also
+true for this orange median.
+
+05:51.240 --> 05:53.750
+So in the orange median,
+same exact exercise.
+
+05:53.750 --> 05:55.350
+And I encourage you to pause this video
+
+05:55.350 --> 05:58.250
+and try to calculate the value
+of this point on your own.
+
+05:58.250 --> 06:01.200
+What's the coordinate of that
+point on the orange line,
+
+06:01.200 --> 06:05.930
+where this distance is twice
+as large as this distance?
+
+06:05.930 --> 06:07.710
+Well, same idea.
+
+06:07.710 --> 06:10.660
+We would doubly weight these
+points right over here.
+
+06:10.660 --> 06:15.660
+So the x-coordinate would
+be 2/3 times a over two,
+
+06:15.790 --> 06:19.160
+plus 1/3 times b.
+
+06:19.160 --> 06:22.250
+The y-coordinate would be 2/3 times zero.
+
+06:22.250 --> 06:26.540
+2/3 times zero plus 1/3 times c.
+
+06:26.540 --> 06:30.150
+1/3 times c, and what does that get us?
+
+06:30.150 --> 06:31.880
+Let's see, that cancels with that.
+
+06:31.880 --> 06:34.510
+So we have a over three plus b over three.
+
+06:34.510 --> 06:38.800
+Well that's the same thing
+as a plus b over three.
+
+06:38.800 --> 06:40.710
+And then over here, that's just zero.
+
+06:40.710 --> 06:44.330
+And we're left with c over three.
+
+06:44.330 --> 06:48.130
+So notice, we have just shown
+that this exact coordinate
+
+06:48.130 --> 06:51.360
+sits on all three medians.
+
+06:51.360 --> 06:55.210
+And so therefore, all three
+medians must intersect
+
+06:55.210 --> 06:57.990
+at that point because that
+point exists on all the lines.
+
+06:57.990 --> 06:59.940
+We've just shown that.
+
+06:59.940 --> 07:02.440
+And that's true for
+this arbitrary triangle.
+
+07:02.440 --> 07:04.740
+You could make this triangle
+have arbitrary dimensions
+
+07:04.740 --> 07:08.340
+by changing your value for a, b, or c.
+
+07:08.340 --> 07:10.470
+And if you see a triangle
+that has the same dimensions
+
+07:10.470 --> 07:13.420
+but just, it's shifted or it's
+in a different orientation,
+
+07:13.420 --> 07:16.210
+you can do a rigid transformation,
+which doesn't change
+
+07:16.210 --> 07:17.470
+any of the dimensions.
+
+07:17.470 --> 07:19.380
+And you can show that that would be true
+
+07:19.380 --> 07:20.973
+for that triangle as well.

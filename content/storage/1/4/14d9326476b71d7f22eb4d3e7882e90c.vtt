@@ -1,0 +1,535 @@
+WEBVTT
+
+00:00.333 --> 00:01.795
+Trong video này mình sẽ
+
+00:01.795 --> 00:04.447
+nói về các dạng gián đoạn
+
+00:04.447 --> 00:07.359
+mà chắc hẳn bạn đã gặp ở chương đại số rồi,
+
+00:07.359 --> 00:11.010
+hay tiền giải tích, nhưng giờ mình sẽ liên hệ thêm với
+
+00:11.010 --> 00:14.876
+giới hạn hai bên và giới hạn một bên.
+
+00:14.876 --> 00:18.727
+Vậy đầu tiên mình hãy xem qua cách phân loại gián đoạn.
+
+00:18.727 --> 00:22.274
+Vậy ở bên trái mình có đường cong này,
+
+00:22.274 --> 00:25.642
+nhìn như y bằng x bình,
+
+00:25.642 --> 00:28.502
+cho đến khi x bằng 3.
+
+00:28.502 --> 00:31.243
+Và thay vì nó bằng 3 bình,
+
+00:31.243 --> 00:33.111
+ở điểm này mình có khoảng trống,
+
+00:33.111 --> 00:35.893
+và hàm tại 3 được định nghĩa bằng 4.
+
+00:35.893 --> 00:37.420
+Và sau đó nó tiếp tục nhìn giống
+
+00:37.420 --> 00:39.543
+y bằng x bình trở lại.
+
+00:39.543 --> 00:42.163
+Cái này được biết đến như
+
+00:42.163 --> 00:44.663
+gián đoạn điểm, hay gián đoạn bỏ được.
+
+00:45.834 --> 00:47.523
+Và cũng dễ hiểu tại sao nó tên như vậy.
+
+00:47.523 --> 00:49.821
+Tại điểm đó mình không liên tục.
+
+00:49.821 --> 00:52.665
+Bạn có thể thử định nghĩa lại hàm
+
+00:52.665 --> 00:54.747
+cho nó liên tục tại điểm đó,
+
+00:54.747 --> 00:57.853
+nên gián đoạn này bỏ được.
+
+00:57.853 --> 01:00.140
+Nhưng vậy thì nó liên quan gì đến định nghĩa
+
+01:00.140 --> 01:01.833
+liên tục?
+
+01:01.833 --> 01:05.243
+Hãy nhớ lại định nghĩa của tính liên tục.
+
+01:05.243 --> 01:07.772
+Mình nói f liên tục.
+
+01:07.772 --> 01:08.689
+liên tục,
+
+01:10.156 --> 01:11.406
+khi và chỉ khi,
+
+01:12.266 --> 01:14.343
+hay để mình viết f liên tục
+
+01:14.343 --> 01:18.094
+tại x bằng c, khi và chỉ khi
+
+01:18.094 --> 01:21.750
+giới hạn khi x tiến đến c
+
+01:21.750 --> 01:26.565
+của f(x) bằng với giá trị thật của hàm
+
+01:26.565 --> 01:28.739
+khi x bằng c.
+
+01:28.739 --> 01:30.714
+Vậy tại sao cái này không thoả mãn?
+
+01:30.714 --> 01:33.460
+Ở đây giới hạn hai bên tồn tại.
+
+01:33.460 --> 01:37.232
+Mình có thể thấy là nếu c ở đây bằng 3,
+
+01:37.232 --> 01:38.708
+giới hạn
+
+01:38.708 --> 01:40.708
+khi x tiến đến 3
+
+01:41.637 --> 01:42.470
+của f(x),
+
+01:43.703 --> 01:46.412
+nó sẽ nhìn như, hãy quan sát đồ thị đây,
+
+01:46.412 --> 01:48.679
+và mình biết đây thật sự là đồ thị y bằng x bình,
+
+01:48.679 --> 01:51.410
+ngoài việc tại gián đoạn ngay đây,
+
+01:51.410 --> 01:54.066
+nó bằng 9.
+
+01:54.066 --> 01:57.511
+Nhưng vấn đề là, cách mà đồ thị này được vẽ
+
+01:57.511 --> 02:00.342
+nó không diễn tả giá trị thật của hàm.
+
+02:00.342 --> 02:01.909
+Hàm này
+
+02:01.909 --> 02:04.864
+f(3), cách mà nó được vẽ
+
+02:04.864 --> 02:07.890
+f(3) sẽ bằng 4.
+
+02:07.890 --> 02:11.305
+Vậy đây là trường hợp giới hạn hai bên tồn tại,
+
+02:11.305 --> 02:14.679
+nhưng nó không bằng giá trị của hàm.
+
+02:14.679 --> 02:16.594
+Mình có thể gặp nhiều trường hợp khác mà hàm
+
+02:16.594 --> 02:18.144
+còn không được định nghĩa,
+
+02:18.144 --> 02:20.144
+vậy cả điểm này sẽ không có.
+
+02:20.144 --> 02:22.391
+Vậy, lần nữa, giới hạn có thể tồn tại,
+
+02:22.391 --> 02:24.437
+nhưng hàm không được định nghĩa ở đó.
+
+02:24.437 --> 02:28.273
+Vậy, trường hợp nào cũng cũng không thoả mãn hết điều kiện
+
+02:28.273 --> 02:29.523
+để được liên tục.
+
+02:30.427 --> 02:34.153
+Vậy đó là vì sao gián đoạn điểm hay gián đoạn bỏ được
+
+02:34.153 --> 02:36.169
+lại không liên tục
+
+02:36.169 --> 02:40.770
+dựa trên định nghĩa liên tục của mình.
+
+02:40.770 --> 02:43.281
+Rồi giờ hãy nhìn ví dụ thứ hai này.
+
+02:43.281 --> 02:45.924
+Nếu mình dùng trực giác,
+
+02:45.924 --> 02:48.629
+nếu mình thử lần theo cái này,
+
+02:48.629 --> 02:52.461
+mình thấy là khi mình đến x bằng 2,
+
+02:52.461 --> 02:55.139
+mình phải nhấc bút lên mới lần tiếp được.
+
+02:55.139 --> 02:58.222
+Vậy đó là một dấu hiệu nhận biết là mình không liên tục.
+
+02:58.222 --> 03:00.512
+Mình thấy nó ở đây nữa.
+
+03:00.512 --> 03:03.595
+Nếu mình lần theo hàm này, mình phải nhấc bút lên,
+
+03:03.595 --> 03:04.518
+mình không thể tiến đến điểm đó
+
+03:04.518 --> 03:06.018
+mà phải nhảy xuống đây,
+
+03:06.018 --> 03:07.681
+rồi mới đi tiếp.
+
+03:07.681 --> 03:09.686
+Vậy trong cả hai trường hợp mình phải nhấc bút.
+
+03:09.686 --> 03:12.355
+Vậy, trực giác cho thấy nó không liên tục.
+
+03:12.355 --> 03:14.934
+Nhưng ở dạng gián đoạn này,
+
+03:14.934 --> 03:17.381
+mình nhảy từ một điểm,
+
+03:17.381 --> 03:19.584
+và rồi nhảy xuống đây để đi tiếp,
+
+03:19.584 --> 03:22.379
+nó được gọi là gián đoạn
+
+03:22.379 --> 03:23.546
+bước nhảy.
+
+03:24.432 --> 03:25.599
+Gián đoạn bước nhảy.
+
+03:27.754 --> 03:31.205
+Và cái này, tất nhiên là gián đoạn bỏ được.
+
+03:31.205 --> 03:33.775
+Vậy cái này liên quan gì đến giới hạn?
+
+03:33.775 --> 03:37.704
+Ở đây tồn tại giới hạn trái và phải,
+
+03:37.704 --> 03:39.242
+nhưng chúng không bằng nhau,
+
+03:39.242 --> 03:41.925
+nên mình không có giới hạn hai bên.
+
+03:41.925 --> 03:45.566
+Vậy, ví dụ, cho riêng cái này,
+
+03:45.566 --> 03:48.580
+với mọi giá trị x nhỏ hơn và bằng 2,
+
+03:48.580 --> 03:51.022
+đây là đồ thị y bằng x bình.
+
+03:51.022 --> 03:53.159
+Và rồi cho x lớn hơn 2,
+
+03:53.159 --> 03:55.179
+nó là đồ thị căn bậc hai x.
+
+03:55.179 --> 03:57.059
+Vậy ở trường hợp này,
+
+03:57.059 --> 03:59.417
+nếu mình lấy giới hạn
+
+03:59.417 --> 04:01.430
+của f(x)
+
+04:01.502 --> 04:03.002
+khi x tiến đến
+
+04:04.209 --> 04:05.042
+2
+
+04:06.000 --> 04:07.167
+từ phía trái,
+
+04:08.191 --> 04:09.570
+từ phía trái,
+
+04:09.570 --> 04:11.010
+nó sẽ bằng 4,
+
+04:11.010 --> 04:12.192
+mình đang tiến đến giá trị này.
+
+04:12.192 --> 04:14.683
+Và nó thật sự là giá trị của hàm.
+
+04:14.683 --> 04:18.598
+Nhưng nếu mình lấy giới hạn khi x tiến đến 2
+
+04:18.598 --> 04:20.995
+từ phía phải của f(x),
+
+04:20.995 --> 04:22.881
+nó sẽ bằng gì?
+
+04:22.881 --> 04:24.070
+Khi tiến từ phía phải,
+
+04:24.070 --> 04:25.534
+cái này sẽ là căn bậc hai x,
+
+04:25.534 --> 04:27.946
+vậy nó đang tiến đến căn bậc hai của 2.
+
+04:27.946 --> 04:29.714
+Bạn không biết nó là căn bậc hai của 2
+
+04:29.714 --> 04:30.716
+chỉ nhìn như vầy.
+
+04:30.716 --> 04:32.417
+Mình biết vậy chỉ vì khi mình
+
+04:32.417 --> 04:34.394
+vào Desmos để định nghĩa hàm,
+
+04:34.394 --> 04:36.157
+đó là hàm mình đã sử dụng.
+
+04:36.157 --> 04:37.842
+Nhưng chỉ cần nhìn mình cũng thấy
+
+04:37.842 --> 04:39.586
+là mình đang tiến đến 2 giá trị khác nhau
+
+04:39.586 --> 04:41.066
+khi mình tiến đến từ trái
+
+04:41.066 --> 04:42.770
+và khi mình đến từ phải.
+
+04:42.770 --> 04:44.917
+Vậy ngay cả khi giới hạn một bên tồn tại,
+
+04:44.917 --> 04:46.401
+hai giới hạn không tiến đến cùng giá trị,
+
+04:46.401 --> 04:48.230
+nên giới hạn hai bên không tồn tại.
+
+04:48.230 --> 04:49.850
+Và nếu giới hạn hai bên không tồn tại,
+
+04:49.850 --> 04:51.541
+nó chắc chắn không thể bằng giá trị
+
+04:51.541 --> 04:54.508
+của hàm ở đây, kể cả khi hàm được xác định.
+
+04:54.508 --> 04:58.744
+Và đó là tại sao gián đoạn bước nhảy không liên tục.
+
+04:58.744 --> 04:59.885
+Nãy giờ mình dùng trực giác.
+
+04:59.885 --> 05:01.459
+Mình thấy, nè, mình phải nhảy,
+
+05:01.459 --> 05:02.546
+phải nhấc bút.
+
+05:02.546 --> 05:06.158
+Hai cái này không liền với nhau.
+
+05:06.158 --> 05:08.752
+Cuối cùng, mình thấy ở đây,
+
+05:08.752 --> 05:10.000
+khi mình học tiền giải tích,
+
+05:10.000 --> 05:13.617
+cái này được biết đến là giới hạn vô cực
+
+05:13.617 --> 05:14.534
+vô cực,
+
+05:17.462 --> 05:19.124
+giới hạn
+
+05:19.124 --> 05:20.291
+vô cực
+
+05:21.508 --> 05:22.675
+vô cực.
+
+05:23.780 --> 05:27.525
+Và theo trực giác, mình có tiệm cận ở đây.
+
+05:27.525 --> 05:30.388
+Nó là một tiệm cận đứng tại x bằng 2.
+
+05:30.388 --> 05:33.602
+Nếu mình thử lần theo đồ thị
+
+05:33.602 --> 05:34.855
+từ phía trái,
+
+05:34.855 --> 05:36.803
+mình sẽ đi hoài.
+
+05:36.803 --> 05:40.134
+Mình thật sự sẽ đi mãi mãi, tại vì
+
+05:40.134 --> 05:42.126
+nó sẽ chạy đến vô cực,
+
+05:42.126 --> 05:44.484
+nó không có giới hạn mặc cho mình tiến càng gần
+
+05:44.484 --> 05:46.332
+đến x bằng 2 từ phía trái.
+
+05:46.332 --> 05:48.936
+Và nếu mình thử tiến đến x bằng 2 từ phía phải,
+
+05:48.936 --> 05:51.132
+một lần nữa mình không có giới hạn ở trên.
+
+05:51.132 --> 05:52.757
+Ngay cả khi mình có thể,
+
+05:52.757 --> 05:55.067
+và khi mình nói không giới hạn, ý mình là vô cực,
+
+05:55.067 --> 05:57.317
+nên nó thật sự không thể
+
+05:58.634 --> 06:02.367
+cho một người nhỏ bé có thể lần hết cái này.
+
+06:02.367 --> 06:04.418
+Nhưng mình có thể thấy được mình không thể
+
+06:04.418 --> 06:08.656
+vẽ từ đây đến đây mà không nhấc bút lên.
+
+06:08.656 --> 06:12.466
+Và nếu mình muốn liên hệ nó với khái niệm giới hạn,
+
+06:12.466 --> 06:13.715
+nó sẽ là
+
+06:13.715 --> 06:16.930
+cả giới hạn trái và phải đều không có giới hạn,
+
+06:16.930 --> 06:18.398
+vậy chúng không tồn tại.
+
+06:18.398 --> 06:21.675
+Mà nếu không tồn tại, thì mình không thể thoả mãn các điều kiện này.
+
+06:21.675 --> 06:23.076
+Vậy nếu mình nói
+
+06:23.076 --> 06:24.363
+giới hạn
+
+06:24.363 --> 06:28.450
+khi x tiến đến 2 từ phía trái của f(x)
+
+06:28.450 --> 06:31.053
+mình có thể thấy nó không có giới hạn theo hướng âm
+
+06:31.053 --> 06:33.352
+Bạn nhiều khi sẽ thấy có người viết như vầy,
+
+06:33.352 --> 06:34.601
+âm vô cực.
+
+06:34.601 --> 06:36.975
+Nhưng vậy thì không chính xác lắm.
+
+06:36.975 --> 06:41.010
+Cách nói đúng hơn là nó không có giới hạn,
+
+06:41.010 --> 06:42.617
+không được giới hạn.
+
+06:42.617 --> 06:44.920
+Cũng như vậy, nếu mình nghĩ về giới hạn
+
+06:44.920 --> 06:46.751
+khi x tiến đến 2
+
+06:46.751 --> 06:48.606
+từ phía phải
+
+06:48.606 --> 06:49.918
+của f(x),
+
+06:49.918 --> 06:52.953
+nó sẽ không có giới hạn phía dương vô cực.
+
+06:52.953 --> 06:54.367
+Vậy, một lần nữa,
+
+06:54.367 --> 06:55.786
+cái này cũng vậy,
+
+06:55.786 --> 06:57.983
+nó cũng không có giới hạn.
+
+06:57.983 --> 06:59.297
+Và
+
+06:59.297 --> 07:01.440
+vì nó không có giới hạn nên giới hạn mình không tồn tại,
+
+07:01.440 --> 07:02.631
+nó không thoả mãn các điều kiện này.
+
+07:02.631 --> 07:04.950
+Và vậy mình sẽ không liên tục.
+
+07:04.950 --> 07:07.696
+Vậy đây là gián đoạn bỏ được,
+
+07:07.696 --> 07:09.931
+đây gián đoạn có bước nhảy, mình đang nhảy
+
+07:09.931 --> 07:12.217
+và đây mình có các tiệm cận, tiệm cận đứng.
+
+07:12.217 --> 07:15.045
+Đây là gián đoạn vô cực.

@@ -1,0 +1,535 @@
+WEBVTT
+
+00:00.000 --> 00:00.550
+.
+
+00:00.550 --> 00:04.650
+Aliye internette müzik ve oyun satan bir mağazadan
+
+00:04.650 --> 00:07.970
+25 dolar değerinde hediye kartı gelir
+
+00:07.970 --> 00:14.490
+Her şarkı 0.89 dolar ve her oyun 1.99 dolardır.
+
+00:14.490 --> 00:20.560
+Ali en az 15 farklı şey almak istiyor.
+
+00:20.560 --> 00:23.040
+Bir sistem eşitsizliği kurun öyle ki bu senaryoyu gerçekleştirip
+
+00:23.040 --> 00:27.020
+yapılabilecek farklı seçimleri versin.
+
+00:27.020 --> 00:28.440
+Bir grafik kullanarak,
+
+00:28.440 --> 00:31.320
+bu yüzden burada grafik kağıtlarımız var.
+
+00:31.320 --> 00:32.940
+O zaman biraz değişken tanımlayalım.
+
+00:32.940 --> 00:36.490
+Aldığı şarkı sayısına s diyelim.
+
+00:36.490 --> 00:39.120
+.
+
+00:39.120 --> 00:45.370
+ve aldığı oyun sayısına da g diyelim.
+
+00:45.370 --> 00:46.950
+Eğer burada ki yönergeye bakarsak,
+
+00:46.950 --> 00:51.190
+Ali en az 15 eşya almak istiyor.
+
+00:51.190 --> 00:53.340
+Yani toplam eşya sayısı şarkı ve
+
+00:53.340 --> 00:55.420
+oyun sayısının toplamı kadar olacak.
+
+00:55.420 --> 00:57.180
+Ve bu en az 15 olmak zorunda.
+
+00:57.180 --> 01:01.600
+Yani büyük eşittir 15.
+
+01:01.600 --> 01:04.390
+Bu yönergenin bize söylediği.
+
+01:04.390 --> 01:08.790
+Öteki bir yönerge ise hediye çekinin 25 dolar olduğu söylüyor.
+
+01:08.790 --> 01:11.310
+Yani şarkıya harcadığı miktar artı
+
+01:11.310 --> 01:14.810
+oyuna harcadığı para küçük eşittir 25 olacak.
+
+01:14.810 --> 01:17.010
+Şarkılara harcadığı para
+
+01:17.010 --> 01:22.460
+şarkı sayısı çarpı şarkı ücreti olacak.
+
+01:22.460 --> 01:27.870
+0.89 kere s.
+
+01:27.870 --> 01:31.660
+Şarkılara harcadığı para artı
+
+01:31.660 --> 01:35.680
+oyun başına harcadığı para 1.99 çarpı oyun sayısı
+
+01:35.680 --> 01:37.540
+Bu toplam harcadığı tutar olacak.
+
+01:37.540 --> 01:44.940
+ve bu küçük eşittir 25.
+
+01:44.940 --> 01:47.950
+Şimdi bunları grafiğe dökmek istiyoruz, ilk önce doğruları
+
+01:47.950 --> 01:50.180
+tanımlamamız lazım.
+
+01:50.180 --> 01:52.420
+biz sadece ilk bölümle ilgileniyoruz çünkü
+
+01:52.420 --> 01:54.910
+sadece pozitif miktarda şarkı ve oyunlardan
+
+01:54.910 --> 01:55.550
+bahsediyoruz.
+
+01:55.550 --> 01:59.240
+Burada negatif miktarlarda alınmış oyun veya şarkı
+
+01:59.240 --> 02:00.580
+yok.
+
+02:00.580 --> 02:03.610
+Yani sadece pozitif bölüm tam burada.
+
+02:03.610 --> 02:06.110
+Doğruları çizmeme izin verin.
+
+02:06.110 --> 02:10.210
+Dikey doğruyu çiziyorum.
+
+02:10.210 --> 02:15.220
+Bu dikey (y) doğruya şarkıları
+
+02:15.220 --> 02:18.140
+kaydedelim.
+
+02:18.140 --> 02:19.980
+Yani satın aldığı şarkıların sayısı bu.
+
+02:19.980 --> 02:21.870
+.
+
+02:21.870 --> 02:23.930
+Bu şarkı doğrusu
+
+02:23.930 --> 02:28.070
+Bu yatay doğruya da aldığı
+
+02:28.070 --> 02:29.905
+oyun sayısı diyelim.
+
+02:29.905 --> 02:31.155
+.
+
+02:31.155 --> 02:39.320
+.
+
+02:39.320 --> 02:43.720
+Bu sayfaya sığacağından emin olalım
+
+02:43.720 --> 02:45.580
+çünkü sayılar biraz büyüyecek gibi.
+
+02:45.580 --> 02:48.470
+Her kutuyu ikiye eşit yapalım.
+
+02:48.470 --> 02:56.710
+4, 8 , 12 ...
+
+02:56.710 --> 03:02.960
+Ve bu doğru, 4 8 12
+
+03:02.960 --> 03:08.860
+...
+
+03:08.860 --> 03:11.930
+Bakalım biz bu iki yönergenin grafiğini çıkarıcağız.
+
+03:11.930 --> 03:15.010
+Şimdi ilk yönerge s artı g
+
+03:15.010 --> 03:16.560
+büyük eşittir 15
+
+03:16.560 --> 03:18.470
+Bunun grafiğini çıkarmanın
+
+03:18.470 --> 03:20.860
+en kolay yolu kesişim noktalarından düşünmek.
+
+03:20.860 --> 03:25.160
+Eğer g 0 ise s nedir?
+
+03:25.160 --> 03:29.340
+S artı 0 15 ten büyük yada eşit olacak.
+
+03:29.340 --> 03:35.290
+Eğer g 0 ise, s 15 ten büyük yada eşit olacak.
+
+03:35.290 --> 03:36.370
+.
+
+03:36.370 --> 03:39.700
+.
+
+03:39.700 --> 03:43.710
+Eğer g 0 ise s büyük eşittir 15
+
+03:43.710 --> 03:49.390
+g eşittir 0 s eşitti 15. 15 tam olarak
+
+03:49.390 --> 03:50.380
+burada.
+
+03:50.380 --> 03:53.090
+Ve s nin 15 e eşit ve büyük bütün değerleri olacak
+
+03:53.090 --> 03:56.170
+g nin 0 olduğu durum için.
+
+03:56.170 --> 04:00.460
+Eğer S 0 ise, g büyük eşittir 15.
+
+04:00.460 --> 04:05.700
+Yani eğer s 0 olursa g büyük eşittir 15 olacak.
+
+04:05.700 --> 04:08.810
+Yani g büyük eşittir 15.
+
+04:08.810 --> 04:12.740
+Sınır çizgisi s artı g eşittir 15 için bu noktaları birleştirmemiz
+
+04:12.740 --> 04:14.900
+yeterli olacak.
+
+04:14.900 --> 04:17.649
+.
+
+04:17.649 --> 04:19.720
+Yani bunun gibi gözükecek.
+
+04:19.720 --> 04:22.400
+.
+
+04:22.400 --> 04:24.330
+Bu her türlü en zor kısım.
+
+04:24.330 --> 04:28.000
+.
+
+04:28.000 --> 04:29.540
+.
+
+04:29.540 --> 04:30.480
+.
+
+04:30.480 --> 04:32.960
+.
+
+04:32.960 --> 04:35.400
+.
+
+04:35.400 --> 04:38.050
+Yani bu çizgi s artı g eşittir 15.
+
+04:38.050 --> 04:41.160
+Ve biz 15 ten büyük değerlerden bahsedeceğiz yani bu
+
+04:41.160 --> 04:41.920
+doğrunun üzerinde olacağız.
+
+04:41.920 --> 04:45.280
+Ve gördük ki g sıfırken s büyük eşittir
+
+04:45.280 --> 04:47.010
+15.
+
+04:47.010 --> 04:49.070
+Bu değerlerin hepsi burada.
+
+04:49.070 --> 04:53.330
+Yani s sıfırken g nin 15 den büyük eşit olduğu değerler.
+
+04:53.330 --> 04:57.650
+Yani buradaki yönerge bu.
+
+04:57.650 --> 05:00.440
+Bu alan yönergeyi sağlıyor.
+
+05:00.440 --> 05:03.310
+Bu alanda eğer herhangi bir koordinat seçerseniz,
+
+05:03.310 --> 05:05.560
+bu arada tam sayı koordinatlar seçmeniz
+
+05:05.560 --> 05:08.230
+lazım
+
+05:08.230 --> 05:10.690
+Burada ki bütün tam sayı koordinatlar s ve g nin
+
+05:10.690 --> 05:13.710
+kombinasyonlarından oluşmuş öyle ki toplamda
+
+05:13.710 --> 05:15.270
+en az 15 eşya aldığım.
+
+05:15.270 --> 05:18.610
+Örneğin 8 oyun ve 16 şarkı alıyorsunuz.
+
+05:18.610 --> 05:19.320
+Bu 24 yapar.
+
+05:19.320 --> 05:21.730
+Ve bu kesinlikle ilk yönergeye uygun.
+
+05:21.730 --> 05:23.570
+Şimdi ikinci yönerge
+
+05:23.570 --> 05:28.120
+0.89 s artı 1.99 g nin 25 den küçük ya da eşit olma durumu.
+
+05:28.120 --> 05:29.570
+Bu bir başlangıç noktası.
+
+05:29.570 --> 05:38.270
+Sadece 0.89 s artı 1.99 un 25 olduğu doğruyu çizelim.
+
+05:38.270 --> 05:41.660
+Sonra hangi bölgenin istenenden daha az olduğunu
+
+05:41.660 --> 05:43.000
+inceleyelim.
+
+05:43.000 --> 05:44.890
+.
+
+05:44.890 --> 05:46.790
+Bunu yapmanın en kolay yolu, ilk olarak biz
+
+05:46.790 --> 05:48.900
+y nin eğimini
+
+05:48.900 --> 05:50.370
+En basit yol s ve g nin doğruların kesişimini bulmak
+
+05:50.370 --> 05:51.610
+lazım.
+
+05:51.610 --> 06:04.880
+S 0 a eşit iken 1.99 g nin 25 e eşit veya büyük olması
+
+06:04.880 --> 06:08.470
+lazım.
+
+06:08.470 --> 06:17.900
+25i 1.99 a bölersek cevap 12.56.
+
+06:17.900 --> 06:26.210
+g eşittir 12.56
+
+06:26.210 --> 06:27.970
+Yani s sıfır olduğunda. Bunu grafiğe geçirelim.
+
+06:27.970 --> 06:32.370
+s 0 iken g 12.56
+
+06:32.370 --> 06:34.440
+bu 12 bu 14.
+
+06:34.440 --> 06:37.450
+12.56 buralarda bi yerde olucak.
+
+06:37.450 --> 06:38.950
+12 den biraz daha fazla.
+
+06:38.950 --> 06:40.370
+.
+
+06:40.370 --> 06:43.500
+Aynı şeyi şimdi de g 0 için yapalım.
+
+06:43.500 --> 06:47.700
+Eğer g 0 a eşitse bu terim gider ve
+
+06:47.700 --> 06:51.770
+0.89 s kalır.
+
+06:51.770 --> 06:54.640
+Eğer biz buradaki eşitliği kullanırsak, eşittir
+
+06:54.640 --> 07:00.220
+25 veya s eşittir ...
+
+07:00.220 --> 07:06.410
+25 böü 0.89 dan eşittir
+
+07:06.410 --> 07:09.110
+28.08
+
+07:09.110 --> 07:11.180
+Yani 28in azıcık üstü.
+
+07:11.180 --> 07:14.670
+28.08.
+
+07:14.670 --> 07:19.160
+Yani bu g eşittir 0 ve s eşittir 28.
+
+07:19.160 --> 07:22.890
+yani bu ...
+
+07:22.890 --> 07:23.800
+28in biraz üstü.
+
+07:23.800 --> 07:25.600
+Yani buralarda bir yerde.
+
+07:25.600 --> 07:32.180
+Yani bu çizgi 0.99 s artı 1.99 g nin 25 e eşit olacağı kordinattan
+
+07:32.180 --> 07:35.810
+geçiyor. 0 a 28 den
+
+07:35.810 --> 07:37.630
+Yani buradaki nokta.
+
+07:37.630 --> 07:41.320
+O noktadan 12.56 a 0 noktasına kadar.
+
+07:41.320 --> 07:43.420
+.
+
+07:43.420 --> 07:47.130
+.
+
+07:47.130 --> 07:50.560
+.
+
+07:50.560 --> 07:52.220
+.
+
+07:52.220 --> 07:55.100
+.
+
+07:55.100 --> 07:57.510
+.
+
+07:57.510 --> 08:01.390
+.
+
+08:01.390 --> 08:05.710
+Eğer şimdi daha az alandan bahsediyorsak bu neyi
+
+08:05.710 --> 08:06.700
+gösterir?
+
+08:06.700 --> 08:13.920
+Eğer düşünürsek g eşittir 0, 0.89s
+
+08:13.920 --> 08:15.550
+küçüktür 25 olduğu durumda
+
+08:15.550 --> 08:18.610
+Yani g eşittir 0 ve biz gerçekten bundan küçük bir değer istiyorsak
+
+08:18.610 --> 08:20.500
+Bunu şöyle düşünebiliriz.
+
+08:20.500 --> 08:23.380
+Burada sadece küçük olduğu duruma bakıcağız.
+
+08:23.380 --> 08:26.630
+Yani S nin 28.08den küçük olduğuna.
+
+08:26.630 --> 08:30.400
+Yani o da aşağıdaki bölge olacak.
+
+08:30.400 --> 08:34.610
+S nin 0 olduğunu düşünürsek, ve bu orijinal eşitliği de kullanarak
+
+08:34.610 --> 08:38.820
+1.99 g küçük yada eşit olacak.
+
+08:38.820 --> 08:41.350
+Ben bunu sadece grafiği çizmek için kullandım ama cidden asıl
+
+08:41.350 --> 08:46.670
+eşitsizlik üzerinde durursak, 1.99g nin 25 den küçük olduğunu görürüz.
+
+08:46.670 --> 08:49.620
+g 12.56 dan küçük veya eşit olur.
+
+08:49.620 --> 08:55.390
+Yani s sıfıra eşitken g 12.56 dan küçüktür.
+
+08:55.390 --> 08:59.950
+Yani bu alan ikinci koşulu da sağlar, alandan kastım
+
+08:59.950 --> 09:01.800
+Bu grafiğin altındaki her şey.
+
+09:01.800 --> 09:06.040
+.
+
+09:06.040 --> 09:09.750
+Şimdi biz bu iki koşulu da sağlayan bir alan istiyoruz.
+
+09:09.750 --> 09:12.060
+Bu alan iki durumun da kesiştiği alan olacaktır.
+
+09:12.060 --> 09:13.930
+.
+
+09:13.930 --> 09:17.060
+Yani kesişim alanı tam burada olacak.
+
+09:17.060 --> 09:20.920
+Turuncu grafiğin altında mavinin üstünde
+
+09:20.920 --> 09:23.520
+ikisini de içine alan bölge.
+
+09:23.520 --> 09:29.220
+Yani eğer herhangi bir kombinasyonu seçerseniz, you eğer
+
+09:29.220 --> 09:33.300
+4 oyun 14 şarkı alırsa istenen koşullar sağlanır.
+
+09:33.300 --> 09:37.090
+Veya eğer ali 2 oyun ya da 16 şarkı alırsa bu da olur.
+
+09:37.090 --> 09:38.170
+Yani siz ana fikri anladınız.
+
+09:38.170 --> 09:40.300
+Bu alandaki her şey sadece tamsayı değerler
+
+09:40.300 --> 09:42.780
+alabilir. Bu eğerler soruda isteneni verir.
+
+09:42.780 --> 09:44.800
+.

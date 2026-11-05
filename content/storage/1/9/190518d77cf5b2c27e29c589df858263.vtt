@@ -1,0 +1,325 @@
+WEBVTT
+
+00:00.672 --> 00:01.681
+Điều ta làm ở video này
+
+00:01.681 --> 00:04.243
+là tính tích phân xác định từ 0
+
+00:04.243 --> 00:09.860
+đến pi của x cosx dx.
+
+00:10.276 --> 00:12.421
+Như mọi khi, hãy thử dừng video và
+
+00:12.421 --> 00:15.236
+tự giải nhé.
+
+00:15.236 --> 00:16.437
+Được rồi, khi bạn thấy cái này,
+
+00:16.437 --> 00:18.459
+khá hiển nhiên là bạn sẽ
+
+00:18.459 --> 00:21.230
+lấy nguyên hàm ở đây và tính nó
+
+00:21.230 --> 00:23.314
+tại pi, và trừ từ đó,
+
+00:23.314 --> 00:25.933
+và tính nó tại 0, nên có lẽ ta cần
+
+00:25.933 --> 00:29.003
+một phương pháp hay hơn.
+
+00:29.003 --> 00:33.215
+Nhìn chung, nếu bạn thấy một tích các hàm số
+
+00:33.215 --> 00:35.721
+như ở đây, và nếu một trong các hàm này
+
+00:35.721 --> 00:39.114
+khá dễ dàng để lấy nguyên hàm
+
+00:39.114 --> 00:42.808
+mà không cần nhiều bước, như cosx,
+
+00:42.808 --> 00:46.184
+và một hàm nữa như x - nếu bạn lấy đạo hàm
+
+00:46.184 --> 00:48.116
+nó trở nên rất đơn giản.
+
+00:48.116 --> 00:49.737
+Trong trường hợp này, nó sẽ thành 1.
+
+00:49.737 --> 00:51.847
+Đó là một dấu hiệu khá tốt rằng ta nên
+
+00:51.847 --> 00:54.353
+thực hiện tích phân từng phần.
+
+00:54.353 --> 00:58.551
+Hãy nhắc lại một chút về tích phân từng phần.
+
+00:58.551 --> 01:01.617
+Mình sẽ thực hiện ở ngay đây.
+
+01:01.617 --> 01:04.446
+Nếu mình có tích phân, và mình sẽ viết dưới dạng
+
+01:04.446 --> 01:06.597
+một tích phân bất định, nhưng ở đây
+
+01:06.597 --> 01:09.066
+ta cần tích phân xác định và tính giá trị của nó tại pi
+
+01:09.066 --> 01:12.829
+và 0, nên nếu mình có f(x)
+
+01:12.829 --> 01:18.646
+nhân g'(x), dx,
+
+01:19.908 --> 01:22.300
+cái này sẽ bằng, như ta đã chứng minh ở các video khác,
+
+01:22.300 --> 01:23.879
+giống như
+
+01:23.879 --> 01:25.771
+quy tắc nhân mà bạn đã học ở
+
+01:25.771 --> 01:27.761
+vi phân, cái này sẽ bằng
+
+01:27.761 --> 01:34.338
+f(x) nhân g(x) trừ, và bạn đổi cái này cho nhau,
+
+01:34.638 --> 01:40.231
+trừ f'(x), g(x), dx.
+
+01:40.708 --> 01:43.061
+Và lặp lại điều mình đã nói,
+
+01:43.061 --> 01:47.089
+bạn muốn tìm f(x) sao cho khi bạn lấy đạo hàm của nó,
+
+01:47.089 --> 01:49.589
+nó được đơn giản hóa
+
+01:52.082 --> 01:56.336
+và bạn muốn tìm g'(x) sao cho khi bạn lấy
+
+01:56.336 --> 02:00.336
+nguyên hàm của nó,
+
+02:00.336 --> 02:02.618
+nó sẽ không trở nên phức tạp.
+
+02:02.618 --> 02:04.618
+Không trở nên phức tạp.
+
+02:07.387 --> 02:09.757
+Vì nếu f(x) được đơn giản hóa khi mình lấy
+
+02:09.757 --> 02:12.303
+đạo hàm của nó, và g'(x) không
+
+02:12.303 --> 02:15.217
+trở nên phức tạp hơn khi mình lấy nguyên hàm của nó,
+
+02:15.217 --> 02:18.348
+thì biểu thức này dễ để tìm
+
+02:18.348 --> 02:20.669
+nguyên hàm hơn.
+
+02:20.669 --> 02:22.261
+Hãy làm như thế.
+
+02:22.261 --> 02:24.248
+Giữa x và cosx, cái nào
+
+02:24.248 --> 02:28.076
+trở nên đơn giản hơn khi mình lấy đạo hàm của nó?
+
+02:28.076 --> 02:31.322
+Đạo hàm của x là 1, nên mình sẽ chọn
+
+02:31.322 --> 02:35.631
+nó làm f(x), mình sẽ viết nó ra đây,
+
+02:35.631 --> 02:39.686
+f(x) của mình là x,
+
+02:39.686 --> 02:45.913
+và f'(x) sẽ bằng 1,
+
+02:46.395 --> 02:49.773
+vậy rồi g'(x) của mình là gì?
+
+02:49.773 --> 02:52.828
+g'(x) là cosx, và nếu mình lấy
+
+02:52.828 --> 02:55.322
+nguyên hàm, nó sẽ không trở nên phức tạp hơn.
+
+02:55.322 --> 02:57.857
+Nguyên hàm của cosx là sinx.
+
+02:57.857 --> 03:00.173
+Vậy đó sẽ là g'(x) của mình.
+
+03:00.173 --> 03:03.896
+g'(x) bằng cosx
+
+03:03.896 --> 03:07.515
+và như vậy g(x), nguyên hàm của cosx,
+
+03:07.515 --> 03:10.284
+sẽ là sinx, hoặc một cách khác để nghĩ về nó,
+
+03:10.284 --> 03:12.426
+đạo hàm của sinx là cosx.
+
+03:12.426 --> 03:14.801
+Giờ ta nghĩ đến việc cộng C,
+
+03:14.801 --> 03:16.295
+nhưng nhớ rằng, đây là tích phân xác định,
+
+03:16.295 --> 03:18.589
+nên những hằng số tùy ý đấy
+
+03:18.589 --> 03:20.387
+sẽ bị triệt tiêu.
+
+03:20.387 --> 03:21.842
+Giờ hãy cân nhắc cái này.
+
+03:21.842 --> 03:26.487
+Hãy áp dụng tích phân từng phần ở đây.
+
+03:26.487 --> 03:29.343
+Trong trường hợp này, cái này sẽ bằng
+
+03:29.343 --> 03:31.821
+sẽ bằng
+
+03:31.821 --> 03:34.269
+mình sẽ nhảy xuống đây, cái này sẽ bằng
+
+03:34.269 --> 03:36.558
+f(x) nhân g(x).
+
+03:36.558 --> 03:41.458
+Vậy f(x) này là x, g(x) là sinx,
+
+03:41.458 --> 03:46.758
+f(x) nhân g(x), trừ tích phân của
+
+03:47.334 --> 03:51.278
+f'(x), f'(x) là 1,
+
+03:51.278 --> 03:54.488
+ta có thể viết nó dưới dạng, 1 nhân g(x),
+
+03:54.488 --> 03:58.553
+g(x) là sinx, nên ta viết như thế này,
+
+03:58.553 --> 04:00.986
+nhưng 1 nhân sinx, ta có thể viết luôn
+
+04:00.986 --> 04:03.831
+sinx, sẽ đơn giản hơn,
+
+04:03.831 --> 04:08.828
+sinx, dx, và hãy nhớ, đây là tích phân xác định,
+
+04:09.207 --> 04:11.815
+nên ta sẽ tính cái này
+
+04:11.815 --> 04:15.529
+tại pi và tại 0, và lấy hiệu
+
+04:15.529 --> 04:17.795
+giữa 2 cái này.
+
+04:17.795 --> 04:21.756
+Vậy tích phân bất định của sinx dx là gì?
+
+04:21.756 --> 04:25.316
+Hoặc cũng có thể nói là nguyên hàm của nó,
+
+04:25.316 --> 04:29.181
+ta biết rằng đạo hàm của cosx là trừ sinx
+
+04:29.181 --> 04:31.505
+và ta có thể mang
+
+04:31.505 --> 04:33.912
+trừ sin này vào tích phân, ta có thể viết
+
+04:33.912 --> 04:36.830
+cộng tích phân của trừ sinx,
+
+04:36.830 --> 04:39.227
+rõ ràng nguyên hàm ở đây là
+
+04:39.227 --> 04:42.585
+cosx, nên cái này sẽ là
+
+04:42.585 --> 04:45.531
+cosx, và ta sẽ cần tính giá trị
+
+04:45.531 --> 04:47.683
+ở hai đầu mút.
+
+04:47.683 --> 04:50.936
+Đầu tiên, hãy tính giá trị tại pi,
+
+04:50.936 --> 04:54.916
+cái này sẽ bằng pi sin pi,
+
+04:54.916 --> 05:00.536
+pi sin pi, cộng cos pi,
+
+05:00.815 --> 05:04.354
+và từ đó, mình sẽ trừ cho giá trị của cái này
+
+05:04.354 --> 05:08.521
+tại 0, để mình ghi cái này bằng màu khác,
+
+05:09.459 --> 05:13.135
+vậy nó sẽ bằng 0 nhân sin 0
+
+05:13.135 --> 05:16.635
+cộng cos 0,
+
+05:17.689 --> 05:20.540
+sin pi bằng 0, nên cái này bị
+
+05:20.540 --> 05:21.538
+triệt tiêu.
+
+05:21.538 --> 05:25.101
+Cos pi, cái này là trừ 1,
+
+05:25.101 --> 05:28.319
+và cái này là 0, cái này là cos 0,
+
+05:28.319 --> 05:32.668
+cái này là 1, nên mình có âm 1 trừ 1,
+
+05:32.668 --> 05:35.213
+điều này dẫn đến kết quả âm 2,
+
+05:35.213 --> 05:36.957
+và ta đã giải xong.
+
+05:36.957 --> 05:39.372
+Bằng cách dùng tích phân từng phần, ta có thể tính
+
+05:39.372 --> 05:41.289
+tích phân xác định này.

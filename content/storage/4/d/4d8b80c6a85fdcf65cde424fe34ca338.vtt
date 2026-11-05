@@ -1,0 +1,145 @@
+WEBVTT
+
+00:00.690 --> 00:07.040
+Então, eu tenho a função g de x é igual a 9 vezes 8
+
+00:07.040 --> 00:09.400
+para menos x elevado a -1.
+
+00:09.400 --> 00:16.070
+E isso está definido para x ser um positivo--
+
+00:16.070 --> 00:19.950
+ou se x é um positivo-- inteiro.
+
+00:19.950 --> 00:27.000
+se x é um positivo inteiro.
+
+00:27.000 --> 00:29.000
+Assim, poderíamos dizer que o domínio desta função,
+
+00:29.000 --> 00:32.080
+ou todas as entradas válidas aqui são inteiros positivos.
+
+00:32.080 --> 00:34.970
+Então, 1, 2, 3, 4, 5, sobre e sobre e sobre.
+
+00:34.970 --> 00:37.360
+Portanto, esta é uma função definida explicitamente.
+
+00:37.360 --> 00:41.370
+O que eu agora quero fazer é escrever uma definição recursiva
+
+00:41.370 --> 00:42.990
+desta mesma exata função.
+
+00:42.990 --> 00:46.110
+Que dado um x, ele vai dar os mesmos resultados exatos.
+
+00:46.110 --> 00:48.410
+Então, vamos primeiro apenas tentar entender as entradas
+
+00:48.410 --> 00:49.650
+e saídas aqui.
+
+00:49.650 --> 00:51.340
+Então, vamos criar uma pequena tabela.
+
+00:51.340 --> 00:53.560
+Vamos criar uma tabela aqui.
+
+00:53.560 --> 00:56.620
+E vamos pensar sobre o que acontece
+
+00:56.620 --> 01:01.880
+quando colocamos nas variáveis x's nessa definição de função.
+
+01:01.880 --> 01:03.780
+Então o domínio é de inteiros positivos.
+
+01:03.780 --> 01:05.030
+Então, vamos tentar alguns deles.
+
+01:05.030 --> 01:08.240
+1, 2, 3, 4.
+
+01:08.240 --> 01:11.410
+E depois ver o que o correspondente g de x é.
+
+01:11.410 --> 01:14.100
+g de x.
+
+01:14.100 --> 01:17.080
+Assim, quando x é igual a 1, g de x é
+
+01:17.080 --> 01:19.780
+9 vezes 8 elevado 1 menos 1,
+
+01:19.780 --> 01:23.310
+9 vezes 8 elevado a 0, ou 9 vezes 1.
+
+01:23.310 --> 01:27.050
+Então g de x vai ser apenas 9.
+
+01:27.050 --> 01:32.610
+Quando x é 2, o que vai acontecer?
+
+01:32.610 --> 01:35.830
+Vai ser 9 vezes 8 à 2 menos 1.
+
+01:35.830 --> 01:39.010
+Então, isso é a mesma coisa que 9 vezes 8 elevado ao primeiro.
+
+01:39.010 --> 01:40.600
+E isso apenas vai ser 9 vezes 8.
+
+01:40.600 --> 01:43.135
+Que é 72.
+
+01:43.135 --> 01:44.051
+Na verdade, deixe-me escrevê-lo dessa forma.
+
+01:45.885 --> 01:47.260
+Deixe-me escrevê-lo apenas como 9 vezes 8.
+
+01:47.260 --> 01:49.270
+9 vezes 8.
+
+01:49.270 --> 01:52.980
+Então, quando x é igual a 3, o que acontecerá aqui?
+
+01:52.980 --> 01:55.120
+Bem, isso vai ser 3 menos 1 é 2.
+
+01:55.120 --> 01:56.690
+Por isso, vai ser 8 ao quadrado.
+
+01:56.690 --> 01:59.380
+Por isso, vai ser 9 vezes 8 ao quadrado.
+
+01:59.380 --> 02:04.290
+Então, podemos escrever isso como 9 vezes 8 vezes 8.
+
+02:04.290 --> 02:06.650
+Eu acho que você verá de pouco a pouco a formação de um padrão.
+
+02:06.650 --> 02:10.525
+Quando x é 4, isso vai ser de 8 à potência de 4 menos 1, ou 9
+
+02:10.525 --> 02:11.950
+à terceira potência.
+
+02:11.950 --> 02:19.090
+Então é 9 vezes 8 vezes 8 vezes 8.
+
+02:19.090 --> 02:20.726
+Então isso dá uma boa pista sobre como
+
+02:20.726 --> 02:22.100
+poderíamos definir isto recursivamente.
+
+02:22.100 --> 02:25.670
+Note, se o nosso primeiro termo, quando x é igual a 1 é 9,
+
+02:25.670 --> 02:31.310
+cada termo depois que é 8 vezes o termo anterior.

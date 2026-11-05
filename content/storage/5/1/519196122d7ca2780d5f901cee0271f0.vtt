@@ -1,0 +1,355 @@
+WEBVTT
+
+00:00.590 --> 00:03.920
+Tenho uma escada com 10 pés de altura
+encostada em uma parede
+
+00:03.920 --> 00:07.587
+Mas ela está em um terreno escorregadio
+e começa a escorregar para fora
+
+00:07.587 --> 00:10.610
+E, no exato momento em que
+olhamos para a escada
+
+00:10.640 --> 00:14.020
+Sua base está a 8 pés da base da parede
+
+00:14.020 --> 00:16.610
+E está escorregando para fora
+a 4 pés por segundo
+
+00:16.610 --> 00:19.340
+Vamos assumir que o topo da escada desliza
+
+00:19.340 --> 00:22.050
+pela parede continuando em contato
+
+00:22.050 --> 00:24.320
+com a parede e se move apenas para baixo
+
+00:24.320 --> 00:27.130
+Vemos aqui, a flecha se movendo direto
+para baixo
+
+00:27.130 --> 00:29.290
+Nossa questão é, o quão rápido está
+
+00:29.290 --> 00:32.956
+se movendo para baixo nesse momento?
+
+00:33.296 --> 00:34.920
+Vamos pensar um pouco sobre isso.
+
+00:34.920 --> 00:37.180
+O que sabemos e o que
+não sabemos?
+
+00:37.180 --> 00:43.980
+Vamos chamar a distância entre a base
+da escada e a base da parede de x
+
+00:44.280 --> 00:47.600
+Sabemos que nesse exato momento
+x é igual a oito pés
+
+00:47.600 --> 00:50.540
+Sabemos também a taxa para
+a qual x varia em relação ao tempo
+
+00:51.120 --> 00:54.670
+A taxa em que x varia de acordo com
+o tempo é 4 pés por segundo
+
+00:54.800 --> 00:58.700
+Podemos chamar essa taxa de dx dt.
+
+00:58.700 --> 01:07.810
+Agora vamos chamar a distância entre
+o topo da escada e sua base de h
+
+01:08.042 --> 01:09.750
+O que estamos tentando descobrir é
+
+01:09.750 --> 01:17.410
+Qual é dh dt, dado que sabemos todas
+essas outras informações
+
+01:17.850 --> 01:22.010
+Vamos ver se conseguimos estabelecer
+uma relação entre x e h
+
+01:22.040 --> 01:23.980
+e então derivar em relação ao tempo,
+
+01:23.980 --> 01:25.920
+talvez usando a regra da cadeia
+
+01:25.920 --> 01:29.570
+E vamos ver se conseguimos resolver para
+dh dt sabendo tudo isso
+
+01:30.274 --> 01:34.750
+Bem, sabemos a relação entre x e h a
+qualquer momento pelo Teorema de Pitágoras
+
+01:34.760 --> 01:37.010
+Podemos assumir que esse é um ângulo reto.
+
+01:37.010 --> 01:43.230
+Então sabemos que x ao quadrado mais h ao
+quadrado
+
+01:43.230 --> 01:45.480
+será igual ao comprimento da escada
+ao quadrado
+
+01:45.480 --> 01:48.404
+que vale 100.
+
+01:48.404 --> 01:52.110
+O que nos importa é a taxa da mudança
+desses fatores no tempo
+
+01:52.580 --> 01:57.240
+Vamos fazer a derivada em relação ao
+tempo dos dois lados
+
+01:57.260 --> 02:02.060
+Estamos fazendo uma derivação
+implícita.
+
+02:02.060 --> 02:05.470
+Então, qual é a derivada no tempo de
+x ao quadrado?
+
+02:05.470 --> 02:09.342
+A derivada de x ao quadrado em relação a x
+é igual a duas vezes x.
+
+02:09.342 --> 02:15.900
+E agora vamos ter que multiplicar isso
+pela derivada de x em relação a t: dx dt
+
+02:15.900 --> 02:17.780
+Para ser claro, essa é
+a regra da cadeia
+
+02:17.780 --> 02:22.040
+Essa é a derivada de x ao quadrado
+em relação a x
+
+02:22.040 --> 02:26.540
+que é duas vezes x vezes dx dt para chegar
+na derivada
+
+02:26.540 --> 02:28.690
+de x ao quadrado em relação ao tempo
+
+02:28.690 --> 02:30.362
+Apenas a regra da cadeia.
+
+02:30.362 --> 02:34.170
+Agora, de forma análoga, qual é a derivada
+de h ao quadrado em relação ao tempo?
+
+02:34.200 --> 02:37.110
+Bem, isso será duas vezes h, a derivada
+
+02:37.110 --> 02:39.540
+de h ao quadrado em relação a h é
+duas vezes h vezes
+
+02:39.540 --> 02:43.550
+a derivada de h em relação ao tempo.
+
+02:43.550 --> 02:46.680
+Novamente, isso dividido por isso
+é a derivada
+
+02:46.680 --> 02:50.130
+de h ao quadrado em relação a h,
+vezes a derivada
+
+02:50.130 --> 02:53.210
+de h em relação ao tempo, que no dá
+a derivada de h
+
+02:53.210 --> 02:55.142
+ao quadrado em relação ao tempo
+
+02:55.142 --> 02:57.770
+E o temo no lado direito de nossa
+equação?
+
+02:57.805 --> 02:59.680
+O comprimento de nossa
+escada não muda
+
+02:59.680 --> 03:02.290
+Este 100 não vai mudar em relação
+ao tempo
+
+03:02.290 --> 03:05.780
+A derivada de uma constante é zero.
+
+03:05.780 --> 03:07.870
+Então agora temos uma relação
+
+03:07.870 --> 03:10.210
+Entre a taxa de mudança de h
+em relação ao tempo.
+
+03:10.210 --> 03:12.830
+A taxa de mudança de x em relação
+ao tempo.
+
+03:12.830 --> 03:14.970
+E então, em um dado instante no tempo,
+
+03:14.970 --> 03:17.920
+quando o comprimento de x é x e h é h.
+
+03:17.920 --> 03:21.740
+Mas, sabemos qual é h quando x é
+igual a oito pés?
+
+03:21.740 --> 03:23.360
+Bem, podemos descobrir.
+
+03:23.360 --> 03:27.071
+Quando x é igual a oito pés, nós podemos
+usar o Teorema de Pitágoras de novo
+
+03:27.090 --> 03:34.450
+Temos oito pés ao quadrado, mais
+h ao quadrado igual a 100
+
+03:34.640 --> 03:36.730
+H ao quadrado é igual a 64
+
+03:36.730 --> 03:41.780
+Subtraindo dos dois lados, temos
+h ao quadrado igual a 36
+
+03:41.780 --> 03:44.080
+Pegamos a raiz positiva. A raiz negativa
+
+03:44.080 --> 03:48.280
+não faz sentido porque a escada estaria
+embaixo do chão de alguma forma.
+
+03:48.410 --> 03:51.220
+Então temos que h é igual a seis
+
+03:51.220 --> 03:54.540
+Então isso é algo que foi essencialmente
+dado pelo problema
+
+03:55.570 --> 03:57.320
+Podemos olhar para o original aqui
+
+03:57.320 --> 04:00.640
+Sabemos que x é --isso foi um dado--
+que x é igual a oito pés
+
+04:00.690 --> 04:03.030
+Sabemos a taxa de mudança de x
+em relação ao tempo
+
+04:03.030 --> 04:04.680
+Que é quatro pés por segundo.
+
+04:04.680 --> 04:08.090
+Sabemos que h, nesse momento, é igual a 6
+
+04:08.090 --> 04:12.150
+Então podemos resolver para a taxa
+de h em relação ao tempo
+
+04:12.150 --> 04:13.380
+Vamos fazer isso.
+
+04:13.380 --> 04:19.690
+Temos duas vezes oito pés
+vezes quatro pés por segundo
+
+04:19.690 --> 04:35.040
+Então vezes quatro, mais duas vezes
+h vai ser
+
+04:35.040 --> 04:38.200
+mais duas vezes nossa altura, que agora
+é seis,
+
+04:38.200 --> 04:43.020
+vezes a tava em que nossa altura muda
+em relação ao t é igual a zero
+
+04:43.050 --> 04:47.140
+Então temos duas vezes oito vezes quatro
+é igual a 64.
+
+04:47.140 --> 04:53.350
+Mais 12 dh dt é igual a zero.
+
+04:53.350 --> 04:57.320
+Podemos subtrair 64 dos dois lados,
+chegamos em 12
+
+04:57.320 --> 04:59.540
+12 vezes a derivada de h
+em relação ao tempo
+
+04:59.540 --> 05:02.800
+é igual a menos 64.
+
+05:02.800 --> 05:05.520
+E então temos que dividir ambos os lados
+por 12.
+
+05:05.520 --> 05:07.550
+E agora temos uma rufada de tambores.
+
+05:07.550 --> 05:09.600
+A derivada, a taxa de mudança
+
+05:09.600 --> 05:14.320
+de h em relação ao tempo é igual a menos
+64 dividido por 12.
+
+05:14.870 --> 05:18.240
+É igual a menos 64 dividido por 12,
+
+05:18.240 --> 05:20.620
+que é o mesmo que menos 16
+
+05:20.620 --> 05:22.730
+dividido por três, é está certo.
+
+05:22.730 --> 05:30.200
+Que é igual a menos 5 e um terço
+pés por segundo
+
+05:30.697 --> 05:31.460
+E terminamos
+
+05:31.460 --> 05:32.490
+Vamos conferir.
+
+05:32.490 --> 05:35.469
+Faz sentido termos um valor negativo aqui?
+
+05:35.650 --> 05:39.150
+Bem, nossa altura está diminuindo.
+
+05:39.150 --> 05:46.510
+Então essa taxa de mudança faz todo
+sentido, é realmente negativa
+
+05:46.510 --> 05:47.749
+E terminamos.
+
+05:47.749 --> 05:48.809
+[Legendado por: Eduardo Roder]
+[Revisado por: Tatiana F. D'Addio]

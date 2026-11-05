@@ -1,0 +1,809 @@
+WEBVTT
+
+00:00.360 --> 00:06.060
+V tomto videu udělám spoustu příkladů
+na rozklad polynomů druhého řádu,
+
+00:06.060 --> 00:08.880
+který se často nazývá kvadratický.
+
+00:08.880 --> 00:14.820
+Někdy kvadratický polynom, nebo jen
+kvadratura, nebo kvadratický výraz,
+
+00:14.820 --> 00:18.460
+ale vždy to znamená
+polynom druhého stupně.
+
+00:18.460 --> 00:22.970
+Takže něco, co má
+proměnnou umocněnou na druhou.
+
+00:22.970 --> 00:26.460
+V tomto případě, ve všech příkladech
+co budeme dělat, to bude x.
+
+00:26.460 --> 00:35.280
+Mějme tedy kvadratický výraz:
+x na druhou plus 10 krát x plus 9.
+
+00:35.280 --> 00:39.870
+A já ho chci rozložit na
+součin dvou lineárních členů.
+
+00:39.870 --> 00:41.520
+Jak to uděláme?
+
+00:41.520 --> 00:51.690
+Podívejme se, co se stane, když budeme
+chtít násobit (x plus a) krát (x plus b).
+
+00:51.690 --> 00:57.090
+Co se tedy stane?
+S tím už máme nějaké zkušenosti.
+
+00:57.090 --> 01:04.970
+To bude x krát x, tedy x na druhou,
+plus x krát b, což je bx,
+
+01:04.970 --> 01:12.660
+plus a krát x plus a krát b.
+
+01:12.660 --> 01:18.890
+Když budeme chtít dát ty věci uprostřed
+dohromady, protože jsou oba násobeny x,
+
+01:18.890 --> 01:23.192
+tak můžeme výraz zapsat jako
+x na druhou plus x krát (a plus b),
+
+01:23.192 --> 01:29.722
+to x můžu zapsat před nebo za závorku,
+plus a krát b.
+
+01:29.722 --> 01:36.260
+Když budeme předpokládat, že tohle
+je násobek dvou lineárních členů,
+
+01:36.260 --> 01:41.495
+tak vidíme, že tento
+prostřední koeficient u ‚x‘,
+
+01:41.495 --> 01:49.050
+nebo můžete říci koeficient prvního
+stupně, bude součet našich ‚a‘ a ‚b‘
+
+01:49.050 --> 01:52.530
+A konstantní člen bude
+součinem ‚a‘ a ‚b‘.
+
+01:52.530 --> 01:58.810
+10 se rovná (a plus b)
+a 9 se rovná (a krát b).
+
+01:58.810 --> 02:02.600
+Samozřejmě tohle je to samé jako toto.
+
+02:02.600 --> 02:05.590
+Je nějaký vzor, kterým
+napasujeme tohle na toto?
+
+02:05.590 --> 02:22.090
+Existuje ‚a‘ a ‚b‘, kde (a plus b) je 10
+a zároveň (a krát b) se rovná 9?
+
+02:22.090 --> 02:25.460
+Promysleme si to.
+Jaké jsou dělitele 9?
+
+02:25.470 --> 02:29.160
+A čemu se tedy mohou rovna ‚a‘ a ‚b‘?
+A předpokládáme, že to jsou celá čísla.
+
+02:29.170 --> 02:35.570
+Když rozkládáme, zvlášť když začínáme
+rozkládat, tak máme před sebou celá čísla.
+
+02:35.580 --> 02:40.460
+Takže jaké jsou dělitele 9?
+Jsou to 1, 3 a 9.
+
+02:40.460 --> 02:45.490
+Takže tohle může být 3 a 3,
+nebo by to mohlo být 1 a 9.
+
+02:45.490 --> 02:49.830
+Pokud by to bylo 3 a 3, pak máte 3 plus 3.
+To se nerovná 10.
+
+02:49.840 --> 02:56.470
+Ale pokud to bude 1 a 9,
+tak 1 krát 9 je 9 a 1 plus 9 je 10.
+
+02:56.470 --> 02:57.570
+Takže to funguje.
+
+02:57.570 --> 03:04.190
+Takže ‚a‘ by mohlo být rovno 1
+a ‚b‘ by mohlo být 9.
+
+03:04.190 --> 03:12.970
+Tak výraz můžeme rozložit
+na (x plus 1) krát (x plus 9).
+
+03:12.970 --> 03:17.900
+A když vynásobíte tyhle dva, za použití
+vědomostí z minulých pár videí,
+
+03:17.900 --> 03:22.650
+tak uvidíte, že je to opravdu
+x na druhou plus 10x plus 9.
+
+03:22.650 --> 03:26.520
+Takže když uvidíte něco takového,
+že je koeficient u x na druhou 1,
+
+03:26.520 --> 03:29.820
+...neboli koeficient
+u kvadratického členu...
+
+03:29.820 --> 03:34.570
+tak řeknete: „Která dvě čísla
+dávají v součtu tento koeficient?
+
+03:34.570 --> 03:41.210
+A dvě ta samá čísla, když je
+vynásobíte, dávají v součinu 9?“
+
+03:41.210 --> 03:43.430
+Samozřejmě toto musí být
+ve standardním zápisu.
+
+03:43.430 --> 03:46.590
+Pokud to není ve standardním zápisu,
+tak to do něj musíte převést,
+
+03:46.590 --> 03:47.700
+abyste mohli říci:
+
+03:47.700 --> 03:52.280
+„Jakýkoli je koeficient prvního stupně,
+tak sečtené ‚a‘ a ‚b‘ dají tuto hodnotu.“
+
+03:52.280 --> 03:56.370
+Cokoli je můj konstantní člen,
+součin mých ‚a‘ a ‚b‘ musí být tamto.
+
+03:56.370 --> 03:58.150
+Udělejme si více příkladů.
+
+03:58.150 --> 04:02.620
+Myslím, že čím více příkladů
+uděláme, tím to bude jasnější.
+
+04:02.630 --> 04:10.380
+Mějme x na druhou plus…
+Už jsem dělal 10x, tak zkusíme jiné číslo.
+
+04:10.380 --> 04:15.366
+x na druhou plus 15 krát x plus 50.
+
+04:15.366 --> 04:20.340
+A chceme to rozložit.
+Ta samá písnička.
+
+04:20.340 --> 04:25.140
+Máme člen x na druhou.
+Máme člen prvního stupně.
+
+04:25.140 --> 04:27.960
+Tohle musí být součet dvou čísel.
+
+04:27.960 --> 04:32.890
+A tento člen, konstanta tady,
+musí být součin dvou stejných čísel.
+
+04:32.890 --> 04:35.950
+Takže musím najít dvě čísla,
+které když vynásobím,
+
+04:35.950 --> 04:39.220
+dostanu 50 a když je
+sečtu, tak dostanu 15.
+
+04:39.220 --> 04:42.350
+Bude to trochu jako nějaké umění,
+co si zde vypěstujete,
+
+04:42.350 --> 04:45.610
+ale čím víc praxe budete mít,
+tím více vám to půjde přirozeně.
+
+04:45.610 --> 04:47.330
+Takže jaká budou naše ‚a‘ a ‚b‘?
+
+04:47.330 --> 04:52.245
+Zkusme najít dělitele 50.
+Může to být 1 krát 50.
+
+04:52.245 --> 04:57.412
+2 krát 25.
+Čtyřka nedělí 50.
+
+04:57.412 --> 05:03.450
+Mohlo by to být 5 krát 10.
+A to je myslím vše.
+
+05:03.450 --> 05:07.320
+Zkusíme všechna tato čísla a uvidíme,
+jestli dají v součtu také 15.
+
+05:07.320 --> 05:15.960
+1 plus 50 není 15.
+2 plus 25 není v součtu 15.
+
+05:15.960 --> 05:19.260
+Ale 5 a 10 je v součtu 15.
+
+05:19.260 --> 05:24.280
+Takže tohle by mohlo být 5 plus 10
+a toto by mohlo být 5 krát 10.
+
+05:24.280 --> 05:32.370
+Tak když tohle rozložíme, tak se to bude
+rovnat (x plus 5) krát (x plus 10).
+
+05:32.370 --> 05:33.840
+A vynásobíme to.
+
+05:33.840 --> 05:39.790
+Zkuste to vynásobit a uvidíte, že opravdu
+výsledek je x na druhou plus 15x plus 50
+
+05:39.790 --> 05:40.890
+Tak si to zkusme.
+
+05:40.890 --> 05:45.560
+x krát x je x na druhou,
+x krát 10 je plus 10x.
+
+05:45.560 --> 05:51.670
+5 krát x, plus 5x, 5 krát 10, plus 50.
+
+05:51.670 --> 06:00.790
+Všimněte si, že 5 krát 10 nám dalo 50.
+5x plus 10x nám dává 15x uprostřed.
+
+06:00.790 --> 06:06.560
+Tak je to x na druhou plus 15x plus 50.
+
+06:06.560 --> 06:11.070
+Dejme si nějakou výzvu,
+dáme si zde nějaká záporná znaménka.
+
+06:11.070 --> 06:18.890
+Například máme
+x na druhou minus 11x plus 24.
+
+06:18.890 --> 06:21.610
+Aplikujeme úplně stejné principy.
+
+06:21.610 --> 06:26.570
+Chci nalézt dvě čísla, která se po
+sečtení budou rovnat minus 11.
+
+06:26.570 --> 06:37.900
+a plus b musí být rovno minus 11.
+a krát b musí být rovno 24.
+
+06:37.900 --> 06:40.230
+Teď se musíme nad něčím zamyslet.
+
+06:40.230 --> 06:46.960
+Když budu násobit obě dvě čísla,
+dostanu kladné číslo. Dostávám 24.
+
+06:46.960 --> 06:51.410
+Obě dvě čísla musí být buď kladná,
+nebo obě dvě čísla musí být záporná.
+
+06:51.410 --> 06:55.050
+To je jediná cesta,
+jak dostanu tady kladné číslo.
+
+06:55.050 --> 06:58.860
+Když je sčítám, dostávám záporné
+číslo, pokud by byly obě čísla kladná,
+
+06:58.860 --> 07:01.460
+tak není možné, aby součet dvou
+kladných čísel byl záporný.
+
+07:01.460 --> 07:05.600
+Takže fakt, že jejich součet je záporný
+a fakt, že jejich součin je kladný,
+
+07:05.600 --> 07:13.170
+mi říká, že obě dvě čísla
+‚a‘ a ‚b‘ budou záporná.
+
+07:13.170 --> 07:16.530
+Zapamatujte si, jedno nemůže
+být záporné a druhé kladné,
+
+07:16.530 --> 07:18.710
+protože jejich součin by byl záporný.
+
+07:18.710 --> 07:24.417
+Obě nemůžou být kladná, protože po
+sečtení byste dostali kladné číslo.
+
+07:24.417 --> 07:27.500
+Přemýšlejme o tom,
+jaká čísla by ‚a‘ a ‚b‘ mohla být.
+
+07:27.500 --> 07:31.230
+Dvě záporná čísla.
+Budeme přemýšlet o dělitelích 24.
+
+07:31.230 --> 07:33.140
+Musíme přemýšlet
+o záporných dělitelích.
+
+07:33.140 --> 07:48.080
+Tak se podívejte, mohlo by to být 1 krát
+24, 2 krát 11, 3 krát 8, nebo 4 krát 6.
+
+07:48.080 --> 07:51.220
+Které z nich, když vynásobím…
+
+07:51.220 --> 07:54.380
+Zcela zřejmě, když vynásobím
+1 krát 24, dostanu 24.
+
+07:54.380 --> 07:59.800
+Když vynásobím 2 krát 1,
+omlouvám se 2 krát 12, tak dostanu 24.
+
+07:59.800 --> 08:03.090
+Víme, že u všech je výsledek součinu 24.
+
+08:03.090 --> 08:08.810
+Ale které z nich, z těchto dělitelů,
+dohromady po sečtení dají 11?
+
+08:08.810 --> 08:11.490
+A tak si můžeme říct…
+Vezměme si obě dvě záporná.
+
+08:11.490 --> 08:15.470
+Tak když se na ně podíváte,
+vyskočí na vás 3 a 8.
+
+08:15.470 --> 08:22.830
+3 krát 8 je 24.
+3 plus 8 je 11.
+
+08:22.830 --> 08:26.530
+Ale to tak úplně nefunguje, že?
+Protože my tu máme minus 11.
+
+08:26.530 --> 08:34.660
+Ale když vezmeme minus 3 a minus 8?
+minus 3 krát minus 8 se rovná 24.
+
+08:34.660 --> 08:43.580
+minus 3 plus (minus 8) se rovná minus 11.
+
+08:43.580 --> 08:46.600
+Takže minus 3 a minus 8 fungují.
+
+08:46.600 --> 08:53.520
+Když rozložíme
+x na druhou minus 11x plus 24,
+
+08:53.520 --> 09:02.940
+tak se to bude rovnat
+(x minus 3) krát (x minus 8).
+
+09:02.940 --> 09:08.230
+Udělejme si ještě jeden podobný,
+ale ještě ho trošku zamotáme.
+
+09:08.230 --> 09:19.810
+Mějme tedy x na druhou plus 5x minus 14.
+
+09:19.810 --> 09:21.770
+A máme tu opačnou situaci.
+
+09:21.770 --> 09:27.920
+Součin mých dvou čísel je záporný, že?
+‚a‘ krát ‚b‘ se rovná minus 14.
+
+09:27.920 --> 09:29.920
+Můj součin je záporný.
+
+09:29.920 --> 09:33.930
+To mi říká, že jedno z nich je kladné
+a jedno z nich je záporné.
+
+09:33.930 --> 09:39.200
+A když je sečtu,
+tak (a plus b) se má rovnat 5.
+
+09:39.200 --> 09:41.360
+Popřemýšlejme o dělitelích 14.
+
+09:41.360 --> 09:45.670
+A jaká jejich kombinace, když je sečtu,
+a jedno je kladné a druhé záporné,
+
+09:45.670 --> 09:49.710
+nebo tady vlastně mluvím
+o rozdílu těch dvou čísel, dostanu 5?
+
+09:49.710 --> 09:53.450
+Když si vezmu 1 a 14.
+Jen tu zkusím pár věcí…
+
+09:53.450 --> 10:04.300
+1 a 14, plus 1 a minus 14 je minus 13.
+Minus 1 a plus 14 je 13.
+
+10:04.300 --> 10:07.430
+Napíšu si všechny kombinace,
+které jsou možné.
+
+10:07.430 --> 10:09.520
+A snad si to váš mozek prostě roztřídí.
+
+10:09.520 --> 10:20.080
+Takže máte minus 1 plus 14 se rovná 13.
+A 1 plus minus 14 se rovná -13.
+
+10:20.080 --> 10:21.380
+Tak tyhle čísla nefungují.
+
+10:21.380 --> 10:24.890
+To se nerovná 5.
+Takže co 2 a 7?
+
+10:24.890 --> 10:29.140
+Pokud udělám minus 2…
+Udělám to jinou barvou.
+
+10:29.140 --> 10:35.290
+Když provedu minus 2 plus 7.
+To se rovná 5.
+
+10:35.290 --> 10:36.630
+Hotovo.
+To vyšlo.
+
+10:36.630 --> 10:39.160
+Můžeme si ještě zkusit
+2 plus (minus 7),
+
+10:39.160 --> 10:41.410
+ale to by bylo minus 5,
+takže by to bylo špatně.
+
+10:41.410 --> 10:46.480
+Ale minus 2 a plus 7 funguje.
+A minus 2 krát 7 je minus 14.
+
+10:46.480 --> 10:47.600
+Tak to máme.
+
+10:47.600 --> 10:53.210
+Víme, že to je (x minus 2) krát (x plus 7)
+
+10:53.210 --> 10:54.330
+To je pěkné.
+
+10:54.330 --> 11:01.950
+minus 2 krát 7 je minus 14.
+minus 2 plus 7 je plus 5.
+
+11:01.950 --> 11:09.580
+Udělejme jich víc, abychom
+si tuto dovednost opravdu vypilovali.
+
+11:09.580 --> 11:16.360
+Řekněme, že máme
+x na druhou minus x minus 56.
+
+11:16.360 --> 11:21.500
+Takže součin těch
+dvou čísel musí být minus 56.
+
+11:21.500 --> 11:26.060
+Jeden člen musí
+být kladný, a jeden bude záporný, že?
+
+11:26.060 --> 11:27.650
+Jejich rozdíl musí být minus 1.
+
+11:27.650 --> 11:30.710
+A čísla, která mi okamžitě
+vyskočí v hlavě,
+
+11:30.710 --> 11:33.740
+...nevím, zda vás to napadne.
+Zvyk z dob učení násobilky...
+
+11:33.740 --> 11:36.480
+56 je 8 krát 7.
+
+11:36.480 --> 11:39.750
+Chci říct, jsou tu i další čísla.
+Je to rovněž 28 krát 2.
+
+11:39.750 --> 11:41.140
+Je to spousta věcí.
+
+11:41.140 --> 11:45.250
+Ale 8 krát 7 mě hned napadnou,
+protože jsou velice blízko u sebe.
+
+11:45.250 --> 11:47.730
+My potřebujeme čísla,
+která jsou velmi blízko u sebe.
+
+11:47.730 --> 11:51.840
+Jedno z nich musí být kladné
+a jedno z nich musí být záporné.
+
+11:51.840 --> 11:58.480
+To, že jejich součet je záporný, mi říká,
+že větší z těch dvou by mělo být záporné.
+
+11:58.480 --> 12:03.330
+Tedy vezmeme-li minus 8 krát 7,
+to se rovná minus 56.
+
+12:03.330 --> 12:11.930
+A pak vezmeme-li minus 8 plus 7, to se
+rovná minus 1, což je tento koeficient.
+
+12:11.930 --> 12:18.690
+Takže když toto rozložím,
+tak to bude (x minus 8) krát (x plus 7).
+
+12:18.690 --> 12:22.065
+To je často jedna z nejtěžších věcí,
+které se lidé učí v algebře,
+
+12:22.065 --> 12:23.920
+protože je to tak trochu umění.
+
+12:23.920 --> 12:26.270
+Musíte se podívat na
+všechny faktory, které máte,
+
+12:26.270 --> 12:29.710
+pohrát si s kladnými a zápornými znaménky,
+uvidět, který z těch členů,
+
+12:29.710 --> 12:33.620
+když je jeden kladný, a druhý záporný,
+přičíst ke koeficientu u výrazu s ‚x‘.
+
+12:33.620 --> 12:35.860
+Ale když budete dělat
+více cvičení, tak uvidíte,
+
+12:35.860 --> 12:39.280
+že se to stane tak trochu
+druhou přirozeností.
+
+12:39.280 --> 12:42.350
+Teď zvýšíme trochu víc náročnost.
+
+12:42.350 --> 12:45.660
+Máme záporné x na druhou,
+
+12:45.660 --> 12:48.290
+Všechno, co jsme dosud dělali,
+mělo kladný koeficient,
+
+12:48.290 --> 12:50.690
+kladnou jedničku u výrazu x na druhou.
+
+12:50.690 --> 12:59.170
+Ale řekněme, že máme
+minus x na druhou minus 5x plus 24.
+
+12:59.170 --> 13:00.910
+Jak to uděláme?
+
+13:00.910 --> 13:04.510
+Nejjednodušší způsob,
+jaký můžeme udělat, je vytknout minus 1,
+
+13:04.510 --> 13:07.290
+a tím to bude stejné
+jako problémy, co jsme dělali předtím.
+
+13:07.290 --> 13:08.770
+Takže tohle je totéž jako
+
+13:08.770 --> 13:15.720
+minus 1 krát
+(x na druhou plus 5 krát x minus 24).
+
+13:15.720 --> 13:18.130
+Je to správně?
+Právě jsem vytknul minus 1.
+
+13:18.130 --> 13:21.500
+Můžete vynásobit minus 1 všechny tyto
+členy, a uvidíte, že dostanete toto.
+
+13:21.500 --> 13:25.005
+Nebo byste mohli vytknout minus 1 ven
+a podělit všechny tyto minus 1.
+
+13:25.005 --> 13:29.080
+A dostanete přesně to, co tam je.
+Teď stejná hra jako předtím.
+
+13:29.080 --> 13:34.700
+Potřebuji dvě čísla, taková,
+že jejich součinem dostanu minus 24.
+
+13:34.700 --> 13:37.250
+Takže bude jeden kladný
+a jeden bude záporný.
+
+13:37.250 --> 13:43.770
+Když si vezmu jejich součet,
+tak ten bude 5.
+
+13:43.770 --> 13:48.850
+Tak přemýšlejme. 24 je 1 a 24.
+
+13:48.850 --> 13:51.840
+Podívejme se, že minus 1 a 24
+by byla kladná 23.
+
+13:51.840 --> 13:57.540
+Kdyby to bylo naopak, bylo by to minus 23.
+
+13:57.540 --> 14:01.020
+Nefunguje.
+A co takhle 2 a 12?
+
+14:01.020 --> 14:03.100
+Pokud toto je záporné…
+
+14:03.100 --> 14:05.170
+Pamatujte, že jeden
+z nich musí být záporný.
+
+14:05.170 --> 14:07.350
+Je-li záporná 2, tak by
+jejich součet byl 10.
+
+14:07.350 --> 14:09.810
+Je-li záporné 12, tak by
+jejich součet byl minus 10.
+
+14:09.810 --> 14:11.300
+Stále to nefunguje.
+
+14:11.300 --> 14:16.480
+3 a 8.
+Je-li záporné 3, jejich součet bude 5.
+
+14:16.480 --> 14:24.650
+Tak to funguje! Pokud
+tedy vybereme minus 3 a 8.
+
+14:24.650 --> 14:29.560
+Protože minus 3 plus 8 je 5.
+Minus 3 krát 8 je minus 24.
+
+14:29.560 --> 14:30.930
+Takže to bude rovno…
+
+14:30.930 --> 14:35.230
+Nesmím zapomenout, že minus 1 je před
+závorkou, a pak jsme rozkládali vnitřek.
+
+14:35.230 --> 14:42.750
+Minus 1 krát (x minus 3) krát (x plus 8).
+
+14:42.750 --> 14:45.750
+Kdybyste opravdu chtěli,
+tak můžete vynásobit minus 1 krát toto,
+
+14:45.750 --> 14:47.790
+dostanete 3 minus x,
+pokud jste to udělali.
+
+14:47.790 --> 14:49.000
+Nebo nemusíte.
+
+14:49.000 --> 14:56.000
+Pojďme udělat ještě jeden.
+Čím více praxe, tím líp, myslím.
+
+14:56.000 --> 15:06.750
+Řekněme, že mám
+minus x na druhou plus 18 krát x minus 72.
+
+15:06.750 --> 15:09.320
+Já rád vytýkám minus 1.
+
+15:09.320 --> 15:16.930
+Takže tohle je rovno minus 1
+krát (x na druhou minus 18x plus 72).
+
+15:16.930 --> 15:19.420
+Teď se jen musíme
+zamyslet nad dvěma čísly,
+
+15:19.420 --> 15:22.330
+která pokud je vynásobím,
+tak dostanu plus 72.
+
+15:22.330 --> 15:24.450
+Musí mít tedy stejná znaménka.
+
+15:24.450 --> 15:26.930
+Tím je to snadnější spočítat z hlavy,
+alespoň pro mě.
+
+15:26.930 --> 15:32.050
+Když je vynásobím, tak mám plus 72.
+Když je sečtu, dostanu -18.
+
+15:32.050 --> 15:34.660
+Mají stejná znaménka
+a jejich součet je záporné číslo,
+
+15:34.660 --> 15:41.480
+oba tedy musí být záporné.
+
+15:41.480 --> 15:45.950
+A můžeme zkoušet všechny dělitele 72,
+ale ten, který vyskočí…
+
+15:45.950 --> 15:48.510
+Možná myslíte na 8 krát 9,
+
+15:48.510 --> 15:55.250
+ale 8 krát 9, nebo minus 8 minus 9,
+nebo minus 8 plus (minus 9), nefunguje.
+
+15:55.250 --> 15:58.780
+To je v součtu 17.
+To bylo těsné.
+
+15:58.780 --> 16:04.420
+Ukážu vám to.
+Minus 9 plus (minus 8) se rovná minus 17.
+
+16:04.420 --> 16:07.010
+Blízko, ale ne zcela.
+Tak co ty ostatní?
+
+16:07.010 --> 16:09.665
+Máme 6 a 12.
+To vypadá docela dobře.
+
+16:09.665 --> 16:15.300
+Pokud budeme mít minus 6 plus minus 12,
+tak se to rovná minus 18.
+
+16:15.300 --> 16:18.870
+Všimněte si, že je to tak trochu umění.
+Musíte vyzkoušet různé dělitele.
+
+16:18.870 --> 16:22.740
+Takže tím dostaneme...
+...nechci na to zapomenout...
+
+16:22.740 --> 16:29.440
+na krát (x minus 6) krát (x minus 12).

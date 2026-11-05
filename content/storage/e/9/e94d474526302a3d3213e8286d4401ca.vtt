@@ -1,0 +1,381 @@
+WEBVTT
+
+00:00.407 --> 00:10.362
+Máme funkci y rovná se sekans v bodě
+((3π lomeno 2) minus x)
+
+00:10.362 --> 00:17.363
+a chceme spočítat dy lomeno dx,
+tedy derivaci y podle x,
+
+00:17.363 --> 00:21.975
+a to v bodě
+x rovná se π lomeno 4.
+
+00:21.975 --> 00:25.813
+Jako vždy si zastavte video
+a zkuste to vyřešit sami.
+
+00:25.813 --> 00:28.691
+Vidíme, že zde máme
+složenou funkci.
+
+00:28.691 --> 00:30.746
+Nemáme tu sekans
+jenom z ‚x‘,
+
+00:30.746 --> 00:36.939
+ale z jiného výrazu,
+nebo můžeme říct z jiné funkce.
+
+00:36.939 --> 00:42.902
+Když si tento výraz
+označíme například jako u(x),
+
+00:42.902 --> 00:49.007
+tedy když zadefinujeme u(x) jako
+(3π lomeno 2) minus x...
+
+00:49.011 --> 00:51.163
+Můžeme rovnou spočítat
+‚u‘ s čárkou v bodě x.
+
+00:51.163 --> 00:52.298
+Bude se rovnat...
+
+00:52.298 --> 01:00.033
+Derivace (3π lomeno 2) je 0,
+derivace −x je −1.
+
+01:00.033 --> 01:01.847
+Použil jsem vlastně
+derivaci mocniny,
+
+01:01.847 --> 01:06.872
+je to 1 krát −1 krát
+x na nultou, což je 1.
+
+01:06.872 --> 01:07.961
+To bychom měli.
+
+01:07.961 --> 01:14.062
+Na tohle se tedy můžeme dívat jako na
+derivaci naší funkce sekans podle u(x)...
+
+01:14.062 --> 01:15.143
+Když budeme derivovat,
+
+01:15.143 --> 01:22.524
+tak to bude derivace naší funkce sekans
+podle u(x) krát derivace ‚u‘ podle x.
+
+01:22.524 --> 01:24.829
+Možná si teď říkáte,
+jak zderivovat sekans.
+
+01:24.829 --> 01:27.533
+V jiném videu už
+jsme si to dokázali.
+
+01:27.533 --> 01:29.103
+Mohli byste to
+i znovu odvodit.
+
+01:29.103 --> 01:33.067
+Sekans je jen 1 lomeno kosinus a pak
+stačí použít derivaci složené funkce.
+
+01:33.067 --> 01:35.662
+V jiném videu jsme
+si tedy dokázali,
+
+01:35.662 --> 01:52.020
+že derivace sec(x) se rovná
+sin(x) lomeno cos(x) na druhou.
+
+01:52.020 --> 01:58.298
+Když tedy chceme spočítat
+derivaci y podle x,
+
+01:58.298 --> 02:04.984
+tak to bude derivace naší funkce sekans
+podle u(x) krát derivace ‚u‘ podle x.
+
+02:04.984 --> 02:05.777
+Tak to napišme.
+
+02:05.777 --> 02:09.779
+Derivace naší funkce
+sekans podle u(x)...
+
+02:09.779 --> 02:13.380
+Místo x musíme
+všude napsat u(x),
+
+02:13.380 --> 02:21.539
+takže to bude
+sinus v bodě u(x)...
+
+02:21.539 --> 02:25.094
+Nemusel bych ani psát u(x), mohl bych
+rovnou napsat (3π lomeno 2) minus x,
+
+02:25.094 --> 02:28.803
+ale napíšu u(x), aby bylo
+lépe vidět, co děláme.
+
+02:28.803 --> 02:38.477
+Sinus v bodě u(x) lomeno
+kosinus na druhou v bodě u(x)...
+
+02:38.477 --> 02:43.908
+Závorky raději udělám stejnou modrou
+barvou jako ty goniometrické funkce.
+
+02:43.908 --> 02:50.068
+...kosinus na druhou
+v bodě u(x).
+
+02:50.068 --> 02:53.246
+Takhle tedy vypadá derivace
+naší funkce sekans podle u(x).
+
+02:53.246 --> 02:59.189
+Podle pravidla o derivaci složené funkce
+to ještě musíme vynásobit u(x) s čárkou.
+
+02:59.189 --> 03:02.181
+Čemu se to nyní
+bude rovnat?
+
+03:02.181 --> 03:04.359
+Jen do
+toho dosadím.
+
+03:04.359 --> 03:06.615
+Toto se rovná...
+
+03:06.615 --> 03:08.342
+Napíšu to takto.
+
+03:08.342 --> 03:13.212
+Sinus v bodě u(x), což je
+(3π lomeno 2) minus x,
+
+03:13.212 --> 03:14.734
+za chvilku
+to tam napíšu,
+
+03:14.734 --> 03:18.324
+lomeno kosinus na
+druhou v bodě u(x),
+
+03:18.324 --> 03:20.598
+to celé krát
+‚u‘ s čárkou v bodě x.
+
+03:20.598 --> 03:28.758
+u(x) se rovná
+(3π lomeno 2) minus x.
+
+03:28.758 --> 03:32.556
+Navíc už jsme zjistili, že
+‚u‘ s čárkou v bodě x je −1,
+
+03:32.556 --> 03:36.142
+takže můžu
+napsat krát -1.
+
+03:36.142 --> 03:37.663
+Zatím to
+tak nechám.
+
+03:37.663 --> 03:39.607
+Mohl bych sice
+minus napsat dopředu,
+
+03:39.607 --> 03:42.872
+ale chci, abyste dobře
+viděli, co tu dělám.
+
+03:42.878 --> 03:47.073
+Nyní musíme derivaci vyčíslit
+v bodě x rovná se π lomeno 4.
+
+03:47.073 --> 03:53.886
+x se tedy
+rovná π lomeno 4.
+
+03:53.886 --> 03:59.557
+Toto se rovná
+sinus v bodě...
+
+03:59.557 --> 04:01.972
+Kolik je (3π lomeno 2)
+minus (π lomeno 4)?
+
+04:01.972 --> 04:03.234
+Napíšu to
+sem vedle.
+
+04:03.234 --> 04:07.682
+Když převedeme na společného jmenovatele,
+tak to bude 6π lomeno 4...
+
+04:07.682 --> 04:09.737
+To je totéž jako
+3π lomeno 2.
+
+04:09.737 --> 04:12.310
+...minus π lomeno 4...
+
+04:12.310 --> 04:15.742
+Pardon, minus π lomeno 4.
+
+04:15.742 --> 04:21.802
+...což se rovná
+5π lomeno 4.
+
+04:21.802 --> 04:35.194
+Máme tak sinus v bodě (5π lomeno 4) lomeno
+kosinus na druhou v bodě (5π lomeno 4),
+
+04:35.194 --> 04:39.697
+tohle celé krát −1,
+což můžu napsat dopředu.
+
+04:39.697 --> 04:43.945
+Kolik je sinus v bodě (5π lomeno 4)
+a kosinus na druhou v bodě (5π lomeno 4)?
+
+04:43.953 --> 04:48.149
+Sám si to z hlavy nepamatuji,
+ale nakresleme si jednotkovou kružnici,
+
+04:48.149 --> 04:52.318
+pomocí které bychom měli
+být schopni zjistit, čemu se to rovná.
+
+04:52.318 --> 04:55.193
+Takže jednotková kružnice...
+
+04:55.193 --> 04:59.059
+Zkusím ji načrtrnout,
+jak nejlépe umím.
+
+04:59.059 --> 05:05.210
+Snad mi odpustíte, že moje kružnice
+nevypadá zrovna moc jako kružnice.
+
+05:05.210 --> 05:07.213
+Teď si vyznačme
+nějaké úhly.
+
+05:07.213 --> 05:11.220
+V hlavě si je občas
+převádím na stupně.
+
+05:11.220 --> 05:15.053
+π lomeno 4
+je 45 stupňů,
+
+05:15.053 --> 05:16.943
+tohle je
+π lomeno 2,
+
+05:16.943 --> 05:19.835
+tady je
+3π lomeno 4,
+
+05:19.835 --> 05:22.132
+zde je
+4π lomeno 4
+
+05:22.132 --> 05:27.772
+a 5π lomeno 4 je tady.
+
+05:27.772 --> 05:31.727
+My teď chceme vědět, ve kterém bodě
+tady protínáme jednotkovou kružnici.
+
+05:31.727 --> 05:40.810
+Je to bod, jehož x-ová souřadnice je
+minus odmocnina ze 2 vydělená 2
+
+05:40.810 --> 05:44.233
+a jehož y-ová souřadnice je také
+minus odmocnina ze 2 vydělená 2.
+
+05:44.233 --> 05:46.044
+Pokud si říkáte,
+jak jsem na to přišel,
+
+05:46.044 --> 05:52.017
+doporučuji si zopakovat jednotkovou
+kružnici a některé známé úhly na ní.
+
+05:52.017 --> 05:56.360
+Najdete to v kurzu trigonometrie
+na stránkách Khan Academy.
+
+05:56.365 --> 05:57.469
+Tohle nám
+teď ale stačí,
+
+05:57.469 --> 06:02.120
+protože sinus je y-ová
+souřadnice tohoto bodu,
+
+06:02.120 --> 06:08.568
+takže tady bude minus
+odmocnina ze 2 vydělená 2,
+
+06:08.568 --> 06:14.396
+a kosinus je x-ová souřadnice, což je také
+minus odmocnina ze 2 vydělená 2,
+
+06:14.396 --> 06:20.279
+kterou mocníme na druhou, takže (minus
+odmocnina ze 2 vydělená 2) na druhou.
+
+06:20.279 --> 06:26.170
+Když tohle umocníme
+na druhou, bude to kladné.
+
+06:26.170 --> 06:30.356
+Odmocnina ze 2 umocněná
+na druhou je 2,
+
+06:30.356 --> 06:33.005
+2 na druhou jsou 4,
+
+06:33.005 --> 06:35.116
+takže se to rovná
+jedné polovině.
+
+06:35.116 --> 06:37.885
+Jmenovatel se rovná
+jedné polovině.
+
+06:37.885 --> 06:41.196
+V čitateli se tohle minus
+pokrátí s tímhle minus,
+
+06:41.197 --> 06:50.427
+takže nám zbyla odmocnina ze 2
+vydělená 2, tomu se rovná čitatel,
+
+06:50.427 --> 06:55.484
+děleno jedna polovina, což je
+totéž jako kdybychom násobili 2,
+
+06:55.484 --> 07:00.750
+tudíž nám zbyde
+kladná odmocnina ze 2.
+
+07:00.750 --> 07:08.405
+Taková je směrnice tečny ke grafu y rovná
+se tento výraz v bodě x rovno π lomeno 4.
+
+07:08.405 --> 07:10.015
+Velmi zajímavé.

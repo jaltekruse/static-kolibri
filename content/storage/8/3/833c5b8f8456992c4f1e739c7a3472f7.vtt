@@ -1,0 +1,610 @@
+WEBVTT
+
+00:00.184 --> 00:01.722
+Trong video này chúng ta sẽ
+
+00:01.722 --> 00:05.889
+khám phá khái niệm tính khả vi tại một điểm
+
+00:07.489 --> 00:10.491
+và đó chỉ là một cách nói hoa mỹ của việc
+
+00:10.491 --> 00:14.433
+tìm xem liệu một hàm số có đạo hàm xác định tại 1 điểm hay không
+
+00:14.433 --> 00:18.292
+mình sẽ nhắc lại định nghĩa của một đạo hàm
+
+00:18.292 --> 00:20.405
+có rất nhiều cách để viết nó
+
+00:20.405 --> 00:22.548
+đối với video này mình sẽ viết nó dưới dạng
+
+00:22.548 --> 00:25.396
+đạo hàm của hàm số tại điểm C
+
+00:25.396 --> 00:27.919
+đây là ký hiệu Lagrange với f nguyên tố
+
+00:27.919 --> 00:31.246
+đạo hàm của hàm số f tại C sẽ bằng với
+
+00:31.246 --> 00:33.746
+giới hạn tại x tiến đến C
+
+00:35.474 --> 00:37.474
+của f của x, trừ f của C
+
+00:40.425 --> 00:41.675
+phần x trừ C
+
+00:43.711 --> 00:45.459
+và từ đó khi bạn nhìn thấy công thức này
+
+00:45.459 --> 00:47.978
+và chúng ta đã thấy nó trước đây, trông nó hơi lạ một chút
+
+00:47.978 --> 00:51.184
+nhưng tất cả chỉ dùng để tính hệ số góc
+
+00:51.184 --> 00:53.297
+đây là sự biến thiên giá trị của hàm số
+
+00:53.297 --> 00:55.086
+hoặc bạn có thể xem nó như sự biến thiên của y
+
+00:55.086 --> 00:58.293
+nếu y bằng f của x, đây sẽ là sự biến thiên của x
+
+00:58.293 --> 01:00.966
+và chúng ta đang cố tìm ra hệ số góc
+
+01:00.966 --> 01:04.536
+khi x tiến càng lúc càng gần hơn đến C, khi biến thiên của x
+
+01:04.536 --> 01:06.286
+tiến càng lúc càng gần đến 0 là gì ?
+
+01:06.286 --> 01:08.734
+và chúng ta đã nói về điều này trong các video khác
+
+01:08.734 --> 01:11.013
+vậy nên trong video này mình sẽ cho một số giả định
+
+01:11.013 --> 01:12.639
+và mình sẽ không chứng minh chúng quá kỹ càng
+
+01:12.639 --> 01:14.953
+sẽ có một video khác mà mình sẽ đi sâu hơn
+
+01:14.953 --> 01:16.492
+vào việc chứng minh
+
+01:16.492 --> 01:18.645
+nhưng ở đây mình muốn bạn có một khả năng trực giác.
+
+01:18.645 --> 01:21.573
+vậy giả định đầu tiên là
+
+01:21.573 --> 01:23.740
+nếu f có tính khả vi
+
+01:27.537 --> 01:28.704
+tại x bằng C
+
+01:31.455 --> 01:32.622
+tại x bằng C
+
+01:33.930 --> 01:35.597
+vậy f có tính liên tục
+
+01:39.103 --> 01:40.270
+tại x bằng C
+
+01:42.434 --> 01:44.261
+Vậy nếu mình biết nó có tính khả vi
+
+01:44.261 --> 01:45.845
+nếu chúng ta tìm giới hạn này
+
+01:45.845 --> 01:48.808
+nếu chúng ta có thể tìm đạo hàm tại x bằng C
+
+01:48.808 --> 01:51.814
+vậy hàm số cũng sẽ có tính liên tục tại x bằng C
+
+01:51.814 --> 01:53.726
+Nó không cần đúng trong trường hợp ngược lại
+
+01:53.726 --> 01:55.280
+và thật ra chúng ta sẽ xem trường hợp khi mà
+
+01:55.280 --> 01:56.873
+nó không cần đúng trong trường hợp ngược lại
+
+01:56.873 --> 01:59.836
+nếu một hàm số liên tục thì chắc chắn nó có tính khả vi
+
+01:59.836 --> 02:03.120
+nhưng một cách khác để hiểu những gì mình đã ghi ra đây là
+
+02:03.120 --> 02:05.312
+nếu hàm số không liên tục thì chắc chắn
+
+02:05.312 --> 02:07.178
+nó sẽ không có tính khả vi
+
+02:07.178 --> 02:08.761
+nếu f không liên tục
+
+02:12.303 --> 02:14.053
+tại x bằng C, thì f
+
+02:18.126 --> 02:19.959
+không có tính khả vi
+
+02:23.410 --> 02:26.243
+có tính khả vi tại x bằng C
+
+02:28.886 --> 02:33.312
+để mình cho một số ví dụ về hàm số không liên tục
+
+02:33.312 --> 02:37.573
+và sau đó hãy xem liệu chúng ta có thể tìm được giới hạn này hay không
+
+02:37.573 --> 02:40.946
+vậy trường hợp đầu tiên này mình có một sự gián đoạn
+
+02:40.946 --> 02:44.080
+hàm số của chúng ta xác định tại C, bằng với giá trị này
+
+02:44.080 --> 02:46.514
+nhưng bạn có thể thấy khi x trở nên lớn hơn C
+
+02:46.514 --> 02:49.395
+nó sẽ nhảy xuống và chuyển qua bên này
+
+02:49.395 --> 02:52.604
+vậy điều gì sẽ xảy ra nếu bạn đang cố tìm giới hạn này ?
+
+02:52.604 --> 02:54.925
+Hãy nhớ, tất cả đây là hệ số góc của một đường thẳng
+
+02:54.925 --> 02:57.850
+giữa khoảng khi x là một giá trị ngẫu nhiên
+
+02:57.850 --> 03:00.289
+giả sử nó ở đây, đó sẽ là x
+
+03:00.289 --> 03:03.539
+đây sẽ là điểm x phấy f của x
+
+03:04.508 --> 03:08.675
+và đây sẽ là điểm C phẩy f của C ở ngay đây
+
+03:09.871 --> 03:12.038
+đây sẽ là C phẩy f của C
+
+03:14.542 --> 03:18.523
+vậy nếu bạn tìm phía bên trái của giới hạn ngay đây
+
+03:18.523 --> 03:21.447
+cơ bản là bạn đang nói, okay, hãy tìm hệ số góc này
+
+03:21.447 --> 03:23.757
+và hãy để mình đến gần hơn
+
+03:23.757 --> 03:25.703
+và hãy lấy x gần lại một chút
+
+03:25.703 --> 03:27.164
+và sau đó hãy tìm hệ số góc này
+
+03:27.164 --> 03:30.127
+và bây giờ hãy lấy x càng gần hơn nữa
+
+03:30.127 --> 03:31.829
+và tìm hệ số góc này
+
+03:31.829 --> 03:34.422
+và trong tất cả trường hợp đó, nó sẽ là 0
+
+03:34.422 --> 03:35.926
+hệ số góc sẽ là 0
+
+03:35.926 --> 03:38.810
+vậy một cách để nghĩ về nó, hàm số hoặc giới hạn này
+
+03:38.810 --> 03:42.629
+khi chúng ta tiến đến từ bên trái có vẻ như đang tiến đến 0
+
+03:42.629 --> 03:46.049
+nhưng chuyện gì sẽ xảy ra nếu chúng ta lấy x qua phải
+
+03:46.049 --> 03:48.211
+vậy thay vì x của chúng ta ở bên kia
+
+03:48.211 --> 03:52.397
+chuyện gì sẽ xảy ra nếu chúng ta lấy x ở ngay đây
+
+03:52.397 --> 03:55.480
+vậy đối với điểm này, x phấy f của x
+
+03:57.879 --> 04:01.700
+hệ số góc của chúng ta, nếu chúng ta lấy f của x trừ f của C
+
+04:01.700 --> 04:05.867
+phần x trừ C
+
+04:07.782 --> 04:10.948
+nếu chúng ta lấy x càng gần hơn, giả sử ngay đây
+
+04:10.948 --> 04:14.448
+vậy đây sẽ là hệ số góc của đường này
+
+04:15.290 --> 04:18.134
+nếu chúng ta tiến đến gần hơn vậy biểu thức này
+
+04:18.134 --> 04:21.017
+sẽ là hệ số của đường này
+
+04:21.017 --> 04:25.184
+vậy khi chúng ta tiến đến gần hơn và gần hơn tới x bằng C
+
+04:26.213 --> 04:28.288
+chúng ta thấy hệ số góc
+
+04:28.288 --> 04:30.158
+sẽ tiến đến âm vô cùng
+
+04:30.158 --> 04:32.064
+và quan trọng nhất, nó tiến đến
+
+04:32.064 --> 04:34.382
+một giá trị khác từ bên phải
+
+04:34.382 --> 04:36.535
+biểu thức này tiến đến một giá trị rất khác
+
+04:36.535 --> 04:39.868
+từ bên phải so với từ bên trái
+
+04:39.868 --> 04:44.664
+vậy trong trường hợp này, giới hạn trên này không tồn tại
+
+04:44.664 --> 04:48.883
+vậy rõ ràng chúng ta có thể nói nó không có tính khả vi
+
+04:48.883 --> 04:51.887
+vậy một lần nữa, không có bằng chứng ở đây
+
+04:51.887 --> 04:53.886
+mình chỉ có trực giác là nếu một hàm số
+
+04:53.886 --> 04:57.625
+không liên tục, nó khá rõ ít nhất là trong trường hợp này
+
+04:57.625 --> 04:58.926
+là nó sẽ không có tính khả vi
+
+04:58.926 --> 05:00.716
+hãy xem một trường hợp khác
+
+05:00.716 --> 05:04.734
+hãy xem trường hợp mà chúng ta có một khái niệm thường được gọi à
+
+05:04.734 --> 05:08.470
+gián đoạn bỏ được hoặc một gián đoạn điểm
+
+05:08.470 --> 05:11.683
+vậy một lần nữa hãy giả sử chúng ta tiến đến từ bên trái
+
+05:11.683 --> 05:15.350
+đây là x, đây là điểm x phẩy f của x
+
+05:17.900 --> 05:21.632
+điều thú vị là khi biểu thức này
+
+05:21.632 --> 05:25.573
+là hệ số góc của đường nối x phẩy f của x
+
+05:25.573 --> 05:29.392
+và C phẩy f của C, sẽ là điểm này, không phải điểm này
+
+05:29.392 --> 05:30.349
+hãy nhớ chúng ta có
+
+05:30.349 --> 05:32.261
+gián đoạn bỏ được ở ngay đây
+
+05:32.261 --> 05:34.740
+vậy biểu thức này đang tính toán
+
+05:34.740 --> 05:36.657
+hệ số góc của đường này
+
+05:38.115 --> 05:40.794
+và sau đó nếu x đến gần hơn với C, chúng ta sẽ
+
+05:40.794 --> 05:42.507
+tính toán hệ số góc của đường kia
+
+05:42.507 --> 05:44.251
+nếu x đến gần hơn với C, chúng ta sẽ tính
+
+05:44.251 --> 05:45.834
+hệ số góc của đường kia
+
+05:45.834 --> 05:49.001
+và khi chúng ta tiến đến từ bên trái, x tiến đến C
+
+05:49.001 --> 05:51.314
+từ bên trái, chúng ta có một tình huống
+
+05:51.314 --> 05:53.667
+mà khi đó biểu thức này ở đây sẽ
+
+05:53.667 --> 05:55.704
+tiến đến âm vô cùng
+
+05:55.704 --> 05:57.938
+và nếu chúng ta tiến đến từ bên phải, nếu chúng ta tiến đến
+
+05:57.938 --> 06:02.250
+với x lớn hơn C, đây là điểm x phẩy f của x
+
+06:02.250 --> 06:05.052
+vậy chúng ta có một hệ số góc dương và khi chúng ta tiến đến gần hơn
+
+06:05.052 --> 06:07.077
+nó sẽ cho kết quả càng dương hơn
+
+06:07.077 --> 06:08.866
+tiến đến dương vô cùng
+
+06:08.866 --> 06:11.337
+nhưng dù sao đi nữa, nó sẽ không tiến đến giá trị hữu hạn
+
+06:11.337 --> 06:13.084
+và một phía sẽ tiến đến giá trị dương
+
+06:13.084 --> 06:14.864
+và phía còn lại sẽ tiến đến giá trị âm
+
+06:14.864 --> 06:19.654
+đây, giới hạn của biểu thức này, sẽ không tồn tại
+
+06:19.654 --> 06:22.118
+vậy một lần nữa, mình sẽ không chứng minh kỹ càng ở đây
+
+06:22.118 --> 06:24.559
+nhưng hãy thử xây dựng một hàm số gián đoạn
+
+06:24.559 --> 06:26.389
+khi bạn có thể tìm ra nó.
+
+06:26.389 --> 06:28.095
+sẽ rất, rất khó
+
+06:28.095 --> 06:29.435
+và bạn có thể nói, vậy trường hợp mà
+
+06:29.435 --> 06:32.685
+khi đó f không xác định tại C thì sao, chắc chắn
+
+06:32.685 --> 06:35.568
+bạn sẽ không có một hàm số liên tục nếu f không xác định tại C
+
+06:35.568 --> 06:38.946
+vậy nếu f không xác định tại C, vậy phần này
+
+06:38.946 --> 06:40.527
+của biểu thức sẽ không có nghĩa
+
+06:40.527 --> 06:43.208
+vậy bạn sẽ chắc chắn không có một hàm số khả vi
+
+06:43.208 --> 06:45.000
+Nhưng bây giờ hãy hỏi một câu hỏi khác
+
+06:45.000 --> 06:47.120
+mình vừa cho bạn một lý luận khi bạn không có
+
+06:47.120 --> 06:50.654
+một hàm số liên tục, bạn sẽ không có một hàm số khả vi
+
+06:50.654 --> 06:53.659
+nhưng liệu chúng ta có thể có giả định là nếu hàm số liên tục
+
+06:53.659 --> 06:56.536
+thì chắc chắn nó sẽ có tính khả vi ?
+
+06:56.536 --> 06:59.420
+thật ra, chắc chắn
+
+06:59.420 --> 07:01.896
+có nhiều hàm số, một số lượng vô hạn các hàm số
+
+07:01.896 --> 07:06.083
+có thể liên tục tại C, nhưng lại không khả vi
+
+07:06.083 --> 07:09.414
+ví dụ, đây có thể là một hàm trị tuyệt đối
+
+07:09.414 --> 07:10.917
+nó không cần là một hàm trị tuyệt đối
+
+07:10.917 --> 07:12.799
+nhưng nó có thể là y bằng với
+
+07:12.799 --> 07:16.243
+giá trị tuyệt đối của x trừ C
+
+07:16.243 --> 07:20.393
+vậy tại sao hàm này lại không khả vi tại C
+
+07:20.393 --> 07:21.693
+hãy xem điều gì sẽ xảy ra
+
+07:21.693 --> 07:22.585
+nghĩ về biểu thức này
+
+07:22.585 --> 07:25.596
+hãy nhớ điều mà biểu thức này làm là tính
+
+07:25.596 --> 07:28.482
+hệ số góc giữa điểm x phấy f của x
+
+07:28.482 --> 07:30.675
+và điểm C phấy f của C
+
+07:30.675 --> 07:34.842
+vậy nếu x ở đây, đây là x phẩy f của x
+
+07:35.920 --> 07:38.974
+nó sẽ được tính, nếu chúng ta lấy giới hạn
+
+07:38.974 --> 07:42.221
+khi x tiến đến c từ bên trái
+
+07:42.221 --> 07:44.778
+chúng ta sẽ xem xét hệ số góc này
+
+07:44.778 --> 07:46.937
+khi chúng ta tiến đến gần hơn, chúng ta sẽ xem xét hệ số góc này
+
+07:46.937 --> 07:48.318
+khi đó thật ra nó cũng sẽ tương tự
+
+07:48.318 --> 07:49.430
+trong trường hợp này nó sẽ là âm 1
+
+07:49.430 --> 07:50.188
+vậy nếu x tiến đến C từ bên trái
+
+07:52.463 --> 07:54.898
+biểu thức này sẽ là âm 1
+
+07:54.898 --> 07:58.362
+khi x tiến đến C từ bên phải
+
+07:58.362 --> 08:00.798
+biểu thức này sẽ là 1
+
+08:00.798 --> 08:03.191
+hệ số góc của đường nối các điểm này là 1
+
+08:03.191 --> 08:05.663
+hệ số góc của đường nối các điểm này là 1
+
+08:05.663 --> 08:09.071
+vậy giới hạn của biểu thức này hoặc giá trị
+
+08:09.071 --> 08:11.869
+của biểu thức này, đang tiến đến hai giá trị khác nhau
+
+08:11.869 --> 08:14.348
+khi x tiến đến C từ bên trái hoặc bên phải
+
+08:14.348 --> 08:16.501
+từ bên trái, nó tiến đến âm 1
+
+08:16.501 --> 08:19.065
+hoặc nó liên tiếp là âm 1 và bạn cũng có thể nói
+
+08:19.065 --> 08:20.527
+nó tiến đến âm 1
+
+08:20.527 --> 08:22.679
+và từ bên phải, nó sẽ là 1
+
+08:22.679 --> 08:25.273
+và nó tiến đến 1 trong toàn khoảng thời gian
+
+08:25.273 --> 08:27.915
+vậy chúng ta biết nếu hàm số tiến đến hai giá trị khác nhau
+
+08:27.915 --> 08:30.963
+từ bên trái và bên phải của giới hạn
+
+08:30.963 --> 08:32.999
+vậy giới hạn này không tồn tại
+
+08:32.999 --> 08:36.416
+vậy ở đây, nó không có tính khả vi
+
+08:37.299 --> 08:39.654
+và kể cả khi bằng trực giác, chúng ta nghĩ về đạo hàm
+
+08:39.654 --> 08:42.331
+là hệ số góc của đường tiếp tuyến
+
+08:42.331 --> 08:44.129
+và bạn có thể thật sự vẽ vô số
+
+08:44.129 --> 08:45.390
+đường tiếp tuyến ở đây
+
+08:45.390 --> 08:46.835
+đó là một cách để nghĩ về vấn đề
+
+08:46.835 --> 08:49.795
+bạn có thể nói, có thể đây là đường tiếp tuyến
+
+08:49.795 --> 08:51.908
+ở ngay đây, nhưng tại sao
+
+08:51.908 --> 08:55.681
+mình lại không thể vẽ một tiếp tuyến như thế này
+
+08:55.681 --> 09:00.073
+đường đó chỉ giao với điểm C phấy 0
+
+09:00.073 --> 09:01.819
+và bạn có thể tiếp tục làm như vậy
+
+09:01.819 --> 09:03.643
+tại sao đường đó lại không thể là tiếp tuyến
+
+09:03.643 --> 09:05.673
+sau đó bạn tiếp tục và tiếp tục
+
+09:05.673 --> 09:08.687
+vậy bài học ở đây là, ít nhất bằng trực giác
+
+09:08.687 --> 09:10.962
+trong những video trong tương lai mình sẽ chứng minh
+
+09:10.962 --> 09:15.193
+rằng nếu f có tính khả vi tại C nó sẽ liên tục tại C
+
+09:15.193 --> 09:16.950
+cũng có thể hiểu là nếu hàm số không liên tục tại C
+
+09:16.950 --> 09:19.913
+nó sẽ không có tính khả vi
+
+09:19.913 --> 09:21.377
+mình mong là hai ví dụ trên
+
+09:21.377 --> 09:22.923
+sẽ cho bạn một khả năng trực giác
+
+09:22.923 --> 09:25.519
+nhưng sẽ không đúng khi nói nếu hàm số liên tục
+
+09:25.519 --> 09:27.306
+thì nó sẽ phải khả vi
+
+09:27.306 --> 09:29.673
+thông thường nó sẽ khả vi nhưng không cần thiết phải
+
+09:29.673 --> 09:32.066
+khả vi, và hàm trị tuyệt đối
+
+09:32.066 --> 09:34.997
+là một ví dụ hàm số liên tục tại C
+
+09:34.997 --> 09:37.174
+nhưng không khả vi tại C

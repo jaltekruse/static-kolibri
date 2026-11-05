@@ -1,0 +1,317 @@
+WEBVTT
+
+00:00.380 --> 00:03.500
+In diesem Video möchte ich mit einem Exponentialausdruck beginnen,
+
+00:03.500 --> 00:05.916
+der in einer relativ einfachen Form dargestellt ist,
+
+00:05.920 --> 00:09.100
+und ihn in eine komplizierte Form bringen.
+
+00:09.100 --> 00:10.360
+Fangen wir an.
+
+00:10.360 --> 00:14.660
+Ich zeige dir den ursprünglichen Ausdruck,
+und dann die Form, in die ich ihn bringen will.
+
+00:14.660 --> 00:18.180
+Danach reden wir darüber,
+warum wir das überhaupt machen.
+
+00:18.180 --> 00:25.040
+Mein Ausdruck lautet 1/32 ⋅ 2^t.
+
+00:25.040 --> 00:28.260
+Es ist ein relativ einfacher Exponentialausdruck.
+
+00:28.266 --> 00:42.640
+Wir wollen ihn jetzt in die Form
+(A ⋅ B)^((t/10) - 1) bringen.
+
+00:42.640 --> 00:44.100
+Du fragst dich wahrscheinlich,
+
+00:44.120 --> 00:50.320
+warum du jemals eine einfache Form in eine
+so komplizierte Form umschreiben solltest.
+
+00:50.320 --> 00:54.540
+Die Antwort ist, dass, wenn du höhere
+Mathematik, Physik und Chemie belegst,
+
+00:54.540 --> 00:57.120
+und vielleicht so ein Ergebnis bekommst,
+
+00:57.120 --> 01:00.780
+und es in deinem Lehrbuch in so einer Form siehst,
+
+01:00.780 --> 01:03.120
+du einfach wissen solltest, wie man
+die eine Form in die andere verwandelt.
+
+01:03.120 --> 01:13.100
+Manchmal, wenn du in eine solche Form
+oder sogar eine noch kompliziertere umformst,
+
+01:13.100 --> 01:16.595
+erhältst du dadurch ein Gespür für den Prozess,
+
+01:16.595 --> 01:19.987
+den der Ausdruck zu beschreiben versucht.
+
+01:19.987 --> 01:23.260
+Wir versuchen das jetzt.
+
+01:23.260 --> 01:26.880
+Du wirst zumindest besser darin werden,
+Exponenteneigenschaften anzuwenden.
+
+01:26.880 --> 01:30.660
+Versuche, diese Form in die rechte umzuwandeln.
+
+01:30.660 --> 01:32.080
+Ich nehme mal an, du hast es versucht.
+
+01:32.080 --> 01:33.940
+Jetzt machen wir es gemeinsam.
+
+01:33.940 --> 01:44.520
+Was sollte ich als erstes machen?
+
+01:44.520 --> 01:54.060
+Als erstes nehme ich dieses t und wandle es in ein t/10.
+
+01:54.060 --> 01:59.280
+Um das zu tun, müssen wir nur mit 10
+multiplizieren und durch 10 dividieren.
+
+01:59.280 --> 02:02.100
+Wir multiplizieren also mit 10,
+
+02:02.100 --> 02:05.100
+und dividieren dann durch 10.
+
+02:05.100 --> 02:07.260
+Dadurch haben wir den Wert hier oben nicht verändert.
+
+02:07.260 --> 02:38.100
+Wir können also in 1/32 ⋅ 2^(t/10) ⋅ 10 umformen.
+
+02:38.100 --> 02:42.420
+Okay. Wir haben hier also ein t/10.
+
+02:42.420 --> 02:44.400
+Aber dann multipliziere ich hier mit 10.
+
+02:44.400 --> 02:47.900
+Was mache ich damit?
+
+02:47.900 --> 02:50.260
+Ich schreibe es nochmal andersherum.
+
+02:50.260 --> 03:01.240
+Ich schreibe es als ^10 ⋅ t/10.
+
+03:01.240 --> 03:04.020
+Ich hoffe, du verstehst, was ich gemacht habe.
+
+03:04.020 --> 03:09.080
+Ich habe nur mit 10 multipliziert und durch 10 dividiert.
+
+03:09.080 --> 03:10.680
+Aber wenn ich es so schreibe,
+
+03:10.688 --> 03:13.024
+fällt dir vielleicht eine Exponenteneigenschaft auf.
+
+03:13.024 --> 03:18.920
+Wenn ich (a^b)^c habe,
+
+03:18.920 --> 03:22.040
+ist das dasselbe wie a^(bc).
+
+03:22.040 --> 03:28.200
+Oder andersherum: a^(bc) ist dasselbe wie (a^b)^c.
+
+03:28.200 --> 03:41.620
+Diesen Teil hier kann ich also
+als (2^10)^(t/10) schreiben.
+
+03:41.620 --> 03:49.480
+Nochmal: (2^10)^(t/10) ist dasselbe wie 2^(10 ⋅ (t/10)).
+
+03:49.480 --> 03:57.100
+Hier drüben haben wir natürlich noch 1/32 stehen.
+
+03:57.100 --> 04:00.140
+Ich könnte den Bruch als 2^(-5) schreiben,
+
+04:00.140 --> 04:02.540
+aber das mache ich jetzt noch nicht.
+
+04:02.540 --> 04:10.220
+Was ergibt 2^10?
+
+04:10.220 --> 04:19.940
+Es ergibt 1024.
+
+04:19.940 --> 04:30.660
+Wir haben also 1/32 ⋅ 1024^(t/10)
+
+04:30.660 --> 04:31.720
+Wir sind schon nahe dran.
+
+04:31.720 --> 04:35.700
+Wenn wir hier keine -1 hätten, wären wir fast fertig.
+
+04:35.700 --> 04:39.060
+Aber wir haben dort eine -1.
+Was machen wir damit?
+
+04:39.060 --> 04:41.100
+Wir können eine ähnliche Strategie anwenden.
+
+04:41.100 --> 04:45.980
+Wir könnten 1 subtrahieren und dann 1 addieren.
+
+04:45.980 --> 04:47.760
+Dadurch ändern wir den Wert nicht.
+
+04:47.760 --> 04:49.920
+Genauso wie wir mit 10 multipliziert
+und durch 10 dividiert haben,
+
+04:49.920 --> 04:51.700
+ändern wir nichts an dem Wert hier oben.
+
+04:51.700 --> 04:55.880
+Wenn du 1 vom Exponenten subtrahierst und
+dann 1 addierst, änderst du seinen Wert nicht.
+
+04:55.880 --> 04:57.540
+Was ergibt das also?
+
+04:57.546 --> 04:59.699
+Wir wollen, dass -1 hier stehen bleibt,
+
+04:59.700 --> 05:04.200
+aber wir wollen +1 irgendwie loswerden.
+
+05:04.200 --> 05:07.400
+Wir müssen uns daran erinnern, dass,
+
+05:07.400 --> 05:12.820
+wenn wir a^b ⋅ a^c haben,
+
+05:12.820 --> 05:16.660
+das dasselbe ist wie a^(b + c).
+
+05:16.660 --> 05:21.760
+Wenn du dieselbe Basis mit verschiedenen
+Exponenten hast, und sie multiplizierst,
+
+05:21.760 --> 05:23.680
+kannst du die Exponenten einfach addieren.
+
+05:23.680 --> 05:32.060
+Und umgekehrt: Wenn du a^(b + c) hast,
+kannst du es in a^b ⋅ a^c umwandeln.
+
+05:32.060 --> 05:41.900
+Dieser Teil hier ist also 1024^(((t/10) - 1) + 1).
+
+05:41.900 --> 05:55.020
+Wir haben also zuerst 1024^((t/10) - 1).
+
+05:55.020 --> 06:09.040
+Und dann multiplizieren wir 1024^1.
+
+06:09.040 --> 06:11.280
+Das ist diese 1 hier.
+
+06:11.280 --> 06:17.180
+Und natürlich haben wir immer noch 1/32.
+
+06:17.180 --> 06:18.533
+Wir sind fast fertig.
+
+06:18.540 --> 06:22.720
+Wir haben 1024^((t/10) - 1)
+
+06:22.720 --> 06:25.060
+Und jetzt müssen wir vereinfachen.
+
+06:25.060 --> 06:35.720
+1024^1 ist einfach nur 1024.
+
+06:35.720 --> 06:47.480
+Im Nenner haben wir dann 32.
+
+06:47.480 --> 07:00.840
+Dann multiplizieren wir 1024^((t/10) - 1).
+
+07:00.840 --> 07:02.800
+Jetzt vereinfachen wir das hier.
+
+07:02.800 --> 07:08.140
+Du erkennst vielleicht, dass 1024 dasselbe wie 2^10 ist.
+
+07:08.140 --> 07:12.540
+32 ist dasselbe wie 2^5.
+
+07:12.540 --> 07:15.240
+Also dividieren wir 2^10 durch 2^5.
+
+07:15.240 --> 07:19.160
+Das ist eine weitere Exponenteneigenschaft,
+du kannst aber auch einfach die Zahlen dividieren.
+
+07:19.160 --> 07:23.280
+Wenn du (a^b)/(a^c) hast,
+
+07:23.280 --> 07:26.960
+ist es dasselbe wie a^(b - c).
+
+07:26.960 --> 07:32.280
+Das ergibt also 2^(10 - 5)
+
+07:32.280 --> 07:43.360
+Dieser ganze Bruch hier ergibt also 2^5 bzw. 32.
+
+07:43.360 --> 07:56.520
+Wir haben also 32 ⋅ 1024^((t/10) - 1).
+
+07:56.520 --> 08:00.460
+Normalerweise wollen wir Dinge vereinfachen,
+
+08:00.460 --> 08:03.240
+was natürlich eine gute Idee ist.
+
+08:03.240 --> 08:05.960
+Aber in diesem Fall haben wir den
+Ausdruck komplizierter gemacht.
+
+08:05.960 --> 08:12.180
+Wir haben mit 1/32 ⋅ 2^t angefangen,
+
+08:12.180 --> 08:15.360
+und in diesen Ausdruck mit einem
+komplizierten Exponenten verwandelt.
+
+08:15.360 --> 08:20.400
+Aber es ist eine nützliche Fähigkeit,
+weil du vielleicht auf so ein Ergebnis kommst,
+
+08:20.400 --> 08:22.800
+und jemand anderes bekommt
+vielleicht so ein Ergebnis,
+
+08:22.800 --> 08:25.640
+und es ist sehr wichtig zu erkennen,
+dass es sich um das gleiche Ergebnis handelt,
+
+08:25.640 --> 08:30.960
+und es nur zwei verschiedene Formen sind,
+die denselben Exponentenausdruck beschreiben.

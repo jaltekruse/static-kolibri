@@ -1,0 +1,331 @@
+WEBVTT
+
+00:00.630 --> 00:02.140
+Alyssa spielt ein Videospiel.
+
+00:02.140 --> 00:04.140
+Ihr Spielcharakter hat den Auftrag
+
+00:04.140 --> 00:07.380
+einen bösen Zauberer samt seinen Untertanen zu vernichten.
+
+00:07.380 --> 00:09.850
+Ihr Spielcharakter ist ein Magier, dessen
+
+00:09.850 --> 00:12.310
+Zaubersprüche eine Reichweite von 6 Metern haben.
+
+00:12.310 --> 00:14.330
+Die Standorte der Objekte im Spiel
+
+00:14.330 --> 00:17.850
+werden im Computer mit Hilfe eines Koordinatensystems gespeichert.
+
+00:17.850 --> 00:21.090
+(5|4) ist der Standort von Alyssa's Magier.
+
+00:21.090 --> 00:24.980
+(8|7) ist der Standort von Untertan A.
+
+00:24.980 --> 00:28.090
+(2|-1) ist der Standort von Untertan B.
+
+00:28.090 --> 00:30.884
+(9|0) ist der Standort von Untertan C.
+
+00:30.884 --> 00:33.300
+Ich möchte, dass du nun das Video pausierst und
+
+00:33.300 --> 00:36.310
+nachdenkst, welchen Untertan der Magier
+
+00:36.310 --> 00:39.270
+mit seiner Reichweite von 6 Metern
+
+00:39.270 --> 00:42.169
+erreichen kann.
+
+00:42.169 --> 00:43.710
+Ich nehme an, dass du kurz pausiert hast.
+
+00:43.710 --> 00:45.367
+Wir müssen nun herausfinden,
+
+00:45.367 --> 00:47.450
+welche der Untertanen in Reichweite sind.
+
+00:47.450 --> 00:49.241
+Welche dieser Punkte liegen innerhalb
+
+00:49.241 --> 00:50.380
+von 6 Einheiten?
+
+00:50.380 --> 00:53.290
+Wir nehmen an, dass diese Einheiten hier in Metern angegeben sind.
+
+00:53.290 --> 00:57.979
+Welche dieser Punkte sind innerhalb der 6 Einheiten?
+
+00:57.979 --> 00:59.520
+Um das herauszufinden, müssen
+
+00:59.520 --> 01:01.353
+wir nur den Abstand zwischen
+
+01:01.353 --> 01:03.990
+dem Standort des Zauberers
+
+01:03.990 --> 01:07.220
+zu den einzelnen Untertanen bestimmen
+
+01:07.220 --> 01:09.730
+und prüfen, ob sie innerhalb der Reichweite von 6 Metern liegen.
+
+01:09.730 --> 01:12.810
+Wie bestimmen wir Distanz zwischen zwei Punkten?
+
+01:12.810 --> 01:18.190
+Das ist ein Punkt mit einer x1-Koordinate und einer y1-Koordinate.
+
+01:18.190 --> 01:24.690
+Das ist ein weiterer Punkt mit einer x2-Koordinate und einer y2-Koordinate.
+
+01:24.690 --> 01:28.724
+Nun wollen wir die Distanz hier bestimmen.
+
+01:28.724 --> 01:31.140
+Die Distanzformel kann man aus dem
+
+01:31.140 --> 01:33.150
+Satz des Pythagoras ableiten.
+
+01:33.150 --> 01:34.910
+Der Satz des Pythagoras besagt, dass
+
+01:34.910 --> 01:38.224
+wenn diese Seite unsere Veränderung in y ist
+
+01:38.224 --> 01:39.640
+-- lass uns das als
+
+01:39.640 --> 01:42.220
+absolute Veränderung in Y notieren --
+
+01:42.220 --> 01:44.910
+und das ist unsere absolute Veränderung
+
+01:44.910 --> 01:49.720
+in X,
+
+01:49.720 --> 01:54.010
+dann besagt der Satz des Pythagoras,
+
+01:54.010 --> 01:57.370
+dass die Hypotenuse der Quadratwurzel aus der Summe
+
+01:57.370 --> 02:03.465
+der Quadrate der beiden Seiten entspricht.
+
+02:03.465 --> 02:03.965
+Also die Veränderung in X zum Quadrat
+
+02:03.965 --> 02:06.197
+plus die Veränderung in Y zum Quadrat.
+
+02:06.197 --> 02:08.530
+Du fragst dich vielleicht, was mit dem absoluten Wert passiert ist?
+
+02:08.530 --> 02:10.863
+Nun, durch das Quadrieren können
+
+02:10.863 --> 02:13.230
+wir die Betragsstriche vernachlässigen, weil das Ergebnis auch positiv ist.
+
+02:13.230 --> 02:15.060
+Wir müssen eigentlich nur
+
+02:15.060 --> 02:17.370
+zwischen diesen Punkten herausfinden,
+
+02:17.370 --> 02:18.810
+wie die Veränderung in x
+
+02:18.810 --> 02:20.320
+und in y ist.
+
+02:20.320 --> 02:24.310
+Quadrier die Zahlen, zähle sie zusammen und dann ziehst du die Wurzel.
+
+02:24.310 --> 02:33.650
+Zum Beispiel, ich nenne diesen Punkt P1,
+
+02:33.650 --> 02:37.250
+diesen Punkt P2 und
+
+02:37.250 --> 02:40.480
+diesen Punkt P3 -- ich möchte unterschiedliche Farben verwenden,
+
+02:40.480 --> 02:42.610
+damit wir nicht durcheinander kommen.
+
+02:42.610 --> 02:46.950
+Das ist Punkt P3 und das ist P4.
+
+02:46.950 --> 02:53.410
+Nun prüfen wir den Abstand zwischen P1 und P2.
+
+02:53.410 --> 02:56.080
+Nun prüfen wir den Abstand zwischen P1 und P2.
+
+02:56.080 --> 02:59.400
+Das entspricht der Quadratwurzel aus
+
+02:59.400 --> 03:02.760
+der Veränderung in x zum Quadrat plus der Veränderung in y zum Quadrat.
+
+03:02.760 --> 03:04.860
+Die Veränderung in x ist 3.
+
+03:04.860 --> 03:09.870
+3 zum Quadrat ergibt 9 plus der Veränderung in y zum Quadrat.
+
+03:09.870 --> 03:11.940
+Die Veränderung in y ist 3.
+
+03:11.940 --> 03:13.680
+3 zum Quadrat ergibt 9.
+
+03:13.680 --> 03:16.690
+Wir müssen nun die Quadratwurzel aus 18 ziehen, was
+
+03:16.690 --> 03:19.440
+wir zu 3 mal die Quadratwurzel aus 2 vereinfachen können.
+
+03:19.440 --> 03:22.820
+wir zu 3 mal die Quadratwurzel aus 2 vereinfachen können.
+
+03:22.820 --> 03:26.580
+Ist das nun mehr oder weniger als 6?
+
+03:26.580 --> 03:28.370
+3 mal 2 entspricht 6,
+
+03:28.370 --> 03:30.190
+aber die Quadratwurzel aus 2 ist weniger als 2.
+
+03:30.190 --> 03:32.200
+Es ist ungefähr 1, .... irgendwas.
+
+03:32.200 --> 03:38.290
+Dieser Wert ist also kleiner als 6.
+
+03:38.290 --> 03:40.460
+P2 ist damit innerhalb der Reichweite.
+
+03:40.460 --> 03:45.340
+Alyssa's Magier kann den Untertan A angreifen.
+
+03:45.340 --> 03:54.070
+Nun prüfen wir Untertan B. Die Distanz zwischen P1 und P3
+
+03:54.070 --> 03:58.150
+entspricht der Quadratwurzel
+
+03:58.150 --> 04:02.060
+aus der Veränderung in x, das ist -3.
+
+04:02.060 --> 04:05.340
+-3 zum Quadrat ist 9.
+
+04:05.340 --> 04:10.790
+Die Veränderung in y reicht von 4 zu -1, was -5 entspricht.
+
+04:10.790 --> 04:15.380
+-5 zum Quadrat entspricht 25 -- also
+
+04:15.380 --> 04:20.829
+9 plus 25 was der Quadratwurzel aus 34 entspricht.
+
+04:20.829 --> 04:23.590
+Ist das größer oder gleich 6?
+
+04:23.590 --> 04:27.360
+Die Quadratwurzel aus 36 ist 6.
+
+04:27.360 --> 04:29.990
+Hier ziehen wir die Quadratwurzel aus einer kleineren Zahl.
+
+04:29.990 --> 04:33.400
+Daraus folgt, dass das Ergebnis kleiner als 6 ist.
+
+04:33.400 --> 04:37.617
+Also ist Untertan B auch in Reichweite.
+
+04:37.617 --> 04:39.200
+Nun prüfen wir den letzten Punkt.
+
+04:39.200 --> 04:47.580
+Die Distanz zwischen P1 und P4
+
+04:47.580 --> 04:52.310
+entspricht der Quadratwurzel aus der
+
+04:52.310 --> 04:54.560
+Veränderung in x zum Quadrat -- die Veränderung in x ist 4,
+
+04:54.560 --> 04:58.020
+zum Quadrat ergibt 16 -- plus unserer Veränderung in y zum Quadrat.
+
+04:58.020 --> 05:00.460
+Die Veränderung in y ist -4.
+
+05:00.460 --> 05:03.080
+Wenn du das quadrierst erhältst du 16.
+
+05:03.080 --> 05:06.290
+Wir erhalten also die Quadratwurzel aus 32,
+
+05:06.290 --> 05:10.000
+welche wir so stehen lassen können.
+
+05:10.000 --> 05:11.830
+Die Quadratwurzel aus 32 ist ganz klar
+
+05:11.830 --> 05:14.710
+kleiner als die Quadratwurzel aus 36, welche 6 ergibt.
+
+05:14.710 --> 05:17.180
+Das Ergebnis ist kleiner als 6.
+
+05:17.180 --> 05:21.330
+Alyssa kann alle Untertanen angreifen.
+
+05:21.330 --> 05:24.230
+Alle Untertanen sind innerhalb der Reichweite von 6 Einheiten.
+
+05:24.230 --> 05:26.330
+Welcher der Untertan ist am weitesten entfernt?
+
+05:26.330 --> 05:28.139
+Ich habe hier die vereinfachte
+
+05:28.139 --> 05:29.930
+Form notiert, ursprünglich
+
+05:29.930 --> 05:32.870
+stand hier die Quadratwurzel aus 18.
+
+05:32.870 --> 05:34.934
+Die Quadratwurzel aus 18 ist eindeutig das kleinste
+
+05:34.934 --> 05:36.600
+Ergebnis dieser
+
+05:36.600 --> 05:37.930
+drei Wurzeln.
+
+05:37.930 --> 05:42.290
+Untertan A hat den geringsten Abstand zum Zauberer
+
+05:42.290 --> 05:48.290
+und Untertan B hat den größten Abstand zu dem Zauberer.

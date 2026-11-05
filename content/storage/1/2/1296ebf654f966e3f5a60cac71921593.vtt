@@ -1,0 +1,124 @@
+WEBVTT
+
+00:00.255 --> 00:04.285
+Már sok szó esett arról, hogyan használunk polinomokat
+
+00:04.285 --> 00:07.093
+függvényértékek becslésére. Most mindezt
+
+00:07.093 --> 00:09.329
+szeretném demonstrálni is.
+
+00:09.329 --> 00:11.745
+Amint láthatjátok, ehhez a Wolfram Alpha-t
+
+00:11.745 --> 00:13.733
+használom. Ez egy nagyszerű szolgáltatás, amellyel
+
+00:13.733 --> 00:15.200
+mindenféle őrült matematikai dolgot ki lehet próbálni.
+
+00:15.200 --> 00:19.302
+A cím: wolframalpha.com,
+
+00:19.302 --> 00:22.334
+ahová bemásoltam az egyenletet. Nemrég találkoztam
+
+00:22.334 --> 00:24.252
+Steven Wolfram-mal egy konferencián, és
+
+00:24.252 --> 00:25.931
+ő mondta, hogy nyugodtan használjam a Wolfram Alpha-t
+
+00:25.931 --> 00:27.800
+a videóimban, szóval ezt fogom most tenni.
+
+00:27.800 --> 00:30.333
+Maga a program nagyon hasznos, mert
+
+00:30.333 --> 00:33.000
+(bár ezt mi magunk is kiszámolhattuk volna,
+
+00:33.000 --> 00:34.933
+esetleg egy grafikus számológépen),
+
+00:34.933 --> 00:37.444
+egyetlen lépésben megnézhetjük, hogy
+
+00:37.444 --> 00:41.133
+milyen jól tudjuk megbecsülni
+
+00:41.133 --> 00:47.400
+sin x értékét Maclaurin-féle sorbafejtéssel,
+
+00:47.400 --> 00:50.600
+vagy más néven egy Taylor-sorral, x = 0-nál,
+
+00:50.600 --> 00:52.867
+egyre több tagot hozzáadva,
+
+00:52.867 --> 00:54.683
+azzal a jó érzéssel, hogy
+
+00:54.683 --> 00:56.400
+minél több tagot adunk hozzá,
+
+00:56.400 --> 00:58.867
+annál jobban körülöleli a szinuszgörbét.
+
+00:58.867 --> 01:03.019
+Szóval ez a narancssárga görbe a sin x,
+
+01:03.019 --> 01:06.757
+amelynek a képe már viszonylag ismerős nekünk.
+
+01:06.757 --> 01:08.867
+Az előző videóban megállapítottuk, hogy
+
+01:08.867 --> 01:11.533
+mi a sin x Maclaurin-sora.
+
+01:11.533 --> 01:15.533
+A Wolfram Alpha van olyan kedves, hogy
+
+01:15.533 --> 01:17.867
+még a faktoriálisokat is kiszámolja nekünk.
+
+01:17.867 --> 01:22.181
+3 faktoriális = 6, 5 faktoriális = 120, és így tovább.
+
+01:22.181 --> 01:24.000
+Érdekesség, hogy itt kiválaszthatjuk, hogy
+
+01:24.000 --> 01:26.750
+hány becslést szeretnénk megjeleníteni a grafikonon.
+
+01:26.750 --> 01:29.533
+Ha csak egy taggal szeretnénk
+
+01:29.533 --> 01:31.933
+elvégezni a becslést, és azt mondjuk, hogy
+
+01:31.933 --> 01:36.369
+az egész polinom értéke megegyezik x-szel,
+
+01:36.369 --> 01:38.360
+az hogyan néz ki?
+
+01:38.360 --> 01:40.357
+Nos, az ez az egyenes lesz, itt.
+
+01:40.357 --> 01:42.733
+A használt tagok számát megtudhatjuk
+
+01:42.733 --> 01:44.467
+a vonalon lévő pöttyök számából,
+
+01:44.467 --> 01:46.867
+ami szerintem egy okos megoldás.
+
+01:46.867 --> 01:50.800
+Szóval ez a függvény, p(x)
+
+01:50.800 --> 3:59:59.999
+p(x) = x

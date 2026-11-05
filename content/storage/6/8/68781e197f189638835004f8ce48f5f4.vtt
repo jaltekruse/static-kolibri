@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.760 --> 00:03.400
+Phương trình đường tròn C là x cộng 3
+
+00:03.400 --> 00:06.340
+tất cả bình, cộng y trừ 4 tất cả bình, bằng 49.
+
+00:06.340 --> 00:09.470
+Tâm điểm (h, k) và bán kính r của nó là gi?
+
+00:09.470 --> 00:12.210
+Hãy ôn lại xem đường tròn là gì.
+
+00:12.210 --> 00:15.910
+Bạn có 1 điểm (h,k).
+
+00:15.910 --> 00:18.560
+Đường tròn là 1 tập hợp các điểm
+
+00:18.560 --> 00:21.490
+cách đều điểm (h,k).
+
+00:21.490 --> 00:23.550
+Nói rằng tập hợp các điểm này
+
+00:23.550 --> 00:26.380
+cách điểm (h,k) 1 khoảng bằng r.
+
+00:26.380 --> 00:30.780
+Gọi khoảng cách ở đây
+
+00:30.780 --> 00:34.940
+là r, và ta muốn tìm tập hợp các điểm
+
+00:34.940 --> 00:36.060
+cách (h,k) đúng 1 khoảng bằng r.
+
+00:36.060 --> 00:39.771
+Vậy tất cả các điểm (x,y) cách (h,k) 1 khoảng là r.
+
+00:39.771 --> 00:41.770
+Hãy tưởng tượng bạn có thể xoay vòng
+
+00:41.770 --> 00:44.300
+và tất cả các điểm này cách đúng 1 khoảng bằng r.
+
+00:44.300 --> 00:48.470
+Mình đang cố hết sức để vẽ
+
+00:48.470 --> 00:50.760
+1 vòng tròn hoàn chỉnh.
+
+00:50.760 --> 00:53.590
+Mình không làm hoàn hảo được, nhưng bạn vẫn có thể nhìn ra.
+
+00:53.590 --> 00:57.830
+Tất cả các điểm này cách (h,k) 1 khoảng là r,
+
+00:57.830 --> 00:59.510
+và mình sẽ vẽ tương đối rằng
+
+00:59.510 --> 01:01.170
+chúng cách (h,k) 1 khoảng là r.
+
+01:01.170 --> 01:05.319
+Vậy làm sao ta tìm được 1 phương trình chứa r, h, x
+
+01:05.319 --> 01:08.540
+và y để miêu tả tất cả các điểm này?
+
+01:08.540 --> 01:10.740
+Ta biết cách để tìm khoảng cách giữa 2 điểm
+
+01:10.740 --> 01:12.610
+trong 1 mặt phẳng tọa độ.
+
+01:12.610 --> 01:15.820
+Ta có thể suy ra từ định lý Pytago.
+
+01:15.820 --> 01:18.800
+Nếu ta vẽ 1 đường thẳng đứng ở đây,
+
+01:18.800 --> 01:22.320
+nó cũng là biến thiên của trục thẳng đứng
+
+01:22.320 --> 01:27.720
+giữa 2 điểm ở đây, ở đây là y, và đây là k,
+
+01:27.720 --> 01:31.200
+vậy khoảng cách này là y trừ k.
+
+01:31.200 --> 01:33.625
+Ta có thể làm điều tương tự với trục nằm ngang.
+
+01:39.030 --> 01:43.840
+Hoành độ ở đây là x, còn ở đây là h.
+
+01:43.840 --> 01:50.060
+Vậy khoảng cách ở đây là x trừ h.
+
+01:50.060 --> 01:52.610
+Và đây là 1 tam giác vuông, vì theo định nghĩa,
+
+01:52.610 --> 01:55.780
+khi ta đo khoảng cách thẳng đứng ở đây.
+
+01:55.780 --> 01:57.640
+Và khoảng cách nằm ngang ở đây,
+
+01:57.640 --> 01:59.500
+thì 2 cái này là vuông góc.
+
+01:59.500 --> 02:01.510
+Theo định lý Pytago,
+
+02:01.510 --> 02:04.860
+ta biết bình phương cái này cộng bình phương cái này
+
+02:04.860 --> 02:07.040
+thì bằng bình phương khoảng cách,
+
+02:07.040 --> 02:09.340
+và đây là xuất xứ của công thức tính khoảng cách.
+
+02:09.340 --> 02:18.530
+Vậy, x trừ h tất cả bình, cộng y trừ k tất cả bình
+
+02:18.530 --> 02:21.430
+bằng r bình.
+
+02:21.430 --> 02:23.450
+Phương trình này
+
+02:23.450 --> 02:26.120
+miêu tả x và y bất kỳ nào
+
+02:26.120 --> 02:29.607
+thỏa phương trình này sẽ thuộc đường tròn.
+
+02:29.607 --> 02:32.190
+Sau khi đã ôn lại, hãy giải phương trình này nhé.
+
+02:32.190 --> 02:34.530
+Phương trình của đường tròn là ở đây.
+
+02:34.530 --> 02:37.075
+Và nó trông rất giống với dạng ta vừa viết,
+
+02:37.075 --> 02:38.450
+ta chỉ cần chắc chắn là
+
+02:38.450 --> 02:40.033
+sẽ không nhầm lẫn với các số âm.
+
+02:40.033 --> 02:43.620
+Hãy nhớ là cái này phải ở dạng x trừ h và y trừ k.
+
+02:43.620 --> 02:45.510
+Nên hãy viết lại theo đúng dạng nhé.
+
+02:45.510 --> 02:47.680
+Thay vì x cộng 3 tất cả bình,
+
+02:47.680 --> 02:53.840
+ta sẽ viết nó là x trừ âm 3, tất cả bình.
+
+02:53.840 --> 02:55.340
+Rồi cộng cho phần đã
+
+02:55.340 --> 03:00.490
+đúng dạng là y trừ 4 tất cả bình,
+
+03:00.490 --> 03:05.310
+bằng... thay vì là 49, ta sẽ viết là 7 bình.
+
+03:05.310 --> 03:08.740
+Sau khi đã làm rõ được
+
+03:08.740 --> 03:11.990
+h là âm 3...
+
+03:11.990 --> 03:20.250
+mình sẽ viết màu đỏ, h là âm 3,
+
+03:20.250 --> 03:26.500
+k là dương 4 và r là 7.
+
+03:26.500 --> 03:31.460
+Ta nói điểm (h,k) là (-3,
+
+03:31.460 --> 03:32.350
+4).
+
+03:32.350 --> 03:34.100
+Bạn có thể nhầm là
+
+03:34.100 --> 03:35.558
+ở đây là âm 4 này thì sai rồi.
+
+03:35.558 --> 03:37.540
+Nó là dạng y trừ k, và ở dưới là trừ 4.
+
+03:37.540 --> 03:38.850
+Nên k bằng 4.
+
+03:38.850 --> 03:40.917
+Tương tự, trên đây là x trừ h.
+
+03:40.917 --> 03:42.750
+Bạn cũng có thể nhầm là h là 3,
+
+03:42.750 --> 03:44.580
+nhưng bạn phải trừ h cơ.
+
+03:44.580 --> 03:50.328
+Vậy đúng phải là h âm 3, và bán kính là 7.

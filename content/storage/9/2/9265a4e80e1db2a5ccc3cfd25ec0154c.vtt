@@ -1,0 +1,541 @@
+WEBVTT
+
+00:00.694 --> 00:03.441
+Số lượng cá thể P theo T của một loại vi khuẩn,
+
+00:03.441 --> 00:06.159
+ở trong một cái đĩa thỏa mãn phương trình vi phân
+
+00:06.159 --> 00:07.760
+logistic sau.
+
+00:07.760 --> 00:10.360
+Tỉ lệ thay đổi của số lượng cá thể tính theo thời gian,
+
+00:10.360 --> 00:13.299
+bằng với 2 nhân số lượng cá thể, nhân với
+
+00:13.299 --> 00:15.513
+hiệu của 6,
+
+00:15.513 --> 00:18.125
+và số lượng cá thể chia cho 8000,
+
+00:18.125 --> 00:21.205
+với T được tính theo đơn vị giờ, và số lượng cá thể ban đầu,
+
+00:21.205 --> 00:22.538
+là bằng 700.
+
+00:23.746 --> 00:27.470
+Vậy, giá trị tối đa của số lượng cá thể là gì,
+
+00:27.470 --> 00:30.074
+và số lương cá thể là bao nhiêu,
+
+00:30.074 --> 00:32.574
+khi nó đang tăng với tốc độ nhanh nhất?
+
+00:33.926 --> 00:36.563
+Để tìm lời giải cho những câu hỏi này,
+
+00:36.563 --> 00:39.214
+nếu ở một đoạn video nào đó, bạn cảm thấy có thể tự giải tiếp,
+
+00:39.214 --> 00:41.503
+thì hãy bấm ngừng video và tự làm thử nhé.
+
+00:41.503 --> 00:43.942
+Hãy nhắc lại một tí về bài mà ta đang làm,
+
+00:43.942 --> 00:44.990
+hay kiến thức đề nói tới,
+
+00:44.990 --> 00:47.024
+về phương trình vi phân logistic,
+
+00:47.024 --> 00:49.882
+và giá trị tối đa.
+
+00:49.882 --> 00:52.312
+Nói chung, phương trình vi phân logistic,
+
+00:52.312 --> 00:54.604
+cho ta thấy tỉ lệ thay đổi,
+
+00:54.604 --> 00:56.252
+và nó thường nói tới số lượng cá thể,
+
+00:56.252 --> 00:58.047
+nên ta hãy tập trung vào nó.
+
+00:58.047 --> 01:01.546
+Vậy tỉ lệ thay đổi của số lượng cá thể theo thời gian,
+
+01:01.546 --> 01:05.977
+tỉ lệ thuận với tích của số lượng cá thể,
+
+01:05.977 --> 01:07.990
+và hiệu của,
+
+01:07.990 --> 01:11.590
+giá trị cá thể tối đa, và số lương cá thể.
+
+01:11.590 --> 01:14.866
+Vậy tại sao mô hình này, bạn đã thấy rất nhiều,
+
+01:14.866 --> 01:16.512
+tại sao nó hữu dụng,
+
+01:16.512 --> 01:18.757
+trong nghiên cứu về số lượng cá thể.
+
+01:18.757 --> 01:21.674
+Khi số lượng cá thể nhỏ,
+
+01:21.674 --> 01:24.590
+môi trường không giới hạn nó,
+
+01:24.590 --> 01:27.842
+và ta hãy giả sử rằng nó bắt đầu từ một giá trị khác 0.
+
+01:27.842 --> 01:31.493
+Nó lớn dần lên, nó trở nên lớn hơn.
+
+01:31.493 --> 01:35.122
+Do đó, số lượng cá thể này,
+
+01:35.122 --> 01:38.894
+sẽ có tỉ lệ thay đổi theo hướng đang tăng.
+
+01:38.894 --> 01:41.651
+Để mình vẽ một đồ thị ở đây,
+
+01:41.651 --> 01:43.761
+để cho bạn thấy một lời giải điển hình,
+
+01:43.761 --> 01:45.857
+cho phương trình vi phân logistic.
+
+01:45.857 --> 01:47.997
+Đây là số lượng cá thể, đây là thời gian,
+
+01:47.997 --> 01:50.620
+khi số lượng cá thể thấp,
+
+01:50.620 --> 01:52.500
+giả sử nó bắt đầu từ một giá trị khác 0,
+
+01:52.500 --> 01:53.963
+nếu là 0 thì điều gì xảy ra,
+
+01:53.963 --> 01:55.943
+thì tỉ lệ thay đổi sẽ là 0,
+
+01:55.943 --> 01:57.811
+và số lượng cá thể sẽ không bao giờ tăng.
+
+01:57.811 --> 02:00.073
+Nếu bạn không có con thỏ nào trên đảo,
+
+02:00.073 --> 02:02.424
+thì sau này bạn cũng sẽ không có con thỏ nào,
+
+02:02.424 --> 02:05.340
+nhưng nếu ban đầu bạn có một vài con,
+
+02:05.340 --> 02:06.609
+thì tỉ lệ thay đổi của chúng,
+
+02:06.609 --> 02:09.383
+số lượng cá thể sẽ tăng,
+
+02:09.383 --> 02:13.581
+nó sẽ lớn dần lên, nó cứ tăng trưởng như thế,
+
+02:13.581 --> 02:17.321
+và một lúc nào đó môi trường sẽ phản ứng,
+
+02:17.321 --> 02:20.764
+nó sẽ giới hạn số thỏ hoặc ở đây là số lượng vi khuẩn,
+
+02:20.764 --> 02:22.390
+ở trong môi trường.
+
+02:22.390 --> 02:25.504
+Vì khi số lượng cá thể tiến gần tới A,
+
+02:25.504 --> 02:28.090
+thứ này sẽ tiến tới 0,
+
+02:28.090 --> 02:29.945
+và nó sẽ làm cho tỉ lệ thay đổi,
+
+02:29.945 --> 02:31.806
+nhỏ dần và nhỏ dần,
+
+02:31.806 --> 02:34.742
+vậy bạn có thể liên tưởng trong trường hợp đó,
+
+02:34.742 --> 02:36.909
+khi P tiến rất gần tới A,
+
+02:41.982 --> 02:44.108
+bạn có thể tưởng tượng khi T tiến tới vô cực,
+
+02:44.108 --> 02:46.771
+tỉ lệ thay đổi của ta sẽ tiến tới 0.
+
+02:46.771 --> 02:48.629
+Vậy một cách để nghĩ về nó,
+
+02:48.629 --> 02:52.796
+số lượng cá thể sẽ tiến tới giá trị tối đa.
+
+02:54.088 --> 02:58.544
+Chính là A ở đây, đó là giá trị tối đa của ta.
+
+02:58.544 --> 02:59.942
+Ta có 2 cách,
+
+02:59.942 --> 03:02.927
+để tìm đáp án cho câu 1; cách một là,
+
+03:02.927 --> 03:05.456
+để phương trình vi phân logistic ở dạng này,
+
+03:05.456 --> 03:08.047
+và từ đó tìm ra,
+
+03:08.047 --> 03:10.083
+giá trị tối đa là gì.
+
+03:10.083 --> 03:12.224
+Một cách khác là liên tưởng chuyện gì xảy ra,
+
+03:12.224 --> 03:13.893
+khi T tiến tới vô cực.
+
+03:13.893 --> 03:17.828
+Khi T tiến tới vô cực, cái này tiến tới 0.
+
+03:17.828 --> 03:20.611
+vậy nhìn vào phương trình vi phân này,
+
+03:20.611 --> 03:24.194
+ta tìm giá trị P mà làm cho cái tỉ lệ thay đổi này bằng 0,
+
+03:25.272 --> 03:26.598
+dựa vào phương trình vi phân,
+
+03:26.598 --> 03:28.711
+hoặc khi cái này tiến tới 0,
+
+03:28.711 --> 03:31.719
+thì giá trị P sẽ tiến tới cái gì.
+
+03:31.719 --> 03:33.515
+Hãy làm cả 2 cách nhé,
+
+03:33.515 --> 03:37.130
+Cách một, để mình viết nó dưới dạng này.
+
+03:37.130 --> 03:40.670
+Đây là 6 trừ P chia cho 8000,
+
+03:40.670 --> 03:42.477
+ta có thể chuyển thành dạng một số nào đó,
+
+03:42.477 --> 03:43.770
+trừ P không.
+
+03:43.770 --> 03:46.670
+Chà, nếu ta nhân cái này với 8000,
+
+03:46.670 --> 03:48.664
+và chia cái này cho 8000,
+
+03:48.664 --> 03:50.885
+ta sẽ không làm thay đổi giá trị của biểu thức,
+
+03:50.885 --> 03:52.038
+hãy làm như thế.
+
+03:52.038 --> 03:54.610
+Nếu ta chia cái này cho 8000, ta có,
+
+03:54.610 --> 03:58.777
+dp, dt bằng với 2P chia cho 8000 là P chia 4000, nhân với,
+
+04:03.934 --> 04:07.787
+giờ hãy nhân biểu thức này với 8000.
+
+04:07.787 --> 04:11.954
+Vậy 6 nhân 8000 là 48,000 trừ P chia 8000 nhân 8000,
+
+04:14.960 --> 04:17.070
+chính là trừ P.
+
+04:17.070 --> 04:19.502
+Ta đã viết nó thành dạng chuẩn,
+
+04:19.502 --> 04:21.793
+và ta có thể thấy giá trị tối đa,
+
+04:21.793 --> 04:25.293
+là 48,000, ta nói là 48,000 vi khuẩn.
+
+04:27.459 --> 04:31.367
+Vậy câu trả lời cho câu này là 48,000.
+
+04:31.367 --> 04:33.317
+Một cách khác để ta giải,
+
+04:33.317 --> 04:35.384
+chà giá trị tối đa xuất hiện khi,
+
+04:35.384 --> 04:37.068
+khi T tiến tới vô cực.
+
+04:37.068 --> 04:39.813
+Vậy khi T tiến tới vô cực, giá trị ở đây,
+
+04:39.813 --> 04:41.646
+sẽ tiến tới 0, tỉ lệ thay đổi,
+
+04:41.646 --> 04:43.369
+sẽ tiến tới 0.
+
+04:43.369 --> 04:47.252
+Vậy khi nó tiến tới 0, thì P tiến tới giá trị nào?
+
+04:47.252 --> 04:51.419
+Ta hãy giải nó, 6 trừ P chia cho 8000,
+
+04:53.128 --> 04:55.038
+Chà có 2 trường hợp,
+
+04:55.038 --> 04:57.385
+2 giá trị P thỏa mãn đạo hàm này bằng 0.
+
+04:57.385 --> 04:59.923
+Trường hợp 1 là P bằng 0,
+
+04:59.923 --> 05:01.892
+là lúc số lượng cá thể là 0,
+
+05:01.892 --> 05:04.975
+trường hợp 2 là khi cái này bằng 0.
+
+05:04.975 --> 05:09.740
+Giải nó nhé, 6 trừ P chia cho 8000 bằng 0,
+
+05:09.740 --> 05:13.323
+hay P chia cho 8000 bằng với 6.
+
+05:15.382 --> 05:17.811
+Ta nhân cả 2 vế với 8000,
+
+05:17.811 --> 05:19.478
+thì P sẽ bằng 48,000.
+
+05:21.046 --> 05:24.348
+Chính là kết quả ta có ở đây.
+
+05:24.348 --> 05:26.173
+Giờ hãy giải câu 2.
+
+05:26.173 --> 05:30.176
+Số lượng cá thể là bao nhiêu khi nó đang tăng nhanh nhất?
+
+05:30.176 --> 05:33.302
+Vậy theo trực giác, bạn sẽ thấy ở ngay đây,
+
+05:33.302 --> 05:36.381
+tỉ lệ thay đổi đang tăng,
+
+05:36.381 --> 05:39.041
+nhưng khi ta tiến dần tới giá trị tối đa,
+
+05:39.041 --> 05:40.842
+tỉ lệ thay đổi bắt đầu chậm lại.
+
+05:40.842 --> 05:43.741
+Vậy tỉ lệ thay đổi lớn nhất, khi nó tăng nhanh nhất,
+
+05:43.741 --> 05:47.908
+là ở ngay đây, nhưng làm sao để tính chính xác.
+
+05:49.543 --> 05:50.978
+Bạn có thể quay lại,
+
+05:50.978 --> 05:52.493
+phương trình vi phân logistic này.
+
+05:52.493 --> 05:54.931
+Bạn có thể thấy tỉ lệ thay đổi của ta,
+
+05:54.931 --> 05:57.142
+là một hàm số, bạn hãy xem nó như hàm số,
+
+05:57.142 --> 06:00.090
+của số lượng cá thể ở bài này.
+
+06:00.090 --> 06:02.674
+Đây thật ra là phương trình bậc 2.
+
+06:02.674 --> 06:05.470
+Đây là biểu thức bậc 2 quay bề lõm xuống dưới.
+
+06:05.470 --> 06:06.373
+Nó trông như này,
+
+06:06.373 --> 06:10.354
+nếu bạn vẽ đồ thị tỉ lệ thay đổi ra, để mình vẽ nó nhé,
+
+06:10.354 --> 06:13.354
+đồ thị của tỉ lệ thay đổi,
+
+06:14.355 --> 06:17.188
+dp dt là hàm số của số lượng cá thể,
+
+06:18.396 --> 06:22.563
+khi số lượng cá thể nhỏ,
+
+06:24.340 --> 06:28.350
+cho là 700 đi, từ đó ta bắt đầu tăng lên.
+
+06:28.350 --> 06:30.480
+Mình đang nói tổng quát nhé.
+
+06:30.480 --> 06:34.916
+khi số lượng cá thể nhỏ, tỉ lệ sẽ nhỏ,
+
+06:34.916 --> 06:39.083
+nhưng nó sẽ tăng tại một điểm quanh đây,
+
+06:40.604 --> 06:45.018
+tỉ lệ thay đổi bắt đầu giảm và tiến tới 0,
+
+06:45.018 --> 06:49.702
+khi số lượng cá thể tiến tới giá trị tối đa.
+
+06:49.702 --> 06:52.730
+Vậy ở đây,
+
+06:52.730 --> 06:54.829
+đây là giá trị tối đa của ta.
+
+06:54.829 --> 06:59.132
+Điểm cao nhất ở đây là gì?
+
+06:59.132 --> 07:01.018
+Có 2 cách để bạn giải.
+
+07:01.018 --> 07:03.421
+Với giải tích hoặc đại số, ta có nhiều công cụ,
+
+07:03.421 --> 07:04.854
+để tìm điểm lớn nhất,
+
+07:04.854 --> 07:07.665
+hay còn gọi là đỉnh của hình có bề lõm hướng xuống này.
+
+07:07.665 --> 07:09.909
+Đây là hình parabol có bề lõm hướng xuống.
+
+07:09.909 --> 07:13.017
+Hãy giải nó nào, hãy tìm đỉnh,
+
+07:13.017 --> 07:16.459
+đỉnh sẽ nằm giữa các nghiệm,
+
+07:16.459 --> 07:18.411
+của phương trình bặc hai này.
+
+07:18.411 --> 07:22.229
+Hãy tìm giá trị P mà làm cho cái này bằng 0,
+
+07:22.229 --> 07:25.146
+và thật ra ta đã vừa tìm ra lúc nãy,
+
+07:26.655 --> 07:30.584
+và đỉnh sẽ nằm ở chính giữa khoảng đó.
+
+07:30.584 --> 07:34.411
+Vậy khi số lượng cá thể là 0, tỉ lệ thay đổi của ta bằng 0.
+
+07:34.411 --> 07:38.315
+Khi số lượng cá thể là A, hay là 48,000,
+
+07:38.315 --> 07:42.482
+tỉ lệ thay đổi cũng bằng 0, vậy tỉ lệ thay đổi tối đa,
+
+07:44.879 --> 07:47.538
+sẽ nằm chính giữa 2 điểm này,
+
+07:47.538 --> 07:48.788
+chính là 24,000.
+
+07:50.140 --> 07:53.150
+Vậy số lượng cá thể là 24,000.
+
+07:53.150 --> 07:54.833
+Vậy cách ta làm,
+
+07:54.833 --> 07:56.802
+là tìm một điểm để phương trình,
+
+07:56.802 --> 07:58.634
+phương trình bậc 2 của P,
+
+07:58.634 --> 08:01.121
+đạt được tới điểm cực đại.
+
+08:01.121 --> 08:03.607
+Nó sẽ nằm chính giữa các nghiệm,
+
+08:03.607 --> 08:07.398
+các nghiệm này có được khi P bằng 0 và P bằng 48,000.
+
+08:07.398 --> 08:11.218
+Vậy đó là những gì xảy ra khi số lượng cá thể là 24,000.
+
+08:11.218 --> 08:14.673
+Bài tập dạng này thoạt đầu trông có vẻ rất phức tạp,
+
+08:14.673 --> 08:16.318
+phương trình vi phân logistic,
+
+08:16.318 --> 08:18.905
+mình giải bài này và phân tích nó như thế nào,
+
+08:18.905 --> 08:20.619
+chìa khóa là đây; một,
+
+08:20.619 --> 08:23.035
+nhận biết phương trình vi phân logistic,
+
+08:23.035 --> 08:25.287
+nghĩ xem nó đang nói về cái gì,
+
+08:25.287 --> 08:28.847
+và rồi hãy nghĩ về nó dưới dạng tỉ lệ thay đổi,
+
+08:28.847 --> 08:30.781
+là hàm số của số lượng cá thể.
+
+08:30.781 --> 08:33.758
+Và hãy nhớ rằng giá trị tối đa xảy ra khi,
+
+08:33.758 --> 08:38.337
+T tiến tới vô cực, và khi T tiến tới vô cực,
+
+08:38.337 --> 08:42.074
+tỉ lệ thay đổi sẽ tiến tới 0.
+
+08:42.074 --> 08:43.645
+Và khi nó tiến tới 0,
+
+08:43.645 --> 08:46.625
+thì tìm xem số lượng cá thể phải tiến tới giá trị nào.

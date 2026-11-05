@@ -1,0 +1,207 @@
+WEBVTT
+
+00:00.482 --> 00:06.000
+Máme zde tuto funkci f(x),
+která je po částech spojitá.
+
+00:06.018 --> 00:09.231
+Je definovaná na
+několika intervalech.
+
+00:09.231 --> 00:17.028
+Pro x větší než 0 a menší nebo rovno 2
+je f(x) přirozený logaritmus x.
+
+00:17.028 --> 00:23.427
+Pro všechna x větší než 2 je f(x) rovno
+x na druhou krát přirozený logaritmus x.
+
+00:23.427 --> 00:28.576
+A my chceme najít limitu f(x)
+pro x blížící se ke 2.
+
+00:28.576 --> 00:30.813
+Na hodnotě 2 je zajímavé to,
+
+00:30.813 --> 00:34.597
+že jde o hraniční bod mezi
+těmito dvěma intervaly.
+
+00:34.597 --> 00:38.132
+Pokud chceme funkci vyčíslit
+v bodě 2, tak použijeme tento předpis.
+
+00:38.132 --> 00:42.753
+f v bodě 2… 2 je menší nebo
+rovno 2 a větší než 0,
+
+00:42.753 --> 00:46.652
+takže hodnotu f(2)
+už snadno zjistíme,
+
+00:46.652 --> 00:48.390
+je to přirozený
+logaritmus ze 2.
+
+00:48.390 --> 00:51.321
+Ale to nutně nemusí
+být rovno limitě.
+
+00:51.321 --> 00:54.521
+Abychom zjistili, čemu se rovná
+limita, tak se musíme podívat,
+
+00:54.521 --> 00:57.927
+jak vypadá limita zleva,
+jak vypadá limita zprava,
+
+00:57.927 --> 01:00.918
+zda vůbec existují, a pokud ano,
+tak jestli si jsou rovny.
+
+01:00.918 --> 01:04.778
+Pokud si budou rovny, tak budeme
+mít dobře definovanou oboustrannou limitu.
+
+01:04.778 --> 01:06.840
+Tak se do toho pusťme.
+
+01:06.840 --> 01:19.769
+Podíváme se na limitu f(x) pro x blížící
+se ke 2 zleva, po hodnotách menších než 2.
+
+01:19.769 --> 01:25.023
+V tomto případě se budeme
+pohybovat v tomto intervalu.
+
+01:25.027 --> 01:32.230
+Pracujeme s hodnotami menšími než 2,
+blížíme se ke 2 zleva.
+
+01:32.239 --> 01:35.224
+Bude tak platit tento předpis.
+
+01:35.224 --> 01:41.688
+Jelikož je tento předpis spojitý
+na intervalu, v němž se pohybujeme,
+
+01:41.688 --> 01:46.919
+určitě je spojitý pro všechny hodnoty
+x větší než 0 a menší nebo rovno 2,
+
+01:46.919 --> 01:52.476
+tak tato limita bude rovna
+tomuto předpisu vyčíslenému v bodě 2,
+
+01:52.476 --> 01:54.467
+protože je na tomto
+intervalu spojitý.
+
+01:54.467 --> 01:58.468
+Toto se tak bude rovnat
+přirozenému logaritmu ze 2.
+
+01:58.468 --> 02:04.743
+Nyní se zamysleme nad limitou
+zprava, pro hodnoty větší než 2.
+
+02:04.743 --> 02:13.446
+Tedy limita f(x) pro x
+blížící se ke 2 zprava.
+
+02:13.726 --> 02:16.378
+Přestože 2 spadá
+do tohoto intervalu,
+
+02:16.378 --> 02:18.598
+tak když se blížíme od
+hodnot větších než 2,
+
+02:18.598 --> 02:20.236
+tak platí tento případ.
+
+02:20.236 --> 02:24.280
+Takže se blížíme ke 2
+a používáme tento předpis.
+
+02:24.280 --> 02:33.803
+Tento předpis je opět spojitý
+nejen pro všechny hodnoty x větší než 2,
+
+02:33.803 --> 02:36.572
+ve skutečnosti i pro
+hodnoty větší nebo rovny 2.
+
+02:36.572 --> 02:40.956
+V tomto případě tak
+můžeme použít stejný argument,
+
+02:40.956 --> 02:47.003
+že naše limita je rovna tomuto
+předpisu vyčíslenému v bodě 2.
+
+02:47.003 --> 02:50.333
+Pokud bychom pouze
+vyčíslili funkci v bodě 2,
+
+02:50.333 --> 02:52.026
+tak bychom použili
+tento předpis,
+
+02:52.046 --> 02:53.586
+ale my se blížíme zprava.
+
+02:53.586 --> 02:56.546
+Když se blížíme zprava,
+tak jsou hodnoty x větší než 2,
+
+02:56.546 --> 02:58.498
+a proto platí tento předpis.
+
+02:58.498 --> 03:04.483
+Nyní tedy vyčíslíme tento předpis
+v bodě 2, jelikož je spojitý.
+
+03:04.483 --> 03:09.983
+Toto se rovná 2 na druhou
+krát přirozený logaritmus ze 2,
+
+03:09.983 --> 03:17.098
+a to je rovno 4 krát
+přirozený logaritmus ze 2.
+
+03:17.098 --> 03:21.004
+Limita zprava tedy existuje,
+
+03:21.004 --> 03:23.387
+limita zleva také existuje,
+
+03:23.387 --> 03:27.757
+ale problém je, že jsou
+to dvě různé hodnoty.
+
+03:27.757 --> 03:31.784
+Zleva se blížíme k jiné
+hodnotě než zprava.
+
+03:31.784 --> 03:36.954
+Pokud bychom si nakreslili graf,
+tak bychom v grafu viděli skok.
+
+03:36.954 --> 03:41.116
+Viděli bychom
+zde nespojitost.
+
+03:41.116 --> 03:46.028
+Pro tento případ dochází k
+tzv. nespojitosti 1.druhu.
+
+03:46.028 --> 03:48.034
+Tato limita neexistuje,
+
+03:48.034 --> 03:51.985
+protože limita zleva a
+limita zprava se nerovnají.
+
+03:51.985 --> 03:59.892
+Tedy tato limita neexistuje.

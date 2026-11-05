@@ -1,0 +1,905 @@
+WEBVTT
+
+00:00.459 --> 00:02.272
+Mình đã nói qua các cách
+
+00:02.272 --> 00:03.813
+để tìm giới hạn
+
+00:03.813 --> 00:06.370
+trong nhiều video và bài tập.
+
+00:06.370 --> 00:08.936
+Nhưng sẽ tốt hơn nếu mình biết
+
+00:08.936 --> 00:11.767
+khi nào dùng cách nào.
+
+00:11.767 --> 00:14.500
+Và mình sẽ nói điều đó trong video này.
+
+00:14.500 --> 00:16.307
+Đây là một sơ đồ quy trình
+
+00:16.307 --> 00:19.076
+được viết bởi Khan Academy.
+
+00:19.076 --> 00:21.163
+Và giờ mình sẽ đi qua sơ đồ này.
+
+00:21.163 --> 00:22.911
+Nhìn thì nó khá phức tạp
+
+00:22.911 --> 00:25.186
+nhưng hy vọng là nó sẽ dễ hiểu hơn
+
+00:25.186 --> 00:26.841
+khi mình giải thích xong.
+
+00:26.841 --> 00:28.564
+Vậy mục tiêu của mình là
+
+00:28.564 --> 00:29.903
+tìm giới hạn của x
+
+00:29.903 --> 00:32.673
+khi x tiến đến a.
+
+00:32.992 --> 00:35.064
+Vậy sơ đồ này viết là
+
+00:35.064 --> 00:36.312
+trước hết
+
+00:36.312 --> 00:40.071
+xem chuyện gì xảy ra khi thế x bằng a.
+
+00:40.071 --> 00:41.904
+Hãy giải f(a).
+
+00:42.695 --> 00:44.317
+Và sơ đồ này viết là,
+
+00:44.317 --> 00:47.291
+nếu f(a) bằng một số thực,
+
+00:47.291 --> 00:49.128
+thì mình đã giải xong.
+
+00:49.128 --> 00:51.013
+Nhưng có một lưu ý ở đây.
+
+00:51.013 --> 00:52.753
+Ghi là 'có khả năng' (probably)
+
+00:52.753 --> 00:55.684
+Đó là vì giới hạn khác với
+
+00:55.684 --> 00:57.574
+giá trị của hàm.
+
+00:57.574 --> 00:59.507
+Đôi lúc chúng giống nhau.
+
+00:59.507 --> 01:02.065
+Thật ra, đó là định nghĩa của hàm liên tục
+
+01:02.065 --> 01:04.213
+mình đã nói ở các video trước,
+
+01:04.213 --> 01:06.614
+nhưng đôi khi, chúng không giống nhau.
+
+01:07.314 --> 01:09.313
+Vậy điều này không chắc đúng
+
+01:09.313 --> 01:11.279
+nếu mình đang giải các hàm
+
+01:11.279 --> 01:13.657
+mà có một điểm gián đoạn như vậy,
+
+01:13.657 --> 01:15.549
+hay là bước nhảy (của hàm không liên tục)
+
+01:15.549 --> 01:18.830
+hay là một hàm trông như thế này.
+
+01:18.830 --> 01:20.924
+Không phải lúc nào cũng vậy.
+
+01:20.924 --> 01:22.482
+Nhưng nếu tại điểm
+
+01:22.482 --> 01:26.327
+mà bạn tìm giới hạn
+
+01:26.327 --> 01:29.318
+khi bạn tiến đến một số ngay đây,
+
+01:29.318 --> 01:31.208
+hàm số liên tục
+
+01:31.208 --> 01:33.398
+và nó có vẻ bình thường
+
+01:33.398 --> 01:36.150
+thì đây là một cách hữu dụng.
+
+01:36.150 --> 01:37.593
+Bạn có thể nghĩ,
+
+01:37.593 --> 01:42.625
+mình có thể giải hàm
+tại điểm a ngay đây không?
+
+01:42.625 --> 01:44.274
+Nhìn chung, nếu bạn có
+
+01:44.274 --> 01:47.357
+một hàm đơn giản như x bình
+
+01:47.357 --> 01:49.824
+hay các biểu thức hữu tỉ như thế này
+
+01:49.824 --> 01:52.363
+hay các biểu thức lượng giác,
+
+01:52.363 --> 01:54.847
+và nếu bạn có thể giải hàm đó
+
+01:54.847 --> 01:56.794
+và nó cho ra một số thực,
+
+01:56.794 --> 01:58.314
+thì có lẽ vậy là xong.
+
+01:58.314 --> 02:00.153
+Nếu bạn đang giải một hàm
+
+02:00.153 --> 02:02.474
+mà có vẻ có các trường hợp đặc biệt
+
+02:02.474 --> 02:05.134
+và nó được định nghĩa theo từng khoảng
+
+02:05.134 --> 02:07.120
+như trong các video trước,
+
+02:07.120 --> 02:09.080
+thì bạn hãy cẩn trọng hơn.
+
+02:09.080 --> 02:11.252
+Hoặc bạn thấy điểm đó trên đồ thị
+
+02:11.252 --> 02:13.291
+có một dạng bước nhảy nào đó,
+
+02:13.291 --> 02:15.006
+hoặc một dạng gián đoạn,
+
+02:15.006 --> 02:16.913
+thì bạn phải cẩn thận hơn.
+
+02:16.913 --> 02:20.069
+Nhưng nhìn chung, đây là một cách khá tiện lợi.
+
+02:20.069 --> 02:24.648
+Nếu bạn đang giải các hàm đơn giản liên tục
+
+02:24.677 --> 02:27.770
+và giải x tại a ra một số thực
+
+02:27.770 --> 02:30.459
+thì đó có lẽ là giới hạn cần tìm.
+
+02:30.459 --> 02:33.198
+Mình sẽ xét các trường hợp khác.
+
+02:33.198 --> 02:34.782
+Nếu mình giải nó
+
+02:34.782 --> 02:38.115
+và có được một số chia cho 0 thì sao?
+
+02:38.495 --> 02:40.190
+Trong trường hợp đó,
+
+02:40.190 --> 02:44.338
+bạn chắc hẳn đang có một tiệm cận đứng.
+
+02:44.338 --> 02:46.256
+Và tiệm cận đứng là sao?
+
+02:46.256 --> 02:48.114
+Nhìn qua ví dụ ngay đây.
+
+02:48.114 --> 02:49.472
+Giới hạn ở đây--
+
+02:49.472 --> 02:51.752
+để mình dùng màu đậm hơn.
+
+02:51.752 --> 02:54.408
+Vậy nếu mình nói đến giới hạn
+
+02:54.408 --> 02:56.712
+khi x tiến đến 1
+
+02:56.712 --> 02:59.940
+của 1 trên x trừ 1.
+
+03:00.011 --> 03:02.380
+Nếu mình thử giải biểu thức
+
+03:02.380 --> 03:03.798
+tại x bằng 1,
+
+03:03.798 --> 03:06.256
+mình sẽ có 1 trên, 1 trừ 1
+
+03:06.256 --> 03:08.855
+là bằng 1 trên 0.
+
+03:09.881 --> 03:13.363
+Vậy mình đang ở trường hợp tiệm cận đứng.
+
+03:13.363 --> 03:14.526
+Và tại điểm đó,
+
+03:14.526 --> 03:17.495
+nếu mình muốn hiểu chuyện gì đang xảy ra
+
+03:17.495 --> 03:20.490
+hay kiểm chứng nó là một tiệm cận đứng,
+
+03:20.490 --> 03:22.348
+mình có thể thử một vài số,
+
+03:22.348 --> 03:23.746
+và vẽ nó ra.
+
+03:23.746 --> 03:25.004
+Bạn có thể nghĩ
+
+03:25.004 --> 03:26.843
+chắc mình có một tiệm cận đứng
+
+03:26.843 --> 03:28.184
+tại x bằng 1.
+
+03:28.184 --> 03:30.464
+Vậy đó là tiệm cận đứng của mình.
+
+03:30.464 --> 03:32.580
+Và bạn có thể thử vài giá trị.
+
+03:32.580 --> 03:34.372
+Nếu x lớn hơn 1,
+
+03:34.372 --> 03:38.007
+mẫu số sẽ dương,
+
+03:38.007 --> 03:41.833
+và đây là đồ thị của mình
+sau khi thử nhiều giá trị,
+
+03:41.833 --> 03:43.746
+trông sẽ như thế này.
+
+03:43.746 --> 03:47.538
+Còn với các giá trị nhỏ hơn 1
+
+03:47.538 --> 03:49.786
+mình sẽ có những giá trị âm
+
+03:49.786 --> 03:52.249
+vậy đồ thị trông như thế này
+
+03:52.249 --> 03:55.255
+cho đến khi mình có tiệm cận đứng.
+
+03:55.255 --> 03:57.173
+Ta sẽ có những cái này.
+
+03:57.173 --> 03:59.803
+Có những trường hợp rất đặc biệt,
+
+03:59.803 --> 04:02.568
+mà mình sẽ không hẳn có tiệm cận đứng.
+
+04:02.568 --> 04:04.925
+Một ví dụ sẽ là
+
+04:04.925 --> 04:07.153
+1 trên x
+
+04:07.153 --> 04:08.583
+trừ x.
+
+04:08.583 --> 04:11.741
+Cái này sẽ không xác định với mọi x.
+
+04:11.741 --> 04:14.523
+Vậy mình sẽ không có một tiệm cận đứng.
+
+04:14.523 --> 04:17.191
+Nhưng đây là một trường hợp rất đặc biệt.
+
+04:17.191 --> 04:20.952
+Thường thì mình sẽ có một tiệm cận đứng ở đây.
+
+04:20.952 --> 04:23.449
+Nếu mình không gặp cả hai trường hợp này.
+
+04:23.449 --> 04:25.313
+Giả sử khi mình giải hàm
+
+04:25.313 --> 04:27.714
+mình có được được 0 trên 0.
+
+04:27.714 --> 04:29.177
+Đây là một ví dụ.
+
+04:29.177 --> 04:31.105
+Giới hạn khi x tiến đến -1
+
+04:31.105 --> 04:32.977
+của biểu thức hữu tỉ này.
+
+04:32.977 --> 04:34.293
+Hãy thử giải nó.
+
+04:34.293 --> 04:36.456
+Mình có -1 bình là bằng 1
+
+04:36.456 --> 04:39.119
+trừ -1 vậy thành cộng 1,
+
+04:39.119 --> 04:40.070
+trừ 2.
+
+04:40.070 --> 04:42.720
+Vậy mình có tử bằng 0.
+
+04:42.720 --> 04:45.563
+Và mẫu số mình có 1 bình, là 1
+
+04:45.563 --> 04:47.267
+trừ 2 nhân -1
+
+04:47.267 --> 04:48.633
+là cộng 2
+
+04:48.633 --> 04:52.215
+trừ 3, vậy là bằng 0.
+
+04:52.215 --> 04:55.338
+Cái này là một dạng không xác định.
+
+04:55.774 --> 04:58.773
+Mình sẽ nhìn tiếp qua phía tay phải sơ đồ.
+
+04:58.773 --> 05:00.877
+Ở đây mình sẽ có các cách
+
+05:00.877 --> 05:04.527
+để giải dạng không xác định.
+
+05:04.527 --> 05:05.910
+Trong vài tuần tới,
+
+05:05.910 --> 05:07.994
+bạn sẽ học thêm một cách nữa
+
+05:07.994 --> 05:10.975
+là quy tắc L'hopital,
+mà mình không nói ở đây
+
+05:10.975 --> 05:13.220
+vì nó còn liên quan đến giải tích.
+
+05:13.220 --> 05:15.284
+Trong khi tất cả các cách này đều
+
+05:15.284 --> 05:16.958
+không cần giải tích.
+
+05:16.958 --> 05:20.024
+Ta chỉ biến đổi chút đại số và lượng giác.
+
+05:20.024 --> 05:22.521
+Vậy điều đầu tiên mình muốn làm là,
+
+05:22.521 --> 05:24.726
+đặc biệt là với các biểu thức hữu tỉ
+
+05:24.726 --> 05:27.114
+cho ra dạng không xác định,
+
+05:27.114 --> 05:29.781
+là thử phân tích nhân tử.
+
+05:29.781 --> 05:33.006
+Để xem mình có thể đơn giản biểu thức này được không.
+
+05:33.006 --> 05:34.066
+Và biểu thức này
+
+05:34.066 --> 05:36.127
+mình có thể phân tích nhân tử nó.
+
+05:36.127 --> 05:37.463
+Cái này sẽ bằng
+
+05:37.463 --> 05:41.260
+x trừ 2
+
+05:41.260 --> 05:44.340
+nhân x cộng 1,
+
+05:44.340 --> 05:47.295
+trên x,
+
+05:47.309 --> 05:50.431
+nó sẽ bằng x trừ 3
+
+05:50.431 --> 05:52.239
+nhân x cộng 1
+
+05:52.239 --> 05:55.137
+nếu bạn không hiểu mình vừa làm gì
+
+05:55.137 --> 05:57.091
+bạn có thể xem các video về
+
+05:57.091 --> 05:58.879
+phân tích nhân tử đa thức
+
+05:58.879 --> 06:01.894
+hay phân tích nhân tử phương trình bậc hai.
+
+06:02.935 --> 06:04.704
+Vậy bạn có thể thấy,
+
+06:04.704 --> 06:07.577
+nếu mình có thể đơn giản cái này vì
+
+06:07.577 --> 06:09.803
+miễn là x không bằng -1
+
+06:09.803 --> 06:12.063
+hai cái này sẽ triệt tiêu nhau.
+
+06:12.063 --> 06:15.379
+Vậy cái này sẽ bằng x trừ 2
+
+06:15.379 --> 06:17.721
+trên x trừ 3
+
+06:17.721 --> 06:20.275
+với x khác -1.
+
+06:20.275 --> 06:22.670
+Nhiều khi các bạn quên phần này.
+
+06:22.670 --> 06:24.898
+Có phần này thì chính xác hơn.
+
+06:24.898 --> 06:27.132
+Biểu thức này bằng biểu thức này.
+
+06:27.132 --> 06:29.630
+Vì biểu thức này vẫn chưa được xác định
+
+06:29.630 --> 06:31.444
+nếu x bằng -1.
+
+06:31.444 --> 06:34.601
+Mình có thể thế x bằng -1 ở đây
+
+06:34.601 --> 06:36.140
+và có một giá trị.
+
+06:36.140 --> 06:38.024
+Nếu thế x bằng -1 ở đây
+
+06:38.024 --> 06:42.217
+mặc dù vậy thì chúng không còn bằng nhau về mặt toán học.
+
+06:42.217 --> 06:43.733
+Cái này sẽ bằng -1
+
+06:43.733 --> 06:45.386
+trừ 2
+
+06:45.386 --> 06:48.643
+nó sẽ bằng -3
+
+06:48.643 --> 06:50.667
+trên -1 trừ 3
+
+06:50.667 --> 06:51.869
+là -4
+
+06:51.869 --> 06:53.829
+vậy là bằng 3 phần 4.
+
+06:53.829 --> 06:56.521
+Vậy nếu điều kiện này không ở đây,
+
+06:56.521 --> 06:58.398
+mình có thể giải thẳng nó ra
+
+06:58.398 --> 07:00.470
+và nó là một hàm khá đơn giản.
+
+07:00.470 --> 07:05.119
+Sẽ không có gì quá phức tạp xảy ra.
+
+07:05.119 --> 07:07.845
+Và nếu mình có thể giải nó tại x bằng -1
+
+07:07.845 --> 07:09.493
+mình sẽ rất vui.
+
+07:09.493 --> 07:11.928
+Vậy lần nữa, mình sẽ phân tích nhân tử.
+
+07:11.928 --> 07:13.957
+Phân tích nhân tử giúp
+
+07:13.957 --> 07:16.092
+mình sẽ đơn giản nó.
+
+07:16.092 --> 07:18.259
+Mình sẽ giải biểu thức này
+
+07:18.321 --> 07:20.948
+và mình đã ra được một giá trị.
+
+07:20.948 --> 07:23.005
+Mình đã giải ra 3 phần 4.
+
+07:23.005 --> 07:25.610
+Vậy mình có thể khá chắc là giới hạn này
+
+07:25.610 --> 07:28.688
+trong trường hợp này là 3 phần 4.
+
+07:28.688 --> 07:31.453
+Mình có thể nói, rằng điều mình làm nãy giờ
+
+07:31.453 --> 07:33.975
+thuộc phần lớn những bài tập về giới hạn
+
+07:33.975 --> 07:35.380
+mà bạn sẽ gặp.
+
+07:35.869 --> 07:37.588
+Bây giờ hai cách tiếp theo
+
+07:37.588 --> 07:40.256
+sẽ 'cao cấp' hơn.
+
+07:40.256 --> 07:42.934
+Vậy nếu mình gặp dạng không xác định
+
+07:42.934 --> 07:45.624
+nhất là trong các biểu thức chứa căn
+
+07:45.624 --> 07:48.355
+Những biểu thức hữu tỉ chứa căn.
+
+07:48.355 --> 07:51.158
+Mình có thể muốn nhân liên hợp.
+
+07:51.158 --> 07:53.202
+Ví dụ, trong trường hợp này,
+
+07:53.202 --> 07:55.944
+nếu mình chỉ muốn giải nó tại x bằng 4,
+
+07:55.944 --> 07:58.854
+mình sẽ có căn bậc hai của 4 trừ 2
+
+07:58.854 --> 08:01.391
+trên 4 trừ 4
+
+08:01.395 --> 08:02.735
+là 0 trên 0.
+
+08:02.735 --> 08:04.946
+Vậy đây là dạng không xác định.
+
+08:04.946 --> 08:07.308
+Và cách làm ở đây, vì mình có
+
+08:07.308 --> 08:09.757
+dấu căn và biểu thức hữu tỉ.
+
+08:09.757 --> 08:12.952
+Bằng cách nào đó mình có thể bỏ dấu căn
+
+08:12.952 --> 08:14.900
+hay đơn giản được nó.
+
+08:14.900 --> 08:16.496
+Vậy để mình viết lại.
+
+08:16.496 --> 08:18.476
+Căn bậc hai của x trừ 2
+
+08:18.476 --> 08:21.229
+trên x trừ 4
+
+08:21.229 --> 08:23.189
+Thử nhân liên hợp nhé.
+
+08:23.189 --> 08:26.885
+Mình nhân nó với căn bậc hai của x cộng 2
+
+08:26.885 --> 08:30.723
+trên căn bậc hai của x cộng 2.
+
+08:30.723 --> 08:33.373
+Cả tử và mẫu nhân cùng biểu thức
+
+08:33.373 --> 08:36.604
+vậy về cơ bản giá trị của nó không đổi.
+
+08:36.604 --> 08:38.641
+Vậy cái này sẽ bằng,
+
+08:38.641 --> 08:41.115
+nếu mình có a cộng b nhân a trừ b
+
+08:41.115 --> 08:43.507
+mình sẽ có hiệu các bình phương.
+
+08:43.507 --> 08:46.162
+Vậy nó sẽ là căn bậc hai của x bình
+
+08:46.162 --> 08:51.025
+nó sẽ bằng căn bậc hai của x bình, trừ 4
+
+08:51.432 --> 08:54.108
+trên -- căn bậc hai của x bình
+
+08:54.108 --> 08:58.112
+thì bằng x trừ 4.
+
+08:58.112 --> 09:00.845
+Vậy để mình viết nó lại.
+
+09:00.845 --> 09:02.531
+Vậy nó là x trừ 4
+
+09:02.531 --> 09:05.313
+trên x trừ 4
+
+09:05.372 --> 09:10.495
+nhân căn bậc hai của x cộng 2.
+
+09:10.495 --> 09:12.218
+Cái này khá tiện vì giờ
+
+09:12.218 --> 09:17.752
+mình có thể triệt tiêu phần x trừ 4, ngay đây.
+
+09:17.752 --> 09:20.165
+Vậy nếu mình muốn giữ biểu thức này
+
+09:20.165 --> 09:22.179
+giống y như biểu thức trước
+
+09:22.179 --> 09:24.531
+mình sẽ có, cái này sẽ bằng
+
+09:24.531 --> 09:27.807
+1 trên căn bậc hai của x cộng 2
+
+09:27.807 --> 09:29.921
+với x khác 4,
+
+09:29.921 --> 09:31.626
+nhưng mình có thể thấy
+
+09:31.626 --> 09:33.605
+hàm này sẽ tiến đến đâu.
+
+09:33.605 --> 09:35.961
+Nếu giờ mình thế x bằng 4
+
+09:35.961 --> 09:38.420
+vào biểu thức đã được đơn giản này.
+
+09:38.420 --> 09:41.581
+Vậy nó sẽ bằng 1 trên
+
+09:41.581 --> 09:43.784
+vậy nếu mình thế
+
+09:43.784 --> 09:46.523
+nếu mình thế x bằng 4 ngay đây
+
+09:46.523 --> 09:49.635
+sẽ có 1 trên căn bậc hai của 4, cộng 2
+
+09:49.635 --> 09:52.348
+là bằng 1 phần 4.
+
+09:52.348 --> 09:54.601
+Một lần nữa, mình có thể khá chắc
+
+09:54.601 --> 09:57.249
+cái này sẽ là giới hạn của mình.
+
+09:57.249 --> 09:59.735
+Vậy mình đã quay lại vùng màu xanh lá.
+
+09:59.735 --> 10:01.973
+Nếu mình vẽ hàm ban đầu này,
+
+10:02.039 --> 10:04.775
+mình sẽ có một điểm gián đoạn.
+
+10:04.775 --> 10:07.648
+Một khoảng gián đoạn tại x bằng 4.
+
+10:07.648 --> 10:10.158
+Nhưng khi mình đơn giản nó
+
+10:10.158 --> 10:13.848
+và triệt tiêu x trừ 4,
+
+10:13.848 --> 10:16.321
+khoảng gián đoạn đó sẽ mất.
+
+10:16.321 --> 10:18.639
+Mình đang cố tìm giới hạn khi tiến
+
+10:18.639 --> 10:21.260
+đến khoảng gián đoạn này.
+
+10:21.260 --> 10:23.111
+Giờ đến cách cuối cùng.
+
+10:23.111 --> 10:24.638
+Mình gặp lượng giác.
+
+10:24.638 --> 10:26.215
+Và để giải cái này,
+
+10:26.215 --> 10:30.143
+mình phải nhuần nhuyễn
+các công thức lượng giác.
+
+10:30.143 --> 10:32.115
+Vậy nếu mình có giới hạn
+
+10:32.115 --> 10:34.497
+mình sẽ dùng màu đậm hơn.
+
+10:34.497 --> 10:36.240
+Vậy nếu mình có giới hạn
+
+10:36.240 --> 10:38.877
+khi x tiến đến 0
+
+10:38.877 --> 10:43.735
+của sin x, trên sin 2x.
+
+10:43.735 --> 10:45.827
+Vậy mình có sin 0 trên sin 0,
+
+10:45.827 --> 10:48.787
+là 0 trên 0 là dạng không xác định.
+
+10:49.439 --> 10:52.462
+Và giờ mình có thể nhận ra cái này sẽ
+
+10:52.462 --> 10:54.301
+bằng giới hạn
+
+10:54.301 --> 10:58.167
+khi x tiến đến 0 của sin x.
+
+10:58.167 --> 11:00.161
+Mình có thể viết lại sin 2x
+
+11:00.161 --> 11:03.774
+thành 2 sin x cos x.
+
+11:04.114 --> 11:09.978
+Hai cái này triệt tiêu nhau với mọi x bằng 0
+
+11:09.978 --> 11:12.876
+Nếu mình muốn thật sự chính xác.
+
+11:12.876 --> 11:16.388
+Vậy chắc chắn sẽ có một khoảng gián đoạn
+
+11:16.388 --> 11:18.080
+trên đồ thị ban đầu
+
+11:18.080 --> 11:20.193
+với đồ thị cua y bằng cái này.
+
+11:20.193 --> 11:22.228
+Nhưng bây giờ, để tìm giới hạn,
+
+11:22.228 --> 11:25.558
+mình có thể nói giới hạn này
+
+11:25.558 --> 11:29.724
+là giới hạn khi x tiến đến 0
+
+11:29.724 --> 11:32.057
+của 1 trên 2 cos x.
+
+11:33.058 --> 11:35.141
+Và giờ mình có thể quay lại
+
+11:35.141 --> 11:37.306
+vùng xanh lá ngay đây,
+
+11:37.462 --> 11:39.868
+vì mình có thể giải cái này tại x bằng 0.
+
+11:39.868 --> 11:42.693
+Nó sẽ bằng 1 trên 2 nhân cos 0.
+
+11:42.693 --> 11:44.437
+Cos 0 là 1.
+
+11:44.437 --> 11:47.636
+Vậy cái này sẽ bằng 1 phần 2.
+
+11:47.636 --> 11:50.637
+Khi tất cả cách này đều không dùng được
+
+11:50.637 --> 11:53.008
+và cả những cách mình sắp học
+
+11:53.008 --> 11:55.211
+khi mình học đến giải tích
+
+11:55.211 --> 11:57.955
+thì mình sẽ quay về cách cơ sở nhất.
+
+11:57.955 --> 11:59.276
+Phép xấp xỉ.
+
+11:59.276 --> 12:02.099
+Mình có thể làm nhắm chừng
+
+12:02.099 --> 12:04.139
+bằng những giá trị rất rất gần
+
+12:04.139 --> 12:07.137
+với số mà ở đó mình cần tìm giới hạn.
+
+12:07.137 --> 12:10.024
+Nếu mình cần tìm giới hạn khi x tiến đến 0,
+
+12:10.024 --> 12:13.331
+thử 0,000001.
+
+12:13.331 --> 12:16.620
+Thử -0,000001.
+
+12:16.620 --> 12:19.003
+Nếu mình tìm giới hạn khi x tiến đến 4,
+
+12:19.003 --> 12:21.609
+thử 4,000001
+
+12:21.609 --> 12:23.943
+và 3,99999
+
+12:23.943 --> 12:25.878
+và xem mình có được gì.
+
+12:25.878 --> 12:29.551
+Nhưng đây sẽ là phương án cuối cùng thôi nhé.

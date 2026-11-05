@@ -1,0 +1,705 @@
+WEBVTT
+
+00:00.800 --> 00:03.017
+Teeme nüüd rohkem näiteid,
+
+00:03.017 --> 00:07.036
+et uurida mida trigonomeetria funktsioonid teevad.
+
+00:07.036 --> 00:11.447
+Teeme ise mõned täisnurksed kolmnurgad
+
+00:11.447 --> 00:13.668
+Teeme ise mõned täisnurksed kolmnurgad
+
+00:13.668 --> 00:15.186
+ja tahame selgeks teha.
+
+00:15.186 --> 00:18.042
+Viis, kuidas olen siiani määratlenud, töötab vaid täisnurksete kolmnurkade peal.
+
+00:18.042 --> 00:23.475
+Seega, kui proovida leida trigonomeetrilisi funktsioone nurkades, mis pole täisnurkade osas
+
+00:23.475 --> 00:25.704
+on tarvis näha et peame täisnurki koostama,
+
+00:25.704 --> 00:27.867
+kuid praegu keskendume täisnurkadele.
+
+00:27.867 --> 00:31.344
+Olgu mul on mingi kolmnurk,
+
+00:31.344 --> 00:33.897
+kus selle alumise külje pikkus olgu 7,
+
+00:33.897 --> 00:37.757
+ja vertikaalse külje pikkus siin,
+
+00:37.757 --> 00:39.452
+olgu 4,
+
+00:39.452 --> 00:42.516
+Vaatame, mis see hüpotenuus siin üleval oleks. Nii et me teame
+
+00:42.516 --> 00:45.720
+Seega teame, olgu hüpotenuus h.
+
+00:45.720 --> 00:52.200
+Teame et h^2=7^2+4^2
+
+00:52.200 --> 00:55.194
+Pythagorose teoreemi järgi,
+
+00:55.194 --> 00:57.469
+et hüpotenuusi ruut on võrdne
+
+00:57.469 --> 01:01.974
+mõlema kaateti ruutude summaga.
+
+01:01.974 --> 01:04.533
+h^2=7^2+4^2
+
+01:04.533 --> 01:09.776
+Nii et see on 49
+
+01:09.776 --> 01:11.800
+49+16
+
+01:11.800 --> 01:18.553
+49+10=59, 59+6=..
+
+01:18.553 --> 01:21.107
+..=65. Nii et h^2=65.
+
+01:21.107 --> 01:25.705
+Las ma kirjutan: h ruudus -see teistsugune kollane
+
+01:25.705 --> 01:28.818
+nii et meil h ruudus on võrdne 65-ga
+
+01:28.818 --> 01:33.533
+Kas ma tegin seda õigesti? 49+10=59, pluss veel 6, saame 65
+
+01:33.533 --> 01:37.600
+võime öelda, et h on sama, kui me võtame kahe kaatedi ruudu summa
+
+01:37.600 --> 01:39.200
+ruutjuure
+
+01:39.200 --> 01:42.933
+√65. Ja me ei saa seda lihtsustada üldse.
+
+01:42.933 --> 01:44.699
+Sama lugu arvuga 13,
+
+01:44.699 --> 01:47.463
+et kui võtta 13*5,
+
+01:47.463 --> 01:50.388
+millest kumbki pole ruudud,
+
+01:50.388 --> 01:51.804
+nad on mõlemad algarvud, nii et seda ei saa enam lihtsustada.
+
+01:51.804 --> 01:55.467
+Nii et on võrdne arvuga √65
+
+01:55.467 --> 02:02.114
+Nüüd leiame trigonomeetrilised funktsioonid selle ülemise nurga jaoks siin üleval. Kutsume seda nurka siin üleval teetaks.
+
+02:02.114 --> 02:05.457
+Olgu see ülemine nurk theta
+
+02:05.457 --> 02:06.533
+Nii et kunas iganes sa seda teed
+
+02:06.533 --> 02:09.467
+sa peaks alati üles kirjutama - vähemalt minu jaoks see töötab, kui ma kirjutan üles -
+
+02:09.467 --> 02:11.714
+meeldejätmiseks taas võtmesõnad "SVH CLH TVH".
+
+02:11.714 --> 02:13.120
+SVH - Siinus=Vastaskaated/Hüpotenuus,
+KLH - Koosiinus=Lähiskaated/Hüpotenuus,
+TVH - Koosiinus=Vastaskaated/Lähiskaated
+
+02:13.120 --> 02:16.464
+..SVH KLH TVH,
+
+02:16.464 --> 02:18.786
+Trigo õpetajast mäletan või..
+
+02:18.786 --> 02:21.293
+..ma lugesin seda nippi mingist raamatust,
+
+02:21.293 --> 02:23.867
+milles kirjutatakse India printsessist nimega "soh cah toa" või mida iganes,
+
+02:23.867 --> 02:26.123
+on kasulik nipp,
+
+02:26.123 --> 02:27.564
+mida meeldejätmise juures rakendada.
+
+02:27.564 --> 02:31.046
+oletame,
+
+02:31.046 --> 02:34.436
+Tahame leida nurga koossiinust.
+
+02:34.436 --> 02:37.965
+Koossiinuse leidmiseks ütleme "SVH KLH TVL!".
+
+02:37.965 --> 02:40.800
+Nii et "KLH" ütleb,
+
+02:40.800 --> 02:43.027
+mida koossiinusega teha,
+
+02:43.027 --> 02:46.371
+KLH....
+
+02:46.371 --> 02:51.433
+..."Koossiinus=Lähiskaated jagatud Hüpotenuus".
+
+02:51.433 --> 02:55.798
+Nii et vaatame siiapoole, teeta poole; mis külg on lähskülg?
+
+02:55.798 --> 02:57.702
+Noh, me teame, et hüpotenuus
+
+02:57.702 --> 03:00.767
+me teame, et hüpotenuus on see külg siin
+
+03:00.767 --> 03:04.761
+nii et see ei saa olla see külg. Ainuke külg, mis on selle lähiskülg, mis
+
+03:04.761 --> 03:07.133
+ei ole hüpotenuus, on see 4.
+
+03:07.133 --> 03:10.473
+Nii et lähiskülg siin, see külg on,
+
+03:10.473 --> 03:14.374
+see on konkreetselt nurga kõrval,
+
+03:14.374 --> 03:15.754
+see on üks nendest külgedest, mis moodustab nurga
+
+03:15.754 --> 03:17.133
+see on 4
+
+03:17.133 --> 03:21.108
+Hüpotenuus, me juba teame on √65,
+
+03:21.108 --> 03:25.380
+nii et 4 on √16
+
+03:25.380 --> 03:29.142
+Ja mõnikord inimesed tahavad, et sa ratsionaliseeriksid nimetaja, mis tähendab, et neile ei meeldi
+
+03:29.142 --> 03:32.625
+irratsionaalsed numbrid nimetajas
+
+03:32.625 --> 03:35.227
+nagu √65
+
+03:35.227 --> 03:39.359
+ja kui nad -- kui sa tahad seda ümber kirjutada ilma
+
+03:39.359 --> 03:41.634
+irratsionaalse numbrita nimetajas, sa võid korrutada lugejat ja nimetajad
+
+03:41.634 --> 03:43.306
+arvuga √65.
+
+03:43.306 --> 03:45.094
+See ilmselgelt ei muuda numbrit,
+
+03:45.094 --> 03:48.122
+sest me korrutame seda millegagi, mis on jagatud iseendaga, nii et
+
+03:48.122 --> 03:49.111
+me korrutame 1-ga.
+
+03:49.111 --> 03:52.780
+See ei muuda numbrit, aga see vähemalt saame irratsionaalsest nimetajast lahti.
+
+03:52.780 --> 03:54.127
+Nii et lugejast saab
+
+03:54.127 --> 03:57.800
+4 korda √65,
+
+03:57.800 --> 04:03.461
+ja nimetaja , √65*√65=65.
+
+04:03.461 --> 04:07.130
+Me ei saanud lahti irratsionaalsest numbrist, see on ikka seal, aga see on nüüd lugejas.
+
+04:07.130 --> 04:09.777
+Nüüd teeme teisi trigonomeetrilisi funktsioone
+
+04:09.777 --> 04:12.401
+või vähemalt põhifunktsioone.
+
+04:12.401 --> 04:14.399
+Me õpime tulevikus, et neid on terve hunnik,
+
+04:14.399 --> 04:15.443
+aga nad on nendest
+
+04:15.443 --> 04:19.733
+funktsioonidest tuletatud. Seega mis teeta tähendab. Kasutame taas fraasi "SVH KLH TVL",
+
+04:19.733 --> 04:25.474
+SVH ütleb, et
+
+04:25.474 --> 04:29.200
+Siinus=Vastaskaated/Hüpotenuus.
+
+04:29.200 --> 04:31.372
+Siinus=Vastaskaated/Hüpotenuus.
+
+04:31.372 --> 04:34.390
+Nii et selle nurga jaoks milline külg on vastaskülg?
+
+04:34.390 --> 04:38.430
+Me lähme selle vastu, mille poole see avaneb, see avaneb 7 poole
+
+04:38.430 --> 04:41.200
+nii et vastaskaated on 7.
+
+04:41.200 --> 04:44.468
+See siin - see on vastaskaated
+
+04:44.468 --> 04:47.800
+ja siis üpotenuus, vastaskaated jagatud hüpotenuus
+
+04:47.800 --> 04:51.109
+hüpotenuus on √65
+
+04:51.109 --> 04:52.966
+ja jällegi, kui me tahaks seda ratsionaliseerida,
+
+04:52.966 --> 04:55.133
+siis me saaksime seda korrutada arvuga √65
+
+04:55.133 --> 04:59.933
+jagatud arvuga √65.
+
+04:59.933 --> 05:04.298
+ja lugejas 7√65
+
+05:04.298 --> 05:07.966
+ja nimetajas lihtsalt 65.
+
+05:07.966 --> 05:10.474
+Nüüd leiame tangensi.
+
+05:10.474 --> 05:12.796
+Asume tangensi juurde.
+
+05:12.796 --> 05:14.793
+Kui ma küsiks teilt tangesit
+
+05:14.793 --> 05:17.394
+Tangens theta..
+
+05:17.394 --> 05:20.784
+taas fraas "SVH KLH TVL".
+
+05:20.784 --> 05:23.106
+TVL ütleb,
+
+05:23.106 --> 05:24.800
+mida ütleb...
+
+05:24.800 --> 05:27.053
+.. see ütleb meile
+
+05:27.053 --> 05:29.867
+Tangens=..
+
+05:29.867 --> 05:33.137
+..=Vastaskaated/Lähiskaated,
+
+05:33.137 --> 05:35.867
+Seega Tangens=Vastaskaated/Lähiskaated.
+
+05:35.867 --> 05:38.709
+Nii et selle nurga jaoks,
+
+05:38.709 --> 05:41.124
+See on 7,
+
+05:41.124 --> 05:42.533
+Vastaskaated on 7
+
+05:42.533 --> 05:46.372
+Nii et see on 7
+
+05:46.372 --> 05:48.200
+Ja lähiskaated 4.
+
+05:48.200 --> 05:51.295
+see 4 on lähiskülg, nii et lähiskülg on 4.
+
+05:51.295 --> 05:54.330
+Seega 7/4,
+
+05:54.330 --> 05:56.133
+ja meil on kõik tehtud!
+
+05:56.133 --> 05:59.375
+Me leidsime kõik teeta trigonomeetrilised funktsiooni,
+
+05:59.375 --> 06:00.416
+teme veel ühe.
+
+06:00.416 --> 06:02.719
+Ma teen natuke rohkem konkreetse näite. Siiani oleme öelnud:
+
+06:02.719 --> 06:06.434
+mis on x-i tangens, teeta tangens. Teeme selle pisut konkreetsema.
+
+06:06.434 --> 06:08.431
+Ütleme,
+
+06:08.431 --> 06:10.799
+Ütleme, las ma joonistan teise täisnurkse kolmnurga,
+
+06:10.799 --> 06:13.772
+see on teine täisnurkne kolmnurk siin
+
+06:13.772 --> 06:17.533
+kõik, millega me tegeleme,
+
+06:17.533 --> 06:21.109
+Ütleme, et hüpotenuusi
+
+06:21.109 --> 06:26.357
+pikkus on neli.
+
+06:26.357 --> 06:31.790
+Ja ütleme, et see külg siin on 2√3, me saame
+
+06:31.790 --> 06:33.462
+kinnitada, et see töötab.
+
+06:33.462 --> 06:36.467
+Kui sul on see külg ruudus, nii et sul, las ma kirjutan selle üles,
+
+06:36.467 --> 06:38.803
+(2√3)^2+2...
+
+06:38.803 --> 06:42.471
+...on võrdne millega?
+
+06:42.471 --> 06:46.467
+See on
+
+06:46.467 --> 06:49.763
+4*3+4
+
+06:49.763 --> 06:53.478
+ja see võrdub 12 pluss 4 on võrdne 16-ga ja 16 on tõesti
+
+06:53.478 --> 06:57.800
+4 ruudus, nii et see tõesti võrdub 4 ruudus.
+
+06:57.800 --> 07:01.790
+See tõesti võrdub 4 ruudus, nii et see rahuldab Pythagorose teoreemi
+
+07:01.790 --> 07:06.133
+ja kui sa mäletad oma tööd 30, 60, 90-ste kolmnurkadega,
+
+07:06.133 --> 07:07.781
+mida sa võisid geomeetrias õppida,
+
+07:07.781 --> 07:11.450
+siis sulle võib see tuttav tunduda, et see
+
+07:11.450 --> 07:13.133
+on 30, 60, 90-ene kolmnurk, see siin on meie täisnurk, ma oleksin pidanud
+
+07:13.133 --> 07:15.867
+selle joonistama juba alguses, et näidata, et see on täisnurkne kolmnurk.
+
+07:15.867 --> 07:20.366
+See nurk siin on meie 30° nurk
+
+07:20.366 --> 07:23.385
+ja see nurk siin üleval, see nurk siin üleval on
+
+07:23.385 --> 07:26.125
+60° nurk.
+
+07:26.125 --> 07:27.797
+Ja see on 30°, 60°, 90°, sest
+
+07:27.797 --> 07:31.791
+30° nurga vastaskaated on pool hüpotenuusi
+
+07:31.791 --> 07:36.800
+ja siis 60° nurga vastaskaated on √3 teiset küljest
+
+07:36.800 --> 07:38.432
+mis ei ole hüpotenuus
+
+07:38.432 --> 07:40.159
+nii et see on see, me ei,
+
+07:40.159 --> 07:43.415
+see ei pidanud olema 30, 60, 90-ne kolmnurkade ülevaade
+
+07:43.415 --> 07:46.933
+Asume õige erinevate erinevate nurkade trigonomeetriliste seoste juurde.
+
+07:46.933 --> 07:51.295
+Nii et kui ma küsiksin sult
+
+07:51.295 --> 07:54.639
+mis on 30° siinus?
+
+07:54.639 --> 07:58.447
+Ja pidage meeles, et 30° on üks selle kolmnurga nurkades, aga see sobib
+
+07:58.447 --> 08:01.698
+kunaiganes sul on 30° nurk ja sul on tegemist täisnurkse kolmnurgaga.
+
+08:01.698 --> 08:05.135
+Meil on laiemad definitsioonid tulevikus, aga kui sa ütled 30° siinus
+
+08:05.135 --> 08:09.035
+hey, see nurk siin on 30° ja ma saan kasutada täisnurkset kolmnurka
+
+08:09.035 --> 08:12.133
+ja meil on meeles "SVH KLH TVL"
+
+08:12.133 --> 08:17.116
+Las ma kirjutan seda uuesti. SVH
+
+08:17.116 --> 08:22.782
+SVH Siinus=Vastaskaated/Hüpotenuus.
+
+08:22.782 --> 08:26.358
+Antud juhul Siinus 30°
+
+08:26.358 --> 08:30.723
+on vastaskülg pikkusega 2..
+
+08:30.723 --> 08:32.395
+..jagatud hüpotenuusiga pikkusega 4.
+
+08:32.395 --> 08:35.646
+Seega 2/4 = 1/2.
+
+08:35.646 --> 08:40.800
+Seega sin 30° on alati võrdne poolega
+
+08:40.800 --> 08:44.144
+Nüüd,..
+
+08:44.144 --> 08:46.867
+..mis on 30° koossiinus
+
+08:46.867 --> 08:50.135
+Jällegi mine tagasi fraasi "SVH KLH TVL" juurde.
+
+08:50.135 --> 08:52.643
+KLH ütleb meile...
+
+08:52.643 --> 08:56.033
+.. et Koossiinus=Lähiskaated/Hüpotenuus
+
+08:56.033 --> 08:59.051
+Nii et kui me vaatame 30°-st nurka, siis see on lähiskülg, see siin on
+
+08:59.051 --> 09:01.791
+lähiskülg, kohe selle kõrval
+
+09:01.791 --> 09:05.467
+Seega lähiskaatet jagud hüpotenuusiga
+
+09:05.467 --> 09:09.129
+ehk √3/2
+
+09:09.129 --> 09:13.633
+lähiskülg
+
+09:13.633 --> 09:16.977
+või kui me lihtsustame seda, me jagame lugeja ja nimetaja 2-ga,
+
+09:16.977 --> 09:20.646
+siis see on √3/2.
+
+09:20.646 --> 09:22.782
+Lõpuks leiame
+
+09:22.782 --> 09:27.800
+30° tangensi.
+
+09:27.800 --> 09:30.305
+Meelde tuletamiseks taas
+
+09:30.305 --> 09:31.699
+"SVH KLH TVL",
+
+09:31.699 --> 09:34.800
+kus TVL ütleb Tangens=Vastaskaated/Lähiskaated.
+
+09:34.800 --> 09:38.804
+Me lähme 30°-se nurga juurde, sest see huvitab meid, 30° tangens,
+
+09:38.804 --> 09:42.101
+30° tangens. Vastaskülg on 2
+
+09:42.101 --> 09:46.200
+ja lähiskülg on 2√3,
+
+09:46.200 --> 09:48.045
+mis on lähiskaateti kõrval,
+
+09:48.045 --> 09:49.439
+Lähis - tähendab, et ta asub kõrval.
+
+09:49.439 --> 09:52.039
+Seega 2 √ 3,
+
+09:52.039 --> 09:54.454
+nii et pärast kahtede taandamist saame
+
+09:54.454 --> 09:56.776
+1 / √ 3.
+
+09:56.776 --> 10:00.723
+Me võime korrutada lugeja ja nimetaja √ 3-ga,
+
+10:00.723 --> 10:05.367
+nii et meil on
+
+10:05.367 --> 10:08.804
+lugejaks √3
+
+10:08.804 --> 10:12.473
+ja nimetajaks 3
+
+10:12.473 --> 10:15.800
+Seega oleme ratsionaliseerinud arv √3.
+
+10:15.800 --> 10:17.442
+Hea küll.
+
+10:17.442 --> 10:20.693
+Nüüd kasutame seda sama kolmnurka leidmaks trigonomeetrilisi suhteid 60°-ste nurkade jaoks,
+
+10:20.693 --> 10:22.457
+kuna me oleme selle juba joonistanud.
+
+10:22.457 --> 10:28.328
+Nii et, mis on siinus 60°-st,
+
+10:28.328 --> 10:30.166
+ja ma arvan, et sa saad sellele juba pihta.
+
+10:30.166 --> 10:34.253
+Ja siinus on vastaskaated jagatud hüpotenuus (SVH).
+
+10:34.253 --> 10:36.668
+60°-se nurga jaoks vastaskaated on?
+
+10:36.668 --> 10:39.315
+Mis avaneb 2√3 poole,
+
+10:39.315 --> 10:42.566
+nii et vastaskülg on 2√3
+
+10:42.566 --> 10:45.306
+ja 60° nurga lähiskaated...
+
+10:45.306 --> 10:47.999
+vabandust ikka vastaskaated..
+
+10:47.999 --> 10:50.507
+Nii et see on vastaskaated jagatud hüpotenuusiga.
+
+10:50.507 --> 10:54.315
+Nii et see on (2√3)/4. 4 on hüpotenuus.
+
+10:54.315 --> 10:59.981
+Pärast lihtsustamist saame √3/2.
+
+10:59.981 --> 11:05.507
+Mis on 60° koosinus? 60° koosinus.
+
+11:05.507 --> 11:10.244
+Tuletades meelde fraasiga "SVH KLH TVL". KLH: Koosinus=Lähiskaatet/Hüpotenuus.
+
+11:10.244 --> 11:13.667
+60° nurga lähiskaatet on 2.
+
+11:13.667 --> 11:17.907
+Selle jagame hüpotenuusiga pikkusega 4.
+
+11:17.907 --> 11:20.972
+Seega saame 1/2
+
+11:20.972 --> 11:24.176
+Ja lõpuks tangens.
+
+11:24.176 --> 11:27.984
+Mis on tangens? Mis on 60°
+
+11:27.984 --> 11:32.349
+Ja tangens, "SVH KLH TVL": TVL-Tangens=Vastaskaatet/Lähiskaatet.
+
+11:32.349 --> 11:34.671
+60°-se nurga
+
+11:34.671 --> 11:36.400
+vastaskaated on
+
+11:36.400 --> 11:38.000
+2√3
+
+11:38.000 --> 11:39.919
+ja lähiskaated,
+
+11:39.919 --> 11:42.733
+...vastaskaated seega
+
+11:42.733 --> 11:44.800
+seega on 2.
+
+11:44.800 --> 11:48.650
+Nii et see on vastaskülg jagatud lähisküljega.
+
+11:48.650 --> 11:52.644
+2√3/2-ga, mis on
+
+11:52.644 --> 11:54.641
+pärast kahtede taandamist √3.
+
+11:54.641 --> 11:57.984
+siinus 30 ° = koosinus 60 °
+
+11:57.984 --> 12:01.333
+Koosinus 30° = siinus 60°.
+
+12:01.333 --> 12:03.966
+Aga need kaks on üksteise pöördväärtused
+
+12:03.966 --> 12:05.635
+ja ma arvan, et kui sa natukene mõtled selle kolmnurga peale
+
+12:05.635 --> 12:07.105
+saad sa aru miks.
+
+12:07.105 --> 12:08.461
+Edaspidi me laiendame teemat ja
+
+12:08.461 --> 3:59:59.999
+anname sulle palju rohkem, mida praktiseerida järgmises videotes.

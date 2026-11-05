@@ -1,0 +1,197 @@
+WEBVTT
+
+00:00.420 --> 00:07.180
+In diesem Video möchte ich das Vereinfachen von ziemlich schwierigen exponentiellen Ausdrücken üben.
+
+00:07.180 --> 00:08.700
+Los geht's.
+
+00:08.700 --> 00:23.500
+Ich habe den Ausdruck 10 ⋅ 9^((t/2) + 2) ⋅ 5^(3t).
+
+00:23.500 --> 00:33.500
+Ich will diesen Ausdruck so weit wie möglich vereinfachen, und am besten in die Form A ⋅ B^t bringen.
+
+00:33.500 --> 00:35.420
+Ich ermutige dich, das Video zu pausieren,
+
+00:35.420 --> 00:43.140
+und die Aufgabe selbst, mithilfe deines
+Wissens über Exponenteneigenschaften, zu lösen.
+
+00:43.140 --> 00:44.860
+Wir machen es jetzt gemeinsam,
+
+00:44.860 --> 00:47.600
+hauptsächlich müssen wir die Teile trennen.
+
+00:47.600 --> 00:52.400
+Die 10 lasse ich erstmal stehen,
+damit können wir nicht viel machen.
+
+00:52.400 --> 00:55.160
+Aber es gibt andere interessante Dinge.
+
+00:55.160 --> 01:02.440
+9^((t/2) + 2) könnte ich trennen,
+
+01:02.440 --> 01:06.740
+indem ich folgende Eigenschaften nutze:
+
+01:06.740 --> 01:10.940
+Wenn ich 9^(a + b) habe,
+
+01:10.940 --> 01:16.320
+ist das dasselbe wie 9^a ⋅ 9^b.
+
+01:16.320 --> 01:31.500
+Und 9^((t/") + 2) könnte ich als 9^(t/2) ⋅ 9^2 schreiben.
+
+01:31.500 --> 01:35.820
+Jetzt kommen wir zu 5^3t.
+
+01:35.820 --> 01:43.780
+Wenn ich a^bc habe, könntest du
+es also als 5^(3 ⋅ t) betrachten.
+
+01:43.780 --> 01:49.080
+Das ist dasselbe wie (a^b)^c.
+
+01:49.080 --> 01:54.460
+Das ist also dasselbe wie (5³),
+
+01:54.460 --> 01:56.620
+und dann haben wir t im Exponenten.
+
+01:56.620 --> 02:00.420
+Das habe ich gemacht, weil ich dann
+eine Zahl mit t im Exponenten erhalte.
+
+02:00.420 --> 02:07.300
+Ich will so viele Termen wie möglich mit t im Exponenten haben, um vereinfachen zu können.
+
+02:07.300 --> 02:09.840
+Das hier ergibt 81.
+
+02:09.840 --> 02:11.560
+9^2 = 81.
+
+02:11.560 --> 02:16.960
+5^3 ist dasselbe wie 25 ⋅ 5, also 125.
+
+02:16.960 --> 02:30.160
+Wir kommen gut voran, das einzige, was
+wir noch vereinfachen müssen, ist 9^(t/2).
+
+02:30.160 --> 02:35.900
+Das ist dasselbe wie 9^(1/2 ⋅ t).
+
+02:35.900 --> 02:37.567
+Und wenn wir diese Eigenschaft hier nutzen,
+
+02:37.567 --> 02:49.620
+ist es dasselbe wie (9^(1/2))^t.
+
+02:49.620 --> 02:51.520
+Was ergibt 9^(1/2)?
+
+02:51.520 --> 03:01.100
+Es ergibt 3, also haben wir 3^t.
+
+03:01.100 --> 03:02.580
+Das ist interessant.
+
+03:02.580 --> 03:07.080
+Ich habe die 10 vorne,
+
+03:07.080 --> 03:16.940
+dann multipliziere ich mit 81,
+
+03:16.940 --> 03:18.960
+und dann mit 3^t.
+
+03:18.960 --> 03:22.240
+Ich habe nur die Reihenfolge
+der Multiplikation geändert.
+
+03:22.240 --> 03:29.860
+Dann multiplizieren wir mit 125^t.
+
+03:29.860 --> 03:35.520
+10 ⋅ 81 kann ich einfach multiplizieren, es ergibt 810.
+
+03:35.520 --> 03:39.400
+Was ergibt 3^t ⋅ 125^t?
+
+03:39.400 --> 03:42.120
+Hier wird eine weitere
+Exponenteneigenschaften angewandt.
+
+03:42.120 --> 03:45.353
+Denn wenn ich (ab)^t habe,
+
+03:45.353 --> 03:48.673
+ist es dasselbe wie a^t ⋅ b^t.
+
+03:48.680 --> 03:52.200
+Anders betrachtet: Wenn ich a^t ⋅ b^t habe,
+
+03:52.200 --> 03:54.660
+ist es dasselbe wie (ab)^t.
+
+03:54.660 --> 03:58.840
+Hier habe ich 3^t ⋅ 125^t,
+
+03:58.840 --> 04:04.300
+also ist es dasselbe wie 3 ⋅ 125^t.
+
+04:04.300 --> 04:13.440
+Diesen Teil hier könnte ich also umändern in (3 ⋅ 125),
+
+04:13.440 --> 04:16.720
+und dieser ganze Term hat t im Exponenten.
+
+04:16.720 --> 04:18.219
+Wir sind fast fertig.
+
+04:18.219 --> 04:20.680
+Vorne steht 810.
+
+04:20.680 --> 04:25.920
+3 ⋅ 125 = 375.
+
+04:25.920 --> 04:32.880
+Wir multiplizieren also mit 375^t.
+
+04:32.880 --> 04:35.060
+Und weiter können wir nicht vereinfachen.
+
+04:35.060 --> 04:40.660
+Wir haben die Gleichung in die
+gewünschte Form gebracht: a ⋅ b^t.
+
+04:40.660 --> 04:43.080
+Wenn wir es mit dieser Form hier drüben vergleichen,
+
+04:43.081 --> 04:45.344
+wäre das hier unser a,
+
+04:45.344 --> 04:50.380
+und unser b wäre 375.
+
+04:50.380 --> 04:53.680
+Ich weiß, dass es anfangs schwierig aussah,
+
+04:53.680 --> 04:57.420
+aber wenn du einfach mehrmals
+Exponenteneigenschaften anwendest,
+
+04:57.420 --> 05:00.380
+und versuchst, verschiedene Terme
+mit t im Exponenten zu bekommen,
+
+05:00.380 --> 05:02.860
+und mithilfe der Eigenschaften vereinfachst,
+
+05:02.860 --> 05:08.960
+erhältst du eine Form, die nicht so kompliziert ist.

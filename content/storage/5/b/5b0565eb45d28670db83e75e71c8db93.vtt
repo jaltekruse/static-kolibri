@@ -1,0 +1,477 @@
+WEBVTT
+
+00:00.376 --> 00:01.591
+- [Voiceover] So we have here f of x
+
+00:01.591 --> 00:06.043
+being equal to the natural
+log of the square root of x.
+
+00:06.043 --> 00:07.482
+And what we wanna do in this video
+
+00:07.482 --> 00:09.805
+is find the derivative of f.
+
+00:09.805 --> 00:14.620
+And the key here is to
+recognize that f can actually
+
+00:14.620 --> 00:17.526
+be viewed as a composition
+of two functions.
+
+00:17.526 --> 00:20.306
+And we can diagram that
+out, what's going on here?
+
+00:20.306 --> 00:23.372
+Well if you input an
+x into our function f,
+
+00:23.372 --> 00:24.777
+what's the first thing that you do?
+
+00:24.777 --> 00:26.403
+Well, you take the square root of it.
+
+00:26.403 --> 00:30.153
+So if we start off with
+some x, you input it,
+
+00:32.758 --> 00:35.890
+the first thing that you do,
+you take the square root of it.
+
+00:35.890 --> 00:39.635
+You are going to take the
+square root of the input
+
+00:39.635 --> 00:42.302
+to produce the square root of x,
+
+00:43.181 --> 00:44.425
+and then what do you do?
+
+00:44.425 --> 00:46.619
+You take the square root and then
+
+00:46.619 --> 00:48.363
+you take the natural log of that.
+
+00:48.363 --> 00:51.144
+So then you take the natural log of that,
+
+00:51.144 --> 00:53.118
+so you could view that as inputting it
+
+00:53.118 --> 00:55.436
+into another function
+that takes the natural log
+
+00:55.436 --> 00:57.769
+of whatever is inputted in.
+
+00:57.769 --> 00:58.847
+I'm making these little squares to
+
+00:58.847 --> 01:00.578
+show what you do with the input.
+
+01:00.578 --> 01:02.062
+And then what do you produce?
+
+01:02.062 --> 01:06.935
+Well you produce the natural
+log of the square root of x.
+
+01:06.935 --> 01:10.433
+Natural log of the square root of x.
+
+01:10.433 --> 01:12.358
+Which is equal to f of x.
+
+01:12.358 --> 01:16.275
+So you could view f of
+x as this entire set,
+
+01:18.697 --> 01:20.899
+or this entire, I guess you could say,
+
+01:20.899 --> 01:23.963
+this combination of
+functions right over there.
+
+01:23.963 --> 01:27.375
+That is f of x, which is essentially,
+
+01:27.375 --> 01:29.756
+a composition of two functions.
+
+01:29.756 --> 01:31.076
+You're inputting into one function
+
+01:31.076 --> 01:34.020
+then taking that output and
+inputting it into another.
+
+01:34.020 --> 01:36.237
+So you could have a function u here,
+
+01:36.237 --> 01:38.711
+which takes the square root
+of whatever its input is,
+
+01:38.711 --> 01:42.544
+so u of x is equal to
+the square root of x.
+
+01:43.515 --> 01:46.015
+And then you take that output,
+
+01:47.103 --> 01:49.972
+and input it into another
+function that we could call v,
+
+01:49.972 --> 01:51.365
+and what does v do?
+
+01:51.365 --> 01:53.569
+Well it take the natural log
+of whatever the input is.
+
+01:53.569 --> 01:57.259
+In this case, in the case
+of f, or in the case of how
+
+01:57.259 --> 02:00.203
+I just diagrammed it, v
+is taking the natural log,
+
+02:00.203 --> 02:02.108
+the input happens to be square root of x,
+
+02:02.108 --> 02:05.028
+so it outputs the natural
+log of the square root of x.
+
+02:05.028 --> 02:08.198
+If we wanted to write
+v with x as an input,
+
+02:08.198 --> 02:10.376
+we would just say well
+that's the natural log,
+
+02:10.376 --> 02:13.209
+that is just the natural log of x.
+
+02:14.070 --> 02:16.224
+And as you can see here, f of x,
+
+02:16.224 --> 02:17.979
+and I color-coded ahead of time,
+
+02:17.979 --> 02:20.896
+is equal to, f of x is equal to,
+
+02:22.006 --> 02:24.690
+the natural log of the square root of x.
+
+02:24.690 --> 02:28.857
+So that is v of the square
+root of x, or v of u of x.
+
+02:31.129 --> 02:33.971
+So it is a composition
+which tells you that,
+
+02:33.971 --> 02:36.024
+okay, if I'm trying to
+find the derivative here,
+
+02:36.024 --> 02:39.333
+the chain rule is going to be
+very, very, very, very useful.
+
+02:39.333 --> 02:43.074
+And the chain rule tells
+us that f prime of x
+
+02:43.074 --> 02:46.574
+is going to be equal to the derivative of,
+
+02:47.460 --> 02:49.061
+you can view it as the outside function,
+
+02:49.061 --> 02:51.421
+with respect to this inside function,
+
+02:51.421 --> 02:54.588
+so it's going to be v prime of u of x,
+
+02:55.685 --> 02:57.185
+v prime of u of x,
+
+02:58.822 --> 03:01.421
+times the derivative
+of this inside function
+
+03:01.421 --> 03:02.753
+with respect to x.
+
+03:02.753 --> 03:05.836
+So that's just u prime, u prime of x.
+
+03:06.677 --> 03:08.896
+So how do we evaluate these things?
+
+03:08.896 --> 03:11.292
+Well, we know how to take
+the derivative of u of x
+
+03:11.292 --> 03:16.237
+and v of x, u prime of x
+here, is going to be equal to,
+
+03:16.237 --> 03:19.691
+well remember, square root
+of x is just the same thing
+
+03:19.691 --> 03:22.694
+as x to 1/2 power, so we
+can use the power rule,
+
+03:22.694 --> 03:26.688
+bring the 1/2 out from so
+it becomes 1/2 x to the,
+
+03:26.688 --> 03:29.420
+and then take off one
+out of that exponent,
+
+03:29.420 --> 03:32.606
+so that's 1/2 minus one
+is negative 1/2 power.
+
+03:32.606 --> 03:36.606
+And what is v of x, sorry,
+what is v prime of x?
+
+03:38.688 --> 03:40.897
+Well the derivative of
+the natural log of x
+
+03:40.897 --> 03:45.025
+is one over x, we show
+that in other videos.
+
+03:45.025 --> 03:48.325
+And so we now know what u prime of x is,
+
+03:48.325 --> 03:52.942
+we know what v prime of x is,
+but what is v prime of u of x?
+
+03:52.942 --> 03:56.775
+Well v prime of u of x,
+wherever we see the x,
+
+03:58.379 --> 04:00.879
+we replace it, let me write
+that a little bit neater,
+
+04:00.879 --> 04:05.365
+we replace that with a u
+of x, so v prime of u of x
+
+04:05.365 --> 04:07.594
+is going to be equal to,
+
+04:07.594 --> 04:10.854
+is going to be equal to one over u of x,
+
+04:10.854 --> 04:13.771
+one over u of x, which is equal to,
+
+04:15.567 --> 04:17.910
+which is equal to one over,
+
+04:17.910 --> 04:20.276
+u of x is just the square root of x.
+
+04:20.276 --> 04:22.776
+One over the square root of x.
+
+04:24.556 --> 04:29.101
+This thing right over
+here, we have figured out,
+
+04:29.101 --> 04:31.303
+is one over the square root of x,
+
+04:31.303 --> 04:35.053
+and this thing, u prime
+of x, we figured out,
+
+04:36.393 --> 04:39.761
+is 1/2 times x to the negative 1/2,
+
+04:39.761 --> 04:41.780
+and x to the negative 1/2,
+I could rewrite that as 1/2
+
+04:41.780 --> 04:46.492
+times one over x to the
+1/2, which is the same thing
+
+04:46.492 --> 04:51.159
+as 1/2 times one over
+the square root of x,
+
+04:51.159 --> 04:55.241
+or I could write that as one
+over 2 square roots of x.
+
+04:55.241 --> 04:58.194
+So what is this thing going to be?
+
+04:58.194 --> 05:02.395
+Well this is going to
+be equal to, in green,
+
+05:02.395 --> 05:06.562
+v prime of u of x is one
+over the square root of x,
+
+05:07.501 --> 05:11.668
+times, times, u prime of
+x is one over two times
+
+05:13.730 --> 05:16.983
+the square root of x, now what
+is this going to be equal to?
+
+05:16.983 --> 05:19.794
+Well, this is going to be equal to,
+
+05:19.794 --> 05:21.457
+this is just algebra at this point,
+
+05:21.457 --> 05:24.267
+one over, we have our
+two and square root of x
+
+05:24.267 --> 05:26.472
+times square root of x is just x.
+
+05:26.472 --> 05:29.096
+So it just simplifies to one over two x.
+
+05:29.096 --> 05:31.170
+So hopefully this made sense,
+
+05:31.170 --> 05:32.789
+and I intentionally diagrammed it out
+
+05:32.789 --> 05:35.321
+so that you start to get that
+muscle in your brain going
+
+05:35.321 --> 05:37.748
+of recognizing the composite functions,
+
+05:37.748 --> 05:39.499
+and then making a little bit more sense of
+
+05:39.499 --> 05:41.201
+some of these expressions
+of the chain rule
+
+05:41.201 --> 05:43.333
+that you might see in your calculus class,
+
+05:43.333 --> 05:44.931
+or in your calculus textbook.
+
+05:44.931 --> 05:47.143
+But as you get more practice,
+you'll be able to do it,
+
+05:47.143 --> 05:49.994
+essentially, without having
+to write out all of this.
+
+05:49.994 --> 05:51.504
+You'll say okay, look,
+I have a composition.
+
+05:51.504 --> 05:55.041
+This is the natural log
+of the square root of x,
+
+05:55.041 --> 05:56.708
+this is v of u of x.
+
+05:57.824 --> 06:00.050
+So what I wanna do is I
+wanna take the derivative
+
+06:00.050 --> 06:02.097
+of this outside function with respect
+
+06:02.097 --> 06:03.942
+to this inside function.
+
+06:03.942 --> 06:07.301
+So the derivative of
+natural log of something,
+
+06:07.301 --> 06:11.929
+with respect to that something,
+is one over that something.
+
+06:11.929 --> 06:14.287
+So it is one over that something,
+
+06:14.287 --> 06:16.184
+the derivative natural log of something
+
+06:16.184 --> 06:19.624
+with respect to that something
+is one over that something,
+
+06:19.624 --> 06:21.182
+so that's what we just did here.
+
+06:21.182 --> 06:24.160
+One way to think about it,
+what would natural log of x be?
+
+06:24.160 --> 06:27.571
+Well that'd be one over x,
+but it's not natural log of x.
+
+06:27.571 --> 06:28.822
+It's one over square root of x,
+
+06:28.822 --> 06:31.442
+so it's going to be one
+over the square root of x,
+
+06:31.442 --> 06:33.540
+so you take the derivative
+of the outside function
+
+06:33.540 --> 06:35.158
+with respect to the inside one,
+
+06:35.158 --> 06:37.480
+and then you multiply that
+times just the derivative
+
+06:37.480 --> 06:40.897
+of the inside function with respect to x.
+
+06:41.849 --> 06:43.182
+And we are done.

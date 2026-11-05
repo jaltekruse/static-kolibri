@@ -1,0 +1,1013 @@
+WEBVTT
+
+00:00.260 --> 00:03.640
+Díky předchozímu videu teď
+snad dostatečně dobře chápeme,
+
+00:03.640 --> 00:06.700
+jak funguje
+vektorová funkce.
+
+00:06.700 --> 00:09.410
+Zejména jak funguje
+vektorová funkce udávající polohu,
+
+00:09.410 --> 00:15.960
+která v jistém smyslu nahrazuje
+tradiční parametrizování křivky.
+
+00:15.960 --> 00:19.020
+V tomto videu bych vám
+rád dal základní představu o tom,
+
+00:19.020 --> 00:23.550
+co to znamená zderivovat
+vektorovou funkci.
+
+00:23.550 --> 00:27.030
+V tomto případě půjde o derivaci
+podle našeho parametru t.
+
+00:27.030 --> 00:30.390
+Nakreslím si sem
+k tomu nový obrázek.
+
+00:30.390 --> 00:36.330
+Řekněme, že máme
+vektorovou funkci r(t)...
+
+00:36.330 --> 00:38.840
+Bude to ta samá funkce
+jako v předchozím videu.
+
+00:38.840 --> 00:46.590
+...rovná se x(t) krát jednotkový vektor i
+plus y(t) krát jednotkový vektor j.
+
+00:46.590 --> 00:50.100
+Kdybychom měli tři dimenze,
+tak by tu bylo ještě z(t) krát k,
+
+00:50.100 --> 00:52.150
+ale zůstaňme
+u jednoduššího případu.
+
+00:52.150 --> 00:55.110
+Řekněme, že tato funkce
+popisuje nějakou křivku
+
+00:55.110 --> 00:56.570
+a že tato křivka...
+
+00:56.570 --> 01:02.420
+Předpokládejme,
+že t je mezi ‚a‘ a ‚b‘.
+
+01:02.420 --> 01:05.950
+Řekněme, že křivka
+bude vypadat nějak...
+
+01:05.950 --> 01:09.030
+Zkusím ji nakreslit,
+jak nejlépe umím.
+
+01:09.030 --> 01:12.220
+Nakreslím sem nějakou křivku,
+která mě zrovna napadne.
+
+01:12.220 --> 01:17.780
+Řekněme, že křivka
+vypadá nějak takto.
+
+01:17.780 --> 01:19.390
+V tomto bodě se
+t rovná ‚a‘,
+
+01:19.390 --> 01:21.610
+takže křivku
+procházíme tímto směrem.
+
+01:21.610 --> 01:24.410
+Zde se
+t rovná ‚b‘.
+
+01:24.410 --> 01:25.940
+Tady se
+t rovná ‚a‘.
+
+01:25.940 --> 01:29.250
+Tohle je
+tudíž x(a)
+
+01:29.250 --> 01:31.890
+a tady
+máme y(a).
+
+01:31.890 --> 01:36.340
+Podobně tady
+bude x(b)
+
+01:36.340 --> 01:40.070
+a zde
+bude y(b).
+
+01:40.070 --> 01:41.870
+V předchozím
+videu jsme viděli,
+
+01:41.919 --> 01:47.620
+že koncové body těchto polohových vektorů
+jsou právě body na této křivce.
+
+01:47.620 --> 01:52.210
+Z předchozího videa tedy víme,
+že r(a) odpovídá tomuto bodu.
+
+01:52.210 --> 01:54.160
+Nechci se k tomu
+už příliš vracet.
+
+01:54.160 --> 01:56.140
+Spíš bych se teď
+rád zaměřil na to,
+
+01:56.140 --> 01:58.730
+jak popsat rozdíl
+mezi dvěma body.
+
+01:58.730 --> 02:01.250
+Vyberme si na křivce
+libovolný bod,
+
+02:01.250 --> 02:03.480
+tedy zvolme nějaké
+náhodné t.
+
+02:03.480 --> 02:05.580
+Pojmenujme
+tento bod r(t).
+
+02:06.510 --> 02:09.947
+Vyberu raději jiný bod,
+aby to bylo jasnější.
+
+02:09.947 --> 02:10.920
+Řekněme...
+
+02:10.920 --> 02:12.950
+Ještě vyberu
+jinou barvu.
+
+02:12.950 --> 02:16.770
+Řekněme, že toto je
+r v nějakém bodě t,
+
+02:16.770 --> 02:18.840
+který jsme
+náhodně zvolili.
+
+02:18.840 --> 02:22.220
+Toto je r(t).
+
+02:22.220 --> 02:24.910
+t se zde rovná
+‚a‘ plus něco.
+
+02:24.910 --> 02:26.800
+Zvolili jsme si
+tedy nějaké t.
+
+02:26.800 --> 02:29.090
+Nyní budeme
+chtít zjistit...
+
+02:29.090 --> 02:32.440
+Řekněme, že t nyní o trochu zvětšíme,
+že ho zvětšíme o ‚h‘.
+
+02:32.440 --> 02:35.790
+Bod r(t plus h)...
+
+02:35.790 --> 02:38.310
+Pokud se na parametr t
+díváme jako na čas,
+
+02:38.310 --> 02:40.760
+tak si můžeme představit,
+že se čas trochu posunul,
+
+02:40.760 --> 02:43.090
+takže i naše částice
+se trochu posunula.
+
+02:43.090 --> 02:45.450
+Řekněme, že jsme
+se dostali sem.
+
+02:45.450 --> 02:52.350
+Tento žlutý bod
+je tedy r(t plus h).
+
+02:52.350 --> 02:55.180
+Jen jsme parametr
+o trochu zvětšili, a to o ‚h‘.
+
+02:55.180 --> 02:57.900
+Nyní si můžeme
+položit otázku,
+
+02:57.900 --> 03:04.310
+jak rychle se
+r mění vzhledem k t.
+
+03:04.310 --> 03:05.800
+Jako první by
+nás asi zajímalo,
+
+03:05.800 --> 03:07.520
+jaký je rozdíl mezi
+těmito body.
+
+03:07.520 --> 03:09.450
+Kdybychom měli...
+
+03:09.450 --> 03:10.890
+Nakreslím to.
+
+03:10.890 --> 03:19.950
+Když vezmeme polohový vektor, který nám
+vyjde po dosazení (t plus h) do funkce r,
+
+03:19.950 --> 03:25.370
+a odečteme
+od něj r(t),
+
+03:25.370 --> 03:26.590
+tak co dostaneme?
+
+03:26.590 --> 03:29.610
+Možná by bylo dobré si zopakovat,
+jak se pracuje s vektory,
+
+03:29.610 --> 03:31.730
+ale v zásadě
+dostaneme tento vektor.
+
+03:31.730 --> 03:34.100
+Nakreslím ho
+nějakou zářivou barvou.
+
+03:34.100 --> 03:39.130
+Vyjde nám tento
+růžový vektor.
+
+03:39.130 --> 03:52.580
+Tento růžový vektor je vektor
+r(t plus h) minus r(t).
+
+03:52.580 --> 03:56.160
+To dává smysl, neboť u sčítání vektorů
+je počátek druhého na konci prvního.
+
+03:56.160 --> 04:05.010
+Tento vektor totiž můžeme napsat
+jako r(t) plus tenhle vektor,
+
+04:05.010 --> 04:10.770
+tedy plus r(t plus h)
+minus r(t).
+
+04:10.770 --> 04:13.090
+Když sčítáme dva vektory,
+tak sčítáme...
+
+04:13.090 --> 04:13.920
+Ujasním to.
+
+04:13.920 --> 04:17.260
+Sčítáme tento vektor
+s tímhle vektorem.
+
+04:17.260 --> 04:21.320
+Při sčítání kreslíme počátek druhého
+vektoru na konec prvního vektoru.
+
+04:21.320 --> 04:22.580
+Tohle je můj
+první vektor,
+
+04:22.580 --> 04:24.790
+jehož konec je počátkem
+tohoto druhého vektoru.
+
+04:24.790 --> 04:27.770
+Součet těchto dvou vektorů,
+jak jsme řekli,
+
+04:27.770 --> 04:29.400
+by měl být roven
+tomuto poslednímu.
+
+04:29.400 --> 04:32.780
+Mělo by se to
+rovnat r(t plus h).
+
+04:32.780 --> 04:35.370
+Vidíme, že už jen algebraicky
+je tomu skutečně tak,
+
+04:35.370 --> 04:39.920
+protože tyhle dvě věci
+se nám odečtou.
+
+04:39.920 --> 04:41.120
+Snad vám to
+dává smysl.
+
+04:41.120 --> 04:42.470
+Chci, aby to
+bylo jasné.
+
+04:42.470 --> 04:45.290
+Tohle už najednou
+není polohový vektor.
+
+04:45.290 --> 04:49.090
+Už neříkáme, že jde o vektor
+začínající v počátku,
+
+04:49.090 --> 04:51.760
+který udává polohu
+jednoho konkrétního bodu.
+
+04:51.760 --> 04:54.260
+Namísto toho jde o
+můžeme říci "čistý" vektor,
+
+04:54.260 --> 04:58.980
+který udává změnu mezi
+dvěma jinými polohovými vektory.
+
+04:58.980 --> 05:00.640
+Mluvím
+o tomto vektoru.
+
+05:00.640 --> 05:03.700
+Tento vektor
+udává změnu.
+
+05:03.700 --> 05:05.050
+Řekněme,
+že nás teď zajímá...
+
+05:05.050 --> 05:08.210
+Jak by to vypadalo algebraicky,
+kdybychom to takto rozepsali?
+
+05:08.210 --> 05:13.200
+Tohle se rovná...
+
+05:13.200 --> 05:14.610
+Čemu se rovná
+r(t plus h)?
+
+05:14.610 --> 05:17.900
+Je to x v bodě...
+
+05:17.900 --> 05:20.370
+Napíšu to
+jinam.
+
+05:20.370 --> 05:28.800
+Toto se rovná
+x(t plus h) krát jednotkový vektor i
+
+05:28.800 --> 05:33.950
+plus y(t plus h) krát
+jednotkový vektor j...
+
+05:33.950 --> 05:35.350
+Zatím jsme
+napsali tohle.
+
+05:35.350 --> 05:37.820
+Tato část
+se rovná tomuhle.
+
+05:37.820 --> 05:42.600
+...minus tohle,
+takže minus...
+
+05:42.600 --> 05:43.810
+Napíšu to
+na nový řádek.
+
+05:43.810 --> 05:46.190
+Mohl bych to napsat sem,
+ale asi by mi došlo místo.
+
+05:46.190 --> 05:48.710
+...minus x(t)...
+
+05:48.710 --> 05:52.370
+r(t) se rovná
+x(t) krát i plus...
+
+05:52.370 --> 05:58.480
+Ještě tu ale máme tohle minus,
+takže tady bude minus y(t) krát j.
+
+05:59.460 --> 06:02.230
+Vlastně sem radši
+napíšu minus...
+
+06:02.230 --> 06:03.260
+Napíšu to takhle.
+
+06:03.260 --> 06:04.230
+...a zde bude plus.
+
+06:04.230 --> 06:06.740
+Takhle je lépe vidět,
+že jde o tento vektor.
+
+06:06.740 --> 06:09.030
+Jen jsme
+dosadili t.
+
+06:09.030 --> 06:10.310
+Máme tu tedy
+x(t) plus y(t)
+
+06:10.310 --> 06:11.840
+a nyní můžeme
+roznásobit.
+
+06:11.840 --> 06:13.605
+Když závorku roznásobíme
+tímhle minus,
+
+06:13.605 --> 06:15.920
+dostaneme minus x(t)
+a minus y(t).
+
+06:15.920 --> 06:17.260
+Při sčítání
+vektorů...
+
+06:17.260 --> 06:20.590
+Možná by bylo dobré si ho zopakovat,
+pokud jste ho delší dobu neviděli.
+
+06:20.590 --> 06:22.800
+...sčítáme
+příslušné složky.
+
+06:22.800 --> 06:25.630
+Sečteme x-ové složky
+a y-ové složky.
+
+06:25.630 --> 06:27.720
+Tohle se tím
+pádem rovná...
+
+06:27.720 --> 06:31.610
+Přepíšu si to dolů, protože na to
+budu potřebovat víc místa.
+
+06:31.610 --> 06:34.260
+Přepíšu to sem.
+
+06:34.260 --> 06:41.680
+Vyjde nám,
+že r(t plus h) minus r(t) se rovná...
+
+06:41.680 --> 06:45.510
+Teď dám k sobě
+x-ové a y-ové složky.
+
+06:45.510 --> 06:49.260
+...se rovná
+součet x-ových složek,
+
+06:49.260 --> 06:52.000
+ale zde je minus,
+takže tuto hodnotu odečteme od té horní,
+
+06:52.000 --> 06:59.890
+což nám dá
+x(t plus h) minus x(t),
+
+06:59.890 --> 07:04.520
+tohle celé krát jednotkový
+vektor ve směru osy x,
+
+07:04.520 --> 07:14.280
+k čemuž nyní přičteme výraz
+y(t plus h) minus y(t)
+
+07:14.280 --> 07:16.710
+vynásobený jednotkovým
+vektorem j ve směru osy y.
+
+07:16.710 --> 07:18.690
+Jenom jinak zapisuji to,
+co máme nahoře.
+
+07:18.690 --> 07:24.920
+Tohle nám udává, jaká je změna
+mezi libovolnými dvěma hodnotami r,
+
+07:24.920 --> 07:26.550
+když známe
+změnu vzdálenosti.
+
+07:26.550 --> 07:30.650
+Změna vzdálenosti mezi libovolnými
+dvěma polohovými vektory je zde ‚h‘.
+
+07:30.650 --> 07:35.150
+Na začátku videa jsme si řekli,
+že chceme zjistit, jaká je změna...
+
+07:35.150 --> 07:39.480
+Bude nás zajímat
+okamžitá změna vzhledem k t.
+
+07:39.480 --> 07:45.820
+Chceme tedy vědět, jak moc se vektor ‚r‘
+změní za časový úsek ‚h‘.
+
+07:45.820 --> 07:49.940
+Místo ‚h‘ jsme mohli napsat Δt
+a šlo by o to samé.
+
+07:49.940 --> 07:52.480
+Tento výraz nyní
+vydělíme ‚h‘.
+
+07:52.480 --> 07:57.050
+Víme, že náš vektor
+se takto změnil,
+
+07:57.050 --> 07:59.290
+a tímhle ukážeme,
+že to bylo za časový úsek ‚h‘.
+
+07:59.290 --> 08:01.000
+Je to velmi
+podobné směrnici.
+
+08:01.000 --> 08:04.190
+Směrnice je svislá změna děleno
+vodorovná změna neboli Δy děleno...
+
+08:04.190 --> 08:05.950
+Neboli změna y
+děleno změna x.
+
+08:05.950 --> 08:08.920
+I zde chceme mít změnu hodnoty
+naší funkce děleno změna x,
+
+08:08.920 --> 08:10.770
+takže tohle
+celé vydělíme...
+
+08:10.770 --> 08:13.370
+Ne děleno změnou x,
+ale děleno změnou t.
+
+08:13.370 --> 08:16.930
+Změna t je v tomto
+případě rovna ‚h‘.
+
+08:16.930 --> 08:21.120
+Rozdíl mezi
+(t plus h) a t je h.
+
+08:21.120 --> 08:23.870
+Všechno tedy
+vydělíme h.
+
+08:25.540 --> 08:29.160
+Když nějaký vektor
+násobíme nebo dělíme skalárem,
+
+08:29.160 --> 08:33.650
+tak každou z jeho složek vynásobíme
+nebo vydělíme tímto skalárem.
+
+08:33.650 --> 08:35.429
+Vyjde nám
+tohle.
+
+08:35.429 --> 08:39.989
+Pro libovolný konečný rozdíl ‚h‘
+nám tento výraz říká,
+
+08:39.989 --> 08:43.209
+jak moc se náš vektor r
+změní za časový úsek ‚h‘.
+
+08:43.209 --> 08:46.040
+Když nás ale
+zajímá okamžitá změna,
+
+08:46.040 --> 08:49.430
+podobně jako když jsme
+se začali učit diferenciální počet...
+
+08:49.430 --> 08:52.490
+Tehdy jsme si řekli,
+že tohle vypadá jako směrnice přímky
+
+08:52.490 --> 08:55.150
+a že by nám
+to dobře fungovalo,
+
+08:55.150 --> 09:01.990
+kdyby se jednalo
+o křivku tohoto tvaru,
+
+09:01.990 --> 09:04.820
+tedy kdyby
+šlo o přímku.
+
+09:04.820 --> 09:07.240
+Kdyby naše křivka
+vypadala nějak takhle,
+
+09:07.240 --> 09:11.670
+tak by nám tohle udávalo průměrnou
+změnu našeho polohového vektoru...
+
+09:11.670 --> 09:14.350
+Můžeme si tu představit
+dva polohové vektory.
+
+09:14.350 --> 09:15.750
+Tohle je jeden.
+
+09:15.750 --> 09:17.890
+Všechny budou v tomto
+případě rovnoběžné.
+
+09:17.890 --> 09:23.730
+Polohové vektory vlastně
+nemusí být vždycky rovnoběžné, ale...
+
+09:23.730 --> 09:26.660
+Nemusí být rovnoběžné,
+ale můžeme je nakreslit i takto.
+
+09:26.660 --> 09:30.330
+Tenhle výraz by popisoval změnu
+mezi těmito vektory za úsek ‚h‘,
+
+09:30.330 --> 09:33.380
+tedy jak rychle se
+tyto polohové vektory mění,
+
+09:33.380 --> 09:36.030
+když se hodnota
+parametru změní o tolik.
+
+09:36.030 --> 09:40.340
+Na tohle h se můžeme
+dívat jako na Δt.
+
+09:40.340 --> 09:43.450
+Některým lidem se zdá
+jednodušší použít h,
+
+09:43.450 --> 09:44.780
+jiní mají
+raději Δt.
+
+09:44.780 --> 09:46.880
+Nás ale zajímá
+okamžitá...
+
+09:46.880 --> 09:49.120
+Pracujeme tu s křivkami
+a diferenciálním počtem.
+
+09:49.120 --> 09:52.470
+Tohle by nám stačilo jen
+v lineárním světě algebry.
+
+09:52.470 --> 09:53.820
+Co s tím
+tedy uděláme?
+
+09:53.820 --> 09:57.660
+Mohli bychom zkusit udělat
+limitu pro h blížící se k 0.
+
+09:57.660 --> 09:59.680
+Sjedu trochu dolů.
+
+09:59.680 --> 10:02.640
+Udělejme limitu...
+
+10:02.640 --> 10:05.380
+Napíšu to nějakou
+zářivou barvou.
+
+10:05.380 --> 10:06.490
+Udělejme...
+
+10:06.490 --> 10:07.680
+Už mi
+dochází barvy.
+
+10:07.680 --> 10:11.930
+...limitu pro h blížící se k 0
+z obou stran této rovnosti,
+
+10:11.930 --> 10:16.320
+takže i zde uděláme
+limitu pro h blížící se k 0
+
+10:16.320 --> 10:20.080
+a také tady bude
+limita pro h blížící se k 0.
+
+10:20.080 --> 10:26.530
+Snažím se tedy zjistit, jak moc se změní
+můj vektor při změně parametru t...
+
+10:26.530 --> 10:31.076
+Jaká je okamžitá změna mého vektoru,
+když je změna parametru menší a menší.
+
+10:31.076 --> 10:36.470
+Tohle už jsme viděli, když jsme se učili
+o směrnici a okamžité rychlosti změny,
+
+10:36.470 --> 10:38.240
+tedy o směrnici tečny.
+
+10:38.240 --> 10:41.080
+Tenhle výraz ještě
+nemáme definovaný.
+
+10:41.080 --> 10:47.690
+Nezadefinovali jsme si limitu vektorové
+funkce ani derivaci vektorové funkce.
+
+10:47.690 --> 10:51.080
+Toto už ale naštěstí
+vypadá docela povědomě.
+
+10:51.080 --> 10:54.200
+Zde je totiž přímo naše
+známá definice derivace.
+
+10:54.200 --> 10:56.230
+Tohle už jsou
+skalární funkce,
+
+10:56.230 --> 10:59.760
+kterými násobíme vektory,
+abychom dostali vektorovou funkci.
+
+10:59.760 --> 11:07.890
+Podle definice derivace se tohle rovná
+x(t) s čárkou neboli dx lomeno dt.
+
+11:07.890 --> 11:14.800
+Toto se pak rovná
+y(t) s čárkou neboli dy lomeno dt.
+
+11:14.800 --> 11:17.010
+Najednou už tak
+můžeme zadefinovat...
+
+11:17.010 --> 11:18.620
+Není to sice
+matematicky formální,
+
+11:18.620 --> 11:20.730
+ale chci, aby vám to
+intuitivně dávalo smysl.
+
+11:20.730 --> 11:22.220
+Můžeme říci,
+že derivace...
+
+11:22.220 --> 11:31.370
+Tento výraz můžeme nazvat
+derivací vektorové funkce r podle t,
+
+11:31.370 --> 11:34.580
+což můžeme zapsat
+jako dr lomeno dt,
+
+11:34.580 --> 11:36.890
+přičemž si všimněte,
+že nad r píšu šipky.
+
+11:36.890 --> 11:43.380
+Tato derivace
+se rovná...
+
+11:43.380 --> 11:46.660
+r(t) s čárkou
+se rovná...
+
+11:46.660 --> 11:49.450
+Tady máme
+derivaci x podle t.
+
+11:49.450 --> 11:54.780
+...se rovná x(t) s čárkou krát
+jednotkový vektor ve směru osy x
+
+11:54.780 --> 12:04.100
+plus y(t) s čárkou krát jednotkový vektor
+ve směru osy y, tedy krát j.
+
+12:04.100 --> 12:06.600
+To je poměrně hezký
+a jednoduchý vzorec,
+
+12:06.600 --> 12:10.420
+ale už o trochu těžší je představit si,
+co tento vzorec znamená.
+
+12:10.420 --> 12:12.350
+Když se zamyslíme
+nad tím, co se stane...
+
+12:12.350 --> 12:19.520
+Nakreslím sem velký graf,
+abychom to dobře viděli.
+
+12:19.520 --> 12:21.990
+Řekněme, že naše křivka
+vypadá nějak takhle.
+
+12:21.990 --> 12:23.440
+Tohle bude
+naše křivka.
+
+12:23.440 --> 12:29.030
+Řekněme dále, že nás zajímá
+okamžitá změna v tomto bodě,
+
+12:29.030 --> 12:32.310
+což bude
+bod r(t).
+
+12:32.310 --> 12:35.260
+Nyní si nakresleme r(t plus h),
+jak už jsme to jednou udělali.
+
+12:35.260 --> 12:39.590
+r(t plus h) by mohlo
+být někde tady.
+
+12:39.590 --> 12:42.340
+Tohle je
+r(t plus h).
+
+12:42.340 --> 12:45.660
+V tuto chvíli je rozdíl
+mezi těmito vektory,
+
+12:45.660 --> 12:48.620
+což bude čitatel toho,
+co nás zajímá,
+
+12:48.620 --> 12:55.440
+tedy jak rychle se vektor změní z tohoto
+na tenhle vzhledem k t...
+
+12:55.440 --> 12:56.880
+Těžko se to
+představuje.
+
+12:56.880 --> 13:00.130
+Jedno samostatné video se pak
+bude věnovat velikostem těchto vektorů.
+
+13:00.130 --> 13:02.040
+Bude to vektor...
+
+13:02.040 --> 13:04.870
+Rozdílem mezi těmito dvěma
+vektory je tento vektor.
+
+13:04.870 --> 13:08.150
+Když ho poté vydělíme ‚h‘,
+dostaneme větší vektor,
+
+13:08.150 --> 13:10.680
+předpokládáme-li,
+že ‚h‘ je nějaké malé číslo.
+
+13:10.680 --> 13:14.340
+Pokud je h menší než 1,
+tak dostaneme větší vektor.
+
+13:14.340 --> 13:16.930
+Tohle je ale průměrná
+změna za časový úsek ‚h‘.
+
+13:16.930 --> 13:22.110
+Jak se však bude
+‚h‘ stále více zmenšovat,
+
+13:22.110 --> 13:27.860
+tak směr vektoru r(t) s čárkou
+bude stejný jako směr tečny k této křivce.
+
+13:27.860 --> 13:29.670
+Myslím, že to
+jde docela vidět.
+
+13:29.670 --> 13:32.400
+Když budou tyto dva
+vektory čím dál víc u sebe,
+
+13:32.400 --> 13:35.720
+tak bude dr čím dál tím menší,
+takže změna...
+
+13:35.720 --> 13:39.250
+Tím dr myslím rozdíl mezi
+těmito dvěma vektory, tedy Δr.
+
+13:39.250 --> 13:40.530
+Δr bude čím
+dál tím menší.
+
+13:40.530 --> 13:43.570
+Umíte si představit,
+že kdyby h bylo ještě menší, třeba zde,
+
+13:43.570 --> 13:47.860
+tak by i rozdíl mezi těmito
+dvěma vektory byl menší
+
+13:47.860 --> 13:53.590
+a vypadal by ještě víc
+jako tečný vektor k této křivce.
+
+13:53.590 --> 13:55.980
+V tomhle případě
+však dělíme menším h,
+
+13:55.980 --> 14:01.940
+takže derivace, tedy limita pro h blížící
+se k 0, může být ještě větší číslo.
+
+14:01.940 --> 14:04.170
+Ve skutečnosti bude
+velikost tohoto vektoru...
+
+14:04.170 --> 14:05.650
+Těžko se
+to znázorňuje.
+
+14:05.650 --> 14:09.160
+...bude záviset na
+parametrizaci dané křivky.
+
+14:09.160 --> 14:11.810
+Nezávisí ovšem
+na tvaru křivky.
+
+14:11.810 --> 14:15.250
+Směr tohoto vektoru
+závisí na tvaru křivky,
+
+14:15.250 --> 14:22.410
+přičemž směr tohoto vektoru
+je stejný jako směr tečny k této křivce.
+
+14:22.410 --> 14:28.010
+Můžeme si to představit tak,
+že tento vektor leží na tečně ke křivce.
+
+14:28.010 --> 14:30.720
+Velikost tohoto vektoru
+je trochu těžké pochopit.
+
+14:30.720 --> 14:34.930
+Zkusím vám to intuitivně
+vysvětlit v následujícím videu.
+
+14:34.930 --> 14:37.040
+Teď bych rád,
+abyste pochopili tohle,
+
+14:37.040 --> 14:39.610
+protože se nám
+to bude hodit,
+
+14:39.610 --> 14:44.400
+až budeme mluvit o křivkovém integrálu
+z vektorových funkcí.

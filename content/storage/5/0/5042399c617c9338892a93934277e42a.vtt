@@ -1,0 +1,666 @@
+WEBVTT
+
+00:00.606 --> 00:02.305
+- [Voiceover] So we've got
+an infinite series here.
+
+00:02.305 --> 00:05.113
+Negative one to the n plus
+one over the square root of n.
+
+00:05.113 --> 00:06.630
+I always like to visualize this
+
+00:06.630 --> 00:08.276
+a little bit more, expand it out.
+
+00:08.276 --> 00:10.685
+So when n equals one the
+first term is negative one
+
+00:10.685 --> 00:12.461
+to the second power, so
+it's going to be positive.
+
+00:12.461 --> 00:14.387
+It's going to be one
+over one and so it's one
+
+00:14.387 --> 00:16.929
+minus one over the square root of two
+
+00:16.929 --> 00:19.575
+plus one over the square root of three
+
+00:19.575 --> 00:22.115
+minus one over the square
+root of four and then
+
+00:22.115 --> 00:25.379
+plus, minus, and we just go
+on and on and on forever.
+
+00:26.002 --> 00:28.810
+Now when we looked at convergence tests
+
+00:28.810 --> 00:32.218
+for infinite series we
+saw things like this.
+
+00:32.235 --> 00:35.102
+This passes the alternating series test
+
+00:35.102 --> 00:37.015
+and so we know that this converges.
+
+00:37.015 --> 00:40.063
+Let's say it converges to some value S.
+
+00:40.473 --> 00:42.401
+But what we're concerned
+with in this video is
+
+00:42.401 --> 00:44.923
+not whether or not this
+converges, but estimating
+
+00:44.923 --> 00:47.436
+what this actually converges to.
+
+00:47.436 --> 00:51.197
+We know that we can estimate
+this by taking a partial sum.
+
+00:51.827 --> 00:55.844
+Let's say S sub k, this is the
+first k terms right over here
+
+00:55.844 --> 00:57.561
+and then you're going to have a remainder,
+
+00:57.561 --> 01:01.953
+so plus the remainder after
+you've taken the first k terms.
+
+01:01.953 --> 01:04.882
+So this actually starts
+with the k plus first term.
+
+01:05.283 --> 01:07.335
+And so what I am concerned
+about or what I want
+
+01:07.335 --> 01:10.843
+to figure out is what's the
+minimum number of terms,
+
+01:10.843 --> 01:15.030
+what's the minimum k here
+so that my remainder,
+
+01:15.030 --> 01:17.666
+so that the absolute value of my remainder
+
+01:17.666 --> 01:22.666
+is less than or equal to 0.001.
+
+01:23.467 --> 01:25.164
+And I encourage you to
+pause the video based
+
+01:25.164 --> 01:26.403
+on what we've seen in previous
+
+01:26.403 --> 01:28.981
+alternating series estimation situations
+
+01:28.981 --> 01:30.663
+to see if you can figure this out.
+
+01:31.620 --> 01:35.552
+Alright I'm assuming
+you've had a go at it.
+
+01:35.552 --> 01:39.210
+So let's just remind ourselves
+what R sub k looks like.
+
+01:39.210 --> 01:44.210
+So R sub k is going to start
+with the k plus first term.
+
+01:46.211 --> 01:50.371
+So it's going to be negative
+one k plus one plus one,
+
+01:50.371 --> 01:54.483
+so it's negative one
+to the k plus two over
+
+01:54.483 --> 01:59.483
+the square root of k plus one.
+
+02:02.415 --> 02:06.343
+And then the next term
+I can just write plus
+
+02:06.343 --> 02:10.465
+negative one to the k plus three over
+
+02:10.465 --> 02:14.211
+the square root of k plus two.
+
+02:14.235 --> 02:17.198
+And it's just going to go
+on and on and on like that.
+
+02:17.732 --> 02:20.683
+Now what we know already or
+what we've seen an example of
+
+02:20.683 --> 02:23.242
+and we'll verify it or at
+least conceptual verification
+
+02:23.242 --> 02:27.872
+for us at the end of this
+video is the absolute
+
+02:27.872 --> 02:32.872
+value of this entire sum
+is going to be less than
+
+02:34.022 --> 02:36.397
+the absolute value of the first term.
+
+02:36.397 --> 02:37.842
+So let me write that down.
+
+02:37.842 --> 02:42.842
+The absolute value of this
+entire remainder R sub k...
+
+02:42.881 --> 02:45.280
+And some people refer
+to this as kind of the
+
+02:45.280 --> 02:48.232
+alternating series remainder property
+
+02:48.232 --> 02:49.998
+or whatever you want to call it.
+
+02:49.998 --> 02:52.184
+But the absolute value
+of this entire thing
+
+02:52.184 --> 02:55.671
+is going to be less than or
+equal to the absolute value
+
+02:55.671 --> 03:00.671
+of the first term, negative
+one to the k plus two
+
+03:00.848 --> 03:04.822
+over the square root of k plus one.
+
+03:04.822 --> 03:08.631
+And of course we want that to
+be less than one thousandth.
+
+03:08.631 --> 03:13.631
+So that needs to be less
+than or equal to 0.001.
+
+03:14.786 --> 03:17.480
+And so now this setup
+right over here inspires
+
+03:17.480 --> 03:19.752
+you, I once again encourage
+you to pause the video
+
+03:19.752 --> 03:21.574
+and see if you can figure out what is
+
+03:21.574 --> 03:26.266
+the minimum k that
+satisfies this inequality.
+
+03:27.422 --> 03:30.690
+Well once again I'm assuming
+you've had a go at it.
+
+03:30.690 --> 03:32.820
+And the key realization here is that this
+
+03:32.820 --> 03:35.174
+negative one to the k plus
+two this makes this whole
+
+03:35.174 --> 03:36.435
+thing either positive or negative.
+
+03:36.435 --> 03:38.514
+The denominator is going to be positive.
+
+03:38.514 --> 03:40.826
+Well it's definitely going
+to be positive for all
+
+03:40.826 --> 03:43.089
+the ks frankly for
+which the principal root
+
+03:43.089 --> 03:44.691
+is going to be defined, but obviously
+
+03:44.691 --> 03:47.320
+these are all positive ks as well.
+
+03:47.320 --> 03:50.128
+So the numerator here just flips the sign.
+
+03:50.128 --> 03:52.999
+We flip between negative
+one or positive one,
+
+03:52.999 --> 03:54.616
+negative one or positive one.
+
+03:54.616 --> 03:58.074
+But if we take the
+absolute value whether it's
+
+03:58.074 --> 04:00.358
+negative or positive it's
+going to end up being positive.
+
+04:00.358 --> 04:05.358
+So this thing on the left
+hand side that's the same
+
+04:06.480 --> 04:11.480
+thing as just one over the
+square root of k plus one
+
+04:13.886 --> 04:18.886
+and then that's going to be
+less than or equal to 0.001.
+
+04:21.132 --> 04:24.544
+And now we just have to
+solve this inequality.
+
+04:24.544 --> 04:28.105
+Find out which ks satisfy this inequality.
+
+04:28.105 --> 04:30.310
+And so let's see, we
+can multiply both sides
+
+04:30.310 --> 04:32.547
+by the square root of k plus one.
+
+04:32.547 --> 04:35.135
+So square root of k plus one so we can
+
+04:35.135 --> 04:36.904
+get this out of the denominator.
+
+04:36.904 --> 04:39.990
+And let's actually multiple
+both sides times 1,000
+
+04:39.990 --> 04:42.023
+because this is a thousandth
+and so we'll end up
+
+04:42.023 --> 04:43.317
+with a one on the right-hand side.
+
+04:43.317 --> 04:47.748
+So times 1,000, times 1,000.
+
+04:47.748 --> 04:50.595
+And what we're going to be left with is
+
+04:50.595 --> 04:53.165
+these cancel out on the left-hand side.
+
+04:53.672 --> 04:54.884
+We don't have to flip the sign because
+
+04:54.884 --> 04:56.789
+we just multiplied by positive things.
+
+04:56.789 --> 05:00.958
+So we have 1,000 is less than or equal to
+
+05:00.958 --> 05:03.629
+the square root of k plus one.
+
+05:03.629 --> 05:07.312
+We could square both
+sides and we get 1,000,000
+
+05:09.065 --> 05:13.344
+is less than or equal to k plus one.
+
+05:13.344 --> 05:17.304
+And then we can just
+subtract one from both sides
+
+05:17.304 --> 05:21.855
+and we have 999,999 is going
+
+05:21.855 --> 05:24.710
+to be less than or equal to k.
+
+05:24.710 --> 05:29.710
+So k just has to be greater
+than or equal to 999,999.
+
+05:30.192 --> 05:32.157
+And remember we want the smallest k
+
+05:32.157 --> 05:33.539
+that satisfies these conditions.
+
+05:33.539 --> 05:34.556
+So the smallest k if k has to be
+
+05:34.556 --> 05:36.254
+greater than or equal to this,
+
+05:36.254 --> 05:41.254
+the smallest k that satisfies
+this is k is equal to 999,999.
+
+05:42.252 --> 05:43.811
+So let's write that down.
+
+05:44.201 --> 05:46.671
+So the smallest k for which this is true
+
+05:46.671 --> 05:51.671
+is going to be k is equal to 999,999.
+
+05:53.541 --> 05:56.656
+Now let's convince ourselves
+that that remainder,
+
+05:56.656 --> 05:58.538
+that the absolute value
+of the remainder is
+
+05:58.538 --> 06:01.416
+definitely going to be less...
+
+06:04.573 --> 06:06.002
+If we take the partial sum of the first
+
+06:06.002 --> 06:09.910
+999,999 terms that this remainder is
+
+06:09.910 --> 06:12.766
+actually going to be less than this.
+
+06:12.766 --> 06:14.532
+I'm telling you so far
+we've just kind of worked
+
+06:14.532 --> 06:15.685
+from the premise that it will be,
+
+06:15.685 --> 06:18.461
+but let's actually look at
+that and feel good about it.
+
+06:18.461 --> 06:19.471
+And once again encourage you to
+
+06:19.471 --> 06:21.384
+pause the video and try it on your own.
+
+06:22.306 --> 06:23.765
+So let's just rewrite this again,
+
+06:23.765 --> 06:26.103
+but I'm going to expand out R sub k.
+
+06:26.103 --> 06:29.789
+So we're saying that it's
+all going to converge to S
+
+06:29.789 --> 06:33.949
+and we're going to take the
+partial sum of the first
+
+06:33.949 --> 06:38.569
+999,999 terms and we're
+claiming that this is going
+
+06:38.569 --> 06:41.347
+to be within one thousandth
+of this right over here.
+
+06:41.801 --> 06:43.685
+So this is going to be plus and
+
+06:43.685 --> 06:47.507
+so the first term of the remainder,
+
+06:47.507 --> 06:52.507
+of R sub k is going to
+be our millionth term.
+
+06:54.299 --> 06:59.299
+And so the millionth term, we
+just have to remind ourselves,
+
+06:59.417 --> 07:03.502
+is going to be negative one
+to the million and oneth power
+
+07:03.502 --> 07:05.502
+so negative one to the
+million and oneth power
+
+07:05.502 --> 07:08.306
+that's going to be negative one
+
+07:08.306 --> 07:09.615
+because that's an odd number.
+
+07:09.615 --> 07:11.249
+So it's going to be negative one over
+
+07:11.249 --> 07:13.012
+the square root of a million.
+
+07:13.012 --> 07:14.253
+So actually let me do it like this.
+
+07:14.253 --> 07:17.090
+So it's going to be minus one
+
+07:17.090 --> 07:21.326
+over the square root of a million.
+
+07:22.190 --> 07:24.161
+And then the next term is going to be plus
+
+07:24.161 --> 07:29.161
+one over the square root
+of a million and one.
+
+07:30.667 --> 07:32.456
+And it's positive now
+because this is gonna be
+
+07:33.779 --> 07:37.475
+negative one to the
+million and second power.
+
+07:37.475 --> 07:41.791
+And then it's going to be minus one over
+
+07:41.791 --> 07:46.791
+the square root of one million and two.
+
+07:48.004 --> 07:51.274
+And then plus, I'll
+just do two more terms.
+
+07:51.274 --> 07:56.274
+One over the square root
+of a million and three.
+
+07:58.896 --> 08:03.896
+And then minus one over the square root of
+
+08:04.817 --> 08:08.132
+a million and four and then plus, minus,
+
+08:08.132 --> 08:12.074
+it just keeps going on and
+on, on and on and on forever.
+
+08:12.074 --> 08:15.613
+Now I want to convince
+ourselves that this thing
+
+08:15.613 --> 08:18.921
+is going to be, the
+absolute value of this thing
+
+08:18.921 --> 08:21.483
+is going to be less than one thousandth.
+
+08:21.483 --> 08:22.761
+It's going to be essentially less than the
+
+08:22.761 --> 08:25.612
+absolute value of this first term.
+
+08:25.612 --> 08:26.835
+So how do we think about it?
+
+08:26.835 --> 08:28.047
+So this first term we already know,
+
+08:28.047 --> 08:32.625
+this right over here is this
+first term right over here is
+
+08:32.625 --> 08:37.625
+negative 0.001 because
+it's one over one thousand
+
+08:41.325 --> 08:43.685
+and we have this negative right over here.
+
+08:43.685 --> 08:45.556
+Now the first thing we could realize,
+
+08:45.556 --> 08:48.522
+if we just put parentheses like this,
+
+08:52.522 --> 08:54.534
+we see that this is going to be positive,
+
+08:54.534 --> 08:56.045
+this term is larger than this term,
+
+08:56.045 --> 08:57.133
+this term is larger than this term,
+
+08:57.133 --> 08:58.426
+and we could keep going.
+
+09:02.963 --> 09:06.163
+So the remainder kind of starts
+at negative one thousandth
+
+09:06.163 --> 09:08.521
+and then it just adds a
+bunch of positive terms.
+
+09:08.521 --> 09:11.474
+So it's not going to get
+any more negative than this.
+
+09:11.474 --> 09:13.926
+So we know that the remainder
+can't get more negative
+
+09:13.926 --> 09:16.342
+than this, but let's
+also verify that it can't
+
+09:16.972 --> 09:20.352
+get more than a positive
+thousandth either.
+
+09:20.352 --> 09:23.353
+And the way that we can
+do that is to just look
+
+09:23.353 --> 09:25.326
+at the parentheses in a different way.
+
+09:25.326 --> 09:30.326
+If we do it this way that's
+going to be a negative value.
+
+09:33.229 --> 09:35.691
+This right over here is
+going to be a negative value.
+
+09:35.691 --> 09:40.060
+And we can say plus that, plus that,
+
+09:40.060 --> 09:40.989
+and so we're going to have a
+
+09:40.989 --> 09:42.475
+bunch of negative values together.
+
+09:42.475 --> 09:45.195
+So just like that by really looking at the
+
+09:45.195 --> 09:47.168
+parentheses a little bit
+differently we're able
+
+09:47.168 --> 09:48.792
+to say that this is definitely
+going to be negative.
+
+09:48.792 --> 09:51.224
+This remainder is definitely
+going to be a negative value,
+
+09:51.224 --> 09:55.326
+but it can't be any more
+negative than our first term.
+
+09:55.326 --> 09:57.767
+So that tells us that the
+absolute value of our remainder
+
+10:03.166 --> 10:06.527
+can't get any larger than one thousandth.
+
+10:07.365 --> 10:09.364
+As we add more and more
+and more terms here
+
+10:09.364 --> 10:12.280
+we're not going to get
+any further away from
+
+10:13.172 --> 10:18.172
+the actual sum than the first term.

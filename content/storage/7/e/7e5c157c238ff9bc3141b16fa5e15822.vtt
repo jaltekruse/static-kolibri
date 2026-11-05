@@ -1,0 +1,820 @@
+WEBVTT
+
+00:00.499 --> 00:02.520
+Before we get into
+the meat of algebra,
+
+00:02.520 --> 00:04.728
+I wanted to give you a quote
+from one of the greatest
+
+00:04.728 --> 00:08.029
+minds in human history, Galileo
+Galilei, because I think
+
+00:08.029 --> 00:11.240
+this quote encapsulates
+the true point of algebra
+
+00:11.240 --> 00:13.960
+and really mathematics
+in general.
+
+00:13.960 --> 00:17.230
+He said, "Philosophy is written
+in that great book which ever
+
+00:17.230 --> 00:20.610
+lies before our eyes--
+I mean the universe--
+
+00:20.610 --> 00:23.850
+but we cannot understand
+it if we do not first learn
+
+00:23.850 --> 00:27.320
+the language and grasp the
+symbols in which is written.
+
+00:27.320 --> 00:30.440
+This book is written in
+the mathematical language,
+
+00:30.440 --> 00:35.580
+without which one wanders in
+vain through a dark labyrinth."
+
+00:35.580 --> 00:38.030
+So very dramatic, but very deep.
+
+00:38.030 --> 00:40.830
+And this really is the
+point of mathematics.
+
+00:40.830 --> 00:43.639
+And what we'll see as we start
+getting deeper and deeper
+
+00:43.639 --> 00:46.180
+into algebra is that we're going
+to start abstracting things,
+
+00:46.180 --> 00:48.700
+and we're going to start
+getting to core ideas that
+
+00:48.700 --> 00:51.640
+start explaining really how
+the universe is structured.
+
+00:51.640 --> 00:54.500
+Sure, these ideas can be
+applied to things like economics
+
+00:54.500 --> 00:56.850
+and finance and
+physics and chemistry.
+
+00:56.850 --> 00:59.080
+But at their core,
+they're the same idea,
+
+00:59.080 --> 01:01.890
+and so they're even more
+fundamental, more pure,
+
+01:01.890 --> 01:04.800
+than any one of
+those applications.
+
+01:04.800 --> 01:08.190
+And to see what I mean by
+getting down to the root idea,
+
+01:08.190 --> 01:11.770
+let's go with a-- I guess we
+started with the very grand,
+
+01:11.770 --> 01:13.410
+the philosophy of
+the universe is
+
+01:13.410 --> 01:15.076
+written in mathematics--
+but let's start
+
+01:15.076 --> 01:17.409
+with a very concrete,
+simple idea.
+
+01:17.409 --> 01:18.950
+But we'll keep
+abstracting, and we'll
+
+01:18.950 --> 01:23.080
+see how the same idea
+connects across many domains
+
+01:23.080 --> 01:24.330
+in our universe.
+
+01:24.330 --> 01:26.370
+So let's just say
+we're at the store,
+
+01:26.370 --> 01:27.800
+and we're going
+to buy something.
+
+01:27.800 --> 01:29.370
+And there is a sale.
+
+01:29.370 --> 01:34.800
+The sale says that it
+is 30% percent off,
+
+01:34.800 --> 01:36.080
+and I'm interested.
+
+01:36.080 --> 01:37.802
+I don't shop at
+too fancy a store.
+
+01:37.802 --> 01:39.760
+So let's say I'm interested
+in a pair of pants.
+
+01:39.760 --> 01:43.150
+And the pair of pants before
+the sale even is about $20.
+
+01:43.150 --> 01:45.800
+And that is about how
+much I spend on my pants.
+
+01:45.800 --> 01:48.360
+So I'm interested in
+a $20 pair of pants.
+
+01:48.360 --> 01:53.770
+But it's even better, there's
+a 30% off sale on these pants.
+
+01:53.770 --> 01:55.480
+Well, how would I
+think about how much
+
+01:55.480 --> 01:57.656
+I'm going to get
+off of that $20?
+
+01:57.656 --> 01:58.780
+And this isn't algebra yet.
+
+01:58.780 --> 02:01.071
+This is something that you've
+probably had exposure to.
+
+02:01.071 --> 02:04.590
+You would multiply
+the 30% times the $20.
+
+02:04.590 --> 02:09.919
+So you would say your
+discount is equal
+
+02:09.919 --> 02:14.100
+to-- you could write
+it as 30% times $20.
+
+02:14.100 --> 02:16.147
+I'll do the $20 in purple.
+
+02:16.147 --> 02:18.230
+Or you could write it, if
+you wanted to write this
+
+02:18.230 --> 02:23.900
+as a decimal, you could
+write this as 0.30 times $20.
+
+02:23.900 --> 02:27.060
+And if you were to do the
+math, you would get $6.
+
+02:27.060 --> 02:29.640
+So nothing new over there.
+
+02:29.640 --> 02:31.690
+But what if I want to
+generalize it a little bit?
+
+02:31.690 --> 02:35.032
+That's the discount on this
+particular pair of pants.
+
+02:35.032 --> 02:37.240
+But what if I wanted to know
+the discount on anything
+
+02:37.240 --> 02:38.310
+in the store?
+
+02:38.310 --> 02:39.880
+Well, then I could
+say, well, let
+
+02:39.880 --> 02:44.020
+x be the price-- let me do
+this in a different color.
+
+02:44.020 --> 02:45.740
+So I'm just going
+to make a symbol.
+
+02:45.740 --> 02:49.930
+Let x be the price
+of the product
+
+02:49.930 --> 02:57.520
+I want to buy, price,
+the non-discount price
+
+02:57.520 --> 03:01.052
+of the product in the store.
+
+03:01.052 --> 03:02.510
+So now, all of a
+sudden, we can say
+
+03:02.510 --> 03:11.305
+that our discount is
+equal to 30% times x.
+
+03:15.070 --> 03:17.306
+Or if we wanted to
+write it as a decimal,
+
+03:17.306 --> 03:18.930
+if we wanted to write
+30% as a decimal,
+
+03:18.930 --> 03:25.190
+we could write 0.30 times x.
+
+03:25.190 --> 03:26.590
+Now, this is interesting.
+
+03:26.590 --> 03:29.180
+Now you give me the price
+of any product in the store,
+
+03:29.180 --> 03:31.320
+and I can substitute
+it in for x.
+
+03:31.320 --> 03:34.390
+And then I can essentially
+multiply 0.3 times that,
+
+03:34.390 --> 03:35.620
+and I would get the discount.
+
+03:35.620 --> 03:38.530
+So now we're starting
+to, very slowly,
+
+03:38.530 --> 03:41.740
+we're starting to get into
+the abstraction of algebra.
+
+03:41.740 --> 03:44.560
+And we'll see that these will
+get much more nuanced and deep
+
+03:44.560 --> 03:46.470
+and, frankly, more
+beautiful as we
+
+03:46.470 --> 03:52.310
+start studying more and more
+kind of algebraic ideas.
+
+03:52.310 --> 03:53.540
+But we aren't done here.
+
+03:53.540 --> 03:55.480
+We can abstract this even more.
+
+03:55.480 --> 03:57.500
+Over here, we've said
+we've generalized
+
+03:57.500 --> 03:58.570
+this for any product.
+
+03:58.570 --> 04:00.430
+We're not just saying
+for this $20 product.
+
+04:00.430 --> 04:03.950
+If there's a $10 product, we
+can put that $10 product in here
+
+04:03.950 --> 04:05.140
+for x.
+
+04:05.140 --> 04:08.280
+And then we would
+say 0.30 times 10,
+
+04:08.280 --> 04:10.610
+and the discount would be $3.
+
+04:10.610 --> 04:13.940
+It might be $100 product, then
+the discount would be $30.
+
+04:13.940 --> 04:15.630
+But let's generalize even more.
+
+04:15.630 --> 04:18.290
+Let's say, well, what is
+the discount for any given
+
+04:18.290 --> 04:20.430
+sale when the sale is
+a certain percentage?
+
+04:20.430 --> 04:23.320
+So now we can say
+that the discount--
+
+04:23.320 --> 04:25.170
+let me define a variable.
+
+04:25.170 --> 04:32.320
+So let's let m equal-- or I'll
+say p just so it makes sense.
+
+04:32.320 --> 04:36.800
+p is equal to the
+percentage off.
+
+04:41.300 --> 04:42.590
+Now what can we do?
+
+04:42.590 --> 04:47.040
+Well, now we can say
+that the discount
+
+04:47.040 --> 04:49.610
+is equal to the percentage off.
+
+04:49.610 --> 04:52.170
+In these other examples,
+we were picking 30%.
+
+04:52.170 --> 04:53.580
+But we can say now it's p.
+
+04:53.580 --> 04:55.250
+It's the percentage off.
+
+04:55.250 --> 04:56.630
+It's p.
+
+04:56.630 --> 05:00.870
+That's the percentage off
+times the product in question,
+
+05:00.870 --> 05:02.895
+times the price, the
+non-discount price
+
+05:02.895 --> 05:04.020
+of the product in question.
+
+05:04.020 --> 05:05.330
+Well, that was x.
+
+05:05.330 --> 05:08.437
+The discount is
+equal to p times x.
+
+05:08.437 --> 05:09.770
+Now, this is really interesting.
+
+05:09.770 --> 05:12.350
+Now we have a general
+way of calculating
+
+05:12.350 --> 05:16.420
+a discount for any given
+percentage off and any given
+
+05:16.420 --> 05:18.880
+product x.
+
+05:18.880 --> 05:21.720
+And we didn't have to use
+these words and these letters.
+
+05:21.720 --> 05:24.295
+We could have said let
+y equal the discount.
+
+05:29.320 --> 05:31.989
+Then we could have written
+the same underlying idea.
+
+05:31.989 --> 05:33.530
+Instead of writing
+discount, we could
+
+05:33.530 --> 05:40.810
+have written y is equal to
+the percentage off p times
+
+05:40.810 --> 05:44.801
+the non-discount price
+of the product, times x.
+
+05:44.801 --> 05:47.300
+And you could have defined these
+letters any way you wanted.
+
+05:47.300 --> 05:48.980
+Instead of writing
+y there, you could
+
+05:48.980 --> 05:50.260
+have written a
+Greek letter, or you
+
+05:50.260 --> 05:51.530
+could have written
+any symbol there.
+
+05:51.530 --> 05:53.030
+As long as you can
+keep track of it,
+
+05:53.030 --> 05:56.847
+that symbol represents the
+actual dollar discount.
+
+05:56.847 --> 05:58.430
+But now things get
+really interesting.
+
+05:58.430 --> 06:02.330
+Because we can use this type
+of a relationship, which
+
+06:02.330 --> 06:04.550
+is an equation--
+you're equating y
+
+06:04.550 --> 06:07.632
+to this right over here, that's
+why we call it an equation--
+
+06:07.632 --> 06:09.590
+this can be used for
+things that are completely
+
+06:09.590 --> 06:12.610
+unrelated to the price,
+the discount price,
+
+06:12.610 --> 06:15.330
+at the store over here.
+
+06:15.330 --> 06:18.050
+So in physics,
+you'll see that force
+
+06:18.050 --> 06:21.180
+is equal to mass
+times acceleration.
+
+06:21.180 --> 06:23.590
+The letters are different,
+but these are fundamentally
+
+06:23.590 --> 06:25.130
+the same idea.
+
+06:25.130 --> 06:36.360
+We could've let y is equal to
+force, and mass is equal to p.
+
+06:36.360 --> 06:39.580
+So let me write p
+is equal to mass.
+
+06:39.580 --> 06:41.850
+And this wouldn't be an
+intuitive way to define it,
+
+06:41.850 --> 06:42.620
+but I want to show
+you that this is
+
+06:42.620 --> 06:44.680
+the same idea, the
+same relationship,
+
+06:44.680 --> 06:48.060
+but it's being applied to two
+completely different things.
+
+06:48.060 --> 06:50.105
+And we could say x is
+equal to acceleration.
+
+06:57.380 --> 07:00.710
+Well, then the famous force
+is equal to mass times
+
+07:00.710 --> 07:02.210
+acceleration can be rewritten.
+
+07:02.210 --> 07:04.380
+And it's really
+the same exact idea
+
+07:04.380 --> 07:07.310
+as y, which we've
+defined as force,
+
+07:07.310 --> 07:08.890
+can be equal to
+mass, which we're
+
+07:08.890 --> 07:10.620
+going to use the
+symbol p, which is
+
+07:10.620 --> 07:12.930
+equal to p times acceleration.
+
+07:12.930 --> 07:15.690
+And we're just going to happen
+to use the letter x here,
+
+07:15.690 --> 07:16.840
+times x.
+
+07:16.840 --> 07:19.560
+Well, this is the
+exact same equation.
+
+07:19.560 --> 07:20.995
+This is the exact same equation.
+
+07:20.995 --> 07:23.290
+And we could see that we
+can take this equation,
+
+07:23.290 --> 07:27.650
+and it can apply to
+things in economics,
+
+07:27.650 --> 07:30.700
+or it can apply to
+things in finance,
+
+07:30.700 --> 07:33.890
+or it can apply to things in
+computer science, or logic,
+
+07:33.890 --> 07:36.410
+or electrical engineering,
+or anything, accounting.
+
+07:36.410 --> 07:38.900
+There's an infinite
+number of applications
+
+07:38.900 --> 07:40.150
+of this one equation.
+
+07:40.150 --> 07:42.000
+And what's neat
+about mathematics
+
+07:42.000 --> 07:43.890
+and what's neat about
+algebra in particular
+
+07:43.890 --> 07:47.240
+is we can focus on
+this abstraction.
+
+07:47.240 --> 07:49.480
+We can focus on
+the abstract here,
+
+07:49.480 --> 07:51.920
+and we can manipulate
+the abstract here.
+
+07:51.920 --> 07:54.160
+And what we discover
+from these ideas,
+
+07:54.160 --> 07:56.090
+from these
+manipulations, can then
+
+07:56.090 --> 08:00.630
+go and be reapplied to all
+of these other applications,
+
+08:00.630 --> 08:01.720
+to all of them.
+
+08:01.720 --> 08:03.560
+And even neater, it's
+kind of telling us
+
+08:03.560 --> 08:05.540
+the true structure
+of the universe
+
+08:05.540 --> 08:08.420
+if you were to strip away all
+of these human definitions
+
+08:08.420 --> 08:10.470
+and all of these
+human applications.
+
+08:10.470 --> 08:13.730
+So for example, we could say,
+look, if y is equal to p times
+
+08:13.730 --> 08:16.860
+x-- so literally, if someone
+said, hey, this is y,
+
+08:16.860 --> 08:19.250
+and someone says, on the
+other hand, I have p times x,
+
+08:19.250 --> 08:21.333
+I could say, well, you
+have the same thing in both
+
+08:21.333 --> 08:22.320
+of your hands.
+
+08:22.320 --> 08:25.460
+And if you were to divide
+one of them by a number,
+
+08:25.460 --> 08:27.420
+and if you wanted them
+to still be equal,
+
+08:27.420 --> 08:29.640
+you would divide the
+other one by that number.
+
+08:29.640 --> 08:35.770
+So for example, we know that
+y is equal to p times x.
+
+08:35.770 --> 08:38.200
+Well, what if you wanted
+to have them both be equal?
+
+08:38.200 --> 08:39.789
+And you say, well,
+what is y divided
+
+08:39.789 --> 08:41.549
+by x going to be equal to?
+
+08:41.549 --> 08:44.159
+Well, y was equal to p
+times x, so y divided
+
+08:44.159 --> 08:45.870
+by x is going to be
+the same thing as p
+
+08:45.870 --> 08:48.370
+times x divided by x.
+
+08:48.370 --> 08:49.790
+But now this is interesting.
+
+08:49.790 --> 08:52.290
+Because p times x
+divided by x-- well,
+
+08:52.290 --> 08:55.155
+if you multiply by something and
+then divide by that something,
+
+08:55.155 --> 08:57.280
+it's just you're going to
+get your original number.
+
+08:57.280 --> 08:59.710
+If you multiply by
+5 and divide by 5,
+
+08:59.710 --> 09:02.430
+you're just going to start with
+p or whatever this number is.
+
+09:02.430 --> 09:04.140
+So those would cancel out.
+
+09:04.140 --> 09:08.750
+But we were able to manipulate
+the abstraction here and get y
+
+09:08.750 --> 09:12.060
+over x is equal to p-- and
+let me make that x green.
+
+09:16.050 --> 09:20.890
+And now this has implications
+for every one of these ideas.
+
+09:20.890 --> 09:23.090
+One is telling us
+a fundamental truth
+
+09:23.090 --> 09:25.010
+about the universe,
+almost devoid
+
+09:25.010 --> 09:26.470
+of any of these applications.
+
+09:26.470 --> 09:28.784
+But now we can go and take
+them back to any place
+
+09:28.784 --> 09:29.450
+that we applied.
+
+09:29.450 --> 09:30.910
+And the really
+interesting thing is
+
+09:30.910 --> 09:32.909
+we're going to find there
+are an infinite number
+
+09:32.909 --> 09:34.950
+of applications,
+and we don't even
+
+09:34.950 --> 09:36.230
+know, frankly, most of them.
+
+09:36.230 --> 09:39.930
+We're going to discover new ones
+for them in a thousand years.
+
+09:39.930 --> 09:41.710
+And so hopefully this
+gives you a sense
+
+09:41.710 --> 09:45.450
+for why Galileo said
+what he said about really
+
+09:45.450 --> 09:48.870
+mathematics is really the
+language with which we can
+
+09:48.870 --> 09:51.620
+understand the philosophy
+of the universe.
+
+09:51.620 --> 09:54.590
+And that's why people tell us
+that if a completely alien life
+
+09:54.590 --> 09:57.370
+form were to ever
+contact humans,
+
+09:57.370 --> 10:00.150
+mathematics would probably
+be our first common ground,
+
+10:00.150 --> 10:03.910
+the place that we can start
+to form a basis that we
+
+10:03.910 --> 10:06.620
+can start to communicate from.

@@ -1,0 +1,453 @@
+WEBVTT
+
+00:00.000 --> 00:07.165
+Řekněme, že máme křivku C,
+která je popsána parametrizací...
+
+00:07.165 --> 00:08.861
+Mám problém
+to slovo vyslovit.
+
+00:08.861 --> 00:17.713
+...x rovná se x(t) a
+y rovná se nějaká funkce y(t),
+
+00:17.713 --> 00:22.329
+kde t je mezi
+řekněme ‚a‘ a ‚b‘,
+
+00:22.329 --> 00:28.219
+takže t je větší nebo rovno ‚a‘
+a menší nebo rovno ‚b‘.
+
+00:28.219 --> 00:31.319
+Můžeme si
+to nakreslit...
+
+00:31.319 --> 00:33.459
+Mohl bych to
+nakreslit takhle...
+
+00:33.459 --> 00:38.669
+Nakreslím tu obecný obrázek
+spíše než nějaký konkrétní příklad.
+
+00:38.669 --> 00:41.407
+Tohle budou
+osy x a y.
+
+00:41.407 --> 00:46.216
+Řekněme, že toto je bod na křivce
+odpovídající hodnotě t rovná se ‚a‘
+
+00:46.216 --> 00:50.826
+a že naše křivka
+vypadá nějak takto.
+
+00:51.726 --> 00:55.573
+Řekněme, že zde je bod
+odpovídající hodnotě t rovná se ‚b‘.
+
+00:55.573 --> 01:00.203
+Tento bod tak má
+první souřadnici x(b),
+
+01:00.203 --> 01:01.583
+což je jeho
+x-ová souřadnice,
+
+01:01.583 --> 01:03.727
+která odpovídá hodnotě
+této funkce v bodě ‚b‘,
+
+01:03.727 --> 01:06.307
+a jeho druhou
+souřadnicí je y(b).
+
+01:06.307 --> 01:08.571
+V tomto bodě se
+t rovná ‚a‘,
+
+01:08.571 --> 01:15.611
+takže jeho rovinné kartézské
+souřadnice jsou x(a),
+
+01:15.611 --> 01:17.141
+což je tato
+hodnota,
+
+01:17.141 --> 01:21.901
+a y(a), což je
+tahle hodnota.
+
+01:21.901 --> 01:23.083
+Tohle už
+jsme viděli.
+
+01:23.083 --> 01:29.505
+Jde o běžný popis křivky
+pomocí dvou parametrických rovnic.
+
+01:29.505 --> 01:36.324
+Nyní bych tutéž křivku chtěl
+popsat pomocí vektorové funkce.
+
+01:36.324 --> 01:38.852
+Chci tedy zadefinovat
+nějakou vektorovou funkci...
+
+01:38.852 --> 01:42.012
+Pokud si nepamatujete, o jaké funkce jde,
+tak si to teď zopakujeme.
+
+01:42.012 --> 01:45.091
+Řekněme, že máme
+vektorovou funkci r.
+
+01:45.091 --> 01:48.086
+Napíšu nad to
+takovou šipku.
+
+01:48.086 --> 01:52.930
+V mnoha učebnicích se to píše tučně
+a skalární funkce se píší běžným písmem,
+
+01:52.930 --> 01:56.537
+ale tučná písmena se mi špatně píší,
+takže nad to raději napíšu šipku.
+
+01:56.537 --> 01:59.267
+Řekněme,
+že r je funkce proměnné t.
+
+01:59.267 --> 02:07.036
+Jejími hodnotami budou
+polohové vektory.
+
+02:07.036 --> 02:11.192
+Říkám to proto, že když se
+o vektorech mluví obecně,
+
+02:11.192 --> 02:17.605
+tak tyto dva vektory považujeme za stejné,
+pokud mají stejnou velikost a stejný směr.
+
+02:17.605 --> 02:20.506
+Jejich počáteční a koncové
+body nejsou důležité.
+
+02:20.506 --> 02:23.646
+Důležité je, že jejich
+velikost a směr jsou stejné.
+
+02:23.646 --> 02:30.385
+Polohové vektory však všechny
+začínají v bodě 0, tedy v počátku.
+
+02:30.385 --> 02:33.265
+Když nějaký vektor nazveme polohovým,
+tak tím vlastně říkáme,
+
+02:33.265 --> 02:35.732
+že odpovídá jednomu
+specifickému bodu.
+
+02:35.732 --> 02:38.155
+V tomto případě jde
+o bod ve dvourozměrném prostoru,
+
+02:38.155 --> 02:42.025
+ale může jít o tří, čtyř, pěti
+nebo obecně n-rozměrný prostor.
+
+02:42.025 --> 02:44.851
+Když tedy řekneme, že jde o
+polohový vektor, tak tím říkáme,
+
+02:44.851 --> 02:49.227
+že tento vektor přesně odpovídá
+tomuto bodu v prostoru.
+
+02:49.227 --> 02:54.186
+Zkusme tedy popsat naši křivku
+pomocí vektorové funkce,
+
+02:54.186 --> 02:58.005
+jejímiž hodnotami
+budou polohové vektory.
+
+02:58.005 --> 02:59.095
+r(t) bude...
+
+02:59.095 --> 03:01.435
+Vezmu si na to
+tutéž růžovou barvu.
+
+03:01.435 --> 03:03.005
+Nebo raději
+tuhle zelenou.
+
+03:03.005 --> 03:08.645
+...r(t) se rovná x(t) krát
+jednotkový vektor ve směru osy x...
+
+03:08.645 --> 03:12.695
+Tyto jednotkové vektory se značí s takovou
+stříškou nahoře, která nahrazuje šipku.
+
+03:12.695 --> 03:14.580
+Je to označení
+pro jednotkové vektory.
+
+03:14.580 --> 03:20.040
+...plus y(t) krát j.
+
+03:20.040 --> 03:22.735
+Kdybychom měli křivku
+v třírozměrném prostoru,
+
+03:22.735 --> 03:24.825
+tak by zde bylo ještě
+plus z(t) krát k,
+
+03:24.825 --> 03:27.226
+ale naše křivka je
+ve dvourozměrném prostoru.
+
+03:27.226 --> 03:30.480
+Funguje to tak,
+že pro dané t...
+
+03:30.480 --> 03:37.650
+Stále platí, že t je větší nebo rovno ‚a‘
+a menší nebo rovno ‚b‘.
+
+03:37.650 --> 03:39.802
+Tohle přesně
+popisuje naši křivku.
+
+03:39.802 --> 03:41.366
+Znovu si to
+nakresleme.
+
+03:41.366 --> 03:48.331
+Nejprve nakreslíme
+souřadnicové osy.
+
+03:48.331 --> 03:51.511
+Tohle je osa y
+a zde je osa x.
+
+03:51.511 --> 03:54.999
+Když spočítáme ‚r‘ v bodě ‚a‘,
+což je náš počáteční bod...
+
+03:54.999 --> 03:56.309
+Tak to spočítejme.
+
+03:56.309 --> 03:57.688
+r v bodě ‚a‘...
+
+03:57.688 --> 04:00.258
+Napíšu to sem.
+
+04:00.258 --> 04:06.963
+Hodnota naší vektorové funkce udávající
+polohu v bodě t rovná se ‚a‘ se rovná:
+
+04:06.963 --> 04:12.106
+x(a) krát jednotkový
+vektor ve směru osy x
+
+04:12.106 --> 04:17.937
+plus y(a) krát jednotkový
+vektor ve směru osy y.
+
+04:17.937 --> 04:19.509
+Jak tohle
+vypadá?
+
+04:19.509 --> 04:26.402
+x(a) je tato hodnota
+a my máme x(a) krát jednotkový vektor.
+
+04:26.402 --> 04:29.727
+Řekněme, že jednotkový
+vektor je takto dlouhý.
+
+04:29.727 --> 04:30.837
+Jeho délka je 1,
+
+04:30.851 --> 04:34.097
+takže nyní budeme mít
+na ose x délku x(a).
+
+04:34.097 --> 04:38.122
+Obdobně dostaneme,
+že na ose y budeme mít délku y(a).
+
+04:38.122 --> 04:40.062
+Hlavní ovšem je,
+že tento vektor,
+
+04:40.062 --> 04:44.202
+který vznikne součtem těchto
+skalárních násobků jednotkových vektorů,
+
+04:44.202 --> 04:45.458
+vypadá nějak...
+
+04:45.458 --> 04:48.458
+r(a) vypadá
+nějak takhle.
+
+04:48.458 --> 04:53.288
+Jde o vektor,
+který vypadá asi takto.
+
+04:53.288 --> 04:58.938
+Je to polohový vektor,
+takže začíná v počátku soustavy souřadnic.
+
+04:58.938 --> 05:04.368
+Takhle tedy
+vypadá r(a).
+
+05:04.368 --> 05:06.992
+Co se stane,
+když ‚a‘ trochu zvětšíme?
+
+05:06.992 --> 05:09.574
+Jak vypadá
+r(a plus něco)?
+
+05:09.574 --> 05:14.343
+Můžeme to nazvat třeba
+r(a plus Δ) nebo r(a plus h).
+
+05:14.343 --> 05:15.478
+Vezmu na to
+jinou barvu.
+
+05:15.478 --> 05:16.788
+Řekněme,
+že máme r...
+
+05:16.788 --> 05:18.768
+Hodnotu ‚a‘
+o trochu zvětšíme.
+
+05:18.768 --> 05:22.138
+...máme r v bodě
+(a plus nějaké malé h).
+
+05:22.138 --> 05:27.878
+To se rovná
+x(a plus h) krát jednotkový vektor i
+
+05:27.878 --> 05:31.810
+plus y(a plus h)
+krát jednotkový vektor j.
+
+05:31.810 --> 05:33.345
+Jak to bude
+vypadat?
+
+05:33.345 --> 05:35.329
+Jen se trochu
+posuneme po křivce.
+
+05:35.329 --> 05:38.793
+Bude to odpovídat bodu
+[x(a plus h); y(a plus h)],
+
+05:38.793 --> 05:40.533
+což by mohl být
+třeba tento bod.
+
+05:40.533 --> 05:45.473
+Dostaneme tedy
+nový jednotkový vektor...
+
+05:45.473 --> 05:49.063
+Pardon, dostaneme nový
+polohový vektor, ne jednotkový vektor.
+
+05:49.063 --> 05:51.013
+Polohový vektor
+nemusí mít délku 1.
+
+05:51.013 --> 05:52.933
+...který vypadá
+nějak takto.
+
+05:53.366 --> 05:55.746
+Nakreslím ho stejnou barvou
+jako jsem napsal tohle.
+
+05:55.746 --> 05:59.926
+Dostaneme vektor,
+který vypadá nějak takhle.
+
+05:59.926 --> 06:04.960
+Toto je tedy
+r(a plus h).
+
+06:04.960 --> 06:09.138
+Vidíme, že jak budeme hodnotu t
+zvětšovat, dokud se nebude rovnat b,
+
+06:09.138 --> 06:15.648
+tak budou tyto polohové vektory popisovat
+další body na této křivce.
+
+06:15.648 --> 06:16.740
+Naše křivka tak...
+
+06:16.740 --> 06:19.070
+Nakreslím ji nějakou
+jinou barvou.
+
+06:19.070 --> 06:20.939
+Tato křivka tak
+vypadá nějak takhle.
+
+06:20.939 --> 06:24.071
+Jde o tutéž křivku,
+kterou máme nahoře.
+
+06:24.071 --> 06:32.691
+Například r(b) je vektor,
+který vypadá takto.
+
+06:32.691 --> 06:35.591
+Zkusím ho nakreslit
+dostatečně rovně.
+
+06:35.591 --> 06:42.271
+Toto je
+vektor r(b).
+
+06:42.271 --> 06:43.382
+Snad tedy
+vidíte,
+
+06:43.382 --> 06:47.694
+že tyto polohové vektory
+popisují tutéž křivku,
+
+06:47.694 --> 06:52.914
+kterou tu máme popsanou
+klasickou parametrizací.
+
+06:52.914 --> 06:54.755
+Chtěl jsem tohle
+všechno projít,
+
+06:54.755 --> 07:01.821
+protože nyní se podíváme na to,
+jak tuto vektorovou funkci zderivovat.
+
+07:01.821 --> 07:04.171
+Dozvíte se to
+v následujícím videu.

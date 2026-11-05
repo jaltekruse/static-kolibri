@@ -1,0 +1,338 @@
+WEBVTT
+
+00:00.180 --> 00:07.130
+V tomto videu chci zjistit plochu
+této oblasti, kterou stínuji žlutě.
+
+00:07.130 --> 00:12.810
+Výzva je v tom, že oblast je
+ohraničena funkcí pod osou x.
+
+00:12.810 --> 00:16.660
+Funkce níže je y se rovná
+(x na druhou lomeno 4) minus 1.
+
+00:16.660 --> 00:19.112
+Ale mám jinou horní hranici.
+
+00:19.112 --> 00:23.180
+Způsob, jak se s tím vypořádáme, je,
+že tuto plochu rozdělíme na dvě sekce
+
+00:23.180 --> 00:25.550
+neboli rozdělíme tuto
+oblast na dvě oblasti,
+
+00:25.550 --> 00:27.740
+čili na oblast vlevo a oblast vpravo,
+
+00:27.740 --> 00:30.330
+kde pro první oblast, kterou...
+
+00:30.330 --> 00:35.570
+...vybarvím ji žlutě...
+první oblast celého intervalu x.
+
+00:35.570 --> 00:40.270
+A vypadá to, že ‚x‛ je mezi 0 a 1.
+
+00:40.270 --> 00:43.970
+y se rovná… Když je x rovno 1,
+tak je tahle funkce rovna 1,
+
+00:43.970 --> 00:46.800
+a když je x rovno 1, tak
+je i tahle funkce rovna 1.
+
+00:46.800 --> 00:49.830
+Toto je bod [1; 1].
+Tady se protínají.
+
+00:49.830 --> 00:53.130
+V této sekci, v této podoblasti,
+
+00:53.130 --> 00:57.270
+je ,y rovno odmocnina z x'
+celou dobu horní funkcí.
+
+00:57.270 --> 01:00.120
+A pak můžeme...můžeme
+nastavit různé...
+
+01:00.120 --> 01:04.590
+můžeme odděleně vyřešit
+plochu této oblasti.
+
+01:04.590 --> 01:07.830
+Od ‚x‛ je rovno 1 do ‚x‛ je rovno 2,
+
+01:07.830 --> 01:10.580
+kde y rovno (2 minus x) je horní funkcí.
+
+01:10.580 --> 01:12.290
+Udělejme to.
+
+01:12.290 --> 01:14.620
+Nejprve se zamysleme nad touto oblastí.
+
+01:14.620 --> 01:19.320
+Bude to určitý integrál
+od ‚x‛ rovno 0 do ‚x‛ rovno 1.
+
+01:19.320 --> 01:24.880
+A naše horní funkce je odmocnina z x.
+
+01:24.880 --> 01:28.390
+A od tohoto chceme
+odečíst naši spodní funkci...
+
+01:28.390 --> 01:38.870
+...(odmocnina z x) minus
+((x na druhou lomeno 4) minus 1).
+
+01:38.870 --> 01:42.140
+A samozřejmě máme naše ‚dx‛.
+
+01:42.140 --> 01:46.120
+Toto zde popisuje
+tu žlutě vybarvenou plochu.
+
+01:46.120 --> 01:53.160
+A můžete si představit, že tato část zde,
+čili rozdíl obou funkcí, je výška.
+
+01:53.164 --> 01:57.580
+Vybarvím to jinou barvou.
+
+01:57.580 --> 01:59.420
+A pak to vynásobte krát ‚dx‛.
+
+01:59.420 --> 02:06.500
+Dostanete malý obdélník široký ‚dx‛.
+A uděláte to pro každé ‚x‛.
+
+02:06.500 --> 02:10.410
+Pro každé ‚x‛ dostanete jiný obdélník.
+A pak je všechny sečtete.
+
+02:10.410 --> 02:14.240
+A hledáme limitu,
+kdy se ‚změna x‛ bude blížit 0.
+
+02:14.240 --> 02:17.914
+Když dostanete ultra tenké obdélníky,
+budete jich mít nekonečně mnoho.
+
+02:17.914 --> 02:22.630
+A to je naše, respektive Riemannova,
+definice toho, co je určitý integrál.
+
+02:22.630 --> 02:25.250
+A toto je plocha levé oblasti.
+
+02:25.250 --> 02:28.770
+Stejnou logikou můžeme
+najít plochu oblasti vpravo.
+
+02:28.770 --> 02:31.930
+Oblast vpravo...
+...a pak můžeme obě oblasti sečíst.
+
+02:31.930 --> 02:34.480
+Oblast vpravo od ‚x‛ je rovno 0 do ‚x‛...
+
+02:34.480 --> 02:38.250
+...promiňte, od ‚x‛ rovno 1
+do ‚x‛ rovno 2. Čili od 1 do 2.
+
+02:38.250 --> 02:41.770
+Vrchní funkce je 2 minus x.
+
+02:41.770 --> 02:53.560
+A od tohoto odečteme dolní funkci,
+což je (x na druhou lomeno 4) minus 1.
+
+02:53.560 --> 02:55.900
+A nyní to vypočítáme.
+
+02:55.900 --> 02:58.500
+Nejprve zjednodušíme tohle vpravo.
+
+02:58.500 --> 03:03.900
+Je to rovno určitému
+integrálu od 0 do 1 funkce
+
+03:03.900 --> 03:09.500
+(odmocnina z x) minus
+((x na druhou lomeno 4) plus 1) dx...
+
+03:09.500 --> 03:11.840
+...nyní to napíši jednou barvou...
+
+03:11.840 --> 03:21.020
+...plus určitý integrál od 1 do 2 funkce
+2 minus x minus (x na druhou lomeno 4).
+
+03:21.020 --> 03:24.970
+Pak odečteme...minus -1
+je kladná 3...teda 1.
+
+03:24.970 --> 03:29.030
+Můžeme to přičíst k této 2.
+A z této 2 se stane 3.
+
+03:29.030 --> 03:34.747
+Řekl jsem, že 2 minus -1 je 3…dx.
+
+03:34.747 --> 03:38.935
+A nyní musíme vzít primitivní funkci
+a vyhodnotit ji pro 1 a 0.
+
+03:38.935 --> 03:43.290
+Primitivní funkce tohoto je...
+...Tohle je x na 1/2.
+
+03:43.290 --> 03:44.730
+Přírůstek o 1.
+
+03:44.730 --> 03:47.240
+Mocnina se zvýší o 1,
+takže dostanete x na 3/2
+
+03:47.240 --> 03:53.500
+a vynásobíte to obrácenou hodnotou nového
+exponentu...tudíž je to 2/3 x na 3/2.
+
+03:53.500 --> 03:56.110
+Minus...primitivní funkce
+x na druhou lomeno 4
+
+03:56.110 --> 04:03.460
+je x na třetí děleno 3, to celé děleno 4,
+takže děleno 12…plus x.
+
+04:03.460 --> 04:05.260
+To je primitivní funkce 1.
+
+04:05.260 --> 04:09.510
+Vyhodnotíme to v 1 a 0.
+
+04:09.510 --> 04:12.180
+A zde bude primitivní funkce
+
+04:12.180 --> 04:21.780
+3x minus (x na druhou lomeno 2)
+minus (x na třetí lomeno 12).
+
+04:21.780 --> 04:24.130
+Znovu to vyhodnotíme...vlastně ne.
+
+04:24.130 --> 04:28.180
+Nyní to vyhodnotíme v 2 a 1.
+
+04:28.180 --> 04:35.370
+Zde to všechno vyhodnotíme pro 1.
+Dostanete 2/3 minus 1/12 plus 1.
+
+04:35.370 --> 04:38.100
+A od tohoto odečtete tuto hodnotu v 0.
+
+04:38.100 --> 04:40.750
+Ale je to jen 0, takže nedostanete nic.
+
+04:40.750 --> 04:43.980
+Takže to zjednoduší žlutou plochu.
+
+04:43.980 --> 04:48.530
+A tato fialová nebo purpurová nebo lila
+nebo co to je za barvu...
+
+04:48.530 --> 04:50.760
+...nejprve ji vyhodnotíme v 2.
+
+04:50.760 --> 05:01.410
+Dostanete 6 minus...podívejte, 2 na druhou
+lomeno 2 je 2...minus 8 lomeno 12.
+
+05:01.410 --> 05:05.090
+A od tohoto odečtete hodnotu v 1.
+
+05:05.090 --> 05:14.500
+Takže to bude 3 krát 1...to je 3...
+...minus 1/2 minus (1 lomeno 12).
+
+05:14.500 --> 05:17.700
+A nyní nám zůstalo několik zlomků.
+
+05:17.700 --> 05:19.200
+Podívejme se, jak to zvládneme.
+
+05:19.200 --> 05:21.970
+Vypadá to, že 12 by mohl být
+společný jmenovatel.
+
+05:21.970 --> 05:29.190
+Zde máte 8/12 minus 1/12 plus 12/12.
+
+05:29.190 --> 05:30.870
+Takže se to zjednodušilo...na co?
+
+05:30.870 --> 05:36.130
+Tato žlutá část je 19/12.
+
+05:36.130 --> 05:40.010
+A pak toto...udělám to jinou barvou.
+
+05:40.010 --> 05:42.970
+6 minus 2, to bude 4.
+
+05:42.970 --> 05:50.860
+Můžeme to napsat jako 48/12...
+...čili 4...minus 8/12.
+
+05:50.860 --> 05:56.780
+A pak odečteme 3, což je 36/12.
+
+05:56.780 --> 06:05.680
+A pak přičteme 1/2, což je
+plus 6/12, a pak přidáme 1/12.
+
+06:05.680 --> 06:12.270
+Toto vše se zjednoduší...
+...podívejte...48 minus 8 je 40...
+
+06:12.270 --> 06:18.020
+minus 36 je 4...
+...plus 6 je 10...plus 1 je 11.
+
+06:18.020 --> 06:21.614
+Takže dostaneme 11/12.
+
+06:21.614 --> 06:22.880
+Zkontroluji to.
+
+06:22.880 --> 06:28.610
+48 minus 8 je 40, minus 36 je 4...10...11.
+
+06:28.610 --> 06:29.810
+Vypadá to správně.
+
+06:29.810 --> 06:31.735
+A jsme připravení tyto dva sečíst.
+
+06:31.735 --> 06:35.940
+19 plus 11 je rovno 30/12.
+
+06:35.940 --> 06:40.660
+Pokud to chceme trochu zjednodušit,
+můžeme vydělit čitatele a jmenovatele 6.
+
+06:40.660 --> 06:44.860
+Toto je rovno 5/2 nebo 2 a 1/2.
+
+06:44.860 --> 06:45.630
+Jsme hotovi.
+
+06:45.630 --> 06:53.120
+Zjistili jsme, že plocha celé oblasti
+je 2 a 1/2.

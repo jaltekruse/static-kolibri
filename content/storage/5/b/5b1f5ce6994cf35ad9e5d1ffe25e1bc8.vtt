@@ -1,0 +1,259 @@
+WEBVTT
+
+00:00.000 --> 00:08.739
+Funkce r se rovná 3 krát théta krát
+sin(théta), théta leží mezi 0 a 2pí.
+
+00:08.739 --> 00:13.764
+Graf funkce r v polárních souřadnicích je
+složen ze dvou smyček, jak vidíte nahoře.
+
+00:13.764 --> 00:16.189
+Zkusme se zamyslet nad tím,
+proč to jsou dvě smyčky.
+
+00:16.189 --> 00:21.864
+Když théta je 0, tak i r je 0,
+a jak se théta zvětšuje,
+
+00:21.864 --> 00:28.621
+začínáme procházet naši první
+smyčku dokud se théta nerovná pí.
+
+00:28.621 --> 00:34.130
+Tím jsme si prošli první smyčku
+od théta rovno 0 do théta rovno pí.
+
+00:34.130 --> 00:41.618
+Druhá smyčka má větší r, a to je
+výsledek toho, když jdeme od pí do 2 pí.
+
+00:41.618 --> 00:44.389
+Mohli byste říci, proč
+se to neukazuje tady dole?
+
+00:44.389 --> 00:52.524
+Mezi sin(pí) a sin(2pí) bude tato část
+záporná, takže se to otočí na tuto stranu.
+
+00:52.524 --> 00:55.809
+A toto r se stále zvětšuje díky
+tomuto výrazu 3 krát théta.
+
+00:55.809 --> 01:03.355
+Když tedy jdeme od pí do dvou pí,
+procházíme tímto větším kruhem.
+
+01:03.355 --> 01:08.672
+Bod P na grafu
+funkce r je zde na ose y.
+
+01:08.672 --> 01:14.603
+Zjistěte rychlost změny
+souřadnice x podle théty v bodě P.
+
+01:14.603 --> 01:16.392
+Zamysleme se
+nad tím.
+
+01:16.392 --> 01:17.990
+Nedávají nám
+x jako funkci.
+
+01:17.990 --> 01:21.594
+Tu musíme zjistit z toho,
+co nám bylo zadáno.
+
+01:21.594 --> 01:28.224
+Pro zopakování polárních souřadnic
+si řekneme, že pokud je tohle théta,
+
+01:28.224 --> 01:33.700
+toto je r a toto bude bod na
+naší křivce pro hodnotu théta.
+
+01:33.700 --> 01:35.930
+Jak to převedeme
+na hodnoty x a y?
+
+01:35.930 --> 01:40.409
+Můžeme si pomoci
+pravoúhlým trojúhelníkem.
+
+01:40.409 --> 01:50.596
+Ze základní trigonometrie víme,
+že délka této základny zde bude přepona.
+
+01:50.596 --> 01:54.665
+Napíšeme si to, toto
+bude naše souřadnice x.
+
+01:54.665 --> 02:04.788
+Naše souřadnice x se bude rovnat
+přeponě, což je r krát cos(théta).
+
+02:04.788 --> 02:10.475
+Souřadnice y vyjádřená jako funkce
+r a théty je r krát sin(théta).
+
+02:10.475 --> 02:13.437
+To po nás
+ovšem nechtějí.
+
+02:13.437 --> 02:17.915
+Toto jsme si tedy
+zjistili pouze pomocí théty.
+
+02:17.915 --> 02:19.479
+Jak budeme
+postupovat dál?
+
+02:19.479 --> 02:24.937
+Můžeme vzít tento výraz vyjadřující r,
+samotné r je funkce théty,
+
+02:24.937 --> 02:28.063
+a nahradit
+jím toto r zde.
+
+02:28.063 --> 02:33.071
+Přepíšeme to jako x
+v závislosti na thétě,
+
+02:33.071 --> 02:45.401
+to je 3 krát théta krát
+sin(théta) krát cos(théta).
+
+02:45.401 --> 02:51.135
+Nyní chceme najít rychlost změny
+souřadnice x podle théty v určitém bodě.
+
+02:51.135 --> 02:57.655
+Vypočítejme tedy
+derivaci x podle théty.
+
+02:57.655 --> 03:00.617
+Máme tu
+součin tří výrazů.
+
+03:00.617 --> 03:05.858
+První výraz, 3 krát théta,
+potom sin(théta) a potom cos(théta).
+
+03:05.858 --> 03:08.396
+Můžeme tedy použít
+součinové pravidlo.
+
+03:08.396 --> 03:11.279
+Pokud používáte součinové
+pravidlo na výraz se třemi částmi,
+
+03:11.279 --> 03:14.452
+postupujete stejně
+jako o součinu dvou výrazů.
+
+03:14.452 --> 03:20.439
+První výraz bude derivace první části,
+což je 3, krát další dva výrazy.
+
+03:20.439 --> 03:27.516
+Budeme tedy mít 3 krát
+sin(théta) krát cos(théta).
+
+03:27.516 --> 03:34.487
+Plus druhá část bude derivace
+prostředního výrazu krát zbylé dva výrazy.
+
+03:34.487 --> 03:43.152
+To bude 3 krát théta a poté
+derivace sin(théta) krát cos(théta).
+
+03:43.152 --> 03:49.416
+Zde bude tedy
+cos(théta) na druhou.
+
+03:49.416 --> 03:56.596
+Nakonec máme derivaci poslední části, což
+je derivace cos(théta) krát zbylé výrazy.
+
+03:56.596 --> 04:01.948
+Derivace cos(théta) je −sin(théta),
+a když to vynásobíme 3 krát théta,
+
+04:01.948 --> 04:11.867
+krát sin(théta), vyjde nám
+−3théta krát sinus na druhou z théta.
+
+04:11.867 --> 04:15.539
+Chceme to
+vypočítat pro bod P.
+
+04:15.539 --> 04:17.971
+Jaká je théta
+pro bod P?
+
+04:17.971 --> 04:32.980
+Bod P se nachází na naší vnitřní křivce a
+v tomto bodě bude théta rovna pí lomeno 2.
+
+04:32.980 --> 04:38.137
+Musíme tedy zjistit, čemu se
+rovná první derivace x v (pí lomeno 2)?
+
+04:38.137 --> 04:47.943
+Bude se to rovnat
+3 krát sin(pí lomeno 2) což je 1.
+
+04:47.943 --> 04:53.177
+Potom krát cos(pí lomeno 2), což je 0.
+
+04:53.177 --> 05:06.523
+To celé bude 0, plus 3 krát (pí lomeno 2)
+krát cos(pí lomeno 2) na druhou.
+
+05:06.523 --> 05:10.256
+To je také 0,
+takže zatím je vše 0.
+
+05:10.256 --> 05:18.395
+Dál máme minus 3 krát (pí lomeno 2)
+krát sin(pí lomeno 2) na druhou.
+
+05:18.395 --> 05:20.148
+Kolik je sin(pí lomeno 2)?
+
+05:20.148 --> 05:22.364
+Je to 1, i když to
+umocníme, tak je to stále 1.
+
+05:22.364 --> 05:26.942
+Celé se to tedy
+zjednoduší na −3 (pí lomeno 2).
+
+05:26.942 --> 05:29.083
+Vždycky je dobré se
+nad tím logicky zamyslet.
+
+05:29.083 --> 05:34.306
+Dává smysl, aby rychlost změny x
+podle théty byla −3 krát (pí lomeno 2)?
+
+05:34.306 --> 05:35.856
+Zamysleme se nad
+průběhem funkce.
+
+05:35.856 --> 05:40.233
+Jak se théta zvětuje,
+x se rozhodně zmenšuje,
+
+05:40.233 --> 05:43.868
+takže dává smysl, že tu
+máme záporné znaménko.
+
+05:43.868 --> 05:50.012
+Tak to máme hotovo, míra změny
+x podle théty je −3 krát (pí lomeno 2).
+
+05:50.012 --> 05:56.261
+Jak se théta zvětšuje, x se zmenšuje,
+takže to alespoň dává smysl.

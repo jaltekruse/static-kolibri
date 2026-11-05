@@ -1,0 +1,698 @@
+WEBVTT
+
+00:00.750 --> 00:03.230
+Vemos aqui parte do
+gráfico de y
+
+00:03.230 --> 00:05.550
+é igual a x quadrado,
+
+00:05.550 --> 00:07.780
+e o que estamos querendo
+fazer é usar o poder
+
+00:07.780 --> 00:12.510
+das integrais definidas para
+achar volumes ao invés só de áreas.
+
+00:12.510 --> 00:14.400
+Vamos lembrar o que
+fazemos quando
+
+00:14.400 --> 00:16.980
+calculamos uma integral
+definida regular.
+
+00:16.980 --> 00:19.410
+Se, tomarmos a integral definida
+entre, digamos,
+
+00:19.410 --> 00:24.580
+zero a dois de x ao quadrado dx,
+o que isto representa?
+
+00:24.580 --> 00:26.540
+Vamos dar uma olhada
+nos pontos limites.
+
+00:26.540 --> 00:28.050
+Isto é &lt;i>x&lt;/i> igual a zero,
+
+00:28.050 --> 00:33.180
+e isto bem aqui, digamos, é
+x igual a dois.
+
+00:33.180 --> 00:36.390
+O que fazemos aqui,
+para cada x,
+
+00:36.390 --> 00:39.600
+é encontrar um pequeno &lt;i>dx&lt;/i>
+em torno dele -- então este bem aqui
+
+00:39.600 --> 00:41.430
+é um destes pequenos &lt;i>dx&lt;/i>.
+
+00:41.430 --> 00:44.220
+E multiplicamos este &lt;i>dx&lt;/i>
+pela nossa função,
+
+00:44.220 --> 00:45.970
+vezes x quadrado.
+
+00:45.970 --> 00:48.910
+Então, o que estamos fazendo
+é multiplicar esta largura
+
+00:48.910 --> 00:52.440
+por esta altura bem aqui.
+
+00:52.440 --> 00:55.110
+A altura é igual
+a x quadrado,
+
+00:55.110 --> 00:58.180
+e calculamos a área
+deste pequeno retângulo.
+
+00:58.180 --> 01:00.740
+Esta integral é,
+literalmente,
+
+01:00.740 --> 01:05.940
+a soma de todos estes retângulos
+para todos os x
+
+01:05.940 --> 01:09.290
+entre zero e
+x igual a dois.
+
+01:09.290 --> 01:13.530
+No limite, estes &lt;i>dx&lt;/i>
+ficam menores, menores
+
+01:13.530 --> 01:16.160
+e menores, infinitamente
+pequenos,
+
+01:16.160 --> 01:17.990
+mas não iguais à zero
+
+01:17.990 --> 01:19.870
+e temos um número
+infinito deles.
+
+01:19.870 --> 01:22.490
+Este é o poder
+da integral definida,
+
+01:22.490 --> 01:25.350
+você pode imaginar, conforme
+estes dx ficam menores e menores
+
+01:25.350 --> 01:27.550
+e menores, estes retângulos mais
+e mais e mais
+
+01:27.550 --> 01:29.634
+estreitos, e quanto mais
+retângulos tivermos
+
+01:29.634 --> 01:31.500
+melhor e melhor será
+a aproximação
+
+01:31.500 --> 01:33.780
+para a área sob esta
+curva, até termos,
+
+01:33.780 --> 01:36.590
+no limite, a área
+sob a curva.
+
+01:36.590 --> 01:38.780
+Agora vamos aplicar
+a mesma ideia,
+
+01:38.780 --> 01:40.690
+não para encontrar a área
+sob esta curva,
+
+01:40.690 --> 01:42.090
+mas para encontrar
+o volume
+
+01:42.090 --> 01:45.120
+se rotacionarmos esta curva
+em torno do eixo x.
+
+01:45.120 --> 01:48.900
+Isto deve melhorar nossas
+habilidades de visualização.
+
+01:48.900 --> 01:50.620
+Vamos pensar sobre o que
+acontece
+
+01:50.620 --> 01:55.380
+quando rotacionamos isto aqui
+em torno do eixo x.
+
+01:55.380 --> 01:57.794
+Se vamos rotacionar isto
+-- deixe-me ver isto e,
+
+01:57.794 --> 02:00.210
+digamos que estejamos
+olhando a partir da direita--
+
+02:00.210 --> 02:03.890
+teremos uma base
+parecida com isto aqui.
+
+02:03.890 --> 02:06.940
+--Estou fazendo o meu melhor
+para tentar desenhar isto--
+
+02:06.940 --> 02:10.990
+Você tem uma base
+parecida com esta,
+
+02:10.990 --> 02:14.180
+E o resto será a função,
+
+02:14.180 --> 02:16.020
+no intervalo entre
+zero e dois,
+
+02:16.020 --> 02:17.430
+parecido com uma
+peça de ...
+
+02:17.430 --> 02:20.370
+-- Não sei se você já jogou
+este jogo antes, desculpe--
+
+02:20.370 --> 02:23.910
+ou parecido com um
+chapéu meio esquisito.
+
+02:23.910 --> 02:30.067
+Bem, irá parecer com isto, e
+deixe-me sombreá-lo um pouco
+
+02:30.067 --> 02:31.400
+para que fique melhor
+
+02:31.400 --> 02:32.816
+e tenhamos a certeza
+
+02:32.816 --> 02:35.590
+que estamos olhando isto aqui
+rotacionado em torno de x.
+
+02:35.590 --> 02:38.250
+Estamos preocupados com o
+volume total desta forma.
+
+02:38.250 --> 02:40.720
+Deixe-me desenhá-la a partir
+de diferentes ângulos.
+
+02:40.720 --> 02:45.290
+Se desenharmos a partir do topo,
+ela irá parecer com isto.
+
+02:45.290 --> 02:46.710
+Ficará um pouco
+mais óbvio que
+
+02:46.710 --> 02:48.560
+parece um chapéu
+
+02:48.560 --> 02:53.534
+apontando para cima e
+vindo para baixo assim.
+
+02:53.534 --> 02:54.950
+Algo deste jeito.
+
+02:54.950 --> 03:00.300
+Neste ângulo, não estamos vendo
+seu fundo e,
+
+03:00.300 --> 03:03.330
+só para nos orientarmos,
+
+03:03.330 --> 03:06.060
+os eixos,
+ficarão assim.
+
+03:06.060 --> 03:10.026
+Este é o eixo &lt;i>y&lt;/i>,
+
+03:10.026 --> 03:13.640
+e o eixo &lt;i>x&lt;/i> vem aqui
+por dentro e
+
+03:13.640 --> 03:16.650
+aparece do outro
+lado.
+
+03:16.650 --> 03:18.640
+Se isto fosse transparente
+
+03:18.640 --> 03:21.960
+poderíamos ver o outro
+lado,
+
+03:21.960 --> 03:23.890
+mais ou menos
+assim.
+
+03:23.890 --> 03:26.500
+O eixo &lt;i>x&lt;/i>, se enxergássemos
+através disto,
+
+03:26.500 --> 03:28.979
+iria furar a base
+aqui,
+
+03:28.979 --> 03:31.020
+e continuaria
+desta forma
+
+03:31.020 --> 03:32.880
+até chegar no
+outro lado.
+
+03:32.880 --> 03:36.260
+Isto é outra vista
+da mesma coisa.
+
+03:36.260 --> 03:38.810
+Você poderia visualizá-la
+de diferentes ângulos.
+
+03:38.810 --> 03:41.540
+Vamos pensar sobre como
+podemos calcular o seu volume.
+
+03:41.540 --> 03:44.210
+Ao invés de pensarmos em termos
+da área de cada um
+
+03:44.210 --> 03:46.850
+destes retângulos, o que
+acontece se rotacionarmos
+
+03:46.850 --> 03:49.880
+cada um destes retângulos
+em torno do eixo x?
+
+03:49.880 --> 03:51.360
+Vamos fazer isto.
+
+03:51.360 --> 03:53.680
+Pegamos cada um deles,
+
+03:53.680 --> 03:55.540
+digamos que você tenha este
+dx bem aqui
+
+03:55.540 --> 03:58.140
+e que rotacione em torno
+do eixo x.
+
+03:58.140 --> 04:01.560
+Se rotacionar isto em torno do
+eixo x
+
+04:01.560 --> 04:03.597
+--Estou tentando fazer o meu melhor--
+
+04:03.597 --> 04:05.390
+--rotacionar em torno
+do eixo x--
+
+04:05.390 --> 04:08.620
+com o que ficamos?
+
+04:08.620 --> 04:10.920
+Você terá algo parecido com
+uma moeda,
+
+04:10.920 --> 04:13.970
+um disco ou um Real.
+
+04:13.970 --> 04:15.330
+Deixe-me desenhar isto aqui.
+
+04:15.330 --> 04:18.440
+Este mesmo disco irá parecer
+com isto aqui.
+
+04:22.230 --> 04:27.860
+Com uma espessura &lt;i>dx&lt;/i>.
+
+04:27.860 --> 04:31.170
+Como podemos calcular o
+volume deste disco?
+
+04:31.170 --> 04:33.130
+Deixe-me desenhar isto
+aqui também.
+
+04:33.130 --> 04:35.740
+--É muito importante
+visualizar estas formas direito--
+
+04:35.740 --> 04:39.160
+Este é o meu eixo &lt;i>x&lt;/i>.
+
+04:39.160 --> 04:44.320
+Meu disco ficará
+deste jeito.
+
+04:44.320 --> 04:48.270
+Minha melhor tentativa para
+o eixo x é esta aqui.
+
+04:48.270 --> 04:49.870
+De fora para o centro,
+
+04:49.870 --> 04:55.040
+e isto será a superfície
+do meu disco,
+
+04:55.040 --> 04:59.430
+e isto bem aqui será
+minha espessura dx.
+
+04:59.430 --> 05:01.980
+Ficou muito bom,
+
+05:01.980 --> 05:03.890
+mas deixe-me sombreá-la
+por dentro
+
+05:03.890 --> 05:06.200
+para te dar uma maior
+sensação de profundidade.
+
+05:06.200 --> 05:08.170
+Como podemos encontrar
+volume disto?
+
+05:08.170 --> 05:10.210
+Bem, como qualquer disco
+ou cilindro,
+
+05:10.210 --> 05:12.360
+devemos pensar em termos
+da área desta face
+
+05:12.360 --> 05:14.100
+multiplicada pela
+espessura.
+
+05:14.100 --> 05:16.180
+Então qual será a área desta base?
+
+05:16.180 --> 05:18.260
+Sabemos que a área do círculo
+
+05:18.260 --> 05:20.720
+é igual a &lt;i>pi&lt;/i> vezes &lt;i>r&lt;/i> ao quadrado.
+
+05:20.720 --> 05:24.990
+Então, sabendo o raio desta face,
+
+05:24.990 --> 05:27.440
+podemos descobrir sua área.
+
+05:27.440 --> 05:28.910
+Mas qual é o seu raio?
+
+05:28.910 --> 05:30.390
+O raio é somente a altura
+
+05:30.390 --> 05:31.800
+deste retângulo original,
+
+05:31.800 --> 05:33.770
+e para qualquer &lt;i>x&lt;/i>, a altura
+bem aqui será
+
+05:33.770 --> 05:35.900
+igual a &lt;i>f&lt;/i> de &lt;i>x&lt;/i>,
+
+05:35.900 --> 05:38.830
+o que neste caso é
+x ao quadrado.
+
+05:38.830 --> 05:41.290
+Então aqui nosso raio será
+x ao quadrado
+
+05:41.290 --> 05:44.290
+-- raio igual a &lt;i>x&lt;/i> ao quadrado--
+
+05:44.290 --> 05:48.380
+E a área desta face,
+para um dado x
+
+05:48.380 --> 05:55.940
+será igual a &lt;i>pi&lt;/i> vezes
+f de x ao quadrado,
+
+05:55.940 --> 05:58.280
+neste caso, &lt;i>f&lt;/i> de &lt;i>x&lt;/i> é
+x ao quadrado.
+
+06:01.230 --> 06:03.030
+Agora, como ficará o
+nosso volume?
+
+06:03.030 --> 06:06.570
+O volume será nossa área
+vezes esta espessura aqui.
+
+06:06.570 --> 06:10.530
+Será aquilo vezes a
+espessura, vezes dx
+
+06:13.050 --> 06:18.810
+O volume disto aqui
+-- do volume
+
+06:18.810 --> 06:23.420
+desta moeda, como acho
+que você chamará--
+
+06:23.420 --> 06:24.660
+será igual a,
+
+06:24.660 --> 06:28.890
+meu volume será igual à
+minha área vezes
+
+06:28.890 --> 06:36.270
+&lt;i>dx&lt;/i>, que será igual a &lt;i>pi&lt;/i>
+vezes x ao quadrado, ao quadrado.
+
+06:36.270 --> 06:39.310
+Isto será igual a &lt;i>pi&lt;/i>
+--x ao quadrado, ao quadrado
+
+06:39.310 --> 06:42.620
+é &lt;i>x&lt;/i> a quarta--
+pi elevado à quarta vezes dx.
+
+06:46.630 --> 06:48.710
+Agora, esta expressão aqui,
+
+06:48.710 --> 06:52.470
+nos dá o volume de só um
+destes discos,
+
+06:52.470 --> 06:55.060
+mas o que queremos é o
+volume disto tudo,
+
+06:55.060 --> 06:58.899
+desta corneta ou cone
+inteiro,
+
+06:58.899 --> 07:00.900
+ou --qualquer coisa
+
+07:00.900 --> 07:01.860
+como um trompete--
+
+07:01.860 --> 07:03.560
+Como podemos fazer isto?
+
+07:03.560 --> 07:05.270
+Usando exatamente
+a mesma técnica.
+
+07:05.270 --> 07:11.450
+O que acontece se somarmos
+todas estas coisas?
+
+07:11.450 --> 07:14.060
+Vamos fazer isto, somar
+todas estas coisas.
+
+07:14.060 --> 07:17.622
+--Vou trocar a cor--
+pi vezes x elevado à quarta dx,
+
+07:17.622 --> 07:19.580
+Vamos somar todas estas coisas
+
+07:19.580 --> 07:21.550
+de &lt;i>x&lt;/i> igual a zero até dois.
+
+07:21.550 --> 07:24.010
+Estes são os limites em que
+começamos,
+
+07:24.010 --> 07:25.510
+foram definidos
+arbitrariamente.
+
+07:25.510 --> 07:28.570
+Poderíamos ter feito isto
+para quaisquer dois valores de x--
+
+07:28.570 --> 07:30.470
+entre &lt;i>x&lt;/i> igual a zero e
+x igual a dois,
+
+07:30.470 --> 07:33.840
+e estaríamos somando
+os volumes de todas
+
+07:33.840 --> 07:35.030
+estas moedas.
+
+07:35.030 --> 07:38.634
+No limite, estas espessuras
+ficam cada vez menores
+
+07:38.634 --> 07:40.550
+e temos mais e mais
+
+07:40.550 --> 07:42.220
+moedas que, no limite,
+
+07:42.220 --> 07:45.460
+resultarão no volume do nosso cone
+ou corneta,
+
+07:45.460 --> 07:47.540
+ou o que você queira chamar.
+
+07:47.540 --> 07:49.550
+Só calculamos a integral
+definida,
+
+07:49.550 --> 07:51.610
+e teremos nosso volume.
+
+07:51.610 --> 07:54.240
+Vejamos se conseguimos
+fazer isto.
+
+07:54.240 --> 07:57.159
+Isto somente será o cálculo
+de uma integral definida,
+
+07:57.159 --> 07:59.200
+o que dará -- te encorajo
+
+07:59.200 --> 08:01.380
+a tentar sozinho antes que
+eu faça--
+
+08:01.380 --> 08:02.820
+Podemos tirar para fora
+o pi,
+
+08:02.820 --> 08:05.130
+e ficará igual a &lt;i>pi&lt;/i> vezes
+a integral
+
+08:05.130 --> 08:08.780
+entre zero e dois de &lt;i>x&lt;/i>
+elevado à quarta dx.
+
+08:08.780 --> 08:10.470
+-- Não gostei desta cor--
+
+08:10.470 --> 08:12.680
+A antiderivada de &lt;i>x&lt;/i> a quarta
+
+08:12.680 --> 08:15.310
+é &lt;i>x&lt;/i> elevado a cinco
+sobre cinco,
+
+08:15.310 --> 08:21.720
+e isto será igual a &lt;i>pi&lt;/i> vezes
+x elevado a cinco sobre cinco,
+
+08:21.720 --> 08:23.775
+indo de zero até dois.
+
+08:23.775 --> 08:26.770
+Isto será igual a &lt;i>pi&lt;/i> vezes
+esta coisa
+
+08:26.770 --> 08:27.760
+calculada em dois.
+
+08:27.770 --> 08:29.263
+Vejamos,
+dois ao cubo é oito,
+
+08:29.263 --> 08:30.490
+dois à quarta,
+dezesseis.
+
+08:30.490 --> 08:32.910
+Dois à quinta é --deixe-me escrever
+aqui embaixo--
+
+08:32.910 --> 08:38.299
+Dois à quinta sobre cinco menos
+zero à quinta sobre cinco,
+
+08:38.299 --> 08:39.799
+o que dará
+-- dois à quinta é
+
+08:39.799 --> 08:44.700
+32-- &lt;i>pi&lt;/i> vezes
+
+08:44.700 --> 08:48.690
+32 sobre cinco menos
+--isto será zero--
+
+08:48.690 --> 08:54.790
+menos zero, que é igual a
+32 pi sobre cinco.
+
+08:54.790 --> 08:55.500
+Feito!
+
+08:55.500 --> 08:57.540
+Descobrimos o volume
+
+08:57.540 --> 08:59.880
+desta forma maluca.
+
+08:59.880 --> 09:04.235
+Legendado por [Luiz Marangoni]
+Revisado por [Soraia Novaes]

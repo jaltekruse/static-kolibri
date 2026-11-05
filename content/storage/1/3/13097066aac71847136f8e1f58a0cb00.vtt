@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.290 --> 00:01.123
+Trong video này,
+
+00:01.123 --> 00:02.610
+mình sẽ tìm hiểu cách
+
+00:02.610 --> 00:05.550
+mô tả vị trí trong không gian một chiều dưới dạng
+
+00:05.550 --> 00:06.770
+hàm số theo thời gian.
+
+00:06.770 --> 00:07.920
+Giả sử vị trí của mình--
+
+00:07.920 --> 00:09.320
+Mình sẽ coi vị trí của mình
+
+00:09.320 --> 00:11.990
+là trên trục x và là hàm theo thời gian nhé.
+
+00:11.990 --> 00:13.720
+Và mình định nghĩa vị trí bằng một
+
+00:13.720 --> 00:15.330
+biểu thức, giả sử trong trường hợp này
+
+00:15.330 --> 00:17.930
+là thời gian mũ 3,
+
+00:17.930 --> 00:21.570
+trừ 3 nhân thời gian bình phương, cộng 5.
+
+00:21.570 --> 00:22.760
+Biểu thức này sẽ áp dụng
+
+00:22.760 --> 00:25.890
+khi thời gian không phải là một giá trị âm.
+
+00:25.890 --> 00:27.220
+Khái niệm thời gian âm thì
+
+00:27.220 --> 00:29.640
+hơi kỳ quặc, ít nhất là tại thời điểm này nhỉ?
+
+00:29.640 --> 00:31.310
+Vậy giờ mình cùng nghĩ xem cái này
+
+00:31.310 --> 00:32.880
+đang mô tả cái gì nhé.
+
+00:32.880 --> 00:34.360
+Để dễ hình dung hơn thì
+
+00:34.360 --> 00:36.640
+mình sẽ lập một cái bảng
+
+00:36.640 --> 00:39.510
+để hiểu mối quan hệ này.
+
+00:39.510 --> 00:41.680
+Giả sử thời gian là theo giây đi,
+
+00:41.680 --> 00:45.140
+thì vị trí trên trục x của mình là gì?
+
+00:45.140 --> 00:50.140
+Vậy tại thời gian bằng 0, x(0) bằng 5.
+
+00:50.170 --> 00:55.430
+Tại thời gian bằng 1, bạn sẽ có 1 trừ 3 cộng 5.
+
+00:55.430 --> 00:57.040
+Đó sẽ là bằng,
+
+00:57.040 --> 01:00.200
+1 trừ 3 bằng âm 2,
+
+01:00.200 --> 01:02.330
+cộng 5 là bằng--
+
+01:02.330 --> 01:04.090
+Vị trí của mình là 3.
+
+01:04.090 --> 01:07.550
+Rồi khi thời gian bằng 2, mình sẽ ở
+
+01:07.550 --> 01:11.030
+8 trừ 12 cộng 5,
+
+01:11.030 --> 01:12.950
+là bằng 1.
+
+01:12.950 --> 01:15.660
+Đến thời gian bằng 3,
+
+01:15.660 --> 01:18.570
+vị trí sẽ là 27 trừ 27 cộng 5.
+
+01:18.570 --> 01:20.360
+Mình lại quay về 5.
+
+01:20.360 --> 01:22.530
+Và như vậy, ít nhất là mình đã hiểu
+
+01:22.530 --> 01:25.540
+chuyện gì xảy ra trong 3 giây đầu tiên.
+
+01:25.540 --> 01:29.370
+Vậy để mình vẽ trục x dương nha.
+
+01:29.370 --> 01:34.300
+Nó sẽ nhìn như thế này,
+
+01:34.300 --> 01:37.170
+và đây là x bằng 0.
+
+01:37.170 --> 01:38.230
+Đây là trục x của mình.
+
+01:38.230 --> 01:45.390
+x bằng 1, 2, 3, 4, 5.
+
+01:45.390 --> 01:49.260
+Rồi, mình xem thử phân tử này
+
+01:49.260 --> 01:51.560
+di chuyển trên trục x thế nào nha.
+
+01:51.560 --> 01:53.150
+Mình sẽ bắt đầu ở đây,
+
+01:53.150 --> 01:58.150
+rồi mình đi 1, 2, 3--
+
+01:58.190 --> 01:59.470
+Để mình làm lại nha.
+
+01:59.470 --> 02:03.460
+Mình đi 1, 2, 3.
+
+02:03.460 --> 02:06.110
+Nếu mà mình canh thời gian tương đối đúng,
+
+02:06.110 --> 02:07.730
+thì cách mình vừa di chuyển chuột
+
+02:07.730 --> 02:09.800
+chính là cách mà phân tử đó di chuyển.
+
+02:09.800 --> 02:12.810
+Và mình có thể vẽ đồ thị ra luôn.
+
+02:12.810 --> 02:16.740
+Ví dụ nha, nó sẽ nhìn thế này.
+
+02:16.740 --> 02:20.260
+MÌnh bắt đầu ở thời gian, t, bằng 0.
+
+02:20.260 --> 02:23.620
+Vị trí của mình-- Đây là trục tung, là trục y của mình,
+
+02:23.620 --> 02:25.750
+nhưng mình sẽ nói là y bằng
+
+02:25.750 --> 02:28.000
+vị trị của mình trên trục x.
+
+02:28.000 --> 02:29.500
+Nghe hơi trái ngang ha,
+
+02:29.500 --> 02:31.600
+vì mình đang nói về vị trí
+
+02:31.600 --> 02:33.260
+trên một trục hoành,
+
+02:33.260 --> 02:34.920
+mà mình lại mô tả nó
+
+02:34.920 --> 02:36.230
+bằng trục tung, nhưng mà
+
+02:36.230 --> 02:37.670
+thật ra là giống nhau hết đó.
+
+02:37.670 --> 02:41.520
+Ở thời gian t bằng 1, vị trí của mình xuống còn 3.
+
+02:41.520 --> 02:43.050
+Sau đó nó là đi xuống nữa.
+
+02:43.050 --> 02:46.400
+Ở thời gian bằng 2, vị trí của mình xuống còn 1.
+
+02:46.400 --> 02:48.550
+Rồi thì mình chuyển hướng, và trong--
+
+02:48.550 --> 02:51.110
+Mình đang nói thời gian của mình là theo giây này.
+
+02:51.110 --> 02:54.390
+Trong giây tiếp theo, mình quay về lại 5.
+
+02:54.390 --> 02:55.990
+Một điều đáng ngẫm nghĩ
+
+02:55.990 --> 02:57.870
+khi học giải tích là câu hỏi
+
+02:57.870 --> 03:00.220
+vận tốc của mình, ở bất cứ thời điểm nào, là gì.
+
+03:00.220 --> 03:02.310
+Và vận tốc thì, chắc bạn cũng nhớ,
+
+03:02.310 --> 03:05.510
+chính là đạo hàm của vị trí.
+
+03:05.510 --> 03:06.950
+Để mình viết ý đó xuống nha.
+
+03:06.950 --> 03:09.560
+Mình sẽ xét vận tốc
+
+03:09.560 --> 03:11.030
+là một hàm theo thời gian.
+
+03:11.030 --> 03:13.140
+Và có thể coi vận tốc là đạo hàm lần một
+
+03:13.140 --> 03:15.280
+của vị trí theo thời gian,
+
+03:15.280 --> 03:16.500
+thì chính là bằng--
+
+03:16.500 --> 03:18.040
+Mình sẽ áp dụng quy tắc đạo hàm lũy thừa
+
+03:18.040 --> 03:19.860
+và một vài tính chất của đạo hàm nhé.
+
+03:19.860 --> 03:21.800
+Nếu bạn nghe thấy không quen thì
+
+03:21.800 --> 03:23.460
+bạn nhớ ôn tập lại một chút nhé.
+
+03:23.460 --> 03:25.990
+Nhưng mà ở đây sẽ là 3 t bình,
+
+03:25.990 --> 03:29.460
+trừ 6 t, rồi cộng 0.
+
+03:29.460 --> 03:33.580
+Và mình sẽ giới hạn miền xác định của t
+
+03:33.580 --> 03:35.560
+là lớn hơn hoặc bằng 0.
+
+03:35.560 --> 03:38.220
+Rồi, giờ thì mình có thể vẽ đồ thị.
+
+03:38.220 --> 03:40.590
+Nó sẽ nhìn như thế này.
+
+03:40.590 --> 03:44.530
+Giờ hãy xem thử bạn thấy đường cong này đúng không nhé.
+
+03:44.530 --> 03:47.320
+Lúc này mình xem vị trí ở 1 giây, 2 giây,
+
+03:47.320 --> 03:48.670
+3 giây.
+
+03:48.670 --> 03:50.990
+Vậy là mình đang đi về bên trái.
+
+03:50.990 --> 03:52.950
+Và quy tắc chung là nếu đi về bên trái
+
+03:52.950 --> 03:54.080
+thì vận tốc là âm,
+
+03:54.080 --> 03:54.970
+còn nếu đi về bên phải,
+
+03:54.970 --> 03:56.530
+thì vận tốc là dương.
+
+03:56.530 --> 03:58.370
+Vậy bạn thấy ở đây, vận tốc
+
+03:58.370 --> 04:00.140
+ngay lập tức là càng lúc càng âm
+
+04:00.140 --> 04:01.610
+cho đến 1 giây,
+
+04:01.610 --> 04:03.420
+rồi nó vẫn âm, nhưng càng lúc càng
+
+04:03.420 --> 04:06.250
+đỡ âm đi, cho đến thời khắc 2 giây.
+
+04:06.250 --> 04:08.860
+Ở 2 giây, vận tốc của mình trở thành dương.
+
+04:08.860 --> 04:10.770
+Và nó là đúng, vì thời khắc 2 giây là lúc
+
+04:10.770 --> 04:12.790
+vận tốc của mình chuyển hướng
+
+04:12.790 --> 04:14.400
+thành hướng sang phải.
+
+04:14.400 --> 04:18.030
+Vậy, vận tốc đang càng lúc càng âm,
+
+04:18.030 --> 04:20.670
+rồi càng lúc càng đỡ âm, rồi mình chuyển hướng,
+
+04:20.670 --> 04:22.140
+rồi tiếp tục đi như vậy.
+
+04:22.140 --> 04:24.020
+Và mình thấy điều nó ngay đây.
+
+04:24.020 --> 04:25.530
+Rồi, một điều bạn cần nhớ
+
+04:25.530 --> 04:28.390
+khi coi vận tốc là một hàm theo thời gian
+
+04:28.390 --> 04:31.620
+là vận tốc và tốc độ là hai thứ khác nhau.
+
+04:31.620 --> 04:34.040
+Tốc độ-- Để mình viết ở bên này.
+
+04:34.040 --> 04:36.830
+Tốc độ là bằng-- Nếu bạn suy nghĩ trong không gian
+
+04:36.830 --> 04:38.180
+một chiều, bạn có thể coi nó
+
+04:38.180 --> 04:40.310
+như trị tuyệt đối của hàm vận tốc
+
+04:40.310 --> 04:43.140
+theo thời gian, hay là độ lớn của
+
+04:43.140 --> 04:44.740
+hàm vận tốc theo thời gian.
+
+04:44.740 --> 04:46.660
+Vậy ban đầu, dù vận tốc
+
+04:46.660 --> 04:48.940
+đang càng lúc càng âm,
+
+04:48.940 --> 04:50.680
+tốc độ thật ra là đang tăng.
+
+04:50.680 --> 04:52.780
+Tốc độ đang tăng theo hướng sang trái,
+
+04:52.780 --> 04:54.440
+rồi giảm dần (là bạn đi chậm hơn),
+
+04:54.440 --> 04:56.110
+rồi tốc độ lại tăng lên
+
+04:56.110 --> 04:57.300
+khi đi về hướng bên phải.
+
+04:57.300 --> 04:58.930
+Và mình sẽ làm một vài ví dụ
+
+04:58.930 --> 05:01.090
+mà sẽ nói kỹ hơn những điều vừa bàn.
+
+05:01.090 --> 05:03.710
+Bây giờ, điều cuối cùng mình sẽ học ở video này
+
+05:03.710 --> 05:05.490
+là khái niệm gia tốc.
+
+05:05.490 --> 05:06.570
+Bạn có thể coi gia tốc
+
+05:06.570 --> 05:09.360
+như độ biến thiên của vận tốc theo thời gian.
+
+05:09.360 --> 05:11.560
+Nó cũng là một hàm theo thời gian, và
+
+05:11.560 --> 05:13.450
+sẽ là đạo hàm lần một
+
+05:13.450 --> 05:15.300
+của vận tốc theo thời gian,
+
+05:15.300 --> 05:16.910
+cũng chính là đạo hàm lần hai
+
+05:16.910 --> 05:18.330
+của vị trí theo thời gian.
+
+05:18.330 --> 05:20.330
+Nó chỉ là đạo hàm của biểu thức này thôi.
+
+05:20.330 --> 05:22.310
+Vậy mình lại dùng quy tắc đạo hàm lũy thừa.
+
+05:22.310 --> 05:23.300
+Đây là 6 t.
+
+05:23.300 --> 05:25.120
+Rồi mình tiếp tục áp dụng quy tắc,
+
+05:25.120 --> 05:29.700
+còn trừ 6. Và một lần nữa, mình sẽ giới hạn miền xác định.
+
+05:29.700 --> 05:33.290
+Mình cũng có thể vẽ đồ thị cho cái này nữa.
+
+05:33.290 --> 05:34.660
+Bạn sẽ thấy nó ở ngay đây.
+
+05:34.660 --> 05:38.190
+Đây là y bằng gia tốc theo thời gian.
+
+05:38.190 --> 05:39.900
+Vậy bạn thấy là ở thời gian bằng 0,
+
+05:39.900 --> 05:41.510
+gia tốc của mình khá là âm.
+
+05:41.510 --> 05:43.280
+Nó tận âm 6.
+
+05:43.280 --> 05:46.190
+Rồi nó càng lúc càng đỡ âm hơn.
+
+05:46.190 --> 05:47.830
+Sau đó, gia tốc lại trờ thành
+
+05:47.830 --> 05:49.480
+dương tại t bằng 1.
+
+05:49.480 --> 05:51.060
+Bạn hiểu chưa nào?
+
+05:51.060 --> 05:54.010
+Mình đi qua 1, 2, 3 giây.
+
+05:54.010 --> 05:55.780
+Chắc bạn nghĩ: "Đợi chút, chẳng phải mình
+
+05:55.780 --> 05:57.650
+đến 2 giây mới đổi hướng à?"
+
+05:57.650 --> 05:59.980
+Nhưng nhớ nha, sau khi mình hết giây đầu tiên,
+
+05:59.980 --> 06:03.770
+vận tốc theo hướng âm của mình
+
+06:03.770 --> 06:06.040
+đang càng lúc càng đỡ âm hơn, nghĩa là
+
+06:06.040 --> 06:09.050
+gia tốc của mình là dương.
+
+06:09.050 --> 06:09.930
+Nếu khó hiểu thì
+
+06:09.930 --> 06:12.010
+bạn dừng video rồi nghĩ thêm một lúc nha.
+
+06:12.010 --> 06:14.470
+Vậy gia tốc là âm, rồi thành dương,
+
+06:14.470 --> 06:16.870
+rồi tiếp tục dương.
+
+06:16.870 --> 06:18.390
+Vậy video này là để bạn cảm nhận
+
+06:18.390 --> 06:20.580
+được thôi. Trong các video tới, mình sẽ giải
+
+06:20.580 --> 06:22.860
+một vài ví dụ để tìm hiểu sâu hơn về mảng
+
+06:22.860 --> 06:26.630
+mô phỏng vị trí và chuyển động
+
+06:26.630 --> 06:29.560
+trong không gian một chiều nhé.

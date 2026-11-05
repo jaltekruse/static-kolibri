@@ -1,0 +1,576 @@
+WEBVTT
+
+00:00.000 --> 00:02.623
+- [Instructor] We're going
+to do in this video is review
+
+00:02.623 --> 00:05.339
+the notion of composite functions
+
+00:05.339 --> 00:07.940
+and then build some skills recognizing
+
+00:07.940 --> 00:10.838
+how functions can actually be composed.
+
+00:10.838 --> 00:13.604
+If you've never heard of
+the term composite functions
+
+00:13.604 --> 00:15.575
+or if the first few minutes of this video
+
+00:15.575 --> 00:16.866
+look unfamiliar to you,
+
+00:16.866 --> 00:19.197
+I encourage you to
+watch the algebra videos
+
+00:19.197 --> 00:21.620
+on composite functions on Khan Academy.
+
+00:21.620 --> 00:24.096
+The goal of this one is
+to really be a little
+
+00:24.096 --> 00:26.551
+bit of a practice before
+we get into some skills
+
+00:26.551 --> 00:28.047
+that are necessary in calculus,
+
+00:28.047 --> 00:30.087
+and particularly the chain rule.
+
+00:30.087 --> 00:34.100
+So let's just review what
+a composite function is.
+
+00:34.100 --> 00:36.183
+So let's say that I have,
+
+00:37.115 --> 00:40.050
+let's say that I have f of x,
+
+00:40.050 --> 00:43.050
+f of x being equal to one plus x.
+
+00:44.760 --> 00:47.510
+And let's say that we have g of x
+
+00:48.456 --> 00:52.206
+is equal to, let's say g of x is
+
+00:52.206 --> 00:54.373
+equal to cosine of x.
+
+00:55.556 --> 00:58.223
+So what would f of g of x be,
+
+00:59.208 --> 01:00.208
+f of g of x?
+
+01:02.478 --> 01:03.951
+And I encourage you to pause this video
+
+01:03.951 --> 01:06.549
+and try to work it out on your own.
+
+01:06.549 --> 01:08.768
+Well one way to think about it is
+
+01:08.768 --> 01:11.799
+the input into f of x is no longer x,
+
+01:11.799 --> 01:13.385
+it is g of x.
+
+01:13.385 --> 01:15.406
+So everywhere where we see an x
+
+01:15.406 --> 01:16.817
+in the definition of f of x,
+
+01:16.817 --> 01:18.290
+we would replace with the g of x.
+
+01:18.290 --> 01:20.500
+So this is gonna be equal to,
+
+01:20.500 --> 01:23.417
+this is gonna be equal to one plus.
+
+01:24.807 --> 01:26.197
+Instead of the input being x,
+
+01:26.197 --> 01:28.061
+the input is g of x, so the output
+
+01:28.061 --> 01:29.644
+is one plus g of x.
+
+01:31.414 --> 01:34.726
+And g of x, of course, is cosine of x.
+
+01:34.726 --> 01:36.096
+So instead of writing g of x there,
+
+01:36.096 --> 01:38.263
+I could write cosine of x.
+
+01:40.891 --> 01:43.887
+And one way to visualize this is,
+
+01:43.887 --> 01:47.032
+I'm putting my x into g of x first,
+
+01:47.032 --> 01:50.142
+so x goes into the function g,
+
+01:50.142 --> 01:51.975
+and it outputs g of x.
+
+01:52.953 --> 01:54.935
+And then we're gonna
+take that output, g of x,
+
+01:54.935 --> 01:57.168
+and then input it into f of x,
+
+01:57.168 --> 01:59.822
+or input it into the
+function f, I should say.
+
+01:59.822 --> 02:01.754
+We input into the function f,
+
+02:01.754 --> 02:05.152
+and then that is going to output f of
+
+02:05.152 --> 02:08.989
+whatever the input was,
+and the input is g of x,
+
+02:08.989 --> 02:09.822
+g of x.
+
+02:10.694 --> 02:12.827
+So now with that review out of the way,
+
+02:12.827 --> 02:14.887
+let's see if we can go
+the other way around.
+
+02:14.887 --> 02:16.706
+Let's see if we can look at some type
+
+02:16.706 --> 02:18.012
+of a function definition and say,
+
+02:18.012 --> 02:21.317
+hey, can we express that as a composition
+
+02:21.317 --> 02:23.170
+of other functions.
+
+02:23.170 --> 02:26.310
+So let's start with, let's say
+
+02:26.310 --> 02:27.977
+that I have a g of x
+
+02:30.274 --> 02:32.024
+is equal to cosine of
+
+02:33.964 --> 02:35.797
+sine of x plus one.
+
+02:37.782 --> 02:39.866
+And I also wanna state,
+
+02:39.866 --> 02:42.193
+there's oftentimes more than one way
+
+02:42.193 --> 02:45.011
+to compose, or to construct a function
+
+02:45.011 --> 02:46.423
+based on the composition of other ones.
+
+02:46.423 --> 02:48.892
+But with that said,
+pause this video and say,
+
+02:48.892 --> 02:50.444
+hey, can I express g of x
+
+02:50.444 --> 02:52.523
+as a composition of two other functions,
+
+02:52.523 --> 02:54.940
+let's say an f and an h of x?
+
+02:55.968 --> 02:58.436
+So there's a couple of ways
+that you could think about it.
+
+02:58.436 --> 03:00.290
+You could say, alright, well let's see,
+
+03:00.290 --> 03:03.750
+I have this sine of x right over here.
+
+03:03.750 --> 03:06.658
+So what if I called that an f of x?
+
+03:06.658 --> 03:08.572
+So let's say I called that,
+
+03:08.572 --> 03:10.369
+well actually let me
+use a different variable
+
+03:10.369 --> 03:11.499
+so we don't get confused here.
+
+03:11.499 --> 03:14.306
+Let me call this u of x,
+
+03:14.306 --> 03:16.002
+the sine of x right over there.
+
+03:16.002 --> 03:19.498
+So this would be cosine
+of u of x plus one.
+
+03:19.498 --> 03:21.209
+And so if we then divided,
+
+03:21.209 --> 03:25.442
+if we then defined
+another function as v of x
+
+03:25.442 --> 03:29.275
+being equal to cosine
+of whatever its input is
+
+03:30.343 --> 03:33.375
+plus one, well then this
+looks like the composition
+
+03:33.375 --> 03:35.088
+of v and u of x.
+
+03:35.088 --> 03:39.000
+Instead of v of x, if we did v of u of x,
+
+03:39.000 --> 03:42.543
+then this would be cosine
+of u of x plus one,
+
+03:42.543 --> 03:43.948
+let me write that down.
+
+03:43.948 --> 03:46.198
+So if we wrote v of u of x,
+
+03:48.733 --> 03:52.209
+which is sine of x, if we did v of u of x,
+
+03:52.209 --> 03:54.918
+that is going to be equal to
+
+03:54.918 --> 03:58.430
+cosine of, instead of an x plus one,
+
+03:58.430 --> 04:00.782
+it's going to be a u of x plus one.
+
+04:00.782 --> 04:02.588
+And u of x, let me write this here,
+
+04:02.588 --> 04:05.255
+u of x is equal to sine of x.
+
+04:06.128 --> 04:08.050
+That's how we set this up.
+
+04:08.050 --> 04:11.011
+So we can either write
+cosine of u of x plus one,
+
+04:11.011 --> 04:13.928
+or cosine of sine of x plus one,
+
+04:15.178 --> 04:17.320
+which was exactly what we had before.
+
+04:17.320 --> 04:19.576
+And so this function, g of x,
+
+04:19.576 --> 04:22.435
+is we say u of x is equal to sine of x,
+
+04:22.435 --> 04:24.778
+if we say u of x is equal to sine of x,
+
+04:24.778 --> 04:29.366
+and v of x is equal to
+cosine of x plus one,
+
+04:29.366 --> 04:32.721
+then we could write g
+of x as the composition
+
+04:32.721 --> 04:35.334
+of these two functions.
+
+04:35.334 --> 04:38.947
+Now you could even make it a
+composition of three functions.
+
+04:38.947 --> 04:42.154
+We could keep u of x to
+be equal to sine of x.
+
+04:42.154 --> 04:45.154
+We could define, let's say, a w of x
+
+04:46.822 --> 04:49.239
+to be equal to x plus one.
+
+04:50.298 --> 04:52.037
+And so then, let's think about it.
+
+04:52.037 --> 04:52.870
+W of x,
+
+04:54.554 --> 04:57.232
+w of u of x, I should say,
+
+04:57.232 --> 04:59.815
+w of u, I'll do the same color,
+
+05:02.170 --> 05:05.420
+w of u of x is going to be equal to.
+
+05:07.444 --> 05:10.153
+Now my input is no longer x, it's u of x,
+
+05:10.153 --> 05:12.990
+so it's going to be a u of x plus one,
+
+05:12.990 --> 05:15.731
+or just sine of x plus one.
+
+05:15.731 --> 05:18.902
+So that's sine of x plus one.
+
+05:18.902 --> 05:21.350
+And then if we define a third function,
+
+05:21.350 --> 05:24.670
+let's say, let's see, I'll call it,
+
+05:24.670 --> 05:27.421
+let's call it h; we're
+running out of variables,
+
+05:27.421 --> 05:28.876
+although there are a lot of letters left.
+
+05:28.876 --> 05:31.089
+So if I say h of x is
+just equal to the cosine
+
+05:31.089 --> 05:34.354
+of whatever I input, so it's
+equal to the cosine of x,
+
+05:34.354 --> 05:37.300
+well then h of w of u of x
+
+05:37.300 --> 05:38.760
+is gonna be g of x.
+
+05:38.760 --> 05:39.891
+Let me write that down.
+
+05:39.891 --> 05:41.308
+H of w of u of x,
+
+05:47.335 --> 05:50.002
+u of x, is going to be equal to,
+
+05:51.410 --> 05:53.887
+remember, h of x takes the cosine
+
+05:53.887 --> 05:55.372
+of whatever its input is,
+
+05:55.372 --> 05:57.341
+so it's gonna take the cosine.
+
+05:57.341 --> 06:00.401
+Now its input is w of u of x.
+
+06:00.401 --> 06:02.751
+We already figured out w of u of x
+
+06:02.751 --> 06:04.589
+is going to be this business.
+
+06:04.589 --> 06:08.089
+So it's going to be sine of x plus one,
+
+06:10.993 --> 06:12.873
+where the u of x is sine of x,
+
+06:12.873 --> 06:14.949
+but then we input that into w,
+
+06:14.949 --> 06:16.986
+so we got sine of x plus one,
+
+06:16.986 --> 06:19.822
+and then we inputed that into h
+
+06:19.822 --> 06:21.584
+to get cosine of that,
+
+06:21.584 --> 06:23.132
+which is our original expression,
+
+06:23.132 --> 06:25.215
+which is equal to g of x.
+
+06:27.780 --> 06:30.444
+So the whole point here is to appreciate
+
+06:30.444 --> 06:33.259
+how to recognize
+compositions of functions.
+
+06:33.259 --> 06:35.685
+Now I wanna stress, it's not always
+
+06:35.685 --> 06:37.688
+going to be a composition of a function.
+
+06:37.688 --> 06:41.131
+For example, if I have some function,
+
+06:41.131 --> 06:42.797
+let me just clear this out,
+
+06:42.797 --> 06:45.629
+if I had some function f of x
+
+06:45.629 --> 06:49.212
+is equal to cosine of x times sine of x,
+
+06:52.444 --> 06:53.989
+it would be hard to express this as
+
+06:53.989 --> 06:56.269
+a composition of functions,
+
+06:56.269 --> 06:59.274
+but I can represent it as
+the product of functions.
+
+06:59.274 --> 07:01.879
+For example, I could say cosine of x,
+
+07:01.879 --> 07:04.461
+I could say u of x is
+equal to cosine of x.
+
+07:04.461 --> 07:07.870
+And I could say v of x,
+it's a different color,
+
+07:07.870 --> 07:09.370
+I could say v of x
+
+07:11.009 --> 07:12.657
+is equal to sine of x.
+
+07:12.657 --> 07:15.026
+And so here, f of x
+wouldn't be the composition
+
+07:15.026 --> 07:17.563
+of u and v, it would be the product.
+
+07:17.563 --> 07:19.896
+F of x is equal to u of x
+
+07:22.013 --> 07:23.096
+times v of x.
+
+07:24.956 --> 07:26.696
+If we were take the composition,
+
+07:26.696 --> 07:29.196
+if we were to say u of v of x,
+
+07:30.553 --> 07:32.129
+pause the video, think about what that is,
+
+07:32.129 --> 07:33.945
+and that's a little bit of review.
+
+07:33.945 --> 07:37.195
+Well this is going to be, I take u of x
+
+07:38.030 --> 07:41.058
+takes the cosine of whatever is input,
+
+07:41.058 --> 07:45.331
+and now the input is v of
+x, which would be sine of x;
+
+07:45.331 --> 07:46.164
+sine of x.
+
+07:47.284 --> 07:49.097
+And then if you did v of u of x,
+
+07:49.097 --> 07:50.206
+well that'd be the other way around.
+
+07:50.206 --> 07:52.308
+It would be sine of cosine of x.
+
+07:52.308 --> 07:54.159
+But anyway, this is once again, just to
+
+07:54.159 --> 07:55.801
+help us recognize, hey, do I have,
+
+07:55.801 --> 07:58.095
+when I look at an expression
+or a function definition,
+
+07:58.095 --> 08:00.156
+am I looking at products of functions,
+
+08:00.156 --> 08:02.441
+am I looking at compositions of functions?
+
+08:02.441 --> 08:04.701
+Sometimes you're looking
+at products of compositions
+
+08:04.701 --> 08:06.103
+or quotients of compositions,
+
+08:06.103 --> 08:08.021
+all sorts of different combinations of how
+
+08:08.021 --> 08:11.864
+you can put functions together
+to create new functions.

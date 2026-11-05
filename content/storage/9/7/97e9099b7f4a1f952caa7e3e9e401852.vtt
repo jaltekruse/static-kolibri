@@ -1,0 +1,772 @@
+WEBVTT
+
+00:00.580 --> 00:04.900
+En el último vídeo, nos encontramos la pendiente en un punto particular de
+
+00:04.900 --> 00:07.035
+la curva y es igual al cuadrado de x.
+
+00:07.035 --> 00:09.700
+Pero vamos a ver si podemos generalizar esto y llegar a
+
+00:09.700 --> 00:12.780
+con una fórmula que nos encuentra la pendiente en cualquier punto de la
+
+00:12.780 --> 00:15.350
+curva y es igual al cuadrado de x.
+
+00:15.350 --> 00:18.000
+Así que permítanme volver a dibujar mi función aquí.
+
+00:18.000 --> 00:21.720
+Nunca está de más tener un bonito dibujo.
+
+00:21.720 --> 00:24.530
+Así que ese es mi eje.
+
+00:24.530 --> 00:28.420
+Ese es mi eje x ahí.
+
+00:28.420 --> 00:29.580
+Mi eje-x.
+
+00:29.580 --> 00:30.670
+Permítanme que señale a mi curva.
+
+00:30.670 --> 00:32.900
+Se ve algo así.
+
+00:32.900 --> 00:34.210
+Usted ha visto que en múltiples ocasiones.
+
+00:34.210 --> 00:37.970
+Esto es y es igual al cuadrado de x.
+
+00:37.970 --> 00:39.740
+Así que vamos a ser muy general, en estos momentos.
+
+00:39.740 --> 00:42.600
+Recuerde, si queremos encontrar - déjeme escribir el
+
+00:42.600 --> 00:44.600
+definición de nuestros instrumentos derivados.
+
+00:44.600 --> 00:48.450
+Así que si tenemos algún punto aquí - llamémoslo x.
+
+00:48.450 --> 00:49.630
+Por lo que queremos ser muy general.
+
+00:49.630 --> 00:52.470
+Queremos encontrar la pendiente en el punto x.
+
+00:52.470 --> 00:55.190
+Queremos encontrar una función en la que me dan un x
+
+00:55.190 --> 00:57.010
+y yo voy a decir la pendiente en ese punto.
+
+00:57.010 --> 00:59.800
+Vamos a llamar a que el primer f de x.
+
+00:59.800 --> 01:06.210
+Eso va a ser la derivada de f de x.
+
+01:06.210 --> 01:09.830
+Pero lo único que hace es, mira, f de x, le da - es una función
+
+01:09.830 --> 01:12.670
+que le dan un x, y le dice que el valor de eso.
+
+01:12.670 --> 01:14.810
+Y llegamos a la curva de aquí.
+
+01:14.810 --> 01:19.470
+Con f de x, x que le dará igual, pero no le va a decir
+
+01:19.470 --> 01:21.050
+que el valor de la curva.
+
+01:21.050 --> 01:22.760
+No va a decir, oh, esta es tu f de x.
+
+01:22.760 --> 01:24.855
+Que va a darle el valor de la pendiente de
+
+01:24.855 --> 01:26.280
+la curva en ese punto.
+
+01:26.280 --> 01:28.790
+Por lo tanto f de x, si lo pones en esa función, debe informar
+
+01:28.790 --> 01:31.540
+, ¡oh, la pendiente en ese punto, es igual a - usted sabe,
+
+01:31.540 --> 01:33.360
+si usted pone tres allí, que te dice, oh, la pendiente no
+
+01:33.360 --> 01:34.220
+es igual a 6.
+
+01:34.220 --> 01:35.590
+Hemos visto que en el último ejemplo.
+
+01:35.590 --> 01:37.410
+Y eso es lo que queremos hacer.
+
+01:37.410 --> 01:40.600
+Y vimos en el pasado - creo que fue 2 - videos hace
+
+01:40.600 --> 01:47.130
+que definimos f prima de x es igual a - sólo el -
+
+01:47.130 --> 01:48.470
+así, lo voy a escribir de esta manera.
+
+01:48.470 --> 01:51.210
+Es la pendiente de la recta secante entre x y algunos
+
+01:51.210 --> 01:53.540
+punto de que es un poco más lejos de x.
+
+01:53.540 --> 01:56.640
+Por lo tanto la pendiente de la recta secante es el cambio en y.
+
+01:56.640 --> 02:00.940
+Por lo que es el valor y el punto de que es un poco
+
+02:00.940 --> 02:02.290
+poco más lejos de x.
+
+02:02.290 --> 02:07.630
+Por lo tanto f de x más horas y menos el valor en x, ¿verdad?
+
+02:07.630 --> 02:08.600
+Dado que se trata aquí.
+
+02:08.600 --> 02:11.200
+Esta es la f de x.
+
+02:11.200 --> 02:13.820
+F por lo menos de x.
+
+02:13.820 --> 02:15.830
+Todo ello sobre el cambio en x.
+
+02:15.830 --> 02:19.620
+Así que si esto es x más horas aquí, el cambio en x
+
+02:19.620 --> 02:21.740
+es más x menos h x.
+
+02:21.740 --> 02:23.470
+Este derecho o la distancia aquí es sólo h.
+
+02:23.470 --> 02:26.830
+El cambio en x va a ser igual a h.
+
+02:26.830 --> 02:29.150
+Así que eso es sólo pendiente de la recta secante, entre
+
+02:29.150 --> 02:31.240
+cualquiera de los 2 puntos por el estilo.
+
+02:31.240 --> 02:33.880
+Y nosotros dijimos, bueno, no pudimos encontrar la pendiente de la recta tangente
+
+02:33.880 --> 02:36.390
+si tomamos el límite de esta medida que se acerca -
+
+02:36.390 --> 02:40.060
+cuando h tiende a 0.
+
+02:40.060 --> 02:42.930
+Y luego vamos a encontrar la pendiente de la recta tangente.
+
+02:42.930 --> 02:48.060
+Ahora vamos a aplicar esta idea a una función en particular, de f
+
+02:48.060 --> 02:49.970
+x es igual al cuadrado de x.
+
+02:49.970 --> 02:52.430
+Oy es igual al cuadrado de x.
+
+02:52.430 --> 02:55.800
+Así que aquí, podríamos tener el punto - se podría pensar en este
+
+02:55.800 --> 02:58.910
+a ser el punto x - x al cuadrado.
+
+02:58.910 --> 03:01.380
+Por lo tanto f de x es igual al cuadrado de x.
+
+03:01.380 --> 03:05.040
+Y entonces este sería el punto - que me obligó a hacerlo en
+
+03:05.040 --> 03:07.140
+un color más vibrante.
+
+03:07.140 --> 03:11.510
+Este es el punto más x h - que es el punto aquí.
+
+03:11.510 --> 03:13.040
+Es un poco más abajo.
+
+03:13.040 --> 03:14.770
+Y entonces x más horas al cuadrado.
+
+03:19.450 --> 03:20.880
+Y ustedes saben, en el último video, lo hicimos
+
+03:20.880 --> 03:21.500
+para un determinado x.
+
+03:21.500 --> 03:22.590
+Lo hicimos por 3.
+
+03:22.590 --> 03:24.330
+Pero ahora quiero una fórmula general.
+
+03:24.330 --> 03:26.300
+Usted me da todo x, y no tendrá que hacer lo que hice en el
+
+03:26.300 --> 03:28.330
+último vídeo de un número en particular.
+
+03:28.330 --> 03:29.490
+Voy a tener una función general.
+
+03:29.490 --> 03:31.570
+Tú me das 7, te diré lo que la pendiente es a las 7.
+
+03:31.570 --> 03:33.260
+Usted me da tres negativos, te diré lo que la pendiente
+
+03:33.260 --> 03:34.300
+es negativo en 3.
+
+03:34.300 --> 03:36.450
+Usted me da 100.000, te diré lo que el
+
+03:36.450 --> 03:37.690
+pendiente es de 100.000.
+
+03:37.690 --> 03:39.310
+Así que vamos a aplicar aquí.
+
+03:39.310 --> 03:42.740
+Por lo que queremos encontrar el cambio en y sobre el cambio en x.
+
+03:45.410 --> 03:51.190
+Así que en primer lugar, el cambio en y es el valor de este hombre y,
+
+03:51.190 --> 03:52.975
+que es más cuadrado x h.
+
+03:57.410 --> 03:59.290
+Ese es el valor de este hombre y aquí.
+
+03:59.290 --> 04:00.270
+Eso es esto de aquí.
+
+04:00.270 --> 04:02.730
+Eso es más x h al cuadrado.
+
+04:02.730 --> 04:06.380
+Me tomó más x h, evaluados, lo cuadrado, y
+
+04:06.380 --> 04:07.820
+ese es su punto de la curva.
+
+04:07.820 --> 04:08.930
+Por lo que es más cuadrado x h.
+
+04:08.930 --> 04:10.630
+Por lo que está ahí ahí.
+
+04:10.630 --> 04:12.080
+Y entonces ¿cuál es ese valor?
+
+04:12.080 --> 04:15.230
+f de x aquí es igual a - Sé que es ensuciarse -
+
+04:15.230 --> 04:16.310
+es igual al cuadrado de x.
+
+04:16.310 --> 04:18.530
+Si te tomas tu x, a evaluar la función
+
+04:18.530 --> 04:20.600
+en ese punto, usted va a conseguir x al cuadrado.
+
+04:20.600 --> 04:23.300
+Por lo que es igual al cuadrado de x menos.
+
+04:23.300 --> 04:24.900
+Este es el cambio en y.
+
+04:24.900 --> 04:29.090
+Esa es la distancia allí.
+
+04:29.090 --> 04:33.110
+Y sólo para que se relacionan con nuestra definición de un derivado,
+
+04:33.110 --> 04:35.820
+esta cosa azul aquí es equivalente a la
+
+04:35.820 --> 04:36.570
+lo correcto.
+
+04:36.570 --> 04:39.140
+Acabamos de evaluar nuestra función.
+
+04:39.140 --> 04:42.850
+Nuestra función es f de x es igual al cuadrado de x.
+
+04:42.850 --> 04:46.310
+Acabamos de evaluar cuando x es igual a x más h.
+
+04:46.310 --> 04:48.920
+Así que si usted tiene que cuadrados, si pongo un uno allí,
+
+04:48.920 --> 04:49.540
+que sería un cuadrado.
+
+04:49.540 --> 04:51.200
+Si pongo una manzana allí, que sería la manzana cuadrada.
+
+04:51.200 --> 04:52.970
+Si pongo una x más horas allí, que va a
+
+04:52.970 --> 04:54.580
+x ser más cuadrado h.
+
+04:54.580 --> 04:56.210
+Así que esta es la cosa.
+
+04:56.210 --> 05:00.420
+Y luego, esto aquí es la función evaluada
+
+05:00.420 --> 05:01.810
+en el punto en cuestión.
+
+05:01.810 --> 05:02.440
+Justo ahí.
+
+05:02.440 --> 05:05.120
+Así que este es nuestro cambio en y.
+
+05:05.120 --> 05:07.920
+Y vamos a dividir que por nuestro cambio en x.
+
+05:07.920 --> 05:10.730
+Nuestro cambio de x - si esto es x más horas y esto es sólo x, nuestro
+
+05:10.730 --> 05:13.360
+cambio en x es sólo va a ser h.
+
+05:13.360 --> 05:14.880
+Así que ahí es donde tenemos que el término de.
+
+05:14.880 --> 05:17.670
+Así que esto es sólo una pendiente entre estos dos puntos.
+
+05:17.670 --> 05:19.350
+Esto es sólo una pendiente entre esos dos puntos.
+
+05:19.350 --> 05:22.690
+Pero, por supuesto, queremos encontrar - el límite en este punto
+
+05:22.690 --> 05:25.500
+se acerca cada vez más cerca de este punto, y este punto se
+
+05:25.500 --> 05:26.790
+más cerca de ese punto.
+
+05:26.790 --> 05:29.530
+Por lo que este se convierte en una recta tangente.
+
+05:29.530 --> 05:34.480
+Así que vamos a tomar el límite cuando h tiende a 0, y
+
+05:34.480 --> 05:37.250
+este es nuestro principal de f x.
+
+05:37.250 --> 05:39.580
+Y esta es la definición exacta de este mismo, en lugar
+
+05:39.580 --> 05:42.400
+de ser general y decir, para cualquier función, sabemos
+
+05:42.400 --> 05:43.380
+lo que la función fue.
+
+05:43.380 --> 05:45.680
+Fue f de x es igual al cuadrado de x.
+
+05:45.680 --> 05:46.660
+Así que en realidad se aplica.
+
+05:46.660 --> 05:48.350
+En lugar de f de x, escribimos x cuadrado.
+
+05:48.350 --> 05:52.950
+En lugar de f de x más horas, que escribió más cuadrado x h.
+
+05:52.950 --> 05:56.180
+Así que vamos a ver si podemos evaluar este límite.
+
+05:56.180 --> 06:04.680
+Así que esto va a ser igual al límite cuando h
+
+06:04.680 --> 06:06.680
+0 a la plaza de esto.
+
+06:06.680 --> 06:09.160
+Lo haré en el mismo color.
+
+06:09.160 --> 06:19.230
+Eso es x al cuadrado más 2xh h más cuadrado, y luego tenemos que
+
+06:19.230 --> 06:22.320
+esta x cuadrado menos por aquí.
+
+06:22.320 --> 06:24.790
+Acabo de multiplicar este tipo a lo largo de aquí.
+
+06:24.790 --> 06:27.635
+Y entonces, de que está dividido por h.
+
+06:27.635 --> 06:30.850
+Ahora vamos a ver si podemos simplificar esto un poco.
+
+06:30.850 --> 06:32.610
+Bueno, verá inmediatamente que haya una x al cuadrado y
+
+06:32.610 --> 06:35.390
+tienen una x al cuadrado menos, por lo que los anulan.
+
+06:35.390 --> 06:36.570
+Y entonces podemos dividir el numerador y el
+
+06:36.570 --> 06:38.185
+denominador por h.
+
+06:38.185 --> 06:44.780
+Así que esto se simplifica a - por lo que tenemos f prima de x es igual a -
+
+06:44.780 --> 06:46.590
+si dividimos el numerador y el denominador de h -
+
+06:46.590 --> 06:50.260
+tenemos más 2x h.
+
+06:50.260 --> 06:52.070
+Lo siento, me olvidé de mi límite.
+
+06:52.070 --> 06:53.420
+Que es igual al límite.
+
+06:53.420 --> 06:54.330
+Muy importante.
+
+06:54.330 --> 07:01.200
+Límite cuando h tiende a 0 de todo lo que dividir por h, y
+
+07:01.200 --> 07:08.640
+se obtiene 2x plus h al cuadrado dividido por h es h.
+
+07:08.640 --> 07:10.440
+Y si usted recuerda el último video, cuando lo hizo con una
+
+07:10.440 --> 07:13.780
+x particular, dijo que x es igual a 3, tenemos 6
+
+07:13.780 --> 07:14.920
+además de delta x aquí.
+
+07:14.920 --> 07:17.420
+O 6 h más aquí, así que es muy similar.
+
+07:17.420 --> 07:20.130
+Así que si usted toma la limitada h se aproxima a 0 aquí, eso es
+
+07:20.130 --> 07:21.010
+sólo va a desaparecer.
+
+07:21.010 --> 07:24.240
+Así que esto es sólo va a ser igual a 2x.
+
+07:24.240 --> 07:28.540
+Así que sólo nos dimos cuenta de que si f de x - este es un gran resultado.
+
+07:28.540 --> 07:30.180
+Esto es emocionante!
+
+07:30.180 --> 07:35.130
+Que si f de x es igual al cuadrado de x, f prima
+
+07:35.130 --> 07:37.910
+de x es igual a 2x.
+
+07:37.910 --> 07:39.470
+Eso es lo que acaba de descubierto.
+
+07:39.470 --> 07:41.570
+Y quería asegurarse de que entiende
+
+07:41.570 --> 07:42.880
+cómo interpretar esto.
+
+07:42.880 --> 07:45.780
+f de x, si me dan un valor, te va a decir el valor
+
+07:45.780 --> 07:47.560
+de la función en ese punto.
+
+07:47.560 --> 07:48.920
+A flor de x que va a decir
+
+07:48.920 --> 07:49.960
+pendiente en ese punto.
+
+07:49.960 --> 07:51.180
+Permítanme que señale a eso.
+
+07:51.180 --> 07:53.490
+Debido a que este es un logro clave.
+
+07:53.490 --> 07:56.220
+Y es posible que, ya sabes, es una especie de tal principio
+
+07:56.220 --> 07:58.590
+intuitivo pensar en una función que nos da la
+
+07:58.590 --> 08:02.040
+pendiente, en cualquier momento, de otra función.
+
+08:02.040 --> 08:05.070
+Así que parece que esto.
+
+08:05.070 --> 08:07.650
+Permítanme hacer un poco más ordenado que eso.
+
+08:07.650 --> 08:10.290
+Ah, es que todavía no se limpia.
+
+08:10.290 --> 08:11.280
+Eso es satisfactorio.
+
+08:11.280 --> 08:13.650
+Permítanme que dibujar en la coordenada positiva.
+
+08:13.650 --> 08:15.640
+Bueno, voy a sacar todo - la curva se ve
+
+08:15.640 --> 08:17.450
+algo por el estilo.
+
+08:17.450 --> 08:20.090
+Ahora bien, esta es la curva de f de x.
+
+08:20.090 --> 08:23.050
+Esta es la curva de f de x es igual al cuadrado de x.
+
+08:23.050 --> 08:24.230
+Así como así.
+
+08:24.230 --> 08:26.490
+Así que si me dan un punto.
+
+08:26.490 --> 08:27.840
+Usted me da el punto 7.
+
+08:27.840 --> 08:30.610
+Aplicar, lo pones aquí, lo cuadrado.
+
+08:30.610 --> 08:34.460
+Y se asigna a la número 49.
+
+08:34.460 --> 08:36.170
+Así se obtiene el número 49 ahí mismo.
+
+08:36.170 --> 08:38.620
+Este es el número 7, de 49 años.
+
+08:38.620 --> 08:40.940
+Usted está acostumbrado a tratar con las funciones allí.
+
+08:40.940 --> 08:43.630
+Pero lo que es f flor de 7?
+
+08:43.630 --> 08:45.000
+f prima de 7 años.
+
+08:45.000 --> 08:47.740
+Usted dice, dos veces siete es igual a 14.
+
+08:47.740 --> 08:49.990
+¿Qué es este el número 14 aquí?
+
+08:49.990 --> 08:51.380
+¿Qué es esto?
+
+08:51.380 --> 08:53.440
+Bueno, esta es la pendiente de la recta tangente
+
+08:53.440 --> 08:55.030
+en x es igual a 7.
+
+08:55.030 --> 08:59.330
+Así que si yo hiciera ese punto y trazar una línea tangente - un
+
+08:59.330 --> 09:02.930
+punto de que apenas roza nuestra curva - si yo tuviera que sólo
+
+09:02.930 --> 09:03.890
+dibujar una recta tangente.
+
+09:03.890 --> 09:06.410
+Eso no fue suficiente para mí tangente.
+
+09:06.410 --> 09:08.790
+Así que esa es mi línea tangente allí.
+
+09:08.790 --> 09:10.200
+Usted consigue la idea.
+
+09:10.200 --> 09:13.660
+La pendiente de este tipo - de hacer su cambio en y por encima de su
+
+09:13.660 --> 09:16.260
+cambio en x - va a ser igual a 14.
+
+09:16.260 --> 09:18.880
+La pendiente de la curva en y es igual a 7 - es
+
+09:18.880 --> 09:20.270
+una curva pronunciada bastante.
+
+09:20.270 --> 09:21.990
+Si quieres encontrar la pendiente, vamos a decir que esta
+
+09:21.990 --> 09:25.910
+es y - digamos que es x es igual a 2.
+
+09:25.910 --> 09:30.290
+Me dijo que en x es igual a 7, la pendiente es de 14.
+
+09:30.290 --> 09:32.900
+En x es igual a 2, lo que es la pendiente?
+
+09:32.900 --> 09:37.230
+Bueno, a averiguar f prima de 2, que es igual a 2 veces
+
+09:37.230 --> 09:38.880
+2, que es igual a 4.
+
+09:38.880 --> 09:43.990
+Así que aquí la pendiente es 4.
+
+09:43.990 --> 09:46.520
+Se podría decir que m es igual a 4. m para la pendiente.
+
+09:46.520 --> 09:50.560
+¿Cuál es f prima de 0?
+
+09:50.560 --> 09:51.170
+f prima.
+
+09:51.170 --> 09:53.120
+Sabemos que f de 0 es 0, ¿no?
+
+09:53.120 --> 09:55.120
+Cuadrado de 0 es 0.
+
+09:55.120 --> 09:57.710
+Pero lo que es f prima de 0?
+
+09:57.710 --> 09:59.180
+Bueno, dos veces 0 es 0.
+
+09:59.180 --> 10:00.480
+Eso también es igual a 0.
+
+10:00.480 --> 10:01.350
+Pero ¿qué significa eso?
+
+10:01.350 --> 10:03.100
+¿Cuál es la interpretación?
+
+10:03.100 --> 10:05.850
+Esto significa que la pendiente de la recta tangente es 0.
+
+10:05.850 --> 10:08.390
+Por lo tanto una línea de pendiente 0 se parece a esto.
+
+10:08.390 --> 10:09.920
+Se parece a una línea horizontal.
+
+10:09.920 --> 10:11.370
+Y que se ve sobre la derecha.
+
+10:11.370 --> 10:14.220
+Una línea horizontal sería tangente a la
+
+10:14.220 --> 10:15.910
+curva y es igual a 0.
+
+10:15.910 --> 10:17.620
+Vamos a probar con la otra.
+
+10:17.620 --> 10:23.190
+Vamos a tratar el punto menos 1.
+
+10:23.190 --> 10:26.290
+Así que vamos a decir que estamos ahí. x es igual a menos uno.
+
+10:26.290 --> 10:29.220
+Por lo tanto f de menos 1, que acaba de plaza.
+
+10:29.220 --> 10:30.380
+Debido a que estamos tratando con x al cuadrado.
+
+10:30.380 --> 10:31.570
+Por lo que es igual a 1.
+
+10:31.570 --> 10:33.180
+Ese es el punto de que allí mismo.
+
+10:33.180 --> 10:36.680
+¿Cuál es f prima de menos 1?
+
+10:36.680 --> 10:40.050
+f prima de menos 1 es dos veces menos 1.
+
+10:40.050 --> 10:42.340
+2 veces menos es de menos 2.
+
+10:42.340 --> 10:43.650
+¿Qué significa eso?
+
+10:43.650 --> 10:47.680
+Esto significa que la pendiente de la recta tangente en x es igual a
+
+10:47.680 --> 10:51.050
+1, de esta curva, a la función, es de menos 2.
+
+10:51.050 --> 10:54.600
+Así que si tuviera que dibujar la recta tangente aquí - la tangente
+
+10:54.600 --> 10:57.140
+línea que se parece a - y mira, se trata de una baja
+
+10:57.140 --> 10:57.700
+línea inclinada.
+
+10:57.700 --> 10:58.450
+Y tiene sentido.
+
+10:58.450 --> 11:04.700
+La pendiente aquí es igual a menos 2.

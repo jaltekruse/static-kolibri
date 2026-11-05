@@ -1,0 +1,470 @@
+WEBVTT
+
+00:00.000 --> 00:06.490
+V tomto videu bych vás chtěl seznámit
+s běžnou třídou posloupností.
+
+00:06.490 --> 00:11.510
+A těmi jsou aritmetické posloupnosti.
+
+00:11.510 --> 00:13.780
+Obvykle je velmi jednoduché
+si jich všimnout.
+
+00:13.780 --> 00:14.790
+Jsou to posloupnosti,
+
+00:14.790 --> 00:18.650
+kde každý člen je o pevně určené
+číslo větší než člen předchozí.
+
+00:18.650 --> 00:20.420
+Mým cílem tady je zjistit,
+
+00:20.420 --> 00:23.259
+které z těchto posloupností
+jsou aritmetické posloupnosti.
+
+00:23.259 --> 00:26.390
+A potom, abychom si procvičili
+některé zápisy posloupností,
+
+00:26.390 --> 00:31.300
+je chci vyjádřit jednak explicitním
+vzorcem pro člen, který hledáme,
+
+00:31.300 --> 00:34.840
+s indexem, na který se díváme,
+jednak rekurentním zadáním.
+
+00:34.840 --> 00:36.350
+Takže zaprvé, vzhledem k tomu,
+
+00:36.350 --> 00:40.100
+že v aritmetické posloupnosti je
+každý člen o pevně dané číslo
+
+00:40.100 --> 00:44.870
+větší než ten předchozí, které
+z těchto posloupností jsou aritmetické?
+
+00:45.650 --> 00:47.890
+Takže se podívejme na tu
+první hned tady nahoře.
+
+00:47.890 --> 00:52.140
+Abychom se z -5 dostali
+na -3, musíme přidat 2.
+
+00:52.140 --> 00:56.620
+Potom, abychom se z -3 dostali
+na -1, musíme přidat 2.
+
+00:56.620 --> 01:00.090
+Pak, abychom z -1 dostali
+na 1, musíme přidat 2.
+
+01:00.090 --> 01:02.690
+Takže toto je zcela zřejmě
+aritmetická posloupnost.
+
+01:02.690 --> 01:04.439
+Pokaždé přidáváme stejné množství.
+
+01:04.439 --> 01:07.150
+A je tu několik způsobů, jak
+můžeme vyjádřit posloupnost.
+
+01:07.150 --> 01:09.672
+Můžeme říci, že to je ,a' s indexem ,n'.
+
+01:09.672 --> 01:11.550
+A nemusíte pokaždé používat ,k'.
+
+01:11.550 --> 01:14.360
+Tentokrát jako index použiji ,n'.
+
+01:14.360 --> 01:17.910
+Pro ,n' od jedné do nekonečna s…
+
+01:17.910 --> 01:19.630
+A můžeme to vyjádřit dvěma způsoby.
+
+01:19.630 --> 01:21.070
+Můžeme to vyjádřit explicitně,
+
+01:21.070 --> 01:22.750
+nebo to můžeme vyjádřit rekurzivně.
+
+01:22.750 --> 01:24.890
+Takže kdybychom to
+chtěli vyjádřit explicitně,
+
+01:24.890 --> 01:28.870
+mohli bychom napsat ,a' s indexem ,n'
+se rovná čemukoliv, co je první člen.
+
+01:28.870 --> 01:32.890
+V tomto případě, naším
+prvním členem je -5.
+
+01:32.890 --> 01:35.860
+Je to rovno -5 plus…
+
+01:35.860 --> 01:39.970
+(n minus 1)krát tam přidáme 2.
+
+01:39.970 --> 01:42.300
+Takže pro získání druhého
+členu přičteme 2 jednou.
+
+01:42.300 --> 01:44.620
+Pro získání třetího členu
+přičteme 2 dvakrát.
+
+01:44.620 --> 01:48.910
+Pro získání čtvrtého členu jsme
+k prvnímu členu přičetli 2 třikrát.
+
+01:48.910 --> 01:51.070
+Takže budeme přičítat 2.
+
+01:51.070 --> 01:54.730
+Budeme přičítat +2 o jedno
+méně krát než kolik je index,
+
+01:54.730 --> 01:58.150
+který vidíme, tedy (n minus 1)krát.
+
+01:58.150 --> 02:02.940
+Takže toto je explicitní vyjádření
+této aritmetické posloupnosti.
+
+02:02.940 --> 02:04.950
+Kdybych to chtěl zapsat rekurzivně,
+
+02:04.950 --> 02:10.620
+mohl bych napsat
+,a' s indexem ,1' se rovná -5.
+
+02:10.620 --> 02:14.300
+A potom každý následující člen,
+od ,a' s indexem 2 a výše…
+
+02:14.300 --> 02:20.630
+Takže bych mohl napsat, že ,a' s indexem
+,n' se rovná ,a' s indexem ,(n minus 1)' plus 3.
+
+02:20.630 --> 02:25.540
+Každý člen se rovná hodnotě
+předchozího členu plus 2.
+
+02:25.540 --> 02:30.840
+Takže toto je pro ,n' větší nebo rovno 2.
+
+02:31.050 --> 02:35.350
+Takže každý z těchto způsobů
+vyjádření je naprosto legitimní
+
+02:35.350 --> 02:40.160
+pro zápis aritmetické posloupnosti,
+jakou tady máme.
+
+02:40.160 --> 02:44.350
+Můžeme to vyjádřit explicitně,
+nebo rekurzivně.
+
+02:44.350 --> 02:46.260
+A teď se podívejme na tuto posloupnost.
+
+02:46.260 --> 02:48.950
+Je tato posloupnost aritmetická?
+
+02:48.950 --> 02:50.480
+Takže, vycházíme z čísla 100.
+
+02:50.480 --> 02:52.252
+Přičteme 7.
+
+02:52.252 --> 02:54.976
+Ke 107 pro získání 114 přičteme 7.
+
+02:54.976 --> 02:58.150
+Ke 114 pro získání 121 přičteme 7.
+
+02:58.150 --> 03:00.460
+Takže toto opravdu je
+aritmetická posloupnost.
+
+03:00.460 --> 03:01.800
+Takže jen aby to bylo jasné:
+
+03:01.800 --> 03:05.300
+tady máme jednu
+a tady máme další.
+
+03:05.300 --> 03:09.840
+A můžeme napsat, že toto je
+posloupnost ,a' s indexem ,n',
+
+03:09.840 --> 03:13.750
+kde ,n' jde od jedné do nekonečna…
+
+03:13.750 --> 03:17.610
+A pokud to chceme vyjádřit
+explicitně, můžeme říci,
+
+03:17.610 --> 03:22.900
+že ,a' s indexem ,n' se rovná 100,
+kde k tomu pokaždé přidáme 7.
+
+03:22.900 --> 03:26.140
+A každý člen potom… Pro získání
+druhého členu přidáme 7 jednou.
+
+03:26.140 --> 03:28.240
+Pro získání třetího členu
+přidáme 7 dvakrát.
+
+03:28.240 --> 03:31.930
+Takže pro získání n-tého členu
+budeme 7 muset přidat (n minus 1)krát.
+
+03:31.930 --> 03:34.410
+Takže toto je explicitní
+vyjádření této posloupnosti,
+
+03:34.410 --> 03:36.270
+ale můžeme ji také vyjádřit rekurzivně.
+
+03:36.270 --> 03:38.650
+Můžeme také říci…
+
+03:38.650 --> 03:41.410
+Takže jen aby to bylo jasné:
+tohle je jedno vyjádření,
+
+03:41.410 --> 03:47.610
+kde to píšeme takto, nebo můžeme
+napsat ,a' s indexem ,n',
+
+03:47.610 --> 03:50.240
+pro ,n' jdoucí od 1 do nekonečna.
+
+03:50.240 --> 03:53.616
+A v každém případě bych
+to tady měl dopsat.
+
+03:53.616 --> 03:55.380
+A pokud to chci vyjádřit rekurzivně,
+
+03:55.380 --> 03:58.800
+můžu napsat ,a'
+s indexem ,1' se rovná 100.
+
+03:58.800 --> 04:04.010
+A pak, pro všechno větší než 1,
+pro každý index větší než 1,
+
+04:04.010 --> 04:09.230
+,a' s indexem ,n' se rovná
+předchozímu členu plus 7.
+
+04:09.230 --> 04:10.732
+A tak je to hotové.
+
+04:10.732 --> 04:12.180
+Toto je jiný způsob vyjádření.
+
+04:12.180 --> 04:13.160
+Takže obecně,
+
+04:13.160 --> 04:17.919
+pokud byste chtěli obecným způsobem poznat
+nebo vyjádřit aritmetickou posloupnost,
+
+04:17.919 --> 04:23.170
+můžete říci, že aritmetická posloupnost
+bude zapsaná ve tvaru ,a' s indexem ,n',
+
+04:23.170 --> 04:26.610
+pokud mluvíme o nekonečné posloupnosti,
+pro ,n' od jedné do nekonečna.
+
+04:26.610 --> 04:28.340
+Pokud to chcete vyjádřit explicitně,
+
+04:28.340 --> 04:33.050
+můžete napsat, že ,a' s indexem ,n'
+se rovná nějaké konstantě,
+
+04:33.050 --> 04:35.610
+která se v podstatě rovná prvnímu členu.
+
+04:35.610 --> 04:42.290
+Bude to nějaká konstanta plus
+nějaké číslo, o které zvyšujete,
+
+04:42.290 --> 04:45.490
+nebo samozřejmě můžete i snižovat,
+může to být záporné číslo,
+
+04:45.490 --> 04:47.389
+vynásobené (n minus 1)krát.
+
+04:47.389 --> 04:50.930
+Takže toto je jeden způsob, jak
+vyjádřit aritmetickou posloupnost.
+
+04:50.930 --> 04:53.520
+V tomto případě, ,d' se rovnalo 2.
+
+04:53.520 --> 04:55.230
+A v tomto případě se ,d' rovná 7.
+
+04:55.230 --> 04:57.090
+To je číslo, o které pokaždé zvyšujete.
+
+04:57.090 --> 05:01.850
+A v tomto případě, ,k' je -5,
+a v tomto případě je ,k' rovno 100.
+
+05:01.850 --> 05:03.200
+A ten jiný způsob,
+
+05:03.200 --> 05:07.900
+pokud byste obecně chtěli zapsat
+aritmetickou posloupnost rekurzivně,
+
+05:07.900 --> 05:12.030
+můžete říci ,a' s
+indexem ,1' se rovná ,k',
+
+05:12.030 --> 05:15.890
+a pak ,a' s indexem ,n'
+se rovná ,a' s indexem ,(n minus 1)'.
+
+05:15.890 --> 05:22.080
+Daný člen se rovná předchozí
+člen plus ,d', pro ,n' větší nebo rovno 2.
+
+05:22.080 --> 05:24.110
+Takže, znovu, toto
+je explicitní vyjádření.
+
+05:24.110 --> 05:26.110
+A toto je rekurzivní vyjádření.
+
+05:26.110 --> 05:27.980
+A tady to jen dopíšeme.
+
+05:27.980 --> 05:29.510
+A nyní, moje poslední otázka je:
+
+05:29.510 --> 05:32.630
+Je tahle posloupnost
+aritmetická posloupnost?
+
+05:32.630 --> 05:34.240
+Pojďme to zjistit.
+
+05:34.240 --> 05:35.730
+Začínáme s číslem 1.
+
+05:35.730 --> 05:37.790
+Pak přičteme 2.
+
+05:37.790 --> 05:39.249
+Pak přičteme 3.
+
+05:39.249 --> 05:42.460
+Takže to nám ihned prozrazuje,
+že tato posloupnost není aritmetická.
+
+05:42.460 --> 05:43.470
+A teď přičítáme 4.
+
+05:43.470 --> 05:46.300
+Pokaždé přičítáme jiné číslo.
+
+05:46.300 --> 05:51.030
+Takže, ze všeho nejdříve,
+toto není aritmetické.
+
+05:51.030 --> 05:53.400
+To není aritmetická posloupnost.
+
+05:53.400 --> 05:57.449
+Ale jak bychom ji mohli vyjádřit, když už
+se snažíme vyjadřovat naše posloupnosti?
+
+05:57.449 --> 06:01.590
+Takže kdybychom to chtěli vyjádřit…
+
+06:01.590 --> 06:04.870
+Řekněme, že bychom to
+chtěli vyjádřit rekurzivně.
+
+06:04.870 --> 06:10.250
+Mohli bychom říci, že toto se rovná
+,a' s indexem ,n',
+
+06:10.250 --> 06:13.830
+kde ,n' jde od 1 do nekonečna,
+
+06:13.830 --> 06:19.890
+a doplnit, řekněme s naším prvním členem,
+,a' s indexem ,1' se rovná 1.
+
+06:19.890 --> 06:25.010
+A potom pro ,n' větší nebo rovno 2
+se ,a' s indexem ,n' bude rovnat čemu?
+
+06:25.010 --> 06:28.840
+Takže ,a' s indexem ,2' je
+předchozí člen plus 2.
+
+06:28.840 --> 06:31.170
+,a' s indexem ,3' je
+předchozí člen plus 3.
+
+06:31.170 --> 06:33.820
+,a' s indexem ,4' je
+předchozí člen plus 4.
+
+06:33.820 --> 06:39.970
+Takže to bude předchozí
+člen plus hodnota indexu…
+
+06:39.970 --> 06:42.500
+…plus cokoli, co je indexem.
+
+06:42.500 --> 06:43.770
+Takže toto vypadá povědomě,
+
+06:43.770 --> 06:47.580
+ale všimněte si, že tady měníme hodnotu,
+kterou přidáváme, na základě indexu.
+
+06:47.580 --> 06:49.730
+K předchozímu členu
+přičítáme hodnotu indexu.
+
+06:49.730 --> 06:53.110
+Takže toto je pro ,n' větší nebo rovno 2.
+
+06:53.110 --> 06:58.030
+V aritmetické posloupnosti tedy přičítáme
+stále tu samou hodnotu bez ohledu na to,
+
+06:58.030 --> 06:59.500
+jakou hodnotu má náš index.
+
+06:59.500 --> 07:01.380
+Tady ale přičítáme přímo samotný index.
+
+07:01.380 --> 07:03.290
+Takže toto není aritmetická posloupnost,
+
+07:03.290 --> 07:05.770
+přesto to však je zajímavá posloupnost.

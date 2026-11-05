@@ -1,0 +1,350 @@
+WEBVTT
+
+00:00.185 --> 00:06.250
+Toto osobní auto se blíží
+ke křižovatce rychlostí 60 mil za hodinu.
+
+00:06.250 --> 00:14.430
+A právě v tomto okamžiku
+je 0,8 mil od křižovatky.
+
+00:14.430 --> 00:18.430
+A zde máme nákladní auto,
+které se blíží ke stejné křižovatce,
+
+00:18.430 --> 00:21.990
+ale ulicí, která je kolmá k té,
+kterou přijíždí osobní auto.
+
+00:21.990 --> 00:30.090
+A právě je 0,6 mil od křižovatky.
+
+00:30.090 --> 00:34.020
+Ke křižovatce se blíží
+rychlostí 30 mil za hodinu.
+
+00:34.020 --> 00:42.740
+Moje otázka zní: Jakou rychlostí se mění
+vzdálenost mezi osobním a nákladním autem?
+
+00:42.740 --> 00:45.850
+Nejprve se zamyslíme,
+na co se vlastně ptám.
+
+00:45.850 --> 00:49.230
+Ptám se na vzdálenost mezi
+osobním a nákladním autem.
+
+00:49.230 --> 00:53.060
+Na začátku je osobní auto
+0,8 mil od křižovatky
+
+00:53.060 --> 00:55.520
+a nákladní auto
+0,6 mil od křižovatky.
+
+00:55.520 --> 00:58.590
+Nákladní auto teď jede
+rychlostí 30 mil za hodinu ke křižovatce,
+
+00:58.590 --> 01:02.220
+osobní auto teď jede
+ke křižovatce rychlostí 60 mil za hodinu.
+
+01:02.220 --> 01:06.620
+Jaká je rychlost změny
+vzdálenosti v tuto chvíli?
+
+01:06.620 --> 01:11.620
+Vzhledem k tomu, že zde máme
+nějaké proměnné, nazvěme vzdálenost ‚s‛.
+
+01:11.620 --> 01:20.380
+V tuto chvíli se pokoušíme zjistit,
+čemu je rovno ds/dt.
+
+01:20.380 --> 01:24.010
+Popřemýšlejme nad tím,
+co známe a můžeme použít,
+
+01:24.010 --> 01:26.890
+abychom vyřešili, co je ds/dt.
+
+01:26.890 --> 01:32.100
+Známe vzdálenost mezi
+osobním autem a křižovatkou.
+
+01:32.100 --> 01:36.290
+Nazvěme to třeba vzdálenost y.
+
+01:36.290 --> 01:38.610
+Takže y je rovno 0,8 mil.
+
+01:38.610 --> 01:47.460
+Také víme, že ‚y‛ je
+právě teď rovno 0,8.
+
+01:47.460 --> 01:54.600
+Víme také, kolik je dy/dt, což odpovídá
+rychlosti změny ‚y‛ podle času.
+
+01:54.600 --> 01:58.760
+‚y‛ klesá rychlostí 60 mil za hodinu.
+
+01:58.760 --> 02:06.240
+Napíši to jako −60 mil za hodinu.
+
+02:06.240 --> 02:10.405
+A teď stejně řekněme,
+že vzdálenost zde je ‚x‛.
+
+02:10.405 --> 02:14.570
+V tuto chvíli je x rovno 0,6 mil.
+
+02:14.570 --> 02:19.410
+Takže víme, že ‚x‛ je rovno 0,6 mil.
+
+02:19.410 --> 02:24.070
+Jaká je rychlost, jakou se
+‚x‛ mění vzhledem k času?
+
+02:24.070 --> 02:27.962
+Víme, že je to 30 mil za hodinu, což je
+rychlost, jakou se blížíme ke křižovatce,
+
+02:27.962 --> 02:31.770
+ale ‚x‛ se zmenšuje
+rychlostí 30 mil za hodinu.
+
+02:31.770 --> 02:38.590
+Mohli bychom říct,
+že je to −30 mil za hodinu.
+
+02:38.590 --> 02:40.550
+Známe ‚y‛,
+známe i ‚x‛.
+
+02:40.550 --> 02:44.780
+Víme, jak rychle se mění
+‚y‛ a ‚x‛ s časem.
+
+02:44.780 --> 02:50.650
+Teď musíme přijít
+na vztah mezi ‚x‛, ‚y‛ a ‚s‛.
+
+02:50.650 --> 02:54.300
+A pak derivovat tento
+vztah podle času.
+
+02:54.300 --> 02:58.570
+Vypadá to, že máme
+vše k vyřešení daného příkladu.
+
+02:58.570 --> 03:03.460
+Jaký je vztah mezi ‚x‛, ‚y‛ a ‚s‛?
+
+03:03.460 --> 03:07.240
+Víme, že je to pravoúhlý trojúhelník,
+ulice jsou na sebe kolmé.
+
+03:07.240 --> 03:09.270
+Tudíž můžeme
+použít Pythagorovu větu.
+
+03:09.270 --> 03:17.500
+Víme, že (x na druhou) plus (y na druhou)
+bude rovno (s na druhou).
+
+03:17.500 --> 03:20.470
+A pak můžeme derivovat
+obě strany podle času,
+
+03:20.470 --> 03:24.086
+abychom dostali vztah mezi
+všemi veličinami, které nás zajímají.
+
+03:24.086 --> 03:27.275
+Čemu je rovna derivace
+(x na druhou) podle času?
+
+03:27.275 --> 03:32.770
+Budete potřebovat derivaci (x na druhou)
+podle x, což je 2x,
+
+03:32.770 --> 03:36.692
+krát derivace x
+podle času, tedy krát dx/dt.
+
+03:36.692 --> 03:38.720
+Dle pravidla pro
+derivování složené funkce.
+
+03:38.720 --> 03:45.110
+Derivace něčeho na druhou podle
+něčeho krát derivace něčeho podle času.
+
+03:45.110 --> 03:51.484
+Použijeme stejnou logiku zde, když chceme
+derivovat (y na druhou) podle času.
+
+03:51.484 --> 03:57.040
+Derivace (y na druhou) podle ‚y‛
+krát derivace y podle času.
+
+03:57.040 --> 04:01.554
+Na pravé straně rovnice
+derivujeme podle času.
+
+04:01.554 --> 04:05.200
+Je to derivace (s na druhou)
+podle ‚s‛, což je 2s,
+
+04:05.200 --> 04:07.580
+krát derivace ‚s‛ podle času.
+
+04:07.580 --> 04:12.146
+Znovu, je to jen aplikace
+pravidla pro derivaci složené funkce.
+
+04:12.146 --> 04:18.340
+Vypadá to, že známe ‚x‛, známe dx/dt,
+víme, čemu je rovno ‚y‛, známe dy/dt.
+
+04:18.340 --> 04:21.480
+Vše co potřebujeme zjistit,
+je ‚s‛, a pak ds/dt,
+
+04:21.480 --> 04:24.540
+což je rychlost, s jakou se
+vzdálenost mění s časem.
+
+04:24.540 --> 04:27.010
+A kolik je teď ,s´?
+
+04:27.010 --> 04:30.820
+V tuto chvíli použijeme
+Pythagorovu větu.
+
+04:30.820 --> 04:35.280
+Víme, že x na druhou…
+‚x‛ je 0,6.
+
+04:35.280 --> 04:39.540
+Víme, že 0,6 na druhou
+plus (y na druhou),
+
+04:39.540 --> 04:42.540
+což je 0,8, je rovno (s na druhou).
+
+04:42.540 --> 04:48.270
+0,36 plus 0,64
+je rovno s na druhou.
+
+04:48.270 --> 04:50.980
+Součet dá 1, což je
+rovno s na druhou.
+
+04:50.980 --> 04:54.940
+Zajímá nás pouze kladná vzdálenost,
+tudíž ‚s‛ je rovno 1.
+
+04:54.940 --> 04:56.719
+Takže už známe ‚s‛.
+
+04:56.719 --> 05:01.160
+Pojďme dosadit čísla
+a zkusme vyřešit, s čím jsme přišli.
+
+05:01.160 --> 05:03.210
+Vyřešme ds/dt.
+
+05:03.210 --> 05:06.460
+Rychlost je 2 krát x…
+
+05:06.460 --> 05:08.250
+Možná bych to
+měl udělat žlutě.
+
+05:08.250 --> 05:13.665
+2 krát x, kde x je 0,6,
+tudíž to bude 1,2 krát dx/dt.
+
+05:13.665 --> 05:15.600
+Toto je −30 mil za hodinu.
+
+05:15.600 --> 05:27.902
+Tudíž −30 mil za hodinu plus 2 krát y
+je 1,6 krát dy/dt je −60 mil za hodinu.
+
+05:27.902 --> 05:29.360
+Nepíši zde jednotky.
+
+05:29.360 --> 05:32.620
+Pokud byste je chtěli, tak vidíte,
+že naše vzdálenost je v mílích.
+
+05:32.620 --> 05:34.850
+A veškerý náš
+čas je v hodinách,
+
+05:34.850 --> 05:38.630
+takže dostaneme odpověď,
+že ds/dt je v mílích za hodinu.
+
+05:38.630 --> 05:43.230
+Ale zkuste si ty jednotky odvodit sami,
+abyste věděli, jak na ně.
+
+05:43.230 --> 05:46.530
+A toto bude rovno 2 krát s.
+
+05:46.530 --> 05:53.460
+Takže ‚s‛ je 1 míle, tudíž to bude 2 krát
+ds/dt, což je to, co se snažíme vyřešit.
+
+05:53.460 --> 05:55.915
+Co tedy dostaneme
+na levé straně rovnice?
+
+05:55.915 --> 06:01.730
+1,2 krát −30, což je −36.
+
+06:01.730 --> 06:04.440
+1/5 ze 30 je 6, což sedí.
+
+06:04.440 --> 06:12.420
+A pak 1,6 krát −60,
+což bude −96, je rovno 2 krát ds/dt,
+
+06:12.420 --> 06:17.220
+je rovno 2 krát rychlost, ve které se mění
+naše vzdálenost vzhledem k času.
+
+06:17.220 --> 06:21.840
+Zde na levé straně je −132.
+
+06:21.840 --> 06:26.300
+−132 je rovno 2 krát ds/dt.
+
+06:26.300 --> 06:30.760
+Vydělme obě strany 2
+a dostaneme −66.
+
+06:30.760 --> 06:35.640
+Nyní můžeme napsat naše jednotky,
+pokud chceme, míle za hodinu,
+
+06:35.640 --> 06:39.310
+je rychlost, se kterou se mění
+naše vzdálenost vzhledem k času.
+
+06:39.310 --> 06:42.930
+Takže ds/dt je −66 mil za hodinu.
+
+06:42.930 --> 06:45.825
+Dává smysl, že jsme zde
+dostali záporné znaménko?
+
+06:45.825 --> 06:52.572
+Jistě, tato vzdálenost je klesající
+v okamžiku, když se blíží ke křižovatce.

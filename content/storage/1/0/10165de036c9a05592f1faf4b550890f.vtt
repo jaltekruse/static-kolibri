@@ -1,0 +1,567 @@
+WEBVTT
+
+00:00.000 --> 00:01.701
+Zkusme spočítat limitu:
+
+00:01.701 --> 00:08.571
+x jdoucí k −1 z (x plus 1) lomeno
+(odmocnina z (x plus 5) minus 2).
+
+00:08.571 --> 00:12.716
+Jako první si můžeme říci,
+že použijeme vlastnosti limit.
+
+00:12.716 --> 00:21.626
+Toto se bude rovnat limitě
+x jdoucí k −1 z (x plus 1)
+
+00:21.626 --> 00:35.032
+a to celé lomeno limita pro x jdoucí
+k −1 z odmocniny z (x plus 5) minus 2.
+
+00:35.032 --> 00:36.074
+Potom si můžeme říci:
+
+00:36.074 --> 00:39.039
+„Dobře, tento výraz
+nahoře, x plus 1,
+
+00:39.039 --> 00:42.656
+kdybychom měli graf
+funkce y rovná se x plus 1,
+
+00:42.656 --> 00:44.267
+tak by byl
+všude spojitý,
+
+00:44.267 --> 00:46.285
+a tedy i v bodě
+x rovno −1,
+
+00:46.285 --> 00:51.016
+takže tuto limitu spočítáme tak, že
+vyčíslíme tento výraz v bodě x rovno −1.“
+
+00:51.016 --> 00:56.302
+Čitatel tak
+bude −1 plus 1.
+
+00:56.302 --> 00:58.316
+A nyní jmenovatel.
+
+00:58.316 --> 01:01.768
+Výraz odmocnina z (x plus 5)
+minus 2 není všude spojitý,
+
+01:01.768 --> 01:04.537
+ale je spojitý
+v bodě x rovno −1.
+
+01:04.537 --> 01:06.115
+Můžeme tedy
+udělat to samé.
+
+01:06.115 --> 01:08.589
+Za x můžeme
+dosadit −1.
+
+01:08.589 --> 01:14.475
+Dostaneme odmocninu z
+(−1 plus 5) minus 2.
+
+01:14.475 --> 01:16.797
+Čemu se limita
+nyní rovná?
+
+01:16.797 --> 01:19.862
+V čitateli jsme dostali 0
+a ve jmenovateli…
+
+01:19.862 --> 01:25.363
+−1 plus 5 je 4, odmocnina z toho je
+2 a ještě minus 2, takže opět dostaneme 0.
+
+01:25.363 --> 01:30.492
+Vyšlo nám
+0 lomeno 0.
+
+01:30.492 --> 01:33.177
+Když se vám tohle stane,
+možná už to budete chtít vzdát.
+
+01:33.177 --> 01:37.466
+Řeknete si: „Ve jmenovateli je 0,
+tato limita tak možná neexistuje,
+
+01:37.466 --> 01:39.487
+možná mám
+hotovo, nebo ještě ne?“
+
+01:39.487 --> 01:45.789
+Kdyby v čitateli bylo nenulové číslo,
+kdybychom nenulové číslo dělili 0,
+
+01:45.789 --> 01:48.853
+tak to by nebylo definované
+a limita by neexistovala.
+
+01:48.853 --> 01:50.996
+Když ale dostaneme
+0 lomeno 0,
+
+01:50.996 --> 01:52.342
+to je tzv. neurčitý výraz,
+
+01:52.342 --> 01:55.907
+tak to nutně neznamená,
+že daná limita neexistuje.
+
+01:55.907 --> 01:59.176
+Jak uvidíme v tomto
+a mnoha dalších videích,
+
+01:59.176 --> 02:01.747
+máme jisté metody,
+kterými tohle řešíme.
+
+02:01.747 --> 02:03.772
+Nyní se podíváme
+na jednu z nich.
+
+02:03.775 --> 02:05.363
+Tato metoda
+spočívá v tom,
+
+02:05.363 --> 02:08.876
+že náš výraz si můžeme
+jistým způsobem přepsat tak,
+
+02:08.876 --> 02:13.940
+aby nám po dosazení
+nevyšlo 0 děleno 0.
+
+02:13.940 --> 02:17.294
+Tak si to přepišme.
+
+02:17.294 --> 02:23.354
+Vezměme tento
+výraz a označme ho g(x).
+
+02:23.354 --> 02:28.067
+Chceme tedy nalézt limitu
+g(x) pro x blížící se k −1.
+
+02:28.067 --> 02:32.564
+Můžeme tedy napsat,
+že g(x) se rovná x plus 1…
+
+02:32.564 --> 02:34.390
+Toto g(x) definuji
+jen z toho důvodu,
+
+02:34.390 --> 02:38.618
+abychom na výraz nahlíželi jako na
+funkci a pracovali s ním jako s funkcí
+
+02:38.618 --> 02:40.918
+a mohli přemýšlet
+nad podobnými funkcemi.
+
+02:40.918 --> 02:44.321
+…lomeno (x plus 5)
+minus 2.
+
+02:44.321 --> 02:47.594
+Vlastně odmocnina
+z (x plus 5) minus 2.
+
+02:47.594 --> 02:49.282
+Metoda, kterou
+nyní použijeme…
+
+02:49.282 --> 02:53.362
+Když máme tento neurčitý výraz a v
+čitateli nebo jmenovateli je odmocnina,
+
+02:53.362 --> 02:55.896
+může být užitečné
+zbavit se oné odmocniny.
+
+02:55.896 --> 02:58.587
+Tomu se často říká
+usměrnění výrazu.
+
+02:58.587 --> 03:00.952
+V tomto případě je
+odmocnina ve jmenovateli,
+
+03:00.952 --> 03:04.533
+takže jde o usměrnění
+jmenovatele.
+
+03:04.533 --> 03:07.845
+A uděláme to tak,
+
+03:07.845 --> 03:10.298
+že využijeme naše znalosti
+o rozdílu druhých mocnin.
+
+03:10.298 --> 03:15.773
+Víme, že (a plus b)
+krát (a minus b)
+
+03:15.773 --> 03:17.977
+se rovná 'a' na druhou
+minus 'b' na druhou.
+
+03:17.977 --> 03:21.297
+To jste se dozvěděli
+v kurzu algebry.
+
+03:21.297 --> 03:25.061
+Nebo kdybychom měli
+odmocninu z 'a' plus 'b'
+
+03:25.061 --> 03:28.511
+a vynásobili ji
+odmocninou z 'a' minus 'b',
+
+03:28.511 --> 03:30.325
+měli bychom odmocninu
+z 'a' na druhou,
+
+03:30.325 --> 03:33.734
+což je jednoduše 'a'
+minus 'b' na druhou.
+
+03:33.740 --> 03:36.599
+Tyto rovnosti
+můžeme nyní využít
+
+03:36.599 --> 03:38.764
+a zbavit se této
+odmocniny,
+
+03:38.764 --> 03:46.247
+a to tak, že čitatele i jmenovatele
+vynásobíme odmocninou z (x plus 5) plus 2.
+
+03:46.247 --> 03:50.158
+Už máme minus 2, takže musíme
+vynásobit výrazem s plus 2.
+
+03:50.158 --> 03:51.760
+Tak to udělejme.
+
+03:51.760 --> 03:57.612
+Máme zde odmocninu
+z (x plus 5) plus 2
+
+03:57.612 --> 03:59.734
+a čitatel vynásobíme
+tím samým,
+
+03:59.734 --> 04:02.308
+protože nechceme
+změnit hodnotu výrazu.
+
+04:02.308 --> 04:04.374
+Takhle budeme
+násobit jedničkou.
+
+04:04.374 --> 04:07.758
+Nějaký výraz děleno
+ten samý výraz se rovná 1.
+
+04:07.758 --> 04:11.260
+Tady tedy bude
+odmocnina z (x plus 5) plus 2.
+
+04:11.260 --> 04:24.950
+Tohle se rovná x plus 1
+krát odmocnina z (x plus 5) plus 2
+
+04:24.950 --> 04:31.630
+a ve jmenovateli bude
+odmocnina z (x plus 5) na druhou,
+
+04:31.630 --> 04:38.749
+což je x plus 5, minus (2 na
+druhou), tedy minus 4.
+
+04:38.749 --> 04:44.740
+Ve jmenovateli se (x plus 5 minus 4)
+zjednoduší na x plus 1.
+
+04:44.740 --> 04:50.253
+Tohle je tedy
+jenom x plus 1.
+
+04:50.253 --> 04:51.811
+Už jste si asi všimli,
+
+04:51.811 --> 04:54.970
+že v čitateli i
+jmenovateli je x plus 1,
+
+04:54.970 --> 04:58.304
+takže bychom
+mohli krátit.
+
+04:58.304 --> 05:04.674
+g(x) je tedy rovno
+odmocnině z (x plus 5) plus 2.
+
+05:04.674 --> 05:09.837
+Některým z vás se tohle možná nepozdává
+a máte pravdu, intuice vás nezklamala.
+
+05:09.837 --> 05:13.714
+Je tento výraz určitě
+to samé jako to,
+
+05:13.714 --> 05:17.629
+co jsme měli předtím,
+než jsme pokrátili (x plus 1)?
+
+05:17.629 --> 05:21.574
+A odpovědí je, že tak jak jsem
+to napsal, tak to není úplně totéž.
+
+05:21.574 --> 05:26.474
+Výrazy se rovnají všude
+kromě bodu x rovno −1.
+
+05:26.481 --> 05:30.040
+Tento výraz je v bodě
+x rovno −1 definovaný.
+
+05:30.040 --> 05:33.503
+Tento výraz v bodě x rovno
+−1 definovaný není.
+
+05:33.504 --> 05:35.436
+Takže ani g(x) není…
+
+05:35.436 --> 05:41.129
+Když do g(x) dosadíme x rovno −1,
+také nedostaneme žádný výsledek.
+
+05:41.129 --> 05:44.576
+Aby byl tento výraz
+skutečně totéž co g(x),
+
+05:44.576 --> 05:47.115
+aby šlo o tutéž funkci,
+musíme dodat,
+
+05:47.115 --> 05:51.445
+že to platí pro
+x různá od −1.
+
+05:51.445 --> 05:54.502
+Teď už je tohle jen
+zjednodušení předpisu pro g(x).
+
+05:54.502 --> 05:55.855
+Je to totéž.
+
+05:55.855 --> 05:59.714
+Pro libovolné x, pro které
+je funkce g definovaná,
+
+05:59.714 --> 06:01.722
+vám tohle dá
+tu samou hodnotu.
+
+06:01.722 --> 06:03.824
+Tohle má nyní
+stejný definiční obor,
+
+06:03.824 --> 06:08.347
+když jsme sem přidali
+toto omezení, jako funkce g.
+
+06:08.347 --> 06:10.882
+Teď se možná ptáte,
+jak nám to vůbec pomůže.
+
+06:10.882 --> 06:14.293
+Chceme spočítat limitu
+pro x blížící se k −1
+
+06:14.293 --> 06:18.814
+a i tady jsem musel připsat,
+že x nesmí být rovno −1.
+
+06:18.814 --> 06:21.610
+Jak to souvisí
+s naší limitou?
+
+06:21.610 --> 06:26.213
+Naštěstí víme,
+
+06:26.232 --> 06:29.580
+že když budeme
+mít jinou funkci f(x),
+
+06:29.580 --> 06:36.435
+když položíme, že f(x) se rovná
+odmocnina z (x plus 5) plus 2,
+
+06:36.448 --> 06:47.140
+potom víme, že f(x) je rovno g(x)
+ve všech bodech x kromě −1.
+
+06:47.140 --> 06:49.649
+Funkce f(x) totiž
+nemá toto omezení.
+
+06:49.649 --> 06:54.335
+A my víme, že když tohle
+platí pro nějaké dvě funkce,
+
+06:54.335 --> 06:57.377
+potom je limita
+pro x blížící se…
+
+06:57.377 --> 06:59.068
+Napíšeme si to.
+
+06:59.068 --> 07:02.759
+Z tohoto nám plyne,
+
+07:02.759 --> 07:15.152
+že limita f(x) pro x blížící se k −1 se
+rovná limitě g(x) pro x blížící se k −1.
+
+07:15.152 --> 07:17.203
+Tohle je to, co
+jsme chtěli spočítat,
+
+07:17.203 --> 07:19.025
+co je v zadání
+této úlohy.
+
+07:19.025 --> 07:21.045
+A nyní můžeme
+použít funkci f(x),
+
+07:21.045 --> 07:25.093
+protože se od g(x) liší jen
+v bodě x rovno −1.
+
+07:25.093 --> 07:27.061
+Kdybychom si udělali
+graf funkce g(x),
+
+07:27.061 --> 07:33.465
+v bodě x rovno −1 má
+odstranitelnou nespojitost…
+
+07:33.465 --> 07:38.857
+…odstranitelnou nespojitost
+v bodě x rovno −1.
+
+07:38.857 --> 07:41.268
+A čemu se rovná limita…
+
+07:41.268 --> 07:43.367
+Už se blížíme ke konci.
+
+07:43.367 --> 07:46.042
+Čemu se rovná
+limita f(x),
+
+07:46.042 --> 07:55.711
+nebo můžeme říci limita z odmocniny z
+(x plus 5) plus 2 pro x blížící se k −1?
+
+07:55.711 --> 08:01.526
+Tento výraz je spojitý neboli tato
+funkce je spojitá v bodě x rovno −1,
+
+08:01.526 --> 08:04.128
+takže stačí pouze
+vyčíslit pro x rovno −1.
+
+08:04.128 --> 08:09.837
+Toto je rovno odmocnině z
+(−1 plus 5) plus 2.
+
+08:09.837 --> 08:11.489
+Tohle je 4,
+
+08:11.489 --> 08:13.893
+odmocnina ze 4 je 2,
+
+08:13.893 --> 08:16.898
+2 plus 2 se rovná 4.
+
+08:16.898 --> 08:21.024
+Jelikož limita f(x) pro x blížící
+se k −1 je rovna 4,
+
+08:21.024 --> 08:26.120
+limita g(x) pro x blížící
+se k −1 je také rovna 4,
+
+08:26.120 --> 08:33.598
+Pokud vám tento krok, který
+jsem udělal, nedává smysl,
+
+08:33.598 --> 08:38.506
+zamyslete se
+nad tím graficky.
+
+08:38.519 --> 08:46.802
+Tohle bude moje osa y
+a tohle bude osa x.
+
+08:46.802 --> 08:52.912
+Funkce g(x) vypadá
+nějak takto.
+
+08:52.953 --> 08:54.336
+Hned ji nakreslím.
+
+08:54.336 --> 09:01.630
+Funkce g(x)
+vypadá nějak takto.
+
+09:01.630 --> 09:04.978
+V bodě x rovno −1
+bude mezera.
+
+09:04.978 --> 09:06.982
+Tady bude mezera.
+
+09:06.998 --> 09:10.701
+Funkce f(x) bude
+mít stejný graf,
+
+09:10.701 --> 09:13.737
+ale bez této mezery.
+
+09:13.737 --> 09:15.368
+Takže když chceme
+spočítat limitu,
+
+09:15.368 --> 09:17.180
+tak se zdá rozumné,
+
+09:17.180 --> 09:20.915
+že použijeme f(x) a zjistíme,
+jaká by byla její hodnota,
+
+09:20.915 --> 09:25.047
+abychom vyplnili onu mezeru
+v bodě x rovno −1.
+
+09:25.047 --> 09:27.511
+Snad vám tento grafický
+náhled trochu pomůže,
+
+09:27.511 --> 09:30.461
+a pokud vás mate,
+zapomeňte na něj.

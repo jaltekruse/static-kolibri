@@ -1,0 +1,558 @@
+WEBVTT
+
+00:00.700 --> 00:03.900
+So this car right over here
+is approaching an intersection
+
+00:03.900 --> 00:06.230
+at 60 miles per hour.
+
+00:06.230 --> 00:08.590
+And right now, right
+at this moment,
+
+00:08.590 --> 00:14.420
+it is 0.8 miles from
+the intersection.
+
+00:14.420 --> 00:16.450
+Now we have this
+truck over here,
+
+00:16.450 --> 00:18.280
+it's approaching the
+same intersection
+
+00:18.280 --> 00:20.370
+on a street that is
+perpendicular to the street
+
+00:20.370 --> 00:21.980
+that the car is on.
+
+00:21.980 --> 00:30.090
+And right now it is 0.6
+miles from the intersection.
+
+00:30.090 --> 00:31.720
+And it is approaching
+the intersection
+
+00:31.720 --> 00:34.000
+at 30 miles per hour.
+
+00:34.000 --> 00:36.820
+Now my question to you
+is, what is the rate
+
+00:36.820 --> 00:40.350
+at which the distance
+between the car and the truck
+
+00:40.350 --> 00:42.730
+is changing?
+
+00:42.730 --> 00:44.390
+Well to think about
+that, let's first
+
+00:44.390 --> 00:45.848
+just think about
+what we're asking.
+
+00:45.848 --> 00:47.500
+So we're asking
+about the distance
+
+00:47.500 --> 00:49.230
+between the car and the truck.
+
+00:49.230 --> 00:51.480
+So right at this
+moment, when the car
+
+00:51.480 --> 00:53.240
+is 0.8 miles from
+the intersection,
+
+00:53.240 --> 00:55.510
+the truck is 0.6 miles
+from the intersection.
+
+00:55.510 --> 00:57.700
+The truck is traveling at
+30 miles per hour towards
+
+00:57.700 --> 01:00.250
+intersection, the car is
+travelling at 60 miles per hour
+
+01:00.250 --> 01:02.220
+towards the intersection
+right at this moment.
+
+01:02.220 --> 01:04.940
+What is the rate at which
+this distance right over here
+
+01:04.940 --> 01:06.610
+is changing?
+
+01:06.610 --> 01:08.790
+And just so that we have
+some variables in place,
+
+01:08.790 --> 01:11.610
+let's call this distance s.
+
+01:11.610 --> 01:13.540
+So what we really are
+trying to figure out
+
+01:13.540 --> 01:20.360
+is right at this moment, what
+is ds dt going to be equal to?
+
+01:20.360 --> 01:21.960
+Let's think about
+what we know that we
+
+01:21.960 --> 01:24.000
+could use to somehow
+come to terms
+
+01:24.000 --> 01:26.890
+or figure out what ds dt is.
+
+01:26.890 --> 01:32.100
+Well we know the distance of
+the car and the intersection.
+
+01:32.100 --> 01:33.600
+And let's just
+call that distance,
+
+01:33.600 --> 01:36.280
+let's call that-- I don't know,
+let's call that distance y.
+
+01:36.280 --> 01:38.610
+So y is equal to 0.8 miles.
+
+01:38.610 --> 01:40.310
+We also know that--
+so let me write
+
+01:40.310 --> 01:43.760
+this-- we know that y
+is 0.8 miles right now.
+
+01:47.460 --> 01:51.060
+We also know the dy
+dt, the rate at which y
+
+01:51.060 --> 01:54.590
+is changing with
+respect to time is what?
+
+01:54.590 --> 01:58.520
+Well y is decreasing
+by 60 miles per hour.
+
+01:58.520 --> 02:06.240
+So let me write it as
+negative 60 miles per hour.
+
+02:06.240 --> 02:11.090
+Now similarly, let's say that
+this distance right over here
+
+02:11.090 --> 02:14.700
+is x. x is 0.6 miles
+right at this moment.
+
+02:14.700 --> 02:19.410
+So we know that x is
+equal to 0.6 miles.
+
+02:19.410 --> 02:24.070
+What is the rate at which x is
+changing with respect to time?
+
+02:24.070 --> 02:25.982
+Well, we know it's
+30 miles per hour
+
+02:25.982 --> 02:27.940
+is how fast we're
+approaching the intersection,
+
+02:27.940 --> 02:31.770
+but x is decreasing by
+30 miles every hour.
+
+02:31.770 --> 02:38.590
+So we should say it's
+negative 30 miles per hour.
+
+02:38.590 --> 02:39.780
+So we know what y is.
+
+02:39.780 --> 02:40.530
+We know what x is.
+
+02:40.530 --> 02:42.710
+We know how fast y is
+changing, how fast x
+
+02:42.710 --> 02:44.860
+is changing with
+respect to time.
+
+02:44.860 --> 02:46.710
+So what we could try
+to do here is come up
+
+02:46.710 --> 02:50.640
+with a relationship
+between x, y, and s.
+
+02:50.640 --> 02:52.580
+And then differentiate
+that relationship
+
+02:52.580 --> 02:54.290
+with respect to time.
+
+02:54.290 --> 02:56.460
+And it seems like we have
+pretty much everything
+
+02:56.460 --> 02:58.580
+we need to solve for this.
+
+02:58.580 --> 03:03.460
+So what's a relationship
+between x, y, and s?
+
+03:03.460 --> 03:05.380
+Well we know that this
+is a right triangle.
+
+03:05.380 --> 03:07.240
+The streets are
+perpendicular to each other.
+
+03:07.240 --> 03:09.270
+So we can use the
+Pythagorean theorem.
+
+03:09.270 --> 03:14.690
+We know that x squared
+plus y squared is
+
+03:14.690 --> 03:17.540
+going to be equal to s squared.
+
+03:17.540 --> 03:19.000
+And then we can
+take the derivative
+
+03:19.000 --> 03:20.440
+of both sides of
+this with respect
+
+03:20.440 --> 03:22.606
+to time to get a relationship
+between all the things
+
+03:22.606 --> 03:24.070
+that we care about.
+
+03:24.070 --> 03:27.275
+So what's the derivative of x
+squared with respect to time?
+
+03:27.275 --> 03:29.650
+Well, so you're going to need
+the derivative of x squared
+
+03:29.650 --> 03:32.770
+with respect to x,
+which is just 2x,
+
+03:32.770 --> 03:36.950
+times the derivative of x with
+respect to time, times dx dt.
+
+03:36.950 --> 03:38.620
+Once again, just the chain rule.
+
+03:38.620 --> 03:41.970
+Derivative of something squared
+with respect to the something,
+
+03:41.970 --> 03:45.110
+times the derivative of the
+something with respect to time.
+
+03:45.110 --> 03:48.304
+And we use similar
+logic right over here
+
+03:48.304 --> 03:49.970
+when we want to take
+the derivative of y
+
+03:49.970 --> 03:51.480
+squared with respect to time.
+
+03:51.480 --> 03:53.670
+Derivative of y squared
+with respect to y,
+
+03:53.670 --> 03:57.030
+times the derivative of
+y with respect to time.
+
+03:57.030 --> 03:59.264
+Now on the right-hand
+side of this equation,
+
+03:59.264 --> 04:01.180
+we once again take the
+derivative with respect
+
+04:01.180 --> 04:01.535
+to time.
+
+04:01.535 --> 04:03.900
+So it's the derivative of s
+squared with respect to s,
+
+04:03.900 --> 04:05.180
+which is just 2s.
+
+04:05.180 --> 04:07.580
+Times the derivative of
+s with respect to time.
+
+04:07.580 --> 04:12.146
+Once again, this is all just an
+application of the chain rule.
+
+04:12.146 --> 04:13.520
+So now it looks
+like we know what
+
+04:13.520 --> 04:15.840
+x is, we know what
+dx dt is, we know
+
+04:15.840 --> 04:18.339
+what y is, we know
+what dy dt is.
+
+04:18.339 --> 04:19.910
+All we need to
+figure out is what s
+
+04:19.910 --> 04:22.860
+and then what ds dt is, the
+rate at which this distance is
+
+04:22.860 --> 04:24.540
+changing with respect to time.
+
+04:24.540 --> 04:27.010
+Well what's s right now?
+
+04:27.010 --> 04:29.310
+Well we can actually use
+the Pythagorean theorem
+
+04:29.310 --> 04:30.810
+at this exact moment.
+
+04:30.810 --> 04:35.280
+We know that x
+squared-- so x is 0.6--
+
+04:35.280 --> 04:40.470
+we know that 0.6 squared
+plus y squared, 0.8 squared
+
+04:40.470 --> 04:42.500
+is equal to s squared.
+
+04:42.500 --> 04:48.270
+Well this is 0.36, plus
+0.64 is equal to s squared.
+
+04:48.270 --> 04:50.980
+This is 1, it is
+equal to s squared.
+
+04:50.980 --> 04:52.730
+And we only care about
+positive distances,
+
+04:52.730 --> 04:54.940
+so we have s is
+equal to 1 right now.
+
+04:54.940 --> 04:56.719
+So we also know what s is.
+
+04:56.719 --> 04:58.510
+So let's substitute
+all of these numbers in
+
+04:58.510 --> 05:01.140
+and then try to solve for
+what we came here to do.
+
+05:01.140 --> 05:03.210
+Solve for ds dt.
+
+05:03.210 --> 05:07.240
+So the rate at which, so
+2 times x-- maybe I'll
+
+05:07.240 --> 05:10.225
+do that in yellow--
+2 times x, x is 0.6
+
+05:10.225 --> 05:13.660
+so it's going to
+be 1.2 times dx dt,
+
+05:13.660 --> 05:15.600
+so that's negative
+30 miles per hour.
+
+05:15.600 --> 05:17.770
+So times negative
+30 miles per hour,
+
+05:17.770 --> 05:24.420
+plus 2 times y is
+1.6, times dy dt
+
+05:24.420 --> 05:27.902
+is negative 60 miles per hour.
+
+05:27.902 --> 05:29.360
+And I'm not writing
+the units here.
+
+05:29.360 --> 05:30.270
+But if you were to
+write the units,
+
+05:30.270 --> 05:32.510
+you will see that all of
+our distances are in miles.
+
+05:32.510 --> 05:34.850
+And all of our time
+is within hours,
+
+05:34.850 --> 05:36.350
+so we're going to
+get an answer when
+
+05:36.350 --> 05:38.604
+we solve for ds dt
+that's miles per hour.
+
+05:38.604 --> 05:41.020
+But I encourage you, if you
+want to, to actually write out
+
+05:41.020 --> 05:43.210
+the units and see
+how they work out.
+
+05:43.210 --> 05:46.530
+And so this is going to
+be equal to 2 times s.
+
+05:46.530 --> 05:50.190
+Well, s is 1 mile, so it's
+just going to be 2 times
+
+05:50.190 --> 05:53.460
+ds dt, which is what
+we're trying to solve for.
+
+05:53.460 --> 05:56.050
+So what do we get here
+on the left-hand side?
+
+05:56.050 --> 06:01.230
+So 1.2 times negative
+30, that's negative 36.
+
+06:01.230 --> 06:01.730
+Right?
+
+06:01.730 --> 06:04.440
+1/5 of 30 is 6,
+yep that's right.
+
+06:04.440 --> 06:06.710
+And then 1.6 times
+negative sixty,
+
+06:06.710 --> 06:12.420
+that's going to be negative
+96, is equal to 2 times ds dt,
+
+06:12.420 --> 06:14.930
+is equal to 2 times
+the rate at which
+
+06:14.930 --> 06:17.210
+our distance is changing
+with respect to time.
+
+06:17.210 --> 06:21.840
+On the left-hand side right
+over here, this is negative 132.
+
+06:21.840 --> 06:26.400
+Negative 132 is equal
+to 2 times ds dt.
+
+06:26.400 --> 06:30.760
+Divide both sides by
+2, we get negative 66.
+
+06:30.760 --> 06:35.640
+And now we could put our units
+if we want, miles per hour
+
+06:35.640 --> 06:37.650
+is the rate at
+which our distance
+
+06:37.650 --> 06:39.310
+is changing with
+respect to time.
+
+06:39.310 --> 06:42.930
+So ds dt is negative
+66 miles per hour.
+
+06:42.930 --> 06:45.785
+Does it make sense that we
+got a negative number here?
+
+06:45.785 --> 06:48.720
+Well sure, this distance
+is decreasing right
+
+06:48.720 --> 06:52.211
+at this moment, as they
+approach the intersection.

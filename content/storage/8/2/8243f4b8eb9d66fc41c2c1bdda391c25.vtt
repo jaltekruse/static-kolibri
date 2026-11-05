@@ -1,0 +1,344 @@
+WEBVTT
+
+00:00.610 --> 00:03.880
+Willkommen zu diesem Video
+über Logarithmus-Eigenschaften.
+
+00:03.880 --> 00:05.960
+Das wird ein sehr praktisches Video werden.
+
+00:05.960 --> 00:08.780
+Wenn du nicht glaubst, dass eine
+dieser Eigenschaften wahr ist,
+
+00:08.780 --> 00:12.920
+und Beweise sehen willst, gibt es 3 oder 4 Videos,
+in denen diese Eigenschaften bewiesen werden.
+
+00:12.920 --> 00:15.980
+Ich werde dir die Eigenschaften
+zeigen und wie man sie anwendet.
+
+00:15.980 --> 00:17.520
+Es wird ein bisschen praktischer.
+
+00:17.520 --> 00:35.200
+Zuerst wiederholen wir kurz, was ein Logarithmus ist.
+
+00:35.200 --> 00:44.820
+Wir haben a^b = c.
+
+00:44.820 --> 00:50.060
+Diese Gleichung können wir anstatt mit dem Exponenten auch als einen Logarithmus schreiben.
+
+00:50.060 --> 01:02.180
+Wir können sagen, dass log_a (c) = b ist.
+
+01:02.180 --> 01:05.000
+Es sind gleichwertige Ausdrücke.
+
+01:05.000 --> 01:06.920
+Sie haben nur unterschiedliche Ergebnisse.
+
+01:06.920 --> 01:09.700
+Im ersten erhältst du c als Ergebnis.
+
+01:09.700 --> 01:12.140
+Das ist es, was die Exponentialgleichung macht.
+
+01:12.140 --> 01:16.480
+Im zweiten hast du a, setzt irgendetwas
+in den Exponenten und erhältst c.
+
+01:16.480 --> 01:18.240
+Und dann findest du heraus, was b ist.
+
+01:18.240 --> 01:22.220
+Es sind also gleichwertige Ausdrücke,
+nur unterschiedlich dargestellt.
+
+01:22.220 --> 01:26.020
+Jetzt werde ich dir ein paar interessante
+Logarithmus-Eigenschaften vorstellen,
+
+01:26.020 --> 01:32.760
+die sich aus dieser Beziehung und den
+normalen Exponentenregeln ergeben.
+
+01:32.760 --> 01:47.280
+Der Logarithmus, mit egal welcher Basis,
+sagen wir also einfach mal B für Basis,
+
+01:47.280 --> 01:57.820
+wir schreiben also log_B (A) + log_B (C).
+
+01:57.820 --> 01:59.770
+Es funktioniert nur, wenn wir gleiche Basen haben.
+
+01:59.770 --> 02:01.800
+Es ist wichtig, sich das zu merken.
+
+02:01.800 --> 02:12.790
+log_B (A) + log_B (C) = log_B (A ⋅ C).
+
+02:12.790 --> 02:14.840
+Was bedeutet das und wofür können wir es verwenden?
+
+02:14.840 --> 02:29.700
+Wir machen mal ein paar Beispiele dazu.
+
+02:29.700 --> 02:53.320
+Wir nehmen log_2 (8) + log_2 (32).
+
+02:53.320 --> 03:05.600
+Was ergibt das, wenn diese Eigenschaft stimmt?
+
+03:05.600 --> 03:08.120
+Wir rechnen 8 ⋅ 32.
+
+03:08.120 --> 03:17.660
+8 ⋅ 32 = 256.
+
+03:17.660 --> 03:18.760
+Schauen wir, ob das stimmt.
+
+03:18.760 --> 03:24.120
+Ich setze diese Zahl ein und es ist kein Beweis,
+aber es gibt dir ein Gefühl dafür, was hier passiert.
+
+03:24.120 --> 03:28.480
+Wir haben jetzt diese Eigenschaft
+angewandt, die ich dir gezeigt habe.
+
+03:28.480 --> 03:30.040
+Schauen wir, ob es stimmt.
+
+03:30.040 --> 03:31.860
+log_2 (8).
+
+03:31.860 --> 03:34.520
+Welchen Exponenten muss 2 haben, um 8 zu ergeben?
+
+03:34.520 --> 03:38.960
+2^3 = 8.
+
+03:38.960 --> 03:41.310
+Dieser Term hier ergibt also 3, richtig?
+
+03:41.310 --> 03:44.810
+log_2 (8) = 3.
+
+03:44.810 --> 03:48.940
+Welchen Exponenten muss 2 haben, um 32 zu ergeben?
+
+03:48.940 --> 03:50.580
+2^4 = 16.
+
+03:50.580 --> 03:53.300
+2^5 = 32.
+
+03:53.300 --> 03:58.410
+Das hier ergibt also 5, richtig?
+
+03:58.410 --> 04:02.750
+Und welchen Exponenten
+muss 2 haben, um 256 zu ergeben?
+
+04:02.750 --> 04:07.340
+Wenn du Informatik studierst, weißt du das sofort,
+
+04:07.340 --> 04:10.720
+da ein Byte 256 Werte haben kann.
+
+04:10.720 --> 04:12.440
+Also 2^8.
+
+04:12.440 --> 04:15.520
+Aber wenn du das nicht weißt, kannst du es ausrechnen.
+
+04:15.520 --> 04:16.710
+Es ergibt 8.
+
+04:16.710 --> 04:19.560
+Und ich schreibe das nicht nur,
+weil ich wusste, dass 3 + 5 = 8 ist.
+
+04:19.560 --> 04:21.220
+Es ist unabhängig davon.
+
+04:21.230 --> 04:22.300
+Das ergibt also 8.
+
+04:22.300 --> 04:28.530
+Aber es stellt sich heraus, dass 3 + 5 = 8 ist.
+
+04:28.530 --> 04:32.380
+Entweder kommt es dir wie
+Magie vor oder es ist offensichtlich.
+
+04:32.380 --> 04:35.560
+Und wenn es dir etwas offensichtlich erscheint,
+
+04:35.560 --> 04:49.440
+denkst du vielleicht, dass 2^3 ⋅ 2^5 = 2^(3+5) ist, richtig?
+
+04:49.440 --> 04:56.300
+Das ist nur eine Exponentenregel.
+
+04:56.300 --> 04:59.920
+Und das ergibt 2^8.
+
+04:59.920 --> 05:03.160
+Und genau das haben wir hier gemacht.
+
+05:03.160 --> 05:07.120
+Auf dieser Seite hatten wir quasi 2^3 ⋅ 2^5.
+
+05:07.120 --> 05:09.780
+Und auf dieser Seite sind sie zusammen addiert.
+
+05:09.780 --> 05:13.940
+Anfangs ist es etwas verwirrend.
+
+05:13.940 --> 05:15.620
+Du kannst dir die Videos mit den Beweisen anschauen,
+
+05:15.620 --> 05:21.180
+wenn du gern eine bessere Erklärung
+davon hättest, wie das funktioniert.
+
+05:21.180 --> 05:25.480
+Aber du solltest hierdurch zumindest ein Gefühl bekommen, warum diese Eigenschaft stimmt.
+
+05:25.480 --> 05:33.560
+Wenn du zwei Exponentialausdrücke derselben
+Basis addierst, kannst du ihre Exponenten addieren.
+
+05:33.560 --> 05:39.860
+Wenn du den Logarithmus zweier Zahlen
+miteinander multiplizierst, ist es genauso,
+
+05:39.860 --> 05:43.640
+wie wenn du den Logarithmus jeder
+einzelnen Zahlen miteinander addierst.
+
+05:43.640 --> 05:45.800
+Es ist dieselbe Eigenschaft.
+
+05:45.810 --> 05:49.940
+Falls du mir nicht glaubst, schau dir die Videos dazu an.
+
+05:49.940 --> 05:56.380
+Ich zeige dir jetzt eine weitere Logarithmus-Eigenschaft.
+
+05:56.380 --> 05:59.480
+Sie ist der ersten sehr ähnlich.
+
+05:59.480 --> 06:21.580
+Wir haben log_B (A) - log_B (C) = log_B (A/C).
+
+06:21.580 --> 06:25.240
+Wir können wieder ein paar Zahlen ausprobieren.
+
+06:25.240 --> 06:29.880
+Ich benutze oft 2, da sich damit leicht rechnen lässt.
+
+06:29.880 --> 06:57.040
+Aber dieses Mal nehme ich log_3 (1/9) - log_3 (81).
+
+06:57.040 --> 07:04.280
+Als Ergebnis erhalte ich eine große Zahl.
+
+07:04.280 --> 07:12.990
+log_3 ((1/9) / 81).
+
+07:12.990 --> 07:15.880
+Das ist dasselbe wie 1/9 ⋅ 1/81.
+
+07:15.880 --> 07:21.820
+Ich habe zwei große Zahlen
+für mein Beispiel ausgewählt.
+
+07:21.820 --> 07:28.660
+9 ⋅ 8 = 720.
+
+07:28.660 --> 07:31.036
+Das ergibt also 1/729.
+
+07:31.036 --> 07:37.860
+Wir haben also log_3 (1/729).
+
+07:37.860 --> 07:42.160
+Welchen Exponenten muss
+also 3 haben, um 1/9 zu ergeben?
+
+07:42.160 --> 07:53.320
+Wir wissen, dass 3^2 = 9 ist,
+
+07:53.320 --> 07:56.940
+also muss 3^(-2) = 1/9 sein.
+
+07:56.950 --> 07:58.190
+Das negative Vorzeichen kehrt es um.
+
+07:58.190 --> 08:02.160
+Das ergibt also -2.
+
+08:02.160 --> 08:06.120
+Welchen Exponenten muss 3 haben, um 81 zu ergeben?
+
+08:06.120 --> 08:07.870
+3^3 = 27.
+
+08:07.870 --> 08:11.390
+Also 3^4.
+
+08:11.390 --> 08:16.720
+Wir könnten es auf mehrere Wege lösen.
+
+08:16.720 --> 08:20.520
+-2 - 4 = -6.
+
+08:20.520 --> 08:26.120
+Und jetzt müssen wir nur noch
+bestätigen, dass 3^(-6) = 1/729 ist.
+
+08:26.120 --> 08:34.420
+Das ist die Frage: Ist 3^(-6) = 1/729?
+
+08:34.420 --> 08:38.500
+Das ist dasselbe wie zu schreiben, dass 3^6 = 729 ist,
+
+08:38.500 --> 08:42.560
+denn der negative Exponent kehrt es nur um.
+
+08:42.580 --> 08:45.280
+Wir könnten es ausmultiplizieren,
+aber es sollte stimmen.
+
+08:45.280 --> 08:47.360
+Wir könnten hier nachschauen.
+
+08:47.360 --> 08:57.360
+Es wäre 3^3 ⋅ 3^3 = 27 ⋅ 27.
+
+08:57.360 --> 08:58.540
+Sieht gut aus.
+
+08:58.540 --> 09:02.440
+Du kannst es gerne mit einem
+Taschenrechner überprüfen.
+
+09:02.440 --> 09:04.940
+Das war's für dieses Video.
+
+09:04.940 --> 09:08.600
+Im nächsten Video stelle ich dir die letzten
+beiden Logarithmus-Eigenschaften vor.
+
+09:08.600 --> 09:13.540
+Und falls wir Zeit dazu haben,
+machen wir ein paar Beispiele.
+
+09:13.540 --> 09:15.120
+Bis bald.

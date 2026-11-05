@@ -1,0 +1,538 @@
+WEBVTT
+
+00:00.566 --> 00:02.301
+Sal: Let's see if we can
+calculate the definite
+
+00:02.301 --> 00:07.566
+integral from zero to
+one of x squared times
+
+00:07.566 --> 00:13.500
+two to the x to the third power d x.
+
+00:13.500 --> 00:15.900
+Like always I encourage
+you to pause this video
+
+00:15.900 --> 00:20.233
+and see if you can figure
+this out on your own.
+
+00:20.940 --> 00:22.634
+I'm assuming you've had a go at it.
+
+00:22.634 --> 00:24.300
+There's a couple of
+interesting things here.
+
+00:24.300 --> 00:26.100
+The first thing, at least
+that my brain does, it says,
+
+00:26.100 --> 00:28.367
+"I'm used to taking derivatives
+and anti-derivatives
+
+00:28.367 --> 00:31.700
+of e to the x, not some
+other base to the x."
+
+00:31.700 --> 00:34.700
+We know that the derivative
+with respect to x of e to the x
+
+00:34.700 --> 00:38.100
+is e to the x, or we could
+say that the anti-derivative
+
+00:38.100 --> 00:43.700
+of e to the x is equal
+to e to the x plus c.
+
+00:43.700 --> 00:46.900
+Since I'm dealing with
+something raised to,
+
+00:47.930 --> 00:49.900
+this particular situation,
+something raised to
+
+00:49.900 --> 00:52.500
+a function of x, it seems
+like I might want to put,
+
+00:52.500 --> 00:56.433
+I might want to change the base
+here, but how do I do that?
+
+00:56.433 --> 01:00.866
+The way I would do that is
+re-express two in terms of e.
+
+01:01.100 --> 01:03.233
+What would be two in terms of e?
+
+01:03.233 --> 01:09.900
+Two is equal to e, is
+equal to e raised to the
+
+01:09.900 --> 01:13.033
+power that you need to
+raise e to to get to two.
+
+01:13.033 --> 01:14.367
+What's the power that you have
+
+01:14.367 --> 01:16.500
+to raise two to to get to two?
+
+01:16.500 --> 01:18.600
+Well that's the natural log of two.
+
+01:18.633 --> 01:21.633
+Once again the natural
+log of two is the exponent
+
+01:21.633 --> 01:24.100
+that you have to raise e to to get to two.
+
+01:24.100 --> 01:27.700
+If you actually raise e to
+it you're going to get two.
+
+01:27.700 --> 01:29.567
+This is what two is.
+
+01:29.567 --> 01:31.567
+Now what is two to the x to the third?
+
+01:31.567 --> 01:34.500
+Well if we raise both sides
+of this to the x to the third
+
+01:34.500 --> 01:38.166
+power, we raise both sides
+to the x to the third power,
+
+01:38.166 --> 01:40.967
+two to the x to the third
+is equal to, if I raise
+
+01:40.967 --> 01:43.433
+something to an exponent and
+then raise that to an exponent,
+
+01:43.433 --> 01:49.266
+it's going to be equal to
+e to the x to the third,
+
+01:49.633 --> 01:53.000
+x to the third, times
+the natural log of two,
+
+01:53.100 --> 01:56.134
+times the natural log of two.
+
+01:56.233 --> 01:59.166
+That already seems pretty interesting.
+
+01:59.166 --> 02:01.567
+Let's rewrite this, and
+actually what I'm going to do,
+
+02:01.567 --> 02:04.100
+let's just focus on the
+indefinite integral first,
+
+02:04.100 --> 02:05.166
+see if we can figure that out.
+
+02:05.166 --> 02:06.500
+Then we can apply, then we can take,
+
+02:06.500 --> 02:08.566
+we can evaluate the definite ones.
+
+02:08.566 --> 02:11.566
+Let's just think about
+this, let's think about
+
+02:11.566 --> 02:15.033
+the indefinite integral of x squared times
+
+02:15.033 --> 02:18.500
+two to the x to the third power d x.
+
+02:18.500 --> 02:20.566
+I really want to find the
+anti-derivative of this.
+
+02:20.566 --> 02:23.166
+Well this is going to be
+the exact same thing as
+
+02:23.166 --> 02:28.433
+the integral of, I'll
+write my x squared still,
+
+02:28.433 --> 02:30.366
+but instead of two to the x to the third
+
+02:30.366 --> 02:32.166
+I'm going to write all of this business.
+
+02:32.166 --> 02:33.833
+Let me just copy and paste that.
+
+02:33.833 --> 02:35.300
+We already established
+that this is the same
+
+02:35.300 --> 02:38.500
+thing as two to the x to the third power.
+
+02:38.500 --> 02:42.867
+Copy and paste, just like that.
+
+02:43.433 --> 02:47.800
+Then let me close it with a d x.
+
+02:48.838 --> 02:51.767
+I was able to get it in
+terms of e as a base.
+
+02:51.767 --> 02:53.434
+That makes me a little
+bit more comfortable
+
+02:53.434 --> 02:55.366
+but it still seems pretty complicated.
+
+02:55.366 --> 02:57.700
+You might be saying, "Okay, look.
+
+02:57.700 --> 03:00.966
+"Maybe u substitution
+could be at play here."
+
+03:00.966 --> 03:05.033
+Because I have this crazy
+expression, x to the third times
+
+03:05.033 --> 03:08.000
+the natural log of two, but
+what's the derivative of that?
+
+03:08.033 --> 03:09.366
+Well that's going to be three x
+
+03:09.366 --> 03:11.167
+squared times the natural log of two,
+
+03:11.167 --> 03:13.966
+or three times the natural
+log of two times x squared.
+
+03:13.966 --> 03:16.166
+That's just a constant times x squared.
+
+03:16.166 --> 03:18.766
+We already have a x squared
+here so maybe we can engineer
+
+03:18.766 --> 03:22.934
+this a little bit to have
+the constant there as well.
+
+03:22.967 --> 03:24.233
+Let's think about that.
+
+03:24.233 --> 03:27.900
+If we made this, if we defined this as u,
+
+03:27.900 --> 03:33.233
+if we said u is equal
+to x to the third times
+
+03:33.233 --> 03:36.234
+the natural log of two,
+what is du going to be?
+
+03:36.234 --> 03:39.900
+du is going to be, it's
+going to be, well natural
+
+03:39.900 --> 03:42.033
+log of two is just a
+constant so it's going to be
+
+03:42.033 --> 03:45.933
+three x squared times
+the natural log of two.
+
+03:46.033 --> 03:47.433
+We could actually just change the order
+
+03:47.433 --> 03:49.033
+we're multiplying a little bit.
+
+03:49.033 --> 03:50.500
+We could say that this
+is the same thing as
+
+03:50.500 --> 03:55.567
+x squared times three natural log of two,
+
+03:55.567 --> 03:58.566
+which is the same thing just
+using logarithm properties,
+
+03:58.566 --> 04:03.766
+as x squared times the natural
+log of two to the third power.
+
+04:03.766 --> 04:05.100
+Three natural log of two is the same thing
+
+04:05.100 --> 04:07.166
+as the natural log of
+two to the third power.
+
+04:07.166 --> 04:13.333
+This is equal to x squared
+times the natural log of eight.
+
+04:13.700 --> 04:16.433
+Let's see, if this is u, where is du?
+
+04:16.433 --> 04:19.466
+Oh, and of course we can't forget the dx.
+
+04:19.966 --> 04:25.800
+This is a dx right over here, dx, dx, dx.
+
+04:25.833 --> 04:29.767
+Where is the du? Well we have
+a dx. Let me circle things.
+
+04:29.767 --> 04:32.767
+You have a dx here, you have a dx there.
+
+04:32.767 --> 04:36.100
+You have an x squared here,
+you have an x squared here.
+
+04:36.100 --> 04:38.234
+So really all we need is,
+
+04:38.234 --> 04:40.900
+all we need here is the
+natural log of eight.
+
+04:40.900 --> 04:43.834
+Ideally we would have the
+natural log of eight right over
+
+04:43.834 --> 04:46.966
+here, and we could put it
+there as long as we also,
+
+04:46.966 --> 04:49.233
+we could multiply by
+the natural log of eight
+
+04:49.233 --> 04:53.333
+as long as we also divide
+by a natural log of eight.
+
+04:53.366 --> 04:56.300
+We can do it like right over here,
+
+04:56.300 --> 04:58.833
+we could divide by natural log of eight.
+
+04:58.833 --> 05:01.366
+But we know that the
+anti-derivative of some constant
+
+05:01.366 --> 05:04.033
+times a function is the
+same thing as a constant
+
+05:04.033 --> 05:06.300
+times the anti-derivative
+of that function.
+
+05:06.300 --> 05:08.433
+We could just take that on the outside.
+
+05:08.433 --> 05:12.333
+It's one over the natural log of eight.
+
+05:12.566 --> 05:15.433
+Let's write this in terms of u and du.
+
+05:15.433 --> 05:18.566
+This simplifies to one over the natural
+
+05:18.566 --> 05:23.346
+log of eight times the anti-derivative of
+
+05:24.453 --> 05:31.766
+e to the u, e to the u, that's the u, du.
+
+05:31.766 --> 05:36.509
+This times this times that is du, du.
+
+05:36.509 --> 05:38.700
+And this is straightforward,
+
+05:38.700 --> 05:40.900
+we know what this is going to be.
+
+05:40.900 --> 05:43.100
+This is going to be equal
+to, let me just write
+
+05:43.100 --> 05:45.600
+the one over natural
+log of eight out here,
+
+05:45.633 --> 05:53.879
+one over natural log of
+eight times e to the u,
+
+05:55.771 --> 05:57.700
+and of course if we're
+thinking in terms of just
+
+05:57.700 --> 06:00.433
+anti-derivative there would
+be some constant out there.
+
+06:00.433 --> 06:02.900
+Then we would just
+reverse the substitution.
+
+06:02.900 --> 06:04.500
+We already know what u is.
+
+06:04.500 --> 06:07.300
+This is going to be equal
+to, the anti-derivative of
+
+06:07.300 --> 06:11.566
+this expression is one over
+the natural log of eight
+
+06:11.566 --> 06:15.367
+times e to the, instead
+of u, we know that u is
+
+06:15.367 --> 06:19.100
+x to the third times
+the natural log of two.
+
+06:19.100 --> 06:21.866
+And of course we could put a plus c there.
+
+06:22.100 --> 06:24.234
+Now, going back to the original problem.
+
+06:24.234 --> 06:26.566
+We just need to evaluate
+the anti-derivative
+
+06:26.566 --> 06:29.500
+of this at each of these points.
+
+06:29.500 --> 06:30.967
+Let's rewrite that.
+
+06:30.967 --> 06:36.066
+Given what we just figured out,
+let me copy and paste that.
+
+06:36.301 --> 06:39.120
+This is just going to be equal to,
+
+06:40.181 --> 06:43.966
+it's going to be equal to
+the anti-derivative evaluated
+
+06:43.966 --> 06:47.100
+at one minus the anti-derivative
+evaluated at zero.
+
+06:47.100 --> 06:48.033
+We don't have to worry about the
+
+06:48.033 --> 06:50.033
+constants because those will cancel out.
+
+06:50.033 --> 06:53.566
+So we are going to get,
+we are going to get one--
+
+06:53.566 --> 06:55.966
+Let me evaluate it first at one.
+
+06:56.596 --> 06:59.500
+You're going to get one
+over the natural log of
+
+06:59.500 --> 07:05.433
+eight times e to the
+one to the third power,
+
+07:05.433 --> 07:08.100
+which is just one, times
+the natural log of two,
+
+07:08.100 --> 07:10.834
+natural log of two,
+that's evaluated at one.
+
+07:10.834 --> 07:15.066
+Then we're going to have
+minus it evaluated it at zero.
+
+07:15.100 --> 07:18.033
+It's going to be one
+over the natural log of
+
+07:18.033 --> 07:21.633
+eight times e to the, well when x is zero
+
+07:21.633 --> 07:23.766
+this whole thing is going to be zero.
+
+07:23.766 --> 07:29.100
+Well e to the zero is just
+one, and e to the natural
+
+07:29.100 --> 07:32.233
+log of two, well that's
+just going to be two,
+
+07:32.233 --> 07:33.966
+we already established that early on,
+
+07:33.966 --> 07:35.766
+this is just going to be equal to two.
+
+07:35.766 --> 07:39.366
+We are left with two over the
+natural log of eight minus
+
+07:39.366 --> 07:42.500
+one over the natural log of
+eight, which is just going
+
+07:42.500 --> 07:47.533
+to be equal to one over
+the natural log of eight.
+
+07:47.900 --> 07:52.266
+And we are, and we are done.

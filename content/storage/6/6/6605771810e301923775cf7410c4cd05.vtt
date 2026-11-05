@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.730 --> 00:03.510
+Let f be the function
+given by f of x
+
+00:03.510 --> 00:07.500
+is equal to the square root of
+x plus 4 minus 3 over x minus 5.
+
+00:07.500 --> 00:12.640
+If x does not equal 5, and
+it's equal to c if x equals 5.
+
+00:12.640 --> 00:15.630
+Then say, if f is
+continuous at x equals 5,
+
+00:15.630 --> 00:17.630
+what is the value of c?
+
+00:17.630 --> 00:21.060
+So if we know that f is
+continuous at x equals 5,
+
+00:21.060 --> 00:27.670
+that means that the limit
+as x approaches 5 of f of x
+
+00:27.670 --> 00:30.390
+is equal to f of 5.
+
+00:30.390 --> 00:32.870
+This is the definition
+of continuity.
+
+00:32.870 --> 00:34.590
+And they tell us
+that f of 5, when
+
+00:34.590 --> 00:36.970
+x equals 5, the value of
+the function is equal to c.
+
+00:36.970 --> 00:38.917
+So this must be equal to c.
+
+00:38.917 --> 00:40.500
+So what we really
+need to do is figure
+
+00:40.500 --> 00:45.600
+out what the limit of f of x
+as x approaches 5 actually is.
+
+00:45.600 --> 00:47.810
+Now, if we just
+try to substitute 5
+
+00:47.810 --> 00:51.150
+into the expression right
+up here, in the numerator
+
+00:51.150 --> 00:53.120
+you have 5 plus 4 is 9.
+
+00:53.120 --> 00:55.020
+The square root of
+that is positive 3,
+
+00:55.020 --> 00:57.220
+the principal root
+is positive 3.
+
+00:57.220 --> 00:58.550
+3 minus 3 is 0.
+
+00:58.550 --> 01:00.170
+So you get a 0 in the numerator.
+
+01:00.170 --> 01:02.520
+And then you get 5 minus
+5 in the denominator,
+
+01:02.520 --> 01:03.940
+so you get 0 in the denominator.
+
+01:03.940 --> 01:07.507
+So you get this
+indeterminate form of 0/0.
+
+01:07.507 --> 01:09.090
+And in the future,
+we will see that we
+
+01:09.090 --> 01:12.540
+do have a tool that allows
+us, or gives us an option
+
+01:12.540 --> 01:14.050
+to attempt to find
+the limits when
+
+01:14.050 --> 01:15.400
+we get this indeterminate form.
+
+01:15.400 --> 01:17.080
+It's called L'Hopital's rule.
+
+01:17.080 --> 01:19.370
+But we can actually tackle
+this with a little bit
+
+01:19.370 --> 01:20.920
+of fancy algebra.
+
+01:20.920 --> 01:22.840
+And to do that, I'm
+going to try to get
+
+01:22.840 --> 01:25.990
+this radical out
+of the numerator.
+
+01:25.990 --> 01:27.050
+So let's rewrite it.
+
+01:27.050 --> 01:36.090
+So we have the square root of x
+plus 4 minus 3 over x minus 5.
+
+01:36.090 --> 01:39.622
+And any time you see a radical
+plus or minus something else,
+
+01:39.622 --> 01:41.080
+to get rid of the
+radical, what you
+
+01:41.080 --> 01:44.220
+can do is multiply
+by the radical--
+
+01:44.220 --> 01:46.260
+or, if you have a
+radical minus 3,
+
+01:46.260 --> 01:48.810
+you multiply by
+the radical plus 3.
+
+01:48.810 --> 01:50.740
+So in this situation,
+you just multiply
+
+01:50.740 --> 01:54.940
+the numerator by
+square root of x plus 4
+
+01:54.940 --> 02:00.830
+plus 3 over the square
+root of x plus 4 plus 3.
+
+02:00.830 --> 02:02.900
+We obviously have to
+multiply the numerator
+
+02:02.900 --> 02:04.640
+and the denominator
+by the same thing
+
+02:04.640 --> 02:08.729
+so that we actually don't change
+the value of the expression.
+
+02:08.729 --> 02:10.560
+If this right over
+here had a plus 3,
+
+02:10.560 --> 02:12.020
+then we would do a minus 3 here.
+
+02:12.020 --> 02:14.540
+This is a technique that we
+learn in algebra, or sometimes
+
+02:14.540 --> 02:17.420
+in pre-calculus class,
+to rationalize usually
+
+02:17.420 --> 02:20.300
+denominators, but to rationalize
+numerators or denominators.
+
+02:20.300 --> 02:21.750
+It's also a very
+similar technique
+
+02:21.750 --> 02:24.690
+that we use often times to
+get rid of complex numbers,
+
+02:24.690 --> 02:27.319
+usually in denominators.
+
+02:27.319 --> 02:29.860
+But if you multiply this out--
+and I encourage you to do it--
+
+02:29.860 --> 02:31.526
+you notice this has
+the pattern that you
+
+02:31.526 --> 02:32.850
+learned in algebra class.
+
+02:32.850 --> 02:34.190
+It's a difference of squares.
+
+02:34.190 --> 02:37.500
+Something minus something
+times something plus something.
+
+02:37.500 --> 02:41.460
+So the first term is going to
+be the first something squared.
+
+02:41.460 --> 02:46.160
+So square root of x plus
+4 squared is x plus 4.
+
+02:46.160 --> 02:49.530
+And the second term is going
+to be the second something,
+
+02:49.530 --> 02:52.020
+or you're going to subtract
+the second something squared.
+
+02:52.020 --> 02:55.940
+So you're going to have
+minus 3 squared, so minus 9.
+
+02:55.940 --> 02:57.700
+And in the denominator,
+you're of course
+
+02:57.700 --> 03:04.520
+going to have x minus 5
+times the square root of x
+
+03:04.520 --> 03:07.930
+plus 4 plus 3.
+
+03:07.930 --> 03:11.270
+And so this has-- I guess
+you could say simplified to,
+
+03:11.270 --> 03:13.010
+although it's not
+arguably any simpler.
+
+03:13.010 --> 03:15.024
+But at least we have
+gotten our radical.
+
+03:15.024 --> 03:16.690
+We're really just
+playing around with it
+
+03:16.690 --> 03:20.020
+algebraically to see if we
+can then substitute x equals 5
+
+03:20.020 --> 03:21.970
+or if we can somehow
+simplify it to figure out
+
+03:21.970 --> 03:23.090
+what the limit is.
+
+03:23.090 --> 03:25.700
+And when you simplify
+the numerator up here,
+
+03:25.700 --> 03:27.650
+you get x plus 4 minus 9.
+
+03:27.650 --> 03:35.570
+Well, that's x minus 5 over x
+minus 5 times the square root
+
+03:35.570 --> 03:39.750
+of x plus 4 plus 3.
+
+03:39.750 --> 03:42.260
+And now it pops out at
+you, both the numerator
+
+03:42.260 --> 03:46.910
+and the denominator are
+now divisible by x minus 5.
+
+03:46.910 --> 03:49.235
+So you can have a completely
+identical expression
+
+03:49.235 --> 03:50.860
+if you say that this
+is the same thing.
+
+03:50.860 --> 03:53.670
+You can divide the numerator
+and the denominator by x minus 5
+
+03:53.670 --> 03:55.920
+if you assume x
+does not equal 5.
+
+03:55.920 --> 03:58.990
+So this is going to
+be the same thing as 1
+
+03:58.990 --> 04:10.190
+over square root of x plus 4
+plus 3 for x does not equal 5.
+
+04:10.190 --> 04:13.380
+Which is fine, because in the
+first part of this function
+
+04:13.380 --> 04:16.480
+definition, this is the
+case for x does not equal 5.
+
+04:16.480 --> 04:18.060
+So we could actually
+replace this--
+
+04:18.060 --> 04:21.149
+and this is a simpler
+expression-- with 1
+
+04:21.149 --> 04:26.500
+over square root
+of x plus 4 plus 3.
+
+04:26.500 --> 04:28.667
+And so now when we take the
+limit as x approaches 5,
+
+04:28.667 --> 04:30.541
+we're going to get closer
+and closer to five.
+
+04:30.541 --> 04:32.800
+We're going to get x values
+closer and closer to 5,
+
+04:32.800 --> 04:34.250
+but not quite at 5.
+
+04:34.250 --> 04:36.490
+We can use this expression
+right over here.
+
+04:36.490 --> 04:39.310
+So the limit of f of
+x as x approaches 5
+
+04:39.310 --> 04:42.923
+is going to be the same
+thing as the limit of 1
+
+04:42.923 --> 04:49.690
+over the square root of x plus
+4 plus 3 as x approaches 5.
+
+04:49.690 --> 04:52.220
+And now we can
+substitute a 5 in here.
+
+04:52.220 --> 04:56.310
+It's going to be
+1 over 5 plus 4 is
+
+04:56.310 --> 04:58.840
+9, principal root of that is 3.
+
+04:58.840 --> 05:01.030
+3 plus 3 is 6.
+
+05:01.030 --> 05:08.930
+So if c is equal to 1/6, then
+the limit of our function
+
+05:08.930 --> 05:13.800
+as x approaches 5 is going
+to be equal to f of 5.
+
+05:13.800 --> 05:17.340
+And we are continuous
+at x equals 5.
+
+05:17.340 --> 05:19.331
+So it's 1/6.

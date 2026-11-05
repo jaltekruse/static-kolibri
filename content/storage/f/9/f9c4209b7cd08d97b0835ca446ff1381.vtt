@@ -1,0 +1,184 @@
+WEBVTT
+
+00:00.103 --> 00:06.003
+Máme dáno, že diferencovatelné funkce
+x a y splňují následující rovnici:
+
+00:06.003 --> 00:09.098
+y rovná se
+odmocnina z x.
+
+00:09.098 --> 00:12.462
+Zajímavé je, že obě jsou to
+diferencovatelné funkce,
+
+00:12.462 --> 00:16.401
+dokonce i x, takže x je
+také funkce něčeho jiného.
+
+00:16.401 --> 00:21.302
+Dále tu máme, že derivace
+x podle t se rovná 12.
+
+00:21.319 --> 00:27.793
+Naším úkolem je spočítat
+derivaci y podle t, když je x rovno 9.
+
+00:27.793 --> 00:30.057
+Ujistěme se, že úloze
+dobře rozumíme.
+
+00:30.057 --> 00:34.074
+V zadání máme,
+že x i y jsou funkce.
+
+00:34.074 --> 00:36.313
+Zřejmě jde o funkce
+proměnné t.
+
+00:36.313 --> 00:39.382
+y je funkce x,
+ale x je funkce t,
+
+00:39.382 --> 00:41.794
+takže y je
+také funkce t.
+
+00:41.794 --> 00:47.498
+Můžeme se na to dívat třeba tak,
+že pokud se x rovná f(t),
+
+00:47.498 --> 00:54.983
+tak y je rovno odmocnině z x,
+tedy odmocnině z f(t).
+
+00:54.983 --> 00:56.426
+Lze na to
+nahlížet také tak,
+
+00:56.426 --> 01:02.682
+že když t dosadíme
+do funkce f, dostaneme x,
+
+01:02.682 --> 01:08.028
+které když dosadíme do
+funkce druhá odmocnina,
+
+01:08.028 --> 01:10.711
+tak budeme mít y.
+
+01:10.711 --> 01:18.160
+Na tohle celé se tedy můžeme
+dívat tak, že y je funkce t.
+
+01:18.160 --> 01:21.229
+Teď pojďme spočítat,
+co po nás chtějí.
+
+01:21.229 --> 01:24.337
+K výpočtu použijeme pravidlo
+pro derivaci složené funkce.
+
+01:24.337 --> 01:26.486
+Pravidlo pro derivaci
+složené funkce nám říká,
+
+01:26.486 --> 01:39.365
+že derivace y podle t se rovná (derivace
+y podle x) krát (derivace x podle t).
+
+01:39.365 --> 01:42.569
+Teď to použijme pro
+naše zadané funkce.
+
+01:42.569 --> 01:52.243
+Vyjde nám, že derivace y podle t
+se rovná derivaci y podle x...
+
+01:52.243 --> 01:53.595
+Jak tato
+derivace vypadá?
+
+01:53.595 --> 01:55.593
+y se rovná
+druhá odmocnina z x,
+
+01:55.593 --> 01:59.422
+což můžeme zapsat také tak,
+že y se rovná x na (1 lomeno 2).
+
+01:59.422 --> 02:01.430
+Nyní použijeme vzorec
+pro derivaci mocniny.
+
+02:01.430 --> 02:06.848
+Derivace y podle x se rovná
+(1 lomeno 2) krát x na minus (1 lomeno 2).
+
+02:06.848 --> 02:08.455
+Tak to sem
+napišme.
+
+02:08.455 --> 02:12.623
+(1 lomeno 2) krát
+x na minus (1 lomeno 2).
+
+02:12.623 --> 02:21.136
+Tohle teď musíme
+vynásobit derivací x podle t.
+
+02:21.736 --> 02:24.005
+Máme spočítat to, co tu
+mám napsané oranžově.
+
+02:24.005 --> 02:25.642
+Takové je
+zadání úlohy.
+
+02:25.642 --> 02:30.766
+Máme zadáno, že x se má rovnat 9
+a že derivace x podle t je 12.
+
+02:30.766 --> 02:34.444
+Víme tak všechno
+potřebné k dokončení výpočtu.
+
+02:34.444 --> 02:47.672
+Výsledek bude (1 lomeno 2) krát 9 na
+minus (1 lomeno 2) krát (dx lomeno dt),
+
+02:47.672 --> 02:52.625
+přičemž derivace x podle t se
+rovná 12, takže zde bude krát 12.
+
+02:53.215 --> 02:56.481
+9 na (1 lomeno 2)
+se rovná 3,
+
+02:56.481 --> 02:59.721
+takže 9 na minus (1 lomeno 2)
+se rovná 1 lomeno 3.
+
+02:59.721 --> 03:01.303
+Tohle je tedy
+1 lomeno 3.
+
+03:01.303 --> 03:03.830
+Celý výraz se
+tak zjednoduší na...
+
+03:04.329 --> 03:07.522
+(1 lomeno 2) krát (1 lomeno 3)
+se rovná 1 lomeno 6,
+
+03:07.522 --> 03:14.167
+takže ve jmenovateli bude 6
+a v čitateli bude 12.
+
+03:14.167 --> 03:15.824
+Vyšlo nám
+12 lomeno 6.
+
+03:15.824 --> 03:23.790
+Derivace y podle t, když se x rovná 9
+a derivace x podle t je 12, se rovná 2.

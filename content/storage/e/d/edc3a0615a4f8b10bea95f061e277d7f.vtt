@@ -1,0 +1,482 @@
+WEBVTT
+
+00:00.000 --> 00:00.480
+.
+
+00:00.480 --> 00:03.190
+W tym filmie przedstawie przykład pokazujący
+
+00:03.190 --> 00:06.170
+co znaczy dopasować linię do danych
+
+00:06.170 --> 00:08.730
+Zamiast tradycyjnego filmu, w którym używam mojego
+
+00:08.730 --> 00:11.840
+rysika, tym razem będę pracował bezpośrednio w Excelu,
+
+00:11.840 --> 00:14.250
+tak byś mógł zobaczyć jak zrobić to samemu, o ile masz
+
+00:14.250 --> 00:18.090
+Excela lub inny arkusz kalkulacyjny
+
+00:18.090 --> 00:19.380
+Nie będziemy zagłębiać się w matematyczne podstawy
+
+00:19.380 --> 00:21.540
+Chciałbym jedynie byś zrozumiał w sposób ogólny
+
+00:21.540 --> 00:26.840
+co oznacza dopasowywanie prostej do danych, inaczej zwane
+
+00:26.840 --> 00:27.880
+regresją liniową
+
+00:27.880 --> 00:29.550
+Rzućmy więc okiem na problem
+
+00:29.550 --> 00:33.550
+Tabela ta przedstawia medianę dochodów w Kalifornii
+
+00:33.550 --> 00:37.190
+pamiętaj, mediana to wartość znajdująca się w połowie, czyli połowa ludzi w Kalifornii osiąga przynajmniej taki dochód
+
+00:37.190 --> 00:40.850
+w latach 1995 - 2002, na podstawie danych
+
+00:40.850 --> 00:42.680
+Amerykańskie Biuro Spisów Ludności
+
+00:42.680 --> 00:45.320
+Narysujmy wykres punktowy i znajdźmy równanie
+
+00:45.320 --> 00:47.540
+Jak sądzisz, jaka będzie mediana rocznych dochodów w
+
+00:47.540 --> 00:50.370
+kalifornijskich rodzinach w roku 2010?
+
+00:50.370 --> 00:52.970
+Jak interpretować nachylenie linii i wyraz wolny w tym
+
+00:52.970 --> 00:53.580
+przykładzie?
+
+00:53.580 --> 00:56.050
+Po pierwsze, pierwszą rzeczą jest - tylko skopiowałem i
+
+00:56.050 --> 00:59.060
+wkleiłem ten obrazek - przedstawienie danych w formacie,
+
+00:59.060 --> 01:00.920
+który arkusz jest w stanie zrozumieć.
+
+01:00.920 --> 01:03.830
+Zróbmy więcej tabeli.
+
+01:03.830 --> 01:08.800
+Powiedzmy, lata od roku 1995.
+
+01:08.800 --> 01:10.710
+Stwórzmy taką kolumnę
+
+01:10.710 --> 01:13.670
+Rozszerzmy ją nieco
+
+01:13.670 --> 01:16.670
+Teraz, niech będzie mediana dochodu
+
+01:16.670 --> 01:20.100
+Mediana dochodu rodziny w Kalifornii
+
+01:20.100 --> 01:23.560
+Zaczynamy od roku 1, lub roku 0 od roku 1995
+
+01:23.560 --> 01:28.100
+0,1,2,3,4
+
+01:28.100 --> 01:32.710
+I tak dalej, widzisz już trend
+
+01:32.710 --> 01:33.590
+idąc dalej,
+
+01:33.590 --> 01:36.650
+Widzisz, że zwiększamy komórki o 1
+
+01:36.650 --> 01:38.340
+Teraz dochód, tu po prostu skopiuję
+
+01:38.340 --> 01:39.300
+liczby stąd.
+
+01:39.300 --> 01:54.710
+Czyli: $53,807, $55,217,
+$55,209, $55,415 $63,100,
+
+01:54.710 --> 02:08.680
+$63,206, $63,761 i dalej $65,766.
+
+02:08.680 --> 02:10.520
+tych komórek nie potrzebuję
+
+02:10.520 --> 02:13.380
+i pozbyję się ich.
+
+02:13.380 --> 02:14.810
+Czyszczę je.
+
+02:14.810 --> 02:16.180
+Sprawdźmy raz jeszcze czy mamy wszystko.
+
+02:16.180 --> 02:24.040
+Tutaj jest 1, 2, 3, 4, 5, 6, 7, 8,
+a u mnie 1, 2, 3, 4, 5,
+
+02:24.040 --> 02:25.570
+6,7,8 komórek.
+
+02:25.570 --> 02:29.930
+Sprawdzę, czy dane są poprawne. $53,807, $55,217,
+
+02:29.930 --> 02:34.510
+$55,209, 415, 100,
+206, 761, 766.
+
+02:34.510 --> 02:36.040
+Ok, jest w porządku.
+
+02:36.040 --> 02:38.880
+Jak widzisz, w Excelu jest to bardzo
+
+02:38.880 --> 02:41.080
+łatwe, o ile wiesz co klikać.
+
+02:41.080 --> 02:44.430
+Po pierwsze, stwórz wykres, wykres punktowy, a potem nawet
+
+02:44.430 --> 02:46.220
+lepiej, przeprowadźmy regresję na tych danych.
+
+02:46.220 --> 02:48.970
+Jedyne co musisz zrobić to zaznaczyć dane.
+
+02:48.970 --> 02:51.480
+Dalej, klikasz "wstawianie", wstawię w ten sposób
+
+02:51.480 --> 02:53.170
+wykres punktowy
+
+02:53.170 --> 02:54.390
+Tu możesz wybrać spośród różnych
+
+02:54.390 --> 02:56.160
+rodzajów wykresów punktowych.
+
+02:56.160 --> 02:58.820
+Chcę jedynie zobrazować dane.
+
+02:58.820 --> 02:59.670
+Zrobione.
+
+02:59.670 --> 03:02.470
+Dane przedstawiono na wykresie.
+
+03:02.470 --> 03:03.050
+Zrobione.
+
+03:03.050 --> 03:07.320
+Przesuwając się tu mamy rzeczywisty dochód, a tutaj
+
+03:07.320 --> 03:08.870
+lata od roku 1995
+
+03:08.870 --> 03:10.570
+czyli to jest 1995.
+
+03:10.570 --> 03:13.710
+a to $53,807.
+
+03:13.710 --> 03:17.370
+w 1996 mamy $55,217.
+
+03:17.370 --> 03:19.250
+Całość danych na wykresie.
+
+03:19.250 --> 03:22.110
+teraz chciałbym dopasować tu linię prostą
+
+03:22.110 --> 03:24.000
+nie jest to do końca linia.
+
+03:24.000 --> 03:27.580
+Ale sprawdźmy, jeśli założę, że linia prosta pozwala modelować te
+
+03:27.580 --> 03:31.500
+dane wystarczająco dokładnie, mogę użyć Excela by dopasować taką linię.
+
+03:31.500 --> 03:34.580
+Co mogę zrobić widać w opcjach tutaj
+
+03:34.580 --> 03:37.720
+różne sposoby dopasowania prostej, każda z
+
+03:37.720 --> 03:38.710
+tych opcji.
+
+03:38.710 --> 03:39.780
+Wybiorę tą.
+
+03:39.780 --> 03:40.940
+Może nie widać tego dokładnie.
+
+03:40.940 --> 03:42.460
+Wygląda jak linia biegnąca między kropkami.
+
+03:42.460 --> 03:45.450
+jest tu także fx, co znaczy że dostanę również równanie
+
+03:45.450 --> 03:46.470
+tej prostej.
+
+03:46.470 --> 03:49.520
+Jeśli to klikniesz, zrobione!
+
+03:49.520 --> 03:52.570
+Nie tylko dopasowano linię, ale ponownie przedstawiono te same dane
+
+03:52.570 --> 03:54.530
+na innym wykresie.
+
+03:54.530 --> 03:55.830
+Powiększmy to nieco.
+
+03:55.830 --> 03:58.430
+.
+
+03:58.430 --> 03:59.930
+Nie, tego nie chcę.
+
+03:59.930 --> 04:01.060
+Powiększmy to jeszcze.
+
+04:01.060 --> 04:04.430
+Możemy ukryć dane, bo wiemy już
+
+04:04.430 --> 04:06.410
+jak wyglądają
+
+04:06.410 --> 04:09.460
+zakryjmy je w ten sposób.
+
+04:09.460 --> 04:12.620
+Czyli nie tylko mamy kolejne obserwacje na wykresie, mamy
+
+04:12.620 --> 04:16.029
+też linię prostą dopasowaną do danych i
+
+04:16.029 --> 04:17.355
+równanie tej linii.
+
+04:17.355 --> 04:21.279
+.
+
+04:21.279 --> 04:22.975
+Spróbuję to trochę powiększyć.
+
+04:22.975 --> 04:27.330
+.
+
+04:27.330 --> 04:30.910
+Przesunę to na bok, byś mógł to przeczytać.
+
+04:30.910 --> 04:33.400
+A więc widzę tu, że równanie tej
+
+04:33.400 --> 04:40.400
+prostej to y równe 1882.3 x + 52847.
+
+04:40.400 --> 04:43.250
+A więc o ile pamiętasz co wiemy o nachyleniu i
+
+04:43.250 --> 04:50.660
+wyrazie wolnym, to wyraz wolny wynosi 52,847, co widać jeśli
+
+04:50.660 --> 04:55.000
+spojrzysz na tą prostą i miejsce gdzie przecina się dla
+
+04:55.000 --> 04:57.470
+roku 0, czy też 1995.
+
+04:57.470 --> 05:01.830
+Czyli, jeśli wykorzystasz tę linię jako model, w roku 1995 powinieneś
+
+05:01.830 --> 05:05.580
+otrzymać $52,847.
+
+05:05.580 --> 05:07.280
+Rzeczywiste dane nieco od tego odbiegają
+
+05:07.280 --> 05:09.970
+dochód był trochę wyższy, $53,807.
+
+05:09.970 --> 05:11.250
+Trochę wyższy.
+
+05:11.250 --> 05:13.850
+Tyle, że szukamy tu linii, która znajduje się jak najbliżej
+
+05:13.850 --> 05:14.980
+każdego z punktów.
+
+05:14.980 --> 05:17.530
+De facto, minimalizujemy odległość,
+
+05:17.530 --> 05:20.470
+kwadrat odległości między każdym z tych punktów
+
+05:20.470 --> 05:20.970
+i linią.
+
+05:20.970 --> 05:22.440
+Nie będziemy tu jednak zagłębiać się w matematykę.
+
+05:22.440 --> 05:23.830
+Mamy tu to ładne równanie.
+
+05:23.830 --> 05:26.810
+Teraz możemy użyć tego równania do prognozowania.
+
+05:26.810 --> 05:30.290
+Jeśli sądzimy, że mamy dobry model dla danych
+
+05:30.290 --> 05:31.400
+- spróbuję to obniżyć - możemy
+
+05:31.400 --> 05:32.400
+odpowiedzieć na nasze pytanie.
+
+05:32.400 --> 05:35.210
+Narysowaliśmy wykres punktowy, w sumie to Excel zrobił to za nas.
+
+05:35.210 --> 05:38.000
+Znaleźliśmy równanie, jest tu.
+
+05:38.000 --> 05:40.060
+To może nam powiedzieć, jaka jest oczekiwana mediana rocznego
+
+05:40.060 --> 05:44.490
+dochodu rodziny w Kalifornii w roku 2010.
+
+05:44.490 --> 05:50.010
+Możemy wykorzystać tu równanie, które otrzymaliśmy.
+
+05:50.010 --> 05:51.770
+Tutaj był rok 2002.
+
+05:51.770 --> 05:52.850
+Mogę to zapisać
+
+05:52.850 --> 05:57.240
+To był rok 2002.
+
+05:57.240 --> 06:02.490
+Rok 2010 to dodatkowe 8 lat.
+
+06:02.490 --> 06:04.350
+Zróbmy tu kolumnę.
+
+06:04.350 --> 06:08.390
+.
+
+06:08.390 --> 06:13.540
+Czyli tu mamy lata 1995,1996
+
+06:13.540 --> 06:15.710
+Dalej Excel domyśli się, jeśli zaznacze to,
+
+06:15.710 --> 06:18.950
+kliknę mały kwadrat w prawym dolnym rogu i przeciągnę
+
+06:18.950 --> 06:23.920
+w dół, Excel domyśli się co chcę zrobić.
+
+06:23.920 --> 06:26.980
+zwiększam kolejne lata o 1.
+
+06:26.980 --> 06:31.670
+I jeśli wezmę "lata od roku 1995", ponownie mogę kontynować
+
+06:31.670 --> 06:33.550
+kolumnę tutaj.
+
+06:33.550 --> 06:36.600
+Czyli 2010 to 15 lat.
+
+06:36.600 --> 06:38.660
+Możemy więc wykorzystać to równanie.
+
+06:38.660 --> 06:41.760
+Możemy powiedzieć, że dochód będzie wynosił, na podstawie tej
+
+06:41.760 --> 06:44.570
+linii - przepiszę to równanie, tak byś mógł przeczytać to
+
+06:44.570 --> 06:51.000
+o czym mowię - 1882.3
+razy x.
+
+06:51.000 --> 06:55.500
+x to numer roku liczony od 1995.
+
+06:55.500 --> 06:58.430
+mogę zaznaczyć tą komórkę, lub wpisać
+
+06:58.430 --> 06:59.320
+liczbę 15.
+
+06:59.320 --> 07:03.590
+To znaczy - przemnóż przez tę komórkę, przemnóż przez 15.
+
+07:03.590 --> 07:11.390
+Teraz dodać 52,84, dodać tą komórkę
+
+07:11.390 --> 07:17.600
+Klikam enter i otrzymuję prognozę $ 81 081.50.
+
+07:17.600 --> 07:21.610
+Czyli jeśi przeciągniesz tą linie na kolejne 8 lub więcej
+
+07:21.610 --> 07:24.550
+lat, dostajesz prognozę że mediana dochodu rodziny w Kalifornii
+
+07:24.550 --> 07:27.730
+wyniesie $ 81 000.
+
+07:27.730 --> 07:30.270
+Mam nadzieję, że zainteresowałem Cię.
+
+07:30.270 --> 07:33.340
+Arkusze kalkulacyjne to przydatne narzędzi do analizy danych.
+
+07:33.340 --> 07:36.520
+To daje Ci obraz dlaczego modele liniowe mogą być ciekawe
+
+07:36.520 --> 07:39.130
+Dlaczego linie proste są ciekawe i jak możesz wykorzystywać
+
+07:39.130 --> 07:42.600
+te narzędzia do interpretowania danych, czy też ekstrapolowania ich tak by
+
+07:42.600 --> 07:43.370
+otrzymać pewne prognozy.
+
+07:43.370 --> 07:45.450
+To właśnie to, ekstrapolacja z wykorzystaniem
+
+07:45.450 --> 07:47.260
+regresji liniowej.
+
+07:47.260 --> 07:47.333
+.

@@ -1,0 +1,471 @@
+WEBVTT
+
+00:00.066 --> 00:05.927
+Tohle je obrázek Isaaca Newtona, super
+slavného britského matematika a fyzika.
+
+00:05.927 --> 00:10.036
+A toto je obrázek Gottfrieda Leibnize,
+
+00:10.036 --> 00:12.838
+který není až tak slavný, ale asi by měl být.
+
+00:12.838 --> 00:17.387
+Byl to německý filozof a matematik,
+který žil ve stejné době jako Isaac Newton.
+
+00:17.387 --> 00:22.745
+Tito dva pánové společně vytvořili
+základy matematické analýzy.
+
+00:22.745 --> 00:27.340
+Většinu své práce
+udělali na konci 17. století.
+
+00:27.340 --> 00:31.247
+Na tomto obrázku je Usain
+Bolt, jamajský sprinter,
+
+00:31.247 --> 00:34.855
+který pokračuje ve
+skvělé sprinterské kariéře.
+
+00:34.855 --> 00:38.267
+V roce 2012 byl
+nejrychlejším žijícím člověkem.
+
+00:38.267 --> 00:41.550
+Je pravděpodobně nejrychlejší
+člověk, který kdy žil.
+
+00:41.550 --> 00:45.658
+Možná vám uchází souvislost
+mezi těmito třemi pány.
+
+00:45.658 --> 00:47.992
+Možná si myslíte, že
+nemají mnoho společného,
+
+00:47.992 --> 00:51.981
+ale všichni jsou posedlí
+stejnou základní otázkou,
+
+00:51.981 --> 00:58.255
+kterou se zabývá
+diferenciální počet a ta otázka zní:
+
+00:58.255 --> 01:01.601
+Jaká je okamžitá míra
+změny nějaké veličiny?
+
+01:01.601 --> 01:05.155
+V případě Usaina Bolta:
+Jak rychle běží právě teď?
+
+01:05.155 --> 01:08.535
+Ne jaká byla jeho průměrná
+rychlost v poslední sekundě
+
+01:08.535 --> 01:13.874
+nebo jeho průměrná rychlost v 10
+sekundách. Ale jak rychle běží právě teď?
+
+01:13.874 --> 01:22.881
+A o tom je diferenciální počet.
+O okamžitých mírách změn veličiny.
+
+01:22.881 --> 01:30.637
+A Newtonův termín pro diferenciální počet
+byl metoda diferenciálů, což zní lákavěji,
+
+01:30.637 --> 01:36.612
+ale jedná se o to, co
+se děje v tomto okamžiku.
+
+01:36.612 --> 01:42.412
+Přemýšlejme, proč to není snadný problém,
+který lze řešit tradiční algebrou.
+
+01:42.412 --> 01:48.630
+Nakreslíme si zde malý graf.
+Na této ose mám vzdálenost
+
+01:48.630 --> 01:54.045
+a ‚y‘ značí vzdálenosti. Mohl jsem označit
+vzdálenost jako ‚d‘, ale uvidíme později,
+
+01:54.045 --> 01:57.095
+že v diferenciálním počtu je ‚d‘
+vyhrazeno pro něco jiného,
+
+01:57.095 --> 01:58.819
+a tak říkáme, že ‚y‘ je vzdálenost.
+
+01:58.819 --> 02:04.767
+A na této ose budeme mít čas, ‚t‘ běžně
+značí čas, ale radši jej označíme ‚x‘,
+
+02:04.767 --> 02:10.902
+‚x‘ je čas, pokud bychom vyznačili Boltem
+uběhnutou vzdálenost jako funkci času,
+
+02:10.902 --> 02:13.626
+pak v čase 0 ještě nikam nedoběhl.
+
+02:13.626 --> 02:22.565
+Je zde, a víme, že tenhle muž je schopen
+uběhnout 100 metrů za 9,58 sekund.
+
+02:22.565 --> 02:27.559
+Takže za 9,58 sekundy budeme předpokládat,
+-- Tady to je v sekundách. --
+
+02:27.559 --> 02:31.736
+že je schopen uběhnout 100 metrů.
+
+02:31.736 --> 02:36.101
+A z těchto údajů vlastně můžeme
+vypočítat průměrnou rychlost.
+
+02:36.101 --> 02:50.541
+Jeho průměrná rychlost bude změna
+vzdálenosti lomeno změna času.
+
+02:50.541 --> 02:57.406
+A vzdálenost jsme označili proměnou ‚y‘,
+takže změna y lomeno změna x.
+
+02:57.406 --> 03:02.639
+Z tohoto bodu k tomuto bodu.
+A nejspíš už to znáte ze základní algebry.
+
+03:02.639 --> 03:05.142
+To je sklon přímky mezi dvěma body.
+
+03:05.142 --> 03:12.946
+Pokud mám přímku spojující tyto dva
+body, pak toto je směrnice přímky.
+
+03:12.946 --> 03:22.815
+Změna vzdálenosti je tohle. Změna ‚y‘ je
+100 m a naše změna času je toto zde.
+
+03:22.815 --> 03:27.401
+Takže uběhlý čas se rovná 9,58 sekund.
+
+03:27.401 --> 03:30.251
+Začneme na 0,
+a dostáváme se na 9,58 sekund.
+
+03:30.251 --> 03:32.811
+Můžeme se na to dívat
+i jinak: (y - y1) / (x - x1).
+
+03:32.811 --> 03:34.752
+Možná jste se s tím v algebře setkali.
+
+03:34.752 --> 03:37.586
+Bude to 100 metrů lomeno 9,58 sekund.
+
+03:37.586 --> 03:42.483
+Tak to je 100 metrů za 9,58 sekund.
+
+03:42.483 --> 03:45.787
+A směrnice je v podstatě
+jen rychlost změny,
+
+03:45.787 --> 03:49.502
+nebo si ji lze představit jako průměrnou
+rychlost změn mezi těmito dvěma body.
+
+03:49.502 --> 03:51.369
+A vidíte, pokud si všímáte jednotek,
+
+03:51.369 --> 03:54.066
+že to jsou jednotky rychlosti.
+
+03:54.066 --> 03:57.080
+Kdybychom chtěli rychlost jako vektor,
+museli bychom udat směr.
+
+03:57.080 --> 04:06.423
+A můžeme začít počítat.
+Vytáhnu kalkulačku.
+
+04:06.423 --> 04:19.654
+Takže běžíme 100 metrů za 9,58
+sekund a to je přibližně 10,4.
+
+04:19.654 --> 04:23.727
+Jednotky jsou metry za sekundu.
+
+04:23.727 --> 04:28.270
+A to je jeho průměrná rychlost.
+A za chviličku si ukážeme,
+
+04:28.270 --> 04:32.869
+jak se průměrná rychlost
+liší od okamžité rychlosti.
+
+04:32.869 --> 04:36.071
+Jak se liší od rychlosti, kterou běží
+ve kterémkoli daném okamžiku.
+
+04:36.071 --> 04:38.270
+A abychom měli pojem
+o tom, jak rychle to je,
+
+04:38.270 --> 04:41.636
+tak vytáhnu zpátky kalkulačku.
+To je v metrech za sekundu.
+
+04:41.636 --> 04:48.612
+Pokud chcete vědět, kolik metrů uběhne
+za hodinu, tak v hodině je 3600 vteřin.
+
+04:48.612 --> 04:51.283
+Bude schopen uběhnout
+tolik metrů krát 3600.
+
+04:51.283 --> 04:55.953
+Tak to je tolik, kolik metrů uběhne, pokud
+zvládne rychlost udržet celou hodinu.
+
+04:55.953 --> 04:58.643
+Takto rychle běží v metrech za hodinu.
+
+04:58.643 --> 05:02.505
+A kdybyste měli říct, kolik je to mil
+za hodinu, tak míle je zhruba 1600m,
+
+05:02.505 --> 05:06.329
+nevím to přesně, ale zhruba 1600 metrů.
+
+05:06.329 --> 05:07.854
+Takže to vydělíme 1600.
+
+05:07.854 --> 05:13.946
+A vidíte, že je to zhruba něco
+málo přes 23,5 mil za hodinu.
+
+05:13.946 --> 05:29.683
+Je to přibližně 23,5 mil za hodinu.
+
+05:29.683 --> 05:31.719
+A vzhledem k autu
+to není moc rychle,
+
+05:31.719 --> 05:34.416
+ale vzhledem k mé rychlosti
+je to extrémně rychlé tempo.
+
+05:34.416 --> 05:38.235
+Abychom si představili, v čem
+je to jiné než okamžitá rychlost,
+
+05:38.235 --> 05:42.113
+tak se pojďme zamyslet nad reálným grafem
+uběhlé vzdálenosti v závislosti na čase.
+
+05:42.113 --> 05:44.681
+On nepoběží okamžitě plnou rychlostí.
+
+05:44.681 --> 05:46.838
+Nevyběhne tak rychle
+přesně v okamžiku staru.
+
+05:46.838 --> 05:49.636
+Nepoběží rychlostí 23,5 mil
+za hodinu celou cestu.
+
+05:49.636 --> 05:51.402
+Bude muset zrychlit.
+
+05:51.402 --> 05:57.604
+Takže zpočátku, začne trochu pomaleji. Ten
+sklon bude o trochu nižší než průměrný.
+
+05:57.604 --> 06:00.109
+Bude trochu pomalejší.
+Pak začne zrychlovat.
+
+06:00.109 --> 06:01.844
+A tak jeho rychlost
+
+06:01.844 --> 06:05.038
+a vidíte, že zde je křivka
+stále strmější a strmější
+
+06:05.038 --> 06:09.040
+a pak možná na konci
+už začne trošku zpomalovat.
+
+06:09.040 --> 06:12.486
+A tak graf jeho uběhlé vzdálenosti
+v závislosti na čase může být křivka,
+
+06:12.486 --> 06:14.147
+která vypadá asi takto.
+
+06:14.147 --> 06:19.818
+A co jsme zde vypočítali je jen průměrná
+směrnice za celý časový interval.
+
+06:19.818 --> 06:23.040
+Můžeme vidět, v daných
+okamžicích je směrnice jiná.
+
+06:23.040 --> 06:28.453
+Na začátku má pomalejší
+rychlost přírůstku vzdálenosti.
+
+06:28.453 --> 06:31.337
+Pak tady zrychluje, a vypadá to,
+
+06:31.337 --> 06:33.691
+že rychlost přírůstku
+vzdálenosti by byla zhruba…
+
+06:33.691 --> 06:36.770
+Nebo si to představte
+jako směrnici tečny v tomto bodě.
+
+06:36.770 --> 06:38.838
+Vypadá to vyšší než
+jeho průměrná rychlosti.
+
+06:38.838 --> 06:43.761
+A pak začne zpomalovat.
+Průměrně běží 23.5 mil za hodinu.
+
+06:43.761 --> 06:51.134
+A našel jsem si, že okamžitá nejvyšší
+rychlost Usaina Bolta je 30 mil za hodinu.
+
+06:51.134 --> 06:54.590
+Takže směrnice tady by
+mohla být 23 mil za hodinu,
+
+06:54.590 --> 07:00.650
+ale jeho nejrychlejší bod v těchto 9,58
+sekundách se blíží k 30 mílím za hodinu.
+
+07:00.650 --> 07:03.410
+A vidíte, že to není triviální záležitost.
+
+07:03.410 --> 07:06.911
+Mohli byste říct: ok, zkusme se přiblížit
+této směrnici.
+
+07:06.911 --> 07:13.068
+A mohli byste říct: jaký je tady
+přírůstek ‚y‘ děleno přírůstkem ‚x‘?
+
+07:13.068 --> 07:18.173
+Mohli byste říct: vezmu
+nějaký přírůstek ‚x‘,
+
+07:18.173 --> 07:21.020
+a přijdu na to, jaký je
+odpovídající přírůstek ‚y‘.
+
+07:21.020 --> 07:25.250
+Takže to máme, ale
+stále to bude přibližně.
+
+07:25.250 --> 07:28.404
+Protože vidíte, že sklon této
+křivky se neustále mění.
+
+07:28.404 --> 07:33.534
+Potřebujete vědět, co se stane, když
+přírůstek ‚x‘ bude menší a menší.
+
+07:33.534 --> 07:35.817
+A jak se zmenšuje přírůstek
+‚x‘ na menší a menší,
+
+07:35.817 --> 07:37.554
+tak získáte lepší přiblížení.
+
+07:37.554 --> 07:40.538
+Váš přírůstek ‚y‘ bude menší a menší.
+
+07:40.538 --> 07:44.601
+Dostaneme se hlouběji do tohoto
+oboru a budeme jej studovat důsledněji,
+
+07:44.601 --> 07:50.094
+takže chcete limitu
+přírůstku ‚x‘ blížící se nule.
+
+07:50.094 --> 07:57.589
+Přírůstek ‚x‘ se blíží nule ve členu:
+přírůstek ‚y‘ lomeno přírůstek ‚x‘,
+
+07:57.589 --> 08:03.038
+a když to uděláte, tak se
+přiblížíte okamžité rychlosti.
+
+08:03.038 --> 08:06.031
+Můžete si to představit jako
+okamžitý sklon v tomto bodě křivky.
+
+08:06.031 --> 08:08.459
+Nebo směrnici tečny v tomto bodě křivky.
+
+08:08.459 --> 08:12.519
+Nebo pokud používáme terminologii
+matematické analýzy, tak to je derivace.
+
+08:12.519 --> 08:16.714
+Takže směrnice tečny je derivace.
+
+08:16.714 --> 08:22.191
+A zápis, který používáme pro
+derivace je ‚dy lomeno dx‘.
+
+08:22.191 --> 08:24.661
+A právě proto jsem vyhradil písmeno y.
+
+08:24.661 --> 08:28.137
+Jak to souvisí se slovem diferenciál?
+
+08:28.137 --> 08:33.486
+Toto ‚dy‘ je diferenciál,
+‚dx‘ je diferenciál.
+
+08:33.486 --> 08:35.233
+A můžete si to představit takto:
+
+08:35.233 --> 08:40.123
+nekonečně malý přírůstek y lomeno
+nekonečně malý přírůstek x.
+
+08:40.123 --> 08:43.820
+A tím, že pracujeme se super
+malými přírůstky ‚y‘ nebo ‚x‘,
+
+08:43.820 --> 08:46.388
+tak jste schopni získat
+okamžitý sklon, směrnici tečny,
+
+08:46.388 --> 08:53.128
+nebo v našem příkladě okamžitou rychlost
+Usaina Bolta právě v tomto momentu.
+
+08:53.128 --> 08:55.025
+Všimněte si, že zde
+nelze dosadit nulu.
+
+08:55.025 --> 08:58.681
+Pokud bychom za ‚x‘ dosadili 0, dostali
+bychom něco nedefinovaného.
+
+08:58.681 --> 09:02.682
+Nemůžete dělit nulou.
+Vezmete limitu blížící se nule
+
+09:02.682 --> 09:05.911
+a všechno si to vysvětlíme
+důsledněji v následujících videích.

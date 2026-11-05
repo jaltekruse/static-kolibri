@@ -1,0 +1,442 @@
+WEBVTT
+
+00:00.556 --> 00:05.186
+Zde jsem nakreslil část grafu funkce
+y se rovná 'x na druhou'.
+
+00:05.373 --> 00:12.336
+Teď použijeme znalosti určitých integrálů
+k výpočtu objemu, nejen plochy.
+
+00:12.510 --> 00:16.601
+Zopakujme si teď, jak postupovat
+při výpočtu obyčejného určitého integrálu.
+
+00:16.921 --> 00:24.355
+Vezmeme-li například určitý integrál
+od 0 do 2 z 'x na druhou', co to znamená?
+
+00:24.560 --> 00:25.818
+Podívejme se na meze.
+
+00:26.022 --> 00:27.811
+V dolní mezi je x rovno 0
+
+00:28.021 --> 00:32.793
+a řekněme, že v tomto místě
+bude x rovno 2.
+
+00:32.990 --> 00:38.101
+Integrací děláme to, že ke každému x
+vezmeme malou úsečku ‚dx‘…
+
+00:38.301 --> 00:41.023
+Řekněme, že toto je malé ‚dx‘…
+
+00:41.209 --> 00:45.470
+Tuto úsečku násobíme funkční hodnotou,
+tedy krát 'x na druhou'.
+
+00:45.764 --> 00:52.268
+Tuto úsečku o šířce ‚dx‘
+násobíme právě touto úsečkou,
+
+00:52.440 --> 00:54.820
+která má výšku 'x na druhou'.
+
+00:55.034 --> 00:57.967
+Tím získáme obsah tohoto úzkého obdélníku.
+
+00:58.193 --> 01:04.772
+Symbol integrálu pak značí
+součet všech obdélníčků.
+
+01:04.915 --> 01:09.092
+Každý je nad jedním z nekonečně mnoha ‚x‘,
+která se nacházejí mezi 0 a 2.
+
+01:09.290 --> 01:15.901
+Uvědomme si, že délku ‚dx‘ bereme
+menší a menší, až nekonečně malou,
+
+01:16.101 --> 01:17.784
+ale nikdy ne nulovou.
+
+01:17.930 --> 01:19.977
+Těchto malých úseček
+máme nekonečně mnoho.
+
+01:20.100 --> 01:22.152
+V tom tkví celá podstata
+určitého integrálu.
+
+01:22.240 --> 01:25.071
+Představa je taková,
+že jak se ‚dx‘ stávají menší a menší,
+
+01:25.190 --> 01:28.763
+jsou i obdélníčky nad nimi užší a užší,
+přičemž roste i jejich počet.
+
+01:28.911 --> 01:32.890
+Čím více jich je, tím blíže je jejich
+součet roven ploše pod křivkou,
+
+01:33.029 --> 01:36.013
+až v limitě máme přesně
+obsah pod křivkou.
+
+01:36.263 --> 01:38.334
+Stejnou myšlenku teď uplatníme,
+
+01:38.460 --> 01:40.513
+abychom vypočítali
+nikoliv obsah,
+
+01:40.630 --> 01:44.738
+ale objem tělesa vzniklého
+rotací této křivky podél osy x.
+
+01:44.928 --> 01:48.353
+To nám procvičí představivost.
+
+01:48.783 --> 01:53.981
+Pokuste si představit, co se stane,
+bude-li se naše křivka otáčet kolem osy x.
+
+01:55.193 --> 01:59.994
+Vytvoří tak plášť tělesa,
+na které se díváme mírně zprava.
+
+02:00.210 --> 02:03.616
+Těleso má kruhovou podstavu,
+která pak vypadá asi takto.
+
+02:03.793 --> 02:06.503
+Lépe to nakreslit neumím.
+
+02:06.844 --> 02:14.018
+Máme tedy podstavu
+a naše funkce pak tvoří plášť,
+
+02:14.180 --> 02:15.844
+funkci uvažujeme jen mezi 0 a 2.
+
+02:16.020 --> 02:20.203
+Těleso vypadá jako trychtýř
+nebo jako vrchol libereckého Ještědu
+
+02:20.370 --> 02:23.237
+nebo jako podivný klobouk.
+
+02:23.800 --> 02:31.282
+Ještě tomu dodám trochu stínování,
+aby to vypadalo víc trojrozměrně.
+
+02:31.400 --> 02:35.389
+Tak nějak tedy vypadá těleso
+vzniklé rotací naší křivky.
+
+02:35.590 --> 02:37.936
+Nás zajímá celý jeho objem.
+
+02:38.110 --> 02:40.385
+Nakreslím ho ještě z jiného úhlu.
+
+02:40.662 --> 02:45.040
+Postavené na podstavu vypadá těleso takto.
+
+02:45.213 --> 02:48.202
+Takto už skutečně trochu
+připomíná podivný klobouk.
+
+02:48.405 --> 02:52.787
+Směrem nahoru se špičatí a zakřivuje.
+
+02:53.188 --> 02:54.706
+Vypadá nějak takto,
+
+02:54.856 --> 02:59.691
+ovšem z tohoto úhlu nevidíme podstavu.
+
+02:59.917 --> 03:05.928
+Jen pro vaši orientaci,
+takto vypadají při tomto pohledu osy:
+
+03:06.060 --> 03:09.758
+Toto je osa y.
+
+03:09.916 --> 03:16.454
+Osa x prochází přímo skrz těleso
+a na druhé straně z něho leze ven.
+
+03:16.650 --> 03:21.852
+Kdyby bylo těleso průhledné,
+byla by vidět zadní strana
+
+03:21.960 --> 03:23.600
+a také hrana podstavy.
+
+03:23.819 --> 03:28.457
+Osa x by, v případě průhledného tělesa,
+pronikala podstavou v tomto místě,
+
+03:28.626 --> 03:32.784
+procházela tělesem
+a těleso opouštěla ve špičce.
+
+03:32.880 --> 03:36.077
+To je jen jiný pohled na stejnou věc,
+
+03:36.260 --> 03:38.097
+jde jen o způsob nakreslení.
+
+03:38.694 --> 03:41.041
+Zajímejme se teď o to,
+jak spočítat objem tělesa.
+
+03:41.442 --> 03:45.032
+Zapomeňme teď na obsahy
+jednotlivých obdélníčků.
+
+03:45.177 --> 03:50.999
+Představme si jejich rotaci kolem osy x.
+
+03:51.212 --> 03:55.470
+Vezměme si pro začátek jeden obdélníček,
+který se nám tu tyčí nad dx,
+
+03:55.675 --> 04:04.919
+a nechme ho rotovat kolem osy x.
+
+04:05.060 --> 04:08.483
+Co vznikne?
+
+04:08.600 --> 04:13.763
+Vznikne cosi, co připomíná minci,
+úzký kotouč nebo nízký válec.
+
+04:13.970 --> 04:22.093
+Nakreslím ho i vedle do našeho klobouku.
+
+04:22.230 --> 04:27.432
+Má výšku ‚dx‘.
+
+04:27.638 --> 04:30.993
+Jak teď zjistíme objem takového válce?
+
+04:31.170 --> 04:32.634
+Nakreslím ho ještě zvlášť.
+
+04:33.050 --> 04:35.469
+Dělat si náčrtky je tu velice přínosné.
+
+04:35.627 --> 04:38.413
+Mám osu x.
+
+04:38.857 --> 04:49.545
+Můj kotouč, válec, vypadá takto,
+osa x prochází jeho středem, kolmo na něj.
+
+04:49.729 --> 05:01.504
+Zde je povrch jedné podstavy
+a tady výška válce.
+
+05:01.698 --> 05:05.459
+A ještě trochu stínování pro efekt.
+
+05:05.677 --> 05:07.592
+Co tedy onen objem?
+
+05:07.784 --> 05:12.166
+Jako u každého válce nám
+bude stačit znát obsah podstavy
+
+05:12.360 --> 05:13.923
+a ten vynásobit výškou válce.
+
+05:14.100 --> 05:15.759
+Jaký obsah má tedy podstava?
+
+05:16.068 --> 05:20.448
+Víme, že obsah kruhu je roven
+π krát 'poloměr na druhou'.
+
+05:20.648 --> 05:27.033
+Kdybychom tedy znali poloměr,
+znali bychom i obsah podstavy.
+
+05:27.215 --> 05:28.682
+Jaký má tedy poloměr?
+
+05:28.923 --> 05:31.660
+Stejný jako výška obdélníčku,
+jež jsme nechali rotovat.
+
+05:31.886 --> 05:35.798
+Pro každé ‚x‘, je výška obdélníčku nad ‚x‘
+rovna hodnotě funkce v daném ‚x‘.
+
+05:35.967 --> 05:38.273
+V tomto případě je
+f(x) rovno 'x na druhou'.
+
+05:38.830 --> 05:44.085
+Takový je tedy i onen poloměr,
+je roven 'x na druhou'.
+
+05:44.290 --> 05:55.740
+Obsah podstavy pro dané ‚x‘ je tedy
+roven π krát 'f(x) na druhou'.
+
+05:55.927 --> 06:00.716
+V tomto případě je
+f(x) rovno 'x na druhou'.
+
+06:00.902 --> 06:02.459
+Jak bude vypadat náš objem?
+
+06:02.645 --> 06:06.160
+Bude to obsah podstavy krát výška.
+
+06:06.328 --> 06:12.801
+Výška válečku je ‚dx‘.
+
+06:12.958 --> 06:23.192
+Objem našeho válečku,
+našeho kotouče nebo mince, jak chcete,
+
+06:23.417 --> 06:31.485
+se rovná obsah podstavy krát dx.
+
+06:32.820 --> 06:39.206
+To se rovná π krát 'x na druhou',
+to celé na druhou,
+
+06:39.400 --> 06:46.295
+tedy π krát 'x na čtvrtou' krát dx.
+
+06:46.543 --> 06:52.031
+Tento výraz nám dává
+objem jednoho kotouče.
+
+06:52.212 --> 07:01.320
+My chceme přece celý klobouk, celý Ještěd,
+celý konec trumpety, dalo by se říct.
+
+07:01.480 --> 07:02.497
+Jak na to?
+
+07:02.738 --> 07:04.713
+Aplikujeme stejnou myšlenku.
+
+07:04.928 --> 07:11.101
+Co když pro objem
+všechny ty kotoučky sečteme,
+
+07:11.338 --> 07:13.856
+podobně jako jsme sčítali
+obdélníčky kvůli obsahu?
+
+07:14.060 --> 07:17.401
+Jenom přepnu na psaní jednou barvou.
+
+07:17.614 --> 07:21.451
+Sečtěme všechny kotoučky závislé na ‚x‘
+pro všechna x od 0 do 2.
+
+07:21.550 --> 07:23.906
+To jsou meze,
+které jsme si určili už na začátku,
+
+07:24.010 --> 07:25.412
+mohli jsme si zvolit i jiné,
+
+07:25.510 --> 07:27.787
+mohli jsme vzít jakékoliv dvě hodnoty.
+
+07:27.980 --> 07:29.878
+Teď máme 0 a 2.
+
+07:30.115 --> 07:34.783
+Proveďme tedy součet
+objemů všech těchto mincí.
+
+07:34.997 --> 07:38.501
+V limitě, to je, když se šířka mincí
+bude pořád změnšovat
+
+07:38.634 --> 07:40.407
+a my budeme mít víc a víc mincí,
+
+07:40.550 --> 07:43.526
+až jich bude nekonečně mnoho
+a budou nekonečně tenké,
+
+07:43.732 --> 07:47.246
+dostaneme objem klobouku,
+či jak tomu chcete říkat.
+
+07:47.538 --> 07:51.303
+Po vypočtení tohoto integrálu
+tedy získáme objem.
+
+07:51.507 --> 07:53.443
+Umíme ho vypočítat?
+
+07:53.677 --> 07:56.858
+Ano, je to standardní integrál,
+jaký už známe.
+
+07:58.774 --> 08:01.088
+Schválně si ho zkuste
+nejprve spočítat sami.
+
+08:01.380 --> 08:02.487
+π můžeme vytknout.
+
+08:02.640 --> 08:08.617
+To dá π krát integrál
+od 0 do 2 z 'x na čtvrtou' dx.
+
+08:08.750 --> 08:09.954
+Tato barva se mi nelíbí.
+
+08:10.262 --> 08:15.001
+Primitivní funkce k 'x na čtvrtou'
+je 'x na pátou' lomeno 5.
+
+08:15.194 --> 08:21.349
+Máme tedy π krát 'x na pátou' lomeno 5.
+
+08:21.519 --> 08:23.631
+Přičemž naše meze jsou 0 a 2.
+
+08:23.775 --> 08:27.756
+Dostáváme π krát tento výraz, kde x je 2.
+
+08:27.940 --> 08:29.851
+2 na třetí je 8,
+2 na čtvrtou je 16,
+
+08:29.970 --> 08:32.260
+2 na pátou je…
+Napíšu to.
+
+08:32.440 --> 08:38.016
+('2 na pátou' lomeno 5)
+minus ('0 na pátou' lomeno 5).
+
+08:38.479 --> 08:41.214
+To bude rovno…
+'2 na pátou' je 32…
+
+08:41.384 --> 08:49.548
+Takže to máme π krát 32 děleno 5 minus 0.
+
+08:49.818 --> 08:54.116
+32π lomeno 5.
+
+08:54.359 --> 08:59.325
+Hotovo, dokázali jsme vypočítat
+objem tohoto podivného tělesa.

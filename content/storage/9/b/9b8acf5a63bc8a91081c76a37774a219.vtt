@@ -1,0 +1,322 @@
+WEBVTT
+
+00:00.280 --> 00:03.440
+Wir haben verschiedene Definitionen für d(t),
+
+00:03.440 --> 00:04.600
+einmal links und einmal rechts,
+
+00:04.600 --> 00:07.210
+d steht für Distanz und t für Zeit.
+
+00:07.210 --> 00:10.700
+Also wird unsere Distanz als
+eine Zeitfunktion angegeben.
+
+00:10.700 --> 00:13.500
+Links haben wir 3t + 1, und du siehst,
+
+00:13.500 --> 00:16.180
+dass der Graph, der zeigt, wie sich die Distanz
+
+00:16.180 --> 00:18.760
+als Zeitfunktion verändert, eine Gerade ist.
+
+00:18.760 --> 00:27.140
+In der Algebra nennen wir die
+Änderungsrate einer Geraden "Steigung".
+
+00:27.140 --> 00:32.500
+Und wir können für jede Zeitveränderung herausfinden,
+
+00:32.500 --> 00:36.380
+wie sich unsere Distanz verändert.
+
+00:36.380 --> 00:40.880
+Wenn wir in diesem Fall von t=1 auf t=2 wechseln,
+
+00:40.890 --> 00:44.786
+dann ist unsere Zeitveränderung Δt=1.
+
+00:44.786 --> 00:47.030
+Welche Veränderung haben wir in der Distanz?
+
+00:47.030 --> 00:50.640
+Wir gehen von einer Distanz von 4 Metern bei t=1
+
+00:50.760 --> 00:54.110
+zu einer Distanz von 7 Metern bei t=2.
+
+00:54.110 --> 00:58.836
+Unsere Distanzveränderung ist hier also gleich 3.
+
+00:58.840 --> 01:03.500
+Wenn wir die Einheiten dazuschreiben,
+sind das 3 Meter pro Sekunde.
+
+01:03.560 --> 01:07.310
+Unsere Steigung ist die vertikale Veränderung
+
+01:07.310 --> 01:09.297
+dividiert durch die horizontale Veränderung,
+
+01:09.297 --> 01:13.471
+also die Veränderung bei d, Δd dividiert durch Δt,
+
+01:13.480 --> 01:15.920
+was 3 dividiert durch 1 ergibt.
+
+01:15.920 --> 01:19.679
+Wir können es auch als 3 Meter pro Sekunde schreiben,
+
+01:19.680 --> 01:22.840
+und du erkennst es vielleicht als eine Rate.
+
+01:22.840 --> 01:24.960
+Wenn du über die Distanzveränderung
+
+01:24.960 --> 01:26.360
+in Bezug auf die Zeit nachdenkst,
+
+01:26.360 --> 01:29.460
+dann ist diese Rate hier deine Geschwindigkeit.
+
+01:29.460 --> 01:31.760
+Das ist alles eine Wiederholung.
+
+01:31.760 --> 01:35.080
+Das interessante an einer Geraden,
+oder einer linearen Funktion, ist,
+
+01:35.180 --> 01:38.120
+dass sich deine Rate sich an keinem Punkt verändert.
+
+01:38.120 --> 01:40.810
+Die Steigung dieser Geraden
+zwischen beliebigen zwei Punkten
+
+01:40.810 --> 01:43.500
+wird immer 3 sein.
+
+01:43.500 --> 01:46.670
+Das interessante an der rechten Funktion ist,
+
+01:46.670 --> 01:48.260
+dass das nicht stimmt.
+
+01:48.260 --> 01:50.690
+Unsere Änderungsrate verändert sich ständig
+
+01:50.690 --> 01:52.852
+und wir schauen uns das genauer an,
+
+01:52.852 --> 01:55.160
+wenn wir zur Differentialrechnung kommen.
+
+01:55.160 --> 02:01.720
+Dieses Video ist quasi eine Grundlage für
+die Zukunft, wenn wir Differentialrechnung lernen.
+
+02:01.780 --> 02:07.000
+Wir schauen uns die momentane
+Änderungsrate irgendwo an,
+
+02:07.010 --> 02:08.490
+zum Beispiel hier.
+
+02:08.490 --> 02:10.260
+Wenn du über die Steigung einer Geraden nachdenkst,
+
+02:10.260 --> 02:12.640
+die gerade so den Graph berührt,
+
+02:12.640 --> 02:14.420
+sieht sie ungefähr so aus,
+
+02:14.420 --> 02:15.760
+die Steigung einer Tangente.
+
+02:15.760 --> 02:18.220
+Und hier drüben sieht sie etwas steiler aus,
+
+02:18.360 --> 02:20.800
+und hier sieht sie etwas steiler aus.
+
+02:20.800 --> 02:23.160
+Es sieht also so aus, als ob deine
+Änderungsrate sich erhöht,
+
+02:23.160 --> 02:24.780
+während t sich erhöht.
+
+02:24.790 --> 02:28.820
+Wie erwähnt, beschäftigen wir uns später
+mit der momentanen Änderungsrate.
+
+02:28.940 --> 02:38.620
+Aber wir können bereits über die
+durchschnittliche Änderungsrate nachdenken.
+
+02:38.740 --> 02:41.480
+Wenn wir über die durchschnittliche
+Änderungsrate nachdenken wollen,
+
+02:41.480 --> 02:44.700
+nutzen wir das Wissen, das wir in Algebra gelernt haben,
+
+02:44.700 --> 02:47.480
+wir denken über die Steigung von Sekanten nach.
+
+02:47.480 --> 02:49.010
+Was ist eine Sekante?
+
+02:49.010 --> 02:51.080
+Wir nutzen sie in der Geometrie.
+
+02:51.080 --> 02:55.140
+Eine Sekante ist etwas, das eine
+Kurve an zwei Punkten schneidet.
+
+02:55.140 --> 03:00.900
+Wenn wir z.B. eine Gerade haben,
+die bei t=0 und t=1 Schnittpunkte hat.
+
+03:01.020 --> 03:04.580
+Ich zeichne diese Gerade in Orange.
+
+03:04.590 --> 03:08.830
+Das hier ist eine Sekante.
+
+03:09.720 --> 03:12.100
+Du könntest die Steigung der Sekante
+
+03:12.100 --> 03:14.020
+als die durchschnittliche Änderungsrate
+
+03:14.020 --> 03:16.068
+von t=0 zu t=1 ansehen.
+
+03:16.068 --> 03:19.740
+Welche durchschnittliche Änderungsrate haben wir?
+
+03:19.740 --> 03:21.440
+Die Steigung unserer Sekante
+
+03:21.442 --> 03:25.660
+ist die Distanzveränderung dividiert
+durch unsere Zeitveränderung.
+
+03:25.660 --> 03:26.962
+Was ergibt das?
+
+03:26.962 --> 03:31.310
+Unsere Zeitveränderung ist 1 Sekunde.
+
+03:31.310 --> 03:33.238
+Ich schreibe die Einheit dazu.
+
+03:33.240 --> 03:35.420
+Welche Distanzveränderung haben wir?
+
+03:35.520 --> 03:41.360
+Bei t=0 oder d(0)=1 und d(1)=2.
+
+03:41.600 --> 03:44.050
+Unsere Distanz hat sich um 1 Meter vergrößert,
+
+03:44.050 --> 03:46.375
+also haben wir 1 Meter in 1 Sekunde zurückgelegt,
+
+03:46.375 --> 03:49.170
+oder wir könnten sagen, dass unsere
+durchschnittliche Änderungsrate
+
+03:49.170 --> 03:54.360
+in dieser ersten Sekunde von t=0 zu t=1
+1 Meter pro Sekunde beträgt.
+
+03:54.540 --> 04:01.920
+Schauen wir uns an, welche Rate wir
+haben, wenn wir von t=2 zu t=3 gehen.
+
+04:02.100 --> 04:05.440
+Wir können uns wieder die Sekante anschauen,
+
+04:05.440 --> 04:08.200
+und ihre Steigung herausfinden.
+
+04:08.400 --> 04:15.040
+Du könntest auch die durchschnittliche
+Änderungsrate von t=2 zu t=3 verwenden.
+
+04:15.180 --> 04:16.030
+Wie ich bereits erwähnt habe,
+
+04:16.030 --> 04:18.060
+scheint sich die Änderungsrate ständig zu verändern,
+
+04:18.060 --> 04:20.000
+aber wir können uns die durchschnittliche Änderungsrate anschauen.
+
+04:20.000 --> 04:22.170
+Das ist also unsere Distanzveränderung
+
+04:22.170 --> 04:24.170
+dividiert durch unsere Zeitveränderung.
+
+04:24.170 --> 04:32.320
+Was ergibt das? Wenn t=2, ist unsere Distanz=5,
+
+04:32.420 --> 04:34.900
+1, 2, 3, 4, 5.
+
+04:34.910 --> 04:36.840
+Hier haben wir also 5.
+
+04:36.840 --> 04:40.066
+Und wenn t=3 haben wir eine Distanz gleich 10.
+
+04:40.066 --> 04:44.750
+Also 10 hier drüben.
+
+04:44.750 --> 04:47.185
+Unsere Zeitveränderung ist offensichtlich,
+
+04:47.185 --> 04:50.230
+wir sind 1 Sekunde weiter gegangen, also 1 Sekunde,
+
+04:50.230 --> 04:52.420
+und unsere Distanzveränderung hier drüben,
+
+04:52.420 --> 04:55.560
+steigt von 5 auf 10 Meter, also ein Anstieg von 5 Metern.
+
+04:55.560 --> 05:00.070
+Das ergibt also 5 Meter pro Sekunde.
+
+05:00.070 --> 05:01.660
+Dadurch zeigt sich deutlich,
+
+05:01.660 --> 05:04.030
+dass sich unsere durchschnittliche Änderungsrate
+
+05:04.030 --> 05:08.220
+sich zwischen t=0 zu t=1 und t=2 zu t=3 verändert hat.
+
+05:08.320 --> 05:13.580
+Unsere durchschnittliche Änderungsrate ist
+im zweiten Intervall höher als im ersten.
+
+05:13.680 --> 05:17.900
+Es ist sehr interessant, darüber
+nachzudenken, was passieren würde,
+
+05:17.900 --> 05:22.060
+wenn du die Steigung der Sekante an immer enger zusammenliegenden Punkten untersuchen würdest.
+
+05:22.060 --> 05:26.720
+Dann würdest du der Steigung der
+Tangente immer näher kommen,
+
+05:26.820 --> 05:30.660
+und das ist etwas, was wir in Analysis machen werden.

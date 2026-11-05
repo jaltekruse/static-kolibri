@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.472 --> 00:02.093
+Řekněme, že máme funkci
+
+00:02.093 --> 00:07.040
+y se rovná 5 krát 2 na t.
+
+00:07.040 --> 00:08.504
+Někdo by k vám přišel a řekl:
+
+00:08.504 --> 00:10.773
+"Hej, podívej, to je ale zajímavá funkce.
+
+00:10.773 --> 00:17.500
+Ale já jsem zvědavý, líbí se mi číslo 1 111.
+
+00:17.500 --> 00:25.070
+A jsem zvědavý, pro jaké 't' bude
+moje 'y' rovno 1 111."
+
+00:25.556 --> 00:29.211
+Doporučuji vám pozastavit toto video
+a chvíli o tom přemýšlet.
+
+00:29.211 --> 00:36.666
+Pro jakou hodnotu 't' bude naše 'y' rovno
+či alespoň přibližně rovno 1 111.
+
+00:36.823 --> 00:40.970
+Pokud potřebujete, můžete
+použít kalkulačku.
+
+00:41.460 --> 00:43.055
+Předpokládám, že jste to zkusili.
+
+00:43.055 --> 00:44.296
+Pojďme to zkusit společně.
+
+00:44.296 --> 00:48.619
+Takže chceme říct, kdy se 5 krát '2 na t'
+rovná 1 111.
+
+00:48.619 --> 00:49.897
+Zapišme si to.
+
+00:49.897 --> 00:59.226
+Kdy se 5 krát 2 na t rovná se 1 111.
+
+00:59.839 --> 01:01.413
+Kdykoliv děláme něco algebraicky,
+
+01:01.413 --> 01:04.836
+je vždy užitečné zkusit, jestli můžeme
+osamostatnit proměnnou,
+
+01:04.836 --> 01:06.290
+kterou se snažíme vyřešit.
+
+01:06.290 --> 01:10.110
+Hledáme takové t, pro které se levá
+strana rovná pravé.
+
+01:10.412 --> 01:14.357
+Dobrý začátek může být zbavit se této 5
+z levé strany rovnice,
+
+01:14.357 --> 01:15.836
+takže vydělme levou stranu 5.
+
+01:15.836 --> 01:17.881
+Pokud chceme udržet rovnost,
+
+01:17.881 --> 01:20.323
+uděláme stejnou operaci na obou stranách.
+
+01:20.323 --> 01:22.585
+Dostaneme 2 na t…
+
+01:22.585 --> 01:30.767
+2 na t se rovná 1 111 děleno 5.
+
+01:31.156 --> 01:33.656
+Jak zde vyřešíme t?
+
+01:34.026 --> 01:39.024
+Jaká funkce je inverzní
+k exponenciální funkci?
+
+01:39.209 --> 01:40.496
+Ano, bude to logaritmus.
+
+01:40.496 --> 01:46.471
+Řekněme, že 'a na b' se rovná 'c'.
+
+01:46.471 --> 01:56.755
+Pak to znamená, že logaritmus 'c'
+o základu 'a' se rovná 'b'.
+
+01:56.755 --> 01:58.608
+'A na b' se rovná 'c'.
+
+01:58.768 --> 02:00.445
+Logaritmus 'c' o základu 'a' říká:
+
+02:00.445 --> 02:03.229
+Jakou mocninu 'a' potřebuji,
+abych dostal 'c' ?
+
+02:03.229 --> 02:06.478
+Potřebuji umocnit 'a' na 'b', abych dostal 'c'.
+
+02:06.478 --> 02:07.887
+A na b rovná se c.
+
+02:07.887 --> 02:11.585
+Tyto 2 rovnice jsou ekvivalentní.
+
+02:11.725 --> 02:17.625
+Mějme logaritmus o základu 2
+na obou stranách této rovnice.
+
+02:17.625 --> 02:27.334
+Na levé straně máme logaritmus
+'2 na t' o základu 2.
+
+02:27.503 --> 02:36.505
+A na pravé straně máme logaritmus
+'1 111 děleno 5' o základu 2.
+
+02:36.789 --> 02:39.186
+Proč je toto zde potřeba?
+
+02:39.186 --> 02:43.507
+Jakou mocninou musíme umocnit 2
+abychom dostali '2 na t' ?
+
+02:43.690 --> 02:48.452
+Abychom dostali '2 na t',
+musíme umocnit 2 na 't'.
+
+02:48.869 --> 02:52.919
+Tato věc se dá zjednodušit…
+
+02:53.740 --> 02:57.310
+Tato věc se dá zjednodušit na t.
+
+02:57.620 --> 03:01.917
+A na pravé straně máme logaritmus
+o základu 2 a máme zde všechny tyto věci.
+
+03:02.014 --> 03:03.224
+Jen to teď přepíšu,
+
+03:03.224 --> 03:09.976
+t se rovná logaritmus '1 111 děleno 5'
+o základu 2.
+
+03:10.286 --> 03:13.554
+To je výraz, který nám vrátí naši
+hodnotu 't',
+
+03:13.554 --> 03:16.429
+ale další otázkou je, jak zjistíme,
+co je toto.
+
+03:16.813 --> 03:18.245
+Pokud si vezmete kalkulačku,
+
+03:18.245 --> 03:23.222
+rychle zjistíte, že nemá žádné tlačítko
+pro "logaritmus o základu 2",
+
+03:23.222 --> 03:25.083
+takže, jak to vlastně spočítáme?
+
+03:25.083 --> 03:29.963
+Jen musíme aplikovat velmi užitečnou
+vlastnost exponentů.
+
+03:30.150 --> 03:40.658
+Pokud máme logaritmus o základu 2
+v podstatě čehokoliv.
+
+03:40.658 --> 03:41.976
+Zapíšu to takto.
+
+03:41.976 --> 03:45.639
+Jestliže máme logaritmus 'c'
+o základu 'a',
+
+03:45.639 --> 03:51.570
+můžeme to spočítat jako logaritmus 'c'
+o libovolném základu,
+
+03:51.570 --> 03:56.402
+děleno logaritmus 'a' o stejném
+libovolném základu.
+
+03:56.402 --> 03:58.267
+Tyto libovolné základy musí být shodné.
+
+03:58.267 --> 04:01.104
+Kalkulačka se hodí, protože má logaritmy.
+
+04:01.104 --> 04:03.465
+Když zmáčkněte log,
+je to logaritmus o základu 10.
+
+04:03.465 --> 04:06.829
+Pokud zmáčknete ln, je to přirozený log
+nebo log o základu 'e'.
+
+04:06.829 --> 04:11.126
+Rád používám log o základu 10,
+takže toto bude stejné jako
+
+04:11.126 --> 04:16.576
+log '1 111 děleno 5' o základu 10
+
+04:16.576 --> 04:21.083
+děleno log 2 o základu 10.
+
+04:21.083 --> 04:22.933
+Můžeme vytáhnout kalkulačku
+
+04:22.933 --> 04:26.339
+a mohli bychom použít jako základ 'e',
+což by byl přirozený logaritmus.
+
+04:26.339 --> 04:28.092
+Ale použiji tlačítko log.
+
+04:28.092 --> 04:34.497
+Toto je logaritmus '1 111 děleno 5'…
+
+04:35.117 --> 04:37.472
+Takže to je ta část tady.
+
+04:37.472 --> 04:39.453
+Toto je implicitně log o základu 10,
+
+04:39.453 --> 04:41.317
+to je vlastně tlačítko log jako takové.
+
+04:41.317 --> 04:47.065
+Děleno log 2 o základu 10.
+
+04:47.065 --> 04:51.547
+To nám dá 7 a spoustu desetinných míst,
+
+04:51.547 --> 04:59.283
+ale přibližně je to rovno 7,796.
+
+04:59.283 --> 05:05.151
+Toto je rovno přibližně 7,796.
+
+05:05.151 --> 05:07.209
+Takže pokud je 't' zhruba stejné,
+
+05:07.209 --> 05:10.950
+potom se 'y' bude rovnat 1 111.

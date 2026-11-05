@@ -1,0 +1,364 @@
+WEBVTT
+
+00:00.452 --> 00:02.100
+Tvrzení, které si
+nyní ukážeme
+
+00:02.100 --> 00:04.254
+nebo o kterém v tomto
+videu získáme intuici,
+
+00:04.254 --> 00:07.999
+použijeme v důkazu pravidla
+pro derivaci složené funkce.
+
+00:07.999 --> 00:09.179
+Nebo v
+jednom z důkazů,
+
+00:09.179 --> 00:13.307
+možná si totiž ukážeme víc než jeden důkaz
+pravidla pro derivaci složené funkce.
+
+00:13.307 --> 00:14.846
+Teď se ale podívejme
+na tvrzení,
+
+00:14.846 --> 00:18.469
+které říká, že když máme
+nějakou funkci ‚u‘ proměnné x,
+
+00:18.474 --> 00:26.758
+o které víme, že je
+spojitá v bodě x rovno ‚c‘...
+
+00:26.758 --> 00:30.129
+Když tohle víme,
+tak z toho plyne,
+
+00:30.129 --> 00:41.324
+že změna hodnot ‚u‘ se blíží k 0, když
+se změna x okolo bodu ‚c‘ blíží k 0.
+
+00:41.324 --> 00:43.351
+Chci, abychom o tomhle
+získali intuici.
+
+00:43.351 --> 00:45.686
+Pokud je ‚u‘ spojitá
+v bodě ‚c‘,
+
+00:45.686 --> 00:52.976
+tak když je změna hodnot x okolo bodu ‚c‘
+stále menší a menší, tedy blíží se k 0,
+
+00:52.976 --> 00:57.456
+tak změna hodnot funkce ‚u‘
+se také blíží k 0.
+
+00:57.456 --> 01:03.392
+Zamysleme se teď nad tím a
+zkusme si to trochu formálněji dokázat.
+
+01:03.400 --> 01:07.295
+Nejprve se zamysleme nad tím,
+co znamená spojitost v bodě x rovno ‚c‘.
+
+01:07.295 --> 01:14.004
+Definice spojitosti říká,
+že tohle je totéž jako říci,
+
+01:14.004 --> 01:22.614
+že limita pro x blížící se k ‚c‘
+z funkce u(x) se rovná u(c),
+
+01:22.614 --> 01:27.205
+tedy že hodnota, ke které se naše funkce
+limitně blíží, když se x blíží k ‚c‘,
+
+01:27.205 --> 01:29.298
+se rovná funkční
+hodnotě v bodě ‚c‘.
+
+01:29.298 --> 01:33.431
+Nedochází k žádné odstranitelné
+nespojitosti ani nespojitosti 1. druhu.
+
+01:33.431 --> 01:38.211
+Kdyby tu byla nespojitost 1. druhu, tak by
+limita neexistovala, to už jsme viděli.
+
+01:38.211 --> 01:40.750
+Tohle teď algebraicky
+upravím tak,
+
+01:40.750 --> 01:44.632
+abychom došli
+k tomuto závěru.
+
+01:44.632 --> 01:46.652
+Tohle můžeme přepsat...
+
+01:46.652 --> 01:49.959
+Je důležité si uvědomit, že u(c)
+je jen nějaká hodnota.
+
+01:49.959 --> 01:53.991
+Možná to může vypadat, jako že
+je to funkce proměnné x nebo tak,
+
+01:53.991 --> 01:55.950
+ale tak to není, je to
+jen nějaká hodnota.
+
+01:55.950 --> 01:58.819
+Dosadil jsem ‚c‘ a vyčíslil
+jsem funkci v tomto bodě,
+
+01:58.819 --> 02:03.367
+takže je to nějaké číslo,
+třeba 5, 7, π nebo −1.
+
+02:03.367 --> 02:06.778
+Důležité je, že je to jen nějaká
+hodnota, nějaká konstanta.
+
+02:06.778 --> 02:08.795
+Budu s tím tedy jako
+s konstantou zacházet.
+
+02:08.795 --> 02:12.397
+Toto je tedy
+totéž jako říci,
+
+02:12.397 --> 02:23.938
+že limita pro x blížící se k ‚c‘
+z (u(x) minus u(c)) se rovná 0.
+
+02:23.938 --> 02:28.508
+Ve videu s důkazem toho, že
+diferencovatelnost implikuje spojitost,
+
+02:28.508 --> 02:32.624
+jsme s tímhle začali
+a dokázali jsme tohle.
+
+02:32.624 --> 02:35.032
+Ukázali jsme, že tato
+tvrzení jsou ekvivalentní.
+
+02:35.032 --> 02:36.922
+Snad to i souhlasí
+s vaší intuicí.
+
+02:37.632 --> 02:40.392
+Pokud je limita pro
+u(x) blížící se...
+
+02:40.392 --> 02:43.564
+Pokud je limita u(x) pro
+x blížící se k ‚c‘ rovna tomuhle,
+
+02:43.564 --> 02:46.878
+tak když spočítáme tuhle
+limitu pro x blížící se k ‚c‘,
+
+02:46.878 --> 02:51.861
+tak tohle se bude blížit k u(c),
+protože to máme tady nahoře,
+
+02:51.861 --> 02:55.751
+a u(c) minus u(c) se
+skutečně rovná 0.
+
+02:55.758 --> 02:58.371
+Snad vám tedy nepřipadá,
+že si tu vymýšlím.
+
+02:58.371 --> 03:03.140
+Od obou stran můžete odečíst u(c)
+a použít vlastnosti limit
+
+03:03.140 --> 03:05.429
+a taky vám
+vyjde tohle.
+
+03:05.429 --> 03:09.610
+Tohle už je zajímavé, protože
+nás to dovede až k tomuhle,
+
+03:09.625 --> 03:15.023
+tedy že když je změna x stále
+menší a menší, až se blíží k 0,
+
+03:15.023 --> 03:18.657
+tak změna hodnot naší
+funkce se také blíží k 0.
+
+03:18.657 --> 03:24.042
+Zkusme si to nakreslit, abychom si to lépe
+představili a aby to dávalo větší smysl.
+
+03:24.042 --> 03:32.452
+Tohle bude osa x.
+
+03:32.475 --> 03:35.528
+Tohle můžeme
+nazvat jako osu ‚u‘.
+
+03:35.528 --> 03:36.731
+Schválně jsem
+použil ‚u‘,
+
+03:36.731 --> 03:41.527
+protože tohle písmeno použijeme v důkazu
+pravidla pro derivaci složené funkce.
+
+03:41.527 --> 03:45.276
+Řekněme, že tohle
+je naše funkce.
+
+03:45.276 --> 03:49.999
+Zde je bod ‚c‘
+
+03:49.999 --> 03:56.401
+a tohle je u(c).
+
+03:56.401 --> 04:00.994
+A potom někde tady
+zvolme libovolný bod x.
+
+04:00.994 --> 04:11.667
+Tady bude naše libovolné x
+a tohle bude u(x).
+
+04:11.667 --> 04:16.425
+Když zadefinujeme
+změnu...
+
+04:16.425 --> 04:17.225
+Napíšu to.
+
+04:17.225 --> 04:23.395
+...když změnu ‚u‘ zadefinujeme
+jako u(x) minus u(c),
+
+04:23.396 --> 04:27.726
+což dává smysl, protože tohle
+je změna hodnoty ‚u‘.
+
+04:27.726 --> 04:34.106
+Tohle se tedy rovná
+u(x) minus u(c).
+
+04:34.106 --> 04:40.038
+Když dále změnu x
+zadefinujeme jako x minus c,
+
+04:40.038 --> 04:46.512
+což je v tomhle případě pravda,
+skutečně je to x minus c,
+
+04:46.512 --> 04:49.540
+tak tuto limitu
+můžeme přepsat.
+
+04:49.540 --> 04:52.418
+Namísto limity
+pro x blížící se k ‚c‘
+
+04:52.418 --> 04:55.982
+můžeme napsat limitu
+pro delta x blížící se k 0,
+
+04:55.982 --> 05:01.022
+protože jestliže se x blíží k ‚c‘,
+delta x se blíží k 0.
+
+05:01.022 --> 05:11.678
+Můžeme tedy napsat, že limita pro delta x
+blížící se k 0 z delty ‚u‘ se rovná 0.
+
+05:11.678 --> 05:15.059
+Toto jsme zadefinovali jako změnu ‚u‘
+a skutečně to je změna ‚u‘.
+
+05:15.059 --> 05:18.005
+Tohle se tedy
+rovná 0.
+
+05:18.005 --> 05:21.309
+Můžeme se na to
+tedy dívat také tak,
+
+05:21.309 --> 05:27.300
+že jak se delta x blíží k 0, změna ‚u‘,
+tedy změna funkčních hodnot, se blíží k 0.
+
+05:27.310 --> 05:38.492
+Tedy když se delta x blíží k 0,
+delta ‚u‘ se také blíží k 0.
+
+05:38.492 --> 05:39.742
+A to je to,
+co jsme chtěli.
+
+05:39.742 --> 05:43.235
+Delta ‚u‘ se blíží k 0,
+když se delta x blíží k 0.
+
+05:43.235 --> 05:47.124
+V mnoha ohledech to snad
+odpovídá zdravému rozumu.
+
+05:47.124 --> 05:50.368
+Máme spojitou funkci,
+a když máme stále menší...
+
+05:50.368 --> 05:51.709
+Můžeme se na
+to dívat takhle.
+
+05:51.709 --> 05:54.357
+...když máme stále
+menší změny x,
+
+05:54.357 --> 05:58.919
+tedy když je změna x
+stále menší a menší a menší,
+
+05:58.919 --> 06:00.392
+tak protože
+funkce je spojitá...
+
+06:00.392 --> 06:02.677
+O nespojité funkci
+byste tohle říct nemohli.
+
+06:02.677 --> 06:04.177
+...protože funkce
+je spojitá...
+
+06:04.184 --> 06:07.962
+Přesněji byste to nemohli říct
+o některých nespojitých funkcích.
+
+06:07.962 --> 06:11.041
+Když je změna x stále
+menší a menší,
+
+06:11.041 --> 06:14.044
+tak i změna ‚u‘ bude
+stále menší a menší.
+
+06:14.044 --> 06:15.317
+Intuitivně to
+dává smysl
+
+06:15.328 --> 06:19.292
+a tohle vám to snad udělalo ještě
+jasnější, protože tohle tvrzení použijeme,
+
+06:19.292 --> 06:23.967
+abychom v dalším videu dokázali
+pravidlo pro derivaci složené funkce.

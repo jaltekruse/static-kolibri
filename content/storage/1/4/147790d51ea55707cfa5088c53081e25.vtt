@@ -1,0 +1,725 @@
+WEBVTT
+
+00:00.432 --> 00:01.792
+Agora que gastamos um tempo
+
+00:01.792 --> 00:04.083
+pensando sobre o que
+é uma equação diferencial
+
+00:04.083 --> 00:05.356
+e até visualizado soluções
+
+00:05.356 --> 00:08.578
+para equações diferenciais usando
+coisas como campo de inclinação,
+
+00:08.578 --> 00:10.572
+vamos começar a ver
+se podemos realmente
+
+00:10.572 --> 00:12.500
+resolver equações diferenciais.
+
+00:12.005 --> 00:14.957
+Como veremos, tipos diferentes
+de equações diferenciais
+
+00:14.957 --> 00:18.544
+podem exigir diferentes técnicas
+e algumas não conseguimos
+
+00:18.544 --> 00:20.583
+resolver tudo usando
+técnicas analíticas.
+
+00:19.989 --> 00:23.136
+Teríamos que recorrer
+a técnicas numéricas
+
+00:23.136 --> 00:24.691
+para estimar as soluções.
+
+00:24.711 --> 00:26.500
+Mas vamos ao
+que eu diria ser
+
+00:26.500 --> 00:29.947
+a forma mais simples de
+resolver uma equação diferencial
+
+00:29.947 --> 00:32.466
+e isso é chamado de variáveis separáveis
+
+00:32.466 --> 00:35.433
+Equação diferencial de
+variáveis separáveis
+
+00:35.433 --> 00:37.823
+E vamos ver em um
+segundo porque isso é chamado
+
+00:37.823 --> 00:40.035
+de equação diferencial
+de variáveis separáveis.
+
+00:40.035 --> 00:44.063
+Então, vamos dizer que
+temos a derivada de Y
+
+00:44.063 --> 00:49.300
+com relação a X é igual ao X negativo
+
+00:49.003 --> 00:53.783
+sobre Y &lt;i>e&lt;/i> elevado a X ao quadrado.
+
+00:53.783 --> 00:55.870
+Portanto, temos essa equação diferencial
+
+00:55.870 --> 00:58.271
+e queremos encontrar
+a solução particular
+
+00:58.271 --> 01:04.001
+para o ponto zero, um.
+
+01:04.004 --> 01:07.010
+Encorajo você a fazer uma pausa
+e eu vou te dar uma dica.
+
+01:07.010 --> 01:10.866
+Se você pode em um lado
+desta equação através de álgebra
+
+01:10.866 --> 01:13.050
+separar o Ys e os DYS
+
+01:13.005 --> 01:17.187
+e por outro lado
+tem todos os Xs e DXs,
+
+01:17.187 --> 01:18.633
+e depois integrar.
+
+01:18.633 --> 01:21.366
+Talvez você possa encontrar
+a solução particular
+
+01:21.366 --> 01:23.133
+para esta equação diferencial
+
+01:23.133 --> 01:25.133
+que contém esse ponto.
+
+01:25.133 --> 01:27.598
+Agora, se você não pode fazê-lo,
+não se preocupe
+
+01:27.598 --> 01:29.650
+porque estamos prestes
+a trabalhar com ele.
+
+01:29.650 --> 01:32.116
+Então, como disse, vamos usar
+um pouco de álgebra
+
+01:32.116 --> 01:34.001
+para obter todas as Ys e DYS de um lado
+
+01:34.001 --> 01:36.613
+e todos os Xs e DXs no outro lado.
+
+01:36.613 --> 01:39.463
+Portanto, uma forma, digamos que eu
+queira obter todas as Ys
+
+01:39.463 --> 01:41.300
+e DYS no lado esquerdo,
+
+01:41.003 --> 01:43.966
+e todos os Xs e DXs
+no lado direito.
+
+01:43.966 --> 01:46.666
+Bem, eu posso multiplicar
+ambos os lados vezes Y.
+
+01:46.666 --> 01:49.089
+Então eu posso multiplicar
+ambos os lados vezes Y
+
+01:49.089 --> 01:53.303
+que tem o efeito de colocar
+o Ys no lado esquerdo
+
+01:53.303 --> 01:56.128
+e então eu posso multiplicar
+ambos os lados vezes DX.
+
+01:56.128 --> 01:59.076
+Eu posso multiplicar
+ambos os lados vezes DX
+
+01:59.076 --> 02:00.366
+e nós meio que tratamos,
+
+02:00.366 --> 02:02.092
+você pode tratar esses diferenciais
+
+02:02.092 --> 02:03.923
+como você trataria uma variável
+
+02:03.923 --> 02:05.576
+quando você está manipulando isso
+
+02:05.576 --> 02:08.347
+para separar essencialmente as variáveis.
+
+02:08.347 --> 02:12.333
+E assim, esta cancelará com aquela.
+
+02:12.333 --> 02:17.333
+E assim, ficamos com Y, DY.
+
+02:18.006 --> 02:23.006
+Y, DY é igual a X negativo.
+
+02:23.206 --> 02:25.526
+E, na verdade, deixe-me
+escrevê-lo desta forma.
+
+02:25.526 --> 02:29.576
+Deixe-me escrever isso como menos X, vezes &lt;i>e&lt;/i>
+
+02:29.576 --> 02:32.426
+Precisarei de mais espaço
+
+02:32.426 --> 02:39.646
+Menos X vezes &lt;i>e&lt;/i> elevado a X ao quadrado.
+
+02:40.994 --> 02:43.115
+DX.
+
+02:43.115 --> 02:45.021
+E por que isto é interessante?
+
+02:45.021 --> 02:47.543
+Porque nós podemos
+integrar ambos os lados.
+
+02:47.543 --> 02:48.965
+E isto também explica
+
+02:48.470 --> 02:50.375
+porque o chamamos
+de variáveis separáveis
+
+02:50.375 --> 02:52.043
+Você não será capaz de fazer isso
+
+02:52.043 --> 02:53.479
+com cada equação diferencial.
+
+02:53.479 --> 02:55.368
+Você não será capaz de algebricamente
+
+02:55.368 --> 02:57.533
+separar os Ys e DYS de um lado
+
+02:57.533 --> 03:00.098
+e os Xs e DXs no outro lado.
+
+03:00.618 --> 03:02.417
+Mas neste pudemos.
+
+03:02.417 --> 03:04.333
+E é por isso que isto é chamado de
+
+03:04.333 --> 03:07.584
+equação diferencial de
+variáveis separáveis
+
+03:07.906 --> 03:12.694
+Equação diferencial.
+
+03:12.694 --> 03:15.376
+E é geralmente a primeira
+técnica que você deve tentar.
+
+03:15.376 --> 03:17.992
+Ei, eu posso separar os Ys e os Xs
+
+03:17.992 --> 03:19.979
+e como disse, isso
+não vai ser verdade
+
+03:19.979 --> 03:22.667
+em muitas, senão na maioria
+equações diferenciais.
+
+03:22.667 --> 03:24.096
+Mas agora que nós fizemos isso
+
+03:24.096 --> 03:26.094
+podemos integrar ambos os lados.
+
+03:26.094 --> 03:27.814
+Então, vamos fazer isso.
+
+03:27.814 --> 03:30.733
+Então, eu vou encontrar uma boa
+cor para integrar.
+
+03:30.733 --> 03:35.701
+Então, vou integrar ambos os lados.
+
+03:35.701 --> 03:37.097
+Agora, se você integrar o lado esquerdo
+
+03:37.097 --> 03:38.008
+o que você ganha?
+
+03:38.008 --> 03:40.444
+Você começa e lembre-se,
+estamos integrando
+
+03:40.444 --> 03:41.899
+com relação a Y aqui.
+
+03:41.899 --> 03:46.306
+Portanto, esta vai ser Y ao
+quadrado sobre dois
+
+03:46.306 --> 03:48.457
+e poderíamos colocar alguma constante lá.
+
+03:48.457 --> 03:50.867
+Eu poderia chamar isto de C um positivo.
+
+03:50.867 --> 03:52.182
+E se você está integrando
+
+03:52.182 --> 03:53.767
+esse vai ser igual.
+
+03:53.767 --> 03:55.751
+Agora, o lado direito, estamos integrando
+
+03:55.751 --> 03:56.653
+em relação a X.
+
+03:56.653 --> 03:59.083
+E vamos ver, você poderia
+fazer a substituição do U
+
+03:59.083 --> 04:00.946
+ou você poderia reconhecer essa visão,
+
+04:00.946 --> 04:03.247
+a derivado de menos X ao quadrado
+
+04:03.247 --> 04:05.377
+será menos dois X.
+
+04:05.377 --> 04:07.193
+Como tínhamos um dois aqui
+
+04:07.193 --> 04:09.359
+e não queremos alterar o valor da integral
+
+04:09.359 --> 04:10.748
+podemos colocar um meio aqui.
+
+04:10.748 --> 04:12.424
+E então agora você poderia fazer
+
+04:12.424 --> 04:14.501
+a substituição do U explicitamente
+
+04:14.501 --> 04:16.485
+ou você pode fazê-lo de cabeça
+
+04:16.485 --> 04:19.640
+onde você disse que U é igual
+menos X ao quadrado
+
+04:19.640 --> 04:22.869
+e DU será menos dois vezes X dx
+
+04:22.869 --> 04:25.581
+ou você pode fazer isso
+de cabeça neste momento.
+
+04:25.581 --> 04:28.002
+Então, tenho alguma coisa e é derivada
+
+04:28.002 --> 04:30.369
+então eu poderia apenas
+integrar com relação a
+
+04:30.369 --> 04:33.791
+algo também com relação aquele U.
+
+04:33.791 --> 04:37.672
+Portanto, este vai ser meio
+
+04:37.672 --> 04:39.433
+Este meio bem aqui.
+
+04:39.433 --> 04:40.433
+A anti-derivada.
+
+04:40.433 --> 04:43.966
+E isto é &lt;i>e&lt;/i> elevado a menos X ao quadrado
+
+04:43.966 --> 04:46.966
+e então, naturalmente, eu poderia
+ter alguma outra constante.
+
+04:46.966 --> 04:49.946
+Chamarei isto de C2.
+
+04:49.946 --> 04:51.691
+E mais uma vez, se o que fiz nesta
+
+04:51.691 --> 04:53.344
+parte aqui lhe parece estranho,
+
+04:53.344 --> 04:54.575
+a substituição em U,
+
+04:54.575 --> 04:56.316
+você pode querer rever esta parte.
+
+04:56.316 --> 04:58.067
+Agora, o que posso fazer aqui?
+
+04:58.067 --> 04:59.990
+Vamos ter uma constante
+no lado esquerdo.
+
+04:59.990 --> 05:02.484
+É uma constante arbitrária.
+Nós não sabemos o que é.
+
+05:02.484 --> 05:04.833
+Eu não usei essa condição inicial ainda
+
+05:04.833 --> 05:05.866
+poderíamos chamá-la.
+
+05:05.866 --> 05:08.871
+Então, deixe-me apenas subtrair
+C um dos dois lados.
+
+05:09.366 --> 05:12.368
+Então, se eu só subtrair
+C um de ambos os lados
+
+05:12.566 --> 05:15.000
+Eu tenho uma arbitrária assim
+isto vai se cancelar,
+
+05:15.000 --> 05:16.833
+e tenho C dois, desculpe.
+
+05:16.833 --> 05:17.599
+Deixe-me.
+
+05:17.599 --> 05:19.603
+Então, este é C um.
+
+05:19.603 --> 05:21.011
+Assim, estes vão se cancelar
+
+05:21.011 --> 05:22.003
+e C dois menos C um.
+
+05:22.003 --> 05:24.667
+Estas são as duas constantes,
+constantes arbitrárias
+
+05:24.667 --> 05:26.673
+e nós não sabemos o que elas são ainda.
+
+05:26.673 --> 05:29.336
+E assim, nós poderíamos
+apenas reescrever isso como
+
+05:29.633 --> 05:33.635
+no que lado esquerdo
+tem Y ao quadrado sobre dois
+
+05:33.833 --> 05:35.921
+é igual, e do lado direito.
+
+05:35.921 --> 05:38.676
+Escreverei meio vezes &lt;i>e&lt;/i>
+
+05:38.676 --> 05:39.887
+Deixe-me escrever em azul
+
+05:39.887 --> 05:41.769
+Pois já escrevi em azul antes.
+
+05:41.769 --> 05:45.895
+Meio vezes &lt;i>e&lt;/i> elevado a menos X ao quadrado
+
+05:45.895 --> 05:49.108
+e eu vou apenas dizer C dois menos C um.
+
+05:49.123 --> 05:50.655
+Vamos chamar de C.
+
+05:50.655 --> 05:53.236
+Então, se você pegar a soma
+dessas duas coisas
+
+05:53.236 --> 05:56.006
+vamos chamar de C.
+
+05:56.006 --> 05:59.969
+E agora, este é o tipo
+de uma solução geral.
+
+05:59.969 --> 06:02.035
+Não sabemos o valor destas constantes
+
+06:02.035 --> 06:04.423
+e ainda não resolvemos
+explicitamente para Y
+
+06:04.423 --> 06:05.666
+mas mesmo nesta forma
+
+06:05.666 --> 06:07.873
+agora podemos encontrar
+uma solução particular
+
+06:07.873 --> 06:09.489
+utilizando esta condição inicial.
+
+06:09.489 --> 06:10.471
+Deixe-me separá-lo.
+
+06:10.471 --> 06:12.678
+Esta foi uma parte desta
+
+06:12.678 --> 06:14.007
+expressão original bem aqui
+
+06:14.007 --> 06:16.368
+mas utilizando esta condição inicial.
+
+06:16.368 --> 06:18.397
+Ela nos diz que quando X é zero,
+
+06:18.397 --> 06:21.140
+Y tem de ser igual a um.
+
+06:21.140 --> 06:24.566
+Então temos um ao quadrado,
+ou seja, apenas um
+
+06:24.566 --> 06:29.499
+dividido por dois, igual a meio
+
+06:29.499 --> 06:32.905
+vezes &lt;i>e&lt;/i> elevado a zero ao quadrado
+
+06:32.905 --> 06:34.332
+E isto será &lt;i>e&lt;/i> elevado a zero,
+
+06:34.332 --> 06:35.669
+ou seja, será um.
+
+06:35.669 --> 06:37.757
+Isto será meio mais C
+
+06:37.757 --> 06:40.201
+e assim somos capazes de descobrir
+
+06:40.201 --> 06:42.107
+se subtrairmos meio em ambos os lados,
+
+06:42.107 --> 06:45.558
+C é igual a zero.
+
+06:45.558 --> 06:48.257
+Assim, a relação entre Y e X
+
+06:48.257 --> 06:50.096
+que passa por este ponto,
+
+06:50.096 --> 06:53.141
+nós poderíamos apenas
+definir C é igual a zero.
+
+06:53.141 --> 06:55.400
+Então, isso é igual a zero.
+
+06:55.400 --> 06:57.006
+Isso é zero, bem ali.
+
+06:57.006 --> 07:02.526
+E assim ficamos com
+Y ao quadrado sobre dois
+
+07:02.526 --> 07:08.206
+é igual a &lt;i>e&lt;/i>e elevado a menos X
+ao quadrado dividido por dois.
+
+07:08.206 --> 07:10.819
+Agora podemos multiplicar
+ambos os lados por dois
+
+07:10.819 --> 07:13.266
+e vamos obter Y ao quadrado.
+
+07:13.266 --> 07:14.934
+Y ao quadrado.
+
+07:14.934 --> 07:16.041
+Deixe-me fazer isso.
+
+07:16.041 --> 07:17.675
+Então, vamos ter Y ao quadrado
+
+07:17.675 --> 07:23.004
+é igual a menos &lt;i>e&lt;/i> elevado a X ao quadrado.
+
+07:23.004 --> 07:26.316
+Agora, podemos tirar a
+raiz quadrada de ambos os lados
+
+07:26.316 --> 07:27.753
+e você pode dizer, bem, olhe,
+
+07:27.753 --> 07:30.545
+sabemos que Y ao quadrado é igual a isto
+
+07:30.545 --> 07:34.825
+logo, Y pode ser igual ao
+mais ou menos a raiz quadrada
+
+07:34.825 --> 07:37.786
+de &lt;i>e&lt;/i> elevado a menos X ao quadrado.
+
+07:37.786 --> 07:40.651
+de &lt;i>e&lt;/i> elevado a menos X ao quadrado.
+
+07:40.651 --> 07:42.558
+Mas eles nos deram uma condição inicial
+
+07:42.558 --> 07:45.136
+em que Y na verdade é positivo.
+
+07:45.136 --> 07:47.660
+Então, nós estamos encontrando
+a solução particular
+
+07:47.660 --> 07:48.913
+que passa por este ponto.
+
+07:48.913 --> 07:51.526
+Isso significa que Y vai ser
+a raiz quadrada positiva.
+
+07:51.526 --> 07:53.780
+Se fosse o ponto zero, menos um
+
+07:53.780 --> 07:56.158
+então diríamos que Y é
+a raiz quadrada negativa
+
+07:56.158 --> 07:58.474
+mas sabemos que Y é
+a raiz quadrada positiva,
+
+07:58.474 --> 07:59.799
+é a raiz principal bem ali.
+
+07:59.799 --> 08:02.077
+Então deixe-me fazer
+isso um pouco mais limpo
+
+08:02.077 --> 08:03.960
+assim que podemos nos livrar de, ops.
+
+08:03.960 --> 08:06.127
+Eu pensei que eu estava
+escrevendo em preto.
+
+08:06.127 --> 08:08.634
+Então, podemos nos livrar desse bem aqui.
+
+08:08.634 --> 08:09.769
+Nós só vamos lidar com
+
+08:09.769 --> 08:11.853
+a raiz quadrada positiva
+
+08:11.853 --> 08:15.233
+então pudemos escrever Y é igual a &lt;i>e&lt;/i>
+
+08:15.233 --> 08:19.952
+elevado a menos X ao quadrado,
+elevado a meio
+
+08:19.952 --> 08:23.219
+e que, naturalmente, é igual
+
+08:23.219 --> 08:29.626
+&lt;i>e&lt;/i> elevado a menos X ao
+quadrado dividido por dois
+
+08:29.626 --> 08:31.371
+Portanto, isto aqui,
+
+08:31.371 --> 08:36.210
+ou Y é igual a &lt;i>e&lt;/i> elevado a menos
+X ao quadrado dividido por dois
+
+08:36.210 --> 08:37.490
+é uma solução particular
+
+08:37.490 --> 08:39.342
+que satisfaz as condições iniciais
+
+08:39.345 --> 08:41.836
+para esta equação diferencial de origem.
+
+08:41.836 --> 08:43.232
+Assim, apenas como aquele.
+
+08:43.232 --> 08:45.676
+Porque fomos capazes
+de apenas com uma revisão,
+
+08:45.676 --> 08:48.987
+porque essa equação diferencial
+foi a configuração de uma forma
+
+08:48.987 --> 08:50.694
+ou porque podíamos algebricamente
+
+08:50.694 --> 08:53.267
+separar o Y, DYS do Xs, DXs,
+
+08:53.267 --> 08:56.383
+somos capazes de separá-los apenas
+algebricamente,
+
+08:56.383 --> 08:57.776
+integrar ambos os lados
+
+08:57.776 --> 09:00.071
+e usar a informação dada
+na condição inicial
+
+09:00.071 --> 09:02.745
+para encontrar a solução particular.
+
+09:02.745 --> 09:05.065
+Legendado por [Soraia Novaes]
+Revisado por [Rodrigo Melges]

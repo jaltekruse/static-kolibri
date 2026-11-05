@@ -1,0 +1,478 @@
+WEBVTT
+
+00:00.000 --> 00:00.480
+.
+
+00:00.480 --> 00:03.190
+I den her video skal vi se på et eksempel,
+
+00:03.190 --> 00:06.170
+der viser, hvordan man tilpasser data til en linje.
+
+00:06.170 --> 00:08.730
+I stedet for at skrive det på en tavle som vi plejer,
+
+00:08.730 --> 00:11.840
+laver vi det i Excel,
+
+00:11.840 --> 00:14.250
+så man selv kan lave det i Excel
+
+00:14.250 --> 00:18.090
+eller et andet regnearkprogram.
+
+00:18.090 --> 00:19.380
+Vi kommer ikke til at tale om matematikdelen i det.
+
+00:19.380 --> 00:21.540
+Vi skal have en forståelse for,
+
+00:21.540 --> 00:26.840
+hvad det betyder at tilpasse data til en linje.
+
+00:26.840 --> 00:27.880
+Det kaldes lineær regression.
+
+00:27.880 --> 00:29.550
+Lad os læse opgaven.
+
+00:29.550 --> 00:33.550
+Den følgende tabel viser medianindkomsten i Californien.
+
+00:33.550 --> 00:37.190
+Husk, at median betyder midten.
+
+00:37.190 --> 00:40.850
+Vi har data fra 1995 til 2002,
+
+00:40.850 --> 00:42.680
+og dataene er indsamlet af U.S. Census Bureau.
+
+00:42.680 --> 00:45.320
+Tegn et punktdiagram og find ligningen.
+
+00:45.320 --> 00:47.540
+Hvad tror vi, den årlige medianindkomst
+
+00:47.540 --> 00:50.370
+for en familie i Californien i år 2010 er?
+
+00:50.370 --> 00:52.970
+Hvordan spiller hældningen og y-skæringspunktet ind
+
+00:52.970 --> 00:53.580
+i den her opgave?
+
+00:53.580 --> 00:56.050
+.
+
+00:56.050 --> 00:59.060
+Først skal vi sætte dataene i orden,
+
+00:59.060 --> 01:00.920
+så regnearket kan forstå dem.
+
+01:00.920 --> 01:03.830
+Lad os lave nogle tabeller.
+
+01:03.830 --> 01:08.800
+Lad os sige år siden 1995.
+
+01:08.800 --> 01:10.710
+Det her er en kolonne.
+
+01:10.710 --> 01:13.670
+Vi gør den en smule bredere.
+
+01:13.670 --> 01:16.670
+.
+
+01:16.670 --> 01:20.100
+Det her er medianindkomsten i Californien for en familie.
+
+01:20.100 --> 01:23.560
+Vi starter med 0 år efter 1995.
+
+01:23.560 --> 01:28.100
+0, 1, 2, 3, 4.
+
+01:28.100 --> 01:32.710
+Hvis vi vil, kan vi få den til at finde trenden,
+
+01:32.710 --> 01:33.590
+hvis vi fortsætter.
+
+01:33.590 --> 01:36.650
+Regnearket opdager, at vi lægger 1 til hver gang.
+
+01:36.650 --> 01:38.340
+Nu indkomst.
+
+01:38.340 --> 01:39.300
+Vi kopierer de her tal.
+
+01:39.300 --> 01:54.710
+53.807, 55.217, 55.209, 55.415, 63.100,
+
+01:54.710 --> 02:08.680
+63.206, 63.761 og til sidst 65.766 dollar.
+
+02:08.680 --> 02:10.520
+Dem her får vi ikke brug for.
+
+02:10.520 --> 02:13.380
+Vi fjerner dem.
+
+02:13.380 --> 02:14.810
+Lad os sørge for,
+
+02:14.810 --> 02:16.180
+at vi har nok plads.
+
+02:16.180 --> 02:24.040
+1, 2, 3, 4, 5, 6, 7, 8 celler
+
+02:24.040 --> 02:25.570
+og 1, 2, 3, 4, 5, 6, 7, 8 celler.
+
+02:25.570 --> 02:29.930
+Vi skal også sikre os,
+
+02:29.930 --> 02:34.510
+at vi har de rigtige tal.
+
+02:34.510 --> 02:36.040
+Det har vi.
+
+02:36.040 --> 02:38.880
+I Excel er det her utroligt nemt,
+
+02:38.880 --> 02:41.080
+hvis vi ved, hvad vi skal klikke på.
+
+02:41.080 --> 02:44.430
+Indtegn de her data, lav et punktdiagram
+
+02:44.430 --> 02:46.220
+og lav en regression af de her data.
+
+02:46.220 --> 02:48.970
+Først skal vi markere dataene.
+
+02:48.970 --> 02:51.480
+Så klikker vi på indsæt,
+
+02:51.480 --> 02:53.170
+og vi skal indsætte et punktdiagram.
+
+02:53.170 --> 02:54.390
+Nu kan vi vælge mellem flere forskellige
+
+02:54.390 --> 02:56.160
+typer punktdiagrammer.
+
+02:56.160 --> 02:58.820
+Vi vælger punktdiagram med mærker.
+
+02:58.820 --> 02:59.670
+Sådan.
+
+02:59.670 --> 03:02.470
+Nu har den indtegnet alle punkterne.
+
+03:02.470 --> 03:03.050
+.
+
+03:03.050 --> 03:07.320
+Det her er indkomsten,
+
+03:07.320 --> 03:08.870
+og det her er årene siden 1995.
+
+03:08.870 --> 03:10.570
+Det her er 1995.
+
+03:10.570 --> 03:13.710
+Det var 53.807 dollar.
+
+03:13.710 --> 03:17.370
+I 1996 er det 55.217 dollar.
+
+03:17.370 --> 03:19.250
+Den har altså indtegnet alle punkterne.
+
+03:19.250 --> 03:22.110
+Nu skal vi indtegne en linjen.
+
+03:22.110 --> 03:24.000
+Det her er ikke ligefrem en lige linje.
+
+03:24.000 --> 03:27.580
+Hvis vi går ud fra, at en linje
+
+03:27.580 --> 03:31.500
+kan ramme de her punkter nogenlunde, kan Excel gøre det for os.
+
+03:31.500 --> 03:34.580
+Her har vi en masse valgmuligheder
+
+03:34.580 --> 03:37.720
+til at vælge en linje.
+
+03:37.720 --> 03:38.710
+.
+
+03:38.710 --> 03:39.780
+Vi vælger den her.
+
+03:39.780 --> 03:40.940
+Det er måske lidt svært at se.
+
+03:40.940 --> 03:42.460
+Det ser ud som om, den har en linje mellem punkter.
+
+03:42.460 --> 03:45.450
+Den har også fx,
+
+03:45.450 --> 03:46.470
+som fortæller os linjens ligning.
+
+03:46.470 --> 03:49.520
+Vi klikker på den. Sådan.
+
+03:49.520 --> 03:52.570
+Linjen passer ikke bare,
+
+03:52.570 --> 03:54.530
+den indtegnede også dataene igen på en anden graf.
+
+03:54.530 --> 03:55.830
+Vi gør det en smule større.
+
+03:55.830 --> 03:58.430
+.
+
+03:58.430 --> 03:59.930
+.
+
+03:59.930 --> 04:01.060
+.
+
+04:01.060 --> 04:04.430
+Vi kan godt dække for dataene nu,
+
+04:04.430 --> 04:06.410
+for nu ved vi, hvad det drejer sig om.
+
+04:06.410 --> 04:09.460
+.
+
+04:09.460 --> 04:12.620
+Excel har altså både indtegnet punkterne
+
+04:12.620 --> 04:16.029
+og tilpasset en linje til punkterne
+
+04:16.029 --> 04:17.355
+og givet os ligningen for linjen.
+
+04:17.355 --> 04:21.279
+.
+
+04:21.279 --> 04:22.975
+Vi gør det en smule større.
+
+04:22.975 --> 04:27.330
+.
+
+04:27.330 --> 04:30.910
+Der står her,
+
+04:30.910 --> 04:33.400
+at linjens ligning er:
+
+04:33.400 --> 04:40.400
+y er lig med 1882,3x plus 52.847.
+
+04:40.400 --> 04:43.250
+Vi husker det, vi har lært om hældning og y-skæringspunkt.
+
+04:43.250 --> 04:50.660
+y-skæringspunktet er 52.847,
+
+04:50.660 --> 04:55.000
+og det er der,
+
+04:55.000 --> 04:57.470
+hvor linjen krydser - ved år 0 - som er 1995 i det her tilfælde.
+
+04:57.470 --> 05:01.830
+Ifølge den her model vil vi altså
+
+05:01.830 --> 05:05.580
+tjene 52.847 dollar i år 1995.
+
+05:05.580 --> 05:07.280
+De rigtige data var en lille smule anderledes.
+
+05:07.280 --> 05:09.970
+De var en smule højere - nemlig 53.807 dollar.
+
+05:09.970 --> 05:11.250
+Det er altså lidt højere.
+
+05:11.250 --> 05:13.850
+Vi prøver dog at finde en linje,
+
+05:13.850 --> 05:14.980
+der er så tæt som muligt på alle vores data.
+
+05:14.980 --> 05:17.530
+Linjen prøver at gøre
+
+05:17.530 --> 05:20.470
+afstanden i anden til hvert af punkterne
+
+05:20.470 --> 05:20.970
+så lille som muligt.
+
+05:20.970 --> 05:22.440
+Vi skal ikke snakke om matematikken bag nu.
+
+05:22.440 --> 05:23.830
+Vi har dog fået en fin ligning.
+
+05:23.830 --> 05:26.810
+Nu kan vi bruge ligningen til at forudse ting.
+
+05:26.810 --> 05:30.290
+Hvis vi synes,
+
+05:30.290 --> 05:31.400
+at det er en god model for vores data,
+
+05:31.400 --> 05:32.400
+kan den måske besvare vores spørgsmål.
+
+05:32.400 --> 05:35.210
+Excel har altså tegnet et punktdiagram for os.
+
+05:35.210 --> 05:38.000
+Vi har fundet ligningen.
+
+05:38.000 --> 05:40.060
+Spørgsmålet er så, hvad vi forventer,
+
+05:40.060 --> 05:44.490
+at den årlige medianindkomst for en familie i Californien vil være i år 2010.
+
+05:44.490 --> 05:50.010
+Her kan vi bruge den ligning, vi har fået.
+
+05:50.010 --> 05:51.770
+Det her var 2002.
+
+05:51.770 --> 05:52.850
+Vi kan skrive det ned.
+
+05:52.850 --> 05:57.240
+År 2002.
+
+05:57.240 --> 06:02.490
+År 2010 er altså 8 år senere.
+
+06:02.490 --> 06:04.350
+Lad os lave en lille kolonne her.
+
+06:04.350 --> 06:08.390
+.
+
+06:08.390 --> 06:13.540
+Det her er årene. 1995, 1996.
+
+06:13.540 --> 06:15.710
+Excel kan regne resten ud.
+
+06:15.710 --> 06:18.950
+Vi klikker
+
+06:18.950 --> 06:23.920
+og trækker nedad i den lille firkant nede i højre hjørne af cellen,
+
+06:23.920 --> 06:26.980
+og så finder Excel ud af, at vi vil øge med 1 hver gang.
+
+06:26.980 --> 06:31.670
+Igen kan vi fortsætte
+
+06:31.670 --> 06:33.550
+trenden her.
+
+06:33.550 --> 06:36.600
+2010 er altså 15 år senere end 1995.
+
+06:36.600 --> 06:38.660
+Vi kan bruge ligningen, vi fandt.
+
+06:38.660 --> 06:41.760
+Vi indsætter året
+
+06:41.760 --> 06:44.570
+i den ligning, vi fandt.
+
+06:44.570 --> 06:51.000
+.
+
+06:51.000 --> 06:55.500
+x er antal år efter 1995.
+
+06:55.500 --> 06:58.430
+Vi kan indtaste
+
+06:58.430 --> 06:59.320
+tallet 15.
+
+06:59.320 --> 07:03.590
+Det betyder 15 gange den her celle.
+
+07:03.590 --> 07:11.390
+Plus 52.847 her.
+
+07:11.390 --> 07:17.600
+Tryk enter, og så får vi 81.081,50 dollar.
+
+07:17.600 --> 07:21.610
+Hvis vi fortsætter den her linje omkring 8 år frem,
+
+07:21.610 --> 07:24.550
+forudsiger den,
+
+07:24.550 --> 07:27.730
+at medianindkomsten i Californien vil være cirka 81.000 dollar.
+
+07:27.730 --> 07:30.270
+Forhåbentligt var det interessant at prøve.
+
+07:30.270 --> 07:33.340
+Regneark er rigtig gode, når man arbejder med data.
+
+07:33.340 --> 07:36.520
+Det giver os en fornemmelse af, hvorfor lineære modeller er interessante,
+
+07:36.520 --> 07:39.130
+hvorfor linjer er interessante,
+
+07:39.130 --> 07:42.600
+og hvordan vi kan bruge de her værktøjer til at fortolke data
+
+07:42.600 --> 07:43.370
+og måske endda forudsige noget.
+
+07:43.370 --> 07:45.450
+Det her var en fremskrivning
+
+07:45.450 --> 07:47.260
+ved hjælp af lineær regression.
+
+07:47.260 --> 07:47.333
+.

@@ -1,0 +1,469 @@
+WEBVTT
+
+00:00.000 --> 00:02.635
+Giả sử mình có một số đường cong C,
+
+00:02.635 --> 00:07.371
+và nó được mô tả, nó có thể được tham số hóa,
+
+00:07.371 --> 00:12.371
+mình không thể nói từ đó, như giả sử x bằng x của t,
+
+00:13.417 --> 00:17.926
+y bằng một hàm nào đó y của t,
+
+00:17.926 --> 00:22.757
+và giả sử rằng giá trị này hợp lệ với t nằm giữa a và b.
+
+00:22.757 --> 00:25.642
+Vì vậy, t lớn hơn hoặc bằng a
+
+00:25.642 --> 00:28.466
+và sau đó nhỏ hơn hoặc bằng b.
+
+00:28.466 --> 00:32.158
+Vì vậy, nếu mình chỉ vẽ cái này, để mình xem,
+
+00:32.158 --> 00:33.606
+mình có thể vẽ nó như thế này.
+
+00:33.606 --> 00:36.361
+Mình đang tưởng tượng nó giống như thế nào đây.
+
+00:36.361 --> 00:38.911
+Đây không phải là một ví dụ rất cụ thể.
+
+00:38.911 --> 00:41.517
+Đây là trục x, đây là trục y.
+
+00:41.517 --> 00:46.206
+Đường cong của mình, giả sử đây là khi t bằng a
+
+00:46.206 --> 00:51.012
+và khi đó đường cong có thể làm như thế này.
+
+00:51.012 --> 00:53.086
+Mình không biết nó làm gì, hãy nói nó ở đằng kia.
+
+00:53.086 --> 00:55.633
+Đây là t bằng b.
+
+00:55.633 --> 01:00.601
+Điểm cực trị ngay tại đây sẽ là x của b.
+
+01:00.601 --> 01:01.809
+Đó sẽ là tọa độ x, .
+
+01:01.809 --> 01:06.514
+bạn tính hàm này tại b, và y của b
+
+01:06.514 --> 01:08.914
+Và điều này, tất nhiên, khi t bằng a.
+
+01:08.914 --> 01:13.372
+Tọa độ thực trong R2 trên tọa độ Descartes
+
+01:13.372 --> 01:17.404
+sẽ là x của a, cái này ở ngay đây,
+
+01:17.404 --> 01:22.130
+và sau đó là y của a, cái kia ở ngay đó.
+
+01:22.130 --> 01:24.810
+Và chúng ta đã thấy rằng trước đây, đó chỉ là một cách tiêu chuẩn
+
+01:24.810 --> 01:26.992
+để mô tả một phương trình tham số hoặc đường cong
+
+01:26.992 --> 01:29.675
+bằng cách sử dụng hai phương trình tham số.
+
+01:29.675 --> 01:33.687
+Điều mình muốn làm bây giờ là mô tả cùng một đường cong chính xác này
+
+01:33.687 --> 01:36.474
+bằng cách sử dụng một hàm có giá trị vectơ.
+
+01:36.474 --> 01:39.052
+Vì vậy, nếu mình định nghĩa một hàm có giá trị vectơ và
+
+01:39.052 --> 01:40.724
+nếu bạn không nhớ những hàm đó là gì,
+
+01:40.724 --> 01:41.954
+chúng mình sẽ ôn tập lại một chút ở đây.
+
+01:41.954 --> 01:45.261
+Giả sử mình có một hàm có giá trị vectơ r,
+
+01:45.261 --> 01:48.224
+và mình sẽ đặt một mũi tên vectơ nhỏ lên trên nó.
+
+01:48.224 --> 01:50.379
+Trong rất nhiều sách giáo khoa, họ sẽ chỉ tô đậm
+
+01:50.379 --> 01:53.053
+và họ sẽ không tô đậm các hàm có giá trị vô hướng,
+
+01:53.053 --> 01:54.655
+nhưng rất khó để tô đậm
+
+01:54.655 --> 01:56.777
+nên mình sẽ đặt một chút vectơ lên trên.
+
+01:56.777 --> 01:59.427
+Và giả sử r là một hàm của t.
+
+01:59.427 --> 02:02.236
+Và đây sẽ là các vectơ vị trí.
+
+02:02.236 --> 02:04.037
+vectơ vị trí.
+
+02:04.037 --> 02:07.286
+vectơ vị trí.
+
+02:07.286 --> 02:09.813
+Và mình đang xác định điều đó bởi vì nói chung,
+
+02:09.813 --> 02:11.303
+khi ai đó nói về một vectơ,
+
+02:11.303 --> 02:15.390
+vectơ này và vectơ này được coi là tương đương
+
+02:15.390 --> 02:17.665
+với điều kiện là chúng có cùng độ lớn và hướng.
+
+02:17.665 --> 02:19.616
+Không ai thực sự quan tâm đến
+
+02:19.616 --> 02:21.501
+điểm đầu và điểm cuối của chúng miễn là
+
+02:21.501 --> 02:23.781
+hướng của chúng giống nhau và độ dài của chúng như nhau.
+
+02:23.781 --> 02:25.304
+Tuy nhiên, khi bạn nói về vectơ vị trí,
+
+02:25.304 --> 02:27.819
+bạn đang nói, "Không, những vectơ này đều sẽ
+
+02:27.819 --> 02:30.755
+bắt đầu từ 0, tại điểm gốc."
+
+02:30.755 --> 02:32.015
+Và khi bạn nêu vectơ vị trí,
+
+02:32.015 --> 02:33.361
+bạn đang ngầm nói rằng,
+
+02:33.361 --> 02:36.302
+"Đây là chỉ định một vị trí duy nhất."
+
+02:36.302 --> 02:38.052
+Trong trường hợp này, nó sẽ ở trong không gian hai chiều,
+
+02:38.052 --> 02:39.538
+nhưng nó có thể là trong không gian ba chiều,
+
+02:39.538 --> 02:42.435
+hoặc thực sự là không gian bốn, năm, bất kỳ, n chiều.
+
+02:42.435 --> 02:43.671
+Vì vậy, khi bạn nêu rõ vectơ vị trí,
+
+02:43.671 --> 02:46.364
+nghĩa là bạn đang nói, "Được rồi, vectơ này
+
+02:46.364 --> 02:49.817
+xác định đúng điểm đó trong không gian."
+
+02:49.817 --> 02:52.896
+Vì vậy, hãy xem liệu chúng ta có thể mô tả đường cong
+
+02:52.896 --> 02:57.896
+này như một vectơ, một hàm có giá trị vectơ vị trí hay không.
+
+02:58.226 --> 02:59.235
+Vì vậy, chúng ta có thể nói r của t,
+
+02:59.235 --> 03:01.633
+hãy để mình chuyển trở lại màu hồng đó
+
+03:01.633 --> 03:03.192
+, ồ, màu này vẫn giữ màu xanh lục,
+
+03:03.192 --> 03:06.421
+r của t bằng x của t
+
+03:06.421 --> 03:08.807
+nhân với vectơ đơn vị theo hướng x,
+
+03:08.807 --> 03:11.133
+vectơ đơn vị có một dấu mũ nhỏ ở trên cùng,
+
+03:11.133 --> 03:12.887
+một chiếc mũ nhỏ giống như mũi tên dành cho nó.
+
+03:12.887 --> 03:14.639
+Điều đó chỉ nói rằng nó là một vector đơn vị.
+
+03:14.639 --> 03:16.324
+Cộng với,
+
+03:16.324 --> 03:20.204
+y của t lần j.
+
+03:20.204 --> 03:22.835
+Nếu mình đang xử lý một đường cong trong ba chiều,
+
+03:22.835 --> 03:24.902
+mình sẽ có, cộng với z của t nhân k,
+
+03:24.902 --> 03:27.316
+nhưng chúng mình đang xử lý hai chiều ngay tại đây.
+
+03:27.316 --> 03:29.610
+Và như vậy, cách thức giải là, bạn chỉ lấy ...
+
+03:29.610 --> 03:32.030
+cho bất kỳ t nào, và chúng ta vẫn sẽ có
+
+03:32.030 --> 03:36.000
+t lớn hơn hoặc bằng a
+
+03:36.000 --> 03:37.840
+và sau đó nhỏ hơn hoặc bằng b.
+
+03:37.840 --> 03:39.994
+Và điều này cũng chính xác như vậy.
+
+03:39.994 --> 03:41.536
+Để mình vẽ lại nó.
+
+03:41.536 --> 03:44.227
+Vì vậy, hãy để mình vẽ tọa độ.
+
+03:44.227 --> 03:46.286
+Tọa độ của chúng mình ngay tại đây.
+
+03:46.286 --> 03:48.571
+Đây là trục.
+
+03:48.571 --> 03:51.621
+Vì vậy, đó là trục y và đây là trục x.
+
+03:51.621 --> 03:53.809
+Chúng ta đang tính r của a, phải không?
+
+03:53.809 --> 03:56.383
+Đó là điểm khởi đầu của chúng mình, vì vậy hãy để mình làm điều đó.
+
+03:56.383 --> 04:00.440
+Vì vậy, r của a, có lẽ mình sẽ làm điều đó ngay tại đây.
+
+04:00.440 --> 04:03.539
+Hàm có giá trị vectơ vị trí được tính tại
+
+04:03.539 --> 04:07.183
+t là bằng a, sẽ bằng
+
+04:07.183 --> 04:12.106
+x của một lần vectơ đơn vị theo hướng x,
+
+04:12.106 --> 04:16.068
+cộng với y một lần vectơ đơn vị
+
+04:16.068 --> 04:18.145
+theo hướng thẳng đứng hoặc theo hướng y.
+
+04:18.145 --> 04:19.629
+Và điều đó sẽ như thế nào?
+
+04:19.629 --> 04:24.342
+Chà, x của a là thứ này ở ngay đây.
+
+04:24.342 --> 04:26.595
+Vì vậy, nó là x của một lần vector đơn vị.
+
+04:26.595 --> 04:30.147
+Vì vậy, nó thực sự, có thể vectơ đơn vị dài thế này,
+
+04:30.147 --> 04:31.821
+nó có độ dài một, vì vậy bây giờ chúng ta sẽ có
+
+04:31.821 --> 04:34.187
+độ dài x của a theo hướng đó,
+
+04:34.187 --> 04:35.650
+và sau đó là y của a.
+
+04:35.650 --> 04:38.332
+Nó sẽ có chiều dài là y theo hướng đó.
+
+04:38.332 --> 04:40.152
+Nhưng điểm mấu chốt, vectơ này ngay tại đây,
+
+04:40.152 --> 04:44.311
+nếu bạn thêm các giá trị được chia tỷ lệ của hai vectơ đơn vị này,
+
+04:44.311 --> 04:48.742
+bạn sẽ nhận được r của một cái gì đó giống như thế này.
+
+04:48.742 --> 04:52.518
+Nó sẽ là một vector trông giống như vậy.
+
+04:52.518 --> 04:53.525
+Giống như vậy.
+
+04:53.525 --> 04:54.968
+Đó là một vectơ, nó là một vectơ vị trí,
+
+04:54.968 --> 04:56.803
+đó là lý do tại sao chúng mình đóng đinh nó tại điểm gốc
+
+04:56.803 --> 04:58.939
+nhưng lại vẽ nó ở vị trí chuẩn.
+
+04:58.939 --> 05:02.465
+Và ngay đó,
+
+05:02.465 --> 05:04.725
+là r của a.
+
+05:04.725 --> 05:07.112
+Bây giờ, điều gì sẽ xảy ra nếu a tăng lên một chút?
+
+05:07.112 --> 05:09.774
+Và, mình không biết, chúng ta
+
+05:09.774 --> 05:12.343
+có thể gọi đó là r của
+
+05:12.343 --> 05:14.784
+a cộng h
+
+05:14.784 --> 05:15.662
+Chúng mình sẽ làm một màu khác.
+
+05:15.662 --> 05:18.977
+Vì vậy, giả sử r, giả sử chúng ta tăng a một chút,
+
+05:18.977 --> 05:22.947
+r của a cộng với một số h nhỏ,
+
+05:22.947 --> 05:27.947
+điều đó sẽ là x của a cộng với h, nhân với vectơ đơn vị i,
+
+05:27.957 --> 05:31.990
+cộng với y nhân với h, nhân với đơn vị vectơ j.
+
+05:31.990 --> 05:33.415
+Và, điều đó sẽ như thế nào?
+
+05:33.415 --> 05:35.509
+Chà, chúng ta sẽ đi xa hơn một chút xuống đường cong.
+
+05:35.509 --> 05:36.613
+Điều đó giống như nói tọa độ x
+
+05:36.613 --> 05:39.108
+của a cộng h và y của a cộng h.
+
+05:39.108 --> 05:40.733
+Nó có thể là điểm đó ngay tại đó,
+
+05:40.733 --> 05:44.019
+vì vậy nó sẽ là một vector đơn vị mới.
+
+05:44.019 --> 05:45.887
+Nó sẽ là một vector đơn vị mới.
+
+05:45.887 --> 05:48.418
+Xin lỗi, nó sẽ là một vectơ mới, vectơ vị trí,
+
+05:48.418 --> 05:50.996
+không phải là một vectơ đơn vị, chúng sẽ không nhất thiết phải có độ dài một,
+
+05:50.996 --> 05:53.682
+có thể ở ngay đây.
+
+05:53.682 --> 05:55.918
+Hãy để mình làm điều đó cùng màu như thế này.
+
+05:55.918 --> 05:58.298
+Vì vậy, nó có thể giống như vậy,
+
+05:58.298 --> 06:00.000
+giống như vậy.
+
+06:00.000 --> 06:05.000
+Vì vậy, đó ngay tại đây, là r cộng với h.
+
+06:05.131 --> 06:07.778
+Vì vậy, bạn thấy khi bạn tiếp tục tăng giá trị
+
+06:07.778 --> 06:11.261
+của t cho đến khi bạn đến b, các vectơ vị trí này
+
+06:11.261 --> 06:13.856
+sẽ tiếp tục xác định, chúng tôi sẽ tiếp tục
+
+06:13.856 --> 06:16.034
+xác định các điểm dọc theo đường cong này.
+
+06:16.034 --> 06:19.364
+Vì vậy, đường cong, hãy để mình vẽ đường cong bằng một màu khác.
+
+06:19.364 --> 06:21.376
+Đường cong trông giống như thế này.
+
+06:21.376 --> 06:22.537
+Nó có nghĩa là trông giống hệt
+
+06:22.537 --> 06:24.325
+như đường cong mà tôi có ở đây.
+
+06:24.325 --> 06:27.504
+Và, ví dụ, r của b sẽ là
+
+06:27.504 --> 06:29.596
+một vectơ giống như thế này.
+
+06:29.596 --> 06:33.125
+Nó sẽ là một vector trông giống như vậy.
+
+06:33.125 --> 06:36.366
+Tôi muốn vẽ nó tương đối thẳng.
+
+06:36.366 --> 06:39.078
+Vectơ đó, ngay tại đó,
+
+06:39.078 --> 06:42.508
+là r của b.
+
+06:42.508 --> 06:43.852
+Vì vậy, hy vọng bạn nhận ra rằng, hãy nhìn xem,
+
+06:43.852 --> 06:46.174
+những vectơ vị trí này thực sự đang xác định
+
+06:46.174 --> 06:49.192
+các điểm giống nhau trên đường cong này như ban đầu,
+
+06:49.192 --> 06:53.233
+mình đoán là tham số hóa thẳng mà chúng ta đã làm cho đường cong này.
+
+06:53.233 --> 06:54.835
+Và mình chỉ muốn làm điều đó như một chút ôn tập
+
+06:54.835 --> 06:57.586
+vì bây giờ chúng ta sẽ bắt đầu với ý tưởng thực sự
+
+06:57.586 --> 07:01.922
+lấy đạo hàm của hàm có giá trị vectơ này.
+
+07:01.922 --> 07:04.484
+Và mình sẽ làm điều đó trong video tiếp theo.

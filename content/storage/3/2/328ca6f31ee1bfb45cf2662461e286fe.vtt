@@ -1,0 +1,449 @@
+WEBVTT
+
+00:00.370 --> 00:01.960
+- [Instructor] In this
+video we're gonna study
+
+00:01.960 --> 00:05.650
+geometric series, and to
+understand that I'm gonna construct
+
+00:05.650 --> 00:07.380
+a little bit of a table to understand
+
+00:07.380 --> 00:11.327
+how our money could grow if
+we keep depositing, let's say,
+
+00:11.327 --> 00:14.100
+$1,000 a year in a bank account.
+
+00:14.100 --> 00:17.560
+So, let's say this is the year,
+
+00:17.560 --> 00:19.220
+and we're gonna think
+about how much we have
+
+00:19.220 --> 00:21.250
+at the beginning of the year,
+
+00:21.250 --> 00:26.040
+and then this is the
+dollars in our account.
+
+00:26.040 --> 00:29.330
+And let's say that the bank
+is always willing to give us
+
+00:29.330 --> 00:32.460
+5% per year, which is pretty good.
+
+00:32.460 --> 00:34.040
+It's very hard to find a bank account
+
+00:34.040 --> 00:37.210
+that will actually give
+you 5% growth per year.
+
+00:37.210 --> 00:40.030
+So that means if you put
+$100 in at the end of a year,
+
+00:40.030 --> 00:42.140
+or exactly a year later it'd be $105.
+
+00:42.140 --> 00:45.430
+If you put $1,000 in, a
+year later, it'd be 1,050.
+
+00:45.430 --> 00:47.090
+It'd be 5% larger.
+
+00:47.090 --> 00:51.810
+And so, let's say that we want
+to put $1,000 in per year,
+
+00:51.810 --> 00:53.540
+and I want to think about, well,
+
+00:53.540 --> 00:55.840
+what is going to be my balance
+
+00:55.840 --> 00:59.140
+at the beginning of year one,
+at the beginning of year two,
+
+00:59.140 --> 01:01.340
+at the beginning of
+year three, and then see
+
+01:01.340 --> 01:03.320
+if we can come up with
+a general expression
+
+01:03.320 --> 01:07.050
+for the beginning of year n.
+
+01:07.050 --> 01:09.990
+So, year one, right at
+the beginning of the year,
+
+01:09.990 --> 01:13.720
+I put in $1,000 in the account.
+
+01:13.720 --> 01:15.620
+That's pretty straightforward.
+
+01:15.620 --> 01:17.840
+But then what happens in year two?
+
+01:17.840 --> 01:22.150
+I'm going to deposit $1,000,
+but then that original $1,000
+
+01:22.150 --> 01:23.790
+that I have would have grown.
+
+01:23.790 --> 01:27.020
+So, I'm going to deposit $1,000,
+
+01:27.020 --> 01:29.790
+and then the original $1,000 that I put
+
+01:29.790 --> 01:33.610
+at the beginning of year one,
+that has now grown by 5%.
+
+01:33.610 --> 01:38.033
+Growing by 5% is the same
+thing as multiplying by 1.05.
+
+01:39.490 --> 01:43.610
+So, this is now going to be plus $1,000
+
+01:43.610 --> 01:47.840
+times 1.05.
+
+01:47.840 --> 01:49.150
+Fairly straightforward.
+
+01:49.150 --> 01:51.240
+Now, what about the
+beginning of year three?
+
+01:51.240 --> 01:52.860
+How much would I have in the bank account
+
+01:52.860 --> 01:56.060
+right when I've made that
+first, that year three deposit?
+
+01:56.060 --> 01:56.893
+Pause this video.
+
+01:56.893 --> 01:58.260
+See if you can figure that out.
+
+02:00.170 --> 02:02.400
+Well, just like at the
+beginning of year two
+
+02:02.400 --> 02:03.650
+and the beginning of year one,
+
+02:03.650 --> 02:06.870
+we're going to make $1,000 deposit,
+
+02:06.870 --> 02:11.610
+but now the money from
+year two has grown by 5%,
+
+02:11.610 --> 02:16.610
+so this is now going to
+be $1,000 times 1.05.
+
+02:18.040 --> 02:20.590
+And then that money that
+we originally deposited
+
+02:20.590 --> 02:25.590
+from year one, that was
+1,000 times 1.05 in year two,
+
+02:25.650 --> 02:28.080
+that's going to grow by another 5%.
+
+02:28.080 --> 02:30.990
+And so, this is going to be plus 1,000
+
+02:31.890 --> 02:35.710
+times 1.05 times 1.05.
+
+02:35.710 --> 02:37.830
+We're growing by another 5%.
+
+02:37.830 --> 02:39.600
+Well, we could just rewrite this part
+
+02:39.600 --> 02:43.760
+right over here as 1.05 squared.
+
+02:43.760 --> 02:45.410
+So, do you see a general pattern
+
+02:45.410 --> 02:47.340
+that's going to happen here?
+
+02:47.340 --> 02:49.870
+Well, as you go to year n, in
+fact, pause the video again,
+
+02:49.870 --> 02:51.460
+see if you can write a general expression.
+
+02:51.460 --> 02:52.380
+You're gonna have to do a little bit
+
+02:52.380 --> 02:55.150
+of this dot, dot, dot
+action in order to do it.
+
+02:55.150 --> 02:58.100
+But see if you could write a
+general expression for year n.
+
+02:58.970 --> 03:03.333
+Well, for year n, you're going
+to make that original $1,000
+
+03:05.230 --> 03:08.590
+at the beginning of year n,
+and then you're going to have
+
+03:08.590 --> 03:12.660
+1,000, 1,000, times 1.05
+
+03:14.100 --> 03:15.800
+for that $1,000 that you deposit
+
+03:15.800 --> 03:18.360
+at the beginning of year n minus one.
+
+03:18.360 --> 03:21.980
+And then this is just going to keep going,
+
+03:21.980 --> 03:26.450
+and it's going to go all
+the way to plus $1,000
+
+03:26.450 --> 03:31.450
+to times 1.05 to the power
+
+03:31.810 --> 03:34.420
+of the number of years
+you've been compounding.
+
+03:34.420 --> 03:36.160
+So, you could do this $1,000 as the one
+
+03:36.160 --> 03:37.260
+that you put in year one,
+
+03:37.260 --> 03:40.230
+and then how many years has it compounded?
+
+03:40.230 --> 03:41.470
+Well, when you go from one to two,
+
+03:41.470 --> 03:42.680
+you've compounded one year.
+
+03:42.680 --> 03:45.110
+When you go from one to three,
+you've compounded two years.
+
+03:45.110 --> 03:47.640
+So, when we're talking about
+the beginning of year n,
+
+03:47.640 --> 03:50.320
+you go up to the exponent
+that is one less than that.
+
+03:50.320 --> 03:54.360
+And so, this is going to be
+to the n minus one power.
+
+03:54.360 --> 03:56.810
+So, what we just did here
+is we've just constructed
+
+03:56.810 --> 03:58.720
+each one of these when we're saying,
+
+03:58.720 --> 04:00.560
+okay, how much money do we
+have in our bank account
+
+04:00.560 --> 04:02.430
+at the beginning of year three?
+
+04:02.430 --> 04:03.880
+Or how much do we have in our bank account
+
+04:03.880 --> 04:05.720
+at the beginning of year n?
+
+04:05.720 --> 04:08.600
+These are geometric series,
+
+04:08.600 --> 04:11.293
+and I will write that word down.
+
+04:11.293 --> 04:16.293
+Geo, geometric series.
+
+04:16.570 --> 04:18.610
+Now, just as a little bit of a review,
+
+04:18.610 --> 04:20.970
+or it might not be review,
+it might be a primer,
+
+04:20.970 --> 04:23.750
+series are related to sequences,
+
+04:23.750 --> 04:27.700
+and you can really view
+series as sums of sequences.
+
+04:27.700 --> 04:30.210
+Sequences, and let me go down a little bit
+
+04:30.210 --> 04:33.340
+so that you can, so we have
+a little bit more space,
+
+04:33.340 --> 04:36.350
+a sequence is an ordered list of numbers.
+
+04:36.350 --> 04:38.730
+A sequence might be something like,
+
+04:38.730 --> 04:42.160
+well, let's say we have
+a geometric sequence,
+
+04:42.160 --> 04:44.780
+and a geometric sequence, each successive
+
+04:44.780 --> 04:48.560
+term is the previous term
+times a fixed number.
+
+04:48.560 --> 04:49.700
+So, let's say we start at two,
+
+04:49.700 --> 04:51.610
+and every time we multiply by three.
+
+04:51.610 --> 04:54.570
+So, we'll go from two,
+two times three is six,
+
+04:54.570 --> 04:59.170
+six times three is 18,
+18 times three is 54.
+
+04:59.170 --> 05:03.040
+This is a geometric sequence,
+ordered list of numbers.
+
+05:03.040 --> 05:06.890
+Now, if we want to think
+about the geometric series,
+
+05:06.890 --> 05:09.090
+or the one that's analogous to this,
+
+05:09.090 --> 05:10.840
+is that we would sum the terms here.
+
+05:10.840 --> 05:15.840
+So, this would be two
+plus six plus 18 plus 54.
+
+05:16.330 --> 05:18.310
+Or we could even write it,
+and this would look similar
+
+05:18.310 --> 05:20.560
+to what we had just done with
+our little savings example
+
+05:20.560 --> 05:24.480
+is this is two plus two times three,
+
+05:24.480 --> 05:27.330
+plus two times three squared,
+
+05:27.330 --> 05:32.000
+plus two times three to the third power.
+
+05:32.000 --> 05:34.310
+And so, with the geometric series,
+
+05:34.310 --> 05:38.600
+you're going to have a sum
+where each successive term
+
+05:38.600 --> 05:42.020
+in the expression is equal to,
+if you put 'em all in order,
+
+05:42.020 --> 05:44.430
+is going to be equal to the term before it
+
+05:44.430 --> 05:46.910
+times a fixed amount.
+
+05:46.910 --> 05:49.720
+So, the second term is equal
+to the first term times three,
+
+05:49.720 --> 05:51.630
+and we're summing them in a sequence.
+
+05:51.630 --> 05:53.010
+You're just looking at it.
+
+05:53.010 --> 05:54.630
+It's an ordered list, so to speak,
+
+05:54.630 --> 05:58.270
+but here you are actually
+adding up the ordered list.
+
+05:58.270 --> 06:02.810
+So, what we just saw
+in this example is one,
+
+06:02.810 --> 06:05.560
+what a geometric series is, but also,
+
+06:05.560 --> 06:07.740
+a famous example of how it's useful,
+
+06:07.740 --> 06:09.210
+and this is just scratching the surface.
+
+06:09.210 --> 06:12.140
+If you were to go further
+in finance or in business,
+
+06:12.140 --> 06:14.330
+you'll actually see geometric series
+
+06:14.330 --> 06:16.553
+popping up all over the place.

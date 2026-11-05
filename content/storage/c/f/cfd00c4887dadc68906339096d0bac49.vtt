@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.660 --> 00:05.141
+Son videoda bir eğrinin belirli bir noktadaki
+
+00:05.141 --> 00:07.570
+eğimini bulmaya denedik
+
+00:07.570 --> 00:10.310
+ve bunu da şöyle yapmıştık, dedik ki şimdi
+
+00:10.310 --> 00:12.970
+birbirinden uzak olmayan iki nokta arasındaki
+
+00:12.970 --> 00:14.220
+eğimi bulalım.
+
+00:14.220 --> 00:15.953
+ve elimizde doğrunun secantının
+
+00:15.953 --> 00:19.530
+Zor gözükse de bu aslında sadece uzak olmayan
+
+00:19.530 --> 00:23.570
+noktanın y deki değeridir ve bu da
+
+00:23.570 --> 00:25.700
+sorulan y değeri , yani
+
+00:25.700 --> 00:27.100
+y'deki değişim
+
+00:27.100 --> 00:29.020
+Bu değişimi de x eksenindeki değişime bölersiniz
+
+00:29.020 --> 00:31.580
+Yani aslında yaptığımız örnekte , h değeri
+
+00:31.580 --> 00:33.610
+2 x değerimiz arasındaki farktı.
+
+00:33.610 --> 00:35.420
+Bu mesafeye h dedik.
+
+00:35.420 --> 00:39.210
+Bu değerde bize doğrunun eğimini verdi.
+
+00:39.210 --> 00:42.940
+Sonra dedik ki; biz bu iki noktayı birbirine yaklaştırırsak
+
+00:42.940 --> 00:45.510
+aslında limitini almış oluruz.
+
+00:45.510 --> 00:48.420
+Aslında bu nokta , bu noktaya olursa
+
+00:48.420 --> 00:51.230
+eğimimiz tanjantın eğimine eşit olur
+
+00:51.230 --> 00:54.620
+Bu da o fonksiyonun türevidir
+
+00:54.620 --> 00:57.280
+Bununda f in x deki türevi olduğunu söyledik
+
+00:57.280 --> 01:00.520
+Bakalım bu videoda bunu uygulayarak kafanızda
+
+01:00.520 --> 01:03.750
+anlattığım şeylerin sağlamlaşmasını sağlayabilecek miyiz?
+
+01:03.750 --> 01:04.910
+Şimdi bir tane yapalım.
+
+01:04.910 --> 01:07.140
+Öncelikle belirli bir noktadaki
+
+01:07.140 --> 01:09.980
+eğimi bulmayı deneyelim.
+
+01:09.980 --> 01:14.670
+Şimdi eksenlerimi tekrar çizeyim.
+
+01:14.670 --> 01:17.520
+Buraya eksenleri çizelim
+
+01:17.520 --> 01:25.400
+Varsayalım ki burada bir eğrim var-- bu eğrim--
+
+01:25.400 --> 01:27.110
+y = x kare.
+
+01:27.110 --> 01:32.790
+Bu benim y eksenim, buda x eksenim ve
+
+01:32.790 --> 01:37.270
+x in 3 olduğu noktadaki eğimi bulmak istiyorum
+
+01:37.270 --> 01:41.660
+Zaten eğim dediğimde bir tanjant çizgisi düşünebilirsiniz
+
+01:41.660 --> 01:44.760
+Tangent doğrusunun buradan bu şekilde geçerek
+
+01:44.760 --> 01:47.710
+tamda şu noktayı sıyırdığını düşünelim.
+
+01:47.710 --> 01:51.260
+Fakat tangent doğrusunun eğimi ne ?
+
+01:51.260 --> 01:53.570
+Tangent doğrusunun eğimi aslında
+
+01:53.570 --> 01:56.360
+tamda eğridenin o noktanın eğimine eşittir.
+
+01:56.360 --> 01:58.770
+Bunu yapmak için daha önce kullandığımız
+
+01:58.770 --> 02:01.270
+tekniğin aynısı kullanacağım ve bunu genelleyeceğim ki
+
+02:01.270 --> 02:03.910
+her farklı sayı için bunu tekrar yapmak zorunda kalmayın
+
+02:03.910 --> 02:06.805
+Şimdi buradan başka bir sayı seçelim
+
+02:09.610 --> 02:14.110
+Bu sayıya 3+Δx diyelim
+
+02:14.110 --> 02:16.380
+Bu gösterimi değiştiriyorum çünkü bazı kitaplarda
+
+02:16.380 --> 02:19.530
+h gbazı kitaplarda ise Δx görebilirsiniz , ikisini de
+
+02:19.530 --> 02:20.660
+görmenin bir zararı olmaz
+
+02:20.660 --> 02:22.500
+Bu 3+ Δx
+
+02:22.500 --> 02:25.770
+İlk olarak buradaki nokta ne?
+
+02:25.770 --> 02:31.890
+Bu eğri y=x kare , yani f(x) = 3 ün karesi
+
+02:31.890 --> 02:33.720
+- buda 9 eder
+
+02:33.720 --> 02:36.805
+Buradaki nokta 3,9 noktası
+
+02:39.350 --> 02:40.870
+Peki buradaki nokta ne?
+
+02:40.870 --> 02:45.180
+Peki buradan ta buraya gidersek buradaki nokta ne olur?
+
+02:45.180 --> 02:49.120
+Burada x'imiz 3+Δx dir
+
+02:49.120 --> 02:50.310
+Buradakiyle aynı şey ,
+
+02:50.310 --> 02:50.990
+x + h
+
+02:50.990 --> 02:51.300
+değil
+
+02:51.300 --> 02:54.235
+Buna 3+h diyebilirdim
+
+02:54.235 --> 02:58.110
+Şimdi bu 3+Δx
+
+02:58.110 --> 02:59.930
+Peki y değeri ne olacak?
+
+02:59.930 --> 03:02.080
+X değeri ne olursa olsun , bu eğri
+
+03:02.080 --> 03:03.550
+hep karesi alınmalı
+
+03:03.550 --> 03:12.310
+Yani bu 3+ Δx karesi
+
+03:12.310 --> 03:14.790
+Şimdi bu sekant çizgisinin
+
+03:14.790 --> 03:15.240
+eğimini bulalım
+
+03:18.080 --> 03:20.270
+Biraz yakınlaştırayım ki daha iyi görebilin
+
+03:20.270 --> 03:22.950
+Şimdi bu eğrinin sadece burası yakınlaşırsam
+
+03:22.950 --> 03:25.250
+bunun gibi bir şeye benzer ve
+
+03:25.250 --> 03:28.330
+burada ve burada birer
+
+03:28.330 --> 03:29.776
+noktam var
+
+03:32.330 --> 03:33.070
+Bu sekant
+
+03:33.070 --> 03:33.510
+çzigim
+
+03:39.100 --> 03:40.210
+Tamda bunun gibi
+
+03:40.210 --> 03:45.510
+Buradaki nokta 3,9 noktası ve buradaki
+
+03:45.510 --> 03:50.230
+nokta ise 3+Δx ,yani
+
+03:50.230 --> 03:54.340
+3'den daha büyük bir sayı ve
+
+03:54.340 --> 03:55.790
+bu sayının karesi alınacak
+
+03:55.790 --> 03:58.110
+3+Δx karesi olacak
+
+03:58.110 --> 03:59.070
+Bu ne olur ?
+
+03:59.070 --> 04:01.310
+Bu 9 olur
+
+04:01.310 --> 04:03.720
+Bunu hemen yapıyorum, siz bunu
+
+04:03.720 --> 04:04.940
+dağılma özelliği ile iki kez yapabilirsiniz
+
+04:04.940 --> 04:09.280
+a+b karesi = anin karesi + 2ab +bnin karesi dir
+
+04:09.280 --> 04:11.430
+yani cevap 9 + bunların çarpımlarının 2
+
+04:11.430 --> 04:12.020
+katı olacak
+
+04:12.020 --> 04:17.345
+Yani 6+ Δx ve Δx karenin toplamı
+
+04:21.070 --> 04:22.530
+Bu ikinci çizginin kordinatı
+
+04:22.530 --> 04:25.470
+Bu karmaşık görünüyor ama bu x değerinin karesini aldım
+
+04:25.470 --> 04:29.230
+çünkü bu y=x karenin üzerinde
+
+04:29.230 --> 04:32.430
+Sekantın eğimi
+
+04:32.430 --> 04:35.500
+Δy /Δx
+
+04:35.500 --> 04:37.050
+olacak
+
+04:37.050 --> 04:42.500
+Yani ydeki değişim buradakinin y değeri olacak ki
+
+04:42.500 --> 04:49.430
+o da 9 + Δx kare
+
+04:49.430 --> 04:52.610
+Bunun y değeriyle bununkinin farkı
+
+04:55.310 --> 04:58.000
+Yani -9
+
+04:58.000 --> 04:59.510
+Bu sizin y'deki değişiminiz
+
+04:59.510 --> 05:03.630
+ve bunu x'deki değişiminize bölmek istiyorsunuz
+
+05:03.630 --> 05:05.020
+Peki x'deki değişiminiz ne?
+
+05:05.020 --> 05:07.210
+Bunu yapmak çok uygun
+
+05:07.210 --> 05:09.490
+Büyük y değeri - bu yukardaki
+
+05:09.490 --> 05:11.460
+değerden başladık o sebeple aşşağıdaki bu noktadan başlamalıyız
+
+05:11.460 --> 05:15.680
+O sebeple bu 3+Δx olacak
+
+05:15.680 --> 05:17.340
+Peki x değeri ne?
+
+05:17.340 --> 05:20.700
+-3 ne?
+
+05:20.700 --> 05:22.070
+Bu , bunun x değeri
+
+05:22.070 --> 05:23.760
+Peki bu neye sadeleşir?
+
+05:23.760 --> 05:27.020
+Bu 9lar payda birbirlerini
+
+05:27.020 --> 05:28.320
+götürürler , 9-9
+
+05:28.320 --> 05:30.780
+Ve paydada ne olur?
+
+05:30.780 --> 05:32.560
+Bu 3 ve -3 birbirlerini götürür
+
+05:32.560 --> 05:35.550
+Yani xdeki değişim Δx olur ki bu insana mantıklı geliyor
+
+05:35.550 --> 05:38.490
+çünkü Δx aslında bu değerin
+
+05:38.490 --> 05:39.990
+bu değerden ne kadar büyük olduğunu gösterir
+
+05:39.990 --> 05:43.360
+Bu xdeki değişim olmalı , Δx
+
+05:43.360 --> 05:44.810
+Sekant çizgimin eğimi
+
+05:44.810 --> 05:53.860
+xdeki değişimin 6 katıyla sadeleşir ve buna
+
+05:53.860 --> 06:00.130
+x karedeki değişim de ekleyince bunu xdeki değişime böleriz
+
+06:00.130 --> 06:02.640
+Şimdi bunu daha da sadeleştirebiliriz
+
+06:02.640 --> 06:05.140
+Şimdi payı ve paydayı xdeki
+
+06:05.140 --> 06:06.790
+değişimimize bölelim
+
+06:06.790 --> 06:09.900
+Monotonluktan kurtulmak için renkleri değiştireyim
+
+06:09.900 --> 06:13.110
+Sekant çizgimin tanjantının eğimini - bunların ikisinden
+
+06:13.110 --> 06:15.580
+de geçen - payla paydayı
+
+06:15.580 --> 06:17.483
+böldüğünüzde
+
+06:17.483 --> 06:19.650
+elde edersiniz ki bu 6dır
+
+06:19.650 --> 06:21.420
+Yaptığım tek şey pay ve paydayı
+
+06:21.420 --> 06:26.130
+Δx+6+Δx e bölmek
+
+06:26.130 --> 06:28.080
+ve bu sekant çizgimin
+
+06:28.080 --> 06:34.630
+eğimi , yani eğim 6+Δx'e eşit
+
+06:34.630 --> 06:36.280
+Bu tam buradaki
+
+06:36.280 --> 06:38.990
+Bu , buraya çizdiğim kırmızımsı çizgi
+
+06:38.990 --> 06:42.340
+ve şimdi buradaki sayı ,-eğer Δx-
+
+06:42.340 --> 06:46.390
+eğer bunlar 3 ve 4 noktaları ise
+
+06:46.390 --> 06:49.640
+eğimim 6+1 olur çünkü burada seçtiğim 4 noktasında
+
+06:49.640 --> 06:50.480
+Δx 1di.
+
+06:50.480 --> 06:53.780
+Yani eğim 7 olur
+
+06:53.780 --> 06:56.730
+Δx'im ne olursa olsun şimdi elimde genel bir formül var şimdi 3 ve
+
+06:56.730 --> 07:00.790
+3+Δx arasındaki eğimi bulabilirim
+
+07:00.790 --> 07:02.640
+Bu iki nokta arasındaki
+
+07:02.640 --> 07:08.010
+Şimdi biz tam bu noktadaki eğimi bulmak
+
+07:08.010 --> 07:09.120
+istiyoruz
+
+07:09.120 --> 07:12.100
+Şimdi bakalım Δx gitgide
+
+07:12.100 --> 07:12.810
+küçüldüğünde ne olacak
+
+07:12.810 --> 07:14.470
+Bu şu an Δx'in olduğu değer
+
+07:14.470 --> 07:15.580
+Bu aralık
+
+07:15.580 --> 07:18.510
+Ama eğer Δx biraz daha azalırsa sekant çizgisi
+
+07:18.510 --> 07:20.160
+bunun gibi gözükür
+
+07:20.160 --> 07:21.360
+Sekant çizgisi daha da kısalır ve
+
+07:21.360 --> 07:23.680
+bunun gibi görünür
+
+07:23.680 --> 07:25.240
+Tanjant çizgisinin eğimine gittikçe
+
+07:25.240 --> 07:26.860
+yaklaşıyoruz
+
+07:26.860 --> 07:28.970
+Tanjant çizgisi buradaki
+
+07:28.970 --> 07:30.910
+eğimini bulmaya çalıştığımız şey
+
+07:30.910 --> 07:34.970
+Şimdi Δx'imiz 0'a yaklaştığına göre bir limit bulalım
+
+07:34.970 --> 07:39.400
+Şimdi Δx 0'a yaklaşırkenki limit
+
+07:39.400 --> 07:40.240
+sekant çizgisinin eğimi + Δx
+
+07:40.240 --> 07:43.700
+neye eşit?
+
+07:43.700 --> 07:44.830
+Bu bayağı açık
+
+07:44.830 --> 07:48.350
+Bunu 0'A eşitlersiniz ve bu da 6'ya eşit olur
+
+07:48.350 --> 07:54.280
+x=3 'ken tanjant çizgimizin eğimi
+
+07:54.280 --> 07:57.615
+6'ya eşittir
+
+07:57.615 --> 08:01.280
+ve bunu yazmanın bir diğer yolu ise : f(x) =
+
+08:01.280 --> 08:04.450
+x'in karesi
+
+08:04.450 --> 08:08.770
+Biliyoruz ki tanjant çizgimizin eğimi , ya da türevi , 3 noktasındayken
+
+08:08.770 --> 08:13.350
+-sadece burada 3 noktasını değerlendirdim -
+
+08:13.350 --> 08:18.410
+6'ya eşit
+
+08:18.410 --> 08:22.670
+Hala bu çizginin herhangi bir noktasındaki eğimle
+
+08:22.670 --> 08:25.790
+ilgili genel bir sonuca ulaşamadım ,bunu bir sonraki
+
+08:25.790 --> 08:26.330
+videoda yapacağım

@@ -1,0 +1,842 @@
+WEBVTT
+
+00:00.620 --> 00:04.610
+Tegyük fel, hogy van egy ABC háromszögünk,
+
+00:04.610 --> 00:10.108
+amelyik valahogy így néz ki,
+három csúcsa az A, B és C.
+
+00:10.120 --> 00:12.500
+A lehető legkevesebb
+információt akarom megadni,
+
+00:12.500 --> 00:14.375
+vagyis szeretnék megfogalmazni néhány
+követelményt,
+
+00:14.375 --> 00:17.330
+amelyeket arra használhatnánk,
+hogy egy másik háromszögről
+
+00:17.330 --> 00:20.140
+megállapítsuk, hasonló-e az ABC-hez.
+
+00:20.140 --> 00:21.576
+Azt már tudjuk,
+
+00:21.576 --> 00:24.850
+hogy ha mindhárom megfelelő szög
+
+00:24.850 --> 00:27.604
+ugyanakkora, mint az ABC háromszögben,
+
+00:27.604 --> 00:29.770
+akkor hasonló háromszögekkel
+van dolgunk.
+
+00:29.770 --> 00:32.600
+Legyen például ez itt 30 fok,
+
+00:32.600 --> 00:35.365
+ez a szög 90 fok, és ez a szög itt
+
+00:35.365 --> 00:36.730
+60 fok.
+
+00:36.730 --> 00:38.130
+És legyen ez egy másik háromszög,
+
+00:38.130 --> 00:42.210
+ami így néz ki, és nyilvánvalóan
+egy kisebb háromszög,
+
+00:42.210 --> 00:44.050
+de a megfelelő szögei ugyanakkorák.
+
+00:44.050 --> 00:46.530
+Ez itt 30 fok,
+
+00:46.530 --> 00:49.610
+ez 90 fok és ez 60 fok,
+
+00:49.610 --> 00:56.710
+és tudjuk, hogy ez az XYZ háromszög
+hasonló lesz az ABC háromszöghöz.
+
+00:56.710 --> 01:00.840
+Abból tudjuk ezt, hogy
+a megfelelő szögek
+
+01:00.840 --> 01:03.040
+ugyanakkorák, és emiatt
+
+01:03.040 --> 01:09.807
+az ABC háromszög és az
+XYZ háromszög hasonlóak.
+
+01:09.807 --> 01:11.490
+Ehhez persze helyes sorrendben kell
+
+01:11.490 --> 01:12.914
+a megfelelő szögeket leírni.
+
+01:12.914 --> 01:15.300
+Y felel meg a 90 fokos szögnek,
+
+01:15.300 --> 01:16.900
+X felel meg a 30 fokos szögnek,
+
+01:16.900 --> 01:18.480
+A felel meg a 30 fokos szögnek,
+
+01:18.480 --> 01:20.520
+tehát A és X az első helyen áll,
+
+01:20.520 --> 01:22.810
+B és Y a 90 fokos szögek,
+ezek a második helyen,
+
+01:22.810 --> 01:24.710
+és aztán Z az utolsó.
+
+01:24.710 --> 01:27.210
+Ez az, amit már ismerünk,
+ha megvan a három szög,
+
+01:27.210 --> 01:28.650
+de valóban szükség van-e
+a három szögre?
+
+01:28.650 --> 01:31.990
+Vajon ha csak két szöget ismernénk,
+az elég lenne-e?
+
+01:31.990 --> 01:34.370
+Nyilván, hiszen ha ismerjük
+egy háromszög két szögét,
+
+01:34.370 --> 01:35.520
+akkor ismerjük a harmadikat is,
+
+01:35.520 --> 01:40.500
+tehát ha például van itt
+egy másik háromszögünk,
+
+01:40.500 --> 01:44.000
+ami így néz ki,
+
+01:44.000 --> 01:46.860
+és azt mondanám neked, hogy
+csak két megfelelő szögük
+
+01:46.860 --> 01:47.910
+azonos nagyságú.
+
+01:47.910 --> 01:52.240
+Mondjuk ez a szög megegyezik
+ezzel a szöggel,
+
+01:52.240 --> 01:56.020
+és ez a szög itt
+ugyanakkora, mint ez a szög.
+
+01:56.020 --> 01:59.430
+Elegendő-e ez ahhoz, hogy azt mondhassuk,
+hogy a két háromszög hasonló?
+
+01:59.430 --> 02:00.090
+Hát persze.
+
+02:00.090 --> 02:02.650
+Hiszen ha egy háromszögnek
+ismerjük két szögét,
+
+02:02.650 --> 02:05.400
+akkor tudjuk, hogy mekkorának
+kell lennie a harmadik szögnek,
+
+02:05.400 --> 02:08.250
+ha tudjuk, hogy ez a szög 30 fok,
+és ez a szög 90 fok,
+
+02:08.250 --> 02:11.000
+akkor már tudjuk, hogy
+ennek a szögnek 60 fokosnak kell lennie.
+
+02:11.000 --> 02:14.400
+Akármekkora ez a két szög,
+kivonod őket a 180-ból,
+
+02:14.400 --> 02:16.950
+és akkora lesz ez a szög.
+
+02:16.950 --> 02:19.380
+Általánosságban, a hasonlóság
+bizonyításához
+
+02:19.380 --> 02:24.010
+nincs szükség mindhárom szög
+egyenlőségének megmutatására,
+
+02:24.010 --> 02:26.820
+elegendő két szög egyenlőségét megmutatni.
+
+02:26.820 --> 02:30.720
+Ez lesz tehát az első alapesetünk,
+
+02:30.720 --> 02:32.910
+két-két szög páronként egyenlő,
+röviden ez a szög-szög feltétel.
+
+02:32.910 --> 02:36.259
+Ha be tudod bizonyítani, hogy
+két-két szög páronként egyenlő,
+
+02:36.259 --> 02:38.620
+akkor a háromszögek hasonlóak.
+
+02:38.620 --> 02:41.760
+Például, ha számokkal akarjuk
+megnézni,
+
+02:41.760 --> 02:46.920
+és ez itt 30 fok volt,
+és tudjuk, hogy ebben a háromszögben
+
+02:46.920 --> 02:48.890
+ez a szög 90 fokos,
+
+02:48.890 --> 02:50.820
+akkor már tudjuk, hogy
+ez a háromszög
+
+02:50.820 --> 02:52.670
+hasonló ehhez.
+
+02:52.670 --> 02:55.560
+És akkor már kijelentheted
+a harmadik szögről,
+
+02:55.560 --> 02:57.130
+magától értetődően,
+
+02:57.130 --> 02:58.840
+hogy ez a harmadik szög 60 fokos,
+
+02:58.840 --> 03:00.780
+és így mindhárom szög
+páronként megegyezik.
+
+03:00.780 --> 03:03.870
+Ez tehát a hasonlóság első alapesete.
+
+03:03.870 --> 03:06.320
+A másik dolog, amit tudunk a hasonlóságról,
+
+03:06.320 --> 03:08.910
+hogy a megfelelő oldalak hosszának
+
+03:08.910 --> 03:11.140
+aránya páronként megegyezik.
+
+03:11.140 --> 03:15.060
+Így például, ha van
+egy másik derékszögű háromszögünk,
+
+03:15.060 --> 03:18.720
+rajzolok ide egy másik háromszöget,
+
+03:18.720 --> 03:26.410
+legyen ez az X-Y-Z háromszög.
+
+03:26.410 --> 03:30.910
+Tegyük fel, hogy ismerjük
+az AB és az XY aránypárt,
+
+03:30.910 --> 03:37.730
+tehát ismerjük AB/XY értékét
+– ennek és ennek az oldalnak az arányát –
+
+03:37.730 --> 03:40.410
+és itt egyáltalán nem azt mondjuk,
+hogy ezek hossza megegyezik,
+
+03:40.410 --> 03:41.810
+csak az arányukat vizsgáljuk most.
+
+03:41.810 --> 03:44.263
+Azt mondjuk, hogy AB/XY
+
+03:44.263 --> 03:50.240
+az AB/XY = BC/YZ,
+
+03:50.240 --> 03:53.950
+azaz megegyezik BC/YZ-vel.
+
+03:53.950 --> 04:04.370
+Ez pedig megegyezik AC/XZ-vel.
+
+04:04.370 --> 04:06.730
+Tehát még egyszer, ez is egy módja
+
+04:06.730 --> 04:08.700
+a hasonlóság meghatározásának.
+
+04:08.700 --> 04:11.210
+Tehát ha mindhárom
+megfelelő oldal,
+
+04:11.210 --> 04:13.600
+a három megfelelő oldal hosszának aránya
+
+04:13.600 --> 04:15.250
+páronként megegyezik, akkor tudjuk,
+
+04:15.250 --> 04:17.690
+hogy hasonlók a háromszögeink.
+
+04:17.690 --> 04:21.019
+És ezt oldal-oldal-oldal hasonlóságnak hívjuk.
+
+04:21.019 --> 04:22.940
+De ne keverjük ezt össze
+
+04:22.940 --> 04:24.910
+az oldal-oldal-oldal egybevágósági alapesettel.
+
+04:24.910 --> 04:29.644
+Ezek tehát a hasonlósági alapeseteink,
+
+04:29.644 --> 04:30.840
+vagy axiómáink,
+
+04:30.840 --> 04:32.934
+és később majd ezekre építjük
+
+04:32.934 --> 04:35.440
+feladatok megoldását
+és más dolgok bizonyítását.
+
+04:35.440 --> 04:37.640
+Az egybevágóságnál az oldal-oldal-oldal
+elnevezés
+
+04:37.640 --> 04:40.200
+azt jelenti, hogy ott
+a megfelelő oldalak hossza megegyezik.
+
+04:40.200 --> 04:42.900
+A hasonlóság esetén pedig az
+oldal-oldal-oldal elnevezés
+
+04:42.900 --> 04:48.020
+a megfelelő oldalak páronkénti
+arányának egyenlőségére utal.
+
+04:48.020 --> 04:56.510
+Tehát ha pl. ez itt 10,
+
+04:56.510 --> 04:58.170
+na nem, legyen ez egy nagyobb szám,
+
+04:58.170 --> 05:01.660
+mondjuk 60, ez itt 30,
+
+05:01.660 --> 05:05.280
+ez pedig 30-szor gyök 3.
+
+05:05.280 --> 05:08.560
+Csak azért választottam ezeket a számokat,
+mert nemsokára látni fogjuk,
+
+05:08.560 --> 05:12.393
+hogy a 30-60-90 fokos háromszögben
+milyen jellegzetes arányok szerepelnek.
+
+05:12.530 --> 05:14.490
+Itt pedig legyen
+
+05:14.490 --> 05:18.740
+6, 3 és négyzetgyök 3.
+
+05:18.740 --> 05:23.450
+Figyeld meg, AB/XY az 30-szor gyök 3
+
+05:23.450 --> 05:27.260
+osztva 3-szor gyök 3, az 10.
+
+05:27.260 --> 05:28.620
+Mekkora lesz BC/XZ?
+
+05:28.620 --> 05:31.700
+30 osztva 3-mal, az 10.
+
+05:31.700 --> 05:37.170
+És mennyi 60 osztva 6-tal, vagy AC/XZ?
+
+05:37.170 --> 05:39.020
+Nos, az is 10 lesz.
+
+05:39.020 --> 05:41.200
+Tehát általánosságban, ha innen
+az egyik oldaltól
+
+05:41.200 --> 05:42.741
+megyünk ide, a megfelelő oldalhoz,
+
+05:42.741 --> 05:45.559
+akkor minden oldal esetében 10-zel szorzunk.
+
+05:45.559 --> 05:47.100
+De erre nem azt mondjuk, hogy egybevágóak,
+
+05:47.100 --> 05:48.474
+vagy hogy az oldalak ugyanakkorák lennének
+
+05:48.474 --> 05:50.725
+az oldal-oldal-oldal hasonlósági
+feltétel alapján.
+
+05:50.725 --> 05:52.850
+Annyit állítunk, hogy ugyanazzal a
+mennyiséggel szorozva
+
+05:52.850 --> 05:54.870
+felnagyítjuk őket, vagy
+másképp fogalmazva
+
+05:54.870 --> 05:58.250
+a megfelelő oldalak aránya
+
+05:58.250 --> 06:00.060
+ugyanaz lesz.
+
+06:00.060 --> 06:04.940
+Na és mi van akkor, ha
+
+06:04.940 --> 06:09.720
+– rajzoljunk ide egy másik háromszöget,
+
+06:09.750 --> 06:12.300
+ezeket itt akarom hagyni,
+hogy aztán egyszerre láthassuk őket, –
+
+06:12.300 --> 06:17.580
+tehát rajzoljuk meg az ABC háromszöget,
+
+06:17.580 --> 06:22.860
+ez itt az A, a B és a C.
+
+06:22.860 --> 06:29.860
+És tudjuk, hogy
+ha nézzük ezt a másik háromszöget,
+
+06:29.860 --> 06:39.410
+akkor ez az XY az AB oldalnak
+valamilyen többszöröse.
+
+06:39.410 --> 06:41.300
+Le is írom ide,
+
+06:41.300 --> 06:45.860
+XY az AB-nek egy konstanssal való szorzata.
+
+06:45.860 --> 06:48.050
+Talán egy kicsit nagyobbra
+rajzolom az XY-t,
+
+06:48.050 --> 06:49.180
+de nem feltétlenül kellene.
+
+06:49.180 --> 06:50.605
+A konstans 1-nél kisebb is lehetne,
+
+06:50.605 --> 06:52.370
+ekkor egy kisebb értéket eredményezne.
+
+06:52.370 --> 06:53.680
+De csináljuk inkább így,
+
+06:53.680 --> 06:56.920
+vagyis legyen az XY
+egy kicsit nagyobb.
+
+06:56.920 --> 06:59.850
+Tehát mondjuk ez az X és ez az Y.
+
+06:59.850 --> 07:07.430
+Tegyük fel tehát, hogy az XY/AB
+
+07:07.430 --> 07:08.820
+valamilyen konstans érték.
+
+07:08.820 --> 07:11.390
+Ha mindkét oldalt megszorozzuk AB-vel,
+
+07:11.390 --> 07:14.470
+akkor azt kapjuk, hogy
+XY az AB-nek valahányszoros nagyítása.
+
+07:14.470 --> 07:20.300
+Lehet pl. AB=5, XY=10, és ekkor
+a konstansunk 2 lesz.
+
+07:20.300 --> 07:23.020
+Egy kettes tényezővel nagyítottunk.
+
+07:23.020 --> 07:27.250
+Ezenkívül – mondjuk – azt is tudjuk,
+
+07:27.250 --> 07:31.730
+hogy az ABC szög megegyezik
+az XYZ szöggel.
+
+07:31.730 --> 07:33.940
+Felveszek itt egy új pontot,
+
+07:33.940 --> 07:36.850
+és rajzolok egy új oldalt.
+
+07:36.850 --> 07:39.690
+Ez itt Z. És még
+
+07:39.690 --> 07:45.010
+azt is tudjuk, hogy az ABC szög
+megegyezik az XYZ szöggel,
+
+07:45.010 --> 07:48.610
+valamint azt is, hogy a BC/YZ arány
+
+07:48.610 --> 07:50.720
+ugyanez az állandó érték.
+
+07:50.720 --> 07:55.360
+A BC és YZ aránya is
+
+07:55.360 --> 07:57.360
+megegyezik ezzel az állandóval.
+
+07:57.360 --> 08:00.750
+Így például, ahol ez 5 és 10 volt,
+ez mondjuk 3 és 6.
+
+08:00.750 --> 08:02.440
+A konstanssal megduplázzuk
+
+08:02.440 --> 08:03.980
+az oldal hosszát.
+
+08:03.980 --> 08:09.490
+Vajon ez az XYZ háromszög hasonló-e?
+
+08:09.490 --> 08:16.590
+Gondoljuk meg, ha XY ugyanannyiszorosa AB-nek,
+
+08:16.590 --> 08:21.200
+mint YZ a BC-nek, és az
+általuk közbezárt szögek
+
+08:21.200 --> 08:23.640
+megegyeznek, akkor
+csupán egyetlen háromszöget
+
+08:23.640 --> 08:25.210
+tudunk itt felrajzolni.
+
+08:25.210 --> 08:28.640
+Egyetlen háromszögre
+vagyunk itt korlátozva,
+
+08:28.640 --> 08:30.140
+vagyis teljesen meghatározott
+
+08:30.140 --> 08:32.306
+ennek az oldalnak a hossza,
+és az oldal hosszát
+
+08:32.306 --> 08:35.270
+pontosan ugyanezzel a konstanssal
+való szorzás fogja kiadni.
+
+08:35.270 --> 08:41.105
+Ezt a feltételt oldal-szög-oldal
+hasonlóságnak hívjuk.
+
+08:41.179 --> 08:44.110
+Tehát még egyszer, láttuk a 3 oldal
+és a 2 oldal és szög
+
+08:44.110 --> 08:45.740
+egybevágósági alapeseteket.
+
+08:45.740 --> 08:47.550
+De itt most egész más
+a helyzet.
+
+08:47.550 --> 08:55.240
+Itt ugyanis azt mondjuk, hogy
+ha a két háromszögben
+
+08:55.240 --> 08:57.240
+két-két oldalhossz aránya egyenlő,
+
+08:57.240 --> 09:01.820
+azaz AB/XY, mint az egyik
+összetartozó oldalpár,
+
+09:01.820 --> 09:04.660
+és a másik összetartozó oldalpár,
+
+09:04.660 --> 09:08.390
+BC és YZ aránya megegyezik,
+valamint az ezek által bezárt szögek
+
+09:08.390 --> 09:11.640
+egyenlők, akkor kimondhatjuk
+a hasonlóságot.
+
+09:11.640 --> 09:14.180
+Az egybevágóságnál az oldalaknak
+ténylegesen
+
+09:14.180 --> 09:15.060
+meg kellett egyezniük.
+
+09:15.060 --> 09:18.570
+Itt viszont azt mondjuk ki, hogy csupán
+a megfelelő oldalak arányainak
+
+09:18.570 --> 09:20.630
+kell egyenlőnek lennie.
+
+09:20.630 --> 09:24.830
+Tehát itt az oldal-szög-oldal feltételt
+alkalmazva,
+
+09:24.830 --> 09:26.950
+hadd rajzoljak fel néhány példát.
+
+09:26.950 --> 09:33.100
+Legyen mondjuk itt ez a 3-2-4 háromszög,
+
+09:33.100 --> 09:38.450
+és legyen ez a másik háromszög,
+
+09:38.450 --> 09:42.410
+9 és 6 hosszú oldalakkal,
+
+09:42.410 --> 09:45.460
+és azt is tudjuk, hogy a közbezárt szögek
+megegyeznek,
+
+09:45.460 --> 09:47.480
+vagyis ez a szög meg ez szög ugyanakkora.
+
+09:47.480 --> 09:50.470
+Na mármost az oldal-szög-oldal
+hasonlóság azt mondja ki,
+
+09:50.470 --> 09:51.790
+hogy ez a két háromszög
+
+09:51.790 --> 09:56.403
+egyértelműen hasonló,
+le vagyunk korlátozva,
+
+09:56.403 --> 09:58.260
+hiszen egyetlen ilyen
+háromszöget
+
+09:58.260 --> 09:59.750
+tudunk csak ide berajzolni.
+
+09:59.750 --> 10:01.310
+Mégpedig egy olyan háromszöget,
+
+10:01.310 --> 10:03.930
+amelynek minden oldala
+ugyanazzal az értékkel van megszorozva.
+
+10:03.930 --> 10:06.169
+Itt tehát csak egyetlen oldalhosszt
+
+10:06.169 --> 10:07.710
+rajzolhatunk be,
+
+10:07.710 --> 10:10.840
+amelyet ugyanúgy 3-szoros szorzóval
+kellett kiszámolni.
+
+10:10.840 --> 10:12.590
+Ez az egyetlen lehetséges háromszög.
+
+10:12.590 --> 10:14.548
+Amikor meghatározod ezt az oldalt,
+abból indulsz ki,
+
+10:14.548 --> 10:17.614
+hogy ez 3-szorosa ennek az oldalnak,
+ez 3-szorosa ennek az oldalnak,
+
+10:17.614 --> 10:19.280
+a bezárt szögek megegyeznek,
+
+10:19.280 --> 10:21.810
+és így csak egyetlen háromszöget
+tudunk felrajzolni.
+
+10:21.810 --> 10:23.920
+És tudjuk, hogy létezik itt
+egy hasonló háromszög,
+
+10:23.920 --> 10:26.264
+amelynek minden oldala
+3-szor nagyobb,
+
+10:26.264 --> 10:27.680
+így az egyetlen megrajzolható
+háromszög
+
+10:27.680 --> 10:30.334
+pont ez a hasonló háromszög.
+
+10:30.334 --> 10:32.000
+Ez a helyzet
+az oldal-szög-oldal hasonlóság esetén.
+
+10:32.000 --> 10:34.374
+Egyáltalán nem állítjuk, hogy ez az oldal
+megegyezne ezzel az oldallal,
+
+10:34.374 --> 10:36.100
+vagy ez az oldal emezzel,
+
+10:36.100 --> 10:39.825
+csupán azt, hogy ugyanazzal a
+konstanssal vannak megszorozva.
+
+10:39.825 --> 10:44.450
+Ha lenne egy másik háromszögünk,
+ami mondjuk így nézne ki:
+
+10:44.450 --> 10:48.360
+ez itt 9, ez 4, és
+
+10:48.360 --> 10:51.520
+a közbezárt szög ugyanakkora,
+akkor nem mondhatnánk,
+
+10:51.520 --> 10:55.960
+hogy ezek hasonlóak,
+mert ez az oldal háromszorosa ennek,
+
+10:55.960 --> 10:58.100
+ez pedig csak kétszerese ennek.
+
+10:58.100 --> 11:00.460
+Tehát erről nem jelenthetjük ki,
+
+11:00.460 --> 11:03.240
+hogy feltétlenül hasonló.
+
+11:03.240 --> 11:06.550
+Hasonlóképpen, ha egy olyan
+háromszögünk lenne,
+
+11:06.550 --> 11:10.040
+amelynek egyik oldala 9, a másik 6,
+
+11:10.040 --> 11:13.920
+de nem tudnánk, hogy
+ez a két szög azonos-e,
+
+11:13.920 --> 11:16.110
+vagyis nem ismernénk az összes
+kényszerítő feltételt,
+
+11:16.110 --> 11:18.910
+tehát nem tudhatnánk,
+hogy ez a két háromszög
+
+11:18.910 --> 11:21.060
+mindenképpen hasonló,
+
+11:21.060 --> 11:23.360
+hiszen nem ismerjük a közbezárt szögeket.
+
+11:23.360 --> 11:24.660
+Most persze mondhatnád azt,
+
+11:24.660 --> 11:26.646
+hogy még további feltételeink is voltak.
+
+11:26.646 --> 11:31.784
+Volt az egybevágóságnál a szög-szög-oldal
+feltétel,
+
+11:31.784 --> 11:33.510
+de ha belegondolsz, azt már megmutattuk,
+
+11:33.510 --> 11:36.490
+hogy két szög már önmagában
+is elég a hasonlóság biztosítására,
+
+11:36.490 --> 11:38.650
+tehát minek foglalkozni egy szöggel,
+egy másik szöggel
+
+11:38.650 --> 11:40.080
+és még egy oldalpár arányával is?
+
+11:40.080 --> 11:41.700
+Minek ezzel bajlódni?
+
+11:41.700 --> 11:44.390
+Aztán volt a szög-oldal-szög
+egybevágósági feltétel,
+
+11:44.390 --> 11:46.940
+de mégegyszer, itt is
+tudjuk, hogy a két szög elegendő,
+
+11:46.940 --> 11:48.890
+nem kell pluszban foglalkoznunk az oldallal,
+
+11:48.890 --> 11:51.060
+egyáltalán nincs rá szükségünk.
+
+11:51.060 --> 11:53.580
+Ezek lesznek tehát
+a hasonlósági alapeseteink.
+
+11:53.580 --> 11:55.760
+És emlékeztetni szeretnélek arra,
+hogy itt az oldal-oldal-oldal
+
+11:55.760 --> 11:58.694
+alapeset tényleg különbözik
+az egybevágósági oldal-oldal-oldal alapesetétől.
+
+11:58.694 --> 12:01.110
+Itt a megfelelő oldalak arányáról beszélünk,
+
+12:01.110 --> 12:03.190
+nem állítjuk, hogy ezek az oldalak
+megegyeznek,
+
+12:03.190 --> 12:06.274
+Itt pedig, az oldal-szög-oldal alapeset is
+
+12:06.274 --> 12:07.940
+különbözik az egybevágósági
+oldal-szög-oldal alapesettől.
+
+12:07.940 --> 12:09.390
+Van hozzá köze, de itt az oldalak
+
+12:09.390 --> 12:11.400
+arányáról beszélünk, nem pedig
+
+12:11.400 --> 12:13.272
+a tényleges hosszukról.

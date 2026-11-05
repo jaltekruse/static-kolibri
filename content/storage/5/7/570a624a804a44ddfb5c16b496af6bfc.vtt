@@ -1,0 +1,321 @@
+WEBVTT
+
+00:00.530 --> 00:03.050
+- [Instructor] Let R be
+the region enclosed by
+
+00:03.050 --> 00:07.220
+y is equal to four times the
+square root of nine minus x
+
+00:07.220 --> 00:09.510
+and the axes in the first quadrant.
+
+00:09.510 --> 00:12.650
+And we can see that region
+R is gray right over here.
+
+00:12.650 --> 00:16.120
+Region R is the base of a solid.
+
+00:16.120 --> 00:20.460
+For each y-value the cross
+section of the solid taken
+
+00:20.460 --> 00:25.170
+perpendicular to the y-axis
+is a rectangle whose base
+
+00:25.170 --> 00:28.250
+lies in R and whose height is y.
+
+00:28.250 --> 00:32.230
+Express the volume of the
+solid with a definite integral.
+
+00:32.230 --> 00:34.603
+So pause this video and
+see if you can do that.
+
+00:35.900 --> 00:37.590
+Alright, now let's do this together.
+
+00:37.590 --> 00:40.310
+And first let's just try
+to visualize the solid
+
+00:40.310 --> 00:41.910
+and I'll try to do it by drawing
+
+00:43.090 --> 00:44.280
+this little bit of perspective.
+
+00:44.280 --> 00:46.250
+So if that's our y-axis
+
+00:46.250 --> 00:51.250
+and then this is our
+x-axis right over here.
+
+00:52.130 --> 00:56.650
+And I can redraw region R,
+looks something like this.
+
+00:56.650 --> 01:00.840
+And now let's just imagine a
+cross section of our solid.
+
+01:00.840 --> 01:02.970
+So it says the cross section solid
+
+01:02.970 --> 01:05.030
+taken perpendicular to the y-axis,
+
+01:05.030 --> 01:06.590
+so let's pick a y-value right over here.
+
+01:06.590 --> 01:09.080
+We're gonna go
+perpendicular to the y-axis.
+
+01:09.080 --> 01:12.370
+It says whose base lies in R.
+
+01:12.370 --> 01:14.320
+So the base would look like that,
+
+01:14.320 --> 01:16.570
+it would actually be the
+x-value that corresponds
+
+01:16.570 --> 01:18.130
+to that particular y-value.
+
+01:18.130 --> 01:19.920
+So I'll just write x right over here.
+
+01:19.920 --> 01:23.190
+And then the height is y.
+
+01:23.190 --> 01:28.190
+So the height is goin'a be
+whatever our y-value is.
+
+01:28.650 --> 01:31.640
+And then if we wanted to
+calculate the volume of
+
+01:31.640 --> 01:36.270
+just a little bit, a slice that
+has an infinitesimal depth,
+
+01:36.270 --> 01:40.810
+we could think about that
+infinitesimal depth in terms of y.
+
+01:40.810 --> 01:45.610
+So we could say its depth,
+right over here, is d y.
+
+01:45.610 --> 01:48.150
+D y, and we could draw
+other cross sections.
+
+01:48.150 --> 01:51.150
+For example, right over
+here, our y is much lower,
+
+01:51.150 --> 01:53.620
+it might look some, so our
+height will be like that.
+
+01:53.620 --> 01:58.620
+But then our base is the
+corresponding x-value
+
+01:58.710 --> 02:01.660
+that sits on the curve
+right over that x y pair,
+
+02:01.660 --> 02:02.990
+that would sit on that curve.
+
+02:02.990 --> 02:06.770
+And so this cross section
+would look like this.
+
+02:06.770 --> 02:08.860
+And once again, if we wanted to put,
+
+02:08.860 --> 02:10.120
+if we wanted to calculate its volume,
+
+02:10.120 --> 02:12.855
+we could say there's
+an infinitesimal volume
+
+02:12.855 --> 02:14.480
+and it would have depth d y.
+
+02:14.480 --> 02:17.580
+And so as we've learned
+many times in integration,
+
+02:17.580 --> 02:19.110
+what we wanna do is
+think about the volume of
+
+02:19.110 --> 02:21.770
+one of these, I guess
+you could say, slices,
+
+02:21.770 --> 02:24.260
+and then integrate across all of them.
+
+02:24.260 --> 02:25.880
+Now there's a couple
+of ways to approach it.
+
+02:25.880 --> 02:28.170
+You could try to integrate
+with respect to x,
+
+02:28.170 --> 02:30.630
+or you could integrate with respect to y.
+
+02:30.630 --> 02:32.840
+I'm gonna argue it's much
+easier to integrate with respect
+
+02:32.840 --> 02:35.770
+to y here 'cause we already
+have things in terms of d y.
+
+02:35.770 --> 02:37.590
+The volume of this little slice
+
+02:37.590 --> 02:42.500
+is going to be y times x times d y.
+
+02:42.500 --> 02:44.850
+Now if wanna integrate with respect to y,
+
+02:44.850 --> 02:46.973
+we want everything in terms of y.
+
+02:47.892 --> 02:51.140
+And so what you do is
+express x in terms of y.
+
+02:51.140 --> 02:53.510
+So here we just have to solve for x,
+
+02:53.510 --> 02:55.530
+so one way to do this is, let's see,
+
+02:55.530 --> 02:58.120
+we can square both sides of,
+
+02:58.120 --> 03:00.160
+oh, actually let's divide
+both sides by four.
+
+03:00.160 --> 03:03.200
+So you get y over four is equal to
+
+03:03.200 --> 03:05.100
+the square root of nine minus x.
+
+03:05.100 --> 03:06.940
+Now we can square both sides.
+
+03:06.940 --> 03:11.320
+Y squared over 16 is
+equal to nine minus x.
+
+03:11.320 --> 03:13.760
+And then, let's see, we could
+
+03:13.760 --> 03:16.190
+multiply both sides by negative one.
+
+03:16.190 --> 03:18.840
+So negative y squared over 16
+
+03:18.840 --> 03:20.640
+is equal to x minus nine.
+
+03:20.640 --> 03:22.540
+And now we could add nine to both sides.
+
+03:22.540 --> 03:27.540
+And we get nine minus y
+squared over 16 is equal to x.
+
+03:27.760 --> 03:30.130
+And so we could substitute
+that right over there.
+
+03:30.130 --> 03:33.150
+So another way to express
+the volume of this little
+
+03:33.150 --> 03:36.080
+slice right over here
+of infinitesimal depth,
+
+03:36.080 --> 03:38.180
+d y depth, is going to be
+
+03:38.180 --> 03:43.130
+y times nine minus y squared
+
+03:43.130 --> 03:46.020
+over 16 d y.
+
+03:46.020 --> 03:49.380
+And if we wanna find the
+volume of the whole figure,
+
+03:49.380 --> 03:51.490
+it's gonna look something like,
+
+03:51.490 --> 03:55.761
+something like that, we're
+just goin'a integrate
+
+03:55.761 --> 03:59.240
+from y equals zero to y is equal to 12.
+
+03:59.240 --> 04:01.770
+So integrate from y is equal to zero
+
+04:01.770 --> 04:03.780
+to y is equal to 12.
+
+04:03.780 --> 04:05.390
+And that's all they asked us to do
+
+04:05.390 --> 04:07.810
+to express the volume
+as a definite integral,
+
+04:07.810 --> 04:09.330
+but this is actually a definite integral
+
+04:09.330 --> 04:12.170
+that you could solve without a calculator.
+
+04:12.170 --> 04:16.720
+If you multiply both of these terms by y,
+
+04:16.720 --> 04:19.210
+well then you're just goin'a
+have a polynomial in terms of y
+
+04:19.210 --> 04:22.360
+and we know how to take
+the antiderivative of that
+
+04:22.360 --> 04:24.260
+and then evaluate a definite integral.

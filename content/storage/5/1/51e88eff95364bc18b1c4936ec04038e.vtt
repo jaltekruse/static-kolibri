@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.000 --> 00:04.384
+Bize sorulan logaritma 3 tabanında 27x'in sadeleştirilmiş hali.
+
+00:04.384 --> 00:06.715
+ve açıkçası bu oldukça kolay.
+
+00:06.715 --> 00:08.523
+Varsayıyorum ki bizden beklenen
+
+00:08.523 --> 00:11.110
+bazı logaritmik özelliklerin kullanımı ve bunun soruya uygulanması
+
+00:11.110 --> 00:13.346
+belki de biraz daha zorlaştırarak.
+
+00:13.346 --> 00:15.323
+O zaman başlayalım.
+
+00:15.323 --> 00:17.946
+Burda gözüme çarpan bir logaritmik özellik var.
+
+00:17.946 --> 00:19.921
+Çünkü, bu sorunun söylediği şey:
+
+00:19.921 --> 00:22.731
+3'ü kaçıncı kuvvetine yükseltmeliyiz ki 27x'i elde edebilelim.
+
+00:22.731 --> 00:26.444
+27x, 27 çarpı x'le aynı şey.
+
+00:26.444 --> 00:30.552
+Yani burda bizden kullanmamızı bekledikleri logaritmik özellik,
+
+00:30.552 --> 00:40.110
+logaritma b tabanında a çarpı c'nin
+
+00:40.110 --> 00:41.656
+logaritma b tabanında a artı
+
+00:41.656 --> 00:48.079
+logaritma b tabanında c'ye eşit olduğu.
+
+00:48.079 --> 00:50.982
+Bu kural tamamen üslerin özelliklerinden ortaya çıkıyor.
+
+00:50.982 --> 00:54.705
+Eğer aynı tabanda iki üslü sayımız varsa,
+
+00:54.705 --> 00:56.421
+üslerini toplayabiliriz.
+
+00:56.421 --> 00:58.121
+Bunu biraz daha açıklayayım.
+
+00:58.121 --> 01:00.910
+Bu parça bu örnek için biraz karışık olabilir ama önemli olan
+
+01:00.910 --> 01:02.656
+bunun nasıl uygulandığını bilmeniz.
+
+01:02.656 --> 01:04.479
+Fakat tabiki kaynağını bilirseniz daha iyi.
+
+01:04.479 --> 01:10.571
+Mesela diyelim ki log b tabanında a çarpı c, x'e eşit.
+
+01:10.571 --> 01:13.777
+Yani bu parça x'in genişletilmiş hali.
+
+01:13.777 --> 01:17.587
+Ve diyelim ki bu parça da y'nin geniş hali.
+
+01:17.587 --> 01:22.079
+Yani, log b tabanında a y'ye eşit.
+
+01:22.079 --> 01:26.438
+Ve bu parça da z'nin açık hali olsun.
+
+01:26.438 --> 01:32.279
+Yani log b tabanında c, eşittir z.
+
+01:32.279 --> 01:34.715
+Şimdi, biliyoruz ki
+
+01:34.715 --> 01:37.715
+bu parça
+
+01:37.715 --> 01:39.715
+veya bu parçanın bize gösterdiği şey
+
+01:39.715 --> 01:46.829
+b'nin x'inci kuvvetinin a çarpı c'ye eşit olduğu.
+
+01:46.829 --> 01:49.823
+Bu parça da
+
+01:49.823 --> 01:54.187
+b üssü y'nin a'ya eşit olduğu.
+
+01:54.187 --> 01:56.859
+Ve burda da
+
+01:56.859 --> 01:59.823
+b üssü z'nin c'ye eşit olduğu.
+
+01:59.823 --> 02:02.029
+Durun bir, yeşille yazayım.
+
+02:02.029 --> 02:04.198
+Şimdi, tekrarlıyorum.
+
+02:04.198 --> 02:06.448
+Aynı şeyi logaritmik bir denklem olarak yazmak yerine
+
+02:06.448 --> 02:08.025
+üstel bir fonksiyon
+
+02:08.025 --> 02:08.525
+olarak yazıyorum.
+
+02:09.818 --> 02:13.685
+b üssü z eşittir c.
+
+02:13.685 --> 02:16.285
+Bunların hepsi aynı şeyi ifade ediyor.
+
+02:16.285 --> 02:18.015
+Yani farklı şekillerde ifade edilen
+
+02:18.015 --> 02:20.352
+aynı şeyler.
+
+02:20.352 --> 02:23.377
+yani bu da farklı şekillerde yazılmış aynı şey.
+
+02:23.377 --> 02:25.500
+Şimdi, eğer a'nın b üssü y'ye eşit olduğunu biliyorsak,
+
+02:25.500 --> 02:28.531
+yani buna eşit olduğunu biliyorsak,
+
+02:28.531 --> 02:33.813
+ve c'nin de b üssü z'ye eşit olduğunu da biliyorsak,
+
+02:33.813 --> 02:36.438
+o zaman, b üssü x'in
+
+02:36.438 --> 02:41.808
+b üssü y çarpı
+
+02:41.808 --> 02:43.962
+b üssü
+
+02:43.962 --> 02:47.275
+z olduğunu rahatlıkla
+
+02:47.275 --> 02:49.479
+yazabiliriz.
+
+02:49.479 --> 02:52.290
+Ve önceki üstel
+
+02:52.290 --> 02:54.208
+özelliklerden de biliyoruz ki,
+
+02:54.208 --> 02:56.936
+eğer b üssü y ile b üssü z'yi çarparsak
+
+02:56.936 --> 02:58.744
+ulaşacağımız şey:
+
+02:58.744 --> 03:04.571
+b üssü - bunu başka bir renkle yazıyorum - y artı z.
+
+03:04.571 --> 03:06.771
+Bunun çıkış noktası üstel özellikler.
+
+03:06.771 --> 03:09.905
+Sonuçta eğer b üssü y artı z
+
+03:09.905 --> 03:15.490
+b üzeri x'e eşitse, bu bize x'in y artı z'ye eşit olduğunu gösterir.
+
+03:15.490 --> 03:19.023
+x y artı z'ye eşit olmalı.
+
+03:19.023 --> 03:21.695
+Bu biraz karışık gibi ama fazla telaşlanmayın.
+
+03:21.695 --> 03:24.264
+Önemli olan şey
+
+03:24.264 --> 03:26.536
+nasıl uygulandığını bilmeniz.
+
+03:26.536 --> 03:28.459
+Sonra bu kuralı sayılarla da deneyebilirsiniz.
+
+03:28.459 --> 03:31.562
+Hatırlamanız gereken şey logaritmanın sadece üssü sayılar olduğu.
+
+03:31.562 --> 03:34.675
+Bunu söylediğimde insanlar bana: Aa bu da ne demek? gibisinden şeyler söylüyor.
+
+03:34.675 --> 03:38.269
+Fakat bir logaritmayı açtığınızda ulaştığınız şey bir üslü sayı oluyor.
+
+03:38.269 --> 03:41.608
+Yani a çarpı c'ye ulaşmak için b'yi yükseltmelisiniz.
+
+03:41.608 --> 03:45.141
+Şimdi bu özelliği soruya uygulayalım.
+
+03:45.141 --> 03:47.223
+Bunu uyguladığımızda biliyoruz ki
+
+03:47.223 --> 03:51.669
+log 3 tabanında 27 çarpı x, parantez içinde yazıyorum,
+
+03:51.669 --> 04:02.325
+eşittir log 3 tabanında 27 artı log 3 tabanında x.
+
+04:02.325 --> 04:05.777
+Bunu açabiliriz.
+
+04:05.777 --> 04:10.633
+3'ü kaçıncı kuvvetine yükseltmeliyim ki 27'ye ulaşabilelim?
+
+04:10.633 --> 04:15.152
+Bunu şöyle yazalım: 3 üssü soru işareti eşittir 27.
+
+04:15.152 --> 04:19.125
+Sonuçta 3 üssü 3 27'ye eşit.
+
+04:19.125 --> 04:21.577
+3 çarpı 3 9, 9 çarpı 3 27.
+
+04:21.577 --> 04:23.567
+Yani bu yazılım 3'ün açılmış hali.
+
+04:23.567 --> 04:26.275
+Sonuçta, bunu sadeleştirmemiz gerekiyorsa. Ya da bunu sadeleştirme değil de
+
+04:26.275 --> 04:29.171
+genişletme olarak söylemeliyim ya da bu özelliği kullanmak olarak.
+
+04:29.171 --> 04:32.392
+Çünkü başta tek terim varken şimdi iki terimimiz var.
+
+04:32.392 --> 04:35.782
+Aslında bunla başlamış olsaydık, evet derdim ki daha sade bir forma ulaştık.
+
+04:35.782 --> 04:40.095
+Fakat bunu tekrar yazınca, ilk terim 3 oluyor.
+
+04:40.095 --> 04:42.248
+Yani ilk terim üç
+
+04:42.248 --> 04:45.818
+ve geriye kalan diğer terim de log 3 tabanında x.
+
+04:45.818 --> 04:50.198
+Bu sadece orjinal denklemi yazmanın başka bir yolu.
+
+04:50.198 --> 04:54.613
+Log 3 tabanında 27x
+
+04:54.613 --> 04:58.546
+Tekrar söylüyorum: Bunun daha sade bir form olduğunu söylemem doğru olmaz.
+
+04:58.546 --> 3:59:59.999
+Bu sadece bu denklemi yazmanın başka bir yolu.

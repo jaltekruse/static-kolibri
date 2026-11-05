@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.941 --> 00:03.129
+- [Instructor] We are told
+the population of a town
+
+00:03.129 --> 00:06.296
+grows at a rate of e to the 1.2t power
+
+00:08.420 --> 00:12.587
+minus two t people per year
+where t is the number of years.
+
+00:14.881 --> 00:18.964
+At t equals two years,
+the town has 1,500 people.
+
+00:20.533 --> 00:23.101
+First, they ask us
+approximately by how many people
+
+00:23.101 --> 00:24.738
+does the population grow
+
+00:24.738 --> 00:27.237
+between t equals two and t equals five,
+
+00:27.237 --> 00:28.993
+and then what is the town's population
+
+00:28.993 --> 00:30.893
+at t equals five years.
+
+00:30.893 --> 00:32.328
+If we actually figure
+out this first question,
+
+00:32.328 --> 00:34.384
+the second question is actually
+pretty straight-forward.
+
+00:34.384 --> 00:35.855
+We figure out the amount that it grows,
+
+00:35.855 --> 00:38.432
+and then add it to what we
+were at at t equals two,
+
+00:38.432 --> 00:40.147
+add it to 1,500.
+
+00:40.147 --> 00:43.549
+So pause this video and see
+if you can figure it out.
+
+00:43.549 --> 00:47.337
+The key here is to appreciate
+that this right over here
+
+00:47.337 --> 00:50.457
+is expressing the rate of how fast
+
+00:50.457 --> 00:52.286
+the population is growing.
+
+00:52.286 --> 00:54.946
+And we've then seen in
+multiple videos now,
+
+00:54.946 --> 00:57.687
+let me just draw, do a quick review
+
+00:57.687 --> 01:00.270
+of this notion of a rate curve.
+
+01:01.701 --> 01:05.868
+So those are my axes, and this
+is my t-axis, my time axis.
+
+01:09.108 --> 01:11.871
+And so this is showing
+me how my rate of change
+
+01:11.871 --> 01:14.371
+changes as a function of time.
+
+01:15.787 --> 01:17.981
+Let's say it's something like this.
+
+01:17.981 --> 01:20.312
+So once again, if I said at this time
+
+01:20.312 --> 01:22.068
+right over here, this is my rate,
+
+01:22.068 --> 01:25.290
+this doesn't tell me, for
+example, what my population is.
+
+01:25.290 --> 01:29.072
+This tells me what is my rate
+of change of a population.
+
+01:29.072 --> 01:31.449
+And we have seen in previous videos
+
+01:31.449 --> 01:34.112
+that if you wanna figure
+out the change in the thing
+
+01:34.112 --> 01:38.548
+that the rate is the
+rate of change of, say,
+
+01:38.548 --> 01:41.346
+the change in population,
+you would find the area
+
+01:41.346 --> 01:45.046
+under the rate curve between
+those two appropriate times.
+
+01:45.046 --> 01:46.867
+And why does that make sense?
+
+01:46.867 --> 01:50.254
+Well, imagine a very small
+change in time right over here.
+
+01:50.254 --> 01:52.021
+If you have a very small change in time,
+
+01:52.021 --> 01:55.226
+and if you assume that your
+rate is approximately constant
+
+01:55.226 --> 01:57.705
+over that very small change in time,
+
+01:57.705 --> 02:00.064
+well, then your change in,
+let's say we're measuring
+
+02:00.064 --> 02:02.511
+the rate of change of population here,
+
+02:02.511 --> 02:04.708
+your accumulation, you could say,
+
+02:04.708 --> 02:08.903
+is going to be your rate
+times your change in time,
+
+02:08.903 --> 02:11.203
+which would be the area of this rectangle.
+
+02:11.203 --> 02:14.040
+And so roughly that would
+be the area under the curve
+
+02:14.040 --> 02:17.627
+over that very, very small change in time.
+
+02:17.627 --> 02:20.574
+What we really wanna do is
+find the area under this curve
+
+02:20.574 --> 02:23.760
+from t equals two to t equals five.
+
+02:23.760 --> 02:25.689
+And we have seen multiple
+times in calculus
+
+02:25.689 --> 02:27.298
+how to express that.
+
+02:27.298 --> 02:31.215
+So the definite integral
+from t is equal to two
+
+02:32.305 --> 02:36.160
+to t is equal to five of this expression
+
+02:36.160 --> 02:39.160
+of e to the 1.2t minus two t dt, dt.
+
+02:46.615 --> 02:49.266
+So, if we just evaluate
+that, that will be the answer
+
+02:49.266 --> 02:51.369
+to this first question.
+
+02:51.369 --> 02:52.762
+So what is this going to be?
+
+02:52.762 --> 02:54.611
+Well, let's actually work it out.
+
+02:54.611 --> 02:58.528
+So what is the antiderivative
+of e to the 1.2t?
+
+02:59.539 --> 03:01.226
+Well, let me just try to do it over here.
+
+03:01.226 --> 03:03.835
+So if I am trying to calculate,
+
+03:03.835 --> 03:08.410
+let me write it as e to the
+five, or actually 6/5 t.
+
+03:08.410 --> 03:11.179
+Say, 12/10 is the same thing as 6/5.
+
+03:11.179 --> 03:14.563
+6/5 t dt, so this is
+an indefinite integral,
+
+03:14.563 --> 03:17.062
+I'm just trying to figure
+out the antiderivative here.
+
+03:17.062 --> 03:19.450
+Well, if I had a 6/5 right over here,
+
+03:19.450 --> 03:22.403
+then use substitution, or
+sometimes you would say
+
+03:22.403 --> 03:24.756
+the inverse chain rule,
+would be very appropriate.
+
+03:24.756 --> 03:26.742
+Well, we could put a 6/5 there
+
+03:26.742 --> 03:28.797
+if we write a 5/6 right over here.
+
+03:28.797 --> 03:31.331
+5/6 times 6/5, then we can take constants
+
+03:31.331 --> 03:33.267
+in and out of the integral like this.
+
+03:33.267 --> 03:35.249
+Scaling constants, I should say.
+
+03:35.249 --> 03:39.515
+Well, now, so this is
+going to be equal to 5/6,
+
+03:39.515 --> 03:41.083
+this 5/6 right over here.
+
+03:41.083 --> 03:43.288
+This antiderivative is
+pretty straight-forward.
+
+03:43.288 --> 03:46.153
+Since I have the derivative
+of 6/5 t right over here,
+
+03:46.153 --> 03:49.149
+I can find the antiderivative
+with respect to 6/5 t,
+
+03:49.149 --> 03:50.979
+which is essentially I'm
+doing u-substitution.
+
+03:50.979 --> 03:53.378
+If you have to do u-substitution,
+you would make that
+
+03:53.378 --> 03:57.212
+right over there u, and then
+that and that would be your du.
+
+03:57.212 --> 03:58.611
+But, needless to say, this would be
+
+03:58.611 --> 04:02.778
+5/6 times e to the 6/5 t,
+and if you're thinking about
+
+04:04.018 --> 04:05.542
+the indefinite integral,
+you would then have
+
+04:05.542 --> 04:07.565
+a plus c here, of course.
+
+04:07.565 --> 04:09.612
+And you could verify that
+the derivative of this
+
+04:09.612 --> 04:11.612
+is indeed e to the 1.2t.
+
+04:13.190 --> 04:16.247
+So this is going to be equal to,
+
+04:16.247 --> 04:18.212
+so this part right over here,
+
+04:18.212 --> 04:22.379
+the antiderivative is 5/6 e to the 6/5 t,
+
+04:25.480 --> 04:28.460
+and then this part right over here,
+
+04:28.460 --> 04:30.472
+the antiderivative of two t is t squared,
+
+04:30.472 --> 04:32.055
+so minus t squared.
+
+04:32.962 --> 04:37.154
+And we are going to evaluate
+that at five and two
+
+04:37.154 --> 04:38.605
+and find the difference.
+
+04:38.605 --> 04:41.890
+So let's evaluate this at
+when t is equal to five.
+
+04:41.890 --> 04:43.406
+Well, you are going to, and let me
+
+04:43.406 --> 04:44.627
+color-code this a little bit.
+
+04:44.627 --> 04:47.907
+When t is equal to five you get
+
+04:47.907 --> 04:52.074
+5/6 times e to the 6/5
+times five is e to the 6th
+
+04:53.596 --> 04:56.263
+minus five squared, so minus 25.
+
+04:57.938 --> 05:00.938
+And so from that I want to subtract.
+
+05:02.141 --> 05:04.891
+When we evaluate it at two we get
+
+05:06.779 --> 05:10.946
+5/6 e to the 6/5 times
+two is the same thing
+
+05:13.709 --> 05:17.626
+as 12/5, or we could say that's 2.4.
+
+05:18.740 --> 05:21.740
+2.4 minus four, two squared is four.
+
+05:25.262 --> 05:27.095
+And so what do we get?
+
+05:27.995 --> 05:30.404
+Well, there's a couple of
+ways that we could do this.
+
+05:30.404 --> 05:34.101
+So then we could write this
+as, let me write it this way,
+
+05:34.101 --> 05:38.620
+we could write this, so
+we have a 5/6 and a 5/6,
+
+05:38.620 --> 05:42.787
+so we could write this as
+5/6 times e to the sixth,
+
+05:44.631 --> 05:47.548
+e to the sixth, minus e to the 2.4,
+
+05:49.101 --> 05:52.235
+minus 'cause we distribute
+that negative sign,
+
+05:52.235 --> 05:54.985
+e to the 2.4, e to the 2.4 power.
+
+05:56.844 --> 06:00.177
+And then we have minus 25,
+let me just get another color
+
+06:00.177 --> 06:01.468
+to keep track of it.
+
+06:01.468 --> 06:05.444
+We have minus 25, and then
+you have minus negative four.
+
+06:05.444 --> 06:07.202
+So that would be plus four.
+
+06:07.202 --> 06:09.369
+So that would be minus 21.
+
+06:10.748 --> 06:13.430
+And I would need a calculator
+to figure this out,
+
+06:13.430 --> 06:15.450
+so let me do that.
+
+06:15.450 --> 06:18.950
+Let me get my calculator on this computer.
+
+06:19.806 --> 06:21.345
+And, there we go.
+
+06:21.345 --> 06:24.280
+And so let's see, if we wanna find
+
+06:24.280 --> 06:28.282
+e to the sixth power, that's 403, okay,
+
+06:28.282 --> 06:32.032
+now let me figure out,
+so minus, I would say,
+
+06:35.157 --> 06:38.762
+20, 2.4, that looks like
+a 24, I'll correct it
+
+06:38.762 --> 06:40.968
+as soon as I get back to that screen.
+
+06:40.968 --> 06:44.498
+E to that power, e to the 2.4 power.
+
+06:44.498 --> 06:47.525
+And I get equals, so what's in parentheses
+
+06:47.525 --> 06:50.951
+is this number right here, so times 5/6.
+
+06:50.951 --> 06:55.118
+Times five divided by six
+is equal to that minus 21.
+
+06:57.923 --> 07:00.173
+Minus 21, is equal to this.
+
+07:01.452 --> 07:04.299
+So, if I round to the nearest
+hundredth it's going to be
+
+07:04.299 --> 07:06.049
+approximately 306.00.
+
+07:08.200 --> 07:10.867
+So this is approximately 306.00.
+
+07:13.175 --> 07:16.053
+So approximately by how many
+people does the population grow
+
+07:16.053 --> 07:17.967
+between t equals two and t equals five?
+
+07:17.967 --> 07:20.722
+Well, by approximately 306 people.
+
+07:20.722 --> 07:23.136
+Let me write that down.
+
+07:23.136 --> 07:25.647
+So approximately 306 people.
+
+07:25.647 --> 07:27.136
+And they say, what is
+the town's population
+
+07:27.136 --> 07:28.735
+at t equals five.
+
+07:28.735 --> 07:32.863
+Well at time two at two
+years we had 1,500 people.
+
+07:32.863 --> 07:37.030
+And then we grow over this
+interval by 306, so plus 306.
+
+07:39.634 --> 07:41.727
+Well, that's gonna get me to,
+
+07:41.727 --> 07:43.506
+we deserve a little bit of a drum roll,
+
+07:43.506 --> 07:46.506
+1,806 people at t equals five years.

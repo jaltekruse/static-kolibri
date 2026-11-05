@@ -1,0 +1,813 @@
+WEBVTT
+
+00:00.461 --> 00:01.744
+- [Voiceover] Let's see
+if we can find the limit
+
+00:01.744 --> 00:03.261
+as x approaches negative 1
+
+00:03.261 --> 00:04.642
+of x plus 1
+
+00:04.642 --> 00:08.748
+over the square root of x plus 5 minus 2.
+
+00:08.748 --> 00:10.444
+So, our first reaction might just be,
+
+00:10.444 --> 00:12.163
+okay, well let's just
+use our limit properties
+
+00:12.163 --> 00:12.996
+a little bit,
+
+00:12.996 --> 00:15.466
+this is going to be the
+same thing as the limit
+
+00:15.466 --> 00:19.133
+as x approaches negative 1 of x plus 1
+
+00:20.351 --> 00:21.184
+over,
+
+00:22.029 --> 00:23.279
+over the limit,
+
+00:25.972 --> 00:27.316
+the limit
+
+00:27.316 --> 00:29.808
+as x approaches negative 1
+
+00:29.808 --> 00:32.975
+of square root of x plus 5 minus 2.
+
+00:35.217 --> 00:36.782
+And then we could say, all right,
+
+00:36.782 --> 00:38.334
+this thing up here,
+
+00:38.334 --> 00:39.819
+x plus 1, if this is,
+
+00:39.819 --> 00:42.786
+if we think about the
+graph y equals x plus 1,
+
+00:42.786 --> 00:44.967
+it's continuous everywhere, especially at
+
+00:44.967 --> 00:47.685
+x equals negative 1, and
+so to evaluate this limit,
+
+00:47.685 --> 00:49.646
+we just have to evaluate
+this expression at
+
+00:49.646 --> 00:51.005
+x equals negative 1,
+
+00:51.005 --> 00:54.877
+so this numerator's just going
+to evaluate to negative 1
+
+00:54.877 --> 00:55.710
+plus 1.
+
+00:56.622 --> 00:58.316
+And then our denominator,
+
+00:58.316 --> 01:01.578
+square root of x plus 5 minus
+2 isn't continuous everywhere
+
+01:01.578 --> 01:04.698
+but it is continuous
+at x equals negative 1
+
+01:04.698 --> 01:06.065
+and so we can do the same thing.
+
+01:06.065 --> 01:08.679
+We can just substitute negative 1 for x,
+
+01:08.679 --> 01:11.765
+so this is going to be the
+square root of negative 1
+
+01:11.765 --> 01:13.015
+plus 5 minus 2.
+
+01:14.591 --> 01:16.397
+Now, what does this evaluate to?
+
+01:16.397 --> 01:19.062
+Well, in the numerator we get a zero,
+
+01:19.062 --> 01:21.715
+and in the denominator,
+negative 1 plus 5 is 4,
+
+01:21.715 --> 01:23.873
+take the principle root is 2, minus 2,
+
+01:23.873 --> 01:25.552
+we get zero again,
+
+01:25.552 --> 01:26.704
+so we get,
+
+01:26.704 --> 01:27.621
+we got zero
+
+01:29.205 --> 01:30.038
+over zero.
+
+01:30.972 --> 01:33.317
+Now, when you see that, you
+might be tempted to give up.
+
+01:33.317 --> 01:35.906
+You say, oh, look, there's
+a zero in the denominator,
+
+01:35.906 --> 01:37.480
+maybe this limit doesn't exist,
+
+01:37.480 --> 01:39.017
+maybe I'm done here, what do I do?
+
+01:39.017 --> 01:43.079
+And if this was non-zero
+up here in the numerator,
+
+01:43.079 --> 01:45.854
+if you're taking a non-zero
+value and dividing it by zero,
+
+01:45.854 --> 01:46.904
+that is undefined
+
+01:46.904 --> 01:48.783
+and your limit would not exist.
+
+01:48.783 --> 01:51.056
+But when you have zero over zero,
+
+01:51.056 --> 01:52.482
+this is indeterminate form,
+
+01:52.482 --> 01:55.897
+it doesn't mean necessarily
+that your limit does not exist,
+
+01:55.897 --> 01:57.906
+and as we'll see in this
+video and many future ones,
+
+01:57.906 --> 02:01.837
+there are tools at our
+disposal to address this,
+
+02:01.837 --> 02:03.772
+and we will look at one of them.
+
+02:03.772 --> 02:05.495
+Now, the tool that we're going to look at
+
+02:05.495 --> 02:08.483
+is is there another way of
+rewriting this expression
+
+02:08.483 --> 02:11.256
+so we can evaluate its limit
+
+02:11.256 --> 02:14.080
+without getting the zero over zero?
+
+02:14.080 --> 02:16.014
+Well, let's just rewrite,
+
+02:16.014 --> 02:18.979
+let's just take this and give it,
+
+02:18.979 --> 02:21.226
+so let's take this thing right over here,
+
+02:21.226 --> 02:23.536
+and let's say this is g of x,
+
+02:23.536 --> 02:25.364
+so essentially what we're
+trying to do is find the limit
+
+02:25.364 --> 02:26.197
+of g of x
+
+02:26.197 --> 02:28.183
+as x approaches negative 1,
+
+02:28.183 --> 02:31.994
+so we can write g of x is equal to
+
+02:31.994 --> 02:34.505
+x plus 1 and the only reason
+I'm defining it as g of x
+
+02:34.505 --> 02:37.250
+is just to be able to think of
+it more clearly as a function
+
+02:37.250 --> 02:38.698
+and manipulate the function
+
+02:38.698 --> 02:40.118
+and then think about similar functions,
+
+02:40.118 --> 02:42.201
+over x plus 5 minus 2,
+
+02:44.438 --> 02:47.734
+or x plus 1 over the square
+root of x plus 5 minus 2.
+
+02:47.734 --> 02:49.762
+Now, the technique we're
+going to use is when you get
+
+02:49.762 --> 02:51.602
+this indeterminate form and
+if you have a square root
+
+02:51.602 --> 02:53.526
+in either the numerator
+or the denominator,
+
+02:53.526 --> 02:55.986
+it might help to get
+rid of that square root
+
+02:55.986 --> 02:58.787
+and this is often called
+rationalizing the expression.
+
+02:58.787 --> 03:00.989
+In this case, you have a
+square root in the denominator,
+
+03:00.989 --> 03:02.562
+so it would be rationalizing
+
+03:02.562 --> 03:04.643
+the denominator,
+
+03:04.643 --> 03:06.823
+and so, this would be,
+
+03:06.823 --> 03:07.848
+the way we would do it
+
+03:07.848 --> 03:09.822
+is we would be leveraging
+our knowledge of difference
+
+03:09.822 --> 03:10.695
+of squares.
+
+03:10.695 --> 03:11.593
+We know,
+
+03:11.593 --> 03:13.838
+we know that a plus b
+
+03:13.838 --> 03:15.903
+times a minus b
+
+03:15.903 --> 03:18.200
+is equal to a squared minus b squared,
+
+03:18.200 --> 03:19.937
+you learned that in algebra
+
+03:19.937 --> 03:21.447
+a little while ago,
+
+03:21.447 --> 03:25.061
+or if we had the square root of a plus b
+
+03:25.061 --> 03:27.641
+and we were to multiply that
+times the square root of a
+
+03:27.641 --> 03:30.505
+minus b, well that would be
+the square root of a squared
+
+03:30.505 --> 03:31.844
+which is just going to be a,
+
+03:31.844 --> 03:33.740
+minus b squared,
+
+03:33.740 --> 03:36.689
+so we can just leverage these ideas
+
+03:36.689 --> 03:38.772
+to get rid of this radical down here.
+
+03:38.772 --> 03:40.344
+The way we're going to do it
+
+03:40.344 --> 03:42.377
+is we're going to multiply the
+numerator and the denominator
+
+03:42.377 --> 03:44.495
+by the square root of x plus 5
+
+03:44.495 --> 03:45.662
+plus 2, right?
+
+03:46.879 --> 03:48.098
+We have the minus 2
+
+03:48.098 --> 03:50.058
+so we multiply it times the plus 2,
+
+03:50.058 --> 03:51.921
+so let's do that.
+
+03:51.921 --> 03:53.380
+So we have
+
+03:53.380 --> 03:56.130
+square root of x plus 5 plus 2
+
+03:57.932 --> 03:59.924
+and we're going to multiply
+the numerator times
+
+03:59.924 --> 04:01.694
+the same thing, 'cause we
+don't want to change the value
+
+04:01.694 --> 04:02.548
+of the expression.
+
+04:02.548 --> 04:03.824
+This is 1.
+
+04:03.824 --> 04:06.458
+So, if we take the expression
+divided by the same expression
+
+04:06.458 --> 04:07.721
+it's going to be 1,
+
+04:07.721 --> 04:08.788
+so this is,
+
+04:08.788 --> 04:11.260
+so square root of x plus 5 plus 2
+
+04:11.260 --> 04:12.850
+and so this is going to be equal to,
+
+04:12.850 --> 04:16.183
+this is going to be equal to x plus 1
+
+04:17.401 --> 04:19.234
+times the square root,
+
+04:20.269 --> 04:23.408
+times the square root of x plus 5
+
+04:23.408 --> 04:24.241
+plus 2
+
+04:25.097 --> 04:27.760
+and then the denominator is going to be,
+
+04:27.760 --> 04:28.985
+well, it's going to be x,
+
+04:28.985 --> 04:30.416
+the square root of x plus 5 squared
+
+04:30.416 --> 04:32.999
+which would be just x plus 5
+
+04:35.199 --> 04:37.322
+and then minus 2 squared,
+
+04:37.322 --> 04:38.826
+minus 4,
+
+04:38.826 --> 04:43.403
+and so this down here
+simplifies to x plus 5 minus 4
+
+04:43.403 --> 04:44.980
+is just x plus 1
+
+04:44.980 --> 04:46.313
+so this is just,
+
+04:47.474 --> 04:49.474
+this is just x plus 1
+
+04:50.639 --> 04:52.703
+and it probably jumps out at
+you that both the numerator
+
+04:52.703 --> 04:54.951
+and the denominator
+have an x plus 1 in it,
+
+04:54.951 --> 04:57.000
+so maybe we can simplify,
+
+04:57.000 --> 04:58.594
+so we can simplify by just say,
+
+04:58.594 --> 05:02.704
+well, g of x is equal to
+the square root of x plus 5
+
+05:02.704 --> 05:03.537
+plus 2.
+
+05:04.585 --> 05:06.687
+Now, some of you might be
+feeling a little off here,
+
+05:06.687 --> 05:07.780
+and you would be correct.
+
+05:07.780 --> 05:09.735
+Your spider senses would be,
+
+05:09.735 --> 05:10.568
+is this,
+
+05:11.422 --> 05:13.564
+is this definitely the same thing
+
+05:13.564 --> 05:16.299
+as what we originally had
+before we cancelled out
+
+05:16.299 --> 05:17.700
+the x plus 1s?
+
+05:17.700 --> 05:19.346
+And the answer is the way I just wrote it
+
+05:19.346 --> 05:21.624
+is not the exact same thing.
+
+05:21.624 --> 05:24.674
+It is the exact same
+thing everywhere except at
+
+05:24.674 --> 05:26.481
+x equals negative 1.
+
+05:26.481 --> 05:28.367
+This thing right over here is defined
+
+05:28.367 --> 05:30.038
+at x equals negative 1.
+
+05:30.038 --> 05:31.940
+This thing right over here is not defined
+
+05:31.940 --> 05:33.503
+at x equals negative 1,
+
+05:33.503 --> 05:35.050
+and g of x was not,
+
+05:35.050 --> 05:35.944
+was not,
+
+05:35.944 --> 05:37.126
+so g of x right over here,
+
+05:37.126 --> 05:41.239
+you don't get a good result
+when you try x equals negative 1
+
+05:41.239 --> 05:43.869
+and so in order for this
+to truly be the same thing
+
+05:43.869 --> 05:44.886
+as g of x,
+
+05:44.886 --> 05:46.905
+the same function, we have to say
+
+05:46.905 --> 05:49.655
+for x not equal to negative 1.
+
+05:51.522 --> 05:54.682
+Now, this is a simplified
+version of g of x.
+
+05:54.682 --> 05:55.679
+It is the same thing.
+
+05:55.679 --> 05:57.012
+For any input x,
+
+05:58.167 --> 06:01.136
+that g of x is defined, this
+is going to give you the same
+
+06:01.136 --> 06:03.942
+output, and this is the
+exact same domain now,
+
+06:03.942 --> 06:05.504
+now that we've put this constraint in,
+
+06:05.504 --> 06:06.337
+as g of x.
+
+06:08.616 --> 06:11.007
+Now you might say, okay,
+well how does this help us?
+
+06:11.007 --> 06:14.451
+Because we want to find the
+limit as x approaches negative 1
+
+06:14.451 --> 06:17.043
+and even here, I had to put
+this little constraint here
+
+06:17.043 --> 06:18.814
+that x cannot be equal to negative 1.
+
+06:18.814 --> 06:21.610
+How do we think about this limit?
+
+06:21.610 --> 06:23.043
+Well, lucky for us,
+
+06:23.043 --> 06:24.393
+we know,
+
+06:24.393 --> 06:26.262
+lucky for us we know
+
+06:26.262 --> 06:29.580
+that if we just take
+another function, f of x,
+
+06:29.580 --> 06:33.747
+if we say f of x is equal to
+the square root of x plus 5
+
+06:34.715 --> 06:35.548
+plus 2,
+
+06:36.443 --> 06:40.610
+well then we know that f
+of x is equal to g of x
+
+06:42.003 --> 06:42.836
+for all
+
+06:44.363 --> 06:46.446
+x not equal to negative 1
+
+06:47.329 --> 06:49.649
+because f of x does not
+have that constraint.
+
+06:49.649 --> 06:51.915
+And we know if this is true of two,
+
+06:51.915 --> 06:54.444
+if this is true of two functions,
+
+06:54.444 --> 06:57.037
+then the limit as x approaches,
+
+06:57.037 --> 06:59.088
+the limit, let me write this down,
+
+06:59.088 --> 07:00.622
+since we know this,
+
+07:00.622 --> 07:01.937
+because of this,
+
+07:01.937 --> 07:03.770
+we know that the limit
+
+07:04.659 --> 07:05.492
+of f of x
+
+07:06.330 --> 07:09.732
+as x approaches negative
+1 is going to be equal
+
+07:09.732 --> 07:11.565
+to the limit of g of x
+
+07:12.748 --> 07:15.263
+as x approaches negative 1,
+
+07:15.263 --> 07:17.343
+and this of course is what
+we want to figure out,
+
+07:17.343 --> 07:19.145
+what was the beginning of the problem,
+
+07:19.145 --> 07:21.269
+but we can now use f of x here,
+
+07:21.269 --> 07:23.095
+because only at x equals negative 1
+
+07:23.095 --> 07:25.223
+that they are not the same,
+
+07:25.223 --> 07:27.011
+and if you were to graph g of x
+
+07:27.011 --> 07:28.091
+it just has a,
+
+07:28.091 --> 07:29.885
+it has a point discontinuity,
+
+07:29.885 --> 07:31.141
+or removable discont--
+
+07:31.141 --> 07:32.786
+or, I should say, yeah,
+
+07:32.786 --> 07:35.780
+a point discontinuity right over here
+
+07:35.780 --> 07:37.947
+at x equals negative 1,
+
+07:38.848 --> 07:41.438
+and so what is the limit?
+
+07:41.438 --> 07:43.317
+And we are in the home stretch now.
+
+07:43.317 --> 07:45.102
+What is the limit
+
+07:45.102 --> 07:46.201
+of f of x?
+
+07:46.201 --> 07:49.941
+Well, we could say the limit
+of the square root of x plus 5
+
+07:49.941 --> 07:50.774
+plus 2
+
+07:52.249 --> 07:54.749
+as x approaches negative 1,
+
+07:55.688 --> 07:58.676
+well, this expression is continuous.
+
+07:58.676 --> 08:01.658
+Or, this function is continuous
+at x equals negative 1
+
+08:01.658 --> 08:03.938
+so we can just evaluate
+it at x equals negative 1,
+
+08:03.938 --> 08:07.277
+so this is going to be the
+square root of negative 1
+
+08:07.277 --> 08:08.444
+plus 5 plus 2,
+
+08:09.818 --> 08:12.059
+so this is 4 square root,
+
+08:12.059 --> 08:14.083
+principle root of 4 is 2,
+
+08:14.083 --> 08:16.000
+2 plus 2 is equal to 4.
+
+08:17.148 --> 08:20.504
+So since the limit of f of
+x as x approaches negative 1
+
+08:20.504 --> 08:22.324
+is 4, the limit of g of x
+
+08:22.324 --> 08:26.120
+as x approaches negative 1 is also 4,
+
+08:26.120 --> 08:27.508
+and if this little,
+
+08:27.508 --> 08:28.428
+this little,
+
+08:28.428 --> 08:32.858
+I guess you could say leap
+that I just made over here
+
+08:32.858 --> 08:33.828
+doesn't make sense to you,
+
+08:33.828 --> 08:34.728
+think about it,
+
+08:34.728 --> 08:36.257
+think about it visually.
+
+08:36.257 --> 08:38.487
+Think about it visually.
+
+08:38.487 --> 08:39.570
+So if this is
+
+08:40.879 --> 08:41.712
+my y-axis
+
+08:43.248 --> 08:45.081
+and this is my x-axis,
+
+08:46.869 --> 08:50.102
+g of x looked something like this.
+
+08:50.102 --> 08:50.935
+G of x,
+
+08:52.412 --> 08:54.663
+g of x, let me draw it,
+
+08:54.663 --> 08:56.913
+g of x looked something,
+
+08:58.580 --> 08:59.747
+something like
+
+09:00.606 --> 09:01.760
+this,
+
+09:01.760 --> 09:04.978
+and it had a gap at negative 1,
+
+09:04.978 --> 09:06.982
+so it had a gap right over there,
+
+09:06.982 --> 09:08.858
+while f of x,
+
+09:08.858 --> 09:10.778
+f of x would have the same graph
+
+09:10.778 --> 09:12.421
+except it wouldn't have,
+
+09:12.421 --> 09:14.067
+it wouldn't have the gap,
+
+09:14.067 --> 09:15.578
+and so if you're trying to find the limit,
+
+09:15.578 --> 09:17.010
+it seems completely reasonable,
+
+09:17.010 --> 09:19.225
+well let's just use f
+of x and evaluate what
+
+09:19.225 --> 09:22.797
+f of x would be to kind of fill that gap
+
+09:22.797 --> 09:25.288
+at x equals negative 1,
+
+09:25.288 --> 09:27.711
+so hopefully this graphical
+version helps a little bit
+
+09:27.711 --> 09:30.461
+or if it confuses you, ignore it.

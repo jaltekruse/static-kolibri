@@ -1,0 +1,395 @@
+WEBVTT
+
+00:00.620 --> 00:02.960
+Az év legmelegebb napja a chilei Santiagóban
+
+00:02.960 --> 00:05.320
+átlagosan január hetedike,
+
+00:05.540 --> 00:08.920
+amikor az átlagos maximum-hőmérséklet
+29 Celsius-fok.
+
+00:09.040 --> 00:13.440
+Az év leghidegebb napjának átlagos hőmérsékleti maximuma 14 Celsius-fok.
+
+00:13.600 --> 00:18.140
+Használj trigonometrikus függvényt a chilei Santiago hőmérsékletének modellezésére,
+
+00:18.280 --> 00:21.400
+az év hosszát 365 napnak tekintve!
+
+00:21.560 --> 00:26.197
+Ne feledd, hogy január hetedike nyárnak számít Santiagóban!
+
+00:26.197 --> 00:30.583
+Január hetedike után hány nappal van a tavasz első napja,
+
+00:30.583 --> 00:34.209
+amikor a hőmérséklet eléri a 20 Celsius- fokot?
+
+00:34.209 --> 00:36.420
+Bontsuk két részre a feladatot!
+
+00:36.500 --> 00:40.360
+Először próbáljunk egy olyan trigonometrikus függvényt találni,
+
+00:40.360 --> 00:43.440
+amelyik modellezi a hőmérsékletet a chilei Santiagoban.
+
+00:43.440 --> 00:45.777
+A hőmérséklet a nap függvénye lesz,
+
+00:45.777 --> 00:50.574
+ahol a nap a január hetedike utáni napok számát jelenti.
+
+00:50.574 --> 00:53.055
+Miután megvan a trigonometrikus függvény, ami ezt modellezi,
+
+00:53.060 --> 00:55.720
+meg tudjuk válaszolni a feladat második részét, a fő kérdést,
+
+00:55.720 --> 00:59.460
+hogy „Hány nappal január hetedike után van a tavasz első napja,
+
+00:59.580 --> 01:02.920
+amikor a hőmérséklet eléri a 20 Celsius-fokot?”
+
+01:02.980 --> 01:06.380
+Ahhoz, hogy jobban át tudjuk gondolni, ábrázoljuk,
+
+01:06.440 --> 01:11.240
+és egészen nyilvánvalóvá fog válni, miért ajánlott itt trigonometrikus függvényt használni.
+
+01:11.380 --> 01:14.080
+Azért, mert az évszakok ciklikusan váltakoznak,
+
+01:14.100 --> 01:15.606
+a hőmérséklet fel- és lemegy.
+
+01:15.606 --> 01:19.120
+Ha bármely város átlaghőmérsékletét nézed az év során,
+
+01:19.120 --> 01:21.440
+tényleg úgy néz ki, mint egy trigonometrikus függvény.
+
+01:23.620 --> 01:25.560
+Ezen a tengely itt
+
+01:25.976 --> 01:28.154
+a napok múlása legyen.
+
+01:28.154 --> 01:30.134
+Legyen 'd' (day)
+
+01:30.134 --> 01:32.472
+a napok száma január hetedike után,
+
+01:32.480 --> 01:36.156
+így ez lesz itt január hetedike.
+
+01:36.160 --> 01:40.220
+A függőleges tengely ‒ emez a vízszintes tengely ‒,
+
+01:40.221 --> 01:42.199
+a függőleges tengelyen
+
+01:42.200 --> 01:47.000
+Celsius-fokban mérünk.
+
+01:47.200 --> 01:52.820
+A legmagasabb érték 29 ‒ írhatok 29 Celsius-fokot ‒,
+
+01:52.960 --> 01:55.940
+ez a legnagyobb átlagos napi maximum-hőmérséklet.
+
+01:56.060 --> 02:00.460
+És ha itt a nulla, akkor itt a 14, ami a legalacsonyabb napi átlag.
+
+02:00.620 --> 02:02.520
+14 Celsius-fok.
+
+02:02.520 --> 02:07.020
+Így a hőmérsékletünk e két szélsőérték között fog váltakozni.
+
+02:07.160 --> 02:09.580
+A legnagyobb átlagos maximum-hőmérsékletű napot már ismerjük,
+
+02:09.598 --> 02:12.953
+az a január hetedike, 29 Celsius-fok van akkor.
+
+02:12.953 --> 02:15.924
+Az év leghidegebb napján pedig
+
+02:15.924 --> 02:20.420
+az átlagos maximum-hőmérséklet 14 Celsius-fok.
+
+02:20.420 --> 02:22.080
+Szóval így fog kinézni.
+
+02:22.096 --> 02:26.004
+Egy adott napra vonatkozó átlagos csúcshőmérsékletekről beszélünk,
+
+02:26.004 --> 02:30.860
+így a trigonometrikus függvény jó ötlet, mert ez periódikus.
+
+02:30.980 --> 02:35.220
+Ha ez január hetedike, és 365 nappal előre mész a jövőbe,
+
+02:35.220 --> 02:38.680
+újból január hetedikéhez jutsz.
+
+02:38.740 --> 02:42.980
+Ha ezen a napon az átlagos maximum-hőmérséklet 29 Celsius-fok,
+
+02:43.020 --> 02:47.220
+akkor az átlagos csúcshőmérséklet 29 Celsius-fok lesz ezen a napon is.
+
+02:47.320 --> 02:49.520
+Mivel trigonometrikus függvényt használunk,
+
+02:49.580 --> 02:52.820
+a legalacsonyabb értéket pontosan félúton érjük majd el.
+
+02:52.920 --> 02:57.280
+Szóval a legalacsonyabb értéket pontosan félúton érjük el,
+
+02:57.420 --> 02:59.453
+valami ilyesmi lesz.
+
+02:59.460 --> 03:01.940
+Tehát a függvényünk így fog kinézni,
+
+03:01.942 --> 03:03.640
+lássuk,
+
+03:03.640 --> 03:07.800
+a legalacsonyabb értéket ide rajzolom,
+
+03:07.900 --> 03:09.940
+és emez lesz a legmagasabb érték,
+
+03:10.080 --> 03:12.848
+ez itt a legmagasabb pont.
+
+03:12.848 --> 03:14.975
+Ez egész jól néz ki,
+
+03:14.975 --> 03:18.098
+ha itt van a csúcspont,
+
+03:18.098 --> 03:20.971
+akkor már csak össze kell őket kötnöm, és kész is.
+
+03:20.971 --> 03:23.888
+Lerajzoltam a trigonometrikus függvényünk egy periódusát,
+
+03:23.888 --> 03:27.011
+a periódus 365 napból áll.
+
+03:27.020 --> 03:28.740
+Ha 365 nappal későbbre megyünk,
+
+03:28.880 --> 03:32.994
+akkor a ciklusnak ugyanabban a pontjában leszünk, vagyis az év ugyanazon pontjában.
+
+03:32.994 --> 03:35.408
+Az év ugyanazon pontjában vagyunk.
+
+03:35.408 --> 03:37.194
+Szóval, amit most szeretnék, hogy megcsinálj, az az,
+
+03:37.200 --> 03:40.940
+hogy ez alapján, amit most rajzoltam, próbáld meg ezt modellezni.
+
+03:40.940 --> 03:45.760
+Legyen ez itt T, ami a d függvénye.
+
+03:45.760 --> 03:48.620
+Próbáld kifejezni T-t a d függvényében,
+
+03:48.620 --> 03:51.860
+és ne feledd, hogy ez valamilyen trigonometrikus függvény lesz.
+
+03:51.860 --> 03:54.180
+Feltételezem, hogy megpróbáltad, és talán felmerült benned,
+
+03:54.180 --> 03:56.980
+hogy „ez úgy néz ki, mint egy koszinuszgörbe, vagy lehet, hogy szinuszgörbe,
+
+03:56.980 --> 03:58.460
+melyiket használjam?”
+
+03:58.460 --> 03:59.900
+Igazából bármelyiket választhatod,
+
+03:59.900 --> 04:02.040
+de én mindig az egyszerűbbet szeretem használni.
+
+04:02.040 --> 04:05.500
+Próbálj úgy gondolkodni, hogy ha ezek itt szögek,
+
+04:05.500 --> 04:08.440
+akár fokban, akár radiánban vannak megadva,
+
+04:08.440 --> 04:12.360
+melyik szögfüggvény kezdődik a csúcspontban?
+
+04:12.360 --> 04:14.780
+A nulla koszinusza egy.
+
+04:14.780 --> 04:16.860
+A koszinusz a csúcspontban kezdődik.
+
+04:16.860 --> 04:19.520
+A nulla szinusza nulla,
+
+04:19.520 --> 04:21.960
+ezért itt a koszinuszt alkalmazom.
+
+04:21.960 --> 04:25.160
+A koszinusz függvényt fogom használni.
+
+04:25.160 --> 04:28.060
+A hőmérséklet a napok függvényében
+
+04:28.060 --> 04:32.579
+valamilyen amplitúdó szorozva a koszinusz függvényünkkel,
+
+04:32.579 --> 04:35.204
+lesz valamilyen változója a koszinusz függvényünknek,
+
+04:35.204 --> 04:37.578
+aztán még valószínűleg el kell majd tolnom.
+
+04:37.580 --> 04:39.880
+Gondoljuk végig, hogyan csináljuk ezt!
+
+04:39.880 --> 04:41.440
+Mi itt a középvonal?
+
+04:41.440 --> 04:44.660
+A középvonal pont félúton van a legmagasabb és legalacsonyabb értékünk között.
+
+04:44.660 --> 04:49.760
+Ez a felezőpont, és ha ábrázoljuk, így néz ki,
+
+04:49.760 --> 04:54.060
+ez itt a középvonalunk.
+
+04:54.060 --> 04:55.720
+És mi az értéke?
+
+04:55.725 --> 04:57.983
+Mi a 29 és a 14 átlaga?
+
+04:57.983 --> 05:04.577
+29 meg 14 az egyenlő 43-mal, ez osztva kettővel az 21,5 Celsius-fok.
+
+05:04.580 --> 05:05.640
+Szóval ez a középvonalunk.
+
+05:05.660 --> 05:11.212
+Tulajdonképpen ezzel az értékkel feltoltuk a függvényünket.
+
+05:11.220 --> 05:14.860
+Ha csak egy normál koszinusz függvényünk lenne, akkor a középvonal a nullánál lenne.
+
+05:14.860 --> 05:17.994
+De most 21,5 Celsius-foknál van a középvonalunk.
+
+05:18.000 --> 05:23.040
+Ide is írom, hogy +21,5, ennyivel toltuk fel a függvényt.
+
+05:23.060 --> 05:24.940
+Nézzük az amplitúdót!
+
+05:24.947 --> 05:28.018
+Az amplitúdó az, amennyivel eltérünk a középvonaltól.
+
+05:28.018 --> 05:34.312
+Itt 7,5-del vagyunk a középvonal felett, így ez +7,5.
+
+05:34.320 --> 05:38.960
+Itt pedig 7,5-del vagyunk a középvonal alatt, így ez -7,5.
+
+05:38.960 --> 05:40.540
+Az amplitúdónk tehát 7,5,
+
+05:40.540 --> 05:45.100
+a legnagyobb érték, amivel eltérünk a középvonaltól, az 7,5.
+
+05:45.100 --> 05:47.600
+Ez az amplitúdónk.
+
+05:47.600 --> 05:52.220
+Most akkor gondolkodjunk a koszinusz függvényünk argumentumáról!
+
+05:52.220 --> 05:55.780
+Ez a nap (d) függvénye lesz.
+
+05:55.790 --> 05:57.012
+Mit is szeretnénk?
+
+05:57.020 --> 06:00.140
+Amikor eltelt 365 nap, szeretnénk,
+
+06:00.140 --> 06:03.480
+hogy itt a teljes értek 2π legyen.
+
+06:03.480 --> 06:06.060
+Szóval amikor d egyenlő 365-tel, szeretnénk,
+
+06:06.060 --> 06:09.180
+hogy ez az egész 2π-re jöjjön ki.
+
+06:09.180 --> 06:14.200
+Tehát ide 2π/365-öt tehetünk.
+
+06:14.200 --> 06:16.980
+Talán emlékszel is a képletre, én mindig elfelejtem,
+
+06:16.980 --> 06:19.080
+ezért próbálom inkább mindig kiokoskodni.
+
+06:19.080 --> 06:22.240
+A képlet valami ilyesmi, 2π osztva 365-tel és még valami.
+
+06:22.240 --> 06:23.540
+De én inkább úgy szeretek gondolkodni,
+
+06:23.540 --> 06:27.980
+hogy „egy periódus után, ami 365 nap, szeretném,
+
+06:27.980 --> 06:30.440
+hogy az itt lévő teljes érték 2π legyen.”
+
+06:30.440 --> 06:33.480
+„Szeretnék egyszer körbe menni az egységkörön,
+
+06:33.480 --> 06:36.920
+és így, ha ez 2π per 365,
+
+06:36.920 --> 06:42.100
+amikor megszorzod 365-tel, erre az együtthatóra 2π-t kapsz.”
+
+06:42.101 --> 06:45.276
+Meg is vagyunk a kérdés első részével.
+
+06:45.280 --> 06:51.040
+Modelleztük az átlagos maximum-hőmérsékletet
+
+06:51.080 --> 06:55.618
+a chilei Santiagóban a napok függvényében január hetedike után.
+
+06:55.620 --> 06:58.240
+A következő videóban válaszolunk a második kérdésre is.
+
+06:58.240 --> 07:00.940
+Azt ajánlom, hogy csináld meg előre, mielőtt megnéznéd a következő videót,
+
+07:00.940 --> 07:02.700
+és adok hozzá egy kis segítséget.
+
+07:02.700 --> 07:07.680
+Ügyelj arra, hogy a tavasz első napját említik!

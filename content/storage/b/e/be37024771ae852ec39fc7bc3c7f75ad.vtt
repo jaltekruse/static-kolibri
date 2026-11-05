@@ -1,0 +1,604 @@
+WEBVTT
+
+00:00.740 --> 00:02.700
+Bạn đã mở nhà máy sản xuất giày và bạn
+
+00:02.700 --> 00:06.020
+đang cố gắng tìm ra bao nhiêu nghìn đôi giày
+
+00:06.020 --> 00:08.980
+để sản xuất để tối ưu hóa lợi nhuận của mình.
+
+00:08.980 --> 00:13.505
+Và vì vậy, hãy để x bằng hàng nghìn cặp được tạo ra.
+
+00:20.141 --> 00:21.640
+Bây giờ, hãy nghĩ xem bạn sẽ kiếm được
+
+00:21.640 --> 00:22.990
+bao nhiêu tiền cho mỗi cặp.
+
+00:22.990 --> 00:24.573
+Vậy doanh thu của bạn là bao nhiêu
+
+00:24.573 --> 00:28.079
+khi bán bấy nhiêu đôi giày đó.
+
+00:28.079 --> 00:29.620
+Chúng ta hãy viết một hàm số ngay tại đây.
+
+00:29.620 --> 00:31.910
+Doanh thu như một hàm của x.
+
+00:31.910 --> 00:33.470
+Giả sử bạn có một người bán
+
+00:33.470 --> 00:36.720
+sẵn sàng trả cho bạn 10 đô la mỗi đôi
+
+00:36.720 --> 00:38.090
+cho bao nhiêu cặp mà bạn sẵn sàng giao cho anh ta.
+
+00:38.090 --> 00:42.100
+Vì vậy, doanh thu của bạn dưới dạng một hàm số của x sẽ 10 lần x.
+
+00:42.100 --> 00:45.490
+Và vì x nằm trong hàng nghìn cặp được sản xuất, nên nếu x là 1,
+
+00:45.490 --> 00:50.500
+điều đó có nghĩa là 1.000 đôi được sản xuất nhân với 10, nghĩa là 10.000 đô la.
+
+00:50.500 --> 00:51.980
+Nhưng điều này sẽ chỉ cung cấp cho bạn 10.
+
+00:51.980 --> 00:54.350
+Vì vậy, x có đơn vị là hàng nghìn đô la.
+
+01:00.060 --> 01:02.570
+Vì vậy, nếu x là 1, có nghĩa là 1.000 đôi được sản xuất.
+
+01:02.570 --> 01:05.260
+10 lần 1thì r bằng 10,
+
+01:05.260 --> 01:09.689
+nhưng điều đó thực sự có nghĩa là 10.000 đô la.
+
+01:09.689 --> 01:11.480
+Bây giờ, sẽ là một công việc kinh doanh tốt đẹp nếu tất cả những gì
+
+01:11.480 --> 01:13.210
+bạn có là doanh thu và không có chi phí.
+
+01:13.210 --> 01:14.465
+Nhưng bạn có chi phí.
+
+01:14.465 --> 01:16.590
+Bạn có vật liệu, bạn phải xây dựng nhà máy của bạn,
+
+01:16.590 --> 01:18.089
+phải trả tiền cho nhân viên của bạn,
+
+01:18.089 --> 01:19.500
+bạn phải trả tiền điện.
+
+01:19.500 --> 01:21.210
+Và vì vậy bạn thuê một loạt các nhà tư vấn
+
+01:21.210 --> 01:24.945
+để đưa ra chi phí của bạn là một hàm của x.
+
+01:28.170 --> 01:29.600
+Và họ nghĩ ra một hàm số.
+
+01:29.600 --> 01:33.270
+Họ nói rằng đó là số hàng nghìn đôi bạn sản xuất
+
+01:33.270 --> 01:36.920
+x lập phương trừ đi 6 lần hàng nghìn đôi bạn tạo ra
+
+01:36.920 --> 01:41.950
+bình phương cộng với 15 nhân hàng nghìn
+
+01:41.950 --> 01:43.300
+đôi bạn tạo ra.
+
+01:43.300 --> 01:46.580
+Và một lần nữa, con số này cũng sẽ tính
+
+01:46.580 --> 01:49.710
+bằng hàng nghìn đô la.
+
+01:49.710 --> 01:54.682
+Bây giờ, với các hàm này của x cho doanh thu và chi phí,
+
+01:54.682 --> 01:58.930
+lợi nhuận là một hàm của x sẽ là bao nhiêu?
+
+01:58.930 --> 02:03.580
+Lợi nhuận dưới dạng một hàm của x
+
+02:03.580 --> 02:07.710
+sẽ bằng với doanh thu dưới dạng một hàm của x
+
+02:07.710 --> 02:09.800
+trừ đi chi phí của bạn dưới dạng một hàm của x.
+
+02:12.592 --> 02:14.300
+Nếu bạn sản xuất một số lượng nhất định và giả sử
+
+02:14.300 --> 02:17.330
+là 10.000 đô la doanh thu
+
+02:17.330 --> 02:19.970
+và bạn phải chi 5.000 đô la để sản xuất đôi giày đó,
+
+02:19.970 --> 02:21.529
+bạn sẽ có 5.000 đô la lợi nhuận.
+
+02:21.529 --> 02:23.570
+Những con số đó không phải là những con số mà bạn
+
+02:23.570 --> 02:25.250
+thực sự sẽ nhận được từ điều này ngay tại đây.
+
+02:25.250 --> 02:27.230
+Mình chỉ cho bạn một ví dụ.
+
+02:27.230 --> 02:28.990
+Vì vậy, đây là những gì bạn muốn tối ưu hóa.
+
+02:28.990 --> 02:36.170
+Bạn muốn tối ưu hóa p như một hàm của x.
+
+02:36.170 --> 02:37.140
+Vậy đó là cái gì?
+
+02:37.140 --> 02:39.070
+Mình vừa mới nói nó ở đây bằng những số hạng đại diện,
+
+02:39.070 --> 02:41.170
+nhưng chúng ta biết r của x là gì và c của x là gì.
+
+02:41.170 --> 02:46.380
+Đây là 10x trừ đi tất cả hoạt động kinh doanh này.
+
+02:46.380 --> 02:53.590
+Vì vậy, trừ x mũ ba cộng với 6x bình phương trừ đi 15x.
+
+02:53.590 --> 02:56.110
+Mình chỉ cần trừ x bình phương, bạn trừ
+
+02:56.110 --> 02:58.880
+6x bình phương nó sẽ trở thành dương, bạn trừ 15x
+
+02:58.880 --> 03:03.520
+nó sẽ trở thành âm 15x, và sau đó chúng ta có thể rút gọn điều này như-- hãy xem,
+
+03:03.520 --> 03:07.200
+chúng ta có âm x mũ ba cộng 6x
+
+03:07.200 --> 03:12.370
+bình phương trừ đi 15x cộng với 10x, vì vậy đó là trừ 5x.
+
+03:12.370 --> 03:16.497
+Bây giờ, nếu chúng ta muốn tối ưu hóa hàm lợi nhuận này về mặt phân tích,
+
+03:16.497 --> 03:18.080
+cách dễ nhất là suy nghĩ
+
+03:18.080 --> 03:20.240
+xem các điểm cực trị của hàm lợi nhuận này là gì
+
+03:20.240 --> 03:21.740
+và bất kỳ điểm cực trị nào trong số đó là
+
+03:21.740 --> 03:23.430
+điểm cực tiểu hay điểm cực đại?
+
+03:23.430 --> 03:26.870
+Và nếu một trong số chúng là điểm cực đại, thì chúng ta có thể nói,
+
+03:26.870 --> 03:28.190
+hãy tạo ra nhiều điểm đó.
+
+03:28.190 --> 03:30.292
+Điều đó sẽ xảy ra-- chúng mình sẽ tối ưu hóa
+
+03:30.292 --> 03:32.500
+hoặc chúng mình sẽ tìm ra số lượng chúng mình cần sản xuất
+
+03:32.500 --> 03:35.020
+để tối ưu hóa lợi nhuận.
+
+03:35.020 --> 03:36.710
+Vì vậy, để tìm ra các điểm cực tr,
+
+03:36.710 --> 03:39.600
+về cơ bản chúng ta phải tìm đạo hàm của hàm số
+
+03:39.600 --> 03:42.110
+và tìm ra khi nào thì đạo hàm đó bằng 0
+
+03:42.110 --> 03:44.070
+hoặc khi nào thì đạo hàm đó không xác định?
+
+03:44.070 --> 03:46.490
+Đó là định nghĩa của các điểm cực trị.
+
+03:46.490 --> 03:50.960
+Vì vậy p phẩy của x sẽ bằng 3x
+
+03:50.960 --> 03:55.790
+bình phương âm cộng với 12x trừ đi 5.
+
+03:55.790 --> 03:58.100
+Và vì vậy điều này sẽ được xác định cho mọi x.
+
+03:58.100 --> 04:00.140
+Vì vậy, điểm cực trị duy nhất mà chúng ta sẽ có
+
+04:00.140 --> 04:04.280
+là khi đạo hàm đầu tiên ở đây bằng 0.
+
+04:04.280 --> 04:10.470
+Âm 3x bình phương cộng với 12x trừ 5 cần bằng 0
+
+04:10.470 --> 04:12.190
+để x là điểm cực trị.
+
+04:12.190 --> 04:14.300
+Bây giờ chúng ta chỉ cần giải x.
+
+04:14.300 --> 04:17.829
+Về cơ bản chúng ta đang giải một phương trình bậc hai.
+
+04:17.829 --> 04:19.860
+Để phương trình không có nhiều số âm,
+
+04:19.860 --> 04:21.820
+hãy nhân cả hai vế với số âm 1.
+
+04:21.820 --> 04:24.040
+Mình chỉ muốn có hệ số đầu tiên là dương.
+
+04:24.040 --> 04:25.950
+Vì vậy, nếu chúng ta nhân cả hai vế với âm 1,
+
+04:25.950 --> 04:33.330
+chúng ta nhận được 3x bình phương trừ 12x cộng với 5 bằng 0.
+
+04:33.330 --> 04:36.700
+Và bây giờ chúng ta có thể sử dụng công thức bậc hai để giải x.
+
+04:36.700 --> 04:41.960
+x sẽ bằng âm b, là 12,
+
+04:41.960 --> 04:43.910
+cộng hoặc trừ căn bậc hai.
+
+04:43.910 --> 04:46.650
+Mình luôn phải khai căn đầy đủ nghiệm.
+
+04:46.650 --> 04:48.840
+Căn bậc hai của b bình phương,
+
+04:48.840 --> 04:56.340
+là 144, trừ đi 4 nhân 3 nhân 5.
+
+04:59.340 --> 05:01.020
+Tất cả những điều đó trên 2a.
+
+05:01.020 --> 05:03.830
+Vậy 2 nhân 3 là 6.
+
+05:03.830 --> 05:07.250
+Vì vậy, x bằng 12 cộng hoặc trừ
+
+05:07.250 --> 05:12.250
+căn bậc hai, hãy xem, 4 nhân 3 là 12 nhân 5 là 60.
+
+05:12.250 --> 05:16.190
+144 trừ 60 là 84.
+
+05:16.190 --> 05:17.990
+Tất cả chia 6.
+
+05:17.990 --> 05:23.430
+Vậy x có thể bằng 12 cộng với căn bậc hai 84 trên 6
+
+05:23.430 --> 05:29.930
+hoặc x có thể bằng 12 trừ đi căn bậc hai của 84 trên 6.
+
+05:29.930 --> 05:31.580
+Vì vậy, hãy tính xem hai điều này là gì.
+
+05:31.580 --> 05:34.270
+Và mình sẽ sử dụng máy tính.
+
+05:34.270 --> 05:37.140
+Mình sẽ sử dụng máy tính cho cái này.
+
+05:37.140 --> 05:49.940
+Vì vậy, mình nhận được, hãy xem, 12 cộng với căn bậc hai của 84 chia cho 6
+
+05:49.940 --> 05:54.810
+cho mình 3,5-- Mình chỉ nói 3,53.
+
+05:54.810 --> 05:59.440
+Vì vậy, khoảng 3. Thực ra, hãy để
+
+05:59.440 --> 06:02.550
+mình chuyển sang một chữ số nữa, bởi vì mình đang nói về hàng nghìn
+
+06:02.550 --> 06:11.730
+. Vì vậy, hãy để mình nói 3.528.
+
+06:11.730 --> 06:15.050
+- Vì vậy, đây thực sự sẽ là 3528 đôi giày,
+
+06:15.050 --> 06:19.170
+bởi vì đây là hàng nghìn, hoặc đôi giày.
+
+06:19.170 --> 06:21.370
+Và sau đó chúng ta hãy làm trường hợp mà chúng ta trừ đi.
+
+06:21.370 --> 06:24.520
+Và chúng ta có thể nhìn vào mục nhập trước đó
+
+06:24.520 --> 06:27.220
+của mình và chỉ cần thay đổi điều này thành một phép trừ.
+
+06:27.220 --> 06:30.570
+Thay đổi đó không phải là một dấu âm, một phép trừ.
+
+06:30.570 --> 06:31.530
+Của chúng ta đây.
+
+06:31.530 --> 06:37.470
+Và chúng mình nhận được 0,4725.
+
+06:37.470 --> 06:38.410
+Hãy để mình nhớ nào.
+
+06:38.410 --> 06:41.810
+0,4725.
+
+06:41.810 --> 06:47.912
+Khoảng bằng 0,4725.
+
+06:47.912 --> 06:49.370
+Quào trí nhớ mình tốt thật, vì vậy hãy để
+
+06:49.370 --> 06:50.828
+mình xem lại rằng mình đã viết điều tương tự.
+
+06:50.828 --> 06:53.860
+4725.
+
+06:53.860 --> 06:54.360
+Đúng.
+
+06:54.360 --> 06:55.470
+Được rồi.
+
+06:55.470 --> 06:57.275
+Bây giờ đây là tất cả những gì chúng ta biết về những điều này,
+
+06:57.275 --> 06:58.710
+hoặc cả hai là những điểm cực trị.
+
+06:58.710 --> 07:02.530
+Đây là những điểm mà tại đó đạo hàm bằng 0.
+
+07:02.530 --> 07:04.680
+Nhưng chúng ta không biết liệu chúng có phải là điểm cực tiểu hay không,
+
+07:04.680 --> 07:06.810
+chúng là những điểm mà tại đó hàm nhận
+
+07:06.810 --> 07:09.930
+giá trị nhỏ nhất, giá trị lớn nhất hay không.
+
+07:09.930 --> 07:11.980
+Để làm được điều đó, mình sẽ sử dụng phép thử đạo hàm lần hai
+
+07:11.980 --> 07:14.210
+để tìm hiểu xem hàm của chúng ta có lồi lên hay
+
+07:14.210 --> 07:17.750
+lồi xuống hay không tại một trong những điểm này.
+
+07:17.750 --> 07:20.630
+Chúng ta hãy nhìn vào đạo hàm cấp hai.
+
+07:20.630 --> 07:24.530
+Vì vậy, p phẩy phẩy của x
+
+07:24.530 --> 07:32.140
+sẽ bằng 6x âm cộng với 12.
+
+07:32.140 --> 07:37.440
+Và vì vậy nếu chúng ta nhìn vào-- hãy để mình đảm bảo rằng mình có đủ chỗ trống.
+
+07:37.440 --> 07:44.660
+Vì vậy, nếu chúng ta nhìn vào số p phẩy phẩy phẩy của 3,528.
+
+07:44.660 --> 07:46.860
+Vì vậy, hãy xem thử nha.
+
+07:46.860 --> 07:49.430
+Giá trị này nằm giữa 3 và 4
+
+07:49.430 --> 07:52.700
+Vì vậy, nếu chúng ta lấy giá trị thấp hơn, 3 lần âm 6
+
+07:52.700 --> 07:56.180
+là âm 18 cộng với 12 sẽ nhỏ hơn 0.
+
+07:56.180 --> 07:58.170
+Và nếu đây là 4 thì nó thậm chí còn âm hơn,
+
+07:58.170 --> 07:59.878
+vì vậy điều này là sẽ nhỏ hơn 0.
+
+07:59.878 --> 08:02.301
+Thậm chí không cần phải sử dụng máy tính để tính nó.
+
+08:02.301 --> 08:04.050
+Bây giờ kết quả này thì như thế nào?
+
+08:04.050 --> 08:05.690
+0.47
+
+08:05.690 --> 08:09.890
+Chà, 0,47, tức là khoảng 0,5.
+
+08:09.890 --> 08:12.954
+Vì vậy, âm 6 lần 0,5 là âm 3.
+
+08:12.954 --> 08:15.120
+Điều này sẽ không có nghĩa là gần như âm.
+
+08:15.120 --> 08:17.080
+Điều này chắc chắn sẽ dương.
+
+08:17.080 --> 08:24.280
+Vậy p số phẩy phẩy của 0,4725 lớn hơn 0.
+
+08:24.280 --> 08:27.070
+Vì vậy, thực tế là đạo hàm cấp hai nhỏ hơn 0,
+
+08:27.070 --> 08:31.850
+điều đó có nghĩa là đạo hàm của mình đang giảm.
+
+08:31.850 --> 08:33.840
+Đạo hàm đầu tiên của mình giảm
+
+08:33.840 --> 08:37.010
+khi x bằng giá trị này, có nghĩa
+
+08:37.010 --> 08:39.830
+là đồ thị của chúng ta, hàm của chúng ta,
+
+08:39.830 --> 08:41.590
+bị lõm xuống ở đây.
+
+08:46.420 --> 08:50.650
+Và lõm xuống có nghĩa là nó trông giống như thế này.
+
+08:50.650 --> 08:52.920
+Và vì vậy bạn có thể thấy nó trông như thế nào,
+
+08:52.920 --> 08:56.277
+hệ số góc liên tục giảm.
+
+08:56.277 --> 08:58.610
+Vì vậy, nếu bạn có một khoảng mà hệ số góc giảm
+
+08:58.610 --> 09:02.150
+và bạn biết điểm có hệ số góc chính xác là 0,
+
+09:02.150 --> 09:09.860
+tại đó x bằng 3,528, thì nó phải là một điểm cực đại.
+
+09:09.860 --> 09:14.190
+Vì vậy, chúng mình thực sự nhận một giá trị lớn nhất khi x là 3,528.
+
+09:14.190 --> 09:17.124
+Ở mặt khác, chúng ta thấy rằng đằng này
+
+09:17.124 --> 09:17.790
+chúng ta đang lồi lên.
+
+09:22.330 --> 09:24.751
+Đồ thị sẽ trông giống như thế này ở đây.
+
+09:24.751 --> 09:27.000
+Và nếu hệ số góc bằng 0 trong đó đồ thị trông như vậy,
+
+09:27.000 --> 09:30.110
+chúng ta thấy rằng đó là giá trị nhỏ nhất. .
+
+09:33.199 --> 09:34.990
+Và vì vậy chúng mình chắc chắn không muốn làm điều này.
+
+09:34.990 --> 09:40.400
+Chúng ta sẽ sản xuất 472 và 1/2 đơn vị
+
+09:40.400 --> 09:43.300
+đó là chúng ta đang tìm cách giảm thiểu lợi nhuận của chúng ta , tối đa hóa sự thua lỗ.
+
+09:43.300 --> 09:45.672
+Vì vậy, chúng mình chắc chắn không muốn làm điều này.
+
+09:45.672 --> 09:47.130
+Nhưng hãy thực sự nghĩ xem
+
+09:47.130 --> 09:49.600
+lợi nhuận của chúng ta sẽ là bao nhiêu nếu chúng ta sản xuất
+
+09:49.600 --> 09:55.480
+3.528 nghìn đôi giày.
+
+09:55.480 --> 09:57.570
+Để làm được điều đó, chúng ta chỉ cần nhập nó trở lại
+
+09:57.570 --> 10:00.450
+hàm số lợi nhuận ban đầu của chúng ta ngay tại đây.
+
+10:00.450 --> 10:01.780
+Vì vậy, hãy làm điều đó.
+
+10:01.780 --> 10:04.160
+Mình lấy máy tính của mình ra.
+
+10:04.160 --> 10:08.090
+Vì vậy, hàm số lợi nhuận ban đầu của mình nằm ngay ở đó.
+
+10:08.090 --> 10:09.950
+Mình muốn có thể nhìn thấy điều đó và điều đó.
+
+10:09.950 --> 10:24.570
+Vì vậy, mình lấy âm 3,528 mũ ba cộng với 6 lần 3,528
+
+10:24.570 --> 10:32.280
+bình phương trừ đi 5 lần 3,528
+
+10:32.280 --> 10:39.990
+mang lại cho mình lợi nhuận là 13.128.
+
+10:39.990 --> 10:41.460
+Vì vậy, hãy để mình viết ra điều này.
+
+10:41.460 --> 10:48.570
+Lợi nhuận khi mình sản xuất 3528 đôi giày xấp xỉ bằng
+
+10:48.570 --> 10:51.860
+hoặc bằng, nếu mình sản xuất chính xác bao nhiêu đôi giày đó
+
+10:51.860 --> 10:56.389
+thì nó bằng 13.128.
+
+10:56.389 --> 10:58.430
+Hoặc thực ra nó xấp xỉ, bởi vì mình vẫn đang
+
+10:58.430 --> 11:02.310
+làm tròn 13.128.
+
+11:02.310 --> 11:07.980
+Vì vậy, nếu mình sản xuất 3.528 đôi giày trong một khoảng thời gian nhất định,
+
+11:07.980 --> 11:12.470
+mình sẽ có lợi nhuận là 13.128 đô la.
+
+11:12.470 --> 11:14.540
+Hãy nhớ rằng, ngay đằng này là hàng nghìn,
+
+11:14.540 --> 11:17.590
+ngay đằng này là 13.128 nghìn đô la lợi nhuận
+
+11:17.590 --> 11:21.850
+, là 13.128 đô la.
+
+11:21.850 --> 11:25.811
+Dù sao đi nữa, chúng ta sẽ trở thành những nhà sản xuất giày giàu có

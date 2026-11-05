@@ -1,0 +1,509 @@
+WEBVTT
+
+00:00.700 --> 00:04.063
+Este carro aqui está se aproximando
+do cruzamento
+
+00:04.063 --> 00:06.230
+a 60 milhas por hora.
+
+00:06.230 --> 00:08.590
+E agora, bem neste momento
+
+00:08.590 --> 00:14.420
+ele está a 0,8 milhas do cruzamento.
+
+00:14.420 --> 00:16.450
+Agora, temos este caminhão aqui,
+
+00:16.450 --> 00:18.280
+ele está se aproximando
+do mesmo cruzamento
+
+00:18.280 --> 00:20.370
+em uma rua perpendicular à rua
+
+00:20.370 --> 00:21.980
+onde o carro está.
+
+00:21.980 --> 00:30.090
+No momento, ele está a 0,6 milhas
+do cruzamento
+
+00:30.090 --> 00:31.720
+e está se aproximando
+do cruzamento
+
+00:31.720 --> 00:34.000
+a 30 milhas por hora.
+
+00:34.000 --> 00:36.820
+minha pergunta é,
+qual é a taxa pela qual
+
+00:36.820 --> 00:40.350
+a distância entre o carro e o caminhão
+
+00:40.350 --> 00:42.730
+está mudando?
+
+00:42.730 --> 00:44.390
+Para pensar nisto, vamos primeiro
+
+00:44.390 --> 00:45.848
+pensar sobre o que estamos
+pedindo.
+
+00:45.848 --> 00:47.500
+Estamos pedindo qual é a distância
+
+00:47.500 --> 00:49.230
+entre o carro e o caminhão.
+
+00:49.230 --> 00:51.480
+Bem neste momento, quando o carro
+
+00:51.480 --> 00:53.240
+está a 0,8 milhas do cruzamento,
+
+00:53.240 --> 00:55.510
+o caminhão está a 0,6 milhas
+do cruzamento.
+
+00:55.510 --> 00:57.700
+O caminhão está viajando a 30 milhas
+por hora
+
+00:57.700 --> 01:00.250
+em direção ao cruzamento, o carro está
+viajando a 60 milhas por hora
+
+01:00.250 --> 01:02.220
+em direção ao cruzamento
+bem neste momento.
+
+01:02.220 --> 01:04.940
+Qual é a taxa pela qual a distância
+
+01:04.940 --> 01:06.610
+bem aqui está mudando?
+
+01:06.610 --> 01:08.790
+E para que tenhamos algumas variáveis,
+
+01:08.790 --> 01:11.610
+vamos chamar esta distância s.
+
+01:11.610 --> 01:13.540
+O que estamos tentando calcular é,
+
+01:13.540 --> 01:20.360
+bem neste momento,
+a quê ds/dt vai ser igual?
+
+01:20.360 --> 01:21.960
+Vamos pensar sobre o que sabemos
+
+01:21.960 --> 01:24.000
+que podemos usar para
+
+01:24.000 --> 01:26.890
+calcular o que é ds/dt.
+
+01:26.890 --> 01:32.100
+Sabemos a distância entre o
+carro e o cruzamento
+
+01:32.100 --> 01:33.600
+Vamos chamar esta distância
+
+01:33.600 --> 01:36.280
+vamos chamar esta distância y.
+
+01:36.280 --> 01:38.610
+y é igual a 0,8 milhas.
+
+01:38.610 --> 01:40.310
+Também sabemos que -- vou escrever isto --
+
+01:40.310 --> 01:43.760
+sabemos que y é 0,8 milhas no momento.
+
+01:43.760 --> 01:47.460
+0,8 milhas.
+
+01:47.460 --> 01:51.060
+Também sabemos que dy/dt, a taxa pela
+qual y
+
+01:51.060 --> 01:54.590
+está mudando com relação ao tempo
+é o quê?
+
+01:54.590 --> 01:58.520
+Bem, y está diminuindo
+60 milhas por hora.
+
+01:58.520 --> 02:06.240
+Vou escrever como menos 60 milhas
+por hora.
+
+02:06.240 --> 02:11.090
+Da mesma forma, digamos que
+a distância aqui é x.
+
+02:11.090 --> 02:14.700
+x é 0,6 milhas no momento.
+
+02:14.700 --> 02:19.410
+Então sabemos que x é igual a 0,6 milhas.
+
+02:19.410 --> 02:24.070
+Qual é a taxa pela qual x está mudando
+com relação ao tempo?
+
+02:24.070 --> 02:25.982
+Bem, sabemos que 30 milhas por hora
+
+02:25.982 --> 02:27.940
+é a velocidade com que estamos
+nos aproximando do cruzamento,
+
+02:27.940 --> 02:31.770
+mas x está diminuindo por
+30 milhas cada hora
+
+02:31.770 --> 02:38.590
+Portanto podemos dizer menos 30
+milhas por hora.
+
+02:38.590 --> 02:39.780
+Sabemos o que é y.
+
+02:39.780 --> 02:40.530
+Sabemos o que é x.
+
+02:40.530 --> 02:42.710
+Sabemos quão rapidamente y and x
+estão mudando
+
+02:42.710 --> 02:44.860
+em relação ao tempo.
+
+02:44.860 --> 02:46.710
+Portanto, o que podemos tentar
+fazer aqui
+
+02:46.710 --> 02:50.640
+é identificar uma relação entre
+x, y e s.
+
+02:50.640 --> 02:52.580
+E então diferenciar esta relação
+
+02:52.580 --> 02:54.290
+com respeito ao tempo.
+
+02:54.290 --> 02:56.460
+E parece que temos tudo
+
+02:56.460 --> 02:58.580
+o que precisamos para resolver isto.
+
+02:58.580 --> 03:03.460
+Qual é a relação
+entre x, y, e s?
+
+03:03.460 --> 03:05.380
+Bem, sabemos que isto é um triângulo reto.
+
+03:05.380 --> 03:07.240
+As ruas são perpendiculares.
+
+03:07.240 --> 03:09.270
+Portanto podemos usar o
+Teorema de Pitágoras.
+
+03:09.270 --> 03:14.690
+Sabemos que x ao quadrado
+mais y ao quadrado
+
+03:14.690 --> 03:17.540
+vai ser igual a s ao quadrado.
+
+03:17.540 --> 03:19.000
+E podemos então tomar a
+derivada
+
+03:19.000 --> 03:20.440
+de ambos os lados com relação ao tempo
+
+03:20.440 --> 03:22.606
+para obter a relaçãp entre
+todas as coisas
+
+03:22.606 --> 03:24.070
+com as quais nos importamos.
+
+03:24.070 --> 03:27.275
+Qual é a derivada de x ao quadrado com
+relação ao tempo?
+
+03:27.275 --> 03:29.650
+Bem, você vai precisar da derivada de
+x ao quadrado
+
+03:29.650 --> 03:32.770
+com relação a x, o que é 2x
+
+03:32.770 --> 03:36.950
+vezes a derivada de x com relação
+ao tempo, vezes dx/dt.
+
+03:36.950 --> 03:38.620
+Um vez mais, apenas a regra da cadeia.
+
+03:38.620 --> 03:41.970
+A derivada de algo ao quadrado com
+relação a algo
+
+03:41.970 --> 03:45.110
+vezes a derivada do algo em relação
+ao tempo.
+
+03:45.110 --> 03:48.304
+E usamos lógica similar bem aqui
+
+03:48.304 --> 03:49.970
+quando queremos tomar a derivada de y
+
+03:49.970 --> 03:51.480
+ao quadrado em relação ao tempo.
+
+03:51.480 --> 03:53.670
+Derivada de y ao quadrado em relação a y,
+
+03:53.670 --> 03:57.030
+vezes a derivada de y em relação ao tempo.
+
+03:57.030 --> 03:59.264
+Agora no lado direito da equação,
+
+03:59.264 --> 04:01.180
+uma vez mais tomamos
+a derivada em relação
+
+04:01.180 --> 04:01.535
+ao tempo.
+
+04:01.535 --> 04:03.900
+Portanto, é a derivada de s ao quadrado
+com relação a s
+
+04:03.900 --> 04:05.180
+o que é 2s
+
+04:05.180 --> 04:07.580
+vezes a derivada de s com relação ao tempo.
+
+04:07.580 --> 04:12.146
+Uma vez mais, isto é apenas uma
+aplicação da regra da cadeia.
+
+04:12.146 --> 04:13.520
+Parece que sabemos o que é x
+
+04:13.520 --> 04:15.840
+sabemos o que dx/dt é,
+
+04:15.840 --> 04:18.339
+sabemos o que é y, sabemos o que
+é ds/dt.
+
+04:18.339 --> 04:19.910
+Tudo o que precisamos calcular é o que é s
+
+04:19.910 --> 04:22.860
+e então o que é ds/dt, a taxa
+pela qual a distância esta mudando
+
+04:22.860 --> 04:24.540
+em relação ao tempo.
+
+04:24.540 --> 04:27.010
+Bem, o que é "s" agora?
+
+04:27.010 --> 04:29.310
+Podemos usar o
+Teorema de Pitágoras
+
+04:29.310 --> 04:30.810
+neste momento exato.
+
+04:30.810 --> 04:35.280
+Sabemos que x ao quadrado
+-- x é 0,6 --
+
+04:35.280 --> 04:40.470
+sabemos que 0,6 ao quadrado
+mais y ao quadrado, 0,8 ao quadrado
+
+04:40.470 --> 04:42.500
+é igual a s ao quadrado.
+
+04:42.500 --> 04:48.270
+Bem, isso é 0,36 mais 0,64 é igual
+a s ao quadrado.
+
+04:48.270 --> 04:50.980
+Isto é um,
+é igual a s ao quadrado.
+
+04:50.980 --> 04:52.730
+E só nos importamos com
+distâncias positivas,
+
+04:52.730 --> 04:54.940
+portanto s é igual a um no momento.
+
+04:54.940 --> 04:56.719
+Também sabemos o que é s.
+
+04:56.719 --> 04:58.510
+Portanto, vamos substituir todos
+esses números
+
+04:58.510 --> 05:01.140
+e então tentar resolver o que viemos
+aqui para fazer.
+
+05:01.140 --> 05:03.210
+Resolver por ds/dt.
+
+05:03.210 --> 05:07.240
+A taxa pela qual… então 2 vezes x --
+vou fazer isto em amarelo --
+
+05:07.240 --> 05:10.225
+2 vezes x, x é igual a 0.6
+
+05:10.225 --> 05:13.660
+então vai ser 1,2 vezes dx/dt,
+
+05:13.660 --> 05:15.600
+isto é menos 30 milhas por hora.
+
+05:15.600 --> 05:17.770
+portanto vezes menos 30 milhas por hora,
+
+05:17.770 --> 05:24.420
+mais duas vezes y é 1,6
+
+05:24.420 --> 05:27.902
+vezes dy/dt é igual a menos 60 milhas
+por hora.
+
+05:27.902 --> 05:29.360
+Eu não estou escrevendo as unidades aqui.
+
+05:29.360 --> 05:30.270
+Mas se você escrevesse as unidades,
+
+05:30.270 --> 05:32.510
+você veria que todas as nossas
+distâncias estão em milhas.
+
+05:32.510 --> 05:34.850
+E todos os nossos tempos
+estão em horas,
+
+05:34.850 --> 05:36.350
+portanto vamos obter uma resposta
+
+05:36.350 --> 05:38.604
+quando resolvermos para ds/dt
+que é em milhas por hora.
+
+05:38.604 --> 05:41.020
+Eu te incentivo, se você quiser,
+escrever as unidades
+
+05:41.020 --> 05:43.210
+e ver como elas funcionam.
+
+05:43.210 --> 05:46.530
+Isto vai ser igual a duas vezes s.
+
+05:46.530 --> 05:50.190
+Bem, s é uma milha, portanto,
+vai ser duas vezes ds/dt
+
+05:50.190 --> 05:53.460
+que é o que estamos tentando resolver.
+
+05:53.460 --> 05:56.050
+Portanto, o que obtemos aqui no
+lado esquerdo?
+
+05:56.050 --> 06:01.230
+1,2 vezes menos 30, que é
+menos 36.
+
+06:01.230 --> 06:01.730
+Certo?
+
+06:01.730 --> 06:04.440
+um quinto de 30 é seis,
+sim, isto está certo.
+
+06:04.440 --> 06:06.710
+E então 1.6 vezes menos 60
+
+06:06.710 --> 06:12.420
+vai ser menos 96,
+é igual a 2 vezes ds/dt,
+
+06:12.420 --> 06:14.930
+é igual a duas vezes a taxa pela qual
+
+06:14.930 --> 06:17.210
+nossa distância está mudando
+em relação ao tempo.
+
+06:17.210 --> 06:21.840
+No lado esquerdo, bem aqui,
+é menos 132.
+
+06:21.840 --> 06:26.400
+Menos 132 é igual a duas vezes ds/dt.
+
+06:26.400 --> 06:30.760
+Dividimos os dois lados por dois,
+e obtemos menos 66.
+
+06:30.760 --> 06:35.640
+E agora podemos colocar nossas unidades,
+se quisermos, milhas por hora
+
+06:35.640 --> 06:37.650
+é a taxa pela qual nossa distância
+
+06:37.650 --> 06:39.310
+está mudando com relação ao tempo.
+
+06:39.310 --> 06:42.930
+Portanto, ds/dt é menos 66 milhas por hora.
+
+06:42.930 --> 06:45.785
+Faz sentido obtermos um número
+negativo aqui?
+
+06:45.785 --> 06:48.720
+Com certeza, a distância esta diminuindo
+
+06:48.720 --> 06:51.627
+bem neste momento, á medida que
+eles se aproximam do cruzamento.
+
+06:51.627 --> 06:52.510
+Legendado por [Marcia Yu]

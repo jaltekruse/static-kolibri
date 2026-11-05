@@ -1,0 +1,323 @@
+WEBVTT
+
+00:00.489 --> 00:04.900
+Az év leghosszabb hónapja az alaszkai Juneau-ban június 21-e.
+
+00:04.900 --> 00:08.260
+Ez 1096,5 perc hosszú.
+
+00:08.260 --> 00:11.060
+Fél évvel később, amikor a napok a legrövidebbek,
+
+00:11.060 --> 00:14.920
+egy nap körülbelül 382,5 perc.
+
+00:14.960 --> 00:19.220
+Nem szökőévben egy év 365 nap,
+
+00:19.234 --> 00:23.753
+és június 21-e a 172-edik napja az évnek.
+
+00:23.766 --> 00:26.227
+Írj fel egy trigonometrikus függvényt,
+
+00:26.242 --> 00:29.535
+ami megadja az év 't'-edik napjának 'L' hosszát!
+
+00:29.540 --> 00:32.580
+Tehát lesz egy 'L(t)' függvényünk.
+
+00:32.580 --> 00:35.300
+feltételezve, hogy nem szökőévről van szó.
+
+00:35.300 --> 00:40.700
+Javaslom, hogy állítsd meg a videót, és próbáld meg saját magad megoldani, mielőtt nekikezdenék.
+
+00:41.109 --> 00:42.966
+Hadd próbáljam meg én is!
+
+00:42.966 --> 00:45.167
+Az 'L(t)' függvény helyett
+
+00:45.167 --> 00:48.740
+inkább egy 'L(u)' függvénnyel kezdek,
+
+00:48.740 --> 00:54.040
+ahol 'u' egy közbenső változó,
+
+00:54.040 --> 00:57.420
+amivel egyszerűbben felírhatjuk a függvényt.
+
+00:57.840 --> 01:09.540
+'u' jelölje a napok számát június 21-e után.
+
+01:10.042 --> 01:12.098
+Gondoljuk csak át egy kicsit!
+
+01:13.499 --> 01:15.366
+Június 21-e.
+
+01:15.366 --> 01:19.240
+Ha 'u' változóban gondolkozunk, akkor nulla lesz,
+
+01:19.240 --> 01:21.834
+mert nulla nappal vagyunk június 21-e után.
+
+01:21.834 --> 01:24.367
+Viszont, ha 't'-ben gondolkozunk,
+
+01:24.367 --> 01:27.671
+akkor június 21-e az év 172-edik napja.
+
+01:27.680 --> 01:29.400
+172.
+
+01:29.400 --> 01:32.800
+Mi a kapcsolat 'u' és 't' között?
+
+01:32.800 --> 01:35.900
+El vannak tolva 172 nappal egymáshoz képest.
+
+01:35.900 --> 01:42.860
+u egyenlő t minusz 172
+
+01:43.320 --> 01:48.000
+Figyeld meg, hogy ha t = 172, akkor u = 0.
+
+01:48.000 --> 01:50.440
+Először állítsuk elő az 'L(u)' függvényt,
+
+01:50.440 --> 01:54.660
+majd behelyettesítjük, hogy u = t -172.
+
+01:54.860 --> 01:58.360
+Először is, mi történik, ha u = 0?
+
+01:58.360 --> 02:00.060
+Hadd írjam le!
+
+02:00.060 --> 02:02.740
+Mi is történik, ha u = 0?
+
+02:02.840 --> 02:07.980
+Amikor u egyenlő nulla, június 21-e van, és ez a maximum pont.
+
+02:07.980 --> 02:11.160
+Melyik trigonometrikus függvénynek van maximuma
+
+02:11.160 --> 02:14.800
+a nulla helyen?
+
+02:15.080 --> 02:18.700
+A szinusz a nullában nulla, míg a koszinusz a nullában egy,
+
+02:18.700 --> 02:20.720
+a koszinusznak van itt a maximuma!
+
+02:20.720 --> 02:24.420
+Tehát egyszerűbbnek tűnik a koszinuszt használni.
+
+02:24.440 --> 02:34.380
+Lesz egy 'A' amplitúdó szorozva koszinusz...
+
+02:34.620 --> 02:38.300
+'C' együttható,
+
+02:38.300 --> 02:41.280
+de legyen inkább B, mivel előtte 'A'-t használtam.
+
+02:41.280 --> 02:46.540
+Egy együttható szorozva 'u'-val,
+
+02:46.540 --> 02:52.380
+plusz egy konstans, ami az egész függvényt fel-le tologatja.
+
+02:52.380 --> 02:55.440
+Ilyen alakú lesz a függvényünk.
+
+02:55.440 --> 02:59.200
+Most már csak ki kell találnunk, hogy mivel egyenlő 'A', B és C.
+
+02:59.240 --> 03:02.740
+Először vizsgáljuk, hogy mi lesz az amplitúdó és a középvonal.
+
+03:02.740 --> 03:07.340
+A középvonal tulajdonképpen megmutatja, hogy mennyivel toljuk fel a függvényt.
+
+03:07.960 --> 03:09.920
+Vegyük elő a számológépünket!
+
+03:10.700 --> 03:13.720
+A középvonal ennek a két számnak az átlagánál lesz,
+
+03:13.720 --> 03:30.360
+tehát 1096,5 plusz 382,5, osztva kettővel, ami 739,5-del egyenlő.
+
+03:30.960 --> 03:37.360
+Tehát C egyenlő 739,5.
+
+03:38.500 --> 03:42.600
+Az amplitúdó pedig azt mondja meg, hogy mennyire mozdulunk el a középvonaltól.
+
+03:42.600 --> 03:44.500
+Akár 1096,5 minusz az előbbi 'C',
+
+03:44.500 --> 03:47.660
+vagy pedig az előbbi 'C' minusz 382,5.
+
+03:47.860 --> 03:49.100
+Tegyük az előbbit!
+
+03:49.100 --> 04:05.140
+1096,5 minusz 739,5.
+
+04:05.940 --> 04:12.420
+És 357-et kapunk, ennyit mozgunk el a középvonaltól.
+
+04:12.420 --> 04:18.180
+'A' egyenlő 357.
+
+04:18.700 --> 04:21.140
+És mivel egyenlő a B?
+
+04:21.160 --> 04:22.980
+Ilyenkor így gondolkodom:
+
+04:22.980 --> 04:25.960
+"Hogy viselkedik a függvény? Mi a függvény periódusa?"
+
+04:26.240 --> 04:27.840
+Hadd rajzoljak ide egy táblázatot!
+
+04:32.550 --> 04:34.766
+Rakjunk be különböző 'u' értékeket!
+
+04:34.766 --> 04:40.300
+Amikor nulla nappal vagyunk június 21-e után,
+
+04:40.300 --> 04:41.900
+akkor értük el a maximum pontot,
+
+04:41.900 --> 04:48.060
+és a koszinusz függvény értékét keressük itt,
+
+04:48.060 --> 04:52.860
+azaz ebben a pontban keressük a 357-szer
+
+04:52.860 --> 04:59.900
+koszinusz nulla plusz 739,5 értékét.
+
+05:01.360 --> 05:05.760
+És mi egy teljes periódus? Egy teljes periódus egy év.
+
+05:05.760 --> 05:08.780
+Egy évvel később az év ugyanazon pontján (napján) vagyunk,
+
+05:08.780 --> 05:12.300
+ami némi józan ésszel is megmondható.
+
+05:13.100 --> 05:17.600
+Ha u = 365, akkor eltelt egy periódus,
+
+05:17.600 --> 05:20.380
+és visszaértünk a maximumhoz,
+
+05:20.380 --> 05:27.160
+ami nem más mint 357-szer koszinusz 2π ...
+
+05:28.440 --> 05:32.480
+Ha egy egyszerű trigonometrikus függvénnyel van dolgunk,
+
+05:32.480 --> 05:35.500
+és mondjuk van itt egy théta szögünk,
+
+05:35.500 --> 05:37.666
+akkor 2π lesz a periódus.
+
+05:37.669 --> 05:41.134
+Ez pedig ekvivalens azzal, amit ide kiírok,
+
+05:41.700 --> 05:45.800
+plusz 739,5.
+
+05:46.640 --> 05:52.940
+Egyrészt B szer 365 2π-vel kell,
+hogy megegyezzen.
+
+05:55.400 --> 05:56.880
+Írjuk is le!
+
+05:57.240 --> 06:00.840
+B szer 365,
+
+06:03.100 --> 06:06.600
+ami a koszinusz függvény argumentuma,
+
+06:06.600 --> 06:08.580
+2π -vel kell, hogy egyenlő legyen.
+
+06:09.320 --> 06:12.920
+Vagyis B egyenlő 2π per 365.
+
+06:15.660 --> 06:20.460
+B = 2π /365
+
+06:21.060 --> 06:24.200
+És már majdnem kész vagyunk. Meghatároztuk A-t, B-t és C-t,
+
+06:24.200 --> 06:30.000
+be kell még helyettesítenünk 'u' helyére 't-172'-t, hogy 't'-től függjön.
+
+06:30.000 --> 06:31.520
+Tegyünk is így!
+
+06:31.520 --> 06:34.100
+Ez megérdemel egy kis dobpergést!
+
+06:34.120 --> 06:43.300
+L(t) egyenlő A-szor, azaz 357-szer
+
+06:43.300 --> 06:55.040
+koszinusz B szorozva 2π per 365-ször...
+
+06:55.761 --> 06:58.300
+nem 'u'-val, hanem 't'-vel kifejezve,
+
+06:58.300 --> 06:59.433
+az év adott napjára vagyunk kíváncsiak,
+
+06:59.433 --> 07:01.966
+nem pedig a június 21. utáni napokra.
+
+07:01.966 --> 07:11.680
+... szorozva (t - 172), végül plusz a középvonal,
+
+07:11.680 --> 07:15.300
+plusz 739,5.
+
+07:16.480 --> 07:19.760
+És végeztünk is.
+
+07:19.760 --> 07:21.900
+Ez egy bonyolult összefüggésnek tűnik,
+
+07:21.900 --> 07:24.720
+de ha részleteire bontod, és végiggondolod,
+
+07:24.720 --> 07:27.700
+megállapítod a szélsőértékeket,
+
+07:27.700 --> 07:29.160
+akár a minimumot, akár a maximumot,
+
+07:29.160 --> 07:33.960
+megvizsgálod a függvényt a nulla, vagy a 2π argumentumnál,
+
+07:33.966 --> 07:36.119
+a nulla ugye a legegyszerűbb.
+
+07:36.119 --> 07:39.366
+És végül foglalkozhatunk az eltolással.
+
+07:39.366 --> 07:41.882
+Remélem, hogy hasznosnak találtad a videót.

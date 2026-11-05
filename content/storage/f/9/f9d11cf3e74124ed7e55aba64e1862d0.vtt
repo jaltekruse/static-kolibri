@@ -1,0 +1,220 @@
+WEBVTT
+
+00:00.111 --> 00:02.420
+V tomto videu
+si spočítáme,
+
+00:02.420 --> 00:11.018
+čemu je rovna limita pro x blížící se
+k 0 z (1 minus cos(x)) lomeno x.
+
+00:11.018 --> 00:13.532
+A budeme předpokládat,
+že jednu věc už víme.
+
+00:13.532 --> 00:14.902
+Předpokládejme,
+že víme,
+
+00:14.902 --> 00:23.642
+že limita pro x blížící se k 0
+ze sin(x) lomeno x je rovna 1.
+
+00:23.642 --> 00:25.411
+Já to tady nebudu
+opět dokazovat,
+
+00:25.411 --> 00:30.401
+protože máme jedno celé video
+věnované důkazu této známé limity.
+
+00:30.401 --> 00:33.655
+Důkaz se provádí pomocí
+věty o dvou policajtech.
+
+00:33.655 --> 00:36.246
+Tak se na
+to podívejme.
+
+00:36.246 --> 00:40.776
+Nejprve si algebraicky
+upravíme výraz v limitě.
+
+00:40.776 --> 00:49.071
+Udělám to tak, že čitatele i jmenovatele
+vynásobím výrazem (1 plus cos(x)).
+
+00:49.071 --> 00:51.561
+Ve jmenovateli
+musím udělat totéž.
+
+00:51.561 --> 00:53.478
+1 plus cos(x).
+
+00:53.478 --> 00:55.115
+Tím nijak nezměním
+hodnotu výrazu.
+
+00:55.115 --> 00:57.429
+Pouze jsem vlastně
+násobil jedničkou.
+
+00:57.429 --> 00:59.022
+Ale jak nám
+to pomůže?
+
+00:59.022 --> 01:04.425
+Celé to nyní mohu přepsat jako
+limita pro x blížící se k 0...
+
+01:04.425 --> 01:13.056
+Tedy (1 minus cos(x)) krát
+(1 plus cos(x)) je rovno...
+
+01:13.056 --> 01:18.468
+To je rovno 1 na druhou,
+což je opět 1,
+
+01:18.468 --> 01:22.566
+minus cos(x)
+na druhou.
+
+01:22.566 --> 01:23.911
+Je to rozdíl
+druhých mocnin.
+
+01:23.911 --> 01:29.898
+A ve jmenovateli
+budeme mít tohle,
+
+01:29.898 --> 01:36.044
+což je jen x
+krát (1 plus cos(x)).
+
+01:36.044 --> 01:39.080
+Čemu se rovná 1 minus
+cos(x) umocněný na druhou?
+
+01:39.080 --> 01:42.881
+Toto můžeme upravit
+díky goniometrické jedničce.
+
+01:42.881 --> 01:50.040
+Rovná se to
+sin(x) na druhou.
+
+01:50.041 --> 01:57.768
+Celý tento výraz tak mohu přepsat
+jako limita pro x blížící se k 0...
+
+01:57.768 --> 01:59.686
+A tohle si nyní přepišme.
+
+01:59.686 --> 02:09.042
+Namísto sin(x) na druhou
+napišme sin(x) krát sin(x).
+
+02:09.042 --> 02:14.417
+A já nyní vezmu první
+sin(x), vezmu tenhle sin(x)
+
+02:14.417 --> 02:16.222
+a vydělím
+ho tímto x,
+
+02:16.222 --> 02:26.669
+tedy sin(x) lomeno x krát (druhý
+sin(x) lomeno 1 plus cos(x)).
+
+02:26.669 --> 02:32.645
+Krát sin(x) lomeno
+1 plus cos(x).
+
+02:32.645 --> 02:38.692
+Použil jsem jen goniometrickou
+jedničku a algebraické úpravy.
+
+02:38.692 --> 02:43.867
+Limita součinu těchto dvou výrazů
+bude rovna součinu limit.
+
+02:43.867 --> 02:47.939
+Tohle si tedy
+můžu přepsat jako:
+
+02:47.939 --> 02:58.204
+limita pro x blížící se k 0
+ze sin(x) lomeno x krát
+
+02:58.204 --> 03:07.604
+limita pro x blížící se k 0
+ze sin(x) lomeno 1 plus cos(x).
+
+03:07.604 --> 03:09.611
+Na začátku videa
+jsme se dohodli,
+
+03:09.611 --> 03:11.909
+že můžeme předpokládat,
+že tuto limitu známe.
+
+03:11.909 --> 03:13.714
+V jiném videu už
+jsme si dokázali,
+
+03:13.714 --> 03:17.011
+čemu se rovná limita pro x blížící
+se k 0 ze sin(x) lomeno x.
+
+03:17.011 --> 03:19.891
+Tato limita se rovná 1.
+
+03:19.891 --> 03:22.037
+Takže původní limita je
+závislá pouze na tom,
+
+03:22.037 --> 03:23.795
+čemu se rovná
+tato limita.
+
+03:23.795 --> 03:26.443
+A ta je poměrně
+jednoduchá.
+
+03:26.443 --> 03:32.673
+Když se x blíží k 0, čitatel jde k 0,
+protože sin(0) je 0 a jmenovatel se blíží…
+
+03:32.673 --> 03:35.940
+Cos(0) je 1, takže
+jmenovatel se blíží ke 2.
+
+03:35.940 --> 03:40.173
+Tohle se tedy blíží
+k 0 lomeno 2 neboli k 0.
+
+03:40.173 --> 03:41.799
+Tohle je rovno 0.
+
+03:41.799 --> 03:46.163
+1 krát 0 se
+jednoduše rovná 0.
+
+03:46.163 --> 03:46.970
+A máme hotovo.
+
+03:46.970 --> 03:52.398
+Díky tomuto faktu, goniometrickým vzorcům
+a algebraickým úpravám jsme ukázali,
+
+03:52.398 --> 03:58.962
+že původní limita pro x blížící se k 0
+z (1 minus cos(x)) lomeno x je rovna 0.
+
+03:58.962 --> 04:00.398
+Doporučuji vám
+udělat si graf.
+
+04:00.398 --> 04:04.255
+Uvidíte, že graficky vám to
+také bude dávat smysl.

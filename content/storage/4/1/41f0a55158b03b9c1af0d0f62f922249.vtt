@@ -1,0 +1,465 @@
+WEBVTT
+
+00:00.809 --> 00:03.472
+- So this darker curve in blue
+
+00:03.472 --> 00:07.552
+is the graph of r is equal
+to 1 minus cosine of theta,
+
+00:07.552 --> 00:09.848
+of course we're dealing
+in polar coordinates here.
+
+00:09.848 --> 00:13.121
+And what I'm interested in is
+to see if we can figure out
+
+00:13.121 --> 00:17.344
+the area enclosed by this curve.
+
+00:17.344 --> 00:19.135
+And I encourage you to pause the video
+
+00:19.135 --> 00:21.247
+and try it on your own.
+
+00:21.247 --> 00:23.592
+Alright, let's work through it together.
+
+00:23.592 --> 00:26.424
+So we've already seen, we've
+already given ourselves
+
+00:26.424 --> 00:28.416
+the intuition for the formula,
+
+00:28.416 --> 00:33.400
+that the area enclosed by a polar graph
+
+00:33.400 --> 00:37.631
+is going to be equal to one
+half the definite integral
+
+00:37.631 --> 00:42.631
+from our starting theta
+to our ending theta,
+
+00:43.135 --> 00:48.135
+from alpha to beta, of r
+of theta squared d theta.
+
+00:51.063 --> 00:55.328
+And so we, essentially,
+just have to apply this
+
+00:55.328 --> 00:58.103
+to this function right over here.
+
+00:58.103 --> 01:01.143
+So in this case, the area
+is going to be equal to
+
+01:01.143 --> 01:03.871
+one half the definite integral.
+
+01:03.871 --> 01:06.551
+Now what's our alpha and what's our beta?
+
+01:06.551 --> 01:10.127
+Well, we're going from theta
+is equal to zero radians,
+
+01:10.127 --> 01:11.551
+and we're essentially going all the way--
+
+01:11.551 --> 01:13.824
+When theta is equal to
+zero radians is 1 minus 1
+
+01:13.824 --> 01:15.471
+we're right over there.
+
+01:15.471 --> 01:18.335
+And then we go all the way around
+
+01:18.335 --> 01:21.647
+to theta is equal to two pi radians.
+
+01:21.647 --> 01:24.768
+Notice when we're back at two
+pi, cosine of two pi is one,
+
+01:24.768 --> 01:26.542
+one minus one is zero again.
+
+01:26.542 --> 01:28.118
+So we get back to that point.
+
+01:28.118 --> 01:30.478
+So we're going from theta
+is equal to zero radians
+
+01:30.478 --> 01:34.671
+to theta is equal to two pi radians.
+
+01:34.671 --> 01:37.470
+Now what's r of theta squared?
+
+01:37.470 --> 01:39.069
+Maybe I'll color code this a little bit.
+
+01:39.069 --> 01:41.190
+R of theta squared.
+
+01:41.190 --> 01:44.831
+Well it's just going to be
+one minus cosine of theta.
+
+01:44.831 --> 01:49.135
+One minus cosine theta squared.
+
+01:49.135 --> 01:51.782
+And of course we have our d theta.
+
+01:51.782 --> 01:54.222
+We have our d theta.
+
+01:54.222 --> 01:56.535
+And now we just have to
+evaluate this integral.
+
+01:56.535 --> 01:58.750
+So once again, at any
+point you feel inspired,
+
+01:58.750 --> 02:01.230
+try to evaluate this.
+
+02:01.230 --> 02:03.046
+So let's do this, alright.
+
+02:03.046 --> 02:06.182
+So what I would do...
+
+02:06.182 --> 02:08.166
+So this is going to be equal to one half
+
+02:08.166 --> 02:10.706
+times the definite integral
+from zero to two pi.
+
+02:10.706 --> 02:12.144
+And let me expand this out.
+
+02:12.144 --> 02:17.144
+This is going to be one
+minus two cosine theta
+
+02:19.368 --> 02:24.368
+plus cosine squared theta, d theta.
+
+02:24.528 --> 02:26.368
+D theta.
+
+02:26.368 --> 02:28.072
+Now I know how to take the
+anti-derivative of one,
+
+02:28.072 --> 02:29.230
+I know how to take the anti-derivitive of
+
+02:29.230 --> 02:32.238
+negative cosine of theta,
+but cosine squared theta,
+
+02:32.238 --> 02:33.390
+this is a little bit...
+
+02:33.390 --> 02:35.605
+It doesn't jump out at you
+that you can just do this,
+
+02:35.605 --> 02:37.979
+use u-substitution or something like that,
+
+02:37.979 --> 02:41.220
+but lucky for us, we have
+our trigonometric identities,
+
+02:41.220 --> 02:42.995
+and so we know.
+
+02:42.995 --> 02:46.306
+We know that cosine squared of theta
+
+02:46.306 --> 02:49.963
+is just the same thing
+as one half times one
+
+02:49.963 --> 02:53.283
+plus cosine of two theta.
+
+02:53.283 --> 02:55.011
+You learned this in trigonometry class.
+
+02:55.011 --> 02:57.324
+If you didn't, we'll,
+you've learned it just now.
+
+02:57.324 --> 02:59.770
+And that's why this is
+one of the more useful
+
+02:59.770 --> 03:03.544
+trigonometric identities if
+you're finding any type of
+
+03:03.544 --> 03:06.381
+anti-derivative or if
+you're integrating anything.
+
+03:06.381 --> 03:07.334
+And so let's do that.
+
+03:07.334 --> 03:10.846
+Let's rewrite this right over here as
+
+03:10.846 --> 03:15.846
+one half times one plus
+cosine of two theta.
+
+03:18.667 --> 03:20.461
+And let's see, and maybe we could...
+
+03:20.461 --> 03:23.469
+Yeah, let's just do it like that.
+
+03:23.469 --> 03:25.252
+I guess we could, if we wanted...
+
+03:25.252 --> 03:26.928
+Well, we'll just do it like that.
+
+03:26.928 --> 03:31.928
+So this is going to be equal to one half,
+
+03:32.161 --> 03:34.865
+and then we are going to...
+
+03:34.865 --> 03:37.545
+One half, now let's just
+start taking anti-derivatives.
+
+03:37.545 --> 03:38.979
+One half.
+
+03:39.589 --> 03:43.572
+Now the anti-derivative of
+one, with respect to theta,
+
+03:43.572 --> 03:45.896
+is just going to be theta.
+
+03:45.896 --> 03:49.104
+The anti-derivative of
+negative two cosine of theta,
+
+03:49.104 --> 03:51.793
+well that's just going to be
+negative two sine of theta.
+
+03:51.793 --> 03:54.225
+Negative two sine theta.
+
+03:54.225 --> 03:55.057
+You can take the derivative,
+
+03:55.057 --> 03:56.415
+the derivative of sine is cosine
+
+03:56.415 --> 03:58.903
+and the negative two,
+it'll just multiple it
+
+03:58.903 --> 04:00.624
+times the derivative of sine of theta
+
+04:00.624 --> 04:02.545
+so it's negative two cosine of theta.
+
+04:02.545 --> 04:05.233
+And then we're going to have, let's see...
+
+04:05.233 --> 04:06.348
+So let me distribute this.
+
+04:06.348 --> 04:11.260
+This is the same thing
+as one half plus one half
+
+04:11.260 --> 04:13.830
+cosine of two theta.
+
+04:13.830 --> 04:16.516
+So let's just assume it's this way.
+
+04:16.516 --> 04:19.380
+So the anti-derivative of one half,
+
+04:19.380 --> 04:21.677
+so the anti-derivative of one-half.
+
+04:21.677 --> 04:23.100
+So I'm really looking at
+that right over there.
+
+04:23.100 --> 04:25.693
+It's going to be one half theta.
+
+04:25.693 --> 04:27.084
+One half theta.
+
+04:27.084 --> 04:29.659
+And then the anti-derivative of one half
+
+04:29.659 --> 04:32.705
+cosine of two theta, let's see...
+
+04:33.612 --> 04:35.470
+The derivative of sine of two theta
+
+04:35.470 --> 04:38.629
+is two cosine of two theta.
+
+04:39.860 --> 04:42.274
+So the anti-derivative of this is...
+
+04:42.274 --> 04:44.979
+The anti-derivative of
+cosine of two theta,
+
+04:44.979 --> 04:46.779
+and you can do u-substitution if you like,
+
+04:46.779 --> 04:49.128
+but you might be able
+to do this in your head,
+
+04:49.128 --> 04:51.848
+the anti-derivative of cosine
+of two theta is going to be
+
+04:51.848 --> 04:53.848
+one half sine of two theta.
+
+04:53.848 --> 04:56.071
+And then you have this
+one half right over here.
+
+04:56.071 --> 04:58.061
+So this is going to be...
+
+04:58.061 --> 05:00.549
+Let me show you what I'm
+finding the anti-derivative of.
+
+05:00.549 --> 05:02.868
+Of that right over there, of this,
+
+05:02.868 --> 05:04.437
+and I guess this right over here.
+
+05:04.437 --> 05:09.437
+So this is going to be plus
+one fourth sine of two theta.
+
+05:12.166 --> 05:14.218
+And I encourage you to
+find the derivative here
+
+05:14.218 --> 05:16.447
+if that last part was
+a little bit confusing.
+
+05:16.447 --> 05:17.855
+The derivative of sine of two theta
+
+05:17.855 --> 05:19.607
+is two cosine of two theta,
+
+05:19.607 --> 05:21.934
+two over one fourth is one half,
+
+05:21.934 --> 05:24.406
+you get to one half cosine of two theta.
+
+05:24.406 --> 05:27.174
+And we're going to
+evaluate that at two pi,
+
+05:27.174 --> 05:30.343
+at two pi, and at zero.
+
+05:30.343 --> 05:32.726
+So when you evaluate
+it, one thing that might
+
+05:32.726 --> 05:35.377
+jump out at you is when
+you evaluate this at zero,
+
+05:35.377 --> 05:37.257
+this whole thing,
+everything, every term here
+
+05:37.257 --> 05:39.734
+is just going to be zero, so
+that simplifies things nicely.
+
+05:39.734 --> 05:42.843
+So we really just have
+to take one half of...
+
+05:42.843 --> 05:44.179
+It evaluated at two pi.
+
+05:44.179 --> 05:48.789
+So this is going to be
+one half times two pi,
+
+05:49.296 --> 05:53.329
+two pi, and then sine of two pi is zero,
+
+05:53.329 --> 05:55.104
+so that's just going to be zero.
+
+05:55.104 --> 05:58.199
+And then plus one half times two pi,
+
+05:58.199 --> 06:00.588
+so that's going to be plus pi.
+
+06:00.588 --> 06:03.997
+And then sign of two times
+two pi sine of four pi,
+
+06:03.997 --> 06:05.494
+that's still going to be zero.
+
+06:05.494 --> 06:08.110
+So this is going to be zero as well,
+
+06:08.110 --> 06:10.397
+and we are almost done.
+
+06:10.397 --> 06:13.318
+So this is going to be
+one half times three pi
+
+06:13.318 --> 06:18.318
+or three halves, three
+halves pi is the area,
+
+06:19.514 --> 06:23.514
+is the area of this region.

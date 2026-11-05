@@ -1,0 +1,650 @@
+WEBVTT
+
+00:00.540 --> 00:02.305
+Máme tady funkci g
+
+00:02.305 --> 00:04.789
+a chci, abyste si zastavili video
+
+00:04.789 --> 00:06.763
+a zkusili vypočítat, kolik je g pro 1,
+
+00:06.763 --> 00:08.968
+g pro 2,
+
+00:08.968 --> 00:13.334
+g pro 3, g pro 4.
+
+00:13.334 --> 00:16.143
+Vyřešte tyto čtyři případy.
+
+00:16.143 --> 00:18.303
+Tak, teď si to vyřešíme společně.
+
+00:18.303 --> 00:22.134
+g pro 1, když n je rovno 1.
+
+00:22.134 --> 00:23.922
+Tak to je případ tady nahoře.
+
+00:23.922 --> 00:27.242
+Když je n rovno 1, g je rovno 4.
+
+00:27.242 --> 00:29.332
+Tak to bylo rychlé a jasné.
+
+00:29.332 --> 00:31.816
+Teď g pro 2.
+
+00:31.816 --> 00:33.837
+Když je n rovno 2,
+
+00:33.837 --> 00:36.902
+2 je větší než 1 a je to celé číslo,
+
+00:36.902 --> 00:38.828
+takže použíjeme tuto možnost.
+
+00:38.828 --> 00:39.688
+A to je zajímavé,
+
+00:39.688 --> 00:41.847
+protože je to definováno jako funkce,
+
+00:41.847 --> 00:43.728
+ale proměnná není 'g' nebo 'n',
+
+00:43.728 --> 00:45.864
+ale 'g pro (n minus 1)'.
+
+00:45.864 --> 00:48.859
+Takže když n je 2, protože počítáme
+funkci g pro hodnotu 2,
+
+00:48.859 --> 00:51.715
+bude to g pro (2 minus 1)
+
+00:51.715 --> 00:55.845
+neboli (g pro 1) plus 3,2.
+
+00:55.845 --> 00:58.215
+Plus 3,2.
+
+00:58.215 --> 00:59.793
+Kolik to bude?
+
+00:59.793 --> 01:02.695
+No, víme, že g pro 1 se rovná 4.
+
+01:02.695 --> 01:04.298
+To jsme už vypočítali.
+
+01:04.298 --> 01:08.969
+Takže 4 plus 3,2, to je 7,2.
+
+01:09.359 --> 01:10.690
+Dobrá, pokračujme.
+
+01:10.690 --> 01:13.472
+G pro 3, zase to bude tento případ,
+
+01:13.472 --> 01:16.266
+protože 3 je větší než 1
+a je to celé číslo.
+
+01:16.266 --> 01:20.005
+Takže to bude g pro (3 minus 1),
+
+01:20.005 --> 01:23.451
+neboli (g pro 2) plus 3,2.
+
+01:23.451 --> 01:24.721
+Plus 3,2.
+
+01:24.721 --> 01:27.794
+Už víme, kolik je g pro 2. Je to 7,2.
+
+01:27.794 --> 01:30.964
+Už jsme to vypočítali. Je to 7,2.
+
+01:30.964 --> 01:37.063
+7,2 plus 3,2 je rovno 10,4.
+
+01:37.183 --> 01:40.321
+A potom g pro 4, zase tento případ.
+
+01:40.321 --> 01:43.041
+Bude to (g pro 3) plus 3,2.
+
+01:43.041 --> 01:47.174
+Hodnota (g pro 3) plus 3,2.
+
+01:47.174 --> 01:49.014
+Kolik to bude?
+
+01:49.014 --> 01:51.700
+g pro 3 jsme právě spočítali, je to 10,4.
+
+01:51.700 --> 01:56.912
+10,4 plus 3,2 se rovná 13,6.
+
+01:57.352 --> 01:58.456
+Co tu tedy máme.
+
+01:58.456 --> 01:59.942
+To je docela zajímavé.
+
+01:59.942 --> 02:03.449
+Zamysleme se nad funkcí g.
+
+02:03.449 --> 02:06.955
+Vidíme, že je definovaná
+pro všechna kladná celá čísla.
+
+02:06.955 --> 02:09.745
+A právě proto o ní můžeme uvažovat tak,
+
+02:09.745 --> 02:11.041
+že definuje posloupnost,
+
+02:11.041 --> 02:12.668
+tady vidíme, jaká ta posloupnost je.
+
+02:12.668 --> 02:16.335
+První člen je 4,
+
+02:16.335 --> 02:19.625
+druhý člen je 7,2,
+
+02:19.625 --> 02:23.035
+další je 10,4,
+
+02:23.035 --> 02:25.965
+další člen je 13,6
+
+02:25.965 --> 02:27.968
+a tak to bude pokračovat dál a dál.
+
+02:27.968 --> 02:30.986
+A co se v této posloupností děje?
+
+02:30.986 --> 02:32.867
+Začali jsme se 4.
+
+02:32.867 --> 02:34.121
+Začínáme s číslem 4.
+
+02:34.121 --> 02:36.556
+a tento případ funkce nám říká,
+
+02:36.556 --> 02:38.436
+když n se rovná 4,
+
+02:38.436 --> 02:40.204
+když n se rovná 1.
+
+02:40.204 --> 02:42.086
+hodnota funkce se bude rovnat 4
+
+02:42.086 --> 02:44.524
+a potom pro každý další následující člen
+
+02:44.524 --> 02:47.425
+vezmete předchozí člen a přičtete 3,2.
+
+02:47.425 --> 02:51.419
+Takže přičteme 3,2 pro druhý člen,
+přičteme 3,2,
+
+02:51.419 --> 02:54.009
+pořád budeme přičítat 3,2
+
+02:54.009 --> 02:58.633
+budeme pořád přičítat 3,2.
+
+02:58.633 --> 03:03.293
+Ne 32, 3,2 abychom dostali další člen.
+
+03:03.293 --> 03:05.302
+Můžeme to definovat takto,
+nebo můžeme říct,
+
+03:05.302 --> 03:07.386
+"Mějme posloupnost s prvním členem 4
+
+03:07.386 --> 03:10.136
+a pak budeme přičítat 3,2,
+abychom dostali další členy."
+
+03:10.136 --> 03:12.781
+Tohle je další zajímavá možnost,
+jak to definovat.
+
+03:12.781 --> 03:14.243
+A tato možnost definice,
+
+03:14.243 --> 03:16.589
+kdy jsme to definovali
+jako algebraickou funkci,
+
+03:16.589 --> 03:19.793
+funkci, která je definovaná
+pro kladná celá čísla,
+
+03:19.793 --> 03:21.302
+a kde máme počáteční tvrzení.
+
+03:21.302 --> 03:22.745
+A toto tvrzení nám tady
+
+03:22.745 --> 03:24.483
+udalo počáteční člen posloupnosti.
+
+03:24.483 --> 03:25.876
+Pak tu máme ten druhý případ
+
+03:25.876 --> 03:28.082
+definovaný pomocí funkce.
+
+03:28.082 --> 03:30.079
+Potom se musíme vrátit zpátky,
+
+03:30.079 --> 03:32.289
+abyste se se dostali k počátečnímu tvrzení.
+
+03:32.289 --> 03:34.816
+Tomu se říká rekurzivní funkce.
+
+03:34.816 --> 03:38.786
+Rekurzivní funkce.
+
+03:38.786 --> 03:40.366
+Na tomto příkladu vidíme,
+
+03:40.366 --> 03:42.827
+jak můžeme použít rekurzivní funkci
+
+03:42.827 --> 03:45.636
+pro definici nějaké posloupnosti.
+
+03:45.636 --> 03:47.656
+Teď jsme šli popořadě,
+
+03:47.656 --> 03:48.910
+ale mohli bychom jít i pozpátku.
+
+03:48.910 --> 03:52.499
+Když řeknu: "Jaká je hodnota g pro…
+
+03:52.499 --> 03:54.629
+Kolik je g pro 6?"
+
+03:54.629 --> 03:55.945
+Podíváte se sem a řeknete
+
+03:55.945 --> 04:00.008
+"Bude to g pro 5 plus 3,2."
+
+04:00.008 --> 04:03.398
+Bude to předchozí člen plus 3,2,
+
+04:03.398 --> 04:05.550
+pokud to považujeme za posloupnost.
+
+04:05.550 --> 04:07.553
+Potom musíme vypočítat,
+kolik je předchozí člen.
+
+04:07.553 --> 04:11.138
+g pro 5 bude g pro 4…
+
+04:11.138 --> 04:14.278
+g pro 4 plus 3,2
+
+04:14.278 --> 04:16.262
+A šli byste dál a dál zpátky.
+
+04:16.262 --> 04:18.119
+My už ale víme, kolik je g pro 4.
+
+04:18.119 --> 04:21.487
+Je to 13,6.
+
+04:21.487 --> 04:25.357
+Takže tohle je 16,8,
+
+04:25.357 --> 04:29.496
+a pokud je g pro 5 16,8.
+
+04:29.496 --> 04:33.095
+16,8, přičtete 3,2 a dostanete 20.
+
+04:33.095 --> 04:34.980
+Můžete začít na g pro 6 a jít zpátky,
+
+04:34.980 --> 04:36.480
+dokud se nedostanete ke g pro 1
+
+04:36.480 --> 04:37.719
+a nezjistíte jeho hodnotu.
+
+04:37.719 --> 04:40.274
+Jdete zpět až k počátečnímu tvrzení.
+
+04:40.274 --> 04:43.292
+Potom jste schopni zaplnit
+všechna prázdná místa.
+
+04:43.292 --> 04:45.241
+Uděláme ještě pár dalších příkladů.
+
+04:46.311 --> 04:48.191
+Máme zde tuto funkci.
+
+04:48.191 --> 04:50.606
+Řekněme, že definuje posloupnost.
+
+04:50.606 --> 04:53.723
+Zkusme vypočítat první čtyři členy
+té posloupnosti
+
+04:53.723 --> 04:55.419
+a opět si zkuste zastavit video
+
+04:55.419 --> 04:57.219
+a spočítat to sami.
+
+04:57.429 --> 04:59.453
+Tak se na to podívejme.
+
+04:59.453 --> 05:03.562
+Hodnota h pro 1 je, no,
+tady to máme jasně zadané,
+
+05:03.562 --> 05:04.747
+je to 14.
+
+05:04.747 --> 05:07.811
+Když se n rovná 1, h je 14.
+
+05:07.811 --> 05:11.172
+h pro 2.
+
+05:11.172 --> 05:13.242
+Teď spadáme do této možnosti.
+
+05:13.242 --> 05:15.659
+protože 2 je větší 1 a je to celé číslo.
+
+05:15.659 --> 05:19.336
+Bude to 28/(h pro 1),
+
+05:19.336 --> 05:21.246
+lomeno h pro 1.
+
+05:21.246 --> 05:22.973
+Víme, že h pro 1 je 14,
+
+05:22.973 --> 05:26.738
+takže to bude 28/14, což se rovná 2.
+
+05:26.738 --> 05:29.572
+Teď h pro 3.
+
+05:29.572 --> 05:32.358
+h pro 3, zase to bude tento případ.
+
+05:32.358 --> 05:34.053
+Bude to 28,
+
+05:34.053 --> 05:38.083
+28 děleno (h pro 2).
+
+05:38.083 --> 05:39.462
+Pokud je to posloupnost,
+
+05:39.462 --> 05:42.388
+děleno předchozím členem posloupnosti.
+
+05:42.388 --> 05:43.990
+Takže 28 děleno h pro 2.
+
+05:43.990 --> 05:47.875
+víme, že h pro 2 je rovno…
+
+05:47.875 --> 05:49.215
+Je rovno 2.
+
+05:49.215 --> 05:50.050
+To jsme teď spočítali.
+
+05:50.050 --> 05:52.674
+Jdeme zpět k 14, je to zajímavé.
+
+05:52.674 --> 05:54.440
+Mysím, že už vidíte kam to směřuje.
+
+05:54.440 --> 05:58.943
+h pro 4 je 28 děleno h pro 3.
+
+05:58.943 --> 06:02.301
+28 děleno h pro 3,
+
+06:02.301 --> 06:04.251
+což je 28 děleno…
+
+06:04.251 --> 06:05.414
+h pro 3 je tady,
+
+06:05.414 --> 06:06.386
+to jsme teď spočítali.
+
+06:06.386 --> 06:09.276
+Děleno 14, což je zase 2.
+
+06:09.276 --> 06:12.387
+Pokud to budeme považovat za posloupnost,
+
+06:12.387 --> 06:16.033
+řekli bychom: "Dobrá, první člen je 14,
+
+06:16.033 --> 06:19.245
+potom máme 2,
+
+06:19.245 --> 06:21.055
+potom jdeme na 14,
+
+06:21.055 --> 06:22.235
+pak zase máme 2.
+
+06:22.235 --> 06:24.130
+Takže o této posloupnosti můžeme říct,
+
+06:24.130 --> 06:27.317
+že se střídají čísla 14 a 2.
+
+06:27.317 --> 06:31.009
+Všechny liché členy posloupnost jsou 14,
+
+06:31.009 --> 06:32.890
+všechny sudé členy posloupnosti jsou 2.
+
+06:32.890 --> 06:34.937
+To je jeden ze způsobů,
+jak o tom přemýšlet.
+
+06:34.937 --> 06:36.328
+Další možností je,
+
+06:36.328 --> 06:38.346
+začneme se 14
+
+06:38.346 --> 06:42.015
+a každý následující člen je
+
+06:42.015 --> 06:45.126
+28 děleno předchozím členem.
+
+06:45.126 --> 06:48.284
+Tady je 28 děleno 14 se rovná 2.
+
+06:48.284 --> 06:51.813
+28 děleno 2 je 14,
+28 děleno 14 je 2.
+
+06:51.813 --> 06:53.206
+A pokračujeme dál a dál.
+
+06:53.206 --> 06:57.223
+A to je to samé, co se děje tady.
+
+06:57.223 --> 06:58.582
+Ještě jeden takový příklad.
+
+06:59.592 --> 07:00.776
+A tento je zajímavý,
+
+07:00.776 --> 07:02.026
+protože teď máme,
+
+07:02.026 --> 07:06.636
+teď máme dvě počáteční tvrzení.
+
+07:06.636 --> 07:08.397
+Tak se na to podívejme.
+
+07:08.397 --> 07:10.716
+Tohle je, řekněme že
+
+07:10.716 --> 07:14.450
+jen chci přijít na to,
+chceme přijít na to,
+
+07:14.450 --> 07:17.050
+kolik je hodnota f pro 4.
+
+07:17.050 --> 07:20.436
+f pro 4, to bude tento případ.
+
+07:20.436 --> 07:22.410
+4 je větší než 2 a je to celé číslo.
+
+07:22.410 --> 07:24.732
+Bude to f pro (4 minus 2).
+
+07:24.732 --> 07:29.440
+Bude to (f pro 2) plus f pro (4 minus 1),
+
+07:29.440 --> 07:31.460
+plus f pro 3.
+
+07:31.460 --> 07:35.360
+Takže f pro 4 bude součet
+předchozích dvou čísel.
+
+07:35.360 --> 07:37.030
+Tak nejdřív spočítejme,
+
+07:37.030 --> 07:38.728
+kolik bude f pro 3.
+
+07:38.728 --> 07:40.725
+f pro 3, to bude tento případ,
+
+07:40.725 --> 07:43.987
+bude to f pro (3 minus 2), to je f pro 1,
+
+07:44.927 --> 07:48.642
+plus f pro (3 minus 1), plus f pro 2.
+
+07:48.642 --> 07:51.243
+Součet předchozích dvou čísel.
+
+07:51.243 --> 07:53.727
+Vypočítejme kolik bude f pro 2.
+
+07:53.727 --> 07:56.242
+Teď už nesčítáme dvě předcházející čísla.
+
+07:56.242 --> 07:59.277
+Nyní spadáme do tohoto
+počátečního tvrzení. N se rovná 2.
+
+07:59.277 --> 08:01.274
+f se bude rovnat −4.
+
+08:01.274 --> 08:04.395
+A musíme spočítat i f pro 1.
+
+08:04.408 --> 08:06.010
+A vidíme, že když n se rovná 1,
+
+08:06.010 --> 08:07.891
+f se rovná −6.
+
+08:07.891 --> 08:10.306
+Máme tady dvě počáteční tvrzení.
+
+08:10.306 --> 08:15.348
+Počáteční tvrzení.
+Ta nejsou definována pomocí funkce.
+
+08:15.348 --> 08:16.206
+A to potřebujete,
+
+08:16.206 --> 08:18.371
+jinak byste se rekurzivně
+opakovali donekonečna.
+
+08:18.371 --> 08:20.615
+Nikdy byste nevypočetli vlastní čísla.
+
+08:20.615 --> 08:23.502
+Ale teď můžeme využít tato tvrzení
+a doplnit hodnoty zde.
+
+08:23.502 --> 08:26.954
+Takže ta posloupnost bude −6,
+
+08:26.954 --> 08:29.833
+potom bude −4 jako druhý člen,
+
+08:29.833 --> 08:32.015
+a třetí člen je součet předchozích dvou.
+
+08:32.015 --> 08:36.613
+−6 plus −4 je −10.
+
+08:36.613 --> 08:40.119
+−6 plus −4 je −10.
+
+08:40.119 --> 08:42.371
+A čtvrtý člen je součet předchozích dvou.
+
+08:42.371 --> 08:43.416
+Tady to vidíme.
+
+08:43.416 --> 08:45.854
+Druhý člen, f pro 2 plus f pro 3.
+
+08:45.854 --> 08:50.173
+−4 plus −10 je −14.
+
+08:50.173 --> 08:53.122
+A takto bychom mohli pokračovat dál.
+
+08:53.122 --> 08:55.815
+Takže tohle tady je −14.
+
+08:55.815 --> 08:57.324
+Účel tohoto videa byl,
+
+08:57.324 --> 08:59.809
+abyste se trochu seznámili
+s rekuzivními funkcemi
+
+08:59.809 --> 09:02.123
+a také abyste viděli, jak je můžeme použít
+
+09:02.123 --> 09:04.638
+pro definici posloupností.

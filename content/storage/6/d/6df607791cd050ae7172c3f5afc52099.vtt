@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+I denne videoen vil jeg lære deg ideen om limits (grenser), som er en veldig viktig idé.
+
+00:07.132 --> 00:10.813
+Dette er grunnideen som alt annet i calculus bygger på.
+
+00:10.828 --> 00:17.036
+Til tross for å være så superviktig, er ideen veldig enkel.
+
+00:17.036 --> 00:21.075
+Jeg tegner en funksjon her - nei, jeg definerer en funksjon.
+
+00:21.075 --> 00:32.800
+En ganske enkel funksjon. La oss si at f(x) er lik (x-1)/(x-1).
+
+00:32.800 --> 00:36.084
+Du kan si: "Hei Sal, se, jeg har samme verdi i telleren og nevneren.
+
+00:36.084 --> 00:42.421
+Hvis jeg har noe dividert med seg selv, er det lik én! Kan jeg bare forenkle dette til f (x) = 1? "
+
+00:42.421 --> 00:47.944
+Og jeg ville sagt, "Vel, du har nesten rett, forskjellen mellom f (x) = 1 og den her
+
+00:47.944 --> 00:57.638
+er at denne er udefinert når x = 1. Så hvis du sier - la meg skrive det over her - hvis du har
+
+00:57.653 --> 01:07.267
+f(1), hva skjer da? I telleren får du (1-1), som er... jeg skriver det ned...
+
+01:07.267 --> 01:14.605
+i telleren får du 0, og i nevneren får du (1-1), som også er 0. Og noe delt
+
+01:14.605 --> 01:26.764
+på 0, som 0/0, er udefinert. Du kan forenkle brøken - du kan si at dette er
+
+01:26.764 --> 01:36.867
+det samme som f (x) = 1, men du må legge til at x ikke kan være lik 1. Nå er denne
+
+01:36.867 --> 01:43.133
+og denne ekvivalente. Begge disse er lik 1, for alle andre x enn 1. men
+
+01:43.133 --> 01:51.340
+ved x = 1, er den udefinert. Denne er ikke definert, og denne er udefinert. Så hvordan blir grafen til denne funksjonen?
+
+01:51.340 --> 02:10.496
+Så la meg tegne det... Det er min y=f(x)-akse, og denne her er min x-akse, og så la oss si at
+
+02:10.496 --> 02:22.799
+dette er punktet x = 1, dette er x = -1, dette er y = 1, opp her kan jeg tegne -1 men dette
+
+02:22.799 --> 02:28.267
+har liten betydning i forhold til denne funksjonen her, og la meg tegne den. Så den er egentlig for
+
+02:28.267 --> 02:42.600
+alle x ulik 1, f (x) = 1. Så den ser slik ut...unntatt for 1. På 1, er f(x) udefinert, så
+
+02:42.600 --> 02:47.800
+jeg tegner et lite gap her, denne sirkelen viser at denne funksjonen
+
+02:47.800 --> 02:52.400
+er ikke definert - vi vet ikke hva denne funksjonen er lik for 1, vi har ikke definert det.
+
+02:52.400 --> 03:00.333
+Denne definisjonen av funksjonen sier ikke hva som skjer for 1 - den er bokstavelig talt udefinert når x = 1.
+
+03:00.333 --> 03:09.113
+Så dette er denne funksjonen, og igjen, hvis noen skulle spørre deg hva f(1) er, ville du ...
+
+03:09.113 --> 03:14.467
+la oss si, vel dette var en funksjonsdefinisjon, du ville sette x = 1. Nei vent, det er et hull i funksjonen min
+
+03:14.467 --> 03:21.148
+her, den er ikke definert. Så la meg skrive det igjen... vel, det er kanskje overflødig, men jeg skal skrive det på ny.
+
+03:21.148 --> 03:30.313
+f(1) er ikke definert. Men hva om jeg spør deg, hva er funksjonen når x nærmer
+
+03:30.313 --> 03:44.708
+seg 1? Og nå begynner dette å nærme seg ideen om en grense. Så når x går nærmere og nærmere 1...
+
+03:44.708 --> 03:51.837
+hva nærmer funksjonen seg? Hele denne tiden, hva nærmer den seg mer og mer?
+
+03:51.837 --> 03:58.909
+På venstre side, når du kommer tett inntil 1, så lenge du ikke velger 1, blir f (x) = 1.
+
+03:58.909 --> 04:04.790
+Fra høyre side får du det samme. Så du kan si - og du blir
+
+04:04.790 --> 04:10.631
+mer og mer kjent med denne tankegangen når vi gjør flere oppgaver - at grensen når
+
+04:10.631 --> 04:24.933
+x (og lim, som er forkortelse for limit - grenseverdien) - når x går mot 1 for f (x) er lik...
+
+04:24.933 --> 04:29.311
+Når vi kommer nærme, vi kan komme utrolig, uendelig nær 1 så lenge vi ikke velger 1...
+
+04:29.311 --> 04:33.190
+Og vår funksjon blir lik 1, den kommer nærmere og nærmere 1,
+
+04:33.190 --> 04:39.684
+den er egentlig lik 1 hele tiden. Så i dette tilfellet kan vi si at grenseverdien når x går mot 1 for f (x)
+
+04:39.684 --> 04:45.395
+er lik 1. Så igjen, sier vi bare, "se, hva nørmer funksjonen seg
+
+04:45.395 --> 04:48.133
+når x går nærmere og nærmere 1?"
+
+04:48.133 --> 04:54.021
+La meg gjøre et annet eksempel der vi arbeider med en kurve, slik at du har den generelle ideen.
+
+04:54.021 --> 05:02.533
+Så la oss si at jeg har f (x den funksjonen) - la meg, bare for skyld for variasjon, la meg kalle det g(x).
+
+05:02.533 --> 05:09.852
+La oss si at vi har g(x) er lik - jeg kan definere det dette måten vi kan definere det som x ²
+
+05:09.852 --> 05:26.082
+Når x ikke er lik 2, og la oss si at når x = 2, det er lik 1. Så igjen, slags en interessant
+
+05:26.082 --> 05:34.133
+funksjonen - som du ser - ikke er fullt ut kontinuerlig. Den har en discontinuity. La meg graph det.
+
+05:34.133 --> 05:48.225
+Så dette min y=f(x)-aksen, dette er min x-aksen rett over her. La oss si at dette er x = 1, dette er x = 2,
+
+05:48.225 --> 06:01.825
+Dette er -1, er dette -2... Så overalt unntatt x = 2, den er lik x ². Så la meg trekke det sånn,
+
+06:01.825 --> 06:08.636
+Dette skal bli en Parabel, det ser ut noe sånt... Det er skal se noe...
+
+06:08.636 --> 06:18.308
+La meg trekke en bedre versjon av parabola. Så ser det omtrent slik ut, ikke de mest vakkert
+
+06:18.308 --> 06:24.341
+tegnede Parabel i historien til tegning parabler, men jeg tror det vil gi deg inntrykk av hva Parabel
+
+06:24.341 --> 06:32.991
+ser ut som, forhåpentligvis. Det skal være symmetrisk... La meg omtegne det, fordi det er ganske stygg.
+
+06:32.991 --> 06:38.467
+Som ser bedre, OK, OK, der du går. Alright.
+
+06:38.467 --> 06:48.867
+Nå, dette skal være diagram over bare x ², men det er ikke x ² når x = 2. Så igjen, når x = 2,
+
+06:48.867 --> 06:55.428
+Vi skal ha en liten bit av en discontinuity her, så jeg vil trekke et gap rett over der,
+
+06:55.428 --> 07:00.478
+fordi når x = 2, funksjonen er lik 1.
+
+07:00.478 --> 07:09.566
+Jeg gjør ikke dem på samme skala... På grafen av f (x) = x ² dette ville være 4, dette ville være 2,
+
+07:09.616 --> 07:23.547
+Dette ville være 1, vil dette være 3. I så fall x = 2, vår funksjon er lik 1.
+
+07:23.547 --> 07:27.856
+Så dette er litt av en bisarre funksjon, men du kan definere det på denne måten, kan du definere en funksjon men
+
+07:27.856 --> 07:36.667
+du liker å definere den! Og så, legge merke til, det er akkurat som grafisk fremstilling av f (x) = x² bortsett fra når du kommer til 2,
+
+07:36.667 --> 07:48.252
+Det har dette hullet, fordi du ikke bruker den "g (x) = x ² når x = 2", du bruker "g (x) = 1".
+
+07:48.252 --> 07:50.848
+Hvis jeg har å si f (x), beklager jeg.
+
+07:50.848 --> 08:04.914
+Du bruker g (x) = 1, så da bare nøyaktig klokken 2, den slippes ned til 1, og deretter det holder å gå langs x ².
+
+08:04.914 --> 08:11.241
+Så er det et par ting. Hvis jeg skulle bare evaluere funksjonen - g(2),
+
+08:11.241 --> 08:15.933
+Vel ser du på denne definisjonen. OK, når x = 2, jeg bruker denne situasjonen rett over her,
+
+08:15.933 --> 08:21.538
+og den forteller meg det kommer til å være lik 1. La meg spørre et mer interessant spørsmål, eller kanskje en mer
+
+08:21.538 --> 08:32.149
+interessant spørsmål. Hva er grensen når x går mot 2 g(x)? Nok en gang har lyst notasjon, men
+
+08:32.149 --> 08:38.502
+er det å spørre noe ganske ganske enkelt. Det sier "som x blir nærmere og nærmere 2...
+
+08:38.502 --> 08:42.240
+som du komme nærmere og nærmere - og dette ikke er en streng definisjon, vil vi gjøre det i fremtiden videoer-
+
+08:42.240 --> 08:52.979
+som x blir nærmere og nærmere til 2, hva er g(x) nærmer? Så hvis du kommer til 1,9 og 1.999 og deretter 1.999999
+
+08:52.979 --> 09:00.518
+og deretter 1.9999999, hva er g(x) nærmer seg? Hvis du var å gå fra positiv retning
+
+09:00.518 --> 09:06.656
+Hvis du skulle si 2.1, hva er g(2.1)? Hva er g(2.01)? Hva er g(2.001)?
+
+09:06.656 --> 09:09.995
+Hva er det nærmer seg som vi komme nærmere og nærmere det?
+
+09:09.995 --> 09:15.733
+Og du kan se den visuelt ved å tegne grafen. Som g kommer nærmere og nærmere 2...
+
+09:15.733 --> 09:20.518
+Og hvis vi skulle følge med grafen, ser vi at vi er nærmer seg 4,
+
+09:20.518 --> 09:26.545
+Selv om det er ikke der funksjonen er - faller funksjonen til 1 - grensen på g(x) som
+
+09:26.545 --> 09:33.405
+x tilnærminger 2 er lik 4. Du kan selv gjøre dette numerisk ved hjelp av en kalkulator.
+
+09:33.405 --> 09:39.907
+Og la meg gjøre det, fordi jeg tror det vil være interessant. Så la meg få en kalkulator ut...
+
+09:39.907 --> 09:49.041
+La meg få min tillitsverdig TI-85 ut... Så er her min Kalkulator... Og du kan numerisk sier:
+
+09:49.041 --> 09:57.995
+OK, hva er det skal tilnærming når du nærmer deg x = 2? Så la oss prøve 1,9. For x = 1,9, du ville bruke dette
+
+09:57.995 --> 10:05.549
+TOP-setningsdel, rett over her. Så du må 1.9², og så du ville få 3,61 tommer.
+
+10:05.549 --> 10:11.683
+Vel, hva hvis du får enda tettere til 2? Så 1.99, og igjen la meg firkantet som,
+
+10:11.683 --> 10:21.683
+Vel er jeg på 3,96. Hva om jeg gjøre 1.999 og jeg kvadrat som?
+
+10:21.683 --> 10:27.991
+Jeg skal få 3.996. Legg merke til, jeg får nærmere og nærmere og nærmere til vårt punkt.
+
+10:27.991 --> 10:37.546
+Hvis jeg fikk virkelig lukke - 1.999999999999²? Hva er jeg skal få til? Det er faktisk ikke kommer til å være
+
+10:37.546 --> 10:41.508
+nøyaktig 4 - denne kalkulatoren bare rundet ting opp - fordi vi skal fσ til et tall virkelig virkelig
+
+10:41.508 --> 10:47.456
+virkelig virkelig nær 4. Og vi kan gjøre noe fra positiv retning, også, og det faktisk
+
+10:47.456 --> 10:52.083
+må være det samme nummeret når vi nærmer oss fra den nedenfor, hva vi prøver å nærme seg,
+
+10:52.083 --> 11:00.702
+og over hva vi prøver å nærme seg. Så hvis vi prøver 2.1², får vi 4.4...
+
+11:00.702 --> 11:02.902
+La meg gå et par skritt videre...
+
+11:02.902 --> 11:09.256
+2.0001². Så dette er mye nærmere 2 nå. Nå får vi mye nærmere 4.
+
+11:09.256 --> 11:12.929
+Så nærmere vi komme til 2, nærmere det virker som vi får til 4.
+
+11:12.929 --> 11:20.333
+Så igjen det er numeriske måte av ser at grensen som x nærmer seg 2 fra begge retninger
+
+11:20.333 --> 11:25.000
+av g(x) - selv om rett ved 2, funksjonen er lik 1, fordi det er usammenhengende-
+
+11:25.000 --> 11:31.070
+grensen som vi nærmer 2, vi komme nærmere og nærmere og nærmere til 4.

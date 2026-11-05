@@ -1,0 +1,428 @@
+WEBVTT
+
+00:00.195 --> 00:02.752
+Vamos ver se conseguimos calcular
+a integral definida
+
+00:02.752 --> 00:06.996
+de zero para um de x elevado ao quadrado
+
+00:07.203 --> 00:13.331
+vezes dois elevado a x ao cubo, dx.
+
+00:13.596 --> 00:16.155
+E agora, eu recomendo a vocês
+pausar o vídeo
+
+00:16.155 --> 00:20.431
+e ver se conseguem resolver
+essa integral sozinhos.
+
+00:20.662 --> 00:22.508
+Espero que tenham tentado
+
+00:22.508 --> 00:24.206
+há coisas interessantes aqui.
+
+00:24.206 --> 00:26.115
+A primeira coisa que penso é
+
+00:26.115 --> 00:29.936
+estou acostumado a tomar a derivada
+e antiderivada de e elevado a x
+
+00:29.936 --> 00:31.631
+e não de outra base elevada a x.
+
+00:31.631 --> 00:36.293
+Sabemos que a derivada em relação a x
+de e elevado a x é e elevado a x,
+
+00:36.293 --> 00:39.630
+ou dizemos que a antiderivada de
+e elevado a x
+
+00:39.630 --> 00:43.848
+é igual a e elevado a x mais c.
+
+00:44.106 --> 00:47.608
+Então, como estamos tratando de
+algo elevado a ...
+
+00:47.608 --> 00:51.117
+neste caso específico, algo elevado a
+uma função de x,
+
+00:51.117 --> 00:54.999
+parece que eu gostaria de
+mudar a base aqui.
+
+00:54.999 --> 00:56.463
+Mas como eu faço isso?
+
+00:56.463 --> 01:00.639
+Bom, a forma que eu faria isso é
+reescrever dois em relação a e
+
+01:01.375 --> 01:03.257
+E o que seria dois em relação a e?
+
+01:03.257 --> 01:12.586
+Bem, dois é igual a e elevado a potência
+cujo resultado é dois.
+
+01:12.586 --> 01:16.378
+E qual potência de e
+obtém dois?
+
+01:16.378 --> 01:18.918
+Essa potência é o log natural de dois.
+
+01:18.918 --> 01:23.890
+Log natural de dois é a potência que
+deve elevar e para obter dois.
+
+01:23.890 --> 01:27.625
+Então, se você elevar e a isso,
+você terá dois.
+
+01:27.625 --> 01:29.717
+Então isto é o que dois é,
+
+01:29.717 --> 01:32.025
+agora o que é dois elevado a x ao cubo?
+
+01:32.025 --> 01:37.967
+Se elevamos ambos os lados por x ao cubo.
+
+01:38.191 --> 01:40.344
+Dois elevado a x ao cubo é igual a,
+
+01:40.344 --> 01:43.677
+se elevo algo a um expoente e então
+elevar isso a outro expoente,
+
+01:43.710 --> 01:45.554
+isso será igual a
+
+01:45.817 --> 01:56.208
+e elevado a x ao cubo vezes
+logaritmo natural de dois.
+
+01:56.208 --> 01:59.260
+Isso já parece interessante.
+
+01:59.260 --> 02:01.358
+Vamos reescrever isso.
+
+02:01.358 --> 02:04.820
+Vamos prestar atenção na integral
+indefinida primeiro e resolve-la.
+
+02:04.820 --> 02:08.480
+E então vamos avaliar a definida.
+
+02:08.901 --> 02:13.183
+Vamos pensar sobre a
+integral indefinida de
+
+02:13.183 --> 02:18.546
+x ao quadrado vezes dois elevado a
+x ao cubo, dx.
+
+02:18.546 --> 02:20.692
+Eu quero encontrar a antiderivada disso.
+
+02:20.692 --> 02:23.385
+Isso será a mesma coisa que
+
+02:23.385 --> 02:28.966
+a integral de, escreve-se
+x ao quadrado ainda
+
+02:28.966 --> 02:32.206
+ao invés de dois elevado a x ao cubo,
+escrevo todo esse negócio.
+
+02:32.206 --> 02:34.078
+Vou copiar e colar aqui.
+
+02:34.078 --> 02:36.594
+Nós já definimos que isso
+é a mesma coisa que
+
+02:36.594 --> 02:38.761
+dois elevado a x ao cubo.
+
+02:38.761 --> 02:42.955
+Substituindo aqui.
+
+02:43.139 --> 02:47.906
+E fecha-se com dx.
+
+02:48.725 --> 02:51.906
+Então, podemos ter a função
+com base e,
+
+02:51.906 --> 02:53.611
+isso é um pouco mais confortável,
+
+02:53.611 --> 02:55.217
+mas ainda parece complicado.
+
+02:55.217 --> 03:00.875
+Mas, pode-se dizer que uma substituição
+por u pode ser útil aqui!
+
+03:01.124 --> 03:06.474
+Porque temos essa expressão meio doida,
+x elevado cubo vezes log natural de dois.
+
+03:06.474 --> 03:08.016
+Mas qual é a derivada disso?
+
+03:08.016 --> 03:11.300
+Isso será igual a três x ao quadrado
+vezes log natural de dois,
+
+03:11.300 --> 03:14.032
+ou três vezes log natural de 2
+vezes x ao quadrado.
+
+03:14.032 --> 03:15.996
+Isso é uma constante vezes x ao quadrado.
+
+03:15.996 --> 03:17.934
+Nós já temos um x ao quadrado aqui,
+
+03:17.934 --> 03:22.389
+e talvez possamos trabalhar um pouco
+para ter uma constante também.
+
+03:22.934 --> 03:24.211
+Vamos pensar sobre isso.
+
+03:24.211 --> 03:28.034
+Se nós definirmos isso como u.
+
+03:28.622 --> 03:34.876
+u é igual a x ao cubo vezes
+log natural de dois.
+
+03:34.876 --> 03:36.654
+O que será du?
+
+03:36.654 --> 03:40.915
+du será igual a, como log natural de dois
+é apenas uma constante
+
+03:41.270 --> 03:45.867
+então, será três x ao quadrado
+vezes log natural de dois,
+
+03:45.867 --> 03:48.826
+nós podemos mudar a ordem em
+que estamos multiplicando.
+
+03:48.826 --> 03:55.782
+Ou seja, isso é o mesmo que x ao quadrado
+vezes três log natural de dois,
+
+03:55.944 --> 03:58.751
+o que é o mesmo que - usando
+as propriedades logaritimicas
+
+03:58.751 --> 04:03.605
+que x ao quadrado vezes log natural
+de dois elevado ao cubo.
+
+04:03.605 --> 04:07.288
+Três log natural de dois é a mesma coisa
+que log natural de dois ao cubo.
+
+04:07.425 --> 04:12.854
+Isso é igual a x ao quadrado vezes
+log natural de oito.
+
+04:13.528 --> 04:16.468
+Vejamos, se isso é igual a u, o que é du?
+
+04:16.468 --> 04:19.591
+E não podemos esquecer de dx.
+
+04:19.893 --> 04:25.598
+Isso é o dx bem aqui, dx, dx, dx.
+
+04:25.598 --> 04:27.360
+Onde está o du?
+
+04:27.360 --> 04:29.708
+Nós temos dx, vamos destacar aqui.
+
+04:29.885 --> 04:32.629
+Dx está aqui e aqui.
+
+04:32.629 --> 04:36.111
+Você tem x ao quadrado aqui e aqui.
+
+04:36.111 --> 04:40.757
+O que precisamos é de um
+log natural de oito.
+
+04:40.975 --> 04:44.519
+O ideal seria um log natural de oito aqui.
+
+04:44.800 --> 04:49.206
+E nós podemos multiplicar
+por log natural de oito
+
+04:49.206 --> 04:53.207
+desde que seja feita a divisão
+por log natural de oito.
+
+04:53.401 --> 04:58.879
+Podemos fazer isso bem aqui, divide-se
+sobre log natural de oito
+
+04:58.879 --> 05:02.598
+mas nós sabemos que a antiderivada de uma
+constante vezes uma função
+
+05:02.598 --> 05:06.156
+é a mesma coisa que uma constante da
+antiderivada daquela função.
+
+05:06.156 --> 05:08.314
+E nós podemos passar
+para fora da integral.
+
+05:08.314 --> 05:12.141
+Então é 1 dividido pelo log natural de 8.
+
+05:12.141 --> 05:15.191
+Escrevemos isso em termos de u e du.
+
+05:15.191 --> 05:29.620
+Simplifica-se para 1 dividido pelo ln de 8
+vezes a antiderivada de e elevado a u,
+
+05:29.687 --> 05:31.383
+Esse é u. du.
+
+05:31.742 --> 05:36.785
+Isso, vezes isso, vezes aquilo é du.
+
+05:36.785 --> 05:38.699
+E isso é bem direto.
+
+05:38.699 --> 05:40.746
+Nós sabemos resolver isso.
+
+05:40.746 --> 05:42.456
+Isso será igual a...
+
+05:42.456 --> 05:47.642
+Escrevemos 1 dividido pelo ln de 8 aqui
+
+05:47.642 --> 05:55.969
+vezes e elevado a u.
+
+05:55.969 --> 06:00.345
+E pensando em antiderivada teremos
+uma constante aqui.
+
+06:00.606 --> 06:04.854
+Então, nós revertemos a substituição,
+nós já sabemos o que u é.
+
+06:04.854 --> 06:08.426
+Isso será igual a antiderivada
+dessa expressão.
+
+06:08.525 --> 06:13.672
+É igual a 1 dividido pelo ln de 8
+vezes e elevado a,
+
+06:13.672 --> 06:19.124
+ao invés de u, sabemos que u é igual
+x ao cubo vezes log natural de dois,
+
+06:19.124 --> 06:21.614
+e colocamos mais a constante c aqui.
+
+06:21.953 --> 06:24.103
+Agora, nós voltamos para
+o problema original.
+
+06:24.103 --> 06:29.365
+Nós precisamos avaliar a antiderivada
+disso em cada um desses pontos.
+
+06:29.393 --> 06:32.781
+Vamos reescrever isso. Considerando
+o que descobrimos.
+
+06:32.781 --> 06:36.353
+(Vou copiar e colar isso.)
+
+06:36.575 --> 06:44.676
+Isso será igual a antiderivada
+calculada para um
+
+06:44.676 --> 06:46.873
+menos a antiderivada calculada para zero.
+
+06:46.873 --> 06:49.840
+Não preocupe-se com as constantes
+porque elas vão se cancelar.
+
+06:49.840 --> 06:55.975
+Assim teremos - vamos
+calcular primeiro em um.
+
+06:56.569 --> 07:05.086
+Assim teremos 1 dividido pelo ln de 8
+vezes e elevado a um ao cubo
+
+07:05.086 --> 07:06.183
+o que é um.
+
+07:06.183 --> 07:10.700
+Vezes o log natural de dois,
+é o que temos em um.
+
+07:10.700 --> 07:15.100
+E agora subtraímos o calculado para zero.
+
+07:15.100 --> 07:20.205
+Isso é 1 dividio pelo ln de 8
+vezes e elevado a,
+
+07:20.205 --> 07:25.310
+como x é igual a zero, tudo
+isso se torna zero
+
+07:25.310 --> 07:30.415
+Então, e elevado a zero é um enquanto
+e elevado a log natural de dois
+
+07:30.415 --> 07:32.065
+isso será igual a dois.
+
+07:32.065 --> 07:35.779
+Já vimos isso antes.
+Isto é igual a dois.
+
+07:35.779 --> 07:41.226
+Então ficamos com 2 dividido pelo ln 8
+menos 1 dividido pelo ln 8
+
+07:41.226 --> 07:47.312
+o que é igual a 1 dividido pelo ln de 8.
+
+07:47.753 --> 07:51.806
+E está resolvido.
+
+07:51.824 --> 07:53.000
+Legendado por [ Marcos Pereira ]
+Revisado por [Rodrigo Melges]

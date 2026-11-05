@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.000 --> 00:02.177
+Zkusme spočítat limitu:
+
+00:02.177 --> 00:10.835
+1 plus (odmocnina ze 2) krát sin(Θ) lomeno
+cos(2Θ) pro Θ jdoucí k -π lomeno 4.
+
+00:10.835 --> 00:14.425
+A jako vždycky si to zkuste sami
+předtím, než to uděláme společně.
+
+00:14.425 --> 00:18.827
+Můžeme to udělat třeba
+tak, že toto se rovná:
+
+00:18.827 --> 00:27.997
+limita pro Θ blížící se k (-π lomeno 4)
+z 1 plus (odmocnina ze 2) krát sin(Θ),
+
+00:27.997 --> 00:39.615
+to celé je vydělené limitou pro Θ
+blížící se k -π lomeno 4 z cos(2Θ).
+
+00:39.615 --> 00:43.014
+A oba tyto výrazy jsou…
+
+00:43.014 --> 00:45.513
+Když to byly předpisy
+funkcí a my dělali graf funkce:
+
+00:45.513 --> 00:54.151
+y se rovná 1 plus (odmocnina ze 2)
+krát sin(Θ) nebo y se rovná cos(Θ),
+
+00:54.151 --> 00:59.229
+dostali bychom spojité funkce, obzvláště
+v bodě Θ rovná se -π lomeno 4.
+
+00:59.229 --> 01:02.702
+Tak bychom prostě mohli dosadit.
+Podívejme se, čemu se tohle bude rovnat,
+
+01:02.702 --> 01:05.831
+tento výraz vyčíslený
+v bodě -π lomeno 4.
+
+01:05.831 --> 01:19.466
+1 plus (odmocnina ze 2) krát
+sin(-π lomeno 4) lomeno cos(-2π lomeno 4).
+
+01:19.466 --> 01:22.896
+minus π lomeno 4…
+
+01:22.896 --> 01:28.773
+sin (- π lomeno 4) je
+minus (odmocnina ze 2) lomená 2,
+
+01:28.773 --> 01:32.886
+takže tohle je minus
+(odmocnina ze 2) lomená 2.
+
+01:32.886 --> 01:36.836
+Předpokládáme, že jde o radiány,
+ve stupních by to bylo -45 stupňů,
+
+01:36.836 --> 01:41.100
+což je jeden z úhlů, jehož goniometrické
+hodnoty je dobré si pamatovat.
+
+01:41.100 --> 01:46.282
+Takže když máme…
+
+01:46.282 --> 01:51.664
+Tohle se bude rovnat
+1 plus (odmocnina ze 2) krát tohle,
+
+01:51.664 --> 01:55.340
+což je -2 lomeno 2,
+takže tady bude -1.
+
+01:55.340 --> 02:00.028
+To je náš čitatel.
+
+02:00.028 --> 02:02.971
+Celá tato část se
+zjednodušila na -1,
+
+02:02.971 --> 02:13.179
+kterou vydělíme
+cos(-π lomeno 2),
+
+02:13.179 --> 02:21.710
+cos(-π lomeno 2), což je
+-90 stupňů, kosinus toho je 0.
+
+02:21.710 --> 02:27.034
+Takže nám
+vyšlo 0 lomeno 0.
+
+02:27.034 --> 02:30.796
+A jak jsme si říkali dříve, kdybychom
+měli něco nenulového děleno 0,
+
+02:30.796 --> 02:33.233
+řekli bychom, že to je
+nedefinované, a jsme hotovi,
+
+02:33.233 --> 02:36.825
+ale zde máme neurčitý výraz,
+a to neznamená, že limita neexistuje.
+
+02:36.825 --> 02:39.913
+Obvykle nám to říká, že bychom měli
+použít nějakou z našich metod,
+
+02:39.913 --> 02:45.724
+například upravit tento výraz tak,
+aby byl definovaný v našem bodě Θ,
+
+02:45.724 --> 02:50.003
+nebo aby v bodě Θ rovno
+-π lomeno 4 nebyl neurčitý.
+
+02:50.003 --> 02:53.131
+V dalších videích si pak
+ukážeme jiné metody.
+
+02:53.131 --> 02:56.367
+Takže si toto nějak
+algebraicky upravme.
+
+02:56.367 --> 03:05.503
+Když mám 1 plus odmocnina
+ze 2 krát sin(Θ) lomeno cos(2Θ),
+
+03:05.503 --> 03:10.496
+tak jak si asi dokážete představit,
+užitečné mi budou goniometrické identity.
+
+03:10.496 --> 03:13.976
+Zejména cos(2Θ)
+vypadá zajímavě.
+
+03:13.976 --> 03:18.456
+Napišme si sem
+vzoreček pro cos(2Θ).
+
+03:18.456 --> 03:31.066
+Víme, že cos(2Θ) se rovná cos(Θ)
+na druhou minus sin(Θ) na druhou,
+
+03:31.066 --> 03:38.019
+což se rovná 1 minus 2 krát
+(sin(Θ) na druhou),
+
+03:38.019 --> 03:44.709
+a to se rovná 2 krát (cos(Θ)
+na druhou) minus 1.
+
+03:44.709 --> 03:49.550
+Tyto dvě rovnosti platí
+díky goniometrické jedničce,
+
+03:49.550 --> 03:54.217
+což jsme si ukázali již dříve v kurzu
+trigonometrie na Khan Academy.
+
+03:54.217 --> 03:56.367
+Vypadá některá
+z rovností užitečně?
+
+03:56.367 --> 03:59.545
+Všechny tři jsou ve tvaru
+rozdílu druhých mocnin,
+
+03:59.545 --> 04:01.855
+takže je můžeme
+rozložit na součin.
+
+04:01.855 --> 04:05.895
+A vlastně chceme dosáhnout
+toho, že se nám pokrátí výrazy,
+
+04:05.895 --> 04:08.895
+kvůli kterým nám
+vychází 0 děleno 0.
+
+04:08.895 --> 04:11.807
+Kdyby se mi tohle
+podařilo rozložit na součin,
+
+04:11.807 --> 04:14.405
+který by obsahoval 1 plus
+(odmocnina ze 2) krát sin(Θ),
+
+04:14.405 --> 04:16.015
+tak bych měl
+dobře nakročeno.
+
+04:16.015 --> 04:20.950
+A vypadá to, že tento
+výraz lze rozložit jako:
+
+04:20.950 --> 04:31.701
+1 plus odmocnina ze 2 krát sin(Θ)
+krát 1 minus odmocnina ze 2 krát sin(Θ).
+
+04:31.701 --> 04:33.063
+Takže použijme tohle.
+
+04:33.063 --> 04:39.633
+Cos(2Θ) je totéž co 1 minus
+2 krát (sin(Θ) to celé na druhou),
+
+04:39.633 --> 04:42.872
+což je jen rozdíl druhých mocnin,
+a tak to můžeme rozepsat,
+
+04:42.872 --> 04:44.802
+jako ‚a‘ na druhou
+minus ‚b‘ na druhou,
+
+04:44.802 --> 04:48.792
+jako (a plus b) krát
+(a minus b).
+
+04:48.792 --> 04:51.922
+Namísto tohohle tak
+mohu napsat jako:
+
+04:51.922 --> 05:02.248
+1 plus (odmocnina ze 2) krát sin(Θ)
+krát 1 minus (odmocnina ze 2) krát sin(Θ).
+
+05:02.248 --> 05:04.469
+Nyní můžeme vykrátit.
+
+05:04.469 --> 05:12.439
+Tohle můžeme navzájem
+pokrátit a výraz tak bude roven…
+
+05:12.439 --> 05:14.348
+Napíšeme si
+to jinou barvou.
+
+05:14.348 --> 05:15.908
+...tento výraz se rovná:
+
+05:15.908 --> 05:23.323
+v čitateli bude 1 a ve jmenovateli zbylo
+1 minus (odmocnina ze 2) krát sin(Θ).
+
+05:23.323 --> 05:26.778
+Aby se tyto výrazy
+skutečně rovnaly,
+
+05:26.778 --> 05:32.883
+tak kdyby šlo o předpisy dvou funkcí,
+měly by mít stejný definiční obor.
+
+05:32.883 --> 05:35.708
+Výraz vlevo,
+jak jsme už viděli,
+
+05:35.708 --> 05:39.794
+není definovaný pro Θ
+rovno -π lomeno 4,
+
+05:39.794 --> 05:42.540
+a tak aby tyto
+výrazy byly shodné,
+
+05:42.540 --> 05:44.648
+výraz vpravo tam také
+nesmí být definovaný.
+
+05:44.648 --> 05:47.338
+Vlastně i v dalších bodech,
+ale pro jednoduchost řekněme,
+
+05:47.338 --> 05:54.988
+že Θ se nerovná
+zápornému π lomeno 4.
+
+05:54.996 --> 06:00.366
+Představme si, že pracujeme na otevřeném
+intervalu okolo bodu -π lomeno 4,
+
+06:00.366 --> 06:02.197
+kdybychom chtěli
+být úplně přesní.
+
+06:02.197 --> 06:06.134
+Pro tento konkrétní
+případ řekněme,
+
+06:06.134 --> 06:09.796
+že vše provádíme na
+otevřeném intervalu.
+
+06:09.806 --> 06:22.547
+Na otevřeném intervalu
+mezi řekněme -1 a 1.
+
+06:22.547 --> 06:27.717
+Myslím, že to nám postačí,
+protože když máme π lomeno 4,
+
+06:27.717 --> 06:32.827
+tak po dosazení
+nedostaneme 0 děleno 0.
+
+06:32.827 --> 06:37.406
+Po dosazení π lomeno 4
+bude tento jmenovatel nulový,
+
+06:37.406 --> 06:43.071
+a i tento jmenovatel bude
+po dosazení π lomeno 4 nulový,
+
+06:43.071 --> 06:44.901
+poněvadž bychom
+dostali 1 minus 1.
+
+06:44.901 --> 06:48.531
+Takže myslím, že vše je v pořádku,
+když se omezíme na tento interval,
+
+06:48.531 --> 06:53.476
+a to nevadí, protože děláme limitu v bodě,
+který leží v tomto otevřeném intervalu.
+
+06:53.476 --> 06:54.981
+Teď se snažím
+být velmi přesný,
+
+06:54.981 --> 06:57.741
+protože vám to vysvětluji
+a je důležité být precizní,
+
+06:57.741 --> 06:59.781
+ale když byste
+to řešili v testu,
+
+06:59.781 --> 07:05.751
+nezabývali byste se tolik se
+psaním takových detailů.
+
+07:05.751 --> 07:11.281
+Takže zatím jsme si
+rozmysleli, že tento výraz…
+
+07:11.281 --> 07:22.130
+Podívejme se na limitu pro Θ jdoucí
+k -π lomeno 4 z tohoto výrazu bez omezení,
+
+07:22.130 --> 07:28.204
+tedy z 1 lomeno 1 minus
+(odmocnina ze 2) krát sin(Θ).
+
+07:28.204 --> 07:31.730
+Když s tímto pracujeme na
+tomto otevřeném intervalu…
+
+07:31.730 --> 07:34.380
+Vlastně počkat, tohle
+nemusíme brát v potaz.
+
+07:34.380 --> 07:43.450
+Tento výraz je spojitý, je definovaný a
+spojitý v bodě Θ rovno -π lomeno 4.
+
+07:43.450 --> 07:53.260
+Takže toto se bude rovnat 1 lomeno 1 minus
+(odmocnina ze 2) krát sin(-π lomeno 4).
+
+07:53.260 --> 07:58.236
+Sin(-π lomeno 4).
+
+07:58.236 --> 08:03.628
+Už jsme viděli, že sin(-π lomeno 4)
+se rovná minus (odmocnina ze 2) lomená 2.
+
+08:03.628 --> 08:11.930
+Tohle bude 1 lomeno 1 minus (odmocnina ze
+2) krát minus (odmocnina ze 2 lomená 2).
+
+08:11.930 --> 08:14.288
+Minus krát
+minus je plus,
+
+08:14.288 --> 08:17.938
+odmocnina ze 2 krát odmocnina ze 2
+je 2, a to dělíme 2, takže tohle bude 1.
+
+08:17.938 --> 08:20.908
+Celý výraz se tak
+rovná jedné polovině.
+
+08:20.908 --> 08:23.446
+Rád bych, aby to
+bylo úplně jasné.
+
+08:23.446 --> 08:28.498
+Tento výraz není
+to samé co tento výraz.
+
+08:28.498 --> 08:31.248
+Rovnají se pro
+všechny hodnoty Θ,
+
+08:31.248 --> 08:33.771
+obzvláště když pracujeme
+na tomto otevřeném intervalu,
+
+08:33.771 --> 08:37.018
+kromě bodu Θ
+rovno -π lomeno 4.
+
+08:37.018 --> 08:40.328
+Horní výraz zde není
+definovaný, zatímco dolní ano.
+
+08:40.328 --> 08:42.398
+Ale jak už jsme
+několikrát viděli,
+
+08:42.398 --> 08:53.088
+když najdeme funkci, která se rovná našemu
+výrazu ve všech bodech Θ kromě bodu,
+
+08:53.088 --> 08:56.032
+ve kterém původní
+výraz nebyl definovaný,
+
+08:56.032 --> 08:59.468
+a tato nová funkce je v tomto
+bodě definovaná a spojitá,
+
+08:59.468 --> 09:02.698
+tak se tyto dvě
+limity budou rovnat.
+
+09:02.698 --> 09:06.879
+Pokud je tato limita rovna jedné polovině,
+tak je i tato limita rovna jedné polovině.
+
+09:06.879 --> 09:11.318
+Už jsem říkal v předchozích videích, že
+vás může svádět algebraicky upravit tohle,
+
+09:11.318 --> 09:14.368
+aby vyšlo tohle, přičemž vás
+nebude zajímat toto omezení,
+
+09:14.368 --> 09:17.151
+a pak dosadit
+minus π lomeno 4,
+
+09:17.151 --> 09:20.108
+načež dostanete tento výsledek,
+což je správná odpověď.
+
+09:20.108 --> 09:26.248
+Je ale důležité si uvědomit,
+že tyto dva výrazy nejsou to samé.
+
+09:26.248 --> 09:30.508
+Tuto úpravu nám
+umožňuje ten fakt,
+
+09:30.508 --> 09:36.628
+že když máme
+dvě funkce f a g,
+
+09:36.628 --> 09:53.808
+dvě funkce rovnající se ve
+všech bodech x kromě 'a',
+
+09:53.808 --> 09:56.278
+tak je limita…
+
+09:56.278 --> 09:57.698
+A já to raději napíšu takto.
+
+09:57.698 --> 10:09.720
+Rovnající se ve všech bodech
+x kromě ‚a‘ a f je v bodě ‚a‘ spojitá,
+
+10:09.720 --> 10:20.778
+potom limita z funkce f pro x blížící se k
+‚a‘ rovna limitě g pro x blížící se k ‚a‘.
+
+10:20.778 --> 10:23.698
+Tohle už jsem říkal v několika
+videích a používáme to i tady.
+
+10:23.698 --> 10:26.961
+Ale jen abyste si mohli být
+jistí, že to máte správně,
+
+10:26.961 --> 10:30.021
+výsledek je jedna polovina.

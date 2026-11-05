@@ -1,0 +1,217 @@
+WEBVTT
+
+00:00.580 --> 00:04.900
+No ultimo vídeo, encontramos a inclinação num ponto particular da
+
+00:04.900 --> 00:07.035
+curva Y igual a x ao quadrado.
+
+00:07.035 --> 00:09.700
+Mas vamos ver se podemos generalizar isso e descobrir
+
+00:09.700 --> 00:12.780
+uma fórmula que encontre a inclinação em qualquer ponto da
+
+00:12.780 --> 00:15.350
+curva y igual a x ao quadrado.
+
+00:15.350 --> 00:18.000
+Então, deixe-me redesenhar minha função aqui.
+
+00:18.000 --> 00:21.720
+Nunca machuca ter um bom desenho.
+
+00:21.720 --> 00:24.530
+Então esse é o meu eixo y.
+
+00:24.530 --> 00:28.420
+Esse é o meu eixo x bem ali.
+
+00:28.420 --> 00:29.580
+Meu eixo x.
+
+00:29.580 --> 00:30.670
+Deixe-me desenhar a minha curva.
+
+00:30.670 --> 00:32.900
+Parece algo assim.
+
+00:32.900 --> 00:34.210
+Vocês viram isso várias vezes.
+
+00:34.210 --> 00:37.970
+Isso é y igual a x ao quadrado.
+
+00:37.970 --> 00:39.740
+Então, vamos ser bem gerais agora.
+
+00:39.740 --> 00:42.600
+Lembre-se, se nós queremos encontrar -- deixe-me só escrever a
+
+00:42.600 --> 00:44.600
+definição de nossa derivada.
+
+00:44.600 --> 00:48.450
+Então nós temos um ponto bem aqui -- vamos chamá-lo de x.
+
+00:48.450 --> 00:49.630
+Então, nós queremos ser bem gerais.
+
+00:49.630 --> 00:52.470
+Nós queremos encontrar a inclinação no ponto x.
+
+00:52.470 --> 00:55.190
+Nós queremos encontrar uma função na qual você me dá um x
+
+00:55.190 --> 00:57.010
+e eu te digo a inclinação naquele ponto.
+
+00:57.010 --> 00:59.800
+Nós vamos chamar isso de f linha de x.
+
+00:59.800 --> 01:06.210
+Isso vai ser a derivada de f(x).
+
+01:06.210 --> 01:09.830
+Mas tudo o que isso faz é, olhe, f(x)-- é uma função
+
+01:09.830 --> 01:12.670
+que você fornece um valor de x, e ela te diz o valor disso.
+
+01:12.670 --> 01:14.810
+E nós desenhamos a curva aqui.
+
+01:14.810 --> 01:19.470
+Com f(x), você fornece aquele mesmo x, mas ela não vai te dizer
+
+01:19.470 --> 01:21.050
+o valor da curva.
+
+01:21.050 --> 01:22.760
+Ela não vai te dizer, oh, esse é o seu f(x).
+
+01:22.760 --> 01:24.855
+Ela vai te dar o valor da inclinação
+
+01:24.855 --> 01:26.280
+da curva naquele ponto.
+
+01:26.280 --> 01:28.790
+Então, f(x), se você colocá-lo naquela função, ela deve te dizer
+
+01:28.790 --> 01:31.540
+ah, a inclinação naquele ponto, é igual a, você sabe,
+
+01:31.540 --> 01:33.360
+se você colocar 3 ali, você vai dizer, ah, a inclinação ali
+
+01:33.360 --> 01:34.220
+é igual a 6.
+
+01:34.220 --> 01:35.590
+Nós vimos isso no último exempo.
+
+01:35.590 --> 01:37.410
+Então é isso que nós queremos fazer.
+
+01:37.410 --> 01:40.600
+E nós vimos no último -- eu acho que foi 2 vídeos atras
+
+01:40.600 --> 01:47.130
+que nós definimos f linha de x igual a -- só o --
+
+01:47.130 --> 01:48.470
+bem, eu vou escrever desse jeito.
+
+01:48.470 --> 01:51.210
+É a inclinação da reta secante entre x e algum
+
+01:51.210 --> 01:53.540
+ponto que está um pouco afastado de x.
+
+01:53.540 --> 01:56.640
+Então a inclinação da reta secante é o delta y.
+
+01:56.640 --> 02:00.940
+Então é o valor de y do ponto que está
+
+02:00.940 --> 02:02.290
+um pouco afastado de x.
+
+02:02.290 --> 02:07.630
+Então, f(x) mais h menos o valor de y em x, certo?
+
+02:07.630 --> 02:08.600
+Porque isso está bem aqui.
+
+02:08.600 --> 02:11.200
+Isso é f(x).
+
+02:11.200 --> 02:13.820
+Então menos f(x).
+
+02:13.820 --> 02:15.830
+Tudo isso sobre delta x
+
+02:15.830 --> 02:19.620
+Então se isso é x mais h aqui, delta x é
+
+02:19.620 --> 02:21.740
+x mais h menos x.
+
+02:21.740 --> 02:23.470
+Ou essa distância aqui é só h.
+
+02:23.470 --> 02:26.830
+O delta x vai ser igual a h.
+
+02:26.830 --> 02:29.150
+Então isso é só a inclinação da reta secante, entre
+
+02:29.150 --> 02:31.240
+dois pontos quaisquer.
+
+02:31.240 --> 02:33.880
+E nós dissemos, hey, nós poderiamos encontrar a inclinação da reta tangente
+
+02:33.880 --> 02:36.390
+se nós simplesmente pegássemos o limite disso se aproximando
+
+02:36.390 --> 02:40.060
+por h tender a 0
+
+02:40.060 --> 02:42.930
+Aí iremos achar a inclinação da reta tangente
+
+02:42.930 --> 02:48.060
+Agora vamos aplicar essa ideia a uma função particular, f de
+
+02:48.060 --> 02:49.970
+x é igual a x ao quadrado
+
+02:49.970 --> 02:52.430
+Ou y é igual a x ao quadrado
+
+02:52.430 --> 02:55.800
+então aqui, poderíamos ter esse ponto, poderíamos considerar que
+
+02:55.800 --> 02:58.910
+isso seja o ponto x, x ao quadrado
+
+02:58.910 --> 03:01.380
+Então f de x é somente igual a x ao quadrado
+
+03:01.380 --> 03:05.040
+E esse seria o ponto, deixe-me fazer em
+
+03:05.040 --> 03:07.140
+uma cor mais vibrante
+
+03:07.140 --> 03:11.510
+Esse é o ponto x mais h - esse ponto aqui
+
+03:11.510 --> 03:13.040
+é um pouquinho mais abaixo
+
+03:13.040 --> 03:14.770
+Então x mais h ao quadrado

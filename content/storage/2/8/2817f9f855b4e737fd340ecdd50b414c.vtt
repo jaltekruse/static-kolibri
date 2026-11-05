@@ -1,0 +1,423 @@
+WEBVTT
+
+00:00.680 --> 00:04.500
+Digamos que eu tenho um
+fio de 100 metros de comprimento.
+
+00:04.500 --> 00:07.230
+Este aqui é meu fio.
+
+00:07.230 --> 00:09.850
+E ele tem 100 metros de comprimento.
+
+00:09.850 --> 00:14.270
+Eu vou fazer um corte
+em algum ponto neste fio.
+
+00:14.270 --> 00:17.180
+Então, digamos que eu
+faça o corte bem aqui.
+
+00:17.180 --> 00:18.760
+Com o lado esquerdo
+do fio -- obviamente
+
+00:18.760 --> 00:21.760
+vou cortar o fio em
+dois -- com o lado esquerdo,
+
+00:21.760 --> 00:24.185
+vou construir um
+triângulo equilátero.
+
+00:27.250 --> 00:30.575
+E com o lado direito,
+desenharei um quadrado.
+
+00:33.670 --> 00:36.250
+A minha pergunta para
+vocês e para mim é,
+
+00:36.250 --> 00:39.230
+onde devemos fazer
+este corte de forma
+
+00:39.230 --> 00:43.440
+a minimizar a área
+combinada deste triângulo
+
+00:43.440 --> 00:46.620
+com este quadrado?
+
+00:46.620 --> 00:47.730
+Bem, vamos descobrir.
+
+00:47.730 --> 00:50.240
+Vamos descobrir uma variável
+que desejamos minimizar,
+
+00:50.240 --> 00:53.770
+ou que estejamos
+tentando otimizar.
+
+00:53.770 --> 00:57.350
+Digamos que a variável
+x é o número de metros
+
+00:57.350 --> 00:59.180
+que decidimos
+cortar da esquerda.
+
+00:59.180 --> 01:02.750
+Se fazemos isto, então o
+comprimento deste triângulo
+
+01:02.750 --> 01:05.880
+seria x metros, e o comprimento
+para o quadrado
+
+01:05.880 --> 01:09.500
+seria, se decidirmos que
+o lado esquerdo mede x,
+
+01:09.500 --> 01:14.505
+teremos 100 menos x
+do lado direito.
+
+01:14.505 --> 01:17.760
+Então, quais seriam as dimensões
+do triângulo e do quadrado?
+
+01:17.790 --> 01:23.220
+Bem, os lado do triângulo
+medirão x sobre três, x sobre três
+
+01:23.220 --> 01:26.090
+e x sobre três, uma vez
+que este triângulo é equilátero.
+
+01:26.090 --> 01:32.260
+E o quadrado será
+100 menos x sobre quatro
+
+01:32.260 --> 01:36.690
+por 100 menos x sobre quatro.
+
+01:36.690 --> 01:38.810
+Agora é fácil de expressarmos
+
+01:38.810 --> 01:42.470
+a área do quadrado em
+termos de x.
+
+01:42.470 --> 01:45.290
+Porém, vamos pensar
+qual deve ser a área do triângulo
+
+01:45.290 --> 01:48.800
+como função do comprimento
+de seus lados.
+
+01:48.800 --> 01:51.440
+Então deixe-me fazer um
+pequeno parênteses bem aqui.
+
+01:51.440 --> 01:53.575
+Digamos que temos
+um triângulo equilátero.
+
+01:57.500 --> 01:58.350
+Com esta forma.
+
+01:58.350 --> 02:02.950
+E seus lados medem
+s, s e s.
+
+02:02.950 --> 02:07.130
+Agora sabemos que a área
+do triângulo
+
+02:07.130 --> 02:14.010
+é 1/2 vezes a base,
+vezes a sua altura.
+
+02:14.010 --> 02:15.510
+Neste caso, podemos
+considerar a
+
+02:15.510 --> 02:18.400
+altura como a altitude, se
+determinarmos a altitude
+
+02:18.400 --> 02:19.460
+desta forma.
+
+02:19.460 --> 02:23.510
+Este comprimento aqui,
+este é a altura.
+
+02:23.510 --> 02:26.410
+E isto seria perpendicular,
+desta forma.
+
+02:26.410 --> 02:34.240
+Então nossa área será igual
+a 1/2 vezes a base s.
+
+02:34.240 --> 02:39.320
+1/2 vezes s vezes qualquer que
+seja esta nossa altura, vezes nossa altura.
+
+02:39.320 --> 02:43.940
+Como podemos expressar
+h em função de s?
+
+02:43.940 --> 02:46.430
+Bem, para fazer isto
+temos de lembrar que
+
+02:46.430 --> 02:52.540
+o que desenhamos bem aqui
+é um triângulo retângulo.
+
+02:52.540 --> 02:56.480
+Ou seja, metade de um
+triângulo equilátero.
+
+02:56.480 --> 03:00.840
+E sabemos quanto vale o
+lado debaixo deste triângulo retângulo.
+
+03:00.840 --> 03:03.980
+Esta altitude divide
+este lado exatamente em dois.
+
+03:03.980 --> 03:07.190
+Então este lado tem dimensão
+igual a s sobre 2.
+
+03:07.190 --> 03:09.020
+Então, para sabermos quanto
+vale h, devemos simplesmente
+
+03:09.020 --> 03:10.830
+usar o Teorema de Pitágoras.
+
+03:10.830 --> 03:16.825
+Nós teríamos h ao quadrado
+mais s sobre dois ao quadrado,
+
+03:16.825 --> 03:18.980
+que será igual
+ao quadrado da hipotenusa,
+
+03:18.980 --> 03:22.240
+ou seja, igual a s ao quadrado.
+
+03:22.240 --> 03:26.090
+Teríamos, então, h ao quadrado
+mais s ao quadrado sobre quatro
+
+03:26.090 --> 03:27.760
+igual a s ao quadrado.
+
+03:27.760 --> 03:30.450
+Subtraindo-se s ao quadrado
+sobre quatro em ambos os lados,
+
+03:30.450 --> 03:37.082
+teremos h ao quadrado igual a s ao
+quadrado menos s ao quadrado sobre quatro.
+
+03:37.082 --> 03:38.970
+Para fazer isto, posso
+chamar isto de s ao quadrado...
+
+03:38.970 --> 03:43.170
+Posso chamar isto de 4s ao
+quadrado sobre quatro,
+
+03:43.170 --> 03:45.120
+apenas para chegar em
+um denominador comum.
+
+03:45.120 --> 03:48.330
+E 4s ao quadrado menos
+s ao quadrado sobre quatro
+
+03:48.330 --> 03:52.150
+será igual a 3s ao quadrado
+sobre quatro.
+
+03:52.150 --> 03:56.010
+Chegamos a h ao quadrado é
+igual a 3s ao quadrado sobre quatro.
+
+03:56.010 --> 03:58.890
+Podemos agora tomar
+a raíz principal de cada lado,
+
+03:58.890 --> 04:00.790
+e chegamos a h igual
+à raíz quadrada
+
+04:00.790 --> 04:04.230
+de três vezes s sobre dois.
+
+04:04.230 --> 04:07.140
+Podemos agora apenas
+substituir de volta bem aqui
+
+04:07.140 --> 04:09.960
+e conseguimos
+nossa área.
+
+04:09.960 --> 04:13.900
+A área será igual a
+1/2 vezes s vezes h.
+
+04:13.900 --> 04:15.020
+h é esta dimensão aqui.
+
+04:15.020 --> 04:16.779
+Então é s vezes isto.
+
+04:16.779 --> 04:23.590
+Temos 1/2 vezes s vezes a raíz quadrada
+de três vezes s sobre dois, que
+
+04:23.590 --> 04:26.260
+será igual a -- s vezes s --,
+ou seja, s ao quadrado.
+
+04:26.260 --> 04:28.230
+Então esta será a raíz
+quadrada de três vezes
+
+04:28.230 --> 04:32.630
+s ao quadrado sobre, dois
+vezes dois, quatro.
+
+04:32.630 --> 04:35.090
+Então esta é a área de
+um triângulo equilátero
+
+04:35.090 --> 04:38.371
+como função do comprimento
+de seus lados.
+
+04:38.371 --> 04:40.370
+Qual será então a área
+desta figura?
+
+04:40.370 --> 04:42.470
+A área de nosso triângulo
+equilátero --
+
+04:42.470 --> 04:44.110
+deixe-me escrever como
+uma área combinada.
+
+04:44.110 --> 04:46.100
+E vou fazê-lo
+em uma cor neutra.
+
+04:46.100 --> 04:48.720
+Vou escrever em branco.
+
+04:48.720 --> 04:51.370
+A área combinada, escreverei como
+
+04:51.370 --> 04:57.700
+A subíndice c, é igual a
+área de meu triângulo
+
+04:57.700 --> 05:03.910
+A subíndice t mais a
+área do meu quadrado.
+
+05:03.910 --> 05:07.087
+A área de meu triângulo já
+sabemos qual será.
+
+05:07.087 --> 05:09.170
+Será a raíz quadrada de três
+vezes o comprimento
+
+05:09.170 --> 05:11.370
+de um lado ao quadrado,
+dividido por quatro.
+
+05:11.370 --> 05:13.150
+Então será a raíz quadrada de três.
+
+05:13.150 --> 05:16.050
+Deixe-me escrever isto
+em amarelo.
+
+05:16.050 --> 05:19.920
+Ele será -- vou me assegurar que
+troquei de cores.
+
+05:19.920 --> 05:24.900
+Será raíz quadrada de três sobre quatro
+vezes o lado ao quadrado,
+
+05:24.900 --> 05:33.350
+vezes x sobre três, ao quadrado.
+
+05:33.350 --> 05:36.356
+Tudo que eu fiz foi dizer que
+o comprimento de um lado é x sobre três.
+
+05:36.356 --> 05:37.730
+Nós já sabemos
+qual é a área.
+
+05:37.730 --> 05:39.380
+É a raíz quadrada de três
+sobre quatro vezes
+
+05:39.380 --> 05:41.155
+o comprimento de um lado
+ao quadrado.
+
+05:43.590 --> 05:45.930
+Então, a área deste
+quadrado bem aqui,
+
+05:45.930 --> 05:47.880
+a área do quadrado,
+
+05:47.880 --> 05:55.320
+será igual a 100 menos x
+sobre quatro, ao quadrado.
+
+05:55.320 --> 05:57.840
+Nossa área, nossa área
+combinada -- e talvez eu
+
+05:57.840 --> 05:59.590
+possa escrever desta forma --
+nossa área combinada
+
+05:59.590 --> 06:03.800
+como função de onde fazemos
+o corte é dado por
+
+06:03.800 --> 06:05.090
+esta expressão aqui.
+
+06:05.090 --> 06:09.400
+E isto é o que desejamos minimizar.
+
+06:09.400 --> 06:15.670
+Precisamos minimizar
+isto bem aqui.
+
+06:15.670 --> 06:17.167
+E eu farei isto no próximo vídeo.
+
+06:17.167 --> 06:18.480
+Legendado por [Bernardo Blasi Villari]
+Revisado por [Khallil Fernandes]

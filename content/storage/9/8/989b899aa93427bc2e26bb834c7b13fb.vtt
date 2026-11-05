@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.000 --> 00:03.485
+Diyelim ki şöyle bir belirsiz integralimiz var ve fonksiyonumuz 3 x kare artı 2 x çarpı e üzeri x küp artı x kare, d x.
+
+00:03.485 --> 00:18.636
+-
+
+00:18.636 --> 00:22.756
+Bunu nasıl çözeriz? İlk baktığımızda çok karmaşık bir integrale benziyor; buradaki polinom bir üstel ifadeyle çarpılmış ve buradaki üs de ayrı bir polinom. Biraz çılgın bir integral.
+
+00:22.756 --> 00:27.102
+-
+
+00:27.102 --> 00:31.825
+-
+
+00:31.825 --> 00:36.172
+-
+
+00:36.172 --> 00:42.403
+Buradaki esas fikir, kullanmanız gereken teknik, yerine koyma yöntemidir.
+
+00:42.403 --> 00:50.163
+Birazdan size yerine koyma yöntemini nasıl fark edeceğinizi anlatacağım.
+
+00:50.163 --> 00:53.573
+Zamanla bu yöntemi aklınızdan da uygulayabileceksiniz.
+
+00:53.573 --> 00:59.498
+Yerine koyma yöntemi aslında zincir kuralının tersidir.
+
+00:59.498 --> 01:03.767
+Bu yöntemin mantığını bir başka videoda daha derinlemesine işleyeceğim.
+
+01:03.767 --> 01:09.172
+Şimdi ben şöyle düşünüyorum, burada bu garip üs var.
+
+01:09.172 --> 01:16.895
+x küp artı x kare. Ve şuradaki ifade de x küp artı x karenin türevi.
+
+01:16.895 --> 01:23.486
+x küpün türevi 3 x kare; x karenin türevi 2 x.
+
+01:23.486 --> 01:27.822
+Bu da yerine koyma yöntemini kullanmam yönünde bana büyük bir ipucu veriyor.
+
+01:27.822 --> 01:33.047
+Yani türevini çarpımda gördüğüm ifadeye u diyorum. Buna göre, "u eşittir x küp artı x kare" diyebilirim.
+
+01:33.047 --> 01:43.044
+-
+
+01:43.044 --> 01:46.903
+O zaman u'nun x'e göre türevi nedir?
+
+01:46.903 --> 01:56.887
+Bunu defalarca yaptık. d u d x eşittir 3x kare artı 2 x, bunu diferansiyel olarak da yazabiliriz. Aslında d u d x bir kesir değildir, bu bir notasyondur.
+
+01:56.887 --> 02:03.497
+-
+
+02:03.497 --> 02:08.700
+-
+
+02:08.700 --> 02:12.372
+Ama bunu kesir olarak işleme sokmak genelde faydalıdır.
+
+02:12.372 --> 02:16.500
+Bunu şöyle görebilirsiniz, d u'yu tek başına bırakmak isterseniz, bunu diferansiyel olarak ifade etmek isterseniz, x'in belli bir değişimi için u'nun değişimi nedir diye düşünürsünüz.
+
+02:16.500 --> 02:21.980
+-
+
+02:21.994 --> 02:32.771
+İki tarafı d x ile çarparsınız. Bunu kesir gibi düşünürsek, diferansiyel şekliyle d u eşittir 3 x kare artı 2 x d x elde ederiz.
+
+02:32.771 --> 02:35.856
+-
+
+02:35.856 --> 02:49.103
+-
+
+02:49.103 --> 02:54.350
+Şimdi bunları bulmak zahmetine neden girdim?
+
+02:54.350 --> 03:01.171
+Burada 3 x kare artı 2 x çarpı d x görüyorum.
+
+03:01.171 --> 03:08.695
+Bu orijinal integrali 3 x kare artı 2 x çarpı d x çarpı e üzeri x küp artı x kare olarak yazabilirim.
+
+03:08.695 --> 03:20.196
+-
+
+03:20.196 --> 03:28.891
+Şimdi buradaki ilginç olay, mor ile yazdığım ifadenin d u'ya eşit olması.
+
+03:28.891 --> 03:35.771
+-
+
+03:35.771 --> 03:41.561
+Ve şu yukarıdaki ifade, x küp artı x kare de u'ya eşit.
+
+03:41.561 --> 03:46.169
+Bu, u'ya eşit. İntegrali baştan yazınca yöntemin integrali nasıl sadeleştirdiğini göreceksiniz.
+
+03:46.169 --> 03:49.700
+-
+
+03:49.700 --> 03:53.222
+Sırayı değiştiriyorum, bu d u'yu şu tarafa koyuyorum.
+
+03:53.222 --> 03:57.297
+-
+
+03:57.297 --> 04:01.704
+Böylece belirsiz integrallerde görmeye alıştığımız standart forma daha uygun olarak ifade ediyorum.
+
+04:01.704 --> 04:15.495
+d u çarpı e üzeri u.
+
+04:15.495 --> 04:20.892
+Peki, bunun u cinsinden terstürevi nedir?
+
+04:20.892 --> 04:25.958
+e üzeri u'nun türevi e üzeri u'dur, öyleyse e üzeri u'nun terstürevi e üzeri u'dur.
+
+04:25.958 --> 04:32.412
+Yani cevap e üzeri u olacak. Bir de burada bir sabit olabilir. Onu da yazayım. Artı C. Şimdi cevabı x cinsinden ifade etmek için, u yerine x'li ifadeyi koymamız lazım. u'nun neye eşit olduğunu biliyoruz.
+
+04:32.425 --> 04:38.292
+-
+
+04:38.292 --> 04:43.096
+-
+
+04:43.096 --> 04:47.030
+e üzeri, u yerine x küp artı x kare yazarız. Ve artı C'yi koyarız. Cevabı bulduk.
+
+04:47.030 --> 05:00.349
+-
+
+05:00.349 --> 05:04.084
+Terstürevi bulmuş olduk. Bunun türevini almanızı tavsiye ederim ve zincir kuralını kullanmak durumunda kalacaksınız. Ve başlangıçtaki fonksiyonu elde edeceksiniz.
+
+05:04.084 --> 05:08.084
+-

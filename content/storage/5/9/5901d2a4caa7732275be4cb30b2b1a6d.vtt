@@ -1,0 +1,239 @@
+WEBVTT
+
+00:00.117 --> 00:01.594
+Từ các video trước, chúng ta biết rằng
+
+00:01.594 --> 00:04.575
+đạo hàm theo X
+
+00:04.575 --> 00:08.408
+của log tự nhiên của X, bằng 1 trên X.
+
+00:12.350 --> 00:14.718
+Điều mình muốn làm trong video này là sử dụng kiến ​​thức
+
+00:14.718 --> 00:17.031
+mà chúng ta đã thấy trong các video khác để tìm ra
+
+00:17.031 --> 00:19.929
+đạo hàm theo X là logarit
+
+00:19.929 --> 00:23.412
+của một cơ số tùy ý.
+
+00:23.412 --> 00:27.162
+Vì vậy, mình sẽ gọi log đó, là cơ số A của X.
+
+00:30.517 --> 00:32.328
+Vậy làm thế nào để chúng ta tìm ra điều này?
+
+00:32.328 --> 00:35.198
+Điều quan trọng là, là những gì bạn có thể quen thuộc
+
+00:35.198 --> 00:37.566
+từ đại số hoặc các lớp giải tích trước của bạn,
+
+00:37.566 --> 00:40.186
+đang có sự thay đổi cơ số.
+
+00:40.186 --> 00:43.306
+Vì vậy, nếu mình có một số, mình sẽ làm ở đây,
+
+00:43.306 --> 00:47.597
+log, cơ số A của B và mình muốn thay đổi nó
+
+00:47.597 --> 00:49.436
+nó thành một cơ số khác, giả sử mình muốn thay đổi nó
+
+00:49.436 --> 00:53.603
+thành cơ số C, điều này giống với log, cơ số C của B
+
+00:56.430 --> 00:58.763
+chia cho log, cơ số C của A.
+
+01:04.065 --> 01:08.050
+Log, cơ số C của B, chia cho log, cơ số C của A.
+
+01:08.050 --> 01:09.777
+Đây là một thứ thực sự hữu ích nếu bạn chưa từng thấy
+
+01:09.777 --> 01:11.700
+nó trước đây, bây giờ bạn mới thấy nó,
+
+01:11.700 --> 01:13.873
+sự thay đổi cơ số này và chúng ta chứng minh điều đó
+
+01:13.873 --> 01:16.520
+trong các video khác trên Khan Academy.
+
+01:16.520 --> 01:18.499
+Nhưng nó thực sự hữu ích vì chẳng hạn,
+
+01:18.499 --> 01:21.006
+máy tính của bạn có nút log.
+
+01:21.006 --> 01:24.740
+Log trên máy tính của bạn là log, cơ số 10.
+
+01:24.740 --> 01:28.557
+Vậy nếu bạn nhấn 100 vào máy tính của bạn
+
+01:28.557 --> 01:31.734
+và nhấn log, bạn sẽ được 2 ở đây.
+
+01:31.734 --> 01:33.935
+Vì vậy, bất cứ khi nào bạn chỉ thấy log 100,
+
+01:33.935 --> 01:37.195
+nó ngầm định là cơ số 10,
+và bạn cũng có một nút
+
+01:37.195 --> 01:40.372
+cho log tự nhiên, là log, cơ số E.
+
+01:40.372 --> 01:44.205
+Log tự nhiên của X bằng log, cơ số E của X.
+
+01:46.028 --> 01:48.146
+Nhưng đôi khi, bạn muốn tìm tất cả các loại logarit cơ sở
+
+01:48.146 --> 01:52.298
+khác nhau và đây là cách bạn làm điều đó.
+
+01:52.298 --> 01:54.722
+Vì vậy, nếu bạn đang sử dụng máy tính của mình và bạn muốn tìm
+
+01:54.722 --> 01:58.055
+log, cơ số 3 của 8 là gì, bạn sẽ nói,
+
+02:01.493 --> 02:05.979
+bạn sẽ nhập máy tính của mình là log của 8 và log của 3.
+
+02:05.979 --> 02:09.248
+Hoặc, hãy để mình viết nó theo cách này, và log của 3
+
+02:09.248 --> 02:11.700
+trong đó cả hai đều là cơ số 10,
+
+02:11.700 --> 02:13.121
+và bạn sẽ nhận được cùng một giá trị nếu bạn lấy
+
+02:13.121 --> 02:16.871
+log tự nhiên của 8 chia cho log tự nhiên của 3.
+
+02:17.942 --> 02:19.920
+Mà bạn cũng có thể có trên máy tính của mình.
+
+02:19.920 --> 02:23.988
+Và những gì chúng ta sẽ làm trong video này là tận dụng
+
+02:23.988 --> 02:26.412
+log tự nhiên bởi vì chúng ta biết đạo hàm
+
+02:26.412 --> 02:28.586
+của log tự nhiên là gì.
+
+02:28.586 --> 02:31.929
+Vì vậy, đạo hàm này giống như đạo hàm
+
+02:31.929 --> 02:33.679
+theo X.
+
+02:35.273 --> 02:38.394
+Log, cơ số A của X, có thể được viết lại thành
+
+02:38.394 --> 02:41.644
+log tự nhiên của X trên log tự nhiên của A.
+
+02:43.994 --> 02:46.056
+Và bây giờ log tự nhiên của A, đó chỉ là một con số.
+
+02:46.056 --> 02:50.626
+Mình có thể viết lại điều này, hãy để mình viết nó theo cách này.
+
+02:50.626 --> 02:54.709
+Một trên log tự nhiên của A nhân với log tự nhiên của X.
+
+02:56.450 --> 02:58.094
+Và đạo hàm của nó là gì?
+
+02:58.094 --> 03:00.128
+Chúng ta có thể lấy hằng số ra.
+
+03:00.128 --> 03:02.357
+Một trên log tự nhiên của A, đó chỉ là một số.
+
+03:02.357 --> 03:06.435
+Vì vậy, chúng ta sẽ lấy 1 trên log tự nhiên của A
+
+03:06.435 --> 03:10.602
+nhân với đạo hàm theo X của log tự nhiên của X.
+
+03:15.017 --> 03:16.684
+Của log tự nhiên của X.
+
+03:18.090 --> 03:20.264
+Mà chúng ta đã biết là 1 trên X.
+
+03:20.264 --> 03:23.134
+Vì vậy, thứ này ở ngay đây, là 1 trên X.
+
+03:23.134 --> 03:27.301
+Vì vậy, những gì chúng ta nhận được là 1 trên log tự nhiên của A nhân với 1 trên X.
+
+03:29.236 --> 03:33.403
+Chúng ta có thể viết dưới dạng, 1 trên log tự nhiên của A nhân X.
+
+03:40.409 --> 03:42.388
+Đó là một điều thực sự hữu ích cần biết.
+
+03:42.388 --> 03:46.317
+Vì vậy, bây giờ, chúng ta có thể lấy tất cả các loại đạo hàm.
+
+03:46.317 --> 03:50.484
+Vì vậy, nếu mình nói với bạn F của X bằng log, cơ số 7 của X
+
+03:56.654 --> 04:01.084
+thì bây giờ chúng ta có thể nói F phẩy của X sẽ là
+
+04:01.084 --> 04:04.084
+1 trên log tự nhiên của 7 nhân X.
+
+04:07.047 --> 04:11.199
+Nếu chúng ta có một hằng số ở phía trước, nếu chúng ta có,
+
+04:11.199 --> 04:12.648
+G của X.
+
+04:12.648 --> 04:16.815
+G của X bằng âm 3 nhân log, cơ số, mình biết.
+
+04:18.499 --> 04:20.394
+Log, cơ số pi.
+
+04:20.394 --> 04:21.564
+Pi là một số.
+
+04:21.564 --> 04:25.731
+Log, cơ số pi của X, G phẩy của X sẽ bằng
+
+04:28.335 --> 04:29.252
+1 trên...
+
+04:30.509 --> 04:32.013
+Để mình cẩn thận, mình có hằng số này ở ngoài này.
+
+04:32.013 --> 04:35.914
+Vì vậy, nó sẽ là âm 3 trên, nó chỉ là âm 3,
+
+04:35.914 --> 04:38.164
+trên log tự nhiên của pi.
+
+04:40.261 --> 04:42.128
+Đây là log tự nhiên của số này.
+
+04:42.128 --> 04:42.961
+Nhân X.
+
+04:44.190 --> 04:46.879
+Vì vậy, hy vọng rằng, điều đó mang lại cho bạn một số thứ.

@@ -1,0 +1,412 @@
+WEBVTT
+
+00:00.520 --> 00:02.800
+Mình đã nói rất nhiều về việc dùng đa thức
+
+00:02.800 --> 00:05.525
+để ước lượng hàm số, nhưng điều mà mình sẽ làm ở video này,
+
+00:05.525 --> 00:08.080
+là cho bạn thấy cách ước lượng đó hoạt động
+
+00:08.080 --> 00:09.000
+như thế nào.
+
+00:09.000 --> 00:11.690
+Ở đây, mình sẽ dùng WolframAlpha.
+
+00:11.690 --> 00:12.750
+Đây là một trang web rất hay.
+
+00:12.750 --> 00:15.250
+Bạn có thể làm tất cả những phép toán khó trên trang này.
+
+00:15.250 --> 00:21.020
+WolframAlpha.com, mình copy cái này và dán nó qua.
+
+00:21.020 --> 00:23.610
+Steven Wolfram khuyến khích,
+
+00:23.610 --> 00:24.360
+hãy dùng ứng dụng này,
+
+00:24.360 --> 00:25.660
+trên video của mình.
+
+00:25.660 --> 00:26.410
+Và giờ mình đã sử dụng nó,
+
+00:26.410 --> 00:26.914
+trong video này.
+
+00:26.914 --> 00:28.580
+Hôm nay mình sẽ ứng dụng nó.
+
+00:28.580 --> 00:30.371
+Nó rất là hữu dụng
+
+00:30.371 --> 00:31.786
+thật ra ta có thể tự tính,
+
+00:31.786 --> 00:33.160
+tự làm được,
+
+00:33.160 --> 00:34.493
+hoặc dùng máy tính bỏ túi.
+
+00:34.493 --> 00:37.410
+Nhưng với WolframAlpha, bạn chỉ cần một bước duy nhất,
+
+00:37.410 --> 00:44.092
+để ước lượng hàm sin của x sử dụng,
+
+00:44.092 --> 00:46.400
+chuỗi Maclaurin dạng khai triển,
+
+00:46.400 --> 00:48.570
+hoặc bạn có thể gọi là chuỗi Taylor dạng khai triển,
+
+00:48.570 --> 00:52.030
+tại x bằng 0 sử dụng các số hạng.
+
+00:52.030 --> 00:54.320
+Ta thấy rằng càng sử dụng nhiều số hạng
+
+00:54.320 --> 00:58.610
+ta thấy hình này sẽ ôm sát đồ thị sin hơn.
+
+00:58.610 --> 01:03.110
+Vậy hình màu cam ở đây là đồ thị của sin(x).
+
+01:03.110 --> 01:06.640
+Mình nghĩ rằng cái này khá quen thuộc với bạn,
+
+01:06.640 --> 01:08.450
+ở những video trước, mình đã tìm ra,
+
+01:08.450 --> 01:11.860
+dạng Macluarin khai triển của sin(x) là gì.
+
+01:11.860 --> 01:15.260
+Và WolframAlpha cũng làm điều đó cho ta.
+
+01:15.260 --> 01:17.210
+Nó tính luôn cả các giai thừa.
+
+01:17.210 --> 01:21.884
+3 giai thừa là 6, 5 giai thừa là 120, và cứ tiếp tục như thế.
+
+01:21.884 --> 01:23.300
+Nhưng điều thú vị ở đây là,
+
+01:23.300 --> 01:25.560
+bạn có thể chọn bao nhiêu phép xấp xỉ,
+
+01:25.560 --> 01:26.970
+mà bạn muốn vẽ ra.
+
+01:26.970 --> 01:29.820
+Và cách nó làm là nếu bạn chỉ muốn 1 số hạng,
+
+01:29.820 --> 01:31.562
+để ước lượng,
+
+01:31.562 --> 01:32.770
+ta sẽ không có tất cả hình này.
+
+01:32.770 --> 01:36.610
+Nếu ta nói đa thức của ta bằng x,
+
+01:36.610 --> 01:37.914
+thì nó sẽ trông như thế nào?
+
+01:37.914 --> 01:40.080
+Chà, nó sẽ là đồ thị ở đây.
+
+01:40.080 --> 01:41.947
+Nó cho ta biết số hạng nào, bao nhiêu
+
+01:41.947 --> 01:44.530
+số hạng được dùng bằng việc thế hiện số chấm ở đây,
+
+01:44.530 --> 01:46.630
+một cách làm rất hay.
+
+01:46.630 --> 01:52.790
+Vậy ở đây, hàm số p của x bằng với x.
+
+01:52.790 --> 01:54.441
+Đây là phép ước lượng tương đối,
+
+01:54.441 --> 01:56.440
+cho hàm sin của x.
+
+01:56.440 --> 01:59.830
+Nó ôm sát hàm sin ngay tại đây.
+
+01:59.830 --> 02:03.580
+Và rồi nó bắt đầu rời xa hàm sin.
+
+02:03.580 --> 02:05.430
+Bạn thêm một số hạng.
+
+02:05.430 --> 02:08.940
+Nếu bạn có x trừ x mũ 3 chia 6.
+
+02:08.940 --> 02:12.850
+Giờ bạn có hai số hạng ở dạng khai triển.
+
+02:12.850 --> 02:17.067
+Hoặc bạn có thể nói ta đã tiến tới số hạng bậc 3,
+
+02:17.067 --> 02:18.900
+vì đó là cách số chấm hiển thị.
+
+02:18.900 --> 02:21.151
+Chúng không nói về số số hạng.
+
+02:21.151 --> 02:23.025
+Mà là đang nói về bậc của số hạng.
+
+02:23.025 --> 02:24.760
+Vậy ta có 1 chấm ở đây, vì
+
+02:24.760 --> 02:27.540
+ta chỉ có số hạng bậc nhất.
+
+02:27.540 --> 02:30.360
+Khi ta có hai số hạng ở đây,
+
+02:30.360 --> 02:32.479
+khi bạn khai triển cho sin của x,
+
+02:32.479 --> 02:34.020
+nó không có số hạng bậc 2.
+
+02:34.020 --> 02:39.670
+Nên giờ ta có đa thức bậc 3 để ước lượng.
+
+02:39.670 --> 02:41.270
+Giờ ta nhìn vào số hạng bậc 3.
+
+02:41.270 --> 02:42.730
+Ta sẽ thấy 3 chấm.
+
+02:42.730 --> 02:44.190
+Chính là đường cong ở đây.
+
+02:44.190 --> 02:46.690
+Nếu bạn chỉ có số hạng đầu,
+
+02:46.690 --> 02:48.320
+thì bạn sẽ có đường thẳng.
+
+02:48.320 --> 02:52.490
+Bạn thêm trừ x mũ 3 chia 6 vào.
+
+02:52.490 --> 02:57.020
+Giờ bạn có một đường cong trông như thế này.
+
+02:57.020 --> 03:00.730
+Để ý rằng nó ôm đồ thị sin sớm hơn một tí.
+
+03:00.730 --> 03:03.270
+Và nó cũng bám sát đồ thị sin nhiều hơn về phía sau.
+
+03:03.270 --> 03:05.360
+Vậy ta thấy, thêm số hạng thứ 2 vào,
+
+03:05.360 --> 03:06.710
+giúp ta ước lượng tốt hơn.
+
+03:06.710 --> 03:08.720
+Nó bám sát đồ thị sin hơn,
+
+03:08.720 --> 03:11.180
+nhất là xung quanh những số nhỏ.
+
+03:11.180 --> 03:12.890
+Bạn thêm một số hạng nữa.
+
+03:12.890 --> 03:17.750
+Và giờ ta đang ở bậc 5 của đa thức.
+
+03:17.750 --> 03:22.620
+Vậy x trừ x mũ 3 trên 6 cộng x mũ 5 chia cho 120.
+
+03:22.620 --> 03:24.580
+Giờ ta tìm 5 chấm.
+
+03:24.580 --> 03:27.300
+Nó ở ngay đây, 1, 2, 3, 4,
+
+03:27.300 --> 03:28.190
+và 5.
+
+03:28.190 --> 03:30.080
+Vậy nó chính là đường cong này.
+
+03:30.080 --> 03:33.580
+Để ý rằng nó lại ôm đồ thị sin,
+
+03:33.580 --> 03:36.200
+sớm hơn đồ thị màu đỏ ở đây, và nó bám sát
+
+03:36.200 --> 03:37.820
+đồ thị sin hơn.
+
+03:43.530 --> 03:45.760
+Rồi nó lật ngược như thế này.
+
+03:45.760 --> 03:47.330
+Vậy là nó đã bám sát hơn.
+
+03:47.330 --> 03:49.770
+Ta lại tiếp tục nào.
+
+03:49.770 --> 03:52.330
+Nếu bạn có tất cả 4 số hạng đầu này,
+
+03:52.330 --> 03:55.640
+bạn sẽ có đa thức bậc 7.
+
+03:55.640 --> 03:57.750
+Ta hãy tìm đò thị có 7 chấm nhé.
+
+03:57.750 --> 03:59.170
+À nó đây rồi.
+
+04:02.170 --> 04:05.770
+Một lần nữa, nó lại ôm sát đồ thị sin sớm hơn,
+
+04:05.770 --> 04:07.310
+so với khi ta có 3 số hạng.
+
+04:07.310 --> 04:12.750
+Và nó tiếp tục ôm sát cho tới tận đây.
+
+04:12.750 --> 04:13.890
+Đến cái cuối cùng nào,
+
+04:13.890 --> 04:16.355
+Nếu bạn có tất cả số hạng này, cho tới bậc 9,
+
+04:16.355 --> 04:17.230
+bạn sẽ có đồ thị chuẩn hơn.
+
+04:17.230 --> 04:18.162
+Bạn bắt đầu ở đây.
+
+04:18.162 --> 04:19.870
+Nó ôm sát đồ thị hơn là những hình khác,
+
+04:19.870 --> 04:20.550
+và tiếp ra ngoài.
+
+04:20.550 --> 04:22.300
+Tất cả điều này rất hợp lí,
+
+04:22.300 --> 04:25.830
+bởi mỗi số hạn liền kề,
+
+04:25.830 --> 04:29.200
+và ta thêm vào dạng khai triển này, nó có bậc cao hơn,
+
+04:29.200 --> 04:34.970
+của x chia cho một số lớn hơn rất nhiều lần.
+
+04:34.970 --> 04:37.610
+Nên với một giá trị nhỏ của x, vậy khi x
+
+04:37.610 --> 04:41.420
+gần với tâm, nghĩa là nó có giá trị nhỏ,
+
+04:41.420 --> 04:43.820
+thì mẫu số sẽ lớn hơn rất nhiều,
+
+04:43.820 --> 04:46.020
+so với tử số, đặc biệt là khi giá trị đó nhỏ hơn 1.
+
+04:46.020 --> 04:47.690
+Vì khi bạn lấy một số,
+
+04:47.690 --> 04:50.280
+có trị tuyệt đối nhỏ hơn 1 và lấy mũ của nó,
+
+04:50.280 --> 04:51.890
+bạn đang giảm nó đi.
+
+04:51.890 --> 04:53.770
+Vậy khi bạn ở gần tâm,
+
+04:53.770 --> 04:56.270
+những số hạng phía sau không quan trọng nữa.
+
+04:56.270 --> 04:58.760
+Vì bạn không mất đi nhiều giá trị,
+
+04:58.760 --> 05:01.010
+nếu so với những số hạng đầu.
+
+05:01.010 --> 05:03.400
+Khi thêm những số hạng này vào,
+
+05:03.400 --> 05:06.180
+chúng được thêm vào khi tử số,
+
+05:06.180 --> 05:08.980
+lớn hơn nhiều so với mẫu số.
+
+05:08.980 --> 05:15.070
+Vậy những số hạng cuối này chỉ bắt đầu có nghĩa khi ở vùng này,
+
+05:15.070 --> 05:20.080
+khi mà x mũ 9 lớn hơn nhiều so với 362,880.
+
+05:20.080 --> 05:22.220
+Và điều tương tự cho bên phía âm.
+
+05:22.220 --> 05:23.720
+Mong rằng bài này dễ hiểu.
+
+05:23.720 --> 05:26.930
+Ở đây ta chỉ có 1, 2, 3, 4, 5 số hạng.
+
+05:26.930 --> 05:28.500
+Tưởng tượng xem điều gì sẽ xảy ra,
+
+05:28.500 --> 05:30.642
+nếu ta có vô hạn số hạng.
+
+05:30.642 --> 05:32.100
+Mình nghĩ là bạn sẽ đoán được,
+
+05:32.100 --> 05:36.624
+là nó sẽ ôm đồ thị sin cho tới vô cực.
+
+05:36.624 --> 05:39.290
+Hy vọng rằng giải thích trên đã làm sáng tỏ vấn đề.
+
+05:39.290 --> 05:41.650
+Và nếu bạn thích, bạn có thể gõ,
+
+05:41.650 --> 05:44.240
+dạng khai triển Taylor tại 0,
+
+05:44.240 --> 05:46.830
+của sin(x), hoặc dại khai triển Maclaruin, hoặc
+
+05:46.830 --> 05:49.940
+chuỗi Maclaurine cho sin(x), cos(x), e mũ x,
+
+05:49.940 --> 05:52.460
+tại WolframAlpha.com.
+
+05:52.460 --> 05:55.000
+Và hãy thử với nhiều hàm số khác,
+
+05:55.000 --> 05:58.190
+và hãy luyện tập thêm vào hoặc lấy bớt số hạng ra,
+
+05:58.190 --> 06:01.060
+để xem là nó sẽ bám sát đường cong ra sao.

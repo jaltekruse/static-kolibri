@@ -1,0 +1,475 @@
+WEBVTT
+
+00:00.000 --> 00:01.610
+Đề bảo rằng,
+
+00:01.610 --> 00:04.077
+f(x) bằng với một chuỗi vô hạn,
+
+00:04.077 --> 00:05.044
+và ta cần tìm,
+
+00:05.044 --> 00:09.943
+đạo hàm bậc ba của f, tính tại x bằng 0.
+
+00:09.943 --> 00:12.026
+Như mọi khi, bạn hãy dừng video lại,
+
+00:12.026 --> 00:15.493
+và thử tự làm trước khi chúng ta cùng nhau giải.
+
+00:15.493 --> 00:17.443
+Có 2 cách để ta tiếp cận.
+
+00:17.443 --> 00:19.776
+Một là ta tính đạo hàm của biểu thức,
+
+00:19.776 --> 00:22.623
+khi nó vẫn nằm trong dấu sigma.
+
+00:22.623 --> 00:23.789
+Còn cách khác là ta
+
+00:23.789 --> 00:26.905
+khai triển f(x) ra và tính đạo hàm 3 lần,
+
+00:26.905 --> 00:29.690
+để xem thử là ta có thể có câu trả lời hợp lí không.
+
+00:29.690 --> 00:31.157
+Mình làm cách 2 trước.
+
+00:31.157 --> 00:32.505
+Giờ mình khai triển nó ra.
+
+00:32.505 --> 00:35.205
+f(x) bằng với, xem nào, khi n bằng 0,
+
+00:35.205 --> 00:38.288
+đây là -1 mũ 0, chính là 1,
+
+00:38.288 --> 00:41.871
+nhân x mũ 0 cộng với 3.
+
+00:43.418 --> 00:45.722
+là bằng x mũ 3,
+
+00:45.722 --> 00:49.987
+trên 2 nhân 0, bằng 0, cộng 1 giai thừa,
+
+00:49.987 --> 00:51.872
+là bằng 1.
+
+00:51.872 --> 00:54.620
+Số hạng kế tiếp, khi n bằng 1,
+
+00:54.620 --> 00:57.404
+giờ nó sẽ là -1 mũ 1,
+
+00:57.404 --> 00:59.838
+vậy giờ ta có dấu trừ ở đằng trước.
+
+00:59.838 --> 01:03.254
+Tiếp theo là 2 nhân 1 cộng 3,
+
+01:03.254 --> 01:06.754
+ở đây ta có x mũ 5,
+
+01:08.137 --> 01:11.887
+chia cho 2 nhân 1 cộng 1, vậy nó là
+
+01:12.920 --> 01:15.719
+2 cộng 1 là 3 giai thừa.
+
+01:15.719 --> 01:18.153
+Vậy là x mũ 5 chia cho 6.
+
+01:18.153 --> 01:21.056
+Và khi n bằng 2,
+
+01:21.056 --> 01:23.136
+đây sẽ lại là số dương,
+
+01:23.136 --> 01:26.719
+và ta có x mũ 7,
+
+01:27.937 --> 01:29.604
+chia cho 5 giai thừa.
+
+01:31.552 --> 01:32.519
+Đúng không nhỉ? Đúng.
+
+01:32.519 --> 01:34.752
+5 giai thừa, và 5 giai thừa...
+
+01:34.752 --> 01:36.852
+Để mình viết nó hẳn ra.
+
+01:36.852 --> 01:40.636
+5 giai thừa sẽ bằng, bằng 120.
+
+01:40.636 --> 01:43.767
+Nó sẽ là 5 nhân 4 nhân 6, là bằng 120.
+
+01:43.767 --> 01:45.437
+Ta cứ xen kẽ tiếp trừ và cộng,
+
+01:45.437 --> 01:47.735
+và nó cứ tiếp tục như thế mãi.
+
+01:47.735 --> 01:49.963
+Được rồi, giờ ta tính đạo hàm.
+
+01:49.963 --> 01:52.896
+f phẩy x bằng với,
+
+01:52.896 --> 01:54.712
+ta áp dụng tiếp qui tắc lũy thừa,
+
+01:54.712 --> 01:57.495
+bằng 3x bình,
+
+01:57.495 --> 02:01.412
+trừ 5/6x mũ 4, cộng 7,
+
+02:04.429 --> 02:07.888
+chia cho 5 giai thừa x mũ 6.
+
+02:07.888 --> 02:09.452
+Mình áp dụng qui tắc lũy thừa,
+
+02:09.452 --> 02:13.485
+trừ cộng, ta cứ làm tiếp như thế mãi.
+
+02:13.485 --> 02:16.752
+Đạo hàm bậc 2, f phẩy phẩy x,
+
+02:16.752 --> 02:20.335
+sẽ bằng, dùng qui tắc lũy thừa tiếp.
+
+02:20.335 --> 02:24.407
+Nó sẽ bằng 6x mũ 1 trừ 4 nhân 5
+
+02:24.407 --> 02:28.574
+chia 6, mình sẽ viết là 20 chia 6 x mũ 3,
+
+02:30.014 --> 02:34.181
+cộng 6 nhân 7, là bằng 42 chia 5 giai thừa,
+
+02:35.811 --> 02:38.856
+x mũ 5, và ta cứ tiếp tục như thế.
+
+02:38.856 --> 02:41.956
+trừ cộng, cứ như thế, xen kẽ giữa trừ số nào đó,
+
+02:41.956 --> 02:44.606
+rồi cộng số nào đó, và cứ như thế mãi.
+
+02:44.606 --> 02:46.406
+Giờ ta tính đạo hàm bậc 3.
+
+02:46.406 --> 02:48.540
+Đạo hàm bậc 3 bằng,
+
+02:48.540 --> 02:51.311
+xem nào, đạo hàm của 6x là 6,
+
+02:51.311 --> 02:56.294
+còn trừ 20 nhân 3 là 60 chia 6,
+
+02:56.294 --> 02:58.699
+là bằng 10, x bình,
+
+02:58.699 --> 03:02.866
+cộng 5 nhân 42 là bằng, 210 chia cho 5 giai thừa
+
+03:04.481 --> 03:07.232
+nhân x mũ 4, trừ rồi cộng,
+
+03:07.232 --> 03:08.865
+cứ đi tiếp như thế mãi,
+
+03:08.865 --> 03:10.631
+ta đã tính xong tại x bằng 0.
+
+03:10.631 --> 03:15.221
+f phẩy phẩy phẩy không, khi x bằng 0,
+
+03:15.221 --> 03:18.298
+tất cả số hạng chứa x sẽ tiến tới 0,
+
+03:18.298 --> 03:20.714
+và bạn sẽ còn lại 6 ở đây.
+
+03:20.714 --> 03:22.881
+Vậy f phẩy phẩy phẩy, đạo hàm bậc 3,
+
+03:22.881 --> 03:25.347
+tính tại 0 sẽ là 6.
+
+03:25.347 --> 03:27.547
+Giờ một cách khác để ta giải,
+
+03:27.547 --> 03:30.397
+là cứ giữ nguyên dấu sigma.
+
+03:30.397 --> 03:34.447
+Ta có thể nói f phẩy x bằng với,
+
+03:34.447 --> 03:38.614
+tổng vô hạn, để mình viết lại cho ngang hàng.
+
+03:40.324 --> 03:43.208
+Ngang với hàng f phẩy x mình khai triển lúc nãy,
+
+03:43.208 --> 03:47.375
+ta có thể nói f phẩy x bằng với tổng
+
+03:48.372 --> 03:50.955
+từ n bằng 0 cho tới vô cực,
+
+03:52.641 --> 03:53.974
+và bạn lấy đạo hàm ở đây,
+
+03:53.974 --> 03:56.074
+bạn sẽ nhận được, tính đạo hàm này nhé,
+
+03:56.074 --> 03:57.891
+với biến x, nghĩa là bạn cho rằng,
+
+03:57.891 --> 03:59.516
+tất cả những thứ khác,
+
+03:59.516 --> 04:02.840
+n sẽ chỉ là,
+
+04:02.840 --> 04:05.199
+chỉ là cho ta biết sự thay đổi của số hạng,
+
+04:05.199 --> 04:08.747
+nên nếu ta lấy đạo hàm với biến x ở đây,
+
+04:08.747 --> 04:11.413
+dùng qui tắc lũy thừa, đem 2n cộng 3 ra ngoài,
+
+04:11.413 --> 04:13.949
+ta sẽ có -1 mũ n,
+
+04:13.949 --> 04:18.349
+nhân 2n cộng 3, nhân x,
+
+04:18.349 --> 04:21.099
+mũ 2n cộng 2,
+
+04:22.304 --> 04:24.387
+chia cho n cộng 1 giai thừa.
+
+04:26.171 --> 04:28.238
+Và nếu bạn muốn tính đạo hàm bậc 2,
+
+04:28.238 --> 04:30.304
+bạn cứ làm như phía trên ta vừa làm.
+
+04:30.304 --> 04:33.255
+Tính đạo hàm bậc 2, f phẩy phẩy x,
+
+04:33.255 --> 04:35.912
+bây giờ ta đang tính tổng từ 0,
+
+04:35.912 --> 04:39.687
+tới vô cực, của -1 mũ n.
+
+04:39.687 --> 04:41.770
+Để mình dời qua phải một tí.
+
+04:41.770 --> 04:43.739
+Cho có chút chỗ trống.
+
+04:43.739 --> 04:46.587
+Giờ, ta lấy mũ này ra ngoài,
+
+04:46.587 --> 04:50.186
+vậy ta có 2n cộng 3,
+
+04:50.186 --> 04:54.389
+nhân 2n cộng 2, tất cả đem chia cho,
+
+04:54.389 --> 04:58.556
+2n cộng 1 giai thừa, rồi nhân với,
+
+04:59.804 --> 05:02.554
+x mũ 2n cộng 1.
+
+05:05.353 --> 05:07.707
+Nhìn có vẻ rất phức tạp,
+
+05:07.707 --> 05:09.853
+nhưng mình chỉ đang lấy mũ ra ngoài,
+
+05:09.853 --> 05:12.190
+nhân nó bên ngoài, và rồi giảm nó đi.
+
+05:12.190 --> 05:15.219
+Vậy 2n cộng 2 trừ 1 là 2n cộng 1.
+
+05:15.219 --> 05:17.836
+Tiếp theo mình tính đạo hàm bậc 3.
+
+05:17.836 --> 05:21.819
+Đạo hàm bậc 3 bằng với tổng khi n bằng 0,
+
+05:21.819 --> 05:25.119
+tới vô cực, của -1 mũ n.
+
+05:25.119 --> 05:27.536
+Ta lấy cái này, nhân nó với,
+
+05:27.536 --> 05:31.151
+2n cộng 3,
+
+05:31.151 --> 05:34.734
+nhân 2n cộng 2, nhân 2n cộng 1,
+
+05:36.470 --> 05:39.970
+tất cả chia cho 2n cộng 1 giai thừa,
+
+05:43.067 --> 05:45.900
+rồi nhân nó với,
+
+05:49.784 --> 05:51.534
+x mũ 2n.
+
+05:54.172 --> 05:58.855
+Giờ ta hãy tính biểu thức này khi x bằng 0.
+
+05:58.855 --> 06:03.022
+f phẩy phẩy phẩy 0 là tổng từ n bằng 0,
+
+06:05.724 --> 06:10.027
+tới vô cực của -1 mũ n.
+
+06:10.027 --> 06:11.688
+Thú vị đây.
+
+06:11.688 --> 06:12.831
+Đoạn sau khá phức tạp,
+
+06:12.831 --> 06:15.914
+2n cộng 3 nhân 2n cộng 2,
+
+06:16.930 --> 06:20.339
+nhân 2n cộng 1, tât cả
+
+06:20.339 --> 06:22.839
+chia cho 2n cộng 1 giai thừa,
+
+06:24.912 --> 06:27.412
+nhân 0 mũ 2n.
+
+06:29.628 --> 06:31.328
+Bạn có thể thấy,
+
+06:31.328 --> 06:34.046
+nếu 0 mũ gì đó,
+
+06:34.046 --> 06:36.078
+thì tất cả sẽ bằng 0.
+
+06:36.078 --> 06:37.811
+Nhưng hãy nhớ, bắt đầu từ n bằng 0,
+
+06:37.811 --> 06:40.961
+nên với n khác 0,
+
+06:40.961 --> 06:43.111
+thì 0 mũ số đó sẽ bằng 0,
+
+06:43.111 --> 06:44.878
+và số hạng đó sẽ là 0.
+
+06:44.878 --> 06:47.011
+Giống như những gì ta thấy khi khai triển nó ra.
+
+06:47.011 --> 06:48.343
+Vậy số hạng duy nhất ta quan tâm,
+
+06:48.343 --> 06:51.394
+trong bài này là khi n bằng 0.
+
+06:51.394 --> 06:54.094
+Lúc đó biểu thức sẽ bằng,
+
+06:54.094 --> 06:56.228
+vì khi n bằng 1, 2, 3, 4, 5,
+
+06:56.228 --> 06:58.660
+cho tới vô cực, thì ta chỉ cần quan tâm cái này,
+
+06:58.660 --> 07:00.243
+Biểu thức sẽ bằng 0.
+
+07:00.243 --> 07:02.111
+Tất cả sẽ bằng 0.
+
+07:02.111 --> 07:04.409
+Vậy ta chỉ còn số hạng đầu tiên,
+
+07:04.409 --> 07:06.777
+khi n bằng 0, khi nó là 0,
+
+07:06.777 --> 07:09.176
+biểu thức bằng -1 mũ 0,
+
+07:09.176 --> 07:12.309
+là bằng 1.
+
+07:12.309 --> 07:14.959
+Mình viết nó thành 1.
+
+07:14.959 --> 07:18.292
+nhân, 3 nhân 2 nhân 1,
+
+07:20.792 --> 07:24.959
+chia cho 1 giai thừa, và nhân với 0 mũ 0,
+
+07:27.609 --> 07:29.853
+chính là 1.
+
+07:29.853 --> 07:32.925
+Cái này bằng 1, còn ở đây bằng 6.
+
+07:32.925 --> 07:35.309
+Kết luận, mình nghĩ cách đầu tiên mà ta làm,
+
+07:35.309 --> 07:38.492
+thì khá là rõ ràng,
+
+07:38.492 --> 07:40.910
+nó dựa vào cảm tính một chút, gần gũi với những gì,
+
+07:40.910 --> 07:42.592
+mà bạn đã học,
+
+07:42.592 --> 07:44.742
+nhưng hãy nhớ rằng ở cả 2 cách phương pháp làm giống nhau.
+
+07:44.742 --> 07:46.508
+Cách bên phải thì ta giữ dấu sigma,
+
+07:46.508 --> 07:48.309
+rồi tính đạo hàm.
+
+07:48.309 --> 07:51.192
+Phương pháp này hiệu quả vì bạn sẽ gặp nó khá nhiều trong toán,
+
+07:51.192 --> 07:53.341
+khi bạn cần phải giải một cách tổng quát,
+
+07:53.341 --> 07:55.841
+nên luyện tập như thế này,
+
+07:55.841 --> 07:57.824
+luyện tính đạo hàm khi còn dấu sigma
+
+07:57.824 --> 07:59.741
+sẽ giúp ích cho bạn.

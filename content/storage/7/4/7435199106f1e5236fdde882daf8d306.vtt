@@ -1,0 +1,455 @@
+WEBVTT
+
+00:00.560 --> 00:04.300
+Đề bài hỏi, cái gì là nhỏ nhất - đây
+
+00:04.300 --> 00:07.680
+là một lỗi đánh máy nhỏ ở đây - tổng bình phương nhỏ nhất
+
+00:07.680 --> 00:10.480
+có thể có của hai số là bao nhiêu
+
+00:10.480 --> 00:14.170
+nếu tích của chúng là âm 16?
+
+00:14.170 --> 00:19.670
+Đầu tiên giả sử rằng hai số này là x và y.
+
+00:19.670 --> 00:22.950
+Vậy làm thế nào chúng ta có thể xác định tổng bình phương của
+
+00:22.950 --> 00:23.710
+hai số?
+
+00:23.710 --> 00:25.940
+Mình gọi S là tổng bình phương,
+
+00:25.940 --> 00:28.840
+s là tổng bình phương, và nó sẽ
+
+00:28.840 --> 00:32.910
+bằng x bình phương cộng với y bình phương.
+
+00:32.910 --> 00:35.470
+Và đây là điều chúng ta muốn tìm là giá trị nhỏ nhất.
+
+00:35.470 --> 00:40.900
+Chúng ta muốn tìm giá trị nhỏ nhất của s.
+
+00:40.900 --> 00:43.690
+Bây giờ, s được biểu diễn dưới dạng một hàm của x và y.
+
+00:43.690 --> 00:46.190
+Chúng ta không biết làm thế nào để giảm thiểu đối với hai biến,
+
+00:46.190 --> 00:48.540
+vì vậy chúng ta phải đạt được giá trị nhỏ nhất với chỉ một biến.
+
+00:48.540 --> 00:51.660
+Và may mắn , đề cho chúng mình một số thông tin.
+
+00:51.660 --> 00:54.850
+Tích của chúng là âm 16.
+
+00:54.850 --> 01:00.690
+Vì vậy, x nhân với y bằng âm 16.
+
+01:00.690 --> 01:03.360
+Giả sử chúng ta muốn biểu thức
+
+01:03.360 --> 01:05.330
+này ngay tại đây chỉ với x.
+
+01:05.330 --> 01:07.690
+Sau đó, chúng ta có thể tìm ra y là gì
+
+01:07.690 --> 01:10.095
+theo x và sau đó thay thế.
+
+01:10.095 --> 01:11.470
+Bắt đầu làm thôi nào.
+
+01:11.470 --> 01:16.700
+Nếu chúng ta chia cả hai vế cho x, chúng ta nhận được y bằng âm 16
+
+01:16.700 --> 01:17.750
+trên x.
+
+01:17.750 --> 01:20.740
+Tiếp theo ta thay thế y trong biểu thức này
+
+01:20.740 --> 01:23.030
+với âm 16 trên x.
+
+01:23.030 --> 01:27.150
+Sau đó chúng ta sẽ nhận được tổng bình phương
+
+01:27.150 --> 01:29.140
+khi một hàm số của x sẽ bằng
+
+01:29.140 --> 01:32.390
+x bình phương cộng với y bình phương.
+
+01:32.390 --> 01:35.230
+y là âm 16 trên x.
+
+01:38.210 --> 01:41.020
+Và sau đó đó là những gì có chúng ta sẽ là bình phương.
+
+01:41.020 --> 01:46.900
+Vì vậy, đây là bằng x bình phương cộng, đây là gì?
+
+01:46.900 --> 01:48.800
+256 trên x bình phương.
+
+01:48.800 --> 01:54.870
+Hoặc chúng ta có thể viết là 256x mũ âm 2.
+
+01:54.870 --> 01:59.690
+Đó là tổng các bình phương mà bây giờ chúng ta muốn giảm thiểu.
+
+01:59.690 --> 02:02.196
+Để giảm thiểu điều này, chúng ta có thể xem xét
+
+02:02.196 --> 02:04.070
+các điểm cực trị của điều này,
+
+02:04.070 --> 02:07.260
+đó là nơi đạo hàm bằng 0 hoặc không xác định,
+
+02:07.260 --> 02:09.972
+và xem liệu những cực trị đó
+
+02:09.972 --> 02:11.180
+có thể là điểm cực tiểu hay cực đại.
+
+02:11.180 --> 02:12.680
+Chúng không nhất thiết phải như vậy, nhưng đó là những điểm
+
+02:12.680 --> 02:15.012
+nếu chúng ta có điểm cực đại hoặc cực tiểu,
+
+02:15.012 --> 02:16.970
+chúng sẽ là một trong những điểm cực trị.
+
+02:16.970 --> 02:18.640
+Vì vậy, chúng ta hãy lấy đạo hàm.
+
+02:18.640 --> 02:21.060
+Vì vậy, đạo hàm của s phẩy-- hãy để mình l
+
+02:21.060 --> 02:24.630
+àm điều này với một màu khác - số phẩy của x.
+
+02:24.630 --> 02:26.320
+Mình sẽ làm điều đó ngay tại đây.
+
+02:26.320 --> 02:28.970
+Đạo hàm s phẩy của x đối với
+
+02:28.970 --> 02:32.520
+x sẽ bằng 2x lần
+
+02:32.520 --> 02:38.360
+âm 2 lần 2x cộng với 256 lần âm 2.
+
+02:38.360 --> 02:42.705
+Vì vậy, đó là trừ 512x mũ âm 3.
+
+02:45.610 --> 02:52.650
+Bây giờ, hàm số sẽ là không xác định khi x bằng 0.
+
+02:52.650 --> 02:55.620
+Nhưng nếu x bằng 0, thì y là không xác định.
+
+02:55.620 --> 02:57.240
+Vì vậy, toàn bộ những gì chúng ta làm sẽ bị sai.
+
+02:57.240 --> 03:01.330
+Vì vậy, đó không phải là một điểm cực trị, x bằng 0.
+
+03:01.330 --> 03:02.920
+Chúng ta hãy nghĩ về bất kỳ điểm nào khác.
+
+03:02.920 --> 03:04.777
+Nó còn xác định được ở đâu không nhỉ?
+
+03:04.777 --> 03:07.110
+Chúng ta hãy suy nghĩ về trường hợp đạo hàm bằng 0.
+
+03:07.110 --> 03:09.570
+Vậy khi nào điều này bằng 0?
+
+03:09.570 --> 03:16.040
+Vậy khi nào 2x trừ 512x mũ âm 3 bằng 0?
+
+03:16.040 --> 03:19.520
+Chà, chúng ta có thể thêm 512x mũ ân 3 ở cả hai vế.
+
+03:19.520 --> 03:26.390
+Bạn nhận được 2x bằng 512x mũ âm 3.
+
+03:26.390 --> 03:32.010
+Chúng ta có thể nhân cả hai vế với x mũ 3
+
+03:32.010 --> 03:34.890
+để tất cả các x sẽ biến mất ở vế phải.
+
+03:34.890 --> 03:40.380
+Vì vậy, bạn nhận được 2x mũ 4 bằng 512.
+
+03:40.380 --> 03:42.730
+Chúng ta có thể chia cả hai vế cho 2, và bạn
+
+03:42.730 --> 03:49.940
+nhận được x mũ bốn bằng 256.
+
+03:49.940 --> 03:52.650
+Và vậy căn bậc bốn của 256 là gì?
+
+03:52.650 --> 03:54.900
+Chúng ta có thể lấy căn bậc hai của cả hai vế
+
+03:54.900 --> 03:56.140
+để giúp chúng ta ở đây.
+
+03:56.140 --> 03:57.990
+Chúng ta hãy xem.
+
+03:57.990 --> 04:01.400
+Nó sẽ là x bình phương sẽ bằng 256
+
+04:01.400 --> 04:03.160
+là 16 bình phương.
+
+04:03.160 --> 04:05.180
+Vì vậy, đây là 16.
+
+04:05.180 --> 04:12.500
+Đây sẽ là x bình phương bằng 16 hoặc x bằng 4.
+
+04:12.500 --> 04:15.000
+Bây giờ đó là điểm cực trị duy nhất mà chúng ta có,
+
+04:15.000 --> 04:17.170
+vì vậy đó có thể là giá trị x nhỏ nhất
+
+04:17.170 --> 04:19.790
+của tổng bình phương ngay tại đây.
+
+04:19.790 --> 04:21.529
+Nhưng hãy đảm bảo rằng đó là giá trị nhỏ nhất.
+
+04:21.529 --> 04:24.680
+Và để làm được điều đó, chúng ta chỉ có thể thực hiện phép thử đạo hàm cấp hai.
+
+04:24.680 --> 04:25.700
+Hãy cùng tìm nó nào.
+
+04:25.700 --> 04:27.640
+Hãy lấy đạo hàm cấp hai của s
+
+04:27.640 --> 04:31.260
+phẩy phẩy của x và tính xem hàm số có lồi lên
+
+04:31.260 --> 04:34.030
+hay lồi xuống khi x bằng 4.
+
+04:34.030 --> 04:37.690
+Vì vậy, số phẩy phẩy của x sẽ bằng 2.
+
+04:37.690 --> 04:41.430
+Và khi đó chúng ta sẽ có
+âm 3 lần âm 512.
+
+04:41.430 --> 04:45.070
+Vì vậy, mình sẽ chỉ viết rằng cộng với 3 lần 512.
+
+04:45.070 --> 04:48.077
+Con số đó sẽ là 1,536.
+
+04:48.077 --> 04:48.660
+Có đúng không?
+
+04:48.660 --> 04:51.190
+Vâng, 3 lần 500 là 1.500, 3 nhân với 12 là 36,
+
+04:51.190 --> 04:54.080
+x mũ âm 4.
+
+04:57.521 --> 04:59.270
+Và điều này ở đây
+
+04:59.270 --> 05:00.900
+thực sự sẽ dương cho bất kỳ x nào.
+
+05:04.815 --> 05:08.024
+x mũ âm 4, ngay cả khi giá trị x âm,
+
+05:08.024 --> 05:09.190
+điều đó sẽ là dương.
+
+05:09.190 --> 05:10.650
+Mọi thứ đều dương.
+
+05:10.650 --> 05:12.590
+Vậy, điều này luôn luôn dương.
+
+05:12.590 --> 05:18.840
+Vì vậy, hàm số luôn ở trong tình trạng lồi lên.
+
+05:18.840 --> 05:22.480
+Lồi lên có nghĩa là đồ thị của chúng ta
+
+05:22.480 --> 05:23.270
+có thể trông giống như vậy.
+
+05:23.270 --> 05:25.395
+Hình như nó hơi nhỏ thì phải.
+
+05:25.395 --> 05:26.857
+Nó có thể trông giống như vậy.
+
+05:26.857 --> 05:29.440
+Và bạn thấy có một lý do tại sao đạo hàm cấp hai
+
+05:29.440 --> 05:31.760
+có nghĩa là lồi lên, vì đạo hàm cấp hai dương
+
+05:31.760 --> 05:35.119
+nghĩa là đạo hàm của chúng ta không ngừng tăng lên.
+
+05:35.119 --> 05:36.910
+Vì vậy đạo hàm không ngừng tăng lên.
+
+05:36.910 --> 05:39.920
+Nó âm, ít âm hơn, thậm chí ít âm hơn nữa.
+
+05:39.920 --> 05:41.400
+Hãy để mình viết lại với một màu khác.
+
+05:41.400 --> 05:45.320
+Bạn thấy nó âm, ít âm hơn, thậm chí ít âm hơn,
+
+05:45.320 --> 05:47.940
+0, dương hơn, dương hơn.
+
+05:47.940 --> 05:50.230
+Vì vậy, nó đang tăng lên trên toàn bộ vị trí.
+
+05:50.230 --> 05:53.290
+Nếu bạn có một điểm cực trị mà
+
+05:53.290 --> 05:57.830
+đạo hàm bằng 0, do đó hệ số góc bằng 0
+
+05:57.830 --> 06:00.110
+và nó lồi lên, bạn thấy khá rõ ràng
+
+06:00.110 --> 06:04.170
+rằng chúng ta đã làm hàm số nhỏ nhất.
+
+06:04.170 --> 06:06.662
+Vậy y sẽ bằng bao nhiêu?
+
+06:06.662 --> 06:08.370
+Chúng ta thực sự không cần phải tìm ra
+
+06:08.370 --> 06:10.440
+y phải bằng gì để
+
+06:10.440 --> 06:11.961
+tổng bình phương đạt giá trị nhỏ nhất.
+
+06:11.961 --> 06:13.460
+Chúng mình chỉ có thể đặt nó trở lại vào hàm số này.
+
+06:13.460 --> 06:17.010
+Chúng ta thấy rằng y sẽ âm 16 trên x.
+
+06:17.010 --> 06:20.900
+Vì vậy, y sẽ bằng âm 4.
+
+06:20.900 --> 06:23.690
+Và bây giờ chúng ta có thể tìm ra tổng bình phương của chúng ta là bao nhiêu.
+
+06:23.690 --> 06:26.460
+Tổng bình phương tối thiểu của chúng ta
+
+06:26.460 --> 06:31.780
+sẽ bằng 4 bình phương, là 16 cộng với âm 4
+
+06:31.780 --> 06:35.524
+bình phương cộng là 16, bằng 32.
+
+06:35.524 --> 06:37.440
+Bây giờ mình biết một số bạn có thể đang nghĩ,
+
+06:37.440 --> 06:39.106
+này, mình có thể đã làm điều này mà không cần tính toán .
+
+06:39.106 --> 06:41.650
+Mình có thể vừa thử những con số có tích
+
+06:41.650 --> 06:45.560
+là âm 16 và mình có thể đã thử số 4 và âm 4
+
+06:45.560 --> 06:47.282
+trong thời gian ngắn và sau đó mình có thể tìm ra
+
+06:47.282 --> 06:49.740
+nó thấp hơn nếu mình
+
+06:49.740 --> 06:53.552
+làm 2 và âm 8 hoặc âm 2 và 8 hoặc 1 và 16.
+
+06:53.552 --> 06:55.010
+Và đó là sự thật,
+
+06:55.010 --> 06:56.197
+bạn có thể đã làm được điều đó.
+
+06:56.197 --> 06:58.280
+Nhưng bạn vẫn sẽ không thể cảm thấy đúng
+
+06:58.280 --> 07:00.405
+đó là giá trị nhỏ nhất, bởi vì bạn sẽ không
+
+07:00.405 --> 07:03.130
+thử 4.01 hoặc 4.0011.
+
+07:03.130 --> 07:06.030
+Trên thực tế, bạn không thể thử tất cả các giá trị có thể.
+
+07:06.030 --> 07:08.155
+Hãy nhớ rằng, đề bài không nói rằng đây chỉ là số nguyên.
+
+07:08.155 --> 07:12.700
+Tình cờ là các giá trị của chúng
+
+07:12.700 --> 07:14.940
+là số nguyên trong tình huống này.
+
+07:14.940 --> 07:17.330
+Bạn có thể tưởng tượng điều gì sẽ xảy ra nếu đề bài không
+
+07:17.330 --> 07:19.630
+cho tích là âm 16,
+
+07:19.630 --> 07:23.080
+nhưng nếu tích là âm 17 thì sao?
+
+07:23.080 --> 07:25.880
+Hoặc nếu tích là âm 16,5 thì sao?
+
+07:25.880 --> 07:28.204
+Hoặc điều gì sẽ xảy ra nếu tích là pi bình phương?
+
+07:28.204 --> 07:30.370
+Sau đó, bạn sẽ không thể thử
+
+07:30.370 --> 07:32.370
+mọi thứ khác và bạn sẽ phải dùng đến những gì
+
+07:32.370 --> 07:34.640
+chúng ta đã làm trong video này.

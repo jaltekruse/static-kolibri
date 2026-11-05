@@ -1,0 +1,265 @@
+WEBVTT
+
+00:00.000 --> 00:04.040
+Už pravděpodobně umíte najít obsah
+plochy mezi dvěma křivkami.
+
+00:04.040 --> 00:07.070
+Pokud ne, tak se to můžete
+na Khanově škole naučit.
+
+00:07.070 --> 00:11.080
+Například můžeme najít obsah této
+žluté plochy pomocí určitého integrálu.
+
+00:11.080 --> 00:14.340
+V tomto videu ale spočítáme
+něco zajímavějšího.
+
+00:14.340 --> 00:21.410
+Najdeme objem tělesa, jehož základna
+je definovaná pomocí plochy mezi křivkami.
+
+00:21.410 --> 00:24.950
+V tomto videu se zaměříme na toto těleso,
+a já ho nakreslím 3D.
+
+00:24.950 --> 00:28.700
+Pojďme to nakreslit znovu,
+ale trochu s lepší perspektivou.
+
+00:28.700 --> 00:33.810
+Toto bude y-ová osa.
+
+00:33.810 --> 00:35.540
+Takže y-ová osa.
+
+00:35.540 --> 00:40.600
+Toto je x-ová osa.
+
+00:40.600 --> 00:47.920
+Toto je přímka y je rovno 6.
+
+00:47.920 --> 00:51.850
+Tato tečkovaná přímka,
+můžeme to nakreslit takto,
+
+00:51.850 --> 00:54.740
+je rovna x rovno 2.
+
+00:54.740 --> 01:02.610
+Graf y rovno 4 krát přirozený logaritmus
+z (3 minus x) vypadá nějak takto.
+
+01:02.610 --> 01:04.850
+Takže tato plocha je tato plocha,
+
+01:04.850 --> 01:09.900
+ale bude to základna tělesa
+pro které platí,
+
+01:09.900 --> 01:14.490
+že když vezmu průřez tady,
+tak to bude čtverec.
+
+01:14.490 --> 01:18.670
+Takže ať už je tady jakákoli délka,
+tak stejně dlouhá bude také výška,
+
+01:18.670 --> 01:23.430
+aby průřez tady byl čtverec.
+
+01:23.430 --> 01:26.840
+Průřez tady bude čtverec.
+
+01:26.840 --> 01:33.040
+Ať už je mezi rozdíl mezi funkcemi
+jakýkoli, tak stejně dlouhá bude výška.
+
+01:33.040 --> 01:39.620
+Tato délka, což je v tomto bodě 6,
+bude stejná jako tato výška.
+
+01:39.620 --> 01:42.270
+A bude to čtverec, docela velký čtverec.
+
+01:42.270 --> 01:46.810
+Musím to posunout, abych to mohl nakreslit
+celé, zhruba ve správných proporcích.
+
+01:46.810 --> 01:48.210
+Vypadá to nějak takto.
+
+01:48.210 --> 01:49.920
+Toto by měl být čtverec.
+
+01:49.920 --> 01:51.220
+Vypadá to nějak takto.
+
+01:51.220 --> 02:01.280
+Takže celé těleso bude vypadat
+nějak takto, zkusím to trochu vybarvit,
+
+02:01.280 --> 02:06.190
+aby to vypadalo reálněji,
+snad chápete tu základní myšlenku.
+
+02:06.190 --> 02:08.970
+Někteří z vás jsou možná nadšení,
+někteří možná zastrašení.
+
+02:08.970 --> 02:13.270
+Tak dlouho jsme počítali dvě dimenze,
+co se děje ve třetí dimenzi?
+
+02:13.270 --> 02:18.240
+Rychle si uvědomíme, že už to
+vlastně pomocí integrace umíme spočítat.
+
+02:18.240 --> 02:28.770
+K tomu nám stačí rozdělit tvar na tyto
+malé dlaždice, které mají nějakou hloubku.
+
+02:28.770 --> 02:34.380
+Rozdělme si to tedy na malé
+dlaždice, které mají nějakou hloubku.
+
+02:34.380 --> 02:36.390
+Mohl bych to nakreslit na více místech.
+
+02:36.390 --> 02:43.270
+Rozdělíme to na části, který mají velmi
+malou šířku, můžeme do nazvat dx.
+
+02:43.270 --> 02:46.270
+Pak umíme spočítat jejich objem.
+
+02:46.270 --> 02:48.580
+Jaký je objem těchto dlaždic?
+
+02:48.580 --> 02:55.150
+Je to šířka krát obsah plochy tohoto řezu.
+
+02:55.150 --> 02:56.540
+Udělám to jinou barvou.
+
+02:56.540 --> 03:02.170
+Jaký je obsah plochy,
+kterou tady růžově vybarvuji?
+
+03:02.170 --> 03:06.560
+Obsah této plochy bude roven
+délka základny na druhou.
+
+03:06.560 --> 03:07.700
+Kolik je délka základy?
+
+03:07.700 --> 03:09.830
+Kolik je rozdíl mezi dvěma funkcemi?
+
+03:09.830 --> 03:12.520
+Je to 6 minus…
+
+03:12.520 --> 03:19.170
+Naše dolní funkce je 4 krát
+přirozený logaritmus z (3 minus x),
+
+03:19.170 --> 03:21.270
+takže ten rozdíl nám udává délku.
+
+03:21.270 --> 03:24.430
+Ale když to umocníme na druhou,
+tak dostaneme tuto celou plochu.
+
+03:24.430 --> 03:26.730
+Umocníme to a máme celou tuto plochu.
+
+03:26.730 --> 03:31.210
+A pak to vynásobíme šířkou.
+
+03:31.210 --> 03:35.150
+Takže teď máme objem této malé části,
+
+03:35.150 --> 03:37.540
+a možná už vidíte, kam tím směřuji.
+
+03:37.540 --> 03:42.750
+Co kdybychom sečetli všechny
+tyto od x rovno 0 do x rovno 2?
+
+03:42.750 --> 03:45.150
+Pak bychom měli objem
+celého tohoto tělesa.
+
+03:45.150 --> 03:47.430
+To je síla určitého integrálu.
+
+03:47.430 --> 03:54.220
+Takže prostě můžeme integrovat
+od x rovno 0 do x rovno 2.
+
+03:54.220 --> 03:56.900
+Když bychom nakreslili, kde
+toto prochází naší základnou,
+
+03:56.900 --> 04:04.740
+tak toto by bylo tohle
+a tady je dx.
+
+04:04.740 --> 04:08.380
+Místo prostě násobení dx krát
+rozdíl mezi těmito funkcemi,
+
+04:08.380 --> 04:10.181
+umocníme rozdíl funkcí na druhou,
+
+04:10.181 --> 04:13.040
+protože máme toto těleso ve 3D,
+
+04:13.040 --> 04:14.730
+obsah plochy tohoto tělesa,
+
+04:14.730 --> 04:18.960
+místo pouze výšky tohoto malého obdélníku.
+
+04:18.960 --> 04:20.980
+A když bychom spočítali tento integrál,
+
+04:20.980 --> 04:28.060
+tak bychom doopravdy dostali objem tohoto.
+
+04:28.060 --> 04:31.150
+Tohle není lehký určitý
+integrál na spočítání,
+
+04:31.150 --> 04:33.650
+ale pro to můžeme použít kalkulačku.
+
+04:33.650 --> 04:44.070
+Vezmeme si kalkulačku, zmáčkneme
+tlačítko "Math", číslo 9 a zadáme.
+
+04:44.070 --> 04:52.710
+Jdeme od 0 do 2, pak zadáme
+závorky, protože to budu chtít mocnit.
+
+04:52.710 --> 05:02.650
+6 minus 4 krát přirozený
+logaritmus z (3 minus x).
+
+05:02.650 --> 05:11.620
+Uzavřu závorky u přirozeného logaritmu,
+potom kolem celého výrazu. Pak mocnit.
+
+05:11.620 --> 05:16.330
+Pak to zintegrujeme vzhledem k x.
+
+05:16.330 --> 05:20.350
+A výsledek je zhruba 26,27.
+
+05:20.350 --> 05:24.520
+Takže zhruba 26,27 je objem tohoto tělesa.
+
+05:24.520 --> 05:30.000
+Když bychom chtěli nějaké jednotky,
+tak by to mohly být jednotky na třetí.

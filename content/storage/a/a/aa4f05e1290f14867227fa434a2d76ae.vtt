@@ -1,0 +1,297 @@
+WEBVTT
+
+00:00.360 --> 00:03.180
+In diesem Video betrachten wir geometrische Reihen.
+
+00:03.180 --> 00:06.580
+Zum besseren Verständnis erstelle ich eine Tabelle,
+
+00:06.580 --> 00:09.160
+die uns zeigt, wie unser Geld anwächst,
+
+00:09.160 --> 00:14.120
+wenn wir z.B. $1000 pro Jahr auf ein Konto einzahlen.
+
+00:14.120 --> 00:17.560
+Hier haben wir das Jahr.
+
+00:17.560 --> 00:21.320
+Wir überlegen, wie viel wir am Anfang des Jahres haben,
+
+00:21.320 --> 00:26.080
+und das ist der Betrag auf unserem Konto.
+
+00:26.080 --> 00:31.480
+Die Bank zahlt uns einen Zinssatz von jährlich 5%,
+
+00:31.480 --> 00:32.460
+was ziemlich gut ist.
+
+00:32.460 --> 00:34.040
+Es ist schwierig, ein Konto zu finden,
+
+00:34.040 --> 00:37.210
+das einem tatsächlich 5% Wachstum pro Jahr bietet.
+
+00:37.210 --> 00:42.100
+Das bedeutet, wenn du $100 einzahlst,
+hast du exakt 1 Jahr später $105.
+
+00:42.100 --> 00:45.420
+Wenn du $1000 einzahlst, hast du 1 Jahr später $1050.
+
+00:45.430 --> 00:47.090
+Der Betrag wächst um 5%.
+
+00:47.090 --> 00:51.810
+Sagen wir mal, wir wollen jährlich $1000 einzahlen.
+
+00:51.810 --> 01:00.800
+Ich möchte herausfinden, wie mein Kontostand
+am Anfang von Jahr 1, 2, 3 usw. aussieht.
+
+01:00.800 --> 01:07.040
+Dann wollen wir einen allgemeinen
+Ausdruck für den Anfang von Jahr n finden.
+
+01:07.040 --> 01:13.820
+In Jahr 1 zahle ich am Anfang
+des Jahres $1000 auf das Konto ein.
+
+01:13.820 --> 01:15.620
+Das ist ziemlich einfach.
+
+01:15.620 --> 01:17.840
+Aber was passiert in Jahr 2?
+
+01:17.840 --> 01:23.820
+Ich zahle $1000 ein, habe aber auch noch die ursprünglichen $1000, die angewachsen sind.
+
+01:23.820 --> 01:27.020
+Ich zahle also $1000 ein,
+
+01:27.020 --> 01:31.100
+und die ursprünglichen $1000, die ich
+am Anfang von Jahr 1 eingezahlt habe,
+
+01:31.100 --> 01:33.600
+sind jetzt um 5% angewachsen.
+
+01:33.610 --> 01:39.580
+Wachstum um 5% ist dasselbe
+wie mit 1,05 zu multiplizieren.
+
+01:39.580 --> 01:47.840
+Wir rechnen also + $1000 ⋅ 1,05.
+
+01:47.840 --> 01:49.150
+Ziemlich einfach.
+
+01:49.150 --> 01:51.240
+Was haben wir am Anfang von Jahr 3?
+
+01:51.240 --> 01:56.120
+Wie viel habe ich am Anfang des Jahres 3 auf
+dem Konto, direkt wenn ich die Einzahlung mache?
+
+01:56.120 --> 02:00.200
+Pausiere das Video und versuche, die Antwort zu finden.
+
+02:00.200 --> 02:03.680
+Es ist genauso wie zu Beginn von Jahr 2 und Jahr 1.
+
+02:03.680 --> 02:06.860
+Wir zahlen $1000 ein,
+
+02:06.870 --> 02:11.610
+aber das Geld von Jahr 2 ist jetzt um 5% angewachsen,
+
+02:11.610 --> 02:18.040
+also haben wir $1000 ⋅ 1,05.
+
+02:18.040 --> 02:22.080
+Und das Geld, das wir ursprünglich
+in Jahr 1 eingezahlt haben,
+
+02:22.080 --> 02:25.640
+bei dem wir 1000 ⋅ 1,05 in Jahr 2 gerechnet haben,
+
+02:25.640 --> 02:28.080
+ist um weitere 5% angewachsen.
+
+02:28.080 --> 02:35.760
+Wir haben also + 1000 ⋅ 1,05 ⋅ 1,05.
+
+02:35.760 --> 02:37.820
+Wir wachsen um weitere 5%.
+
+02:37.820 --> 02:43.760
+Wir könnten diesen Teil hier als 1,05² scheiben.
+
+02:43.760 --> 02:47.440
+Siehst du das grundlegende Muster, das hier entsteht?
+
+02:47.440 --> 02:51.520
+Pausiere das Video und versuche,
+einen allgemeinen Ausdruck zu finden.
+
+02:51.520 --> 02:55.180
+Du kannst die Jahre dazwischen alle überspringen.
+
+02:55.180 --> 02:59.000
+Versuche, einen allgemeinen
+Ausdruck für das Jahr n zu finden.
+
+02:59.000 --> 03:06.780
+Im Jahr n zahlen wir zu Beginn
+die ursprünglichen $1000 ein,
+
+03:06.780 --> 03:14.200
+und dann rechnen wir 1000 ⋅ 1,05
+
+03:14.200 --> 03:18.440
+für die $1000, die du am Anfang
+des Jahres (n - 1) eingezahlt hast.
+
+03:18.440 --> 03:30.720
+Und das geht immer so weiter bis hin zu + $1000 ⋅ 1,05,
+
+03:30.720 --> 03:34.420
+und schreibst in den Exponenten
+die Anzahl der Jahre, in denen verzinst wurde.
+
+03:34.420 --> 03:37.380
+Du kannst diese $1000 als die sehen,
+die du in Jahr 1 eingezahlt hast.
+
+03:37.380 --> 03:40.230
+Wie viele Jahre wurde der Betrag verzinst?
+
+03:40.230 --> 03:42.420
+Von Jahr 1 zu 2 haben wir eine Verzinsung von 1 Jahr.
+
+03:42.420 --> 03:45.100
+Von 1 zu 3 haben wir eine Verzinsung von 2 Jahren.
+
+03:45.110 --> 03:47.640
+Wenn wir also von dem Beginn von Jahr n sprechen,
+
+03:47.640 --> 03:50.320
+haben wir als Exponenten
+einen Wert, der 1 kleiner als n ist.
+
+03:50.320 --> 03:54.360
+Also ist unser Exponent (n - 1).
+
+03:54.360 --> 03:58.340
+Wir haben den Betrag für jedes dieser Jahre berechnet.
+
+03:58.340 --> 04:02.440
+Wir fragen uns, wie unser Kontostand
+zu Beginn von Jahr 3 aussieht,
+
+04:02.440 --> 04:05.800
+oder wie unser Kontostand
+zu Beginn von Jahr n aussieht.
+
+04:05.800 --> 04:16.620
+Das hier sind geometrische Reihen.
+
+04:16.620 --> 04:21.040
+Eine kleine Wiederholung:
+
+04:21.040 --> 04:23.740
+Reihen sind mit Reihenfolgen verwandt,
+
+04:23.740 --> 04:33.420
+und du kannst Reihen als Summen
+von Reihenfolgen betrachten.
+
+04:33.420 --> 04:36.350
+Eine Reihenfolge ist eine geordnete Liste von Zahlen.
+
+04:36.350 --> 04:43.800
+Wenn wir z.B. eine geometrische Reihenfolge haben,
+
+04:43.800 --> 04:48.560
+ist jeder nachfolgende Term das Produkt aus dem vorhergehenden Term und einer festgelegten Zahl.
+
+04:48.560 --> 04:51.600
+Wir fangen z.B. bei 2 an und multiplizieren immer mit 3.
+
+04:51.600 --> 04:54.560
+Wir haben also 2, 2 ⋅ 3 = 6,
+
+04:54.570 --> 04:59.170
+6 ⋅ 3 = 18, 18 ⋅ 3 = 54.
+
+04:59.170 --> 05:03.040
+Das ist eine geometrische Reihenfolge,
+eine geordnete Liste von Zahlen.
+
+05:03.040 --> 05:06.890
+Wenn wir uns die geometrische Reihe anschauen,
+
+05:06.890 --> 05:09.090
+oder die, die hiermit vergleichbar ist,
+
+05:09.090 --> 05:10.840
+dann würden wir die Terme hier addieren.
+
+05:10.840 --> 05:16.320
+Das hier ist 2 + 6 + 18 + 54.
+
+05:16.320 --> 05:17.960
+Wir könnten es auch anders schreiben,
+
+05:17.960 --> 05:20.920
+so wie wir es eben bei dem Beispiel über
+das Sparen von Geld gemacht haben:
+
+05:20.920 --> 05:32.120
+2 + 2 ⋅ 3 + 2 ⋅ 3² + 2 ⋅ 3³.
+
+05:32.120 --> 05:36.120
+Bei der geometrischen Reihe hast du also eine Summe,
+
+05:36.120 --> 05:39.660
+bei der jeder nachfolgende Term in dem Ausdruck,
+
+05:39.660 --> 05:42.020
+wenn du sie in Reihenfolge hast,
+
+05:42.020 --> 05:47.080
+das Produkt des vorhergehenden
+Terms und einer festgelegten Zahl ist.
+
+05:47.080 --> 05:49.720
+Der zweite Term ist gleich dem ersten multipliziert mit 3,
+
+05:49.720 --> 05:51.630
+und wir addieren sie in einer Reihenfolge.
+
+05:51.630 --> 05:53.010
+Hier ist sie.
+
+05:53.010 --> 05:54.630
+Es ist quasi eine geordnete Liste,
+
+05:54.630 --> 05:58.270
+aber hier addierst du die geordnete Liste.
+
+05:58.270 --> 06:01.280
+In diesem Beispiel haben wir also gesehen,
+
+06:01.280 --> 06:07.780
+was eine geometrische Reihe
+ist und warum sie nützlich ist.
+
+06:07.780 --> 06:09.210
+Das ist erst der Anfang.
+
+06:09.210 --> 06:12.140
+Wenn du dich weitergehend mit Finanzen beschäftigst,
+
+06:12.140 --> 06:16.700
+wirst du feststellen, dass geometrische
+Reihen überall auftauchen.

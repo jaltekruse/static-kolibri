@@ -1,0 +1,544 @@
+WEBVTT
+
+00:00.500 --> 00:04.182
+We've already seen many
+examples of infinite series.
+
+00:04.182 --> 00:06.765
+But what's exciting about what
+we're about to do in this video
+
+00:06.765 --> 00:09.879
+is we're going to use infinite
+series to define a function.
+
+00:09.879 --> 00:11.420
+And the most common
+one that you will
+
+00:11.420 --> 00:17.120
+see in your mathematical
+careers is the power series.
+
+00:17.120 --> 00:20.010
+And I'm about to write a general
+case of the power series.
+
+00:20.010 --> 00:22.250
+So I could imagine
+a function, f of x,
+
+00:22.250 --> 00:26.100
+being defined as
+the infinite sum.
+
+00:26.100 --> 00:30.900
+So going from n equals 0
+to infinity of a sub n--
+
+00:30.900 --> 00:33.760
+so a sub n is just going to be
+the coefficient on each term--
+
+00:33.760 --> 00:37.320
+times our variable x
+minus some constant c.
+
+00:37.320 --> 00:39.160
+You could almost
+imagine this is shifting
+
+00:39.160 --> 00:42.260
+our function to the n-th power.
+
+00:42.260 --> 00:43.910
+So if I were to
+expand this out, I
+
+00:43.910 --> 00:46.390
+have my first term's
+coefficient, a sub 0,
+
+00:46.390 --> 00:50.630
+times x minus c
+to the 0-th power,
+
+00:50.630 --> 00:54.400
+plus a sub 1 times x minus
+c to the first power.
+
+00:54.400 --> 00:57.180
+This one, of course, will
+simplify just a sub 0.
+
+00:57.180 --> 01:01.590
+This would simplify to a sub
+1 times x minus c plus a sub
+
+01:01.590 --> 01:04.700
+2 times x minus c squared.
+
+01:04.700 --> 01:07.587
+And I could just keep
+going on and on and on.
+
+01:07.587 --> 01:09.170
+Now, when you see
+this, you might say,
+
+01:09.170 --> 01:10.760
+aren't our geometric
+series, don't
+
+01:10.760 --> 01:13.440
+those look like a special
+case of a power series
+
+01:13.440 --> 01:17.260
+if our common ratio was an x
+instead of an r in that case,
+
+01:17.260 --> 01:21.920
+or if our common ratio was a
+variable, I guess I could say?
+
+01:21.920 --> 01:23.060
+And you would be right.
+
+01:23.060 --> 01:25.490
+That absolutely
+would be the case.
+
+01:25.490 --> 01:28.800
+So a geometric series.
+
+01:28.800 --> 01:31.050
+So let's just think about
+defining a function in terms
+
+01:31.050 --> 01:32.482
+of a geometric series.
+
+01:32.482 --> 01:33.940
+And of course, we
+don't have to use
+
+01:33.940 --> 01:36.650
+x all the time as the
+independent variable,
+
+01:36.650 --> 01:38.650
+but this is kind of the
+most typical convention.
+
+01:38.650 --> 01:40.900
+I guess we could also use r
+as an independent variable
+
+01:40.900 --> 01:42.240
+if we wanted as well.
+
+01:42.240 --> 01:44.067
+But let's imagine
+a function g of x.
+
+01:44.067 --> 01:45.900
+We could have g of r
+if we wanted, but let's
+
+01:45.900 --> 01:50.200
+do g of x is equal
+to the sum from n
+
+01:50.200 --> 01:57.060
+equals 0 to infinity
+of a times x to the n.
+
+01:57.060 --> 02:01.220
+So this is kind of a typical
+geometric series here.
+
+02:01.220 --> 02:04.020
+And what's the difference
+between this and this?
+
+02:04.020 --> 02:06.259
+Well, the difference is is
+here, for every term we're
+
+02:06.259 --> 02:07.800
+going to have the
+same coefficient a,
+
+02:07.800 --> 02:09.864
+while over here we have a sub n.
+
+02:09.864 --> 02:12.280
+We're multiplying by a different
+thing every time up here.
+
+02:12.280 --> 02:14.610
+We're multiplying by the
+same thing over here.
+
+02:14.610 --> 02:16.930
+And in this case, this
+particular geometric series
+
+02:16.930 --> 02:19.420
+I just made, instead of
+having x minus c to the n,
+
+02:19.420 --> 02:20.580
+we have just x to the n.
+
+02:20.580 --> 02:22.705
+So you could say, well,
+this is a special case when
+
+02:22.705 --> 02:24.270
+c is equal to 0.
+
+02:24.270 --> 02:25.440
+And we can expand it out.
+
+02:25.440 --> 02:28.040
+This is a times
+x to the 0, which
+
+02:28.040 --> 02:31.540
+is just going to be a, plus
+a times x to the first,
+
+02:31.540 --> 02:33.330
+plus a times x squared.
+
+02:33.330 --> 02:36.210
+And we just go on and
+on and on forever.
+
+02:36.210 --> 02:38.540
+Now, what's exciting
+about this is
+
+02:38.540 --> 02:43.510
+we know that this, under
+certain conditions,
+
+02:43.510 --> 02:45.950
+will actually give
+us a finite value.
+
+02:45.950 --> 02:47.640
+This will actually converge.
+
+02:47.640 --> 02:51.350
+This will actually, I guess,
+give us a sensical answer.
+
+02:51.350 --> 02:53.520
+So under what conditions
+does that happen?
+
+02:53.520 --> 02:56.279
+Well, this converges
+if each of these terms
+
+02:56.279 --> 02:57.820
+gets smaller and
+smaller and smaller.
+
+02:57.820 --> 03:00.390
+And each of these terms gets
+smaller and smaller and smaller
+
+03:00.390 --> 03:06.470
+if the absolute value of our
+common ratio is less than 1.
+
+03:06.470 --> 03:08.100
+So let me write that down.
+
+03:08.100 --> 03:14.410
+So this converges if
+the absolute value
+
+03:14.410 --> 03:18.181
+of our common ratio
+is less than 1.
+
+03:18.181 --> 03:19.680
+Or another way of
+thinking about it,
+
+03:19.680 --> 03:23.020
+this is another way
+of saying that x
+
+03:23.020 --> 03:26.120
+is in the interval
+between-- it's less than 1
+
+03:26.120 --> 03:29.280
+and it is greater
+than negative 1.
+
+03:29.280 --> 03:31.640
+And this term right over
+here, now x is a variable.
+
+03:31.640 --> 03:33.300
+x can vary between those values.
+
+03:33.300 --> 03:35.640
+We're defining a
+function in terms of x.
+
+03:35.640 --> 03:37.740
+We call this the
+interval of convergence.
+
+03:46.090 --> 03:48.487
+And so we know that if
+x is in this interval,
+
+03:48.487 --> 03:50.070
+this is going to
+give us a finite sum.
+
+03:50.070 --> 03:52.380
+And we know what
+that finite sum is.
+
+03:52.380 --> 03:56.620
+It's going to be equal
+to-- if it converges.
+
+03:56.620 --> 03:58.950
+So if it converges,
+this is going
+
+03:58.950 --> 04:01.950
+to be equal to our first
+term, which is just
+
+04:01.950 --> 04:05.490
+a-- this simplifies to a
+right over here-- over 1
+
+04:05.490 --> 04:07.580
+minus our common ratio.
+
+04:07.580 --> 04:08.820
+What's our common ratio?
+
+04:08.820 --> 04:11.360
+Our common ratio in
+this example is x.
+
+04:11.360 --> 04:15.120
+Going from one term to the next,
+we're just multiplying by x.
+
+04:15.120 --> 04:19.640
+We're just multiplying
+by x right over there.
+
+04:19.640 --> 04:21.510
+Now, this is pretty
+neat, because we're
+
+04:21.510 --> 04:23.390
+going to be able
+to use this fact
+
+04:23.390 --> 04:26.030
+to put more
+traditionally-defined functions
+
+04:26.030 --> 04:28.750
+into this form, and
+then try to expand them
+
+04:28.750 --> 04:31.660
+out using a geometric series.
+
+04:31.660 --> 04:33.722
+And this whole idea
+of using power series,
+
+04:33.722 --> 04:35.430
+or in this special
+case, geometric series
+
+04:35.430 --> 04:37.280
+to represent functions,
+has all sorts
+
+04:37.280 --> 04:39.750
+of applications in
+engineering and finance.
+
+04:39.750 --> 04:43.980
+Using a finite number of
+terms of these series,
+
+04:43.980 --> 04:46.130
+you could kind of
+approximate the functions
+
+04:46.130 --> 04:48.020
+in a way that's simpler
+for the human brain
+
+04:48.020 --> 04:49.470
+to understand, or
+maybe a simpler
+
+04:49.470 --> 04:51.690
+way to manipulate in some way.
+
+04:51.690 --> 04:54.610
+But what's interesting
+here is instead of just
+
+04:54.610 --> 04:57.540
+going from the sum
+to-- instead of going
+
+04:57.540 --> 05:01.922
+from this expanded-out version
+to this kind of finite value,
+
+05:01.922 --> 05:04.130
+we're now going to start
+being able to take something
+
+05:04.130 --> 05:06.930
+in this form and expand it
+out into a geometric series.
+
+05:06.930 --> 05:08.734
+But we have to be
+careful to make sure
+
+05:08.734 --> 05:11.150
+that we're only doing it over
+the interval of convergence.
+
+05:11.150 --> 05:13.790
+This is only going to be
+true over the interval
+
+05:13.790 --> 05:15.010
+of convergence.
+
+05:15.010 --> 05:18.550
+Now, one other term you might
+see in your mathematical career
+
+05:18.550 --> 05:20.220
+is a radius.
+
+05:20.220 --> 05:21.945
+Radius of convergence.
+
+05:24.970 --> 05:28.770
+And this is how far--
+up to what value,
+
+05:28.770 --> 05:30.180
+but not including this value.
+
+05:30.180 --> 05:36.760
+So as long as our x value stays
+less than a certain amount
+
+05:36.760 --> 05:40.680
+from our c value, then
+this thing will converge.
+
+05:40.680 --> 05:44.470
+Now in this case,
+our c value is 0.
+
+05:44.470 --> 05:46.720
+So we could ask
+ourselves a question.
+
+05:49.290 --> 05:53.120
+As long as x stays
+within some value of 0,
+
+05:53.120 --> 05:54.540
+this thing is going to converge.
+
+05:54.540 --> 05:55.914
+Well, you see it
+right over here.
+
+05:55.914 --> 06:01.302
+As long as x stays
+within one of 0.
+
+06:01.302 --> 06:03.010
+It can't go all the
+way to 1, but as long
+
+06:03.010 --> 06:05.000
+as it stays less
+than 1, or as long
+
+06:05.000 --> 06:06.500
+as it stays greater
+than negative 1.
+
+06:10.300 --> 06:12.490
+It can stray anything
+less than one
+
+06:12.490 --> 06:14.380
+away from 0, either in
+the positive direction
+
+06:14.380 --> 06:16.460
+or the negative direction.
+
+06:16.460 --> 06:18.560
+Then this thing
+will still converge.
+
+06:18.560 --> 06:23.640
+So we could say that our radius
+of convergence is equal to 1.
+
+06:23.640 --> 06:26.550
+Another way to think about it,
+our interval of convergence--
+
+06:26.550 --> 06:28.490
+we're going from
+negative 1 to 1,
+
+06:28.490 --> 06:29.980
+not including those
+two boundaries,
+
+06:29.980 --> 06:31.690
+so our interval is 2.
+
+06:31.690 --> 06:34.450
+So our radius of
+convergence is half of that.
+
+06:39.550 --> 06:41.920
+As long as x stays
+within one of 0,
+
+06:41.920 --> 06:44.440
+and that's the same thing as
+saying this right over here,
+
+06:44.440 --> 06:48.310
+this series is
+going to converge.

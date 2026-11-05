@@ -1,0 +1,360 @@
+WEBVTT
+
+00:00.730 --> 00:03.510
+Deixe f ser a função dada por f(x),
+
+00:03.510 --> 00:07.500
+que é igual à raíz quadrada de x mais
+quatro menos três sobre x menos cinco,
+
+00:07.500 --> 00:12.640
+se x não for igual a cinco,
+e é igual a c, se x for igual a cinco.
+
+00:12.640 --> 00:15.630
+Então digamos,
+se f for contínuo em x igual a cinco,
+
+00:15.630 --> 00:17.630
+qual é o valor de c?
+
+00:17.630 --> 00:21.060
+Se sabemos que f é contínuo
+quando x é igual a cinco,
+
+00:21.060 --> 00:27.670
+isto significa que o limite de f(x),
+quando x se aproxima de cinco
+
+00:27.670 --> 00:30.390
+é igual a f(5).
+
+00:30.390 --> 00:32.870
+Esta é a definição de continuidade.
+
+00:32.870 --> 00:34.590
+E eles nos dizem que f(5),
+
+00:34.590 --> 00:36.970
+quando x é igual a cinco,
+o valor da função é igual a c.
+
+00:36.970 --> 00:38.917
+Portanto, isso deve ser igual a c.
+
+00:38.917 --> 00:40.500
+Então, o que realmente precisamos calcular
+
+00:40.500 --> 00:45.600
+é qual é realmente o limite de
+f(x) quando x se aproxima de cinco.
+
+00:45.600 --> 00:47.810
+Agora, se tentarmos apenas substituir cinco
+
+00:47.810 --> 00:51.150
+dentro da expressão aqui em cima,
+no numerador
+
+00:51.150 --> 00:53.120
+você tem cinco mais quatro igual a nove.
+
+00:53.120 --> 00:55.020
+A raiz quadrada disso é três positivo,
+
+00:55.020 --> 00:57.220
+a raiz principal é três positivo.
+
+00:57.220 --> 00:58.550
+Três menos três é zero.
+
+00:58.550 --> 01:00.170
+Portanto, você obtém um zero no numerador.
+
+01:00.170 --> 01:02.520
+E então você obtém cinco menos
+cinco no denominador,
+
+01:02.520 --> 01:03.940
+e você obtém zero no denominador.
+
+01:03.940 --> 01:07.507
+E portanto você obtém esta forma
+indeterminada de zero sobre zero.
+
+01:07.507 --> 01:09.090
+E mais tarde vamos ver que temos
+
+01:09.090 --> 01:12.540
+uma ferramenta que nos dá a opção
+
+01:12.540 --> 01:14.050
+de tentar encontrar o limite quando
+
+01:14.050 --> 01:15.400
+temos esta forma indeterminda,
+
+01:15.400 --> 01:17.080
+que é chamado de regra L'Hopital
+
+01:17.080 --> 01:19.370
+mas podemos na verdade lidar com isto
+
+01:19.370 --> 01:20.920
+com álgebra um pouco mais sofisticada.
+
+01:20.920 --> 01:22.840
+E para fazer isto, eu vou tentar
+
+01:22.840 --> 01:25.990
+retirar este radical do numerador
+
+01:25.990 --> 01:27.050
+Portanto, vamos reescrevê-lo.
+
+01:27.050 --> 01:36.090
+Temos a raiz quadrada de
+x mais quatro menos três sobre x menos cinco.
+
+01:36.090 --> 01:39.622
+Em qualquer momento você vê um radical
+mais ou menos uma outra coisa.
+
+01:39.622 --> 01:41.080
+Para se livrar do radical
+
+01:41.080 --> 01:44.220
+você pode multiplicar pelo radical
+
+01:44.220 --> 01:46.260
+ou, se você tiver um radical menos três,
+
+01:46.260 --> 01:48.810
+você multiplica pelo radical mais três.
+
+01:48.810 --> 01:50.740
+Portanto, nesta situação, você apenas multiplica
+
+01:50.740 --> 01:54.940
+o numerador pela raiz quadrada
+de x mais quatro
+
+01:54.940 --> 02:00.830
+mais três sobre a raiz quadrada
+de x mais quatro mais três.
+
+02:00.830 --> 02:02.900
+Obviamente temos que
+multiplicar o numerador
+
+02:02.900 --> 02:04.640
+e o denominador pela mesma coisa
+
+02:04.640 --> 02:08.729
+para que não mudemos o valor da expressão.
+
+02:08.729 --> 02:10.560
+se isso aqui tivesse um três positivo,
+
+02:10.560 --> 02:12.020
+Então faríamos um três positivo aqui.
+
+02:12.020 --> 02:14.540
+Esta é uma técnica que aprendemos
+em álgebra, talvez
+
+02:14.540 --> 02:17.420
+em aulas de cálculo, normalmente
+para racionalizar denominadores,
+
+02:17.420 --> 02:20.300
+mas para racionalizar
+numeradores ou denominadores,
+
+02:20.300 --> 02:21.750
+e também é uma técnica bastante simiilar
+
+02:21.750 --> 02:24.690
+que usamos com frequência
+para nos livrar de números complexos,
+
+02:24.690 --> 02:27.319
+normalmente em denominadores.
+
+02:27.319 --> 02:29.860
+Mas se você multiplicar isto,
+e eu te encorajo a fazê-lo,
+
+02:29.860 --> 02:31.526
+você vai observar que isto tem um padrão
+
+02:31.526 --> 02:32.850
+que você aprendeu em aulas de álgebra.
+
+02:32.850 --> 02:34.190
+É uma diferença de quadrados.
+
+02:34.190 --> 02:37.500
+Algo menos algo vezes algo mais algo
+
+02:37.500 --> 02:41.460
+Então este primeiro termo
+vai ser o primeiro 'algo' ao quadrado.
+
+02:41.460 --> 02:46.160
+Portanto a raiz quadrada de x
+mais quatro ao quadrado é x mais quatro.
+
+02:46.160 --> 02:49.530
+E o segundo termo vai ser o segundo 'algo',
+
+02:49.530 --> 02:52.020
+ou você vai subtrair o segundo 'algo' ao quadrado.
+
+02:52.020 --> 02:55.940
+Portanto você vai ter menos três
+ao quadrado e, portanto, menos nove.
+
+02:55.940 --> 02:57.700
+E no denominador, você vai
+
+02:57.700 --> 03:04.520
+ter x menos cinco vezes a raiz quadrada de x
+
+03:04.520 --> 03:07.930
+mais quatro mais três.
+
+03:07.930 --> 03:11.270
+Você pode dizer que simplificamos isto -
+
+03:11.270 --> 03:13.010
+embora não se torne mais simples.
+
+03:13.010 --> 03:15.024
+Mas pelos menos obtemos nosso radical.
+
+03:15.024 --> 03:16.690
+Estamos apenas usando recursos de
+
+03:16.690 --> 03:20.020
+álgebra para ver se podemos
+substituir x igual a cinco
+
+03:20.020 --> 03:21.970
+ou se podemos, de alguma forma,
+simplificar e calcular
+
+03:21.970 --> 03:23.090
+qual é o limite.
+
+03:23.090 --> 03:25.700
+E quando você simplifica o numerador aqui em cima,
+
+03:25.700 --> 03:27.650
+você obtém x mais quatro menos cinco.
+
+03:27.650 --> 03:35.570
+Bem, isto é x menos cinco sobre x
+
+03:35.570 --> 03:39.750
+ou x mais quatro mais três.
+
+03:39.750 --> 03:42.260
+E agora aparece para você que,
+ambos os numeradores e denominadores,
+
+03:42.260 --> 03:46.910
+são agora divisíveis por x menos cinco.
+
+03:46.910 --> 03:49.235
+Portanto você pode ter uma
+expressão exatamente igual
+
+03:49.235 --> 03:50.860
+se você disse que isto é a mesma coisa.
+
+03:50.860 --> 03:53.670
+Você pode dividir o numerador
+e o denominador por x menos cinco.
+
+03:53.670 --> 03:55.920
+Se você supor que x não seja igual a cinco.
+
+03:55.920 --> 03:58.990
+Isto vai ser o mesmo que um
+
+03:58.990 --> 04:10.190
+sobre a raiz quadrada de x mais quatro
+mais três, para x diferente de cinco,
+
+04:10.190 --> 04:13.380
+o que está ok, porque na primeira
+parte da definição desta função,
+
+04:13.380 --> 04:16.480
+este é o caso para x diferente de cinco.
+
+04:16.480 --> 04:18.060
+Portanto poderíamos substituir isto,
+
+04:18.060 --> 04:21.149
+e esta é uma expressão mais simples,
+
+04:21.149 --> 04:26.500
+com um sobre a raiz quadrada
+de x mais quatro mais três.
+
+04:26.500 --> 04:28.667
+E agora quando pegamos o limite
+quando x se aproxima de cinco,
+
+04:28.667 --> 04:30.541
+vamos chegar mais e mais perto de cinco.
+
+04:30.541 --> 04:32.800
+Vamos obter valores de x
+mais e mais próximos de cinco,
+
+04:32.800 --> 04:34.250
+mas não exatamente cinco.
+
+04:34.250 --> 04:36.490
+Podemos usar esta expressão aqui.
+
+04:36.490 --> 04:39.310
+O limite de f(x), à medida que
+x se aproxima de cinco,
+
+04:39.310 --> 04:42.923
+vai ser a mesma coisa que o limite
+
+04:42.923 --> 04:49.690
+de um sobre a raiz quadrada de x mais quatro
+mais três, à medida que x se aproxima de cinco.
+
+04:49.690 --> 04:52.220
+E agora podemos substituir cinco aqui.
+
+04:52.220 --> 04:56.310
+Vai ficar um sobre cinco
+mais quatro, que é igual a nove,
+
+04:56.310 --> 04:58.840
+a raiz disso é três.
+
+04:58.840 --> 05:01.030
+Três mais trés é seis.
+
+05:01.030 --> 05:08.930
+Portanto, se c for igual a 1/6,
+o limite da nossa função,
+
+05:08.930 --> 05:13.800
+à medida que x se aproxima de cinco,
+vai ser igual a f(5).
+
+05:13.800 --> 05:17.340
+E a função é contínua para x igual a cinco.
+
+05:17.340 --> 05:19.331
+Portanto é 1/6.

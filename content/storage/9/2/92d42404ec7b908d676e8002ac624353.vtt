@@ -1,0 +1,506 @@
+WEBVTT
+
+00:00.610 --> 00:02.500
+What we're going to
+try to do in this video
+
+00:02.500 --> 00:07.470
+is approximate the
+area under the curve y
+
+00:07.470 --> 00:13.940
+is equal to x squared plus 1
+between the intervals x equals
+
+00:13.940 --> 00:15.830
+1 and x equals 3.
+
+00:15.830 --> 00:17.270
+And we're going
+to approximate it
+
+00:17.270 --> 00:22.170
+by constructing four rectangles
+under the curve of equal width.
+
+00:22.170 --> 00:24.960
+So let's first think about what
+those rectangles look like, so
+
+00:24.960 --> 00:28.470
+four rectangles of equal width.
+
+00:28.470 --> 00:32.070
+So it looks like that,
+like that, and like that.
+
+00:32.070 --> 00:35.420
+And I haven't really defined the
+top of the rectangles just yet.
+
+00:35.420 --> 00:37.410
+But let's think about
+what those widths have
+
+00:37.410 --> 00:39.118
+to be if they're going
+to be equal width.
+
+00:39.118 --> 00:41.630
+And we can call
+that width delta x.
+
+00:41.630 --> 00:43.840
+So this distance
+right over here,
+
+00:43.840 --> 00:46.170
+we're going to
+call that delta x.
+
+00:46.170 --> 00:49.720
+So delta x is going to have
+to be the total distance
+
+00:49.720 --> 00:51.010
+that we're traveling in x.
+
+00:51.010 --> 00:52.450
+So we finish at 3.
+
+00:52.450 --> 00:53.840
+We started at 1.
+
+00:53.840 --> 00:56.600
+And we want four
+equal-width rectangles.
+
+00:56.600 --> 00:59.420
+So it's going to
+be equal to 1/2.
+
+00:59.420 --> 01:02.660
+So for example,
+this first interval
+
+01:02.660 --> 01:05.800
+between the boundary between the
+first rectangle and the second
+
+01:05.800 --> 01:07.970
+is going to be 1.5.
+
+01:07.970 --> 01:09.420
+Then we go 1/2 to 2.
+
+01:09.420 --> 01:11.480
+Then we go to 2.5.
+
+01:11.480 --> 01:13.505
+And then we go 1/2 to 3.
+
+01:13.505 --> 01:15.130
+Now, let's think
+about how we'll define
+
+01:15.130 --> 01:17.009
+the height of the rectangles.
+
+01:17.009 --> 01:19.300
+For the sake of this video--
+we'll see in future videos
+
+01:19.300 --> 01:21.030
+that there's other
+ways of doing this--
+
+01:21.030 --> 01:23.910
+I'm going to use the left
+boundary of the rectangle
+
+01:23.910 --> 01:26.450
+to define the height-- or
+the function, I should say.
+
+01:26.450 --> 01:29.050
+I'm going to use the function
+evaluated at the left boundary
+
+01:29.050 --> 01:30.310
+to define the height.
+
+01:30.310 --> 01:33.470
+So for example, for
+the first rectangle,
+
+01:33.470 --> 01:38.720
+this point right
+over here is f of 1.
+
+01:38.720 --> 01:42.070
+And so I will say that
+that is the height
+
+01:42.070 --> 01:45.690
+of our first rectangle.
+
+01:45.690 --> 01:48.940
+Then we go over here
+to the left boundary
+
+01:48.940 --> 01:50.450
+of the second rectangle.
+
+01:50.450 --> 01:56.530
+We're now looking at the
+function evaluated at 1.5.
+
+01:56.530 --> 01:59.980
+So that is f of 1.5.
+
+01:59.980 --> 02:01.200
+That's the height.
+
+02:01.200 --> 02:05.360
+And so we get our
+second rectangle.
+
+02:05.360 --> 02:08.880
+Then, we get-- I can keep
+going like this-- we get,
+
+02:08.880 --> 02:11.290
+for this third
+rectangle, we have
+
+02:11.290 --> 02:13.445
+the function evaluated at 2.
+
+02:17.090 --> 02:18.280
+So that's right over here.
+
+02:18.280 --> 02:21.100
+That's f of 2.
+
+02:21.100 --> 02:23.660
+And so then we get
+our third rectangle.
+
+02:23.660 --> 02:25.950
+And then, finally, we
+have our fourth rectangle,
+
+02:25.950 --> 02:28.760
+the function evaluated at 2.5.
+
+02:28.760 --> 02:31.810
+So the function evaluated
+at 2.5 is the height.
+
+02:31.810 --> 02:34.160
+So this is f of 2.5.
+
+02:34.160 --> 02:36.430
+Remember, in each
+of these, I'm just
+
+02:36.430 --> 02:39.350
+looking at the left
+boundary of the rectangle
+
+02:39.350 --> 02:40.750
+and evaluating
+the function there
+
+02:40.750 --> 02:43.700
+to get the height
+of the rectangle.
+
+02:43.700 --> 02:45.200
+Now that I've set
+it up in this way,
+
+02:45.200 --> 02:47.880
+what is the total
+approximate area
+
+02:47.880 --> 02:49.970
+using the sum of
+these rectangles?
+
+02:49.970 --> 02:52.830
+And clearly, this isn't going
+to be a perfect approximation.
+
+02:52.830 --> 02:55.404
+I'm giving up on a
+bunch of area here.
+
+02:55.404 --> 02:57.320
+Let me see if I can color
+that in with a color
+
+02:57.320 --> 02:58.670
+that I have not used.
+
+02:58.670 --> 02:59.890
+So I'm giving up.
+
+02:59.890 --> 03:01.080
+I'm giving up this area.
+
+03:01.080 --> 03:02.760
+I'm giving up this area.
+
+03:02.760 --> 03:04.590
+I'm giving up that area.
+
+03:04.590 --> 03:06.774
+I'm giving up that area there.
+
+03:06.774 --> 03:08.190
+But this is just
+an approximation,
+
+03:08.190 --> 03:10.080
+and maybe if I had
+many more rectangles,
+
+03:10.080 --> 03:13.700
+it would be a better
+approximation.
+
+03:13.700 --> 03:16.200
+So let's figure out what the
+areas of each of the rectangles
+
+03:16.200 --> 03:16.700
+are.
+
+03:16.700 --> 03:18.200
+So the area of this
+first rectangle
+
+03:18.200 --> 03:23.170
+is going to be the
+height, which is f of 1,
+
+03:23.170 --> 03:26.660
+times the base,
+which is delta x.
+
+03:26.660 --> 03:28.300
+The area of the
+second rectangle is
+
+03:28.300 --> 03:33.860
+going to be the height, which
+we already said was f of 1.5,
+
+03:33.860 --> 03:37.050
+times the base, times delta x.
+
+03:37.050 --> 03:39.110
+The height of the
+third rectangle
+
+03:39.110 --> 03:43.270
+is going to be the function
+evaluated at its left boundary,
+
+03:43.270 --> 03:49.820
+so f of 2-- so plus f of 2
+times the base, times delta x.
+
+03:49.820 --> 03:53.660
+And then, finally, the area of
+the third rectangle, the height
+
+03:53.660 --> 03:55.660
+is the function
+evaluated at 2.5,
+
+03:55.660 --> 03:57.710
+so plus-- that's
+a different color
+
+03:57.710 --> 04:00.710
+than what I wanted to use.
+
+04:00.710 --> 04:02.810
+I wanted to use that
+orange color-- so
+
+04:02.810 --> 04:09.030
+plus the function evaluated
+at 2.5 times the base.
+
+04:09.030 --> 04:12.300
+This is going to be equal
+to our approximate area--
+
+04:12.300 --> 04:16.760
+let me make it clear--
+approximate area
+
+04:16.760 --> 04:18.940
+under the curve, just the
+sum of these rectangles.
+
+04:18.940 --> 04:20.779
+So let's evaluate this.
+
+04:20.779 --> 04:23.260
+So this is going
+to be equal to f
+
+04:23.260 --> 04:26.520
+of-- it's going to be equal to
+the function evaluated at 1.
+
+04:26.520 --> 04:31.680
+1 squared plus 1 is just 2, so
+it's going to be 2 times 1/2.
+
+04:31.680 --> 04:34.830
+Plus the function
+evaluated at 1.25.
+
+04:34.830 --> 04:38.690
+1.25 squared is 2.25.
+
+04:38.690 --> 04:41.910
+And then you add 1 to
+it, it becomes 3.25.
+
+04:41.910 --> 04:48.570
+So plus 3.25 times 1/2.
+
+04:48.570 --> 04:51.580
+And then we have the
+function evaluated at 2.
+
+04:51.580 --> 04:56.830
+Well, 2 squared plus 1 is
+5, so it's 5 times 1/2.
+
+04:56.830 --> 04:59.910
+And then finally, you have
+the function evaluated at 2.5.
+
+04:59.910 --> 05:06.760
+2.5 squared is 6.25 plus 1.
+
+05:06.760 --> 05:12.964
+So that's 7.25 times 1/2.
+
+05:12.964 --> 05:14.380
+And just to make
+the math simpler,
+
+05:14.380 --> 05:16.660
+we can factor out the 1/2.
+
+05:16.660 --> 05:19.350
+So this is going to be
+equal to-- write 1/2
+
+05:19.350 --> 05:33.480
+in a neutral color-- 1/2
+times 2 plus 3.25 plus 5
+
+05:33.480 --> 05:43.360
+plus 7.25, which is equal
+to 1/2 times-- let's
+
+05:43.360 --> 05:45.140
+see if I can do this in my head.
+
+05:45.140 --> 05:46.500
+2 plus 5 is easy.
+
+05:46.500 --> 05:47.774
+That's 7.
+
+05:47.774 --> 05:49.950
+3 plus 7 is 10.
+
+05:49.950 --> 05:52.680
+And then we have 0.25
+plus 0.25, so it's
+
+05:52.680 --> 05:56.910
+going to be 10.5 plus 7 is 17.5.
+
+05:56.910 --> 06:04.460
+So 1/2 times 17.5,
+which is equal to 8.75,
+
+06:04.460 --> 06:07.036
+Which, once again, gives
+us an approximation.
+
+06:07.036 --> 06:09.260
+And clearly, the way I've
+drawn it right over here,
+
+06:09.260 --> 06:11.004
+for the function
+we're using, it's
+
+06:11.004 --> 06:13.170
+going to be an underestimate,
+because we've given up
+
+06:13.170 --> 06:15.360
+all that pink area that
+I had colored in before.
+
+06:15.360 --> 06:17.890
+It's an underestimate,
+but it's an approximation
+
+06:17.890 --> 06:19.902
+of the area under the curve.
+
+06:19.902 --> 06:21.360
+In the next few
+videos, we're going
+
+06:21.360 --> 06:24.040
+to try to generalize
+this to situations where
+
+06:24.040 --> 06:25.540
+we have an arbitrary
+function and we
+
+06:25.540 --> 06:28.720
+have an arbitrary
+number of rectangles.
+
+06:28.720 --> 06:31.110
+And we'll also start--
+in videos after that,
+
+06:31.110 --> 06:34.480
+we'll look at rectangles
+where we define the height not
+
+06:34.480 --> 06:36.480
+by the left boundary, but
+by the right boundary,
+
+06:36.480 --> 06:37.600
+or by the midpoint.
+
+06:37.600 --> 06:39.630
+Or maybe we don't use
+rectangles at all.
+
+06:39.630 --> 06:42.010
+Maybe we might use
+things like trapezoids.
+
+06:42.010 --> 06:44.230
+Anyway, have fun.

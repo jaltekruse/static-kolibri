@@ -1,0 +1,436 @@
+WEBVTT
+
+00:00.066 --> 00:04.797
+Oto obraz Isaaca Newtona, bardzo znanego brytyjskiego matematyka
+
+00:04.797 --> 00:10.036
+oraz fizyka a to jest zdjęcie Gottfrieda Leibniza bardzo znanego
+
+00:10.036 --> 00:13.768
+choć może nie tak znanego jak powinien być niemieckiego
+
+00:13.768 --> 00:17.017
+filozofa i matematyka, który był współczesny Isaacowi Newtonowi.
+
+00:17.017 --> 00:20.485
+Ci dwaj panowie byli razem ojcami
+
+00:20.485 --> 00:24.900
+zalozycielami rachunku rozniczkowego i zrobili część swojej, większość swojej
+
+00:24.900 --> 00:27.334
+głownej pracy pod koniec XVII wieku i
+
+00:27.334 --> 00:29.317
+ten tutaj to Usain Bolt
+
+00:29.317 --> 00:33.085
+sprinter z Jamajki ktory kontynuuje swoją pracę
+
+00:33.085 --> 00:38.267
+w 2012 roku i jeszcze na początku 2012 roku jest najszybszym żyjącym człowiekiem
+
+00:38.267 --> 00:41.550
+i prawdopodobnie jest najszybszym człowiekiem jaki kiedykolwiek żył
+
+00:41.550 --> 00:45.418
+i może nie stworzyłeś jeszcze związku między tymi trzema
+
+00:45.418 --> 00:48.252
+panami. Może myślisz, że nie mają za dużo wspólnego ale oni
+
+00:48.252 --> 00:52.201
+wszyscy byli zafascynowani tym samym fundamentalnym pytaniem, na które rachunek
+
+00:52.201 --> 01:00.335
+różniczkowy odpowiada i tym pytaniem jest jakie jest chwilowe tempo
+
+01:00.335 --> 01:04.351
+zmiany czegoś. W przypadku Usaina Bolta, jak szybko biegnie
+
+01:04.351 --> 01:09.135
+w tej chwili? Nie tylko z jaką średnią prędkością biegł przez ostatnia sekunde albo z jaką
+
+01:09.135 --> 01:13.334
+średnia prędkością będzie biegł przez następne 10 sekund. Jak szybko biegnie w tej chwili?
+
+01:13.334 --> 01:18.801
+I o tym właśnie jest rachunek różniczkowy. Chwilowe tempo zmian.
+
+01:18.801 --> 01:26.517
+Rachunek całkowy. [Rachunek] ... i oryginalnym terminem Newtona na rachunek różniczkowy
+
+01:26.517 --> 01:30.619
+była metoda fleksji, co brzmi trochę fantazyjniej,
+
+01:30.619 --> 01:37.952
+ale chodzi o to, co się dzieje w tej chwili. W tej chwili. I zeby zrozumieć
+
+01:37.952 --> 01:41.702
+czemu nie jest to bardzo łatwy problem do rozwiązania tradycyjną
+
+01:41.702 --> 01:48.150
+algebrą, narysujmy graf. Więc na tej osi, na tej osi, będe miał odległość
+
+01:48.150 --> 01:54.885
+i mówię y jest równe dystansowi. Mogłem ustalić, że d jest równe dystansowi, ale jak potem zobaczymy
+
+01:54.885 --> 01:58.819
+w rachunku różniczkowym d jest zarezerwowane na coś innego. Wiec y jest równe dystansowi.
+
+01:58.819 --> 02:04.767
+I na tej osi, ustalimy czas. I mogłem ustalić t=czas ale raczej ustalę x=time.
+
+02:04.767 --> 02:10.902
+x=time. Więc jeśli mamy naszkicować drogę Usaina Bolta jako funkcję czasu
+
+02:10.902 --> 02:16.886
+wtedy w czasie 0 nie przebiegl nigdzie. Jest dokladnie tutaj i wiemy, ze ten
+
+02:16.886 --> 02:23.335
+pan jest w stanie przebyć 100 metrów w 9.58 sekund
+
+02:23.335 --> 02:27.819
+wiec po 9.58 sekundach zakładamy ze to jest w sekundach tutaj,
+
+02:27.819 --> 02:31.736
+przebiegł 100 metrów. 100 metrów.
+
+02:31.736 --> 02:36.401
+i uzywajac tej informacji mozemy obliczyc jego srednia predkosc
+
+02:36.401 --> 02:44.351
+jego srednia predkosc w tej chwili bedzie rowna zmianie drogi
+
+02:44.351 --> 02:48.802
+podzielonej przez zmiane czasu
+
+02:48.802 --> 02:56.186
+i uzywajac zmiennych, ustalamy ze y=droga i to jest zmiana w y
+
+02:56.186 --> 03:01.619
+podzielona przez zmiane w x od tego punktu do tego. I to moze skojarzyc ci sie
+
+03:01.619 --> 03:07.152
+z podstawowa algebra. To nachylenie pomiędzy tymi dwoma punktami. Jeśli połączę te dwa punkty linia
+
+03:07.152 --> 03:13.186
+i jeśli mam linie która połączy te dwa punkty, to to jest nachylenie tej linii.
+
+03:13.186 --> 03:21.935
+Zmiana odleglosci jest wlasnie tym odcinkiem, Zmiana w y =100m i nasza zmiana w czasie to ten odcinek
+
+03:21.935 --> 03:30.751
+wiec zmiana w czasie wynosi 9.58 sekundy, zaczynamy od 0, idziemy do 9.58 sekund. Innym sposobem
+
+03:30.751 --> 03:33.101
+by o tym myśleć jest wzrost wartości po argumentach.
+
+03:33.101 --> 03:34.752
+mogłeś o tym słyszeć na lekcjach algebry.
+
+03:34.752 --> 03:37.586
+Bedzie wynosic 100 metrow przez 9.58 sekund
+
+03:37.586 --> 03:42.053
+Wiec to jest 100m/9.58s
+
+03:42.053 --> 03:45.787
+I nachylenie wykresu jest tak naprawdę tempem zmiany,
+
+03:45.787 --> 03:47.752
+albo średnim tempem zmiany,
+
+03:47.752 --> 03:51.069
+pomiędzy tymi dwoma punktami. I później zobaczysz ze jeśli wyprowadzisz jednostki
+
+03:51.069 --> 03:54.436
+wyjdą ci jednostki szybkości.
+
+03:54.436 --> 03:56.980
+Będzie to prędkość, jeśli weźmiemy pod uwagę kierunek
+
+03:56.980 --> 04:00.803
+I możemy dowiedzieć się jaka ta prędkość jest. Niech wyciagne kalkulator.
+
+04:00.803 --> 04:07.137
+Wiec, niech wyjmę... kalkulator na ekran.
+
+04:07.137 --> 04:14.454
+Wiec liczymy 100 metrów przez 9.58 sekund to około 10.4
+
+04:14.454 --> 04:22.087
+okolo 10.4 i jednostki to metry na sekunde
+
+04:22.087 --> 04:28.270
+I oto jego srednia predkosc. I za chwile zobaczymy jak
+
+04:28.270 --> 04:32.919
+jego srednia predkosc jest rozna od jego predkosci chwilowej
+
+04:32.919 --> 04:35.121
+Jak jest rozna od predkosci z jaka moze biec w kazdej
+
+04:35.121 --> 04:38.570
+danej chwili. I żeby mieć pojecie jak szybko to może byc
+
+04:38.570 --> 04:41.636
+niech otworze kalkulator jeszcze raz. To jest w metrach na sekundę.
+
+04:41.636 --> 04:43.802
+Jeśli chcecie wiedzieć ile metrów przebiega na godzinę,
+
+04:43.802 --> 04:45.653
+jest 3600 sekund w godzinie.
+
+04:45.653 --> 04:50.953
+Więc byłby w stanie pobiec taką ilość metrów 3600 razy.
+
+04:50.953 --> 04:54.603
+Więc tak dużo metrów może, o ile w jakiś sposób byłby w stanie
+
+04:54.603 --> 04:57.503
+utrzymać tę prędkość przez godzinę, to jest prędkość z jaką biega
+
+04:57.503 --> 05:00.715
+w metrach na godzinę. I teraz jeżeli mielibyście powiedzieć jak dużo mil
+
+05:00.715 --> 05:03.719
+na godzinę, to jest około 1600 i nie znam dokładnej liczby
+
+05:03.719 --> 05:06.954
+ale około 1600 metrów w mili, więc podzielmy to
+
+05:06.954 --> 05:10.986
+przez 1600. I widać, że jest to lekko ponad 23,
+
+05:10.986 --> 05:14.069
+około 23 i 1/2 mili na godzinę. To jest około...
+
+05:14.069 --> 05:26.803
+Pozwólcie, że napiszę to w ten sposób, to jest około 23.5 mph.
+
+05:26.803 --> 05:28.337
+Przesunę to.
+
+05:28.337 --> 05:29.738
+Mil na godzinę.
+
+05:29.738 --> 05:31.719
+I w porównaniu do samochodu to nie dużo, ale
+
+05:31.719 --> 05:34.586
+w porównaniu do mnie jest to baaaardzo szybko. Teraz, aby zobaczyć
+
+05:34.586 --> 05:38.525
+czym to się różni od chwilowej prędkości,
+
+05:38.525 --> 05:42.253
+Pozwólcie, że pomyślę teraz o potencjalnym wykresie dystansu do czasu.
+
+05:42.253 --> 05:44.921
+On nie zamierza biec z taką prędkością od razu.
+
+05:44.921 --> 05:46.538
+On nie zamierza wystartować od razu po
+
+05:46.538 --> 05:48.656
+strzale. On nie będzie po prostu biegł 23 i 1/2 mph
+
+05:48.656 --> 05:51.402
+przez całą drogę. On będzie przyspieszał.
+
+05:51.402 --> 05:54.204
+Więc najpierw zacznie odrobinę wolniej.
+
+05:54.204 --> 05:56.788
+Jego nachylenie będzie troszkę niższy
+
+05:56.788 --> 05:58.919
+niż średnie nachylenie. On będzie troszeczkę wolniejszy.
+
+05:58.919 --> 06:01.404
+Następnie zacznie przyspieszać. Tak jak jego
+
+06:01.404 --> 06:05.038
+prędkość. I widzicie, że jego nachylenie jest coraz większe i większe
+
+06:05.038 --> 06:09.220
+i następnie, być może na końcu, zaczyna się trochę męczyć.
+
+06:09.220 --> 06:12.486
+Więc jego stosunek dystansu do czasu może być krzywą
+
+06:12.486 --> 06:14.337
+o podobnym do tego kształcie.
+
+06:14.337 --> 06:16.978
+I co my tutaj policzyliśmy to średnie dla
+
+06:16.978 --> 06:21.570
+tej zmiany w czasie. Możemy to zobaczyć w każdym momencie,
+
+06:21.570 --> 06:23.470
+nachylenie jest zawsze różne.
+
+06:23.470 --> 06:27.903
+Na początku miał mniejszą zmianę
+
+06:27.903 --> 06:30.487
+dystansu. Następnie, gdy zaczął przyspieszać,
+
+06:30.487 --> 06:33.621
+o tutaj, wygląda jakby jego zmiana dystansu byłaby
+
+06:33.621 --> 06:34.670
+mniej więcej - albo możesz to zobaczyć
+
+06:34.670 --> 06:36.754
+jako nachylenie tangensa w tym punkcie -
+
+06:36.754 --> 06:38.838
+wygląda na wyższe niż średnie.
+
+06:38.838 --> 06:40.671
+I następnie znowu zaczyna zwalniać.
+
+06:40.671 --> 06:43.887
+?? ... Średnia to około 23.5 mil na godzinę.
+
+06:43.887 --> 06:46.954
+I spojrzałem na chwilową prędkość Usaina Bolta
+
+06:46.954 --> 06:48.637
+na jego szczytową chwilową prędkość,
+
+06:48.637 --> 06:51.337
+jest ona bliska 30 mil na godzinę.
+
+06:51.337 --> 06:53.220
+Więc to nachylenie mogłoby być
+
+06:53.220 --> 06:55.053
+23... mil na godzinę,
+
+06:55.053 --> 06:57.620
+ale chwilowo, jego najszybszy punkt w tych
+
+06:57.620 --> 07:01.138
+9.58 sekundach jest bliski 30 mil na godzinę.
+
+07:01.138 --> 07:04.020
+Ale widzicie, że to nie jest jakaś oczywista rzecz.
+
+07:04.020 --> 07:05.771
+Moglibyście powiedzieć: Ok, pozwólcie, że spróbuję przybliżyć
+
+07:05.771 --> 07:07.988
+nachylenie w tym miejscu i
+
+07:07.988 --> 07:09.269
+moglibyście to zrobić przez powiedzenie: Ok,
+
+07:09.269 --> 07:11.003
+cóż, jaka jest zmiana w "y"
+
+07:11.003 --> 07:13.138
+nad zmianą w "x" w okolicy tego.
+
+07:13.138 --> 07:18.353
+Moglibyście powiedzieć: Wezmę sobie zmianę w x
+
+07:18.353 --> 07:21.020
+i wykombinuje jaka jest zmiana w y w okolicy tego.
+
+07:21.020 --> 07:25.470
+Lub jeżeli to ominiemy. Więc mamy to, ale to byłoby tylko przybliżenie.
+
+07:25.470 --> 07:28.404
+Ponieważ widzicie, że nachylenie tej krzywej ciągle się zmienia.
+
+07:28.404 --> 07:33.354
+Więc to co chcecie zrobić to zobaczyć co się stanie gdy zmiana x będzie coraz mniejsza.
+
+07:33.354 --> 07:35.937
+Gdy zmiana x staje się coraz mniejsza i mniejsza
+
+07:35.937 --> 07:37.754
+dostajemy coraz lepsze przybliżenie.
+
+07:37.754 --> 07:40.538
+Zmiana w y staje się coraz mniejsza i mniejsza.
+
+07:40.538 --> 07:43.321
+Więc to co chcecie zrobić, a my będziemy zgłębiać
+
+07:43.321 --> 07:44.821
+i studiować to bardziej ściśle,
+
+07:44.821 --> 07:50.304
+to wzięcie granicy przy zmianie x dążącej do 0.
+
+07:50.304 --> 07:52.289
+Gdy zmiana x dąży do zera z
+
+07:52.289 --> 07:57.554
+zmiany w y nad zmianą w x
+
+07:57.554 --> 08:00.489
+i kiedy to zrobicie, to zbliżycie się
+
+08:00.489 --> 08:03.238
+do chwilowego tempa zmiany które moglibyście
+
+08:03.238 --> 08:06.071
+zobaczyć jako chwilowe nachylenia w danym punkcie na krzywej.
+
+08:06.071 --> 08:08.837
+Lub nachylenie tangensa w tym punkcie na krzywej.
+
+08:08.837 --> 08:12.519
+Lub jeżeli używamy terminologii z analizy, zobaczylibyśmy to jako pochodną.
+
+08:12.519 --> 08:17.304
+Więc chwilowe nachylenie to pochodna.
+
+08:17.304 --> 08:20.421
+I notacja której używamy przy pochodnej to dy
+
+08:20.421 --> 08:23.421
+nad dx. I dlatego zarezerwowałem literę y.
+
+08:23.421 --> 08:28.137
+Jak to się ma do słowa "różniczka"?
+
+08:28.137 --> 08:32.466
+To dy to różniczka,
+
+08:32.466 --> 08:36.003
+dx to różniczka. I droga aby utworzyć pojęcie tego to
+
+08:36.003 --> 08:40.123
+nieskończenie mała zmiana w y nad nieskończenie małą zmianą w x.
+
+08:40.123 --> 08:43.820
+I przez branie bardzo, bardzo, bardzo małej zmiany w y lub w x
+
+08:43.820 --> 08:46.038
+jesteście w stanie dostać to chwilowe nachylenie
+
+08:46.038 --> 08:47.654
+lub w tym przypadku
+
+08:47.654 --> 08:53.188
+chwilową prędkość Usaina Bolta w konkretnym momencie.
+
+08:53.188 --> 08:55.455
+I zauważcie, nie możecie po prostu włożyć tutaj zera.
+
+08:55.455 --> 08:58.821
+Jeżeli włożymy 0 jako zmianę w x dostaniecie coś niezdefiniowanego.
+
+08:58.821 --> 09:01.472
+Nie możecie dzielić przez 0. Bierzecie granicę
+
+04:41.636 --> 08:58.821
+gdzie zmiana x zbiega do 0 i zdefiniujemy to bardziej ściśle w przyszłych filmach.

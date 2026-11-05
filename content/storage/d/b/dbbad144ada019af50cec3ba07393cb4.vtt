@@ -1,0 +1,419 @@
+WEBVTT
+
+00:00.450 --> 00:04.870
+V minulém videu jsme získali
+celkem dobrou představu o tom,
+
+00:04.870 --> 00:10.990
+jaké x bychom při odřezávání rohů měli
+zvolit, abychom měli co největší objem.
+
+00:10.990 --> 00:12.294
+A dělali jsme
+to graficky.
+
+00:12.294 --> 00:15.730
+V tomto videu bych chtěl použít
+některé nástroje diferenciálního počtu,
+
+00:15.730 --> 00:19.330
+abychom viděli, zda dosáhneme
+stejného nebo lepšího výsledku.
+
+00:19.330 --> 00:24.000
+Abych to udělal, musím najít stacionární
+body našeho objemu jako funkce proměnné x.
+
+00:24.000 --> 00:26.800
+Nejprve potřebuji
+objem zderivovat,
+
+00:26.800 --> 00:27.870
+takže to teď udělám.
+
+00:27.870 --> 00:30.710
+Předtím, než to udělám,
+si výraz zjednoduším,
+
+00:30.715 --> 00:34.475
+abych pak nemusel derivovat
+součin a následně to upravovat.
+
+00:34.475 --> 00:36.940
+Všechno v tomto výrazu
+si roznásobím.
+
+00:36.940 --> 00:41.770
+Objem jakožto funkce
+proměnné x se rovná…
+
+00:41.770 --> 00:44.650
+Napíšu to žlutě.
+
+00:44.650 --> 00:46.565
+...bude to x krát…
+
+00:46.565 --> 00:48.495
+Roznásobím nejprve
+tyto závorky.
+
+00:48.495 --> 00:52.310
+20 krát 30 je 600.
+
+00:52.310 --> 00:58.600
+Pak mám 20 krát −2 krát x,
+což je −40 krát x.
+
+00:58.600 --> 01:03.520
+Potom −2 krát x krát 30,
+což je −60 krát x.
+
+01:03.520 --> 01:10.650
+A nakonec −2 krát x krát −2 krát x,
+což je 4 krát x na druhou.
+
+01:10.650 --> 01:13.620
+Tato část se zjednoduší,
+když změním pořadí členů,
+
+01:13.620 --> 01:21.180
+na 4 krát x na druhou
+minus 100 krát x plus 600.
+
+01:21.190 --> 01:23.770
+Jenom jsem změnil pořadí,
+ve kterém píšu členy.
+
+01:24.980 --> 01:30.745
+Objem teď mohu přepsat jako
+x krát tento výraz, což se...
+
+01:30.745 --> 01:32.905
+Napíšu to víc nahoru,
+abych měl dost místa.
+
+01:32.905 --> 01:42.110
+...což se rovná 4 krát x na třetí minus
+100 krát x na druhou plus 600 krát x.
+
+01:42.110 --> 01:45.020
+Tohle teď půjde
+docela přímočaře zderivovat.
+
+01:45.020 --> 01:50.630
+První derivace funkce
+V(x) se rovná...
+
+01:50.645 --> 01:53.060
+Jen několikrát použiju
+vzorec pro derivaci mocniny.
+
+01:53.060 --> 01:58.980
+...4 krát 3 je 12, krát x na (3 minus 1),
+takže celkem 12 krát x na druhou,
+
+01:58.985 --> 02:07.725
+minus 200 krát x na prvou,
+což je jen 200 krát x, plus 600.
+
+02:07.725 --> 02:11.850
+Nyní zbývá zjistit,
+kdy se tento výraz rovná 0.
+
+02:11.850 --> 02:19.830
+Musíme tedy zjistit, kdy se 12 krát x na
+druhou minus 200 krát x plus 600 rovná 0,
+
+02:19.830 --> 02:23.070
+neboli pro které hodnoty x
+bude derivace rovna 0,
+
+02:23.070 --> 02:26.339
+neboli také kdy je
+sklon roven 0.
+
+02:26.339 --> 02:29.730
+Taky mohu hledat stacionární body,
+ve kterých derivace není definovaná,
+
+02:29.730 --> 02:35.850
+ale tato derivace je všude definovaná,
+tedy i pro ta x, která mě budou zajímat,
+
+02:35.850 --> 02:40.040
+což jsou hodnoty
+mezi 0 a 10.
+
+02:40.040 --> 02:44.000
+Mohl bych to teď zkusit rozložit na součin
+nebo trochu zjednodušit,
+
+02:44.000 --> 02:47.763
+ale raději rovnou použiju vzorec
+pro kořeny kvadratické rovnice.
+
+02:47.763 --> 02:59.820
+Kořeny této rovnice se rovnají −b,
+což je 200, protože minus −200 je 200,
+
+02:59.820 --> 03:07.400
+plus minus odmocnina z b na druhou,
+což je (−200) na druhou,
+
+03:07.400 --> 03:09.832
+takže to můžu napsat
+jako 200 na druhou.
+
+03:09.832 --> 03:14.080
+Je jedno, zda máme (−200) na druhou
+nebo 200 na druhou, vyjde totéž.
+
+03:14.080 --> 03:17.580
+Udělám si tady
+víc místa.
+
+03:17.580 --> 03:26.670
+(−200) na druhou se rovná 4 a za ní
+čtyři nuly, což je 40 000,
+
+03:26.670 --> 03:36.270
+minus 4 krát ‚a‘ krát ‚c‘,
+takže minus 4 krát 12 krát 600...
+
+03:36.270 --> 03:38.050
+Stejně jsem si
+nenechal dost místa.
+
+03:38.050 --> 03:46.050
+...krát 600, a to celé děleno 2 krát ‚a‘,
+takže to celé děleno 24.
+
+03:46.050 --> 03:49.740
+Teď zase vytáhnu kalkulačku
+a zkusím to spočítat.
+
+03:49.740 --> 03:51.970
+Přepnu z grafického modu.
+
+03:51.970 --> 03:56.970
+Nejprve spočítám případ,
+kdy bude před odmocninou plus.
+
+03:56.970 --> 04:05.920
+Dostanu 200 plus
+odmocnina z 40 000...
+
+04:05.920 --> 04:09.684
+Mohl bych to napsat i jako
+200 na druhou, ale může to být i takto.
+
+04:09.684 --> 04:18.455
+...40 000 minus
+4 krát 12 krát 600.
+
+04:18.455 --> 04:29.560
+Dostanu 305, což ještě musím
+vydělit 24, a to vyjde jako 12,74.
+
+04:29.560 --> 04:35.150
+Toto je první z
+možných x, rovná se 12,74.
+
+04:35.150 --> 04:39.050
+Nyní vyřeším případ,
+kdy budu odmocninu odčítat.
+
+04:39.050 --> 04:40.960
+Znovu si vezmu
+kalkulačku.
+
+04:40.960 --> 04:43.667
+Teď to bude 200...
+
+04:43.667 --> 04:47.302
+Asi bych to mohl udělat i efektivněji,
+ale tohle je taky v pořádku.
+
+04:47.302 --> 04:59.780
+...minus odmocnina z
+(40 000 minus 4 krát 12 krát 600).
+
+04:59.780 --> 05:09.580
+Dostanu tento čitatel, který
+ještě vydělím 24, a vyjde mi 3,92.
+
+05:09.580 --> 05:10.460
+Mám to správně?
+
+05:10.460 --> 05:16.410
+200 minus (40 000 minus
+4 krát 12 krát 600), to celé děleno 24.
+
+05:16.410 --> 05:22.060
+Výsledek předchozího výpočtu
+děleno 24 mi dalo 3,92.
+
+05:22.060 --> 05:27.390
+Kořeny jsou tedy
+12,74 a 3,92.
+
+05:27.390 --> 05:29.750
+Který z nich
+mohu použít?
+
+05:29.750 --> 05:36.870
+x rovno 12,74 je mimo náš
+interval přípustných hodnot pro x.
+
+05:36.870 --> 05:43.730
+Pokud by x bylo rovno 12,74,
+tak by se tyto délky x překrývaly.
+
+05:43.730 --> 05:47.110
+x tedy nemůže
+být 12,74.
+
+05:47.110 --> 05:52.200
+Stacionárním bodem je tedy
+jen bod x rovno 3,92.
+
+05:52.200 --> 05:56.530
+Teď se můžeme podívat na graf a říct si,
+že to vypadá jako maximální hodnota,
+
+05:56.530 --> 05:59.440
+ale kdybychom graf
+neměli k dispozici,
+
+05:59.440 --> 06:01.650
+mohli bychom použít
+druhou derivaci a ptát se:
+
+06:01.650 --> 06:06.810
+„Je křivka konvexní nebo konkávní,
+když je x rovno 3,92?"
+
+06:06.810 --> 06:09.950
+Nejprve musíme zjistit,
+jak vypadá druhá derivace.
+
+06:09.950 --> 06:10.910
+Takže pojďme na to.
+
+06:10.910 --> 06:25.240
+Druhá derivace funkce V(x)
+se rovná 24 krát x minus 200.
+
+06:25.240 --> 06:30.890
+Vidíme, že toto číslo
+je menší než 4,
+
+06:30.890 --> 06:36.180
+takže tento výraz bude menší než 100
+a ještě od něho odečteme 200,
+
+06:36.180 --> 06:41.670
+takže můžeme napsat, že druhá
+derivace v bodě 3,92 je méně než 0.
+
+06:41.670 --> 06:44.770
+Můžete zjistit její přesnou
+hodnotu, jestli chcete.
+
+06:44.770 --> 06:50.995
+Protože je tohle menší než 0,
+funkce je zde konkávní.
+
+06:50.995 --> 06:56.470
+Jinými slovy to znamená,
+že sklon celou dobu klesá.
+
+06:56.470 --> 06:57.610
+Konkávní.
+
+06:57.610 --> 07:01.020
+Pokud sklon celou dobu klesá,
+tak má graf přibližně tento tvar.
+
+07:01.020 --> 07:06.070
+Sklon je nejdříve velký, pak klesá až
+je roven 0, potom je ještě menší a menší.
+
+07:06.070 --> 07:08.410
+To jsme dokonce viděli
+přímo v tomto grafu.
+
+07:08.410 --> 07:11.460
+Protože funkce je konkávní,
+tak to znamená,
+
+07:11.460 --> 07:17.950
+že náš stacionární bod, který leží v
+intervalu, na kterém je funkce konkávní,
+
+07:17.950 --> 07:23.950
+je bodem
+lokálního maxima.
+
+07:23.950 --> 07:29.160
+Toto je tedy hodnota x, pro kterou
+naše funkce dosahuje maxima.
+
+07:29.160 --> 07:31.880
+Čemu se tato
+maximální hodnota rovná?
+
+07:31.880 --> 07:37.170
+Dosadíme do našeho původního
+výrazu pro objem a zjistíme, kolik to je.
+
+07:37.170 --> 07:44.190
+Spočítejme tedy, jaký je objem
+pro x rovno 3,92.
+
+07:44.190 --> 07:45.850
+Jaký je náš největší
+možný objem?
+
+07:45.855 --> 07:47.750
+Zase si na to
+vytáhneme kalkulačku.
+
+07:47.750 --> 07:52.340
+Je to samozřejmě jen přibližně 3,92,
+mohl bych použít i tuhle přesnou hodnotu.
+
+07:52.340 --> 07:59.070
+Použiji ale číslo 3,92, takže dostanu
+přibližnou hodnotu maximálního objemu.
+
+07:59.070 --> 08:05.700
+Bude to 3,92...
+
+08:05.700 --> 08:09.830
+Použiji toto vyjádření
+objemu jako funkce proměnné x.
+
+08:09.830 --> 08:36.780
+3,92 krát (20 minus 2 krát 3,92) krát
+(30 minus 2 krát 3,92) nám dá 1 056,3.
+
+08:36.780 --> 08:44.790
+1 056,3, což je větší objem, než jaký
+nám vyšel, když jsme to řešili graficky.
+
+08:44.790 --> 08:47.915
+Možná jsme to tady mohli
+udělat trochu přesněji,
+
+08:47.915 --> 08:52.100
+kdybychom si to víc přiblížili,
+a tím pádem dostali lepší odpověď.
+
+08:52.120 --> 08:54.970
+Analyticky jsme byli schopni
+dostat dokonce lepší odpověď,
+
+08:54.970 --> 08:59.196
+než jakou jsme byli schopni
+získat při grafickém řešení.

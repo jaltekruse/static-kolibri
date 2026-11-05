@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.000 --> 00:03.485
+Powiedzmy, że mamy całkę nieoznaczoną
+
+00:03.485 --> 00:18.636
+i funkcja podcałkowa to (3x^2+2x) razy e do potęgi (x^3+x^2) dx.
+
+00:18.636 --> 00:22.756
+Jak próbowalibyśmy to rozwiązać? Na pierwszy rzut oka
+
+00:22.756 --> 00:27.102
+wydaje się to bardzo skomplikowana całka - mamy tutaj wielomian
+
+00:27.102 --> 00:31.825
+pomnożony przez tę funkcję wykładniczą, a tutaj w wykładniku
+
+00:31.825 --> 00:36.172
+mamy jeszcze inny wielomian. Wydaje się to dość zwariowane.
+
+00:36.172 --> 00:42.403
+I tutaj kluczem do rozwiązania problemu jest zastosowanie techniki zwanej
+
+00:42.403 --> 00:50.163
+"całkowaniem przez podstawienie". Zaraz wam powiem jak rozpoznaje się sytuacje, w których trzeba tego używać
+
+00:50.163 --> 00:53.573
+i z biegiem czasu, będziecie mogli nawet być w stanie robić to w pamięci.
+
+00:53.573 --> 00:59.498
+Całkowanie przez podstawienie to tak naprawdę coś odwrotnego do różniczkowania złożenia. Kiedy różniczkujemy złożenie...
+
+00:59.498 --> 01:03.767
+Szczegółowo powiem o tym w innym filmie poświęconym wyrabianiu tej intuicji.
+
+01:03.767 --> 01:09.172
+Ale sposób, w jaki o tym myślę to, cóż, tutaj mam ten szalony wykładnik.
+
+01:09.172 --> 01:16.895
+Mam x^3+x^2. I tak się składa, że ten wyraz tutaj jest pochodną
+
+01:16.895 --> 01:23.486
+x^3+x^2. Pochodna x^3 to 3x^2, pochodna x^2 to 2x,
+
+01:23.486 --> 01:27.822
+co dla mnie jest dużą wskazówką, że należy całkować przez podstawienie.
+
+01:27.822 --> 01:33.047
+To, co tu robię, gdzie widzę to wyrażenie i widzę też jego pochodną
+
+01:33.047 --> 01:43.044
+która jest mnożona, mogę oznaczyć to jako u. Mogę zatem powiedzieć "u jest równe x^3+x^2".
+
+01:43.044 --> 01:46.903
+Jaka będzie zatem pochodna u względem x?
+
+01:46.903 --> 01:56.887
+du/dx, robiliśmy to już wiele razy, będzie równe 3x^2+2x
+
+01:56.887 --> 02:03.497
+i teraz możemy to zapisać w formie różniczkowej. I du/dx to nie jest właściwie ułamek
+
+02:03.497 --> 02:08.700
+z du w liczniku i dx w mianowniku, to tak naprawdę pewien rodzaj notacji
+
+02:08.700 --> 02:12.372
+ale często wygodnie jest udawać że to ułamek.
+
+02:12.372 --> 02:16.500
+I tak można na to teraz spojrzeć: jeśli chcecie wyznaczyć z tego du
+
+02:16.500 --> 02:21.980
+jeśli chcemy to zobaczyć w formie różniczkowej, czyli jak zmienia się u dla danej zmiany x
+
+02:21.994 --> 02:32.771
+możemy pomnożyć obie strony równania przez dx. I gdybyśmy udawali, że to ułamek
+
+02:32.771 --> 02:35.856
+co da nam poprawny wynik
+
+02:35.856 --> 02:49.103
+dostaniemy, że du jest równe (3x^2+2x)dx.
+
+02:49.103 --> 02:54.350
+Dlaczego to jest tutaj, dlaczego trudziłem się z wyprowadzeniem tego?
+
+02:54.350 --> 03:01.171
+Zobaczmy, że mamy tu 3x^2+2x i jest ono pomnożone przez to dx tutaj.
+
+03:01.171 --> 03:08.695
+Teraz mogę przepisać naszą całkę jako całkę, użyję tutaj koloru,
+
+03:08.695 --> 03:20.196
+całkę 3x^2+2x razy dx razy e, teraz użyję innego koloru,
+
+03:20.196 --> 03:28.891
+razy e do x^3+x^2. Teraz, co jest w tym ciekawe?
+
+03:28.891 --> 03:35.771
+Cóż, ten fioletowy napis jest równy naszemu du.
+
+03:35.771 --> 03:41.561
+A ten napis, który tu jest, x^3+x^2, powiedziałem, że to jest równe u.
+
+03:41.561 --> 03:46.169
+Więc to będzie równe u. Więc mogę przepisać naszą całkę
+
+03:46.169 --> 03:49.700
+i tutaj możecie zobaczyć, dlaczego to sporo nam ułatwia
+
+03:49.700 --> 03:53.222
+będzie ona równa, i to co teraz zrobię to zamienię kolejność.
+
+03:53.222 --> 03:57.297
+Przerzucę du, to całe du, przerzucę je na koniec
+
+03:57.297 --> 04:01.704
+żeby wyglądało to bardziej jak standardowy zapis całki nieoznaczonej, do którego się przyzwyczailiśmy
+
+04:01.704 --> 04:15.495
+czyli będzie to, będziemy mieć nasze du razy e do u.
+
+04:15.495 --> 04:20.892
+A jaka będzie tego funkcja pierwotna względem u?
+
+04:20.892 --> 04:25.958
+Cóż, pochodna e^u to e^u, funkcja pierwotna e^u to e^u.
+
+04:25.958 --> 04:32.412
+Czyli będzie to równe e do u, jest jeszcze możliwość, że będzie tam jakaś stała
+
+04:32.425 --> 04:38.292
+więc ją dopiszę. Czyli jeszcze plus C. A teraz, żeby dostać rozwiązanie względem x
+
+04:38.292 --> 04:43.096
+Musimy odwrócić podstawienie u. Wiemy, czemu u jest równe.
+
+04:43.096 --> 04:47.030
+Czyli możemy powiedzieć, że będzie to równe e, i teraz zamiast pisać u
+
+04:47.030 --> 05:00.349
+możemy powiedzieć, że u to x^3+x^2. Dopisujemy jeszcze nasze plus C. I gotowe!
+
+05:00.349 --> 05:04.084
+Znaleźliśmy naszą całkę. I zachęcam was, byście to teraz zróżniczkowali
+
+05:04.084 --> 05:08.084
+i myślę, że bez problemu otrzymacie to, od czego wystartowaliśmy.

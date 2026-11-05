@@ -1,0 +1,616 @@
+WEBVTT
+
+00:00.320 --> 00:02.890
+Dans cette vidéo, nous allons apprendre à calculer la distance
+
+00:02.890 --> 00:08.640
+entre n'importe quel deux point du plan cartésien et
+
+00:08.640 --> 00:11.060
+nous allons voir que c'est simplement une application du
+
+00:11.060 --> 00:12.780
+théorême de Pythagore.
+
+00:12.780 --> 00:14.040
+Commençons avec un exemple.
+
+00:14.040 --> 00:16.070
+Disons que nous avons le point, je vais le faire dans une couleur plus foncée
+
+00:16.070 --> 00:17.950
+de façon à ce que nous puissions le voir sur le graphique.
+
+00:17.950 --> 00:22.070
+Disons que j'ai le point 3 virgule moins 4.
+
+00:22.070 --> 00:25.180
+Je vais le tracer, je vais 1, 2, 3, et
+
+00:25.180 --> 00:26.480
+je descends de 4.
+
+00:26.480 --> 00:33.440
+1, 2, 3, 4, juste ici, c'est 3 virgule moins 4.
+
+00:33.440 --> 00:40.110
+Et disons et que j'ai aussi le point 6 virgule 0.
+
+00:40.110 --> 00:45.660
+Donc, 1, 2, 3, 4, 5, 6 et il n'y a pas de déplacement
+
+00:45.660 --> 00:46.310
+en y.
+
+00:46.310 --> 00:47.610
+Nous restons sur l'axe des x.
+
+00:47.610 --> 00:52.086
+La coordonnée y est 0, c'est 6 virgule 0.
+
+00:52.086 --> 00:55.810
+Ce que je veux déterminer, c'est la distance entre ces
+
+00:55.810 --> 00:56.410
+deux points.
+
+00:56.410 --> 01:00.350
+Quelle est la distance entre ce point bleu et ce point orange?
+
+01:00.350 --> 01:01.910
+Au premier abord, vous allez peut-être me dire que vous n'avez
+
+01:01.910 --> 01:03.570
+jamais vu quoique ce soit en lien avec le calcul d'une
+
+01:03.570 --> 01:04.440
+distance comme celle-ci.
+
+01:04.440 --> 01:06.290
+Et pourquoi vous me parlez du théorême de Pythagore?
+
+01:06.290 --> 01:08.180
+Je ne vois pas de triangle!
+
+01:08.180 --> 01:09.690
+Et bien, si vous ne voyez pas de triangle, je
+
+01:09.690 --> 01:10.940
+vais en tracer un pour vous.
+
+01:13.770 --> 01:18.060
+Je vais tracer ce triangle ici, de cette façon.
+
+01:18.060 --> 01:20.690
+Je vais utiliser quelque couleurs afin que vous
+
+01:20.690 --> 01:23.090
+compreniez bien à la maison.
+
+01:23.090 --> 01:24.650
+Alors, voici votre triangle.
+
+01:24.650 --> 01:25.990
+Vous voyez peut-être tout de suite
+
+01:25.990 --> 01:27.950
+que c'est un triangle rectangle.
+
+01:27.950 --> 01:29.810
+C'est un angle droit ici.
+
+01:29.810 --> 01:33.520
+La base est à l'horizontale et la hauteur
+
+01:33.520 --> 01:36.710
+est à la verticale, nous avons affaire à un triangle rectangle.
+
+01:36.710 --> 01:39.210
+Donc, si nous pouvons déterminer la longueur de la base ainsi que
+
+01:39.210 --> 01:42.350
+celle de la hauteur, nous pourrons utiliser le théorême de Pythagore afin de
+
+01:42.350 --> 01:47.690
+déterminer la longueur de ce grand côté, le côté qui est opposé à
+
+01:47.690 --> 01:49.700
+l'angle droit, l'hypoténuse. Ceci.
+
+01:49.700 --> 01:55.890
+La distance est l'hypoténuse de ce
+
+01:55.890 --> 01:57.180
+triangle rectangle.
+
+01:57.180 --> 01:58.180
+Je vais l'écrire.
+
+01:58.180 --> 02:04.050
+La distance est égale à l'hypoténuse
+
+02:04.050 --> 02:05.660
+de ce triangle rectangle.
+
+02:05.660 --> 02:07.480
+Je vais l'agrandir un peu.
+
+02:07.480 --> 02:10.710
+Ceci est l'hypoténuse.
+
+02:10.710 --> 02:14.880
+Ensuite, nous avons la hauteur, la cathète qui est
+
+02:14.880 --> 02:16.070
+à la verticale.
+
+02:16.070 --> 02:18.500
+Puis, nous avons l'autre cathète, la base.
+
+02:18.500 --> 02:19.860
+Maintenant, comment déterminer ce que
+
+02:19.860 --> 02:22.550
+je vais appeler d pour distance.
+
+02:22.550 --> 02:24.540
+Il s'agit de la longueur de notre hypoténuse.
+
+02:24.540 --> 02:27.640
+Comment déterminons-nous la longueur de la cathète verticale
+
+02:27.640 --> 02:30.270
+et de la cathète horizontale, la base, ici?
+
+02:30.270 --> 02:32.940
+Regardons la base en premier, quelle est cette distance?
+
+02:32.940 --> 02:35.010
+Vous pourriez la compter directement sur le graphique, mais, ici,
+
+02:35.010 --> 02:38.150
+nous sommes à x est égal à, je vais le faire en vert,
+
+02:38.150 --> 02:41.530
+ici, nous sommes à x est égal à 3 et là, nous sommes à x est égal
+
+02:41.530 --> 02:42.800
+à 6, d'accord?
+
+02:42.800 --> 02:44.550
+Nous allons vers la droite.
+
+02:44.550 --> 02:47.570
+Il s'agit de la même distance que celle-ci.
+
+02:47.570 --> 02:49.910
+Donc, pour déterminer la distance, c'est littéralement le
+
+02:49.910 --> 02:50.710
+x d'arrivée
+
+02:50.710 --> 02:52.240
+et nous pourrions, en fait, aller dans les deux sens, car
+
+02:52.240 --> 02:53.770
+nous allons tout mettre au carré, ce n'est donc pas grave
+
+02:53.770 --> 02:59.230
+si nous obtenons un nombre négatif. Alors, la distance ici est 6
+
+02:59.230 --> 03:03.360
+moins 3 d'accord?
+
+03:03.360 --> 03:04.680
+6 moins 3.
+
+03:04.680 --> 03:08.520
+C'est la distance ici, qui est égale à 3.
+
+03:08.520 --> 03:10.140
+Nous avons déterminé la longueur de la base.
+
+03:10.140 --> 03:12.610
+et, rappelons-nous que c'est égal à
+
+03:12.610 --> 03:14.200
+la variation en x.
+
+03:14.200 --> 03:17.100
+C'est égal à notre x d'arrivée moins notre
+
+03:17.100 --> 03:17.890
+x de départ.
+
+03:17.890 --> 03:20.020
+6 moins 3.
+
+03:20.020 --> 03:21.860
+C'est notre delta x.
+
+03:21.860 --> 03:25.990
+Maintenant, en suivant la même logique, cette hauteur, ici,
+
+03:25.990 --> 03:29.640
+est la variation en y.
+
+03:29.640 --> 03:31.290
+En haut, nous sommes à y est égal à 0.
+
+03:31.290 --> 03:32.670
+C'est, d'une certaine façon, où nous arrivons.
+
+03:32.670 --> 03:34.360
+C'est notre point le plus haut.
+
+03:34.360 --> 03:37.900
+Et là, nous sommes à y est égal à moins 4.
+
+03:37.900 --> 03:42.460
+Donc, la variation en y est égale à 0 moins moins 4.
+
+03:42.460 --> 03:44.930
+Je prends simplement la plus grande valeur de y moins la plus petite
+
+03:44.930 --> 03:48.810
+valeur de y et la plus grande valeur de x moins la plus petite valeur de x.
+
+03:48.810 --> 03:49.870
+Cependant, nous allons les mettre au carré dans un
+
+03:49.870 --> 03:51.830
+instant, alors si vous le faites dans l'autre sens, vous
+
+03:51.830 --> 03:53.410
+obtiendrez des nombres négatifs, mais obtiendrez malgré tout la même
+
+03:53.410 --> 03:56.030
+réponse au final. Ainsi, c'est égal à 4.
+
+03:56.030 --> 03:57.890
+Ce côté mesure 4.
+
+03:57.890 --> 04:00.370
+Vous pouvez aussi compter sur le graphique si vous le voulez.
+
+04:00.370 --> 04:02.310
+Ce côté mesure 3.
+
+04:02.310 --> 04:07.040
+Maintenant, nous pouvons utiliser le théorème de Pythagore.
+
+04:07.040 --> 04:11.730
+Cette distance ou plutôt cette distance au carré.
+
+04:11.730 --> 04:12.400
+Faites attention.
+
+04:12.400 --> 04:15.270
+La distance au carré est égal à ce delta x carré,
+
+04:15.270 --> 04:19.649
+la variation en x au carré plus
+
+04:19.649 --> 04:23.440
+la variation en y au carré.
+
+04:23.440 --> 04:24.620
+Ce n'est rien de compliqué.
+
+04:24.620 --> 04:26.770
+Parfois, les gens l'appelle la formule de la distance.
+
+04:26.770 --> 04:29.380
+C'est simplement le théorème de Pythagore.
+
+04:29.380 --> 04:31.660
+Ce côté au carré plus ce côté au carré est égal à
+
+04:31.660 --> 04:34.940
+l'hypoténuse au carré, car ceci est un triangle rectangle.
+
+04:34.940 --> 04:38.260
+Appliquons ceci à ces nombres, les nombres de notre
+
+04:38.260 --> 04:39.410
+problème.
+
+04:39.410 --> 04:43.020
+Ainsi, la distance au carré est égal à delta x
+
+04:43.020 --> 04:47.580
+au carré qui est 3 au carré plus delta y au carré qui est 4 carré,
+
+04:47.580 --> 04:53.080
+tout ceci est égal à 9 plus 16 qui est égal à 25.
+
+04:53.080 --> 04:56.050
+Donc, la distance est égale à, je vais l'écrire, d au carré
+
+04:56.050 --> 04:57.550
+est égale à 25.
+
+04:57.550 --> 05:01.600
+d, notre distance, est égale à, nous ne voulons pas prendre
+
+05:01.600 --> 05:03.160
+la racine carrée négative, car une distance ne peut pas être négative,
+
+05:03.160 --> 05:05.370
+Alors, c'est la racine carrée positive de 25
+
+05:05.370 --> 05:09.020
+qui est égale à 5.
+
+05:09.020 --> 05:10.780
+Alors, la distance ici est 5.
+
+05:10.780 --> 05:13.130
+Ou, si nous regardons la distance ici, sur notre
+
+05:13.130 --> 05:13.920
+problème original.
+
+05:13.920 --> 05:16.170
+Quelle est la distance entre ce point et ce point?
+
+05:16.170 --> 05:20.180
+C'est 5 unités.
+
+05:20.180 --> 05:22.930
+Ce que vous voyez ici, on l'appelle la formule de la distance entre deux points,
+
+05:22.930 --> 05:24.730
+mais c'est simplement le théorème de Pythagore.
+
+05:24.730 --> 05:27.000
+Et, afin que vous ayez vu toutes les façons dont cette
+
+05:27.000 --> 05:29.770
+formule de distance est habituellement présentée, sachez que certaines personnes disent,
+
+05:29.770 --> 05:33.340
+si nous avons 2 points, nous avons un point dont les coordonnées sont
+
+05:33.340 --> 05:37.580
+x1 et y1, c'est un point en particulier.
+
+05:37.580 --> 05:42.880
+et disons que nous avons un autre point x2 virgule y2.
+
+05:42.880 --> 05:45.760
+Parfois, vous allez voir cette formule, la distance,
+
+05:45.760 --> 05:46.940
+vous allez la voir de différentes façons.
+
+05:46.940 --> 05:49.850
+Mais vous aller voir que la distance est égale à--
+
+05:49.850 --> 05:52.170
+et vous allez voir une formule plutôt compliquée,
+
+05:52.170 --> 05:53.930
+mais je veux que vous compreniez que c'est simplement
+
+05:53.930 --> 05:55.370
+le théorème de Pythagore.
+
+05:55.370 --> 06:05.340
+Vous voyez que la distance est égale à x2 moins x1, moins x1,
+
+06:05.340 --> 06:18.650
+au carré plus y2 moins y1 au carré.
+
+06:18.650 --> 06:20.950
+Vous allez la voir dans plusieurs manuels comme la
+
+06:20.950 --> 06:22.200
+formule de la distance entre deux points.
+
+06:24.855 --> 06:27.250
+Et c'est un peu une perte de temps de la mémoriser
+
+06:27.250 --> 06:30.060
+car c'est simplement le théorème de Pythagore.
+
+06:30.060 --> 06:32.370
+Ceci est la variation en x.
+
+06:32.370 --> 06:34.710
+Le x que vous choisissez en premier ou en deuxième n'a vraiment pas d'importance
+
+06:34.710 --> 06:36.730
+parce ce que même si vous obtenez une valeur négative,
+
+06:36.730 --> 06:39.470
+quand vous allez l'élever au carré, le moins disparaîtra.
+
+06:39.470 --> 06:42.900
+Ceci est la variation en y.
+
+06:42.900 --> 06:44.693
+Tout ce que la formule nous dit est que la distance au carré, souvenez-vous,
+
+06:44.693 --> 06:48.710
+si vous élevez au carré les deux membres de l'équation, le radical
+
+06:48.710 --> 06:51.010
+disparaît et nous aurons la distance au carré
+
+06:51.010 --> 06:54.900
+égale à cette expression, delta x au carré,
+
+06:54.900 --> 06:59.090
+variation en x, delta signifie variation en, delta x au carré
+
+06:59.090 --> 07:01.540
+plus delta y au carré.
+
+07:01.540 --> 07:02.190
+Je ne veux pas vous embrouillé
+
+07:02.190 --> 07:04.170
+Delta y signifie simplement variation en y.
+
+07:04.170 --> 07:06.380
+J'aurais peut-être dû le mentionner plutôt dans la vidéo.
+
+07:06.380 --> 07:09.290
+Je vais maintenant appliquer la formule en choisissant quelques
+
+07:09.290 --> 07:10.030
+points arbitrairement.
+
+07:10.030 --> 07:14.850
+Disons que nous avons le point, 1, 2, 3, 4, 5, 6.
+
+07:14.850 --> 07:17.660
+moins 6 virgule, moins 4.
+
+07:22.370 --> 07:24.430
+Et disons que nous voulons trouver la distance entre ce point et
+
+07:24.430 --> 07:32.290
+1 virgule 1, 2, 3, 4, 5, 6, 7 et le point 1 virgule 7.
+
+07:32.290 --> 07:34.370
+Ainsi, nous voulons trouver cette distance-ci.
+
+07:34.370 --> 07:36.420
+Nous suivons la même logique.
+
+07:36.420 --> 07:38.610
+Nous utilisons simplement le théorème de Pythagore.
+
+07:38.610 --> 07:41.830
+Nous déterminons cette distance qui est la variation en x et
+
+07:41.830 --> 07:43.790
+cette distance qui est la variation en y.
+
+07:43.790 --> 07:45.955
+Cette distance au carré plus cette distance au carré est
+
+07:45.955 --> 07:48.750
+égal à cette distance au carré.
+
+07:48.750 --> 07:50.600
+Faisons-le.
+
+07:50.600 --> 07:53.160
+Notre variation en x, nous prenons,
+
+07:53.160 --> 07:54.130
+vous le savez, ça n'a pas d'importance.
+
+07:54.130 --> 07:56.170
+En général, vous voulez prendre la valeur de x la plus grande moins la
+
+07:56.170 --> 07:58.400
+valeur de x la plus petite, mais vous pouvez faire le contraire.
+
+07:58.400 --> 08:02.180
+Nous pouvons écrire la distance au carré est égale à.. quoi?
+
+08:02.180 --> 08:04.430
+Notre variation en x?
+
+08:04.430 --> 08:08.650
+Prenons la plus grand x moins le plus petit x,
+
+08:08.650 --> 08:09.430
+1 moins moins 6.
+
+08:09.430 --> 08:14.960
+1 moins moins 6 au carré plus la variation en y.
+
+08:14.960 --> 08:16.120
+Le plus grand y est ici.
+
+08:16.120 --> 08:17.530
+C'est 7.
+
+08:17.530 --> 08:19.210
+7 moins moins 4.
+
+08:19.210 --> 08:22.550
+7 moins moins 4 au carré.
+
+08:22.550 --> 08:24.430
+J'ai choisi ces nombres arbitrairement, alors
+
+08:24.430 --> 08:26.260
+la distance ne sera sûrement pas un nombre entier.
+
+08:26.260 --> 08:30.490
+Nous obtenons cette distance au carré est égale à
+
+08:30.490 --> 08:31.280
+1 moins moins 6.
+
+08:31.280 --> 08:35.000
+C'est 7, 7 au carré, vous auriez pu le voir ici,
+
+08:35.000 --> 08:36.169
+en comptant.
+
+08:36.169 --> 08:39.690
+Vous allez 1, 2,3, 4, 5, 6, 7.
+
+08:39.690 --> 08:41.470
+C'est le nombre ici.
+
+08:41.470 --> 08:43.400
+C'est notre variation en x.
+
+08:43.400 --> 08:46.530
+plus 7 moins moins 4.
+
+08:46.530 --> 08:47.720
+C'est 11.
+
+08:47.720 --> 08:51.010
+C'est la distance ici, vous pouvez également la compter
+
+08:51.010 --> 08:51.490
+sur le graphique.
+
+08:51.490 --> 08:52.650
+Nous allons de 11 vers le haut.
+
+08:52.650 --> 08:55.860
+Nous faisons 7 moins moins 4 afin d'obtenir
+
+08:55.860 --> 08:57.740
+une distance de 11.
+
+08:57.740 --> 09:01.750
+Donc, plus 11 au carré est égal à d au carré.
+
+09:01.750 --> 09:05.000
+Maintenant, je vais utiliser la calculatrice.
+
+09:05.000 --> 09:13.266
+La distance, si nous prenons 7 au carré plus 11 au carré
+
+09:13.266 --> 09:16.170
+qui est égal à 170, cette distance est la racine carré de
+
+09:16.170 --> 09:18.920
+ceci, d'accord? d au carré est égal à 170.
+
+09:18.920 --> 09:25.250
+Alors, prenons la racice carré de 170 et nous obtenons 13,0,
+
+09:25.250 --> 09:28.250
+environ 13.04
+
+09:28.250 --> 09:30.550
+Donc, cette distance que nous voulions
+
+09:30.550 --> 09:35.920
+déterminer est 13, 04.
+
+09:35.920 --> 09:38.540
+En espérant que ces explications vous seront utiles.

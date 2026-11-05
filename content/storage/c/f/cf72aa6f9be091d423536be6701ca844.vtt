@@ -1,0 +1,271 @@
+WEBVTT
+
+00:00.952 --> 00:05.000
+Problem broj 1: u vremenu t, čestica koja se kreće unutar xy ravni
+
+00:05.000 --> 00:09.800
+se nalazi u poziciji (x(t), y(t)), gdje x(t) i y(t)
+
+00:09.800 --> 00:11.502
+nisu eksplicitno dati.
+
+00:11.764 --> 00:14.141
+Za t veće ili jednako 0,
+
+00:14.141 --> 00:17.390
+izvod od x po t je 4t+1
+
+00:17.667 --> 00:21.797
+izvod od y po t je sin(t^2)
+
+00:21.797 --> 00:26.240
+i za vrijeme t=o, x(0)=0 i y(0)=0
+
+00:26.378 --> 00:28.800
+U redu, uradimo sada dio a.
+
+00:28.800 --> 00:33.610
+Pronaći brzinu čestice za vrijeme t=3,
+
+00:33.825 --> 00:37.067
+i pronaći vektor ubrzanja čestice za
+
+00:37.067 --> 00:40.533
+vrijednost vremena 3 takođe.
+
+00:40.533 --> 00:45.333
+Dakle, brzina je samo vrijednost vektora brzine.
+
+00:45.333 --> 00:47.137
+Šta je onda vektor brzine?
+
+00:47.137 --> 00:50.979
+Naš vektor brzine kao funkcija vremena
+
+00:50.979 --> 00:55.890
+biće jednak izvodu naše pozicije x
+
+00:55.890 --> 00:59.467
+kao funkcije vremena, ili možemo reći da je brzina u x pravcu
+
+00:59.467 --> 01:06.887
+pomnožena jedinicom i vektora, uvećana za proizvod brzine u y pravcu i jedinice i vektora.
+
+01:06.887 --> 01:08.383
+Ovo sam napisao sa inženjerskim oznakama,
+
+01:08.383 --> 01:12.307
+ali jasno je da postoje mnogi načini za označavanje vektora.
+
+01:12.307 --> 01:15.800
+U ovom slučaju već imamo dato x'(t):
+
+01:15.800 --> 01:18.000
+x'(t) je 4t+1
+
+01:18.000 --> 01:20.333
+samo je zapisano kao dx/dt.
+
+01:20.333 --> 01:27.005
+Dakle, ovo ovdje je 4t+1 pomnoženo i vektorom,
+
+01:27.005 --> 01:31.467
+a ovo ovdje je, ovo y'(t), nam je dato
+
+01:31.467 --> 01:33.933
+izvod od y po t je sin(t^2).
+
+01:33.933 --> 01:41.800
+Dakle, plus sin(t^2) množimo j vektorom.
+
+01:41.800 --> 01:46.502
+To je naš vektor brzine. Dakle, šta je naša brzina ovdje
+
+01:46.502 --> 01:49.134
+ili ovo je naš vektor brzine kao funkcija vremena,
+
+01:49.134 --> 01:53.185
+Dakle, šta je naša brzina za vrijeme t=3?
+
+01:53.400 --> 02:01.000
+Jedino što trebamo uraditi je zamijeniti t sa 3, pa je 4(3)+1 jednako 13i.
+
+02:01.123 --> 02:11.216
+Plus 3 na kvadrat, 3 na kvadrat je 9, sinus od 9. Plus sin9j.
+
+02:11.216 --> 02:15.000
+Naša brzina, ono što trebamo da odredimo, će biti
+
+02:15.000 --> 02:20.200
+jednaka, ili možda trebam to napisati kao brzinu za t jednako 3,
+
+02:20.200 --> 02:26.400
+naša brzina će biti jednaka veličini našeg vektora brzine za t je jednako 3,
+
+02:26.400 --> 02:34.933
+što je jednako vrijednosti 13i+(sin9)j.
+
+02:34.933 --> 02:40.133
+I onda na ovo jednostavno, zapravo ovo, primijenimo Pitagorinu teoremu
+
+02:40.133 --> 02:41.133
+da bismo pronašli vrijednost.
+
+02:41.133 --> 02:47.400
+Ovo će viti jednako kvadratnom korijenu iz 169 (a to je 13 na kvadrat)
+
+02:47.400 --> 02:55.746
+uvećanom za (sin9)^2. Sada ću da izvadim svoj TI-85.
+
+02:55.961 --> 03:00.048
+U ovom dijelu ispita nam je dopušteno da koristimo digitrone.
+
+03:00.048 --> 03:15.058
+Dakle, imamo kvadratni korijen iz 169+(sin9)^2.
+
+03:15.535 --> 03:18.608
+U redu, to je 13 na kvadrat, plus sin9 na kvadrat.
+
+03:18.885 --> 03:24.133
+I dobijemo, dobijemo 13.00, ostalo ću zaokružiti na 7,
+
+03:24.133 --> 03:27.513
+samo da bih pokazao da nismo dobili ravno 13,
+
+03:27.513 --> 03:30.067
+da je sin9 na kvadrat ipak uradio nešto.
+
+03:30.067 --> 03:33.255
+Dakle, 13.007.
+
+03:33.255 --> 03:38.384
+Dakle, ovo je približno jednako 13.007.
+
+03:38.384 --> 03:40.381
+Odgovorili smo na prvi dio.
+
+03:40.381 --> 03:45.200
+Brzina čestice za vrijeme t=3 je 13.007.
+
+03:45.200 --> 03:49.933
+Dalje, trebamo pronaći vektor ubrzanja čestice za vrijeme t=3.
+
+03:49.933 --> 03:58.214
+Vektor ubrzanja, kao funkcija vremena će biti jednak drugom izvodu od
+
+03:58.214 --> 04:01.733
+po t, ili možemo reći da je ubrzanje u x smijeru
+
+04:01.733 --> 04:06.769
+kao funkcija od funkcije vremena pomnoženog sa i, uvećanog za ubrzanje u y prvcu.
+
+04:06.769 --> 04:11.472
+Dakle, to je drugi izvod od y po t u j pravcu.
+
+04:11.472 --> 04:14.676
+I ovo će naravno, biti jednako
+
+04:14.676 --> 04:19.800
+izvodu od x, izvoda od x, drugi izvod od x(t) je samo izvod
+
+04:19.800 --> 04:23.667
+prvog izvoda. Dakle, prvi izvod je jednak 4t+1,
+
+04:23.667 --> 04:25.892
+a izvod od toga je jednak 4.
+
+04:26.215 --> 04:34.067
+Dakle, dobili smo 4i... i onda izvod (drugi izvod), ili drugi izvod od y po t
+
+04:34.067 --> 04:35.733
+je samo izvod prvog izvoda.
+
+04:35.733 --> 04:39.963
+Prvi izvod je sin(t^2), a
+
+04:39.963 --> 04:48.554
+izvod od toga biće 2t*cos(t^2), i na kraju imamo j naravno.
+
+04:48.554 --> 04:52.400
+Ovdje imamo naše j, a to sam dobio iz pravila množenja izvoda.
+
+04:52.400 --> 04:58.533
+Izvod od t^2 po t je 2t,
+
+04:58.533 --> 05:04.733
+izvod od sin(t^2) po t^2 je cos(t^2).
+
+05:04.733 --> 05:08.440
+Dakle, to je vektor ubrzanja kao funkcija od t
+
+05:08.440 --> 05:11.400
+ali trebamo pronaći vrijednost za vijeme t=3.
+
+05:11.400 --> 05:17.795
+Dakle, 4 ostaje 4, a onda imamo 2(3)+cos(9).
+
+05:17.795 --> 05:21.733
+Da zapišem ovo, ovo će biti naš vektor ubrzanja
+
+05:21.733 --> 05:24.667
+naš vektor ubrzanja za vrijeeme 3 će biti
+
+05:24.667 --> 05:32.733
+4i plus... i samo uvrstimo, ako je ovo 2 puta 3, što je 6...
+
+05:35.225 --> 05:38.547
+(6cos9)j.
+
+05:38.547 --> 05:42.575
+Izvadimo digitron, da bismo mogli izračunati vrijednost ovoga
+
+05:42.575 --> 05:45.242
+jer nam je dopušteno, ili gotovo neophodno da koristimo digitron ovdje.
+
+05:45.242 --> 05:56.133
+Dakle, 6cos9 je minus 5.47, ili ako preciznije 5.467.
+
+05:56.133 --> 06:02.400
+Dakle, plus minu, ups, šta sam uradio, ovo je j,
+
+06:02.400 --> 06:08.333
+dakle, plus -5.467j.
+
+06:08.333 --> 06:09.867
+Ovo je naš vektor ubrzanja.
+
+06:09.867 --> 06:12.410
+Ponavljam opet, ja sam zapisivao u inženjerskoj notaciji
+
+06:12.410 --> 06:15.800
+(a siguran sam da ljudima iz napredne grupe neće smetati)
+
+06:15.800 --> 06:17.733
+ali možete zapisivati i u
+
+06:20.102 --> 06:23.533
+parametarskom vektorskom zapisu, ili vaš redni par kao vektor
+
+06:23.533 --> 06:27.733
+možemo reći da je vektor ubrzanja pri vremenu 3
+
+06:27.733 --> 06:29.067
+možete to i ovako zapisati:
+
+06:29.067 --> 06:33.369
+&lt;4, -5.467>
+
+06:33.369 --> 06:34.933
+Ovo su samo razne varijante iste stvari.
+
+06:34.933 --> 06:36.133
+Ovo je x-komponenta vektora,
+
+06:36.133 --> 06:38.000
+ovo je y-komponenta vektora.
+
+06:38.000 --> 06:39.221
+Ovo je x-komponenta vektora,
+
+06:39.221 --> 06:41.817
+ovo je y-komponenta vektora.

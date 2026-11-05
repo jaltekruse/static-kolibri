@@ -1,0 +1,356 @@
+WEBVTT
+
+00:00.184 --> 00:07.289
+V tomto videu si představíme koncept
+diferencovatelnosti v určitém bodě funkce.
+
+00:07.289 --> 00:14.309
+Diferencovatelnost znamená, jestli
+funkce má v daném bodě derivaci.
+
+00:14.309 --> 00:18.091
+Připomeňme si
+definici derivace.
+
+00:18.091 --> 00:20.410
+Lze ji zapsat
+několika způsoby.
+
+00:20.410 --> 00:25.240
+Pro naše účely napíšu,
+že derivace funkce v bodě c…
+
+00:25.247 --> 00:27.807
+Tohle je Lagrangeův
+způsob zápisu, f s čarou.
+
+00:27.816 --> 00:43.603
+Je rovna limitě pro x jdoucí k c
+z f(x) minus f(c) lomeno x minus c.
+
+00:43.603 --> 00:45.773
+Tuhle rovnici nevidíme poprvé.
+
+00:45.773 --> 00:52.163
+Přestože zprvu může působit zvláštně,
+je to jen výpočet směrnice funkce.
+
+00:52.163 --> 00:57.887
+Dělíme změnu y v čitateli
+změnou x v jmenovateli.
+
+00:57.887 --> 01:06.165
+Snažíme se určit směrnici, když se změna
+x blíží k 0, neboli když se x blíží k c.
+
+01:06.165 --> 01:08.634
+Tomu jsme se věnovali
+v minulých videích.
+
+01:08.634 --> 01:11.505
+Začneme s několika výroky.
+
+01:11.505 --> 01:16.277
+Nebudu je dnes zevrubně dokazovat,
+to necháme na jindy.
+
+01:16.277 --> 01:18.610
+Dnes chceme jen
+získat určitý náhled.
+
+01:18.610 --> 01:42.233
+Zaprvé, pokud je funkce f v bodě x rovno c
+diferencovatelná, je v tomto bodě spojitá.
+
+01:42.233 --> 01:51.587
+Takže pokud v bodě x rovno c existuje tato
+limita, funkce je v tomto bodě spojitá.
+
+01:51.587 --> 01:56.802
+Tahle implikace nefunguje obráceně, funkce
+může být spojitá, ale ne diferencovatelná,
+
+01:56.802 --> 01:59.624
+později si ukážeme
+příklad takové funkce.
+
+01:59.624 --> 02:06.804
+Každopádně, pokud funkce není v bodě
+spojitá, rozhodně není diferencovatelná.
+
+02:06.804 --> 02:28.714
+Jestliže f v bodě x rovno c není spojitá,
+pak v tomto bodě f není diferencovatelná.
+
+02:28.714 --> 02:37.391
+Uvedeme si pár příkladů nespojité funkce,
+zamyslete se, zda u nich lze najít limitu.
+
+02:37.391 --> 02:40.973
+První příklad je tato
+nespojitá funkce.
+
+02:40.973 --> 02:49.139
+Funkce má v bodě ‚c‘ určitou hodnotu, ale
+pro x větší než ‚c‘ hodnota skočí dolů.
+
+02:49.139 --> 02:52.751
+Takže co by se stalo, kdybychom
+se pokusili najít tuhle limitu?
+
+02:52.751 --> 02:57.849
+Tenhle vzorec vyjadřuje směrnici úsečky
+určené libovolným bodem x a bodem c.
+
+02:57.849 --> 03:04.340
+x si zvolíme třeba tady,
+takže tady leží bod [x;f(x)],
+
+03:04.340 --> 03:14.385
+A tady je bod [c;f(c)].
+
+03:14.385 --> 03:21.030
+Když budeme hledat limitu pro
+hodnoty zleva, dostaneme tuto úsečku.
+
+03:21.030 --> 03:27.062
+Když se pak přiblížíme k ‚c‘,
+dostaneme tuto úsečku.
+
+03:27.062 --> 03:32.117
+A pak ještě blíž,
+dostaneme tuto úsečku.
+
+03:32.117 --> 03:42.638
+Směrnice ve všech třech případech bude 0.
+Takže zleva se limita zdánlivě blíží 0.
+
+03:42.638 --> 03:52.296
+Zkusme teď najít limitu zprava,
+zvolíme si x někde tady.
+
+03:52.296 --> 04:03.376
+Směrnice úsečky s bodem [x;f(x)] se rovná
+f(x) minus f(c), to celé lomeno x minus c.
+
+04:03.376 --> 04:07.687
+To by byla
+směrnice této úsečky.
+
+04:07.687 --> 04:15.351
+Pokud se s x přiblížíme k ‚c‘, třeba sem,
+dostaneme směrnici téhle úsečky.
+
+04:15.351 --> 04:21.190
+Pokud se ještě přiblížíme,
+dostaneme směrnici této úsečky.
+
+04:21.190 --> 04:29.917
+Takže čím blíž jsme k bodu x rovno c,
+tím blíž jsme zápornému nekonečnu.
+
+04:29.917 --> 04:39.579
+Ale především, blížíme se zprava
+úplně jiné hodnotě než zleva.
+
+04:39.579 --> 04:48.863
+Proto v tomto bodě tato limita neexistuje,
+funkce v tomto bodě není diferencovatelná.
+
+04:48.863 --> 04:51.731
+Raději zopakuji,
+že tohle není důkaz.
+
+04:51.731 --> 04:58.839
+Jen tu můžeme jasně vidět, proč nespojitá
+funkce bude zároveň i nediferencovatelná.
+
+04:58.839 --> 05:01.902
+Ukážeme si další příklad.
+
+05:01.902 --> 05:08.246
+V téhle funkci máme takzvanou
+odstranitelnou nespojitost.
+
+05:08.246 --> 05:17.790
+Znovu se začneme k c blížit
+zleva, přičemž tady leží bod [x;f(x)].
+
+05:17.790 --> 05:27.510
+A tímto vzorcem bychom spočítali směrnici
+úsečky určené body [x;f(x)] a [c;f(c)].
+
+05:27.510 --> 05:38.050
+Ten je ale tady dole, funkce je nespojitá,
+takže bychom dostali směrnici této úsečky.
+
+05:38.050 --> 05:42.430
+Když se s x přiblížíme k ‚c‘,
+dostaneme směrnici téhle úsečky.
+
+05:42.432 --> 05:45.888
+Když půjdeme ještě blíž,
+dostaneme směrnici této úsečky.
+
+05:45.888 --> 05:55.588
+Takže když se x blíží k ‚c‘ zleva, zase se
+směrnice blíží zápornému nekonečnu.
+
+05:55.588 --> 06:01.760
+A když se budeme blížit naopak
+zprava, tady bude bod [x;f(x)].
+
+06:01.760 --> 06:07.488
+Směrnice této úsečky je kladná, navíc
+se zvětšuje s tím, jak se blížíme k ‚c‘,
+
+06:07.488 --> 06:09.253
+a dostáváme se ke
+kladnému nekonečnu.
+
+06:09.253 --> 06:11.279
+Každopádně se neblížíme
+konkrétní hodnotě.
+
+06:11.279 --> 06:14.923
+Zleva se blížíme zápornému nekonečnu,
+zprava se blížíme kladnému nekonečnu.
+
+06:14.923 --> 06:19.271
+Tato limita taky
+nebude existovat.
+
+06:19.271 --> 06:26.351
+Znovu, toto není důkaz, ale zkuste přijít
+s nespojitou funkci, kde limitu najdete.
+
+06:26.360 --> 06:27.738
+Je to opravdu těžké.
+
+06:27.738 --> 06:32.057
+A možná si říkáte, co funkce,
+kde f(c) ani není definované.
+
+06:32.057 --> 06:35.001
+Taková funkce je
+potom určitě nespojitá.
+
+06:35.001 --> 06:40.369
+Navíc, pokud c není definováno, pak tato
+část vzorce nedává žádný smysl.
+
+06:40.369 --> 06:42.626
+Taková funkce je
+taky nediferencovatelná.
+
+06:42.626 --> 06:44.884
+Teď se však zaměřme
+na něco jiného.
+
+06:44.884 --> 06:50.684
+Uvedl jsem pár argumentů, proč nespojitá
+funkce nutně bude i nediferencovatelná.
+
+06:50.684 --> 06:56.141
+Teď si ukážeme, jestli spojitá funkce
+musí naopak být nutně i diferencovatelná.
+
+06:56.141 --> 07:03.688
+Inu, existuje nekonečně mnoho funkcí,
+které sice jsou v bodě c spojité,
+
+07:03.698 --> 07:10.888
+ale nejsou v bodě c diferencovatelné,
+například funkce s absolutní hodnotou.
+
+07:10.888 --> 07:16.121
+Tohle je funkce y rovná se
+absolutní hodnotě x minus c.
+
+07:16.121 --> 07:20.279
+Proč tato funkce v bodě c
+není diferencovatelná?
+
+07:20.279 --> 07:30.273
+Musíme si uvědomit, že tento výraz udává
+směrnici mezi body [x;f(x)] a [c;f(c)].
+
+07:30.273 --> 07:44.387
+Takže pokud tady vlevo je [x;f(x)],
+ze vzorce dostaneme směrnici této úsečky.
+
+07:44.387 --> 07:48.437
+A když se přiblížíme k ‚c‘, dostaneme
+směrnici této úsečky, která bude stejná.
+
+07:48.438 --> 07:54.608
+Směrnice této funkce bude -1 pro x blížící
+se c od hodnot menších než c, tedy zleva.
+
+07:54.608 --> 08:00.695
+Ale pro x blížící se c zprava
+bude vzorec mít hodnotu 1.
+
+08:00.695 --> 08:05.022
+Směrnice úsečky
+bude 1.
+
+08:05.022 --> 08:14.326
+Takže tento vzorec nám dává dvě různé
+hodnoty, když se x blíží c zleva a zprava.
+
+08:14.326 --> 08:25.466
+Zleva se směrnice
+blíží -1, zprava 1.
+
+08:25.466 --> 08:32.807
+V takovém případě
+limita neexistuje.
+
+08:32.807 --> 08:37.212
+Tato funkce v bodě
+c není diferencovatelná.
+
+08:37.212 --> 08:46.811
+Dává to smysl, protože derivace je vlastně
+směrnice tečny, těch je v ‚c‘ nekonečno.
+
+08:46.811 --> 08:50.501
+Tečna by mohla
+klidně vést třeba tudy.
+
+08:50.504 --> 08:59.821
+Ale klidně i tudy, tato přímka se také
+dotýká grafu funkce jen v bodě c.
+
+08:59.821 --> 09:05.294
+Můžu jich tu nakreslit
+nekonečně mnoho.
+
+09:05.294 --> 09:11.238
+Nejdůležitější myšlenka, kterou jsme si
+dnes nastínili a příště ji dokážeme, zní:
+
+09:11.238 --> 09:15.118
+pokud je f v bodě c diferencovatelná,
+pak je v tomto bodě nutně i spojitá.
+
+09:15.118 --> 09:19.721
+Což znamená, že pokud f v bodě c spojitá
+není, není v bodě c ani diferencovatelná.
+
+09:19.721 --> 09:22.714
+Snad vám tyto dva příklady
+pomohly si to představit.
+
+09:22.714 --> 09:27.237
+To, že f je v bodě c spojitá, však nutně
+neznamená, že je tu i diferencovatelná.
+
+09:27.237 --> 09:30.261
+Často to bude
+platit, ale ne vždycky.
+
+09:30.261 --> 09:37.041
+Třeba tato funkce s absolutní hodnotou je
+v bodě c spojitá, ale nediferencovatelná.

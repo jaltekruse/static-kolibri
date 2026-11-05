@@ -1,0 +1,425 @@
+WEBVTT
+
+00:00.577 --> 00:01.912
+Voiceover: What I want
+to do in this video,
+
+00:01.912 --> 00:05.879
+is get a little bit of
+practice trying to approximate
+
+00:05.879 --> 00:08.494
+the area under curves,
+and also get a little bit
+
+00:08.494 --> 00:13.295
+more familiarity with the
+sigma notation in this context.
+
+00:13.295 --> 00:15.062
+So what we have here, we have the graph of
+
+00:15.062 --> 00:18.628
+f of x is equal to one plus 0.1 x squared,
+
+00:18.628 --> 00:20.546
+that's this curve right over here,
+
+00:20.546 --> 00:23.812
+and then we have these rectangles that are
+
+00:23.812 --> 00:27.263
+trying to approximate
+the area under the curve,
+
+00:27.263 --> 00:32.428
+the area under the function
+f, between x equals zero,
+
+00:32.428 --> 00:37.227
+and x equals 8, and the
+way that this diagram,
+
+00:37.227 --> 00:39.046
+or the way that we are
+attempting to do it,
+
+00:39.046 --> 00:41.963
+is by splitting it into four rectangles,
+
+00:41.963 --> 00:44.228
+and so we can call this rectangle one,
+
+00:44.228 --> 00:50.446
+this is rectangle two, rectangle
+three, and rectangle four.
+
+00:50.446 --> 00:53.227
+And each of their heights,
+let's see the interval,
+
+00:53.227 --> 00:55.595
+it looks like they each
+have a width of two,
+
+00:55.595 --> 00:58.713
+so they are equally spaced,
+so we go from zero to eight,
+
+00:58.713 --> 01:02.845
+and we split into four sections,
+so each has a width of two,
+
+01:02.845 --> 01:04.695
+so they're each going to be two wide,
+
+01:04.695 --> 01:07.928
+so that's two, that's two,
+that's two, that's two.
+
+01:07.928 --> 01:14.327
+And their height seems to
+be based on the midpoint,
+
+01:14.327 --> 01:16.179
+so between the start,
+between the left side
+
+01:16.179 --> 01:17.827
+and the right side of the rectangle,
+
+01:17.827 --> 01:20.728
+you take the value of the
+function at the middle value,
+
+01:20.728 --> 01:21.846
+right over here, so for example,
+
+01:21.846 --> 01:24.277
+this height right over
+here looks like f of 1,
+
+01:24.277 --> 01:27.762
+this height right over
+here looks like f of 3,
+
+01:27.762 --> 01:31.212
+this height of this rectangle is f of 5,
+
+01:31.212 --> 01:34.263
+this height right over here is f of 7.
+
+01:34.263 --> 01:36.727
+So given the way that
+this has been constructed,
+
+01:36.727 --> 01:38.712
+and we want to take the sum of the areas
+
+01:38.712 --> 01:41.646
+of these rectangles as an
+approximation as the area
+
+01:41.646 --> 01:44.428
+under this curve, how would we
+write that as sigma notation?
+
+01:44.428 --> 01:45.845
+And I'll get us started,
+and then I encourage you
+
+01:45.845 --> 01:48.045
+to pause the video and try to finish it.
+
+01:48.045 --> 01:51.811
+So the sum of these rectangles,
+
+01:51.811 --> 01:54.762
+we could say it's the
+sum of, so we'll have
+
+01:54.762 --> 01:58.297
+n equals one to four, 'cause
+we have four rectangles.
+
+01:58.297 --> 02:02.762
+And I encourage you to finish this up.
+
+02:02.762 --> 02:06.061
+Actually, just write it
+in terms of the function,
+
+02:06.061 --> 02:08.077
+use function notation, you
+don't have to write it out
+
+02:08.077 --> 02:12.394
+as one plus .01 times something squared.
+
+02:12.394 --> 02:14.362
+So I'm assuming you've had a go at it.
+
+02:14.362 --> 02:19.244
+So for each of these, so for
+the first rectangle over here,
+
+02:19.244 --> 02:22.678
+We're gonna multiply two times the height,
+
+02:22.678 --> 02:25.763
+so the height right over
+here is one, and this is
+
+02:25.763 --> 02:28.577
+the first rectangle, so
+you might be tempted to say
+
+02:28.577 --> 02:32.878
+times f of n, but then that breaks down
+
+02:32.878 --> 02:34.379
+as we go into the second rectangle.
+
+02:34.379 --> 02:36.629
+The second rectangle,
+the two still applies.
+
+02:36.629 --> 02:39.744
+This two is the width of the rectangle,
+
+02:39.744 --> 02:43.595
+but now we want to multiply
+it times f of three,
+
+02:43.595 --> 02:52.512
+not f of two, so this f of n
+isn't going to pass muster.
+
+02:52.512 --> 02:55.678
+And so let's see how we
+want to think about it.
+
+02:55.678 --> 03:04.345
+So when n is one, two, three,
+four, we're gonna take f of...
+
+03:04.345 --> 03:07.128
+So f of n, I shouldn't say
+f of n, we're gonna take
+
+03:07.128 --> 03:10.528
+f of something, so here this
+first one, we're gonna take
+
+03:10.528 --> 03:14.477
+f of one, then here, for
+the second rectangle,
+
+03:14.477 --> 03:18.346
+we're taking f of three for the height,
+
+03:18.346 --> 03:22.821
+for the third rectangle
+we're taking f of five,
+
+03:22.821 --> 03:28.371
+and then for the fourth rectangle,
+we're taking f of seven.
+
+03:28.371 --> 03:30.440
+So what's the relationship over here?
+
+03:30.440 --> 03:34.523
+Let's see, it looks like
+if you multiply by two
+
+03:34.523 --> 03:37.391
+and subtract one, so two
+times one minus one is one,
+
+03:37.391 --> 03:39.023
+two times two minus one is three,
+
+03:39.023 --> 03:42.940
+two times three minus one is five,
+
+03:42.940 --> 03:45.457
+two times four minus one is seven.
+
+03:45.457 --> 03:49.794
+So this is two n minus one, so the area of
+
+03:49.794 --> 03:52.488
+each of these rectangles, the base is two,
+
+03:52.488 --> 03:59.071
+and the height is f of two and minus one.
+
+03:59.071 --> 04:02.421
+So that hopefully makes
+it a little bit clear,
+
+04:02.421 --> 04:04.787
+kind of mapping between the sigma notation
+
+04:04.787 --> 04:06.919
+and what we're actually trying to do.
+
+04:06.919 --> 04:08.770
+And now let's just for fun,
+
+04:08.770 --> 04:10.456
+let's actually try to evaluate this thing.
+
+04:10.456 --> 04:13.088
+What is this thing going to evaluate to?
+
+04:13.088 --> 04:18.337
+Well, this is going to
+evaluate to two times f of,
+
+04:18.337 --> 04:21.572
+when n is equal to one
+this is one, f of 1,
+
+04:21.572 --> 04:25.687
+plus two times, when n
+is two, this is gonna be
+
+04:25.687 --> 04:30.738
+f of, two times two minus
+one is three, f of 3,
+
+04:30.738 --> 04:35.220
+when n is three, this is
+gonna be two times f of 5,
+
+04:35.220 --> 04:42.038
+when n is four, this is going
+to be two times f of seven,
+
+04:42.038 --> 04:46.519
+four times two minus one
+is seven, f of seven.
+
+04:46.519 --> 04:49.539
+And so that is going to be,
+well we're gonna have to
+
+04:49.539 --> 04:51.870
+evaluate a bunch of
+these things over here,
+
+04:51.870 --> 04:54.337
+so let me actually, let me clear this out
+
+04:54.337 --> 04:56.554
+so I have a little bit more real estate.
+
+04:56.554 --> 04:59.670
+I'm feeling this might get
+a little bit messy now.
+
+04:59.670 --> 05:02.371
+So this is going to be, actually
+we could factor out a two.
+
+05:02.371 --> 05:05.655
+So this is going to be
+equal to two times f of one
+
+05:05.655 --> 05:09.238
+is one plus 0.1 times one squared.
+
+05:09.238 --> 05:13.121
+So it's one plus 0.1, let me
+color-code it a little bit
+
+05:13.121 --> 05:14.988
+so we can keep track of things.
+
+05:14.988 --> 05:23.669
+So this right over here is
+1.1, so one plus 0.1 is 1.1,
+
+05:23.669 --> 05:29.361
+this right over here, f of
+3, so that's one plus .1
+
+05:29.361 --> 05:36.268
+times three squared, nine,
+so one plus .9, so it's 1.9.
+
+05:36.268 --> 05:40.619
+And then, let's see, this
+one right over here, f of 5,
+
+05:40.619 --> 05:44.034
+is gonna be one plus,
+see five squared is 25,
+
+05:44.034 --> 05:50.068
+times .1 is 2.5, so one
+plus 2.5 is gonna be 3.5.
+
+05:50.068 --> 05:57.534
+And then finally, f of
+seven, is going to be
+
+05:57.534 --> 05:59.819
+one plus .1 times seven squared,
+
+05:59.819 --> 06:10.785
+so this is 49 times .1 is
+4.9 plus one, so plus 5.9.
+
+06:10.785 --> 06:13.933
+And so what is this going to be equal to?
+
+06:13.933 --> 06:18.118
+So let's see, 1.1 plus 1.9, these two
+
+06:18.118 --> 06:21.285
+are going to sum up to be equal to three,
+
+06:21.285 --> 06:24.568
+and then these two are
+going to sum up to be,
+
+06:24.568 --> 06:29.534
+let's see, if we add
+the five, we get to 8.5,
+
+06:29.534 --> 06:35.734
+and then we add the .9, we
+get to 9.4, so plus 9.4.
+
+06:35.734 --> 06:38.818
+Did I do that right -
+three plus five is eight,
+
+06:38.818 --> 06:43.620
+.5 plus .9 is 1.4, yep,
+and so this is going to be,
+
+06:43.620 --> 06:45.418
+so once again, we have
+the two times it all,
+
+06:45.418 --> 06:50.818
+so this is going to be
+equal to two times 12.4,
+
+06:50.818 --> 06:56.619
+which is equal to 24.8,
+which is our approximation.
+
+06:56.619 --> 06:57.833
+Once again, this is just an approximation
+
+06:57.833 --> 07:00.917
+using these rectangles of
+the area under the curve
+
+07:00.917 --> 07:04.917
+between x equals zero, and x equals eight.

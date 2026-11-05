@@ -1,0 +1,282 @@
+WEBVTT
+
+00:00.000 --> 00:05.230
+V minulém videu jsme se snažili
+přijít na přesnou definici limity.
+
+00:05.230 --> 00:10.110
+Když řeknete, že limita
+f(x) pro ‚x‘ jdoucí k ‚c‘ je ‚L‘,
+
+00:10.110 --> 00:13.720
+Říkáte vlastně
+-a to je ta více méně přesná definice-
+
+00:13.720 --> 00:21.870
+že můžete dostat f(x) libovolně blízko ‚L‘
+tím, že vezmete ‚x‘ dostatečně blízko ‚c‘.
+
+00:21.870 --> 00:24.120
+Zkusme to říct nějak lépe.
+
+00:24.120 --> 00:26.565
+Místo, abychom řekli
+„libovolně blízko“,
+
+00:26.565 --> 00:30.070
+nazveme tu vzdálenost
+nějakým číslem epsilon.
+
+00:30.070 --> 00:32.860
+Použiji řecké písmeno epsilon.
+
+00:32.860 --> 00:34.900
+Takže je to opravdu taková hra.
+
+00:34.900 --> 00:39.920
+Vy mi řeknete, jak blízko chcete
+-tohle je ta hra-
+
+00:39.920 --> 00:54.450
+Vy mi řeknete,
+jak blízko ‚L‘ má být f(x).
+
+00:54.450 --> 00:58.710
+To uděláte tak, že mi určíte
+kladné číslo epsilon,
+
+00:58.710 --> 01:02.530
+o takové velikost, jaká má být
+maximální vzdálenost f(x) od ‚L‘.
+
+01:02.530 --> 01:10.220
+Takže mi zadáte kladné číslo ‚epsilon‘.
+
+01:10.220 --> 01:14.560
+Epsilon znamená,
+jak blízko ‚L‘ chcete být.
+
+01:14.560 --> 01:19.530
+Například, když je epsilon rovno 0,01,
+znamená to, že chcete,
+
+01:19.530 --> 01:23.870
+aby f(x) bylo v okolí
+‚L‘ o velikosti 0,01.
+
+01:23.870 --> 01:26.860
+Takže já řeknu:
+
+01:26.860 --> 01:38.950
+„No dobře, vy jste mi zadali epsilon a já
+vám najdu takové kladné číslo,
+
+01:38.950 --> 01:43.570
+kterému budeme říkat ‚delta‘,
+malé řecké písmeno delta,
+
+01:43.570 --> 02:10.140
+takové, že pokud je ‚x‘ v delta-okolí ‚c‘,
+pak f(x) bude v epsilonovém okolí ‚L‘.“
+
+02:10.140 --> 02:12.420
+Přesvědčme se, že je to opravdu to samé.
+
+02:12.420 --> 02:18.290
+V této žluté definici říkáme,
+že můžeme f(x) dostat libovolně blízko ‚L‘
+
+02:18.290 --> 02:21.552
+tím, že s ‚x‘ půjdeme
+dostatečně blízko ‚c‘.
+
+02:21.552 --> 02:26.390
+Ve druhé definici, kterou jsem
+pojal spíš jako hru, děláme to samé.
+
+02:26.390 --> 02:30.126
+Někdo nám řekne,
+jak blízko ‚L‘ chce dostat f(x)
+
+02:30.126 --> 02:36.330
+a našim úkolem je najít delta takové,
+že pokud ‚x‘ bude v delta-okolí ‚c‘,
+
+02:36.330 --> 02:40.450
+‚L‘ bude v epsilonovém okolí limity ‚L‘.
+
+02:40.450 --> 02:41.630
+Takže děláme to samé.
+
+02:41.630 --> 02:47.210
+Hledáme takové ‚x‘, které
+se nachází tak blízko ‚c‘,
+
+02:47.210 --> 02:49.820
+že f(x) je v požadované
+vzdálenosti od ‚L’.
+
+02:49.820 --> 02:53.680
+Pojďme si to ještě ujasnit obrázkem.
+
+02:53.680 --> 03:02.300
+Řeknete mi, že chcete, aby f(x) bylo
+v epsilonovém okolí naši limity ‚L‘
+
+03:02.300 --> 03:05.460
+Takže toto…
+
+03:05.460 --> 03:09.600
+Tenhle bod je (L plus epsilon)
+
+03:09.600 --> 03:17.510
+a toto je (L minus epsilon).
+
+03:17.510 --> 03:19.570
+Řeknete si: „Dobrá, myslím,
+
+03:19.570 --> 03:25.380
+že zvládnu dostat f(x)
+do epsilonového okolí ‚L‘
+
+03:25.380 --> 03:29.430
+a udělám to definováním okolí kolem ‚c‘…“
+
+03:29.430 --> 03:34.160
+Může to být tato hranice, ale klidně
+ji mohu udělat užší,
+
+03:34.160 --> 03:37.570
+můžu ji udělat tady.
+
+03:37.570 --> 03:42.960
+Takže jste našli jiné
+kladné číslo delta…
+
+03:42.960 --> 03:46.010
+Toto je (c plus delta)
+
+03:46.010 --> 03:52.770
+a toto je (c minus delta).
+
+03:52.770 --> 03:55.020
+Jste tedy schopní najít takové delta,
+
+03:55.020 --> 04:02.280
+že pokud vezmete libovolné ‚x‘
+v rozmezí (c minus delta, c plus delta)…
+
+04:02.280 --> 04:05.310
+Vlastně funkce nemusí
+být v ‚c‘ definovaná,
+
+04:05.310 --> 04:07.800
+takže uvažujeme hodnoty
+‚x‘, které nejsou rovny ‚c‘.
+
+04:07.800 --> 04:10.849
+Takže když vezmete libovolné
+‚x‘ z toho intervalu,
+
+04:10.849 --> 04:24.876
+f(x) se bude nacházet v intervalu
+(L minus epsilon, L plus epsilon)
+
+04:24.876 --> 04:27.390
+Jak jinak to ještě můžeme říct?
+
+04:27.390 --> 04:32.190
+Můžeme říct, že když mi zadáte epsilon,
+já vám najdu takové delta…
+
+04:32.190 --> 04:34.650
+Napíšu to matematicky korektněji.
+
+04:34.650 --> 04:42.161
+Napíšu úplně tu stejnou věc,
+ale matematickým zápisem.
+
+04:42.161 --> 04:46.029
+Takže mi dáte…
+Nebo ještě jinak…
+
+04:46.029 --> 04:57.800
+Nechť epsilon je větší než 0…
+To je ta první část hry.
+
+04:57.800 --> 05:08.330
+Umíme najít delta větší než 0 takové,
+
+05:08.330 --> 05:13.540
+že pro všechna ‚x‘ z delta-okolí ‚c‘…
+
+05:13.540 --> 05:17.760
+Jak můžeme jinak říct,
+že ‚x‘ je z delta-okolí ‚c‘?
+
+05:17.760 --> 05:24.040
+Můžeme říct, že vzdálenost
+‚x‘ a ‚c‘ je menší než delta.
+
+05:24.040 --> 05:28.240
+Tohle platí pro
+všechna ‚x‘ z delta-okolí ‚c‘.
+
+05:28.240 --> 05:31.810
+Jejich rozdíl je menší než delta.
+
+05:31.810 --> 05:38.880
+Takže když vezmete ‚x‘
+z intervalu (c minus delta,c plus delta),
+
+05:38.880 --> 05:41.650
+a všechna tato ‚x‘ tomu vyhovují,
+
+05:41.650 --> 05:57.460
+Pak vzdálenost mezi f(x) a limitou
+‚L‘ bude menší než epsilon.
+
+05:57.460 --> 06:04.210
+Takže to říká, že pokud
+limita existuje a rovná se ‚L‘,
+
+06:04.210 --> 06:08.410
+tak když zadáte jakékoliv kladné epsilon,
+může být klidně úplně maličké,
+
+06:08.410 --> 06:11.970
+umíme najít delta, takže můžeme
+definovat okolí bodu ‚c‘,
+
+06:11.970 --> 06:17.760
+že když vezmeme libovolné
+‚x‘ z toho delta-okolí bodu ‚c‘…
+
+06:17.760 --> 06:21.160
+Tady říkáme, že vzdálenost ‚x‘ a ‚c‘ je
+menší než delta,
+
+06:21.160 --> 06:24.080
+takže ‚x‘ je v delta-okolí ‚c‘.
+
+06:24.080 --> 06:34.000
+Takže funkční hodnota v těchto
+bodech bude uvnitř daného okolí.
+
+06:34.000 --> 06:37.130
+f(x) bude v epsilonovém okolí ‚L‘.
+
+06:37.130 --> 06:42.850
+Vzdálenost f(x) a ‚L‘ bude
+menší než epsilon.
+
+06:42.850 --> 06:47.490
+f(x) se bude nacházet někde tady.
+
+06:47.490 --> 06:50.840
+To je vše, co nám
+epsilon-delta definice říká.
+
+06:50.840 --> 06:58.000
+V dalším videu uděláme důkaz
+existence limity pomocí této definice.

@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.000 --> 00:01.680
+Problem nummer sex
+
+00:01.987 --> 00:05.800
+Låt f på x är lika med sinus för x-kvadrat plus cosinus x
+
+00:05.800 --> 00:12.067
+Kurvan i y är lika med absolutvärdet av den femte derivat av f vid x är enligt ovan
+
+00:12.067 --> 00:15.533
+och jag har inte visat det här så att vi har lite utrymme. Jag ska visa det när vi måste visa det
+
+00:15.533 --> 00:17.333
+Jag tror att vi måste visa det i del D.
+
+00:17.333 --> 00:19.323
+Så låt oss först göra en del en rätt till här.
+
+00:19.338 --> 00:24.427
+Skriv de första fyra från noll när det gäller Taylor serien för synd x
+
+00:24.427 --> 00:30.533
+om x = 0 och skriv de första fyra från noll när det gäller Taylor-serien för synd x-kvadrat
+
+00:30.533 --> 00:32.533
+ca x är lika med noll. Så låt oss göra denna första del.
+
+00:32.533 --> 00:36.270
+Och precis som en påminnelse, är en Taylor-serien ett polynom approximation
+
+00:36.270 --> 00:40.937
+av en funktion. Så bara för att ge oss en snabb påminnelse - vi går in mycket mer i detalj
+
+00:40.937 --> 00:44.533
+i detta på videor om Taylor-serien.
+
+00:44.533 --> 00:49.200
+Men om du har en funktion som ser ut så här, och du ville att approximera den med en Taylor-serien
+
+00:49.200 --> 00:54.800
+kring noll, du kunde, om du bara har en termin i Taylor-serien, skulle du bara bokstavligen
+
+00:54.800 --> 00:59.200
+Det skulle bara vara en konstant, precis så. Om du har två termer i din Taylor serier
+
+00:59.200 --> 01:01.867
+det skulle vara en linje som ser ut så.
+
+01:01.867 --> 01:05.271
+Om du har tre terminer i din Taylor serier, skulle du få en andra gradens sikt.
+
+01:05.271 --> 01:09.000
+Du skulle börja närma det något sånt.
+
+01:09.000 --> 01:12.000
+Om du kommer till den tredje graden sikt kan det börja leta sånt
+
+01:12.000 --> 01:16.092
+Och som du lägger till fler och fler termer, får du ett bättre och bättre approximation av din funktion
+
+01:16.092 --> 01:19.273
+och om du lägger till ett oändligt antal, kan det konvergerar faktiskt din funktion.
+
+01:19.273 --> 01:23.533
+Så låt oss bara påminna oss själva. Om jag hade en funktion, om jag har f av x
+
+01:23.533 --> 01:26.667
+its Taylor series: I can approximate it with a Taylor series.
+
+01:26.667 --> 01:29.667
+Och om vi vill centrera att en tillnärmning kring noll,
+
+01:29.667 --> 01:37.106
+det ska vara lika med f noll plus f-prime noll (derivatet till noll) gånger x
+
+01:37.106 --> 01:42.867
+plus den andra derivatan på noll gånger x-kvadrat över 2 faktoriell
+
+01:42.867 --> 01:46.400
+(Du kunde ha delat denna term här med 1 faktoriell, som bara är 1)
+
+01:46.400 --> 01:48.000
+2 faktoriell är bara 2.
+
+01:48.000 --> 01:55.733
+Och sedan plus den tredje derivatan av f vid noll gånger x till den tredje över 3 faktoriell
+
+01:55.733 --> 01:58.800
+plus det fjärde derivatan. . . Jag tror att du förstår tanken här.
+
+01:58.800 --> 02:03.867
+den fjärde derivatan till noll gånger x till den fjärde dividerat med fyra faktoriell
+
+02:03.867 --> 02:06.084
+och så vidare och så vidare.
+
+02:06.084 --> 02:10.400
+Så vad de vill att vi ska göra är att hitta de första fyra icke-noll vad gäller
+
+02:10.400 --> 02:12.000
+Taylorserier för sinus för x
+
+02:12.000 --> 02:14.467
+Och några av er kanske redan vet detta. Vi täckte faktiskt detta
+
+02:14.467 --> 02:19.800
+i videon där vi visar Eulers identitet, men vi gör det igen här borta.
+
+02:19.800 --> 02:24.867
+Så om vi bara tar, jag kallar det g (x), eftersom de redan
+
+02:24.867 --> 02:27.133
+definieras f (x) här uppe. Så låt oss säga att g (x)
+
+02:27.133 --> 02:30.837
+Och låt oss sätta detta i en ny färg, bara för att underlätta monotonin
+
+02:30.837 --> 02:38.800
+Låt oss säga att g x är lika med synd x. Då vet vi att g noll
+
+02:38.800 --> 02:41.133
+kommer att vara lika med noll.
+
+02:41.133 --> 02:44.667
+Och sedan om vi tar derivatet, g-prime av X går
+
+02:44.667 --> 02:48.763
+Och sedan om vi tar derivatet är g-prime av x goingto vara lika med negativ, nej det kommer att bli positivt cosinus x
+
+02:48.763 --> 02:54.733
+Positiv cosinus x. g-prime på noll nu att vara lika med 1
+
+02:54.733 --> 02:58.097
+cosinus noll är en. Sen om du tar andra derivatan.
+
+02:58.097 --> 03:02.091
+Derivatan av cosinus för x är negativt sinus för x
+
+03:02.091 --> 03:06.733
+Och den andra derivatan till noll en gång, kommer
+
+03:06.733 --> 03:09.000
+att vara lika med noll. Sinus på noll är noll.
+
+03:09.000 --> 03:14.082
+Och nu låt oss ta den tredje derivatan
+
+03:14.082 --> 03:16.071
+Den tredje derivatan av vår funktion, g, av derivat av
+
+03:16.148 --> 03:19.209
+negativ sinus av x är negativt cosinus x.
+
+03:19.286 --> 03:22.600
+Och den tredje derivatan till noll nu kommer att bli
+
+03:22.600 --> 03:26.000
+lika med negativ. Och vi kunde fortsätta.
+
+03:26.000 --> 03:28.800
+Du kan redan gissa var detta kan leda till.
+
+03:28.800 --> 03:31.133
+Men jag ska bara fortsätta, för säkerhets skull.
+
+03:31.133 --> 03:37.400
+Den fjärde derivatan återigen kommer att vara lika med sinus för x
+
+03:37.400 --> 03:39.684
+kommer nu att vara lika med sinus x. Och sedan
+
+03:39.684 --> 03:45.067
+fjärde derivatan till noll, eftersom det är samma sak som funktionen
+
+03:45.067 --> 03:47.347
+nu kommer att bli noll också.
+
+03:47.347 --> 03:51.933
+Så detta kommer att vara lika med g den fjärde på noll.
+
+03:51.933 --> 03:54.133
+Och sedan kunde vi fortsätta. Detta kommer att vara samma sak
+
+03:54.133 --> 03:56.533
+som g till den femte eftersom vi börjar cykla
+
+03:56.533 --> 03:58.800
+när vi tar fler och fler derivat. Så detta kommer att bli
+
+03:58.800 --> 04:01.867
+samma sak som den femte derivatet på noll
+
+04:01.867 --> 04:07.933
+Detta kommer att vara samma sak som den sjätte derivatet på noll
+
+04:07.933 --> 04:13.423
+Och detta kommer att vara densamma - det är ett likhetstecken här
+
+04:13.423 --> 04:15.400
+lika med ett. Och detta kommer att vara samma sak som den sjunde
+
+04:15.400 --> 04:19.200
+derivat därav vid noll. Så om du vill att den första fyra
+
+04:19.200 --> 04:22.800
+nollskilda termer. Låt oss bara arbeta igenom det.
+
+04:22.800 --> 04:27.200
+Så först av allt, f noll - Jag ska göra detta på en ny färg
+
+04:27.200 --> 04:29.351
+om vi vill att närma g x
+
+04:29.351 --> 04:31.733
+om vi vill ungefärliga sinus för x
+
+04:31.733 --> 04:33.933
+så vi ska säga sinus för x kommer att vara ungefär lika med
+
+04:33.933 --> 04:36.867
+så detta första termen här borta
+
+04:36.867 --> 04:38.268
+som är sinus för 0, det är g noll
+
+04:38.268 --> 04:41.101
+det kommer att vara noll, så att vi inte ens skriva det
+
+04:41.101 --> 04:43.867
+så går vi till denna term här borta. Tja den första derivativethen går vi till denna term här borta. Tja den första derivatan
+
+04:43.867 --> 04:47.400
+f prime noll, eller i detta fall g främsta noll
+
+04:47.400 --> 04:49.600
+kommer att vara lika med en
+
+04:49.600 --> 04:52.177
+Så det kommer att bli en gånger x. Så du kommer att ha en x det
+
+04:52.177 --> 04:57.680
+Och nästa termin kommer att vara noll, ser vi att där borta
+
+04:57.680 --> 05:03.200
+eftersom den andra derivatan av vår funktion utvärderas på noll är noll
+
+05:03.200 --> 05:07.014
+vår tredje derivatan av vår funktion utvärderas på noll är 1
+
+05:07.014 --> 05:09.533
+så att termen som kommer att dyka upp igen
+
+05:09.533 --> 05:12.800
+Egentligen är begreppet negativ - jag vill inte göra ett misstag här
+
+05:12.800 --> 05:16.604
+det är negativt. Den var negativ cosinus x
+
+05:16.604 --> 05:19.867
+Om du utvärderar negativt cosinus x noll får du negativ
+
+05:19.867 --> 05:21.086
+rätt över här.
+
+05:21.086 --> 05:24.400
+Så den tredje derivatet, denna sak här borta, är negativ
+
+05:24.400 --> 05:29.352
+So then we have minus x to the third over 3 factorial
+
+05:29.352 --> 05:31.929
+Den fjärde derivatan återigen är noll
+
+05:31.929 --> 05:36.016
+Den femte derivatet utvärderas i noll är en. så då
+
+05:36.016 --> 05:41.267
+du kommer att få plus 1 gånger X till den femte under fem faktoriell
+
+05:41.267 --> 05:44.400
+Den sjätte derivatet är noll, så som denna term kommer att försvinna
+
+05:44.400 --> 05:45.867
+Jag visste inte ens skriva det här.
+
+05:45.867 --> 05:48.933
+Och sedan den sjunde sikt är koefficienten negativ
+
+05:48.933 --> 05:51.933
+Eller är det sjunde derivatet utvärderas på noll negativ
+
+05:51.933 --> 05:57.200
+Så du har negativt gånger x till den sjunde över sju faktoriell
+
+05:57.200 --> 06:00.350
+Och vi var tvungna att gå hela vägen till den sjunde graden sikt för att hitta
+
+06:00.350 --> 06:04.800
+de första fyra icke-noll villkor för våra Taylor-serien
+
+06:04.800 --> 06:07.467
+Och så är vi gjort med åtminstone den första delen
+
+06:07.467 --> 06:11.937
+Vi hittade de första fyra icke-noll när det gäller sinus x.
+
+06:11.937 --> 06:14.267
+Så nu hur sinus kvadrat av x
+
+06:14.267 --> 06:17.800
+Eller sinus av x-kvadrat. Vi måste vara försiktiga här. eftersom
+
+06:17.800 --> 06:20.133
+du kan bara säga, okej, låt mig bara gäller denna formel
+
+06:20.133 --> 06:21.600
+Och du kommer att hitta mycket snabbt
+
+06:21.600 --> 06:23.733
+när du börjar ta andra och tredje derivat
+
+06:23.733 --> 06:26.682
+i denna sak rätt över här, det kommer att bli riktigt rörigt
+
+06:26.682 --> 06:30.769
+men vad du kan säga är att titta, är sinus för x ungefär denna sak hit
+
+06:30.769 --> 06:33.867
+Vad händer om jag bara ersätta X med x-kvadrat?
+
+06:33.867 --> 06:39.533
+Då får jag sinus för x-kvadrat är ungefär lika med
+
+06:39.533 --> 06:42.467
+istället för en x här, jag ska sätta x-kvadrat
+
+06:42.467 --> 06:48.509
+istället för en x till den tredje, jag ska sätta x-kvadrat till den tredje hit, över tre faktoriella
+
+06:48.509 --> 06:53.200
+Istället för ett x till den femte, kan jag lägga ett x-kvadrat till den femte kraften
+
+06:53.200 --> 06:54.933
+över fem fakultet
+
+06:54.933 --> 06:58.516
+and instead of an x to the seventh, I can put an x-squared to the seventh
+
+06:58.516 --> 07:00.867
+power over seven factorial
+
+07:00.867 --> 07:03.184
+Så detta är en mycket viktig sak att inse.
+
+07:03.184 --> 07:08.083
+För om du hade börjat direkt ta Taylor-serien runt noll
+
+07:08.083 --> 07:10.335
+i denna sak här, skulle du har tagit upp all din tid
+
+07:10.335 --> 07:12.425
+att ta derivat och du förmodligen inte skulle ha kunnat
+
+07:12.425 --> 07:14.467
+to do it anyways, because it would have gotten really messy.
+
+07:14.467 --> 07:17.933
+Och nyckeln här är bara att inse att om du bara ersätta
+
+07:17.933 --> 07:22.200
+x-kvadrat för x, du kommer då att få din approximation för
+
+07:22.200 --> 07:23.942
+sinus för x-kvadrat.
+
+07:23.942 --> 07:26.000
+Och vi kan förenkla denna lite
+
+07:26.000 --> 07:27.600
+Detta kommer att vara ungefär lika med
+
+07:27.600 --> 07:31.605
+x-kvadrat minus x till den sjätte över tre faktoriell
+
+07:31.605 --> 07:34.600
+plus X till den tionde över fem faktoriell
+
+07:34.600 --> 07:39.685
+minus x till den fjortonde över sju faktoriell
+
+07:39.715 --> 3:59:59.999
+Så det är vår andra del av problemet.

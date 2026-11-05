@@ -1,0 +1,496 @@
+WEBVTT
+
+00:00.624 --> 00:04.254
+Hãy tìm hiểu một chút chuỗi vô hạn
+
+00:04.254 --> 00:09.254
+từ n bằng 1 tới vô cùng của 1/(n bình phương).
+
+00:09.759 --> 00:14.301
+Nó sẽ bằng với 1 cộng 1/4,
+
+00:14.301 --> 00:16.535
+đó là 1/(2 bình phương), cộng với
+
+00:16.535 --> 00:19.737
+1/(3 bình phương), là 1/9, cộng 1/16
+
+00:19.890 --> 00:22.427
+và nó cứ tiếp tục như vậy mãi mãi.
+
+00:22.808 --> 00:24.810
+Có một vài thứ ta đã biết về nó rồi đấy.
+
+00:25.195 --> 00:29.044
+Điều đầu tiên là tất cả các số hạng ở đây đều dương.
+
+00:29.475 --> 00:32.244
+Tất cả số hàng ở đây đều dương.
+
+00:33.448 --> 00:37.100
+Chúng đều dương và đang giảm dần.
+
+00:37.240 --> 00:40.608
+Cỏ vẻ như chúng đang giảm khá nhanh
+
+00:40.608 --> 00:43.863
+ở đây từ 1 đến 1/4 đến 1/9 đến 1/16,
+
+00:43.863 --> 00:46.674
+Thế nên chúng đang tiến gần đến 0 rất nhanh,
+
+00:46.674 --> 00:49.323
+và điều đó khiến mình cảm thấy khá tốt rằng
+
+00:49.323 --> 00:51.983
+nó có khả năng sẽ hội tụ.
+
+00:52.372 --> 00:54.370
+Và bởi vì chúng đều dương, nên ta biết
+
+00:54.370 --> 00:57.188
+tổng ở đây, nếu nó hội tụ
+
+00:57.188 --> 01:00.059
+thì sẽ là lớn hơn 0.
+
+01:00.142 --> 01:03.143
+Lý do duy nhất khiến nó không hội tụ chỉ có thể
+
+01:03.143 --> 01:06.525
+là bằng một cách nào đó nó đi không giới hạn tới vô cùng,
+
+01:06.525 --> 01:08.192
+và ta biết nếu đây là 1/n
+
+01:08.192 --> 01:10.561
+thì nó sẽ đi không giới hạn tới vô cùng.
+
+01:10.561 --> 01:13.267
+Vậy nên ở đây có một khả năng đúng không.
+
+01:13.267 --> 01:16.253
+Vậy nếu ta có thể chứng minh cái này là hữu hạn,
+
+01:16.253 --> 01:18.541
+thì khi đó nó sẽ là một lập luận tốt để
+
+01:18.541 --> 01:20.763
+lý giải tại sao cái này ở đây hội tụ vì
+
+01:20.763 --> 01:23.450
+lý do duy nhất nó có thể phân kì là khi tiến tới
+
+01:23.450 --> 01:25.444
+dương vô cùng hay âm vô cùng.
+
+01:25.444 --> 01:27.562
+Ta đã biết cái này sẽ không tiến về
+
+01:27.562 --> 01:29.767
+âm vô cùng vì đây chúng đều dương.
+
+01:29.767 --> 01:32.174
+Hoặc nó cũng có thể phân kì nếu nó dao động,
+
+01:32.174 --> 01:34.176
+nhưng nó sẽ không đâu vì tất cả
+
+01:34.176 --> 01:37.274
+các số hạng đều đang cộng lại với nhau, không cái nào
+
+01:37.274 --> 01:39.396
+bị lấy đi vì không có cái nào âm cả.
+
+01:39.396 --> 01:42.286
+Thế nên, để xem nào, nếu ta có thể giải thích
+
+01:42.286 --> 01:44.856
+tại sao tổng ở đây là hữu hạn,
+
+01:44.856 --> 01:47.411
+đặc biệt nếu ta có thể tìm ra một giới hạn,
+
+01:47.411 --> 01:49.480
+thì nó sẽ là một lập luận tốt rằng
+
+01:49.522 --> 01:52.656
+chuỗi vô hạn này sẽ hội tụ.
+
+01:53.352 --> 01:55.168
+Và cách ta sẽ làm là
+
+01:55.168 --> 01:57.342
+ta sẽ tìm một hàm số liên quan.
+
+01:57.888 --> 02:00.326
+Vậy nên mình sẽ muốn tìm hiểu
+
+02:00.326 --> 02:04.135
+f(x) bằng 1/(x bình phương).
+
+02:04.940 --> 02:06.636
+Bạn có thể thấy ở đây
+
+02:06.636 --> 02:11.636
+1/(n bình phương) như là f(n) nếu mình viết nó theo cách này.
+
+02:12.290 --> 02:14.117
+Thế tại sao cái này lại thú vị?
+
+02:14.117 --> 02:16.032
+Hãy dựng đồ thị của nó nhé!
+
+02:17.578 --> 02:20.739
+Đó là đồ thị của y bằng f(x).
+
+02:24.141 --> 02:27.646
+Và chú ý nhé đây là một hàm liên tục, dương, và giảm dần,
+
+02:27.646 --> 02:32.282
+nhất là trên khoảng
+
+02:32.282 --> 02:33.546
+mình quan tâm ở đây.
+
+02:33.546 --> 02:38.034
+Mình đoán ta có thể nói nó là hàm liên tục, dương và giảm dần
+
+02:38.034 --> 02:43.034
+cho tất cả giá trị dương của x.
+
+02:43.863 --> 02:47.959
+Và cái thú vị ở đây là ta có thể dùng cái này như là
+
+02:47.959 --> 02:50.625
+ước lượng thiếu cho diện tích ở ngay đây.
+
+02:50.625 --> 02:52.212
+Điều đó nghĩa là gì?
+
+02:52.419 --> 02:55.510
+Số hạng đầu tiên ở đây,
+
+02:56.170 --> 02:57.719
+bạn có thể xem như là diện tích
+
+02:57.719 --> 03:00.688
+của khối ở ngay đây .
+
+03:01.383 --> 03:05.955
+Đó là f(x) hay bạn có thể nói là f(1 cao và 1 ngang)
+
+03:05.955 --> 03:08.346
+, nên nó sẽ là
+
+03:08.346 --> 03:12.115
+1 nhân 1 trên 1 bình phương, hay 1.
+
+03:14.541 --> 03:16.732
+Để mình dùng một màu khác nhé!
+
+03:16.732 --> 03:18.960
+Số hạng ở đây, nó có thể biểu diễn
+
+03:18.960 --> 03:23.960
+diện tích của khối này, là 1/4 cao
+
+03:24.547 --> 03:29.547
+và 1 ngang, nên nó sẽ có diện tích là 1/4.
+
+03:30.915 --> 03:33.143
+Vậy cái này biểu diễn cái nào nhỉ?
+
+03:33.219 --> 03:35.552
+Vâng diện tích của khối tiếp theo này
+
+03:35.552 --> 03:38.391
+để ước lượng diện tích dưới đường cong.
+
+03:38.495 --> 03:40.852
+Và cái này có thể quen thuộc khi ta lần đầu
+
+03:40.852 --> 03:43.392
+tiếp xúc với tích phân hay thậm chí trước khi
+
+03:43.392 --> 03:45.509
+ta tiếp xúc với tích phân, khi ta đang học về tổng Riemann.
+
+03:45.977 --> 03:48.106
+Vậy cái ở đây, diện tích này,
+
+03:48.106 --> 03:49.954
+sẽ bằng với 1/9.
+
+03:50.827 --> 03:53.912
+Cái hấp dẫn ở đây là ta biết cách
+
+03:53.912 --> 03:58.449
+tìm diện tích, hay diện tích chính xác
+
+03:58.449 --> 04:01.414
+từ 1 tới vô cùng, từ x bằng 1 tới vô cùng.
+
+04:01.433 --> 04:03.495
+Nên ta sẽ có thể dùng cách đó.
+
+04:03.598 --> 04:06.668
+Ta biết diện tích ở đây,
+
+04:07.329 --> 04:11.761
+ta có thể biểu diễn nó như là tích phân suy rộng
+
+04:11.761 --> 04:15.853
+từ 1 tới vô cùng của f(x) dx.
+
+04:15.853 --> 04:19.388
+Ta đã biết nó là gì đúng không, và chút nữa mình sẽ tìm ra nó.
+
+04:19.388 --> 04:20.959
+Và nếu ta có thể tìm ra
+
+04:20.959 --> 04:22.511
+giá trị của cận trên
+
+04:22.511 --> 04:24.328
+cho 1/4 cộng 1/9 cộng 1/16
+
+04:24.328 --> 04:26.780
+và tiếp tục như vậy.
+
+04:26.862 --> 04:29.425
+Và điều đó sẽ giúp ta giới hạn
+
+04:29.425 --> 04:34.255
+được giá trị của chuỗi này và như mình nói
+
+04:34.255 --> 04:37.458
+đó sẽ là một lập luận tốt chứng minh tính hội tụ của nó.
+
+04:37.458 --> 04:39.692
+Tóm lại, mình sẽ không chứng minh
+
+04:39.692 --> 04:42.543
+chặt chẽ, thay vào đó chỉ giúp các bạn
+
+04:42.543 --> 04:46.279
+hiểu được khái niệm cơ bản về phép thử nổi tiếng
+
+04:46.279 --> 04:47.996
+cho sự hội tụ và phân kì,
+
+04:47.996 --> 04:50.649
+hay còn được gọi là phép thử tích phân.
+
+04:51.388 --> 04:53.928
+Để mình viết nó ra thế này để bạn biết
+
+04:53.928 --> 04:57.145
+đây là một nền tảng đấy.
+
+04:57.748 --> 04:59.545
+Thế ý của mình là gì ở đây?
+
+04:59.564 --> 05:01.395
+Để mình viết lại cái tổng này.
+
+05:01.395 --> 05:03.505
+Để mình viết khác một chút nhé!
+
+05:03.505 --> 05:07.961
+Chuỗi ban đầu của mình từ n bằng 1
+
+05:07.961 --> 05:11.058
+tới vô cùng của 1/(n bình phương).
+
+05:11.440 --> 05:13.897
+Nó sẽ bằng với khối đầu tiên này,
+
+05:13.897 --> 05:17.306
+diện tích của khối đầu tiên cộng với diện tích
+
+05:17.306 --> 05:19.213
+của phần còn lại,
+
+05:19.213 --> 05:21.261
+là 1/4 cộng 1/9 cộng 1/16,
+
+05:23.883 --> 05:25.821
+mình sẽ dùng màu mới ở đây.
+
+05:25.821 --> 05:30.821
+Mình có thể viết là tổng từ n bằng 2
+
+05:32.089 --> 05:36.937
+tới vô cùng của 1/(n bình phương).
+
+05:37.331 --> 05:39.832
+Mình đã biểu diễn cái này thành tổng
+
+05:39.832 --> 05:41.646
+của 1 với phần còn lại này.
+
+05:42.086 --> 05:45.967
+Giờ cái thú vị là cái mình
+
+05:45.967 --> 05:50.131
+vừa viết bằng màu xanh,
+
+05:50.131 --> 05:53.554
+sẽ là khối này cộng khối này cộng với khối tiếp theo,
+
+05:53.554 --> 05:54.924
+và nó sẽ nhỏ hơn
+
+05:54.924 --> 05:56.800
+tích phân xác định ở đây này.
+
+05:56.800 --> 06:00.148
+Chú ý nhé, tích phân xác định này là một ước lượng thiếu,
+
+06:00.148 --> 06:02.635
+nó sẽ luôn nằm dưới đường cong, nên nó
+
+06:02.635 --> 06:04.575
+sẽ nhỏ hơn tích phân xác định.
+
+06:04.575 --> 06:07.922
+Vậy ta có thể viết cái này là nhỏ hơn
+
+06:07.922 --> 06:12.488
+1 cộng, thay vi viết cái này
+
+06:12.488 --> 06:14.999
+mình sẽ viết tích phân xác định ngay đây.
+
+06:14.999 --> 06:17.472
+1 cộng tích phân xác định từ 1
+
+06:17.472 --> 06:22.472
+tới vô cùng của 1/(x bình phương) dx.
+
+06:24.414 --> 06:26.109
+Thế sao nó lại có ích nhỉ?
+
+06:26.109 --> 06:29.277
+Vâng ta biết cách để tính cái này và mình khuyến khích
+
+06:29.277 --> 06:31.602
+bạn xem lại phần trên Khan Academy
+
+06:31.602 --> 06:34.797
+về tích phân suy rộng nếu bạn không quen với cái này,
+
+06:34.797 --> 06:37.300
+và mình sẽ tính nó ở dưới đây.
+
+06:37.698 --> 06:41.701
+Ta biết nó tương tự với giới hạn của,
+
+06:41.701 --> 06:43.133
+mình sẽ thêm một biến ở đây,
+
+06:43.133 --> 06:46.727
+giới hạn khi t tiến tới vô cùng của tích phân xác định
+
+06:46.727 --> 06:49.259
+từ 1 tới t, mình sẽ viết
+
+06:49.259 --> 06:52.191
+là x mũ âm 2 dx.
+
+06:52.449 --> 06:57.188
+Nó sẽ bằng với giới hạn khi t tiến tới vô cùng
+
+06:57.188 --> 07:02.188
+của âm x mũ âm 1, hay thực ra mình
+
+07:02.439 --> 07:04.145
+có thể viết là âm 1 trên x.
+
+07:06.698 --> 07:09.659
+Và ta sẽ tính nó tại t và tại 1,
+
+07:09.659 --> 07:14.659
+sẽ bằng với giới hạn khi t tiến tới vô cùng
+
+07:14.702 --> 07:19.702
+của âm 1 trên t và trừ
+
+07:20.648 --> 07:22.870
+âm 1 trên 1, là cộng 1.
+
+07:23.062 --> 07:25.462
+Và khi t tiến tới vô cùng, số hạng ở đây
+
+07:25.462 --> 07:26.532
+sẽ bằng 0,
+
+07:26.532 --> 07:28.328
+nên nó rút gọn còn lại 1.
+
+07:28.537 --> 07:32.468
+Vậy cả cái này mình tính được là 1.
+
+07:33.067 --> 07:35.156
+Như vậy mình đã tìm ra được
+
+07:35.156 --> 07:37.619
+cận trên của chuỗi này.
+
+07:38.274 --> 07:41.894
+Ta có thể nói rằng chuỗi trong đề bài,
+
+07:41.894 --> 07:45.448
+hay là tổng từ n bằng 1
+
+07:45.448 --> 07:48.221
+tới vô cùng của 1/(n bình phương) sẽ
+
+07:48.221 --> 07:53.221
+nhỏ hơn 1 cộng 1, hay là 2.
+
+08:00.748 --> 08:03.084
+Một cách khác để nghĩ về nó là
+
+08:03.084 --> 08:05.580
+diện tích ở đây là 2,
+
+08:05.580 --> 08:08.021
+cộng với diện tích này.
+
+08:08.358 --> 08:10.461
+Vậy ta nói tổng này sẽ nhỏ hơn 2,
+
+08:10.461 --> 08:12.498
+và ta có giới hạn trên của nó rồi.
+
+08:12.498 --> 08:15.603
+Thế nên ta biết là nó sẽ không tiến về dương vô cùng.
+
+08:15.603 --> 08:18.308
+Bởi vì tất cả số hạng đều dương, nó chắc chắn
+
+08:18.308 --> 08:20.166
+sẽ không tiến về âm vô cùng.
+
+08:20.166 --> 08:22.754
+Và bởi vì tất cả đều dương, nên ta cũng biết
+
+08:22.754 --> 08:24.505
+nó sẽ không dao động giữa
+
+08:24.505 --> 08:26.833
+hai giá trị khác nhau, nên sẽ cho mình
+
+08:26.833 --> 08:30.963
+cái cảm giác rằng chuỗi này sẽ hội tụ.
+
+08:32.305 --> 08:36.946
+Và cái lập luận mình vừa dùng để chứng minh
+
+08:36.946 --> 08:39.385
+tại sao chuỗi này hội tụ, một lần nữa, không phải là chứng minh chặt chẽ,
+
+08:39.385 --> 08:44.206
+mà chỉ là một lập luận cơ bản của phép thử tích phân.

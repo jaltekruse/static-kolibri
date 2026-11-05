@@ -1,0 +1,263 @@
+WEBVTT
+
+00:00.000 --> 00:01.670
+Az a feladatunk, hogy ábrázoljuk
+
+00:01.670 --> 00:05.490
+az y = 3 ⋅ sin (½x) − 2 függvényt
+
+00:05.490 --> 00:06.900
+az interaktív grafikonon.
+
+00:06.900 --> 00:08.250
+Ez itt az interaktív grafikon,
+
+00:08.250 --> 00:10.460
+amit a Khan Academy oldalon megtalálsz.
+
+00:10.460 --> 00:14.410
+Először talán érdemes megmutatni,
+hogy is működik ez a grafikon.
+
+00:14.410 --> 00:16.330
+Itt ez a pont
+
+00:16.330 --> 00:19.670
+segít meghatározni a középvonalat,
+
+00:19.670 --> 00:21.770
+amely körül szerinted a szinusz vagy
+
+00:21.770 --> 00:23.540
+koszinusz függvény váltakozik,
+
+00:23.540 --> 00:26.400
+és ugyancsak meg tudod határozni
+a szomszédos szélsőértéket,
+
+00:26.400 --> 00:32.060
+a függvényed maximumát vagy minimumát.
+
+00:32.060 --> 00:33.700
+Gondolkodjunk el tehát azon,
+hogyan is kéne ezt csinálni,
+
+00:33.700 --> 00:35.470
+és mint mindig, javaslom,
+hogy állítsd most le a videót,
+
+00:35.470 --> 00:37.810
+és gondolkozz el azon,
+hogyan csinálnád te magad.
+
+00:37.810 --> 00:39.510
+Az egyik módszer, ahogy az ilyesmit
+szeretem megközelíteni,
+
+00:39.510 --> 00:42.010
+hogy átgondolom, hogy nézne ki
+
+00:42.010 --> 00:45.370
+az y = sin x alapfüggvény grafikonja.
+
+00:45.370 --> 00:47.560
+Nos, sin 0 = 0,
+
+00:47.560 --> 00:52.560
+sin (π/2) = 1,
+
+00:52.770 --> 00:55.530
+és akkor sin π = 0 megint.
+
+00:55.530 --> 00:59.550
+Szóval a sin x alapfüggvény
+így nézne ki.
+
+00:59.550 --> 01:01.770
+De most nézzük meg, hogy
+ez mennyiben más.
+
+01:01.770 --> 01:04.300
+Először is, ez nem egyszerűen sin x,
+
+01:04.300 --> 01:06.820
+hanem sin (½x).
+
+01:06.820 --> 01:10.730
+Milyen lenne a sin (½x) képe?
+
+01:10.730 --> 01:13.660
+Kétféleképpen is gondolkodhatunk erről,
+
+01:13.660 --> 01:16.720
+itt van az x együtthatója,
+
+01:16.720 --> 01:19.160
+ami megmondja, hogy milyen gyorsan
+
+01:19.160 --> 01:22.070
+növekszik az, aminek a szinuszát vesszük.
+
+01:22.070 --> 01:24.720
+És ez most fele olyan gyorsan nő.
+
+01:24.720 --> 01:26.680
+Tehát ha így közelítjük meg, látszik, hogy
+
+01:26.680 --> 01:29.920
+a periódus most
+kétszer olyan hosszú lesz.
+
+01:29.920 --> 01:31.210
+Tehát e szerint
+
+01:31.210 --> 01:33.940
+ahelyett, hogy a következő
+maximum helye π/2-nél lenne,
+
+01:33.940 --> 01:35.620
+most π-nél lesz.
+
+01:35.620 --> 01:36.770
+És ezt le is ellenőrizheted.
+
+01:36.770 --> 01:39.210
+x = π-nél
+
+01:39.210 --> 01:42.120
+ez az érték ½π lesz,
+
+01:42.120 --> 01:44.930
+sin (½π) pedig valóban 1.
+
+01:44.930 --> 01:47.100
+Egy másik megközelítés
+
+01:47.100 --> 01:48.640
+– ismerős lehet ez a képlet,
+
+01:48.640 --> 01:49.920
+habár szerintem jobb, ha mindig
+
+01:49.920 --> 01:51.790
+végiggondolod, hogy is jön ki ez –,
+
+01:51.790 --> 01:55.490
+amely szerint egy szinusz- vagy koszinuszfüggvény
+periódusának meghatározásához
+
+01:55.490 --> 01:57.780
+kiindulunk a 2π-ből, és elosztjuk
+
+01:57.780 --> 01:59.370
+ezzel az együtthatóval.
+
+01:59.370 --> 02:02.040
+Vagyis 2π osztva ½-del az 4π.
+
+02:02.040 --> 02:03.160
+És láthatod itt a periódust,
+
+02:03.160 --> 02:07.440
+megyünk felfelé, lefelé és aztán
+4π-nél vissza oda, ahol voltunk.
+
+02:07.440 --> 02:08.400
+Ez logikus is, mert
+
+02:08.400 --> 02:10.360
+ha itt csak 1 lenne az együttható,
+
+02:10.360 --> 02:12.950
+akkor a periódus 2π lenne, 2π radián.
+
+02:12.950 --> 02:15.820
+Egyszer körbemegyünk az egységkörön,
+
+02:15.820 --> 02:17.430
+ez tehát az egyik módszer.
+
+02:17.430 --> 02:21.670
+Itt van tehát a sin (½x) grafikonja.
+
+02:21.670 --> 02:23.370
+És mi van akkor, ha ehelyett
+
+02:23.370 --> 02:27.180
+a sin (½x) helyett a háromszorosát vesszük,
+
+02:27.180 --> 02:29.560
+3 sin (½x)-et?
+
+02:29.560 --> 02:31.010
+Ekkor az amplitúdó egyszerűen
+
+02:31.010 --> 02:32.450
+háromszor akkora lesz.
+
+02:32.450 --> 02:35.450
+És a maximum érték
+
+02:35.450 --> 02:37.030
+ahelyett, hogy 1 lenne,
+
+02:37.030 --> 02:38.910
+most 3 lesz.
+
+02:38.910 --> 02:40.500
+Vagy másképpen szólva,
+
+02:40.500 --> 02:44.500
+3-mal megyünk a középvonal fölé, és
+3-mal a középvonal alá.
+
+02:44.500 --> 02:48.560
+Ez tehát a 3 sin (½x) képe.
+
+02:48.560 --> 02:50.620
+Már csak egy dolgunk maradt,
+
+02:50.620 --> 02:52.330
+ez pedig ez a mínusz 2.
+
+02:52.330 --> 02:55.960
+És ez a −2 mindent egyszerűen
+lefelé tol 2-vel.
+
+02:55.960 --> 02:57.810
+Tehát mindent lefelé kell tolnunk.
+
+02:57.810 --> 02:59.780
+Hadd toljam le ezt 2-vel,
+
+02:59.780 --> 03:01.760
+és ezt is 2-vel.
+
+03:01.760 --> 03:03.460
+És íme itt van.
+
+03:03.460 --> 03:07.250
+Figyeld meg, hogy a periódus
+továbbra is 4π.
+
+03:07.250 --> 03:09.770
+Az amplitúdó, hogy mennyit
+mozdulunk el a középvonaltól
+
+03:09.770 --> 03:12.670
+felfelé és lefelé, ez továbbra is 3.
+
+03:12.670 --> 03:14.600
+És még ez a mínusz 2.
+
+03:14.600 --> 03:17.180
+Másképp nézve, amikor x = 0,
+
+03:17.180 --> 03:19.140
+ez az egész kifejezés itt 0 lesz,
+
+03:19.140 --> 03:21.530
+és az y-nak egyenlőnek kell lennie −2-vel.
+
+03:21.530 --> 03:22.563
+Ezzel készen is vagyunk.

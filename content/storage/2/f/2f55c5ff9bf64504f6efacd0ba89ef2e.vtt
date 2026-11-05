@@ -1,0 +1,343 @@
+WEBVTT
+
+00:00.570 --> 00:02.970
+Mình đã khẳng định trong video trước
+
+00:02.970 --> 00:04.980
+là chuỗi này ở ngay đây
+
+00:04.980 --> 00:07.060
+có thể được xác định một cách tường minh
+
+00:07.060 --> 00:11.530
+bằng cách này, giới hạn của chuỗi
+
+00:11.530 --> 00:15.390
+cái này có thể được viết là -1 mũ n-1
+
+00:15.390 --> 00:16.400
+phần n. Đây là một
+
+00:16.400 --> 00:18.580
+cách để xác định chuỗi một cách tường minh
+
+00:18.580 --> 00:22.060
+giới hạn của nó khi n tiến tới vô cực
+
+00:22.060 --> 00:24.020
+và bằng với 0
+
+00:24.020 --> 00:25.060
+Nó có vẻ là như vậy
+
+00:25.060 --> 00:27.764
+Khi n lớn dần lên,
+
+00:27.764 --> 00:30.055
+thì dù tử số dao động giữa -1
+
+00:30.055 --> 00:32.060
+và 1, nó vẫn sẽ càng ngày
+
+00:32.060 --> 00:33.060
+càng nhỏ
+
+00:33.060 --> 00:34.434
+Nhưng mình chưa chứng minh nó
+
+00:34.434 --> 00:36.180
+và mình sẽ cùng làm trong vdeo này
+
+00:36.180 --> 00:40.310
+Để chứng minh nó thì cái này đúng khi và chỉ khi
+
+00:40.310 --> 00:47.190
+với mọi epsilon lớn hơn 0
+
+00:47.190 --> 00:54.190
+có một số M lớn lớn hơn 0
+
+00:54.190 --> 01:02.140
+để nếu n nhỏ, nếu số hạng của mình lớn hơn
+
+01:02.140 --> 01:06.820
+M lớn, thì bậc n của chuỗi
+
+01:06.820 --> 01:13.600
+sẽ nằm trong epsilon của giới hạn của mình
+
+01:16.304 --> 01:17.220
+hay epsilon của 0
+
+01:17.220 --> 01:19.650
+Vậy giới hạn của mình là 0
+
+01:19.650 --> 01:20.900
+Mình sẽ viết màu khác
+
+01:20.900 --> 01:22.940
+Giới hạn của mình ở đây là 0
+
+01:22.940 --> 01:24.220
+ngay đây
+
+01:24.220 --> 01:26.090
+Vậy mình thực chất đang nói là
+
+01:26.090 --> 01:29.050
+chuỗi này đang hội tụ về 0
+
+01:29.050 --> 01:32.210
+Mình đang nói là cho mình một epsilon gần 0
+
+01:32.210 --> 01:35.330
+Vậy cái này bằng với 0 + epsilon
+
+01:35.330 --> 01:36.770
+0+ epsilon
+
+01:36.770 --> 01:39.620
+Cách mình vẽ ở đây làm epsilon nhìn giống 0.5
+
+01:39.620 --> 01:41.240
+Nó sẽ là 0- epsilon
+
+01:41.240 --> 01:43.880
+Để mình viết nó rõ hơn
+
+01:43.880 --> 01:46.800
+Cái này là 0- epsilon
+
+01:46.800 --> 01:51.440
+Và cái này là -epsilon, 0- epsilon, 0+epsilon
+
+01:51.440 --> 01:55.840
+Giới hạn của mình trong trường hợp này là 0
+
+01:55.840 --> 01:57.450
+Vậy nó đang nói là với mọi epsilon
+
+01:57.450 --> 02:00.780
+mình cần tìm M lớn sao cho nếu n>M
+
+02:00.780 --> 02:03.486
+thì khoảng cách giữa chuỗi và giới hạn
+
+02:03.486 --> 02:04.860
+sẽ nhỏ hơn epsilon
+
+02:04.860 --> 02:08.330
+Vậy nếu khoảng cách giữa chuỗi và giới hạn của mình
+
+02:08.330 --> 02:10.780
+nhỏ hơn epsilon, có nghĩa là giá trị
+
+02:10.780 --> 02:13.800
+của chuỗi tại n cho trước sẽ nằm
+
+02:13.800 --> 02:15.450
+trong hai giới hạn này
+
+02:15.450 --> 02:17.970
+Nó phải nằm trong khoảng ngay đây
+
+02:17.970 --> 02:21.510
+mà mình đang tô, trên một n nhất định
+
+02:21.510 --> 02:24.640
+Vậy nếu mình chọn một n
+
+02:24.640 --> 02:26.370
+bất kì cái gì lớn hơn cái này
+
+02:26.370 --> 02:29.070
+sẽ luôn nằm trong khoảng
+
+02:29.070 --> 02:29.780
+giới hạn
+
+02:29.780 --> 02:31.830
+Nhưng chứng minh nó như thế nào?
+
+02:31.830 --> 02:33.960
+Mình sẽ thử nghĩ xem
+
+02:33.960 --> 02:36.440
+cần có cái gì để điều này xảy ra
+
+02:36.440 --> 02:41.220
+Vậy cái cần có cho n -0
+
+02:41.220 --> 02:43.530
+trị tuyệt đối của n-0
+
+02:43.530 --> 02:46.710
+cần có cái gì để cái này nhỏ hơn epsilon?
+
+02:46.710 --> 02:48.580
+Đây thực ra là một cách nói khác
+
+02:48.580 --> 02:53.180
+là trị tuyệt đối của n phải nhỏ hơn epsilon
+
+02:53.180 --> 02:55.080
+và n là cái này ngay đây
+
+02:55.080 --> 02:58.510
+vậy nó đang nói là trị tuyệt đối cúr
+
+02:58.510 --> 03:02.180
+-1 mũ n+1 phần n
+
+03:02.180 --> 03:05.590
+phải nhỏ hơn epsilon, hay nói cách khác
+
+03:05.590 --> 03:08.020
+vì nó âm, 1 mũ n+1,
+
+03:08.020 --> 03:10.310
+tử số chuyển từ số âm thành
+
+03:10.310 --> 03:12.322
+số dương của 1/n
+
+03:12.322 --> 03:14.030
+Nhưng nếu bạn lấy trị tuyệt đối của nó
+
+03:14.030 --> 03:16.550
+nó sẽ luôn luôn dương
+
+03:16.550 --> 03:19.250
+Vậy nó sẽ bằng với 1/n
+
+03:19.250 --> 03:23.570
+với trị tuyệt đối của 1/n phải nhỏ hơn epsilon
+
+03:23.570 --> 03:26.400
+Bây giờ, n luôn luôn dương
+
+03:26.400 --> 03:28.860
+n bắt đầu tại 1 và đến vô cực
+
+03:28.860 --> 03:31.250
+Vậy giá trị này sẽ luôn dương
+
+03:31.250 --> 03:33.510
+Vậy nó đang nói là 1/n
+
+03:33.510 --> 03:36.380
+phải nhỏ hơn epsilon để cái này ở đây
+
+03:36.380 --> 03:37.840
+là đúng
+
+03:37.840 --> 03:40.327
+Bây giờ mình có thể lấy nghịch đảo của hai vế
+
+03:40.327 --> 03:42.910
+Và nghịch đảo hai vế của một bất phương trình
+
+03:42.910 --> 03:45.310
+mình sẽ có n, việc mình đang làm là nếu
+
+03:45.310 --> 03:49.640
+lấy nghịch đảo của hai vế bất phương trình
+
+03:49.640 --> 03:51.260
+bạn đổi chỗ hai vế
+
+03:51.260 --> 03:57.870
+Vậy để cái này đúng, n phải lớn hơn 1/epsilon
+
+03:57.870 --> 03:59.780
+Và mình thực tế vừa chứng minh nó
+
+03:59.780 --> 04:02.880
+Và giờ đối với chuỗi này ở đây,
+
+04:02.880 --> 04:06.950
+Bạn cho mình bất kì epsilon nào
+
+04:06.950 --> 04:12.030
+và mình sẽ đặt M là 1/epsilon
+
+04:12.030 --> 04:22.760
+Vì nếu n>M, hay n> 1/ epsilon
+
+04:22.760 --> 04:25.880
+thì mình biết là cái này là đúng
+
+04:25.880 --> 04:30.680
+Cái này ở đây là đúng
+
+04:30.680 --> 04:34.380
+Vậy giới hạn chắc chắn có tồn tại
+
+04:34.380 --> 04:36.810
+Vậy ở ngay đây, cho epsilon cụ thể này
+
+04:36.810 --> 04:40.200
+có vẻ như mình đã chọn 1/2 là epsilon
+
+04:40.200 --> 04:43.250
+Vậy miễn n lớn hơn 1 phần 1/2, là 2
+
+04:43.250 --> 04:46.630
+vậy trong trường hợp này, mình có 1/2
+
+04:46.630 --> 04:48.464
+M của mình sẽ là hàm số của epsilon
+
+04:48.464 --> 04:50.630
+Nó sẽ được xác định với epsilon bất kì
+
+04:50.630 --> 04:53.030
+lớn hơn không
+
+04:53.030 --> 04:55.530
+Vậy ở đây, 1 phần 1/2 là ở ngay đây
+
+04:55.530 --> 04:58.170
+Vậy mình sẽ làm cho M của mình ở đây
+
+04:58.170 --> 05:00.290
+Và bạn có thể thấy là nó đúng
+
+05:00.290 --> 05:02.600
+là chuỗi của mình nằm trong khoảng
+
+05:02.600 --> 05:05.240
+mình đã nhận cho mọi n lớn hơn 2
+
+05:05.240 --> 05:06.970
+Vậy n bằng 3 nằm trong khoảng
+
+05:06.970 --> 05:08.553
+n bằng 4 cũng nằm trong khoảng
+
+05:08.553 --> 05:10.620
+n bằng 5 cũng vậy
+
+05:10.620 --> 05:12.370
+Và mình không chỉ nói suông
+
+05:12.370 --> 05:14.410
+mà mình đã chứng minh được nó ở đây
+
+05:14.410 --> 05:15.710
+Đây là chứng minh của mình
+
+05:15.710 --> 05:17.510
+Nếu bạn cho mình một epsilon bất kì
+
+05:17.510 --> 05:21.000
+Mình nói M bằng với 1 phần cái này
+
+05:21.000 --> 05:24.080
+Và với n lớn hơn cái này, nó sẽ đúng
+
+05:24.080 --> 05:25.990
+Vậy chuỗi này chắc chắn
+
+05:25.990 --> 05:30.220
+sẽ hội tụ về 0

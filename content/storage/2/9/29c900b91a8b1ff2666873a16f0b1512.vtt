@@ -1,0 +1,361 @@
+WEBVTT
+
+00:00.146 --> 00:02.843
+Ciò che tenteremo di fare in questo video è
+
+00:02.843 --> 00:09.900
+approssimare l'area sotto la curva y=x^2+1,
+
+00:09.900 --> 00:16.436
+tra l'intervallo x è uguale a 3 e x è uguale 1.
+
+00:16.436 --> 00:19.910
+E l'approssimeremo costruendo 4 rettangoli,
+
+00:19.910 --> 00:21.911
+sotto la curva, di eguale larghezza.
+
+00:21.911 --> 00:25.074
+Allora, pensiamo dapprima a come sembrano questi rettangoli.
+
+00:25.074 --> 00:28.067
+Quindi 4 rettangoli di eguale larghezza.
+
+00:28.067 --> 00:32.313
+Quindi sembra così, e così e così.
+
+00:32.313 --> 00:35.572
+E non ho ancora definito la parte superiore dei rettangoli.
+
+00:35.587 --> 00:37.905
+Ma pensiamo a quanto lunghe debbano essere queste larghezze,
+
+00:37.905 --> 00:39.174
+se devono essere larghezze eguali.
+
+00:39.174 --> 00:41.466
+E possiamo chiamare queste larghezze delta x.
+
+00:41.466 --> 00:45.803
+Quindi queste distanze qui le chiameremo delta x.
+
+00:45.803 --> 00:48.369
+Quindi delta x dovrà essere
+
+00:48.369 --> 00:51.169
+la distanza totale che percorriamo in x.
+
+00:51.169 --> 00:53.398
+Quindi finiamo a 3, abbiamo iniziato a 1.
+
+00:53.398 --> 00:56.171
+E vogliamo rettangoli dalle eguali larghezze.
+
+00:56.171 --> 00:59.169
+Quindi dovrà essere uguale a 1/2.
+
+00:59.169 --> 01:02.776
+Per esempio questo primo intervallo
+
+01:02.776 --> 01:05.894
+tra i limiti fra il primo rettangolo ed il secondo rettangolo
+
+01:05.894 --> 01:08.188
+sarà 1.5.
+
+01:08.235 --> 01:09.569
+Allora andiamo avanti un mezzo fino a 2.
+
+01:09.569 --> 01:11.721
+Quindi andiamo fino a 2.5.
+
+01:11.721 --> 01:13.577
+E andiamo avanti un mezzo fino a 3.
+
+01:13.577 --> 01:16.770
+Ora pensiamo a come definire l'altezza dei rettangoli.
+
+01:16.770 --> 01:18.436
+Limitatamente a questo video...
+
+01:18.436 --> 01:20.570
+Vedremo in video futuri che i sono altri modi di farlo...
+
+01:20.570 --> 01:23.975
+Voglio usare il limite inferiore del rettangolo
+
+01:23.975 --> 01:25.182
+per definire l'altezza...
+
+01:25.182 --> 01:27.063
+...della funzione, avrei dovuto dire.
+
+01:27.063 --> 01:29.062
+Voglio usare la funzione valutata al limite sinistro
+
+01:29.062 --> 01:30.133
+per definire l'altezza.
+
+01:30.133 --> 01:33.102
+Quindi, per esempio, per il primo rettangolo,
+
+01:33.102 --> 01:36.479
+questo punto qui è f di 1.
+
+01:36.479 --> 01:41.318
+F di 1. E quindi direi che questa è l'altezza
+
+01:41.318 --> 01:45.157
+del nostro primo rettangolo.
+
+01:45.157 --> 01:47.327
+Allora andiamo qui.
+
+01:47.327 --> 01:49.993
+Il limite sinistro del secondo rettangolo.
+
+01:49.993 --> 01:56.751
+Ora stiamo guardando alla funzione valutata a 1.5.
+
+01:56.751 --> 01:59.508
+Quindi questo è f di 1.5.
+
+01:59.523 --> 02:00.837
+Questa è l'altezza.
+
+02:00.837 --> 02:05.083
+E quindi otteniamo il nostro secondo rettangolo.
+
+02:05.114 --> 02:07.647
+Allora otteniamo... posso continuare così...
+
+02:07.647 --> 02:10.844
+Otteniamo per questo terzo rettangolo...
+
+02:10.844 --> 02:13.511
+Abbiamo la funzione valutata a 2...
+
+02:13.511 --> 02:16.144
+Quindi abbiamo la funzione valutata a 2.
+
+02:16.144 --> 02:20.568
+Questo è qui. Questo è f di 2.
+
+02:20.583 --> 02:22.986
+E quindi otteniamo il nostro terzo rettangolo.
+
+02:22.986 --> 02:25.908
+E alla fine abbiamo il nostro quarto rettangolo.
+
+02:25.908 --> 02:28.175
+La funzione valutata a 2.5.
+
+02:28.175 --> 02:31.324
+Quindi la funzione valutata a 2.5 è l'altezza.
+
+02:31.324 --> 02:34.184
+Quindi questa è f di 2.5.
+
+02:34.184 --> 02:35.644
+Ricorda, ciascuno di questi...
+
+02:35.644 --> 02:39.508
+Sto semplicemente guardando a limite sinistro del rettangolo,
+
+02:39.508 --> 02:41.106
+e sto valutando la funzione lì,
+
+02:41.106 --> 02:43.597
+per ottenere l'altezza del rettangolo.
+
+02:43.597 --> 02:45.722
+Ora che l'ho costruito in questo modo,
+
+02:45.722 --> 02:47.378
+qual è l' area totale approsssimata,
+
+02:47.378 --> 02:50.051
+usando la somma di questi rettangoli?
+
+02:50.051 --> 02:52.969
+E chiaramente questa non sarà una approssimazione perfetta.
+
+02:52.969 --> 02:55.556
+Sto escludendo un sacco di area qui....
+
+02:55.556 --> 02:58.635
+Lasciami vedere se posso colorare qui con colore che non ho ancora usato.
+
+02:58.635 --> 03:01.306
+Quindi sto escludendo quell' area...
+
+03:01.306 --> 03:02.972
+Sto escludendo questa area...
+
+03:02.972 --> 03:04.638
+Sto escludendo quell' area...
+
+03:04.660 --> 03:07.216
+Sto escludendo quell' area lì...
+
+03:07.216 --> 03:08.130
+Ma questa è solo una approssimazione.
+
+03:08.207 --> 03:09.879
+E forse se avessi avuto più rettangoli,
+
+03:09.879 --> 03:13.712
+probabilmente sarebbe stata una approssimazione migliore .
+
+03:13.712 --> 03:16.121
+Quindi calcoliamo quale sia l'area di ciascuno dei rettangoli.
+
+03:16.121 --> 03:18.045
+Quindi l'area di questo primo rettangolo
+
+03:18.045 --> 03:22.934
+sarà l'altezza, che è f di 1,
+
+03:22.980 --> 03:26.213
+per la base, che è delta x.
+
+03:26.213 --> 03:28.749
+L'area del secondo rettangolo sarà
+
+03:28.749 --> 03:31.378
+l'altezza, che, l' abbiamo già detto, è f di 1.5.
+
+03:31.378 --> 03:36.439
+F di 1.5 per la base, per delta x.
+
+03:36.439 --> 03:39.569
+L'area del terzo rettangolo sarà
+
+03:39.569 --> 03:43.235
+la funzione valutata al suo limite sinistro:
+
+03:43.235 --> 03:49.238
+quindi f di 2. Quindi più f di 2 per la base, per delta x.
+
+03:49.238 --> 03:53.127
+E infine l'area del terzo rettangolo è...
+
+03:53.127 --> 03:55.570
+L'altezza è la funzione valutata a 2.5.
+
+03:55.570 --> 04:01.952
+Quindi più...questo è un colore diverso da quello che volevo usare, lascia che... voglio usare l'arancione.
+
+04:01.952 --> 04:08.538
+Quindi più la funzione valutata a 2.5 per la base.
+
+04:08.538 --> 04:11.568
+Questo sarà uguale alla nostra area approssimata.
+
+04:11.568 --> 04:17.569
+Lascia che lo renda chiaro: area approssimata sotto la curva.
+
+04:17.569 --> 04:18.967
+Semplicemente la somma di questi rattangoli.
+
+04:18.967 --> 04:20.427
+Valutiamola.
+
+04:20.427 --> 04:26.039
+Questo sarà uguale a f di ... sarà uguale alla funzione valutata a 1.
+
+04:26.039 --> 04:28.181
+1 al quadrato più 1 è semplicemente 2.
+
+04:28.181 --> 04:34.842
+Quindi sarà 2 per 1/2 più la funzione valutata a 1.25
+
+04:34.842 --> 04:39.379
+1.25 al quadrato è 2.25
+
+04:39.379 --> 04:41.798
+E allora ci aggiungi 1 e diventa 3.25.
+
+04:41.798 --> 04:51.541
+Quindi più 3.25 per 1/2. E poi abbiamo al funzione valutata a 2,
+
+04:51.541 --> 04:56.202
+2 al quadrato più 1 è 5. Quindi è 5 per 1/2
+
+04:56.202 --> 04:59.440
+E alla fine hai la funzione valutata a 2.5
+
+04:59.440 --> 05:08.416
+2.5 al quadrato è 6.25 più 1 quindi è 7.25
+
+05:08.416 --> 05:12.372
+7.25 per 1/2.
+
+05:12.372 --> 05:14.435
+E per rendere i calcoli più semplici
+
+05:14.435 --> 05:16.623
+possiamo raccogliere 1/2.
+
+05:20.330 --> 05:24.037
+Quindi questo sarà uguale a 1/2
+
+05:24.052 --> 05:38.749
+per 2 più 3.25 più 5 più 7.25,
+
+05:38.749 --> 05:47.307
+che è uguale a 1/2 per... vediamo se riesco a farlo a mente, 2 più 5 è facile: è 7.
+
+05:47.307 --> 05:52.584
+3 più 7 è 10. E poi abbiamo 0.25 più 0.25.
+
+05:52.584 --> 05:56.876
+Quindi sarà 10.5 più 7 è 17.5.
+
+05:56.876 --> 05:59.929
+Quindi 1/2 per 17.5,
+
+05:59.929 --> 06:03.969
+che è uguale a 8.75.
+
+06:03.969 --> 06:07.648
+Che ancora una volta ci da una approssimazione.
+
+06:07.648 --> 06:10.790
+E dato il modo in cui l'ho disegnato qui per la funzione che stiamo usando,
+
+06:10.790 --> 06:14.302
+sarà sottostimata perché abbiamo escluso tutta quell'area rosa
+
+06:14.302 --> 06:15.595
+che ho colorato prima.
+
+06:15.595 --> 06:19.846
+E' sottostimata, ma è una approssimazione dell'area sotto la curva.
+
+06:19.846 --> 06:22.211
+E nei prossimi pochi video cercheremo di generalizzare a una
+
+06:22.211 --> 06:25.575
+situazione dove abbiamo una funznione arbitraria,
+
+06:25.575 --> 06:29.058
+e abbiamo un numero arbitrario di rettangoli.
+
+06:29.058 --> 06:32.974
+E i video dopo questo considereranno rettangoli dove
+
+06:32.974 --> 06:35.790
+definiamo l'altezza non dal limite sinistro,
+
+06:35.790 --> 06:38.010
+ma dal limite destro, dal punto di mezzo,
+
+06:38.010 --> 06:39.671
+o forse non useremo del tutto rettangoli,
+
+06:39.671 --> 06:42.132
+può darsi che useremo cose tipo trapezioidi.
+
+06:42.132 --> 06:43.824
+Ad ogni modo, divertitevi!

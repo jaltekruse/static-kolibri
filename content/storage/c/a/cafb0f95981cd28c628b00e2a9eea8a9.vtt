@@ -1,0 +1,592 @@
+WEBVTT
+
+00:00.653 --> 00:01.812
+Ta có một hàm số,
+
+00:01.812 --> 00:04.014
+g(x) bằng với x bình phương,
+
+00:04.014 --> 00:05.229
+nhân log nepe của x.
+
+00:05.229 --> 00:06.513
+Trong video này, điều mình muốn làm là,
+
+00:06.513 --> 00:09.723
+thử xem nếu ta có thể tìm cực trị tuyệt đối
+
+00:09.723 --> 00:10.873
+của g(x) hay không.
+
+00:10.873 --> 00:14.113
+Vậy ta có các giá trị x mà tại đó, g có cực đại tuyệt đối,
+
+00:14.113 --> 00:17.754
+hoặc g có cực tiểu tuyệt đối.
+
+00:17.754 --> 00:19.839
+Đôi khi bạn sẽ gọi chúng là cực đại toàn cục,
+
+00:19.839 --> 00:21.574
+và cực tiểu toàn cục.
+
+00:21.574 --> 00:23.829
+Vậy điều đầu tiên mình muốn nghĩ về là,
+
+00:23.829 --> 00:28.588
+tập xác định của hàm số g là gì?
+
+00:28.588 --> 00:31.123
+Ta đã biết rằng log nepe của x,
+
+00:31.123 --> 00:35.290
+giá trị mà ta cho vào log nepe, nó phải lớn hơn 0.
+
+00:36.497 --> 00:39.132
+Vậy, tập xác định sẽ là tất cả các số thực,
+
+00:39.132 --> 00:40.685
+lớn hơn 0.
+
+00:40.685 --> 00:43.037
+Vậy x phải lớn hơn 0.
+
+00:43.037 --> 00:46.212
+Log nepe của 0 không xác định được,
+
+00:46.212 --> 00:48.100
+vì không có số mũ nào của e,
+
+00:48.100 --> 00:51.030
+mà có thể làm cho nó bằng 0, và log nepe của số âm,
+
+00:51.030 --> 00:52.964
+cũng là không xác định.
+
+00:52.964 --> 00:55.594
+Vậy đó là tập xác định của ta.
+
+00:55.594 --> 00:57.692
+Tập xác định là tất cả các số thực, sao cho,
+
+00:57.692 --> 01:02.050
+tất cả số đó, hay là x, phải lớn hơn 0.
+
+01:02.050 --> 01:06.217
+Vậy cực trị tuyệt đối của ta phải nằm trong tập xác định đó.
+
+01:07.077 --> 01:08.796
+Vậy để tìm chúng, hãy thử đi tìm,
+
+01:08.796 --> 01:11.904
+cực trị cục bộ rồi ta sẽ kiểm xem giá trị nào sẽ thích hợp,
+
+01:11.904 --> 01:13.654
+để làm cực trị tuyệt đối.
+
+01:14.497 --> 01:15.824
+Để tìm cực trị cục bộ,
+
+01:15.824 --> 01:19.800
+ta sẽ đi tìm các điểm cực trị trước.
+
+01:19.800 --> 01:22.725
+Vậy hãy lấy đạo hàm của g.
+
+01:22.725 --> 01:26.770
+Vậy g phẩy, để mình dùng một màu mới nhé.
+
+01:26.770 --> 01:30.511
+Được rồi, g phẩy x bằng với,
+
+01:30.511 --> 01:32.303
+ta có thể sử dụng quy tắc tích số ở đây.
+
+01:32.303 --> 01:34.989
+Đạo hàm của x bình là 2x,
+
+01:34.989 --> 01:37.156
+nhân với log nepe của x,
+
+01:38.036 --> 01:40.807
+cộng x bình phương nhân với đạo hàm,
+
+01:40.807 --> 01:43.774
+của log nepe của x, chính là 1 phần x,
+
+01:43.774 --> 01:44.992
+ta có thể viết lại nó.
+
+01:44.992 --> 01:47.553
+x bình phương nhân 1 chia cho x.
+
+01:47.553 --> 01:50.661
+Ta giả sử x là số dương.
+
+01:50.661 --> 01:52.578
+Vậy ở đây ta có,
+
+01:53.558 --> 01:55.561
+nó sẽ bằng với,
+
+01:55.561 --> 01:57.033
+thật ra thì mình cũng không cần giả sử,
+
+01:57.033 --> 01:58.053
+vì bước này không cần,
+
+01:58.053 --> 02:01.917
+x bình phương chia cho x sẽ là x.
+
+02:01.917 --> 02:02.982
+Được rồi.
+
+02:02.982 --> 02:04.899
+Vậy đó chính là g phẩy.
+
+02:05.764 --> 02:08.535
+Giờ ta hãy tìm các điểm cực trị.
+
+02:08.535 --> 02:10.256
+Điểm cực trị là điểm mà đạo hàm,
+
+02:10.256 --> 02:12.430
+chúng phải nằm trong tập xác định nhé,
+
+02:12.430 --> 02:15.381
+vậy những điểm này sẽ phải thỏa mãn x lớn hơn 0,
+
+02:15.381 --> 02:18.464
+sao cho g phẩy không xác định,
+
+02:19.721 --> 02:22.101
+hoặc bằng với 0.
+
+02:22.101 --> 02:25.854
+Vậy ta hãy xét trường hợp g phẩy bằng 0 trước.
+
+02:25.854 --> 02:27.591
+Ta sẽ cho nó bằng 0.
+
+02:27.591 --> 02:31.758
+2x nhân log nepe của x cộng x bằng với 0.
+
+02:33.455 --> 02:37.319
+Ta có thể đem trừ x ở cả 2 vế,
+
+02:37.319 --> 02:41.236
+vậy ta có 2x nhân log nepe của x,
+
+02:42.186 --> 02:44.863
+là bằng với trừ x.
+
+02:46.226 --> 02:48.976
+Vậy nếu ta chia 2 vế cho x,
+
+02:50.160 --> 02:52.285
+ta có thể làm vậy, vì x khác 0,
+
+02:52.285 --> 02:54.402
+tập xác định của ta là x lơn hơn 0.
+
+02:54.402 --> 02:56.738
+Vậy cái này sẽ bằng gì, thật ra ta hãy đem chia,
+
+02:56.738 --> 02:58.181
+cả 2 vế cho 2x.
+
+02:58.181 --> 03:01.497
+Ta có log nepe của x bằng với,
+
+03:01.497 --> 03:02.997
+trừ 1 phần 2.
+
+03:04.097 --> 03:06.523
+Trừ x đem chia cho 2x là trừ 1 phần 2.
+
+03:06.523 --> 03:08.398
+Hoặc ta có thể nói x bằng với,
+
+03:08.398 --> 03:10.080
+e mũ trừ 1 phần 2,
+
+03:10.080 --> 03:10.989
+bằng với x.
+
+03:10.989 --> 03:13.422
+Bạn hãy nhớ rằng log nepe chính là logarit cơ số e.
+
+03:13.422 --> 03:16.058
+Vậy e mũ trừ 1 phần 2,
+
+03:16.058 --> 03:17.598
+ta có thể viết như thế,
+
+03:17.598 --> 03:19.768
+e mũ trừ 1 phần 2,
+
+03:19.768 --> 03:21.698
+hoặc 1 chia cho căn bậc 2 của e.
+
+03:21.698 --> 03:24.115
+Vậy đó là điểm mà g,
+
+03:25.201 --> 03:27.497
+tại đó đạo hàm của ta,
+
+03:27.497 --> 03:30.939
+bằng với 0, nó là một điểm cực trị,
+
+03:30.939 --> 03:33.657
+cho hàm số g trên này.
+
+03:33.657 --> 03:37.184
+Vậy đó là chỗ duy nhất mà g phẩy sẽ bằng 0.
+
+03:37.184 --> 03:41.496
+Vậy có điểm nào mà g phẩy sẽ không xác định không?
+
+03:41.496 --> 03:43.666
+Và đó phải là điểm nằm trong tập xác định.
+
+03:43.666 --> 03:45.319
+Xem nào, khi nào cái này không xác định?
+
+03:45.319 --> 03:48.291
+Với 2x và x, bạn có thể thế bất cứ giá trị x nào vào.
+
+03:48.291 --> 03:52.011
+Còn log nepe của x, một lần nữa, sẽ chỉ xác định,
+
+03:52.011 --> 03:54.772
+khi x lớn hơn 0.
+
+03:54.772 --> 03:56.548
+Nhưng ta đã ràng buộc điều này,
+
+03:56.548 --> 03:58.945
+ở trong tập xác định rồi, vậy cứ trong tập xác định,
+
+03:58.945 --> 04:01.184
+thì điểm nào trong đó cũng sẽ làm cho,
+
+04:01.184 --> 04:03.715
+đạo hàm của ta có nghĩa.
+
+04:03.715 --> 04:08.043
+Vậy giờ ta hãy xem điều gì xảy ra ở hai phía,
+
+04:08.043 --> 04:10.774
+của điểm cực trị này.
+
+04:10.774 --> 04:12.748
+Ở hai phía của điểm cực trị.
+
+04:12.748 --> 04:14.314
+Mình sẽ vẽ một trục số nhỏ ở đây,
+
+04:14.314 --> 04:17.281
+để giúp chúng ta dễ hình dung điều này.
+
+04:17.281 --> 04:20.781
+Vậy, cái này là trừ 1, đây là 0,
+
+04:23.708 --> 04:26.987
+còn cái này, xem nào, e mũ, nó sẽ bằng với 1,
+
+04:26.987 --> 04:29.392
+chia cho, ồ, thật ra,
+
+04:29.392 --> 04:33.309
+nó sẽ nhỏ hơn 1 một tí,
+
+04:35.621 --> 04:38.296
+ta sẽ vẽ số 1 ở đây nhé,
+
+04:38.296 --> 04:41.681
+và rồi 2 ở đây, vậy ta có điểm cực trị,
+
+04:41.681 --> 04:44.066
+tại 1 chia cho căn bậc hai của e,
+
+04:44.066 --> 04:45.562
+ta sẽ đặt nó ở đây.
+
+04:45.562 --> 04:48.041
+1 chia cho căn bậc 2 của e.
+
+04:48.041 --> 04:50.547
+Ta biết rằng hàm chỉ có nghĩa,
+
+04:50.547 --> 04:53.233
+với tất cả giá trị x lớn hơn 0.
+
+04:53.233 --> 04:55.330
+Vậy ta hãy xét khoảng ở giữa,
+
+04:55.330 --> 04:57.533
+0 và điểm cực trị này.
+
+04:57.533 --> 04:58.987
+Ngay tại đây.
+
+04:58.987 --> 05:01.803
+Đây là khoảng mở, từ 0, cho tới,
+
+05:01.803 --> 05:04.221
+1 phần căn bậc hai của e, giờ ta hãy nghĩ xem,
+
+05:04.221 --> 05:06.326
+g phẩy sẽ dương hay âm ở đấy.
+
+05:06.326 --> 05:09.076
+Và rồi ta hãy xét tiếp trường hợp,
+
+05:10.096 --> 05:13.412
+x lớn hơn 1 chia căn bậc 2 của e.
+
+05:13.412 --> 05:15.917
+Nghĩa là khoảng từ 1 chia căn bậc 2 của e,
+
+05:15.917 --> 05:16.917
+cho tới vô cực.
+
+05:18.605 --> 05:20.888
+Vậy trên khoảng màu vàng đó, ta hãy thử,
+
+05:20.888 --> 05:22.971
+với một giá trị nằm trong đó.
+
+05:23.859 --> 05:27.704
+Hãy thử g phẩy của, xem nào,
+
+05:27.704 --> 05:29.787
+g phẩy 0.1 nhé.
+
+05:31.304 --> 05:34.412
+g phẩy 0.1, nó chắc chắn nằm trong khoảng này,
+
+05:34.412 --> 05:36.693
+Và nó sẽ bằng 2 nhân,
+
+05:36.693 --> 05:38.860
+2 nhân 0.1, là bằng với,
+
+05:41.722 --> 05:45.889
+0.2 nhân log nepe của 0.1 cộng 0.1.
+
+05:51.565 --> 05:52.398
+Và xem nào.
+
+05:52.398 --> 05:56.297
+Ở ngay đây, nó sẽ là một giá trị âm,
+
+05:56.297 --> 05:58.662
+thật ra là nó,
+
+05:58.662 --> 06:02.080
+nó chắc chắn lớn hơn trừ 1.
+
+06:02.080 --> 06:06.082
+Vì e mũ trừ 1 sẽ bằng với,
+
+06:06.082 --> 06:09.933
+xem nào, e mũ trừ 1 là 1 chia cho e,
+
+06:09.933 --> 06:14.100
+vậy cái kia là 2.7, nên 1 chia 2.7 sẽ là,
+
+06:17.155 --> 06:20.572
+nó sẽ khoảng 0.3 hoặc 0.4.
+
+06:23.823 --> 06:25.091
+Vậy để tiến tới 0.1,
+
+06:25.091 --> 06:28.525
+ta sẽ có cái này ở khoảng 0.3 và 0.4.
+
+06:28.525 --> 06:32.008
+Vậy để tiến gần tới 0.1, giá trị này sẽ càng âm.
+
+06:32.008 --> 06:36.175
+Vậy cái này sẽ, mình có thể nói là nó nhỏ hơn trừ 1.
+
+06:37.356 --> 06:39.167
+Vậy nếu cái này nhỏ hơn -1,
+
+06:39.167 --> 06:41.097
+và mình nhân nó với 0.2,
+
+06:41.097 --> 06:44.234
+mình sẽ có một giá trị âm nhỏ hơn,
+
+06:44.234 --> 06:49.062
+nhỏ hơn trừ 0.2, và nếu mình cộng 0.1 vào nó,
+
+06:49.062 --> 06:51.764
+chà, mình vẫn sẽ có một giá trị âm.
+
+06:51.764 --> 06:55.931
+Vậy với khoảng màu vàng này, g phẩy x sẽ nhỏ hơn 0.
+
+06:56.778 --> 06:58.570
+Và nó sẽ, mình nên có máy tính nhỉ,
+
+06:58.570 --> 06:59.997
+nếu mà có máy tính,
+
+06:59.997 --> 07:02.211
+thì việc tính toán sẽ dễ hơn nhiều.
+
+07:02.211 --> 07:04.661
+Vậy g phẩy x nhỏ hơn 0 trên khoảng này.
+
+07:04.661 --> 07:07.250
+Giờ ta hãy xét tiếp khoảng màu xanh này nhé.
+
+07:07.250 --> 07:08.818
+Và sẽ dễ hơn, nếu ta thử,
+
+07:08.818 --> 07:10.554
+với giá trị 1.
+
+07:10.554 --> 07:14.552
+Vậy g phẩy 1 sẽ bằng 2 nhân với log nepe,
+
+07:14.552 --> 07:15.885
+của 1 cộng 1.
+
+07:16.852 --> 07:18.855
+Log nepe của 1 là 0.
+
+07:18.855 --> 07:20.956
+Vậy cái này sẽ rút gọn thành 1.
+
+07:20.956 --> 07:23.346
+Vậy trên khoảng màu xanh này, mình chấm 1 điểm ở đây,
+
+07:23.346 --> 07:26.429
+g phẩy x sẽ lớn hơn 0.
+
+07:27.746 --> 07:32.574
+Vậy có vẻ như hàm số của ta giảm,
+
+07:32.574 --> 07:35.122
+từ 0 cho tới 1 chia căn bậc 2 của e,
+
+07:35.122 --> 07:37.560
+và rồi tăng sau đó.
+
+07:37.560 --> 07:40.611
+Ta có hàm sẽ tăng với tất cả giá trị x lớn hơn,
+
+07:40.611 --> 07:42.499
+1 chia cho căn bậc 2 của e.
+
+07:42.499 --> 07:45.158
+Vậy hàm số của ta sẽ chạm tới,
+
+07:45.158 --> 07:46.894
+nếu nó giảm tới chỗ này,
+
+07:46.894 --> 07:50.453
+rồi lại tăng sau đó, ta sẽ chạm tới điểm cực tiểu toàn cục,
+
+07:50.453 --> 07:53.379
+hay cực tiểu tuyệt đối khi x bằng 1,
+
+07:53.379 --> 07:55.730
+chia cho căn bậc 2 của e.
+
+07:55.730 --> 07:57.272
+Vậy để mình viết nó xuống.
+
+07:57.272 --> 08:00.189
+Ta chạm tới, chạm tới điểm cực tiểu tuyệt đối,
+
+08:05.939 --> 08:08.373
+tại x bằng 1, chia cho,
+
+08:08.373 --> 08:11.395
+căn bậc 2 của e, và ta không có cực đại tuyệt đối.
+
+08:11.395 --> 08:13.427
+Khi ta tới giá trị lớn hơn 1 chia căn e,
+
+08:13.427 --> 08:14.884
+ta hãy nghĩ xem,
+
+08:14.884 --> 08:16.237
+điều gì sẽ xảy ra ở đó.
+
+08:16.237 --> 08:17.306
+Ta đi tới 1,
+
+08:17.306 --> 08:18.968
+và hàm số của ta cứ tiếp tục tăng,
+
+08:18.968 --> 08:21.198
+và nó cứ thế tăng mãi.
+
+08:21.198 --> 08:22.499
+Và nhìn vào đây bạn cũng thấy,
+
+08:22.499 --> 08:25.441
+x bình sẽ cứ thế tăng tiếp cho tới vô cực,
+
+08:25.441 --> 08:28.086
+còn log nepe của x thì tăng chậm hơn x bình,
+
+08:28.086 --> 08:30.324
+nhưng nó cũng sẽ tiến tới vô cực.
+
+08:30.324 --> 08:34.663
+Vậy ta không có cực đại toàn cục, hay cực đại tuyệt đối.
+
+08:34.663 --> 08:36.830
+Không có cực đại tuyệt đối.
+
+08:39.651 --> 08:40.911
+Giờ ta hãy nhìn vào đồ thị của cái này,
+
+08:40.911 --> 08:43.402
+để thấy được những gì ta vừa mới phân tích,
+
+08:43.402 --> 08:45.320
+mà khi đó ta không hề dùng tới đồ thị.
+
+08:45.320 --> 08:47.701
+Mình đã có đồ thị sẵn,
+
+08:47.701 --> 08:49.393
+mình sẽ copy nó vào đây.
+
+08:49.393 --> 08:53.121
+Đây là đồ thị của hàm số đề cho.
+
+08:53.121 --> 08:56.954
+Như ta thấy tại điểm nằm ở đây,
+
+08:58.598 --> 09:02.765
+đây chính là 1 chia cho căn bậc 2 của e,
+
+09:04.181 --> 09:05.495
+có vẻ không dễ để nhận ra,
+
+09:05.495 --> 09:06.900
+nhưng đây chính là điểm đó.
+
+09:06.900 --> 09:08.815
+x bằng với 1 chia cho căn e.
+
+09:08.815 --> 09:12.914
+Và ta có thể thấy đây là một cực tiểu tuyệt đối,
+
+09:12.914 --> 09:16.820
+và không hề có cực đại tuyệt đối nào.
+
+09:16.820 --> 09:19.403
+Có các giá trị lớn ngẫu nhiên,
+
+09:20.347 --> 09:22.847
+mà hàm số của ta có thể đạt tới.

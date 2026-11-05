@@ -1,0 +1,226 @@
+WEBVTT
+
+00:00.203 --> 00:01.381
+g ist eine Funktion, die eine arithmetische Folge beschreibt.
+
+00:01.381 --> 00:03.873
+g ist eine Funktion, die eine arithmetische Folge beschreibt.
+
+00:03.873 --> 00:06.997
+Hier sind die ersten paar Terme dieser Folge.
+
+00:06.997 --> 00:08.589
+Der erste Term ist 4,
+
+00:08.589 --> 00:10.924
+der zweite ist 3 mal 4/5,
+
+00:10.924 --> 00:12.479
+der dritte ist 3 mal 3/5
+
+00:12.479 --> 00:14.587
+der vierte ist 3 mal 2/5.
+
+00:14.587 --> 00:17.674
+Ermittel die fehlenden Werte von Parameter A und B der folgenden
+
+00:17.674 --> 00:21.137
+rekursiven Definition dieser Folge.
+
+00:21.137 --> 00:22.469
+Uns wird gesagt, dass der n-te Term gleich A ist wenn n gleich 1 ist.
+
+00:22.469 --> 00:24.444
+Uns wird gesagt, dass der n-te Term gleich A ist wenn n gleich 1 ist.
+
+00:24.444 --> 00:26.245
+Uns wird gesagt, dass der n-te Term gleich A ist wenn n gleich 1 ist.
+
+00:26.245 --> 00:30.804
+Und er ist gleich g(n minus 1) plus B, wenn n größer 1 ist.
+
+00:30.804 --> 00:33.990
+Und er ist gleich g(n minus 1) plus B, wenn n größer 1 ist.
+
+00:33.990 --> 00:36.199
+Pausiere hier doch mal das Video und versuch herauszufinden was A und B sind.
+
+00:36.199 --> 00:37.183
+Pausiere hier doch mal das Video und versuch herauszufinden was A und B sind.
+
+00:37.183 --> 00:40.337
+Pausiere hier doch mal das Video und versuch herauszufinden was A und B sind.
+
+00:40.337 --> 00:41.509
+Zunächst haben wir A, was sehr einfach ist.
+
+00:41.509 --> 00:44.041
+Zunächst haben wir A, was sehr einfach ist.
+
+00:44.041 --> 00:45.732
+Bei n gleich 1,
+
+00:45.732 --> 00:47.183
+Bei n gleich 1,
+
+00:47.183 --> 00:50.457
+ist der der erste Term, bei dem n gleich 1 ist, 4.
+
+00:50.457 --> 00:53.242
+A ist also gleich 4.
+
+00:53.242 --> 00:56.122
+Wir können das als g(n) ist gleich 4, wenn n gleich 1 ist.
+
+00:56.122 --> 00:59.559
+Wir können das als g(n) ist gleich 4, wenn n gleich 1 ist.
+
+00:59.559 --> 01:03.589
+Wir können das als g(n) ist gleich 4, wenn n gleich 1 ist.
+
+01:03.589 --> 01:05.532
+Nun zur zweiten Zeile.
+
+01:05.532 --> 01:06.946
+Diese ist intereressant.
+
+01:06.946 --> 01:09.833
+Sie sagt, dass es gleich diesem vorderen Term ist, g(n minus 1).
+
+01:09.833 --> 01:11.511
+Sie sagt, dass es gleich diesem vorderen Term ist, g(n minus 1).
+
+01:11.511 --> 01:15.635
+Das heißt, dass der (n minus 1)-te Term, plus B, dir den n-ten Term gibt.
+
+01:15.635 --> 01:17.937
+Das heißt, dass der (n minus 1)-te Term, plus B, dir den n-ten Term gibt.
+
+01:17.937 --> 01:18.979
+Was passiert mit dieser arithmetischen Folge?
+
+01:18.979 --> 01:20.270
+Was passiert mit dieser arithmetischen Folge?
+
+01:20.270 --> 01:22.892
+Vom ersten zum zweiten Term,
+
+01:22.892 --> 01:25.023
+was habe ich dabei getan?
+
+01:25.023 --> 01:27.720
+Anscheinend habe ich 1/5 abgezogen,
+
+01:27.720 --> 01:29.472
+also minus 1/5.
+
+01:29.472 --> 01:30.984
+Da das hier eine arithmetische Folge ist,
+
+01:30.984 --> 01:34.460
+muss ich jedes mal den gleichen Betrag abziehen bzw. addieren,
+
+01:34.460 --> 01:37.127
+also hier minus 1/5
+
+01:37.127 --> 01:40.964
+und hier minus 1/5 rechnen.
+
+01:40.964 --> 01:42.296
+Ein anderer Betrachtungsweg ist,
+
+01:42.296 --> 01:43.937
+in die andere Richtung zu gehen.
+
+01:43.937 --> 01:48.365
+Man kann z.B. sagen, dass g(4) gleich g(3) minus 1/5 ist.
+
+01:48.365 --> 01:52.999
+Man kann z.B. sagen, dass g(4) gleich g(3) minus 1/5 ist.
+
+01:52.999 --> 01:55.215
+Man kann z.B. sagen, dass g(4) gleich g(3) minus 1/5 ist.
+
+01:55.215 --> 01:57.246
+Man kann z.B. sagen, dass g(4) gleich g(3) minus 1/5 ist.
+
+01:57.246 --> 01:58.485
+Hier,
+
+01:58.485 --> 02:00.593
+g(3) ist das hier.
+
+02:00.593 --> 02:04.512
+Man zieht 1/5 ab und erhält g(4).
+
+02:04.512 --> 02:05.731
+Das seht ihr hier.
+
+02:05.731 --> 02:06.841
+Ich kann das hier natürlich auch als
+
+02:06.841 --> 02:09.235
+g(4) ist gleich g(4 minus 1) minus 1/5.
+
+02:09.235 --> 02:11.728
+g(4) ist gleich g(4 minus 1) minus 1/5.
+
+02:11.728 --> 02:14.998
+g(4) ist gleich g(4 minus 1) minus 1/5.
+
+02:14.998 --> 02:16.016
+Wenn man es so betrachtet,
+
+02:16.016 --> 02:18.651
+kann man sehen, dass der n-te Term
+
+02:18.651 --> 02:21.153
+der (n minus 1)-te Term plus -1/5 ist.
+
+02:21.153 --> 02:23.534
+der (n minus 1)-te Term plus -1/5 ist.
+
+02:23.534 --> 02:25.880
+B ist also -1/5.
+
+02:25.880 --> 02:27.747
+Wenn ich also den vierten Term suche,
+
+02:27.747 --> 02:29.636
+wenn n gleich 4 ist
+
+02:29.636 --> 02:30.884
+-- ich nehme nicht den ersten Fall, weil dieser für n gleich 1 gilt --
+
+02:30.884 --> 02:33.603
+-- ich nehme nicht den ersten Fall, weil dieser für n gleich 1 gilt --
+
+02:33.603 --> 02:36.079
+bei n gleich 4 würde man den zweiten Fall nehmen,
+
+02:36.079 --> 02:38.348
+also g(4 minus 1),
+
+02:38.348 --> 02:41.760
+g(3) minus 1/5.
+
+02:41.760 --> 02:43.373
+Wir können also sagen: g(n) ist gleich g(n minus 1), also der Term direkt davor, minus 1/5, wenn n größer als 1 ist
+
+02:43.373 --> 02:46.873
+Wir können also sagen: g(n) ist gleich g(n minus 1), also der Term direkt davor, minus 1/5, wenn n größer als 1 ist
+
+02:46.873 --> 02:50.537
+Wir können also sagen: g(n) ist gleich g(n minus 1), also der Term direkt davor, minus 1/5, wenn n größer als 1 ist
+
+02:50.537 --> 02:53.506
+Wir können also sagen: g(n) ist gleich g(n minus 1), also der Term direkt davor, minus 1/5, wenn n größer als 1 ist
+
+02:53.506 --> 02:55.138
+Aber der Aufgabe halber
+
+02:55.138 --> 02:59.993
+sehen wir, dass A gleich 4
+
+02:59.993 --> 03:04.132
+und B gleich -1/5 ist.

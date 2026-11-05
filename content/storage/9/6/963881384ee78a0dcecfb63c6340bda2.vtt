@@ -1,0 +1,274 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+In questo video i vorrei farti prendere confidenza con l'idea di Limite, che è un concetto veramente importante;
+
+00:07.132 --> 00:10.813
+é proprio l'idea su cui si basa tutto il Calcolo [Infinitesimale],
+
+00:10.828 --> 00:17.036
+ma nonostante sia così importante, è veramente un concetto molto molto semplice.
+
+00:17.036 --> 00:21.075
+Perciò fammi disegnare una funzione, insomma, fammi definire una funzione,
+
+00:21.075 --> 00:32.800
+una funzione semplice. Quindi definiamo f(x) - diciamo che f(x) è uguale a (x-1) fratto (x-1).
+
+00:32.800 --> 00:36.084
+E potresti dirmi: "Ehi Sal, guarda, il numeratore e il denominatore sono uguali,
+
+00:36.084 --> 00:42.421
+e se qualcosa si divide per se stesso il risultato dovrebbe essere uno! Non posso semplificarlo come f(x)=1?"
+
+00:42.421 --> 00:47.944
+E io direi, "Ebbene, hai quasi ragione, la differenza tra f(x)=1 e quanto è scritto qui...
+
+00:47.944 --> 00:57.638
+è che questa frazione è indefinita quando x=1. Quindi se hai - fammelo scrivere qui - se hai...
+
+00:57.653 --> 01:07.267
+f(1), che cosa succede? Al numeratore ottieni (1-1), che è... fammelo scrivere...
+
+01:07.267 --> 01:14.605
+al numeratore ottieni 0, e al denominatore ottieni (1-1), che è anch'esso 0. E così qualsiasi cosa divisa...
+
+01:14.605 --> 01:26.764
+per 0, incluso 0 diviso 0... questo qua è indefinito! Così puoi semplificare - puoi dire che questo è...
+
+01:26.764 --> 01:36.867
+lo stesso che dire f(x)=1, ma si dovrebbe aggiungere la condizione che x non può essere uguale a 1. Ora questo...
+
+01:36.867 --> 01:43.133
+e questo sono equivalenti: entrambi sono uguali a 1, per ogni x diversa da 1. Ma...
+
+01:43.133 --> 01:51.340
+quando x=1, la funzione diventa indefinita. Questa è indefinita e quest'altra è indefinita. Quindi, come disegno questa funzione?
+
+01:51.340 --> 02:10.496
+Fammela disegnare... Questo è il mio asse delle y=f(x), quest'altro il mio asse delle x, e poi diciamo che
+
+02:10.496 --> 02:22.799
+questo è il punto x=1, questo qua sarà x=-1, questo è y=1, e qui sotto potrei mettere y=-1 ma...
+
+02:22.799 --> 02:28.267
+non importa per questa funzione, e... fammela disegnare. Quindi, diciamo che per...
+
+02:28.267 --> 02:42.600
+ogni x diversa da 1, f(x) sarà uguale a 1. Quindi la funzione avrà quest'aspetto... tranne quando è 1. Nel punto 1 f(x) è indefinita, così
+
+02:42.600 --> 02:47.800
+quindi segnerò un piccolovuoto qui, questo cerchietto, che sta a significare che questa funzione...
+
+02:47.800 --> 02:52.400
+non è definita in questo punto - noi non sappiamo a cosa è uguale nel caso sia 1, non la possiamo definire.
+
+02:52.400 --> 03:00.333
+Questa definizione della funzione non ci dice cosa succede per x=1 - è proprio indefinita quando x=1
+
+03:00.333 --> 03:09.113
+Quindi ecco qui la nostra funzione, e ancora, se qualcuno ti avesse dovesse chiedere a cosa è uguale f(1), tu dovresti dirgli...
+
+03:09.113 --> 03:14.467
+bene, questa era la definizione della funzione, e tu dovresti dire: "x=1... ehi, aspetta, c'è un punto vuoto nella funzione,
+
+03:14.467 --> 03:21.148
+proprio qui, quindi è indefinita!" Ora fammi riscrivere...be', forse è un po' ridondante ma lo riscrivo:
+
+03:21.148 --> 03:30.313
+"f(1) è indefinita". Ma se io ti chiedessi: "A cosa si avvicina la funzione mentre...
+
+03:30.313 --> 03:44.708
+x diventa 1? Ed è adesso che iniziamo ad entrare in contatto col concetto di Limite. Quindi, quando x si avvicina sempre di più a 1...
+
+03:44.708 --> 03:51.837
+a che valore tende la funzione? A che cosa si avvicina sempre di più?
+
+03:51.837 --> 03:58.909
+da sinistra non importa quanto ti avvicini a 1: fino a quando non sei a 1, f(x) è uguale a 1.
+
+03:58.909 --> 04:04.790
+Da destra abbiamo la stessa situazione. Potresti quindi dire - e familiarizzerai...
+
+04:04.790 --> 04:10.631
+sempre di più con questo concetto man mano che faremo esempi - che il limite per...
+
+04:10.631 --> 04:24.933
+x - e "lim" è il diminutivo di limite - il limite per x che tende a 1 di f(x) è uguale a...
+
+04:24.933 --> 04:29.311
+Quando ci avviciniamo, possiamo arrivare incredibilmente, infinitamente vicino a 1 senza però mai essere a 1...
+
+04:29.311 --> 04:33.190
+e la nostra funzione sarà uguale a 1, mentre la x si avvicina sempre di più a 1...
+
+04:33.190 --> 04:39.684
+resterà sempre uguale a 1. Così, in questo caso, possiamo dire che il limite per x che tende a 1 di f(x)...
+
+04:39.684 --> 04:45.395
+è 1. Così, ancora con una notazione particolare, stiamo dicendo "Guarda, cosa a che valore si avvicina la funzione...
+
+04:45.395 --> 04:48.133
+quando x si avvicina sempre di più a 1?"
+
+04:48.133 --> 04:54.021
+Fammi fare un altro esempio in cui abbiamo a che fare con una curva, giusto per avere un'idea generale.
+
+04:54.021 --> 05:02.533
+Diciamo che ho la funzione f(x) - anzi, per amor di varietà chiamiamola g(x) -
+
+05:02.533 --> 05:09.852
+diciamo che abbiamo g(x) uguale a... posso definirla così, possiamo definirla come uguale a x²...
+
+05:09.852 --> 05:26.082
+quando x è diverso da 2, e diciamo che quando x=2 g(x) è uguale a 1. Quindi, ancora una volta, abbiamo una funzione in un certo senso...
+
+05:26.082 --> 05:34.133
+interessante che, come avrai notato, non è del tutto continua: ha un punto di discontinuità. Fammela disegnare...
+
+05:34.133 --> 05:48.225
+questo è il mio asse delle y=f(x) e quest'altro è il mio asse delle x. Diciamo che questo è x=1, questo è x=2,
+
+05:48.225 --> 06:01.825
+questo è x=-1, questo è x=-2... quindi ovunque, eccetto per x=2, g(x) è uguale a x². Fammelo disegnare così...
+
+06:01.825 --> 06:08.636
+Quindi sarà una parabola, ha un aspetto del genere...
+
+06:08.636 --> 06:18.308
+Fammi disegnare una parabola migliore... quindi avrà un aspetto simile a questo, non sarà la parabola disegnata meglio...
+
+06:18.308 --> 06:24.341
+nella storia del disegnar parabole, ma credo che vi darà un idea sull'aspetto delle parabole,
+
+06:24.341 --> 06:32.991
+o almeno lo spero. Dovrebbe essere simmetrica... fatemela ridisegnare, perché è piuttosto brutta.
+
+06:32.991 --> 06:38.467
+Questa ha un aspetto migliore, ok, eccovela qui. Bene.
+
+06:38.467 --> 06:48.867
+Ora, questo dovrebbe essere solo il grafico di x², ma la funzione non è uguale a x² quando x=2. Quindi, ancora una volta,
+
+06:48.867 --> 06:55.428
+dovremmo avere un piccolo punto di discontinuità qui, quindi disegnerò un buco proprio là,
+
+06:55.428 --> 07:00.478
+perché, quando x=2, la funzione è uguale a 1.
+
+07:00.478 --> 07:09.566
+Non sto facendo gli assi in scala... sull'asse di g(x)=x² questo sarà 4, questo sarà 2,
+
+07:09.616 --> 07:23.547
+questo sarà 1, questo sarà 3. Quindi, quando x=2, la nostra funzione sarà uguale a 1.
+
+07:23.547 --> 07:27.856
+Questa è perciò una funzione un po' bizzarra, ma possiamo comunque definirla così, possiamo definire funzioni comunque
+
+07:27.856 --> 07:36.667
+abbiamo voglia di definirle! E quindi, notate, è esattamente come il grafico di g(x)=x² fin quando non arrivate a 2:
+
+07:36.667 --> 07:48.252
+qui c'è questo buco, perché, invece di utilizzare g(x)=x², quando x=2 utilizziamo g(x)=1...
+
+07:48.252 --> 07:50.848
+- se alle volte ho detto f(x) invece di g(x) mi scuso -
+
+07:50.848 --> 08:04.914
+utilizziamo g(x)=1, quindi esattamente a 2 la funzione scende a 1 e poi continua seguendo x².
+
+08:04.914 --> 08:11.241
+Quindi c'è un paio di cose. Se dovessi valutare solo la funzione - 05,
+
+08:11.241 --> 08:15.933
+Beh, guardate questa definizione. Ok, quando x = 2, io uso questa situazione proprio quassù,
+
+08:15.933 --> 08:21.538
+e mi dice che sta per essere uguale a 1. Vorrei chiedere una domanda più interessante, o forse un più
+
+08:21.538 --> 08:32.149
+domanda interessante. Qual è il limite come x 2 di approcci di g (x)? Ancora una volta, voglia di notazione, ma
+
+08:32.149 --> 08:38.502
+è chiedere qualcosa di abbastanza è abbastanza semplice. Si tratta di dire "x ottiene più vicino e più vicino a 2...
+
+08:38.502 --> 08:42.240
+come si ottiene più vicino e più vicino - e questa non è una definizione rigorosa, faremo che in futuro video-
+
+08:42.240 --> 08:52.979
+come x ottiene più vicino e più vicino a 2, quello che si avvicina g (x)? Quindi, se si arriva a 1.9 e poi 1.999 e poi 1.999999
+
+08:52.979 --> 09:00.518
+e poi 1.9999999, che cosa è g (x) si avvicina? Se dovesse andare dalla direzione positiva,
+
+09:00.518 --> 09:06.656
+Se dovesse dire 2.1, che cosa è g(2.1)? Che cosa è g(2.01)? Che cosa è g(2.001)?
+
+09:06.656 --> 09:09.995
+Che cosa è che si avvicina come otteniamo più vicino e più vicino ad esso?
+
+09:09.995 --> 09:15.733
+E si può vedere visivamente solo di disegno grafico. Come g ottiene più vicino e più vicino a 2...
+
+09:15.733 --> 09:20.518
+E se dovessimo seguirla lungo il grafico, vediamo che ci stiamo avvicinando 4,
+
+09:20.518 --> 09:26.545
+anche se non è dove la funzione è - la funzione scende a 1 - il limite di g (x) come
+
+09:26.545 --> 09:33.405
+x approcci 2 è uguale a 4. Si può anche fare questo numericamente utilizzando una calcolatrice.
+
+09:33.405 --> 09:39.907
+E mi permetta di fare questo, perché penso che sarà interessante. Così mi permetta di ottenere una calcolatrice...
+
+09:39.907 --> 09:49.041
+Fammi prendere il mio fidato TI-85 fuori... Quindi ecco la mia calcolatrice... E si può dire numericamente,
+
+09:49.041 --> 09:57.995
+Ok, quello che va all'approccio mentre vi avvicinate alla x = 2? Così proviamo 1.9. Per x = 1.9, usereste questo
+
+09:57.995 --> 10:05.549
+clausola TOP, proprio qua. Così si avrebbe 1.9², e così si otterrebbe 3,61.
+
+10:05.549 --> 10:11.683
+Beh, se ci si avvicina a 2? Così 1.99 e ancora una volta let me quadrato che,
+
+10:11.683 --> 10:21.683
+Beh io sono a 3,96. E se farlo io e 1.999 quadrati?
+
+10:21.683 --> 10:27.991
+Ho intenzione di ottenere 3.996. Notare, io sono sempre più vicino e più vicino e più vicino al nostro punto.
+
+10:27.991 --> 10:37.546
+Se ho davvero chiudere - 1.999999999999²? Che cosa ho intenzione di arrivare a? In realtà non sta per essere
+
+10:37.546 --> 10:41.508
+esattamente 4 - questo calcolatore appena arrotondato le cose - perché stiamo andando a raggiungere un numero davvero davvero
+
+10:41.508 --> 10:47.456
+davvero davvero vicino a 4. E possiamo fare qualcosa dalla direzione positiva, troppo e in realtà
+
+10:47.456 --> 10:52.083
+deve essere lo stesso numero quando ci avviciniamo dalla sotto, quello che stiamo cercando di avvicinarsi,
+
+10:52.083 --> 11:00.702
+e sopra quello che stiamo cercando di avvicinarsi. Così, se cerchiamo 2.1², otteniamo 4.4...
+
+11:00.702 --> 11:02.902
+Vorrei andare un paio di passi avanti...
+
+11:02.902 --> 11:09.256
+2.0001². Quindi questo è ora molto più vicino a 2. Ora siamo sempre più vicini a 4.
+
+11:09.256 --> 11:12.929
+Così vicini che si arriva a 2, il più vicino sembra siamo sempre a 4.
+
+11:12.929 --> 11:20.333
+Così ancora una volta che è un modo numerico, visto che si avvicina al limite come x 2 da entrambe le direzioni
+
+11:20.333 --> 11:25.000
+di g (x) - anche se proprio alla 2, la funzione è uguale a 1, perché è discontinuo-
+
+11:25.000 --> 11:31.070
+il limite come ci stiamo avvicinando 2, siamo sempre più vicino e più vicino e più vicino al 4.

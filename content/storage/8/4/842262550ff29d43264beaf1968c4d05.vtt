@@ -1,0 +1,406 @@
+WEBVTT
+
+00:00.540 --> 00:04.600
+Eu já falei bastante sobre o uso de
+polinômios como aproximações de funções
+
+00:04.600 --> 00:05.690
+Mas neste vídeo quero
+
+00:05.690 --> 00:09.020
+mostrar que a aproximação está
+de fato acontecendo.
+
+00:09.020 --> 00:12.840
+Então bem aqui, estou usando o Wolfram
+Alpha, é um site muito bacana
+
+00:12.840 --> 00:15.810
+Você pode fazer muita coisa relacionada
+com matemática
+
+00:15.810 --> 00:18.400
+O site é wolframalpha.com
+
+00:18.400 --> 00:20.800
+E eu copiei isto de lá e colei aqui.
+
+00:20.800 --> 00:23.670
+Encontrei Steven Wolfram numa conferência,
+pouco tempo atrás
+
+00:23.670 --> 00:25.880
+E ele disse que eu poderia
+usar vídeos com o Wolfram Alpha
+
+00:25.880 --> 00:27.350
+eu disse legal, eu irei!
+
+00:27.350 --> 00:28.450
+É o que farei aqui.
+
+00:28.450 --> 00:31.220
+E ele é muito útil, por causa
+do que ele faz
+
+00:31.220 --> 00:32.740
+Podemos calcular isto nós mesmos
+
+00:32.740 --> 00:34.320
+Ou usar uma calculadora gráfica.
+
+00:34.320 --> 00:37.470
+Mas você pode fazer tudo com apenas um
+passo no Wolfram Alpha
+
+00:37.480 --> 00:44.250
+Veja como podemos aproximar o seno de x
+usando
+
+00:44.250 --> 00:47.380
+Podemos chamar de Expansão em Série
+de Maclaurin, ou você pode chamar
+
+00:47.380 --> 00:50.350
+Uma expansão em série de Taylor,
+em x igual a zero.
+
+00:50.350 --> 00:54.000
+Usando mais e mais termos, e tendo uma
+boa noção do fato de que
+
+00:54.000 --> 00:58.610
+Quanto mais termos adicionamos, melhor o
+ajuste à curva do seno.
+
+00:58.610 --> 01:02.630
+Então isto aqui, em laranja, é o seno de x
+
+01:02.630 --> 01:06.650
+isto deve ser bastante familiar para você.
+
+01:06.650 --> 01:10.380
+Em vídeos anteriores nós descobrimos qual
+a expansão de Maclaurin para
+
+01:10.380 --> 01:15.280
+o seno de x, e o Wolfram Alpha faz isto
+também
+
+01:15.280 --> 01:19.038
+Eles explicitam o fatorial, fatorial de
+três é seis,
+
+01:19.038 --> 01:22.050
+Fatorial de cinco é 120, e
+assim por diante.
+
+01:22.050 --> 01:24.210
+O interessante é que aqui você pode
+escolher
+
+01:24.210 --> 01:26.960
+Quantos termos da aproximação
+você quer no gráfico
+
+01:26.960 --> 01:31.120
+E assim, se você quiser um termo
+da aproximação
+
+01:31.120 --> 01:33.480
+Então se nós não tivéssemos isto tudo
+
+01:33.480 --> 01:38.010
+Se disséssemos que nosso polinômio
+é igual a x, com o quê isto se parece?
+
+01:38.010 --> 01:40.090
+Bem, isto vai ser este gráfico bem aqui.
+
+01:40.090 --> 01:43.340
+Eles nos dizem quantos termos
+nós usamos, pelo número de pontos
+
+01:43.340 --> 01:46.580
+que existem no gráfico. O que
+acho bem inteligente.
+
+01:46.580 --> 01:50.940
+Então isto aqui, isto é a função p de x
+
+01:50.940 --> 01:54.530
+é igual a x, e isto é uma
+aproximação grosseira
+
+01:54.530 --> 01:56.520
+Embora para seno de x ele não seja tão mal
+
+01:56.520 --> 01:59.810
+Ele se ajusta à curva do seno bem aqui e
+
+01:59.810 --> 02:03.540
+Então ele começa a se afastar da curva
+do seno novamente.
+
+02:03.540 --> 02:05.400
+Adicione outro termo.
+
+02:05.400 --> 02:08.690
+Então temos x menos x ao cubo sobre seis.
+
+02:08.690 --> 02:12.610
+Agora temos dois termos na expansão.
+
+02:12.610 --> 02:15.110
+Então, acho que devemos dizer que
+
+02:15.110 --> 02:17.450
+estamos no termo de terceira ordem.
+
+02:17.450 --> 02:19.290
+Porque é como estão numerando os pontos.
+
+02:19.290 --> 02:21.660
+Eles não designam o número de termos.
+
+02:21.660 --> 02:23.100
+Eles citam a ordem dos termos.
+
+02:23.100 --> 02:24.450
+Então é um ponto aqui.
+
+02:24.450 --> 02:27.650
+Porque temos um termo de primeiro grau.
+
+02:27.650 --> 02:30.790
+Quando temos dois termos aqui, quando
+
+02:30.790 --> 02:34.150
+você faz a expansão do seno de x, ela não
+possui um termo de segundo grau
+
+02:34.150 --> 02:39.670
+Agora temos uma aproximação por
+um polinômio de terceiro grau
+
+02:39.670 --> 02:41.370
+E então olhemos para o terceiro grau
+
+02:41.370 --> 02:42.680
+Devemos ter três pontos.
+
+02:42.680 --> 02:44.110
+É esta curva bem aqui
+
+02:44.110 --> 02:48.270
+Então, se temos apenas o primeiro termo,
+temos a linha reta.
+
+02:48.270 --> 02:52.540
+Adicionamos àquele x, o menos x ao
+cubo sobre seis,
+
+02:52.540 --> 02:56.980
+Agora você tem uma curva que
+se parece com isto aqui
+
+02:56.980 --> 03:00.630
+Note que a curva se ajusta ao seno
+um pouco mais cedo.
+
+03:00.630 --> 03:03.180
+E continua se ajustando por uma
+distância maior
+
+03:03.180 --> 03:06.680
+De novo, adicionar aquele segundo termo
+ajuda bastante.
+
+03:06.680 --> 03:11.240
+Ele se ajusta à curva do seno muito bem,
+principamente ao redor da origem.
+
+03:11.240 --> 03:14.470
+Adicione outro termo, e obtemos
+
+03:14.470 --> 03:17.660
+agora teremos um polinômio
+de ordem cinco, bem aqui
+
+03:17.660 --> 03:21.540
+x menos x ao cubo sobre seis, mais
+x à quinta potência sobre 120.
+
+03:21.540 --> 03:24.560
+Vamos procurar pelos cinco pontos.
+
+03:24.560 --> 03:25.790
+É este bem aqui.
+
+03:25.790 --> 03:28.160
+Um, dois, três, quatro, cinco.
+
+03:28.160 --> 03:30.100
+Então é esta curva bem aqui.
+
+03:30.100 --> 03:33.680
+E note, ela começa a se ajustar à linha
+um pouco mais cedo
+
+03:33.680 --> 03:35.020
+que a versão magenta.
+
+03:35.020 --> 03:43.530
+E permanece ajustada por mais tempo.
+
+03:43.530 --> 03:45.690
+Então ela vira para cima desse jeito
+
+03:45.690 --> 03:47.420
+Então, se ajustou por mais tempo.
+
+03:47.420 --> 03:49.730
+E você pode ver, irei continuando.
+
+03:49.730 --> 03:55.640
+Se você tiver estes quatro primeiros
+termos, temos um polinômio de sétimo grau.
+
+03:55.640 --> 03:57.660
+Vamos procurar pelos sete pontos por aqui.
+
+03:57.660 --> 04:02.160
+Então, temos isto, eles vêm assim.
+
+04:02.160 --> 04:04.559
+E de novo, se ajustam à curva mais cedo.
+
+04:04.559 --> 04:07.183
+do que quando tínhamos apenas
+os três primeiros termos
+
+04:07.183 --> 04:12.690
+E continua se ajustando à curva por todo
+este caminho até aqui
+
+04:12.690 --> 04:15.210
+E então o último termo, se tomarmos
+todos estes termos
+
+04:15.210 --> 04:17.240
+Até x à nona. O resultado é ainda melhor.
+
+04:17.240 --> 04:20.810
+Você começa aqui, se ajusta à curva por
+mais tempo que os outros e sai
+
+04:20.810 --> 04:23.470
+E se paramos para pensar, faz sentido
+porque o que acontece
+
+04:23.470 --> 04:26.973
+aqui é que cada termo sucessivo que
+adicionamos à expansão
+
+04:26.973 --> 04:31.683
+Ele tem um grau maior de x
+
+04:31.683 --> 04:34.940
+sobre um número muitíssimo maior.
+
+04:34.940 --> 04:38.880
+Então para pequenos valores de x,
+próximo à origem.
+
+04:38.880 --> 04:44.620
+Para pequenos valores de x, este
+denominador irá dominar o numerador
+
+04:44.620 --> 04:45.978
+Especialmente abaixo de um.
+
+04:45.978 --> 04:49.520
+Porque quando você toma algo que tem
+um valor absoluto menor que um,
+
+04:49.520 --> 04:51.880
+a uma potência positiva,
+está diminuindo este valor.
+
+04:51.880 --> 04:56.198
+Então, perto da origem estes últimos
+termos não importam muito.
+
+04:56.198 --> 04:58.780
+Você não está perdendo, muita coisa
+
+04:58.780 --> 05:01.170
+da precisão dos outros termos.
+
+05:01.170 --> 05:04.190
+Quando estes termos de ajuste entram,
+
+05:04.190 --> 05:08.780
+quando o numerador domina o denominador.
+
+05:08.780 --> 05:10.710
+Então, este último termo.
+
+05:10.710 --> 05:15.400
+Começa a se tornar relevante
+aqui fora, onde
+
+05:15.440 --> 05:19.700
+x à nona começa a dominar 362 880.
+
+05:19.700 --> 05:22.680
+E o mesmo acontece no lado negativo.
+
+05:22.680 --> 05:24.070
+Espero ter te dado um sentido
+
+05:24.070 --> 05:26.990
+Temos apenas um, dois, três, quatro, cinco
+termos aqui.
+
+05:26.990 --> 05:30.800
+Imagina o que aconteceria se somássemos
+a isto um número infinito de termos!
+
+05:30.800 --> 05:32.520
+Acho que você percebeu que ele iria
+
+05:32.520 --> 05:36.730
+se ajustar à curva do seno até o infinito.
+
+05:36.730 --> 05:39.310
+Espero que isto te faça sentir
+melhor a esse respeito.
+
+05:39.310 --> 05:42.081
+E, por diversão, você pode
+
+05:42.081 --> 05:45.080
+digitar, Expansão em Taylor na origem,
+do seno de x
+
+05:45.080 --> 05:49.020
+Ou Expansão de Maclaurin, ou série
+de Maclaurin para o seno de x
+
+05:49.020 --> 05:53.080
+ou cosseno de x, em Wolframalpha.com.
+
+05:53.080 --> 05:55.020
+E tentar um monte de funções diferentes.
+
+05:55.020 --> 05:57.480
+E você pode tentar, adicionar
+ou retirar termos
+
+05:57.480 --> 06:00.270
+Para ver como eles se ajustam às curvas.
+
+06:00.274 --> 06:04.644
+[Legendado por Dory Hélio Aires]
+[Revisado por Khallil Fernandes]

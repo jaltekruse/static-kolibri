@@ -1,0 +1,297 @@
+WEBVTT
+
+00:00.301 --> 00:10.501
+V tomto videu bych rád dokázal známé
+a užitečné pravidlo o složené funkci.
+
+00:10.501 --> 00:16.122
+A pokud jste sledovali některá videa
+o derivacích a spojitosti a o tom,
+
+00:16.122 --> 00:18.282
+co se děje se spojitou funkcí,
+
+00:18.282 --> 00:21.962
+když se změna v 'x', pokud je 'x'
+nezávislá proměnná,
+
+00:21.962 --> 00:26.482
+blíží nule, jak se ta změna
+v naší funkci blíží nule,
+
+00:26.482 --> 00:31.002
+pak je tenhle důkaz vlastně
+překvapivě přímočarý.
+
+00:31.002 --> 00:32.283
+Takže se do toho pusťme.
+
+00:32.283 --> 00:35.702
+A tohle je jen jeden z mnoha
+důkazů pravidla o složené funkci.
+
+00:35.702 --> 00:37.581
+Pravidlo o složené
+funkci nám říká,
+
+00:37.581 --> 00:45.541
+že když je 'y' funkcí 'u',
+které je funkcí 'x',
+
+00:45.541 --> 00:56.632
+a my u toho chceme zjistit derivaci,
+takže to chceme derivovat podle 'x',
+
+00:56.652 --> 01:00.343
+mohli bychom to napsat
+jako derivaci 'y' podle 'x'.
+
+01:00.343 --> 01:09.603
+Což se bude rovnat derivaci
+'y' podle 'u' krát derivace 'u' podle 'x'.
+
+01:09.603 --> 01:12.263
+Tohle nám říká
+pravidlo o složené funkci.
+
+01:12.263 --> 01:15.718
+Ale jak ho
+vlastně dokážeme?
+
+01:15.733 --> 01:27.463
+No, musíme si připomenout,
+že derivace 'y' podle 'x' se rovná limitě:
+
+01:27.463 --> 01:35.303
+pro delta 'x' se blíží k nule
+změny v 'y' lomeno změnou v 'x'.
+
+01:35.303 --> 01:38.355
+Teď tu můžeme udělat nějaké
+algebraické změny,
+
+01:38.355 --> 01:41.058
+abychom představili změnu
+v 'u', tak pojďme na to.
+
+01:41.058 --> 01:48.303
+Tohle bude to samé jako limita
+pro delta 'x' se blíží k nule…
+
+01:48.303 --> 01:51.059
+A tuhle část přepíšu sem.
+
+01:51.059 --> 01:55.183
+V podstatě budu dělit
+a násobit změnou v 'u'.
+
+01:55.183 --> 02:05.062
+Takže to můžu přepsat jako delta 'y'
+lomeno delta 'u' krát delta 'u'
+
+02:05.062 --> 02:09.741
+krát delta 'u' lomeno delta 'x'.
+
+02:09.741 --> 02:13.681
+Změna v 'y' lomeno změna v 'u'
+krát změna v 'u' lomeno změna v 'x'.
+
+02:13.681 --> 02:17.322
+A můžete vidět,
+že tady budou čísla,
+
+02:17.322 --> 02:19.349
+takže naše změna
+v 'u' se vyruší s tímhle
+
+02:19.349 --> 02:22.202
+a zbude vám změna v 'y'
+lomeno změna v 'x',
+
+02:22.202 --> 02:24.342
+což je přesně to, co tady máme.
+
+02:24.342 --> 02:28.602
+Takže zatím nic převratného.
+
+02:28.602 --> 02:33.112
+Ale čemu se to bude rovnat?
+
+02:33.114 --> 02:36.328
+No, limita součinu je
+stejná jako součin limity,
+
+02:36.328 --> 02:44.592
+takže to bude stejné jako limita
+pro delta 'x' se blíží k nule...
+
+02:44.592 --> 02:45.861
+Vybarvím to.
+
+02:45.861 --> 02:52.773
+...z tohoto, delty 'y'
+lomeno delty 'u', krát...
+
+02:52.773 --> 02:54.371
+Možná to dám do závorky.
+
+02:54.371 --> 03:08.475
+... krát limita pro
+delta 'x' se blíží k nule,
+
+03:08.495 --> 03:10.933
+Dám to do závorek.
+
+03:10.933 --> 03:14.695
+Delta 'u' lomeno delta 'x'.
+
+03:14.695 --> 03:16.855
+Takže na co
+se to zjednoduší?
+
+03:16.855 --> 03:19.906
+No tohle, tohle je definice,
+a pokud předpokládáme…
+
+03:19.906 --> 03:21.696
+Aby to vůbec
+mohla být pravda,
+
+03:21.696 --> 03:27.235
+musíme předpokládat, že
+'u' a 'y' jsou derivovatelné v 'x'.
+
+03:27.235 --> 03:29.896
+Takže předpokládáme,
+aby to mohla být pravda,
+
+03:29.896 --> 03:44.094
+předpokládáme, že 'y', 'u'
+jsou derivovatelné v 'x'.
+
+03:44.094 --> 03:46.161
+Taky platí: pokud
+jsou derivovatelné v 'x',
+
+03:46.161 --> 03:48.062
+znamená to,
+že jsou spojité v 'x'.
+
+03:48.062 --> 03:49.652
+Pokud je 'u' derivovatelné v 'x',
+
+03:49.652 --> 03:53.371
+pak tahle limita existuje
+a tohle je derivace...
+
+03:53.371 --> 03:56.442
+Tohle je 'u' nad 'x',
+nebo 'du' lomeno 'dx',
+
+03:56.442 --> 04:02.775
+takže tohle tady můžeme
+přepsat jako 'du' lomeno 'dx'.
+
+04:02.775 --> 04:04.903
+Myslím, že chápete,
+kam to směřuje.
+
+04:04.903 --> 04:06.243
+A tohle tady,
+
+04:06.243 --> 04:08.743
+jen když se podíváte na to,
+jak je to tady napsané,
+
+04:08.743 --> 04:12.043
+to nemůžeme úplně nazývat
+'dy' lomeno 'du'.
+
+04:12.043 --> 04:15.123
+Protože tohle je limita pro
+delta 'x' se blíží k nule,
+
+04:15.123 --> 04:17.882
+ne limita pro delta
+'u' se blíží k nule.
+
+04:17.882 --> 04:19.242
+Ale musíme si připomenout,
+
+04:19.242 --> 04:23.981
+že výsledky, nejspíš z předešlého videa,
+záleží na tom, v jakém pořadí se díváte...
+
+04:23.981 --> 04:29.343
+Tedy, že pokud máme funkci 'u',
+která je někde spojitá,
+
+04:29.362 --> 04:34.093
+pak, když se delta 'x' blíží k nule,
+delta 'u' se blíží nule.
+
+04:34.123 --> 04:40.244
+Takže to můžeme
+vlastně přepsat...
+
+04:40.244 --> 04:43.384
+Místo toho, že řekneme,
+že delta 'x' se blíží k nule,
+
+04:43.384 --> 04:47.204
+protože 'u' je derivovatelné v 'x',
+což znamená, že je spojité v 'x',
+
+04:47.204 --> 04:49.943
+a to znamená, že delta
+'u' se bude blížit k nule.
+
+04:49.943 --> 04:52.637
+Jak se naše změna v 'x'
+stává menší a menší,
+
+04:52.637 --> 04:56.166
+naše změna v 'u' se stane
+menší a menší a menší.
+
+04:56.166 --> 04:57.885
+Takže to můžeme přepsat:
+
+04:57.885 --> 05:02.024
+pro změnu v 'u' se blíží k nule,
+a přepíšeme to takhle.
+
+05:02.024 --> 05:04.225
+Takže je to jen
+'dy' lomeno 'du'.
+
+05:04.225 --> 05:08.565
+Tohle je jen 'dy',
+derivace 'y' podle 'u'.
+
+05:08.565 --> 05:14.055
+Takže když předpokládáme,
+že 'y' a 'u' jsou derivovatelné v 'x',
+
+05:14.055 --> 05:18.495
+nebo by se dalo říct, že 'y' je
+funkcí 'u', která je funkcí 'x'.
+
+05:18.495 --> 05:21.381
+Zrovna jsme ukázali,
+celkem jednoduchou algebrou
+
+05:21.381 --> 05:25.225
+a pomocí pár předpokladů
+o derivovatelnosti a spojitosti,
+
+05:25.225 --> 05:27.004
+že toto je skutečně ten případ,
+
+05:27.004 --> 05:35.165
+kdy derivace 'y' podle 'x' je derivace
+'y' podle 'u' krát derivace 'u' podle 'x'.
+
+05:35.165 --> 05:39.001
+Snad vám ten důkaz
+přijde přesvědčivý.

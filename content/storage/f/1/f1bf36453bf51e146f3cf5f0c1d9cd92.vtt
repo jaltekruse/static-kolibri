@@ -1,0 +1,461 @@
+WEBVTT
+
+00:00.120 --> 00:01.820
+- [Instructor] You are
+likely already familiar
+
+00:01.820 --> 00:04.040
+with finding the area between curves.
+
+00:04.040 --> 00:04.930
+And, in fact, if you're not,
+
+00:04.930 --> 00:07.070
+I encourage you to review
+that on Khan Academy.
+
+00:07.070 --> 00:09.500
+For example, we could
+find this yellow area
+
+00:09.500 --> 00:11.130
+using a definite integral.
+
+00:11.130 --> 00:12.300
+But what we're going to do in this video
+
+00:12.300 --> 00:14.390
+is do something even more interesting.
+
+00:14.390 --> 00:16.750
+We're gonna find the volume of shapes
+
+00:16.750 --> 00:19.260
+where the base is defined in some way
+
+00:19.260 --> 00:21.410
+by the area between two curves.
+
+00:21.410 --> 00:23.610
+And, in this video, we're
+gonna think about a shape,
+
+00:23.610 --> 00:24.950
+and I'm gonna draw it in three dimensions.
+
+00:24.950 --> 00:26.790
+So let me draw this over again,
+
+00:26.790 --> 00:28.700
+but with a little bit of perspective.
+
+00:28.700 --> 00:29.860
+So,
+
+00:29.860 --> 00:32.633
+let's make this the y-axis.
+
+00:33.810 --> 00:35.540
+So that's the y-axis.
+
+00:35.540 --> 00:38.620
+This is my x-axis.
+
+00:38.620 --> 00:40.670
+That is my x-axis.
+
+00:40.670 --> 00:42.120
+This is the
+
+00:42.120 --> 00:44.800
+line y is equal to six
+
+00:44.800 --> 00:45.980
+right over there.
+
+00:45.980 --> 00:48.020
+Y is equal to six.
+
+00:48.020 --> 00:51.850
+This dotted line, we could
+just draw it like this,
+
+00:51.850 --> 00:54.750
+and so this would be
+the point x equals two.
+
+00:54.750 --> 00:57.000
+And then the graph of y is equal to four
+
+00:57.000 --> 00:59.010
+times the natural log of three minus x
+
+00:59.010 --> 01:01.380
+would look something like this,
+
+01:01.380 --> 01:02.610
+look something like this.
+
+01:02.610 --> 01:04.940
+And so this region is this region,
+
+01:04.940 --> 01:06.830
+but it's going to be the base
+
+01:06.830 --> 01:09.900
+of a three-dimensional shape
+where any cross section,
+
+01:09.900 --> 01:13.010
+if I were to take a cross
+section right over here,
+
+01:13.010 --> 01:14.490
+is going to be a square.
+
+01:14.490 --> 01:18.670
+So whatever this length is,
+we also go that much high,
+
+01:18.670 --> 01:23.470
+and so the cross section is
+a square right over there.
+
+01:23.470 --> 01:26.870
+The cross section right over
+here is going to be a square.
+
+01:26.870 --> 01:29.700
+Whatever the difference
+between these two functions is,
+
+01:29.700 --> 01:33.100
+that's also how high we are going to go.
+
+01:33.100 --> 01:36.720
+This length, which is six at this point,
+
+01:36.720 --> 01:39.670
+this is also going to be the height.
+
+01:39.670 --> 01:40.880
+It is going to be a square.
+
+01:40.880 --> 01:42.270
+It's going to be quite big,
+
+01:42.270 --> 01:44.970
+might have to scroll down so
+we can draw the whole thing,
+
+01:44.970 --> 01:46.810
+roughly at the right proportion.
+
+01:46.810 --> 01:48.210
+So it looks something like this.
+
+01:48.210 --> 01:49.920
+This should be a square.
+
+01:49.920 --> 01:51.220
+It's gonna look something like this.
+
+01:51.220 --> 01:54.130
+And so the whole shape would look,
+
+01:54.130 --> 01:56.260
+would look something
+
+01:56.260 --> 01:58.300
+like this,
+
+01:58.300 --> 02:00.060
+would look something like that,
+
+02:00.060 --> 02:02.430
+try to shade that in a
+little bit so that you can
+
+02:02.430 --> 02:04.700
+appreciate it a little bit more,
+
+02:04.700 --> 02:06.310
+but hopefully you get the idea.
+
+02:06.310 --> 02:07.670
+And some of you might be excited,
+
+02:07.670 --> 02:09.110
+and some of you might
+be a little intimidated.
+
+02:09.110 --> 02:10.000
+Well, hey, I've been dealing
+
+02:10.000 --> 02:11.350
+with the two dimensions for so long.
+
+02:11.350 --> 02:13.350
+What's going on with
+these three dimensions?
+
+02:13.350 --> 02:16.070
+But you'll quickly appreciate
+that you already have
+
+02:16.070 --> 02:18.240
+the powers of integration to solve this.
+
+02:18.240 --> 02:21.100
+And to do that, we just
+have to break up the shape
+
+02:21.100 --> 02:25.190
+into a bunch of these, you
+could view them as these little
+
+02:25.190 --> 02:28.770
+square tiles that have some depth to them.
+
+02:28.770 --> 02:31.720
+So let's make that into a
+little tile, this one into it,
+
+02:31.720 --> 02:34.380
+that also has some depth to it.
+
+02:34.380 --> 02:36.390
+You could even, I could
+draw it multiple places.
+
+02:36.390 --> 02:37.223
+You could view it as a,
+
+02:37.223 --> 02:41.410
+break it up into these things
+that have a very small depth,
+
+02:41.410 --> 02:43.310
+that we could call dx.
+
+02:43.310 --> 02:46.390
+And we know how to figure
+out what their volume is.
+
+02:46.390 --> 02:48.630
+What would be the volume
+of one of these things?
+
+02:48.630 --> 02:51.480
+Well, it would be the
+depth times the area,
+
+02:51.480 --> 02:52.810
+times the surface area
+
+02:52.810 --> 02:55.150
+of this cross section right over here.
+
+02:55.150 --> 02:56.580
+Let me do that in a different color.
+
+02:56.580 --> 02:59.270
+So what would be the area
+
+02:59.270 --> 03:02.300
+that I am shading in in
+pink right over here?
+
+03:02.300 --> 03:06.640
+Well, that area is going to
+be the base length squared.
+
+03:06.640 --> 03:07.780
+What's the base length?
+
+03:07.780 --> 03:09.900
+Well, it's the difference
+between these two functions.
+
+03:09.900 --> 03:12.560
+It is going to be six minus,
+
+03:12.560 --> 03:15.200
+our bottom function is four
+
+03:15.200 --> 03:19.220
+times the natural log of three minus x,
+
+03:19.220 --> 03:21.540
+and so that would just
+give us that length.
+
+03:21.540 --> 03:24.500
+But if we square it, we
+get this entire area.
+
+03:24.500 --> 03:26.730
+We get that entire area, you square it.
+
+03:26.730 --> 03:29.760
+And then you multiply it times the depth.
+
+03:29.760 --> 03:31.280
+You multiply it times the depth.
+
+03:31.280 --> 03:33.780
+Now you have the volume
+of just this little
+
+03:33.780 --> 03:35.150
+section right over here,
+
+03:35.150 --> 03:37.610
+and I think you might
+see where this is going.
+
+03:37.610 --> 03:39.930
+Now, what if you were
+to add up all of these
+
+03:39.930 --> 03:42.810
+from x equals zero to x equals two?
+
+03:42.810 --> 03:45.150
+Well, then you would have the
+volume of the entire thing.
+
+03:45.150 --> 03:47.450
+This is the power of
+the definite integral.
+
+03:47.450 --> 03:49.380
+So we could just integrate
+
+03:49.380 --> 03:51.560
+from x equals zero to x equals two,
+
+03:51.560 --> 03:54.310
+from x equals zero to x equals two.
+
+03:54.310 --> 03:56.900
+If you drew where these
+intersect our base,
+
+03:56.900 --> 03:59.770
+you would say all right,
+this thing right over here
+
+03:59.770 --> 04:01.940
+would be this thing
+
+04:01.940 --> 04:04.750
+right over here, where it's dx.
+
+04:04.750 --> 04:06.540
+And instead of just multiplying dx
+
+04:06.540 --> 04:08.420
+times the difference
+between these functions,
+
+04:08.420 --> 04:10.440
+we're going to square the
+difference of these functions
+
+04:10.440 --> 04:13.130
+'cause we're visualizing
+this three-dimensional shape,
+
+04:13.130 --> 04:14.830
+the surface area of this
+three-dimensional shape,
+
+04:14.830 --> 04:19.060
+as opposed to just the height
+of this little rectangle.
+
+04:19.060 --> 04:21.020
+And if you were to evaluate this integral,
+
+04:21.020 --> 04:24.840
+you would indeed get the volume of this,
+
+04:24.840 --> 04:28.130
+this kind of pedestal horn-looking thing.
+
+04:28.130 --> 04:31.210
+This is not an easy definite
+integral to evaluate by hand,
+
+04:31.210 --> 04:33.700
+but we can actually use
+a calculator for that.
+
+04:33.700 --> 04:34.850
+And so,
+
+04:34.850 --> 04:36.020
+we can
+
+04:36.020 --> 04:38.480
+hit math
+
+04:38.480 --> 04:41.670
+and then hit choice number
+nine for definite integral,
+
+04:41.670 --> 04:44.070
+and then we just have to input everything.
+
+04:44.070 --> 04:46.940
+We're going from zero till
+
+04:46.940 --> 04:49.120
+two of,
+
+04:49.120 --> 04:51.580
+and then we have, let me open parentheses
+
+04:51.580 --> 04:52.710
+'cause I'm gonna have
+to square everything.
+
+04:52.710 --> 04:56.860
+Six minus four times the natural log
+
+04:56.860 --> 04:58.570
+of x,
+
+04:58.570 --> 05:02.650
+or actually the natural
+log of three minus x.
+
+05:02.650 --> 05:06.020
+And so let me close the parentheses
+on the natural log part.
+
+05:06.020 --> 05:09.810
+And then, if I close the
+parentheses on this whole thing,
+
+05:09.810 --> 05:11.620
+I want to then square it.
+
+05:11.620 --> 05:15.770
+And then I'm integrating
+with respect to x.
+
+05:15.770 --> 05:20.410
+Enter, I got approximately 26.27.
+
+05:20.410 --> 05:24.580
+So approximately 26.27,
+and this is a volume here.
+
+05:24.580 --> 05:25.850
+So if we thought about units,
+
+05:25.850 --> 05:28.743
+it would be in our units
+cubed or cubic units.

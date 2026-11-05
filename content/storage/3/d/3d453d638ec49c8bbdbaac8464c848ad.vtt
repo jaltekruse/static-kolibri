@@ -1,0 +1,318 @@
+WEBVTT
+
+00:00.412 --> 00:13.245
+Zkusme spočítat určitý integrál od 0 do 1
+'x na druhou' krát '2 na (x na třetí)' dx.
+
+00:13.459 --> 00:20.212
+Jako vždy, pozastavte si video
+a zkuste to vyřešit sami.
+
+00:20.811 --> 00:22.396
+Předpokládám, že jste to zkusili.
+
+00:22.550 --> 00:24.030
+Je tu několik zajímavých věcí.
+
+00:24.180 --> 00:29.221
+Nejdříve si uvědomím,
+že umím integrovat 'e na x',
+
+00:29.392 --> 00:31.343
+nikoliv obecnou mocninu.
+
+00:31.544 --> 00:43.663
+Víme, že primitivní funkcí k 'e na x'
+je 'e na x' plus C.
+
+00:44.060 --> 00:51.049
+Protože budu pracovat s něčím
+umocněným na funkci proměnné 'x',
+
+00:51.215 --> 00:55.001
+zdá se, že budu muset
+provést nějaké úpravy.
+
+00:55.172 --> 00:56.335
+Ale jaké?
+
+00:56.520 --> 01:02.906
+Chtěl bych vyjádřit 2 jako
+mocninu se základem 'e'.
+
+01:03.038 --> 01:18.051
+2 je rovno 'e na ln(2)'.
+
+01:18.408 --> 01:23.746
+ln(2) je mocnitel, kterým umocňuji 'e',
+abych dostal číslo 2.
+
+01:23.959 --> 01:27.059
+Dostaneme tedy 2.
+
+01:27.657 --> 01:31.399
+To je tedy 2.
+Čemu se rovná '2 na (x na třetí)'?
+
+01:31.996 --> 01:40.360
+Umocníme-li obě strany 'x na třetí'…
+
+01:40.553 --> 01:47.572
+Umocním-li něco a to znovu umocním,
+je to jako umocnění součinem mocnitelů.
+
+01:47.750 --> 01:55.856
+Bude to rovno
+'e na (x na třetí) krát ln(2)'.
+
+01:56.356 --> 01:58.931
+To vypadá zajímavě.
+
+01:59.096 --> 02:00.445
+Přepišme to tedy.
+
+02:00.581 --> 02:03.952
+Nejdříve se zaměřme na neurčitý integrál.
+
+02:04.070 --> 02:08.394
+Nejdříve vyřešíme ten
+a pak spočítáme určitý.
+
+02:08.606 --> 02:11.163
+Zamysleme se nad tímto.
+
+02:11.340 --> 02:18.095
+Integrál z 'x na druhou' krát
+'2 na (x na třetí)' krát dx.
+
+02:18.280 --> 02:20.381
+K tomuto hledám primitivní funkci.
+
+02:20.541 --> 02:28.332
+To je to samé jako integrál z
+'x na druhou' krát…
+
+02:28.551 --> 02:31.830
+Namísto '2 na (x na třetí)'
+napíšu celé toto.
+
+02:31.999 --> 02:33.562
+Zkopíruji to.
+
+02:33.784 --> 02:38.427
+Víme, že je to stejné jako
+'2 na (x na třetí)'.
+
+02:39.020 --> 02:42.854
+Zkopíruji a vložím.
+
+02:43.314 --> 02:47.731
+Zakončím 'dx'.
+
+02:48.718 --> 02:51.671
+Přepsal jsem to tedy jako
+mocninu se základem 'e'.
+
+02:51.770 --> 02:55.268
+To je příjemnější,
+ale stále to vypadá komplikovaně.
+
+02:55.655 --> 03:00.917
+Možná vás napadne použít substituci,
+
+03:01.056 --> 03:06.182
+neboť mám tento šílený výraz
+'x na třetí' krát ln(2).
+
+03:06.354 --> 03:08.047
+Jaká je derivace tohoto výrazu?
+
+03:08.208 --> 03:11.030
+To bude 3 krát 'x na druhou' krát ln(2).
+
+03:11.160 --> 03:13.792
+3 krát ln(2) krát 'x na druhou'.
+
+03:13.935 --> 03:16.005
+To je jen nějaké číslo krát 'x na druhou'.
+
+03:16.136 --> 03:17.740
+'x na druhou' zde již máme.
+
+03:17.939 --> 03:22.665
+Možná se nám podaří
+sem dostat i tu konstantu.
+
+03:22.866 --> 03:23.977
+Přemýšlejme o tom.
+
+03:24.173 --> 03:36.198
+Pokud by 'u' bylo rovno
+'x na třetí' krát ln(2), co by bylo 'du'?
+
+03:36.609 --> 03:39.224
+'du' by bylo rovno…
+
+03:39.389 --> 03:41.339
+ln(2) je jen konstanta.
+
+03:41.492 --> 03:45.519
+…bylo by to rovno 3 krát
+'x na druhou' krát ln(2).
+
+03:45.728 --> 03:48.621
+Změníme si pořadí násobení.
+
+03:48.847 --> 03:55.448
+Je to stejné jako 'x na druhou'
+krát 3 krát ln(2).
+
+03:55.799 --> 04:03.590
+Což je, podle vlastností logaritmu,
+rovno 'x na druhou' krát ln('2 na třetí').
+
+04:03.736 --> 04:13.172
+Je to tedy rovno
+'x na druhou' krát ln(8).
+
+04:13.546 --> 04:14.557
+Podívejme se.
+
+04:14.700 --> 04:16.388
+Je-li toto 'u', kde je 'du'?
+
+04:16.556 --> 04:18.957
+Samozřejmě nesmíme zapomenout na 'dx'.
+
+04:19.862 --> 04:25.544
+Tady je všude 'dx'.
+
+04:25.714 --> 04:27.380
+Kde je tedy 'du'?
+
+04:27.548 --> 04:28.513
+Máme zde 'dx'…
+
+04:28.664 --> 04:29.612
+Budu to kroužkovat.
+
+04:29.760 --> 04:32.610
+Tady máme 'dx' a tady máme 'dx'.
+
+04:32.788 --> 04:35.850
+Zde máme 'x na druhou'
+a zde také.
+
+04:35.982 --> 04:40.594
+Doopravdy nám tedy chybí jen ln(8).
+
+04:40.768 --> 04:44.447
+Ideálně bychom tu měli ln(8).
+
+04:45.064 --> 04:53.267
+Můžeme to vynásobit ln(8),
+pokud to zároveň i vydělíme ln(8).
+
+04:53.886 --> 04:56.062
+Můžeme to tak udělat.
+
+04:56.220 --> 04:58.776
+Vydělíme to ln(8).
+
+04:58.931 --> 05:06.244
+Víme, že integrál z konstanty krát funkce
+je roven konstantě krát integrál funkce.
+
+05:06.401 --> 05:08.204
+Můžeme to tedy napsat před integrál.
+
+05:08.340 --> 05:12.296
+1 lomeno ln(8).
+
+05:12.784 --> 05:15.081
+Aplikujme tedy substituci 'u'.
+
+05:15.256 --> 05:31.585
+Zjednoduší se to na '1 lomeno ln(8)'
+krát integrál 'e na u' krát 'du'.
+
+05:31.754 --> 05:36.625
+Toto krát toto je 'du'.
+
+05:36.770 --> 05:40.770
+Toto už je jasné,
+víme jak dále postupovat.
+
+05:40.953 --> 06:00.491
+To bude rovno '1 lomeno ln(8)'
+krát 'e na u' plus nějaké C.
+
+06:00.687 --> 06:02.765
+Nyní jen dosadíme za 'u'.
+
+06:02.940 --> 06:04.471
+Víme, čemu se 'u' rovná.
+
+06:04.929 --> 06:08.512
+Integrál tohoto výrazu bude tedy roven
+
+06:08.655 --> 06:21.571
+'1 lomeno ln(8)' krát
+'e na (x na třetí) krát ln(2)' plus C.
+
+06:21.785 --> 06:24.120
+Abychom se dostali
+k výsledku původního příkladu,
+
+06:24.301 --> 06:29.230
+musíme dosadit v bodech 1 a 0.
+
+06:29.413 --> 06:30.612
+Napišme to.
+
+06:30.774 --> 06:36.056
+Opět to zkopíruji a vložím.
+
+06:36.600 --> 06:46.771
+Toto bude rovno primitivní funkci v bodě 1
+minus primitivní funkci v bodě 0.
+
+06:46.971 --> 06:49.998
+Nemusíme řešit konstantu,
+neboť se odečte.
+
+06:50.228 --> 06:52.124
+Co tedy dostaneme?
+
+06:53.450 --> 06:55.689
+Dosadím nejdříve 1.
+
+06:56.648 --> 07:09.026
+Vyjde '1 lomeno ln(8)'
+krát 'e na ln(2)'.
+
+07:09.202 --> 07:10.623
+To je po dosazení 1.
+
+07:10.978 --> 07:14.951
+Teď odečteme výraz po dosazení 0.
+
+07:15.151 --> 07:23.668
+'1 lomeno ln(8)' krát 'e na 0'.
+
+07:24.230 --> 07:31.979
+'e na 0' je 1
+a 'e na ln(2)' je 2.
+
+07:32.145 --> 07:35.571
+To už jsme zjistili dříve.
+
+07:35.759 --> 07:41.264
+Máme tedy '2 lomeno ln(8)'
+minus '1 lomeno ln(8)'.
+
+07:41.464 --> 07:47.395
+Což bude rovno '1 lomeno ln(8).'
+
+07:47.811 --> 07:52.004
+A jsme hotovi!

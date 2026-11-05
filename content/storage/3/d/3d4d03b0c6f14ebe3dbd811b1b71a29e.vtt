@@ -1,0 +1,578 @@
+WEBVTT
+
+00:00.251 --> 00:03.423
+V tomto videu
+si dokážeme,
+
+00:03.423 --> 00:12.988
+že limita pro Θ blížící se k 0
+ze sin(Θ) lomeno Θ se rovná 1.
+
+00:12.988 --> 00:18.901
+Začněme s takovým geometrickým
+obrázkem, který tady mám.
+
+00:18.907 --> 00:24.151
+Tato bílá kružnice je jednotková
+kružnice, označím ji,
+
+00:24.151 --> 00:26.091
+tedy její
+poloměr je 1.
+
+00:26.091 --> 00:29.367
+Jednotková kružnice.
+
+00:29.367 --> 00:34.847
+Co představuje
+délka této červené čáry?
+
+00:34.847 --> 00:38.772
+Délka této úsečky se rovná
+y-ové souřadnici bodu,
+
+00:38.772 --> 00:42.397
+v němž tento poloměr protíná
+naši jednotkovou kružnici.
+
+00:42.407 --> 00:46.382
+Z definice goniometrických
+funkcí vidíme,
+
+00:46.382 --> 00:52.232
+že v jednotkové kružnici
+se délka této úsečky rovná sin(Θ).
+
+00:52.232 --> 00:56.765
+Chceme-li zajistit, aby toto byla pravda
+i pro úhly Θ ze čtvrtého kvadrantu,
+
+00:56.765 --> 00:58.143
+což se nám
+bude hodit,
+
+00:58.143 --> 01:02.725
+můžeme si sem napsat
+absolutní hodnotu ze sin(Θ).
+
+01:02.725 --> 01:05.292
+A co ta
+modrá úsečka?
+
+01:05.292 --> 01:08.662
+Dokážeme ji popsat pomocí
+goniometrických funkcí?
+
+01:08.662 --> 01:09.735
+Zamysleme
+se nad tím.
+
+01:09.735 --> 01:11.930
+Čemu by se rovnala
+tangenta z Θ?
+
+01:11.930 --> 01:13.214
+Napišme
+si to sem.
+
+01:13.214 --> 01:21.102
+Tan(Θ) se rovná
+protilehlá ku přilehlé.
+
+01:21.102 --> 01:24.122
+Když se podíváme na
+tento větší trojúhelník,
+
+01:24.122 --> 01:27.185
+tady je náš
+úhel Θ v radiánech,
+
+01:27.185 --> 01:32.644
+toto je protilehlá strana a přilehlá
+strana tady dole má délku 1,
+
+01:32.644 --> 01:34.624
+protože tu máme
+jednotkovou kružnici.
+
+01:34.624 --> 01:36.474
+Tohle má tedy
+délku 1.
+
+01:36.474 --> 01:39.586
+Tan(Θ) je tudíž roven
+délce protilehlé strany.
+
+01:39.586 --> 01:43.901
+Délka protilehlé strany
+je rovna tan(Θ).
+
+01:43.901 --> 01:45.114
+A podobně
+jako předtím,
+
+01:45.114 --> 01:48.275
+tohle bude kladné číslo
+pro úhly z prvního kvadrantu,
+
+01:48.275 --> 01:51.907
+ale já chci, aby to platilo
+pro první i čtvrtý kvadrant,
+
+01:51.907 --> 01:53.323
+potřebuji
+to v důkazu,
+
+01:53.323 --> 01:55.902
+takže sem připíšu
+absolutní hodnotu.
+
+01:55.902 --> 01:57.434
+Když už máme
+tohle hotové,
+
+01:57.434 --> 02:01.427
+zamysleme se nad některými
+trojúhelníky a jejich obsahy.
+
+02:01.427 --> 02:05.790
+Nejdříve nakreslím trojúhelník
+ležící v této kruhové výseči,
+
+02:05.790 --> 02:10.185
+v tomto kousku
+koláče uvnitř kruhu.
+
+02:10.185 --> 02:14.164
+Takže udělám
+tento trojúhelník.
+
+02:14.164 --> 02:19.524
+Zamysleme se nad tím, jaký je obsah
+plochy, kterou právě zvýrazňuji.
+
+02:19.524 --> 02:23.594
+Jak bych mohl
+vyjádřit tento obsah?
+
+02:23.594 --> 02:25.019
+Jde o trojúhelník
+a my víme,
+
+02:25.019 --> 02:29.611
+že obsah trojúhelníku je jedna
+polovina délky základny krát výška.
+
+02:29.611 --> 02:35.582
+Víme, že výška je rovna absolutní hodnotě
+ze sin(Θ) a že základna má délku 1.
+
+02:35.582 --> 02:43.835
+Tato plocha má tedy obsah
+1/2 krát délka základny, což je 1,
+
+02:43.835 --> 02:48.072
+krát výška, která je rovna
+absolutní hodnotě ze sin(Θ).
+
+02:48.072 --> 02:49.373
+Napíšu
+to ještě sem.
+
+02:49.373 --> 02:54.641
+Můžu to napsat jako absolutní
+hodnotu ze sin(Θ) lomenou 2.
+
+02:54.641 --> 02:58.458
+Nyní se podívejme
+na obsah této výseče,
+
+02:58.458 --> 03:02.478
+kterou právě zvýrazňuji
+touhle oranžovou barvou.
+
+03:02.478 --> 03:06.985
+Jak velké části celého kruhu
+se tohle bude rovnat?
+
+03:06.985 --> 03:10.373
+Kdybych obešel celý kruh,
+byl by to úhel 2π,
+
+03:10.373 --> 03:15.427
+takže tohle je Θ lomeno
+2π celého kruhu,
+
+03:15.427 --> 03:17.367
+a my víme, jaký
+je obsah kruhu.
+
+03:17.367 --> 03:19.664
+Tohle je jednotkový
+kruh s poloměrem 1.
+
+03:19.664 --> 03:21.409
+Takže tady bude
+krát obsah kruhu,
+
+03:21.409 --> 03:23.967
+tedy π krát poloměr
+umocněný na druhou,
+
+03:23.967 --> 03:26.666
+ale poloměr je 1,
+takže jen krát π.
+
+03:26.666 --> 03:31.280
+Obsah této výseče
+je tedy Θ lomeno 2.
+
+03:31.280 --> 03:35.529
+Kdybychom chtěli, aby to platilo
+i pro Θ ze čtvrtého kvadrantu,
+
+03:35.529 --> 03:38.900
+můžeme sem dopsat
+absolutní hodnotu,
+
+03:38.900 --> 03:42.002
+protože obsah je
+vždy kladná hodnota.
+
+03:42.002 --> 03:46.469
+Nyní se zaměřme na tento velký
+trojúhelník, který zvýrazním modře.
+
+03:46.469 --> 03:48.639
+To bude
+poměrně přímočaré.
+
+03:48.639 --> 03:53.113
+Obsah je 1/2 krát délka
+základny krát výška.
+
+03:53.113 --> 04:01.403
+Obsah celé této plochy se rovná 1/2
+krát délka základny, což je 1,
+
+04:01.403 --> 04:05.828
+krát výška, což je absolutní
+hodnota z tan(Θ).
+
+04:05.828 --> 04:12.449
+To si můžeme přepsat sem jako
+absolutní hodnota z tan(Θ) lomená 2.
+
+04:12.449 --> 04:18.601
+Jak byste porovnali obsah
+tohoto červeného trojúhelníku,
+
+04:18.601 --> 04:20.451
+který leží uvnitř této výseče,
+
+04:20.451 --> 04:23.811
+a jak byste porovnali obsah této výseče
+s obsahem většího trojúhelníku?
+
+04:23.811 --> 04:28.209
+Je jasné, že obsah červeného trojúhelníku
+je menší nebo roven obsahu výseče
+
+04:28.209 --> 04:33.182
+a že obsah výseče je menší nebo roven
+obsahu velkého modrého trojúhelníku.
+
+04:33.182 --> 04:37.612
+Ve výseči je celý červený
+trojúhelník a navíc ještě tato oblast.
+
+04:37.612 --> 04:43.743
+V modrém trojúhelníku je celá výseč
+a navíc je v něm ještě tato oblast.
+
+04:43.743 --> 04:48.082
+Takže myslím, že z obrázku vidíme,
+že tohle tvrzení je pravdivé.
+
+04:48.082 --> 04:50.860
+Nyní provedu jisté
+algebraické úpravy.
+
+04:50.860 --> 04:53.510
+Nejprve všechno
+vynásobím 2.
+
+04:53.510 --> 04:54.910
+Potom mohu
+napsat,
+
+04:54.910 --> 05:03.034
+že absolutní hodnota ze sin(Θ) je menší
+nebo rovna absolutní hodnotě z Θ,
+
+05:03.034 --> 05:09.561
+která je menší nebo rovna
+absolutní hodnotě z tan(Θ).
+
+05:09.561 --> 05:14.346
+Namísto absolutní
+hodnoty z tan(Θ) napíšu:
+
+05:14.346 --> 05:22.194
+absolutní hodnota ze sin(Θ)
+lomeno absolutní hodnota z cos(Θ).
+
+05:22.194 --> 05:26.767
+To se rovná absolutní
+hodnotě z tan(Θ).
+
+05:26.767 --> 05:28.045
+Tohle jsem
+udělal proto,
+
+05:28.045 --> 05:32.040
+že nyní můžeme vše vydělit
+absolutní hodnotou ze sin(Θ).
+
+05:32.040 --> 05:34.151
+Protože dělíme
+kladným číslem,
+
+05:34.151 --> 05:37.384
+nemusíme obracet
+symboly nerovností.
+
+05:37.384 --> 05:38.977
+Tak to udělejme.
+
+05:38.977 --> 05:44.170
+Tedy tohle vydělím absolutní
+hodnotou ze sin(Θ),
+
+05:44.170 --> 05:49.029
+tohle také vydělím absolutní
+hodnotou ze sin(Θ)
+
+05:49.029 --> 05:53.913
+a taky tohle vydělím
+absolutní hodnotou ze sin(Θ).
+
+05:53.913 --> 05:55.624
+A co mi vyjde?
+
+05:55.624 --> 05:59.077
+Tady mi vyjde 1
+
+05:59.077 --> 06:03.456
+a napravo dostanu 1 lomeno
+absolutní hodnota z cos(Θ).
+
+06:03.456 --> 06:06.196
+Tohle se nám
+pokrátí.
+
+06:06.196 --> 06:11.022
+Nyní ze všeho vezmu
+převrácené hodnoty.
+
+06:11.022 --> 06:13.091
+A když ze všeho bereme
+převrácenou hodnotu,
+
+06:13.091 --> 06:15.852
+symbol nerovnosti
+se obrací.
+
+06:15.852 --> 06:18.974
+Převrácená hodnota
+z 1 je pořád 1.
+
+06:18.974 --> 06:21.103
+A protože beru
+převrácené hodnoty,
+
+06:21.103 --> 06:30.850
+větší nebo rovno absolutní hodnotě
+ze sin(Θ) lomeno absolutní hodnotou z Θ,
+
+06:30.850 --> 06:39.220
+a větší nebo rovno převrácené hodnotě
+z 1 lomeno absolutní hodnotou z cos(Θ),
+
+06:39.220 --> 06:43.750
+a to je absolutní
+hodnota z cos(Θ).
+
+06:43.750 --> 06:46.693
+A zajímá nás pouze
+první a čtvrtý kvadrant,
+
+06:46.693 --> 06:52.662
+Θ se k 0 může blížit z této
+strany nebo z této strany,
+
+06:52.662 --> 06:55.282
+neboli z prvního a
+čtvrtého kvadrantu.
+
+06:55.282 --> 06:58.733
+Když jsme v prvním
+kvadrantu a Θ je kladná,
+
+06:58.733 --> 07:01.108
+sin(Θ) bude
+také kladný.
+
+07:01.108 --> 07:03.449
+Když jsme ve čtvrtém
+kvadrantu a Θ je záporná,
+
+07:03.449 --> 07:07.134
+sin(Θ) bude mít stejné
+znaménko, bude také záporný.
+
+07:07.134 --> 07:09.361
+Tyto absolutní hodnoty
+tak nejsou potřeba.
+
+07:09.361 --> 07:12.622
+V prvním kvadrantu jsou
+sin(Θ) i Θ kladné,
+
+07:12.622 --> 07:14.853
+ve čtvrtém kvadrantu
+je obojí záporné,
+
+07:14.853 --> 07:17.079
+když je vydělíme,
+dostaneme vždy kladné číslo.
+
+07:17.079 --> 07:19.958
+Takže absolutní hodnoty
+mohu smazat.
+
+07:19.958 --> 07:22.169
+Když jsme v prvním
+nebo ve čtvrtém kvadrantu,
+
+07:22.169 --> 07:25.800
+x není záporné,
+a proto ani cos(Θ),
+
+07:25.818 --> 07:29.800
+což je x-ová souřadnice na
+jednotkové kružnici, nebude záporný.
+
+07:29.807 --> 07:33.102
+Takže ani tady nepotřebujeme
+absolutní hodnotu.
+
+07:33.102 --> 07:34.953
+Teď bychom se měli
+na chvíli zastavit,
+
+07:34.953 --> 07:37.683
+protože už jsme
+vlastně skoro hotoví.
+
+07:37.683 --> 07:39.512
+Vytvořili jsme
+si tři funkce.
+
+07:39.512 --> 07:42.442
+Na tohle se můžeme
+dívat jako na f(x) se rovná…
+
+07:42.442 --> 07:44.638
+…jako na f(Θ) rovná se 1,
+
+07:44.638 --> 07:47.882
+g(Θ) se rovná tomuto
+a h(Θ) rovná se tohle.
+
+07:47.882 --> 07:50.011
+A to na intervalu,
+který nás zajímá.
+
+07:50.011 --> 07:55.312
+Řekněme, že jde o −π
+lomeno 2 je menší než Θ
+
+07:55.312 --> 07:57.099
+a to je menší
+než π lomeno 2.
+
+07:57.099 --> 07:59.735
+Na tomto intervalu je
+tohle pravda pro všechna Θ,
+
+07:59.735 --> 08:01.800
+pro která jsou
+naše funkce definované.
+
+08:01.800 --> 08:06.767
+Sin(Θ) lomeno Θ je definované na
+celém intervalu kromě bodu Θ rovno 0.
+
+08:06.767 --> 08:08.726
+Ale protože všude
+jinde je to definované,
+
+08:08.726 --> 08:10.926
+můžeme nyní
+spočítat limitu.
+
+08:10.926 --> 08:16.308
+Můžeme říci, že podle věty
+o dvou policajtech platí,
+
+08:16.308 --> 08:18.173
+že když je to pravda
+na našem intervalu,
+
+08:18.173 --> 08:20.444
+tak také víme,
+že platí následující.
+
+08:20.444 --> 08:23.148
+A toto by si
+zasloužilo fanfáru.
+
+08:23.148 --> 08:36.525
+Limita pro Θ jdoucí k 0 tohoto je větší
+nebo rovno limitě pro Θ jdoucí k 0 tohoto,
+
+08:36.532 --> 08:40.450
+což je to, co nás zajímá,
+tedy sin(Θ) lomeno Θ,
+
+08:40.450 --> 08:49.415
+a to je větší nebo rovno než
+limita pro Θ blížící se k 0 z tohoto.
+
+08:49.415 --> 08:53.560
+Tohle se
+zřejmě rovná 1.
+
+08:53.560 --> 08:55.828
+Tuto limitu
+chceme spočítat.
+
+08:55.828 --> 08:59.205
+A čemu se rovná limita pro
+Θ blížící se k 0 z cos(Θ)?
+
+08:59.205 --> 09:04.438
+Cos(0) je 1 a jde o spojitou
+funkci, a tak se toto rovná 1.
+
+09:04.438 --> 09:09.287
+Tato limita je menší nebo rovna 1
+a také větší nebo rovna 1.
+
+09:09.287 --> 09:13.932
+Tohle tak
+musí být rovno 1.
+
+09:13.932 --> 09:15.079
+A máme hotovo.

@@ -1,0 +1,249 @@
+WEBVTT
+
+00:00.000 --> 00:02.160
+Hmotná částice se pohybuje
+v rovině xy tak,
+
+00:02.160 --> 00:04.610
+že v jakémkoli čase t
+větším nebo rovném 0,
+
+00:04.610 --> 00:10.615
+je jeho polohový vektor roven
+těmto konkrétním složkám x a y,
+
+00:10.615 --> 00:12.108
+které jsou obě funkcí času.
+
+00:12.108 --> 00:16.778
+Jaký je vektor zrychlení
+částice v čase t je rovno 3?
+
+00:16.778 --> 00:20.470
+Naše pozice je tedy
+vektorová funkce.
+
+00:20.470 --> 00:21.894
+Je to funkce
+času.
+
+00:21.894 --> 00:24.032
+Je to vektor.
+
+00:24.032 --> 00:27.769
+Už nám řekli, že složky
+našeho vektoru jsou:
+
+00:27.769 --> 00:32.467
+x je minus 3 krát t na třetí
+plus 4 krát t na druhou
+
+00:32.467 --> 00:37.030
+a složka y odpovídá
+t na třetí plus 2.
+
+00:37.030 --> 00:41.095
+Když mi dáte jakýkoli čas větší než 0,
+dosadím ho sem,
+
+00:41.128 --> 00:43.930
+a vrátím vám odpovídající
+složky x a y.
+
+00:43.930 --> 00:47.289
+Toto je jedna
+forma zápisu vektoru.
+
+00:47.289 --> 00:50.838
+Jiný způsob zápisu,
+který můžete znát,
+
+00:50.838 --> 00:55.221
+je s využíváním jednotkových
+vektorů ve směru os.
+
+00:55.242 --> 00:59.213
+Tedy (minus 3 krát t na třetí mocninu
+plus 4 krát t na druhou)
+
+00:59.213 --> 01:02.180
+krát x-ový
+jednotkový vektor ‚i'
+
+01:02.180 --> 01:05.528
+plus (t na třetí
+mocninu plus 2)
+
+01:05.528 --> 01:09.090
+krát y-ový
+jednotkový vektor ‚j'.
+
+01:09.090 --> 01:11.446
+Toto je pouze
+zápis stejné věci.
+
+01:11.446 --> 01:13.273
+Toto je složka x
+a toto složka y.
+
+01:13.273 --> 01:19.166
+Toto je složka v řádku, toto
+složka ve sloupci, tedy složka y.
+
+01:19.166 --> 01:22.877
+Klíčové poznání zde je,
+že máte polohový vektor
+
+01:22.877 --> 01:25.994
+a vektor rychlosti
+bude jeho derivace.
+
+01:25.994 --> 01:37.021
+Takže v(t) bude
+rovno derivaci r(t).
+
+01:37.021 --> 01:43.932
+A to bude rovno
+derivaci jednotlivých složek.
+
+01:43.932 --> 01:45.684
+Pojďme
+to udělat.
+
+01:45.684 --> 01:50.055
+Pokud budeme derivovat
+složku x podle t,
+
+01:50.055 --> 01:51.867
+použijeme vzorec
+na derivaci mocniny.
+
+01:51.867 --> 01:56.384
+Tedy 3 krát (−3), což je minus 9
+krát t na druhou mocninu.
+
+01:56.384 --> 02:01.431
+A potom přičteme 2 krát 4,
+tedy 8 krát t na prvou.
+
+02:01.431 --> 02:03.380
+Tedy plus
+8 krát t.
+
+02:03.380 --> 02:07.399
+A potom zde
+složka y.
+
+02:07.399 --> 02:13.914
+Derivace t na třetí mocninu
+podle t, je 3 krát t na druhou.
+
+02:13.914 --> 02:18.801
+A derivace 2
+je prostě 0.
+
+02:18.801 --> 02:21.301
+Tedy 3 krát
+t na druhou.
+
+02:21.301 --> 02:24.599
+Pokud chceme najít
+funkci zrychlení,
+
+02:24.599 --> 02:30.009
+vektorovou funkci, která udává
+zrychlení v závislosti na čase,
+
+02:30.009 --> 02:35.944
+musíme zderivovat vektor
+rychlosti podle času.
+
+02:35.944 --> 02:42.712
+A to bude
+rovno...
+
+02:42.712 --> 02:47.781
+Složku x získáme opět
+derivací složky x.
+
+02:47.781 --> 02:51.669
+Jen najdu nějakou barvu,
+kterou jsem ještě nepoužil, třeba zelenou.
+
+02:51.677 --> 02:58.896
+Dostáváme 2 krát (−9),
+což je −18 krát t plus 8,
+
+02:58.896 --> 03:03.076
+což je derivace
+8 krát t, derivováno podle t.
+
+03:03.076 --> 03:07.631
+A potom toto oranžové,
+derivace 8 krát t na druhou.
+
+03:07.631 --> 03:09.702
+Opět tedy vzorec
+na derivaci mocniny.
+
+03:09.702 --> 03:14.742
+2 krát 3 je 6 krát t
+na prvou, tedy 6 krát t.
+
+03:14.742 --> 03:23.591
+Právě jsme dvěma derivacemi tohoto
+polohového vektoru našli funkci,
+
+03:23.591 --> 03:25.760
+která udává zrychlení.
+
+03:25.760 --> 03:28.768
+Nyní ji akorát musíme
+vyhodnotit pro t rovno 3.
+
+03:28.768 --> 03:36.203
+Naše zrychlení v čase t rovno
+3 je rovno následujícímu.
+
+03:36.203 --> 03:46.479
+Zelená část je
+−18 krát 3 plus 8.
+
+03:46.479 --> 03:52.639
+Druhá složka
+je 6 krát 3.
+
+03:52.639 --> 03:54.951
+A jak toto
+zjednodušíme?
+
+03:54.951 --> 04:04.469
+Toto bude rovno
+−54 plus 8.
+
+04:04.469 --> 04:08.635
+Tedy −46.
+
+04:08.635 --> 04:10.933
+A 6 krát 3
+je 18.
+
+04:10.933 --> 04:12.690
+Vypočítal jsem
+to správně?
+
+04:12.690 --> 04:16.189
+Toto je
+−54 plus 8.
+
+04:16.189 --> 04:21.529
+−54 plus 4 je −50
+a plus další 4 je −46.
+
+04:21.548 --> 04:22.889
+Ok, takže
+zde to máte.
+
+04:22.889 --> 04:32.622
+Tedy (−46; 18) je vektor zrychlení
+v čase t rovno 3.

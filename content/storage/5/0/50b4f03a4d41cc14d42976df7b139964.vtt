@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.300 --> 00:04.740
+Nachdem eine spezielle Medizin in eine
+Petrischale voller Bakterien gegeben wurde,
+
+00:04.740 --> 00:10.120
+nimmt die Anzahl der Bakterien in der Schale rapide ab.
+
+00:10.120 --> 00:13.400
+Die Beziehung zwischen der
+vergangenen Zeit t in Sekunden,
+
+00:13.400 --> 00:16.260
+und der Anzahl der Bakterien N(t) in der Petrischale,
+
+00:16.260 --> 00:19.780
+wird von der folgenden Funktion dargestellt.
+
+00:19.780 --> 00:23.920
+Vervollständige den folgenden Satz über
+die Halbwertszeit der Bakterienkultur:
+
+00:23.920 --> 00:28.720
+"Die Anzahl der Bakterien
+halbiert sich alle ___ Sekunden."
+
+00:28.720 --> 00:32.300
+t ist also in Sekunden angegeben.
+
+00:32.300 --> 00:35.420
+Denken wir etwas darüber nach.
+
+00:35.420 --> 00:41.620
+Ich zeichne eine kleine Wertetabelle.
+
+00:41.620 --> 00:45.040
+Wir haben t und N(t).
+
+00:45.040 --> 00:49.020
+Ich fange mit t = 0 am Anfang an.
+
+00:49.020 --> 00:54.040
+Wenn t = 0 ist, dann rechnen wir hier (1/2)^(0/5,5),
+
+00:54.040 --> 00:56.368
+dann haben wir (1/2)^0, was 1 ergibt,
+
+00:56.368 --> 01:02.500
+also haben wir 1000 Bakterien in der Petrischale.
+
+01:02.500 --> 01:06.060
+An welchem Punkt multiplizieren wir mit 1/2?
+
+01:06.060 --> 01:12.080
+An welchem Punkt multiplizieren wir 1000 mit 1/2?
+
+01:12.080 --> 01:14.020
+Um 1000 mit 1/2 zu multiplizieren,
+
+01:14.020 --> 01:16.780
+muss dieser Exponent hier 1 sein,
+
+01:16.780 --> 01:19.980
+wann ist dieser Exponent hier also 1?
+
+01:19.980 --> 01:26.160
+Der ganze Exponent wird 1, wenn t = 5,5 Sekunden ist.
+
+01:26.160 --> 01:30.500
+Also bei t = 5,5 Sekunden.
+
+01:30.500 --> 01:33.080
+Wenn wir nochmal 5,5 Sekunden warten,
+
+01:33.080 --> 01:36.060
+also 11 Sekunden haben,
+
+01:36.060 --> 01:42.880
+dann rechnen wir 1000 ⋅ (1/2)^2, da 11/5,5 = 2 ist,
+
+01:42.880 --> 01:45.000
+also haben wir (1/2)^2,
+
+01:45.000 --> 01:48.660
+und rechnen ⋅ (1/2) ⋅ (1/2).
+
+01:48.660 --> 01:53.300
+Alle 5,5 Sekunden haben wir
+also die Hälfte der Bakterien,
+
+01:53.300 --> 01:55.720
+die wir vor 5,5 Sekunden hatten.
+
+01:55.720 --> 02:01.100
+Die Anzahl der Bakterien halbiert
+sich also alle 5,5 Sekunden.
+
+02:01.100 --> 02:06.060
+Man sieht es hier in der Funktionsdefinition,
+
+02:06.060 --> 02:11.300
+aber es ist nützlich, es durchzuarbeiten
+und herauszufinden, warum es Sinn ergibt.
+
+02:11.300 --> 02:14.160
+Lass uns weitere Beispiele machen.
+
+02:14.160 --> 02:21.460
+Das chemische Element Einsteinium-253
+verliert von Natur aus im Laufe der Zeit an Masse.
+
+02:21.460 --> 02:27.840
+Eine Probe von Einsteinium-253 hatte bei unserer
+Messung eine anfängliche Masse von 320 Gramm.
+
+02:27.840 --> 02:30.411
+Die Beziehung zwischen der
+vergangenen Zeit t in Tagen,
+
+02:30.420 --> 02:33.020
+und der Masse M(t) in Gramm,
+die in der Probe übrig bleibt,
+
+02:33.020 --> 02:35.260
+wird von der folgenden Funktion dargestellt.
+
+02:35.260 --> 02:39.100
+Vervollständige den folgenden Satz über die Änderungsrate der Masse in der Probe:
+
+02:39.100 --> 02:46.260
+"Die Probe verliert alle ____ Tage 87,5% ihrer Masse."
+
+02:46.260 --> 02:52.200
+In diesem Fall geben wir die Änderung in Prozent an.
+
+02:52.200 --> 03:00.100
+Wenn wir 87,5% verlieren, bedeutet das,
+
+03:00.100 --> 03:09.120
+dass 12,5% übrig bleiben.
+
+03:09.120 --> 03:13.020
+Was dasselbe ist, wie zu sagen,
+
+03:13.020 --> 03:17.860
+dass du 0,125% deiner Masse hast.
+
+03:17.860 --> 03:34.000
+Wir fragen uns jetzt also, wie lange es dauert, bis die
+Probe 0,125 ihrer ursprünglichen Masse erreicht hat.
+
+03:34.000 --> 03:36.660
+Wir könnten wie vorhin vorgehen,
+
+03:36.660 --> 03:39.700
+du siehst die 0,125 hier,
+
+03:39.700 --> 03:41.260
+ich könnte also eine Tabelle zeichnen,
+
+03:41.260 --> 03:44.620
+aber ich denke, dass du weißt, wie die Lösung aussieht.
+
+03:44.620 --> 03:47.000
+Ich zeichne trotzdem eine Tabelle.
+
+03:47.680 --> 03:51.060
+Wir haben t und M(t).
+
+03:51.060 --> 03:55.520
+Wenn t = 0 ist, dann ist M(t) = 320.
+
+03:55.520 --> 04:05.540
+Zu welchem Zeitpunkt rechnen wir M(t) = 320 ⋅ 0,125?
+
+04:05.540 --> 04:22.820
+Denn von diesem Punkt zu diesem
+verlieren wir 87,5% an Masse,
+
+04:22.820 --> 04:27.320
+wir haben 0,875 verloren, um 0,125 zu erreichen.
+
+04:27.320 --> 04:31.040
+Du könntest also 0,125^1 benutzen.
+
+04:31.040 --> 04:34.920
+Welches t brauchen wir,
+damit dieser Exponent gleich 1 ist?
+
+04:34.920 --> 04:39.260
+t muss 61,4 sein.
+
+04:39.260 --> 04:44.240
+t ist in Tagen angegeben, also 61,4 Tage.
+
+04:44.240 --> 04:48.600
+Du denkst jetzt vielleicht, dass die
+Antwort immer im Nenner steht,
+
+04:48.600 --> 04:50.160
+aber ich ermutige dich, darüber nachzudenken,
+
+04:50.160 --> 04:51.400
+den darum geht es in diesen Aufgaben.
+
+04:51.400 --> 04:52.960
+Wenn du einfach nur das Muster wiederholst,
+
+04:52.960 --> 04:55.540
+wird das nicht sehr hilfreich sein.
+
+04:55.540 --> 04:57.560
+Kommen wir zu einem weiteren Beispiel.
+
+04:57.560 --> 05:02.220
+Howard beobachtet, wie die Anzahl der Äste
+an seinem Baum im Laufe der Zeit wächst.
+
+05:02.220 --> 05:05.360
+Die Beziehung zwischen der
+vergangenen Zeit t in Jahren,
+
+05:05.360 --> 05:06.960
+seit Howard begonnen hat, den Baum zu beobachten,
+
+05:06.960 --> 05:08.460
+und der Anzahl seiner Äste N(t),
+
+05:08.467 --> 05:10.104
+wird von der folgenden Funktion dargestellt.
+
+05:10.104 --> 05:13.800
+Vervollständige den folgenden Satz über
+die Änderungsrate in der Anzahl der Äste.
+
+05:13.800 --> 05:20.380
+"Howards Baum bekommt
+alle ____ Jahre 4/5 mehr Äste."
+
+05:20.380 --> 05:36.360
+4/5 mehr zu bekommen,
+ist dasselbe wie mit 9/5 zu multiplizieren,
+
+05:36.360 --> 05:39.140
+denn du bekommst 4/5 von dem, was du bereits hast,
+
+05:39.140 --> 05:41.380
+du bekommst nicht einfach die Zahl 4/5 hinzu,
+
+05:41.380 --> 05:43.660
+du bekommst 4/5 von dem, was du bereits hast.
+
+05:43.660 --> 05:51.680
+Das ist also dasselbe, wie mit
+1 + 4/5 bzw. 9/5 zu multiplizieren.
+
+05:51.680 --> 05:55.380
+4/5 hinzuzubekommen ist
+dasselbe wie mit 9/5 zu multiplizieren.
+
+05:55.380 --> 05:59.460
+Wenn ich 5 Jahre alt bin und
+4/5 meines Alters hinzubekomme,
+
+05:59.460 --> 06:03.580
+dann bekomme ich 4 Jahre hinzu und bin 9 Jahre alt,
+
+06:03.580 --> 06:07.460
+was bedeutet, dass ich mein
+Alter mit 9/5 multipliziert habe.
+
+06:07.460 --> 06:12.680
+Howards Baum wächst also mit
+einem Faktor von 9/5 alle ____ Jahre?
+
+06:12.680 --> 06:15.960
+Du siehst hier unsere 9/5,
+
+06:15.960 --> 06:18.280
+du hast also ein Wachstum von 9/5,
+
+06:18.280 --> 06:23.900
+jedes Mal, wenn t ein Vielfaches von 7,3 ist.
+
+06:23.900 --> 06:27.200
+Anders gesagt: Jedes Mal, wenn t um 7,3 wächst,
+
+06:27.200 --> 06:31.800
+dann wächst dieser Exponent um ein Ganzes,
+
+06:31.800 --> 06:35.860
+also kannst du es wieder als
+Multiplikation mit 9/5 betrachten.
+
+06:35.860 --> 06:41.960
+Howards Baum bekommt also
+alle 7,3 Jahre 4/5 mehr Äste.

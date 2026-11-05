@@ -1,0 +1,230 @@
+WEBVTT
+
+00:00.160 --> 00:06.800
+Radiokarbon ist ein Element, das alle 5730
+Jahre exakt die Hälfte seiner Masse verliert.
+
+00:06.800 --> 00:11.060
+Die Masse einer Probe von Radiokarbon kann
+von einer Funktion M dargestellt werden,
+
+00:11.060 --> 00:14.360
+die von ihrem Alter t (in Jahren) abhängig ist.
+
+00:14.360 --> 00:20.360
+Wir messen, dass die ursprüngliche Masse
+einer Probe Radiokarbon 741 Gramm wiegt.
+
+00:20.360 --> 00:24.120
+Schreibe eine Funktion auf, die die
+Masse der Radiokarbon-Probe darstellt,
+
+00:24.120 --> 00:27.780
+die t Jahre nach der
+ursprünglichen Messung übrig bleibt.
+
+00:27.780 --> 00:31.140
+Pausiere das Video, und versuche,
+ob du diese Funktion M finden kannst,
+
+00:31.140 --> 00:33.060
+die eine Funktion von t ist,
+
+00:33.067 --> 00:36.457
+also den Jahren seit der ursprünglichen Messung.
+
+00:36.457 --> 00:37.908
+Jetzt lösen wir es gemeinsam.
+
+00:37.908 --> 00:42.820
+Ich fange immer gern mit einer Wertetabelle an,
+um einen Überblick zu bekommen.
+
+00:42.820 --> 00:48.600
+t steht dafür, wie viele Jahre seit der
+ursprünglichen Messung vergangen sind,
+
+00:48.600 --> 00:53.620
+und M(t) für die Masse, die übrig bleibt.
+
+00:53.620 --> 01:00.540
+Wir wissen, dass die ursprüngliche Masse
+einer Probe Radiokarbon 741 Gramm hat,
+
+01:00.540 --> 01:06.200
+also haben wir bei t = 0 eine Masse von 741.
+
+01:06.200 --> 01:09.720
+Was wäre noch ein interessanter t-Wert?
+
+01:09.720 --> 01:13.440
+Wir wissen, dass alle 5730 Jahre,
+
+01:13.440 --> 01:16.900
+exakt die Hälfte unsere Masse
+an Radiokarbon verloren geht.
+
+01:16.900 --> 01:19.820
+Alle 5730 Jahre.
+
+01:19.820 --> 01:24.520
+Also schauen wir uns an,
+was passiert, wenn t = 5730 ist.
+
+01:24.521 --> 01:26.761
+Wir werden die Hälfte unserer Masse verlieren,
+
+01:26.761 --> 01:30.441
+also multiplizieren wir diesen Wert mit 1/2.
+
+01:30.441 --> 01:34.702
+Wir rechnen also 741 ⋅ 1/2.
+
+01:34.702 --> 01:37.244
+Ich rechne es noch nicht aus.
+
+01:37.244 --> 01:42.500
+Wenn dann weitere 5730 Jahre vergangen sind,
+
+01:42.500 --> 01:45.980
+schreibe ich einfach 2 ⋅ 5730 auf,
+
+01:45.986 --> 01:47.589
+ich könnte ausrechnen, was es ergibt.
+
+01:47.589 --> 01:51.380
+Es ergibt 11460.
+
+01:51.380 --> 01:54.140
+Aber ich schreibe einfach 2 ⋅ 5730.
+
+01:54.140 --> 02:00.780
+Es ergibt 11460.
+
+02:00.780 --> 02:02.280
+Aber ich lasse es so stehen.
+
+02:02.280 --> 02:04.440
+Dann multiplizieren wir diesen Wert mit 1/2.
+
+02:04.440 --> 02:10.180
+Also rechnen wir 741 ⋅ 1/2 ⋅ 1/2.
+
+02:10.180 --> 02:13.660
+Wir multiplizieren also wieder mit 1/2.
+
+02:13.660 --> 02:20.120
+Das ist also dasselbe wie 741 ⋅ (1/2)².
+
+02:20.120 --> 02:25.060
+Wenn nochmal 5730 Jahre vergehen,
+
+02:25.062 --> 02:28.695
+rechnen wir 3 ⋅ 5730.
+
+02:28.695 --> 02:31.760
+Dann multiplizieren wir den vorherigen Wert mit 1/2.
+
+02:31.760 --> 02:38.900
+Wir rechnen also 741 ⋅ (1/2)³.
+
+02:38.900 --> 02:41.720
+Du erkennst wahrscheinlich das Muster.
+
+02:41.720 --> 02:43.940
+Egal, wie viele Halbwertszeiten wir haben,
+
+02:43.940 --> 02:47.358
+wir setzen die Anzahl in den Exponenten von 1/2,
+
+02:47.360 --> 02:51.040
+und multiplizieren mit unserer ursprünglichen Masse.
+
+02:51.040 --> 02:53.100
+Hier ist eine Halbwertszeit vorbei,
+
+02:53.105 --> 02:55.543
+hier haben wir zwei, wir haben den Exponenten 2,
+
+02:55.543 --> 03:00.580
+drei Halbwertszeiten, wir multiplizieren dreimal mit 1/2.
+
+03:00.580 --> 03:03.640
+Was ist ein allgemeiner Weg, um M(t) auszudrücken?
+
+03:03.640 --> 03:09.440
+M(t) ist unser ursprünglicher Wert 741,
+
+03:09.440 --> 03:13.580
+und du erkennst vielleicht schon, dass es
+sich um eine Exponentialfunktion handelt,
+
+03:13.580 --> 03:16.060
+wir multiplizieren mit dieser Zahl,
+
+03:16.063 --> 03:17.878
+die wir als unsere Basis bezeichnen können,
+
+03:17.878 --> 03:20.235
+so oft, wie Halbwertszeiten vorbeigegangen sind.
+
+03:20.235 --> 03:22.719
+Woher wissen wir, wie viele
+Halbwertszeiten vorbeigegangen sind?
+
+03:22.720 --> 03:27.780
+Wir könnten t nehmen und
+durch die Halbwertszeit dividieren.
+
+03:27.780 --> 03:29.440
+Wir versuchen es mal.
+
+03:29.446 --> 03:31.804
+Wenn t = 0 ist, haben wir (1/2)^0,
+
+03:31.804 --> 03:34.880
+was 1 ergibt, also erhalten wir einfach nur 741.
+
+03:34.880 --> 03:37.100
+Wenn t = 5730 ist,
+
+03:37.100 --> 03:40.540
+dann wird dieser Exponent 1, was wir so wollen.
+
+03:40.540 --> 03:43.440
+Wir multiplizieren einfach nur
+unseren Anfangswert einmal mit 1/2.
+
+03:43.440 --> 03:48.280
+Wenn t = 2 ⋅ 5730 ist,
+
+03:48.280 --> 03:50.099
+dann ist dieser Exponent 2,
+
+03:50.100 --> 03:53.980
+und wir multiplizieren zweimal mit 1/2, also mit 1/2².
+
+03:53.980 --> 03:56.658
+Und dazwischen funktioniert es auch.
+
+03:56.658 --> 03:58.701
+Wenn wir einen Bruchteil einer Halbwertszeit haben,
+
+03:58.701 --> 04:01.696
+erhalten wir einen Exponenten, der nicht ganzzahlig ist,
+
+04:01.696 --> 04:03.763
+was auch funktioniert.
+
+04:03.763 --> 04:05.423
+Das ist also unsere Funktion.
+
+04:05.423 --> 04:09.100
+Wir sind fertig.
+
+04:09.100 --> 04:11.440
+Wir haben unsere Funktion M geschrieben,
+
+04:11.440 --> 04:16.440
+die die Masse von Radiokarbon t Jahre
+nach der ursprünglichen Messung darstellt.

@@ -1,0 +1,511 @@
+WEBVTT
+
+00:00.046 --> 00:03.004
+La oss tenke på hva funksjoner egentlig gjør, og deretter
+
+00:03.004 --> 00:06.058
+vi skal tenke på ideen om en invers til en funksjon.
+
+00:06.058 --> 00:08.044
+Så la oss starte med en ganske grei funksjon.
+
+00:08.044 --> 00:13.050
+La oss si at f av x er lik 2x pluss 4.
+
+00:13.050 --> 00:20.033
+Og så hvis jeg tar f på 2, er f av to kommer til å være lik 2 ganger
+
+00:20.033 --> 00:24.055
+2 4 pluss, som er 4 pluss 4, som er 8.
+
+00:24.055 --> 00:32.046
+Jeg kunne ta f på 3, som er 2 ganger 3 pluss 4,
+
+00:32.046 --> 00:35.092
+som er lik 10.
+
+00:35.092 --> 00:36.096
+6 pluss 4.
+
+00:36.096 --> 00:38.028
+Så la oss tenke på det i et litt mer
+
+00:38.028 --> 00:39.079
+av en abstrakt forstand.
+
+00:39.079 --> 00:42.099
+Så det er et sett av ting som jeg kan skrive inn i denne funksjonen.
+
+00:42.099 --> 00:44.070
+Du kan allerede være kjent med at forestillingen.
+
+00:44.070 --> 00:46.004
+Det er domenet.
+
+00:46.004 --> 00:48.075
+Settet av alle de tingene som jeg kan innspill til det
+
+00:48.075 --> 00:52.075
+funksjon, som er domenet.
+
+00:52.075 --> 00:57.028
+Og i det domenet, er 2 sitter der, har du 3 over
+
+00:57.028 --> 00:59.070
+der, ganske mye du kan innspill ethvert reelt tall
+
+00:59.070 --> 01:00.085
+inn i denne funksjonen.
+
+01:00.085 --> 01:02.081
+Så dette kommer til å være alle reelle, men vi gjør det til en
+
+01:02.081 --> 01:05.015
+hyggelig inneholdt satt her bare for å hjelpe deg med å visualisere det.
+
+01:05.015 --> 01:07.082
+Nå, når du bruker funksjonen, la oss tenke på
+
+01:07.082 --> 01:10.000
+det betyr å ta f 2.
+
+01:10.000 --> 01:13.090
+Vi innrykker et nummer 2, og deretter funksjonen er
+
+01:13.090 --> 01:15.079
+skriver ut i nummer 8.
+
+01:15.079 --> 01:19.026
+Det er kartlegging oss 2-8.
+
+01:19.026 --> 01:22.048
+Så la oss gjøre et annet sett her av alle mulige verdier
+
+01:22.048 --> 01:23.093
+at min funksjon kan ta på.
+
+01:27.078 --> 01:30.029
+Og vi kan kalle det området.
+
+01:30.029 --> 01:33.031
+Det er mer formelle måter å snakke om dette, og det er en
+
+01:33.031 --> 01:36.064
+mye strengere diskusjon om dette senere, spesielt i
+
+01:36.064 --> 01:39.006
+lineær algebra spillelisten, men dette er alle de forskjellige
+
+01:39.006 --> 01:40.020
+verdier jeg kan ta på.
+
+01:40.020 --> 01:44.054
+Så hvis jeg tar tallet 2 fra vårt domene, innspill jeg den inn i
+
+01:44.054 --> 01:48.026
+funksjon, vi får kartlagt til nummer 8.
+
+01:48.026 --> 01:50.026
+Så la oss la meg trekke den ut.
+
+01:50.026 --> 01:56.020
+Så vi går fra 2 til tallet 8 rett der.
+
+01:56.020 --> 01:59.006
+Og det blir gjort av funksjonen.
+
+01:59.006 --> 02:01.020
+Funksjonen gjør at kartlegging.
+
+02:01.020 --> 02:05.018
+Denne funksjonen er kartlegging oss 2-8.
+
+02:05.018 --> 02:09.018
+Denne retten her, er at lik f 2.
+
+02:09.018 --> 02:10.008
+Samme idé.
+
+02:10.008 --> 02:18.081
+Du starter med 3, 3 blir kartlagt av funksjonen til 10 år.
+
+02:18.081 --> 02:20.047
+Det er å skape en forening.
+
+02:20.047 --> 02:25.031
+Funksjonen er kartlegging oss 3-10.
+
+02:25.031 --> 02:28.040
+Nå reiser dette et interessant spørsmål.
+
+02:28.040 --> 02:32.084
+Er det en måte å komme tilbake fra 8 til 2, eller er det en
+
+02:32.084 --> 02:35.021
+veien å gå tilbake fra 10 til 3?
+
+02:35.021 --> 02:37.034
+Eller er det noen annen funksjon?
+
+02:37.034 --> 02:39.087
+Er det noen annen funksjon, kan vi kalle at den inverse
+
+02:39.087 --> 02:41.065
+av f, vil som tar oss tilbake?
+
+02:41.065 --> 02:44.025
+Er det noen annen funksjon som tar
+
+02:44.025 --> 02:46.019
+oss fra 10 til 3?
+
+02:46.019 --> 02:48.096
+Vi kaller det den inverse av f, og vi vil bruke det som
+
+02:48.096 --> 02:52.078
+notasjon, og det vil ta oss tilbake 10-3.
+
+02:52.078 --> 02:54.036
+Er det en måte å gjøre det?
+
+02:54.036 --> 02:58.006
+Vil det samme inverse av f, vil det ta oss tilbake fra -
+
+02:58.006 --> 03:02.028
+hvis vi bruker 8 til det - vil som tar oss tilbake til 2?
+
+03:07.022 --> 03:10.075
+Nå virker alt dette veldig abstrakt og vanskelig.
+
+03:10.075 --> 03:13.099
+Det du finner er det er faktisk veldig enkelt å løse for
+
+03:13.099 --> 03:17.003
+denne inverse av f, og jeg tror når vi løse for det, vil det
+
+03:17.003 --> 03:18.053
+gjøre det klart hva jeg snakker om.
+
+03:18.053 --> 03:20.081
+At funksjonen tar deg 2-8, den inverse vil
+
+03:20.081 --> 03:23.036
+ta oss tilbake 8-2.
+
+03:23.036 --> 03:25.046
+Så for å tenke på det, la oss bare definere - la oss bare
+
+03:25.046 --> 03:27.078
+sier y er lik f av x.
+
+03:30.062 --> 03:33.050
+Så y er lik f av x, er lik 2x pluss 4.
+
+03:33.050 --> 03:39.011
+Så jeg kan skrive akkurat y er lik 2x pluss 4, og denne gang
+
+03:39.011 --> 03:40.041
+Igjen, dette er vår funksjon.
+
+03:40.041 --> 03:42.046
+Du gir meg en x, det vil gi meg en y.
+
+03:42.046 --> 03:43.099
+Men vi ønsker å gå den andre veien rundt.
+
+03:43.099 --> 03:46.075
+Vi ønsker å gi deg ja og få en x.
+
+03:46.075 --> 03:50.049
+Så alt vi har å gjøre er å løse for x i form av y.
+
+03:50.049 --> 03:51.015
+Så la oss gjøre det.
+
+03:51.015 --> 03:54.046
+Hvis vi trekker 4 fra begge sider av denne ligningen - la meg
+
+03:54.046 --> 03:57.034
+bytte farger - hvis vi trekker 4 fra begge sider av denne
+
+03:57.034 --> 04:02.031
+likningen, får vi y minus 4 er lik 2x, og hvis vi
+
+04:02.031 --> 04:08.027
+dele begge sider av denne ligningen med 2, får vi y over 2
+
+04:08.027 --> 04:12.075
+minus 2-4 delt på 2 er 2 - er lik x.
+
+04:12.075 --> 04:15.015
+Eller hvis vi bare ønsker å skrive det på den måten, kan vi bare bytte
+
+04:15.015 --> 04:20.010
+sider, får vi x er lik 1/2y-- samme som
+
+04:20.010 --> 04:23.018
+y over 2 - minus 2.
+
+04:23.018 --> 04:26.026
+Så det vi har her er en funksjon av y som
+
+04:26.026 --> 04:28.075
+gir oss en x, som er nøyaktig hva vi ønsket.
+
+04:28.075 --> 04:33.050
+Vi ønsker en funksjon av disse verdiene som kartet tilbake til en x.
+
+04:33.050 --> 04:38.010
+Så vi kan kalle dette - vi kunne si at dette er lik -
+
+04:38.010 --> 04:41.083
+Jeg skal gjøre det i samme farge - dette er lik f inverse
+
+04:41.083 --> 04:43.056
+som en funksjon av y.
+
+04:43.056 --> 04:45.007
+Eller la meg bare skrive det litt renere.
+
+04:45.007 --> 04:49.005
+Vi kan si f inverse som en funksjon av y - så vi kan ha
+
+04:49.005 --> 04:52.064
+10 eller 8 - så nå området er nå domenet for f inverse.
+
+04:52.064 --> 04:58.012
+f inverse som en funksjon av y er lik 1/2y minus 2.
+
+04:58.012 --> 05:00.056
+Så alt vi gjorde er at vi startet med vår opprinnelige funksjon, y
+
+05:00.056 --> 05:05.030
+er lik 2x pluss 4, løste vi for - over her, har vi
+
+05:05.030 --> 05:07.087
+løst for y i form av x - da vi bare gjøre en liten bit av
+
+05:07.087 --> 05:12.025
+algebra, løse for x i form av y, og vi sier at det er
+
+05:12.025 --> 05:15.057
+våre inverse som en funksjon av y.
+
+05:15.057 --> 05:17.037
+Som er rett over her.
+
+05:17.037 --> 05:19.056
+Og så, hvis vi, du vet, du kan si dette - du kan
+
+05:19.056 --> 05:22.063
+erstatte y med en a, ab, en x, hva du vil gjøre,
+
+05:22.063 --> 05:26.024
+så da vi bare kan endre navnet på y som x.
+
+05:26.024 --> 05:29.000
+Så hvis du putter en x inn i denne funksjonen, vil du få f
+
+05:29.000 --> 05:34.066
+invers av x er lik 1/2x minus 2.
+
+05:34.066 --> 05:38.033
+Så alt du gjør, løser du for x, og deretter bytte y og
+
+05:38.033 --> 05:39.072
+x, hvis du ønsker å gjøre det på den måten.
+
+05:39.072 --> 05:41.024
+Det er den enkleste måten å tenke på det.
+
+05:41.024 --> 05:44.011
+Og en ting jeg vil påpeke er hva som skjer når du
+
+05:44.011 --> 05:46.025
+grafen til funksjonen og den inverse.
+
+05:46.025 --> 05:48.042
+Så la meg bare gjøre en liten rask og skitten
+
+05:48.042 --> 05:50.016
+grafen til høyre her.
+
+05:50.016 --> 05:52.018
+Og så skal jeg gjøre en haug med eksempler på faktisk løse
+
+05:52.018 --> 05:53.057
+for invers, men jeg egentlig bare ville gi
+
+05:53.057 --> 05:55.002
+deg den generelle ideen.
+
+05:55.002 --> 05:57.000
+Funksjonen tar deg fra domenet til området, den
+
+05:57.000 --> 05:59.056
+inverse vil ta deg fra det punktet tilbake til den opprinnelige
+
+05:59.056 --> 06:01.081
+verdi, hvis den eksisterer.
+
+06:01.081 --> 06:04.050
+Så hvis jeg skulle graf disse - bare la meg trekke litt
+
+06:04.050 --> 06:08.079
+koordinere aksen akkurat her, tegne en liten bit av en
+
+06:08.079 --> 06:12.004
+koordinere aksen til høyre der.
+
+06:12.004 --> 06:16.062
+Denne første funksjonen, 2x pluss 4, er dens y avskjære kommer til å bli
+
+06:16.062 --> 06:24.051
+1, 2, 3, 4, akkurat som det, og deretter dens skråningen vil
+
+06:24.051 --> 06:25.061
+se slik ut.
+
+06:25.061 --> 06:31.047
+Den har en helling på 2, så det vil se omtrent slik - dens graf
+
+06:31.047 --> 06:33.087
+vil se - la meg gjøre det litt penere enn det -
+
+06:33.087 --> 06:36.039
+det vil se noe sånt.
+
+06:36.039 --> 06:38.044
+Det er det som fungerer ser ut.
+
+06:38.044 --> 06:40.038
+Hvordan ser denne funksjonen ut?
+
+06:40.038 --> 06:43.068
+Hvordan ser den inverse funksjonen lignende, som en funksjon av x?
+
+06:43.068 --> 06:46.098
+Husk vi løst for x, og da vi byttet den x
+
+06:46.098 --> 06:47.089
+og y, i hovedsak.
+
+06:47.089 --> 06:51.056
+Vi kan si nå at y er lik f inverse av x.
+
+06:51.056 --> 06:56.039
+Så vi har en y-skjæringspunktet for negative 2, 1, 2, og
+
+06:56.039 --> 07:00.014
+Nå skråningen er 1 / 2.
+
+07:00.014 --> 07:02.023
+Skråningen ser slik ut.
+
+07:02.023 --> 07:04.012
+La meg se om jeg kan tegne det.
+
+07:04.012 --> 07:08.050
+Skråningen ser - eller linjen ser noe sånt.
+
+07:08.050 --> 07:10.017
+Og hva er sammenhengen her?
+
+07:10.017 --> 07:12.006
+Jeg mener, du vet, disse ser slags relatert, ser det
+
+07:12.006 --> 07:14.007
+som de er reflektert om noe.
+
+07:14.007 --> 07:15.099
+Det blir litt mer klart hva de er reflektert
+
+07:15.099 --> 07:19.052
+om hvis vi trekker linjen y er lik x.
+
+07:19.052 --> 07:22.025
+Så linjen y er lik x ser ut som.
+
+07:22.025 --> 07:23.042
+Jeg skal gjøre det som en stiplet linje.
+
+07:29.074 --> 07:32.062
+Og du kan se, har du funksjon og dens inverse,
+
+07:32.062 --> 07:36.077
+de er reflektert om linjen y er lik x.
+
+07:36.077 --> 07:39.010
+Og forhåpentligvis gjør den forstand her.
+
+07:39.010 --> 07:41.032
+Fordi over her, på denne linjen, la oss ta
+
+07:41.032 --> 07:42.052
+et enkelt eksempel.
+
+07:42.052 --> 07:49.061
+Vår funksjon når du tar 0 - så f fra 0 er lik 4.
+
+07:49.061 --> 07:54.012
+Vår funksjon er å kartlegge 0-4.
+
+07:54.012 --> 08:00.005
+Den inverse funksjonen, hvis du tar f inverse av 4, f
+
+08:00.005 --> 08:02.092
+inverse av 4 er lik 0.
+
+08:02.092 --> 08:08.012
+Eller den inverse funksjonen er kartlegging oss 4-0.
+
+08:08.012 --> 08:10.020
+Hvilket er akkurat hva vi forventet.
+
+08:10.020 --> 08:14.072
+Funksjonen tar oss fra x til y verden, og da vi
+
+08:14.072 --> 08:17.024
+swap det var vi å bytte ut x og y.
+
+08:17.024 --> 08:18.006
+Vi ville ta den inverse.
+
+08:18.006 --> 08:21.005
+Og det er derfor det er reflektert rundt y lik x.
+
+08:21.005 --> 08:24.002
+Så dette eksempelet at jeg bare viste deg akkurat her, funksjon
+
+08:24.002 --> 08:30.006
+tar deg 0-4 - kanskje jeg burde gjøre det i funksjonen
+
+08:30.006 --> 08:35.080
+farge - så funksjonen tar deg 0-4, det er
+
+08:35.080 --> 08:39.067
+funksjon f av 0 er 4, ser du at akkurat der, så det går
+
+08:39.067 --> 08:42.054
+0-4, og deretter den inverse tar oss
+
+08:42.054 --> 08:45.083
+tilbake 4-0.
+
+08:45.083 --> 08:49.037
+Så f inverse tar oss tilbake 4-0.
+
+08:49.037 --> 08:50.042
+Du så at akkurat der.
+
+08:50.042 --> 08:55.075
+Når du vurderer fire her, 1 / 2 ganger 4 minus 2 er 0.
+
+08:55.075 --> 08:57.073
+De neste par videoer vi vil gjøre en haug med eksempler slik at du
+
+08:57.073 --> 09:00.017
+virkelig forstå hvordan å løse disse og er i stand til å gjøre
+
+09:00.017 --> 09:05.000
+øvelsene på vår søknad for dette.

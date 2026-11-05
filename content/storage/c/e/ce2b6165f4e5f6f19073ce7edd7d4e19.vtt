@@ -1,0 +1,669 @@
+WEBVTT
+
+00:00.630 --> 00:05.923
+Miután átmentél a manó hídján, és megmentetted
+a királyfit vagy a királylányt,
+
+00:05.923 --> 00:10.060
+visszaviszed őt az apjához, a királyhoz.
+
+00:10.060 --> 00:13.919
+A király olyan boldog,
+hogy visszaviszed neki a fiát vagy a lányát,
+
+00:13.919 --> 00:17.430
+hogy egy villásreggelit akar
+adni a tiszteletedre.
+
+00:17.430 --> 00:19.430
+De van egy kis problémája
+
+00:19.430 --> 00:20.960
+a villásreggeli megrendezésével.
+
+00:20.960 --> 00:27.991
+Ki akarja találni, mennyi
+süteményt kellene rendelnie.
+
+00:27.991 --> 00:29.050
+Semennyit sem akar
+elpazarolni,
+
+00:29.050 --> 00:31.831
+de biztos akar lenni benne,
+hogy mindenki eleget ehet.
+
+00:31.831 --> 00:33.260
+Azt mondod:
+– Mi a probléma?
+
+00:33.260 --> 00:34.153
+A király azt mondja:
+– Nos, tudom,
+
+00:34.153 --> 00:37.066
+hogy a felnőttek nem ugyanannyi
+süteményt esznek meg, mint a gyerekek,
+
+00:37.066 --> 00:38.450
+és azt is tudom, hogy a királyságomban
+
+00:38.450 --> 00:40.120
+egy felnőtt mindig ugyanannyi
+süteményt fog megenni,
+
+00:40.120 --> 00:42.690
+és egy gyerek is mindig ugyanannyi
+darabot fog megenni.
+
+00:42.690 --> 00:45.495
+Azt mondod: - Király, milyen információt
+tudsz adni nekem?
+
+00:45.495 --> 00:47.130
+Lehet, hogy tudok segíteni egy kicsit.
+
+00:47.130 --> 00:50.110
+Nagyon magabiztosnak érzed magad
+a manóval történtek után.
+
+00:50.110 --> 00:53.001
+Azt mondja: – Tudom, hogy
+a legutóbbi partin
+
+00:53.001 --> 01:01.830
+500 felnőtt és 200 gyerek volt,
+
+01:01.830 --> 01:10.220
+és összesen 2900 süteményt
+ettek meg.
+
+01:10.220 --> 01:12.094
+Azt mondod: – Oké, ez érdekes,
+
+01:12.094 --> 01:14.110
+de szerintem egy kicsit több
+információra lenne szükségem.
+
+01:14.110 --> 01:15.160
+Szerveztél már partit korábban?
+
+01:15.160 --> 01:16.250
+A király azt mondja:
+– Természetesen igen,
+
+01:16.250 --> 01:17.407
+szeretek partit tartani.
+
+01:17.407 --> 01:19.090
+– És mi történt az előző partin?
+
+01:19.090 --> 01:24.840
+Azt mondja: – Nos, azon is 500 felnőtt volt,
+
+01:24.840 --> 01:29.162
+és 300 gyerek.
+
+01:29.162 --> 01:31.180
+Te azt mondod: – És mennyi süteményt
+ettek meg azon a bulin?
+
+01:31.180 --> 01:37.200
+Ő azt válaszolja: – Tudjuk, hogy
+3100 sütemény fogyott el.
+
+01:37.200 --> 01:38.750
+Bizsergető érzés fog el,
+
+01:38.750 --> 01:41.682
+mert bevethető itt egy kis algebra.
+
+01:41.682 --> 01:42.760
+Azt mondod: – Rendben, hadd lássam!
+
+01:42.760 --> 01:43.690
+Mit kell kiszámolnunk?
+
+01:43.690 --> 01:48.260
+Ki kell számolnunk, hogy egy felnőtt
+átlagosan mennyi süteményt eszik meg,
+
+01:48.260 --> 01:56.750
+tehát az egy felnőttre jutó
+sütemények számát.
+
+01:56.750 --> 01:58.020
+És ki kell számolnunk
+
+01:58.020 --> 02:03.760
+az egy gyerekre jutó sütemények
+számát is.
+
+02:03.760 --> 02:07.234
+Tehát ezt a két dolgot
+kell kiszámolnunk,
+
+02:07.234 --> 02:08.000
+mert akkor megtudhatjuk,
+
+02:08.000 --> 02:10.593
+hogy hány felnőtt és gyerek
+jön a következő partira,
+
+02:10.593 --> 02:12.210
+amit a te tiszteletedre
+tartanak,
+
+02:12.210 --> 02:15.020
+és meglesz a sütemények
+pontos száma.
+
+02:15.020 --> 02:16.310
+Szóval ezeket a dolgokat
+próbálod kiszámolni.
+
+02:16.310 --> 02:18.360
+Nem tudjuk, mekkorák
+ezek a számok.
+
+02:18.360 --> 02:22.660
+Definiáljunk változókat,
+amelyek ezeket a dolgokat jelentik.
+
+02:22.660 --> 02:25.160
+Legyen 'a' a felnőtteké!
+
+02:25.160 --> 02:27.170
+Legyen egyenlő 'a'-val
+azon sütemények száma,
+
+02:27.170 --> 02:29.370
+amennyit átlagosan minden felnőtt
+megeszik.
+
+02:29.370 --> 02:31.010
+És legyen c a gyerekeké,
+
+02:31.010 --> 02:35.700
+tehát c azon sütemények száma,
+amennyi egy gyereknek jut átlagosan.
+
+02:35.700 --> 02:38.060
+A megadott információk alapján nézzük,
+
+02:38.060 --> 02:41.810
+hogyan tudjuk algebrailag
+kifejezni, amit a király mondott.
+
+02:41.810 --> 02:44.620
+Gondolkodjunk először erről a
+narancssárga információról!
+
+02:44.620 --> 02:47.806
+Hogyan tudjuk ezt
+algebrailag kifejezni?
+
+02:47.806 --> 02:49.580
+Gondoljunk arra, hogy
+mennyi süteményt
+
+02:49.580 --> 02:51.470
+ettek meg a felnőttek
+ezen a partin.
+
+02:51.470 --> 02:53.810
+500 felnőtt volt, és átlagosan
+
+02:53.810 --> 02:56.520
+mindegyik pontosan
+'a' süteményt evett.
+
+02:56.520 --> 02:57.980
+Vagyis az összes sütemény száma,
+
+02:57.980 --> 03:01.170
+amit a felnőttek megettek,
+500-szor 'a'.
+
+03:01.170 --> 03:02.420
+Mennyit ettek a gyerekek?
+
+03:02.420 --> 03:03.460
+Ugyanez a logika.
+
+03:03.460 --> 03:08.360
+200 gyerek volt,
+és mindegyik c süteményt evett,
+
+03:08.360 --> 03:11.180
+tehát 200-szor c azon
+sütemények száma,
+
+03:11.180 --> 03:12.320
+amit a gyerekek megettek.
+
+03:12.320 --> 03:13.500
+Mennyit ettek meg összesen?
+
+03:13.500 --> 03:15.249
+Ez az összes sütemény száma,
+amit a felnőttek ettek,
+
+03:15.249 --> 03:17.370
+plusz az összes sütemény száma,
+amit a gyerekek ettek,
+
+03:17.370 --> 03:21.830
+ami 2900 sütemény.
+
+03:21.830 --> 03:23.730
+Csináljuk meg ugyanezt,
+alkalmazzuk ugyanezt a logikát
+
+03:23.730 --> 03:26.760
+erre a kék partira,
+erre a kék információra.
+
+03:26.760 --> 03:30.690
+Hogyan tudjuk ezt
+kifejezni algebrailag?
+
+03:30.690 --> 03:33.410
+Összesen mennyi süteményt
+ettek meg a felnőttek?
+
+03:33.410 --> 03:38.684
+500 felnőtt volt,
+és mindegyik 'a' süteményt evett,
+
+03:38.684 --> 03:40.115
+ami most még ismeretlen.
+
+03:40.115 --> 03:41.490
+És mi a helyzet a gyerekekkel?
+
+03:41.490 --> 03:45.639
+300 gyerek volt, és mindegyikük
+c süteményt evett.
+
+03:45.639 --> 03:48.150
+És ha összeadod az összes süteményt,
+amit a felnőttek ettek,
+
+03:48.150 --> 03:50.670
+és az összes süteményt,
+amit a gyerekek ettek,
+
+03:50.670 --> 03:54.134
+akkor 3100 süteményt kapsz.
+
+03:54.134 --> 03:55.650
+Ez kezd érdekes lenni.
+
+03:55.650 --> 03:56.910
+Két egyenletem van,
+
+03:56.910 --> 04:00.360
+egy két egyenletből álló
+kétismeretlenes egyenletrendszerem.
+
+04:00.360 --> 04:02.570
+A manós tapasztalatod alapján
+tudod,
+
+04:02.570 --> 04:04.440
+hogy ezt meg kell tudnod oldani.
+
+04:04.440 --> 04:07.105
+Meg tudod oldani grafikusan,
+ahogy akkor csináltad,
+
+04:07.105 --> 04:08.210
+de most úgy érzed,
+
+04:08.210 --> 04:09.710
+hogy lehet egy másik módszer is
+az eszköztáradban,
+
+04:09.710 --> 04:13.850
+ami valójában csak a már ismert
+algebra egy alkalmazása.
+
+04:13.850 --> 04:17.440
+Szóval gondolkodjunk el egy kicsit azon,
+hogyan csinálhatnád meg.
+
+04:17.440 --> 04:19.750
+Írjuk le újra ezt az első
+egyenletet!
+
+04:19.750 --> 04:30.110
+500a + 200c = 2900 sütemény.
+
+04:30.110 --> 04:34.830
+Jó lenne, ha megszabadulhatnánk
+ettől az 500a-tól valahogy.
+
+04:34.830 --> 04:38.090
+Mondhatnád, hogy
+vonjunk ki 500a-t,
+
+04:38.090 --> 04:41.770
+hogy egyszerűen ki lehetne vonni 500a-t.
+
+04:41.770 --> 04:44.040
+De ha a bal oldalból kivonsz
+500a-t,
+
+04:44.040 --> 04:46.519
+akkor a jobb oldalból is
+ki kell vonni 500a-t,
+
+04:46.519 --> 04:48.270
+így az 'a' nem tűnne el,
+
+04:48.270 --> 04:49.950
+csak a jobb oldal végén lenne,
+
+04:49.950 --> 04:51.640
+és még mindig egy egyenlet lenne
+
+04:51.640 --> 04:54.190
+két ismeretlennel,
+ami nem túl célravezető.
+
+04:54.190 --> 04:55.720
+De meglátsz valami érdekeset.
+
+04:55.720 --> 04:57.720
+Azt mondod: – Itt van egy 500a,
+
+04:57.720 --> 05:01.340
+mi lenne, ha kivonnám
+az 500a-t és ezt a 300c-t?
+
+05:01.340 --> 05:05.770
+Ha kivonnád az 500a-t
+és a 300c-t
+
+05:05.770 --> 05:06.880
+a bal oldalból.
+
+05:06.880 --> 05:08.030
+Miért hasznos ez?
+
+05:08.030 --> 05:09.890
+Ugyanazt fogod csinálni
+a jobb oldalon is,
+
+05:09.890 --> 05:12.550
+és akkor a jobb oldalon
+lesz egy 'a' és egy c.
+
+05:12.550 --> 05:15.207
+Azt mondod:
+– Várj, várj egy percet!
+
+05:15.207 --> 05:17.040
+Várj – tegyük fel, hogy
+magadban beszélsz –,
+
+05:17.040 --> 05:18.640
+várj egy percet!
+
+05:18.640 --> 05:21.630
+Kivonom ennek az egyenletnek
+a bal oldalát,
+
+05:21.630 --> 05:23.640
+de ez a bal oldal ugyanaz,
+
+05:23.640 --> 05:25.040
+mint ez a jobb oldal.
+
+05:25.040 --> 05:28.050
+Tehát kivonhatok 500a-t
+és 300c-t innen,
+
+05:28.050 --> 05:33.140
+és kivonhatok 500a-t
+és 300c-t innen is.
+
+05:33.140 --> 05:35.770
+De tudjuk, hogy ha
+kivonok 500a-t és 300c-t,
+
+05:35.770 --> 05:39.430
+az pontosan ugyanaz,
+mintha kivonnék 3100-at.
+
+05:39.430 --> 05:40.690
+Hadd magyarázzam el!
+
+05:40.690 --> 05:47.360
+Ez a -500a - 300c
+pontosan ugyanaz,
+
+05:47.360 --> 05:52.260
+mint amikor kivonunk (500a + 300c)-t,
+
+05:52.260 --> 05:56.920
+és tudjuk, hogy ez az
+500a + 300c pontosan 3100.
+
+05:56.920 --> 05:58.040
+Ez 3100.
+
+05:58.040 --> 06:00.640
+Ezt a második információból tudjuk.
+
+06:00.640 --> 06:04.190
+Tehát ahelyett, hogy kivonunk
+500a-t és 300c-t,
+
+06:04.190 --> 06:06.770
+kivonhatunk 3100-at.
+
+06:06.770 --> 06:07.720
+Csináljuk meg!
+
+06:07.720 --> 06:09.260
+Izgalmas.
+
+06:09.260 --> 06:12.860
+Ezt kitörlöm.
+
+06:12.860 --> 06:15.270
+Itt pedig ahelyett,
+hogy ezt csinálnám,
+
+06:15.270 --> 06:17.190
+kivonhatom pontosan
+ugyanazt az értéket,
+
+06:17.190 --> 06:21.172
+amiről tudjuk, hogy 3100.
+Vonjunk ki 3100-at!
+
+06:21.172 --> 06:22.430
+Szóval ha így nézzük,
+
+06:22.430 --> 06:23.690
+úgy néz ki, mintha kivontuk volna
+
+06:23.690 --> 06:26.830
+ezt az alsó egyenletet
+a felső egyenletből, de valójában
+
+06:26.830 --> 06:29.010
+csak kivontuk ugyanazt a dolgot
+mindkét oldalból.
+
+06:29.010 --> 06:31.180
+Ez csak nagyon alapszintű algebra.
+
+06:31.180 --> 06:34.920
+De ha megcsináljuk ezt,
+nézzük, mi történik!
+
+06:34.920 --> 06:38.940
+A bal oldalon 500a - 500a,
+ezek kiejtik egymást,
+
+06:38.940 --> 06:44.280
+200c - 300c,
+ez -100c lesz.
+
+06:44.280 --> 06:47.640
+A jobb oldalon pedig
+2900 - 3100,
+
+06:47.640 --> 06:49.720
+az -200.
+
+06:49.720 --> 06:51.950
+Most már egy egyenletünk van
+egy ismeretlennel,
+
+06:51.950 --> 06:53.500
+és ezt tudjuk,
+hogyan kell megoldani.
+
+06:53.500 --> 06:59.140
+Mindkét oldalt eloszthatjuk
+-100-zal.
+
+06:59.140 --> 07:00.320
+Itt egyszerűsíthetünk,
+
+07:00.320 --> 07:03.250
+és itt pedig +2 lesz a végén.
+
+07:03.250 --> 07:06.630
+Tehát c egyenlő plusz 2.
+
+07:06.630 --> 07:08.510
+Kiszámoltuk az egyik ismeretlent,
+
+07:08.510 --> 07:12.010
+minden gyerek átlagosan
+2 süteményt eszik meg,
+
+07:12.010 --> 07:15.210
+c = 2.
+
+07:15.210 --> 07:17.274
+Hogy tudjuk kiszámolni,
+hogy mennyi az 'a'?
+
+07:17.274 --> 07:19.215
+Nos, most már alkalmazhatjuk
+ezt az információt,
+
+07:19.215 --> 07:21.280
+és visszamehetünk valamelyik
+egyenlethez,
+
+07:21.280 --> 07:23.960
+és kiszámolhatjuk,
+mennyi az 'a'.
+
+07:23.960 --> 07:26.560
+Menjünk vissza ehhez
+a narancssárgához,
+
+07:26.560 --> 07:29.550
+és számoljuk ki, mennyi az 'a'.
+
+07:29.550 --> 07:38.710
+Tehát volt 500a + 200c
+– de tudjuk, hogy mennyi a c, c = 2,
+
+07:38.710 --> 07:46.720
+így ez 200-szor 2 – és ez
+egyenlő 2900-zal.
+
+07:46.720 --> 07:48.390
+És most már csak ki kell
+számolni az 'a'-t,
+
+07:48.390 --> 07:50.560
+egy egyenlet egy ismeretlennel.
+
+07:50.560 --> 07:55.540
+Szóval 500a
+– 200-szor 2 az 400 –
+
+07:55.540 --> 07:59.100
+plusz 400 egyenlő 2900.
+
+07:59.100 --> 08:02.570
+Kivonhatunk az egyenlet
+mindkét oldalából 400-at.
+
+08:02.570 --> 08:03.880
+Csináljuk ezt!
+
+08:03.880 --> 08:10.620
+400-at kivonva a bal oldalon
+az marad – ez kiesik –,
+
+08:10.620 --> 08:13.200
+a bal oldalon 500a lesz.
+
+08:13.200 --> 08:14.280
+Ez nagyon izgalmas,
+
+08:14.280 --> 08:15.540
+a célegyenesbe értünk.
+
+08:15.540 --> 08:19.950
+A jobb oldalon 2500 van.
+
+08:19.950 --> 08:22.330
+500a = 2500.
+
+08:22.330 --> 08:26.430
+Mindkét oldalt eloszthatjuk
+500-zal,
+
+08:26.430 --> 08:30.700
+az marad, hogy 2500 osztva 500-zal
+egyenlő 5.
+
+08:30.700 --> 08:33.690
+Tehát 'a' =5,
+és kész van.
+
+08:33.690 --> 08:35.980
+Megoldottad a király feladványát.
+
+08:35.980 --> 08:38.900
+Minden gyerek átlagosan
+2 pohár vizet iszik
+
+08:38.900 --> 08:41.048
+– elnézést, nem víz,
+nem tudom, honnan vettem ezt –,
+
+08:41.048 --> 08:46.140
+minden gyerek 2, és minden felnőtt
+5 süteményt fog megenni,
+
+08:46.140 --> 08:47.439
+az 'a' egyenlő 5.
+
+08:47.439 --> 08:49.330
+És az alapján, hogy
+hány felnőtt és gyerek
+
+08:49.330 --> 08:52.110
+jön a tiszteletedre tartott
+partira,
+
+08:52.110 --> 08:56.470
+most már pontosan tudod
+a sütemények számát,
+
+08:56.470 --> 08:59.970
+amennyit a királynak rendelnie kell.

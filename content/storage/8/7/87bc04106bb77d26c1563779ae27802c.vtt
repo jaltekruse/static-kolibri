@@ -1,0 +1,543 @@
+WEBVTT
+
+00:00.000 --> 00:01.610
+- [Instructor] We're told here that
+
+00:01.610 --> 00:04.077
+f(x) is equal to this infinite series,
+
+00:04.077 --> 00:05.044
+and we need to figure out what is
+
+00:05.044 --> 00:09.943
+the third derivative of f,
+evaluated at x equals zero.
+
+00:09.943 --> 00:12.026
+And like always, pause this
+video and see if you can
+
+00:12.026 --> 00:15.493
+work it out on your own
+before we do it together.
+
+00:15.493 --> 00:17.443
+Alright, so there's two
+ways to approach this.
+
+00:17.443 --> 00:19.776
+One is we could just take the derivative
+
+00:19.776 --> 00:22.623
+of this expression while
+it's in sigma notation.
+
+00:22.623 --> 00:23.789
+The other way you do it is we could just
+
+00:23.789 --> 00:26.905
+expand out f(x) and take
+the derivative three times,
+
+00:26.905 --> 00:29.690
+and see if we get an answer
+that, I guess, makes sense.
+
+00:29.690 --> 00:31.157
+Let me do it the second way first.
+
+00:31.157 --> 00:32.505
+Let me just expand it out.
+
+00:32.505 --> 00:35.205
+F(x) is equal to, let's see,
+when n is equal to zero,
+
+00:35.205 --> 00:38.288
+this is negative one to the
+zero, which is just one,
+
+00:38.288 --> 00:41.871
+times x, times x to the zero plus three,
+
+00:43.418 --> 00:45.722
+so it's gonna be x to the third
+
+00:45.722 --> 00:49.987
+over two times zero, so that's
+zero plus one factorial,
+
+00:49.987 --> 00:51.872
+so that's just going to be over one.
+
+00:51.872 --> 00:54.620
+Then the next term,
+when n is equal to one,
+
+00:54.620 --> 00:57.404
+well now it's gonna be
+negative one to the one,
+
+00:57.404 --> 00:59.838
+so now we're just gonna
+have a negative out front.
+
+00:59.838 --> 01:03.254
+Negative, and it's gonna be
+two times one plus three,
+
+01:03.254 --> 01:06.754
+so that's gonna be x to the fifth power
+
+01:08.137 --> 01:11.887
+over two times one plus
+one, so it's gonna be
+
+01:12.920 --> 01:15.719
+two plus one is three factorial.
+
+01:15.719 --> 01:18.153
+So it's gonna be x to the fifth over six.
+
+01:18.153 --> 01:21.056
+And then when x is equal to two,
+
+01:21.056 --> 01:23.136
+this is going to be positive again,
+
+01:23.136 --> 01:26.719
+and it's gonna be x to the seventh power
+
+01:27.937 --> 01:29.604
+over five factorial.
+
+01:31.552 --> 01:32.519
+Is that right? Yeah.
+
+01:32.519 --> 01:34.752
+Five factorial, and five factorial...
+
+01:34.752 --> 01:36.852
+Actually, let me just write
+that out as five factorial.
+
+01:36.852 --> 01:40.636
+Five factorial would be,
+what, it would be 120.
+
+01:40.636 --> 01:43.767
+It'd be five times four
+times six, so it'd be 120.
+
+01:43.767 --> 01:45.437
+But we could just keep going minus plus,
+
+01:45.437 --> 01:47.735
+and it goes on and on and on forever.
+
+01:47.735 --> 01:49.963
+Well now let's just take the derivatives.
+
+01:49.963 --> 01:52.896
+F'(x) is going to be equal to,
+
+01:52.896 --> 01:54.712
+we're still applying the power rule here,
+
+01:54.712 --> 01:57.495
+it's going to be three x squared
+
+01:57.495 --> 02:01.412
+minus 5/6x to the fourth, plus seven
+
+02:04.429 --> 02:07.888
+over five factorial x to the sixth,
+
+02:07.888 --> 02:09.452
+I'm just applying the power rule,
+
+02:09.452 --> 02:13.485
+minus plus, we just keep going
+on and on and on forever.
+
+02:13.485 --> 02:16.752
+The second derivative, f''(x) is going
+
+02:16.752 --> 02:20.335
+to be equal to, apply
+the power rule again.
+
+02:20.335 --> 02:24.407
+It's going to be six x to the
+first minus four times five
+
+02:24.407 --> 02:28.574
+over six, I'll just write
+that as 20/6x to the third,
+
+02:30.014 --> 02:34.181
+plus six times seven, so
+it's 42 over five factorial
+
+02:35.811 --> 02:38.856
+x to the fifth, and we're
+just gonna keep on going,
+
+02:38.856 --> 02:41.956
+minus plus, keep going,
+or alternate between minus
+
+02:41.956 --> 02:44.606
+something then plus something,
+on and on and on forever.
+
+02:44.606 --> 02:46.406
+Then we get to the third derivative.
+
+02:46.406 --> 02:48.540
+The third derivative is equal to,
+
+02:48.540 --> 02:51.311
+let's see, the derivative of six x is six,
+
+02:51.311 --> 02:56.294
+and then we have minus
+20 times three is 60/6,
+
+02:56.294 --> 02:58.699
+which of course is 10, x squared,
+
+02:58.699 --> 03:02.866
+plus five times 42 is what,
+210 over five factorial
+
+03:04.481 --> 03:07.232
+times x to the fourth power, minus plus
+
+03:07.232 --> 03:08.865
+over and over and over again, and then
+
+03:08.865 --> 03:10.631
+we just evaluate this at zero.
+
+03:10.631 --> 03:15.221
+F'''(0), well, when x is equal to zero,
+
+03:15.221 --> 03:18.298
+all of these terms with
+xes are gonna go to zero,
+
+03:18.298 --> 03:20.714
+and you're just gonna be
+left with this six here.
+
+03:20.714 --> 03:22.881
+So f'', the third derivative evaluated
+
+03:22.881 --> 03:25.347
+at zero is just equal to six.
+
+03:25.347 --> 03:27.547
+Now another way that we
+could've tackled this
+
+03:27.547 --> 03:30.397
+is just kept it in this sigma notation.
+
+03:30.397 --> 03:34.447
+We could've said that f'(x) is equal
+
+03:34.447 --> 03:38.614
+to the infinite sum, and
+actually, let me line them up.
+
+03:40.324 --> 03:43.208
+So this is where we
+did f'(x) expanded out,
+
+03:43.208 --> 03:47.375
+but we could've said
+f'(x) is equal to the sum
+
+03:48.372 --> 03:50.955
+from n equals zero to infinity,
+
+03:52.641 --> 03:53.974
+and you take the derivative here,
+
+03:53.974 --> 03:56.074
+you're gonna get, and
+you're taking the derivative
+
+03:56.074 --> 03:57.891
+with respect to x, so for that purpose,
+
+03:57.891 --> 03:59.516
+you assume everything else is,
+
+03:59.516 --> 04:02.840
+well, the n is just gonna tell us,
+
+04:02.840 --> 04:05.199
+is gonna tell us how we
+change from term to term,
+
+04:05.199 --> 04:08.747
+so if we take the derivative
+with respect to x here,
+
+04:08.747 --> 04:11.413
+use the power rule, bring the
+two n plus three out front,
+
+04:11.413 --> 04:13.949
+so it's gonna be negative one to the n
+
+04:13.949 --> 04:18.349
+times two n plus three,
+times x to the decrement,
+
+04:18.349 --> 04:21.099
+the exponent, two n plus two over
+
+04:22.304 --> 04:24.387
+two n plus one factorial.
+
+04:26.171 --> 04:28.238
+And then if you wanna take
+the second derivative,
+
+04:28.238 --> 04:30.304
+and this is the same thing as this.
+
+04:30.304 --> 04:33.255
+If you take the second derivative, f''(x),
+
+04:33.255 --> 04:35.912
+well now we're taking the sum from zero
+
+04:35.912 --> 04:39.687
+to infinity of negative one to the n.
+
+04:39.687 --> 04:41.770
+Let me move over to the right a little bit
+
+04:41.770 --> 04:43.739
+so we have some space.
+
+04:43.739 --> 04:46.587
+And now, we take this exponent out front,
+
+04:46.587 --> 04:50.186
+so you're gonna have two n plus three
+
+04:50.186 --> 04:54.389
+times two n plus two,
+all of that's going to be
+
+04:54.389 --> 04:58.556
+over two n plus one factorial,
+and this is gonna be
+
+04:59.804 --> 05:02.554
+times x to the two n plus one.
+
+05:05.353 --> 05:07.707
+All I'm doing every time,
+it seems really complicated,
+
+05:07.707 --> 05:09.853
+I'm just taking the exponent out front,
+
+05:09.853 --> 05:12.190
+multiplying it out front,
+and then decrementing it.
+
+05:12.190 --> 05:15.219
+So two n plus two minus
+one is two n plus one.
+
+05:15.219 --> 05:17.836
+And then if I wanna take
+the third derivative,
+
+05:17.836 --> 05:21.819
+the third derivative is
+the sum where n equals zero
+
+05:21.819 --> 05:25.119
+to infinity, negative one to the n.
+
+05:25.119 --> 05:27.536
+We take this, bring it, multiply it,
+
+05:27.536 --> 05:31.151
+so we're gonna have two n plus three
+
+05:31.151 --> 05:34.734
+times two n plus two,
+times two n plus one,
+
+05:36.470 --> 05:39.970
+all of that over two n plus one factorial,
+
+05:43.067 --> 05:45.900
+and then that is going to be times
+
+05:49.784 --> 05:51.534
+x to the two n power.
+
+05:54.172 --> 05:58.855
+Now let's now evaluate this
+thing when x is equal to zero.
+
+05:58.855 --> 06:03.022
+F'''(0) is gonna be the
+sum from n equals zero
+
+06:05.724 --> 06:10.027
+to infinity of negative
+one to the nth power.
+
+06:10.027 --> 06:11.688
+This is gonna be interesting.
+
+06:11.688 --> 06:12.831
+We're gonna have all of this business,
+
+06:12.831 --> 06:15.914
+two n plus three times two n plus two
+
+06:16.930 --> 06:20.339
+times two n plus one, all of that
+
+06:20.339 --> 06:22.839
+over two n plus one factorial,
+
+06:24.912 --> 06:27.412
+times zero to the two n power.
+
+06:29.628 --> 06:31.328
+You might be tempted to say, well, hey,
+
+06:31.328 --> 06:34.046
+if zero to these different powers,
+
+06:34.046 --> 06:36.078
+maybe everything's gonna be zero,
+
+06:36.078 --> 06:37.811
+but remember, we're
+starting at n equals zero,
+
+06:37.811 --> 06:40.961
+so for any n that's not equal to zero,
+
+06:40.961 --> 06:43.111
+this zero to that power
+is just gonna be zero
+
+06:43.111 --> 06:44.878
+and that term's gonna disappear,
+
+06:44.878 --> 06:47.011
+kinda like what we saw
+when we expanded it out.
+
+06:47.011 --> 06:48.343
+And so the only term that matters
+
+06:48.343 --> 06:51.394
+here is when n is equal to zero.
+
+06:51.394 --> 06:54.094
+So this is just going to be equal to,
+
+06:54.094 --> 06:56.228
+because for n equals one,
+two, three, four, five,
+
+06:56.228 --> 06:58.660
+all the way to infinity,
+this thing is gonna dominate.
+
+06:58.660 --> 07:00.243
+It's just gonna multiply,
+it's gonna be zero.
+
+07:00.243 --> 07:02.111
+You're just gonna zero everything out.
+
+07:02.111 --> 07:04.409
+And so this is just gonna
+reduce to the first term,
+
+07:04.409 --> 07:06.777
+when n equals zero,
+and when n equals zero,
+
+07:06.777 --> 07:09.176
+it's gonna be negative one to the zero.
+
+07:09.176 --> 07:12.309
+This is gonna be, which is just one.
+
+07:12.309 --> 07:14.959
+Let me just write that as one.
+
+07:14.959 --> 07:18.292
+Times, this is three times two times one
+
+07:20.792 --> 07:24.959
+over one factorial, and
+then times zero to the zero,
+
+07:27.609 --> 07:29.853
+which is equal to one.
+
+07:29.853 --> 07:32.925
+So this is equal to one,
+and so this is equal to six.
+
+07:32.925 --> 07:35.309
+Either way, I think
+the first way we did it
+
+07:35.309 --> 07:38.492
+was a little bit more straightforward,
+
+07:38.492 --> 07:40.910
+a little bit more
+intuitive, closer to what
+
+07:40.910 --> 07:42.592
+you might have seen
+before, but it's important
+
+07:42.592 --> 07:44.742
+to realize that we did
+the same thing both times,
+
+07:44.742 --> 07:46.508
+we just kept it in the sigma notation
+
+07:46.508 --> 07:48.309
+on this time to the right.
+
+07:48.309 --> 07:51.192
+This technique is useful
+because you'll see it a lot
+
+07:51.192 --> 07:53.341
+in math, where you might
+wanna do things a little
+
+07:53.341 --> 07:55.841
+bit more of a general way,
+and so it might be helpful
+
+07:55.841 --> 07:57.824
+to take the derivatives while you stay
+
+07:57.824 --> 07:59.741
+in that sigma notation.

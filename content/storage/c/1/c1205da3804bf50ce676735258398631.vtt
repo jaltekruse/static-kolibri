@@ -1,0 +1,361 @@
+WEBVTT
+
+00:00.532 --> 00:02.875
+Hãy xem lại định nghĩa đường tròn đơn vị của
+
+00:02.875 --> 00:04.535
+các hàm lượng giác một chút.
+
+00:04.815 --> 00:07.516
+Ở đây, mình đã vẽ một hình tròn đơn vị và khi chúng ta nói
+
+00:07.516 --> 00:11.367
+một hình tròn đơn vị, chúng ta đang nói đến một hình tròn có bán kính là một.
+
+00:11.367 --> 00:13.286
+Ví dụ, điểm này ở ngay đây
+
+00:13.286 --> 00:16.359
+là điểm (1,0).
+
+00:16.359 --> 00:17.970
+X bằng một, Y bằng không.
+
+00:17.970 --> 00:20.690
+Điểm này là điểm (0,1).
+
+00:20.690 --> 00:24.412
+Đây là điểm (-1,0) và
+
+00:24.412 --> 00:27.783
+đây là điểm (0,-1).
+
+00:28.223 --> 00:30.313
+Bán kính ở đây, khoảng cách từ tâm
+
+00:30.313 --> 00:33.014
+của vòng tròn tại điểm gốc đến
+
+00:33.014 --> 00:35.564
+bất kỳ điểm nào trong vòng tròn hoặc bất kỳ điểm nào trên vòng tròn,
+
+00:35.564 --> 00:39.625
+mình nên nói, bán kính này bằng một.
+
+00:40.375 --> 00:43.156
+Định nghĩa vòng tròn đơn vị của các hàm lượng giác
+
+00:43.156 --> 00:45.867
+thúc đẩy vòng tròn đơn vị này, đó là lý do tại sao
+
+00:45.867 --> 00:47.677
+nó được gọi là định nghĩa vòng tròn đơn vị,
+
+00:47.677 --> 00:50.937
+và chúng ta đã thấy rằng nếu chúng ta xác định một góc là
+
+00:50.937 --> 00:53.258
+là cạnh đáy của góc nằm dọc theo trục x dương
+
+00:53.258 --> 00:56.035
+và sau đó là cạnh còn lại của góc đó,
+
+00:56.945 --> 00:59.767
+hãy nghĩ về vị trí mà nó giao với đường tròn đơn vị.
+
+00:59.987 --> 01:02.271
+Giả sử đây là góc theta.
+
+01:02.541 --> 01:07.302
+Chúng ta định nghĩa sin của theta và cosine của theta,
+
+01:07.302 --> 01:11.133
+hoặc cosine theta và sin của theta là tọa độ x và y của điểm này
+
+01:11.133 --> 01:14.274
+tại đó cạnh này của góc,
+
+01:14.274 --> 01:17.144
+cạnh mà không phải là trục x dương,
+
+01:17.144 --> 01:19.835
+nơi giao của đường tròn đơn vị.
+
+01:20.035 --> 01:24.096
+Ví dụ điểm này ngay tại đây. Chúng ta sẽ gọi điều này,
+
+01:24.096 --> 01:25.676
+tọa độ x của điểm này,
+
+01:25.676 --> 01:27.736
+vì vậy giá trị này ngay tại đây,
+
+01:28.206 --> 01:30.486
+chúng ta sẽ gọi đó là cosin của theta.
+
+01:33.435 --> 01:36.137
+Tọa độ y của điểm đó, chính là điểm này
+
+01:36.137 --> 01:41.588
+ở đây, chúng ta sẽ gọi đó là sin của theta.
+
+01:41.588 --> 01:43.118
+Trong các video trước về vòng tròn đơn vị, chúng ta
+
+01:43.118 --> 01:44.968
+đã nói về lý do tại sao đây thực sự chỉ là một phần mở rộng
+
+01:44.968 --> 01:48.119
+tự nhiên của định nghĩa cah toa.
+
+01:48.119 --> 01:50.309
+Điều hữu ích là nó bắt đầu hiệu quả đối với các góc âm,
+
+01:50.309 --> 01:53.510
+nó thậm chí hiệu quả cho các góc 90 độ, nó hiệu quả cho các góc hơn
+
+01:53.510 --> 01:55.961
+90 độ, nó hiệu quả cho các góc nhỏ hơn 90 độ,
+
+01:55.961 --> 01:57.671
+vì vậy nó thực sự, thực sự, thực sự hữu ích.
+
+01:57.901 --> 02:00.841
+Điều mình muốn làm là tận dụng những gì chúng ta đã
+
+02:00.841 --> 02:02.882
+đã biết về định nghĩa đường tròn đơn vị của các hàm lượng giác
+
+02:02.882 --> 02:06.713
+để giúp chứng minh đồng nhất thức Pitago.
+
+02:06.713 --> 02:09.654
+Nó gần như rơi vào thực tế là điểm này ở ngay đây
+
+02:09.654 --> 02:14.124
+nằm trên một vòng tròn, một vòng tròn bán kính một.
+
+02:15.105 --> 02:16.965
+Phương trình của một đường tròn
+
+02:16.965 --> 02:19.656
+bán kính một tâm tại gốc tọa độ là gì?
+
+02:20.476 --> 02:25.697
+Phương trình của nó là x bình phương, x bình phương ...
+
+02:27.008 --> 02:28.858
+Chúng ta có các video khác, nơi chúng ta thực sự chứng minh
+
+02:28.858 --> 02:30.569
+điều này bằng cách sử dụng công thức khoảng cách,
+
+02:30.569 --> 02:32.789
+chỉ là một ứng dụng của định lý Pitago.
+
+02:33.089 --> 02:36.930
+Phương trình của một đường tròn đơn vị có tâm tại gốc tọa độ
+
+02:36.930 --> 02:45.662
+là x bình phương cộng với y bình phương thì bằng một,
+
+02:45.662 --> 02:48.303
+bằng bình phương bán kính.
+
+02:48.543 --> 02:51.014
+Khoảng cách ngay đằng này bằng một.
+
+02:51.604 --> 02:54.354
+Chúng ta đã nói rằng chúng ta đang xác định cosine của
+
+02:54.354 --> 02:58.135
+theta là tọa độ x của điểm này và chúng ta
+
+02:58.135 --> 03:00.356
+xác định sin của theta tại tọa độ y của
+
+03:00.356 --> 03:02.526
+điểm này và điểm này nằm trên đường tròn.
+
+03:02.526 --> 03:06.447
+Nó phải thỏa mãn mối quan hệ này ngay tại đây.
+
+03:06.717 --> 03:10.338
+Điều đó có nghĩa là nếu chúng ta định nghĩa cosin của theta là x,
+
+03:10.338 --> 03:14.058
+là giá trị x này, sin của theta là giá trị y và
+
+03:14.058 --> 03:16.478
+nó phải thỏa mãn mối quan hệ này có nghĩa là
+
+03:16.781 --> 03:24.747
+cosine của theta bình phương cộng với sin bình phương của theta
+
+03:25.187 --> 03:29.389
+phải bằng một.
+
+03:29.330 --> 03:31.180
+Hoặc sin bình phương theta cộng với cosine bình phương
+
+03:31.180 --> 03:33.181
+của theta phải bằng một.
+
+03:33.100 --> 03:34.040
+Đó chỉ là vấn đề.
+
+03:34.040 --> 03:36.461
+Đây là x, cosin theta là tọa độ x,
+
+03:36.461 --> 03:38.212
+sin theta là tọa độ y.
+
+03:38.212 --> 03:40.523
+Chúng phải thỏa mãn mối quan hệ này
+
+03:40.523 --> 03:44.024
+xác định một đường tròn sao cho cosin bình phương
+
+03:44.024 --> 03:46.446
+theta cộng với sin bình phương theta là một.
+
+03:47.253 --> 03:49.803
+Đây được gọi là, như chúng ta đã thấy trong các video khác,
+
+03:49.803 --> 03:53.174
+đây được gọi là đồng nhất thức Pythagore.
+
+03:53.174 --> 03:54.594
+Bạn nói, "Tại sao điều đó lại hữu ích?"
+
+03:54.594 --> 03:57.704
+Sử dụng điều này, nếu bạn biết sin của theta, bạn có thể tìm ra
+
+03:57.704 --> 04:01.415
+cosine của theta sẽ là gì, hoặc ngược lại.
+
+04:01.415 --> 04:04.726
+Và nếu bạn biết một trong số cosine của theta và thì bạn có thể -
+
+04:04.726 --> 04:06.696
+Giả sử bạn biết cosine theta sau đó bạn sử dụng điều này để tìm ra
+
+04:06.696 --> 04:08.556
+sin của theta, sau đó bạn có thể tìm ra tiếp tuyến của theta
+
+04:08.556 --> 04:11.347
+bởi vì tiếp tuyến của theta chỉ là sin trên cosine.
+
+04:11.787 --> 04:14.627
+Nếu bạn hơi bối rối về lý do tại sao điều này được gọi
+
+04:14.627 --> 04:18.427
+là đồng nhất thức Pyago, thì nó thực sự chỉ từ nguồn gốc của
+
+04:18.427 --> 04:21.518
+phương trình của một đường tròn.
+
+04:21.868 --> 04:23.688
+Nếu chúng ta nhìn vào điểm này ngay tại đây,
+
+04:23.688 --> 04:26.239
+chúng ta xem xét điểm này ngay tại đây,
+
+04:26.239 --> 04:28.409
+mà chúng ta nói là tọa độ x là cosine theta
+
+04:28.409 --> 04:30.039
+và tọa độ y là sin của theta,
+
+04:30.039 --> 04:34.240
+khoảng cách giữa điểm đó và gốc tọa độ là bao nhiêu?
+
+04:35.108 --> 04:38.079
+Hãy nghĩ về điều đó chúng ta có thể dựng một tam giác vuông.
+
+04:38.829 --> 04:41.390
+Khoảng cách này ngay đằng này.
+
+04:43.520 --> 04:45.301
+Để chúng ta có thể xử lý bất kỳ góc phần tư nào, mình sẽ
+
+04:45.301 --> 04:49.112
+đặt nó thành giá trị tuyệt đối của cosin theta
+
+04:49.112 --> 04:51.032
+là khoảng cách này ở ngay đằng này.
+
+04:51.193 --> 04:54.083
+Và khoảng cách ngay đằng này là
+
+04:54.083 --> 04:57.206
+giá trị tuyệt đối của sin của theta.
+
+05:02.032 --> 05:03.593
+Mình rõ ràng không phải lấy giá trị tuyệt đối
+
+05:03.593 --> 05:05.703
+cho góc phần tư đầu tiên này ở đây nhưng nếu mình đi vào
+
+05:05.703 --> 05:07.423
+các góc phần tư khác và mình thiết lập một tam giác vuông
+
+05:07.423 --> 05:10.144
+tương tự thì giá trị tuyệt đối là giá trị.
+
+05:10.784 --> 05:12.975
+Chúng ta biết gì từ định lý Pitago?
+
+05:12.975 --> 05:14.295
+Đây là một tam giác vuông ở đây,
+
+05:14.295 --> 05:16.006
+cạnh huyền có độ dài một,
+
+05:16.006 --> 05:18.106
+vì vậy chúng ta biết rằng biểu thức này bình phương,
+
+05:18.106 --> 05:22.987
+giá trị tuyệt đối của cosin của theta bình phương,
+
+05:22.987 --> 05:26.188
+cộng với biểu thức này bình phương, chính là độ dài này,
+
+05:26.188 --> 05:30.630
+cộng với giá trị tuyệt đối của sin bình phương theta
+
+05:30.630 --> 05:33.203
+phải bằng độ dài của cạnh huyền bình phương, giá trị này
+
+05:33.203 --> 05:36.174
+là cùng một thứ sẽ bằng một bình phương.
+
+05:36.174 --> 05:39.685
+Hoặc chúng ta có thể nói, đây là điều tương tự.
+
+05:39.685 --> 05:41.578
+Nếu bạn định bình phương một số gì đó có dấu,
+
+05:41.578 --> 05:43.358
+nếu là âm thì nó sẽ là âm nhân
+
+05:43.358 --> 05:45.098
+âm vậy nó sẽ là một số dương vậy đây
+
+05:45.098 --> 05:47.329
+sẽ tương tự như nói rằng
+
+05:47.329 --> 05:56.170
+cosine bình phương theta cộng với sin bình phương theta bằng một.
+
+05:58.514 --> 06:01.617
+Đây là lý do tại sao nó được gọi là đồng nhất thức Pythagore.
+
+06:01.617 --> 06:02.837
+Trên thực tế, đó thậm chí là nơi xuất phát phương trình
+
+06:02.837 --> 06:05.528
+của một đường tròn, nó đi thẳng từ
+
+06:05.528 --> 06:10.701
+định lý Pitago trong đó cạnh huyền của bạn có độ dài bằng một.

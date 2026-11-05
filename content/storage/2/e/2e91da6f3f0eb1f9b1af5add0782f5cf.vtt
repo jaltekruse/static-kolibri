@@ -1,0 +1,439 @@
+WEBVTT
+
+00:00.640 --> 00:03.560
+Kõigepealt õpime matemaatilises analüüsis
+
+00:03.560 --> 00:06.720
+kasutama piirväärtusi.
+
+00:06.720 --> 00:10.440
+Me kasutame piirväärtusi, et leida funktsioonide tuletusi.
+
+00:13.720 --> 00:16.800
+Kusjuures tuletise definitsioon
+
+00:16.800 --> 00:18.120
+kasutab piirväärtust.
+
+00:18.120 --> 00:22.030
+See on tõus punkti ümber kui me võtame
+
+00:22.030 --> 00:24.390
+piirväärtuse üha lähenevatest punktidest.
+
+00:24.390 --> 00:27.110
+Ja me oleme seda palju kordi näinud.
+
+00:27.110 --> 00:29.790
+Selles videos me ilmselt teeme seda
+
+00:29.790 --> 00:30.630
+teistpidi.
+
+00:30.630 --> 00:39.130
+Me kasutame piirväärtuste leidmiseks tuletisi.
+
+00:39.130 --> 00:43.360
+Täpsemalt öeldes piirväärtusi, mis lõpetavad määramata avaldistena.
+
+00:43.360 --> 00:46.550
+Ja määramata avaldise all mõtlen ma kui
+
+00:46.550 --> 00:51.550
+võtame piirväärtuse ja tulemuseks saame midagi nagu 0/0
+
+00:51.550 --> 00:55.450
+või lõpmatus jagatud lõpmatus või negatiivne lõpmatus jagatud
+
+00:55.450 --> 00:57.870
+lõpmatus või negatiivne lõpmatus jagatud
+
+00:57.870 --> 01:00.330
+negatiivne lõpmatus või positiivne lõpmatus jagatud negatiivne lõpmatus.
+
+01:00.330 --> 01:05.190
+Kõik need määramata avaldised on defineerimata kujul.
+
+01:05.190 --> 01:08.290
+Nende lahendamiseks kasutame l'Hopitali reeglit.
+
+01:17.730 --> 01:19.490
+Selles videos ma näitan teile lihtsalt
+
+01:19.490 --> 01:23.010
+l'Hopitali reegel on ja natukene ka kuidas seda kasutada.
+
+01:23.010 --> 01:25.480
+Tegelikult on see väga kasulik tööriist.
+
+01:25.480 --> 01:27.510
+Mõnikord kui olete mingil matemaatika võistlusel ja palutakse leida
+
+01:27.510 --> 01:31.270
+keeruline piirväärtus ning
+
+01:31.270 --> 01:33.310
+kui lihtsalt lüüa numbrit sisse, siis saate midagi sellist.
+
+01:33.310 --> 01:37.270
+L'Hopitali reegel on mida nad enamasti ootavad.
+
+01:37.270 --> 01:40.290
+Aga mõnes tuleviku videos ma võibolla tõestan seda, aga see
+
+01:40.290 --> 01:40.975
+saab üsna keerukas olema.
+
+01:40.975 --> 01:44.870
+Reegli kasutus on üsna selge.
+
+01:44.870 --> 01:50.780
+L'Hopitali reegel ütleb meile, et kui --
+
+01:50.780 --> 01:53.940
+ma teen seda abstraktsel kujul kõigepealt, aga ma arvan, et kui ma näitan
+
+01:53.940 --> 01:56.080
+näidet teile, siis saab kõik selgeks.
+
+01:56.080 --> 02:11.050
+Et kui piirväärtus x läheneb c-le, siis f(x) võrdub 0,
+
+02:11.050 --> 02:20.100
+ja piirväärtus x läheneb c-le funktsioonis g(x) = 0 ja -- ja
+
+02:20.100 --> 02:30.620
+see on veel üks ja -- ja piirväärtus kui x läheneb c-le funktsioonis
+
+02:30.620 --> 02:38.160
+f kriips (x jagatud g(x)) eksisteerib ja see võrdub L.
+
+02:38.160 --> 02:40.600
+Kõik need tingimused peavad kehtima.
+
+02:40.600 --> 02:44.050
+See on määramata kuju 0/0,
+
+02:44.050 --> 02:45.560
+seda teeme esmalt.
+
+02:45.560 --> 02:55.380
+Me võime siis öelda, et piirväärtus kui x läheneb c-le funktsioonis
+
+02:55.380 --> 03:03.070
+f(x jagatud g(x)) võrdub samuti L.
+
+03:03.070 --> 03:05.810
+See võib natukene imelik praegu tunduda,
+
+03:05.810 --> 03:07.220
+ja ma kirjutan ka teise juhu, ja siis
+
+03:07.220 --> 03:07.750
+ma teen ühe näite.
+
+03:07.750 --> 03:09.710
+Siis me teeme õigemini mitu näidet ja need näited
+
+03:09.710 --> 03:10.580
+selgitavad kõik.
+
+03:10.580 --> 03:13.040
+See on esimene juht ja näide
+
+03:13.040 --> 03:16.650
+mida me teeme on tegelikult selle sama juhu näide.
+
+03:16.650 --> 03:24.390
+Nüüd teine juht on piirväärtus kui x läheneb c-le funktsioonis
+
+03:24.390 --> 03:32.960
+f(x) = positiivne või negatiivne lõpmatus ja
+
+03:32.960 --> 03:39.470
+piirväärtus kui x läheneb c-le funktsioonis g(x) = positiivne
+
+03:39.470 --> 03:46.280
+või negatiivne lõpmatus, ja me võime öelda et
+
+03:46.280 --> 03:51.220
+jagatise piirväärtus eksisteerib ja see piirväärtus
+
+03:51.220 --> 03:56.200
+kui x läheneb c-le funktsioonis f kriipus (x jagatud g kriips (x))
+
+03:56.200 --> 03:57.410
+võrdub L.
+
+03:57.410 --> 04:01.860
+Siis me võime seda väita.
+
+04:01.860 --> 04:06.070
+Las ma kopeerin selle välja.
+
+04:06.070 --> 04:10.220
+Muudan, kopeerin ja asentan.
+
+04:10.220 --> 04:13.450
+Te peate mõlema juhul korral mõistma,
+
+04:13.450 --> 04:15.520
+mida te siin näete.
+
+04:15.520 --> 04:18.300
+See on situatsioon kus niisama funktsiooni väärtustades
+
+04:18.300 --> 04:21.880
+me saaks f(c), mis oleks o.
+
+04:21.880 --> 04:25.990
+Või piirväärtus kui x läheneb c-le funktsioonis f(x) jagatud
+
+04:25.990 --> 04:27.480
+piirväärtus kui x läheneb c-le funktsioonis g(x).
+
+04:27.480 --> 04:30.550
+See annab meile 0/0.
+
+04:30.550 --> 04:32.440
+Ja me mõtleme, et me ei tea mis se piirväärtus on.
+
+04:32.440 --> 04:33.600
+Aga see ütleb et, niisiis, vaadake.
+
+04:33.600 --> 04:37.440
+Kui see piirväärtus eksisteerib, siis me saame võtta tuletise
+
+04:37.440 --> 04:41.020
+mõlemast väärtusest ja me saaks seda piirväärtust väärtustada.
+
+04:41.020 --> 04:44.220
+Ja kui me saame numbri, kui see eksisteerib, siis
+
+04:44.220 --> 04:45.980
+see on see sama piirväärtus.
+
+04:45.980 --> 04:48.710
+See on situatsioon et kui me võtame piirväärtuse siis me saame
+
+04:48.710 --> 04:52.060
+lõpmatus jagatud lõpmatus või negatiivne lõpmatus jagatud positiivne lõpmatus
+
+04:52.060 --> 04:54.070
+või positiivne lõpmatus jagatud negatiivne lõpmatus.
+
+04:54.070 --> 04:57.030
+Need on kaks määramatut avaldist.
+
+04:57.030 --> 04:59.410
+Ja et teha kõik selgeks, las ma näitan teile näidet
+
+04:59.410 --> 05:03.610
+kuna ma arvan, et see teeb asja palju selgemaks.
+
+05:03.610 --> 05:08.910
+Ütleme, et me otsime piirväärtust --
+
+05:08.910 --> 05:10.610
+ma teen seda teise värviga.
+
+05:10.610 --> 05:13.830
+Lilla värviga.
+
+05:13.830 --> 05:17.420
+Me tahame leida piirväärtust kui x läheneb nullile funktsioonis
+
+05:17.420 --> 05:23.160
+sin x jagatud x.
+
+05:23.160 --> 05:27.430
+Nüüd kui me proovime seda null punktis väärtustada
+
+05:27.430 --> 05:30.410
+või võtta piirväärtust lähenedes nullile,
+
+05:30.410 --> 05:33.180
+siis me saame midagi nagu 0/0.
+
+05:33.180 --> 05:35.370
+Siinus 0 on 0.
+
+05:35.370 --> 05:39.620
+Või kui piirväärtus kui x läheneb nullile funktsioonis siinus x, siis vastus on 0.
+
+05:39.620 --> 05:42.120
+Ja ilmselgelt kui x läheneb nullile siis
+
+05:42.120 --> 05:43.140
+x muutub ka nulliks.
+
+05:43.140 --> 05:45.100
+See on määramatu avaldis.
+
+05:45.100 --> 05:48.180
+Ja kui tahate selle peale mõelda, siis see on see funktsioon siin.
+
+05:48.180 --> 05:51.240
+f(x) = sin x
+
+05:51.240 --> 05:55.510
+Ja meie g(x) on
+
+05:55.510 --> 06:00.070
+sellel juhul x.
+
+06:00.070 --> 06:07.170
+g(x) = x ja f(x) = sin x
+
+06:07.170 --> 06:10.130
+Ja me kindlasti teame, et see vastab
+
+06:10.130 --> 06:11.520
+meie nõuetele.
+
+06:11.520 --> 06:14.970
+Piirväärtus x ja sellel juhul c on 0.
+
+06:14.970 --> 06:19.540
+Piirväärtus kui x läheneb nullile funktsioonis sin(sin x) on 0
+
+06:19.540 --> 06:24.030
+ja piirväärtus kui x läheneb nullile funktsioonis x on ka null.
+
+06:24.030 --> 06:26.180
+Me saame määramatu avaldise.
+
+06:26.180 --> 06:29.340
+Vaatame kas see piirväärtus üldse eksisteerib.
+
+06:29.340 --> 06:32.100
+Kui me võtame f(x) tuletise ja me paneme selle
+
+06:32.100 --> 06:35.900
+g(x) kohale, ja võtame sellest piirväärtuse kui x läheneb nullile.
+
+06:35.900 --> 06:38.400
+Sellel juhul see on meie c.
+
+06:38.400 --> 06:40.530
+Vaatame kas see piirväärtus eksisteerib.
+
+06:40.530 --> 06:44.600
+Ma teen seda sinisega.
+
+06:44.600 --> 06:48.160
+Las ma kirjutan mõlema funktsiooni tuletised.
+
+06:48.160 --> 06:50.720
+f'(x)
+
+06:50.720 --> 06:53.590
+Kui f(x) = sin x, siis mis on f'(x)?
+
+06:53.590 --> 06:55.480
+See on koosinus x.
+
+06:55.480 --> 06:57.390
+Me oleme seda korduvalt õppinud.
+
+06:57.390 --> 07:01.215
+Ja kui g(x) = x, mis siis g'(x) on?
+
+07:01.215 --> 07:02.150
+See on imelihtne.
+
+07:02.150 --> 07:06.280
+x tuletis on lihtsalt 1.
+
+07:06.280 --> 07:13.690
+Võtame piirväärtuse kui x läheneb nullile funktsioonis
+
+07:13.690 --> 07:17.000
+f'(x) jagatud g('x) -- kasutades tuletisi.
+
+07:17.000 --> 07:19.390
+See on piirväärtus kui x läheneb nullile funktsioonis
+
+07:19.390 --> 07:25.620
+cos x jagatud 1.
+
+07:25.620 --> 07:28.650
+See 1 tuli natukene imelik.
+
+07:28.650 --> 07:30.170
+Ja see epaks üsna selge olema-
+
+07:30.170 --> 07:30.990
+Mis see on?
+
+07:30.990 --> 07:33.610
+Kui x läheneb nullile cos(x) -is
+
+07:33.610 --> 07:37.290
+siis vastus on 1.
+
+07:37.290 --> 07:39.320
+Ja ilmselgelt piirväärtus kui x läheneb nullile funktsioonis 1 on
+
+07:39.320 --> 07:40.900
+ka võrdne 1.
+
+07:40.900 --> 07:46.470
+Selles situatsioonis me nägime et piirväärtus kui x läheneb
+
+07:46.470 --> 07:49.820
+-- meie c on praegusel juhul 0.
+
+07:49.820 --> 07:54.590
+Kui x läheneb nullile funktsioonis f'(x) jagatud g'(x)
+
+07:54.590 --> 07:56.240
+võrdub 1.
+
+07:56.240 --> 07:59.060
+See piirväärtus eksisteerib ja
+
+07:59.060 --> 08:00.580
+see võrdub 1.
+
+08:00.580 --> 08:02.500
+See on see juhtum millega me tegeleme.
+
+08:02.500 --> 08:06.700
+Piirväärtus kui x läheneb nullile funktsioonis sin x võrdub 0.
+
+08:06.700 --> 08:10.650
+Piirväärtus kui z läheneb nullile funktsioonis x võrdub 0.
+
+08:10.650 --> 08:14.500
+Piirväärtus kui x läheneb nullile funktsiooni sin x tuletises
+
+08:14.500 --> 08:17.490
+jagatud x tuletis, mis on cos x jagatud 1 -- me leidsime
+
+08:17.490 --> 08:21.000
+selle võrdse olevat 1-ga.
+
+08:21.000 --> 08:24.610
+Ülemised tingimused on täidetud, siis me teame,
+
+08:24.610 --> 08:26.480
+et see peab olema nii.
+
+08:26.480 --> 08:34.500
+Piirväärtus kui x läheneb nullile funktsioonis sin x
+
+08:34.500 --> 08:36.690
+jagatud x peab olema 1.
+
+08:36.690 --> 08:42.510
+See peab olema sama piirväärtus kui see väärtus siin
+
+08:42.510 --> 08:46.120
+millest me võtame f(x) ja g(x) tuletised.
+
+08:46.120 --> 08:48.430
+Ma teen näideteid järgmises paaris videos ja ma arvan, et
+
+08:48.430 --> 08:50.760
+saate teha palju konkreetseid ülesandeid.

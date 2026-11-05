@@ -1,0 +1,288 @@
+WEBVTT
+
+00:00.285 --> 00:03.951
+g a h jsou navzájem
+inverzní funkce.
+
+00:03.951 --> 00:08.540
+Připomeňme si, co to znamená,
+když jsou funkce navzájem inverzní.
+
+00:08.540 --> 00:12.885
+Znamená to, že když
+mám dvě množiny čísel...
+
+00:12.885 --> 00:15.165
+Jedna množina
+bude tady,
+
+00:15.165 --> 00:17.909
+druhá množina
+bude zde.
+
+00:17.909 --> 00:21.497
+První množina čísel bude
+definiční obor funkce g,
+
+00:21.497 --> 00:24.908
+takže tady budeme
+mít nějaké x.
+
+00:24.908 --> 00:32.456
+Funkce g tohle x zobrazí na
+jinou hodnotu, kterou nazýváme g(x).
+
+00:32.456 --> 00:34.891
+Tohle udělá
+funkce g.
+
+00:34.891 --> 00:39.029
+Pokud je h inverzní
+funkcí ke g a naopak,
+
+00:39.029 --> 00:43.718
+tak h zobrazí bod
+g(x) zpět na x.
+
+00:43.718 --> 00:49.566
+Funkce h to tedy zobrazí zpět
+na naši původní hodnotu.
+
+00:49.566 --> 00:52.557
+Tohle udělá
+funkce h.
+
+00:52.557 --> 00:58.674
+Na tento bod se tak
+můžeme dívat jako na x,
+
+00:58.674 --> 01:08.723
+ale také se na to můžeme dívat
+jako na hodnotu h v bodě g(x).
+
+01:08.723 --> 01:12.930
+Tohle všechno jsem udělal proto,
+aby nám to celé dávalo dobrý smysl.
+
+01:12.930 --> 01:16.634
+Pokud vám někdo řekne, že g a h
+jsou navzájem inverzní funkce,
+
+01:16.634 --> 01:29.261
+tak to znamená, že h v
+bodě g(x) se rovná x,
+
+01:29.263 --> 01:31.092
+ale také na to
+můžeme jít opačně.
+
+01:31.092 --> 01:34.106
+Mohli jsme
+tady začít s...
+
+01:34.106 --> 01:35.958
+Lze to udělat
+vícero způsoby.
+
+01:35.958 --> 01:37.637
+Tohle se také
+rovná g v bodě h(x).
+
+01:37.637 --> 01:39.163
+Mohl jsem tady
+prohodit písmena.
+
+01:39.163 --> 01:41.749
+Pořadí písmen h a g
+je v zásadě libovolné.
+
+01:41.749 --> 01:52.241
+Můžeme tedy také říct,
+že g v bodě h(x) se rovná x.
+
+01:52.241 --> 01:53.809
+Dále máme dány
+nějaké informace.
+
+01:53.809 --> 01:59.926
+V následující tabulce jsou uvedeny
+vybrané hodnoty funkcí g, h a g s čárkou.
+
+01:59.926 --> 02:02.981
+Naším úkolem je spočítat
+h s čárkou v bodě 3.
+
+02:02.981 --> 02:05.964
+V zadání h s čárkou v bodě 3
+nemáme, takže jak to spočítáme?
+
+02:05.964 --> 02:08.905
+Máme dány hodnoty
+funkcí g s čárkou, h a g.
+
+02:08.905 --> 02:10.769
+Jak to tedy
+spočítáme?
+
+02:10.769 --> 02:14.426
+Nyní si něco odvodíme pomocí
+pravidla pro derivaci složené funkce.
+
+02:14.426 --> 02:18.359
+Tento typ příkladu neuvidíte zrovna
+často, ale i tak je to zajímavé,
+
+02:18.359 --> 02:19.622
+takže si to
+spolu projdeme.
+
+02:19.622 --> 02:23.282
+Je možné, že se s tím potkáte i ve
+při probírání diferenciálního počtu.
+
+02:23.282 --> 02:27.731
+Začneme s libovolnou
+z těchto dvou rovností nahoře.
+
+02:27.731 --> 02:32.228
+Začněme tedy
+s rovností...
+
+02:32.228 --> 02:35.759
+Začněme s
+touhle rovností.
+
+02:35.759 --> 02:43.012
+Máme tedy, že g v
+bodě h(x) se rovná x.
+
+02:43.012 --> 02:45.856
+Tady musí
+být h(x).
+
+02:45.856 --> 02:50.849
+Tohle platí z definice, protože
+h a g jsou navzájem inverzní.
+
+02:50.849 --> 02:53.263
+Nyní zderivujme
+obě strany rovnice.
+
+02:53.263 --> 03:00.756
+Spočítejme derivaci
+podle x obou stran.
+
+03:00.756 --> 03:03.660
+Na levé straně použijeme pravidlo
+pro derivaci složené funkce,
+
+03:03.660 --> 03:17.217
+což nám dá g s čárkou v bodě h(x)
+krát h s čárkou v bodě x.
+
+03:17.217 --> 03:19.355
+Jen jsme zderivovali
+složenou funkci.
+
+03:19.355 --> 03:21.307
+Tohle se
+bude rovnat...
+
+03:21.307 --> 03:24.081
+Čemu se rovná
+derivace podle x z x?
+
+03:24.081 --> 03:26.778
+...se bude
+rovnat 1.
+
+03:26.778 --> 03:28.470
+Teď už je to
+docela zajímavé.
+
+03:28.470 --> 03:31.681
+Naším úkolem je spočítat,
+kolik je h s čárkou v bodě 3.
+
+03:31.681 --> 03:40.183
+Umíme zjistit, kolik je h(3) a následně
+i kolik je g s čárkou v bodě h(3),
+
+03:40.183 --> 03:42.609
+takže bychom měli být
+schopni určit i h(x) s čárkou.
+
+03:42.609 --> 03:44.937
+Nebo si to můžeme
+takto přepsat.
+
+03:44.937 --> 03:57.877
+Můžeme napsat, že h s čárkou v bodě x
+se rovná 1 lomeno g s čárkou v bodě h(x).
+
+03:57.877 --> 04:01.562
+Někteří po vás možná budou chtít,
+abyste se to naučili nazpaměť,
+
+04:01.562 --> 04:05.431
+a pro tohle cvičení Khan Academy by se
+znalost tohoto vzorce nazpaměť asi hodila.
+
+04:05.431 --> 04:10.409
+Řeknu vám však, že 20 let po mých hodinách
+diferenciálního počtu, už skoro 25 let,
+
+04:10.409 --> 04:13.574
+si tohle neuchovávám
+v dlouhodobé paměti.
+
+04:13.574 --> 04:19.605
+Zapamatoval jsem si ale, že to jde
+odvodit z definice inverzních funkcí.
+
+04:19.605 --> 04:23.554
+Tento vzorec teď můžeme využít
+k výpočtu h s čárkou v bodě 3.
+
+04:23.554 --> 04:34.916
+h s čárkou v bodě 3 se rovná
+1 lomeno g s čárkou v bodě h(3),
+
+04:34.916 --> 04:37.660
+což hádám, že
+známe ze zadání.
+
+04:37.660 --> 04:38.891
+Takže h(3)...
+
+04:38.891 --> 04:43.254
+Když je x rovno 3, hodnota h je 4,
+takže tomu se rovná h(3).
+
+04:43.254 --> 04:47.100
+h(3) se rovná 4, takže teď potřebujeme
+zjistit g s čárkou v bodě 4.
+
+04:47.100 --> 04:54.783
+Naštěstí ze zadání víme, že když je
+x rovno 4, g s čárkou je 1 lomeno 2.
+
+04:54.783 --> 04:58.305
+g s čárkou v bodě 4
+je tedy 1 lomeno 2,
+
+04:58.305 --> 05:01.950
+takže h s čárkou v bodě 3 je
+1 lomeno (1 lomeno 2).
+
+05:01.950 --> 05:03.441
+1 lomeno
+(1 lomeno 2)...
+
+05:03.441 --> 05:06.129
+1 děleno (1 lomeno 2)
+je totéž jako 1 krát 2,
+
+05:06.129 --> 05:10.986
+takže to celé bude 2
+a máme hotovo.

@@ -1,0 +1,613 @@
+WEBVTT
+
+00:00.606 --> 00:02.305
+Então nós temos uma série infinita.
+
+00:02.305 --> 00:05.113
+Menos um elevado a n mais um
+sobre a raiz quadrada de n.
+
+00:05.113 --> 00:06.630
+Eu gosto de visualizar isso
+
+00:06.630 --> 00:08.276
+se forma mais expandida.
+
+00:08.276 --> 00:10.685
+Quando n for igual a
+um, o primeiro termo é menos
+
+00:10.685 --> 00:12.461
+um ao quadrado, então fica positivo.
+
+00:12.461 --> 00:14.387
+Vai ser um sobre um, portanto temos
+
+00:14.387 --> 00:16.929
+um menos um sobre raiz quadrada de dois
+
+00:16.929 --> 00:19.575
+mais um sobe a raiz quadrado de três
+
+00:19.575 --> 00:22.115
+menos um sobre raiz quadrada de quatro e
+
+00:22.115 --> 00:25.379
+mais, menos, e vamos
+continuando para sempre.
+
+00:26.002 --> 00:28.810
+Quando olhamos para
+o teste de convergência
+
+00:28.810 --> 00:32.218
+para séries infinitas assim.
+
+00:32.235 --> 00:35.102
+Isso passa no teste de séries alternadas
+
+00:35.102 --> 00:37.015
+então sabemos que ela converge.
+
+00:37.015 --> 00:40.063
+Digamos que convirja para um valor S.
+
+00:40.473 --> 00:42.401
+Mas o que nos importa nesse vídeo
+
+00:42.401 --> 00:44.923
+não é se converge, mas é calcular para
+
+00:44.923 --> 00:47.436
+onde ela converge.
+
+00:47.436 --> 00:51.197
+Sabemos que podemos estimar
+por uma soma parcial.
+
+00:51.827 --> 00:55.844
+Digamos Sk, esses serão
+os primeiros termos k aqui
+
+00:55.844 --> 00:57.561
+e você vai ter um resto,
+
+00:57.561 --> 01:01.953
+então mais o resto depois de
+ter tirado os primeiros termos k.
+
+01:01.953 --> 01:04.882
+Então aqui começa com
+o primeiro termo k positivo.
+
+01:05.283 --> 01:07.335
+E o que me interessa é, ou o que eu quero
+
+01:07.335 --> 01:10.843
+descobrir, é qual é o
+número mínimo de termos,
+
+01:10.843 --> 01:15.030
+qual é o meu menor k aqui
+para que meu resto,
+
+01:15.030 --> 01:17.666
+para que o valor absoluto do meu resto
+
+01:17.666 --> 01:22.666
+seja menor ou igual a 0,001.
+
+01:23.467 --> 01:25.164
+E o encorajo a pausar o vídeo e
+
+01:25.164 --> 01:26.403
+baseado no que já vimos
+
+01:26.403 --> 01:28.981
+sobre estimativas de séries alternadas
+
+01:28.981 --> 01:30.663
+veja se consegue descobrir isso.
+
+01:31.620 --> 01:35.552
+Assumindo que já tenha começado.
+
+01:35.552 --> 01:39.210
+Vamos nos lembrar com o que Rk se parece.
+
+01:39.210 --> 01:46.040
+Rk vai começar com o
+primeiro termo k positivo.
+
+01:46.211 --> 01:50.371
+Então vai ser menos um k mais um mais um,
+
+01:50.371 --> 01:54.483
+então é menos um
+elevado a k mais dois sobre
+
+01:54.483 --> 02:02.243
+a raiz quadrada de k mais um.
+
+02:02.415 --> 02:06.343
+E o próximo termo eu posso escrever mais
+
+02:06.343 --> 02:10.465
+menos um elevado a k mais três sobre
+
+02:10.465 --> 02:14.211
+a raiz quadrada de k mais dois.
+
+02:14.235 --> 02:17.198
+E vai continuar dessa maneira.
+
+02:17.732 --> 02:20.683
+Agora o que já sabemos,
+ou o que vimos no exemplo,
+
+02:20.683 --> 02:23.242
+e vamos verificar, ao menos
+de forma conceitual,
+
+02:23.242 --> 02:27.872
+no final desse vídeo. O valor absoluto
+
+02:27.872 --> 02:34.002
+dessa soma será menor que
+
+02:34.022 --> 02:36.397
+o valor absoluto do primeiro termo.
+
+02:36.397 --> 02:37.842
+Deixa eu escrever isso.
+
+02:37.842 --> 02:42.842
+O valor desse resto Rk...
+
+02:42.881 --> 02:45.280
+E algumas pessoas se referem a isso como
+
+02:45.280 --> 02:48.232
+uma propriedade de resto
+de séries alternadas
+
+02:48.232 --> 02:49.998
+ou da forma que quiser chamá-la.
+
+02:49.998 --> 02:52.184
+Mas o valor absoluto disso aqui
+
+02:52.184 --> 02:55.671
+será menor ou igual ao valor absoluto
+
+02:55.671 --> 03:00.671
+do primeiro termo, menos
+um elevado a k mais dois
+
+03:00.848 --> 03:04.822
+sobre a raiz quadrada de k mais um.
+
+03:04.822 --> 03:08.631
+E claro que queremos que seja
+menor que um milésimo.
+
+03:08.631 --> 03:13.631
+Então isso precisa ser
+menor ou igual a 0,001.
+
+03:14.786 --> 03:17.480
+Agora esse conjunto aqui te inspira,
+
+03:17.480 --> 03:19.752
+de novo encorajo a pausar o vídeo
+
+03:19.752 --> 03:21.574
+e ver se consegue descobrir qual é
+
+03:21.574 --> 03:26.266
+o menor k que satisfaz essa inequação.
+
+03:27.422 --> 03:30.690
+Estou assumindo que tenha seguido
+minha sugestão.
+
+03:30.690 --> 03:32.820
+A percepção chave aqui é que
+
+03:32.820 --> 03:35.174
+menos um elevado a k
+mais dois ou deixa isso
+
+03:35.174 --> 03:36.435
+tudo positivo ou negativo.
+
+03:36.435 --> 03:38.514
+O denominador vai ser positivo.
+
+03:38.514 --> 03:40.826
+Vai ser positivo para todos os k's
+
+03:40.826 --> 03:43.089
+que possuam raízes definidas
+
+03:43.089 --> 03:44.691
+mas obviamente, todos
+
+03:44.691 --> 03:47.320
+esses k's são positivos.
+
+03:47.320 --> 03:50.128
+Então o numerador aqui muda o sinal.
+
+03:50.128 --> 03:52.999
+Muda entre mais um e menos um,
+
+03:52.999 --> 03:54.616
+menos um ou mais um.
+
+03:54.616 --> 03:58.074
+Mas se tomarmos o valor absoluto, seja
+
+03:58.074 --> 04:00.358
+negativo ou positivo,
+vai terminar positivo.
+
+04:00.358 --> 04:06.448
+Então isso aqui do lado esquerdo é igual
+
+04:06.480 --> 04:13.770
+a um sobre raiz quadrada de k mais um
+
+04:13.886 --> 04:20.606
+e isso vai ser menor ou igual a 0,001.
+
+04:21.132 --> 04:24.544
+Agora só precisamos
+resolver essa inequação.
+
+04:24.544 --> 04:28.105
+Descobrir quais k's satisfazem a inequação
+
+04:28.105 --> 04:30.310
+Vamos ver, podemos
+multiplicar os dois lados
+
+04:30.310 --> 04:32.547
+pela raiz de k mais um.
+
+04:32.547 --> 04:35.135
+Então raiz de k mais um sai
+
+04:35.135 --> 04:36.904
+desse denominador.
+
+04:36.904 --> 04:39.990
+E vamos multiplicar os dois lados por 1000
+
+04:39.990 --> 04:42.023
+pois aqui é um milésimo, aí ficamos com
+
+04:42.023 --> 04:43.317
+um no lado direito.
+
+04:43.317 --> 04:47.748
+Então, vezes 1000.
+
+04:47.748 --> 04:50.595
+E o que nos resta,
+
+04:50.595 --> 04:53.165
+esses cancelam no lado direito.
+
+04:53.672 --> 04:54.884
+Não precisa mudar o sinal
+
+04:54.884 --> 04:56.789
+pois só multiplicamos por positivos.
+
+04:56.789 --> 05:00.958
+Então temos 1000 menor ou igual a
+
+05:00.958 --> 05:03.629
+raiz quadrada de k mais um.
+
+05:03.629 --> 05:09.112
+Podemos elevar ao quadrado os
+dois lados e teremos 1.000.000
+
+05:09.112 --> 05:13.344
+menor ou igual a k mais um.
+
+05:13.344 --> 05:17.304
+Aí podemos subtrair um dos dois lados
+
+05:17.304 --> 05:21.855
+e teremos 999.999
+
+05:21.855 --> 05:24.710
+menor ou igual a k.
+
+05:24.710 --> 05:29.710
+Então k precisa ser maior
+ou igual a 999.999.
+
+05:30.192 --> 05:32.157
+E lembre-se que queremos o menor k
+
+05:32.157 --> 05:33.539
+que satisfaça essas condições
+
+05:33.539 --> 05:34.556
+Então o menor k vai
+
+05:34.556 --> 05:36.254
+ser maior ou igual a isso,
+
+05:36.254 --> 05:42.184
+o menor k que satisfaz
+será igual a 999.999.
+
+05:42.184 --> 05:43.811
+Então vamos escrever isso.
+
+05:44.201 --> 05:46.671
+O menor k para que isso seja verdade
+
+05:46.671 --> 05:52.811
+precisa ser igual a 999.999.
+
+05:53.541 --> 05:56.656
+Agora vamos nos convencer
+de que esse resto,
+
+05:56.656 --> 05:58.538
+que o valor absoluto desse resto
+
+05:58.538 --> 06:01.416
+será menor...
+
+06:04.573 --> 06:06.002
+Se tomarmos a soma parcial dos
+
+06:06.002 --> 06:09.910
+primeiros 999.999 termos, esse resto
+
+06:09.910 --> 06:12.766
+será menor que isso.
+
+06:12.766 --> 06:14.532
+Até agora, só trabalhamos a
+
+06:14.532 --> 06:15.685
+partir da premissa,
+
+06:15.685 --> 06:18.461
+mas vamos olhar para isso e apreciar.
+
+06:18.461 --> 06:19.471
+E de novo, encorajo
+
+06:19.471 --> 06:21.384
+a pausar o vídeo e tentar sozinho.
+
+06:22.306 --> 06:23.765
+Então vamos reescrever isso,
+
+06:23.765 --> 06:26.103
+Mas vou expandir o Rk.
+
+06:26.103 --> 06:29.789
+Então estamos dizendo
+que isso vai convergir em S
+
+06:29.789 --> 06:33.949
+e vamos tomar a soma parcial dos primeiros
+
+06:33.949 --> 06:38.569
+999.999 termos e estamos dizendo que isso
+
+06:38.569 --> 06:41.347
+vai estar dentro de um milésimo disso aqui
+
+06:41.801 --> 06:43.685
+Então aqui vai ser mais, e
+
+06:43.685 --> 06:47.507
+o primeiro termo do resto,
+
+06:47.507 --> 06:53.807
+de Rk, vai ser nosso milésimo termo.
+
+06:54.299 --> 06:59.299
+E o milionésimo termo
+será, vamos nos lembrar,
+
+06:59.417 --> 07:03.502
+será menos um elevado a
+milésima primeira potência
+
+07:03.502 --> 07:05.502
+menos um à milésima primeira potência,
+
+07:05.502 --> 07:08.306
+que será menos um,
+
+07:08.306 --> 07:09.615
+pois é um número ímpar.
+
+07:09.615 --> 07:11.249
+Então será menos um sobre
+
+07:11.249 --> 07:13.012
+raiz quadrada de um milhão.
+
+07:13.012 --> 07:14.253
+Então deixa eu fazer assim.
+
+07:14.253 --> 07:17.090
+Será menos um
+
+07:17.090 --> 07:21.976
+sobre a raiz quadrada de um milhão.
+
+07:22.190 --> 07:24.161
+E o próximo termo será mais um
+
+07:24.161 --> 07:30.341
+sobre a raiz quadrada de um milhão e um.
+
+07:30.667 --> 07:32.726
+E agora é positivo, pois será
+
+07:33.389 --> 07:37.475
+menos um elevado a
+milésima segunda potência.
+
+07:37.475 --> 07:41.791
+Depois, menos um sobre a
+
+07:41.791 --> 07:47.561
+raiz quadrada de um milhão e dois.
+
+07:48.004 --> 07:51.274
+Depois, vou fazer só mais dois termos.
+
+07:51.274 --> 07:58.394
+Um sobre a raiz quadrada
+de um milhão e três.
+
+07:58.896 --> 08:03.896
+Depois menos um sobre a raiz quadrada de
+
+08:04.337 --> 08:08.132
+um milhão e quatro, depois mais, menos,
+
+08:08.132 --> 08:12.074
+e continua até o infinito.
+
+08:12.074 --> 08:15.613
+Agora quero nos convencer de que isso
+
+08:15.613 --> 08:18.921
+será, o valor absoluto disso
+
+08:18.921 --> 08:21.483
+será menor que um milésimo.
+
+08:21.483 --> 08:22.761
+Menor que o valor
+
+08:22.761 --> 08:25.612
+absoluto desse primeiro termo.
+
+08:25.612 --> 08:26.835
+Como pensamos nisso?
+
+08:26.835 --> 08:28.047
+O primeiro já sabemos,
+
+08:28.047 --> 08:32.625
+esse primeiro termo aqui é
+
+08:32.625 --> 08:41.175
+menos 0,001, pois é um sobre mil
+
+08:41.325 --> 08:43.684
+e temos esse negativo aqui.
+
+08:43.684 --> 08:45.556
+A primeira coisa que podemos perceber,
+
+08:45.556 --> 08:51.932
+se colocarmos parênteses assim,
+
+08:52.522 --> 08:54.534
+vemos que esse vai ser positivo,
+
+08:54.534 --> 08:56.045
+esse termo é maior que esse,
+
+08:56.045 --> 08:57.133
+esse é maior que esse,
+
+08:57.133 --> 08:58.426
+e vai indo.
+
+09:02.963 --> 09:06.163
+Então o resto começa
+em menos um milésimo
+
+09:06.163 --> 09:08.521
+e depois apenas soma
+vários termos positivos.
+
+09:08.521 --> 09:11.474
+Então não vai ficar
+mais negativo que isso.
+
+09:11.474 --> 09:13.926
+Sabemos então que o resto
+não fica mais negativo
+
+09:13.926 --> 09:16.342
+do que isso, mas vamos
+verificar que ele não pode
+
+09:16.972 --> 09:20.352
+ficar maior que mais um milésimo também.
+
+09:20.352 --> 09:23.353
+E para isso, basta olharmos
+
+09:23.353 --> 09:25.326
+os parênteses de forma diferente.
+
+09:25.326 --> 09:32.736
+Se fizermos dessa forma,
+teremos um valor negativo.
+
+09:33.229 --> 09:35.691
+Esse aqui vai ser negativo.
+
+09:35.691 --> 09:40.060
+E podemos dizer, mais isso, mais isso,
+
+09:40.060 --> 09:40.989
+e vamos ter vários
+
+09:40.989 --> 09:42.475
+valores negativos juntos.
+
+09:42.475 --> 09:45.195
+Então dessa forma, apenas
+olhando os parênteses
+
+09:45.195 --> 09:47.168
+de forma diferente, podemos
+
+09:47.168 --> 09:48.792
+dizer que isso vai ser negativo.
+
+09:48.792 --> 09:51.224
+Esse resto certamente
+vai ser um valor negativo,
+
+09:51.224 --> 09:55.326
+mas não mais negativo do
+que o nosso primeiro termo.
+
+09:55.326 --> 10:02.957
+Isso nos mostra que o
+valor absoluto do resto
+
+10:02.957 --> 10:06.527
+não pode ficar maior do que um milésimo.
+
+10:07.365 --> 10:09.364
+Quanto mais adicionamos termos aqui
+
+10:09.364 --> 10:12.280
+não estamos ficando mais longe
+
+10:13.172 --> 10:18.172
+da soma do primeiro termo.

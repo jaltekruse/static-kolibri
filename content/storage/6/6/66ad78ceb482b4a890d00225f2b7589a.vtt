@@ -1,0 +1,763 @@
+WEBVTT
+
+00:00.370 --> 00:03.036
+W ostatnim filmie liczyliśmy rozwinięcie szeregu McLaurina
+
+00:03.405 --> 00:06.067
+funkcji e^x i otrzymaliśmy
+
+00:06.067 --> 00:08.975
+wynik, który przypomina w pewien sposób
+
+00:09.113 --> 00:16.333
+wielomianowe przybliżenie cosx i sinx.
+
+00:16.333 --> 00:17.467
+Jednakże nie jest on dokładny,
+
+00:17.467 --> 00:19.000
+ponieważ w kilku miejscach pojawiają się minusy.
+
+00:19.000 --> 00:21.067
+Jeśli byśmy je naprawdę do siebie dodali
+
+00:21.067 --> 00:22.333
+to nie otrzymalibyśmy...
+
+00:22.333 --> 00:25.621
+to nie otrzymalibyśmy e^x.
+
+00:26.021 --> 00:27.846
+Ale zaniedbując to...
+
+00:27.908 --> 00:31.667
+Zrobię coś, co nie wiem czy można nazywać sztuczką...
+
+00:31.667 --> 00:36.400
+Zobaczmy czy jeśli rozpatrzymy to wielomianowe rozwinięcie.
+
+00:36.400 --> 00:38.500
+Jest to przybliżenie,
+
+00:38.500 --> 00:40.150
+co się stanie...
+
+00:40.150 --> 00:41.400
+Załóżmy że e do potęgi x jest równe prawej stronie,
+
+00:41.400 --> 00:44.559
+gdy po prawej ilość ułamków rośnie do nieskończoności
+
+00:44.590 --> 00:46.010
+i przestaje to być przybliżenie
+
+00:46.010 --> 00:47.990
+a staje się dokładnym wzorem.
+
+00:48.698 --> 00:51.552
+Co się stanie, jeśli rozpatrzę e do potęgi ix.
+
+00:51.552 --> 00:54.605
+Wcześniej mogłoby to się wydać bardzo dziwne
+
+00:54.738 --> 00:55.823
+Pozwól, że to zapiszę
+
+00:56.096 --> 00:57.150
+e do potęgi ix...
+
+00:57.735 --> 01:00.912
+Bo jak zdefiniować stałą e do potęgi i,
+
+01:00.912 --> 01:04.150
+to bardzo dziwne podnosić coś do potęgi ix
+
+01:04.688 --> 01:07.312
+Jak w ogóle rozumieć funkcję tego rodzaju.
+
+01:07.312 --> 01:09.348
+Ale teraz kiedy możemy wyrazić to w formie
+
+01:09.348 --> 01:12.199
+wielomianowego przybliżenia e^ix
+
+01:12.199 --> 01:13.590
+może zrozumiemy co to tak naprawdę jest,
+
+01:13.590 --> 01:16.990
+bo możemy podnosić e do różnych potęg
+
+01:16.990 --> 01:18.852
+i wiemy co otrzymamy w wyniku takiego działania
+
+01:18.852 --> 01:20.533
+bo i do kwadratu to minus 1
+
+01:20.533 --> 01:21.800
+i do sześcianu daje minus i
+
+01:21.800 --> 01:23.400
+i tak dalej...
+
+01:23.400 --> 01:25.473
+Co jeśli rozpatrzymy e^ix
+
+01:25.473 --> 01:27.284
+Jeszcze raz, to tak jak podnoszenie e do potęgi x
+
+01:27.284 --> 01:29.281
+tylko x zastępujemy ix
+
+01:29.281 --> 01:30.953
+Wszędzie gdzie widzimy x po prawej stronie,
+
+01:30.953 --> 01:33.361
+w tym wielomianowym przybliżeniu,
+
+01:33.361 --> 01:35.123
+zastępujemy go przez ix.
+
+01:35.123 --> 01:36.662
+Zróbmy tak więc
+
+01:36.662 --> 01:39.708
+e do ix powinno w przybliżeniu równać się,
+
+01:39.708 --> 01:41.733
+a będzie to coraz bardziej dokładne,
+
+01:41.733 --> 01:42.867
+i jest to bardziej kwestia intuicji,
+
+01:42.867 --> 01:44.600
+nie będę tego tu dowodził,
+
+01:44.600 --> 01:46.867
+ale dalej jest to ważne.
+
+01:46.867 --> 01:48.142
+Nie chcę wyolbrzymiać na zapas,
+
+01:48.142 --> 01:52.680
+ale wątpię żeby dało się nie wyolbrzymiać tego, co zaraz się tu stanie.
+
+01:52.680 --> 01:54.617
+Będzie to się równać
+
+01:54.617 --> 01:58.600
+jeden plus i, zamiast x podstawiamy ix
+
+01:58.600 --> 02:01.963
+plus ix plus...
+
+02:01.963 --> 02:04.501
+Więc co to jest ix do kwadratu
+
+02:04.501 --> 02:06.067
+Będzie się to równać...
+
+02:06.067 --> 02:06.764
+Pozwólcie że zapiszę...
+
+02:06.764 --> 02:11.462
+ix do kwadratu nad dwa silnia
+
+02:11.462 --> 02:14.005
+i kwadrat równa się minus jeden
+
+02:14.005 --> 02:15.795
+i otrzymamy x kwadrat
+
+02:15.795 --> 02:17.267
+nad dwa silnia
+
+02:17.267 --> 02:21.920
+co daje minus x kwadrat nad dwa silnia.
+
+02:21.920 --> 02:23.732
+Myślę, że może zaczynasz widzieć co to przypomina.
+
+02:23.732 --> 02:24.753
+I teraz,
+
+02:24.753 --> 02:26.657
+ile równa się ix do sześcianu?
+
+02:26.657 --> 02:27.867
+Pamiętaj, wszędzie, gdzie widzisz x
+
+02:27.867 --> 02:29.490
+wstawiasz ix
+
+02:29.490 --> 02:31.859
+Więc ile równa się ix do sześcianu przez trzy silnia?
+
+02:31.859 --> 02:33.716
+Pozwól, że to zapiszę.
+
+02:33.716 --> 02:35.600
+Zapiszę to jeszcze raz, nie pomijając czegokolwiek.
+
+02:35.600 --> 02:37.533
+W takim razie otrzymujemy
+
+02:37.533 --> 02:41.092
+ix kwadrat przez dwa silnia
+
+02:41.092 --> 02:45.995
+Chwila, zrobię to dokładnie tak, jak powinno być.
+
+02:45.995 --> 02:52.246
+plus ix kwadrat przez dwa silnia
+
+02:52.246 --> 02:57.279
+plus ix do sześcianu nad trzy silnia
+
+02:57.279 --> 03:03.559
+plus ix do potęgi czwartej przez cztery silnia
+
+03:03.559 --> 03:05.036
+i tak możemy kontynuować
+
+03:05.036 --> 03:10.404
+plus ix do potęgi piątej przez pięć silnia
+
+03:10.404 --> 03:13.562
+i tak do nieskończoności
+
+03:13.562 --> 03:18.800
+Teraz obliczmy wartość tych ix-ów przy różnych silniach
+
+03:18.800 --> 03:24.102
+Otrzymujemy jeden plus ix
+
+03:24.102 --> 03:28.333
+ix do kwadratu równa się i do kwadratu razy x do kwadratu
+
+03:28.333 --> 03:29.867
+i do kwadratu równa się minus jeden
+
+03:29.867 --> 03:34.733
+więc otrzymujemy minus x kwadrat nad dwa silnia
+
+03:34.733 --> 03:38.985
+i z tego otrzymujemy i do sześcianu razy x do sześcianu
+
+03:39.000 --> 03:43.115
+i do trzeciej równa się i kwadrat razy i
+
+03:43.115 --> 03:44.868
+co daje minus i
+
+03:44.868 --> 03:48.670
+więc otrzymujemy minus i razy x do potęgi trzeciej
+
+03:48.670 --> 03:51.933
+nad trzy silnia
+
+03:51.933 --> 03:53.500
+i teraz,
+
+03:53.500 --> 03:55.400
+plus
+
+03:55.400 --> 03:57.208
+otrzymujemy...
+
+03:57.208 --> 03:59.231
+Ile równa się ix do potęgi cztery?
+
+03:59.231 --> 04:01.200
+to się równa i kwadrat razy i kwadrat
+
+04:01.200 --> 04:04.867
+minus jeden razy minus jeden daje jeden
+
+04:04.867 --> 04:06.287
+i do czwartej daje jeden
+
+04:06.287 --> 04:10.418
+otrzymujemy więc x do czwartej przez cztery silnia
+
+04:10.418 --> 04:12.841
+i teraz otrzymujesz
+
+04:12.841 --> 04:15.964
+plus ix do piątej
+
+04:15.964 --> 04:27.401
+więc plus i razy x do piątej przez pięć silnia.
+
+04:27.401 --> 04:30.600
+Myślę że teraz możesz zauważać wzorzec
+
+04:30.600 --> 04:33.670
+współczynnik równa się jedne, potem i, dalej minus jeden
+
+04:33.670 --> 04:35.333
+później minus i oraz jeden
+
+04:35.333 --> 04:44.132
+później i oraz i razy x do szóstej przez sześć silnia
+
+04:44.132 --> 04:51.921
+i dalej minus i razy x do siódmej przez siedem silnia.
+
+04:51.921 --> 04:53.175
+Mamy więc różne ułamki,
+
+04:53.175 --> 04:54.104
+niektóre z nich są rzeczywiste, inne urojone
+
+04:58.889 --> 05:03.042
+dlaczego nie mielibyśmy ich od siebie oddzielić
+
+05:03.042 --> 05:05.482
+jeszcze raz, e do potęgi ix
+
+05:05.482 --> 05:06.828
+będzie się równać prawej stronie
+
+05:06.828 --> 05:08.733
+w przypadku nieskończonej ilości ułamków
+
+05:08.733 --> 05:12.575
+rozdzielmy ułamki rzeczywiste i nierzeczywiste
+
+05:12.575 --> 05:15.800
+albo rzeczywiste i urojone, jak powinienem powiedzieć
+
+05:15.800 --> 05:16.395
+to jest rzeczywiste i to
+
+05:16.395 --> 05:18.903
+to również
+
+05:18.903 --> 05:21.600
+i to też jest rzeczywiste
+
+05:21.600 --> 05:23.741
+a także to
+
+05:23.741 --> 05:27.513
+i tak moglibyśmy kontuować
+
+05:27.513 --> 05:30.048
+rzeczywiste części równają sie
+
+05:30.048 --> 05:34.589
+jeden minus x kwadrat przez dwa silnia
+
+05:34.589 --> 05:38.323
+plus x do czwartej nad cztery silnia
+
+05:38.323 --> 05:41.115
+i teraz możesz się już podniecać
+
+05:41.115 --> 05:43.768
+minus x do szóstej przez sześć silnia
+
+05:43.768 --> 05:47.467
+plus, to już wszystko co zapisałem powyżej ale moglibyśmy tak dalej.
+
+05:47.467 --> 05:50.748
+To są wszystkie części rzeczywiste.
+
+05:50.748 --> 05:52.464
+Które są zatem urojone?
+
+05:52.464 --> 05:55.944
+Pozwól, że wyłączę i przed nawias
+
+05:55.944 --> 05:59.729
+więc otrzymujemy plus i
+
+05:59.729 --> 06:02.967
+razy ix co daje x
+
+06:02.967 --> 06:03.786
+i teraz...
+
+06:03.786 --> 06:05.590
+to urojona część
+
+06:05.590 --> 06:06.567
+i to również
+
+06:06.636 --> 06:08.719
+wyciągnąłem i przed nawias
+
+06:08.719 --> 06:14.328
+tak więc minus x do sześcianu przez trzy silnia
+
+06:14.328 --> 06:17.797
+kolejny urojony ułamek jest tutaj, wyciągamy i przed nawias
+
+06:17.797 --> 06:22.190
+plus x do piątej przez pięć silnia
+
+06:22.190 --> 06:23.482
+i kolejny urojony ułamek
+
+06:23.482 --> 06:24.293
+jest tutaj
+
+06:24.293 --> 06:25.916
+wyciągnęliśmy i przed nawias
+
+06:25.916 --> 06:30.142
+otrzymujemy więc minus x do siódmej ponad siedem silnia
+
+06:30.142 --> 06:32.417
+i oczywiście tak byśmy kontynuowali
+
+06:32.417 --> 06:34.600
+plus minus tak dalej
+
+06:34.600 --> 06:38.400
+najlepiej do nieskończoności, aby otrzymać jak najdokładniejszy wzór.
+
+06:38.400 --> 06:40.533
+Jesteśmy więc w sytuacji
+
+06:40.533 --> 06:47.902
+że e do potęgi ix jest równe całej prawej stronie
+
+06:47.902 --> 06:49.441
+ale, prawdopodobnie pamiętasz
+
+06:49.441 --> 06:51.010
+z ostatnich kilku wideo,
+
+06:51.010 --> 06:54.533
+że ta część rzeczywista równa się temu
+
+06:54.533 --> 06:58.421
+przybliżeniu Mclaurina cosx
+
+06:58.421 --> 06:59.769
+w otoczeniu punktu zero
+
+06:59.769 --> 07:02.133
+właściwie to przybliżenie Taylora w otoczeniu zera
+
+07:02.133 --> 07:04.467
+które możemy również nazywać przybliżeniem Mclaurina
+
+07:04.467 --> 07:08.192
+Tak więc to i to są sobie równe
+
+07:08.192 --> 07:11.533
+to jest więc cosx
+
+07:11.533 --> 07:13.800
+Szczególnie, jeśli będziesz miał nieskończoną ilość ułamków
+
+07:13.800 --> 07:15.241
+cosx
+
+07:15.241 --> 07:18.375
+to tutaj jest sinx
+
+07:18.375 --> 07:19.436
+dokładnie to samo
+
+07:19.436 --> 07:21.200
+wygląda na to, że otrzymaliśmy sposób
+
+07:21.200 --> 07:24.015
+który pozwala nam przybliżyć sinx i cosx żeby otrzymać
+
+07:24.015 --> 07:27.200
+coś takiego
+
+07:27.200 --> 07:30.133
+to tutaj jest równe sinx
+
+07:30.133 --> 07:32.267
+Tak więc, jeśli uznasz to za prawdę,
+
+07:32.267 --> 07:33.800
+nie będę tego dowodził,
+
+07:33.800 --> 07:35.947
+że jeśli weźmiesz nieskończoną ilość ułamków w tym miejscu
+
+07:35.947 --> 07:38.600
+to stanie się cosx
+
+07:38.600 --> 07:40.359
+i jeśli weźmiesz nieskończoną ilość ułamków tutaj,
+
+07:40.359 --> 07:41.334
+to stanie się sinx
+
+07:41.334 --> 07:45.560
+co prowadzi do fascynującego, fascynującego wzoru
+
+07:45.560 --> 07:46.396
+Możemy powiedzieć,
+
+07:46.396 --> 07:47.800
+że e do ix,
+
+07:47.800 --> 07:49.634
+e do potęgi ix
+
+07:49.634 --> 07:51.467
+jest równe
+
+07:51.467 --> 07:53.716
+cosx...
+
+07:53.716 --> 07:54.904
+cosx
+
+07:54.904 --> 07:57.368
+Powinieneś mieć już jakieś prześwity
+
+07:57.368 --> 08:02.507
+...jest równe cosx plus i razy sinx
+
+08:02.522 --> 08:08.554
+i to jest formuła Eulera!
+
+08:08.554 --> 08:12.408
+to tutaj to Formuła Eulera
+
+08:12.408 --> 08:14.944
+i jeśli to samo w sobie nie jest dla Ciebie wystarczająco
+
+08:14.944 --> 08:16.489
+szalone i podniecające
+
+08:16.489 --> 08:18.133
+a naprawdę powinno,
+
+08:18.133 --> 08:19.647
+ponieważ zrobiliśmy naprawdę fascynujące rzeczy
+
+08:19.647 --> 08:21.236
+mamy tutaj e do ix
+
+08:21.236 --> 08:23.800
+które otrzymaliśmy z przybliżania nieskończoną ilością
+
+08:23.800 --> 08:24.867
+ułamków prostych
+
+08:24.867 --> 08:25.667
+mamy cos x i sinx
+
+08:25.667 --> 08:26.984
+które są stosunkami trójkątów
+
+08:26.984 --> 08:28.517
+które pochodzą wprost z okręgu jednostkowego
+
+08:28.517 --> 08:29.399
+i w jakiś sposób
+
+08:29.399 --> 08:30.978
+wrzuciliśmy tu pierwiastek z minus jeden
+
+08:30.978 --> 08:34.805
+wygląda, jakby istniało fascynujące połączenie,
+
+08:34.805 --> 08:36.851
+ale staje się ono jeszcze bardziej fascynujące
+
+08:36.851 --> 08:39.810
+założymy że posługujemy się teraz radianami [miara łukowa kąta],
+
+08:39.810 --> 08:42.263
+jeśli założymy, że formuła Eulera...
+
+08:42.263 --> 08:46.078
+Co dzieje się, gdy x jest równe π,
+
+08:46.078 --> 08:48.579
+po to żeby wrzucić tutaj kolejną szaloną liczbę,
+
+08:48.579 --> 08:51.226
+stosunek pomiędzy obwodem okręgu i promieniem.
+
+08:51.226 --> 08:52.666
+Co się stanie jeśli wstawimy tutaj π?
+
+08:52.666 --> 08:56.985
+otrzymymy e do potęgi iπ
+
+08:56.985 --> 08:59.566
+e do potęgi π
+
+08:59.566 --> 09:02.533
+jest równe cosπ
+
+09:02.533 --> 09:04.131
+Czym jest cosπ?
+
+09:04.131 --> 09:06.923
+cosπ to...
+
+09:06.923 --> 09:10.499
+π to pół drogi przez okrąg jednostkowy
+
+09:10.499 --> 09:13.935
+cosπ daje więc minus jeden
+
+09:13.935 --> 09:15.143
+i teraz
+
+09:15.143 --> 09:16.467
+sinπ
+
+09:16.467 --> 09:17.538
+daje zero
+
+09:17.538 --> 09:18.938
+tak więc ta część jest równa zero.
+
+09:18.938 --> 09:20.527
+Tak więc jeśli podstawisz π,
+
+09:20.527 --> 09:21.611
+otrzymujesz coś niesamowitego,
+
+09:21.611 --> 09:23.959
+i jest to nazywane tożsamością Eulera
+
+09:23.959 --> 09:26.335
+tożsamość Eulera
+
+09:26.335 --> 09:28.779
+(zawsze miałem problemy z pisownią nazwiska Euler)
+
+09:28.779 --> 09:30.884
+tożsamość Euleta
+
+09:30.884 --> 09:32.235
+które możemy zapisać jak teraz,
+
+09:32.235 --> 09:34.867
+ale możemy też dodać jeden do dwóch stron
+
+09:34.867 --> 09:37.200
+i zapisać to tak jak teraz
+
+09:37.200 --> 09:39.867
+zapisze to różnymi kolorami żeby to podkreślić
+
+09:39.867 --> 09:54.334
+e do i razy π plus 1 jest równe
+
+09:54.334 --> 09:57.467
+(dodaję po prostu jeden do dwóch stron)
+
+09:57.467 --> 10:00.467
+jest równe zero
+
+10:00.467 --> 10:02.467
+I TO JEST...
+
+10:02.467 --> 10:04.000
+...zmuszające do myślenia
+
+10:04.000 --> 10:05.000
+mam na myśli,
+
+10:05.000 --> 10:05.867
+tutaj mamy
+
+10:05.867 --> 10:08.533
+to nam pokazuje że są we wszechświecie powiązania
+
+10:08.533 --> 10:10.200
+których nie rozumiemy w pełni
+
+10:10.200 --> 10:11.533
+...albo przynajmniej ja nie rozumiem
+
+10:11.533 --> 10:12.728
+i jest zdefiniowane
+
+10:12.728 --> 10:14.261
+przez inżynierów, dla prostoty, po to żeby mogli
+
+10:14.261 --> 10:16.400
+znajdować pierwiastki różnych wielomianów
+
+10:16.400 --> 10:21.333
+jako, jak można powiedzieć, pierwiastek z minus jeden
+
+10:21.333 --> 10:23.151
+pierwiastek kwadratowy z minus jeden
+
+10:23.151 --> 10:29.307
+π jest stosunkiem obwodu łuku i jego promienia
+
+10:29.307 --> 10:30.840
+jeszcze raz, niezwykle ciekawa liczba
+
+10:30.840 --> 10:33.200
+ale z zupełnie innego miejsca niż i
+
+10:33.200 --> 10:35.716
+e pochodzi z wielu innych miejsc
+
+10:35.716 --> 10:39.152
+jest to procent składany
+
+10:39.152 --> 10:41.567
+bardzo ważna stała w finansach
+
+10:41.567 --> 10:45.933
+pochodzi także z zależności, że pochodna e do x jest równa e do x
+
+10:45.933 --> 10:47.800
+kolejna niezwykle fascynująca liczba
+
+10:47.800 --> 10:48.600
+jeszcze raz
+
+10:48.600 --> 10:49.416
+pozornie niepowiązane
+
+10:49.416 --> 10:50.716
+z tym jak otrzymaliśmy i,
+
+10:50.716 --> 10:53.927
+pozornie niepowiązane z tym jak otrzymaliśmy π
+
+10:53.927 --> 10:59.533
+i oczywiście masz jedną z najbardziej podstawowych stałych
+
+10:59.533 --> 11:00.467
+jeden
+
+11:00.467 --> 11:02.267
+nawet nie muszę tłumaczyc dlaczego jeden jest taką ważną liczbą
+
+11:02.267 --> 11:05.159
+i oczywiście nie powininem tłumaczyć dlaczego zero jest taką ważna liczbą
+
+11:05.159 --> 11:10.790
+to równanie wiąże ze sobą wszystkie te podstawowe liczby
+
+11:10.790 --> 11:12.667
+w jakiś tajemniczy sposób
+
+11:12.667 --> 11:15.840
+który pokazuje że jest jakieś powiązanie ze wszechświatem
+
+11:15.840 --> 11:17.230
+szczerze
+
+11:17.230 --> 11:18.273
+szczerze,
+
+11:18.273 --> 11:22.713
+jeśli to równanie nie powala Cię z nóg...
+
+11:22.713 --> 3:59:59.999
+...naprawdę, nie masz uczuć

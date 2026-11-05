@@ -1,0 +1,589 @@
+WEBVTT
+
+00:00.284 --> 00:01.442
+Já temos muita
+
+00:01.442 --> 00:03.722
+experiência com a série geométrica.
+
+00:03.956 --> 00:06.577
+Por exemplo, se tomarmos a
+série geométrica infinita
+
+00:07.101 --> 00:11.406
+de &lt;i>n&lt;/i> igual a &lt;i>k&lt;/i> até o
+infinito, de r elevado a n,
+
+00:11.406 --> 00:16.242
+que seria &lt;i>r&lt;/i> elevado a &lt;i>k&lt;/i>
+mais r elevado a k mais um
+
+00:16.242 --> 00:18.922
+mais &lt;i>r&lt;/i> elevado a &lt;i>k&lt;/i> mais dois
+
+00:18.922 --> 00:21.779
+e assim por diante.
+
+00:21.779 --> 00:23.991
+Há algumas coisas que já conhecemos.
+
+00:23.991 --> 00:26.240
+Sabemos qual é a razão.
+
+00:26.240 --> 00:31.240
+A razão, que é a relação entre
+
+00:31.558 --> 00:36.558
+termos consecutivos, será
+r elevado a k mais um.
+
+00:36.956 --> 00:39.956
+Na verdade, deixe-me escrever
+isto como r elevado a n mais um.
+
+00:39.956 --> 00:42.473
+Eu não quero me fixar neste &lt;i>k&lt;/i> aqui.
+
+00:42.473 --> 00:46.273
+Então &lt;i>r&lt;/i> elevado a &lt;i>n&lt;/i> mais um
+sobre r elevado a n
+
+00:46.422 --> 00:48.985
+será igual a &lt;i>r&lt;/i>.
+
+00:48.985 --> 00:51.724
+Algo elevado a &lt;i>n&lt;/i> mais um, sobre
+a mesma coisa elevado a n
+
+00:51.724 --> 00:54.794
+sempre será igual a &lt;i>r&lt;/i>,
+na primeira potência,
+
+00:54.794 --> 00:56.004
+e que você vê aqui.
+
+00:56.004 --> 00:57.573
+Quando for de um
+termo a outro
+
+00:57.573 --> 01:00.974
+está apenas multiplicando,
+apenas multiplicando por r,
+
+01:01.491 --> 01:04.345
+e isso é tudo revisão.
+
+01:04.345 --> 01:05.743
+Se não for revisão, recomendo
+
+01:05.743 --> 01:08.440
+que assista aos vídeos
+sobre série geométrica.
+
+01:08.440 --> 01:10.656
+O interessante
+é que provamos
+
+01:10.656 --> 01:13.305
+para nós mesmos, nos vídeos
+sobre a série geométrica,
+
+01:13.517 --> 01:19.339
+que se a razão,
+se o valor absoluto
+
+01:19.339 --> 01:22.408
+da razão é inferior a um,
+
+01:22.638 --> 01:28.291
+então a série converge.
+
+01:29.625 --> 01:32.257
+E se o valor absoluto de &lt;i>r&lt;/i>
+
+01:32.257 --> 01:34.575
+é maior do que ou igual a um,
+
+01:34.575 --> 01:35.988
+então a série diverge.
+
+01:35.988 --> 01:37.913
+E isso faz sentido,
+provamos isso também,
+
+01:37.913 --> 01:39.457
+mas também faz sentido
+
+01:39.457 --> 01:41.892
+se o valor absoluto
+de r é inferior a um
+
+01:41.892 --> 01:45.493
+então cada termo seguinte
+será diminuído
+
+01:45.493 --> 01:47.659
+ou será multiplicado
+por essa razão
+
+01:47.659 --> 01:50.659
+e vai diminuir
+
+01:50.659 --> 01:52.630
+até ser aproximar, mesmo
+
+01:52.630 --> 01:56.659
+sendo uma soma infinita, ele vai
+convergir para um valor finito.
+
+01:57.060 --> 01:59.459
+Agora, saindo da revisão,
+
+01:59.459 --> 02:04.459
+vamos enfrentar algo um
+pouco mais interessante.
+
+02:05.077 --> 02:07.493
+Suponha que queiramos olhar para,
+
+02:07.493 --> 02:11.526
+descobrir se uma série como esta,
+
+02:11.671 --> 02:13.793
+partindo de &lt;i>n&lt;/i> igual a cinco ao infinito
+
+02:13.793 --> 02:17.180
+de, digamos, &lt;i>n&lt;/i> à décima potência.
+
+02:17.180 --> 02:19.577
+O numerador está crescendo rapidamente.
+
+02:19.577 --> 02:23.492
+&lt;i>n&lt;/i> à décima potência sobre fatorial de &lt;i>n&lt;/i>
+
+02:23.492 --> 02:25.876
+e sabemos que fatoriais
+crescem muito rapidamente,
+
+02:25.876 --> 02:27.427
+provavelmente, muito mais rápido
+
+02:27.427 --> 02:31.460
+mesmo um polinômio de
+grau elevado como este,
+
+02:31.460 --> 02:33.243
+ou um termo de alto grau como este,
+
+02:33.243 --> 02:36.527
+mas como vamos provar que converge?
+
+02:36.527 --> 02:38.293
+Poderíamos testar sua divergência
+
+02:38.293 --> 02:41.065
+para mostrar que não diverge,
+
+02:41.065 --> 02:44.078
+mas como vamos provar que
+realmente converge?
+
+02:44.078 --> 02:47.543
+E talvez possamos usar um pouco
+de nossa intuição aqui.
+
+02:47.959 --> 02:50.627
+Bem, vamos ver se
+chegamos a uma razão.
+
+02:50.627 --> 02:53.144
+Então, vamos ver se há
+uma razão aqui.
+
+02:53.144 --> 02:55.460
+Então, vamos tomar o
+enésimo mais um termo,
+
+02:55.460 --> 02:59.841
+que será &lt;i>n&lt;/i> mais um elevado
+a décima potência
+
+02:59.841 --> 03:05.121
+sobre fatorial de &lt;i>n&lt;/i> mais um e
+divida pelo enésimo termo,
+
+03:06.392 --> 03:11.392
+então vamos dividir por &lt;i>n&lt;/i> à décima
+potência sobre fatorial de n.
+
+03:12.826 --> 03:15.243
+Bem, dividir por uma fração, ou
+por qualquer coisa
+
+03:15.243 --> 03:17.243
+equivale a multiplicar por seu inverso,
+
+03:17.243 --> 03:19.309
+Então vamos multiplicar pelo inverso,
+
+03:19.309 --> 03:24.001
+assim, vezes fatorial de &lt;i>n&lt;/i>
+sobre n à decima potência.
+
+03:24.001 --> 03:26.592
+Lembre-se de estou fazendo como fiz aqui.
+
+03:26.592 --> 03:30.043
+Veja se há alguma razão
+
+03:30.722 --> 03:32.259
+Bem, fazendo um pouco de álgebra
+
+03:32.259 --> 03:36.341
+fatorial de &lt;i>n&lt;/i> mais um
+
+03:36.341 --> 03:44.991
+Equivale a &lt;i>n&lt;/i> mais um
+vezes fatorial de n
+
+03:45.243 --> 03:46.698
+Você não está acostumado a ver
+
+03:46.698 --> 03:48.340
+ordem nas operações com fatoriais,
+
+03:48.340 --> 03:51.359
+mas aplica-se apenas o
+fatorial a n,
+
+03:51.359 --> 03:52.877
+e por que é tão útil?
+
+03:52.877 --> 03:55.626
+Porque este fatorial de &lt;i>n&lt;/i>
+cancela com este fatorial de n,
+
+03:55.626 --> 04:00.626
+e ficamos com &lt;i>n&lt;/i> mais um
+à décima potência
+
+04:00.758 --> 04:10.188
+sobre &lt;i>n&lt;/i> mais um vezes &lt;i>n&lt;/i> elevado a dez
+
+04:10.505 --> 04:11.691
+Sei o que está pensando.
+
+04:11.691 --> 04:14.145
+"Ei, espere, olhe, isso não é
+razão constante".
+
+04:14.145 --> 04:16.545
+A razão entre termos consecutivos aqui,
+
+04:16.545 --> 04:19.811
+quando tomei o enésimo mais um termo
+dividido pelo enésimo termo
+
+04:19.811 --> 04:22.009
+está variando, dependendo do meu &lt;i>n&lt;/i>.
+
+04:22.009 --> 04:25.996
+Esta razão, você
+poderia dizer, é uma função de n
+
+04:25.996 --> 04:27.896
+de modo que não parece muito útil,
+
+04:27.896 --> 04:29.079
+mas eu diria:
+
+04:29.079 --> 04:31.086
+"O.K., bem, com qualquer uma dessas séries
+
+04:31.086 --> 04:33.566
+realmente nos importamos com
+o comportamento de n se
+
+04:33.566 --> 04:35.777
+ficar realmente, realmente grande
+
+04:35.777 --> 04:38.947
+no limite, nossos &lt;i>ns&lt;/i> tendem ao infinito."
+
+04:38.947 --> 04:40.818
+Então, se observarmos o
+comportamento,
+
+04:40.888 --> 04:42.129
+e, se este se aproxima a
+
+04:42.129 --> 04:43.928
+valores reais se &lt;i>n&lt;/i> tende a infinito,
+
+04:43.928 --> 04:45.679
+bem, faria sentido
+
+04:45.679 --> 04:48.552
+pensarmos como
+
+04:48.586 --> 04:52.129
+o limite da nossa razão.
+
+04:52.796 --> 04:54.177
+Então, vamos fazer isso.
+
+04:54.177 --> 04:59.177
+Vamos tomar o limite de &lt;i>n&lt;/i>
+tendendo ao infinito dessa coisa.
+
+05:00.329 --> 05:01.547
+Então não se esqueça,
+
+05:01.547 --> 05:03.539
+Este não é apenas algum tipo de voodoo.
+
+05:03.822 --> 05:09.262
+Vamos refletir
+
+05:09.262 --> 05:11.948
+sobre o conceito de razão.
+
+05:11.948 --> 05:14.202
+O que é a razão entre dois
+termos consecutivos?
+
+05:14.222 --> 05:16.493
+O termo na posição &lt;i>n&lt;/i> mais um,
+e o enésimo termo
+
+05:16.493 --> 05:18.947
+para &lt;i>n&lt;/i> realmente, realmente grande?
+
+05:19.347 --> 05:21.748
+E o que vemos aqui
+
+05:21.748 --> 05:23.243
+nem temos que abrir a expressão
+
+05:23.243 --> 05:24.743
+será &lt;i>n&lt;/i> elevado a dez
+
+05:24.743 --> 05:26.329
+mais um monte de outras coisas.
+
+05:26.329 --> 05:28.612
+Será um polinômio de décimo grau,
+
+05:28.612 --> 05:31.070
+e este outro aqui
+
+05:31.070 --> 05:32.659
+na verdade, você pode descobrir,
+
+05:32.659 --> 05:36.404
+será &lt;i>n&lt;/i> elevado a onze
+mais n elevado a dez
+
+05:36.404 --> 05:38.573
+assim, no limite para &lt;i>n&lt;/i>
+tendendo ao infinito,
+
+05:38.573 --> 05:40.217
+o denominador
+cresce mais rápido
+
+05:40.217 --> 05:41.504
+Podemos dividir o numerador
+
+05:41.504 --> 05:44.016
+e o denominador por &lt;i>n&lt;/i> elevado a dez,
+
+05:44.082 --> 05:48.705
+na verdade, o numerador e o
+denominador por n elevado a 11,
+
+05:48.705 --> 05:50.740
+e tudo aqui
+tende a zero,
+
+05:50.740 --> 05:52.622
+e este será um,
+
+05:52.622 --> 05:56.474
+e assim o limite, bem aqui,
+
+05:57.148 --> 06:00.479
+este limite será igual a ...
+
+06:01.355 --> 06:04.522
+Este limite será igual a zero.
+
+06:04.522 --> 06:06.285
+Com &lt;i>n&lt;/i> tendendo a infinito, a razão
+
+06:06.285 --> 06:11.155
+entre dois termos consecutivos
+tende a zero.
+
+06:12.819 --> 06:17.772
+Portanto, se usarmos
+a lógica da nossa
+
+06:17.772 --> 06:19.953
+razão aqui quando
+olhamos a série geométrica,
+
+06:19.953 --> 06:21.648
+que não é uma série geométrica,
+
+06:21.648 --> 06:23.657
+mas gostaríamos de dizer:
+"Bem, conforme n
+
+06:23.657 --> 06:25.829
+fica realmente, realmente
+grande a razão entre
+
+06:25.829 --> 06:27.738
+termos consecutivos
+fica cada vez menor.
+
+06:27.738 --> 06:30.689
+"Ei, talvez pudéssemos
+chegar à mesma conclusão
+
+06:32.438 --> 06:37.438
+de que esta série
+na verdade, converge. "
+
+06:38.073 --> 06:43.073
+A série converge na verdade,
+assim como o fatorial de n converge.
+
+06:43.465 --> 06:45.600
+Então, podemos fazer essa afirmação?
+
+06:45.600 --> 06:48.607
+E a resposta é sim, podemos,
+
+06:48.607 --> 06:52.500
+e que nos permite
+fazê-lo é o teste da razão.
+
+06:52.865 --> 06:57.501
+O teste da razão.
+
+06:58.040 --> 07:00.873
+E o teste da razão nos diz que
+
+07:00.873 --> 07:03.739
+se temos uma série infinita ...
+
+07:04.969 --> 07:09.076
+e sei disso pois &lt;i>n&lt;/i> varia de &lt;i>k&lt;/i> ao infinito,
+
+07:09.076 --> 07:16.686
+se tomarmos o limite
+para n tendendo ao infinito,
+
+07:17.883 --> 07:22.324
+do valor absoluto
+do termo na posição n mais um
+
+07:22.324 --> 07:25.140
+sobre o termo na posição &lt;i>n&lt;/i>, e aqui ainda
+
+07:25.140 --> 07:26.660
+não havíamos feito o limite
+
+07:26.660 --> 07:28.042
+mas poderíamos ter tomado
+
+07:28.042 --> 07:29.825
+o valor absoluto do limite
+
+07:29.825 --> 07:33.075
+se todos esses termos à direita
+aqui fossem positivos,
+
+07:33.075 --> 07:35.026
+o valor absoluto
+será positivo.
+
+07:36.118 --> 07:38.383
+Se este se aproxima de um limite,
+
+07:40.443 --> 07:44.040
+então mais uma vez, ele será a nossa razão
+
+07:44.040 --> 07:47.698
+entre termos consecutivos
+para valores muito grandes de n
+
+07:48.467 --> 07:55.227
+Se a razão L é menor que um,
+
+07:55.342 --> 07:58.358
+que era a situação aqui,
+L é claramente menor do que um,
+
+07:58.358 --> 08:03.799
+então a série converge.
+
+08:04.653 --> 08:07.908
+Algumas definições dirão que
+é absolutamente convergente,
+
+08:07.908 --> 08:09.826
+converge absolutamente,
+o valor absoluto
+
+08:09.826 --> 08:12.258
+das séries convergem,
+o que também significa
+
+08:12.258 --> 08:14.246
+que a própria série converge.
+
+08:14.246 --> 08:22.986
+Se L é maior do que um
+então, a série diverge.
+
+08:23.596 --> 08:28.192
+e, se L é igual a um, é
+inconclusiva, não sabemos.
+
+08:29.191 --> 08:31.091
+Teríamos que fazer algum outro teste
+
+08:31.091 --> 08:34.659
+para provar se ela converge ou diverge.
+
+08:35.193 --> 08:37.291
+Então essa é a essência do teste da razão.
+
+08:37.291 --> 08:39.758
+Determinar o valor absoluto da razão
+
+08:39.758 --> 08:41.408
+entre termos consecutivos,
+
+08:41.408 --> 08:43.476
+tomar o limite para &lt;i>n&lt;/i> tendendo a infinito,
+
+08:43.476 --> 08:46.742
+e, se aproximar de um limite real,
+
+08:46.742 --> 08:51.742
+e for menor do que um,
+então a série converge,
+
+08:51.923 --> 08:53.798
+e é baseado na mesma
+ideia fundamental
+
+08:53.798 --> 08:56.451
+que vimos com a razão da série geométrica.
+
+08:56.091 --> 08:58.161
+[Legendado por: Tatiana F. D'Addio]

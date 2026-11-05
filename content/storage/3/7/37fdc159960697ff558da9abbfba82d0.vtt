@@ -1,0 +1,344 @@
+WEBVTT
+
+00:00.394 --> 00:03.082
+V této tabulce zde nám dávají nějaké 'n',
+
+00:03.200 --> 00:04.456
+'n' je rovno 1, 2, 3, 4,
+
+00:04.560 --> 00:06.763
+dostáváme
+odpovídající 'g' jako funkci 'n'.
+
+00:07.670 --> 00:13.037
+Tato funkce 'g' definuje posloupnost,
+kde 'n' je člen posloupnosti.
+
+00:13.150 --> 00:14.256
+Například můžeme říct,
+
+00:14.346 --> 00:20.937
+že tohle je to samé jako posloupnost,
+kde první člen je 168, druhý je 84,
+
+00:21.163 --> 00:28.116
+třetí člen je 42 a čtvrtý člen je 21,
+
+00:28.240 --> 00:30.307
+a takto bychom pokračovali dál a dál.
+
+00:30.690 --> 00:32.764
+Jakým typem je tato posloupnost?
+
+00:32.930 --> 00:38.220
+Když začínáme v 168,
+jak se od 168 dostaneme k 84?
+
+00:38.586 --> 00:41.196
+Mohli bychom říct, že odečteme 84,
+
+00:41.361 --> 00:44.491
+ale také bychom
+to mohli násobit (1 lomeno 2).
+
+00:44.848 --> 00:47.215
+Tedy krát jedna polovina.
+
+00:47.409 --> 00:51.157
+A pak, od 84 k 42,
+znovu to násobíme polovinou.
+
+00:51.461 --> 00:52.966
+Krát jedna polovina.
+
+00:53.160 --> 00:57.098
+Z 42 k 21, násobíme
+znovu jednou polovinou.
+
+00:57.532 --> 00:59.382
+Tohle je tedy geometrická posloupnost.
+
+00:59.520 --> 01:00.788
+Začneme v nějakém členu
+
+01:00.910 --> 01:07.084
+a každý následující člen je předchozí člen
+vynásobený, někdy tomu říkají 'kvocient',
+
+01:07.226 --> 01:09.286
+vynásobený jednou polovinou.
+
+01:09.484 --> 01:11.412
+Jak můžeme zapsat 'g' jako funkci 'n'?
+
+01:11.578 --> 01:14.461
+Jak ji můžeme explicitně definovat
+ve vztahu k 'n'?
+
+01:14.595 --> 01:17.342
+Vyzývám vás k pozastavení videa
+a rozmyslete si to sami.
+
+01:17.668 --> 01:20.807
+Sestrojit…
+Řeknu-li, že g(n) je rovno…
+
+01:21.004 --> 01:24.017
+Představte si funkci,
+která popisuje, co jsme tu viděli,
+
+01:24.127 --> 01:27.918
+začali jsme v 168
+a pak násobili polovinou pokaždé,
+
+01:28.045 --> 01:29.513
+kdy jsme přidali další člen.
+
+01:29.711 --> 01:34.054
+Jeden ze způsobů je,
+že začneme v 168
+
+01:34.548 --> 01:41.529
+a pak budeme několikrát násobit polovinou.
+
+01:42.080 --> 01:46.821
+Za exponent můžeme brát počet,
+kolikrát násobíme polovinou.
+
+01:46.997 --> 01:49.091
+Kolikrát budeme násobit polovinou?
+
+01:49.260 --> 01:52.428
+U prvního členu budeme
+násobit polovinou nulakrát.
+
+01:52.682 --> 01:55.340
+U druhého členu budeme
+násobit polovinou jednou.
+
+01:55.630 --> 01:58.498
+U třetího členu budeme
+násobit polovinou dvakrát.
+
+01:58.686 --> 02:01.417
+U čtvrtého členu budeme
+násobit polovinou třikrát.
+
+02:01.775 --> 02:04.102
+Zdá se, že když jsme na kterémkoli členu,
+
+02:04.318 --> 02:08.256
+násobíme polovinou
+tím pořadím členu minus 1.
+
+02:08.364 --> 02:09.983
+Můžete vidět, že to tak funguje.
+
+02:10.120 --> 02:14.405
+Je-li 'n' rovno 1,
+budete mít 1 minus 1, což je 0.
+
+02:14.555 --> 02:16.059
+Polovina na nultou je jedna.
+
+02:16.232 --> 02:17.976
+Takže budete mít 168.
+
+02:18.176 --> 02:20.116
+Je-li 'n' rovno 2,
+pak 2 minus 1,
+
+02:20.216 --> 02:22.526
+budete násobit polovinou jedinkrát.
+
+02:22.617 --> 02:23.506
+To vidíte tady.
+
+02:23.660 --> 02:26.987
+'n' je rovno 3,
+budete násobit polovinou dvakrát.
+
+02:27.130 --> 02:31.418
+3 minus 1 je 2.
+
+02:31.578 --> 02:34.586
+Budete násobit polovinou dvakrát
+a to vidíte tady.
+
+02:35.301 --> 02:41.890
+To vypadá jako pěkné explicitní
+vyjádření geometrické posloupnosti.
+
+02:42.050 --> 02:47.718
+Můžete nad tím přemýšlet i jinak,
+můžete napsat, že g(n) je rovno…
+
+02:48.062 --> 02:49.810
+Jiný způsob jak to zapsat.
+
+02:50.013 --> 02:53.422
+Můžete to napsat jako 168,
+jen to algebraicky upravuji,
+
+02:53.552 --> 02:55.848
+lomeno 2 na (n minus 1).
+
+02:56.096 --> 02:57.544
+Jiný způsob, jak na to…
+
+02:58.444 --> 03:00.947
+Využijme trochu vlastností mocnin.
+
+03:01.090 --> 03:04.638
+Můžeme říct, že g(n) je rovno…
+
+03:04.835 --> 03:08.327
+Jedna polovina na (n minus 1),
+to je stejné jako polovina…
+
+03:09.198 --> 03:12.030
+Je to rovno 168…
+
+03:12.176 --> 03:13.518
+Udělám to jinou barvou.
+
+03:14.100 --> 03:18.018
+Tato část zde je to samé
+jako polovina na 'n'.
+
+03:18.264 --> 03:23.829
+Tedy krát polovina na 'n',
+krát polovina na -1.
+
+03:24.127 --> 03:26.146
+Polovina na -1.
+
+03:26.359 --> 03:30.386
+Polovina na -1 je 2.
+
+03:30.607 --> 03:33.679
+Takže tohle je krát 2.
+
+03:33.879 --> 03:35.824
+Takže to celé můžeme přepsat jako…
+
+03:36.563 --> 03:39.385
+168 krát 2 je kolik?
+
+03:39.560 --> 03:41.236
+336?
+
+03:41.403 --> 03:43.140
+336, udělal jsem to správně?
+
+03:43.255 --> 03:48.206
+160 krát 2 bude 320,
+plus 16, dvakrát 8,
+
+03:48.348 --> 03:49.718
+ano, 336.
+
+03:49.874 --> 03:52.043
+A pak krát polovina na 'n'.
+
+03:52.444 --> 03:55.473
+Krát polovina na 'n'.
+
+03:55.717 --> 03:57.887
+Tohle jsou ekvivalentní tvrzení.
+
+03:57.970 --> 03:59.645
+Tohle dává větší smysl intuitivně,
+
+03:59.750 --> 04:02.098
+okamžitě to vidíte,
+začínáte na 168
+
+04:02.308 --> 04:06.378
+a pak to několikrát násobíte polovinou.
+
+04:06.581 --> 04:09.019
+Tohle je k tomuto
+algebraicky ekvivalentní.
+
+04:09.220 --> 04:10.298
+K originálu.
+
+04:10.759 --> 04:13.490
+Dokážeme však definovat g(n) rekursivně?
+
+04:13.635 --> 04:16.387
+Pozastavte video a zkuste to.
+
+04:16.853 --> 04:20.641
+V mnoha případech je rekursivní zadání
+přímočařejší, pusťme se do tedy do toho.
+
+04:21.732 --> 04:23.768
+Udělám rekursivní funkci jinak…
+
+04:23.890 --> 04:27.372
+Vlastně zůstanu u g(n),
+když je to tak v tabulce.
+
+04:27.899 --> 04:30.816
+g(n) je rovno…
+
+04:32.116 --> 04:43.000
+Podívejme, když je 'n' rovno 1,
+začínáme na 168.
+
+04:43.289 --> 04:48.395
+A je-li 'n' větší než 1 a celé číslo…
+
+04:49.737 --> 04:52.201
+Tohle tedy bude definováno
+pro přirozená čísla.
+
+04:52.437 --> 04:55.744
+…a celé číslo,
+co budeme dělat?
+
+04:56.157 --> 04:59.687
+Vezmeme polovinu a vynásobíme ji
+předchozím členem.
+
+04:59.974 --> 05:05.547
+Bude to tedy polovina krát
+g(n minus 1).
+
+05:05.773 --> 05:07.352
+Lze si ověřit,
+že to funguje.
+
+05:07.460 --> 05:09.508
+Je-li 'n' rovno 1,
+půjdeme rovnou sem,
+
+05:09.699 --> 05:10.819
+bude to 168.
+
+05:11.097 --> 05:17.071
+g(2) bude rovno polovina krát g(1),
+což je, samozřejmě, 168.
+
+05:17.230 --> 05:18.920
+Tedy, 168 krát polovina je 84.
+
+05:19.120 --> 05:22.896
+g(3) bude polovina krát g(2),
+což je pravda.
+
+05:23.024 --> 05:26.582
+g(3) je polovinou g(2).
+
+05:26.821 --> 05:28.526
+Takto bychom tedy definovali…
+
+05:28.730 --> 05:32.111
+Tohle je explicitní vyjádření
+posloupnosti.
+
+05:32.290 --> 05:36.181
+Tohle je rekursivní funkce
+pro vyjádření posloupnosti.

@@ -1,0 +1,582 @@
+WEBVTT
+
+00:00.000 --> 00:01.540
+- [Instructor] In this video, we're going
+
+00:01.540 --> 00:05.450
+to talk about the volume of a pyramid.
+
+00:05.450 --> 00:08.120
+And many of you might already be familiar
+
+00:08.120 --> 00:10.720
+with the formula for
+the volume of a pyramid.
+
+00:10.720 --> 00:12.910
+But the goal of this video
+is to give us an intuition
+
+00:12.910 --> 00:14.410
+or to get us some arguments
+
+00:14.410 --> 00:18.450
+as to why that is the formula
+for the volume of a pyramid.
+
+00:18.450 --> 00:22.290
+So let's just start by
+drawing ourselves a pyramid.
+
+00:22.290 --> 00:25.270
+And I'll draw one with a rectangular base.
+
+00:25.270 --> 00:28.560
+But depending on how
+we look at the formula,
+
+00:28.560 --> 00:30.550
+we could have a more general version.
+
+00:30.550 --> 00:33.663
+But a pyramid looks something like this.
+
+00:34.630 --> 00:37.460
+And you might get a
+sense of what the formula
+
+00:37.460 --> 00:39.150
+for the volume of a pyramid might be.
+
+00:39.150 --> 00:43.310
+If we say this dimension
+right over here is x.
+
+00:43.310 --> 00:44.610
+This dimension right over here,
+
+00:44.610 --> 00:46.540
+the length right over here is y.
+
+00:46.540 --> 00:48.940
+And then you have a
+height of this pyramid.
+
+00:48.940 --> 00:51.060
+If you were to go from the
+center straight to the top
+
+00:51.060 --> 00:54.360
+or if you were to measure
+this distance right over here,
+
+00:54.360 --> 00:56.550
+which is the height of the pyramid.
+
+00:56.550 --> 01:00.550
+You'll just call that, let's call that z.
+
+01:00.550 --> 01:02.170
+And so you might say well,
+
+01:02.170 --> 01:03.870
+I'm dealing with three dimensions,
+
+01:03.870 --> 01:07.420
+so maybe I'll multiply the
+three dimensions together
+
+01:07.420 --> 01:11.000
+and that would give you
+volume in terms of units.
+
+01:11.000 --> 01:12.960
+But if you just multiplied xy times z,
+
+01:12.960 --> 01:17.040
+that would give volume of
+the entire rectangular prism
+
+01:17.040 --> 01:19.410
+that contains the pyramid.
+
+01:19.410 --> 01:21.040
+So that would give you the volume
+
+01:21.040 --> 01:24.750
+of this thing, which is clearly bigger,
+
+01:24.750 --> 01:27.230
+has a larger volume
+than the pyramid itself.
+
+01:27.230 --> 01:29.910
+The pyramid is fully
+contained inside of it.
+
+01:29.910 --> 01:32.540
+So this would be the tip of
+the pyramid on the surface,
+
+01:32.540 --> 01:33.450
+it's just like that.
+
+01:33.450 --> 01:35.300
+And so you might get a
+sense that, all right
+
+01:35.300 --> 01:40.300
+maybe the volume of the
+pyramid is equal to x times y
+
+01:41.510 --> 01:45.150
+times z, times some constant.
+
+01:45.150 --> 01:46.750
+And what we're going to do in this video
+
+01:46.750 --> 01:50.270
+is have an argument as to
+what that constant should be.
+
+01:50.270 --> 01:52.710
+Assuming that this, the
+volume of the parameter
+
+01:52.710 --> 01:54.490
+is roughly of the structure.
+
+01:54.490 --> 01:56.330
+And to help us with that,
+
+01:56.330 --> 01:58.550
+let's draw a larger rectangular prism
+
+01:58.550 --> 02:01.420
+and break it up into six pyramids,
+
+02:01.420 --> 02:05.133
+that completely make up the
+volume of the rectangular prism.
+
+02:07.120 --> 02:10.730
+So first, let's imagine
+a pyramid that looks
+
+02:10.730 --> 02:15.590
+something like this, where its width is x,
+
+02:17.120 --> 02:20.760
+its depth is y, so that could be its base.
+
+02:20.760 --> 02:24.830
+And its height is halfway
+up the rectangular prism.
+
+02:24.830 --> 02:27.850
+So the rectangular prism has height z,
+
+02:27.850 --> 02:32.650
+the pyramid's height is
+going to be z over two.
+
+02:32.650 --> 02:35.380
+Now what would be the
+volume of the pyramid based
+
+02:35.380 --> 02:36.720
+on what we just saw over here?
+
+02:36.720 --> 02:41.450
+Well, that value would be
+equal to some constant k
+
+02:42.600 --> 02:46.610
+times x, times y, not
+times z, times the height
+
+02:46.610 --> 02:49.580
+of the pyramid, times z over two.
+
+02:49.580 --> 02:54.410
+So it'd be x times y times
+z over two, I'll just write
+
+02:54.410 --> 02:57.480
+times z over two or actually
+we can even write it this way
+
+02:57.480 --> 03:00.800
+xy is z over two.
+
+03:00.800 --> 03:03.210
+Now I can construct another pyramid
+
+03:03.210 --> 03:05.650
+has the exact same dimensions.
+
+03:05.650 --> 03:08.960
+If I were to just flip that
+existing pyramid on its head
+
+03:08.960 --> 03:11.240
+and look something like this.
+
+03:11.240 --> 03:16.240
+This pyramid also has dimensions of an x
+
+03:16.570 --> 03:21.460
+width, a y depth and a z over two height.
+
+03:21.460 --> 03:24.410
+So it's volume would be this as well.
+
+03:24.410 --> 03:28.530
+Now what is the combined
+volume of these two pyramids?
+
+03:28.530 --> 03:31.770
+Well, it's just going
+to be this times two.
+
+03:31.770 --> 03:34.000
+So the combined volume of these pyramids,
+
+03:34.000 --> 03:35.120
+let me just draw it that way.
+
+03:35.120 --> 03:38.640
+So these two pyramids that
+look something like this,
+
+03:38.640 --> 03:40.700
+I'm gonna try to color code it.
+
+03:40.700 --> 03:42.020
+We have two of them.
+
+03:42.020 --> 03:44.760
+So two times their volume,
+
+03:44.760 --> 03:47.870
+is going to be equal
+to well two times this
+
+03:47.870 --> 03:49.983
+is just going to be k times xyz.
+
+03:50.840 --> 03:54.000
+Kxy and z.
+
+03:54.000 --> 03:56.980
+And we have more pyramids
+to deal with for example,
+
+03:56.980 --> 03:59.880
+I have this pyramid, right over here
+
+03:59.880 --> 04:04.620
+where this face is its base
+
+04:04.620 --> 04:06.150
+and then if I try to draw
+
+04:06.150 --> 04:10.480
+pyramid it looks something like this,
+
+04:10.480 --> 04:12.490
+this one right over there.
+
+04:12.490 --> 04:15.620
+Now what is its volume going to be?
+
+04:15.620 --> 04:20.620
+Its volume is going to be
+equal to k times its base is y
+
+04:23.470 --> 04:25.557
+times z so kyz.
+
+04:27.750 --> 04:29.330
+And what's its height?
+
+04:29.330 --> 04:32.790
+Well, its height is going to be half of x.
+
+04:32.790 --> 04:36.020
+So this height right
+over here is half of x.
+
+04:36.020 --> 04:40.070
+So it's k times y times z times x over two
+
+04:40.070 --> 04:44.350
+or I could say times x and
+then divide everything by two.
+
+04:44.350 --> 04:45.920
+Now I have another pyramid
+
+04:45.920 --> 04:47.910
+that has the exact same dimensions.
+
+04:47.910 --> 04:50.450
+This one over here,
+
+04:50.450 --> 04:53.560
+if I try to draw it on the other face,
+
+04:53.560 --> 04:54.850
+opposite the one we just saw
+
+04:54.850 --> 04:56.680
+essential if we just flip this one over,
+
+04:56.680 --> 04:59.180
+has the exact same dimensions.
+
+04:59.180 --> 05:00.740
+So one way to think about it,
+
+05:00.740 --> 05:04.340
+we have two pyramids that look like that
+
+05:04.340 --> 05:05.670
+with those types of dimensions.
+
+05:05.670 --> 05:08.360
+This is for an arbitrary rectangular prism
+
+05:08.360 --> 05:09.880
+that we are dealing with.
+
+05:09.880 --> 05:11.420
+So I have two of these,
+
+05:11.420 --> 05:13.330
+and so if you have two of their volumes,
+
+05:13.330 --> 05:14.163
+what's it going to be?
+
+05:14.163 --> 05:16.060
+It's just going to be two
+times this expression.
+
+05:16.060 --> 05:18.743
+So it's going to be k times xyz.
+
+05:21.345 --> 05:22.762
+xyz, interesting.
+
+05:24.360 --> 05:27.870
+And then last but not least
+we have two more pyramids.
+
+05:27.870 --> 05:31.570
+We have this one, that has
+a face, that has the base
+
+05:31.570 --> 05:34.390
+right over here, that's its base
+
+05:34.390 --> 05:36.910
+and if it was transparent
+you'd be able to see
+
+05:36.910 --> 05:39.220
+where I'm drawing right here.
+
+05:39.220 --> 05:41.320
+And then you have one
+on the opposite side,
+
+05:41.320 --> 05:43.890
+right over, there on the other side.
+
+05:43.890 --> 05:45.940
+Like as if you were to flip this around.
+
+05:45.940 --> 05:48.640
+And so by the exact same argument,
+
+05:48.640 --> 05:49.700
+so let me just draw it.
+
+05:49.700 --> 05:54.630
+So we have two of these,
+two of these pyramids
+
+05:56.120 --> 05:58.260
+my best to draw it so times two.
+
+05:58.260 --> 06:00.290
+So each of them would
+have a volume of what?
+
+06:00.290 --> 06:04.090
+Each of them their base is x times z.
+
+06:04.090 --> 06:09.090
+So it's going to be k times x times z
+
+06:09.740 --> 06:11.070
+that's the area of their base.
+
+06:11.070 --> 06:12.900
+And then what is their height?
+
+06:12.900 --> 06:14.810
+Well, each of them has
+a height of y over two.
+
+06:14.810 --> 06:19.000
+So times y over two and I
+have two of those pyramids.
+
+06:19.000 --> 06:20.930
+So I'm going to multiply those by two,
+
+06:20.930 --> 06:24.930
+the twos cancel out so I'm
+just left with k times xyz.
+
+06:24.930 --> 06:27.423
+So k times xyz.
+
+06:29.870 --> 06:31.020
+Now one of the interesting things
+
+06:31.020 --> 06:32.660
+that we've just stumbled on in this,
+
+06:32.660 --> 06:34.820
+is seeing that even though these pyramids
+
+06:34.820 --> 06:36.900
+have different dimensions
+and look different,
+
+06:36.900 --> 06:39.770
+they all have actually the same volume
+
+06:39.770 --> 06:42.830
+which is interesting in and of themselves.
+
+06:42.830 --> 06:45.330
+And so if we were to add up the volumes
+
+06:45.330 --> 06:48.990
+of all of the pyramids
+here and use this formula
+
+06:48.990 --> 06:51.610
+to express them, so if I were
+to add all of them together
+
+06:51.610 --> 06:53.660
+that should be equal to the volume
+
+06:53.660 --> 06:55.850
+of the entire rectangular prism.
+
+06:55.850 --> 06:58.250
+And then maybe we can figure out k.
+
+06:58.250 --> 07:01.673
+So the volume of the entire
+rectangular prism is xyz.
+
+07:03.250 --> 07:05.260
+X times y times z
+
+07:05.260 --> 07:08.430
+and then that's got to be
+equal to the sum of these.
+
+07:08.430 --> 07:11.800
+So that's going to be
+equal to kxyz plus kxyz
+
+07:11.800 --> 07:14.250
+plus kxyz or you could say
+
+07:14.250 --> 07:18.173
+that's going to be equal to three kxyz.
+
+07:19.770 --> 07:21.750
+All I did is, let me
+just add up the volume
+
+07:21.750 --> 07:23.030
+from all of these pyramids.
+
+07:23.030 --> 07:26.270
+And so what do we get for k?
+
+07:26.270 --> 07:29.370
+Well, we could divide
+both sides by three xyz
+
+07:29.370 --> 07:31.033
+to solve for k, three xyz.
+
+07:33.120 --> 07:38.120
+Three xyz and we are left
+with on the right hand side
+
+07:38.940 --> 07:41.440
+the everything cancels out
+we're just left with a k.
+
+07:41.440 --> 07:45.320
+And on the left hand side
+we're left with a 1/3.
+
+07:45.320 --> 07:50.320
+And so we get k is equal
+to 1/3, K is equal to 1/3
+
+07:51.610 --> 07:53.900
+and there you have it, that's our argument
+
+07:53.900 --> 07:58.170
+for why the volume of
+a pyramid is 1/3 times
+
+08:00.880 --> 08:04.410
+the dimensions of the
+base, times the height.
+
+08:04.410 --> 08:06.160
+So you might see it written that way
+
+08:06.160 --> 08:10.120
+or you might see it
+written as 1/3 times base
+
+08:10.120 --> 08:14.910
+and so if x times y is the
+base, so the area of the base,
+
+08:14.910 --> 08:17.790
+so the base area times the height
+
+08:17.790 --> 08:19.380
+which in this case is z,
+
+08:19.380 --> 08:21.500
+but if you say h for that,
+
+08:21.500 --> 08:23.180
+you might see the formula for a pyramid
+
+08:23.180 --> 08:24.050
+written this way as well.
+
+08:24.050 --> 08:25.110
+But they are equivalent,
+
+08:25.110 --> 08:27.860
+but that's why you should
+feel good about the 1/3 part.

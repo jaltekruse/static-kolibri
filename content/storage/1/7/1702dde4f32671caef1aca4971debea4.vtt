@@ -1,0 +1,262 @@
+WEBVTT
+
+00:00.800 --> 00:05.260
+Mějme funkci f(x), která se
+rovná přirozenému logaritmu.
+
+00:05.260 --> 00:16.180
+Naším úkolem je zjistit, čemu se rovná
+směrnice tečny pro x rovno číslu e.
+
+00:16.180 --> 00:18.510
+V tomto bodě
+se x rovná e.
+
+00:18.510 --> 00:22.080
+Bod [e;1] je
+zde na křivce.
+
+00:22.080 --> 00:23.720
+Funkční hodnota
+v bodě e je 1.
+
+00:23.720 --> 00:25.680
+Přirozený logaritmus e je 1.
+
+00:25.680 --> 00:30.144
+Zde jsem nakreslil
+tečnu funkce.
+
+00:30.144 --> 00:34.380
+Náš úkol je najít její směrnici,
+nebo ji alespoň vyjádřit pomocí výrazu.
+
+00:34.380 --> 00:39.510
+Nyní získáme její výraz pomocí
+formální a alternativní definice.
+
+00:39.510 --> 00:41.940
+Díky tomu si je
+budeme moci porovnat.
+
+00:41.940 --> 00:43.996
+Nejprve se budeme
+věnovat formální definici.
+
+00:43.996 --> 00:48.630
+Formální definice nám pomůže
+najít derivaci ve tvaru funkce.
+
+00:48.630 --> 00:51.890
+Řekněme, že toto
+je libovolné x.
+
+00:51.890 --> 00:56.170
+Toto by byl bod [x;f(x)]
+
+00:56.170 --> 01:02.180
+A toto je
+například x plus h.
+
+01:02.180 --> 01:06.170
+Tím pádem tato
+vzdálenost je h.
+
+01:06.170 --> 01:14.400
+Zde máme
+bod [x+h;f(x+h)]
+
+01:14.400 --> 01:26.262
+Formální definice je založena na určení
+směrnice sečny mezi těmito dvěma body,
+
+01:26.262 --> 01:29.140
+a poté využití limity
+pro h blížící se k 0.
+
+01:29.140 --> 01:36.600
+Čím víc se h blíží k 0, tím víc se
+tento modrý bod bude blížit k x.
+
+01:36.600 --> 01:39.380
+Tento bod se k němu
+bude blížit na křivce.
+
+01:39.380 --> 01:47.640
+Sečna se poté bude stávat stále
+lepším vyjádřením tečny v bodě x.
+
+01:47.640 --> 01:49.030
+Pojďme si to vyzkoušet.
+
+01:49.030 --> 01:50.880
+Jaká je směrnice sečny?
+
+01:50.880 --> 02:01.310
+Je to změna na svislé ose,
+která bude f(x+h) minus f(x),
+
+02:01.310 --> 02:03.910
+lomeno změna na
+horizontální ose.
+
+02:03.910 --> 02:09.889
+To je x plus h minus x,
+x odečteme, tedy jen h.
+
+02:09.889 --> 02:16.570
+Z této funkce uděláme limitu
+pro h blížící se k 0.
+
+02:16.570 --> 02:19.250
+V tomto případě,
+kdy f(x) je ln(x),
+
+02:19.250 --> 02:39.010
+to bude limita pro h blížící se k 0
+ln(x+h) minus ln(x) lomeno h.
+
+02:39.010 --> 02:46.410
+Tedy pro naši konkrétní funkci
+se to rovná první derivaci této funkce.
+
+02:46.410 --> 02:49.460
+Nyní pokud chceme vyjádřit
+hodnotu funkce pro x rovno e,
+
+02:49.460 --> 02:52.530
+tak všude, kde vidíme x,
+dosadíme e.
+
+02:52.530 --> 02:56.659
+Je to pouze vyjádření naší
+derivace jako funkce f(x).
+
+02:56.659 --> 02:58.450
+Je to trochu
+složitější funkce f(x).
+
+02:58.450 --> 03:00.140
+Máme zde limity
+a to ostatní.
+
+03:00.140 --> 03:04.460
+Všude kde vidíme x,
+můžeme napsat e.
+
+03:04.460 --> 03:08.650
+Nyní to zapíšu.
+
+03:08.650 --> 03:11.560
+Ouha, ztratila
+se mi obrazovka.
+
+03:11.560 --> 03:12.520
+Už je zpět.
+
+03:12.520 --> 03:21.040
+Můžeme tedy napsat,
+že první derivace f(e) je rovna:
+
+03:21.040 --> 03:27.620
+limita pro h blížící se k nule
+přirozeného logaritmu.
+
+03:27.620 --> 03:30.650
+Nakreslím to stejnou barvou
+aby to bylo přehledné.
+
+03:30.650 --> 03:48.380
+Přirozený logaritmus e plus h
+minus přirozený logaritmus e lomeno h.
+
+03:48.380 --> 03:58.270
+Pokud vypočítáme tuto limitu,
+zjistíme směrnici tečny pro x rovno e.
+
+03:58.270 --> 04:00.630
+Takto funguje
+formální definice.
+
+04:00.630 --> 04:02.370
+Nyní k alternativní definici.
+
+04:02.370 --> 04:09.700
+Alternativní definice je, když
+nechceme najít přesnou funkci derivace,
+
+04:09.700 --> 04:12.470
+ale chceme najít pouze
+směrnici v určitém bodě.
+
+04:12.470 --> 04:16.209
+Alternativní definice nás dovede
+přímo k tomuto bodu.
+
+04:16.209 --> 04:25.280
+Představme si tedy zde
+nějakou další hodnotu x.
+
+04:25.280 --> 04:36.222
+Zde máme bod [x;ln(x)].
+
+04:36.222 --> 04:44.220
+Jaká je směrnice sečny
+mezi těmito dvěma body?
+
+04:44.220 --> 04:47.510
+Bude to změna v
+hodnotách y.
+
+04:47.510 --> 04:54.480
+Takže to bude
+ln(x) minus 1…
+
+04:54.480 --> 04:59.480
+toto vyznačím
+červenou barvou
+
+04:59.480 --> 05:01.140
+…lomeno rozdílem x.
+
+05:01.140 --> 05:07.140
+To je x minus e.
+
+05:07.140 --> 05:10.610
+Toto je tedy směrnice sečny
+mezi těmito dvěma body.
+
+05:10.610 --> 05:12.282
+Co když ale
+chceme zjistit tečnu?
+
+05:12.282 --> 05:15.460
+Musíme si napsat
+limitu pro x blížící se k e.
+
+05:15.460 --> 05:19.500
+Jak se x bude stále více přibližovat k e,
+tyto body se budou stále blížit k sobě,
+
+05:19.500 --> 05:22.593
+bude sečna stále
+lépe vyjadřovat tečnu.
+
+05:22.593 --> 05:27.410
+Takže pouze uděláme
+limitu x blížící se k e.
+
+05:27.410 --> 05:28.590
+Takže máme dva přístupy.
+
+05:28.590 --> 05:31.800
+Zde využíváme
+formální definice limity.
+
+05:31.800 --> 05:35.280
+Pro upřesnění, to h
+k této limitě nenáleží.
+
+05:35.280 --> 05:44.520
+Takže můžeme využít buď formální definice
+nebo alternativní definice derivace.

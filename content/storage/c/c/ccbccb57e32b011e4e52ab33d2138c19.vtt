@@ -1,0 +1,326 @@
+WEBVTT
+
+00:00.122 --> 00:04.184
+dans la dernière vidéo nous avons vue la série de Maclaurin de cosinus x
+
+00:04.184 --> 00:06.738
+nous l'avons estimés à l'aide de ce polynôme
+
+00:06.738 --> 00:08.334
+et nous avons vu ce modèle très intéressant.
+
+00:08.334 --> 00:10.782
+nous allons voir si nous pouvons trouver un modèle similaire, si nous essayons
+
+00:10.782 --> 00:14.384
+d'approchée le sinus de x à l'aide d'une série de Maclaurin.
+
+00:14.384 --> 00:17.293
+et encore une fois une série de Maclaurin est vraiment la même chose
+
+00:17.293 --> 00:21.595
+comme la série de Taylor où notre centrage de notre rapprochement
+
+00:21.595 --> 00:27.108
+autour de x est égal à 0. c'est donc un cas particulier d'une série de Taylor
+
+00:27.108 --> 00:32.762
+prenons donc f de x dans cette situation pour être égal au sinus de x
+
+00:32.808 --> 00:37.877
+f de x est maintenant égal au sinus de x et faisons la chose
+
+00:37.877 --> 00:40.256
+que nous avons fait avec le cosinus de x.
+
+00:40.256 --> 00:44.754
+Prenons simplement les différents dérivés de sinus de x très rapides. donc si vous avez le premier
+
+00:44.754 --> 00:50.348
+dérivé de sinus de x est juste cosinus de x.
+la dérivée seconde
+
+00:50.348 --> 00:56.441
+de sinus de x est la dirivée de cos x qui est moins sinus de x
+
+00:56.441 --> 00:59.302
+la troisième dérivée va être la dérivée de cette dernière.
+
+00:59.302 --> 01:01.098
+Je vais donc écrire 3 entre parenthèses il ya à la place de faire
+
+01:01.098 --> 01:04.231
+tous les prime prime prime. de sorte que le troisième dérivé est
+
+01:04.231 --> 01:09.021
+dirrivé de ce qui est négative cosinus de x. le quatrième
+
+01:09.021 --> 01:12.975
+Dérivé de la dérivée quatrième est la dérivée de cette
+
+01:12.975 --> 01:17.467
+qui est sinusoïdale positive de x à nouveau. alors tu vois, tout comme le cosinus de x
+
+01:17.467 --> 01:20.436
+c'est un sorte de cycles après vous prenez le temps dérivé assez.
+
+01:20.436 --> 01:23.252
+et nous nous inquiétons pour la série de Maclaurin nous nous soucions
+
+01:23.252 --> 01:29.169
+sur l'évaluation de la fonction et chacun de ces dérivés en x est égal à 0.
+
+01:29.169 --> 01:32.215
+nous allons donc le faire.donc pour cette permettez-moi de le faire dans un autre
+
+01:32.215 --> 01:37.800
+La couleur n'est pas que le bleu de même. Donc je vais le faire dans cette couleur pourpre.
+
+01:37.800 --> 01:40.329
+de sorte que f est difficile de voir que je pense.nous allons donc le faire
+
+01:40.329 --> 01:47.733
+dans d'autre couleur bleue.
+Si f de 0 dans cette situation est de 0 et f la
+
+01:47.733 --> 01:51.938
+première dérivée évaluée à 0 est égal à 1.
+
+01:52.846 --> 01:59.267
+cosinus de 0 est une sine négative de 0 va être égal à 0. Si f deux prime
+
+01:59.267 --> 02:01.652
+la dérivée seconde évaluée à 0 est égal à 0.
+
+02:01.652 --> 02:06.944
+le troisième modèle dérivé évalué à 0 est négatif 1.
+
+02:06.944 --> 02:10.800
+cosinus de 0 est 1, vous avez une sortie négative, il est
+
+02:10.800 --> 02:15.421
+1 négatif et la dérivée quatrième évaluée à 0 et
+
+02:15.421 --> 02:19.733
+va être de nouveau égale à 0. Nous pourrions continuer à aller une fois de plus semble
+
+02:19.733 --> 02:22.169
+il ya quelques motifs de 0 1 -1, alors vous allez revenir
+
+02:22.169 --> 02:27.000
+à 1 positif ainsi de suite et ainsi de suite. nous allons donc trouver que c'est
+
+02:27.000 --> 02:30.001
+la représentation polynomiale en utilisant la série de Maclaurin.
+
+02:30.001 --> 02:33.995
+juste un rappel celui-ci ici cette été approximative
+
+02:33.995 --> 02:36.148
+cosinus de x et vous obtiendrez plus en plus proche
+
+02:36.148 --> 02:38.615
+à cosinus de x je ne vais pas vous montrer rigoureusement comment fermer
+
+02:38.615 --> 02:41.843
+et c'est certainement là exactement la même chose que le cosinus de x
+
+02:41.843 --> 02:43.441
+mais vous aller obtenir de plus en plus vers le cosinus de x
+
+02:43.441 --> 02:46.046
+que vous gardez d'ajouter des termes ici et si vous vers l'infini
+
+02:46.046 --> 02:49.179
+vous allez être à peu près au cosinus de x
+
+02:49.179 --> 02:52.435
+maintenant nous allons faire la même chose pour les sinus de x. donc je vais prendre
+
+02:52.435 --> 02:56.518
+une nouvelle couleur. ce vert devrait être agréable. ce n'est donc
+
+02:56.518 --> 02:58.827
+notre nouvelle p de x. c'est donc approximativement va être
+
+02:58.827 --> 03:02.067
+sinus de x que nous ajoutons et de plus en plus de termes
+
+03:02.067 --> 03:07.133
+et de sorte que le premier terme ici 0 de f qui vient va être égal à 0
+
+03:07.133 --> 03:10.467
+a la fin n'allons même pas besoin d'inclure cela.
+le prochain terme
+
+03:10.467 --> 03:15.333
+va à f prime 0 qui est 1 fois x. de sorte qu'il va y avoir x
+
+03:15.841 --> 03:19.901
+puis le terme suivant est f prime de la dérivée seconde à 0
+
+03:19.901 --> 03:23.436
+que nous voyons ici est de 0. permettez-moi de faire défiler un peu
+
+03:23.436 --> 03:27.133
+elle est de 0 si nous n'aurons pas le second terme
+
+03:27.133 --> 03:30.862
+ce troisième terme ici la troisième dérivée de sinus de x
+
+03:30.862 --> 03:34.831
+évaluée à 0 est négatif 1, de sorte que nous allons maintenant avoir
+
+03:34.831 --> 03:40.333
+négatif de 1. permettez-moi de défiler vers le bas afin que vous puissiez le voir
+
+03:40.333 --> 03:44.877
+négatif de 1 ceci est négatif 1 dans ce cas x fois la troisième
+
+03:44.877 --> 03:50.836
+plus de 3 factorielle. alros negative x le troisième plus de 3 factorielle
+
+03:50.836 --> 03:54.446
+puis terme suivant va être égal à 0 parce que c'est
+
+03:54.446 --> 03:57.748
+la quatrième dirivée. qui est évaluée
+
+03:57.748 --> 04:01.892
+0 qui est le coefficient suivant.
+nous voyons que ce qui se passe à 0
+
+04:01.892 --> 04:04.712
+donc ça va pour déposer et ce que vous allez voir ici
+
+04:04.712 --> 04:06.823
+et effectivement peut-être je n'ai pas fait assez de termes
+
+04:06.823 --> 04:08.917
+pour vous.
+pour vous pour se sentir bien à propos de cette laissez-moi faire
+
+04:08.963 --> 04:13.379
+encore une bonne durée ici même il devient clair
+
+04:13.379 --> 04:17.067
+f de dérivé cinquième x va être cosinus de x
+
+04:17.067 --> 04:20.249
+à nouveau. la dérivée cinquième permettez-moi de le faire dans la même couleur
+
+04:20.249 --> 04:23.200
+juste pour qu'il soit compatible. le dérivé cinquième.
+
+04:23.492 --> 04:28.608
+la dérivée cinquième évaluée à 0 va être de 1
+
+04:29.685 --> 04:34.148
+de sorte que la dérivée quatrième évaluée à 0 est égal à 0. alors vous
+
+04:34.148 --> 04:38.133
+aller à dérivée cinquième évaluée à 0 va être
+
+04:38.133 --> 04:41.923
+positif 1 et si je continuais à faire cela, il serait positif 1 fois
+
+04:41.923 --> 04:47.184
+il faudrait écrire 1 comme coefficient de x fois la cinquième
+
+04:47.184 --> 04:49.867
+sur 5 factoriel il ya donc quelque chose d'intéressant
+
+04:49.867 --> 04:54.475
+ici et pour cosinus de xi eu 1 essentiellement 1 fois
+
+04:54.475 --> 04:58.890
+x pour le zéro, puis je n'ai pas x à la première puissance
+
+04:58.890 --> 05:01.349
+je n'ai pas à x les puissances impaires en fait
+
+05:01.349 --> 05:04.089
+j'ai juste x qui a tous les pouvoirs et quelles que soient la puissance qu'il a.
+
+05:04.089 --> 05:07.339
+Je le divise par ce factorielle et le signe
+
+05:07.339 --> 05:10.590
+garde de commutation et ce l'est, je ne devrait pas le dire
+
+05:10.590 --> 05:13.562
+et même si la puissance parce que 0 ne l'est pas vraiment,
+je devine que vous
+
+05:13.562 --> 05:16.333
+ne le voyer comme un nombre pair car il l'est. je ne devrais pas rentrée dedant
+
+05:16.333 --> 05:21.733
+mais il s'agit essentiellement d'0 2 4 6 ainsi de suite.
+
+05:21.733 --> 05:25.451
+Donc ce qui est intéressant surtout quand on compare à
+
+05:25.451 --> 05:28.619
+ceci.ceci est tous les puissances impaires c'est x pour le premier
+
+05:28.619 --> 05:31.387
+sur 1 factorielle je n'ai pas l'écrire ici, il y a x
+
+05:31.387 --> 05:34.385
+le troisième sur 3 factoriels plus x ainsi à la cinquième sur
+
+05:34.385 --> 05:36.831
+5 factorial. ya zéro serait un nombre pair de toute façon
+
+05:36.831 --> 05:40.033
+je n'ai pas. presque. mon cerveau est dans un endroit différent en ce moment
+
+05:40.033 --> 05:42.866
+et vous pourriez continuer si nous avons gardé ce processus jusqu'à
+
+05:42.866 --> 05:45.672
+Il vous faudra alors garder de commutation du signes de x jsuqu'à la septième
+
+05:45.672 --> 05:49.460
+sur 7 factorielles plus x jusqu'a la neuvième sur 9 factorielle
+
+05:49.460 --> 05:51.067
+il ya donc quelque chose d'intéressant ici, a nouveau de
+
+05:51.067 --> 05:56.400
+voir ce genre de complémentarité entre
+
+05:56.400 --> 05:59.467
+sinus et cosinus. vous pourrez voir un genre
+
+05:59.467 --> 06:01.395
+ils remplissent les uns des autres lacunes plus ici le cosinus de x
+
+06:01.395 --> 06:05.714
+est de tous les pouvoirs même de x divisée par la puissance de factorielle
+
+06:05.714 --> 06:09.133
+sinus de x quand vous prenez représentation polynomiale
+
+06:09.133 --> 06:12.867
+est l'ensemble des puissances impaires de x divisé par factorielle
+
+06:12.867 --> 06:17.195
+et vous permuttez le signe.dans la video suivante je vais faire e à x
+
+06:17.195 --> 06:20.477
+et ce qui y est le plus facinonat c'est que e à x commence
+
+06:20.477 --> 06:24.430
+à resembler un peu à 'une combinaison ici.
+mais pas assez.
+
+06:24.430 --> 06:27.462
+et vous allez vraiment obtenir la combinaison lorsque vous impliquer
+
+06:27.462 --> 06:30.333
+des nombre imaginaire et c'est là que ça commence à être
+
+06:30.333 --> 3:59:59.999
+vraiment hallucinant

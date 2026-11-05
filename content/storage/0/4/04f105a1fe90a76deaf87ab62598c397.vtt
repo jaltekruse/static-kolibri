@@ -1,0 +1,569 @@
+WEBVTT
+
+00:00.550 --> 00:02.960
+In the last several
+videos, we learned
+
+00:02.960 --> 00:05.550
+how we can approximate
+an arbitrary function,
+
+00:05.550 --> 00:08.070
+but a function that is
+differentiable and twice and
+
+00:08.070 --> 00:09.940
+thrice differentiable
+and all of the rest.
+
+00:09.940 --> 00:14.360
+How we can approximate a
+function around x is equal to 0
+
+00:14.360 --> 00:17.000
+using a polynomial.
+
+00:17.000 --> 00:21.320
+If we just have a
+zero-degree polynomial, which
+
+00:21.320 --> 00:23.410
+is just a constant,
+you can approximate it
+
+00:23.410 --> 00:26.240
+with a horizontal line that
+just goes through that point.
+
+00:26.240 --> 00:27.860
+Not a great approximation.
+
+00:27.860 --> 00:29.840
+If you have a
+first-degree polynomial,
+
+00:29.840 --> 00:32.250
+you can at least get the
+slope right at that point.
+
+00:32.250 --> 00:34.350
+If you get to a
+second-degree polynomial,
+
+00:34.350 --> 00:37.260
+you can get something that
+hugs the function a little bit
+
+00:37.260 --> 00:38.000
+longer.
+
+00:38.000 --> 00:39.790
+If you go to a
+third-degree polynomial,
+
+00:39.790 --> 00:42.620
+maybe something that hugs
+the function even a little
+
+00:42.620 --> 00:44.150
+bit longer than that.
+
+00:44.150 --> 00:48.270
+But all of that was
+focused on approximating
+
+00:48.270 --> 00:51.880
+the function around
+x is equal to 0.
+
+00:51.880 --> 00:55.150
+And that's why we call it the
+Maclaurin series or the Taylor
+
+00:55.150 --> 00:56.950
+series at x is equal to 0.
+
+00:56.950 --> 00:59.170
+What I want to do now is
+expand it a little bit,
+
+00:59.170 --> 01:02.430
+generalize it a little bit, and
+focus on the Taylor expansion
+
+01:02.430 --> 01:04.680
+at x equals anything.
+
+01:04.680 --> 01:06.960
+So let's say we
+want to approximate
+
+01:06.960 --> 01:09.420
+this function when x--
+so this is our x-axis--
+
+01:09.420 --> 01:12.230
+when x is equal to c.
+
+01:12.230 --> 01:14.290
+So we can do the
+exact same thing.
+
+01:14.290 --> 01:17.300
+We could say, look,
+our first approximation
+
+01:17.300 --> 01:25.707
+is that our polynomial
+at c should be equal to--
+
+01:25.707 --> 01:28.290
+or actually, even let me better
+it-- our polynomial could just
+
+01:28.290 --> 01:31.990
+be-- if it's just
+going to be a constant,
+
+01:31.990 --> 01:34.080
+it should at least
+equal to function
+
+01:34.080 --> 01:35.700
+whatever the
+function equals at c.
+
+01:35.700 --> 01:40.660
+So it should just equal f
+of c. f of c is a constant.
+
+01:40.660 --> 01:42.560
+It's that value
+right over there.
+
+01:42.560 --> 01:44.540
+We're assuming that c is given.
+
+01:44.540 --> 01:47.240
+And then you would
+have-- this would just
+
+01:47.240 --> 01:50.560
+be a horizontal line
+that goes through f of c.
+
+01:50.560 --> 01:53.610
+That's p of x is
+equal to f of c.
+
+01:53.610 --> 01:55.480
+Not a great
+approximation, but then we
+
+01:55.480 --> 01:59.170
+could try to go for having
+this constraint matched,
+
+01:59.170 --> 02:02.177
+plus having the
+derivative matched.
+
+02:02.177 --> 02:03.760
+So what this constraint
+gave us-- just
+
+02:03.760 --> 02:07.059
+as a reminder-- this gave
+us the fact that at least p
+
+02:07.059 --> 02:11.340
+of c, the approximation at c,
+our polynomial at c, at least
+
+02:11.340 --> 02:13.410
+is going to be equal
+to f of c, right?
+
+02:13.410 --> 02:14.902
+If you put c over
+here, it doesn't
+
+02:14.902 --> 02:16.443
+change what's on
+the right-hand side,
+
+02:16.443 --> 02:19.110
+because this is just
+going to be a constant.
+
+02:19.110 --> 02:21.720
+Now, let's get the
+constraint one more step.
+
+02:21.720 --> 02:27.050
+What if we want a situation
+where this is true,
+
+02:27.050 --> 02:31.160
+and we want the derivative
+of our polynomial
+
+02:31.160 --> 02:34.570
+to be the same thing as the
+derivative of our function
+
+02:34.570 --> 02:37.410
+when either of them are at c.
+
+02:37.410 --> 02:41.030
+So for this situation, what
+if we set up our polynomial--
+
+02:41.030 --> 02:43.280
+and you'll see a
+complete parallel to what
+
+02:43.280 --> 02:44.540
+we did in earlier videos.
+
+02:44.540 --> 02:46.790
+We're just going to shift
+it a little bit for the fact
+
+02:46.790 --> 02:48.280
+that we're not at 0.
+
+02:48.280 --> 02:56.590
+So now, let's define p of x
+to be equal to f of c plus f
+
+02:56.590 --> 03:00.130
+prime of c.
+
+03:00.130 --> 03:04.100
+So whatever the slope is at this
+point of the function, whatever
+
+03:04.100 --> 03:07.362
+the function slope
+is, times-- and you're
+
+03:07.362 --> 03:09.570
+going to see something
+slightly different over here--
+
+03:09.570 --> 03:12.150
+x minus c.
+
+03:12.150 --> 03:18.140
+Now, let's think about
+what this minus c is doing.
+
+03:18.140 --> 03:20.320
+So let's test, first of
+all, that we didn't mess up
+
+03:20.320 --> 03:22.180
+our previous constraint.
+
+03:22.180 --> 03:25.150
+So let's evaluate this at c.
+
+03:25.150 --> 03:27.540
+So now, we know that
+p of c-- and I'm
+
+03:27.540 --> 03:30.790
+using this exact
+example-- so p of c--
+
+03:30.790 --> 03:32.390
+let me do this in a new color.
+
+03:32.390 --> 03:33.250
+Let me try it out.
+
+03:33.250 --> 03:36.020
+So p-- that's not a new color.
+
+03:36.020 --> 03:44.290
+p of c is going to be equal
+to f of c plus f prime
+
+03:44.290 --> 03:47.730
+of c times c minus c.
+
+03:47.730 --> 03:51.470
+Wherever you see an x, you
+put a c in there. c minus c.
+
+03:51.470 --> 03:54.180
+Well, this term right over
+here is going to be 0.
+
+03:54.180 --> 03:57.770
+And so this whole term right
+over here is going to be 0.
+
+03:57.770 --> 04:03.030
+And so you're just left with
+p of c is equal to f of c.
+
+04:03.030 --> 04:06.270
+You're just left with that
+constraint right over there.
+
+04:06.270 --> 04:08.530
+And the only reason why
+we were able to blank out
+
+04:08.530 --> 04:13.350
+this second term right over here
+is because we had f prime of c
+
+04:13.350 --> 04:15.630
+times x minus c.
+
+04:15.630 --> 04:20.160
+The x minus c makes all of the
+terms after this irrelevant.
+
+04:20.160 --> 04:23.430
+We can go now verify
+that this is now true.
+
+04:23.430 --> 04:31.120
+So let's try-- p
+prime of x is going
+
+04:31.120 --> 04:34.510
+to be the derivative of this,
+which is just 0, because this
+
+04:34.510 --> 04:37.590
+is going to be a constant,
+plus the derivative
+
+04:37.590 --> 04:39.644
+of this right over here.
+
+04:39.644 --> 04:40.810
+And what's that going to be?
+
+04:40.810 --> 04:43.150
+Well, that's going to be--
+you can expand this out
+
+04:43.150 --> 04:46.500
+to be f prime of c
+times x minus f prime
+
+04:46.500 --> 04:48.859
+of c times c, which
+would just be constant.
+
+04:48.859 --> 04:51.150
+So if you take the derivative
+of this thing right here,
+
+04:51.150 --> 04:55.920
+you're just going to be
+left with an f prime of c.
+
+04:55.920 --> 04:58.390
+So the derivative of our
+polynomial is now constant.
+
+04:58.390 --> 05:01.050
+So obviously, if you
+were to evaluate this
+
+05:01.050 --> 05:06.930
+at c, p prime at c, you're
+going to get f prime of c.
+
+05:06.930 --> 05:10.900
+So once again, it meets
+the second constraint.
+
+05:10.900 --> 05:12.690
+And now when you have
+both of these terms,
+
+05:12.690 --> 05:16.080
+maybe our approximation will
+look something like this.
+
+05:16.080 --> 05:20.900
+It will at least have the
+right slope as f of x.
+
+05:20.900 --> 05:23.380
+Our approximation is
+getting a little bit better.
+
+05:23.380 --> 05:24.960
+And if we keep doing
+this-- and we're
+
+05:24.960 --> 05:28.110
+using the exact same logic
+that we used when we did it
+
+05:28.110 --> 05:31.420
+around 0, when we did
+the Maclaurin expansion--
+
+05:31.420 --> 05:39.090
+you get the general Taylor
+expansion for the approximation
+
+05:39.090 --> 05:44.010
+of f of x around c
+to be the polynomial.
+
+05:44.010 --> 05:46.910
+So the polynomial p of x
+is going to be equal to--
+
+05:46.910 --> 05:48.670
+and I'll just expand it out.
+
+05:48.670 --> 05:50.970
+And this is very similar
+to what we saw before.
+
+05:50.970 --> 05:57.519
+f of c plus f prime
+of c times x minus c.
+
+05:57.519 --> 06:00.060
+You might even guess what the
+next few terms are going to be.
+
+06:00.060 --> 06:01.311
+It's the exact same logic.
+
+06:01.311 --> 06:02.810
+Watch the videos
+on Maclaurin series
+
+06:02.810 --> 06:04.634
+where I go for a few
+more terms into it.
+
+06:04.634 --> 06:06.300
+It becomes a little
+bit more complicated
+
+06:06.300 --> 06:08.240
+taking the second and
+third derivatives,
+
+06:08.240 --> 06:10.030
+and all of the rest
+just because you
+
+06:10.030 --> 06:12.110
+have to expand out
+these binomials,
+
+06:12.110 --> 06:14.740
+but it's the exact same logic.
+
+06:14.740 --> 06:19.780
+So then you have plus
+your second-degree term,
+
+06:19.780 --> 06:24.189
+f prime prime of c,
+divided by 2 factorial.
+
+06:24.189 --> 06:26.730
+And this is just like what we
+saw in the Maclaurin expansion.
+
+06:26.730 --> 06:28.480
+And just to be
+clear, you could say
+
+06:28.480 --> 06:30.100
+that there's a 1
+factorial down here.
+
+06:30.100 --> 06:31.110
+I didn't take the
+trouble to write it
+
+06:31.110 --> 06:32.690
+because it doesn't
+change the value.
+
+06:32.690 --> 06:36.500
+And then that times
+x minus c squared
+
+06:36.500 --> 06:39.590
+plus the third derivative
+of the function
+
+06:39.590 --> 06:45.450
+evaluated at c over
+3 factorial times
+
+06:45.450 --> 06:49.079
+x minus c to the third power.
+
+06:49.079 --> 06:50.620
+And I think you get
+the general idea.
+
+06:50.620 --> 06:54.580
+You can keep adding more and
+more and more terms like this.
+
+06:54.580 --> 06:57.110
+Unfortunately, it makes
+it a little bit harder,
+
+06:57.110 --> 06:59.800
+especially if you're
+willing to do the work.
+
+06:59.800 --> 07:04.356
+It's not so bad, but instead of
+having just x here and instead
+
+07:04.356 --> 07:05.730
+of just having an
+x squared here,
+
+07:05.730 --> 07:07.910
+and having an (x-c) squared having
+
+07:07.910 --> 07:10.900
+an (x-c) to the third,
+this makes the analytical math
+
+07:10.900 --> 07:13.600
+a little bit hairier, a
+little bit more difficult.
+
+07:13.600 --> 07:15.660
+But this will
+approximate your function
+
+07:15.660 --> 07:17.430
+better as you add
+more and more terms
+
+07:17.430 --> 07:21.010
+or on an arbitrary value
+as opposed to just around x
+
+07:21.010 --> 07:22.400
+is equal to 0.
+
+07:22.400 --> 07:26.830
+And I'll show you that using
+WolframAlpha in the next video.

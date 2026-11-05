@@ -1,0 +1,448 @@
+WEBVTT
+
+00:00.550 --> 00:02.960
+Trong những video trước đó, chúng ta đã học
+
+00:02.960 --> 00:05.550
+cách tính xấp xỉ một hàm số tùy ý,
+
+00:05.550 --> 00:08.070
+với một hàm số khả vi lần thứ nhất, thứ hai,
+
+00:08.070 --> 00:09.940
+thứ ba và tất cả phần còn lại.
+
+00:09.940 --> 00:14.360
+Làm sao ta có thể tính xấp xỉ một hàm số trong khoảng x = 0
+
+00:14.360 --> 00:17.000
+với một đa thức.
+
+00:17.000 --> 00:21.320
+Nếu chúng ta chỉ có một đa thức không bậc,
+
+00:21.320 --> 00:23.410
+tức là một hằng số, bạn có thể tính xấp xỉ
+
+00:23.410 --> 00:26.240
+với một đường thẳng ngang mà đi qua điểm đó.
+
+00:26.240 --> 00:27.860
+Không phải một giá trị xấp xỉ tốt.
+
+00:27.860 --> 00:29.840
+Nếu bạn có một đa thức bậc nhất,
+
+00:29.840 --> 00:32.250
+ít nhất bạn có hệ số góc ở điểm đó,
+
+00:32.250 --> 00:34.350
+Nếu bạn có một đa thức bậc hai,
+
+00:34.350 --> 00:36.660
+bạn có thể có được một cái gì đó
+
+00:36.660 --> 00:38.170
+làm hàm số dài hơn một chút.
+
+00:38.170 --> 00:39.790
+Nếu bạn chọn một đa thức bậc ba,
+
+00:39.790 --> 00:42.620
+thì có thể cái gì đó sẽ khiến hàm số
+
+00:42.620 --> 00:44.150
+thậm chí dài hơn một chút nữa.
+
+00:44.150 --> 00:48.270
+Nhưng chung quy lại đều là tập trung vào tính xấp xỉ
+
+00:48.270 --> 00:51.880
+hàm số trong khoảng x = 0.
+
+00:51.880 --> 00:55.150
+Và đó là lí do vì sao chúng ta gọi đó là chuỗi Maclaurin hoặc
+
+00:55.150 --> 00:56.950
+chuỗi Taylor tại x = 0.
+
+00:56.950 --> 00:59.170
+Điều mình muốn làm là mở rộng nó ra một chút,
+
+00:59.170 --> 01:02.430
+khái quát hóa một chút và tập trung vào khai triển chuỗi Taylor
+
+01:02.430 --> 01:04.680
+với bất kì giá trị x nào.
+
+01:04.680 --> 01:06.960
+Vậy cho là chúng ta muốn tính xấp xỉ
+
+01:06.960 --> 01:09.420
+hàm số này khi x, vậy đây là trục x của chúng ta,
+
+01:09.420 --> 01:12.230
+khi x = c.
+
+01:12.230 --> 01:14.290
+Và chúng ta có thể làm điều tương tự.
+
+01:14.290 --> 01:17.300
+Ta có thể nói, nhìn này, giá trị xấp xỉ đầu tiên của chúng ta
+
+01:17.300 --> 01:25.707
+là đa thức tại c sẽ bằng với,
+
+01:25.707 --> 01:28.290
+hay trên thực tế, để mình làm nó tốt hơn, đa thức của chúng ta
+
+01:28.290 --> 01:31.990
+có thể chỉ là một hằng số,
+
+01:31.990 --> 01:34.080
+ít nhất nó bằng với một hàm số
+
+01:34.080 --> 01:35.700
+bất kì khi nào hàm số bằng c.
+
+01:35.700 --> 01:40.660
+vậy nó sẽ bằng với f(c), f(c) là một hằng số.
+
+01:40.660 --> 01:42.560
+Nếu đó là giá trị ngay ở dây,
+
+01:42.560 --> 01:44.540
+chúng ta đang giả sử là c được cho trước,
+
+01:44.540 --> 01:47.240
+Và sau đó bạn sẽ có, đó là một đường
+
+01:47.240 --> 01:50.560
+nằm ngang đi qua f(c).
+
+01:50.560 --> 01:53.610
+Đó là p(x) = f(c).
+
+01:53.610 --> 01:55.480
+Chưa phải là một ước lượng tốt, nhưng chúng ta
+
+01:55.480 --> 01:59.170
+có thể thử điều kiện này và
+
+01:59.170 --> 02:02.177
+đạo hàm này có trùng khớp không,
+
+02:02.177 --> 02:03.760
+Điều kiện này cho chúng ta biết,
+
+02:03.760 --> 02:07.059
+là it nhất p(c),
+
+02:07.059 --> 02:11.340
+giá trị xấp xỉ tại c, đa thức của chúng ta tại c,
+
+02:11.340 --> 02:13.410
+ít nhất sẽ bằng với f(c), đúng không bạn?
+
+02:13.410 --> 02:14.902
+Nếu đặt c ở trên này,
+
+02:14.902 --> 02:16.443
+phía bên phải sẽ không thay đổi
+
+02:16.443 --> 02:19.110
+bởi kết quả sẽ là một hằng số.
+
+02:19.110 --> 02:21.720
+Bây giờ, hãy đi thêm một bước nữa trong điều kiện.
+
+02:21.720 --> 02:27.050
+Nếu chúng ta muốn một trường hợp đúng,
+
+02:27.050 --> 02:31.160
+và chúng ta muốn đạo hàm của đa thức
+
+02:31.160 --> 02:34.570
+bằng với đạo hàm của hàm số
+
+02:34.570 --> 02:37.410
+khi một trong hai tại c.
+
+02:37.410 --> 02:41.030
+Trong trường hợp này, nếu chúng ta tạo một đa thức riêng,
+
+02:41.030 --> 02:43.280
+và bạn sẽ thấy một điều hoàn toàn tương tự với
+
+02:43.280 --> 02:44.540
+những gì chúng ta làm trong video trước.
+
+02:44.540 --> 02:46.790
+Chúng ta chỉ đang rời xa một xíu với thực tế là
+
+02:46.790 --> 02:48.280
+chúng ta đang không tại điểm 0.
+
+02:48.280 --> 02:56.590
+Vậy bây giờ, hãy đặt
+
+02:56.590 --> 03:00.130
+p(x) = f(c) + f'(c)
+
+03:00.130 --> 03:04.100
+Với bất kì hệ số góc nào ở điểm này của hàm số,
+
+03:04.100 --> 03:07.362
+bất kì hệ số góc nào, nhân với,
+
+03:07.362 --> 03:09.570
+và bạn sẽ thấy một thứ khác hơn một chút ở đây,
+
+03:09.570 --> 03:12.150
+x - c.
+
+03:12.150 --> 03:18.140
+Bây giờ hãy nghĩ về những gì (-c) đang làm.
+
+03:18.140 --> 03:20.320
+Trước hết hãy kiểm tra, rằng chúng ta không
+
+03:20.320 --> 03:22.180
+làm rối điều kiện trước đó.
+
+03:22.180 --> 03:25.150
+Mình cùng tính cái này tại điểm c nha
+
+03:25.150 --> 03:27.540
+Ở đây, chúng ta biết rằng p(c), và mình đang
+
+03:27.540 --> 03:30.790
+sử dụng ví dụ y hệt này, nên p(c),
+
+03:30.790 --> 03:32.390
+để mình dùng một màu mới.
+
+03:32.390 --> 03:33.250
+Để mình thử nó xem.
+
+03:33.250 --> 03:36.020
+p..., đây không phải màu mới rồi.
+
+03:36.020 --> 03:44.290
+p(c) sẽ bằng với
+
+03:44.290 --> 03:47.730
+f(c) + f'(c)*(c - c)
+
+03:47.730 --> 03:51.470
+Bất cứ khi nào bạn nhìn thấy x, bạn đặt c vào đó, c - c.
+
+03:51.470 --> 03:54.180
+Vậy, số hạng ngay ở đây sẽ bằng 0,
+
+03:54.180 --> 03:57.770
+Và cả số hạng này sẽ bằng 0.
+
+03:57.770 --> 04:03.030
+Và bạn sẽ còn lại p(c) = f(c).
+
+04:03.030 --> 04:06.270
+Bạn chỉ còn lại điều kiện đó ở ngay đây.
+
+04:06.270 --> 04:08.530
+Và lí do duy nhất chúng ta có thể loại bỏ
+
+04:08.530 --> 04:13.350
+số hạng thứ hai ở đây bởi vì ta có
+
+04:13.350 --> 04:15.630
+f'(c)*(x - c)
+
+04:15.630 --> 04:20.160
+(x - c) khiến tất cả các số hạng sau đó không phù hợp.
+
+04:20.160 --> 04:23.430
+Chúng ta có thể xác minh là điều này không đúng.
+
+04:23.430 --> 04:31.120
+Vậy hãy thử, p'(x) sẽ bằng với
+
+04:31.120 --> 04:34.510
+đạo hàm của cái này là 0, bởi
+
+04:34.510 --> 04:37.590
+đó sẽ là một hằng số, cộng với đạo hàm
+
+04:37.590 --> 04:39.644
+của cái này ở ngay đây.
+
+04:39.644 --> 04:40.810
+Và kết quả sẽ là gì?
+
+04:40.810 --> 04:43.150
+Đó sẽ bằng với, bạn có thể khai triển nó ra
+
+04:43.150 --> 04:46.500
+thành f'(c)x - f'(c)c,
+
+04:46.500 --> 04:48.859
+có kết giá trị là một hằng số.
+
+04:48.859 --> 04:51.150
+Vậu nếu bạn lấy đạo hàm của cái này ở ngay đây
+
+04:51.150 --> 04:55.920
+bạn sẽ còn lại với f'(c).
+
+04:55.920 --> 04:58.390
+Vậy đạo hàm của đa thức của chúng ta là hằng số.
+
+04:58.390 --> 05:01.050
+Nên rõ ràng là, nếu bạn tính cái này tại c,
+
+05:01.050 --> 05:06.930
+p'(c), bạn sẽ có được f'(c).
+
+05:06.930 --> 05:10.900
+Một lần nữa, cái này thỏa mãn điều kiện thứ hai.
+
+05:10.900 --> 05:12.690
+Và bây giờ khi bạn có cả hai số hạng rồi,
+
+05:12.690 --> 05:16.080
+có thể giá trị xấp xỉ của chúng ra sẽ nhìn như thế này.
+
+05:16.080 --> 05:20.900
+Vậy ít nhất là nó sẽ có một hệ số góc như là f(x).
+
+05:20.900 --> 05:23.380
+Chúng ta đang tính xấp xỉ tốt hơn một chút rồi.
+
+05:23.380 --> 05:24.960
+Và nếu chúng ta tiếp tục làm việc này, và
+
+05:24.960 --> 05:28.110
+sử dụng ví dụ y hệt logic mà chúng ta dùng
+
+05:28.110 --> 05:31.420
+trước đó trong khoảng 0, khi ta khai triển chuỗi Maclaurin,
+
+05:31.420 --> 05:39.090
+bạn có một chuỗi Taylor khai triển để ước lượng
+
+05:39.090 --> 05:44.010
+f(x) trong khoảng c là một đa thức.
+
+05:44.010 --> 05:46.910
+Vậy đa thức p(x) sẽ bằng với...
+
+05:46.910 --> 05:48.670
+mình sẽ khai triển nó ra.
+
+05:48.670 --> 05:50.970
+Khá giống với những gì chúng ta đã thấy trước đó,
+
+05:50.970 --> 05:57.519
+f(c) + f'(c)*(x - c)
+
+05:57.519 --> 06:00.060
+Bạn có thể đoán những số hạng tiếp theo sẽ là gì
+
+06:00.060 --> 06:01.311
+khi dùng logic y hệt như vậy
+
+06:01.311 --> 06:02.810
+trong video về chuỗi Maclaurin
+
+06:02.810 --> 06:04.634
+mà mình thêm vào các số hạng vào đó.
+
+06:04.634 --> 06:06.300
+Nó sẽ trở nên một phức tạp một xíu
+
+06:06.300 --> 06:08.240
+khi lấy đạo hàm bậc hai và bậc ba,
+
+06:08.240 --> 06:10.030
+và mọi thứ còn lại bởi vì
+
+06:10.030 --> 06:12.110
+bạn phải khai thiển những nhị thức này ra,
+
+06:12.110 --> 06:14.740
+và ở đây mình cũng làm y hệt như vậy.
+
+06:14.740 --> 06:19.780
+Sau khi bạn cộng thêm số hạng bậc hai thứ hai,
+
+06:19.780 --> 06:24.189
+f''(c) chia cho 2!
+
+06:24.189 --> 06:26.730
+và đây là những gì mình thấy trong chuỗi Maclaurin khai triển.
+
+06:26.730 --> 06:28.480
+Và để làm rõ ràng, bạn có thể nói
+
+06:28.480 --> 06:30.100
+rằng có 1! ở dưới này.
+
+06:30.100 --> 06:31.110
+Mình sẽ không viết vào đây
+
+06:31.110 --> 06:32.690
+bởi nó kết quả sẽ không bị ảnh hưởng gì.
+
+06:32.690 --> 06:36.500
+Và ta có cái đó nhân với (x - c)^2
+
+06:36.500 --> 06:39.590
+cộng với đạo hàm bậc ba của hàm số
+
+06:39.590 --> 06:45.450
+tại c chia cho 3! rồi nhân với
+
+06:45.450 --> 06:49.079
+(x - c)^3
+
+06:49.079 --> 06:50.620
+Mình nghĩ bạn đã có được cái nhìn chung.
+
+06:50.620 --> 06:54.580
+Nếu bạn tiếp tục thêm càng nhiều số hạng như thế này,
+
+06:54.580 --> 06:57.110
+không may mắn là nó trở nên khó hơn một chút,
+
+06:57.110 --> 06:59.800
+đặc biệt là khi bạn sẵn sàng thực hiện.
+
+06:59.800 --> 07:04.356
+Điều đó không tệ lắm, nhưng thay vì chỉ có x ở đây
+
+07:04.356 --> 07:05.730
+và thay vì có một x^2 ở đây,
+
+07:05.730 --> 07:07.910
+và có (x-c)^2 và (x-c)^3,
+
+07:07.910 --> 07:10.900
+phép phân tích
+
+07:10.900 --> 07:13.600
+khó hơn một chút.
+
+07:13.600 --> 07:15.660
+Nhưng điều này sẽ ước lượng hàm số của bạn tốt hơn
+
+07:15.660 --> 07:17.430
+khi bạn thêm càng nhiều số hạng
+
+07:17.430 --> 07:21.010
+hoặc trên một giá trị bất kì thay vì chỉ
+
+07:21.010 --> 07:22.400
+trong khoảng x = 0.
+
+07:22.400 --> 07:26.830
+Và mình sẽ chỉ cho bạn cách dùng WolframAlpha ở video tiếp theo.

@@ -1,0 +1,367 @@
+WEBVTT
+
+00:00.758 --> 00:05.636
+Saya telah menggambar sebuah fungsi yang berubah-ubah, dan yang kita lakukan sekarang adalah mencoba mendekati fungsi
+
+00:05.636 --> 00:10.625
+berubah ini, kita tidak tahu apa fungsi ini. Penggunaan sebuah polinomial akan menjaga penambahan terminologi terhadap polinomial tersebut.
+
+00:10.733 --> 00:15.225
+Tapi untuk melakukan hal ini, kita akan mengasumsikan bahwa kita bisa mengevaluasi fungsi tersebut pada saat nol, yang akan memberikan kita sejumlah
+
+00:15.302 --> 00:22.175
+nilai dan kita bisa terus mengambil turunan dari fungsi kemudian mengevaluasi turunan pertama, kedua,
+
+00:22.205 --> 00:28.538
+ketiga, dan seterusnya hingga pada nol juga. Dengan demikian, kita berasumsi bahwa kita tahu berapa F(0),
+
+00:28.600 --> 00:34.867
+kita berasumsi bahwa kita tahu berapa F'(0), kita berasumsi bahwa turunan kedua adalah nol, kita
+
+00:34.882 --> 00:42.800
+berasumsi bahwa kita tahu turunan ketiga pada nol. Saya akan menulis turunan ketiga sebagai f'' pada nol
+
+00:42.800 --> 00:49.667
+begitu juga yang keempat dan seterusnya. Jadi, mari kita memikirkan bagaimana kita bisa mendekatinya dengan menggunakan polinomial yang panjangnya
+
+00:49.667 --> 00:55.600
+selalu bertambah. Sehingga, kita bisa mempunyai sebuah polinomial yang dinyatakan dalam 1 persamaan. Dan persamaan tersebut harus konstan. Sehingga,
+
+00:55.600 --> 01:01.400
+persamaan ini akan menjadi sebuah polinomial pangkat nol. Dan jika kita mempunyai sebuah nilai konstan, paling tidak kita mau membuat polinomial
+
+01:01.400 --> 01:10.067
+tersebut, itu benar-benar hanya sebuah fungsi konstan, sama dengan fungsi pada F(0). Jadi, pertama kali kita hanya
+
+01:10.067 --> 01:19.133
+ingin P(0) dimana P adalah polinomial yang ingin kita bangun. Kita ingin P(0) sama dengan F(0).
+
+01:19.133 --> 01:30.667
+Jika kita ingin melakukannya kita bisa melakukannya dengan hanya mengatur bahwa P(x) sama dengan F(0)
+
+01:30.667 --> 01:37.133
+sehingga, jika saya menggambarkannya, akan terlihat seperti ini. Grafiknya akan berbentuk seperti sebuah garis horizontal pada F(0).
+
+01:37.133 --> 01:43.267
+Dan kamu bisa mengatakannya, bahwa hal ini adalah pendekatan yang buruk, hanya mendekatkan pada fungsi di titik ini.
+
+01:43.267 --> 01:46.067
+sepertinya kita beruntung pada beberapa pasang titik lain namun sangat buruk di titik-titik lainnya dimanapun.
+
+01:46.067 --> 01:49.467
+Dan saya akan mencoba untuk memberitahumu untuk mencoba cara lain yang lebih baik dibandingkan garis horizontal
+
+01:49.467 --> 01:55.733
+setidaknya kita benar pada F(0) dan hal ini sebaik sebagaimana kita bisa melakukannya pada sebuah nilai konstan
+
+01:55.733 --> 02:02.600
+dan meskipun ini mungkin tidak seperti sebuah konstan, kita berasumsi bahwa dari fungsi yang diberikan
+
+02:02.600 --> 02:06.667
+kita bisa mengevaluasinya pada titik nol dan hal tersebut akan memberikan kita angka. Jadi, berapapun angka yang ada
+
+02:06.667 --> 02:11.067
+akan kita masukkan ke titik itu. Dan anggaplah P(x) sama dengan angka tersebut. Nilai tersebut hanya akan menjadi garis
+
+02:11.067 --> 02:19.933
+horizontal pada F(0). Tapi, hal tersebut jelas tidak terlalu hebat. Jadi, mari tambah beberapa tantangan.
+
+02:19.933 --> 02:32.000
+diluar fakta bahwa kita ingin P(0) sama dengan F(0), anggaplah bahwa kita juga ingin P'(0) = F'(0)
+
+02:32.000 --> 02:40.067
+Izinkan saya melanjutkan dengan warna baru. Jadi kita ingin, dalam warna baru, kita juga ingin, itu dengan bukan warna baru
+
+02:40.067 --> 02:46.667
+ku juga ingin P', kita ingin turunan pertama dari polinomial saat nol punya
+
+02:46.667 --> 02:52.333
+nilai yang sama dengan turunan pertama fungsi ketika nol. Dan kita tidak mau hal ini menjadi sia-sia.
+
+02:52.333 --> 03:03.067
+Lalu, bagaimana jika, bagaimana jika kita menentukan P(x) sama dengan F(0), sehingga kita mengambil P(x) jadi kita
+
+03:03.067 --> 03:12.467
+akan menambah nilai lain sehingga turunannya akan cocok. Tambah F'(0) dikali x. Lalu, mari pikirkan tentang hal ini
+
+03:12.467 --> 03:19.133
+sedikit. Jika kita menggunakan ini sebagai polinomial baru, apa yang terjadi? P(0), apa itu P(0)? P(0) akan menjadi
+
+03:19.133 --> 03:30.600
+sama dengan, kamu akan mempunyai F(0) + apapun F kutip (0) kali nol. Jika kamu memasang sebuah nol untuk
+
+03:30.600 --> 03:36.333
+x, persamaan ini akan menjadi nol. Sehingga, jika kamu akan membiarkan dengan P(0)=F(0). Itu keren ;)
+
+03:36.333 --> 03:40.133
+hal ini menjadi sama baiknya dengan versi pertama kita. Sekarang apa turunan pertama di sana?
+
+03:40.133 --> 03:48.467
+jadi, turunannya adalah P'(x) =, ambil turunan dari ini, dan ini hanya sebuah konstan sehingga
+
+03:48.467 --> 03:53.733
+turunannya adalah nol. Dan turunan dari sebuah koefisien dikali x akan menjadi koefisien.
+
+03:53.733 --> 04:04.000
+Jadi, ini akan menjadi F'(0). Jadi, jika kamu mengevaluasinya di titik nol, maka P' dari nol atau turunannya
+
+04:04.000 --> 04:07.267
+dari polinomial kita akan dievaluasi pada nol. Saya tahu hal ini agak aneh karena kita tidak menggunakan
+
+04:07.941 --> 04:12.918
+kamu tahu, kita melakukan, oh, P'(x), F'(0), tapi ingatlah, yang mana variabel
+
+04:12.918 --> 04:18.930
+yang mana konstanta, dan semoga itu membuat jelas.
+Jadi, ini, jelas, akan menjadi F'(0). Turunannya
+
+04:18.930 --> 04:23.463
+adalah sebuah nilai konstan. Ini adalah sebuah nilai konstan di sini. Kita berasumsi kita bisa mengambil turunan
+
+04:23.463 --> 04:29.496
+dari fungsi kita dan mengevaluasinya di nol untuk memberikan sebuah nilai konstan. Jadi, jika P'(x) sama
+
+04:29.496 --> 04:35.028
+dengan nilai konstan ini, lalu, dengan jelas, P'(x) yang dievaluasi pada nol akan menjadi nilai itu
+
+04:35.028 --> 04:42.281
+tapi yang membuat keren di situ, polinomial ini yang mempunyai persamaan dengan pangkat tidak nol
+
+04:42.281 --> 04:49.365
+dan pada persamaan pangkat satu, sekarang, polinomial ini sama dengan fungsi kita pada x=0
+
+04:49.365 --> 04:56.496
+dan itu juga mempunyai turunan pertama yang sama. Itu juga memiliki gradien/kemiringan yang sama pada x=0!
+
+04:56.496 --> 05:02.467
+jadi, hal ini akan terlihat, polinomial baru ini dengan dua persamaan akan membuat sedikit lebih baik.
+
+05:02.467 --> 05:05.115
+ini akan terlihat seperti itu. Ini akan
+
+05:05.115 --> 05:14.049
+secara esensial memiliki, itu akan terlihat seperti garis tangen pada F(0), pada x=0. Jadi, kita melakukan lebih baik,
+
+05:14.049 --> 05:20.664
+tapi masih, bukan pendekatan yang super baik. Ini seperti akan berada pada arah umum yang sama
+
+05:20.664 --> 05:24.631
+sebagaimana fungsi kita pada sekitar 0, tapi mungki kita bisa melakukan lebih baik dengan memastikan mereka punya
+
+05:24.631 --> 05:29.317
+turunan kedua yang sama. Dan mencoba untuk mempunyai turunan kedua yang sama saat
+
+05:29.317 --> 05:35.964
+masih memiliki turunan pertama yang sama dan nilai yang sama pada 0, mari kita coba untuk mencoba sesuatu yang menarik.
+
+05:35.964 --> 05:44.520
+Mari kita definisikan P(x), mari membuat ini jelas, ini adalah percobaan pertama kita.
+
+05:44.520 --> 05:50.099
+Ini adalah percobaan kedua kita, di situ, dan saya akan mencoba untuk naik ke percobaan ketiga kita.
+
+05:50.099 --> 05:54.296
+Jadi, pada percobaan ketiga kita, goal saya adalah bahwa nilai dari polinomial saya adalah sama
+
+05:54.296 --> 05:57.048
+dengan nilai pada fungsi saat 0, mereka punyai turunan yang sama pada 0,
+
+05:57.048 --> 06:02.413
+dan mereka juga punya turunan kedua yang sama saat 0.
+Jadi, meri kita definisikan polinomial saya
+
+06:02.413 --> 06:08.084
+untuk sama terhadap, jadi saya akan melakukan persamaan pertama dari dua di sana.
+
+06:08.084 --> 06:15.833
+Jadi, ini akan menjadi, F(0) tambah F'(0) kali x.
+
+06:15.833 --> 06:18.848
+jadi, persis dengan yang kita lakukan di sini, tapi sekarang izinkan saya tambahkan persamaan lain.
+
+06:18.848 --> 06:25.187
+Saya akan melakukan persamaan lain dengan warna lain. Tambah, saya akan menjadi 1 setengah di sana,
+
+06:25.187 --> 06:28.187
+dan semoga menjadi jelas kenapa saya akan melakukan hal ini.
+
+06:28.187 --> 06:35.446
+Tambah satu setengah kali F turunan kedua dari fungsi kita yang dievaluasi pada 0 kali kuadrat.
+
+06:35.446 --> 06:41.599
+dan ketika kita mengevaluasi turunan ini, saya pikir kamu akan melihat kenapa satu setengah ada di sana.
+
+06:41.599 --> 06:47.296
+Karena sekarang, mari kita evaluasi ini dan turunannya pada 0. Jadi, jika kita evaluasi P(0),
+
+06:47.296 --> 06:53.853
+P(0) akan menjadi sama dengan apa? kamu akan memiliki persamaan konstan ini
+
+06:53.853 --> 06:57.166
+jika kamu mengevaluasi ini pada 0, x ini dan x kuadrat ini kedua-duanya akan menjadi 0, jadi
+
+06:57.166 --> 07:01.532
+persamaan-persamaan tersebut akan menghilang. Jadi P(0) masih sama dengan F(0).
+
+07:01.532 --> 07:08.700
+Jika kamu mengambil turunan dari P(x), jadi izinkan saya mengambil turunannya di sini, saya akan melakukannya dengan warna kuning.
+
+07:08.700 --> 07:13.584
+Jadi, turunan dari P(x) baru saya akan menjadi sama dengan, jadi persamaan ini akan menghilang,
+
+07:13.584 --> 07:18.748
+ini adalah persamaan konstan, ini akan menjadi sama dengan F'(0), itu adalah koefisien pada ini,
+
+07:18.748 --> 07:24.198
+tambah, ini adalah aturan pangkat di sini, 2 dikali satu setengah
+
+07:24.198 --> 07:33.283
+adalah hanya 1, tambah F''(0) kali x. Ambil 2 nya, kalikan dengan satu setengan, dan menurunkan 2 itu ke
+
+07:33.283 --> 07:37.650
+sini. Dan saya pikir kamu sekarang memiliki kejelasan kenapa kita menaruh satu setengah di sana.
+
+07:37.650 --> 07:44.433
+ini adalah membuat supaya kita tidak berakhir dengan dua koefisien hilang.
+
+07:44.433 --> 07:50.588
+Sekarang, apa itu P'(0)? P'(0) apaan sih?
+
+07:50.588 --> 07:55.847
+Well, persamaan ini di sini akan menjadi 0, jadi kamu membiarkan nilai konstan ini di sini.
+
+07:55.847 --> 08:02.932
+Jadi, ini akan menjadi F'(0). Jadi, sejauh ini, polinomial generasi ketiga kita memiliki semua kondisi dari
+
+08:02.932 --> 08:06.437
+kedua yang pertama. Dan mari kita lihat bagaimana ini dilakukan pada turunan ketiganya.
+
+08:06.945 --> 08:13.429
+Jadi, mari kita lihat, saya harus mengatakan, turunan kedua. P''(x) sama dengan,
+
+08:13.429 --> 08:17.160
+ini adalah sebuah konstan, sehingga turunannya adalah 0, jadi kemudian kamu hanya mengambil koefisien
+
+08:17.160 --> 08:24.028
+dari persamaan kedua ini, yang sama dengan F''(0). Jadi, apa itu turunan kedua dari P
+
+08:24.228 --> 08:29.978
+yang dievaluasi di 0? well, itu hanya akan menjadi nilai konstan ini, F''(0).
+
+08:29.978 --> 08:38.345
+Jadi, perhatikan, dengan menambahkan persamaan ini, tidak hanya nilai polinomial sama dengan nilai
+
+08:38.345 --> 08:43.174
+fungsi kita pada 0, turunannya di 0 sama dengan turunan dari fungsi kita pada 0,
+
+08:43.174 --> 08:48.026
+dan turunan kedua pada 0 sama dengan dengan turunan kedua dari fungsi pada 0.
+
+08:48.026 --> 08:54.508
+Dan kamu mungkin menebak adanya sebuah pola disini - setiap persamaan yang kita tambah akan mengizinkan kita
+
+08:54.508 --> 09:02.493
+untuk mengatur situasi sehingga turunan ke-n dari pendekatan kita pada 0 akan sama
+
+09:02.493 --> 09:07.378
+dengan turunan ke-n dari fungsi kita di 0. Jadi, secara umum,
+jika kita ingin untuk melakukan hal ini,
+
+09:07.440 --> 09:16.519
+jika kita ingin terus menambah persamaan ke polinomial kita, kita bisa, izinkan saya melakukan dengan warna yang baru,
+
+09:16.519 --> 09:24.587
+kita bisa membuat pendekatan polinomial kita, jadi persamaan pertama akan hanya F(0),
+
+09:24.587 --> 09:40.804
+dan persamaan selanjutkan akan menjadi F'(0) kali x. Lalu persamaan selanjutnya akan menjadi F''() kali satu setengah kali x kuadrat.
+
+09:40.804 --> 09:47.086
+lalu persamaan selanjutnya, jika kita ingin membuat turunan ketiganya sama pada 0, akan menjadi
+
+09:47.224 --> 09:57.087
+F'''(0), turunan ketiga dari fungsi pada 0, kali satu setengah kali 1/3 kali x pangkat 3.
+
+10:00.672 --> 10:04.243
+Dan kita bisa terus, mungkin kamu akan mulai melihat sebuah pola di sini.
+
+10:04.351 --> 10:09.773
+tambah, jika kita ingin membuat turunan keempat pada 0 secara tepat, ini akan menjadi
+
+10:09.820 --> 10:17.468
+turunan keempat dari fungsi, ini adalah turunan keempat pada 0 dikali
+
+10:17.468 --> 10:30.373
+satu per empat kali tiga kali dua, kali x pangkat 4. Dan kamu bisa memeriksa sendiri,
+
+10:30.373 --> 10:34.845
+Jika kita hanya punya ini saja, dan jika kamu mengambil turunan keempat dari ini pada 0,
+
+10:34.845 --> 10:39.782
+ini akan sama dengan turunan keempat dari fungsi pada 0.
+
+10:39.782 --> 10:45.055
+Dan secara umum, kamu bisa terus menambahkan persamaan, dimana persamaan ke-n akan terlihat seperti ini:
+
+10:45.055 --> 10:56.000
+turunan ke-n dari fungsimu yang dievaluasi pada 0, kali x pangkat n per n faktorial
+
+10:56.031 --> 11:05.193
+perhatikan, ini sama dengan 4 faktorial; empat faktorial adalah 432 kali 1
+
+11:06.163 --> 11:17.621
+ini, di sini, adalah tiga factorial, 321, ini disini adalah 2 faktorial, 2 kali 1.
+
+11:17.621 --> 11:23.511
+ini adalah sama dengan 1 faktorial, sama dengan 1.
+
+11:23.511 --> 11:29.110
+dan kamu bisa membagi ini dengan 0 faktorial, yang juga menjadi 1,
+
+11:29.110 --> 11:35.553
+tapi deret umum ini, yang saya telah siapkan di sini, disebut derte Maclaurin.
+
+11:37.753 --> 11:43.335
+Dan kamu bisa mendekatkan sebuah polinomial dan kita akan melihat beberapa hasil powerful nantinya.
+
+11:43.335 --> 11:47.788
+Tapi, apa yang terjadi, dan saya tidak punya kemampuan komputasi di otak saya untuk menggambar grafik dengan baik,
+
+11:47.788 --> 11:53.366
+hanya saat fungsinya sama, kamu mendapat garis lurus tersebut. Ketika kamu membuat fungsi
+
+11:53.366 --> 12:00.032
+dan, ketika kamu membuat fungsi sama di 0, dan turunannya sama di 0, maka kamu memiliki
+
+12:00.032 --> 12:04.619
+sesuatu yang kelihatannya seperti garis tangen. Ketika kamu menambahkan derajat lain, ini mungkin mendekati
+
+12:04.619 --> 12:11.145
+polinomial seperti ini. Ketika kamu menambah, derajat lain, ini mungkin tampak seperti itu.
+
+12:11.191 --> 12:18.300
+dan, sebagaimana kamu terus menambah dan menambah persamaan, bentuknya akan semakin mendekat dan mendekat, terkhusus
+
+12:18.300 --> 12:25.377
+saat kamu mendekati x=0, tapi secara teori, jika kamu menambah sebuah nilai tak hingga dari persamaan,
+
+12:25.454 --> 12:30.954
+Saya belum membuktikan ini untukmu, itulah kenapa saya mengatakan itu ada dalam teori, tapi jika kamu menambah sebuah angka
+
+12:30.954 --> 12:34.979
+tak hingga pada persamaan, seharusnya, semua turunan akan sama, dan kemudian
+
+12:34.979 --> 12:38.935
+fungsinya akan sangat mirip satu sama lain.
+
+12:38.935 --> 12:44.208
+Di video selanjutanya, saya akan melakukan ini dengan beberapa fungsi aktual, hanya itu membuat ini sedikit lebih jelas.
+
+12:44.208 --> 12:49.667
+dan, sebagaimana kamu tahu, deret Maclaurin adalah sebuah kasus khusus dari deret Taylor, sejak kita
+
+12:49.683 --> 12:53.969
+mem-pas-kan-nya pada 0. Dan saat kamu mengerjakan sebuah deret Taylor, kamu bisa memilih di titik tengah manapun,
+
+12:53.969 --> 3:59:59.999
+tapi kita akan fokus pada Maclaurin sekarang.

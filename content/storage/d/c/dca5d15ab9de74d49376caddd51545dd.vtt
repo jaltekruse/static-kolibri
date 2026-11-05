@@ -1,0 +1,279 @@
+WEBVTT
+
+00:00.063 --> 00:07.132
+Bu videoda, çok önemli bir konu olan limit konusuna giriş yapacağız.
+
+00:07.132 --> 00:10.813
+Limit, gerçekten de tüm matematiğin temelidir.
+
+00:10.828 --> 00:17.036
+Bu kadar önemli olmasına rağmen çok ama çok kolay bir konudur.
+
+00:17.036 --> 00:21.075
+Önce bir fonksiyon yazayım. Bir fonksiyon tanımlayayım.
+
+00:21.075 --> 00:32.800
+Basit bir fonksiyon olsun. f(x) =(x -1) / (x -1)
+
+00:32.800 --> 00:36.084
+Yani hem payda hem de paydada aynı ifade var.
+
+00:36.084 --> 00:42.421
+Bir şeyi kendisine bölersek sonuç 1'dir.Peki neden direkt
+f(x) = 1 demiyoruz ki?
+
+00:42.421 --> 00:47.944
+Kısmen haklısınız. f(x) = 1 ile bu ifade arasındaki fark tek bu
+
+00:47.944 --> 00:57.638
+ifadenin x=1 iken tanımsız olmasıdır.
+Gelin size şöyle açıklayayım.
+
+00:57.653 --> 01:07.267
+x=1 için pay 1 - 1 yani sıfır olur.
+
+01:07.267 --> 01:14.605
+Paydada da 1 - 1 yani sıfır var.
+
+01:14.605 --> 01:26.764
+Sıfır bölü sıfır da dâhil, sıfıra bölünen her ifade tanımsızdır.
+
+01:26.764 --> 01:36.867
+Sadeleştirme yapabilirsiniz. Bu ifadenin f(x)=1 ile aynı şey olduğunu söyleyebilirsiniz ama x=1 olamaz koşulunu
+eklemelisiniz.
+
+01:36.867 --> 01:43.133
+Bu iki ifade birbirine eşittir. İkisi de1 dışındaki tüm xdeğerleri için 1'e eşittir.
+
+01:43.133 --> 01:51.340
+Ama x= 1 olduğunda her ikisi de tanımsızdır. Peki bu fonksiyonun grafiği nasıldır?
+
+01:51.340 --> 02:10.496
+Size çizeyim. Bu y=f(x) ekseni. Bu da x ekseni.
+
+02:10.496 --> 02:22.799
+Burası x=1 noktası. Burası da x=-1 noktası. y= 1 noktası burada. y=-1 de burada
+
+02:22.799 --> 02:28.267
+ama soruyla ilgisi yok.
+Grafiği çizelim. 1 dışındaki tüm x değerleri için
+
+02:28.267 --> 02:42.600
+f(x)=1 olacak
+Aynen şöyle bir grafik. Ama x=1 hariç. Fonksiyon x=1'de tanımsız.
+
+02:42.600 --> 02:47.800
+Bu nedenle, buraya bir boşluk koyuyorum. Bu çember, fonksiyonun bu noktada tanımsız olduğunu belirtiyor.
+
+02:47.800 --> 02:52.400
+Fonksiyonun x=1'deki değerini bilmiyoruz. Tanımlanmamış.
+
+02:52.400 --> 03:00.333
+Fonksiyonun bu tanımı, 1'deki durumu söylemiyor. iks 1'e eşitken, fonksiyon tanımsız.
+
+03:00.333 --> 03:09.113
+Fonksiyonun grafiği işte bu.
+
+03:09.113 --> 03:14.467
+Fonksiyonun 1'deki değeri sorulursa, x=1'de bir boşluk olduğunu, bu nedenle de tanımsız olduğunu söylersiniz.
+
+03:14.467 --> 03:21.148
+Gereksiz olacak ama tekrar yazayım.
+
+03:21.148 --> 03:30.313
+fe 1 fonksiyonu tanımsız. Peki şunu sorsam: "iks eşittir 1 iken, fonksiyon neye yaklaşır?"
+
+03:30.313 --> 03:44.708
+İşte burada, limit konusuna giriş yapmış oluyoruz. iks, 1 değerine giderek yakınlaşsın.
+
+03:44.708 --> 03:51.837
+Peki fonksiyon bu sırada neye yakınsar?
+
+03:51.837 --> 03:58.909
+Sol tarafta, tam olarak 1'de olmadığınız sürece, ne kadar yaklaşırsanız yaklaşın f(x)=1'dir.
+
+03:58.909 --> 04:04.790
+Sağ tarafta da aynı durum söz konusu.
+
+04:04.790 --> 04:10.631
+Daha fazla örnek çözdükçe, konuyu daha iyi pekiştireceksiniz.
+
+04:10.631 --> 04:24.933
+"lim", limitin kısaltması olmak üzere, iks 1'e yaklaşırken fe iks'in limiti...
+
+04:24.933 --> 04:29.311
+1'e inanılmaz derecede yakınlaştığınızı düşünün, ama asla tam olarak 1'de değilsiniz.
+
+04:29.311 --> 04:33.190
+Fonksiyonumuz da 1'e giderek yaklaşacaktır. Aslında tüm değerler için zaten hep 1'deydi.
+
+04:33.190 --> 04:39.684
+iks 1'e yaklaşırken fe iks'in limiti 1'dir.
+
+04:39.684 --> 04:45.395
+Yine karmaşık gibi görünen bir gösterimle karşı karşıyayız.
+
+04:45.395 --> 04:48.133
+iks 1'e yaklaşırken, fonksiyon neye yaklaşır, onu gösteriyor.
+
+04:48.133 --> 04:54.021
+Bir eğri grafiği çizeceğimiz başka bir örnek yapalım ki konuyu pekiştirelim.
+
+04:54.021 --> 05:02.533
+Fonksiyonumuz fe iks olsun. Çeşitliliği artıralım, değil mi? Fonksiyonumuz ge iks olsun.
+
+05:02.533 --> 05:09.852
+ge iks fonksiyonumuzu şu şekilde tanımlayalım: iks 2'ye eşit olmadığında iks kare; iks 2'ye eşit olduğunda da 1 olsun.
+
+05:09.852 --> 05:26.082
+Yine ilginç bir fonksiyon var. Gördüğünüz gibi "tamamen sürekli" değil.
+
+05:26.082 --> 05:34.133
+Süreksizlik var. Çizmeye başlayayım.
+
+05:34.133 --> 05:48.225
+Bu, ye eşittir ge iks eksenim. Bu da iks eksenim. Burası iks eşittir 1, burası da iks eşittir 2 noktası.
+
+05:48.225 --> 06:01.825
+Burası eksi 1, burası eksi 2. iks'in 2'ye eşit olduğu nokta dışında, fonksiyon iks kareye eşit. Çizmeye başlayayım.
+
+06:01.825 --> 06:08.636
+Parabol olacak. Yaklaşık şöyle bir şey.
+
+06:08.636 --> 06:18.308
+En iyisi daha düzgün bir parabol çizeyim. Yaklaşık şöyle bir şey.
+
+06:18.308 --> 06:24.341
+Paraboller tarihinin en güzel parabolü değil belki ama parabolün nasıl bir şey olduğunu size göstermiştir, umarım.
+
+06:24.341 --> 06:32.991
+Simetrik olmalı. Durun yeniden çizeyim. Çok kötü oldu.
+
+06:32.991 --> 06:38.467
+Bu daha iyi oldu. Tamam. Güzel. İşte oldu. Tamamdır.
+
+06:38.467 --> 06:48.867
+Bu, "iks kare"nin grafiği. Ama iks 2'ye eşit olunca, fonksiyonumuz, "iks kare"ye eşit olmuyor.
+
+06:48.867 --> 06:55.428
+iks 2'ye eşit olunca, burada bir süreksizlik var. Bu yüzden bir boşluk çiziyorum.
+
+06:55.428 --> 07:00.478
+iks 2'ye eşit olduğunda, fonksiyon 1'e eşit oluyor.
+
+07:00.478 --> 07:09.566
+Eksenlerin ölçeği aynı değil. Grafiğin üzerinde burası 4, burası 2, burası 1, burası da 3 olsun.
+
+07:09.616 --> 07:23.547
+iks 2'ye eşitken, fonksiyon 1'e eşit.
+
+07:23.547 --> 07:27.856
+Biraz tuhaf bir fonksiyon ama bu şekilde tanımlanabilir. Bir fonksiyonu nasıl isterseniz öyle tanımlayabilirsiniz.
+
+07:27.856 --> 07:36.667
+Grafik, ge iks eşittir iks kare fonksiyonunun grafiğine çok benziyor.
+
+07:36.667 --> 07:48.252
+Ama iks eşittir 2'ye geldiğinizde, bir boşluk var.
+
+07:48.252 --> 07:50.848
+Çünkü iks 2'ye eşitken, iks kare fonksiyonunu kullanmıyoruz. ge iks eşittir 1 fonksiyonunu kullanıyoruz.
+
+07:50.848 --> 08:04.914
+Tam olarak iks eşittir 2 noktasındayken, fonksiyon 1 oluyor. Diğer tüm noktalarda "iks kare" olarak tanımlı.
+
+08:04.914 --> 08:11.241
+Şöyle bir soru sorayım: Fonksiyonun 2'deki değerini bulmak istersem, ne yapacağız?
+
+08:11.241 --> 08:15.933
+Tanıma bakacağım. iks 2'ye eşitken, bu tanımı kullanacağım.
+
+08:15.933 --> 08:21.538
+O da bana, fonksiyonun 1'e eşit olduğunu söylüyor. Daha ilginç bir soru sorayım.
+
+08:21.538 --> 08:32.149
+iks 2'ye yaklaşırken, ge iks'in limiti nedir? Gösterimi biraz karmaşık gelebilir ama yanıtı çok ama çok basit.
+
+08:32.149 --> 08:38.502
+iks 2'ye yaklaştıkça...
+
+08:38.502 --> 08:42.240
+Çok özenli bir çizim yapmıyorum. Önümüzdeki videolarda yaparım.
+
+08:42.240 --> 08:52.979
+iks 2'ye yaklaştıkça, ge iks neye yaklaşır? 1,9 olduğunda, 1,999 olduğunda, 1,999999 olduğunda, 1,99999999 olduğunda, ge iks neye yaklaşır?
+
+08:52.979 --> 09:00.518
+Peki ya artı taraftan yaklaşırsak?
+
+09:00.518 --> 09:06.656
+2,1 iken; 2,01 iken; 2,001 iken.
+
+09:06.656 --> 09:09.995
+2'ye yaklaştıkça, fonksiyon neye yaklaşır?
+
+09:09.995 --> 09:15.733
+Grafiğe bakınca görsel olarak da anlayabilirsiniz. iks 2'ye yaklaştıkça, yani grafik üzerinde ilerlerseniz, 4'e yaklaştığını görürsünüz.
+
+09:15.733 --> 09:20.518
+-
+
+09:20.518 --> 09:26.545
+Fonksiyon burada tanımlı olmasa da, fonksiyon o noktada 1 değerini alsa da, iks 2'ye yaklaştıkça ge iks'in limiti 4'tür.
+
+09:26.545 --> 09:33.405
+Bunu hesap makinası kullanarak, sayısal olarak da hesaplayabilirsiniz.
+
+09:33.405 --> 09:39.907
+Durun, göstereyim. Bence bu ilginizi çekecek. Hesap makinasını açayım.
+
+09:39.907 --> 09:49.041
+Nerede benim sadık TI-85'im? İşte burada.
+
+09:49.041 --> 09:57.995
+iks 2'ye yaklaşırken, fonksiyonun neye yaklaştığını, kolaylıkla söyleyebileceksiniz. iks eşittir 1,9 için üstteki koşulu kullanacağız.
+
+09:57.995 --> 10:05.549
+1,9'un karesi 3,61.
+
+10:05.549 --> 10:11.683
+2'ye daha da yaklaşırsak? 1,99. Onun da karesini alalım.
+
+10:11.683 --> 10:21.683
+3,96. 1,999 alırsak. Karesini alayım.
+
+10:21.683 --> 10:27.991
+3,996. Gördünüz mü? Gittikçe 4'e yaklaşıyoruz.
+
+10:27.991 --> 10:37.546
+2'ye iyice yaklaşırsam. 1,999999999999'nin karesini alayım. Bakalım neymiş.
+
+10:37.546 --> 10:41.508
+Aslında tam olarak 4 değil ama hesap makinası yuvarladı çünkü 4'e çok ama çok ama çok ama çok ama çok yakın bir sayı.
+
+10:41.508 --> 10:47.456
+Artı yönünden bir sayıyla da yapabiliriz. Aşağıdan ya da yukarıdan yaklaşsak da, ulaşacağımız sayı aynı olacak.
+
+10:47.456 --> 10:52.083
+-
+
+10:52.083 --> 11:00.702
+2,1'in karesi, 4,4.
+
+11:00.702 --> 11:02.902
+2,0001 alalım. 2'ye çok daha yakın.
+
+11:02.902 --> 11:09.256
+Tabii karesi de 4'e çok daha yakın.
+
+11:09.256 --> 11:12.929
+2'ye yaklaştıkça, 4'e de yaklaşıyoruz.
+
+11:12.929 --> 11:20.333
+Fonksiyon süreksiz olduğu için tam olarak 2 noktasında 1'e eşit olsa da, iks 2'ye her iki yönden de yaklaştıkça, fonksiyon 4'e yaklaşır.
+
+11:20.333 --> 11:25.000
+-
+
+11:25.000 --> 11:31.070
+-

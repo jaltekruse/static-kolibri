@@ -1,0 +1,319 @@
+WEBVTT
+
+00:00.122 --> 00:04.184
+No último vídeo, nós calculamos a Série de Maclaurin do Coseno de x
+
+00:04.184 --> 00:06.738
+nós o aproximamos usando esse polinômio
+
+00:06.738 --> 00:08.334
+e nós vimos esse padrão bem interessante
+
+00:08.334 --> 00:10.782
+Vamos ver se nós conseguimos achar um padrão parecido se tentarmos
+
+00:10.782 --> 00:14.384
+aproximar o Seno de x usando a Série de Maclaurin
+
+00:14.384 --> 00:17.293
+E, novamente, a Série de Maclaurin é a mesma coisa que
+
+00:17.293 --> 00:21.595
+a Série de Taylor onde nós estamos centrando nossa aproximação
+
+00:21.595 --> 00:27.108
+em torno de x é igual a 0. Então esse é um caso especial da Série de Taylor
+
+00:27.108 --> 00:32.762
+então vamos calcular f de x nesta situação para ser igual ao seno de x
+
+00:32.808 --> 00:37.877
+f de x agora é igual ao seno de x e vamos fazer a mesma coisa
+
+00:37.877 --> 00:40.256
+que nós fizemos com o coseno de x. Vamos só pegar as diferentes
+
+00:40.256 --> 00:44.754
+derivadas de seno de x. Então, se você tem a primeira
+
+00:44.754 --> 00:50.348
+derivada de seno de x é apenas o cosseno de x. A derivada segunda
+
+00:50.348 --> 00:56.441
+de seno de x é a derivada de cos x, que é o seno negativo de x
+
+00:56.441 --> 00:59.302
+A terceira derivada será a derivada disso,
+
+00:59.302 --> 01:01.098
+entao eu vou escrever 3 entre parênteses aqui em vez de fazer
+
+01:01.098 --> 01:04.231
+todas as linhas. Então a derivada terceira é
+
+01:04.231 --> 01:09.021
+a derivada disto, que é o cosseno negativo de x. A quarta
+
+01:09.021 --> 01:12.975
+derivada é a derivada disto,
+
+01:12.975 --> 01:17.467
+que é o seno positivo de x novamente. Então você pode ver que é como o cosseno de x
+
+01:17.467 --> 01:20.436
+Esse padrão meio que se repete depois que você calcula as derivadas por tempo o suficiente
+
+01:20.436 --> 01:23.252
+e, para calcular a Série de Maclaurin, nós nos importamos em
+
+01:23.252 --> 01:29.169
+calcular a função e cada uma dessas derivadas em x=0,
+
+01:29.169 --> 01:32.215
+então vamos fazer isso. Então, para isso, deixe-me fazer isso em uma
+
+01:32.215 --> 01:37.800
+cor diferente, não o mesmo azul, então eu vou fazer isso em roxo
+
+01:37.800 --> 01:40.329
+Entao f (isso é meio dificil de se ver, vamos fazer isso em
+
+01:40.329 --> 01:47.733
+outro tom de azul). Então f de 0, nessa situação, é 0 e a derivada
+
+01:47.733 --> 01:51.938
+de f em 0 é 1. Coseno de 0 é 1
+
+01:52.846 --> 01:59.267
+o seno negativo de 0 será 0, então f linha linha
+
+01:59.267 --> 02:01.652
+(a derivada segunda) em 0 será 0.
+
+02:01.652 --> 02:06.944
+a derivada terceira em 0 é -1.
+
+02:06.944 --> 02:10.800
+Cosseno de 0 é 1, mas você tem um negativo lá fora, então é
+
+02:10.800 --> 02:15.421
+-1, e a derivada quarta em 0 será
+
+02:15.421 --> 02:19.733
+0 novamente. Nós poderiamos continuar indo, mas parece que
+
+02:19.733 --> 02:22.169
+há um padrão 0 1 -1 0 então você voltará
+
+02:22.169 --> 02:27.000
+para 1 positivo e assim por diante, então vamos encontrar sua
+
+02:27.000 --> 02:30.001
+representação polinomial usando a Série de Maclaurin.
+
+02:30.001 --> 02:33.995
+só um lembrete, isso aqui em cima era aproximadamente
+
+02:33.995 --> 02:36.148
+o cosseno de x e você chegará cada vez mais perto
+
+02:36.148 --> 02:38.615
+do cosseno de x (eu não estou mostrando-lhe rigorosamente o quão próximo)
+
+02:38.615 --> 02:41.843
+e isso é definitivamente exatamente a mesma coisa que o cosseno de x
+
+02:41.843 --> 02:43.441
+mas você chega cada vez mais perto do cosseno de x
+
+02:43.441 --> 02:46.046
+à medida que você continua adicionando termos aqui e você vai chegar bem perto do cosseno de x
+
+02:46.046 --> 02:49.179
+à medida que você chega mais perto de um número infinito de termos.
+
+02:49.179 --> 02:52.435
+Agora, vamos fazer a mesma coisa para o seno de x. Então vamos pegar
+
+02:52.435 --> 02:56.518
+uma nova cor. Esse verde parece ser bom. Então este é
+
+02:56.518 --> 02:58.827
+o nosso novo p de x. Então esse será aproximadamente
+
+02:58.827 --> 03:02.067
+o seno de x à medida que colocamos mais e mais termos
+
+03:02.067 --> 03:07.133
+e então o primeiro termo aqui f de 0, isso é apenas 0
+
+03:07.133 --> 03:10.467
+então nós não vamos nem incluir ele. O próximo termo
+
+03:10.467 --> 03:15.333
+será f linha de 0, que é 1 vezes x. Então isso será x
+
+03:15.841 --> 03:19.901
+O próximo termo é f linha linha, a derivada segunda, em 0
+
+03:19.901 --> 03:23.436
+que será 0.(deixe-me abaixar um pouco isso)
+
+03:23.436 --> 03:27.133
+isso é 0, então nós não teremos o segundo termo
+
+03:27.133 --> 03:30.862
+o terceiro termo bem aqui é a derivada terceira de seno de x
+
+03:30.862 --> 03:34.831
+avaliada em 0, que é -1, então nós teremos agora
+
+03:34.831 --> 03:40.333
+um 1 negativo. (deixe-me abaixar isso um pouco mais para que você possa ver)
+
+03:40.333 --> 03:44.877
+1 negativo, isso é 1 negativo neste caso vezes x ao cubo
+
+03:44.877 --> 03:50.836
+sobre 3 fatorial. Então x negativo ao cubo sobre 3 fatorial
+
+03:50.836 --> 03:54.446
+e o próximo termo será 0, porque essa é
+
+03:54.446 --> 03:57.748
+a derivada quarta. Essa é a derivada quarta avaliada
+
+03:57.748 --> 04:01.892
+em 0 é o proximo coeficiente. Nós vemos que isso será 0
+
+04:01.892 --> 04:04.712
+então vai zerar o termo e o que você verá aqui
+
+04:04.712 --> 04:06.823
+e talvez eu ainda não tenha feito termos suficientes
+
+04:06.823 --> 04:08.917
+para você. Para que você se sinta bem com isso, deixe-me fazer
+
+04:08.963 --> 04:13.379
+mais um termo aqui só para que fique claro
+
+04:13.379 --> 04:17.067
+a derivada quinta de x será o cosseno de x
+
+04:17.067 --> 04:20.249
+novamente. A derivada quinta (deixe-me eu fazer isso na mesma cor
+
+04:20.249 --> 04:23.200
+só para que fique consistente) a derivada quinta
+
+04:23.492 --> 04:28.608
+avaliada em 0 será 1
+
+04:29.685 --> 04:34.148
+então a derivada quarta avaliada em 0 é 0, então você
+
+04:34.148 --> 04:38.133
+vai para a derivada quinta avaliada em 0 será
+
+04:38.133 --> 04:41.923
+1 positive, e se eu continuasse fazendo isso, isso seria 1 positivo vezes,
+
+04:41.923 --> 04:47.184
+eu teria que escrever 1 como o coeficiente vezes x à quinta
+
+04:47.184 --> 04:49.867
+sobre 5 fatorial, então há uma cuisa bem interessante acontecendo
+
+04:49.867 --> 04:54.475
+aqui e para o cosseno de x eu tinha1 essencialmente 1 vezes
+
+04:54.475 --> 04:58.890
+x elevado a 0, então eu não tenho x à primeira potência
+
+04:58.890 --> 05:01.349
+eu não tenho x elevado aos númenos ímpares, na verdade, então eu
+
+05:01.349 --> 05:04.089
+tenho x elevado a todas as potências pares e, qualquer que seja esse expoente,
+
+05:04.089 --> 05:07.339
+eu estou dividindo isso pelo fatorial daquele expoente, e então o sinal
+
+05:07.339 --> 05:10.590
+continua trocando e isso é, eu não deveria dizer que isto é uma
+
+05:10.590 --> 05:13.562
+potência par poque 0 não é realmente, bem, eu acho que você
+
+05:13.562 --> 05:16.333
+pode ver isso como um número par porque... eu não vou entrar em
+
+05:16.333 --> 05:21.733
+nisso mas é essencialmente 0 2 4 6 e assim por diante
+
+05:21.733 --> 05:25.451
+então isto é interessante, especialmente quando você compara
+
+05:25.451 --> 05:28.619
+com isto. Isto são todas as potências ímpares, isto é x à primeira
+
+05:28.619 --> 05:31.387
+sobre 1 fatorial, eu não escrevi isto aqui, há x à
+
+05:31.387 --> 05:34.385
+terceira sobre 3 fatorial mais x à quinta sobre
+
+05:34.385 --> 05:36.831
+5 fatorial, e zero seria um número par, de qualquer modo
+
+05:36.831 --> 05:40.033
+eu não... quase... meu cérebro está em outro lugar agora
+
+05:40.033 --> 05:42.866
+e você poderia continuar se nós refizessemos o processo
+
+05:42.866 --> 05:45.672
+você continuaria trocando os sinais. x à sétima
+
+05:45.672 --> 05:49.460
+sobre 7 fatorial mais x à 9 sobre 9 fatorial
+
+05:49.460 --> 05:51.067
+e há algo interessante aqui uma vez que,
+
+05:51.067 --> 05:56.400
+mais uma vez, vê essa espécie de natureza complementar entre
+
+05:56.400 --> 05:59.467
+seno e cosseno aqui. Você vê quase... Eles meios que
+
+05:59.467 --> 06:01.395
+eles se completam os espaços do outro. Aqui o cosseno de x
+
+06:01.395 --> 06:05.714
+é todas as potências ímpares de x divididas pelo fatorial daquele expoente
+
+06:05.714 --> 06:09.133
+seno de x, quando você faz a sua representação polinomial,
+
+06:09.133 --> 06:12.867
+são todas as potências ímpares de x divididas pelo fatorial do seu expoente
+
+06:12.867 --> 06:17.195
+e você troca os sinais. No próximo vídeo eu vou fazer e elevado a x
+
+06:17.195 --> 06:20.477
+e o que é realmente facinante é que e elevado a x começa
+
+06:20.477 --> 06:24.430
+a parecer um pouco como a combinação aqui, mas não exatamente,
+
+06:24.430 --> 06:27.462
+e você realmente consegue a combinação quando você envolve
+
+06:27.462 --> 06:30.333
+números imaginários, e é aí que começa a ficar
+
+06:30.333 --> 3:59:59.999
+mesmo, mesmo impressionante

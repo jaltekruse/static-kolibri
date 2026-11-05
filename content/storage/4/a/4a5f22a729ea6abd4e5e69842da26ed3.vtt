@@ -1,0 +1,548 @@
+WEBVTT
+
+00:00.570 --> 00:03.420
+What I want to do in this
+video is familiarize ourselves
+
+00:03.420 --> 00:06.830
+with a very common
+class of sequences.
+
+00:06.830 --> 00:11.630
+And this is
+arithmetic sequences.
+
+00:11.630 --> 00:13.890
+And they are usually
+pretty easy to spot.
+
+00:13.890 --> 00:17.290
+They are sequences where each
+term is a fixed number larger
+
+00:17.290 --> 00:18.920
+than the term before it.
+
+00:18.920 --> 00:21.820
+So my goal here is to figure
+out which of these sequences
+
+00:21.820 --> 00:23.259
+are arithmetic sequences.
+
+00:23.259 --> 00:25.050
+And then just so that
+we have some practice
+
+00:25.050 --> 00:26.680
+with some of the
+sequence notation,
+
+00:26.680 --> 00:30.220
+I want to define them
+either as explicit functions
+
+00:30.220 --> 00:32.880
+of the term you're looking for,
+the index you're looking at,
+
+00:32.880 --> 00:35.110
+or as recursive definitions.
+
+00:35.110 --> 00:37.500
+So first, given that
+an arithmetic sequence
+
+00:37.500 --> 00:40.540
+is one where each successive
+term is a fixed amount larger
+
+00:40.540 --> 00:45.790
+than the previous one, which of
+these are arithmetic sequences?
+
+00:45.790 --> 00:47.940
+Well let's look at this
+first one right over here.
+
+00:47.940 --> 00:52.470
+To go from negative 5 to
+negative 3, we had to add 2.
+
+00:52.470 --> 00:56.780
+Then to go from negative 3 to
+negative 1, you have to add 2.
+
+00:56.780 --> 01:00.490
+Then to go from negative
+1 to 1, you had to add 2.
+
+01:00.490 --> 01:02.810
+So this is clearly an
+arithmetic sequence.
+
+01:02.810 --> 01:04.669
+We're adding the same
+amount every time.
+
+01:04.669 --> 01:07.210
+And there are several ways that
+we could define the sequence.
+
+01:07.210 --> 01:10.022
+We could say it's a sub n.
+
+01:10.022 --> 01:11.480
+And you don't always
+have to use k.
+
+01:11.480 --> 01:14.360
+This time I'll use n
+to denote our index.
+
+01:14.360 --> 01:19.480
+From n equals 1 to infinity
+with-- and there's two ways
+
+01:19.480 --> 01:20.300
+we could define it.
+
+01:20.300 --> 01:21.520
+We could either
+define it explicitly,
+
+01:21.520 --> 01:23.070
+or we could define
+it recursively.
+
+01:23.070 --> 01:24.910
+So if we wanted to
+define it explicitly,
+
+01:24.910 --> 01:29.070
+we could write a sub n is equal
+to whatever the first term is.
+
+01:29.070 --> 01:33.290
+In this case, our first
+term is negative 5.
+
+01:33.290 --> 01:36.340
+It's equal to negative
+5 plus-- we're
+
+01:36.340 --> 01:40.530
+going to add 2 one less
+times than the term we're at.
+
+01:40.530 --> 01:42.290
+So for the second
+term, we add 2 once.
+
+01:42.290 --> 01:44.620
+For the third term,
+we add 2 twice.
+
+01:44.620 --> 01:47.490
+For the fourth term,
+from our base term,
+
+01:47.490 --> 01:49.000
+we added 2 three times.
+
+01:49.000 --> 01:51.150
+So we're going to add 2.
+
+01:51.150 --> 01:54.890
+We're going to add positive
+2 one less than the index
+
+01:54.890 --> 01:58.380
+that we're looking
+at-- n minus 1 times.
+
+01:58.380 --> 02:00.960
+So this is an
+explicit definition
+
+02:00.960 --> 02:03.260
+of this arithmetic sequence.
+
+02:03.260 --> 02:04.950
+If I wanted to write
+it recursively,
+
+02:04.950 --> 02:10.910
+I could say a sub 1 is
+equal to negative 5.
+
+02:10.910 --> 02:14.490
+And then each successive term,
+for a sub 2 and greater--
+
+02:14.490 --> 02:20.780
+so I could say a sub n is equal
+to a sub n minus 1 plus 3.
+
+02:20.780 --> 02:24.120
+Each term is equal to the
+previous term-- oh, not 3--
+
+02:24.120 --> 02:25.790
+plus 2.
+
+02:25.790 --> 02:31.230
+So this is for n is
+greater than or equal to 2.
+
+02:31.230 --> 02:34.030
+So either of these
+are completely
+
+02:34.030 --> 02:39.420
+legitimate ways of defining
+the arithmetic sequence
+
+02:39.420 --> 02:40.230
+that we have here.
+
+02:40.230 --> 02:41.970
+We can either define
+it explicitly,
+
+02:41.970 --> 02:44.950
+or we could define
+it recursively.
+
+02:44.950 --> 02:46.330
+Now let's look at this sequence.
+
+02:46.330 --> 02:48.950
+Is this one arithmetic?
+
+02:48.950 --> 02:50.480
+Well, we're going from 100.
+
+02:50.480 --> 02:52.252
+We add 7.
+
+02:52.252 --> 02:54.976
+107 to 114, we're adding 7.
+
+02:54.976 --> 02:58.440
+114 to 121, we are adding 7.
+
+02:58.440 --> 03:00.760
+So this is indeed an
+arithmetic sequence.
+
+03:00.760 --> 03:03.240
+So just to be
+clear, this is one,
+
+03:03.240 --> 03:05.300
+and this is one right over here.
+
+03:05.300 --> 03:09.840
+And we could write that this
+is the sequence a sub n,
+
+03:09.840 --> 03:14.800
+n going from 1 to infinity
+of-- and we could just
+
+03:14.800 --> 03:17.610
+say a sub n, if we want
+to define it explicitly,
+
+03:17.610 --> 03:23.190
+is equal to 100 plus
+we're adding 7 every time.
+
+03:23.190 --> 03:26.330
+And then each term-- the
+second term we added 7 once.
+
+03:26.330 --> 03:28.280
+Third term-- we add 7 twice.
+
+03:28.280 --> 03:32.430
+So for the nth term, we're
+going to add 7 n minus 1 times.
+
+03:32.430 --> 03:34.340
+So this is an explicit
+definition of it,
+
+03:34.340 --> 03:35.840
+but we could also
+do it recursively.
+
+03:38.650 --> 03:42.270
+So just to be clear, this is
+one definition where we write it
+
+03:42.270 --> 03:47.730
+like this, or we
+could write a sub n,
+
+03:47.730 --> 03:50.240
+from n equals 1 to infinity.
+
+03:50.240 --> 03:53.836
+And in either case
+I should write with.
+
+03:53.836 --> 03:55.460
+And if I want to
+define it recursively,
+
+03:55.460 --> 03:58.950
+I could say a sub
+1 is equal to 100.
+
+03:58.950 --> 04:04.170
+And then, for anything larger
+than 1, for any index above 1,
+
+04:04.170 --> 04:09.560
+a sub n is equal to the
+previous term plus 7.
+
+04:09.560 --> 04:10.822
+And so we're done.
+
+04:10.822 --> 04:12.280
+This is another
+way of defining it.
+
+04:12.280 --> 04:14.920
+So in general, if you
+wanted a generalizable way
+
+04:14.920 --> 04:18.149
+to spot or define an
+arithmetic sequence,
+
+04:18.149 --> 04:20.680
+you could say an
+arithmetic sequence
+
+04:20.680 --> 04:23.910
+is going to be of the form
+a sub n-- if we're talking
+
+04:23.910 --> 04:26.930
+about an infinite one--
+from n equals 1 to infinity.
+
+04:26.930 --> 04:28.460
+If you want to
+define it explicitly,
+
+04:28.460 --> 04:33.540
+you could say a sub n is
+equal to some constant, which
+
+04:33.540 --> 04:35.790
+would essentially
+the first term.
+
+04:35.790 --> 04:41.470
+It would be some
+constant plus some number
+
+04:41.470 --> 04:43.090
+that your incrementing--
+or I guess
+
+04:43.090 --> 04:45.089
+this could be a negative
+number, or decrementing
+
+04:45.089 --> 04:47.670
+by-- times n minus 1.
+
+04:47.670 --> 04:51.380
+So this is one way to define
+an arithmetic sequence.
+
+04:51.380 --> 04:54.000
+In this case, d was 2.
+
+04:54.000 --> 04:55.160
+In this case, d is 7.
+
+04:55.160 --> 04:57.350
+That's how much you're
+adding by each time.
+
+04:57.350 --> 05:02.280
+And in this case, k is negative
+5, and in this case, k is 100.
+
+05:02.280 --> 05:04.850
+The other way, if you
+wanted to the right
+
+05:04.850 --> 05:08.000
+the recursive way of defining an
+arithmetic sequence generally,
+
+05:08.000 --> 05:12.180
+you could say a sub
+1 is equal to k,
+
+05:12.180 --> 05:16.270
+and then a sub n is
+equal to a sub n minus 1.
+
+05:16.270 --> 05:18.170
+A given term is equal
+to the previous term
+
+05:18.170 --> 05:22.250
+plus d for n greater
+than or equal to 2.
+
+05:22.250 --> 05:24.110
+So once again, this is explicit.
+
+05:24.110 --> 05:26.110
+This is the recursive
+way of defining it.
+
+05:26.110 --> 05:28.140
+And we would just
+write with there.
+
+05:28.140 --> 05:30.780
+Now the last question I have
+is is this one right over here
+
+05:30.780 --> 05:32.630
+an arithmetic sequence?
+
+05:32.630 --> 05:34.730
+Well, let's check it out.
+
+05:34.730 --> 05:35.860
+We start at 1.
+
+05:35.860 --> 05:37.910
+Then we add 2.
+
+05:37.910 --> 05:38.929
+Then we add 3.
+
+05:38.929 --> 05:40.970
+So this is an immediate
+giveaway that this is not
+
+05:40.970 --> 05:41.970
+an arithmetic sequence.
+
+05:41.970 --> 05:43.470
+Now we are adding 4.
+
+05:43.470 --> 05:46.780
+We're adding a different
+amount every time.
+
+05:46.780 --> 05:51.130
+So this, first of all,
+this is not arithmetic.
+
+05:51.130 --> 05:53.400
+This is not an
+arithmetic sequence.
+
+05:53.400 --> 05:56.139
+But how could we define
+this, since we're
+
+05:56.139 --> 05:57.430
+trying to define our sequences?
+
+06:02.100 --> 06:05.220
+Let's say we wanted to
+define it recursively.
+
+06:05.220 --> 06:10.790
+So we could say, this is
+equal to a sub n, where
+
+06:10.790 --> 06:13.830
+n is starting at 1 and
+it's going to infinity,
+
+06:13.830 --> 06:20.100
+with-- we'll say our base
+case-- a sub 1 is equal to 1.
+
+06:20.100 --> 06:23.580
+And then for n is 2
+or greater, a sub n
+
+06:23.580 --> 06:25.400
+is going to be equal to what?
+
+06:25.400 --> 06:29.810
+So a sub 2 is the previous
+term plus 2. a sub 3
+
+06:29.810 --> 06:32.170
+is the previous
+term plus 3. a sub 4
+
+06:32.170 --> 06:34.200
+is the previous term plus 4.
+
+06:34.200 --> 06:38.980
+So it's going to be the
+previous term plus whatever
+
+06:38.980 --> 06:40.210
+your index is.
+
+06:42.770 --> 06:45.030
+So this looks close,
+but notice here we're
+
+06:45.030 --> 06:46.640
+changing the amount
+that we're adding
+
+06:46.640 --> 06:47.765
+based on what our index is.
+
+06:47.765 --> 06:50.090
+We're adding the amount of
+index to the previous term.
+
+06:50.090 --> 06:53.340
+And so this is for n is
+greater than or equal to 2.
+
+06:53.340 --> 06:55.000
+Well for an arithmetic
+sequence, we're
+
+06:55.000 --> 06:58.110
+adding the same
+amount regardless
+
+06:58.110 --> 06:59.900
+of what our index is.
+
+06:59.900 --> 07:01.800
+Here we're adding
+the index itself.
+
+07:01.800 --> 07:03.440
+So this one is not
+arithmetic, but it's
+
+07:03.440 --> 07:05.970
+an interesting
+sequence nonetheless.

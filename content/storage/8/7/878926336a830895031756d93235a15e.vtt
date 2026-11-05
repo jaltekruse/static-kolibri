@@ -1,0 +1,714 @@
+WEBVTT
+
+00:00.540 --> 00:02.305
+- [Voiceover] So we've
+got the function g here,
+
+00:02.305 --> 00:04.789
+and what I want you to
+do is pause the video
+
+00:04.789 --> 00:06.763
+and figure out what g of one is,
+
+00:06.763 --> 00:08.968
+figure out what g of two is,
+
+00:08.968 --> 00:13.334
+g of three, and g of four.
+
+00:13.334 --> 00:16.143
+Figure out what all four of these are.
+
+00:16.143 --> 00:18.303
+All right, now let's work
+through this together.
+
+00:18.303 --> 00:22.134
+So g of one, if n is equal to one,
+
+00:22.134 --> 00:23.922
+well, then we're gonna hit
+this case right over here,
+
+00:23.922 --> 00:27.242
+if n is equal to one, g is equal to four.
+
+00:27.242 --> 00:29.332
+So that was pretty straightforward.
+
+00:29.332 --> 00:31.816
+Now, g of two,
+
+00:31.816 --> 00:33.837
+if n is equal to two,
+
+00:33.837 --> 00:36.902
+well, two is greater than
+one and it's a whole number,
+
+00:36.902 --> 00:38.828
+and so we would use this case.
+
+00:38.828 --> 00:39.688
+And this is interesting,
+
+00:39.688 --> 00:41.847
+because it's defined in
+terms of the function,
+
+00:41.847 --> 00:43.728
+but it's not defined in terms of g of n,
+
+00:43.728 --> 00:45.864
+but g of n minus one.
+
+00:45.864 --> 00:48.859
+So if n is two, 'cause we're
+evaluating g of two here,
+
+00:48.859 --> 00:51.715
+this is going to be g of two minus one,
+
+00:51.715 --> 00:55.845
+or g of one, plus 3.2.
+
+00:55.845 --> 00:58.215
+Plus 3.2.
+
+00:58.215 --> 00:59.793
+Well, what's that going to be?
+
+00:59.793 --> 01:02.695
+Well, g of one, we know is equal to four.
+
+01:02.695 --> 01:04.298
+We just figured that out.
+
+01:04.298 --> 01:08.969
+So four plus 3.2, that is 7.2.
+
+01:09.359 --> 01:10.690
+All right, let's keep going.
+
+01:10.690 --> 01:13.472
+G of three, we're gonna
+fall into this case again,
+
+01:13.472 --> 01:16.266
+because three is greater than
+one and it's a whole number.
+
+01:16.266 --> 01:20.005
+So this is going to be
+g of three minus one,
+
+01:20.005 --> 01:23.451
+or g of two, plus 3.2.
+
+01:23.451 --> 01:24.721
+Plus 3.2.
+
+01:24.721 --> 01:27.794
+Well, we know what g of two is. It's 7.2.
+
+01:27.794 --> 01:30.964
+We just figured that out. It is 7.2.
+
+01:30.964 --> 01:34.083
+7.2 plus 3.2 is going
+
+01:34.083 --> 01:37.183
+to be equal to 10.4.
+
+01:37.183 --> 01:40.321
+And then g of four,
+well, we fall here again.
+
+01:40.321 --> 01:43.041
+This is gonna be g of three plus 3.2.
+
+01:43.041 --> 01:47.174
+G of three plus 3.2.
+
+01:47.174 --> 01:49.014
+What is that going to be equal to?
+
+01:49.014 --> 01:51.700
+Well, g of three we just
+figured out is 10.4.
+
+01:51.700 --> 01:54.392
+10.4 plus 3.2 is going
+
+01:54.392 --> 01:57.352
+to be 13.6.
+
+01:57.352 --> 01:58.456
+And so what you have here,
+
+01:58.456 --> 01:59.942
+this is actually quite interesting.
+
+01:59.942 --> 02:03.449
+You can think of this function g,
+
+02:03.449 --> 02:06.955
+and we see that it's defined
+over all positive integers.
+
+02:06.955 --> 02:08.766
+Because it's defined
+over positive integers,
+
+02:08.766 --> 02:11.041
+we could think of it
+as defining a sequence,
+
+02:11.041 --> 02:12.598
+and we see what the sequence here is.
+
+02:12.598 --> 02:16.335
+The first term is four,
+
+02:16.335 --> 02:19.625
+second term is 7.2,
+
+02:19.625 --> 02:23.035
+next term is 10.4,
+
+02:23.035 --> 02:25.965
+next term is 13.6,
+
+02:25.965 --> 02:27.968
+and it could keep going on and on and on.
+
+02:27.968 --> 02:30.986
+And what's happening? What's
+happening in this sequence?
+
+02:30.986 --> 02:32.867
+Well, we're starting with four.
+
+02:32.867 --> 02:34.121
+We're starting with four,
+
+02:34.121 --> 02:36.629
+and this case of the
+function gave us that.
+
+02:36.629 --> 02:38.436
+If n is equal to four,
+
+02:38.436 --> 02:40.204
+if n is equal to one,
+
+02:40.204 --> 02:42.086
+the function is going to be equal to four,
+
+02:42.086 --> 02:44.524
+and then for each term after that,
+
+02:44.524 --> 02:47.425
+you take the previous
+term and you add 3.2.
+
+02:47.425 --> 02:51.419
+So we add 3.2 for the
+second term, we add 3.2,
+
+02:51.419 --> 02:53.473
+so we just keep adding,
+
+02:53.473 --> 02:58.293
+we just keep adding 3.2,
+
+02:58.293 --> 03:02.982
+not .32, 3.2 to get to the next term.
+
+03:02.982 --> 03:04.676
+Now, we could've defined it
+that way, we could've said,
+
+03:04.676 --> 03:06.546
+"Hey, let's have a sequence
+where the first term is four
+
+03:06.546 --> 03:10.120
+"and then we keep adding
+3.2 to get each next term."
+
+03:10.120 --> 03:12.781
+But this is another
+interesting way of defining it.
+
+03:12.781 --> 03:14.243
+And this way of defining it,
+
+03:14.243 --> 03:16.589
+where we defined it as
+an algebraic function,
+
+03:16.589 --> 03:19.793
+a function that's defined
+over all positive integers,
+
+03:19.793 --> 03:21.302
+where we have a base case.
+
+03:21.302 --> 03:22.745
+And a base case, really, in this case,
+
+03:22.745 --> 03:24.483
+gave us our first term,
+
+03:24.483 --> 03:25.876
+and then we have this other case
+
+03:25.876 --> 03:28.082
+that's defined in terms of the function.
+
+03:28.082 --> 03:30.079
+Then you have to recurse backwards
+
+03:30.079 --> 03:32.099
+to eventually get to a base case.
+
+03:32.099 --> 03:34.816
+We call this a recursive function.
+
+03:34.816 --> 03:38.786
+Recursive function.
+
+03:38.786 --> 03:40.366
+So with this example, we're seeing
+
+03:40.366 --> 03:42.827
+how a recursive function can be used
+
+03:42.827 --> 03:45.636
+to define an actual sequence.
+
+03:45.636 --> 03:47.656
+And we went in order here,
+
+03:47.656 --> 03:48.910
+but you could've gone
+the other way around.
+
+03:48.910 --> 03:52.499
+If I said, "Oh, well, what's g of,
+
+03:52.499 --> 03:54.629
+"what's g of six?"
+
+03:54.629 --> 03:55.945
+Well, you'd go into this case, you'd say,
+
+03:55.945 --> 04:00.008
+"OK, that's going to
+be g of five plus 3.2."
+
+04:00.008 --> 04:03.398
+It's gonna be the previous term plus 3.2
+
+04:03.398 --> 04:05.650
+if we view it as a sequence.
+
+04:05.650 --> 04:06.533
+Well, then we're gonna have to figure out
+
+04:06.533 --> 04:07.438
+what the previous term is.
+
+04:07.438 --> 04:11.138
+G of five is going to be g of four,
+
+04:11.138 --> 04:14.278
+g of four plus 3.2,
+
+04:14.278 --> 04:16.262
+and you would keep going
+back and back and back,
+
+04:16.262 --> 04:18.119
+but we've already figured
+out what g of four is.
+
+04:18.119 --> 04:21.487
+It's 13.6,
+
+04:21.487 --> 04:25.357
+so this is 16.8,
+
+04:25.357 --> 04:29.496
+and then if g of five is 16.8,
+
+04:29.496 --> 04:33.095
+16.8, you add 3.2 there, you would get 20.
+
+04:33.095 --> 04:34.980
+So you could start at g of
+six and keep backing up,
+
+04:34.980 --> 04:36.350
+all the way until you get to g of one,
+
+04:36.350 --> 04:37.719
+and then you figure out what that is.
+
+04:37.719 --> 04:40.274
+You recurse back to your base case,
+
+04:40.274 --> 04:43.292
+and then you're able to
+fill in all of the blanks.
+
+04:43.292 --> 04:45.241
+Let's do a few more examples of this.
+
+04:46.311 --> 04:48.191
+So we have this function here.
+
+04:48.191 --> 04:50.606
+So let's say that this defines a sequence.
+
+04:50.606 --> 04:52.603
+Let's think about what
+the first four terms
+
+04:52.603 --> 04:54.089
+of that sequence are, and once again,
+
+04:54.089 --> 04:56.389
+I encourage you to pause the
+video and figure that out.
+
+04:57.409 --> 04:59.453
+All right, let's work through it.
+
+04:59.453 --> 05:03.562
+So h of one is, well,
+they very clearly tell us
+
+05:03.562 --> 05:04.747
+that's going to be 14.
+
+05:04.747 --> 05:07.811
+If n is equal to one, h is 14.
+
+05:07.811 --> 05:11.172
+H of two,
+
+05:11.172 --> 05:13.242
+well, now we're falling into this case,
+
+05:13.242 --> 05:15.659
+'cause two is greater than
+one and it's a whole number,
+
+05:15.659 --> 05:19.336
+so it's gonna be 28 over h of one,
+
+05:19.336 --> 05:21.246
+over h of one.
+
+05:21.246 --> 05:22.973
+Well, we know h of one is 14,
+
+05:22.973 --> 05:26.738
+so it's gonna be 28 over
+14, which is equal to two.
+
+05:26.738 --> 05:29.572
+Now h of three.
+
+05:29.572 --> 05:32.358
+H of three, we're gonna
+fall into this case again.
+
+05:32.358 --> 05:34.053
+It's gonna be 28,
+
+05:34.053 --> 05:38.083
+28 divided by h of two,
+
+05:38.083 --> 05:39.462
+if we're thinking of this as a sequence,
+
+05:39.462 --> 05:42.388
+divided by the previous
+term in the sequence.
+
+05:42.388 --> 05:43.990
+So 28 divided by h of two,
+
+05:43.990 --> 05:47.875
+we know that h of two is equal to,
+
+05:47.875 --> 05:49.215
+is equal to two.
+
+05:49.215 --> 05:50.050
+We just figured that out.
+
+05:50.050 --> 05:52.674
+So we go back to 14,
+something very interesting.
+
+05:52.674 --> 05:54.440
+I think you see where this is going.
+
+05:54.440 --> 05:58.943
+H of four is gonna be 28
+divided by h of three,
+
+05:58.943 --> 06:02.301
+28 divided by h of three,
+
+06:02.301 --> 06:04.251
+which is 28 divided by,
+
+06:04.251 --> 06:05.414
+this is h of three right over here,
+
+06:05.414 --> 06:06.386
+we just figured that out,
+
+06:06.386 --> 06:09.276
+divided by 14, which is back to two.
+
+06:09.276 --> 06:12.387
+If we were to think of this as a sequence,
+
+06:12.387 --> 06:16.033
+we'd say, "All right, let's
+see, the first term is 14,
+
+06:16.033 --> 06:19.245
+"then we get to two,
+
+06:19.245 --> 06:21.055
+"then we go to 14,
+
+06:21.055 --> 06:22.235
+"then we get to two."
+
+06:22.235 --> 06:24.020
+So one way to think about this sequence is
+
+06:24.020 --> 06:27.317
+that we just keep alternating
+between 14 and twos.
+
+06:27.317 --> 06:31.009
+All of the odd terms
+of the sequence are 14,
+
+06:31.009 --> 06:32.890
+all of the even terms
+of the sequence are two.
+
+06:32.890 --> 06:34.817
+That's one way to think about it.
+
+06:34.817 --> 06:36.328
+Or another way to think about it is,
+
+06:36.328 --> 06:38.346
+we're starting with 14,
+
+06:38.346 --> 06:42.015
+and each successive term is
+the previous term divided,
+
+06:42.015 --> 06:45.126
+is 28 divided by the previous term.
+
+06:45.126 --> 06:48.284
+So here, 28 divided by 14 is two.
+
+06:48.284 --> 06:51.813
+28 divided by two is 14.
+28 divided by 14 is two.
+
+06:51.813 --> 06:53.206
+And we keep going on and on and on,
+
+06:53.206 --> 06:57.223
+and that's what was actually
+going on right over there.
+
+06:57.223 --> 06:58.582
+Let's do one more of these.
+
+06:59.592 --> 07:00.776
+And this one is interesting,
+
+07:00.776 --> 07:02.026
+because we now have,
+
+07:02.026 --> 07:06.636
+we now have two base cases.
+
+07:06.636 --> 07:08.397
+So let's think about this.
+
+07:08.397 --> 07:10.716
+This is, and actually let's just say
+
+07:10.716 --> 07:14.450
+we wanted to figure out, we
+wanted to figure out what,
+
+07:14.450 --> 07:17.050
+what f of four is.
+
+07:17.050 --> 07:20.436
+F of four, well, we're
+gonna fall into this case.
+
+07:20.436 --> 07:22.410
+Four is greater than two
+and it's a whole number.
+
+07:22.410 --> 07:24.732
+It's gonna be f of four minus two,
+
+07:24.732 --> 07:29.440
+so it's gonna be f of two
+plus f of four minus one,
+
+07:29.440 --> 07:31.460
+plus f of three.
+
+07:31.460 --> 07:32.830
+So f of four is gonna be the sum
+
+07:32.830 --> 07:35.338
+of the preceding two numbers.
+
+07:35.338 --> 07:36.360
+All right, so let's figure out
+
+07:36.360 --> 07:38.728
+what f of three is going to be.
+
+07:38.728 --> 07:40.725
+F of three, we fall into this case again,
+
+07:40.725 --> 07:43.987
+it's gonna be f of three
+minus two is f of one,
+
+07:44.927 --> 07:48.642
+plus f of three minus one, plus f of two,
+
+07:48.642 --> 07:51.243
+the sum of the preceding two numbers.
+
+07:51.243 --> 07:53.727
+So let's figure out what
+f of two is going to be.
+
+07:53.727 --> 07:54.772
+Well, now we're not doing the sum
+
+07:54.772 --> 07:56.212
+of the preceding two numbers anymore.
+
+07:56.212 --> 07:59.277
+We fall into this base
+case. N is now equal to two.
+
+07:59.277 --> 08:01.274
+It's going to be equal to negative four.
+
+08:01.274 --> 08:02.435
+And we're gonna have to figure out
+
+08:02.435 --> 08:04.408
+what f of one is as well.
+
+08:04.408 --> 08:06.010
+And we see when n is equal to one,
+
+08:06.010 --> 08:07.891
+f is equal to negative six.
+
+08:07.891 --> 08:10.306
+We have two base cases right over here.
+
+08:10.306 --> 08:13.928
+Base cases, cases that aren't defined
+
+08:13.928 --> 08:15.344
+in terms of the function itself.
+
+08:15.344 --> 08:16.296
+And you need that,
+
+08:16.296 --> 08:18.061
+'cause otherwise you'd
+just be recursing forever.
+
+08:18.061 --> 08:20.615
+You would never get to actual numbers.
+
+08:20.615 --> 08:23.502
+But now we can use these to
+fill in the values up here.
+
+08:23.502 --> 08:26.954
+So the sequence is negative six,
+
+08:26.954 --> 08:29.833
+then we go to negative
+four as the second term,
+
+08:29.833 --> 08:32.016
+and then the third term is
+the sum of the previous two.
+
+08:32.016 --> 08:36.613
+Negative six plus negative
+four is negative 10.
+
+08:36.613 --> 08:40.119
+Negative six plus negative
+four is negative 10.
+
+08:40.119 --> 08:42.371
+And then the fourth term is
+the sum of the previous two.
+
+08:42.371 --> 08:43.416
+We see it right over here.
+
+08:43.416 --> 08:45.854
+The second term, f of
+two, plus f of three.
+
+08:45.854 --> 08:50.173
+Negative four plus
+negative 10 is negative 14.
+
+08:50.173 --> 08:53.122
+And we could keep going on
+and on and on like that.
+
+08:53.122 --> 08:55.815
+So this right over here is negative 14.
+
+08:55.815 --> 08:57.324
+So the whole point of this video,
+
+08:57.324 --> 08:59.809
+you're a little bit familiar
+with recursive functions now,
+
+08:59.809 --> 09:01.573
+and also you can see how these can be used
+
+09:01.573 --> 09:04.638
+to define actual sequences.

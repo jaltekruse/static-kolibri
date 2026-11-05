@@ -1,0 +1,280 @@
+WEBVTT
+
+00:00.840 --> 00:03.960
+Mình có 4 dãy số khác nhau đã được định nghĩa tường minh.
+
+00:03.960 --> 00:05.550
+Và bạn thử nghĩ xem,
+
+00:05.550 --> 00:09.970
+những dãy số này hội tụ hay phân kỳ?
+
+00:09.970 --> 00:11.700
+Bạn nhớ không, hội tụ nghĩa là
+
+00:11.700 --> 00:13.705
+n càng lớn thì số hạng
+
+00:13.705 --> 00:17.620
+trong dãy số càng tiệm cận một giá trị nào đó.
+
+00:17.620 --> 00:21.254
+Còn phân kỳ thì nó không tiệm cận một giá trị nào cả.
+
+00:21.254 --> 00:22.170
+Vậy mình thử xem nhé.
+
+00:22.170 --> 00:23.794
+Và mình khuyến khích bạn dừng video này lại
+
+00:23.794 --> 00:26.510
+để thử tự giải trước khi mình giải thích nha.
+
+00:26.510 --> 00:29.110
+Rồi, giờ thì mình nhìn vào dãy số đầu tiên nha.
+
+00:29.110 --> 00:32.729
+Tử số là (n+8) nhân cho (n+1), mẫu số là
+
+00:32.729 --> 00:35.070
+n(n-10).
+
+00:35.070 --> 00:37.530
+Vậy một cách để hiểu chuyện gì đang xảy ra
+
+00:37.530 --> 00:40.074
+khi n lớn dần là so sánh số mũ của tử số
+
+00:40.074 --> 00:41.490
+và số mũ của mẫu số.
+
+00:41.490 --> 00:43.906
+Mình quan tâm đến số mũ vì mình muốn biết
+
+00:43.906 --> 00:46.260
+tử số có tăng nhanh hơn mẫu số không?
+
+00:46.260 --> 00:48.604
+Nếu có thì khi n tiến đến vô cực,
+
+00:48.604 --> 00:50.020
+dãy số sẽ phân kỳ.
+
+00:50.020 --> 00:52.870
+Còn nếu mẫu số tăng nhanh hơn, thì
+
+00:52.870 --> 00:55.180
+dãy số có thể sẽ hội tụ ở 0.
+
+00:55.180 --> 00:57.040
+Hoặc nếu tử và mẫu có cùng
+
+00:57.040 --> 00:59.699
+tốc độ tăng trưởng thì dãy số sẽ hội tụ ở một giá trị khác.
+
+00:59.699 --> 01:01.990
+Vậy giờ mình nhân hết tử và mẫu ra,
+
+01:01.990 --> 01:03.270
+rồi cùng xem nha.
+
+01:03.270 --> 01:06.330
+n nhân n là bằng n bình phương.
+
+01:06.330 --> 01:11.900
+n nhân 1 là 1n, cộng 8n nữa là 9n.
+
+01:11.900 --> 01:14.180
+Rồi 8 nhân 1 bằng 8.
+
+01:14.180 --> 01:17.020
+Vậy tử số là n bình phương cộng 9n cộng 8.
+
+01:17.020 --> 01:22.960
+Mẫu số thì là n bình phương trừ 10n.
+
+01:22.960 --> 01:24.400
+Và một cách để hiểu thì là khi n
+
+01:24.400 --> 01:27.290
+lớn dần, số hạng
+
+01:27.290 --> 01:29.930
+lớn nhất ở tử số-- Số hạng này
+
+01:29.930 --> 01:31.410
+sẽ chiếm phần lớn giá trị của tử số.
+
+01:31.410 --> 01:33.660
+Dưới mẫu thì số hạng này sẽ chiếm phần lớn
+
+01:33.660 --> 01:34.210
+giá trị.
+
+01:34.210 --> 01:36.687
+Những số hạng còn lại sẽ không tăng nhanh bằng.
+
+01:36.687 --> 01:38.270
+Số 8 này là không tăng luôn này.
+
+01:38.270 --> 01:41.200
+Tốc độ tăng trưởng của những số hạng còn lại sẽ không thể
+
+01:41.200 --> 01:44.670
+so được với của n bình phương, đặc biệt là khi giá trị n lớn.
+
+01:44.670 --> 01:47.080
+Vậy thì cho những giá trị n rất, rất lớn,
+
+01:47.080 --> 01:48.470
+dãy số sẽ tiệm cận
+
+01:48.470 --> 01:51.600
+n bình phương chia cho n bình phương, chính là 1.
+
+01:51.600 --> 01:54.570
+Vậy thì mình có thể nói là dãy số này hội tụ.
+
+01:54.570 --> 01:56.735
+Dãy số này sẽ hội tụ.
+
+01:56.735 --> 01:58.860
+Một lần nữa thì mình vẫn chưa chứng minh
+
+01:58.860 --> 02:00.990
+một cách rõ ràng
+
+02:00.990 --> 02:02.210
+vì sao lại vậy.
+
+02:02.210 --> 02:05.240
+Nhưng gợi ý ở đây là mình có số mũ ở tử
+
+02:05.240 --> 02:07.950
+và ở mẫu giống nhau.
+
+02:07.950 --> 02:09.990
+Giờ mình giải quyết cái này đi.
+
+02:09.990 --> 02:13.150
+Giờ ở tử số mình có e mũ n,
+
+02:13.150 --> 02:15.980
+còn ở dưới mẫu mình có e nhân n.
+
+02:15.980 --> 02:21.030
+Vậy thì rõ ràng là tử số sẽ tăng trưởng nhanh hơn nhiều.
+
+02:21.030 --> 02:23.130
+Ý mình là, đây là e mũ n.
+
+02:23.130 --> 02:25.140
+Thử tưởng tượng nếu bạn có n là 100 xem,
+
+02:25.140 --> 02:28.110
+e mũ 100 sẽ rất rất lớn. Trong khi đó e nhân 100
+
+02:28.110 --> 02:29.430
+thi chỉ là 100e thôi.
+
+02:29.430 --> 02:36.340
+Cái này sẽ tăng trưởng nhanh hơn cái này rất nhiều.
+
+02:36.340 --> 02:38.340
+Vậy thì dãy số này sẽ lớn dần.
+
+02:38.340 --> 02:39.846
+Nó sẽ tiến đến vô cực.
+
+02:39.846 --> 02:44.200
+Vậy mình có thể nói là dãy số này sẽ phần kỳ.
+
+02:44.200 --> 02:46.140
+Vậy còn dãy số này.
+
+02:46.140 --> 02:48.420
+Ở đây mình có số mũ cao hơn
+
+02:48.420 --> 02:50.090
+ở trên tử số.
+
+02:50.090 --> 02:51.520
+Số mũ ở tử số lớn hơn ở mẫu số.
+
+02:51.520 --> 02:54.510
+n bình phương tất nhiên sẽ tăng nhanh hơn n.
+
+02:54.510 --> 02:58.130
+Vậy thì như đã giải thích trước đó, dãy số c_n
+
+02:58.130 --> 02:59.750
+sẽ phân kỳ.
+
+02:59.750 --> 03:01.680
+Vì tử số tăng nhanh hơn nhiều
+
+03:01.680 --> 03:02.654
+so với mẫu số mà.
+
+03:02.654 --> 03:04.570
+Hoặc một cách khác để hiểu, thì là giới hạn
+
+03:04.570 --> 03:06.970
+khi n tiến đến vô cực chính là vô cực.
+
+03:06.970 --> 03:09.230
+Cái này đang tiến tới vô cực.
+
+03:09.230 --> 03:11.510
+Giờ đến cái này nhé.
+
+03:11.510 --> 03:14.562
+khi mình tăng n-- Thậm chí mình có thể
+
+03:14.562 --> 03:16.270
+nghĩ xem dãy số này sẽ trông thế nào.
+
+03:16.270 --> 03:19.180
+Khi n bằng 0, âm 1 mũ 0 bằng 1.
+
+03:19.180 --> 03:21.350
+Khi n bằng 1, thì sẽ bằng âm 1.
+
+03:21.350 --> 03:23.335
+Khi n bằng 2, nó sẽ bằng 1.
+
+03:23.335 --> 03:24.960
+Và dãy số cứ thế
+
+03:24.960 --> 03:27.710
+liên tục giao động giữa âm 1 và 1.
+
+03:27.710 --> 03:29.350
+Vậy là nó vẫn bị ràng buộc.
+
+03:29.350 --> 03:31.700
+Nó không tiến đến vô cực hay âm vô cực
+
+03:31.700 --> 03:33.160
+hay là đại loại vậy.
+
+03:33.160 --> 03:35.300
+Nó chỉ dao động giữa 2 giá trị này.
+
+03:35.300 --> 03:39.010
+Vậy là nó không hội tụ ở một giá trị cụ thể nào.
+
+03:39.010 --> 03:41.290
+Và dù nó vẫn bị ràng buộc (nó không
+
+03:41.290 --> 03:43.870
+tiến đến vô cực) nhưng nó vẫn phân kỳ.
+
+03:43.870 --> 03:46.697
+Nó không tiệm cận một giá trị nào cả.
+
+03:46.697 --> 03:48.800
+Để mình viết xuống nhé.
+
+03:48.800 --> 03:51.418
+Dãy số này sẽ phân kỳ.

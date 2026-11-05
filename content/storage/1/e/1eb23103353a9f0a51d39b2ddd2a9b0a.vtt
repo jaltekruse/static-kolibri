@@ -1,0 +1,298 @@
+WEBVTT
+
+00:00.668 --> 00:05.164
+Alle i kongeriket er imponert over våre evner til å planlegge fester
+
+00:05.778 --> 00:08.767
+Alle unntatt han her
+
+00:08.767 --> 00:15.302
+Arbegla er Kongens øverste rådgiver og leder i hoffets festkomitè
+
+00:15.302 --> 00:22.039
+Han liker ikke at vi kommer brasende inn og løser alle Kongens problemer sånn uten videre
+
+00:22.039 --> 00:25.623
+Han klarte nemlig ikke å løse problemet med Kongens muffins
+
+00:25.623 --> 00:32.212
+Han forteller Kongen at muffins-problemet var ganske enkelt, spør dem heller om problemet med potetgullet!
+
+00:32.212 --> 00:35.675
+Vi klarer jo aldri å få dèt helt riktig heller
+
+00:35.675 --> 00:39.138
+&amp;quot;Genialt Arbegla&amp;quot; utbryter Kongen, &amp;quot;vi har jo ikke kontroll på potetgullet&amp;quot;
+
+00:39.138 --> 00:43.896
+Så Kongen spør oss &amp;quot;Hvordan finner vi ut hvor mange poser potetgull vi må bestille?&amp;quot;
+
+00:43.896 --> 00:48.840
+Først må vi finne ut hvor mange poser en gjennomsnittlig mann og kvinne spiser
+
+00:48.840 --> 00:50.440
+&amp;quot;Men hva med barna?&amp;quot; spør vi
+
+00:50.440 --> 00:54.771
+&amp;quot;Barn har ikke lov til å spise potetgull i mitt kongerike&amp;quot; - sier kongen
+
+00:54.771 --> 00:57.576
+&amp;quot;Javel&amp;quot; - sier vi,
+
+00:57.576 --> 01:00.145
+&amp;quot;men fortell oss mer fra tidligere fester&amp;quot;
+
+01:00.145 --> 01:05.598
+&amp;quot;Til forrige fest&amp;quot; - svarer kongen - &amp;quot;kom det 500 voksne&amp;quot;
+
+01:05.598 --> 01:14.794
+200 menn og 300 kvinner
+
+01:15.350 --> 01:21.346
+de spiste tilsammen 1200 poser potetgull
+
+01:21.346 --> 01:23.112
+&amp;quot;Hva med festen før der igjen&amp;quot; spør vi kongen om
+
+01:23.112 --> 01:25.863
+&amp;quot;Ah&amp;quot; - sier kongen &amp;quot; - &amp;quot;på den festen var det enda fler kvinner&amp;quot;
+
+01:25.863 --> 01:33.164
+Det kom kun 100 menn, men 400 kvinner
+
+01:33.164 --> 01:41.248
+Og på den festen spiste de mindre, det gikk med bare 1100 poser potetgull
+
+01:41.248 --> 01:46.812
+Vi sier til kongen og Arbegla at vi forstår, og at vi nok skal kunne løse dette problemet
+
+01:46.812 --> 01:49.680
+La oss definere noen variabler til å representere de ukjente verdiene
+
+01:49.680 --> 02:04.349
+Vi definerer m være antall poser potetgull spist av menn
+
+02:04.349 --> 02:10.676
+vi kan enten se på dette som gjennomsnittsantallet
+
+02:10.676 --> 02:13.364
+eller som at alle menn bare spiser det samme antall poser
+
+02:13.364 --> 02:29.042
+Så lar vi w være lik antall potetgullposer spist av kvinner
+
+02:29.042 --> 02:35.277
+La oss se litt på hvordan vi kan uttrykke den grønne informasjonen algebraisk
+
+02:36.637 --> 02:40.282
+Vi ser på det totale antall poser som mennene spiste
+
+02:40.714 --> 02:49.214
+Det var 200 menn som hver seg spiste m poser
+
+02:50.801 --> 02:55.028
+På den første festen spiste mennene 200 ganger m poser med potetgull
+
+02:55.218 --> 03:02.507
+Hvis m var 10 poser per mann ville det her bli 2000
+
+03:02.507 --> 03:05.510
+Nå vet vi ikke hva m er, menn 200 ganger m er det totale antall poser som mennene spiste
+
+03:07.100 --> 03:13.775
+Det totale antall poser som kvinnene spiste er 300 kvinner ganger antall poser w
+
+03:13.775 --> 03:18.963
+Legger vi sammen kvinnene og mennenes poser får vi 1200 potetgullposer
+
+03:23.363 --> 03:26.757
+Nå har vi et algebraisk uttrykk for denne informasjonen
+
+03:28.487 --> 03:29.694
+Vi bruker den samme metoden
+
+03:30.124 --> 03:31.767
+på den andre informasjonen
+
+03:33.477 --> 03:35.497
+Las oss se hvordan vi kan uttrykke dette med algebra
+
+03:35.497 --> 03:41.839
+Hvor mange poser spiste mennene på denne festen?
+
+03:41.839 --> 03:48.304
+Her spiste 100 mann ganger m poser pr mann
+
+03:48.304 --> 03:50.996
+Alle menn spiser alltid samme antall poser
+
+03:50.996 --> 03:53.925
+Hvor mange poser spiste så kvinnene?
+
+03:53.925 --> 03:59.902
+Alle de 400 kvinnene spiste w poser hver seg
+
+03:59.902 --> 04:03.097
+400 ganger w er det totale antall poser kvinnene satte til livs
+
+04:03.097 --> 04:06.437
+Når vi legger sammen dette, får vi det totale antallet poser som ble spist
+
+04:06.437 --> 04:10.749
+Og det er 1100 poser
+
+04:11.579 --> 04:16.373
+Dette ser kjent ut. Vi har nå et system med to likninger meg to ukjente
+
+04:16.373 --> 04:20.847
+La oss nå løse dette
+
+04:21.177 --> 04:23.783
+Vi kommer til å oppdage noe interessant
+
+04:23.783 --> 04:29.683
+I forrige video hadde vi tilfeldigvis 500 både her, og der
+
+04:29.683 --> 04:32.832
+dette gjorde enkelt å fjerne den ene variabelen
+
+04:33.922 --> 04:40.272
+Denne gangen er det litt mer komplisert. Koeffisientene for m og w er forskjellige i de to to likningene
+
+04:40.272 --> 04:47.501
+Kanskje finnes det en måte å endre likningene på, som gjør det enklere å eliminere noen ledd
+
+04:47.501 --> 04:57.895
+Vi prøver å gange den blå likningen med minus 2
+
+04:57.895 --> 05:01.371
+Hvorfor gjør vi det?
+
+05:01.371 --> 05:07.043
+Hvis vi ganger med minus 2, så blir de 100m her til minus 200m
+
+05:07.043 --> 05:13.361
+Minus 200m går opp med disse 200m når vi legger dem sammen.
+
+05:15.241 --> 05:23.239
+Så la oss gjøre det, vi ganger den blå likningen med minus 2
+
+05:23.239 --> 05:29.022
+Så hva skjer nå? Når vi ganger en likning med noe, så må vi gange alle leddene og begge sidene
+
+05:29.022 --> 05:32.103
+Vi må gange med det samme på begge sider, ellers vil ikke likningen være lik på begge sider
+
+05:32.103 --> 05:37.111
+Minus 2 ganger 100m blir minus 200m
+
+05:37.111 --> 05:43.553
+Minus 2 ganger 400w blir minus 800w
+
+05:43.553 --> 05:48.433
+Nå skal vi gange høyre side med minus 2
+
+05:48.433 --> 05:53.971
+Minus 2 ganger 1100 er minus 2200
+
+05:53.971 --> 05:59.287
+Denne likningen har samme informasjon som tidligere
+
+05:59.287 --> 06:03.771
+Vi har kun endret ved å gange med minus 2 på hver side
+
+06:03.771 --> 06:06.256
+Men likningen er den samme
+
+06:06.256 --> 06:11.435
+La oss nå skrive om den grønne likningen
+
+06:13.245 --> 06:20.300
+200m pluss 300w er lik 1200
+
+06:20.300 --> 06:27.036
+Ved å gange med minus 2 forsvinner denne variabelen når vi legger de to likningene sammen
+
+06:27.036 --> 06:33.028
+Vi legger sammen de på venstre side og de på høyre side
+
+06:33.028 --> 06:39.063
+Vi starter med den blå, og venstre side her legges til venstre side på den gule
+
+06:39.063 --> 06:43.698
+Så legger vi sammen informasjonen på høyre side
+
+06:43.698 --> 06:49.350
+Vi vet at de er like, så vi kan legge til dette på venstre side, og dette på høyre
+
+06:49.350 --> 06:55.875
+Ettersom vi har ganget den blå likningen med minus 2, vil disse to gå opp med hverandre
+
+06:55.875 --> 06:58.838
+Når vi legger de sammen får vi 0m, som er det samme som 0
+
+06:58.838 --> 07:05.617
+Vi står igjen med minus 800w pluss 300w, som blir minus 500w
+
+07:05.617 --> 07:14.172
+På høyre side har vi minus 2200 pluss 1200, det blir minus 1000
+
+07:14.172 --> 07:18.698
+Nå blir det straks enklere, nå har vi en likning med en ukjent
+
+07:18.698 --> 07:22.028
+Nå skal vi dividere begge sider med koeffisienten til w
+
+07:22.028 --> 07:28.708
+Vi dividerer med minus 500 på begge sider
+
+07:28.708 --> 07:39.105
+Vi får da at w er lik 2. Kvinnene spiste altså gjennomsnittlig 2 poser potetgull på festene.
+
+07:39.105 --> 07:41.215
+Da kan vi gå ut fra at de gjør det på alle fester
+
+07:41.215 --> 07:46.963
+Hvordan regner vi nå ut hvor mange poser mennene spiser?
+
+07:49.263 --> 07:55.516
+Vi går tilbake i en av de opprinnelige likningene
+
+07:55.516 --> 07:58.827
+Begge vil gi oss samme svaret, men la oss prøve den andre
+
+07:58.827 --> 08:04.106
+Vi bytter ut w i den andre likningen
+
+08:07.576 --> 08:16.311
+100 ganger m, som vi skal finne, pluss 400 ganger w, som vi nå vet er 2
+
+08:17.401 --> 08:28.025
+er lik 1100. 100m pluss 800 er altså lik 1100
+
+08:28.025 --> 08:35.706
+Vi trekker fra 800 på begge sider for å finne m
+
+08:35.706 --> 08:42.970
+Nå har vi at 100m er lik 300
+
+08:42.970 --> 08:46.004
+Vi dividerer nå begge sider med 100
+
+08:46.004 --> 08:57.182
+100 og 100. Vi står igjen med at m er lik 3. m er det gjennomsnittlige antallet poser en mann spiser på fest
+
+08:57.182 --> 09:00.226
+Vi har nå løst Arbeglas problem
+
+09:00.226 --> 09:05.473
+Han synes dette var veldig godt gjort
+
+09:05.473 --> 09:10.182
+Vi kan nå fortelle kongen at han fremover må regne med
+
+09:10.182 --> 09:14.208
+at hver mann spiser 3 poser potetgull,
+
+09:14.208 --> 09:18.208
+og at hver kvinne spiser 2.

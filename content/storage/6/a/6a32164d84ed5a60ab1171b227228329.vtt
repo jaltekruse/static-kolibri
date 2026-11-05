@@ -1,0 +1,276 @@
+WEBVTT
+
+00:00.409 --> 00:01.257
+- [Instructor] So right over here,
+
+00:01.257 --> 00:05.582
+I have the graph of the function
+y is equal to 15 over x,
+
+00:05.582 --> 00:09.598
+or at least I see the part of
+it for positive values of x.
+
+00:09.598 --> 00:12.790
+And what I'm curious
+about in this video is
+
+00:12.790 --> 00:15.752
+I want to find the area
+not between this curve
+
+00:15.752 --> 00:17.590
+and the positive x-axis,
+
+00:17.590 --> 00:22.131
+I want to find the area between
+the curve and the y-axis,
+
+00:22.131 --> 00:26.298
+bounded not by two x-values,
+but bounded by two y-values,
+
+00:27.182 --> 00:28.957
+so with the bottom bound
+
+00:28.957 --> 00:32.177
+of the horizontal line y is equal to e
+
+00:32.177 --> 00:36.842
+and an upper bound with y is
+equal to e to the third power.
+
+00:36.842 --> 00:39.743
+So pause this video, and see
+if you can work through it.
+
+00:39.743 --> 00:41.122
+So one way to think about it,
+
+00:41.122 --> 00:43.960
+this is just like definite
+integrals we've done
+
+00:43.960 --> 00:46.441
+where we're looking between
+the curve and the x-axis,
+
+00:46.441 --> 00:49.095
+but now it looks like
+things are swapped around.
+
+00:49.095 --> 00:52.102
+We now care about the y-axis.
+
+00:52.102 --> 00:55.060
+So let's just rewrite our function here,
+
+00:55.060 --> 00:57.128
+and let's rewrite it in terms of x.
+
+00:57.128 --> 00:59.566
+So if y is equal to 15 over x,
+
+00:59.566 --> 01:02.262
+that means if we multiply both sides by x,
+
+01:02.262 --> 01:03.762
+xy is equal to 15.
+
+01:04.658 --> 01:06.284
+And if we divide both sides by y,
+
+01:06.284 --> 01:09.117
+we get x is equal to 15 over y.
+
+01:10.108 --> 01:14.134
+These right over here are
+all going to be equivalent.
+
+01:14.134 --> 01:17.366
+Now how does this right over help you?
+
+01:17.366 --> 01:20.410
+Well, think about the area.
+
+01:20.410 --> 01:21.658
+Think about estimating the area
+
+01:21.658 --> 01:23.193
+as a bunch of little rectangles here.
+
+01:23.193 --> 01:24.709
+So that's one rectangle,
+
+01:24.709 --> 01:28.862
+and then another rectangle
+right over there,
+
+01:28.862 --> 01:32.176
+and then another rectangle
+right over there.
+
+01:32.176 --> 01:35.034
+So what's the area of
+each of those rectangles?
+
+01:35.034 --> 01:38.034
+So the width here, that is going to be x,
+
+01:38.034 --> 01:41.426
+but we can express x as a function of y.
+
+01:41.426 --> 01:43.460
+So that's the width right over there,
+
+01:43.460 --> 01:47.334
+and we know that that's
+going to be 15 over y.
+
+01:47.334 --> 01:49.132
+And then what's the height gonna be?
+
+01:49.132 --> 01:52.206
+Well, that's going to be
+a very small change in y.
+
+01:52.206 --> 01:54.502
+The height is going to be dy.
+
+01:54.502 --> 01:57.126
+So the area of one of
+those little rectangles
+
+01:57.126 --> 02:00.254
+right over there, say the area
+of that one right over there,
+
+02:00.254 --> 02:02.354
+you could view as,
+
+02:02.354 --> 02:05.771
+let me do it over here, as 15 over y, dy.
+
+02:07.972 --> 02:10.538
+And then we want to sum all
+of these little rectangles
+
+02:10.538 --> 02:12.023
+from y is equal to e,
+
+02:12.023 --> 02:15.380
+all the way to y is equal
+to e to the third power.
+
+02:15.380 --> 02:17.341
+So that's what our definite integral does.
+
+02:17.341 --> 02:19.084
+We go from y is equal to e
+
+02:19.084 --> 02:21.608
+to y is equal to e to the third power.
+
+02:21.608 --> 02:24.240
+So all we did, we're used
+to seeing things like this,
+
+02:24.240 --> 02:26.808
+where this would be 15 over x, dx.
+
+02:26.808 --> 02:30.976
+All we're doing here is,
+this is 15 over y, dy.
+
+02:30.976 --> 02:32.696
+So let's evaluate this.
+
+02:32.696 --> 02:35.777
+So we take the antiderivative of 15 over y
+
+02:35.777 --> 02:37.354
+and then evaluate at these two points.
+
+02:37.354 --> 02:39.046
+So this is going to be equal to
+
+02:39.046 --> 02:42.016
+antiderivative of one over y
+
+02:42.016 --> 02:45.834
+is going to be the natural log
+of the absolute value of y.
+
+02:45.834 --> 02:49.254
+So it's 15 times the natural log
+
+02:49.254 --> 02:51.145
+of the absolute value of y,
+
+02:51.145 --> 02:54.303
+and then we're going to
+evaluate that at our endpoints.
+
+02:54.303 --> 02:57.400
+So we're going to evaluate it at
+
+02:57.400 --> 02:59.268
+e to the third
+
+02:59.268 --> 03:00.101
+and at e.
+
+03:01.506 --> 03:03.507
+So let's first evaluate at e to the third.
+
+03:03.507 --> 03:06.749
+So that's 15 times the natural log,
+
+03:06.749 --> 03:09.891
+the absolute time, the natural,
+(laughs) the natural log
+
+03:09.891 --> 03:14.058
+of the absolute value of
+e to the third power minus
+
+03:16.323 --> 03:17.530
+15
+
+03:17.530 --> 03:22.174
+times the natural log of
+the absolute value of e.
+
+03:22.174 --> 03:23.967
+So what does this simplify to?
+
+03:23.967 --> 03:25.608
+The natural log of e to the third power,
+
+03:25.608 --> 03:27.148
+what power do I have to raise e to,
+
+03:27.148 --> 03:28.250
+to get to e to the third?
+
+03:28.250 --> 03:29.957
+Well, that's just going to be three.
+
+03:29.957 --> 03:32.815
+And then the natural log of e,
+
+03:32.815 --> 03:35.318
+what power do I have to
+raise e to, to get e?
+
+03:35.318 --> 03:36.760
+Well, that's just one.
+
+03:36.760 --> 03:40.288
+So this is 15 times three minus 15.
+
+03:40.288 --> 03:43.371
+So that is all going to get us to 30,
+
+03:44.761 --> 03:47.178
+and we are done, 45 minus 15.

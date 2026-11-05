@@ -1,0 +1,180 @@
+WEBVTT
+
+00:00.000 --> 00:14.516
+Digamos que f(x) é igual a x*exp(-2x^2),
+e queremos encontrar pontos críticos para f(x).
+
+00:14.516 --> 00:21.403
+Eu então o encorajo a pausar este vídeo e pensar nisso,
+você consegue encontrar algum ponto crítico para f(x)?
+
+00:21.403 --> 00:29.091
+Assumo que você já tentou. Recordemos
+o que é um ponto crítico.
+
+00:29.099 --> 00:38.619
+Digamos que c é um ponto crítico de f(x), se e somente se
+
+00:38.619 --> 00:44.709
+-- e eu vou escrever "se" com dois s's (sse),
+a abreviação de "se e somente se"
+
+00:44.709 --> 00:55.411
+f'(c) = 0 ou f'(c) é indefinido.
+
+00:55.411 --> 00:59.697
+Então, se olharmos para os pontos críticos para f,
+queremos encontrar todos os lugares
+
+00:59.697 --> 01:06.286
+onde a derivada disso com
+respeito a x será zero ou indefinido.
+
+01:06.286 --> 01:09.674
+Pensemos em como podemos
+encontrar a derivada disso.
+
+01:09.674 --> 01:19.204
+Vejamos, f'(x) será -- bom, vejamos, teremos que aplicar
+alguma combinação da regra do produto e da regra da cadeia.
+
+01:19.204 --> 01:37.817
+Isso será a derivada com respeito
+a x de x vezes exp(-2x^2) mais
+
+01:37.817 --> 01:54.932
+a derivada com respeito a
+x de exp(-2x^2) vezes x.
+
+01:54.932 --> 01:57.119
+Isso é somente a regra do produto,
+
+01:57.119 --> 02:05.658
+a derivada de x vezes exp(-2x^2)
+mais a derivada de exp(-2x^2) vezes x.
+
+02:05.658 --> 02:07.384
+No que resultará isso?
+
+02:07.384 --> 02:14.071
+Bom, tudo isso aqui em rosa -- a derivada de x
+com respeito a x -- será somente igual a 1.
+
+02:14.071 --> 02:24.918
+Essa primeira parte será igual a exp(-2x^2), e agora a derivada aqui --
+
+02:24.918 --> 02:31.199
+-- essa parte aqui será igual a --
+
+02:31.199 --> 02:32.490
+bom, apliquemos somente a regra da cadeia.
+
+02:32.490 --> 02:41.329
+Derivada de exp(-2x^2) com respeito
+a -2x^2 será somente exp(-2x^2),
+
+02:41.329 --> 02:47.066
+e iremos multiplicar aquilo pela
+derivada de -2x^2 com respeito a x.
+
+02:47.066 --> 02:52.325
+Isso será então -4x.
+
+02:52.325 --> 02:58.735
+Vezes -4x. E, é claro, temos esse x aqui.
+
+02:58.735 --> 03:06.482
+Temos aquele x, vejamos,
+podemos simplificar tudo isso?
+
+03:06.482 --> 03:09.924
+Obviamente, ambos esses termos
+tem um exp(-2x^2) --
+
+03:09.924 --> 03:16.472
+eu tentarei descobrir se isso
+é indefinido ou igual a zero.
+
+03:16.472 --> 03:19.291
+Pensemos um pouco sobre isso.
+
+03:19.291 --> 03:26.072
+Vejamos, se isolarmos exp(-2x^2), teremos --
+
+03:26.072 --> 03:45.397
+isso é igual a exp(-2x^2) vezes --
+temos aqui 1 menos 4x^2.
+
+03:45.397 --> 03:54.264
+Então essa é a derivada de f. Agora, aonde
+isso será indefinido ou igual a zero?
+
+03:54.264 --> 04:04.342
+Vejamos, exp(-2x^2) será definido para
+qualquer valor de x. Esta parte será definida.
+
+04:04.342 --> 04:07.750
+E essa parte também será
+definida para qualquer valor de x.
+
+04:07.750 --> 04:12.809
+Então não há pontos onde a função é indefinida.
+Vejamos onde ela será igual a zero.
+
+04:12.809 --> 04:16.610
+Temos então esse produto dessas
+duas expressões igual a zero.
+
+04:16.610 --> 04:19.760
+exp(-2x^2), que nunca será zero.
+
+04:19.760 --> 04:23.536
+Se você tiver um expoente bastante negativo,
+
+04:23.536 --> 04:28.952
+você se aproximará de zero,
+mas nunca chegará a zero.
+
+04:28.952 --> 04:34.993
+Então essa parte não poderá ser zero, mas se o produto dos
+dois for zero, ao menos um deles tem que ser zero.
+
+04:34.993 --> 04:44.471
+Logo, a única maneira de obter f'(x) igual a 0
+é quando 1 - 4x^2 é igual a zero.
+
+04:44.471 --> 04:53.472
+1 - 4x^2 = 0. Deixe-me reescrever isso.
+1 - 4x^2 = 0, quando isso acontece?
+
+04:53.472 --> 04:55.255
+Nós somente temos que calcular.
+
+04:55.255 --> 04:59.476
+Adicione 4x^2 em ambos os lados,
+você obtém 1 = 4x^2.
+
+04:59.476 --> 05:06.167
+Divida ambos os lados por 4 e você obtém 1/4 = x^2,
+e então quais serão os valores de x?
+
+05:06.167 --> 05:15.269
+Bom, calculemos mais ou menos a raiz quadrada em
+ambos os lados e você obtém x = ±1/2.
+
+05:15.269 --> 05:22.735
+(-1/2)^2 é igual a 1/4, (+1/2)^2 será 1/4. Logo, x = ±1/2.
+
+05:22.735 --> 05:28.521
+f'(x) ou a derivada será igual a zero. Vou escrever desta forma.
+
+05:28.521 --> 05:37.647
+f'(1/2) = 0, e você poderá verificar
+isso logo aqui, e f'(-1/2) = 0.
+
+05:37.647 --> 05:49.896
+Então, se alguém perguntasse: "Qual são os pontos
+críticos aqui?" Eles serão 1/2 e -1/2.
+
+05:49.896 --> 05:54.436
+Legendado por Musa Morena Marcusso Manhães

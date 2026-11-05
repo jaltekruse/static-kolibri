@@ -1,0 +1,394 @@
+WEBVTT
+
+00:00.060 --> 00:04.895
+V tomto videu vás chci seznámit
+s testem pomocí druhé derivace.
+
+00:04.895 --> 00:07.624
+Ještě než se dostanu
+k jádru věci,
+
+00:07.624 --> 00:11.625
+chtěl bych se intuitivně podívat na to,
+co nám test pomocí druhé derivace říká.
+
+00:11.625 --> 00:15.343
+Nejprve zde
+nakreslím osy.
+
+00:15.343 --> 00:20.050
+Řekněme, že toto je osa y
+a že tohle bude osa x.
+
+00:20.050 --> 00:27.037
+Řekněme dále, že máme funkci, která má
+lokální maximum v bodě x rovno ‚c‘.
+
+00:27.037 --> 00:31.238
+Řekněme tedy, že máme situaci,
+která vypadá přibližně takto.
+
+00:31.238 --> 00:35.252
+Bod x rovno ‚c‘ je...
+
+00:35.252 --> 00:39.522
+Tohle je bod
+[c; f(c)], takže...
+
+00:39.522 --> 00:42.342
+Pokusím se nakreslit
+rovnější přerušovanou čáru.
+
+00:42.342 --> 00:46.587
+Takže tady je
+bod x rovno ‚c‘.
+
+00:46.587 --> 00:50.916
+Už od pohledu vidíme, že
+zde máme lokální maximum.
+
+00:50.916 --> 00:54.866
+Nyní můžeme použít diferenciální počet
+a zjistit, co se v tomto bodě děje.
+
+00:54.866 --> 00:56.602
+Jednu věc víme.
+
+00:56.602 --> 01:00.019
+Víme, že směrnice tečny,
+
+01:00.019 --> 01:03.483
+alespoň tak, jak jsem to
+tu nakreslil, se rovná 0.
+
+01:03.493 --> 01:08.875
+Můžeme tedy říct, že
+f s čárkou v bodě ‚c‘ je rovno 0.
+
+01:08.875 --> 01:15.291
+Dále vidíme, že funkce je konkávní
+na okolí bodu x rovno ‚c‘.
+
+01:15.291 --> 01:18.389
+Všimněme si,
+že sklon neustále klesá.
+
+01:18.389 --> 01:19.809
+Protože sklon
+neustále...
+
+01:20.689 --> 01:23.042
+Nejprve je kladný, pak
+čím dál tím méně kladný,
+
+01:23.042 --> 01:27.334
+následně se rovná nule, načež začne být
+záporný a poté je čím dál tím víc záporný.
+
+01:27.334 --> 01:38.334
+Víme tedy, že f se dvěma čárkami
+v bodě ‚c‘ je menší než 0.
+
+01:38.334 --> 01:42.080
+Neudělal jsem tu žádný
+hluboký matematický důkaz,
+
+01:42.080 --> 01:47.102
+ale když máme stacionární bod,
+ve kterém je f s čárkou...
+
+01:47.102 --> 01:51.733
+Když máme stacionární bod x rovno ‚c‘,
+pro který je f(c) s čárkou rovno 0,
+
+01:51.733 --> 01:55.521
+a když také víme, že druhá derivace
+v tomto bodě je menší než 0,
+
+01:55.521 --> 01:59.012
+tak intuitivně dává smysl, že
+jsme v bodě lokálního maxima.
+
+01:59.012 --> 02:00.557
+Mohli bychom to
+udělat i opačně.
+
+02:00.557 --> 02:08.957
+Kdyby funkce v bodě x rovno ‚c‘
+měla lokální minimum,
+
+02:08.957 --> 02:14.063
+tak její první derivace by
+stále měla být rovna 0,
+
+02:14.063 --> 02:17.653
+protože směrnice tečny
+je v tomto bodě stále nulová.
+
+02:17.653 --> 02:21.903
+f s čárkou v bodě ‚c‘
+je tedy rovno 0.
+
+02:21.903 --> 02:25.011
+V tomto druhém případě
+je ale funkce konvexní.
+
+02:25.011 --> 02:28.665
+Sklon neustále roste.
+
+02:28.665 --> 02:30.575
+Máme takovou
+otevřenou mísu.
+
+02:30.575 --> 02:33.435
+V tomto bodě má tedy
+funkce lokální minimum,
+
+02:33.435 --> 02:38.298
+nebo také můžeme říct, že druhá
+derivace je zde větší než 0.
+
+02:38.298 --> 02:40.638
+Od pohledu vidíme,
+že je zde lokální minimum,
+
+02:40.638 --> 02:43.600
+a také vidíme něco o derivacích,
+alespoň jak jsem to nakreslil.
+
+02:43.600 --> 02:46.824
+První derivace je rovna 0
+a funkce je konvexní,
+
+02:46.824 --> 02:49.027
+takže druhá derivace
+je větší než 0.
+
+02:49.027 --> 02:51.367
+Tato intuice, kterou jsme
+si tímto snad vytvořili,
+
+02:51.367 --> 02:54.275
+je to, co nám říká test
+pomocí druhé derivace.
+
+02:54.275 --> 02:57.232
+Říká nám to, že když
+máme nějakou funkci f…
+
+02:57.232 --> 02:59.965
+Řekněme, že je to dvakrát
+diferencovatelná funkce,
+
+02:59.965 --> 03:01.950
+což znamená, že na
+nějakém intervalu…
+
+03:01.950 --> 03:06.110
+Znamená to, že její první
+i druhá derivace jsou definované.
+
+03:06.110 --> 03:11.252
+Řekněme, že máme nějaký bod x rovno ‚c‘,
+ve kterém je první derivace rovna 0,
+
+03:11.252 --> 03:13.961
+což znamená, že směrnice
+tečny je v něm nulová
+
+03:13.961 --> 03:16.861
+a že derivace je definovaná
+na nějakém okolí bodu x rovno ‚c‘.
+
+03:16.861 --> 03:18.971
+Pro většinu funkcí,
+s nimiž počítáme, platí,
+
+03:18.971 --> 03:22.774
+že když jsou diferencovatelné v ‚c‘,
+tak jsou diferencovatelné na okolí ‚c‘.
+
+03:22.774 --> 03:24.961
+Dále předpokládáme,
+že druhá derivace existuje,
+
+03:24.961 --> 03:26.726
+tedy že f je dvakrát
+diferencovatelná.
+
+03:26.726 --> 03:31.864
+Potom může jít o bod lokálního maxima,
+nebo o bod lokálního minima,
+
+03:31.864 --> 03:34.123
+nebo možná nevíme,
+s čím se setkáváme,
+
+03:34.123 --> 03:37.968
+možná to není ani bod lokálního
+minima, ani bod lokálního maxima.
+
+03:37.968 --> 03:39.701
+Avšak díky
+druhé derivaci...
+
+03:39.701 --> 03:45.698
+Když spočítáme druhou derivaci
+a zjistíme, že je menší než 0,
+
+03:45.698 --> 03:48.339
+tak jde o bod
+lokálního maxima.
+
+03:49.699 --> 03:54.283
+To je ta situace, se
+kterou jsme tady začali.
+
+03:54.283 --> 03:57.806
+Pokud je druhá
+derivace větší než 0,
+
+03:57.806 --> 03:59.618
+tak jde o tuhle
+druhou situaci,
+
+03:59.618 --> 04:01.184
+kdy je funkce konvexní.
+
+04:01.184 --> 04:03.540
+Tam, kde je sklon nulový,
+je dno naší mísy,
+
+04:03.540 --> 04:05.871
+neboli jde o
+bod lokálního minima.
+
+04:05.871 --> 04:08.955
+Pokud je druhá derivace
+nula, tak nelze nic říci.
+
+04:08.955 --> 04:12.179
+Nevíme, co se v tom
+bodě doopravdy děje.
+
+04:12.179 --> 04:14.338
+Nemůžeme o tom
+nic najisto tvrdit.
+
+04:14.338 --> 04:16.169
+Teď si udělejme
+rychlý příklad,
+
+04:16.169 --> 04:18.497
+abychom viděli,
+jestli už to chápeme.
+
+04:18.497 --> 04:22.152
+Řekněme, že máme nějakou dvakrát
+diferencovatelnou funkci h
+
+04:22.152 --> 04:27.191
+a že h(8) se rovná 5.
+
+04:27.191 --> 04:32.374
+Dále víme, že h s čárkou
+v bodě 8 se rovná 0
+
+04:32.374 --> 04:38.788
+a že druhá derivace
+v bodě x rovno 8 je rovna −4.
+
+04:38.788 --> 04:41.013
+Když tohle víme,
+dokážeme říci,
+
+04:41.013 --> 04:57.480
+zda je bod [8; 5] lokálním
+minimem, lokálním maximem,
+
+04:57.480 --> 04:59.836
+anebo zda pro to
+není dost informací?
+
+04:59.836 --> 05:04.693
+Nedostatek informací neboli
+nedokážeme nic říci.
+
+05:04.693 --> 05:07.940
+Jako vždy si zastavte video
+a zkuste na to přijít.
+
+05:07.940 --> 05:09.689
+Máme dvakrát
+diferencovatelnou funkci
+
+05:09.689 --> 05:13.761
+a myslím, že můžeme pro
+jednoduchost předpokládat,
+
+05:13.761 --> 05:17.279
+že první derivace existuje na
+nějakém okolí bodu x rovno 8.
+
+05:17.279 --> 05:20.418
+V tomto příkladu
+se ‚c‘ rovná 8, takže...
+
+05:20.418 --> 05:23.394
+Bod [8; 5] určitě leží
+na zadané křivce.
+
+05:23.394 --> 05:24.672
+Derivace je rovna 0,
+
+05:24.672 --> 05:27.840
+takže máme co do činění
+s jednou z těchto situací,
+
+05:27.840 --> 05:31.258
+a druhá derivace
+je menší než 0.
+
+05:31.258 --> 05:33.377
+Druhá derivace je
+menší než 0.
+
+05:33.377 --> 05:34.953
+To nám
+bylo zadáno.
+
+05:34.953 --> 05:41.520
+To, že druhá derivace, tedy h se dvěma
+čárkami, v bodě 8 je menší než 0,
+
+05:41.520 --> 05:45.280
+nám říká, že
+nastal tento případ.
+
+05:45.280 --> 05:47.587
+Takže jen s těmi informacemi,
+které nám dali,
+
+05:47.587 --> 05:53.880
+můžeme říct, že v bodě [8; 5]
+má funkce lokální maximum,
+
+05:53.880 --> 05:57.500
+neboli že jde o bod
+lokálního maxima této funkce.
+
+05:57.500 --> 06:00.454
+Kdyby nám zadali, že
+druhá derivace je rovna 0,
+
+06:00.454 --> 06:02.216
+tak bychom řekli,
+že nelze rozhodnout,
+
+06:02.216 --> 06:06.599
+a kdyby nám řekli, že druhá
+derivace je větší než 0,
+
+06:06.599 --> 06:11.530
+tak by funkce v bodě x rovno 8
+měla lokální minimum.

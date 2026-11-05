@@ -1,0 +1,400 @@
+WEBVTT
+
+00:00.640 --> 00:01.810
+Apa yang akan kita pelajari
+
+00:01.810 --> 00:05.270
+dalam video ini adalah salah satu aturan utama dalam kalkulus,
+
+00:05.270 --> 00:07.210
+dan anda akan menggunakannya dalam mencari turunan
+
+00:07.210 --> 00:09.380
+dari banyak jenis persamaan bahkan yang cukup kompleks.
+
+00:09.380 --> 00:11.280
+Dan aturan ini disebut aturan rantai.
+
+00:11.280 --> 00:12.610
+Dan ketika anda pertama kali melihatnya,
+
+00:12.610 --> 00:14.900
+aturan ini bisa terlihat menyeramkan dan sedikit sulit.
+
+00:14.900 --> 00:16.550
+Tapi seiring anda melihat lebih banyak contoh,
+
+00:16.550 --> 00:18.520
+hal ini akan mulai mudah dipahami, dan semoga hal ini
+
+00:18.520 --> 00:21.930
+terlihat cukup mudah dan intuitif seiring waktu.
+
+00:21.930 --> 00:24.060
+Sekarang katakan saya mempunyai sebuah fungsi.
+
+00:24.060 --> 00:28.990
+Katakan saya memiliki sebuah fungsi h untuk x, dan nilai fungsinya adalah,
+
+00:28.990 --> 00:33.280
+sebagai contoh, mari kita buat nilainya sebagai sin x,
+
+00:33.280 --> 00:36.740
+(ralat) katakan fungsinya bernilai sin x kuadrat.
+
+00:36.740 --> 00:37.970
+Sebenarnya saya bisa
+
+00:37.970 --> 00:39.260
+menulisnya seperti ini
+
+00:39.260 --> 00:41.770
+sin kuadrat x, tapi fungsi ini akan menjadi lebih jelas
+
+00:41.770 --> 00:44.010
+menggunakan notasi yang seperti ini.
+
+00:44.010 --> 00:46.300
+Kembali katakan saya mempunyai fungsi h untuk x.
+
+00:46.300 --> 00:49.850
+Dan saya ingin tahu apakah nilai dari h aksen untuk x?
+
+00:49.850 --> 00:52.400
+Saya ingin tau nilai dari h aksen untuk x,
+
+00:52.400 --> 00:54.070
+yang notasi lain untuk menulisnya adalah
+
+00:54.070 --> 00:56.890
+sebagai turunan dari h terhadap x.
+
+00:56.890 --> 00:58.610
+Hal ini hanyalah dua cara penulisan yang berbeda.
+
+00:58.610 --> 01:01.310
+Dan untuk menghitungnnya, saya akan menggunakan aturan rantai.
+
+01:01.310 --> 01:03.040
+Saya akan menggunakan aturan rantai.
+
+01:03.040 --> 01:06.070
+dan aturan rantai dapat digunakan setiap kali,
+
+01:06.070 --> 01:08.950
+setiap saat fungsi yang diturunkan dapat ditulis sebagai komposisi
+
+01:08.950 --> 01:10.090
+dari lebih satu fungsi.
+
+01:10.090 --> 01:12.610
+Dan walaupun sekarang hal ini terlihat kurang jelas,
+
+01:12.610 --> 01:13.810
+tapi saya harap,
+
+01:13.810 --> 01:16.660
+mungkin diakhir video ini atau yang selanjutnya anda akan paham.
+
+01:16.660 --> 01:17.493
+Sekarang yang ingin saya lakukan
+
+01:17.493 --> 01:19.440
+adalah sedikit mencoba-coba,
+
+01:19.440 --> 01:21.470
+sedikit eksperimen dalam pikiran.
+
+01:21.470 --> 01:22.640
+Jika saya bertanya pada anda
+
+01:22.640 --> 01:24.770
+apakah turunan terhadap x,
+
+01:24.770 --> 01:26.900
+jika saya menggunakan operator turunan
+
+01:26.900 --> 01:30.670
+untuk x kuadrat terhadap x, apakah hasil yang akan saya dapatkan?
+
+01:30.670 --> 01:32.030
+Perhitungan ini akan menghasilkan jawaban 2x.
+
+01:32.030 --> 01:34.530
+Kita telah melihatnya banyak, banyak, banyak, banyak, kali.
+
+01:34.530 --> 01:37.570
+Sekarang, bagaimana jika kita menurunkan a kuadrat
+
+01:37.570 --> 01:39.210
+terhadap a?
+
+01:39.210 --> 01:40.350
+Jawabannya adalah hal yang sama persis.
+
+01:40.350 --> 01:42.850
+Saya hanya menukar a untuk x.
+
+01:42.850 --> 01:45.720
+jawabannya akan tetap sama dengan dua a.
+
+01:45.720 --> 01:46.840
+Sekarang saya akan melakukan sesuatu
+
+01:46.840 --> 01:48.810
+yang mungkin terlihat sedikit aneh.
+
+01:48.810 --> 01:52.140
+bagaimana jika saya mencari turunan terhadap
+
+01:52.140 --> 01:53.800
+sin x,
+
+01:53.800 --> 01:56.970
+terhadap sin x,
+
+01:56.970 --> 01:59.120
+dari sin x kuadrat,
+
+01:59.120 --> 02:01.730
+sin x kuadrat?
+
+02:01.730 --> 02:04.860
+Caranya adalah sama seperti x disini dan a disini,
+
+02:04.860 --> 02:06.850
+saya hanya menggantinya dengan sin x.
+
+02:06.850 --> 02:10.320
+sehingga hasilnya akan menjadi dua kali apa yang saya punya,
+
+02:10.320 --> 02:12.300
+sehingga terhadap apapun saya mengoperasikan turunan.
+
+02:12.300 --> 02:13.700
+Disini terhadap x.
+
+02:13.700 --> 02:14.670
+Disini terhadap a.
+
+02:14.670 --> 02:16.790
+Disini terhadap sin x.
+
+02:16.790 --> 02:19.550
+Sehingga hasilnya akan menjadi dua kali
+
+02:19.550 --> 02:21.880
+sin x.
+
+02:21.880 --> 02:23.850
+Aturan rantai menyatakan bahwa
+
+02:23.850 --> 02:27.200
+bahwa turunan dari fungsi ini adalah turunan dari
+
+02:27.200 --> 02:29.950
+keseluruhan fungsi kita terhadap,
+
+02:29.950 --> 02:33.520
+(ralat) atau turunan terhadap fungsi luar ini, x kuadrat,
+
+02:33.520 --> 02:36.760
+turunan dari x kuadrat,
+
+02:36.760 --> 02:39.570
+turunan dari fungsi luar ini
+
+02:39.570 --> 02:41.920
+terhadap sin x.
+
+02:41.920 --> 02:45.050
+Sehingga hasilnya adalah dua sin x,
+
+02:45.050 --> 02:46.110
+dua
+
+02:46.110 --> 02:47.180
+sin x.
+
+02:47.180 --> 02:49.830
+Sehingga kita kita bisa melihatnya sebagai turunan dari fungsi luar
+
+02:49.830 --> 02:52.420
+terhadap fungsi dalam, dua sin x.
+
+02:52.420 --> 02:54.820
+Kita bisa menganggap sin untuk x seperti layaknya x.
+
+02:54.820 --> 02:55.980
+Dan hasilnya hanyalah dua x,
+
+02:55.980 --> 02:57.060
+atau kali ini dua sin x.
+
+02:57.060 --> 02:59.980
+Kita katakan dua sin x dikali,
+
+02:59.980 --> 03:02.580
+dikali turunan dari, saya akan tulis dengan warna hijau,
+
+03:02.580 --> 03:06.760
+dikali turunan dari sin x terhadap x.
+
+03:06.760 --> 03:10.450
+Dikali turunan sin x terhadap x,
+
+03:10.450 --> 03:11.640
+dan sepertinya hal ini terlihat lebih jelas,
+
+03:11.640 --> 03:13.140
+dan sedikit lebih intuitif.
+
+03:13.140 --> 03:14.610
+Turunan dari sin x,
+
+03:14.610 --> 03:17.520
+terhadap x, kita telah melihatnya berkali-kali,
+
+03:17.520 --> 03:19.520
+adalah cos x,
+
+03:19.520 --> 03:21.450
+sehingga dikali cos x.
+
+03:21.450 --> 03:23.420
+Dan kita telah mengaplikasikan aturan rantai.
+
+03:23.420 --> 03:25.180
+Adalah turunan dari fungsi luar
+
+03:25.180 --> 03:27.060
+terhadap fungsi dalam.
+
+03:27.060 --> 03:28.660
+Sehingga turunan dari sin x kuadrat
+
+03:28.660 --> 03:31.190
+terhadap sin x adalah dua sin x,
+
+03:31.190 --> 03:34.590
+dan kemudian kita kalikan dengan turunan dari sin x
+
+03:34.590 --> 03:37.160
+terhadap x.
+
+03:37.160 --> 03:38.200
+Mari kita perjelas.
+
+03:38.200 --> 03:41.520
+Disini disebelah sini adalah turunannya
+
+03:41.520 --> 03:43.080
+Kita menghitung turunan dari,
+
+03:43.080 --> 03:48.080
+kita menghitung turunan dari sin x kuadrat.
+
+03:48.210 --> 03:49.043
+Biar saya perjelas.
+
+03:49.043 --> 03:50.800
+Bahwa kita menghitung turunan
+
+03:50.800 --> 03:53.370
+terhadap sin x,
+
+03:53.370 --> 03:55.630
+terhadap sin x,
+
+03:55.630 --> 03:57.960
+Dan kita mengkalikannya dengan
+
+03:57.960 --> 03:59.940
+turunan dari sin x,
+
+03:59.940 --> 04:02.540
+turuan dari sin
+
+04:02.540 --> 04:03.680
+x
+
+04:03.680 --> 04:05.250
+terhadap,
+
+04:05.250 --> 04:07.100
+terhadap x.
+
+04:07.100 --> 04:09.010
+Dan sekarang hal ini akan terlihat
+
+04:09.010 --> 04:11.160
+sedikit lebih intuitif.
+
+04:11.160 --> 04:13.330
+Anda tidak bisa memperlakukan turunan ini,
+
+04:13.330 --> 04:18.180
+huruf d ini, dx ini, d sin x ini,
+
+04:18.180 --> 04:19.013
+sebagai sebuah angka.
+
+04:19.013 --> 04:19.900
+Dan anda tidak bisa,
+
+04:19.900 --> 04:21.610
+menganggap notasi ini sebagai sebuah pecahan
+
+04:21.610 --> 04:23.280
+walaupun secara intuitif itu terlihat seperti apa yang kita lakukan.
+
+04:23.280 --> 04:25.280
+TAPI jika anda mencoba memperlakukannya seperti pecahan,
+
+04:25.280 --> 04:28.050
+anda dapat melihatnya seperti mencoret ini dengan ini.
+
+04:28.050 --> 04:29.610
+Dan sekali lagi, hal ini tidaklah sulit untuk dibuktikan,
+
+04:29.610 --> 04:30.970
+dan walau kurang tepat hal ini dapat membantu anda untuk memahaminya.
+
+04:30.970 --> 04:33.470
+Dan setelah anda mencoret, sisanya adalah turunan
+
+04:33.470 --> 04:37.200
+dari seluruh fungsi sin x kuadrat terhadap x.
+
+04:37.200 --> 04:38.760
+Sehingga sisanya,
+
+04:38.760 --> 04:41.550
+sisanya adalah turunan dari
+
+04:41.550 --> 04:45.600
+fungsi awal kita, sin x kuadrat
+
+04:45.600 --> 04:47.400
+terhadap x,
+
+04:47.400 --> 04:50.420
+terhadap x, yang mana adalah persis dh/dx.
+
+04:50.420 --> 04:51.950
+disini disebelah sini,
+
+04:51.950 --> 04:56.180
+ini adalah fungsi awal kita fungsi h.
+
+04:56.180 --> 04:58.410
+Ini adalah fungsi awal kita fungsi h.
+
+04:58.410 --> 05:00.740
+Mungkin hal ini terlihat sedikit menyeramkan sekarang.
+
+05:00.740 --> 05:03.700
+Yang akan saya lakukan di video selanjutnya adalah beberapa contoh,
+
+05:03.700 --> 05:06.413
+dan kita akan mencoba beberapa hal yang lebih sulit.

@@ -1,0 +1,227 @@
+WEBVTT
+
+00:00.670 --> 00:06.930
+Máme zadanou rovnici, či spíše vztah:
+x na druhou plus y na druhou rovná se 1.
+
+00:06.947 --> 00:15.701
+Po zakreslení všech bodů, co tomuto vztahu
+odpovídají, dostanu jednotkovou kružnici.
+
+00:15.701 --> 00:23.206
+V tomto videu si ukážeme, jak určit sklon
+tečny v libovolném bodě na této kružnici.
+
+00:23.206 --> 00:40.389
+Možná vás napadlo, že taková kružnice není
+grafem funkce, každému x odpovídají dvě y.
+
+00:40.389 --> 00:46.554
+Instinkt by nám mohl radit rozdělit
+kružnici na dvě oddělené funkce:
+
+00:46.554 --> 00:52.601
+y by se rovnalo kladné odmocnině
+z jedné minus x na druhou,
+
+00:52.601 --> 00:58.901
+a y by se rovnalo záporné
+odmocnině z jedné minus x na druhou,
+
+00:58.901 --> 01:08.384
+obě bychom odděleně zderivovali, a dostali
+tak sklony obou tečen pro jakékoli x.
+
+01:08.384 --> 01:15.269
+Dnes si však ukážeme, jak derivaci nepřímo
+provést pomocí pravidla o složené funkci,
+
+01:15.269 --> 01:20.304
+abych nemusel takto přímo
+definovat dvě oddělené funkce.
+
+01:20.304 --> 01:29.865
+Uděláme to, že zderivujeme obě strany
+a použijeme pravidlo o složené funkci.
+
+01:29.865 --> 01:37.366
+A jelikož přímo nedefinujeme funkci f(x) a
+nehledáme derivaci z f(x),
+
+01:37.366 --> 01:47.730
+této aplikaci pravidla o složené
+funkci říkáme implicitní derivace.
+
+01:47.730 --> 01:54.219
+Jen mějte napříč celým videem na paměti,
+že je to použití pravidla o složené funkci.
+
+01:54.219 --> 01:57.029
+Pojďme zderivovat obě strany.
+
+01:57.029 --> 02:10.088
+Levá strana je derivace x na druhou
+plus y na druhou, podle x.
+
+02:10.088 --> 02:21.705
+To se bude rovnat derivaci pravé strany,
+což je 1, podle x tak jako nalevo.
+
+02:21.705 --> 02:29.610
+Derivovat součet těchto dvou proměnných
+je to stejné jako sčítat jejich derivace,
+
+02:29.610 --> 02:44.112
+Takže tohle je derivace x druhou plus
+derivace y na druhou, obojí podle x.
+
+02:44.117 --> 02:49.546
+Když derivuji 1 podle x,
+nemění se, zůstává konstantní.
+
+02:49.546 --> 02:52.396
+Takže derivace bude 0.
+
+02:52.396 --> 03:04.779
+Tady první sčítanec jsme viděli mnohokrát,
+rovná se to 2x na prvou.
+
+03:04.779 --> 03:08.559
+Druhý sčítanec je zajímavější.
+
+03:08.574 --> 03:12.491
+Derivace y na
+druhou podle x.
+
+03:12.491 --> 03:16.957
+Hlavní je si uvědomit, že tady můžeme
+uplatnit pravidlo o složené funkci.
+
+03:16.957 --> 03:24.837
+Počítáme derivaci výrazu podle x,
+což je podle pravidla o složené funkci:
+
+03:24.837 --> 03:36.187
+derivace y na druhou podle y,
+mocninu můžeme brát jako funkci,
+
+03:36.191 --> 03:43.614
+krát derivace y
+podle x.
+
+03:43.614 --> 03:50.920
+Předpokládáme, že y není konstanta,
+že se jeho hodnota s x mění.
+
+03:50.920 --> 03:58.617
+Takže derivujeme y na druhou podle y
+podle pravidla o složené funkci.
+
+03:58.617 --> 04:03.860
+Derivaci y na druhou podle y
+násobíme derivací y podle x.
+
+04:03.860 --> 04:18.464
+Pro lepší představu vnímejte tohle jako
+derivaci funkce y(x) podle x.
+
+04:18.464 --> 04:24.070
+Nebo lépe, y(x) na druhou,
+což už máme napsané tady.
+
+04:24.070 --> 04:27.440
+Tenhle zápis lépe sedí do
+pravidla o složené funkci.
+
+04:27.440 --> 04:41.933
+Derivace výrazu na druhou podle tohoto
+výrazu krát derivace výrazu podle x.
+
+04:41.933 --> 04:49.715
+Opakuji to pořád dokola, tohle není
+nic jiného než pravidlo o složené funkci.
+
+04:49.715 --> 04:54.163
+Pojďme to spočítat, co
+máme na pravé straně?
+
+04:54.163 --> 05:05.398
+Derivace y na druhou podle
+y se bude rovnat 2y.
+
+05:05.398 --> 05:14.964
+A hodnotu derivace y podle x ještě
+neznáme, takže to sem prostě opíšu.
+
+05:14.964 --> 05:16.800
+Přepíšu to sem.
+
+05:16.800 --> 05:32.367
+Máme 2x plus derivaci y na druhou
+podle y, což bude 2y,
+
+05:32.367 --> 05:42.905
+krát derivace y podle x,
+a to celé se bude rovnat 0.
+
+05:42.905 --> 05:49.696
+Dostali jsme se k rovnici, jež má v sobě
+zakomponovanou derivaci y podle x.
+
+05:49.696 --> 05:54.919
+To je přesně to, co chceme, tato část
+vyjadřuje sklon tečny v libovolném bodě.
+
+05:54.919 --> 06:02.252
+Teď už jen zbývá vyřešit
+naši rovnici, jdeme na to.
+
+06:02.252 --> 06:14.259
+Jen to celé překopíruji sem doprava,
+abychom měli výpočet na jedné straně.
+
+06:14.259 --> 06:29.735
+Odečtu od obou stran 2x, takže derivace y
+podle x krát 2y se rovná minus 2x.
+
+06:29.735 --> 06:39.512
+A abychom spočítali hodnotu naší
+derivace, vydělíme obě strany 2y,
+
+06:39.512 --> 06:59.215
+Získáme, že se derivace y podle x rovná
+minus x lomeno y, dvojka se nám vykrátí.
+
+06:59.215 --> 07:04.595
+Tohle je zajímavé, nemuseli jsme
+definovat dvě různé funkce y,
+
+07:04.606 --> 07:10.676
+hodnotu derivace máme určenou nejen
+ve vztahu k x, ale zároveň také k y.
+
+07:10.676 --> 07:12.274
+Co to ale znamená?
+
+07:12.274 --> 07:20.292
+Inu, pokud bychom chtěli najít
+derivaci třeba v tomto bodě...
+
+07:20.292 --> 07:31.134
+Pokud je zde úhel 45°, bude bod [odmocnina
+z 2 lomeno 2 ; odmocnina z 2 lomeno 2],
+
+07:31.134 --> 07:33.706
+jaký je tu sklon tečny?
+
+07:33.706 --> 07:52.261
+Víme, že se bude rovnat minus x, což
+je minus odmocnina z 2 lomeno 2,
+
+07:52.261 --> 07:56.221
+lomeno y, což je
+odmocnina z 2 lomeno 2.
+
+07:56.221 --> 08:01.081
+Sklon se rovná −1,
+což odpovídá i grafu.

@@ -1,0 +1,868 @@
+WEBVTT
+
+00:00.400 --> 00:03.100
+W ostatnim wideo mam nadzieję doszliśmy do przyzwoitego
+
+00:03.100 --> 00:06.760
+zrozumienie jak działa funkcja wektorowa,
+
+00:06.760 --> 00:10.340
+lub nawet lepiej pozycyjna funkcja wektorowa, która
+
+00:10.340 --> 00:13.460
+pod pewnymi względami, zastępuje tradycyjny
+
+00:13.460 --> 00:16.110
+Parametryzacja do opisania krzywej.
+
+00:16.110 --> 00:18.050
+I co chcę zrobić w tym wideo jest dostać troche
+
+00:18.050 --> 00:21.910
+poczucia jelit co ona oznacza podjęcie pochodna
+
+00:21.910 --> 00:23.730
+Funkcja wektorowa.
+
+00:23.730 --> 00:27.190
+W takim przypadku będzie on w odniesieniu do naszych parametru t.
+
+00:27.190 --> 00:30.510
+Tak let me right here narysować niektóre nowe rzeczy.
+
+00:30.510 --> 00:36.580
+Tak Załóżmy, że że r funkcja wektorowa t,
+
+00:36.580 --> 00:39.450
+i to nie innego niż to, co robiłam w ostatnim wideo. x
+
+00:39.450 --> 00:46.830
+t czas jednostkowy wektorowe i plus y t czas j współczynnik jednostki.
+
+00:46.830 --> 00:49.460
+Jeśli mamy były robi to w 3 wymiarów, możemy dodać z t
+
+00:49.460 --> 00:52.510
+razy k, ale Załóżmy keep things stosunkowo proste, i Załóżmy
+
+00:52.510 --> 00:56.950
+powiedzieć, że to opisuje krzywą, a Załóżmy, że krzywej
+
+00:56.950 --> 01:03.630
+mamy do czynienia z, t jest między i b oraz krzywej
+
+01:03.630 --> 01:07.870
+będzie wyglądać, pozwól mi czy mój najlepszy wysiłki, aby narysować
+
+01:07.870 --> 01:12.600
+krzywej, będziesz tylko rysować kilka losowych krzywej tutaj, tak
+
+01:12.600 --> 01:17.900
+Załóżmy, że krzywa wygląda mniej więcej tak że.
+
+01:17.900 --> 01:19.890
+Jest to w przypadku t jest równa, więc it's going to
+
+01:19.890 --> 01:21.750
+Przejdź w tym kierunku.
+
+01:21.750 --> 01:25.620
+Jest to w przypadku t jest równa b right here, to t jest równe
+
+01:25.620 --> 01:30.790
+Aby, więc tym prawo byłaby x, tym prawo, Oto y
+
+01:30.790 --> 01:36.730
+z oraz podobnie, to nawet tutaj, to x b, i
+
+01:36.730 --> 01:40.240
+jest to over here y b.
+
+01:40.240 --> 01:45.150
+Teraz widzieliśmy w ostatnim wideo, punkty końcowe tych
+
+01:45.150 --> 01:47.720
+Pozycja wektory są, co jest opisujące krzywej.
+
+01:47.720 --> 01:51.400
+Tak r możemy odnotowano ostatniej wideo, opisuje
+
+01:51.400 --> 01:52.300
+Po pkt.
+
+01:52.300 --> 01:54.270
+Nie chcę do przejrzenia zbyt dużo.
+
+01:54.270 --> 01:56.800
+Ale co chcę zrobić to przemyśleć, co jest
+
+01:56.800 --> 01:58.930
+różnica między 2 punkty?
+
+01:58.930 --> 02:01.410
+Tak Załóżmy, że że tutaj traktujemy niektóre punktu losowego.
+
+02:01.410 --> 02:03.760
+Załóżmy, że, losowe t na tym miejscu.
+
+02:03.760 --> 02:06.780
+Załóżmy wywołanie tego r t.
+
+02:06.780 --> 02:08.197
+Również w rzeczywistości 'm będzie do innego punktu, wystarczy, ponieważ
+
+02:08.197 --> 02:10.100
+Chcę zwiększyć nieco jaśniejsze.
+
+02:10.100 --> 02:13.370
+Powiedz tak Załóżmy--I 'm going to przełącznik kolory--Załóżmy powiedzieć
+
+02:13.370 --> 02:17.080
+to, że prawo istnieje r niektóre t.
+
+02:17.080 --> 02:18.980
+Niektóre szczególne t, prawo.
+
+02:18.980 --> 02:22.410
+Jest to r t.
+
+02:22.410 --> 02:25.050
+To jest zamiar, wiesz, plus coś.
+
+02:25.050 --> 02:26.950
+Dlatego że niektóre szczególne t.
+
+02:26.950 --> 02:30.080
+I Załóżmy, że chcemy opracować, załóżmy, że mamy
+
+02:30.080 --> 02:31.560
+zwiększenie t przez trochę.
+
+02:31.560 --> 02:32.650
+H.
+
+02:32.650 --> 02:37.250
+Tak Załóżmy powiedzieć że r t plus h, dobrze, jeśli chcemy postrzegać
+
+02:37.250 --> 02:40.430
+parametr t jako czas, Przeprowadziliśmy się w do przodu w czasie przez
+
+02:40.430 --> 02:42.310
+niektóre kwoty, więc nasze niewielkie cząsteczki został przeniesiony
+
+02:42.310 --> 02:43.180
+Trochę.
+
+02:43.180 --> 02:45.650
+I Załóżmy, że jesteśmy over here.
+
+02:45.650 --> 02:52.530
+Tak że istnieje że prawa, na żółto, jest r t plus h.
+
+02:52.530 --> 02:55.360
+Tylko nieznacznie większą wartość h.
+
+02:55.360 --> 03:00.040
+Teraz jedno pytanie, które firma może poprosić sami, jest, jak szybko to f
+
+03:00.040 --> 03:04.650
+zmiany w odniesieniu do t?
+
+03:04.650 --> 03:06.380
+Dlatego pierwszą rzeczą, którą może chcemy powiedzieć, jakie ma
+
+03:06.380 --> 03:07.550
+różnica między tymi dwoma?
+
+03:07.550 --> 03:11.010
+Jeśli miały podjąć i chcę wizualizować go.
+
+03:11.010 --> 03:16.880
+If I were podjęcie r, wektorowe przez stanowisko, że możemy uzyskać za pomocą
+
+03:16.880 --> 03:21.080
+oceny r przy t plus h i która, czy
+
+03:21.080 --> 03:22.590
+odjąć r t.
+
+03:25.580 --> 03:26.690
+Co możemy uzyskać?
+
+03:26.690 --> 03:29.730
+Dobrze warto przejrzeć niektóre z algebry wektorów
+
+03:29.730 --> 03:32.130
+jednak zasadniczo właśnie będziemy się uzyskanie tego wektora.
+
+03:32.130 --> 03:34.210
+Pozwól mi to zrobić w Nicei, żywymi kolorami.
+
+03:34.210 --> 03:36.820
+We going to get to wektor prawym przyciskiem, który
+
+03:36.820 --> 03:39.320
+Robimy amarantowym obramowaniem.
+
+03:39.320 --> 03:44.010
+Tak, aby amarantowy wektorowe prawo istnieje, pozwól mi to, że
+
+03:44.010 --> 03:47.080
+Karmazynowy jednego prawa, jest r wektor t
+
+03:47.080 --> 03:53.120
+Dodatkowo h minus r t.
+
+03:53.120 --> 03:55.110
+A przyjąć tego słowa znaczeniu, ponieważ po dodaniu wektorów,
+
+03:55.110 --> 03:56.050
+głowice można przejść do ogony.
+
+03:56.050 --> 04:04.060
+Alternatywnie można zapisać to jako r t plus to
+
+04:04.060 --> 04:11.490
+tu znak plus r t plus h minus r t.
+
+04:11.490 --> 04:13.630
+Po dodaniu dwóch wektorów, dodawania, pozwól mi uczynić
+
+04:13.630 --> 04:16.180
+to bardzo jasne, dodaję to wektor do to
+
+04:16.180 --> 04:17.350
+right here wektorowe.
+
+04:17.350 --> 04:20.260
+Umieścić ogona drugi wektorowe na
+
+04:20.260 --> 04:21.450
+Głowa pierwszego.
+
+04:21.450 --> 04:23.850
+Co to jest pierwszym wektorze i układam ogona
+
+04:23.850 --> 04:28.000
+drugi tam, a suma tych dwóch, jak możemy przewidywane,
+
+04:28.000 --> 04:29.470
+powinna być równa ta ostatnia.
+
+04:29.470 --> 04:33.050
+Powinna być równa r t plus h.
+
+04:33.050 --> 04:36.000
+I widzimy w takim przypadku i algebraicznie, byś
+
+04:36.000 --> 04:39.240
+Zobacz, że oczywiście ta guy i że guy są
+
+04:39.240 --> 04:40.080
+zamierza niwelują.
+
+04:40.080 --> 04:41.270
+Tak miejmy nadzieję że spełnia użytkownik.
+
+04:41.270 --> 04:42.510
+I chcę być klarowny.
+
+04:42.510 --> 04:45.450
+To, nagle, to nie jest wektor stanowiska.
+
+04:45.450 --> 04:48.560
+Nie życzymy że Hej, załóżmy paznokci ogona tego na
+
+04:48.560 --> 04:51.870
+pochodzenie i wykorzystania guy opisują wyjątkową pozycję.
+
+04:51.870 --> 04:54.610
+Teraz nagle jest on, jest po prostu rodzaju czystego wektora.
+
+04:54.610 --> 04:57.700
+Jest opisujące tylko zmiany między dwoma
+
+04:57.700 --> 04:59.140
+Pozostałe wektory stanowiska.
+
+04:59.140 --> 05:00.790
+Tak to guy-prawo określone tutaj.
+
+05:00.790 --> 05:03.930
+Ale to wektor dosłownie opisuje zmiany.
+
+05:03.930 --> 05:07.070
+Ale powiedzieć nam, opieki i jak byłoby to spojrzenie algebraicznie jeśli mamy
+
+05:07.070 --> 05:08.460
+jakby to były aby go rozwinąć?
+
+05:08.460 --> 05:14.740
+Tak to ma być równe, co to jest r t plus h?
+
+05:14.740 --> 05:20.520
+To samo co x, let me do it over here.
+
+05:20.520 --> 05:27.190
+To samo, co x t plus h czas jednostkowy wektor
+
+05:27.190 --> 05:35.040
+i plus y t plus h czas j wektor jednostki, która jest po prostu to
+
+05:35.040 --> 05:40.570
+fragment, który częściowy prawo jest to fragment, minus to
+
+05:40.570 --> 05:44.300
+kawałek, więc minus, I do it w drugim wierszu, ja mogłem
+
+05:44.300 --> 05:46.240
+Sporządzono je zobaczyć tutaj, ale używam zabraknie miejsca.
+
+05:46.240 --> 05:52.650
+Minus x t, prawo r t jest po prostu x t czas i plus, ale
+
+05:52.650 --> 05:55.700
+Należy więc, po prostu będziesz rozpowszechniać znak minus
+
+05:55.700 --> 05:59.690
+y t j razy.
+
+05:59.690 --> 06:02.660
+Faktycznie Pozwól mi zapisu, byłoby to minusa, pozwól mi
+
+06:02.660 --> 06:04.130
+zapis ten sposób plus to.
+
+06:04.130 --> 06:06.200
+Tak okaże się, że jest to naprawdę tylko to
+
+06:06.200 --> 06:06.950
+Guy prawo tutaj.
+
+06:06.950 --> 06:09.200
+Po prostu zastanawiam t.
+
+06:09.200 --> 06:11.030
+Więc masz x t i y t, a następnie później możemy
+
+06:11.030 --> 06:11.970
+można rozpowszechniać, prawo?
+
+06:11.970 --> 06:14.255
+Jeśli użytkownik rozpowszechnia ten znak minus, otrzymasz minus x
+
+06:14.255 --> 06:15.920
+t i minus y t.
+
+06:15.920 --> 06:19.380
+A ponadto wektor, może być konieczne trochę przejrzeniu na
+
+06:19.380 --> 06:20.920
+to jeśli go jeszcze nie postrzegać za chwilę, wiesz, że możesz
+
+06:20.920 --> 06:22.990
+wystarczy dodać odpowiednie składniki.
+
+06:22.990 --> 06:24.450
+Można dodać x składników i dodawania
+
+06:24.450 --> 06:25.750
+y składników.
+
+06:25.750 --> 06:28.790
+Co to ma być równe, pozwól mi wpisywania go nad
+
+06:28.790 --> 06:31.810
+w tym miejscu bo myślę, I 'm going to później z konieczne trochę miejsca.
+
+06:31.810 --> 06:34.510
+Tak Pozwól mi wpisywania go nad tutaj.
+
+06:34.510 --> 06:42.930
+Tak się r t plus h minus r t jest równa i I 'm just
+
+06:42.930 --> 06:47.100
+przechodząc do grupy x - i y składniki, to jest równa
+
+06:47.100 --> 06:49.920
+x składniki dodane do siebie, ale jest to
+
+06:49.920 --> 06:51.400
+negatywne, Wiec musimy należy odjąć tego
+
+06:51.400 --> 06:52.100
+z tym guy.
+
+06:52.100 --> 07:02.400
+Tak x t plus h minus x t, a następnie wszystkie tą razy naszych
+
+07:02.400 --> 07:09.840
+Jednostka wektorowych w kierunku x, a następnie będziesz mamy plus y t
+
+07:09.840 --> 07:16.900
+plus h minus y t czas jednostkowy wektor kierunku j,
+
+07:16.900 --> 07:19.490
+I 'm just rozmieszczanie rzeczy teraz i to pokaże
+
+07:19.490 --> 07:25.870
+nam co to jest naszym zmiany między dowolnym 2 RS dla danego
+
+07:25.870 --> 07:26.610
+zmiany w odległości.
+
+07:26.610 --> 07:29.140
+Nasze zmiany w odległości tutaj jest h pomiędzy jakimikolwiek
+
+07:29.140 --> 07:31.000
+2 położenie wektorów.
+
+07:31.000 --> 07:33.500
+Teraz, co I wymienione na początku tego filmu wideo, I
+
+07:33.500 --> 07:36.100
+powiedział również, chciałem zmiany, i będziemy
+
+07:36.100 --> 07:37.990
+Pomyśl o chwilowej zmianie
+
+07:37.990 --> 07:39.790
+w odniesieniu do t.
+
+07:39.790 --> 07:42.920
+Tak chcę zobaczyć, jaka czy ta zmiana
+
+07:42.920 --> 07:46.570
+w okresie h?
+
+07:46.570 --> 07:48.750
+Zamiast pisania h firma może napisali Delty t, to
+
+07:48.750 --> 07:50.010
+czy have been to samo.
+
+07:50.010 --> 07:52.570
+Tak chcę, aby podzielić to o godz.
+
+07:52.570 --> 07:55.410
+Co mają do powiedzenia, look.
+
+07:55.410 --> 07:58.200
+Moje wektory zmienił ten znacznie, ale chcę powiedzieć, że ma ona
+
+07:58.200 --> 07:59.310
+w okresie h.
+
+07:59.310 --> 08:01.250
+I to jest analogiczne do kiedy jesteśmy odchodzić.
+
+08:01.250 --> 08:05.090
+Mówimy powstanie nad Uruchom, nad Delty y lub zmiana
+
+08:05.090 --> 08:06.290
+y, nad zmianą x.
+
+08:06.290 --> 08:09.160
+Jest to rodzaj zmian w naszej funkcji na zmiany w x.
+
+08:09.160 --> 08:11.960
+Załóżmy podobnie podzielić wszystko lub nie mogę powiedzieć, zmiana
+
+08:11.960 --> 08:13.470
+x, na zmianę w t.
+
+08:13.470 --> 08:17.100
+Tak tu nasze t jest zmiana h, prawo?
+
+08:17.100 --> 08:21.290
+Różnica między t plus h i t tylko będzie h.
+
+08:21.290 --> 08:25.650
+I tak we going to podzielić wszystko o godz.
+
+08:25.650 --> 08:28.750
+Kiedy należy pomnożyć wektora przez pewną skalę, lub podzielić ją przez
+
+08:28.750 --> 08:31.070
+niektóre skali lub jesteś po prostu pobranie każdej z jego części składowych
+
+08:31.070 --> 08:34.140
+i pomnożenie lub dzielenie przez tego skalar i
+
+08:34.140 --> 08:35.660
+Pobierz że prawo.
+
+08:35.660 --> 08:39.540
+Tak, na każdy skończony różnica right here, h,
+
+08:39.540 --> 08:43.300
+to będzie powiedz nam ile naszych wektor zmienia się na h.
+
+08:43.300 --> 08:46.220
+Ale jeśli chcemy znaleźć chwilowa zmiany, prawo,
+
+08:46.220 --> 08:49.230
+Podobnie jak co możemy czy podczas pierwszych dowiedzieliśmy różniczkowe
+
+08:49.230 --> 08:50.520
+rachunek różniczkowy i całkowy, możemy powiedział, ok.
+
+08:50.520 --> 08:52.670
+Jest to rodzaj analogiczne do nachylenia.
+
+08:52.670 --> 08:55.520
+Byłoby to dobry, to będzie działać również dla nas, jeśli
+
+08:55.520 --> 09:02.220
+ścieżki w obszarze Pytanie wyjrzałem coś tak.
+
+09:02.220 --> 09:04.920
+Jeśli było to liniowej ścieżce.
+
+09:04.920 --> 09:07.240
+Jeśli nasze ścieżki wyjrzałem coś tak.
+
+09:07.240 --> 09:09.800
+Możemy to tylko obliczać i będziesz mamy zasadniczo
+
+09:09.800 --> 09:13.080
+Średnia zmiana w naszych wektory stanowisko, więc można sobie wyobrazić,
+
+09:13.080 --> 09:15.880
+2 położenie wektorów, jest jednym z nich.
+
+09:15.880 --> 09:18.050
+Również w rzeczywistości wszystkie będą równoległe.
+
+09:18.050 --> 09:24.470
+Również wektorami położenia, one nie być równoległe.
+
+09:24.470 --> 09:26.740
+Mogłyby one być podobnych.
+
+09:26.740 --> 09:29.340
+I następnie, to po prostu byłoby Opisz zmiany między
+
+09:29.340 --> 09:32.940
+te 2 h, lub jak szybko są wektorami położenia
+
+09:32.940 --> 09:36.230
+Zmiana na naszych zmian w naszej parametr, prawo?
+
+09:36.230 --> 09:40.530
+To jest, h, możesz także rozważyć, jest rodzaj t różnicowe.
+
+09:40.530 --> 09:44.050
+Czasami ludzie znaleźć h prostsze, lub czasem
+
+09:44.050 --> 09:44.900
+znajdą t różnicowe.
+
+09:44.900 --> 09:47.230
+Jednak mimo to, jestem zaniepokojony chwilowych.
+
+09:47.230 --> 09:49.140
+Mamy do czynienia z krzywych, mamy do czynienia z calculus.
+
+09:49.140 --> 09:50.870
+Byłoby to OK gdyby musimy po prostu w
+
+09:50.870 --> 09:52.670
+Świat algebraiczne, liniowe.
+
+09:52.670 --> 09:53.850
+To co robimy?
+
+09:53.850 --> 09:58.080
+Również może po prostu może powinniśmy podjąć limit jako podejścia h 0.
+
+09:58.080 --> 09:59.760
+Pozwól mi przewinięcie to.
+
+09:59.760 --> 10:03.700
+Tak Załóżmy wystarczy wziąć limit, pozwól mi to zrobić w Nicei
+
+10:03.700 --> 10:07.910
+kolor tętniącego życiem, let's take, używam z kolorów
+
+10:07.910 --> 10:12.170
+ograniczenia podejścia jak h 0 obu stron o tym.
+
+10:12.170 --> 10:16.440
+Tak tu w zbyt, I 'm going podjęcie limit jako podejścia h 0,
+
+10:16.440 --> 10:18.520
+i tu, w zbyt, I 'm going podjęcie dopuszczalne jako
+
+10:18.520 --> 10:20.380
+h podejścia 0.
+
+10:20.380 --> 10:22.970
+Tak chciałbym powiedzieć, co dzieje się, ile wykonać
+
+10:22.970 --> 10:27.866
+Zmień na zmianę moich parametru t, ale co to jest rodzaj
+
+10:27.866 --> 10:30.480
+chwilowa zmiany, jako że różnica kurczy
+
+10:30.480 --> 10:31.280
+i coraz mniejszych?
+
+10:31.280 --> 10:33.870
+To jest dokładnie co pierwszy dowiedzieliśmy podczas poznaliśmy
+
+10:33.870 --> 10:36.810
+chwilowa nachylenie lub prędkość, lub
+
+10:36.810 --> 10:38.330
+nachylenie linii stycznej.
+
+10:38.330 --> 10:41.270
+Dobrze to wygląda nieco niezdefiniowana dla mnie teraz.
+
+10:41.270 --> 10:45.260
+Mamy jeszcze nie określone limity wektorowa funkcji, możemy
+
+10:45.260 --> 10:47.820
+nie jest jeszcze zdefiniowana pochodne wektorowa funkcji.
+
+10:47.820 --> 10:50.250
+Ale szczęśliwy dla nas, wszystkie z tym stuff tutaj wygląda
+
+10:50.250 --> 10:51.160
+całkiem znane.
+
+10:51.160 --> 10:54.400
+Jest to rzeczywiście definicja naszych pochodnej.
+
+10:54.400 --> 10:56.310
+I Oto skalarne funkcji right here.
+
+10:56.310 --> 10:58.340
+Jesteś pomnożonej przez nosicieli, w celu uzyskania
+
+10:58.340 --> 10:59.880
+wektorowa funkcji.
+
+10:59.880 --> 11:02.100
+Ale tym prawo tutaj, z definicji, to
+
+11:02.100 --> 11:04.330
+to pochodnych, x premier t.
+
+11:04.330 --> 11:08.020
+Lub jest to dx dt.
+
+11:08.020 --> 11:12.280
+Right here to premier y t lub mogliśmy
+
+11:12.280 --> 11:14.950
+zapis, jak dy dt.
+
+11:14.950 --> 11:17.520
+Tak nagle możemy zdefiniować możemy powiedzieć, i jestem
+
+11:17.520 --> 11:19.220
+jest trochę ręcznie faliste tutaj, ale I chcesz umożliwiają
+
+11:19.220 --> 11:20.590
+intuicją więcej niż cokolwiek innego.
+
+11:20.590 --> 11:23.890
+Można powiedzieć, że pochodnej, można nas zadzwonić to wyrażenie
+
+11:23.890 --> 11:30.100
+prawo tu, jako pochodna Moje r funkcja wektorowa
+
+11:30.100 --> 11:35.440
+w odniesieniu do t lub możemy nazwać go dr dt, zawiadomienie aktualizować
+
+11:35.440 --> 11:37.170
+wektor znaków.
+
+11:37.170 --> 11:44.470
+Jest to jej pochodna i wszystko, co ma to być równa się r
+
+11:44.470 --> 11:47.700
+Prime t, to będzie równe, to po prostu
+
+11:47.700 --> 11:50.450
+pochodna x w odniesieniu do t, jest równa x
+
+11:50.450 --> 11:54.230
+Premier t razy x jednostkowy wektor, jednostkę poziomą
+
+11:54.230 --> 12:01.170
+Wektor oraz premier y t, czas y-wersor, razy
+
+12:01.170 --> 12:04.240
+j, jednostka wektorowych w kierunku poziomym.
+
+12:04.240 --> 12:06.800
+Jest to całkiem proste i przyjemne wynik.
+
+12:06.800 --> 12:09.340
+Ale twarde rzeczy mogą być rodzajem Wizualizacja
+
+12:09.340 --> 12:10.730
+co on reprezentuje.
+
+12:10.730 --> 12:14.490
+Więc jeśli musimy zastanowić, co się dzieje, pozwól mi narysować Wielkie
+
+12:14.490 --> 12:19.730
+Wykres, tylko po to, aby uzyskać wizualizacji w sposób Zdrowy.
+
+12:19.730 --> 12:22.310
+Tak Załóżmy, że że moja krzywej wygląda mniej więcej tak.
+
+12:22.310 --> 12:23.700
+To jest moje krzywej.
+
+12:23.700 --> 12:26.860
+I Załóżmy, że to, chcemy zgadywać
+
+12:26.860 --> 12:29.210
+chwilowa zmian na tym etapie prawo, tutaj.
+
+12:29.210 --> 12:32.550
+Tak właśnie r t.
+
+12:32.550 --> 12:35.520
+A następnie jeśli traktujemy r t plus h widzieliśmy to już, użytkownik
+
+12:35.520 --> 12:39.740
+wie, t plus h może być podobne prawo.
+
+12:39.740 --> 12:43.090
+Tak to r t plus h.
+
+12:43.090 --> 12:46.290
+Right now, różnica między tymi dwoma i jest to
+
+12:46.290 --> 12:49.250
+po prostu licznika podczas podejmowania różnicy lub jak
+
+12:49.250 --> 12:55.170
+szybkie możemy jest zmiana z tego wektora do tego wektora względem
+
+12:55.170 --> 12:57.140
+t, i jego trudno tu wizualizacji.
+
+12:57.140 --> 12:58.960
+I mam zamiar zrobić całego wideo można myśleć o
+
+12:58.960 --> 13:00.160
+wielkość tutaj.
+
+13:00.160 --> 13:02.200
+Może to być niektóre wektorowe.
+
+13:02.200 --> 13:03.560
+Cóż jest różnica między tymi dwoma
+
+13:03.560 --> 13:05.070
+po prostu chce się.
+
+13:05.070 --> 13:07.470
+Ale następnie po podzieleniu przez h it's going to być większy
+
+13:07.470 --> 13:10.840
+wektor, prawo, jeżeli zakładamy, że h jest niewielkiej liczby.
+
+13:10.840 --> 13:12.410
+Załóżmy, że h jest mniejsza niż jeden.
+
+13:12.410 --> 13:14.410
+We going uzyskanie wektora większe prawa?
+
+13:14.410 --> 13:17.100
+Ale to rodzaj średnią zmianę w tym czasie.
+
+13:17.100 --> 13:22.910
+Ale jak h pobiera i mniejszych coraz mniejszych, to r
+
+13:22.910 --> 13:26.100
+Premier t's going to, będzie jej kierunek
+
+13:26.100 --> 13:28.090
+styczna do krzywej.
+
+13:28.090 --> 13:29.900
+I myślę, że można wizualizować, prawo?
+
+13:29.900 --> 13:33.320
+W tych dwóch braci uzyskać bliżej i bliżej i bliżej, dr
+
+13:33.320 --> 13:37.790
+uzyskać mniejszy, więc zmiana, dr, różnica między
+
+13:37.790 --> 13:41.220
+dwa RS Delty uzyskać mniejszy i mniejszych, można wyobrazić Jeśli
+
+13:41.220 --> 13:43.790
+h był jeszcze mniejsze, jeśli prawo tutaj.
+
+13:43.790 --> 13:45.510
+Potem nagle różnica między tymi dwoma
+
+13:45.510 --> 13:47.795
+wektory jest uzyskiwanie mniejsze.
+
+13:47.795 --> 13:50.500
+A jest coraz bardziej styczna do krzywej.
+
+13:53.770 --> 13:56.800
+Ale mamy jest również podzielona przez mniejsze h, tak rzeczywiste
+
+13:56.800 --> 14:00.670
+instrumenty pochodne, jak zbliżania się do limitu h 0, może być użytkownik
+
+14:00.670 --> 14:02.120
+wiedzieć, być może nawet to większą liczbę.
+
+14:02.120 --> 14:04.420
+I rzeczywiście, wielkość ta wektorowe, posiada
+
+14:04.420 --> 14:05.720
+nieco trudne do wizualizacji.
+
+14:05.720 --> 14:09.510
+It's going to być zależna od naszych Parametryzacja dla krzywej.
+
+14:09.510 --> 14:11.990
+nie jest zależna od kształtu krzywej.
+
+14:11.990 --> 14:15.170
+Kierunku tego wektora zależy od kształtu to
+
+14:15.170 --> 14:17.860
+Krzywa i kierunek, aby kierunek, to będzie
+
+14:17.860 --> 14:22.460
+być styczna do krzywej.
+
+14:22.460 --> 14:26.830
+Lub można sobie wyobrazić, że to wektor jest na tangens
+
+14:26.830 --> 14:28.220
+Linia do krzywej.
+
+14:28.220 --> 14:30.960
+Wielkość tego jest nieco trudne do zrozumienia.
+
+14:30.960 --> 14:33.050
+Będziesz próbować dać trochę intuicją na
+
+14:33.050 --> 14:35.060
+że w następnym wideo.
+
+14:35.060 --> 14:37.380
+Ale to, czego chcę można zrozumieć, teraz, ponieważ
+
+14:37.380 --> 14:40.990
+będziemy mogli wykorzystać te informacje w przyszłości, kiedy robimy
+
+14:40.990 --> 14:44.400
+Linia integralną nad wektorowa funkcji.

@@ -1,0 +1,136 @@
+WEBVTT
+
+00:00.053 --> 00:08.639
+Abbiamo già fatto diversi video. Abbiamo approssimato l'area sotto una curva, suddividendo quest'area in rettangoli,
+
+00:08.639 --> 00:13.601
+e poi trovando la somma dell'area di questi rettangoli come una approssimazione.
+
+00:13.601 --> 00:16.444
+Questo è stato il primo esempio a cui abbiamo guardato,
+
+00:16.444 --> 00:19.517
+dove ciascuno dei rettangoli aveva la stessa base.
+
+00:19.517 --> 00:24.345
+Quindi abbiamo egualmente ripartito l'intervallo tra i nostri due estremi, tra a e b.
+
+00:24.345 --> 00:30.439
+E l'altezza del rettangolo era il valore della funzione valutata al punto finale sinistro di ciascun rettangolo.
+
+00:30.439 --> 00:34.849
+E vogliamo generalizzare e scriverla in notazione singola. E essa assomigliava a qualcosa del genere.
+
+00:34.849 --> 00:41.548
+E questo era un caso. Più tardi abbiamo guardato a una situazione dove definisci l'altezza valutando la funzione nel punto finale destro
+
+00:41.548 --> 00:43.710
+o nel punto di mezzo. Ed abbiamo anche costruito trapeziodi.
+
+00:43.710 --> 00:50.431
+E queste sono tutte istanze particolari di Somme di Riemann. Somme di Riemann.
+
+00:50.431 --> 00:55.183
+E questa qui è una Somma di Riemann.
+
+00:55.183 --> 00:57.437
+E quando le persone parlano di somme di Riemann, parlano della nozione generale.
+
+00:57.437 --> 01:02.838
+Non devi fare per forza in questo modo. Puoi usare trapeziodi. Non devi neanche per forza avere partizioni egualmente distanziate.
+
+01:02.838 --> 01:07.510
+Io ho usato partizioni egualmente distanziate perché rende le cose un po' più semplici concettualmente.
+
+01:07.510 --> 01:12.433
+E questa qui è una immagine della persona nel nome del quale le somme di Riemann sono state denominate.
+
+01:12.433 --> 01:18.094
+Questo è Bernard Riemann. E ha dato molti contributi alla matematica.
+
+01:18.094 --> 01:21.294
+Ma è noto per lo più - soprattutto se stai seguendo per prima il corso di calcolo ...
+
+01:21.294 --> 01:26.290
+...è la Somma di Riemann. E come essa sia usata per definire l'integrale di Riemann.
+
+01:26.290 --> 01:31.294
+Entrambi Newton e Leibeniz erano giunti all'idea di integrale, quando formularono il calcolo.
+
+01:31.294 --> 01:38.783
+Ma l'integrale di Riemann è la più diffusa, formale e direi rigorosa definizione di cosa sia un integrale.
+
+01:38.783 --> 01:48.746
+Puoi figurarti: questo è un esempio di somma di Riemann. Abbiamo n qui sopra. E più n è grande, migliore sarà l'approssimazione.
+
+01:48.777 --> 01:52.962
+Quindi la sua definizione di integrale, che è l'area effettiva sotto la curva,
+
+01:52.962 --> 01:57.964
+...o la sua definizione di integrale definito, che è che l'area effettiva sotto la curva tra a e b,
+
+01:57.964 --> 02:04.561
+è prendere questa somma di Riemann - non deve essere per forza questa, puoi prendere qualsiasi somma di Riemann -
+
+02:04.561 --> 02:09.620
+e prendere il limite quando n tende all'infinito.
+
+02:09.620 --> 02:12.628
+Allora, giusto per essere chiari: cosa accade quando n tende all'infinito?
+
+02:12.628 --> 02:22.701
+Lasciami disegnare un altro grafico qui. Questo è il mio asse y. Questo è il mio asse x. Questa è la mia funzione.
+
+02:22.701 --> 02:27.536
+Quando n tende all'infinito... quindi questo è a, questo è b...
+
+02:27.536 --> 02:33.035
+Puoi avere tranquillamente una tonnellata di rettangoli. Puoi ottenere tranquillamente una tonnellata di rettangoli qui.
+
+02:33.035 --> 02:37.115
+Diventeranno una sempre migliore approssimazione per l'area effettiva.
+
+02:37.115 --> 02:49.952
+E l'area effettiva sotto la curva è denotata dall'integrale da "a" a "b" di f di x per dx.
+
+02:49.952 --> 02:54.370
+E tu vedi da dove questo viene fuori, come queste notazioni siano vicine.
+
+02:54.370 --> 03:03.778
+Sorprende il mio cervello su come esse siano connesse. Delta x era la larghezza di ciascuna di queste sezioni.
+
+03:03.778 --> 03:11.755
+Questo qui è delta x. Quindi questo è un delta x. Questo è un'altro delta x. Questo è un altro delta x.
+
+03:11.755 --> 03:15.630
+Un modo ragionevole di capire il concetto di cosa sia dx o di cosa sia un differenziale è questo:
+
+03:15.630 --> 03:19.963
+a cosa si avvicina delta x se diventa infinitamente piccolo.
+
+03:19.963 --> 03:38.793
+Quindi puoi vederlo, puoi concettualizzarlo... un modo standard molto rigoroso di pensarlo è a come un infinitamente piccolo - ma non zero- delta x.
+
+03:38.793 --> 03:45.964
+E' un modo di afferrarne il concetto. Quindi, ancora una volta, se hai la funzione per un piccolo cambiamento in delta x
+
+03:45.964 --> 03:52.565
+e stai facendo le somme, e stai sommando un numero infinito di queste cose da a a b...
+
+03:52.565 --> 04:00.031
+Così ti lascio qui affinchè tu veda la connessione, tu consoci il nome di queste cose, e ancora una volta questa qui, questa non è la sola Somma di Riemann.
+
+04:00.031 --> 04:04.432
+Infatti questa è chiamata la Somma sinistra di Riemann, se stai usando i rettangoli. Potresti usare la Somma destra di Riemann.
+
+04:04.432 --> 04:05.782
+Potresti usare il punto di mezzo. Potresti usare i trapezioidi. Ma se prendi il limite di ciscuna di queste Somme di Riemann
+
+04:05.782 --> 04:15.630
+quando n tende all'infinito, allora quello che ottieni è una definizione di Riemann di integrale.
+
+04:15.630 --> 04:22.335
+Fin ora non abbiamo parlato su come effettivamente valutare questa cosa. Questa è solo una definizione per ora.
+
+04:22.335 --> 04:24.963
+E questo lo faremo nei video futuri.

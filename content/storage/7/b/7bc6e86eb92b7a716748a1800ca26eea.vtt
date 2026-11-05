@@ -1,0 +1,711 @@
+WEBVTT
+
+00:00.227 --> 00:03.793
+Mám tady vypsáno
+několik pravidel derivování,
+
+00:03.793 --> 00:05.729
+která jsme použili
+v předchozích videích.
+
+00:05.729 --> 00:07.683
+Pokud vám tyhle
+věci nepřipadají povědomé,
+
+00:07.683 --> 00:10.559
+tak byste se na tohle
+video možná neměli dívat.
+
+00:10.559 --> 00:13.692
+V tomto videu se totiž podíváme
+na to, kdy tato pravidla použít,
+
+00:13.692 --> 00:17.266
+na různé strategie a na to, zda
+můžeme výrazy algebraicky upravit tak,
+
+00:17.266 --> 00:19.096
+aby šlo použít
+jednodušší pravidlo.
+
+00:19.096 --> 00:23.804
+Nejdřív si to rychle zopakujme, jako první
+je tu vzorec pro derivaci mocniny.
+
+00:23.804 --> 00:29.171
+Velmi užitečné pravidlo pro
+derivování x na nějakou mocninu.
+
+00:29.171 --> 00:35.286
+Také ho můžeme použít spolu se vzorci
+pro derivaci součtu nebo rozdílu k tomu,
+
+00:35.286 --> 00:37.897
+abychom zderivovali
+polynomy.
+
+00:37.897 --> 00:41.053
+Tohle je vzorec pro
+derivaci součinu.
+
+00:41.053 --> 00:43.283
+Máme-li výraz, jehož
+derivaci chceme spočítat
+
+00:43.283 --> 00:45.956
+a na který se můžeme dívat
+jako na součin dvou funkcí,
+
+00:45.956 --> 00:50.588
+tak jeho derivace se rovná derivaci
+první funkce krát druhá funkce,
+
+00:50.588 --> 00:54.893
+k čemuž přičteme první funkci
+vynásobenou derivací druhé funkce.
+
+00:54.893 --> 00:58.644
+Pokud vám tohle vůbec není povědomé
+nebo si tím nejste úplně jistí,
+
+00:58.644 --> 01:02.595
+podívejte se na videa a udělejte cvičení
+na vzorce pro derivaci mocniny a součinu
+
+01:02.595 --> 01:05.521
+nebo, jako v tomto případě,
+vzorec pro derivaci podílu.
+
+01:05.521 --> 01:08.288
+Vzorec pro derivaci
+podílu je trochu složitější.
+
+01:08.288 --> 01:10.722
+Máme na to ale
+videa s příklady.
+
+01:10.722 --> 01:14.579
+Mám vždy smíšené pocity, protože když
+zapomenete vzorec pro derivaci podílu,
+
+01:14.579 --> 01:19.514
+vždycky můžete daný podíl
+vyjádřit jako součin tak,
+
+01:19.514 --> 01:22.401
+že výraz dole
+napíšete jako f(x)...
+
+01:22.401 --> 01:26.299
+Tak, že tohle napíšete jako f(x)
+krát g(x) na minus prvou.
+
+01:26.299 --> 01:29.595
+Derivaci pak spočítáte pomocí složení
+pravidla pro derivaci součinu
+
+01:29.595 --> 01:33.479
+a tohoto čtvrtého pravidla
+pro derivaci složené funkce.
+
+01:33.479 --> 01:37.997
+Pokud vám něco z tohohle
+vůbec není povědomé,
+
+01:37.997 --> 01:39.287
+nedívejte se na
+tohle video.
+
+01:39.287 --> 01:44.994
+Tohle video je pro ty, kteří znají každé
+z těchto pravidel či technik derivování,
+
+01:44.994 --> 01:50.251
+a nyní chtějí vědět, jaké jsou strategie
+pro to, kdy které pravidlo použít.
+
+01:50.261 --> 01:51.631
+Tak pojďme na to.
+
+01:51.631 --> 01:55.085
+Řekněme,
+že máme výraz...
+
+01:55.085 --> 02:00.396
+Řekněme, že chceme
+zderivovat výraz:
+
+02:00.396 --> 02:08.746
+x na druhou plus x minus 2,
+to celé lomeno (x minus 1).
+
+02:08.746 --> 02:13.669
+Které z těchto pravidel
+nebo technik byste použili?
+
+02:13.669 --> 02:18.098
+Možná byste si hned řekli:
+„Tohle vypadá jako racionální výraz.“
+
+02:18.098 --> 02:22.216
+„Tohle bych si mohl
+označit jako f(x).“
+
+02:22.216 --> 02:27.103
+„Tohle by mohlo být g(x) a mohl bych
+použít vzorec pro derivaci podílu.“
+
+02:27.103 --> 02:30.382
+„Vypadá to jako
+podíl dvou výrazů.“
+
+02:30.382 --> 02:31.476
+To byste
+mohli udělat,
+
+02:31.476 --> 02:34.895
+a pokud byste všechny
+výpočty udělali správně,
+
+02:34.895 --> 02:37.829
+dostali byste
+správný výsledek.
+
+02:37.829 --> 02:41.571
+V tomhle případě je ale dobré
+zamyslet se chvilku nad tím,
+
+02:41.571 --> 02:46.801
+jak to lze algebraicky upravit tak,
+abyste si ušetřili trochu práce.
+
+02:46.801 --> 02:50.554
+Když se nad tím takto zamyslíte, možná
+vás napadne rozložit čitatel na součin.
+
+02:50.554 --> 02:57.111
+Můžeme ho rozložit jako
+(x plus 2) krát (x minus 1),
+
+02:57.112 --> 03:01.381
+načež můžeme
+tohle pokrátit,
+
+03:01.381 --> 03:07.012
+takže to bude totéž jako
+derivace podle x z (x plus 2).
+
+03:07.012 --> 03:16.952
+Derivace podle x z (x plus 2),
+což je mnohem přímočařejší,
+
+03:16.952 --> 03:18.794
+než derivovat pomocí
+pravidla o podílu.
+
+03:18.794 --> 03:22.668
+Zde jen zderivujeme
+x podle x, což je 1,
+
+03:22.668 --> 03:26.693
+a derivace
+podle x ze 2 je 0,
+
+03:26.693 --> 03:28.812
+takže se to celé
+zjednoduší na 1.
+
+03:28.812 --> 03:33.411
+Ke zderivování tohohle jsme v zásadě
+použili vzorec pro derivaci mocniny.
+
+03:33.411 --> 03:39.831
+Díky jednoduché algebraické úpravě
+se tedy věci dají výrazně zjednodušit.
+
+03:39.831 --> 03:41.884
+Udělejme si
+další příklad.
+
+03:41.884 --> 03:55.474
+Řekněme, že vám někdo zadal, abyste
+spočítali derivaci podle x z výrazu:
+
+03:55.474 --> 04:03.342
+x na druhou plus 2 krát x minus 5,
+to celé lomeno x.
+
+04:03.342 --> 04:06.604
+Opět by vás to mohlo svádět k
+použití pravidla pro derivaci podílu.
+
+04:06.604 --> 04:09.327
+Vypadá to jako
+podíl dvou výrazů.
+
+04:09.327 --> 04:14.242
+Pak si ale možná uvědomíte, že jistými
+algebraickými úpravami to lze zjednodušit.
+
+04:14.242 --> 04:16.206
+Mohli byste to
+napsat jako součin.
+
+04:16.206 --> 04:19.344
+Mohli byste říct,
+že je to totéž jako...
+
+04:19.344 --> 04:22.811
+Teď mě bude zajímat jen to,
+co je uvnitř závorek.
+
+04:22.811 --> 04:29.822
+Je to totéž jako (x na minus prvou) krát
+(x na druhou plus 2 krát x minus 5).
+
+04:29.822 --> 04:33.775
+Na to byste nejspíš použili
+vzorec pro derivaci součinu,
+
+04:33.775 --> 04:35.991
+ale jde to ještě
+lépe zjednodušit.
+
+04:35.991 --> 04:38.749
+Každý z těchto členů
+můžeme vydělit x,
+
+04:38.749 --> 04:40.496
+nebo se na to
+můžeme dívat také tak,
+
+04:40.496 --> 04:43.475
+že výrazem (1 lomeno x)
+každý člen vynásobíme.
+
+04:43.475 --> 04:46.284
+x na minus prvou je totiž
+to samé co 1 lomeno x.
+
+04:46.284 --> 04:50.461
+Když to uděláme, tak
+(x na druhou) děleno x je x,
+
+04:50.461 --> 04:56.526
+(2 krát x) děleno x se rovná 2
+a −5 děleno x...
+
+04:56.526 --> 05:01.805
+To můžeme napsat jako −5 lomeno x
+nebo −5 krát (x na minus prvou).
+
+05:01.805 --> 05:05.982
+Zderivovat tohle podle x
+je mnohem jednodušší,
+
+05:05.982 --> 05:10.122
+než použít pravidlo pro
+derivaci podílu nebo mocniny.
+
+05:10.122 --> 05:11.445
+Bude to...
+
+05:11.445 --> 05:13.399
+Derivace tohohle je 1.
+
+05:13.399 --> 05:15.608
+Derivace 2 je 0
+
+05:15.608 --> 05:19.666
+a zde, i když máme zápornou mocninu
+a může to vypadat trochu strašidelně,
+
+05:19.666 --> 05:22.511
+stačí použít vzorec
+pro derivaci mocniny.
+
+05:22.511 --> 05:29.331
+−1 krát −5 je +5,
+tohle krát x na....
+
+05:29.331 --> 05:31.402
+Hledáme číslo o 1
+menší než −1,
+
+05:31.402 --> 05:33.740
+takže to bude
+x na minus druhou.
+
+05:33.740 --> 05:39.800
+Použití této algebraické úpravy
+tedy věci opět výrazně zjednodušilo.
+
+05:39.800 --> 05:42.099
+Udělejme si ještě
+několik dalších příkladů,
+
+05:42.099 --> 05:45.700
+abychom začali lépe rozpoznávat,
+kdy si můžeme věci zjednodušit,
+
+05:45.700 --> 05:48.608
+kdy si to můžeme
+udělat lehčí.
+
+05:48.608 --> 05:56.315
+Řekněme, že vám někdo řekl:
+„Hej, ty! Spočítej derivaci podle x...“
+
+05:56.315 --> 05:58.873
+Používám x jako proměnnou,
+podle které derivujeme,
+
+05:58.873 --> 06:02.845
+ale samozřejmě by to fungovalo pro
+libovolnou proměnnou, kterou použijeme.
+
+06:02.855 --> 06:07.663
+„...z výrazu odmocnina z x,
+to celé lomeno x na druhou.“
+
+06:07.663 --> 06:10.391
+Zastavte si video a zamyslete se,
+jak byste na to šli,
+
+06:10.391 --> 06:16.832
+kdybyste podle x měli zderivovat
+odmocninu z x vydělenou x na druhou.
+
+06:16.832 --> 06:19.675
+Opět byste si mohli říct,
+že jde o podíl dvou výrazů,
+
+06:19.675 --> 06:21.675
+takže použijete vzorec
+pro derivaci podílu,
+
+06:21.675 --> 06:25.321
+nebo si uvědomíte,
+že tohle je totéž co...
+
+06:25.321 --> 06:27.867
+Teď mě bude zajímat jen to,
+co je v závorkách.
+
+06:27.867 --> 06:35.134
+Na tohle se můžete dívat jako na
+(x na minus druhou) krát odmocnina z x,
+
+06:35.134 --> 06:36.927
+což můžete derivovat
+jako součin,
+
+06:36.927 --> 06:38.597
+ale tohle lze
+ještě víc zjednodušit.
+
+06:38.597 --> 06:43.557
+Můžete říct, že se to rovná (x na minus
+druhou) krát x na jednu polovinu.
+
+06:43.557 --> 06:45.465
+Když nyní použijeme
+vlastnosti exponentů,
+
+06:45.465 --> 06:49.810
+tak −2 plus (1 lomeno 2)
+je minus (3 lomeno 2).
+
+06:49.810 --> 06:53.396
+Jde tak o derivaci
+x na minus (3 lomeno 2).
+
+06:53.396 --> 06:56.476
+Opět jsme tedy měli něco,
+o čem jsme si mysleli,
+
+06:56.476 --> 07:01.865
+že budeme muset použít vzorec
+pro derivaci podílu nebo součinu,
+
+07:01.865 --> 07:06.332
+ale teď už to lze přímočaře spočítat
+díky vzorci pro derivaci mocniny.
+
+07:06.332 --> 07:09.282
+Toto se tedy
+rovná...
+
+07:09.282 --> 07:11.486
+Minus (3 lomeno 2)
+napíšeme dopředu.
+
+07:11.486 --> 07:14.233
+...minus (3 lomeno 2)
+krát x na...
+
+07:14.233 --> 07:19.609
+Minus (3 lomeno 2) minus 1
+se rovná minus (5 lomeno 2).
+
+07:19.609 --> 07:23.477
+Ještě jednou, obzvláště předtím,
+než použijete vzorec pro derivaci podílu
+
+07:23.477 --> 07:25.254
+a občas i vzorec
+pro derivaci součinu,
+
+07:25.254 --> 07:27.923
+podívejte se, zda to nelze
+nějak algebraicky zjednodušit,
+
+07:27.923 --> 07:30.163
+nebo občas zda není nějaká
+goniometrická úprava,
+
+07:30.163 --> 07:33.125
+kterou můžete udělat,
+abyste si ulehčili práci,
+
+07:33.125 --> 07:35.762
+která věci učiní
+méně obtížnými.
+
+07:35.762 --> 07:39.119
+Takovou obecnou radou, o které sice
+nemohu říct, že bude fungovat vždy,
+
+07:39.119 --> 07:40.766
+ale když děláte
+nějakou zkoušku
+
+07:40.766 --> 07:44.789
+a provádíte nějaký obtížný výpočet, k nimž
+vzorec pro derivaci podílu často vede,
+
+07:44.789 --> 07:50.548
+je dobré se na chvilku zastavit předtím,
+než se pustíte do algebraických výpočtů,
+
+07:50.548 --> 07:53.196
+které jsou třeba při použití
+vzorce pro derivaci podílu,
+
+07:53.196 --> 07:56.364
+a podívat se, zda nelze
+věci nějak zjednodušit.
+
+07:56.364 --> 07:57.864
+Pojďme na
+další příklad.
+
+07:57.864 --> 08:02.302
+V tomto příkladu nebude žádná
+zřejmá cesta ke zjednodušení,
+
+08:02.302 --> 08:06.310
+ale záleží to na tom,
+co každý upřednostňuje.
+
+08:06.310 --> 08:09.723
+Řekněme, že chceme spočítat
+derivaci podle x z výrazu:
+
+08:09.723 --> 08:13.840
+1 lomeno
+(2 krát x na minus pátou)...
+
+08:13.840 --> 08:18.022
+Pardon, myslel jsem
+1 lomeno (2 krát x minus 5).
+
+08:18.022 --> 08:21.825
+Zde byste mohli ihned použít
+vzorec pro derivaci podílu.
+
+08:21.825 --> 08:25.532
+Na tento čitatel se můžete
+dívat jako na f(x).
+
+08:25.532 --> 08:31.110
+Také byste se na tohle mohli
+dívat jako na derivaci podle x...
+
+08:31.110 --> 08:34.287
+Namísto 2 krát x
+minus 5...
+
+08:34.287 --> 08:37.100
+Napíšu to
+modrou barvou.
+
+08:37.103 --> 08:41.327
+(2 krát x minus 5)
+na minus prvou.
+
+08:41.327 --> 08:49.133
+V této situaci musíte použít vzorec pro
+derivaci mocniny a také složené funkce.
+
+08:49.133 --> 08:53.155
+Řekli byste si, že g(x)
+se rovná 2 krát x minus 5
+
+08:53.155 --> 08:57.933
+a že f v bodě g(x)
+je celý tento výraz.
+
+08:57.933 --> 09:00.267
+Když použijeme vzorec
+pro derivaci složené funkce,
+
+09:00.267 --> 09:07.904
+tak to bude derivace vnější funkce,
+tedy f(x), podle vnitřní funkce,
+
+09:07.904 --> 09:11.350
+neboli derivace
+(f v bodě g(x)) podle g(x),
+
+09:11.350 --> 09:13.095
+což se rovná minus...
+
+09:13.095 --> 09:16.812
+Tohle minus napíšeme dopředu, v zásadě
+používáme vzorec pro derivaci mocniny.
+
+09:16.812 --> 09:21.210
+...minus (2 krát x minus 5)
+na minus druhou,
+
+09:21.210 --> 09:26.605
+což musíme vynásobit
+derivací vnitřní funkce.
+
+09:26.605 --> 09:28.595
+Jak vypadá derivace
+vnitřní funkce?
+
+09:28.595 --> 09:31.843
+Derivace (2 krát x) je 2,
+derivace −5 je 0,
+
+09:31.843 --> 09:33.358
+takže zde
+bude krát 2.
+
+09:33.358 --> 09:38.003
+Toto lze samozřejmě zjednodušit na
+−2 krát celý tento výraz.
+
+09:38.003 --> 09:40.276
+Udělám ještě
+jeden příklad,
+
+09:40.276 --> 09:41.949
+abyste si to ještě
+lépe pamatovali.
+
+09:41.949 --> 09:46.069
+Ještě jednou opakuji, že není jen
+jeden způsob, jak to udělat,
+
+09:46.069 --> 09:51.750
+ale měli byste vědět, že jsou různé
+způsoby, jak k těmto derivacím přistoupit.
+
+09:51.750 --> 09:56.750
+Řekněme, že nám někdo dal za úkol spočítat
+derivaci z (2 krát x plus 1) na druhou.
+
+09:56.750 --> 09:59.408
+Zastavte si video a zamyslete
+se, jak byste na to šli.
+
+09:59.408 --> 10:02.971
+Můžeme to jako před chvílí udělat pomocí
+vzorce pro derivaci složené funkce.
+
+10:02.971 --> 10:07.256
+Mohli byste říct, že to bude derivace
+vnější funkce podle té vnitřní,
+
+10:07.256 --> 10:13.451
+takže 2 krát
+(2 krát x plus 1) na prvou,
+
+10:13.451 --> 10:14.944
+o jedna méně
+než tady,
+
+10:14.944 --> 10:18.293
+krát derivace vnitřní
+funkce, což je 2.
+
+10:18.293 --> 10:24.415
+Tohle se tedy rovná
+4 krát (2 krát x plus 1), což se rovná...
+
+10:24.415 --> 10:29.315
+Můžeme roznásobit číslem 4
+a vyjde, že to je 8 krát x plus 4.
+
+10:29.315 --> 10:31.892
+Toto je zcela správný
+způsob, jak to udělat.
+
+10:31.892 --> 10:33.882
+Šlo by to ale
+udělat i jinak.
+
+10:33.882 --> 10:37.205
+Mohli bychom roznásobit
+(2 krát x plus 1) na druhou.
+
+10:37.205 --> 10:43.113
+Potom by se to rovnalo
+derivaci podle x z...
+
+10:43.113 --> 10:47.503
+(2 krát x) na druhou je
+4 krát x na druhou,
+
+10:47.503 --> 10:52.704
+2 krát součin těchto
+členů bude +4 krát x,
+
+10:52.704 --> 10:54.051
+a ještě plus 1.
+
+10:54.051 --> 10:57.112
+Nyní můžeme použít
+vzorec pro derivaci mocniny.
+
+10:57.112 --> 11:00.771
+Tedy nejprve trochu víc algebraické
+práce, ale pak hned derivace mocniny,
+
+11:00.771 --> 11:02.761
+pomocí čehož vám
+vyjde úplně to samé.
+
+11:02.761 --> 11:05.437
+Hlavní věcí, kterou byste
+si měli odnést, je zamyslet se.
+
+11:05.437 --> 11:07.842
+Podívejte se na výrazy
+a zda jdou zjednodušit,
+
+11:07.842 --> 11:11.429
+obzvláště když se tím vyhnete
+vzorci pro derivaci podílu,
+
+11:11.429 --> 11:14.696
+protože ten je občas
+těžké si vybavit,
+
+11:14.696 --> 11:19.014
+a i když si ho vybavíte, výpočet se velmi
+rychle může stát velmi ošemetným.

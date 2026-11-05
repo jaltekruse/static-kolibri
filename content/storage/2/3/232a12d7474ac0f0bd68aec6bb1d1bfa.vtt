@@ -1,0 +1,363 @@
+WEBVTT
+
+00:00.020 --> 00:05.420
+Johannesburgban a júniusi legalacsonyabb napi hőmérséklet általában körülbelül 3°C,
+
+00:05.440 --> 00:09.100
+míg a legmagasabb körülbelül 18°C.
+
+00:09.100 --> 00:15.660
+A hőmérséklet jellemzően a napi minimum és maximum átlagával egyenlő délelőtt 10-kor és este 10-kor is,
+
+00:15.660 --> 00:18.960
+továbbá délután van a legmagasabb hőmérséklet.
+
+00:18.960 --> 00:28.060
+Írj fel egy trigonometrikus függvényt, ami leírja a johannesburgi T hőmérsékletet t órával éjfél után!
+
+00:28.060 --> 00:32.680
+Lássuk, hogy nézhet ki a függvény képe!
+
+00:32.680 --> 00:40.840
+Ez a hőmérséklet tengely, mégpedig °C-ban.
+
+00:40.840 --> 00:43.980
+(Két különböző függvényt fogok rajzolni.)
+
+00:43.980 --> 00:46.020
+Ez a hőmérséklet tengely,
+
+00:46.020 --> 00:52.620
+ez a tengely pedig az idő, mégpedig órában.
+
+00:52.620 --> 00:59.130
+t az órában mért idő.
+Nézzük meg a hőmérséklet értékeket!
+
+00:59.130 --> 01:04.960
+A napi minimum hőmérséklet 3 °C, a maximum pedig 18,
+
+01:04.960 --> 01:10.680
+legyen itt a 18, itt pedig a 3.
+
+01:10.680 --> 01:16.580
+Jelöljük be az átlagukat is, amit délelőtt 10-kor és este 10-kor vesz fel a függvény.
+
+01:16.580 --> 01:21.020
+18 plusz 3 egyenlő 21, osztva 2-vel 10,5.
+
+01:21.020 --> 01:28.160
+Így mondhatjuk, hogy a trigonometrikus függvényünk középvonala 10,5 °C-nál lesz.
+
+01:28.160 --> 01:37.500
+Hadd rajzoljam be a középvonalat! Tulajdonképpen e körül fog a függvény ingadozni.
+
+01:37.500 --> 01:43.440
+A napi maximum 18 °C körül alakul,
+
+01:43.440 --> 01:48.400
+a minimum pedig 3 °C körül.
+
+01:48.400 --> 01:53.840
+Tehát a középvonal körül fogunk ingadozni, érintve a minimumot és a maximumot.
+
+01:53.840 --> 02:00.280
+Az egyszerűség kedvéért ‒ mivel reggel és este 10-kor lesz 10,5 °C ‒
+
+02:00.280 --> 02:08.080
+először nem az eredeti kérdésre válaszolok (éjfél óta eltelt órák),
+
+02:08.080 --> 02:13.180
+hanem egy új függvényt értelmezek, F(t)-t,
+
+02:13.180 --> 02:28.780
+ami nem más, mint a johannesburgi hőmérséklet t órával délelőtt 10 után.
+
+02:28.780 --> 02:34.220
+Azért választom a de. 10 órát, mert tudjuk, hogy de. 10-kor a hőmérséklet rajta van a középvonalon.
+
+02:34.220 --> 02:41.780
+Tehát t órával de. 10 után.
+Ha az F(t) függvényt a t=0 helyen nézem,
+
+02:41.780 --> 02:48.940
+az azt jelenti, hogy de. 10 óra van, tehát a középvonalon vagyunk.
+
+02:48.940 --> 02:53.280
+És mi lesz a trigonometrikus függvény periódusa?
+
+02:53.280 --> 02:58.240
+Nos, 24 óra múlva ugyanúgy de. 10 óra lesz,
+
+02:58.240 --> 03:01.080
+így a periódus 24 óra.
+
+03:01.080 --> 03:05.880
+Ide is írom a 24-et, középen pedig a 12 lesz.
+
+03:05.880 --> 03:14.040
+Mi történik 12 óra múlva? 12 óra múlva este 10 óra lesz, így visszatérünk a középvonalra.
+
+03:14.040 --> 03:17.280
+Majd 24 óra múlva ismét de. 10 óra lesz.
+
+03:17.280 --> 03:20.540
+Ezek a tehát az F(t) függvény pontjai lesznek,
+
+03:20.540 --> 03:25.260
+de nézzük, mi lesz ezeken kívül!
+
+03:25.260 --> 03:32.340
+De. 10-kor kezdünk, és azt írják, hogy a legmagasabb hőmérséklet délután lesz.
+
+03:32.340 --> 03:35.340
+A délután pedig valahol itt lesz.
+
+03:35.340 --> 03:38.700
+Itt emelkedik a hőmérséklet.
+
+03:38.700 --> 03:42.320
+A legmagasabb pont éppen a kettő között lesz,
+
+03:42.320 --> 03:48.620
+tehát 6 órával de. 10 után, ami du. 4 órát jelent, itt lesz a maximum.
+
+03:48.620 --> 03:56.220
+Le is rajzolom a görbét, valahogy így néz ki.
+
+03:56.220 --> 04:04.920
+Itt este 10 óra van, majd 6 órával később hajnal 4 lesz. Itt lesz a minimum.
+
+04:04.920 --> 04:11.620
+Ez 18 órával de. 10 után lesz, itt érjük el a minimum hőmérsékletet,
+
+04:11.620 --> 04:13.100
+körülbelül itt leszünk.
+
+04:13.100 --> 04:19.040
+A függvénygörbe valahogy így fog kinézni.
+
+04:19.040 --> 04:23.600
+Mielőtt nekifognánk a T(t) függvénynek
+
+04:23.600 --> 04:27.990
+– a függvény nyilván így megy tovább,
+
+04:27.990 --> 04:32.940
+mehetünk órákkal délelőtt 10 óra elé is, periodikusan folytatódik a végtelenségig –,
+
+04:32.940 --> 04:36.080
+nézzük, hogy írható fel az F(t) függvény!
+
+04:36.080 --> 04:40.060
+Nyugodtan állítsd meg a videót, és gondolkozz el rajta!
+
+04:40.060 --> 04:43.680
+Nos, ez lehet egy szinusz vagy koszinusz függvény,
+
+04:43.680 --> 04:47.720
+tulajdonképpen bármelyiket használhatjuk, ugyanakkor az egyik mindig egyszerűbb.
+
+04:47.720 --> 04:56.980
+Melyik függvény van a középvonalon, amikor az argumentum nulla?
+
+04:56.980 --> 05:01.340
+Nos, a szinusz a nullában nulla, és ha nem tolnánk el felfelé vagy lefelé,
+
+05:01.340 --> 05:07.160
+akkor a szinusz függvény középvonala a nullában lenne,
+
+05:07.160 --> 05:10.500
+és utána először növekszik, és úgy váltakozik, mint ez.
+
+05:10.500 --> 05:17.980
+Úgy tűnik, hogy a szinusz a jó választás. Még egyszer mondom, bármelyikkel működik,
+
+05:17.980 --> 05:20.420
+de úgy érzem, hogy így egy fokkal könnyebb lesz.
+
+05:20.420 --> 05:25.440
+Nézzük az amplitúdót! Mennyivel térünk el a középvonaltól?
+
+05:25.440 --> 05:29.420
+Itt 7,5-del vagyunk a középvonal felett,
+
+05:29.420 --> 05:36.080
+itt pedig 7,5-del alatta, így az amplitúdó 7,5.
+
+05:36.080 --> 05:39.940
+Hadd írjam inkább egy másik színnel, hogy lássuk, miből következik ez!
+
+05:39.940 --> 05:48.120
+Ez itt 7,5, ez is 7,5, így az amplitúdó is 7,5.
+
+05:48.120 --> 05:55.400
+Na és mennyi is a periódus? Már beszéltünk róla, a periódus 24 óra.
+
+05:55.400 --> 05:58.660
+Ez a távolság 24 óra, ami ésszerű,
+
+05:58.660 --> 06:01.960
+hisz 24 óra múlva a napnak ugyanabban a pontjában leszünk.
+
+06:01.960 --> 06:08.120
+Tehát elosztjuk a 2π-t a periódussal (24-gyel), szorozva t-vel.
+
+06:08.120 --> 06:17.840
+Ha pedig elfelejtetted, hogy miért van így, csak arra kell emlékezned, milyen t értékek vezetnek el ide.
+
+06:17.840 --> 06:22.080
+Ha t = 0, akkor a függvény teljes argumentum nulla lesz,
+
+06:22.080 --> 06:23.840
+ekkor vagyunk itt.
+
+06:23.840 --> 06:28.700
+Amikor pedig t = 24, akkor a teljes argumentum 2π lesz,
+
+06:28.700 --> 06:33.220
+azaz tettünk egy fordulatot az egységkörön, ha a szinusz függvény argumentumát tekintjük.
+
+06:33.220 --> 06:34.780
+Majdnem meg is vagyunk.
+
+06:34.780 --> 06:38.700
+Ha ezt ábrázolnám, ennek a középvonala a nullában lenne,
+
+06:38.700 --> 06:45.440
+de látjuk, hogy minden fel van tolva 10,5-del,
+
+06:45.440 --> 06:50.860
+tehát mindent fel kell tolnunk 10,5-del.
+
+06:50.860 --> 06:54.760
+Ezzel sikeresen modelleztük a problémát. Persze tovább egyszerűsíthetnénk,
+
+06:54.760 --> 06:58.080
+π per 12-t írhatnánk a 2π per 24 helyett,
+
+06:58.080 --> 07:07.000
+de ez a függvény leírja a johannesburgi hőmérsékletet t órával délelőtt 10 után.
+
+07:07.000 --> 07:15.060
+Azonban nem ezt kérdezték, hanem a hőmérsékletet t órával éjfél után.
+
+07:15.060 --> 07:16.980
+Mi lenne T(t)?
+
+07:16.980 --> 07:21.400
+El kell tolnunk valamennyivel, hadd írjam le!
+
+07:21.400 --> 07:30.920
+T(t), ami t órával éjfél utánt jelent.
+
+07:30.920 --> 07:35.300
+Az amplitúdó ugyanaz marad, mert ugyanannyira távolodunk el a középvonaltól.
+
+07:35.300 --> 07:41.120
+Tehát 7,5 szorozva szinusz
+
+07:41.120 --> 07:44.280
+– inkább ugyanazt a színt használom, hogy látszódjon, mi változik –,
+
+07:44.280 --> 07:51.840
+tehát szinusz 2π/24 helyett π/12,
+
+07:51.840 --> 07:56.340
+t helyett pedig – eltolhatjuk akár jobbra, akár balra,
+
+07:56.340 --> 07:59.260
+tulajdonképpen bármelyik irányba eltolhatjuk, mert ez egy periodikus függvény,
+
+07:59.260 --> 08:00.960
+azt kell kitalálnunk, hogy mennyivel toljuk el –,
+
+08:00.960 --> 08:06.380
+tehát t plusz vagy mínusz valami, amivel eltoljuk,
+
+08:06.380 --> 08:11.960
+plusz 10,5.
+
+08:11.960 --> 08:17.840
+Nekem ilyenkor kicsit gondolkodnom kell az irányokról.
+
+08:17.840 --> 08:24.660
+Tehát itt délelőtt 10 órakor t = 0, azaz nulla órával vagyunk de. 10 után.
+
+08:24.660 --> 08:27.180
+De ennél a függvénynél hol van a délelőtt 10 óra?
+
+08:27.180 --> 08:33.660
+10 óra annyit tesz, hogy 10 órával vagyunk éjfél után.
+
+08:33.660 --> 08:39.420
+T(10), azaz 10 órával éjfél után
+
+08:39.420 --> 08:45.660
+egyenlő kell legyen F(0)-val,
+
+08:45.660 --> 08:49.880
+hiszen itt a t a délelőtt 10 óra óta eltelt időt jelöli.
+
+08:49.880 --> 08:56.960
+Ez a kifejezés nem más, mint a hőmérséklet délelőtt 10-kor.
+
+08:56.960 --> 09:02.040
+Ez pedig, mivel T az éjfél óta eltelt órák függvénye,
+
+09:02.040 --> 09:06.820
+szintén a hőmérséklet délelőtt 10 -kor.
+
+09:06.820 --> 09:12.780
+Tehát T(10) egyenlő kell, hogy legyen F(0)-val. Másképpen,
+
+09:12.780 --> 09:17.640
+amikor F(0), ez az egész argumentum nulla,
+
+09:17.640 --> 09:24.860
+tehát azt szeretnénk, hogy ez az egész argumentum nulla legyen, ha t=10. Hogy csináljuk? Nos, ez itt t-10.
+
+09:24.860 --> 09:30.720
+Figyeld meg, hogy ha behelyettesíted ide a 10-et, ez az egész kifejezés 0 lesz.
+
+09:30.720 --> 09:36.820
+Van még a 10,5. F(0) ugyanúgy 10,5, mint a T(10).
+
+09:38.060 --> 09:43.360
+Tehát T(10) = F(0), tulajdonképpen válaszoltunk a kérdésre.
+
+09:43.360 --> 09:45.260
+Ha 10-et helyettesítünk be ide,
+
+09:45.260 --> 09:48.540
+a szinusz argumentuma nulla lesz, és a két kifejezés megegyezik.
+
+09:48.540 --> 09:55.020
+De rajzoljuk is le!
+
+09:55.020 --> 10:02.120
+Ez itt 6, ez 12, a 10 valahol itt lesz.
+
+10:02.120 --> 10:07.400
+Tehát T(10) ugyanazt jelenti, mint F(0),
+
+10:07.400 --> 10:15.620
+és tulajdonképpen mindent eltolunk jobbra, méghozzá 10-zel.
+
+10:15.620 --> 10:18.560
+És ez így logikus,
+
+10:18.560 --> 10:24.820
+hisz bármennyi idővel vagyunk délelőtt 10 után, éjfél óta mindenképpen 10-zel több óra telt el.
+
+10:24.820 --> 10:42.500
+Tehát minden el van tolva 10-zel. Lássuk csak... Valahogy így fog kinézni.
+
+10:42.500 --> 10:45.480
+És természetesen váltakozik.
+
+10:45.480 --> 10:48.760
+Tulajdonképpen mindent eltoltunk jobbra 10-zel,
+
+10:48.760 --> 10:56.600
+ehhez pedig az argumentumban 't'-t ki kellett cserélnünk 't-10'-re.

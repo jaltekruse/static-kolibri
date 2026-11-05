@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.042 --> 00:02.557
+Bevor wir richtig mit Algebra anfangen,
+
+00:02.557 --> 00:03.895
+will ich einen
+
+00:03.895 --> 00:05.879
+der grössten Denker der Geschichte zitieren,
+
+00:05.879 --> 00:09.591
+Galileo Galilei, denn ich denke, dass dieses Zitat
+
+00:09.591 --> 00:13.907
+die Bedeutung von Algebra und überhaupt Mathematik im Allgemeinen erfasst.
+
+00:13.907 --> 00:16.991
+Er sagte: Philosophie ist in diesem großartigen Buch geschrieben,
+
+00:16.991 --> 00:19.324
+das stets vor unseren Augen ist
+
+00:19.324 --> 00:20.958
+Ich meine damit das Universum.
+
+00:20.958 --> 00:22.944
+Aber wir können es nicht verstehen, wenn wir nicht zuerst
+
+00:22.944 --> 00:23.444
+dessen Sprache
+
+00:23.444 --> 00:27.601
+lernen und die Symbole begreifen in denen es geschrieben ist.
+
+00:27.601 --> 00:28.101
+Dieses Buch
+
+00:28.101 --> 00:35.823
+ist in der mathematischen Sprache geschrieben, ohne die man vergeblich durch ein dunkles Labyrinth wandert.
+
+00:35.823 --> 00:38.298
+Also sehr dramatisch aber auch sehr tiefsinnig
+
+00:38.298 --> 00:38.798
+und das ist wirklich
+
+00:38.798 --> 00:42.470
+der Sinn von Mathematik und was wir sehen werden wenn wir damit beginnen,
+
+00:42.470 --> 00:44.874
+immer tiefer und tiefer in die Algebra einzutauchen
+
+00:44.874 --> 00:46.918
+ist, dass wir anfangen werden Dinge zu abstrahieren
+
+00:46.918 --> 00:48.915
+und wir werden beginnen die Kernideen zu erreichen,
+
+00:48.915 --> 00:51.861
+die anfangen zu erklären wie das Universum aufgebaut ist.
+
+00:51.861 --> 00:54.021
+Natürlich können diese Ideen auch bei Dingen
+
+00:54.021 --> 00:56.923
+wie Wirtschaftswissenschaften, Finanzwesen, Physik und Chemie angewendet werden,
+
+00:56.923 --> 00:58.933
+aber im Kern ist es die gleiche Idee.
+
+00:58.933 --> 01:02.368
+Und so sind sie elementarer, reiner,
+
+01:02.368 --> 01:05.076
+als irgendeine dieser Anwendungen.
+
+01:05.076 --> 01:08.103
+Und um zu sehen was ich damit meine, zur Grundidee vorzustossen:
+
+01:08.103 --> 01:10.580
+Fangen wir an mit einem... Ich denke wir könnten,
+
+01:10.580 --> 01:13.357
+wir haben mit der grandiosen Philosophie des Universums angefangen
+
+01:13.357 --> 01:14.536
+wie in der Mathematik geschrieben.
+
+01:14.536 --> 01:17.863
+Aber fangen wir mit einer konkreten und einfachen Idee an.
+
+01:17.863 --> 01:21.067
+aber wir werden weiter abstrahieren und sehen wie die selbe Idee
+
+01:21.067 --> 01:24.401
+sich über viele Domänen in unserem Universum verbindet
+
+01:24.401 --> 01:26.898
+Also sagen wir, wir wären im Supermarkt
+
+01:26.898 --> 01:30.024
+und wir werden dort etwas kaufen, was reduziert ist.
+
+01:30.024 --> 01:36.200
+Der Aktionspreis sagt, dass es um 30% reduziert ist, und ich bin daran interessiert -
+
+01:36.200 --> 01:38.871
+und ich kaufe nicht in allzu ausgefallenen Läden ein -
+
+01:38.871 --> 01:40.810
+also sagen wir, ich hätte Interesse an einer Hose
+
+01:40.810 --> 01:43.375
+und die Hose kostete vor der Aktion ungefähr 20 Dollar.
+
+01:43.375 --> 01:46.500
+Ungefähr so viel gebe ich für meine Hosen aus.
+
+01:46.500 --> 01:49.625
+Also bin ich an einer 20 Dollar Hose interessiert, aber es kommt noch besser.
+
+01:49.625 --> 01:54.267
+Es gibt eine Reduzierung von 30% auf diese Hosen.
+
+01:54.267 --> 01:57.702
+Wie würde ich ausrechnen wie viel ich von den 20 Dollar ausgeben würde?
+
+01:57.702 --> 01:59.200
+Und das ist noch keine Algebra
+
+01:59.200 --> 02:01.169
+Dies ist etwas, womit ihr sicher schon zu tun hattet.
+
+02:01.169 --> 02:04.800
+Ihr würdet 30% mit den 20 Dollar multiplizieren,
+
+02:04.800 --> 02:09.974
+also würdet ihr sagen, euer Preisnachlass wäre -
+
+02:09.974 --> 02:14.115
+man kann es schreiben als 30% mal 20 Dollar
+
+02:14.115 --> 02:16.533
+Wir schreiben die zwanzig Dollar in Lila.
+
+02:16.533 --> 02:19.200
+Oder ihr könnt dies auch - wenn ihr wollt - als Dezimalzahl schreiben
+
+02:19.200 --> 02:24.200
+man kann es als 0.30 * 20 Dollar schreiben.
+
+02:24.200 --> 02:25.693
+Und wenn ihr es ausrechnet
+
+02:25.693 --> 02:27.821
+würdet ihr 6 Dollar herausbekommen.
+
+02:27.821 --> 02:30.067
+Also eigentlich nichts neues.
+
+02:30.067 --> 02:32.354
+Aber was, wenn ich das ganze etwas verallgemeinern möchte?
+
+02:32.354 --> 02:35.400
+Die ist der Preisnachlass für die Hose,
+
+02:35.400 --> 02:37.400
+aber was ist, wenn ich den Nachlass
+
+02:37.400 --> 02:39.333
+für alles andere im Laden wissen will?
+
+02:39.333 --> 02:43.133
+Nun gut, ich könnte sagen, x sei der Preis
+
+02:43.133 --> 02:44.486
+- lasst es in einer anderen Farbe machen -
+
+02:44.486 --> 02:46.221
+Ich mache nur ein Symbol
+
+02:46.221 --> 02:51.169
+x sei der Preis des Produktes, das ich kaufen möchte,
+
+02:51.169 --> 03:00.837
+also der Preis ohne dem Nachlass des Produktes.
+
+03:00.837 --> 03:06.142
+Also können wir plötzlich sagen, dass unser Nachlass
+
+03:06.142 --> 03:15.267
+30% mal x entspricht.
+
+03:15.267 --> 03:17.465
+oder wenn wir das als Dezimalzahl schreiben wollen,
+
+03:17.465 --> 03:19.411
+könnten wir 30% als Dezimalzahl schreiben.
+
+03:19.411 --> 03:25.329
+Wir könnten schreiben 0.30 mal x
+
+03:25.329 --> 03:27.351
+Nun, das ist jetzt interessant.
+
+03:27.351 --> 03:29.841
+Jetzt könnt ihr mir einen beliebigen Preis eines beliebigen Produkts aus dem Laden geben
+
+03:29.841 --> 03:31.608
+und ich kann es dann durch x ersetzen,
+
+03:31.608 --> 03:34.395
+und dann kann ich es eigentlich mit 0.3 multiplizieren
+
+03:34.395 --> 03:36.225
+und ich würde den Preisnachlass erhalten.
+
+03:36.225 --> 03:39.533
+Jetzt fangen wir an uns ganz langsam
+
+03:39.533 --> 03:42.331
+in die Abstraktion der Algebra zu begeben.
+
+03:42.331 --> 03:44.867
+Wir werden sehen, dass sie noch viel mehr differenziert und tiefer gehend werden
+
+03:44.867 --> 03:46.591
+und auch, offen gesagt, viel schöner werden,
+
+03:46.591 --> 03:52.409
+wenn wir beginnen mehr und mehr algebraische Ideen zu untersuchen.
+
+03:52.409 --> 03:54.080
+Aber wir sind hier noch nicht fertig.
+
+03:54.080 --> 03:56.077
+Wir könnten das sogar noch mehr abstrahieren
+
+03:56.077 --> 03:57.643
+Hier haben wir gesagt,
+
+03:57.643 --> 03:59.067
+dass wir es für ein beliebiges Produkt verallgemeinert haben,
+
+03:59.067 --> 04:01.400
+wir sagen das also nicht nur für ein 20 Dollar Produkt.
+
+04:01.400 --> 04:02.795
+Wenn es ein 10 Dollar Produkt gibt
+
+04:02.795 --> 04:05.737
+können wir das 10 Dollar Produkt hier anstelle des x einsetzen,
+
+04:05.737 --> 04:07.966
+und dann würden wir sagen 0,30 mal 10.
+
+04:07.966 --> 04:10.667
+Der Preisnachlass wäre 3 Dollar
+
+04:10.667 --> 04:12.795
+Es hätte auch ein 100 Dollar Produkt sein können
+
+04:12.795 --> 04:14.303
+dann wäre der Nachlass bei 30 Dollar
+
+04:14.303 --> 04:16.071
+Aber lasst uns das noch weiter verallgemeinern.
+
+04:16.071 --> 04:19.576
+Sagen wir: "Was wäre der Nachlass für ein beliebigen Ausverkauf,
+
+04:19.576 --> 04:21.133
+- wenn der Ausverkauf eine bestimmte Prozentzahl hat - ?
+
+04:21.133 --> 04:22.919
+Jetzt können wir sagen, der Nachlass
+
+04:22.919 --> 04:25.759
+- lasst mich eine Variable definieren -
+
+04:25.759 --> 04:32.290
+Sagen wir m=... ich sage p, damit es einen Sinn macht,
+
+04:32.290 --> 04:41.200
+p ist die Prozentzahl der Reduzierung
+
+04:41.200 --> 04:42.667
+Was können wir jetzt machen?
+
+04:42.667 --> 04:47.046
+Wir können jetzt sagen, dass der Nachlass
+
+04:47.046 --> 04:50.405
+der Prozentzahl entspricht.
+
+04:50.405 --> 04:52.733
+in diesen anderen Beispielen nahmen wir 30 Prozent
+
+04:52.733 --> 04:55.729
+aber jetzt können wir sagen es ist p, das ist die Reduzierung in Prozent.
+
+04:55.729 --> 04:56.852
+Es ist p.
+
+04:56.852 --> 05:01.200
+Das ist die Prozentzahl mal das gefragte Produkt,
+
+05:01.200 --> 05:04.262
+mal dem Preis, also dem nicht reduzierten Preis des gefragten Produkts
+
+05:04.262 --> 05:06.138
+Und das war x.
+
+05:06.138 --> 05:08.667
+Der Nachlass entspricht p mal x.
+
+05:08.667 --> 05:10.364
+Das ist jetzt wirklich interessant,
+
+05:10.364 --> 05:13.268
+jetzt haben wir eine allgemeine Art, für eine gegebene prozentuale Raduzierung
+
+05:13.268 --> 05:19.243
+und für ein gegebenes Produkt x, den Preisnachlass zu berechnen.
+
+05:19.243 --> 05:22.333
+Und wir mussten unbedingt nicht diese Wörter und Buchstaben benutzen
+
+05:22.333 --> 05:25.402
+Wir hätten sagen können "y sei der Preisnachlass"
+
+05:25.402 --> 05:28.998
+y sei der Preisnachlass
+
+05:28.998 --> 05:32.373
+dann hätten wir die selbe zugrundeliegende Idee aufgeschreiben können,
+
+05:32.373 --> 05:34.400
+anstatt Preisnachlass zu schreiben, hätten wir schreiben können:
+
+05:34.400 --> 05:40.200
+y entspricht der Prozentzahl der Reduzierung
+
+05:40.200 --> 05:44.067
+mal dem nicht reduzierten Preis des Produktes
+
+05:44.067 --> 05:45.667
+- mal x - .
+
+05:45.667 --> 05:47.779
+Und man hätte diese Buchstaben so definieren können wie man will.
+
+05:47.779 --> 05:49.513
+Anstatt hier y zu schreiben,
+
+05:49.513 --> 05:52.267
+hätte man auch einen griechischen Buchstaben schreiben können
+
+05:52.267 --> 05:53.779
+solange man die Tatsache verfolgen kann
+
+05:53.779 --> 05:56.729
+dass das Symbol die eigentliche Reduzierung in Dollar repräsentiert
+
+05:56.729 --> 05:58.911
+Aber jetzt werden die Dinge richtig interessant
+
+05:58.911 --> 06:02.215
+denn wir können diese Form von Beziehung benutzen...
+
+06:02.215 --> 06:03.741
+welches eine Gleichung ist, man setzt
+
+06:03.741 --> 06:05.600
+y gleich mit dem Ding hier drüben,
+
+06:05.600 --> 06:07.734
+aus dem Grund nennen wir das eine Gleichung.
+
+06:07.734 --> 06:09.406
+Dies kann für Dinge genutzt werden
+
+06:09.406 --> 06:10.985
+welche völlig ohne Bezug
+
+06:10.985 --> 06:14.231
+zum Preisnachlass im Laden hier drüben sind.
+
+06:14.231 --> 06:15.810
+Man hätte...
+
+06:15.810 --> 06:17.431
+also in der Physik werdet ihr sehen
+
+06:17.431 --> 06:21.600
+dass Kraft Masse mal Beschleunigung entspricht.
+
+06:21.600 --> 06:23.000
+Die Buchstaben sind anders
+
+06:23.000 --> 06:24.933
+aber das sind grundsätzlich die selben Ideen.
+
+06:24.933 --> 06:31.754
+Wir hätten sagen können, y sei die Kraft
+
+06:31.754 --> 06:36.067
+und m sei... oder die Masse sei p
+
+06:36.067 --> 06:39.200
+Lasst mich kurz schrieben: p ist die Masse
+
+06:39.200 --> 06:42.333
+- und das wäre ein intuitiver Weg es zu definieren -
+
+06:42.333 --> 06:45.646
+aber ich wollte euch zeigen, dass es die selbe Idee ist, also die selbe Beziehung
+
+06:45.646 --> 06:48.323
+welches auf zwei verschiedene Dinge angewendet wird.
+
+06:48.323 --> 06:51.314
+Und wir hätten sagen können, x sei die Beschleunigung
+
+06:51.333 --> 06:56.961
+Wir hätten sagen können, x sei die Beschleunigung.
+
+06:56.961 --> 07:01.698
+Und dann könnte man das bekannte "Kraft ist Masse mal Beschleunigung"
+
+07:01.698 --> 07:03.795
+neu geschrieben werden und was wäre eigentlich die exakt gleiche Idee
+
+07:03.800 --> 07:07.533
+da y - was wir als Kraft definiert haben -
+
+07:07.533 --> 07:08.964
+entspricht der Masse mal...
+
+07:08.964 --> 07:10.210
+- wofür wir das Symbol p verwenden -
+
+07:10.210 --> 07:13.482
+was p mal Beschleunigung entspricht.
+
+07:13.482 --> 07:15.579
+Wir werden hier einfach den Buchstaben x benutzen
+
+07:15.579 --> 07:17.298
+- mal x
+
+07:17.298 --> 07:19.200
+Nun das ist die exakte Gleichung
+
+07:19.200 --> 07:21.400
+Das ist exakt die selbe Gleichung
+
+07:21.400 --> 07:23.200
+Wir sehen also, dass wir diese Gleichung nehmen können
+
+07:23.200 --> 07:28.287
+und es würde zum Biespil in der Wirtschaftswissenschaft funktionieren,
+
+07:28.287 --> 07:30.864
+oder es kann beim Finanzwesen funktionieren
+
+07:30.864 --> 07:33.019
+oder bei etwas aus der Informatik
+
+07:33.019 --> 07:35.123
+oder Logik oder Elektrotechnik
+
+07:35.123 --> 07:36.338
+oder irgendwas anderes.
+
+07:36.338 --> 07:38.400
+Es gibt unendlich viele Anwendungen
+
+07:38.400 --> 07:40.200
+dieser Gleichung
+
+07:40.200 --> 07:42.054
+Und was so schön in der Mathamtik ist,
+
+07:42.054 --> 07:44.902
+und insbesondere schön in Algebra ist,
+
+07:44.902 --> 07:47.087
+wir können uns auf diese Abstraktion konzentrieren,
+
+07:47.087 --> 07:49.975
+,uns auf dieses Abstrakte hier konzentrieren,
+
+07:49.975 --> 07:52.185
+und wir können die Abstraktion hier manipulieren
+
+07:52.185 --> 07:55.462
+und was wir durch diese Ideen und Manipulationen entdecken
+
+07:55.462 --> 07:58.533
+können dann neu angewendet werden
+
+07:58.533 --> 08:02.000
+in all den anderen Anwendungen.
+
+08:02.000 --> 08:03.733
+Und noch viel schöner: Es teilt uns irgendwie
+
+08:03.733 --> 08:06.063
+die wahre Struktur des Univerusms mit,
+
+08:06.063 --> 08:08.718
+wenn man all die menschlichen Definitionen wegnehmen würde
+
+08:08.733 --> 08:10.429
+und all die menschlichen Anwendungen.
+
+08:10.429 --> 08:11.729
+Wir könnten beispielsweise sagen:
+
+08:11.729 --> 08:14.237
+"Schau, wenn y also p mal x entspricht."
+
+08:14.237 --> 08:15.723
+Also wenn jemand wortwörtlich sagen würde
+
+08:15.723 --> 08:17.267
+"Hey, das hier ist y."
+
+08:17.267 --> 08:19.692
+und jemand anders sagt "Ich habe p mal y."
+
+08:19.692 --> 08:22.482
+Dann kann ich sagen: "Nun, ihr beide habt die selben Sachen in euren Händen."
+
+08:22.482 --> 08:25.438
+Und wenn ihr eins davon durch eine Zahl teilen würdet
+
+08:25.438 --> 08:27.533
+und immer noch wollen würdet, dass beide gleich sind
+
+08:27.533 --> 08:30.200
+würdet ihr auch das andere durch die Zahl teilen.
+
+08:30.200 --> 08:31.652
+Zum Beipiel:
+
+08:31.652 --> 08:34.577
+Sagen wir - wir wissen dass y p mal x ist -
+
+08:34.577 --> 08:38.575
+was ist, wenn ihr wollt dass beide gleich sind.
+
+08:38.575 --> 08:41.595
+Was würde y geteilt durch x entsprechen?
+
+08:41.595 --> 08:43.467
+Nunja, y war p mal x
+
+08:43.467 --> 08:45.073
+also wird y geteilt durch x
+
+08:45.073 --> 08:48.731
+das selbe sein wie p mal x geteilt duch y
+
+08:48.733 --> 08:50.321
+Aber das hier ist jetzt interessant,
+
+08:50.321 --> 08:52.544
+denn p mal x geteilt durch x
+
+08:52.544 --> 08:53.711
+- naja wenn ihr mit etwas multipliziert
+
+08:53.711 --> 08:55.568
+und durch das selbe etwas teilt
+
+08:55.568 --> 08:57.333
+bekommt ihr wieder die eigentliche Zahl.
+
+08:57.333 --> 08:59.467
+Wenn ihr mit 5 multipliziert und dann durch 5 teilt,
+
+08:59.467 --> 09:01.373
+werdet ihr wiederum nur p bekommen,
+
+09:01.373 --> 09:02.867
+oder was auch immer diese Zahl ist.
+
+09:02.867 --> 09:04.333
+Sie würden sich also herauskürzen.
+
+09:04.333 --> 09:06.333
+Aber wir konnten die Abstraktion hier manipulieren,
+
+09:06.333 --> 09:11.159
+und bekamen y durch x ist p
+
+09:11.159 --> 09:12.380
+- machen wir das x grün -
+
+09:12.380 --> 09:16.324
+y durch x ist p
+
+09:16.324 --> 09:18.667
+und das hat jetzt Auswirkungen
+
+09:18.667 --> 09:21.067
+das hat Auswirkungen für jede dieser Ideen.
+
+09:21.067 --> 09:24.805
+Das teilt uns eine grundsätzliche Wahrheit über das Universum mit
+
+09:24.805 --> 09:26.637
+fast frei von all den anderen Anwendungen,
+
+09:26.637 --> 09:28.467
+aber nun können wir sie alle wieder zurückholen
+
+09:28.467 --> 09:30.400
+an alle Gebiete wo wir sie angewendet haben.
+
+09:30.400 --> 09:32.100
+Das wirklich interessante ist, wir werden neue finden...
+
+09:32.100 --> 09:33.831
+- es gibt eine unendlich große Zahl an Anwendungen
+
+09:33.831 --> 09:36.400
+und, offen gesagt, wissen wir nicht einmal die meisten davon
+
+09:36.400 --> 09:38.386
+Wir werden neue dafür finden
+
+09:38.386 --> 09:40.290
+in eintausend Jahren.
+
+09:40.290 --> 09:41.785
+Und das gibt euch hoffentlich ein Gefühl dafür,
+
+09:41.785 --> 09:44.933
+was Galileo damit meinte,
+
+09:44.933 --> 09:48.133
+dass Mathematik eigentlich die Sprache ist
+
+09:48.133 --> 09:51.959
+mit der wir die Philosophie des Universums verstehen können.
+
+09:51.959 --> 09:53.567
+Deswegen sagen manche Leute,
+
+09:53.567 --> 09:56.714
+dass wenn eine komplett außerirdische Lebensform die Menschen kontaktieren würde,
+
+09:56.714 --> 10:00.067
+Mathematik wahrscheinlich unser erster gemeinsamer Nenner wäre,
+
+10:00.067 --> 10:04.108
+ein Gebiet von der wir aus als Grundlage beginnen würden
+
+10:04.108 --> 10:07.108
+zu kommunizieren.

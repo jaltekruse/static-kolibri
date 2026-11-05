@@ -1,0 +1,505 @@
+WEBVTT
+
+00:00.710 --> 00:03.940
+Lisa sở hữu máy bán "kẹo ngẫu nhiên",
+
+00:03.940 --> 00:06.030
+là máy chọn kẹo
+
+00:06.030 --> 00:08.910
+một cách ngẫu nhiên.
+
+00:08.910 --> 00:12.750
+Lisa kiểm soát xác suất mà mỗi viên kẹo được chọn.
+
+00:12.750 --> 00:15.160
+Bạn ấy đang hết kẹo, "Thỏ Mật Ong,"
+
+00:15.160 --> 00:17.700
+nên bạn ấy muốn thiết lập xác suất
+
+00:17.700 --> 00:21.000
+để xác suất được hai viên kẹo liên tiếp 2 lần
+
+00:21.000 --> 00:25.390
+lớn hơn 2 và 1/4 nhân xác suất
+
+00:25.390 --> 00:27.415
+được viên kẹo "Thỏ Mật Ong" trong một lần thử.
+
+00:27.415 --> 00:28.940
+Để mình đọc lại lần nữa.
+
+00:28.940 --> 00:31.080
+Bạn ấy muốn thiết lập xác suất
+
+00:31.080 --> 00:33.670
+để xác suất được viên kẹo 2 lần
+
+00:33.670 --> 00:37.170
+liên tiếp, hoặc bất cứ viên kẹo khác 2 lần liên tiếp,
+
+00:37.170 --> 00:41.450
+lớn hơn 2 và 1/4 nhân xác suất được
+
+00:41.450 --> 00:44.510
+kẹo "Thỏ Mật Ong" trong 1 lần thử.
+
+00:44.510 --> 00:48.430
+Viết bất phương trình biểu diễn tình huống này.
+
+00:48.430 --> 00:50.730
+Dùng p để biểu diễn xác suất
+
+00:50.730 --> 00:53.210
+được kẹo "Thỏ Mật Ong" trong 1 lần thử.
+
+00:53.210 --> 00:55.994
+Giải bất phương trình, và hoàn thành câu.
+
+00:55.994 --> 00:57.410
+Nhớ là xác suất phải
+
+00:57.410 --> 00:59.140
+là số giữa 0 và 1.
+
+00:59.140 --> 01:01.020
+Vậy ta muốn viết bất phương trình
+
+01:01.020 --> 01:02.701
+biểu diễn bài toán này.
+
+01:02.701 --> 01:04.450
+Rồi ta sẽ hoàn thiện câu,
+
+01:04.450 --> 01:06.574
+xác suất được kẹo "Thỏ Mật Ong" trong 1 lần thử
+
+01:06.574 --> 01:08.800
+phải là-- đề cho một loạt đáp án.
+
+01:08.800 --> 01:11.300
+Lớn hơn, lớn hơn hoặc bằng, nhỏ hơn, nhỏ hơn
+
+01:11.300 --> 01:14.110
+hoặc bằng, rồi ta phải điền số vào.
+
+01:14.110 --> 01:16.900
+Vậy để giải bài toán này, mình đã copy dán bài này.
+
+01:16.900 --> 01:19.640
+vào bảng vẽ ở đây.
+
+01:19.640 --> 01:22.010
+Hãy suy nghĩ chút nào.
+
+01:22.010 --> 01:24.780
+Đề nói, dùng p để biểu diễn
+
+01:24.780 --> 01:27.530
+xác suất được kẹo "Thỏ Mật Ong" trong 1 lần thử.
+
+01:27.530 --> 01:30.200
+Đề cũng nói bạn ấy muốn lập trình xác suất
+
+01:30.200 --> 01:34.060
+để xác suất được kẹo khác nhau 2 lần
+
+01:34.060 --> 01:38.760
+liên tiếp lớn hơn 2 và 1/4 xác suất được
+
+01:38.760 --> 01:41.300
+kẹo "Thỏ Mật Ong" trong 1 lần thử.
+
+01:41.300 --> 01:46.800
+Vậy nếu p là xác suất được kẹo "Thỏ Mật Ong",
+
+01:46.800 --> 01:51.980
+xác suất được kẹo khác 1 lần là bao nhiêu?
+
+01:51.980 --> 01:55.569
+Nó sẽ là 1 trừ p.
+
+01:55.569 --> 01:57.860
+Nếu bạn có xác suất p được kẹo "Thỏ Mật Ong"
+
+01:57.860 --> 02:01.289
+vậy 1 trừ p sẽ là sẽ xác suất được kẹo khác "Thỏ Mật Ong"
+
+02:01.289 --> 02:03.330
+Giờ, xác suất được cái này 2 lần
+
+02:03.330 --> 02:05.990
+liên tiếp, được kẹo khác 2 lần liên tiếp là bao nhiêu?
+
+02:05.990 --> 02:07.610
+Bạn sẽ phải nhân
+
+02:07.610 --> 02:09.280
+xác suất này với chính nó.
+
+02:09.280 --> 02:12.290
+Sẽ bằng 1 trừ p nhân 1 trừ p,
+
+02:12.290 --> 02:16.560
+hoặc ta có thể viết nó là 1 trừ p bình.
+
+02:16.560 --> 02:19.790
+Vậy ở đây sẽ là xác suất
+
+02:19.790 --> 02:22.320
+được kẹo khác
+
+02:22.320 --> 02:23.670
+2 lần liên tiếp.
+
+02:23.670 --> 02:34.840
+Vậy xác suất được kẹo khác kẹo "Thỏ Mật Ong"
+
+02:34.840 --> 02:39.730
+2 lần liên tiếp,
+
+02:39.730 --> 02:45.170
+Đề nói xác suất này
+
+02:45.170 --> 02:51.800
+phải lớn hơn 2 và 1/4 nhân xác suất
+
+02:51.800 --> 02:54.780
+được kẹo "Thỏ Mật Ong" trong 1 lần thử.
+
+02:54.780 --> 03:00.312
+Vậy lớn hơn 2 và 1/4 nhân
+
+03:00.312 --> 03:02.270
+xác suất được kẹo "Thỏ Mật Ong" trong 1
+
+03:02.270 --> 03:05.610
+lần thử, đó là p-- nhân p
+
+03:05.610 --> 03:07.860
+Vậy ta đã làm xong phần đầu tiên.
+
+03:07.860 --> 03:11.710
+Ta đã viết xong bất phương trình biểu diễn trường hợp này.
+
+03:11.710 --> 03:15.440
+Giờ hãy giải bất phương trình này.
+
+03:15.440 --> 03:19.200
+Để làm vậy, mình sẽ khai triển 1 trừ p bình ra.
+
+03:19.200 --> 03:24.307
+1 trừ p bình tương tự
+
+03:24.307 --> 03:25.390
+mình sẽ khai triển ra.
+
+03:25.390 --> 03:34.600
+Vậy cái này sẽ là 1 bình trừ 2p cộng p bình.
+
+03:34.600 --> 03:39.010
+Nó sẽ lớn hơn 2 và 1/4p
+
+03:42.720 --> 03:43.320
+Xem nào.
+
+03:43.320 --> 03:49.900
+Nếu ta trừ 2 và 1/4p khỏi 2 vế,
+
+03:49.900 --> 03:52.840
+ta sẽ còn lại-- mình sẽ xếp thứ tự lại.
+
+03:52.840 --> 03:54.650
+Ta sẽ được p bình.
+
+03:54.650 --> 03:58.280
+Vậy bạn có trừ 2p trừ 2 và 1/4p
+
+03:58.280 --> 04:01.190
+vậy nó sẽ bằng 4 và 1/4p
+
+04:01.190 --> 04:08.350
+Để mình viết nó là 17/4p cộng 1
+
+04:08.350 --> 04:11.880
+lớn hơn 0.
+
+04:14.730 --> 04:21.160
+Vậy hãy giải phương trình này.
+
+04:21.160 --> 04:24.350
+Trong điều kiện nào thì cái này sẽ lớn hơn 0?
+
+04:24.350 --> 04:26.354
+Nghĩ xem, hãy viết thành dạng nhân tử nào.
+
+04:26.354 --> 04:27.770
+Trước khi làm vậy,
+
+04:27.770 --> 04:29.410
+hãy rút gọn một chút.
+
+04:29.410 --> 04:32.050
+Mình không thích 17/4 ở đây.
+
+04:32.050 --> 04:33.850
+vậy hãy nhân 2 vế với 4.
+
+04:33.850 --> 04:35.530
+Vì 4 là số dương,
+
+04:35.530 --> 04:37.650
+dấu bất đẳng thức sẽ không đổi,
+
+04:37.650 --> 04:39.830
+hướng của bất đẳng thức này.
+
+04:39.830 --> 04:42.870
+Vậy ta có thể viết lại là 4p bình
+
+04:42.870 --> 04:52.165
+trừ 17p cộng 4 lớn hơn 0.
+
+04:55.347 --> 04:55.930
+Xem nào.
+
+04:55.930 --> 04:57.147
+Nghiệm của cái này là gì?
+
+04:57.147 --> 04:58.730
+Ta có thể dùng công thức phương trình bậc 2
+
+04:58.730 --> 05:00.188
+nếu ta muốn làm nhanh.
+
+05:00.188 --> 05:02.160
+Ta cũng có thể làm ngược lại.
+
+05:02.160 --> 05:06.240
+Nhưng trừ b-- vậy nó sẽ bằng 17 cộng hoặc trừ
+
+05:06.240 --> 05:16.810
+căn bậc 2 của trừ 17 bình-- b bình-- vậy đó là
+
+05:16.810 --> 05:20.910
+289 trừ 4 nhân a nhân c.
+
+05:20.910 --> 05:25.280
+a nhân c là 16 nhân 4, vậy trừ 64.
+
+05:25.280 --> 05:29.170
+Tất cả chia 2 nhân a-- chia 8.
+
+05:29.170 --> 05:32.040
+Vậy đó là 17 cộng hoặc trừ--
+
+05:32.040 --> 05:37.780
+cái này là căn bậc 2 của 225 chia 8,
+
+05:37.780 --> 05:44.440
+bằng 17 cộng hoặc trừ 15 chia 8,
+
+05:44.440 --> 05:49.370
+bằng-- 17 trừ 15 chia 8
+
+05:49.370 --> 05:53.250
+là 2/8-- bằng 2/8 hoặc 1/4
+
+05:53.250 --> 05:54.750
+Vậy đó là 1 nghiệm.
+
+05:54.750 --> 05:56.520
+Đó là khi ta lấy trừ.
+
+05:56.520 --> 06:03.290
+Nếu ta cộng 17 cộng 15, sẽ được 32 chia 8
+
+06:03.290 --> 06:06.600
+là 4.
+
+06:06.600 --> 06:09.990
+Vậy đó là 2 trường hợp.
+
+06:09.990 --> 06:11.670
+Hãy viết thành dạng nhân tử.
+
+06:11.670 --> 06:22.130
+Ta có thể viết cái này thành p trừ 1/4 nhân p trừ 4
+
+06:22.130 --> 06:27.650
+lớn hơn 0.
+
+06:27.650 --> 06:32.070
+Vậy trong điều kiện này cái này sẽ đúng?
+
+06:32.070 --> 06:35.280
+Điều kiện nào thì cái này sẽ đúng?
+
+06:35.280 --> 06:38.630
+Nếu bạn lấy tích của 2 phần tử
+
+06:38.630 --> 06:41.840
+và chúng sẽ lớn hơn 0,
+
+06:41.840 --> 06:45.800
+nghĩa là 2 cái này phải cùng dấu,
+
+06:45.800 --> 06:49.230
+Hoặc thực ra, chúng đều dương,
+
+06:49.230 --> 06:51.870
+hoặc đều âm.
+
+06:51.870 --> 06:53.990
+Vậy hãy xét 2 trường hợp này.
+
+06:53.990 --> 06:56.660
+Mình sẽ đổi màu--
+
+06:56.660 --> 07:02.530
+vậy là cùng dương hoặc cùng âm.
+
+07:02.530 --> 07:08.200
+Nếu chúng cùng dương-- để mình làm ở đây.
+
+07:08.200 --> 07:12.120
+Nghĩa là p trừ 1/4 phải lớn hơn 0,
+
+07:12.120 --> 07:16.630
+và p trừ 4 lớn hơn 0.
+
+07:16.630 --> 07:19.110
+Và 1/4 ở 2 vế.
+
+07:19.110 --> 07:30.770
+Bạn được p lớn hơn 1/4, và p lớn hơn 4.
+
+07:30.770 --> 07:34.650
+Đó là trường hợp chúng đều dương.
+
+07:34.650 --> 07:37.000
+Còn nếu chúng đều âm thì sao?
+
+07:37.000 --> 07:47.380
+Thì khi đó bạn có p trừ 1/4 nhỏ hơn 0, và p trừ 4
+
+07:47.380 --> 07:48.580
+nhỏ hơn 0.
+
+07:48.580 --> 07:50.240
+Và 1/4 ở đây.
+
+07:50.240 --> 08:01.690
+Vậy p phải nhỏ hơn 1/4, vậy p phải nhỏ hơn 4.
+
+08:01.690 --> 08:07.320
+Điều kiện này rút gọn thành gì?
+
+08:07.320 --> 08:12.160
+p phải lớn hơn 1/4 và p phải lớn hơn 4.
+
+08:12.160 --> 08:14.680
+Nếu p lớn hơn 4,
+
+08:14.680 --> 08:16.610
+chắc chắn sẽ lớn hơn 1/4.
+
+08:16.610 --> 08:22.140
+Vậy nguyên cái này rút gọn thành p phải lớn hơn 4.
+
+08:22.140 --> 08:24.230
+Đó là trường hợp khi cả 2 đều dương.
+
+08:24.230 --> 08:26.430
+p phải lớn hơn 4.
+
+08:26.430 --> 08:28.230
+Còn cái này thì sao?
+
+08:28.230 --> 08:31.140
+Nếu p nhỏ hơn 1/4, chắc chắn
+
+08:31.140 --> 08:32.740
+nó sẽ nhỏ hơn 4.
+
+08:32.740 --> 08:36.580
+Vậy nó sẽ rút gọn thành p
+
+08:36.580 --> 08:41.140
+nhỏ hơn 1/4,
+
+08:41.140 --> 08:44.260
+Vậy ta sẽ chọn đáp án nào-- p lớn hơn 4
+
+08:44.260 --> 08:47.406
+hay p nhỏ hơn 1/4?
+
+08:47.406 --> 08:48.780
+Ta phải nhớ lại là
+
+08:48.780 --> 08:50.290
+ta đang xét xác suất.
+
+08:50.290 --> 08:51.748
+Quay lại vấn đề ban đầu,
+
+08:51.748 --> 08:53.650
+ta đang xét xác suất ai đó được kẹo
+
+08:53.650 --> 08:55.025
+"Thỏ Mật Ong" trong 1 lần thử.
+
+08:55.025 --> 08:57.990
+Xác suất phải là số giữa 0 và 1,
+
+08:57.990 --> 09:01.150
+vậy xác suất lớn hơn 4,
+
+09:01.150 --> 09:03.120
+không có lí chút nào.
+
+09:03.120 --> 09:06.310
+Không có lí trong trường hợp này
+
+09:06.310 --> 09:09.140
+Nên ta sẽ phải chọn xác suất được
+
+09:09.140 --> 09:14.510
+"Thỏ Mật Ong" nhỏ hơn 1/4, hoặc 0,25
+
+09:14.510 --> 09:16.200
+thì mới có lí.
+
+09:16.200 --> 09:18.540
+Vậy hãy điền thông tin này vào.
+
+09:18.540 --> 09:23.840
+Đây là bất phương trình biểu diễn bài toán này.
+
+09:23.840 --> 09:27.010
+p phải nhỏ hơn 1/4.
+
+09:27.010 --> 09:29.670
+Vậy quay lại bài toán ban đầu.
+
+09:29.670 --> 09:38.030
+Bất phương trình là 1 trừ p bình phải
+
+09:38.030 --> 09:41.750
+lớn hơn 2 và 1/4
+
+09:41.750 --> 09:43.370
+Vậy ta có thể viết nó nhiều lần.
+
+09:43.370 --> 09:47.792
+Mình có thể viết là 2,25 nhân p
+
+09:47.792 --> 09:49.250
+Rồi xác suất được
+
+09:49.250 --> 09:57.750
+kẹo "Thỏ Mật Ong" trong 1 lần thử phải nhỏ hơn 0,25
+
+09:57.750 --> 09:59.640
+Và ta xong rồi.

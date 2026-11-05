@@ -1,0 +1,148 @@
+WEBVTT
+
+00:00.000 --> 00:03.485
+Giả sử chúng ta có tích phân bất định,
+
+00:03.485 --> 00:18.636
+và hàm số 3x^2 + 2x nhân e ^ (x^3 + x^2) dx
+
+00:18.636 --> 00:22.756
+Vậy chúng ta sẽ giải nó như thế nào? Đầu tiên khi chúng ta nhìn qua
+
+00:22.756 --> 00:27.102
+nó trông như một tích phân khá phức tạp; chúng ta có một đa thức ở đây
+
+00:27.102 --> 00:31.825
+nhân với một hàm mũ và ở đây, số mũ
+
+00:31.825 --> 00:36.172
+chúng ta lại có thêm một đa thức khác. Trông thật khó khăn.
+
+00:36.172 --> 00:42.403
+Và chìa khoá để giải bài toán này, chiếc chìa khoá trong đầu bạn là bạn sẽ muốn sử dụng một kỹ thuật gọi là
+
+00:42.403 --> 00:50.163
+phương pháp đổi biến số. Và ở đây mình sẽ cho các bạn biết qua khi nào mình nhận ra là phải dùng phương pháp này
+
+00:50.163 --> 00:53.573
+và qua thời gian, bạn sẽ có thể làm được điều này ngay trong đầu.
+
+00:53.573 --> 00:59.498
+Phương pháp đổi biến số (PPĐBS) là phương pháp ngược của đạo hàm hàm số hợp. Trong đạo hàm hàm số hợp
+
+00:59.498 --> 01:03.767
+Mình sẽ đi sâu hơn ở một video khác khi mình thực sự nói về cách cảm nhận trực quan về nó.
+
+01:03.767 --> 01:09.172
+Nhưng cách mà mình nghĩ về nó, mình có một cái số mũ kinh khủng ở ngay đây
+
+01:09.172 --> 01:16.895
+Mình có x^3 + x^2. Và thứ này ngay đây, thật ra la đạo hàm của
+
+01:16.895 --> 01:23.486
+x^3 + x^2. Đạo hàm của x^3 là 3x^2; đạo hàm của x^2 là 2x.
+
+01:23.486 --> 01:27.822
+chính là gợi ý khi nào mình nên dùng PPĐBS.
+
+01:27.822 --> 01:33.047
+Vậy việc mình làm là, biểu thức này đây mà mình còn thấy đạo hàm của nó
+
+01:33.047 --> 01:43.044
+được nhân vào, mình có thể coi nó là u. Nói cách khác, "u = x^3 + x^2"
+
+01:43.044 --> 01:46.903
+Vậy đạo hàm của u theo x là gì
+
+01:46.903 --> 01:56.887
+du/dx (ta đã làm nhiều lần rồi) sẽ là 3x^2 + 2x
+
+01:56.887 --> 02:03.497
+và giờ ta viết nó dưới dạng vi phân. Và du/dx ko phải một phân số
+
+02:03.497 --> 02:08.700
+của vi phân của u trên vi phân của x, nó chỉ là một cách viết
+
+02:08.700 --> 02:12.372
+Nhưng thường khá là tiện khi ta coi nó như một phân số.
+
+02:12.372 --> 02:16.500
+Và bạn có thể coi là, nếu bạn muốn có một du,
+
+02:16.500 --> 02:21.980
+nếu bạn muốn cái dạng vi phân này đây, u sẽ biến đổi bao nhiêu khi x biến đổi
+
+02:21.994 --> 02:32.771
+bạn có thể nhân cả 2 bên với dx. Và vậy là nếu ta coi nó như một phân số
+
+02:32.771 --> 02:35.856
+và nó sẽ cho ta dạng vi phân đúng
+
+02:35.856 --> 02:49.103
+bạn sẽ còn lại du = (3x^2 + 2x) dx
+
+02:49.103 --> 02:54.350
+Vậy tại sao cái này, tại sao mình phải cực nhọc làm cái việc đó?
+
+02:54.350 --> 03:01.171
+Chúng ta thấy rằng chúng ta có 3x^2 + 2x, và nó đang được nhân với dx ngay đây.
+
+03:01.171 --> 03:08.695
+Mình có thể viết lại cái tích phân ban đầu như là tích phân của - để mình làm màu khác-
+
+03:08.695 --> 03:20.196
+của 3x^2 + 2x nhân dx nhân e - để mình lấy màu khác -
+
+03:20.196 --> 03:28.891
+nhân e mũ x^3 + x^2. Giờ, điều thú vị là
+
+03:28.891 --> 03:35.771
+cái thứ trong màu đò hồng này chính là bằng du.
+
+03:35.771 --> 03:41.561
+Và cái thứ trên này, x^3 + x^2, nó là thứ mà mình nói là u bằng.
+
+03:41.561 --> 03:46.169
+Nó sẽ bằng u. Vậy mình có thể viết lại toàn bộ tích phân
+
+03:46.169 --> 03:49.700
+và giờ bạn có thể nhận ra tại sao nó có thể đơn giản hoá vấn đề rất tốt
+
+03:49.700 --> 03:53.222
+nó sẽ bằng, và mình sắp sửa thay đổi thứ tự
+
+03:53.222 --> 03:57.297
+Mình sẽ đưa du, toàn bộ du, mình sẽ dán nó sang mặt bên kia.
+
+03:57.297 --> 04:01.704
+để trông nó như dạng mẫu mà chúng ta vẫn thương thấy trong các tích phân bất định trong,
+
+04:01.704 --> 04:15.495
+nó sẽ là, chúng ta sẽ có du nhân e^u
+
+04:15.495 --> 04:20.892
+Vậy nguyên hàm theo u của cái này là gì?
+
+04:20.892 --> 04:25.958
+Đạo hàm của e^u là e^u, và nguyên hàm của e^u là e^u.
+
+04:25.958 --> 04:32.412
+Vậy nó sẽ bằng e^u, và giờ sẽ phải có một hằng số
+
+04:32.425 --> 04:38.292
+ở đây, vậy để mình viết thêm. Vậy là cộng C. Và giờ, dể chuyển sang x
+
+04:38.292 --> 04:43.096
+chúng ta chỉ cần thế lại u. Mình biết u bằng gì.
+
+04:43.096 --> 04:47.030
+Vậy chúng ta có thể nói rằng nó sẽ bằng e -- thay bằng việc chỉ viết u,
+
+04:47.030 --> 05:00.349
+chúng ta thấy rằng u là x^3 + x^2. Và chúng ta + C. Và xong!
+
+05:00.349 --> 05:04.084
+Chúng ta đã tìm ra nguyên hàm. Và mình khuyên bạn nên tìm đạo hàm của cái này,
+
+05:04.084 --> 05:08.084
+và mình nghĩ bạn sẽ thấy mình dùng quy tắc đạo hàm hàm số hợp và quay lại như cũ.

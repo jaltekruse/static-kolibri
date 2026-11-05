@@ -1,0 +1,784 @@
+WEBVTT
+
+00:00.000 --> 00:00.580
+Nauczymy się obliczać pochodną funkcji y = x kwadrat w dowolnym punkcie x.
+
+00:00.580 --> 00:04.900
+W poprzednim filmie obliczyliśmy pochodną, nachylenie prostej stycznej do wykresu funkcji, w jednym, ustalonym punkcie
+
+00:04.900 --> 00:07.035
+wykresu funkcji y równa się x kwadrat.
+
+00:07.035 --> 00:09.700
+Zobaczmy teraz, czy możemy to uogólnić i podać
+
+00:09.700 --> 00:12.780
+wzór, który pozwoli obliczyć nachylenie w dowolnym punkcie
+
+00:12.780 --> 00:15.350
+wykresu funkcji y równa się x kwadrat.
+
+00:15.350 --> 00:18.000
+Narysuje moją funkcję jeszcze raz.
+
+00:18.000 --> 00:21.720
+Zawsze lepiej mieć ładny rysunek.
+
+00:21.720 --> 00:24.530
+To jest moja oś y.
+
+00:24.530 --> 00:28.420
+A to jest moja oś x.
+
+00:28.420 --> 00:29.580
+Moja oś x.
+
+00:29.580 --> 00:30.670
+A teraz narysuje wykres.
+
+00:30.670 --> 00:32.900
+Wygląda mniej więcej tak.
+
+00:32.900 --> 00:34.210
+Widzieliście to już wiele razy.
+
+00:34.210 --> 00:37.970
+Wykres funkcji y równa się x do kwadratu.
+
+00:37.970 --> 00:39.740
+A teraz spróbujmy spojrzeć na to bardzo ogólnie.
+
+00:39.740 --> 00:42.600
+Pamiętacie, jeśli chcemy wyznaczyć - zapisze tu
+
+00:42.600 --> 00:44.600
+definicję pochodnej.
+
+00:44.600 --> 00:48.450
+A więc, jeśli mamy tutaj pewien punkt - nazwijmy go x.
+
+00:48.450 --> 00:49.630
+Opisujemy to bardzo ogólnie.
+
+00:49.630 --> 00:52.470
+Chcemy znaleźć nachylenie w tym punkcie x.
+
+00:52.470 --> 00:55.190
+Chcemy znaleźć taką funkcję, że jak zadasz mi wartość x,
+
+00:55.190 --> 00:57.010
+ta funkcja obliczy nachylenie wykresu w tym punkcie.
+
+00:57.010 --> 00:59.800
+Nazwiemy ją f ze znaczkiem "prim" od x.
+
+00:59.800 --> 01:06.210
+I to właśnie będzie pochodna funkcji f od x.
+
+01:06.210 --> 01:09.830
+To, co robi f prim, popatrzcie na f od x, jeśli podasz mi x - to jest funkcja,
+
+01:09.830 --> 01:12.670
+której podajesz x, a ona zwraca Ci wartość f od x.
+
+01:12.670 --> 01:14.810
+I ten wykres narysowaliśmy tutaj.
+
+01:14.810 --> 01:19.470
+Z f prim od x, podajesz jej x, a ona nie zwraca Ci
+
+01:19.470 --> 01:21.050
+wartości z wykresu.
+
+01:21.050 --> 01:22.760
+Ona nie powie Ci ile to jest f od x.
+
+01:22.760 --> 01:24.855
+Ona Ci powie, ile wynosi nachylenie wykresu
+
+01:24.855 --> 01:26.280
+w tym punkcie.
+
+01:26.280 --> 01:28.790
+A więc f prim od x, jeśli rozumiemy to jako funkcję, powie
+
+01:28.790 --> 01:31.540
+Ci, ile wynosi nachylenie wykresu w tym punkcie,
+
+01:31.540 --> 01:33.360
+jeśli powiesz 3, to dostaniesz odpowiedź, że nachylenie tego wykresu
+
+01:33.360 --> 01:34.220
+w punkcie 3 jest równe 6.
+
+01:34.220 --> 01:35.590
+Na poprzednim filmie widzieliśmy, jak to działa.
+
+01:35.590 --> 01:37.410
+I to teraz chcemy zrobić dla dowolnego x.
+
+01:37.410 --> 01:40.600
+Na jednym z poprzednich filmów widzieliśmy,
+
+01:40.600 --> 01:47.130
+że f prime od x można zdefiniować jako - po prostu -
+
+01:47.130 --> 01:48.470
+napiszmy to tak.
+
+01:48.470 --> 01:51.210
+To jest nachylenie prostej siecznej do wykresu pomiędzy punktem z i pewnym
+
+01:51.210 --> 01:53.540
+punktem, który jest odrobinę odległy od x.
+
+01:53.540 --> 01:56.640
+Nachylenie tej prostej siecznej równa się zmianie w y.
+
+01:56.640 --> 02:00.940
+A to jest wartość y w punkcie odrobinę odległym
+
+02:00.940 --> 02:02.290
+od x.
+
+02:02.290 --> 02:07.630
+Czyli f od x plus h minus wartość y w punkcie x.
+
+02:07.630 --> 02:08.600
+Bo punkt x jest tutaj.
+
+02:08.600 --> 02:11.200
+To jest f od x.
+
+02:11.200 --> 02:13.820
+Czyli minus f od x.
+
+02:13.820 --> 02:15.830
+I to wszystko podzielić przez zmianę w x.
+
+02:15.830 --> 02:19.620
+Ponieważ to jest x plus h, zmiana w x
+
+02:19.620 --> 02:21.740
+równa się x plus h minus x.
+
+02:21.740 --> 02:23.470
+Ta odległość równa się po prostu h.
+
+02:23.470 --> 02:26.830
+Zmiana w x będzie równa h.
+
+02:26.830 --> 02:29.150
+A więc to jest nachylenie prostej siecznej pomiędzy
+
+02:29.150 --> 02:31.240
+dowolnymi dwoma punktami na tym wykresie.
+
+02:31.240 --> 02:33.880
+I powiedzieliśmy sobie, że możemy obliczyć nachylenie prostej stycznej do wykresu,
+
+02:33.880 --> 02:36.390
+jeśli obliczymy granicę tego nachylenia gdy h,
+
+02:36.390 --> 02:40.060
+przy h dążącym do 0.
+
+02:40.060 --> 02:42.930
+Wtedy wyznaczymy nachylenie prostej stycznej do wykresu w punkcie x.
+
+02:42.930 --> 02:48.060
+A teraz zastosujmy to do naszej funkcji,
+
+02:48.060 --> 02:49.970
+f of x równa się x kwadrat.
+
+02:49.970 --> 02:52.430
+Inaczej mówiąc, y równa się x do kwadratu.
+
+02:52.430 --> 02:55.800
+Wiec to będzie punkt, możemy to wyznaczyć jako
+
+02:55.800 --> 02:58.910
+punkt x, x kwadrat.
+
+02:58.910 --> 03:01.380
+f od x równa się po prostu x kwadrat.
+
+03:01.380 --> 03:05.040
+A to będzie punkt - narysuje to
+
+03:05.040 --> 03:07.140
+w żywszym kolorze.
+
+03:07.140 --> 03:11.510
+To jest punkt x plus h - to ten punkt tutaj.
+
+03:11.510 --> 03:13.040
+Odrobinę dalej..
+
+03:13.040 --> 03:14.770
+I x plus h do kwadratu.
+
+03:19.450 --> 03:20.880
+Pamiętacie, na poprzednim filmie obliczyliśmy to dla pewnego,
+
+03:20.880 --> 03:21.500
+ustalonego x.
+
+03:21.500 --> 03:22.590
+Dla x równego 3.
+
+03:22.590 --> 03:24.330
+A teraz chcemy wyznaczyć ogólny wzór.
+
+03:24.330 --> 03:26.300
+Tak, że Ty powiesz mi dowolną wartość x, a ja nie będę musiał
+
+03:26.300 --> 03:28.330
+powtarzać tego, co zrobiliśmy na ostatnim filmie, dla każdej wartości x oddzielnie.
+
+03:28.330 --> 03:29.490
+Wyznaczę ogólną funkcję.
+
+03:29.490 --> 03:31.570
+Jeśli dasz mi 7, ja powiem Ci od razu ile wynosi nachylenie w punkcie 7.
+
+03:31.570 --> 03:33.260
+Powiesz mi: minus 3, a ja powiem Ci ile wynosi nachylenie
+
+03:33.260 --> 03:34.300
+w punkcie minus 3.
+
+03:34.300 --> 03:36.450
+Powiesz 100 000, a Ci od razu odpowiem,
+
+03:36.450 --> 03:37.690
+ile wynosi nachylenie w punkcie 100 000.
+
+03:37.690 --> 03:39.310
+Zastosujmy teraz ten wzór.
+
+03:39.310 --> 03:42.740
+Chcemy znaleźć zmianę w y i podzielić ją przez zmianę w x.
+
+03:42.740 --> 03:45.410
+Zmiana w y i podzielić ją przez zmiana w x.
+
+03:45.410 --> 03:51.190
+Po pierwsze, zmiana w y równa się wartość y w tym punkcie,
+
+03:51.190 --> 03:52.975
+czyli x plus h do kwadratu.
+
+03:52.975 --> 03:57.410
+x plus h do kwadratu.
+
+03:57.410 --> 03:59.290
+To jest wartość y w tym punkcie.
+
+03:59.290 --> 04:00.270
+W tym punkcie tutaj.
+
+04:00.270 --> 04:02.730
+Równa x plus ha do kwadratu.
+
+04:02.730 --> 04:06.380
+Wziałem x plus h i podniosłem do kwadratu,
+
+04:06.380 --> 04:07.820
+i to jest wartość y w tym punkcie.
+
+04:07.820 --> 04:08.930
+Czyli x plus h do kwadratu.
+
+04:08.930 --> 04:10.630
+To jest ta wartość.
+
+04:10.630 --> 04:12.080
+A ile wynosi współrzędna y tego punktu?
+
+04:12.080 --> 04:15.230
+f w punkcie x wynosi - wiem, że to wszystko może się wydawać nieco zagmatwane -
+
+04:15.230 --> 04:16.310
+wynosi x kwadrat.
+
+04:16.310 --> 04:18.530
+Jeśli weźmiesz punkt x i obliczysz wartość funkcji w
+
+04:18.530 --> 04:20.600
+tym punkcie, otrzymasz x do kwadratu.
+
+04:20.600 --> 04:23.300
+A wiec tu piszemy minus x kwadrat.
+
+04:23.300 --> 04:24.900
+Tyle wynosi nasza zmiana w y.
+
+04:24.900 --> 04:29.090
+Na wykresie, to jest ta odległość.
+
+04:29.090 --> 04:33.110
+I jeśli chcemy powiązać to, co obliczyliśmy z naszą definicją pochodnej,
+
+04:33.110 --> 04:35.820
+te niebieskie wyrażenie odpowiada temu
+
+04:35.820 --> 04:36.570
+wyrażeniu tutaj.
+
+04:36.570 --> 04:39.140
+Po prostu skorzystaliśmy z definicji naszej funkcji.
+
+04:39.140 --> 04:42.850
+Nasza funkcja to f od x równa się x do kwadratu.
+
+04:42.850 --> 04:46.310
+Obliczyliśmy wartość funkcji, gdy jej argument równa się x plus h.
+
+04:46.310 --> 04:48.920
+Jeśli chcesz podnieść cokolwiek do kwadratu, jeśli wstawię tu a,
+
+04:48.920 --> 04:49.540
+wynik będzie a do kwadratu.
+
+04:49.540 --> 04:51.200
+Jeśli wstawię tu 'jabłuszko', otrzymam 'jabłuszko' do kwadratu.
+
+04:51.200 --> 04:52.970
+Jeśli wstawię x plus h, w wyniku otrzymam
+
+04:52.970 --> 04:54.580
+x plus h do kwadratu.
+
+04:54.580 --> 04:56.210
+A więc to jest ta część.
+
+04:56.210 --> 05:00.420
+A potem, to jest wartość funkcji obliczona dokładnie w punkcie,
+
+05:00.420 --> 05:01.810
+w którym chcemy wyznaczyć pochodną.
+
+05:01.810 --> 05:02.440
+Dokładnie w tym punkcie.
+
+05:02.440 --> 05:05.120
+I to jest nasza zmiana w y.
+
+05:05.120 --> 05:07.920
+Podzielmy ją teraz przez zmianę w x.
+
+05:07.920 --> 05:10.730
+Zmiana w x wynosi - jeśli to jest x plus h, a to jest po prostu x, nasza
+
+05:10.730 --> 05:13.360
+zmiana w x będzie równa po prostu h.
+
+05:13.360 --> 05:14.880
+I stąd właśnie pochodzi ten wyraz.
+
+05:14.880 --> 05:17.670
+Obliczyliśmy nachylenie prostej siecznej pomiędzy tymi 2 punktami.
+
+05:17.670 --> 05:19.350
+Po prostu nachylenie siecznej pomiędzy tymi dwoma punktami.
+
+05:19.350 --> 05:22.690
+Ale oczywiście naszym celem jest nachylenie prostej stycznej - granica, w której ten punkt
+
+05:22.690 --> 05:25.500
+przesuwa się coraz bliżej i bliżej do tego punktu, a ten punkt
+
+05:25.500 --> 05:26.790
+staje się coraz bliższy tamtemu punktowi.
+
+05:26.790 --> 05:29.530
+I prosta sieczna staje się styczna do wykresu.
+
+05:29.530 --> 05:34.480
+Obliczymy teraz granicę, gdy h dąży do 0,
+
+05:34.480 --> 05:37.250
+i to będzie nasza pochodna, nasza funkcja f prim od x.
+
+05:37.250 --> 05:39.580
+To wynika zdokłądnie tej samej definicji pochodnej, z tym
+
+05:39.580 --> 05:42.400
+że zamiast mówić o tym ogólnie i rozważać dowolną funkcję, wprowadziliśmy
+
+05:42.400 --> 05:43.380
+konkretną funkcję.
+
+05:43.380 --> 05:45.680
+Funkcję f od x równa się x kwadrat.
+
+05:45.680 --> 05:46.660
+Czyli zastosowaliśmy to.
+
+05:46.660 --> 05:48.350
+tyle, że zamiast f od x, wpisaliśmy x do kwadratu.
+
+05:48.350 --> 05:52.950
+Zamiast f od x plus h, napisaliśmy x plus h do kwadratu.
+
+05:52.950 --> 05:56.180
+Zobaczmy teraz, czy umiemy wyznaczyć tą granicę.
+
+05:56.180 --> 06:04.680
+To będzie równe granicy, gdy h dąży do
+
+06:04.680 --> 06:06.680
+0, z tego kwadratu.
+
+06:06.680 --> 06:09.160
+Napiszę to w tym samym kolorze.
+
+06:09.160 --> 06:19.230
+To jest x kwadrat plus 2xh plus h kwadrat, i stąd mamy tu
+
+06:19.230 --> 06:22.320
+jeszcze minus x kwadrat stąd
+
+06:22.320 --> 06:24.790
+Po prostu pomnożyłem to przez siebie.
+
+06:24.790 --> 06:27.635
+I to wszystko dzielone przez h.
+
+06:27.635 --> 06:30.850
+Zobaczmy, czy można to trochę uprościć.
+
+06:30.850 --> 06:32.610
+No cóż, łatwo zauważyć, że mamy tutaj x kwadrat
+
+06:32.610 --> 06:35.390
+i minus x kwarat, i te dwa wyrazy się uproszczą.
+
+06:35.390 --> 06:36.570
+A następnie możemy podzielić licznik
+
+06:36.570 --> 06:38.185
+i mianownik przez h.
+
+06:38.185 --> 06:44.780
+I to się uprości do - zapiszemy f prim od x równa się -
+
+06:44.780 --> 06:46.590
+jeśli podzielimy licznik i mianownik przez h -
+
+06:46.590 --> 06:50.260
+dostaniemy 2x plus h.
+
+06:50.260 --> 06:52.070
+O, przepraszam, zapomniałem o granicy.
+
+06:52.070 --> 06:53.420
+To równa się granicy.
+
+06:53.420 --> 06:54.330
+Bardzo ważne.
+
+06:54.330 --> 07:01.200
+Granicy, gdy h dąży do 0 z tego co dostaniemy, dzieląc licznik
+
+07:01.200 --> 07:08.640
+przez h, dostaniemy 2x plus h kwadrat dzielone przez h, czyli h.
+
+07:08.640 --> 07:10.440
+Pamiętacie może z poprzedniego filmu, że gdy obliczyliśmy to
+
+07:10.440 --> 07:13.780
+wyrażenie dla konkretnego x, dla x równego 3, dostaliśmy wynik równy 6
+
+07:13.780 --> 07:14.920
+plus delta x.
+
+07:14.920 --> 07:17.420
+Albo 6 plus h, to jest to samo.
+
+07:17.420 --> 07:20.130
+Jeśli obliczymy granicę przy h dążącym do zera,
+
+07:20.130 --> 07:21.010
+ten wyraz po prostu zniknie.
+
+07:21.010 --> 07:24.240
+I w wyniku otrzymamy po prostu 2x.
+
+07:24.240 --> 07:28.540
+Więc otrzymaliśmy właśnie, że jeśli f od x - to jest bardzo ciekawy wynik.
+
+07:28.540 --> 07:30.180
+Bardzo interesujący!
+
+07:30.180 --> 07:35.130
+Jeśli f od x równa się x kwadrat, to f prim
+
+07:35.130 --> 07:37.910
+od x równa się 2x.
+
+07:37.910 --> 07:39.470
+To jest właśnie to, co nam wyszło.
+
+07:39.470 --> 07:41.570
+Chciałem upewnić się że rozumiecie,
+
+07:41.570 --> 07:42.880
+jak to interpretować.
+
+07:42.880 --> 07:45.780
+funkcja f od x, jeśli powiesz mi jakąś wartość x, odpowie Ci ile
+
+07:45.780 --> 07:47.560
+wynosi funkcja w tym punkcie x.
+
+07:47.560 --> 07:48.920
+A f prim w x powie Ci ile wynosi
+
+07:48.920 --> 07:49.960
+nachylenie wykresu w tym punkcie.
+
+07:49.960 --> 07:51.180
+Narysuję to.
+
+07:51.180 --> 07:53.490
+Bo to jest bardzo ważne.
+
+07:53.490 --> 07:56.220
+Bo z początku może to się wydawać trochę
+
+07:56.220 --> 07:58.590
+sprzeczne z intuicją, że jest funkcja, która określa
+
+07:58.590 --> 08:02.040
+nachylenie wykresu innej funkcji, w dowolnym punkcie.
+
+08:02.040 --> 08:05.070
+To wygląda tak.
+
+08:05.070 --> 08:07.650
+Może narysuję to ładniej.
+
+08:07.650 --> 08:10.290
+Oj, tym razem też nie wyszło mi bardzo ładnie.
+
+08:10.290 --> 08:11.280
+Teraz lepiej.
+
+08:11.280 --> 08:13.650
+Narysuje to dla dodatnich wartości x.
+
+08:13.650 --> 08:15.640
+OK, narysuje całą krzywą - wykres wygląda
+
+08:15.640 --> 08:17.450
+mniej więcej tak.
+
+08:17.450 --> 08:20.090
+To jest wykres funkcji f od x.
+
+08:20.090 --> 08:23.050
+Wykres funkcji f od x równa się x do kwadratu.
+
+08:23.050 --> 08:24.230
+Tak to wygląda.
+
+08:24.230 --> 08:26.490
+A więc, jeśli podasz mi jakiś punkt.
+
+08:26.490 --> 08:27.840
+Powiedzmy, ze dajesz mi punkt 7.
+
+08:27.840 --> 08:30.610
+Wkładamy 7 do naszej funkcji, czyli podnosimy do kwadratu.
+
+08:30.610 --> 08:34.460
+I siódemka przechodzi na liczbę 49.
+
+08:34.460 --> 08:36.170
+A więc tutaj mamy 49.
+
+08:36.170 --> 08:38.620
+To jest punkt (7,49)
+
+08:38.620 --> 08:40.940
+Wiemy, jak używać takich funkcji.
+
+08:40.940 --> 08:43.630
+Ale ile jest f prim od 7?
+
+08:43.630 --> 08:45.000
+f prim od 7.
+
+08:45.000 --> 08:47.740
+Ty mi to powiesz, 2 razy 7, równa się 14.
+
+08:47.740 --> 08:49.990
+Co oznacza ta liczba 14?
+
+08:49.990 --> 08:51.380
+Co ona oznacza?
+
+08:51.380 --> 08:53.440
+To jest nachylenie prostej stycznej do wykresu
+
+08:53.440 --> 08:55.030
+w punkcie x równa się 7.
+
+08:55.030 --> 08:59.330
+A więc, gdybym miał narysować styczną do wykresu
+
+08:59.330 --> 09:02.930
+w tym punkcie, prostą która tylko muska wykres w tym punkcie -
+
+09:02.930 --> 09:03.890
+po prostu prostą styczna do wykresu.
+
+09:03.890 --> 09:06.410
+To nie była dobra prosta styczna.
+
+09:06.410 --> 09:08.790
+O, to jest prosta styczna.
+
+09:08.790 --> 09:10.200
+Rozumiecie, o co chodzi.
+
+09:10.200 --> 09:13.660
+Nachylenie tej prostej, zmiana w y podzielić przez
+
+09:13.660 --> 09:16.260
+zmianę w x - nachylenie będzie równe 14.
+
+09:16.260 --> 09:18.880
+Nachylenie wykresu w punkcie x równym 7 -
+
+09:18.880 --> 09:20.270
+to jest dość stroma krzywa.
+
+09:20.270 --> 09:21.990
+A jeśli chcemy znaleźć nachylenie w innym punkcie, powiedzmy,
+
+09:21.990 --> 09:25.910
+ze to jest x - powiedzmy że teraz x równa się 2.
+
+09:25.910 --> 09:30.290
+Powiedzieliśmy, że w punkcie x równym 7, nachylenie wynosi 14.
+
+09:30.290 --> 09:32.900
+A w punkcie x równa się 2, ile wynosi nachylenie?
+
+09:32.900 --> 09:37.230
+No cóż, trzeba obliczyć f prim od 2, które równa się 2 razy
+
+09:37.230 --> 09:38.880
+2, czyli 4.
+
+09:38.880 --> 09:43.990
+A więc nachylenie w tym punkcie wynosi 4.
+
+09:43.990 --> 09:46.520
+Możemy powiedzieć że współczynnik kierunkowy tej prostej wynosi 4.
+
+09:46.520 --> 09:50.560
+A ile to będzie f prim od 0?
+
+09:50.560 --> 09:51.170
+f prim.
+
+09:51.170 --> 09:53.120
+Wiemy,, że f od 0 jest 0, prawda?
+
+09:53.120 --> 09:55.120
+0 do kwadratu wynosi 0.
+
+09:55.120 --> 09:57.710
+A ile to będzie f prim od 0?
+
+09:57.710 --> 09:59.180
+No cóż, 2 razy 0 jest 0.
+
+09:59.180 --> 10:00.480
+Pochodna też jest równa 0.
+
+10:00.480 --> 10:01.350
+Ale co to znaczy?
+
+10:01.350 --> 10:03.100
+Jak to zinterpretować?
+
+10:03.100 --> 10:05.850
+Oznacza to, że nachylenie prostej stycznej w tym punkcie jest 0.
+
+10:05.850 --> 10:08.390
+Prosta o nachyleniu równym 0 wygląda mniej więcej tak.
+
+10:08.390 --> 10:09.920
+Jak linia pozioma.
+
+10:09.920 --> 10:11.370
+Narysowałem to tak, jak trzeba.
+
+10:11.370 --> 10:14.220
+Linia pozioma będzie styczna do
+
+10:14.220 --> 10:15.910
+wykresu w punkcie x równym 0.
+
+10:15.910 --> 10:17.620
+Spróbujmy obliczyć pochodną w jeszcze jednym punkcie.
+
+10:17.620 --> 10:23.190
+Powiedzmy w punkcie minus 1.
+
+10:23.190 --> 10:26.290
+Czyli gdzieś tutaj, x równa się minus 1.
+
+10:26.290 --> 10:29.220
+f od minus 1, musimy podnieść to do kwadratu.
+
+10:29.220 --> 10:30.380
+Ponieważ to ma być x kwadrat.
+
+10:30.380 --> 10:31.570
+A więc jest równe 1.
+
+10:31.570 --> 10:33.180
+To jest ten punkt tutaj.
+
+10:33.180 --> 10:36.680
+A ile będzie wynosić f prim od minus 1?
+
+10:36.680 --> 10:40.050
+f prim od minus 1 równa się 2 razy minus 1.
+
+10:40.050 --> 10:42.340
+2 razy minus 1 równa się minus 2.
+
+10:42.340 --> 10:43.650
+Co to znaczy?
+
+10:43.650 --> 10:47.680
+To znaczy, że nachylenie, albo współczynnik kierunkowy prostej stycznej do wykresu w tym punkcie
+
+10:47.680 --> 10:51.050
+wynosi minus 2.
+
+10:51.050 --> 10:54.600
+Tak więc jeśli mam narysować prostą styczną w tym punkcie -
+
+10:54.600 --> 10:57.140
+styczna będzie wyglądać tak - popatrzcie, jest nachylona
+
+10:57.140 --> 10:57.700
+w dól.
+
+10:57.700 --> 10:58.450
+I to się zgadza.
+
+10:58.450 --> 11:04.700
+Nachylenie w tym punkcie jest równe minus 2.
+
+11:04.700 --> 11:04.733
+Do zobaczenia w następnym wideo.

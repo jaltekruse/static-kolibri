@@ -1,0 +1,384 @@
+WEBVTT
+
+00:00.690 --> 00:07.040
+Gegeben ist die Funktion g von x gleich
+9 mal 8 hoch x minus 1.
+
+00:07.040 --> 00:09.400
+Gegeben ist die Funktion g von x gleich
+9 mal 8 hoch x minus 1.
+
+00:09.400 --> 00:16.070
+Sie ist definiert für x ist eine positive Ganzzahl.
+
+00:16.070 --> 00:19.950
+Sie ist definiert für x ist eine positive Ganzzahl.
+
+00:19.950 --> 00:27.000
+Sie ist definiert für x ist eine positive Ganzzahl.
+
+00:27.000 --> 00:29.000
+Wir können also sagen, der Definitionsbereich
+dieser Funktion,
+
+00:29.000 --> 00:32.080
+bzw. alle gültigen Eingaben, sind positive Ganzzahlen.
+
+00:32.080 --> 00:34.970
+Also 1, 2, 3, 4, 5 und so weiter.
+
+00:34.970 --> 00:37.360
+Dies ist eine deutlich definierte Funktion.
+
+00:37.360 --> 00:41.370
+Ich will nun aber eine rekursive Definition dieser Funktion schreiben.
+
+00:41.370 --> 00:42.990
+Ich will nun aber eine rekursive Definition dieser Funktion schreiben.
+
+00:42.990 --> 00:46.110
+Sodass mir bei gegebenem x, die Funktion dieselben Ergebnisse liefert.
+
+00:46.110 --> 00:48.410
+Lass uns als erstes die Eingaben
+und Ausgaben verstehen.
+
+00:48.410 --> 00:49.650
+Lass uns als erstes die Eingaben
+und Ausgaben verstehen.
+
+00:49.650 --> 00:51.340
+Lass uns eine Tabelle zeichnen.
+
+00:51.340 --> 00:53.560
+Lass uns eine Tabelle zeichnen.
+
+00:53.560 --> 00:56.620
+Und darüber nachdenken, was passiert,
+
+00:56.620 --> 01:01.880
+wenn wir verschiedene x in diese Funktion einsetzen.
+
+01:01.880 --> 01:03.780
+Der Definitionsbereich sind alle positiven Ganzzahlen.
+
+01:03.780 --> 01:05.030
+Versuchen wir ein paar.
+
+01:05.030 --> 01:08.240
+1, 2, 3, 4.
+
+01:08.240 --> 01:11.410
+Und dann berechnen wir das entsprechende g von x.
+
+01:11.410 --> 01:14.100
+Und dann berechnen wir das entsprechende g von x.
+
+01:14.100 --> 01:17.080
+Wenn x gleich 1, dann ist g von x gleich
+
+01:17.080 --> 01:19.780
+9 mal 8 hoch 1 minus 1,
+
+01:19.780 --> 01:23.310
+9 mal 8 hoch 0, oder 9 mal 1.
+
+01:23.310 --> 01:27.050
+Also g von x ist 9.
+
+01:27.050 --> 01:32.610
+Was passiert, wenn x gleich 2?
+
+01:32.610 --> 01:35.830
+g ist gleich 9 mal 8 hoch 2 minus 1.
+
+01:35.830 --> 01:39.010
+Das ist dasselbe wie 9 mal 8 hoch 1.
+
+01:39.010 --> 01:40.600
+Und das ist wiederum 9 mal 8.
+
+01:40.600 --> 01:43.135
+Das ergibt 72.
+
+01:43.135 --> 01:44.760
+Das ergibt 72.
+
+01:44.760 --> 01:47.260
+Also 9 mal 8.
+
+01:47.260 --> 01:49.270
+Also 9 mal 8.
+
+01:49.270 --> 01:52.980
+Was passiert wenn x gleich 3?
+
+01:52.980 --> 01:55.120
+Das hier ist gleich 3 minus 1 ist 2.
+
+01:55.120 --> 01:56.690
+Das ergibt also 8 zum Quadrat.
+
+01:56.690 --> 01:59.380
+g ist also 9 mal 8 zum Quadrat.
+
+01:59.380 --> 02:04.290
+Wir können das als 9 mal 8 mal 8 schreiben.
+
+02:04.290 --> 02:06.650
+Ich glaube du erkennst ein bisschen ein Muster hier.
+
+02:06.650 --> 02:10.525
+Wenn x gleich 4 ist, ist dies hier 8 hoch 4 minus 1,
+
+02:10.525 --> 02:11.950
+also 8 hoch 3.
+
+02:11.950 --> 02:19.090
+Das ist wiederum 9 mal 8 mal 8 mal 8.
+
+02:19.090 --> 02:20.726
+Dies ist ein guter Hinweis, wie
+
+02:20.726 --> 02:22.100
+wir dies rekursiv definieren würden.
+
+02:22.100 --> 02:25.670
+Schau, unser erster Term bei x gleich 1 ist 9.
+
+02:25.670 --> 02:31.310
+Jeder nachfolgende Term ist gleich 8 mal
+der vorangegangene Term.
+
+02:31.310 --> 02:33.850
+8 mal der vorherige Term.
+
+02:33.850 --> 02:35.700
+8 mal der vorherige Term.
+
+02:35.700 --> 02:37.700
+8 mal der vorherige Term.
+
+02:37.700 --> 02:39.730
+Lass uns das als eine rekursive Funktion definieren.
+
+02:39.730 --> 02:41.960
+Als erstes definieren wir den Basisfall.
+
+02:41.960 --> 02:45.560
+g von x ist gleich 9 wenn x gleich 1.
+
+02:45.560 --> 02:48.670
+g von x ist gleich 9 wenn x gleich 1.
+
+02:48.670 --> 02:49.980
+g von x ist gleich 9 wenn x gleich 1.
+
+02:49.980 --> 02:51.620
+g von x ist gleich 9 wenn x gleich 1.
+
+02:51.620 --> 02:53.550
+g von x ist gleich 9 wenn x gleich 1.
+
+02:53.550 --> 02:57.570
+g von x ist gleich 9 wenn x gleich 1.
+
+02:57.570 --> 03:04.580
+g von x ist gleich 9 wenn x gleich 1.
+
+03:04.580 --> 03:07.170
+Somit haben wir dies hier erledigt.
+
+03:07.170 --> 03:11.140
+Und wenn x gleich irgendetwas anderes,
+
+03:11.140 --> 03:13.570
+dann ist g gleich das vorherige g von x mal 8.
+
+03:13.570 --> 03:17.760
+Sehen wir uns x minus 1 an
+
+03:17.760 --> 03:21.410
+und dann x.
+
+03:21.410 --> 03:33.120
+Wenn dieser Eintrag hier gleich g von x minus 1 ist,
+
+03:33.120 --> 03:35.209
+Wenn dieser Eintrag hier gleich g von x minus 1 ist,
+
+03:35.209 --> 03:38.230
+Wenn dieser Eintrag hier gleich g von x minus 1 ist,
+
+03:38.230 --> 03:42.360
+wissen wir, dass g von x
+
+03:42.360 --> 03:47.460
+gleich dem vorherigen Eintrag mal 8 ist .
+
+03:47.460 --> 03:55.794
+gleich dem vorherigen Eintrag mal 8 ist .
+
+03:55.794 --> 03:57.210
+Wir können das hier so schreiben.
+
+03:57.210 --> 03:59.390
+Mal 8.
+
+03:59.390 --> 04:02.290
+Für jedes andere x außer 1,
+
+04:02.290 --> 04:07.060
+ist g von x gleich der vorherige Eintrag,
+g von x minus 1, mal 8.
+
+04:07.060 --> 04:16.190
+ist g von x gleich der vorherige Eintrag,
+g von x minus 1, mal 8.
+
+04:16.190 --> 04:29.190
+Wenn x größer als 1, oder x eine Ganzzahl größer als 1 ist.
+
+04:29.190 --> 04:32.570
+Lass uns nun überprüfen, ob dies tatsächlich funktioniert.
+
+04:32.570 --> 04:35.070
+Zeichnen wir noch eine Tabelle hier herüben.
+
+04:35.070 --> 04:38.210
+Zeichnen wir noch eine Tabelle.
+
+04:38.210 --> 04:41.230
+Wieder haben wir x
+
+04:41.230 --> 04:42.864
+und g von x.
+
+04:42.864 --> 04:45.280
+Aber dieses Mal benutzen wir die rekursive Definition
+
+04:45.280 --> 04:45.880
+für g von x.
+
+04:45.880 --> 04:47.255
+Die Definition ist rekursiv,
+weil sie sich auf sich selbst bezieht.
+
+04:47.255 --> 04:49.390
+Die Definition ist rekursiv,
+weil sie sich auf sich selbst bezieht.
+
+04:49.390 --> 04:52.580
+In ihrer eigenen Definition heißt es g von x,
+
+04:52.580 --> 04:54.580
+wenn x ungleich 1, ist gleich g von x minus 1.
+
+04:54.580 --> 04:56.080
+Sie benutzt die Funktion selbst.
+
+04:56.080 --> 04:58.666
+Aber wir werden sehen, dass es tatsächlich funktioniert.
+
+04:58.666 --> 04:59.290
+Aber wir werden sehen, dass es tatsächlich funktioniert.
+
+04:59.290 --> 05:04.790
+Für x gleich 1, also g von 1,
+
+05:04.790 --> 05:06.380
+erhalten wir 9.
+
+05:06.380 --> 05:07.140
+erhalten wir 9.
+
+05:07.140 --> 05:09.150
+Das war ziemlich einfach.
+
+05:09.150 --> 05:11.380
+Was passiert wenn x gleich 2?
+
+05:11.380 --> 05:14.400
+Wenn x gleich 2, passt dieser Fall nicht mehr.
+
+05:14.400 --> 05:15.850
+Wir benutzen diesen Fall.
+
+05:15.850 --> 05:17.840
+Also wenn x gleich 2,
+
+05:17.840 --> 05:20.750
+ist es dasselbe wie g von 2 minus 1 mal 8.
+
+05:20.750 --> 05:22.250
+ist es dasselbe wie g von 2 minus 1 mal 8.
+
+05:22.250 --> 05:28.770
+ist es dasselbe wie g von 2 minus 1 mal 8.
+
+05:28.770 --> 05:33.590
+Was wiederum dasselbe ist wie g von 1 mal 8.
+
+05:33.590 --> 05:34.670
+Und was ist g von 1?
+
+05:34.670 --> 05:36.890
+g von 1 steht hier.
+
+05:36.890 --> 05:38.010
+g von 1 ist 9.
+
+05:38.010 --> 05:40.820
+Dies hier ergibt also 9 mal 8.
+
+05:40.820 --> 05:42.730
+Genau dasselbe was wir hier herüben haben.
+
+05:42.730 --> 05:45.840
+Und das war natürlich gleich g von 2.
+
+05:45.840 --> 05:47.060
+Und das war natürlich gleich g von 2.
+
+05:47.060 --> 05:49.370
+Das ist g von 2.
+
+05:49.370 --> 05:50.870
+Das ist g von 2.
+
+05:50.870 --> 05:52.710
+Das ist g von 2.
+
+05:52.710 --> 05:54.780
+Lass uns nun 3 machen.
+
+05:54.780 --> 05:56.110
+Lass uns nun 3 machen.
+
+05:56.110 --> 05:57.890
+Und nun schreibe ich g von 3 zuerst.
+
+05:57.890 --> 06:01.650
+Also g von 3 ist gleich
+-- wir benutzen diesen Fall --
+
+06:01.650 --> 06:09.130
+es ist gleich g von 3 minus 1 mal 8.
+
+06:09.130 --> 06:13.770
+Das ist gleich g von 2 mal 8.
+
+06:13.770 --> 06:15.060
+Was ist g von 2?
+
+06:15.060 --> 06:18.060
+g von 2 haben wir bereits berechnet mit 9 mal 8.
+
+06:18.060 --> 06:22.400
+Es ist also gleich 9 mal 8 -- das ist g von 2 -- mal 8.
+
+06:22.400 --> 06:24.970
+Wir erhalten also genau dieselben Ergebnisse.
+
+06:24.970 --> 06:29.690
+Dies ist also die rekursive Definition dieser Funktion.

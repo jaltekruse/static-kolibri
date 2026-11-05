@@ -1,0 +1,310 @@
+WEBVTT
+
+00:00.590 --> 00:03.920
+Dostal jsem 10 stop vysoký
+žebřík, který je opřený o zeď.
+
+00:03.920 --> 00:07.587
+Ale stojí na velmi kluzkém povrchu
+a začíná sjíždět dolů.
+
+00:07.587 --> 00:10.850
+A zrovna v momentě,
+kdy se na něj díváme,
+
+00:10.850 --> 00:14.040
+je základna žebříku 8 stop od paty zdi.
+
+00:14.040 --> 00:16.610
+A sklouzává ode zdi
+rychlostí 4 stopy za sekundu.
+
+00:16.610 --> 00:20.440
+Budeme předpokládat, že vrchní
+část žebříku klouže podél zdi,
+
+00:20.440 --> 00:24.320
+zůstává s ní v kontaktu
+a klouže přímo dolů.
+
+00:24.320 --> 00:27.130
+Zde nahoře vidíme, že šipka
+se pohybuje směrem dolů.
+
+00:27.130 --> 00:33.296
+Naše otázka je: Jak rychle se vrch žebříku
+pohybuje směrem dolů v tuto chvíli?
+
+00:33.296 --> 00:34.920
+Trochu o tom popřemýšlejme.
+
+00:34.920 --> 00:37.300
+Co známe a co neznáme?
+
+00:37.300 --> 00:44.300
+Pokud nazveme vzdálenost mezi
+patou zdí a základnou žebříku ‚x‛.
+
+00:44.300 --> 00:47.600
+Víme, že právě teď
+je ‚x‛ rovno 8 stop.
+
+00:47.600 --> 00:51.130
+Také známe rychlost, jakou
+se mění ‚x‛ s ohledem na čas.
+
+00:51.130 --> 00:54.800
+Rychlost, jakou se mění x s časem,
+je 4 stopy za sekundu.
+
+00:54.810 --> 00:58.700
+Můžeme to nazvat dx/dt.
+
+00:58.700 --> 01:05.830
+Nyní nazvěme vzdálenost od vrchní části
+žebříku k základně žebříku ‚h‛.
+
+01:05.830 --> 01:08.042
+Nazvěme to ‚h‛.
+
+01:08.042 --> 01:17.850
+Co se skutečně snažíme zjistit, je dh/dt,
+protože známe ostatní informace.
+
+01:17.850 --> 01:22.120
+Uvidíme, jestli přijdeme
+na vztah mezi ‚x‛ a ‚h‛.
+
+01:22.120 --> 01:25.920
+Pak budeme derivovat podle času, použijeme
+asi pravidlo pro derivování složené funkce.
+
+01:25.920 --> 01:30.300
+Podívejme, jestli vyřešíme dh/dt,
+když známe všechny tyto informace.
+
+01:30.300 --> 01:34.770
+Známe vztah mezi ‚x‛ a ‚h‛ v celém
+časovém intervalu díky Pythagorově větě.
+
+01:34.770 --> 01:37.010
+Předpokládejme,
+že toto je pravý úhel.
+
+01:37.010 --> 01:45.400
+Víme, že (x na druhou) plus (h na druhou)
+bude rovno (délce žebříku na druhou),
+
+01:45.400 --> 01:48.400
+takže to bude rovno 100.
+
+01:48.404 --> 01:52.600
+A zajímá nás, jakou rychlostí se mění
+tato vzdálenost s časem.
+
+01:52.600 --> 01:57.270
+Zderivujeme obě
+strany podle času.
+
+01:57.270 --> 02:02.060
+Děláme částečně
+implicitní derivaci.
+
+02:02.060 --> 02:05.470
+Čemu je rovna derivace
+x na druhou podle času?
+
+02:05.470 --> 02:09.342
+Derivací x na druhou
+podle času je 2x.
+
+02:09.342 --> 02:15.530
+A vynásobíme to
+derivací x podle ‚t‛, čili dx/dt.
+
+02:15.530 --> 02:17.730
+Toto je pravidlo
+pro derivování složené funkce.
+
+02:17.730 --> 02:25.830
+Toto je derivace (x na druhou)
+podle x, což je 2x, krát dx/dt.
+
+02:25.830 --> 02:28.690
+Tím dostaneme derivaci
+x na druhou podle času.
+
+02:28.690 --> 02:30.462
+Pravidlo pro derivaci
+složené funkce.
+
+02:30.462 --> 02:34.210
+Podobně, jaká je derivace
+h na druhou podle času?
+
+02:34.210 --> 02:36.500
+Bude to 2h,
+
+02:36.500 --> 02:43.550
+derivace (h na druhou) podle ‚h‛
+je 2h krát derivace h podle času.
+
+02:43.550 --> 02:52.200
+Toto je derivace (h na druhou)
+podle h krát derivace h podle času,
+
+02:52.200 --> 02:55.170
+což nám dá derivaci
+h na druhou podle času.
+
+02:55.170 --> 02:57.810
+A co dostaneme na pravé
+straně naší rovnice?
+
+02:57.810 --> 03:00.055
+Délka našeho žebříku se nemění.
+
+03:00.055 --> 03:02.300
+Tato hodnota 100
+se nemění s časem.
+
+03:02.300 --> 03:05.780
+Derivace konstanty je rovna 0.
+
+03:05.780 --> 03:08.000
+A nyní to máme.
+
+03:08.000 --> 03:12.790
+Vztah mezi rychlostí
+změny ‚h‛ a časem.
+
+03:12.830 --> 03:17.930
+A pak, v daném bodě,
+když délka ‚x‛ je x a ‚h‛ je h.
+
+03:17.930 --> 03:21.740
+Ale víme, jaké je ‚h‛,
+když ‚x‛ je rovno 8 stop?
+
+03:21.740 --> 03:23.360
+Dokážeme to vypočítat.
+
+03:23.360 --> 03:27.111
+Když je ‚x‛ rovno 8 stop, můžeme znovu
+použít Pythagorovu větu.
+
+03:27.111 --> 03:34.650
+Dostaneme, že 8 stop na druhou
+plus h na druhou bude rovno 100.
+
+03:34.650 --> 03:36.730
+8 na druhou je 64.
+
+03:36.730 --> 03:41.730
+Odečtením tohoto od obou stran dostanete,
+že h na druhou se rovná 36.
+
+03:41.730 --> 03:44.730
+Vezměte kladnou odmocninu,
+záporná odmocnina by nedávala smysl,
+
+03:44.730 --> 03:48.420
+protože potom by žebřík musel být
+pod zemí, někde pod povrchem.
+
+03:48.420 --> 03:51.220
+Dostaneme, že ‚h‛ se rovná 6.
+
+03:51.220 --> 03:54.710
+Toto je něco,
+co bylo v zadání.
+
+03:54.710 --> 03:58.800
+Nyní se podívejme na původní věc zde,
+víme, co je ‚x‛, a že bylo zadáno.
+
+03:58.800 --> 04:00.690
+Právě teď ‚x‛ je 8 stop.
+
+04:00.690 --> 04:04.690
+Známe rychlost změny ‚x‛ vzhledem k času,
+což jsou 4 stopy za sekundu.
+
+04:04.690 --> 04:08.090
+Víme, že ‚h‛ je právě teď 6.
+
+04:08.090 --> 04:12.150
+Můžeme tedy zjistit
+rychlost ‚h‛ vzhledem k času.
+
+04:12.150 --> 04:13.380
+Udělejme to.
+
+04:13.380 --> 04:27.480
+Dostaneme 2 krát 8 stop
+krát 4 stopy za sekundu,
+
+04:27.480 --> 04:33.645
+takže krát 4 plus 2h.
+
+04:33.645 --> 04:38.210
+To bude plus 2 krát naše
+výška právě teď, což je 6,
+
+04:38.210 --> 04:43.050
+krát rychlost, s jakou se mění
+naše výška s časem, je rovna 0.
+
+04:43.050 --> 04:53.350
+Takže dostaneme 2 krát 8 krát 4
+je 64 plus 12 dh/dt je rovno 0.
+
+04:53.350 --> 04:57.320
+Můžeme odečíst 64
+od obou stran a dostaneme 12.
+
+04:57.320 --> 05:02.800
+12 krát derivace h
+vzhledem k času je rovna −64.
+
+05:02.800 --> 05:05.520
+A pak musíme obě
+strany vydělit 12.
+
+05:05.520 --> 05:07.550
+Za chvilku budeme mít výsledek.
+
+05:07.550 --> 05:14.880
+Derivace rychlosti změny ‚h‛
+vzhledem k času je rovna −64 děleno 12.
+
+05:14.880 --> 05:22.740
+To je rovno −64 lomeno 12, což je
+stejné, jako −16 lomeno 3.
+
+05:22.740 --> 05:23.895
+Což je rovno...
+
+05:23.895 --> 05:25.510
+Přesunu se
+trochu více doprava.
+
+05:25.510 --> 05:30.740
+...−5 a 1/3 stopy za sekundu.
+
+05:30.740 --> 05:31.560
+Jsme hotovi.
+
+05:31.560 --> 05:35.660
+Dává smysl, že jsme
+dostali zápornou hodnotu?
+
+05:35.669 --> 05:38.970
+Naše výška je klesající.
+
+05:38.970 --> 05:46.620
+Takže dává úplný smysl,
+že naše rychlost změny je záporná.
+
+05:46.620 --> 05:48.440
+A jsme hotovi.

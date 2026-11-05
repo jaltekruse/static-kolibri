@@ -1,0 +1,326 @@
+WEBVTT
+
+00:00.606 --> 00:04.250
+Před námi je graf funkce
+y rovná se f(x).
+
+00:04.250 --> 00:10.146
+Graf je na tomto intervalu, který vypadá,
+že je od 0 do nějaké kladné hodnoty.
+
+00:10.156 --> 00:13.734
+Chtěl bych se teď podívat
+na body maxima a minima.
+
+00:13.734 --> 00:18.273
+Už jsme trochu mluvili o globálních
+maximech a minimech na intervalu,
+
+00:18.273 --> 00:19.721
+které jsou zde
+poměrně zřejmé.
+
+00:19.721 --> 00:23.430
+Největší hodnotu y máme zde,
+úplně na začátku našeho intervalu,
+
+00:23.430 --> 00:24.961
+což vypadá jako bod
+x rovno 0.
+
+00:24.961 --> 00:27.860
+Toto je globální
+maximum na našem intervalu.
+
+00:27.860 --> 00:32.243
+Globální minimum na tomto intervalu
+nastává na jeho druhém konci.
+
+00:32.243 --> 00:34.803
+Pokud si tento bod
+označíme ‚a‘ a tenhle ‚b‘,
+
+00:34.803 --> 00:41.654
+tak globální minimum je f(b)
+a globální maximum je f(a),
+
+00:41.654 --> 00:43.979
+přičemž to vypadá,
+že ‚a‘ se rovná 0.
+
+00:43.979 --> 00:45.289
+Nejspíše si ale říkáte:
+
+00:45.289 --> 00:49.805
+„Hej, jsou tady
+i další zajímavé body.“
+
+00:49.805 --> 00:52.945
+V tomto bodě sice hodnota
+není největší, nenabýváme...
+
+00:52.945 --> 00:58.420
+Hodnota v tomhle bodě
+rozhodně není největší hodnotou,
+
+00:58.420 --> 01:00.440
+kterou funkce na
+tomto intervalu nabývá,
+
+01:00.440 --> 01:04.328
+ale v porovnání s ostatními hodnotami
+okolo ní tvoří něco jako kopeček.
+
+01:04.328 --> 01:05.830
+Je větší než
+okolní hodnoty.
+
+01:05.830 --> 01:09.083
+Lokálně vypadá
+trochu jako maximum.
+
+01:09.083 --> 01:13.548
+Z toho důvodu tuhle
+hodnotu nazýváme…
+
+01:13.548 --> 01:14.439
+Tato hodnota...
+
+01:14.439 --> 01:17.759
+Řekněme, že
+zde je bod ‚c‘.
+
+01:17.759 --> 01:20.130
+Toto je ‚c‘,
+takže tady je f(c).
+
+01:20.130 --> 01:32.710
+f(c) nazýváme
+lokálním maximem.
+
+01:32.710 --> 01:37.290
+Říkáme lokální, protože je jasné,
+že funkce jinde nabývá větších hodnot,
+
+01:37.290 --> 01:43.268
+ale pro body x poblíž ‚c‘ platí, že f(c)
+je větší než hodnota v kterémkoliv z nich.
+
+01:43.268 --> 01:44.601
+Obdobně...
+
+01:44.601 --> 01:46.891
+Tohle slovo nikdy
+nedokážu pořádně vyslovit.
+
+01:46.891 --> 01:51.291
+...obdobně, pokud si tento
+bod označíme jako ‚d‘,
+
+01:51.291 --> 01:59.450
+tak f(d) vypadá jako
+lokální minimum.
+
+01:59.450 --> 02:05.570
+f(d) je lokální minimum neboli
+hodnota lokálního minima.
+
+02:05.570 --> 02:09.339
+Na celém intervalu opět rozhodně najdeme
+body, v nichž je funkční hodnota menší,
+
+02:09.339 --> 02:11.916
+známe dokonce globální
+minimum na tomto intervalu,
+
+02:11.916 --> 02:13.606
+které nastává
+v bodě x rovno ‚b‘.
+
+02:13.606 --> 02:19.728
+Toto je však lokální minimum,
+protože je menší než…
+
+02:19.728 --> 02:24.614
+Podíváme-li se na body x okolo ‚d‘,
+funkce má v těchto bodech větší hodnotu,
+
+02:24.614 --> 02:27.051
+než jaká je její
+hodnota v bodě ‚d‘.
+
+02:27.051 --> 02:27.974
+Zamysleme
+se tedy...
+
+02:27.974 --> 02:29.344
+Je sice hezké,
+když řeknu,
+
+02:29.344 --> 02:31.433
+že lokální maximum
+nastane v tom bodě,
+
+02:31.433 --> 02:36.303
+v němž je funkční hodnota větší
+než její hodnoty ve všech bodech okolo,
+
+02:36.303 --> 02:37.256
+a že minimum
+nastává,
+
+02:37.256 --> 02:42.186
+pokud je funkční hodnota v daném bodě
+menší než ve všech bodech okolo,
+
+02:42.186 --> 02:45.615
+ale jak to zapsat
+matematicky?
+
+02:45.615 --> 02:47.140
+Nyní vám
+napíšu definici,
+
+02:47.140 --> 02:50.310
+což je jen formální způsob,
+jak říct to, co jsme právě řekli.
+
+02:50.315 --> 03:11.557
+Řekneme, že f(c) je lokální maximum,
+pokud je f(c) větší nebo rovno než f(x),
+
+03:11.557 --> 03:17.780
+a to pro všechna x, která…
+
+03:17.780 --> 03:24.252
+Mohli bychom tak nějak obyčejně napsat:
+„Pro všechna x blízko ‚c‘.“
+
+03:24.252 --> 03:25.995
+Tak bychom to
+mohli zapsat.
+
+03:25.995 --> 03:29.788
+To ale není zrovna přesné, protože co to
+přesně znamená být blízko ‚c‘?
+
+03:29.788 --> 03:32.070
+Přesněji to
+vyjádříme takto:
+
+03:32.070 --> 03:42.180
+Pro všechna x z otevřeného intervalu
+(c minus h; c plus h),
+
+03:42.180 --> 03:47.325
+kde ‚h‘ je
+větší než nula.
+
+03:47.325 --> 03:48.315
+Dává to smysl?
+
+03:48.315 --> 03:49.375
+Podívejme
+se na to.
+
+03:49.390 --> 03:51.100
+Vytvořme si
+otevřený interval…
+
+03:51.100 --> 03:54.703
+Vypadá to, že pro
+všechny hodnoty x v…
+
+03:54.703 --> 03:56.375
+Stačí najít
+jeden otevřený interval.
+
+03:56.375 --> 03:59.021
+Může existovat mnoho otevřených
+intervalů, kde to platí.
+
+03:59.021 --> 04:02.347
+Když vytvoříme otevřený interval,
+který vypadá nějak takto…
+
+04:02.347 --> 04:08.100
+Tato hodnota je (c plus h)
+a tato hodnota je (c minus h).
+
+04:08.100 --> 04:13.720
+Vidíte, že na tomto intervalu
+je hodnota funkce v bodě ‚c‘, tedy f(c),
+
+04:13.720 --> 04:19.517
+určitě větší nebo rovna hodnotě funkce v
+jakémkoliv jiném bodě tohoto intervalu.
+
+04:19.517 --> 04:20.457
+Asi už víte...
+
+04:20.457 --> 04:23.316
+Zastavte si video
+a zkuste si napsat,
+
+04:23.316 --> 04:28.273
+jak by vypadala formální
+definice lokálního minima.
+
+04:28.273 --> 04:29.715
+Napsali bychom…
+
+04:29.715 --> 04:31.585
+Řekněme, že ‚d‘ je
+bod lokálního minima.
+
+04:31.585 --> 04:43.567
+Řekneme, že f(d) je lokální minimum,
+pokud je f(d) menší nebo rovno f(x),
+
+04:43.567 --> 04:51.794
+a to pro všechna x z otevřeného
+intervalu (d minus h; d plus h),
+
+04:51.794 --> 04:54.200
+kde ‚h‘ je
+větší než nula.
+
+04:54.200 --> 04:55.822
+Takový interval
+zde dokážeme najít.
+
+04:55.822 --> 04:59.240
+Řekněme, že tohle je (d plus h)
+a tohle (d minus h).
+
+04:59.240 --> 05:00.947
+Funkce na
+tomto intervalu,
+
+05:00.947 --> 05:04.854
+f(d), bude vždy menší nebo rovno než
+hodnota v libovolném jiném bodě,
+
+05:04.854 --> 05:08.003
+než hodnoty funkce f ve všech
+ostatních bodech x v tomto intervalu.
+
+05:08.010 --> 05:10.624
+Proto říkáme,
+že je to lokální minimum.
+
+05:10.624 --> 05:12.676
+V běžné řeči jde
+o lokální maximum tehdy,
+
+05:12.676 --> 05:20.090
+když funkce nabývá větší hodnotu v ‚c‘
+než v bodech x okolo ‚c',
+
+05:20.090 --> 05:21.917
+a o lokální minimum
+jde tehdy,
+
+05:21.917 --> 05:29.036
+když funkce nabývá menší hodnotu v ‚d‘
+než v bodech x okolo ‚d'.

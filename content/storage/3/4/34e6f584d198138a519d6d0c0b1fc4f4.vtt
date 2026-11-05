@@ -1,0 +1,223 @@
+WEBVTT
+
+00:00.320 --> 00:03.595
+Nechť ‚f‘ je funkce definovaná jako
+
+00:03.595 --> 00:10.440
+odmocnina z (x+4) minus 3 děleno
+(x minus 5) pro x různé od 5
+
+00:10.440 --> 00:13.080
+a f(x) pro x rovno 5 se rovná ‚c‘.
+
+00:13.080 --> 00:17.830
+Pokud je f(x) spojitá v ‚x‘ rovno 5,
+jaká je hodnota ‚c‘?
+
+00:17.830 --> 00:21.060
+Víme tedy že funkce má
+být spojitá pro ‚x‘ rovno 5,
+
+00:21.060 --> 00:30.390
+To znamená, že limita f(x) pro ‚x‘ jdoucí
+k 5 je rovna funkční hodnotě v 5.
+
+00:30.390 --> 00:33.000
+To je definice spojitosti.
+
+00:33.000 --> 00:38.917
+A my víme, že funkční hodnota v 5 je ‚c‘,
+takže ta limita se musí rovnat ‚c‘.
+
+00:38.917 --> 00:45.620
+Takže vlastně potřebujeme zjistit,
+jaká je limita f(x) pro ‚x‘ jdoucí k 5.
+
+00:45.620 --> 00:50.570
+Když zkusíme do
+výrazu dosadit za ‚x‘ 5,
+
+00:50.570 --> 00:58.580
+v čitateli bude 5 plus 4 je 9,
+odmocnina z 9 je 3 minus 3 je nula.
+
+00:58.580 --> 01:04.040
+Takže v čitateli bude 0 a ve jmenovateli
+máme 5 minus 5, což je taky 0.
+
+01:04.040 --> 01:07.500
+Takže dostaneme nedefinovaný
+zlomek: 0 dělená 0.
+
+01:07.500 --> 01:10.310
+Později uvidíme, že máme pravidlo,
+
+01:10.310 --> 01:15.430
+které nám dává možnost pokusit se najít
+limitu takového nedefinovaného výrazu,
+
+01:15.430 --> 01:17.210
+říká se mu L'Hospitalovo pravidlo.
+
+01:17.210 --> 01:20.950
+Ale teď to můžeme elegantně
+obejít pomocí algebry.
+
+01:20.950 --> 01:26.300
+Aby se nám to podařilo, pokusím
+se dostat tu odmocninu z čitatele.
+
+01:26.300 --> 01:36.090
+Takže máme odmocninu z (x plus 4)
+minus 3 děleno (x minus 5).
+
+01:36.090 --> 01:40.070
+Pokaždé, když uvidíte něco ve tvaru:
+odmocnina plus nebo minus něco jiného,
+
+01:40.070 --> 01:42.110
+abyste se zbavili té odmocniny,
+
+01:42.110 --> 01:48.840
+stačí to vynásobit tím stejným výrazem
+s odmocninou, jen s opačným znaménkem.
+
+01:48.840 --> 01:56.380
+V tomto případě vynásobíme zlomek
+odmocninou z (x plus 4) plus 3,
+
+01:56.380 --> 02:00.920
+děleno odmocninou z (x plus 4) plus 3.
+
+02:00.920 --> 02:04.640
+Samozřejmě musíme vynásobit
+čitatel i jmenovatel tím stejným,
+
+02:04.640 --> 02:08.729
+abychom nezměnili hodnotu výrazu.
+
+02:08.730 --> 02:12.170
+Jestliže tady bylo plus 3,
+tak tady bude minus 3.
+
+02:12.170 --> 02:16.040
+Tuhle techniku jsme už
+probrali v dřívějších videích.
+
+02:16.040 --> 02:20.300
+Obvykle jsme jí upravovali jmenovatel,
+ale samozřejmě to jde i s čitatelem.
+
+02:20.300 --> 02:27.380
+Velmi se podobá způsobu, kterým se
+zbavujeme komplexních čísel ve jmenovateli.
+
+02:27.380 --> 02:30.026
+Zkuste si to sami roznásobit.
+
+02:30.026 --> 02:34.210
+Všimněte si, že tenhle vzorec znáte,
+je to rozdíl čtverců.
+
+02:34.210 --> 02:37.500
+‚Něco‘ minus ‚něco‘ krát
+‚něco‘ plus ‚něco‘.
+
+02:37.500 --> 02:41.460
+Takže první člen bude
+to první ‚něco‘ na druhou.
+
+02:41.460 --> 02:46.160
+Odmocnina z (x plus 4)
+na druhou je x plus 4.
+
+02:46.160 --> 02:52.520
+A druhý člen bude to druhé ‚něco‘
+na druhou, ale musíme to odečíst.
+
+02:52.520 --> 02:55.940
+Takže dostaneme minus 3 na druhou.
+Takže minus 9.
+
+02:55.940 --> 03:07.840
+A ve jmenovateli bude (x minus 5) krát
+odmocnina z (x plus 4) plus 3.
+
+03:07.840 --> 03:15.270
+Takže čitatel se nám zjednodušil, dalo by
+se říct, zbavili jsme se odmocniny.
+
+03:15.270 --> 03:19.724
+Vlastně si jen hrajeme s algebraickými
+výrazy a zkoušíme se to upravit do tvaru,
+
+03:19.724 --> 03:23.850
+ve kterém už do toho zlomku můžeme
+dosadit 5 nebo určit limitu jinak.
+
+03:23.850 --> 03:30.520
+Když teď upravíme čitatel,
+dostaneme x minus 5
+
+03:30.520 --> 03:39.740
+děleno (x minus 5) krát
+odmocnina z (x plus 4) plus 3.
+
+03:39.740 --> 03:46.880
+A teď už to vidíme, čitatel i jmenovatel
+jsou dělitelní (x minus 5).
+
+03:46.880 --> 03:55.940
+Takže můžeme čitatel i jmenovatel vydělit
+(x minus 5), za předpokladu x různého od 5
+
+03:55.940 --> 04:04.130
+Takže se to rovná 1 děleno
+odmocnina z (x plus 4) plus 3.
+
+04:04.130 --> 04:10.230
+Pro ‚x‘ se nerovná 5.
+
+04:10.230 --> 04:16.480
+Což je v pořádku, protože funkce
+je takto definovaná pro ‚x‘ různé od 5.
+
+04:16.480 --> 04:26.537
+Takže tento výraz můžeme nahradit výrazem
+1 děleno odmocnina z (x plus 4) plus 3.
+
+04:26.537 --> 04:32.801
+Teď, když uděláme limitu pro ‚x‘ jdoucí
+k 5, budeme se pořád 5 přibližovat,
+
+04:32.801 --> 04:36.510
+ale nedostaneme se až do 5,
+můžeme použít tento výraz.
+
+04:36.510 --> 04:40.940
+Takže limita f(x) pro ‚x‘ jdoucí k 5
+bude to samé jako
+
+04:40.940 --> 04:49.690
+limita 1 děleno odmocninou z (x plus 4)
+plus 3 pro ‚x‘ jdoucí k 5.
+
+04:49.690 --> 04:52.220
+Teď už můžeme přímo dosadit 5.
+
+04:52.220 --> 05:01.050
+Bude se to rovnat 1 děleno odmocnina
+z (5 plus 4), to je 3, a 3 plus 3 je 6.
+
+05:01.050 --> 05:07.170
+Takže pokud se ‚c‘ rovná 1/6,
+
+05:07.170 --> 05:14.040
+pak se bude limita funkce pro ‚x‘ jdoucí
+do 5 rovnat funkční hodnotě v 5.
+
+05:14.040 --> 05:17.340
+Tedy funkce bude spojitá v ‚x‘ rovno 5.
+
+05:17.340 --> 05:19.331
+Funkční hodnota tam je 1/6.

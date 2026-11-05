@@ -1,0 +1,485 @@
+WEBVTT
+
+00:00.000 --> 00:02.390
+Ở video trước, chúng ta đã nhắc về
+
+00:02.390 --> 00:04.889
+định nghĩa epsilon-delta của giới hạn,
+
+00:04.889 --> 00:08.980
+Mình được biết nếu như giới hạn của f(x) khi x tiến tới C
+
+00:08.980 --> 00:13.020
+bằng L, thì theo định nghĩa, với mọi
+
+00:13.020 --> 00:16.760
+giá trị epsilon dương, nó sẽ cho mình biết
+
+00:16.760 --> 00:19.790
+f(x) gần với L như thế nào,
+
+00:19.790 --> 00:22.542
+sẽ luôn tồn tại một giá trị delta dương,
+
+00:22.542 --> 00:26.260
+và giá trị này sẽ cho ta biết khoảng cách từ c
+
+00:26.260 --> 00:30.050
+sao cho nếu x thuộc khoảng delta c
+
+00:30.050 --> 00:34.285
+thì f(x) sẽ thuộc khoảng epsilon của L.
+
+00:34.285 --> 00:37.960
+Vậy nếu mình tìm được một delta với mọi epsilon
+
+00:37.960 --> 00:40.780
+thì L chính là giới hạn
+
+00:40.780 --> 00:43.545
+của f(x) khi x tiến tới c.
+
+00:43.545 --> 00:45.090
+Và các bạn có thể nghĩ rằng
+
+00:45.090 --> 00:47.250
+định nghĩa này khá trừu tượng.
+
+00:47.250 --> 00:49.530
+Mà mình cần ứng dụng nó nữa.
+
+00:49.530 --> 00:52.140
+Và việc mình làm trong video này là
+
+00:52.140 --> 00:56.040
+chứng minh một giới hạn nào đó tồn tại.
+
+00:56.040 --> 00:59.400
+Ở đây thì mình có hàm số f(x)
+
+00:59.400 --> 01:05.860
+bằng 2x với mọi giá trị x khác 5.
+
+01:05.860 --> 01:09.340
+Còn khi x bằng 5, thì f(x) sẽ chỉ bằng x.
+
+01:09.340 --> 01:12.510
+Vậy nên mình có thể viết ở đây là 5
+
+01:12.510 --> 01:15.450
+Hàm số sẽ bằng 5 khi x bằng 5
+
+01:15.450 --> 01:18.340
+Mình đã vẽ đồ thị của f(x) ở đây.
+
+01:18.340 --> 01:21.740
+Ở gần như mọi giá trị của x, hàm số bằng 2x.
+
+01:21.740 --> 01:23.800
+Còn tại x bằng 5, điểm này
+
+01:23.800 --> 01:26.490
+không còn thuộc f(x) bằng 2x nữa,
+
+01:26.490 --> 01:28.610
+nó sẽ ở đây.
+
+01:28.610 --> 01:33.660
+Giờ mình sẽ tìm giới hạn của f(x)
+
+01:33.660 --> 01:35.799
+khi x tiến tới 5.
+
+01:35.799 --> 01:37.720
+Được rồi.
+
+01:37.756 --> 01:41.930
+Khi x tiến tới 5,
+
+01:41.930 --> 01:44.740
+f(x) sẽ tiến tới 10
+
+01:44.740 --> 01:50.090
+Bạn thấy nó sẽ tiến dần về 10 ở đây.
+
+01:50.090 --> 01:53.380
+Và bạn có thể dự đoán rằng
+
+01:53.380 --> 01:58.250
+giới hạn của f(x) khi x tiến tới 5
+
+01:58.250 --> 01:59.640
+sẽ bằng 10
+
+01:59.640 --> 02:01.140
+Nó có vẻ là như vậy.
+
+02:01.140 --> 02:03.600
+Nhưng bây giờ thì chúng ta sẽ sử dụng
+
+02:03.600 --> 02:08.670
+định nghĩa epsilon-delta để chứng minh cái này.
+
+02:08.670 --> 02:13.330
+Mình sẽ cần xác định delta theo epsilon.
+
+02:13.330 --> 02:15.780
+Và với một giá trị epsilon bất kỳ,
+
+02:15.780 --> 02:20.260
+mình tìm được một giá trị delta tương ứng.
+
+02:20.260 --> 02:22.110
+Hay bạn cũng có thể hiểu
+
+02:22.110 --> 02:25.290
+là mình sẽ cần xác định delta
+
+02:25.290 --> 02:27.720
+dưới dạng một hàm số của epsilon.
+
+02:27.720 --> 02:29.810
+Vậy nên chúng ta có thể viết
+
+02:29.810 --> 02:34.760
+delta sẽ bằng với hàm số của epsilon,
+
+02:34.760 --> 02:37.770
+và hàm số này xác định với mọi epsilon dương.
+
+02:37.770 --> 02:39.960
+Nếu có một giá trị epsilon nào đó
+
+02:39.960 --> 02:42.100
+và thế giá trị đó vào hàm số,
+
+02:42.100 --> 02:44.410
+mình sẽ được một delta tương ứng.
+
+02:44.410 --> 02:46.790
+Và nếu mình làm điều tương tự
+
+02:46.790 --> 02:50.720
+với mọi giá trị của epsilon tương ứng với một delta,
+
+02:50.720 --> 02:54.760
+và x thuộc delta c, thì giá trị f(x) tương ứng
+
+02:54.760 --> 02:56.700
+sẽ thuộc epsilon L,
+
+02:56.700 --> 02:59.650
+thì giới hạn của chúng ta sẽ tồn tại.
+
+02:59.650 --> 03:05.490
+Bây giờ mình sẽ xét phần thuộc khoảng delta c trước.
+
+03:05.490 --> 03:08.750
+Ở đây sẽ là 5 cộng delta
+
+03:08.750 --> 03:10.992
+còn đây sẽ là 5 trừ delta.
+
+03:10.992 --> 03:12.980
+Và đó sẽ là khoảng của ta.
+
+03:12.980 --> 03:15.170
+Bây giờ mình sẽ suy nghĩ làm sao
+
+03:15.170 --> 03:16.753
+để có thể lập ra
+
+03:16.753 --> 03:19.360
+một công thức tính delta theo epsilon.
+
+03:19.360 --> 03:21.530
+Vậy làm sao để chúng ta có thể
+
+03:21.530 --> 03:23.826
+biểu diễn các giá trị thuộc khoảng này
+
+03:23.826 --> 03:25.460
+nhưng khác 5.
+
+03:25.460 --> 03:27.990
+Mình đang quan tâm tới những thứ
+
+03:27.990 --> 03:30.964
+thuộc khoảng delta của 5,
+chứ không phải là 5.
+
+03:30.964 --> 03:33.284
+Nó chắc chắn phải nhỏ hơn.
+
+03:33.284 --> 03:36.766
+Thuộc khoảng của c nhưng không bằng c.
+
+03:36.766 --> 03:45.116
+Vậy nó sẽ là tất cả các x
+thoả mãn x trừ 5 nhỏ hơn delta.
+
+03:45.116 --> 03:48.366
+Nó sẽ biểu diễn tất cả x ở đây.
+
+03:49.276 --> 03:52.116
+Giờ chúng ta sẽ thử biển đổi
+
+03:52.116 --> 03:57.100
+biểu thức bên trái của bất đẳng thức này
+
+03:57.100 --> 03:59.180
+sao cho nó giống với
+
+03:59.180 --> 04:01.350
+biểu thức này ở đây.
+
+04:01.350 --> 04:03.570
+Còn biểu thức ở bên phải thì
+
+04:03.570 --> 04:06.560
+sẽ được biến đổi thành một hàm số của delta.
+
+04:06.560 --> 04:08.730
+Sau đó ta có thể nói là
+
+04:08.730 --> 04:10.341
+nếu biểu thức bên phải
+
+04:10.341 --> 04:12.590
+là hàm số delta của epsilon,
+
+04:12.590 --> 04:15.110
+còn biểu thức bên trái lại như thế này,
+
+04:15.110 --> 04:17.540
+thì mình có thể sẽ xác định được
+
+04:17.540 --> 04:19.341
+delta theo epsilon.
+
+04:19.341 --> 04:21.690
+Mình sẽ bắt đầu làm nhé.
+
+04:21.690 --> 04:26.930
+Nếu mình đưa x trừ 5 về dạng f(x) trừ L,
+
+04:26.930 --> 04:30.780
+với x khác 5,
+
+04:30.780 --> 04:34.830
+thì f(x) sẽ bằng với 2x.
+
+04:34.830 --> 04:37.280
+Và giới hạn giả định sẽ bằng 10.
+
+04:37.280 --> 04:39.700
+Vậy giờ mình chỉ cần đưa biểu thức này
+
+04:39.700 --> 04:41.515
+về dạng 2x trừ 10.
+
+04:41.515 --> 04:43.670
+Cách dễ nhất để làm điều này
+
+04:43.670 --> 04:48.230
+là mình sẽ nhân 2 vế của bất đẳng thức cho 2.
+
+04:49.130 --> 04:51.700
+Mà 2 nhân với giá trị tuyệt đối của một số
+
+04:51.700 --> 04:54.500
+cũng bằng giá trị tuyệt đối của 2
+
+04:54.500 --> 04:56.300
+nhân với chính số đó.
+
+04:56.300 --> 04:59.300
+Nếu mình nhân 2 cho giá trị tuyệt đối a
+
+04:59.300 --> 05:02.460
+nó sẽ bằng giá trị tuyệt đối của 2a.
+
+05:02.460 --> 05:04.800
+Vậy ở vế bên trái, mình sẽ được
+
+05:04.800 --> 05:08.930
+giá trị tuyệt đối của 2x trừ 10
+
+05:08.930 --> 05:11.180
+và nó sẽ nhỏ hơn biểu thức bên phải
+
+05:11.180 --> 05:14.010
+tức là nhỏ hơn 2 delta.
+
+05:14.010 --> 05:16.140
+Vậy ở vế bên trái mình có gì?
+
+05:16.140 --> 05:19.740
+Đây là f(x) khi x khác 5,
+
+05:19.740 --> 05:21.250
+còn đây là giới hạn.
+
+05:21.250 --> 05:28.570
+Vậy mình sẽ viết lại là f(x) trừ L nhỏ hơn 2 delta
+
+05:28.570 --> 05:34.210
+với mọi giá trị thực của x khác 5.
+
+05:34.210 --> 05:37.850
+Đây là f(x) và là giới hạn của mình luôn.
+
+05:37.850 --> 05:39.540
+Thật thú vị nhỉ?
+
+05:39.540 --> 05:41.690
+Mệnh đề này gần như giống với
+
+05:41.690 --> 05:43.650
+cái mình có ở đây,
+
+05:43.650 --> 05:46.490
+trừ việc vế phải chúng hơi khác nhau.
+
+05:46.490 --> 05:49.730
+Cái này tính theo epsilon,
+còn cái này tính theo delta
+
+05:49.730 --> 05:53.410
+Vậy làm sao mình có thể xác định delta
+
+05:53.410 --> 06:00.424
+sao cho 2 delta bằng epsilon?
+
+06:01.104 --> 06:03.485
+Giờ mình sẽ xác định delta
+
+06:03.485 --> 06:07.420
+theo hàm số của epsilon.
+
+06:07.420 --> 06:10.600
+Mình sẽ biến đổi 2 delta bằng epsilon.
+
+06:10.600 --> 06:12.490
+Hoặc chia 2 cho 2 vế,
+
+06:12.490 --> 06:20.415
+mình sẽ được delta bằng epsilon trên 2.
+
+06:20.415 --> 06:24.840
+--để mình đổi màu khác.
+
+06:24.840 --> 06:32.132
+Nếu mình có delta bằng epsilon trên 2,
+
+06:32.132 --> 06:34.090
+thì mệnh đề ở đây sẽ
+
+06:34.090 --> 06:37.530
+thành giá trị tuyệt đối của f(x) trừ L,
+
+06:37.530 --> 06:40.150
+thay vì nhỏ hơn 2 delta thì
+
+06:40.150 --> 06:41.860
+nó sẽ nhỏ hơn 2 nhân
+
+06:41.860 --> 06:43.320
+epsilon trên 2.
+
+06:43.320 --> 06:45.290
+Nghĩa là nhỏ hơn epsilon.
+
+06:46.520 --> 06:50.540
+Cái chính ở đây là
+nếu bạn có một số epsilon dương bất kì
+
+06:50.540 --> 06:55.420
+miễn là delta của mình bằng epsilon trên 2
+
+06:55.420 --> 06:59.060
+với mọi x thuộc khoảng này,
+
+06:59.060 --> 07:01.610
+thì giá trị f(x) trừ L tương ứng
+
+07:01.610 --> 07:06.745
+sẽ thuộc khoảng epsilon của giới hạn của ta.
+
+07:06.745 --> 07:09.700
+Và nó sẽ phải đúng với mọi epsilon dương.
+
+07:09.700 --> 07:12.020
+Chắc bạn hiểu cách nó hoạt động rồi.
+
+07:12.020 --> 07:15.360
+Nếu bạn có một giá trị epsilon
+
+07:15.360 --> 07:18.270
+ví dụ như nó thuộc khoảng 0,5 của giới hạn
+
+07:18.270 --> 07:21.200
+thì epsilon sẽ là 0,5
+
+07:21.200 --> 07:23.550
+Vậy khoảng của nó sẽ là từ
+
+07:23.550 --> 07:26.160
+10 cộng epsilon, tức là bằng 10,5
+
+07:26.160 --> 07:29.340
+tới 10 trừ epsilon, là bằng 9,5
+
+07:29.340 --> 07:31.270
+Mà chúng ta đã có công thức
+
+07:31.270 --> 07:34.170
+delta bằng với epsilon trên 2,
+
+07:34.170 --> 07:37.380
+nó sẽ là 0,25
+
+07:37.380 --> 07:44.990
+Vậy nên x sẽ thuộc khoảng từ 4,75 đến 5,25
+
+07:44.990 --> 07:50.350
+Và chỉ cần x thuộc khoảng từ 4,75 đến 5,25
+
+07:50.350 --> 07:53.510
+không tính 5, thì f(x) tương ứng của mình
+
+07:53.510 --> 07:57.090
+sẽ nằm giữa 9,5 và 10,5
+
+07:57.090 --> 07:59.120
+Vậy là, với mọi giá trị epsilon,
+
+07:59.120 --> 08:02.137
+mình chỉ cần áp dụng công thức này
+
+08:02.137 --> 08:03.700
+để tìm ra delta,
+
+08:03.700 --> 08:06.750
+miễn là epsilon là một số thực dương.
+
+08:06.750 --> 08:09.350
+Vậy là với mọi giá trị epsilon thực dương,
+
+08:09.350 --> 08:15.410
+mình sẽ được giá trị delta tính bằng công thức này.
+
+08:15.410 --> 08:19.170
+Vì giá trị tuyệt đối của x trừ 5 nhỏ hơn delta,
+
+08:19.170 --> 08:21.990
+với delta được xác định theo công thức này.
+
+08:21.990 --> 08:24.170
+Với mọi giá trị epsilon thực dương,
+
+08:24.170 --> 08:26.130
+chúng ta sẽ luôn có được
+
+08:26.130 --> 08:29.730
+f(x) thuộc khoảng epsilon của giới hạn.

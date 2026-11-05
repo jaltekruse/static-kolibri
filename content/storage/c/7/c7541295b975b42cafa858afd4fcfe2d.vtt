@@ -1,0 +1,423 @@
+WEBVTT
+
+00:00.000 --> 00:04.445
+V tomto videu si povíme
+něco o různých typech nespojitosti,
+
+00:04.447 --> 00:08.419
+které jste nejspíše už
+viděli během algebry nebo jinde,
+
+00:08.419 --> 00:14.606
+řekneme si, jak souvisí s našimi znalostmi
+jednostranných a oboustranných limit.
+
+00:14.606 --> 00:18.517
+Nejprve se podívejme,
+jaké nespojitosti rozlišujeme.
+
+00:18.517 --> 00:21.534
+Tady vlevo
+můžete vidět,
+
+00:21.534 --> 00:25.422
+že tato křivka vypadá jako graf
+y rovná se x na druhou,
+
+00:25.422 --> 00:28.189
+dokud se nedostaneme
+do bodu x rovno 3,
+
+00:28.189 --> 00:33.003
+v němž máme místo hodnoty
+3 na druhou tuto díru
+
+00:33.003 --> 00:35.703
+a funkční hodnota v
+bodě 3 je místo toho 4,
+
+00:35.703 --> 00:39.423
+ale pak pokračuje dál jako
+y rovná se x na druhou.
+
+00:39.423 --> 00:47.513
+Tomuto říkáme odstranitelná
+nespojitost, a to ze zjevných důvodů,
+
+00:47.513 --> 00:49.797
+protože když v tomto bodě
+dochází k nespojitosti,
+
+00:49.797 --> 00:54.533
+snadno si dokážete představit, jak funkci
+v bodě dodefinovat tak, aby byla spojitá,
+
+00:54.533 --> 00:57.585
+takže tato nespojitost
+je odstranitelná.
+
+00:57.585 --> 01:01.698
+Ale jak to souvisí s
+naší definicí spojitosti?
+
+01:01.698 --> 01:05.012
+Připomeňme si
+naši definici spojitosti:
+
+01:05.012 --> 01:11.642
+řekneme, že f je spojitá,
+právě tehdy, když…
+
+01:11.642 --> 01:16.343
+Ještě bychom měli napsat,
+že jde o spojitost v bodě x rovno ‚c‘.
+
+01:16.343 --> 01:27.808
+Právě tehdy, když je limita f pro x jdoucí
+k ‚c‘ rovna funkční hodnotě v bodě ‚c‘.
+
+01:27.808 --> 01:30.504
+Proč tomu
+tohle nevyhovuje?
+
+01:30.504 --> 01:33.239
+Oboustranná
+limita existuje.
+
+01:33.239 --> 01:36.942
+Pokud řekneme, že ‚c‘ je
+v tomhle případě rovno 3,
+
+01:36.942 --> 01:43.197
+tak je limita pro x
+blížící se ke 3 z funkce f(x)…
+
+01:43.197 --> 01:46.256
+Vypadá to, když se
+podíváme na graf,
+
+01:46.256 --> 01:51.195
+a já ve skutečnosti vím, že jde o graf y
+rovná se x na druhou, až na nespojitost,
+
+01:51.195 --> 01:53.856
+že tato limita je rovna 9.
+
+01:53.856 --> 01:57.282
+Ale problémem je,
+že tak jak je graf nakreslený,
+
+01:57.282 --> 01:59.999
+nejde o totéž číslo
+jako funkční hodnota.
+
+01:59.999 --> 02:02.870
+Funkční hodnota f(3)…
+
+02:02.870 --> 02:07.635
+Tak jak je funkce
+znázorněna se f(3) rovná 4.
+
+02:07.635 --> 02:11.077
+Takže jsme v situaci, kdy
+oboustranná limita existuje,
+
+02:11.077 --> 02:14.034
+ale nerovná se
+funkční hodnotě.
+
+02:14.034 --> 02:17.974
+V jiných příkladech se vám může stát,
+že funkce zde ani nebude definovaná.
+
+02:17.974 --> 02:19.901
+Takže tohle
+by zde nebylo.
+
+02:19.901 --> 02:24.209
+V tom případě by limita opět existovala,
+ale funkce by zde nebyla definovaná,
+
+02:24.209 --> 02:29.943
+takže ani v jednom případě
+nesplníme tuto podmínku spojitosti.
+
+02:29.943 --> 02:31.183
+A to je důvodem,
+
+02:31.183 --> 02:40.260
+proč odstranitelná nespojitost v bodě
+není spojitá podle naší definice.
+
+02:40.260 --> 02:42.971
+Nyní se podívejme
+na druhý příklad.
+
+02:42.971 --> 02:45.924
+Když zkusím spojitost
+posoudit intuitivně tak,
+
+02:45.924 --> 02:48.289
+že kreslím graf
+tužkou na papíře,
+
+02:48.289 --> 02:52.161
+vidíme, že jak se dostanu
+do bodu x rovno 2,
+
+02:52.161 --> 02:54.859
+musím zvednout tužku
+a až pak dál kreslit.
+
+02:54.859 --> 02:57.942
+Takže to nám napovídá,
+že zde dochází k nespojitosti.
+
+02:57.942 --> 03:01.552
+Vidíme, že i kdybych
+tady kreslil tužkou,
+
+03:01.552 --> 03:05.748
+tak musím zvednout tužku,
+abych mohl skočit k bodu dole,
+
+03:05.748 --> 03:07.701
+a pak bych pokračoval
+v kreslení nahoře.
+
+03:07.701 --> 03:09.706
+V obou případech bych
+zvedl tužku z papíru.
+
+03:09.706 --> 03:12.202
+Intuitivně je zde
+tedy nespojitost.
+
+03:12.202 --> 03:14.614
+Tomuto konkrétnímu
+typu nespojitosti,
+
+03:14.614 --> 03:19.364
+kdy z jednoho bodu skáču na
+druhý, abych mohl pokračovat dál,
+
+03:19.364 --> 03:27.489
+říkáme nespojitost
+1. druhu.
+
+03:27.489 --> 03:31.000
+A tohle je
+odstranitelná nespojitost.
+
+03:31.000 --> 03:33.440
+Jak to souvisí
+s limitami?
+
+03:33.440 --> 03:37.509
+V tomto případě limity
+zleva a zprava existují,
+
+03:37.509 --> 03:41.738
+ale nerovnají se sobě, takže
+oboustranná limita neexistuje.
+
+03:41.738 --> 03:44.346
+V tomto konkrétním
+případě platí,
+
+03:44.346 --> 03:50.652
+že pro všechna x až do 2 včetně
+jde o graf funkce y rovná se x na druhou
+
+03:50.652 --> 03:54.959
+a pro x větší než 2
+jde o graf odmocniny z x.
+
+03:54.959 --> 04:10.869
+Za těchto okolností se limita z f(x)
+pro x blížící se ke 2 zleva rovná 4.
+
+04:10.869 --> 04:14.347
+Blížíme se k této hodnotě,
+což je dokonce i funkční hodnota.
+
+04:14.347 --> 04:20.705
+Ale když budeme hledat limitu z f(x)
+pro x blížící se ke 2 zprava,
+
+04:20.705 --> 04:22.515
+čemu se bude rovnat?
+
+04:22.515 --> 04:25.354
+Blížíme se zprava, tohle
+je graf odmocniny z x,
+
+04:25.354 --> 04:27.385
+tedy se blížíme
+k odmocnině ze 2.
+
+04:27.385 --> 04:30.604
+Samozřejmě jen z pohledu na
+graf nepoznáte, že jde o odmocninu ze 2.
+
+04:30.604 --> 04:35.886
+Já to vím jen proto, že když jsem vytvářel
+tento obrázek, použil jsem tuto funkci.
+
+04:35.886 --> 04:37.586
+Ale už jen od
+pohledu je jasné,
+
+04:37.586 --> 04:42.534
+že když se blížíme zprava a zleva,
+jdeme vždy k jiné hodnotě.
+
+04:42.534 --> 04:46.290
+A tak i když jednostranné limity
+existují, nerovnají se tomu samému,
+
+04:46.290 --> 04:48.010
+takže oboustranná
+limita neexistuje.
+
+04:48.010 --> 04:52.338
+A když oboustranná limita neexistuje,
+tak se určitě nerovná funkční hodnotě,
+
+04:52.338 --> 04:54.354
+i když je zde funkce
+definovaná.
+
+04:54.354 --> 04:58.405
+Proto nespojitost 1. druhu
+nesplňuje tuto podmínku.
+
+04:58.405 --> 04:59.829
+Je to opět
+intuitivní.
+
+04:59.829 --> 05:01.366
+Vidíme, že musím
+udělat skok,
+
+05:01.366 --> 05:05.808
+musím zvednout tužku, protože
+tyto body nejsou propojené.
+
+05:05.808 --> 05:13.434
+A nakonec tady máme to,
+čemu se často říká nespojitost 2. druhu.
+
+05:13.434 --> 05:23.721
+Nespojitost 2. druhu.
+
+05:23.721 --> 05:26.706
+Intuitivně vidíme, že
+zde máme asymptotu,
+
+05:26.706 --> 05:30.179
+jde o svislou asymptotu
+procházející bodem x rovno 2.
+
+05:30.179 --> 05:36.605
+Kdybych zkoušel tužkou kreslit graf,
+zleva bych takto šel dál a dál,
+
+05:36.605 --> 05:43.134
+vlastně bych to dělal věčně,
+hodnoty by neomezeně klesaly,
+
+05:43.134 --> 05:46.142
+jak bych se zleva čím dál tím
+víc blížil k bodu x rovno 2.
+
+05:46.142 --> 05:50.942
+Kdybych se k bodu x rovno 2 blížil
+zprava, tak bych šel neomezeně nahoru.
+
+05:50.942 --> 05:52.757
+Ale i kdybych mohl…
+
+05:52.757 --> 05:54.967
+Když říkám neomezeně,
+tak to jde do nekonečna,
+
+05:54.967 --> 05:56.607
+takže je ve
+skutečnosti nemožné,
+
+05:56.607 --> 06:02.340
+aby běžný smrtelník za svůj
+život nakreslil celý graf.
+
+06:02.340 --> 06:03.391
+Ale víte,
+co myslím.
+
+06:03.391 --> 06:08.626
+Určitě se odsud sem nedostanu bez toho,
+aniž bych zvedl tužku z papíru.
+
+06:08.626 --> 06:12.245
+Pokud toto chceme spojit s
+našimi znalostmi limit,
+
+06:12.245 --> 06:16.680
+tak obě jednostranné
+limity jsou nevlastní,
+
+06:16.680 --> 06:18.229
+takže řekneme,
+že neexistují,
+
+06:18.229 --> 06:21.345
+a tudíž nemůžeme
+splnit tuto podmínku.
+
+06:21.345 --> 06:28.071
+Takže limita f(x) pro
+x blížící se ke 2 zleva,
+
+06:28.071 --> 06:30.987
+vidíme, že jdeme neomezeně
+záporným směrem,
+
+06:30.987 --> 06:34.371
+takže občas uvidíte někoho napsat
+něco jako toto: záporné nekonečno.
+
+06:34.371 --> 06:36.715
+Toto je ale
+spíše intuitivní zápis,
+
+06:36.715 --> 06:42.420
+matematicky přesnější je říci,
+že limita je nevlastní.
+
+06:42.420 --> 06:49.600
+Rovněž limita f(x) pro x blížící se
+ke 2 zprava jde neomezeně dál a dál,
+
+06:49.600 --> 06:52.725
+tentokrát ke kladnému
+nekonečnu.
+
+06:52.725 --> 06:57.572
+Tato limita je
+tedy opět nevlastní.
+
+06:57.572 --> 07:01.361
+Protože je nevlastní,
+tak tato limita neexistuje
+
+07:01.361 --> 07:04.703
+a nemůže tak splnit tuto podmínku,
+tudíž dochází k nespojitosti.
+
+07:04.703 --> 07:09.777
+Takže tohle je odstranitelná nespojitost,
+nespojitost 1. druhu, když takhle skáču,
+
+07:09.777 --> 07:15.045
+a když máme takovouto svislou asymptotu,
+tak je to nespojitost 2. druhu.

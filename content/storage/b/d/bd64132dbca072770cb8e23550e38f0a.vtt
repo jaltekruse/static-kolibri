@@ -1,0 +1,611 @@
+WEBVTT
+
+00:00.000 --> 00:04.190
+É tarde e um predador noturno,
+
+00:04.190 --> 00:08.370
+talvez uma coruja,
+está caçando seu jantar.
+
+00:08.370 --> 00:13.500
+Isto aqui é um rato.
+
+00:13.500 --> 00:18.360
+E está voando diretamente
+para perto de um poste de luz.
+
+00:18.360 --> 00:20.720
+Vamos entender o que está acontecendo.
+
+00:20.720 --> 00:25.610
+Este poste de luz tem 20 pés de altura.
+
+00:25.610 --> 00:31.140
+Isto é um poste de luz
+de 20 pés de altura.
+
+00:31.140 --> 00:33.710
+Neste exato momento -
+
+00:33.710 --> 00:35.360
+não desenhei
+na escala correta-
+
+00:35.360 --> 00:39.200
+a coruja está a 15 pés acima do rato.
+
+00:39.200 --> 00:44.540
+Esta distância é 15 pés.
+
+00:44.540 --> 00:48.530
+E o rato está a 10 pés
+da base do poste de luz.
+
+00:48.530 --> 00:49.640
+Deixe-me desenhar isso.
+
+00:49.640 --> 00:56.780
+O rato está a 10 pés
+da base do poste de luz.
+
+00:56.780 --> 01:05.080
+Também sabemos que a coruja
+está voando diretamente para baixo.
+
+01:05.090 --> 01:09.090
+Neste momento, está voando
+a 20 pés por segundo.
+
+01:09.090 --> 01:17.290
+Isto está indo para baixo
+a 20 pés por segundo.
+
+01:17.290 --> 01:20.210
+Estamos curiosos sobre este poste de luz.
+
+01:20.210 --> 01:23.490
+Luz está vindo do poste
+em todas as direções
+
+01:23.490 --> 01:26.080
+e cria uma sombra da coruja.
+
+01:26.080 --> 01:28.130
+Agora a sombra está aqui.
+
+01:28.130 --> 01:30.440
+À medida que a coruja desce,
+
+01:30.440 --> 01:35.510
+a sombra se move para a esquerda.
+
+01:35.510 --> 01:38.040
+Dado tudo o que montamos aqui,
+
+01:38.040 --> 01:43.960
+qual é a taxa do movimento da sombra?
+
+01:43.960 --> 01:46.770
+Vamos pensar sobre o que sabemos,
+e sobre o que não sabemos.
+
+01:46.770 --> 01:49.620
+Para fazer isso,
+definiremos algumas variáveis.
+
+01:49.620 --> 01:52.910
+Deixe-me desenhar a mesma coisa
+de uma forma mais correta.
+
+01:52.910 --> 01:58.130
+Digamos que isto aqui é o poste de luz.
+
+01:58.130 --> 02:00.350
+Isso tem 20 pés de altura.
+
+02:00.350 --> 02:06.770
+E isto aqui é a altura da coruja
+
+02:06.770 --> 02:09.780
+neste exato momento: 15 pés.
+
+02:09.780 --> 02:11.520
+A distância entre a base do poste
+
+02:11.520 --> 02:14.650
+e onde a coruja está indo
+é onde o rato está.
+
+02:14.650 --> 02:16.760
+Isto é 10 pés.
+
+02:16.760 --> 02:18.910
+E se eu fosse pensar
+na localização da sombra;
+
+02:18.910 --> 02:22.970
+a luz está vindo daqui,
+
+02:22.970 --> 02:25.790
+então a coruja bloqueia a luz aqui.
+
+02:25.790 --> 02:27.880
+A sombra estará aqui.
+
+02:27.880 --> 02:31.330
+Se você desenhar uma linha reta
+partindo da fonte de luz,
+
+02:31.330 --> 02:35.089
+atravessando a coruja,
+e continuar até o chão,
+
+02:35.089 --> 02:36.596
+descobrirá onde a sombra está.
+
+02:36.596 --> 02:46.100
+A sombra estará aqui.
+
+02:46.110 --> 02:49.140
+E precisamos calcular
+o quão rápido está se movendo.
+
+02:49.140 --> 02:54.190
+Estará se movendo para a esquerda.
+
+02:54.190 --> 02:57.110
+Vamos definir algumas variáveis.
+
+02:57.110 --> 02:59.090
+O que está mudando?
+
+02:59.090 --> 03:01.410
+Sabemos que a altura
+da coruja está mudando.
+
+03:01.410 --> 03:03.000
+Vamos chamá-la de y.
+
+03:03.000 --> 03:05.220
+Neste momento, y é igual a 15,
+
+03:05.220 --> 03:07.290
+mas está mudando.
+
+03:07.290 --> 03:14.605
+E vamos chamar a distância entre a sombra
+
+03:14.605 --> 03:19.790
+e o rato de x.
+
+03:19.790 --> 03:24.180
+Dado essas variáveis,
+podemos relacionar x e y?
+
+03:24.185 --> 03:27.780
+Usando essa relação,
+o que queremos encontrar é:
+
+03:27.780 --> 03:31.770
+qual é a taxa com a qual x muda
+em relação ao tempo?
+
+03:31.780 --> 03:33.880
+Sabemos o valor de y neste instante.
+
+03:33.880 --> 03:37.800
+Sabemos o valor de dy
+sobre dt neste instante.
+
+03:37.800 --> 03:39.790
+Será que conseguimos relacionar x e y
+
+03:39.790 --> 03:42.010
+e calcular a derivada em relação a t,
+
+03:42.010 --> 03:44.970
+para calcular o valor de dx sobre dt
+
+03:44.970 --> 03:48.990
+em qualquer instante?
+
+03:48.990 --> 03:52.504
+Bem, se ambos triângulos --
+e quando me refiro aos dois tritângulos,
+
+03:52.510 --> 03:54.890
+deixe-me ser bem claro
+sobre o que estou falando.--
+
+03:54.890 --> 03:58.590
+O triângulo menor verde
+
+03:58.590 --> 04:04.590
+é semelhante ao triângulo maior,
+
+04:04.590 --> 04:06.640
+que estou traçando em azul.
+
+04:06.640 --> 04:08.770
+É semelhante a este maior.
+
+04:08.770 --> 04:10.250
+Como sei disso?
+
+04:10.250 --> 04:13.430
+Os dois têm um ângulo reto.
+
+04:13.430 --> 04:15.190
+Ambos tem esse ângulo.
+
+04:15.190 --> 04:17.110
+Eles têm dois ângulos em comum,
+
+04:17.110 --> 04:22.280
+então todos os ângulos devem ser iguais.
+
+04:22.280 --> 04:23.780
+Por isso são semelhantes,
+
+04:23.780 --> 04:28.400
+e, portanto, a razão entre os lados
+correspondentes deve ser igual.
+
+04:28.410 --> 04:33.790
+Sabemos que a razão entre x e y
+
+04:33.790 --> 04:38.370
+deve ser a razão de toda
+esta base, que é x mais 10,
+
+04:38.370 --> 04:42.860
+e a altura do triângulo maior, que é 20.
+
+04:42.860 --> 04:45.280
+Temos uma relação entre x e y.
+
+04:45.280 --> 04:48.150
+Se calcularmos a derivada
+de ambos lados em relação a t,
+
+04:48.150 --> 04:50.875
+provavelmente estamos indo bem.
+
+04:50.875 --> 04:52.220
+Antes de calcular a derivada
+
+04:52.220 --> 04:54.660
+em relação a t,
+- posso fazer isso aqui -
+
+04:54.660 --> 04:56.400
+para simplificar isso um pouco,
+
+04:56.400 --> 04:57.780
+deixe-me multiplicar me cruz.
+
+04:57.780 --> 05:02.020
+Deixe-me multiplicar ambos os lado
+da equação por 20 e por y,
+
+05:02.020 --> 05:05.590
+para eliminar algumas coisas
+do denominador.
+
+05:05.600 --> 05:08.700
+O lado esquerdo fica 20 x.
+
+05:08.700 --> 05:11.570
+Não quero escrever em cima disso.
+Escreverei 20 x.
+
+05:11.570 --> 05:15.580
+E o lado esquerdo é 20 x.
+
+05:15.580 --> 05:17.200
+E do lado direito -
+
+05:17.200 --> 05:26.254
+temos xy mais 10 y.
+
+05:26.254 --> 05:27.670
+Deixe-me calcular a derivada
+
+05:27.670 --> 05:30.990
+de ambos os lados em relação ao tempo.
+
+05:30.990 --> 05:34.734
+A derivada de 20 vezes alguma coisa
+em relação ao tempo
+
+05:34.734 --> 05:36.820
+será a derivada de 20 vezes algumas coisa
+
+05:36.820 --> 05:38.852
+em relação a alguma coisa,
+que é apenas 20.
+
+05:38.852 --> 05:41.080
+Isso é a derivada de 20x em relação a x,
+
+05:41.080 --> 05:45.853
+vezes dx ou a derivada de x
+em relação a t.
+
+05:45.853 --> 05:49.476
+Aqui teremos que quebrar um pouco
+a regra do produto.
+
+05:50.010 --> 05:51.896
+Primeiro, queremos calcular a derivada
+
+05:51.896 --> 05:53.770
+de x em relação ao tempo.
+
+05:53.770 --> 06:01.440
+A derivada da primeira coisa
+vezes a segunda coisa; vezes y.
+
+06:01.440 --> 06:03.860
+Mais a primeira coisa vezes a derivada
+
+06:03.860 --> 06:05.220
+da segunda coisa.
+
+06:05.220 --> 06:10.720
+A derivada de y em relação a t
+é dy sobre dt. E, finalmente,
+
+06:10.720 --> 06:15.010
+a derivada de 10 y em relação a t,
+
+06:15.010 --> 06:18.280
+é a derivada de 10 y
+em relação a y, que é 10,
+
+06:18.280 --> 06:23.950
+vezes a derivada de y
+em relação a t, que é dy sobre dt.
+
+06:23.950 --> 06:30.240
+Você tem a relação entre dx sobre dt,
+dy sobre dt, e x e y.
+
+06:30.240 --> 06:32.559
+Vamos garantir que temos tudo.
+
+06:32.559 --> 06:35.670
+Estamos tentando resolver
+para dx sobre dt.
+
+06:35.670 --> 06:37.732
+Temos outro dx sobre dt aqui.
+
+06:37.732 --> 06:39.110
+Vamos tentar isolar isso.
+
+06:39.110 --> 06:42.220
+Sabemos que y é igual a 15.
+
+06:42.220 --> 06:45.300
+Sabemos o valor de dy sobre dt.
+
+06:45.300 --> 06:50.630
+Se dizermos que y está decrescendo,
+podemos dizer que y é menos 20.
+
+06:50.640 --> 06:52.370
+Sabemos isso.
+
+06:52.630 --> 07:00.800
+Se sabemos o valor de x
+podemos calcular dx sobre dt.
+
+07:00.800 --> 07:04.525
+Qual é o valor de x neste momento?
+
+07:04.525 --> 07:07.185
+Podemos usar a primeira equação -
+
+07:07.185 --> 07:11.890
+na verdade, podemos usar essa
+para encontrar x.
+
+07:11.890 --> 07:15.740
+Faremos isso, e depois substituiremos
+de volta onde calculamos a derivada.
+
+07:15.740 --> 07:22.850
+Obtemos 20 vezes x
+é igual a x vezes y.
+
+07:22.850 --> 07:23.680
+y é 15.
+
+07:23.680 --> 07:26.195
+Lembre-se: poderia ter usado esta equação,
+
+07:26.195 --> 07:28.080
+mas esta está a um passo à frente.
+
+07:28.080 --> 07:29.860
+Já multiplicamos em cruz.
+
+07:29.860 --> 07:32.080
+Isso é x vezes y. y é 15.
+
+07:32.080 --> 07:35.790
+Então, é x vezes 15, mais 10 vezes y.
+
+07:35.790 --> 07:39.967
+Mais 10 vezes 15.
+Fiz isso corretamente?
+
+07:39.967 --> 07:44.970
+20 x é igual a x vezes 15
+mais 10 vezes 15.
+
+07:44.970 --> 07:47.160
+Vejamos se podemos subtrair.
+
+07:47.160 --> 07:52.120
+Isso é 20 x igual a 15 x, mais 150.
+
+07:52.120 --> 07:54.470
+Subtraia 15x de ambos lados
+
+07:54.470 --> 08:00.910
+e você obtém cinco x é igual a 150.
+-Desculpe, me adiantei.-
+
+08:00.920 --> 08:03.050
+cinco x é igual a 150.
+
+08:03.050 --> 08:04.460
+Divida ambos lados por cinco.
+
+08:04.460 --> 08:07.930
+Você obtém x é igual a 30 pés.
+
+08:07.930 --> 08:11.960
+x é igual a 30 pés neste instante.
+
+08:11.960 --> 08:14.600
+Esta distância, voltando
+ao diagrama original -
+
+08:14.600 --> 08:17.550
+Esta distância é 30 pés.
+
+08:17.550 --> 08:20.072
+Vamos substituir todos os valores
+que sabemos de volta
+
+08:20.072 --> 08:22.860
+na equação para isolar dx sobre dt.
+
+08:22.860 --> 08:25.660
+Temos -- deixe-me fazer isso aqui--
+
+08:25.660 --> 08:29.620
+temos 20 vezes dx sobre dt.
+
+08:29.620 --> 08:31.910
+Farei isso na cor laranja,
+e vamos resolver isso.
+
+08:31.910 --> 08:33.560
+Na verdade, já usei laranja.
+
+08:33.560 --> 08:35.408
+dx sobre dt
+- farei isso em rosa -
+
+08:35.408 --> 08:41.510
+20 vezes dx sobre dt
+é igual a dx sobre dt vezes y.
+
+08:41.510 --> 08:44.380
+y, agora, é 15 pés.
+
+08:44.380 --> 08:49.780
+Então fica vezes 15 -
+não quis usar essa cor.-
+
+08:49.780 --> 08:56.350
+Vezes 15 mais x;
+já sabemos que x é 30.
+
+08:56.350 --> 08:59.150
+Mais 30 vezes dy sobre dt.
+
+08:59.150 --> 09:02.990
+O que é dy sobre dt?
+
+09:02.990 --> 09:05.930
+Podemos dizer que dy sobre dt
+é menos 20 pés por segundo.
+
+09:05.930 --> 09:11.490
+y está decrescendo - o passáro
+está voando para pegar seu jantar.
+
+09:11.490 --> 09:16.990
+Vezes negativo - vezes 20 pés por segundo.
+
+09:16.990 --> 09:20.280
+Mais 10 vezes dy sobre dt.
+
+09:20.300 --> 09:25.730
+Mais 10 vezes menos 20 pés por segundo.
+
+09:25.730 --> 09:28.000
+E agora resolvemos para dx sobre dt.
+
+09:28.000 --> 09:29.460
+Veremos, o que temos?
+
+09:29.460 --> 09:34.090
+Temos 20 vezes -
+deixe-me subtrair 15 dx sobre dt
+
+09:34.090 --> 09:38.320
+de ambos os lados da equação
+e obtemos cinco dx sobre dt.
+
+09:38.320 --> 09:43.500
+Subtraí isso de ambos os lados da equação.
+
+09:43.500 --> 09:45.870
+Isto é 15 dx sobre dt. Isto é 20.
+
+09:45.870 --> 09:49.890
+Temos cinco dx sobre dt
+é igual a isso.
+
+09:49.890 --> 09:54.946
+Esta parte aqui é menos 600.
+
+09:54.946 --> 09:58.800
+E esta parte é menos 200.
+
+09:58.800 --> 10:03.480
+Então é igual a menos 800 pés por segundo,
+
+10:03.480 --> 10:07.750
+ou menos 800 --
+isto está em pés por segundo.
+
+10:07.750 --> 10:12.680
+dx sobre dt é igual a -
+dividindo ambos os lados cinco-
+
+10:12.680 --> 10:15.710
+cinco vezes 16 é 80.
+
+10:15.710 --> 10:20.520
+Isto é menos 160 pés por segundo.
+
+10:20.520 --> 10:21.430
+Terminamos.
+
+10:21.430 --> 10:26.750
+E vemos que a sombra está se movendo
+muito rapidamente para a esquerda.
+
+10:26.750 --> 10:29.120
+Vemos que x está decrescendo
+
+10:29.120 --> 10:30.929
+Por isso temos esse sinal negativo.
+
+10:30.929 --> 10:32.570
+O valor de x está decrescendo.
+
+10:32.570 --> 10:37.620
+Está se movendo para a esquerda
+em uma velocidade bastante alta.
+
+10:37.620 --> 10:38.140
+[Legendado por: Pilar Dib]
+[Revisado por: Thales Azevedo]

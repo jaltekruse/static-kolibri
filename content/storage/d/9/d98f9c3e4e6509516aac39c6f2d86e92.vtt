@@ -1,0 +1,811 @@
+WEBVTT
+
+00:00.000 --> 00:00.440
+.
+
+00:00.440 --> 00:02.930
+Bu videoda size karaye tamamlama adlı tekniği göstereceğim.
+
+00:02.930 --> 00:09.310
+.
+
+00:09.310 --> 00:14.490
+Bu tekniğin iyi tarafı her ikinci dereceden denklemde işe yarayacak olması.
+
+00:14.490 --> 00:18.210
+Aslında ikinci derece formüllerinin temelidir bu.
+
+00:18.210 --> 00:18.750
+.
+
+00:18.750 --> 00:21.990
+Sonraki videoda ise kareye tamamlama methodunu kullanarak ikinci dereceden denklem formülünü ispatlayacağım.
+
+00:21.990 --> 00:25.630
+.
+
+00:25.630 --> 00:28.450
+Fakat bunu yapmadan önce bunun ne olduğunu anlamalıyız.
+
+00:28.450 --> 00:29.470
+.
+
+00:29.470 --> 00:32.070
+Bir önceki videoda yaptığım şey, ikinci dereceden denklemleri tam kare kullanarak çözme, şu an yaptığımızın temelini oluşturuyor.
+
+00:32.070 --> 00:33.880
+.
+
+00:33.880 --> 00:36.130
+.
+
+00:36.130 --> 00:39.900
+Şimdi diyelim ki elimde x kare eksi dört x eşittir 5 diye bir ikinci dereceden denklem var.
+
+00:39.900 --> 00:44.880
+.
+
+00:44.880 --> 00:47.490
+Buradaki büyük boşluğu bilerek bıraktım.
+
+00:47.490 --> 00:49.680
+Önceki videoda eğer eşitliğin sol tarafı tam kare olunca bu denklemleri kolayca çözebilğimizi gördük.
+
+00:49.680 --> 00:53.200
+.
+
+00:53.200 --> 00:56.500
+.
+
+00:56.500 --> 00:59.050
+Görüyorsunuz ki, kareye tamamlama ikinci dereceden bir denklemi üzerinde çalışarak, iki tarafa da ekleme ya da çıkarma yaparak tam kareye dönüştürme ile ilgili.
+
+00:59.050 --> 01:01.900
+.
+
+01:01.900 --> 01:05.190
+.
+
+01:05.190 --> 01:05.970
+.
+
+01:05.970 --> 01:07.710
+Peki bunu nasıl yapacağız?
+
+01:07.710 --> 01:10.130
+Eşitliğin sol tarafının tam bir kare olması için, burada bir sayı olması lazım.
+
+01:10.130 --> 01:12.990
+.
+
+01:12.990 --> 01:17.510
+Burada öyle bir sayı olmalı ki sayımın karesini aldığımda bu sayıyı, iki ile çarptığımda ise eksi 4'ü elde etmeliyim.
+
+01:17.510 --> 01:20.910
+.
+
+01:20.910 --> 01:22.890
+.
+
+01:22.890 --> 01:24.750
+Bunu hatırlamanız yeterlidir.
+
+01:24.750 --> 01:27.700
+Birkaç örnek ile daha da otururacaktır.
+
+01:27.700 --> 01:35.230
+x kare eksi dört x artı bir şeyin x eksi a'nın karesine eşit olmasını istiyorum.
+
+01:35.230 --> 01:37.740
+.
+
+01:37.740 --> 01:41.010
+Henüz a'nın ne olduğunun bilmiyoruz, ama bildiğimiz birkaç başka şey var.
+
+01:41.010 --> 01:42.110
+.
+
+01:42.110 --> 01:46.180
+x eksi a'nın karesini alırsam x kare eksi iki a artı a kareyi alde ederim.
+
+01:46.180 --> 01:49.330
+.
+
+01:49.330 --> 01:53.640
+Eğer buradaki diziye bakacak olursak, bu arada düzelteyim bu iki ax olacak, bunub iki ax, bunun ise a kareye karşılık gelmesi gerekiyor.
+
+01:53.640 --> 01:59.880
+.
+
+01:59.880 --> 02:03.530
+.
+
+02:03.530 --> 02:07.690
+O zaman elimizdeki a sayısı eksi 4'ün yarısı, yani eksi iki olmalı.
+
+02:07.690 --> 02:10.370
+.
+
+02:10.370 --> 02:13.570
+Çünkü iki kere a eksi 4 olacaktır.
+
+02:13.570 --> 02:18.330
+.
+
+02:18.330 --> 02:21.550
+O zaman a kare de artı 4'e eşit olur.
+
+02:21.550 --> 02:24.220
+Şu an size yapılanlar karmaşık gibi görünebilir, ama şu an yaptığım mantıksal temelini göstermek.
+
+02:24.220 --> 02:25.910
+.
+
+02:25.910 --> 02:29.080
+Bu katsayıya bakıp da bu katsayının yarısının kaç olduğunu sorabilirsiniz.
+
+02:29.080 --> 02:32.670
+.
+
+02:32.670 --> 02:35.920
+Bu katsayının yarısı eksi 2'dir.
+
+02:35.920 --> 02:40.230
+Aynı fikir çerçevesinde a'nın eksi 2'ye eşit olduğunu söyleyip karesini alabiliriz.
+
+02:40.230 --> 02:41.720
+.
+
+02:41.720 --> 02:44.100
+a'nın karesini aldık ve artı 4 elde ettik.
+
+02:44.100 --> 02:46.540
+O zaman buraya artı 4 ekliyoruz.
+
+02:46.540 --> 02:47.630
+.
+
+02:47.630 --> 02:50.990
+Şimdi, yaptığımız ilk denklemden eşitliğin sadece bir tarafına bir şey yapamayacağımızı biliyoruz.
+
+02:50.990 --> 02:55.240
+.
+
+02:55.240 --> 02:55.900
+.
+
+02:55.900 --> 02:58.700
+Demek istediğim denklemin sadece bir tarafına 4 ekleyemeyiz.
+
+02:58.700 --> 03:02.710
+Eğer x kare eksi 4 x 5'e eşitse, 4 eklendiğinde artık 5'e eşit olmayacaktır.
+
+03:02.710 --> 03:04.720
+.
+
+03:04.720 --> 03:07.950
+5 artı 4'e eşit olacaktır.
+
+03:07.950 --> 03:11.430
+Sol tarafa 4 ekledik çünkü bunun bir tam kare olmasının istedik.
+
+03:11.430 --> 03:12.435
+.
+
+03:12.435 --> 03:15.210
+Fakat eğer eşitliğin sol tarafına bir şey eklersek, aynısını sağ tarafına da eklemeliyiz..
+
+03:15.210 --> 03:17.320
+.
+
+03:17.320 --> 03:20.630
+Şu an tıpkı bir önceki videoda çözdüğümüz gibi bir problem elde ettik.
+
+03:20.630 --> 03:23.410
+.
+
+03:23.410 --> 03:25.960
+Peki, bu sol taraf nedir?
+
+03:25.960 --> 03:27.000
+.
+
+03:27.000 --> 03:33.020
+x kare eksi 4 x artı dört eşittir 9
+
+03:33.020 --> 03:35.380
+Tek yaptığımız denklemin iki tarafına da 4 eklemek oldu.
+
+03:35.380 --> 03:39.070
+Bu dördü sol tarafı tam kare yapabilmek için bilinçli olarak ekledik.
+
+03:39.070 --> 03:41.080
+.
+
+03:41.080 --> 03:41.760
+.
+
+03:41.760 --> 03:45.340
+Peki hangi sayıyı kendiyle çarparsam 4'e, kendini eklersem ise eksi 2'ye eşit olur?
+
+03:45.340 --> 03:47.770
+.
+
+03:47.770 --> 03:49.000
+Bu soruyu daha önceden cevaplamıştık.
+
+03:49.000 --> 03:50.040
+Cevap eksi 2.
+
+03:50.040 --> 03:55.310
+Yani, x eksi 2 kere x eksi 2 9'a eşit.
+
+03:55.310 --> 03:59.350
+Ya da bu aşamayı atlayıp x eksi 2 kare eşittir 9 da yazabilirdik.
+
+03:59.350 --> 04:02.990
+.
+
+04:02.990 --> 04:07.280
+Sonrasında ise iki tarafın da karekökünü alıp, x eksi iki eşittir artı eksi 3'ü elde edebiliriz.
+
+04:07.280 --> 04:10.840
+.
+
+04:10.840 --> 04:16.870
+İki tarafa da 2 ekleyelim, x eşittir 2 artı eksi 3.
+
+04:16.870 --> 04:22.440
+Bu da bize x'in iki artı üçe, yani 5'e ya da 2 eksi 3, yani eksi 1'e eşit olduğunu gösterir.
+
+04:22.440 --> 04:28.960
+.
+
+04:28.960 --> 04:30.650
+İşimiz bitti.
+
+04:30.650 --> 04:31.840
+Şimdi çok açık olmak istiyorum.
+
+04:31.840 --> 04:34.300
+Bu denklemi kareye tamamlamayı kullanmadan da çözebilirdik.
+
+04:34.300 --> 04:37.640
+x kare eksi 4x 5'e eşittir diyerek başlayabilirdik.
+
+04:37.640 --> 04:39.850
+.
+
+04:39.850 --> 04:42.970
+Sorasında ise iki taraftan da 5 çıkararak x kare eksi 4 x eksi 5 eşittir 0 denklemini elde ederdik.
+
+04:42.970 --> 04:47.160
+.
+
+04:47.160 --> 04:51.940
+Burada da şunu söyleyebiliriz ki elimde eksi beş çarpı artı 1 varsa çarpımları eksi beş, toplamları ise artı 4 eder.
+
+04:51.940 --> 04:56.190
+.
+
+04:56.190 --> 04:57.000
+.
+
+04:57.000 --> 05:00.800
+Yani diyebilirim ki x eksi 5 çarpı x artı 1 eşittir 0.
+
+05:00.800 --> 05:02.480
+.
+
+05:02.480 --> 05:06.810
+Buradan da x'in ya 5'e ya da eksi 1'e eşit olduğunu söyleyebiliriz.
+
+05:06.810 --> 05:07.700
+.
+
+05:07.700 --> 05:10.350
+Bu durum için aslında bu şekilde çözmek daha hızlı olacaktı.
+
+05:10.350 --> 05:13.450
+.
+
+05:13.450 --> 05:16.140
+Fakat kareye tamamlama metodunun güzel tarafı her zaman işe yarayacak olmasıdır.
+
+05:16.140 --> 05:17.770
+.
+
+05:17.770 --> 05:21.580
+Katsayılar ne olursa olsun, problem ne kadar çılgın olursa olsun sizi çözüme ulaştıracaktır.
+
+05:21.580 --> 05:23.385
+.
+
+05:23.385 --> 05:25.400
+Bunu size ispatlayayım.
+
+05:25.400 --> 05:28.440
+Şimdi ise geleneksel yolla çözersek bize acı verecek olan bir problemi ele alalım.
+
+05:28.440 --> 05:31.140
+.
+
+05:31.140 --> 05:36.200
+.
+
+05:36.200 --> 05:37.020
+.
+
+05:37.020 --> 05:45.070
+Diyelim ki elimizde 10x kare eksi 30x eksi 8 eşittir 0 denklemi var.
+
+05:45.070 --> 05:47.530
+.
+
+05:47.530 --> 05:50.060
+İlk bakışta iki tarafı da ikiye bölebileceğimizi görebiliriz.
+
+05:50.060 --> 05:53.280
+.
+
+05:53.280 --> 05:54.800
+Bu işleri biraz daha sadeleştiriyor.
+
+05:54.800 --> 05:56.450
+O zaman iki tarafı da ikiye bölelim.
+
+05:56.450 --> 06:02.150
+Eğer her şeyi ikiye bölersek ne elde ederiz?
+
+06:02.150 --> 06:11.990
+5x kare eksi 15x eksi 4 eşittir 0 denklemini elde ederiz.
+
+06:11.990 --> 06:14.540
+Fakat tekrardan gruplama yolu ile gitmiş olsaydık bizi epey zorlayacak olan bu 5 katsayısı mevcut.
+
+06:14.540 --> 06:16.810
+.
+
+06:16.810 --> 06:20.410
+.
+
+06:20.410 --> 06:23.410
+Öyleyse şimdi direkt olarak kareye tamamlama metodunu kullanabiliriz.
+
+06:23.410 --> 06:27.500
+Bunu yapmak için de 1 katsayısını elde etmek için 5'e böleceğim.
+
+06:27.500 --> 06:28.870
+.
+
+06:28.870 --> 06:31.660
+Ve siz de göreceksiniz ki bu geleneksel olarak yaptığımızdan farklı.
+
+06:31.660 --> 06:33.010
+.
+
+06:33.010 --> 06:35.730
+.
+
+06:35.730 --> 06:38.050
+.
+
+06:38.050 --> 06:40.030
+.
+
+06:40.030 --> 06:41.800
+.
+
+06:41.800 --> 06:43.660
+Her şeyi 5'e bölelim.
+
+06:43.660 --> 06:52.693
+Eğer her şeyi 5'e bölersek x kare eksi 3 x eksi dört bölü beş eşittir 0 denklemini elde ederiz.
+
+06:52.693 --> 06:58.720
+.
+
+06:58.720 --> 07:02.020
+.
+
+07:02.020 --> 07:02.630
+.
+
+07:02.630 --> 07:06.140
+Eğer bu katsayıya bölebilirsek ondan kurtulmuş oluruz.
+
+07:06.140 --> 07:07.220
+.
+
+07:07.220 --> 07:09.840
+Eğer doğru sayıya bölersek bunu her zaman 1 ya da eksi 1'e çevirebiliriz.
+
+07:09.840 --> 07:10.910
+.
+
+07:10.910 --> 07:14.410
+Fark edersiniz ki bunu yaparken elimizde zorlayıcı 4/5 var.
+
+07:14.410 --> 07:17.630
+O yüzden çarpanlara ayırma ile bunu çözmek epey zorlayıcı olur.
+
+07:17.630 --> 07:19.500
+Şunu sormalıyız, hangi iki sayının çarpımı eksi 4/5'e eşittir?
+
+07:19.500 --> 07:22.100
+.
+
+07:22.100 --> 07:25.210
+Bu bir kesir ve toplamlarını aldığımda ise eksi 3 çıkıyor.
+
+07:25.210 --> 07:26.140
+.
+
+07:26.140 --> 07:29.310
+Bu çarpanlara ayırma ile çözmek için zor bir soru.
+
+07:29.310 --> 07:36.860
+.
+
+07:36.860 --> 07:42.080
+Bu yüzden burada yapılacak en iyi şey kareye tamamlama metodunu uygulamak olacaktır.
+
+07:42.080 --> 07:44.720
+Şimdi bunu nasıl tam kare haline getirebileceğimizi bir düşünnelim.
+
+07:44.720 --> 07:45.950
+.
+
+07:45.950 --> 07:48.080
+Benim yapmayı tercih ettiğin yol 4/5'i diğer tarafa atmak.
+
+07:48.080 --> 07:50.040
+.
+
+07:50.040 --> 07:53.880
+.
+
+07:53.880 --> 07:56.900
+İki tarafa da 4/5 eklersek bu istediğimizi yapmış oluruz.
+
+07:56.900 --> 07:59.980
+Bu şekilde yapmak zorunda değilsiniz ama ben 4/5'ten kurtulmayı seçiyorum.
+
+07:59.980 --> 08:01.160
+.
+
+08:01.160 --> 08:04.010
+Peki iki tarafa da 4/5 eklersek ne elde ederiz?
+
+08:04.010 --> 08:05.250
+.
+
+08:05.250 --> 08:08.350
+Eşitliğin sol tarafı sadece x kare eksi 3x haline gelir, 4/5'siz.
+
+08:08.350 --> 08:11.800
+.
+
+08:11.800 --> 08:13.660
+.
+
+08:13.660 --> 08:17.790
+Bu da 4/5'e eşit olacak.
+
+08:17.790 --> 08:19.990
+Şimdi ise tıpkı bir önceki problem gibi sol tarafı bir binom ifadenin tam karesi haline getirmek istiyoruz.
+
+08:19.990 --> 08:23.350
+.
+
+08:23.350 --> 08:24.740
+Bunu nasıl yapacağız?
+
+08:24.740 --> 08:28.360
+Hangi sayının iki katı eksi 3'e eşittir?
+
+08:28.360 --> 08:30.110
+.
+
+08:30.110 --> 08:32.309
+.
+
+08:32.309 --> 08:35.330
+Eksi 3'ü ele alalım ve onu ikiye bölelim.
+
+08:35.330 --> 08:37.370
+Bu da eksi 3/2 eder.
+
+08:37.370 --> 08:39.554
+Sonra da bunun karesini alıyoruz.
+
+08:39.554 --> 08:44.840
+.
+
+08:44.840 --> 08:48.380
+Peki eksi 3/2'nin karesini alırsak ne eder?
+
+08:48.380 --> 08:54.100
+Artı 9/4.
+
+08:54.100 --> 08:56.810
+Sadece katsayının yarısının karesini aldım ve artı 9/4 elde ettim.
+
+08:56.810 --> 08:58.010
+.
+
+08:58.010 --> 09:00.720
+Bütün bunun amacı eşitliğin sol tarafını tam kare yapmaktı.
+
+09:00.720 --> 09:02.920
+.
+
+09:02.920 --> 09:05.530
+Şimdi, eşitliğin bir tarafına ne yaparsam diğer tarafına da aynısını yapmalıyım.
+
+09:05.530 --> 09:06.600
+.
+
+09:06.600 --> 09:11.030
+Buraya 9/4 ekledik, buraya da ekleyelim.
+
+09:11.030 --> 09:13.850
+.
+
+09:13.850 --> 09:22.530
+.
+
+09:22.530 --> 09:24.460
+Şimdi ortak payda elde edip edemeyeceğimize bakalım.
+
+09:24.460 --> 09:29.120
+4/5 16/20 ile aynı şey.
+
+09:29.120 --> 09:31.880
+Sadece payı ve paydayı 4 ile çarpın.
+
+09:31.880 --> 09:33.820
+9/4'ü beş ile genişletirsek 45/20 olarak aynı değerde bir kesir elde ederiz.
+
+09:33.820 --> 09:36.960
+.
+
+09:36.960 --> 09:42.150
+Bu yüzden artı 45/20.
+
+09:42.150 --> 09:44.970
+.
+
+09:44.970 --> 09:47.020
+.
+
+09:47.020 --> 09:48.930
+.
+
+09:48.930 --> 09:50.380
+.
+
+09:50.380 --> 09:53.420
+16 artı 45 61 yapar.
+
+09:53.420 --> 09:55.780
+.
+
+09:55.780 --> 09:59.750
+O zaman bu da 61/ 20'ye eşit.
+
+09:59.750 --> 10:02.680
+.
+
+10:02.680 --> 10:09.480
+x kare eksi 3x artı 9/4 eşittir 61/20
+
+10:09.480 --> 10:11.030
+Kulağa çılgın geliyor.
+
+10:11.030 --> 10:13.630
+En azından eşitliğin sol tarafı artık bir tam kare.
+
+10:13.630 --> 10:15.970
+.
+
+10:15.970 --> 10:21.610
+Sol taraf x eksi 3/2'nin karesine eşit.
+
+10:21.610 --> 10:24.200
+.
+
+10:24.200 --> 10:27.590
+Eksi 3/2 kere eksi 3/2 artı 9/4 yapar.
+
+10:27.590 --> 10:32.790
+Eksi 3/2 ile eksi 3/2'yi toplarsak da eksi 3 elde ederiz.
+
+10:32.790 --> 10:37.960
+Yani bunun karesi 61/20'ye eşit.
+
+10:37.960 --> 10:43.090
+İki tarafın da karakökünü alınca x eksi 3/2 eşittir artı ya da eksi kök 61/20 eşitliğini elde ederiz.
+
+10:43.090 --> 10:47.820
+.
+
+10:47.820 --> 10:53.320
+.
+
+10:53.320 --> 10:57.640
+Şimdi ise denklemin iki tarafına da 3/2 eklersek elimizde x eşittir 3/2 artı eksi kök 61/20 olur.
+
+10:57.640 --> 11:03.600
+.
+
+11:03.600 --> 11:07.300
+.
+
+11:07.300 --> 11:09.290
+Umarım bu çılgın sayı sizin için açıktır.
+
+11:09.290 --> 11:11.430
+.
+
+11:11.430 --> 11:15.250
+En azından bunu çarpanlara ayırarak elde edemeyebilirdik.
+
+11:15.250 --> 11:17.260
+Eğer gerçek değerleri istiyorsanız hesap makinesi kullanabilirsiniz.
+
+11:17.260 --> 11:18.510
+.
+
+11:18.510 --> 11:20.620
+.
+
+11:20.620 --> 11:22.510
+.
+
+11:22.510 --> 11:25.950
+.
+
+11:25.950 --> 11:28.760
+İlk önce pozitif olanı ele alalım.
+
+11:28.760 --> 11:33.710
+3 bölü iki artı ikinci kare kökün değerini istiyoruz.
+
+11:33.710 --> 11:35.050
+.
+
+11:35.050 --> 11:46.480
+Karekök 31/20 3.24 yapıyor.
+
+11:46.480 --> 11:52.760
+Aslında 3.2464 ama ben sadece 3.246 yazacağım.
+
+11:52.760 --> 12:02.230
+Bu pozitif hali.
+
+12:02.230 --> 12:03.110
+.
+
+12:03.110 --> 12:06.710
+Şimdi ise negatif halini ele alalım.
+
+12:06.710 --> 12:09.180
+.
+
+12:09.180 --> 12:11.535
+.
+
+12:11.535 --> 12:12.465
+.
+
+12:12.465 --> 12:16.130
+.
+
+12:16.130 --> 12:23.400
+.
+
+12:23.400 --> 12:27.970
+O zaman da eksi 0,246 elde ederiz.
+
+12:27.970 --> 12:33.800
+.
+
+12:33.800 --> 12:38.200
+İstersek bu sonuşlardan birini denklem ile doğrulayabiliriz.
+
+12:38.200 --> 12:39.360
+.
+
+12:39.360 --> 12:42.050
+.
+
+12:42.050 --> 12:43.840
+.
+
+12:43.840 --> 12:47.400
+.
+
+12:47.400 --> 12:50.130
+Hesap makinenizdeki ikinci cevap en son kullandığınızdır.
+
+12:50.130 --> 12:51.760
+.
+
+12:51.760 --> 12:54.160
+Eğer bir değişken cevap kullanırsanız, bu sayıdır.
+
+12:54.160 --> 12:55.160
+.
+
+12:55.160 --> 13:00.090
+Cevap olarak eksi 0,24'ü kullanıyorum.
+
+13:00.090 --> 13:02.380
+.
+
+13:02.380 --> 13:11.975
+Cevap kare eksi 3 kere cevap eksi 4/5 istediğimizi sağlıyor.
+
+13:11.975 --> 13:16.030
+.
+
+13:16.030 --> 13:18.490
+.
+
+13:18.490 --> 13:21.860
+Tam olarak sayıyıyı vermiyor gerçi, işin içine biraz ondalık tahmini giriyor.
+
+13:21.860 --> 13:22.880
+.
+
+13:22.880 --> 13:24.910
+.
+
+13:24.910 --> 13:28.930
+.
+
+13:28.930 --> 13:32.240
+.
+
+13:32.240 --> 13:34.980
+.
+
+13:34.980 --> 13:37.100
+.
+
+13:37.100 --> 13:38.870
+.
+
+13:38.870 --> 13:41.060
+.
+
+13:41.060 --> 13:43.550
+.
+
+13:43.550 --> 13:46.480
+.
+
+13:46.480 --> 13:49.050
+.
+
+13:49.050 --> 13:52.390
+.
+
+13:52.390 --> 13:55.300
+Umarım bu kareye tamamlama videosunu yardımcı olmuştur.
+
+13:55.300 --> 13:56.160
+.
+
+13:56.160 --> 13:58.670
+.
+
+13:58.670 --> 14:01.510
+.
+
+14:01.510 --> 14:03.610
+.
+
+14:03.610 --> 14:05.266
+.

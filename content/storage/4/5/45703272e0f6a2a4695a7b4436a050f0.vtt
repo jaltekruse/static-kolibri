@@ -1,0 +1,133 @@
+WEBVTT
+
+00:00.000 --> 00:00.000
+Taze meyve sebze almak için bir tezgahın önünde duruyorsunuz. Önünüzdeki kişinin, 5 kilo elma ve 4 kilo portakal satın aldığını ve bunlar için 10 TL ödediğini fark ediyorsunuz. Siz ise 5 kilo elma ve 5 kilo portakal satın alıyorsunuz ve 11 TL ödüyorsunuz.
+
+00:00.000 --> 00:00.000
+Bu bilgiyi iki değişkenli lineer denklem sisteminde kullanarak, elma ve portakalın fiyatını bulabilir miyiz? Evet diyorsanız, çözüm nedir? Hayır diyorsanız, bunun sebebi nedir?
+
+00:00.000 --> 00:00.000
+Bize elma ve portakalın fiyatını bulup bulamayacağımız soruluyor.
+
+00:00.000 --> 00:00.000
+Elmanın kilo fiyatı için x, portakalın kilo fiyatı için de y kullanalım.
+
+00:00.000 --> 00:00.000
+01:00
+
+00:00.000 --> 00:00.000
+Bizden önceki müşteriyi düşünelim. 5 kilo elma aldı. Elma için ne kadar ödedi? 5 kilo elma aldığına göre, elmalar için 5 x ödedi.
+
+00:00.000 --> 00:00.000
+Peki portakallar için ne kadar ödedi? 4 kilo portakal almıştı, bunlar için de 4 çarpı y ödedi.
+
+00:00.000 --> 00:00.000
+Bu müşterinin toplam harcadığı, 5 x artı 4 y. Ve bize bunun 10 TL'ye eşit olduğu söyleniyor.
+
+00:00.000 --> 00:00.000
+Biz ise 5 kilo elma aldık, aynen bizden önceki müşteri gibi. Elmalar için 5 x ödedik.
+
+00:00.000 --> 00:00.000
+5 kilo çarpı 1 kilo elmanın fiyatı olan y kadar ödedik.
+
+00:00.000 --> 00:00.000
+5 kilo da portakal aldık, bunlar için de 5 y ödedik.
+
+00:00.000 --> 00:00.000
+Bu portakallar için ne kadar harcadığınız.
+
+00:00.000 --> 00:00.000
+Bu da hem portakallar hem de elmalar için toplam ne kadar harcadığınız. Bu toplamın, 11 TL olduğu belirtilmiş.
+
+00:00.000 --> 00:00.000
+02:00
+
+00:00.000 --> 00:00.000
+Bu eşitlikleri kullanarak, x ve y'nin değerini bulabilir miyiz?
+
+00:00.000 --> 00:00.000
+Bu eşitliklerde, x ve y'lerin oranları farklı. Bu bize bir bilgi veriyor. Bunu çözebilir miyiz bakalım.
+
+00:00.000 --> 00:00.000
+İlk gözüme çarpan, her iki eşitlikte de 5 x var.
+
+00:00.000 --> 00:00.000
+Bu 5 x'i, bu 5x'ten çıkartırsam, x'ler kalkacak.
+
+00:00.000 --> 00:00.000
+Aşağıdaki denklemi, -1 ile çarpıyorum.
+
+00:00.000 --> 00:00.000
+Bu denklem, -5 x - 5y eşittir -11 halini alıyor.
+
+00:00.000 --> 00:00.000
+Şimdi bu iki eşitliği toplayacağım.
+
+00:00.000 --> 00:00.000
+Bunu yapabilirim. Çünkü bu değerin buna eşit olduğunu biliyorum. Bunun da buna eşit olduğunu biliyorum. Bu iki eşitliği topladığımda, iki taraftaki değerler gene birbirine eşit olacak.
+
+00:00.000 --> 00:00.000
+Sol tarafta, 5 x -5 x birbirini götürdü.
+
+00:00.000 --> 00:00.000
+4 y eksi 5 y, bu -y eder.
+
+00:00.000 --> 00:00.000
+eşittir..
+
+00:00.000 --> 00:00.000
+10 eksi 11, bu da -1 eder.
+
+00:00.000 --> 00:00.000
+Eğer eşitliğin her iki tarafını da -1 ile çarparsak, y eşittir 1 sonucuna ulaşırız.
+
+00:00.000 --> 00:00.000
+Böylece 1 kilo portakalın fiyatını bulduk: 1 lira.
+
+00:00.000 --> 00:00.000
+Burası 1'e eşit.
+
+00:00.000 --> 00:00.000
+Şimdi 1 kilo elmanın fiyatını da bulalım.
+
+00:00.000 --> 00:00.000
+Buradaki iki eşitlikten herhangi birisini kullanabiliriz.
+
+00:00.000 --> 00:00.000
+Buradaki ilk eşitliği kullanalım, yani bizden önceki müşterinin durumuna bakalım.
+
+00:00.000 --> 00:00.000
+5 kilo elmayı, kilosuna y TL ödeyerek satın almıştı, ayrıca kilosu 1 liradan 4 kilo da portakal almıştı ve toplam 10 TL ödemişti.
+
+00:00.000 --> 00:00.000
+04:00
+
+00:00.000 --> 00:00.000
+Portakallar için 4 TL ödemiş.
+
+00:00.000 --> 00:00.000
+Eşitliğin her iki tarafından da 4 çıkartalım.
+
+00:00.000 --> 00:00.000
+4 çarpı 1, eksi 4, bunlar sadeleşir, burası 0.
+
+00:00.000 --> 00:00.000
+Eşitliğin sol tarafında sadece 5x kaldı.
+
+00:00.000 --> 00:00.000
+Sağ tarafta ise 10 eksi 4 var, ki bu da 6'ya eşit.
+
+00:00.000 --> 00:00.000
+Şimdi eşitliğin her iki tarafını da 5 ile bölebiliriz ve x'in değerini bulabiliriz.
+
+00:00.000 --> 00:00.000
+Her iki tarafı da 5'e böldüğümüzde, x eşittir 6/5 sonucuna ulaşırız.
+
+00:00.000 --> 00:00.000
+Veya x'in 1 1/5'e veya 1.20'ye eşit olduğunu söyleyebiliriz.
+
+00:00.000 --> 00:00.000
+1 kilo elmanın fiyatı da 1.20 TL.
+
+00:00.000 --> 00:00.000
+Soruya dönelim, verilen bilgiyi kullanarak elma ve portakalın fiyatını bulabildik.

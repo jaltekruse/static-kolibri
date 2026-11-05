@@ -1,0 +1,286 @@
+WEBVTT
+
+00:00.640 --> 00:02.730
+Giả sử mình điều hành một nhà máy
+
+00:02.730 --> 00:04.690
+và mình biết rõ nó hoạt động như thế nào.
+
+00:04.690 --> 00:07.670
+Và mình biết chi phí của mình thay đổi dựa trên
+
+00:07.670 --> 00:12.290
+một hàm số của số lượng trong một tuần, hằng tuần.
+
+00:12.290 --> 00:15.427
+Để dễ hình dung thì mình vẽ nó ra nha.
+
+00:15.427 --> 00:17.590
+Mình có thể vẽ hàm chi phí này,
+
+00:17.590 --> 00:19.130
+vậy đây là trục chi phí.
+
+00:19.130 --> 00:22.340
+Còn cái này ngay đây là trục số lượng.
+
+00:22.340 --> 00:27.670
+Vậy đó là số lượng, hoặc q, mình sẽ gọi nó là q.
+
+00:27.670 --> 00:29.282
+Đó là trục q của mình.
+
+00:29.282 --> 00:32.610
+Và hàm số của mình sẽ nhìn như thế này.
+
+00:35.080 --> 00:36.440
+Nhìn có vẻ hợp lí.
+
+00:36.440 --> 00:39.980
+Kể cả khi mình không sản xuất gì, mình vẫn có một số chi phí cố định.
+
+00:39.980 --> 00:41.620
+Mình phải trả tiền thuê nhà máy.
+
+00:41.620 --> 00:45.499
+Mình vẫn phải trả tiền nhân công dù cho mình không sản xuất.
+
+00:45.499 --> 00:49.340
+Vậy giả sử chi phí cố định hàng tuần là $1,000.
+
+00:49.340 --> 00:52.230
+Và giờ khi số lượng tăng, chi phí cũng tăng.
+
+00:52.230 --> 00:56.270
+Vậy nếu mình sản xuất 100 sản phẩm,
+
+00:56.270 --> 01:01.340
+chi phí của mình sẽ lên đến $1,300.
+
+01:01.340 --> 01:03.640
+Nếu mình sản xuất hơn nữa, chi phí sẽ tăng
+
+01:03.640 --> 01:06.510
+với một tốc độ nhanh hơn nữa.
+
+01:06.510 --> 01:09.332
+Mình có nói chi tiết hơn về hàm chi phí
+
+01:09.332 --> 01:11.800
+trong mục Kinh tế học, nhưng điều
+
+01:11.800 --> 01:15.580
+mình muốn bạn hiểu ở phần giải tích này là
+
+01:15.580 --> 01:17.730
+đạo hàm của cái này có ý nghĩa gì?
+
+01:17.730 --> 01:22.670
+Đạo hàm của c theo q, có thể viết thành
+
+01:22.670 --> 01:26.690
+c' của q, cái này thể hiện điều gì?
+
+01:26.690 --> 01:29.450
+Nếu mình có thể hình dung nó,
+
+01:29.450 --> 01:31.770
+mình có thể nghĩ về đạo hàm
+
+01:31.770 --> 01:34.210
+như hệ số góc của tiếp tuyến.
+
+01:34.210 --> 01:36.190
+Vậy, ví dụ như đó là tiếp tuyến
+
+01:36.190 --> 01:37.970
+khi q bằng 100.
+
+01:37.970 --> 01:44.940
+Vậy hệ số góc của đường tiếp tuyến đó có thể được coi là c'
+
+01:44.940 --> 01:47.444
+hoặc là c' của 100.
+
+01:47.444 --> 01:49.690
+Nhưng nó cho mình biết điều gì?
+
+01:49.690 --> 01:56.810
+Hệ số góc đó chính là độ thay đổi của chi phí trên
+
+01:56.810 --> 01:58.600
+độ thay đổi của số lượng.
+
+01:58.600 --> 02:01.090
+Đó chính là hệ số góc của đường tiếp tuyến.
+
+02:01.090 --> 02:03.740
+Đây là thứ đầu tiên mình học trong giải tích.
+
+02:03.740 --> 02:06.081
+Khi độ thay đổi về số lượng của mình ngày càng nhỏ
+
+02:06.081 --> 02:08.540
+mình về căn bản sẽ lấy giới hạn
+
+02:08.540 --> 02:10.710
+khi độ thay đổi số lượng tiến về 0.
+
+02:10.710 --> 02:13.350
+Đó là cách mình tính thay đổi tức thời.
+
+02:13.350 --> 02:17.360
+Vậy đó là một cách để nghĩ về nó. Nó là tốc độ
+
+02:17.360 --> 02:20.590
+thay đổi tức thời ngay tại biên,
+
+02:20.590 --> 02:24.600
+ở đó chi phí mình đang thay đổi theo số lượng.
+
+02:24.600 --> 02:28.470
+Vậy nếu mình sản xuất thêm một chút nữa, một chút xíu nữa
+
+02:28.470 --> 02:31.200
+của sản phẩm thôi, thì chi phí mình
+
+02:31.200 --> 02:32.690
+sẽ tăng ở tốc độ nào?
+
+02:32.690 --> 02:34.760
+Lý do mà mình nói ngay tại biên
+
+02:34.760 --> 02:36.690
+là vì nó không giữ nguyên.
+
+02:36.690 --> 02:38.540
+Nếu hàm chi phí của mình thẳng đứng,
+
+02:38.540 --> 02:40.184
+mình sẽ có hệ số góc không thay đổi,
+
+02:40.184 --> 02:41.600
+đường tiếp tuyến sẽ
+
+02:41.600 --> 02:43.280
+chính là hàm chi phí luôn.
+
+02:43.280 --> 02:45.980
+Nhưng mình có thể thấy nó thay đổi ngay đây.
+
+02:45.980 --> 02:48.700
+Để sản xuất cái một chút xíu nữa ở đây
+
+02:48.700 --> 02:51.880
+sẽ tốn ít chi phí hơn nếu mình sản xuất thêm ở đây.
+
+02:51.880 --> 02:53.730
+Hệ số góc đã tăng lên.
+
+02:53.730 --> 02:55.420
+Và nó cũng dễ hiểu thôi.
+
+02:55.420 --> 02:57.760
+Ví dụ mình đang dùng một nguyên liệu thô
+
+02:57.760 --> 02:58.490
+nào đó.
+
+02:58.490 --> 03:00.277
+Và nếu mình dùng nó ngày càng nhiều thì
+
+03:00.277 --> 03:01.780
+nó sẽ càng khan hiếm,
+
+03:01.780 --> 03:04.120
+vậy giá thành để mua nó sẽ càng tăng.
+
+03:04.120 --> 03:06.790
+Nhưng bạn có thể thắc mắc sao mình lại
+
+03:06.790 --> 03:12.400
+quan tâm đến tốc độ tăng của chi phí
+
+03:12.400 --> 03:13.900
+trên biên để làm gì?
+
+03:13.900 --> 03:19.430
+Và đó là lý do nó có tên gọi là chi phí biên.
+
+03:19.430 --> 03:22.250
+Lý do mình quan tâm nó là vì có thể mình
+
+03:22.250 --> 03:24.750
+cần biết nên dừng sản xuất ở mức nào.
+
+03:24.750 --> 03:27.250
+Giả sử cái này là nước cam chẳng hạn.
+
+03:27.250 --> 03:30.540
+Nếu mình biết sản xuất lít nước cam tiếp theo sẽ tốn $5
+
+03:30.540 --> 03:34.007
+và mình có thể bán nó với giá $6, thì mình nên sản xuất tiếp
+
+03:34.007 --> 03:36.153
+Nhưng nếu lít tiếp theo mà ở đây
+
+03:36.153 --> 03:38.370
+mình đã sản xuất nhiều rồi, và mình
+
+03:38.370 --> 03:40.490
+đã mua hết cam trên thị trường,
+
+03:40.490 --> 03:43.010
+và giờ mình phải nhập khẩu cam
+
+03:43.010 --> 03:44.980
+từ nước ngoài hay sao đó,
+
+03:44.980 --> 03:49.340
+Vậy thì bây giờ lít
+
+03:49.340 --> 03:52.270
+nước cam tiếp theo sẽ tốn $10 để sản xuất
+
+03:52.270 --> 03:55.310
+và mình không thể bán với giá cao hơn $6 được
+
+03:55.310 --> 03:58.260
+thì mình không có lý do gì để sản xuất thêm cả.
+
+03:58.260 --> 04:02.020
+Vậy về mặt giải tích, hay mặt kinh tế học,
+
+04:02.020 --> 04:08.100
+nếu mình có thể đưa chi phí về hàm số lượng,
+
+04:08.100 --> 04:11.470
+đạo hàm của nó là chi phí biên.
+
+04:11.470 --> 04:13.920
+Nó là tốc độ tăng của chi phí
+
+04:13.920 --> 04:17.410
+cho mỗi đơn vị thêm vào.
+
+04:17.410 --> 04:20.510
+Và có nhiều cái cũng khá giống với cái này.
+
+04:20.510 --> 04:23.399
+Nếu mình đưa lợi nhuận về hàm số lượng,
+
+04:23.399 --> 04:26.440
+nếu mình lấy đạo hàm, đó sẽ là lợi nhuận biên.
+
+04:26.440 --> 04:29.620
+Nếu mình đưa doanh thu, đó sẽ là doanh thu biên.
+
+04:32.410 --> 04:34.290
+Hàm số sẽ tăng bao nhiêu
+
+04:34.290 --> 04:36.750
+khi mình tăng đầu vào, khi mình tăng
+
+04:36.750 --> 04:39.680
+số lượng biên?

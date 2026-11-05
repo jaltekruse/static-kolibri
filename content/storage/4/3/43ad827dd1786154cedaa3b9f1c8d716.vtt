@@ -1,0 +1,353 @@
+WEBVTT
+
+00:00.900 --> 00:04.280
+Willkommen. Ich zeige dir nun die letzten
+beiden Logarithmus-Eigenschaften.
+
+00:04.280 --> 00:08.600
+Diese Eigenschaft ist für mich die offensichtlichste.
+
+00:08.600 --> 00:12.720
+Aber es ist okay, wenn sie das für dich nicht ist,
+vielleicht muss man etwas darüber nachdenken.
+
+00:12.720 --> 00:15.520
+Und ich ermutige dich, mit allen Logarithmus-Eigenschaften zu experimentieren,
+
+00:15.520 --> 00:18.460
+denn das ist der einzige Weg, um sie richtig zu lernen.
+
+00:18.460 --> 00:22.700
+Und der Sinn der Mathematik ist nicht nur,
+eine 1 in der nächsten Klausur zu bekommen.
+
+00:22.700 --> 00:26.940
+Der Sinn der Mathematik ist, sie so zu verstehen,
+dass du sie später in deinem Leben anwenden kannst,
+
+00:26.940 --> 00:29.700
+und nicht wieder alles neu lernen musst.
+
+00:29.700 --> 00:41.060
+Bei der nächsten Logarithmus-
+Eigenschaft habe ich A ⋅ log_B (C).
+
+00:41.060 --> 00:59.180
+A ⋅ log_B (C) ist dasselbe wie log_B (C)^A.
+
+00:59.180 --> 01:00.520
+Faszinierend.
+
+01:00.530 --> 01:02.300
+Schauen wir, ob es funktioniert.
+
+01:02.300 --> 01:17.220
+Nehmen wir 3 ⋅ log_2 (8).
+
+01:17.220 --> 01:30.120
+Diese Eigenschaft sagt aus, dass wir
+dasselbe erhalten, wie bei log_2 (8)^3.
+
+01:30.120 --> 01:32.200
+Es ist dasselbe.
+
+01:32.200 --> 01:39.340
+Wir rechnen es aus.
+
+01:39.340 --> 01:55.040
+Was ergibt log_2 (8)?
+
+01:55.040 --> 01:59.100
+Welchen Exponenten muss 2 haben, um 8 zu ergeben?
+
+01:59.110 --> 02:00.570
+2^3 = 8.
+
+02:00.570 --> 02:01.890
+Also ist das 3.
+
+02:01.890 --> 02:05.060
+Wir haben hier diese 3, also rechnen wir 3 ⋅ 3.
+
+02:05.060 --> 02:09.310
+Das hier sollte also 9 ergeben.
+
+02:09.310 --> 02:13.100
+Wenn das 9 ergibt, dann wissen wir, dass diese Eigenschaft zumindest in diesem Beispiel stimmt.
+
+02:13.100 --> 02:14.940
+Wir wissen nicht, ob es für alle Beispiele gilt,
+
+02:14.940 --> 02:18.640
+deswegen willst du dir vielleicht den Beweis
+anschauen, den ich in anderen Videos behandele.
+
+02:18.640 --> 02:20.960
+Das ist aber ein fortgeschritteneres Thema.
+
+02:20.960 --> 02:24.580
+Zuerst einmal ist es am wichtigsten,
+die Anwendung zu verstehen.
+
+02:24.580 --> 02:27.770
+Was ergibt 2^9?
+
+02:27.770 --> 02:29.250
+Auf jeden Fall eine große Zahl.
+
+02:29.250 --> 02:38.320
+Im letzten Video haben wir
+herausgefunden, dass 2^8 = 256 ist.
+
+02:38.320 --> 02:44.940
+2^9 ergibt dann also 512.
+
+02:44.940 --> 02:50.820
+Wenn 8^3 ebenfalls 512 ist, dann würde es stimmen,
+
+02:50.820 --> 02:57.780
+weil log_2 (512) = 9 ist.
+
+02:57.780 --> 02:58.690
+Was ist 8^3?
+
+02:58.690 --> 03:02.780
+8^2 = 64.
+
+03:02.780 --> 03:08.820
+Jetzt rechnen wir 64 ⋅ 8.
+
+03:08.820 --> 03:12.140
+Es ergibt 512. Korrekt.
+
+03:12.150 --> 03:13.660
+Es gibt auch andere Lösungswege,
+
+03:13.660 --> 03:17.020
+denn 8^3 ist dasselbe wie 2^9.
+
+03:17.020 --> 03:18.140
+Woher wissen wir das?
+
+03:18.140 --> 03:25.360
+Nun ja, 8^3 = (2^3)^3, richtig?
+
+03:25.360 --> 03:28.030
+Ich habe die 8 einfach nur umgeformt.
+
+03:28.030 --> 03:35.300
+Und wir wissen von unseren Exponentialregeln,
+dass (2^3)^3 dasselbe ist wie 2^9.
+
+03:35.300 --> 03:41.120
+Und diese Exponenteneigenschaft, bei der du einen
+Exponenten hast und dann nochmal potenzierst,
+
+03:41.120 --> 03:44.000
+dann beide Exponenten einfach
+miteinander multiplizieren kannst,
+
+03:44.000 --> 03:50.700
+das ist die Exponenteneigenschaft,
+die zu dieser Logarithmus-Eigenschaft führt.
+
+03:50.700 --> 03:54.140
+Aber darum geht es in diesem Video nicht.
+
+03:54.140 --> 03:58.600
+In einem anderen Video wird
+das etwas formaler bewiesen.
+
+03:58.600 --> 04:04.680
+Ich zeige dir noch eine Logarithmus-Eigenschaft, dann wiederhole ich alles und mache noch ein paar Beispiele.
+
+04:04.680 --> 04:11.660
+Das ist wahrscheinlich die nützlichste Logarithmus-Eigenschaft, wenn du taschenrechnersüchtig bist.
+
+04:11.660 --> 04:13.700
+Ich zeige dir, warum.
+
+04:13.700 --> 04:40.620
+Wir nehmen log_B (A) = log_C (A) / log_C (B).
+
+04:40.620 --> 04:45.160
+Warum ist das eine nützliche Eigenschaft,
+wenn du taschenrechnersüchtig bist?
+
+04:45.160 --> 04:48.040
+Sagen wir, du sitzt in der Schule und es gibt einen Test.
+
+04:48.040 --> 04:52.460
+Der Lehrer sagt, dass du deinen
+Taschenrechner benutzen darfst,
+
+04:52.460 --> 05:03.390
+um herauszufinden, was log_17 (357) ergibt.
+
+05:03.390 --> 05:09.660
+Und du suchst nach der log_17-Taste auf
+deinem Tachenrechner, und findest sie nicht.
+
+05:09.660 --> 05:14.140
+Denn es gibt keine log_17-Taste
+auf deinem Taschenrechner.
+
+05:14.140 --> 05:19.180
+Du hast wahrscheinlich entweder
+eine log-Taste oder eine ln-Taste.
+
+05:19.180 --> 05:24.720
+Die log-Taste auf deinem Taschenrechner
+hat wahrscheinlich die Basis 10.
+
+05:24.720 --> 05:29.380
+Und die ln-Taste auf deinem
+Taschenrechner hat die Basis e.
+
+05:29.380 --> 05:34.120
+Keine Sorge, falls du e nicht kennst, es ist ungefähr 2,71.
+
+05:34.120 --> 05:34.920
+Es ist eine Zahl.
+
+05:34.920 --> 05:41.180
+Es ist eine erstaunliche Zahl, aber
+darüber reden wir in späteren Videos.
+
+05:41.180 --> 05:44.580
+Es gibt also nur zwei Basen
+auf deinem Taschenrechner.
+
+05:44.580 --> 05:48.370
+Wenn du also einen Logarithmus mit
+einer anderen Basis herausfinden willst,
+
+05:48.370 --> 05:50.020
+wendest du einfach diese Eigenschaft an.
+
+05:50.020 --> 05:54.170
+Wenn du diese Aufgabe also in einem Test bekommst,
+
+05:54.170 --> 06:15.860
+weißt du, dass es dasselbe ist
+wie z.B. log_10 (357) / log_10 (17).
+
+06:15.860 --> 06:19.740
+Du könntest also einfach 357 in
+deinen Taschenrechner eintippen,
+
+06:19.740 --> 06:22.380
+die log-Taste drücken und würdest etwas erhalten.
+
+06:22.380 --> 06:29.480
+Dann könntest du 17 eintippen, die log-
+Taste drücken und würdest etwas erhalten.
+
+06:29.480 --> 06:31.400
+Dann dividierst du die Werte und erhältst die Antwort.
+
+06:31.400 --> 06:37.540
+Das ist also eine sehr nützliche
+Eigenschaft für taschenrechnersüchtige Leute.
+
+06:37.540 --> 06:40.920
+Wie gesagt, ich gehe nicht sehr ins Detail.
+
+06:40.930 --> 06:46.280
+Für mich ist es die nützlichste Eigenschaft,
+
+06:46.280 --> 06:49.980
+sie ergibt sich, offensichtlich, aus den Exponentialeigenschaften.
+
+06:49.980 --> 06:53.940
+Aber es ist schwierig, die Intuition
+einfach zu beschreiben,
+
+06:53.940 --> 06:58.540
+also solltest du dir den Beweis dafür ansehen,
+falls du nicht glaubst, warum das passiert.
+
+06:58.540 --> 07:03.220
+Das ist aber wahrscheinlich die Eigenschaft,
+die du in deinem Alltag am meisten anwenden wirst.
+
+07:03.220 --> 07:05.840
+Ich verwende sie immer noch in meinem Job.
+
+07:05.850 --> 07:09.400
+Damit du weißt, dass Logarithmen nützlich sind.
+
+07:09.400 --> 07:13.740
+Kommen wir zu ein paar Beispielen.
+
+07:13.740 --> 07:19.380
+Ich forme ein paar in eine einfachere Schreibweise um.
+
+07:19.380 --> 07:54.200
+Ich habe den Logarithmus log_2 (√(32/√8)).
+
+07:54.200 --> 08:00.360
+Wie forme ich ihn um, damit er einfacher ist?
+
+08:00.360 --> 08:17.820
+Es ist dasselbe wie log_2 (32/√8)^(1/2).
+
+08:17.820 --> 08:21.360
+Und wir wissen durch unsere
+dritte Logarithmus-Eigenschaft,
+
+08:21.360 --> 08:33.980
+dass es dasselbe ist wie 1/2 ⋅ log_2 (32/√8).
+
+08:33.980 --> 08:36.760
+Ich habe einfach den Exponenten genommen und ihn zum Koeffizienten des gesamten Ausdrucks gemacht.
+
+08:36.760 --> 08:39.400
+Das haben wir zu Beginn dieses Videos gelernt.
+
+08:39.410 --> 08:41.650
+Jetzt haben wir hier einen kleinen Quotienten, richtig?
+
+08:41.650 --> 08:48.240
+log_2 (32/√8).
+
+08:48.240 --> 09:13.520
+Wir schreiben also 1/2 ⋅ (log_2 (32) - log_2 (√8)).
+Wir benutzen Minus, weil das in einem Quotienten ist.
+
+09:13.520 --> 09:15.700
+Hier haben wir wieder eine Quadratwurzel,
+
+09:15.700 --> 09:23.420
+also können wir das als
+1/2 (log_2 (32) - 1/2 ⋅ log_2 (8)) schreiben.
+
+09:23.420 --> 09:28.980
+8^(1/2) ist dasselbe wie 1/2 ⋅ log_2 (8).
+
+09:28.980 --> 09:31.380
+Diese Eigenschaft haben wir zu
+Beginn des Videos kennengelernt.
+
+09:31.390 --> 09:33.750
+Dann könnten wir diese 1/2
+vom Anfang ausmultiplizieren.
+
+09:33.750 --> 09:46.760
+Es ergibt 1/2 ⋅ log_2 (32) - 1/4 ⋅ log_2 (8)).
+
+09:46.760 --> 09:52.500
+Das ergibt 5/2. Das ergibt 3.
+
+09:52.500 --> 09:55.120
+3 ⋅ (-1/4) = -3/4.
+
+09:55.120 --> 09:59.440
+Oder 10/4 - 3/4 = 7/4.
+
+09:59.440 --> 10:03.150
+Ich hab wahrscheinlich Rechenfehler
+gemacht, aber du verstehst, was ich meine.
+
+10:03.150 --> 10:04.730
+Bis bald!

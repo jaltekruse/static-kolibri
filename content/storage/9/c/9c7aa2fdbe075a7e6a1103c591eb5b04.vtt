@@ -1,0 +1,244 @@
+WEBVTT
+
+00:00.460 --> 00:04.220
+Už jsme si ukázali,
+že když zvyšujeme mocniny „i“,
+
+00:04.320 --> 00:12.390
+střídá se 1, 'i', -1, '-i'
+a pak zase znovu 1, 'i', -1, '-i'.
+
+00:12.490 --> 00:15.789
+Myslím, že můžeme přejít
+k trochu záludnějším příkladům.
+
+00:15.879 --> 00:19.035
+A vidíte je tady na ploše,
+je docela zábava je řešit a uvědomovat si,
+
+00:19.133 --> 00:28.631
+že můžeme použít cyklus „i“,
+abychom „i“ umocnili na vyšší číslo.
+
+00:28.721 --> 00:35.118
+Jen tak pro zábavu pojďme zkusit,
+co bude „i na 100“.
+
+00:35.228 --> 00:39.339
+Tady vidíme, že 100 je násobek 4,
+
+00:39.428 --> 00:47.720
+takže rovnou můžeme říct,
+že je to to samé jako „i“ na (4 krát 25).
+
+00:47.797 --> 00:55.627
+Což je to stejné, podle práce s mocninami,
+jako „i na 4“ umocněno na 25.
+
+00:55.740 --> 00:59.163
+Jestliže něco umocníte nějakým
+číslem a výsledek pak dalším číslem,
+
+00:59.260 --> 01:02.188
+je to stejné, jako byste to
+mocnili součinem těch čísel.
+
+01:02.440 --> 01:09.690
+Víme, že „i na 4“ je 1,
+takže tohle se rovná 1.
+
+01:09.804 --> 01:15.831
+Tohle je „1 na 25“, což se zase rovná 1.
+
+01:15.941 --> 01:22.417
+Ještě jednou, využíváme cyklus mocnin „i“,
+ke zjištění hodnoty vysokého exponentu „i“.
+
+01:22.557 --> 01:30.832
+Zkusme ještě něco podivnějšího.
+Zkusíme „i na 501“.
+
+01:30.972 --> 01:34.820
+Tady v té situaci 501 není násobek 4,
+
+01:34.940 --> 01:39.323
+tak to prostě nemůžeme udělat jednoduše,
+ale lze to přepsat jako násobek dvou čísel.
+
+01:39.443 --> 01:45.304
+Jedno bude násobek čtvrté mocniny
+a jedno nebude.
+
+01:45.454 --> 01:50.174
+Taky to lze přepsat takhle:
+500 je násobek 4,
+
+01:50.284 --> 01:57.108
+takže takže je to
+„i na 500“ krát „i na 1“, že?
+
+01:57.228 --> 01:59.808
+Když násobíme stejná čísla,
+tak sčítáme exponenty,
+
+01:59.888 --> 02:02.564
+takže tohle je „i“ na pětistou a na prvou.
+
+02:02.905 --> 02:11.773
+Víme, že „i na 500“ je totéž jako
+„i na 4“ krát co?
+
+02:11.891 --> 02:16.546
+4 krát 125 je 500,
+takže tohle je ta část tady:
+
+02:16.631 --> 02:26.002
+„i na 500“ je to samé co („i na 4“) na 125
+a tohle ještě krát „i“ na prvou.
+
+02:26.092 --> 02:31.734
+No „i na 4“ je 1,
+1 na 125 bude zase 1,
+
+02:31.834 --> 02:37.135
+takže tohle celé tady je 1
+a zbývá nám jen „i“ na prvou,
+
+02:37.244 --> 02:39.374
+takže tohle bude „i“.
+
+02:39.504 --> 02:43.134
+Vypadá to jako složitý příklad,
+něco, co musíte dělat celý den,
+
+02:43.250 --> 02:47.513
+ale jen můžete použít ten cyklus:
+„i“ na pětistou je 1,
+
+02:47.612 --> 02:53.555
+a tak „i na 501“ bude „i“ krát „i na 500“.
+Takže „i“ na jakýkoliv násobek čtyř…
+
+02:53.661 --> 02:54.799
+Napíšu to obecně…
+
+02:54.962 --> 02:58.560
+Takže když máte „i“
+na jakýkoliv násobek čtyř…
+
+03:00.943 --> 03:06.156
+Pro teď se omezíme na nezáporná čísla,
+„k“ je větší nebo rovno 0,
+
+03:06.271 --> 03:14.125
+takže když máme „i“ na násobek 4,
+tak dostaneme 1,
+
+03:14.245 --> 03:18.926
+protože je to to samé,
+jako „i na čtvrtou“ na „k“,
+
+03:19.133 --> 03:25.223
+což je stejné jako 1 na „k“, což je zase 1
+a když máme cokoliv jiného,
+
+03:25.385 --> 03:29.235
+když máme „i na (4k plus 1)“,
+nebo „i na (4k plus 2)“,
+
+03:29.395 --> 03:33.433
+tak můžeme použít tu techniku tady.
+Tak to zkusíme s dalšími příklady,
+
+03:33.603 --> 03:37.863
+abychom si to ujasnili,
+že to jde s náhodnými bláznivými věcmi.
+
+03:38.162 --> 03:46.722
+Tak vezmeme „i na 7321“.
+Tak teď jen musíme přijít na…
+
+03:46.975 --> 03:54.063
+Tohle bude násobek 4 plus něco,
+tak abychom to udělali…
+
+03:54.331 --> 04:02.007
+Lze to udělat od oka, 7320 je dělitelné 4,
+můžete to zkusit vypočítat, a pak zbyde 1.
+
+04:02.247 --> 04:15.395
+To bude „i na 7320“ krát „i na 1“,
+to je násobek 4, vím, že 100 je násobek…
+
+04:15.525 --> 04:20.572
+Každá 1000 je násobek 4,
+každá 100 je násobek 4 a 20 je násobek 4.
+
+04:21.466 --> 04:28.472
+Takže tohle se zjednoduší na 1.
+Pardon, tady má být „i na prvou“.
+
+04:29.083 --> 04:37.305
+Takže 7321 je 7320 plus 1,
+takže tahle část bude prostě 1
+
+04:37.465 --> 04:41.183
+a zbyde nám „i na prvou“ nebo-li „i“.
+
+04:41.268 --> 04:48.317
+Tak zkusíme další: „i“ na 90…
+
+04:49.608 --> 04:55.799
+Zkusím něco zajímavého, „i na 99“.
+
+04:55.981 --> 05:01.452
+Takže znovu, jaký je nejvyšší násobek 4,
+který je menší než 99?
+
+05:01.658 --> 05:11.537
+Je to 96, takže je to to samé,
+jako „i na 96“ krát „i na 3“, že?
+
+05:11.698 --> 05:16.477
+Když násobíte čísla se stejným základem,
+přičítáte exponenty, tak dostanete 99.
+
+05:16.665 --> 05:23.542
+„i na 96“ takže tohle je násobek 4,
+tohle je („i na 4“) na 16.
+
+05:23.742 --> 05:29.329
+Tohle je jen 1 na 16, takže prostě 1,
+a teď vám jen zbyde „i na 3“
+
+05:29.479 --> 05:34.716
+a buď si můžete pamatovat,
+že „i na 3“ se rovná…
+
+05:35.040 --> 05:38.166
+Že se to rovná „-i“
+nebo to můžete zapomenout
+
+05:38.368 --> 05:45.134
+a prostě říct: „Podívej se, je to to samé,
+jako „i na 2“ krát „i“,
+
+05:45.405 --> 05:55.013
+„i na 2“ je podle definice -1,
+tak máme -1 krát „i“, což je '-i'.“
+
+05:55.213 --> 06:01.515
+Udělám ještě jeden, jen pro zábavu.
+Vezměme si „i na 38“.
+
+06:01.715 --> 06:07.035
+No tak znovu,
+tohle je „i na 36“ krát „i na 2.“
+
+06:07.273 --> 06:13.417
+„i na 36“, je to největší násobek 4,
+který se vejde do 38, co nám zbývá je 2.
+
+06:13.637 --> 06:19.582
+To se zjednoduší na 1 a zbývá „i na 2“,
+což se rovná -1.

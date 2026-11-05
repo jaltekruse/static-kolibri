@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.000 --> 00:05.853
+Promysleme se, jak bychom mohli
+najít směrnici tečny k této křivce,
+
+00:05.853 --> 00:09.214
+co je červeně zvýrazněná,
+v bodě x se rovná a.
+
+00:09.214 --> 00:12.091
+S touto formou derivace
+jsme se už setkali.
+
+00:12.091 --> 00:16.540
+Můžeme nalézt obecný výraz,
+který nám dá tečnu v jakémkoliv bodě.
+
+00:16.540 --> 00:22.799
+Tak se podívejme na nějaký libovolný bod
+a určeme si zde nějaký náhodný bod ‚x‘,
+
+00:22.799 --> 00:29.958
+pak toto by byl bod [x, f(x)]
+a můžeme vzít další bod x plus h.
+
+00:29.958 --> 00:42.481
+Řekněme, že zde je bod x plus h, takže
+tento bod by byl [x plus h, f(x plus h)].
+
+00:42.481 --> 00:47.607
+Pak můžeme zjistit směrnici sečny,
+která protíná tyto dva body,
+
+00:47.607 --> 00:59.556
+což by se rovnalo změně v y-ových
+souřadnicích, tedy f(x plus h) minus f(x),
+
+00:59.556 --> 01:10.821
+děleno změna v x-ových
+souřadnicích, (x plus h) minus x.
+
+01:10.821 --> 01:15.202
+Tyto dvě ‚x‘ se vyruší,
+takže toto je směrnice sečny.
+
+01:15.202 --> 01:24.002
+A chceme-li směrnici tečny v bodě ‚x‘,
+použili bychom limitu tohoto výrazu tak,
+
+01:24.008 --> 01:30.697
+aby se ‚x‘ přibližovalo k 0.
+Tento bod se bude blížit k ‚x‘,
+
+01:30.697 --> 01:36.538
+a směrnice sečny se bude
+přibližně rovnat směrnici tečny v ‚x‘.
+
+01:36.538 --> 01:44.028
+Takže o tomto řekneme,
+že je to rovno derivaci f(x).
+
+01:44.028 --> 01:50.537
+Tohle je pořád funkce x! Vybereme
+si libovolné ‚x‘, které lze použít,
+
+01:50.537 --> 01:55.733
+dosadím do tohoto výrazu,
+ať už se jedná o cokoli,
+
+01:55.733 --> 01:59.204
+a z toho nám vypadne nějaké číslo.
+Takže, pokud bychom chtěli,
+
+01:59.204 --> 02:02.564
+můžeme to nějak upravit,
+nebo ani nemusíme,
+
+02:02.564 --> 02:10.702
+a pak bychom mohli dosadit do f´(a) tak,
+že si zvolíte jakékoli ‚a‘.
+
+02:10.702 --> 02:17.150
+To se rovná limitě, kdy ‚x‘
+se přibližuje k nule a v každém místě,
+
+02:17.150 --> 02:19.496
+kde vidíte ‚x‘, to zaměníte za ‚a‘.
+
+02:19.496 --> 02:36.519
+(Funkce ‚nic‘ plus h) minus funkce
+‚nic‘, to celé děleno h.
+
+02:36.519 --> 02:40.860
+A do těch prázdných
+míst napíšeme ‚a‘.
+
+02:40.860 --> 02:44.343
+Všimněme si, že všude
+je ‚x‘ zaměněno za ‚a‘.
+
+02:44.343 --> 02:47.909
+Toto je tedy derivace vyhodnocena
+v bodě ‚a‘ a jeden ze způsobů,
+
+02:47.909 --> 02:52.069
+jak najít směrnici tečny
+v bodě x se rovná a.
+
+02:52.069 --> 02:58.570
+Další způsob, tato metoda je považována
+za alternativní, je vyhodnotit to přímo.
+
+02:58.570 --> 03:06.030
+Takže tohle je bod [a, f(a)],
+a toto další náhodný bod.
+
+03:06.030 --> 03:13.588
+Vezměme tuto hodnotu ‚x‘, tento
+bod funkce by byl [x, f(x)].
+
+03:13.588 --> 03:19.076
+A jaká je tedy směrnice
+sečny mezi těmito dvěma body?
+
+03:19.076 --> 03:20.946
+Opět změna v y-ových souřadnicích,
+
+03:20.946 --> 03:36.010
+což je f(x) minus f(a), to celé děleno
+změnou v x-ové souřadnici, tedy x minus a.
+
+03:36.010 --> 03:42.490
+A jak bychom dostali
+přesnější odhad pro naši tečnu?
+
+03:42.490 --> 03:48.465
+Můžeme použít limitu,
+kdy se ‚x‘ bude přibližovat k ‚a‘,
+
+03:48.465 --> 03:54.170
+pak se naše sečna bude více
+a více podobat naší tečně.
+
+03:54.170 --> 03:56.212
+Tu tečnu mám vybarvenou červeně.
+
+03:56.212 --> 04:04.056
+Takže bychom chtěli použít limitu,
+kdy se ‚x‘ přibližuje k ‚a‘.
+
+04:04.056 --> 04:09.575
+V každém případě děláme
+naprostou tu samou věc!
+
+04:09.575 --> 04:12.586
+Hledáme výraz,
+který je směrnicí sečny,
+
+04:12.586 --> 04:18.838
+a tyto dva body přibližujeme
+stále blíže k sobě tak,
+
+04:18.838 --> 04:24.413
+že hodnota směrnice naší
+sečny se rovná hodnotě naší tečny.
+
+04:24.413 --> 04:31.236
+A tedy ta limita se stane výrazem pro
+směrnici tečny. To je definice derivace.
+
+04:31.236 --> 04:36.647
+Tohle je více standartní forma derivace,
+která by dala derivaci jako funkci ‚x‘,
+
+04:36.647 --> 04:40.880
+do které můžeme posléze
+dosadit naše ‚x‘, přesnou hodnotu ‚x‘,
+
+04:40.880 --> 04:43.989
+nebo můžeme použít
+alternativní formu derivace,
+
+04:43.989 --> 04:47.609
+pokud víte, že hledáte
+derivaci přesně v ‚a‘.
+
+04:47.609 --> 04:50.679
+Nehledáte-li obecnou funkci,
+můžete provést toto.
+
+04:50.679 --> 04:52.589
+Obě formy vám dají stejnou hodnotu.

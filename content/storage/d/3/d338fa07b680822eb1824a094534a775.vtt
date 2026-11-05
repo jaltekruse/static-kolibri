@@ -1,0 +1,562 @@
+WEBVTT
+
+00:00.500 --> 00:02.140
+What I want to show
+you in this video
+
+00:02.140 --> 00:04.800
+is that implicit
+differentiation will give you
+
+00:04.800 --> 00:07.050
+the same result as,
+I guess we can say,
+
+00:07.050 --> 00:08.620
+explicit
+differentiation when you
+
+00:08.620 --> 00:10.822
+can differentiate explicitly.
+
+00:10.822 --> 00:12.530
+So let's say that I
+have the relationship
+
+00:12.530 --> 00:17.300
+x times the square root
+of y is equal to 1.
+
+00:17.300 --> 00:19.140
+This one is actually
+pretty straightforward
+
+00:19.140 --> 00:23.620
+to define explicitly in
+terms of x, to solve for y.
+
+00:23.620 --> 00:28.390
+So if we divide both sides
+by x, we get square root of y
+
+00:28.390 --> 00:30.590
+is equal to 1/x.
+
+00:30.590 --> 00:34.990
+And then if you square both
+sides, you get y is equal to 1
+
+00:34.990 --> 00:38.870
+over x squared, which
+is the same thing as x
+
+00:38.870 --> 00:40.667
+to the negative 2 power.
+
+00:40.667 --> 00:42.250
+And so if you want
+the derivative of y
+
+00:42.250 --> 00:44.550
+with respect to x, this
+is pretty straightforward.
+
+00:44.550 --> 00:46.500
+This is just an application
+of the chain rule.
+
+00:46.500 --> 00:51.780
+So we get dy dx is
+equal to negative 2 x
+
+00:51.780 --> 00:55.630
+to the negative 2 minus 1--
+x to the negative 3 power.
+
+00:55.630 --> 00:57.005
+So that's pretty
+straightforward.
+
+00:57.005 --> 01:00.110
+But what I want to see is if
+we get the same exact result
+
+01:00.110 --> 01:02.710
+when we differentiate
+implicitly.
+
+01:02.710 --> 01:07.560
+So let's apply our
+derivative operator
+
+01:07.560 --> 01:13.557
+to both sides of this equation.
+
+01:13.557 --> 01:15.140
+And so let me make
+it clear what we're
+
+01:15.140 --> 01:19.157
+doing-- x times the square root
+of y and 1 right over there.
+
+01:19.157 --> 01:20.740
+When you apply the
+derivative operator
+
+01:20.740 --> 01:24.752
+to the expression on
+the left-hand side,
+
+01:24.752 --> 01:26.960
+well, actually, we're going
+to apply both the product
+
+01:26.960 --> 01:28.070
+rule and the chain rule.
+
+01:28.070 --> 01:29.910
+The product rule
+tells us-- so we
+
+01:29.910 --> 01:32.100
+have the product of
+two functions of x.
+
+01:32.100 --> 01:33.246
+You could view it that way.
+
+01:33.246 --> 01:34.870
+So this, the product
+rule tells us this
+
+01:34.870 --> 01:37.470
+is going to be the
+derivative with respect
+
+01:37.470 --> 01:50.620
+to x of x times the
+square root of y plus x,
+
+01:50.620 --> 01:55.040
+not taking its derivative,
+times the derivative
+
+01:55.040 --> 02:00.012
+with respect to x of
+the square root of y.
+
+02:00.012 --> 02:01.470
+Let me make it
+clear, this bracket.
+
+02:06.757 --> 02:08.590
+And on the right-hand
+side, right over here,
+
+02:08.590 --> 02:10.850
+the derivative with respect
+to x of this constant,
+
+02:10.850 --> 02:14.930
+that's just going
+to be equal to 0.
+
+02:14.930 --> 02:17.040
+So what does this simplify to?
+
+02:17.040 --> 02:22.730
+Well, the derivative with
+respect to x of x is just 1.
+
+02:22.730 --> 02:24.790
+This simplifies to
+1, so we're just
+
+02:24.790 --> 02:28.370
+going to be left with the square
+root of y right over here.
+
+02:28.370 --> 02:33.550
+So this is going to simplify
+to a square root of y.
+
+02:33.550 --> 02:36.600
+And what does this
+over here simplify to?
+
+02:36.600 --> 02:40.880
+Well the derivative with respect
+to x of the square root of y,
+
+02:40.880 --> 02:42.590
+here we want to
+apply the chain rule.
+
+02:42.590 --> 02:43.590
+So let me make it clear.
+
+02:43.590 --> 02:50.070
+So we have plus this x plus
+whatever business this is.
+
+02:50.070 --> 02:53.757
+And I'm going to
+do this in blue.
+
+02:53.757 --> 02:56.090
+Well, it's going to be the
+derivative of the square root
+
+02:56.090 --> 02:58.645
+of something with respect
+to that something.
+
+02:58.645 --> 03:00.270
+Well, the derivative
+of the square root
+
+03:00.270 --> 03:02.103
+of something with respect
+to that something,
+
+03:02.103 --> 03:04.160
+or the derivative of
+something to the 1/2
+
+03:04.160 --> 03:09.370
+with respect to that something,
+is going to be 1/2 times
+
+03:09.370 --> 03:12.920
+that something to the
+negative 1/2 power.
+
+03:12.920 --> 03:16.150
+Once again, this right
+over here is the derivative
+
+03:16.150 --> 03:23.089
+of the square root of
+y with respect to y.
+
+03:23.089 --> 03:24.380
+We've seen this multiple times.
+
+03:24.380 --> 03:29.090
+If I were to say the derivative
+of the square root of x
+
+03:29.090 --> 03:37.010
+with respect to x, you would
+get 1/2 x to the negative 1/2.
+
+03:37.010 --> 03:38.872
+Now I'm just doing it with y's.
+
+03:38.872 --> 03:39.830
+But we're not done yet.
+
+03:39.830 --> 03:41.205
+Remember, our
+derivative operator
+
+03:41.205 --> 03:42.580
+wasn't to say with respect to y.
+
+03:42.580 --> 03:43.550
+It's with respect to x.
+
+03:43.550 --> 03:45.640
+So this only gets us
+with respect to y.
+
+03:45.640 --> 03:47.280
+We need to apply the
+entire chain rule.
+
+03:47.280 --> 03:53.390
+We have to multiply that
+times the derivative of y
+
+03:53.390 --> 03:56.490
+with respect to x in order
+to get the real derivative
+
+03:56.490 --> 03:59.470
+of this expression
+with respect to x.
+
+03:59.470 --> 04:02.040
+So let's multiply
+times the derivative
+
+04:02.040 --> 04:03.175
+of y with respect to x.
+
+04:03.175 --> 04:04.300
+We don't know what that is.
+
+04:04.300 --> 04:06.130
+That's actually what
+we're trying to solve for.
+
+04:06.130 --> 04:07.340
+But to use the
+chain rule, we just
+
+04:07.340 --> 04:09.100
+have say it's the derivative
+of the square root of y
+
+04:09.100 --> 04:10.891
+with respect to y times
+the derivative of y
+
+04:10.891 --> 04:12.200
+with respect to x.
+
+04:12.200 --> 04:15.990
+This is the derivative of
+this thing with respect to x.
+
+04:15.990 --> 04:18.089
+So we get this on
+the left-hand side.
+
+04:18.089 --> 04:22.100
+On the right-hand
+side, we just have a 0.
+
+04:22.100 --> 04:24.670
+And now, once again,
+we can attempt
+
+04:24.670 --> 04:28.560
+to solve for the derivative
+of y with respect to x.
+
+04:28.560 --> 04:30.250
+And maybe the
+easiest first step is
+
+04:30.250 --> 04:33.470
+to subtract the square
+root of y from both sides
+
+04:33.470 --> 04:34.640
+of this equation.
+
+04:34.640 --> 04:37.420
+And actually, let me move
+all of this stuff over,
+
+04:37.420 --> 04:40.620
+so I have, once again,
+more room to work with.
+
+04:40.620 --> 04:44.990
+So let me cut it, actually.
+
+04:44.990 --> 04:46.840
+And then let me paste it.
+
+04:46.840 --> 04:49.620
+Let me move it over,
+right over here.
+
+04:49.620 --> 04:51.110
+So we went from there to there.
+
+04:51.110 --> 04:53.080
+I didn't gain a
+lot of real estate,
+
+04:53.080 --> 04:54.850
+but hopefully this
+helps a little bit.
+
+04:54.850 --> 04:57.320
+And actually, I
+don't even like that.
+
+04:57.320 --> 04:59.280
+Let me leave it
+where it was before.
+
+04:59.280 --> 05:02.160
+So then, if we subtract
+the square root of y
+
+05:02.160 --> 05:05.370
+from both sides-- and
+I'll try to simplify
+
+05:05.370 --> 05:13.570
+as I go-- we get this thing,
+which I can rewrite as x
+
+05:13.570 --> 05:17.540
+times-- well, it's just going
+to be x in the numerator divided
+
+05:17.540 --> 05:25.100
+by 2 times the square root
+of y. y to the negative 1/2
+
+05:25.100 --> 05:27.250
+is just the square root
+of y in the denominator.
+
+05:27.250 --> 05:29.180
+And 1/2, I just put the
+2 in the denominator
+
+05:29.180 --> 05:34.080
+there-- times dy dx
+times the derivative of y
+
+05:34.080 --> 05:37.090
+with respect to x
+is going to be equal
+
+05:37.090 --> 05:39.840
+to the negative
+square root of y.
+
+05:39.840 --> 05:43.902
+I just subtracted the square
+root of y from both sides.
+
+05:43.902 --> 05:46.110
+And actually, this is
+something that I might actually
+
+05:46.110 --> 05:48.330
+want to copy and paste up here.
+
+05:48.330 --> 05:51.750
+So copy and then paste.
+
+05:51.750 --> 05:56.470
+So let's go back up here, just
+to continue our simplification
+
+05:56.470 --> 05:58.470
+solving for dy dx.
+
+05:58.470 --> 06:00.250
+Well, to solve
+for dy dx, we just
+
+06:00.250 --> 06:04.850
+have to divide both sides by
+x over 2 times the square root
+
+06:04.850 --> 06:05.690
+of y.
+
+06:05.690 --> 06:15.044
+So we're left with dy dx--
+or dividing both sides
+
+06:15.044 --> 06:16.710
+by this is the same
+thing as multiplying
+
+06:16.710 --> 06:21.550
+by the reciprocal of
+this-- is equal to 2
+
+06:21.550 --> 06:27.220
+times the square root of y
+over x-- over my yellow x--
+
+06:27.220 --> 06:32.056
+times the negative
+square root of y.
+
+06:32.056 --> 06:33.680
+Well, what's this
+going to simplify to?
+
+06:33.680 --> 06:35.644
+This is going to be
+equal to y times--
+
+06:35.644 --> 06:38.060
+the square root of y times the
+square root of y is just y.
+
+06:38.060 --> 06:40.590
+The negative times the
+2, you get negative 2.
+
+06:40.590 --> 06:48.020
+So you get negative 2y over x
+is equal to the derivative of y
+
+06:48.020 --> 06:49.660
+with respect to x.
+
+06:49.660 --> 06:51.350
+Now you might be
+saying, look, we just
+
+06:51.350 --> 06:53.260
+figured out the
+derivative implicitly,
+
+06:53.260 --> 06:58.390
+and it looks very different than
+what we did right over here.
+
+06:58.390 --> 07:01.390
+When we just used the power
+rule, we got negative 2 x
+
+07:01.390 --> 07:02.730
+to the negative third power.
+
+07:05.480 --> 07:08.260
+The key here is to realize
+that this thing right over here
+
+07:08.260 --> 07:11.270
+we could solve explicitly
+in terms of-- we
+
+07:11.270 --> 07:13.270
+could solve for y.
+
+07:13.270 --> 07:14.940
+So we could just make
+this substitution
+
+07:14.940 --> 07:18.230
+back here to see that these
+are the exact same thing.
+
+07:18.230 --> 07:21.830
+So if we make the substitution
+y is equal to 1 over x squared,
+
+07:21.830 --> 07:25.250
+you would get dy dx, the
+derivative of y with respect
+
+07:25.250 --> 07:35.040
+to x, is equal to our negative
+2 times 1 over x squared,
+
+07:35.040 --> 07:38.820
+and then all of that over x,
+which is equal to negative 2
+
+07:38.820 --> 07:42.720
+over x to the third, which is
+exactly what we have over here,
+
+07:42.720 --> 07:46.731
+negative 2 x to the
+negative third power.

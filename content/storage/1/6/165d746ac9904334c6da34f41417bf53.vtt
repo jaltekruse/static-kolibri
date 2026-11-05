@@ -1,0 +1,838 @@
+WEBVTT
+
+00:00.000 --> 00:00.420
+.
+
+00:00.420 --> 00:03.680
+Bu videoda polinomları çarpanlarına ayırmak için birkaç yöntem daha göstermek istiyorum.
+
+00:03.680 --> 00:05.210
+.
+
+00:05.210 --> 00:09.130
+Özellikle de ilk terimin katsayısının 1 olmadığı ikinci dereceden denklemlerle uğraşacağım.
+
+00:09.130 --> 00:11.310
+.
+
+00:11.310 --> 00:15.540
+Örneğin 4x artı 25x eksi 21 ifadesini inceleyelim.
+
+00:15.540 --> 00:20.920
+.
+
+00:20.920 --> 00:23.440
+Şimdiye kadar çarpanlarına ayırdığımız her ifadede, daha doğrusu çarpanlarına ayırdığımız bütün ikinci dereceden denklemlerde buradaki 4'ün yerinde 1 ya da eksi 1 vardı.
+
+00:23.440 --> 00:27.100
+.
+
+00:27.100 --> 00:28.090
+.
+
+00:28.090 --> 00:30.880
+Şimdi birdenbire burada 4 var.
+
+00:30.880 --> 00:32.840
+Size öğreteceğim yöntemin adı gruplandırarak çarpanlarına ayırma.
+
+00:32.840 --> 00:35.020
+.
+
+00:35.020 --> 00:37.130
+Daha önce öğrendiklerimize göre biraz daha zor ama iyi bir çözüm yolu.
+
+00:37.130 --> 00:40.100
+.
+
+00:40.100 --> 00:42.210
+Bir bakıma bu yöntem "quadratic formula" denilen ikinci dereceden denklemleri çözmekte kullanılan bir formülü öğrendikten sonra işlevsiz kalacaktır.
+
+00:42.210 --> 00:44.600
+Çünkü bu formül çok daha kolay.
+
+00:44.600 --> 00:46.230
+.
+
+00:46.230 --> 00:47.550
+Ancak şimdilik biz gruplandırarak çarpanlarına ayırma yöntemini kullanacağız.
+
+00:47.550 --> 00:48.770
+Size bunun nasıl yapıldığını göstereceğim.
+
+00:48.770 --> 00:50.910
+Videonun sonunda da neden işe yaradığını göstereceğim.
+
+00:50.910 --> 00:52.300
+.
+
+00:52.300 --> 00:55.430
+Burada yapmamız gereken şey iki sayı düşünmek.
+
+00:55.430 --> 01:02.120
+A ve b, ki a çarpı b 4 çarpı eksi 21 etmeli.
+
+01:02.120 --> 01:03.700
+.
+
+01:03.700 --> 01:12.530
+Yani a çarpı b eşittir 4 çarpı eksi 21.
+
+01:12.530 --> 01:15.280
+Bu da eksi 84'e eşittir.
+
+01:15.280 --> 01:20.490
+Bu iki sayının, a ve b, toplamı ise 25 etmeli.
+
+01:20.490 --> 01:24.480
+.
+
+01:24.480 --> 01:25.930
+Bunu çok açık anlatayım.
+
+01:25.930 --> 01:29.300
+Burada 25 olduğu için a ve b'nin toplamı 25 etmeli.
+
+01:29.300 --> 01:30.970
+4 burada.
+
+01:30.970 --> 01:35.540
+4 çarpı eksi 21.
+
+01:35.540 --> 01:37.270
+Bu eksi 21.
+
+01:37.270 --> 01:40.680
+Peki hangi iki sayı bu durumu sağlar?
+
+01:40.680 --> 01:45.050
+Burada eksi 84'ün çarpanlarına bakmalıyız.
+
+01:45.050 --> 01:46.710
+Buradaki çarpanlardan biri pozitif olmalı.
+
+01:46.710 --> 01:47.550
+.
+
+01:47.550 --> 01:50.870
+Diğeri ise negatif olacaktır çünkü çarpımın sonucu negatif, yani eksi.
+
+01:50.870 --> 01:52.170
+.
+
+01:52.170 --> 01:53.350
+İşimize yarayabilecek çarpanlar hakkında düşünelim.
+
+01:53.350 --> 01:55.420
+.
+
+01:55.420 --> 01:59.465
+4 ve eksi 21 işe yarar gibi gözükebilir ancak bunları topladığımızda eksi 17 oluyor.
+
+01:59.465 --> 02:01.970
+.
+
+02:01.970 --> 02:04.870
+Ya da eksi 4 ve 21 olsaydı sonuç artı 17 olacaktı.
+
+02:04.870 --> 02:06.010
+Yani bu ikisi olmadı.
+
+02:06.010 --> 02:08.220
+Diğer kombinasyonları deneyelim.
+
+02:08.220 --> 02:12.150
+1 ve 84'e bakarsak farklarının çok büyük olduğunu görüyoruz.
+
+02:12.150 --> 02:13.420
+1 burada eksi de olsa artı da olsa durum böyle.
+
+02:13.420 --> 02:15.500
+.
+
+02:15.500 --> 02:16.840
+Çok uzaklar.
+
+02:16.840 --> 02:20.730
+Acaba 3'le - bir sayıyı atladım.
+
+02:20.730 --> 02:23.370
+2 ve 42.
+
+02:23.370 --> 02:24.620
+Yine farkları çok büyük.
+
+02:24.620 --> 02:26.800
+Eksi 2 artı 42 eşittir 40.2 artı (eksi) 42 ise eksi 40, olmadı.
+
+02:26.800 --> 02:29.650
+.
+
+02:29.650 --> 02:41.020
+3 ve... Bakalım, 8'de 3 iki kere var.
+
+02:41.020 --> 02:42.860
+2 kere 3 eşit 6.
+
+02:42.860 --> 02:45.200
+8'den 6 çıktı 2 kaldı.
+
+02:45.200 --> 02:46.610
+4'ü aşağı alalım.
+
+02:46.610 --> 02:49.150
+Tam 8 kere var.
+
+02:49.150 --> 02:51.120
+O zaman 3 ve 28'e bakacağız.
+
+02:51.120 --> 02:52.370
+Bu ilginç görünüyor.
+
+02:52.370 --> 02:57.630
+.
+
+02:57.630 --> 02:59.920
+Hatırlayın, ikisinden biri negatif yani eksi olmak zorunda.
+
+02:59.920 --> 03:06.240
+Elimizde eksi 3 artı 28 varsa bu 25 eder.
+
+03:06.240 --> 03:08.220
+Aradığımız iki sayıyı bulduk.
+
+03:08.220 --> 03:12.200
+Yine de bu işlem elimizde 1 ya da eksi 1 varken olduğu kadar kolay olmayacak.
+
+03:12.200 --> 03:19.510
+.
+
+03:19.510 --> 03:23.330
+Yapacağımız şey buradaki terimi ayırmak.
+
+03:23.330 --> 03:29.160
+.
+
+03:29.160 --> 03:35.800
+Bunu artı 28x ve eksi 3x diye ayıracağız.
+
+03:35.800 --> 03:37.590
+Bu terimi ayıracağız.
+
+03:37.590 --> 03:39.890
+Bu bununla aynı terim.
+
+03:39.890 --> 03:43.150
+Ve elimizde hala buradaki eksi 21 ve buradaki 4x kare var.
+
+03:43.150 --> 03:46.350
+.
+
+03:46.350 --> 03:49.100
+Şimdi bana 28 neden buraya ve eksi 3 neden buraya gitti diye sorabilirsiniz.
+
+03:49.100 --> 03:50.570
+.
+
+03:50.570 --> 03:52.000
+Bu aslında fark yaratabilen bir durum.
+
+03:52.000 --> 03:56.730
+Bunu 3 veya eksi 3; ve 21 veya eksi 21'in ortak çarpanları olduğunu düşünerek yaptım.
+
+03:56.730 --> 03:59.590
+.
+
+03:59.590 --> 04:02.460
+İkisinde de 3 çarpanı ortak.
+
+04:02.460 --> 04:04.780
+Ayrıca 28 ve 4'ün de ortak çarpanları var.
+
+04:04.780 --> 04:07.940
+Bu nedenle 28'i 4'ün tarafında grupladım.
+
+04:07.940 --> 04:09.730
+Neden bahsettiğimi birazdan göreceksiniz.
+
+04:09.730 --> 04:15.450
+Şimdi bunları gruplayınca bu terim 4x kare artı 28x oluyor.
+
+04:15.450 --> 04:18.140
+.
+
+04:18.140 --> 04:25.880
+Bu tarafta da - pembeye yazılan kısım - eksi 3x eksi 21 var.
+
+04:25.880 --> 04:28.740
+.
+
+04:28.740 --> 04:30.810
+Tekrar söylüyorum, bunları özellikle seçtim.
+
+04:30.810 --> 04:34.300
+Eksi 3'ü 21'le, daha doğrusu eksi 21'le grupladım çünkü ikisi de 3'e bölünebiliyor.
+
+04:34.300 --> 04:36.320
+.
+
+04:36.320 --> 04:38.790
+28 ve 4'ü de bir grup içinde topladım çünkü ikisi de 4'le bölünebiliyor.
+
+04:38.790 --> 04:40.250
+.
+
+04:40.250 --> 04:43.800
+Şimdi bu gruplar içinde çarpanlarına ayırabildiğimiz kadar ayırıyoruz.
+
+04:43.800 --> 04:45.550
+.
+
+04:45.550 --> 04:49.050
+Bu terimlerin ikisi de 4x'le bölünebiliyor.
+
+04:49.050 --> 04:55.740
+Buradaki turuncu terim 4x çarpı x.
+
+04:55.740 --> 05:03.020
+4x kare bölü 4x eşittir x. Artı 28x bölü 4x yani 7.
+
+05:03.020 --> 05:04.020
+Şimdi ikinci terime bakalım.
+
+05:04.020 --> 05:05.630
+Unutmayın, çarpanlarına ayırabildiğimiz her şeyi ayırıyoruz.
+
+05:05.630 --> 05:07.030
+.
+
+05:07.030 --> 05:10.160
+Bu terimlerin ikisi de 3'e veya eksi 3'e bölünebiliyor.
+
+05:10.160 --> 05:11.945
+Eksi 3'le ayıralım.
+
+05:11.945 --> 05:16.260
+Bu x artı 7 oluyor.
+
+05:16.260 --> 05:18.690
+Şimdi bir şeyleri görebilirsiniz.
+
+05:18.690 --> 05:25.350
+Elimizde (x artı 7) çarpı 4x artı (x artı 7) çarpı eksi 3 var.
+
+05:25.350 --> 05:27.150
+.
+
+05:27.150 --> 05:31.630
+Yani (x artı 7) ile çarpanlarına ayırabiliriz.
+
+05:31.630 --> 05:33.550
+Bu çok net görünmeyebilir.
+
+05:33.550 --> 05:34.900
+Büyük ihtimalle daha önce iki terimli bir ifadeyi tamamen ayırmamışsınızdır.
+
+05:34.900 --> 05:36.490
+.
+
+05:36.490 --> 05:38.350
+Mesela bu ifadeye a diyelim.
+
+05:38.350 --> 05:42.790
+Yani elimizde 4xa eksi 3a olsaydı a'yı ayırabilirdiniz.
+
+05:42.790 --> 05:43.930
+.
+
+05:43.930 --> 05:46.330
+Bunu da eksi olarak bırakıyorum.
+
+05:46.330 --> 05:50.150
+.
+
+05:50.150 --> 05:51.950
+Şuradaki artıyı sileyim.
+
+05:51.950 --> 05:55.850
+Çünkü bu direkt eksi 3, değil mi?
+
+05:55.850 --> 05:58.970
+Artı (eksi) 3 ile eksi 3 aynı şey.
+
+05:58.970 --> 06:00.640
+Şimdi burada ne yapabiliriz?
+
+06:00.640 --> 06:02.270
+Elimizde x artı 7, çarpı 4x var.
+
+06:02.270 --> 06:04.040
+Burada da x artı 7, çarpı eksi 3 var.
+
+06:04.040 --> 06:06.110
+X artı 7'yi ayıralım.
+
+06:06.110 --> 06:16.350
+Elimizde (x artı 7) çarpı (4x eksi 3) var.
+
+06:16.350 --> 06:18.790
+Buradaki eksi 3.
+
+06:18.790 --> 06:22.110
+İki terimli ifadeyi ayırdık.
+
+06:22.110 --> 06:25.550
+İkinci dereceden denklemimizi gruplandırarak çarpanlarına ayırdık.
+
+06:25.550 --> 06:28.210
+Ve iki tane iki terimli ifade elde ettik.
+
+06:28.210 --> 06:30.140
+Bir örnek daha yapalım çünkü bu konu biraz uğraştırıyor.
+
+06:30.140 --> 06:30.770
+.
+
+06:30.770 --> 06:34.290
+Ancak işi çözdükten sonra eğlenceli hale geliyor.
+
+06:34.290 --> 06:43.540
+Diyelim ki 6x kare artı 7x artı 1 polinomunu çarpanlarına ayırmak istiyoruz.
+
+06:43.540 --> 06:44.800
+Yine aynı şeyleri yapacağız.
+
+06:44.800 --> 06:50.940
+Çarpımları 1 çarpı 6 yani 6 eden iki sayı, a ve b sayılarını bulmak istiyoruz.
+
+06:50.940 --> 06:52.110
+.
+
+06:52.110 --> 06:57.460
+Bu a ve b sayılarının toplamı ise 7 etmeli.
+
+06:57.460 --> 06:59.520
+Bu önceki örneğe göre daha kolay oldu.
+
+06:59.520 --> 07:03.900
+Sayılar hangileri? Açıkça 1 ve 6, değil mi?
+
+07:03.900 --> 07:05.310
+1 çarpı 6 eşittir 6.
+
+07:05.310 --> 07:07.620
+1 artı 6 eşittir 7.
+
+07:07.620 --> 07:10.150
+Yani a eşittir 1.
+
+07:10.150 --> 07:11.700
+Hatta bunları eşlemeye bile gerek yok.
+
+07:11.700 --> 07:15.650
+Sayılarımız 1 ve 6.
+
+07:15.650 --> 07:19.740
+Şimdi bunu 1x ve 6x'e ayırmam lazım.
+
+07:19.740 --> 07:22.420
+Ancak bunu yaparken dikkat etmem gereken bir nokta var.
+
+07:22.420 --> 07:24.090
+Bu ifadeleri ortak çarpanı olan terimlerle gruplamalıyız.
+
+07:24.090 --> 07:28.880
+Burada 6x kare var.
+
+07:28.880 --> 07:32.520
+6x'i buraya koyacağım çünkü 6 ve 6'nın ortak bir çarpanı var.
+
+07:32.520 --> 07:34.170
+.
+
+07:34.170 --> 07:37.580
+Burada da artı 1x olacak, değil mi?
+
+07:37.580 --> 07:39.650
+6x artı 1x eşittir 7x.
+
+07:39.650 --> 07:40.830
+Bütün olay bundan ibaret.
+
+07:40.830 --> 07:42.580
+Toplamlarının 7 etmesi lazım.
+
+07:42.580 --> 07:46.000
+Son olarak da burada artı 1 var.
+
+07:46.000 --> 07:49.320
+Şimdi bu grupların içinde istediğimiz gibi çarpanlarına ayırabiliriz.
+
+07:49.320 --> 07:50.220
+.
+
+07:50.220 --> 07:53.080
+Bu ilk grupta 6x'i ayıralım.
+
+07:53.080 --> 07:58.020
+Bu durumda ilk grup 6x çarpı... 6x kare bölü 6x yaptığımızda x kalır.
+
+07:58.020 --> 07:59.480
+.
+
+07:59.480 --> 08:04.380
+6x bölü 6x ise 1 eder.
+
+08:04.380 --> 08:06.730
+İkinci grupta ise - burada bir artı olacak.
+
+08:06.730 --> 08:08.130
+.
+
+08:08.130 --> 08:11.870
+İkinci grupta sadece x artı 1 var.
+
+08:11.870 --> 08:16.500
+Hatta bunu 1x artı 1 şeklinde yazabiliriz.
+
+08:16.500 --> 08:19.440
+Bunu 1'i ayırdım olarak düşünebiliriz.
+
+08:19.440 --> 08:24.790
+Şimdi elimizde 6x çarpı (x artı 1); artı 1 çarpı (x artı 1) var.
+
+08:24.790 --> 08:27.740
+X artı 1 ifadesini ayırabilirim.
+
+08:27.740 --> 08:35.549
+Bunu yaptığımda elimde (x artı 1) çarpı (6x artı 1) olur.
+
+08:35.549 --> 08:37.690
+.
+
+08:37.690 --> 08:38.280
+Çarpmanın toplama üzerine dağılma özelliğini tersten yapıyorum.
+
+08:38.280 --> 08:41.460
+.
+
+08:41.460 --> 08:43.230
+Umarım bu size çok karışık gelmemiştir.
+
+08:43.230 --> 08:45.430
+Şimdi bu sihirli yöntemin neden çalıştığını açıklayacağım.
+
+08:45.430 --> 08:47.170
+.
+
+08:47.170 --> 08:50.280
+.
+
+08:50.280 --> 08:52.530
+Bir örnekle anlatayım.
+
+08:52.530 --> 08:54.530
+Bunu genel ifadelerle yapacağım.
+
+08:54.530 --> 09:03.630
+Diyelim ki elimde ax artı b çarpı cx - aslında a ve b kullanmaktan çekiniyorum.
+
+09:03.630 --> 09:05.300
+.
+
+09:05.300 --> 09:07.760
+Bu kafanızı karıştırabilir çünkü a'ları ve b'leri burada kullanıyorum.
+
+09:07.760 --> 09:08.930
+.
+
+09:08.930 --> 09:10.240
+Bunlar aynı şeyler olmayacak.
+
+09:10.240 --> 09:13.760
+En iyisi ben tamamen farklı harfler kullanayım.
+
+09:13.760 --> 09:24.000
+Diyelim ki elimde fx artı g çarpı hx artı - i yerine j kullanacağım.
+
+09:24.000 --> 09:25.240
+.
+
+09:25.240 --> 09:26.450
+İleride neden bir değişken olarak "i" harfini kullanmayı sevmediğimi anlayacaksınız.
+
+09:26.450 --> 09:28.710
+.
+
+09:28.710 --> 09:31.000
+Bu neye eşit olur?
+
+09:31.000 --> 09:35.920
+Bu fx çarpı hx yani fhx olur.
+
+09:35.920 --> 09:37.710
+Sonra fx çarpı j.
+
+09:37.710 --> 09:41.800
+Yani artı fjx.
+
+09:41.800 --> 09:45.240
+Sonra g çarpı hx yani artı ghx olacak.
+
+09:45.240 --> 09:49.010
+.
+
+09:49.010 --> 09:50.990
+Sonra da g çarpı j yani artı gj olacak.
+
+09:50.990 --> 09:53.840
+.
+
+09:53.840 --> 10:02.500
+Ortadaki iki terimi toplarsak, elimizde (fh) çarpı x artı -- bu ikisini topluyoruz -- (fj artı gh)x olur.
+
+10:02.500 --> 10:08.970
+.
+
+10:08.970 --> 10:12.170
+Artı gj.
+
+10:12.170 --> 10:14.540
+Burada ne yaptım?
+
+10:14.540 --> 10:17.550
+Hatırlayın, buradaki katsayının 1 veya eksi 1 olmadığı sorularda toplamı bu eden ve çarpımı bu eden iki sayı arıyorduk.
+
+10:17.550 --> 10:20.650
+.
+
+10:20.650 --> 10:23.560
+.
+
+10:23.560 --> 10:25.480
+.
+
+10:25.480 --> 10:31.780
+Burada toplamı tutan iki sayı var.
+
+10:31.780 --> 10:33.030
+Diyelim ki a eşittir fj.
+
+10:33.030 --> 10:36.970
+.
+
+10:36.970 --> 10:37.750
+Bu a.
+
+10:37.750 --> 10:40.930
+Ve b eşittir gh.
+
+10:40.930 --> 10:43.730
+Yani a artı b ortadaki katsayıya eşittir.
+
+10:43.730 --> 10:44.980
+.
+
+10:44.980 --> 10:48.370
+.
+
+10:48.370 --> 10:52.100
+Peki a çarpı b ne eder?
+
+10:52.100 --> 10:56.260
+Bu fj çarpı gh'dir.
+
+10:56.260 --> 10:59.140
+.
+
+10:59.140 --> 11:01.320
+Bu terimleri yeniden sıralayabiliriz.
+
+11:01.320 --> 11:04.430
+Tek yaptığımız birkaç terimi çarpmak.
+
+11:04.430 --> 11:09.390
+Bunu f çarpı h çarpı g çarpı j şeklinde yeniden yazabiliriz.
+
+11:09.390 --> 11:11.090
+Bunlar aynı şeylerdir.
+
+11:11.090 --> 11:14.620
+Peki, fh çarpı gj ne eder?
+
+11:14.620 --> 11:19.150
+Bu fh çarpı gj'ye eşittir.
+
+11:19.150 --> 11:22.530
+Bu ilk katsayıyla sabit terimin çarpımına eşittir.
+
+11:22.530 --> 11:23.670
+.
+
+11:23.670 --> 11:27.870
+Yani a artı b ortadaki katsayıya eşit olacak.
+
+11:27.870 --> 11:31.930
+A çarpı b ise ilk katsayı çarpı sabit terime eşit olacak.
+
+11:31.930 --> 11:32.670
+.
+
+11:32.670 --> 11:37.330
+Bu nedenle bu gruplandırarak çarpanlarına ayırma yöntemi çalışıyor.
+
+11:37.330 --> 11:40.180
+Ve a ile b'nin hangi sayılar olduğunu bulabiliyoruz.
+
+11:40.180 --> 11:42.200
+.
+
+11:42.200 --> 11:44.210
+Bu dersi biraz değişik bir şeyle sonlandıracağım.
+
+11:44.210 --> 11:45.800
+Tek istediğim çarpanlarına ayırma konusunu her yönüyle öğrenmeniz.
+
+11:45.800 --> 11:49.130
+.
+
+11:49.130 --> 11:52.050
+Öğretmek istediğim şey ifadeleri nasıl tamamen çarpanlarına ayırabileceğiniz.
+
+11:52.050 --> 11:52.940
+.
+
+11:52.940 --> 11:55.160
+Bu biraz ekstra bir şey.
+
+11:55.160 --> 11:56.660
+Aslında bunun üzerine ayrı bir video yapacaktım.
+
+11:56.660 --> 11:59.250
+Ancak bazı durumlarda bunu zaten açıkça görebiliyorsunuz.
+
+11:59.250 --> 12:00.480
+.
+
+12:00.480 --> 12:07.190
+Diyelim ki -- bu biraz uğraştırıcı olsun.
+
+12:07.190 --> 12:12.910
+Diyelim ki elimde eksi x küp artı 17x kare eksi 70x var.
+
+12:12.910 --> 12:18.180
+.
+
+12:18.180 --> 12:20.130
+İlk bakışta bunun ikinci dereceden bile olmadığını görebilirsiniz.
+
+12:20.130 --> 12:21.770
+Böyle bir şeyi çözmeyi bilmiyoruz.
+
+12:21.770 --> 12:23.580
+Burada x'in kübü var.
+
+12:23.580 --> 12:26.150
+Ancak ilk görmeniz gereken şey bütün terimlerin x'le bölünebildiği.
+
+12:26.150 --> 12:27.840
+.
+
+12:27.840 --> 12:29.920
+Bu nedenle x'i ayıralım.
+
+12:29.920 --> 12:32.260
+Hatta daha iyisi eksi x'i ayıralım.
+
+12:32.260 --> 12:35.320
+Böyle yaptığımızda bu eksi x çarpı -- eksi x küp bölü eksi x eşittir x kare.
+
+12:35.320 --> 12:38.730
+.
+
+12:38.730 --> 12:41.810
+.
+
+12:41.810 --> 12:47.910
+17x kare bölü eksi x eşittir eksi 17x.
+
+12:47.910 --> 12:52.510
+Eksi 70x bölü eksi x eşittir pozitif 70.
+
+12:52.510 --> 12:54.060
+X'ler gidiyor.
+
+12:54.060 --> 12:56.050
+Şimdi elimizde biraz daha tanıdık bir ifade var.
+
+12:56.050 --> 12:59.220
+.
+
+12:59.220 --> 13:02.530
+İlk teriminin katsayısı 1 olan sıradan bir ikinci dereceden denklem var.
+
+13:02.530 --> 13:03.650
+.
+
+13:03.650 --> 13:08.290
+Tek yapmamız gereken çarpımı 70 ve toplamı eksi 17 eden iki sayı bulmak.
+
+13:08.290 --> 13:11.000
+.
+
+13:11.000 --> 13:12.920
+Aklıma gelen ilk iki sayı eksi 10 ve eksi 7.
+
+13:12.920 --> 13:17.410
+.
+
+13:17.410 --> 13:19.520
+Çarpımları 70 ediyor.
+
+13:19.520 --> 13:21.870
+Toplamları da eksi 17'ye eşit.
+
+13:21.870 --> 13:25.920
+Dolayısıyla bu (x eksi 10) çarpı (x eksi 7) olur.
+
+13:25.920 --> 13:28.410
+.
+
+13:28.410 --> 13:31.540
+Tabiki başta ayırdığımız eksi x var.
+
+13:31.540 --> 13:34.330
+Bu gibi durumlarda yapmamız gereken şey herhangi bir ifadeyi ayırmaya çalışmak.
+
+13:34.330 --> 13:35.320
+.
+
+13:35.320 --> 13:37.780
+Ve ifadeyi tanıdık bir şekle sokmak.
+
+13:37.780 --> 13:38.950
+Umarım bu sizin için faydalı bir ders olmuştur.
+
+13:38.950 --> 13:41.145
+Videonun başında söylediğim şeyi tekrarlamak istiyorum.
+
+13:41.145 --> 13:41.510
+.
+
+13:41.510 --> 13:44.960
+Bu yöntemin ilk terimin katsayısı 1 veya eksi 1 olmadığı durumlarda oldukça faydalı bir yöntem olduğunu düşünüyorum.
+
+13:44.960 --> 13:49.470
+.
+
+13:49.470 --> 13:50.460
+.
+
+13:50.460 --> 13:52.720
+Yine de yakın bir zamanda videoda bahsettiğim formül gibi daha kolay yollar öğreneceksiniz.
+
+13:52.720 --> 13:54.370
+.
+
+13:54.370 --> 13:56.620
+.

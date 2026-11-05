@@ -1,0 +1,370 @@
+WEBVTT
+
+00:00.105 --> 00:05.375
+V tomto videu se podíváme na
+hlavní chyby, které studenti často dělají,
+
+00:05.375 --> 00:13.249
+Informace o chybách nám
+poskytli samotní tvůrci AP zkoušek.
+
+00:13.278 --> 00:29.079
+Řekněme, že chceme zderivovat
+přirozený logaritmus ze sin(x).
+
+00:29.079 --> 00:34.175
+První zásadní chybou,
+kterou mnoho lidí dělá, je to,
+
+00:34.175 --> 00:36.752
+že když mají transcendentní
+funkci jako tato…
+
+00:36.752 --> 00:40.820
+Transcendentní funkce je jen honosné slovo
+pro funkce jako trigonometrické funkce,
+
+00:40.820 --> 00:45.360
+nebo logaritmické funkce, tedy funkce
+nepoužívající běžné algebraické operace.
+
+00:45.360 --> 00:49.062
+Když máme transcendentní funkce
+nebo funkce z nich složené,
+
+00:49.062 --> 00:52.790
+mnoho lidí si to plete
+se součinem funkcí,
+
+00:52.790 --> 00:55.608
+takže když se na
+tohle podívají, řeknou si,
+
+00:55.608 --> 01:06.277
+že je to totéž jako derivace
+podle x ze součinu ln(x) a sin(x).
+
+01:06.277 --> 01:09.896
+Když to napíšu takhle,
+vypadá to velmi podobně,
+
+01:09.896 --> 01:12.700
+ale tohle je
+součin dvou funkcí.
+
+01:12.700 --> 01:19.537
+Kdybychom si přirozený logaritmus z ‚x‘
+označili jako f(x) a sin(x) jako g(x),
+
+01:19.537 --> 01:22.582
+tak by šlo o součin
+sin(x) a g(x)…
+
+01:22.582 --> 01:26.112
+Pardon, je to součin
+funkcí f(x) a g(x).
+
+01:26.112 --> 01:28.787
+Takže bychom použili
+vzorec pro derivaci součinu.
+
+01:28.787 --> 01:35.114
+Spočítali bychom to pomocí
+vzorce pro derivaci součinu.
+
+01:35.114 --> 01:37.373
+Toto je ale
+složená funkce.
+
+01:37.373 --> 01:43.444
+Máme funkci f v bodě g(x),
+ne f(x) krát g(x).
+
+01:43.444 --> 01:49.341
+Tohle je funkce g(x),
+tak jsme si označili sin(x),
+
+01:49.341 --> 01:53.982
+a f v bodě g(x) je
+přirozený logaritmus ze sin(x).
+
+01:53.982 --> 02:00.298
+Toto je tedy
+f v bodě g(x).
+
+02:00.298 --> 02:03.603
+Samotné f(x) je jen
+přirozený logaritmus z ‚x‘,
+
+02:03.603 --> 02:06.955
+ale f v bodě g(x) je přirozený
+logaritmus z naší funkce g(x),
+
+02:06.955 --> 02:09.873
+tedy přirozený
+logaritmus ze sin(x).
+
+02:09.873 --> 02:11.453
+Tohle je tedy
+první zásadní věc.
+
+02:11.453 --> 02:14.493
+Vždy se ujistěte,
+zda je třeba použít…
+
+02:14.493 --> 02:16.772
+Obzvláště u těchto
+transcendentních funkcí.
+
+02:16.772 --> 02:20.450
+Když máte složenou funkci, musíte provést
+derivaci složené funkce, ne součinu.
+
+02:20.450 --> 02:21.260
+Není to součin.
+
+02:21.260 --> 02:26.659
+Občas můžete mít součin složených
+funkcí, což už je komplikovanější.
+
+02:26.659 --> 02:32.990
+Pozorně se tedy podívejte,
+zda se nejedná o složenou funkcí.
+
+02:32.990 --> 02:37.283
+Další chybou studentů
+je, že i když poznají,
+
+02:37.283 --> 02:42.204
+že mají použít pravidlo pro derivaci
+složené funkce, nepoužijí ho celé.
+
+02:42.204 --> 02:44.426
+Použijme na to
+ten samý příklad.
+
+02:44.426 --> 02:48.958
+Pravidlo o derivaci složené funkce říká,
+že musíme zderivovat vnější funkci,
+
+02:48.958 --> 02:51.730
+a derivujeme podle
+vnitřní funkce.
+
+02:51.730 --> 02:56.152
+V našem případě se f(x) rovná
+přirozenému logaritmu z ‚x‘
+
+02:56.152 --> 02:58.550
+a f v bodě g(x)
+je tento výraz.
+
+02:58.550 --> 03:07.627
+Když budu chtít spočítat první část,
+tedy f s čárkou v bodě g(x),
+
+03:07.627 --> 03:18.415
+tak derivace přirozeného
+logaritmu z ‚x‘ je 1 lomeno x,
+
+03:18.415 --> 03:20.737
+ale my nechceme
+derivaci v bodě x,
+
+03:20.737 --> 03:23.561
+chceme derivaci
+v bodě g(x),
+
+03:23.561 --> 03:31.048
+takže místo 1 lomeno x
+to bude 1 lomeno g(x),
+
+03:31.048 --> 03:38.224
+přičemž víme, že
+g(x) se rovná sin(x).
+
+03:38.224 --> 03:42.086
+Jednou z hlavních chyb, o které nám
+pracovníci College Board řekli,
+
+03:42.086 --> 03:44.781
+je to, že mnoho
+studentů tady skončí.
+
+03:44.781 --> 03:49.329
+Udělají pouze tuto první část
+a zapomenou vynásobit touto druhou částí.
+
+03:49.329 --> 03:51.282
+V tuhle chvíli totiž
+ještě nemáme hotovo.
+
+03:51.282 --> 03:55.021
+Tohle ještě musíme vynásobit
+derivací g v bodě x.
+
+03:55.021 --> 03:56.092
+Tak si ji
+napišme.
+
+03:56.092 --> 03:58.930
+Čemu se rovná
+g s čárkou v bodě x?
+
+03:58.930 --> 04:08.548
+Derivace funkce sin(x)
+podle x je cos(x).
+
+04:08.548 --> 04:13.599
+Výsledná derivace v našem
+příkladě tak bude…
+
+04:13.599 --> 04:15.587
+Snad to nějak
+vmáčknu sem.
+
+04:15.587 --> 04:20.372
+Bude to 1 lomeno sin(x),
+což je tato první část, krát cos(x).
+
+04:20.372 --> 04:21.805
+Tak to tam
+napišme.
+
+04:21.805 --> 04:26.328
+Je to 1 lomeno sin(x)…
+
+04:26.328 --> 04:28.288
+Udělám to tou
+druhou barvou.
+
+04:28.288 --> 04:34.770
+1 lomeno sin(x)
+a tohle krát cos(x).
+
+04:34.770 --> 04:39.484
+Ještě jednou si to zopakujme,
+abyste neudělali jednu z těchto chyb.
+
+04:39.484 --> 04:44.787
+Barevně to tu ohraničím,
+aby to bylo trochu přehlednější.
+
+04:44.787 --> 04:49.520
+Dejte si pozor, abyste neudělali
+jednu z těchto chyb.
+
+04:49.520 --> 04:51.425
+Musíte poznat, že
+jde o složenou funkci.
+
+04:51.425 --> 04:54.007
+Toto není součin přirozeného
+logaritmu z ‚x‘ a sin(x),
+
+04:54.007 --> 04:56.534
+ale je to přirozený
+logaritmus ze sin(x).
+
+04:56.534 --> 04:59.208
+Když poté používáte vzorec
+pro derivaci složené funkce,
+
+04:59.208 --> 05:01.317
+tedy derivace vnější
+funkce podle té vnitřní…
+
+05:01.317 --> 05:03.788
+Derivace přirozeného
+logaritmu z ‚x‘ je 1 lomeno x,
+
+05:03.788 --> 05:08.843
+takže v bodě g(x)
+to bude 1 lomeno sin(x).
+
+05:08.843 --> 05:13.073
+A tohle krát
+derivace vnitřní funkce.
+
+05:13.073 --> 05:16.144
+Nezapomeňte tedy
+na tento krok.
+
+05:16.144 --> 05:19.708
+Další chybou, kterou
+studenti dělají, je to,
+
+05:19.708 --> 05:23.744
+že místo toho, aby pravidlo pro derivaci
+složené funkce použili jako právě teď my,
+
+05:23.744 --> 05:29.957
+tak zderivují vnější funkci
+podle derivace vnitřní funkce.
+
+05:29.957 --> 05:41.736
+Spočítají tedy f s čárkou
+v bodě g(x) s čárkou.
+
+05:41.736 --> 05:46.480
+V našem případě se f s čárkou
+v bodě x rovná 1 lomeno x,
+
+05:46.480 --> 05:50.576
+ale když to má být v bodě
+g(x) s čárkou, tak tu bude cos(x).
+
+05:50.576 --> 05:52.858
+Mnoho studentů
+tedy postupuje takto.
+
+05:52.858 --> 06:02.973
+Zderivují vnější funkci a dosadí
+do toho derivaci vnitřní funkce.
+
+06:02.973 --> 06:06.123
+Toto není správně.
+
+06:06.123 --> 06:07.812
+Dejte si pozor,
+abyste to neudělali.
+
+06:07.812 --> 06:12.432
+Vnější funkci musíte zderivovat podle té
+vnitřní, ne podle derivace vnitřní funkce,
+
+06:12.432 --> 06:19.862
+a pak nezapomeňte vynásobit
+derivací vnitřní funkce.
+
+06:19.862 --> 06:21.352
+Snad vám tohle
+trochu pomůže.
+
+06:21.352 --> 06:23.332
+Pokud je pro vás
+tohle úplně neznámé,
+
+06:23.332 --> 06:28.532
+tak se podívejte na videa o derivaci
+složených funkcí s řešenými příklady.
+
+06:28.532 --> 06:31.202
+Tohle je jen
+video navrch,
+
+06:31.202 --> 06:37.232
+abyste nedělali chyby jako použít derivaci
+součinu místo derivace složené funkce
+
+06:37.232 --> 06:41.732
+nebo abyste při derivování složené funkce
+nezapomněli násobit derivací funkce g(x)
+
+06:41.732 --> 06:45.721
+nebo abyste nepoužívali
+f s čárkou v bodě g(x) s čárkou.
+
+06:45.721 --> 06:47.641
+Snad vám
+to pomohlo.

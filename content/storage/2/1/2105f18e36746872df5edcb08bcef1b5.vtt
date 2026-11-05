@@ -1,0 +1,772 @@
+WEBVTT
+
+00:00.620 --> 00:02.320
+It's late at night,
+and some type
+
+00:02.320 --> 00:05.860
+of nocturnal predatory
+bird, maybe this is an owl,
+
+00:05.860 --> 00:08.390
+is diving for its dinner.
+
+00:08.390 --> 00:13.500
+So this right over
+here is a mouse.
+
+00:13.500 --> 00:18.360
+And it's diving straight
+down near a street light.
+
+00:18.360 --> 00:20.720
+And let's get some information
+about what's going on.
+
+00:20.720 --> 00:25.610
+So the street light right
+over here is 20 feet high.
+
+00:25.610 --> 00:31.140
+So this is a 20 foot
+high street lamp.
+
+00:31.140 --> 00:33.710
+And right at this
+moment, the-- and I
+
+00:33.710 --> 00:35.360
+haven't drawn it
+completely to scale--
+
+00:35.360 --> 00:39.200
+the owl is 15 feet
+above the mouse.
+
+00:39.200 --> 00:44.540
+So this distance right
+over here is 15 feet.
+
+00:44.540 --> 00:48.840
+And the mouse itself is 10
+feet from the base of the lamp.
+
+00:48.840 --> 00:49.640
+Let me draw that.
+
+00:49.640 --> 00:56.780
+So the mouse is 10 feet
+from the base of the lamp.
+
+00:56.780 --> 00:58.850
+And we also know-- we
+have our little radar
+
+00:58.850 --> 01:02.500
+gun out-- we know that this
+owl is diving straight down.
+
+01:05.090 --> 01:09.090
+And right now, it is
+going 20 feet per second.
+
+01:09.090 --> 01:17.290
+So right now, this is going
+down at 20 feet per second.
+
+01:17.290 --> 01:20.210
+Now what we're curious about
+is we have the light over here.
+
+01:20.210 --> 01:23.490
+Light is coming from the
+street lamp in every direction.
+
+01:23.490 --> 01:26.080
+And it creates a
+shadow of the owl.
+
+01:26.080 --> 01:28.130
+So right now the
+shadow is out here.
+
+01:28.130 --> 01:30.440
+And as the owl goes
+further and further down,
+
+01:30.440 --> 01:35.510
+the shadow's going to move
+to the left like that.
+
+01:35.510 --> 01:38.040
+And so, given everything that
+we've set up right over here,
+
+01:38.040 --> 01:44.300
+the question is, at what
+rate is the shadow moving?
+
+01:44.300 --> 01:46.770
+So let's think about what we
+know and what we don't know.
+
+01:46.770 --> 01:49.620
+And to do that, let's
+set up some variables.
+
+01:49.620 --> 01:52.910
+So let me draw the same thing a
+little bit more geometrically.
+
+01:52.910 --> 01:58.130
+So let's say that this right
+over here is the street light.
+
+01:58.130 --> 02:00.350
+That is 20 feet tall.
+
+02:00.350 --> 02:06.770
+And then this right over
+here is the height of the owl
+
+02:06.770 --> 02:09.780
+right at this moment,
+so this is 15 feet.
+
+02:09.780 --> 02:11.520
+The distance between
+the base of the lamp
+
+02:11.520 --> 02:14.650
+and where the owl is going,
+where that mouse is right now.
+
+02:14.650 --> 02:16.760
+This is 10 feet.
+
+02:16.760 --> 02:18.880
+And if I were to think
+about where the shadow is,
+
+02:18.880 --> 02:22.970
+well, the light's
+from right over here.
+
+02:22.970 --> 02:25.790
+And so the owl blocks the
+light right over there,
+
+02:25.790 --> 02:27.880
+so the shadow is going
+to be right over there.
+
+02:27.880 --> 02:31.330
+So if you just draw a straight
+line from the source of light
+
+02:31.330 --> 02:33.639
+through the owl and
+you just keep going
+
+02:33.639 --> 02:35.180
+and you hit the
+ground, you are going
+
+02:35.180 --> 02:36.596
+to figure out where
+the shadow is.
+
+02:36.596 --> 02:44.500
+So the shadow is going
+to be right over here.
+
+02:44.500 --> 02:46.110
+It's going to be
+right over there.
+
+02:46.110 --> 02:49.140
+And we need to figure out
+how quickly is that moving.
+
+02:49.140 --> 02:54.190
+And it's going to be moving
+in the leftward direction.
+
+02:54.190 --> 02:57.110
+So let's set up some
+variables over here.
+
+02:57.110 --> 02:59.090
+So let's say-- so
+what's changing?
+
+02:59.090 --> 03:01.410
+Well, we know that the height
+of the owl is changing.
+
+03:01.410 --> 03:03.000
+So let's call that y.
+
+03:03.000 --> 03:05.220
+Right at this moment,
+it's equal to 15,
+
+03:05.220 --> 03:07.290
+but it is actually changing.
+
+03:07.290 --> 03:14.345
+And let's call the
+distance between the shadow
+
+03:14.345 --> 03:19.790
+and the mouse x.
+
+03:19.790 --> 03:22.040
+Now given this set
+up, can we come up
+
+03:22.040 --> 03:24.185
+with a relationship
+between x and y?
+
+03:24.185 --> 03:26.310
+And then using that
+relationship, what we're really
+
+03:26.310 --> 03:29.440
+trying to come up with is,
+what is the rate at which x
+
+03:29.440 --> 03:31.780
+is changing with
+respect to time?
+
+03:31.780 --> 03:33.880
+We know what y is
+right at this moment.
+
+03:33.880 --> 03:37.800
+We know what dy/dt is
+right at this moment.
+
+03:37.800 --> 03:39.790
+Can we come up the
+relationship between x and y
+
+03:39.790 --> 03:41.540
+and maybe take the
+derivative with respect
+
+03:41.540 --> 03:44.970
+to t so we can
+figure out what dx/dt
+
+03:44.970 --> 03:48.990
+is at a given moment in time?
+
+03:48.990 --> 03:51.094
+Well, both of these
+triangles-- and when
+
+03:51.094 --> 03:52.510
+I say both of these
+triangles, let
+
+03:52.510 --> 03:54.720
+me be clear what
+I'm talking about.
+
+03:54.720 --> 03:58.590
+This triangle right over here,
+the smaller triangle in green,
+
+03:58.590 --> 04:01.600
+is a similar triangle
+to the larger triangle.
+
+04:01.600 --> 04:04.630
+This is a similar triangle
+to this larger triangle
+
+04:04.630 --> 04:06.640
+that I am tracing in blue.
+
+04:06.640 --> 04:08.770
+It's similar to this larger one.
+
+04:08.770 --> 04:10.250
+How do I know that?
+
+04:10.250 --> 04:13.430
+Well, they both have a right
+angle, right over here.
+
+04:13.430 --> 04:15.190
+They both share this angle.
+
+04:15.190 --> 04:16.820
+So all three-- they
+have two angles
+
+04:16.820 --> 04:22.280
+in common-- then all three
+angles must be in common.
+
+04:22.280 --> 04:23.780
+So they are similar
+triangles, which
+
+04:23.780 --> 04:26.390
+means the ratio between
+corresponding sides
+
+04:26.390 --> 04:28.410
+must be the same.
+
+04:28.410 --> 04:33.790
+So we know that
+the ratio of x to y
+
+04:33.790 --> 04:38.370
+must be the ratio of this
+entire base, which is x plus 10,
+
+04:38.370 --> 04:42.860
+to the height of the
+larger triangle, to 20.
+
+04:42.860 --> 04:45.280
+And right there, we have a
+relationship between x and y.
+
+04:45.280 --> 04:48.150
+And if we take the derivative
+of both sides with respect to t,
+
+04:48.150 --> 04:50.875
+we're probably
+doing pretty well.
+
+04:50.875 --> 04:52.750
+Now before taking the
+derivative with respect
+
+04:52.750 --> 04:54.660
+to t-- I could do
+it right over here--
+
+04:54.660 --> 04:56.400
+just to simplify
+things a little bit,
+
+04:56.400 --> 04:57.780
+let me just cross multiply.
+
+04:57.780 --> 05:01.030
+So let me multiply both
+sides of this equation by 20
+
+05:01.030 --> 05:04.190
+and y, just so that I
+don't have as many things
+
+05:04.190 --> 05:05.600
+in the denominator.
+
+05:05.600 --> 05:08.700
+So on the left hand side
+it simplifies to 20x.
+
+05:08.700 --> 05:11.570
+I don't want to write over it,
+well, I'll just write-- 20x.
+
+05:11.570 --> 05:15.580
+And on the left
+hand side is 20 x.
+
+05:15.580 --> 05:17.200
+And then on the
+right hand side--
+
+05:17.200 --> 05:26.254
+let's see this cancels with
+that-- we have xy plus 10y.
+
+05:26.254 --> 05:27.670
+And now let me
+take the derivative
+
+05:27.670 --> 05:30.990
+of both sides with
+respect to time.
+
+05:30.990 --> 05:34.274
+So the derivative of 20 times
+something with respect to time
+
+05:34.274 --> 05:36.940
+is going to be the derivative of
+20 times something with respect
+
+05:36.940 --> 05:38.852
+to the something,
+which is just 20.
+
+05:38.852 --> 05:40.560
+That's the derivative
+of 20x with respect
+
+05:40.560 --> 05:45.030
+to x, times dx or the derivative
+of x with respect to t,
+
+05:45.030 --> 05:46.669
+is equal to.
+
+05:46.669 --> 05:48.460
+Now over here we're
+going have to break out
+
+05:48.460 --> 05:50.166
+a little bit of
+the product rule.
+
+05:50.166 --> 05:52.040
+So first we want to
+figure out the derivative
+
+05:52.040 --> 05:53.770
+of x with respect to time.
+
+05:56.900 --> 06:00.430
+So the derivative of the first
+thing times the second thing,
+
+06:00.430 --> 06:01.590
+times y.
+
+06:01.590 --> 06:03.720
+Plus just the first thing
+times the derivative
+
+06:03.720 --> 06:04.585
+of the second thing.
+
+06:04.585 --> 06:06.710
+So derivative of y with
+respect to t is just dy/dt.
+
+06:09.690 --> 06:12.500
+And then finally,
+right over here.
+
+06:12.500 --> 06:14.830
+The derivative of
+10y with respect to t
+
+06:14.830 --> 06:18.320
+is the derivative of 10y with
+respect to y, which is just 10,
+
+06:18.320 --> 06:21.247
+times the derivative of y with
+respect to t, which is dy/dt.
+
+06:23.544 --> 06:24.460
+And there you have it.
+
+06:24.460 --> 06:29.400
+You have your relationship
+between dx/dt, dy/dt, and x
+
+06:29.400 --> 06:30.689
+and y.
+
+06:30.689 --> 06:32.480
+So let's just make sure
+we have everything.
+
+06:32.480 --> 06:35.682
+This is what we're trying
+to solve for, dx/dt.
+
+06:35.682 --> 06:37.640
+And let's see here, we
+have another dx/dt here.
+
+06:37.640 --> 06:39.300
+We're going to try
+to solve for that.
+
+06:39.300 --> 06:42.380
+We know what y is.
+y is equal to 15.
+
+06:42.380 --> 06:45.690
+We know what dy/dt is, dy/dt.
+
+06:45.690 --> 06:48.610
+If we make the convention
+since y is decreasing,
+
+06:48.610 --> 06:50.340
+we can say it's -20.
+
+06:50.340 --> 06:52.840
+So we know what this is.
+
+06:52.840 --> 06:56.210
+And so if we just know what,
+so we know what this is.
+
+06:56.210 --> 07:01.380
+So if we just know what x
+is we can solve for dx/dt.
+
+07:01.380 --> 07:04.310
+So what is x right
+at this moment?
+
+07:04.310 --> 07:06.505
+Well, we can use
+this first equation--
+
+07:06.505 --> 07:08.130
+we could actually
+use this one up here,
+
+07:08.130 --> 07:11.040
+but this one is simplified a
+little bit-- to actually solve
+
+07:11.040 --> 07:11.680
+for x.
+
+07:11.680 --> 07:14.346
+So let's do that, and then we'll
+substitute back into this thing
+
+07:14.346 --> 07:15.870
+where we've taken
+the derivative.
+
+07:15.870 --> 07:22.400
+So we get 20 times x
+is equal to x times y.
+
+07:22.400 --> 07:24.055
+y is 15.
+
+07:24.055 --> 07:26.180
+And just remember, I could
+have used this equation,
+
+07:26.180 --> 07:27.970
+but this is just
+one step further.
+
+07:27.970 --> 07:29.660
+We've already
+crossed multiplied.
+
+07:29.660 --> 07:32.240
+So it's x times y. y is 15.
+
+07:32.240 --> 07:35.680
+So it's x times 15,
+plus 10 times y.
+
+07:35.680 --> 07:39.047
+Plus 10 times 15.
+
+07:39.047 --> 07:39.880
+Did I do that right?
+
+07:39.880 --> 07:45.490
+20x is equal to x times
+15 plus 10 times 15.
+
+07:45.490 --> 07:47.080
+So let's see if you subtract.
+
+07:47.080 --> 07:52.450
+So just this is 20x is
+equal to 15x, plus 150.
+
+07:52.450 --> 07:55.020
+Subtract 15x from
+both sides, you
+
+07:55.020 --> 07:59.900
+get 5x is equal to 30--
+sorry, 5x is equal to 150,
+
+07:59.900 --> 08:01.420
+my brain is getting ahead.
+
+08:01.420 --> 08:03.330
+5x is equal to 150.
+
+08:03.330 --> 08:04.690
+Divide both sides by 5.
+
+08:04.690 --> 08:08.560
+You get x is equal to 30 feet.
+
+08:08.560 --> 08:11.760
+x is equal to 30 feet
+right at this moment.
+
+08:11.760 --> 08:15.240
+So this distance, just going
+back to our original diagram.
+
+08:15.240 --> 08:17.782
+This distance right
+over here is 30 feet.
+
+08:17.782 --> 08:19.740
+So let's substitute all
+the values we know back
+
+08:19.740 --> 08:23.580
+into this equation to
+actually solve for dx/dt.
+
+08:23.580 --> 08:25.800
+So we have-- so let me
+do it right over here--
+
+08:25.800 --> 08:29.860
+we have 20 times dx/dt.
+
+08:29.860 --> 08:31.830
+I'll do that in orange,
+we'll solve for that.
+
+08:31.830 --> 08:33.288
+Actually no, I
+already used orange.
+
+08:33.288 --> 08:36.260
+So let's say dx/dt-- I'll
+use this pink-- 20 times
+
+08:36.260 --> 08:41.860
+dx/dt is equal to dx/dt times y.
+
+08:41.860 --> 08:44.400
+y right now is 15 feet.
+
+08:44.400 --> 08:50.070
+So times 15, times-- I
+didn't want to do that color.
+
+08:50.070 --> 08:56.220
+Times 15 plus x, we
+already know that x is 30.
+
+08:56.220 --> 08:59.160
+Plus 30, times dy/dt.
+
+08:59.160 --> 09:00.280
+What is dy/dt?
+
+09:00.280 --> 09:07.400
+dy/dt, we could say is -20 feet
+per second. y is decreasing,
+
+09:07.400 --> 09:11.150
+the bird is the bird is
+diving down to get its dinner.
+
+09:11.150 --> 09:16.530
+So times negative-- well,
+times 20 feet per second.
+
+09:16.530 --> 09:18.090
+So that's that right over there.
+
+09:18.090 --> 09:20.640
+Plus 10 times dy/dt.
+
+09:20.640 --> 09:25.840
+So plus 10 times
+-20 feet per second.
+
+09:25.840 --> 09:27.910
+And now we just solve for dx/dt.
+
+09:27.910 --> 09:29.160
+So let's see, what do we have?
+
+09:29.160 --> 09:34.280
+We have 20 times-- let's see,
+let me subtract 15 dx/dt from
+
+09:34.280 --> 09:37.310
+both sides of this equation--
+and we get 5dx/dt's.
+
+09:40.880 --> 09:44.040
+I just subtracted this from
+both sides of the equation.
+
+09:44.040 --> 09:45.920
+This is 15dx/dt this is 20.
+
+09:45.920 --> 09:50.046
+So that we have 5dx/dt's,
+is equal to this
+
+09:50.046 --> 09:55.250
+is, this part right
+over here is -600.
+
+09:55.250 --> 09:59.120
+And this part right
+over here is -200.
+
+09:59.120 --> 10:05.720
+So it's equal to -800
+feet per second-- or -800,
+
+10:05.720 --> 10:08.350
+and actually this will
+actually be in feet per second.
+
+10:08.350 --> 10:12.660
+And so dx/dt is equal to,
+dividing both sides by 5,
+
+10:12.660 --> 10:15.720
+5 times 16 is 80.
+
+10:15.720 --> 10:20.640
+So this is -160 feet per second.
+
+10:20.640 --> 10:21.390
+And we're done.
+
+10:21.390 --> 10:25.760
+And we see the shadow is
+moving very, very, very, very
+
+10:25.760 --> 10:26.780
+fast to the left.
+
+10:26.780 --> 10:28.869
+x is decreasing,
+and we see that.
+
+10:28.869 --> 10:30.660
+That's why we have this
+negative sign here.
+
+10:30.660 --> 10:32.300
+The value of x is decreasing.
+
+10:32.300 --> 10:38.140
+It is moving to the left
+at quite a nice speed here.

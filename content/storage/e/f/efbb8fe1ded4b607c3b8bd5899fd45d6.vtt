@@ -1,0 +1,193 @@
+WEBVTT
+
+00:00.749 --> 00:05.509
+Cílem tohoto videa je vypočítat
+integrál přirozeného logaritmu z x.
+
+00:05.519 --> 00:08.769
+Způsob, jak k tomu přistoupit,
+není ze začátku úplně zřejmý.
+
+00:08.769 --> 00:11.688
+I kdybych vám řekl,
+abyste použili metodu per partes,
+
+00:11.688 --> 00:17.333
+hledali byste něco,
+co vypadá jako součin dvou funkcí,
+
+00:17.333 --> 00:20.863
+ale tady to vypadá, jako bych měl pouze
+jednu funkci, přirozený logaritmus x.
+
+00:20.883 --> 00:22.695
+Mohlo by to ale být mnohem jasnější,
+
+00:22.705 --> 00:30.415
+kdybych to napsal jako integrál
+z přirozeného logaritmu x krát 1 dx.
+
+00:30.435 --> 00:35.827
+Teď už máme součin dvou funkcí.
+1 je funkce. Funkce proměnné x.
+
+00:35.837 --> 00:38.292
+Není sice závislá na x,
+bude to pořád 1,
+
+00:38.292 --> 00:40.722
+ale mohli bychom mít funkci
+f(x) se rovná 1.
+
+00:40.732 --> 00:44.160
+Nyní je použití metody
+per partes mnohem jasnější.
+
+00:44.160 --> 00:47.792
+Per partes nám říká,
+že když máme integrál,
+
+00:47.802 --> 00:56.962
+který lze vnímat jako součin
+jedné funkce krát derivace druhé funkce…
+
+00:56.972 --> 00:59.455
+Toto je vlastně
+opak pravidla derivace součinu,
+
+00:59.455 --> 01:01.035
+to už jsme si několikrát ukázali.
+
+01:01.045 --> 01:13.403
+Tohle bude rovno součinu obou funkcí,
+f(x) krát g(x), minus integrál z...
+
+01:13.423 --> 01:17.115
+Místo f a derivace g
+budeme mít derivaci f a g.
+
+01:17.115 --> 01:27.070
+Takže derivace f(x) krát g(x) dx.
+
+01:27.070 --> 01:28.720
+A tohle jsme viděli už několikrát.
+
+01:28.730 --> 01:31.520
+Když chceme přijít na to,
+co by mělo být f a co g,
+
+01:31.530 --> 01:33.390
+za f musíme dosadit něco,
+
+01:33.400 --> 01:38.690
+co se snadno derivuje
+a zároveň se derivací zjednoduší.
+
+01:38.700 --> 01:44.095
+A pro derivaci g chceme najít něco,
+co se snadno integruje.
+
+01:44.095 --> 01:47.008
+Dobrým kandidátem na f
+je tedy přirozený logaritmus x.
+
+01:47.008 --> 01:50.410
+Jeho derivace je jednoduše 1/x.
+Raději to napíšu.
+
+01:50.410 --> 01:56.215
+Takže pokud f je rovno
+přirozenému logaritmu z x,
+
+01:56.225 --> 02:00.269
+derivace f bude rovna 1/x.
+
+02:00.269 --> 02:03.801
+A řekněme, že derivace g se rovná 1.
+
+02:03.801 --> 02:06.934
+Derivace g se rovná 1.
+
+02:06.944 --> 02:12.334
+To znamená,
+že g by se mohlo rovnat x.
+
+02:12.334 --> 02:14.295
+A teď se vraťme sem.
+
+02:14.295 --> 02:19.780
+Tohle tedy bude rovno f(x) krát g(x).
+
+02:19.780 --> 02:24.200
+f(x) krát g(x) je
+x krát přirozený logaritmus x.
+
+02:24.220 --> 02:28.497
+g(x) je x a
+f(x) je přirozený logaritmus x.
+
+02:28.507 --> 02:32.197
+Raději napíšu x před logaritmus x,
+abych předešel nejasnostem.
+
+02:32.207 --> 02:40.912
+Toto je tedy x krát přirozený logaritmus x
+minus integrál z derivace f, což je 1/x,
+
+02:40.912 --> 02:48.919
+krát g(x), což je x, dx.
+
+02:48.929 --> 02:50.528
+Čemu se bude rovnat tohle?
+
+02:50.528 --> 02:57.441
+Uvnitř integrálu máme jednoduše
+1/x krát x, což je 1.
+
+02:57.441 --> 03:00.288
+Takže se to celé pěkně zjednoduší.
+
+03:00.308 --> 03:05.663
+Nakonec se to bude rovnat…
+Napíšu to sem.
+
+03:05.663 --> 03:13.507
+Nakonec se to bude rovnat
+x krát přirozený logaritmus x
+
+03:13.517 --> 03:21.167
+minus integrál jen z dx,
+neboli integrál z 1 dx.
+
+03:21.167 --> 03:23.937
+Integrál z 1,
+to je minus x.
+
+03:23.947 --> 03:27.934
+To je ale jen jeden z možných integrálů.
+Pokud chceme obecnější výsledek,
+
+03:27.944 --> 03:32.124
+musíme sem přidat plus c.
+
+03:32.134 --> 03:33.754
+A jsme hotoví.
+
+03:33.754 --> 03:38.106
+Našli jsme integrál
+z přirozeného logaritmu x.
+
+03:38.106 --> 03:40.189
+Doporučuji vám,
+aby jste si to zderivovali.
+
+03:40.209 --> 03:42.615
+Tady použijete pravidlo
+pro derivaci součinu.
+
+03:42.615 --> 03:46.600
+A vyzkoušejte si, že skutečně
+dostanete přirozený logaritmus x,
+
+03:46.620 --> 03:49.250
+když toto zderivujete.

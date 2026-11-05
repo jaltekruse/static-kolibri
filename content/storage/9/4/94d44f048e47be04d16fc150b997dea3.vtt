@@ -1,0 +1,343 @@
+WEBVTT
+
+00:00.733 --> 00:03.151
+Er det lineære ligningssytem nedenfor
+
+00:03.151 --> 00:06.313
+afhængigt eller uafhængigt?
+
+00:06.313 --> 00:07.575
+Vi har fået 2 ligninger her.
+
+00:07.575 --> 00:09.677
+Inden vi løser den her opgave,
+
+00:09.677 --> 00:11.812
+kan vi se lidt på,
+
+00:11.812 --> 00:13.025
+hvad afhængig og uafhængig betyder.
+
+00:13.041 --> 00:14.629
+Vi sammenligner det med
+
+00:14.629 --> 00:16.860
+konsistent og inkonsistent.
+
+00:16.860 --> 00:18.538
+Hvis vi har at gøre med et
+
+00:18.538 --> 00:21.906
+ligningssystem i 2 dimensioner,
+
+00:21.906 --> 00:23.767
+er der kun 3 muligheder.
+
+00:23.767 --> 00:26.427
+.
+
+00:26.427 --> 00:28.564
+Lad os tegne de 3 forskellige muligheder.
+
+00:28.564 --> 00:30.015
+Vi tegner først 3 koordinatsystemer.
+
+00:30.015 --> 00:35.032
+Det her er vores første x- og y-akse.
+
+00:35.032 --> 00:37.964
+x og y. Lad s tegne endnu et.
+
+00:37.964 --> 00:44.918
+Det her er x, og det her er y.
+
+00:44.918 --> 00:47.169
+Lad os tegne endnu et, for der er 3 muligheder, når vi har med 2 dimensioner at gøre.
+
+00:47.169 --> 00:50.323
+x og y.
+
+00:50.323 --> 00:54.933
+Vi har kun med lineære ligningssystemer at gøre i den her video.
+
+00:54.933 --> 00:58.215
+Vi kan have en situation, hvor linjerne skærer hinanden i et punkt.
+
+00:58.215 --> 01:03.231
+Det kunne se sådan her ud.
+
+01:03.231 --> 01:04.938
+Linjerne ville gå sådan her.
+
+01:04.938 --> 01:08.378
+De skærer i et punkt.
+
+01:08.378 --> 01:10.350
+Vi kunne også have en situation, hvor 2 linjer er parallelle.
+
+01:10.350 --> 01:13.477
+Den situation
+
+01:13.477 --> 01:15.923
+kan vi tegne her.
+
+01:15.923 --> 01:17.815
+En linje vil være sådan her,
+
+01:17.815 --> 01:19.605
+og den anden linje vil have samme hældning.
+
+01:19.605 --> 01:21.421
+Den vil dog have et anden y-skæringspunkt.
+
+01:21.421 --> 01:23.733
+Der er altså ingen skæringspunkter mellem linjerne.
+
+01:23.733 --> 01:26.021
+Vi kan også have en situation,
+
+01:26.021 --> 01:29.554
+hvor de 2 linjer i virkeligheden er samme linje.
+
+01:29.554 --> 01:31.513
+De har altså samme hældning
+
+01:31.513 --> 01:34.420
+og samme y-skæringspunkt
+
+01:34.420 --> 01:38.005
+og er i virkeligheden samme linje.
+
+01:38.005 --> 01:39.900
+De vil skære hinanden i uendeligt mange punkter,
+
+01:39.900 --> 01:42.718
+og alle punkter på den ene linje er også et punkt på den anden linje.
+
+01:42.718 --> 01:45.431
+Lad os få sat nogle termer
+
+01:45.431 --> 01:49.175
+på det her.
+
+01:49.175 --> 01:51.159
+Vi lærte i sidste video, at den her type system,
+
+01:51.159 --> 01:53.467
+hvor der ingen løsninger er,
+
+01:53.467 --> 01:59.429
+er et inkonsistent system.
+
+01:59.429 --> 02:01.329
+Det modsatte af inkonsistent
+
+02:01.329 --> 02:03.154
+er naturligvis konsistent.
+
+02:03.154 --> 02:06.082
+Begge de her 2 er konsistente.
+
+02:06.082 --> 02:08.467
+De er konsistente.
+
+02:08.467 --> 02:10.344
+De kan dog være konsistente på flere måder.
+
+02:10.344 --> 02:12.498
+Der er jo tydeligvis en forskel.
+
+02:12.498 --> 02:14.092
+Her har vi en løsning, hvor linjerne skærer i et punkt,
+
+02:14.092 --> 02:15.985
+og her har vi en løsning,
+
+02:15.985 --> 02:19.082
+hvor de 2 linjer er ens.
+
+02:19.082 --> 02:20.975
+Vi differentierer mellem de her 2
+
+02:20.975 --> 02:23.314
+scenarier ved at kalde den her uafhængig
+
+02:23.314 --> 02:32.340
+og den her afhængig.
+
+02:32.340 --> 02:34.719
+I et uafhængigt system er linjerne forskellige.
+
+02:34.719 --> 02:37.298
+De er ikke afhængige af hinanden,
+
+02:37.298 --> 02:39.323
+og de er ikke samme linje.
+
+02:39.323 --> 02:41.226
+De vil dog skære i et punkt.
+
+02:41.226 --> 02:43.436
+Hvis linjerne er afhængige,
+
+02:43.436 --> 02:44.964
+vil linjerne dele alle punkter.
+
+02:44.964 --> 02:46.262
+Hvis punktet er på den ene linje,
+
+02:46.262 --> 02:49.738
+vil det også være på den anden ligning.
+
+02:49.738 --> 02:53.679
+Med det på plads kan vi bestemme,
+
+02:53.679 --> 02:55.759
+om det her system er afhængigt eller uafhængigt.
+
+02:55.759 --> 02:57.329
+Vi antager altså, at systemet er konsistent.
+
+02:57.329 --> 02:58.862
+Altså enten skærer ligningerne i præcis et punkt,
+
+02:58.862 --> 03:00.898
+eller også skærer ligningerne
+
+03:00.898 --> 03:02.218
+i et uendeligt antal punkter.
+
+03:02.218 --> 03:05.067
+Det nemmeste er at starte med den anden ligning her.
+
+03:05.067 --> 03:07.800
+Den står faktisk allerede
+
+03:07.800 --> 03:09.693
+på hældnings-skæringspunktsform.
+
+03:09.693 --> 03:13.432
+Vi ved, at hældningen er minus 2, og y-skæringspunktet er 8.
+
+03:13.432 --> 03:17.138
+Lad os skrive den her ligning
+
+03:17.138 --> 03:18.525
+på hældnings-skæringspunktsform for at se,
+
+03:18.525 --> 03:20.425
+om den har en anden hældning eller et andet skæringspunkt.
+
+03:20.425 --> 03:22.569
+Vi har altså
+
+03:22.569 --> 03:27.419
+4x plus 2y er lig med 16.
+
+03:27.419 --> 03:29.723
+Vi kan trække 4x fra på begge sider.
+
+03:29.723 --> 03:31.513
+Vi skal isolere y på venstre side.
+
+03:31.513 --> 03:35.082
+Lad os trække 4x fra på begge sider.
+
+03:35.082 --> 03:39.051
+På venstre side
+
+03:39.051 --> 03:41.759
+står vi tilbage med 2y,
+
+03:41.759 --> 03:45.918
+og på højre side har vi minus 4x plus 16.
+
+03:45.918 --> 03:48.107
+Vi har skrevet minus 4x foran 16.
+
+03:48.107 --> 03:49.941
+Så har vi ligningen i traditionel hældnings-skæringspunktsform.
+
+03:49.941 --> 03:52.021
+Nu kan vi dividere begge sider af ligningen med 2,
+
+03:52.021 --> 03:54.144
+Lad os gøre det.
+
+03:54.144 --> 03:56.759
+Så har vi isoleret y.
+
+03:56.759 --> 03:58.733
+Det gør vi.
+
+03:58.733 --> 04:04.334
+Vi får y er lig med minus 4 divideret med 2, som er minus 2x
+
+04:04.334 --> 04:08.269
+plus 16 over 2, som er plus 8.
+
+04:08.269 --> 04:10.717
+Vi har altså manipuleret den øverste ligning
+
+04:10.717 --> 04:12.997
+ved at bruge algebra
+
+04:12.997 --> 04:16.185
+og isoleret y. Det må man godt.
+
+04:16.185 --> 04:17.882
+Vi har fået det her,
+
+04:17.882 --> 04:20.400
+som er præcis det samme som den anden ligning.
+
+04:20.400 --> 04:24.667
+Vi har præcis samme hældning. Minus 2.
+
+04:24.667 --> 04:27.139
+Vi har også samme y-skæringspunkt, som er 8.
+
+04:27.139 --> 04:31.713
+Vi kan afbilde de her ligninger.
+
+04:31.713 --> 04:36.308
+Det her er x-aksen, og det her er y-aksen.
+
+04:36.308 --> 04:39.641
+De har begge 8 som y-skæringspunkt,
+
+04:39.641 --> 04:41.179
+og de har en hældning på 2.
+
+04:41.179 --> 04:43.087
+Grafen vil komme
+
+04:43.087 --> 04:44.518
+til at se nogenlunde sådan her ud.
+
+04:44.518 --> 04:48.359
+Det her er grafen
+
+04:48.359 --> 04:51.215
+for den ligning lige her.
+
+04:51.215 --> 04:52.596
+Den anden ligning vil afbildet være præcis den samme graf,
+
+04:52.596 --> 04:54.390
+fordi den har samme y-skæringspunkt
+
+04:54.390 --> 04:56.944
+og samme hældning.
+
+04:56.944 --> 05:00.740
+De her 2 linjer er altså tydeligvis afhængige.
+
+05:00.740 --> 05:03.708
+De har en uendeligt stor mængde punkter,
+
+05:03.708 --> 05:06.354
+som begge linjer har,
+
+05:06.354 --> 3:59:59.999
+fordi de i virkeligheden er den samme linje.

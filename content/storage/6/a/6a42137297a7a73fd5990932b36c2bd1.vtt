@@ -1,0 +1,141 @@
+WEBVTT
+
+00:00.337 --> 00:03.235
+Hmotná částice se pohybuje
+po křivce dané vztahem
+
+00:03.235 --> 00:06.133
+x na druhou krát y
+na druhou rovná se 16.
+
+00:06.133 --> 00:13.743
+Souřadnice x její polohy se mění konstantní
+rychlostí −2 jednotky za minutu.
+
+00:13.743 --> 00:22.973
+Jakou rychlostí v jednotkách za minutu
+se mění souřadnice y polohy v bodě [1; 4]?
+
+00:22.973 --> 00:25.843
+Přepišme si zadání.
+
+00:25.843 --> 00:32.493
+Trajektorii bodu určuje vztah x na druhou
+y na druhou rovná se 16, jak víme odsud.
+
+00:32.493 --> 00:42.753
+Dál je klíčové, že souřadnice x se mění
+stálou rychlostí −2 jednotky za minutu.
+
+00:42.753 --> 01:03.603
+Neboli změna x podle času t se
+rovná −2 jednotkám vzdálenosti za minutu.
+
+01:03.603 --> 01:24.943
+My máme spočítat změnu y ve vztahu k času,
+tedy dy lomeno dt konkrétně v bodě [1; 4],
+
+01:24.943 --> 01:33.183
+x rovná se 1,
+y rovná se 4.
+
+01:33.183 --> 01:41.943
+Hledáme rovnici, jež zahrnuje x, y,
+změnu x a změnu y podle ‚t‘.
+
+01:41.943 --> 01:50.403
+Inu, co kdybychom zderivovali obě strany
+rovnice naší křivky podle ‚t‘?
+
+01:50.403 --> 02:12.933
+Rozepíšu to, posunu 16, abych měl
+místo, derivuji obě strany podle ‚t‘.
+
+02:12.933 --> 02:18.553
+Kdyby vás kdykoli během videa napadlo jak,
+zastavte video a zkuste to vyřešit sami.
+
+02:18.553 --> 02:31.703
+Levá strana je v podstatě součin 2 funkcí,
+takže začneme s derivací první z nich.
+
+02:31.703 --> 02:43.433
+Derivace x na druhou podle x je 2x,
+jenže my chceme hodnotu podle ‚t‘,
+
+02:43.433 --> 02:55.093
+Uplatňujeme pravidlo pro složenou funkci,
+máme 2x krát derivace x podle ‚t‘.
+
+02:55.093 --> 03:08.143
+To celé vynásobíme druhou funkcí, 2y
+na druhou, plus první funkce, x na druhou,
+
+03:08.143 --> 03:11.018
+krát derivace druhé funkce podle ‚t‘.
+
+03:11.018 --> 03:13.233
+Je to dle pravidla
+pro derivaci složené funkce.
+
+03:13.233 --> 03:30.553
+Derivace y na druhou podle ‚y‘,
+neboli 2y, krát derivace y podle ‚t‘.
+
+03:30.553 --> 03:36.363
+A to celé se bude rovnat
+derivaci 16 podle ‚t‘.
+
+03:36.363 --> 03:41.393
+16 je konstantní, v čase se nijak nemění,
+takže tato derivace bude mít hodnotu 0.
+
+03:41.393 --> 03:52.943
+A máme rovnici vyjadřující vztah mezi x,
+y a derivacemi obou z nich podle ‚t‘.
+
+03:52.943 --> 04:04.753
+Teď ji zjednoduším, bude to 2xy
+na druhou krát dx lomeno dt, plus...
+
+04:04.753 --> 04:09.653
+Já ji vlastně nemusím upravovat, zajímá
+mě jen hodnota derivace y lomeno ‚t‘.
+
+04:09.653 --> 04:25.073
+Stačí dosadit hodnoty, zajímá nás bod
+[1; 4], takže x je 1, x na druhou je 1,
+
+04:25.073 --> 04:40.743
+y je 4, y na druhou je 16, 2y je 8, zadání
+nám říká, že derivace x lomeno t je −2.
+
+04:40.743 --> 04:58.763
+Rovnici zjednodušíme, 2 krát 1 krát −2
+krát 16 je −4 krát 16, což se rovná −64.
+
+04:58.763 --> 05:08.963
+Druhý sčítanec je
+1 krát 8 krát dy lomeno dt,
+
+05:08.963 --> 05:15.523
+což je jen 8 dy lomeno dt, přičtu to sem.
+
+05:15.523 --> 05:18.723
+To celé se rovná 0, když k obou stranám
+přičteme 64,
+
+05:18.723 --> 05:26.563
+a dostáváme,
+že 8 dy lomeno dt rovná se 64.
+
+05:26.563 --> 05:38.603
+Obě strany vydělíme 8 a máme výsledek:
+derivace y podle ‚t‘ se rovná 8.
+
+05:38.603 --> 05:47.241
+Přesněji 8 jednotek vzdálenosti
+za minutu, jak po nás chtělo zadání.
+
+05:47.241 --> 05:50.701
+A máme hotovo!

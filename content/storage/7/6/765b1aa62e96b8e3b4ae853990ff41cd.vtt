@@ -1,0 +1,664 @@
+WEBVTT
+
+00:00.042 --> 00:02.557
+Mielőtt belevágnánk az algebra lényegébe,
+
+00:02.557 --> 00:03.895
+szeretnék egy idézettel kezdeni
+
+00:03.895 --> 00:05.879
+az egyik legismertebb tudóstól
+
+00:05.879 --> 00:09.591
+Galileo Galilei-től, mert úgy gondolom ez az idézet megragadja
+
+00:09.591 --> 00:13.907
+az algebra, és egyben matematika lényegét is.
+
+00:13.907 --> 00:16.991
+Azt állította, hogy: Abban a hatalmas könyvben rejlik a filozófia,
+
+00:16.991 --> 00:19.324
+mely folyamatosan körül vesz minket
+
+00:19.324 --> 00:20.958
+-- Az Univerzumra gondolok --
+
+00:20.958 --> 00:22.944
+de, meg nem érthetjük
+
+00:22.944 --> 00:23.444
+ha először nem sajátítjuk el a nyelvet
+
+00:23.444 --> 00:27.601
+és annak jelöléseit, melyen írva vagyon.
+
+00:27.601 --> 00:28.101
+E hatalmas könyv a matematika nyelvén íródott,
+
+00:28.101 --> 00:35.823
+mely nélkül, csak vakon botorkálunk egy sötét labirintusban.
+
+00:35.823 --> 00:38.298
+Igazán drámai és mélyreható,
+
+00:38.298 --> 00:38.798
+de pontosan ez a matematika lényege,
+
+00:38.798 --> 00:42.470
+és amit látni fogunk, ha elkezdjük,
+
+00:42.470 --> 00:44.874
+mélyebbre és mélyebbre jutva az algebrában,
+
+00:44.874 --> 00:46.918
+a dolgok absztraktját fogjuk használni,
+
+00:46.918 --> 00:48.915
+és alapgondolatokkal fogunk találkozni,
+
+00:48.915 --> 00:51.861
+ami el fogja magyarázni az univerzum struktúráját.
+
+00:51.861 --> 00:54.021
+Ezek az elképzelések használhatók olyan dolgokhoz, mint
+
+00:54.021 --> 00:56.923
+a gazdaság, pénzügy, fizika és kémia,
+
+00:56.923 --> 00:58.933
+de alapjaiban mind ugyanazon az elképzelésen nyugszik.
+
+00:58.933 --> 01:02.368
+Tehát ezek alapvetőek, sokkal tisztábbak,
+
+01:02.368 --> 01:05.076
+mint bármelyik használata ennek.
+
+01:05.076 --> 01:08.103
+És hogy lássuk, mit is értek az alatt, hogy eljutni az alap elképzeléshez.
+
+01:08.103 --> 01:10.580
+Kedjük akkor a ... szerintem kezdhetnénk
+
+01:10.580 --> 01:13.357
+az univerzum nagy filozófiájával,
+
+01:13.357 --> 01:14.536
+a matematika nyelvén leírva.
+
+01:14.536 --> 01:17.863
+De inkább kezdjünk egy nagyon konkrét és egyszerű elképzeléssel.
+
+01:17.863 --> 01:21.067
+De mindig használni fogjuk az absztrakciót, és látni fogjuk, hogyan kapcsolódik ugyanaz az elképzelés
+
+01:21.067 --> 01:24.401
+az univerzum több területéhez is.
+
+01:24.401 --> 01:26.898
+Mondjuk azt, hogy a boltban vagyunk,
+
+01:26.898 --> 01:30.024
+vásárolni fogunk valamit, és leárazás van.
+
+01:30.024 --> 01:36.200
+A leárazás 30%-os, és szeretnék --
+
+01:36.200 --> 01:38.871
+nem igazán vásárolok drága boltokban --
+
+01:38.871 --> 01:40.810
+mondjuk azt, hogy szeretnék egy nadrágot
+
+01:40.810 --> 01:43.375
+és a nadrág a leárazás előtt 20 dollárba került.
+
+01:43.375 --> 01:46.500
+Ez annyi, amennyit én a nadrágomra költöttem.
+
+01:46.500 --> 01:49.625
+Szóval szeretnék egy 20 dolláros nadrágot, de így még jobb.
+
+01:49.625 --> 01:54.267
+30%-kal leárazták ezt a nadrágot.
+
+01:54.267 --> 01:57.702
+Hogyan gondolkodnék azon, hogy mennyivel lenne kevesebb az a 20 dollár?
+
+01:57.702 --> 01:59.200
+És ez még nem is algebra,
+
+01:59.200 --> 02:01.169
+ez olyasmi, amivel már ezelőtt is találkoztunk.
+
+02:01.169 --> 02:04.800
+A 20 dollárt megszoroznánk a 30%-kal.
+
+02:04.800 --> 02:09.974
+Szóval azt mondanánk, a leárazás -- a leárazásunk -- egyenlő
+
+02:09.974 --> 02:14.115
+leírhatjuk így, 30% szorozva 20 dollárral.
+
+02:14.115 --> 02:16.533
+A 20 dollárt lilával fogom írni.
+
+02:16.533 --> 02:19.200
+Vagy írhatjuk úgy -- ha azt akarjuk írni -- ez egy tizedes vessző,
+
+02:19.200 --> 02:24.200
+felírhatjuk ezt úgy is, hogy 0,30 szorozva 20 dollárral.
+
+02:24.200 --> 02:25.693
+És ha kiszámolnánk ezt,
+
+02:25.693 --> 02:27.821
+akkor 6 dollárt kapnánk.
+
+02:27.821 --> 02:30.067
+Szóval semmi, semmi új nincsen itt.
+
+02:30.067 --> 02:32.354
+De mi lenne, ha szeretném ezt egy kicsit általánosítani?
+
+02:32.354 --> 02:35.400
+Ennyivel árazzák le ezt a fajta nadrágot,
+
+02:35.400 --> 02:37.400
+de mi van, ha azt akarjuk megtudni, mennyivel árazzák le
+
+02:37.400 --> 02:39.333
+a többi ruhát ebben az üzletben?
+
+02:39.333 --> 02:43.133
+Akkor azt mondhatnánk, legyen az X az ár
+
+02:43.133 --> 02:44.486
+-- hadd írjam ezt egy másik színnel --
+
+02:44.486 --> 02:46.221
+Keresek egy szimbólumot.
+
+02:46.221 --> 02:51.169
+Legyen X az ára annak a terméknek, amit vásárolni szeretnék,
+
+02:51.169 --> 03:00.837
+a leárazás előtti ára a boltban lévő árunak.
+
+03:00.837 --> 03:06.142
+Most pedig meg is mondhatjuk, hogy a leárazásunk
+
+03:06.142 --> 03:15.267
+egyenlő 30%-kal, 30% szorozva X-szel,
+
+03:15.267 --> 03:17.465
+vagy ha tizedes vesszővel akarjuk írni,
+
+03:17.465 --> 03:19.411
+akkor a 30%-ot írhatjuk azzal.
+
+03:19.411 --> 03:25.329
+Írhatjuk azt, hogy 0,30 szorozva X-szel -- szorozva X-szel --
+
+03:25.329 --> 03:27.351
+Na, ez érdekes.
+
+03:27.351 --> 03:29.841
+Most pedig adjunk meg egy ruha árát a boltban,
+
+03:29.841 --> 03:31.608
+amit behelyettesíthetek az X helyére,
+
+03:31.608 --> 03:34.395
+aztán lényegében megszorozhatom ezt 0,3-mal,
+
+03:34.395 --> 03:36.225
+és akkor megkapom a leárazás értékét.
+
+03:36.225 --> 03:39.533
+Most lassan elkezdünk haladni
+
+03:39.533 --> 03:42.331
+az algebra absztrakciójába.
+
+03:42.331 --> 03:44.867
+Látni fogjuk, hogy ez sokkal árnyaltabb és mélyebb lesz,
+
+03:44.867 --> 03:46.591
+és igazából sokkal szebb,
+
+03:46.591 --> 03:52.409
+ahogyan több és több algebrai elképzeléssel ismerkedünk meg.
+
+03:52.409 --> 03:54.080
+De nem végeztünk még itt.
+
+03:54.080 --> 03:56.077
+Használhatjuk itt még az absztrakciót.
+
+03:56.077 --> 03:57.643
+Itt azt mondtuk,
+
+03:57.643 --> 03:59.067
+hogy általánosítottuk ezt mindegyik árura,
+
+03:59.067 --> 04:01.400
+nem csak a 20 dolláros ruhára vonatkozik ez.
+
+04:01.400 --> 04:02.795
+Ha egy 10 dolláros árunk van,
+
+04:02.795 --> 04:05.737
+akkor a 10 dolláros ruhát behelyettesíthetjük az X helyére,
+
+04:05.737 --> 04:07.966
+és aztán azt mondanánk, 0,30 szorozva 10-zel.
+
+04:07.966 --> 04:10.667
+A leárazás mértéke 3 dollár.
+
+04:10.667 --> 04:12.795
+Ez lehet egy 100 dolláros ruha,
+
+04:12.795 --> 04:14.303
+akkor a leárazás mértéke 30 dollár lenne.
+
+04:14.303 --> 04:16.071
+Általánosítsunk még jobban.
+
+04:16.071 --> 04:19.576
+Mondjuk azt: Mennyi a leárazás mértéke,
+
+04:19.576 --> 04:21.133
+-- ha a leárazásnak van egy meghatározott százaléka -- ?
+
+04:21.133 --> 04:22.919
+Akkor mondhatjuk azt, hogy a leárazás
+
+04:22.919 --> 04:25.759
+-- hadd határozzak meg egy változót --
+
+04:25.759 --> 04:32.290
+Legyen m egyenlő p-vel (angolul: percentage=százalék)
+
+04:32.290 --> 04:41.200
+P egyenlő a leárazás százalékával.
+
+04:41.200 --> 04:42.667
+Most mit csinálhatunk?
+
+04:42.667 --> 04:47.046
+Mondhatjuk, hogy a leárazás
+
+04:47.046 --> 04:50.405
+egyenlő a százalékkal.
+
+04:50.405 --> 04:52.733
+Ezekben a példákban itt a 30%-ot választottuk,
+
+04:52.733 --> 04:55.729
+de most mondhatjuk, hogy ez P, a százalék.
+
+04:55.729 --> 04:56.852
+Ez P.
+
+04:56.852 --> 05:01.200
+Ez a százalék szorozva az áruval,
+
+05:01.200 --> 05:04.262
+szorozva az árral, a ruha leárazás előtti árával.
+
+05:04.262 --> 05:06.138
+Hát, ez volt X.
+
+05:06.138 --> 05:08.667
+A leárazás értéke egyenlő P szorozva X-szel.
+
+05:08.667 --> 05:10.364
+Na, ez most nagyon érdekes,
+
+05:10.364 --> 05:13.268
+van egy általános módunk arra, hogy kiszámoljuk a leárazást
+
+05:13.268 --> 05:19.243
+bármilyen százalékkal és bármelyik ruhára vonatkozóan.
+
+05:19.243 --> 05:22.333
+És nem kellett használnunk ezeket a szavakat és a betűket.
+
+05:22.333 --> 05:25.402
+Mondhattuk volna azt, hogy legyen Y egyenlő a leárazással
+
+05:25.402 --> 05:28.998
+legyen Y egyenlő a leárazással.
+
+05:28.998 --> 05:32.373
+Leírhattuk volna ugyanazt az elképzelést,
+
+05:32.373 --> 05:34.400
+a leárazás írása helyett, leírhattuk volna
+
+05:34.400 --> 05:40.200
+hogy Y egyenlő a leárazás százalékával P
+
+05:40.200 --> 05:44.067
+szorozva a termék leárazás előtt árával
+
+05:44.067 --> 05:45.667
+-- szorozva X-szel.
+
+05:45.667 --> 05:47.779
+És ezeket a betűket tetszőlegesen választhatnánk.
+
+05:47.779 --> 05:49.513
+Y helyett itt
+
+05:49.513 --> 05:52.267
+lehetne egy görög betű,
+
+05:52.267 --> 05:53.779
+mindaddig, amíg megbizonyosodunk róla,
+
+05:53.779 --> 05:56.729
+hogy a szimbólum a dollár leárazást jelöli.
+
+05:56.729 --> 05:58.911
+De most pedig a dolgok nagyon érdekessé válnak,
+
+05:58.911 --> 06:02.215
+mert ezt a fajta kapcsolatot használhatjuk...
+
+06:02.215 --> 06:03.741
+ami egy egyenlet, egyenlővé tehetjük
+
+06:03.741 --> 06:05.600
+az Y-t ezzel a dologgal itt,
+
+06:05.600 --> 06:07.734
+ezért nevezzük ezt egyenletnek.
+
+06:07.734 --> 06:09.406
+Ezt használhatjuk olyan dolgoknál,
+
+06:09.406 --> 06:10.985
+amelyek egyáltalán nem függnek össze
+
+06:10.985 --> 06:14.231
+a leárazásutáni árral.
+
+06:14.231 --> 06:15.810
+Lehet nekünk...
+
+06:15.810 --> 06:17.431
+Tehát a fizikában látni fogjuk,
+
+06:17.431 --> 06:21.600
+hogy az erő egyenlő tömeg szorozva gyorsulással.
+
+06:21.600 --> 06:23.000
+A betűk különbözőek,
+
+06:23.000 --> 06:24.933
+de ezek alapjaiban ugyanazok az elképzelések.
+
+06:24.933 --> 06:31.754
+Lehetett volna az Y egyenlő az erővel,
+
+06:31.754 --> 06:36.067
+és m egyenlő... vagy tömeg (angolul mass, m) P-vel.
+
+06:36.067 --> 06:39.200
+Hadd írjam le ezt a P-t egyenlő m-mel (tömeggel),
+
+06:39.200 --> 06:42.333
+-- a betűválasztás teljesen véletlenül történt --
+
+06:42.333 --> 06:45.646
+de meg akarom mutatni, hogy ugyanaz az elképzelés, ugyanaz a kapcsolat
+
+06:45.646 --> 06:48.323
+két különböző dologban is alkalmazható.
+
+06:48.323 --> 06:51.314
+Mondhatjuk azt, hogy X egyenlő a gyorsulással.
+
+06:51.333 --> 06:56.961
+Mondhatjuk azt, hogy X egyenlő a gyorsulással.
+
+06:56.961 --> 07:01.698
+Hát, a híres "erő egyenlő a tömeg szorozva gyorsasággal"
+
+07:01.698 --> 07:03.795
+átírható,és ez tényleg teljesen ugyanaz az elképzelés,
+
+07:03.800 --> 07:07.533
+mint az Y -- amit erőnek mondtunk --
+
+07:07.533 --> 07:08.964
+egyenlő tömeg
+
+07:08.964 --> 07:10.210
+-- aminek a szimbóluma a P lesz --
+
+07:10.210 --> 07:13.482
+ami egyenlő a P szorozva gyorsasággal.
+
+07:13.482 --> 07:15.579
+Az X-et fogjuk itt történetesen használni,
+
+07:15.579 --> 07:17.298
+-- szorozva X-szel.
+
+07:17.298 --> 07:19.200
+Hát, ez ugyanaz az egyenlet.
+
+07:19.200 --> 07:21.400
+Ez ugyanaz az egyenlet
+
+07:21.400 --> 07:23.200
+Láthatjuk, hogy vehetjük ezt az egyenletet,
+
+07:23.200 --> 07:28.287
+és ez használható a gazdaságban,
+
+07:28.287 --> 07:30.864
+vagy ezt használható pénzügyben is,
+
+07:30.864 --> 07:33.019
+vagy a számítástechnikában,
+
+07:33.019 --> 07:35.123
+vagy az elektronikus mérnökök is használhatják,
+
+07:35.123 --> 07:36.338
+vagy bármiben -- könyvelés --
+
+07:36.338 --> 07:38.400
+Végtelen számú alkalmazhatósága van
+
+07:38.400 --> 07:40.200
+ennek az egy egyenletnek.
+
+07:40.200 --> 07:42.054
+Ami jó a matematikában,
+
+07:42.054 --> 07:44.902
+ami pedig az algebrában különösen jó, az az, hogy
+
+07:44.902 --> 07:47.087
+az absztrakció használatára összepontosíthatunk.
+
+07:47.087 --> 07:49.975
+Összpontosíthatunk az absztraktra itt,
+
+07:49.975 --> 07:52.185
+befolyásolhatjuk itt az absztraktot,
+
+07:52.185 --> 07:55.462
+és amit felfedezünk ezekben az elképzelésekben, ezekből a műveletekből kiindulva
+
+07:55.462 --> 07:58.533
+tovább haladhatunk és újra használhatjuk,
+
+07:58.533 --> 08:02.000
+a többi alkalmazásban, mindegyikben.
+
+08:02.000 --> 08:03.733
+Ami még jobb, hogy ez igazából elmagyarázza
+
+08:03.733 --> 08:06.063
+az univerzum valós struktúráját,
+
+08:06.063 --> 08:08.718
+ha le hámozzunk róla az összes emberi definíciót,
+
+08:08.733 --> 08:10.429
+és az összes emberi alkalmazást.
+
+08:10.429 --> 08:11.729
+Például mondhatjuk:
+
+08:11.729 --> 08:14.237
+"Nézd, ha Y egyenlő P szorozva X-szel."
+
+08:14.237 --> 08:15.723
+Szóval ha valaki szó szerint azt mondaná,
+
+08:15.723 --> 08:17.267
+"Hé, ez Y."
+
+08:17.267 --> 08:19.692
+Aztán valaki azt mondaná, "van nekem P szorozva X-em."
+
+08:19.692 --> 08:22.482
+Mondhatjuk, hogy "hát, ugyanaz van mindkét kezedben."
+
+08:22.482 --> 08:25.438
+És ha az egyiket el kell osztanunk egy számmal,
+
+08:25.438 --> 08:27.533
+és azt szeretnéd, ha mindkét oldal egyenlő maradna,
+
+08:27.533 --> 08:30.200
+akkor mindkét oldalt el kell osztani ugyanazzal a számmal.
+
+08:30.200 --> 08:31.652
+Tehát például,
+
+08:31.652 --> 08:34.577
+Mondjuk azt -- tudjuk, hogy Y egyenlő P szorozva X-szel --
+
+08:34.577 --> 08:38.575
+mi van, ha mindkettőt egyenlőnek szeretnéd?
+
+08:38.575 --> 08:41.595
+Mennyi Y osztva X-szel?
+
+08:41.595 --> 08:43.467
+Hát, Y egyenlő volt P szorozva X-szel,
+
+08:43.467 --> 08:45.073
+tehát, Y osztva X-szel
+
+08:45.073 --> 08:48.731
+az ugyanannyi lesz, mint a P szorozva X-szel osztva X-szel,
+
+08:48.733 --> 08:50.321
+Ez pedig most érdekes, mert P szorozva X osztva X-szel,
+
+08:50.321 --> 08:52.544
+mert P szorozva X osztva X-szel
+
+08:52.544 --> 08:53.711
+-- hát, ha szorzunk valamivel,
+
+08:53.711 --> 08:55.568
+és osztunk azzal a valamivel
+
+08:55.568 --> 08:57.333
+akkor az eredeti számot kapjuk.
+
+08:57.333 --> 08:59.467
+Ha 5-tel szorzunk és 5-tel osztunk,
+
+08:59.467 --> 09:01.373
+akkor csak a P-t kapjuk,
+
+09:01.373 --> 09:02.867
+vagy ami ez a szám.
+
+09:02.867 --> 09:04.333
+Szóval ezek semlegesítik egymást.
+
+09:04.333 --> 09:06.333
+De mi befolyásolhattuk az absztrakciót itt,
+
+09:06.333 --> 09:11.159
+és megkaptuk Y per X egyenlő P-vel-t.
+
+09:11.159 --> 09:12.380
+-- az X-et zölddel jelöljük --
+
+09:12.380 --> 09:16.324
+Y per X egyenlő P-vel
+
+09:16.324 --> 09:18.667
+és ennek következményei lesznek,
+
+09:18.667 --> 09:21.067
+következményei lesznek minden egyes elképzelésben.
+
+09:21.067 --> 09:24.805
+Az egyik egy alapvető igazságot mond el az univerzumról,
+
+09:24.805 --> 09:26.637
+majdnem mentes az összes alkalmazástól,
+
+09:26.637 --> 09:28.467
+de mi most mehetünk és visszatehetjük ezeket
+
+09:28.467 --> 09:30.400
+oda, ahol alkalmaztuk őket.
+
+09:30.400 --> 09:32.100
+Az új dolog, amit találni fogunk...
+
+09:32.100 --> 09:33.831
+-- végtelen számú alkalmazhatóság van,
+
+09:33.831 --> 09:36.400
+és mi nem is tudunk róla, a legtöbbjükről nem tudunk.
+
+09:36.400 --> 09:38.386
+Fel fogunk fedezni újakat ezekből
+
+09:38.386 --> 09:40.290
+1000 éven belül.
+
+09:40.290 --> 09:41.785
+Remélhetőleg ez ad némi támpontot,
+
+09:41.785 --> 09:44.933
+hogy miért mondta Galileo azt,
+
+09:44.933 --> 09:48.133
+hogy a matematika igazából egy nyelv,
+
+09:48.133 --> 09:51.959
+aminek a segítségével megérthetjük az univerzum filozófiáját.
+
+09:51.959 --> 09:53.567
+Ezért mondják az emberek, hogy
+
+09:53.567 --> 09:56.714
+ha egy teljesen idegen életforma felvenné a kapcsolatot az emberekkel,
+
+09:56.714 --> 10:00.067
+akkor a matematika lenne valószínűleg a közös nevezőnk,
+
+10:00.067 --> 10:04.108
+ahol elkezdhetnénk egy alapeszmét formálni,
+
+10:04.108 --> 10:07.108
+aminek a segítségével elkezdhetnénk kommunikálni.

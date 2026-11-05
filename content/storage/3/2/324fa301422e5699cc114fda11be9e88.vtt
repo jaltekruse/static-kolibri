@@ -1,0 +1,421 @@
+WEBVTT
+
+00:00.710 --> 00:03.860
+Powtórzmy, czego nauczyliśmy się z rachunku różniczkowego i całkowego.
+
+00:03.860 --> 00:08.370
+Mamy funkcję S, która
+
+00:08.370 --> 00:12.220
+jest funkcją czasu, określającą położenie cząstki w jednym wymiarze.
+
+00:12.220 --> 00:16.513
+Chcemy obliczyć jej pochodną po czasie.
+
+00:16.513 --> 00:19.790
+Chcemy obliczyć pochodną po czasie
+
+00:19.790 --> 00:21.080
+tej funkcji S.
+
+00:21.080 --> 00:21.911
+Co otrzymamy?
+
+00:21.911 --> 00:25.975
+Otrzymamy ds po dt czy
+
+00:25.975 --> 00:29.816
+szybkość zmiany położenia w czasie.
+
+00:29.816 --> 00:34.159
+Jakie jest inne określenie na zmianę pozycji w czasie?
+
+00:34.159 --> 00:35.750
+To prędkość.
+
+00:35.750 --> 00:39.680
+Więc możemy napisać jako prędkość, która jest funkcją czasu.
+
+00:39.680 --> 00:43.980
+Teraz chcielibyśmy to zróżniczkować po t.
+
+00:43.980 --> 00:47.177
+Możemy albo obliczyć drugą pochodną,
+
+00:47.177 --> 00:50.809
+wtedy obliczamy pochodną funkcji położenia nie raz, lecz dwa razy.
+
+00:50.809 --> 00:52.625
+Możemy też obliczyć
+
+00:52.625 --> 00:55.473
+pochodną po czasie naszej funkcji prędkości.
+
+00:55.473 --> 00:59.524
+To będzie wynosiło
+
+00:59.524 --> 01:05.420
+dv po dt, tempo zmiany prędkości w czasie.
+
+01:05.420 --> 01:07.490
+Jak inaczej możemy to nazwać?
+
+01:07.490 --> 01:10.000
+To jest przyspieszenie.
+
+01:10.000 --> 01:12.480
+To będzie przyspieszenie jako funkcja czasu.
+
+01:12.480 --> 01:14.560
+Zaczynamy od funkcji położenia,
+
+01:14.560 --> 01:17.590
+położenie jako funkcja czasu.
+
+01:17.590 --> 01:20.310
+Bierzemy pochodną po czasie i otrzymujemy prędkość.
+
+01:20.310 --> 01:23.800
+Obliczamy jeszcze raz pochodną i otrzymujemy przyspieszenie.
+
+01:23.800 --> 01:26.210
+Możemy też inaczej.
+
+01:26.210 --> 01:30.480
+Jeżeli zaczniemy od przyspieszenia
+
+01:30.480 --> 01:33.240
+i obliczymy funkcję pierwotną.
+
+01:33.240 --> 01:38.370
+Chcemy znaleźć funkcję pierwotną,
+
+01:38.370 --> 01:42.860
+to będzie wynosiło... zapiszę to.
+
+01:42.860 --> 01:44.220
+Funkcja pierwotna...
+
+01:44.220 --> 01:48.290
+-- użyję symbolu całki, żeby pokazać, że szukam funkcji pierwotnej --
+
+01:48.290 --> 01:54.920
+będzie równa całce funkcji pierwotnej z a od t.
+
+01:54.920 --> 01:58.670
+Da nam to pewne wyrażenie, plus C.
+
+01:58.670 --> 02:02.240
+Powiemy, że to ogólna postać funkcji prędkości.
+
+02:02.240 --> 02:05.516
+To będzie równe naszej funkcji prędkości.
+
+02:05.516 --> 02:08.470
+Żeby znaleźć naszą funkcję prędkości,
+
+02:08.470 --> 02:12.090
+musimy znać prędkość w pewnej chwili czasu.
+
+02:12.090 --> 02:14.390
+Wtedy możemy obliczyć C.
+
+02:14.390 --> 02:19.010
+Jeżeli możemy to zrobić, możemy znaleźć jeszcze raz funkcję pierwotną.
+
+02:19.530 --> 02:23.483
+Teraz obliczamy funkcję pierwotną naszej funkcji prędkości,
+
+02:23.483 --> 02:27.574
+która da nam pewne wyrażenie, które będzie funkcją czasu.
+
+02:27.574 --> 02:29.058
+I pewną stałą.
+
+02:29.058 --> 02:31.746
+Jeśli będziemy mogli obliczyć tą stałą,
+
+02:31.746 --> 02:37.670
+będziemy znali położenie, położenie jest funkcją czasu.
+
+02:37.960 --> 02:39.890
+Tak jak tu, mielibyśmy jakieś plus C tutaj,
+
+02:39.890 --> 02:43.920
+będziemy znali położenie w pewnym czasie, możemy obliczyć to C.
+
+02:43.920 --> 02:47.430
+Powtórzyliśmy co nieco, przepisaliśmy to także
+
+02:47.430 --> 02:49.890
+-- można powiedzieć --
+
+02:49.890 --> 02:52.090
+w języku pochodnych.
+
+02:52.090 --> 02:55.660
+Spójrzmy na to od strony funkcji pierwotnych.
+
+02:55.660 --> 02:58.290
+Rozwiążmy pewne interesujące zadanie.
+
+02:58.290 --> 03:00.750
+Powiedzmy, że wiemy, że przyspieszenie
+
+03:00.750 --> 03:05.950
+cząstki jest funkcją czasu równą 1.
+
+03:05.950 --> 03:09.998
+Więc zawsze przyspiesza o jedną jednostkę na,
+
+03:09.998 --> 03:11.548
+nie podałem Wam czasu.
+
+03:11.548 --> 03:14.950
+Powiedzmy, że myślimy w terminach metrów i sekund.
+
+03:14.950 --> 03:20.170
+Więc to jest jeden metr na sekundę kwadrat, właśnie tu.
+
+03:20.170 --> 03:23.380
+To nasze przyspieszenie jako funkcja czasu.
+
+03:23.380 --> 03:26.155
+Załóżmy, że nie znamy prędkości, ale znamy
+
+03:26.155 --> 03:29.318
+prędkość w pewnej chwili czasu i nie znamy funkcji położenia.
+
+03:29.318 --> 03:32.212
+Ale znamy położenie w pewnej chwili czasu.
+
+03:32.212 --> 03:35.250
+Powiedzmy, że znamy prędkość w chwili 3,
+
+03:35.250 --> 03:39.420
+która wynosi minus trzy metry na sekundę.
+
+03:39.420 --> 03:42.770
+Chcę zapisać jednostki tutaj.
+
+03:42.770 --> 03:45.330
+To jest w metrach na sekundę kwadrat.
+
+03:45.330 --> 03:46.830
+To będzie nasza jednostka dla przyspieszenia.
+
+03:46.830 --> 03:49.500
+To nasza jednostka dla prędkości.
+
+03:49.500 --> 03:55.120
+Powiedzmy, że znamy położenie
+
+03:55.120 --> 03:59.760
+położenie w drugiej sekundzie wynosi minus 10 metrów.
+
+03:59.760 --> 04:02.020
+Rozważamy jednowymiarowy ruch
+
+04:02.020 --> 04:06.140
+wzdłuż osi liczbowej, to jest 10 jednostek w lewo od zera.
+
+04:06.140 --> 04:09.508
+Więc znając te informacje i to, co tu zapisałem,
+
+04:09.508 --> 04:14.568
+czy możemy wyznaczyć funkcję prędkości jako funkcję czasu?
+
+04:14.568 --> 04:18.890
+Nie tylko prędkość w czasie 3, ale prędkość jako funkcję czasu.
+
+04:18.890 --> 04:21.190
+I położenie jako funkcję czasu.
+
+04:21.190 --> 04:23.950
+Zachęcam do zatrzymania filmu w tym momencie
+
+04:23.950 --> 04:27.070
+i do samodzielnego obliczenia.
+
+04:27.080 --> 04:28.230
+Zajmijmy się tym.
+
+04:28.230 --> 04:32.510
+Wiemy, że prędkość jako funkcja czasu
+
+04:32.510 --> 04:36.250
+będzie naszą funkcją pierwotną.
+
+04:36.250 --> 04:39.910
+Funkcja pierwotna przyspieszenia będzie funkcją czasu.
+
+04:39.910 --> 04:42.250
+Przyspieszenie wynosi 1.
+
+04:42.250 --> 04:45.900
+Więc to będzie funkcja pierwotna tego,
+
+04:45.900 --> 04:51.510
+to będzie t, nie możemy zapomnieć o stałej: plus C.
+
+04:51.510 --> 04:55.610
+Możemy to teraz obliczyć C, bo wiemy, że v od 3 wynosi minus 3.
+
+04:55.610 --> 04:57.220
+Zapiszę to.
+
+04:57.220 --> 05:05.385
+Więc v od 3 wynosi 3 plus C.
+
+05:05.385 --> 05:08.276
+Podstawiłem 3 wszędzie,
+
+05:08.276 --> 05:11.580
+gdzie jest t.
+
+05:11.580 --> 05:12.855
+Wyjaśnię to.
+
+05:12.855 --> 05:18.276
+Więc v od 3 wynosi 3 plus C
+
+05:18.276 --> 05:23.280
+i wiemy, że to wynosi minus 3.
+
+05:23.280 --> 05:29.040
+Więc to wynosi minus 3.
+
+05:29.040 --> 05:30.630
+Ile wynosi C?
+
+05:30.630 --> 05:32.260
+Spójrzmy na tą część równania,
+
+05:32.260 --> 05:35.480
+na tą równość tutaj.
+
+05:35.480 --> 05:44.250
+Jeśli odejmiemy stronami 3, otrzymamy, że C wynosi minus 6.
+
+05:44.250 --> 05:47.770
+Teraz znamy wyrażenie, które
+
+05:47.770 --> 05:51.030
+definiuje prędkość jako funkcję czasu.
+
+05:51.030 --> 05:59.249
+v od t wynosi t plus minus 6
+
+05:59.249 --> 06:01.410
+lub t minus 6.
+
+06:01.410 --> 06:02.380
+Możemy to sprawdzić.
+
+06:02.380 --> 06:05.980
+Pochodna po czasie wynosi 1.
+
+06:05.980 --> 06:11.040
+Kiedy czas wynosi 3, 3 minus 6 rzeczywiście wynosi minus 3.
+
+06:11.040 --> 06:15.730
+Wyznaczyliśmy prędkość jako funkcję czasu.
+
+06:15.730 --> 06:19.460
+Zróbmy podobnie, żeby wyznaczyć położenie jako funkcję czasu.
+
+06:19.460 --> 06:22.080
+Wiemy, że położenie będzie funkcją pierwotną
+
+06:22.080 --> 06:25.830
+funkcji prędkości, zapiszmy to.
+
+06:25.830 --> 06:30.563
+Położenie, jako funkcja czasu, będzie równe
+
+06:30.563 --> 06:35.093
+funkcji pierwotnej v od t, dt.
+
+06:35.093 --> 06:41.468
+To jest równe funkcji pierwotnej z t minus 6, dt, które jest równe...
+
+06:41.468 --> 06:47.615
+Funkcją pierwotną t jest t kwadrat przez dwa.
+
+06:47.615 --> 06:51.270
+Więc t kwadrat przez dwa, widzieliśmy to wcześniej.
+
+06:51.270 --> 06:55.019
+Funkcją pierwotną minus 6 jest minus 6 t,
+
+06:55.019 --> 07:01.310
+oczywiście nie możemy zapomnieć o stałej, plus C.
+
+07:01.310 --> 07:03.270
+Więc S od t jest równe,
+
+07:03.270 --> 07:06.820
+więc S od t jest równe temu wyrażeniu.
+
+07:06.820 --> 07:09.480
+Możemy to rozwiązać by obliczyć naszą stałą.
+
+07:09.480 --> 07:12.420
+Zrobimy to, używając tej informacji.
+
+07:12.420 --> 07:16.780
+W drugiej sekundzie nasze położenie to minus 10 metrów.
+
+07:16.780 --> 07:20.000
+Więc S od 2... Mogę to zapisać w ten sposób.
+
+07:20.000 --> 07:20.830
+Zapiszę to.
+
+07:20.830 --> 07:26.530
+S od 2, w drugiej sekundzie wynosi 2 kwadrat przez 2.
+
+07:26.530 --> 07:30.700
+To wynosi 4 przez 2, czyli 2.
+
+07:30.700 --> 07:32.770
+Minus 6 razy 2.
+
+07:32.770 --> 07:41.510
+Więc minus 12 plus C wynosi minus 10.
+
+07:41.510 --> 07:44.817
+Mamy 2 minus 12, czyli
+
+07:44.817 --> 07:50.320
+minus 10 plus C wynosi minus 10.
+
+07:50.320 --> 07:54.270
+Dodajemy stronami 10 i otrzymujemy, że C jest równe 0.
+
+07:54.270 --> 07:57.630
+Znaleźliśmy naszą funkcję położenia.
+
+07:57.630 --> 07:59.730
+To C tutaj to będzie 0.
+
+07:59.730 --> 08:08.800
+Więc nasza funkcja położenia wynosi t kwadrat przez 2 minus 6t.
+
+08:08.800 --> 08:10.320
+Możecie to sprawdzić.
+
+08:10.320 --> 08:17.250
+Kiedy t jest równe 2, t kwadrat przez 2 wynosi 2, minus 12 wynosi minus 10.
+
+08:17.250 --> 08:20.980
+Pochodną tego jest t minus 6.
+
+08:20.980 --> 08:24.140
+Już sprawdziliśmy, że v od 3 wynosi minus 3.
+
+08:24.140 --> 08:28.060
+Pochodna tego to a od t.
+
+08:28.060 --> 08:30.530
+Mam nadzieję, że Wam się podobało.

@@ -1,0 +1,516 @@
+WEBVTT
+
+00:00.000 --> 00:01.988
+Tính sin của 0,4
+
+00:01.988 --> 00:05.114
+sử dụng đa thức Maclaurin,
+bậc nhỏ nhất
+
+00:05.114 --> 00:09.281
+của đa thức là bao nhiêu? Đảm bảo sai số nhỏ hơn 0,001.
+
+00:11.371 --> 00:13.551
+Vậy chúng ta cần làm gì?
+
+00:13.551 --> 00:16.255
+Chúng ta lấy một hàm số bất kỳ
+
+00:16.255 --> 00:19.701
+và ước lượng nó là bậc n của đa thức Maclurin
+,
+
+00:19.701 --> 00:21.543
+trên thực tế, chúng ta có thể nói tổng quát hơn
+
+00:21.543 --> 00:23.230
+về một đa thức Taylor,
+nhưng hãy cứ nói
+
+00:23.230 --> 00:25.950
+đây là bậc n của
+Đa thức Maclaurin,
+
+00:25.950 --> 00:28.970
+nhưng điều này sẽ không thể là
+một ước lượng hoàn hảo,
+
+00:28.970 --> 00:31.556
+sẽ có một số
+sai số hoặc một số phần còn lại.
+
+00:31.556 --> 00:33.978
+Và vì vậy chúng ta có thể gọi đây là phần còn lại
+
+00:33.978 --> 00:37.263
+của đa thức Maclaurin bậc n đó,
+
+00:37.263 --> 00:41.032
+và nó sẽ
+phụ thuộc vào x cho trước.
+
+00:41.032 --> 00:43.010
+Bây giờ nếu chúng ta muốn sử dụng
+chi tiết cụ thể của
+
+00:43.010 --> 00:45.180
+bài toàn này, chúng ta có thể
+nhóm nó theo cách này.
+
+00:45.180 --> 00:49.989
+Nếu
+chúng ta đang lấy sin của 0,4
+
+00:49.989 --> 00:53.033
+đây sẽ là
+bằng
+
+00:53.033 --> 00:57.579
+Maclaurin bậc thứ n
+của đa thức được ước lượng tại 0,4
+
+00:57.579 --> 00:59.701
+cộng với phần còn lại
+
+00:59.701 --> 01:03.887
+là đa thức Maclaurin bậc n
+được ước lượng tại 0,4,
+
+01:03.887 --> 01:07.445
+và những gì chúng ta thực sự muốn
+làm là tìm ra n là gì,
+
+01:07.445 --> 01:09.760
+đâu là bậc thấp nhất của đa thức?
+
+01:09.760 --> 01:10.677
+Vì vậy
+
+01:13.027 --> 01:15.289
+hãy để mình viết bằng một màu khác.
+
+01:15.289 --> 01:20.078
+Chúng ta muốn tìm ra
+n nhỏ nhất là bao nhiêu,
+
+01:20.078 --> 01:21.911
+n nhỏ nhất là bao nhiêu
+
+01:25.578 --> 01:27.495
+sao cho phần còn lại
+
+01:31.640 --> 01:36.636
+của đa thức Maclaurin bậc thứ n
+được ước lượng tại 0,4
+
+01:36.636 --> 01:40.386
+nhỏ hơn 0,001?
+
+01:43.040 --> 01:46.643
+Vì vậy, đây chỉ là một cách khác
+diễn đạt lại vấn đề.
+
+01:46.643 --> 01:49.619
+Và cách mà chúng ta
+có thể làm được là chúng ta có thể sử dụng
+
+01:49.619 --> 01:51.907
+cận sai số Lagrange
+
+01:51.907 --> 01:53.716
+và chúng ta đã có các video khác chứng minh điều đó,
+
+01:53.716 --> 01:57.616
+cái này thường được gọi là
+Định lý Phần dư Taylor.
+
+01:57.616 --> 01:59.447
+Và trước tiên mình sẽ viết nó ra
+
+01:59.447 --> 02:01.114
+và giải thích nó
+
+02:01.114 --> 02:03.931
+Định lý Phần dư Taylor
+
+02:03.931 --> 02:06.826
+cho chúng ta biết,
+
+02:06.826 --> 02:09.360
+hoặc có thể nói cận sai số Lagrange cho chúng ta biết rằng
+
+02:09.360 --> 02:13.715
+nếu n cộng một
+đạo hàm.
+
+02:13.715 --> 02:17.650
+Đây là n
+cộng với đạo hàm bậc nhất
+
+02:17.650 --> 02:20.349
+của hàm số, nếu
+giá trị tuyệt đối của nó
+
+02:20.349 --> 02:23.016
+nhỏ hơn hoặc bằng một số M
+
+02:23.016 --> 02:24.766
+trong một khoảng mở,
+
+02:28.286 --> 02:30.369
+bao gồm
+
+02:33.240 --> 02:35.990
+nơi mà đa thức đang ở vị trí trung tâm,
+
+02:37.417 --> 02:41.094
+trong trường hợp này, nó là 0, chúng ta
+sẽ sử dụng trường hợp Maclaurin,
+
+02:41.094 --> 02:44.844
+vì vậy nó chứa không và x,
+
+02:44.844 --> 02:47.903
+x mà chúng ta quan tâm
+
+02:47.903 --> 02:49.907
+trong video cụ thể này là 0,4,
+
+02:49.907 --> 02:51.907
+nhưng mình sẽ nói chung cho bất kỳ x nào,
+
+02:51.907 --> 02:54.760
+vì vậy nếu điều này là đúng, nếu
+n cộng 1 với đạo hàm cấp một
+
+02:54.760 --> 02:56.701
+của hàm số , nếu
+giá trị tuyệt đối của nó
+
+02:56.701 --> 02:59.420
+nhỏ hơn hoặc bằng
+M, trong một khoảng mở
+
+02:59.420 --> 03:01.399
+chứa nơi tập trung 0 và x ,
+
+03:01.399 --> 03:03.934
+vì vậy x này ở ngay đây
+
+03:03.934 --> 03:07.515
+Sau đó
+
+03:07.515 --> 03:10.535
+đây là Legrange, đây
+là phần hữu ích,
+
+03:10.535 --> 03:13.040
+chúng ta có thể nói rằng phần còn lại bị giới hạn,
+
+03:13.040 --> 03:15.413
+phần còn lại là
+đa thức bậc n.
+
+03:15.413 --> 03:17.220
+Vì vậy, đây là đạo hàm cấp một n cộng với một,
+
+03:17.220 --> 03:19.275
+đó là giới hạn, sau đó chúng ta
+có thể nói phần còn lại
+
+03:19.275 --> 03:23.361
+cho đa thức bậc n
+
+03:23.361 --> 03:27.173
+bé hơn hoặc bằng M
+
+03:27.173 --> 03:29.590
+nhân x mũ n cộng với một,
+
+03:34.359 --> 03:36.526
+trên n cộng một giai thừa.
+
+03:39.169 --> 03:42.860
+Vậy làm cách nào để chúng ta áp dụng điều đó?
+
+03:42.860 --> 03:45.645
+Hãy nghĩ về các đạo hàm của sin,
+
+03:45.645 --> 03:47.833
+chúng ta biết rằng giá trị tuyệt đối của sin
+
+03:47.833 --> 03:51.339
+nhỏ hơn hoặc bằng một,
+đạo hàm của nó là cos của x,
+
+03:51.339 --> 03:53.992
+giá trị tuyệt đối của nó
+sẽ bị giới hạn,
+
+03:53.992 --> 03:56.312
+sẽ nhỏ hơn hoặc bằng một,
+
+03:56.312 --> 03:58.680
+vì vậy cho dù ta lấy đạo hàm của sin x bao nhiêu lần
+
+03:58.680 --> 04:01.196
+thì giá trị tuyệt đối của nó
+
+04:01.196 --> 04:03.836
+sẽ nhỏ hơn hoặc bằng một.
+
+04:03.836 --> 04:08.777
+Ta có thể viết như sau
+
+04:08.777 --> 04:12.223
+f của x ở ngay đây
+
+04:12.223 --> 04:15.249
+ta có giá trị tuyệt đối
+
+04:15.249 --> 04:19.249
+của n cộng một
+đạo hàm, ước lượng bởi x bất kỳ,
+
+04:20.755 --> 04:24.172
+sẽ nhỏ hơn hoặc bằng một.
+
+04:25.078 --> 04:28.167
+Và đây là trường hợp f là sin,
+
+04:28.167 --> 04:30.391
+trong đó f là sin của x, và đây thực sự là
+
+04:30.391 --> 04:32.482
+sẽ đúng trong mọi khoảng,
+
+04:32.482 --> 04:34.234
+nó thậm chí không cần phải vượt qua một số loại
+
+04:34.234 --> 04:36.374
+của một khoảng giới hạn
+nơi chúng ta có thể làm điều này.
+
+04:36.374 --> 04:38.874
+Vì vậy, chúng ta biết rằng đây là M,
+
+04:41.549 --> 04:44.169
+sin và đạo hàng đều bị giới hạn,
+
+04:44.169 --> 04:47.527
+hoặc giá trị tuyệt đối của chúng
+được giới hạn bởi một.
+
+04:47.527 --> 04:50.170
+Và vì vậy chúng ta có M và chúng tôi có thể áp dụng
+
+04:50.170 --> 04:53.258
+cận sai số Lagrange
+
+04:53.258 --> 04:57.425
+rằng phần còn lại của bậc n đa thức Maclaurin xấp xỉ
+
+05:00.066 --> 05:04.233
+ở mức 0,4, vì vậy x của chúng ta trong trường hợp cụ thể là 0,4,
+
+05:05.422 --> 05:08.361
+chúng ta không cần phải làm điều đó nói chung cho bất kỳ x nào ở đây,
+
+05:08.361 --> 05:11.096
+sẽ nhỏ hơn hoặc bằng,
+
+05:11.096 --> 05:13.529
+M của chúng ta là một, vì vậy mình sẽ không
+viết nó ra,
+
+05:13.529 --> 05:16.779
+x của chúng ta là 0,4, 0,4 mũ n cộng với một,
+
+05:20.245 --> 05:23.995
+mũ n cộng một, trên
+n cộng với một giai thừa.
+
+05:25.544 --> 05:27.921
+Và chúng ta lấy giá trị tuyệt đối chúng.
+
+05:27.921 --> 05:30.237
+Đây là cận sai số Lagrange,
+mà chúng ta muốn tìm ra,
+
+05:30.237 --> 05:32.219
+nếu chúng ta có thể tìm ra
+một tình huống mà điều này
+
+05:32.219 --> 05:36.213
+nhỏ hơn 0,001, thì điều này chắc chắn
+
+05:36.213 --> 05:40.435
+sẽ ít hơn
+0,001, vì phần còn lại
+
+05:40.435 --> 05:42.427
+nhỏ hơn mức này, hoặc nhỏ hơn hoặc bằng
+
+05:42.427 --> 05:44.341
+cái này và cái này ít hơn cái kia.
+
+05:44.341 --> 05:46.221
+Vì vậy, làm thế nào để chúng mình làm điều đó,
+
+05:46.221 --> 05:48.823
+làm thế nào để tìm ra n nhỏ nhất ở đâu?
+
+05:48.823 --> 05:51.919
+Chà, chúng ta có thể thử
+một số n và tiếp tục tăng
+
+05:51.919 --> 05:55.415
+cho đến khi điều này thực sự
+trở nên nhỏ hơn 0,01.
+
+05:55.415 --> 05:59.598
+Vì vậy, hãy làm điều đó.
+
+05:59.598 --> 06:02.515
+Đây sẽ là
+
+06:04.445 --> 06:07.578
+n
+
+06:07.578 --> 06:09.995
+đây sẽ là
+
+06:10.974 --> 06:14.474
+0,4 đến n cộng với một,
+
+06:15.704 --> 06:17.871
+trên n cộng một giai thừa,
+
+06:19.643 --> 06:22.511
+vì vậy hãy thử nó khi n bằng một.
+
+06:22.511 --> 06:24.784
+Vậy đâu sẽ
+là 0,4 cho cả hai,
+
+06:24.784 --> 06:28.034
+nên 0,4 bình phương trên hai giai thừa,
+
+06:29.341 --> 06:31.174
+đây là 0,16 trên hai,
+
+06:33.889 --> 06:36.889
+bằng 0,08, điều đó chắc chắn
+
+06:36.889 --> 06:39.746
+không dưới một phần nghìn ở đây.
+
+06:39.746 --> 06:42.565
+Vậy hãy thử n bằng
+hai, khi n bằng hai,
+
+06:42.565 --> 06:45.418
+nó sẽ là 0,4 mũ 3
+
+06:45.418 --> 06:48.857
+trên ba giai thừa và bằng với,
+
+06:48.857 --> 06:51.010
+0,064
+
+06:51.010 --> 06:52.703
+trên 6
+
+06:52.703 --> 06:56.620
+kết quả này lớn hơn
+
+06:57.496 --> 07:01.079
+0.01. Vì vậy n chưa đủ lớn
+
+07:02.933 --> 07:06.494
+Hãy thử ba,
+đây sẽ là 0,4
+
+07:06.494 --> 07:10.123
+đến ba cộng một,
+
+07:10.123 --> 07:13.540
+là 4 lũy thừa, trên bốn giai thừa,
+
+07:14.757 --> 07:18.400
+và hãy xem, đó là
+sẽ bằng,
+
+07:18.400 --> 07:21.733
+bốn chữ số phía sau số thập phân,
+
+07:21.733 --> 07:25.150
+vì vậy 0,0256
+
+07:26.587 --> 07:29.670
+trên 24, đây là, chúng tôi sắp hoàn thành rồi
+
+07:31.596 --> 07:35.628
+kết quả này lớn hơn một chút so với
+
+07:35.628 --> 07:39.628
+0,001, nó vẫn không đủ lớn.
+
+07:40.801 --> 07:44.093
+Chúng ta tiếp tục
+
+07:44.093 --> 07:46.702
+với n = 4
+
+07:46.702 --> 07:50.869
+Vì vậy, đây sẽ là
+0,4,
+
+07:52.044 --> 07:55.377
+mũ 5, trên năm giai thừa,
+
+07:56.294 --> 07:58.064
+vậy nó bằng bao nhiêu?
+
+07:58.064 --> 08:00.454
+4 mũ 5 là 1024,
+
+08:00.454 --> 08:03.318
+Tôi sẽ có năm
+số đằng sau số thập phân
+
+08:03.318 --> 08:07.308
+và tôi sẽ chia nó cho
+năm giai thừa, là 120.
+
+08:07.308 --> 08:10.309
+Và hãy xem thử
+
+08:10.309 --> 08:13.059
+kết quả này chắc chắn là nhỏ hơn 0,001,
+
+08:14.798 --> 08:19.153
+điều này chắc chắn ít hơn
+một phần nghìn ngay đằng này.
+
+08:19.153 --> 08:22.328
+Vì vậy, chúng ta thấy rằng khi n bằng bốn,
+
+08:22.328 --> 08:26.747
+chúng ta có thể nói rằng
+phần còn lại cho đa thức bậc 4
+
+08:26.747 --> 08:31.570
+của Đa thức Maclaurin, được tính
+
+08:31.570 --> 08:35.737
+tại x bằng 0,4 là chắc chắn
+sẽ nhỏ hơn 0,001.
+
+08:39.723 --> 08:42.806
+Đó là
+bậc nhỏ nhất của đa thức
+
+08:42.806 --> 08:45.858
+điều đó đảm bảo một sai số
+nhỏ hơn một phần nghìn.

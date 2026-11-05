@@ -1,0 +1,590 @@
+WEBVTT
+
+00:00.285 --> 00:02.248
+V tomto videu bych
+rád dokázal tvrzení,
+
+00:02.248 --> 00:09.002
+že pokud je funkce diferencovatelná v
+bodě c, pak je v tomto bodě i spojitá.
+
+00:09.002 --> 00:11.445
+Ale před tím, než to
+uděláme, si připomeňme,
+
+00:11.445 --> 00:15.098
+co znamená diferencovatelnost
+a co znamená spojitost.
+
+00:15.098 --> 00:21.947
+Nejdříve diferencovatelnost.
+
+00:21.947 --> 00:24.280
+Nejprve se
+zamyslíme nad ní.
+
+00:24.280 --> 00:29.374
+Vždycky se hodí si
+nakreslit nějakou funkci.
+
+00:29.374 --> 00:32.744
+Tohle je y-ová osa.
+
+00:32.744 --> 00:36.109
+Tohle je x-ová osa.
+
+00:36.109 --> 00:38.297
+A nakreslíme si
+libovolnou funkci.
+
+00:38.297 --> 00:44.003
+Řekněme, že máme takovou funkci,
+a zajímá nás bod x rovno c,
+
+00:44.003 --> 00:45.733
+který je tady.
+
+00:45.733 --> 00:54.709
+Toto je bod x rovno c a tato
+hodnota je samozřejmě f(c).
+
+00:54.709 --> 00:58.830
+Jedním ze způsobů, jak
+nalézt derivaci pro x rovno c,
+
+00:58.830 --> 01:02.271
+neboli směrnici tečny
+v bodě x rovno c,
+
+01:02.271 --> 01:05.269
+je začít s nějakým
+jiným bodem.
+
+01:05.269 --> 01:08.547
+S libovolným x
+někde tady.
+
+01:08.547 --> 01:11.479
+Řekněme, že toto je
+naše libovolné x.
+
+01:11.479 --> 01:19.018
+Tato y-ová hodnota
+pak bude f(x).
+
+01:19.018 --> 01:23.447
+Tento graf je samozřejmě
+graf y rovná se f(x).
+
+01:23.447 --> 01:27.913
+Můžeme nalézt
+směrnici této přímky,
+
+01:27.913 --> 01:30.812
+tedy sečny procházející
+těmito dvěma body,
+
+01:30.812 --> 01:33.609
+a pak najdeme limitu
+pro x jdoucí k ‚c‘.
+
+01:33.609 --> 01:36.061
+Jak se x blíží k ‚c‘,
+tak sečna…
+
+01:36.061 --> 01:40.972
+Směrnice této sečny se blíží ke
+směrnici tečny, takže půjde o derivaci.
+
+01:40.972 --> 01:54.095
+Můžeme tedy spočítat limitu pro
+x jdoucí k ‚c‘ ze směrnice této sečny.
+
+01:54.095 --> 01:55.186
+Čemu se
+směrnice rovná?
+
+01:55.186 --> 01:57.696
+Rovná se změně y
+dělené změnou x.
+
+01:57.696 --> 02:03.708
+Změna y je f(x) minus f(c),
+jde o tuto vzdálenost.
+
+02:03.708 --> 02:08.829
+Tohle je jen opakování, jedná se o jednu z
+definic derivace, o jeden způsob pohledu.
+
+02:08.829 --> 02:16.407
+Tady tedy bude f(x) minus f(c), což je
+změna y, lomeno změna x.
+
+02:16.407 --> 02:26.480
+Změna x je
+x minus c.
+
+02:26.480 --> 02:32.062
+Pokud tato limita existuje, tak jsme
+schopni najít směrnici tečny v tomto bodě,
+
+02:32.062 --> 02:37.510
+a tuto směrnici tečny nazýváme
+derivací v bodě x rovno c.
+
+02:37.510 --> 02:42.807
+Značíme to jako
+f s čárkou v bodě c.
+
+02:42.807 --> 02:44.779
+Tohle všechno je
+jen opakování.
+
+02:44.779 --> 02:51.362
+Takže když říkáme, že funkce je
+diferencovatelná v bodě x rovno c,
+
+02:51.362 --> 02:55.642
+tak vlastně říkáme, že
+tato limita existuje.
+
+02:55.642 --> 02:59.543
+A pokud tato limita existuje, tak
+ji označíme jako f s čárkou v bodě c.
+
+02:59.543 --> 03:02.079
+Tím jsme si tedy zopakovali
+diferencovatelnost.
+
+03:02.079 --> 03:10.581
+Teď si zopakujeme
+definici spojitosti.
+
+03:10.581 --> 03:22.813
+Funkce je v bodě c spojitá, když se limita
+pro x jdoucí k ‚c‘ z f(x) rovná f(c).
+
+03:22.813 --> 03:29.970
+Tohle se někomu může zdát intuitivní, ale
+taky si možná říkáte, odkud se to vzalo.
+
+03:29.970 --> 03:33.611
+Nakreslíme si to a snad
+nám to bude dávat smysl.
+
+03:33.611 --> 03:36.128
+Když máme funkci…
+
+03:36.128 --> 03:39.080
+Lepší bude podívat se na
+případy, kdy funkce není spojitá.
+
+03:39.080 --> 03:41.966
+Pak to snad bude
+trochu jasnější.
+
+03:41.966 --> 03:45.443
+Když máme odstranitelnou
+nespojitost v bodě x rovná se c…
+
+03:45.443 --> 03:47.919
+Tohle je bod
+x rovno c.
+
+03:47.919 --> 03:50.626
+Když máme odstranitelnou
+nespojitost...
+
+03:50.626 --> 03:53.016
+Nakreslím to
+trochu jinak.
+
+03:53.026 --> 03:57.469
+Tady v bodě x rovno c
+bude mezera
+
+03:57.469 --> 03:59.849
+a f(c) bude až
+tady nahoře.
+
+03:59.849 --> 04:05.714
+Tohle je f(c) a pak
+funkce pokračuje takto.
+
+04:05.714 --> 04:14.646
+Limita pro x jdoucí k ‚c‘ z f(x)
+je tato hodnota, což zjevně není f(c).
+
+04:14.646 --> 04:15.702
+Tato hodnota…
+
+04:15.702 --> 04:24.032
+Když děláme limitu pro x jdoucí k ‚c‘
+z f(x), tak se blížíme k této hodnotě.
+
+04:24.032 --> 04:31.035
+Tohle je limita pro x jdoucí
+k ‚c‘ z f(x) a ta je různá od f(c).
+
+04:31.035 --> 04:35.264
+Takže tato definice spojitosti vypadá
+rozumně, aspoň pro tento případ,
+
+04:35.264 --> 04:40.890
+protože toto zjevně není spojitá funkce,
+dochází zde k odstranitelné nespojitosti.
+
+04:40.890 --> 04:47.181
+Alespoň v tomto případě tedy
+definice spojitosti správně řekne,
+
+04:47.181 --> 04:49.401
+že nejde o
+spojitou funkci.
+
+04:49.401 --> 04:55.679
+Můžeme se taky zamyslet nad
+nespojitostí 1. druhu.
+
+04:55.679 --> 04:56.998
+Podívejme se na ni.
+
+04:56.998 --> 05:00.150
+Tohle všechno je pro
+vás snad jen opakování.
+
+05:00.150 --> 05:07.598
+Nespojitost 1. druhu v bodě
+x rovno c může vypadat třeba takto.
+
+05:07.598 --> 05:13.870
+Zde je bod
+x rovno c.
+
+05:13.870 --> 05:17.295
+Tohle je f(c).
+
+05:17.295 --> 05:21.935
+Když ale chceme zjistit, čemu se rovná
+limita pro x jdoucí k ‚c‘ z f(x),
+
+05:21.935 --> 05:25.683
+dostaneme jinou hodnotu,
+když se blížíme zleva,
+
+05:25.683 --> 05:27.383
+dostaneme tuto
+hodnotu,
+
+05:27.383 --> 05:30.621
+než když se k ‚c‘ blížíme zprava,
+protože v tom případě jdeme k f(c).
+
+05:30.621 --> 05:32.131
+Limita tedy neexistuje.
+
+05:32.131 --> 05:37.573
+Tato limita tedy v případě
+nespojitosti 1. druhu neexistuje.
+
+05:37.573 --> 05:44.798
+Tato definice tak opět správně říká,
+že tato funkce není spojitá,
+
+05:44.798 --> 05:47.674
+protože tato limita
+ani neexistuje.
+
+05:47.674 --> 05:57.346
+Nyní se můžeme kouknout na
+funkci, která už skutečně je spojitá.
+
+05:57.346 --> 06:01.183
+Třeba takováto funkce.
+
+06:01.183 --> 06:03.325
+Zde je bod
+x rovno c.
+
+06:03.325 --> 06:06.925
+Toto je f(c).
+
+06:06.940 --> 06:13.401
+Když nyní uděláme oboustrannou
+limitu pro x jdoucí k ‚c‘ z f(x),
+
+06:13.401 --> 06:15.451
+vyjde nám
+hodnota f(c).
+
+06:15.451 --> 06:22.783
+Limita pro x jdoucí k ‚c‘ z f(x)
+se v tomto případě skutečně rovná f(c),
+
+06:22.783 --> 06:25.567
+což bychom u
+spojité funkce čekali.
+
+06:25.567 --> 06:29.719
+Když jsme si teď zopakovali
+spojitost a diferencovatelnost,
+
+06:29.719 --> 06:34.320
+můžeme konečně dokázat,
+že z diferencovatelnosti plyne spojitost.
+
+06:34.320 --> 06:38.762
+Naše opakování bylo důležité,
+protože si to teď lépe představíme.
+
+06:38.762 --> 06:44.101
+Diferencovatelnost tedy znamená,
+že tato limita existuje.
+
+06:44.101 --> 06:46.378
+Začněme ale s
+trochu jinou limitou.
+
+06:46.378 --> 06:48.841
+Nakreslím zde čáru.
+
+06:48.841 --> 06:51.844
+Nakreslím zde čáru, aby bylo
+jasné, že děláme už něco jiného.
+
+06:51.844 --> 07:07.205
+Uvažujme limitu pro x
+jdoucí k ‚c‘ z f(x) minus f(c).
+
+07:07.205 --> 07:09.046
+Můžeme toto
+nějak přepsat?
+
+07:09.046 --> 07:14.262
+Můžeme to přepsat jako
+limitu pro x jdoucí k ‚c‘…
+
+07:14.262 --> 07:18.206
+Tento výraz můžeme vynásobit
+a vydělit výrazem x minus c,
+
+07:18.206 --> 07:24.576
+takže to vynásobíme výrazem x minus c
+a pak to vydělíme výrazem x minus c.
+
+07:24.576 --> 07:31.595
+Zde tedy bude f(x) minus f(c),
+to celé lomeno x minus c.
+
+07:31.595 --> 07:36.130
+Jen jsem vynásobil a vydělil
+výrazem x minus c.
+
+07:36.130 --> 07:38.644
+Čemu se rovná
+tato limita?
+
+07:38.644 --> 07:42.094
+Toto je rovno limitě…
+
+07:42.094 --> 07:47.717
+Jen používám
+vlastnosti limit.
+
+07:47.717 --> 07:51.581
+Limita součinu je
+rovna součinu limit.
+
+07:51.581 --> 07:55.374
+...limitě pro x jdoucí k ‚c‘
+z x minus c
+
+07:55.374 --> 08:08.104
+krát limita pro x jdoucí k ‚c‘
+z f(x) minus f(c),
+
+08:08.104 --> 08:11.496
+to celé lomeno
+x minus c.
+
+08:11.496 --> 08:15.511
+Co je tento výraz?
+
+08:15.511 --> 08:19.747
+Předpokládáme, že f je
+diferencovatelná v bodě c.
+
+08:19.747 --> 08:22.533
+Tím jsem měl
+vlastně začít.
+
+08:22.533 --> 08:28.755
+Chceme dokázat, že
+z diferencovatelnosti plyne spojitost,
+
+08:28.755 --> 08:37.587
+proto předpokládejme, že f je
+diferencovatelná v bodě c.
+
+08:37.587 --> 08:41.807
+Tento výraz pak bude roven
+f s čárkou v bodě c.
+
+08:41.807 --> 08:45.407
+Před chvílí jsme viděli,
+že jde úplně o totéž.
+
+08:45.407 --> 08:50.104
+Tohle je f s čárkou
+v bodě c.
+
+08:50.104 --> 08:51.374
+A co je tohle?
+
+08:51.374 --> 08:54.473
+Limita pro x jdoucí
+k ‚c‘ z x minus c?
+
+08:54.473 --> 08:55.569
+To je jednoduše 0.
+
+08:55.569 --> 09:01.474
+Jak se x blíží k ‚c‘, tak se toto
+blíží k ‚c‘ minus ‚c‘, což je 0.
+
+09:01.474 --> 09:04.545
+Kolik je 0 krát
+f(c) s čárkou?
+
+09:04.545 --> 09:09.270
+f(c) s čárkou je nějaké reálné číslo
+a 0 krát číslo je zase 0.
+
+09:09.270 --> 09:10.892
+Po výpočtu jsem
+tedy dostal 0.
+
+09:10.892 --> 09:12.939
+Proč mě to
+ale zajímalo?
+
+09:12.939 --> 09:16.704
+Právě jsme zjistili, že když je
+f diferencovatelná v bodě c
+
+09:16.704 --> 09:20.833
+a když spočítáme tuto
+limitu, dostaneme 0.
+
+09:20.833 --> 09:23.746
+Když tedy předpokládáme,
+že f je diferencovatelná v bodě c,
+
+09:23.746 --> 09:28.176
+můžeme napsat,
+že limita...
+
+09:28.176 --> 09:29.715
+Jenom to opíšu.
+
+09:29.715 --> 09:36.095
+...limita pro x jdoucí k ‚c‘
+z f(x) minus f(c)...
+
+09:36.095 --> 09:39.515
+Můžu okolo toho napsat závorky,
+jako to mám nahoře.
+
+09:39.515 --> 09:41.948
+...je rovna 0.
+
+09:41.948 --> 09:46.066
+To je totéž, když použijeme
+vlastnosti limit, jako když napíšu, že…
+
+09:46.066 --> 09:49.514
+Napíšu to
+sem dolů.
+
+09:49.514 --> 10:03.725
+...limita pro x jdoucí k ‚c‘ z f(x) minus
+limita pro x jdoucí k ‚c‘ z f(c)
+
+10:03.725 --> 10:05.375
+se rovná 0.
+
+10:05.375 --> 10:09.383
+Limita rozdílu výrazů je totéž
+jako rozdíl jejich limit.
+
+10:09.383 --> 10:11.804
+Čemu se rovná
+tato limita?
+
+10:11.804 --> 10:17.637
+f(c) je jen nějaké číslo, není to funkce
+proměnné x, ale je to nějaká hodnota.
+
+10:17.637 --> 10:22.756
+Takže tato limita
+je prostě rovna f(c).
+
+10:22.756 --> 10:27.938
+Limita z f(x) pro x jdoucí
+k ‚c‘ minus f(c) je tedy rovno 0.
+
+10:27.938 --> 10:30.793
+Teď jen přičteme f(c) k oběma
+stranám rovnice a co dostaneme?
+
+10:30.793 --> 10:38.911
+Dostaneme, že limita pro x jdoucí
+k ‚c‘ z f(x) je rovna f(c).
+
+10:38.911 --> 10:41.083
+To je přesně
+definice spojitosti.
+
+10:41.083 --> 10:49.148
+Limita funkce pro x jdoucí k ‚c‘ je
+rovna funkční hodnotě v bodě ‚c‘.
+
+10:49.148 --> 10:57.457
+Toto tedy znamená, že naše
+funkce je v bodě ‚c‘ spojitá.
+
+10:57.457 --> 11:02.614
+Jen připomínám, že jsme předpokládali
+diferencovatelnost funkce f v bodě c,
+
+11:02.614 --> 11:08.847
+toho jsme pak využili k výpočtu
+této limity, která nám vyšla jako 0,
+
+11:08.847 --> 11:12.455
+a když je tato limita rovna 0,
+tak už z toho plyne,
+
+11:12.455 --> 11:15.445
+když použijeme algebraické
+úpravy a vlastnosti limit,
+
+11:15.445 --> 11:19.454
+že limita pro x jdoucí k ‚c‘
+z f(x) je rovna f(c),
+
+11:19.454 --> 11:26.435
+což je přímo naše definice
+spojitosti funkce v bodě ‚c‘.
+
+11:26.435 --> 11:27.753
+Doufám, že to
+takto stačilo.
+
+11:27.753 --> 11:32.761
+Pokud víme, že existuje derivace v bodě c,
+že funkce je v bodě c diferencovatelná,
+
+11:32.761 --> 11:38.981
+tak to znamená, že funkce
+je v tomto bodě také spojitá.

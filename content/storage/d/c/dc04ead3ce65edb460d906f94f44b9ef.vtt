@@ -1,0 +1,406 @@
+WEBVTT
+
+00:01.370 --> 00:03.367
+Neste vídeo eu gostaria de falar um pouco sobre
+
+00:03.367 --> 00:07.500
+o que significa ser um número primo
+
+00:07.500 --> 00:10.094
+e o que espero que você veja neste vídeo
+
+00:10.110 --> 00:12.608
+é um conceito muito simples
+
+00:12.608 --> 00:15.302
+mas no decorrer de seu progresso matemático
+
+00:15.302 --> 00:17.601
+você verá que na verdade existem conceitos bastante sofisticados
+
+00:17.601 --> 00:20.712
+que podem ser construídos em cima da ideia de um número primo
+
+00:20.712 --> 00:23.359
+e que inclui a idea de criptografia
+
+00:23.359 --> 00:25.612
+e talvez algumas codificações que o seu computador
+
+00:25.612 --> 00:28.026
+usa agora, podem ser baseadas em números primos.
+
+00:28.026 --> 00:29.931
+Se você não sabe o que codificação significa
+
+00:29.931 --> 00:31.718
+você não precisa se preocupar agora
+
+00:31.718 --> 00:33.785
+você só precisa saber que os números primos são
+
+00:33.785 --> 00:36.966
+muito importantes.Então eu vou dizer a definição
+
+00:36.966 --> 00:39.404
+e a definição pode de ser um pouco confusa
+
+00:39.404 --> 00:43.839
+mas quando vemos com exemplos ela deve ser bem simples.
+
+00:43.839 --> 00:49.946
+Um número é primo se for um número natural
+
+00:49.946 --> 00:57.794
+por exemplo 1, 2 ou 3 (os números contando a partir de 1)
+
+00:57.794 --> 01:00.488
+ou você pode dizer "os inteiros positivos"
+
+01:00.488 --> 01:30.962
+é um número natural divi[sivel por exatamente dois números naturais : ele mesmo e 1.
+
+01:30.962 --> 01:39.823
+Esses são os dois números pelo qual ele é divisível.
+
+01:39.823 --> 01:43.468
+Se isso não faz sentido para você, vamos fazer alguns exemplos.
+
+01:43.468 --> 01:46.115
+Vamos descobrir se alguns números são primos ou não.
+
+01:46.115 --> 01:48.948
+Então vamos começar com o menor número natural.
+
+01:48.948 --> 01:52.268
+O número 1.Então vamos dizer que "1 é divisível por 1"
+
+01:52.268 --> 01:59.095
+e que "1 é divisível por si mesmo".Ei!1 é um número primo!
+
+01:59.095 --> 02:02.137
+Mas lembre-se de parte da nossa definição, ele precisa ser divisível
+
+02:02.137 --> 02:07.803
+por exatamente dois números naturais.1 é divisível por apenas um número natural, apenas pelo 1.
+
+02:07.803 --> 02:16.673
+Então 1, mesmo sendo um pouco intuitivo, não é um número primo.
+
+02:16.673 --> 02:20.504
+Vamos para o número 2.
+
+02:20.504 --> 02:28.102
+Então 2 é divisível por 1 e por 2, e por mais nenhum número natural.
+
+02:28.102 --> 02:30.906
+Então parece estar dentro de nossas restrições.
+
+02:30.906 --> 02:33.948
+é divisível por exatos dois números naturais.
+
+02:33.948 --> 02:42.238
+Ele mesmo e 1.Então o número 2 é primo.
+
+02:42.238 --> 02:52.849
+Eu vou circular os números que são primos.
+
+02:52.849 --> 02:55.334
+O número 2 é interessante porque
+
+02:55.334 --> 02:57.818
+É o único número par que é primo.
+
+02:57.818 --> 03:00.396
+Se você pensar nisso, qualquer outro número par
+
+03:00.396 --> 03:03.620
+também será divisível por 2, então não será primo.
+
+03:03.620 --> 03:06.688
+Pensaremos sobre isso em vídeos futuros.
+
+03:06.688 --> 03:13.144
+Vamos tentar o 3.Bom, 3 é definitivamente divisível por 1 e 3
+
+03:13.144 --> 03:15.651
+e não é divisível por nada entre.
+
+03:15.651 --> 03:20.272
+não é divisível por 2.Então 3 também é um número primo.
+
+03:20.272 --> 03:25.264
+Vamos tentar o 4.
+
+03:25.264 --> 03:29.676
+4 é definitivamente divisível por 1 e por 4, mas
+
+03:29.676 --> 03:36.224
+é também divisível por 2.Então é divisível
+
+03:36.224 --> 03:40.311
+por três números naturais: 1, 2 e 4
+
+03:40.311 --> 03:44.723
+Então não fecha com nossas restrições para ser primo.
+
+03:44.723 --> 03:48.252
+Vamos tentar o 5.
+
+03:48.252 --> 03:51.015
+5 é definitivamente divisível por 1,
+
+03:51.015 --> 03:57.842
+Não é divisível por 2, 3 ou 4
+
+03:57.842 --> 04:01.209
+(você pode dividir 5/4 mas você iria ter um restante)
+
+04:01.209 --> 04:05.133
+E é exatamente divisível por 5, obviamente.
+
+04:05.133 --> 04:10.265
+Então novamente, 5 é divisível por exatos dois números naturais: 1 e 5
+
+04:10.265 --> 04:14.235
+Então novamente, 5 é primo.Vamos seguir,
+
+04:14.235 --> 04:17.393
+para que possamos ver se existe algum tipo de padrão
+
+04:17.393 --> 04:19.924
+então talvez eu vou tentar um bem difícil
+
+04:19.924 --> 04:26.031
+esta tende a enganar as pessoas.Então vamos tentar o número 6.
+
+04:26.031 --> 04:34.622
+É divisível por 1, 2, 3 e 6.
+
+04:34.622 --> 04:37.595
+Então tem quatro números naturais "fatores",
+
+04:37.595 --> 04:40.033
+eu acredito que você possa dizer dessa forma
+
+04:40.033 --> 04:43.005
+Então não tem exatamente dois números pelos quais o número é divisível,
+
+04:43.005 --> 04:46.743
+tem quatro, então não é primo.
+
+04:46.743 --> 04:49.715
+Vamos para o 7.
+
+04:49.715 --> 04:55.869
+7 é divisível por 1, não por 2, 3, 4, 5 ou 6.
+
+04:55.869 --> 05:00.791
+mas é também divisível por 7
+
+05:00.791 --> 05:03.624
+então 7 é primo.Eu acredito que você tenha entendido a ideia geral aqui.
+
+05:03.624 --> 05:06.689
+Quantos números naturais, números como 1, 2, 3, 4, 5,
+
+05:06.689 --> 05:09.383
+os números que você aprendeu quando tinha dois anos de idade
+
+05:09.383 --> 05:11.681
+exceto os zero, exceto os números negativos,
+
+05:11.681 --> 05:13.980
+exceto as frações e os números irracionais,
+
+05:13.980 --> 05:15.768
+e os decimais e todo o resto,
+
+05:15.768 --> 05:18.578
+só os números positivos.
+
+05:18.578 --> 05:21.318
+Se você têm apenas dois deles,
+
+05:21.318 --> 05:23.733
+se você é apenas divisível por você mesmo e por 1,
+
+05:23.733 --> 05:25.544
+então você é primo.
+
+05:25.544 --> 05:27.192
+e da maneira como eu penso,
+
+05:27.192 --> 05:29.607
+se não pensarmos no caso especias do 1
+
+05:29.607 --> 05:31.604
+números primos são como aqueles blocos de criança de números.
+
+05:31.604 --> 05:33.299
+Você não pode mais destruí-los.
+
+05:33.299 --> 05:34.809
+Eles são praticamente como átomos.
+
+05:34.809 --> 05:36.285
+Se você pensar no que um átomo é,
+
+05:36.285 --> 05:38.111
+ou o que as pessoas pensavam que átomos eram quando eles primeiro...
+
+05:38.111 --> 05:39.991
+ele pensavam que eles éram o que
+
+05:39.991 --> 05:41.890
+não poderia ser dividido.
+
+05:41.890 --> 05:43.986
+Agora sabemos que podemos dividir átomos e na verdade
+
+05:43.986 --> 05:46.475
+se você o fizer, você pode gerar uma explosão nuclear.
+
+05:46.475 --> 05:49.655
+Mas é a mesma ideia por trás dos números primos.
+
+05:49.655 --> 05:52.618
+Não se pode desfazê-los
+
+05:52.618 --> 05:57.402
+em produtos de números natuais menores.
+
+05:57.402 --> 06:01.256
+Números como 6 você pode dizer, hey, 6 é duas vezes 3,
+
+06:01.256 --> 06:03.717
+você pode desfazê-lo, e perceba, podemos desfazê-lo
+
+06:03.717 --> 06:06.411
+como o produto de números primos.
+
+06:06.411 --> 06:08.872
+Nós desfizemos ele em suas próprias partes.
+
+06:08.872 --> 06:11.217
+7 você não pode desfazer mais.
+
+06:11.217 --> 06:14.817
+Tudo o que pode dizer é que 7 é igual a uma vez o 7.
+
+06:14.817 --> 06:16.930
+E nesse caso você não realmente o desfez.
+
+06:16.930 --> 06:19.066
+Você só tem o 7 lá de novo.
+
+06:19.066 --> 06:20.877
+6 você pode realmente desfazer.
+
+06:20.877 --> 06:23.965
+4 você pode realmente desfazer como duas vezes dois.
+
+06:23.965 --> 06:25.800
+Agora com isso fora do caminho, vamos pensar em
+
+06:25.800 --> 06:27.425
+alguns números maiores, e pensar
+
+06:27.425 --> 06:30.072
+se esses números maiores são primos.
+
+06:30.072 --> 06:34.902
+Vamos tentar 16.
+
+06:34.902 --> 06:38.872
+Claramente qualquer número natural é divisível por 1 e por si mesmo.
+
+06:38.872 --> 06:42.262
+Então 16 é divisóvel por 1 e 16.
+
+06:42.262 --> 06:44.143
+Então vamos começar com dois,
+
+06:44.143 --> 06:46.071
+se você consegue achar mais alguma coisa que vá ai dentro
+
+06:46.071 --> 06:48.207
+então você sabe que não é primo.
+
+06:48.207 --> 06:51.109
+E para 16 você pode ter 2 vezes 8,
+
+06:51.109 --> 06:53.362
+você pode ter 4 vezes 4,
+
+06:53.362 --> 06:55.451
+então existem vários fatores aqui,
+
+06:55.451 --> 06:57.588
+muito além do 1 e 16.
+
+06:57.588 --> 07:02.278
+Então 16 não é primo. E o 17?
+
+07:02.278 --> 07:06.411
+1 e 17 estão definitivamente no 17,
+
+07:06.411 --> 07:10.846
+2 não está no 17, 3 não, 4, 5, 6, 7, 8,...
+
+07:10.846 --> 07:14.701
+nenhum desses números, nada entre 1 e 17
+
+07:14.701 --> 07:21.086
+entra no 17, então 17 é primo.
+
+07:21.086 --> 07:23.803
+E agora vou te dar um difícil.
+
+07:23.803 --> 07:26.822
+Esta pode enganar muitas pessoas.
+
+07:26.822 --> 07:34.345
+E o 51? O 51 é primo?
+
+07:34.345 --> 07:37.480
+E se você está interessado você pode pausar o vídeo aqui
+
+07:37.480 --> 07:39.500
+e tentar descobrir por si mesmo
+
+07:39.500 --> 07:41.520
+se 51 é um número primo.
+
+07:41.520 --> 07:45.142
+Se você consegue achar qualque outro número além de 1 e 51
+
+07:45.142 --> 07:48.161
+que seja divisível por 51.Parece que...
+
+07:48.161 --> 07:50.042
+wow esse é um tipo estranho de número
+
+07:50.042 --> 07:52.340
+Você pode ficar tentado a pensar que é primo,
+
+07:52.340 --> 07:54.268
+mas agora vou te dar a resposta.
+
+07:54.268 --> 07:59.933
+Não é primo, porque também pe divisível por 3 e 17
+
+07:59.933 --> 08:02.998
+3 vezes 17 é 51.
+
+08:02.998 --> 08:04.779
+Então espero que isso te dê uma ideia
+
+08:04.779 --> 08:06.388
+do que os números primos são,
+
+08:06.388 --> 08:09.407
+e espero que nós possamos te dar um pouco de prática nisso
+
+08:09.407 --> 3:59:59.999
+em vídeos futuros e talvez em alguns de nossos exercícios.
